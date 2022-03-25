@@ -3,11 +3,12 @@ import json
 import os
 from difflib import SequenceMatcher
 from os import path
+from zipfile import ZipFile
 
 from langset import LANG_LINE_PATTERN
 from modpack import ModPack
 from translationpack import TranslationPack
-from utils import set_output, get_zip_from_url
+from utils import set_output
 
 
 def generate_translation(nmp: ModPack, omp: ModPack, tp: TranslationPack, output_dir: str):
@@ -44,14 +45,14 @@ def get_changed_paths(omp: ModPack, nmp: ModPack, rtp: TranslationPack):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--old-modpack-url', dest='old_modpack_url', type=str, required=True)
-    parser.add_argument('--new-modpack-url', dest='new_modpack_url', type=str, required=True)
+    parser.add_argument('--old-modpack-path', dest='old_modpack_path', type=str, required=True)
+    parser.add_argument('--new-modpack-path', dest='new_modpack_path', type=str, required=True)
     parser.add_argument('--reference-path', dest='reference_path', type=str, required=True)
     parser.add_argument('--output-path', dest='output_path', type=str, required=True)
     args = parser.parse_args()
 
-    new_mod_pack = ModPack(get_zip_from_url(args.new_modpack_url))
-    old_mod_pack = ModPack(get_zip_from_url(args.old_modpack_url))
+    new_mod_pack = ModPack(ZipFile(args.new_modpack_path))
+    old_mod_pack = ModPack(ZipFile(args.old_modpack_path))
     ref_translation_pack = TranslationPack(args.reference_path)
     generate_translation(new_mod_pack, old_mod_pack, ref_translation_pack, args.output_path)
 
