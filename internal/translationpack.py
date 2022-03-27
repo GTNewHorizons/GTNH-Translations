@@ -1,7 +1,7 @@
 from os import path
 from pathlib import Path
 
-from langset import LangSet
+from .langset import LangSet
 
 
 class TranslationPack:
@@ -14,6 +14,5 @@ class TranslationPack:
         lang_files = {}
         for _path in self.__resources_mod_path.glob('**/zh_CN.lang'):
             relpath = path.relpath(_path, self.__resources_mod_path)
-            lang_files[relpath] = _path.read_text()
-
+            lang_files[relpath] = _path.read_text(encoding='utf-8', errors='ignore')
         return lang_files

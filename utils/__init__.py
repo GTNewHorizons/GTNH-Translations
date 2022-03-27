@@ -10,7 +10,7 @@ def replace_illegal_characters(name):
 
 
 def set_output(key: str, value: str):
-    print('::set-output name={}::{}'.format(key, value))
+    print(f'::set-output name={key}::{value}')
 
 
 def get_similarity(a: str, b: str):

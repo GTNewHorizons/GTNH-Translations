@@ -4,8 +4,7 @@ import shutil
 from os import path
 from zipfile import ZipFile
 
-from modpack import ModPack
-from translationpack import TranslationPack
+from internal import ModPack, TranslationPack
 from utils import get_similarity, match_lang_line, git_commit
 
 RESOURCES_MOD_REL_PATH = path.join('resources', 'mod')
@@ -21,14 +20,14 @@ def parse_args():
     return parser.parse_args()
 
 
-def generate_translation(nmp: ModPack, omp: ModPack, tp: TranslationPack, output_dir: str):
+def generate_translation(nmp: ModPack, omp: ModPack, tp: TranslationPack, output_path: str):
     for relpath in nmp.lang_set.get_lang_file_relpath_list():
         output_file_relpath = relpath.replace('en_US', 'zh_CN')
-        output_file_path = path.join(output_dir, output_file_relpath)
+        output_file_path = path.join(output_path, output_file_relpath)
         os.makedirs(path.dirname(output_file_path), exist_ok=True)
         with open(output_file_path, 'w') as fp:
             if omp.lang_set.get_content(relpath) == nmp.lang_set.get_content(relpath):
-                fp.write(tp.lang_set.get_content(output_file_relpath, ''))
+                fp.write(tp.lang_set.get_content(output_file_relpath, nmp.lang_set.get_content(relpath)))
             else:
                 lines = nmp.lang_set.get_content(relpath).splitlines()
                 for idx, line in enumerate(lines):
@@ -85,9 +84,14 @@ if __name__ == '__main__':
     # endregion Handle changed mod info
 
     # region Generate new translations
-    generate_translation(new_mod_pack, old_mod_pack, ref_translation_pack, args.output_path)
+    generate_translation(
+        new_mod_pack,
+        old_mod_pack,
+        ref_translation_pack,
+        path.join(args.output_path, RESOURCES_MOD_REL_PATH)
+    )
     if args.repo_path is not None:
         shutil.rmtree(repo_resources_mod_path)
-        shutil.copytree(args.output_path, repo_resources_mod_path)
+        shutil.copytree(path.join(args.output_path, RESOURCES_MOD_REL_PATH), repo_resources_mod_path)
         git_commit('更新mod语言文件', RESOURCES_MOD_REL_PATH, args.repo_path)
     # endregion Generate new translations

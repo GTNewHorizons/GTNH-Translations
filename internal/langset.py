@@ -9,12 +9,12 @@ class LangSet:
         self.__generate_maps()
 
     def __generate_maps(self):
-        for rel_path, content in self.__lang_files.items():
+        for relpath, content in self.__lang_files.items():
             for line in content.splitlines():
                 k, v = match_lang_line(line)
                 if k is not None:
                     self.__lang_key_to_value_map[k] = v
-                    self.__lang_key_to_relpath_map[k] = rel_path
+                    self.__lang_key_to_relpath_map[k] = relpath
 
     def get_lang_file_relpath_list(self) -> list[str]:
         return list(self.__lang_files.keys())

@@ -4,7 +4,7 @@ import zipfile
 
 import utils
 
-from langset import LangSet
+from.langset import LangSet
 
 
 class ModPack:
