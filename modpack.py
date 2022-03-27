@@ -7,27 +7,23 @@ import utils
 from langset import LangSet
 
 
-class ModPack(LangSet):
+class ModPack:
     def __init__(self, zif_file: zipfile.ZipFile):
-        super().__init__()
         self.__zif_file = zif_file
-
         self.__mod_name_list = self.__get_mod_name_list()
-        self.__lang_map = None
+        self.lang_set = LangSet(self.__get_lang_files())
 
-    def __get_mod_name_list(self):
+    def __get_mod_name_list(self) -> list[str]:
         return [f for f in self.__zif_file.namelist() if re.match(r'^mods/.*\.jar$', f)]
 
-    @property
-    def lang_map(self):
-        if self.__lang_map is None:
-            self.__lang_map = {}
-            for mod_name in self.__mod_name_list:
-                with self.__zif_file.open(mod_name) as mod_jar:
-                    mod = Mod(zipfile.ZipFile(mod_jar))
-                    for filename, content in mod.lang_files.items():
-                        self.__lang_map[f'{mod.mod_name}/{filename}'] = content
-        return self.__lang_map
+    def __get_lang_files(self) -> dict[str, str]:
+        lang_files = {}
+        for mod_name in self.__mod_name_list:
+            with self.__zif_file.open(mod_name) as mod_jar:
+                mod = Mod(zipfile.ZipFile(mod_jar))
+                for filename, content in mod.lang_files.items():
+                    lang_files[f'{mod.mod_name}/{filename}'] = content
+        return lang_files
 
 
 class Mod:
@@ -37,7 +33,7 @@ class Mod:
         self.__lang_files = None
 
     @property
-    def mod_name(self):
+    def mod_name(self) -> str:
         if self.__mod_name is None:
             try:
                 with self.__jar.open('mcmod.info', 'r') as fp:
@@ -56,7 +52,7 @@ class Mod:
         return self.__mod_name
 
     @property
-    def lang_files(self):
+    def lang_files(self) -> dict[str, str]:
         if self.__lang_files is None:
             self.__lang_files = {}
             for f in self.__jar.namelist():
