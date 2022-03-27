@@ -30,16 +30,16 @@ def generate_translation(nmp: ModPack, omp: ModPack, tp: TranslationPack, output
             if omp.lang_set.get_content(relpath) == nmp.lang_set.get_content(relpath):
                 fp.write(tp.lang_set.get_content(output_file_relpath, ''))
             else:
-                result = []
-                for line in nmp.lang_set.get_content(relpath).splitlines():
+                lines = nmp.lang_set.get_content(relpath).splitlines()
+                for idx, line in enumerate(lines):
+                    nl = '\n' if idx != len(lines) - 1 else ''
                     key, _ = match_lang_line(line)
                     if key is not None:
                         if nmp.lang_set.get_value(key) == omp.lang_set.get_value(key):
                             if tp.lang_set.get_value(key) is not None:
-                                result.append(f'{key}={tp.lang_set.get_value(key)}')
+                                fp.write(f'{key}={tp.lang_set.get_value(key)}{nl}')
                                 continue
-                    result.append(line)
-                fp.writelines(result)
+                    fp.write(f'{line}{nl}')
 
 
 def get_changed_paths(omp: ModPack, nmp: ModPack, tp: TranslationPack):
