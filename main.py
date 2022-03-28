@@ -8,6 +8,7 @@ from internal import ModPack, TranslationPack
 from utils import get_similarity, match_lang_line, git_commit
 
 RESOURCES_MOD_REL_PATH = path.join('resources', 'mod')
+SCRIPTS_REL_PATH = path.join('scripts')
 
 
 def parse_args():
@@ -20,7 +21,7 @@ def parse_args():
     return parser.parse_args()
 
 
-def generate_translation(nmp: ModPack, omp: ModPack, tp: TranslationPack, output_path: str):
+def generate_lang_translation(nmp: ModPack, omp: ModPack, tp: TranslationPack, output_path: str):
     for relpath in nmp.lang_set.get_lang_file_relpath_list():
         output_file_relpath = relpath.replace('en_US', 'zh_CN')
         output_file_path = path.join(output_path, output_file_relpath)
@@ -57,8 +58,35 @@ def get_changed_paths(omp: ModPack, nmp: ModPack, tp: TranslationPack):
     return [{'from': f, 'to': t} for f, t in sorted(ts)]
 
 
+def generate_script_translation(omp: ModPack, nmp: ModPack, tp: TranslationPack, output_path: str):
+    for relpath in nmp.script_set.get_script_file_relpath_list():
+        if len(nmp.script_set.get_keys(relpath)) != 0:
+            output_file_path = path.join(output_path, relpath)
+            os.makedirs(path.dirname(output_file_path), exist_ok=True)
+            if nmp.script_set.get_content(relpath) == omp.script_set.get_content(relpath):
+                with open(output_file_path, 'w') as fp:
+                    fp.write(tp.script_set.get_content(relpath, nmp.script_set.get_content(relpath)))
+                    continue
+            content = nmp.script_set.get_content(relpath)
+            for key in nmp.script_set.get_keys(relpath):
+                if nmp.script_set.get_value(relpath, key) == omp.script_set.get_value(relpath, key):
+                    content = content.replace(
+                        nmp.script_set.get_value(relpath, key),
+                        tp.script_set.get_value(relpath, key)
+                    )
+            with open(output_file_path, 'w') as fp:
+                fp.write(content)
+
+
+def get_new_version(new_modpack_path: str):
+    new_file_name = path.splitext(path.basename(new_modpack_path))[0]
+    return new_file_name.split('-')[-1]
+
+
 if __name__ == '__main__':
     args = parse_args()
+
+    new_version = get_new_version(args.new_modpack_path)
 
     new_mod_pack = ModPack(ZipFile(args.new_modpack_path))
     old_mod_pack = ModPack(ZipFile(args.old_modpack_path))
@@ -77,14 +105,14 @@ if __name__ == '__main__':
                 continue
             shutil.move(path.join(repo_resources_mod_path, _from),
                         path.join(repo_resources_mod_path, _to))
-            git_commit(f'重命名文件夹 {_from} -> {_to}', RESOURCES_MOD_REL_PATH, args.repo_path)
+            git_commit(f'[自动化{new_version}]重命名文件夹 {_from} -> {_to}', RESOURCES_MOD_REL_PATH, args.repo_path)
     else:
         for changed_path in changed_paths:
             print(f'{changed_path["from"]} -> {changed_path["to"]}')
     # endregion Handle changed mod info
 
-    # region Generate new translations
-    generate_translation(
+    # region Generate new lang file translations
+    generate_lang_translation(
         new_mod_pack,
         old_mod_pack,
         ref_translation_pack,
@@ -93,5 +121,18 @@ if __name__ == '__main__':
     if args.repo_path is not None:
         shutil.rmtree(repo_resources_mod_path)
         shutil.copytree(path.join(args.output_path, RESOURCES_MOD_REL_PATH), repo_resources_mod_path)
-        git_commit('更新mod语言文件', RESOURCES_MOD_REL_PATH, args.repo_path)
+        git_commit(f'[自动化{new_version}]更新mod语言文件', RESOURCES_MOD_REL_PATH, args.repo_path)
     # endregion Generate new translations
+
+    # region Generate new script file translations
+    generate_script_translation(
+        old_mod_pack,
+        new_mod_pack,
+        ref_translation_pack,
+        path.join(args.output_path, SCRIPTS_REL_PATH)
+    )
+    if args.repo_path is not None:
+        shutil.rmtree(path.join(args.repo_path, SCRIPTS_REL_PATH))
+        shutil.copytree(path.join(args.output_path, SCRIPTS_REL_PATH), path.join(args.repo_path, SCRIPTS_REL_PATH))
+        git_commit(f'[自动化{new_version}]更新脚本', SCRIPTS_REL_PATH, args.repo_path)
+    # endregion Generate new script file translations

@@ -1,10 +1,12 @@
 import json
 import re
 import zipfile
+from os import path
 
 import utils
 
-from.langset import LangSet
+from .langset import LangSet
+from .scriptset import ScriptSet
 
 
 class ModPack:
@@ -12,6 +14,7 @@ class ModPack:
         self.__zif_file = zif_file
         self.__mod_name_list = self.__get_mod_name_list()
         self.lang_set = LangSet(self.__get_lang_files())
+        self.script_set = ScriptSet(self.__get_script_files())
 
     def __get_mod_name_list(self) -> list[str]:
         return [f for f in self.__zif_file.namelist() if re.match(r'^mods/.*\.jar$', f)]
@@ -24,6 +27,16 @@ class ModPack:
                 for filename, content in mod.lang_files.items():
                     lang_files[f'{mod.mod_name}/{filename}'] = content
         return lang_files
+
+    def __get_script_files(self) -> dict[str, str]:
+        script_files = {}
+        for f in self.__zif_file.namelist():
+            if re.match(r'^scripts/.*\.zs$', f):
+                with self.__zif_file.open(f) as script_file:
+                    script_files[path.basename(f)] = '\n'.join(
+                        script_file.read().decode('utf-8', errors='ignore').splitlines()
+                    ) + '\n'
+        return script_files
 
 
 class Mod:
@@ -58,5 +71,5 @@ class Mod:
             for f in self.__jar.namelist():
                 if f.endswith('en_US.lang'):
                     with self.__jar.open(f, mode='r') as fp:
-                        self.__lang_files[f] = fp.read().decode('utf-8', errors='ignore')
+                        self.__lang_files[f] = '\n'.join(fp.read().decode('utf-8', errors='ignore').splitlines()) + '\n'
         return self.__lang_files
