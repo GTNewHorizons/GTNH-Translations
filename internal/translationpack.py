@@ -1,28 +1,32 @@
+import pathlib
 from os import path
-from pathlib import Path
+from typing import List
 
-from .langset import LangSet
-from .scriptset import ScriptSet
+import utils
+from .comparable import Comparable
+from .langfiletype import LangFiletype
+from .scriptfiletype import ScriptFiletype
 
 
 class TranslationPack:
-    def __init__(self, translation_pack_path):
-        self.__translation_pack_path = Path(translation_pack_path)
-        self.__resources_mod_path = Path(path.join(self.__translation_pack_path, 'resources', 'mod'))
-        self.__scripts_path = Path(path.join(self.__translation_pack_path, 'scripts'))
-        self.lang_set = LangSet(self.__get_lang_files())
-        self.script_set = ScriptSet(self.__get_script_files())
+    def __init__(self, pack_path: pathlib.Path):
+        self.__pack_path = pack_path
+        self.lang_files: List[Comparable] = self.__get_lang_files()
+        self.script_files: List[Comparable] = self.__get_script_files()
 
-    def __get_lang_files(self) -> dict[str, str]:
-        lang_files = {}
-        for _path in self.__resources_mod_path.glob('**/zh_CN.lang'):
-            relpath = path.relpath(_path, self.__resources_mod_path)
-            lang_files[relpath] = '\n'.join(_path.read_text(encoding='utf-8', errors='ignore').splitlines()) + '\n'
+    def __get_lang_files(self) -> List[Comparable]:
+        lang_files = []
+        resources_mod_path = self.__pack_path / 'resources' / 'mod'
+        for f in resources_mod_path.glob('**/zh_CN.lang'):
+            relpath = path.relpath(f, resources_mod_path)
+            lang_files.append(LangFiletype(relpath, f.read_text(encoding='utf-8', errors='ignore')))
         return lang_files
 
-    def __get_script_files(self) -> dict[str, str]:
-        script_files = {}
-        for _path in self.__scripts_path.glob('*.zs'):
-            relpath = path.relpath(_path, self.__scripts_path)
-            script_files[relpath] = '\n'.join(_path.read_text(encoding='utf-8', errors='ignore').splitlines()) + '\n'
+    # noinspection DuplicatedCode
+    def __get_script_files(self) -> List[Comparable]:
+        script_files = []
+        for f in self.__pack_path.glob('scripts/*.zs'):
+            script_file = ScriptFiletype(f.name, utils.ensure_lf(f.read_text(encoding='utf-8', errors='ignore')))
+            if 0 < len(script_file.properties):
+                script_files.append(script_file)
         return script_files

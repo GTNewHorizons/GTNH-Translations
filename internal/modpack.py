@@ -1,41 +1,36 @@
 import json
-import re
+import pathlib
 import zipfile
-from os import path
+from typing import List, Dict
 
 import utils
-
-from .langset import LangSet
-from .scriptset import ScriptSet
+from .comparable import Comparable
+from .langfiletype import LangFiletype
+from .scriptfiletype import ScriptFiletype
 
 
 class ModPack:
-    def __init__(self, zif_file: zipfile.ZipFile):
-        self.__zif_file = zif_file
-        self.__mod_name_list = self.__get_mod_name_list()
-        self.lang_set = LangSet(self.__get_lang_files())
-        self.script_set = ScriptSet(self.__get_script_files())
+    def __init__(self, pack_path: pathlib.Path):
+        self.__pack_path = pack_path
+        self.lang_files: List[Comparable] = self.__get_lang_files()
+        self.script_files: List[Comparable] = self.__get_script_files()
 
-    def __get_mod_name_list(self) -> list[str]:
-        return [f for f in self.__zif_file.namelist() if re.match(r'^mods/.*\.jar$', f)]
-
-    def __get_lang_files(self) -> dict[str, str]:
-        lang_files = {}
-        for mod_name in self.__mod_name_list:
-            with self.__zif_file.open(mod_name) as mod_jar:
+    def __get_lang_files(self) -> List[Comparable]:
+        lang_files = []
+        for mod_path in self.__pack_path.glob('mods/**/*.jar'):
+            with mod_path.open('rb') as mod_jar:
                 mod = Mod(zipfile.ZipFile(mod_jar))
                 for filename, content in mod.lang_files.items():
-                    lang_files[f'{mod.mod_name}/{filename}'] = content
+                    lang_files.append(LangFiletype(f'{mod.mod_name}/{filename}', content))
         return lang_files
 
-    def __get_script_files(self) -> dict[str, str]:
-        script_files = {}
-        for f in self.__zif_file.namelist():
-            if re.match(r'^scripts/.*\.zs$', f):
-                with self.__zif_file.open(f) as script_file:
-                    script_files[path.basename(f)] = '\n'.join(
-                        script_file.read().decode('utf-8', errors='ignore').splitlines()
-                    ) + '\n'
+    # noinspection DuplicatedCode
+    def __get_script_files(self) -> List[Comparable]:
+        script_files = []
+        for f in self.__pack_path.glob('scripts/*.zs'):
+            script_file = ScriptFiletype(f.name, utils.ensure_lf(f.read_text(encoding='utf-8', errors='ignore')))
+            if 0 < len(script_file.properties):
+                script_files.append(script_file)
         return script_files
 
 
@@ -65,11 +60,11 @@ class Mod:
         return self.__mod_name
 
     @property
-    def lang_files(self) -> dict[str, str]:
+    def lang_files(self) -> Dict[str, str]:
         if self.__lang_files is None:
             self.__lang_files = {}
             for f in self.__jar.namelist():
                 if f.endswith('en_US.lang'):
                     with self.__jar.open(f, mode='r') as fp:
-                        self.__lang_files[f] = '\n'.join(fp.read().decode('utf-8', errors='ignore').splitlines()) + '\n'
+                        self.__lang_files[f] = utils.ensure_lf(fp.read().decode('utf-8', errors='ignore'))
         return self.__lang_files
