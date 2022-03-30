@@ -40,6 +40,13 @@ def collect_properties(files: List[Comparable]):
     return properties
 
 
+def diff(old_en: str, new_en: str, old_zh: str):
+    old_en = '\n'.join([f'# *** #{line}' for line in old_en.splitlines()])
+    old_zh = '\n'.join([f'# --- #{line}' for line in old_zh.splitlines()])
+    new_en = '\n'.join([f'# +++ #{line}' for line in new_en.splitlines()])
+    return f'{old_en}\n{old_zh}\n{new_en}'
+
+
 def generate_translation(
         old_files: List[Comparable],
         new_files: List[Comparable],
@@ -54,9 +61,13 @@ def generate_translation(
         os.makedirs(path.dirname(output_file_path), exist_ok=True)
         content = new_file.content
         for k, v in new_file.properties.items():
-            if k in old_properties and old_properties[k] == v:
-                if k in ref_properties:
-                    content = content.replace(v, ref_properties[k])
+            if k in old_properties:
+                if old_properties[k] == v:
+                    if k in ref_properties:
+                        content = content.replace(v, ref_properties[k])
+                else:
+                    if k in ref_properties:
+                        content = content.replace(v, diff(old_properties.get(k, ''), v, ref_properties.get(k, '')))
         with open(output_file_path, 'w', encoding='utf-8') as fp:
             fp.write(content)
 
