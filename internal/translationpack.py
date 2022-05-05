@@ -16,9 +16,9 @@ class TranslationPack:
 
     def __get_lang_files(self) -> List[Comparable]:
         lang_files = []
-        resources_mod_path = self.__pack_path / 'resources' / 'mod'
-        for f in resources_mod_path.glob('**/zh_CN.lang'):
-            relpath = path.relpath(f, resources_mod_path)
+        resources_path = self.__pack_path / 'resources'
+        for f in resources_path.glob('**/zh_CN.lang'):
+            relpath = path.relpath(f, resources_path)
             lang_files.append(LangFiletype(relpath, f.read_text(encoding='utf-8', errors='ignore')))
         return lang_files
 

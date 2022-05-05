@@ -1,6 +1,7 @@
 import argparse
 import os
 import shutil
+import tempfile
 from os import path
 from pathlib import Path
 from typing import List
@@ -8,7 +9,7 @@ from typing import List
 from internal import ModPack, TranslationPack, Comparable
 from utils import get_similarity, git_commit
 
-RESOURCES_MOD_REL_PATH = path.join('resources', 'mod')
+RESOURCES_REL_PATH = path.join('resources')
 SCRIPTS_REL_PATH = path.join('scripts')
 
 
@@ -92,20 +93,20 @@ if __name__ == '__main__':
     old_mod_pack = ModPack(Path(args.old_modpack_path))
     ref_translation_pack = TranslationPack(Path(args.reference_path))
 
-    repo_resources_mod_path = None
+    repo_resources_path = None
     if args.repo_path is not None:
-        repo_resources_mod_path = path.join(args.repo_path, RESOURCES_MOD_REL_PATH)
+        repo_resources_path = path.join(args.repo_path, RESOURCES_REL_PATH)
 
     # region Handle changed mod info
     mod_changed_paths = get_mod_changed_paths(old_mod_pack, new_mod_pack, ref_translation_pack)
     for changed_path in mod_changed_paths:
         _from, _to = changed_path['from'], changed_path['to']
         if args.repo_path is not None:
-            if path.exists(path.join(repo_resources_mod_path, _to)):
+            if path.exists(path.join(repo_resources_path, _to)):
                 continue
-            shutil.move(path.join(repo_resources_mod_path, _from),
-                        path.join(repo_resources_mod_path, _to))
-            git_commit(f'[自动化{args.new_version}]重命名文件夹 {_from} -> {_to}', RESOURCES_MOD_REL_PATH, args.repo_path)
+            shutil.move(path.join(repo_resources_path, _from),
+                        path.join(repo_resources_path, _to))
+            git_commit(f'[自动化{args.new_version}]重命名文件夹 {_from} -> {_to}', RESOURCES_REL_PATH, args.repo_path)
         else:
             print(f'{_from} -> {_to}')
     # endregion Handle changed mod info
@@ -115,12 +116,19 @@ if __name__ == '__main__':
         old_mod_pack.lang_files,
         new_mod_pack.lang_files,
         ref_translation_pack.lang_files,
-        path.join(args.output_path, RESOURCES_MOD_REL_PATH)
+        path.join(args.output_path, RESOURCES_REL_PATH)
     )
     if args.repo_path is not None:
-        shutil.rmtree(repo_resources_mod_path)
-        shutil.copytree(path.join(args.output_path, RESOURCES_MOD_REL_PATH), repo_resources_mod_path)
-        git_commit(f'[自动化{args.new_version}]更新mod语言文件', RESOURCES_MOD_REL_PATH, args.repo_path)
+        with tempfile.TemporaryDirectory() as tmp_dir:
+            tmp_resources_path = path.join(tmp_dir, RESOURCES_REL_PATH)
+            shutil.copytree(repo_resources_path, tmp_resources_path)
+            shutil.rmtree(repo_resources_path)
+            shutil.copytree(path.join(args.output_path, RESOURCES_REL_PATH), repo_resources_path)
+            shutil.copytree(path.join(tmp_resources_path, 'minecraft'), path.join(repo_resources_path, 'minecraft'))
+            for d in Path(tmp_resources_path).glob('__other*'):
+                dirname = path.basename(d)
+                shutil.copytree(path.join(tmp_resources_path, dirname), path.join(repo_resources_path, dirname))
+            git_commit(f'[自动化{args.new_version}]更新mod语言文件', RESOURCES_REL_PATH, args.repo_path)
     # endregion Generate new translations
 
     # region Generate new script file translations

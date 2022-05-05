@@ -1,6 +1,7 @@
 import json
 import pathlib
 import zipfile
+from os import path
 from typing import List, Dict
 
 import utils
@@ -11,7 +12,10 @@ from .scriptfiletype import ScriptFiletype
 
 class ModPack:
     def __init__(self, pack_path: pathlib.Path):
-        self.__pack_path = pack_path
+        if len(list(pack_path.glob('resources'))) == 1:
+            self.__pack_path = pack_path
+        elif len(list(pack_path.glob('*/resources'))) == 1:
+            self.__pack_path = pathlib.Path(path.join(list(pack_path.glob('*/resources'))[0], '..'))
         self.lang_files: List[Comparable] = self.__get_lang_files()
         self.script_files: List[Comparable] = self.__get_script_files()
 
@@ -21,7 +25,9 @@ class ModPack:
             with mod_path.open('rb') as mod_jar:
                 mod = Mod(zipfile.ZipFile(mod_jar))
                 for filename, content in mod.lang_files.items():
-                    lang_files.append(LangFiletype(f'{mod.mod_name}/{filename}', content))
+                    sub_mod_id = filename.split('/')[1]
+                    filename = path.join(*filename.split('/')[2:])
+                    lang_files.append(LangFiletype(f'{mod.mod_name}[{sub_mod_id}]/{filename}', content))
         return lang_files
 
     # noinspection DuplicatedCode
@@ -64,7 +70,7 @@ class Mod:
         if self.__lang_files is None:
             self.__lang_files = {}
             for f in self.__jar.namelist():
-                if f.endswith('en_US.lang'):
+                if f.endswith('en_US.lang') and len(f.split('/')) == 4:
                     with self.__jar.open(f, mode='r') as fp:
                         self.__lang_files[f] = utils.ensure_lf(fp.read().decode('utf-8', errors='ignore'))
         return self.__lang_files
