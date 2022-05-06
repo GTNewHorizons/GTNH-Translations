@@ -61,7 +61,9 @@ def generate_translation(
         output_file_path = path.join(output_path, new_file.converted_relpath)
         os.makedirs(path.dirname(output_file_path), exist_ok=True)
         content = new_file.content
-        for k, v in new_file.properties.items():
+        properties = list(new_file.properties.items())
+        properties.sort(key=lambda p: len(p[0]), reverse=True)
+        for k, v in properties:
             if k in old_properties:
                 if old_properties[k] == v:
                     if k in ref_properties:
