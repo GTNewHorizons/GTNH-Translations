@@ -12,10 +12,9 @@ def set_output(key: str, value: str):
     print(f'::set-output name={key}::{value}')
 
 
-def get_similarity(a: str, b: str):
-    a_lens_set = set(a.splitlines())
-    b_lens_set = set(b.splitlines())
-    return len(a_lens_set & b_lens_set) / len(a_lens_set | b_lens_set)
+def set_output_and_print(key: str, value: str):
+    set_output(key, value)
+    print(f'{key}={value}')
 
 
 def ensure_lf(s: str):

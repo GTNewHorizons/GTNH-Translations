@@ -7,10 +7,13 @@ from pathlib import Path
 from typing import List
 
 from internal import ModPack, TranslationPack, Comparable
-from utils import get_similarity, git_commit
+from utils import git_commit, set_output_and_print
 
 RESOURCES_REL_PATH = path.join('resources')
 SCRIPTS_REL_PATH = path.join('scripts')
+
+EN_DUPLICATE_KEYS = dict()
+ZH_DUPLICATE_KEYS = dict()
 
 
 def parse_args():
@@ -24,28 +27,40 @@ def parse_args():
     return parser.parse_args()
 
 
-def log_duplicate_key(key: str, old_value: str, new_value: str):
-    print(f'Duplicate key: {key}')
-    print(f'First value: {old_value}')
-    print(f'Second value: {new_value}')
-    print()
+def add_duplicate_key(k: str, v: str, _type: str):
+    if _type == 'en':
+        dk = EN_DUPLICATE_KEYS
+    else:
+        dk = ZH_DUPLICATE_KEYS
+    if k not in dk:
+        dk[k] = set()
+    dk[k].add(v)
 
 
-def collect_properties(files: List[Comparable]):
+def collect_properties(files: List[Comparable], _type: str):
     properties = {}
     for file in files:
         for k, v in file.properties.items():
-            if k in properties and properties[k] != v:
-                log_duplicate_key(k, properties[k], v)
+            if k in properties:
+                add_duplicate_key(k, v, _type)
+                add_duplicate_key(k, properties[k], _type)
             properties[k] = v
     return properties
 
 
-def diff(old_en: str, new_en: str, old_zh: str):
-    old_en = '\n'.join([f'# *** #{line}' for line in old_en.splitlines()])
-    old_zh = '\n'.join([f'# --- #{line}' for line in old_zh.splitlines()])
-    new_en = '\n'.join([f'# +++ #{line}' for line in new_en.splitlines()])
-    return f'{old_en}\n{old_zh}\n{new_en}'
+def mark_diff(old_en: str, new_en: str, old_zh: str):
+    old_zh = '\n'.join([f'// --- //{line}' for line in old_zh.splitlines()])
+    new_en = '\n'.join([f'// +++ //{line}' for line in new_en.splitlines()])
+    old_en = '\n'.join([f'// ↑↑↑ //{line}' for line in old_en.splitlines()])
+    return f'{old_zh}\n{new_en}\n{old_en}'
+
+
+def mark_new(new_en: str):
+    return '\n'.join([f'// +++ //{line}' for line in new_en.splitlines()])
+
+
+def mark_duplicate(en: str):
+    return '\n'.join([f'// xxx //{line}' for line in en.splitlines()])
 
 
 def generate_translation(
@@ -54,8 +69,8 @@ def generate_translation(
         ref_files: List[Comparable],
         output_path: str,
 ):
-    old_properties = collect_properties(old_files)
-    ref_properties = collect_properties(ref_files)
+    old_properties = collect_properties(old_files, 'en')
+    ref_properties = collect_properties(ref_files, 'zh')
 
     for new_file in new_files:
         output_file_path = path.join(output_path, new_file.converted_relpath)
@@ -70,22 +85,11 @@ def generate_translation(
                         content = content.replace(v, ref_properties[k])
                 else:
                     if k in ref_properties:
-                        content = content.replace(v, diff(old_properties.get(k, ''), v, ref_properties.get(k, '')))
+                        content = content.replace(v, mark_diff(old_properties.get(k, ''), v, ref_properties.get(k, '')))
+            else:
+                content = content.replace(v, mark_new(v))
         with open(output_file_path, 'w', encoding='utf-8') as fp:
             fp.write(content)
-
-
-def get_mod_changed_paths(omp: ModPack, nmp: ModPack, tp: TranslationPack):
-    ts = set()
-    translation_pack_lang_relpath_list = [f.relpath for f in tp.lang_files]
-    for new_file in nmp.lang_files:
-        for old_file in omp.lang_files:
-            if new_file.relpath != old_file.relpath:
-                if (path.dirname(new_file.relpath), path.dirname(old_file.relpath)) not in ts \
-                        and 0.5 < get_similarity(new_file.content, old_file.content) \
-                        and old_file.converted_relpath in translation_pack_lang_relpath_list:
-                    ts.add((path.dirname(old_file.relpath), path.dirname(new_file.relpath)))
-    return [{'from': f, 'to': t} for f, t in sorted(ts)]
 
 
 if __name__ == '__main__':
@@ -98,20 +102,6 @@ if __name__ == '__main__':
     repo_resources_path = None
     if args.repo_path is not None:
         repo_resources_path = path.join(args.repo_path, RESOURCES_REL_PATH)
-
-    # region Handle changed mod info
-    mod_changed_paths = get_mod_changed_paths(old_mod_pack, new_mod_pack, ref_translation_pack)
-    for changed_path in mod_changed_paths:
-        _from, _to = changed_path['from'], changed_path['to']
-        if args.repo_path is not None:
-            if path.exists(path.join(repo_resources_path, _to)):
-                continue
-            shutil.move(path.join(repo_resources_path, _from),
-                        path.join(repo_resources_path, _to))
-            git_commit(f'[自动化{args.new_version}]重命名文件夹 {_from} -> {_to}', RESOURCES_REL_PATH, args.repo_path)
-        else:
-            print(f'{_from} -> {_to}')
-    # endregion Handle changed mod info
 
     # region Generate new lang file translations
     generate_translation(
@@ -145,3 +135,17 @@ if __name__ == '__main__':
         shutil.copytree(path.join(args.output_path, SCRIPTS_REL_PATH), path.join(args.repo_path, SCRIPTS_REL_PATH))
         git_commit(f'[自动化{args.new_version}]更新脚本', SCRIPTS_REL_PATH, args.repo_path)
     # endregion Generate new script file translations
+
+    # region Log DUPLICATE_KEYS
+    duplicate_keys_log_content = '<details><summary>重复Key</summary>'
+    for dk in (EN_DUPLICATE_KEYS, ZH_DUPLICATE_KEYS):
+        for key in dk:
+            if len(dk[key]) == 1:
+                continue
+            duplicate_keys_log_content += f'<p>Duplicate key: {key}<br>'
+            for i, value in enumerate(dk[key]):
+                duplicate_keys_log_content += f'\tvalue {i}: {value}<br>'
+            duplicate_keys_log_content += '</p>'
+    duplicate_keys_log_content += '</details>'
+    set_output_and_print('duplicate-keys', duplicate_keys_log_content)
+# endregion

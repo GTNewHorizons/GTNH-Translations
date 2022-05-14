@@ -2,12 +2,7 @@ import json
 import os
 from os import path
 
-from utils import set_output
-
-
-def set_output_and_print(key: str, value: str):
-    set_output(key, value)
-    print(f'{key}={value}')
+from utils import set_output_and_print
 
 
 def parse_url(url) -> (str, str, str):

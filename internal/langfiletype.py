@@ -2,7 +2,7 @@ import re
 
 from .comparable import Comparable
 
-LANG_LINE_PATTERN = re.compile(r'(?P<value>^(?P<key>[^/#\n]+?)=.*$)', re.M)
+LANG_LINE_PATTERN = re.compile(r'(?P<value>^(?P<key>(?!(#|//)).*?)=.*$)', re.M)
 
 
 class LangFiletype(Comparable):
