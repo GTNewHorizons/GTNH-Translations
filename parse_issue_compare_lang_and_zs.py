@@ -1,7 +1,6 @@
-import json
-import os
 from os import path
 
+from internal import get_issue
 from utils import set_output_and_print
 
 
@@ -12,13 +11,7 @@ def parse_url(url) -> (str, str, str):
 
 
 if __name__ == '__main__':
-    issue = json.loads(os.environ.get('GITHUB_ISSUE'))
-    valid_label = os.environ.get('VALID_LABEL')
-    valid_user = os.environ.get('VALID_USER')
-
-    passed = 'false'
-    if any([label['name'] == valid_label for label in issue['labels']]) and issue['user']['login'] == valid_user:
-        passed = 'true'
+    issue, passed = get_issue()
 
     lines = issue['body'].splitlines()
     old_modpack_url, old_modpack_name, old_version = parse_url(lines[2])
