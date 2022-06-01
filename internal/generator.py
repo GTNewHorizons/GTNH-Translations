@@ -1,4 +1,6 @@
+import json
 import os
+import re
 from os import path
 from typing import List, Dict, Set, Tuple, Sequence
 
@@ -7,6 +9,11 @@ from .comparable import Property
 
 EN_DUPLICATE_KEYS: Dict[str, Set[str]] = {}
 ZH_DUPLICATE_KEYS: Dict[str, Set[str]] = {}
+
+with open("hooks.json") as hooks_fp:
+    hooks = json.load(hooks_fp)
+insert_hooks = hooks.get("insert", [])
+replace_hooks = hooks.get("replace", [])
 
 
 def generate_translation(
@@ -48,8 +55,21 @@ def generate_translation(
                         )
             else:
                 content = content[: v.start] + mark_new(v.value) + content[v.end :]
+
+        content = apply_hooks(new_file.converted_relpath, content)
         with open(output_file_path, "w", encoding="utf-8") as fp:
             fp.write(content)
+
+
+def apply_hooks(relpath: str, content: str) -> str:
+    for h in replace_hooks:
+        if re.search(h["path_match"], relpath):
+            content = content.replace(h["old"], h["new"])
+    for h in insert_hooks:
+        if re.search(h["path_match"], relpath):
+            content = h["content"] + content
+
+    return content
 
 
 def collect_properties(files: Sequence[Comparable], _type: str):
