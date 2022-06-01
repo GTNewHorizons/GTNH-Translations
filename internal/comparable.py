@@ -2,6 +2,14 @@ from abc import ABCMeta, abstractmethod
 from typing import Dict
 
 
+class Property:
+    def __init__(self, key: str, value: str, start: int, end: int):
+        self.key = key
+        self.value = value
+        self.start = start
+        self.end = end
+
+
 class Comparable(metaclass=ABCMeta):
     @property
     @abstractmethod
@@ -14,7 +22,7 @@ class Comparable(metaclass=ABCMeta):
         pass
 
     @property
-    def properties(self) -> Dict[str, str]:
+    def properties(self) -> Dict[str, Property]:
         return self.get_properties(self.content)
 
     @property
@@ -22,7 +30,7 @@ class Comparable(metaclass=ABCMeta):
         return self.convert_relpath(self.relpath)
 
     @abstractmethod
-    def get_properties(self, content: str) -> Dict[str, str]:
+    def get_properties(self, content: str) -> Dict[str, Property]:
         pass
 
     def convert_relpath(self, relpath: str) -> str:
