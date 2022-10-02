@@ -4,7 +4,8 @@ from os import path
 from .comparable import Comparable, Property
 
 PATTERNS = {
-    "game.setLocalization": re.compile(r"^(?P<value>game\.setLocalization\((?P<key>.+?), ?.+?\);$)", re.M | re.S),
+    "game.setLocalization.en_US": re.compile(r"^(?P<value>game\.setLocalization\(\"en_US\", (?P<key>.+?), ?.+?\);$)", re.M | re.S),
+    "game.setLocalization": re.compile(r"^(?P<value>game\.setLocalization\((?P<key>(?!\"en_US\").+?), ?.+?\);$)", re.M | re.S),
     "NEI.overrideName": re.compile(r"(?P<value>^NEI\.overrideName\((?P<key>.+?), ?.+?\);$)", re.M | re.S),
     "addTooltip": re.compile(r"(?P<value>^(?P<key>[^/\n]+)\.addTooltip\(.+?\);$)", re.M | re.S),
     "addShiftTooltip": re.compile(
@@ -38,3 +39,4 @@ class ScriptFiletype(Comparable):
                 end = m.end()
                 properties[key] = Property(key, value, start, end)
         return properties
+
