@@ -41,4 +41,3 @@ class ScriptFiletype(Comparable):
                 end = m.end()
                 properties[key] = Property(key, value, start, end)
         return properties
-

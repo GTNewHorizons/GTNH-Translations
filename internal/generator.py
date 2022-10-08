@@ -24,6 +24,7 @@ def generate_translation(
 ):
     old_properties = collect_properties(old_files, "en")
     ref_properties = collect_properties(ref_files, "zh")
+    value_to_first_key_dict = get_value_to_first_key_dict(old_properties)
 
     for new_file in new_files:
         output_file_path = path.join(output_path, new_file.converted_relpath)
@@ -53,6 +54,14 @@ def generate_translation(
                             )
                             + content[v.end :]
                         )
+            elif v.value in value_to_first_key_dict:
+                first_key = value_to_first_key_dict[v.value]
+                if first_key in ref_properties:
+                    content = (
+                        content[: v.start]
+                        + mark_new_with_same_value(v.value, ref_properties[first_key].value)
+                        + content[v.end :]
+                    )
             else:
                 content = content[: v.start] + mark_new(v.value) + content[v.end :]
 
@@ -83,6 +92,13 @@ def collect_properties(files: Sequence[Comparable], _type: str):
     return properties
 
 
+def get_value_to_first_key_dict(properties: Dict[str, Property]) -> Dict[str, str]:
+    result: Dict[str, str] = {}
+    for k, v in properties.items():
+        result[v.value] = k
+    return result
+
+
 def add_duplicate_key(k: str, v: str, _type: str):
     if _type == "en":
         dk = EN_DUPLICATE_KEYS
@@ -93,16 +109,21 @@ def add_duplicate_key(k: str, v: str, _type: str):
     dk[k].add(v)
 
 
+def mark(s: str, content: str):
+    return "\n".join([f"// {s * 3} //{line}" for line in content.splitlines()])
+
+
 def mark_diff(old_en: str, new_en: str, old_zh: str):
-    old_zh = "\n".join([f"// --- //{line}" for line in old_zh.splitlines()])
-    new_en = "\n".join([f"// +++ //{line}" for line in new_en.splitlines()])
-    old_en = "\n".join([f"// ↑↑↑ //{line}" for line in old_en.splitlines()])
-    return f"{old_zh}\n{new_en}\n{old_en}"
+    return f"{mark('-', old_zh)}\n{mark('+', new_en)}\n{mark('↑', old_en)}"
 
 
 def mark_new(new_en: str):
-    return "\n".join([f"// +++ //{line}" for line in new_en.splitlines()])
+    return mark("+", new_en)
 
 
 def mark_duplicate(en: str):
-    return "\n".join([f"// xxx //{line}" for line in en.splitlines()])
+    return mark("x", en)
+
+
+def mark_new_with_same_value(new_en: str, new_zh: str):
+    return f"{mark('+', new_zh)}\n{mark('↑', new_en)}"
