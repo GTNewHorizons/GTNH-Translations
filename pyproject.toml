@@ -6,8 +6,12 @@ authors = ["MuXiu1997 <muxiu1997@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+requests = "^2.28.1"
+marshmallow = "^3.18.0"
+paratranz-client = {git = "https://git@github.com/MuXiu1997/ParaTranz-SDK-python.git", rev = "main", develop = true}
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
+types-requests = "^2.28.11.2"
 pytest = "^7.1.2"
 mypy = "^0.961"
 black = "^22.3.0"
