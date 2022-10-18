@@ -25,12 +25,14 @@ class FiletypeLang(Filetype):
         for _, line, start, end in line_iterator(content):
             if line.startswith("#"):
                 continue
+            # noinspection DuplicatedCode
             split = line.split("=", 1)
             if len(split) != 2:
                 continue
-            key = f"lang+{split[0]}"
-            value = line
-            properties[key] = Property(key, value, start, end)
+            key = f"lang|{split[0]}"
+            value = split[1]
+            full = line
+            properties[key] = Property(key=key, value=value, full=full, start=start, end=end)
         return properties
 
     def get_en_us_relpath(self) -> str:

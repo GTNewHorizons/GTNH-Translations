@@ -32,12 +32,14 @@ class FiletypeGTLang(Filetype):
             # in_languagefile_category == True
             if line.startswith("}"):
                 break
+            # noinspection DuplicatedCode
             split = line.split("=", 1)
             if len(split) != 2:
                 continue
-            key = f"gt+lang+{split[0]}"
-            value = line
-            properties[key] = Property(key, value, start, end)
+            key = f"gt|lang|{split[0]}"
+            value = split[1]
+            full = line
+            properties[key] = Property(key=key, value=value, full=full, start=start, end=end)
         return properties
 
     def get_en_us_relpath(self) -> str:

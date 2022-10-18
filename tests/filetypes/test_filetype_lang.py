@@ -47,12 +47,12 @@ def test__get_content(en_us_filetype_lang: FiletypeLang, zh_cn_filetype_lang: Fi
 
 def test__get_properties(en_us_filetype_lang: FiletypeLang, zh_cn_filetype_lang: FiletypeLang) -> None:
     assert en_us_filetype_lang.properties == {
-        "lang+test": Property("lang+test", "test=test", 6, 15),
-        "lang+test2": Property("lang+test2", "test2=test2=test2", 17, 34),
+        "lang|test": Property("lang|test", "test", "test=test", 6, 15),
+        "lang|test2": Property("lang|test2", "test2=test2", "test2=test2=test2", 17, 34),
     }
     assert zh_cn_filetype_lang.properties == {
-        "lang+test": Property("lang+test", "test=测试", 6, 13),
-        "lang+test2": Property("lang+test2", "test2=测试2=测试2", 15, 28),
+        "lang|test": Property("lang|test", "测试", "test=测试", 6, 13),
+        "lang|test2": Property("lang|test2", "测试2=测试2", "test2=测试2=测试2", 15, 28),
     }
 
 
