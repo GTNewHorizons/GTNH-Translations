@@ -6,18 +6,8 @@ RELPATH = "test/x/test.zs"
 CONTENT = "\n".join(
     [
         "// test",
-        'game.setLocalization("en_US", "test", "test");',
-        'game.setLocalization("test2", "test2");',
-        'NEI.overrideName(<Test:test:3>, "test3");',
-        'NEI.overrideName(Test4, "test4");',
-        '<Test:test5>.addTooltip("test5");',
-        '<Test:test6>.withTag({type: "test"}).addTooltip("test6");',
-        "",
-        '<Test:test7>.addShiftTooltip("test7.1");',
-        '<Test:test7>.addShiftTooltip("test7.2");',
-        '<Test:test7>.addShiftTooltip("test7.3");',
-        "",
-        '<Test:test8>.displayName = "test8";',
+        'val I18N_test_0 = "test";',
+        'val I18N_test_1 = "test=test";',
     ]
 )
 
@@ -37,63 +27,19 @@ def test__get_content(filetype_script: FiletypeScript) -> None:
 
 def test__get_properties(filetype_script: FiletypeScript) -> None:
     assert filetype_script.properties == {
-        'script|test.zs|game.setLocalization|"test"': Property(
-            'script|test.zs|game.setLocalization|"test"',
-            '"test"',
-            'game.setLocalization("en_US", "test", "test");',
-            8,
-            54,
+        "script|I18N_test_0": Property(
+            "script|I18N_test_0",
+            "test",
+            'val I18N_test_0 = "test";',
+            27,
+            31,
         ),
-        'script|test.zs|game.setLocalization|"test2"': Property(
-            'script|test.zs|game.setLocalization|"test2"', '"test2"', 'game.setLocalization("test2", "test2");', 55, 94
-        ),
-        "script|test.zs|NEI.overrideName|<Test:test:3>": Property(
-            "script|test.zs|NEI.overrideName|<Test:test:3>",
-            '"test3"',
-            'NEI.overrideName(<Test:test:3>, "test3");',
-            95,
-            136,
-        ),
-        "script|test.zs|NEI.overrideName|Test4": Property(
-            "script|test.zs|NEI.overrideName|Test4", '"test4"', 'NEI.overrideName(Test4, "test4");', 137, 170
-        ),
-        "script|test.zs|addTooltip|<Test:test5>": Property(
-            "script|test.zs|addTooltip|<Test:test5>", '"test5"', '<Test:test5>.addTooltip("test5");', 171, 204
-        ),
-        'script|test.zs|addTooltip|<Test:test6>.withTag({type: "test"})': Property(
-            'script|test.zs|addTooltip|<Test:test6>.withTag({type: "test"})',
-            '"test6"',
-            '<Test:test6>.withTag({type: "test"}).addTooltip("test6");',
-            205,
-            262,
-        ),
-        "script|test.zs|addShiftTooltip|<Test:test7>|0": Property(
-            "script|test.zs|addShiftTooltip|<Test:test7>|0",
-            '"test7.1"',
-            '<Test:test7>.addShiftTooltip("test7.1");',
-            264,
-            304,
-        ),
-        "script|test.zs|addShiftTooltip|<Test:test7>|1": Property(
-            "script|test.zs|addShiftTooltip|<Test:test7>|1",
-            '"test7.2"',
-            '<Test:test7>.addShiftTooltip("test7.2");',
-            305,
-            345,
-        ),
-        "script|test.zs|addShiftTooltip|<Test:test7>|2": Property(
-            "script|test.zs|addShiftTooltip|<Test:test7>|2",
-            '"test7.3"',
-            '<Test:test7>.addShiftTooltip("test7.3");',
-            346,
-            386,
-        ),
-        "script|test.zs|displayName|<Test:test8>": Property(
-            "script|test.zs|displayName|<Test:test8>",
-            '"test8"',
-            '<Test:test8>.displayName = "test8";',
-            388,
-            423,
+        "script|I18N_test_1": Property(
+            "script|I18N_test_1",
+            "test=test",
+            'val I18N_test_1 = "test=test";',
+            53,
+            62,
         ),
     }
 

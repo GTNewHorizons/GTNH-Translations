@@ -36,10 +36,11 @@ class FiletypeGTLang(Filetype):
             split = line.split("=", 1)
             if len(split) != 2:
                 continue
-            key = f"gt|lang|{split[0]}"
+            key = split[0]
+            s_key = f"gt-lang|{key}"
             value = split[1]
             full = line
-            properties[key] = Property(key=key, value=value, full=full, start=start, end=end)
+            properties[s_key] = Property(key=s_key, value=value, full=full, start=end - len(value), end=end)
         return properties
 
     def get_en_us_relpath(self) -> str:

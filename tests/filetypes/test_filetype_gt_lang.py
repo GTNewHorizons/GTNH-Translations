@@ -60,10 +60,10 @@ def test__get_content(en_us_filetype_gt_lang: FiletypeGTLang, zh_cn_filetype_gt_
 
 def test__get_properties(en_us_filetype_gt_lang: FiletypeGTLang, zh_cn_filetype_gt_lang: FiletypeGTLang) -> None:
     assert en_us_filetype_gt_lang.properties == {
-        "gt|lang|    S:test": Property("gt|lang|    S:test", "test", "    S:test=test", 96, 111),
+        "gt-lang|    S:test": Property("gt-lang|    S:test", "test", "    S:test=test", 107, 111),
     }
     assert zh_cn_filetype_gt_lang.properties == {
-        "gt|lang|    S:test": Property("gt|lang|    S:test", "测试", "    S:test=测试", 116, 129),
+        "gt-lang|    S:test": Property("gt-lang|    S:test", "测试", "    S:test=测试", 127, 129),
     }
 
 
