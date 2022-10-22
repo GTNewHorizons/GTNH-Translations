@@ -1,3 +1,6 @@
+import os
+
+
 def set_output(name: str, value: str) -> None:
     """
     Set an output for a GitHub Action.
@@ -6,7 +9,10 @@ def set_output(name: str, value: str) -> None:
         name: The name of the output.
         value: The value of the output.
     """
-    print(f"::set-output name={name}::{value}")
+    # echo "{name}={value}" >> $GITHUB_OUTPUT
+    if "GITHUB_OUTPUT" in os.environ:
+        with open(os.environ["GITHUB_OUTPUT"], "a") as fp:
+            fp.write(f"{name}={value}\n")
 
 
 def set_output_and_print(name: str, value: str) -> None:
