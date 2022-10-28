@@ -14,6 +14,7 @@ from gtnh_translation_compare.paratranz.json_item import (
     JsonItem,
     JsonItemSchema,
 )
+from gtnh_translation_compare.utils.unicode import to_unicode
 
 
 @dataclass
@@ -79,6 +80,9 @@ def to_translation_file(paratranz_file: File, paratranz_file_strings: list[Strin
         if k not in json_items_map:
             continue
         json_item: JsonItem = json_items_map[k]
-        if json_item.translation:
-            content = content[: p.start] + json_item.translation + content[p.end :]
+        translation = json_item.translation
+        if translation:
+            if file_extra.zh_cn_relpath.startswith("scripts/"):
+                translation = "<BR>".join([to_unicode(p) for p in translation.split("<BR>")])
+            content = content[: p.start] + translation + content[p.end :]
     return TranslationFile(file_extra.zh_cn_relpath, content)
