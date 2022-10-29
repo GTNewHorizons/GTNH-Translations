@@ -1,11 +1,14 @@
+import os
 from os import path
-from typing import Optional
+from pathlib import Path
+from typing import Optional, Callable, TypeAlias
 
 import fire  # type: ignore[import]
 import requests
 from dulwich import porcelain
 from gtnh_translation_compare.filetypes import FiletypeLang, Language
 from gtnh_translation_compare.issue.issue_parser import IssueBodyLines, new_issue_parser_from_env
+from gtnh_translation_compare.modpack.modpack import ModPack
 from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
 from gtnh_translation_compare.paratranz.converter import to_paratranz_file, to_translation_file, TranslationFile
 from gtnh_translation_compare.utils.env import must_get_env
@@ -16,6 +19,8 @@ GTNH_REPO = "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack"
 DEFAULT_QUESTS_LANG_EN_US_REL_PATH = "resources/minecraft/lang/en_US.lang"
 DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH = "resources/minecraft/lang/zh_CN.lang"
 
+ParatranzFilenameFilter: TypeAlias = Callable[[str], bool]
+
 
 class App:
     def __init__(self) -> None:
@@ -24,6 +29,7 @@ class App:
 
 
 class ParseIssue:
+    # region Quest Book
     @staticmethod
     def quest_book_to_paratranz() -> None:
         def pf(lines: IssueBodyLines) -> None:
@@ -37,6 +43,25 @@ class ParseIssue:
             set_output_and_print("branch", lines[2])
 
         new_issue_parser_from_env().parse(pf)
+
+    # endregion Quest Book
+
+    # region Lang + Zs
+    @staticmethod
+    def lang_and_zs_to_paratranz() -> None:
+        def pf(lines: IssueBodyLines) -> None:
+            set_output_and_print("modpack-url", lines[2])
+
+        new_issue_parser_from_env().parse(pf)
+
+    @staticmethod
+    def paratranz_to_lang_and_zs() -> None:
+        def pf(lines: IssueBodyLines) -> None:
+            set_output_and_print("branch", lines[2])
+
+        new_issue_parser_from_env().parse(pf)
+
+    # endregion Lang + Zs
 
 
 class Action:
@@ -52,6 +77,62 @@ class Action:
         )
         self.client = ClientWrapper(client, paratranz_project_id)
 
+    @staticmethod
+    def __commit(repo: str, paths: list[str], message: str, issue: object) -> None:
+        porcelain.add(repo, paths)  # type: ignore[no-untyped-call]
+        commit_message = message
+        if issue is not None:
+            commit_message += f"\n\nclosed #{issue}"
+        porcelain.commit(  # type: ignore[no-untyped-call]
+            repo,
+            message=commit_message,
+            author="MuXiu1997 <muxiu1997@gmail.com>",
+        )
+
+    @staticmethod
+    def __write(filepath: str, translation_file: TranslationFile) -> None:
+        os.makedirs(path.dirname(filepath), exist_ok=True)
+        with open(filepath, "w") as fp:
+            fp.write(translation_file.content)
+
+    def __paratranz_to_translation(
+        self,
+        filter_: ParatranzFilenameFilter,
+        raise_when_empty: Optional[Exception],
+        message: str,
+        repo_path: Optional[str] = None,
+        issue: Optional[str] = None,
+    ) -> None:
+        translation_files: list[TranslationFile] = []
+        translation_filepaths: list[str] = []
+        for f in self.client.all_files:
+            if filter_(f.name):
+                strings = self.client.get_strings(f.id)
+                translation_file = to_translation_file(f, strings)
+                translation_files.append(translation_file)
+
+        if len(translation_files) == 0:
+            if raise_when_empty is not None:
+                raise raise_when_empty
+
+        if repo_path is None:
+            for translation_file in translation_files:
+                print(translation_file.content)
+            return
+
+        for translation_file in translation_files:
+            translation_filepath = path.abspath(path.join(repo_path, translation_file.relpath))
+            translation_filepaths.append(translation_filepath)
+            self.__write(translation_filepath, translation_file)
+
+        self.__commit(
+            repo_path,
+            translation_filepaths,
+            message,
+            issue,
+        )
+
+    # region Quest Book
     def quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
         if commit_sha is None or commit_sha == "":
             commit_sha = "master"
@@ -64,31 +145,45 @@ class Action:
         self.client.upload_file(qb_paratranz_file)
 
     def paratranz_to_quest_book(self, repo_path: Optional[str] = None, issue: Optional[str] = None) -> None:
-        qb_translation_file: TranslationFile
-        for f in self.client.all_files:
-            if f.name == DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH + ".json":
-                strings = self.client.get_strings(f.id)
-                qb_translation_file = to_translation_file(f, strings)
-                break
-        else:
-            raise ValueError("No quest book file found")
-
-        if repo_path is None:
-            print(qb_translation_file.content)
-            return
-        qb_translation_filepath = path.abspath(path.join(repo_path, qb_translation_file.relpath))
-        with open(qb_translation_filepath, "w") as fp:
-            fp.write(qb_translation_file.content)
-
-        porcelain.add(repo_path, [qb_translation_filepath])  # type: ignore[no-untyped-call]
-        commit_message = "[自动化] 更新 任务书"
-        if issue is not None:
-            commit_message += f"\n\nclosed #{issue}"
-        porcelain.commit(  # type: ignore[no-untyped-call]
+        filter_: ParatranzFilenameFilter = lambda name: name == DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH + ".json"
+        self.__paratranz_to_translation(
+            filter_,
+            ValueError("No quest book file found"),
+            "[自动化] 更新 任务书",
             repo_path,
-            message=commit_message,
-            author="MuXiu1997 <muxiu1997@gmail.com>",
+            issue,
         )
+
+    # endregion Quest Book
+
+    # region Lang + Zs
+    def lang_and_zs_to_paratranz(self, modpack_path: str) -> None:
+        modpack = ModPack(Path(modpack_path))
+        for lang_file in modpack.lang_files:
+            lang_paratranz_file = to_paratranz_file(lang_file)
+            self.client.upload_file(lang_paratranz_file)
+        for script_file in modpack.script_files:
+            script_paratranz_file = to_paratranz_file(script_file)
+            self.client.upload_file(script_paratranz_file)
+
+    def paratranz_to_lang_and_zs(self, repo_path: Optional[str] = None, issue: Optional[str] = None) -> None:
+        def filter_(name: str) -> bool:
+            return any(
+                [
+                    name.endswith(".lang" + ".json") and name != DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH + ".json",
+                    name.endswith(".zs" + ".json"),
+                ]
+            )
+
+        self.__paratranz_to_translation(
+            filter_,
+            ValueError("No lang or zs file found"),
+            "[自动化] 更新 语言文件 + 脚本",
+            repo_path,
+            issue,
+        )
+
+    # endregion Lang + Zs
 
 
 if __name__ == "__main__":
