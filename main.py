@@ -6,7 +6,7 @@ from typing import Optional, Callable, TypeAlias
 import fire  # type: ignore[import]
 import requests
 from dulwich import porcelain
-from gtnh_translation_compare.filetypes import FiletypeLang, Language
+from gtnh_translation_compare.filetypes import FiletypeLang, Language, FiletypeGTLang
 from gtnh_translation_compare.issue.issue_parser import IssueBodyLines, new_issue_parser_from_env
 from gtnh_translation_compare.modpack.modpack import ModPack
 from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
@@ -18,6 +18,8 @@ from paratranz_client.client import AuthenticatedClient
 GTNH_REPO = "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack"
 DEFAULT_QUESTS_LANG_EN_US_REL_PATH = "resources/minecraft/lang/en_US.lang"
 DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH = "resources/minecraft/lang/zh_CN.lang"
+GT_LANG_EN_US_REL_PATH = "GregTech_US.lang"
+GT_LANG_ZH_CN_REL_PATH = "GregTech.lang"
 
 ParatranzFilenameFilter: TypeAlias = Callable[[str], bool]
 
@@ -62,6 +64,23 @@ class ParseIssue:
         new_issue_parser_from_env().parse(pf)
 
     # endregion Lang + Zs
+
+    # region Gt Lang
+    @staticmethod
+    def gt_lang_to_paratranz() -> None:
+        def pf(lines: IssueBodyLines) -> None:
+            set_output_and_print("gt-lang-url", lines[2])
+
+        new_issue_parser_from_env().parse(pf)
+
+    @staticmethod
+    def paratranz_to_gt_lang() -> None:
+        def pf(lines: IssueBodyLines) -> None:
+            set_output_and_print("branch", lines[2])
+
+        new_issue_parser_from_env().parse(pf)
+
+    # endregion Gt Lang
 
 
 class Action:
@@ -170,7 +189,9 @@ class Action:
         def filter_(name: str) -> bool:
             return any(
                 [
-                    name.endswith(".lang" + ".json") and name != DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH + ".json",
+                    name.endswith(".lang" + ".json")
+                    and name != DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH + ".json"
+                    and name != GT_LANG_ZH_CN_REL_PATH + ".json",
                     name.endswith(".zs" + ".json"),
                 ]
             )
@@ -184,6 +205,25 @@ class Action:
         )
 
     # endregion Lang + Zs
+
+    # region Gt Lang
+    def gt_lang_to_paratranz(self, gt_lang_url: str) -> None:
+        res = requests.get(gt_lang_url)
+        gt_lang_file = FiletypeGTLang(relpath=GT_LANG_ZH_CN_REL_PATH, content=res.text, language=Language.en_US)
+        gt_paratranz_file = to_paratranz_file(gt_lang_file)
+        self.client.upload_file(gt_paratranz_file)
+
+    def paratranz_to_gt_lang(self, repo_path: Optional[str] = None, issue: Optional[str] = None) -> None:
+        filter_: ParatranzFilenameFilter = lambda name: name == GT_LANG_ZH_CN_REL_PATH + ".json"
+        self.__paratranz_to_translation(
+            filter_,
+            ValueError("No gt lang file found"),
+            "[自动化] 更新 GT 语言文件",
+            repo_path,
+            issue,
+        )
+
+    # endregion Gt Lang
 
 
 if __name__ == "__main__":
