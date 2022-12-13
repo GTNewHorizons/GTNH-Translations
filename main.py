@@ -16,6 +16,7 @@ from gtnh_translation_compare.utils.github_action import set_output_and_print
 from paratranz_client.client import AuthenticatedClient
 
 GTNH_REPO = "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack"
+DEFAULT_QUESTS_LANG_EN_US_REL_PATH_IN_GTHN = "config/txloader/load/minecraft/lang/en_US.lang"
 DEFAULT_QUESTS_LANG_EN_US_REL_PATH = "resources/minecraft/lang/en_US.lang"
 DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH = "resources/minecraft/lang/zh_CN.lang"
 GT_LANG_EN_US_REL_PATH = "GregTech_US.lang"
@@ -155,8 +156,11 @@ class Action:
     def quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
         if commit_sha is None or commit_sha == "":
             commit_sha = "master"
-        qb_json_file_url = f"{GTNH_REPO}/raw/{commit_sha}/{DEFAULT_QUESTS_LANG_EN_US_REL_PATH}"
+        qb_json_file_url = f"{GTNH_REPO}/raw/{commit_sha}/{DEFAULT_QUESTS_LANG_EN_US_REL_PATH_IN_GTHN}"
         res = requests.get(qb_json_file_url)
+        if res.status_code == 404:
+            qb_json_file_url = f"{GTNH_REPO}/raw/{commit_sha}/{DEFAULT_QUESTS_LANG_EN_US_REL_PATH}"
+            res = requests.get(qb_json_file_url)
         qb_lang_file = FiletypeLang(
             relpath=DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=res.text, language=Language.en_US
         )
