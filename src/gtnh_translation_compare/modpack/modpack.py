@@ -11,10 +11,10 @@ from gtnh_translation_compare.utils.file import ensure_lf
 
 class ModPack:
     def __init__(self, pack_path: pathlib.Path):
-        if len(list(pack_path.glob("resources"))) == 1:
+        if len(list(pack_path.glob("mods"))) == 1:
             self.__pack_path = pack_path
-        elif len(list(pack_path.glob("*/resources"))) == 1:
-            self.__pack_path = pathlib.Path(path.join(list(pack_path.glob("*/resources"))[0], ".."))
+        elif len(list(pack_path.glob("*/mods"))) == 1:
+            self.__pack_path = pathlib.Path(path.join(list(pack_path.glob("*/mods"))[0], ".."))
 
     @property
     def lang_files(self) -> Sequence[Filetype]:
