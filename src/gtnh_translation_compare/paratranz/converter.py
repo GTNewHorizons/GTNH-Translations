@@ -15,6 +15,7 @@ from gtnh_translation_compare.paratranz.json_item import (
     JsonItemSchema,
 )
 from gtnh_translation_compare.utils.unicode import to_unicode
+from loguru import logger
 
 
 @dataclass
@@ -52,6 +53,7 @@ def to_paratranz_file(
         en_us_relpath=file.get_en_us_relpath(),
         zh_cn_relpath=file.get_zh_cn_relpath(),
     )
+    logger.info("to_paratranz_file: {}", paratranz_file.name)
     return ParatranzFile(paratranz_file, paratranz_file_extra, json_content)
 
 
@@ -85,4 +87,5 @@ def to_translation_file(paratranz_file: File, paratranz_file_strings: list[Strin
             if file_extra.zh_cn_relpath.startswith("scripts/"):
                 translation = "<BR>".join([to_unicode(p) for p in translation.split("<BR>")])
             content = content[: p.start] + translation + content[p.end :]
+    logger.info("to_translation_file: {}", file_extra.zh_cn_relpath)
     return TranslationFile(file_extra.zh_cn_relpath, content)

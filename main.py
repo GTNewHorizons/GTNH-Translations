@@ -1,4 +1,5 @@
 import os
+import sys
 from os import path
 from pathlib import Path
 from typing import Optional, Callable, TypeAlias
@@ -6,6 +7,8 @@ from typing import Optional, Callable, TypeAlias
 import fire  # type: ignore[import]
 import requests
 from dulwich import porcelain
+from loguru import logger
+
 from gtnh_translation_compare.filetypes import FiletypeLang, Language, FiletypeGTLang
 from gtnh_translation_compare.issue.issue_parser import IssueBodyLines, new_issue_parser_from_env
 from gtnh_translation_compare.modpack.modpack import ModPack
@@ -91,7 +94,7 @@ class Action:
         client = AuthenticatedClient(
             base_url="https://paratranz.cn/api",
             token=paratranz_token,
-            verify_ssl=True,
+            verify_ssl=False,
             timeout=1000,
             headers={"Authorization": paratranz_token},
         )
@@ -231,4 +234,7 @@ class Action:
 
 
 if __name__ == "__main__":
+    if os.environ.get("GTNH_TC_DEBUG") is None:
+        logger.remove(handler_id=None)
+        logger.add(sys.stderr, level="INFO")
     fire.Fire(App, name="gtnh-translation-compare")

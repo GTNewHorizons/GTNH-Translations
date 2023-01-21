@@ -1,7 +1,9 @@
 import json
 from functools import cache
 from os import path
-from typing import Optional
+from typing import Optional, Any
+
+from loguru import logger
 
 from paratranz_client.api.files import get_files, create_file, save_file, update_file
 from paratranz_client.api.strings import get_strings
@@ -14,6 +16,7 @@ from paratranz_client.models import (  # type: ignore[attr-defined]
     SaveFileJsonBody,
     SaveFileJsonBodyExtra,
 )
+from paratranz_client.types import Response
 
 from gtnh_translation_compare.paratranz.converter import ParatranzFile
 from gtnh_translation_compare.paratranz.file_extra import FileExtraSchema
@@ -27,6 +30,7 @@ class ClientWrapper:
     @cache
     def _get_all_files(self) -> list[File]:
         res = get_files.sync_detailed(project_id=self.project_id, client=self.client)
+        self._log_res("get_files.sync_detailed", res)
         return [File.from_dict(d) for d in json.loads(res.content)]
 
     @property
@@ -39,9 +43,11 @@ class ClientWrapper:
         page_size = 500
         strings: list[StringItem] = list()
         while page <= page_count:
+            logger.info("get_strings: file_id={}, page={}, page_count={}", file_id, page, page_count)
             res = get_strings.sync_detailed(
                 project_id=self.project_id, file=file_id, page=page, page_size=page_size, client=self.client
             )
+            self._log_res("get_strings.sync_detailed", res)
             data = json.loads(res.content)
             page_count = data["pageCount"]
             page += 1
@@ -75,6 +81,7 @@ class ClientWrapper:
                 file=paratranz_file.file, path=path.dirname(paratranz_file.file_model.name)
             ),
         )
+        self._log_res("create_file.sync_detailed", res)
         assert res.parsed is not None
         assert isinstance(res.parsed.file, File)
         assert isinstance(res.parsed.file.id, int)
@@ -93,15 +100,16 @@ class ClientWrapper:
                     if isinstance(old_translation, str):
                         s.translation = old_translation
                         s.stage = 1
-        update_file.sync_detailed(
+        res = update_file.sync_detailed(
             project_id=self.project_id,
             file_id=file_id,
             client=self.client,
             multipart_data=UpdateFileMultipartData(file=paratranz_file.file),
         )
+        self._log_res("update_file.sync_detailed", res)
 
     def _save_file_extra(self, file_id: int, paratranz_file: ParatranzFile) -> None:
-        save_file.sync_detailed(
+        res = save_file.sync_detailed(
             project_id=self.project_id,
             file_id=file_id,
             client=self.client,
@@ -109,3 +117,11 @@ class ClientWrapper:
                 extra=SaveFileJsonBodyExtra.from_dict(FileExtraSchema().dump(paratranz_file.file_model_extra))
             ),
         )
+        self._log_res("save_file.sync_detailed", res)
+
+    @staticmethod
+    def _log_res(request_name: str, res: Response[Any]) -> None:
+        if 400 <= res.status_code:
+            logger.error("{}: {}", request_name, res)
+            return
+        logger.debug("{}: {}", request_name, res)
