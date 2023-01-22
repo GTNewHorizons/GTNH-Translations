@@ -26,6 +26,7 @@ GT_LANG_EN_US_REL_PATH = "GregTech_US.lang"
 GT_LANG_ZH_CN_REL_PATH = "GregTech.lang"
 
 ParatranzFilenameFilter: TypeAlias = Callable[[str], bool]
+AfterToTranslationFileCallback: TypeAlias = Callable[[TranslationFile], None]
 
 
 class App:
@@ -121,6 +122,7 @@ class Action:
     def __paratranz_to_translation(
         self,
         filter_: ParatranzFilenameFilter,
+        after_to_translation_file_callback: Optional[AfterToTranslationFileCallback],
         raise_when_empty: Optional[Exception],
         message: str,
         repo_path: Optional[str] = None,
@@ -132,6 +134,8 @@ class Action:
             if filter_(f.name):
                 strings = self.client.get_strings(f.id)
                 translation_file = to_translation_file(f, strings)
+                if after_to_translation_file_callback is not None:
+                    after_to_translation_file_callback(translation_file)
                 translation_files.append(translation_file)
 
         if len(translation_files) == 0:
@@ -174,6 +178,7 @@ class Action:
         filter_: ParatranzFilenameFilter = lambda name: name == DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH + ".json"
         self.__paratranz_to_translation(
             filter_,
+            None,
             ValueError("No quest book file found"),
             "[自动化] 更新 任务书",
             repo_path,
@@ -205,6 +210,7 @@ class Action:
 
         self.__paratranz_to_translation(
             filter_,
+            None,
             ValueError("No lang or zs file found"),
             "[自动化] 更新 语言文件 + 脚本",
             repo_path,
@@ -222,8 +228,15 @@ class Action:
 
     def paratranz_to_gt_lang(self, repo_path: Optional[str] = None, issue: Optional[str] = None) -> None:
         filter_: ParatranzFilenameFilter = lambda name: name == GT_LANG_ZH_CN_REL_PATH + ".json"
+
+        def after_to_translation_file_callback(translation_file: TranslationFile) -> None:
+            translation_file.content = translation_file.content.replace(
+                "B:UseThisFileAsLanguageFile=false", "B:UseThisFileAsLanguageFile=true"
+            )
+
         self.__paratranz_to_translation(
             filter_,
+            after_to_translation_file_callback,
             ValueError("No gt lang file found"),
             "[自动化] 更新 GT 语言文件",
             repo_path,
