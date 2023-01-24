@@ -78,14 +78,18 @@ def to_translation_file(paratranz_file: File, paratranz_file_strings: list[Strin
     properties: list[tuple[str, Property]] = [(k, v) for k, v in file_extra.properties.items()]
     properties.sort(key=sort_key, reverse=True)
 
+    is_script = file_extra.zh_cn_relpath.startswith("scripts/")
+
     for k, p in properties:
         if k not in json_items_map:
             continue
         json_item: JsonItem = json_items_map[k]
         translation = json_item.translation
         if translation:
-            if file_extra.zh_cn_relpath.startswith("scripts/"):
+            if is_script:
                 translation = "<BR>".join([to_unicode(p) for p in translation.split("<BR>")])
             content = content[: p.start] + translation + content[p.end :]
+        if is_script:
+            content = content.replace('val _I18N_Lang = "en_US";', 'val _I18N_Lang = "zh_CN";')
     logger.info("to_translation_file: {}", file_extra.zh_cn_relpath)
     return TranslationFile(file_extra.zh_cn_relpath, content)
