@@ -15,6 +15,7 @@ from gtnh_translation_compare.modpack.modpack import ModPack
 from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
 from gtnh_translation_compare.paratranz.converter import to_paratranz_file, to_translation_file, TranslationFile
 from gtnh_translation_compare.utils.env import must_get_env
+from gtnh_translation_compare.utils.file import ensure_lf
 from gtnh_translation_compare.utils.github_action import set_output_and_print
 from paratranz_client.client import AuthenticatedClient
 
@@ -240,7 +241,11 @@ class Action:
     # region Gt Lang
     def gt_lang_to_paratranz(self, gt_lang_url: str) -> None:
         res = requests.get(gt_lang_url)
-        gt_lang_file = FiletypeGTLang(relpath=GT_LANG_ZH_CN_REL_PATH, content=res.text, language=Language.en_US)
+        gt_lang_file = FiletypeGTLang(
+            relpath=GT_LANG_ZH_CN_REL_PATH,
+            content=ensure_lf(res.text),
+            language=Language.en_US,
+        )
         gt_paratranz_file = to_paratranz_file(gt_lang_file)
         self.client.upload_file(gt_paratranz_file)
 
