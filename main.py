@@ -50,8 +50,8 @@ class ParseIssue:
     @staticmethod
     def paratranz_to_quest_book() -> None:
         def pf(lines: IssueBodyLines) -> None:
-            set_output_and_print("commit-sha", lines[2])
-            set_output_and_print("branch", lines[6])
+            set_output_and_print("branch", lines[2])
+            set_output_and_print("commit-sha", lines[6])
 
         new_issue_parser_from_env().parse(pf)
 
