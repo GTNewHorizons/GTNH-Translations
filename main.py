@@ -20,11 +20,8 @@ from gtnh_translation_compare.utils.github_action import set_output_and_print
 from paratranz_client.client import AuthenticatedClient
 
 GTNH_REPO = "https://github.com/GTNewHorizons/GT-New-Horizons-Modpack"
-DEFAULT_QUESTS_LANG_EN_US_REL_PATH_IN_GTHN = "config/txloader/load/minecraft/lang/en_US.lang"
-DEFAULT_QUESTS_LANG_EN_US_REL_PATH = "resources/minecraft/lang/en_US.lang"
-DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH = "resources/minecraft/lang/zh_CN.lang"
-DEFAULT_QUESTS_JSON_REL_PATH_IN_GTNH = "config/betterquesting/DefaultQuests-us.json"
-DEFAULT_QUESTS_JSON_REL_PATH = "config/betterquesting/DefaultQuests.json"
+DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH = "config/txloader/load/betterquesting/lang/template.lang"
+DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH = "config/txloader/load/betterquesting/lang/zh_CN.lang"
 GT_LANG_EN_US_REL_PATH = "GregTech_US.lang"
 GT_LANG_ZH_CN_REL_PATH = "GregTech.lang"
 
@@ -51,7 +48,6 @@ class ParseIssue:
     def paratranz_to_quest_book() -> None:
         def pf(lines: IssueBodyLines) -> None:
             set_output_and_print("branch", lines[2])
-            set_output_and_print("commit-sha", lines[6])
 
         new_issue_parser_from_env().parse(pf)
 
@@ -171,20 +167,17 @@ class Action:
     def quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
         if commit_sha is None or commit_sha == "":
             commit_sha = "master"
-        qb_lang_file_url = f"{GTNH_REPO}/raw/{commit_sha}/{DEFAULT_QUESTS_LANG_EN_US_REL_PATH_IN_GTHN}"
+        qb_lang_file_url = f"{GTNH_REPO}/raw/{commit_sha}/{DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH}"
         res = requests.get(qb_lang_file_url)
-        if res.status_code == 404:
-            qb_lang_file_url = f"{GTNH_REPO}/raw/{commit_sha}/{DEFAULT_QUESTS_LANG_EN_US_REL_PATH}"
-            res = requests.get(qb_lang_file_url)
+        if res.status_code != 200:
+            raise ValueError(f"Failed to get quest book file from {qb_lang_file_url}")
         qb_lang_file = FiletypeLang(
-            relpath=DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=res.text, language=Language.en_US
+            relpath=DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH, content=res.text, language=Language.en_US
         )
         qb_paratranz_file = to_paratranz_file(qb_lang_file)
         self.client.upload_file(qb_paratranz_file)
 
-    def paratranz_to_quest_book(
-        self, repo_path: Optional[str] = None, issue: Optional[str] = None, commit_sha: Optional[str] = None
-    ) -> None:
+    def paratranz_to_quest_book(self, repo_path: Optional[str] = None, issue: Optional[str] = None) -> None:
         filter_: ParatranzFilenameFilter = lambda name: name == DEFAULT_QUESTS_LANG_ZH_CN_REL_PATH + ".json"
         self.__paratranz_to_translation(
             filter_,
@@ -194,15 +187,6 @@ class Action:
             repo_path,
             issue,
         )
-        if repo_path is None:
-            return
-        if commit_sha is None or commit_sha == "":
-            commit_sha = "master"
-        qb_json_file_url = f"{GTNH_REPO}/raw/{commit_sha}/{DEFAULT_QUESTS_JSON_REL_PATH_IN_GTNH}"
-        res = requests.get(qb_json_file_url)
-        qb_json_filepath = path.abspath(path.join(repo_path, DEFAULT_QUESTS_JSON_REL_PATH))
-        self.__write(qb_json_filepath, res.text)
-        self.__commit(repo_path, [qb_json_filepath], "[自动化] 更新 任务书 json", None)
 
     # endregion Quest Book
 
