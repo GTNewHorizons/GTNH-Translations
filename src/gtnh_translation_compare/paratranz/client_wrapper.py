@@ -1,10 +1,10 @@
+import asyncio
 import json
 from functools import cache
 from os import path
 from typing import Optional, Any
 
 from loguru import logger
-
 from paratranz_client.api.files import get_files, create_file, save_file, update_file
 from paratranz_client.api.strings import get_strings
 from paratranz_client.client import Client
@@ -37,21 +37,44 @@ class ClientWrapper:
     def all_files(self) -> list[File]:
         return self._get_all_files()
 
-    def get_strings(self, file_id: int) -> list[StringItem]:
-        page_count = 1
-        page = 1
-        page_size = 500
-        strings: list[StringItem] = list()
-        while page <= page_count:
-            logger.info("get_strings: file_id={}, page={}, page_count={}", file_id, page, page_count)
-            res = get_strings.sync_detailed(
+    async def _get_strings_by_page(
+        self, sem: asyncio.Semaphore, file_id: int, page: int, page_size: int, page_count: int
+    ) -> list[StringItem]:
+        async with sem:
+            logger.info("get_strings:started: file_id={}, page={}, page_count={}", file_id, page, page_count)
+            res = await get_strings.asyncio_detailed(
                 project_id=self.project_id, file=file_id, page=page, page_size=page_size, client=self.client
             )
-            self._log_res("get_strings.sync_detailed", res)
-            data = json.loads(res.content)
-            page_count = data["pageCount"]
-            page += 1
-            strings.extend([StringItem.from_dict(d) for d in data["results"]])
+            self._log_res(f"get_strings.sync_detailed[file_id={file_id}, page={page}, page_count={page_count}]", res)
+            logger.info("get_strings:finished: file_id={}, page={}, page_count={}", file_id, page, page_count)
+        data = json.loads(res.content)
+        return [StringItem.from_dict(d) for d in data["results"]]
+
+    def get_strings(self, file_id: int) -> list[StringItem]:
+        page = 1
+        page_size = 500
+        logger.info("get_strings: file_id={}, page={}, page_count=?", file_id, page)
+        strings: list[StringItem] = list()
+        res = get_strings.sync_detailed(
+            project_id=self.project_id, file=file_id, page=page, page_size=page_size, client=self.client
+        )
+        self._log_res(f"get_strings.sync_detailed[file_id={file_id}, page={page}, page_count=?]", res)
+        data = json.loads(res.content)
+        page_count = data["pageCount"]
+
+        strings.extend([StringItem.from_dict(d) for d in data["results"]])
+
+        sem = asyncio.Semaphore(10)
+
+        tasks = [
+            self._get_strings_by_page(sem, file_id, page, page_size, page_count) for page in range(2, page_count + 1)
+        ]
+
+        tasks_result = asyncio.get_event_loop().run_until_complete(asyncio.gather(*tasks))
+        logger.info("get_strings:finished_all: file_id={}, page_count={}", file_id, page_count)
+        for page_strings in tasks_result:
+            strings.extend(page_strings)
+
         return strings
 
     def upload_file(self, paratranz_file: ParatranzFile) -> None:
