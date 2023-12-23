@@ -1,7 +1,10 @@
 from abc import ABCMeta, abstractmethod
-from typing import Dict, final
+from typing import Dict, final, TYPE_CHECKING
 
 from gtnh_translation_compare.filetypes.property import Property
+
+if TYPE_CHECKING:
+    from gtnh_translation_compare.filetypes import Language
 
 
 class Filetype(metaclass=ABCMeta):
@@ -37,5 +40,5 @@ class Filetype(metaclass=ABCMeta):
         pass
 
     @abstractmethod
-    def get_zh_cn_relpath(self) -> str:
+    def get_target_language_relpath(self, target_language: "Language") -> str:
         pass

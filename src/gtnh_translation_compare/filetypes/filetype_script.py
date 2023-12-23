@@ -46,5 +46,5 @@ class FiletypeScript(Filetype):
     def get_en_us_relpath(self) -> str:
         return self._relpath
 
-    def get_zh_cn_relpath(self) -> str:
+    def get_target_language_relpath(self, target_language: Language) -> str:
         return self._relpath

@@ -8,6 +8,7 @@ from paratranz_client.models.file import File
 from paratranz_client.models.string_item import StringItem
 from paratranz_client.types import File as FileToBeUploaded
 
+from gtnh_translation_compare.filetypes import Language
 from gtnh_translation_compare.filetypes.filetype import Filetype
 from gtnh_translation_compare.paratranz.file_extra import FileExtra, FileExtraSchema, Properties, Property
 from gtnh_translation_compare.paratranz.json_item import (
@@ -43,7 +44,7 @@ def to_paratranz_file(
     file: Filetype,
 ) -> ParatranzFile:
     paratranz_file = File()
-    paratranz_file.name = file.get_zh_cn_relpath() + ".json"
+    paratranz_file.name = file.get_target_language_relpath(Language.zh_CN) + ".json"
     json_content: JsonItems = [JsonItem(key=p.key, original=p.value, context=p.full) for p in file.properties.values()]
     paratranz_file_extra_properties: Properties = {
         k: Property(key=p.key, start=p.start, end=p.end) for k, p in file.properties.items()
@@ -52,7 +53,7 @@ def to_paratranz_file(
         original=file.content,
         properties=paratranz_file_extra_properties,
         en_us_relpath=file.get_en_us_relpath(),
-        zh_cn_relpath=file.get_zh_cn_relpath(),
+        zh_cn_relpath=file.get_target_language_relpath(Language.zh_CN),
     )
     logger.info("to_paratranz_file: {}", paratranz_file.name)
     return ParatranzFile(paratranz_file, paratranz_file_extra, json_content)
