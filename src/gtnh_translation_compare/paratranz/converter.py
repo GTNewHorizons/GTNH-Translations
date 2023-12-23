@@ -53,7 +53,7 @@ def to_paratranz_file(
         original=file.content,
         properties=paratranz_file_extra_properties,
         en_us_relpath=file.get_en_us_relpath(),
-        zh_cn_relpath=file.get_target_language_relpath(Language.zh_CN),
+        target_relpath=file.get_target_language_relpath(Language.zh_CN),
     )
     logger.info("to_paratranz_file: {}", paratranz_file.name)
     return ParatranzFile(paratranz_file, paratranz_file_extra, json_content)
@@ -80,7 +80,7 @@ def to_translation_file(paratranz_file: File, paratranz_file_strings: list[Strin
     properties: list[tuple[str, Property]] = [(k, v) for k, v in file_extra.properties.items()]
     properties.sort(key=sort_key)
 
-    is_script = file_extra.zh_cn_relpath.startswith("scripts/")
+    is_script = file_extra.target_relpath.startswith("scripts/")
 
     left = 0
     buffer = StringIO()
@@ -102,5 +102,5 @@ def to_translation_file(paratranz_file: File, paratranz_file_strings: list[Strin
     translated_content = buffer.getvalue()
     if is_script:
         translated_content = translated_content.replace('val _I18N_Lang = "en_US";', 'val _I18N_Lang = "zh_CN";')
-    logger.info("to_translation_file: {}", file_extra.zh_cn_relpath)
-    return TranslationFile(file_extra.zh_cn_relpath, translated_content)
+    logger.info("to_translation_file: {}", file_extra.target_relpath)
+    return TranslationFile(file_extra.target_relpath, translated_content)
