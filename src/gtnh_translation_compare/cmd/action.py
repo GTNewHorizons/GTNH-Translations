@@ -106,13 +106,18 @@ class Action:
         qb_paratranz_file = to_paratranz_file(qb_lang_file)
         self.client.upload_file(qb_paratranz_file)
 
-    def paratranz_to_quest_book(self, repo_path: Optional[str] = None, issue: Optional[str] = None) -> None:
+    def paratranz_to_quest_book(
+        self,
+        repo_path: Optional[str] = None,
+        issue: Optional[str] = None,
+        commit_message: str = "[自动化] 更新 任务书",
+    ) -> None:
         filter_: ParatranzFilenameFilter = lambda name: name == settings.DEFAULT_QUESTS_LANG_TARGET_REL_PATH + ".json"
         self.__paratranz_to_translation(
             filter_,
             None,
             ValueError("No quest book file found"),
-            "[自动化] 更新 任务书",
+            commit_message,
             repo_path,
             issue,
         )
@@ -129,7 +134,12 @@ class Action:
             script_paratranz_file = to_paratranz_file(script_file)
             self.client.upload_file(script_paratranz_file)
 
-    def paratranz_to_lang_and_zs(self, repo_path: Optional[str] = None, issue: Optional[str] = None) -> None:
+    def paratranz_to_lang_and_zs(
+        self,
+        repo_path: Optional[str] = None,
+        issue: Optional[str] = None,
+        commit_message: str = "[自动化] 更新 语言文件 + 脚本",
+    ) -> None:
         def filter_(name: str) -> bool:
             return any(
                 [
@@ -144,7 +154,7 @@ class Action:
             filter_,
             None,
             ValueError("No lang or zs file found"),
-            "[自动化] 更新 语言文件 + 脚本",
+            commit_message,
             repo_path,
             issue,
         )
@@ -162,7 +172,12 @@ class Action:
         gt_paratranz_file = to_paratranz_file(gt_lang_file)
         self.client.upload_file(gt_paratranz_file)
 
-    def paratranz_to_gt_lang(self, repo_path: Optional[str] = None, issue: Optional[str] = None) -> None:
+    def paratranz_to_gt_lang(
+        self,
+        repo_path: Optional[str] = None,
+        issue: Optional[str] = None,
+        commit_message: str = "[自动化] 更新 GT 语言文件",
+    ) -> None:
         filter_: ParatranzFilenameFilter = lambda name: name == settings.GT_LANG_TARGET_REL_PATH + ".json"
 
         def after_to_translation_file_callback(translation_file: TranslationFile) -> None:
@@ -174,7 +189,7 @@ class Action:
             filter_,
             after_to_translation_file_callback,
             ValueError("No gt lang file found"),
-            "[自动化] 更新 GT 语言文件",
+            commit_message,
             repo_path,
             issue,
         )
