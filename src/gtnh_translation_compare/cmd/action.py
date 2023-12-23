@@ -96,9 +96,7 @@ class Action:
     def quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
         if commit_sha is None or commit_sha == "":
             commit_sha = "master"
-        qb_lang_file_url = (
-            f"https://github.com/{settings.GTNH_REPO}/raw/{commit_sha}/{settings.DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH}"
-        )
+        qb_lang_file_url = f"https://raw.githubusercontent.com/{settings.GTNH_REPO}/{commit_sha}/{settings.DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH}"
         res = requests.get(qb_lang_file_url)
         if res.status_code != 200:
             raise ValueError(f"Failed to get quest book file from {qb_lang_file_url}")
