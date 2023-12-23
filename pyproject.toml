@@ -5,7 +5,7 @@ description = ""
 authors = ["MuXiu1997 <muxiu1997@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 requests = "^2.28.1"
 marshmallow = "^3.18.0"
 paratranz-client = {git = "https://git@github.com/MuXiu1997/ParaTranz-SDK-python.git", rev = "main", develop = true}
@@ -19,8 +19,8 @@ mypy = "^0.961"
 black = "^22.3.0"
 
 [tool.poetry.group.test.dependencies]
-pytest = "^7.1.2"
-pytest-cov = "^4.0.0"
+pytest = "^7.4.3"
+pytest-cov = "^4.1.0"
 
 [build-system]
 requires = ["poetry-core>=1.2.0"]
@@ -28,7 +28,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.black]
 line-length = 120
-target-version = ["py310"]
+target-version = ["py311"]
 
 [tool.mypy]
 files = "src"
