@@ -52,7 +52,7 @@ class ClientWrapper:
 
     def get_strings(self, file_id: int) -> list[StringItem]:
         page = 1
-        page_size = 500
+        page_size = 1000
         logger.info("get_strings: file_id={}, page={}, page_count=?", file_id, page)
         strings: list[StringItem] = list()
         res = get_strings.sync_detailed(
