@@ -4,6 +4,9 @@ description: Ensure Dependencies
 runs:
   using: composite
   steps:
+    ############################################################################
+    # Setup Python-related
+    ############################################################################
     - name: Setup Python
       id: setup-python
       uses: actions/setup-python@v3
@@ -30,6 +33,10 @@ runs:
       if: steps.load-cached-venv.outputs.cache-hit != 'true'
       shell: bash
       run: poetry install --no-interaction
+
+    ############################################################################
+    # Setup Paratranz Cache
+    ############################################################################
     - name: Ensure Paratranz Cache Dir
       shell: bash
       run: |
@@ -47,3 +54,12 @@ runs:
       shell: bash
       run: |
         find ${{ runner.temp }}/paratranz_cache -type f -mtime +90 -delete
+
+    ############################################################################
+    # Setup Debug Log
+    ############################################################################
+    - name: Enable Debug Log If Needed
+      if: ${{ runner.debug }}
+      shell: bash
+      run: |
+        echo "GTNH_TC_DEBUG=true" >> $GITHUB_ENV

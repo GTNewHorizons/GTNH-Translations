@@ -2,23 +2,29 @@ import os
 import sys
 
 import fire  # type: ignore[import]
-from loguru import logger
-
-from gtnh_translation_compare.cmd import ParseIssue, Action
+import loguru
 
 
 class App:
     def __init__(self) -> None:
+        from gtnh_translation_compare.cmd import ParseIssue, Action
+
         self.parse_issue = ParseIssue()
         self.action = Action()
 
 
 def setup_logger() -> None:
-    logger.remove(handler_id=None)
+    from typing import Dict, Any
+
     logger_level = "INFO"
-    if os.getenv("ACTIONS_RUNNER_DEBUG") or os.getenv("RUNNER_DEBUG") or os.getenv("GTNH_TC_DEBUG"):
+    if os.getenv("GTNH_TC_DEBUG"):
         logger_level = "DEBUG"
-    logger.add(sys.stderr, level=logger_level)
+
+    def remove_logger_global_name_prefix(record: Dict[str, Any]) -> None:
+        record["name"] = record["name"].removeprefix("gtnh_translation_compare.")
+
+    loguru.logger = loguru.logger.patch(remove_logger_global_name_prefix)  # type: ignore[arg-type]
+    loguru.logger.configure(handlers=[{"sink": sys.stderr, "level": logger_level, "colorize": True}])
 
 
 if __name__ == "__main__":
