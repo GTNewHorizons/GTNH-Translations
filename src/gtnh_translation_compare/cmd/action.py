@@ -154,12 +154,15 @@ class Action:
     def quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
         if commit_sha is None or commit_sha == "":
             commit_sha = "master"
-        qb_lang_file_url = f"https://raw.githubusercontent.com/{settings.GTNH_REPO}/{commit_sha}/{settings.DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH}"
+        qb_lang_file_url = (
+            f"https://raw.githubusercontent.com"
+            f"/{settings.GTNH_REPO}/{commit_sha}/{settings.DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH}"
+        )
         res = requests.get(qb_lang_file_url)
         if res.status_code != 200:
             raise ValueError(f"Failed to get quest book file from {qb_lang_file_url}")
         qb_lang_file = FiletypeLang(
-            relpath=settings.DEFAULT_QUESTS_LANG_TARGET_REL_PATH, content=res.text, language=Language.en_US
+            relpath=settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=res.text, language=Language.en_US
         )
         qb_paratranz_file = to_paratranz_file(qb_lang_file)
         asyncio.run(self.client.upload_file(qb_paratranz_file))

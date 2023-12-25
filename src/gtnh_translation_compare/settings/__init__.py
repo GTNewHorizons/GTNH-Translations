@@ -10,6 +10,10 @@ DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH = os.environ.get(
     "DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH",
     "config/txloader/load/betterquesting/lang/template.lang",
 )
+DEFAULT_QUESTS_LANG_EN_US_REL_PATH = os.environ.get(
+    "DEFAULT_QUESTS_LANG_EN_US_REL_PATH",
+    "config/txloader/load/betterquesting/lang/en_US.lang",
+)
 DEFAULT_QUESTS_LANG_TARGET_REL_PATH = os.environ.get(
     "DEFAULT_QUESTS_LANG_TARGET_REL_PATH",
     f"config/txloader/load/betterquesting/lang/{TARGET_LANG.value}.lang",
