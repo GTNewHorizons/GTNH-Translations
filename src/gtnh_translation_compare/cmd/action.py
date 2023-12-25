@@ -63,8 +63,11 @@ class Action:
         translation_filepaths: list[str] = []
         for f in self.client.all_files:
             if filter_(f.value.name):
-                strings = asyncio.run(self.client.get_strings(f.value.id))
-                translation_file = to_translation_file(f, strings)
+                translation_file = self.client.cache.get(f)
+                if translation_file is None:
+                    strings = asyncio.run(self.client.get_strings(f.value.id))
+                    translation_file = to_translation_file(f, strings)
+                    self.client.cache.set(f, translation_file)
                 if after_to_translation_file_callback is not None:
                     after_to_translation_file_callback(translation_file)
                 translation_files.append(translation_file)

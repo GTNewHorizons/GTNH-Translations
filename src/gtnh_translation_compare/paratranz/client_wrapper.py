@@ -8,8 +8,10 @@ from loguru import logger
 from paratranz_client import Configuration, ApiClient, ApiResponse, File, StringItem, SaveFileRequest
 from paratranz_client.api import FilesApi, StringsApi
 
+from gtnh_translation_compare import settings
 from gtnh_translation_compare.paratranz.converter import ParatranzFile
 from gtnh_translation_compare.paratranz.file_extra import FileExtraSchema
+from gtnh_translation_compare.paratranz.paratranz_cache import ParatranzCache
 from gtnh_translation_compare.paratranz.paratranz_file_ref import ParatranzFileRef
 
 
@@ -17,6 +19,7 @@ class ClientWrapper:
     def __init__(self, config: Configuration, project_id: int):
         self.config = config
         self.project_id = project_id
+        self.cache = ParatranzCache(settings.PARATRANZ_CACHE_DIR)
 
     async def _get_all_files(self) -> List[ParatranzFileRef]:
         async with ApiClient(self.config) as client:

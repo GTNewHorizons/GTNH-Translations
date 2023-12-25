@@ -23,6 +23,8 @@ PARATRANZ_TOKEN = must_get_env("PARATRANZ_TOKEN")
 GIT_AUTHOR = os.environ.get("GIT_AUTHOR", None)
 CLOSE_ISSUE_IN_COMMIT_MESSAGE = os.environ.get("CLOSE_ISSUE_IN_COMMIT_MESSAGE", "true").lower() == "true"
 
+PARATRANZ_CACHE_DIR = os.environ.get("PARATRANZ_CACHE_DIR", ".paratranz_cache")
+
 __all__ = [
     "TARGET_LANG",
     "GTNH_REPO",
