@@ -28,28 +28,6 @@ class Action:
 
         self.client = ClientWrapper(configuration, paratranz_project_id)
 
-    @staticmethod
-    def __commit(repo: str, paths: list[str], message: str, issue: object) -> None:
-        porcelain.add(repo, paths)  # type: ignore[no-untyped-call]
-        commit_message = message
-        if issue is not None and settings.CLOSE_ISSUE_IN_COMMIT_MESSAGE:
-            commit_message += f"\n\nclosed #{issue}"
-        porcelain.commit(  # type: ignore[no-untyped-call]
-            repo,
-            message=commit_message,
-            author=settings.GIT_AUTHOR,
-        )
-
-    @staticmethod
-    def __write(filepath: str, content: str) -> None:
-        os.makedirs(os.path.dirname(filepath), exist_ok=True)
-        with open(filepath, "w") as fp:
-            fp.write(content)
-
-    @staticmethod
-    def __write_translation_file(filepath: str, translation_file: TranslationFile) -> None:
-        Action.__write(filepath, translation_file.content)
-
     def __paratranz_to_translation(
         self,
         filter_: ParatranzFilenameFilter,
@@ -78,35 +56,31 @@ class Action:
 
         if repo_path is None:
             for translation_file in translation_files:
-                print(translation_file.content)
+                print("#" * 80)
+                print(f"# {translation_file.relpath}")
+                print("#" * 80)
+                print(translation_file.content, end="\n\n")
             return
 
         for translation_file in translation_files:
             translation_filepath = os.path.abspath(os.path.join(repo_path, translation_file.relpath))
             translation_filepaths.append(translation_filepath)
-            self.__write_translation_file(translation_filepath, translation_file)
+            write_file(translation_filepath, translation_file.content)
 
-        self.__commit(
+        git_commit(
             repo_path,
             translation_filepaths,
+            settings.GIT_AUTHOR,
             message,
             issue,
+            settings.CLOSE_ISSUE_IN_COMMIT_MESSAGE,
         )
 
-    # region Quest Book
-    def quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
-        if commit_sha is None or commit_sha == "":
-            commit_sha = "master"
-        qb_lang_file_url = f"https://raw.githubusercontent.com/{settings.GTNH_REPO}/{commit_sha}/{settings.DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH}"
-        res = requests.get(qb_lang_file_url)
-        if res.status_code != 200:
-            raise ValueError(f"Failed to get quest book file from {qb_lang_file_url}")
-        qb_lang_file = FiletypeLang(
-            relpath=settings.DEFAULT_QUESTS_LANG_TARGET_REL_PATH, content=res.text, language=Language.en_US
-        )
-        qb_paratranz_file = to_paratranz_file(qb_lang_file)
-        asyncio.run(self.client.upload_file(qb_paratranz_file))
+    ############################################################################
+    # From Paratranz
+    ############################################################################
 
+    # Quest Book
     def paratranz_to_quest_book(
         self,
         repo_path: Optional[str] = None,
@@ -123,25 +97,7 @@ class Action:
             issue,
         )
 
-    # endregion Quest Book
-
-    # region Lang + Zs
-    def lang_and_zs_to_paratranz(self, modpack_path: str) -> None:
-        modpack = ModPack(Path(modpack_path))
-        # concurrency number
-        sem = asyncio.Semaphore(10)
-
-        async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
-            async with _sem:
-                paratranz_file = to_paratranz_file(lang_file)
-                await self.client.upload_file(paratranz_file)
-
-        tasks = [upload_file(sem, lang_file) for lang_file in modpack.lang_files]
-        tasks += [upload_file(sem, script_file) for script_file in modpack.script_files]
-
-        # noinspection PyTypeChecker
-        asyncio.run(asyncio.gather(*tasks))
-
+    # Lang + Zs
     def paratranz_to_lang_and_zs(
         self,
         repo_path: Optional[str] = None,
@@ -167,19 +123,7 @@ class Action:
             issue,
         )
 
-    # endregion Lang + Zs
-
-    # region Gt Lang
-    def gt_lang_to_paratranz(self, gt_lang_url: str) -> None:
-        res = requests.get(gt_lang_url)
-        gt_lang_file = FiletypeGTLang(
-            relpath=settings.GT_LANG_TARGET_REL_PATH,
-            content=ensure_lf(res.text),
-            language=Language.en_US,
-        )
-        gt_paratranz_file = to_paratranz_file(gt_lang_file)
-        asyncio.run(self.client.upload_file(gt_paratranz_file))
-
+    # Gt Lang
     def paratranz_to_gt_lang(
         self,
         repo_path: Optional[str] = None,
@@ -202,4 +146,73 @@ class Action:
             issue,
         )
 
-    # endregion Gt Lang
+    ############################################################################
+    # To Paratranz
+    ############################################################################
+
+    # Quest Book
+    def quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
+        if commit_sha is None or commit_sha == "":
+            commit_sha = "master"
+        qb_lang_file_url = f"https://raw.githubusercontent.com/{settings.GTNH_REPO}/{commit_sha}/{settings.DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH}"
+        res = requests.get(qb_lang_file_url)
+        if res.status_code != 200:
+            raise ValueError(f"Failed to get quest book file from {qb_lang_file_url}")
+        qb_lang_file = FiletypeLang(
+            relpath=settings.DEFAULT_QUESTS_LANG_TARGET_REL_PATH, content=res.text, language=Language.en_US
+        )
+        qb_paratranz_file = to_paratranz_file(qb_lang_file)
+        asyncio.run(self.client.upload_file(qb_paratranz_file))
+
+    # Lang + Zs
+    def lang_and_zs_to_paratranz(self, modpack_path: str) -> None:
+        modpack = ModPack(Path(modpack_path))
+        # concurrency number
+        sem = asyncio.Semaphore(10)
+
+        async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
+            async with _sem:
+                paratranz_file = to_paratranz_file(lang_file)
+                await self.client.upload_file(paratranz_file)
+
+        tasks = [upload_file(sem, lang_file) for lang_file in modpack.lang_files]
+        tasks += [upload_file(sem, script_file) for script_file in modpack.script_files]
+
+        # noinspection PyTypeChecker
+        asyncio.run(asyncio.gather(*tasks))
+
+    # Gt Lang
+    def gt_lang_to_paratranz(self, gt_lang_url: str) -> None:
+        res = requests.get(gt_lang_url)
+        gt_lang_file = FiletypeGTLang(
+            relpath=settings.GT_LANG_TARGET_REL_PATH,
+            content=ensure_lf(res.text),
+            language=Language.en_US,
+        )
+        gt_paratranz_file = to_paratranz_file(gt_lang_file)
+        asyncio.run(self.client.upload_file(gt_paratranz_file))
+
+
+def git_commit(
+    git_root: str,
+    paths: list[str],
+    author: Optional[str],
+    message: str,
+    issue: str,
+    close_issue_in_commit_message: bool,
+) -> None:
+    porcelain.add(git_root, paths)  # type: ignore[no-untyped-call]
+    commit_message = message
+    if issue is not None and close_issue_in_commit_message:
+        commit_message += f"\n\nclosed #{issue}"
+    porcelain.commit(  # type: ignore[no-untyped-call]
+        git_root,
+        message=commit_message,
+        author=author,
+    )
+
+
+def write_file(filepath: str, content: str) -> None:
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    with open(filepath, "w") as fp:
+        fp.write(content)
