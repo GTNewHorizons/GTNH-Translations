@@ -1,12 +1,11 @@
 import io
 from dataclasses import dataclass
-from os import path
-from typing import BinaryIO
 from io import StringIO
+from typing import BinaryIO, List
 
+from loguru import logger
 from paratranz_client.models.file import File
 from paratranz_client.models.string_item import StringItem
-from paratranz_client.types import File as FileToBeUploaded
 
 from gtnh_translation_compare.filetypes import Language
 from gtnh_translation_compare.filetypes.filetype import Filetype
@@ -16,8 +15,8 @@ from gtnh_translation_compare.paratranz.json_item import (
     JsonItem,
     JsonItemSchema,
 )
+from gtnh_translation_compare.paratranz.paratranz_file_ref import ParatranzFileRef
 from gtnh_translation_compare.utils.unicode import to_unicode
-from loguru import logger
 
 
 @dataclass
@@ -31,13 +30,14 @@ class ParatranzFile:
         return io.BytesIO(JsonItemSchema().dumps(self.json_items, many=True).encode())
 
     @property
-    def file(self) -> FileToBeUploaded:
-        assert isinstance(self.file_model.name, str)
-        return FileToBeUploaded(
-            payload=self.binary_json,
-            file_name=path.basename(self.file_model.name),
-            mime_type="application/json",
-        )
+    def file(self) -> bytes:
+        # assert isinstance(self.file_model.name, str)
+        # return FileToBeUploaded(
+        #     payload=self.binary_json,
+        #     file_name=path.basename(self.file_model.name),
+        #     mime_type="application/json",
+        # )
+        return self.binary_json.read()
 
 
 def to_paratranz_file(
@@ -70,8 +70,8 @@ def sort_key(item: tuple[str, Property]) -> int:
     return p.start
 
 
-def to_translation_file(paratranz_file: File, paratranz_file_strings: list[StringItem]) -> TranslationFile:
-    file_extra_dict = paratranz_file.additional_properties["extra"]
+def to_translation_file(paratranz_file: ParatranzFileRef, paratranz_file_strings: List[StringItem]) -> TranslationFile:
+    file_extra_dict = paratranz_file.extra
     file_extra: FileExtra = FileExtraSchema().load(file_extra_dict)
     content = file_extra.original
     json_items: JsonItems = [JsonItemSchema().load(string.to_dict()) for string in paratranz_file_strings]

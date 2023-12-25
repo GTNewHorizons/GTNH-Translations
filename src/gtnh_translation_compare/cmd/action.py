@@ -1,13 +1,14 @@
+import asyncio
 import os
 from pathlib import Path
 from typing import TypeAlias, Callable, Optional
 
 import requests
 from dulwich import porcelain
-from paratranz_client.client import AuthenticatedClient
+from paratranz_client import Configuration
 
 from gtnh_translation_compare import settings
-from gtnh_translation_compare.filetypes import FiletypeLang, Language, FiletypeGTLang
+from gtnh_translation_compare.filetypes import FiletypeLang, Language, FiletypeGTLang, Filetype
 from gtnh_translation_compare.modpack.modpack import ModPack
 from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
 from gtnh_translation_compare.paratranz.converter import TranslationFile, to_translation_file, to_paratranz_file
@@ -21,14 +22,11 @@ class Action:
     def __init__(self) -> None:
         paratranz_project_id = settings.PARATRANZ_PROJECT_ID
         paratranz_token = settings.PARATRANZ_TOKEN
-        client = AuthenticatedClient(
-            base_url="https://paratranz.cn/api",
-            token=paratranz_token,
-            verify_ssl=False,
-            timeout=1000,
-            headers={"Authorization": paratranz_token},
-        )
-        self.client = ClientWrapper(client, paratranz_project_id)
+
+        configuration = Configuration(host="https://paratranz.cn/api")
+        configuration.api_key["Token"] = paratranz_token
+
+        self.client = ClientWrapper(configuration, paratranz_project_id)
 
     @staticmethod
     def __commit(repo: str, paths: list[str], message: str, issue: object) -> None:
@@ -64,8 +62,8 @@ class Action:
         translation_files: list[TranslationFile] = []
         translation_filepaths: list[str] = []
         for f in self.client.all_files:
-            if filter_(f.name):
-                strings = self.client.get_strings(f.id)
+            if filter_(f.value.name):
+                strings = asyncio.run(self.client.get_strings(f.value.id))
                 translation_file = to_translation_file(f, strings)
                 if after_to_translation_file_callback is not None:
                     after_to_translation_file_callback(translation_file)
@@ -104,7 +102,7 @@ class Action:
             relpath=settings.DEFAULT_QUESTS_LANG_TARGET_REL_PATH, content=res.text, language=Language.en_US
         )
         qb_paratranz_file = to_paratranz_file(qb_lang_file)
-        self.client.upload_file(qb_paratranz_file)
+        asyncio.run(self.client.upload_file(qb_paratranz_file))
 
     def paratranz_to_quest_book(
         self,
@@ -127,12 +125,19 @@ class Action:
     # region Lang + Zs
     def lang_and_zs_to_paratranz(self, modpack_path: str) -> None:
         modpack = ModPack(Path(modpack_path))
-        for lang_file in modpack.lang_files:
-            lang_paratranz_file = to_paratranz_file(lang_file)
-            self.client.upload_file(lang_paratranz_file)
-        for script_file in modpack.script_files:
-            script_paratranz_file = to_paratranz_file(script_file)
-            self.client.upload_file(script_paratranz_file)
+        # concurrency number
+        sem = asyncio.Semaphore(10)
+
+        async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
+            async with _sem:
+                paratranz_file = to_paratranz_file(lang_file)
+                await self.client.upload_file(paratranz_file)
+
+        tasks = [upload_file(sem, lang_file) for lang_file in modpack.lang_files]
+        tasks += [upload_file(sem, script_file) for script_file in modpack.script_files]
+
+        # noinspection PyTypeChecker
+        asyncio.run(asyncio.gather(*tasks))
 
     def paratranz_to_lang_and_zs(
         self,
@@ -170,7 +175,7 @@ class Action:
             language=Language.en_US,
         )
         gt_paratranz_file = to_paratranz_file(gt_lang_file)
-        self.client.upload_file(gt_paratranz_file)
+        asyncio.run(self.client.upload_file(gt_paratranz_file))
 
     def paratranz_to_gt_lang(
         self,
