@@ -1,54 +1,20 @@
-# TODO: 使用 marshmallow 重构
-from __future__ import annotations
-import json
-
-from typing import TypedDict, TypeAlias, Any, TypeGuard
+from pydantic import BaseModel
+from typing import List
 
 
-class IssueUser(TypedDict):
+class IssueUser(BaseModel):
     login: str
 
 
-class IssueLabelsItem(TypedDict):
+class IssueLabelsItem(BaseModel):
     name: str
 
 
-IssueLabels: TypeAlias = list[IssueLabelsItem]
-IssueBody: TypeAlias = str
-
-
-class Issue(TypedDict):
+class Issue(BaseModel):
     user: IssueUser
-    labels: IssueLabels
-    body: IssueBody
-
-
-def is_valid_issue(unknown: Any) -> TypeGuard[Issue]:
-    try:
-        assert unknown is not None
-        assert type(unknown) is dict
-
-        assert "user" in unknown
-        assert "labels" in unknown
-        assert "body" in unknown
-
-        assert type(unknown["user"]) is dict
-        assert "login" in unknown["user"]
-        assert type(unknown["user"]["login"]) is str
-
-        assert type(unknown["labels"]) is list
-        assert all([type(label) is dict for label in unknown["labels"]])
-        assert all(["name" in label for label in unknown["labels"]])
-        assert all([type(label["name"]) is str for label in unknown["labels"]])
-
-        assert type(unknown["body"]) is str
-    except AssertionError:
-        return False
-    return True
+    labels: List[IssueLabelsItem]
+    body: str
 
 
 def new_issue_from_json(json_str: str) -> Issue:
-    issue = json.loads(json_str)
-    if not is_valid_issue(issue):
-        raise ValueError("Invalid issue")
-    return issue
+    return Issue.model_validate_json(json_str)
