@@ -1,11 +1,11 @@
 import asyncio
 import json
-from functools import cache
+from functools import cached_property
 from os import path
 from typing import Optional, Any, List
 
 from loguru import logger
-from paratranz_client import Configuration, ApiClient, ApiResponse, File, StringItem, SaveFileRequest
+from paratranz_client import Configuration, ApiClient, ApiResponse, StringItem, SaveFileRequest
 from paratranz_client.api import FilesApi, StringsApi
 
 from gtnh_translation_compare import settings
@@ -31,8 +31,7 @@ class ClientWrapper:
                 ParatranzFileRef(value=res.data[i], extra=data_with_extra[i]["extra"]) for i in range(len(res.data))
             ]
 
-    @property
-    @cache
+    @cached_property
     def all_files(self) -> List[ParatranzFileRef]:
         return asyncio.run(self._get_all_files())
 

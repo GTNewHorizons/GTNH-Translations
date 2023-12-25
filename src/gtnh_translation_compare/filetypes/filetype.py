@@ -1,4 +1,5 @@
 from abc import ABCMeta, abstractmethod
+from functools import cached_property
 from typing import Dict, final, TYPE_CHECKING
 
 from gtnh_translation_compare.filetypes.property import Property
@@ -8,7 +9,7 @@ if TYPE_CHECKING:
 
 
 class Filetype(metaclass=ABCMeta):
-    @property
+    @cached_property
     @final
     def relpath(self) -> str:
         return self._get_relpath()
@@ -17,7 +18,7 @@ class Filetype(metaclass=ABCMeta):
     def _get_relpath(self) -> str:
         pass
 
-    @property
+    @cached_property
     @final
     def content(self) -> str:
         return self._get_content()
@@ -26,7 +27,7 @@ class Filetype(metaclass=ABCMeta):
     def _get_content(self) -> str:
         pass
 
-    @property
+    @cached_property
     @final
     def properties(self) -> Dict[str, Property]:
         return self._get_properties(self.content)

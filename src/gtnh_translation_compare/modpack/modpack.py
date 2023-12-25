@@ -1,6 +1,6 @@
 import pathlib
 import zipfile
-from functools import cache
+from functools import cache, cached_property
 from os import path
 from typing import Sequence
 
@@ -16,12 +16,8 @@ class ModPack:
         elif len(list(pack_path.glob("*/mods"))) == 1:
             self.__pack_path = pathlib.Path(path.join(list(pack_path.glob("*/mods"))[0], ".."))
 
-    @property
+    @cached_property
     def lang_files(self) -> Sequence[Filetype]:
-        return self._get_lang_files()
-
-    @cache
-    def _get_lang_files(self) -> Sequence[Filetype]:
         lang_files: list[FiletypeLang] = []
         for mod_path in self.__pack_path.glob("mods/**/*.jar"):
             with mod_path.open("rb") as mod_jar:
@@ -32,12 +28,8 @@ class ModPack:
                     lang_files.append(FiletypeLang(f"resources/{mod.mod_name}[{sub_mod_id}]/{filename}", content))
         return lang_files
 
-    @property
+    @cached_property
     def script_files(self) -> Sequence[Filetype]:
-        return self._get_script_files()
-
-    @cache
-    def _get_script_files(self) -> Sequence[Filetype]:
         script_files: list[FiletypeScript] = []
         for f in self.__pack_path.glob("scripts/*.zs"):
             script_file = FiletypeScript(

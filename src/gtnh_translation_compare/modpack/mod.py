@@ -1,7 +1,7 @@
 import json
 import zipfile
-from functools import cache
-from typing import TypeAlias
+from functools import cached_property
+from typing import TypeAlias, Dict
 
 from gtnh_translation_compare.utils.file import replace_illegal_characters, ensure_lf
 
@@ -13,12 +13,8 @@ class Mod:
     def __init__(self, jar: zipfile.ZipFile):
         self.__jar = jar
 
-    @property
+    @cached_property
     def mod_name(self) -> str:
-        return self._get_mod_name()
-
-    @cache
-    def _get_mod_name(self) -> str:
         try:
             with self.__jar.open("mcmod.info", "r") as fp:
                 mod_info_json = fp.read()
@@ -34,12 +30,8 @@ class Mod:
         except KeyError:
             return "__no-modinfo"
 
-    @property
-    def lang_files(self) -> dict[Filename, Content]:
-        return self._get_lang_files()
-
-    @cache
-    def _get_lang_files(self) -> dict[Filename, Content]:
+    @cached_property
+    def lang_files(self) -> Dict[Filename, Content]:
         lang_files = {}
         for f in self.__jar.namelist():
             if f.endswith("en_US.lang") and len(f.split("/")) == 4:

@@ -1,5 +1,4 @@
 import re
-from functools import cache
 from typing import Dict
 
 from gtnh_translation_compare.filetypes.filetype import Filetype
@@ -22,7 +21,6 @@ class FiletypeScript(Filetype):
     def _get_content(self) -> str:
         return self._content
 
-    @cache
     def _get_properties(self, content: str) -> Dict[str, Property]:
         properties: Dict[str, Property] = {}
         for _, line, start, end in line_iterator(content):
