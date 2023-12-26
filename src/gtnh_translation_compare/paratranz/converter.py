@@ -1,107 +1,96 @@
-import io
-from dataclasses import dataclass
+import asyncio
 from io import StringIO
-from typing import BinaryIO, List
+from typing import List, Tuple, Dict
 
 from loguru import logger
-from paratranz_client.models.file import File
-from paratranz_client.models.string_item import StringItem
 
-from gtnh_translation_compare import settings
 from gtnh_translation_compare.filetypes import Language
 from gtnh_translation_compare.filetypes.filetype import Filetype
-from gtnh_translation_compare.paratranz.file_extra import FileExtra, FileExtraSchema, Properties, Property
-from gtnh_translation_compare.paratranz.json_item import (
-    JsonItems,
-    JsonItem,
-    JsonItemSchema,
+from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
+from gtnh_translation_compare.paratranz.paratranz_cache import ParatranzCache
+from gtnh_translation_compare.paratranz.types import (
+    ParatranzFile,
+    TranslationFile,
+    File,
+    FileExtra,
+    Property,
+    StringItem,
 )
-from gtnh_translation_compare.paratranz.paratranz_file_ref import ParatranzFileRef
 from gtnh_translation_compare.utils.unicode import to_unicode
 
 
-@dataclass
-class ParatranzFile:
-    file_model: File
-    file_model_extra: FileExtra
-    json_items: JsonItems
+class Converter:
+    def __init__(self, client: ClientWrapper, cache: ParatranzCache, target_lang: Language):
+        self.client = client
+        self.cache = cache
+        self.target_lang = target_lang
 
-    @property
-    def binary_json(self) -> BinaryIO:
-        return io.BytesIO(JsonItemSchema().dumps(self.json_items, many=True).encode())
+    def to_translation_file(self, paratranz_file: File) -> "TranslationFile":
+        cached = self.cache.get(paratranz_file)
+        if cached:
+            logger.info("cache hit: {}", paratranz_file.name)
+            return cached
+        translation_file = self._to_translation_file(paratranz_file)
+        self.cache.set(paratranz_file, translation_file)
+        logger.info("cache miss: {}", paratranz_file.name)
+        return translation_file
 
-    @property
-    def file(self) -> bytes:
-        # assert isinstance(self.file_model.name, str)
-        # return FileToBeUploaded(
-        #     payload=self.binary_json,
-        #     file_name=path.basename(self.file_model.name),
-        #     mime_type="application/json",
-        # )
-        return self.binary_json.read()
+    def _to_translation_file(self, paratranz_file: File) -> "TranslationFile":
+        file_extra_dict = paratranz_file.extra
+        file_extra = FileExtra.model_validate(file_extra_dict)
+        content = file_extra.original
+        string_items = asyncio.run(self.client.get_strings(paratranz_file.id))
+        string_items_map = {item.key: item for item in string_items}
 
+        properties: List[Tuple[str, Property]] = [(k, v) for k, v in file_extra.properties.items()]
+        properties.sort(key=sort_key)
 
-def to_paratranz_file(
-    file: Filetype,
-) -> ParatranzFile:
-    paratranz_file = File()
-    paratranz_file.name = file.get_target_language_relpath(settings.TARGET_LANG) + ".json"
-    json_content: JsonItems = [JsonItem(key=p.key, original=p.value, context=p.full) for p in file.properties.values()]
-    paratranz_file_extra_properties: Properties = {
-        k: Property(key=p.key, start=p.start, end=p.end) for k, p in file.properties.items()
-    }
-    paratranz_file_extra = FileExtra(
-        original=file.content,
-        properties=paratranz_file_extra_properties,
-        en_us_relpath=file.get_en_us_relpath(),
-        target_relpath=file.get_target_language_relpath(settings.TARGET_LANG),
-    )
-    logger.info("to_paratranz_file: {}", paratranz_file.name)
-    return ParatranzFile(paratranz_file, paratranz_file_extra, json_content)
+        is_script = file_extra.target_relpath.startswith("scripts/")
 
+        left = 0
+        buffer = StringIO()
+        for k, p in properties:
+            if k not in string_items_map:
+                continue
+            string_item = string_items_map[k]
+            translation = string_item.translation
+            if translation:
+                if is_script:
+                    translation = "<BR>".join([to_unicode(p) for p in translation.split("<BR>")])
+                buffer.write(content[left : p.start])
+                buffer.write(translation)
+            else:
+                buffer.write(content[left : p.end])
+            left = p.end
+        buffer.write(content[left:])
 
-@dataclass
-class TranslationFile:
-    relpath: str
-    content: str
+        translated_content = buffer.getvalue()
+        if is_script:
+            translated_content = translated_content.replace('val _I18N_Lang = "en_US";', 'val _I18N_Lang = "zh_CN";')
+        return TranslationFile(relpath=file_extra.target_relpath, content=translated_content)
+
+    def to_paratranz_file(self, file: Filetype) -> "ParatranzFile":
+        file_name = file.get_target_language_relpath(self.target_lang) + ".json"
+        string_list: List[StringItem] = [
+            StringItem(key=p.key, original=p.value, context=p.full) for p in file.properties.values()
+        ]
+        paratranz_file_extra_properties: Dict[str, Property] = {
+            k: Property(key=p.key, start=p.start, end=p.end) for k, p in file.properties.items()
+        }
+        paratranz_file_extra = FileExtra(
+            original=file.content,
+            properties=paratranz_file_extra_properties,
+            en_us_relpath=file.get_en_us_relpath(),
+            target_relpath=file.get_target_language_relpath(self.target_lang),
+        )
+        logger.info(file_name)
+        return ParatranzFile(
+            file_name=file_name,
+            file_extra=paratranz_file_extra,
+            string_items=string_list,
+        )
 
 
 def sort_key(item: tuple[str, Property]) -> int:
     _, p = item
     return p.start
-
-
-def to_translation_file(paratranz_file: ParatranzFileRef, paratranz_file_strings: List[StringItem]) -> TranslationFile:
-    file_extra_dict = paratranz_file.extra
-    file_extra: FileExtra = FileExtraSchema().load(file_extra_dict)
-    content = file_extra.original
-    json_items: JsonItems = [JsonItemSchema().load(string.to_dict()) for string in paratranz_file_strings]
-    json_items_map: dict[str, JsonItem] = {item.key: item for item in json_items}
-
-    properties: list[tuple[str, Property]] = [(k, v) for k, v in file_extra.properties.items()]
-    properties.sort(key=sort_key)
-
-    is_script = file_extra.target_relpath.startswith("scripts/")
-
-    left = 0
-    buffer = StringIO()
-    for k, p in properties:
-        if k not in json_items_map:
-            continue
-        json_item: JsonItem = json_items_map[k]
-        translation = json_item.translation
-        if translation:
-            if is_script:
-                translation = "<BR>".join([to_unicode(p) for p in translation.split("<BR>")])
-            buffer.write(content[left : p.start])
-            buffer.write(translation)
-        else:
-            buffer.write(content[left : p.end])
-        left = p.end
-    buffer.write(content[left:])
-
-    translated_content = buffer.getvalue()
-    if is_script:
-        translated_content = translated_content.replace('val _I18N_Lang = "en_US";', 'val _I18N_Lang = "zh_CN";')
-    logger.info("to_translation_file: {}", file_extra.target_relpath)
-    return TranslationFile(file_extra.target_relpath, translated_content)

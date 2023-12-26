@@ -1,6 +1,6 @@
 import pathlib
 import zipfile
-from functools import cache, cached_property
+from functools import cached_property
 from os import path
 from typing import Sequence
 

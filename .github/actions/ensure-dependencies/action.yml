@@ -48,8 +48,8 @@ runs:
         path: ${{ runner.temp }}/paratranz_cache
         key: paratranz-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ github.run_number }}
         restore-keys: |
-          paratranz-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}
-          paratranz-${{ runner.os }}
+          paratranz-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-
+          paratranz-${{ runner.os }}-
     - name: Clean Up Outdated Paratranz Cache
       shell: bash
       run: |

@@ -3,15 +3,16 @@ import os
 from pathlib import Path
 from typing import TypeAlias, Callable, Optional
 
-import requests
+import httpx
 from dulwich import porcelain
-from paratranz_client import Configuration
 
 from gtnh_translation_compare import settings
 from gtnh_translation_compare.filetypes import FiletypeLang, Language, FiletypeGTLang, Filetype
 from gtnh_translation_compare.modpack.modpack import ModPack
 from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
-from gtnh_translation_compare.paratranz.converter import TranslationFile, to_translation_file, to_paratranz_file
+from gtnh_translation_compare.paratranz.converter import Converter
+from gtnh_translation_compare.paratranz.paratranz_cache import ParatranzCache
+from gtnh_translation_compare.paratranz.types import TranslationFile
 from gtnh_translation_compare.utils.file import ensure_lf
 
 ParatranzFilenameFilter: TypeAlias = Callable[[str], bool]
@@ -23,10 +24,19 @@ class Action:
         paratranz_project_id = settings.PARATRANZ_PROJECT_ID
         paratranz_token = settings.PARATRANZ_TOKEN
 
-        configuration = Configuration(host="https://paratranz.cn/api")
-        configuration.api_key["Token"] = paratranz_token
-
-        self.client = ClientWrapper(configuration, paratranz_project_id)
+        self.client = ClientWrapper(
+            client=httpx.AsyncClient(
+                headers={"Authorization": paratranz_token},
+                base_url="https://paratranz.cn/api",
+                timeout=60,
+            ),
+            project_id=paratranz_project_id,
+        )
+        self.converter = Converter(
+            client=self.client,
+            cache=ParatranzCache(settings.PARATRANZ_CACHE_DIR),
+            target_lang=settings.TARGET_LANG,
+        )
 
     def __paratranz_to_translation(
         self,
@@ -40,12 +50,8 @@ class Action:
         translation_files: list[TranslationFile] = []
         translation_filepaths: list[str] = []
         for f in self.client.all_files:
-            if filter_(f.value.name):
-                translation_file = self.client.cache.get(f)
-                if translation_file is None:
-                    strings = asyncio.run(self.client.get_strings(f.value.id))
-                    translation_file = to_translation_file(f, strings)
-                    self.client.cache.set(f, translation_file)
+            if filter_(f.name):
+                translation_file = self.converter.to_translation_file(f)
                 if after_to_translation_file_callback is not None:
                     after_to_translation_file_callback(translation_file)
                 translation_files.append(translation_file)
@@ -158,13 +164,13 @@ class Action:
             f"https://raw.githubusercontent.com"
             f"/{settings.GTNH_REPO}/{commit_sha}/{settings.DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH}"
         )
-        res = requests.get(qb_lang_file_url)
+        res = httpx.get(url=qb_lang_file_url, timeout=60)
         if res.status_code != 200:
             raise ValueError(f"Failed to get quest book file from {qb_lang_file_url}")
         qb_lang_file = FiletypeLang(
             relpath=settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=res.text, language=Language.en_US
         )
-        qb_paratranz_file = to_paratranz_file(qb_lang_file)
+        qb_paratranz_file = self.converter.to_paratranz_file(qb_lang_file)
         asyncio.run(self.client.upload_file(qb_paratranz_file))
 
     # Lang + Zs
@@ -175,7 +181,7 @@ class Action:
 
         async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
             async with _sem:
-                paratranz_file = to_paratranz_file(lang_file)
+                paratranz_file = self.converter.to_paratranz_file(lang_file)
                 await self.client.upload_file(paratranz_file)
 
         tasks = [upload_file(sem, lang_file) for lang_file in modpack.lang_files]
@@ -186,13 +192,13 @@ class Action:
 
     # Gt Lang
     def gt_lang_to_paratranz(self, gt_lang_url: str) -> None:
-        res = requests.get(gt_lang_url)
+        res = httpx.get(url=gt_lang_url, timeout=60)
         gt_lang_file = FiletypeGTLang(
             relpath=settings.GT_LANG_TARGET_REL_PATH,
             content=ensure_lf(res.text),
             language=Language.en_US,
         )
-        gt_paratranz_file = to_paratranz_file(gt_lang_file)
+        gt_paratranz_file = self.converter.to_paratranz_file(gt_lang_file)
         asyncio.run(self.client.upload_file(gt_paratranz_file))
 
 
@@ -201,7 +207,7 @@ def git_commit(
     paths: list[str],
     author: Optional[str],
     message: str,
-    issue: str,
+    issue: Optional[str],
     close_issue_in_commit_message: bool,
 ) -> None:
     porcelain.add(git_root, paths)  # type: ignore[no-untyped-call]
