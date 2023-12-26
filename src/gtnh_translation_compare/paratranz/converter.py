@@ -1,4 +1,3 @@
-import asyncio
 from io import StringIO
 from typing import List, Tuple, Dict
 
@@ -25,21 +24,21 @@ class Converter:
         self.cache = cache
         self.target_lang = target_lang
 
-    def to_translation_file(self, paratranz_file: File) -> "TranslationFile":
+    async def to_translation_file(self, paratranz_file: File) -> "TranslationFile":
         cached = self.cache.get(paratranz_file)
         if cached:
             logger.info("cache hit: {}", paratranz_file.name)
             return cached
-        translation_file = self._to_translation_file(paratranz_file)
+        translation_file = await self._to_translation_file(paratranz_file)
         self.cache.set(paratranz_file, translation_file)
         logger.info("cache miss: {}", paratranz_file.name)
         return translation_file
 
-    def _to_translation_file(self, paratranz_file: File) -> "TranslationFile":
+    async def _to_translation_file(self, paratranz_file: File) -> "TranslationFile":
         file_extra_dict = paratranz_file.extra
         file_extra = FileExtra.model_validate(file_extra_dict)
         content = file_extra.original
-        string_items = asyncio.run(self.client.get_strings(paratranz_file.id))
+        string_items = await self.client.get_strings(paratranz_file.id)
         string_items_map = {item.key: item for item in string_items}
 
         properties: List[Tuple[str, Property]] = [(k, v) for k, v in file_extra.properties.items()]
@@ -72,7 +71,7 @@ class Converter:
             )
         return TranslationFile(relpath=file_extra.target_relpath, content=translated_content)
 
-    def to_paratranz_file(self, file: Filetype) -> "ParatranzFile":
+    async def to_paratranz_file(self, file: Filetype) -> "ParatranzFile":
         file_name = file.get_target_language_relpath(self.target_lang) + ".json"
         string_list: List[StringItem] = [
             StringItem(key=p.key, original=p.value, context=p.full) for p in file.properties.values()

@@ -31,6 +31,7 @@ class Action:
                 timeout=60,
             ),
             project_id=paratranz_project_id,
+            cache_dir=settings.PARATRANZ_CACHE_DIR,
         )
         self.converter = Converter(
             client=self.client,
@@ -38,7 +39,7 @@ class Action:
             target_lang=settings.TARGET_LANG,
         )
 
-    def __paratranz_to_translation(
+    async def __paratranz_to_translation(
         self,
         filter_: ParatranzFilenameFilter,
         after_to_translation_file_callback: Optional[AfterToTranslationFileCallback],
@@ -49,9 +50,10 @@ class Action:
     ) -> None:
         translation_files: list[TranslationFile] = []
         translation_filepaths: list[str] = []
-        for f in self.client.all_files:
+        all_files = await self.client.get_all_files()
+        for f in all_files:
             if filter_(f.name):
-                translation_file = self.converter.to_translation_file(f)
+                translation_file = await self.converter.to_translation_file(f)
                 if after_to_translation_file_callback is not None:
                     after_to_translation_file_callback(translation_file)
                 translation_files.append(translation_file)
@@ -94,13 +96,15 @@ class Action:
         commit_message: str = "[自动化] 更新 任务书",
     ) -> None:
         filter_: ParatranzFilenameFilter = lambda name: name == settings.DEFAULT_QUESTS_LANG_TARGET_REL_PATH + ".json"
-        self.__paratranz_to_translation(
-            filter_,
-            None,
-            ValueError("No quest book file found"),
-            commit_message,
-            repo_path,
-            issue,
+        asyncio.run(
+            self.__paratranz_to_translation(
+                filter_,
+                None,
+                ValueError("No quest book file found"),
+                commit_message,
+                repo_path,
+                issue,
+            )
         )
 
     # Lang + Zs
@@ -120,13 +124,15 @@ class Action:
                 ]
             )
 
-        self.__paratranz_to_translation(
-            filter_,
-            None,
-            ValueError("No lang or zs file found"),
-            commit_message,
-            repo_path,
-            issue,
+        asyncio.run(
+            self.__paratranz_to_translation(
+                filter_,
+                None,
+                ValueError("No lang or zs file found"),
+                commit_message,
+                repo_path,
+                issue,
+            )
         )
 
     # Gt Lang
@@ -143,13 +149,15 @@ class Action:
                 "B:UseThisFileAsLanguageFile=false", "B:UseThisFileAsLanguageFile=true"
             )
 
-        self.__paratranz_to_translation(
-            filter_,
-            after_to_translation_file_callback,
-            ValueError("No gt lang file found"),
-            commit_message,
-            repo_path,
-            issue,
+        asyncio.run(
+            self.__paratranz_to_translation(
+                filter_,
+                after_to_translation_file_callback,
+                ValueError("No gt lang file found"),
+                commit_message,
+                repo_path,
+                issue,
+            )
         )
 
     ############################################################################
@@ -157,7 +165,7 @@ class Action:
     ############################################################################
 
     # Quest Book
-    def quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
+    async def _quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
         if commit_sha is None or commit_sha == "":
             commit_sha = "master"
         qb_lang_file_url = (
@@ -170,36 +178,45 @@ class Action:
         qb_lang_file = FiletypeLang(
             relpath=settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=res.text, language=Language.en_US
         )
-        qb_paratranz_file = self.converter.to_paratranz_file(qb_lang_file)
-        asyncio.run(self.client.upload_file(qb_paratranz_file))
+        qb_paratranz_file = await self.converter.to_paratranz_file(qb_lang_file)
+        await self.client.upload_file(qb_paratranz_file)
+
+    def quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
+        asyncio.run(self._quest_book_to_paratranz(commit_sha))
 
     # Lang + Zs
-    def lang_and_zs_to_paratranz(self, modpack_path: str) -> None:
+    async def _lang_and_zs_to_paratranz(self, modpack_path: str) -> None:
         modpack = ModPack(Path(modpack_path))
         # concurrency number
         sem = asyncio.Semaphore(10)
 
         async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
             async with _sem:
-                paratranz_file = self.converter.to_paratranz_file(lang_file)
+                paratranz_file = await self.converter.to_paratranz_file(lang_file)
                 await self.client.upload_file(paratranz_file)
 
         tasks = [upload_file(sem, lang_file) for lang_file in modpack.lang_files]
         tasks += [upload_file(sem, script_file) for script_file in modpack.script_files]
 
         # noinspection PyTypeChecker
-        asyncio.run(asyncio.gather(*tasks))
+        await asyncio.gather(*tasks)
+
+    def lang_and_zs_to_paratranz(self, modpack_path: str) -> None:
+        asyncio.run(self._lang_and_zs_to_paratranz(modpack_path))
 
     # Gt Lang
-    def gt_lang_to_paratranz(self, gt_lang_url: str) -> None:
+    async def _gt_lang_to_paratranz(self, gt_lang_url: str) -> None:
         res = httpx.get(url=gt_lang_url, timeout=60)
         gt_lang_file = FiletypeGTLang(
             relpath=settings.GT_LANG_TARGET_REL_PATH,
             content=ensure_lf(res.text),
             language=Language.en_US,
         )
-        gt_paratranz_file = self.converter.to_paratranz_file(gt_lang_file)
-        asyncio.run(self.client.upload_file(gt_paratranz_file))
+        gt_paratranz_file = await self.converter.to_paratranz_file(gt_lang_file)
+        await self.client.upload_file(gt_paratranz_file)
+
+    def gt_lang_to_paratranz(self, gt_lang_url: str) -> None:
+        asyncio.run(self._gt_lang_to_paratranz(gt_lang_url))
 
 
 def git_commit(

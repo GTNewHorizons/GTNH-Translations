@@ -1,9 +1,9 @@
 import json
 import os
-from typing import Dict, Any, Optional, TypeAlias, List, Tuple, Iterable
+from typing import Dict, Any, Optional, TypeAlias, List, Tuple
 
 from loguru import logger
-from pydantic import BaseModel as BaseModel, Field, model_validator, RootModel
+from pydantic import BaseModel as BaseModel, Field, model_validator, AliasChoices
 
 # [file_name, file_content, mime_type]
 FileToBeUploaded: TypeAlias = Tuple[str, str, str]
@@ -11,7 +11,7 @@ FileToBeUploaded: TypeAlias = Tuple[str, str, str]
 
 class File(BaseModel):
     id: int
-    modified_at: Optional[str] = Field(alias="modifiedAt")
+    modified_at: Optional[str] = Field(validation_alias=AliasChoices("modifiedAt", "modified_at"))
     name: str
     extra: Optional[Dict[str, Any]]
 
@@ -29,7 +29,7 @@ StringList: TypeAlias = List[StringItem]
 
 
 class StringPage(BaseModel):
-    page_count: int = Field(alias="pageCount")
+    page_count: int = Field(validation_alias=AliasChoices("pageCount", "page_count"))
     results: StringList
 
 

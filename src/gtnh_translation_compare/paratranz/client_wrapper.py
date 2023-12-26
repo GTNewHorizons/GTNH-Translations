@@ -1,27 +1,64 @@
 import asyncio
 import os
-from functools import cached_property
-from typing import Optional, List, Sequence
+from typing import Optional, List, Sequence, cast
 
+from asyncache import cached  # type: ignore[import]
+from cachetools import LRUCache  # type: ignore[import]
 from httpx import AsyncClient, Response
 from loguru import logger
+from pydantic import BaseModel
 
 from gtnh_translation_compare.paratranz.types import File, StringItem, StringPage, ParatranzFile
 
 
+class AllFilesCache(BaseModel):
+    etag: str
+    all_files: List[File]
+
+    # noinspection PyBroadException
+    @classmethod
+    def read(cls, path: str) -> Optional["AllFilesCache"]:
+        try:
+            with open(path, "r") as fp:
+                result = cls.model_validate_json(fp.read())
+                os.utime(path)
+                return result
+        except Exception:
+            return None
+
+    @classmethod
+    def write(cls, path: str, etag: str, all_files: List[File]) -> None:
+        with open(path, "w") as fp:
+            fp.write(cls(etag=etag, all_files=all_files).model_dump_json())
+
+
 class ClientWrapper:
-    def __init__(self, client: AsyncClient, project_id: int):
+    def __init__(self, client: AsyncClient, project_id: int, cache_dir: str) -> None:
         self.client = client
         self.project_id = project_id
+        self.cache_dir = cache_dir
+        os.makedirs(self.cache_dir, exist_ok=True)
 
-    async def _get_all_files(self) -> List[File]:
-        res = await self.client.get(url=f"projects/{self.project_id}/files")
+    @cached(cache=LRUCache(maxsize=1))  # type: ignore[misc]
+    async def get_all_files(self) -> List[File]:
+        cache_json_path = os.path.join(self.cache_dir, "all_files_cache.json")
+        all_files_cache = AllFilesCache.read(cache_json_path)
+        headers = {}
+        if all_files_cache:
+            headers["If-None-Match"] = all_files_cache.etag
+        res = await self.client.get(url=f"projects/{self.project_id}/files", headers=headers)
+        if res.status_code == 304:
+            logger.info("get_all_files: cache hit")
+            return cast(AllFilesCache, all_files_cache).all_files
+        else:
+            logger.info("get_all_files: cache miss")
+            AllFilesCache.write(
+                path=os.path.join(self.cache_dir, "all_files_cache.json"),
+                etag=res.headers["ETag"],
+                all_files=res.json(),
+            )
         self._log_res("get_files", res)
         return [File.model_validate(f) for f in res.json()]
-
-    @cached_property
-    def all_files(self) -> List[File]:
-        return asyncio.run(self._get_all_files())
 
     async def _get_strings_by_page(
         self,
@@ -73,7 +110,7 @@ class ClientWrapper:
         return strings
 
     async def upload_file(self, paratranz_file: ParatranzFile) -> None:
-        file_id = self._find_file_id_by_file(paratranz_file.file_name)
+        file_id = await self._find_file_id_by_file(paratranz_file.file_name)
 
         if file_id is None:
             file_id = await self._create_file(paratranz_file)
@@ -82,8 +119,9 @@ class ClientWrapper:
 
         await self._save_file_extra(file_id, paratranz_file)
 
-    def _find_file_id_by_file(self, filename: str) -> Optional[int]:
-        for f in self.all_files:
+    async def _find_file_id_by_file(self, filename: str) -> Optional[int]:
+        files = await self.get_all_files()
+        for f in files:
             if f.name == filename:
                 assert isinstance(f.id, int)
                 return f.id
