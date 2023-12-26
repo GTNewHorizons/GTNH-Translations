@@ -66,7 +66,10 @@ class Converter:
 
         translated_content = buffer.getvalue()
         if is_script:
-            translated_content = translated_content.replace('val _I18N_Lang = "en_US";', 'val _I18N_Lang = "zh_CN";')
+            translated_content = translated_content.replace(
+                'val _I18N_Lang = "en_US";',
+                f'val _I18N_Lang = "{self.target_lang.value}";',
+            )
         return TranslationFile(relpath=file_extra.target_relpath, content=translated_content)
 
     def to_paratranz_file(self, file: Filetype) -> "ParatranzFile":
