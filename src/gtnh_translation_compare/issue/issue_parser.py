@@ -26,14 +26,14 @@ class IssueParser:
 
     def check(self) -> None:
         try:
-            assert any([label["name"] == self.valid_label for label in self.issue["labels"]])
-            assert self.issue["user"]["login"] == self.valid_user
+            assert any([label.name == self.valid_label for label in self.issue.labels])
+            assert self.issue.user.login == self.valid_user
         except AssertionError:
             self.fail(ValueError("Invalid user or label"))
 
     def parse(self, parse_function: IssueParseFunction) -> None:
         try:
-            parse_function(self.issue["body"].splitlines())
+            parse_function(self.issue.body.splitlines())
             set_output_and_print(KEY_PASSED, "true")
         except Exception as e:
             self.fail(e)
