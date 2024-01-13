@@ -1,14 +1,36 @@
 import asyncio
 import os
-from typing import Optional, List, Sequence, cast
+from typing import Optional, List, Sequence, cast, Callable
 
 from asyncache import cached  # type: ignore[import]
 from cachetools import LRUCache  # type: ignore[import]
-from httpx import AsyncClient, Response
+from httpx import AsyncClient, Response, HTTPStatusError
 from loguru import logger
 from pydantic import BaseModel
+from tenacity import retry, wait_fixed, stop_after_attempt, retry_if_exception, WrappedFn, RetryCallState
 
 from gtnh_translation_compare.paratranz.types import File, StringItem, StringPage, ParatranzFile
+
+
+def retry_after_429() -> Callable[[WrappedFn], WrappedFn]:
+    wait_seconds = 60
+
+    def is_http_429_error(exception: BaseException) -> bool:
+        return isinstance(exception, HTTPStatusError) and exception.response.status_code == 429
+
+    def before_sleep(retry_state: RetryCallState) -> None:
+        logger.warning(
+            f"received a 429 response, "
+            f"waiting {wait_seconds} seconds before retrying "
+            f"for the { {2: '2nd', 3: '3rd'}.get(retry_state.attempt_number + 1)} time"
+        )
+
+    return retry(
+        retry=retry_if_exception(is_http_429_error),
+        wait=wait_fixed(wait_seconds),
+        stop=stop_after_attempt(3),
+        before_sleep=before_sleep,
+    )
 
 
 class AllFilesCache(BaseModel):
@@ -40,6 +62,7 @@ class ClientWrapper:
         os.makedirs(self.cache_dir, exist_ok=True)
 
     @cached(cache=LRUCache(maxsize=1))  # type: ignore[misc]
+    @retry_after_429()
     async def get_all_files(self) -> List[File]:
         cache_json_path = os.path.join(self.cache_dir, "all_files_cache.json")
         all_files_cache = AllFilesCache.read(cache_json_path)
@@ -60,6 +83,7 @@ class ClientWrapper:
         self._log_res("get_files", res)
         return [File.model_validate(f) for f in res.json()]
 
+    @retry_after_429()
     async def _get_strings_by_page(
         self,
         sem: asyncio.Semaphore,
@@ -127,6 +151,7 @@ class ClientWrapper:
                 return f.id
         return None
 
+    @retry_after_429()
     async def _create_file(self, paratranz_file: ParatranzFile) -> int:
         path = os.path.dirname(paratranz_file.file_name)
         res = await self.client.post(
@@ -137,6 +162,7 @@ class ClientWrapper:
         self._log_res(f"create_file[path={path}]", res)
         return File.model_validate(res.json()["file"]).id
 
+    @retry_after_429()
     async def _update_file(self, file_id: int, paratranz_file: ParatranzFile) -> None:
         old_strings = await self.get_strings(file_id)
         old_strings_map: dict[str, StringItem] = {s.key: s for s in old_strings}
@@ -155,6 +181,7 @@ class ClientWrapper:
         )
         self._log_res(f"update_file[file_id={file_id}]", res)
 
+    @retry_after_429()
     async def _save_file_extra(self, file_id: int, paratranz_file: ParatranzFile) -> None:
         res = await self.client.put(
             url=f"projects/{self.project_id}/files/{file_id}",
@@ -164,7 +191,9 @@ class ClientWrapper:
 
     @staticmethod
     def _log_res(request_name: str, res: Response) -> None:
-        if 400 <= res.status_code:
+        try:
+            res.raise_for_status()
+        except HTTPStatusError as e:
             logger.error("{}: {}", request_name, res)
-            return
+            raise e
         logger.debug("{}: {}", request_name, res)
