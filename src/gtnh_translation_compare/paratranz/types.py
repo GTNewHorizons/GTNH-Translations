@@ -11,9 +11,9 @@ FileToBeUploaded: TypeAlias = Tuple[str, str, str]
 
 class File(BaseModel):
     id: int
-    modified_at: Optional[str] = Field(validation_alias=AliasChoices("modifiedAt", "modified_at"))
+    modified_at: Optional[str] = Field(None, validation_alias=AliasChoices("modifiedAt", "modified_at"))
     name: str
-    extra: Optional[Dict[str, Any]]
+    extra: Optional[Dict[str, Any]] = Field(None)
 
 
 class StringItem(BaseModel):
