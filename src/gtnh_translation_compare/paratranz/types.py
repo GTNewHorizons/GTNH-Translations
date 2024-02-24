@@ -59,6 +59,10 @@ class FileExtra(BaseModel):
                 data["target_relpath"] = data["ja_jp_relpath"]
                 data.pop("ja_jp_relpath")
                 logger.warning("FileExtra.ja_jp_relpath is deprecated, use FileExtra.target_relpath instead")
+            if "ko_kr_relpath" in data:
+                data["target_relpath"] = data["ko_kr_relpath"]
+                data.pop("ko_kr_relpath")
+                logger.warning("FileExtra.ko_kr_relpath is deprecated, use FileExtra.target_relpath instead")
         return data
 
 
