@@ -57,13 +57,17 @@ def zh_cn_filetype_lang() -> FiletypeLang:
 def ja_jp_filetype_lang() -> FiletypeLang:
     return FiletypeLang(JA_JP_RELPATH, JA_JP_CONTENT, Language.ja_JP)
 
+
 @pytest.fixture(scope="module")
 def ko_kr_filetype_lang() -> FiletypeLang:
     return FiletypeLang(KO_KR_RELPATH, KO_KR_CONTENT, Language.ko_KR)
 
 
 def test__get_relpath(
-    en_us_filetype_lang: FiletypeLang, zh_cn_filetype_lang: FiletypeLang, ja_jp_filetype_lang: FiletypeLang, ko_kr_filetype_lang: FiletypeLang
+    en_us_filetype_lang: FiletypeLang,
+    zh_cn_filetype_lang: FiletypeLang,
+    ja_jp_filetype_lang: FiletypeLang,
+    ko_kr_filetype_lang: FiletypeLang,
 ) -> None:
     assert en_us_filetype_lang.relpath == EN_US_RELPATH
     assert zh_cn_filetype_lang.relpath == ZH_CN_RELPATH
@@ -72,7 +76,10 @@ def test__get_relpath(
 
 
 def test__get_content(
-    en_us_filetype_lang: FiletypeLang, zh_cn_filetype_lang: FiletypeLang, ja_jp_filetype_lang: FiletypeLang, ko_kr_filetype_lang: FiletypeLang
+    en_us_filetype_lang: FiletypeLang,
+    zh_cn_filetype_lang: FiletypeLang,
+    ja_jp_filetype_lang: FiletypeLang,
+    ko_kr_filetype_lang: FiletypeLang,
 ) -> None:
     assert en_us_filetype_lang.content == EN_US_CONTENT
     assert zh_cn_filetype_lang.content == ZH_CN_CONTENT
@@ -81,7 +88,10 @@ def test__get_content(
 
 
 def test__get_properties(
-    en_us_filetype_lang: FiletypeLang, zh_cn_filetype_lang: FiletypeLang, ja_jp_filetype_lang: FiletypeLang, ko_kr_filetype_lang: FiletypeLang
+    en_us_filetype_lang: FiletypeLang,
+    zh_cn_filetype_lang: FiletypeLang,
+    ja_jp_filetype_lang: FiletypeLang,
+    ko_kr_filetype_lang: FiletypeLang,
 ) -> None:
     assert en_us_filetype_lang.properties == {
         "lang|test": Property("lang|test", "test", "test=test", 11, 15),
@@ -102,7 +112,10 @@ def test__get_properties(
 
 
 def test_get_en_us_relpath(
-    en_us_filetype_lang: FiletypeLang, zh_cn_filetype_lang: FiletypeLang, ja_jp_filetype_lang: FiletypeLang, ko_kr_filetype_lang: FiletypeLang
+    en_us_filetype_lang: FiletypeLang,
+    zh_cn_filetype_lang: FiletypeLang,
+    ja_jp_filetype_lang: FiletypeLang,
+    ko_kr_filetype_lang: FiletypeLang,
 ) -> None:
     assert en_us_filetype_lang.get_en_us_relpath() == EN_US_RELPATH
     assert zh_cn_filetype_lang.get_en_us_relpath() == EN_US_RELPATH
@@ -110,10 +123,16 @@ def test_get_en_us_relpath(
     assert ko_kr_filetype_lang.get_en_us_relpath() == EN_US_RELPATH
 
 
-def test_get_zh_cn_relpath(
-    en_us_filetype_lang: FiletypeLang, zh_cn_filetype_lang: FiletypeLang, ja_jp_filetype_lang: FiletypeLang, ko_kr_filetype_lang: FiletypeLang
+def test_get_target_relpath(
+    en_us_filetype_lang: FiletypeLang,
+    zh_cn_filetype_lang: FiletypeLang,
+    ja_jp_filetype_lang: FiletypeLang,
+    ko_kr_filetype_lang: FiletypeLang,
 ) -> None:
-    assert en_us_filetype_lang.get_target_language_relpath(Language.en_US) == EN_US_RELPATH
-    assert zh_cn_filetype_lang.get_target_language_relpath(Language.zh_CN) == ZH_CN_RELPATH
-    assert ja_jp_filetype_lang.get_target_language_relpath(Language.ja_JP) == JA_JP_RELPATH
-    assert ko_kr_filetype_lang.get_target_language_relpath(Language.ko_KR) == KO_KR_RELPATH
+    # en_us to target
+    assert en_us_filetype_lang.get_target_language_relpath(Language.zh_CN) == ZH_CN_RELPATH
+
+    # non en_us to target
+    assert zh_cn_filetype_lang.get_target_language_relpath(Language.ja_JP) == JA_JP_RELPATH
+    assert ja_jp_filetype_lang.get_target_language_relpath(Language.zh_CN) == ZH_CN_RELPATH
+    assert ko_kr_filetype_lang.get_target_language_relpath(Language.zh_CN) == ZH_CN_RELPATH

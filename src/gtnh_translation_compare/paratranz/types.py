@@ -5,6 +5,8 @@ from typing import Dict, Any, Optional, TypeAlias, List, Tuple
 from loguru import logger
 from pydantic import BaseModel as BaseModel, Field, model_validator, AliasChoices
 
+from gtnh_translation_compare.filetypes import Language
+
 # [file_name, file_content, mime_type]
 FileToBeUploaded: TypeAlias = Tuple[str, str, str]
 
@@ -51,18 +53,13 @@ class FileExtra(BaseModel):
     @classmethod
     def check_legacy(cls, data: Any) -> Any:
         if isinstance(data, dict):
-            if "zh_cn_relpath" in data:
-                data["target_relpath"] = data["zh_cn_relpath"]
-                data.pop("zh_cn_relpath")
-                logger.warning("FileExtra.zh_cn_relpath is deprecated, use FileExtra.target_relpath instead")
-            if "ja_jp_relpath" in data:
-                data["target_relpath"] = data["ja_jp_relpath"]
-                data.pop("ja_jp_relpath")
-                logger.warning("FileExtra.ja_jp_relpath is deprecated, use FileExtra.target_relpath instead")
-            if "ko_kr_relpath" in data:
-                data["target_relpath"] = data["ko_kr_relpath"]
-                data.pop("ko_kr_relpath")
-                logger.warning("FileExtra.ko_kr_relpath is deprecated, use FileExtra.target_relpath instead")
+            for lang in Language.__members__.values():
+                if f"{lang.value}_relpath" in data:
+                    data["target_relpath"] = data[f"{lang.value}_relpath"]
+                    data.pop(f"{lang.value}_relpath")
+                    logger.warning(
+                        f"FileExtra.{lang.value}_relpath is deprecated, use FileExtra.target_relpath instead"
+                    )
         return data
 
 

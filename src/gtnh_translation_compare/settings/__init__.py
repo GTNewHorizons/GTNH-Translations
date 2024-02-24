@@ -3,7 +3,8 @@ import os
 from gtnh_translation_compare.filetypes import Language
 from gtnh_translation_compare.utils.env import must_get_env
 
-TARGET_LANG = Language.from_str(os.environ.get("TARGET_LANG", "ko_KR"))
+# NOTE: DO NOT MODIFY THIS THE DEFAULT VALUE IN THE CODE, USE ENVIRONMENT VARIABLES TO OVERRIDE
+TARGET_LANG = Language.from_str(os.environ.get("TARGET_LANG", "zh_CN"))
 
 GTNH_REPO = os.environ.get("GTNH_REPO", "GTNewHorizons/GT-New-Horizons-Modpack")
 DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH = os.environ.get(
