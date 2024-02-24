@@ -84,6 +84,12 @@ class ClientWrapper:
         return [File.model_validate(f) for f in res.json()]
 
     @retry_after_429()
+    async def get_file(self, file_id: int) -> File:
+        res = await self.client.get(url=f"projects/{self.project_id}/files/{file_id}")
+        self._log_res(f"get_file[file_id={file_id}]", res)
+        return File.model_validate(res.json())
+
+    @retry_after_429()
     async def _get_strings_by_page(
         self,
         sem: asyncio.Semaphore,

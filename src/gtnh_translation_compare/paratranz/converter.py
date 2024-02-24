@@ -35,6 +35,7 @@ class Converter:
         return translation_file
 
     async def _to_translation_file(self, paratranz_file: File) -> "TranslationFile":
+        paratranz_file = await self.client.get_file(paratranz_file.id)
         file_extra_dict = paratranz_file.extra
         file_extra = FileExtra.model_validate(file_extra_dict)
         content = file_extra.original
