@@ -53,13 +53,12 @@ class FileExtra(BaseModel):
     @classmethod
     def check_legacy(cls, data: Any) -> Any:
         if isinstance(data, dict):
-            for lang in Language.__members__.values():
-                if f"{lang.value}_relpath" in data:
-                    data["target_relpath"] = data[f"{lang.value}_relpath"]
-                    data.pop(f"{lang.value}_relpath")
-                    logger.warning(
-                        f"FileExtra.{lang.value}_relpath is deprecated, use FileExtra.target_relpath instead"
-                    )
+            for lang in Language.values_except_en_us():
+                legacy_key = f"{lang.lower()}_relpath"
+                if legacy_key in data:
+                    data["target_relpath"] = data[legacy_key]
+                    data.pop(legacy_key)
+                    logger.warning(f"FileExtra.{legacy_key} is deprecated, use FileExtra.target_relpath instead")
         return data
 
 
