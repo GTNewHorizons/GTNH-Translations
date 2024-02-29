@@ -16,6 +16,7 @@ from gtnh_translation_compare.paratranz.types import TranslationFile
 from gtnh_translation_compare.utils.file import ensure_lf
 
 ParatranzFilenameFilter: TypeAlias = Callable[[str], bool]
+ParatranzToLocalPathConverter: TypeAlias = Callable[[str], Path]
 AfterToTranslationFileCallback: TypeAlias = Callable[[TranslationFile], None]
 
 
@@ -46,6 +47,8 @@ class Action:
         raise_when_empty: Optional[Exception],
         message: str,
         repo_path: Optional[str] = None,
+        subdirectory: Optional[Path] = None,
+        path_converter: Optional[ParatranzToLocalPathConverter] = None,
         issue: Optional[str] = None,
     ) -> None:
         translation_files: list[TranslationFile] = []
@@ -71,7 +74,9 @@ class Action:
             return
 
         for translation_file in translation_files:
-            translation_filepath = os.path.abspath(os.path.join(repo_path, translation_file.relpath))
+            base_path = os.path.join(repo_path, subdirectory) if subdirectory is not None else repo_path
+            translation_file_relpath = path_converter(translation_file.relpath) if path_converter is not None else translation_file.relpath
+            translation_filepath = os.path.abspath(os.path.join(base_path, translation_file_relpath))
             translation_filepaths.append(translation_filepath)
             write_file(translation_filepath, translation_file.content)
 
@@ -92,6 +97,7 @@ class Action:
     def paratranz_to_quest_book(
         self,
         repo_path: Optional[str] = None,
+        subdirectory: Optional[str] = None,
         issue: Optional[str] = None,
         commit_message: str = "[自动化] 更新 任务书",
     ) -> None:
@@ -103,6 +109,8 @@ class Action:
                 ValueError("No quest book file found"),
                 commit_message,
                 repo_path,
+                subdirectory if subdirectory is not None else None,
+                None,
                 issue,
             )
         )
@@ -111,6 +119,7 @@ class Action:
     def paratranz_to_lang_and_zs(
         self,
         repo_path: Optional[str] = None,
+        subdirectory: Optional[str] = None,
         issue: Optional[str] = None,
         commit_message: str = "[自动化] 更新 语言文件 + 脚本",
     ) -> None:
@@ -123,6 +132,8 @@ class Action:
                     name.endswith(".zs" + ".json"),
                 ]
             )
+        # Existing projects use resource folder on PT
+        path_converter_: ParatranzToLocalPathConverter = lambda path: Path('config/txloader/forceload') / os.path.relpath(path, Path('resources'))
 
         asyncio.run(
             self.__paratranz_to_translation(
@@ -131,6 +142,8 @@ class Action:
                 ValueError("No lang or zs file found"),
                 commit_message,
                 repo_path,
+                subdirectory if subdirectory is not None else None,
+                path_converter_,
                 issue,
             )
         )
@@ -139,6 +152,8 @@ class Action:
     def paratranz_to_gt_lang(
         self,
         repo_path: Optional[str] = None,
+        subdirectory: Optional[str] = None,
+        lang: str = "en_US",
         issue: Optional[str] = None,
         commit_message: str = "[自动化] 更新 GT 语言文件",
     ) -> None:
@@ -148,6 +163,7 @@ class Action:
             translation_file.content = translation_file.content.replace(
                 "B:UseThisFileAsLanguageFile=false", "B:UseThisFileAsLanguageFile=true"
             )
+        path_converter_: ParatranzToLocalPathConverter = lambda path: Path(f"GregTech_{lang}.lang")
 
         asyncio.run(
             self.__paratranz_to_translation(
@@ -156,6 +172,8 @@ class Action:
                 ValueError("No gt lang file found"),
                 commit_message,
                 repo_path,
+                subdirectory if subdirectory is not None else None,
+                path_converter_,
                 issue,
             )
         )
