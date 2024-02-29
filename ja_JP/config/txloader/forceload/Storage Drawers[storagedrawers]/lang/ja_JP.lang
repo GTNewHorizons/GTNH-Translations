@@ -1,0 +1,215 @@
+itemGroup.storageDrawers=収納引き出し
+itemGroup.storageDrawersSorting=収納引き出し - ソート
+
+storageDrawers.container.drawers=引き出し
+storageDrawers.container.compDrawers=変換引き出し
+storageDrawers.container.upgrades=アップグレード
+storageDrawers.container.controller=引き出しコントローラー
+storageDrawers.container.unboundSlave=孤立している
+storageDrawers.container.framingTable=組み立て台
+
+storagedrawers.msg.maxUpgrades=この引き出しはこれ以上昨日を追加できません。
+
+# Items
+item.storagedrawers.upgradeTemplate.name=改良テンプレート
+item.storagedrawers.upgrade.iron.name=容量キット(II)
+item.storagedrawers.upgrade.gold.name=容量キット(III)
+item.storagedrawers.upgrade.obsidian.name=容量キット(IV)
+item.storagedrawers.upgrade.diamond.name=容量キット(V)
+item.storagedrawers.upgrade.emerald.name=容量キット(VI)
+item.storagedrawers.upgrade.ruby.name=容量キット(VII)
+item.storagedrawers.upgrade.tanzanite.name=容量キット(VIII)
+item.storagedrawers.upgradeStatus.level1.name=容量ランプ(I)
+item.storagedrawers.upgradeStatus.level1.description=満タンになると光る
+item.storagedrawers.upgradeStatus.level2.name=容量ランプ(II)
+item.storagedrawers.upgradeStatus.level2.description=容量ゲージを表示する
+item.storagedrawers.upgradeLock.name=引き出しのカギ
+item.storagedrawers.upgradeLock.description=引き出しにカギをかけられる
+item.storagedrawers.upgradeVoid.name=引き出しブラックホール
+item.storagedrawers.upgradeVoid.description=入り切らない分が消滅する
+item.storagedrawers.upgradeCreative.store.name=クリエイティブ容量キット
+item.storagedrawers.upgradeCreative.store.description=ほぼ無限の容量になる
+item.storagedrawers.upgradeCreative.vend.name=クリエイティブ供給キット
+item.storagedrawers.upgradeCreative.vend.description=入れたものを無限に取り出せる
+item.storagedrawers.upgradeRedstone.combined.name=レッドストーンアップグレード
+item.storagedrawers.upgradeRedstone.combined.description=貯蔵量によって信号を出す
+item.storagedrawers.upgradeRedstone.max.name=レッドストーン最大アップグレード
+item.storagedrawers.upgradeRedstone.max.description=アイテムの最も多いスロットの信号を出す
+item.storagedrawers.upgradeRedstone.min.name=レッドストーン最小アップグレード
+item.storagedrawers.upgradeRedstone.min.description=アイテムの最も少ないスロットの信号を出す
+item.storagedrawers.upgradeDowngrade.name=容量低下キット
+item.storagedrawers.upgradeDowngrade.description=基本容量を1スタックにする
+item.storagedrawers.upgradeSorting.name=ソートアップグレード
+item.storagedrawers.upgradeSorting.description=Refined Relocation用
+item.storagedrawers.shroudKey.name=ひみつのカギ
+item.storagedrawers.shroudKey.description=ラベルを非表示にできる
+item.storagedrawers.personalKey.default.name=じぶんのカギ
+item.storagedrawers.personalKey.default.description=他のプレイヤーからアイテムを守る
+item.storagedrawers.personalKey.cofh.name=じぶんのカギ(CoFH)
+item.storagedrawers.personalKey.cofh.description=他のプレイヤーからアイテムを守る
+item.storagedrawers.tape.name=梱包テープ
+item.storagedrawers.tape.description=引き出しの中身をそのまま持ち運べる
+
+# Blocks
+tile.fullDrawers1.oak.name=オークの引き出し
+tile.fullDrawers1.spruce.name=マツの引き出し
+tile.fullDrawers1.birch.name=シラカバの引き出し
+tile.fullDrawers1.jungle.name=ジャングルの引き出し
+tile.fullDrawers1.acacia.name=アカシアの引き出し
+tile.fullDrawers1.big_oak.name=ダークオークの引き出し
+
+tile.fullDrawers2.oak.name=オークの引き出し 1x2
+tile.fullDrawers2.spruce.name=マツの引き出し 1x2
+tile.fullDrawers2.birch.name=シラカバの引き出し 1x2
+tile.fullDrawers2.jungle.name=ジャングルの引き出し 1x2
+tile.fullDrawers2.acacia.name=アカシアの引き出し 1x2
+tile.fullDrawers2.big_oak.name=ダークオークの引き出し 1x2
+
+tile.fullDrawers4.oak.name=オークの引き出し 2x2
+tile.fullDrawers4.spruce.name=マツの引き出し 2x2
+tile.fullDrawers4.birch.name=シラカバの引き出し 2x2
+tile.fullDrawers4.jungle.name=ジャングルの引き出し 2x2
+tile.fullDrawers4.acacia.name=アカシアの引き出し 2x2
+tile.fullDrawers4.big_oak.name=ダークオークの引き出し 2x2
+
+tile.halfDrawers2.oak.name=オークのハーフ引き出し 1x2
+tile.halfDrawers2.spruce.name=マツのハーフ引き出し 1x2
+tile.halfDrawers2.birch.name=シラカバのハーフ引き出し 1x2
+tile.halfDrawers2.jungle.name=ジャングルのハーフ引き出し 1x2
+tile.halfDrawers2.acacia.name=アカシアのハーフ引き出し 1x2
+tile.halfDrawers2.big_oak.name=ダークオークのハーフ引き出し 1x2
+
+tile.halfDrawers4.oak.name=オークのハーフ引き出し 2x2
+tile.halfDrawers4.spruce.name=マツのハーフ引き出し 2x2
+tile.halfDrawers4.birch.name=シラカバのハーフ引き出し 2x2
+tile.halfDrawers4.jungle.name=ジャングルのハーフ引き出し 2x2
+tile.halfDrawers4.acacia.name=アカシアのハーフ引き出し 2x2
+tile.halfDrawers4.big_oak.name=ダークオークのハーフ引き出し 2x2
+
+tile.fullCustom1.name=引き出しの骨組み
+tile.fullCustom2.name=引き出しの骨組み 1x2
+tile.fullCustom4.name=引き出しの骨組み 2x2
+tile.halfCustom2.name=引き出しの骨組み 1x2
+tile.halfCustom4.name=引き出しの骨組み 2x2
+tile.trimCustom.name=飾り箱の骨組み
+
+tile.compDrawers.name=変換引き出し
+tile.drawerController.name=引き出しコントローラー
+tile.controllerSlave.name=引き出し子コントローラー
+tile.framingTable.name=組み立て台
+
+tile.trim.oak.name=オークの飾り箱
+tile.trim.spruce.name=マツの飾り箱
+tile.trim.birch.name=シラカバの飾り箱
+tile.trim.jungle.name=ジャングルの飾り箱
+tile.trim.acacia.name=アカシアの飾り箱
+tile.trim.big_oak.name=ダークオークの飾り箱
+
+storageDrawers.drawers.description=1つの引き出しに %d スタック入る
+storageDrawers.drawers.sealed=テープでぐるぐる巻きだ
+storageDrawers.upgrade.description=容量を %d 倍にする
+storageDrawers.controller.description=接続している近くの引き出しに作用する
+storageDrawers.controllerSlave.description=コントローラーの取り付けポイントを追加
+
+# Integration
+storageDrawers.waila.empty=<Empty>
+storageDrawers.waila.level=アップグレードレベル: %s
+storageDrawers.waila.drawer=#%s: %s
+storageDrawers.waila.limit=最大スタック数: %s (x%s)
+storageDrawers.waila.nolimit=最大スタック数: ∞
+storageDrawers.waila.locked=カギ付き
+storageDrawers.waila.void=超過分消滅
+storageDrawers.waila.sorting=ソート
+storageDrawers.waila.protected=保護中
+
+# Configuration
+storageDrawers.config.title=収納引き出しの設定
+
+storageDrawers.config.general=一般設定
+storageDrawers.config.general.tooltip=いろいろ
+
+storageDrawers.config.blocks=ブロック設定
+storageDrawers.config.blocks.tooltip=それぞれの収納ブロックの設定
+
+storageDrawers.config.blocks.fullDrawers1=引き出し 1x1
+storageDrawers.config.blocks.fullDrawers2=引き出し 1x2
+storageDrawers.config.blocks.fullDrawers4=引き出し 2x2
+storageDrawers.config.blocks.halfDrawers2=ハーフ引き出し 1x2
+storageDrawers.config.blocks.halfDrawers4=ハーフ引き出し 2x2
+storageDrawers.config.blocks.compDrawers=変換引き出し
+storageDrawers.config.blocks.controller=引き出しコントローラー
+storageDrawers.config.blocks.trim=飾り箱
+storageDrawers.config.blocks.controllerSlave=引き出し子コントローラー
+
+storageDrawers.config.upgrades=アップグレード設定
+storageDrawers.config.upgrades.tooltip=それぞれの収納アップグレードの設定
+
+storageDrawers.config.upgrades.level2Mult=容量キット(II)
+storageDrawers.config.upgrades.level3Mult=容量キット(III)
+storageDrawers.config.upgrades.level4Mult=容量キット(IV)
+storageDrawers.config.upgrades.level5Mult=容量キット(V)
+storageDrawers.config.upgrades.level6Mult=容量キット(VI)
+
+storageDrawers.config.prop.itemRenderType=アイテムの描画方法
+storageDrawers.config.prop.itemRenderType.tooltip=アイテムを3D/平面で描画する
+storageDrawers.config.prop.enableIndicatorUpgrades=容量ランプを有効化
+storageDrawers.config.prop.enableStorageUpgrades=容量キットを有効化
+storageDrawers.config.prop.enableLockUpgrades=引き出しのカギを有効化
+storageDrawers.config.prop.enableShroudUpgrades=ひみつのカギを有効化
+storageDrawers.config.prop.enablePersonalUpgrades=じぶんのカギを有効化
+storageDrawers.config.prop.enableVoidUpgrades=引き出しブラックホールを有効化
+storageDrawers.config.prop.enableCreativeUpgrades=クリエイティブ容量キットを有効化
+storageDrawers.config.prop.enableRedstoneUpgrades=レッドストーンアップグレードを有効化
+storageDrawers.config.prop.enableSortingUpgrades=ソートアップグレードを有効化
+storageDrawers.config.prop.enableSortingUpgrades.tooltip=Refined Relocationが必要
+storageDrawers.config.prop.renderStorageUpgrades=アップグレードを描画
+storageDrawers.config.prop.creativeTabVanillaWoods=クリエイティブタブにバニラの木材製引き出しを表示
+storageDrawers.config.prop.creativeTabVanillaWoods.tooltip=クリエイティブタブに全てのバニラの木材製の引き出しを表示する
+storageDrawers.config.prop.enabled=有効
+storageDrawers.config.prop.enabled.tooltip=ゲーム内で使用するかどうか
+storageDrawers.config.prop.baseStorage=基本容量
+storageDrawers.config.prop.baseStorage.tooltip=通常の引き出しに入るスタック数
+storageDrawers.config.prop.recipeOutput=レシピ出力数
+storageDrawers.config.prop.recipeOutput.tooltip=一度のレシピで作成できる数
+storageDrawers.config.prop.enableDrawerUI=引き出しUIの有効化
+storageDrawers.config.prop.enableDrawerUI.tooltip=引き出しのアイテム個数やアップグレードを表示するUI
+storageDrawers.config.prop.enableSidedInput=アイテム搬入の有効化
+storageDrawers.config.prop.enableSidedInput.tooltip=他のブロックから引き出しにアイテムを搬入できる
+storageDrawers.config.prop.enableSidedOutput=アイテム搬出の有効化
+storageDrawers.config.prop.enableSidedOutput.tooltip=引き出しから他のブロックにアイテムを搬出できる
+storageDrawers.config.prop.enableItemConversion=アイテム変換の有効化
+storageDrawers.config.prop.enableItemConversion.tooltip=鉱石辞書に従って引き出しに入れたアイテムを変換する
+storageDrawers.config.prop.enableFallbackRecipes=代替レシピの有効化
+storageDrawers.config.prop.enableFallbackRecipes.tooltip=どの木材からでもオークの引き出しを作成できるようにする
+storageDrawers.config.prop.invertShift=Shift反転
+storageDrawers.config.prop.invertShift.tooltip=クリックとShiftクリックの動作を反転する
+storageDrawers.config.prop.enableDebugLogging=デバッグログの有効化
+storageDrawers.config.prop.enableDebugLogging.tooltip=ログに追加の情報を記録する
+storageDrawers.config.prop.enableTape=梱包テープの有効化
+storageDrawers.config.prop.enableTape.tooltip=中身を保持したまま引き出しを持ち歩ける
+storageDrawers.config.prop.wailaStackRemainder=WAILAにアイテム数を表示
+storageDrawers.config.prop.wailaStackRemainder.tooltip=WAILAに引き出しに入っているアイテム数を表示する
+storageDrawers.config.prop.controllerRange=引き出しコントローラーの範囲
+storageDrawers.config.prop.controllerRange.tooltip=引き出しコントローラーが引き出しを認識できる範囲
+storageDrawers.config.prop.controllerMaxDrawers=引き出しコントローラーの最大認識数
+storageDrawers.config.prop.controllerMaxDrawers.tooltip=引き出しコントローラーが認識できる引き出しの数
+storageDrawers.config.prop.enableFramedDrawers=引き出しの骨組みの有効化
+storageDrawers.config.prop.enableFramedDrawers.tooltip=好きな材料で引き出しを作成できる
+
+storageDrawers.config.addons=アドオン
+storageDrawers.config.addons.tooltip=アドオンの設定
+
+storageDrawers.config.addons.showNEI=NEIにブロックを表示
+storageDrawers.config.addons.showCreative=クリエイティブタブにブロックを表示
+storageDrawers.config.addons.separateTabs=クリエイティブタブを分ける
+
+storageDrawers.config.integration=互換性
+storageDrawers.config.integration.tooltip=他のModとの互換性の設定
+
+storageDrawers.config.integration.enableAE2=Applied Energistics 2との互換性を有効化
+storageDrawers.config.integration.enableWaila=WAILAとの互換性を有効化
+storageDrawers.config.integration.enableThaumcraft=Thaumcraftとの互換性を有効化
+storageDrawers.config.integration.enableMineTweaker=MineTweakerとの互換性を有効化
+storageDrawers.config.integration.enableRefinedRelocation=Refined Relocationとの互換性を有効化
+storageDrawers.config.integration.enableThermalExpansion=Thermal Expansionとの互換性を有効化
+storageDrawers.config.integration.enableThermalFoundation=Thermal Foundationとの互換性を有効化

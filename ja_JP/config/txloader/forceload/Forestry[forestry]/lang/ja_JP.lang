@@ -1,0 +1,1809 @@
+####################
+# CORE
+####################
+
+death.engine.clockwork.player=%1$sは緩んだバネに刺さった。%2$sはいいかげんな時計技師だった。
+death.engine.clockwork=%1$sは緩んだバネに刺さった。
+
+for.beverage.effect.alcoholic=アルコール依存症
+for.beverage.effect.antidote=解毒
+
+for.chat.accesslocked=%s がこの機械の所有者で、アクセスはロックされています。
+for.chat.cannotmemorizeagain=この情報は既に記憶済みです。
+for.chat.memorizednote=メモを記憶し、くしゃくしゃになった紙くずを処分した。
+for.chat.memorizednote2=%1$s と %2$s を交配して %3$s が得られると確信した！
+
+for.chat.command.aliases=別名: %s
+for.chat.command.list=利用可能なサブコマンド:
+for.chat.command.permlevel=許可レベル: %s
+for.chat.command.noperms=このコマンドの使用は許可されていません。
+
+for.chat.command.forestry.help=Forestryのコマンド
+for.chat.command.forestry.format=形式: /%s <sub-command>
+
+for.chat.command.forestry.version.desc=- %s : バージョン情報
+for.chat.command.forestry.version.help=現在のバージョンを出力する
+for.chat.command.forestry.version.format=形式: /%s
+
+for.chat.command.forestry.plugins.desc=- %s : Forestryプラグインのリスト
+for.chat.command.forestry.plugins.help=すべてのForestryプラグインを列挙する。緑は有効なもの、赤は無効なもの。
+for.chat.command.forestry.plugins.format=形式: /%s
+
+for.chat.command.forestry.plugins.info.desc=- %s : 特定のプラグインについての情報
+for.chat.command.forestry.plugins.info.help=特定のプラグインについての情報を出力する
+for.chat.command.forestry.plugins.info.format=形式: /%s <plugin-name>
+
+
+for.chat.help='%s'を押してヘルプを表示
+for.chat.plugins.error=プラグイン%sの情報はありません。
+for.chat.version=Minecraft  %2$sのForestry %1$s (最新 : %3$s)
+
+for.circuit.dampener.1=火力調節
+for.circuit.dampener.1.description.1=最大出力を10 RF/tに減少させる
+for.circuit.dampener.1.description.2=燃料出力を維持する
+for.circuit.electric.boost.1=電気的ブースト I
+for.circuit.electric.boost.1.description.1=出力を20 RF/t増加させる
+for.circuit.electric.boost.1.description.2=入力を7 EU/t増加させる
+for.circuit.electric.boost.2=電気的ブースト II
+for.circuit.electric.boost.2.description.1=出力を40 RF/t増加させる
+for.circuit.electric.boost.2.description.2=入力を15 EU/t増加させる
+for.circuit.electric.choke.1=電気的絞り
+for.circuit.electric.choke.1.description.1=出力を10 RF/t減少させる
+for.circuit.electric.choke.1.description.2=入力を2 EU/t減少させる
+for.circuit.electric.efficiency.1=電気的効率
+for.circuit.electric.efficiency.1.description.1=入力を1 EU/t減少させる
+for.circuit.machine.speed.boost.1=速度ブースト I
+for.circuit.machine.speed.boost.1.description.1=速度を12.5%増加させる
+for.circuit.machine.speed.boost.1.description.2=エネルギー消費を5%増加させる
+for.circuit.machine.speed.boost.2=速度ブースト II
+for.circuit.machine.speed.boost.2.description.1=速度を25%増加させる
+for.circuit.machine.speed.boost.2.description.2=エネルギー消費を10%増加させる
+for.circuit.machine.efficiency.1=機械効率
+for.circuit.machine.efficiency.1.description.1=エネルギー消費を10%増加させる
+
+for.circuit.layout.dummy.name=利用不可
+for.circuit.layout.dummy.usage=なし
+
+for.circuit.layout.engine.tin.name=電気エンジン
+for.circuit.layout.engine.tin.usage=電気エンジン
+
+for.circuit.layout.farms.managed.name=自動農場
+for.circuit.layout.farms.managed.usage=自動農場
+
+for.circuit.layout.farms.manual.name=手動農場
+for.circuit.layout.farms.manual.usage=手動農場
+
+for.circuit.layout.machine.upgrade.name=機械のアップグレード
+for.circuit.layout.machine.upgrade.usage=はめ込まれた機械
+
+for.flowers.cacti=サボテン
+for.flowers.end=エンド (ドラゴンの卵)
+for.flowers.gourd=瓜 (カボチャ・スイカ)
+for.flowers.jungle=ジャングル (ツタ・シダ)
+for.flowers.mushrooms=キノコ
+for.flowers.nether=ネザー (ネザーウォート)
+for.flowers.vanilla=花
+for.flowers.wheat=小麦
+for.flowers.snow=雪
+
+fluid.bioethanol=エタノール
+fluid.biomass=バイオマス
+fluid.glass=液体ガラス
+fluid.for.honey=ハチミツ
+fluid.ice=削氷
+fluid.juice=果汁
+fluid.short.mead=ショートミード
+fluid.mead=ミード
+fluid.milk=牛乳
+fluid.seedoil=種油
+tile.forestry.fluid.bioethanol.name=エタノール
+tile.forestry.fluid.biomass.name=バイオマス
+tile.forestry.fluid.glass.name=液体ガラス
+tile.forestry.fluid.for.honey.name=ハチミツ
+tile.forestry.fluid.ice.name=削氷
+tile.forestry.fluid.juice.name=果汁
+tile.forestry.fluid.short.mead.name=ショートミード
+tile.forestry.fluid.mead.name=ミード
+tile.forestry.fluid.milk.name=牛乳
+tile.forestry.fluid.seedoil.name=種油
+
+for.gui.access=アクセス
+for.gui.active=顕性
+for.gui.addressee.player=プレイヤー
+for.gui.addressee.trader=交易ステーション
+
+for.gui.alyzer.authority=命名者
+for.gui.alyzer.classification=分類
+for.gui.alyzer.extinct=絶滅
+for.gui.alyzer.nodescription=マインクラフティア百科事典にこの標本の項目はありません。
+for.gui.alyzer.overview=利用可能な分析
+
+for.gui.area=なわばり
+for.gui.arid=乾燥地
+for.gui.beach=砂浜
+
+for.gui.beealyzer.artificial=人工起源
+for.gui.beealyzer.behaviour=ふるまい
+for.gui.beealyzer.generations=第%s世代
+for.gui.beealyzer.help=蜂をセットし、ハチミツかハニーデューを供給してください。
+for.gui.beealyzer.mutations=起こりうる変異
+for.gui.beealyzer.natural=天然起源
+for.gui.beealyzer.produce=生産物
+for.gui.beealyzer.specialty=特殊生産物
+for.gui.beealyzer=蜂分析器
+
+for.gui.blank=空欄
+for.gui.cave=洞窟耐性
+for.gui.climate=温度
+for.gui.cold=寒冷地
+for.gui.crop=作物
+for.gui.currentBiome=現在のバイオーム
+for.gui.currentOutput=現在の出力
+for.gui.damp=湿地
+for.gui.derelict=荒廃地
+for.gui.desert=砂漠
+for.gui.didyouknow=ご存じですか
+for.gui.diurnal=昼行性
+for.gui.drones=雄蜂
+for.gui.effect=効果
+for.gui.empty=空
+for.gui.emptysocket=空のソケット
+for.gui.socket.remove=はんだごてで取り外し可能
+for.gui.energy=エネルギー
+for.gui.environment=活動環境
+for.gui.evolution=変異
+for.gui.fecundated=交配済み
+for.gui.fertility=繁殖力
+for.gui.fireresist=耐火性
+for.gui.flowers=花の種類
+for.gui.flyer=雨耐性
+for.gui.flyer.tooltip=雨耐性
+for.gui.general=概要
+for.gui.heat=温度
+for.gui.hellish=ネザー
+for.gui.hot=熱暑
+for.gui.humidity=湿度
+for.gui.humidtol=湿度耐性
+for.gui.hybrid=雑種
+for.gui.icy=寒冷
+for.gui.imprinter.cheater=(このチーターが！)
+for.gui.imprinter.name=ゲノム転写器
+for.gui.inactive=潜性
+for.gui.life=寿命
+for.gui.lifespan=寿命
+for.gui.normal=通常
+for.gui.jubilance=適正度: %s
+
+for.gui.escritoire.probe=標本観察
+for.gui.escritoire.instructions=遺伝子標本を中央に置いて開始。左のスロットに追加の標本を置いて観察すると研究の助けになる。
+for.gui.escritoire.attempt.number=試行番号%s
+
+# Write as many notes as you like, just set the count correctly.
+
+for.gui.escritoire.notes.level1.count=3
+for.gui.escritoire.notes.level1.1=旅路で好奇心をそそる標本を発見した。
+for.gui.escritoire.notes.level1.2=この奇妙なやつにはさらなる調査が必要だ。
+for.gui.escritoire.notes.level1.3=意気軒昂として、さっそく調査に取りかかりたかった。
+
+for.gui.escritoire.notes.level2.count=4
+for.gui.escritoire.notes.level2.1=私はその素晴らしい性質に驚いた。
+for.gui.escritoire.notes.level2.2=標本を綿密に検査していると、それはぴくりと動いた。
+for.gui.escritoire.notes.level2.3=裏側の奇妙な模様は私の好奇心を駆り立てた。
+for.gui.escritoire.notes.level2.4=調査を終えれば、世間で話題になるだろう。
+
+for.gui.escritoire.notes.level3.count=4
+for.gui.escritoire.notes.level3.1=標本を数度つついた後、興味深い新たな手がかりを発見した。
+for.gui.escritoire.notes.level3.2=私はこの発見に頭を抱え、すべてのことに疑問を抱いた。
+for.gui.escritoire.notes.level3.3=私は我が目を疑ったが、実際そうだった。
+for.gui.escritoire.notes.level3.4=以前は見られなかった点があったため、私は標本の分類に疑問を抱いた。
+
+for.gui.escritoire.notes.level4.count=7
+for.gui.escritoire.notes.level4.1=私の不満の叫び声に、家政婦は心配して研究室を覗き込んだ。
+for.gui.escritoire.notes.level4.2=狂乱と絶望の淵で、私はすべてのメモをびりびりに破り捨てた!
+for.gui.escritoire.notes.level4.3=これは…何の意味もない!
+for.gui.escritoire.notes.level4.4=そんなはずがない。以前はそんなことはなかった!
+for.gui.escritoire.notes.level4.5=大槌ではほとんどへこまなかったので、チェーンソーを注文した。
+for.gui.escritoire.notes.level4.6=それは怪しげで、冷酷で、小さな目で、確かに私を見つめていた。
+for.gui.escritoire.notes.level4.7=あれは笑い声か? 笑い声が聞こえるのか? 誰がここで笑っているんだ?
+
+for.gui.escritoire.notes.success.count=5
+for.gui.escritoire.notes.success.1=エウレカ!
+for.gui.escritoire.notes.success.2=素晴らしい! 私の名は歴史に残るだろう!
+for.gui.escritoire.notes.success.3=同僚たちも感心するだろう!
+for.gui.escritoire.notes.success.4=私は世間で羨望の的となるだろう!
+for.gui.escritoire.notes.success.5=そうだ!
+
+for.gui.escritoire.notes.failure.count=5
+for.gui.escritoire.notes.failure.1=すべてが水泡に帰した。
+for.gui.escritoire.notes.failure.2=メモを火にくべた。
+for.gui.escritoire.notes.failure.3=なぜだ？初めのうちはあんなに順調に進んでいたのに…
+for.gui.escritoire.notes.failure.4=失敗。まただ。
+for.gui.escritoire.notes.failure.5=なんという…
+
+for.gui.mail.foreveryattached=商品単価：
+for.gui.mail.from=差出人
+for.gui.mail.nametrader=交易ステーションに名称を設定してください
+for.gui.mail.nothingtotrade=交易ステーションに在庫がありません。
+for.gui.mail.notrader=その名称をもつ利用可能な交易ステーションがありません。
+for.gui.mail.pleasesend=注文する商品：
+for.gui.mail.order.attached=ご注文の品をお確かめください。
+for.gui.mail.order.filled.one=%SENDER様からの注文が、 1件届けられました。
+for.gui.mail.order.filled.multiple=%SENDER様からの注文が、 %COUNT件届けられました。
+for.gui.mail.to=宛先
+for.gui.mail.receive=受領物
+for.gui.mail.send=配送物
+
+for.gui.maxenergy=最大エネルギー
+for.gui.maxenergyreceive=最大入力
+for.gui.maxspeed=最大
+for.gui.metabolism=代謝
+for.gui.nether=ネザー
+for.gui.nocturnal=夜行性
+for.gui.noeffect=効果なし
+for.gui.owner=所有者
+for.gui.page=ページ
+
+for.gui.pipe.filter.anything=すべてのアイテム
+for.gui.pipe.filter.bee=すべての蜂
+for.gui.pipe.filter.cave=洞窟耐性蜂
+for.gui.pipe.filter.closed=閉鎖
+for.gui.pipe.filter.drone=雄蜂
+for.gui.pipe.filter.flyer=雨耐性蜂
+for.gui.pipe.filter.item=アイテム
+for.gui.pipe.filter.nocturnal=夜行性蜂
+for.gui.pipe.filter.princess=王女蜂
+for.gui.pipe.filter.pure_breed=純系の蜂
+for.gui.pipe.filter.pure_cave=純系の洞窟耐性蜂
+for.gui.pipe.filter.pure_flyer=純系の雨耐性蜂
+for.gui.pipe.filter.pure_nocturnal=純系の夜行性蜂
+for.gui.pipe.filter.queen=女王蜂
+
+for.gui.plains=平原
+for.gui.princesses=王女蜂
+for.gui.produce=生産物
+for.gui.queens=女王蜂
+
+for.gui.rule.private=非公開
+for.gui.rule.restricted=制限あり
+for.gui.rule.shared=共用
+
+for.gui.solder.north=北
+for.gui.solder.south=南
+for.gui.solder.east=東
+for.gui.solder.west=西
+
+forestry.allele.average=平均
+forestry.allele.gigantic=巨大
+forestry.allele.normal=中
+
+forestry.allele.slowest=最遅
+forestry.allele.slower=遅い
+forestry.allele.slow=少し遅い
+forestry.allele.fast=少し速い
+forestry.allele.faster=速い
+forestry.allele.fastest=最速
+forestry.allele.maximum=最大
+
+forestry.allele.smallest=最少
+forestry.allele.smaller=小さい
+forestry.allele.small=少し小さい
+forestry.allele.large=少し大きい
+forestry.allele.larger=大きい
+forestry.allele.largest=最大
+
+forestry.allele.lowest=最低
+forestry.allele.lower=低い
+forestry.allele.low=少し低い
+forestry.allele.high=少し高い
+forestry.allele.higher=高い
+forestry.allele.highest=最高
+
+forestry.allele.tolerance.both1=±1
+forestry.allele.tolerance.both2=±2
+forestry.allele.tolerance.both3=±3
+forestry.allele.tolerance.both4=±4
+forestry.allele.tolerance.both5=±5
+forestry.allele.tolerance.down1=-1
+forestry.allele.tolerance.down2=-2
+forestry.allele.tolerance.down3=-3
+forestry.allele.tolerance.down4=-4
+forestry.allele.tolerance.down5=-5
+forestry.allele.tolerance.none=なし
+forestry.allele.tolerance.up1=+1
+forestry.allele.tolerance.up2=+2
+forestry.allele.tolerance.up3=+3
+forestry.allele.tolerance.up4=+4
+forestry.allele.tolerance.up5=+5
+
+forestry.allele.lifespan.shortest=最短
+forestry.allele.lifespan.shorter=大幅に短い
+forestry.allele.lifespan.short=短い
+forestry.allele.lifespan.shortened=短め
+forestry.allele.lifespan.normal=中
+forestry.allele.lifespan.elongated=長め
+forestry.allele.lifespan.long=長い
+forestry.allele.lifespan.longer=大幅に長い
+forestry.allele.lifespan.longest=最長
+
+for.gui.size=大きさ
+for.gui.slots=%USED/%SIZE スロット使用済み
+for.gui.species=種
+for.gui.speciescount=種
+for.gui.speed=生産速度
+for.gui.pollination=受粉速度
+for.gui.stored=蓄電量
+for.gui.temperature=温度
+for.gui.tolerance=耐性
+for.gui.temptol=温度耐性
+for.gui.tooltip.tmi=Shiftで詳細を表示
+for.gui.triple=トリプル
+for.gui.unknown=未知のゲノム
+for.gui.warm=温暖
+for.gui.water=水
+for.gui.worker=働き蜂
+
+for.hints.accesscontrol.desc=機械の所有者は、アクセス許可を共用・制限あり・非公開の3種類から設定できます。
+for.hints.accesscontrol.tag=アクセス管理
+for.hints.accesspipe.desc=機械を非公開に設定するとチューブやパイプとのやりとりが行えなくなります。
+for.hints.accesspipe.tag=パイプのアクセス制限
+for.hints.accessrules.desc=アクセスが"共用"だと、誰でも機械を壊したり、機械とやりとりしたりできます。"制限あり"でも、やりとりは誰でもできます。
+for.hints.accessrules.tag=アクセスの原則
+for.hints.apiaristsuit.desc=養蜂用防護服一式を装備すると、蜂の有害な影響をすべて防ぐことができます。
+for.hints.apiaristsuit.tag=防護服!
+for.hints.beebiomes.desc=蜂はその種に適したバイオームでしか活動しません。蜂分析器と活動環境探知器を使って探しましょう。
+for.hints.beebiomes.tag=バイオームを選んで!
+for.hints.beebreeding.desc=異なる種の雄蜂と王女蜂を交配させると、新種の子孫が得られるかもしれません。
+for.hints.beebreeding.tag=蜂を交配させよう!
+for.hints.beeflowers.desc=どんな蜂でも、活動には近くに何らかの花が必要になります。ありふれた花が必要な場合もあれば、とても変わった花が必要な場合もあります。
+for.hints.beeflowers.tag=蜂には花が必要
+for.hints.beejubilance.desc=特殊生産物は適正な環境におかれた蜂しか生産しません。蜂の分析で適正環境を確認しましょう。
+for.hints.beejubilance.tag=蜂を満足させよう!
+for.hints.cooldownloss.desc=強制クールダウンに入ったエンジンでは、蓄電されたエネルギーの大部分も失われます。
+for.hints.cooldownloss.tag=クールダウンはエネルギーの損失を意味する!
+for.hints.crating.desc=工作機の主な役目は、余剰資源を圧縮することです。大量のブロックやアイテムを木箱に詰め込むことができます。
+for.hints.crating.tag=余りものは箱詰め!
+for.hints.energybuffer.desc=エンジンは対象ブロックにエネルギーを送れない場合、わずかにエネルギーを保持することができます。
+for.hints.energybuffer.tag=エネルギーのバッファリング!
+for.hints.energyunit.desc=エンジンのエネルギー出力は"Redstone Flux per tick"を表すRF/tという単位で計測されます。1秒は20tickです。
+for.hints.energyunit.tag=セイ・レッドストーンフラックス!
+for.hints.enginebronzefuels.desc=バイオガスエンジンでは、バイオマス、種油、ハチミツ、牛乳、そして水と、様々な燃料が使用可能です!
+for.hints.enginebronzefuels.tag=全ての燃料を使おう!
+for.hints.enginebronzeheatloss.desc=バイオガスエンジンでは水を使うことができますが、燃料効率は最悪で、絶えず溶岩を消費します。
+for.hints.enginebronzeheatloss.tag=水には注意して!
+for.hints.enginebronzeoutput.desc=バイオガスエンジンにおけるエネルギー出力は燃料ごとに異なります。出力は10RF/tから50RF/tの範囲です。
+for.hints.enginebronzeoutput.tag=燃料を選んで!
+for.hints.enginebronzewaste.desc=泥炭エンジンとは異なり、バイオガスエンジンはオフにしても内部のバイオマスを浪費しません。
+for.hints.enginebronzewaste.tag=燃料を節約。
+for.hints.enginecopperfuels.desc=泥炭エンジンでは未加工の泥炭を使うこともできますが、瀝青質の泥炭を使うことでエネルギー出力を倍増させることもできます。
+for.hints.enginecopperfuels.tag=全ての燃料を使おう!
+for.hints.enginecopperwaste.desc=オフになった泥炭エンジンでは、既に取り込まれた泥炭は、発電することなく燃焼し続けます。
+for.hints.enginecopperwaste.tag=エネルギーの浪費に注意!
+for.hints.enginetinbatteries.desc=電池を利用すれば、配線せずとも電気エンジンを稼働させることができます。
+for.hints.enginetinbatteries.tag=電池を充電して!
+for.hints.enginetinchoke.desc=電気エンジンにはForestryの回路基板を取り付けることが可能で、出力を10RF/tに絞り、エネルギー要求量も抑えることができます。
+for.hints.enginetinchoke.tag=出力を調整
+for.hints.flowerjungle.desc=ジャングルの花とはシダやツタのことです。
+for.hints.flowerjungle.tag=ジャングルの花って何?
+for.hints.flowernether.desc=ネザーウォートはネザーの花です。
+for.hints.flowernether.tag=ネザーの花って何?
+for.hints.forcedcooldown.desc=生産したエネルギーが消費されないと、エンジンがオーバーヒートすることがあります。温度が融点に達すると、エンジンは強制的にクールダウンに入ります。
+for.hints.forcedcooldown.tag=オーバーヒートに注意!
+for.hints.generatorfuels.desc=バイオ発電機はバイオマスとエタノールの両方に対応しています。エタノールを使うのが最高効率です。
+for.hints.generatorfuels.tag=全ての燃料を使おう!
+for.hints.habitatlocatoruse.desc=活動環境探知器は、蜂の分析後に、最も近くにある蜂に適したバイオームを指し示します。そのバイオームが見つかると、表示器が回転します。
+for.hints.habitatlocatoruse.tag=活動環境探知器入門!
+for.hints.honeyfood.desc=ハチミツやその他蜂の生産物からは、様々な種類の食べ物をつくることができます。
+for.hints.honeyfood.tag=食材を確保!
+for.hints.manualpeat.desc=泥炭は泥土を使ったマルチファームで自動生産できるが、最初のうちは手作業で少し採取してみるのもいいかもしれない。
+for.hints.manualpeat.tag=泥土は不要!
+for.hints.moistenerproducts.desc=加湿機に適切な材料を入れれば、苔むした丸石や苔むした石レンガを作製することもできる。
+for.hints.moistenerproducts.tag=苔むした石はいかが?
+for.hints.nopowerrequired.desc=この種の機械は動作にエネルギーを必要としません。
+for.hints.nopowerrequired.tag=エネルギーいらず
+for.hints.peatharvest.desc=水に隣接した泥土は泥炭へと熟成されます。シャベルを使って採取しましょう。
+for.hints.peatharvest.tag=泥炭を採取!
+for.hints.pipette.desc=機械のタンクに液体が残って困っているときは、ピペットでタンクをクリックすれば空にできます。
+for.hints.pipette.tag=ピペットでタンクを空にしよう
+for.hints.postage.desc=手紙を送るには切手が必要です。1nの基本料金に加え、アイテムを同封するごとに追加で1nかかります。
+for.hints.postage.tag=渡船夫にお支払い
+for.hints.powerraintank.desc=雨水タンクはエネルギーを入力しなくても雨を集めます。しかし水を容器に移すにはエネルギーが必要になります。
+for.hints.powerraintank.tag=ボトリングにはエネルギーが必要!
+for.hints.powerrequired.desc=この機械が動作するにはエネルギーが必要です。エネルギーを入力して稼働できるようにしましょう。
+for.hints.powerrequired.tag=エネルギーが必要!
+for.hints.shortmead.desc=バイオマス発酵槽ではバイオマスを作製するだけでなく、ハニーデューと液体のハチミツを使ってショートミードを作ることもできます。
+for.hints.shortmead.tag=エナジードリンクを入手!
+for.hints.usesofash.desc=灰は無機肥料の作製に使えるほか、泥炭の精製にも必要になります。
+for.hints.usesofash.tag=灰を利用しよう!
+
+for.item.crated.grammar=%sの箱詰め
+for.item.crated.unknown=未知の内容物の箱詰め
+
+for.no=なし
+
+for.researchNote.chance.highest=最高
+for.researchNote.chance.higher=高い
+for.researchNote.chance.high=少し高い
+for.researchNote.chance.normal=中
+for.researchNote.chance.low=少し低い
+for.researchNote.chance.lowest=最低
+for.researchNote.error.0=洗いざらしの走り書きを判読することは不可能だ。
+for.researchNote.error.1=メモは読めなくなり、無価値になった。
+for.researchNote.discovered.0=§a種を調査完了!
+for.researchNote.discovered.1=§e'%1$s'§7 (%2$s)
+for.researchNote.discovery.0=§a変異を発見!
+for.researchNote.discovery.1=§e'%SPEC1'§7と§e'%SPEC2'§7
+for.researchNote.discovery.2=成功確率は§9%s§7。
+for.researchNote.discovery.3=新種は§d'%s'§7。
+
+for.mutation.condition.biome.single=%sバイオームで発生。
+for.mutation.condition.biome.multiple=%sのようなバイオームで発生
+for.mutation.condition.daytime.day=日中に発生。
+for.mutation.condition.daytime.night=夜間に発生。
+for.mutation.condition.humidity.range=%LOWと%HIGHの間の湿度が必要。
+for.mutation.condition.humidity.single=%sの湿度が必要。
+for.mutation.condition.temperature.range=%LOWと%HIGHの間の温度が必要。
+for.mutation.condition.temperature.single=%sの温度が必要。
+for.mutation.condition.resource=養蜂箱の下に%sが必要。
+for.mutation.condition.date=%STARTと%ENDの間に発生。
+
+for.storage.backpack.mode.locked=(ロック)
+for.storage.backpack.mode.receiving=(受入)
+for.storage.backpack.mode.resupply=(補給)
+
+for.trigger.hasMail=郵便物到着
+for.trigger.hasWork=稼働中
+for.trigger.lowFuel=燃料
+for.trigger.lowGermlings=種苗
+for.trigger.lowInput=入力
+for.trigger.lowPaper=紙
+for.trigger.lowResources=材料
+for.trigger.lowStamps=切手
+for.trigger.mailBuffer=バッファ
+for.trigger.missingDrone=雄蜂なし
+for.trigger.missingQueen=女王・王女蜂なし
+for.trigger.noFrames=巣枠なし
+
+for.yes=あり
+
+item.for.adventurerBag.name=冒険家のバックパック
+item.for.adventurerBagT2.name=冒険家の強化バックパック
+item.for.ambrosia.name=アンブロシア
+item.for.apatite.name=燐灰石
+
+item.for.apiaristBag.name=養蜂家のバックパック
+item.for.apiaristBoots.name=養蜂用靴
+item.for.apiaristChest.name=養蜂用上着
+item.for.apiaristHelmet.name=養蜂用頭巾
+item.for.apiaristLegs.name=養蜂用ズボン
+
+item.for.ash.name=灰
+
+item.for.beealyzer.name=蜂分析器
+item.for.habitatLocator.name=活動環境探知器
+
+item.for.cart.beehouse.name=ビーハウス付きトロッコ
+item.for.cart.apiary.name=養蜂箱付きトロッコ
+
+item.for.beeCombs.cocoa.name=ココアの巣板
+item.for.beeCombs.darkened.name=暗黒の巣板
+item.for.beeCombs.dripping.name=滴る巣板
+item.for.beeCombs.frozen.name=凍った巣板
+item.for.beeCombs.honey.name=巣板
+item.for.beeCombs.irradiated.name=輝く巣板
+item.for.beeCombs.mellow.name=柔らかな巣板
+item.for.beeCombs.mossy.name=苔むした巣板
+item.for.beeCombs.mysterious.name=謎めいた巣板
+item.for.beeCombs.omega.name=オメガの巣板
+item.for.beeCombs.parched.name=乾いた巣板
+item.for.beeCombs.powdery.name=粉だらけの巣板
+item.for.beeCombs.reddened.name=赤く染まった巣板
+item.for.beeCombs.silky.name=滑らかな巣板
+item.for.beeCombs.simmering.name=煮えたぎる巣板
+item.for.beeCombs.stringy.name=ねばつく巣板
+item.for.beeCombs.wheaten.name=小麦の巣板
+
+item.for.beeswax.name=蜜蝋
+
+item.for.beverage.meadCurative.name=治療用ミード
+item.for.beverage.meadShort.name=ショートミード
+item.for.beverage.mead.name=ミード
+
+item.for.biomeFinder.name=活動環境探知器
+item.for.bituminousPeat.name=瀝青質の泥炭
+item.for.brokenBronzePickaxe.name=壊れたツルハシ
+item.for.brokenBronzeShovel.name=壊れたシャベル
+item.for.bronzePickaxe.name=サバイバリストのツルハシ
+item.for.bronzeShovel.name=サバイバリストのシャベル
+item.for.builderBag.name=建築家のバックパック
+item.for.builderBagT2.name=建築家の強化バックパック
+
+item.for.bucketEthanol.name=エタノール入りバケツ
+item.for.bucketBiomass.name=バイオマス入りバケツ
+item.for.bucketHoney.name=ハチミツ入りバケツ
+item.for.bucketIce.name=削氷入りバケツ
+item.for.bucketJuice.name=果汁入りバケツ
+item.for.bucketSeedOil.name=種油入りバケツ
+item.for.bucketGlass.name=液体ガラス入りバケツ
+item.for.bucketShortMead.name=ショートミード入りバケツ
+item.for.bucketMead.name=ミード入りバケツ
+
+item.for.canEmpty.name=缶
+item.for.canEthanol.name=エタノール入り缶
+item.for.canBiomass.name=バイオマス入り缶
+item.for.canFuel.name=燃料入り缶
+item.for.canHoney.name=ハチミツ入り缶
+item.for.canIce.name=削氷入り缶
+item.for.canJuice.name=果汁入り缶
+item.for.canLava.name=溶岩入り缶
+item.for.canMead.name=ミード入り缶
+item.for.canOil.name=石油入り缶
+item.for.canSeedOil.name=種油入り缶
+item.for.canShortMead.name=ショートミード入り缶
+item.for.carton.name=ボール紙
+
+item.for.circuitboard.basic.name=基本回路基板
+item.for.circuitboard.enhanced.name=強化回路基板
+item.for.circuitboard.intricate.name=複雑な回路基板
+item.for.circuitboard.refined.name=洗練された回路基板
+
+item.for.craftingMaterial.dissipationCharge.name=消散剤
+item.for.craftingMaterial.iceShard.name=氷の破片
+item.for.craftingMaterial.pulsatingDust.name=脈動する粉
+item.for.craftingMaterial.pulsatingMesh.name=脈動する織布
+item.for.craftingMaterial.scentedPaneling.name=香りつきの羽目板
+item.for.craftingMaterial.silkWisp.name=絹質の繊維
+item.for.craftingMaterial.wovenSilk.name=絹質の織布
+
+item.for.crate.name=木箱
+item.for.decayingWheat.name=朽ちかけの小麦
+item.for.diggerBag.name=採掘者のバックパック
+item.for.diggerBagT2.name=採掘者の強化バックパック
+
+item.for.fertilizerBio.name=堆肥
+item.for.fertilizerCompound.name=無機肥料
+item.for.foresterBag.name=木こりのバックパック
+item.for.foresterBagT2.name=木こりの強化バックパック
+
+item.for.frameImpregnated.name=含侵加工済み巣枠
+item.for.frameProven.name=秘伝の巣枠
+item.for.frameUntreated.name=未加工の巣枠
+
+for.frame.tooltip.durability=耐久値:
+for.frame.tooltip.territory=受粉範囲:
+for.frame.tooltip.mutationRate=突然変異確率:
+for.frame.tooltip.lifespan=寿命:
+for.frame.tooltip.production=生産:
+for.frame.tooltip.flowering=受粉速度:
+for.frame.tooltip.geneticDecay=遺伝子的崩壊:
+
+item.for.fruits.cherry.name=サクランボ
+item.for.fruits.chestnut.name=栗
+item.for.fruits.dates.name=デーツ
+item.for.fruits.lemon.name=レモン
+item.for.fruits.papaya.name=パパイヤ
+item.for.fruits.plum.name=スモモ
+item.for.fruits.walnut.name=クルミ
+
+item.for.gearBronze.name=青銅の歯車
+item.for.gearCopper.name=銅の歯車
+item.for.gearTin.name=錫の歯車
+
+item.for.hardenedMachine.name=硬質外装
+
+item.for.honeydew.name=ハニーデュー
+
+item.for.honeyDrop.charged.name=みなぎる滴
+item.for.honeyDrop.honey.name=ハチミツの滴
+item.for.honeyDrop.omega.name=オメガの滴
+item.for.honeyedSlice.name=ハチミツスライス
+
+item.for.honeyPot.name=ハチミツ入りカプセル
+item.for.hunterBag.name=猟師のバックパック
+item.for.hunterBagT2.name=猟師の強化バックパック
+
+item.for.impregnatedCasing.name=含侵加工済み外装
+item.for.imprinter.name=ゲノム転写器
+item.for.infuser.name=注入器
+
+item.for.ingotBronze.name=青銅インゴット
+item.for.ingotCopper.name=銅インゴット
+item.for.ingotTin.name=錫インゴット
+
+item.for.iodineCapsule.name=ヨウ化銀剤
+item.for.kitPickaxe.name=ツルハシ組立てキット
+item.for.kitShovel.name=シャベル組立てキット
+item.for.letters.name=手紙
+
+item.for.minerBag.name=鉱夫のバックパック
+item.for.minerBagT2.name=鉱夫の強化バックパック
+
+item.for.mouldyWheat.name=カビの生えた小麦
+item.for.mulch.name=マルチ
+item.for.naturalistHelmet.name=眼鏡
+item.for.oakStick.name=含侵加工済みの棒
+item.for.peat.name=泥炭
+item.for.phosphor.name=燐光体
+item.for.pipette.name=ピペット
+
+item.for.pollen.crystalline.name=結晶性花粉塊
+item.for.pollen.normal.name=花粉塊
+
+item.for.propolis.normal.name=プロポリス
+item.for.propolis.pulsating.name=脈動するプロポリス
+item.for.propolis.silky.name=滑らかなプロポリス
+item.for.propolis.sticky.name=ねばつくプロポリス
+
+item.for.refractoryEthanol.name=エタノール入りカプセル
+item.for.refractoryBiomass.name=バイオマス入りカプセル
+item.for.refractoryEmpty.name=耐熱性カプセル
+item.for.refractoryFuel.name=燃料入りカプセル
+item.for.refractoryHoney.name=ハチミツ入りカプセル
+item.for.refractoryIce.name=削氷入りカプセル
+item.for.refractoryJuice.name=果汁入りカプセル
+item.for.refractoryLava.name=溶岩入りカプセル
+item.for.refractoryMead.name=ミード入りカプセル
+item.for.refractoryOil.name=石油入りカプセル
+item.for.refractorySeedOil.name=種油入りカプセル
+item.for.refractoryShortMead.name=ショートミード入りカプセル
+item.for.refractoryWater.name=水入りカプセル
+item.for.refractoryWax.name=耐熱性の蜜蝋
+
+item.for.researchNote.name=%sのメモ
+item.for.royalJelly.name=ローヤルゼリー
+item.for.scoop.name=虫取り網
+item.for.solderingIron.name=はんだごて
+
+item.for.stamps.1n.name=切手 (1n)
+item.for.stamps.2n.name=切手 (2n)
+item.for.stamps.5n.name=切手 (5n)
+item.for.stamps.10n.name=切手 (10n)
+item.for.stamps.20n.name=切手 (20n)
+item.for.stamps.50n.name=切手 (50n)
+item.for.stamps.100n.name=切手 (100n)
+item.for.stamps.name=切手
+
+item.for.sturdyMachine.name=堅牢外装
+item.for.tent.name=サバイバリストのテント
+
+item.for.thermionicTubes.ex-0.name=銅の電子管
+item.for.thermionicTubes.ex-1.name=錫の電子管
+item.for.thermionicTubes.ex-2.name=青銅の電子管
+item.for.thermionicTubes.ex-3.name=鉄の電子管
+item.for.thermionicTubes.ex-4.name=金の電子管
+item.for.thermionicTubes.ex-5.name=ダイヤモンドの電子管
+item.for.thermionicTubes.ex-6.name=黒曜石の電子管
+item.for.thermionicTubes.ex-7.name=燃え盛る電子管
+item.for.thermionicTubes.ex-8.name=ゴムの電子管
+item.for.thermionicTubes.ex-9.name=エメラルドの電子管
+item.for.thermionicTubes.ex-10.name=燐灰石の電子管
+item.for.thermionicTubes.ex-11.name=ラピスラズリの電子管
+item.for.thermionicTubes.ex-12.name=エンダー電子管
+item.for.thermionicTubes.ex-13.name=ウラン238の電子管
+
+item.for.treealyzer.name=樹木分析器
+
+item.for.canWater.name=水入り缶
+
+item.for.waxCapsule.name=蜜蝋製カプセル
+item.for.waxCapsuleEthanol.name=エタノール入りカプセル
+item.for.waxCapsuleBiomass.name=バイオマス入りカプセル
+item.for.waxCapsuleFuel.name=燃料入りカプセル
+item.for.waxCapsuleHoney.name=ハチミツ入りカプセル
+item.for.waxCapsuleIce.name=削氷入りカプセル
+item.for.waxCapsuleJuice.name=果汁入りカプセル
+item.for.waxCapsuleMead.name=ミード入りカプセル
+item.for.waxCapsuleOil.name=石油入りカプセル
+item.for.waxCapsuleSeedOil.name=種油入りカプセル
+item.for.waxCapsuleShortMead.name=ショートミード入りカプセル
+item.for.waxCapsuleWater.name=水入りカプセル
+item.for.waxCast.name=蜜蝋製の鋳型
+
+item.for.woodPulp.name=木材パルプ
+item.for.wrench.name=レンチ [Forestry]
+
+itemGroup.apiculture=養蜂
+itemGroup.arboriculture=林業
+itemGroup.forestry=Forestry
+itemGroup.lepidopterology=鱗翅類学
+
+tile.for.core.0.name=分析機 [Forestry]
+tile.for.core.1.name=書き物机
+
+tile.for.engine.0.name=電気エンジン
+tile.for.engine.1.name=泥炭エンジン
+tile.for.engine.2.name=バイオガスエンジン
+tile.for.engine.3.name=バイオ発電機
+tile.for.engine.4.name=時計仕掛けのエンジン
+
+tile.for.factory.0.name=瓶詰機
+tile.for.factory.1.name=工作機
+tile.for.factory.2.name=遠心分離機
+tile.for.factory.3.name=バイオマス発酵槽
+tile.for.factory.4.name=加湿機
+tile.for.factory.5.name=圧搾機
+tile.for.factory.6.name=蒸留機
+tile.for.factory.7.name=人工降雨機
+tile.for.factory2.0.name=熱電子工作機
+tile.for.factory2.1.name=雨水タンク
+tile.for.factory2.2.name=加工作業台
+
+tile.for.mail.0.name=郵便箱
+tile.for.mail.1.name=交易ステーション
+tile.for.mail.2.name=切手収集箱
+
+tile.for.resources.0.name=燐灰石鉱石
+tile.for.resources.1.name=銅鉱石
+tile.for.resources.2.name=錫鉱石
+
+tile.for.resourceStorage.0.name=燐灰石ブロック
+tile.for.resourceStorage.1.name=銅ブロック
+tile.for.resourceStorage.2.name=錫ブロック
+tile.for.resourceStorage.3.name=青銅ブロック
+
+tile.for.soil.0.name=腐葉土
+tile.for.soil.1.name=泥土
+tile.for.soil.2.name=泥炭
+
+tile.for.stained.0.name=白色の色付きガラス
+tile.for.stained.1.name=橙色の色付きガラス
+tile.for.stained.2.name=赤紫色の色付きガラス
+tile.for.stained.3.name=空色の色付きガラス
+tile.for.stained.4.name=黄色の色付きガラス
+tile.for.stained.5.name=黄緑色の色付きガラス	
+tile.for.stained.6.name=桃色の色付きガラス
+tile.for.stained.7.name=灰色の色付きガラス
+tile.for.stained.8.name=薄灰色の色付きガラス
+tile.for.stained.9.name=青緑色の色付きガラス
+tile.for.stained.10.name=紫色の色付きガラス
+tile.for.stained.11.name=青色の色付きガラス	
+tile.for.stained.12.name=茶色の色付きガラス
+tile.for.stained.13.name=緑色の色付きガラス
+tile.for.stained.14.name=赤色の色付きガラス
+tile.for.stained.15.name=黒色の色付きガラス
+
+neiintegration.chance=確率: %s
+neiintegration.chance.never=不可能
+neiintegration.chance.lessThan1=<1%
+neiintegration.handler.forestry.shaped=Forestry 定形クラフト
+neiintegration.handler.forestry.shapeless=Forestry 不定形クラフト
+neiintegration.handler.forestry.fabricator.worth=相当量:
+
+################
+# JUBILANCE
+################
+
+for.jubilance.climate=最適な気候が必要
+for.jubilance.hermit=付近に他の生物がいるときは生産不可能
+for.jubilance.resource=養蜂箱の下に%sが必要
+
+################
+# ERRORS
+################
+
+# BEES
+for.errors.isRaining.desc=雨
+for.errors.isRaining.help=雨の中で活動できるのは雨耐性の蜂だけです。
+for.errors.noDrone.desc=雄蜂なし
+for.errors.noDrone.help=交配には雄蜂が必要です。
+for.errors.noFlower.desc=花なし
+for.errors.noFlower.help=蜂が適切な花を見つけられていません。蜂分析器を使って花の好みを確認しましょう。
+for.errors.noQueen.desc=女王蜂なし
+for.errors.noQueen.help=巣に女王蜂、または王女蜂と雄蜂を補給してください。
+for.errors.noSky.desc=空に障害物あり
+for.errors.noSky.help=この巣は上から直射日光を受ける必要があります。
+for.errors.notDay.desc=日中ではない
+for.errors.notDay.help=この蜂は日中しか活動できません。
+for.errors.notGloomy.desc=暗さ不足
+for.errors.notGloomy.help=この蜂は暗闇でしか活動できません。
+for.errors.notLucid.desc=明るさ不足
+for.errors.notLucid.help=この蜂は暗闇の中を飛ぶのが苦手です。
+for.errors.notNight.desc=夜間ではない
+for.errors.notNight.help=この蜂は夜間しか活動できません。
+for.errors.tooHot.desc=暑すぎ
+for.errors.tooHot.help=蜂がこの暑さでだらけてしまい働くことができません。活動環境探知器を使って涼しい気候を探しましょう。
+for.errors.tooCold.desc=寒すぎ
+for.errors.tooCold.help=蜂がこの凍えるような寒さのなか生き延びるために身を寄せ合っています。動環境探知器を使って暖かい気候を探しましょう。
+for.errors.tooHumid.desc=多湿すぎ
+for.errors.tooHumid.help=ここの気候のせいで、湿気が多すぎて蜂が飛べません。活動環境探知器を使って乾燥した気候を探しましょう。
+for.errors.tooArid.desc=乾燥しすぎ
+for.errors.tooArid.help=ここの気候のせいで、蜂が干からびて活動できなくなっています。活動環境探知器を使って湿った気候を探しましょう。
+
+# MACHINES
+for.errors.noPower.desc=エネルギーなし
+for.errors.noPower.help=この機械の動作にはエネルギーが必要です。
+for.errors.noRedstone.desc=レッドストーン信号が必要
+for.errors.noRedstone.help=この機械の動作にはレッドストーン信号が必要です。
+for.errors.disabledRedstone.desc=レッドストーン信号で停止中
+for.errors.disabledRedstone.help=この機械はレッドストーン信号により停止しています。
+for.errors.noRecipe.desc=レシピなし
+for.errors.noRecipe.help=供給された材料に一致するレシピが見つかりません。
+for.errors.noResource.desc=材料なし
+for.errors.noResource.help=動作には材料の供給が必要です。
+for.errors.noResourceInventory.desc=インベントリに材料が必要
+for.errors.noResourceInventory.help=このレシピのクラフトを始めるには、機械のインベントリに材料を追加する必要があります。
+for.errors.noResourceLiquid.desc=液体材料なし
+for.errors.noResourceLiquid.help=動作には液体材料の供給が必要です。
+for.errors.noSpace.desc=インベントリの空きなし
+for.errors.noSpace.help=この機械のインベントリを空にしてください。
+for.errors.noSpaceTank.desc=タンクの空きなし
+for.errors.noSpaceTank.help=この機械の液体タンクを空にしてください。
+for.errors.notDark.desc=暗さ不足
+for.errors.notDark.help=動作にはより暗い環境が必要です。
+
+# RAIN TANK
+for.errors.notRaining.desc=降雨なし
+for.errors.notRaining.help=雨が降っているときのみ動作します。
+for.errors.noRainBiome.desc=絶対に雨が降らない
+for.errors.noRainBiome.help=この場所では雨が降りません。
+for.errors.noSkyRainTank.desc=空に障害物あり
+for.errors.noSkyRainTank.help=雨を集めるため、この機械の上の領域を空けてください。
+
+# ALYZERS
+for.errors.noHoney.desc=ハチミツが必要
+for.errors.noHoney.help=この機器の動作にはハチミツの滴かハニーデューが必要です。
+for.errors.noSpecimen.desc=分析対象なし
+for.errors.noSpecimen.help=分析する標本を入れてください。
+
+# ENGINES
+for.errors.forcedCooldown.desc=強制クールダウン
+for.errors.forcedCooldown.help=エンジンがオーバーヒートしており、再始動する前にクールダウンする必要があります。
+for.errors.noEnergyNet.desc=電気なし
+for.errors.noEnergyNet.help=この世界には電気の概念がありません。(IndustrialCraft\u00b2をインストールしてください。)
+for.errors.noFuel.desc=燃料なし
+for.errors.noFuel.help=このエンジンの稼働には燃料が必要です。この機械の燃料を充填してください。
+for.errors.noHeat.desc=温まっていない
+for.errors.noHeat.help=このエンジンの稼働には熱源が必要です。熱源用タンクに溶岩を補充してください。
+
+# TRADE STATION
+for.errors.noStamps.desc=切手が必要
+for.errors.noStamps.help=交易ステーションでは、送料の支払いに切手が必要です。
+for.errors.noPaper.desc=紙が必要
+for.errors.noPaper.help=交易ステーションでは、手紙を送るのに紙が必要です。
+for.errors.noSupplies.desc=在庫が必要
+for.errors.noSupplies.help=交易ステーションに、配送する在庫が必要です。
+for.errors.noTrade.desc=セットされた交易なし
+for.errors.noTrade.help=交易ステーションでは、配送・受領するアイテムが必要です。
+
+# TRADE STATION NAMING
+for.errors.notAlphaNumeric.desc=無効な名称
+for.errors.notAlphaNumeric.help=交易ステーションの名称は、アルファベットと数字のみで構成しなければなりません。
+for.errors.notUnique.desc=固有ではない
+for.errors.notUnique.help=交易ステーションの名称は固有のものでなければならず、この名称は既に使われています。
+
+# LETTERS
+for.errors.noRecipient.desc=受領者なし
+for.errors.noRecipient.help=手紙を送るには宛名を書く必要があります。
+for.errors.notPostpaid.desc=切手が必要
+for.errors.notPostpaid.help=送料の支払いのため切手を貼ってください。
+
+# CIRCUIT BOARDS
+for.errors.circuitMismatch.desc=レイアウトの不一致
+for.errors.circuitMismatch.help=電子管の数と回路基板の大きさが一致していません。
+for.errors.noCircuitBoard.desc=基板なし
+for.errors.noCircuitBoard.help=選択した電子管をはんだ付けするための回路基板を挿入してください。
+for.errors.noCircuitLayout.desc=レイアウトなし
+for.errors.noCircuitLayout.help=現在のゲーム設定により、利用可能なレイアウトがありません。
+
+# FARMS
+for.errors.noFarmland.desc=農地の土台なし
+for.errors.noFarmland.help=農場の土台となる、滑らかな砂岩、レンガ、または石レンガを設置してください。
+for.errors.noFertilizer.desc=無機肥料なし
+for.errors.noFertilizer.help=農場の稼働には無機肥料が必要です。堆肥では不十分です。
+for.errors.noLiquid.desc=水なし
+for.errors.noLiquid.help=降水、温度、湿度に応じて、農場に必要な量の水を供給してください。
+
+# DEPRECATED
+for.errors.invalidBiome.desc=過酷な環境
+for.errors.invalidBiome.help=このバイオームでは機械を動かせません。
+for.errors.noDisposal.desc=廃棄物が処理できない
+for.errors.noDisposal.help=廃棄物を処理するための空間が不十分です。
+for.errors.unknown.desc=不明なエラー
+for.errors.unknown.help=おめでとうございます、不具合を発見しましたね。
+for.errors.wrongStacksize.desc=アイテムが多すぎる
+for.errors.wrongStacksize.help=ここでは1つのアイテムしか使用できません。
+
+####################
+# APICULTURE
+####################
+
+entity.Villager.apiarist=養蜂家
+
+death.bee.aggressive.player=%1$sは蜂の大群に遭遇した。%2$sが彼の防護服を盗んだ。
+death.bee.aggressive=%1$sは蜂の大群に遭遇した。刺されもするはずだ。
+death.bee.end.player=%1$sは%2$sと戦いながら敵意の一刺しにより生涯を終えた。
+death.bee.end=%1$sは敵意の一刺しにより生涯を終えた。
+death.bee.radioactive.player=%1$sはヘルメットを着けずにチェルノブイリに立ち入った。%2$sはそれを見てクスクス笑った。
+death.bee.radioactive=%1$sはヘルメットを着けずにチェルノブイリに立ち入った。
+death.bee.heroic.player=%1$sは英雄蜂に殺された! %2$sは彼らに永遠の恩義を感じている。
+death.bee.heroic=%1$sは英雄蜂に殺された!
+
+forestry.allele.effect.aggressive=攻撃的
+forestry.allele.effect.beatific=至福
+forestry.allele.effect.creeper=クリーパー
+forestry.allele.effect.drunkard=吞兵衛
+forestry.allele.effect.exploration=探検家
+forestry.allele.effect.glacial=凍結
+forestry.allele.effect.fertile=豊穣
+forestry.allele.effect.festiveEaster=祝祭
+forestry.allele.effect.heroic=英雄
+forestry.allele.effect.ignition=引火性
+forestry.allele.effect.misanthrope=終焉
+forestry.allele.effect.miasmic=毒
+forestry.allele.effect.mycophilic=親菌性
+forestry.allele.effect.none=なし
+forestry.allele.effect.radioactive=放射性
+forestry.allele.effect.reanimation=蘇生
+forestry.allele.effect.repulsion=反発
+forestry.allele.effect.resurrection=復活
+forestry.allele.effect.snowing=雪
+
+for.beemode.easy.desc=突然変異確率を飛躍的に上昇させ、遺伝的疲労の発生を削除することで、蜂の交配を単純化する。
+for.beemode.hard.desc=突然変異確率をわずかに減少させ、女王蜂の寿命を50%延長させる。
+for.beemode.hardcore.desc=突然変異確率を半減させ、女王蜂の寿命が500%延長させ、繁殖率を20%減少させる。
+for.beemode.insane.desc=突然変異確率を20%に減少させ、寿命を10倍に延長させ、繁殖率を40%減少させる。
+for.beemode.normal.desc=普通のプレイヤーにおすすめのモード。
+
+for.bees.grammar.drone.type=雄蜂
+for.bees.grammar.drone=%SPECIESの%TYPE
+for.bees.grammar.larvae.type=幼虫
+for.bees.grammar.larvae=%SPECIESの%TYPE
+for.bees.grammar.princess.type=王女蜂
+for.bees.grammar.princess=%SPECIESの%TYPE
+for.bees.grammar.queen.type=女王蜂
+for.bees.grammar.queen=%SPECIESの%TYPE
+
+for.bees.hybrid=%PRIMARYと%SECONDARYの雑種
+
+for.bees.species.austere=厳粛
+for.bees.species.avenging=復讐
+for.bees.species.boggy=泥濘
+for.bees.species.common=平凡
+for.bees.species.cultivated=洗練
+for.bees.species.darkened=暗黒
+for.bees.species.demonic=悪魔
+for.bees.species.diligent=熱心
+for.bees.species.edenic=楽園
+for.bees.species.ended=終焉
+for.bees.species.exotic=異国
+for.bees.species.fiendish=残虐
+for.bees.species.forest=森林
+for.bees.species.frugal=質素
+for.bees.species.glacial=氷河
+for.bees.species.hermitic=隠者
+for.bees.species.heroic=英雄
+for.bees.species.icy=寒冷
+for.bees.species.imperial=皇帝
+for.bees.species.industrious=勤勉
+for.bees.species.leporine=兎似
+for.bees.species.majestic=雄大
+for.bees.species.marshy=湿地
+for.bees.species.meadows=草原
+for.bees.species.merry=陽気
+for.bees.species.miry=泥沼
+for.bees.species.modest=謙遜
+for.bees.species.monastic=修道
+for.bees.species.noble=高貴
+for.bees.species.omega=最後
+for.bees.species.phantasmal=幻想
+for.bees.species.reddened=赤化
+for.bees.species.rural=田舎
+for.bees.species.farmerly=農的
+for.bees.species.agrarian=農耕
+for.bees.species.secluded=閑静
+for.bees.species.sinister=不吉
+for.bees.species.spectral=霊的
+for.bees.species.steadfast=堅固
+for.bees.species.tipsy=微酔
+for.bees.species.tricky=巧妙
+for.bees.species.tropical=熱帯
+for.bees.species.unweary=頑健
+for.bees.species.valiant=勇敢
+for.bees.species.vengeful=怨嗟
+for.bees.species.vindictive=執念
+for.bees.species.wintry=冬季
+
+for.bees.stock.ignoble=遺伝子汚染個体
+for.bees.stock.pristine=純系個体
+
+for.chat.command.forestry.bee.desc=- %s : 養蜂用コマンド
+for.chat.command.forestry.bee.help=養蜂に関連したコマンド。
+for.chat.command.forestry.bee.format=形式: /%s <sub-command>
+
+for.chat.command.forestry.bee.give.desc=- %s : 蜂の付与
+for.chat.command.forestry.bee.give.help=プレイヤーに雄蜂、王女蜂、女王蜂または幼虫を与える。
+for.chat.command.forestry.bee.give.format=形式: /%s <species-name> <bee-type> [<player-name>]
+for.chat.command.forestry.bee.give.available=利用可能な蜂のタイプ: %s
+for.chat.command.forestry.bee.give.given=%2$s %3$sを%1$sに与えました
+
+for.chat.command.forestry.bee.mode.desc=- %s : 養蜂モードのコマンド
+for.chat.command.forestry.bee.mode.help=養蜂モードに関連したコマンド。
+for.chat.command.forestry.bee.mode.format=形式: /%s <sub-command>
+
+for.chat.command.forestry.bee.mode.info.desc=- %s : 養蜂モードの情報
+for.chat.command.forestry.bee.mode.info.help=現在の養蜂モードと利用可能な養蜂モードについての情報。
+for.chat.command.forestry.bee.mode.info.format=形式: /%s <mode-name>
+
+for.chat.command.forestry.bee.mode.set.desc=- %s : 養蜂モードの設定
+for.chat.command.forestry.bee.mode.set.help=ワールドの養蜂モードを設定する。
+for.chat.command.forestry.bee.mode.set.format=形式: /%s [<world-#>] <mode-name>
+
+for.chat.command.forestry.bee.save.desc=- %s : 養蜂の統計の保存
+for.chat.command.forestry.bee.save.help=ファイルに養蜂の統計情報を保存する。
+for.chat.command.forestry.bee.save.format=形式: /%s [<player-name>]
+for.chat.command.forestry.bee.save.stats=%2$s時点の%1$sの養蜂の統計 :
+
+for.chat.command.forestry.mode.info.error='%s'というモードは利用不可能です
+for.chat.command.forestry.mode.info.current=現在のモード: %1$s (#%2$s)
+for.chat.command.forestry.mode.info.available=利用可能なモード: %s
+
+for.chat.command.forestry.mode.set.success=養蜂モードが%sに設定されました
+for.chat.command.forestry.mode.set.error='%s'というモードは利用不可能です
+
+for.chat.command.forestry.stats.save.error1=ログファイルを作成することができませんでした。統計情報の保存に失敗しました。
+for.chat.command.forestry.stats.save.error2=ログファイルへの書き込みができませんでした。統計情報の保存に失敗しました。
+for.chat.command.forestry.stats.save.error3=書き込み操作で例外が発生しました。統計情報の保存に失敗しました。
+for.chat.command.forestry.stats.save.error4=統計情報が見つかりませんでした。
+for.chat.command.forestry.stats.save.saved=プレイヤー%sの統計情報を保存しました
+for.chat.command.forestry.stats.save.key.discovered=発見
+for.chat.command.forestry.stats.save.key.discovered.symbol=X
+for.chat.command.forestry.stats.save.key.blacklisted=ブラックリスト
+for.chat.command.forestry.stats.save.key.blacklisted.symbol=BL
+for.chat.command.forestry.stats.save.key.notCounted=種数の合計には加算されません
+for.chat.command.forestry.stats.save.key.notCounted.symbol=NC
+for.chat.command.forestry.stats.save.mode=モード: 
+
+for.description.speciesAgrarian="他ほどは臭わないよ。やるべきことはやってるしね。"|Myrathi, Cannie - 養蜂家
+for.description.speciesAustere=危険で激しやすい性格。近づくときは必ず完全防備でいることをお勧めします。|養蜂入門
+for.description.speciesAvenging="家の壁が崩れ始め、頭上では屋根が軋むのが聞こえたが、気にしなかった!新しい女王蜂を掴むと、千匹の小さな虫が私の手袋を刺すのを感じた。"|名無し
+for.description.speciesBoggy="牛がこいつに刺されてるのを見たことがあるよ。数秒後には体中にキノコが生え始めたんだ!…写真?あぁ、撮ってないよ。"|Sengir卿 - 狂人
+for.description.speciesCommon=養蜂初心者の参入の印とされています。|養蜂入門
+for.description.speciesCultivated=仕事の早い蜂です。作業以外はどうでもいいと考えています。|養蜂入門
+for.description.speciesDarkened=錬金術的に結合された物質の力に引き寄せられたこの種は、強力なエネルギー源だった。|養蜂辞典
+for.description.speciesDemonic=ネザーの火の中に生まれ、ネザーの蜂として世代を重ねたこの種は、真の悪魔へと変貌しました。|養蜂入門
+for.description.speciesDiligent=勤勉種の系列への足掛かりとして主に注目されています。|養蜂入門
+for.description.speciesEdenic="その昆虫の奇妙でささやかな踊りを見ている間に、私は筆を走らせ、脳裏に染み付いたイメージを必死にノートへとスケッチした。"|養蜂入門
+for.description.speciesEnded="私は村の養蜂箱に、この一見隠者のような昆虫を見つけた。それは休眠しており、明らかにその本来あるべき世界から引き離され、そしてその世界からの断片を強く欲してしていた。"|養蜂入門
+for.description.speciesExotic="熱に震え、防護服が冷や汗でびしょ濡れになったが、私は震える手でようやく1匹を引きずり出すことができた。"|養蜂入門
+for.description.speciesFarmerly=各国の穀倉地帯である広大な草原で見られます。|養蜂入門
+for.description.speciesFiendish=ネザーの熟練養蜂家から、この蜂による激しい攻撃が報告されています。注意が必要です。|Beekeeping 101
+for.description.speciesForest=森林で最もよくみられる害虫のひとつで、たいていはおとなしい性格です。|養蜂入門
+for.description.speciesFrugal=何世代もの蜂が太陽に焼かれ、この種が生まれました。|養蜂入門
+for.description.speciesGlacial="冬が来る"|E. Stark - 養蜂家
+for.description.speciesHermitic="親愛なる同僚よ！君が送ってきた蜂が洗濯を拒否して髭を生やし始めたぞ。説明してくれないか？"|Binnie - 養蜂家
+for.description.speciesHeroic=数々の伝説や逸話にうたわれる種。どのような脅威に対しても、命を賭して巣を護る。|養蜂家の魔導書
+for.description.speciesIcy=この種の蜂の巣の中は、霜が発生するほどまで温度が低下します。|養蜂入門
+for.description.speciesImperial=非常に重宝する蜂です。貴重なローヤルゼリーを生産してくれます。|養蜂入門
+for.description.speciesIndustrious=非常に重宝する蜂です。濃厚な花粉を生産してくれます。|養蜂入門
+for.description.speciesLeporine="私は誓う！それは小さくて、羽があって、ふわふわの小さなウサギの耳が確かにあった！...違う！私は酔っ払っていない！"|Sengir卿 - 狂人
+for.description.speciesMajestic="首をはねよ！" |ハートの女王
+for.description.speciesMarshy="なぜキノコが？駆除だ駆除！"|養蜂入門
+for.description.speciesMeadows=温暖な平野などに生息しているおとなしい蜂です。|養蜂入門
+for.description.speciesMerry="メルィィクリスマス！"|陽気の蜂
+for.description.speciesMiry="この蜂はどのようにしてキノコを受粉させるのだろうか？"|Mezz - 新人養蜂家
+for.description.speciesModest=暑くて乾燥した厳しい気候に適応してしまったがために、温暖な気候の中で生きることができなくなってしまった蜂です。|養蜂入門
+for.description.speciesMonastic="私は村人に、厳然として告げました、「王女蜂はともかく、なぜ雄蜂にも大量のエメラルドを請求する？お前がやってるのはカツアゲだ！」と。"|養蜂入門
+for.description.speciesNoble="この蜂を育てる以上に高貴な職は、この世界には無いだろう。"|Binnie - 養蜂家
+for.description.speciesOmega=私はアルファでありオメガである、発端と結末、起源にして終焉だ。|Pahimar - 養蜂家
+for.description.speciesPhantasmal="どんなことがあっても、決して、決して、ドラゴンの...を落としては..."|Sengir卿の遺言
+for.description.speciesReddened=膨大な量の練成物質を必要とするが、この小さな従者たちは、世界をエネルギーで溢れさせるだろう。|養蜂辞典
+for.description.speciesRural="5月に雨が降った年は、豊穣が約束される。"|M. Ages - 田舎の養蜂家
+for.description.speciesSecluded="砂漠の種との交配はするべきではなかった。私の蜂たちが、ますますこの地に縛られてしまう。"|養蜂入門
+for.description.speciesSinister=ほとんどの蜂はネザーで生き延びることができません。そんな地獄のような環境には、地獄のような蜂がいるのです。|養蜂入門
+for.description.speciesSpectral="手に乗せたそれが、生き物だとは思わなかった。しかし、それは発光、脈動し、今まで感じたことがないほどの冷たさを滲ませていた。そのとき、背後で骨の山がカラカラと音を立て始め..."|養蜂入門
+for.description.speciesSteadfast=ダンジョンの奥深くで冒険者に発見されるまで、絶滅した存在だと見なされていた。|養蜂家の魔導書
+for.description.speciesTipsy="可憐に踊れ！おどれ！"|東部の微酔した魔女
+for.description.speciesTricky="トリック・オア・トリッキートリート！"|巧妙な蜂
+for.description.speciesTropical="ジャングルの川に沿って進み、これらの有毒の種を沢山入手することができた。残念ながらすこし前に、唯一の厳粛の種をワニに奪われてしまった。"|養蜂入門
+for.description.speciesUnweary=疲れ知らずですが、最後は過労死してしまうでしょう。|養蜂入門
+for.description.speciesValiant=普遍的な蜂の巣の中で、他の蜂と共存している姿が稀に見られる。|養蜂家の魔導書
+for.description.speciesVengeful="来た、見た、勝った！"|アピヌス・ユリウス・カエサル
+for.description.speciesVindictive="そいつは私の顔を食べた！食べたんだ！"|K.M.
+for.description.speciesWintry=普遍的な種ですが、寒さへの耐性が強いです。その分、温暖な気候では育ちません。|養蜂入門
+
+for.genus.bees.agrarian=農耕
+for.genus.bees.austere=厳粛
+for.genus.bees.boggy=泥濘
+for.genus.bees.common=平凡
+for.genus.bees.end=終焉
+for.genus.bees.festive=祝祭
+for.genus.bees.frozen=凍結
+for.genus.bees.heroic=英雄
+for.genus.bees.industrious=勤勉
+for.genus.bees.infernal=地獄
+for.genus.bees.monastic=修道
+for.genus.bees.noble=高貴
+for.genus.bees.reddened=赤化
+for.genus.bees.tropical=熱帯
+for.genus.bees.vengeful=怨嗟
+
+item.for.beePrincessGE.name=王女蜂
+item.for.beeQueenGE.name=女王蜂
+item.for.beeDroneGE.name=雄蜂
+
+tile.for.alveary.0.name=大型養蜂箱
+tile.for.alveary.1.name=大型養蜂箱の搬入口
+tile.for.alveary.2.name=分蜂室
+tile.for.alveary.3.name=大型養蜂箱用冷房器
+tile.for.alveary.4.name=大型養蜂箱用暖房器
+tile.for.alveary.5.name=大型養蜂箱用湿度調節器
+tile.for.alveary.6.name=大型養蜂箱用安定化装置
+tile.for.alveary.7.name=大型養蜂箱用篩
+
+tile.for.apiculture.0.name=養蜂箱
+tile.for.apicultureChest.0.name=養蜂家のチェスト
+tile.for.apiculture.2.name=ビーハウス
+
+tile.for.beehives.1.name=森林の蜂巣
+tile.for.beehives.2.name=草原の蜂巣
+tile.for.beehives.3.name=砂漠の蜂巣
+tile.for.beehives.4.name=熱帯の蜂巣
+tile.for.beehives.5.name=終焉の蜂巣
+tile.for.beehives.6.name=冬季の蜂巣
+tile.for.beehives.7.name=湿地の蜂巣
+tile.for.beehives.8.name=分蜂の蜂巣
+
+tile.for.candle.dyed.lit.name=点火した染色済みろうそく
+tile.for.candle.dyed.stump.name=未点火の染色済みろうそく
+tile.for.candle.lit.name=点火したろうそく
+tile.for.candle.stump.name=未点火のろうそく
+
+tile.for.stump.0.name=燃え残ったろうそく
+
+####################
+# MULTIBLOCK
+####################
+
+for.multiblock.error.notConnected=マルチブロックがコントローラーに接続されていません。これはラグや不具合が原因である可能性があります。解決しない場合は、ブロックを破壊してから再設置してください。
+for.multiblock.error.invalid.interior=%d, %d, %d - (%s) 構造の内側には使用できないブロックです。
+for.multiblock.error.invalid.part=このマルチブロックパーツ(%d, %d, %d)は、この種類のものと互換性がありません。(%s)
+for.multiblock.error.small=マルチブロックが小さすぎます。最低でも、%dx%dx%dの大きさが必要です。
+for.multiblock.error.large.x=マルチブロックが大きすぎます。X軸は%dブロックまでにしてください。
+for.multiblock.error.large.y=マルチブロックが大きすぎます。Y軸は%dブロックまでにしてください。
+for.multiblock.error.large.z=マルチブロックが大きすぎます。Z軸は%dブロックまでにしてください。
+for.multiblock.error.small.x=マルチブロックが小さすぎます。X軸は%dブロック以上である必要があります。
+for.multiblock.error.small.y=マルチブロックが小さすぎます。Y軸は%dブロック以上である必要があります。
+for.multiblock.error.small.z=マルチブロックが小さすぎます。Z軸は%dブロック以上である必要があります。
+
+for.multiblock.alveary.error.needSlabs=大型養蜂箱の上に、木材ハーフブロックを設置する必要があります。
+for.multiblock.alveary.error.needSpace=大型養蜂箱の3段目の側面には、蜂の出入りを妨げるものを置いてはいけません。
+for.multiblock.alveary.error.needPlainOnTop=大型養蜂箱の3段目には、通常の大型養蜂箱のみを使用してください。
+for.multiblock.alveary.error.needPlainInterior=大型養蜂箱の内部に配置するブロックは、通常の大型養蜂箱のみを使用してください。
+
+for.multiblock.farm.error.needPlainBand=マルチファームの3段目には、通常のファームブロックのみを使用してください。
+for.multiblock.farm.error.needPlainInterior=マルチファームの内部に配置するブロックは、通常のファームブロックのみを使用してください。
+for.multiblock.farm.error.needGearbox=電力を受け取って稼働するために、ギアボックスを設置する必要があります。
+
+####################
+# ARBORICULTURE
+####################
+
+entity.Villager.arborist=樹医
+
+for.arboriculture.effect.none=なし
+
+for.chat.command.forestry.tree.desc=- %s : 林業用コマンド
+for.chat.command.forestry.tree.help=林業に関連したコマンド。
+for.chat.command.forestry.tree.format=形式: /%s <sub-command>
+
+for.chat.command.forestry.tree.spawnTree.desc=- %s : 木を生成
+for.chat.command.forestry.tree.spawnTree.help=プレイヤーの近くに木を生成する。
+for.chat.command.forestry.tree.spawnTree.format=形式: /%s <species-name> [<player-name>]
+
+for.chat.command.forestry.tree.spawnForest.desc=- %s : 森を生成
+for.chat.command.forestry.tree.spawnForest.help=プレイヤーの近くに森を生成する。
+for.chat.command.forestry.tree.spawnForest.format=形式: /%s <species-name> [<player-name>]
+
+for.chat.command.forestry.tree.mode.desc=- %s : 林業モードのコマンド
+for.chat.command.forestry.tree.mode.help=林業モードに関連したコマンド。
+for.chat.command.forestry.tree.mode.format=形式: /%s <sub-command>
+
+for.chat.command.forestry.tree.mode.info.desc=- %s : 林業モードの情報
+for.chat.command.forestry.tree.mode.info.help=現在の林業モードと利用可能な林業モードについての情報。
+for.chat.command.forestry.tree.mode.info.format=形式: /%s <mode-name>
+
+for.chat.command.forestry.tree.mode.set.desc=- %s : 林業モードの設定
+for.chat.command.forestry.tree.mode.set.help=ワールドの林業モードを設定する。
+for.chat.command.forestry.tree.mode.set.format=形式: /%s [<world-#>] <mode-name>
+
+for.chat.command.forestry.tree.save.desc=- %s : 林業の統計の保存
+for.chat.command.forestry.tree.save.help=ファイルに林業の統計情報を保存する。
+for.chat.command.forestry.tree.save.format=形式: /%s [<player-name>]
+
+for.chat.command.forestry.tree.save.stats=%2$s時点の%1$sの林業の統計 :
+
+for.description.treeBirch=世界の広域に見られるシラカバの木で、平均樹高は低い。 | 樹木辞典
+for.description.treeCherry=小さな木。自然に生えた木の葉に、時間をかけてサクランボの実が生る。 | 樹木辞典
+for.description.treeChestnut=背が高く、幹が太い落葉樹。育った栗の木には、熟すまでに時間がかかる実が生る。 | 樹木辞典
+for.description.treeLime=背が高い落葉樹。最近、アオイ科に再分類された。 | 樹木辞典
+for.description.treeOak=普遍的な木で、リンゴが生る性質が歌や伝承の元になったと言われている。 | 樹木辞典
+for.description.treeSipiri=背の高い常緑樹で、この木から取れる木材は価値が高い。木や樹皮からは心地よい香りが漂う。熱帯気候でのみ育成する。 | 樹木辞典
+for.description.treeWalnut=背が高く、幹が太い落葉樹。育ったクルミの木には、熟すまでに時間がかかる実が生る。 | 樹木辞典
+for.description.treeWillow=大きな落葉樹。成長速度が早いが、湿地帯以外では成長しない。 | 樹木辞典
+
+for.family.jungle=カカオ豆
+for.family.nuts=ナッツ
+for.family.pomes=リンゴ
+for.family.prunes=スモモ
+
+for.fruits.apple=リンゴ
+for.fruits.cherry=サクランボ
+for.fruits.chestnut=栗
+for.fruits.cocoa=カカオ豆
+for.fruits.dates=デーツ
+for.fruits.lemon=レモン
+for.fruits.none=無し
+for.fruits.papaya=パパイヤ
+for.fruits.plum=スモモ
+for.fruits.walnut=クルミ
+
+for.gui.family=果物タイプ
+for.gui.fireproof=耐火性
+for.gui.fruits=果物
+for.gui.girth=太さ
+for.gui.growth=必要環境
+for.gui.height=高さ
+for.gui.maturity=成長速度
+for.gui.native=最適環境
+for.gui.saplings=苗木ドロップ率
+for.gui.sappiness=樹液量
+for.gui.supports=果樹タイプ
+for.gui.tolerated=育成可能環境
+for.gui.treealyzer.help=苗木をセットし、ハチミツかハニーデューを供給してください。
+for.gui.treealyzer=苗木分析機
+for.gui.yield=果実収穫量
+
+for.growth.normal=光
+for.growth.tropical=熱帯
+
+for.trees.grammar.blossom.type=花
+for.trees.grammar.blossom=%SPECIESの%TYPE
+for.trees.grammar.germling.type=繁殖
+for.trees.grammar.germling=%SPECIESの%TYPE
+for.trees.grammar.pollen.type=花粉
+for.trees.grammar.pollen=%SPECIESの%TYPE
+for.trees.grammar.sapling.type=苗木
+for.trees.grammar.sapling=%SPECIESの%TYPE
+for.trees.grammar.leaves.type=葉
+for.trees.grammar.leaves=%SPECIESの%TYPE
+
+for.trees.hybrid=%PRIMARYと%SECONDARYの雑種
+
+for.trees.species.acacia=アカシア
+for.trees.species.appleOak=アップルオーク
+for.trees.species.balsa=バルサ
+for.trees.species.blueMahoe=ブルーマホー
+for.trees.species.bullPine=サビンマツ
+for.trees.species.coastSequoia=セコイア
+for.trees.species.commonWalnut=シナノグルミ
+for.trees.species.darkOak=クロガシワ
+for.trees.species.datePalm=ナツメヤシ
+for.trees.species.desertAcacia=キャメルソーン
+for.trees.species.giantSequoia=セコイアオスギ
+for.trees.species.grandidierBaobab=アフリカバオバブ
+for.trees.species.hillCherry=サトザクラ
+for.trees.species.jungle=ジャングル
+for.trees.species.kapok=カポック
+for.trees.species.lemon=レモン
+for.trees.species.mundaneLarch=ヨーロッパカラマツ
+for.trees.species.myrtleEbony=マートルエボニー
+for.trees.species.papaya=パパイヤ
+for.trees.species.plum=セイヨウスモモ
+for.trees.species.redSpruce=ドイツトウヒ
+for.trees.species.silverBirch=ヨーロッパシラカンバ
+for.trees.species.silverLime=シルバーライム
+for.trees.species.sipiri=グリーンハート
+for.trees.species.sugarMaple=サトウカエデ
+for.trees.species.sweetChestnut=ヨーロッパグリ
+for.trees.species.teak=チーク
+for.trees.species.wenge=ウエンジ
+for.trees.species.whitePoplar=ギンドロ
+for.trees.species.whiteWillow=セイヨウシロヤナギ
+for.trees.species.yellowMeranti=セランガンクニン
+for.trees.species.ipe=パウドアルコアマレロ
+for.trees.species.padauk=アフリカンパドウク
+for.trees.species.cocobolo=ココボロ
+for.trees.species.zebrawood=ムイラカチアラ
+
+for.fences.grammar=%TYPEのフェンス
+for.log.grammar=%TYPEの原木
+for.planks.grammar=%TYPEの木材
+for.slab.grammar=%TYPEの木材ハーフブロック
+for.stairs.grammar=%TYPEの木材の階段
+
+for.trees.woodType.larch=カラマツ
+for.trees.woodType.teak=チーク
+for.trees.woodType.acacia=キャメルソーン
+for.trees.woodType.lime=ライム
+for.trees.woodType.chestnut=クリ
+for.trees.woodType.wenge=ウエンジ
+for.trees.woodType.baobab=バオバブ
+for.trees.woodType.sequoia=セコイア
+for.trees.woodType.kapok=カポック
+for.trees.woodType.ebony=コクタン
+for.trees.woodType.mahogany=マホガニー
+for.trees.woodType.balsa=バルサ
+for.trees.woodType.willow=ヤナギ
+for.trees.woodType.walnut=クルミ
+for.trees.woodType.greenheart=グリーンハート
+for.trees.woodType.cherry=サトザクラ
+for.trees.woodType.mahoe=マホー
+for.trees.woodType.poplar=ポプラ
+for.trees.woodType.palm=ヤシ
+for.trees.woodType.papaya=パパイヤ
+for.trees.woodType.pine=アカマツ
+for.trees.woodType.plum=スモモ
+for.trees.woodType.maple=カエデ
+for.trees.woodType.citrus=シトラス
+for.trees.woodType.giganteum=セコイアオスギ
+for.trees.woodType.ipe=イペ
+for.trees.woodType.padauk=パドウク
+for.trees.woodType.cocobolo=ココボロ
+for.trees.woodType.zebrawood=ムイラカチアラ
+
+tile.for.fireproof=%s (耐火)
+
+item.for.grafter.name=接木小刀
+item.for.grafterProven.name=秘伝の接木小刀
+
+tile.for.arboriculture.0.name=樹医のチェスト
+
+tile.for.saplingGE.0.name=苗木
+tile.for.leaves.0.name=葉
+tile.for.pods.0.name=さや
+
+####################
+# FARMING
+####################
+
+for.circuit.managedArboreal=樹木園
+for.circuit.managedCereal=穀物農園
+for.circuit.managedInfernal=地獄農園
+for.circuit.managedPeat=泥炭地
+for.circuit.managedShroom=キノコ農園
+for.circuit.managedVegetable=野菜農園
+for.circuit.managedEnder=エンダー農園
+for.circuit.manualCereal=バニラ作物農園
+for.circuit.manualCocoa=カカオ農園
+for.circuit.manualGourd=ウリ科農園
+for.circuit.manualOrchard=果樹園
+for.circuit.manualPeat=泥炭地
+for.circuit.manualPoales=キビ農園
+for.circuit.manualRubber=ゴム農園
+for.circuit.manualShroom=キノコ農園
+for.circuit.manualSucculent=サボテン農園
+for.circuit.manualVegetable=野菜農園
+for.circuit.manualIC2Crop=IC2作物農園
+
+for.gui.farm.title=マルチファーム
+for.gui.hydr.heat=温度による影響
+for.gui.hydr.humid=湿度による影響
+for.gui.hydr.overall=全体
+for.gui.hydr.rainfall=降水量による影響
+for.gui.hydration=必要な水分量
+
+for.hints.circuitboard.desc=はんだごてを使って、マルチファームに好きな農場を設定することができます。
+for.hints.circuitboard.tag=農場の設定をしよう！
+for.hints.farmgui.desc=右上のインベントリの左側に土壌を、右側に種や苗木を入れることができます。
+for.hints.farmgui.tag=土は左、種は右！
+for.hints.farmland.desc=滑らかな砂岩やレンガ、石レンガをマルチファームの構築に使用することができます。
+for.hints.farmland.tag=農場を構築しよう！
+for.hints.fertilizer.desc=全ての農場には無機肥料が必要になります。堆肥やマルチでは不十分です。
+for.hints.fertilizer.tag=無機肥料が必要！
+for.hints.gearbox.desc=ギアボックスは、エンジンやケーブルから動力を受け取ることができます。
+for.hints.gearbox.tag=電気を送ろう！
+for.hints.hatch.desc=ハッチはパイプや導管と繋がり、搬入出を自動化できます。
+for.hints.hatch.tag=ハッチをつけよう！
+for.hints.manualfarms.desc=自動農場とは別に、土壌や作物を設置せずに維持のみを行う手動農場があります。
+for.hints.manualfarms.tag=手動農場！
+for.hints.valve.desc=全ての農場には水が必要になります。バルブから水を搬入することができます。
+for.hints.valve.tag=水を供給！
+
+for.trigger.lowFertilizer=無機肥料
+for.trigger.lowLiquid=水タンク
+for.trigger.lowSoil=土壌
+
+tile.for.ffarm.0.name=ファームブロック
+tile.for.ffarm.2.name=ファームギアボックス
+tile.for.ffarm.3.name=ファームハッチ
+tile.for.ffarm.4.name=ファームバルブ
+tile.for.ffarm.5.name=ファームコントロール
+
+tile.for.mushroom.0.name=キノコ
+tile.for.mushroom.1.name=キノコ
+
+####################
+# LEPIDOPTEROLOGY
+####################
+
+entity.Forestry.butterflyGE.name=Butterfly
+
+for.chat.command.forestry.butterfly.desc=- %s : 鱗翅類学用コマンド
+for.chat.command.forestry.butterfly.help=鱗翅類学に関連したコマンド。
+for.chat.command.forestry.butterfly.format=形式: /%s <sub-command>
+
+for.chat.command.forestry.butterfly.kill.desc=- %s : 全ての蝶を殺す
+for.chat.command.forestry.butterfly.kill.help=読み込み中のチャンク内にいる全ての蝶をキルする。
+for.chat.command.forestry.butterfly.kill.format=形式: /%s [<dimension#>]
+
+for.butterflies.hybrid=%PRIMARYと%SECONDARYの雑種
+
+for.butterflies.species.geometridae.brimstone=シャクガ
+for.butterflies.species.geometridae.latticeHeath=ヒメアミメエダシャク
+for.butterflies.species.nymphalidae.blueDuke=ドゥルガイナズマ
+for.butterflies.species.nymphalidae.blueMorphoM=メネラウスモルフォ
+for.butterflies.species.nymphalidae.blueMorphoP=ペレイデスモルフォ
+for.butterflies.species.nymphalidae.blueMorphoR=レテノールモルフォ
+for.butterflies.species.nymphalidae.blueWing=ルリツヤタテハ
+for.butterflies.species.nymphalidae.comma=シータテハ
+for.butterflies.species.nymphalidae.dianaFritillary=ダイアナヒョウモン
+for.butterflies.species.nymphalidae.glasswing=ツマジロスカシマダラ
+for.butterflies.species.nymphalidae.glassyTiger=ヒメアサギマダラ
+for.butterflies.species.nymphalidae.leopardLacewing=キベニハレギチョウ
+for.butterflies.species.nymphalidae.malachite=ミドリタテハ
+for.butterflies.species.nymphalidae.monarch=オオカバマダラ
+for.butterflies.species.nymphalidae.paintedBeauty=ベーツタテハ
+for.butterflies.species.nymphalidae.postman=メルポメネドクチョウ
+for.butterflies.species.nymphalidae.speckledWood=キマダラジャノメ
+for.butterflies.species.nymphalidae.speckledWoodC=カナリアキマダラジャノメ
+for.butterflies.species.nymphalidae.speckledWoodM=マデイラキマダラジャノメ
+for.butterflies.species.papilionidae.emeraldPeacock=オビクジャクアゲハ
+for.butterflies.species.papilionidae.swallowtailB=メスクロキアゲハ
+for.butterflies.species.papilionidae.swallowtailC=アフリカオナシアゲハ
+for.butterflies.species.papilionidae.swallowtailS=クスノキアゲハ
+for.butterflies.species.papilionidae.swallowtailT=タスキアゲハ
+for.butterflies.species.papilionidae.swallowtailZ=トラフタイマイ
+for.butterflies.species.pieridae.brimstone=ヤマキチョウ
+for.butterflies.species.pieridae.cabbageWhite=モンシロチョウ
+for.butterflies.species.pieridae.gozoraAzure=メキシコルリシジミ
+for.butterflies.species.pieridae.orangeTip=クモマツマキチョウ
+for.butterflies.species.pieridae.palaenoSulphur=ミヤマモンキチョウ
+for.butterflies.species.pieridae.postillion=ダイダイモンキチョウ
+for.butterflies.species.pieridae.reseda=チョウセンシロチョウ
+for.butterflies.species.pieridae.springAzure=ルリシジミ
+for.butterflies.species.saturniidae.atlas=ヨナグニサン
+
+for.gui.flutterlyzer=蝶分析機
+for.gui.flutterlyzer.help=蝶をセットし、ハチミツかハニーデューを供給してください。
+for.gui.loot.butterfly=成虫のドロップ品
+for.gui.loot.caterpillar=幼虫のドロップ品
+
+for.lepidopterology.effect.none=なし
+
+item.for.butterfly.name=蝶
+item.for.flutterlyzer.name=蝶分析機
+item.for.lepidopteristBag.name=鱗翅類学者のバックパック
+item.for.moth.name=蛾
+tile.for.lepidopterology.0.name=鱗翅類学者のチェスト
+
+####################
+# MAIL
+####################
+
+for.chat.mail.already_mailed=郵便物の再発送はできません。
+
+for.chat.command.forestry.mail.desc=- %s : 郵便システム用コマンド
+for.chat.command.forestry.mail.help=郵便システムに関連したコマンド。
+for.chat.command.forestry.mail.format=形式: /%s <sub-command>
+
+for.chat.command.forestry.mail.trades.desc=- %s : 全ての交易ステーションの一覧
+for.chat.command.forestry.mail.trades.help=全ての交易ステーションと利用可能な交易の一覧を表示。
+for.chat.command.forestry.mail.trades.format=形式: /%s
+
+for.chat.command.forestry.mail.virtualize.desc=- %s : 指定した交易ステーションの仮想モードを切り替え
+for.chat.command.forestry.mail.virtualize.help=指定した交易ステーションの仮想モードを切り替える。仮想モードの場合はアイテムを消費しない。
+for.chat.command.forestry.mail.virtualize.format=形式: /%s <trade-station-name>
+for.chat.command.forestry.mail.virtualize.no_tradestation=「%s」という名前の交易ステーションは見つかりませんでした。
+for.chat.command.forestry.mail.virtualize.set=「%s」の仮想モードを%sに変更しました。
+
+for.chat.mail.insufficient_buffer=交易ステーションが満杯です。
+for.chat.mail.insufficient_offer=交易ステーションが支払われたものの回収を求めています。
+for.chat.mail.insufficient_paper=交易ステーションの紙が不足しています。
+for.chat.mail.insufficient_stamps=交易ステーションの切手が不足しています。
+for.chat.mail.insufficient_trade_good=交易ステーションの在庫が不足しています。
+for.chat.mail.mailbox_full=受取人の郵便箱が満杯です。
+for.chat.mail.not_mailable=手紙の送信ができません。
+for.chat.mail.not_postpaid=手紙の切手が足りません。
+for.chat.mail.no_mailbox=受取人の郵便箱が存在しません。
+for.chat.mail.ok=交易が可能です。
+for.chat.mail.response_not_mailable=交易ステーションがあなたに返信できませんでした。あなたの郵便箱が必要です。
+for.chat.mail.wrongstacksize=一度に書ける手紙は1枚です。
+
+for.gui.mail.address.copy=利用
+for.gui.mail.catalogue.close=閉じる
+for.gui.mail.catalogue.trade=交易
+for.gui.mail.filter.all=全て
+for.gui.mail.filter.offline=オフライン
+for.gui.mail.filter.online=オンライン
+for.gui.mail.notrades=利用できる交易がありません。
+for.gui.mail.tradefor=for
+for.gui.mail.willtrade=%sが交易を希望中
+
+item.for.catalogue.name=交易カタログ
+
+####################
+# PIPES
+####################
+
+item.PipeItemsPropolis.name=Apiarist's Pipe
+
+####################
+# PLUGINS
+####################
+for.plugin.core.description=Forestryの基本的な機能。他の全てのプラグインに必要。
+for.plugin.fluids.description=液体、液体ブロック、液体の容器を追加。
+for.plugin.apiculture.description=蜂、養蜂、蜂の生産物を追加。ワールド生成に影響する。
+for.plugin.arboriculture.description=樹木の種と生産物を追加。
+for.plugin.energy.description=いくつかのRFエンジンを追加。
+for.plugin.factory.description=クラフト、生産、生産物の加工などを行う多種多様な機械を追加。
+for.plugin.farming.description=多種多様な作物を生産できる自動農場と収穫機を追加。
+for.plugin.food.description=食料を追加。
+for.plugin.lepidopterology.description=美しい蝶たち。
+for.plugin.mail.description=Forestryの郵便、交易システムを追加。
+for.plugin.storage.description=バックパックと箱詰めを追加。
+
+for.plugin.buildcraft6.description=BuildCraft 6との連携要素を追加。
+for.plugin.pipes.description=Adds the apiarist's pipe for beekeeping if apiculture is enabled and BuildCraft 6 is present.
+for.plugin.ic2.description=IC2との連携要素を追加。電力変換用に電気エンジンと発電機を追加する。
+for.plugin.natura.description=Naturaとの連携要素を追加。Naturaの樹木を農場で生産できる。
+for.plugin.ee2.description=Equivalent Exchange 2との連携要素を追加。最後種の蜂を追加する。養蜂要素を有効にする必要がある。
+for.plugin.ee3.description=Equivalent Exchange 3との連携要素を追加。
+for.plugin.farmcraftory.description=FarmCraftoryとの連携要素を追加。作物を農場で生産できる。
+for.plugin.biomesoplenty.description=Biomes O Plentyとの連携要素を追加。BoPの樹木を農場で生産できる。
+for.plugin.extrautilities.description=Extra Utilitiesとの連携要素を追加。エンダーリリーを農場で生産できる。
+for.plugin.harvestcraft.description=HarvestCraftとの連携要素を追加。HarvestCraftの作物、樹木を農場で生産できる。
+for.plugin.magicalcrops.description=Magical Cropsとの連携要素を追加。
+for.plugin.chisel.description=Chiselとの連携要素を追加。自然生成されるブロックをバックパックに収納できる。
+for.plugin.plantmegapack.description=Plant Mega Packとの連携要素を追加。
+for.plugin.witchery.description=Witcheryとの連携要素を追加。
+for.plugin.agricraft.description=AgriCraftとの連携要素を追加。
+for.plugin.enderIO.description=EnderIOとの連携要素を追加。
+for.plugin.immersiveengineering.description=Immersive Engineeringとの連携要素を追加。
+for.plugin.growthcraft.description=GrowthCraftとの連携要素を追加。
+for.plugin.erebus.description=Erebusとの連携要素を追加。
+for.plugin.rotarycraft.description=RotaryCraftとの連携要素を追加。
+for.plugin.minefactoryreloaded.description=MineFactoryReloadedとの連携要素を追加。
+
+####################
+# CONFIG FILES
+####################
+
+for.config.performance=パフォーマンス
+for.config.performance.particleFX=パーティクルエフェクト
+for.config.performance.particleFX.comment=パーティクルエフェクトを有効にします。 Forestryは、Minecraftのビデオ設定におけるパーティクルの設定を尊重していることに注意してください。
+for.config.performance.backpacks.resupply=バックパックからの補給
+for.config.performance.backpacks.resupply.comment=バックパック内からの補給を有効にします。 大規模なサーバーでは、これをfalseにすることをお勧めします。
+
+for.config.world.generate=ワールド生成
+
+for.config.world.generate.retrogen.normal=再生成
+for.config.world.generate.retrogen.normal.comment=Modが追加される前に生成されたチャンクで、Forestryのワールド生成を行います。
+for.config.world.generate.retrogen.forced=強制的に再生成
+for.config.world.generate.retrogen.forced.comment=以前に生成されたチャンクを含む、全てのチャンクでForestryのワールド生成を実行します。
+
+for.config.world.generate.ore.apatite=燐灰石の生成
+for.config.world.generate.ore.apatite.comment=ワールドに燐灰石鉱石を生成します。
+for.config.world.generate.ore.copper=銅の生成
+for.config.world.generate.ore.copper.comment=ワールドに銅鉱石を生成します。
+for.config.world.generate.ore.tin=錫の生成
+for.config.world.generate.ore.tin.comment=ワールドに錫鉱石を生成します。
+
+for.config.world.generate.beehives.amount=蜂巣の生成量
+for.config.world.generate.beehives.amount.comment=ワールド内にどのくらい蜂巣が生成されるかを設定します。
+for.config.world.generate.beehives.debug=蜂巣のデバッグ生成
+for.config.world.generate.beehives.debug.comment=生成可能なすべての場所に蜂巣を生成します。(これはあなたのワールドを破損させるでしょう。 開発者だけに役立ちます。)
+
+for.config.world.generate.villagers=村人の生成
+for.config.world.generate.villagers.comment=Forestryの村人と彼らの家を生成します。
+
+for.config.crafting=クラフト
+for.config.crafting.bronze=青銅のクラフト
+for.config.crafting.bronze.comment=青銅のレシピを有効にします。
+for.config.crafting.stamps.enabled=切手のクラフト
+for.config.crafting.stamps.enabled.comment=切手のレシピを有効にします。切手を通貨として使用することができなくなります。
+for.config.crafting.stamps.disabled=切手を無効化
+for.config.crafting.stamps.disabled.comment=切手のレシピを無効にします。
+
+for.config.tweaks=調整
+
+for.config.tweaks.gui.mail.alert.enabled=郵便の通知
+for.config.tweaks.gui.mail.alert.enabled.comment=新しい郵便物の通知表示を有効にします。
+for.config.tweaks.gui.mail.alert.xPosition=通知の水平位置
+for.config.tweaks.gui.mail.alert.xPosition.comment=画面上の郵便通知の水平位置を設定します。
+for.config.tweaks.gui.mail.alert.yPosition=垂直位置
+for.config.tweaks.gui.mail.alert.yPosition.comment=画面上の郵便通知の垂直位置を設定します。
+
+for.config.tweaks.gui.tabs.hints=ヒント
+for.config.tweaks.gui.tabs.hints.comment=機械やエンジンのGUIにヒントを表示します。
+for.config.tweaks.gui.tabs.speed=タブの速度
+for.config.tweaks.gui.tabs.speed.comment=GUIの左右のタブが開閉する速度を設定します。
+for.config.tweaks.gui.tabs.energy=エネルギータブ
+for.config.tweaks.gui.tabs.energy.comment=エネルギーを使用する機械に現在のエネルギー情報のタブを表示します。
+
+for.config.tweaks.gui.tooltip.liquidamount=液体ツールチップ
+for.config.tweaks.gui.tooltip.liquidamount.comment=タンクのツールチップに液体残量を表示します。
+
+for.config.tweaks.permissions=権限
+for.config.tweaks.permissions.comment=Forestryの機械にアクセス権限機能を追加します。
+for.config.tweaks.version.check=バージョン確認
+for.config.tweaks.version.check.comment=更新、バージョン確認の通知を有効にします。
+
+for.config.tweaks.farms.size=マルチファームの大きさ
+for.config.tweaks.farms.size.comment=マルチファームの大きさの乗数を設定します。
+for.config.tweaks.farms.square=四角いマルチファーム
+for.config.tweaks.farms.square.comment=マルチファームの形状がひし形ではなく正方形になります。
+for.config.tweaks.farms.enderlily=エンダーリリーの生産
+for.config.tweaks.farms.enderlily.comment=ExtraUtilitiesのエンダーリリーを農場で生産できるようにします。
+for.config.tweaks.farms.magicalcrops=Magical Cropsの作物の生産
+for.config.tweaks.farms.magicalcrops.comment=Magical Cropsの作物を農場で生産できるようにします。
+
+for.config.genetics=遺伝子要素
+for.config.genetics.clear.invalid.chromosomes=無効な遺伝子を含むアイテムの削除
+for.config.genetics.clear.invalid.chromosomes.comment=無効な遺伝子を含むアイテムを削除します。養蜂のアドオンを抜いた後にクラッシュした場合、これを有効にすることでデータを復元できる可能性があります。
+for.config.genetics.pollinate.vanilla.trees=バニラの樹木への受粉
+for.config.genetics.pollinate.vanilla.trees.comment=蜂、蝶、プレイヤーがバニラの葉に受粉できるようになります。 無効にした場合、バニラの樹木に受粉を行う場合は分析が必要になります。
+for.config.genetics.research.boost.multiplier=研究による突然変異の乗数
+for.config.genetics.research.boost.multiplier.comment=書き物机で研究に成功した場合に増加する突然変異の確率の乗数を設定します。
+for.config.genetics.research.boost.max.percent=研究で得られる突然変異率の最大値
+for.config.genetics.research.boost.max.percent.comment=書き物机で調査したことで適用できる、突然変異確率の最大上昇値です。
+
+for.config.difficulty=難易度
+for.config.difficulty.game.mode=ゲームモード
+for.config.difficulty.game.mode.comment=お好みのゲームモードに設定してください。 サーバーと設定が一致しない場合、レシピなどに視覚的な不具合が発生する可能性があります。
+for.config.difficulty.recreate.definitions=定義の再生成
+for.config.difficulty.recreate.definitions.comment=config/forestry/gamemodesによる、ゲームモードの再生成を強制します。
+for.config.difficulty.loot.rare=レアな戦利品
+for.config.difficulty.loot.rare.comment=Forestryによって生成されるダンジョンの戦利品がよりレアなものになります。
+
+for.config.structures=構造物
+for.config.structures.disabled=構造物を無効化
+for.config.structures.disabled.comment=無効化させる構造物の一覧です。
+
+for.config.fluids=液体
+for.config.fluids.enable.format=%sの液体を有効にします。
+for.config.fluid.blocks=液体ブロック
+for.config.fluid.blocks.enable.format=%sの液体ブロックを有効にします。
+
+for.config.debug.enabled=デバッグモード
+for.config.debug.enabled.comment=デバッグモードを有効にします。 (開発者だけに役立ちます。)
+
+for.config.beekeeping.mode=養蜂モード
+for.config.beekeeping.mode.comment=養蜂モードを変更します。
+for.config.beekeeping.second.princess=2匹目の王女蜂の発生確率
+for.config.beekeeping.second.princess.comment=2匹目の王女蜂が発生する確率を設定します。Skyblock系のマップ用です。
+for.config.beekeeping.flowers.accepted=活動可能な花
+for.config.beekeeping.flowers.accepted.comment=蜂が花として認識できるブロックを設定します。書式は「'modid:name:meta'」であり、1行に1つとなっています。 ワイルドカード、メタデータの書式は、「'modid:name'」です。
+for.config.beekeeping.flowers.plantable=設置可能な花
+for.config.beekeeping.flowers.plantable.comment=蜂が花として設置する可能性があるブロックを設定します。ここで設定した花は活動可能な花としても認識されます。書式は「'modid:name:meta'」であり、1行に1つとなっています。 ワイルドカード、メタデータの書式は、「'modid:name'」です。
+
+for.config.species.blacklist=種のブラックリスト
+for.config.species.blacklist.comment=種をブラックリストに設定します。1行に1つuidを入力してください。
+
+for.config.butterfly.entities.spawn.limit=蝶の発生制限
+for.config.butterfly.entities.spawn.limit.comment=蝶がこの数に達すると、自然発生が停止します。
+for.config.butterfly.entities.maximum=蝶の最大数
+for.config.butterfly.entities.maximum.comment=蝶がこの数に達すると、新しい蝶はアイテムのままになり、羽ばたくことはありません。
+for.config.butterfly.entities.pollination=蝶による受粉
+for.config.butterfly.entities.pollination.comment=蝶が葉に受粉を行うようになります。
+
+for.config.backpacks.item.stacks.format=%sのバックパックに収納できるアイテムを設定します。書式は「'modid:name:meta'」であり、1行に1つとなっています。 ワイルドカード、メタデータの書式は、「'modid:name'」です。
+for.config.backpacks.ore.dict.format=%sのバックパックに収納できる鉱石辞書を設定します。書式は「 '鉱石辞書名'.」です。
+
+for.config.gamemode=ゲームモード
+
+for.config.gamemode.energy.demand.modifier.comment=機械を動作させるのに必要なエネルギーと、保持できるエネルギー量を変更します。
+for.config.gamemode.farms.fertilizer.value.comment=マルチファームの肥料の持続時間を変更します。
+
+for.config.gamemode.fuel.ethanol.generator.comment=バイオ発電機がエタノールから生成できるエネルギー量を変更します。
+for.config.gamemode.fuel.ethanol.combustion.comment=modifies the energy provided by ethanol in Buildcraft Combustion Engines.
+for.config.gamemode.fuel.biomass.generator.comment=バイオ発電機がバイオマスから生成できるエネルギー量を変更します。
+for.config.gamemode.fuel.biomass.biogas.comment=バイオガスエンジンがバイオマスから生成できるエネルギー量を変更します。
+
+for.config.gamemode.recipe.output.fertilizer.apatite.comment=燐灰石から作成できる無機肥料の数を設定します。
+for.config.gamemode.recipe.output.fertilizer.ash.comment=灰から作成できる無機肥料の数を設定します。
+for.config.gamemode.recipe.output.compost.wheat.comment=小麦から作成できる堆肥の数を設定します。
+for.config.gamemode.recipe.output.compost.ash.comment=灰から作成できる堆肥の数を設定します。
+for.config.gamemode.recipe.output.humus.fertilizer.comment=無機肥料から作成できる腐葉土の数を設定します。
+for.config.gamemode.recipe.output.humus.compost.comment=堆肥から作成できる腐葉土の数を設定します。
+for.config.gamemode.recipe.output.bogearth.bucket.comment=バケツから作成できる泥土の数を設定します。
+for.config.gamemode.recipe.output.bogearth.can.comment=缶、セル、カプセルから作成できる泥土の数を設定します。
+for.config.gamemode.recipe.output.can.comment=缶の作成数を設定します。
+for.config.gamemode.recipe.output.capsule.comment=蜜蝋製カプセルの作成数を設定します。
+for.config.gamemode.recipe.output.refractory.comment=耐熱性カプセルの作成数を設定します。
+
+for.config.gamemode.fermenter.cycles.fertilizer.comment=無機肥料がバイオマス発酵槽を稼働させられるサイクル数を設定します。
+for.config.gamemode.fermenter.cycles.compost.comment=堆肥がバイオマス発酵槽を稼働させられるサイクル数を設定します。
+for.config.gamemode.fermenter.value.fertilizer.comment=無機肥料をバイオマス発酵槽に使用するときの1サイクル分のバイオマスの生産量を設定します。
+for.config.gamemode.fermenter.value.compost.comment=堆肥をバイオマス発酵槽に使用するときの1サイクル分のバイオマスの生産量を設定します。
+for.config.gamemode.fermenter.yield.sapling.comment=樹液量のデータを持つ苗木をバイオマス発酵槽に使用するときのバイオマスの基本生産量を設定します。
+for.config.gamemode.fermenter.yield.cactus.comment=バイオマス発酵槽にサボテンを入れたときのバイオマスの生産量を設定します。
+for.config.gamemode.fermenter.yield.wheat.comment=バイオマス発酵槽に小麦を入れたときのバイオマスの生産量を設定します。
+for.config.gamemode.fermenter.yield.cane.comment=バイオマス発酵槽にサトウキビを入れたときのバイオマスの生産量を設定します。
+for.config.gamemode.fermenter.yield.mushroom.comment=バイオマス発酵槽にキノコを入れたときのバイオマスの生産量を設定します。
+
+for.config.gamemode.squeezer.liquid.seed.comment=種から搾り取れる種油の量を設定します。 他の素材からの生産量もこの値に基づいて設定されます。
+for.config.gamemode.squeezer.liquid.apple.comment=リンゴから搾り取れるジュースの量を設定します。 他の素材からの生産量もこの値に基づいて設定されます。
+for.config.gamemode.squeezer.mulch.apple.comment=リンゴを搾り取ったときにマルチが出る確率を設定します。 
+
+for.config.gamemode.energy.engine.clockwork.comment=時計仕掛けのエンジンを有効にします。
+
+###################################
+# CUSTOM BEE AND TREE SPECIES NAMES
+###################################
+# Syntax:
+# for.bees.custom.<type>.<species>=New custom bee name
+# for.trees.custom.<type>.<species>=New custom tree name
+# Examples:
+# for.bees.custom.drone.forest=Forest Drone
+# for.trees.custom.pollen.darkOak=New Dark Oak Pollen Name
+# Beealyzer/Treealyzer syntax:
+# for.bees.custom.beealyzer.<type>.<species>=New custom bee species name
+# for.trees.custom.treealyzer.<type>.<species>=New custom tree species name
+# Examples:
+# for.bees.custom.beealyzer.drone.forest=New Forest drone species name when used in a beealyzer
+# for.trees.custom.treealyzer.pollen.darkOak=New Dark Oak pollen species name when used in a treealyzer
+
+###################################
+# CUSTOM ALLELE ADJECTIVES
+###################################
+# Replaces forestry.allele.<adjective>
+#
+# Syntax:
+# forestry.allele.<category>.<adjective>=New custom adjective
+#
+# Available categories and [adjectives]:
+# speed: 		[slowest, slower, slow, normal, fast, faster, fastest]
+# maturation: 	[slowest, slower, slow, normal, fast, faster, fastest]
+# flowering:	[slowest, slower, slow, normal, fast, faster, fastest, maximum]
+#
+# size: 		[smallest, smaller, average, large, larger, largest]
+# height: 		[smallest, smaller, average, large, larger, largest, gigantic]
+# territory:	[average, large, larger, largest]
+#
+# saplings: 	[lowest, lower, low, average, high, higher, highest]
+# yield: 		[lowest, lower, low, average, high, higher, highest]
+# sappiness:	[lowest, lower, low, average, high, higher, highest]
+#
+# Examples:
+# forestry.allele.speed.slowest=New custom adjective for slowest worker speed, replacing forestry.allele.slowest
+# forestry.allele.flowering.slowest=New custom adjective for slowest flower pollination, replacing forestry.allele.slowest
+# forestry.allele.yield.low=New custom adjective for low yield, replacing forestry.allele.low
+
+###################################
+# CUSTOM TOOLTIPS
+###################################
+# Available custom tooltips:
+# for.tooltip.worker.<speed adjective> for bee worker speed.
+#
+# Example:
+# for.tooltip.worker.slowest=Slowest Worker
+
+###################################
+# CUSTOM WOOD NAMES
+###################################
+#
+# Examples:
+# tile.for.stairs.4.name=Chestnut Stairs
+# tile.for.planks.8.name=Kapok Wood Planks
+# tile.for.slab.5.name=Wenge Wood Slab
+# tile.for.log.10.name=Mahogany Wood
+# tile.for.fences.0.name=Larch Fence
+
+####################
+# NEI Categories
+####################
+
+nei.subsets.Forestry=Forestry
+nei.subsets.Forestry.Bees=Bees
+nei.subsets.Forestry.Bees.Combs=Combs
+nei.subsets.Forestry.Bees.Drones=Drones
+nei.subsets.Forestry.Bees.Princesses=Princesses
+nei.subsets.Forestry.Bees.Queens=Queens
+nei.subsets.Forestry.Blocks=Blocks
+nei.subsets.Forestry.Butterflies=Butterflies
+nei.subsets.Forestry.Butterflies.Butterflies=Butterflies
+nei.subsets.Forestry.Butterflies.Caterpillars=Caterpillars
+nei.subsets.Forestry.Butterflies.Serums=Serums
+nei.subsets.Forestry.Items=Items
+nei.subsets.Forestry.Trees=Trees
+nei.subsets.Forestry.Trees.Pollen=Pollen
+nei.subsets.Forestry.Trees.Saplings=Saplings

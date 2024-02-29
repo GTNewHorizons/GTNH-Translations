@@ -1,0 +1,99 @@
+#This file is a translation file for Mobs Info
+
+#NEI
+mobsinfo.mobhandler.normal_drops=通常のドロップ品
+mobsinfo.mobhandler.rare_drops=レアドロップ品
+mobsinfo.mobhandler.additional_drops=装備品のドロップ品
+mobsinfo.mobhandler.infernal_drops=インファーナルのドロップ品
+mobsinfo.mobhandler.infernal_cannot=インファーナル無し
+mobsinfo.mobhandler.infernal_can=インファーナルあり
+mobsinfo.mobhandler.infernal_always=必ずインファーナル
+mobsinfo.mobhandler.mod=Mod : 
+mobsinfo.mobhandler.max_health=最大体力 : 
+mobsinfo.mobhandler.boss=ボス
+mobsinfo.mobhandler.cannot_use_vial=魂の小瓶に入らない
+mobsinfo.mobhandler.chance=ドロップ率 : %.2f%%
+mobsinfo.mobhandler.average_reminder=§7§oこれは平均的なドロップ率です
+mobsinfo.mobhandler.lootable=ドロップ増加で増える
+mobsinfo.mobhandler.player_only=§7プレイヤーが倒したときのみ
+mobsinfo.mobhandler.peaceful_allowed=ピースフルでスポーン
+mobsinfo.mobhandler.locked=情報を開放するには
+mobsinfo.mobhandler.locked_1=このMobを倒してください！
+mobsinfo.mobhandler.unlocked=§6新たなMobの情報が開放された！
+mobsinfo.mobhandler.extended_info=ドロップ率は、すべての可能性に基づいた平均で
+mobsinfo.mobhandler.extended_info_1=あることに注意してください。つまり、100％と
+mobsinfo.mobhandler.extended_info_2=表示されていても、必ず1つドロップする訳では
+mobsinfo.mobhandler.extended_info_3=無いということです。例えば、あるアイテムを0個、
+mobsinfo.mobhandler.extended_info_4=1個、2個落とす確率がすべて同じなとき、平均を
+mobsinfo.mobhandler.extended_info_5=取って(100%)と表示される場合があります。
+mobsinfo.mobhandler.spawns_everywhere=Spawns everywhere
+mobsinfo.mobhandler.spawns_in=Spawns in %d places...
+mobsinfo.mobhandler.spawns_not_in=Spawns everywhere but %d places...
+
+mobsinfo.mobhandlerinfernal.title=Infernal Mobs - ドロップ表
+mobsinfo.mobhandlerinfernal.format=形式 :
+mobsinfo.mobhandlerinfernal.format_1=ドロップ表名 - x% (y%)
+mobsinfo.mobhandlerinfernal.format_2=x - ドロップ率
+mobsinfo.mobhandlerinfernal.format_3=y - 必ずインファーナルに
+mobsinfo.mobhandlerinfernal.format_4=なるMobからのドロップ率
+mobsinfo.mobhandlerinfernal.elite=レア - %.2f%% (%.2f%%)
+mobsinfo.mobhandlerinfernal.ultra=ウルトラ - %.3f%% (%.2f%%)
+mobsinfo.mobhandlerinfernal.inferno=インファーナル - %.3f%% (%.3f%%)
+mobsinfo.mobhandlerinfernal.tooltip_chance=ドロップ率 : %.4f%%
+mobsinfo.mobhandlerinfernal.tooltip_chance_always=必ずインファーナルになるMobからのドロップ率 : %.4f%%
+
+#Extras (compatibility)
+mobsinfo.extras.minecraft_slime=スライムが最小サイズのときのみドロップ
+mobsinfo.extras.minecraft_magma_cube=マグマキューブが最小サイズ§lではない§rときにドロップ
+mobsinfo.extras.chance=ドロップ率 : %.2f%%
+mobsinfo.extras.base_chance=通常のドロップ率 : %.2f%%
+mobsinfo.extras.variable_chance=特殊なドロップ率 
+mobsinfo.extras.drops_only_using=%sで倒したときのみドロップ
+mobsinfo.extras.drops_only_in_dimension=%sのディメンション内でのみドロップ
+mobsinfo.extras.drops_only_with_weakness=弱体化の効果が付いているときのみドロップ
+mobsinfo.extras.drops_only_with_weakness_2=レベル2以上の弱体化の効果が付いているときのみドロップ
+mobsinfo.extras.drops_only_with_enchant=%sのエンチャントが付いたアイテムで倒したときのみドロップ
+mobsinfo.extras.each_level_of_gives=%sのレベルごとに%s増加
+mobsinfo.extras.or_biome=%sバイオームで倒したときは%.2f%%
+mobsinfo.extras.or_using=%2$sで倒したときは%1$.2f%%
+
+mobsinfo.extras.avaritia_skull_sword=骸骨焚きの剣で倒したときのみドロップし、他の頭蓋骨のドロップ率は計算されなくなる
+mobsinfo.extras.draconic_evolution_mob_soul=BASED ON REAPER ENCHANT LEVEL - AND WEAPON |
+mobsinfo.extras.draconic_evolution_mob_soul_1=LEVEL | NONE | I | II | III | IV | V
+mobsinfo.extras.draconic_evolution_mob_soul_2=Any/None | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%%
+mobsinfo.extras.draconic_evolution_mob_soul_3=Wyvern Sword/Bow | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%%
+mobsinfo.extras.draconic_evolution_mob_soul_4=Draconic Sword/Bow | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%%
+mobsinfo.extras.draconic_evolution_mob_soul_5=Draconic Staff of Power | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%% | %.2f%%
+mobsinfo.extras.emt_creeper=帯電クリーパーのみドロップ
+mobsinfo.extras.forbidden_magic_non_player=プレイヤー以外のエンティティに倒されたときのみドロップ
+mobsinfo.extras.open_blocks_small_chance=ドロップ率 : 極小
+mobsinfo.extras.tinkers_construct_beheading=Each level of beheading on your weapon gives additional %.2f%%
+mobsinfo.extras.tinkers_construct_beheading_1=If you are using a Cleaver, it gives another %.2f%%
+mobsinfo.extras.witchery_vampire_book=Drops only when player has Vampire book
+mobsinfo.extras.witchery_warewolf=Only when killer is a Warewolf
+mobsinfo.extras.bloodmagic_demon_shards=Drops only when spawned using Demon Portal or hit with dagger of sacrifice
+mobsinfo.extras.bloodmagic_demon_placer=Drops only when NOT spawned using Demon Portal and NOT hit with dagger of sacrifice
+mobsinfo.extras.etfuturum_powered_creeper=帯電クリーパーに爆破されたときのみドロップ
+mobsinfo.extras.etfuturum_wither_rose=ウィザーに倒されたときのみ設置※またはドロップ
+mobsinfo.extras.etfuturum_wither_rose_1=※倒されたMobの位置に設置することが可能なら設置する
+
+#Spawn info
+mobsinfo.spawninfo.biome=Biome: 
+mobsinfo.spawninfo.structure=Structure: 
+mobsinfo.spawninfo.event=Event: 
+
+#Commands
+mobsinfo.commandhandler.invalid=§c使い方が間違っています！正しい使い方は「/%s」です
+mobsinfo.commandhandler.cant_find=§c%sというコマンドは見つかりませんでした
+mobsinfo.commandhandler.generic_help=§c「/mobsinfo help」を実行することで使用可能なコマンドの一覧を表示します
+mobsinfo.commandhandler.usage=<設定>
+mobsinfo.command.help.possible_commands=使用可能なコマンド :
+mobsinfo.command.help.usage=- すべての使用可能なコマンドを表示
+mobsinfo.command.config.invalid_option=§c無効な設定項目です！使用できる項目は以下の通りです : reload
+mobsinfo.command.config.success=§a設定の再読み込みに成功しました！
+mobsinfo.command.config.usage=<設定>
+mobsinfo.command.hidden.usage=<プレイヤー> <unlock/lock/reset/unlockall> [Mob名]
+mobsinfo.command.hidden.invalid_mob=§c無効なMob名です！
+mobsinfo.command.hidden.lock_error=§cMobの情報が開放されていないか、名前が間違っています！
+mobsinfo.command.hidden.success=§a成功！
+mobsinfo.command.hidden.invalid=§c無効な設定項目です！使用できる項目は以下の通りです : %s

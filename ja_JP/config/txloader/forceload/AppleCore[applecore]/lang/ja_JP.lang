@@ -1,0 +1,26 @@
+applecore.commands.hunger.usage=/hunger [プレイヤー] <値>
+applecore.commands.hunger.set.hunger.to=%sの満腹度を%dに設定
+
+applecore.cfg.client=クライアント
+applecore.cfg.server=サーバー
+applecore.cfg.general=概要
+applecore.cfg.exhaustion.sync.threshold=疲労レベルの同期時のしきい値
+applecore.cfg.show.food.values.in.tooltip=ツールチップに食べ物の回復量を表示
+applecore.cfg.show.food.values.in.tooltip.always=常にツールチップに食べ物の回復量を表示
+applecore.cfg.show.saturation.hud.overlay=隠し満腹度を満腹度バーに表示
+applecore.cfg.show.food.values.hud.overlay=食べ物の回復量を満腹度バーに表示
+applecore.cfg.show.food.exhaustion.hud.underlay=疲労レベルを満腹度バーに表示
+applecore.cfg.show.food.stats.in.debug.overlay=デバッグ情報に満腹度の情報を表示
+applecore.cfg.required.mods=必要なMod
+
+applecore.cfg.client.tooltip=クライアント側のみに影響する設定
+applecore.cfg.server.tooltip=サーバー側のみに影響する設定
+applecore.cfg.general.tooltip=サーバー、クライアントのどちらにも影響する設定
+applecore.cfg.exhaustion.sync.threshold.tooltip=サーバーからクライアントに値が同期される前の、サーバー、クライアント間の疲労レベルの差の最大値。この値を大きくすると、送信されるパケットは少なくなるが、クライアント側の疲労レベルの値は不安定になる
+applecore.cfg.show.food.values.in.tooltip.tooltip=有効にすると、SHIFTを押したとき、ツールチップに食べ物の満腹度、隠し満腹度の回復量を表示する
+applecore.cfg.show.food.values.in.tooltip.always.tooltip=有効にすると、常に(SHIFTを押さなくても)ツールチップに食べ物の満腹度、隠し満腹度の回復量を表示する
+applecore.cfg.show.saturation.hud.overlay.tooltip=有効にすると、現在の隠し満腹度を満腹度バーに重ねて表示する
+applecore.cfg.show.food.values.hud.overlay.tooltip=有効にすると、手に持っている食べ物の満腹度(と「隠し満腹度を満腹度バーに表示」を有効にしている場合は隠し満腹度)を満腹度バーに重ねて表示する
+applecore.cfg.show.food.exhaustion.hud.underlay.tooltip=有効にすると、現在の疲労レベルを満腹度バーに重ねて表示する
+applecore.cfg.show.food.stats.in.debug.overlay.tooltip=有効にすると、F3を押した時のデバッグ情報に満腹度、隠し満腹度、疲労レベルを表示する行が追加される
+applecore.cfg.required.mods.tooltip=必要になるModの一覧
