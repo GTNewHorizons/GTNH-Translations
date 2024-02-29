@@ -1,0 +1,49 @@
+name: Ensure Nightly Modpack Build
+description: Ensure Nightly Modpack Build
+inputs:
+  GITHUB_TOKEN:
+    description: secrets.GITHUB_TOKEN
+    required: true
+  dir:
+    description: Directory to download nightly
+    required: true
+  name:
+    description: Name of nightly folder
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Fetch artifact ID
+      id: fetch-artifact-id
+      shell: bash
+      run: |
+        echo "artifact_id=$(gh --repo GTNewHorizons/DreamAssemblerXXL run list \
+          --limit 1 --workflow "Nightly modpack build" --json databaseId --jq '.[].databaseId')" \
+          >> $GITHUB_OUTPUT
+      env:
+        GH_TOKEN: ${{ inputs.GITHUB_TOKEN }}
+    - name: Check nightly cache
+      id: cache-nightly
+      uses: actions/cache@v4
+      with:
+        path: ${{ inputs.dir }}/${{ inputs.name }}
+        key: ${{ steps.fetch-artifact-id.outputs.artifact_id }}
+    - name: Ensure ${{ inputs.dir }}
+      shell: bash
+      run:
+        mkdir ${{ inputs.dir }}
+    - if: steps.cache-nightly.outputs.cache-hit != 'true'
+      shell: bash
+      working-directory: ${{ inputs.dir }}
+      run: |
+        gh --repo GTNewHorizons/DreamAssemblerXXL run download \
+          ${{ steps.fetch-artifact-id.outputs.artifact_id }} \
+          --pattern *-mmcprism-new-java
+        # gh automatically unzips the first layer of the zip, one more zip left
+        cd $(ls | head -1)
+        unzip -o $(ls | head -1) -d ../${{ inputs.name }}-tmp
+        cd ..
+        mv "${{ inputs.name }}-tmp/GT New Horizons nightly" ${{ inputs.name }}
+      env:
+        GH_TOKEN: ${{ inputs.GITHUB_TOKEN }}
