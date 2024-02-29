@@ -1,0 +1,118 @@
+name: Publish nightly lang pack
+
+on:
+  workflow_call:
+    inputs:
+      target_lang:
+        description: "Target language to run"
+        required: true
+        type: string
+  workflow_dispatch:
+    inputs:
+      target_lang:
+        description: "Target language to run"
+        required: true
+        type: choice
+        options:
+          - zh_CN
+          - ja_JP
+          - ko_KR
+          - pt_BR
+          - fr_FR
+
+env:
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+
+jobs:
+  nightly-build:
+    name: Nightly Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get current date
+        id: date
+        shell: bash
+        run: |
+          echo "today=$(date --iso-8601)+${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+      - name: Get project ID
+        id: get-project-id
+        uses: ./.github/actions/get-project-id
+        with:
+          target_lang: ${{ inputs.target_lang }}
+      - name: Checkout miozune/GTNH-translation-compare
+        uses: actions/checkout@v4
+        with:
+          repository: miozune/GTNH-translation-compare
+          ref: main
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+      - name: Checkout Work Repo
+        uses: actions/checkout@v4
+        with:
+          path: repo
+
+      - name: ParaTranz to questbook
+        run: >-
+          poetry run python main.py action paratranz-to-quest-book
+          --repo-path='repo'
+          --subdirectory='${{ inputs.target_lang }}'
+          --commit-message='Update questbook for ${{ inputs.target_lang }}'
+        env:
+          PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
+          TARGET_LANG: ${{ inputs.target_lang }}
+      - name: ParaTranz To mod lang
+        run: >-
+          poetry run python main.py action paratranz-to-lang-and-zs
+          --repo-path='repo'
+          --subdirectory='${{ inputs.target_lang }}'
+          --commit-message='Update mod lang for ${{ inputs.target_lang }}'
+        env:
+          PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
+          TARGET_LANG: ${{ inputs.target_lang }}
+      - name: ParaTranz to GT lang
+        run: >-
+          poetry run python main.py action paratranz-to-gt-lang
+          --repo-path='repo'
+          --subdirectory='${{ inputs.target_lang }}'
+          --lang='${{ inputs.target_lang }}'
+          --commit-message='Update GT lang for ${{ inputs.target_lang }}'
+        env:
+          PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
+          TARGET_LANG: ${{ inputs.target_lang }}
+
+      - name: Ensure temp dir
+        run: mkdir temp
+      - name: Ensure assets dir
+        run: mkdir assets
+      - name: Pack
+        run: python repo/.github/scripts/pack.py ${{ inputs.target_lang }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: GTNH-${{ inputs.target_lang }}-Translation-Nightly-${{ steps.date.outputs.today }}
+          path: ./temp/
+      - name: Zip
+        run: |
+          cd temp
+          zip -r ../assets/GTNH-${{ inputs.target_lang }}-Translation-Nightly-${{ steps.date.outputs.today }}.zip ./*
+          cd ..
+      - name: Push commits and tag
+        run: |
+          cd repo
+          git push -d origin ${{ inputs.target_lang }}-latest || :
+          gh release delete ${{ inputs.target_lang }}-latest || :
+          git tag ${{ inputs.target_lang }}-latest
+          git push origin ${{ inputs.target_lang }}-latest
+          git push origin master
+          cd ..
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release as Latest
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ inputs.target_lang }}-latest
+          name: ${{ inputs.target_lang }} Latest
+          files: |
+            ./assets/GTNH-${{ inputs.target_lang }}-Translation-Nightly-${{ steps.date.outputs.today }}.zip
+          token: ${{ secrets.GITHUB_TOKEN }}
