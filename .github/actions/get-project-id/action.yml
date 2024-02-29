@@ -1,0 +1,37 @@
+name: Get ParaTranz Project ID
+description: Get ParaTranz Project ID
+
+inputs:
+  target_lang:
+    description: "Target language to run"
+    required: true
+outputs:
+  project_id:
+    description: "Project ID of ParaTranz"
+    value: ${{ steps.output-project-id.outputs.project_id }}
+
+runs:
+  using: composite
+  steps:
+    - name: Output Project ID
+      id: output-project-id
+      shell: bash
+      run: |
+        case "$target_lang" in
+          "zh_CN")
+              project_id=4964 ;;
+          "ja_JP")
+              project_id=8922 ;;
+          "ko_KR")
+              project_id=9359 ;;
+          "pt_BR")
+              project_id=9385 ;;
+          "fr_FR")
+              project_id=9461 ;;
+          *)
+            echo "Invalid language: $target_lang"
+            exit 1
+        esac
+        echo "project_id=${project_id}" >> $GITHUB_OUTPUT
+      env:
+        target_lang: ${{ inputs.target_lang }}

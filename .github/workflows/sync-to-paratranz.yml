@@ -1,0 +1,81 @@
+name: Sync to ParaTranz
+
+on:
+  workflow_call:
+    inputs:
+      target_lang:
+        description: "Target language to run"
+        required: true
+        type: string
+  workflow_dispatch:
+    inputs:
+      target_lang:
+        description: "Target language to run"
+        required: true
+        type: choice
+        options:
+          - zh_CN
+          - ja_JP
+          - ko_KR
+          - pt_BR
+          - fr_FR
+
+env:
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+
+jobs:
+  get-project-id:
+    name: Get project ID
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get project ID
+        id: get-project-id
+        uses: ./.github/actions/get-project-id
+        with:
+          target_lang: ${{ inputs.target_lang }}
+    outputs:
+      project_id: ${{ steps.get-project-id.outputs.project_id }}
+  sync-questbook-to-paratranz:
+    name: Sync questbook to ParaTranz
+    needs: get-project-id
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout miozune/GTNH-translation-compare
+        uses: actions/checkout@v4
+        with:
+          repository: miozune/GTNH-translation-compare
+          ref: main
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+      - name: Sync questbook to ParaTranz
+        run: >-
+          poetry run python main.py action quest-book-to-paratranz
+        env:
+          PARATRANZ_PROJECT_ID: ${{ needs.get-project-id.outputs.project_id }}
+          TARGET_LANG: ${{ inputs.target_lang }}
+  sync-mod-lang-to-paratranz:
+    name: Sync mod lang to ParaTranz
+    needs: get-project-id
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout miozune/GTNH-translation-compare
+        uses: actions/checkout@v4
+        with:
+          repository: miozune/GTNH-translation-compare
+          ref: main
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+      - name: Ensure nightly
+        uses: ./.github/actions/ensure-nightly
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          dir: .nightly-temp
+          name: nightly
+      - name: Sync mod lang to ParaTranz
+        run: >-
+          poetry run python main.py action lang-and-zs-to-paratranz
+          --modpack-path='.nightly-temp/nightly'
+        env:
+          PARATRANZ_PROJECT_ID: ${{ needs.get-project-id.outputs.project_id }}
+          TARGET_LANG: ${{ inputs.target_lang }}
