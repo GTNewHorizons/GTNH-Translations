@@ -1,0 +1,32 @@
+name: Publish all nightly lang packs
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  publish-all-nightly-lang-packs:
+    name: Publish all nightly lang packs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zh_CN
+        uses: ./.github/workflows/publish-nightly-lang-pack.yml
+        with:
+          target_lang: zh_CN
+      - name: ja_JP
+        uses: ./.github/workflows/publish-nightly-lang-pack.yml
+        with:
+          target_lang: ja_JP
+      - name: ko_KR
+        uses: ./.github/workflows/publish-nightly-lang-pack.yml
+        with:
+          target_lang: ko_KR
+      - name: pt_BR
+        uses: ./.github/workflows/publish-nightly-lang-pack.yml
+        with:
+          target_lang: pt_BR
+      - name: fr_FR
+        uses: ./.github/workflows/publish-nightly-lang-pack.yml
+        with:
+          target_lang: fr_FR

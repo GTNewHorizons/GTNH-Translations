@@ -1,0 +1,12 @@
+name: Save nightly modpack history
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  foo:
+    name: foo
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4

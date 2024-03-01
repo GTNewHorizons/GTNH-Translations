@@ -1,0 +1,17 @@
+name: Entrypoint for nightly workflows
+
+on:
+  schedule:
+    - cron: "0 0 1 1 1"
+    # - cron: "30 1 * * *" # 1:30am UTC every day, before modpack nightly builds
+  workflow_dispatch:
+
+jobs:
+  save-nightly-modpack-history:
+    uses: ./.github/workflows/save-nightly-modpack-history.yml
+  sync-to-paratranz-parallel:
+    needs: save-nightly-modpack-history
+    uses: ./.github/workflows/sync-to-paratranz-parallel.yml
+
+  publish-all-nightly-lang-packs:
+    uses: ./.github/workflows/publish-all-nightly-lang-packs.yml
