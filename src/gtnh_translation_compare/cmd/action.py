@@ -1,10 +1,13 @@
 import asyncio
+import datetime
 import os
 from pathlib import Path
+import subprocess
 from typing import TypeAlias, Callable, Optional
 
 import httpx
 from dulwich import porcelain
+from loguru import logger
 
 from gtnh_translation_compare import settings
 from gtnh_translation_compare.filetypes import FiletypeLang, Language, FiletypeGTLang, Filetype
@@ -235,6 +238,93 @@ class Action:
 
     def gt_lang_to_paratranz(self, gt_lang_url: str) -> None:
         asyncio.run(self._gt_lang_to_paratranz(gt_lang_url))
+
+    async def _save_nightly_modpack_history(
+            self,
+            modpack_path: str,
+            repo_path: Optional[str] = None,
+    ) -> None:
+        def get_relpath(path):
+            return os.path.join(repo_path, path) if repo_path is not None else path
+
+        paths_to_commit: list[str] = []
+        modpack = ModPack(Path(modpack_path))
+        for lang_file in modpack.lang_files:
+            relpath = get_relpath(lang_file.get_en_us_relpath())
+            write_file(os.path.abspath(relpath), lang_file.content)
+            paths_to_commit.append(relpath)
+
+        qb_lang_file_url = (
+            f"https://raw.githubusercontent.com"
+            f"/{settings.GTNH_REPO}/master/{settings.DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH}"
+        )
+        res = httpx.get(url=qb_lang_file_url, timeout=60)
+        if res.status_code != 200:
+            raise ValueError(f"Failed to get quest book file from {qb_lang_file_url}")
+        relpath = get_relpath(settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH)
+        write_file(os.path.abspath(relpath), res.text)
+        paths_to_commit.append(relpath)
+
+        git_commit(
+            repo_path,
+            paths_to_commit,
+            settings.GIT_AUTHOR,
+            f"Nightly modpack {str(datetime.date.today())}",
+            None,
+            settings.CLOSE_ISSUE_IN_COMMIT_MESSAGE,
+        )
+
+    def save_nightly_modpack_history(
+            self,
+            modpack_path: str,
+            repo_path: Optional[str] = None,
+    ) -> None:
+        asyncio.run(self._save_nightly_modpack_history(modpack_path, repo_path))
+
+    async def _sync_to_paratranz_conditional(self, repo_path: Optional[str] = None,) -> None:
+        if repo_path is not None:
+            os.chdir(repo_path)
+
+        with subprocess.Popen(['git', 'diff', '--name-only', 'HEAD^..HEAD'], encoding='UTF-8', stdout=subprocess.PIPE, stderr=subprocess.PIPE) as p:
+            changed_files: list[str] = [str.strip(line) for line in p.stdout]
+            logger.info("detected lang updates:")
+            for change in changed_files:
+                logger.info(change)
+
+        if settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH in changed_files:
+            with open(settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
+                content = f.read()
+            qb_lang_file = FiletypeLang(
+                relpath=settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=content, language=Language.en_US
+            )
+            qb_paratranz_file = await self.converter.to_paratranz_file(qb_lang_file)
+            await self.client.upload_file(qb_paratranz_file)
+            changed_files.remove(settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH)
+
+        lang_files = []
+        for file_path in changed_files:
+            with open(settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
+                content = f.read()
+            lang_files.append(FiletypeLang(file_path, content))
+
+        # concurrency number
+        sem = asyncio.Semaphore(10)
+
+        async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
+            async with _sem:
+                paratranz_file = await self.converter.to_paratranz_file(lang_file)
+                await self.client.upload_file(paratranz_file)
+
+        tasks = [upload_file(sem, lang_file) for lang_file in lang_files]
+
+        # noinspection PyTypeChecker
+        await asyncio.gather(*tasks)
+
+        if repo_path is not None:
+            os.chdir('..')
+
+    def sync_to_paratranz_conditional(self, repo_path: Optional[str] = None,) -> None:
+        asyncio.run(self._sync_to_paratranz_conditional(repo_path))
 
 
 def git_commit(
