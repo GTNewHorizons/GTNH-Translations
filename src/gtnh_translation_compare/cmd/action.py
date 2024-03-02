@@ -49,8 +49,8 @@ class Action:
         after_to_translation_file_callback: Optional[AfterToTranslationFileCallback],
         raise_when_empty: Optional[Exception],
         message: str,
-        repo_path: Optional[str] = None,
-        subdirectory: Optional[Path] = None,
+        repo_path: Path,
+        subdirectory: Path,
         path_converter: Optional[ParatranzToLocalPathConverter] = None,
         issue: Optional[str] = None,
     ) -> None:
@@ -68,16 +68,8 @@ class Action:
             if raise_when_empty is not None:
                 raise raise_when_empty
 
-        if repo_path is None:
-            for translation_file in translation_files:
-                print("#" * 80)
-                print(f"# {translation_file.relpath}")
-                print("#" * 80)
-                print(translation_file.content, end="\n\n")
-            return
-
         for translation_file in translation_files:
-            base_path = os.path.join(repo_path, subdirectory) if subdirectory is not None else repo_path
+            base_path = repo_path / subdirectory
             translation_file_relpath = path_converter(translation_file.relpath) if path_converter is not None else translation_file.relpath
             translation_filepath = os.path.abspath(os.path.join(base_path, translation_file_relpath))
             translation_filepaths.append(translation_filepath)
@@ -99,8 +91,8 @@ class Action:
     # Quest Book
     def paratranz_to_quest_book(
         self,
-        repo_path: Optional[str] = None,
-        subdirectory: Optional[str] = None,
+        repo_path: str = ".",
+        subdirectory: str = ".",
         issue: Optional[str] = None,
         commit_message: str = "[自动化] 更新 任务书",
     ) -> None:
@@ -111,8 +103,8 @@ class Action:
                 None,
                 ValueError("No quest book file found"),
                 commit_message,
-                repo_path,
-                subdirectory if subdirectory is not None else None,
+                Path(repo_path),
+                Path(subdirectory),
                 None,
                 issue,
             )
@@ -121,8 +113,8 @@ class Action:
     # Lang + Zs
     def paratranz_to_lang_and_zs(
         self,
-        repo_path: Optional[str] = None,
-        subdirectory: Optional[str] = None,
+        repo_path: str = ".",
+        subdirectory: str = ".",
         issue: Optional[str] = None,
         commit_message: str = "[自动化] 更新 语言文件 + 脚本",
     ) -> None:
@@ -144,8 +136,8 @@ class Action:
                 None,
                 ValueError("No lang or zs file found"),
                 commit_message,
-                repo_path,
-                subdirectory if subdirectory is not None else None,
+                Path(repo_path),
+                Path(subdirectory),
                 path_converter_,
                 issue,
             )
@@ -154,8 +146,8 @@ class Action:
     # Gt Lang
     def paratranz_to_gt_lang(
         self,
-        repo_path: Optional[str] = None,
-        subdirectory: Optional[str] = None,
+        repo_path: str = ".",
+        subdirectory: str = ".",
         lang: str = "en_US",
         issue: Optional[str] = None,
         commit_message: str = "[自动化] 更新 GT 语言文件",
@@ -174,8 +166,8 @@ class Action:
                 after_to_translation_file_callback,
                 ValueError("No gt lang file found"),
                 commit_message,
-                repo_path,
-                subdirectory if subdirectory is not None else None,
+                Path(repo_path),
+                Path(subdirectory),
                 path_converter_,
                 issue,
             )
@@ -242,7 +234,7 @@ class Action:
     async def _save_nightly_modpack_history(
             self,
             modpack_path: str,
-            repo_path: Optional[str] = None,
+            repo_path: str = ".",
     ) -> None:
         def get_relpath(path):
             return os.path.join(repo_path, path) if repo_path is not None else path
@@ -277,7 +269,7 @@ class Action:
     def save_nightly_modpack_history(
             self,
             modpack_path: str,
-            repo_path: Optional[str] = None,
+            repo_path: str = ".",
     ) -> None:
         asyncio.run(self._save_nightly_modpack_history(modpack_path, repo_path))
 
@@ -303,7 +295,7 @@ class Action:
 
         lang_files = []
         for file_path in changed_files:
-            with open(settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
+            with open(file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
             lang_files.append(FiletypeLang(file_path, content))
 

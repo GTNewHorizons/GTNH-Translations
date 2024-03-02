@@ -2,7 +2,6 @@ import shutil
 from os import path
 import sys
 
-base_repo_path = 'repo'
 base_temp_path = 'temp'
 
 
@@ -19,7 +18,7 @@ def main(language):
         f'GregTech_{language}.lang',
     ]
     for p in paths_to_be_packed:
-        src_path = path.join(base_repo_path, language, p)
+        src_path = path.join(language, p)
         dest_path = path.join(base_temp_path, p)
         copy_item(src_path, dest_path)
 

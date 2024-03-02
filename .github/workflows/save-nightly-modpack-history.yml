@@ -9,11 +9,10 @@ jobs:
     name: Save nightly modpack history
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout miozune/GTNH-translation-compare
+      - name: Checkout nightly-history branch
         uses: actions/checkout@v4
         with:
-          repository: miozune/GTNH-translation-compare
-          ref: main
+          ref: nightly-history
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
 
@@ -26,11 +25,6 @@ jobs:
             >> $GITHUB_OUTPUT
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Checkout nightly-history branch
-        uses: actions/checkout@v4
-        with:
-          ref: nightly-history
-          path: nightly-repo
       - name: Ensure .nightly-temp
         shell: bash
         run:
@@ -44,7 +38,7 @@ jobs:
             --pattern *-mmcprism-new-java
           # gh automatically unzips the first layer of the zip, one more zip left
           cd $(ls | head -1)
-          unzip -o $(ls | head -1) -d ../unzip-tmp
+          unzip -q -o $(ls | head -1) -d ../unzip-tmp
           cd ..
           mv "unzip-tmp/GT New Horizons nightly" nightly
         env:
@@ -53,13 +47,12 @@ jobs:
       - name: Save nightly modpack history
         run: >-
           poetry run python main.py action save-nightly-modpack-history
-          --modpack-path='.nightly-temp/nightly' --repo-path='nightly-repo'
+          --modpack-path='.nightly-temp/nightly'
         env:
           # Required by system validation but actually unused
           PARATRANZ_TOKEN: -1
           PARATRANZ_PROJECT_ID: -1
           TARGET_LANG: "en_US"
       - name: Push commit
-        working-directory: nightly-repo
         run:
           git push origin nightly-history

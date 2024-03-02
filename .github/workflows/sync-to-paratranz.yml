@@ -28,30 +28,22 @@ jobs:
     name: Sync to ParaTranz
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout nightly-history
+        uses: actions/checkout@v4
+        with:
+          ref: nightly-history
+          fetch-depth: 2
       - name: Get project ID
         id: get-project-id
         uses: ./.github/actions/get-project-id
         with:
           target_lang: ${{ inputs.target_lang }}
-
-      - name: Checkout miozune/GTNH-translation-compare
-        uses: actions/checkout@v4
-        with:
-          repository: miozune/GTNH-translation-compare
-          ref: main
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
 
-      - name: Checkout nightly-history
-        uses: actions/checkout@v4
-        with:
-          ref: nightly-history
-          path: nightly-repo
-      - name: Sync questbook to ParaTranz
+      - name: Sync to ParaTranz
         run: >-
           poetry run python main.py action sync-to-paratranz-conditional
-          --repo-path='nightly-repo'
         env:
           PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
           TARGET_LANG: ${{ inputs.target_lang }}

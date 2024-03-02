@@ -39,22 +39,12 @@ jobs:
         uses: ./.github/actions/get-project-id
         with:
           target_lang: ${{ inputs.target_lang }}
-      - name: Checkout miozune/GTNH-translation-compare
-        uses: actions/checkout@v4
-        with:
-          repository: miozune/GTNH-translation-compare
-          ref: main
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
-      - name: Checkout Work Repo
-        uses: actions/checkout@v4
-        with:
-          path: repo
 
       - name: ParaTranz to questbook
         run: >-
           poetry run python main.py action paratranz-to-quest-book
-          --repo-path='repo'
           --subdirectory='${{ inputs.target_lang }}'
           --commit-message='Update questbook for ${{ inputs.target_lang }}'
         env:
@@ -63,7 +53,6 @@ jobs:
       - name: ParaTranz To mod lang
         run: >-
           poetry run python main.py action paratranz-to-lang-and-zs
-          --repo-path='repo'
           --subdirectory='${{ inputs.target_lang }}'
           --commit-message='Update mod lang for ${{ inputs.target_lang }}'
         env:
@@ -72,7 +61,6 @@ jobs:
       - name: ParaTranz to GT lang
         run: >-
           poetry run python main.py action paratranz-to-gt-lang
-          --repo-path='repo'
           --subdirectory='${{ inputs.target_lang }}'
           --lang='${{ inputs.target_lang }}'
           --commit-message='Update GT lang for ${{ inputs.target_lang }}'
@@ -85,7 +73,7 @@ jobs:
       - name: Ensure assets dir
         run: mkdir assets
       - name: Pack
-        run: python repo/.github/scripts/pack.py ${{ inputs.target_lang }}
+        run: python .github/scripts/pack.py ${{ inputs.target_lang }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
@@ -99,13 +87,11 @@ jobs:
           cd ..
       - name: Push commits and tag
         run: |
-          cd repo
           git push -d origin ${{ inputs.target_lang }}-latest || :
           gh release delete ${{ inputs.target_lang }}-latest || :
           git tag ${{ inputs.target_lang }}-latest
           git push origin ${{ inputs.target_lang }}-latest
           git push origin master
-          cd ..
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Release as Latest
