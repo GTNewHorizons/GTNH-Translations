@@ -1,0 +1,40 @@
+name: Sync to ParaTranz all manually
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_lang:
+        description: "Target language to run"
+        required: true
+        type: choice
+        options:
+          - zh_CN
+          - ja_JP
+          - ko_KR
+          - pt_BR
+          - fr_FR
+
+env:
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+
+jobs:
+  sync-to-paratranz-manual-all:
+    name: Sync to ParaTranz all manually
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get project ID
+        id: get-project-id
+        uses: ./.github/actions/get-project-id
+        with:
+          target_lang: ${{ inputs.target_lang }}
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+
+      - name: Sync to ParaTranz
+        run: >-
+          poetry run python main.py action sync-to-paratranz-all
+          --subdirectory='nightly-history'
+        env:
+          PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
+          TARGET_LANG: ${{ inputs.target_lang }}

@@ -1,5 +1,6 @@
 import asyncio
 import datetime
+import glob
 import os
 from pathlib import Path
 import subprocess
@@ -331,6 +332,51 @@ class Action:
             subdirectory: str = ".",
     ) -> None:
         asyncio.run(self._sync_to_paratranz_conditional(Path(repo_path), Path(subdirectory)))
+
+    async def _sync_to_paratranz_all(
+            self,
+            repo_path: Path,
+            subdirectory: Path,
+    ) -> None:
+        if repo_path is not None:
+            os.chdir(repo_path)
+
+        with open(subdirectory / settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
+            content = f.read()
+        qb_lang_file = FiletypeLang(
+            relpath=settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=content, language=Language.en_US
+        )
+        qb_paratranz_file = await self.converter.to_paratranz_file(qb_lang_file)
+        await self.client.upload_file(qb_paratranz_file)
+
+        lang_files = []
+        for file_path in glob.glob(f'./{subdirectory}/resources/*/lang/en_US.lang'):
+            with open(file_path, 'r', encoding='UTF-8') as f:
+                content = f.read()
+            lang_files.append(FiletypeLang(os.path.relpath(file_path, subdirectory), content))
+
+        # concurrency number
+        sem = asyncio.Semaphore(10)
+
+        async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
+            async with _sem:
+                paratranz_file = await self.converter.to_paratranz_file(lang_file)
+                await self.client.upload_file(paratranz_file)
+
+        tasks = [upload_file(sem, lang_file) for lang_file in lang_files]
+
+        # noinspection PyTypeChecker
+        await asyncio.gather(*tasks)
+
+        if repo_path is not None:
+            os.chdir('..')
+
+    def sync_to_paratranz_all(
+            self,
+            repo_path: str = ".",
+            subdirectory: str = ".",
+    ) -> None:
+        asyncio.run(self._sync_to_paratranz_all(Path(repo_path), Path(subdirectory)))
 
 
 def git_commit(
