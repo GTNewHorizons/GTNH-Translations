@@ -28,10 +28,8 @@ jobs:
     name: Sync to ParaTranz
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout nightly-history
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
-          ref: nightly-history
           fetch-depth: 2
       - name: Get project ID
         id: get-project-id
@@ -44,6 +42,7 @@ jobs:
       - name: Sync to ParaTranz
         run: >-
           poetry run python main.py action sync-to-paratranz-conditional
+          --subdirectory='nightly-history'
         env:
           PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
           TARGET_LANG: ${{ inputs.target_lang }}

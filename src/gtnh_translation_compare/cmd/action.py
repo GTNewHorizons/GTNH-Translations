@@ -233,11 +233,12 @@ class Action:
 
     async def _save_nightly_modpack_history(
             self,
-            modpack_path: str,
-            repo_path: str = ".",
+            modpack_path: Path,
+            repo_path: Path,
+            subdirectory: Path,
     ) -> None:
         def get_relpath(path):
-            return os.path.join(repo_path, path) if repo_path is not None else path
+            return repo_path / subdirectory / path
 
         paths_to_commit: list[str] = []
         modpack = ModPack(Path(modpack_path))
@@ -270,21 +271,27 @@ class Action:
             self,
             modpack_path: str,
             repo_path: str = ".",
+            subdirectory: str = ".",
     ) -> None:
-        asyncio.run(self._save_nightly_modpack_history(modpack_path, repo_path))
+        asyncio.run(self._save_nightly_modpack_history(Path(modpack_path), Path(repo_path), Path(subdirectory)))
 
-    async def _sync_to_paratranz_conditional(self, repo_path: Optional[str] = None,) -> None:
+    async def _sync_to_paratranz_conditional(
+            self,
+            repo_path: Path,
+            subdirectory: Path,
+    ) -> None:
         if repo_path is not None:
             os.chdir(repo_path)
 
         with subprocess.Popen(['git', 'diff', '--name-only', 'HEAD^..HEAD'], encoding='UTF-8', stdout=subprocess.PIPE, stderr=subprocess.PIPE) as p:
-            changed_files: list[str] = [str.strip(line) for line in p.stdout]
-            logger.info("detected lang updates:")
+            changed_files: list[str] = [os.path.relpath(str.strip(line), subdirectory) for line in p.stdout]
+            logger.info('detected lang updates:')
             for change in changed_files:
                 logger.info(change)
+            logger.info('#'*30)
 
         if settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH in changed_files:
-            with open(settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
+            with open(subdirectory / settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
                 content = f.read()
             qb_lang_file = FiletypeLang(
                 relpath=settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=content, language=Language.en_US
@@ -295,7 +302,10 @@ class Action:
 
         lang_files = []
         for file_path in changed_files:
-            with open(file_path, 'r', encoding='UTF-8') as f:
+            if 'resources' not in file_path:
+                logger.warning(f'Suspecious file detected in changed files: {file_path}')
+                continue
+            with open(subdirectory / file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
             lang_files.append(FiletypeLang(file_path, content))
 
@@ -315,8 +325,12 @@ class Action:
         if repo_path is not None:
             os.chdir('..')
 
-    def sync_to_paratranz_conditional(self, repo_path: Optional[str] = None,) -> None:
-        asyncio.run(self._sync_to_paratranz_conditional(repo_path))
+    def sync_to_paratranz_conditional(
+            self,
+            repo_path: str = ".",
+            subdirectory: str = ".",
+    ) -> None:
+        asyncio.run(self._sync_to_paratranz_conditional(Path(repo_path), Path(subdirectory)))
 
 
 def git_commit(

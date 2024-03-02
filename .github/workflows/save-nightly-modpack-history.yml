@@ -9,10 +9,7 @@ jobs:
     name: Save nightly modpack history
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout nightly-history branch
-        uses: actions/checkout@v4
-        with:
-          ref: nightly-history
+      - uses: actions/checkout@v4
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
 
@@ -47,7 +44,7 @@ jobs:
       - name: Save nightly modpack history
         run: >-
           poetry run python main.py action save-nightly-modpack-history
-          --modpack-path='.nightly-temp/nightly'
+          --modpack-path='.nightly-temp/nightly' --subdirectory='nightly-history'
         env:
           # Required by system validation but actually unused
           PARATRANZ_TOKEN: -1
@@ -55,4 +52,4 @@ jobs:
           TARGET_LANG: "en_US"
       - name: Push commit
         run:
-          git push origin nightly-history
+          git push origin master
