@@ -1,0 +1,65 @@
+name: Ensure Dependencies
+description: Ensure Dependencies
+
+runs:
+  using: composite
+  steps:
+    ############################################################################
+    # Setup Python-related
+    ############################################################################
+    - name: Setup Python
+      id: setup-python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.11'
+    - name: Load cached Poetry installation
+      uses: actions/cache@v3
+      with:
+        path: ~/.local
+        key: poetry-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}
+    - name: Install Poetry
+      uses: snok/install-poetry@v1
+      with:
+        virtualenvs-create: true
+        virtualenvs-in-project: true
+        installer-parallel: true
+    - name: Load Cached Venv
+      id: load-cached-venv
+      uses: actions/cache@v3
+      with:
+        path: .venv
+        key: venv-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ hashFiles('poetry.lock', '*/poetry.lock') }}
+    - name: Install dependencies
+      if: steps.load-cached-venv.outputs.cache-hit != 'true'
+      shell: bash
+      run: poetry install --no-interaction
+
+    ############################################################################
+    # Setup Paratranz Cache
+    ############################################################################
+    - name: Ensure Paratranz Cache Dir
+      shell: bash
+      run: |
+        mkdir -p ${{ runner.temp }}/paratranz_cache
+        echo "PARATRANZ_CACHE_DIR=${{ runner.temp }}/paratranz_cache" >> $GITHUB_ENV
+    - name: Cache Paratranz Files
+      uses: actions/cache@v3
+      with:
+        path: ${{ runner.temp }}/paratranz_cache
+        key: paratranz-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-${{ github.run_number }}
+        restore-keys: |
+          paratranz-${{ runner.os }}-${{ steps.setup-python.outputs.python-version }}-
+          paratranz-${{ runner.os }}-
+    - name: Clean Up Outdated Paratranz Cache
+      shell: bash
+      run: |
+        find ${{ runner.temp }}/paratranz_cache -type f -mtime +90 -delete
+
+    ############################################################################
+    # Setup Debug Log
+    ############################################################################
+    - name: Enable Debug Log If Needed
+      if: ${{ runner.debug }}
+      shell: bash
+      run: |
+        echo "GTNH_TC_DEBUG=true" >> $GITHUB_ENV
