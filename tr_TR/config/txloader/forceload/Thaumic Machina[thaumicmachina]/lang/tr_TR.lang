@@ -1,0 +1,172 @@
+# Blocks
+tile.nodeTransmodifier.name=Node Transmodifier
+
+# Items
+item.nodeAugmentation.name=Node Augmentation
+item.wandAugmentationCore.name=Wand Augmentation Core
+
+# Creative tab
+itemGroup.thaumicMachina=Thaumic Machina
+
+# Thauminomicon tab
+tc.research_category.THAUMIC_MACHINA_CAT=Thaumic Machina
+
+# Thauminomicon entry description prefix
+tm.research.prefix.concept=Concept
+
+#  
+# Special formatting codes:
+# <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
+# <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
+# <IMG>...</IMG>  Insert a centered image into text. Parameters are separated by ':' and are:
+#                    - mod resource location name
+#                    - png file location (assumed to be a 256x256 texture, a sub-image will be grabbed from this png as specified below)
+#                    - x location of sub-image in png
+#                    - y location of sub-image in png
+#                    - x size of sub-image (255 if full x size of png must be used)
+#                    - y size of sub-image (255 if full y size of png must be used)
+#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)   
+#               Examples: 
+#                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
+#                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
+#
+# Research entries
+
+# Information: Concepts
+tm.research.name.INFORMATION_CONCEPTS=Concepts
+tm.research.desc.INFORMATION_CONCEPTS=What are they?
+tm.research.page.INFORMATION_CONCEPTS.1=A Concept, in layman's terms, is a base theory for how something works within the universe, from which you can use to build up other concept's. Concepts are a necessity, if you do not understand how something works, you will never be able to utilise it. Most of the time a concept will not give you items or anything directly, but rather open the gate to the next part of your studies. Concepts usually have round research nodes.<BR>Concepts can be customised in the config file (turned to easy mode (purchasable), or turned off completely (automatically unlocks)).
+
+# Nodal Studies
+tm.research.name.NODAL_STUDIES=Nodal Studies
+tm.research.desc.NODAL_STUDIES=Renewable energy
+tm.research.page.NODAL_STUDIES.1=Whilst nodes seem to be a suitable source for vis for use in wands and other constructs, the nodes seem to not be powerful enough to act as a suitable source for the more powerful thaumic constructs, namely, constructs such as the Thaumic Duplicator (when duplicating more complex items) and Node Transmodifier, in detail, the vis the nodes produce seems to not be potent and concentrated enough to fuel the various constructs which require more potent sources of energy, even essentia is not potent and concentrated enough.
+tm.research.page.NODAL_STUDIES.2=Ironically, the one thing thaumaturgist's use the most, seems to be the one thing thaumaturgist's seem to not understand all too well. You have set out to fix this.<BR>By studying Aura Nodes, what they are made of, how they work, and what they can potentially allow a thaumaturgist to do, you have come to a greater level of understanding about what exactly the nature of nodes are. You don't quite understand all the things you are finding, but the simple concepts seem to be lining up, allowing you to start studying and learning about nodes on a much greater level.
+
+# Aura Fields
+tm.research.name.AURA_FIELD=Aura Fields
+tm.research.desc.AURA_FIELD=The universal web...
+tm.research.page.AURA_FIELD.1=By studying Ethereal Essence, which is a manifestation of breaking a node, you have discovered a new realm previously invisible to thaumaturgists.<BR>The universe is comprised of many small regions of space, all encapsulated in a special field which controls the flow of vis throughout the universe. You call this field an Aura Field.<BR>An aura field is similar to that of a gravitational field, it is a special field which is dynamic and ever-changing, any piece of matter AND energy can cause the field to be warped. What do aura fields actually control? Vis.
+tm.research.page.AURA_FIELD.2=Well, more specifically, the flow of vis throughout the universe. Vis will flow from auras with higher Aura Density, to areas of lower aura density. An Aura Field can only be changed in one way, a section of it can be made denser, hence that section having a higher Aura Density.<LINE>If you think about aura field's in a geometrical way, where the field is represented by a set of lines, the closer the lines are together, the denser the field is at that point. Think about an aura field having a constant density value throughout the whole field. No areas of higher or lower density, all the same density. If we were
+tm.research.page.AURA_FIELD.3=to place a piece of matter in the centre, the aura field would bend and warp towards the matter. In doing so, the lines of the Aura Field would be pushed together, hence the Aura Density being higher in that zone. This is not exactly what happens in the real world, there are MANY smaller aura fields all together, all interacting with each other, and these interactions cause the density value to rise and fall randomly.<LINE>You have also made the discovery that these fields also produce an effect similar to that of a magnetic field, in that it attracts
+tm.research.page.AURA_FIELD.4=certain matter, further research into this phenomenon has proven that the field effects matter with low Charge Resistance.
+
+# Vis General
+tm.research.name.VIS=Vis
+tm.research.desc.VIS=The Thaumaturgist's energy
+tm.research.page.VIS.1=Vis is the magical energy which is prevalent throughout the universe, however it is more so abundant near special regions in space where a high concentration of vis is found, known as an Aura Node. Your original knowledge of vis was limited, however it was vast enough to allow you to enter the basics of thaumaturgy. This knowledge, however, is far too simple for the complex parts of thaumaturgy. More knowledge and understanding of vis is required.
+
+# Vis Studies
+tm.research.name.VIS_STUDIES=Vis Studies
+tm.research.desc.VIS_STUDIES=Coming to grips with the energy
+tm.research.page.VIS_STUDIES.1=Further study into vis has shown you that vis is made up of a mixture of multiple types of base energy. These energies are the fundamental building blocks of all other forms of energy, including energies such as gravitational, thermal, kinetic, nuclear, and quantum. You are sure further study will show you more about how the universe works on a fundamental and small level. Using your greater understanding of how vis is structured internally, you may be able to work with vis on a much greater level...
+
+# Charge
+tm.research.name.VIS_CHARGE=Charge, and How It Functions
+tm.research.desc.VIS_CHARGE=Like static charge, but better!
+tm.research.page.VIS_CHARGE.1=Study into how vis and matter interact and function together has shown you a new side of vis previously invisible to thaumaturgists. You have discovered a new property and value of vis, simply known as Charge.<BR>Charge is the name given to vis in general when it is surging through the atomic lattice. It is given this name because it often induces a magical charge within the object.
+tm.research.page.VIS_CHARGE.2=Charge is a very interesting thing, as it can be observed differently depending on a set of parameters, which include, but are not limited to, what object the charge is trying to pass through, how it's being observed, what's happening to the object it's trying to pass through, and more.<LINE>Every object within existence has a value known as it's Charge Resistance. While charge is trying to pass through the atomic lattice of an object, depending on what exactly the lattice is doing and how it's behaving, the charge may experience a resistance while passing through the lattice, things such as vibration of atoms, 
+tm.research.page.VIS_CHARGE.3=movement of electrons, and atomic density can affect this resistance. This resistance is exactly what Charge Resistance is.<BR>Study into how charge actually moves throughout the universe has shown that charge often likes to take the paths of least charge resistance. This is no different for wands, different wands have different charge resistance values, this is partially why some wand cores are better than others when it comes to storing and using vis.
+tm.research.page.VIS_CHARGE.4=<LINE>Further study into the concept of Charge has shown that the movement of charge seems to lead to spontaneous Aura Fields being induced.
+
+# Essentia Studies
+tm.research.name.ESS_STUDIES=Essentia Studies
+tm.research.desc.ESS_STUDIES=Unpicking the connections
+tm.research.page.ESS_STUDIES.1=Further study into essentia and what it is has led you to the discovery that essentia is not as simple as you believed it to be. You originally thought essentia was simply vis, but in a physical, liquid, form.<BR>It seems as if that theory is no longer 100% correct, as study into essentia and it's base components have led you to discovering it is much more than that. Essentia does contain vis in a physical form, but the vis is too potent and too unstable to keep in a physical state, it turns straight back into energy, so you theorised that there must be something there keeping vis in it's physical state, and you were correct.
+tm.research.page.ESS_STUDIES.2=By studying the base components, you have found out essentia is made of two prime components, vis and flux goo. The flux goo seems to both act as a boundary, of sorts, for the vis, keeping it in it's physical state. However, it also seems to act as a stabiliser for vis, making it more stable, more able to be worked in a physical sense. Because of the close relationship, the two components are tightly bound together, making separation impractical, near impossible, with your current knowledge.
+
+# Wand Studies
+tm.research.name.WAND_STUDIES=Wand Studies
+tm.research.desc.WAND_STUDIES=Redifining the term 'technological breakthrough'
+tm.research.page.WAND_STUDIES.1=The very technology that you have come to rely upon during your trek through thaumic power, and how powerful and reliable it has been, has made you begin to research into it.<BR>Through researching your wands, how they function, how they are created fundamentally, and primarily how they can be enhanced, you have come to the conclusion that the technology you have relied on for this entire time seems to be unfinished technology. You think you may be able to find ways to upgrade and ultimately perfect this technology through further study.
+
+# Wand Augmentation
+tm.research.name.WAND_AUGMENTATION=Wand Augmentation Basics
+tm.research.desc.WAND_AUGMENTATION=Upgrading done right
+tm.research.page.WAND_AUGMENTATION.1=While working your way up through the chains of thaumaturgy, you have gradually been becoming more and more comfortable and knowledgeable with your wands and how they work. You thought you knew everything about how they worked, and you thought you reached the upper limits of wands.<BR>However, further study into the nature of wands has shown you that you were very wrong, the very concept of what a wand is and how it works, seems less of a discovery, and more of an incomplete theory. Wands themselves seem more like an incomplete technology, and you think you have just uncovered what may
+tm.research.page.WAND_AUGMENTATION.2=open the doors to a new realm of technology for you.<LINE>Wand Augmentations are sort of like upgrades, or modules, that you can install onto your wands to modify how you wands behave right down at the fundamental level. Augmentations can add a wide array of abilities onto your wands, for example, you may be able to install an Augment that allows you to store more vis in a wand, or perhaps install an Augment which decreases the vis cost of foci use, or maybe install an
+tm.research.page.WAND_AUGMENTATION.3=Augment which adds a touch of darkness to your wand, allowing you to use your wand in the various constructs within the realm of the dark arts.<LINE>All Augments require a Wand Augmentation Core, a single piece of Salis Mundus, a Primal Focus, and a catalyst item which can be found on the Augment's research entry.<LINE>The more Augments you have installed, the higher your wand instability gets, see the wand itability stub of this research entry for a run down.
+
+# Wand Stability
+tm.research.name.WAND_STABILITY=Wand Stability
+tm.research.desc.WAND_STABILITY=The cost of upgrading...
+tm.research.page.WAND_STABILITY.1=As you install more and more Augmentations onto your wand, you will notice that your wand gets increasingly unstable. This is the result of modifying your wands at a fundamental level.<BR>Every Augmentation adds a certain percentage of Instability onto your wand, the percentage tends to be fairly low, but some Augmentations push your wand to it's limits and have a higher percentage (see the research entry for each Augmentation to see the Instability percentage).<BR>In low amounts, wand instability can serve as a mere annoyance, however as your wand gets increasingly unstable, the effects can be quite severe.
+tm.research.page.WAND_STABILITY.2=Instability cannot be removed from a wand once it is applied, however it can be dulled down...<BR>Vis Discharge:<BR>This effect serves more as an annoyance than a dangerous effect. This Instability causes a random amount of Vis to discharge from your wand at any given time. This Instability effect manifests at any Instability percentage above 0%. Steadily worsens as your Instability increases.
+tm.research.page.WAND_STABILITY.3=Augmentation Invert:<BR>This effect is one of the more potentially severe effects. This Instability effect will invert the effect of a randomly selected Augmentation, for example, if you have a Charge Buffer Augmentation installed, instead of adding an extra 25%, this effect causes 25% of your wands base capacity to be subtracted from the base capacity, along with disabling the Augmentation. The Augmentation this effect affects will instead be displayed in red. Manifests at Instability percentages above 25%.
+
+# Wand Augmentation: Charge Buffer
+tm.research.name.WAND_AUGMENTATION_CHARGE_BUFFER=Augment: Charge Buffer
+tm.research.desc.WAND_AUGMENTATION_CHARGE_BUFFER=Cramming more into less
+tm.research.page.WAND_AUGMENTATION_CHARGE_BUFFER.1=Research into how wands actually store vis has shown you that by changing the charge resistance of some sections of the core, you can effectively store more vis within your wands.<BR>Applying this Augment to a wand will give the wand an extra 25% vis storage. Adds 5% instability to the wand core.
+
+# Wand Augmentation: Vis Channel
+tm.research.name.WAND_AUGMENTATION_VIS_CHANNEL=Augment: Vis Channels
+tm.research.desc.WAND_AUGMENTATION_VIS_CHANNEL=Many pathways
+tm.research.page.WAND_AUGMENTATION_VIS_CHANNEL.1=Your use with wands has showed you that by upgrading a variety of things, including, but certainly not limited to, the wand caps and your own robes, you can lower the Vis cost of wand use. You have given great amounts of time and thought into discovering another way you can lower the vis cost, and you have finally discovered a way. By adding special channels of Thaumium into your wand's core, you can create pathways vis will prefer to go down, effectively lowering the vis cost of wand use.<BR>Applying this Augment to a wand will give the wand an extra 10% reduction to vis use. Adds 5% Instability to the wand.
+
+# Wand Augmentation: Tainted Core
+tm.research.name.WAND_AUGMENTATION_TAINTED_CORE=Augment: Tainted Core
+tm.research.desc.WAND_AUGMENTATION_TAINTED_CORE=Cause I'm baaad to the boone
+tm.research.page.WAND_AUGMENTATION_TAINTED_CORE.1=Everything has a light side and a dark side, and magic is no exception. Through your time as a thaumaturge you have seen some of the products of the dark arts, and the side effects that these products have on your state of mind. You have decided you want to 'take a dip in the dark side', so to speak, and upgrade your wand to allow you to dabble in these dark arts.<BR>Applying this Augment to a wand will give the wand the ability to work with darker more sinister magic. Adds 10% Instability to the wand, and can sometimes cause the weilder to be affected by the dark magic surging through the core.
+
+# Wand Augmentation: Taint Capping
+tm.research.name.WAND_AUGMENTATION_TAINT_CAPPING=Augment: Taint Capping
+tm.research.desc.WAND_AUGMENTATION_TAINT_CAPPING=[WIP] Recycling, taken to the next level
+tm.research.page.WAND_AUGMENTATION_TAINT_CAPPING.1=Your work with the magical arts has shown you that every choice you make can have a dark consequence. Careless thaumaturgy often leads to the buildup of taint. Through your research, you have found out that taint is in fact normal vis that has been corrupted, and turned into a fowl purple substance. You have found a way to integrate an Augmentation into your wand capping that can syphon vis right out of taint and tainted objects. Unfortunately this is not a direct one-for-one method, and the vis often breaks down midway during transfer.<BR>Applying this Augment to a wand will give
+tm.research.page.WAND_AUGMENTATION_TAINT_CAPPING.3=the wand the ability to syphon Vis out of Taint and Tainted objects. Vis is very unstable, and has a 50% chance to discharge into the environment, and a further 25% (if syphon is successful) to mutate into Perditio. Adds 10% Instability to the wand core.
+
+# Wand Augmentation: Contact Discharge
+tm.research.name.WAND_AUGMENTATION_CONTACT_DISCHARGE=Augment: Contact Discharge
+tm.research.desc.WAND_AUGMENTATION_CONTACT_DISCHARGE=Weaponised Vis
+tm.research.page.WAND_AUGMENTATION_CONTACT_DISCHARGE.1=Your dedication to studying the Crimson's findings has lead to a discovery. When an object has a body of vis moving through the atomic lattice, the body induces a charge in the lattice. This is not new to you, however what follows is. If the body of vis is moving through at a high enough velocity and if the body is dense enough, it can cause the vis to mutate into thermalkinetic energy, which violently vibrates the lattice. In living creatures this causes some pain.<BR>Applying this augment to a wand will allow the wand to deal 2 hearts of damage whilst hitting an entity, at a cost of
+tm.research.page.WAND_AUGMENTATION_CONTACT_DISCHARGE.3=0.15 points of every type of vis within the wand. If the wand does not have at least 0.15 points of each type of vis, the wand will not deal the damage. This damage can bypass armour, however certain thaumic protections and enchants may counteract the vis.
+
+# Life and Living
+tm.research.name.LIFE=Life and the Living
+tm.research.desc.LIFE=[WIP] The start of the risky side of Thaumaturgy
+tm.research.page.LIFE.1=Your growing curiosity has grown too much for you to simply ignore. Your recent studies into the fundamental side of Thaumaturgy has been more on the environment and fundamental side, you now want to venture into the risky side of Thaumaturgical study, the magical arts of living beings.
+
+# Body
+tm.research.name.BODY=Body and the Flesh
+tm.research.desc.BODY=[WIP] The vessel of living beings
+tm.research.page.BODY.1=The body has always been a wonder as to what role it plays in the great scheme of life, some believe it is simply a vessel for a beings main control facility, the soul, others believe it is simply an organic tissue which houses the playground for chemical reactions, all of which drive the body and give it the ability to function. Through your time in Thaumaturgy, it appears that both are technically correct, you have come across more than enough proof to prove that a soul does exist.
+
+# Soul
+tm.research.name.SOUL=Spirits and the Soul
+tm.research.desc.SOUL=[WIP] The control facility of living beings
+tm.research.page.SOUL.1=The soul is a bit of a controversial subject for many, however a not very well documented subject. Many believe we all have a soul tied to our physical bodies, many don't. Through your studies in the magical art of Thaumaturgy, you have come across countless discoveries and experiences that point you to the fact that the soul does indeed exist. You theorise it may be a body of Vis that is entrapped within a defined region in the local Aura Field within the universe.<BR>How much you can manipulate it in a physical state is currently unknown.
+
+# Crimson Philosophy
+tm.research.name.CRIMSON_PHILOSOPHY=Crimson Philosophy
+tm.research.desc.CRIMSON_PHILOSOPHY=The entry point into the darker side of the universe...
+tm.research.page.CRIMSON_PHILOSOPHY.1=As a Thaumaturgist, you have heard a lot about a group of cultists, known as the Crimson Cult. Reading up on the Crimson Cult, it seems as if the Crimson Cult are just a bunch of nutjobs that believed in a ritual-esque religion of sorts, and it seems that their final goal is to open the <insert name of the Eye or whatever>. Having read the Crimson Rites more, it appears that they knew a lot more about the universe than you thought, coming close to discovering the world of Thaumaturgy even. You believe that they have discovered difficult and powerful theories 
+tm.research.page.CRIMSON_PHILOSOPHY.2=and concepts about how the universe works, and you also believe that they documented their discoveries, from your latest revelation it appears you were very correct. The Crimson Rites seems to have very detailed theories and discoveries about what seemed like simple concepts to you or other Thaumaturgists. Unfortunately, you are unable to transcribe nor understand a lot of the entries, you do understand some of the more simple theories however. You may be able to document these theories in your own Thauminomicon, and then expand upon these 
+tm.research.page.CRIMSON_PHILOSOPHY.3=theories by putting further study into the theories you document in your Thauminomicon.
+
+# Crimson Astronomy
+tm.research.name.CRIMSON_ASTRONOMY=Crimson Astronomy
+tm.research.desc.CRIMSON_ASTRONOMY=A different take on the cosmos
+tm.research.page.CRIMSON_ASTRONOMY.1=Reading the entries within the Crimson Rites, it seems that some entries seem to be talking about the cosmos, and the universe as a whole. You can see a few different pages that talk about the universe, however you are unsure what exactly these entries link to...
+
+# Crimson - Realisation
+tm.research.name.CRIMSON_REALISATION=Realisation
+tm.research.desc.CRIMSON_REALISATION=Uncovering the shattering truth...
+tm.research.page.CRIMSON_REALISATION.1=The Crimson Cult and their findings has opened you up to the powerful, albeit darker side of Thaumaturgy. All the entries you have read, every single one of them, from the most basic to the most advanced, seem to talk about a "missing link" in the universe, a missing concept that baffled the Crimson Cult. What they didn't realise is the answer was right under their noses and with Thaumaturgy, they would recognise that this link is not missing.<BR>The missing link they were referring to is the concept of Aura Fields. They found a blank spot in their research and they tried hard to fill that blank spot in,
+tm.research.page.CRIMSON_REALISATION.2=but they could not fill it in. You can, you already know about the fields, however, thinking about it, the concept of Aura Fields does not exactly match the blank spot all too well. The more you think, the more you start to doubt it. Perhaps you do not understand the universe well after all? But, how could this be after the research you have put into Thaumaturgy.<BR>Looks like it's back to the drawing boards for now...
+
+# Crimson - Celestial Fields
+tm.research.name.CRIMSON_CELESTIAL_FIELD=Celestial Fields
+tm.research.desc.CRIMSON_CELESTIAL_FIELD=The missing link!
+tm.research.page.CRIMSON_CELESTIAL_FIELD.1=After hours of painstaking study and research, you have made a new discovery about the Aura and Aura Fields. It appears that Aura Fields do ultimately control more than just the flow of Vis through the universe. Your research suggests that perhaps, on the other side of the Aura Field, in the actual dimension the Aura resides in, maybe that dimension ultimately controls the cosmos and how it behaves. However, there also appears to be a secondary type of field, above Aura Fields, that is actually behind the control over the cosmos.
+tm.research.page.CRIMSON_CELESTIAL_FIELD.2=The name Aura Field does not fit this new type of field, you give it the name Celestial Field.
+
+# Crimson - Thaumaturgy
+tm.research.name.CRIMSON_THAUMATURGY=Crimsonic Thaumaturgy
+tm.research.desc.CRIMSON_THAUMATURGY=Upgrade tips without the thaumaturgy
+tm.research.page.CRIMSON_THAUMATURGY.1=Although the Crimson Cult did not know about Thaumaturgy, they did know a lot about energy, and have actually discovered Vis. A lot of entries talk about a very powerful energy which is located all throughout the universe, the energy often induces "positive charges" in matter (referencing Charge), and sometimes passes into our physical world. They simply called this energy Cosmic Energy. Some entries talk about interactions that Vis has with different types of matter, they have actually recorded and analysed interactions Vis has with potential-Thaumic materials, you start to think about what the Crimson Cult
+tm.research.page.CRIMSON_THAUMATURGY.2=could have accomplished, aside from their most important task, if they knew about Thaumaturgy.
+
+# Crimson - Wand Augmentation
+tm.research.name.CRIMSON_WAND_AUGMENTATION=Crimsonic Wand Augments
+tm.research.desc.CRIMSON_WAND_AUGMENTATION=Upgrades to the upgrades!
+tm.research.page.CRIMSON_WAND_AUGMENTATION.1=Working with the Crimson discoveries has shown you a whole new side to the world, to Thaumaturgy even, you know much more than you knew when you started, even when you discovered all the fundamental theories and concepts. You think you have found a few new toys to play with in the field of Wand Augmentation...
