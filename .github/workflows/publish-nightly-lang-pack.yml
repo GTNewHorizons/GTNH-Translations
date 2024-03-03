@@ -69,6 +69,7 @@ jobs:
           cd ..
       - name: Push commits and tag
         run: |
+          git pull
           git push -d origin ${{ inputs.target_lang }}-latest || :
           gh release delete ${{ inputs.target_lang }}-latest || :
           git tag ${{ inputs.target_lang }}-latest

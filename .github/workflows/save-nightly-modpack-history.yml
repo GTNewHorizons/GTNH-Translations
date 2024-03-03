@@ -52,4 +52,5 @@ jobs:
           TARGET_LANG: "en_US"
       - name: Push commit
         run:
+          git pull
           git push origin master
