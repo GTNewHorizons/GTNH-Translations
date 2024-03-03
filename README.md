@@ -36,10 +36,12 @@ If you have 3 or more translators for the language, please contact boubou_19.
 
 ### When adding new language
 
-1. Add new language entry for scripts and workflows. Searching for `fr_FR` for example could help.
+1. Add new language entry for scripts and workflows. Searching for `es_ES` for example could help. (see commits [8f1d36a](https://github.com/GTNewHorizons/GTNH-Translations/commit/8f1d36a5e30ea39c02a19a167cf72d8643efbbc1) and [a27348c](https://github.com/GTNewHorizons/GTNH-Translations/commit/a27348c066d2de8126170e44fa17264d27aae665) for reference)
 2. Add new README_xx_XX.md with a mention from README.md.
 3. Add new issue template.
 4. Add new label for issue.
+5. Run `Sync all to ParaTranz` workflow with the new language code.
+6. Run `Publish nightly lang pack` workflow with the new language code.
 
 ### How workflows work
 
