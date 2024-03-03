@@ -174,8 +174,13 @@ class Action:
     ############################################################################
 
     # Gt Lang
-    async def _gt_lang_to_paratranz(self, subdirectory: Path) -> None:
-        with open(subdirectory / settings.GT_LANG_TARGET_REL_PATH, 'r', encoding='UTF-8') as f:
+    async def _gt_lang_to_paratranz(
+        self,
+        repo_path: Path,
+        subdirectory: Path,
+    ) -> None:
+        base_path: Path = repo_path / subdirectory
+        with open(base_path / settings.GT_LANG_TARGET_REL_PATH, 'r', encoding='UTF-8') as f:
             gt_lang_file = FiletypeGTLang(
                 relpath=settings.GT_LANG_TARGET_REL_PATH,
                 content=ensure_lf(f.read()),
@@ -184,8 +189,12 @@ class Action:
         gt_paratranz_file = await self.converter.to_paratranz_file(gt_lang_file)
         await self.client.upload_file(gt_paratranz_file)
 
-    def gt_lang_to_paratranz(self, subdirectory: str = ".") -> None:
-        asyncio.run(self._gt_lang_to_paratranz(Path(subdirectory)))
+    def gt_lang_to_paratranz(
+        self,
+        repo_path: str = ".",
+        subdirectory: str = "."
+    ) -> None:
+        asyncio.run(self._gt_lang_to_paratranz(Path(repo_path), Path(subdirectory)))
 
     # Commit changes made to nightly modpack
     async def _save_nightly_modpack_history(
@@ -236,32 +245,30 @@ class Action:
             repo_path: Path,
             subdirectory: Path,
     ) -> None:
-        if repo_path is not None:
-            os.chdir(repo_path)
-
+        base_path: Path = repo_path / subdirectory
         with subprocess.Popen(['git', 'diff', '--name-only', 'HEAD^..HEAD'], encoding='UTF-8', stdout=subprocess.PIPE, stderr=subprocess.PIPE) as p:
-            changed_files: list[str] = [os.path.relpath(str.strip(line), subdirectory) for line in p.stdout]
+            changed_relpaths: list[str] = [os.path.relpath(str.strip(line), base_path) for line in p.stdout]
             logger.info('detected lang updates:')
-            for change in changed_files:
+            for change in changed_relpaths:
                 logger.info(change)
             logger.info('#'*30)
 
-        if settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH in changed_files:
-            with open(subdirectory / settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
+        if settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH in changed_relpaths:
+            with open(base_path / settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
                 content = f.read()
             qb_lang_file = FiletypeLang(
                 relpath=settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=content, language=Language.en_US
             )
             qb_paratranz_file = await self.converter.to_paratranz_file(qb_lang_file)
             await self.client.upload_file(qb_paratranz_file)
-            changed_files.remove(settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH)
+            changed_relpaths.remove(settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH)
 
         lang_files = []
-        for file_path in changed_files:
+        for file_path in changed_relpaths:
             if 'resources' not in file_path:
                 logger.warning(f'Suspecious file detected in changed files: {file_path}')
                 continue
-            with open(subdirectory / file_path, 'r', encoding='UTF-8') as f:
+            with open(base_path / file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
             lang_files.append(FiletypeLang(file_path, content))
 
@@ -278,9 +285,6 @@ class Action:
         # noinspection PyTypeChecker
         await asyncio.gather(*tasks)
 
-        if repo_path is not None:
-            os.chdir('..')
-
     def conditional_sync_to_paratranz(
             self,
             repo_path: str = ".",
@@ -294,10 +298,8 @@ class Action:
             repo_path: Path,
             subdirectory: Path,
     ) -> None:
-        if repo_path is not None:
-            os.chdir(repo_path)
-
-        with open(subdirectory / settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
+        base_path: Path = repo_path / subdirectory
+        with open(base_path / settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
             content = f.read()
         qb_lang_file = FiletypeLang(
             relpath=settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=content, language=Language.en_US
@@ -306,10 +308,10 @@ class Action:
         await self.client.upload_file(qb_paratranz_file)
 
         lang_files = []
-        for file_path in glob.glob(f'./{subdirectory}/resources/*/lang/en_US.lang'):
+        for file_path in glob.glob(f'./{base_path}/resources/*/lang/en_US.lang'):
             with open(file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
-            lang_files.append(FiletypeLang(os.path.relpath(file_path, subdirectory), content))
+            lang_files.append(FiletypeLang(os.path.relpath(file_path, base_path), content))
 
         # concurrency number
         sem = asyncio.Semaphore(10)
@@ -324,10 +326,7 @@ class Action:
         # noinspection PyTypeChecker
         await asyncio.gather(*tasks)
 
-        if repo_path is not None:
-            os.chdir('..')
-
-        await self._gt_lang_to_paratranz(subdirectory)
+        await self._gt_lang_to_paratranz(repo_path, subdirectory)
 
     def sync_all_to_paratranz(
             self,
