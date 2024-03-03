@@ -38,3 +38,7 @@ jobs:
         uses: ./.github/workflows/publish-nightly-lang-pack.yml
         with:
           target_lang: tr_TR
+      - name: de_DE
+        uses: ./.github/workflows/publish-nightly-lang-pack.yml
+        with:
+          target_lang: de_DE
