@@ -1,0 +1,418 @@
+#Vanilla Tool Tips
+tooltip.wawla.heldItem=Held Item
+tooltip.wawla.feet=Feet
+tooltip.wawla.leggings=Leggings
+tooltip.wawla.chestplate=Chestplate
+tooltip.wawla.helmet=Helmet
+tooltip.wawla.item=Item
+tooltip.wawla.owner=Owner
+tooltip.wawla.jumpStrength=Jump Strength
+tooltip.wawla.speed=Speed
+tooltip.wawla.canHarvest=Harvestable
+tooltip.wawla.toolType=Correct Tool
+tooltip.wawla.yes=Yes
+tooltip.wawla.no=No
+tooltip.wawla.burnTime=Burn Time
+tooltip.wawla.seconds=Seconds Remaining
+tooltip.wawla.input=Input
+tooltip.wawla.output=Output
+tooltip.wawla.fuel=Fuel
+tooltip.wawla.levels=Levels
+tooltip.wawla.primary=First Effect
+tooltip.wawla.secondary=Second Effect
+tooltip.wawla.shiftEnch=Hold the Sneak key for Enchantment Description
+tooltip.wawla.blockLevel=Required Tier
+tooltip.wawla.amount=Amount
+tooltip.wawla.lightLevel=Light Level
+tooltip.wawla.sit=Sitting
+tooltip.wawla.birth=Cooldown
+tooltip.wawla.age=Adulthood
+tooltip.wawla.tooltype.shovel=Shovel
+tooltip.wawla.tooltype.pickaxe=Pickaxe
+tooltip.wawla.tooltype.axe=Axe
+tooltip.wawla.armorprot=Protection
+tooltip.wawla.armor=Armor Points
+tooltip.wawla.progress=Progress
+tooltip.wawla.missingEnch=No description was found for this enchantment. 
+tooltip.wawla.tnt.fuse=Fuse Time
+tooltip.wawla.profession=Profession
+tooltip.wawla.unknownplayer=Unknown Player
+tooltip.wawla.sleepable=Sleepable
+tooltip.wawla.hardness=Hardness
+tooltip.wawla.resistance=Blast Resistance
+tooltip.wawla.enchPower=Enchantment Power
+
+#Fixed/Missing Strings
+tile.null.name=Unnamed Block, report to mod author.
+entity.ItemFrame.name=Item Frame
+
+#Vanilla Module Options
+option.wawla.showEquipment=Entity Equipment?
+option.wawla.furnace.output=Furnace Output?
+option.wawla.showHead=Player Head Names?
+option.wawla.horse.showJump=Horse Jump Power?
+option.wawla.furnace.fuel=Furnace Fuel?
+option.wawla.harvest.showHarvest=Harvestability?
+option.wawla.harvest.showTool=Correct Tool?
+option.wawla.harvest.showTier=Correct Tier?
+option.wawla.furnace.input=Furnace Input?
+option.wawla.furnace.burntime=Furnace Burn Time?
+option.wawla.horse.showSpeed=Horse Speed?
+option.wawla.showEnchDesc=Enchantment Descriptions?
+option.wawla.beacon.showLevels=Beacon Level?
+option.wawla.beacon.showPrimary=Prime Beacon Effect?
+option.wawla.beacon.showSecondary=Second Beacon Effect?
+option.wawla.light.lightLevel=Light Level?
+option.wawla.light.showDay=Day Light Level?
+option.wawla.light.monsterSpawn=Monster Light Level?
+option.wawla.pets.showOwner=Pet Owner?
+option.wawla.pets.cooldown=Birth Cooldown?
+option.wawla.pets.age=Baby Age?
+option.wawla.pets.sitting=Sitting?
+option.wawla.showMobArmor=Show Mob Armor Value?
+option.wawla.harvest.showProgress=Show Block Breaking Progression
+option.wawla.tnt.fuse=Show Fuse Time
+option.wawla.showProfession=Show Villager Profession
+option.wawla.bed.sleepable=Bed Status?
+option.wawla.info.showHardness=Show Block Hardness?
+option.wawla.info.showResistance=Show Blast Resistance?
+
+#Vanilla Enchantment Descriptions
+description.enchantment.protect.all=This enchantment reduces damage done to the wearer from many damage sources. It stacks with enchantments such as Fire Resistance and Feather Falling however it is possible to hit a limit on how much damage will be reduced. This enchantment can be applied to all armour types.
+description.enchantment.protect.fire=This enchantment reduces damage taken from fire sources such as fire, blazes and lava. This enchantment also reduces the total amount of time the wearer will stay on fire. This enchantment can be applied to all armour types. 
+description.enchantment.protect.fall=This enchantment reduces damage taken from falling, it also reduces damage taken when using ender pearls. This enchantment is only applicable to boots.
+description.enchantment.protect.explosion=This enchantment reduces damage taken from explosions such as tnt or creepers. This enchantment also reduces the knockback from explosions. This enchantment can be applied to all armour types.
+description.enchantment.protect.projectile=This enchantment reduces damage taken from projectiles such as arrows and fire charges. This enchantment can be applied to all armour types.
+description.enchantment.oxygen=This enchantment improves the vision of the wearer when under water. The enchantment will also increase the total air of the wearer by 15 seconds per level. Time between suffocation damage is also increased by a second per level. This enchantment can only be applied to helmets.
+description.enchantment.waterWorker=This enchantment improves the block breaking speed of the wearer when under water. This enchantment can only be applied to helmets. 
+description.enchantment.thorns=This enchantment has a 15% chance per level to damage mobs that hurt the wearer by half a heart to two hearts. This enchantment can be applied to all armour types. 
+description.enchantment.damage.all=This enchantment increases the damage of the item by 1.25 damage per level. This enchantment can be applied to many tool types however a sword is the primary item. 
+description.enchantment.damage.undead=This enchantment increases damage done to undead mobs such as skeletons, zombies and the wither by 2.5 damage per level. This enchantment can be applied to many tools however a sword is the primary item.
+description.enchantment.damage.arthropods=This enchantment increases damage done to "spider" based mobs such as Spiders, Cave Spiders, Silverfish and Endermites by 2.5 damage per level. This enchantment can be applied to many tools however swords are the primary item.
+description.enchantment.knockback=This enchantment causes mobs hit to knocked away from the player. This enchantment can be applied only to swords.
+description.enchantment.fire=This enchantment causes mobs hit to be set on fire. The mob will receive 3 points of fire damage with an additional 4 points of fire damage for every level afterwards. This enchantment can only be applied to swords. 
+description.enchantment.lootBonus=This enchantment causes mobs to drop more loot. The maximum amount of loot dropped is increased by 1 per level. The chance of rare drops is increased by 3% plus an addition .5% per level afterwards. This enchantment can only be applied to swords.
+description.enchantment.digging=This enchantment causes blocks to break faster by 30%/69%/120%/186%/271%. For the effect to apply the tool must be used on the correct block. This effect be applied to picks, shovels, axes and shears.
+description.enchantment.untouching=This enchantment allows blocks that are normally not obtainable to be obtainable. Examples include ice, grass and ore blocks. This enchantment can be applied to picks, shovels, axes and shears.
+description.enchantment.durability=This enchantment increases the average durability of a tool or piece of armour. This effect can be applied to almost any item in the game as long as it has durability. Examples include flint and steel, fishing rods, all armour types and tools.
+description.enchantment.lootBonusDigger=This enchantment gives certain blocks the chance to drop twice as many items. Each level increases to the amount of chances. The odds that a chance will succeed are decreased however the drop modifier is increased. 33%/25%/20% for 2/3/4 times the drops. For blocks that drop multiple items such as melons the maximum amount of items that could be dropped is increased by 1 per level. The chance to get flint from gravel is also increased offering a 14%/25/100% chance to drop flint. This enchantment can be applied to picks, shovels and axes.
+description.enchantment.arrowDamage=This enchantment increases damage done by a bow by 25% multiplied by the level + 1. Damage is rounded to the nearest half heart. This enchantment is only for bows.
+description.enchantment.arrowKnockback=This enchantment will cause mobs to be knocked away from the player when hit. This enchantment is for bows.
+description.enchantment.arrowFire=This enchantment will set cause arrows launched to be set on fire. Mobs hit will also be set on fire. This fire only affects mobs, players and tnt blocks. This enchantment is only for bows. 
+description.enchantment.arrowInfinite=This enchantment prevents arrows from being consumed when fired. This effect requires that the player has at least one arrow in their inventory. This enchantment is only for bows.
+description.enchantment.lootBonusFishing=This enchantment increases the players odds of getting treasure when fishing by 1% per level. This enchantment is only for fishing rods.
+description.enchantment.fishingSpeed=This enchantment decreases the time it takes for a fish to bite the hook by 5 seconds per level. This also increases the chance to get junk and treasure by 1% per level.
+
+#Villager Professions
+description.villager.profession.farmer=Farmer
+description.villager.profession.librarian=Librarian
+description.villager.profession.priest=Priest
+description.villager.profession.blacksmith=Blacksmith
+description.villager.profession.butcher=Butcher
+description.villager.profession.zombie=Zombie
+description.villager.profession.witch=Witch
+description.villager.profession.misingno=Default
+description.villager.profession.openblocks.king-ish=The King(ish)
+description.villager.profession.tinker.villagertools=Tinkerer
+description.villager.profession.extvil.Miller=Miller
+description.villager.profession.extvil.Fisher=Fisher
+description.villager.profession.extvil.Baker=Baker
+description.villager.profession.extvil.Miner=Miner
+description.villager.profession.extvil.Scientist=Scientist
+description.villager.profession.extvillom.Tanner=Tanner
+description.villager.profession.forestry.beekeeper=Bee Keeper
+description.villager.profession.forestry.lumberjack=Lumberjack
+description.villager.profession.mystcraft.archivist=Archivist
+description.villager.profession.bcaddons.Engineer=Engineer
+description.villager.profession.thaumcraft.wizard=Wizard
+description.villager.profession.thaumcraft.moneychanger=Merchant
+description.villager.profession.compactmachines.villager=Compact Machinist
+description.villager.profession.railcraft.trackman=Rail Worker
+description.villager.profession.pneumaticcraft.VillagerMechanic=Mechanic
+description.villager.profession.witchery.apothecary=Apothecary
+description.villager.profession.minefactoryreloaded.zoologist=Zoologist
+description.villager.profession.is_mtc.card_master=Card Master
+description.villager.profession.gravestone.undertaker=Undertaker
+description.villager.profession.gcewing_sg.tokra=Tok'ra
+description.villager.profession.steamcraft.villager=Steamcrafter
+description.villager.profession.fantastic.fantastic_fisherman=Fantastic Fisherman
+description.villager.profession.defeatedcrow.villager_cafe=Cafe
+description.villager.profession.defeatedcrow.villager_yome=Yome
+description.villager.profession.grccellar.brewer=Brewer
+description.villager.profession.peripheralsplusplus.CCVillager=Computer Technician
+description.villager.profession.evilcraft.werewolfVillager=Werewolf
+description.villager.profession.redgear_brewcraft.villagerwitch=Witch
+description.villager.profession.redgear_brewcraft.villagerwarlock=Warlock
+description.villager.profession.fossil.Archaeologist=Archaeologist
+description.villager.profession.pennyarcade.CoinMerchant=Coin Vendor
+description.villager.profession.psychedelicraft.villagerDealer=Drug Dealer
+description.villager.profession.jukeboxreloaded.villager=Record Dealer
+description.villager.profession.minecraft.etymologist=Etymologist
+description.villager.profession.tofucraft.tofucook=Tofu Chef
+description.villager.profession.jewelrycraft.jeweler=Jeweller
+description.villager.profession.taverns.barwench=Bar Maid
+description.villager.profession.taverns.village_shepherdess=Shepherdess
+description.villager.profession.taverns.village_hostler=Hostler
+description.villager.profession.taverns.village_baker=Baker
+description.villager.profession.tynkyn.jx_villager_chef=Chef
+description.villager.profession.tynkyn.jx_villager_recycle=Recycling
+description.villager.profession.tynkyn.jx_villager_botanist=Botanist
+description.villager.profession.lozmod.villager_beedle=Beedle
+description.villager.profession.lozmod.villager_beedle_special=Beedle
+description.villager.profession.minecraft.farmer=Farmer
+description.villager.profession.savemoney.insurer=Insurer
+description.villager.profession.gvcguns.gvcVillager=Arms Dealer
+description.villager.profession.actuallyadditions.jamVillager=Jam Villager
+description.villager.profession.jewelrycraft2.jeweler=Jeweler
+description.villager.profession.pokecube_adventures.cubesalesman=Salesman
+description.villager.profession.terraarts.YE3TE2y=YE3TE2y
+description.villager.profession.xw.smithy3=Smithy
+description.villager.profession.xw.hunter_v1=Hunter
+description.villager.profession.diversity.warrior=Warrior
+description.villager.profession.diversity.priest=Priest
+description.villager.profession.diversity.butcher=Butcher
+description.villager.profession.diversity.chief=Chief
+description.villager.profession.diversity.breeder=Breeder
+description.villager.profession.diversity.guru=Guru
+description.villager.profession.diversity.farmer=Farmer
+description.villager.profession.jbrobot.jbvillagerblock=Blocks
+description.villager.profession.jbrobot.jbvillageritem=Items
+description.villager.profession.jbrobot.jbvillagermodel=Models
+description.villager.profession.jbrobot.jbvillagermotion=Motion
+description.villager.profession.jbrobot.jbvillagercarving=Carving
+description.villager.profession.wa.villager=Villager
+description.villager.profession.wa.swordsmith=Swordsmith
+description.villager.profession.wa.teaMaster=Tea Master
+description.villager.profession.wa.priest=Priest
+description.villager.profession.rftools.rftoolsvillager=RFTools Engineer
+description.villager.profession.forbidden.heretic=Heretic
+description.villager.profession.agricraft.villager=Agricraft Farmer
+
+#Jewelrycraft Tooltips
+tooltip.wawla.jewelry.molten=Molten
+tooltip.wawla.jewelry.unmelted=Unmelted
+tooltip.wawla.jewelry.melttime=Melt Time
+tooltip.wawla.jewelry.cooling=Cooling
+
+#Jewelrycraft Options
+option.wawla.jewelrycraft.showMoltenAmount=Molten Amounts
+option.wawla.jewelrycraft.showMetalAmount=Unmelted Amounts
+option.wawla.jewelrycraft.showMeltTime=Melting Time
+option.wawla.jewelrycraft.showCooling=Cooling Time
+
+#Tinkers Construct Tooltips
+tooltip.wawla.tinkers.dryness=Dryness
+
+#Tinkers Construct Options
+option.wawla.tinkers.hideLandmine=Hide landmines?
+option.wawla.tinkers.showDryerTime=Drying rack progress?
+option.wawla.tinkers.showDryerItem=Drying rack item?
+option.wawla.tinkers.showFurnace=Slab furnace contents?
+option.wawla.tinkers.showBurnTime=Burn Time?
+
+#AquaCulture Enchantment Descriptions
+description.enchantment.aquacultureAppealing=This enchantment gives the player a greater amount of time to catch fish.
+description.enchantment.aquacultureBarbedHook=This enchantment gives the player a better chance of catching the fish.
+description.enchantment.aquacultureDoubleHook=This enchantment allows the player to get more than one fish or loot.
+description.enchantment.aquacultureHeavyLine=This enchantment allows the player to catch larger and heavier fish.
+description.enchantment.aquacultureLongCast=This enchantment allows the hook(bobber) of the fishing rod, to be casted longer.
+description.enchantment.aquacultureMagnetic=This enchantment gives the player a greater chance to catch fish.
+description.enchantment.aquacultureShortCast=This enchantment allows the hook(bobber) of the fishing rod, to be casted shorter.
+
+#Pixelmon Tooltips
+tooltip.wawla.pixelmon.male=male
+tooltip.wawla.pixelmon.female=female
+tooltip.wawla.pixelmon.ability=Ability
+tooltip.wawla.pixelmon.happiness=Happiness
+tooltip.wawla.pixelmon.helditem=Held Item
+tooltip.wawla.pixelmon.none=None
+tooltip.wawla.pixelmon.attack=Attack
+tooltip.wawla.pixelmon.defence=Defence
+tooltip.wawla.pixelmon.health=HP
+tooltip.wawla.pixelmon.spattack=Special Attack
+tooltip.wawla.pixelmon.spdefence=Special Defence
+tooltip.wawla.pixelmon.speed=Speed
+tooltip.wawla.pixelmon.iv=IV
+tooltip.wawla.pixelmon.ev=EV
+tooltip.wawla.pixelmon.growth=Growth
+tooltip.wawla.pixelmon.product=Product
+tooltip.wawla.pixelmon.nature=Nature
+tooltip.wawla.pixelmon.size=Size
+
+#Pixelmon Fixed Strings
+entity.pixelmon.Pixelmon.name=Pixelmon
+
+#Pixelmon Options
+option.wawla.pixelmon.showFriendship=Happiness?
+option.wawla.pixelmon.showApricornProduct=Apricorn Type?
+option.wawla.pixelmon.showApricornGrowth=Apricorn Growth?
+option.wawla.pixelmon.showAbility=Abilities?
+option.wawla.pixelmon.showHeldItem=Held Item?
+option.wawla.pixelmon.showNature=Natures?
+option.wawla.pixelmon.showSize=Size?
+option.wawla.pixelmon.showIV=Show IV's?
+option.wawla.pixelmon.showEV=Show EV's?
+
+#Thaumcraft Tooltips
+tooltip.wawla.thaumcraft.aspect=Aspect
+tooltip.wawla.thaumcraft.linked=Linked
+tooltip.wawla.thaumcraft.dimension=Dimension
+tooltip.wawla.thaumcraft.experience=Experience
+
+#Thaumcraft Options
+option.wawla.thaumcraft.jarAspect=Jar Aspects?
+option.wawla.thaumcraft.jarAmount=Jar Amount?
+option.wawla.thaumcraft.mirrorLink=Mirror Link?
+option.wawla.thaumcraft.mirrorDim=Mirror Dimension?
+option.wawla.thaumcraft.jarEXP=Jar Experience?
+option.wawla.thaumcraft.wandItem=Recharge Item?
+option.wawla.thaumcraft.wandCharge=Wand Charge?
+option.wawla.thaumcraft.pedestalItem=Pedestal Item?
+option.wawla.thaumcraft.deconAspect=Deconstruction Aspect?
+
+#Artifice Enchantment Descriptions
+description.enchantment.artifice.invisible=An armour enchantment which makes the equipped piece of armour look invisible.
+description.enchantment.artifice.soulstealing=A weapon enchantment that causes mobs to drop additional experience points. Higher levels causes the amount of exp to increase.
+description.enchantment.artifice.resistance=An armour enchantment which provides protection from magical damage and wither damage. Higher levels offer better resistance.
+
+#Thaumcraft Enchantment Descriptions
+description.enchantment.repair=Causes items to repair durability over time. This enchantment has two tiers, the second tier restoring durability at a faster rate. This enchantment can be used on weapons, Wand Foci and other tools, excluding shears.
+description.enchantment.haste=Grants faster movement speed. This enchantment has three tiers, each increasing the speed boost given.
+description.enchantment.potency=Increases the strength of a spell. This is a three tier enchantment, each increasing the strength of the casted spell. This enchantment is only applicable for Wand Foci and can have a different effect depending on what Foci is being used.
+description.enchantment.frugal=Reduces the amount of vis consumed when a Wand Foci is used. This is a tier three enchantment, each tier granting a greater reduction. This enchantment is only applicable for Wand Foci.
+description.enchantment.wandfortune=This enchantment is much like the fortune enchantment, allowing blocks which drop items to have a higher yield. This enchantment has three tiers, each increasing the chance for extra yield. This enchantment is only applicable for Wand Foci.
+
+#Thaumic Tinkerer Enchantment Descriptions
+description.enchantment.ttinkerer:slowFall=This enchantment will allow the wearer to fall at a slower speed and will also reduce the fall damage, however it will not negate it. This enchantment can be applied to boots.
+description.enchantment.ttinkerer:ascentBoost=This enchantment allows the wearer to jump considerably higher then normal. This enchantment can be applied on leggings.
+description.enchantment.ttinkerer:pounce=This enchantment will make the players attacks stronger while they are in the air. This enchantment can only be applied to leggings.
+description.enchantment.ttinkerer:shockwave=This enchantment will allow you to damage nearby entities when you fall. This effect is weakened by items which reduce your fall damage.
+description.enchantment.ttinkerer:autoSmelt=When applied to a tool, this enchantment will allow the tool to break through wooden blocks easier. This effect will make the tool take double durability against other blocks.
+description.enchantment.ttinkerer:tunnel=When applied to a tool, this enchantment will increase the digging speed when breaking blocks in a strait line.
+description.enchantment.ttinkerer:shatter=When applied to a tool, this tool will have a greater digging speed when breaking strong blocks.
+description.enchantment.ttinkerer:desintegrate=When applied to tools, this tool will break basic blocks such as dirt or stone, which the tool is suited against. Blocks which the tool will not normally break will cause double durability damage.
+description.enchantment.ttinkerer:vampirism=This enchantment can only be applied to swords. This effect will cause a portion of damage dealt to be put towards healing the user.
+description.enchantment.ttinkerer:dispersedStrike=This enchantment can only be applied to swords. This effect will cause a sword strike will have a successive strike. The successive strikes will deal less damage.
+description.enchantment.ttinkerer:focusedStrike=This effect can only be applied to swords. This effect will cause the damage dealt by an initial strike to be decreased, however successive strikes on the same mob will be increased.
+description.enchantment.ttinkerer:finalStrike=This enchantment can only be applied to swords. When damage is dealt, this effect gives a chance to triple the damage.
+description.enchantment.ttinkerer:valiance=This enchantment can only be applied to swords. This effect will increase the damage dealt when the holder has a lower health.
+description.enchantment.ttinkerer:quickDraw=This enchantment is designed for bows, when applied, the time to fully draw the bow is faster.
+
+#Ars Magica 2 Enchantment Descriptions
+description.enchantment.magicresist=Reduces amount of damage received from magical sources.
+description.enchantment.soulbound=When the player dies, this item will be kept in the inventory on respawn, and will not drop on the ground.
+
+#Red Power 2 Enchantment Descriptions
+description.enchantment.vorpal=Increases the chance that a mob will drop its head on death.
+description.enchantment.disjunction=Increases damage dealt to Enderman and Wither Skeletons.
+
+#Special Mobs Enchantment Descriptions
+description.enchantment.SpecialMobs.painBow=A bow based enchantment which deals additional damage which will bypass protection. Each level deals an additional half heart of damage.
+description.enchantment.SpecialMobs.painSword=A sword based enchantment which deals additional damage which will bypass protection. Each level deals an additional half heart of damage.
+description.enchantment.SpecialMobs.plagueBow=A bow based enchantment which gives the damaged mob a random negative effect. The possible effects are slowness, nausea, blindness, hunger, weakness and poison.
+description.enchantment.SpecialMobs.plagueSword=A sword based enchantment which gives the damaged mob a random negative effect. The possible effects are slowness, nausea, blindness, hunger, weakness and poison.
+description.enchantment.SpecialMobs.poisonBow=A bow based enchantment which gives the damaged mob poison. Each level increases the power of the poison effect applied.
+description.enchantment.SpecialMobs.poisonSword=A sword based enchantment which gives the damaged mob poison. Each level increases the power of the poison effect applied.
+
+#Natural Absorption Enchantment Descriptions
+description.enchantment.NaturalAbsorption.absorb=An enchantment for armour. The equipped piece of armour will increase the players maximum absorption amount.
+
+#Simple Flight Enchantment Descriptions
+description.enchantment.fly_longer=Increases the total amount of flaps on Simple Flight devices.
+description.enchantment.fly_faster=Decreases the duration between flaps on Simple Flight devices. Useless on Jet Packs and Jet Gliders.
+
+#More Swords Mod Enchantment Descriptions
+description.msm.unused=Note: This item/block has been added to help achieve compatibility with other mods. As of now these do not do anything and are not an ordinary part of this mod. No new ores or tools will be added this is ONLY for for mod compatibility.
+description.enchantment.msm.ignite=This enchantment will set damaged mobs on fire doing damage equal to that of the enchantment level.
+description.enchantment.msm.spark=This enchantment will do 3 fire damage to mobs within 2.4 blocks of the damaged mob. Both the player and the target mob will not be set on fire.
+description.enchantment.msm.feast=This enchantment will restore 0-3 durability when used. The amount restored is multiplied by the level of the effect.
+description.enchantment.msm.vitality=This enchantment will consume 256 durability when used and in turn give the user several buffs such as regen, insta health and extra hearts.
+description.enchantment.msm.venomAspect=This enchantment will poison target mob. The effect will last for seconds equivalent to the level of the effect. It's worth noting that many vanilla mobs such as spiders, zombies and skeletons can not be poisoned rendering this effect useless.
+description.enchantment.msm.absorb=This enchantment has a 5% chance to restore 0-2 hunger points when used.
+description.enchantment.msm.keenEdge=This enchantment increases the damage of the sword by 1 for each level of the effect.
+description.enchantment.msm.scorn=This enchantment will double the damage of the sword by 2 when used in dimensions other than the surface world.
+description.enchantment.msm.enderPulse=This enchantment will warp the player where they are looking when used. This effect has a range of 18 blocks per level. This enchantment will damage the item by 50 points every time it is used. The player will also take 1 damage in fall damage.
+description.enchantment.msm.enderAura=This enchantment has a 15% chance of activating when the player is hit. When activated the player will warp to a random mob within 30 blocks. This mob may not always be friendly. If no mob is found then the effect will be canceled.
+description.enchantment.msm.greed=This enchantment has a 7% chance to drop 1-3 extra points of exp.
+description.enchantment.msm.wisdom=This enchantment is currently broken. My bad :/
+description.enchantment.msm.frozenAspect=This enchantment will slow mobs for 3 seconds per level.
+description.enchantment.msm.frostWave=This enchantment will slow mobs within 2.5 blocks of the target mob for 1.5 seconds.
+description.enchantment.msm.ascension=This enchantment will propel targeted mobs upwards into the air. Hit the mob before it hits the ground to make increase the launch aspect of the effect exponential amount.
+description.enchantment.msm.descension=This enchantment will cause the player to fall at a much slower rate than normal. To activate the effect press and hold shift.
+description.enchantment.msm.shadows=This enchantment will blind the target mob for 1.5 seconds. There is also a 12% chance that the wither effect will be applied for a second.
+description.enchantment.msm.decay=This enchantment will apply the wither effect to the target mob for just under 4 seconds.
+description.enchantment.msm.stealth=This enchantment will cause the player to become invisible when activated. Unlike the potion of invisibility this effect will not give off particles and has no time limit or duration. To toggle this on or off simply right click with the sword. It's worth noting that swords and armor will still be visible while this effect is enabled.
+description.enchantment.msm.extinction=This enchantment will kill all mobs on the map that are an instance of the target mob. This can be used on boats to kill all boats in the world and can be used to manage entities in the world. This effect will not target players.
+
+#Railcraft Enchantments
+description.enchantment.railcraft.crowbar.destruction=This enchant is exclusively for crowbars. Deconstructs blocks in a wide area.
+description.enchantment.railcraft.crowbar.implosion=This enchant is exclusively for crowbars. Increases damage dealt to Creepers.
+description.enchantment.railcraft.crowbar.wrecking=This enchant is exclusively for crowbars. Increases damage (works the same as Sharpness).
+
+#OpenBlocks Enchantments
+description.enchantment.openblocks.explosive=When taking damage, Gunpowder will be consumed to create an explosion that damages mobs and blocks.
+description.enchantment.openblocks.flimflam=Brings "bad luck" to anything that attacks the player.
+description.enchantment.openblocks.laststand=When the user is at half a heart, instead of dying from the next blow it uses XP levels to absorb damage.
+
+#Forbidden Magic Enchantments
+description.enchantment.cluster=A Chameleon Pickaxe with the Fiery Core enchantment has a chance of dropping clusters when mining certain ores. Clusters are a lot purer than raw ore and can be smelted for the of the ore's normal smelting result. Higher levels of Fiery Core increase the chance of dropping clusters.
+description.enchantment.consuming=Any Cobblestone, Dirt, Gravel, or Netherrack mined by a Consuming tool will be destroyed instead of falling to the ground.
+description.enchantment.corrupting=The Corrupting enchant allows you to harvest Nether Shards without having to be in the Nether. A pickaxe enchanted with Corrupting will randomly corrupt harvested elemental shards, changing them into nether shards. The shards only seem susceptible while they are encased in infused stone, so corrupting a shard cluster will have no effect.
+description.enchantment.educational=You've created an enchantment to infuse a weapon with the very essence of knowledge and learning. Hammering such learning into monsters' heads will result in them dropping more experience than normal, depending on the level of enchantment.
+description.enchantment.greedy=Every time a Capitalist weapon slays a hostile creature, there's a chance to drop Emerald Fragment. If a Capitalist weapon is used to kill a villager, it will instead drop one of the villager's emeralds.
+description.enchantment.impact=A Chameleon Tools with Impact enchantment mines a 3 x 3 area of blocks instead of just one, making exploratory mining faster and flattening areas much easier.
+description.enchantment.voidtouched=The Voidtouched enchant gives Chameleon Tool the same regenerating quality as Void Tools.
+description.enchantment.wrath=The Wrath enchantment increases the offensive power of a weapon, but is still compatible with Sharpness, Bane of Arthropods and Smite.
+
+#BiblioCraft Enchantments
+description.Eternal Compass=When the player dies, they will spawn with an Eternal Compass which will lead them back to their death point.
+description.Reading=When looking at items in BiblioCraft blocks in the world their hover text will be displayed.
+
+#Witching Gadgets Enchantments
+description.enchantment.wg.backstab=Items enchanted with Backstabbing do additional 20% damage per level when attacking from behind, plus another 40% when the target is not aware of you.
+description.enchantment.wg.gemstoneBrittle=Infuse a witchery cut gem with brittleness.
+description.enchantment.wg.gemstonePotency=Infuse a witchery cut gem to make it more potent.
+description.enchantment.wg.invisibleGear=The first level of this enchantment will make your gear translucent when you are invsible yourself, the second level will make it permanently invisible.
+description.enchantment.wg.rideProtect=Moving around is incredibly difficult when someone is piggyback-riding you. Enchanting your helmet with this repulsion spell should fix that problem. Everyone who tries to jump upon you will get thrown off and damaged.
+description.enchantment.wg.soulbound=When the player dies the item/tool/armor will be kept in the inventory and not drop on the ground.
+description.enchantment.wg.stealth=Applying this enchantment to your boots or leggings will give you a chance of staying undetected while you are crouching. The chance rises by 10% with every level, but is diminished by 10% if you are in view of the target in question. Should you be discovered, all enemies in a 5 block radius will be notified.
+description.enchantment.wg.unveiling=This enchantment can be applied to the Goggles of Revealing or other headgear of the same function. While wearing the enchanted item, you will be able to see creatures with the invisibility buff. Furthermore, the Translucency enchantment is rendered ineffective when used by others and users of the spectral mantle are shown more clearly.
+
+#Thaumic Exploration Enchantments
+description.enchantment.binding=At level I, slows mobs hit for a few seconds. At level II, prevents Endermen from teleporting and Creepers from exploding for a few seconds.
+description.enchantment.disarm=Attacked enemies have a chance to drop their weapons, does not work on other players. Note: The Thorns enchantment from Vanilla also triggers this.
+description.enchantment.nightVision=Gain a permanent Nightvision potion effect while holding an item with this enchantment.
+
+#EnderIO Enchantments
+description.enchantment.autosmelt=Any block mined by an item enchanted with this will have its drop instantly smelted as if processed by a Furnace.
+description.enchantment.xpboost=This enchantment increases the amount of Experience dropped by killing mobs or players or by breaking blocks by a percentage. 
+description.enchantment.enderio.soulBound=When the player dies the item/tool/armor will be kept in the inventory and not drop on the ground.
+
+#EnderZoo Enchantments
+description.enchantment.enderzoo.witherArrow=Applies Wither effect on hit for 5 seconds.
+description.enchantment.enderzoo.witherWeapon=Applies Wither effect on hit for 5 seconds.
+
+#BattleGear Enchantments
+description.enchantment.bash.weightless=Reduce the stamina loss per shield bash.
+description.enchantment.bash.power=Increase the push force on shield bash (further repulse the opponent).
+description.enchantment.bash.damage=Adds damage to a shield bash.
+description.enchantment.shield.usage=Reduce the stamina lost on shield block.
+description.enchantment.shield.recover=Increase the stamina recovery rate when holding the shield, but not when blocking.
+description.enchantment.bow.loot=Adds a chance to increase loot on killing with a bow.
+description.enchantment.bow.charge=Lower charge time for the bow, without effecting the FOV.
+
+#Thaumic Bases Enchantments
+description.enchantment.elderKnowledge=Chance to recieve knowledge from fallen mobs.
+description.enchantment.eldritchBane=Deal more damage to eldritch creatures.
+description.enchantment.magicTouch=Gain more Aspect Orbs from killed enemies.
+description.enchantment.tainted=Inflict taint poison on attacked enemies.
+description.enchantment.vaporising=Gain Crystalized Essentia of slain mobs.
+
+#Misc. Enchantments
+description.enchant.cofh.holding=Increases the amount of slots (8-9 per level) of a strongbox or satchel.
+description.enchant.cofh.multishot=Makes bows shoot multiple arrows at 1 arrow cost.
+description.enchantment.draconicevolution.reaperEnchant=Killing a mob has a chance of dropping a corresponding Mob Soul. This bonus chance stacks with the native chance to drop a soul of the various Draconic Evolution weapons.
+description.enchantment.damage.endermen=Deal more damage to Ender mobs and prevent them from teleporting.
+description.enchantment.damage.radioactivity=Add radioactivity to your weapon or armor causing mobs or players to suffer.
+description.gadomancy.enchantment.revealer=An enchantment for your helmet. When used, it makes nodes visible, just like Thaumcraft's Goggles of Revealing.
+description.enchantment.projectred.expansion.fuel_efficiency=Better fuel efficiency for your jetpack.

@@ -1,0 +1,74 @@
+#Items
+item.wirelessCraftingTerminal.name=Terminal de Criação Sem Fio
+item.infinityBoosterCard.name=Cartão de Alcance Infinito 
+item.magnetCard.name=Cartão Magnético
+itemGroup.ae2wct=§9Terminal de Criação Sem Fio
+
+#Tooltips
+gui.tooltips.ae2wct.PressShift=Segure §3Shift§r para mais informações
+gui.tooltips.ae2wct.OnlyWorks=Só funciona quando estiver no espaço do Terminal de Criação Sem Fio
+gui.tooltips.ae2wct.TitleDesc=Descrição
+gui.tooltips.ae2wct.InfinityBoosterDesc=Permite um Terminal de Criação Sem Fio ligado ao AE2 ser usado em qualquer distância e através de dimensões. 
+gui.tooltips.ae2wct.MagnetDesc=Um imã que insere itens no sistema do AE automagicamente.
+gui.tooltips.ae2wct.MagnetDesc2=Clique com o botão direito para definir o filtro.
+gui.tooltips.ae2wct.LinkStatus=Status da Ligação
+gui.tooltips.ae2wct.Installed=Instalada
+gui.tooltips.ae2wct.NotInstalled=Não Instalada
+gui.tooltips.ae2wct.Active=Ativa
+gui.tooltips.ae2wct.Inactive=Inativa
+gui.tooltips.ae2wct.Status=Status
+gui.tooltips.ae2wct.EmptyTrash=Limpar Lixeira
+gui.tooltips.ae2wct.EmptyTrashDesc=Deleta os conteúdos no espaço da Lixeira
+gui.tooltips.ae2wct.MagnetFilterTitle=Filtro do Imã
+gui.tooltips.ae2wct.FilterMode=Modo do Filtro
+gui.tooltips.ae2wct.Whitelisting=Permitir
+gui.tooltips.ae2wct.Blacklisting=Bloquear
+gui.tooltips.ae2wct.MagnetActiveDesc1=Itens extras adicionados ao inventário
+gui.tooltips.ae2wct.MagnetActiveDesc2=Itens extras deixados no chão
+gui.tooltips.ae2wct.Not=Não
+gui.tooltips.ae2wct.Using=Usando
+gui.tooltips.ae2wct.Ignore=Ignorar
+gui.tooltips.ae2wct.Ignoring=Ignorando
+gui.tooltips.ae2wct.NBTData=Dados NBT
+gui.tooltips.ae2wct.MetaData=Metadados
+gui.tooltips.ae2wct.OreDict=Ore Dictionary
+gui.tooltips.ae2wct.FilteredItems=Itens Filtrados
+gui.tooltips.ae2wct.OrPress=ou pressione
+gui.tooltips.ae2wct.Press=Pressione
+gui.tooltips.ae2wct.ToSwitchMode=para mudar o modo magnético
+
+#Labels
+gui.labels.ae2wct.WirelessTermLabel=Term. Sem Fio
+
+#Config Descriptions
+config.ae2wct.MaxPowerDesc=Unidade de energia máxima no AE que o terminal consegue conter
+config.ae2wct.InfinityBoosterCfgDesc=Permitir Aprimoramento do Cartão de Alcance Infinito
+config.ae2wct.EasyModeDesc=Permitir Modo Fácil (receitas fáceis + Receita do Cartão de Alcance Infinito)
+config.ae2wct.BoosterDropChance=Chance que o Wither derrubará o Cartão de Alcance Infinito (100% = sempre derrubará)
+config.ae2wct.DisableBoosterDrop=Permite derrubar Cartões de Alcance Infinito no modo díficil (verdadeiro=permitido)
+config.ae2wct.MineTweakerOverride=Permitir sobrepor MineTweaker (verdadeiro=desabilita todas as receitas)
+config.ae2wct.DoVersionCheck=Checar por atualizações
+config.ae2wct.NewVersionAvailable=Nova versão do Terminal de Criação Sem Fio disponível
+config.ae2wct.ClickString=["Clique aqui para ir à pagina de download [",{"text":"Download","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Clique Aqui para baixar a última versão","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
+config.ae2wct.SaveSearchString=Permitir que a pesquisa no terminal persista entre sessões
+
+#Achievements
+achievement.wctAchievement=Criação Digital acima do WiFi 
+achievement.wctAchievement.desc=Crie um Terminal de Criação Sem Fio
+achievement.boosterAchievement=Saco de Criação Interdimensional
+achievement.boosterAchievement.desc=Adquira um Cartão de Alcance Infinito
+achievement.magnetAchievement=Roomba Digital
+achievement.magnetAchievement.desc=Crie um Cartão Magnético
+
+#Chat Messages
+chatmessages.ae2wct.NoNetworkPower=Rede não possui energia!
+chatmessages.ae2wct.MagnetMode1=Cartão Magnético Desativado
+chatmessages.ae2wct.MagnetMode2=Cartão Magnético Ativado - Itens não guardados na rede AE irão ser colocados no inventário
+chatmessages.ae2wct.MagnetMode3=Cartão Magnético Ativado - Itens não colocados na rede AE será deixado no chão
+chatmessages.ae2wct.InitializeMagnet=Você deve primeira apertar com o botão direito com o Cartão Magnético em mãos antes de usar o atalho
+
+#Keybindings
+ae2wct.OpenTerminal=Abrir Terminal de Criação Sem Fio
+ae2wct.OpenMagnetFilter=Abrir Interface de Filtro do Cartão Magnético
+ae2wct.SwitchMagnetMode=Ativar/Desativar Cartão Magnético
+key.categories.ae2wct=Terminal de Criação Sem Fio
