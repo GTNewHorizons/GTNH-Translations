@@ -10,7 +10,7 @@ This is a repository managing all the translations for GTNH.
 
 ### Why?
 
-We dicided to manage all the translations under this repository for these reasons:
+We decided to manage all the translations under this repository for these reasons:
 
 - Each language has one central team so that everyone can collaborate.
 - We can share workflows to manage all the translations, information on changes made to mods, etc.
