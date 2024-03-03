@@ -1,0 +1,422 @@
+#=============Creative Tab Name=============
+itemGroup.EMT.creativeTab=Electro-Magic Tools
+
+#=============Thaumonomicon Tab Name=============
+tc.research_category.EMT=Electro-Magic Tools
+
+#=============GUI=============
+gui.EMT.config.title=Electro-Magic Tools Configuration
+gui.EMT.etherealMacerator.title=Ethereal Processor
+gui.EMT.wandRecharge.title=Industrial Wand Recharge Station
+gui.EMT.inventory=Inventory
+gui.EMT.book.aspect.output.eu.title=Essentia Outputs Book
+gui.EMT.book.aspect.output.essentia.eu=EU Output per Essentia
+gui.EMT.key.unequip=Unequip
+emt.Output=Output:
+emt.Storage=Storage:
+emt.PressShift=<Press SHIFT>
+emt.Generating=Generating:
+emt.Fuel=Fuel
+emt.OutputMax=Output at Max:
+emt.remaining_second=Remaining seconds:
+
+#=============Tooltips=============
+#This comes after a player name. The 's is depicting ownership.
+tooltip.EMT.hammer.broken.The Hammer of Thor=The Hammer of Thor
+tooltip.EMT.hammer.electric=%player%'s Hammer
+tooltip.EMT.hammer.broken.thor=It was once the Hammer of Thor.
+tooltip.EMT.hammer.broken.danger=It is now very dangerous.
+tooltip.EMT.hammer.broken.plsNoRightClick=Do NOT right-click.
+tooltip.EMT.hammer.broken.plsRightClick=Do right-click.
+tooltip.EMT.visDiscount=Vis Discount
+tooltip.EMT.specialEffect=Special Effect
+tooltip.EMT.normalConditions=Normal Conditions
+tooltip.EMT.euPerTick=EU/t
+tooltip.EMT.night=at night
+tooltip.EMT.day=at day
+tooltip.EMT.forget=Didn't I forget a tooltip?
+tooltip.EMT.raining=while raining
+tooltip.EMT.thunder=while in a thunderstorm
+tooltip.EMT.underwater=while under water
+tooltip.EMT.output.double=Output multiplied by 2
+tooltip.EMT.output.triple=Output multiplied by 3
+tooltip.EMT.output.double.nether=when located in the Nether
+tooltip.EMT.output.double.lava=when fed with Ignis Centivis
+tooltip.EMT.output.double.half.height=Higher output at heights (x1 at y = 5, x3 at y=220)
+tooltip.EMT.output.double.half.low=Higher output at depths (x1 at y = 220, x3 at y=5)
+
+#=============Entity Names=============
+entity.EMT.laser.name=Laser
+entity.EMT.archer.name=Guardian Snowman
+entity.EMT.shield.name=Shield
+
+#=============Item Names=============
+item.EMT.oreClusterUranium=Uranium Native Cluster
+item.EMT.crushedOreAmber.name=Crushed Amber Ore
+item.EMT.purifiedOreAmber.name=Purified Amber Ore
+item.EMT.crushedOreCinnabar.name=Crushed Cinnabar Ore
+item.EMT.purifiedOreCinnabar.name=Purified Cinnabar Ore
+item.EMT.thaumiumPlate.name=Thaumium Plate
+item.EMT.lightningSummoner.name=Lightning Summoner
+item.EMT.featherMesh.name=Feather Mesh
+item.EMT.glue.name=Glue
+item.EMT.ductTape.name=Duct Tape
+item.EMT.rubberBall.name=Rubber Ball
+item.EMT.cardboard.name=Cardboard Sheet
+item.EMT.featherGluedCardboardWing.name=Feather Glued Cardboard Wing
+item.EMT.denseIronSheet.name=Dense Iron Sheet
+item.EMT.taintedFeather.name=Tainted Feather
+item.EMT.thaumiumWing.name=Thaumium Reinforced Wing
+item.EMT.uumatterDrop.name=Crystallized UU-Matter Drop
+item.EMT.draconicSchematic.name=[DEPRECATED] Draconic Core Schematic
+item.EMT.wyvernSchematic.name=[DEPRECATED] Wyvern Core Schematic
+item.EMT.awakenedSchematic.name=[DEPRECATED] Awakened Core Schematic
+item.EMT.chaoticSchematic.name=[DEPRECATED] Chaotic Core Schematic
+item.EMT.bauble.euMaker.armor.name=Armor Charging Ring
+item.EMT.bauble.euMaker.inventory.name=Inventory Charging Ring
+item.EMT.bauble.oneRing.name=The One Ring
+item.EMT.goggles.electric.name=Electric Goggles of Revealing
+item.EMT.goggles.nano.name=Nanosuit Goggles of Revealing
+item.EMT.goggles.quantum.name=Quantum Goggles of Revealing
+item.EMT.goggles.solar.name=Solar Goggles of Revealing
+item.EMT.boots.traveller.electric.name=Electric Boots of the Traveller
+item.EMT.boots.traveller.nano.name=Nanosuit Boots of the Traveller
+item.EMT.boots.traveller.quantum.name=Quantum Boots of the Traveller
+item.EMT.scribingtools.electric.name=Electric Scribing Tools
+item.EMT.wing.feather.name=Feather Duct-Taped Wings
+item.EMT.wing.thaumium.name=Thaumium Reinforced Wings
+item.EMT.wing.nano.name=Nanosuit Wings
+item.EMT.wing.quantum.name=Quantum Wings
+item.EMT.chestplates.infusedQuantum.name=Infused Quantum Chestplate
+item.EMT.hammer.broken.name=Broken Relic of Mjolnir
+item.EMT.hammer.name=Mjolnir
+item.EMT.hammer.electric.name=Supercharged Mjolnir
+item.EMT.drill.thaumium.name=Thaumium Drill
+item.EMT.chainsaw.diamond.name=Diamond Chainsaw
+item.EMT.chainsaw.thaumium.name=Thaumium Chainsaw
+item.EMT.omnitool.iron.name=Iron Omnitool
+item.EMT.omnitool.diamond.name=Diamond Omnitool
+item.EMT.omnitool.thaumium.name=Thaumium Omnitool
+item.EMT.chainsaw.stream.name=Chainsaw of the Stream
+item.EMT.drill.rockbreaker.name=Drill of the Rockbreaker
+item.EMT.hoeofgrowth.electric.name=Electric Hoe of Growth
+item.EMT.focus.explosion.name=Wand Focus: Explosion
+item.EMT.focus.christmas.name=Wand Focus: Kris-tmas
+item.EMT.focus.shield.name=Wand Focus: Shield
+item.EMT.focus.charge.name=Wand Focus: Charging
+item.EMT.focus.chargeWand.name=Wand Focus: Wand Charging
+item.EMT.focus.maintenance.name=Wand Focus: Maintenance
+item.EMT.focus.electricCloud.name=Electric Cloud
+item.EMT.focus.energyBall.name=Energy Ball Focus
+
+#=============Block Names=============
+tile.EMT.electricCloud.name=Electric Cloud
+tile.EMT.shield.name=Shield Block
+tile.EMT.portablenode.name=Portable Node
+tile.EMT.essentia.potentia.name=Potentia Generator
+tile.EMT.essentia.ignis.name=Ignis Generator
+tile.EMT.essentia.auram.name=Auram Generator
+tile.EMT.essentia.arbor.name=Arbor Generator
+tile.EMT.essentia.aer.name=Aer Generator
+tile.EMT.essentia.lucrum.name=Lucrum Generator
+tile.EMT.machine.wandrecharge.name=Industrial Wand Charging Station
+tile.EMT.machine.etheralprocessor.name=Ethereal Processor
+tile.EMT.machine.essentiafiller.name=Essentia Filler - Marked for deprecation
+tile.EMT.solar.compressed.name=Compressed Solar Panel
+tile.EMT.solar.doublecompressed.name=Double Compressed Solar Panel
+tile.EMT.solar.triplecompressed.name=Triple Compressed Solar Panel
+tile.EMT.Quadruple_Compressed_Solar.name=Quadruple Compressed Solar
+tile.EMT.Quintuple_Compressed_Solar.name=Quintuple Compressed Solar
+tile.EMT.Sextuple_Compressed_Solar.name=Sextuple Compressed Solar
+tile.EMT.Septuple_Compressed_Solar.name=Septuple Compressed Solar
+tile.EMT.Octuple_Compressed_Solar.name=Octuple Compressed Solar
+tile.EMT.solar.water.name=Water Infused Compressed Solar Panel
+tile.EMT.solar.doublewater.name=Water Infused Double Compressed Solar Panel
+tile.EMT.solar.triplewater.name=Water Infused Triple Compressed Solar Panel
+tile.EMT.Quadruple_Compressed_Aqua_Solar.name=Quadruple Compressed Aqua Solar
+tile.EMT.Quintuple_Compressed_Aqua_Solar.name=Quintuple Compressed Aqua Solar
+tile.EMT.Sextuple_Compressed_Aqua_Solar.name=Sextuple Compressed Aqua Solar
+tile.EMT.Septuple_Compressed_Aqua_Solar.name=Septuple Compressed Aqua Solar
+tile.EMT.Octuple_Compressed_Aqua_Solar.name=Octuple Compressed Aqua Solar
+tile.EMT.solar.dark.name=Entropy Infused Compressed Solar Panel
+tile.EMT.solar.doubledark.name=Entropy Double Infused Compressed Solar Panel
+tile.EMT.solar.tripledark.name=Entropy Triple Infused Compressed Solar Panel
+tile.EMT.Quadruple_Compressed_Perditio_Solar.name=Quadruple Compressed Perditio Solar
+tile.EMT.Quintuple_Compressed_Perditio_Solar.name=Quintuple Compressed Perditio Solar
+tile.EMT.Sextuple_Compressed_Perditio_Solar.name=Sextuple Compressed Perditio Solar
+tile.EMT.Septuple_Compressed_Perditio_Solar.name=Septuple Compressed Perditio Solar
+tile.EMT.Octuple_Compressed_Perditio_Solar.name=Octuple Compressed Perditio Solar
+tile.EMT.solar.order.name=Order Infused Compressed Solar Panel
+tile.EMT.solar.doubleorder.name=Order Infused Double Compressed Solar Panel
+tile.EMT.solar.tripleorder.name=Order Infused Triple Compressed Solar Panel
+tile.EMT.Quadruple_Compressed_Ordo_Solar.name=Quadruple Compressed Ordo Solar
+tile.EMT.Quintuple_Compressed_Ordo_Solar.name=Quintuple Compressed Ordo Solar
+tile.EMT.Sextuple_Compressed_Ordo_Solar.name=Sextuple Compressed Ordo Solar
+tile.EMT.Septuple_Compressed_Ordo_Solar.name=Septuple Compressed Ordo Solar
+tile.EMT.Octuple_Compressed_Ordo_Solar.name=Octuple Compressed Ordo Solar
+tile.EMT.solar.fire.name=Fire Infused Compressed Solar Panel
+tile.EMT.solar.doublefire.name=Fire Infused Double Compressed Solar Panel
+tile.EMT.solar.triplefire.name=Fire Infused Triple Compressed Solar Panel
+tile.EMT.Quadruple_Compressed_Ignis_Solar.name=Quadruple Compressed Ignis Solar
+tile.EMT.Quintuple_Compressed_Ignis_Solar.name=Quintuple Compressed Ignis Solar
+tile.EMT.Sextuple_Compressed_Ignis_Solar.name=Sextuple Compressed Ignis Solar
+tile.EMT.Septuple_Compressed_Ignis_Solar.name=Septuple Compressed Ignis Solar
+tile.EMT.Octuple_Compressed_Ignis_Solar.name=Octuple Compressed Ignis Solar
+tile.EMT.solar.air.name=Air Infused Compressed Solar Panel
+tile.EMT.solar2.doubleair.name=Air Infused Double Compressed Solar Panel
+tile.EMT.solar2.tripleair.name=Air Infused Triple Compressed Solar Panel
+tile.EMT.Quadruple_Compressed_Aer_Solar.name=Quadruple Compressed Aer Solar
+tile.EMT.Quintuple_Compressed_Aer_Solar.name=Quintuple Compressed Aer Solar
+tile.EMT.Sextuple_Compressed_Aer_Solar.name=Sextuple Compressed Aer Solar
+tile.EMT.Septuple_Compressed_Aer_Solar.name=Septuple Compressed Aer Solar
+tile.EMT.Octuple_Compressed_Aer_Solar.name=Octuple Compressed Aer Solar
+tile.EMT.solar2.earth.name=Earth Infused Compressed Solar Panel
+tile.EMT.solar2.doubleearth.name=Earth Infused Double Compressed Solar Panel
+tile.EMT.solar2.tripleearth.name=Earth Infused Triple Compressed Solar Panel
+tile.EMT.Quadruple_Compressed_Terra_Solar.name=Quadruple Compressed Terra Solar
+tile.EMT.Quintuple_Compressed_Terra_Solar.name=Quintuple Compressed Terra Solar
+tile.EMT.Sextuple_Compressed_Terra_Solar.name=Sextuple Compressed Terra Solar
+tile.EMT.Septuple_Compressed_Terra_Solar.name=Septuple Compressed Terra Solar
+tile.EMT.Octuple_Compressed_Terra_Solar.name=Octuple Compressed Terra Solar
+
+#=============Thaumonomicon Texts=============
+emt.rsname.Electric Magic Tools=Electric Magic Tools
+emt.tag.Electric Magic Tools=Who says magic and technology can't go together?
+emt.text.Electric Magic Tools=Who says magic can't work with technology? Our researchers have collaborated with the top mages of the school of Thaumaturgy to bring you the effectiveness of magic coupled with the convenience of electric tools.
+
+emt.rsname.Energy Ball Focus=Energy Ball Focus
+emt.tag.Energy Ball Focus=Not a toy
+emt.text.Energy Ball Focus=It's necessary to put on the BatPack or nano/quant chestplate for using this focus. You need 5120EU to create one ball. It's not recommended for using in a closed space!
+
+emt.rsname.Electric Cloud=Electric Cloud
+emt.tag.Electric Cloud=Still the same Nitor
+emt.text.Electric Cloud.1=All thaumaturges (except Crimson ones, I guess) enjoy the shine and heat of the magic flame called Nitor, aren't they? You desided to make it more... energetic. Well, you did it.<BR><BR>You have created a new kind of magic flame — the Electric Cloud. It behaves and looks like normal Nitor, but it has purple colour and creates light-purple lightning charges around itself. For electrolizing need to click RMB on Nitor with advanced battery(or better) on hand.
+emt.text.Electric Cloud.2=<IMG>emt:textures/researches/electric_cloud.png:0:0:255:255:0.6</IMG>
+
+emt.rsname.Thaumium Drill=Thaumium Drill
+emt.tag.Thaumium Drill=Magical mining
+emt.text.Thaumium Drill=You have discovered a way to infuse Thaumium with mundane electricity. Fusing Thaumium to a Diamond Drill results in a tool that can dig through stone faster and has a higher capacity.<BR><BR>While Thaumium is a very useful and powerful material, it is nowhere near the strength of Iridium. It is considered a mid-tier tool. <BR><BR>This tool may not be the most powerful, but you have a feeling that you will be able to upgrade it in the near future.
+
+emt.rsname.Thaumium Chainsaw=Thaumium Chainsaw
+emt.tag.Thaumium Chainsaw=Felling trees and severing heads with a touch of magic
+emt.text.Thaumium Chainsaw=You have found a way to fuse Thaumium to a Diamond Chainsaw, allowing it to fell trees quicker and hold more power. Nevertheless, these ameliorations do not come without drawbacks: during the process of fusing these materials, the chainsaw loses its ability to shear foliage, tall grass, and animals.<BR><BR>You have an intuition you will be able to upgrade this tool in the near future.
+
+emt.rsname.Electric Goggles=Electric Goggles
+emt.tag.Electric Goggles=The best of both worlds
+emt.text.Electric Goggles=You have found a way to detect auras using purely electronic means, no longer requiring mystical energy that can be depleted over time. You can now create a pair of Goggles of Revealing that can be recharged with EU while being able to see Aura Nodes just as you could before. A diamond helmet is required to house the sensitive vis sensing circuitry and prevent it from being damaged, which also has the added benefit of providing extra protection.
+
+emt.rsname.Nanosuit Goggles of Revealing=Nanosuit Goggles of Revealing
+emt.tag.Nanosuit Goggles of Revealing=Top-tier eye protection
+emt.text.Nanosuit Goggles of Revealing=You have discovered a way to incorporate your previous vis sensors to a Nanosuit Helmet without moving too much around. By infusing the nano helmet with magic, you will be able to use it to see Aura Nodes. During the magical process, the control circuits for the night vision feature are replaced with capacitors to absorb the excess magical energy and vis-sensing microchips.
+
+emt.rsname.Quantum Goggles of Revealing=Quantum Goggles of Revealing
+emt.tag.Quantum Goggles of Revealing=Protection coupled with utility
+emt.text.Quantum Goggles of Revealing=It took a lot of trial and error, but you have found a way to slip in vis detection sensors to a Quantum Helmet. By infusing the quantum helmet with magic, you will be able to use it to see Aura Nodes. During the design process, you had to replace several control circuits that involve night vision and automatic feeding with vis detecting circuitry and capacitors to absorb the excess magical energy. You find that using a Mining Laser to contain it can safely focus and direct the explosive pulse where the vision effect and the feeding unit of the helmet lie. Have fun getting force-fed energy.
+
+emt.rsname.Iron Omnitool=Iron Omnitool
+emt.tag.Iron Omnitool=Changing tools is for peasants
+emt.text.Iron Omnitool=While tinkering with the inner workings of some of your tools to see if magical integration is a possibility, you have discovered a way to combine the Mining Drill and the Chainsaw, resulting in a tool capable of both mining, cutting down trees and attacking enemies! As you are working with mundane metals, magic influence is not needed to merge these tools together.
+
+emt.rsname.Diamond Omnitool=Diamond Omnitool
+emt.tag.Diamond Omnitool=Jack of all trades
+emt.text.Diamond Omnitool=Your discovery of an Iron Omnitool has driven you to try to accomplish the same with some more powerful devices. You have discovered a way to combine the Diamond Drill and the Diamond Chainsaw, resulting in a tool capable of both mining, cutting down trees and attacking enemies, while maintaining the speed and capacity bonuses of the diamond tools. As diamonds are incredibly tough and nearly impossible to reshape once the raw diamonds have been fashioned into tools such as drills and chainsaws, you will require a little bit of magic to coax them to merge.
+
+emt.rsname.Thaumium Omnitool=Thaumium Omnitool
+emt.tag.Thaumium Omnitool=Mystical multitool
+emt.text.Thaumium Omnitool=After creating the Diamond and Iron Omnitools, the next logical step was to do the same with Thaumium. Unfortunately, this isn't as easy. You have discovered a way to combine the Thaumium Drill and the Thaumium Chainsaw, resulting in a tool capable of mining and chopping trees at great speed with a high energy capacity. These tools have already once been infused with magic. You are not sure what will happen if they were to be infused again.
+
+emt.rsname.Explosion Focus=Explosion Focus
+emt.tag.Explosion Focus=Use only in well-ventilated areas
+emt.text.Explosion Focus=You have found a way to improve the Nine Hells focus.  By exposing the bats to the explosive properties of a Mining Laser, you have built a focus that acts similarly to the Laser but uses vis instead of EU.  However, its effects are incredibly unstable, so you make a note to be careful.
+
+emt.rsname.Kris-tmas Focus=Kris-tmas Focus
+emt.tag.Kris-tmas Focus=Ho! Ho! Ho!
+emt.text.Kris-tmas Focus=Merry Christmas!<BR><BR>You have found a novel use for the frost focus. By exposing it to the magic of Christmas, you can summon your snowy friends at will to fire snowballs at your Festivus celebrating neighbours!
+
+emt.rsname.Shield Focus=Shield Focus
+emt.tag.Shield Focus=S.H.I.E.L.D.
+emt.text.Shield Focus=With some experimentation with the Portable Hole, you have found out more about the transportation of objects to alternate dimensions. You believe you can reverse these effects to summon a swath of blocks from a dimension full of matter to shield you from any oncoming disaster. Caution is to be taken when using this focus, as when bringing these blocks into our dimension, it will transpose any blocks in the way into the dimension it came from, never to return again. You will also be unable to move while this shield is in existence.
+
+emt.rsname.Wand Focus: Maintenance=Thaumic Maintenance
+emt.tag.Wand Focus: Maintenance=Who needs a toolbox when you have magic?
+emt.text.Wand Focus: Maintenance=After intense study of the supposedly mechanical nature of your apparati, you've finally done it, you've discovered a method allowing the use of vis in repair. <BR> What are a few exploded cleanrooms in the face of sheer progress? Now you can get rid of those dastardly mundane tools...
+
+emt.rsname.Potentia Generator=Potentia Generator
+emt.tag.Potentia Generator=Harnessing the power-producing potential of Essentia
+emt.text.Potentia Generator=After much studying and research, you have finally discovered how to create electricity from your leftover Essentia.<BR><BR>Simply place a Warded Jar containing Potentia in a 8 blocks radius of the machine and it will draw it in to create EU.<BR><BR>While Potentia seems like the most logical choice for producing Essentia with EU, you believe you will be able to generate electricity from different Essentia in the near future with a bit of tinkering.
+
+emt.rsname.Lucrum Generator=Lucrum Generator
+emt.tag.Lucrum Generator=Greed is gold...?
+emt.text.Lucrum Generator=Your greed kept you going further, so you found a way to convert Lucrum to power.<BR><BR>By Infusing the Potentia Generator with huge amounts of Gold, Permutatio and Lucrum, you managed to build a powerful generator that literally runs on gold.<BR><BR>But as you thought, the Infusion is unstable and will fail easily when you are not prepared.
+
+emt.rsname.Ignis Generator=Ignis Generator
+emt.tag.Ignis Generator=If you can't handle the heat...
+emt.text.Ignis Generator=Just as you thought, with a bit of tweaking, you have found a way to instead use Ignis Essentia to produce power. On the inside, this machine is able to heat water by consuming Ignis. The steam produced by this heat then spins the turbines, similar to a typical Generator.
+
+emt.rsname.Auram Generator=Auram Generator
+emt.tag.Auram Generator=Harnessing the magic in the air
+emt.text.Auram Generator=Though it took a bit more work than you initially thought, you have found a way to produce EU using Auram Essenita. This required a complete reworking of the machine, relying on Auram's pulsating magical power to spin a Generator.
+
+emt.rsname.Arbor Generator=Arbor Generator
+emt.tag.Arbor Generator=Bringing power generation back to its basics
+emt.text.Arbor Generator=You always seem to have excess Arbor Essentia sitting around. Not anymore! By modifying your original Potentia Generator, you have found a way to produce energy using Arbor Essentia instead.
+
+emt.rsname.Aer Generator=Aer Generator
+emt.tag.Aer Generator=Compressing your environment
+emt.text.Aer Generator=You have discovered the enormous power of the air, and therefore decided to try out a modification of your original Potentia Generator capable of compressing air from Aer Essentia in a nearby jar.
+
+emt.rsname.Chainsaw of the Stream=Chainsaw of the Stream
+emt.tag.Chainsaw of the Stream=Felling trees in a single swoop
+emt.text.Chainsaw of the Stream=After studying both the Axe of the Stream and the Thaumium Chainsaw, you managed to combine most of their abilities, resulting in an electric tool that can chop down whole trees without much effort.
+
+emt.rsname.Drill of the Rockbreaker=Drill of the Rockbreaker
+emt.tag.Drill of the Rockbreaker=Mining it big
+emt.text.Drill of the Rockbreaker=After studying the Pickaxe of the Core, the Shovel of the Earthmover and the Thaumium Drill, you have managed to combine most of their abilities, resulting in an electric tool that can mine a whole 3x3x1 area of pickaxe and dirt materials very quickly.<BR><BR>This marvelous device is able to find the closest ore clusters on a shift-right click, though at the cost of some EU.
+
+emt.rsname.Shield Block=Shield Block
+emt.tag.Shield Block=Magical protection
+emt.text.Shield Block=After studying the blocks created by the shield focus, you have discovered how to recreate them yourself, without relying on them to be summoned by the focus. They are highly blast resistant, and even resistant to nukes. However, in the event of an actual nuclear explosion, while the shield blocks will survive the aftermath, the surrounding blocks will not.<BR><BR>These blocks are unstable and do not drop when broken, even when Silk Touch is used.
+
+emt.rsname.Tiny Uranium=Tiny Uranium
+emt.tag.Tiny Uranium=Some shrinkage may occur
+emt.text.Tiny Uranium=After processing all your ores and using them for the creation of nuclear reactors, you have finally run out of uranium nuggets, needed to make your beloved fuel rods. After long research sessions, you have managed to transform your leftover uranium into much-needed nuggets!<BR><BR>Unfortunately, this process is a bit wasteful, but you believe it to be worth the cost.
+
+emt.rsname.Mjolnir=Mjolnir
+emt.tag.Mjolnir=Godly power
+emt.text.Mjolnir=You have travelled the world, in quest for the mighty Hammer of Thor. One day, you stumbled upon its broken remains, and your heart crumbled with it. After some long and tedious research, you found a way to restore this magnificent tool to its past greatness.<BR><BR>You have an odd feeling,(you seem to have a lot of these), that although this tool is amazingly powerful, you could do more with it.
+
+emt.rsname.The Legend=The Legend
+emt.tag.The Legend=Childhood memories...
+emt.text.The Legend=You have always heard about the Legend of the Hammer.<BR><BR>It is said that the god of Lightning, Thor, had a hammer capable of summoning lightning.<BR><BR>The legend also states that, when the god retired in his dimension, he left his hammer, hidden somewhere in a well protected dungeon, where only a worthy mortal could find it.<BR><BR>You have long since wanted to go explore the world, to try and find it.
+
+emt.rsname.Lightning Summoner=Lightning Summoner
+emt.tag.Lightning Summoner=From vilest enemies
+emt.text.Lightning Summoner=This item is dropped by your archenemy, the Supercharged Creeper. You feel it is going to be very useful later on.
+
+emt.rsname.Supercharged Mjolnir=Supercharged Mjolnir
+emt.tag.Supercharged Mjolnir=Making it yours
+emt.text.Supercharged Mjolnir=After some more exploring of the dungeons existing all around the worlds and dimensions, you have managed to find a method that makes you able to overpower Thor's power, making his Hammer yours. Furthermore, you have managed to make your Hammer summon defenders, some strange Snow-Golems like creature that shall protect you. However, the hammer lost its power to summon lightning where you desire it to, and creates a ring of lightning around you.
+
+emt.rsname.Industrial Wand Charging Station=Industrial Wand Charging Station
+emt.tag.Industrial Wand Charging Station=Charging your wand the industrial way
+emt.text.Industrial Wand Charging Station=You have managed to combine the powers of the Wand Pedestal with those of the mighty UU-Matter, resulting in a machine capable of replicating aspects on your wand, at the cost of 50000 EU to recharge every aspect on the wand of 1 unit.
+
+emt.rsname.Compressed Solars=Compressed Solars
+emt.tag.Compressed Solars=Increase the efficiency!
+emt.text.Compressed Solars=You have found a way to compress 9 mundane Solar Panels in a magical one, that acts as if it was made of 10 mundane solar panels, generating 10 EU/t. You may repeat this process with compressed solar panels, allowing you to increase the power potential per block even higher. You can also, by magical infusion, create triple compressed solar panels, taking the folly a step further.
+
+emt.rsname.Solar Helmet of Revealing=Solar Helmet of Revealing
+emt.tag.Solar Helmet of Revealing=The sunlight hurts my eyes
+emt.text.Solar Helmet of Revealing=You now have a helmet that acts exactly like your quantum goggles of revealing, but can also recharge your chest armor! It generates 65536 EU during the day, and 4096 EU at night.
+
+emt.rsname.Diamond Chainsaw=Diamond Chainsaw
+emt.tag.Diamond Chainsaw=Harder, better, faster, stronger
+emt.text.Diamond Chainsaw=You are unsure why the thought of upgrading a Chainsaw with diamonds similarly to what you have done with a Drill has never occurred to you. This upgrade makes the Chainsaw capable of holding more energy and breaking blocks faster.
+
+emt.rsname.Thaumium Plate=Thaumium Plate
+emt.tag.Thaumium Plate=Thaumium, the industrial way
+emt.text.Thaumium Plate=As every electrical engineer knows, plates are the basis of many devices. We knew that pressing Thaumium into plates would be a neccesary step to facilitate integration of magic into our tools, but this made the mages of the school of Thaumaturgy very upset. The don't like us tampering with their precious metal. You can produce these plates as shown, which is a bit more expensive, or in a metal former, requiring only one Thaumium Ingot. Keep an eye out for angry mages.
+
+emt.rsname.Macerating Native Ore Clusters=Macerating Native Ore Clusters
+emt.tag.Macerating Native Ore Clusters=Augmenting your yield
+emt.text.Macerating Native Ore Clusters=You can macerate all Native Ore Clusters, except cinnabar. You will get 22 tiny dusts per Native Ore Cluster macerated.
+
+emt.rsname.Electric Boots of the Traveller=Electric Boots of the Traveller
+emt.tag.Electric Boots of the Traveller=I've got the power
+emt.text.Electric Boots of the Traveller=With lots of precise mechanical components and a touch of magic, you have recreated the effects of the Boots of the Traveller in a more stable form. These boots, unlike the original, will not wear away over time, but instead use EU. These boots negate all fall damage, and have all the normal properties of the Boots of the Traveller.
+
+emt.rsname.Nano Boots of the Traveller=Nano Boots of the Traveller
+emt.tag.Nano Boots of the Traveller=Speed demon
+emt.text.Nano Boots of the Traveller=Your Electric Boots of the Traveller are nice, but you think you can do better. You have found a way to upgrade these boots to the Nano tier, improving the mechanical components and improving the spell cast on the footwear. These boots allow for higher jumps and faster running than before.
+
+emt.rsname.Quantum Boots of the Traveller=Quantum Boots of the Traveller
+emt.tag.Quantum Boots of the Traveller=Faster than light
+emt.text.Quantum Boots of the Traveller=You have meddled with Quantum Physics, making these Quantum Boots of the Traveller so fast, that you appear to be in multiple places at once. But do not forget what happened to Schrodinger's cat...
+
+emt.rsname.Electric Scribing Tools=Electric Scribing Tools
+emt.tag.Electric Scribing Tools=Save squiddy!
+emt.text.Electric Scribing Tools=You have decided not to kill any more squid. Therefore, you researched a way to charge your scribing tools, in a way which would make them not needing any ink. Thanks to static electricity, and the ball pen technology, you managed to make the ink inside the scribing tools spin so quickly, that EU could recharge it.
+
+emt.rsname.Etheral Processor=Etheral Processor
+emt.tag.Etheral Processor=The sky is blue...
+emt.text.Etheral Processor=After taping into hell's power with the Infernal Furnace to get some rewards out of your mining sessions, you have something totally different in mind. You are now using the power of the "Good", the sky and the so called "Paradise". This Ethereal Processor doubles the yield of every smelting recipe, and gives a 10% chance of getting a Thaumium Nugget as a bonus. You can see two drawbacks to this : as it doubles your smelting yield, it takes twice the time to process an item. As it is a highly magical device, some mundane smelting recipes do not seem to work. You are confident that smelting cobblestone into stone will not work into this wonder-machine.
+
+emt.rsname.Water Infused Solar Panels=Water Infused Solar Panels
+emt.tag.Water Infused Solar Panels=Curse you rain!
+emt.text.Water Infused Solar Panels=You always hated rain, especially when all your power came from Solar Panels. You hated it so much that you decided to find a way to make your Solar Panels keep running during rain. You managed... kind of. The Water Infused Solar Panels work during rain, and during rain only.
+
+emt.rsname.Entropy Infused Solar Panels=Entropy Infused Solar Panels
+emt.tag.Entropy Infused Solar Panels=Not afraid of the dark
+emt.text.Entropy Infused Solar Panels=You know that Solar Panels stop working at nightime. To counter that, you found a way to make your Solar Panels produce energy at night!
+
+emt.rsname.Order Infused Solar Panels=Order Infused Solar Panels
+emt.tag.Order Infused Solar Panels=I've got the power!
+emt.text.Order Infused Solar Panels=Harnessing the power of Order, you have managed to triple the output of your Solar Panels at day!
+
+emt.rsname.Fire Infused Solar Panels=Fire Infused Solar Panels
+emt.tag.Fire Infused Solar Panels=Where it is hot and dangerous...
+emt.text.Fire Infused Solar Panels=Fascinated by the Nether, you created a monster. These Solar Panels work like normal in the Overworld, but also produce more energy when they are located in the Nether! A monster I tell you...
+
+emt.rsname.Air Infused Solar Panels=Air Infused Solar Panels
+emt.tag.Air Infused Solar Panels=Don't be afraid of heights
+emt.text.Air Infused Solar Panels=Your adventurous mind and the natural amount of air existing at the top of the world make these Solar Panels yield more energy when located over Y = 160.
+
+emt.rsname.Earth Infused Solar Panels=Earth Infused Solar Panels
+emt.tag.Earth Infused Solar Panels=Not for claustrophobic persons
+emt.text.Earth Infused Solar Panels=You have decided to get closer to the core. These Solar Panels produce more energy under Y = 10, but keep in mind the rebellious spirits need to be able to see the sun to work.
+
+emt.rsname.UU-Matter Infusion=UU-Matter Infusion
+emt.tag.UU-Matter Infusion=A magically charged metamorphic liquid...
+emt.text.UU-Matter Infusion=You have always found the powers possessed by UU-Mater very strange, even... magical looking, especially the ability to take a large number of shapes if manipulated correctly. And here you are, having discovered a way to shape the liquid through the process of Infusion Crafting. Many recipes are available, and all of them use between 4 to 32 of each primal aspect.
+
+emt.rsname.Portable Node=Portable Node
+emt.tag.Portable Node=Randomly convenient
+emt.text.Portable Node=After studying in an in-depth manner of the wonders of Node Jarring, you have managed to create an item capable of spawning a random node. However, due to some parts of node magic which you cannot understand, this Portable Node will always be Fading and Unstable. <BR><BR>You can only get rid of it by a shift-right click, and you think that you should dispose of it as soon as possible, for unstable nodes are... rather unpredictable.
+
+emt.rsname.Electric Hoe of Growth=Electric Hoe of Growth
+emt.tag.Electric Hoe of Growth=Shockingly natural
+emt.text.Electric Hoe of Growth=You have managed to upgrade your Hoe of Growth. It now delivers little shocks to the land and plants around it, much like your regular Hoe of Growth would do. <BR><BR>However, the magic contained within this tool is too powerful for you to convert it fully to using mundane electricity, for the tool still has a limited number of uses before it breaks, but is rechargeable.
+
+emt.rsname.Wand Focus: Charging=Wand Focus: Charging
+emt.tag.Wand Focus: Charging=From vis to electricity
+emt.text.Wand Focus: Charging=You realized you always carry a wand with you, along with your electric stuff. But sometimes, you have ran out of juice in your electric tools. That's why you created this wand focus. It is very simple, yet very useful, for it drains vis from your wand storage, and charges the items using mundane electricity.
+
+emt.rsname.Wand Focus: Wand Charging=Wand Focus: Wand Charging
+emt.tag.Wand Focus: Wand Charging=From electricity to vis
+emt.text.Wand Focus: Wand Charging=You've discovered a way to take the benefits of the Industrial Recharge station and house them inside of a Charging Focus, reversing its polarity.  Now it will drain electricity from your items in order to recharge your wand, albeit at a rather high cost. Furthermore, you have realized than you need a full set of Electric Armor to be able to start the wand charging process.
+
+emt.rsname.Inventory Charging Ring=Inventory Charging Ring
+emt.tag.Inventory Charging Ring=Passive charger
+emt.text.Inventory Charging Ring=While other thaumaturgists use rings to charge their runic shields, you feel that there are better applications for them.  By fusing power sources into a mundane ring, you have learned how to funnel its charging effects into electric items in your inventory instead. It doesn't generate much at only 32 EU per tick, but that just means there's room for improvement.
+
+emt.rsname.Armor Charging Ring=Armor Charging Ring
+emt.tag.Armor Charging Ring=Passive life-saver
+emt.text.Armor Charging Ring=You have found the low but constant recharge rate of your new ring to be more useful than anticipated, but it would be nice if it charged your armor when there wasn't a tool in need of power.  By infusing a few more power sources and a piece of armor, you have found a way to have it do just that.  Sadly, the new power sources do not increase the recharge rate, but progress is progress.
+
+emt.rsname.The One Ring=The One Ring
+emt.tag.The One Ring=Forged inside the pit of the volcanic Mount Doom...
+emt.text.The One Ring=Three Rings for the Elven-kings under the sky, Seven for the Dwarf-lords in their halls of stone, Nine for Mortal Men doomed to die, One for the Dark Lord on his dark throne in the Land of Mordor where the Shadows lie. One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them in the Land of Mordor where the Shadows lie. -J.R.R. Tolkien's epigraph to The Lord of The Rings.<BR>You dream of being able to disappear from sight , therefore becoming invulnerable to any attack. You have heard that this Ring lays somewhere in ruins, unaltered by time...
+
+emt.rsname.Feather Wings=Feather Wings
+emt.tag.Feather Wings=It only works in anime...
+emt.text.Feather Wings=Duct-taping feathers to cardboard sheets, formed in the shape of wings sounded like a good idea. At least, you can thrust yourself in the air when the spacebar is hit. Not much, but it'll work. Using any wings underwater or during the rain sounds like a very bad idea. Included: fall damage reduction, 25%.
+
+emt.rsname.Thaumium Reinforced Wings=Thaumium Reinforced Wings
+emt.tag.Thaumium Reinforced Wings=Already much better
+emt.text.Thaumium Reinforced Wings=The magic infusing Thaumium is well known. Therefore, reinforcing your cardboard wings with Thaumium sounded like a good idea. You can thrust yourself much higher on spacebar hit, and slow your fall down when spacebar is held. Sneak to go down at a steady pace. Included: fall damage reduction, 50%.
+
+emt.rsname.Nanosuit Wings=Nanosuit Wings
+emt.tag.Nanosuit Wings=Nanotechnologies to the rescue!
+emt.text.Nanosuit Wings=Combining the magic harnessed by Thaumium with the nanotechnologies in your wings.. seemed like the logical way to go. You can thrust yourself way higher than before, and fall even slower when holding spacebar. Included: fall damage reduction, 75%.
+
+emt.rsname.Quantum Wings=Quantum Wings
+emt.tag.Quantum Wings=Quantum technologies.
+emt.text.Quantum Wings=After exploring all the possibilities of nanotechnologies, you decided to do the last jump. Quantum. You can thrust yourself many blocks high, have a very good protection, and your fall is slowed down a lot. However, the quantum unpredictability happened once again. Your fall will be completely stopped when spacebar and sneak are maintained. You don't know why, but it works. Included: fall damage reduction, 100%.
+
+emt.rsname.Infused Quantum Armor=Infused Quantum Сhestplate.
+emt.tag.Infused Quantum Armor=The last step is here...
+emt.text.Infused Quantum Armor=You had been nothing to do and you decided to do something useful. You had an idea in your head of making armor which you can fasten the wings or backpack for being protected in flight. Take the wings or backpack in your hands and sit down to put their on armor. To remove them, hold Shift + "Unequip"(see in options).
+
+emt.rsname.ResearchCompleter=Automated Research
+emt.tag.ResearchCompleter=No more ordo spam
+emt.text.ResearchCompleter=It was fun at first, but you've decided it's time to find a better way to handle all this research. By mixing technology and magic you have come up with a multiblock that can complete a research note by itself.<BR><BR>To function, it needs nodes to be placed in the center of the structure and will slowly destroy them while running. Node stabilizers are optional but recommended for keeping so many nodes close together without them destroying each other.
