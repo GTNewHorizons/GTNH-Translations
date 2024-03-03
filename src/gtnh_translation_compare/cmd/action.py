@@ -231,7 +231,7 @@ class Action:
         asyncio.run(self._save_nightly_modpack_history(Path(modpack_path), Path(repo_path), Path(subdirectory)))
 
     # Sync files that have actually been changed compared to last nightly modpack to ParaTranz, excluding GregTech.lang
-    async def _sync_to_paratranz_conditional(
+    async def _conditional_sync_to_paratranz(
             self,
             repo_path: Path,
             subdirectory: Path,
@@ -281,15 +281,15 @@ class Action:
         if repo_path is not None:
             os.chdir('..')
 
-    def sync_to_paratranz_conditional(
+    def conditional_sync_to_paratranz(
             self,
             repo_path: str = ".",
             subdirectory: str = ".",
     ) -> None:
-        asyncio.run(self._sync_to_paratranz_conditional(Path(repo_path), Path(subdirectory)))
+        asyncio.run(self._conditional_sync_to_paratranz(Path(repo_path), Path(subdirectory)))
 
     # Sync all the files to ParaTranz. GregTech.lang is handled by the caller.
-    async def _sync_to_paratranz_all(
+    async def _sync_all_to_paratranz(
             self,
             repo_path: Path,
             subdirectory: Path,
@@ -329,12 +329,12 @@ class Action:
 
         await self._gt_lang_to_paratranz(subdirectory)
 
-    def sync_to_paratranz_all(
+    def sync_all_to_paratranz(
             self,
             repo_path: str = ".",
             subdirectory: str = ".",
     ) -> None:
-        asyncio.run(self._sync_to_paratranz_all(Path(repo_path), Path(subdirectory)))
+        asyncio.run(self._sync_all_to_paratranz(Path(repo_path), Path(subdirectory)))
 
 
 def git_commit(

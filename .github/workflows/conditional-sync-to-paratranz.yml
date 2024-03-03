@@ -1,4 +1,4 @@
-name: Sync to ParaTranz
+name: Conditional sync to ParaTranz
 
 on:
   workflow_call:
@@ -24,8 +24,8 @@ env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
 
 jobs:
-  sync-to-paratranz:
-    name: Sync to ParaTranz
+  conditional-sync-to-paratranz:
+    name: Conditional sync to ParaTranz
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -41,7 +41,7 @@ jobs:
 
       - name: Sync to ParaTranz
         run: >-
-          poetry run python main.py action sync-to-paratranz-conditional
+          poetry run python main.py action conditional-sync-to-paratranz
           --subdirectory='nightly-history'
         env:
           PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}

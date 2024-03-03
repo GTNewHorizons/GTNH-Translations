@@ -9,9 +9,9 @@ on:
 jobs:
   save-nightly-modpack-history:
     uses: ./.github/workflows/save-nightly-modpack-history.yml
-  sync-to-paratranz-parallel:
+  conditional-sync-to-paratranz-parallel:
     needs: save-nightly-modpack-history
-    uses: ./.github/workflows/sync-to-paratranz-parallel.yml
+    uses: ./.github/workflows/conditional-sync-to-paratranz-parallel.yml
   publish-all-nightly-lang-packs:
-    needs: sync-to-paratranz-parallel
+    needs: conditional-sync-to-paratranz-parallel
     uses: ./.github/workflows/publish-all-nightly-lang-packs.yml

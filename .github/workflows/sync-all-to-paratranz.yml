@@ -1,4 +1,4 @@
-name: Sync to ParaTranz all manually
+name: Sync all to ParaTranz
 
 on:
   workflow_dispatch:
@@ -18,8 +18,8 @@ env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
 
 jobs:
-  sync-to-paratranz-manual-all:
-    name: Sync to ParaTranz all manually
+  sync-all-to-paratranz:
+    name: Sync all to ParaTranz
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -33,7 +33,7 @@ jobs:
 
       - name: Sync to ParaTranz
         run: >-
-          poetry run python main.py action sync-to-paratranz-all
+          poetry run python main.py action sync-all-to-paratranz
           --subdirectory='nightly-history'
         env:
           PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
