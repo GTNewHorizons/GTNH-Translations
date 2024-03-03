@@ -49,12 +49,10 @@ class Action:
         filter_: ParatranzFilenameFilter,
         after_to_translation_file_callback: Optional[AfterToTranslationFileCallback],
         raise_when_empty: Optional[Exception],
-        message: str,
         repo_path: Path,
         subdirectory: Path,
         path_converter: Optional[ParatranzToLocalPathConverter] = None,
-        issue: Optional[str] = None,
-    ) -> None:
+    ) -> list[str]:
         translation_files: list[TranslationFile] = []
         translation_filepaths: list[str] = []
         all_files = await self.client.get_all_files()
@@ -76,49 +74,66 @@ class Action:
             translation_filepaths.append(translation_filepath)
             write_file(translation_filepath, translation_file.content)
 
-        git_commit(
-            repo_path,
-            translation_filepaths,
-            settings.GIT_AUTHOR,
-            message,
-            issue,
-            settings.CLOSE_ISSUE_IN_COMMIT_MESSAGE,
-        )
+        return translation_filepaths
 
     ############################################################################
     # From Paratranz
     ############################################################################
 
-    # Quest Book
-    def paratranz_to_quest_book(
+    async def _sync_from_paratranz(
+        self,
+        repo_path: Path,
+        subdirectory: Path,
+        lang: str,
+        issue: Optional[str],
+        commit_message: str,
+    ) -> None:
+        files_to_commit: list[str] = []
+        files_to_commit.extend(await self._paratranz_to_quest_book(repo_path, subdirectory))
+        files_to_commit.extend(await self._paratranz_to_lang_and_zs(repo_path, subdirectory))
+        files_to_commit.extend(await self._paratranz_to_gt_lang(repo_path, subdirectory, lang))
+
+        git_commit(
+            repo_path,
+            files_to_commit,
+            settings.GIT_AUTHOR,
+            commit_message,
+            issue,
+            settings.CLOSE_ISSUE_IN_COMMIT_MESSAGE,
+        )
+
+    def sync_from_paratranz(
         self,
         repo_path: str = ".",
         subdirectory: str = ".",
+        lang: str = "en_US",
         issue: Optional[str] = None,
-        commit_message: str = "[自动化] 更新 任务书",
+        commit_message: str = "[自动化] 更新 GT 语言文件",
     ) -> None:
+        asyncio.run(self._sync_from_paratranz(Path(repo_path), Path(subdirectory), lang, issue, commit_message))
+
+    # Quest Book
+    async def _paratranz_to_quest_book(
+        self,
+        repo_path: Path,
+        subdirectory: Path,
+    ) -> list[str]:
         filter_: ParatranzFilenameFilter = lambda name: name == settings.DEFAULT_QUESTS_LANG_TARGET_REL_PATH + ".json"
-        asyncio.run(
-            self.__paratranz_to_translation(
+        return await self.__paratranz_to_translation(
                 filter_,
                 None,
                 ValueError("No quest book file found"),
-                commit_message,
-                Path(repo_path),
-                Path(subdirectory),
+                repo_path,
+                subdirectory,
                 None,
-                issue,
-            )
         )
 
     # Lang + Zs
-    def paratranz_to_lang_and_zs(
+    async def _paratranz_to_lang_and_zs(
         self,
-        repo_path: str = ".",
-        subdirectory: str = ".",
-        issue: Optional[str] = None,
-        commit_message: str = "[自动化] 更新 语言文件 + 脚本",
-    ) -> None:
+        repo_path: Path,
+        subdirectory: Path,
+    ) -> list[str]:
         def filter_(name: str) -> bool:
             return any(
                 [
@@ -131,28 +146,22 @@ class Action:
         # Existing projects use resource folder on PT
         path_converter_: ParatranzToLocalPathConverter = lambda path: Path('config/txloader/forceload') / os.path.relpath(path, Path('resources'))
 
-        asyncio.run(
-            self.__paratranz_to_translation(
+        return await self.__paratranz_to_translation(
                 filter_,
                 None,
                 ValueError("No lang or zs file found"),
-                commit_message,
-                Path(repo_path),
-                Path(subdirectory),
+                repo_path,
+                subdirectory,
                 path_converter_,
-                issue,
-            )
         )
 
     # Gt Lang
-    def paratranz_to_gt_lang(
+    async def _paratranz_to_gt_lang(
         self,
-        repo_path: str = ".",
-        subdirectory: str = ".",
+        repo_path: Path,
+        subdirectory: Path,
         lang: str = "en_US",
-        issue: Optional[str] = None,
-        commit_message: str = "[自动化] 更新 GT 语言文件",
-    ) -> None:
+    ) -> list[str]:
         filter_: ParatranzFilenameFilter = lambda name: name == settings.GT_LANG_TARGET_REL_PATH + ".json"
 
         def after_to_translation_file_callback(translation_file: TranslationFile) -> None:
@@ -161,17 +170,13 @@ class Action:
             )
         path_converter_: ParatranzToLocalPathConverter = lambda path: Path(f"GregTech_{lang}.lang")
 
-        asyncio.run(
-            self.__paratranz_to_translation(
+        return await self.__paratranz_to_translation(
                 filter_,
                 after_to_translation_file_callback,
                 ValueError("No gt lang file found"),
-                commit_message,
-                Path(repo_path),
-                Path(subdirectory),
+                repo_path,
+                subdirectory,
                 path_converter_,
-                issue,
-            )
         )
 
     ############################################################################

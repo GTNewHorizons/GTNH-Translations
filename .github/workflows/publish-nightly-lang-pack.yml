@@ -42,28 +42,12 @@ jobs:
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
 
-      - name: ParaTranz to questbook
+      - name: Sync from ParaTranz
         run: >-
-          poetry run python main.py action paratranz-to-quest-book
-          --subdirectory='${{ inputs.target_lang }}'
-          --commit-message='Update questbook for ${{ inputs.target_lang }}'
-        env:
-          PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
-          TARGET_LANG: ${{ inputs.target_lang }}
-      - name: ParaTranz To mod lang
-        run: >-
-          poetry run python main.py action paratranz-to-lang-and-zs
-          --subdirectory='${{ inputs.target_lang }}'
-          --commit-message='Update mod lang for ${{ inputs.target_lang }}'
-        env:
-          PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
-          TARGET_LANG: ${{ inputs.target_lang }}
-      - name: ParaTranz to GT lang
-        run: >-
-          poetry run python main.py action paratranz-to-gt-lang
+          poetry run python main.py action sync-from-paratranz
           --subdirectory='${{ inputs.target_lang }}'
           --lang='${{ inputs.target_lang }}'
-          --commit-message='Update GT lang for ${{ inputs.target_lang }}'
+          --commit-message='Sync ${{ inputs.target_lang }} from ParaTranz'
         env:
           PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
           TARGET_LANG: ${{ inputs.target_lang }}
