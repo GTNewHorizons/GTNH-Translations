@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="topleft">
+        <line>
+            <str>{pingicon}{gold}{username} {white}FPS: </str>
+            <op>
+                <str>ge</str>
+                <var>fps</var>
+                <num>60</num>
+                <num>45</num>
+                <num>30</num>
+                <num>15</num>
+                <num>0</num>
+                <str>{green}</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+                <str/>
+            </op>
+            <var>fps</var>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:clock</str>
+            </icon>
+            <str> {darkaqua}</str>
+            <add>
+                <round>
+                    <div>
+                        <sub>
+                            <var>day</var>
+                            <modi>
+                                <var>day</var>
+                                <num>365</num>
+                            </modi>
+                        </sub>
+                        <num>365</num>
+                    </div>
+                    <num>0</num>
+                </round>
+                <num>1</num>
+            </add>
+            <str>{white}マインクラフト年 {darkaqua}</str>
+            <modi>
+                <var>day</var>
+                <num>365</num>
+            </modi>
+            <str>{white}日 時刻: {gold}{mctime12} </str>
+            <if>
+                <var>daytime</var>
+                <str>{yellow}(日中)</str>
+                <str>{gray}(夜中)</str>
+            </if>
+        </line>
+        <line>
+            <icon>
+                <str>HardcoreEnderExpansion:temple_end_portal</str>
+            </icon>
+            <str> ディメンション: {gold}{dimension} ({dimensionid}) {white}読み込み済みチャンク: {gold}{loadedchunks}</str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:sapling</str>
+                <num>4</num>
+            </icon>
+            <str> バイオーム: {darkaqua}{biome} {gold}</str>
+            <round>
+                <div>
+                    <sub>
+                        <var>localtemperature</var>
+                        <num>32</num>
+                    </sub>
+                    <num>1.8</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>{white}°C</str>
+            <str> {white}湿度{gold}{humidity}{white}%</str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:skull</str>
+                <num>4</num>
+            </icon>
+            <str> エンティティ: {gold}{entitiesrendered} {white}描画中 / {gold}{entitiestotal} {white}読み込み済み</str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:compass</str>
+                <num>0</num>
+            </icon>
+            <str> チャンク X: {gold}{chunkx} {white}Z: {gold}{chunkz} {white}Off: {gold}{chunkoffsetx} {white}: {gold}{chunkoffsetz} {white}Y: {gold}{yfeeti} </str>
+            <op>
+                <str>eq</str>
+                <var>finedirection</var>
+                <str>North</str>
+                <str>North East</str>
+                <str>East</str>
+                <str>South East</str>
+                <str>South</str>
+                <str>South West</str>
+                <str>West</str>
+                <str>North West</str>
+                <str>北</str>
+                <str>北東</str>
+                <str>東</str>
+                <str>南東</str>
+                <str>南</str>
+                <str>南西</str>
+                <str>西</str>
+                <str>北西</str>
+            </op>
+            <str>{white}を向いている</str>
+            <if>
+                <var>slimechunk</var>
+                <str> {gold}スライムチャンク{white}</str>
+            </if>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:torch</str>
+            </icon>
+            <str> 明るさ: </str>
+            <max>
+                <var>light</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>light</var>
+            <str> {white}(足元: </str>
+            <max>
+                <var>lightfeet</var>
+                <num>7.5</num>
+                <str>{yellow}</str>
+                <str>{red}</str>
+            </max>
+            <var>lightfeet</var>
+            <str>{white})</str>
+        </line>
+        <line>
+            <str>{black}</str>
+        </line>
+        <line>
+            <if>
+                <var>snowing</var>
+                <str>  {darkgreen}{underline}雪{reset}が降っている</str>
+            </if>
+            <if>
+                <and>
+                    <var>raining</var>
+                    <not>
+                        <var>thundering</var>
+                    </not>
+                </and>
+                <str>  {darkgreen}{underline}雨{reset}が降っている</str>
+            </if>
+            <if>
+                <var>thundering</var>
+                <str>  {darkgreen}{underline}雷を伴った雨{reset}が降っている</str>
+            </if>
+        </line>
+        <line>
+            <str>{black}</str>
+        </line>
+        <line>
+            <if>
+                <equal>
+                <var>gtnewore</var>
+                    <str>true</str>
+                </equal>
+                <if>
+                    <and>
+                        <or>
+                            <equal>
+                                <modi>
+                                    <var>chunkx</var>
+                                    <num>3</num>
+                                </modi>
+                                <num>-2</num>
+                            </equal>
+                            <equal>
+                                <modi>
+                                    <var>chunkx</var>
+                                    <num>3</num>
+                                </modi>
+                                <num>1</num>
+                            </equal>
+                        </or>
+                        <or>
+                            <equal>
+                                <modi>
+                                    <var>chunkz</var>
+                                    <num>3</num>
+                                </modi>
+                                <num>-2</num>
+                            </equal>
+                            <equal>
+                                <modi>
+                                    <var>chunkz</var>
+                                    <num>3</num>
+                                </modi>
+                                <num>1</num>
+                            </equal>
+                        </or>
+                    </and>
+                    <concat>
+                        <icon>
+                            <str>textures/items/diamond_pickaxe.png</str>
+                            <num>0</num>
+                            <num>0</num>
+                            <num>16</num>
+                            <num>16</num>
+                        </icon>
+                        <str>  ここは{darkgreen}{underline}鉱脈{white}のあるチャンク</str>
+                    </concat>
+                </if>
+            </if>
+            <if>
+                <equal>
+                    <var>gtnewore</var>
+                    <str>false</str>
+                </equal>
+                <if>
+                    <and>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                </and>
+                    <concat>
+                        <icon>
+                            <str>textures/items/diamond_pickaxe.png</str>
+                            <num>0</num>
+                            <num>0</num>
+                            <num>16</num>
+                            <num>16</num>
+                        </icon>
+                        <str>  ここは{darkgreen}{underline}鉱脈{white}のあるチャンク</str>
+                    </concat>
+                </if>
+            </if>
+        </line>
+        <line>
+            <if>
+                <and>
+                    <equal>
+                        <var>chunkoffsetx</var>
+                        <num>7</num>
+                    </equal>
+                    <equal>
+                        <var>chunkoffsetz</var>
+                        <num>7</num>
+                    </equal>
+                </and>
+                <concat>
+                    <if>
+                        <and>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                        </and>
+                        <str>      </str>
+                    </if>
+                    <str>  チャンクの{darkred}中央{white}</str>
+                </concat>
+            </if>
+        </line>
+        <line>
+            <str>{black}</str>
+        </line>
+        <line>
+            <if>
+                <str>  近くのプレイヤー:</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  1) {gold}{nearbyplayername0}{white}({nearbyplayerdistance0}m)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) {gold}{nearbyplayername1}{white}({nearbyplayerdistance1}m)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) {gold}{nearbyplayername2}{white}({nearbyplayerdistance2}m)</str>
+            </if>
+        </line>
+    </lines>
+    <lines at="middleleft">
+        <line>
+            <var>equippedicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>equippeddamageleft</var>
+                    <var>equippedmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <num>0</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+                <str/>
+            </op>
+            <max>
+                <var>equippeddamageleft</var>
+                <num>0.5</num>
+                <str>{equippeddamageleft} {white}/ {yellow}{equippedmaxdamage}</str>
+                <var>equippedname</var>
+            </max>
+        </line>
+        <line>
+            <var>helmeticon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>helmetdamageleft</var>
+                <num>0.5</num>
+                <str>{helmetdamageleft} {white}/ {yellow}{helmetmaxdamage}</str>
+                <str/>
+            </max>
+            <str> </str>
+        </line>
+        <line>
+            <var>chestplateicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>chestplatedamageleft</var>
+                <num>0.5</num>
+                <str>{chestplatedamageleft} {white}/ {yellow}{chestplatemaxdamage}</str>
+                <str/>
+            </max>
+            <str> </str>
+        </line>
+        <line>
+            <var>leggingsicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>leggingsdamageleft</var>
+                <num>0.5</num>
+                <str>{leggingsdamageleft} {white}/ {yellow}{leggingsmaxdamage}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <var>bootsicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+            </op>
+            <max>
+                <var>bootsdamageleft</var>
+                <num>0.5</num>
+                <str>{bootsdamageleft} {white}/ {yellow}{bootsmaxdamage}</str>
+                <str/>
+            </max>
+        </line>
+    </lines>
+    <lines at="bottomright">
+        <line>
+            <max>
+                <var>potiondurationticks0</var>
+                <num>0.5</num>
+                <str>{potionduration0} {potionicon0}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks1</var>
+                <num>0.5</num>
+                <str>{potionduration1} {potionicon1}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks2</var>
+                <num>0.5</num>
+                <str>{potionduration2} {potionicon2}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks3</var>
+                <num>0.5</num>
+                <str>{potionduration3} {potionicon3}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks4</var>
+                <num>0.5</num>
+                <str>{potionduration4} {potionicon4}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks5</var>
+                <num>0.5</num>
+                <str>{potionduration5} {potionicon5}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks6</var>
+                <num>0.5</num>
+                <str>{potionduration6} {potionicon6}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks7</var>
+                <num>0.5</num>
+                <str>{potionduration7} {potionicon7}</str>
+                <str/>
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks8</var>
+                <num>0.5</num>
+                <str>{potionduration8} {potionicon8}</str>
+                <str/>
+            </max>
+        </line>
+    </lines>
+</config>
