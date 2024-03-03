@@ -6,9 +6,13 @@ Here, all the translation projects, including XXX, are managed.
 
 ## How to use
 
-<!-- 1. Select corresponding version from [Releases](./releases), or select XXX Latest -->
-1. Select XXX Latest from [Releases](./releases)
+<!-- 1. Select corresponding version from [Releases](https://github.com/GTNewHorizons/GTNH-Translations/releases), or select XXX Latest -->
+1. Select XXX Latest from [Releases](https://github.com/GTNewHorizons/GTNH-Translations/releases)
 2. Download and unzip it, and place under .minecraft folder
+
+## Feedbacks and suggestions
+
+Please submit feedbacks/suggestions to this repository, not main modpack repository.
 
 ## How to contribute
 
