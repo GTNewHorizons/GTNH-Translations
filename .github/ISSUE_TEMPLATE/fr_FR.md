@@ -1,6 +1,6 @@
 ---
-name: French
-about: Feedback / suggestion for French
+name: Français
+about: Retours et suggestions à propos de la traduction Française
 title: ''
 labels: 'fr_FR'
 assignees: ''
