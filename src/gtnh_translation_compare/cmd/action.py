@@ -84,27 +84,25 @@ class Action:
         self,
         repo_path: Path,
         subdirectory: Path,
-        lang: str,
     ) -> None:
         files_to_commit: list[str] = []
         files_to_commit.extend(await self._paratranz_to_quest_book(repo_path, subdirectory))
         files_to_commit.extend(await self._paratranz_to_lang(repo_path, subdirectory))
-        files_to_commit.extend(await self._paratranz_to_gt_lang(repo_path, subdirectory, lang))
+        files_to_commit.extend(await self._paratranz_to_gt_lang(repo_path, subdirectory))
 
         git_commit(
             repo_path,
             files_to_commit,
             settings.GIT_AUTHOR,
-            f"Sync ${lang} from ParaTranz",
+            f"Sync {settings.TARGET_LANG.name} from ParaTranz",
         )
 
     def sync_from_paratranz(
         self,
         repo_path: str = ".",
         subdirectory: str = ".",
-        lang: str = "en_US",
     ) -> None:
-        asyncio.run(self._sync_from_paratranz(Path(repo_path), Path(subdirectory), lang))
+        asyncio.run(self._sync_from_paratranz(Path(repo_path), Path(subdirectory)))
 
     # Quest Book
     async def _paratranz_to_quest_book(
@@ -153,7 +151,6 @@ class Action:
         self,
         repo_path: Path,
         subdirectory: Path,
-        lang: str = "en_US",
     ) -> list[str]:
         filter_: ParatranzFilenameFilter = lambda name: name == settings.GT_LANG_TARGET_REL_PATH + ".json"
 
@@ -161,7 +158,7 @@ class Action:
             translation_file.content = translation_file.content.replace(
                 "B:UseThisFileAsLanguageFile=false", "B:UseThisFileAsLanguageFile=true"
             )
-        path_converter_: ParatranzToLocalPathConverter = lambda path: Path(f"GregTech_{lang}.lang")
+        path_converter_: ParatranzToLocalPathConverter = lambda path: Path(f"GregTech_{settings.TARGET_LANG.name}.lang")
 
         return await self.__paratranz_to_translation(
                 filter_,

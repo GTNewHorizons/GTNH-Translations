@@ -46,7 +46,6 @@ jobs:
         run: >-
           poetry run python main.py action sync-from-paratranz
           --subdirectory='${{ inputs.target_lang }}'
-          --lang='${{ inputs.target_lang }}'
         env:
           PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
           TARGET_LANG: ${{ inputs.target_lang }}
