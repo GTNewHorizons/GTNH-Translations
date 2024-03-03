@@ -1,0 +1,1205 @@
+chat.railcraft.api.error=Error: Outdated API, please check your log for more info.
+
+command.railcraft.aliases=Aliases: %s
+command.railcraft.help=Type '%s' for help.
+command.railcraft.list=Available Sub-Commands:
+command.railcraft.permlevel=Permission Level: %s
+command.railcraft.noperms=You do not have permission to use this command.
+
+command.railcraft.railcraft.help=Various commands for Railcraft
+command.railcraft.railcraft.format=Format: /%s <sub-command>
+
+command.railcraft.railcraft.admin.desc=- %s : Admin Tools
+command.railcraft.railcraft.admin.help=Tools for administration.
+command.railcraft.railcraft.admin.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.desc=- %s : Kill Tasks
+command.railcraft.railcraft.admin.kill.help=Tools for killing things.
+command.railcraft.railcraft.admin.kill.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.animals.desc=- %s : Kill Animals
+command.railcraft.railcraft.admin.kill.animals.help=Kills all animals in the current world.
+command.railcraft.railcraft.admin.kill.animals.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : Kill Minecarts
+command.railcraft.railcraft.admin.kill.minecarts.help=Kills all minecarts in the current world.
+command.railcraft.railcraft.admin.kill.minecarts.format=Format: /%s
+
+command.railcraft.railcraft.debug.desc=- %s : Debug Tools
+command.railcraft.railcraft.debug.help=Tools for debugging difficult issues.
+command.railcraft.railcraft.debug.format=Format: /%s
+
+command.railcraft.railcraft.debug.tile.desc=- %s : Tile Debug Tools
+command.railcraft.railcraft.debug.tile.help=Tools for debugging tiles.
+command.railcraft.railcraft.debug.tile.format=Format: /%s x y z
+
+command.railcraft.railcraft.debug.tile.controller.desc=- %s : Controller Debug Tools
+command.railcraft.railcraft.debug.tile.controller.help=Tools for debugging Controller tiles.
+command.railcraft.railcraft.debug.tile.controller.format=Format: /%s x y z
+
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Receiver Debug Tools
+command.railcraft.railcraft.debug.tile.receiver.help=Tools for debugging Receiver tiles.
+command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s x y z
+
+death.railcraft.bore.1=%s got in the way of progress
+death.railcraft.bore.2=%s tried to stop the Bore
+death.railcraft.bore.3=%s was crushed by the Bore
+death.railcraft.bore.4=%s thought they could do better than John Henry
+death.railcraft.bore.5=%s got stuck between a rock and a hard place
+death.railcraft.bore.6=%s was on the wrong side of progress
+
+death.railcraft.crusher.1=%s tripped near heavy machinery
+death.railcraft.crusher.2=%s is not the man of steel, they crush just like the rest of us
+death.railcraft.crusher.3=%s stared into the abyss, then they slipped
+death.railcraft.crusher.4=%s is going to need to replace their stuff
+death.railcraft.crusher.5=%s ignored the "Watch Your Step!" signs
+death.railcraft.crusher.6=On sale now! %s Blood Jelly
+death.railcraft.crusher.7=%s was turned into paste
+death.railcraft.crusher.8=%s should have read the manual
+
+death.railcraft.steam.1=%s got cooked, nice and juicy
+death.railcraft.steam.2=%s is not immune to high temperatures, despite claims to the contrary
+death.railcraft.steam.3=%s discovered how painful Steam can be
+death.railcraft.steam.4=%s had an industrial accident
+death.railcraft.steam.5=%s probably shouldn't have stepped there
+death.railcraft.steam.6=%s discovered that Steam baths are best left to saunas
+
+death.railcraft.track.electric.1=%s pissed on an electrified track
+death.railcraft.track.electric.2=%s discovered the meaning of "High Voltage"
+death.railcraft.track.electric.3=%s was enlightened to wonders of electrification
+death.railcraft.track.electric.4=%s tripped on the third rail
+death.railcraft.track.electric.5=%s made a shocking revelation
+death.railcraft.track.electric.6=%s learned something about electricity, IT HURTS!
+
+death.railcraft.train.1=%s got hit by a train
+death.railcraft.train.2=%s was playing on the tracks
+death.railcraft.train.3=%s played chicken with a train; the train won
+death.railcraft.train.4=%s caught the wrong train
+death.railcraft.train.5=%s (이)가 열차에 부딪혔습니다
+death.railcraft.train.6=%s should have worn their Overalls
+
+enchantment.railcraft.crowbar.destruction=Destruction
+enchantment.railcraft.crowbar.implosion=Implosion
+enchantment.railcraft.crowbar.wrecking=Wrecking
+
+entity.Railcraft.cart.anchor.admin.name=관리자 앵커 카트
+entity.Railcraft.cart.anchor.name=앵커 카트
+entity.Railcraft.cart.anchor.personal.name=개인 앵커 카트
+entity.Railcraft.cart.basic.name=마인카트
+entity.Railcraft.cart.bore.name=터널 굴착기
+entity.Railcraft.cart.cargo.name=Cargo Cart
+entity.Railcraft.cart.chest.name=상자 카트
+entity.Railcraft.cart.energy.batbox.name=배트박스 카트
+entity.Railcraft.cart.energy.cesu.name=CESU Cart
+entity.Railcraft.cart.energy.mfe.name=MFE 카트
+entity.Railcraft.cart.energy.mfsu.name=MFSU 카트
+entity.Railcraft.cart.furnace.name=화로 카트
+entity.Railcraft.cart.gift.name=선물상자 카트
+entity.Railcraft.cart.loco.electric.name=Electric Locomotive
+entity.Railcraft.cart.loco.steam.solid.name=Steam Locomotive
+entity.Railcraft.cart.loco.creative.name=Perpetuum Locomotive
+entity.Railcraft.cart.pumpkin.name=호박 카트
+entity.Railcraft.cart.redstone.flux.name=Redstone Flux Cart
+entity.Railcraft.cart.tank.name=탱크 카트
+entity.Railcraft.cart.tnt.name=TNT 카트
+entity.Railcraft.cart.tnt.wood.name=TNT 목제 카트
+entity.Railcraft.cart.track.layer.name=Track Layer Cart
+entity.Railcraft.cart.track.relayer.name=선로 관리용 카트
+entity.Railcraft.cart.track.remover.name=Track Remover Cart
+entity.Railcraft.cart.undercutter.name=선로 하부 관리용 카트
+entity.Railcraft.cart.work.name=작업대 카트
+
+fluid.creosote=크레오소트
+fluid.steam=증기
+
+item.nomobspawnsonthisblock.tip=Mobs cannot Spawn on this Block
+
+item.minecartChest.name=Chest Cart
+item.minecartFurnace.name=Furnace Cart
+item.minecartTnt.name=TNT Cart
+item.minecartHopper.name=Hopper Cart
+
+item.railcraft.armor.goggles.name=선로공 고글
+item.railcraft.armor.overalls.name=작업복
+item.railcraft.armor.overalls.tip=Protection against the\n dangers of track-working
+item.railcraft.armor.steel.boots.name=강철 부츠
+item.railcraft.armor.steel.helmet.name=강철 투구
+item.railcraft.armor.steel.legs.name=강철 레깅스
+item.railcraft.armor.steel.plate.name=강철 갑옷
+
+item.railcraft.backpack.apothecary.t1.name=Apothecary's Backpack
+item.railcraft.backpack.apothecary.t2.name=Woven Apothecary's Backpack
+item.railcraft.backpack.iceman.t1.name=아이스맨 배낭
+item.railcraft.backpack.iceman.t2.name=손상된 아이스맨 배낭
+item.railcraft.backpack.tip=Railcraft, Inc. 에서 디자인
+item.railcraft.backpack.trackman.t1.name=선로공 배낭
+item.railcraft.backpack.trackman.t2.name=손상된 선로공 배낭
+
+item.railcraft.borehead.diamond.name=다이아몬드 굴착기 날
+item.railcraft.borehead.iron.name=철 굴착기 날
+item.railcraft.borehead.steel.name=강철 굴착기 날
+
+item.railcraft.cart.anchor.admin.name=관리자 앵커 카트
+item.railcraft.cart.anchor.name=앵커 카트
+item.railcraft.cart.anchor.personal.name=개인 앵커 카트
+item.railcraft.cart.basic.name=마인카트
+item.railcraft.cart.bore.name=터널 굴착기
+item.railcraft.cart.cargo.name=Cargo Cart
+item.railcraft.cart.chest.name=상자 카트
+item.railcraft.cart.energy.batbox.name=배트박스 카트
+item.railcraft.cart.energy.cesu.name=CESU Cart
+item.railcraft.cart.energy.mfe.name=MFE 카트
+item.railcraft.cart.energy.mfsu.name=MFSU 카트
+item.railcraft.cart.furnace.name=화로 카트
+item.railcraft.cart.gift.name=선물상자 카트
+item.railcraft.cart.gift.tip=Merry Christmas
+item.railcraft.cart.loco.electric.name=Electric Locomotive
+item.railcraft.cart.loco.steam.solid.name=Steam Locomotive
+item.railcraft.cart.loco.creative.name=Perpetuum Locomotive
+item.railcraft.cart.loco.creative.tip=§o§9Creative Only
+item.railcraft.cart.pumpkin.name=호박 카트
+item.railcraft.cart.pumpkin.tip=Trick or Treat
+item.railcraft.cart.redstone.flux.name=Redstone Flux Cart
+item.railcraft.cart.tank.name=탱크 카트
+item.railcraft.cart.tnt.name=TNT 카트
+item.railcraft.cart.tnt.wood.name=TNT 목제 카트
+item.railcraft.cart.track.layer.name=Track Layer Cart
+item.railcraft.cart.track.layer.tip=Lays track as it moves
+item.railcraft.cart.track.relayer.name=선로 관리용 카트
+item.railcraft.cart.track.relayer.tip=Replaces one track\n with another
+item.railcraft.cart.track.remover.name=Track Remover Cart
+item.railcraft.cart.track.remover.tip=Removes tracks it passes over
+item.railcraft.cart.undercutter.name=선로 하부 관리용 카트
+item.railcraft.cart.undercutter.tip=Replaces the blocks\n under the track
+item.railcraft.cart.work.name=작업대 카트
+
+item.railcraft.dust.charcoal.name=목탄 가루
+item.railcraft.dust.obsidian.name=흑요석 가루
+item.railcraft.dust.saltpeter.name=초석
+item.railcraft.dust.sulfur.name=황
+
+item.railcraft.emblem.name=Emblem
+
+item.railcraft.firestone.cracked.name=Cracked Firestone
+item.railcraft.firestone.cracked.tip.charged=Leaking heat,\n it can still be used\n if you are careful...
+item.railcraft.firestone.cracked.tip.empty=Damaged, but it\n could still be useful\n if you could recharge it...
+item.railcraft.firestone.cut.name=Cut Firestone
+item.railcraft.firestone.cut.tip=Still its energies\n rage out of control...
+item.railcraft.firestone.raw.name=Raw Firestone
+item.railcraft.firestone.raw.tip=It quickens in your hands,\n you can feel it in the\n very air around you...
+item.railcraft.firestone.refined.name=Refined Firestone
+item.railcraft.firestone.refined.tip.charged=Filled with energy,\n you need only exert\n your will on it to\n release blistering heat...
+item.railcraft.firestone.refined.tip.empty=Its energies controlled,\n it could be useful\n if you could recharge it...
+
+item.railcraft.fluid.creosote.bottle.name=크레오소트 병
+item.railcraft.fluid.creosote.bucket.name=크레오소트 양동이
+item.railcraft.fluid.creosote.can.name=크레오소트 캔
+item.railcraft.fluid.creosote.cell.name=크레오소트 셀
+item.railcraft.fluid.creosote.refactory.name=크레오소트 캡슐
+item.railcraft.fluid.creosote.wax.name=크레오소트 캡슐
+item.railcraft.fluid.steam.bottle.name=Steam Bottle
+
+item.railcraft.fuel.coke.name=코크스
+
+item.railcraft.ingot.copper.name=Copper Ingot
+item.railcraft.ingot.lead.name=Lead Ingot
+item.railcraft.ingot.steel.name=강철 주괴
+item.railcraft.ingot.tin.name=Tin Ingot
+
+item.railcraft.nugget.copper.name=Copper Nugget
+item.railcraft.nugget.iron.name=철 조각
+item.railcraft.nugget.lead.name=Lead Nugget
+item.railcraft.nugget.steel.name=강철 조각
+item.railcraft.nugget.tin.name=Tin Nugget
+
+item.railcraft.part.bleached.clay.name=Bleached Clay
+item.railcraft.part.circuit.controller.name=제어 회로
+item.railcraft.part.circuit.receiver.name=수신 회로
+item.railcraft.part.circuit.signal.name=신호 회로
+item.railcraft.part.gear.bushing.name=Tin Gear Bushing
+item.railcraft.part.gear.gold.plate.name=도금 기어
+item.railcraft.part.gear.iron.name=철제 기어
+item.railcraft.part.gear.steel.name=강철 기어
+item.railcraft.part.plate.copper.name=Copper Plate
+item.railcraft.part.plate.iron.name=철판
+item.railcraft.part.plate.lead.name=Lead Plate
+item.railcraft.part.plate.steel.name=강철판
+item.railcraft.part.plate.tin.name=주석판
+item.railcraft.part.rail.advanced.name=고급 레일
+item.railcraft.part.rail.electric.name=Electric Rail
+item.railcraft.part.rail.reinforced.name=강화 레일
+item.railcraft.part.rail.speed.name=고속 레일
+item.railcraft.part.rail.standard.name=표준 레일
+item.railcraft.part.rail.wood.name=목제 레일
+item.railcraft.part.railbed.stone.name=돌 침목
+item.railcraft.part.railbed.wood.name=나무 침목
+item.railcraft.part.rebar.name=보강봉
+item.railcraft.part.signal.lamp.name=신호등
+item.railcraft.part.tie.stone.name=돌 침목 (낱개)
+item.railcraft.part.tie.wood.name=나무 침목 (낱개)
+item.railcraft.part.turbine.blade.name=터빈 블레이드
+item.railcraft.part.turbine.disk.name=터빈 디스크
+item.railcraft.part.turbine.rotor.name=터빈 로터
+
+item.railcraft.routing.table.name=노선표
+item.railcraft.routing.ticket.gold.name=특수 승차권
+item.railcraft.routing.ticket.name=승차권
+
+item.railcraft.tool.crowbar.magic.name=Thaumium Crowbar
+item.railcraft.tool.crowbar.name=크로우바
+item.railcraft.tool.crowbar.reinforced.name=강화 크로우바
+item.railcraft.tool.crowbar.tip=§o카트 연결: 기어가기 + RightClick
+item.railcraft.tool.crowbar.void.name=Void metal Crowbar
+item.railcraft.tool.electric.meter.name=Electric Meter
+item.railcraft.tool.magnifying.glass.name=돋보기
+item.railcraft.tool.notepad.action.copy=Copied settings from %s
+item.railcraft.tool.notepad.action.copy.fail=Nothing to copy. Not a valid target.
+item.railcraft.tool.notepad.action.empty=Nothing to paste. Shift-click on a target to copy.
+item.railcraft.tool.notepad.action.paste=Pasted settings to %s
+item.railcraft.tool.notepad.action.paste.fail=Nothing to paste. Not a valid target.
+item.railcraft.tool.notepad.name=Trackman's Notepad
+item.railcraft.tool.notepad.tip.contents=Contents: @s
+item.railcraft.tool.notepad.tip.contents.filter.items=§2Item Filters
+item.railcraft.tool.notepad.tip.contents.filter.fluid=§bFluid Filters
+item.railcraft.tool.notepad.tip.contents.filter.cart=§eCart Filters
+item.railcraft.tool.notepad.tip.contents.empty=§4Empty
+item.railcraft.tool.notepad.tip.mode.all=All
+item.railcraft.tool.notepad.tip.mode.cart.filter=Carts Filter
+item.railcraft.tool.notepad.tip.mode.loader.filters=Item/Fluid Filters
+item.railcraft.tool.notepad.tip.mode=Paste Mode: @s
+item.railcraft.tool.notepad.tip=§oright click to paste, sneak right click to copy \n§osneak right click air to clear
+item.railcraft.tool.signal.label.name=Signal Label
+item.railcraft.tool.signal.label.tip=§9- rename in anvil -\n§oright click while sneaking\n§oto name a signal or signal box
+item.railcraft.tool.signal.tuner.name=신호 튜너
+item.railcraft.tool.signal.tuner.tip=Links Controllers to Receivers
+item.railcraft.tool.steel.axe.name=강철 도끼
+item.railcraft.tool.steel.hoe.name=강철 괭이
+item.railcraft.tool.steel.pickaxe.name=강철 곡괭이
+item.railcraft.tool.steel.shears.name=Steel Shears
+item.railcraft.tool.steel.shovel.name=강철 삽
+item.railcraft.tool.steel.sword.name=강철 검
+item.railcraft.tool.surveyor.name=신호 블록 측정기
+item.railcraft.tool.surveyor.tip=Links Signals into Signal Blocks
+item.railcraft.tool.whistle.tuner.name=기적 튜너
+
+
+item.railcraft.upgrade.lapotron=라포트론 공급기 업그레이드
+
+item.synthetic=합성
+
+railcraft.color.black=검정
+railcraft.color.blue=파랑
+railcraft.color.brown=갈색
+railcraft.color.cyan=청록
+railcraft.color.gray=회색
+railcraft.color.green=초록
+railcraft.color.light.blue=하늘색
+railcraft.color.light.gray=밝은 회색
+railcraft.color.lime=연두
+railcraft.color.magenta=자홍
+railcraft.color.orange=주황
+railcraft.color.pink=분홍
+railcraft.color.purple=보라
+railcraft.color.red=빨강
+railcraft.color.white=흰색
+railcraft.color.yellow=노랑
+
+railcraft.gates.action.pause=작업 중단
+railcraft.gates.action.sendcart=카트 보내기
+
+railcraft.gates.trigger.aspect.green=초록
+railcraft.gates.trigger.aspect.off=없음
+railcraft.gates.trigger.aspect.red.blink=빨강, 깜빡임
+railcraft.gates.trigger.aspect.red=빨강
+railcraft.gates.trigger.aspect.yellow.blink=노랑, 깜빡임
+railcraft.gates.trigger.aspect.yellow=노랑
+railcraft.gates.trigger.cart=카트 있음
+railcraft.gates.trigger.engine.blue=엔진 단계
+railcraft.gates.trigger.engine.green=엔진 단계
+railcraft.gates.trigger.engine.orange=엔진 단계
+railcraft.gates.trigger.engine.red=엔진 단계
+railcraft.gates.trigger.engine.yellow=엔진 단계
+railcraft.gates.trigger.fuel=연료 부족
+railcraft.gates.trigger.maintenance=정비 필요
+railcraft.gates.trigger.temp.cold=차가움
+railcraft.gates.trigger.temp.hot=뜨거움
+railcraft.gates.trigger.temp.warm=따뜻함
+railcraft.gates.trigger.work=작업 중
+
+railcraft.gui.anchor.fuel.remaining=@.2f 시간
+railcraft.gui.anchor.fuel=엔더 진주
+railcraft.gui.anchor.pair.fail.alignment=@1$s와(과) @2$s의 축이 맞지 않습니다
+railcraft.gui.anchor.pair.fail.distance=@1$s와(과) @2$s을(를) 페어링하기에는 너무 멉니다
+railcraft.gui.anchor.pair.fail.dimension=%1$s is in a different dimension than the target
+railcraft.gui.anchor.pair.fail.invalid=This is not a valid target for pairing with the %s
+railcraft.gui.anchor.pair.fail.unloaded=Target was unloaded while attempting to pair with %s
+railcraft.gui.anchor.pair.cancel=%s pairing was cancelled
+railcraft.gui.anchor.pair.start=@s의 페어링이 시작되었습니다
+railcraft.gui.anchor.pair.success=@s의 페어링에 성공했습니다
+
+railcraft.gui.aspect.blink.red.name=Blink Red
+railcraft.gui.aspect.blink.yellow.name=Blink Yellow
+railcraft.gui.aspect.green.name=Green
+railcraft.gui.aspect.off.name=Off
+railcraft.gui.aspect.red.name=Red
+railcraft.gui.aspect.yellow.name=Yellow
+
+railcraft.gui.aura.disable=@s 아우라 중지
+railcraft.gui.aura.enable=@s 아우라 사용
+
+railcraft.gui.blast.furnace=§7 고로
+
+railcraft.gui.bore.ballast=선로 하부
+railcraft.gui.bore.fuel=연료
+railcraft.gui.bore.head=날
+railcraft.gui.bore.track=레일
+
+railcraft.gui.box.aspect.action=이 상태에서 레드스톤 방출
+railcraft.gui.box.capacitor.duration=@d초간 레드스톤 신호 방출
+railcraft.gui.box.capacitor.immediate=Rising Edge
+railcraft.gui.box.capacitor.immediate.tip=Start timer as soon as the input signal is received.
+railcraft.gui.box.capacitor.delayed=Falling Edge
+railcraft.gui.box.capacitor.delayed.tip=Start timer when the last input signal turns off.
+railcraft.gui.box.controller.aspect.default=기본 상태:
+railcraft.gui.box.controller.aspect.redstone=레드스톤 상태:
+
+railcraft.gui.cart.tnt.fuse=점화
+railcraft.gui.cart.track.relayer.pattern=패턴
+railcraft.gui.cart.track.relayer.stock=소지
+railcraft.gui.cart.undercutter.pattern=패턴
+railcraft.gui.cart.undercutter.sides=옆
+railcraft.gui.cart.undercutter.stock=소지
+railcraft.gui.cart.undercutter.under=아래
+
+railcraft.gui.coke.oven=코크스 오븐
+
+railcraft.gui.detector.item.analog=아날로그
+railcraft.gui.detector.item.anything=모두
+railcraft.gui.detector.item.at_least=최소한
+railcraft.gui.detector.item.at_most=최대한
+railcraft.gui.detector.item.empty=비어 있음
+railcraft.gui.detector.item.exactly=정확히
+railcraft.gui.detector.item.filtered=필터링
+railcraft.gui.detector.item.full=가득 차 있음
+railcraft.gui.detector.item.greater_than=Greater Than
+railcraft.gui.detector.item.less_than=Less Than
+railcraft.gui.detector.item.not_empty=비어 있지 않음
+railcraft.gui.detector.loco.primary=주 색상
+railcraft.gui.detector.loco.secondary=보조 색상
+railcraft.gui.detector.tank.tip.analog=탱크 용량에 따라\n레드스톤 신호 방출
+railcraft.gui.detector.tank.tip.empty=빈 탱크 일치
+railcraft.gui.detector.tank.tip.full=가득 찬 탱크 일치
+railcraft.gui.detector.tank.tip.half=1/2 초과 탱크 일치
+railcraft.gui.detector.tank.tip.less.than.full=가득 차 있지 않은 탱크 일치
+railcraft.gui.detector.tank.tip.less.than.half=1/2 미만 탱크 일치
+railcraft.gui.detector.tank.tip.less.than.most=3/4 미만 탱크 일치
+railcraft.gui.detector.tank.tip.less.than.quarter=1/4 미만 탱크 일치
+railcraft.gui.detector.tank.tip.most=3/4 초과 탱크 일치
+railcraft.gui.detector.tank.tip.not.empty=비어 있지 않은 탱크 일치
+railcraft.gui.detector.tank.tip.quarter=1/4 초과 탱크 일치
+railcraft.gui.detector.tank.tip.void=임의 개수 일치
+railcraft.gui.detector.train.size=Train Size = @d
+railcraft.gui.detector.villager.any=모두
+railcraft.gui.detector.villager.equals=일치
+railcraft.gui.detector.villager.none=없음
+railcraft.gui.detector.villager.not=부정
+
+railcraft.gui.electric.meter.charge=Charge: @.2fc | Draw: @.2fc/t | Loss: @.2fc/t
+
+railcraft.gui.energy.loader.empty=0%% 유지
+railcraft.gui.energy.loader.fill=Top Off
+railcraft.gui.energy.unloader.wait=Wait till Empty
+
+railcraft.gui.engrave.entercode=Enter Unlock Code:
+railcraft.gui.engrave.getmore1=Visit the links below
+railcraft.gui.engrave.getmore2=to find more unlock codes!
+railcraft.gui.engrave.openunlock=Unlock Emblems
+railcraft.gui.engrave.unlock.exists=Duplicate!
+railcraft.gui.engrave.unlock.fail=Failure!
+railcraft.gui.engrave.unlock.success=Success!
+railcraft.gui.engrave.unlock=Unlock!
+railcraft.gui.engrave=Engrave
+
+railcraft.gui.feed.station.feed=먹이 주기
+
+railcraft.gui.filter=필터
+railcraft.gui.filters.carts=카트
+railcraft.gui.filters=필터
+
+railcraft.gui.goggles.aura.anchor=앵커
+railcraft.gui.goggles.aura.none=없음
+railcraft.gui.goggles.aura.signalling=Signalling
+railcraft.gui.goggles.aura.surveying=Surveying
+railcraft.gui.goggles.aura.tracking=경로
+railcraft.gui.goggles.aura.tuning=튜닝
+railcraft.gui.goggles.mode=현재 아우라: @s
+railcraft.gui.goggles.tip=손에 들어서 아우라를 변경할 수 있습니다.
+
+railcraft.gui.help=도움말
+
+railcraft.gui.ic2.energy.rate=Rate: @d EU
+
+railcraft.gui.item.loader.all.tip=일치되는 모든 아이템을 이동
+railcraft.gui.item.loader.all=모두
+railcraft.gui.item.loader.buffer=버퍼
+railcraft.gui.item.loader.complete.tip=완료되면 레드스톤 신호 방출
+railcraft.gui.item.loader.complete=완료
+railcraft.gui.item.loader.excess.tip=조건에 해당되지 않는 모든 아이템을 이동
+railcraft.gui.item.loader.excess=제외
+railcraft.gui.item.loader.immediate.tip=아이템이 이동되지 않으면 레드스톤 신호 방출
+railcraft.gui.item.loader.immediate=즉시
+railcraft.gui.item.loader.manual.tip=레드스톤 신호 방출 없음
+railcraft.gui.item.loader.manual=수동
+railcraft.gui.item.loader.partial.tip=아이템이 이동되지 않고 카트가 비어있지\n않으면 레드스톤 신호 방출
+railcraft.gui.item.loader.partial=부분
+railcraft.gui.item.loader.stock.tip=목적과 조건이 일치할 때까지 아이템 이동
+railcraft.gui.item.loader.stock=Stock
+railcraft.gui.item.loader.transfer.tip=조건과 일치되는 개수의 아이템 이동
+railcraft.gui.item.loader.transfer=전이
+
+railcraft.gui.link.broken=Link Broken
+railcraft.gui.link.created=Link Created
+railcraft.gui.link.failed=Link Failed
+railcraft.gui.link.started=Link Started
+
+railcraft.gui.liquid.capacity=용량
+railcraft.gui.liquid.loader.empty.tip=Hold empty carts
+railcraft.gui.liquid.loader.empty=0%% 유지
+railcraft.gui.liquid.loader.fill.tip=Hold carts until completely full
+railcraft.gui.liquid.loader.fill=100%% 유지
+railcraft.gui.liquid.loader.immediate.tip=Emit Redstone if no\n liquid was moved
+railcraft.gui.liquid.loader.immediate=Immediate
+railcraft.gui.liquid.loader.manual.tip=Never emit Redstone
+railcraft.gui.liquid.loader.manual=Manual
+railcraft.gui.liquid.unloader.empty.tip=Hold Carts until\n completely empty
+railcraft.gui.liquid.unloader.empty=Empty
+railcraft.gui.liquid.unloader.immediate.tip=Emit Redstone if no\n liquid was moved
+railcraft.gui.liquid.unloader.immediate=Immediate
+railcraft.gui.liquid.unloader.manual.tip=Never emit Redstone
+railcraft.gui.liquid.unloader.manual=Manual
+
+railcraft.gui.locomotive.mode.idle=휴식
+railcraft.gui.locomotive.mode.running=운행
+railcraft.gui.locomotive.mode.shutdown=정지
+railcraft.gui.locomotive.electric.tip.button.mode.running=Makes the Locomotive move.
+railcraft.gui.locomotive.electric.tip.button.mode.shutdown=Stops the locomotive.
+railcraft.gui.locomotive.steam.tip.button.mode.idle=연료 사용량이 줄어들지만\n열은 유지됩니다.\n열차가 트랙에 서 있으면\n이 상태로 간주 됩니다.
+railcraft.gui.locomotive.steam.tip.button.mode.running=기관차가 움직이게 합니다.
+railcraft.gui.locomotive.steam.tip.button.mode.shutdown=모든 운행을 중단하고\n냉각에 들어갑니다.
+railcraft.gui.locomotive.tip.button.locked=이 카트는 {owner}에게 고정되어 있습니다.\n고정된 기관차에는 소유자나 관리자가\n발행한 승차권만 사용할 수 있습니다.
+railcraft.gui.locomotive.tip.button.private=This cart is private to\n {owner}.\n It can only be controlled\n by them or an Op.
+railcraft.gui.locomotive.tip.button.unlocked=클릭하면 기관차가 고정됩니다.\n고정된 기관차에는 소유자나 관리자가\n발행한 승차권만 사용할 수 있습니다.
+railcraft.gui.locomotive.tip.item.emblem=§oEmblem:§r @s
+railcraft.gui.locomotive.tip.item.model.default=Default Model
+railcraft.gui.locomotive.tip.item.model=§oModel:§r @s
+railcraft.gui.locomotive.tip.item.owner=§o소유자:§r @s
+railcraft.gui.locomotive.tip.item.primary=§o주 색상:§r @s
+railcraft.gui.locomotive.tip.item.secondary=§o보조 색상:§r @s
+railcraft.gui.locomotive.tip.item.whistle=§o기적 음 높이:§r @s
+railcraft.gui.locomotive.tip.slot.ticket=승차권 삽입
+
+railcraft.gui.mag.glass.aspect=The signal aspect is %s
+railcraft.gui.mag.glass.aspect.dual=The signal aspect is %1$s at top and %2$s at bottom
+railcraft.gui.mag.glass.placedby=%2$s(이)가 %1$s을(를) 배치했습니다,
+
+railcraft.gui.rolling.machine.tip.craft=§e§o-클릭하여 조합-
+
+railcraft.gui.routing.logic.blank=빈 노선표
+railcraft.gui.routing.logic.insufficient.operands=피연산자가 부족합니다
+railcraft.gui.routing.logic.malformed.syntax=Malformed Syntax
+railcraft.gui.routing.logic.regex.invalid=Invalid Regex Pattern
+railcraft.gui.routing.logic.regex.unsupported=Regex Unsupported
+railcraft.gui.routing.logic.unrecognized.keyword=키워드를 식별할 수 없습니다
+railcraft.gui.routing.slot.label=노선표
+railcraft.gui.routing.table.editor=최종 편집자: @s
+railcraft.gui.routing.table.manual.numPages=11
+railcraft.gui.routing.table.manual.page1=노선표를 노선 감지기나 스위치에 배치하면 지나는 열차의 진행 방향이 정의됩니다. 간단한 논리 문법으로 원하는 만큼 노선을 정의할 수 있습니다. 연산자 뒤에 피연산자를 표시하는 전위 표기법이 사용됩니다. 키워드는 1행당 1개로 제한됩니다. 연산자를 표기하지 않으면 OR가 암시됩니다. 노선표는 작업대에 2개 이상 배치하면 복사됩니다.
+railcraft.gui.routing.table.manual.page2=연산자 키워드:\n   AND - 두 피연산자 모두 참이어야 참이 됩니다.\n   OR - 두 피연산자 모두 거짓이어야 거짓이 됩니다.\n   NOT - 다음 연산자의 반대가 됩니다..
+railcraft.gui.routing.table.manual.page3=조건 키워드:\n   Dest=<문자열>\n      이 열차의 목적지 이름이 입력한\n      문자열로 시작하면 조건이 참이\n      됩니다.\n   Owner=<이름>\n      이 열차의 소유자 이름이 일치\n      하면 참이 됩니다.\n
+railcraft.gui.routing.table.manual.page4=Condition Keywords:\n   Color=<주 색상>,<보조 색상>\n      열차의 주 색상과 보조 색상이 일치하면\n      참이 됩니다.\n      "Any"를 입력하면 아무 색상을 지정합니다.\n      색상: Black, Red, Green, Brown, Blue,\n      Purple, Cyan, LightGray, Gray, Pink, Lime,\n      Yellow, LightBlue, Magenta, Orange, White
+railcraft.gui.routing.table.manual.page5=예시 스크립트:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+railcraft.gui.routing.table.manual.page6=결과:\n   "TheFarLands/Milliways"로 향하거나,\n   검은색-빨간색으로 칠해져 있거나,\n   "SecretHideout/OceanEntrance"로 향하는\n   기관차가 RichardG 소유가 아니면\n   이전 페이지의 스크립트에 지정된\n   조건을 만족합니다.
+railcraft.gui.routing.table.manual.page7=Condition Keywords:\n   Redstone=<true/false>\n      True if the Routing Block\n      is being powered by Redstone.
+railcraft.gui.routing.table.manual.page8=Condition Keywords:\n   Loco=<string>\n      True if locomotive matches parameter string.\n      Accepted strings: electric, steam, none.\n      Using parameter none will only return true if there is no locomotive.
+railcraft.gui.routing.table.manual.page9=Example Script:\n   Dest=TheFarLands\n   Color=Black,Red\n   AND\n   NOT\n   Owner=RichardG\n   Dest=SecretHideout/OceanEntrance
+railcraft.gui.routing.table.manual.page10=Result:\n   The script on the previous page will\n   match a Locomotive with a destination\n   of "TheFarLands/Milliways",\n   or that is painted black and red,\n   or that has a destination of\n   "SecretHideout/OceanEntrance",\n   but only if its not owned by RichardG.
+railcraft.gui.routing.table.manual.page11=Regular Expressions:\n   Some Conditions support\n   Regular Expressions.\n   To use a regex, add a '?' before the '='.\n   Rules are standard Java Patterns.\nSupporting Conditions:\n   Dest, Name\nExample:\n   Dest?=.*Hill
+railcraft.gui.routing.table.manual.title=노선 수동 지정
+railcraft.gui.routing.table.name=이름
+railcraft.gui.routing.ticket.line1=아래 목적지로 가는
+railcraft.gui.routing.ticket.line2=열차에 사용 가능합니다:
+railcraft.gui.routing.ticket.manual.title=특수 승차권
+railcraft.gui.routing.ticket.manual=특수 승차권으로 공용 열차나 발행인이 소유한 열차에 무제한 탑승이 가능합니다. 종이와 조합해 일반 승차권을 생성할 수 있습니다.
+railcraft.gui.routing.ticket.tip.blank=빈 승차권
+railcraft.gui.routing.ticket.tip.dest=목적지:
+railcraft.gui.routing.ticket.tip.issuer=발행인:
+railcraft.gui.routing.ticket.title=특수 승차권
+railcraft.gui.routing.tip.slot=노선표 삽입
+railcraft.gui.routing.track.slot.label=승차권
+railcraft.gui.routing.track.tip.slot=특수 승차권 삽입
+railcraft.gui.routing.type.private.tip={owner}에게 속한\n기관차만 통과됩니다.
+railcraft.gui.routing.type.private=사유 철도
+railcraft.gui.routing.type.public.tip=모든 기관차가\n통과할 수 있습니다.
+railcraft.gui.routing.type.public=공공 철도
+
+railcraft.gui.steam.boiler=§7 증기 보일러
+railcraft.gui.steam.oven=증기 오븐
+
+railcraft.gui.surveyor.abandon=신호 블록 측정 취소
+railcraft.gui.surveyor.begin=신호 블록 측정 시작
+railcraft.gui.surveyor.invalid=신호 블록이 올바르지 않습니다.
+railcraft.gui.surveyor.lost=첫 번째 신호가 존재하지 않습니다. 측정을 중단합니다.
+railcraft.gui.surveyor.success=신호 블록 정의 성공
+railcraft.gui.surveyor.track=%s 근처에 레일이 없습니다.
+railcraft.gui.surveyor.unloaded=첫 번째 신호가 로드된 청크 안에 없습니다.
+railcraft.gui.surveyor.wrong=올바른 블록 신호가 아닙니다.
+
+railcraft.gui.switch.motor.action=이 상태일 때 스위치:
+railcraft.gui.switch.motor.redstone=Ignore Redstone
+
+railcraft.gui.tank.iron=철 탱크
+railcraft.gui.tank.steel=강철 탱크
+railcraft.gui.tank.water=저수조
+
+railcraft.gui.ticks=틱
+
+railcraft.gui.tip.button.lock.locked=이 장비는 {owner}에게 고정되어 있습니다.\n 소유자나 관리자만 조작할 수 있습니다.
+railcraft.gui.tip.button.lock.notowner=이 장비를 소유하고 있지 않습니다.\n이 장비의 소유자는 {owner}입니다.
+railcraft.gui.tip.button.lock.unlocked=클릭하면 장비가 고정됩니다.\n 고정된 장비는 소유자나 관리자만 조작할 수 있습니다.
+
+railcraft.gui.track.embarking.radius=반지름
+railcraft.gui.track.mode.change=Changed to @s Mode
+railcraft.gui.track.coupler.mode.auto.coupler=Auto-Coupler
+railcraft.gui.track.coupler.mode.coupler=Coupler
+railcraft.gui.track.coupler.mode.decoupler=Decoupler
+railcraft.gui.track.locking.mode.boarding.train=Train Boarding
+railcraft.gui.track.locking.mode.boarding=Boarding
+railcraft.gui.track.locking.mode.holding.train=Train Holding
+railcraft.gui.track.locking.mode.holding=Holding
+railcraft.gui.track.locking.mode.lockdown.train=Train Lockdown
+railcraft.gui.track.locking.mode.lockdown=Lockdown
+railcraft.gui.track.priming.fuse=점화 = @d 틱
+railcraft.gui.track.launcher.force=Force = @d
+
+railcraft.gui.trade.station.dice.tip=Random Trade
+
+railcraft.gui.tuner.abandon.chunk=로드된 청크 안에 제어기가 없습니다. 페어링을 중단합니다.
+railcraft.gui.tuner.abandon.gone=제어기가 없습니다. 페어링을 중단합니다.
+railcraft.gui.tuner.abandon.player=Controller pairing Abandoned
+railcraft.gui.tuner.start=수신기와 %s의 페어링 시작
+railcraft.gui.tuner.stop=수신기와 %s의 페어링 중단
+railcraft.gui.tuner.success=%1$s와(과) %2$s의 페어링에 성공했습니다.
+
+railcraft.gui.turbine.output=출력: @d%%
+railcraft.gui.turbine.rotor=로터:
+railcraft.gui.turbine=증기 터빈
+
+railcraft.gui.update.message=Railcraft @s is available from <http://railcraft.info>
+
+railcraft.keybind.aura.anchor=Anchor Aura
+railcraft.keybind.aura.surveying=Surveying Aura
+railcraft.keybind.aura.tuning=Tuning Aura
+
+railcraft.keybind.loco.faster=기관차 가속 키
+railcraft.keybind.loco.mode=기관차 모드 키
+railcraft.keybind.loco.slower=기관차 감속 키
+railcraft.keybind.loco.whistle=기관차 기적 키
+
+railcraft.locomotive.model.electric.default.name=Standard Electric
+railcraft.locomotive.model.steam.magic.default.name=Standard Magic
+railcraft.locomotive.model.steam.solid.default.name=Standard Solid
+
+railcraft.multiblock.state.invalid.entity=Entity in the way: %s
+railcraft.multiblock.state.invalid.pattern=Does not match pattern: %s
+railcraft.multiblock.state.unknown.unloaded=Part of the structure is not loaded: %s
+railcraft.multiblock.state.valid=Structure is valid
+
+tc.research_category.RAILCRAFT=Traheremagy
+thaumcraft.research.RC_Crowbar.name=Thaumium Crowbar
+thaumcraft.research.RC_Crowbar.page.1=By substituting Thaumium for Steel and imbuing it with a touch of Order, you have discovered how to create a Crowbar that is far more receptive to magic.
+thaumcraft.research.RC_Crowbar.text=[RC] I think you dropped this...
+thaumcraft.research.RC_Crowbar_Void.name=Void metal Crowbar
+thaumcraft.research.RC_Crowbar_Void.page.1=Taking things one step further, you have applied your master of arcane materials to create the ultimate Crowbar.
+thaumcraft.research.RC_Crowbar_Void.text=[RC] Gordon would be proud...
+
+tile.activatorRail.name=활성화 레일
+tile.detectorRail.name=디텍터 레일
+tile.goldenRail.name=파워 레일
+tile.rail.name=레일
+
+tile.railcraft.anvil.intact.name=Steel Anvil
+tile.railcraft.anvil.slightlyDamaged.name=Slightly Damaged Steel Anvil
+tile.railcraft.anvil.veryDamaged.name=Very Damaged Steel Anvil
+
+tile.railcraft.brick.abyssal.block.name=심해석
+tile.railcraft.brick.abyssal.brick.name=심해석 벽돌
+tile.railcraft.brick.abyssal.cobble.name=Abyssal Cobblestone
+tile.railcraft.brick.abyssal.etched.name=조각된 심해석
+tile.railcraft.brick.abyssal.fitted.name=심해석 큰 벽돌
+tile.railcraft.brick.abyssal.ornate.name=장식된 심해석
+
+tile.railcraft.brick.bleachedbone.block.name=백골석
+tile.railcraft.brick.bleachedbone.brick.name=백골석 벽돌
+tile.railcraft.brick.bleachedbone.cobble.name=Bleached Bone Cobblestone
+tile.railcraft.brick.bleachedbone.etched.name=조각된 백골석
+tile.railcraft.brick.bleachedbone.fitted.name=백골석 큰 벽돌
+tile.railcraft.brick.bleachedbone.ornate.name=장식된 백골석
+
+tile.railcraft.brick.bloodstained.block.name=혈석
+tile.railcraft.brick.bloodstained.brick.name=혈석 벽돌
+tile.railcraft.brick.bloodstained.cobble.name=Blood Stained Cobblestone
+tile.railcraft.brick.bloodstained.etched.name=조각된 혈석
+tile.railcraft.brick.bloodstained.fitted.name=혈석 큰 벽돌
+tile.railcraft.brick.bloodstained.ornate.name=장식된 혈석
+
+tile.railcraft.brick.frostbound.block.name=서릿돌
+tile.railcraft.brick.frostbound.brick.name=서릿돌 벽돌
+tile.railcraft.brick.frostbound.cobble.name=Frost Bound Cobblestone
+tile.railcraft.brick.frostbound.etched.name=조각된 서릿돌
+tile.railcraft.brick.frostbound.fitted.name=서릿돌 큰 벽돌
+tile.railcraft.brick.frostbound.ornate.name=장식된 서릿돌
+
+tile.railcraft.brick.infernal.block.name=연옥석
+tile.railcraft.brick.infernal.brick.name=연옥석 벽돌
+tile.railcraft.brick.infernal.cobble.name=Infernal Cobblestone
+tile.railcraft.brick.infernal.etched.name=조각된 연옥석
+tile.railcraft.brick.infernal.fitted.name=연옥석 큰 벽돌
+tile.railcraft.brick.infernal.ornate.name=장식된 연옥석
+
+tile.railcraft.brick.nether.block.name=Nether Block
+tile.railcraft.brick.nether.cobble.name=Nether Cobblestone
+tile.railcraft.brick.nether.etched.name=Etched Nether Stone
+tile.railcraft.brick.nether.fitted.name=Fitted Nether Stone
+tile.railcraft.brick.nether.ornate.name=Ornate Nether Stone
+
+tile.railcraft.brick.quarried.block.name=정제석
+tile.railcraft.brick.quarried.brick.name=정제석 벽돌
+tile.railcraft.brick.quarried.cobble.name=Quarried Cobblestone
+tile.railcraft.brick.quarried.etched.name=조각된 정제석
+tile.railcraft.brick.quarried.fitted.name=정제석 큰 벽돌
+tile.railcraft.brick.quarried.ornate.name=장식된 정제석
+
+tile.railcraft.brick.sandy.block.name=샌디스톤
+tile.railcraft.brick.sandy.brick.name=샌디스톤 벽돌
+tile.railcraft.brick.sandy.cobble.name=Sandy Cobblestone
+tile.railcraft.brick.sandy.etched.name=조각된 샌디스톤
+tile.railcraft.brick.sandy.fitted.name=샌디스톤 큰 벽돌
+tile.railcraft.brick.sandy.ornate.name=장식된 샌디스톤
+
+tile.railcraft.cube.brick.infernal.name=연옥석 (Obsolete)
+tile.railcraft.cube.brick.sandy.name=샌디스톤 (Obsolete)
+tile.railcraft.cube.coke.name=코크스 블록
+tile.railcraft.cube.coke.tip=32,000 Fuel Units
+tile.railcraft.cube.concrete.name=콘크리트 블록
+tile.railcraft.cube.copper.name=Block of Copper
+tile.railcraft.cube.creosote.name=Creosote Wood Block
+tile.railcraft.cube.crushed.obsidian.name=흑요석 자갈
+tile.railcraft.cube.crushed.obsidian.tip=Prevents Mob Spawns
+tile.railcraft.cube.lead.name=Block of Lead
+tile.railcraft.cube.steel.name=강철 블록
+tile.railcraft.cube.stone.abyssal.name=심해석
+tile.railcraft.cube.stone.quarried.name=정제석
+tile.railcraft.cube.tin.name=Block of Tin
+
+tile.railcraft.detector.advanced.name=강화 감지기
+tile.railcraft.detector.age.name=성체 감지기
+tile.railcraft.detector.animal.name=동물 감지기
+tile.railcraft.detector.any.name=범용 감지기
+tile.railcraft.detector.cart.name=카트 감지기
+tile.railcraft.detector.empty.name=빈 카트 감지기
+tile.railcraft.detector.energy.name=에너지 감지기
+tile.railcraft.detector.explosive.name=폭발물 감지기
+tile.railcraft.detector.item.name=아이템 감지기
+tile.railcraft.detector.locomotive.name=기관차 감지기
+tile.railcraft.detector.mob.name=몹 감지기
+tile.railcraft.detector.player.name=플레이어 감지기
+tile.railcraft.detector.powered.name=동력 감지기
+tile.railcraft.detector.routing.name=경로 감지기
+tile.railcraft.detector.sheep.name=양 감지기
+tile.railcraft.detector.tank.name=탱크 감지기
+tile.railcraft.detector.train.name=열차 감지기
+tile.railcraft.detector.villager.name=주민 감지기
+
+tile.railcraft.firestone.recharge.name=Recharging Firestone
+
+tile.railcraft.fluid.creosote.name=Creosote
+tile.railcraft.fluid.steam.name=Steam
+
+tile.railcraft.frame.name=Wire Support Frame
+tile.railcraft.frame.tip=Use to place Track on Shunting Wire
+
+tile.railcraft.glass.name=Strengthened Glass
+
+tile.railcraft.machine.alpha.anchor.admin.name=관리자 앵커
+tile.railcraft.machine.alpha.anchor.passive.name=Passive Anchor
+tile.railcraft.machine.alpha.anchor.personal.name=개인 앵커
+tile.railcraft.machine.alpha.anchor.world.name=세계 앵커
+tile.railcraft.machine.alpha.blast.furnace.name=고로 블록
+tile.railcraft.machine.alpha.blast.furnace.tip=배치: 3x4x3 (속이 빈 형태)
+tile.railcraft.machine.alpha.coke.oven.name=코크스 화로 블록
+tile.railcraft.machine.alpha.coke.oven.tip=배치: 3x3x3 (속이 빈 형태)
+tile.railcraft.machine.alpha.feed.station.name=먹이통
+tile.railcraft.machine.alpha.rock.crusher.name=석재 분쇄기
+tile.railcraft.machine.alpha.rock.crusher.tip=배치: 3x2x2
+tile.railcraft.machine.alpha.rolling.machine.name=압연기
+tile.railcraft.machine.alpha.smoker.name=굴뚝
+tile.railcraft.machine.alpha.steam.oven.name=증기 오븐
+tile.railcraft.machine.alpha.steam.oven.tip=배치: 2x2x2
+tile.railcraft.machine.alpha.steam.trap.auto.name=Automated Steam Trap
+tile.railcraft.machine.alpha.steam.trap.name=Manual Steam Trap
+tile.railcraft.machine.alpha.tank.water.name=저수조 외장재
+tile.railcraft.machine.alpha.tank.water.tip=배치: 3x3x3 (속이 빈 형태)
+tile.railcraft.machine.alpha.trade.station.name=Trade Station
+tile.railcraft.machine.alpha.turbine.name=증기 터빈 덮개
+tile.railcraft.machine.alpha.turbine.tip=배치: 3x2x2
+
+tile.railcraft.machine.beta.anchor.sentinel.name=앵커 센티넬
+tile.railcraft.machine.beta.boiler.firebox.liquid.name=액체 연료 화실
+tile.railcraft.machine.beta.boiler.firebox.liquid.tip=배치: 여러 크기\n 최하층 크기: 1x1, 2x2, 3x3
+tile.railcraft.machine.beta.boiler.firebox.solid.name=고체 연료 화실
+tile.railcraft.machine.beta.boiler.firebox.solid.tip=배치: 여러 크기\n 최하층 크기: 1x1, 2x2, 3x3
+tile.railcraft.machine.beta.boiler.tank.pressure.high.name=고압 보일러
+tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=배치: 여러 크기, 화실 위\n 크기: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3 - 40L
+tile.railcraft.machine.beta.boiler.tank.pressure.low.name=저압 보일러
+tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=배치: 여러 크기, 화실 위\n 크기: 1x1x1, 2x2x2, 2x3x2,\n 3x2x3, 3x3x3, 3x4x3 - 10L
+tile.railcraft.machine.beta.chest.metals.name=Metals Chest
+tile.railcraft.machine.beta.chest.metals.tip=Condenses Metals to Blocks
+tile.railcraft.machine.beta.chest.void.name=쓰레기통
+tile.railcraft.machine.beta.chest.void.tip=Deletes Items
+tile.railcraft.machine.beta.engine.steam.high.name=산업용 증기 엔진
+tile.railcraft.machine.beta.engine.steam.high.tip=Produces 80 RF/t\n Uses 40L of Steam per tick
+tile.railcraft.machine.beta.engine.steam.hobby.name=개인용 증기 엔진
+tile.railcraft.machine.beta.engine.steam.hobby.tip=Produces 20 RF/t\n Uses 10L of Steam per tick
+tile.railcraft.machine.beta.engine.steam.low.name=상용 증기 엔진
+tile.railcraft.machine.beta.engine.steam.low.tip=Produces 40 RF/t\n Uses 20L of Steam per tick
+tile.railcraft.machine.beta.tank.iron.gauge.name=철 탱크 게이지
+tile.railcraft.machine.beta.tank.iron.gauge.tip=배치: 액체 배출을 위해 최하단\n2개 층에 위치해아 합니다.
+tile.railcraft.machine.beta.tank.iron.valve.name=철 탱크 밸브
+tile.railcraft.machine.beta.tank.iron.valve.tip=배치: 여러 크기, 속이 빈 형태\n 높이: 4, 5, 6, 7, 8\n 지름: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.iron.wall.name=철 탱크 벽
+tile.railcraft.machine.beta.tank.iron.wall.tip=배치: 여러 크기, 속이 빈 형태\n 높이: 4, 5, 6, 7, 8\n 지름: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.steel.gauge.name=강철 탱크 게이지
+tile.railcraft.machine.beta.tank.steel.gauge.tip=배치: 액체 배출을 위해 최하단\n2개 층에 위치해아 합니다.
+tile.railcraft.machine.beta.tank.steel.valve.name=강철 탱크 밸브
+tile.railcraft.machine.beta.tank.steel.valve.tip=배치: 여러 크기, 속이 빈 형태\n 높이: 4, 5, 6, 7, 8\n 지름: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.steel.wall.name=강철 탱크 벽
+tile.railcraft.machine.beta.tank.steel.wall.tip=배치: 여러 크기, 속이 빈 형태\n 높이: 4, 5, 6, 7, 8\n 지름: 3, 5, 7, 9
+
+tile.railcraft.machine.delta.wire.name=Electric Shunting Wire
+tile.railcraft.machine.delta.wire.tip=Connect Electric Track across gaps\n Place under Track using Wire Support Frames
+
+tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin Steam Producer
+tile.railcraft.machine.epsilon.admin.steam.producer.tip=Provides Unlimited Steam
+tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin Feeder Unit
+tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Provides Unlimited Railcraft Charge
+tile.railcraft.machine.epsilon.electric.feeder.name=Electric Feeder Unit
+tile.railcraft.machine.epsilon.electric.feeder.tip=Converts IndustrialCraft\n Electricity to Railcraft Charge
+tile.railcraft.machine.epsilon.engraving.bench.name=Engraving Bench
+tile.railcraft.machine.epsilon.flux.transformer.name=Flux Transformer
+tile.railcraft.machine.epsilon.flux.transformer.tip=Multi-Block: 2x2x2\n Converts Redstone Flux to Railcraft Charge\n 80% Efficiency
+tile.railcraft.machine.epsilon.force.track.emitter.name=Force Track Emitter
+tile.railcraft.machine.epsilon.force.track.emitter.tip=Projects energy-based tracks
+
+tile.railcraft.machine.gamma.dispenser.cart.name=카트 발사기
+tile.railcraft.machine.gamma.dispenser.cart.tip=Dispenses Carts onto Tracks\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Cart -
+tile.railcraft.machine.gamma.dispenser.train.name=열차 발사기
+tile.railcraft.machine.gamma.dispenser.train.tip=Dispenses linked Trains onto Tracks\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Apply Redstone to dispense Train -
+tile.railcraft.machine.gamma.loader.energy.name=에너지 공급기
+tile.railcraft.machine.gamma.loader.energy.tip=Loads Energy into Ic2 Energy Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only accepts Ic2 power
+tile.railcraft.machine.gamma.loader.rf.name=Redstone Flux Loader
+tile.railcraft.machine.gamma.loader.rf.tip=Loads RF into RF Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only accepts RF power
+tile.railcraft.machine.gamma.loader.item.advanced.name=강화 아이템 공급기
+tile.railcraft.machine.gamma.loader.item.advanced.tip=Loads Items into Carts\n§o§9- Hit with Crowbar to change orientation -
+tile.railcraft.machine.gamma.loader.item.name=아이템 공급기
+tile.railcraft.machine.gamma.loader.item.tip=Loads Items into Carts\n§o§c- Place over Track -
+tile.railcraft.machine.gamma.loader.liquid.name=액체 공급기
+tile.railcraft.machine.gamma.loader.liquid.tip=Loads Fluids into Carts\n§o§c- Place 1-2 blocks above Track -
+tile.railcraft.machine.gamma.unloader.energy.name=에너지 회수기
+tile.railcraft.machine.gamma.unloader.energy.tip=Unloads Energy from Ic2 Energy Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only emits Ic2 power
+tile.railcraft.machine.gamma.unloader.rf.name=Redstone Flux Unloader
+tile.railcraft.machine.gamma.unloader.rf.tip=Unloads RF from RF Carts\n§o§9- Hit with Crowbar to change orientation -\n§o§c- Only emits RF power
+tile.railcraft.machine.gamma.unloader.item.advanced.name=강화 아이템 회수기
+tile.railcraft.machine.gamma.unloader.item.advanced.tip=Unloads Items from Carts\n§o§9- Hit with Crowbar to change orientation -
+tile.railcraft.machine.gamma.unloader.item.name=아이템 회수기
+tile.railcraft.machine.gamma.unloader.item.tip=Unloads Items from Carts\n§o§c- Place under Track -
+tile.railcraft.machine.gamma.unloader.liquid.name=액체 회수기
+tile.railcraft.machine.gamma.unloader.liquid.tip=Unloads Fluids from Carts\n§o§c- Place under Track -
+
+railcraft.gui.tank.aluminium=Aluminium Tank
+railcraft.gui.tank.stainless=Stainless Steel Tank
+railcraft.gui.tank.titanium=Titanium Tank
+railcraft.gui.tank.tungstensteel=Tungstensteel Tank
+railcraft.gui.tank.palladium=Palladium Tank
+
+tile.railcraft.machine.zeta.tank.aluminium.gauge.name=Aluminium Tank Gauge
+tile.railcraft.machine.zeta.tank.aluminium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.aluminium.valve.name=Aluminium Tank Valve
+tile.railcraft.machine.zeta.tank.aluminium.valve.tip=Multi-Block: Must be in bottom\n two layers to output liquid.
+tile.railcraft.machine.zeta.tank.aluminium.wall.name=Aluminium Tank Wall
+tile.railcraft.machine.zeta.tank.aluminium.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.stainless.gauge.name=Stainless Steel Tank Gauge
+tile.railcraft.machine.zeta.tank.stainless.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.stainless.valve.name=Stainless Steel Tank Valve
+tile.railcraft.machine.zeta.tank.stainless.valve.tip=Multi-Block: Must be in bottom\n two layers to output liquid.
+tile.railcraft.machine.zeta.tank.stainless.wall.name=Stainless Steel Tank Wall
+tile.railcraft.machine.zeta.tank.stainless.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.titanium.gauge.name=Titanium Tank Gauge
+tile.railcraft.machine.zeta.tank.titanium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.titanium.valve.name=Titanium Tank Valve
+tile.railcraft.machine.zeta.tank.titanium.valve.tip=Multi-Block: Must be in bottom\n two layers to output liquid.
+tile.railcraft.machine.zeta.tank.titanium.wall.name=Titanium Tank Wall
+tile.railcraft.machine.zeta.tank.titanium.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.tungstensteel.gauge.name=Tungstensteel Tank Gauge
+tile.railcraft.machine.zeta.tank.tungstensteel.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.tungstensteel.valve.name=Tungstensteel Tank Valve
+tile.railcraft.machine.zeta.tank.tungstensteel.valve.tip=Multi-Block: Must be in bottom\n two layers to output liquid.
+tile.railcraft.machine.zeta.tank.tungstensteel.wall.name=Tungstensteel Tank Wall
+tile.railcraft.machine.zeta.tank.tungstensteel.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.palladium.gauge.name=Palladium Tank Gauge
+tile.railcraft.machine.zeta.tank.palladium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.palladium.valve.name=Palladium Tank Valve
+tile.railcraft.machine.zeta.tank.palladium.valve.tip=Multi-Block: Must be in bottom\n two layers to output liquid.
+tile.railcraft.machine.zeta.tank.palladium.wall.name=Palladium Tank Wall
+tile.railcraft.machine.zeta.tank.palladium.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+
+railcraft.gui.tank.iridium=Iridium Tank
+railcraft.gui.tank.osmium=Osmium Tank
+railcraft.gui.tank.neutronium=뉴트로늄 탱크
+
+tile.railcraft.machine.eta.tank.iridium.gauge.name=Iridium Tank Gauge
+tile.railcraft.machine.eta.tank.iridium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.iridium.valve.name=Iridium Tank Valve
+tile.railcraft.machine.eta.tank.iridium.valve.tip=Multi-Block: Must be in bottom\n two layers to output liquid.
+tile.railcraft.machine.eta.tank.iridium.wall.name=Iridium Tank Wall
+tile.railcraft.machine.eta.tank.iridium.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.osmium.gauge.name=Osmium Tank Gauge
+tile.railcraft.machine.eta.tank.osmium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.osmium.valve.name=Osmium Tank Valve
+tile.railcraft.machine.eta.tank.osmium.valve.tip=Multi-Block: Must be in bottom\n two layers to output liquid.
+tile.railcraft.machine.eta.tank.osmium.wall.name=Osmium Tank Wall
+tile.railcraft.machine.eta.tank.osmium.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.neutronium.gauge.name=뉴트로늄 탱크 게이지
+tile.railcraft.machine.eta.tank.neutronium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.neutronium.valve.name=뉴트로늄 탱크 밸브
+tile.railcraft.machine.eta.tank.neutronium.valve.tip=Multi-Block: Must be in bottom\n two layers to output liquid.
+tile.railcraft.machine.eta.tank.neutronium.wall.name=뉴트로늄 탱크 벽
+tile.railcraft.machine.eta.tank.neutronium.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
+
+tile.railcraft.ore.dark.diamond.name=어두운 다이아몬드 원석
+tile.railcraft.ore.dark.emerald.name=어두운 에메랄드 원석
+tile.railcraft.ore.dark.lapis.name=어두운 청금석 원석
+tile.railcraft.ore.firestone.name=Firestone Ore
+tile.railcraft.ore.firestone.tip.name=Burning everything except flesh,\n you can feel the air change\n around you as you hold it...
+tile.railcraft.ore.poor.copper.name=Poor Copper Ore
+tile.railcraft.ore.poor.gold.name=Poor Gold Ore
+tile.railcraft.ore.poor.iron.name=Poor Iron Ore
+tile.railcraft.ore.poor.lead.name=Poor Lead Ore
+tile.railcraft.ore.poor.tin.name=Poor Tin Ore
+tile.railcraft.ore.saltpeter.name=초석 원석
+tile.railcraft.ore.sulfur.name=유황 원석
+
+tile.railcraft.post.emblem.name=Emblem Post
+tile.railcraft.post.metal.black.name=검은 금속 울타리
+tile.railcraft.post.metal.blue.name=파란 금속 울타리
+tile.railcraft.post.metal.brown.name=갈색 금속 울타리
+tile.railcraft.post.metal.cyan.name=청록색 금속 울타리
+tile.railcraft.post.metal.gray.name=회색 금속 울타리
+tile.railcraft.post.metal.green.name=초록 금속 울타리
+tile.railcraft.post.metal.light.blue.name=하늘색 금속 울타리
+tile.railcraft.post.metal.light.gray.name=밝은 회색 금속 울타리
+tile.railcraft.post.metal.lime.name=연두색 금속 울타리
+tile.railcraft.post.metal.magenta.name=자홍색 금속 울타리
+tile.railcraft.post.metal.unpainted.name=금속 울타리
+tile.railcraft.post.metal.orange.name=주황색 금속 울타리
+tile.railcraft.post.metal.pink.name=분홍색 금속 울타리
+tile.railcraft.post.metal.platform.black.name=Black Metal Platform
+tile.railcraft.post.metal.platform.blue.name=Blue Metal Platform
+tile.railcraft.post.metal.platform.brown.name=Brown Metal Platform
+tile.railcraft.post.metal.platform.cyan.name=Cyan Metal Platform
+tile.railcraft.post.metal.platform.gray.name=Gray Metal Platform
+tile.railcraft.post.metal.platform.green.name=Green Metal Platform
+tile.railcraft.post.metal.platform.light.blue.name=Light Blue Metal Platform
+tile.railcraft.post.metal.platform.light.gray.name=Light Gray Metal Platform
+tile.railcraft.post.metal.platform.lime.name=Lime Metal Platform
+tile.railcraft.post.metal.platform.magenta.name=Magenta Metal Platform
+tile.railcraft.post.metal.platform.unpainted.name=Metal Platform
+tile.railcraft.post.metal.platform.orange.name=Orange Metal Platform
+tile.railcraft.post.metal.platform.pink.name=Pink Metal Platform
+tile.railcraft.post.metal.platform.purple.name=Purple Metal Platform
+tile.railcraft.post.metal.platform.red.name=Red Metal Platform
+tile.railcraft.post.metal.platform.white.name=White Metal Platform
+tile.railcraft.post.metal.platform.yellow.name=Yellow Metal Platform
+tile.railcraft.post.metal.purple.name=보라색 금속 울타리
+tile.railcraft.post.metal.red.name=빨간 금속 울타리
+tile.railcraft.post.metal.white.name=흰색 금속 울타리
+tile.railcraft.post.metal.yellow.name=노란색 금속 울타리
+tile.railcraft.post.stone.name=돌 울타리
+tile.railcraft.post.stone.platform.name=Stone Platform
+tile.railcraft.post.wood.name=나무 울타리
+tile.railcraft.post.wood.platform.name=Wooden Platform
+
+tile.railcraft.residual.heat.name=잔열
+
+tile.railcraft.signal.block.signal.dual.name=이중 블록 신호기
+tile.railcraft.signal.block.signal.dual.tip=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Block Surveyor
+tile.railcraft.signal.block.signal.name=블록 신호기
+tile.railcraft.signal.block.signal.tip=Detects Carts in Signal Block\n§o§9Aerial Linkages:\n§o§9- 1x Signal Block\n§o§9- 1x Controller\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
+tile.railcraft.signal.box.analog.name=Analog Signal Controller Box
+tile.railcraft.signal.box.analog.tip=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: None\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.signal.box.block.relay.name=신호 블록 릴레이 박스
+tile.railcraft.signal.box.block.relay.tip=Creates chains of Signal Blocks\n§o§9Aerial Linkages: 2x Signal Block\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Block Surveyor
+tile.railcraft.signal.box.capacitor.name=신호 커패시터 박스
+tile.railcraft.signal.box.capacitor.tip=Sends signals to Receivers\n§o§9Aerial Linkages: None\n§o§9Adjacent Linkages: Listen, Emit\n§o§9Redstone Linkages: Listen to Repeater, Emit
+tile.railcraft.signal.box.controller.name=신호 제어 박스
+tile.railcraft.signal.box.controller.tip=Sends signals to Receivers\n§o§9Aerial Linkages: 1x Controller\n§o§9Adjacent Linkages: Listen\n§o§9Redstone Linkages: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.signal.box.interlock.name=Signal Interlock Box
+tile.railcraft.signal.box.interlock.tip=Permits only one aspect signal to pass\n§o§9Aerial Linkages:\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§9Adjacent Linkages:\n§o§9- Interlock\n§o§9- Listen (Limit Output)\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.signal.box.receiver.name=신호 수신 박스
+tile.railcraft.signal.box.receiver.tip=Listens to Controller signals\n§o§9Aerial Linkages: 1x Receiver\n§o§9Adjacent Linkages: Emit\n§o§9Redstone Linkages: Emit\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.signal.box.sequencer.name=Signal Sequencer Box
+tile.railcraft.signal.box.sequencer.tip=Loops through adjacent blocks\n§o§9Adjacent Linkages:\n§o§9- Sequencer\n§o§9- Listen (Clock)\n§o§9- Emit\n§o§9Redstone Linkages:\n§o§9- Listen to Repeater (Clock)\n§o§9- Emit
+tile.railcraft.signal.distant.dual.name=이중 원격 신호기
+tile.railcraft.signal.distant.dual.tip=Displays aspects of linked Controllers\n§o§9Aerial Linkages: 2x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.signal.distant.name=원격 신호기
+tile.railcraft.signal.distant.tip=Displays aspect of linked Controller\n§o§9Aerial Linkages: 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.signal.switch.lever.name=스위치 레버
+tile.railcraft.signal.switch.lever.tip=Controls adjacent Switch Tracks\n§o§9Manual Operation
+tile.railcraft.signal.switch.motor.name=스위치 모터
+tile.railcraft.signal.switch.motor.tip=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.signal.switch.routing.name=경로 스위치 모터
+tile.railcraft.signal.switch.routing.tip=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
+
+tile.railcraft.slab.abyssal.block.name=심해석 반 블록
+tile.railcraft.slab.abyssal.brick.name=심해석 벽돌 반 블록
+tile.railcraft.slab.abyssal.cobble.name=Abyssal Cobble Slab
+tile.railcraft.slab.abyssal.fitted.name=심해석 큰 벽돌 반 블록
+tile.railcraft.slab.bleachedbone.block.name=백골석 반 블록
+tile.railcraft.slab.bleachedbone.brick.name=백골석 벽돌 반 블록
+tile.railcraft.slab.bleachedbone.cobble.name=Bleached Bone Cobble Slab
+tile.railcraft.slab.bleachedbone.fitted.name=백골석 큰 벽돌 반 블록
+tile.railcraft.slab.bloodstained.block.name=혈석 반 블록
+tile.railcraft.slab.bloodstained.brick.name=혈석 벽돌 반 블록
+tile.railcraft.slab.bloodstained.cobble.name=Blood Stained Cobble Slab
+tile.railcraft.slab.bloodstained.fitted.name=혈석 큰 벽돌 반 블록
+tile.railcraft.slab.concrete.name=콘크리트 반 블록
+tile.railcraft.slab.copper.name=Copper Slab
+tile.railcraft.slab.creosote.name=Creosote Block Slab
+tile.railcraft.slab.diamond.name=다이아몬드 반 블록
+tile.railcraft.slab.frostbound.block.name=서릿돌 반 블록
+tile.railcraft.slab.frostbound.brick.name=서릿돌 벽돌 반 블록
+tile.railcraft.slab.frostbound.cobble.name=Frost Bound Cobble Slab
+tile.railcraft.slab.frostbound.fitted.name=서릿돌 큰 벽돌 반 블록
+tile.railcraft.slab.gold.name=금 반 블록
+tile.railcraft.slab.ice.name=얼음 반 블록
+tile.railcraft.slab.infernal.block.name=연옥석 반 블록
+tile.railcraft.slab.infernal.brick.name=연옥석 벽돌 반 블록
+tile.railcraft.slab.infernal.cobble.name=Infernal Cobble Slab
+tile.railcraft.slab.infernal.fitted.name=연옥석 큰 벽돌 반 블록
+tile.railcraft.slab.iron.name=Iron 반 블록
+tile.railcraft.slab.lead.name=Lead Slab
+tile.railcraft.slab.nether.block.name=Nether Block Slab
+tile.railcraft.slab.nether.cobble.name=Nether Cobble Slab
+tile.railcraft.slab.nether.fitted.name=Fitted Nether Stone Slab
+tile.railcraft.slab.obsidian.name=Obsidian Slab
+tile.railcraft.slab.packed.ice.name=Packed Ice Slab
+tile.railcraft.slab.quarried.block.name=정제석 반 블록
+tile.railcraft.slab.quarried.brick.name=정제석 벽돌 반 블록
+tile.railcraft.slab.quarried.cobble.name=Quarried Cobble Slab
+tile.railcraft.slab.quarried.fitted.name=정제석 큰 벽돌 반 블록
+tile.railcraft.slab.sandy.block.name=샌디스톤 반 블록
+tile.railcraft.slab.sandy.brick.name=샌디스톤 벽돌 반 블록
+tile.railcraft.slab.sandy.cobble.name=Sandy Cobble Slab
+tile.railcraft.slab.sandy.fitted.name=샌디스톤 큰 벽돌 반 블록
+tile.railcraft.slab.snow.name=눈 반 블록
+tile.railcraft.slab.steel.name=Steel Slab
+tile.railcraft.slab.tin.name=Tin Slab
+
+tile.railcraft.stair.abyssal.block.name=심해석 계단
+tile.railcraft.stair.abyssal.brick.name=심해석 벽돌 계단
+tile.railcraft.stair.abyssal.cobble.name=Abyssal Cobble Stairs
+tile.railcraft.stair.abyssal.fitted.name=심해석 큰 벽돌 계단
+tile.railcraft.stair.bleachedbone.block.name=백골석 계단
+tile.railcraft.stair.bleachedbone.brick.name=백골석 벽돌 계단
+tile.railcraft.stair.bleachedbone.cobble.name=Bleached Bone Cobble Stairs
+tile.railcraft.stair.bleachedbone.fitted.name=백골석 큰 벽돌 계단
+tile.railcraft.stair.bloodstained.block.name=혈석 계단
+tile.railcraft.stair.bloodstained.brick.name=혈석 벽돌 계단
+tile.railcraft.stair.bloodstained.cobble.name=Blood Stained Cobble Stairs
+tile.railcraft.stair.bloodstained.fitted.name=혈석 큰 벽돌 계단
+tile.railcraft.stair.concrete.name=콘크리트 계단
+tile.railcraft.stair.copper.name=Copper Stairs
+tile.railcraft.stair.creosote.name=Creosote Block Stairs
+tile.railcraft.stair.diamond.name=다이아몬드 계단
+tile.railcraft.stair.frostbound.block.name=서릿돌 계단
+tile.railcraft.stair.frostbound.brick.name=서릿돌 벽돌 계단
+tile.railcraft.stair.frostbound.cobble.name=Frost Bound Cobble Stairs
+tile.railcraft.stair.frostbound.fitted.name=서릿돌 큰 벽돌 계단
+tile.railcraft.stair.gold.name=금 계단
+tile.railcraft.stair.ice.name=얼음 계단
+tile.railcraft.stair.infernal.block.name=연옥석 계단
+tile.railcraft.stair.infernal.brick.name=연옥석 벽돌 계단
+tile.railcraft.stair.infernal.cobble.name=Infernal Cobble Stairs
+tile.railcraft.stair.infernal.fitted.name=연옥석 큰 벽돌 계단
+tile.railcraft.stair.iron.name=Iron 계단
+tile.railcraft.stair.lead.name=Lead Stairs
+tile.railcraft.stair.nether.block.name=Nether Block Stairs
+tile.railcraft.stair.nether.cobble.name=Nether Cobble Stairs
+tile.railcraft.stair.nether.fitted.name=Fitted Nether Stone Stairs
+tile.railcraft.stair.obsidian.name=Obsidian Stairs
+tile.railcraft.stair.packed.ice.name=Packed Ice Stairs
+tile.railcraft.stair.quarried.block.name=정제석 계단
+tile.railcraft.stair.quarried.brick.name=정제석 벽돌 계단
+tile.railcraft.stair.quarried.cobble.name=Quarried Cobble Stairs
+tile.railcraft.stair.quarried.fitted.name=정제석 큰 벽돌 계단
+tile.railcraft.stair.sandy.block.name=샌디스톤 계단
+tile.railcraft.stair.sandy.brick.name=샌디스톤 벽돌 계단
+tile.railcraft.stair.sandy.cobble.name=Sandy Cobble Stairs
+tile.railcraft.stair.sandy.fitted.name=샌디스톤 큰 벽돌 계단
+tile.railcraft.stair.snow.name=눈 계단
+tile.railcraft.stair.steel.name=Steel Stairs
+tile.railcraft.stair.tin.name=Tin Stairs
+
+tile.railcraft.lantern.metal.copper.name=Copper Lantern
+tile.railcraft.lantern.metal.gold.name=Gold Lantern
+tile.railcraft.lantern.metal.iron.name=Iron Lantern
+tile.railcraft.lantern.metal.lead.name=Lead Lantern
+tile.railcraft.lantern.metal.steel.name=Steel Lantern
+tile.railcraft.lantern.metal.tin.name=Tin Lantern
+
+tile.railcraft.lantern.stone.abyssal.name=Abyssal Stone Lantern
+tile.railcraft.lantern.stone.bleachedbone.name=Bleached Bone Stone Lantern
+tile.railcraft.lantern.stone.bloodstained.name=Blood Stained Stone Lantern
+tile.railcraft.lantern.stone.frostbound.name=Frostbound Stone Lantern
+tile.railcraft.lantern.stone.infernal.name=Infernal Stone Lantern
+tile.railcraft.lantern.stone.nether.name=Nether Stone Lantern
+tile.railcraft.lantern.stone.quarried.name=Quarried Stone Lantern
+tile.railcraft.lantern.stone.sandstone.name=Sandstone Lantern
+tile.railcraft.lantern.stone.sandy.name=Sandy Stone Lantern
+tile.railcraft.lantern.stone.stone.name=Stone Lantern
+
+tile.railcraft.track.boarding.name=보딩 레일
+tile.railcraft.track.boarding.tip=Replaced by Locking Track
+tile.railcraft.track.boarding.train.name=열차 보딩 레일
+tile.railcraft.track.boarding.train.tip=Replaced by Locking Track
+tile.railcraft.track.buffer.stop.name=버퍼 스톱 레일
+tile.railcraft.track.buffer.stop.tip=End of the Line\n§o§9- Hit with Crowbar to change direction -
+tile.railcraft.track.control.name=제어 레일
+tile.railcraft.track.control.tip=Applies a small omni-directional boost\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to change direction -
+tile.railcraft.track.coupler.name=결합 레일
+tile.railcraft.track.coupler.tip=Couples/Decouples passing Carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.decoupler.name=분리 레일
+tile.railcraft.track.detector.direction.name=일방 디텍터 레일
+tile.railcraft.track.detector.direction.tip=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change direction -
+tile.railcraft.track.disembarking.name=하차 레일
+tile.railcraft.track.disembarking.tip=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.disposal.name=쓰레기 처리 레일
+tile.railcraft.track.disposal.tip=Suspended track\n Dismounts riding Entities
+tile.railcraft.track.electric.name=Electric Track
+tile.railcraft.track.electric.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
+tile.railcraft.track.electric.junction.name=Electric Junction Track
+tile.railcraft.track.electric.junction.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps
+tile.railcraft.track.electric.switch.name=Electric Switch Track
+tile.railcraft.track.electric.switch.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.electric.wye.name=Electric Wye Track
+tile.railcraft.track.electric.wye.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.elevator.name=엘리베이터 레일
+tile.railcraft.track.elevator.tip=Allows vertical Minecart movement\n§o§c- Apply Redstone at top to go up -
+tile.railcraft.track.embarking.name=승차 레일
+tile.railcraft.track.embarking.tip=Loads entities into Carts\n§o§9- Hit with Crowbar to change range -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.force.name=Force Track
+tile.railcraft.track.gated.name=문 레일
+tile.railcraft.track.gated.oneway.name=일방 통행 문 레일
+tile.railcraft.track.gated.oneway.tip=Its a one-way gate\n§o§c- Apply Redstone to open -
+tile.railcraft.track.gated.tip=Its a gate\n§o§c- Apply Redstone to open -
+tile.railcraft.track.holding.name=일시정지 레일
+tile.railcraft.track.holding.tip=Replaced by Locking Track
+tile.railcraft.track.holding.train.name=열차 일시정지 레일
+tile.railcraft.track.holding.train.tip=Replaced by Locking Track
+tile.railcraft.track.junction.name=교차 레일
+tile.railcraft.track.launcher.name=발사 레일
+tile.railcraft.track.launcher.tip=Makes carts fly\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.limiter.name=리미터 레일
+tile.railcraft.track.limiter.tip=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.lockdown.name=정지 레일
+tile.railcraft.track.lockdown.tip=Replaced by Locking Track
+tile.railcraft.track.lockdown.train.name=열차 정지 레일
+tile.railcraft.track.lockdown.train.tip=Replaced by Locking Track
+tile.railcraft.track.locking.name=Locking Track
+tile.railcraft.track.locking.tip=Stops and holds carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.locomotive.name=기관차 레일
+tile.railcraft.track.locomotive.tip=Starts/Stops Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.oneway.name=일방 통행 레일
+tile.railcraft.track.oneway.tip=Carts can only pass\n in the direction of the arrow\n§o§9- Hit with Crowbar to change direction -
+tile.railcraft.track.priming.name=점화 레일
+tile.railcraft.track.priming.tip=Ignites TNT Carts\n Adjustable Fuse\n§o§9- Hit with Crowbar to change fuse -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.reinforced.boost.name=강화 파워 레일
+tile.railcraft.track.reinforced.boost.tip=125% of the speed of normal track\n Explosion resistant\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.reinforced.junction.name=강화 교차 레일
+tile.railcraft.track.reinforced.junction.tip=125% of the speed of normal track\n Explosion resistant
+tile.railcraft.track.reinforced.name=강화 레일
+tile.railcraft.track.reinforced.tip=125% of the speed of normal track\n Explosion resistant
+tile.railcraft.track.reinforced.switch.name=강화 스위치 레일
+tile.railcraft.track.reinforced.switch.tip=125% of the speed of normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.reinforced.wye.name=강화 Y자 레일
+tile.railcraft.track.reinforced.wye.tip=125% of the speed of normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.routing.name=라우팅 레일
+tile.railcraft.track.routing.tip=Sets a passing Locomotive's Ticket\n§o§9- Hit with Crowbar to change ticket -
+tile.railcraft.track.slow.boost.name=목제 파워 레일
+tile.railcraft.track.slow.junction.name=목제 교차 레일
+tile.railcraft.track.slow.junction.tip=30% of the speed of normal track
+tile.railcraft.track.slow.name=목제 레일
+tile.railcraft.track.slow.tip=30% of the speed of normal track
+tile.railcraft.track.slow.switch.name=목제 스위치 레일
+tile.railcraft.track.slow.switch.tip=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.slow.wye.name=목제 Y자 레일
+tile.railcraft.track.slow.wye.tip=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.speed.boost.name=고속 파워 레일
+tile.railcraft.track.speed.boost.tip=§9Dangerous\n §rMore than twice as fast as normal track\n Maintains High Speed\n§o§c- Apply Redstone to boost -
+tile.railcraft.track.speed.name=고속 레일
+tile.railcraft.track.speed.tip=§9Dangerous\n §rMore than twice as fast as normal track\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
+tile.railcraft.track.speed.switch.name=고속 스위치 레일
+tile.railcraft.track.speed.switch.tip=§9Dangerous\n Do not attempt to diverge at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.speed.transition.name=고속 전이 레일
+tile.railcraft.track.speed.transition.tip=§9Dangerous\n §rMore than twice as fast as normal track\n Transitions to/from High Speed\n§o§c- Apply Redstone to boost -
+tile.railcraft.track.speed.wye.name=고속 Y자 레일
+tile.railcraft.track.speed.wye.tip=§9Dangerous\n Do not attempt to traverse at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.suspended.name=공중 레일
+tile.railcraft.track.suspended.tip=Does not require support below\n Can cross gaps
+tile.railcraft.track.switch.name=스위치 레일
+tile.railcraft.track.switch.tip=§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.whistle.name=기적 레일
+tile.railcraft.track.whistle.tip=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.wye.name=Y자 레일
+tile.railcraft.track.wye.tip=§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
+tile.railcraft.track.autolococoupler.tip=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- Apply Redstone to enable -
+
+tile.railcraft.wall.abyssal.brick.name=심해석 담장
+tile.railcraft.wall.bleachedbone.brick.name=백골석 담장
+tile.railcraft.wall.bloodstained.brick.name=혈석 담장
+tile.railcraft.wall.brick.name=벽돌 담장
+tile.railcraft.wall.concrete.name=콘크리트 담장
+tile.railcraft.wall.diamond.name=다이아몬드 담장
+tile.railcraft.wall.frost.bound.brick.name=서릿돌 담장
+tile.railcraft.wall.gold.name=금 담장
+tile.railcraft.wall.ice.name=얼음 담장
+tile.railcraft.wall.infernal.brick.name=연옥석 담장
+tile.railcraft.wall.iron.name=철 담장
+tile.railcraft.wall.nether.brick.name=네더 벽돌 담장
+tile.railcraft.wall.obsidian.name=흑요석 담장
+tile.railcraft.wall.quarried.brick.name=정제석 담장
+tile.railcraft.wall.quartz.chiseled.name=조각된 석영 담장
+tile.railcraft.wall.quartz.name=석영 담장
+tile.railcraft.wall.sandstone.chiseled.name=조각된 사암 담장
+tile.railcraft.wall.sandstone.name=사암 담장
+tile.railcraft.wall.sandstone.smooth.name=부드러운 사암 담장
+tile.railcraft.wall.sandy.brick.name=샌디스톤 담장
+tile.railcraft.wall.snow.name=눈 담장
+tile.railcraft.wall.stone.brick.chiseled.name=조각된 석재 벽돌 담장
+tile.railcraft.wall.stone.brick.cracked.name=금 간 석재 벽돌 담장
+tile.railcraft.wall.stone.brick.mossy.name=이끼 낀 석재 벽돌 담장
+tile.railcraft.wall.stone.brick.name=돌 벽돌 담장
+
+tile.railcraft.worldlogic.name=초석 원석 스포너
+
+tooltip.wawla.tooltype.crowbar=Crowbar

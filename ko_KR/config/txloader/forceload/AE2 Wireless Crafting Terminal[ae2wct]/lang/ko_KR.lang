@@ -1,0 +1,74 @@
+#Items
+item.wirelessCraftingTerminal.name=무선 제작 터미널
+item.infinityBoosterCard.name=무한 부스터 카드
+item.magnetCard.name=자석 카드
+itemGroup.ae2wct=§9AE2 무선 제작 터미널
+
+#Tooltips
+gui.tooltips.ae2wct.PressShift=쉬프트를 눌러 정보 보기
+gui.tooltips.ae2wct.OnlyWorks=무선 제작 터미널의 칸 안에서만 작동합니다!
+gui.tooltips.ae2wct.TitleDesc=설명
+gui.tooltips.ae2wct.InfinityBoosterDesc=연결된 AE2 무선 제작 터미널은 차원 및 거리에 상관 없이 사용 가능합니다.
+gui.tooltips.ae2wct.MagnetDesc=자석 카드는 AE 네트워크에 아이템을 자동으로 넣어줍니다.
+gui.tooltips.ae2wct.MagnetDesc2=우클릭으로 필터 설정
+gui.tooltips.ae2wct.LinkStatus=연결 상태
+gui.tooltips.ae2wct.Installed=설치됨
+gui.tooltips.ae2wct.NotInstalled=설치되어있지 않음
+gui.tooltips.ae2wct.Active=활성화
+gui.tooltips.ae2wct.Inactive=비활성화
+gui.tooltips.ae2wct.Status=상태
+gui.tooltips.ae2wct.EmptyTrash=쓰레기칸 비우기
+gui.tooltips.ae2wct.EmptyTrashDesc=쓰레기칸에 있는 내용물을 삭제합니다
+gui.tooltips.ae2wct.MagnetFilterTitle=자석 필터
+gui.tooltips.ae2wct.FilterMode=필터 모드
+gui.tooltips.ae2wct.Whitelisting=화이트리스트
+gui.tooltips.ae2wct.Blacklisting=블랙리스트
+gui.tooltips.ae2wct.MagnetActiveDesc1=Extra items added to inventory
+gui.tooltips.ae2wct.MagnetActiveDesc2=Extra items left on ground
+gui.tooltips.ae2wct.Not=Not
+gui.tooltips.ae2wct.Using=Using
+gui.tooltips.ae2wct.Ignore=Ignore
+gui.tooltips.ae2wct.Ignoring=Ignoring
+gui.tooltips.ae2wct.NBTData=NBT 데이터
+gui.tooltips.ae2wct.MetaData=메타 데이터
+gui.tooltips.ae2wct.OreDict=광물사전
+gui.tooltips.ae2wct.FilteredItems=Filtered Items
+gui.tooltips.ae2wct.OrPress=or press
+gui.tooltips.ae2wct.Press=Press
+gui.tooltips.ae2wct.ToSwitchMode=자석 모드 전환
+
+#Labels
+gui.labels.ae2wct.WirelessTermLabel=무선 터미널
+
+#Config Descriptions
+config.ae2wct.MaxPowerDesc=Maximum Power in AE units the wireless terminal can hold
+config.ae2wct.InfinityBoosterCfgDesc=Enable Infinite Range Booster Upgrade
+config.ae2wct.EasyModeDesc=Enable Easy Mode (Easier Recipes+Infinity Booster Recipe)
+config.ae2wct.BoosterDropChance=Chance that Wither will drop Infinity Booster Card (in %-100=always drop)
+config.ae2wct.DisableBoosterDrop=Enabled Booster Card drops in hard mode (true=enabled)
+config.ae2wct.MineTweakerOverride=Enable MineTweaker Override (true=disables all recipes)
+config.ae2wct.DoVersionCheck=업데이트 확인
+config.ae2wct.NewVersionAvailable=새로운 버전의 무선 제작 터미널을 이용할 수 있습니다!
+config.ae2wct.ClickString=["여기를 클릭하여 다운로드 페이지로 이동하세요 [",{"text":"Download","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click this to download the latest version","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
+config.ae2wct.SaveSearchString=Persist terminal search string between sessions
+
+#Achievements
+achievement.wctAchievement=Digital Crafting Over WiFi
+achievement.wctAchievement.desc=Craft a Wireless Crafting Terminal
+achievement.boosterAchievement=Interdimensional Crafting Sack
+achievement.boosterAchievement.desc=Aquire an Infinity Booster Card
+achievement.magnetAchievement=Digital Hoover
+achievement.magnetAchievement.desc=자석 카드 제작
+
+#Chat Messages
+chatmessages.ae2wct.NoNetworkPower=Network has no power!
+chatmessages.ae2wct.MagnetMode1=Magnet Card Deactivated
+chatmessages.ae2wct.MagnetMode2=Magnet Card Activated - Items not stored in AE network will be placed in inventory
+chatmessages.ae2wct.MagnetMode3=Magnet Card Activated - Items not stored in AE network will be left on ground
+chatmessages.ae2wct.InitializeMagnet=You must first right-click with the Magnet Card in hand before using the keybind!
+
+#Keybindings
+ae2wct.OpenTerminal=Open Wireless Crafting Terminal
+ae2wct.OpenMagnetFilter=Open Magnet Card Filter GUI
+ae2wct.SwitchMagnetMode=Activate/Deactivate Magnet Card
+key.categories.ae2wct=무선 제작 터미널

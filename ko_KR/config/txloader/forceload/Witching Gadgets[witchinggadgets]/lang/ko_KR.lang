@@ -1,0 +1,668 @@
+# -- Blocks --
+tile.WG_WallMirror.name=Mirror on the Wall
+tile.WG_VoidWalkway.name=Void Walkway
+tile.WG_StoneDevice.etherealWall.name=Ethereal Wall
+tile.WG_StoneDevice.magicTileLock.name=Magical Lock
+tile.WG_StoneDevice.obsidianPlate.name=Obsidian Plate
+tile.WG_StoneDevice.obsidianDecoration0.name=Obsidian Rune
+tile.WG_StoneDevice.obsidianDecoration1.name=Obsidian Rune
+tile.WG_StoneDevice.obsidianDecoration2.name=Obsidian Rune
+tile.WG_StoneDevice.sarcophagus.name=Sarcophagus
+tile.WG_StoneDevice.timeStone.name=Ageing Stone
+tile.WG_StoneDevice.blastFurnace.name=Infernal Blast Furnace
+
+tile.WG_WoodenDevice.spinningWheel.name=Spinning Wheel
+tile.WG_WoodenDevice.loom.name=Loom
+tile.WG_WoodenDevice.snowGen.name=Thaumic Snowballer
+tile.WG_WoodenDevice.iceGen.name=Thaumic Ice Solidifier
+tile.WG_WoodenDevice.cobbleGen.name=Thaumic Stone Extruder
+tile.WG_WoodenDevice.armorStand.name=Armor Stand
+tile.WG_WoodenDevice.cuttingTable.name=Cutting Table
+tile.WG_WoodenDevice.saunaStove.name=Thaumic Sauna Stove
+tile.WG_WoodenDevice.labelLibrary.name=Aspect Library
+
+tile.WG_MetalDevice.essentiaPump.name=Essentia Pump
+tile.WG_MetalDevice.voidmetalBlock.name=Void metal Block
+tile.WG_MetalDevice.terraformer.name=Arcane Terrestrial Reformer
+tile.WG_MetalDevice.tfFocusPlains.name=Terrestrial Focus: Plains
+tile.WG_MetalDevice.tfFocusColdTaiga.name=Terrestrial Focus: Cold Taiga
+tile.WG_MetalDevice.tfFocusDesert.name=Terrestrial Focus: Desert
+tile.WG_MetalDevice.tfFocusJungle.name=Terrestrial Focus: Jungle
+tile.WG_MetalDevice.tfFocusHell.name=Terrestrial Focus: Hell
+tile.WG_MetalDevice.tfFocusTaint.name=Terrestrial Focus: Tainted Lands
+tile.WG_MetalDevice.tfFocusMushroom.name=Terrestrial Focus: Mushroom Island
+tile.WG_MetalDevice.tfFocusRiver.name=Terrestrial Focus: River
+tile.WG_MetalDevice.tfFocusOcean.name=Terrestrial Focus: Ocean
+tile.WG_MetalDevice.tfFocusEnd.name=Terrestrial Focus: End
+tile.WG_MetalDevice.tfFocusMagic.name=Terrestrial Focus: Magical Forest
+
+tile.WG_RoseVine.name=Rose Vines
+tile.WG_CustomAir.name=Glimmer of Light
+
+#
+# -- Items --
+item.WG_Material.threadSimple.name=Yarn
+item.WG_Material.threadGold.name=Golden Thread
+item.WG_Material.threadThaumium.name=Thaumium Thread
+item.WG_Material.clothSpace.name=Cloth of Spacious Folds
+item.WG_Material.clothGolden.name=Golden Fabric
+item.WG_Material.clothBewitched.name=Bewitched Fleece
+item.WG_Material.wolfPelt.name=Wolf Pelt
+item.WG_Material.calculator.name=Arcane Abacus
+item.WG_Material.cuttingTools.name=Gemcutter's Tools
+item.WG_Material.photoPlate.name=Iconographic Plate
+item.WG_Material.developedPhoto.name=Developed Iconograph
+item.WG_Material.clusterAluminum.name=Aluminum Cluster
+item.WG_Material.clusterCobalt.name=Cobalt Cluster
+item.WG_Material.clusterArdite.name=Ardite Cluster
+item.WG_Material.clusterNickel.name=Nickel Cluster
+item.WG_Material.clusterFZDarkIron.name=Dark Iron Cluster
+item.WG_Material.guidingString.name=Guiding Thread
+item.WG_Material.powerlessPearl.name=Powerless Pearl
+item.WG_Material.gemstoneDust.name=Gemstone Dust
+
+item.WG_Cluster.name=Native %1$s Cluster
+
+item.WG_Bag.normal.name=Bag of Tricks
+item.WG_Bag.void.name=Voidlinked Bag
+item.WG_Bag.ender.name=Enderlinked Bag
+item.WG_Bag.hungry.name=Hungry Bag
+
+item.WG_ThaumiumShears.name=Thaumium Shears
+item.WG_MagicFood.sweetwart.name=Sweetwart
+item.WG_MagicFood.nethercake.name=Nethercake
+item.WG_MagicFood.brainjerky.name=Brain Jerky
+item.WG_AdvancedRobeChest.name=Bewitched Robe
+item.WG_AdvancedRobeLegs.name=Bewitched Leggings
+
+item.WG_AdvancedScribingTools.name=Illuminated Scribing Tools
+
+item.WG_Cloak.standard.name=Cloak
+item.WG_Cloak.storage.name=Cloak of Voluminous Pockets
+item.WG_Cloak.raven.name=Mantle of the Raven
+item.WG_Cloak.spectral.name=Spectral Mantle
+item.WG_Cloak.wolf.name=Wolven Cloak
+
+item.WG_Kama.standard.name=Kama
+item.WG_Kama.storage.name=Kama of Voluminous Pockets
+item.WG_Kama.raven.name=Kama of the Raven
+item.WG_Kama.spectral.name=Spectral Kama
+item.WG_Kama.wolf.name=Wolven Kama
+
+#unused
+item.WG_EliteArmorHelm.ANGELIC_0.name=Ophanic Helm
+item.WG_EliteArmorChest.ANGELIC_1.name=Seraph's Cuirass
+item.WG_EliteArmorLegs.ANGELIC_2.name=Cherub Greaves
+item.WG_EliteArmorBoots.ANGELIC_3.name=Sabatons of the Valkyrie
+
+item.WG_EliteArmorHelm.DEMONIC_0.name=Helm of Leviathan
+item.WG_EliteArmorChest.DEMONIC_1.name=Asrael's Cuirass
+item.WG_EliteArmorLegs.DEMONIC_2.name=Lycan's Greaves
+item.WG_EliteArmorBoots.DEMONIC_3.name=Claws of the Behemoth
+
+item.WG_InfusedGem.name=Infused Gem
+item.WG_InfusedGem.innert.name=Inert Gem
+
+item.WG_PrimordialGlove.name=Primordial Gauntlet
+item.WG_PrimordialHammer.name=Primordial Warhammer
+item.WG_PrimordialAxe.name=Primordial Greataxe
+item.WG_PrimordialSword.name=Primordial Claymore
+
+item.WG_PrimordialHelm.name=Primordial Helm
+item.WG_PrimordialChest.name=Primordial Cuirass
+item.WG_PrimordialLegs.name=Primordial Greaves
+item.WG_PrimordialBoots.name=Primordial Boots
+
+item.WG_Baubles.ring_primordial.name=Primordial Ring
+item.WG_Baubles.ring_lifeProtection.name=Ring of Life Protection
+
+item.WG_Baubles.shouldersDoublejump.name=Seraph's Shoulders
+item.WG_Baubles.shouldersKnockback.name=Steadfast Spaulders
+item.WG_Baubles.vambraceStrength.name=Berserker's Bracers
+item.WG_Baubles.vambraceHaste.name=Vambraces of Steady Progression
+item.WG_Baubles.titleCrimsonCult.name=Title: Crimson Cult
+wg.title.crimsonCultist=§4Crimson Cultist
+wg.title.crimsonKnight=§4Crimson Knight
+wg.title.crimsonPraetor=§6Crimson Praetor
+item.WG_Baubles.ringLuck.name=Ring of the Covetous Coin
+item.WG_Baubles.ringSniper.name=Band of the Sniper
+
+item.WG_ScanCamera.name=Thaumic Iconograph Box
+
+item.WG_CrystalFlask.name=Crystal Capsule
+
+item.modifiedTC.luckyCoin=Lucky Gold Coin
+
+# -- Creative --
+itemGroup.witchinggadgets=Witching Gadgets
+
+# -- Enchant --
+enchantment.wg.gemstonePotency=Brilliance
+enchantment.wg.gemstoneBrittle=Brittle
+enchantment.wg.invisibleGear=Translucency
+enchantment.wg.unveiling=Unveiling
+enchantment.wg.stealth=Stealth
+enchantment.wg.backstab=Backstabbing
+enchantment.wg.rideProtect=Throwoff
+enchantment.wg.soulbound=Soul Tethered
+enchantment.wg.soultether=Soul Tethered
+#
+# -- Random bits of text --
+wg.chat.notyourbag=§7This bag belongs to§r %1$s! §7You are not allowed to open it.§r
+wg.chat.bagunlocked=§7The bag was unlocked, others can now open it.§r
+wg.chat.baglocked=§7The bag was locked, no one but you can open it.§r
+
+wg.gui.textCurNest=Current Nest:
+wg.gui.buttonSetNest=Set new nest
+wg.gui.buttonMigrate=Return to nest
+wg.gui.noFeathersToMigrate=You don't have the Items required to return to your nest
+
+wg.desc.noGlide=Gliding disabled
+
+wg.gui.visSize=Vis Capacity
+wg.gui.shiftForAspectList=§7Hold §aShift§7 for a list of Aspects§r
+wg.gui.activeGem=Active Gem
+wg.gui.passiveGem=Passive Gem
+wg.chat.gem.shatter=Your Infused Gem shattered!
+wg.desc.gemcut.POINT=Point Cut
+wg.desc.gemcut.TABLE=Table Cut
+wg.desc.gemcut.STEP=Step Cut
+wg.desc.gemcut.ROSE=Rose Cut
+wg.desc.gemcut.OVAL=Oval Cut
+wg.desc.gemaffinity=Natural Affinities:
+wg.desc.gemaversion=Natural Aversions:
+
+wg.desc.ctrlForAspectList=§7Hold §aCtrl§7 for a list of Aspects§r
+wg.desc.scanCompleted=Scan Completed
+
+wg.desc.gearSlot.tg.0=Equipped in the §aCloak§7 slot
+wg.desc.gearSlot.tg.1=Equipped in the §aPauldron§7 slot
+wg.desc.gearSlot.tg.2=Equipped in the §aVambrace§7 slot
+wg.desc.gearSlot.tg.3=Equipped in the §aTitle§7 slot
+wg.desc.gearSlot.bauble.RING=Equipped in the §aRing§7 slot
+wg.desc.gearSlot.bauble.BELT=Equipped in the §aBelt§7 slot
+wg.desc.gearSlot.bauble.AMULET=Equipped in the §aAmulet§7 slot
+
+wg.desc.filteredItems=Accepted Items:
+
+wg.desc.active=Active
+
+wg.desc.primal=Primal alignment
+
+wg.desc.infusionStabilizer=May work as an Infusion Stabilizer
+
+wg.gui.search=Search
+wg.chat.nodeContents.primal=Primal Aspects within this node: §eAer: %1$s§f, §2Terra: %2$s§f, §cIgnis: %3$s§f, §3Aqua: %4$s§f, §7Ordo: %5$s§f, §8Perditio: %6$s
+wg.chat.infusionWarning.pedestalHeight=Infusion pedestal at %1$s, %2$s, %3$s must not be higher than the Infusion Matrix
+wg.chat.infusionWarning.pedestalPos=Pedestal at %1$s, %2$s, %3$s must not be more than 8 blocks horizontally from the matrix
+wg.chat.infusionWarning.noPartnerItem=Pedestal at %1$s, %2$s, %3$s should have an item to match its partner
+wg.chat.infusionWarning.noPartnerPedestal=Pedestal at %1$s, %2$s, %3$s lacks a symmetrical partner
+wg.chat.infusionWarning.noPartnerStabilizer=Stabilizer at %1$s, %2$s, %3$s lacks a symmetrical partner
+wg.chat.infusionInfo.stabilityTotal=Total Stability booster: %1$s
+wg.chat.infusionInfo.instability=Total Instability of this Infusion: %1$s
+wg.chat.infusionInfo.essentiaMod=This Infusion Enchantment will consume %1$s times the amount of essentia displayed in the Thaumonomicon:
+wg.chat.infusionInfo.essentiaRunicMod=The essentia costs for this Runic Augmentation are to the power of %1$s:
+
+
+wg.potionKnockbackRes=Knockback Res.
+wg.potionDissolve=Dissolving
+wg.potionCinderCoat=Cinder Coat
+
+# -- Research --
+# Formatting:
+# �l 	Bold
+# �m 	Strikethrough
+# �n 	Underline
+# �o 	Italic
+# �r 	Reset
+# <BR>  LineBreak
+# <LINE>Fancy LineBreak
+#
+#
+# Template:
+#  witchinggadgets_research_name.KEY=Research name
+#  witchinggadgets_research_text.KEY=Research subtext
+#  witchinggadgets_research_page.KEY.NUMBER=Research text on page of number NUMBER
+#
+tc.research_category.WITCHGADG=Witching Gadgets
+#
+
+#WGPOTIONS
+witchinggadgets_research_name.WGPOTIONS=Status Effects
+witchinggadgets_research_text.WGPOTIONS=[WG] Milk is not always an option! 
+witchinggadgets_research_page.WGPOTIONS.1=When delving into the arcane, you may come about certain afflictions. This is a list of the known ones:<BR><IMG>witchinggadgets:textures/gui/potioneffects.png:18:198:18:18:1</IMG>§nKnockback resistance:§r  Grants the afflicted a chance to resist knockback, with a chance of 33% per level.<IMG>witchinggadgets:textures/gui/potioneffects.png:36:198:18:18:1</IMG>§nDissolving:§r  The afflicted is covered in a fluid akin to 'Liquid Death', damaging them over time. If they succumb to it, they drop crystalized aspects.
+witchinggadgets_research_page.WGPOTIONS.2=<IMG>witchinggadgets:textures/gui/potioneffects.png:54:198:18:18:1</IMG>§nCinder Coat:§r  The afflicted is coated in magical cinder, which heightens the potency of flames. All fire damage is multiplied based on the strength of the effect.
+#
+witchinggadgets_research_name.ETHEREALWALL=Ethereal Wall
+witchinggadgets_research_text.ETHEREALWALL=[WG] Hidden in plain sight
+witchinggadgets_research_page.ETHEREALWALL.1=Refining the enchantments on arcane stone just a bit more has led to an interesting discovery. Simply applying a redstone signal to this new type of stone will make it §onon-corporeal§r, allowing you to pass through it.<BR>This also affects any other Ethereal Wall connected to the powered block.
+witchinggadgets_research_page.ETHEREALWALL.2=Furthermore, you can disguise this stone to the appearance of most common blocks. Simply click it with a block in hand it and this one will take its texture. Sneak and click it with an empty hand to remove the disguise. (It will only accept the texture of normally rendered blocks. Vanilla transparency works, Thaumcraft's Amber doesn't because it's coloured transparency, directional textures like wooden logs and quartz pillars are not fully supported)
+#
+witchinggadgets_research_name.STONEEXTRUDER=Thaumic Stone Extruder
+witchinggadgets_research_text.STONEEXTRUDER=[WG] One can never have enough stone
+witchinggadgets_research_page.STONEEXTRUDER.1=Even those that are not skilled in the arts of Thaumaturgy are aware of how flowing lava will solidify into cobblestone when cooled by water. Those skilled in the magical arts don't want to waste their time on the tedious digging of these stones and have therefore created an automated way.<BR>This machine will create cobblestone, break it and place it either on the ground (if enabled in the config) or into a connected inventory. Work will be halted if the inventory is full or a redstone signal is applied. You can use a wand to rotate it.
+#
+witchinggadgets_research_name.ICESOLIDIFIER=Thaumic Ice Solidifier
+witchinggadgets_research_text.ICESOLIDIFIER=[WG] One can never have enough ice
+witchinggadgets_research_page.ICESOLIDIFIER.1=By manipulating and reversing the Thaumic Stone Extruder you have discovered the Thaumic Ice Solidifier, which is basically the same device, but it produces ice instead of cobble. Now go build an igloo!<BR>You can also make snowballs with a slightly different recipe.
+#
+witchinggadgets_research_name.AGEINGSTONE=Ageing Stone
+witchinggadgets_research_text.AGEINGSTONE=[WG] Time flies when you're having fun!
+witchinggadgets_research_page.AGEINGSTONE.1=Every young Thaumaturge can't wait to grow up! But that would rob you of too many wonderful experiences. So instead you have decided to channel your knowledge of such time dilating arts into another form of Arcane Stone.<BR>The Ageing Stone will accelerate the ageing of most common creatures, making lambs, calves and piglets grow up much faster when exposed to it's magical energies.<BR>The Ageing Stone will apply this effect to all creatures in a 7x7x5 area centered around itself, with more blocks increasing the effect.
+#
+witchinggadgets_research_name.SPINNINGWHEEL=Spinning
+witchinggadgets_research_text.SPINNINGWHEEL=[WG] Don't prick yourself
+witchinggadgets_research_page.SPINNINGWHEEL.1=While many great Wizards neglect the practice of spinning and weaving, many of them do that by underestimating its true power. A number of magical artifacts are the product of clothwork, including every thaumaturge's robes. Some witches will testify that spellcrafting in itself even has a lot in common with weaving, requiring careful handling of the respective components; be it raw magic in its aspects or thread.
+witchinggadgets_research_page.SPINNINGWHEEL.2=Every practitioners start into the field should be made by creating their very own §lSpinning Wheel§r. It will be used if in acquiring yarn, be it mundane, of exquisite material or some enhanced with magic. This yarn will then later be used to weave the fabric from which to craft various garments or magic artifacts-
+witchinggadgets_research_page.SPINNINGWHEEL.r1=<IMG>witchinggadgets:textures/gui/research/spinningRecipes1.png:0:0:255:255:0.5</IMG>§lYarn§r
+witchinggadgets_research_page.SPINNINGWHEEL.r2=<IMG>witchinggadgets:textures/gui/research/spinningRecipes2.png:0:0:255:255:0.5</IMG>§lGolden Thread§r
+witchinggadgets_research_page.SPINNINGWHEEL.r3=<IMG>witchinggadgets:textures/gui/research/spinningRecipes3.png:0:0:255:255:0.5</IMG>§lThaumium Thread§r
+#
+
+witchinggadgets_research_name.CALCULATOR=Arcane Abacus
+witchinggadgets_research_text.CALCULATOR=[WG] 3-4 = Warp?
+witchinggadgets_research_page.CALCULATOR.1=As a skilled thaumaturge, close to achieving eldritch knowledge, you are an expert on chaos. ...It might also stem from your lack of mathematical knowledge. But who would bother themselves with sciences of the common man when there are enchantments that do it for you?<BR>The Arcane Abacus will take some of the mundane mathematics off your hands. Use it on a Node that contains compound aspects and it will calculate it to primal values. Use it on an Infusion Matrix to gain info on stability, positioning of stabilizers, instability of the current infusion or possible increases in essentia cost.
+witchinggadgets_research_page.CALCULATOR.2=§mThe highest infusion instability known to man *cough*Thaumic Tinkerer*cough* is 15. Stabilizing your altar beyond that is pointless. §r §o The highest infusion instability is unkown, but could be somewhere around 30.
+#
+witchinggadgets_research_name.LABYRINTHSTRING=Guiding Thread
+witchinggadgets_research_text.LABYRINTHSTRING=[WG] Ariadne would be proud
+witchinggadgets_research_page.LABYRINTHSTRING.1=Mazes and labyrinths once were a favourable way of warding secrets against intruders. The real danger of course, is not finding your way back out.<BR>In order to help with that, you have designed the Guiding Thread, an item that leaves a trail of light as you progress through dark and windy place. Rightclick to activate or deactivate it. While active, it will remember every turn you make. The light is only visible while you hold it though. Sneak+click to wipe it's memory.
+#
+witchinggadgets_research_name.LABELLIB=Aspect Library
+witchinggadgets_research_text.LABELLIB=[WG] Indexing made easy!
+witchinggadgets_research_page.LABELLIB.1=While managing and archiving the different kinds of essentia you deal with, you have found that labeling them is quite tedious work. In order to no longer bottle up essentia and rub it against a label to get the the right colour, you've designed the aspect library. It is a block that remembers every aspect you have discovered so far and applies it to labels. Simply place a label within it and select an aspect, and it will attune it accordingly.
+
+
+
+witchinggadgets_research_page.ENCHFABRIC.r1=<IMG>witchinggadgets:textures/gui/research/weavingRecipes2.png:0:0:255:255:0.5</IMG>
+#
+witchinggadgets_research_name.BAGOFTRICKS=Bag of Tricks
+witchinggadgets_research_text.BAGOFTRICKS=[WG] Did I hear an echo in there?
+witchinggadgets_research_page.BAGOFTRICKS.1=Further advancements in magical weaving have led you to the discovery of the §lCloth of Spacious Folds§r. A most interesting weave, which seems to contain more room in its folds than visible from the outside. Crafting a bag from this provides you with space for storage to easily carry on your person.<BR>The fabric also turns out to be very protective of its contents, and it will harm any but the owner, should they try to access the bag. §oThis behaviour can be toggled by the owner by sneak+rightlick.§r
+witchinggadgets_research_page.BAGOFTRICKS.r1=<IMG>witchinggadgets:textures/gui/research/weavingRecipes1.png:0:0:255:255:0.5</IMG>§lCloth of Spacious Folds§r
+witchinggadgets_research_page.BAGOFTRICKS.2=Any of the bags created from the cloth are dyeable, craft them without any dye to return them to their default colour.
+#
+witchinggadgets_research_name.ENDERBAG=Enderlinked Bag
+witchinggadgets_research_text.ENDERBAG=[WG] Everywhere and nowhere at once!
+witchinggadgets_research_page.ENDERBAG.1=By attuning your Bag of Tricks to the enderic frequencies of your personal Ender Chest, you now have access to its contents from anywhere in the world.<BR>Don't try to turn it inside out.
+#
+witchinggadgets_research_name.HUNGERBAG=Hungry Bag
+witchinggadgets_research_text.HUNGERBAG=[WG] Om nom nom nom
+witchinggadgets_research_page.HUNGERBAG.1=Combining the portability of the Bag of Tricks with the unquenchable appetite of the Hungry Chest makes for a bag which will automatically store items in it as you pick them up.
+#
+witchinggadgets_research_name.VOIDBAG=Voidlinked Bag
+witchinggadgets_research_text.VOIDBAG=[WG] Supermassive Black Hole
+witchinggadgets_research_page.VOIDBAG.1=Don't you just hate picking up all that useless cobblestone? Wouldn't it be much better if it just vanished? Well here is your solution! A bag of magical cloth, infused with the energies of the void, which destroys the physical matter of all things inserted into it and sets the magical energies of that item free.<BR>How to work it: Open it up and give it examples of the items you would like to go into it. Then, when that item is picked up (only works on in-world pickups, not on items added to your inventory through other means), they will be destroyed and a random primal aspect contained within them is given to you as vis, charging your wand. 
+#
+
+
+witchinggadgets_research_name.ADVANCEDROBES=Bewitched Fleece
+witchinggadgets_research_text.ADVANCEDROBES=[WG] Sizzling with Magic
+witchinggadgets_research_page.ADVANCEDROBES.1=The dark side of Thaumaturgy holds a lot of power. By slightly tapping into that power, you can weave a fabric much more rich of magic. With that, you can now make yourself better garments strengthened in their magic potential.
+witchinggadgets_research_page.ADVANCEDROBES.r1=<IMG>witchinggadgets:textures/gui/research/weavingRecipes4.png:0:0:255:255:0.5</IMG>§lBewitched Fleece§r
+#
+
+
+
+#-----------------------#
+#TG ITEMS
+#-----------------------#
+witchinggadgets_research_name.WGBAUBLES=Witching Wearables
+witchinggadgets_research_text.WGBAUBLES=[WG] It's like a magic boutique
+witchinggadgets_research_page.WGBAUBLES.1=What looks like catalogue pages from a wizarding equipment store actually proved to be arcane schematics for magical garments! §oAll of these are to be equipped in Baubles or Traveller's Gear slots. The default keybinding for the TG inventory is 'Numpad 7'.§r<BR>§lSteadfast Spaulders:§r<BR>These shoulderpads are not designed to be very fashionable, and their protection value is negligible. However, the magic infused into them is able to root you to the floor, so that you shall not waver when stuck by enemy attacks. §oGrants you 60% knockback resistance.§r
+witchinggadgets_research_page.WGBAUBLES.2=§lBerserker's Bracers:§r<BR>Covered in wolven fur, these vambraces wont hold off blades. But by the magic infused into them, they grant the user the ferociousness of a wolf. Also, they are incredibly fluffy.<BR>§oIncreases your attack damage by 2 points.§r
+witchinggadgets_research_page.WGBAUBLES.3=§lVambraces of Steady Progression:§r<BR>These vambraces, designed by dwarven thaumaturgists, are designed to grant you the ability of digging a hole at a steady pace without interruption. To achieve that, they react dynamically to the working conditions, increasing the user's dig speed while submerged in water, flying in the air, or when confronted with highly resilient materials.<BR>They also increase the speed at which you climb ladders, for when you eventually need to outrun the thing you woke in the dark below.
+witchinggadgets_research_page.WGBAUBLES.4=§lSeraph's Shoulders:§r<BR>Flying is an ability many wish for. It is quite an advanced form of magic that allows users to fly, but a small jump in the air is within your possibilities.<BR>These shoulders spawn some powerful magical wings, which allow you to perform a second jump in midair.
+witchinggadgets_research_page.WGBAUBLES.5=§lRing of the Sniper:§r<BR>Some creatures of the dark are just too strong to face in melee combat, so taking them out from the distance seems more advisable. With the ring of the Sniper, this task is made much easier.<BR>As long as you wear the ring, you will be able to move quicker while drawing a bow. Sneaking with an arrow knocked will allow you to focus on target is in the distance.
+witchinggadgets_research_page.WGBAUBLES.6=§lRing of the Covetous Coin:§r<BR>It's great to be lucky! But one can never have enough luck. You've devised a way to boost your own luck, by socketing a golden coin in a ring and loading it with magic.<BR>§oWearing the ring will increase your fortune and looting by two levels.<BR>The enchanted books used to make the coin can carry any enchantment.§r
+#
+witchinggadgets_research_name.CLOAK=Cloak
+witchinggadgets_research_text.CLOAK=[WG] Swish!
+witchinggadgets_research_page.CLOAK.1=After noticing the excellent "swishing"-properties of Enchanted Fabric, you have quickly drawn out some schematics to create a cloak from it. While this standard cloak lacks any special abilities, its magical fabric should provide an excellent base for more advanced spellwoven mantles.<BR>§oTo be equipped in the Traveller's Gear inventory, the default keybinding is 'Numpad 7'. Certain abilities of the advanced cloaks can be activated. This is done via the 'Active Abilities'-menu of Traveller's Gear. The default keybinding is 'R'.§r
+#
+witchinggadgets_research_name.CLOAK_STORAGE=Cloak of Voluminous Pockets
+witchinggadgets_research_text.CLOAK_STORAGE=[WG] I lost my keys in here...
+witchinggadgets_research_page.CLOAK_STORAGE.1=Combining the concept of your Bag of Tricks with that of the fashionable cloak, you now have more storage capabilities right on your body! The cloak also has 50% more capacity.
+#
+witchinggadgets_research_name.CLOAK_RAVEN=Mantle of the Raven
+witchinggadgets_research_text.CLOAK_RAVEN=[WG] CA-CAW!
+witchinggadgets_research_page.CLOAK_RAVEN.1=On your travels throughout the Twilight Forest, you have come across the most fascinating Forest Raven. This remarkable bird displays high agility and maneuverability in the air, a feat to be envious of.<BR>Instead of being envious you could also just adorne your cloak with their feathers and imbue it with magical power...<BR>While wearing this cloak, your speed while flying increases noticeably. And should you not be flying, the cloak will allow you to glide instead. Gliding can be disabled in the ActiveAbility menu.
+#
+witchinggadgets_research_name.CLOAK_SPECTRAL=Spectral Mantle
+witchinggadgets_research_text.CLOAK_SPECTRAL=[WG] Now you see me...
+witchinggadgets_research_page.CLOAK_SPECTRAL.1=The plane of the spectral beings is a mystery to most common men. Fortunately, you are not most men. After infusing a cloak with eldritch and spectral energies it will grant you the ability to 'shift' yourself to that plane. While walking among it, you are invisible to those that walk along the normal plane. Enemies will not see or target you unless they are creatures of eldritch, posses exemptual powers or are wearing Goggles of Revealing.<BR>This ability comes at the cost of being unable to interact with the physical world. You cannot attack, use items, break or activate blocks. Furthermore it will drain 1 aer vis from you inventory every 5 seconds.
+witchinggadgets_research_page.CLOAK_SPECTRAL.2=§oDisclaimer: Creatures that can still see you include: Eldritch Guardians, Eldritch Wardens, Eldritch Golems, Cultist Praetors, as well as boss mobs like the Wither or the Enderdragon. For reasons unknown to even the most cunning Thaumaturges, Spiders and Slimes seem to be able to detect you by different means. Any other user of this cloak will also be able to see you.§r
+#
+witchinggadgets_research_name.CLOAK_WOLF=Cloak of the Wolf
+witchinggadgets_research_text.CLOAK_WOLF=[WG] What a big mouth you have!
+witchinggadgets_research_page.CLOAK_WOLF.1=The old tales tell of the berserkers, unrelenting warriors, imbued by ancient magic and wrapped in the fur of a wolf.<BR>Your studies have revealed magical procedures like these and for reasons of style and nostalgia you decided they were best integrated into a cloak of wolf fur. Should you sustain damage while wearing it, you gain additional attack damage and speed, akin to the fearless warriors of old.
+#
+witchinggadgets_research_name.CLOAKKAMA=Kama
+witchinggadgets_research_text.CLOAKKAMA=[WG] It's not a kilt!
+witchinggadgets_research_page.CLOAKKAMA.1=Cloaks and their advanced derivatives have proven to be both fashionable and useful, but also quite big and unwieldy. Shortening them and attaching them to a belt transforms them into a Kama, a sort of half-skirt covering the back of the legs. They still perform the same tasks, they are just located at a different part of your body now.<BR>§l§4WARNING: Due to an unknown error, shift clicking the result out of the crafting table will result in a loss of NBT-data. In order to preserve enchantments on the cloak, its colouration and items stored inside it, make sure to take the Kama out of the slot with a normal click.
+#
+
+
+
+#-----------------------#
+#ALCHEMY
+#-----------------------#
+witchinggadgets_research_name.ALCHEMICALTRANSMOGRIFY=Alchemical Transmogrification
+witchinggadgets_research_text.ALCHEMICALTRANSMOGRIFY=[WG] Grass grows, spores fly
+witchinggadgets_research_page.ALCHEMICALTRANSMOGRIFY.1=Expanding your wide array of alchemical processes, these transmutations can be used to revitalize dirt, pulverize cobblestone, or purify gravel.
+#
+witchinggadgets_research_name.PURECINNABAR=Cinnabar Purification
+witchinggadgets_research_text.PURECINNABAR=[WG] Purification of cinnabar into native clusters
+witchinggadgets_research_page.PURECINNABAR.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal cinnabar ore into a native cinnabar cluster.<BR>When smelted these clusters produces twice the normal amount of quicksilver.
+#
+witchinggadgets_research_name.METALLURGICPERFECTION_CLUSTERS=Metallurgic Perfection: Purification
+witchinggadgets_research_text.METALLURGICPERFECTION_CLUSTERS=[WG] Purifying most ores into native clusters
+witchinggadgets_research_page.METALLURGICPERFECTION_CLUSTERS.1=The process of metal purification has proven to be very similar for every metal you have tried it on so far.<BR>Following this logic, you have created a general theory for the process, allowing you to transform the majority of ores you encounter into purified clusters, richer in their metal concentration. Your knowledge has enabled you too higher the efficiency of the procedure as well.
+#
+witchinggadgets_research_name.METALLURGICPERFECTION_TRANSMUTATION=[WiP] Metallurgic Perfection: Transmutation
+witchinggadgets_research_text.METALLURGICPERFECTION_TRANSMUTATION=[WG] Transforming most metals into others
+witchinggadgets_research_page.METALLURGICPERFECTION_TRANSMUTATION.1=The process of metallic transmutation has proven to be very similar for every metal you have tried it on so far.<BR>Following this logic, you have created a general theory for the process, allowing you to synthesize additional nuggets from an essential mix of §5metallum§0 and the respective aspects that identify the metal.
+#
+witchinggadgets_research_name.PUREALUMINUM=Aluminum Purification
+witchinggadgets_research_text.PUREALUMINUM=[WG] Purification of aluminum into native clusters
+witchinggadgets_research_page.PUREALUMINUM.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal aluminum ore into a native aluminum cluster.<BR>When smelted these clusters produces twice the normal amount of aluminum ingots.
+#
+witchinggadgets_research_name.PURECOBALT=Cobalt Purification
+witchinggadgets_research_text.PURECOBALT=[WG] Purification of cobalt into native clusters
+witchinggadgets_research_page.PURECOBALT.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal cobalt ore into a native cobalt cluster.<BR>When smelted these clusters produces twice the normal amount of cobalt ingots.
+#
+witchinggadgets_research_name.PUREARDITE=Ardite Purification
+witchinggadgets_research_text.PUREARDITE=[WG] Purification of ardite into native clusters
+witchinggadgets_research_page.PUREARDITE.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal ardite ore into a native ardite cluster.<BR>When smelted these clusters produces twice the normal amount of ardite ingots.
+#
+witchinggadgets_research_name.PURENICKEL=Nickel Purification
+witchinggadgets_research_text.PURENICKEL=[WG] Purification of nickel into native clusters
+witchinggadgets_research_page.PURENICKEL.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal nickel ore into a native nickel cluster.<BR>When smelted these clusters produces twice the normal amount of nickel ingots.
+#
+witchinggadgets_research_name.PUREFZDARKIRON=Dark Iron Purification
+witchinggadgets_research_text.PUREFZDARKIRON=[WG] Purification of dark iron into native clusters
+witchinggadgets_research_page.PUREFZDARKIRON.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal dark iron ore into a native dark iron cluster.<BR>When smelted these clusters produces twice the normal amount of dark iron ingots.
+
+#
+witchinggadgets_research_name.TRANSALUMINUM=Aluminum Transmutation
+witchinggadgets_research_text.TRANSALUMINUM=[WG] Transformation of metals into aluminum
+witchinggadgets_research_page.TRANSALUMINUM.1=You have discovered a way to multiply aluminum by steeping aluminum nuggets in §5metallum§0 harvested from other metals.
+
+#INFERNALBLASTFURNACE
+witchinggadgets_research_name.INFERNALBLASTFURNACE=[WiP] Infernal Blast Furnace
+witchinggadgets_research_text.INFERNALBLASTFURNACE=[WG] IT BURNS!...it smelts, actually...
+witchinggadgets_research_page.INFERNALBLASTFURNACE.1=Burning with an intensely hot magical flame, this furnace is the Thaumaturge's response to the engineer's tedious steps of cleaning their ores. It will smelt any clusters of metal thrown within it into three ingots, which the occasional nugget added to that.<BR>Furthermore, should you require steel for other operations, the impure flame of this devilish artifact is a surefire way to get it. Simply throw in iron ingots or blocks and place Ignis essentia jars aside and wait.<BR>The speed of this construct can be increased by the same means as on the Infernal Furnace.
+witchinggadgets_research_page.INFERNALBLASTFURNACE.2=For normal smelting purposes however, this flame is far too hot, so don't try throwing chicken into it.<BR>Disclaimer: Though the lava in this furnace has been enhanced by magic, it is still just as (if not more) dangerous. Any items not supposed to go into this furnace will be vapourized, as will any Thaumaturge stupid enough to fall into it.
+witchinggadgets_research_page.INFERNALBLASTFURNACE.3=§oThe Thaumonomicon is a bit imprecise in its depiction of this construct's structure. The stair blocks at the top actually need to face towards the middle block, with the corners fitting in.§r
+
+
+
+#MIRRORPUMP
+witchinggadgets_research_name.MIRRORPUMP=Essentia Pump
+witchinggadgets_research_text.MIRRORPUMP=[WG] Suck it up!
+witchinggadgets_research_page.MIRRORPUMP.1=Essentia Mirrors may allow the Infusion Altar to pull essentia over long distances, but most other devices are unable to utilize them. In order to save yourself a lot of tubing, you have invented the Essentia Pump. When it is attached to a tube system, it will recognize the current suction of the system and draw the matching aspect from nearby mirrors.
+
+witchinggadgets_research_name.ROSEVINE=Rose Vines
+witchinggadgets_research_text.ROSEVINE=[WG] Pointy!
+witchinggadgets_research_page.ROSEVINE.1=These thorny plants are the first results of a Thaumaturge delving into Herbology. While not very decorative, their sharp thorns and quick growth makes them ideal for setting up a natural security perimeter for any §mcastle§r base with §ma sleeping beauty§r treasure inside to safeguard. Spreading vines can be harvested with Shears.
+#
+witchinggadgets_research_name.SCANCAMERA=Thaumic Iconograph
+witchinggadgets_research_text.SCANCAMERA=[WG] There is no Imp inside!
+witchinggadgets_research_page.SCANCAMERA.1=Experiments with the magical mirrored glass have shown that under certain conditions, it will not reflect images but store them. Using this to your advantage, you can store thaumic imprints of objects you find on your travels on glass panes. Later then, you can transfer these imprints to paper, in order to share your experiences with other Thaumaturges at the next arcane council.
+witchinggadgets_research_page.SCANCAMERA.2=Use the §lThaumic Iconograph Box§r like you would use the Thaumometer. You can create a §lIconographic Plate§r of anything you would usually scan at the cost of a §lMirrored Glass§r from your inventory. You can take iconographs even of things you have previously scanned, but only the use of a §lDeveloped Iconograph§r grants you the research aspects. And this studying of the picture abides by the same rule as the scan with the Thaumometer. Increase the number of ink and paper in the development recipe to create more than one copy of the picture.
+#
+#SAUNASTOVE
+witchinggadgets_research_name.SAUNASTOVE=Thaumic Sauna Stove
+witchinggadgets_research_text.SAUNASTOVE=[WG] Finnish Magic!
+witchinggadgets_research_page.SAUNASTOVE.1=Personal hygiene and spa-feeling seems to be the new trend among thaumaturges. To go along with it, this Sauna Stove will fill the area around it with a pleasant, cleansing steam.<BR>While subjected to this steam, you are protected from warp effects and you have a small chance of reducing your temporary warp. However, after a sauna visit you will also be left quite hungry!<BR>The Stove needs only water to work, which can be inserted with a fluid container like buckets or pumped in directly. One bucket of water will keep the stove going for 10 minutes!
+witchinggadgets_research_page.SAUNASTOVE.2=If you are a user of EnviroMine, the Sauna will also leave you thirsty and slightly overheated, but it as great effects on your sanity!
+
+#CRYSTALCAPSULE
+witchinggadgets_research_name.CRYSTALCAPSULE=Crystal Capsule
+witchinggadgets_research_text.CRYSTALCAPSULE=[WG] From Venice with Love
+witchinggadgets_research_page.CRYSTALCAPSULE.1=Everyone can use a bucket!...sadly, not really. Some liquids out there dislike cooperating with mundane buckets, but even the hottest or viscous substance can not refuse the magical suction of glass prisms.<BR>These capsules are not cut, but instead molded from essentia, making them, crystal clear, flawless and impervious to aggressive substances.<BR>§oYou use this like a bucket, but it will work on any fluid block.§r
+
+
+
+#-----------------------#
+#ENCHANTMENTS
+#-----------------------#
+witchinggadgets_research_name.ENCH_INVISIBLEGEAR=Enchantment: Translucency
+witchinggadgets_research_text.ENCH_INVISIBLEGEAR=[WG] Don't want none of that bling!
+witchinggadgets_research_page.ENCH_INVISIBLEGEAR.1=Armor is incredibly useful, everyone can agree on that. It will save your life in most fights. But it can also be a hindrance when you are trying to be stealthy.<BR>Say you drink a potion of invisibility. It works perfectly and makes you nigh untraceable, weren't it for that clunky armor. But the skilled Thaumaturge fixes that easily, infusing his armor with magical enchantments that make it invisible to the common viewer!<BR>The first level of this enchantment will make your gear translucent when you are invisible yourself, the second level will make it permanently invisible.
+#
+witchinggadgets_research_name.ENCH_UNVEILING=Enchantment: Unveiling
+witchinggadgets_research_text.ENCH_UNVEILING=[WG] Goggles of the Ghostbuster
+witchinggadgets_research_page.ENCH_UNVEILING.1=Every Thaumaturge has those moments, when it feels like someone or something is watching them. But they look around, and nothing can be seen. With the right glasses, you can see those creeps, and look right back at them!<BR>This enchantment can be applied to the Goggles of Revealing or other headgear of the same function. While wearing the enchanted item, you will be able to see creatures with the invisibility buff. Furthermore, the Translucency enchantment is rendered ineffective when used by others and users of the spectral mantle are shown more clearly.
+#
+witchinggadgets_research_name.ENCH_STEALTH=Enchantment: Stealth
+witchinggadgets_research_text.ENCH_STEALTH=[WG] Sneaky!
+witchinggadgets_research_page.ENCH_STEALTH.1=More often than not, sneaking is not an option due to the high senses of the creatures you face. Well now it is! Applying this enchantment to your boots or leggings will give you a chance of staying undetected while you are crouching. The chance rises by 10% with every level, but is diminished by 10% if you are in view of the target in question.<BR>Should you be discovered, all enemies in a 5 block radius will be notified.
+#
+witchinggadgets_research_name.ENCH_BACKSTAB=Enchantment: Backstabbing
+witchinggadgets_research_text.ENCH_BACKSTAB=[WG] Rogues do it from behind
+witchinggadgets_research_page.ENCH_BACKSTAB.1=With your newfound ability to sneak, comes a new option of combat. By attacking enemies from behind you use the element of surpise to avoid the enemy's defenses. Items enchanted with Backstabbing do additional 20% damage per level when attacking from behind, plus another 40% when the target is not aware of you.
+#
+witchinggadgets_research_name.ENCH_RIDEPROTECT=Enchantment: Throwoff
+witchinggadgets_research_text.ENCH_RIDEPROTECT=[WG] Get off me!
+witchinggadgets_research_page.ENCH_RIDEPROTECT.1=Moving around is incredibly difficult when someone is piggyback-riding you. Enchanting your helmet with this repulsion spell should fix that problem. Everyone who tries to jump upon you will get thrown off and damaged.
+#
+witchinggadgets_research_name.ENCH_SOULBOUND=Enchantment: Soul Tethered
+witchinggadgets_research_text.ENCH_SOULBOUND=[WG] Til death do us part. Or not.
+witchinggadgets_research_page.ENCH_SOULBOUND.1=Dying is somewhat of an inconvenience. Aside from being dead, you also tend to lose important things like tools, valuable materials, and armor. <BR>By infusing the strange properties of ender artifacts into an object, it seems to bind to your spirit and follows you from one life to the next. No more losing your favorite socks!<BR>Since the Infusion Altar can be a little fussy sometimes, it also comes in book form.
+
+
+#-----------------------#
+#GEMCUTTING
+#-----------------------#
+witchinggadgets_research_name.GEMCUTTING=Gem Cutting
+witchinggadgets_research_text.GEMCUTTING=[WG] Everything is crystal clear!
+witchinggadgets_research_page.GEMCUTTING.1=Gemcutting is one of the oldest yet most refined forms of giving magic a physical form. If a gem is infused with magic, it is no longer dependant on the user. Any mortal can use the power stored inside a cut gem, making this a viable option of giving power to those not skilled in the thaumaturgic arts.<BR>Gems vary in their function based on their cut and the magical essence infused into them.
+
+witchinggadgets_research_page.GEMCUTTING.2=You can use the newly created cutting table to create these gems and infuse them with essence.<BR>Place a valid gem in the left slot and add ethereal essences or vials of essentia in the other three slots. The essences must be of the same aspect and will determine the strength of the resulting infused gem. Select a cut with the arrows and then pull the finished gem out of the right slot. Once a gem has been created, it cannot be repurposed.
+witchinggadgets_research_page.GEMCUTTING.3=§lNatural Affinities§r<BR>Some stones have inherent natural affinities for certain aspects, which applies a natural strengthening to their effect. If the affinity matches the infused aspect, the gem will be enchanted with "Brilliance", the level depending on the amount of essences used in the creation.<BR>§lNatural Aversions§r<BR>Similarly, some gems have natural aversions to certain aspect, and infusing them with them will make the resulting gem brittle, weakening it's effect and adding a chance for reusable gems to break.<BR> Hold shift while looking at a gem to see its affinities and aversions.
+
+witchinggadgets_research_page.GEMCUTTING.4=            §lPoint Cut§r<LINE>The point cut is the most basic form you can give to your infused gem. While it can store thaumic energies, the only way to release this energy is by crushing the gem, leaving behind some gemstone dust. The effects varying by aspect, are as follows:<BR>§e§lAer: §r§0You acquire a short-term, high powered jumpboost.<BR>§2§lTerra: §r§0Grants you knockback resistance.<BR>§c§lIgnis: §r§0Illuminates an area around you with temporary glimmers of light.
+witchinggadgets_research_page.GEMCUTTING.5=§3§lAqua: §r§0Releases a blast of freezing energy, turning water into ice and solidifying lava around you.<BR>§f§lOrdo: §r§0Restores some of your hearts.<BR>§8§lPerditio: §r§0Inflicts some temporary warp upon you.
+
+witchinggadgets_research_page.GEMCUTTING.6=              §lOval Cut§r<LINE>The oval cut is an advanced form of the infused gems. With the increase in facettes, it can store much more energy and release it in smaller, concentrated bursts. The effects are quite different from those of the point cut gems and these can be recharged with vis of a matching aspect.<BR>Due to its complexity, using a base gem without a natural affinity for the aspect makes the resulting gem very brittle, and in turn, the essentia required to create a brilliant gem has increased.
+witchinggadgets_research_page.GEMCUTTING.7=§e§lAer: §r§0The energies propel you through their air. Consumes 1 charge per use.<BR>§2§lTerra: §r§0Upon using it on a block, it checks connected blocks for ores. Consumes 1 charge per use.<BR>§c§lIgnis: §r§0Starts a fire at the targeted block. Consumes 1 charge per use.<BR>§3§lAqua: §r§0Creates a block of clean water at the targeted block. Consumes 2 charges per use.<BR>§7§lOrdo: §r§0Guides you to the nearest Node. Consumes 2 charges per use.<BR>§8§lPerditio: §r§0When targeted at a Magical Mirror, it will teleport you to the linked mirror. Consumes 16 charges per use. (May require sneak-clicking to operate)
+witchinggadgets_research_page.GEMCUTTING.7.noMirrors=§e§lAer: §r§0The energies propel you through their air. Consumes 1 charge per use.<BR>§2§lTerra: §r§0Will create a small safe room around of you. Material depends on strength. Consumes 1 charge per use.<BR>§c§lIgnis: §r§0Starts a fire at the targeted block. Consumes 1 charge per use.<BR>§3§lAqua: §r§0Creates a block of clean water at the targeted block. Consumes 2 charges per use.<BR>§f§lOrdo: §r§0Guides you to the nearest Node. Consumes 2 charges per use.<BR>§8§lPerditio: §r§0Releases a wave of energy, pushing back and blinding enemies around you. Consumes 2 charges per use.
+#
+witchinggadgets_research_name.GEMCUT_TABLE=Table Cut
+witchinggadgets_research_text.GEMCUT_TABLE=[WG] Bling
+witchinggadgets_research_page.GEMCUT_TABLE.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:80:0:80:80:1</IMG>The table cut is
+witchinggadgets_research_name.GEMCUT_STEP=Step Cut
+witchinggadgets_research_text.GEMCUT_STEP=[WG] Shwing
+witchinggadgets_research_page.GEMCUT_STEP.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:160:0:80:80:1</IMG>The table cut is
+witchinggadgets_research_name.GEMCUT_ROSE=Rose Cut
+witchinggadgets_research_text.GEMCUT_ROSE=[WG] Sparkle
+witchinggadgets_research_page.GEMCUT_ROSE.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:0:80:80:80:1</IMG>The table cut is
+witchinggadgets_research_name.GEMCUT_OVAL=Oval Cut
+witchinggadgets_research_text.GEMCUT_OVAL=[WG] Gleam
+witchinggadgets_research_page.GEMCUT_OVAL.1=<IMG>witchinggadgets:textures/gui/research/gemcuts.png:80:80:80:80:1</IMG>The oval cut is the perfection in gemcutting. It is used in the creation of baubles but can also be affixed to most armorpieces and tools, giving them socketed effects. See the following pages for a list.
+
+
+#-----------------------#
+#ELDRITCH
+#-----------------------#
+witchinggadgets_research_name.WGELDRITCHBASE=Eldritch Studies
+witchinggadgets_research_text.WGELDRITCHBASE=[WG] Gaze into the void
+witchinggadgets_research_page.WGELDRITCHBASE.1=Your studies have proven that Voidmetal makes fine tools, but it also serves well in creating strong barriers that appear impenetrable to any foreigners but allow their owner to pass straight through.
+
+#PRIMORDIALGLOVE
+witchinggadgets_research_name.PRIMORDIALGLOVE=Primordial Gauntlet
+witchinggadgets_research_text.PRIMORDIALGLOVE=[WG] Other items sold separately
+witchinggadgets_research_page.PRIMORDIALGLOVE.1=The knowledge of the Primordial Pearl let you decipher some of the eldritch scribbles you dealt with before. They contained plans for an armorset designed to channel the energies of the void through gemstones. Sadly, only sketches of the gauntlet were decipherable.<BR>This gauntlet features an inbuilt §5Node Transducer§0, and when its claws close upon a node, it will never let it go again, unless it is replaced by another.<BR>The five sockets on this device will accept infused gems, and their power can be channeled through it, while their recharge speed is based on the aspects of the contained node.
+witchinggadgets_research_page.PRIMORDIALGLOVE.2=It should be noted that the sockets will stabilize the gems inside them, so they will never break upon use, but simply recharge.<BR>To select the active gem, the same keybinding as for switching wand foci is used. Sneak while pressing that key to open the inventory in order to add or remove gems.<BR>The pearl is not consumed during the crafting process.
+
+#PRIMORDIALGEARSET
+witchinggadgets_research_name.PRIMORDIALGEARSET=Primal Revelation
+witchinggadgets_research_text.PRIMORDIALGEARSET=[WG] War on the Eldritch!
+witchinggadgets_research_page.PRIMORDIALGEARSET.1=Like a flash of lightning, the scribbles unrecognizable before now seem crystal clear. You have restored the pages on Primordial Smithing, the art of highenergetic infusion. With it you shall create pieces of gear that surpass your current by lengths. It's designs indicate clearly that these items were not meant for travelling Thaumaturges. This is preparation for the unavoidable conflict with the creatures of the Void. And what's best to combat them than the metal created with their knowledge?<BR>You shall mold items from full blocks of Void metal, items of raw primal power, to protect and arm you.
+witchinggadgets_research_page.PRIMORDIALGEARSET.2=But that's not all! The runes and sockets on said gear will be the perfect for imbuing processes, strengthening their potential even further. Each piece is infused with elemental abilities, increasing their potential immensely!
+
+#PRIMORDIALWEAPONRY
+witchinggadgets_research_name.PRIMORDIALWEAPONRY=[WiP] Primordial Weaponry
+witchinggadgets_research_text.PRIMORDIALWEAPONRY=[WG] Mobile primal launch platform
+witchinggadgets_research_page.PRIMORDIALWEAPONRY.1=Designed only to slay creatures of evil, the Primordial Weapons have surpassed any magical weapon you may have crafted before. Not only do all carry a unique inert ability, each is tunable to a primal affinity, granting it further effects. And don't be scared by their massive appearance, for their wielder does not feel their weight, unlike the target upon which they are swung.
+witchinggadgets_research_page.PRIMORDIALWEAPONRY.2=The Primordial Claymore seems to assist you in aiming your strikes. The blade commonly hits your foe's neck, resulting in decapitation.<BR>The Primordial Warhammer uses its immense weight to literally squash your foes. This results in double damage done to slimes and spiders, and a chance of heavy concussions among all others. It also breaks blocks in a 3x3 when digging, unless you're sneaking. <BR>The Primordial Greataxe cleaves through foliage like a hot knife through butter, but splits apart armor just as well. The damage of the weapon increases based on the armor of the enemy, and the armor itself suffers from increased damage as well.
+witchinggadgets_research_page.PRIMORDIALWEAPONRY.3=§l§n     Primal Affinities:     §r<BR>§nAer:§r The weapon hits multiple enemies instead of one.                  §nTerra:§r Upon blocking with the weapon, you get a resistance buff, which stacks up to level 3.              §nIgnis:§r Strikes set the target alight, and coats it in cinder to increase all fire damage dealt to it.       §nAqua:§r The target will be coated in dissolving fluid, damaging it over time. Afflicted targets will drop crystallized essence.            §nOrdo:§r The experience value of slaying foes is increased immensely, making them drop far more exp orbs.  §nPerditio:§r Attacks leave the target weakened and famished.
+
+#PRIMORDIALCLAYMORE
+witchinggadgets_research_name.PRIMORDIALCLAYMORE=Primordial Claymore
+witchinggadgets_research_text.PRIMORDIALCLAYMORE=[WG] Off with their heads!
+witchinggadgets_research_page.PRIMORDIALCLAYMORE.1=The Primordial Claymore exists solely to combat and slay creatures of evil. Its weight is tremendous, yet somehow, the user does not feel it. Unlike the victim at which it is swung. Its blade seems to aid you in aiming for your foes neck, resulting in quite frequent decapitations.
+
+#PRIMORDIALHAMMER
+witchinggadgets_research_name.PRIMORDIALHAMMER=Primordial Warhammer
+witchinggadgets_research_text.PRIMORDIALHAMMER=[WG] Squish
+witchinggadgets_research_page.PRIMORDIALHAMMER.1=The Primordial Warmhammer. Not only is its hammerhead enormous, it seems to be radiating at an even larger scale, breaking blocks in a 3x3 area in front of you.<BR>The effect on slime-like creatures is devastating, doubling the damage and splattering them everywhere.
+
+#PRIMORDIALGREATAXE
+witchinggadgets_research_name.PRIMORDIALGREATAXE=Primordial Greataxe
+witchinggadgets_research_text.PRIMORDIALGREATAXE=[WG] Cleave them apart
+witchinggadgets_research_page.PRIMORDIALGREATAXE.1=The Primordial Greataxe cleaves through foliage and wood like a hot knife through butter. But it's sharp edges cut through much more than wood.
+
+witchinggadgets_research_name.PRIMORDIALARMOR=[WiP] Primordial Armor
+witchinggadgets_research_text.PRIMORDIALARMOR=[WG] Bipedal tank
+witchinggadgets_research_page.PRIMORDIALARMOR.1=Primordial Armor perfects your protection against foes. It will block quite a lot of damage on its own, but it is also receptive for runic enhancements, allowing you to strengthen it even further. In addition to that, it has different effects based on its primal affinity, which you can switch in the active ability menu. §o(Default Hotkey: R)§r<BR>Just like Fortress Armor, it can also be outfitted with Goggles of Revealing and the respective faceplates.
+witchinggadgets_research_page.PRIMORDIALARMOR.2=§l§n     Primal Affinities:     §r<BR>§nAer:§r Any projectile shot at you is caught by a gust of air and propelled right back at the shooter. §nTerra:§r Increased protection against attacks that would normally penetrate your armor.                        §nIgnis:§r The damage you sustain from flames and explosions is reduced immensely and you will be extinguished when necessary.     §nAqua:§r Minor maladies like (taint) poison, blindness, withering and nausea are cured. Will not work on warp effects.                       §nOrdo:§r The severity and duration of all warp-based status effects is reduced.                    §nPerditio:§r Most hits on the user are avenged by striking the attacker with blindness and slowness. 
+#witchinggadgets_research_name.PRIMORDIALHELMET=Primordial Helm
+#witchinggadgets_research_text.PRIMORDIALHELMET=[WG] 
+#witchinggadgets_research_page.PRIMORDIALHELMET.1=
+#witchinggadgets_research_name.PRIMORDIALCUIRASS=Primordial Cuirass
+#witchinggadgets_research_text.PRIMORDIALCUIRASS=[WG] 
+#witchinggadgets_research_page.PRIMORDIALCUIRASS.1=
+#witchinggadgets_research_name.PRIMORDIALGREAVES=Primordial Greaves
+#witchinggadgets_research_text.PRIMORDIALGREAVES=[WG] 
+#witchinggadgets_research_page.PRIMORDIALGREAVES.1=
+#witchinggadgets_research_name.PRIMORDIALBOOTS=Primordial Boots
+#witchinggadgets_research_text.PRIMORDIALBOOTS=[WG] 
+#witchinggadgets_research_page.PRIMORDIALBOOTS.1=
+
+#EMPOWERPEARL
+witchinggadgets_research_name.EMPOWERPEARL=Pearl Revitalization
+witchinggadgets_research_text.EMPOWERPEARL=[WG] 120 bpm
+witchinggadgets_research_page.EMPOWERPEARL.1=The power that once pulsed through Primordial Pearl is gone. Well, not gone, just infused into a different item. But not all hope is lost! The pearl itself still exists, you just have to empower it once more, by infusing it...
+
+#TERRAFORMER
+witchinggadgets_research_name.TERRAFORMER=Thaumic Terraforming
+witchinggadgets_research_text.TERRAFORMER=[WG] Slartibartfast!
+witchinggadgets_research_page.TERRAFORMER.1=When simple gardening doesn't cut it anymore, when you would like to turn that depressing rain into beautiful snow, or when your blasted bees refuses to work in the current climate: That's when the Arcane Terrestrial Reformer comes into use.<BR>By placing a focus on the top, it will be attuned to a certain aspect. This construct will consume essentia of the respective aspect as well as §2Terra§0 vis. Per 4 essentia and 4 vis consumed, it will change the biome of a nearby coordinate within a 16 block radius.
+
+witchinggadgets_research_name.TERRAFORMFOCUS_PLAINS=Terrestrial Focus: Plains
+witchinggadgets_research_text.TERRAFORMFOCUS_PLAINS=[WG] Plain Plains
+witchinggadgets_research_page.TERRAFORMFOCUS_PLAINS.1=The most basic of the Terrestrial Foci represents the Plains biome. <BR>...<BR> For it to work its magic, it will need to be supplied with §2Herba§0 essentia.
+witchinggadgets_research_name.TERRAFORMFOCUS_COLDTAIGA=Terrestrial Focus: Cold Taiga
+witchinggadgets_research_text.TERRAFORMFOCUS_COLDTAIGA=[WG] Winter is coming
+witchinggadgets_research_page.TERRAFORMFOCUS_COLDTAIGA.1=In stark (ha, get it?) contrast to the Desert Focus, the Terrestrial Focus: Cold Taiga turns the area around it into a winter-wonderland. <BR>...<BR> Requires §bGelum§0 essentia to work.
+witchinggadgets_research_name.TERRAFORMFOCUS_DESERT=Terrestrial Focus: Desert
+witchinggadgets_research_text.TERRAFORMFOCUS_DESERT=[WG] Not dessert you glutton!
+witchinggadgets_research_page.TERRAFORMFOCUS_DESERT.1=Hot sun, hot sand, no water and a bunch of spiky cacti. Not even eldritch knowledge can explain why anyone would want that around them. <BR>...<BR> For the crazy ones out there, supplying this Focus with §cIgnis§0 essentia will do the trick.
+witchinggadgets_research_name.TERRAFORMFOCUS_JUNGLE=Terrestrial Focus: Jungle
+witchinggadgets_research_text.TERRAFORMFOCUS_JUNGLE=[WG] Welcome!
+witchinggadgets_research_page.TERRAFORMFOCUS_JUNGLE.1=The animal friendly thaumaturge does his best to keep his cats happy. Living in a jungle, while severly sweat inducing, should remind them of their past as ferocious predators among the bushes...before they turned into chest-blocking annoyances. <BR>...<BR> In order for this Focus to work, it will require §6Arbor§0 essentia.
+witchinggadgets_research_name.TERRAFORMFOCUS_HELL=Terrestrial Focus: Hell
+witchinggadgets_research_text.TERRAFORMFOCUS_HELL=[WG] Screw the Nether
+witchinggadgets_research_page.TERRAFORMFOCUS_HELL.1=Let's be honest. Even those driven mad by the warp in their head don't want to live in a place of lava and brimstone.<BR>...<BR>What?! You do?! Well suit yourself. Supply the focus with §cInfernus§0 essentia and enjoy hell on earth.
+witchinggadgets_research_name.TERRAFORMFOCUS_MUSHROOM=Terrestrial Focus: Mushroom Island
+witchinggadgets_research_text.TERRAFORMFOCUS_MUSHROOM=[WG] Moooo-shroom!
+witchinggadgets_research_page.TERRAFORMFOCUS_MUSHROOM.1=The colors maybe offputting and the cows look funny, but with it's guaranteed monster-protection, Mushroom Islands make the ideal vacation spot. <BR>...<BR> And now you can bring that feeling to your doorstep, simply by supplying this focus with §aLimus§0 essentia
+witchinggadgets_research_name.TERRAFORMFOCUS_TAINT=Terrestrial Focus: Tainted Lands
+witchinggadgets_research_text.TERRAFORMFOCUS_TAINT=[WG] Take my tears, and that's not nearly all!
+witchinggadgets_research_page.TERRAFORMFOCUS_TAINT.1=That's it. You pretty much qualify as insane by this point. Creating artificially tainted land? And not only with some bottled up taint, but full scale terraforming?<BR>...<BR> Oh, you're doing it for research purposes? That's fine then. Simply supply this focus with some §5Vitium§0 essentia and go crazy.
+witchinggadgets_research_name.TERRAFORMFOCUS_END=Terrestrial Focus: End
+witchinggadgets_research_text.TERRAFORMFOCUS_END=[WG] Screw the End
+witchinggadgets_research_page.TERRAFORMFOCUS_END.1=Somehow i get the feeling this won't END well, cold Asteroids and Endermen.<BR>...<BR>Supply this with §5Alienis§0 essentia and live in a cold and lonely place.
+witchinggadgets_research_name.TERRAFORMFOCUS_RIVER=Terrestrial Focus: River
+witchinggadgets_research_text.TERRAFORMFOCUS_RIVER=[WG] Life is a River
+witchinggadgets_research_page.TERRAFORMFOCUS_RIVER.1=Fishing is the thaumaturges most beloved technique. That's why many of them decide to settle near a river.<BR>...<BR>Supply this with §bAqua§0 essentia.
+witchinggadgets_research_name.TERRAFORMFOCUS_OCEAN=Terrestrial Focus: Ocean
+witchinggadgets_research_text.TERRAFORMFOCUS_OCEAN=[WG] Living on a Boat
+witchinggadgets_research_page.TERRAFORMFOCUS_OCEAN.1=Why do you want more water as a river has in your house? Emptiness over the water on the ocean is romantic? Upgrade you River focus to Ocean level and enjoy those legendary aqua creepers. <BR>...<BR>Just feed this thing with some §bAqua§0 essentia and have fun with your new creeper friends and enjoy your romantic view.
+witchinggadgets_research_name.TERRAFORMFOCUS_MAGIC=Terrestrial Focus: Magical Forest
+witchinggadgets_research_text.TERRAFORMFOCUS_MAGIC=[WG] It's a kind of magic
+witchinggadgets_research_page.TERRAFORMFOCUS_MAGIC.1=The world is full of magic, but you've never found much of it at some place, so it's time to create a whole magical biome.<BR>...<BR>Supply this with §cSano§0 feel the magic around you.
+
+# ADVANCED SCRIBING TOOLS
+witchinggadgets_research_name.ADVANCEDSCRIBINGTOOLS=Advanced Inscription
+witchinggadgets_research_text.ADVANCEDSCRIBINGTOOLS=[WG] Mightier than the sword
+witchinggadgets_research_page.ADVANCEDSCRIBINGTOOLS.1=Every thaumaturge knows the pain of acquiring the ink necessary to further his studies. More often than not, he has to hunt for squids himself! To avoid these troubles in future, you have thought up a much more potent set of scribing tools. They might be expensive in their creation, but their pool of magical ink is ten times the size of normal scribing tools. And to top that, it is not refilled by ink sacks cut out from slimey squids, but from purest light and some small quantities of gold.
+
+
+#-----------------------#
+#UNIMPLEMENTED
+#-----------------------#
+
+witchinggadgets_research_name.RUNICCLOAK=Runic Cloaks
+witchinggadgets_research_text.RUNICCLOAK=[WG] The best of both worlds
+witchinggadgets_research_page.RUNICCLOAK.1=While being protected by Runic Armor is vital, you really enjoy the abilities granted by your magical cloaks. Why not have both?<BR>By affixing the charms of the runic chestpiece to any of the magical cloaks, you can enjoy the benefits of both.
+#
+witchinggadgets_research_name.LOOM=Loom
+witchinggadgets_research_text.LOOM=[WG] Weavin' Magic
+witchinggadgets_research_page.LOOM.1=To process further the process the yarn and thread gained by spinning, the wizard will have to craft himself a magic loom on which to weave his magic fabric. This  construct will not only interweave the threads, it will also infuse them with various §lAspects§r, granting them magical properties. To infuse the fabric with aspects, simply make sure a §lWarded Jar§r containing some is in the vicinity<BR>To start the weaving after setting the recipe, simply tap the loom with your wand.
+#
+witchinggadgets_research_name.ARCANEAUTOCRAFTER=Arcane Crafter
+witchinggadgets_research_text.ARCANEAUTOCRAFTER=[WG] Au-Thaum-nomous Crafting!
+witchinggadgets_research_page.ARCANEAUTOCRAFTER.1=Those mages who discovered the secrets of immortality (you recognize them by the long, white beard) have all the time in the world. But what about your average thaumaturge? In order to save yourself some time, why not let someone else do the tedious and repetitive crafting operations? Of course, no one would entrust a golem with something as powerful as a wand, but this semi-sentient wooden table will do nicely.
+witchinggadgets_research_page.ARCANEAUTOCRAFTER.2=Simply set your preferred recipe (normal recipe or arcane crafting), provide it with the materials and, if needed, a charged wand, and wait for it to do your bidding. Note however, that the knowledge of crafting is limited to that of the player who put down the block.
+#
+witchinggadgets_research_name.VORPALBLADE=Vorpal Blade
+witchinggadgets_research_text.VORPALBLADE=SNICKER-SNACK!
+witchinggadgets_research_page.VORPALBLADE.1=§oOne, two! One, two! and through and through<BR>The vorpal blade went snicker-snack!<BR>He left it dead, and with its head<BR>He went galumphing back§r<LINE>A sword of legend. So powerful that it will cleanly cut through any material known to men and is likely to fatally strike and behead most any foe.
+#
+witchinggadgets_research_name.WALLMIRROR=Mirror on the Wall
+witchinggadgets_research_text.WALLMIRROR=[WG] The most magical of all!
+witchinggadgets_research_page.WALLMIRROR.1=Further delving into the magic of the mirrors has lead you to the discovery of a safe haven within the void between worlds.<BR>While this location is brimming with magic, otherwise it appears to be void of anything. It has no visible layer of flooring, yet somehow you can stand there.<BR>This space seems to be an excellent way of traveling. Since it is vast and empty as well, it should be easy to store any of your belongings in this void-between-worlds
+witchinggadgets_research_page.WALLMIRROR.2=§lAccess:§r<BR>Place the mirror wherever you like. When you'd like to open the portal, simply right-click it. The dimension accessed through it is the same from any mirror, but portals out of it are only created where it is entered. This means that you can only leave where another Mirror has been placed in the Overworld.<BR><BR>§lNavigation:§r<BR>An invisible floor will spawn in a 5x5 below you wherever you walk. These blocks can be replaced with normal blocks by right-clicking them, allowing you to build there. Jump to ascend, the floor will follow you. Holding the sneak key will make you descend.
+#
+
+
+# ELITE RUNIC ARMOR
+witchinggadgets_research_name.ELITERUNICARMOR=Elite Runic Armor
+witchinggadgets_research_text.ELITERUNICARMOR=[WG] Overshield!
+witchinggadgets_research_page.ELITERUNICARMOR.1=While runic armor is an excellent form of protection, you have come to realize that you can also apply these runes to actual armor. With that you are not only granted normal armor, the bigger surface also allows more runes, increasing the pool of runes this armor provides. A wise mage would use the newly acquired set of scribing tools, because this procedure drains a hundred units of ink and a standard pen would break from this.
+#
+# ELITE ARMOR SETS
+witchinggadgets_research_name.DEMONIC_HELM=Helm of Leviathan
+witchinggadgets_research_text.DEMONIC_HELM=[WG] A beast rising from the sea, with ten horns and seven heads
+witchinggadgets_research_page.DEMONIC_HELM.1=The depths that are home to the beast shall be easily traversed when you wear this helm. You shall find air to breath even down there and be able to see even through the densest darkness.
+#
+witchinggadgets_research_name.DEMONIC_CHEST=Asrael's Cuirass
+witchinggadgets_research_text.DEMONIC_CHEST=[WG] And behold, a pale horse! And its rider's name was Death.
+witchinggadgets_research_page.DEMONIC_CHEST.1=And his victims fell before his feet. While one is wearing this cuirass, they are not only granted the power of flight, but health leeching abilities as well. Upon killing any living creature, the wearer of this infernal armor absorbs part of their very life-force This allows the aforementioned wearer to add twenty percent of the killed creatures health to its own, appearing as absorption hearts. These extra units of health last only ten minutes. Only creatures with 10 hearts or more are valid prey for this spell. If that wasn't enough, the wearer is granted twenty seconds of heightened saturation upon killing any creature
+#
+witchinggadgets_research_name.DEMONIC_LEGS=Lycan's Greaves
+witchinggadgets_research_text.DEMONIC_LEGS=[WG] These paws were made for pouncing!
+witchinggadgets_research_page.DEMONIC_LEGS.1=Werewolves are ferocious beasts. Even more so when provoked. These greaves, imbued with the aspects that represent them, grant you their immense speed. Should you be attacked, they send you into a blood rage, drastically increasing your damage. While sprinting, hold the assigned key (default: Ctrl) to gain a haste buff.
+#
+witchinggadgets_research_name.DEMONIC_BOOTS=Claws of the Behemoth
+witchinggadgets_research_text.DEMONIC_BOOTS=[WG] And where he tread, he laid waste upon the land
+witchinggadgets_research_page.DEMONIC_BOOTS.1=These clawed feet will allow you to run at higher speed, and wont take damage on falling. It's claws also allow you to scale walls. Crouching before you jump will allow you to jump higher, but this might result in damage to the blocks below you.
+#
+#
+witchinggadgets_research_name.ANGELIC_HELM=Ophanic Helm
+witchinggadgets_research_text.ANGELIC_HELM=[WG] Lights will guide you home
+witchinggadgets_research_page.ANGELIC_HELM.1=Even in the deepest dark, a light will shine for you. Wherever you go, a shimmer of magical light accompanies you. It vanishes shortly after you depart and only appears in dark areas.
+#
+witchinggadgets_research_name.ANGELIC_CHEST=Seraph's Cuirass
+witchinggadgets_research_text.ANGELIC_CHEST=[WG] Blinded by the light!
+witchinggadgets_research_page.ANGELIC_CHEST.1=While wearing this cuirass, the Thaumaturge is strengthened by the powers of light. They are granted the ability to fly and get strengthened by the light. The brighter the light you're standing in, the higher your chance to regenerate some health. Finally, this cuirass contains otherworldly pockets allowing you to store items in it. Open them with the keybinding for using cloaks (default: 'G').
+#
+witchinggadgets_research_name.ANGELIC_LEGS=Cherub Greaves
+witchinggadgets_research_text.ANGELIC_LEGS=[WG] Green...kneecap?
+witchinggadgets_research_page.ANGELIC_LEGS.1=When you sneak over the fields on which the independent Thaumaturge grows his supplies, dirt will be tilled and farmland will be hydrated. Also, should you ever be in a tight spot, try crouching and jumping. You will be propelled high into the air and all creatures around you will be paralyzed for a short moment.
+#
+witchinggadgets_research_name.ANGELIC_BOOTS=Sabatons of the Valkyrie
+witchinggadgets_research_text.ANGELIC_BOOTS=[WG] Feathered steps
+witchinggadgets_research_page.ANGELIC_BOOTS.1=By the magic of these boots you move at higher speed, and wont take damage on falling.<BR>Furthermore, you are granted the power of walking upon the surface of any liquid. This includes water and lava. Should you crouch you will sink.
+#
+witchinggadgets_research_name.THAUMICAPPLICATOR=
+witchinggadgets_research_text.THAUMICAPPLICATOR=[WG] 
+witchinggadgets_research_page.THAUMICAPPLICATOR.1=
+#
+
+tc.research_page.PRIMORDRIALPEARL.1=You have started to understand how primordial pearls work and found a way to replicate them for future use. By hammering the primordial pearl into 3 pieces, you found that its losing energy really quickly. Perhaps, there is a way to reform each pieces them into a pearl.
+tc.research_name.PRIMORDRIALPEARL=Primordial Pearl
+tc.research_text.PRIMORDRIALPEARL=[GT:NH] You found a magical Way of duplication;

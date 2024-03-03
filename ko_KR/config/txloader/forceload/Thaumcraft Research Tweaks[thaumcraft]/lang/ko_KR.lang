@@ -1,0 +1,20 @@
+# Patch to explain how to batch craft
+tc.research_page.RESEARCHER1.1=좀 더 효율적인 연구 진행이 가능합니다.<BR>육각형에 이미 올려놓은 위상을 제거할 때 25%의 확률로 연구 포인트를 돌려받을 수 있습니다.<BR>또한 위상 아이콘 위에 커서를 올려놓을 경우 그 위상을 조합하는데 필요한 위상들이 보여집니다.<BR>마지막으로 위상을 조합할 때 ctrl키를 누른 채 진행하면, 대량의 위상 조합을 할 수 있습니다. 이 방법으로 한번에 10개의 위상을 조합 가능합니다.
+tc.research_page.RESEARCHER2.1=더욱 더 효율적인 연구 진행이 가능합니다.<BR>육각형에 이미 올려놓은 위상을 제거할 때 50%의 확률로 연구 포인트를 돌려받을 수 있습니다.<BR>또한 육각형에 위상을 올려놓을 때 10%의 확률로 연구 포인트를 소모하지 않습니다.<BR>마지막으로, 위상을 합성할 때 만들어내고 싶은 위상을 Shift 클릭 하는 것 만으로도 합성이 가능합니다. 재료 위상이 충분할 경우 선택한 위상을 자동적으로 생성합니다.한번에 많이 조합하고 싶다면 ctrl을 누른 채 진행하세요.
+tc.research_page.RESEARCHDUPE.1=연구일지를 복사하는 방법을 알아내었습니다.<BR>연구를 완료하거나 완료된 연구일지를 연구 테이블에 올려놓으면 별모양 아이콘이 표시됩니다. 이 아이콘을 누르면 약간의 위상과 잉크, 종이를 소모해서 연구일지를 복사합니다.<BR>복사를 하면 할 수록 복사 비용은 점점 비싸집니다.
+
+# Patch to show new UI, explain about combining and researching using aspect drag & drop or right click while dragging
+tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:256:227:.45</IMG>§l3§r번으로 표시된 공간에는 모든 태초의 위상들이 (그리고 약간의 복합 위상도) 다양한 수량으로 나열된 것을 볼 수 있습니다. 모든 플레이어는 처음 시작할 때 약간의 태초의 위상 포인트를 지급받습니다.<BR>만약 이전에 사우모미터를 가지고 탐험을 했었다면
+tc.research_page.RESEARCH.7=꽤 많은 양의 태초의 위상과 복합 위상을 갖고 있을겁니다.<BR>위상을 드래그하고 다른 위상 위에서 놓거나, 드래그하고 있는 동안 위에서 우클릭 하는 방법으로 위상을 합성할 수 있습니다. 합성에 성공하면 우측 하단에 무엇을 얻었는지 표시되며 §l3§r번 칸에 획득한 위상이 나타납니다.<BR>제대로 된 조합식이 아니더라도 재료로 쓰인 위상들은 사라져버리니 주의하세요.
+tc.research_page.RESEARCH.8=§l       §n(3) 일차 연구§r<IMG>thaumcraft:textures/misc/research2.png:0:0:256:200:.50</IMG>이 단계에서는 약간의 종이와 필기도구가 필요합니다.<BR>사우모노미콘을 펼쳐보면 알고 있는 지식들과 지금 연구를 시작할 수 있는 항목들이 표시됩니다.<BR>빛나는 사각형이나 둥근 아이콘은 일차 연구를 의미합니다.
+tc.research_page.RESEARCH.9=알 수 없는 룬문자 대신 읽을 수 있는 제목이 표시되는 항목은 클릭이 가능합니다. 인벤토리에서 약간의 잉크와 종이를 소모해서 연구일지를 얻을 수 있습니다. 이 연구일지는 연구 테이블의 §l2§r번 칸에 올려놓고 바로 연구를 시작 할 수 있습니다.<BR>§l4§r번 칸에는 육각형들이 새겨진 연구일지가 나타나며, 가장 바깥쪽의 육각형에는 몇 개의 위상이 표시되어 있을 겁니다. 만약 물음표가 표시된다면 해당 위상을 아직 알고 있지 않다는 뜻이며 연구를 시작하기 전에 해당 위상을 알아야 합니다.<LINE>
+tc.research_page.RESEARCH.10=연구를 마치기 위해선 모든 위상들을 활성화시켜야 합니다. 표적 위상을 이루고 있거나 표적 위상을 이루고있는 위상의 조합에 필요한 위상을 붙어있는 다른 육각형 칸에 끌어다 놓아서 연결함으로써 활성화가 가능합니다.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:80:.65</IMG>위상을 한 번 놓을 때마다 연구 포인트를 1씩 소모합니다. 잘못 놓았을 경우 다시 눌러서 제거 할 수 있지만 연구 포인트는 돌려받을 수 없습니다.
+
+# Hint button on the table
+researchtable.usagehint.header=사용 방법
+researchtable.usagehint.description=드래그해서 떨어트리거나 드래그해서 우클릭하여 위상을 끌고 조합합니다
+researchtable.usagehint.research_expertise=ctrl키를 누른 채로 위상을 조합하면 한번에 10개까지 만들 수 있습니다. 연구 마스터 효과도 적용됩니다.
+
+# In case notes get corrupted
+tc.research.notes.corrupted.line.1=일지가 망가졌습니다!
+tc.research.notes.corrupted.line.2=처음부터 다시 시작하세요.

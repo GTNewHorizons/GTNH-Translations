@@ -1,0 +1,63 @@
+itemGroup.LootGames=전리품 게임
+
+tile.chessGame.name=체스
+tile.lightGame.name=빛의 게임
+tile.dungeonBrick_0.name=던전 벽
+tile.dungeonBrick_1.name=던전 천장
+tile.dungeonBrick_2.name=던전 바닥
+tile.dungeonBrick_3.name=깨진 던전 벽
+tile.dungeonBrick_4.name=깨진 던전 천장
+tile.dungeonBrick_5.name=깨진 던전 바닥
+tile.dungeonBrick_6.name=튼튼한 던전 바닥
+tile.dungeonLight_0.name=던전 조명
+tile.dungeonLight_1.name=깨진 던전 조명
+
+tile.lootgames.board_border.name=판 테두리
+tile.lootgames.gol_activator.name=빛의 게임
+tile.lootgames.gol_master.name=빛의 게임
+tile.lootgames.ms_activator.name=지뢰찾기
+tile.lootgames.ms_master.name=지뢰찾기
+tile.lootgames.smart_subordinate.name=똑똑한 부하
+tile.lootgames.puzzle_master.name=퍼즐 마스터
+
+item.lootgames.dungeon_block.tooltip=몬스터들이 이 블록에서 생성될 수 없습니다
+
+msg.lootgames.stage_complete=이 구조물은 당신의 노력을 인정한 듯 합니다...
+msg.lootgames.puzzle_master.turned_off=이 구조물은 강한 힘으로 비활성화 되어 있는 것 같습니다...
+msg.lootgames.win=구조물이 만족하여 당신에게 보상을 줍니다!
+msg.lootgames.lose=구조물이 당신의 실패에 분노한 듯 합니다.
+msg.lootgames.attempt_left=당신은 %d 번의 기회가 남았습니다.
+msg.lootgames.field.not_enough_space=구조물이 느리게 흐느낍니다. 더는 공간이 없는 듯 하네요: %dx%dx%d
+msg.lootgames.ms.bomb_touched=이런... 구조물이 터질 것 같습니다. 도망치세요!
+msg.lootgames.ms.new_attempt=구조물이 진정된 듯 합니다. 다시 퍼즐을 풀 수 있습니다.
+msg.lootgames.ms.reveal_on_hidden=주변의 감춰진 영역들을 밝혀낼 수 없습니다.
+msg.lootgames.ms.reveal_invalid_mark_count=깃발 표시가 된 주변 영역들이 숫자와 달라, 주변의 영역들을 밝혀낼 수 없습니다.
+msg.lootgames.gol.start=게임을 시작해 봅시다! 중앙의 블록을 클릭하세요!
+msg.lootgames.gol.click_center=중앙의 블록을 클릭하여 게임을 시작하세요!
+msg.lootgames.gol.rules=당신은 색깔들을 따라하기만 하면 됩니다.
+msg.lootgames.gol.not_ready=아직 구조물이 응답할 준비가 되지 않은 거 같습니다.
+msg.lootgames.gol.wrong_block=잘못된 색깔을 고른 듯 합니다...
+msg.lootgames.gol.reward_level_info=현재 도달한 보상 레벨: %d (최고 기록: %d)
+
+lootgames.achievement_page.name=전리품 게임
+achievement.lootgames.find_dungeon=묻혀있는 비밀들
+achievement.lootgames.find_dungeon.desc=신비한 미니게임 던전을 찾으세요
+achievement.lootgames.win_game=마이 프레셔스!
+achievement.lootgames.win_game.desc=미니게임에서 승리하여 대량의 보상을 챙기세요
+achievement.lootgames.lose_game=다음 번엔 행운이 있길 빕니다
+achievement.lootgames.lose_game.desc=미니게임을 실패하세요 (정말로 실패한거야..?)
+achievement.lootgames.gol.start=조명 부탁해요!
+achievement.lootgames.gol.start.desc=빛의 게임을 플레이해 보세요
+achievement.lootgames.gol.beat_level_3=거의 다 풀었네!
+achievement.lootgames.gol.beat_level_3.desc=빛의 게임을 3단계로 클리어하세요(아직 레벨 4가 남았으니, 힘내세요!)
+achievement.lootgames.gol.beat_level_4=뛰어난 기억력
+achievement.lootgames.gol.beat_level_4.desc=빛의 게임을 4단계로 클리어하세요
+achievement.lootgames.ms.start=깃발 더 가져와!
+achievement.lootgames.ms.start.desc=지뢰찾기를 플레이해 보세요
+achievement.lootgames.ms.beat_level_4=나쁘지 않은 지뢰 해체병
+achievement.lootgames.ms.beat_level_4.desc=지뢰 찾기 레벨 4를 클리어하세요
+
+lootgames.command.usage='/lootgames help'을 사용하여 다른 명령어를 확인할 수 있습니다
+lootgames.command.reloadconfigs.success=설정이 재로딩 되었습니다
+lootgames.command.reloadconfigs.usage=%s - 모든 루트게임의 설정을 재로딩합니다
+lootgames.command.help.usage=%s - 도움 메뉴를 보여줍니다
