@@ -1,10 +1,25 @@
-# GTNH-Translation-Compare
+# GTNH Translations
 
-用于 [Kiwi233/Translation-of-GTNH](https://github.com/Kiwi233/Translation-of-GTNH) 汉化包，在 [GTNH](https://github.com/GTNewHorizons/GT-New-Horizons-Modpack) 游戏版本更新时，自动化追加新版本未汉化条目，并生成 PR
+中文 / 日本語 / 한국어 / Português brasileiro / Français
 
-Used for the Chinese localization package at [Kiwi233/Translation-of-GTNH](https://github.com/Kiwi233/Translation-of-GTNH). When the game version of [GTNH](https://github.com/GTNewHorizons/GT-New-Horizons-Modpack) is updated, it automatically appends untranslated entries of the new version and generates a PR
+This is a repository managing all the translations for GTNH.
 
-# To maintainers of other languages
+<!-- Contents below don't need to be translated! -->
 
-If you need to adapt to other languages, please raise an issue or PR. You can directly use this repository instead of forking, and configure the environment variables used in [`src/gtnh_translation_compare/settings/__init__.py`](./src/gtnh_translation_compare/settings/__init__.py) in GitHub Actions.
-For example, if you need to localize to 'zh_CN', you need to set the environment variable `TARGET_LANG` to 'zh_CN' in GitHub Actions.
+## For translators
+
+### Why?
+
+We dicided to manage all the translations under this repository for these reasons:
+
+- Each language has one central team so that everyone can collaborate.
+- We can share workflows to manage all the translations, information on changes made to mods, etc.
+- Managing translations on external site is by far convenient than on GitHub.
+
+### I want to make contribution to existing language
+
+Each project has its own ParaTranz project. You can join there with your GitHub account.
+
+### I want to make contribution to language that is not listed
+
+If you have 3 or more translators for the language, please contact boubou_19.
