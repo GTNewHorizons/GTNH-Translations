@@ -1,6 +1,12 @@
-name: Sync to ParaTranz all manually
+name: Sync GT lang to ParaTranz
 
 on:
+  workflow_call:
+    inputs:
+      target_lang:
+        description: "Target language to run"
+        required: true
+        type: string
   workflow_dispatch:
     inputs:
       target_lang:
@@ -18,8 +24,8 @@ env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
 
 jobs:
-  sync-to-paratranz-manual-all:
-    name: Sync to ParaTranz all manually
+  sync-gt-lang-to-paratranz:
+    name: Sync GT lang to ParaTranz
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -33,7 +39,7 @@ jobs:
 
       - name: Sync to ParaTranz
         run: >-
-          poetry run python main.py action sync-to-paratranz-all
+          poetry run python main.py action gt-lang-to-paratranz
           --subdirectory='nightly-history'
         env:
           PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}

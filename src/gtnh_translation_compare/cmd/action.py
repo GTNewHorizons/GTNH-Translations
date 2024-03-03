@@ -224,18 +224,18 @@ class Action:
         asyncio.run(self._lang_and_zs_to_paratranz(modpack_path))
 
     # Gt Lang
-    async def _gt_lang_to_paratranz(self, gt_lang_url: str) -> None:
-        res = httpx.get(url=gt_lang_url, timeout=60)
-        gt_lang_file = FiletypeGTLang(
-            relpath=settings.GT_LANG_TARGET_REL_PATH,
-            content=ensure_lf(res.text),
-            language=Language.en_US,
-        )
+    async def _gt_lang_to_paratranz(self, subdirectory: Path) -> None:
+        with open(subdirectory / settings.GT_LANG_TARGET_REL_PATH, 'r', encoding='UTF-8') as f:
+            gt_lang_file = FiletypeGTLang(
+                relpath=settings.GT_LANG_TARGET_REL_PATH,
+                content=ensure_lf(f.read()),
+                language=Language.en_US,
+            )
         gt_paratranz_file = await self.converter.to_paratranz_file(gt_lang_file)
         await self.client.upload_file(gt_paratranz_file)
 
-    def gt_lang_to_paratranz(self, gt_lang_url: str) -> None:
-        asyncio.run(self._gt_lang_to_paratranz(gt_lang_url))
+    def gt_lang_to_paratranz(self, subdirectory: str = ".") -> None:
+        asyncio.run(self._gt_lang_to_paratranz(Path(subdirectory)))
 
     async def _save_nightly_modpack_history(
             self,

@@ -1,0 +1,26 @@
+name: Sync GT lang to ParaTranz in parallel
+
+on:
+  workflow_dispatch:
+
+jobs:
+  zh_CN:
+    uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    with:
+      target_lang: zh_CN
+  ja_JP:
+    uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    with:
+      target_lang: ja_JP
+  ko_KR:
+    uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    with:
+      target_lang: ko_KR
+  pt_BR:
+    uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    with:
+      target_lang: pt_BR
+  fr_FR:
+    uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    with:
+      target_lang: fr_FR
