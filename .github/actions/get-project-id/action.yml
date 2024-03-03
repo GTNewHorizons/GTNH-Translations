@@ -32,6 +32,8 @@ runs:
               project_id=9508 ;;
           "tr_TR")
               project_id=9509 ;;
+          "de_DE")
+              project_id=9510 ;;
           *)
             echo "Invalid language: $target_lang"
             exit 1

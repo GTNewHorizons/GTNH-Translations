@@ -1,0 +1,63 @@
+itemGroup.LootGames=Loot Games
+
+tile.chessGame.name=Chess
+tile.lightGame.name=Game of Light
+tile.dungeonBrick_0.name=Dungeon Wall
+tile.dungeonBrick_1.name=Dungeon Ceiling
+tile.dungeonBrick_2.name=Dungeon Floor
+tile.dungeonBrick_3.name=Cracked Dungeon Wall
+tile.dungeonBrick_4.name=Cracked Dungeon Ceiling
+tile.dungeonBrick_5.name=Cracked Dungeon Floor
+tile.dungeonBrick_6.name=Shielded Dungeon Floor
+tile.dungeonLight_0.name=Dungeon Lamp
+tile.dungeonLight_1.name=Broken Dungeon Lamp
+
+tile.lootgames.board_border.name=Board Border
+tile.lootgames.gol_activator.name=Game of Light
+tile.lootgames.gol_master.name=Game of Light
+tile.lootgames.ms_activator.name=Minesweeper
+tile.lootgames.ms_master.name=Minesweeper
+tile.lootgames.smart_subordinate.name=Smart Subordinate
+tile.lootgames.puzzle_master.name=Puzzle Master
+
+item.lootgames.dungeon_block.tooltip=Mobs can't spawn on this block.
+
+msg.lootgames.stage_complete=The structure seems to acknowledge your efforts...
+msg.lootgames.puzzle_master.turned_off=This structure seems to be disabled by the higher powers...
+msg.lootgames.win=The structure is pleased and rewards you!
+msg.lootgames.lose=The structure seems to be offended by your failure.
+msg.lootgames.attempt_left=You have %d attempts left.
+msg.lootgames.field.not_enough_space=The construction whines drawlingly. Seems like there's no place for it: %dx%dx%d
+msg.lootgames.ms.bomb_touched=Oops... It seems to be a BOOM. Run!
+msg.lootgames.ms.new_attempt=The structure calmed down. You can try to play again.
+msg.lootgames.ms.reveal_on_hidden=You can't reveal neighbours around hidden field.
+msg.lootgames.ms.reveal_invalid_mark_count=You can't reveal field's neighbours, because flagged neighbours differ from its number.
+msg.lootgames.gol.start=Let's play the game! Click on the center block!
+msg.lootgames.gol.click_center=Click the center to start the game!
+msg.lootgames.gol.rules=You just need to repeat the colors.
+msg.lootgames.gol.not_ready=You feel that the structure is not ready for reply now.
+msg.lootgames.gol.wrong_block=It appears you chose the wrong color...
+msg.lootgames.gol.reward_level_info=Current reward level reached: %d (Best: %d)
+
+lootgames.achievement_page.name=Loot Games
+achievement.lootgames.find_dungeon=Buried secrets
+achievement.lootgames.find_dungeon.desc=Find a mysterious Minigame Dungeon
+achievement.lootgames.win_game=My precious!
+achievement.lootgames.win_game.desc=Win a minigame and get tons of loot
+achievement.lootgames.lose_game=More luck next time
+achievement.lootgames.lose_game.desc=Failed (really?) a minigame (Like, you failed..?)
+achievement.lootgames.gol.start=Turn up the lights!
+achievement.lootgames.gol.start.desc=Get the chance to play Game Of Light
+achievement.lootgames.gol.beat_level_3=Almost got the Brains
+achievement.lootgames.gol.beat_level_3.desc=Beat a Game of Light at Level 3 (You still failed Level 4, soo.. try harder!)
+achievement.lootgames.gol.beat_level_4=Epic memory
+achievement.lootgames.gol.beat_level_4.desc=Beat a Game of Light at Level 4
+achievement.lootgames.ms.start=We need more flags!
+achievement.lootgames.ms.start.desc=Get the chance to play Minesweeper
+achievement.lootgames.ms.beat_level_4=There are no bad sappers
+achievement.lootgames.ms.beat_level_4.desc=Beat a Minesweeper at Level 4
+
+lootgames.command.usage=Use '/lootgames help' to see available subcommands
+lootgames.command.reloadconfigs.success=Configs were reloaded
+lootgames.command.reloadconfigs.usage=%s - Reloads all LootGames' configs
+lootgames.command.help.usage=%s - Shows help menu

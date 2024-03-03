@@ -33,3 +33,7 @@ jobs:
     uses: ./.github/workflows/conditional-sync-to-paratranz.yml
     with:
       target_lang: tr_TR
+  de_DE:
+    uses: ./.github/workflows/conditional-sync-to-paratranz.yml
+    with:
+      target_lang: de_DE

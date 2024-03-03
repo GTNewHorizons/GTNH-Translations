@@ -1,6 +1,6 @@
 # GTNH Translations
 
-中文 / [日本語](./README_ja_JP.md) / [한국어](./README_ko_KR.md) / [Português brasileiro](https://github.com/GTNewHorizons/GTNH-Translations/blob/master/README_pt_BR.md) / Français
+中文 / [日本語](./readmes/README_ja_JP.md) / [한국어](./readmes/README_ko_KR.md) / [Português brasileiro](./readmes/README_pt_BR.md) / [Français](./readmes/README_fr_FR.md) / [Español](./readmes/README_es_ES.md) / [Türkçe](./readmes/README_tr_TR.md) / [Deutsch](./readmes/README_de_DE.md)
 
 This is a repository managing all the translations for GTNH.
 
@@ -10,7 +10,7 @@ This is a repository managing all the translations for GTNH.
 
 ### Why?
 
-We dicided to manage all the translations under this repository for these reasons:
+We decided to manage all the translations under this repository for these reasons:
 
 - Each language has one central team so that everyone can collaborate.
 - We can share workflows to manage all the translations, information on changes made to mods, etc.
