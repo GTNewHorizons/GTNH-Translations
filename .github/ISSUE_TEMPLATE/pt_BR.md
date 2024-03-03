@@ -1,6 +1,6 @@
 ---
-name: Brazilian Portuguese
-about: Feedback / suggestion for Brazilian Portuguese
+name: Português Brasileiro
+about: Feedback / sugestões para a tradução para PTBR.
 title: ''
 labels: 'pt_BR'
 assignees: ''
