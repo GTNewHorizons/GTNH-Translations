@@ -12,4 +12,4 @@ S'il vous plait veuillez partager vos retours et suggestions dans l'onglet "issu
 
 ## Comment contribuer?
 
-Tout le travail de traduction est fait sur [ParaTranz](link_to_your_project) et des échanges sont fait également sur le [serveur Discord](https://discord.gg/EXshrPV) du GTNH dans [ce canal](https://discord.com/channels/181078474394566657/1213867819528224788). Soyez les bienvenus!
+Tout le travail de traduction est fait sur [ParaTranz](https://paratranz.cn/projects/9461) et des échanges sont fait également sur le [serveur Discord](https://discord.gg/EXshrPV) du GTNH dans [ce canal](https://discord.com/channels/181078474394566657/1213867819528224788). Soyez les bienvenus!
