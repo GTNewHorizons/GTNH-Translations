@@ -30,3 +30,7 @@ jobs:
         uses: ./.github/workflows/publish-nightly-lang-pack.yml
         with:
           target_lang: fr_FR
+      - name: es_ES
+        uses: ./.github/workflows/publish-nightly-lang-pack.yml
+        with:
+          target_lang: es_ES
