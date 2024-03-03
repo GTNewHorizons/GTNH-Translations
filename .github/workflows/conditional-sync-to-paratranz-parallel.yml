@@ -25,3 +25,7 @@ jobs:
     uses: ./.github/workflows/conditional-sync-to-paratranz.yml
     with:
       target_lang: fr_FR
+  es_ES:
+    uses: ./.github/workflows/conditional-sync-to-paratranz.yml
+    with:
+      target_lang: es_ES

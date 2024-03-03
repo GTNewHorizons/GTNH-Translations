@@ -24,3 +24,7 @@ jobs:
     uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
     with:
       target_lang: fr_FR
+  es_ES:
+    uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    with:
+      target_lang: es_ES
