@@ -45,8 +45,6 @@ class Converter:
         properties: List[Tuple[str, Property]] = [(k, v) for k, v in file_extra.properties.items()]
         properties.sort(key=sort_key)
 
-        is_script = file_extra.target_relpath.startswith("scripts/")
-
         left = 0
         buffer = StringIO()
         for k, p in properties:
@@ -55,8 +53,6 @@ class Converter:
             string_item = string_items_map[k]
             translation = string_item.translation
             if translation:
-                if is_script:
-                    translation = "<BR>".join([to_unicode(p) for p in translation.split("<BR>")])
                 buffer.write(content[left : p.start])
                 buffer.write(translation)
             else:
@@ -65,11 +61,6 @@ class Converter:
         buffer.write(content[left:])
 
         translated_content = buffer.getvalue()
-        if is_script:
-            translated_content = translated_content.replace(
-                'val _I18N_Lang = "en_US";',
-                f'val _I18N_Lang = "{self.target_lang.value}";',
-            )
         return TranslationFile(relpath=file_extra.target_relpath, content=translated_content)
 
     async def to_paratranz_file(self, file: Filetype) -> "ParatranzFile":

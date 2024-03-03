@@ -7,9 +7,8 @@ import loguru
 
 class App:
     def __init__(self) -> None:
-        from gtnh_translation_compare.cmd import ParseIssue, Action
+        from gtnh_translation_compare.cmd import Action
 
-        self.parse_issue = ParseIssue()
         self.action = Action()
 
 

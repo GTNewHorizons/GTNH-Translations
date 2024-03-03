@@ -85,21 +85,17 @@ class Action:
         repo_path: Path,
         subdirectory: Path,
         lang: str,
-        issue: Optional[str],
-        commit_message: str,
     ) -> None:
         files_to_commit: list[str] = []
         files_to_commit.extend(await self._paratranz_to_quest_book(repo_path, subdirectory))
-        files_to_commit.extend(await self._paratranz_to_lang_and_zs(repo_path, subdirectory))
+        files_to_commit.extend(await self._paratranz_to_lang(repo_path, subdirectory))
         files_to_commit.extend(await self._paratranz_to_gt_lang(repo_path, subdirectory, lang))
 
         git_commit(
             repo_path,
             files_to_commit,
             settings.GIT_AUTHOR,
-            commit_message,
-            issue,
-            settings.CLOSE_ISSUE_IN_COMMIT_MESSAGE,
+            f"Sync ${lang} from ParaTranz",
         )
 
     def sync_from_paratranz(
@@ -107,10 +103,8 @@ class Action:
         repo_path: str = ".",
         subdirectory: str = ".",
         lang: str = "en_US",
-        issue: Optional[str] = None,
-        commit_message: str = "[自动化] 更新 GT 语言文件",
     ) -> None:
-        asyncio.run(self._sync_from_paratranz(Path(repo_path), Path(subdirectory), lang, issue, commit_message))
+        asyncio.run(self._sync_from_paratranz(Path(repo_path), Path(subdirectory), lang))
 
     # Quest Book
     async def _paratranz_to_quest_book(
@@ -128,8 +122,8 @@ class Action:
                 None,
         )
 
-    # Lang + Zs
-    async def _paratranz_to_lang_and_zs(
+    # Lang
+    async def _paratranz_to_lang(
         self,
         repo_path: Path,
         subdirectory: Path,
@@ -140,7 +134,6 @@ class Action:
                     name.endswith(".lang" + ".json")
                     and name != settings.DEFAULT_QUESTS_LANG_TARGET_REL_PATH + ".json"
                     and name != settings.GT_LANG_TARGET_REL_PATH + ".json",
-                    name.endswith(".zs" + ".json"),
                 ]
             )
         # Existing projects use resource folder on PT
@@ -149,7 +142,7 @@ class Action:
         return await self.__paratranz_to_translation(
                 filter_,
                 None,
-                ValueError("No lang or zs file found"),
+                ValueError("No lang file found"),
                 repo_path,
                 subdirectory,
                 path_converter_,
@@ -183,46 +176,6 @@ class Action:
     # To Paratranz
     ############################################################################
 
-    # Quest Book
-    async def _quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
-        if commit_sha is None or commit_sha == "":
-            commit_sha = "master"
-        qb_lang_file_url = (
-            f"https://raw.githubusercontent.com"
-            f"/{settings.GTNH_REPO}/{commit_sha}/{settings.DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH}"
-        )
-        res = httpx.get(url=qb_lang_file_url, timeout=60)
-        if res.status_code != 200:
-            raise ValueError(f"Failed to get quest book file from {qb_lang_file_url}")
-        qb_lang_file = FiletypeLang(
-            relpath=settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=res.text, language=Language.en_US
-        )
-        qb_paratranz_file = await self.converter.to_paratranz_file(qb_lang_file)
-        await self.client.upload_file(qb_paratranz_file)
-
-    def quest_book_to_paratranz(self, commit_sha: Optional[str] = None) -> None:
-        asyncio.run(self._quest_book_to_paratranz(commit_sha))
-
-    # Lang + Zs
-    async def _lang_and_zs_to_paratranz(self, modpack_path: str) -> None:
-        modpack = ModPack(Path(modpack_path))
-        # concurrency number
-        sem = asyncio.Semaphore(10)
-
-        async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
-            async with _sem:
-                paratranz_file = await self.converter.to_paratranz_file(lang_file)
-                await self.client.upload_file(paratranz_file)
-
-        tasks = [upload_file(sem, lang_file) for lang_file in modpack.lang_files]
-        tasks += [upload_file(sem, script_file) for script_file in modpack.script_files]
-
-        # noinspection PyTypeChecker
-        await asyncio.gather(*tasks)
-
-    def lang_and_zs_to_paratranz(self, modpack_path: str) -> None:
-        asyncio.run(self._lang_and_zs_to_paratranz(modpack_path))
-
     # Gt Lang
     async def _gt_lang_to_paratranz(self, subdirectory: Path) -> None:
         with open(subdirectory / settings.GT_LANG_TARGET_REL_PATH, 'r', encoding='UTF-8') as f:
@@ -237,6 +190,7 @@ class Action:
     def gt_lang_to_paratranz(self, subdirectory: str = ".") -> None:
         asyncio.run(self._gt_lang_to_paratranz(Path(subdirectory)))
 
+    # Commit changes made to nightly modpack
     async def _save_nightly_modpack_history(
             self,
             modpack_path: Path,
@@ -269,8 +223,6 @@ class Action:
             paths_to_commit,
             settings.GIT_AUTHOR,
             f"Nightly modpack {str(datetime.date.today())}",
-            None,
-            settings.CLOSE_ISSUE_IN_COMMIT_MESSAGE,
         )
 
     def save_nightly_modpack_history(
@@ -281,6 +233,7 @@ class Action:
     ) -> None:
         asyncio.run(self._save_nightly_modpack_history(Path(modpack_path), Path(repo_path), Path(subdirectory)))
 
+    # Sync files that have actually been changed compared to last nightly modpack to ParaTranz, excluding GregTech.lang
     async def _sync_to_paratranz_conditional(
             self,
             repo_path: Path,
@@ -338,6 +291,7 @@ class Action:
     ) -> None:
         asyncio.run(self._sync_to_paratranz_conditional(Path(repo_path), Path(subdirectory)))
 
+    # Sync all the files to ParaTranz
     async def _sync_to_paratranz_all(
             self,
             repo_path: Path,
@@ -389,16 +343,11 @@ def git_commit(
     paths: list[str],
     author: Optional[str],
     message: str,
-    issue: Optional[str],
-    close_issue_in_commit_message: bool,
 ) -> None:
     porcelain.add(git_root, paths)  # type: ignore[no-untyped-call]
-    commit_message = message
-    if issue is not None and close_issue_in_commit_message:
-        commit_message += f"\n\nclosed #{issue}"
     porcelain.commit(  # type: ignore[no-untyped-call]
         git_root,
-        message=commit_message,
+        message=message,
         author=author,
     )
 
