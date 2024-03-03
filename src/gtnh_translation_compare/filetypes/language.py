@@ -10,6 +10,7 @@ class Language(Enum):
     pt_BR = "pt_BR"
     fr_FR = "fr_FR"
     es_ES = "es_ES"
+    tr_TR = "tr_TR"
 
     @classmethod
     def from_str(cls, s: str) -> "Language":
