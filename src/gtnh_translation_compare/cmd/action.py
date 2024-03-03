@@ -288,7 +288,7 @@ class Action:
     ) -> None:
         asyncio.run(self._sync_to_paratranz_conditional(Path(repo_path), Path(subdirectory)))
 
-    # Sync all the files to ParaTranz
+    # Sync all the files to ParaTranz. GregTech.lang is handled by the caller.
     async def _sync_to_paratranz_all(
             self,
             repo_path: Path,
@@ -326,6 +326,8 @@ class Action:
 
         if repo_path is not None:
             os.chdir('..')
+
+        await self._gt_lang_to_paratranz(subdirectory)
 
     def sync_to_paratranz_all(
             self,
