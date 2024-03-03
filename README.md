@@ -1,6 +1,6 @@
 # GTNH Translations
 
-中文 / [日本語](./README_ja_JP.md) / [한국어](./README_ko_KR.md) / Português brasileiro / Français
+中文 / [日本語](./README_ja_JP.md) / [한국어](./README_ko_KR.md) / Português brasileiro(./README_pt_BR.md) / Français
 
 This is a repository managing all the translations for GTNH.
 
