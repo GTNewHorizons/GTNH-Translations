@@ -52,5 +52,6 @@ jobs:
           TARGET_LANG: "en_US"
       - name: Push commit
         run: |
+          git config pull.rebase true
           git pull
           git push origin master
