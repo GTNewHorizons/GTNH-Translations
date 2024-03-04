@@ -51,6 +51,6 @@ jobs:
           PARATRANZ_PROJECT_ID: -1
           TARGET_LANG: "en_US"
       - name: Push commit
-        run:
+        run: |
           git pull
           git push origin master
