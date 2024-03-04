@@ -2,7 +2,7 @@ name: Entrypoint for nightly workflows
 
 on:
   schedule:
-    - cron: "30 1 * * *" # 1:30am UTC every day, before modpack nightly builds
+    - cron: "20 1 * * *" # 1:20am UTC every day, before modpack nightly builds
   workflow_dispatch:
 
 jobs:
