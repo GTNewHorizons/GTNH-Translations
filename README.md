@@ -91,9 +91,10 @@ In order to run it,
 ## Things to be done
 
 - Import existing translations from mod jars
+- Include all the lang packs in the modpack releases and nightly modpack builds
+- Refine the way conditional sync works
 - Work on some mods that don't have proper localization support
 - Support some config files for ParaTranz
-- Include all the lang packs in the modpack releases and nightly modpack builds
 - Automatically backup ParaTranz project just in case?
 
 ## Credit
