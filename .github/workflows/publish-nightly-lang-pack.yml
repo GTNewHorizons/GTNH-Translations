@@ -32,6 +32,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: master
       - name: Get current date
         id: date
         shell: bash
@@ -72,8 +74,10 @@ jobs:
           cd ..
       - name: Push commits and tag
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config pull.rebase true
-          git pull
+          git pull origin master
           git push -d origin ${{ inputs.target_lang }}-latest || :
           gh release delete ${{ inputs.target_lang }}-latest || :
           git tag ${{ inputs.target_lang }}-latest

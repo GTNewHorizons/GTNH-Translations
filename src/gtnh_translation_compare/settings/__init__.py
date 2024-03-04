@@ -25,7 +25,7 @@ GT_LANG_TARGET_REL_PATH = "GregTech.lang"
 PARATRANZ_PROJECT_ID = int(must_get_env("PARATRANZ_PROJECT_ID"))
 PARATRANZ_TOKEN = must_get_env("PARATRANZ_TOKEN")
 
-GIT_AUTHOR = os.environ.get("GIT_AUTHOR", None)
+GIT_AUTHOR = os.environ.get("GIT_AUTHOR", "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>")
 
 PARATRANZ_CACHE_DIR = os.environ.get("PARATRANZ_CACHE_DIR", ".paratranz_cache")
 

@@ -347,6 +347,7 @@ def git_commit(
         git_root,
         message=message,
         author=author,
+        committer=author,
     )
 
 
