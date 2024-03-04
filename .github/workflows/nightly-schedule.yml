@@ -11,6 +11,8 @@ jobs:
   conditional-sync-to-paratranz-parallel:
     needs: save-nightly-modpack-history
     uses: ./.github/workflows/conditional-sync-to-paratranz-parallel.yml
+    secrets: inherit
   publish-all-nightly-lang-packs:
     needs: conditional-sync-to-paratranz-parallel
     uses: ./.github/workflows/publish-all-nightly-lang-packs.yml
+    secrets: inherit

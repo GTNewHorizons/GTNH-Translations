@@ -9,31 +9,39 @@ jobs:
     uses: ./.github/workflows/conditional-sync-to-paratranz.yml
     with:
       target_lang: zh_CN
+    secrets: inherit
   ja_JP:
     uses: ./.github/workflows/conditional-sync-to-paratranz.yml
     with:
       target_lang: ja_JP
+    secrets: inherit
   ko_KR:
     uses: ./.github/workflows/conditional-sync-to-paratranz.yml
     with:
       target_lang: ko_KR
+    secrets: inherit
   pt_BR:
     uses: ./.github/workflows/conditional-sync-to-paratranz.yml
     with:
       target_lang: pt_BR
+    secrets: inherit
   fr_FR:
     uses: ./.github/workflows/conditional-sync-to-paratranz.yml
     with:
       target_lang: fr_FR
+    secrets: inherit
   es_ES:
     uses: ./.github/workflows/conditional-sync-to-paratranz.yml
     with:
       target_lang: es_ES
+    secrets: inherit
   tr_TR:
     uses: ./.github/workflows/conditional-sync-to-paratranz.yml
     with:
       target_lang: tr_TR
+    secrets: inherit
   de_DE:
     uses: ./.github/workflows/conditional-sync-to-paratranz.yml
     with:
       target_lang: de_DE
+    secrets: inherit
