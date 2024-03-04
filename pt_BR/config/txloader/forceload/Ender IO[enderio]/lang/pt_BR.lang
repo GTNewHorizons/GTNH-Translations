@@ -57,9 +57,9 @@ enderio.itemLiquidConduitCrystallineEnder.name=Conduto de Fluido do Fim Cristali
 enderio.itemLiquidConduitCrystallinePinkSlimeEnder.name=Conduto de Fluido do Fim de Slime Rosa Cristalino
 enderio.itemLiquidConduitMelodicEnder.name=Conduto de Fluido do Fim Melódico
 enderio.itemLiquidConduitStellarEnder.name=Conduto de Fluido do Fim Estelar
-enderio.itemLiquidConduit.lockedType=Tipo de fluido trancado para
+enderio.itemLiquidConduit.lockedType=Tipo de fluido travado em
 enderio.itemLiquidConduit.unlockedType=Tipo de fluido destrancado
-enderio.itemLiquidConduit.lockedWaila=Trancado para
+enderio.itemLiquidConduit.lockedWaila=Travado em
 
 enderio.itemLiquidConduit.tooltip.maxExtract=Extração Máxima:
 enderio.itemLiquidConduit.tooltip.maxIo=IO Máximo:
@@ -71,86 +71,86 @@ enderio.itemLiquidConduitEnder.tooltip.detailed.line1=Teletransporte de fluidos 
 enderio.itemLiquidConduitEnder.tooltip.detailed.line2=permite que múltiplos fluidos sejam
 enderio.itemLiquidConduitEnder.tooltip.detailed.line3=transportados na mesma linha
 
-enderio.itemItemConduit.name=Conduto de Item
+enderio.itemItemConduit.name=Conduto de Itens
 
-enderio.filterUpgradeBasic.name=Filtro de Item Básico
-enderio.filterUpgradeAdvanced.name=Filtro de Item Avançado
-enderio.filterUpgradeBig.name=Filtro de Item Grande
-enderio.filterUpgradeBigAdvanced.name=Filtro de Item Grande Avançado
+enderio.filterUpgradeBasic.name=Filtro de Itens Básico
+enderio.filterUpgradeAdvanced.name=Filtro de Itens Avançado
+enderio.filterUpgradeBig.name=Filtro de Itens Grande
+enderio.filterUpgradeBigAdvanced.name=Filtro de Itens Grande Avançado
 enderio.itemConduitFilterUpgrade=Aprimoramento para Condutos de Itens
 enderio.itemConduitFilterUpgrade.configured=Configurado
 enderio.itemConduitFilterUpgrade.clearConfigMethod=Coloque em um Tabuleiro de Criação para limpar
 enderio.itemConduitFilterUpgrade.clearConfigWarning=Isso vai limpar todas as configurações de filtragem!
 
-item.itemExistingItemFilter.name=Existing Item Filter
+item.itemExistingItemFilter.name=Filtro de Itens Existentes
 item.itemExistingItemFilter.tooltip.basic.line1=Aprimoramento para Condutos de Itens
-item.itemExistingItemFilter.tooltip.detailed.line1=Selects only items already
-item.itemExistingItemFilter.tooltip.detailed.line2=in the inventory
-item.itemExistingItemFilter.tooltip.detailed.line3=Right click while sneaking
-item.itemExistingItemFilter.tooltip.detailed.line4=on an inventory to add the
-item.itemExistingItemFilter.tooltip.detailed.line5=content to the snapshot
+item.itemExistingItemFilter.tooltip.detailed.line1=Seleciona apenas itens que
+item.itemExistingItemFilter.tooltip.detailed.line2=já estão no inventário
+item.itemExistingItemFilter.tooltip.detailed.line3=Clique direito enquanto agachado
+item.itemExistingItemFilter.tooltip.detailed.line4=em um inventário para adicionar o
+item.itemExistingItemFilter.tooltip.detailed.line5=conteúdo a snapshot
 
-enderio.item.itemExistingItemFilter.filterUpdated=New items have been added to the snapshot
-enderio.item.itemExistingItemFilter.filterNotUpdated=The snapshot already covers all items in the inventory
+enderio.item.itemExistingItemFilter.filterUpdated=Novos itens foram adicionados a snapshot
+enderio.item.itemExistingItemFilter.filterNotUpdated=A snapshot já cobre todos os itens no inventário
 
 item.itemLimitedItemFilter.name=Limited Item Filter
 item.itemLimitedItemFilter.tooltip.basic.line1=Upgrade for item conduits
 item.itemLimitedItemFilter.tooltip.detailed.line1=Filters items based on
 item.itemLimitedItemFilter.tooltip.detailed.line2=their stack size
 
-item.itemModItemFilter.name=Mod Item Filter
+item.itemModItemFilter.name=Filtro de Itens de Mod
 item.itemModItemFilter.tooltip.basic.line1=Aprimoramento para Condutos de Itens
-item.itemModItemFilter.tooltip.detailed.line1=Selects only items for a specified
-item.itemModItemFilter.tooltip.detailed.line2=mod/s
+item.itemModItemFilter.tooltip.detailed.line1=Seleciona apenas itens do(s) mod(s)
+item.itemModItemFilter.tooltip.detailed.line2=especificado(s)
 
-item.itemPowerItemFilter.name=Chargeable Item Filter
+item.itemPowerItemFilter.name=Filtro de Itens Energéticos
 item.itemPowerItemFilter.tooltip.basic.line1=Aprimoramento para Condutos de Itens
-item.itemPowerItemFilter.tooltip.detailed.line1=Filters chargeable items based on
-item.itemPowerItemFilter.tooltip.detailed.line2=how much RF they have stored
+item.itemPowerItemFilter.tooltip.detailed.line1=Filtra itens baseado na
+item.itemPowerItemFilter.tooltip.detailed.line2=Quantidade de RF que eles têm armazenado
 
-item.itemExtractSpeedUpgrade.name=Item Conduit Speed Upgrade
+item.itemExtractSpeedUpgrade.name=Aprimoramento de Velocidade do Conduto de Itens
 item.itemExtractSpeedUpgrade.tooltip.basic.line1=Aprimoramento para Condutos de Itens
-item.itemExtractSpeedUpgrade.tooltip.detailed.line1=Increases speed by 4
-item.itemExtractSpeedUpgrade.tooltip.detailed.line2=items per extraction
-item.itemExtractSpeedUpgrade.tooltip.detailed.line3=Max upgrades is 15
+item.itemExtractSpeedUpgrade.tooltip.detailed.line1=Aumenta em 4 a quantidade
+item.itemExtractSpeedUpgrade.tooltip.detailed.line2=de itens por extração.
+item.itemExtractSpeedUpgrade.tooltip.detailed.line3=O máximo desta melhoria é 15
 
-item.itemExtractSpeedDowngrade.name=Item Conduit Speed Downgrade
-item.itemExtractSpeedDowngrade.tooltip.basic.line1=Downgrade for item conduits
-item.itemExtractSpeedDowngrade.tooltip.detailed.line1=Reduces speed to 1
-item.itemExtractSpeedDowngrade.tooltip.detailed.line2=item per extraction
+item.itemExtractSpeedDowngrade.name=Redução de Velocidade do Conduto de Itens
+item.itemExtractSpeedDowngrade.tooltip.basic.line1=Redução para Condutos de Itens
+item.itemExtractSpeedDowngrade.tooltip.detailed.line1=Reduz para 1 a quantidade de
+item.itemExtractSpeedDowngrade.tooltip.detailed.line2=itens por extração
 
-item.itemInventoryPanelUpgrade.name=Remote Awareness Upgrade
-item.itemInventoryPanelUpgrade.tooltip.basic.line1=Inventory Panel Remote Awareness
-item.itemInventoryPanelUpgrade.tooltip.detailed.line1=Function upgrade for item conduits
-item.itemInventoryPanelUpgrade.tooltip.detailed.line2=Allows Inventory Panels attached
-item.itemInventoryPanelUpgrade.tooltip.detailed.line3=to this network to see and extract
-item.itemInventoryPanelUpgrade.tooltip.detailed.line4=items from this inventory independent
-item.itemInventoryPanelUpgrade.tooltip.detailed.line5=of the conduit mode.
-item.itemInventoryPanelUpgrade.tooltip.detailed.line6=(No need to set the conduit to extract)
+item.itemInventoryPanelUpgrade.name=Aprimoramento de Consciência Remoto
+item.itemInventoryPanelUpgrade.tooltip.basic.line1=Painel de Inventário de Consciência Remota
+item.itemInventoryPanelUpgrade.tooltip.detailed.line1=Aprimoramento de Função para Condutos de Itens
+item.itemInventoryPanelUpgrade.tooltip.detailed.line2=Permite que painéis de inventários acoplados
+item.itemInventoryPanelUpgrade.tooltip.detailed.line3=a esta rede  veja e extraia
+item.itemInventoryPanelUpgrade.tooltip.detailed.line4=itens deste inventário
+item.itemInventoryPanelUpgrade.tooltip.detailed.line5=independente do modo do conduto.
+item.itemInventoryPanelUpgrade.tooltip.detailed.line6=(não precisa configurar o conduto para extrair)
 
-enderio.itemGasConduit.name=Gas Conduit
+enderio.itemGasConduit.name=Conduto de Gás
 
-enderio.itemGasConduit.tooltip.maxExtract=Max Extract:
-enderio.itemGasConduit.tooltip.maxIo=Max IO:
-enderio.itemGasConduit.tooltip.detailed.line1=Transfers Mekanism-compatible gases
+enderio.itemGasConduit.tooltip.maxExtract=Extração Máxima:
+enderio.itemGasConduit.tooltip.maxIo=IO Máxima:
+enderio.itemGasConduit.tooltip.detailed.line1=Transfere gases compatíveis com o Mekanism
 
-enderio.itemMEConduit.name=ME Conduit
-enderio.itemMEConduitDense.name=Dense ME Conduit
-enderio.itemMEConduitDenseUltra.name=Ultra Dense ME Conduit
+enderio.itemMEConduit.name=Conduto ME
+enderio.itemMEConduitDense.name=Conduto ME - Denso
+enderio.itemMEConduitDenseUltra.name=Conduto ME - Ultra Denso
 enderio.itemMEConduit.channelsUsed={0,number} of {1,number} Channels
 
-enderio.itemOCConduit.name=Network Conduit (OC)
+enderio.itemOCConduit.name=Conduto de Rede (OC)
 
 #Entity
-entity.witherSkeleton.name=Wither Skeleton
+entity.witherSkeleton.name=Esqueleto Wither
 
 #Materials
-enderio.itemMaterial.name=Materials
-enderio.silicon.name=Silicon
-enderio.conduitBinder.name=Conduit Binder
-enderio.binderComposite.name=Binder Composite
-enderio.phasedIronNugget.name=Pulsating Iron Nugget
-tile.blockDarkIronBars.name=Dark Iron Bars
+enderio.itemMaterial.name=Materiais
+enderio.silicon.name=Silício
+enderio.conduitBinder.name=Aglutinante de Condutos
+enderio.binderComposite.name=Composto Aglutinante
+enderio.phasedIronNugget.name=Pepita de Ferro Pulsante
+tile.blockDarkIronBars.name=Barras de Ferro Negro
 tile.blockSoulariumBars.name=Soularium Bars
 tile.blockEndSteelBars.name=End Steel Bars
 tile.blockEndermanSkull.name=Enderman Skull
