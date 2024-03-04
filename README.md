@@ -65,7 +65,8 @@ All workflows under `./.github/workflow` directory can also be triggered manuall
     - [publish-nightly-lang-pack](./.github/workflows/publish-nightly-lang-pack.yml) Pulls latest translation data from ParaTranz, commits them to this repository, and publishes as a lang pack for specific language. Anyone can download it and put it into the modpack.
 - [sync-gt-lang-to-paratranz-parallel](./.github/workflows/sync-gt-lang-to-paratranz-parallel.yml) Calls the following workflow for all the languages in parallel.
   - [sync-gt-lang-to-paratranz](./.github/workflows/sync-gt-lang-to-paratranz.yml) Syncs `GregTech.lang` to ParaTranz for specific language. Due to the way GT lang is generated, it cannot be automatically uploaded as a part of nightly workflow. Contributor needs to manually upload lang file under `nightly-history` directory and run this workflow if they want to update.
-- [sync-all-to-paratranz](./.github/workflows/sync-all-to-paratranz.yml) Syncs mod lang, questbook, and GT lang to ParaTranz for specific language.
+- [sync-all-to-paratranz-parallel](./.github/workflows/sync-all-to-paratranz-parallel.yml) Calls the following workflow for all the languages in parallel.
+  - [sync-all-to-paratranz](./.github/workflows/sync-all-to-paratranz.yml) Syncs mod lang, questbook, and GT lang to ParaTranz for specific language.
 
 These workflows are not for running manually:
 

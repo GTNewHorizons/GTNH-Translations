@@ -1,6 +1,12 @@
 name: Sync all to ParaTranz
 
 on:
+  workflow_call:
+    inputs:
+      target_lang:
+        description: "Target language to run"
+        required: true
+        type: string
   workflow_dispatch:
     inputs:
       target_lang:
