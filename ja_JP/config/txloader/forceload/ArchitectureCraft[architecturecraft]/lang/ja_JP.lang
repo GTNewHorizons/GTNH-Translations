@@ -1,7 +1,7 @@
 # Items
 tile.architecturecraft:sawbench.name=建築家用回転鋸テーブル
 tile.architecturecraft:shape.name=建築物ブロック
-tile.architecturecraft:shapeSE.name=Architectural Block(Glow)
+tile.architecturecraft:shapeSE.name=建築物ブロック(光源)
 item.architecturecraft:largePulley.name=大型滑車
 item.architecturecraft:sawblade.name=丸鋸の刃
 item.architecturecraft:chisel.name=建築用ノミ
@@ -9,132 +9,132 @@ item.architecturecraft:hammer.name=建築用ハンマー
 item.architecturecraft:cladding.name=建築用被覆
 
 # Container
-gui.architecturecraft.Sawbench=Sawbench
-gui.architecturecraft.Makes=makes
+gui.architecturecraft.Sawbench=回転鋸テーブル
+gui.architecturecraft.Makes=個で
 
 # Gui Colors
 gui.architecturecraft.FontColor=404040
 gui.architecturecraft.SelectedBgColor=66CCFF
 
 # Pages
-gui.architecturecraft.Roofing=Roofing
-gui.architecturecraft.Rounded=Rounded
-gui.architecturecraft.Classical=Classical
-gui.architecturecraft.Window=Window
-gui.architecturecraft.Arches=Arches
-gui.architecturecraft.Railings=Railings
-gui.architecturecraft.Other=Other
+gui.architecturecraft.Roofing=屋根
+gui.architecturecraft.Rounded=曲面
+gui.architecturecraft.Classical=古典的
+gui.architecturecraft.Window=窓枠
+gui.architecturecraft.Arches=アーチ
+gui.architecturecraft.Railings=手すり
+gui.architecturecraft.Other=その他
 
 # Shapes
-gui.architecturecraft.RoofTile=Roof Tile
-gui.architecturecraft.RoofOuterCorner=Roof Outer Corner
-gui.architecturecraft.RoofInnerCorner=Roof Inner Corner
-gui.architecturecraft.RoofRidge=Gabled Roof Ridge
-gui.architecturecraft.RoofSmartRidge=Hip Roof Ridge
-gui.architecturecraft.RoofValley=Gabled Roof Valley
-gui.architecturecraft.RoofSmartValley=Hip Roof Valley
+gui.architecturecraft.RoofTile=傾斜タイル
+gui.architecturecraft.RoofOuterCorner=傾斜の外角
+gui.architecturecraft.RoofInnerCorner=傾斜の内角
+gui.architecturecraft.RoofRidge=切妻屋根の頂点
+gui.architecturecraft.RoofSmartRidge=方形屋根の頂点
+gui.architecturecraft.RoofValley=切妻屋根の谷
+gui.architecturecraft.RoofSmartValley=方形屋根の谷
 
-gui.architecturecraft.RoofOverhang=Roof Overhang
-gui.architecturecraft.RoofOverhangOuterCorner=Roof Overhang Outer Corner
-gui.architecturecraft.RoofOverhangInnerCorner=Roof Overhang Inner Corner
+gui.architecturecraft.RoofOverhang=軒先付き屋根
+gui.architecturecraft.RoofOverhangOuterCorner=軒先付き屋根の外角
+gui.architecturecraft.RoofOverhangInnerCorner=軒先付き屋根の内角
 
-gui.architecturecraft.Cylinder=Cylinder
-gui.architecturecraft.CylinderHalf=Half Cylinder
-gui.architecturecraft.CylinderQuarter=Quarter Cylinder
-gui.architecturecraft.CylinderLargeQuarter=Round Outer Corner
-gui.architecturecraft.AnticylinderLargeQuarter=Round Inner Corner
-gui.architecturecraft.Pillar=Round Pillar
-gui.architecturecraft.Post=Round Post
-gui.architecturecraft.Pole=Round Pole
+gui.architecturecraft.Cylinder=円柱
+gui.architecturecraft.CylinderHalf=半円柱
+gui.architecturecraft.CylinderQuarter=四分円柱
+gui.architecturecraft.CylinderLargeQuarter=曲面の外角
+gui.architecturecraft.AnticylinderLargeQuarter=曲面の内角
+gui.architecturecraft.Pillar=曲面の柱
+gui.architecturecraft.Post=曲面の支柱
+gui.architecturecraft.Pole=曲面の棒
 
-gui.architecturecraft.BevelledOuterCorner=Bevelled Outer Corner
-gui.architecturecraft.BevelledInnerCorner=Bevelled Inner Corner
+gui.architecturecraft.BevelledOuterCorner=斜面の外角
+gui.architecturecraft.BevelledInnerCorner=斜面の内角
 
-gui.architecturecraft.PillarBase=Round Pillar Base
-gui.architecturecraft.DoricCapital=Doric Capital
-gui.architecturecraft.IonicCapital=Ionic capital
-gui.architecturecraft.CorinthianCapital=Corinthian capital
-gui.architecturecraft.DoricTriglyph=Triglyph
-gui.architecturecraft.DoricTriglyphCorner=Triglyph Corner
-gui.architecturecraft.DoricMetope=Metope
-gui.architecturecraft.Architrave=Architrave
-gui.architecturecraft.ArchitraveCorner=Architrave Corner
+gui.architecturecraft.PillarBase=曲面の柱の土台
+gui.architecturecraft.DoricCapital=ドーリア式笠石
+gui.architecturecraft.IonicCapital=イオニア式の笠石
+gui.architecturecraft.CorinthianCapital=コリント式の笠石
+gui.architecturecraft.DoricTriglyph=トリグリフ
+gui.architecturecraft.DoricTriglyphCorner=トリグリフの角
+gui.architecturecraft.DoricMetope=メトープ
+gui.architecturecraft.Architrave=アーキトレーブ
+gui.architecturecraft.ArchitraveCorner=アーキトレーブの角
 
-gui.architecturecraft.WindowFrame=Window Frame
-gui.architecturecraft.WindowCorner=Window Corner
-gui.architecturecraft.WindowMullion=Window Mullion
+gui.architecturecraft.WindowFrame=窓枠
+gui.architecturecraft.WindowCorner=窓枠の角
+gui.architecturecraft.WindowMullion=仕切り付き窓枠
 
-gui.architecturecraft.SphereFull=Sphere
-gui.architecturecraft.SphereHalf=Hemisphere
-gui.architecturecraft.SphereQuarter=Quarter Sphere
-gui.architecturecraft.SphereEighth=Quarter Hemisphere
-gui.architecturecraft.SphereEighthLarge=Round Outer Corner Cap
-gui.architecturecraft.SphereEighthLargeRev=Round Inner Corner Cap
+gui.architecturecraft.SphereFull=球
+gui.architecturecraft.SphereHalf=半球
+gui.architecturecraft.SphereQuarter=四分球
+gui.architecturecraft.SphereEighth=八分球
+gui.architecturecraft.SphereEighthLarge=球の外角
+gui.architecturecraft.SphereEighthLargeRev=球の内角
 
-gui.architecturecraft.RoofOverhangGableLH=Gable Overhang LH
-gui.architecturecraft.RoofOverhangGableRH=Gable Overhang RH
-gui.architecturecraft.RoofOverhangGableEndLH=Gable Overhang LH End
-gui.architecturecraft.RoofOverhangGableEndRH=Gable Overhang RH End
-gui.architecturecraft.RoofOverhangRidge=Ridge Overhang
-gui.architecturecraft.RoofOverhangValley=Valley Overhang
+gui.architecturecraft.RoofOverhangGableLH=切妻屋根のケラバ(左側)
+gui.architecturecraft.RoofOverhangGableRH=切妻屋根のケラバ(右側)
+gui.architecturecraft.RoofOverhangGableEndLH=切妻屋根のケラバの終端(左側)
+gui.architecturecraft.RoofOverhangGableEndRH=切妻屋根のケラバの終端(右側)
+gui.architecturecraft.RoofOverhangRidge=ケラバの頂点
+gui.architecturecraft.RoofOverhangValley=ケラバの谷
 
-gui.architecturecraft.CorniceLH=Cornice LH
-gui.architecturecraft.CorniceRH=Cornice RH
-gui.architecturecraft.CorniceEndLH=Cornice LH End
-gui.architecturecraft.CorniceEndRH=Cornice RH End
-gui.architecturecraft.CorniceRidge=Cornice Ridge
-gui.architecturecraft.CorniceValley=Cornice Valley
-gui.architecturecraft.CorniceBottom=Cornice Bottom
+gui.architecturecraft.CorniceLH=コーニス(左側)
+gui.architecturecraft.CorniceRH=コーニス(右側)
+gui.architecturecraft.CorniceEndLH=コーニスの終端(左側)
+gui.architecturecraft.CorniceEndRH=コーニスの終端(右側)
+gui.architecturecraft.CorniceRidge=コーニスの頂点
+gui.architecturecraft.CorniceValley=コーニスの谷
+gui.architecturecraft.CorniceBottom=コーニスの軒先
 
-gui.architecturecraft.CladdingSheet=Cladding
+gui.architecturecraft.CladdingSheet=被覆
 
-gui.architecturecraft.ArchD1=Arch Diameter 1
-gui.architecturecraft.ArchD2=Arch Diameter 2
-gui.architecturecraft.ArchD3A=Arch Diameter 3 Part A
-gui.architecturecraft.ArchD3B=Arch Diameter 3 Part B
-gui.architecturecraft.ArchD3C=Arch Diameter 3 Part C
-gui.architecturecraft.ArchD4A=Arch Diameter 4 Part A
-gui.architecturecraft.ArchD4B=Arch Diameter 4 Part B
-gui.architecturecraft.ArchD4C=Arch Diameter 4 Part C
+gui.architecturecraft.ArchD1=直径1ブロックのアーチ
+gui.architecturecraft.ArchD2=直径2ブロックのアーチ
+gui.architecturecraft.ArchD3A=直径3ブロックのアーチ(部品A)
+gui.architecturecraft.ArchD3B=直径3ブロックのアーチ(部品B)
+gui.architecturecraft.ArchD3C=直径3ブロックのアーチ(部品C)
+gui.architecturecraft.ArchD4A=直径4ブロックのアーチ(部品A)
+gui.architecturecraft.ArchD4B=直径4ブロックのアーチ(部品B)
+gui.architecturecraft.ArchD4C=直径4ブロックのアーチ(部品C)
 
-gui.architecturecraft.BanisterPlainBottom=Plain Banister Bottom Transition
-gui.architecturecraft.BanisterPlain=Plain Banister
-gui.architecturecraft.BanisterPlainTop=Plain Banister Top Transition
+gui.architecturecraft.BanisterPlainBottom=シンプルな階段の手すり(下側)
+gui.architecturecraft.BanisterPlain=シンプルな階段の手すり
+gui.architecturecraft.BanisterPlainTop=シンプルな階段の手すり(上側)
 
-gui.architecturecraft.BalustradeFancy=Fancy Balustrade
-gui.architecturecraft.BalustradeFancyCorner=Fancy Corner Balustrade
-gui.architecturecraft.BalustradeFancyWithNewel=Fancy Balustrade with Newel
-gui.architecturecraft.BalustradeFancyNewel=Fancy Newel
+gui.architecturecraft.BalustradeFancy=おしゃれな手すり
+gui.architecturecraft.BalustradeFancyCorner=おしゃれな手すりの角
+gui.architecturecraft.BalustradeFancyWithNewel=おしゃれな親柱付き手すり
+gui.architecturecraft.BalustradeFancyNewel=おしゃれな親柱
 
-gui.architecturecraft.BalustradePlain=Plain Balustrade
-gui.architecturecraft.BalustradePlainOuterCorner=Plain Outer Corner Balustrade
-gui.architecturecraft.BalustradePlainWithNewel=Plain Balustrade with Newel
+gui.architecturecraft.BalustradePlain=シンプルな手すり
+gui.architecturecraft.BalustradePlainOuterCorner=シンプルな手すりの外角
+gui.architecturecraft.BalustradePlainWithNewel=シンプルな親柱付き手すり
 
-gui.architecturecraft.BanisterPlainEnd=Plain Banister End
+gui.architecturecraft.BanisterPlainEnd=シンプルな階段の手すりの終端
 
-gui.architecturecraft.BanisterFancyNewelTall=Tall Fancy Newel
+gui.architecturecraft.BanisterFancyNewelTall=おしゃれな背の高い親柱
 
-gui.architecturecraft.BalustradePlainInnerCorner=Plain Inner Corner Balustrade
-gui.architecturecraft.BalustradePlainEnd=Plain Balustrade End
+gui.architecturecraft.BalustradePlainInnerCorner=シンプルな手すりの内角
+gui.architecturecraft.BalustradePlainEnd=シンプルな手すりの終端
 
-gui.architecturecraft.BanisterFancyBottom=Fancy Banister Bottom Transition
-gui.architecturecraft.BanisterFancy=Fancy Banister
-gui.architecturecraft.BanisterFancyTop=Fancy Banister Top Transition
-gui.architecturecraft.BanisterFancyEnd=Fancy Banister End
+gui.architecturecraft.BanisterFancyBottom=おしゃれな階段の手すり(下側)
+gui.architecturecraft.BanisterFancy=おしゃれな階段の手すり
+gui.architecturecraft.BanisterFancyTop=おしゃれな階段の手すり(上側)
+gui.architecturecraft.BanisterFancyEnd=おしゃれな階段の手すりの終端
 
-gui.architecturecraft.BanisterPlainInnerCorner=Plain Banister Inner Corner
+gui.architecturecraft.BanisterPlainInnerCorner=シンプルな階段の手すりの内角
 
-gui.architecturecraft.Slab=Slab
-gui.architecturecraft.Stairs=Stairs
-gui.architecturecraft.StairsOuterCorner=Stairs Outer Corner
-gui.architecturecraft.StairsInnerCorner=Stairs Inner Corner
+gui.architecturecraft.Slab=ハーフブロック
+gui.architecturecraft.Stairs=階段
+gui.architecturecraft.StairsOuterCorner=階段の外角
+gui.architecturecraft.StairsInnerCorner=階段の内角
 
-gui.architecturecraft.SlopeTileA1=Slope A Start
-gui.architecturecraft.SlopeTileA2=Slope A End
-gui.architecturecraft.SlopeTileB1=Slope B Start
-gui.architecturecraft.SlopeTileB2=Slope B Middle
-gui.architecturecraft.SlopeTileB3=Slope B End
-gui.architecturecraft.SlopeTileC1=Slope C 1
-gui.architecturecraft.SlopeTileC2=Slope C 2
-gui.architecturecraft.SlopeTileC3=Slope C 3
-gui.architecturecraft.SlopeTileC4=Slope C 4
+gui.architecturecraft.SlopeTileA1=スロープ(A)の始点
+gui.architecturecraft.SlopeTileA2=スロープ(A)の終点
+gui.architecturecraft.SlopeTileB1=スロープ(B)の始点
+gui.architecturecraft.SlopeTileB2=スロープ(B)の中間
+gui.architecturecraft.SlopeTileB3=スロープ(B)の終点
+gui.architecturecraft.SlopeTileC1=スロープ(C)の部品1
+gui.architecturecraft.SlopeTileC2=スロープ(C)の部品2
+gui.architecturecraft.SlopeTileC3=スロープ(C)の部品3
+gui.architecturecraft.SlopeTileC4=スロープ(C)の部品4

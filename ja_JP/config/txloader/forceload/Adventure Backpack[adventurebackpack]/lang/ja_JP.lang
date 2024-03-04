@@ -14,7 +14,7 @@ item.adventurebackpack:inflatableBoatMotorized.name=膨張式ボート(モータ
 
 ## Entity 
 entity.adventurebackpack.inflatableBoat.name=膨張式ボート
-entity.adventurebackpack.rideableSpider.name=Rideable Spider
+entity.adventurebackpack.rideableSpider.name=騎乗可能なクモ
 
 ## Tools and consumables
 item.adventurebackpack:clockworkCrossbow.name=時計仕掛けのクロスボウ
@@ -22,14 +22,14 @@ item.adventurebackpack:melonJuiceBottle.name=スイカジュースの瓶
 item.adventurebackpack:machete.name=マチェーテ
 
 item.adventurebackpack:backpackHose.name=バックパックのホース
-item.adventurebackpack:hose_leftTank_suck.name=ホース 左タンク／吸引モード
-item.adventurebackpack:hose_leftTank_spill.name=ホース 左タンク／排出モード
-item.adventurebackpack:hose_leftTank_drink.name=ホース 左タンク／飲用モード
+item.adventurebackpack:hose_leftTank_suck.name=ホース : 左タンク／吸引モード
+item.adventurebackpack:hose_leftTank_spill.name=ホース : 左タンク／排出モード
+item.adventurebackpack:hose_leftTank_drink.name=ホース : 左タンク／飲用モード
 
-item.adventurebackpack:hose_rightTank_suck.name=ホース 右タンク／吸引モード
-item.adventurebackpack:hose_rightTank_spill.name=ホース 右タンク／排出モード
-item.adventurebackpack:hose_rightTank_drink.name=ホース 左タンク／排出モード
-item.adventurebackpack:hoseUseless.name=ホース バックパックなし
+item.adventurebackpack:hose_rightTank_suck.name=ホース : 右タンク／吸引モード
+item.adventurebackpack:hose_rightTank_spill.name=ホース : 右タンク／排出モード
+item.adventurebackpack:hose_rightTank_drink.name=ホース : 左タンク／排出モード
+item.adventurebackpack:hoseUseless.name=ホース : バックパックなし
 
 ## Wearables
 item.adventurebackpack:adventureBackpack.name=アドベンチャーバックバック
@@ -67,18 +67,18 @@ adventurebackpack:messages.already.equipped.jetpack=既に石炭ジェットパ�
 adventurebackpack:messages.already.impossibru=何もバックパックを装備していません。
 adventurebackpack:messages.backpack.cant.bag=寝袋が展開できません！周りを確認しましょう。
 adventurebackpack:messages.cant.sleep.here=古代の力が貴方を眠らせてはくれないようだ。
-adventurebackpack:messages.copterpack.hover=ヘリコプターバックパック ホバーモード
-adventurebackpack:messages.copterpack.normal=ヘリコプターバックパック 通常モード
-adventurebackpack:messages.copterpack.outoffuel=ヘリコプターバックパック 燃料切れ
-adventurebackpack:messages.copterpack.cantwater=ヘリコプターバックパック 水中で使用不可。
-adventurebackpack:messages.copterpack.off=ヘリコプターバックパック オフ
-adventurebackpack:messages.jetpack.on=石炭ジェットパック オン
-adventurebackpack:messages.jetpack.off=石炭ジェットパック オフ
-adventurebackpack:messages.nightvision.on=暗視 オン
-adventurebackpack:messages.nightvision.off=暗視 オフ
-adventurebackpack:messages.cycling.on=ツール循環 オン
-adventurebackpack:messages.cycling.off=ツール循環 オフ
-adventurebackpack:messages.crossbow.outofammo=時計仕掛けのクロスボウ 弾切れ
+adventurebackpack:messages.copterpack.hover=ヘリコプターバックパック : ホバーモード
+adventurebackpack:messages.copterpack.normal=ヘリコプターバックパック : 通常モード
+adventurebackpack:messages.copterpack.outoffuel=ヘリコプターバックパック : 燃料切れ
+adventurebackpack:messages.copterpack.cantwater=ヘリコプターバックパック : 水中で使用不可
+adventurebackpack:messages.copterpack.off=ヘリコプターバックパック : オフ
+adventurebackpack:messages.jetpack.on=石炭ジェットパック : オン
+adventurebackpack:messages.jetpack.off=石炭ジェットパック : オフ
+adventurebackpack:messages.nightvision.on=暗視 : オン
+adventurebackpack:messages.nightvision.off=暗視 : オフ
+adventurebackpack:messages.cycling.on=ツール入れ替え : オン
+adventurebackpack:messages.cycling.off=ツール入れ替え : オフ
+adventurebackpack:messages.crossbow.outofammo=時計仕掛けのクロスボウ : 弾切れ
 
 ## Tooltips
 adventurebackpack:tooltips.on=オン
@@ -87,39 +87,39 @@ adventurebackpack:tooltips.empty=空
 adventurebackpack:tooltips.meters=メートル
 adventurebackpack:tooltips.error=エラー
 adventurebackpack:tooltips.steam=蒸気
-adventurebackpack:tooltips.press=押す
-adventurebackpack:tooltips.hold.shift=シフトを押す
-adventurebackpack:tooltips.hold.ctrl=コントロールを押す
+adventurebackpack:tooltips.press=キー
+adventurebackpack:tooltips.hold.shift=Shiftで表示
+adventurebackpack:tooltips.hold.ctrl=Ctrlで表示
 adventurebackpack:tooltips.mouse.wheel=ホイール
 adventurebackpack:tooltips.max.altitude=最大高度
 
-adventurebackpack:tooltips.backpack.slots.used=スロットは使われている
+adventurebackpack:tooltips.backpack.slots.used=使われているスロット
 adventurebackpack:tooltips.backpack.tank.left=左タンク
 adventurebackpack:tooltips.backpack.tank.right=右タンク
-adventurebackpack:tooltips.backpack.cycling=ツール循環
-adventurebackpack:tooltips.backpack.cycling.key1=着用中
-adventurebackpack:tooltips.backpack.cycling.key2=バックパック 循環
+adventurebackpack:tooltips.backpack.cycling=ツール入れ替え
+adventurebackpack:tooltips.backpack.cycling.key1=を着用中に入力して
+adventurebackpack:tooltips.backpack.cycling.key2=アイテム入れ替えを
 adventurebackpack:tooltips.backpack.vision=暗視
-adventurebackpack:tooltips.backpack.vision.key1=着用中
-adventurebackpack:tooltips.backpack.vision.key2=バックパック 暗視
+adventurebackpack:tooltips.backpack.vision.key1=を着用中に入力して
+adventurebackpack:tooltips.backpack.vision.key2=暗視効果を
 
 adventurebackpack:tooltips.jetpack.fuel=燃料
 adventurebackpack:tooltips.jetpack.tank.water=左タンク
 adventurebackpack:tooltips.jetpack.tank.steam=右タンク
-adventurebackpack:tooltips.jetpack.key.onoff1=着用中
-adventurebackpack:tooltips.jetpack.key.onoff2=ジェットパック
+adventurebackpack:tooltips.jetpack.key.onoff1=を着用中に入力して
+adventurebackpack:tooltips.jetpack.key.onoff2=ジェットパックを
 
 adventurebackpack:tooltips.copter.tank.fuel=燃料タンク
 adventurebackpack:tooltips.copter.rate.fuel=燃料使用率
-adventurebackpack:tooltips.copter.key.onoff1=着用中
-adventurebackpack:tooltips.copter.key.onoff2=ヘリコプターバックパック
-adventurebackpack:tooltips.copter.key.hover1=飛行中
+adventurebackpack:tooltips.copter.key.onoff1=を着用中に入力して
+adventurebackpack:tooltips.copter.key.onoff2=ヘリコプターバックパックを
+adventurebackpack:tooltips.copter.key.hover1=を飛行中に入力して
 adventurebackpack:tooltips.copter.key.hover2=ホバーモードへの切り替え
 
-adventurebackpack:tooltips.hose.key.header=ホースを持っている間
-adventurebackpack:tooltips.hose.key.tank=有効なタンクを変更する
-adventurebackpack:tooltips.hose.key.mode=モードを変更する
-adventurebackpack:tooltips.hose.dump1=ホースを着用中のバケツスロットに入れる
+adventurebackpack:tooltips.hose.key.header=ホースを持っている間 :
+adventurebackpack:tooltips.hose.key.tank=を入力して有効なタンクを変更する
+adventurebackpack:tooltips.hose.key.mode=を入力してモードを変更する
+adventurebackpack:tooltips.hose.dump1=ホースを着用中のバケツスロットに入れて
 adventurebackpack:tooltips.hose.dump2=対応するタンクを空にする
 adventurebackpack:tooltips.hose.dump.warn=警告! 液体は破棄され、失われます。永遠に。
 
