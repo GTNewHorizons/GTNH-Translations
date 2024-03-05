@@ -2,12 +2,12 @@
 
 # GTNH Translations
 
-Here, all the translation projects, including XXX, are managed.
+Here, all the translation projects, including the_name_of_your_language, are managed.
 
 ## How to use
 
-<!-- 1. Select corresponding version from [Releases](https://github.com/GTNewHorizons/GTNH-Translations/releases), or select XXX Latest -->
-1. Select XXX Latest from [Releases](https://github.com/GTNewHorizons/GTNH-Translations/releases)
+<!-- 1. Select corresponding version from [Releases](https://github.com/GTNewHorizons/GTNH-Translations/releases), or select xx_XX Latest -->
+1. Select xx_XX Latest from [Releases](https://github.com/GTNewHorizons/GTNH-Translations/releases)
 2. Download and unzip it, and place under .minecraft folder
 
 ## Feedbacks and suggestions
