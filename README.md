@@ -47,7 +47,7 @@ If you have 3 or more translators for the language, please contact boubou_19.
 
 ### When adding new language
 
-1. Add new language entry for scripts and workflows. Searching for `es_ES` for example could help. (see commits [8f1d36a](https://github.com/GTNewHorizons/GTNH-Translations/commit/8f1d36a5e30ea39c02a19a167cf72d8643efbbc1) and [a27348c](https://github.com/GTNewHorizons/GTNH-Translations/commit/a27348c066d2de8126170e44fa17264d27aae665) for reference)
+1. Add new language entry for scripts and workflows. Searching for `pl_PL` for example could help. (see commits [ea67c0e](https://github.com/GTNewHorizons/GTNH-Translations/commit/ea67c0ecd7b1a5b81a2b04082d0930ae8dcfffff) for reference)
 2. Add new README_xx_XX.md with a mention from README.md.
 3. Add new issue template.
 4. Add new label for issue.
@@ -74,7 +74,7 @@ These workflows are not for running manually:
 - [ensure-dependencies](./.github/actions/ensure-dependencies/action.yml) Setups Poetry environment for workflows.
 - [get-project-id](./.github/actions/get-project-id/action.yml) Binds lang name (`zh_CN` for example) and ParaTranz project ID.
 
-## How Python project works
+## How Python script works
 
 This repository uses Python scripts for communicating with ParaTranz API.
 
@@ -96,6 +96,7 @@ In order to run it,
 - Refine the way conditional sync works
 - Work on some mods that don't have proper localization support
 - Support some config files for ParaTranz
+- pt_BR to pt_PT conversion script
 - Automatically backup ParaTranz project just in case?
 
 ## Credit
