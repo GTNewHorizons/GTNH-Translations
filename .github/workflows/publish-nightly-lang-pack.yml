@@ -29,7 +29,7 @@ env:
 
 jobs:
   nightly-build:
-    name: Nightly Build
+    name: ${{ inputs.target_lang }} Nightly Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

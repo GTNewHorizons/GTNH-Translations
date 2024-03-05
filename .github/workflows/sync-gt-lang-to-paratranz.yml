@@ -29,7 +29,7 @@ env:
 
 jobs:
   sync-gt-lang-to-paratranz:
-    name: Sync GT lang to ParaTranz
+    name: ${{ inputs.target_lang }} Sync GT lang to ParaTranz
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

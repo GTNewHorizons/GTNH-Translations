@@ -29,7 +29,7 @@ env:
 
 jobs:
   sync-all-to-paratranz:
-    name: Sync all to ParaTranz
+    name: ${{ inputs.target_lang }} Sync all to ParaTranz
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

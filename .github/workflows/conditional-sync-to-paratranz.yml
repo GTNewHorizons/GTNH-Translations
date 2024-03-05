@@ -29,7 +29,7 @@ env:
 
 jobs:
   conditional-sync-to-paratranz:
-    name: Conditional sync to ParaTranz
+    name: ${{ inputs.target_lang }} Conditional sync to ParaTranz
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
