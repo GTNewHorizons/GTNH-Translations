@@ -44,3 +44,8 @@ jobs:
     with:
       target_lang: de_DE
     secrets: inherit
+  pl_PL:
+    uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    with:
+      target_lang: pl_PL
+    secrets: inherit
