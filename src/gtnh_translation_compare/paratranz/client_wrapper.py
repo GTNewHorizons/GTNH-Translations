@@ -207,13 +207,12 @@ class ClientWrapper:
         logger.info("[upload_strings]finished_all: strings_count={}", len(strings))
 
     @retry_after_429()
-    async def _upload_string(self, sem: asyncio.Semaphore, string: StringItem) -> None:
-        async with sem:
-            res = await self.client.put(
-                url=f"projects/{self.project_id}/strings/{string.id}",
-                json=string.model_dump()
-            )
-            self._log_res(f"upload_strings[string_id={string.id}]", res)
+    async def _upload_string(self, string: StringItem) -> None:
+        res = await self.client.put(
+            url=f"projects/{self.project_id}/strings/{string.id}",
+            json=string.model_dump()
+        )
+        self._log_res(f"upload_strings[string_id={string.id}]", res)
 
     @staticmethod
     def _log_res(request_name: str, res: Response) -> None:
