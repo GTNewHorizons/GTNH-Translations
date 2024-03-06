@@ -63,7 +63,7 @@ botaniamisc.cantOpen=Görünüşe göre bu sayfa Lexica Botania'nda yer almıyor
 botaniamisc.clickToShare=Paylaş
 botaniamisc.drop=Düşür
 botaniamisc.dropTip0=İpucu: Envanterındeyken %key% tuşuna basarak düşürebilirsin.
-botaniamisc.dropTip1=CTRL-%key% ibütün yığını düşürür
+botaniamisc.dropTip1=CTRL-%key% bütün kümeyi düşürür
 botaniamisc.wandMode.bind=Bağlama Modu
 botaniamisc.wandMode.function=İşlev Modu
 botaniamisc.playVideo=Video Oynat
@@ -176,7 +176,7 @@ botaniamisc.insufficient_mana=Yeterli efsun yok
 botania.nei.brewery=Botanik Demleyici
 botania.nei.elvenTrade=Elf Ticareti
 botania.nei.floatingFlowers=Süzülen Çiçekler
-botania.nei.manaPool=Efsun Yükleme
+botania.nei.manaPool=Mana İnfüzyonu
 botania.nei.petalApothecary=Yaprak Eczacısı
 botania.nei.runicAltar=Rünik Sunak
 botania.nei.pureDaisy=Saf Papatya
@@ -201,9 +201,9 @@ botania.nei.quickInfo:item.enderAirBottle~15=You can get this by right clicking 
 primus
 # BUILDCRAFT INTEGRATION
 botania.triggers.manaDetector=Efsun Salınımı
-botania.triggers.manaEmpty=Efsun Boş
+botania.triggers.manaEmpty=Mana Boş
 botania.triggers.manaSpace=Efsun için Alan
-botania.triggers.manaContains=Efsun içerir
+botania.triggers.manaContains=Mana içerir
 botania.triggers.manaFull=Efsun Dolu
 botania.triggers.runeAltarCanCraft=Altar Can Craft
 
@@ -261,7 +261,7 @@ botania.wings8=Wings: Koca Dev Tavuk
 botania.wings9=Kanat: TEK
 
 # ARMOR SETS
-botania.armorset.manasteel.name=Efsun Yatkınlığı
+botania.armorset.manasteel.name=Mana Yatkınlığı
 botania.armorset.manasteel.desc=10% less Mana cost on Mana Tools and Rods
 botania.armorset.elementium.name=Yüce Perin'in Bereketi
 botania.armorset.elementium.desc=Chance for pixies to apply potion effects
@@ -349,7 +349,7 @@ flowerParticles.frequency=Flower Particle Frequency
 lexicon.enable.rotatingItems=Lexicon Rotating Items
 lexicon.enable.justifiedText=Lexicon Justified Text
 lexicon.render.3D=3D Lexicon Render
-manaBar.height=Efsun Göstergeci Yüksekliği
+manaBar.height=Mana Göstergeci Yüksekliği
 powerSystem.subtle=Use Subtle Power System
 pylonModel.old=Use Old Pylon Model
 elfPortal.particles.enabled=Enable Portal Particles
@@ -716,7 +716,7 @@ tile.botania:manaBeacon13.name=Green Unstable Beacon
 tile.botania:manaBeacon14.name=Red Unstable Beacon
 tile.botania:manaBeacon15.name=Black Unstable Beacon
 tile.botania:manaVoid.name=Mana Void
-tile.botania:manaDetector.name=Efsun Dedektörü
+tile.botania:manaDetector.name=Mana Dedektörü
 tile.botania:enchanter.name=Mana Enchanter
 tile.botania:turntable.name=Spreader Turntable
 tile.botania:tinyPlanetBlock.name=Tiny Planet
@@ -891,7 +891,7 @@ tile.botania:starfield.name=Starfield Creator
 tile.botania:rfGenerator.name=Mana Fluxfield
 tile.botania:elfGlass.name=Alfglass
 tile.botania:brewery.name=Botanical Brewery
-tile.botania:manaGlass.name=Efsun Camı
+tile.botania:manaGlass.name=Mana Camı
 tile.botania:terraPlate.name=Terrestrial Agglomeration Plate
 tile.botania:redStringContainer.name=Red Stringed Container
 tile.botania:redStringDispenser.name=Red Stringed Dispenser
@@ -1205,7 +1205,7 @@ tile.botania:pavement5SlabFull.name=Green Portuguese Pavement Slab
 tile.botania:cellBlock.name=Cellular Block
 tile.botania:gaiaHeadBlock.name=Gaia Guardian's Head
 tile.botania:corporeaRetainer.name=Corporea Retainer
-tile.botania:manaGlassPane.name=Efsun İnce Camı
+tile.botania:manaGlassPane.name=Mana İnce Camı
 tile.botania:elfGlassPane.name=Alfglass Pane
 tile.botania:bifrostPermPane.name=Bifrost Pane
 tile.botania:teruTeruBozu.name=Teru Teru Bozu
@@ -1233,7 +1233,7 @@ tile.botania:flower..reference=If you have this, it means something went wrong, 
 
 tile.botania:flower.puredaisy.name=Pure Daisy
 tile.botania:flower.puredaisy.reference=What color do you want to be?
-tile.botania:flower.manastar.name=Efsun Yıldızı
+tile.botania:flower.manastar.name=Mana Yıldızı
 tile.botania:flower.manastar.reference=Wish upon a star
 
 # - GENERATING
@@ -1382,9 +1382,9 @@ item.botania:dye14.name=Floral Red Powder
 item.botania:dye15.name=Floral Black Powder
 item.botania:pestleAndMortar.name=Pestle and Mortar
 item.botania:twigWand.name=Wand of the Forest
-item.botania:manasteel.name=Efsun Çeliği Külçe
-item.botania:manaPearl.name=Efsun İncisi
-item.botania:manaDiamond.name=Efsun Elması
+item.botania:manasteel.name=Mana Çeliği Külçe
+item.botania:manaPearl.name=Mana İncisi
+item.botania:manaDiamond.name=Mana Elması
 item.botania:lensNormal.name=Mana Lens
 item.botania:lensSpeed.name=Mana Lens: Velocity
 item.botania:lensSpeed.short=Velocity
@@ -1445,8 +1445,8 @@ item.botania:rune13.name=Rune of Wrath
 item.botania:rune14.name=Rune of Envy
 item.botania:rune15.name=Rune of Pride
 item.botania:signalFlare.name=Signal Flare
-item.botania:manaTablet.name=Efsun Tableti
-item.botania:manaGun.name=Efsun Silahı
+item.botania:manaTablet.name=Mana Tableti
+item.botania:manaGun.name=Mana Silahı
 item.botania:compositeLens.name=Composite Mana Lens: %s %s
 item.botania:manaCookie.name=Biscuit of Totality
 item.botania:fertilizer.name=Floral Fertilizer
@@ -1462,16 +1462,16 @@ item.botania:grassSeeds8.name=Mutated Pasture Seeds
 item.botania:livingwoodTwig.name=Livingwood Twig
 item.botania:dirtRod.name=Rod of the Lands
 item.botania:terraformRod.name=Rod of the Terra Firma
-item.botania:manaMirror.name=Efsun Aynası
-item.botania:manasteelHelm.name=Efsun Çeliği Kask
-item.botania:manasteelChest.name=Efsun Çeliği Göğüslük
-item.botania:manasteelLegs.name=Efsun Çeliği Pantalon
-item.botania:manasteelBoots.name=Efsun Çeliği Botlar
-item.botania:manasteelPick.name=Efsun Çeliği Kazma
-item.botania:manasteelShovel.name=Efsun Çeliği Kürek
-item.botania:manasteelAxe.name=Efsun Çeliği Balta
-item.botania:manasteelSword.name=Efsun Çeliği Kılıç
-item.botania:manasteelShears.name=Efsun Çeliği Makas
+item.botania:manaMirror.name=Mana Aynası
+item.botania:manasteelHelm.name=Mana Çeliği Kask
+item.botania:manasteelChest.name=Mana Çeliği Göğüslük
+item.botania:manasteelLegs.name=Mana Çeliği Pantalon
+item.botania:manasteelBoots.name=Mana Çeliği Botlar
+item.botania:manasteelPick.name=Mana Çeliği Kazma
+item.botania:manasteelShovel.name=Mana Çeliği Kürek
+item.botania:manasteelAxe.name=Mana Çeliği Balta
+item.botania:manasteelSword.name=Mana Çeliği Kılıç
+item.botania:manasteelShears.name=Mana Çeliği Makas
 item.botania:grassHorn0.name=Horn of the Wild
 item.botania:grassHorn1.name=Horn of the Canopy
 item.botania:grassHorn2.name=Horn of the Covering
@@ -1537,7 +1537,7 @@ item.botania:virus0.name=Necrodermal Virus
 item.botania:virus1.name=Nullodermal Virus
 item.botania:skyDirtRod.name=Rod of the Highlands
 item.botania:placeholder.name=Crafting Placeholder
-item.botania:manasteelHelmReveal.name=Açığa Vuran Efsun Çeliği Kask
+item.botania:manasteelHelmReveal.name=Açığa Vuran Mana Çeliği Kask
 item.botania:terrasteelHelmReveal.name=Açığa Vuran Dünyevi Çelik Kask
 item.botania:elementiumHelmReveal.name=Elementium Helmet of Revealing
 item.botania:itemFinder.name=The Spectator
@@ -1651,7 +1651,7 @@ item.botania:recordGaia2.name=Scathed Music Disc
 item.botania:temperanceStone.name=Stone of Temperance
 item.botania:incenseStick.name=Incense Stick
 item.botania:terraAxe.name=Terra Truncator
-item.botania:manasteelNugget.name=Efsun Çeliği Parçası
+item.botania:manasteelNugget.name=Mana Çeliği Parçası
 item.botania:terrasteelNugget.name=Dünyevi Çelik Parçası
 item.botania:elementiumNugget.name=Elementium Nugget
 item.botania:root.name=Living Root
@@ -1677,7 +1677,7 @@ item.botania:gaiaHead.name=Gaia Guardian's Head
 item.botania:sextant.name=Worldshaper's Sextant
 item.botania:speedUpBelt.name=Planestrider's Sash
 item.botania:baubleBox.name=Bauble Case
-item.botania:manaPowder.name=Efsun Tozu
+item.botania:manaPowder.name=Mana Tozu
 
 # BREW NAMES
 botania.brew.fallback=Fallback
@@ -1977,7 +1977,7 @@ item.banner.botania_sword.white=White Sword
 
 # LEXICON CATEGORIES
 botania.category.basics=Basics and Mechanics
-botania.category.mana=Efsun İdaresi
+botania.category.mana=Mana İdaresi
 botania.category.functionalFlowers=Functional Flora
 botania.category.generationFlowers=Generating Flora
 botania.category.devices=Natural Apparatus
@@ -2253,20 +2253,20 @@ botania.page.lens36=The &1Flash Lens&0, in contact with a block, creates a flame
 botania.page.lens37=Flash Lens
 
 # -- MANA TABLET
-botania.entry.manaTablet=Efsun Tableti
-botania.tagline.manaTablet=Taşınabilir Efsun Deposu
+botania.entry.manaTablet=Mana Tableti
+botania.tagline.manaTablet=Taşınabilir Mana Deposu
 botania.page.manaTablet0=While using &1Mana Spreaders&0 to transport &4Mana&0 around is all well and good, there is also a way of doing it in a different manner.<br>The &1Mana Tablet&0 is a portable object which can carry &4Mana&0 on itself.<br>Not only that, but other items can also pull from it as they need it for their uses, making this an essential tool.
 botania.page.manaTablet1=Tossing one of these on top of a &1Mana Pool&0 will allow for transport of &4Mana&0 between one and another.<br>Shift-right clicking the &1Mana Pool&0 with a &1Wand of the Forest&0 will change in which way the &4Mana&0 flows.<br>Lastly, unlike normal items, these will never despawn when dropped on the floor.
 botania.page.manaTablet2=Don't put it on your pocket, it might bend
 
 # -- MANA MIRROR
-botania.entry.manaMirror=Efsun Aynası
+botania.entry.manaMirror=Mana Aynası
 botania.tagline.manaMirror=Remote Portable Mana Access
 botania.page.manaMirror0=A &1Mana Mirror&0 is an alternative to &4Mana&0 containing items such as a &1Mana Tablet&0. It can be bound to a &1Mana Pool&0 in the world and items will pull out of the pool itself when needing &4Mana&0.<br>To bind a mirror to a pool, one would simply &4shift right-click&0 a pool with the mirror. The mirror can't put mana in or take mana out of pools in any other way.
 botania.page.manaMirror1=Mirror mirror on the wall...
 
 # -- MANA DETECTOR
-botania.entry.manaDetector=Efsun Dedektörü
+botania.entry.manaDetector=Mana Dedektörü
 botania.tagline.manaDetector=Detects Mana Bursts and emits Redstone signals
 botania.page.manaDetector0=A device like the &1Mana Detector&0 is capable to detect when a &4Mana Burst&0 starts flowing through it (the burst doesn't dissipate on collision with this block) and provide a redstone signal when that is the case.
 botania.page.manaDetector1=Crafting the detector
@@ -2896,7 +2896,7 @@ botania.page.felPumpkin1=Nerfing warlocks again
 
 # - MYSTICAL INSTRUMENTS
 # -- MANA BLASTER
-botania.entry.manaBlaster=Efsun Silahı
+botania.entry.manaBlaster=Mana Silahı
 botania.tagline.manaBlaster=Portable Mana Spreader, with lenses!
 botania.page.manaBlaster0=The &1Mana Blaster&0 is like a portable &1Mana Spreader&0, while shaped like a pistol for easy handling, it's not exactly a firearm, as much as it is just a portable spreader.<br>By utilizing &4Mana&0 from &4Mana carrying items&0 in the holder's inventory, it can shoot a mana burst wherever one is looking.
 botania.page.manaBlaster1=This burst is a bit different from the one fired from speaders, as it's faster, but carries only three quarters of the mana a spreader burst would. There's also a short cooldown period after firing the blaster until another burst can be shot.
@@ -2928,19 +2928,19 @@ botania.page.terraformRod2=Note that blocks removed by the rod are non-recuperab
 botania.page.terraformRod3=Quite a justicar
 
 # -- MANASTEEL EQUIPMENT
-botania.entry.manaGear=Efsun Çeliği Ekipman
+botania.entry.manaGear=Mana Çeliği Ekipman
 botania.tagline.manaGear=Iron-tier equipment that repairs itself with Mana
 botania.page.manaGear0=&1Manasteel&0, like other metals, can be shaped into tools and armor alike.<br>Tools or armor crafted from this material will share their properties with &1Iron&0, albeit somewhat superior in enchantability and durability. Whenever a &1Manasteel&0 item is to take damage, if there's &4Mana&0 available in the inventory (such as a &1Mana Tablet&0), it'll use that instead.
 botania.page.manaGear10=Some pieces of the toolset have an ability when right clicked. The &1Pickaxe&0 will place a torch from the user's inventory, the &1Axe&0 will do the same for a sapling and the &1Shovel&0 will till the earth, similarly to a hoe.<br>A detail to keep in mind is that &1Shears&0 made of mana materials will trigger tripwire, unlike iron ones.
-botania.page.manaGear1=&1Efsun Çeliği Kazma&0
-botania.page.manaGear2=&1Efsun Çeliği Kürek&0
-botania.page.manaGear3=&1Efsun Çeliği Balta&0
-botania.page.manaGear4=&1Efsun Çeliği Makas&0
-botania.page.manaGear5=&1Efsun Çeliği Kılıç&0
-botania.page.manaGear6=&1Efsun Çeliği Kask&0
-botania.page.manaGear7=&1Efsun Çeliği Göğüslük&0
-botania.page.manaGear8=&1Efsun Çeliği Pantalon&0
-botania.page.manaGear9=&1Efsun Çeliği Botlar&0
+botania.page.manaGear1=&Mana Çeliği Kazma&0
+botania.page.manaGear2=&1Mana Çeliği Kürek&0
+botania.page.manaGear3=&1Mana Çeliği Balta&0
+botania.page.manaGear4=&1Mana Çeliği Makas&0
+botania.page.manaGear5=&1Mana Çeliği Kılıç&0
+botania.page.manaGear6=&1Mana Çeliği Kask&0
+botania.page.manaGear7=&1Mana Çeliği Göğüslük&0
+botania.page.manaGear8=&1Mana Çeliği Pantalon&0
+botania.page.manaGear9=&1Mana Çeliği Botlar&0
 
 # -- HORN OF THE WILD
 botania.entry.grassHorn=Horn of the Wild
@@ -3456,8 +3456,8 @@ botania.page.tinyPlanet1=Clearly from rebirth
 botania.page.tinyPlanet2=More of a planet than Pluto
 
 # -- BAND OF MANA
-botania.entry.manaRing=Efsun Şeridi
-botania.tagline.manaRing=Yüzük-İçinde-Efsun-Tableti
+botania.entry.manaRing=Mana Şeridi
+botania.tagline.manaRing=Yüzük-İçinde-Mana-Tableti
 botania.page.manaRing0=Combining a &1Mana Tablet&0 with some &1Manasteel&0 creates an easily worn &4Ring&0, that functions exactly similar to the tablet used to make it, but can be worn as a &4Bauble&0.<br>Using some &1Terrasteel&0 allows for an upgrade, which lets it store about four times as much &4Mana&0.
 botania.page.manaRing1=Creating the ring
 botania.page.manaRing2=Upgrading the ring

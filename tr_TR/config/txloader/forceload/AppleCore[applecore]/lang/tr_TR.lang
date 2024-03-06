@@ -1,21 +1,21 @@
-applecore.commands.hunger.usage=/hunger [player] <value>
-applecore.commands.hunger.set.hunger.to=Set %s's hunger to %d
+applecore.commands.hunger.usage=/hunger [oyuncu] <value>
+applecore.commands.hunger.set.hunger.to=%s'nin açlığını %d yap
 
-applecore.cfg.client=Client
-applecore.cfg.server=Server
-applecore.cfg.general=General
-applecore.cfg.exhaustion.sync.threshold=Synchronize Exhaustion Threshold
-applecore.cfg.show.food.values.in.tooltip=Show Food Values in Tooltip
-applecore.cfg.show.food.values.in.tooltip.always=Always show Food Values in Tooltip
-applecore.cfg.show.saturation.hud.overlay=Show Saturation HUD Overlay
-applecore.cfg.show.food.values.hud.overlay=Show Food Values HUD Overlay
+applecore.cfg.client=İstemci
+applecore.cfg.server=Sunucu
+applecore.cfg.general=Genel
+applecore.cfg.exhaustion.sync.threshold=Tükenmişlik Eşiğini Senkronize Et
+applecore.cfg.show.food.values.in.tooltip=Gıda değerlerini Açıklamada Göster
+applecore.cfg.show.food.values.in.tooltip.always=Her zaman Gıda Değerlerini Açıklamada göster 
+applecore.cfg.show.saturation.hud.overlay=Tokluk HUD Yerleşimini Göster
+applecore.cfg.show.food.values.hud.overlay=Gıda değerlerinin HUD Yerleşimini Göster
 applecore.cfg.show.food.exhaustion.hud.underlay=Show Food Exhaustion HUD Underlay
 applecore.cfg.show.food.stats.in.debug.overlay=Show Food Stats in Debug Overlay
-applecore.cfg.required.mods=Required Mods
+applecore.cfg.required.mods=Gerekli Modlar
 
-applecore.cfg.client.tooltip=These config settings are client-side only
-applecore.cfg.server.tooltip=These config settings are server-side only
-applecore.cfg.general.tooltip=These config settings are for both server and client-side
+applecore.cfg.client.tooltip=Bu konfigürasyon ayarları yalnızca istemci tarafında çalışır
+applecore.cfg.server.tooltip=Bu konfigürasyon ayarları yalnızca sunucu tarafında çalışır
+applecore.cfg.general.tooltip=Bu konfigürasyon ayarları hem sunucu hem de istemci'de çalışır
 applecore.cfg.exhaustion.sync.threshold.tooltip=The maximum difference between the server's value for exhaustion and the client's before the value is syncronized from the server to the client. Raising this value will cause fewer packets to be sent, but will make the client's exhaustion values appear more choppy
 applecore.cfg.show.food.values.in.tooltip.tooltip=If true, shows the hunger and saturation values of food in its tooltip while holding SHIFT
 applecore.cfg.show.food.values.in.tooltip.always.tooltip=If true, shows the hunger and saturation values of food in its tooltip automatically (without needing to hold SHIFT)
