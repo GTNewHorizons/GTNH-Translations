@@ -47,7 +47,7 @@ If you have 3 or more translators for the language, please contact boubou_19.
 
 ### When adding new language
 
-1. Add new language entry for scripts and workflows. Searching for `pl_PL` for example could help. (see commits [ea67c0e](https://github.com/GTNewHorizons/GTNH-Translations/commit/ea67c0ecd7b1a5b81a2b04082d0930ae8dcfffff) for reference)
+1. Add new language entry for scripts and workflows. Searching for `pl_PL` for example could help. (see commit [ea67c0e](https://github.com/GTNewHorizons/GTNH-Translations/commit/ea67c0ecd7b1a5b81a2b04082d0930ae8dcfffff) for reference)
 2. Add new README_xx_XX.md with a mention from README.md.
 3. Add new issue template.
 4. Add new label for issue.
@@ -68,6 +68,7 @@ All workflows under `./.github/workflow` directory can also be triggered manuall
   - [sync-gt-lang-to-paratranz](./.github/workflows/sync-gt-lang-to-paratranz.yml) Syncs `GregTech.lang` to ParaTranz for specific language. Due to the way GT lang is generated, it cannot be automatically uploaded as a part of nightly workflow. Contributor needs to manually upload lang file under `nightly-history` directory and run this workflow if they want to update.
 - [sync-all-to-paratranz-all-langs](./.github/workflows/sync-all-to-paratranz-all-langs.yml) Calls the following workflow for all the languages sequentially.
   - [sync-all-to-paratranz](./.github/workflows/sync-all-to-paratranz.yml) Syncs mod lang, questbook, and GT lang to ParaTranz for specific language.
+- [upload-jar-translations](./.github/workflows/upload-jar-translations.yml) Uploads existing translations in mod jars to ParaTranz for specific language. If you want to choose which mod to upload, you can run it locally. Refer to [List of available actions](#list-of-available-actions).
 
 These workflows are not for running manually:
 
@@ -89,9 +90,34 @@ In order to run it,
 4. Run `poetry install`
 5. Run `poetry run python main.py action <your favorite action>`
 
+### List of available actions
+
+ParaTranz -> Local
+
+- sync-from-paratranz
+
+Local/Nightly -> ParaTranz
+
+- gt-lang-to-paratranz
+- save-nightly-modpack-history
+- conditional-sync-to-paratranz
+- sync-all-to-paratranz
+
+Translations in mod jars -> ParaTranz
+
+- list-jar-translations
+  - Prints all the jar names that contain lang file for your language. _This does not upload files._
+    - `--modpack_path` Path to the modpack. It needs to be unzipped.
+- view-jar-translations
+  - Prints the content of translations in mod jars. You can view one by one. _This does not upload files._
+    - `--modpack_path` Path to the modpack. It needs to be unzipped.
+- upload-jar-translations
+  - Uploads existing translations in mod jars to ParaTranz.
+    - `--modpack_path` Path to the modpack. It needs to be unzipped.
+    - (Optional)`--interactive` True by default. It prints the contents of the translation and asks you whether to adopt it or not, for each jar. Setting False means it uploads all the translations without asking you, which is the same behavior as `upload-jar-translations` workflow.
+
 ## Things to be done
 
-- Import existing translations from mod jars
 - Include all the lang packs in the modpack releases and nightly modpack builds
 - Refine the way conditional sync works
 - Work on some mods that don't have proper localization support

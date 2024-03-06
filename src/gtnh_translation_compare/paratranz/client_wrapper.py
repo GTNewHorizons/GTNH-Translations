@@ -195,6 +195,22 @@ class ClientWrapper:
         )
         self._log_res(f"save_file_extra[file_id={file_id}]", res)
 
+    async def upload_strings(self, strings: list[StringItem]) -> None:
+        # concurrency number
+        sem = asyncio.Semaphore(10)
+        tasks = [self._upload_strings(sem, string) for string in strings]
+        await asyncio.gather(*tasks)
+        logger.info("[upload_strings]finished_all: strings_count={}", len(strings))
+
+    @retry_after_429()
+    async def _upload_strings(self, sem: asyncio.Semaphore, string: StringItem) -> None:
+        async with sem:
+            res = await self.client.put(
+                url=f"projects/{self.project_id}/strings/{string.id}",
+                json=string.model_dump()
+            )
+            self._log_res(f"upload_strings[string_id={string.id}]", res)
+
     @staticmethod
     def _log_res(request_name: str, res: Response) -> None:
         try:

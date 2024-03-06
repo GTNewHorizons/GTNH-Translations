@@ -4,7 +4,7 @@ import glob
 import os
 from pathlib import Path
 import subprocess
-from typing import TypeAlias, Callable, Optional
+from typing import Sequence, TypeAlias, Callable, Optional
 
 import httpx
 from dulwich import porcelain
@@ -16,7 +16,7 @@ from gtnh_translation_compare.modpack.modpack import ModPack
 from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
 from gtnh_translation_compare.paratranz.converter import Converter
 from gtnh_translation_compare.paratranz.paratranz_cache import ParatranzCache
-from gtnh_translation_compare.paratranz.types import TranslationFile
+from gtnh_translation_compare.paratranz.types import StringItem, TranslationFile
 from gtnh_translation_compare.utils.file import ensure_lf
 
 ParatranzFilenameFilter: TypeAlias = Callable[[str], bool]
@@ -126,19 +126,11 @@ class Action:
         repo_path: Path,
         subdirectory: Path,
     ) -> list[str]:
-        def filter_(name: str) -> bool:
-            return any(
-                [
-                    name.endswith(".lang" + ".json")
-                    and name != settings.DEFAULT_QUESTS_LANG_TARGET_REL_PATH + ".json"
-                    and name != settings.GT_LANG_TARGET_REL_PATH + ".json",
-                ]
-            )
         # Existing projects use resource folder on PT
         path_converter_: ParatranzToLocalPathConverter = lambda path: Path('config/txloader/forceload') / os.path.relpath(path, Path('resources'))
 
         return await self.__paratranz_to_translation(
-                filter_,
+                is_mod_lang_file,
                 None,
                 ValueError("No lang file found"),
                 repo_path,
@@ -208,7 +200,7 @@ class Action:
 
         paths_to_commit: list[str] = []
         modpack = ModPack(Path(modpack_path))
-        for lang_file in modpack.lang_files:
+        for lang_file in modpack.lang_files(Language.en_US):
             relpath = get_relpath(lang_file.get_en_us_relpath())
             write_file(os.path.abspath(relpath), lang_file.content)
             paths_to_commit.append(relpath)
@@ -335,6 +327,89 @@ class Action:
     ) -> None:
         asyncio.run(self._sync_all_to_paratranz(Path(repo_path), Path(subdirectory)))
 
+    ############################################################################
+    # Import translations from jars
+    ############################################################################
+        
+    async def _list_jar_translations(self, modpack_path: Path) -> None:
+        modpack = ModPack(modpack_path)
+        lang_files: Sequence[Filetype] = modpack.lang_files(settings.TARGET_LANG)
+        print_yellow(f"There are {len(lang_files)} existing translations in mod jars")
+        for lang_file in lang_files:
+            print(lang_file.get_en_us_relpath())
+
+    def list_jar_translations(self, modpack_path: str) -> None:
+        asyncio.run(self._list_jar_translations(Path(modpack_path)))
+
+    async def _view_jar_translations(self, modpack_path: Path) -> None:
+        modpack = ModPack(modpack_path)
+        lang_files: Sequence[Filetype] = modpack.lang_files(settings.TARGET_LANG)
+        count = 1
+        for lang_file in lang_files:
+            print_yellow("#"*30)
+            print_yellow(f"{lang_file.get_en_us_relpath()}: {count}/{len(lang_files)}")
+            print(lang_file.content)
+            print_yellow(f"Currently you're viewing {lang_file.get_en_us_relpath()}: {count}/{len(lang_files)}")
+            print_yellow("#"*30)
+
+            count += 1
+            if count > len(lang_files):
+                break
+            input("\033[33mType anything to view next...\033[0m")
+
+    def view_jar_translations(self, modpack_path: str) -> None:
+        asyncio.run(self._view_jar_translations(Path(modpack_path)))
+
+    async def _upload_jar_translations(self, modpack_path: Path, interactive: bool) -> None:
+        modpack = ModPack(modpack_path)
+        jar_files: Sequence[Filetype] = modpack.lang_files(settings.TARGET_LANG)
+        logger.info(f"There are {len(jar_files)} existing translations in mod jars")
+        all_paratranz_files = await self.client.get_all_files()
+        count = 1
+
+        def prepare_string_to_upload(string_item: StringItem) -> bool:
+            jar_translation = jar_lang_file.properties.get(string_item.key)
+            if jar_translation and not string_item.translation:
+                string_item.translation = jar_translation.value
+                string_item.stage = 1
+                return True
+            # else:
+                # Strings present in English file do not always exist in other language
+                # We don't want English to be saved as "translated"
+                # We also don't want to overwrite existing translation on PT side
+            return False
+
+        for jar_lang_file in jar_files:
+            matched_paratranz_files = list(filter(lambda f: f.name.removesuffix(".json") == jar_lang_file.relpath, all_paratranz_files))
+            if len(matched_paratranz_files) > 1:
+                raise RuntimeError(f"There're multiple matching files, this shouldn't happen! {jar_lang_file.relpath}")
+            if len(matched_paratranz_files) == 0:
+                raise RuntimeError(f"No file matched, maybe you didn't sync files to ParaTraz? {jar_lang_file.relpath}")
+            matched_paratranz_file = matched_paratranz_files[0]
+            paratranz_string_list = await self.client.get_strings(matched_paratranz_file.id)
+
+            new_string_list = list(filter(prepare_string_to_upload, paratranz_string_list))
+
+            if interactive:
+                print_yellow("#"*30)
+                print_yellow(f"{jar_lang_file.get_en_us_relpath()}: {count}/{len(jar_files)}")
+                print(jar_lang_file.content)
+                print_yellow(f"Currently you're viewing {jar_lang_file.get_en_us_relpath()}: {count}/{len(jar_files)}")
+                print_yellow("#"*30)
+                if input("\033[33mDo you want to import this translation? [y/n]\033[0m") == "y":
+                    await self.client.upload_strings(new_string_list)
+                    print_yellow(f"Uploaded {jar_lang_file.relpath}!")
+            else:
+                await self.client.upload_strings(new_string_list)
+                logger.info(f"Uploaded {jar_lang_file.relpath}!")
+
+            count += 1
+            if count > len(jar_files):
+                break
+
+    def upload_jar_translations(self, modpack_path: str, interactive: bool = True) -> None:
+        asyncio.run(self._upload_jar_translations(Path(modpack_path), interactive))
+
 
 def git_commit(
     git_root: str,
@@ -355,3 +430,15 @@ def write_file(filepath: str, content: str) -> None:
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, "w") as fp:
         fp.write(content)
+
+def is_mod_lang_file(name: str) -> bool:
+    return any(
+        [
+            name.endswith(".lang" + ".json")
+            and name != settings.DEFAULT_QUESTS_LANG_TARGET_REL_PATH + ".json"
+            and name != settings.GT_LANG_TARGET_REL_PATH + ".json",
+        ]
+    )
+
+def print_yellow(string: str) -> None:
+    print(f"\033[33m{string}\033[0m")

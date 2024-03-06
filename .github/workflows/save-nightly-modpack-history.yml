@@ -15,34 +15,11 @@ jobs:
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
 
-      - name: Fetch artifact ID
-        id: fetch-artifact-id
-        shell: bash
-        run: |
-          echo "artifact_id=$(gh --repo GTNewHorizons/DreamAssemblerXXL run list \
-            --limit 1 --workflow "Nightly modpack build" --json databaseId --jq '.[].databaseId')" \
-            >> $GITHUB_OUTPUT
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Ensure .nightly-temp
-        shell: bash
-        run:
-          mkdir .nightly-temp
       - name: Download nightly
-        shell: bash
-        working-directory: .nightly-temp
-        run: |
-          gh --repo GTNewHorizons/DreamAssemblerXXL run download \
-            ${{ steps.fetch-artifact-id.outputs.artifact_id }} \
-            --pattern *-mmcprism-new-java
-          # gh automatically unzips the first layer of the zip, one more zip left
-          cd $(ls | head -1)
-          unzip -q -o $(ls | head -1) -d ../unzip-tmp
-          cd ..
-          mv "unzip-tmp/GT New Horizons nightly" nightly
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+        uses: ./.github/actions/download-nightly
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          directory: .nightly-temp
       - name: Save nightly modpack history
         run: >-
           poetry run python main.py action save-nightly-modpack-history

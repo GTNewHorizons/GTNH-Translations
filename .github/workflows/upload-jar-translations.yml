@@ -1,35 +1,19 @@
-name: Sync GT lang to ParaTranz
+name: Upload mod jar translations
 
 on:
-  workflow_call:
-    inputs:
-      target_lang:
-        description: "Target language to run"
-        required: true
-        type: string
   workflow_dispatch:
     inputs:
       target_lang:
         description: "Target language to run"
         required: true
-        type: choice
-        options:
-          - zh_CN
-          - ja_JP
-          - ko_KR
-          - pt_BR
-          - fr_FR
-          - es_ES
-          - tr_TR
-          - de_DE
-          - pl_PL
+        type: string # Not a choice to prevent accident
 
 env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
 
 jobs:
-  sync-gt-lang-to-paratranz:
-    name: ${{ inputs.target_lang }} Sync GT lang to ParaTranz
+  upload-jar-translations:
+    name: Upload mod jar translations
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -43,10 +27,15 @@ jobs:
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
 
-      - name: Sync to ParaTranz
+      - name: Download nightly
+        uses: ./.github/actions/download-nightly
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          directory: .nightly-temp
+      - name: Upload mod jar translations
         run: >-
-          poetry run python main.py action gt-lang-to-paratranz
-          --subdirectory='nightly-history'
+          poetry run python main.py action upload-jar-translations
+          --modpack-path='.nightly-temp/nightly' --interactive=False
         env:
           PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
           TARGET_LANG: ${{ inputs.target_lang }}

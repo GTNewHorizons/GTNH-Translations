@@ -1,7 +1,8 @@
 import json
 import zipfile
-from functools import cached_property
+from functools import cache, cached_property
 from typing import TypeAlias, Dict
+from gtnh_translation_compare.filetypes.language import Language
 
 from gtnh_translation_compare.utils.file import replace_illegal_characters, ensure_lf
 
@@ -30,11 +31,11 @@ class Mod:
         except KeyError:
             return "__no-modinfo"
 
-    @cached_property
-    def lang_files(self) -> Dict[Filename, Content]:
+    @cache
+    def lang_files(self, language: Language) -> Dict[Filename, Content]:
         lang_files = {}
         for f in self.__jar.namelist():
-            if f.endswith("en_US.lang") and len(f.split("/")) == 4:
+            if f.endswith(f"{language.name}.lang") and len(f.split("/")) == 4:
                 with self.__jar.open(f, mode="r") as fp:
                     lang_files[f] = ensure_lf(fp.read().decode("utf-8-sig", errors="ignore"))
         return lang_files
