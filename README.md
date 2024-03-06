@@ -53,6 +53,7 @@ If you have 3 or more translators for the language, please contact boubou_19.
 4. Add new label for issue.
 5. Run `Sync all to ParaTranz` workflow with the new language code.
 6. Run `Publish nightly lang pack` workflow with the new language code.
+7. (Optional) Run `Upload mod jar translations` workflow to import existing translations in mod jars. You can skip this if you don't want. Or you can run Python script locally to choose which mod to upload, see [List of available actions](#list-of-available-actions).
 
 ### How workflows work
 
