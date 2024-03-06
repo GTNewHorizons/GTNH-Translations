@@ -369,14 +369,15 @@ class Action:
 
         def prepare_string_to_upload(string_item: StringItem) -> bool:
             jar_translation = jar_lang_file.properties.get(string_item.key)
-            if jar_translation and not string_item.translation:
+            if jar_translation and not string_item.translation and jar_translation.value != string_item.original:
                 string_item.translation = jar_translation.value
                 string_item.stage = 1
                 return True
-            # else:
-                # Strings present in English file do not always exist in other language
-                # We don't want English to be saved as "translated"
-                # We also don't want to overwrite existing translation on PT side
+            # 1. jar_translation being None means translation key present in English file doesn't appear in your language, so skip it
+            # 2. string_item.translation being non-None means there's already translation on PT side, so don't overwrite it
+            # 3. jar_translation.value == string_item.original means translation is identical to English, which implies
+            # it's just copy-paste and did not get translated. Note that it does not always exclude English because en file could have been
+            # updated since the creation of the translation file and the script wrongly guesses it's legit translation.
             return False
 
         for jar_lang_file in jar_files:
@@ -396,7 +397,7 @@ class Action:
                 print(jar_lang_file.content)
                 print_yellow(f"Currently you're viewing {jar_lang_file.get_en_us_relpath()}: {count}/{len(jar_files)}")
                 print_yellow("#"*30)
-                if input("\033[33mDo you want to import this translation? [y/n]\033[0m") == "y":
+                if input("\033[33mDo you want to import this file? [y/n]\033[0m") == "y":
                     await self.client.upload_strings(new_string_list)
                     print_yellow(f"Uploaded {jar_lang_file.relpath}!")
             else:
