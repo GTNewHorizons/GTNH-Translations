@@ -336,7 +336,7 @@ class Action:
         lang_files: Sequence[Filetype] = modpack.lang_files(settings.TARGET_LANG)
         print_yellow(f"There are {len(lang_files)} existing translations in mod jars")
         for lang_file in lang_files:
-            print(lang_file.get_en_us_relpath())
+            print(Path(os.path.dirname(os.path.relpath(lang_file.get_en_us_relpath(), "resources"))).parent)
 
     def list_jar_translations(self, modpack_path: str) -> None:
         asyncio.run(self._list_jar_translations(Path(modpack_path)))
