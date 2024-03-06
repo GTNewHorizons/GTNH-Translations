@@ -164,11 +164,11 @@ wg.gui.shiftForAspectList=§7Pulsa y mantiene §aShift§7 para ver una lista de 
 wg.gui.activeGem=Gema Activa
 wg.gui.passiveGem=Gema Pasiva
 wg.chat.gem.shatter=¡Tu Gema Infundida se hizo añicos!
-wg.desc.gemcut.POINT=Point Cut
-wg.desc.gemcut.TABLE=Table Cut
-wg.desc.gemcut.STEP=Step Cut
-wg.desc.gemcut.ROSE=Rose Cut
-wg.desc.gemcut.OVAL=Oval Cut
+wg.desc.gemcut.POINT=Corte Apuntado
+wg.desc.gemcut.TABLE=Corte en Mesa
+wg.desc.gemcut.STEP=Corte en Pasos
+wg.desc.gemcut.ROSE=Corte de Rosa
+wg.desc.gemcut.OVAL=Corte Ovalado
 wg.desc.gemaffinity=Afinidades Inherentes:
 wg.desc.gemaversion=Aversiones Inherentes:
 
@@ -230,36 +230,36 @@ tc.research_category.WITCHGADG=Witching Gadgets
 #WGPOTIONS
 witchinggadgets_research_name.WGPOTIONS=Alteraciones de Estado
 witchinggadgets_research_text.WGPOTIONS=[WG] ¡La leche no siempre es una opción!
-witchinggadgets_research_page.WGPOTIONS.1=When delving into the arcane, you may come about certain afflictions. This is a list of the known ones:<BR><IMG>witchinggadgets:textures/gui/potioneffects.png:18:198:18:18:1</IMG>§nKnockback resistance:§r  Grants the afflicted a chance to resist knockback, with a chance of 33% per level.<IMG>witchinggadgets:textures/gui/potioneffects.png:36:198:18:18:1</IMG>§nDissolving:§r  The afflicted is covered in a fluid akin to 'Liquid Death', damaging them over time. If they succumb to it, they drop crystalized aspects.
-witchinggadgets_research_page.WGPOTIONS.2=<IMG>witchinggadgets:textures/gui/potioneffects.png:54:198:18:18:1</IMG>§nCinder Coat:§r  The afflicted is coated in magical cinder, which heightens the potency of flames. All fire damage is multiplied based on the strength of the effect.
+witchinggadgets_research_page.WGPOTIONS.1=Al recabar información sobre lo arcano puedes toparte con ciertas aflicciones, a saber: <BR><IMG>witchinggadgets:textures/gui/potioneffects.png:18:198:18:18:1</IMG>§nResistencia al Empuje§r: Da una probabilidad del 33% por nivel de resistir empuje al ser atacado.<IMG>witchinggadgets:textures/gui/potioneffects.png:36:198:18:18:1</IMG>§nDisolvente§r: El aflijido es cubierto en un fluido similar a la Muerte Líquida, dañándolo a lo largo del tiempo. Si este efecto termina con él, hará que suelte aspectos cristalizados.
+witchinggadgets_research_page.WGPOTIONS.2=<IMG>witchinggadgets:textures/gui/potioneffects.png:54:198:18:18:1</IMG>§nCapa de Cenizas§r: El aflijido es rodeado por cenizas mágicas, que multiplica el daño de fuero que recibe según la fuerza del efecto.
 #
-witchinggadgets_research_name.ETHEREALWALL=Ethereal Wall
-witchinggadgets_research_text.ETHEREALWALL=[WG] Hidden in plain sight
-witchinggadgets_research_page.ETHEREALWALL.1=Refining the enchantments on arcane stone just a bit more has led to an interesting discovery. Simply applying a redstone signal to this new type of stone will make it §onon-corporeal§r, allowing you to pass through it.<BR>This also affects any other Ethereal Wall connected to the powered block.
-witchinggadgets_research_page.ETHEREALWALL.2=Furthermore, you can disguise this stone to the appearance of most common blocks. Simply click it with a block in hand it and this one will take its texture. Sneak and click it with an empty hand to remove the disguise. (It will only accept the texture of normally rendered blocks. Vanilla transparency works, Thaumcraft's Amber doesn't because it's coloured transparency, directional textures like wooden logs and quartz pillars are not fully supported)
+witchinggadgets_research_name.ETHEREALWALL=Muro Etéreo
+witchinggadgets_research_text.ETHEREALWALL=[WG] Oculto a plena vista
+witchinggadgets_research_page.ETHEREALWALL.1=Refinar los encantamientos de piedra arcana un pelín más ha llevado a un descubrimiento interesante. Aplicar una señal de redstone a este nuevo tipo de piedra lo vuelve §oincorpóreo§r, permitiéndote atravesarlo, así como cualquier otro Muro Etéreo conectado a él.
+witchinggadgets_research_page.ETHEREALWALL.2=Es más, puedes darle a esta piedra la apariencia de muchos otros bloques comunes: basta con darle click con un bloque en la mano hará que copie su apariencia. Agacharte y clicarlo con la mano vacía deshará la ilusión. (NB. Solo copia la textura de bloques renderizados normalmente, o con transparencia básica. El ámbar de Thaumcraft no se copia, y bloques direccionales como troncos o pilares de cuarzo quizá tampoco se copien)
 #
-witchinggadgets_research_name.STONEEXTRUDER=Thaumic Stone Extruder
-witchinggadgets_research_text.STONEEXTRUDER=[WG] One can never have enough stone
-witchinggadgets_research_page.STONEEXTRUDER.1=Even those that are not skilled in the arts of Thaumaturgy are aware of how flowing lava will solidify into cobblestone when cooled by water. Those skilled in the magical arts don't want to waste their time on the tedious digging of these stones and have therefore created an automated way.<BR>This machine will create cobblestone, break it and place it either on the ground (if enabled in the config) or into a connected inventory. Work will be halted if the inventory is full or a redstone signal is applied. You can use a wand to rotate it.
+witchinggadgets_research_name.STONEEXTRUDER=Extrusora de Piedra Táumica
+witchinggadgets_research_text.STONEEXTRUDER=[WG] Nunca se tiene suficiente piedra
+witchinggadgets_research_page.STONEEXTRUDER.1=Incluso aquellos no versados en la Taumaturgia saben como lava y agua producen adoquines al tocarse. Aquellos sí versados prefieren no perder tiempo recogiendo adoquines y han logrado automatizarlo.<BR>Esta máquina produce adoquines, los rompe y los suelta en el suelo (si los ajustes lo permiten) o en un bloque adyacente que tenga inventario. Si el inventario se llena, o se aplica una señal de redstone, la máquina se detendrá. Pedes rotar la máquina usando una varita.
 #
-witchinggadgets_research_name.ICESOLIDIFIER=Thaumic Ice Solidifier
-witchinggadgets_research_text.ICESOLIDIFIER=[WG] One can never have enough ice
-witchinggadgets_research_page.ICESOLIDIFIER.1=By manipulating and reversing the Thaumic Stone Extruder you have discovered the Thaumic Ice Solidifier, which is basically the same device, but it produces ice instead of cobble. Now go build an igloo!<BR>You can also make snowballs with a slightly different recipe.
+witchinggadgets_research_name.ICESOLIDIFIER=Solidificador de Hielo Táumico
+witchinggadgets_research_text.ICESOLIDIFIER=[WG] Nunca se tiene suficiente hielo
+witchinggadgets_research_page.ICESOLIDIFIER.1=Al darle la vuelta a la Extrusora de Piedra Táumica has descubierto el Solidificador de Hielo Táumico, que es la misma máquina pero produce hielo en vez de adoquines.<BR>Y cambiando un pelín la receta también puedes hacer bolas de nieve.
 #
-witchinggadgets_research_name.AGEINGSTONE=Ageing Stone
-witchinggadgets_research_text.AGEINGSTONE=[WG] Time flies when you're having fun!
-witchinggadgets_research_page.AGEINGSTONE.1=Every young Thaumaturge can't wait to grow up! But that would rob you of too many wonderful experiences. So instead you have decided to channel your knowledge of such time dilating arts into another form of Arcane Stone.<BR>The Ageing Stone will accelerate the ageing of most common creatures, making lambs, calves and piglets grow up much faster when exposed to it's magical energies.<BR>The Ageing Stone will apply this effect to all creatures in a 7x7x5 area centered around itself, with more blocks increasing the effect.
+witchinggadgets_research_name.AGEINGSTONE=Piedra de la Edad
+witchinggadgets_research_text.AGEINGSTONE=[WG] ¡El tiempo vuela cuando te diviertes!
+witchinggadgets_research_page.AGEINGSTONE.1=Todos los jóvenes taumaturgos desean crecer. Pero como eso te robaría muchas experiencias geniales, así que en su lugar has decidido aplicar tus conocimientos de dilatación temporal a la Piedra Arcana.<BR>La Piedra de la Edad hará más rápido el crecimiento de muchas criaturas, haciendo que crezcan más rápido si estan cerca de la Piedra.<BR> Tiene un rango de 7×7×5 bloques, y el poder de múltiples Piedras aumenta la velocidad aún más.
 #
-witchinggadgets_research_name.SPINNINGWHEEL=Spinning
-witchinggadgets_research_text.SPINNINGWHEEL=[WG] Don't prick yourself
-witchinggadgets_research_page.SPINNINGWHEEL.1=While many great Wizards neglect the practice of spinning and weaving, many of them do that by underestimating its true power. A number of magical artifacts are the product of clothwork, including every thaumaturge's robes. Some witches will testify that spellcrafting in itself even has a lot in common with weaving, requiring careful handling of the respective components; be it raw magic in its aspects or thread.
-witchinggadgets_research_page.SPINNINGWHEEL.2=Every practitioners start into the field should be made by creating their very own §lSpinning Wheel§r. It will be used if in acquiring yarn, be it mundane, of exquisite material or some enhanced with magic. This yarn will then later be used to weave the fabric from which to craft various garments or magic artifacts-
-witchinggadgets_research_page.SPINNINGWHEEL.r1=<IMG>witchinggadgets:textures/gui/research/spinningRecipes1.png:0:0:255:255:0.5</IMG>§lYarn§r
-witchinggadgets_research_page.SPINNINGWHEEL.r2=<IMG>witchinggadgets:textures/gui/research/spinningRecipes2.png:0:0:255:255:0.5</IMG>§lGolden Thread§r
-witchinggadgets_research_page.SPINNINGWHEEL.r3=<IMG>witchinggadgets:textures/gui/research/spinningRecipes3.png:0:0:255:255:0.5</IMG>§lThaumium Thread§r
+witchinggadgets_research_name.SPINNINGWHEEL=Rotar y Rocar
+witchinggadgets_research_text.SPINNINGWHEEL=[WG] No te pinches
+witchinggadgets_research_page.SPINNINGWHEEL.1=Muchos hechizeros no practican sus habilidades de confección, aunque en su mayoría porque subestiman su verdadero poder. Ciertos artefactos mágicos son el resultado de dichas habilidades, incluyendo los ropajes de dichos taumaturgos. Algunas brujas sostienen que el diseño de hechizos es muy similar con el diseño de tejidos, especialmente por el requisito de tener cuidado con sus componentes, ya sea magia cruda en forma de aspectos o hilo.
+witchinggadgets_research_page.SPINNINGWHEEL.2=La iniciación de los principiantes comienza por la creación de su propia §lrueca§r. Esta se usará para obtener hebras de hilos, algunos mágicos y otros no tanto. Más tarde dichas hebras serán usadas para tejer la tela con la que confeccionar distintas prendas de ropa o artefactos mágicos.
+witchinggadgets_research_page.SPINNINGWHEEL.r1=<IMG>witchinggadgets:textures/gui/research/spinningRecipes1.png:0:0:255:255:0.5</IMG>§lHebra§r
+witchinggadgets_research_page.SPINNINGWHEEL.r2=<IMG>witchinggadgets:textures/gui/research/spinningRecipes2.png:0:0:255:255:0.5</IMG>§lHebra Dorada§r
+witchinggadgets_research_page.SPINNINGWHEEL.r3=<IMG>witchinggadgets:textures/gui/research/spinningRecipes3.png:0:0:255:255:0.5</IMG>§lHebra de Taumio§r
 #
 
-witchinggadgets_research_name.CALCULATOR=Arcane Abacus
+witchinggadgets_research_name.CALCULATOR=Ábaco Arcano
 witchinggadgets_research_text.CALCULATOR=[WG] 3-4 = Warp?
 witchinggadgets_research_page.CALCULATOR.1=As a skilled thaumaturge, close to achieving eldritch knowledge, you are an expert on chaos. ...It might also stem from your lack of mathematical knowledge. But who would bother themselves with sciences of the common man when there are enchantments that do it for you?<BR>The Arcane Abacus will take some of the mundane mathematics off your hands. Use it on a Node that contains compound aspects and it will calculate it to primal values. Use it on an Infusion Matrix to gain info on stability, positioning of stabilizers, instability of the current infusion or possible increases in essentia cost.
 witchinggadgets_research_page.CALCULATOR.2=§mThe highest infusion instability known to man *cough*Thaumic Tinkerer*cough* is 15. Stabilizing your altar beyond that is pointless. §r §o The highest infusion instability is unkown, but could be somewhere around 30.
