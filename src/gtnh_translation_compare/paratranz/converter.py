@@ -84,24 +84,6 @@ class Converter:
             string_items=string_list,
         )
 
-    async def string_list_to_paratranz_file(self, file: Filetype, string_list: list[StringItem]) -> "ParatranzFile":
-        file_name = file.get_target_language_relpath(self.target_lang) + ".json"
-        paratranz_file_extra_properties: Dict[str, Property] = {
-            k: Property(key=p.key, start=p.start, end=p.end) for k, p in file.properties.items()
-        }
-        paratranz_file_extra = FileExtra(
-            original=file.content,
-            properties=paratranz_file_extra_properties,
-            en_us_relpath=file.get_en_us_relpath(),
-            target_relpath=file.get_target_language_relpath(self.target_lang),
-        )
-        logger.info(file_name)
-        return ParatranzFile(
-            file_name=file_name,
-            file_extra=paratranz_file_extra,
-            string_items=string_list,
-        )
-
 
 def sort_key(item: tuple[str, Property]) -> int:
     _, p = item
