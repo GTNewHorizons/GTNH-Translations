@@ -23,16 +23,16 @@ openblocks.gui.features=Features
 openblocks.gui.bugfixes=Bugfixes
 openblocks.gui.tweaks=Tweaks
 
-openblocks.gui.luggage=Luggage
-openblocks.gui.sprinkler=Sprinkler
-openblocks.gui.vacuumhopper=Vacuum Hopper
-openblocks.gui.bigbutton=Big Button
-openblocks.gui.xpbottler=XP Bottler
-openblocks.gui.autoanvil=Auto Anvil
-openblocks.gui.autoeject=Auto eject
-openblocks.gui.autoextract=Auto extract
-openblocks.gui.autodrink=Auto drink
-openblocks.gui.autoenchantmenttable=Auto Enchantment Table
+openblocks.gui.luggage=Bagagem
+openblocks.gui.sprinkler=Borrifador
+openblocks.gui.vacuumhopper=Funil a vácuo
+openblocks.gui.bigbutton=Grande botão
+openblocks.gui.xpbottler=Engarrafador de experiência
+openblocks.gui.autoanvil=Bigorna automática
+openblocks.gui.autoeject=Ejetar automaticamente
+openblocks.gui.autoextract=Extrair automaticamente
+openblocks.gui.autodrink=Beber automaticamente
+openblocks.gui.autoenchantmenttable=Mesa de encantamentos automática
 openblocks.gui.donationstation=Donation Station
 openblocks.gui.itemdropper=Item Dropper
 openblocks.gui.blockplacer=Block Placer
@@ -70,18 +70,18 @@ openblocks.gui.laststand.content=The last stand enchantment uses your XP bar as 
 
 openblocks.changelog.title=What's new in OpenBlocks %s
 openblocks.misc.url=URL: %s
-openblocks.misc.type=Type: %s
-openblocks.misc.uses=Uses: %.2f
-openblocks.misc.color=Color: %06X
-openblocks.misc.mode=Placement mode: %s
-openblocks.misc.mode.block=Block
-openblocks.misc.mode.panel=Panel
-openblocks.misc.mode.half_panel=Half-height panel
-openblocks.misc.mode.stairs=Stairs
-openblocks.misc.mode.inverted_block=Inverted Block
-openblocks.misc.mode.inverted_panel=Inverted Panel
-openblocks.misc.mode.inverted_half_panel=Inverted Half-height panel
-openblocks.misc.mode.inverted_stairs=Inverted Stairs
+openblocks.misc.type=Tipo: %s
+openblocks.misc.uses=Usa: %.2f
+openblocks.misc.color=Cor: %06X
+openblocks.misc.mode=Modo de colocação: %s
+openblocks.misc.mode.block=Bloco
+openblocks.misc.mode.panel=Painel
+openblocks.misc.mode.half_panel=Painel ao meio
+openblocks.misc.mode.stairs=Escadas
+openblocks.misc.mode.inverted_block=Bloco invertido
+openblocks.misc.mode.inverted_panel=Painel invertido
+openblocks.misc.mode.inverted_half_panel=Painel ao meio invertido
+openblocks.misc.mode.inverted_stairs=Escadas invertidas
 openblocks.misc.structure_pos=Debug: found structure %s at (%d,%d,%d)
 openblocks.misc.locked=Locked
 openblocks.misc.selected_cannon=Selected cannon for targeting
@@ -172,36 +172,36 @@ openblocks.misc.command.luck_current=Player %s luck: %d
 openblocks.misc.hidden_lore=§a§oHold ALT to see history§r
 openblocks.flim_flammed=Something weird happens around you
 
-openblocks.turtle.magnet=Magnet
+openblocks.turtle.magnet=Imã
 
-tile.openblocks.elevator.name=Elevator
+tile.openblocks.elevator.name=Elevador
 tile.openblocks.elevator.description=Place one elevator directly three or more blocks above another with no blocks inbetween and you'll be able to either 'jump' to move up, or 'crouch' to move down. Elevators can be dyed by clicking on them with dye, however, you can only teleport between elevators of the same color.
 
 tile.openblocks.elevator_rotating.name=Rotating Elevator
 
-tile.openblocks.heal.name=Healer
+tile.openblocks.heal.name=Curador
 tile.openblocks.heal.description=The healing block is a creative-mode only block that gives off a slight healing effect over time.
 
-tile.openblocks.guide.name=Building Guide
+tile.openblocks.guide.name=Guia de construção
 tile.openblocks.guide.description=The building guide, once powered with redstone, will give you an outline of ghost blocks in different shapes and sizes that'll help you plan out rooms.\nUse touch-buttons on block to change outline dimensions and shapes.\nColor of markers can be changed by using dye on central block.
 
 tile.openblocks.builder_guide.name=Enhanced Building Guide
 tile.openblocks.builder_guide.description=This enhanced version of building guide not only displays ghost blocks to make building easier, but also allows you to place actual blocks. Just click central block with any block stack!\nWhen in creative mode you can place an obsidian block above, then hit the building guide with any block you like to automatically create the shape.
 
-tile.openblocks.ladder.name=Jaded Ladder
+tile.openblocks.ladder.name=Escada cansada
 tile.openblocks.ladder.description=The jaded ladder solves that annoying problem of jumping out of a trapdoor at the top of a ladder. The jaded ladder acts as both a trap door and a ladder at the same time.
 
 tile.openblocks.tank.filled.name=%s Tank
-tile.openblocks.tank.name=Tank
+tile.openblocks.tank.name=Tanque
 tile.openblocks.tank.description=Tanks can hold liquids. If you place tanks next to each other and they'll distribute their liquid between the tanks. You can place liquid into the tanks using buckets. If the tank contains XP Juice you can click on them with an empty hand to give yourself some of the XP. When broken tanks will retain their liquid.
 
-tile.openblocks.flag.name=Flag
+tile.openblocks.flag.name=Bandeira
 tile.openblocks.flag.description=Flags can be used for decoration or for marking the way back out of a cave you've ventured in to. The flag will point in the direction that you placed it, or you can put it on walls. If you shift-click with a flag in your hand it will change color.
 
-tile.openblocks.beartrap.name=Bear Trap
+tile.openblocks.beartrap.name=Armadilha de ursos
 tile.openblocks.beartrap.description=Place a bear trap and click on it to open it up. When a mob walks over the trap they'll be unable to move!
 
-tile.openblocks.sponge.name=Sponge
+tile.openblocks.sponge.name=Esponja
 tile.openblocks.sponge.description=The sponge is a replacement for the vanilla sponge. Perfect for removing small pockets of lava or water. Be careful when using it on large areas of liquid though as it'll start to get quite messy.
 
 item.openblocks.spongeonastick.name=Sponge
@@ -210,13 +210,13 @@ item.openblocks.spongeonastick.description=The sponge on a stick is a tool for c
 item.openblocks.epic_eraser.name=Epic Eraser
 item.openblocks.epic_eraser.description=Every item has its own history...\n\nDon't you hate it?\nWith this item you can scrub all traces of epic lore your loot has collected over the years and then sell it on black market without worrying about evidence.
 
-tile.openblocks.cannon.name=Item Cannon
+tile.openblocks.cannon.name=Canhão de itens
 tile.openblocks.cannon.description=When given a redstone signal, the item cannon will shoot items that it finds in an adjacent inventory. Use the 'pointer' item to aim the cannon.
 
-tile.openblocks.ropeladder.name=Rope Ladder
+tile.openblocks.ropeladder.name=Corda
 tile.openblocks.ropeladder.description=When you place a rope ladder it'll roll out all the way to the ground. For every created ladder block it will use one item from stack.
 
-tile.openblocks.sprinkler.name=Sprinkler
+tile.openblocks.sprinkler.name=Borrifador
 tile.openblocks.sprinkler.description=The sprinkler will help fertilize crops up to 4 blocks away. Simply place it above an OpenBlocks tank filled with water! You can also add bonemeal for an even faster rate of growth.\nIt also acts as a water source block!
 
 tile.openblocks.paintmixer.name=Paint Mixer
@@ -225,28 +225,28 @@ tile.openblocks.paintmixer.description=The paint mixer can mix any colour of pai
 tile.openblocks.canvas.name=Canvas
 tile.openblocks.canvas.description=The canvas is a perfectly white block that's perfect for painting. See the Paint Mixer for information about making paints.
 
-tile.openblocks.fan.name=Fan
+tile.openblocks.fan.name=Ventilador
 tile.openblocks.fan.description=The fan will blow players, mobs or entities in the direction it's facing.
 
-tile.openblocks.target.name=Target
+tile.openblocks.target.name=Alvo
 tile.openblocks.target.description=The target will give out a redstone signal of a strength relative to the accuracy of the player's aim. Give the target a redstone signal to make it pop up!
 
-tile.openblocks.path.name=Path
+tile.openblocks.path.name=Caminho
 tile.openblocks.path.description=The path doesn't do anything. It just looks nice!
 
 tile.openblocks.itemDropper.name=Item Dropper
 tile.openblocks.itemDropper.description=The item dropper is similar to the vanilla dropper, except it drops items directly down in a straight line.
 
-tile.openblocks.bigbutton.name=Big Button
+tile.openblocks.bigbutton.name=Grande botão
 tile.openblocks.bigbutton.description=The big button is a large button that can be placed on walls. If you shift-click on the button with an empty hand it will bring up an inventory with a single slot. You can put items into this slot to increase the length of time the button is pressed - one item increases the button press by one tick.
 
-tile.openblocks.xpdrain.name=XP Drain
+tile.openblocks.xpdrain.name=Dreno de experiência
 tile.openblocks.xpdrain.description=Place the XP drain above an OpenBlocks tank and stand on it. Your XP will drain into the tank, which can then be used for blocks such as the auto enchantment table or the auto anvil.
 
-tile.openblocks.vacuumhopper.name=Vacuum Hopper
+tile.openblocks.vacuumhopper.name=Funil a vácuo
 tile.openblocks.vacuumhopper.description=The vacuum hopper will suck up items and XP orbs around it. You can use the tabs on the right of the interface to select which sides to output to.
 
-tile.openblocks.village_highlighter.name=Village Highlighter
+tile.openblocks.village_highlighter.name=Realçador de aldeões
 tile.openblocks.village_highlighter.description=Drop the village highlighter down in a village and give it a redstone signal. It will outline the perimeter of the village and draw a box in the iron golem spawning area. Useful if you want to make sure villages don't merge into each other or you're making an iron farm!
 
 tile.openblocks.donationStation.name=Donation Station
@@ -262,20 +262,20 @@ tile.openblocks.projector.name=Height Map Projector
 tile.openblocks.projector.description=I'll let you write this one boq!
 tile.openblocks.projector.working.name=Height Map Projector
 
-tile.openblocks.autoenchantmenttable.name=Auto Enchantment Table
+tile.openblocks.autoenchantmenttable.name=Mesa de encantamentos automática
 tile.openblocks.autoenchantmenttable.description=The auto enchantment table works in a similar way to the vanilla enchantment table except it runs off XP juice. Use the tabs on the right side of the interface to select where items or xp can be pulled from. Just like with the vanilla table bookshelves are required for higher levels.
 
-tile.openblocks.xpbottler.name=XP Bottler
+tile.openblocks.xpbottler.name=Engarrafador de experiência
 tile.openblocks.xpbottler.description=The XP bottler will take XP juice and bottle it up into glass bottles to create bottles o' enchanting.
 
-tile.openblocks.autoanvil.name=Auto Anvil
+tile.openblocks.autoanvil.name=Bigorna automática
 tile.openblocks.autoanvil.description=The auto anvil works just like the vanilla anvil, except it runs from XP juice and can be fully automated.\n\nUse the tabs on the right of the GUI to select which sides of the anvil items or liquid can be inserted or extracted. Right click and drag the anvil in the tab to spin it around and select other sides!
 
 tile.openblocks.drawingtable.name=Drawing Table
 tile.openblocks.drawingtable.description=The drawing table is for creating stencils which can be used while painting. Insert an Unprepared Stencil into the drawing table then use the arrows to select which stencil you want!
 
-tile.openblocks.grave.name=Grave
-tile.openblocks.trophy.name=Trophy
+tile.openblocks.grave.name=Túmulo
+tile.openblocks.trophy.name=Troféu
 tile.openblocks.trophy.entity.name=%s Trophy
 tile.openblocks.canvasglass.name=Glass Canvas
 tile.openblocks.paintcan.name=Paint Can
@@ -303,22 +303,22 @@ item.openblocks.cursor.description=The cursor will let you click on blocks remot
 item.openblocks.devnull.name=/dev/null
 item.openblocks.devnull.description=Click using /dev/null to open the inventory. There's a single inventory slot - put an item in there - dirt, for example. As you gather dirt from the ground this slot will fill up. Once it's full, any more dirt you pick up will be automatically discarded. You can shift-click with the item in your hand as though you were placing the block!
 
-item.openblocks.slimalyzer.name=Slimalyzer
+item.openblocks.slimalyzer.name=Gosmalizador
 item.openblocks.slimalyzer.description=Walk around with the slimalyzer in your hand and it'll light up whenever you're in a slime spawning chunk.
 
-item.openblocks.hangglider.name=Hang Glider
+item.openblocks.hangglider.name=Planador
 item.openblocks.hangglider.invalid_dimension=It seems the glider doesn't work, perhaps the atmosphere is too thin?
 item.openblocks.hangglider.description=The hang glider is self explanatory. Hold it in your hand and click to place it on your back. Now jump!\nTo increase your speed you can press shift while gliding, but watch out, you'll lose altitude faster!\n\nYour hang glider now also includes an acoustic variometer indicating vertical air movement. Press V to activate it and stay up forever (or until the sun goes down)!
 
-item.openblocks.gliderwing.name=Glider Wing
+item.openblocks.gliderwing.name=Asa do planador
 
-item.openblocks.sleepingbag.name=Sleeping Bag
+item.openblocks.sleepingbag.name=Saco de Dormir
 item.openblocks.sleepingbag.description=The sleeping bag lets you sleep out in the wilderness without having to reset your spawn location. To sleep, simply wear it on your back.
 
-item.openblocks.luggage.name=Luggage
+item.openblocks.luggage.name=Bagagem
 item.openblocks.luggage.description=Luggage is your new friend. He'll follow you around anywhere you go collecting any items he finds on the floor. Nom nom nom!\nTo dismantle him just shift-click on him and he'll turn into an item that you can carry around.\nIf he ever gets struck by lightning he'll be able to carry even more items!
 
-item.openblocks.sonicglasses.name=Sonic Glasses
+item.openblocks.sonicglasses.name=Óculos sônicos
 item.openblocks.sonicglasses.description=Introducing the fantabulous new Sonic Glasses!\nThis new and exciting technology from OpenMods Inc allow you see what you hear!
 
 item.openblocks.squeegee.name=Squeegee
@@ -330,29 +330,29 @@ item.openblocks.paintbrush.description=Paint brushes let you paint blocks in wha
 item.openblocks.unprepared_stencil.name=Unprepared Stencil
 item.openblocks.unprepared_stencil.description=Stencils can be placed onto blocks and then painted over using paint brushes!\n\nYou can paint a block using multiple stencils and you can click on them with an empty hand to rotate them.\n\nPlace an Unprepared Stencil in a Drawing table to create different patterns.
 
-item.openblocks.crane_backpack.name=Crane Backpack
+item.openblocks.crane_backpack.name=Mochila de guindaste
 item.openblocks.crane_backpack.description=In Minecraft world "magnet" is ancient word for "how do this works?".\n\nThis particular piece of very equipment allows you to pick and carry mobs, players, items and blocks. Can be controlled with magnet control.
 
-item.openblocks.crane_control.name=Crane Control
+item.openblocks.crane_control.name=Controle do guindaste
 item.openblocks.crane_control.description=This hi-tech wireless remote is used for controlling magnet backpacks.\n\nRight click to raise, Sneak + right click to lower, left click to pick/release.\nBlinking light signals something is under magnet.
 
 item.openblocks.wrench.name=Big Metal Bar
 item.openblocks.wrench.description=This is extremely sophisticated tool used to perform transformations of objects with octahedral symmetry.\n\n\nOr just big, dumb piece of metal you can use to rotate cubes and stuff.\n\nSo yeah, it's yet another wrench. I'm just trying to be original here, ok?
 
 item.openblocks.stencil.name=Stencil
-item.openblocks.crayon.name=Magic Crayon
-item.openblocks.pencil.name=Magic Pencil
-item.openblocks.glasses.pencil.name=Pencil Glasses
-item.openblocks.glasses.crayon.name=Crayon Glasses
-item.openblocks.glasses.technicolor.name=Amazing Technicolor Glasses
-item.openblocks.glasses.admin.name=Badass Glasses
-item.openblocks.crane_engine.name=Crane Engine
-item.openblocks.crane_magnet.name=Crane Magnet
-item.openblocks.beam.name=Beam
-item.openblocks.line.name=Line
-item.openblocks.miracle_magnet.name=§5Miracle Magnet§r
+item.openblocks.crayon.name=Giz de cera mágico
+item.openblocks.pencil.name=Lapis mágico
+item.openblocks.glasses.pencil.name=Óculos de lápis
+item.openblocks.glasses.crayon.name=Óculos de giz de cera
+item.openblocks.glasses.technicolor.name=Incríveis óculos technicolor
+item.openblocks.glasses.admin.name=Óculos Fodões
+item.openblocks.crane_engine.name=Motor do guindaste
+item.openblocks.crane_magnet.name=Imã do guindaste
+item.openblocks.beam.name=Holofote
+item.openblocks.line.name=Linha
+item.openblocks.miracle_magnet.name=§5Imã milagroso§r
 item.openblocks.info_book.name=World Domination with OpenBlocks
-item.openblocks.xpbucket.name=XP Bucket
+item.openblocks.xpbucket.name=Balde de experiência
 item.openblocks.height_map.name=Height Map
 item.openblocks.empty_map.name=Empty Map
 item.openblocks.map_controller.name=Map Controller Module
