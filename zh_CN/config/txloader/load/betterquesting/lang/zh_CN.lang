@@ -135,7 +135,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQA.desc=如果你碰巧找到了雪原�
 
 # Quest: Loading the Chunks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.name=§1§l加载区块
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft是基于区块的 - 16x16范围内从基岩到天空的区域. 你周围半径内的区块才会被加载. 如果一个区块没有被加载, 在其内部任何事都不会发生 - 作物不会生长,机器不会工作.因此,你需要在外出探索时,让基地中的区块保持加载. 之后即使你待在基地里,你也还是需要让区块保持加载,避免机器因加载问题而自顾自的爆炸地,尤其是多方块机器%n%n你可以有多种方法保持区块加载.%n%n1) 安装ServerUtilities(这是FTB Utilities的升级版本,参见§9§n[url]https://github.com/GTNewHodrizons/ServerUtilities/releases[/url]§r),认领区块,再加载区块. 如果你是一个人玩的话,默认配置下的认领/加载数可能不够用,所以尽管增加数量吧. 不过修改配置文件只有在单人模式或私人服务器可以做到.%n%n2) 使用四种RC的锚. 虽然你得到LV阶段以后才能制造它们. 在单人模式或是私人服务器中,你可以通过作弊获取管理员世界锚,免费永久加载区块. 在公共服务器上,为了防止长时间不上线玩家基地持续加载而大幅降低TPS,这些是被限制的. 在我们的官方服务器中,这些锚需要消耗末影碎片、末影珍珠或是区块加载器硬币.请查看tooltip,获知它们在什么锚中分别有多长的工作时间. %n%n3) 使用GT++的区块加载机.需要EU.%n%n4) 使用某种能加载自身所在区块的方块,这里就不列了. 如果在公共服务器上,没有经过管理员允许就大量使用此类方块,那他可能会给你点颜色看看了.就算是某些原版方式也不行.%n%n不要使用chicken chunks来获取类似锚的方块,它的bug非常多.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft是以区块为单位运作的 - 每个区块的范围是从基岩到天空的16x16区域. 你周围的区块会被模拟,或者说被加载. 如果一个区块没有被加载, 在其内部任何事都不会发生 - 作物不会生长,机器不会工作.因此,当你需要外出探索时,让基地中的区块保持加载. 之后即使你待在基地里,你也还是需要让区块保持加载,避免机器因加载问题而爆炸,尤其是多方块机器%n%n你可以有多种方法保持区块加载.%n%n1) 使用ServerUtilities. 默认配置下,你无法加载区块.如果你在单人模式或私人服务器内游玩,可以随意修改配置.%n%n2) 使用四种RC的锚. 虽然你得到LV阶段以后才能制造它们. 在单人模式或是私人服务器中,你可以通过作弊获取管理员世界锚,免费永久加载区块. 在公共服务器上,为了防止长时间不上线玩家基地持续加载而大幅降低TPS,这些是被限制的. 在我们的官方服务器中,这些锚需要消耗末影碎片、末影珍珠或是区块加载器硬币.请查看tooltip,获知它们在什么锚中分别有多长的工作时间. %n%n3) 使用GT++的区块加载机.需要EU.%n%n4) 使用某种能加载自身所在区块的方块,这里就不列了. 如果在公共服务器上,没有经过管理员允许就大量使用此类方块,那他可能会给你点颜色看看了.就算是某些原版方式也不行.%n%n不要使用chicken chunks来获取类似锚的方块,它的bug非常多.
 
 
 ## Quest Line: Tips and Tricks
@@ -173,7 +173,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEg.desc=目前大多数的材料都无�
 
 # Quest: Macerator v0.1 Alpha
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEw.name=§1§2§l粉碎 v0.1 Alpha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEw.desc=这个花俏的小东西用起来(几乎)和粉碎机一样,有些人认为这个更好用,因为它不需要任何能量,好耶! 在本任务中你只需要制作一次,但可以的话,你应该多做点...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEw.desc=这个花俏的小东西用起来(几乎)和粉碎机一样,有些人认为这个更好用,因为它不需要任何能量,好耶! 在本任务中你只需要制作一次,但可以的话,你应该多做点...%n%n[note]研钵让你能更高效地制作燧石 - 你只需要一块沙砾而不是三块. 你将来制作的许多工具和工作站也会为你已经制作过的东西添加更好的配方. 如果你在资源紧缺的时候急需某样东西,可以使用NEI查找那个物品的配方 - 你可能发现以前没有的配方.[/note]
 
 # Quest: Gravel: The Gathering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFA.name=§2§lGravel: 堆积沙砾
@@ -6759,7 +6759,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.name=我应该在哪建造戴森球?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.desc=如若你仔细阅读过戴森球地面单元的tooltip(你也应该这么做),那么你可能已经注意到,tooltip中提到"基于所在维度的系数".事实上,戴森球所在的维度会极大影响其能量输出.%n%n§l按系数从高到低排序：§r%n§a231％ - 巴纳德C%n228％ - α半人马Bb%n198％ - 织女B%n194％ - 金星空间站%n176％ - 金星%n161％ - 水星%n 141％ - 巴纳德E%n134％ - 鲸鱼座T星E%n126％ - 巴纳德F%n112％ - 罗斯128b、罗斯128ba%n110％ - 地球空间站%n§6100％ - 主世界、月球%n§c89％ - 火星空间站%n81％ - 火星、火卫一、火卫二%n61％ - 小行星%n60％ - 谷神星%n48％ - 木星空间站%n44％ - 木卫二、木卫一、木卫三%n36％ - 土星空间站%n32％ - 土卫二、土卫六、木卫四%n25％ - 天王星空间站%n23％ - 天卫四、海卫八、天卫五%n20％ - 海王星空间站%n18％ - 海卫一%n16％ - 冥王星、柯伊伯带%n15％ - 鸟神星、妊神星%n1％ - 花园、虚空世界以及矿界%n§40％ - 所有其他维度
 
 # Quest: Turbine Housing
-betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.name=Turbine Housing
+betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.name=涡轮仓
 betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.desc=At UV you unlock the ability to automatically refill turbines with rotors.%n%nXL turbines do it by default much earlier...
 
 # Quest: Naquadah Based Fuel MkVI
@@ -6767,7 +6767,7 @@ betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.name=硅岩基流体燃料-MkVI
 betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.desc=每mB产出2,077,795,200EU/t,持续12s. 相当离谱的发电, 也有相当离谱的消耗. 这条产线需要大量的基建, 不过能够产出数以万亿计的EU/t.%n%n配方所需的星体钛和天体钨可以从激光蚀刻或者等离子线产出.%n%n三钛可以通过聚变或者DD采矿产出. %n%n调律源金需要大量的聚变和DTPF来维持产出.%n%n在拥有鸿蒙之眼以后, 你可以使用白矮星物质来提高产率以产出更多的能量. %n%n要得到最高的MKVI燃料产出, 你还得考虑使用富快子时间流体.
 
 # Quest: Tier 4 Coil
-betterquesting.quest.KlI9Fbh9SsK4ckVNMJqGFA.name=Tier 4 Coil
+betterquesting.quest.KlI9Fbh9SsK4ckVNMJqGFA.name=4阶线圈
 betterquesting.quest.KlI9Fbh9SsK4ckVNMJqGFA.desc=This upgrade will allow you to create fuel even faster than before and with an alternative recipe for MKVI fuel!%n...but do you really need it?
 
 # Quest: XL Turbo Gas Turbine
@@ -7560,7 +7560,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeQ.desc=铟 - 锂与银聚变. 考虑�
 
 # Quest: Smaller Fusion Is Bigger
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeg.name=似小实大
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeg.desc=它并不小,虽然它叫压缩!%n%n压缩核聚变反应堆.如果你一直在寻找一种巨构,那么这就是你想要的!除了最大高度的巨型蒸馏塔以外,几乎没有其他多方块机器拥有超过它的尺寸,不过压缩聚变并不以高见长,而是宽,非常非常宽,事实上,它已经宽到无法塞进一个区块中,而是整整覆盖3x3区块的空间!请确保你遵循其结构指导及全息投影,并享受搭建的过程吧.%n%n与常规核聚变反应堆一样,你可以选择四种等级的压缩聚变.压缩聚变控制器需要48个同级常规聚变控制器,再加上一些其他材料,以及2000多个结构方块,这些信息在tooltip中都有详细指导.虽说压缩聚变比此前的常规聚变大得多,但它也有极高的并行数,从1级的64x并行开始,直到4级的最大256x并行! %n%n当你已经深入3级聚变,可能已经开始涉足4级聚变,同时发现自己遇到了能源危机的时候.比起搭建常规聚变塔,何不试试压缩聚变?等到这玩意建成后,你能源方面的唯一问题,就只是为了消耗其产出的所有等离子体,到底需要多少涡轮了. 你可能已经了解特大等离子涡轮, 但你也应该知道, 如果使用无尽锭这种良好的涡轮材料, 它们会对包括氦和锡等离子体在内的大多数等离子体造成巨大损失. 你还记得之前任务中提到的那些聚变反应链吗? 是时候使用它们了. 查看GT++任务章节了解更多详细信息.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeg.desc=它并不小,虽然它叫压缩!%n%n压缩核聚变反应堆.如果你一直在寻找一种巨构,那么这就是你想要的!除了最大高度的巨型蒸馏塔以外,几乎没有其他多方块机器拥有超过它的尺寸,不过压缩聚变并不以高见长,而是宽,非常非常宽,事实上,它已经宽到无法塞进一个区块中,而是整整覆盖3x3区块的空间!请确保你遵循其结构指导及全息投影,并享受搭建的过程吧.%n%n与常规核聚变反应堆一样,你可以选择四种等级的压缩聚变.压缩聚变控制器需要48个同级常规聚变控制器,再加上一些其他材料,以及2000多个结构方块,这些信息在tooltip中都有详细指导.虽说压缩聚变比此前的常规聚变大得多,但它也有极高的并行数,从1级的64x并行开始,直到5级的最大320x并行! %n%n当你已经深入3级聚变,可能已经开始涉足4级聚变,同时发现自己遇到了能源危机的时候.比起搭建常规聚变塔,何不试试压缩聚变?等到这玩意建成后,你能源方面的唯一问题,就只是为了消耗其产出的所有等离子体,到底需要多少涡轮了. 你可能已经了解特大等离子涡轮, 但你也应该知道, 如果使用无尽锭这种良好的涡轮材料, 它们会对包括氦和锡等离子体在内的大多数等离子体造成巨大损失. 你还记得之前任务中提到的那些聚变反应链吗? 是时候使用它们了. 查看GT++任务章节了解更多详细信息.
 
 # Quest: Thorium Tetrafluoride and Fuel 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMew.name=四氟化钍和燃料3
@@ -9301,7 +9301,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8w.desc=奥术装配室类似于分子�
 
 # Quest: Miscellaneous AE Items
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9A.name=AE杂项
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9A.desc=有一些AE物品不是特别有用,但也许值得一提,如下所示:%n%n赛特斯石英水槽:可存储32桶流体,便携且易于制造.%n%n显示元件:在元件工作台中配置,用于过滤终端中显示的物品(当然需要插入该终端才有效)%n%n赛特斯/下界石英切割刀:右键打开GUI.在插槽内放入铁锭,然后输入名字即可获得名称压印模板.这个压印模板可用于压印器中命名物品,而无需铁砧. 你还可以用切割刀直接命名世界中的P2P通道和ME接口.%n%nME方块容器:仅容纳一种物品,但容量与64K存储元件相当.可把其内物品放置到世界上,或者替换1x1或3x3范围方块.被替换的方块会以掉落物的形式出现.可以水平或垂直替换,这取决于你选中方块的哪个面.Shift+右键空气可以切换模式,右键方块激活模式.%n%n充能石英火把:与火把发光范围一致,但看起来更高端...%n%n光亮探测器:基于亮度发出红石信号.不过由于亮度7才能使其开始工作,所以比不上阳光传感器.%n%nME升级(Tier 1/2/3):如果你玩OC的话,这三个升级可以使你的机器人或无人机获得无线访问ME网络的权限.%nT1:0.5倍无线范围%nT2:无限范围%nT3:任意维度,无限范围%n%n熵变机械臂:将草方块/泥土/干燥泥土互相转化,或生火.还能融化冰.无用...%n%n物质炮:发射物质球(由物质聚合器制出). 译者注:也可以发射金属粒... 将其插入ME箱子或者驱动器,然后在终端放入物质球进行填充.我觉得还行? 不过它会破坏方块...好吧,我猜你会用染色球?%n%n染色器:使用染料或染色球(效率更高)对物品进行染色.你可以染色粘土,或者任意兼容伪装板的方块,比如羊毛或者草方块.填充方式与物质炮一致.你可以按住Shift+右键(也可以滑动滚轮)来循环选择颜色.使用雪球可以擦去颜色.也可以用发射器.%n%n海象:这是一只海象,你在期待什么?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9A.desc=有一些AE物品不是特别有用,但也许值得一提,如下所示:%n%n赛特斯石英水槽:可存储32桶流体,便携且易于制造.%n%n显示元件:在元件工作台中配置,用于过滤终端中显示的物品(当然需要插入该终端才有效)%n%n赛特斯/下界石英切割刀:右键打开GUI然后输入名字即可获得名称压印模板.这个压印模板可用于压印器中命名物品,而无需铁砧. 你还可以用切割刀直接命名世界中的P2P通道和ME接口.%n%nME方块容器:仅容纳一种物品,但容量与64K存储元件相当.可把其内物品放置到世界上,或者替换1x1或3x3范围方块.被替换的方块会以掉落物的形式出现.可以水平或垂直替换,这取决于你选中方块的哪个面.Shift+右键空气可以切换模式,右键方块激活模式.%n%n充能石英火把:与火把发光范围一致,但看起来更高端...%n%n光亮探测器:基于亮度发出红石信号.不过由于亮度7才能使其开始工作,所以比不上阳光传感器.%n%nME升级(Tier 1/2/3):如果你玩OC的话,这三个升级可以使你的机器人或无人机获得无线访问ME网络的权限.%nT1:0.5倍无线范围%nT2:无限范围%nT3:任意维度,无限范围%n%n熵变机械臂:将草方块/泥土/干燥泥土互相转化,或生火.还能融化冰.无用...%n%n物质炮:发射物质球(由物质聚合器制出). 译者注:也可以发射金属粒... 将其插入ME箱子或者驱动器,然后在终端放入物质球进行填充.我觉得还行? 不过它会破坏方块...好吧,我猜你会用染色球?%n%n染色器:使用染料或染色球(效率更高)对物品进行染色.你可以染色粘土,或者任意兼容伪装板的方块,比如羊毛或者草方块.填充方式与物质炮一致.你可以按住Shift+右键(也可以滑动滚轮)来循环选择颜色.使用雪球可以擦去颜色.也可以用发射器.%n%n海象:这是一只海象,你在期待什么?
 
 # Quest: Magical Minions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9Q.name=魔法仆从
@@ -11658,7 +11658,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIg.desc=折磨线团是使用转轮从�
 
 # Quest: Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIw.name=蒸馏塔
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIw.desc=巫师使用的蒸馏塔是用于蒸馏魔法成分的设备. 它不像普通的蒸馏塔,因为它使用从附近的祭坛获得的能量来加热自身. 蒸馏塔必须在距离祭坛大约14-16格的范围内以便从中获取能量--如果没有能量,界面会显示一个小图标. 一个或两个成分被一起蒸馏,最多会产生四个产物. 还需要提供一些粘土罐来捕获部分或全部蒸馏产物. 使用巫师坩埚、铁炉、神秘锭板、小型不锈钢流体管道、调谐之石和粘土罐制作蒸馏塔.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIw.desc=巫师使用的蒸馏塔是用于蒸馏魔法成分的设备. 它不像普通的蒸馏塔,因为它使用从附近的祭坛获得的能量来加热自身. 蒸馏塔必须在距离祭坛大约14-16格的范围内才能从中获取能量-如果没有能量可用,界面上会显示一个小图标.%n%n一种或两种成分被一起蒸馏,最多会产生四个产物. 还需要提供一些粘土罐来捕获部分或全部蒸馏产物.
 
 # Quest: Nightmare Protection
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGJA.name=梦魇防护
@@ -13709,7 +13709,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.desc=§W欢迎来到我的TED演讲,
 
 # Quest: UV Power Per Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=单涡轮UV发电
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=等你到达ZPM阶段,可以制造ZPM动力仓后,每台涡轮的输出功率可以提高到524,288-EU/t.达到这个数字后,你对涡轮材料的选择限制已经少很多了,并且可以显著增加单堆输出的总功率.只要选择合适的涡轮材料,你就可以用3台大型等离子涡轮消化掉单堆输出的所有氦离子,建议材料如下:%n%n大型高耐久性复合钢涡轮,效率230％,输出功率202,860-EU/t%n大型原子分离催化剂涡轮,效率200％,输出功率399,672-EU/t%n大型精金涡轮,效率180％,输出功率170,010-EU/t%n大型龙锭涡轮,效率170％,输出功率214,200-EU/t(耐久高)%n小型灵宝涡轮,效率170％,输出功率342,720-EU/t(耐久极高)%n大型中子涡轮,效率160％,输出功率241,920-EU/t(耐久极高)%n%n根据你使用涡轮的不同,最终的效率与输出功率会有很大差异.以上所列材料中,灵宝和中子涡轮的耐久极高,基本可以近乎永久使用,而另一些效率更高但需要时不时进行更换. 如果你想要单涡轮输出尽可能高的功率,尽可能迫近动力仓的极限的话,可以提高等离子体的流量,但一定要小心!千万不要超出动力仓的极限,而且流量超过最佳流量后,随着流量的进一步提升,效率会逐渐降低.更具体的效率损失值,可以在LuV任务章节中的"涡轮时间"任务内找到.%n%n制造一个ZPM动力仓(普通或缓冲的)即可完成此任务.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=等你到达ZPM阶段,可以制造ZPM动力仓后,每台涡轮的输出功率可以提高到524,288-EU/t.达到这个数字后,你对涡轮材料的选择限制已经少很多了,并且可以显著增加单堆输出的总功率.只要选择合适的涡轮材料,你就可以用3台大型等离子涡轮消化掉单堆输出的所有氦离子,建议材料如下:%n%n大型高耐久性复合钢涡轮,效率230％,输出功率202,860-EU/t%n大型原子分离催化剂涡轮,效率200％,输出功率399,672-EU/t%n大型精金涡轮,效率180％,输出功率170,010-EU/t%n大型龙锭涡轮,效率170％,输出功率214,200-EU/t(耐久高)%n大型中子涡轮,效率160％,输出功率241,920-EU/t(耐久极高)%n%n根据你使用涡轮的不同,最终的效率与输出功率会有很大差异.以上所列材料中,灵宝和中子涡轮的耐久极高,基本可以近乎永久使用,而另一些效率更高但需要时不时进行更换. 如果你想要单涡轮输出尽可能高的功率,尽可能迫近动力仓的极限的话,可以提高等离子体的流量,但一定要小心!千万不要超出动力仓的极限,而且流量超过最佳流量后,随着流量的进一步提升,效率会逐渐降低.更具体的效率损失值,可以在LuV任务章节中的"涡轮时间"任务内找到.%n%n制造一个ZPM动力仓(普通或缓冲的)即可完成此任务.
 
 # Quest: High Temperature Super Breeder
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.name=高温超级增殖反应堆
@@ -13717,7 +13717,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.desc=你听说过球床反应堆吗?
 
 # Quest: Two Million Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.name=2M涡轮
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.desc=希望不要超过一手之数.这里的目标是让每台涡轮都能输出接近2M-EU/t.%n%n怎么做到呢?看看UV动力仓的合成表吧,然后你就有了新的目标.等你制造出UV动力仓后,每台配备它的涡轮都可以将输出功率上限提升为2,097,152-EU/t,这再次拓展了你选择涡轮的范围.以下有一些不错的选择：%n%n大型宇宙中子态素涡轮,效率220％,输出功率1,330,560-EU/t%n大型觉醒龙锭涡轮,效率190％,输出功率478,800-EU/t%n大型三元金属涡轮,效率180％,输出功率1,452,520-EU/t%n%n现在,你可能在考虑修建更多的1级核聚变反应堆,用以处理其他材料.其实即便你停下生产等离子体的反应堆,重启消耗的EU也不到1桶等离子体,所以应该没什么大不了的.%n%n制造一个UV动力仓(普通或缓冲的)即可完成此任务.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.desc=希望不要超过一手之数.这里的目标是让每台涡轮都能输出接近2M-EU/t.%n%n怎么做到呢?看看UV动力仓的合成表吧,然后你就有了新的目标.等你制造出UV动力仓后,每台配备它的涡轮都可以将输出功率上限提升为2,097,152-EU/t,这再次拓展了你选择涡轮的范围.以下有一些不错的选择：%n%n大型宇宙中子态素涡轮,效率220％,输出功率1,330,560-EU/t%n大型灵宝涡轮,效率220％,输出功率1,330,560-EU/t(耐久极高)%n大型觉醒龙锭涡轮,效率190％,输出功率478,800-EU/t%n大型三元金属涡轮,效率180％,输出功率1,451,520-EU/t%n%n现在,你可能在考虑修建更多的1级核聚变反应堆,用以处理其他材料.其实即便你停下生产等离子体的反应堆,重启消耗的EU也不到1桶等离子体,所以应该没什么大不了的.%n%n制造一个UV动力仓(普通或缓冲的)即可完成此任务.
 
 # Quest: Infinite Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.name=无尽涡轮
