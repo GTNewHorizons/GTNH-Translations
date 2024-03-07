@@ -1,132 +1,132 @@
 #This file is a translation file for KubaTech
 
 #RecipeMaps
-kubatech.defusioncrafter=Draconic Evolution Fusion Crafter
+kubatech.defusioncrafter=Ewolucyjna Fuzyjna Maszyna Rzemieślnicza z Draconium
 
 #NEI
-kubatech.defusioncrafter.tier=Tier Casing: %s
-kubatech.mobhandler.eec_chance=§5Chance to drop in EEC: %.2f%%
-kubatech.mobhandler.eec_disabled=§5Does not drop in EEC
+kubatech.defusioncrafter.tier=Poziom obudowy: %s
+kubatech.mobhandler.eec_chance=§5Szansa na łup w EMB: %.2f%%
+kubatech.mobhandler.eec_disabled=§5Nie wypada w EMB
 
 #Commands
-kubatech.commandhandler.invalid=§cInvalid use ! The proper use of this command is /%s
-kubatech.commandhandler.cant_find=§cCan't find command option %s
-kubatech.commandhandler.generic_help=§cYou can also use "/kubatech help" to get possible commands
-kubatech.commandhandler.usage=<option>
-kubatech.command.help.possible_commands=Possible commands: 
-kubatech.command.help.usage=- Shows all possible commands
-kubatech.command.config.invalid_option=§cInvalid option ! Possible options: reload
-kubatech.command.config.success=§aConfig reloaded successfully !
-kubatech.command.config.usage=<option>
+kubatech.commandhandler.invalid=§cNieprawidłowe użycie ! Poprawne użycie komendy to /%s
+kubatech.commandhandler.cant_find=§cNie można znaleźć opcji komendy %s
+kubatech.commandhandler.generic_help=§cMożesz również użyć "/kubatech help" aby otrzymać możliwe komendy
+kubatech.commandhandler.usage=<opcja>
+kubatech.command.help.possible_commands=Możliwe komendy:
+kubatech.command.help.usage=- Pokazuje wszystkie możliwe komendy 
+kubatech.command.config.invalid_option=§cNieprawidłowa opcja ! Możliwe opcje: reload 
+kubatech.command.config.success=§aKonfiguracja przeładowana prawidłowo !
+kubatech.command.config.usage=<opcja>
 
-kubatech.command.tea.invalid_option=§cInvalid usage !
-kubatech.command.tea.player_not_found=§cPlayer not found !
-kubatech.command.tea.success_get=Player %s has %d Tea
-kubatech.command.tea.success_set=Player %s now has %d Tea
-kubatech.command.tea.success_add=Player %s now has %d Tea
-kubatech.command.tea.usage=<username> get/set/add (<amount>)
+kubatech.command.tea.invalid_option=§cNieprawidłowe użycie
+kubatech.command.tea.player_not_found=§cNie znaleziono gracza !
+kubatech.command.tea.success_get=Gracz %s ma %d Herbat
+kubatech.command.tea.success_set=Gracz %s ma teraz %d Herbat
+kubatech.command.tea.success_add=Gracz %s ma teraz %d Herbat
+kubatech.command.tea.usage=<nazwa gracza> get/set/add (<ilość>)
 
 #GUI
-GT5U.gui.text.EEC_nospawner=No powered spawner!
-GT5U.gui.text.EEC_invalidspawner=Invalid spawner!
-GT5U.gui.text.EEC_peaceful=Inserted mob cannot spawn on peaceful mode!
-GT5U.gui.text.MegaApiary_slotoverflow=Too much bees inside!
-GT5U.gui.text.MegaApiary_noflowers=Missing flowers!
-GT5U.gui.text.EIG_slotoverflow=Too much crops inside!
-GT5U.gui.text.EIG_missingwater=No water!
-GT5U.gui.text.EIG_ic2glass=Insufficient glass tier!
+GT5U.gui.text.EEC_nospawner=Brak zasilanego przywoływacza!
+GT5U.gui.text.EEC_invalidspawner=Nieprawidłowy przywoływacz!
+GT5U.gui.text.EEC_peaceful=Wprowadzony mob nie może pojawić się w trybie pokojowym!
+GT5U.gui.text.MegaApiary_slotoverflow=Za dużo pszczół w środku!
+GT5U.gui.text.MegaApiary_noflowers=Brakuje kwiatów!
+GT5U.gui.text.EIG_slotoverflow=Za dużo upraw w środku!
+GT5U.gui.text.EIG_missingwater=Brak wody!
+GT5U.gui.text.EIG_ic2glass=Niewystarczający poziom szkła!
 
 #Blocks
-kubablock.tea_acceptor.name=§4§lTea Acceptor
-kubablock.tea_storage.name=§4§lTea Storage Extender
+kubablock.tea_acceptor.name=§4§lOdbiornik Herbaty
+kubablock.tea_storage.name=§4§lPoszerzacz magazynu na herbatę
 
 #DEFC Casings
-defc.casing.tip=Draconic Evolution Fusion Crafter Casing, Tier %d
+defc.casing.tip=Obudowa Ewolucyjnej Fuzyjnej Maszyny Rzemieślniczej z Draconium, Poziom %d
 
 #Items
-kubaitem.fromcollection=This item is from
-kubaitem.notyours=It looks like that item is not yours
-kubaitem.defc_schematic_t1.name=Draconic Core Schematic
-kubaitem.defc_schematic_t1.tip=This Schematic can be found in Pluto Dungeons
-kubaitem.defc_schematic_t2.name=Wyvern Core Schematic
-kubaitem.defc_schematic_t3.name=Awakened Core Schematic
-kubaitem.defc_schematic_t4.name=Chaotic Core Schematic
+kubaitem.fromcollection=Ten przedmiot jest z
+kubaitem.notyours=Wygląda na to, że ten przedmiot nie jest twój
+kubaitem.defc_schematic_t1.name=Schemat Rdzenia z Draconium
+kubaitem.defc_schematic_t1.tip=Ten Schemat może być znaleziony w lochach na Plutonie
+kubaitem.defc_schematic_t2.name=Schemat Rdzenia Wywerny
+kubaitem.defc_schematic_t3.name=Schemat Przebudzonego Rdzenia
+kubaitem.defc_schematic_t4.name=Schemat Chaotycznego Rdzenia
 
 #Tea
-kubaitem.tea.black_tea.name=Black Tea
-kubaitem.tea.earl_gray_tea.name=Earl Gray Tea
-kubaitem.tea.green_tea.name=Green Tea
-kubaitem.tea.lemon_tea.name=Lemon Tea
-kubaitem.tea.milk_tea.name=Milk Tea
-kubaitem.tea.oolong_tea.name=Oolong Tea
-kubaitem.tea.peppermint_tea.name=Peppermint Tea
-kubaitem.tea.pu-erh_tea.name=Pu-erh Tea
-kubaitem.tea.white_tea.name=White Tea
-kubaitem.tea.yellow_tea.name=Yellow Tea
-kubaitem.teaingredient.black_tea_leaf.name=Black Tea Leaf
-kubaitem.teaingredient.green_tea_leaf.name=Green Tea Leaf
-kubaitem.teaingredient.oolong_tea_leaf.name=Oolong Tea Leaf
-kubaitem.teaingredient.pu-erh_tea_leaf.name=Pu-erh Tea Leaf
-kubaitem.teaingredient.white_tea_leaf.name=White Tea Leaf
-kubaitem.teaingredient.yellow_tea_leaf.name=Yellow Tea Leaf
-kubaitem.teaingredient.tea_leaf_dehydrated.name=Dehydrated Tea Leaf
-kubaitem.teaingredient.steamed_tea_leaf.name=Steamed Tea Leaf
-kubaitem.teaingredient.rolled_tea_leaf.name=Rolled Tea Leaf
-kubaitem.teaingredient.oxidized_tea_leaf.name=Oxidized Tea Leaf
-kubaitem.teaingredient.fermented_tea_leaf.name=Fermented Tea Leaf
-kubaitem.teaingredient.bruised_tea_leaf.name=Bruised Tea Leaf
-kubaitem.teaingredient.partially_oxidized_tea_leaf.name=Partially Oxidized Tea Leaf
+kubaitem.tea.black_tea.name=Herbata Czarna
+kubaitem.tea.earl_gray_tea.name=Herbata Earl Grey
+kubaitem.tea.green_tea.name=Herbata Zielona
+kubaitem.tea.lemon_tea.name=Herbata Cytrynowa
+kubaitem.tea.milk_tea.name=Herbata z Mlekiem
+kubaitem.tea.oolong_tea.name=Herbata Oolong
+kubaitem.tea.peppermint_tea.name=Herbata Miętowa
+kubaitem.tea.pu-erh_tea.name=Herbata Pu-erh
+kubaitem.tea.white_tea.name=Herbata Biała
+kubaitem.tea.yellow_tea.name=Herbata Żółta
+kubaitem.teaingredient.black_tea_leaf.name=Liść Herbaty Czarnej
+kubaitem.teaingredient.green_tea_leaf.name=Liść Herbaty Zielonej
+kubaitem.teaingredient.oolong_tea_leaf.name=Liść Herbaty Oolong
+kubaitem.teaingredient.pu-erh_tea_leaf.name=Liść Herbaty Pu-erh
+kubaitem.teaingredient.white_tea_leaf.name=Liść Herbaty Białej
+kubaitem.teaingredient.yellow_tea_leaf.name=Liść Herbaty Żółtej
+kubaitem.teaingredient.tea_leaf_dehydrated.name=Wysuszony Liść Herbaty
+kubaitem.teaingredient.steamed_tea_leaf.name=Parzony Liść Herbaty
+kubaitem.teaingredient.rolled_tea_leaf.name=Zwinięty Liść Herbaty
+kubaitem.teaingredient.oxidized_tea_leaf.name=Utleniony Liść Herbaty
+kubaitem.teaingredient.fermented_tea_leaf.name=Fermentowany Liść Herbaty
+kubaitem.teaingredient.bruised_tea_leaf.name=Podarty Liść Herbaty
+kubaitem.teaingredient.partially_oxidized_tea_leaf.name=Częściowo Utleniony Liść Herbaty
 
 #Legendary Tea collection
-kubaitem.teacollection=Turbo Legendary Secret Tea Collection
-kubaitem.teacollection.mmm=Mmmm Tea
-kubaitem.teacollection.black_tea.name=§6§lKuba's Black Tea
-kubaitem.teacollection.butterfly_tea.name=§1§lKuba's Butterfly Pea Tea
-kubaitem.teacollection.earl_gray_tea.name=§6§lKuba's Earl Gray Tea
-kubaitem.teacollection.green_tea.name=§2§lKuba's Green Tea
-kubaitem.teacollection.lemon_tea.name=§e§lKuba's Lemon Tea
-kubaitem.teacollection.milk_tea.name=§f§lKuba's Milk Tea
-kubaitem.teacollection.oolong_tea.name=§e§lKuba's Oolong Tea
-kubaitem.teacollection.peppermint_tea.name=§a§lKuba's Peppermint Tea
-kubaitem.teacollection.pu-erh_tea.name=§4§lKuba's Pu-erh Tea
-kubaitem.teacollection.red_tea.name=§c§lKuba's Hibiscus Tea
-kubaitem.teacollection.white_tea.name=§e§lKuba's White Tea
-kubaitem.teacollection.yellow_tea.name=§6§lKuba's Yellow Tea
-kubaitem.teacollection.ultimate_tea.name=§6§lKuba's %s §6§lTea
+kubaitem.teacollection=Sekretna Turbo Legendarna Kolekcja Herbaty
+kubaitem.teacollection.mmm=Mmmm Herbatka
+kubaitem.teacollection.black_tea.name=§6§lHerbata Czarna - Kuby
+kubaitem.teacollection.butterfly_tea.name=§1§lHerbata z Klitorii Ternateńskiej - Kuby
+kubaitem.teacollection.earl_gray_tea.name=§6§lHerbata Earl Grey - Kuby
+kubaitem.teacollection.green_tea.name=§2§lHerbata Zielona - Kuby
+kubaitem.teacollection.lemon_tea.name=§e§lHerbata Cytrynowa - Kuby
+kubaitem.teacollection.milk_tea.name=§f§lHerbata z Mlekiem - Kuby
+kubaitem.teacollection.oolong_tea.name=§e§lHerbata Oolong - Kuby
+kubaitem.teacollection.peppermint_tea.name=§a§lHerbata Miętowa - Kuby
+kubaitem.teacollection.pu-erh_tea.name=§4§lHerbata Pu-erh - Kuby
+kubaitem.teacollection.red_tea.name=§c§lHerbata z Hibiskusa - Kuby
+kubaitem.teacollection.white_tea.name=§e§lHerbata Biała - Kuby
+kubaitem.teacollection.yellow_tea.name=§6§lHerbata Żółta - Kuby
+kubaitem.teacollection.ultimate_tea.name=§6§lHerbata %s §6§lKuby
 
-kubaitem.tea_acceptor_research_note.name=Tea Acceptor Research Note
+kubaitem.tea_acceptor_research_note.name=Notatka Badawcza Odbiornika Herbaty
 
 #Achievements
-achievement.teacollection.black_tea=§6§lKuba's Black Tea
-achievement.teacollection.butterfly_tea=§1§lKuba's Butterfly Pea Tea
-achievement.teacollection.earl_gray_tea=§6§lKuba's Earl Gray Tea
-achievement.teacollection.green_tea=§2§lKuba's Green Tea
-achievement.teacollection.lemon_tea=§e§lKuba's Lemon Tea
-achievement.teacollection.milk_tea=§f§lKuba's Milk Tea
-achievement.teacollection.oolong_tea=§e§lKuba's Oolong Tea
-achievement.teacollection.peppermint_tea=§a§lKuba's Peppermint Tea
-achievement.teacollection.pu-erh_tea=§4§lKuba's Pu-erh Tea
-achievement.teacollection.red_tea=§c§lKuba's Hibiscus Tea
-achievement.teacollection.white_tea=§e§lKuba's White Tea
-achievement.teacollection.yellow_tea=§6§lKuba's Yellow Tea
+achievement.teacollection.black_tea=§6§lHerbata Czarna - Kuby
+achievement.teacollection.butterfly_tea=§1§lHerbata z Klitorii Ternateńskiej - Kuby
+achievement.teacollection.earl_gray_tea=§6§lHerbata Earl Grey - Kuby
+achievement.teacollection.green_tea=§2§lHerbata Zielona - Kuby
+achievement.teacollection.lemon_tea=§e§lHerbata Cytrynowa - Kuby
+achievement.teacollection.milk_tea=§f§lHerbata z Mlekiem - Kuby
+achievement.teacollection.oolong_tea=§e§lHerbata Oolong - Kuby
+achievement.teacollection.peppermint_tea=§a§lHerbata Miętowa - Kuby
+achievement.teacollection.pu-erh_tea=§4§lHerbata Pu-erh - Kuby
+achievement.teacollection.red_tea=§c§lHerbata z Hibiskusa - Kuby
+achievement.teacollection.white_tea=§e§lHerbata Biała - Kuby
+achievement.teacollection.yellow_tea=§6§lHerbata Żółta - Kuby
 achievement.teacollection.ultimate_tea=§4§l§k??????
 
-achievement.teacollection.black_tea.desc=§6The most common and popular type of Tea
-achievement.teacollection.butterfly_tea.desc=§1Not even Tea
-achievement.teacollection.earl_gray_tea.desc=§6For the true Brits
-achievement.teacollection.green_tea.desc=§2Based
-achievement.teacollection.lemon_tea.desc=§eBlack Tea with lemon, what did You expect ?
-achievement.teacollection.milk_tea.desc=§fBlack Tea with milk, my favourite
+achievement.teacollection.black_tea.desc=§6Najbardziej powszechny i popularny rodzaj Herbaty
+achievement.teacollection.butterfly_tea.desc=§1To nawet nie jest Herbata
+achievement.teacollection.earl_gray_tea.desc=§6Dla prawdziwych Brytyjczyków
+achievement.teacollection.green_tea.desc=§2Based ( ͡° ͜ʖ ͡°)
+achievement.teacollection.lemon_tea.desc=§eHerbata Czarna z cytryną, czego się spodziewałeś ?
+achievement.teacollection.milk_tea.desc=§fHerbata Czarna z mlekiem, moja ulubiona
 achievement.teacollection.oolong_tea.desc=§e對於真正的鑑賞家
-achievement.teacollection.peppermint_tea.desc=§aGood for stomach ache
-achievement.teacollection.pu-erh_tea.desc=§4Good for digestion, also tastes like dirt
-achievement.teacollection.red_tea.desc=§cWhy would anyone drink this ?
-achievement.teacollection.white_tea.desc=§eThe healthiest one
-achievement.teacollection.yellow_tea.desc=§6Green Tea with more grassy flavour
-achievement.teacollection.ultimate_tea.desc=§4§lOne Tea to drink them all
+achievement.teacollection.peppermint_tea.desc=§aDobra na ból brzucha
+achievement.teacollection.pu-erh_tea.desc=§4Dobra na trawienie, smakuje jak ziemia
+achievement.teacollection.red_tea.desc=§cDlaczego ktoś miałby to pić ?
+achievement.teacollection.white_tea.desc=§eNajzdrowsza
+achievement.teacollection.yellow_tea.desc=§6Herbata Zielona z bardziej trawiastym smakiem
+achievement.teacollection.ultimate_tea.desc=§4§lJedna Herbata, by wypić je wszystkie
 
 #Thaumcraft
 tc.research_category.KUBATECH=§lCamellia sinensis
-tc.research_name.KT_UltimateTea=%s §6§lTea
-tc.research_text.KT_UltimateTea=§4§lPure power
-KT.research.ultimatetea=You have found a way to convert all this Tea into pure power creating the %s §6§lTea
+tc.research_name.KT_UltimateTea=%s §6§lHerbata
+tc.research_text.KT_UltimateTea=§4§lCzysta moc
+KT.research.ultimatetea=Znalazłeś sposób by zamienić całą tą Herbatę w czystą moc poprzez stworzenie %s §6§lHerbaty

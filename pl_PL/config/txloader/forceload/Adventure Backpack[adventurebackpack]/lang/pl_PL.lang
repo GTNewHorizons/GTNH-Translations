@@ -9,11 +9,11 @@ item.adventurebackpack:hoseHead.name=Dysza węża
 item.adventurebackpack:copterEngine.name=Dwucylindrowy Silnik Diesla
 item.adventurebackpack:copterBlades.name=Ostrza Helikoptera
 item.adventurebackpack:hydroBlades.name=Ostrza Wodne
-item.adventurebackpack:inflatableBoat.name=Dmuchana Łódź
-item.adventurebackpack:inflatableBoatMotorized.name=Dmuchana Łódź (Zmotoryzowana)
+item.adventurebackpack:inflatableBoat.name=Łódź Dmuchana
+item.adventurebackpack:inflatableBoatMotorized.name=Łódź Dmuchana (Zmotoryzowana)
 
 ## Entity 
-entity.adventurebackpack.inflatableBoat.name=Dmuchana Łódź
+entity.adventurebackpack.inflatableBoat.name=Łódź Dmuchana
 entity.adventurebackpack.rideableSpider.name=Pająk do ujeżdżania
 
 ## Tools and consumables
@@ -23,11 +23,11 @@ item.adventurebackpack:machete.name=Maczeta
 
 item.adventurebackpack:backpackHose.name=Wąż plecakowy
 item.adventurebackpack:hose_leftTank_suck.name=Wąż: Lewy zbiornik / Tryb ssania
-item.adventurebackpack:hose_leftTank_spill.name=Wąż: Lewy zbiornik / Tryb wycieku
+item.adventurebackpack:hose_leftTank_spill.name=Wąż: Lewy zbiornik / Tryb wylewania
 item.adventurebackpack:hose_leftTank_drink.name=Wąż: Lewy zbiornik / Tryb picia
 
 item.adventurebackpack:hose_rightTank_suck.name=Wąż: Prawy zbiornik / Tryb ssania
-item.adventurebackpack:hose_rightTank_spill.name=Wąż: Prawy zbiornik / Tryb wycieku
+item.adventurebackpack:hose_rightTank_spill.name=Wąż: Prawy zbiornik / Tryb wylewania
 item.adventurebackpack:hose_rightTank_drink.name=Wąż: Prawy zbiornik / tryb picia
 item.adventurebackpack:hoseUseless.name=Wąż: Bezużyteczny / Brak plecaka
 
@@ -37,7 +37,7 @@ item.adventurebackpack:copterPack.name=Plecak Odrzutowy Helikopter
 item.adventurebackpack:coalJetpack.name=Plecak odrzutowy na węgiel
 
 ## Armor
-item.adventurebackpack:adventureHat.name=Kapelusz Podróżnika
+item.adventurebackpack:adventureHat.name=Fedora Podróżnika
 item.adventurebackpack:adventureSuit.name=Strój Podróżnika
 item.adventurebackpack:adventurePants.name=Spodnie Podróżnika
 item.adventurebackpack:pistonBoots.name=Buty Tłokowe
@@ -61,12 +61,12 @@ fluid.milk=Mleko
 fluid.mushrromstew=Zupa Grzybowa
 
 ## Messages
-adventurebackpack:messages.already.equipped.backpack=Posiadasz już plecak przygodowy
-adventurebackpack:messages.already.equipped.copterpack=Posiadasz już Plecak Odrzutowy Helikopter
+adventurebackpack:messages.already.equipped.backpack=Masz już założony plecak przygodowy.
+adventurebackpack:messages.already.equipped.copterpack=Masz już założony Plecak Odrzutowy Helikopter.
 adventurebackpack:messages.already.equipped.jetpack=Masz już założony plecak odrzutowy na węgiel.
 adventurebackpack:messages.already.impossibru=Nie masz na sobie żadnego plecaka.
 adventurebackpack:messages.backpack.cant.bag=Nie można rozłożyć śpiwora! Sprawdź okolicę.
-adventurebackpack:messages.cant.sleep.here=Starożytne siły nie znoszą snu.
+adventurebackpack:messages.cant.sleep.here=Starożytne siły nie pozwalają tutaj spać.
 adventurebackpack:messages.copterpack.hover=Plecak Odrzutowy Helikopter: Tryb unoszenia się w powietrzu.
 adventurebackpack:messages.copterpack.normal=Plecak Odrzutowy Helikopter: Tryb normalny.
 adventurebackpack:messages.copterpack.outoffuel=Plecak Odrzutowy Helikopter: Brak paliwa.
@@ -90,10 +90,10 @@ adventurebackpack:tooltips.steam=Para
 adventurebackpack:tooltips.press=Naciśnij
 adventurebackpack:tooltips.hold.shift=Przytrzymaj Shift
 adventurebackpack:tooltips.hold.ctrl=Przytrzymaj Ctrl
-adventurebackpack:tooltips.mouse.wheel=kółko myszy
+adventurebackpack:tooltips.mouse.wheel=Kółko myszy
 adventurebackpack:tooltips.max.altitude=Maksymalna wysokość lotu
 
-adventurebackpack:tooltips.backpack.slots.used=Wyykorzystane sloty
+adventurebackpack:tooltips.backpack.slots.used=Wykorzystane sloty
 adventurebackpack:tooltips.backpack.tank.left=Lewy Zbiornik
 adventurebackpack:tooltips.backpack.tank.right=Prawy Zbiornik
 adventurebackpack:tooltips.backpack.cycling=Zmienianie Narzędzi
@@ -114,7 +114,7 @@ adventurebackpack:tooltips.copter.rate.fuel=Ilość zużywanego paliwa
 adventurebackpack:tooltips.copter.key.onoff1=podczas noszenia
 adventurebackpack:tooltips.copter.key.onoff2=Plecak Odrzutowy Helikopter, włączenie
 adventurebackpack:tooltips.copter.key.hover1=podczas lotu aby
-adventurebackpack:tooltips.copter.key.hover2=zmień Tryb unoszenia się w powietrzu
+adventurebackpack:tooltips.copter.key.hover2=zmień tryb unoszenia się w powietrzu
 
 adventurebackpack:tooltips.hose.key.header=Podczas trzymania węża:
 adventurebackpack:tooltips.hose.key.tank=aby zmienić aktywny zbiornik
@@ -127,7 +127,7 @@ adventurebackpack:tooltips.hose.dump.warn=UWAGA! Płyn zostanie usunięty i utra
 adventurebackpack:skin.name.standard=Standardowy
 adventurebackpack:skin.name.bat=Nietoperz
 adventurebackpack:skin.name.black=Czarny
-adventurebackpack:skin.name.blaze=Płomień
+adventurebackpack:skin.name.blaze=Blaze
 adventurebackpack:skin.name.blue=Niebieski
 adventurebackpack:skin.name.bookshelf=półka na książki
 adventurebackpack:skin.name.brown=Brązowy
@@ -169,7 +169,7 @@ adventurebackpack:skin.name.magma_cube=Kostka Magmy
 adventurebackpack:skin.name.melon=Arbuz
 adventurebackpack:skin.name.modded_network=Zmodyfikowana sieć
 adventurebackpack:skin.name.mooshroom=Mooshroom
-adventurebackpack:skin.name.nether=Piekło
+adventurebackpack:skin.name.nether=Nether
 adventurebackpack:skin.name.obsidian=Obsydian
 adventurebackpack:skin.name.ocelot=Ocelot
 adventurebackpack:skin.name.orange=Pomarańczowy
@@ -197,7 +197,7 @@ adventurebackpack:skin.name.sunflower=Słonecznik
 adventurebackpack:skin.name.villager=Wieśniak
 adventurebackpack:skin.name.white=Biały
 adventurebackpack:skin.name.wither=Wither
-adventurebackpack:skin.name.wither_skeleton=Czarny Szkielet
+adventurebackpack:skin.name.wither_skeleton=Witherowy szkielet
 adventurebackpack:skin.name.wolf=Wilk
 adventurebackpack:skin.name.yellow=Żółty
 adventurebackpack:skin.name.zombie=Zombie
