@@ -4,57 +4,57 @@
 itemGroup.carpentersBlocks.name=Carpenter's Blocks
 
 # ITEMS
-item.itemCarpentersHammer.name=Carpenter's Hammer
-item.itemCarpentersChisel.name=Carpenter's Chisel
-item.itemCarpentersDoor.name=Carpenter's Door
-item.itemCarpentersBed.name=Carpenter's Bed
-item.itemCarpentersTile.name=Carpenter's Tile
+item.itemCarpentersHammer.name=Martillo de carpintero
+item.itemCarpentersChisel.name=Cincel de carpintero
+item.itemCarpentersDoor.name=Puerta de carpintero
+item.itemCarpentersBed.name=Cama de carpintero
+item.itemCarpentersTile.name=Losa de carpintero
 
 # BLOCKS
-tile.blockCarpentersBarrier.name=Carpenter's Barrier
-tile.blockCarpentersBed.name=Carpenter's Bed
-tile.blockCarpentersBlock.name=Carpenter's Block
-tile.blockCarpentersButton.name=Carpenter's Button
-tile.blockCarpentersDaylightSensor.name=Carpenter's Daylight Sensor
-tile.blockCarpentersCollapsibleBlock.name=Carpenter's Collapsible Block
-tile.blockCarpentersDoor.name=Carpenter's Door
-tile.blockCarpentersGarageDoor.name=Carpenter's Garage Door
-tile.blockCarpentersGate.name=Carpenter's Gate
-tile.blockCarpentersHatch.name=Carpenter's Hatch
-tile.blockCarpentersLadder.name=Carpenter's Ladder
-tile.blockCarpentersLever.name=Carpenter's Lever
-tile.blockCarpentersPressurePlate.name=Carpenter's Pressure Plate
-tile.blockCarpentersSlope.wedge.name=Carpenter's Wedge Slope
-tile.blockCarpentersSlope.obliqueInterior.name=Carpenter's Oblique Interior Slope
-tile.blockCarpentersSlope.obliqueExterior.name=Carpenter's Oblique Exterior Slope
-tile.blockCarpentersSlope.prism.name=Carpenter's Prism Slope
-tile.blockCarpentersSlope.prismWedge.name=Carpenter's Prism Wedge Slope
-tile.blockCarpentersStairs.name=Carpenter's Stairs
-tile.blockCarpentersTorch.name=Carpenter's Torch
-tile.blockCarpentersSafe.name=Carpenter's Safe
-tile.blockCarpentersFlowerPot.name=Carpenter's Flower Pot
+tile.blockCarpentersBarrier.name=Valla de carpintero
+tile.blockCarpentersBed.name=Cama de carpintero
+tile.blockCarpentersBlock.name=Bloque de carpintero
+tile.blockCarpentersButton.name=Botón de carpintero
+tile.blockCarpentersDaylightSensor.name=Sensor de luz de carpintero
+tile.blockCarpentersCollapsibleBlock.name=Bloque plegable de carpintero
+tile.blockCarpentersDoor.name=Puerta de carpintero
+tile.blockCarpentersGarageDoor.name=Puerta de garaje de carpintero
+tile.blockCarpentersGate.name=Portal de carpintero
+tile.blockCarpentersHatch.name=Trampilla de carpintero
+tile.blockCarpentersLadder.name=Escalera de mano de carpintero
+tile.blockCarpentersLever.name=Palanca de carpintero
+tile.blockCarpentersPressurePlate.name=Placa de presión de carpintero
+tile.blockCarpentersSlope.wedge.name=Cuña de carpintero
+tile.blockCarpentersSlope.obliqueInterior.name=Ángulo interior oblicuo de carpintero
+tile.blockCarpentersSlope.obliqueExterior.name=Ángulo exterior oblicuo de carpintero
+tile.blockCarpentersSlope.prism.name=Prisma de carpintero
+tile.blockCarpentersSlope.prismWedge.name=Prisma en cuña de carpintero
+tile.blockCarpentersStairs.name=Escaleras de carpintero
+tile.blockCarpentersTorch.name=Antorcha de carpintero
+tile.blockCarpentersSafe.name=Seguro de carpintero
+tile.blockCarpentersFlowerPot.name=Maceta de flores de carpintero
 
 # ENTITIES
-entity.CarpentersTile.name=Carpenter's Tile
+entity.CarpentersTile.name=Tile de carpintero
 
 # MESSAGES
-message.polarity_pos.name=POLARITY: Normal redstone output.
-message.polarity_neg.name=POLARITY: Inverted redstone output.
-message.activation_iron.name=ACTIVATION: Will behave like an iron door.
-message.activation_wood.name=ACTIVATION: Will behave like a wooden door.
-message.trigger_player.name=TRIGGER: Only activate for players.
-message.trigger_monster.name=TRIGGER: Only activate for monsters.
-message.trigger_animal.name=TRIGGER: Only activate for animals.
-message.trigger_all.name=TRIGGER: Activate for all entities.
-message.safe_lock.name=CONTROL: Safe locked.
-message.safe_unlock.name=CONTROL: Safe unlocked.
-message.automation_all.name=AUTOMATION: Items can be inserted and extracted.
-message.automation_disabled.name=AUTOMATION: Disabled.
-message.automation_insert.name=AUTOMATION: Items can be inserted only.
-message.automation_extract.name=AUTOMATION: Items can be extracted only.
-message.block_lock.name=CONTROL: This block is locked.
-message.sensitivity_sleep.name=SENSITIVITY: Toggles state at player sleep threshold (sunrise and sunset).
-message.sensitivity_monsters.name=SENSITIVITY: Toggles state at monster spawn light threshold (including storms).
-message.sensitivity_dynamic.name=SENSITIVITY: Redstone output changes based on position of the sun.
+message.polarity_pos.name=POLARIDAD: Salida normal de redstone.
+message.polarity_neg.name=POLARIDAD: Salida invertida de redstone.
+message.activation_iron.name=ACTIVACIÓN: Se comportará como puerta de hierro.
+message.activation_wood.name=ACTIVACIÓN: Se comportará como puerta de madera.
+message.trigger_player.name=ACTIVAR: Solo activado para jugadores.
+message.trigger_monster.name=ACTIVAR: Solo activado para monstruos.
+message.trigger_animal.name=ACTIVAR: Solo activado para animales.
+message.trigger_all.name=TRIGGER: Activado para todas las entidades.
+message.safe_lock.name=CONTROL: Seguro bloqueado.
+message.safe_unlock.name=CONTROL: Seguro desbloqueado.
+message.automation_all.name=AUTOMATIZACIÓN: Los items pueden ser insertados y extraidos.
+message.automation_disabled.name=AUTOMATIZACIÓN: Desactivado.
+message.automation_insert.name=AUTOMATIZACIÓN: Los items pueden ser insertados.
+message.automation_extract.name=AUTOMATIZACIÓN: Los items pueden ser extraidos.
+message.block_lock.name=CONTROL: Este bloque está bloqueado.
+message.sensitivity_sleep.name=SENSORES: Cambia de estado justo antes de dormir (amanecer y atardecer).
+message.sensitivity_monsters.name=SENSORES: Cambia de estado cuando aparecen mosntruos al anochecer (incluidas tormentas).
+message.sensitivity_dynamic.name=SENSORES: La salida de redstone cambia basandose en la posición del sol.
 
 # </file>
