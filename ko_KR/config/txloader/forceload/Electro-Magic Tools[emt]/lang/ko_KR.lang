@@ -7,7 +7,7 @@ tc.research_category.EMT=Electro-Magic Tools
 #=============GUI=============
 gui.EMT.config.title=Electro-Magic Tools Configuration
 gui.EMT.etherealMacerator.title=Ethereal Processor
-gui.EMT.wandRecharge.title=Industrial Wand Recharge Station
+gui.EMT.wandRecharge.title=산업용 완드 충전기
 gui.EMT.inventory=Inventory
 gui.EMT.book.aspect.output.eu.title=Essentia Outputs Book
 gui.EMT.book.aspect.output.essentia.eu=EU Output per Essentia
@@ -32,18 +32,18 @@ tooltip.EMT.visDiscount=Vis Discount
 tooltip.EMT.specialEffect=Special Effect
 tooltip.EMT.normalConditions=Normal Conditions
 tooltip.EMT.euPerTick=EU/t
-tooltip.EMT.night=at night
-tooltip.EMT.day=at day
+tooltip.EMT.night=밤에
+tooltip.EMT.day=낮에
 tooltip.EMT.forget=Didn't I forget a tooltip?
-tooltip.EMT.raining=while raining
-tooltip.EMT.thunder=while in a thunderstorm
-tooltip.EMT.underwater=while under water
-tooltip.EMT.output.double=Output multiplied by 2
-tooltip.EMT.output.triple=Output multiplied by 3
-tooltip.EMT.output.double.nether=when located in the Nether
-tooltip.EMT.output.double.lava=when fed with Ignis Centivis
-tooltip.EMT.output.double.half.height=Higher output at heights (x1 at y = 5, x3 at y=220)
-tooltip.EMT.output.double.half.low=Higher output at depths (x1 at y = 220, x3 at y=5)
+tooltip.EMT.raining=비올때
+tooltip.EMT.thunder=폭풍이 칠때
+tooltip.EMT.underwater=수중에서
+tooltip.EMT.output.double=출력량이 2배가 됩니다
+tooltip.EMT.output.triple=출력량이 3배가 됩니다
+tooltip.EMT.output.double.nether=네더에 있을때
+tooltip.EMT.output.double.lava=이그니스가 투입되었을때
+tooltip.EMT.output.double.half.height=높울수록 출력이 증가합니다 (y=5에서 1배 y=220에서 3배)
+tooltip.EMT.output.double.half.low=깊을수록 출력이 증가합니다 (y=220에서 1배 y=5에서 3배)
 
 #=============Entity Names=============
 entity.EMT.laser.name=Laser
@@ -74,21 +74,21 @@ item.EMT.awakenedSchematic.name=[DEPRECATED] Awakened Core Schematic
 item.EMT.chaoticSchematic.name=[DEPRECATED] Chaotic Core Schematic
 item.EMT.bauble.euMaker.armor.name=Armor Charging Ring
 item.EMT.bauble.euMaker.inventory.name=Inventory Charging Ring
-item.EMT.bauble.oneRing.name=The One Ring
+item.EMT.bauble.oneRing.name=절대반지
 item.EMT.goggles.electric.name=전기 발견의 고글
 item.EMT.goggles.nano.name=Nanosuit Goggles of Revealing
 item.EMT.goggles.quantum.name=Quantum Goggles of Revealing
 item.EMT.goggles.solar.name=Solar Goggles of Revealing
 item.EMT.boots.traveller.electric.name=전기 여행자의 신발
-item.EMT.boots.traveller.nano.name=Nanosuit Boots of the Traveller
-item.EMT.boots.traveller.quantum.name=Quantum Boots of the Traveller
+item.EMT.boots.traveller.nano.name=여행자의 나노슈트 부츠
+item.EMT.boots.traveller.quantum.name=여행자의 양자 부츠
 item.EMT.scribingtools.electric.name=전기 필기도구
 item.EMT.wing.feather.name=Feather Duct-Taped Wings
 item.EMT.wing.thaumium.name=Thaumium Reinforced Wings
-item.EMT.wing.nano.name=Nanosuit Wings
-item.EMT.wing.quantum.name=Quantum Wings
-item.EMT.chestplates.infusedQuantum.name=Infused Quantum Chestplate
-item.EMT.hammer.broken.name=Broken Relic of Mjolnir
+item.EMT.wing.nano.name=나노슈트 날개
+item.EMT.wing.quantum.name=양자 날개
+item.EMT.chestplates.infusedQuantum.name=주입된 양자 흉갑
+item.EMT.hammer.broken.name=부숴진 묠니르
 item.EMT.hammer.name=묠니르
 item.EMT.hammer.electric.name=과충전된 묠니르
 item.EMT.drill.thaumium.name=사우뮴 드릴
@@ -112,7 +112,7 @@ item.EMT.focus.energyBall.name=Energy Ball Focus
 #=============Block Names=============
 tile.EMT.electricCloud.name=Electric Cloud
 tile.EMT.shield.name=Shield Block
-tile.EMT.portablenode.name=Portable Node
+tile.EMT.portablenode.name=휴대용 노드
 tile.EMT.essentia.potentia.name=Potentia Generator
 tile.EMT.essentia.ignis.name=Ignis Generator
 tile.EMT.essentia.auram.name=Auram Generator
