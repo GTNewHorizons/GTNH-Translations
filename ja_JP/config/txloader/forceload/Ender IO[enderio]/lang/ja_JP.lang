@@ -6,526 +6,526 @@ enderio.power.tmb=t/L
 enderio.power.tick=/t
 enderio.power.maxOutput=最大出力
 enderio.power.generates=発電量
-enderio.power.generation_rate=at
+enderio.power.generation_rate=出力
 
 #Ender IO / Enderface
-tile.blockEnderIo.name=Ender IO
-tile.blockEnderIo.tooltip.detailed.line1=Allow remote access to nearby
-tile.blockEnderIo.tooltip.detailed.line2=blocks
-tile.blockEnderIo.tooltip.detailed.line3=Used with Travel Anchors or
-tile.blockEnderIo.tooltip.detailed.line4=the Staff of Travel
+tile.blockEnderIo.name=エンダーIO
+tile.blockEnderIo.tooltip.detailed.line1=トラベルアンカーか旅の杖で
+tile.blockEnderIo.tooltip.detailed.line2=使用すると、このブロックの
+tile.blockEnderIo.tooltip.detailed.line3=周辺にあるブロックを遠隔で
+tile.blockEnderIo.tooltip.detailed.line4=操作できる
 
 item.enderio.itemEnderface.name=エンダーフェイス
 
 #Conduits
 enderio.blockConduitBundle=導管束
-enderio.blockConduitFacade=導管ファサード
-item.enderio.itemConduitFacade.name=導管ファサード
-item.enderio.itemConduitFacade.hardened.name=強化導管ファサード
+enderio.blockConduitFacade=導管用外装
+item.enderio.itemConduitFacade.name=導管用外装
+item.enderio.itemConduitFacade.hardened.name=導管用強化外装
 enderio.item.itemConduitFacade.tooltip.notpainted=未塗装
 item.enderio.itemConduitFacade.tooltip.detailed.line1=塗装機で塗装を行います
 item.enderio.itemConduitFacade.tooltip.detailed.line2=導管を右クリックで設置します
-item.enderio.itemConduitFacade.tooltip.detailed.line3=レンチや導管を装備していると見えなくなります
-item.enderio.itemConduitFacade.tooltip.detailed.line4=is equipped
+item.enderio.itemConduitFacade.tooltip.detailed.line3=レンチや導管を装備していると
+item.enderio.itemConduitFacade.tooltip.detailed.line4=見えなくなります
 item.enderio.itemConduitFacade.hardened.tooltip=強化：破壊や爆発に耐えます
 
 enderio.itemPowerConduit.name=エネルギー導管
 enderio.itemPowerConduitEnhanced.name=強化エネルギー導管
 enderio.itemPowerConduitEnder.name=エンダーエネルギー導管
 
-enderio.itemPowerConduitEndergyCrude.name=Clay Compound Energy Conduit
-enderio.itemPowerConduitEndergyIron.name=Iron Energy Conduit
-enderio.itemPowerConduitEndergyAluminum.name=Aluminum Energy Conduit
-enderio.itemPowerConduitEndergyGold.name=Gold Energy Conduit
-enderio.itemPowerConduitEndergyCopper.name=Copper Energy Conduit
-enderio.itemPowerConduitEndergySilver.name=Silver Energy Conduit
-enderio.itemPowerConduitEndergyElectrum.name=Electrum Energy Conduit
-enderio.itemPowerConduitEndergyEnergeticSilver.name=Energetic Silver Energy Conduit
-enderio.itemPowerConduitEndergyCrystalline.name=Crystalline Energy Conduit
-enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=Crystalline Pink Slime Energy Conduit
-enderio.itemPowerConduitEndergyMelodic.name=Melodic Energy Conduit
-enderio.itemPowerConduitEndergyStellar.name=Stellar Energy Conduit
+enderio.itemPowerConduitEndergyCrude.name=粘土混合体製エネルギー導管
+enderio.itemPowerConduitEndergyIron.name=鉄製エネルギー導管
+enderio.itemPowerConduitEndergyAluminum.name=アルミニウム製エネルギー導管
+enderio.itemPowerConduitEndergyGold.name=金製エネルギー導管
+enderio.itemPowerConduitEndergyCopper.name=銅製エネルギー導管
+enderio.itemPowerConduitEndergySilver.name=銀製エネルギー導管
+enderio.itemPowerConduitEndergyElectrum.name=エレクトラム製エネルギー導管
+enderio.itemPowerConduitEndergyEnergeticSilver.name=エナジェティック銀製エネルギー導管
+enderio.itemPowerConduitEndergyCrystalline.name=結晶質合金製エネルギー導管
+enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=結晶質ピンクスライム製エネルギー導管
+enderio.itemPowerConduitEndergyMelodic.name=メロディー合金製エネルギー導管
+enderio.itemPowerConduitEndergyStellar.name=星合金製エネルギー導管
 
-enderio.itemRedstoneConduit.name=Redstone Conduit
-enderio.itemRedstoneConduitSwitch.name=Conduit Switch
+enderio.itemRedstoneConduit.name=レッドストーン導管
+enderio.itemRedstoneConduitSwitch.name=導管スイッチ
 enderio.itemRedstoneConduitInsulated.name=絶縁レッドストーン導管
 
 enderio.itemLiquidConduit.name=液体導管
-enderio.itemLiquidConduitAdvanced.name=Pressurized Fluid Conduit
-enderio.itemLiquidConduitEnder.name=Ender Fluid Conduit
-enderio.itemLiquidConduitCrystallineEnder.name=Crystalline Ender Fluid Conduit
-enderio.itemLiquidConduitCrystallinePinkSlimeEnder.name=Crystalline Pink Slime Ender Fluid Conduit
-enderio.itemLiquidConduitMelodicEnder.name=Melodic Ender Fluid Conduit
-enderio.itemLiquidConduitStellarEnder.name=Stellar Ender Fluid Conduit
-enderio.itemLiquidConduit.lockedType=液体タイプ限定
-enderio.itemLiquidConduit.unlockedType=液体タイプ限定なし
-enderio.itemLiquidConduit.lockedWaila=限定
+enderio.itemLiquidConduitAdvanced.name=加圧液体導管
+enderio.itemLiquidConduitEnder.name=エンダー液体導管
+enderio.itemLiquidConduitCrystallineEnder.name=結晶質合金製エンダー液体導管
+enderio.itemLiquidConduitCrystallinePinkSlimeEnder.name=結晶質ピンクスライム製エンダー液体導管
+enderio.itemLiquidConduitMelodicEnder.name=メロディー合金製エンダー液体導管
+enderio.itemLiquidConduitStellarEnder.name=星合金製エンダー液体導管
+enderio.itemLiquidConduit.lockedType=以下の液体のみを輸送可能にしました
+enderio.itemLiquidConduit.unlockedType=輸送可能な液体の設定を解除しました
+enderio.itemLiquidConduit.lockedWaila=輸送可能な液体 : 
 
-enderio.itemLiquidConduit.tooltip.maxExtract=Max Extract:
-enderio.itemLiquidConduit.tooltip.maxIo=Max IO:
-enderio.itemLiquidConduit.tooltip.detailed.line1=Fluid flow respects gravity
-enderio.itemLiquidConduit.tooltip.detailed.line2=Flow rate dependent on fluid
-enderio.itemLiquidConduit.tooltip.detailed.line3=viscosity
+enderio.itemLiquidConduit.tooltip.maxExtract=最大搬出量 :
+enderio.itemLiquidConduit.tooltip.maxIo=最大輸送量 :
+enderio.itemLiquidConduit.tooltip.detailed.line1=液体は重力の影響を受ける
+enderio.itemLiquidConduit.tooltip.detailed.line2=液体の粘度によって流れる速度が
+enderio.itemLiquidConduit.tooltip.detailed.line3=変化する
 
-enderio.itemLiquidConduitEnder.tooltip.detailed.line1=Instant fluid teleportation
-enderio.itemLiquidConduitEnder.tooltip.detailed.line2=allows multiple fluids to be
-enderio.itemLiquidConduitEnder.tooltip.detailed.line3=transported on the same line
+enderio.itemLiquidConduitEnder.tooltip.detailed.line1=液体を瞬時に転送させる
+enderio.itemLiquidConduitEnder.tooltip.detailed.line2=複数の液体を1つの導管で
+enderio.itemLiquidConduitEnder.tooltip.detailed.line3=輸送できる
 
-enderio.itemItemConduit.name=Item Conduit
+enderio.itemItemConduit.name=アイテム導管
 
-enderio.filterUpgradeBasic.name=Basic Item Filter
-enderio.filterUpgradeAdvanced.name=Advanced Item Filter
-enderio.filterUpgradeBig.name=Big Item Filter
-enderio.filterUpgradeBigAdvanced.name=Big Advanced Item Filter
-enderio.itemConduitFilterUpgrade=Upgrade for item conduits
-enderio.itemConduitFilterUpgrade.configured=Configured
-enderio.itemConduitFilterUpgrade.clearConfigMethod=Place in crafting grid to clear
-enderio.itemConduitFilterUpgrade.clearConfigWarning=This will clear all stored filter settings!
+enderio.filterUpgradeBasic.name=基本アイテムフィルター
+enderio.filterUpgradeAdvanced.name=強化アイテムフィルター
+enderio.filterUpgradeBig.name=大容量アイテムフィルター
+enderio.filterUpgradeBigAdvanced.name=大容量強化アイテムフィルター
+enderio.itemConduitFilterUpgrade=アイテム導管のアップグレード
+enderio.itemConduitFilterUpgrade.configured=設定済み
+enderio.itemConduitFilterUpgrade.clearConfigMethod=作業台に入れて初期化できる
+enderio.itemConduitFilterUpgrade.clearConfigWarning=フィルター設定が全て初期化されます！
 
-item.itemExistingItemFilter.name=Existing Item Filter
-item.itemExistingItemFilter.tooltip.basic.line1=Upgrade for item conduits
-item.itemExistingItemFilter.tooltip.detailed.line1=Selects only items already
-item.itemExistingItemFilter.tooltip.detailed.line2=in the inventory
-item.itemExistingItemFilter.tooltip.detailed.line3=Right click while sneaking
-item.itemExistingItemFilter.tooltip.detailed.line4=on an inventory to add the
-item.itemExistingItemFilter.tooltip.detailed.line5=content to the snapshot
+item.itemExistingItemFilter.name=引用アイテムフィルター
+item.itemExistingItemFilter.tooltip.basic.line1=アイテム導管のアップグレード
+item.itemExistingItemFilter.tooltip.detailed.line1=接続先のインベントリに存在する
+item.itemExistingItemFilter.tooltip.detailed.line2=アイテムをフィルターに設定できる
+item.itemExistingItemFilter.tooltip.detailed.line3=ブロックに対して
+item.itemExistingItemFilter.tooltip.detailed.line4=スニーク右クリックして
+item.itemExistingItemFilter.tooltip.detailed.line5=中身をフィルターに追加できる
 
-enderio.item.itemExistingItemFilter.filterUpdated=New items have been added to the snapshot
-enderio.item.itemExistingItemFilter.filterNotUpdated=The snapshot already covers all items in the inventory
+enderio.item.itemExistingItemFilter.filterUpdated=新しいアイテムがフィルターに追加されました
+enderio.item.itemExistingItemFilter.filterNotUpdated=全てのアイテムが既にフィルターに含まれています
 
 item.itemLimitedItemFilter.name=Limited Item Filter
 item.itemLimitedItemFilter.tooltip.basic.line1=Upgrade for item conduits
 item.itemLimitedItemFilter.tooltip.detailed.line1=Filters items based on
 item.itemLimitedItemFilter.tooltip.detailed.line2=their stack size
 
-item.itemModItemFilter.name=Mod Item Filter
-item.itemModItemFilter.tooltip.basic.line1=Upgrade for item conduits
-item.itemModItemFilter.tooltip.detailed.line1=Selects only items for a specified
-item.itemModItemFilter.tooltip.detailed.line2=mod/s
+item.itemModItemFilter.name=Modアイテムフィルター
+item.itemModItemFilter.tooltip.basic.line1=アイテム導管のアップグレード
+item.itemModItemFilter.tooltip.detailed.line1=特定のModのアイテムのみを
+item.itemModItemFilter.tooltip.detailed.line2=選択する
 
-item.itemPowerItemFilter.name=Chargeable Item Filter
-item.itemPowerItemFilter.tooltip.basic.line1=Upgrade for item conduits
-item.itemPowerItemFilter.tooltip.detailed.line1=Filters chargeable items based on
-item.itemPowerItemFilter.tooltip.detailed.line2=how much RF they have stored
+item.itemPowerItemFilter.name=充電量アイテムフィルター
+item.itemPowerItemFilter.tooltip.basic.line1=アイテム導管のアップグレード
+item.itemPowerItemFilter.tooltip.detailed.line1=充電可能なアイテムをRFの量に
+item.itemPowerItemFilter.tooltip.detailed.line2=基づいてフィルターにかける
 
-item.itemExtractSpeedUpgrade.name=Item Conduit Speed Upgrade
-item.itemExtractSpeedUpgrade.tooltip.basic.line1=Upgrade for item conduits
-item.itemExtractSpeedUpgrade.tooltip.detailed.line1=Increases speed by 4
-item.itemExtractSpeedUpgrade.tooltip.detailed.line2=items per extraction
-item.itemExtractSpeedUpgrade.tooltip.detailed.line3=Max upgrades is 15
+item.itemExtractSpeedUpgrade.name=アイテム導管用速度アップグレード
+item.itemExtractSpeedUpgrade.tooltip.basic.line1=アイテム導管のアップグレード
+item.itemExtractSpeedUpgrade.tooltip.detailed.line1=このアイテム1つに付き
+item.itemExtractSpeedUpgrade.tooltip.detailed.line2=輸送速度を4上げる
+item.itemExtractSpeedUpgrade.tooltip.detailed.line3=最大15個
 
-item.itemExtractSpeedDowngrade.name=Item Conduit Speed Downgrade
-item.itemExtractSpeedDowngrade.tooltip.basic.line1=Downgrade for item conduits
-item.itemExtractSpeedDowngrade.tooltip.detailed.line1=Reduces speed to 1
-item.itemExtractSpeedDowngrade.tooltip.detailed.line2=item per extraction
+item.itemExtractSpeedDowngrade.name=アイテム導管用速度ダウングレード
+item.itemExtractSpeedDowngrade.tooltip.basic.line1=アイテム導管のダウングレード
+item.itemExtractSpeedDowngrade.tooltip.detailed.line1=このアイテム1つで
+item.itemExtractSpeedDowngrade.tooltip.detailed.line2=輸送速度を1にする
 
-item.itemInventoryPanelUpgrade.name=Remote Awareness Upgrade
-item.itemInventoryPanelUpgrade.tooltip.basic.line1=Inventory Panel Remote Awareness
-item.itemInventoryPanelUpgrade.tooltip.detailed.line1=Function upgrade for item conduits
-item.itemInventoryPanelUpgrade.tooltip.detailed.line2=Allows Inventory Panels attached
-item.itemInventoryPanelUpgrade.tooltip.detailed.line3=to this network to see and extract
-item.itemInventoryPanelUpgrade.tooltip.detailed.line4=items from this inventory independent
-item.itemInventoryPanelUpgrade.tooltip.detailed.line5=of the conduit mode.
-item.itemInventoryPanelUpgrade.tooltip.detailed.line6=(No need to set the conduit to extract)
+item.itemInventoryPanelUpgrade.name=遠隔認識アップグレード
+item.itemInventoryPanelUpgrade.tooltip.basic.line1=インベントリパネルで遠隔認識できるようにする
+item.itemInventoryPanelUpgrade.tooltip.detailed.line1=アイテム導管の機能的アップグレード
+item.itemInventoryPanelUpgrade.tooltip.detailed.line2=同じ導管で接続されたインベントリパネルが
+item.itemInventoryPanelUpgrade.tooltip.detailed.line3=このインベントリに含まれるアイテムを
+item.itemInventoryPanelUpgrade.tooltip.detailed.line4=導管のモードに関わらず表示、抽出
+item.itemInventoryPanelUpgrade.tooltip.detailed.line5=できるようにする。
+item.itemInventoryPanelUpgrade.tooltip.detailed.line6=(導管を搬出モードに設定する必要はない)
 
-enderio.itemGasConduit.name=Gas Conduit
+enderio.itemGasConduit.name=気体導管
 
-enderio.itemGasConduit.tooltip.maxExtract=Max Extract:
-enderio.itemGasConduit.tooltip.maxIo=Max IO:
-enderio.itemGasConduit.tooltip.detailed.line1=Transfers Mekanism-compatible gases
+enderio.itemGasConduit.tooltip.maxExtract=最大搬出量 :
+enderio.itemGasConduit.tooltip.maxIo=最大輸送量 :
+enderio.itemGasConduit.tooltip.detailed.line1=Mekanismと互換性のある気体を輸送する
 
-enderio.itemMEConduit.name=ME Conduit
-enderio.itemMEConduitDense.name=Dense ME Conduit
-enderio.itemMEConduitDenseUltra.name=Ultra Dense ME Conduit
+enderio.itemMEConduit.name=ME導管
+enderio.itemMEConduitDense.name=高密度ME導管
+enderio.itemMEConduitDenseUltra.name=超高密度ME導管
 enderio.itemMEConduit.channelsUsed={0,number} of {1,number} Channels
 
 enderio.itemOCConduit.name=Network Conduit (OC)
 
 #Entity
-entity.witherSkeleton.name=Wither Skeleton
+entity.witherSkeleton.name=ウィザースケルトン
 
 #Materials
-enderio.itemMaterial.name=Materials
-enderio.silicon.name=Silicon
-enderio.conduitBinder.name=Conduit Binder
-enderio.binderComposite.name=Binder Composite
-enderio.phasedIronNugget.name=Pulsating Iron Nugget
-tile.blockDarkIronBars.name=Dark Iron Bars
-tile.blockSoulariumBars.name=Soularium Bars
-tile.blockEndSteelBars.name=End Steel Bars
-tile.blockEndermanSkull.name=Enderman Skull
-tile.blockEndermanSkull.base.name=Enderman Head
-tile.blockEndermanSkull.reanimated.name=Reanimated Enderman Head
-tile.blockEndermanSkull.tormented.name=Tormented Enderman Head
-enderio.blastResistant=Blast Resistant
-enderio.lightEmitter=Emits Light
-enderio.lightBlocker=Blocks Light
-enderio.tooltip.isBeaconBase=Can be used as beacon base
-enderio.dustWheat.name=Flour
+enderio.itemMaterial.name=素材
+enderio.silicon.name=ケイ素
+enderio.conduitBinder.name=導管接合材
+enderio.binderComposite.name=接合剤用複合物
+enderio.phasedIronNugget.name=脈動鉄ナゲット
+tile.blockDarkIronBars.name=ダークスチールの格子
+tile.blockSoulariumBars.name=ソウラリウムの格子
+tile.blockEndSteelBars.name=エンドスチールの格子
+tile.blockEndermanSkull.name=エンダーマンの頭蓋骨
+tile.blockEndermanSkull.base.name=エンダーマンの頭
+tile.blockEndermanSkull.reanimated.name=蘇生したエンダーマンの頭
+tile.blockEndermanSkull.tormented.name=苦痛のエンダーマンの頭
+enderio.blastResistant=爆破耐性
+enderio.lightEmitter=発光
+enderio.lightBlocker=遮光
+enderio.tooltip.isBeaconBase=ビーコンの土台として使用できる
+enderio.dustWheat.name=小麦粉
 
-enderio.itemEnderios.name="Enderios"
-enderio.itemEnderios.tooltip.common.line1=Part of a balanced breakfast!
-enderio.itemEnderios.tooltip.detailed.line1=Not actually healthy. Contains 253g of sugar, 53g of fat,
-enderio.itemEnderios.tooltip.detailed.line2=and 394g of ender dust.
-enderio.itemEnderios.tooltip.detailed.line3=Side effects of ender dust include: nausea, dizziness, confusion, 
-enderio.itemEnderios.tooltip.detailed.line4=and random teleporting.
+enderio.itemEnderios.name="エンデリオス"
+enderio.itemEnderios.tooltip.common.line1=栄養バランス抜群の朝食メニュー！
+enderio.itemEnderios.tooltip.detailed.line1=※製品パッケージは健康を保証するものではございません。
+enderio.itemEnderios.tooltip.detailed.line2=栄養成分表示 : 脂質 53g、糖質 253g、エンダーダスト 394g
+enderio.itemEnderios.tooltip.detailed.line3=エンダーダストは、摂取することで吐き気、めまい、混乱、
+enderio.itemEnderios.tooltip.detailed.line4=テレポートを引き起こす可能性がございます。
 
 #Fluids
-fluid.nutrient_distillation=Nutrient Distillation
-tile.fluid.nutrient_distillation.name=Nutrient Distillation
-item.bucketNutrient_distillation.name=Nutrient Distillation Bucket
+fluid.nutrient_distillation=栄養蒸留液
+tile.fluid.nutrient_distillation.name=栄養蒸留液
+item.bucketNutrient_distillation.name=栄養蒸留液入りバケツ
 
-fluid.hootch=Hootch
-tile.fluid.hootch.name=Hootch
-item.bucketHootch.name=Hootch Bucket
+fluid.hootch=ウイスキー
+tile.fluid.hootch.name=ウイスキー
+item.bucketHootch.name=ウイスキー入りバケツ
 
-fluid.fire_water=Fire Water
-tile.fluid.fire_water.name=Fire Water
-item.bucketFire_water.name=Fire Water Bucket
+fluid.fire_water=火酒
+tile.fluid.fire_water.name=火酒
+item.bucketFire_water.name=火酒入りバケツ
 
-fluid.rocket_fuel=Rocket Fuel
-tile.fluid.rocket_fuel.name=Rocket Fuel
-item.bucketRocket_fuel.name=Rocket Fuel Bucket
+fluid.rocket_fuel=ロケット燃料
+tile.fluid.rocket_fuel.name=ロケット燃料
+item.bucketRocket_fuel.name=ロケット燃料入りバケツ
 
-fluid.liquid_sunshine=Liquid Sunshine
-tile.fluid.liquid_sunshine.name=Liquid Sunshine
-item.bucketLiquid_sunshine.name=Liquid Sunshine Bucket
+fluid.liquid_sunshine=天道の恵み
+tile.fluid.liquid_sunshine.name=天道の恵み
+item.bucketLiquid_sunshine.name=天道の恵み入りバケツ
 
-fluid.cloud_seed=Cloud Seed
-tile.fluid.cloud_seed.name=Cloud Seed
-item.bucketCloud_seed.name=Cloud Seed Bucket
+fluid.cloud_seed=人工雨
+tile.fluid.cloud_seed.name=人工雨
+item.bucketCloud_seed.name=人工雨入りバケツ
 
-fluid.cloud_seed_concentrated=Concentrated Cloud Seed
-tile.fluid.cloud_seed_concentrated.name=Concentrated Cloud Seed
-item.bucketCloud_seed_concentrated.name=Concentrated Cloud Seed Bucket
+fluid.cloud_seed_concentrated=濃縮人工雨
+tile.fluid.cloud_seed_concentrated.name=濃縮人工雨
+item.bucketCloud_seed_concentrated.name=濃縮人工雨入りバケツ
 
-fluid.ender_distillation=Dew of the Void
-tile.fluid.ender_distillation.name=Dew of the Void
-item.bucketEnder_distillation.name=Dew of the Void Bucket
+fluid.ender_distillation=無のしずく
+tile.fluid.ender_distillation.name=無のしずく
+item.bucketEnder_distillation.name=無のしずく入りバケツ
 
-fluid.vapor_of_levity=Vapor of Levity
-tile.fluid.vapor_of_levity.name=Vapor of Levity
-item.bucketVapor_of_levity.name=Vapor of Levity Bucket
+fluid.vapor_of_levity=軽い蒸気
+tile.fluid.vapor_of_levity.name=軽い蒸気
+item.bucketVapor_of_levity.name=軽い蒸気入りバケツ
 
-fluid.eio.xpjuice=Liquid XP
-tile.fluid.eio.xpjuice.name=Liquid XP
-item.bucketXpjuice.name=XP Bucket
+fluid.eio.xpjuice=液体経験値
+tile.fluid.eio.xpjuice.name=液体経験値
+item.bucketXpjuice.name=経験値入りバケツ
 
 enderio.fluid.millibucket.abr=L
 
-enderio.fuel.tooltip.heading=Fuel Details
-enderio.fuel.tooltip.burnTime=burn time {0,number}
+enderio.fuel.tooltip.heading=燃料情報
+enderio.fuel.tooltip.burnTime=燃焼時間 {0,number}
 enderio.fluid.millibucketsTick=L/t
-enderio.coolant.tooltip.heading=Coolant
-enderio.coolant.tooltip.degreesPerBucket=Deg per bucket
-enderio.gas.gasTick=Gas/t
+enderio.coolant.tooltip.heading=冷却材
+enderio.coolant.tooltip.degreesPerBucket=度/バケツ
+enderio.gas.gasTick=ガス/t
 
 #Materials
-enderio.itemMachinePart.name=Machine Parts
-enderio.machineChassi.name=Machine Chassis
-enderio.basicGear.name=Basic Gear
-enderio.soulMachineChassi.name=Soul Machine Chassis
-enderio.endSteelMachineChassi.name=End Steel Chassis
-enderio.pulsatingCrystal.name=Pulsating Crystal
-enderio.vibrantCrystal.name=Vibrant Crystal
-enderio.enderCrystal.name=Ender Crystal
-enderio.attractorCrystal.name=Enticing Crystal
-enderio.weatherCrystal.name=Weather Crystal
+enderio.itemMachinePart.name=機械の部品
+enderio.machineChassi.name=工業用マシンシャーシ
+enderio.basicGear.name=基礎的な歯車
+enderio.soulMachineChassi.name=ソウルマシンシャーシ
+enderio.endSteelMachineChassi.name=エンドスチールシャーシ
+enderio.pulsatingCrystal.name=脈動するクリスタル
+enderio.vibrantCrystal.name=ヴァイブラントクリスタル
+enderio.enderCrystal.name=エンダークリスタル
+enderio.attractorCrystal.name=誘惑のクリスタル
+enderio.weatherCrystal.name=ウェザークリスタル
 
-enderio.darkGrindingBall.name=Dark Steel Ball
-enderio.electricalGrindingBall.name=Electrical Steel Ball
-enderio.energeticGrindingBall.name=Energetic Alloy Ball
-enderio.vibrantGrindingBall.name=Vibrant Alloy Ball
-enderio.redstoneGrindingBall.name=Redstone Alloy Ball
-enderio.conductiveGrindingBall.name=Conductive Iron Ball
-enderio.pulsatingGrindingBall.name=Pulsating Iron Ball
-enderio.soulariumGrindingBall.name=Soularium Ball
-enderio.endSteelGrindingBall.name=End Steel Ball
+enderio.darkGrindingBall.name=ダークスチール製粉砕用ボール
+enderio.electricalGrindingBall.name=電炉鋼製粉砕用ボール
+enderio.energeticGrindingBall.name=エナジェティック合金製粉砕用ボール
+enderio.vibrantGrindingBall.name=ヴァイブラント合金製粉砕用ボール
+enderio.redstoneGrindingBall.name=レッドストーン合金製粉砕用ボール
+enderio.conductiveGrindingBall.name=電導鉄製粉砕用ボール
+enderio.pulsatingGrindingBall.name=脈動鉄製粉砕用ボール
+enderio.soulariumGrindingBall.name=ソウラリウム製粉砕用ボール
+enderio.endSteelGrindingBall.name=エンドスチール製粉砕用ボール
 
-enderio.darkGrindingBall.tooltip.detailed.line1=SAG Mill Grinding Ball
-enderio.darkGrindingBall.tooltip.detailed.line2=Main Output
-enderio.darkGrindingBall.tooltip.detailed.line3=Bonus Output
-enderio.darkGrindingBall.tooltip.detailed.line4=Power Reduction
-enderio.darkSteelRod.name=Dark Steel Rod
+enderio.darkGrindingBall.tooltip.detailed.line1=準自生粉砕機の粉砕用ボール
+enderio.darkGrindingBall.tooltip.detailed.line2=主産物の生産量
+enderio.darkGrindingBall.tooltip.detailed.line3=副産物の生産量
+enderio.darkGrindingBall.tooltip.detailed.line4=消費電力の減少率
+enderio.darkSteelRod.name=ダークスチールの柄
 
-tile.blockReinforcedObsidian.name=Reinforced Obsidian
-tile.blockReinforcedObsidian.tooltip.common.line1=Wither Proof
+tile.blockReinforcedObsidian.name=強化黒曜石
+tile.blockReinforcedObsidian.tooltip.common.line1=ウィザーの爆発への耐性
 
 #Quartz / Glass
-tile.blockFusedQuartz.name=Fused Quartz
-enderio.blockFusedQuartz.fusedQuartz.name=Fused Quartz
-enderio.blockFusedQuartz.fusedGlass.name=Quite Clear Glass
-enderio.blockFusedQuartz.enlightenedFusedQuartz.name=Enlightened Fused Quartz
-enderio.blockFusedQuartz.enlightenedFusedGlass.name=Enlightened Clear Glass
-enderio.blockFusedQuartz.darkFusedQuartz.name=Dark Fused Quartz
-enderio.blockFusedQuartz.darkFusedGlass.name=Dark Clear Glass
+tile.blockFusedQuartz.name=水晶ガラス
+enderio.blockFusedQuartz.fusedQuartz.name=水晶ガラス
+enderio.blockFusedQuartz.fusedGlass.name=高透過ガラス
+enderio.blockFusedQuartz.enlightenedFusedQuartz.name=発光水晶ガラス
+enderio.blockFusedQuartz.enlightenedFusedGlass.name=発光透過ガラス
+enderio.blockFusedQuartz.darkFusedQuartz.name=遮光水晶ガラス
+enderio.blockFusedQuartz.darkFusedGlass.name=遮光透過ガラス
 
-item.enderio.itemFusedQuartzFrame.name=Fused Quartz Frame
-enderio.itemPowderIngot=Powders & Ingots
+item.enderio.itemFusedQuartzFrame.name=水晶ガラスの外枠
+enderio.itemPowderIngot=粉とインゴット
 
 #Alloys
-enderio.itemAlloy.name=Alloy
-enderio.electricalSteel.name=Electrical Steel
-enderio.energeticAlloy.name=Energetic Alloy
-enderio.phasedGold.name=Vibrant Alloy
-enderio.redstoneAlloy.name=Redstone Alloy
-enderio.conductiveIron.name=Conductive Iron
-enderio.phasedIron.name=Pulsating Iron
-enderio.vibrantNugget.name=Vibrant Alloy Nugget
-enderio.darkSteel.name=Dark Steel
-enderio.soularium.name=Soularium
-enderio.endSteel.name=End Steel
-enderio.endSteelNugget.name=End Steel Nugget
+enderio.itemAlloy.name=合金
+enderio.electricalSteel.name=電炉鋼
+enderio.energeticAlloy.name=エナジェティック合金
+enderio.phasedGold.name=ヴァイブラント合金
+enderio.redstoneAlloy.name=レッドストーン合金
+enderio.conductiveIron.name=電導鉄
+enderio.phasedIron.name=脈動鉄
+enderio.vibrantNugget.name=ヴァイブラント合金ナゲット
+enderio.darkSteel.name=ダークスチール
+enderio.soularium.name=ソウラリウム
+enderio.endSteel.name=エンドスチール
+enderio.endSteelNugget.name=エンドスチールナゲット
 
-enderio.crudeSteel.name=Clay Compound
-enderio.crystallineAlloy.name=Crystalline Alloy
-enderio.melodicAlloy.name=Melodic Alloy
-enderio.stellarAlloy.name=Stellar Alloy
-enderio.crystallinePinkSlime.name=Crystalline Pink Slime
-enderio.energeticSilver.name=Energetic Silver
-enderio.vividAlloy.name=Vivid Alloy
+enderio.crudeSteel.name=粘土混合体
+enderio.crystallineAlloy.name=結晶質合金
+enderio.melodicAlloy.name=メロディー合金
+enderio.stellarAlloy.name=星合金
+enderio.crystallinePinkSlime.name=結晶質ピンクスライム
+enderio.energeticSilver.name=エナジェティック銀
+enderio.vividAlloy.name=ビビッド合金
 
-enderio.crudeSteelGrindingBall.name=Clay Compound Grinding Ball
-enderio.crystallineAlloyGrindingBall.name=Crystalline Alloy Grinding Ball
-enderio.melodicAlloyGrindingBall.name=Melodic Alloy Grinding Ball
-enderio.stellarAlloyGrindingBall.name=Stellar Alloy Grinding Ball
-enderio.crystallinePinkSlimeGrindingBall.name=Crystalline Pink Slime Grinding Ball
-enderio.energeticSilverGrindingBall.name=Energetic Silver Grinding Ball
-enderio.vividAlloyGrindingBall.name=Vivid Alloy Grinding Ball
+enderio.crudeSteelGrindingBall.name=粘土混合体製粉砕用ボール
+enderio.crystallineAlloyGrindingBall.name=結晶質合金製粉砕用ボール
+enderio.melodicAlloyGrindingBall.name=メロディー合金製粉砕用ボール
+enderio.stellarAlloyGrindingBall.name=星合金製粉砕用ボール
+enderio.crystallinePinkSlimeGrindingBall.name=結晶質ピンクスライム製粉砕用ボール
+enderio.energeticSilverGrindingBall.name=エナジェティック銀製粉砕用ボール
+enderio.vividAlloyGrindingBall.name=ビビッド合金製粉砕用ボール
 
-enderio.precientCrystal.name=Precient Crystal
-enderio.pulsatingPowder.name=Grains of Piezallity
-enderio.vibrantPowder.name=Grains of Vibrancy
-enderio.enderCrystalPowder.name=Grains of the End
-enderio.precientPowder.name=Grains of Prescience
+enderio.precientCrystal.name=予知のクリスタル
+enderio.pulsatingPowder.name=脈動の粒子
+enderio.vibrantPowder.name=活気の粒子
+enderio.enderCrystalPowder.name=終焉の粒子
+enderio.precientPowder.name=予知の粒子
 
 #Balls
-enderio.electricalSteel_ball.name=Electrical Steel Ball
-enderio.energeticAlloy_ball.name=Energetic Alloy Ball
-enderio.phasedGold_ball.name=Vibrant Alloy Ball
-enderio.redstoneAlloy_ball.name=Redstone Alloy Ball
-enderio.conductiveIron_ball.name=Conductive Iron Ball
-enderio.phasedIron_ball.name=Pulsating Iron Ball
-enderio.vibrantNugget_ball.name=Vibrant Alloy Nugget Ball
-enderio.darkSteel_ball.name=Dark Steel Ball
-enderio.soularium_ball.name=Soularium Ball
-enderio.endSteel_ball.name=End Steel Ball
+enderio.electricalSteel_ball.name=電炉鋼製粉砕用ボール
+enderio.energeticAlloy_ball.name=エナジェティック合金製粉砕用ボール
+enderio.phasedGold_ball.name=ヴァイブラント合金製粉砕用ボール
+enderio.redstoneAlloy_ball.name=レッドストーン合金製粉砕用ボール
+enderio.conductiveIron_ball.name=電導鉄製粉砕用ボール
+enderio.phasedIron_ball.name=脈動鉄製粉砕用ボール
+enderio.vibrantNugget_ball.name=ヴァイブラント合金製粉砕用ボール
+enderio.darkSteel_ball.name=ダークスチール製粉砕用ボール
+enderio.soularium_ball.name=ソウラリウム製粉砕用ボール
+enderio.endSteel_ball.name=エンドスチール製粉砕用ボール
 
-tile.blockIngotStorage.name=Ingot Storage
-tile.enderio.electricalSteel.name=Electrical Steel Block
-tile.enderio.energeticAlloy.name=Energetic Alloy Block
-tile.enderio.phasedGold.name=Vibrant Alloy Block
-tile.enderio.redstoneAlloy.name=Redstone Alloy Block
-tile.enderio.conductiveIron.name=Conductive Iron Block
-tile.enderio.phasedIron.name=Pulsating Iron Block
-tile.enderio.vibrantNugget.name=Vibrant Nugget Block
-tile.enderio.darkSteel.name=Dark Steel Block
-tile.enderio.soularium.name=Soularium Block
-tile.enderio.endSteel.name=End Steel Block
+tile.blockIngotStorage.name=圧縮されたインゴット
+tile.enderio.electricalSteel.name=電炉鋼ブロック
+tile.enderio.energeticAlloy.name=エナジェティック合金ブロック
+tile.enderio.phasedGold.name=ヴァイブラント合金ブロック
+tile.enderio.redstoneAlloy.name=レッドストーン合金ブロック
+tile.enderio.conductiveIron.name=電導鉄ブロック
+tile.enderio.phasedIron.name=脈動鉄ブロック
+tile.enderio.vibrantNugget.name=ヴァイブラント合金ナゲットブロック
+tile.enderio.darkSteel.name=ダークスチールブロック
+tile.enderio.soularium.name=ソウラリウムブロック
+tile.enderio.endSteel.name=エンドスチールブロック
 
-tile.enderio.crudeSteel.name=Clay Compound Block
-tile.enderio.crystallineAlloy.name=Crystalline Alloy Block
-tile.enderio.melodicAlloy.name=Melodic Alloy Block
-tile.enderio.stellarAlloy.name=Stellar Alloy Block
-tile.enderio.crystallinePinkSlime.name=Crystalline Pink Slime Block
-tile.enderio.energeticSilver.name=Energetic Silver Block
-tile.enderio.vividAlloy.name=Vivid Alloy Block
+tile.enderio.crudeSteel.name=粘土混合体ブロック
+tile.enderio.crystallineAlloy.name=結晶質合金ブロック
+tile.enderio.melodicAlloy.name=メロディー合金ブロック
+tile.enderio.stellarAlloy.name=星合金ブロック
+tile.enderio.crystallinePinkSlime.name=結晶質ピンクスライムブロック
+tile.enderio.energeticSilver.name=エナジェティック銀ブロック
+tile.enderio.vividAlloy.name=ビビッド合金ブロック
 
 #Powder / Ingot
-enderio.powderCoal.name=Coal Powder
-enderio.powderIron.name=Iron Powder
-enderio.powderGold.name=Gold Powder
-enderio.powderCopper.name=Copper Powder
-enderio.powderTin.name=Tin Powder
-enderio.powderEnder.name=Ender Pearl Powder
-enderio.powderObsidian.name=Obsidian Powder
-enderio.ingotEnderiumBase.name=Enderium Base
+enderio.powderCoal.name=石炭の粉
+enderio.powderIron.name=鉄の粉
+enderio.powderGold.name=金の粉
+enderio.powderCopper.name=銅の粉
+enderio.powderTin.name=錫の粉
+enderio.powderEnder.name=エンダーパールの粉
+enderio.powderObsidian.name=黒曜石の粉
+enderio.ingotEnderiumBase.name=エンダリウムベース
 
 #Capacitors
-enderio.itemBasicCapacitor.name=Capacitor
-enderio.basicCapacitor.name=Basic Capacitor
-enderio.activatedCapacitor.name=Double-Layer Capacitor
-enderio.enderCapacitor.name=Octadic Capacitor
-enderio.crystallineCapacitor.name=Crystalline Capacitor
-enderio.melodicCapacitor.name=Melodic Capacitor
-enderio.stellarCapacitor.name=Stellar Capacitor
-enderio.silverCapacitor.name=Silver Capacitor
-enderio.endergeticCapacitor.name=Endergetic Capacitor
-enderio.endergisedCapacitor.name=Endergised Capacitor
-enderio.totemicCapacitor.name=Totemic Capacitor
+enderio.itemBasicCapacitor.name=コンデンサー
+enderio.basicCapacitor.name=基本コンデンサー
+enderio.activatedCapacitor.name=二重コンデンサー
+enderio.enderCapacitor.name=八重コンデンサー
+enderio.crystallineCapacitor.name=結晶質合金製コンデンサー
+enderio.melodicCapacitor.name=メロディー合金製コンデンサー
+enderio.stellarCapacitor.name=星合金製コンデンサー
+enderio.silverCapacitor.name=銀製コンデンサー
+enderio.endergeticCapacitor.name=エンダージェティックコンデンサー
+enderio.endergisedCapacitor.name=エンダージャイズドコンデンサー
+enderio.totemicCapacitor.name=トーテムコンデンサー
 
-enderio.machine.tooltip.upgrade=Machine Upgrade
-enderio.machine.tooltip.upgrade.tooltip.detailed.line1=Increases energy storage and
-enderio.machine.tooltip.upgrade.tooltip.detailed.line2=speed / range of machines
-enderio.machine.tooltip.clearConfig=This will clear all stored info!
+enderio.machine.tooltip.upgrade=機械のアップグレード
+enderio.machine.tooltip.upgrade.tooltip.detailed.line1=機械の蓄電量、稼働速度、
+enderio.machine.tooltip.upgrade.tooltip.detailed.line2=稼働範囲を上昇させる
+enderio.machine.tooltip.clearConfig=機械の設定が全て初期化されます！
 
 #Machines
-tile.blockStirlingGenerator.name=Stirling Generator
-tile.blockStirlingGenerator.tooltip.detailed.line1=Burns solid fuel to generate power
-tile.blockStirlingGenerator.tooltip.detailed.line2=Can be upgraded to increase output
-tile.blockStirlingGenerator.tooltip.detailed.line3=and efficiency with capacitors
+tile.blockStirlingGenerator.name=スターリング発電機
+tile.blockStirlingGenerator.tooltip.detailed.line1=固形燃料を燃やして発電する
+tile.blockStirlingGenerator.tooltip.detailed.line2=コンデンサーで発電量や効率を
+tile.blockStirlingGenerator.tooltip.detailed.line3=アップグレードできる
 
-tile.blockReservoir.name=Reservoir
-tile.blockReservoir.tooltip.detailed.line1=Formed when placed 2x2x1
-tile.blockReservoir.tooltip.detailed.line2=Add two buckets of water for
-tile.blockReservoir.tooltip.detailed.line3=an infinite water source
-tile.blockReservoir.tooltip.detailed.line4=Produces one bucket per second
-tile.blockReservoir.tooltip.detailed.line5=R-Click with a wrench to
-tile.blockReservoir.tooltip.detailed.line6=enable auto-output
+tile.blockReservoir.name=貯水槽
+tile.blockReservoir.tooltip.detailed.line1=2x2x1に設置すると完成
+tile.blockReservoir.tooltip.detailed.line2=2バケツ分の水を入れると
+tile.blockReservoir.tooltip.detailed.line3=無限水源として機能する
+tile.blockReservoir.tooltip.detailed.line4=毎秒1バケツ分の水を生産する
+tile.blockReservoir.tooltip.detailed.line5=レンチで右クリックして
+tile.blockReservoir.tooltip.detailed.line6=自動搬出を有効にできる
 
-tile.blockAlloySmelter.name=Alloy Smelter
-tile.blockAlloySmelter.tooltip.detailed.line1=Used to create EnderIO alloys
-tile.blockAlloySmelter.tooltip.detailed.line2=Can also be used as a powered
-tile.blockAlloySmelter.tooltip.detailed.line3=furnace
-tile.blockAlloySmelter.tooltip.detailed.line4=Upgrade with capacitors to increase
-tile.blockAlloySmelter.tooltip.detailed.line5=speed and energy storage
+tile.blockAlloySmelter.name=合金精錬機
+tile.blockAlloySmelter.tooltip.detailed.line1=EnderIOの合金の作成に使用する
+tile.blockAlloySmelter.tooltip.detailed.line2=電気で動くかまどとしても
+tile.blockAlloySmelter.tooltip.detailed.line3=使用できる
+tile.blockAlloySmelter.tooltip.detailed.line4=コンデンサーで稼働速度や蓄電量を
+tile.blockAlloySmelter.tooltip.detailed.line5=アップグレードできる
 
-tile.blockSolarPanel.name=Photovoltaic Cell
-tile.blockSolarPanel.advanced.name=Advanced Photovoltaic Cell
-tile.blockSolarPanel.vibrant.name=Vibrant Photovoltaic Cell
-tile.blockSolarPanel.tooltip.common.line1=Solar Power!
-tile.blockSolarPanel.tooltip.detailed.line1=Produces power during daylight hours
-tile.blockSolarPanel.tooltip.detailed.line2=Must have a clear line of sight to
-tile.blockSolarPanel.tooltip.detailed.line3=the sky
-enderio.maxSolorProduction=Max Output
-enderio.tooltip.efficiency=Efficiency
-enderio.tooltip.sunlightBlocked=Sky Blocked!
+tile.blockSolarPanel.name=太陽電池
+tile.blockSolarPanel.advanced.name=改良型太陽電池
+tile.blockSolarPanel.vibrant.name=ヴァイブラント太陽電池
+tile.blockSolarPanel.tooltip.common.line1=ソーラーパワー！
+tile.blockSolarPanel.tooltip.detailed.line1=太陽が出ている間発電する
+tile.blockSolarPanel.tooltip.detailed.line2=発電するには空に面している
+tile.blockSolarPanel.tooltip.detailed.line3=必要がある
+enderio.maxSolorProduction=最大出力
+enderio.tooltip.efficiency=効率
+enderio.tooltip.sunlightBlocked=空に面していません！
 
-item.itemElectricLight.name=Powered Light
-item.itemElectricLight.tooltip.detailed.line1=Lights a large area when supplied with
-item.itemElectricLight.tooltip.detailed.line2=power and a redstone signal.
+item.itemElectricLight.name=電気ライト
+item.itemElectricLight.tooltip.detailed.line1=電気とレッドストーン信号を
+item.itemElectricLight.tooltip.detailed.line2=供給すると広範囲を照らす
 
-item.itemElectricLightInverted.name=Powered Light (Inverted)
-item.itemElectricLightInverted.tooltip.detailed.line1=Lights a large area when supplied with
-item.itemElectricLightInverted.tooltip.detailed.line2=power.
-item.itemElectricLightInverted.tooltip.detailed.line3=Turn off with a redstone signal.
+item.itemElectricLightInverted.name=電気ライト(反転)
+item.itemElectricLightInverted.tooltip.detailed.line1=電気を供給すると広範囲を
+item.itemElectricLightInverted.tooltip.detailed.line2=照らす
+item.itemElectricLightInverted.tooltip.detailed.line3=レッドストーン信号でオフにする
 
-item.itemLight.name=Light
-item.itemLight.tooltip.detailed.line1=Emits light with a
-item.itemLight.tooltip.detailed.line2=redstone signal.
+item.itemLight.name=ライト
+item.itemLight.tooltip.detailed.line1=レッドストーン信号を
+item.itemLight.tooltip.detailed.line2=供給すると光る
 
-item.itemLightInverted.name=Light (Inverted)
-item.itemLightInverted.tooltip.detailed.line1=Emits light, disable with
-item.itemLightInverted.tooltip.detailed.line2=a redstone signal.
+item.itemLightInverted.name=ライト(反転)
+item.itemLightInverted.tooltip.detailed.line1=レッドストーン信号を
+item.itemLightInverted.tooltip.detailed.line2=供給するとオフになる
 
-item.itemWirelessLight.name=Wireless Powered Light
-item.itemWirelessLight.tooltip.detailed.line1=Lights a large area when supplied with
-item.itemWirelessLight.tooltip.detailed.line2=power and a redstone signal.
-item.itemWirelessLight.tooltip.detailed.line3=Can receive power from wireless chargers.
+item.itemWirelessLight.name=無線電気ライト
+item.itemWirelessLight.tooltip.detailed.line1=電気とレッドストーン信号を
+item.itemWirelessLight.tooltip.detailed.line2=供給すると広範囲を照らす
+item.itemWirelessLight.tooltip.detailed.line3=無線充電機から電気を供給できる
 
-item.itemWirelessLightInverted.name=Wireless Powered Light (Inverted)
-item.itemWirelessLightInverted.tooltip.detailed.line1=Lights a large area when supplied with
-item.itemWirelessLightInverted.tooltip.detailed.line2=power.
-item.itemWirelessLightInverted.tooltip.detailed.line3=Turn off with a redstone signal.
-item.itemWirelessLightInverted.tooltip.detailed.line4=Can receive power from wireless chargers.
+item.itemWirelessLightInverted.name=無線電気ライト(反転)
+item.itemWirelessLightInverted.tooltip.detailed.line1=電気を供給すると広範囲を
+item.itemWirelessLightInverted.tooltip.detailed.line2=照らす
+item.itemWirelessLightInverted.tooltip.detailed.line3=レッドストーン信号でオフにする
+item.itemWirelessLightInverted.tooltip.detailed.line4=無線充電機から電気を供給できる
 
-tile.blockCapacitorBank.name=Capacitor Bank (Deprecated)
-tile.blockCapacitorBank.creative.name=Creative Capacitor Bank (Deprecated)
-tile.blockCapacitorBank.tooltip.detailed.line1=Convert to new block by placing
-tile.blockCapacitorBank.tooltip.detailed.line2=in a crafting grid
-tile.blockCapacitorBank.tooltipPrefix=Contains
+tile.blockCapacitorBank.name=蓄電機(廃止)
+tile.blockCapacitorBank.creative.name=クリエイティブ蓄電機(廃止)
+tile.blockCapacitorBank.tooltip.detailed.line1=クラフトすると新しいバージョンの
+tile.blockCapacitorBank.tooltip.detailed.line2=ブロックに変化する
+tile.blockCapacitorBank.tooltipPrefix=蓄電量
 
-tile.blockCapBank.creative.name=Creative Capacitor Bank
-tile.blockCapBank.simple.name=Basic Capacitor Bank
-tile.blockCapBank.activated.name=Capacitor Bank
-tile.blockCapBank.vibrant.name=Vibrant Capacitor Bank
-tile.blockCapBank.tooltip.detailed.line1=Multi-block energy storage.
-tile.blockCapBank.tooltip.detailed.line2=Can charge RF powered items.
-tile.blockCapBank.tooltip.detailed.line3=Shift-R-Click on a face with an empty hand
-tile.blockCapBank.tooltip.detailed.line4=to change information display
-tile.blockCapBank.tooltip.hasItems={0,number,integer} {0,choice,1#item|1<items} in inventory
-tile.blockCapBank.tooltipPrefix=Contains
+tile.blockCapBank.creative.name=クリエイティブ蓄電機
+tile.blockCapBank.simple.name=簡易蓄電機
+tile.blockCapBank.activated.name=蓄電機
+tile.blockCapBank.vibrant.name=ヴァイブラント蓄電機
+tile.blockCapBank.tooltip.detailed.line1=互いに接続する蓄電器
+tile.blockCapBank.tooltip.detailed.line2=RFを使用するアイテムを充電できる
+tile.blockCapBank.tooltip.detailed.line3=素手でShift右クリックすると
+tile.blockCapBank.tooltip.detailed.line4=情報表示を切り替える
+tile.blockCapBank.tooltip.hasItems={0,number,integer}個のアイテムが入っている
+tile.blockCapBank.tooltipPrefix=蓄電量
 
-enderio.capbank.maxIO=Max I/O
-enderio.capbank.maxIn=Max Input
-enderio.capbank.maxOut=Max Output
-enderio.capbank.change=I/O
-enderio.capbank.iodisplay.stable=I/O
-enderio.capbank.iodisplay.gain=In
-enderio.capbank.iodisplay.loss=Out
-enderio.capbank.iodisplay.input=Input
-enderio.capbank.iodisplay.output=Output
+enderio.capbank.maxIO=最大入出力
+enderio.capbank.maxIn=最大入力
+enderio.capbank.maxOut=最大出力
+enderio.capbank.change=入出力
+enderio.capbank.iodisplay.stable=入出力
+enderio.capbank.iodisplay.gain=入力
+enderio.capbank.iodisplay.loss=出力
+enderio.capbank.iodisplay.input=入力
+enderio.capbank.iodisplay.output=出力
 
-tile.blockWirelessCharger.name=Wireless Charger
-tile.blockWirelessCharger.tooltip.detailed.line1=Charges items in nearby
-tile.blockWirelessCharger.tooltip.detailed.line2=players inventories
+tile.blockWirelessCharger.name=無線充電機
+tile.blockWirelessCharger.tooltip.detailed.line1=近くのプレイヤーのインベントリにある
+tile.blockWirelessCharger.tooltip.detailed.line2=アイテムを充電する
 
-tile.blockSagMill.name=SAG Mill
-tile.blockSagMill.tooltip.detailed.line1=Grinds ore and other items
-tile.blockSagMill.tooltip.detailed.line2=Add grinding balls to increase output
-tile.blockSagMill.tooltip.detailed.line3=and efficiency
-tile.blockSagMill.tooltip.detailed.line4=Upgrade with capacitors to increase
-tile.blockSagMill.tooltip.detailed.line5=speed and energy storage
-tile.blockSagMill.tooltipPrefix=Contains
+tile.blockSagMill.name=準自生粉砕機
+tile.blockSagMill.tooltip.detailed.line1=鉱石などを粉砕する
+tile.blockSagMill.tooltip.detailed.line2=粉砕用ボールを入れて生産量と
+tile.blockSagMill.tooltip.detailed.line3=効率を上げることができる
+tile.blockSagMill.tooltip.detailed.line4=コンデンサーで稼働速度や蓄電量を
+tile.blockSagMill.tooltip.detailed.line5=アップグレードできる
+tile.blockSagMill.tooltipPrefix=蓄電量
 
-tile.blockHyperCube.name=Dimensional Transceiver (Deprecated)
-tile.blockHyperCube.tooltip.detailed.line1=Convert to new model by placing
-tile.blockHyperCube.tooltip.detailed.line2=in the crafting grid
+tile.blockHyperCube.name=ディメンショナルトランシーバー(廃止)
+tile.blockHyperCube.tooltip.detailed.line1=クラフトすると新型モデルに
+tile.blockHyperCube.tooltip.detailed.line2=アップグレードできる
 
-tile.blockTransceiver.name=Dimensional Transceiver
-tile.blockTransceiver.tooltip.detailed.line1=Transports items, fluids and power
-tile.blockTransceiver.tooltip.detailed.line2=wirelessly across any distance and
-tile.blockTransceiver.tooltip.detailed.line3=between dimensions
+tile.blockTransceiver.name=ディメンショナルトランシーバー
+tile.blockTransceiver.tooltip.detailed.line1=ディメンションを超えて
+tile.blockTransceiver.tooltip.detailed.line2=遠方にアイテムや液体、
+tile.blockTransceiver.tooltip.detailed.line3=電気を無線で転送できる
 
-tile.blockEnderRail.name=Ender Rail
-tile.blockEnderRail.tooltip.detailed.line1=Teleports minecarts when placed
-tile.blockEnderRail.tooltip.detailed.line2=on a Dimensional Transceiver
-tile.blockEnderRail.tooltip.detailed.line3=Set destinations using the
-tile.blockEnderRail.tooltip.detailed.line4=Transceiver's rail tab
-tile.blockEnderRail.tooltip.detailed.line5=Set direction with a Shift-R-Click
-tile.blockEnderRail.tooltip.detailed.line6=of a wrench
+tile.blockEnderRail.name=エンダーレール
+tile.blockEnderRail.tooltip.detailed.line1=ディメンショナルトランシーバーの上に設置すると
+tile.blockEnderRail.tooltip.detailed.line2=通過したトロッコをテレポートさせる
+tile.blockEnderRail.tooltip.detailed.line3=トランシーバーのレールタブで
+tile.blockEnderRail.tooltip.detailed.line4=目的地を指定できる
+tile.blockEnderRail.tooltip.detailed.line5=レンチでShift右クリックして
+tile.blockEnderRail.tooltip.detailed.line6=向きを変更する
 
-enderio.trans.showChannels=<Shift to show channels>
+enderio.trans.showChannels=<Shiftを押してチャンネルを表示>
 
-enderio.trans.power=Power
-enderio.trans.item=Item
-enderio.trans.fluid=Fluid
-enderio.trans.rail=Rail
+enderio.trans.power=電気
+enderio.trans.item=アイテム
+enderio.trans.fluid=液体
+enderio.trans.rail=レール
 
-enderio.trans.receiving=Receiving
-enderio.trans.sending=Sending
+enderio.trans.receiving=受信
+enderio.trans.sending=送信
 
-tile.blockPowerMonitor.name=Power Monitor
-tile.blockPowerMonitor.tooltip.detailed.line1=Displays details of power use and
-tile.blockPowerMonitor.tooltip.detailed.line2=storage
-tile.blockPowerMonitor.tooltip.detailed.line3=Can be used to emit redstone
-tile.blockPowerMonitor.tooltip.detailed.line4=based on stored power levels
-tile.blockPowerMonitor.tooltip.detailed.line5=Must be attached to an EnderIO
-tile.blockPowerMonitor.tooltip.detailed.line6=conduit
+tile.blockPowerMonitor.name=電力モニター
+tile.blockPowerMonitor.tooltip.detailed.line1=電気の蓄電量や使用状況を
+tile.blockPowerMonitor.tooltip.detailed.line2=表示する
+tile.blockPowerMonitor.tooltip.detailed.line3=蓄電量に応じてレッドストーン信号を
+tile.blockPowerMonitor.tooltip.detailed.line4=出力することができる
+tile.blockPowerMonitor.tooltip.detailed.line5=EnderIOの導管で接続する
+tile.blockPowerMonitor.tooltip.detailed.line6=必要がある
 
-tile.blockVat.name=The Vat
-tile.blockVat.tooltip.detailed.line1=Used to brew EnderIO fluids
+tile.blockVat.name=醸造桶
+tile.blockVat.tooltip.detailed.line1=EnderIOの液体の醸造に使用できる
 
-tile.blockEnchanter.name=Enchanter
-tile.blockEnchanter.tooltip.detailed.line1=Uses XP to combine items
-tile.blockEnchanter.tooltip.detailed.line2=and a book and quill to
-tile.blockEnchanter.tooltip.detailed.line3=created enchanted books
+tile.blockEnchanter.name=エンチャンター
+tile.blockEnchanter.tooltip.detailed.line1=経験値を消費してアイテムと
+tile.blockEnchanter.tooltip.detailed.line2=本と羽ペンを合成し、
+tile.blockEnchanter.tooltip.detailed.line3=エンチャントの本を作成することができる
 
-tile.blockCombustionGenerator.name=Combustion Generator
-tile.blockCombustionGenerator.tooltip.detailed.line1=Burns liquid fuel to generate power
-tile.blockCombustionGenerator.tooltip.detailed.line2=Requires a coolant (e.g. water)
-tile.blockCombustionGenerator.tooltip.detailed.line3=Output dependent on fuel
+tile.blockCombustionGenerator.name=燃焼発電機
+tile.blockCombustionGenerator.tooltip.detailed.line1=液体燃料を燃やして発電する
+tile.blockCombustionGenerator.tooltip.detailed.line2=水などの冷却材が必要になる
+tile.blockCombustionGenerator.tooltip.detailed.line3=出力は燃料によって違う
 
-tile.blockZombieGenerator.name=Zombie Generator
-tile.blockZombieGenerator.tooltip.detailed.line1=Consumes Nutrient Distillation
-tile.blockZombieGenerator.tooltip.detailed.line2=to generate power
+tile.blockZombieGenerator.name=ゾンビ発電機
+tile.blockZombieGenerator.tooltip.detailed.line1=栄養蒸留液を消費して
+tile.blockZombieGenerator.tooltip.detailed.line2=発電する
 enderio.zombieGenerator.fuelTank=Nutrient Tank
 enderio.gui.fluid.minReq=%s Required for activation
 
 tile.blockFrankenzombieGenerator.name=Frank'N'Zombie Generator
-tile.blockFrankenzombieGenerator.tooltip.detailed.line1=Consumes Nutrient Distillation
+tile.blockFrankenzombieGenerator.tooltip.detailed.line1=栄養蒸留液を消費して
 tile.blockFrankenzombieGenerator.tooltip.detailed.line2=to generate even more power
 enderio.frankenzombieGenerator.fuelTank=Nutrient Tank
 
 tile.blockEnderGenerator.name=Ender Generator
 tile.blockEnderGenerator.tooltip.detailed.line1=Consumes Dew of the Void
-tile.blockEnderGenerator.tooltip.detailed.line2=to generate power
+tile.blockEnderGenerator.tooltip.detailed.line2=発電する
 enderio.enderGenerator.fuelTank=Void Tank
 
 tile.blockKillerJoe.name=Killer Joe
 tile.blockKillerJoe.tooltip.detailed.line1=Attacks nearby creatures when
 tile.blockKillerJoe.tooltip.detailed.line2=supplied with a sword and
-tile.blockKillerJoe.tooltip.detailed.line3=Nutrient Distillation
+tile.blockKillerJoe.tooltip.detailed.line3=栄養蒸留液
 tile.blockKillerJoe.tooltip.detailed.line4=Experience can be drained as
 tile.blockKillerJoe.tooltip.detailed.line5=Liquid XP using fluid conduits
 
@@ -543,7 +543,7 @@ tile.blockFarmStation.tooltip.detailed.line2=Requires power and
 tile.blockFarmStation.tooltip.detailed.line3=appropriate tools (hoe, axe)
 tile.blockFarmStation.tooltip.detailed.line4=Looting / fortune on tools
 tile.blockFarmStation.tooltip.detailed.line5=applied when harvesting
-tile.blockFarmStation.tooltip.detailed.line6=Upgrade with capacitors to increase
+tile.blockFarmStation.tooltip.detailed.line6=コンデンサーで稼働速度や蓄電量を
 tile.blockFarmStation.tooltip.detailed.line7=range, upgrade also increases power use
 
 enderio.farm.note.outputFull=Output Full
@@ -591,8 +591,8 @@ tile.blockPoweredSpawner.empty.tooltip.detailed.line1=Combine with a broken
 tile.blockPoweredSpawner.empty.tooltip.detailed.line2=spawner in an anvil
 tile.blockPoweredSpawner.tooltip.detailed.line1=Supply with power to
 tile.blockPoweredSpawner.tooltip.detailed.line2=activate
-tile.blockPoweredSpawner.tooltip.detailed.line3=Upgrade with capacitors to increase
-tile.blockPoweredSpawner.tooltip.detailed.line4=speed and energy storage
+tile.blockPoweredSpawner.tooltip.detailed.line3=コンデンサーで稼働速度や蓄電量を
+tile.blockPoweredSpawner.tooltip.detailed.line4=アップグレードできる
 
 item.itemBrokenSpawner.name=Broken Spawner
 item.itemBrokenSpawner.tooltip.detailed.line1=Combine with a Powered Spawner

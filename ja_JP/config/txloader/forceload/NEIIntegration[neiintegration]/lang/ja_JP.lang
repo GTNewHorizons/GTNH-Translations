@@ -1,29 +1,29 @@
 neiintegration.yes=Yes
 neiintegration.no=No
 
-neiintegration.shaped=Shaped
-neiintegration.shapeless=Shapeless
+neiintegration.shaped=定型
+neiintegration.shapeless=不定形
 
-neiintegration.chance=Chance: %s
+neiintegration.chance=確率: %s
 neiintegration.chance.never=Never
 neiintegration.chance.lessThan1=<1%
 
-neiintegration.ticks=ticks
+neiintegration.ticks=ティック
 
 neiintegration.tooltip.internalName=ID:
 neiintegration.tooltip.unlocalizedName=Unloc. name:
-neiintegration.tooltip.maxstack=Maximum stack size:
-neiintegration.tooltip.burntime=Burn time:
-neiintegration.tooltip.oredict=Ore Dictionary names:
-neiintegration.tooltip.fluidreg=Fluid Registry info:
+neiintegration.tooltip.maxstack=最大スタック量:
+neiintegration.tooltip.burntime=燃焼時間:
+neiintegration.tooltip.oredict=鉱石辞書名:
+neiintegration.tooltip.fluidreg=液体登録情報:
 neiintegration.tooltip.fluidreg.empty=Empty Container
 
-neiintegration.config.title=NEI Integration Configuration
+neiintegration.config.title=NEI Integration の設定
 neiintegration.config.integrations=Mod Integrations settings
 neiintegration.config.integrations.tooltip=Enable or disable all recipe handlers for certain mods.
 neiintegration.config.handlers=Recipe Handler settings
 neiintegration.config.handlers.tooltip=Enable or disable some of the recipe handlers this mod adds.
-neiintegration.config.tooltips=Item Tooltip Settings
+neiintegration.config.tooltips=Item Tooltip の設定
 neiintegration.config.tooltips.tooltip=No tooltip defined. How ironic.
 
 nei.options.tools.dump.neiintegration=NEI Integration
@@ -41,27 +41,27 @@ nei.options.tools.dump.neiintegration.inventory=Player Inventory
 nei.options.tools.dump.neiintegration.inventorys=Player Inventory
 nei.options.tools.dump.neiintegration.loadedmod=Loaded Mod
 nei.options.tools.dump.neiintegration.loadedmods=Loaded Mods
-nei.options.tools.dump.neiintegration.oredict=Ore Dictionary
-nei.options.tools.dump.neiintegration.oredicts=Ore Dictionary
+nei.options.tools.dump.neiintegration.oredict=鉱石辞書
+nei.options.tools.dump.neiintegration.oredicts=鉱石辞書
 nei.options.tools.dump.neiintegration.recipehandler=Recipe Handler
 nei.options.tools.dump.neiintegration.recipehandlers=Recipe Handlers
 nei.options.tools.dump.neiintegration.tileentity=Tile Entity
 nei.options.tools.dump.neiintegration.tileentitys=Tile Entities
 
 # Forge
-neiintegration.handler.fluidRegistry=Fluid Registry
+neiintegration.handler.fluidRegistry=液体登録
 neiintegration.handler.fluidRegistry.id=ID:
-neiintegration.handler.fluidRegistry.state=State:
-neiintegration.handler.fluidRegistry.state.gaseous=Gaseous
-neiintegration.handler.fluidRegistry.state.liquid=Liquid
-neiintegration.handler.fluidRegistry.placeable=Can be placed:
-neiintegration.handler.fluidRegistry.temperature=Temperature:
-neiintegration.handler.fluidRegistry.luminosity=Luminosity:
-neiintegration.handler.fluidRegistry.density=Density:
-neiintegration.handler.fluidRegistry.viscosity=Viscosity:
+neiintegration.handler.fluidRegistry.state=状態:
+neiintegration.handler.fluidRegistry.state.gaseous=ガス
+neiintegration.handler.fluidRegistry.state.liquid=液体
+neiintegration.handler.fluidRegistry.placeable=設置可能か:
+neiintegration.handler.fluidRegistry.temperature=温度:
+neiintegration.handler.fluidRegistry.luminosity=光度:
+neiintegration.handler.fluidRegistry.density=密度:
+neiintegration.handler.fluidRegistry.viscosity=粘度:
 
-neiintegration.handler.oreDictionary=Ore Dictionary
-neiintegration.handler.oreDictionary.warning=Can take a while to load!
+neiintegration.handler.oreDictionary=鉱石辞書
+neiintegration.handler.oreDictionary.warning=読み込みに時間がかかることがあります!
 
 # BuildCraft
 neiintegration.handler.refinery.energyRate=%d RF at %d RF/t
@@ -73,23 +73,23 @@ neiintegration.handler.electricalage.magnetizer=Magnetizer
 neiintegration.handler.electricalage.plateMachine=Plate Machine
 
 # Forestry
-neiintegration.handler.forestry.shaped=Forestry Shaped
-neiintegration.handler.forestry.fabricator.worth=Worth:
+neiintegration.handler.forestry.shaped=定型 (Forestry)
+neiintegration.handler.forestry.fabricator.worth=価値:
 
 # MineFactory Reloaded
-neiintegration.handler.bioreactor.efficiency=Efficiency
-neiintegration.handler.bioreactor.efficiency.1=Depends of the amount of
-neiintegration.handler.bioreactor.efficiency.2=different items being processed.
-neiintegration.handler.bioreactor.efficiency.3=More efficiency means more BioFuel.
-neiintegration.handler.grinder.mobs=Mobs
-neiintegration.handler.grinder.mobs.1=Mobs that drop more XP
-neiintegration.handler.grinder.mobs.2=produce more Essence.
-neiintegration.handler.harvester.harvestables=Harvestable blocks
-neiintegration.handler.harvester.harvestables.1=Sludge is a byproduct of harvesting.
+neiintegration.handler.bioreactor.efficiency=効率
+neiintegration.handler.bioreactor.efficiency.1=処理される様々なアイテム
+neiintegration.handler.bioreactor.efficiency.2=の量に依存。
+neiintegration.handler.bioreactor.efficiency.3=効率が上がるとバイオ燃料も増えます。
+neiintegration.handler.grinder.mobs=モブ
+neiintegration.handler.grinder.mobs.1=経験値を多くドロップするモブは
+neiintegration.handler.grinder.mobs.2=より多くのエッセンスを生産します。
+neiintegration.handler.harvester.harvestables=ブロックを収穫します
+neiintegration.handler.harvester.harvestables.1=収穫時に副産物として汚泥がでます。
 neiintegration.handler.laserdrill.focus=Focus
-neiintegration.handler.sewer.animals=Animals or villagers
-neiintegration.handler.sewer.animals.1=Larger animals produce more sewage.
-neiintegration.handler.sewer.xp=Experience Orbs
-neiintegration.handler.sewer.xp.1=XP gets converted into Essence.
-neiintegration.handler.slaughterhouse.animals=Animals
-neiintegration.handler.slaughterhouse.animals.1=Larger animals produce more meat.
+neiintegration.handler.sewer.animals=動物または村人
+neiintegration.handler.sewer.animals.1=大型の動物ほど多くの汚水を生み出します。
+neiintegration.handler.sewer.xp=経験値オーブ
+neiintegration.handler.sewer.xp.1=経験値をエッセンスに変換します。
+neiintegration.handler.slaughterhouse.animals=動物
+neiintegration.handler.slaughterhouse.animals.1=大型の動物ほど多く肉を産み出します。
