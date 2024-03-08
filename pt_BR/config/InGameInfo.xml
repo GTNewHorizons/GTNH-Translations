@@ -24,7 +24,7 @@
             <icon>
                 <str>minecraft:clock</str>
             </icon>
-            <str> Minecraft Year {darkaqua}</str>
+            <str> Ano {darkaqua}</str>
             <add>
                 <round>
                     <div>
@@ -41,12 +41,12 @@
                 </round>
                 <num>1</num>
             </add>
-            <str> {white}Day {darkaqua}</str>
+            <str> {white}Dia {darkaqua}</str>
             <modi>
                 <var>day</var>
                 <num>365</num>
             </modi>
-            <str>{white} Time: {gold}{mctime12} </str>
+            <str>{white} Tempo: {gold}{mctime12} </str>
             <if>
                 <var>daytime</var>
                 <str>{yellow}(day)</str>
@@ -57,14 +57,14 @@
             <icon>
                 <str>HardcoreEnderExpansion:temple_end_portal</str>
             </icon>
-            <str> Dimension: {gold}{dimension} ({dimensionid}) {white}Chunks Loaded: {gold}{loadedchunks}</str>
+            <str> Dimensão: {gold}{dimension} ({dimensionid}) {white}Chunks Carregadas: {gold}{loadedchunks}</str>
         </line>
         <line>
             <icon>
                 <str>minecraft:sapling</str>
                 <num>4</num>
             </icon>
-            <str> Biome: {darkaqua}{biome} {gold}{localtemperature}{white}°F {gold}</str>
+            <str> Bioma: {darkaqua}{biome} {gold}{localtemperature}{white}°F {gold}</str>
             <round>
                 <div>
                     <sub>
@@ -90,31 +90,31 @@
                 <num>0</num>
             </round>
             <str>{white}K</str>
-            <str> {gold}{humidity}{white}% Humidity</str>
+            <str> {gold}{humidity}{white}% Umidade</str>
         </line>
         <line>
             <icon>
                 <str>minecraft:skull</str>
                 <num>4</num>
             </icon>
-            <str> Entities: {gold}{entitiesrendered} {white}Rendered / {gold}{entitiestotal} {white}Loaded  </str>
+            <str> Entitidades: {gold}{entitiesrendered} {white}Renderizadas / {gold}{entitiestotal} {white}Carregadas  </str>
         </line>
         <line>
             <icon>
                 <str>minecraft:compass</str>
                 <num>0</num>
             </icon>
-            <str> Chunk X: {gold}{chunkx} {white}Z: {gold}{chunkz} {white}Off: {gold}{chunkoffsetx} {white}: {gold}{chunkoffsetz} {white}Y: {gold}{yfeeti} {white}Facing {gold}{finedirection}</str>
+            <str> X da Chunk: {gold}{chunkx} {white}Z: {gold}{chunkz} {white}Desvio: {gold}{chunkoffsetx} {white}: {gold}{chunkoffsetz} {white}Y: {gold}{yfeeti} {white}Voltado para {gold}{finedirection}</str>
             <if>
                 <var>slimechunk</var>
-                <str> {gold}SlimeChunk{white}</str>
+                <str> {gold}ChunkDeSlime{white}</str>
             </if>
         </line>
         <line>
             <icon>
                 <str>minecraft:torch</str>
             </icon>
-            <str> Light: </str>
+            <str> Luz: </str>
             <max>
                 <var>light</var>
                 <num>7.5</num>
@@ -122,7 +122,7 @@
                 <str>{red}</str>
             </max>
             <var>light</var>
-            <str> {white}(Feet: </str>
+            <str> {white}(Pés: </str>
             <max>
                 <var>lightfeet</var>
                 <num>7.5</num>
@@ -138,15 +138,15 @@
         <line>
             <if>
                 <var>snowing</var>
-                <str>  It is {darkgreen}{underline}Snowing{reset}</str>
+                <str>  Está {darkgreen}{underline}Nevando{reset}</str>
             </if>
             <if>
                 <var>raining</var>
-                <str>  It is {darkgreen}{underline}Raining{reset}</str>
+                <str>  Está {darkgreen}{underline}Chovendo{reset}</str>
             </if>
             <if>
                 <var>thundering</var>
-                <str> and {darkgreen}{underline}Thundering{reset}.</str>
+                <str> e {darkgreen}{underline}Trovoando{reset}.</str>
             </if>
         </line>
         <line>
@@ -201,7 +201,7 @@
                             <num>16</num>
                             <num>16</num>
                         </icon>
-                        <str>  This is an {darkgreen}{underline}ore{white} chunk.</str>
+                        <str>  Essa é uma chunk de {darkgreen}{underline}minérios{white}.</str>
                     </concat>
                 </if>
             </if>
@@ -253,7 +253,7 @@
                             <num>16</num>
                             <num>16</num>
                         </icon>
-                        <str>  This is an {darkgreen}{underline}ore{white} chunk.</str>
+                        <str>  Essa é uma chunk de {darkgreen}{underline}minérios{white}.</str>
                     </concat>
                 </if>
             </if>
@@ -308,7 +308,7 @@
                         </and>
                         <str>      </str>
                     </if>
-                    <str>  You are at the {darkred}center {white}of the chunk.</str>
+                    <str>  Você está no {darkred}centro {white}da chunk.</str>
                 </concat>
             </if>
         </line>
@@ -317,7 +317,7 @@
         </line>
         <line>
             <if>
-                <str>  Nearest players:</str>
+                <str>  Jogadores mais próximos:</str>
             </if>
         </line>
         <line>
