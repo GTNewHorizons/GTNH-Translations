@@ -1,4 +1,4 @@
-name: Sync GT lang to ParaTranz in parallel
+name: Sync GT lang to ParaTranz for all langs
 
 on:
   workflow_dispatch:
@@ -11,41 +11,49 @@ jobs:
   #   secrets: inherit
   ja_JP:
     uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    # needs: zh_CN # Require previous run to finish
     with:
       target_lang: ja_JP
     secrets: inherit
   ko_KR:
     uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    needs: ja_JP # Require previous run to finish
     with:
       target_lang: ko_KR
     secrets: inherit
   pt_BR:
     uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    needs: ko_KR # Require previous run to finish
     with:
       target_lang: pt_BR
     secrets: inherit
   fr_FR:
     uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    needs: pt_BR # Require previous run to finish
     with:
       target_lang: fr_FR
     secrets: inherit
   es_ES:
     uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    needs: fr_FR # Require previous run to finish
     with:
       target_lang: es_ES
     secrets: inherit
   tr_TR:
     uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    needs: es_ES # Require previous run to finish
     with:
       target_lang: tr_TR
     secrets: inherit
   de_DE:
     uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    needs: tr_TR # Require previous run to finish
     with:
       target_lang: de_DE
     secrets: inherit
   pl_PL:
     uses: ./.github/workflows/sync-gt-lang-to-paratranz.yml
+    needs: de_DE # Require previous run to finish
     with:
       target_lang: pl_PL
     secrets: inherit
