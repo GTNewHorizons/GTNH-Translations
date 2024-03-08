@@ -265,25 +265,25 @@ enderio.itemPowderIngot=粉とインゴット
 
 #Alloys
 enderio.itemAlloy.name=合金
-enderio.electricalSteel.name=電炉鋼
-enderio.energeticAlloy.name=エナジェティック合金
-enderio.phasedGold.name=ヴァイブラント合金
-enderio.redstoneAlloy.name=レッドストーン合金
-enderio.conductiveIron.name=電導鉄
-enderio.phasedIron.name=脈動鉄
+enderio.electricalSteel.name=電炉鋼インゴット
+enderio.energeticAlloy.name=エナジェティック合金インゴット
+enderio.phasedGold.name=ヴァイブラント合金インゴット
+enderio.redstoneAlloy.name=レッドストーン合金インゴット
+enderio.conductiveIron.name=電導鉄インゴット
+enderio.phasedIron.name=脈動鉄インゴット
 enderio.vibrantNugget.name=ヴァイブラント合金ナゲット
-enderio.darkSteel.name=ダークスチール
-enderio.soularium.name=ソウラリウム
-enderio.endSteel.name=エンドスチール
+enderio.darkSteel.name=ダークスチールインゴット
+enderio.soularium.name=ソウラリウムインゴット
+enderio.endSteel.name=エンドスチールインゴット
 enderio.endSteelNugget.name=エンドスチールナゲット
 
-enderio.crudeSteel.name=粘土混合体
-enderio.crystallineAlloy.name=結晶質合金
-enderio.melodicAlloy.name=メロディー合金
-enderio.stellarAlloy.name=星合金
-enderio.crystallinePinkSlime.name=結晶質ピンクスライム
-enderio.energeticSilver.name=エナジェティック銀
-enderio.vividAlloy.name=ビビッド合金
+enderio.crudeSteel.name=粘土混合体インゴット
+enderio.crystallineAlloy.name=結晶質合金インゴット
+enderio.melodicAlloy.name=メロディー合金インゴット
+enderio.stellarAlloy.name=星合金インゴット
+enderio.crystallinePinkSlime.name=結晶質ピンクスライムインゴット
+enderio.energeticSilver.name=エナジェティック銀インゴット
+enderio.vividAlloy.name=ビビッド合金インゴット
 
 enderio.crudeSteelGrindingBall.name=粘土混合体製粉砕用ボール
 enderio.crystallineAlloyGrindingBall.name=結晶質合金製粉砕用ボール
@@ -509,560 +509,560 @@ tile.blockCombustionGenerator.tooltip.detailed.line3=出力は燃料によって
 tile.blockZombieGenerator.name=ゾンビ発電機
 tile.blockZombieGenerator.tooltip.detailed.line1=栄養蒸留液を消費して
 tile.blockZombieGenerator.tooltip.detailed.line2=発電する
-enderio.zombieGenerator.fuelTank=Nutrient Tank
-enderio.gui.fluid.minReq=%s Required for activation
+enderio.zombieGenerator.fuelTank=栄養蒸留液タンク
+enderio.gui.fluid.minReq=稼働には%s必要
 
-tile.blockFrankenzombieGenerator.name=Frank'N'Zombie Generator
+tile.blockFrankenzombieGenerator.name=フランケンゾンビ発電機
 tile.blockFrankenzombieGenerator.tooltip.detailed.line1=栄養蒸留液を消費して
-tile.blockFrankenzombieGenerator.tooltip.detailed.line2=to generate even more power
-enderio.frankenzombieGenerator.fuelTank=Nutrient Tank
+tile.blockFrankenzombieGenerator.tooltip.detailed.line2=より強力に発電する
+enderio.frankenzombieGenerator.fuelTank=栄養蒸留液タンク
 
-tile.blockEnderGenerator.name=Ender Generator
-tile.blockEnderGenerator.tooltip.detailed.line1=Consumes Dew of the Void
+tile.blockEnderGenerator.name=エンダー発電機
+tile.blockEnderGenerator.tooltip.detailed.line1=無のしずくを消費して
 tile.blockEnderGenerator.tooltip.detailed.line2=発電する
-enderio.enderGenerator.fuelTank=Void Tank
+enderio.enderGenerator.fuelTank=無のしずくタンク
 
-tile.blockKillerJoe.name=Killer Joe
-tile.blockKillerJoe.tooltip.detailed.line1=Attacks nearby creatures when
-tile.blockKillerJoe.tooltip.detailed.line2=supplied with a sword and
-tile.blockKillerJoe.tooltip.detailed.line3=栄養蒸留液
-tile.blockKillerJoe.tooltip.detailed.line4=Experience can be drained as
-tile.blockKillerJoe.tooltip.detailed.line5=Liquid XP using fluid conduits
+tile.blockKillerJoe.name=キラージョー
+tile.blockKillerJoe.tooltip.detailed.line1=栄養蒸留液と剣を
+tile.blockKillerJoe.tooltip.detailed.line2=供給すると近くの
+tile.blockKillerJoe.tooltip.detailed.line3=生物を攻撃する
+tile.blockKillerJoe.tooltip.detailed.line4=経験値は液体導管で
+tile.blockKillerJoe.tooltip.detailed.line5=液体経験値として排出できる
 
-enderio.killerJoe.fuelTank=Nutrient Tank
-enderio.killerJoe.giveXp.tooltip=Take XP
-enderio.killerJoe.giveXp10.tooltip=Take 10 Levels of XP
+enderio.killerJoe.fuelTank=栄養蒸留液タンク
+enderio.killerJoe.giveXp.tooltip=経験値を引き出す
+enderio.killerJoe.giveXp10.tooltip=10レベル分の経験値を引き出す
 
-tile.blockSliceAndSplice.name=Slice'N'Splice
-tile.blockSliceAndSplice.tooltip.detailed.line1=Slices heads and splices in
-tile.blockSliceAndSplice.tooltip.detailed.line2=all sorts of useful things
+tile.blockSliceAndSplice.name=継ぎ接ぎ加工機
+tile.blockSliceAndSplice.tooltip.detailed.line1=頭を切断して、有効活用できるように
+tile.blockSliceAndSplice.tooltip.detailed.line2=様々なモノを取り付ける
 
-tile.blockFarmStation.name=Farming Station
-tile.blockFarmStation.tooltip.detailed.line1=Plants and harvests crops
-tile.blockFarmStation.tooltip.detailed.line2=Requires power and
-tile.blockFarmStation.tooltip.detailed.line3=appropriate tools (hoe, axe)
-tile.blockFarmStation.tooltip.detailed.line4=Looting / fortune on tools
-tile.blockFarmStation.tooltip.detailed.line5=applied when harvesting
-tile.blockFarmStation.tooltip.detailed.line6=コンデンサーで稼働速度や蓄電量を
-tile.blockFarmStation.tooltip.detailed.line7=range, upgrade also increases power use
+tile.blockFarmStation.name=農業ステーション
+tile.blockFarmStation.tooltip.detailed.line1=作物の植付、収穫をする
+tile.blockFarmStation.tooltip.detailed.line2=電気と適切なツール
+tile.blockFarmStation.tooltip.detailed.line3=(斧、クワなど)が必要になる
+tile.blockFarmStation.tooltip.detailed.line4=ツールに付いている幸運やドロップ増加の効果は
+tile.blockFarmStation.tooltip.detailed.line5=収穫時に適用される
+tile.blockFarmStation.tooltip.detailed.line6=コンデンサーで稼働範囲をアップグレードできるが
+tile.blockFarmStation.tooltip.detailed.line7=その分消費電力も上がる
 
-enderio.farm.note.outputFull=Output Full
-enderio.farm.note.noSeeds=No Seeds
-enderio.farm.note.noAxe=No Axe
-enderio.farm.note.noHoe=No Hoe
-enderio.farm.note.noPower=No Power
-enderio.farm.gui.baseUse=Base Use:
+enderio.farm.note.outputFull=全て出力
+enderio.farm.note.noSeeds=種がありません
+enderio.farm.note.noAxe=斧がありません
+enderio.farm.note.noHoe=クワがありません
+enderio.farm.note.noPower=電気が足りません
+enderio.farm.gui.baseUse=使用量 :
 
-tile.blockTank.name=Fluid Tank
-tile.blockTank.advanced.name=Pressurized Fluid Tank
-tile.blockTank.tooltip.detailed.line1=Portable fluid tank
-tile.blockTank.tooltip.detailed.line2=Can be used to empty and
-tile.blockTank.tooltip.detailed.line3=fill fluid containers
-enderio.tank.tank=Tank
-enderio.tooltip.none=None
-enderio.tooltip.fluidStored=Fluid Stored
+tile.blockTank.name=液体タンク
+tile.blockTank.advanced.name=加圧液体タンク
+tile.blockTank.tooltip.detailed.line1=持ち運び可能な液体タンク
+tile.blockTank.tooltip.detailed.line2=他の液体容器に中身を
+tile.blockTank.tooltip.detailed.line3=移すことができる
+enderio.tank.tank=タンク
+enderio.tooltip.none=なし
+enderio.tooltip.fluidStored=貯蔵している液体
 
-enderio.gui.tooltip.voidslot=Void Slot
-enderio.gui.void.mode=Void Mode
+enderio.gui.tooltip.voidslot=廃棄スロット
+enderio.gui.void.mode=廃棄モード
 
-enderio.gui.void.mode.always=Always
-enderio.gui.void.mode.always.desc=Void slot accepts all items
+enderio.gui.void.mode.always=常時
+enderio.gui.void.mode.always.desc=スロットに置いたアイテムをすべて廃棄
 
-enderio.gui.void.mode.if_not_container=If Not Container
-enderio.gui.void.mode.if_not_container.desc=Void slot accepts all items that are not fluid containers
+enderio.gui.void.mode.if_not_container=タンク以外
+enderio.gui.void.mode.if_not_container.desc=スロットに置いた、液体を格納できるアイテム以外をすべて廃棄
 
-enderio.gui.void.mode.never=Never
-enderio.gui.void.mode.never.desc=Void slot does not accept items
+enderio.gui.void.mode.never=無効
+enderio.gui.void.mode.never.desc=廃棄スロットへの配置が不可
 
-tile.blockCrafter.name=Crafter
-tile.blockCrafter.tooltip.detailed.line1=A powered auto-crafter
-tile.blockCrafter.tooltip.detailed.line2=Consumes power per operation
-tile.blockCrafter.tooltip.detailed.line3=Can be upgraded to increase speed
-tile.blockCrafter.tooltip.detailed.line4=and energy storage with capacitors
+tile.blockCrafter.name=自動作業台
+tile.blockCrafter.tooltip.detailed.line1=電動で自動クラフトする
+tile.blockCrafter.tooltip.detailed.line2=クラフト時に電気を消費する
+tile.blockCrafter.tooltip.detailed.line3=コンデンサーで稼働速度や蓄電量を
+tile.blockCrafter.tooltip.detailed.line4=アップグレードできる
 
-tile.blockVacuumChest.name=Vacuum Chest
-tile.blockVacuumChest.tooltip.detailed.line1=Pulls nearby items
-tile.blockVacuumChest.tooltip.detailed.line2=into its inventory
+tile.blockVacuumChest.name=バキュームチェスト
+tile.blockVacuumChest.tooltip.detailed.line1=周囲のアイテムを引き寄せて
+tile.blockVacuumChest.tooltip.detailed.line2=中に収納する
 
-tile.blockPoweredSpawner.name=Powered Spawner
-tile.blockPoweredSpawner.tooltip.empty=Empty
-enderio.tile.blockPoweredSpawner.tooltip.none=None
-tile.blockPoweredSpawner.empty.tooltip.detailed.line1=Combine with a broken
-tile.blockPoweredSpawner.empty.tooltip.detailed.line2=spawner in an anvil
-tile.blockPoweredSpawner.tooltip.detailed.line1=Supply with power to
-tile.blockPoweredSpawner.tooltip.detailed.line2=activate
+tile.blockPoweredSpawner.name=電動スポナー
+tile.blockPoweredSpawner.tooltip.empty=空
+enderio.tile.blockPoweredSpawner.tooltip.none=なし
+tile.blockPoweredSpawner.empty.tooltip.detailed.line1=金床で壊れたスポナーと
+tile.blockPoweredSpawner.empty.tooltip.detailed.line2=組み合わせることができる
+tile.blockPoweredSpawner.tooltip.detailed.line1=電気を供給すると
+tile.blockPoweredSpawner.tooltip.detailed.line2=稼働する
 tile.blockPoweredSpawner.tooltip.detailed.line3=コンデンサーで稼働速度や蓄電量を
 tile.blockPoweredSpawner.tooltip.detailed.line4=アップグレードできる
 
-item.itemBrokenSpawner.name=Broken Spawner
-item.itemBrokenSpawner.tooltip.detailed.line1=Combine with a Powered Spawner
-item.itemBrokenSpawner.tooltip.detailed.line2=in an Anvil to set spawn type
+item.itemBrokenSpawner.name=壊れたスポナー
+item.itemBrokenSpawner.tooltip.detailed.line1=金床で電動スポナーと組み合わせて
+item.itemBrokenSpawner.tooltip.detailed.line2=スポーンさせるmobを変更できる
 
-tile.blockSoulBinder.name=Soul Binder
-tile.blockSoulBinder.tooltip.detailed.line1=Used to convert the type of
-tile.blockSoulBinder.tooltip.detailed.line2=a broken spawner
+tile.blockSoulBinder.name=ソウルバインダー
+tile.blockSoulBinder.tooltip.detailed.line1=壊れたスポナーのmobを
+tile.blockSoulBinder.tooltip.detailed.line2=変更することができる
 
-tile.blockAttractor.name=Attractor Obelisk
-tile.blockAttractor.tooltip.detailed.line1=Draws mobs towards it
-tile.blockAttractor.tooltip.detailed.line2=Specify the mobs to effect
-tile.blockAttractor.tooltip.detailed.line3=by placing their souls
-tile.blockAttractor.tooltip.detailed.line4=within the device
+tile.blockAttractor.name=誘惑のオベリスク
+tile.blockAttractor.tooltip.detailed.line1=mobを引き寄せる
+tile.blockAttractor.tooltip.detailed.line2=中にmobの魂を入れて
+tile.blockAttractor.tooltip.detailed.line3=引き寄せるmobを
+tile.blockAttractor.tooltip.detailed.line4=指定することができる
 
-tile.blockSpawnGuard.name=Aversion Obelisk
-tile.blockSpawnGuard.tooltip.detailed.line1=Prevents mobs from spawning
-tile.blockSpawnGuard.tooltip.detailed.line2=within its area of effect
+tile.blockSpawnGuard.name=憎悪のオベリスク
+tile.blockSpawnGuard.tooltip.detailed.line1=効果範囲内のmobの
+tile.blockSpawnGuard.tooltip.detailed.line2=スポーンを抑制する
 
-tile.blockExperienceObelisk.name=Experience Obelisk
-tile.blockExperienceObelisk.tooltip.detailed.line1=Stores Experience
-tile.blockExperienceObelisk.tooltip.detailed.line2=Can output liquid XP to
-tile.blockExperienceObelisk.tooltip.detailed.line3=adjacent tanks
+tile.blockExperienceObelisk.name=経験のオベリスク
+tile.blockExperienceObelisk.tooltip.detailed.line1=経験値を貯める
+tile.blockExperienceObelisk.tooltip.detailed.line2=タンクに液体経験値として
+tile.blockExperienceObelisk.tooltip.detailed.line3=排出できる
 
-tile.blockWeatherObelisk.name=Weather Obelisk
-tile.blockWeatherObelisk.tooltip.detailed.line1=Changes the current weather
-tile.blockWeatherObelisk.tooltip.detailed.line2=Requires a lot of power and
-tile.blockWeatherObelisk.tooltip.detailed.line3=a catalyst item
+tile.blockWeatherObelisk.name=天候のオベリスク
+tile.blockWeatherObelisk.tooltip.detailed.line1=現在の天候を変更する
+tile.blockWeatherObelisk.tooltip.detailed.line2=大量の電気と天候ごとに異なる
+tile.blockWeatherObelisk.tooltip.detailed.line3=アイテムを消費する
 
-tile.blockBuffer.item.name=Item Buffer
-tile.blockBuffer.power.name=Power Buffer
-tile.blockBuffer.omni.name=Omni Buffer
-tile.blockBuffer.creative.name=Creative Buffer
+tile.blockBuffer.item.name=アイテムバッファ
+tile.blockBuffer.power.name=電力バッファ
+tile.blockBuffer.omni.name=総合バッファ
+tile.blockBuffer.creative.name=クリエイティブバッファ
 
-tile.blockInventoryPanel.name=Inventory Panel
-tile.blockInventoryPanel.tooltip.basic.line1=Remote access and crafting
-tile.blockInventoryPanel.tooltip.detailed.line1=Allows remote access to inventories via
-tile.blockInventoryPanel.tooltip.detailed.line2=Remote Awareness Upgrades in item conduits.
-tile.blockInventoryPanel.tooltip.detailed.line3=Uses Nutrient Distillation for power.
-tile.blockInventoryPanel.tooltip.detailed.line4=Offers a persistent crafting grid.
-enderio.gui.inventorypanel.header.crafting=Crafting grid
-enderio.gui.inventorypanel.header.return=Return area
-enderio.gui.inventorypanel.header.storage=Storage area
-enderio.gui.inventorypanel.info.filter=<filter by name>
-enderio.gui.inventorypanel.info.offline=<OFFLINE>
-enderio.gui.inventorypanel.tooltip.return.line1=Item return area
-enderio.gui.inventorypanel.tooltip.return.line2=Items placed here can be extracted
-enderio.gui.inventorypanel.tooltip.return.line3=by an item conduit, but will not be
-enderio.gui.inventorypanel.tooltip.return.line4=used for crafting.
-enderio.gui.inventorypanel.tooltip.return.line5=Click to change into storage area.
-enderio.gui.inventorypanel.tooltip.storage.line1=Item storage area
-enderio.gui.inventorypanel.tooltip.storage.line2=Small temporary item storage area.
-enderio.gui.inventorypanel.tooltip.storage.line3=Click to change into return area
-enderio.gui.inventorypanel.tooltip.filterslot.line1=Filter card slot
-enderio.gui.inventorypanel.tooltip.filterslot.line2=Place configured item filters in
-enderio.gui.inventorypanel.tooltip.filterslot.line3=here to select which items to show.
-enderio.gui.inventorypanel.tooltip.sort.name_down.line1=Sort items by name
-enderio.gui.inventorypanel.tooltip.sort.name_up.line1=Sort items by name
-enderio.gui.inventorypanel.tooltip.sort.name_up.line2=Starting at the end of the alphabet
-enderio.gui.inventorypanel.tooltip.sort.mod_down.line1=Sort items by mod ID
-enderio.gui.inventorypanel.tooltip.sort.mod_down.line2=Items from the same mod are sorted by name
-enderio.gui.inventorypanel.tooltip.sort.mod_up.line1=Sort items by mod ID
-enderio.gui.inventorypanel.tooltip.sort.mod_up.line2=Items from the same mod are sorted by name
-enderio.gui.inventorypanel.tooltip.sort.mod_up.line3=Starting at the end of the alphabet
-enderio.gui.inventorypanel.tooltip.sort.count_down.line1=Sort items by their quantity
-enderio.gui.inventorypanel.tooltip.sort.count_down.line2=Starting with the highest quantity
-enderio.gui.inventorypanel.tooltip.sort.count_up.line1=Sort items by their quantity
-enderio.gui.inventorypanel.tooltip.sort.count_up.line2=Starting with the lonely ones
-enderio.gui.inventorypanel.tooltip.refill.line1=Refills the crafting grid
-enderio.gui.inventorypanel.tooltip.refill.line2=A normal click puts items
-enderio.gui.inventorypanel.tooltip.refill.line3=for one crafting opperations,
-enderio.gui.inventorypanel.tooltip.refill.line4=while a shift click tries to
-enderio.gui.inventorypanel.tooltip.refill.line5=fill the crafting grid.
-enderio.gui.inventorypanel.tooltip.setrecipe.line1=Learn the current crafting recipe
-enderio.gui.inventorypanel.tooltip.setrecipe.line2=Allows the refilling for the
-enderio.gui.inventorypanel.tooltip.setrecipe.line3=current recipe from the network.
-enderio.gui.inventorypanel.tooltip.clear.line1=Clear crafting grid
-enderio.gui.inventorypanel.tooltip.clear.line2=Moves all items to the return area
-enderio.gui.inventorypanel.tooltip.fuelTank=Nutrient Tank
-enderio.gui.inventorypanel.tooltip.itemsstored=Items Stored: %s
-enderio.gui.inventorypanel.tooltip.addrecipe.line1=Store the current crafting recipe
-enderio.gui.inventorypanel.tooltip.addrecipe.line2=A maximum of 6 recipes can be stored.
-enderio.gui.inventorypanel.tooltip.addrecipe.line3=Left clicking a stored recipe will try to put
-enderio.gui.inventorypanel.tooltip.addrecipe.line4=items for one crafting operation into the grid.
-enderio.gui.inventorypanel.tooltip.addrecipe.line5=Shift left clicking tries to fill the crafting
-enderio.gui.inventorypanel.tooltip.addrecipe.line6=grid to the maximum.
-enderio.gui.inventorypanel.tooltip.addrecipe.line7=Right click a stored recipe to delete it.
-enderio.gui.inventorypanel.tooltip.sync=NEI Sync
+tile.blockInventoryPanel.name=インベントリパネル
+tile.blockInventoryPanel.tooltip.basic.line1=遠隔のインベントリから取り出し、クラフトができる
+tile.blockInventoryPanel.tooltip.detailed.line1=遠隔認識アップグレードを入れたアイテム導管が
+tile.blockInventoryPanel.tooltip.detailed.line2=接続しているインベントリにアクセスできる
+tile.blockInventoryPanel.tooltip.detailed.line3=電気と栄養蒸留液を消費する
+tile.blockInventoryPanel.tooltip.detailed.line4=作業台機能付き
+enderio.gui.inventorypanel.header.crafting=クラフト
+enderio.gui.inventorypanel.header.return=返却物置き場
+enderio.gui.inventorypanel.header.storage=収納物置き場
+enderio.gui.inventorypanel.info.filter=<アイテム検索>
+enderio.gui.inventorypanel.info.offline=<オフライン>
+enderio.gui.inventorypanel.tooltip.return.line1=アイテムの返却場所
+enderio.gui.inventorypanel.tooltip.return.line2=ここに置いたアイテムはアイテム導管で
+enderio.gui.inventorypanel.tooltip.return.line3=取り出すことができるが
+enderio.gui.inventorypanel.tooltip.return.line4=クラフトには使用できない
+enderio.gui.inventorypanel.tooltip.return.line5=クリックして収納物置き場に切り替え
+enderio.gui.inventorypanel.tooltip.storage.line1=アイテムの収納場所
+enderio.gui.inventorypanel.tooltip.storage.line2=一時的にアイテムを入れておくことができる
+enderio.gui.inventorypanel.tooltip.storage.line3=クリックして返却物置き場に切り替え
+enderio.gui.inventorypanel.tooltip.filterslot.line1=フィルタースロット
+enderio.gui.inventorypanel.tooltip.filterslot.line2=設定済みのアイテムフィルターを入れて
+enderio.gui.inventorypanel.tooltip.filterslot.line3=フィルターに合致するアイテムのみを表示する
+enderio.gui.inventorypanel.tooltip.sort.name_down.line1=アイテム名順(降順)
+enderio.gui.inventorypanel.tooltip.sort.name_up.line1=アイテム名順(昇順)
+enderio.gui.inventorypanel.tooltip.sort.name_up.line2=アイテムを名前の昇順で表示
+enderio.gui.inventorypanel.tooltip.sort.mod_down.line1=Mod名順(降順)
+enderio.gui.inventorypanel.tooltip.sort.mod_down.line2=同じModのアイテムは名前順で並び替える
+enderio.gui.inventorypanel.tooltip.sort.mod_up.line1=Mod名順(昇順)
+enderio.gui.inventorypanel.tooltip.sort.mod_up.line2=同じModのアイテムは名前順で並び替える
+enderio.gui.inventorypanel.tooltip.sort.mod_up.line3=Mod、アイテムを名前の昇順で表示
+enderio.gui.inventorypanel.tooltip.sort.count_down.line1=個数順(降順)
+enderio.gui.inventorypanel.tooltip.sort.count_down.line2=個数が多いアイテムから表示
+enderio.gui.inventorypanel.tooltip.sort.count_up.line1=個数順(昇順)
+enderio.gui.inventorypanel.tooltip.sort.count_up.line2=個数が少ないアイテムから表示
+enderio.gui.inventorypanel.tooltip.refill.line1=クラフトするアイテムを補充
+enderio.gui.inventorypanel.tooltip.refill.line2=普通にクリックすると
+enderio.gui.inventorypanel.tooltip.refill.line3=クラフト1回分を補充する
+enderio.gui.inventorypanel.tooltip.refill.line4=Shiftクリックすると
+enderio.gui.inventorypanel.tooltip.refill.line5=可能な限り補充する
+enderio.gui.inventorypanel.tooltip.setrecipe.line1=このレシピを学習
+enderio.gui.inventorypanel.tooltip.setrecipe.line2=このレシピの材料を接続している
+enderio.gui.inventorypanel.tooltip.setrecipe.line3=インベントリから補充できるようにする
+enderio.gui.inventorypanel.tooltip.clear.line1=クラフト枠をクリア
+enderio.gui.inventorypanel.tooltip.clear.line2=全てのアイテムを返却物置き場に送る
+enderio.gui.inventorypanel.tooltip.fuelTank=栄養蒸留液タンク
+enderio.gui.inventorypanel.tooltip.itemsstored=収納中のアイテム：%s
+enderio.gui.inventorypanel.tooltip.addrecipe.line1=このレシピを記憶
+enderio.gui.inventorypanel.tooltip.addrecipe.line2=6つまでレシピを記憶できる
+enderio.gui.inventorypanel.tooltip.addrecipe.line3=左クリックするとクラフト1回分の
+enderio.gui.inventorypanel.tooltip.addrecipe.line4=アイテムを配置する
+enderio.gui.inventorypanel.tooltip.addrecipe.line5=Shift左クリックすると可能な限り
+enderio.gui.inventorypanel.tooltip.addrecipe.line6=アイテムを配置する
+enderio.gui.inventorypanel.tooltip.addrecipe.line7=右クリックするとレシピを削除する
+enderio.gui.inventorypanel.tooltip.sync=NEI同期
 
-enderio.machine.tooltip.configured=(Configured)
+enderio.machine.tooltip.configured=(設定済み)
 
 #Blocks
-tile.blockDarkSteelPressurePlate.name=Dark Pressure Plate
-tile.blockDarkSteelPressurePlate.tooltip.detailed.line1=Only activated by players
-tile.blockDarkSteelPressurePlate.tooltip.detailed.line2=Can be painted in painting machine,
-tile.blockDarkSteelPressurePlate.tooltip.detailed.line3=invisible when painted with Quite
-tile.blockDarkSteelPressurePlate.tooltip.detailed.line4=Clear Glass
-tile.blockDarkSteelPressurePlate.silent.tooltip.common.line1=Silent
-tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line1=Only activated by players
-tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line2=Can be painted in painting machine,
-tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line3=invisible when painted with Quite
-tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line4=Clear Glass
+tile.blockDarkSteelPressurePlate.name=ダークスチールの感圧板
+tile.blockDarkSteelPressurePlate.tooltip.detailed.line1=プレイヤーが乗ったときのみ起動する
+tile.blockDarkSteelPressurePlate.tooltip.detailed.line2=塗装機で塗装することができる
+tile.blockDarkSteelPressurePlate.tooltip.detailed.line3=高透過ガラスで塗装すると
+tile.blockDarkSteelPressurePlate.tooltip.detailed.line4=透明になる
+tile.blockDarkSteelPressurePlate.silent.tooltip.common.line1=無音
+tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line1=プレイヤーが乗ったときのみ起動する
+tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line2=塗装機で塗装することができる
+tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line3=高透過ガラスで塗装すると
+tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line4=透明になる
 
-tile.blockDarkSteelAnvil.intact.name=Dark Steel Anvil
-tile.blockDarkSteelAnvil.slightlyDamaged.name=Slightly Damaged Dark Steel Anvil
-tile.blockDarkSteelAnvil.veryDamaged.name=Very Damaged Dark Steel Anvil
-tile.blockDarkSteelAnvil.tooltip.common.line1=Damage Resistant
-tile.blockDarkSteelAnvil.tooltip.detailed.line1=Lasts much longer than
-tile.blockDarkSteelAnvil.tooltip.detailed.line2=the vanilla anvil
+tile.blockDarkSteelAnvil.intact.name=ダークスチールの金床
+tile.blockDarkSteelAnvil.slightlyDamaged.name=少し壊れたダークスチールの金床
+tile.blockDarkSteelAnvil.veryDamaged.name=かなり壊れたダークスチールの金床
+tile.blockDarkSteelAnvil.tooltip.common.line1=ダメージ耐性
+tile.blockDarkSteelAnvil.tooltip.detailed.line1=バニラの金床よりも
+tile.blockDarkSteelAnvil.tooltip.detailed.line2=長持ちする
 
-tile.blockDarkSteelLadder.name=Dark Steel Ladder
-tile.blockDarkSteelLadder.tooltip.common.line1=Faster than regular ladders
+tile.blockDarkSteelLadder.name=ダークスチールのはしご
+tile.blockDarkSteelLadder.tooltip.common.line1=通常のはしごよりも速く昇降できる
 
 #Travel
-tile.blockTravelAnchor.name=Travel Anchor
-tile.blockTravelAnchor.tooltip.detailed.line1=Allows teleportation between anchors
-tile.blockTravelAnchor.tooltip.detailed.line2=Stand on one Anchor, look at
-tile.blockTravelAnchor.tooltip.detailed.line3=another and jump to travel
-tile.blockTravelAnchor.tooltip.detailed.line4=Can also be used with the Staff
-tile.blockTravelAnchor.tooltip.detailed.line5=of Travel
-tile.blockTravelAnchor.tooltip.detailed.line6=Can be painted in the Painting Machine
+tile.blockTravelAnchor.name=トラベルアンカー
+tile.blockTravelAnchor.tooltip.detailed.line1=アンカー間をテレポートできる
+tile.blockTravelAnchor.tooltip.detailed.line2=アンカーの上に立ち、行き先のアンカーに標準を合わせて
+tile.blockTravelAnchor.tooltip.detailed.line3=ジャンプするとテレポートできる
+tile.blockTravelAnchor.tooltip.detailed.line4=旅の杖を使用して
+tile.blockTravelAnchor.tooltip.detailed.line5=テレポートすることもできる
+tile.blockTravelAnchor.tooltip.detailed.line6=塗装機で塗装することができる
 
-enderio.blockTravelPlatform.invalidTarget=Destination is Obstructed
-enderio.blockTravelPlatform.outOfRange=Destination out of range
+enderio.blockTravelPlatform.invalidTarget=障害物で遮られています
+enderio.blockTravelPlatform.outOfRange=目的地は範囲外です
 
-tile.blockTelePad.name=Telepad Block
-tile.blockTelePad.tooltip.detailed.line1=Uses power to teleport entities
-tile.blockTelePad.tooltip.detailed.line2=to a specific position and dimension.
-tile.blockTelePad.tooltip.detailed.line3=Must be placed in a 3x1x3 multiblock.
-enderio.gui.telepad.teleport=Teleport!
+tile.blockTelePad.name=テレパッド
+tile.blockTelePad.tooltip.detailed.line1=電気を消費してエンティティを特定の座標、
+tile.blockTelePad.tooltip.detailed.line2=ディメンションにテレポートさせる
+tile.blockTelePad.tooltip.detailed.line3=3x1x3のマルチブロックにする必要がある
+enderio.gui.telepad.teleport=テレポート！
 
-item.itemTravelStaff.name=Staff of Traveling
-item.itemTravelStaff.tooltip.detailed.line1=When held Travel Anchors and EnderIO
-item.itemTravelStaff.tooltip.detailed.line2=blocks become visible and can be
-item.itemTravelStaff.tooltip.detailed.line3=activated by R-Click
-item.itemTravelStaff.tooltip.detailed.line4=Shift-R-Click will teleport the
-item.itemTravelStaff.tooltip.detailed.line5=player a short distance
-enderio.itemTravelStaff.notEnoughPower=Not enough power
+item.itemTravelStaff.name=旅の杖
+item.itemTravelStaff.tooltip.detailed.line1=手に持っていると、トラベルアンカーや
+item.itemTravelStaff.tooltip.detailed.line2=エンダーIOの場所を見ることができ
+item.itemTravelStaff.tooltip.detailed.line3=右クリックで起動することができる
+item.itemTravelStaff.tooltip.detailed.line4=Shift右クリックすると使用者を
+item.itemTravelStaff.tooltip.detailed.line5=短距離テレポートさせる
+enderio.itemTravelStaff.notEnoughPower=電気が足りません
 enderio.travelStaffKeybind.isDisabled=Travel Staff Blink Keybind Disabled!
 
-item.itemTeleportStaff.name=Staff of Teleportation
-item.itemTeleportStaff.tooltip.detailed.line1=R-Click to teleport wherever you are looking
-item.itemTeleportStaff.tooltip.detailed.line2=Shift-R-Click to teleport to Travel Anchors
-item.itemTeleportStaff.tooltip.detailed.line3=R-Click on a nearby block to try to teleport
-item.itemTeleportStaff.tooltip.detailed.line4=to the other side
+item.itemTeleportStaff.name=テレポートの杖
+item.itemTeleportStaff.tooltip.detailed.line1=右クリックで見ている場所にテレポートする
+item.itemTeleportStaff.tooltip.detailed.line2=Shift右クリックでトラベルアンカーにテレポートする
+item.itemTeleportStaff.tooltip.detailed.line3=近くのブロックに向かって右クリックすると
+item.itemTeleportStaff.tooltip.detailed.line4=ブロックの反対側にテレポートする
 
-item.itemCoordSelector.name=Coordinate Selector
-item.itemCoordSelector.tooltip.detailed.line1=Stores coordinates of a block.
-item.itemCoordSelector.tooltip.detailed.line2=Right click at block to select
-item.itemCoordSelector.tooltip.detailed.line3=the block adjacent on that side.
-item.itemCoordSelector.tooltip.detailed.line4=Shift right click at a block to
-item.itemCoordSelector.tooltip.detailed.line5=select that specific block.
-item.itemCoordSelector.tooltip.detailed.line6=Can select from a distance.
-enderio.itemCoordSelector.chat.newCoords=New Coords: %s
-enderio.itemCoordSelector.chat.setCoords=Set Coords: %s
-enderio.itemCoordSelector.chat.newDimension=New Dimension: %s%s
-enderio.itemCoordSelector.chat.setDimension=Set Dimension: %s%s
+item.itemCoordSelector.name=座標選択機
+item.itemCoordSelector.tooltip.detailed.line1=ブロックの座標を記録する
+item.itemCoordSelector.tooltip.detailed.line2=ブロックを右クリックすると
+item.itemCoordSelector.tooltip.detailed.line3=プレイヤーに近い隣接した座標を記録する
+item.itemCoordSelector.tooltip.detailed.line4=ブロックをShift右クリックすると
+item.itemCoordSelector.tooltip.detailed.line5=ブロック自体の座標を記録する
+item.itemCoordSelector.tooltip.detailed.line6=遠くの座標も記録できる
+enderio.itemCoordSelector.chat.newCoords=座標を記録 : %s
+enderio.itemCoordSelector.chat.setCoords=座標を設定 : %s
+enderio.itemCoordSelector.chat.newDimension=ディメンションを記録 : %s%s
+enderio.itemCoordSelector.chat.setDimension=ディメンションを設定 : %s%s
 
 #Painter
-tile.blockPainter.name=Painting Machine
-enderio.blockPainter.paintedWith=Painted with:
-tile.blockPaintedFence.name=Painted Fence
-tile.blockPaintedFenceGate.name=Painted Gate
-tile.blockPaintedWall.name=Painted Wall
-tile.blockPaintedStair.name=Painted Stairs
-tile.blockPaintedSlab.name=Painted Slab
-tile.blockPaintedDoubleSlab.name=Painted Slab
-tile.blockPaintedGlowstone.name=Painted Glowstone
-tile.blockPaintedCarpet.name=Painted Carpet
-enderio.painter.tooltip.wasPainted=§oWhat did you think that would do?
+tile.blockPainter.name=塗装機
+enderio.blockPainter.paintedWith=塗装ブロック :
+tile.blockPaintedFence.name=塗装したフェンス
+tile.blockPaintedFenceGate.name=塗装したフェンスゲート
+tile.blockPaintedWall.name=塗装した壁
+tile.blockPaintedStair.name=塗装した階段
+tile.blockPaintedSlab.name=塗装したハーフブロック
+tile.blockPaintedDoubleSlab.name=塗装したハーフブロック
+tile.blockPaintedGlowstone.name=塗装したグロウストーン
+tile.blockPaintedCarpet.name=塗装したカーペット
+enderio.painter.tooltip.wasPainted=$oどうしてこんなことをしたの？
 
-tile.blockPainter.tooltip.detailed.line1=Used to paint:
-tile.blockPainter.tooltip.detailed.line2=Conduit Facades, Stairs, Fences,
-tile.blockPainter.tooltip.detailed.line3=Gates, Slabs, Cobblestone Walls,
-tile.blockPainter.tooltip.detailed.line4=Glass Frames, Glowstone, Carpet,
-tile.blockPainter.tooltip.detailed.line5=Dark Steel Pressure Plates,
-tile.blockPainter.tooltip.detailed.line6=Travel Anchors
+tile.blockPainter.tooltip.detailed.line1=塗装できるブロック :
+tile.blockPainter.tooltip.detailed.line2=導管用外装、階段、フェンス、
+tile.blockPainter.tooltip.detailed.line3=フェンスゲート、階段、丸石の壁、
+tile.blockPainter.tooltip.detailed.line4=水晶ガラスの外枠、グロウストーン、カーペット、
+tile.blockPainter.tooltip.detailed.line5=ダークスチールの感圧板、
+tile.blockPainter.tooltip.detailed.line6=トラベルアンカー
 
 #Items
-item.itemYetaWrench.name=Yeta Wrench
-item.itemYetaWrench.tooltip.detailed.line1=Hides conduit facades when held
-item.itemYetaWrench.tooltip.detailed.line2=Shift-R-Click to break machines
-item.itemYetaWrench.tooltip.detailed.line3=and conduits instantly
-item.itemYetaWrench.tooltip.detailed.line4=Shift-L-Click on a conduit to 
-item.itemYetaWrench.tooltip.detailed.line5=open conduit settings GUI
-item.itemYetaWrench.tooltip.detailed.line6=Use Shift-Mouse Wheel or '%s' to
-item.itemYetaWrench.tooltip.detailed.line7=render a single conduit type
+item.itemYetaWrench.name=イェタレンチ
+item.itemYetaWrench.tooltip.detailed.line1=持っていると導管用外装が非表示になる
+item.itemYetaWrench.tooltip.detailed.line2=Shift右クリックで導管や機械を
+item.itemYetaWrench.tooltip.detailed.line3=素早く回収する
+item.itemYetaWrench.tooltip.detailed.line4=導管にShift左クリックで
+item.itemYetaWrench.tooltip.detailed.line5=接続先の設定GUIを表示する
+item.itemYetaWrench.tooltip.detailed.line6=Shift中マウスホイールか「%s」キーで
+item.itemYetaWrench.tooltip.detailed.line7=表示する導管の種類を選択する
 
-item.itemMagnet.name=Electromagnet
-item.itemMagnet.tooltip.detailed.line1=Pulls nearby item towards you
-item.itemMagnet.tooltip.detailed.line2=Shift-R-Click to enable / disable
-item.itemMagnet.tooltip.detailed.line3=Must be powered, active and in the
-item.itemMagnet.tooltip.detailed.line4=hot bar (or a Baubles slot) to function
+item.itemMagnet.name=電磁石
+item.itemMagnet.tooltip.detailed.line1=近くのアイテムを所持者に引き寄せる
+item.itemMagnet.tooltip.detailed.line2=Shift右クリックで有効化／無効化
+item.itemMagnet.tooltip.detailed.line3=機能するには、充電して
+item.itemMagnet.tooltip.detailed.line4=ホットバーに入れておく必要がある
 
-item.enderio.itemConduitProbe.name=Conduit Probe
-item.enderio.itemConduitProbe.tooltip.detailed.line1=In probe mode R-Click on a conduit
-item.enderio.itemConduitProbe.tooltip.detailed.line2=to display details about its network
-item.enderio.itemConduitProbe.tooltip.detailed.line3=In copy/paste mode Shift-R-Click to
-item.enderio.itemConduitProbe.tooltip.detailed.line4=copy a conduit bundles connection settings 
-item.enderio.itemConduitProbe.tooltip.detailed.line5=R-Click to paste them
-item.enderio.itemConduitProbe.tooltip.detailed.line6=Use Shift-Mouse Wheel or 'Y' to change mode
+item.enderio.itemConduitProbe.name=導管調査機
+item.enderio.itemConduitProbe.tooltip.detailed.line1=表示モードの場合、導管を右クリックして
+item.enderio.itemConduitProbe.tooltip.detailed.line2=導管ネットワークの情報を表示する
+item.enderio.itemConduitProbe.tooltip.detailed.line3=コピー／貼り付けモードの場合
+item.enderio.itemConduitProbe.tooltip.detailed.line4=導管をShift右クリックして導管の接続設定をコピーし
+item.enderio.itemConduitProbe.tooltip.detailed.line5=右クリックで貼り付ける
+item.enderio.itemConduitProbe.tooltip.detailed.line6=Shift中マウスホイールか「Y」キーでモードを変更する
 
 item.itemSoulVessel.name=魂の小瓶
-enderio.item.itemSoulVessel.tooltip.health=Health:
-enderio.item.itemSoulVessel.tooltip.fluidname=Fluid Name:
-enderio.item.itemSoulVessel.tooltip.color=Color:
-enderio.item.itemSoulVessel.tooltip.empty=Empty
-item.itemSoulVessel.tooltip.detailed.line1=R-Click on a mob to
-item.itemSoulVessel.tooltip.detailed.line2=capture its soul
-item.itemSoulVessel.tooltip.detailed.line3=R-Click again to release it
+enderio.item.itemSoulVessel.tooltip.health=体力 :
+enderio.item.itemSoulVessel.tooltip.fluidname=液体名 :
+enderio.item.itemSoulVessel.tooltip.color=色 :
+enderio.item.itemSoulVessel.tooltip.empty=空
+item.itemSoulVessel.tooltip.detailed.line1=mobに向かって右クリックして
+item.itemSoulVessel.tooltip.detailed.line2=魂を捕獲する
+item.itemSoulVessel.tooltip.detailed.line3=もう一度右クリックして解き放つ
 
-item.itemXpTransfer.name=Experience Rod
-item.itemXpTransfer.tooltip.detailed.line1=R-Click on a fluid tank containing
-item.itemXpTransfer.tooltip.detailed.line2=liquid XP to gain levels
-item.itemXpTransfer.tooltip.detailed.line3=Shift-R-Click to transfer levels to
-item.itemXpTransfer.tooltip.detailed.line4=the tank
+item.itemXpTransfer.name=経験の棒
+item.itemXpTransfer.tooltip.detailed.line1=液体経験値が入っている液体タンクに
+item.itemXpTransfer.tooltip.detailed.line2=右クリックして、経験値として入手する
+item.itemXpTransfer.tooltip.detailed.line3=液体タンクにShift右クリックして
+item.itemXpTransfer.tooltip.detailed.line4=経験値をタンクに貯める
 
-skullZombieElectrode.name=Zombie Electrode
-skullZombieController.name=Z-Logic Controller
-skullZombieFrankenstien.name=Frank'N'Zombie
-skullEnderResonator.name=Ender Resonator 
-skullSentientEnder.name=Sentient Ender
-skullSkeletalContractor.name=Skeletal Contractor
-skullGuardianDiode.name=Guardian Diode
+skullZombieElectrode.name=ゾンビ電極
+skullZombieController.name=Z回路コントローラー
+skullZombieFrankenstien.name=フランケンゾンビ
+skullEnderResonator.name=エンダー共振器
+skullSentientEnder.name=センテントエンダー
+skullSkeletalContractor.name=スケルタル収縮器
+skullGuardianDiode.name=ガーディアンダイオード
 
-item.itemSpawnEggEnderIO.name=Spawn
+item.itemSpawnEggEnderIO.name=スポーン
 
 #Dark Steel
-item.darkSteel_helmet.name=Dark Helm
-item.darkSteel_chestplate.name=Dark Plate
-item.darkSteel_leggings.name=Dark Leggings
-item.darkSteel_boots.name=Dark Boots
-item.darkSteel_sword.name=The Ender
-item.darkSteel_pickaxe.name=Dark Pick
-item.darkSteel_axe.name=Dark Axe
-item.darkSteel_shears.name=Dark Shears
+item.darkSteel_helmet.name=ダークスチールのヘルメット
+item.darkSteel_chestplate.name=ダークスチールのチェストプレート
+item.darkSteel_leggings.name=ダークスチールのレギンス
+item.darkSteel_boots.name=ダークスチールのブーツ
+item.darkSteel_sword.name=ジ・エンダー
+item.darkSteel_pickaxe.name=ダークスチールのツルハシ
+item.darkSteel_axe.name=ダークスチールの斧
+item.darkSteel_shears.name=ダークスチールのハサミ
 
 #End Steel
-item.endSteel_helmet.name=End Steel Helm
-item.endSteel_chestplate.name=End Steel Plate
-item.endSteel_leggings.name=End Steel Leggings
-item.endSteel_boots.name=End Steel Boots
-item.endSteel_sword.name=The Ender MKII
-item.endSteel_pickaxe.name=End Steel Pick
-item.endSteel_axe.name=End Steel Axe
+item.endSteel_helmet.name=エンドスチールのヘルメット
+item.endSteel_chestplate.name=エンドスチールのチェストプレート
+item.endSteel_leggings.name=エンドスチールのレギンス
+item.endSteel_boots.name=エンドスチールのブーツ
+item.endSteel_sword.name=ジ・エンダー MK-Ⅱ
+item.endSteel_pickaxe.name=エンドスチールのピッケル
+item.endSteel_axe.name=エンドスチールの斧
 
 #Stellar
-item.stellar_helmet.name=Stellar Helm
-item.stellar_chestplate.name=Stellar Plate
-item.stellar_leggings.name=Stellar Leggings
-item.stellar_boots.name=Stellar Boots
-item.stellar_sword.name=The Ender MKIV
-item.stellar_pickaxe.name=Stellar Pick
-item.stellar_axe.name=Stellar Axe
+item.stellar_helmet.name=星合金のヘルメット
+item.stellar_chestplate.name=星合金のチェスト
+item.stellar_leggings.name=星合金のレギンス
+item.stellar_boots.name=星合金のブーツ
+item.stellar_sword.name=ジ・エンダー MK-Ⅳ
+item.stellar_pickaxe.name=星合金のピッケル
+item.stellar_axe.name=星合金の斧
 
-enderio.item.darkSteel.tooltip.lvs=lvs
+enderio.item.darkSteel.tooltip.lvs=レベル
 
-enderio.item.darkSteel_pickaxe.tooltip.effPowered=Efficiency when powered
-enderio.item.darkSteel_pickaxe.tooltip.effObs=Efficiency breaking obsidian
-enderio.item.darkSteel_pickaxe.tooltip.cost=cost
+enderio.item.darkSteel_pickaxe.tooltip.effPowered=採掘速度(電力保有時)
+enderio.item.darkSteel_pickaxe.tooltip.effObs=黒曜石の採掘速度(電力保有時)
+enderio.item.darkSteel_pickaxe.tooltip.cost=消費電力
 
-enderio.item.endSteel_pickaxe.tooltip.effPowered=Efficiency when powered
-enderio.item.endSteel_pickaxe.tooltip.effObs=Efficiency breaking obsidian
-enderio.item.endSteel_pickaxe.tooltip.cost=cost
+enderio.item.endSteel_pickaxe.tooltip.effPowered=採掘速度(電力保有時)
+enderio.item.endSteel_pickaxe.tooltip.effObs=黒曜石の採掘速度(電力保有時)
+enderio.item.endSteel_pickaxe.tooltip.cost=消費電力
 
-enderio.item.stellar_pickaxe.tooltip.effPowered=Efficiency when powered
-enderio.item.stellar_pickaxe.tooltip.effObs=Efficiency breaking obsidian
-enderio.item.stellar_pickaxe.tooltip.cost=cost
+enderio.item.stellar_pickaxe.tooltip.effPowered=採掘速度(電力保有時)
+enderio.item.stellar_pickaxe.tooltip.effObs=黒曜石の採掘速度(電力保有時)
+enderio.item.stellar_pickaxe.tooltip.cost=消費電力
 
-enderio.item.darkSteel_axe.tooltip.multiHarvest=Sneak to harvest multiple logs
-enderio.item.endSteel_axe.tooltip.multiHarvest=Sneak to harvest multiple logs
-enderio.item.stellar_axe.tooltip.multiHarvest=Sneak to harvest multiple logs
+enderio.item.darkSteel_axe.tooltip.multiHarvest=スニーク時に原木の一括破壊が可能
+enderio.item.endSteel_axe.tooltip.multiHarvest=スニーク時に原木の一括破壊が可能
+enderio.item.stellar_axe.tooltip.multiHarvest=スニーク時に原木の一括破壊が可能
 
-enderio.item.darkSteel_shears.tooltip.multiHarvest=Shears multiple blocks/sheep when empowered
+enderio.item.darkSteel_shears.tooltip.multiHarvest=電力保有時、広範囲のブロック・ヒツジを刈り取る
 
-enderio.item.darkSteel_sword.tooltip.line1=Increased skull and ender pearl drops
-enderio.item.darkSteel_sword.tooltip.line2=Endermen can't teleport once hit
-enderio.item.darkSteel_sword.tooltip.line3=+2 Damage when Powered
+enderio.item.darkSteel_sword.tooltip.line1=頭蓋骨とエンダーパールのドロップ率が上昇する
+enderio.item.darkSteel_sword.tooltip.line2=攻撃を受けたエンダーマンはテレポートが不可能になる
+enderio.item.darkSteel_sword.tooltip.line3=+2 攻撃力(電力保有時)
 
-enderio.item.endSteel_sword.tooltip.line1=Increased skull and ender pearl drops
-enderio.item.endSteel_sword.tooltip.line2=Endermen can't teleport once hit
-enderio.item.endSteel_sword.tooltip.line3=+2 Damage when Powered
+enderio.item.endSteel_sword.tooltip.line1=頭蓋骨とエンダーパールのドロップ率が上昇する
+enderio.item.endSteel_sword.tooltip.line2=攻撃を受けたエンダーマンはテレポートが不可能になる
+enderio.item.endSteel_sword.tooltip.line3=+2 攻撃力(電力保有時)
 
-enderio.item.stellar_sword.tooltip.line1=Increased skull and ender pearl drops
-enderio.item.stellar_sword.tooltip.line2=Endermen can't teleport once hit
-enderio.item.stellar_sword.tooltip.line3=+2 Damage when Powered
+enderio.item.stellar_sword.tooltip.line1=頭蓋骨とエンダーパールのドロップ率が上昇する
+enderio.item.stellar_sword.tooltip.line2=攻撃を受けたエンダーマンはテレポートが不可能になる
+enderio.item.stellar_sword.tooltip.line3=+2 攻撃力(電力保有時)
 
-enderio.item.darkSteel_armor.tooltip.line1=Diamond level protection
-enderio.item.darkSteel_armor.tooltip.line2=when powered
+enderio.item.darkSteel_armor.tooltip.line1=電力保有時、ダイヤモンド装備と
+enderio.item.darkSteel_armor.tooltip.line2=同等の防御力を得る
 
-enderio.item.endSteel_armor.tooltip.line1=Diamond+ level protection
-enderio.item.endSteel_armor.tooltip.line2=when powered
+enderio.item.endSteel_armor.tooltip.line1=電力保有時、ダイヤモンド装備以上の
+enderio.item.endSteel_armor.tooltip.line2=防御力を得る
 
-enderio.item.stellar_armor.tooltip.line1=Diamond+ level protection
-enderio.item.stellar_armor.tooltip.line2=when powered
+enderio.item.stellar_armor.tooltip.line1=電力保有時、ダイヤモンド装備以上の
+enderio.item.stellar_armor.tooltip.line2=防御力を得る
 
-enderio.item.darkSteel_boots.tooltip.line1=Fall damage negated
-enderio.item.darkSteel_boots.tooltip.line2=when powered
+enderio.item.darkSteel_boots.tooltip.line1=電力保有時、落下ダメージを
+enderio.item.darkSteel_boots.tooltip.line2=無効化する
 
-enderio.item.endSteel_boots.tooltip.line1=Fall damage negated
-enderio.item.endSteel_boots.tooltip.line2=when powered
+enderio.item.endSteel_boots.tooltip.line1=電力保有時、落下ダメージを
+enderio.item.endSteel_boots.tooltip.line2=無効化する
 
-enderio.item.stellar_boots.tooltip.line1=Fall damage negated
-enderio.item.stellar_boots.tooltip.line2=when powered
+enderio.item.stellar_boots.tooltip.line1=電力保有時、落下ダメージを
+enderio.item.stellar_boots.tooltip.line2=無効化する
 
-enderio.darksteel.upgrade.empowered_one.name=Empowered
-enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line1=Power: $P
-enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line2=$D% damage absorbed
-enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line3=by power
+enderio.darksteel.upgrade.empowered_one.name=エンパワー
+enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line1=蓄電量 : $P
+enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line2=耐久値の消耗の$D%を
+enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line3=電気で軽減する
 
-enderio.darksteel.upgrade.empowered_two.name=Empowered II
-enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line1=Power: $P
-enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line2=$D% damage absorbed
-enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line3=by power
+enderio.darksteel.upgrade.empowered_two.name=エンパワー Ⅱ
+enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line1=蓄電量 : $P
+enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line2=耐久値の消耗の$D%を
+enderio.darksteel.upgrade.empowered_two.tooltip.detailed.line3=電気で軽減する
 
-enderio.darksteel.upgrade.empowered_three.name=Empowered III
-enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line1=Power: $P
-enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line2=$D% damage absorbed
-enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line3=by power
+enderio.darksteel.upgrade.empowered_three.name=エンパワー Ⅲ
+enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line1=蓄電量 : $P
+enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line2=耐久値の消耗の$D%を
+enderio.darksteel.upgrade.empowered_three.tooltip.detailed.line3=電気で軽減する
 
-enderio.darksteel.upgrade.empowered_four.name=Empowered IV
-enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line1=Power: $P
-enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line2=$D% damage absorbed
-enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line3=by power
+enderio.darksteel.upgrade.empowered_four.name=エンパワー Ⅳ
+enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line1=蓄電量 : $P
+enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line2=耐久値の消耗の$D%を
+enderio.darksteel.upgrade.empowered_four.tooltip.detailed.line3=電気で軽減する
 
-enderio.darksteel.upgrade.empowered_five.name=Empowered V
-enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line1=Power: $P
-enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line2=$D% damage absorbed
-enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line3=by power
+enderio.darksteel.upgrade.empowered_five.name=エンパワー Ⅴ
+enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line1=蓄電量 : $P
+enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line2=耐久値の消耗の$D%を
+enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line3=電気で軽減する
 
-enderio.darksteel.upgrade.travel.name=Travel
-enderio.darksteel.upgrade.travel.tooltip.detailed.line1=Hold shift and R-Click to teleport or
-enderio.darksteel.upgrade.travel.tooltip.detailed.line2=activate a travel anchor or Ender IO
+enderio.darksteel.upgrade.travel.name=トラベル
+enderio.darksteel.upgrade.travel.tooltip.detailed.line1=Shift右クリックで短距離テレポートする
+enderio.darksteel.upgrade.travel.tooltip.detailed.line2=トラベルアンカーとエンダーIOを起動できる
 
-enderio.darksteel.upgrade.spoon.name=Spoon
-enderio.darksteel.upgrade.spoon.tooltip.detailed.line1=Who needs a shovel when 
-enderio.darksteel.upgrade.spoon.tooltip.detailed.line2=you have a spoon
+enderio.darksteel.upgrade.spoon.name=スプーン
+enderio.darksteel.upgrade.spoon.tooltip.detailed.line1=このスプーンがあれば
+enderio.darksteel.upgrade.spoon.tooltip.detailed.line2=シャベルなんて必要ないよね
 
-enderio.darksteel.upgrade.glider.name=Glider
-enderio.darksteel.upgrade.glider.tooltip.detailed.line1=Enables gliding
-enderio.darksteel.upgrade.glider.enabled=Glider Active
-enderio.darksteel.upgrade.glider.disabled=Glider Disabled
+enderio.darksteel.upgrade.glider.name=グライダー
+enderio.darksteel.upgrade.glider.tooltip.detailed.line1=滑空できる
+enderio.darksteel.upgrade.glider.enabled=滑空機能を有効化
+enderio.darksteel.upgrade.glider.disabled=滑空機能を無効化
 
-enderio.darksteel.upgrade.sound.name=Sound Locator
-enderio.darksteel.upgrade.sound.tooltip.detailed.line1=Displays the location of
-enderio.darksteel.upgrade.sound.tooltip.detailed.line2=nearby sounds
-enderio.darksteel.upgrade.sound.enabled=Sound Locator Active
-enderio.darksteel.upgrade.sound.disabled=Sound Locator Disabled
+enderio.darksteel.upgrade.sound.name=音響探知
+enderio.darksteel.upgrade.sound.tooltip.detailed.line1=近くの音源を
+enderio.darksteel.upgrade.sound.tooltip.detailed.line2=視覚的に表示する
+enderio.darksteel.upgrade.sound.enabled=音響探知機能を有効化
+enderio.darksteel.upgrade.sound.disabled=音響探知機能を無効化
 
-enderio.darksteel.upgrade.gogglesOfRevealing.name=Revealing
-enderio.darksteel.upgrade.gogglesOfRevealing.tooltip.detailed.line1=Vis Discount: 5%
-enderio.darksteel.upgrade.gogglesOfRevealing.enabled=Magic is being revealed
-enderio.darksteel.upgrade.gogglesOfRevealing.disabled=Magic is hidden from plain sight
+enderio.darksteel.upgrade.gogglesOfRevealing.name=洞察
+enderio.darksteel.upgrade.gogglesOfRevealing.tooltip.detailed.line1=Vis消費量減少 : 5%
+enderio.darksteel.upgrade.gogglesOfRevealing.enabled=魔法が解き明かされてゆく
+enderio.darksteel.upgrade.gogglesOfRevealing.disabled=魔法は視覚では認識できなくなった
 
-enderio.darksteel.upgrade.naturalistEye.name=Naturalist's Eye
-enderio.darksteel.upgrade.naturalistEye.tooltip.detailed.line1=Shows pollinated tree leaves
+enderio.darksteel.upgrade.naturalistEye.name=自然主義者の目
+enderio.darksteel.upgrade.naturalistEye.tooltip.detailed.line1=受粉した木の葉を表示する
 
-enderio.darksteel.upgrade.apiaristArmor.helmet.name=Apiarist's Hat
-enderio.darksteel.upgrade.apiaristArmor.helmet.tooltip.detailed.line1=Protection against bees
+enderio.darksteel.upgrade.apiaristArmor.helmet.name=養蜂用頭巾
+enderio.darksteel.upgrade.apiaristArmor.helmet.tooltip.detailed.line1=蜂の活動から身を守る
 
-enderio.darksteel.upgrade.apiaristArmor.chestplate.name=Apiarist's Shirt
-enderio.darksteel.upgrade.apiaristArmor.chestplate.tooltip.detailed.line1=Protection against bees
+enderio.darksteel.upgrade.apiaristArmor.chestplate.name=養蜂用上着
+enderio.darksteel.upgrade.apiaristArmor.chestplate.tooltip.detailed.line1=蜂の活動から身を守る
 
-enderio.darksteel.upgrade.apiaristArmor.leggings.name=Apiarist's Pants
-enderio.darksteel.upgrade.apiaristArmor.leggings.tooltip.detailed.line1=Protection against bees
+enderio.darksteel.upgrade.apiaristArmor.leggings.name=養蜂用ズボン
+enderio.darksteel.upgrade.apiaristArmor.leggings.tooltip.detailed.line1=蜂の活動から身を守る
 
-enderio.darksteel.upgrade.apiaristArmor.boots.name=Apiarist's Shoes
-enderio.darksteel.upgrade.apiaristArmor.boots.tooltip.detailed.line1=Protection against bees
+enderio.darksteel.upgrade.apiaristArmor.boots.name=養蜂用靴
+enderio.darksteel.upgrade.apiaristArmor.boots.tooltip.detailed.line1=蜂の活動から身を守る
 
-item.itemGliderWing.name=Glider Wing
-item.itemGliderWings.name=Glider Wings
-item.itemGliderWings.tooltip.detailed.line1=Upgrade for Dark Steel
-item.itemGliderWings.tooltip.detailed.line2=chestplate
+item.itemGliderWing.name=グライダーの片翼
+item.itemGliderWings.name=グライダーの両翼
+item.itemGliderWings.tooltip.detailed.line1=ダークスチールのチェストプレートの
+item.itemGliderWings.tooltip.detailed.line2=アップグレード
 
-enderio.darksteel.upgrade.jump.enabled=Jump Enabled
-enderio.darksteel.upgrade.jump.disabled=Jump Disabled
+enderio.darksteel.upgrade.jump.enabled=跳躍機能を有効化
+enderio.darksteel.upgrade.jump.disabled=跳躍機能を無効化
 
-enderio.darksteel.upgrade.jump_one.name=Jump
-enderio.darksteel.upgrade.jump_one.tooltip.detailed.line1=Increases step and jump height
-enderio.darksteel.upgrade.stepAssist.enabled=Step Assist Active
-enderio.darksteel.upgrade.stepAssist.disabled=Step Assist Disabled
+enderio.darksteel.upgrade.jump_one.name=跳躍
+enderio.darksteel.upgrade.jump_one.tooltip.detailed.line1=歩行を補助し、ジャンプ力が上がる
+enderio.darksteel.upgrade.stepAssist.enabled=歩行補助機能を有効化
+enderio.darksteel.upgrade.stepAssist.disabled=歩行補助機能を無効化
 
-enderio.darksteel.upgrade.jump_two.name=Jump II
-enderio.darksteel.upgrade.jump_two.tooltip.detailed.line1=Increases step and jump height
-enderio.darksteel.upgrade.jump_two.tooltip.detailed.line2=Allows double jumps
+enderio.darksteel.upgrade.jump_two.name=跳躍 Ⅱ
+enderio.darksteel.upgrade.jump_two.tooltip.detailed.line1=歩行を補助し、ジャンプ力が上がる
+enderio.darksteel.upgrade.jump_two.tooltip.detailed.line2=2段ジャンプが可能になる
 
-enderio.darksteel.upgrade.jump_three.name=Jump III
-enderio.darksteel.upgrade.jump_three.tooltip.detailed.line1=Increases step and jump height
-enderio.darksteel.upgrade.jump_three.tooltip.detailed.line2=Allows triple jumps
+enderio.darksteel.upgrade.jump_three.name=跳躍 Ⅲ
+enderio.darksteel.upgrade.jump_three.tooltip.detailed.line1=歩行を補助し、ジャンプ力が上がる
+enderio.darksteel.upgrade.jump_three.tooltip.detailed.line2=3段ジャンプが可能になる
 
-enderio.darksteel.upgrade.speed_one.name=Speed
-enderio.darksteel.upgrade.speed_one.tooltip.detailed.line1=Increases movement speed
-enderio.darksteel.upgrade.speed.enabled=Speed Active
-enderio.darksteel.upgrade.speed.disabled=Speed Disabled
+enderio.darksteel.upgrade.speed_one.name=俊足
+enderio.darksteel.upgrade.speed_one.tooltip.detailed.line1=移動速度が上がる
+enderio.darksteel.upgrade.speed.enabled=俊足機能を有効化
+enderio.darksteel.upgrade.speed.disabled=俊足機能を無効化
 
-enderio.darksteel.upgrade.speed_two.name=Speed II
-enderio.darksteel.upgrade.speed_two.tooltip.detailed.line1=Increases movement speed
+enderio.darksteel.upgrade.speed_two.name=俊足 Ⅱ
+enderio.darksteel.upgrade.speed_two.tooltip.detailed.line1=移動速度が上がる
 
-enderio.darksteel.upgrade.speed_three.name=Speed III
-enderio.darksteel.upgrade.speed_three.tooltip.detailed.line1=Increases movement speed
+enderio.darksteel.upgrade.speed_three.name=俊足 Ⅲ
+enderio.darksteel.upgrade.speed_three.tooltip.detailed.line1=移動速度が上がる
 
-enderio.darksteel.upgrade.swim.name=Flippers
+enderio.darksteel.upgrade.swim.name=足ひれ
 
-enderio.darksteel.upgrade.nightVision.name=Night Vision
-enderio.darksteel.upgrade.nightVision.enabled=Night Vision Enabled
-enderio.darksteel.upgrade.nightVision.disabled=Night Vision Disabled
+enderio.darksteel.upgrade.nightVision.name=暗視
+enderio.darksteel.upgrade.nightVision.enabled=暗視機能を有効化
+enderio.darksteel.upgrade.nightVision.disabled=暗視機能を無効化
 
-enderio.darksteel.upgrade.solar_one.name=Solar I
-enderio.darksteel.upgrade.solar_one.tooltip.detailed.line1=Generates power from the sun.
+enderio.darksteel.upgrade.solar_one.name=ソーラー Ⅰ
+enderio.darksteel.upgrade.solar_one.tooltip.detailed.line1=太陽光で発電する
 
-enderio.darksteel.upgrade.solar_two.name=Solar II
-enderio.darksteel.upgrade.solar_two.tooltip.detailed.line1=Generates power from the sun.
+enderio.darksteel.upgrade.solar_two.name=ソーラー Ⅱ
+enderio.darksteel.upgrade.solar_two.tooltip.detailed.line1=太陽光で発電する
 
-enderio.darksteel.upgrade.solar_three.name=Solar III
-enderio.darksteel.upgrade.solar_three.tooltip.detailed.line1=Generates power from the sun.
+enderio.darksteel.upgrade.solar_three.name=ソーラー Ⅲ
+enderio.darksteel.upgrade.solar_three.tooltip.detailed.line1=太陽光で発電する
 
 #------GUI
 
-enderio.gui.simple.in=Max In:
-enderio.gui.simple.out=Max Out:
+enderio.gui.simple.in=最大入力
+enderio.gui.simple.out=最大出力
 
-enderio.gui.available=Available
-enderio.gui.disabled=Disabled
-enderio.gui.enabled=Enabled
-enderio.gui.max=Max:
-enderio.gui.progress=Progress {0,number}%
-enderio.gui.receive=Receive
-enderio.gui.send=Send
-enderio.gui.sendReceive=Send & Receive 
+enderio.gui.available=利用可能
+enderio.gui.disabled=無効
+enderio.gui.enabled=有効
+enderio.gui.max=最大 :
+enderio.gui.progress=進捗 {0,number}%
+enderio.gui.receive=受信
+enderio.gui.send=送信
+enderio.gui.sendReceive=送受信
 
 #Redstone controls
-enderio.gui.tooltip.redstoneControlMode=Redstone Mode
-enderio.gui.tooltip.redstoneControlMode.ignore=Always active
-enderio.gui.tooltip.redstoneControlMode.on=Active with signal
-enderio.gui.tooltip.redstoneControlMode.off=Active without signal
-enderio.gui.tooltip.redstoneControlMode.never=Never active
+enderio.gui.tooltip.redstoneControlMode=レッドストーンモード
+enderio.gui.tooltip.redstoneControlMode.ignore=常時動作
+enderio.gui.tooltip.redstoneControlMode.on=信号入力時動作
+enderio.gui.tooltip.redstoneControlMode.off=信号非入力時動作
+enderio.gui.tooltip.redstoneControlMode.never=非動作
 
-enderio.gui.machine.button.storelevel=Store 1
-enderio.gui.machine.tooltip.storelevel=level of player XP
-enderio.gui.machine.button.storelevels=Store 10
-enderio.gui.machine.tooltip.storelevels=levels of player XP
-enderio.gui.machine.button.storeall=Store all
-enderio.gui.machine.tooltip.storeall=player XP
+enderio.gui.machine.button.storelevel=預入 : 1
+enderio.gui.machine.tooltip.storelevel=1レベル分預ける
+enderio.gui.machine.button.storelevels=預入 : 10
+enderio.gui.machine.tooltip.storelevels=10レベル分預ける
+enderio.gui.machine.button.storeall=預入 : 全部
+enderio.gui.machine.tooltip.storeall=全て預ける
 
-enderio.gui.machine.button.retrievelevel=Retrieve 1
-enderio.gui.machine.tooltip.retrievelevel=player XP level
-enderio.gui.machine.button.retrievelevels=Retrieve 10
-enderio.gui.machine.tooltip.retrievelevels=player XP levels
-enderio.gui.machine.button.retrieveall=Retrieve all
-enderio.gui.machine.tooltip.retrieveall=player XP levels
+enderio.gui.machine.button.retrievelevel=引出 : 1
+enderio.gui.machine.tooltip.retrievelevel=1レベル分引き出す
+enderio.gui.machine.button.retrievelevels=引出 : 10
+enderio.gui.machine.tooltip.retrievelevels=10レベル分引き出す
+enderio.gui.machine.button.retrieveall=引出 : 全て
+enderio.gui.machine.tooltip.retrieveall=全て引き出す
 
-enderio.gui.machine.ioMode.overlay.tooltip=Configure IO
-enderio.gui.machine.ioMode.overlay.tooltip.visible.line1=Shift click to reset all sides
-enderio.gui.machine.ioMode.overlay.tooltip.visible.line2=to their default setting
-enderio.gui.machine.ioMode.none=None
-enderio.gui.machine.ioMode.pull=Pull
-enderio.gui.machine.ioMode.push=Push
-enderio.gui.machine.ioMode.disabled=Disabled
-enderio.gui.machine.ioMode.pullPush=Push / Pull
-enderio.gui.machine.ioMode.pullPush.colored=%sPush %s/ %sPull
-enderio.gui.machine.ioMode=Mode: %s
-enderio.gui.machine.poweredspawner.capture=Capture
-enderio.gui.machine.poweredspawner.spawn=Spawn
-enderio.gui.machine.receivefilter=Receive Filter
-enderio.gui.machine.sendfilter=Send Filter
-enderio.gui.machine.sendReceivebuffer=Send/Receive Buffer
-enderio.gui.machine.localbuffer=Local Buffer
-enderio.gui.machine.upkeep=Upkeep:
-enderio.gui.machine.bufferingstacks=Buffering item stacks
-enderio.gui.machine.bufferingsingle=Buffering single items
+enderio.gui.machine.ioMode.overlay.tooltip=搬入出設定
+enderio.gui.machine.ioMode.overlay.tooltip.visible.line1=Shiftクリックですべての設定を
+enderio.gui.machine.ioMode.overlay.tooltip.visible.line2=デフォルトに初期化する
+enderio.gui.machine.ioMode.none=なし
+enderio.gui.machine.ioMode.pull=搬入
+enderio.gui.machine.ioMode.push=搬出
+enderio.gui.machine.ioMode.disabled=無効
+enderio.gui.machine.ioMode.pullPush=搬入出
+enderio.gui.machine.ioMode.pullPush.colored=%2$s搬%3$s入%1$s出
+enderio.gui.machine.ioMode=モード : %s
+enderio.gui.machine.poweredspawner.capture=捕獲
+enderio.gui.machine.poweredspawner.spawn=スポーン
+enderio.gui.machine.receivefilter=受信フィルター
+enderio.gui.machine.sendfilter=送信フィルター
+enderio.gui.machine.sendReceivebuffer=送受信フィルター
+enderio.gui.machine.localbuffer=内部蓄電量
+enderio.gui.machine.upkeep=待機電力 :
+enderio.gui.machine.bufferingstacks=アイテムをスタック単位で扱う
+enderio.gui.machine.bufferingsingle=アイテムを単一で扱う
 enderio.gui.machine.percraft=Per Craft
 enderio.gui.machine.side=Side: %s
 enderio.gui.machine.side.north=North
@@ -1266,7 +1266,7 @@ enderio.gui.conduit.ioMode=Mode
 enderio.gui.conduit.ioMode.inOut=In / Out
 enderio.gui.conduit.ioMode.input=Extract
 enderio.gui.conduit.ioMode.output=Insert
-enderio.gui.conduit.ioMode.disabled=Disabled
+enderio.gui.conduit.ioMode.disabled=無効
 enderio.gui.conduit.ioMode.notSet=Default
 tile.blockConduitBundle.name=Conduit Connector
 
@@ -1385,7 +1385,7 @@ enderio.category.darksteelarmor=Dark Steel Armor
 enderio.category.tools=EnderIO - Tools
 enderio.keybind.glidertoggle=Glider Toggle
 enderio.keybind.gogglesofrevealing=Goggles of Revealing
-enderio.keybind.nightvision=Night Vision
+enderio.keybind.nightvision=暗視
 enderio.keybind.soundlocator=Sound Locator
 enderio.keybind.speed=Speed
 enderio.keybind.jump=Jump
