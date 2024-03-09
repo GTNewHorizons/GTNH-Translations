@@ -1,5 +1,5 @@
 # -- Blocks --
-tile.WG_WallMirror.name=Mirror on the Wall
+tile.WG_WallMirror.name=Espejito espejito mágico
 tile.WG_VoidWalkway.name=Pasarela del Vacío
 tile.WG_StoneDevice.etherealWall.name=Muro Etéreo
 tile.WG_StoneDevice.magicTileLock.name=Cerradura Mágica
@@ -16,7 +16,7 @@ tile.WG_WoodenDevice.loom.name=Telar
 tile.WG_WoodenDevice.snowGen.name=Lanzanieve Táumico
 tile.WG_WoodenDevice.iceGen.name=Solidificador de Hielo Táumico
 tile.WG_WoodenDevice.cobbleGen.name=Extrusora de Piedra Táumica
-tile.WG_WoodenDevice.armorStand.name=Armor Stand
+tile.WG_WoodenDevice.armorStand.name=Soporte para Armadura
 tile.WG_WoodenDevice.cuttingTable.name=Tabla de Cortar
 tile.WG_WoodenDevice.saunaStove.name=Estufa de Sauna Táumica
 tile.WG_WoodenDevice.labelLibrary.name=Biblioteca de Aspectos
@@ -260,13 +260,13 @@ witchinggadgets_research_page.SPINNINGWHEEL.r3=<IMG>witchinggadgets:textures/gui
 #
 
 witchinggadgets_research_name.CALCULATOR=Ábaco Arcano
-witchinggadgets_research_text.CALCULATOR=[WG] 3-4 = Warp?
-witchinggadgets_research_page.CALCULATOR.1=As a skilled thaumaturge, close to achieving eldritch knowledge, you are an expert on chaos. ...It might also stem from your lack of mathematical knowledge. But who would bother themselves with sciences of the common man when there are enchantments that do it for you?<BR>The Arcane Abacus will take some of the mundane mathematics off your hands. Use it on a Node that contains compound aspects and it will calculate it to primal values. Use it on an Infusion Matrix to gain info on stability, positioning of stabilizers, instability of the current infusion or possible increases in essentia cost.
-witchinggadgets_research_page.CALCULATOR.2=§mThe highest infusion instability known to man *cough*Thaumic Tinkerer*cough* is 15. Stabilizing your altar beyond that is pointless. §r §o The highest infusion instability is unkown, but could be somewhere around 30.
+witchinggadgets_research_text.CALCULATOR=[WG] 3-4 = ¿Warp?
+witchinggadgets_research_page.CALCULATOR.1=Como taumaturgo habilidoso que eres, a punto de descubrir conocimiento eldritch, eres un experto en el caos... aunque puealso deberse a tu falta de conocimiento matemático. ¿Pero quién se molestaría con las ciencias del hombre común cuando hay hechizos que lo harían por ti? <BR>El  Ábaco Arcano hará esas matemáticas mundanas por ti. Úsalo en un Nodo que contenga aspectos compuestos y calculará sus valores primigenios. Úsalo en una Matriz de Infusión para conocer su estabilidad, el posicionamiento de estabilizadores, la inestabilidad de la infusión actual o posibles incrementos en el coste de esencia
+witchinggadgets_research_page.CALCULATOR.2=§mLa mayor inestabilidad de infusión conocida por el hombre *cof* Thaumic Tinkerer *cof* es 15. Estabilizar tu altar más allá es innecesario. §r §o La mayor inestabilidad de infusión es desconocida, pero podría estar alrededor de 30
 #
-witchinggadgets_research_name.LABYRINTHSTRING=Guiding Thread
-witchinggadgets_research_text.LABYRINTHSTRING=[WG] Ariadne would be proud
-witchinggadgets_research_page.LABYRINTHSTRING.1=Mazes and labyrinths once were a favourable way of warding secrets against intruders. The real danger of course, is not finding your way back out.<BR>In order to help with that, you have designed the Guiding Thread, an item that leaves a trail of light as you progress through dark and windy place. Rightclick to activate or deactivate it. While active, it will remember every turn you make. The light is only visible while you hold it though. Sneak+click to wipe it's memory.
+witchinggadgets_research_name.LABYRINTHSTRING=Hebra Guía
+witchinggadgets_research_text.LABYRINTHSTRING=[WG] Ariadna estaría orgullosa
+witchinggadgets_research_page.LABYRINTHSTRING.1=Antaño los laberintos eran una buena forma de mantener secretos lejos de intrusos. El verdadero peligro, por supuesto, es no encontrar el camino de vuelta. <BR> Para evitarlo, has diseñado la Hebra Guía, un objeto que dejará un rastro de luz a medida que avances por sitios oscuros y ventosos. Haz click derecho para activarla o desactivarla. Mientras esté activa, recordará cada giro que des. No obstante, la luz solo será visible mientras lo tengas en la mano. Sneak + click borrará su memoria
 #
 witchinggadgets_research_name.LABELLIB=Aspect Library
 witchinggadgets_research_text.LABELLIB=[WG] Indexing made easy!
@@ -276,7 +276,7 @@ witchinggadgets_research_page.LABELLIB.1=While managing and archiving the differ
 
 witchinggadgets_research_page.ENCHFABRIC.r1=<IMG>witchinggadgets:textures/gui/research/weavingRecipes2.png:0:0:255:255:0.5</IMG>
 #
-witchinggadgets_research_name.BAGOFTRICKS=Bag of Tricks
+witchinggadgets_research_name.BAGOFTRICKS=Bolsa de Trucos
 witchinggadgets_research_text.BAGOFTRICKS=[WG] Did I hear an echo in there?
 witchinggadgets_research_page.BAGOFTRICKS.1=Further advancements in magical weaving have led you to the discovery of the §lCloth of Spacious Folds§r. A most interesting weave, which seems to contain more room in its folds than visible from the outside. Crafting a bag from this provides you with space for storage to easily carry on your person.<BR>The fabric also turns out to be very protective of its contents, and it will harm any but the owner, should they try to access the bag. §oThis behaviour can be toggled by the owner by sneak+rightlick.§r
 witchinggadgets_research_page.BAGOFTRICKS.r1=<IMG>witchinggadgets:textures/gui/research/weavingRecipes1.png:0:0:255:255:0.5</IMG>§lCloth of Spacious Folds§r
@@ -320,25 +320,25 @@ witchinggadgets_research_name.CLOAK=Capa
 witchinggadgets_research_text.CLOAK=[WG] ¡Swish!
 witchinggadgets_research_page.CLOAK.1=Tras darte cuenta de las excelentes propiedades ondeantes de la Tela Encantada has esbozado planes para crear una capa con ella. Aunque por sí misma no sirva de mucho, es una excelente base para otras capas más avanzadas.<BR>§oAl inventario de Traveller's Gear se puede acceder con 'Numpad 7', si no has configurado los controles. Algunas capas tienen habilidades activadas, a las cuales puedes acceder desde el menú correspondiente (con la tecla 'R' de manera predeterminada).§r
 #
-witchinggadgets_research_name.CLOAK_STORAGE=Cloak of Voluminous Pockets
-witchinggadgets_research_text.CLOAK_STORAGE=[WG] I lost my keys in here...
-witchinggadgets_research_page.CLOAK_STORAGE.1=Combining the concept of your Bag of Tricks with that of the fashionable cloak, you now have more storage capabilities right on your body! The cloak also has 50% more capacity.
+witchinggadgets_research_name.CLOAK_STORAGE=Capa de bolsillos voluminosos
+witchinggadgets_research_text.CLOAK_STORAGE=Perdí mis llaves por aquí...
+witchinggadgets_research_page.CLOAK_STORAGE.1=¡Combinando el concepto de tu Bolsa de Trucos con la elegante capa, ahora tienes más posibilidades de almacenamiento en tu cuerpo! La capa tiene también un 50% más de capacidad
 #
-witchinggadgets_research_name.CLOAK_RAVEN=Mantle of the Raven
+witchinggadgets_research_name.CLOAK_RAVEN=Manto del Cuervo
 witchinggadgets_research_text.CLOAK_RAVEN=[WG] CA-CAW!
 witchinggadgets_research_page.CLOAK_RAVEN.1=On your travels throughout the Twilight Forest, you have come across the most fascinating Forest Raven. This remarkable bird displays high agility and maneuverability in the air, a feat to be envious of.<BR>Instead of being envious you could also just adorne your cloak with their feathers and imbue it with magical power...<BR>While wearing this cloak, your speed while flying increases noticeably. And should you not be flying, the cloak will allow you to glide instead. Gliding can be disabled in the ActiveAbility menu.
 #
-witchinggadgets_research_name.CLOAK_SPECTRAL=Spectral Mantle
-witchinggadgets_research_text.CLOAK_SPECTRAL=[WG] Now you see me...
-witchinggadgets_research_page.CLOAK_SPECTRAL.1=The plane of the spectral beings is a mystery to most common men. Fortunately, you are not most men. After infusing a cloak with eldritch and spectral energies it will grant you the ability to 'shift' yourself to that plane. While walking among it, you are invisible to those that walk along the normal plane. Enemies will not see or target you unless they are creatures of eldritch, posses exemptual powers or are wearing Goggles of Revealing.<BR>This ability comes at the cost of being unable to interact with the physical world. You cannot attack, use items, break or activate blocks. Furthermore it will drain 1 aer vis from you inventory every 5 seconds.
-witchinggadgets_research_page.CLOAK_SPECTRAL.2=§oDisclaimer: Creatures that can still see you include: Eldritch Guardians, Eldritch Wardens, Eldritch Golems, Cultist Praetors, as well as boss mobs like the Wither or the Enderdragon. For reasons unknown to even the most cunning Thaumaturges, Spiders and Slimes seem to be able to detect you by different means. Any other user of this cloak will also be able to see you.§r
+witchinggadgets_research_name.CLOAK_SPECTRAL=Manto Espectral
+witchinggadgets_research_text.CLOAK_SPECTRAL=[WG] Ahora me ves...
+witchinggadgets_research_page.CLOAK_SPECTRAL.1=El plano de los seres espectrales es un misterio para el hombre común. Afortunadamente, tú no eres uno de ellos. Tras infusionar una capa con energás eldritch y espectrales te dará la habilidad de 'desplazarte' a ese plano. Mientras andes por él, serás invisible a aquellos que anden en el plano normal. Los enemigos no te verán ni te atacarán, salvo si son eldritch, poseen poderes excepcionales o llevan Gafas de la Revelación. <BR> Esta habilidad tiene el coste de no poder interactuar con el mundo físico. No podrás atacar, usar objetos, romper o activar bloques. Además, drenará 1 vis de aer de tu inventario cada 5 segundos
+witchinggadgets_research_page.CLOAK_SPECTRAL.2=§oAviso legal: Las criaturas que aún pueden verte son: Eldritch Guardians, Eldritch Warden, Golems Eldritch, Prétores Cultistas, así como mobs jefes como el Wither o la Enderdragon. Por razones desconocidas para los taumaturgos más astutos, las Arañas y Slimes aún pueden detectarte por otros medios. Cualquier otro usuario de esta capa también podrá verte. §r 
 #
-witchinggadgets_research_name.CLOAK_WOLF=Cloak of the Wolf
-witchinggadgets_research_text.CLOAK_WOLF=[WG] What a big mouth you have!
+witchinggadgets_research_name.CLOAK_WOLF=Capa del Lobo
+witchinggadgets_research_text.CLOAK_WOLF=[WG] ¡Qué boca más grande tienes!
 witchinggadgets_research_page.CLOAK_WOLF.1=The old tales tell of the berserkers, unrelenting warriors, imbued by ancient magic and wrapped in the fur of a wolf.<BR>Your studies have revealed magical procedures like these and for reasons of style and nostalgia you decided they were best integrated into a cloak of wolf fur. Should you sustain damage while wearing it, you gain additional attack damage and speed, akin to the fearless warriors of old.
 #
 witchinggadgets_research_name.CLOAKKAMA=Kama
-witchinggadgets_research_text.CLOAKKAMA=[WG] It's not a kilt!
+witchinggadgets_research_text.CLOAKKAMA=¡Qué no es un kilt!
 witchinggadgets_research_page.CLOAKKAMA.1=Cloaks and their advanced derivatives have proven to be both fashionable and useful, but also quite big and unwieldy. Shortening them and attaching them to a belt transforms them into a Kama, a sort of half-skirt covering the back of the legs. They still perform the same tasks, they are just located at a different part of your body now.<BR>§l§4WARNING: Due to an unknown error, shift clicking the result out of the crafting table will result in a loss of NBT-data. In order to preserve enchantments on the cloak, its colouration and items stored inside it, make sure to take the Kama out of the slot with a normal click.
 #
 
@@ -349,9 +349,9 @@ witchinggadgets_research_page.CLOAKKAMA.1=Cloaks and their advanced derivatives 
 #-----------------------#
 witchinggadgets_research_name.ALCHEMICALTRANSMOGRIFY=Alchemical Transmogrification
 witchinggadgets_research_text.ALCHEMICALTRANSMOGRIFY=[WG] Grass grows, spores fly
-witchinggadgets_research_page.ALCHEMICALTRANSMOGRIFY.1=Expanding your wide array of alchemical processes, these transmutations can be used to revitalize dirt, pulverize cobblestone, or purify gravel.
+witchinggadgets_research_page.ALCHEMICALTRANSMOGRIFY.1=Ampliando tu extenso repertorio de procesos alquímicos, estas transmutaciones pueden usarse para revitalizar tierra, pulverizar adoquín o purificar grava
 #
-witchinggadgets_research_name.PURECINNABAR=Cinnabar Purification
+witchinggadgets_research_name.PURECINNABAR=Purificación del Cinabrio
 witchinggadgets_research_text.PURECINNABAR=[WG] Purification of cinnabar into native clusters
 witchinggadgets_research_page.PURECINNABAR.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal cinnabar ore into a native cinnabar cluster.<BR>When smelted these clusters produces twice the normal amount of quicksilver.
 #
@@ -363,11 +363,11 @@ witchinggadgets_research_name.METALLURGICPERFECTION_TRANSMUTATION=[WiP] Metallur
 witchinggadgets_research_text.METALLURGICPERFECTION_TRANSMUTATION=[WG] Transforming most metals into others
 witchinggadgets_research_page.METALLURGICPERFECTION_TRANSMUTATION.1=The process of metallic transmutation has proven to be very similar for every metal you have tried it on so far.<BR>Following this logic, you have created a general theory for the process, allowing you to synthesize additional nuggets from an essential mix of §5metallum§0 and the respective aspects that identify the metal.
 #
-witchinggadgets_research_name.PUREALUMINUM=Aluminum Purification
+witchinggadgets_research_name.PUREALUMINUM=Purificación de Aluminio
 witchinggadgets_research_text.PUREALUMINUM=[WG] Purification of aluminum into native clusters
 witchinggadgets_research_page.PUREALUMINUM.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal aluminum ore into a native aluminum cluster.<BR>When smelted these clusters produces twice the normal amount of aluminum ingots.
 #
-witchinggadgets_research_name.PURECOBALT=Cobalt Purification
+witchinggadgets_research_name.PURECOBALT=Purificación de Cobalto
 witchinggadgets_research_text.PURECOBALT=[WG] Purification of cobalt into native clusters
 witchinggadgets_research_page.PURECOBALT.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal cobalt ore into a native cobalt cluster.<BR>When smelted these clusters produces twice the normal amount of cobalt ingots.
 #
@@ -375,7 +375,7 @@ witchinggadgets_research_name.PUREARDITE=Ardite Purification
 witchinggadgets_research_text.PUREARDITE=[WG] Purification of ardite into native clusters
 witchinggadgets_research_page.PUREARDITE.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal ardite ore into a native ardite cluster.<BR>When smelted these clusters produces twice the normal amount of ardite ingots.
 #
-witchinggadgets_research_name.PURENICKEL=Nickel Purification
+witchinggadgets_research_name.PURENICKEL=Purificación de níquel
 witchinggadgets_research_text.PURENICKEL=[WG] Purification of nickel into native clusters
 witchinggadgets_research_page.PURENICKEL.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal nickel ore into a native nickel cluster.<BR>When smelted these clusters produces twice the normal amount of nickel ingots.
 #
@@ -384,7 +384,7 @@ witchinggadgets_research_text.PUREFZDARKIRON=[WG] Purification of dark iron into
 witchinggadgets_research_page.PUREFZDARKIRON.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal dark iron ore into a native dark iron cluster.<BR>When smelted these clusters produces twice the normal amount of dark iron ingots.
 
 #
-witchinggadgets_research_name.TRANSALUMINUM=Aluminum Transmutation
+witchinggadgets_research_name.TRANSALUMINUM=Transmutación de Aluminio
 witchinggadgets_research_text.TRANSALUMINUM=[WG] Transformation of metals into aluminum
 witchinggadgets_research_page.TRANSALUMINUM.1=You have discovered a way to multiply aluminum by steeping aluminum nuggets in §5metallum§0 harvested from other metals.
 
@@ -403,16 +403,16 @@ witchinggadgets_research_text.MIRRORPUMP=[WG] Suck it up!
 witchinggadgets_research_page.MIRRORPUMP.1=Essentia Mirrors may allow the Infusion Altar to pull essentia over long distances, but most other devices are unable to utilize them. In order to save yourself a lot of tubing, you have invented the Essentia Pump. When it is attached to a tube system, it will recognize the current suction of the system and draw the matching aspect from nearby mirrors.
 
 witchinggadgets_research_name.ROSEVINE=Rose Vines
-witchinggadgets_research_text.ROSEVINE=[WG] Pointy!
-witchinggadgets_research_page.ROSEVINE.1=These thorny plants are the first results of a Thaumaturge delving into Herbology. While not very decorative, their sharp thorns and quick growth makes them ideal for setting up a natural security perimeter for any §mcastle§r base with §ma sleeping beauty§r treasure inside to safeguard. Spreading vines can be harvested with Shears.
+witchinggadgets_research_text.ROSEVINE=[WG] ¡Pincha! 
+witchinggadgets_research_page.ROSEVINE.1=Estas plantas espinosas son el primer resultado de un Taumaturgo investigando Herbología. Aún sin ser muy decorativas, sus afiladas espinas y crecimiento rápido las hacen ideales para perimétros de seguridad de cualquier §mcastillo§r protegiendo a §muna bella durmiente§r. Puedes cosechar las vides que se propagan con Cizallas
 #
-witchinggadgets_research_name.SCANCAMERA=Thaumic Iconograph
+witchinggadgets_research_name.SCANCAMERA=Iconografía taumica
 witchinggadgets_research_text.SCANCAMERA=[WG] There is no Imp inside!
 witchinggadgets_research_page.SCANCAMERA.1=Experiments with the magical mirrored glass have shown that under certain conditions, it will not reflect images but store them. Using this to your advantage, you can store thaumic imprints of objects you find on your travels on glass panes. Later then, you can transfer these imprints to paper, in order to share your experiences with other Thaumaturges at the next arcane council.
 witchinggadgets_research_page.SCANCAMERA.2=Use the §lThaumic Iconograph Box§r like you would use the Thaumometer. You can create a §lIconographic Plate§r of anything you would usually scan at the cost of a §lMirrored Glass§r from your inventory. You can take iconographs even of things you have previously scanned, but only the use of a §lDeveloped Iconograph§r grants you the research aspects. And this studying of the picture abides by the same rule as the scan with the Thaumometer. Increase the number of ink and paper in the development recipe to create more than one copy of the picture.
 #
 #SAUNASTOVE
-witchinggadgets_research_name.SAUNASTOVE=Thaumic Sauna Stove
+witchinggadgets_research_name.SAUNASTOVE=Estufa de Sauna Taumica
 witchinggadgets_research_text.SAUNASTOVE=[WG] Finnish Magic!
 witchinggadgets_research_page.SAUNASTOVE.1=Personal hygiene and spa-feeling seems to be the new trend among thaumaturges. To go along with it, this Sauna Stove will fill the area around it with a pleasant, cleansing steam.<BR>While subjected to this steam, you are protected from warp effects and you have a small chance of reducing your temporary warp. However, after a sauna visit you will also be left quite hungry!<BR>The Stove needs only water to work, which can be inserted with a fluid container like buckets or pumped in directly. One bucket of water will keep the stove going for 10 minutes!
 witchinggadgets_research_page.SAUNASTOVE.2=If you are a user of EnviroMine, the Sauna will also leave you thirsty and slightly overheated, but it as great effects on your sanity!
