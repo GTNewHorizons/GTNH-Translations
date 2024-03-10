@@ -862,12 +862,12 @@ tc.aspect.help.permutatio=trading and bartering
 tc.aspect.help.corpus=flesh
 #  
 # Research categories
-tc.research_category.BASICS=Basic Information
-tc.research_category.THAUMATURGY=Thaumaturgy
-tc.research_category.ALCHEMY=Alchemy
-tc.research_category.ARTIFICE=Artifice
-tc.research_category.GOLEMANCY=Golemancy
-tc.research_category.ELDRITCH=Eldritch
+tc.research_category.BASICS=基本情報
+tc.research_category.THAUMATURGY=魔導学
+tc.research_category.ALCHEMY=錬金術
+tc.research_category.ARTIFICE=魔法具製作
+tc.research_category.GOLEMANCY=ゴーレム術
+tc.research_category.ELDRITCH=エルドリッチ
 #  
 # Special formatting codes:
 # <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
@@ -885,9 +885,9 @@ tc.research_category.ELDRITCH=Eldritch
 #                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
 #
 # Research entries
-tc.research_name.RESEARCH=Research
-tc.research_text.RESEARCH=How you discover things
-tc.research_page.RESEARCH.1=Before you can build most thaumaturgical items and blocks, you first need to discover how to do so. There are several steps in this process:<BR>(1) Exploring the world and examining blocks, items and creatures with a §5Thaumometer§0<BR><BR>(2) Taking the research points you gathered from the first step and expanding your aspect knowledge with the §5Research Table§0<BR><BR>(3) Using the aspects you know and discovering practical knowledge and recipes with the §5Research Table§0.<LINE>
+tc.research_name.RESEARCH=研究について
+tc.research_text.RESEARCH=物事を発見する方法
+tc.research_page.RESEARCH.1=魔法のようなアイテムやブロックを作成するために、まずはその方法を研究する必要がある。研究を完了するには、いくつかの段階を踏まなければならない。<BR>(1) 世界を探索し、§5ソーモメーター§0でブロックやアイテム、生物を調べる。<BR><BR>(2) ソーモメーターで集めた研究ポイントを使用して、§5研究テーブル§0で相の知識を深める。<BR><BR>(3) 得た知識を活かして、§5研究テーブル§0で実践的な知識や魔導具のレシピを発見する。<LINE>
 tc.research_page.RESEARCH.2=§l      §n(1) Exploration§r<BR><BR>You cannot perform research without research points, and the best way to gain research points is by exploration and examining objects in the world.<BR>The first thing you will need to do is construct a §5Thaumometer§0 (see next page). By pointing the §5Thaumometer§0 at objects or creatures and holding the right mouse button you will start examining them. The process does not take long, but your movement speed is reduced while it is occurring.<BR>Once complete the §5Thaumometer§0 will display what aspects the object contains. In the bottom right of the screen you will also see a summary of the aspects and research points 
 tc.research_page.RESEARCH.3=you discovered.<IMG>thaumcraft:textures/misc/research1.png:0:0:255:208:.5</IMG>You will initially not be able to examine all objects since you have not discovered their component aspects. For example, an object containing the Lux aspect can only be examined if you have previously discovered the Lux aspect, or know
 tc.research_page.RESEARCH.4=the two aspects that combine to create it.<BR>The very first time you discover an aspect by examining something you gain two more research points than you would have normally.<BR>Objects and creatures can usually only ever be examined once.<BR>Occasionally examining something will reveal additional clues and insights into thaumaturgical research, unlocking subjects that you can research further.<BR>Research discovered in this fashion will have amber icons.
