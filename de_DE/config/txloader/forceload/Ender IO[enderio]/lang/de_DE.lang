@@ -75,8 +75,8 @@ enderio.itemItemConduit.name=Item-Leitung
 
 enderio.filterUpgradeBasic.name=Einfacher Item-Filter
 enderio.filterUpgradeAdvanced.name=Erweiterter Item-Filter
-enderio.filterUpgradeBig.name=Big Item Filter
-enderio.filterUpgradeBigAdvanced.name=Big Advanced Item Filter
+enderio.filterUpgradeBig.name=Großer Item Filter
+enderio.filterUpgradeBigAdvanced.name=Großer fortschrittlicher Item Filter
 enderio.itemConduitFilterUpgrade=Upgrade für Item-Leitungen
 enderio.itemConduitFilterUpgrade.configured=Konfiguriert
 enderio.itemConduitFilterUpgrade.clearConfigMethod=Platziere in Fertigungsgitter zum Löschen
@@ -93,10 +93,10 @@ item.itemExistingItemFilter.tooltip.detailed.line5=dem Snapshot hinzuzufügen.
 enderio.item.itemExistingItemFilter.filterUpdated=Neue Items wurden dem Snapshot hinzugefügt
 enderio.item.itemExistingItemFilter.filterNotUpdated=Der Snapshot enthält bereits alle sich im Inventar befindlichen Items
 
-item.itemLimitedItemFilter.name=Limited Item Filter
-item.itemLimitedItemFilter.tooltip.basic.line1=Upgrade for item conduits
-item.itemLimitedItemFilter.tooltip.detailed.line1=Filters items based on
-item.itemLimitedItemFilter.tooltip.detailed.line2=their stack size
+item.itemLimitedItemFilter.name=Limitierter Item Filter
+item.itemLimitedItemFilter.tooltip.basic.line1=Verbesserung für Item Leitungen
+item.itemLimitedItemFilter.tooltip.detailed.line1=Filtert Items basierend auf
+item.itemLimitedItemFilter.tooltip.detailed.line2=Seiner Stack Größe
 
 item.itemModItemFilter.name=Mod-Item-Filter
 item.itemModItemFilter.tooltip.basic.line1=Upgrade für Item-Leitungen
@@ -130,7 +130,7 @@ item.itemInventoryPanelUpgrade.tooltip.detailed.line6=(Leitung muss nicht auf "E
 
 enderio.itemGasConduit.name=Gasleitung
 
-enderio.itemGasConduit.tooltip.maxExtract=Max Extract:
+enderio.itemGasConduit.tooltip.maxExtract=Maximale Entnahme
 enderio.itemGasConduit.tooltip.maxIo=Max IO:
 enderio.itemGasConduit.tooltip.detailed.line1=Transportiert Mekanism-kompatible Gase
 
@@ -163,7 +163,7 @@ enderio.lightBlocker=Blockiert Licht
 enderio.tooltip.isBeaconBase=Kann als Leuchtfeuerbasis genutzt werden
 enderio.dustWheat.name=Mehl
 
-enderio.itemEnderios.name="Enderios"
+enderio.itemEnderios.name=„Enderios“
 enderio.itemEnderios.tooltip.common.line1=Teil eines ausgewogenen Frühstücks
 enderio.itemEnderios.tooltip.detailed.line1=Nicht wirklich gesund. Enthält 253g Zucker, 53g Fett
 enderio.itemEnderios.tooltip.detailed.line2=und 394g Enderstaub.
@@ -191,20 +191,20 @@ fluid.liquid_sunshine=Liquid Sunshine
 tile.fluid.liquid_sunshine.name=Liquid Sunshine
 item.bucketLiquid_sunshine.name=Liquid Sunshine Bucket
 
-fluid.cloud_seed=Cloud Seed
-tile.fluid.cloud_seed.name=Cloud Seed
-item.bucketCloud_seed.name=Cloud Seed Bucket
+fluid.cloud_seed=Wolkensamen
+tile.fluid.cloud_seed.name=Wolkensamen
+item.bucketCloud_seed.name=Wolkensameneimer
 
-fluid.cloud_seed_concentrated=Concentrated Cloud Seed
-tile.fluid.cloud_seed_concentrated.name=Concentrated Cloud Seed
-item.bucketCloud_seed_concentrated.name=Concentrated Cloud Seed Bucket
+fluid.cloud_seed_concentrated=Konzentrierter Wolkensamen
+tile.fluid.cloud_seed_concentrated.name=Konzentrierter Wolkensamen
+item.bucketCloud_seed_concentrated.name=Konzentrierter Wolkensameneimer
 
-fluid.ender_distillation=Dew of the Void
-tile.fluid.ender_distillation.name=Dew of the Void
-item.bucketEnder_distillation.name=Dew of the Void Bucket
+fluid.ender_distillation=Tau der Leere
+tile.fluid.ender_distillation.name=Tau der Leere
+item.bucketEnder_distillation.name=Tau der leereeimer
 
-fluid.vapor_of_levity=Vapor of Levity
-tile.fluid.vapor_of_levity.name=Vapor of Levity
+fluid.vapor_of_levity=Dampf der Leichtigkeit
+tile.fluid.vapor_of_levity.name=Dampf der Leichtigkeit
 item.bucketVapor_of_levity.name=Vapor of Levity Bucket
 
 fluid.eio.xpjuice=Flüssige XP
@@ -1185,21 +1185,21 @@ enderio.gui.spawnGurad.hideRange=Verberge Reichweite
 enderio.gui.spawnGurad.range=Reichweite:
 
 # Filters
-enderio.gui.item_filter.damage.disabled=Ignore Damage
-enderio.gui.item_filter.damage.damage_00_25=Up to 25% Damaged
-enderio.gui.item_filter.damage.damage_25_00=More than 25% Damaged
-enderio.gui.item_filter.damage.damage_00_50=Up to 50% Damaged
-enderio.gui.item_filter.damage.damage_50_00=More than 50% Damaged
-enderio.gui.item_filter.damage.damage_00_75=Up to 75% Damaged
-enderio.gui.item_filter.damage.damage_75_00=More than 75% Damaged
-enderio.gui.item_filter.damage.damage_00_00=Not Damaged
-enderio.gui.item_filter.damage.damage_01_00=Damaged
-enderio.gui.item_filter.damage.damage_yes=Can be Damaged
-enderio.gui.item_filter.damage.damage_not=Cannot be Damaged
+enderio.gui.item_filter.damage.disabled=Ignoriere Schaden
+enderio.gui.item_filter.damage.damage_00_25=Bis zu 25% Schaden
+enderio.gui.item_filter.damage.damage_25_00=Mehr als 25% Schaden
+enderio.gui.item_filter.damage.damage_00_50=Bis zu 50% Schaden
+enderio.gui.item_filter.damage.damage_50_00=Mehr als 50% Schaden
+enderio.gui.item_filter.damage.damage_00_75=Bis zu 75% Schaden
+enderio.gui.item_filter.damage.damage_75_00=Mehr als 75% Schaden
+enderio.gui.item_filter.damage.damage_00_00=Nicht Beschädigt
+enderio.gui.item_filter.damage.damage_01_00=Beschädigt
+enderio.gui.item_filter.damage.damage_yes=Kann beschädigt werden
+enderio.gui.item_filter.damage.damage_not=Kann nicht beschädigt werden
 
-enderio.gui.edit_item_filter=Edit Filter Settings
-enderio.gui.item_filter.close=Close Filter
-enderio.gui.item_filter.close2=Go back to previous inventory
+enderio.gui.edit_item_filter=Bearbeite Filter Einstellungen
+enderio.gui.item_filter.close=Schließe Filter
+enderio.gui.item_filter.close2=Zurück zum vorherigen Inventar
 
 enderio.gui.item_filter.whitelist=Whitelist
 enderio.gui.item_filter.blacklist=Blacklist
@@ -1241,9 +1241,9 @@ enderio.gui.enchantment_filter_big=Big Enchantment Item Filter
 
 enderio.gui.fluid_filter=Basic Fluid Filter
 
-enderio.gui.redstone_filter.and=Redstone AND Filter
-enderio.gui.redstone_filter.or=Redstone OR Filter
-enderio.gui.redstone_filter.nor=Redstone NOR Filter
+enderio.gui.redstone_filter.and=Redstone UND Filter
+enderio.gui.redstone_filter.or=Redstone ODER Filter
+enderio.gui.redstone_filter.nor=Redstone WEDERNOCH Filter
 enderio.gui.redstone_filter.nand=Redstone NAND Filter
 enderio.gui.redstone_filter.xor=Redstone XOR Filter
 enderio.gui.redstone_filter.xnor=Redstone XNOR Filter
@@ -1259,7 +1259,7 @@ enderio.gui.power.item_filter.percent=Power Percentage
 enderio.gui.redstone_filter.signal_color=Redstone Signal Color
 enderio.gui.redstone_filter.input_signal=Input Signal
 enderio.gui.redstone_filter.count=Count
-enderio.gui.redstone_filter.time=Time
+enderio.gui.redstone_filter.time=Zeit
 
 #conduits
 enderio.gui.conduit.ioMode=Modus
