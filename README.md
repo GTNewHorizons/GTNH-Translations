@@ -119,11 +119,11 @@ Translations in mod jars -> ParaTranz
 
 ## Things to be done
 
-- Include all the lang packs in the modpack releases and nightly modpack builds
-- Refine the way conditional sync works
-- Work on some mods that don't have proper localization support
+- Add support for IC2
 - Support some config files for ParaTranz
+- Figure out what to do with BLS translation
 - pt_BR to pt_PT conversion script
+- Refine the way conditional sync works
 - Automatically backup ParaTranz project just in case?
 
 ## Credit
