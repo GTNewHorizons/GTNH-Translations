@@ -1,6 +1,6 @@
-itemGroup.SC2Modules=Steve's Carts 2 Modules
-itemGroup.SC2Items=Steve's Carts 2 Components
-itemGroup.SC2Blocks=Steve's Carts 2 Blocks
+itemGroup.SC2Modules=Steve's Carts 2 Module
+itemGroup.SC2Items=Steve's Carts 2 Komponenten
+itemGroup.SC2Blocks=Steve's Carts 2 Blöcke
 
 # ======================================
 				BLOCK GUI
@@ -48,7 +48,7 @@ gui.SC2:sideGreen=Grün
 gui.SC2:sideDisabled=Deaktiviert
 
 # Cargo manager gui localization
-gui.SC2:cargoManager=Cargo
+gui.SC2:cargoManager=Fracht
 gui.SC2:changeSlotLayout=Ändert die Slotnutzung
 gui.SC2:layoutShared=Alle Slots werden von allen Seiten benutzt
 gui.SC2:layoutSide=Jede Seite hat ihre eigenen Slots
@@ -129,14 +129,14 @@ gui.SC2:distributorSideYellow=Gelbe
 gui.SC2:distributorSideGreen=Grüne
 gui.SC2:distributorSideBlue=Blaue
 gui.SC2:distributorSideRed=Rot
-gui.SC2:sideToolTip=Side: [%1]
+gui.SC2:sideToolTip=Seite: [%1]
 
 # Detector Units gui localization
 gui.SC2:operatorOutput=OUTPUT
-gui.SC2:operatorAnd=AND
-gui.SC2:operatorOr=OR
-gui.SC2:operatorNot=NOT
-gui.SC2:operatorXor=XOR
+gui.SC2:operatorAnd=UND
+gui.SC2:operatorOr=ODER
+gui.SC2:operatorNot=NICHT
+gui.SC2:operatorXor=EXKLUSIV-ODER
 gui.SC2:operatorTopUnit=Obere Einheit
 gui.SC2:operatorBotUnit=Untere Einheit
 gui.SC2:operatorNorthUnit=Nördliche Einheit
@@ -158,7 +158,7 @@ gui.SC2:stateBridge=HatBrückenmaterial
 gui.SC2:stateProjectiles=Hat Projektilvorräte
 gui.SC2:stateFertilizing=Hat Düngervorräte
 # The cake one is a new one (you can remove this comment)
-gui.SC2:stateCake=Have cake supplies
+gui.SC2:stateCake=Habe Kuchenvorräte
 #
 gui.SC2:stateShield=Ist das Schild aktiv
 gui.SC2:stateChunk=Ist Chunklader aktiv
@@ -228,7 +228,7 @@ item.SC2:bridge_builder.name=Brückenbauer
 item.SC2:track_remover.name=Schienenentferner
 item.SC2:basic_farmer.name=Grundfarmer
 item.SC2:basic_wood_cutter.name=Grundholzfäller
-item.SC2:hydrator.name=Hydrator
+item.SC2:hydrator.name=Befeuchter
 item.SC2:height_controller.name=Höhenregler
 item.SC2:fertilizer.name=Düngungsgerät
 item.SC2:entity_detector_animal.name=Objekterkenner: Tier
@@ -308,7 +308,7 @@ item.SC2:trick_or_treat_cake_server.name=Süßes-oder-Saures Kuchenservierer
 item.SC2:cake_server.name=Kuchenservierer
 item.SC2:creative_incinerator.name=Kreativmüllverbrenner
 item.SC2:creative_supplies.name=Kreativversorger
-item.SC2:color_randomizer.name=Color Randomizer
+item.SC2:color_randomizer.name=Farben-Zufallsgenerator
 
 # Components
 item.SC2:unknowncomponent.name=Unbekannte SC2 Komponente
@@ -503,7 +503,7 @@ info.SC2:impossibleCombinationError=Die Kombinationen der gegebenen Modultypen i
 info.SC2:complexityOverloadError=[%1] ist zu komplex für diese Hülle.
 info.SC2:missingParentError=[%1] benötigt [%2] um zu funktionieren!
 info.SC2:presentNemesisError=[%1] wird nicht mit [%2] funktionieren
-info.SC2:presentDuplicateError=[%1] is not allowed to be added twice.
+info.SC2:presentDuplicateError=[%1] darf nicht zweimal hinzugefügt werden.
 info.SC2:sideClashError=[%1] und [%2] wird auf der [%3] Seite kollidieren.
 # need beta 3 for these ones to show up (remove this note)
 info.SC2:toolUnbreakable=Unzerstörbar
@@ -593,7 +593,7 @@ modules.addons.SC2:recipeChangeLimit=[%1->Erhöhe|Verringere] maximal gelagerte 
 modules.addons.SC2:recipeChangeLimit10=Shiftklick, um die Anzahl um 10 zu ändern.
 modules.addons.SC2:recipeChangeLimit64=Strg-klick, um die Anzahl um 64 zu ändern.
 modules.addons.SC2:shieldToggle=[%1->Aktiviert|Deaktiviert] Schild
-modules.addons.SC2:buttonRandomize=Randomize Color
+modules.addons.SC2:buttonRandomize=Zufällige Farbe Generieren
 
 # Engines
 modules.engines.SC2:creativePowerLevel=Energielevel: [%1]
@@ -661,7 +661,7 @@ modules.attachments.SC2:shooterDelay=Verzögerung
 modules.attachments.SC2:notePiano=Klavier
 modules.attachments.SC2:noteBassDrum=Basstrommel
 modules.attachments.SC2:noteSnareDrum=Snare
-modules.attachments.SC2:noteSticks=Sticks
+modules.attachments.SC2:noteSticks=Stöcke
 modules.attachments.SC2:noteBassGuitar=Bassgitarre
 modules.attachments.SC2:noteCreateTrack=Spur hinzufügen
 modules.attachments.SC2:noteRemoveTrack=Letze Spur entfernen
@@ -673,7 +673,7 @@ modules.attachments.SC2:noteRemove=Aus Spur #[%1] die Note rechstaußen löschen
 modules.attachments.SC2:noteVolume=Spurlautstärke: [%1->Stumm|Leise|Mittel|Laut]
 # need beta 3 for these ones to show up (remove this note)
 modules.attachments.SC2:seatStateMessage=[%1->Diese Lore ist besetzt|In die Lore einsteigen|Aus der Lore aussteigen]
-modules.attachments.SC2:controlSystemReset=Reset trip-meter
+modules.attachments.SC2:controlSystemReset=Tripmeter zurücksetzen
 # end of beta 3 requirement (remove this note)
 
 # ======================================
@@ -683,8 +683,8 @@ modules.attachments.SC2:controlSystemReset=Reset trip-meter
 # Ghast Invaders
 arcade.SC2:ghastInvaders=Ghast Invaders
 arcade.SC2:ghastLives=Extraleben
-arcade.SC2:highScore=High Score: [%1]
-arcade.SC2:score=Score: [%1]
+arcade.SC2:highScore=Highscore: [%1]
+arcade.SC2:score=Punktezahl: [%1]
 arcade.SC2:instructionShoot=Schießen
 arcade.SC2:instructionLeft=Nach Links bewegen
 arcade.SC2:instructionRight=Nach Rechts bewegen
@@ -697,14 +697,14 @@ arcade.SC2:creepersLeft=Creeper übrig: [%1]
 arcade.SC2:creeperTime=Zeit: [%1]s
 arcade.SC2:instructionChangeMap=Ändert Feldgröße
 arcade.SC2:creeperCurrentMap=Zur Zeit [%1]
-arcade.SC2:creeperHighScores=High Scores
+arcade.SC2:creeperHighScores=Hohe Punktzahlen
 arcade.SC2:creeperHighScore=[%1]: [%2]s
-arcade.SC2:mobStacker=Mob Stacker
+arcade.SC2:mobStacker=Mob-Stapler
 arcade.SC2:stackerRemovedLines=Entfernte Zeilen: [%1]
 arcade.SC2:stackerRemovedLinesCombo=Entfernte [%1->einzelne|doppelte|dreifache|vierfache] Zeilen: [%2]
 arcade.SC2:instructionRotate=Drehen
 arcade.SC2:instructionDrop=Fallen lassen
-arcade.SC2:trackOperator=Track Operator
+arcade.SC2:trackOperator=Gleisbetreiber
 arcade.SC2:operatorSaveError=Speichern fehlgeschlagen
 arcade.SC2:operatorSave=Speichern
 arcade.SC2:operatorUserCreatedMaps=Benutzererstellte Karten
@@ -737,7 +737,7 @@ arcade.SC2:buttonSave=Speichern
 arcade.SC2:buttonSaveAs=Speichern unter...
 arcade.SC2:buttonCancel=Abbrechen
 #This one is slightly ugly, will probably be re-named later
-stories.beginning.SC2:mapEditor=Map Editor
+stories.beginning.SC2:mapEditor=Karten-Editor
 
 # Story - The beginning
 stories.beginning.SC2:title=Der Anfang

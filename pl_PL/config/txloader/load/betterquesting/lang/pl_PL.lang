@@ -111,7 +111,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFww.desc=Co jest...? Zauważyłeś, że 
 
 # Quest: Creeping Dread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.name=§1§lPełzający Strach
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.desc=Creepers can make you have a baaaad time. %n%nDrowning Creeper - when it explodes, it surrounds you in a ball of cobble filled with water. Not only do you have to escape, but the cobble is infested with silverfish! And those silverfish are all infernal!  The best way to deal with it is to first escape up or down.  If you have to clear the cobble ball, first clear the water. Surrounding the cobble with a dirt moat will keep the silverfish inside and unable to hide. Put down punjis, quicksand, or lava, and/or spectral glass. Make a wall with a 1x1 window and use that to break the cobbles - fishing silverfish is especially dangerous.%n%nEnder Creeper - Randomly teleports you a short distance - possibly deep underground. 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.desc=Creepery mogą sprawić, że będziesz się źle bawić. %n%nTonący Creeper - kiedy eksploduje, otacza cię kulą bruku wypełnioną wodą. Nie dość, że musisz uciekać, to jeszcze na bruku zalęgły się srebrne rybki! Dodatkowo te srebrne rybki są piekielne!  Najlepszym sposobem na poradzenie sobie z nimi jest ucieczka w górę lub w dół.  Jeśli musisz opuścić więzienie z bruku, najpierw pozbądź się wody. Otoczenie bruku ziemią sprawi, że srebrne rybki pozostaną w środku i nie będą mogły się ukryć. Umieść punji, ruchome piaski lub lawę i/lub widmowe szkło. Stwórz ścianę z oknem 1x1 i użyj jej do rozbicia bruku. %n%nEnder Creeper - Losowo teleportuje cię na niewielką odległość - prawdopodobnie głęboko pod ziemię.
 
 # Quest: Caught in the Web
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMw.name=§1§lSplątany w sieć
@@ -122,7 +122,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNA.name=§1§lWieprzowina z charakterem
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNA.desc=Jedyne Świnie-Zombie na które musisz uważać to Świnie-Wampiry. Otrzymują one znikome obrażenia, chyba, że używasz drewnianego miecza jako kołka, albo masz magiczny miecz.
 
 # Quest: Flaming Idiots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNQ.name=§1§lFlaming Idiots
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNQ.name=§1§lPłonący Idioci
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNQ.desc=Wszystkie Płomyki są Piekielne, i wszystkie są nieprzyjemne. Unikaj ich jak ognia. Zdobądź silne bronie, dobrą zbroję i przygotuj się na walkę. %n%nAlternatywnie, możesz znaleźć sposób na zabijanie ich technologią.%n%nAlternatywą dla tej alternatywy jest wymyślenie innego sposobu na zdobywanie płomiennego proszku i płomiennych różdżek.
 
 # Quest: Tell Me When We Reach 20
@@ -143,16 +143,16 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAALA.name=Rady i Sztuczki
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAALA.desc=Cała nasza wiedza zebrana w jednym wygodnym miejscu. Wielu Greggerów zginęło aby zapewnić ci tą wiedzę.
 
 # Quest: Automating Power On/Off
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.name=§6§lAutomating Power On/Off
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=Once you have a GT boiler or Large Combustion Engine with a long startup time, you may wish to automate turning it on/off to save fuel, since extra power or Steam will just be voided. Additionally, the bigger your Steam/EU buffer is, the less time your generators will spend heating up, which makes them more efficient. %n%nUse a Machine Controller Cover on the controller for that. You can put it on top, bottom, or sides next to a casing - casings will transmit the redstone signal. You can use a Soldering Iron and Fine Soldering Alloy Wire to set the Redstone Output of a controller block to strong. When set to Strong it can go through a casing, but not hatches, buses, or other blocks. Use it with an activity detector if you want to receive a signal from the controller rather than turning it on/off with one.§r%n%nWith a Machine Controller Cover, you can use redstone to turn the machine on and off. This is handy if you don't want to use a Soft Hammer to disable a machine yourself constantly.%n %nThe best way to do that is with an RS latch. One input will turn the machine on, and one input will turn the machine off. Use a comparator attached to a valve to measure the steam level in your multiblock Iron or Steel Tank. Invert the signal to turn on your boiler when the steam level is low. When the steam level signal is high, turn your boiler off. Use a trail of redstone to lower the signal strength. Because of boiler/turbine warmup, try to set the ON strength to 30 percent of capacity and OFF strength to about 90 percent.%n%nRed alloy wire will hold a redstone signal for a longer distance than normal redstone, while redstone conduits will go indefinitely. You can also use amplified redcrystal to improve the strength of the signal for a long distance, repeating as necessary. %n%nYou can use a Energy Detector Cover in Normal Electrical Storage (including batteries) mode to monitor the power in a battery buffer and use it to enable/disable generators in a similar way. Change mode using a screwdriver. If you use a dense redcrystal, it will only allow signal through at a certain level, perfect for automating this kind of thing.%n%nYou can use MCCs on more than just generators though, you can use it on any multiblock and most singleblocks. This is useful to prevent voiding of materials. Unlike GT++ multies that will halt if full, a non-GT++ multi will void the items or liquids and keep on working, potentially voiding huge amounts of materials. You'll want to use them in combination with Fluid or Item Detection Covers on the output hatch or bus.%n%nFor a video version, check out this video: §9§n[url]https://www.youtube.com/watch?v=jPfnifJEO64§r[/url]§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.name=§6§lAutomatyzacja włączania/wyłączania zasilania
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=Gdy posiadasz bojler GT lub Duży Silnik Spalinowy o długim czasie rozruchu, możesz zautomatyzować jego włączanie/wyłączanie, aby oszczędzać paliwo, ponieważ dodatkowa moc lub para zostaną po prostu utracone. Dodatkowo, im większy bufor para/EU, tym mniej czasu generatory spędzą na nagrzewaniu się, co czyni je bardziej wydajnymi. W tym celu użyj Pokrywy Kontroli Maszyny. Możesz umieścić ją na górze, na dole lub po bokach obok obudowy - obudowy będą przesyłać sygnał redstone. Możesz użyć lutownicy i cienkiego drutu lutowniczego, aby ustawić wyjście redstone bloku kontrolera na silne. Po ustawieniu na silny sygnał może przejść przez obudowę, ale nie przez włazy, magistrale lub inne bloki. Użyj go z detektorem aktywności, jeśli chcesz odbierać sygnał z kontrolera, a nie włączać/wyłączać go za jego pomocą.§r%n%nZ PokrywąKontroli Maszyny możesz używać redstone do włączania i wyłączania maszyny. Jest to przydatne, jeśli nie chcesz używać Miękkiego Młotka do ciągłego wyłączania maszyny.%n %nNajlepszym sposobem na to jest użycie obwodu redstone typu RS Latch. Jedno wejście włącza urządzenie, a drugie je wyłącza. Użyj komparatora podłączonego do zaworu, aby zmierzyć poziom pary w multiblokowym zbiorniku żelaznym lub stalowym. Odwróć sygnał, aby włączyć bojler, gdy poziom pary jest niski. Gdy poziom pary jest wysoki, wyłącz bojler. Skorzystaj z długiego przewodu redstone, aby obniżyć siłę sygnału. Ze względu na nagrzewanie się bojlera/turbiny, spróbuj ustawić siłę włączenia na 30% mocy, a siłę wyłączenia na około 90%.%n%nPrzewód z Czerwonego Stopu utrzyma sygnał redstone na większą odległość niż zwykły redstone, podczas gdy Przewody Redstone będą działać w nieskończoność. Możesz także użyć wzmocnionego czerwonego kryształu, aby zwiększyć siłę sygnału na dużą odległość, powtarzając tę czynność w razie potrzeby. %n%nMożna użyć Pokrywy Detekcji Energii w normalnym trybie przechowywania energii elektrycznej (w tym baterii), aby monitorować moc w buforze baterii i używać jej do włączania/wyłączania generatorów w podobny sposób. Tryb można zmienić za pomocą śrubokręta. Jeśli użyjesz gęstego czerwonego kryształu, będzie on przepuszczał sygnał tylko na określonym poziomie, idealnym do automatyzacji tego typu rzeczy.%n%nPKM można używać nie tylko na generatorach, ale także na każdym multibloku i większości pojedynczych bloków. Jest to przydatne, aby zapobiec voidowaniu materiałów. W przeciwieństwie do multibloków GT++, które zatrzymują się, gdy są pełne, multibloki inne niż GT++ voidują przedmioty lub płyny i kontynuują pracę, potencjalnie niszcząc ogromne ilości materiałów. Będziesz chciał używać ich w połączeniu z Pokrywami Detekcji Płynów lub Przedmiotó na Włazie Wyjściowym lub Magistrali.%n%nAby zapoznać się z wersją wideo, obejrzyj ten film: §9§n[url]https://www.youtube.com/watch?v=jPfnifJEO64§r[/url]§r
 
 # Quest: Underground Fluids
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.name=Underground Fluids
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.desc=So you're probably wondering what all the underground fluids are. You can actually check so in NEI now!%n%nJust look for the tab called §oUnderground Fluid Stats§r. You can click §oSee All§r for a general overview, search by fluid, or search by planet.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.name=Podziemne Płyny
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.desc=Prawdopodobnie zastanawiasz się, czym są wszystkie podziemne płyny. Teraz możesz to sprawdzić w NEI! %n%nWystarczy poszukać zakładki o nazwie §oStatystyki Płynów Podziemnych§r. Możesz kliknąć "Zobacz wszystko", aby uzyskać ogólny przegląd, wyszukać według płynu lub planety.
 
 # Quest: Covering Up
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.name=Covering Up
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=This quest goes over all of the covers, just in case you forgot or they weren't mentioned. If they have their own quest, look at it for more info. You can put them on basically any GT block, pipe, machine, tank, etc. Though that doesn't consider whether it will work right or be useful. Shift-Right-Click will open a GUI for many of them. For covers that you can adjust the amount of, clicking the left side with a screwdriver goes down, and right goes up. All covers block rain on the side they're attached to. Generally you can adjust covers with a screwdriver, whether they have a GUI or not. You can remove them with a crowbar if you forgot.%n%n§lFluid-Related Covers:§r%nPump: Transfers fluids at the speed specified on the tooltip.%n%nFluid Regulator: Regulates the rate that fluid can go through it, as well as pumping it. Can work x/s or x/t.%n%nSteam Valve: Moves more, but is only for steam. Only goes to IV. Does not work on SH steam.%n%nOverflow: Voids anything over the specified amount in the tank.%n%nFluid Detector: Will emit a redstone signal (RS) based on fluid fill rate of the tank it's on. By default, empty=15, full=0. Use inverted mode to swap. Useful on tanks and hatches.%n%nEnder Fluid Link: Cover version of ender tanks to TP fluid around. Doesn't connect to ender tanks though.%n%nDrain Module: Protects from rain on that side, and will fill the tank with water from rain if it can. Useless.%n%nFluid Filter: Filters fluid going through it. Click with a cell to set it.%n%nShutter: Blocks items/fluids when active. Use it with a machine controller and RS. Does not visually disconnect/block. You place it between the pipes, and put the MC on the same pipe.%n%n§lItem-Related Covers:§r%nConveyor: Sends items. Use an item pipe in import mode or on a GT block/machine.%n%nRobot Arm: Sends from a specific slot in the machine it's on (internal) to another specific slot in a block next to it (adjacent). Keep going through numbers until you get it right, it seems to change per machine. If the output slot is full, it won't output. There need to be a valid block with slots to send to or the settings won't save.%n%nItem Detector: Will emit RS based on item fill rate of the block it's on. By default, empty=0, full=15. Detects by filled slots, so doesn't work right with the super/quantum chests. Probably better for busses.%n%nItem Filter: This one is work-in-progress that is not yet finished. Feel free to contribute.%n%n§lEU-Related Covers:§r%nEnergy Detector: Will emit RS based on EU fill rate of the batbuff/tank it's on. By default, empty=0, full=15. Make sure to set it to include batteries. Can also detect steam for some reason.%n%nPower Pass Upgrade: Read the tooltip, then ask Bart how it works, he didn't bother telling anyone. He'll probably just tell you the code is the best documentation, just like the Tectech guys. May not actually be finished/work, either.%n%nTesla Coil/Tesla Coil Rich Edition: Use with the tesla tower to send EU wirelessly or something. %n%n§lOther Covers:§r%nPlayer Detector: Detects players. About 10 block range. §4Currently owner/other is inverted on non-pipes due to some bug or another.§r%n%nActivity Detector: Detects either recipe progress or idleness. 0%%=0 RS, ~95%%=14 by default. In idle mode, idleness is 15, and is 0 when running by default.%n%nMachine Controller: Turns machine on/off based on RS. Disable machine will keep it off regardless of RS state. Safe Mode only works on MBs. If a MB runs out of power, it will normally turn off, but a MC will turn it back on, continuing to void stuff. This will set it to the disable machine state instead. You will also get a notification. §4Safe mode is currently broken?§r%n%nNeeds Maintenance: Emits RS if it meets the condition specified. Rotor=turbine?%n%nRedstone Transmitter/Receiver (In/Out): OK, these things are confusing, so listen closely. First, set a frequency, either by using the GUI, or using the original way: right clicking it with an item. Empty hand = 0, other items = their item ID. Be careful not to reset it to 0 by accident. Honestly, just use the GUI. You can set it to private or not, it's the same kind of thing as EnderStorage, so you don't blare RS across the server. Channel state = RS level.%n%nRT(O) sets the channel state based on the redstone level sent from outside to the specific side. You can TP a RS from this to the RR(O).%nRT(I) sets the channel state based on redstone level that would be emitted from the machine itself. §4Always sends 15, so it's useless.§r%nRR(O) outputs redstone level based on channel state. You can TP RS from the RT(O) to here.%nRR(I) controls whether a machine can work based on channel state, just like a machine controller cover does. If it has 0 RS, it stays off. At least 1, and it turns on. You send the signal from elsewhere with the RT(O).%nRR(I) can also be used in conjunction with other covers whose states talk about conditional.%n%nIC2 Heat vents: Speeds up machines a tiny amount? Also looks neat. TODO: someone please look at the code to see what it actually does.%n%nCrafting Table: Adds a crafting table to the block you can use. Mostly cosmetic.%n%nPlanks/Plates/Foils: Blocks I/O on that side. Use a screwdriver to set allowed types of stuff through. Blocks everything by default. Set the output to another side first to avoid changing its settings too. You'll probably 'use' this by accident at least once.%n%nComputer Monitor: Adds a visual look. Cosmetic-only cover.%n%nLens: Cosmetic-only cover.%n%nYou can also use AE2 facades as cosmetic covers.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.name=Przykrywanie
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=To zadanie obejmuje wszystkie pokrywy, na wypadek gdybyś zapomniał lub nie zostały one wspomniane. Jeśli mają własne zadanie, sprawdź je, aby uzyskać więcej informacji. Możesz umieścić je na praktycznie każdym bloku GT, rurze, maszynie, zbiorniku itp. Nie bierze to jednak pod uwagę tego, czy będą one działać prawidłowo i czy będą użyteczne. Shift-Prawy-Klik otworzy GUI dla wielu z nich. W przypadku pokryw, które można regulować, kliknięcie lewej strony śrubokrętem powoduje zmniejszenie, a prawej zwiększenie. Wszystkie pokrywy blokują deszcz po stronie, do której są przymocowane. Ogólnie rzecz biorąc, pokrywy można regulować za pomocą śrubokręta, niezależnie od tego, czy mają GUI, czy nie. Jeśli już zapomniałeś, możesz je demontować przy pomocy łoma.%n%n§lPokrywy związane z płynami:§r%nPompa: Przenosi płyny z prędkością określoną w podpowiedzi.%n%nRegulator Płynów: Reguluje szybkość, z jaką płyn może przez niego przepływać, a także pompuje go. Może działać x/s lub x/t.%n%nZawór Pary: Porusza więcej, ale jest przeznaczona tylko do pary. Działa aż do IV. Nie działa na Przegrzanej Parze.%n%nPrzepełnienie: Niszczy wszystko ponad określoną ilość w zbiorniku.%n%nDetekcja Płynu: Emituje sygnał redstone w zależności od poziomu napełnienia zbiornika, na którym się znajduje. Domyślnie pusty = 15, pełny = 0. Użyj trybu odwróconego, aby zamienić. Przydatne na zbiornikach i włazach.%n%nPołączenie Płynów Ender: Zakryta wersja Zbiorników Ender do przenoszenia płynów. Nie łączy się jednak ze zbiornikami ender.%n%nModuł Spustowy: Chroni przed deszczem po tej stronie i napełnia zbiornik wodą z deszczu, jeśli może. Bezużyteczny.%n%nFiltr Płynu: Filtruje przepływający przez nią płyn. Aby go ustawić kliknij pojemnikiem z płynem.%n%nPrzesłona: Blokuje przedmioty/płyny, gdy jest aktywna. Używaj jej z Pokrywą Kontroli Maszyny i sygnałem redstone. Nie odłącza/blokuje wizualnie. Umieszcza się ją między rurami, i Kontrole Maszyny na tej samej rurze.%n%n§lPokrywy związane z przedmiotami:§r%nModuł Transportu: Wysyła przedmioty. Użyj rury z przedmiotami w trybie importu lub na bloku/maszynie GT.%n%nRamie Robota: Wysyła z określonego slota w maszynie, na której się znajduje (wewnętrznego) do innego określonego slota w bloku obok (sąsiedniego). Kontynuuj przechodzenie przez liczby, aż uzyskasz prawidłowy wynik, wydaje się, że zmienia się on w zależności od maszyny. Jeśli slot wyjściowy jest pełen, nic nie zostanie przeniesione. Musi istnieć prawidłowy blok ze slotami do wysłania, w przeciwnym razie ustawienia nie zostaną zapisane.%n%nIDetektor Przedmiotu: Emituje sygnał redstone w oparciu o współczynnik zapełnienia bloku, w którym się znajduje. Domyślnie pusty=0, pełny=15. Wykrywa zapełnione sloty, więc nie działa dobrze z super/kwantowymi skrzyniami. Prawdopodobnie lepiej sprawdzi się w przypadku magistrali.%n%nIFiltr Przedmiotów: To jest praca w toku, która nie została jeszcze ukończona. Zapraszam do współtworzenia.%n%n§lPokrywy Związane z EU:§r%nDetektor Energii: Emituje sygnał redstone w oparciu o współczynnik wypełnienia EU batbuffa/zbiornika, na którym się znajduje. Domyślnie pusty=0, pełny=15. Upewnij się, że ustawiłeś odpowiedni tryb detekcji. Z jakiegoś powodu może również wykrywać parę wodną.%n%nUlepszenie Power Pass: Przeczytaj opis, a następnie zapytaj Barta, jak to działa. Prawdopodobnie powie ci, że kod jest najlepszą dokumentacją, tak jak chłopaki z Tectech. Może nie być ukończona lub nie działać.%n%nCewka Tesli/Cewka Tesli Bogata Wersja: Używane z wieżą tesli do bezprzewodowego wysyłania EU lub czegoś podobnego. %n%n§lInne dodatki:§r%nDetekcja Gracza: Wykrywa graczy. Zasięg około 10 bloków. §4Obecnie właściciel/inny jest odwrócony na nie-rurach z powodu jakiegoś błędu. §r%n%nDetektor aktywności: Wykrywa postęp wytwarzania lub bezczynność. 0%%=0 sugnału restone, ~95%%=14 domyślnie. W trybie bezczynności bezczynność wynosi 15, a domyślnie 0 podczas pracy.%n%nKontrola Maszyny: Włącza/wyłącza maszynę na podstawie sygnału redstone. Wyłączenie maszyny spowoduje jej wyłączenie niezależnie od stanu sygnału redstone. Tryb Bezpieczny działa tylko na multiblocki. Jeśli w multiblocku zabraknie mocy, normalnie się wyłączy, ale Pokrywa Kontroli Maszyny włączy go ponownie, kontynuując voidowanie rzeczy. Spowoduje to ustawienie go w stan wyłączenia maszyny. Otrzymasz również powiadomienie. §4Tryb bezpieczny jest obecnie uszkodzony? §r%n%nWymaga Konserwacji: Emituje sygnał redstone, jeśli spełnia określony warunek. Rotor=turbina?%n%nTransmiter/Odbiornik Redstone (Wej./Wyj.): OK, te rzeczy są mylące, więc słuchaj uważnie. Najpierw ustaw częstotliwość, używając interfejsu graficznego lub w oryginalny sposób: klikając prawym przyciskiem myszy trzymając przedmiot. Pusta ręka = 0, inne przedmioty = ich ID przedmiotu. Należy uważać, aby przypadkowo nie zresetować go do 0. Szczerze mówiąc, po prostu użyj GUI. Możesz ustawić go jako prywatny lub nie, działa podobnie co przesyłanie poprzez skrzynie lub zbiorniki Ender, więc nie rozsyłasz sygnału redstone na całym serwerze. Stan kanału = poziom sygnału redstone.%n%nRT(O) ustawia stan kanału na podstawie poziomu redstone wysłanego z zewnątrz do określonej strony. Możesz TP RS z tego do RR(O).%nRT(I) ustawia stan kanału w oparciu o poziom redstone, który byłby emitowany z samej maszyny. §4Zawsze wysyła 15, więc jest bezużyteczny.§r%nRR(O) wysyła poziom redstone na podstawie stanu kanału. Możesz TP RS z RT(O) do tego miejsca.%nRR(I) kontroluje, czy maszyna może działać w oparciu o stan kanału, tak jak robi to osłona kontrolera maszyny. Jeśli RS wynosi 0, urządzenie pozostaje wyłączone. Co najmniej 1 i włącza się. Wysyłasz sygnał z innego miejsca za pomocą RT(O).%nRR(I) może być również używany w połączeniu z innymi pokrywami, których stany mówią o warunkowych.%n%nIC2 Wentylacja Cieplna: Przyspiesza pracę maszyn w niewielkim stopniu? Wygląda również schludnie. TODO: niech ktoś spojrzy na kod i zobaczy, co to właściwie robi.%n%nStół Wytwarzania: Dodaje stół wytwarzania do bloku, którego można użyć. Głównie kosmetyczne.%n%nDeski/Płytki/Folie: Blokuje wejścia/wyjścia po danej stronie. Użyj śrubokręta, aby ustawić dozwolone typy przedmiotów. Domyślnie blokuje wszystko. Najpierw ustaw wyjście na inną stronę, aby uniknąć zmiany jego ustawień. Prawdopodobnie użyjesz tego przez przypadek przynajmniej raz.%n%nMonitor Komputera: Dodaje wizualny wygląd. Tylko-kosmetyczna pokrywa.%n%nPrzesłona: Tylko-kosmetyczna osłona.%n%nMożesz także używać fasad AE2 jako kosmetycznych osłon.
 
 
 ## Quest Line: Tier 0 - Stone Age
@@ -1107,7 +1107,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.desc=A faster alternative to steel p
 
 # Quest: LV Extruder
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACoQ.name=§5§lLV Extruder
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACoQ.desc=The extruder is not very useful in LV. But it will extrude your next tier of boat, make rubber sheets more efficiently, get you extra fluid cells, or make §osome§r Tinkers Construct tool parts.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACoQ.desc=Wytłaczarka nie jest zbyt przydatna w LV. Wytłoczy jednak kolejny łódź wyższego poziomu, pozwoli wydajniej wytwarzać gumowe arkusze, zapewni dodatkowe komórki płynów lub umożliwi konstruowanie części do narzędzi §osome§r Konstrukcji Majsterkowicza.
 
 # Quest: Process Some Certus Quartz
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACzA.name=§5§lPrzetwórz Trochę Kwarcu Certus
@@ -3986,13 +3986,134 @@ betterquesting.quest.Yxrhi0z7SUuvUT3BrsENww.name=Cheaper LuV Circuits
 betterquesting.quest.Yxrhi0z7SUuvUT3BrsENww.desc=The crystal living chips are more efficient and will make your wetware processors cheaper!
 
 
+## Quest Line: Tier 10 - UEV
+betterquesting.questline.D_aFb1hFQH2PDkN0_KvAEQ.name=Tier 10 - UEV
+betterquesting.questline.D_aFb1hFQH2PDkN0_KvAEQ.desc=Still here? You should know what to do by now, but here's a rough guide of what's next.
+
+# Quest: Fueling the DTPF
+betterquesting.quest.gOySBVKnSAiJk0Fie9k55A.name=Fueling the DTPF
+betterquesting.quest.gOySBVKnSAiJk0Fie9k55A.desc=To run the DTPF, you will need to feed it excited catalyst. There are four tiers of catalyst you can make right now, and one more to unlock later. Making these catalysts requires a lot of power and time, so you will almost certainly want to passive this with many machines.%n%nIn UIV, you will unlock the §p§oplasma mixer§r, a dedicated multiblock that can make catalyst much faster than you currently can, although this comes at an enormous power cost. Either way, it's probably a good idea to get this as soon as you can.
+
+# Quest: A Note on Power
+betterquesting.quest.gxyFKtngT-OBj5bx50JSEg.name=A Note on Power
+betterquesting.quest.gxyFKtngT-OBj5bx50JSEg.desc=Starting here, you will need a §llot§ §l§r of power. Be prepared to make hundreds of millions to billions of EU/t. If you are tired of building EHEs and fusions for more plasma power, it may be worth looking into naquadah fuel.
+
+# Quest: The Perfect CPU?
+betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.name=The Perfect CPU?
+betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.desc=Using your new optically enhanced boards and chips, you've managed to create what looks like the perfect CPU! Surely this will be able to handle even the advanced computations you need to perform to breach dimensional boundaries.
+
+# Quest: Tier 10 (UEV)
+betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.name=Tier 10 (UEV)
+betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to UEV! Now that you've started making your first infinity, it's time to start scaling up. In this tier, every component will require infinity. Be prepared to make tons. Your main goal to advance will be to build the Dimensionally Transcendent Plasma Forge, also known as the DTPF. This massive multiblock will unlock new powerful recipes to create infinity, neutronium and other special materials.
+
+# Quest: One Last Time
+betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.name=One Last Time
+betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=For the final circuit line currently in the game, you will need to make one last circuit assembler.
+
+# Quest: UEV Superconductors
+betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.name=UEV Superconductors
+betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.desc=UEV superconductors, another great infinity sink. You can make the celestial tungsten and advanced nitinol in a laser engraver directly, but this is quite slow. Perhaps consider using the celestial tungsten plasma line?
+
+# Quest: Stopping the Infinity Bleed
+betterquesting.quest.3yz1WCEzQ_KQxW8p7_29-Q.name=Stopping the Infinity Bleed
+betterquesting.quest.3yz1WCEzQ_KQxW8p7_29-Q.desc=Already struggling to keep up with infinity demand? Not to worry, the component assembly line may just be what you need. You probably have one already. Upgrade it to UEV to allow creating UEV components at a significantly reduced cost.
+
+# Quest: My eyes hurt! #2
+betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.name=My eyes hurt! #2
+betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.desc=The optical assembly is the second optical circuit. It is a UHV-tier circuit.
+
+# Quest: Capturing Light on a Circuit Board
+betterquesting.quest.-HJY3n4bQaiGgzsmFcVd6A.name=Capturing Light on a Circuit Board
+betterquesting.quest.-HJY3n4bQaiGgzsmFcVd6A.desc=Using various carefully picked materials, you've managed to create a circuit board that will be able to contain the flows of photons in these new circuit parts.%n%n
+
+# Quest: Dimensional Breach Imminent
+betterquesting.quest._TtL1y6-SfCCNKRrWSvrNQ.name=Dimensional Breach Imminent
+betterquesting.quest._TtL1y6-SfCCNKRrWSvrNQ.desc=At last, you have done it. The DTPF is a mighty multiblock fueled by large amounts of power and catalyst. Running it constantly for 8 hours or longer reduces catalyst consumption by 50%%, so you will want to find a way to automate this to save on expensive catalyst.%n%nYou will need 2112 coil blocks in total. Accepted coil tiers are%n%n- Awakened Draconium%n- Infinity%n- Hypogen%n- Eternal%n%nWhile you can start with Awakened Draconium coils, you will need at least infinity coils to make tesseracts for UIV, so it may be worth it to skip to those immediately%n%n[note]Perhaps it can be used to bake exotic cookies?[/note]
+
+# Quest: UEV Energy Hatch
+betterquesting.quest._hHt1iRERrywJiRVFpOnxw.name=UEV Energy Hatch
+betterquesting.quest._hHt1iRERrywJiRVFpOnxw.desc=Another tier, another energy hatch. You can use these to overclock your assembly lines to UIV voltage and speed them up.
+
+# Quest: Infinity Chest
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.name=Infinity Chest
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.desc=Stores up to 243 different items, each being able to stack up to 2,147,483,648. Useful if you want somewhere to put all those void miner ores.
+
+# Quest: Galaxy in a Bottle...?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.name=Galaxy in a Bottle...?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.desc=Good luck with this one, it is many many many times harder than the previous tiers. Required to make extremely endgame materials such as hypogen.%n%nYou may notice the mk4 recipes are §oquite§o §rslow, perhaps consider making a compact reactor instead?%n%n[note]You only have to complete one task to finish this quest.[/note]
+
+# Quest: Hypogen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.name=Hypogen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.desc=Here it is, the most high tier GT++ material. You will need UIV to process it. So for now that means you can only solidify it in a large processing factory from GT++.%n%n§3With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.%n%nYou can also have this cake as a reward for coming this far.
+
+# Quest: Well This Looks... Shiny?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHA.name=Well This Looks... Shiny?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHA.desc=Eternal singularity, requires nearly every resource in GTNH to construct. A stargate will require almost 5000 of these in total.
+
+# Quest: You Know the Drill
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHg.name=You Know the Drill
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHg.desc=You know how this works. Prepare for everything to cost large amounts of infinity.
+
+# Quest: Welcome to Hell!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIQ.name=Welcome to Hell!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIQ.desc=Congratulations, you've beaten most of the pack! Here we have some absolutely outrageous final challenges for you. Maybe start by showing us your certificate.
+
+# Quest: My eyes hurt! #4
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.name=My eyes hurt! #4
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.desc=So you finally did it... but there's so much more to do. Onwards comrade!
+
+# Quest: Dragonblood
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.name=Dragonblood
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying around somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n%n§3There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. Its even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.%n%nJust a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)
+
+# Quest: Something From Nothing, part 3?
+betterquesting.quest.BFpBG-zDQSCr3DieB6Cw5g.name=Something From Nothing, part 3?
+betterquesting.quest.BFpBG-zDQSCr3DieB6Cw5g.desc=Suck up liquids like never before! This module replaces the infinite fluid drilling rig, but has the convenience of being inside your space elevator. Look at the NEI recipes to see which fluids you can pump with this.
+
+# Quest: Assembling in Space
+betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.name=Assembling in Space
+betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.desc=This new Space Elevator module can be used to make lapotron orbs more easily, and to make the raw components for optical circuits.
+
+# Quest: My eyes hurt! #1
+betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.name=My eyes hurt! #1
+betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.desc=Finally, you are ready to assemble these new circuits. This is a UV-tier circuit.
+
+# Quest: Using Light to Compute
+betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.name=Using Light to Compute
+betterquesting.quest.VplPMJ0DThWiBNH_Hx5SQA.desc=Carefully treating raw computer parts with purified water allows you to make optically enhanced chips. These use light waves to do computations at a speed you previously couldn't imagine. Making them is quite an involved process however.
+
+# Quest: My eyes hurt! #3
+betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.name=My eyes hurt! #3
+betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.desc=The optical computer is the third optical circuit. It is a UEV-tier circuit
+
+# Quest: The Quest for Holy Water
+betterquesting.quest.WPoaCPPwTBSyn2dmh5DcBA.name=The Quest for Holy Water
+betterquesting.quest.WPoaCPPwTBSyn2dmh5DcBA.desc=You read it right, your next task is to create purified water. There are 8 grades of purified water, each slightly better than the previous. Which one you make and use is up to you.%n%n[note]You only need to do one task to complete this quest.[/note]
+
+# Quest: The Final Frontier!
+betterquesting.quest.X1tb5rwVSVi5SR5rY7vQIw.name=The Final Frontier!
+betterquesting.quest.X1tb5rwVSVi5SR5rY7vQIw.desc=With the §1§lMothership§r (see the Space Race tab for how to build one) you can visit the truly last system: the Amun-Ra system. It has six planets and moons you can visit, each with at least one unique ore vein.%n%n%n§l§nAnubis§r%nInfinity Catalyst vein (Neutronium, Adamantium, Infinity Catalyst, Bedrockium)%n%n§l§nHorus§r%nCosmic Neutronium vein (Neutronium, Cosmic Neutronium, Black Plutonium, Bedrockium)%n%n§l§nMaahes§r%nNaquadria vein (Naquadah, Enriched Naquadah, Naquadria, Trinium)%n%n§l§nMehen Belt§r%nAwakened Draconium vein (Draconium, Draconium, Awakened Draconium, Nether Star)%n%n§l§nNeper§r%nDilithium (Dilithium, Dilithium, Mysterious Crystal, Vinteum)%n%n§l§nSeth§r%nRaw Tengam (Raw Tengam, Raw Tengam, Electrotine, Samarium)%n%n%nRaw Tengam is the vein you will want the most, as you can process Raw Tengam into Attuned Tengam, which is the UEV+ replacement for Magnetic Samarium. On Horus and Neper generate Certus Quartz veins (Certus Quartz, Certus Quartz, Charged Certus Quartz, Quartz Sand) aswell §mI can't imagine why you would still need that though§r.
+
+# Quest: Cheaper ZPM Circuits
+betterquesting.quest.dYvLkQ-xRnWL8Egy_MnoIg.name=Cheaper ZPM Circuits
+betterquesting.quest.dYvLkQ-xRnWL8Egy_MnoIg.desc=Living bio chip can perform multiple tasks at once and will make your ZPM circuits cheaper!%n%n[note]This does cost quite a bit of hypogen, perhaps hold off on using these until you can make hypogen easily.[/note]
+
+# Quest: Download More RAM
+betterquesting.quest.eEJocLDBTkmdsCKo7Qhegw.name=Download More RAM
+betterquesting.quest.eEJocLDBTkmdsCKo7Qhegw.desc=Only the most advanced memory chips will do when working with optical computers.
+
+
 ## Quest Line: Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
 
-# Quest: My eyes hurt! #2
-betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.name=My eyes hurt! #2
-betterquesting.quest.4MzUrkH5QsWnE_4APuHhNg.desc=You know the deal, new circuits assemble!
+# Quest: An Eye at the End of Time
+betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.name=An Eye at the End of Time
+betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=The final multiblock in the game, and by far the most expensive. It has 3 different tiered casings with 9 tiers each. 
+
+# Quest: Infinity Breastplate
+betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.name=Infinity Breastplate
+betterquesting.quest.y-pBsDI2QGS3B9sGG0Pqsg.desc=An armorset worthy of a God. This breastplate provides the user infinite creative flight and removes all negative debuffs.%n%nWhile wearing the complete set, you are completely unkillable.
 
 # Quest: Chaotic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.name=Chaotic Core
@@ -4008,19 +4129,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbQ.desc=In order to get to the riches y
 
 # Quest: Infinity Helmet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.name=Infinity Helmet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.desc=Helmet which provides infinite saturation.
-
-# Quest: Infinity Breastplate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCQ.name=Infinity Breastplate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCQ.desc=Breastplate which provides the user infinite creative flight and removes all negative debuffs.
-
-# Quest: Infinity Pants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCg.name=Infinity Pants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCg.desc=This item has no special effects on its own but is required to complete the full infinity set.
-
-# Quest: Infinity Boots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCw.name=Infinity Boots
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCw.desc=Provides a permanent jump boost and increased running speed.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKCA.desc=An armorset worthy of a God. This helmet provides infinite saturation.%n%n%nWhile wearing the complete set, you are completely unkillable.
 
 # Quest: The Door to Heaven?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDA.name=The Door to Heaven?
@@ -4042,10 +4151,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDw.desc=You'll need 7 of these to const
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.name=Stargate Chevron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.desc=This is required in order to make the stargate work between dimensions, provided you get a second stargate to dial...
 
-# Quest: Infinity Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.name=Infinity Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEQ.desc=Stores up to 243 different items, each being able to stack up to 2,147,483,648. Useful if you want somewhere to put all those void miner ores.
-
 # Quest: Nature's Ruin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.name=Nature's Ruin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEg.desc=Infinity axe, never breaks and capable of chopping down an entire tree instantly.%n%n§3Cuz a levelled up and modified lumber axe is §ototally§r§3 not capable of that.
@@ -4061,26 +4166,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFA.desc=Able to kill anything, in one h
 # Quest: World Breaker
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.name=World Breaker
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.desc=Infinity pickaxe, never breaks, able to break bedrock and capable of mining a 16x16x16 area instantly.
-
-# Quest: Galaxy in a Bottle...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.name=Galaxy in a Bottle...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.desc=Good luck with this one, it is many many many times harder than the previous tiers. Required to make extremely endgame materials such as hypogen.
-
-# Quest: Hypogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.name=Hypogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.desc=Here it is, the most high tier GT++ material. You will need UIV to process it. So for now that means you can only solidify it in a large processing factory from GT++.%n%n§3With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.%n%nYou can also have this cake as a reward for coming this far.
-
-# Quest: Well This Looks... Shiny?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHA.name=Well This Looks... Shiny?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHA.desc=Eternal singularity, requires nearly every resource in GTNH to construct. A stargate will require almost 5000 of these in total.
-
-# Quest: You Know the Drill
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHg.name=You Know the Drill
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHg.desc=I'm not even sure these have uses but they're blue so that's kinda cool.
-
-# Quest: Welcome to Hell!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIQ.name=Welcome to Hell!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIQ.desc=Congratulations, you've beaten most of the pack! Here we have some absolutely outrageous final challenges for you. Maybe start by showing us your certificate.
 
 # Quest: You'll Probably Need Quite a Few of These
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.name=You'll Probably Need Quite a Few of These
@@ -4106,21 +4191,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnA.desc=Weak compared to both weapons o
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=You are worthy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.desc=Go no further if you value your sanity.
 
-# Quest: DTPF
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMog.name=DTPF
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMog.desc=Congratulations, you have reached the Dimensionally Transcendent Plasma Forge, one of the most lategame multiblocks in the pack. This monster will make a MEBF look like a toaster by comparison to the raw smelting power available here.%n%nThis multiblock has numerous powerful recipes at its disposal, including the ability to cook 4,096 neutronium in parallel for a reduced EU cost and the conversion of infinity catalyst directly into infinity at a 1:1 ratio. This comes at a great cost and will likely be a harsh test on your infrastructure.
-
-# Quest: My eyes hurt! #4
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.name=My eyes hurt! #4
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.desc=So you finally did it... but there's so much more to do. Onwards comrade!
-
 # Quest: Nearly there...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.name=Nearly there...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=So close.
-
-# Quest: Tesseract
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.name=Tesseract
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.desc=Engineering beyond your comprehension. Destroying this strange higher dimensional object in a macerator is very easy though.
 
 # Quest: SpaceTime
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqA.name=SpaceTime
@@ -4138,37 +4211,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=Just a bit more.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.name=UXV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=Circuits required for UXV.
 
-# Quest: Naquadah Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrQ.name=Naquadah Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrQ.desc=Endgame power source.
-
-# Quest: Dragonblood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.name=Dragonblood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.desc=For your first batch of Hypogen you will need some Dragonblood. Maybe you already have some lying around somewhere from killing the dragon a long time ago. You have 2 other options though. Bees and the DE Fusion Crafter.%n%nFor the bee path you have to go very deep into the breeding tree, but maybe you have already done that? Check the Bee Breeding tab either way.%n%nIn the DE Fusion Crafter you have 2 recipes. The better one uses an Infinity Egg from Witchery. Without any Witchery you can also just a normal dragon egg for the weaker recipe.%n%nOnce you have a bit of Hypogen you can then use that as a starting point to make more in your DTPF without any Dragonblood. I don't know why it works that way, complain to Colen.%n%nHowever, you will still need more Dragonblood eventually for UMV superconductors.%n%n%n§3There is actually another way to get Dragonblood which is similar to the DE Fusion Crafter recipes but in the mixer instead. Its even slower and less resource efficient. In particular, the dragon egg does not survive the process. So only use that if you are absolutely trying to avoid magic and bees.%n%nJust a reminder: a fluid task just needs you to have the fluid in some container in your inventory. (cell, universal cell, large cell, volumetric cell, etc.)
-
 # Quest: UXV tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.name=UXV tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on your soul. You have reached the highest craftable tier in the game!
 
-# Quest: My eyes hurt! #1
-betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.name=My eyes hurt! #1
-betterquesting.quest.U4zxsdwqTUKsbTATYEJirg.desc=You know the deal, new circuits assemble!
+# Quest: Infinity Boots
+betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.name=Infinity Boots
+betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.desc=An armorset worthy of a God. These boots provide a permanent jump boost and increased running speed.%n%nWhile wearing the complete set, you are completely unkillable.
 
-# Quest: My eyes hurt! #3
-betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.name=My eyes hurt! #3
-betterquesting.quest.WIx0jq8hS8ifWxZWTmC5yA.desc=You know the deal, new circuits assemble!
-
-# Quest: UEV and beyond!
-betterquesting.quest.W4fpsTIlReOV-3-yiEqD8A.name=UEV and beyond!
-betterquesting.quest.W4fpsTIlReOV-3-yiEqD8A.desc=UEV, UIV, UMV, UXV, ...%n%nThese tiers are still a work in progress. But you can find the most important progression steps here, as well as the pinnacle goals.
-
-# Quest: The Final Frontier!
-betterquesting.quest.X1tb5rwVSVi5SR5rY7vQIw.name=The Final Frontier!
-betterquesting.quest.X1tb5rwVSVi5SR5rY7vQIw.desc=With the §1§lMothership§r (see the Space Race tab for how to build one) you can visit the truly last system: the Amun-Ra system. It has six planets and moons you can visit, each with at least one unique ore vein.%n%n%n§l§nAnubis§r%nInfinity Catalyst vein (Neutronium, Adamantium, Infinity Catalyst, Bedrockium)%n%n§l§nHorus§r%nCosmic Neutronium vein (Neutronium, Cosmic Neutronium, Black Plutonium, Bedrockium)%n%n§l§nMaahes§r%nNaquadria vein (Naquadah, Enriched Naquadah, Naquadria, Trinium)%n%n§l§nMehen Belt§r%nAwakened Draconium vein (Draconium, Draconium, Awakened Draconium, Nether Star)%n%n§l§nNeper§r%nDilithium (Dilithium, Dilithium, Mysterious Crystal, Vinteum)%n%n§l§nSeth§r%nRaw Tengam (Raw Tengam, Raw Tengam, Electrotine, Samarium)%n%n%nRaw Tengam is the vein you will want the most, as you can process Raw Tengam into Attuned Tengam, which is the UEV+ replacement for Magnetic Samarium. On Horus and Neper generate Certus Quartz veins (Certus Quartz, Certus Quartz, Charged Certus Quartz, Quartz Sand) aswell §mI can't imagine why you would still need that though§r.
-
-# Quest: Cheaper ZPM Circuits
-betterquesting.quest.dYvLkQ-xRnWL8Egy_MnoIg.name=Cheaper ZPM Circuits
-betterquesting.quest.dYvLkQ-xRnWL8Egy_MnoIg.desc=Living bio chip can perform multiple tasks at once and will make your ZPM circuits cheaper!
+# Quest: Infinity Pants
+betterquesting.quest.E851J_UMQl6d9EwLLLg6AQ.name=Infinity Pants
+betterquesting.quest.E851J_UMQl6d9EwLLLg6AQ.desc=An armorset worthy of a God. These pants have no special effects on their own but are required to complete the full infinity set.%n%n%nWhile wearing the complete set, you are completely unkillable.
 
 
 ## Quest Line: Fishing, Farming, Cooking
@@ -6048,6 +6101,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMig.desc=You probably have built a lot o
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.name=§6§lUlepszenie do Cewki Nieskończoności
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=Smelting with the ferocity of the universe itself.%n%nThis unbelievable material seemed impossible to manipulate into a coil block form, even though its properties made this desirable. It is incredibly stable even at extreme temperatures, but this also made it unable to pack together for coils.%n%nHowever, the situation changed when you thought about using something more intelligent. By integrating a Wetware or better UHV circuit, the Infinity Coil became a reality, controlled by the ever-watching eyes of the circuitry you've spent months to create. From now on, these eyes will watch over your multiblocks.%n%nProvides 11701 heat. You could upgrade your EBF, though at this point it's more likely to be for your MEBFs or your DTPF.
 
+# Quest: Hypogen Coil Upgrade
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§6§lUlepszenie do Cewki Hypogen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§o§r this material? Its dust pulsates visibly, at different rates depending on the size of the dust itself. Hypogen approaches a state of complete balance as it approaches the block size, and it is obvious to you what needs to be done with it.%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
+
 # Quest: Advanced Assembly Line
 betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.name=Advanced Assembly Line
 betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=This is the advanced assembly line from §6GigaGram§rFab.%n%nIt supports item pipelining. That is, it will mimic a real assembly line by consuming ingredients one by one instead of all at start. In effect, it offers a parallelism up to however many item input this recipe requires. You can think of an advanced assembly line as a collection of assembly slices. Each assembly slice is capably of processing each step independent of other slices. It will start processing once the input bus contents align with any stored data stick. The first slice will consume the input in Bus #1. After (recipe time/number of inputs) time, the first slice's work is concluded and will start the second slice. At the same time, first slice will look for input in input bus #1. If there are still enough input there slice #1 will start working again.%n%nThe terminal slice (the n-th slice, where n is number of item input in recipe) will put the recipe output in output bus when it has concluded his work. Whenever a non-terminal slice finished its work, it will try to pass the work onto next slice. If the next slice cannot find the materials in its input bus, the just-finished slice will remain in §4STUCK§r state and hang the assembly line. To help locate these §4STUCK§r assembly lines, the controller's front face will have its status light turned orange.%n%nThe EU/t cost of this machine is number of slices active multiplied by the original recipe EU/t. §4STUCK§r slices do not consume power. It will use the worst energy supplying hatch's input voltage for recipe tier calculation and normal imperfect overclock. With exotic energy hatches, it can overclock beyond usual voltage tier, but will consume even more power than usual imperfect overclock. Every §2laser overclock§r will 0.3 to power exponent. 1 §2laser overclock§r will have 50%% recipe time and use 430%% power. 2 §2laser overclocks§r will have 25%% recipe time and use 1978%% power. Will not overclock beyond 1 tick. Machine first tries to parallelize, then normal imperfect overclock, then §2laser overclock§r.
@@ -6209,10 +6266,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.desc=Milling process is an alternati
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.name=MABS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1Q.desc=This unholy union between Mega and GT++ must be the work of some madman. It is the ultimate metallurgical furnace to make your alloys with up to 256 parallels. If you pay very close attention you might even notice the almost imperceptable speed bonus from using expensive coils.%n%nThe glass tier limits both the energy hatch tier and the recipe tier. As with other multis, UEV glass unlocks all tiers and UV glass is needed for lasers.
 
-# Quest: Chemical Pseudo-Altercations
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.name=Chemical Pseudo-Altercations
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.desc=Learning more about the world and its ways is a sign of wisdom. However, the truly wise are the ones who know what is unimportant and can be skipped. For a true breacher of technology, the constraints of physics and chemistry are not essential. To skip past their technicalities, the Quantum Force Transformer comes into play.%n%nThis multi is meant to replicate the most popular and important processing lines in the pack’s progression, mostly those related to chemistry. Because of recursion in recipes, where earlier tier materials are required to craft higher tier equivalents, there are a lot of early processing lines that stay up through progression. Even worse, they often need more and more machines to keep up with increasing speed demands. To save on lag, this multi will do those processing lines in one step and without most of the extra chemicals that are added to purify the inputs into the outputs.%n%nThe Quantum Force Transformer (QFT) is unlocked in UEV, after Optical Mainframes have been crafted, and with the addition of a single Eternal Singularity and other materials. It’s a tall, 15x15 multiblock with many different casings, including two that are upgradable and decide the two tiers of the multi. Although it’s available in UEV, the upgraded casings require more and more expensive materials, while also unlocking skips for more advanced processing lines. For example, a platline skip can be done in the earlier QFT tier, whereas a Kevlar skip can only be done in the last tier.%n%nEach recipe that the QFT has represents a single processing line or a big part of a line. The inputs for the early plastic skip, for example, are the basic components of the plastics on a molecular level (Carbon, Hydrogen, Oxygen, etc.), and not the multi-step chemicals that were used half a dozen tiers earlier. All recipes have 3 or more outputs, and every output has a chance to appear: the chance for each is 100%% divided by the number of outputs. To increase it, there are additional mechanics that can be used.%n%nSimply put, the QFT uses huge amounts of energy and quantum field stabilization to disassemble simple molecules and assemble them into more complex ones, without needing additives or constrained processes. The only addition to the base inputs that the multi requires is a specific catalyst, which the smart circuits use to guide the materials into what they ultimately transform into, but they are never consumed or lost in any way. %n%nThis direct process simplifies long processing chains to one step, but it has two consequences: it makes the process expensive, given the extreme conditions needed to undergo the transformation (in a similar way to fusion), but it also generates many different outputs at once, none of which are guaranteed, and it’s impossible to choose between them without adding something else into the setup to alter the conditions inside the QFT in some way. Throwing more energy into the multi won’t do anything, and better materials don’t seem to work, so what is the next step? That is what the next two quests will answer.%n
-
 # Quest: Focusing Science and Mystery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2A.name=Focusing Science and Mystery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2A.desc=This mechanic is completely optional, and never required for crafting. However, it’s greatly incentivized when the number of parallels is high and when crafting the new items to unlock the new tiers. “Focusing”, in general, means to increase the chances of the outputs in a QFT recipe, and it can be done in two ways, possibly both at the same time. Each method uses a new plasma, both of which are crafted in a T4 Fusion Reactor by using other plasmas as the inputs, including one T3 plasma for each. These plasmas are Neptunium and Fermium and they can be used together, or individually.%n%nWhen Neptunium Plasma is present, the current recipe can have one of its inputs focused. The specific output is chosen with a circuit in the input bus (this is the only thing circuits do for this multi), where circuit 1 is for the 1st output visible in NEI, circuit 2 is for the 2nd output, and so on. It is up to the player to choose which output they want the most out of all the existing ones, and the fact that every recipe has multiple outputs is because of this mechanic.%n%nWhen an output is successfully focused with Neptunium, its chance increases by reducing the chance of all the other outputs. The logic for this change is as follows:%n%n-> Without focusing, the chance of each output is 100 / number of outputs;%n-> If the casing tier matches the recipe tier, the chance of all other outputs is halved and the sum of those halves is added to the focused output (for example, 20/20/20/20/20 becomes 60/10/10/10/10);%n-> If the casing tier is +1 over the recipe tier, halve the other outputs' chance again (for example, 60/10/10/10/10 becomes 80/5/5/5/5);%n-> If the casing tier is +2 or +3 over the recipe tier, set the focused output to 100%% and the rest to 0%%.%n%nIn general, this type of focusing doesn’t increase the total amount of outputs, save for the new items added with this multi that will come out in smaller quantities. Instead, it allows the player to replace less useful outputs with the more useful ones, and this choice is completely up to them, as is the choice of focusing at all.%n%nWhen Fermium Plasma is present, the current recipe will have all of its output chances boosted, unless the chance for one of them is 100%%, in which case that chance is unchanged. This happens because the boost increases if the output chance before ferm focusing is smaller, and the maximum boost is achieved when the chance is 0%%, which happens with high-tier nep focusing.%n%nWhen an output is successfully focused with Fermium, its chance increases based on how far it is from 100%% chance. This applies to all the outputs at once, and the logic for this change is as follows:%n%n-> If the casing tier matches the recipe tier, each output gets increased by 1/4 of the "failure" chance (for example, a 50%% chance output has a 50%% chance of failure, so it gets boosted by 12.5%%, becoming 62.5%%)%n-> If the casing tier is +1 over the recipe tier, each output gets increased by 1/3 of the "failure" chance%n-> If the casing tier is +2 or +3 over the recipe tier, each output gets increased by 1/2 of the "failure" chance%n%nWith the two plasmas combined and a +2 or +3 over recipe tier, a 5-output recipe would normally have 20/20/20/20/20 chances, but it becomes 100/50/50/50/50.%n%nMany lategame multis have parallels, which means they complete the recipe several times at once every time the recipe time is completed, instead of only one, but they require extra EU to achieve this. This makes power the biggest constraint for those multiblocks, and the same happens with the QFT, given that recipe inputs are generally very cheap and simple. Throwing more power at the machine means more outputs, in general.%n%nGiven that, a player that wants a faster QFT will make more catalysts to unlock more parallels, but each added parallels adds to the other ones, to a cap of 64. Focusing, instead, changes output odds, which effectively multiplies the number of outputs per cycle. In terms of speed, a recipe with 4 outputs and 64 parallels runs at the speed of 256 parallels for the focused output if it’s nep focused to the maximum of 100%%, since it was 25%% originally. %n%nThis is a lot of saved EU for high-tier, high-parallel QFTs, so it is the main reason for focusing, and both plasmas are useful here. However, plasma consumption is not the same regardless of parallels, it instead scales with the square root of the number of correct catalysts for the recipe, which is to say, the number of parallels.%n%nThis further applies to the 3 new items that are needed to upgrade the casing tiers. Since their output amount is much smaller than usual, they could get a further boost if focusing is being used, to incentivize the plasma mechanic when upgrading the multi.
@@ -6300,7 +6353,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAACQ.desc=If there's a way to generat
 
 # Quest: XL Turbo HP Steam Turbine
 betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.name=XL Turbo HP Steam Turbine
-betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.desc=High pressure, superheated loads of energy. Check the XL Steam Turbine quest above for an explanation of the mechanics shared across all turbines.%n%nThis XL Turbine is exactly the same as the XL Steam Turbine in the way it upgrades from the regular multi: the only accepted fluid is Superheated Steam, and nothing else works. They are meant to be built together, since any steam setups you might have at this point will surely be using the two.
+betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.desc=Wysokie ciśnienie, przegrzane ładunki energii. Sprawdź zadanie Turbina Parowa XL powyżej, aby uzyskać wyjaśnienie mechaniki wspólnej dla wszystkich turbin.%n%nTurbina XL jest dokładnie taka sama jak Turbina Parowa XL pod względem ulepszeń w stosunku do zwykłej multi: jedynym akceptowanym płynem jest przegrzana para wodna i nic innego nie działa. Są one przeznaczone do budowania razem, ponieważ wszelkie konfiguracje parowe, które możesz mieć w tym momencie, z pewnością będą korzystać z obu.
 
 # Quest: XL Turbo Steam Turbine
 betterquesting.quest.4HoSq97QT3G63VJFeV_0ZQ.name=XL Turbo Steam Turbine
@@ -8366,8 +8419,8 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHw.name=SFM and Computers
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHw.desc=SFM and OC have your back for assline automation! And automating other stuff too complex for AE2, like infusion or blood altars. You can do a lot of cool stuff with OC, feel free to give it a try.
 
 # Quest: Welcome to OpenComputers!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG0Q.name=Welcome to OpenComputers!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG0Q.desc=Hello there, my name is Teirdalin and today we shall embark on one of the most exciting and fun mods; OpenComputers! First things first though, you will need some patience to get through this mod, but it will certainly pay off in the end!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG0Q.name=Witamy w OtwarteKomputery!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG0Q.desc=Witam, nazywam się Teirdalin i dzisiaj rozpoczniemy jeden z najbardziej ekscytujących i zabawnych modów; OtwarteKomputery! Po pierwsze, będziesz potrzebował trochę cierpliwości, aby przejść przez ten mod, ale na pewno się to opłaci!
 
 # Quest: Your First Microchip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG0g.name=Your First Microchip
@@ -8802,10 +8855,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABiQ.desc=Your crafting CPU is massive an
 # Quest: Quantum Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0g.name=Quantum Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0g.desc=Now you §ocould§r connect Quantum Chests to your ME system with storage buses and maybe you are already doing that. But why not use all your new technology to make a Quantum storage cell?%n%nIt only takes a single item type, but you can store more than a billion items! That surely must be enough, right? RIGHT?
-
-# Quest: A Digital Singularity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.name=A Digital Singularity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.desc=What? You filled up the Quantum storage cell? I hope with something better than Cobblestone. Anyway, you better make something EVEN bigger then.%n%nHmm, adding even more storage capacity to a single cell would result in something so dense in information that it would just collapse into a singularity. So why not be smart about it. Just use an already existing singularity! Build a sturdy casing around it and some connecting components and you should be good. Better use an eternal singularity though to make sure things remain stable.%n%n%n§3The Digital Singularity can store more than 4 quintillion items. If you manage to fill one up, please contact the dev team so that they can ban you for cheating, ... eh I mean §ocongratulate you on your achievement§r§3, of course!
 
 # Quest: 16k Component
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5Q.name=16k Component
@@ -13363,6 +13412,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABwA.desc=Your wooden shield is very weak
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.name=§1§lYour First 'Long Range' Weapon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.desc=You can't make a vanilla bow or Tinkers weapons yet, but you can make a spear!%n%nSome monsters will become much easier to kill with this long-range weapon.
 
+# Quest: A Digital Singularity
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.name=A Digital Singularity
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.desc=What? You filled up the Quantum storage cell? I hope with something better than Cobblestone. Anyway, you better make something EVEN bigger then.%n%nHmm, adding even more storage capacity to a single cell would result in something so dense in information that it would just collapse into a singularity. So why not be smart about it. Just use an already existing singularity! Build a sturdy casing around it and some connecting components and you should be good. Better use an eternal singularity though to make sure things remain stable.%n%n%n§3The Digital Singularity can store more than 4 quintillion items. If you manage to fill one up, please contact the dev team so that they can ban you for cheating, ... eh I mean §ocongratulate you on your achievement§r§3, of course!
+
 # Quest: Making a Better Sword
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.name=§2§lMaking a Better Sword
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.desc=Now it's time to make your first tinkers sword. First you have to make a blade, a type of guard, and tool rod cast forms. Melt some bronze in the smeltery and cast your tool parts. Tadaa... your first tinkers sword. There are 4 types of guard, changing them gets you a different sword type, see the tinker's book for details.
@@ -13675,10 +13728,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.desc=This upgrade allows unlimited r
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGw.name=UV Solar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGw.desc=Produces 1A of UV voltage during the day. Useful if you live in a dimension with permanent day (Eg garden).
 
-# Quest: Gods+
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHw.name=Gods+
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHw.desc=BTW, it doesn't actually hold more, you can just I/O faster. Make filling it your life goal!
-
 # Quest: Who Needs UV Solars When You Have Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.name=Who Needs UV Solars When You Have Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.desc=This single block can produce a maximum of 600m eu/t when in aqua form, that's balanced right... right?
@@ -13735,13 +13784,13 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.name=Gas Planets
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiQ.desc=You probably also want a good overview of what you can get with your Gas Siphon. So here we go:%n%n%nJupiter§r%n1 Hydrogen - 15000 L/s%n2 Helium - 500 L/s%n3 Nitrogen - 300 L/s%n4 Oxygen - 200 L/s%n%n§oSaturn§r%n1 Hydrogen - 18000 L/s%n2 Helium - 800 L/s%n3 Oxygen - 500 L/s%n4 Liquid Oxygen - 150 L/s%n%n§oUranus§r%n1 Deuterium - 5000 L/s%n2 Neon - 450 L/s%n3 Argon - 250 L/s%n4 Krypton - 100 L/s%n%n§oNeptune§r%n1 Tritium - 3000 L/s%n2 Helium-3 - 500 L/s%n3 Ammonia - 400 L/s%n4 Xenon - 350 L/s
 
-# Quest: Hypogen Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§6§lUlepszenie do Cewki Hypogen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=Forged from the blood of an ageless dragon, and melded together by the power of fusion beyond what you thought was the reality. No natural element, or combination of elements, could match up to this glowing orange material, not even the Awakened Draconium you got your hands on before.%n%nWhat truly happened inside that Mk4 Fusion Reactor? What §ois§o§r this material? Its dust pulsates visibly, at different rates depending on the size of the dust itself. Hypogen approaches a state of complete balance as it approaches the block size, and it is obvious to you what needs to be done with it.%n%nIt absorbs and radiates energy without any effort, but it would be stupid to attempt making coils out of this without assistance. Wetware wasn't good enough anymore, and only the most advanced living circuit could withstand the erratic behavior Hypogen demonstrates.%n%nProvides 12601K heat. Almost certainly, this will end up on your DTPF.
-
 # Quest: Eternal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§6§lUlepszenie do Cewki Wieczności
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought into a fluid, and then a solid. It has been stabilized, against all odds. When you look at it, you think that you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one, through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous, which would have stopped your progress altogether if not for the discovery of the Energized Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension, and that is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made out of cubes. You have only glimpsed at the reality of the 4-dimensional world, but you have successfully used it to condensate spacetime, which can be arbitrarily molded into the complete Eternal mixture, a process that unfortunately cannot be reversed. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multi-dimensional material.%n%nCurrently, the final upgrade with 13501K. This really makes your DTPF shine!
+
+# Quest: Tesseract
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.name=Tesseract
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.desc=Engineering beyond your comprehension. Destroying this strange higher dimensional object in a macerator is very easy though.%n%n[note]You may proceed to UIV now. Best of luck.[/note]
 
 # Quest: PCB Factory
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.name=PCB Factory
@@ -13778,6 +13827,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0A.desc=Carbon Nanites are good first w
 # Quest: Nano Forge Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0Q.name=Nano Forge Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0Q.desc=Neutronium nanites are slow moving, but that allowed them to have a complex nanite network. If there was a material that could move itself it could allow for an even more complex nanite with great speeds... Thankfully with the DTPF fully functional we can make it, transcendent metal.%n%n§3Same thing as the neutronium nanite, but this nanite allows for tier 3 nanites to be made in the nano forge.
+
+# Quest: Chemical Pseudo-Altercations
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.name=Chemical Pseudo-Altercations
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.desc=Learning more about the world and its ways is a sign of wisdom. However, the truly wise are the ones who know what is unimportant and can be skipped. For a true breacher of technology, the constraints of physics and chemistry are not essential. To skip past their technicalities, the Quantum Force Transformer comes into play.%n%nThis multi is meant to replicate the most popular and important processing lines in the pack’s progression, mostly those related to chemistry. Because of recursion in recipes, where earlier tier materials are required to craft higher tier equivalents, there are a lot of early processing lines that stay up through progression. Even worse, they often need more and more machines to keep up with increasing speed demands. To save on lag, this multi will do those processing lines in one step and without most of the extra chemicals that are added to purify the inputs into the outputs.%n%nThe Quantum Force Transformer (QFT) is unlocked in UEV, after Optical Mainframes have been crafted, and with the addition of a single Eternal Singularity and other materials. It’s a tall, 15x15 multiblock with many different casings, including two that are upgradable and decide the two tiers of the multi. Although it’s available in UEV, the upgraded casings require more and more expensive materials, while also unlocking skips for more advanced processing lines. For example, a platline skip can be done in the earlier QFT tier, whereas a Kevlar skip can only be done in the last tier.%n%nEach recipe that the QFT has represents a single processing line or a big part of a line. The inputs for the early plastic skip, for example, are the basic components of the plastics on a molecular level (Carbon, Hydrogen, Oxygen, etc.), and not the multi-step chemicals that were used half a dozen tiers earlier. All recipes have 3 or more outputs, and every output has a chance to appear: the chance for each is 100%% divided by the number of outputs. To increase it, there are additional mechanics that can be used.%n%nSimply put, the QFT uses huge amounts of energy and quantum field stabilization to disassemble simple molecules and assemble them into more complex ones, without needing additives or constrained processes. The only addition to the base inputs that the multi requires is a specific catalyst, which the smart circuits use to guide the materials into what they ultimately transform into, but they are never consumed or lost in any way. %n%nThis direct process simplifies long processing chains to one step, but it has two consequences: it makes the process expensive, given the extreme conditions needed to undergo the transformation (in a similar way to fusion), but it also generates many different outputs at once, none of which are guaranteed, and it’s impossible to choose between them without adding something else into the setup to alter the conditions inside the QFT in some way. Throwing more energy into the multi won’t do anything, and better materials don’t seem to work, so what is the next step? That is what the next two quests will answer.%n
 
 # Quest: Integrated Ore Factory - All in One!
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.name=Integrated Ore Factory - All in One!
