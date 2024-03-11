@@ -1,13 +1,13 @@
 #Group names
 itemGroup.ThaumicEnergistics=Thaumic Energistics
-thaumicenergistics.group.essentia.transport=ME Essentia Import/Export Bus
+thaumicenergistics.group.essentia.transport=ME-Essentia-Import-/Exportbus
 
 #Fluids
-thaumicenergistics.fluid.gaseous=Super Critical Fluid
+thaumicenergistics.fluid.gaseous=Gas
 
 #Blocks
-thaumicenergistics.block.essentia.provider.name=Essentia Provider
-thaumicenergistics.block.infusion.provider.name=Infusion Provider
+thaumicenergistics.block.essentia.provider.name=Essentia-Versorger
+thaumicenergistics.block.infusion.provider.name=Infusions-Versorger
 thaumicenergistics.block.gear.box.name=Iron Gear Box
 thaumicenergistics.block.golem.gear.box.name=Thaumium Gear Box
 thaumicenergistics.block.essentia.cell.workbench.name=Essentia Cell Workbench
@@ -17,22 +17,22 @@ thaumicenergistics.block.essentia.vibration.chamber.name=Essentia Vibration Cham
 thaumicenergistics.block.distillation.encoder.name=Distillation Pattern Encoder
 
 #Cable parts
-thaumicenergistics.aeparts.essentia.ImportBus.name=Essentia Import Bus
-thaumicenergistics.aeparts.essentia.ExportBus.name=Essentia Export Bus
-thaumicenergistics.aeparts.essentia.levelemitter.name=Essentia Level Emitter
-thaumicenergistics.aeparts.essentia.StorageBus.name=Essentia Storage Bus
-thaumicenergistics.aeparts.essentia.terminal.name=Essentia Terminal
-thaumicenergistics.aeparts.arcane.crafting.terminal.name=Arcane Crafting Terminal
+thaumicenergistics.aeparts.essentia.ImportBus.name=ME-Essentia-Importbus
+thaumicenergistics.aeparts.essentia.ExportBus.name=ME-Essentia-Exportbus
+thaumicenergistics.aeparts.essentia.levelemitter.name=ME-Essentia-Füllstandsemitter
+thaumicenergistics.aeparts.essentia.StorageBus.name=ME-Essentia-Speicherbus
+thaumicenergistics.aeparts.essentia.terminal.name=Essentia-Konsole
+thaumicenergistics.aeparts.arcane.crafting.terminal.name=Arkane Fertigungs-Konsole
 thaumicenergistics.aeparts.vis.interface.name=Vis Relay Interface
 thaumicenergistics.aeparts.vis.interface_creative.name=Creative Vis Relay Interface
 thaumicenergistics.aeparts.essentia.storage.monitor.name=Essentia Storage Monitor
 thaumicenergistics.aeparts.essentia.conversion.monitor.name=Essentia Conversion Monitor
 
 #Items
-thaumicenergistics.item.essentia.cell.1k.name=1k ME Essentia Storage Cell
-thaumicenergistics.item.essentia.cell.4k.name=4k ME Essentia Storage Cell
-thaumicenergistics.item.essentia.cell.16k.name=16k ME Essentia Storage Cell
-thaumicenergistics.item.essentia.cell.64k.name=64k ME Essentia Storage Cell
+thaumicenergistics.item.essentia.cell.1k.name=1k-ME-Essentia-Speicherzelle
+thaumicenergistics.item.essentia.cell.4k.name=4k-ME-Essentia-Speicherzelle
+thaumicenergistics.item.essentia.cell.16k.name=16k-ME-Essentia-Speicherzelle
+thaumicenergistics.item.essentia.cell.64k.name=64k-ME-Essentia-Speicherzelle
 thaumicenergistics.item.essentia.cell.256k.name=256k ME Essentia Storage Cell
 thaumicenergistics.item.essentia.cell.1024k.name=1024k ME Essentia Storage Cell
 thaumicenergistics.item.essentia.cell.4096k.name=4096k ME Essentia Storage Cell
@@ -40,17 +40,17 @@ thaumicenergistics.item.essentia.cell.16384k.name=16384k ME Essentia Storage Cel
 thaumicenergistics.item.essentia.cell.quantum.name=ME Essentia Quantum Storage Cell
 thaumicenergistics.item.essentia.cell.singularity.name=ME Essentia Digital Singularity Storage Cell
 thaumicenergistics.item.essentia.cell.creative.name=Thaumometric Essentia Cell
-thaumicenergistics.item.storage.casing.name=ME Essentia Storage Housing
-thaumicenergistics.item.storage.component.1k.name=1k ME Essentia Storage Component
-thaumicenergistics.item.storage.component.4k.name=4k ME Essentia Storage Component
-thaumicenergistics.item.storage.component.16k.name=16k ME Essentia Storage Component
-thaumicenergistics.item.storage.component.64k.name=64k ME Essentia Storage Component
+thaumicenergistics.item.storage.casing.name=Essentia-Speichergehäuse
+thaumicenergistics.item.storage.component.1k.name=1k-ME-Essentia-Speicherkomponente
+thaumicenergistics.item.storage.component.4k.name=4k-ME-Essentia-Speicherkomponente
+thaumicenergistics.item.storage.component.16k.name=16k-ME-Essentia-Speicherkomponente
+thaumicenergistics.item.storage.component.64k.name=64k-ME-Essentia-Speicherkomponente
 thaumicenergistics.item.storage.component.256k.name=256k ME Essentia Storage Component
 thaumicenergistics.item.storage.component.1024k.name=1024k ME Essentia Storage Component
 thaumicenergistics.item.storage.component.4096k.name=4096k ME Essentia Storage Component
 thaumicenergistics.item.storage.component.16384k.name=16384k ME Essentia Storage Component
-thaumicenergistics.item.material.diffusion.core.name=Diffusion Core
-thaumicenergistics.item.material.coalescence.core.name=Coalescence Core
+thaumicenergistics.item.material.diffusion.core.name=Zersetzungskern
+thaumicenergistics.item.material.coalescence.core.name=Zusammensetzungskern
 thaumicenergistics.item.material.iron.gear.name=Iron Gear
 thaumicenergistics.item.wireless.essentia.terminal.name=Wireless Essentia Terminal
 thaumicenergistics.item.knowledge.core.name=Knowledge Core
@@ -62,12 +62,12 @@ thaumicenergistics.item.cell.microscope.name=Cell Microscope
 #Tooltips
 thaumicenergistics.tooltip.itemstack.details=Hold §eCTRL§f for details.
 thaumicenergistics.tooltip.essentia.cell.contains=Contains
-thaumicenergistics.tooltip.essentia.cell.bytes=%s of %s Bytes Used.
-thaumicenergistics.tooltip.essentia.cell.types=%s of %s essentia types stored.
-thaumicenergistics.tooltip.button.void=Allow Void?
-thaumicenergistics.tooltip.button.void.disabled=Do not void essentia
-thaumicenergistics.tooltip.button.void.allowed=Void essentia if jar is full
-thaumicenergistics.tooltip.button.void.note=Only applies to void jars
+thaumicenergistics.tooltip.essentia.cell.bytes=%s von %s genutzte Bytes
+thaumicenergistics.tooltip.essentia.cell.types=%s von %s Essentia-Typen
+thaumicenergistics.tooltip.button.void=Leere erlauben
+thaumicenergistics.tooltip.button.void.disabled=Essentia nicht verwerfen
+thaumicenergistics.tooltip.button.void.allowed=Essentia verwerfen, wenn das Glas voll ist
+thaumicenergistics.tooltip.button.void.note=Nur bei Leeren-Gläsern möglich.
 thaumicenergistics.tooltip.button.inscriber.invalid=Invalid Arcane Recipe
 thaumicenergistics.tooltip.button.inscriber.full=Knowledge Core Is Full
 thaumicenergistics.tooltip.button.inscriber.delete=Erase Pattern From Knowledge Core
@@ -79,10 +79,10 @@ thaumicenergistics.tooltip.arcane.assembler.hasVis=Contains Stored Vis
 
 
 #GUI
-thaumicenergistics.gui.arcane.crafting.terminal.title=Arcane Terminal
-thaumicenergistics.gui.essentia.cell.title=Essentia Cell
-thaumicenergistics.gui.selected.amount=Amount
-thaumicenergistics.gui.selected.aspect=Aspect
+thaumicenergistics.gui.arcane.crafting.terminal.title=Arkane Konsole
+thaumicenergistics.gui.essentia.cell.title=Essentia-Zelle
+thaumicenergistics.gui.selected.amount=Menge
+thaumicenergistics.gui.selected.aspect=Aspekt
 thaumicenergistics.gui.digivis.source.name=DigiVis Source
 thaumicenergistics.gui.essentia.cell.workbench.title=Essentia Cell Workbench
 thaumicenergistics.gui.arcane.assembler.title=Arcane Assembler
@@ -90,53 +90,53 @@ thaumicenergistics.gui.vibration.chamber.stored=Stored: %d %s
 thaumicenergistics.gui.vibration.chamber.processing=Processing: %s
 
 #Research Tab
-tc.research_category.thaumicenergistics=Energistics
+tc.research_category.thaumicenergistics=Energistik
 
 # Research basics
-tc.research_name.thaumicenergistics.TERESEARCH=Thaumic Energistics
-tc.research_text.thaumicenergistics.TERESEARCH=Thaumaturgy Enters the Digital Age.
-thaumicenergistics.research_page.TERESEARCH.1=As both a scientist and an arcane scholar, you have postulated that it must be possible to combine technology and magic in a stable and productive way.<BR>You will need to study the principals of matter-energy conversion in detail to accomplish this. It is likely there are aspects of Thaumaturgy that can accomplish this, as well as technology capable of doing the same.<BR>This will require extensive study, but you are sure that it will be a worthwhile investment of your time.
+tc.research_name.thaumicenergistics.TERESEARCH=Thaumische Energistik
+tc.research_text.thaumicenergistics.TERESEARCH=Thaumaturgie erreicht das digitale Zeitalter.
+thaumicenergistics.research_page.TERESEARCH.1=Gleichzeitig Wissenschaftler und arkaner Gelehrter, bist du dir sicher, dass es einen Weg gibt, Technologie und Magie stabil und effizient zu kombinieren.<BR>Du wirst die Prinzipien der Materie-Energie-Wandlung genauer studieren müssen, um das zu erreichen. Es ist sehr wahrscheinlich, dass es Mittel und Wege in der Thaumaturgie gibt, sowie Technologie, die damit umgehen kann.<BR>Das Studium wird aufwändig, aber du bist dir sicher, dass die Zeit sinnvoll investiert sein wird.
 
 # Research conversion cores
 tc.research_name.thaumicenergistics.TECORES=Digi-sentia
-tc.research_text.thaumicenergistics.TECORES=Digital Essentia.
-thaumicenergistics.research_page.TECORES.1=Having discovered how to distill essentia, it occurs to you that you may be able store it digitally.<BR>Examining the §lFormation Core§r and §lAnnihilation Core§r you realize that with some minor modifications they could serve as a means to convert essentia to and from a digital format.<BR>However, due to the corrosive nature of certain types of essentia, a layer of quicksilver around the circuitry is required to prevent decay.
-thaumicenergistics.research_page.TECORES.2=§lDiffusion Core§r<BR>The relatively high volatility and immense energy in distilled essentia requires that it first be diffused then digitized. A buffer chamber of some kind will likely be required to hold the diffused essentia.<LINE>§lCoalescence Core§r<BR>Compresses and binds re-materialized essentia diffusion back into its raw form. A buffer chamber will also likely be needed.
+tc.research_text.thaumicenergistics.TECORES=Digitale Essentia.
+thaumicenergistics.research_page.TECORES.1=Nun, da du weißt, wie man Essentia destilliert, kannst du sie vielleicht auch digital speichern.<BR>Bei der Untersuchung der §lFormations-§r und §lAnnihilationskerne§r stellst du fest, dass sie - mit einigen kleinen Änderungen - auch Essentia in ein digitales Format und zurück wandeln könnten.<BR>Wegen der zersetzenden Natur der Essentia musst du allerdings eine Schicht Quecksilber auf die Schaltkreise aufbringen, um Schäden vorzubeugen.
+thaumicenergistics.research_page.TECORES.2=§lZersetzungskern§r<BR>Aufgrund der hohen Flüchtigkeit und der immensen Energiemengen von destillierter Essentia muss diese vor dem digitalisieren zersetzt werden. Eine Art Pufferkammer wird benötigt werden, um die zersetzte Essentia aufzunehmen.<LINE>§lZusammensetzungskern§r<BR>Komprimiert und bindet re-materialisierte, zersetzte Essentia in seine ursprüngliche Form. Auch hier wird sicherlich eine Pufferkammer benötigt.
 
 # Research storage
-tc.research_name.thaumicenergistics.TESTORAGE=Digi-sentia Storage
-tc.research_text.thaumicenergistics.TESTORAGE=Can this thing really store essentia?
-thaumicenergistics.research_page.TESTORAGE.1=Upon inspecting existing digital storage mediums you have concluded that you can in-fact store digitized essentia.<BR>By infusing §lCertus Quartz§r with concentrated essence, it will gain the ability to store the essentia, which remains remarkably active even in digital form.<BR>You conclude that the higher the concentration of essence, the more it should be able to store, although there are inherit limits as to how much the quartz itself can store.
-thaumicenergistics.research_page.TESTORAGE.2=§lComponents§r<BR>Stores the essentia in its digital format. Non-operational unless a cell housing is used to interface with a digital network.<BR>§lCell Housing§r<BR>Provides an interface and protects a storage component.<BR>§lEssentia Cell Workbench§r<BR>The cell workbench allows you to partition a cell, specifying what essentia types are allowed to be stored.
+tc.research_name.thaumicenergistics.TESTORAGE=Digi-sentia-Speicher
+tc.research_text.thaumicenergistics.TESTORAGE=Kann das Ding wirklich Essentia aufnehmen?
+thaumicenergistics.research_page.TESTORAGE.1=Bei der Inspektion vorhandener digitaler Speichermedien bist du zu dem Schluss gekommen, dass du tatsächlich digitalisierte Essentia speichern kannst.<BR>Durch die Infusion von konzentrierter Essenz in §lCertus Quartz§r erhält dieser die Fähigkeit, digitale Essentia aufzunehmen, welche sogar in dieser Form noch beachtlich aktiv bleibt.<BR>Du stellst fest, dass, mit zunehmender Essenz-Konzentration, die Speicherfähigkeiten ebenfalls zunehmen, auch wenn es eine Grenze gibt, wie viel ein einzelner Quartz aufnehmen kann.
+thaumicenergistics.research_page.TESTORAGE.2=§lKomponenten§r<BR>Speichern die Essentia in digitaler Form. Ein Speichergehäuse wird benötigt, um mit dem Netzwerk kommunizieren zu können.<LINE>§lSpeichergehäuse§r<BR>Stellt eine Schnittstelle zum Netzwerk bereit und schützt die Speicherkomponenten. Hat selbst keine magischen Fähigkeiten, weshalb es ohne die Hilfe von Vis hergestellt werden kann.
 
 # Research IO
-tc.research_name.thaumicenergistics.TEIO=Digi-sentia Transportation
-tc.research_text.thaumicenergistics.TEIO=Moving Essentia Digitally!
-thaumicenergistics.research_page.TEIO.1=Now that you know how to digitize essentia, it's time to put that knowledge to work.<LINE>§lImport & Export§r<BR>By binding the appropriate core to an essentia tube and chamber, you are able to move essentia in and out of the storage network. The use of a filter tube allows you to specify what aspects are allowed to be transferred.
-thaumicenergistics.research_page.TEIO.2=§lStorage Bus§r<BR>Combining the import and export buses into a single device allows you to use external essentia containers as network storage.<BR>As well as storage, the bus can also be used to remove excess essentia from the network by using a void jar or ME Condenser. If using a void jar, you must select the allow void button in the GUI. Setting a low priority on the storage bus is recommended here.
+tc.research_name.thaumicenergistics.TEIO=Digi-sentia-Transport
+tc.research_text.thaumicenergistics.TEIO=Essentia digital bewegen!
+thaumicenergistics.research_page.TEIO.1=Jetzt wo du weißt, wie man Essentia digitalisiert, ist es Zeit, das Wissen anzuwenden.<LINE>§lImport & Export§r<BR>Durch das Anbringen des entsprechenden Kerns an einer Essentiaröhre und -kammer kannst du Essentia in das Speichernetzwerk hinein- und daraus herausbewegen. Die Nutzung einer gefilterten Röhre erlaubt dir, genauer zu kontrollieren, was genau bewegt wird.
+thaumicenergistics.research_page.TEIO.2=§lSpeicherbus§r<BR>Durch die Kombination des Import- und Exportbuses kannst du externe Essentia-Behälter als Netzwerkspeicher verwenden. Der Speicherbus hat allerdings keine eigenen Pufferkammern, deshalb ist es unwahrscheinlich, dass er mit irgendetwas anderem außer bannenden Gläsern funktioniert.
 
 # Research Arcane crafting terminal
-tc.research_name.thaumicenergistics.TEARCANETERM=Arcane Crafting Terminal
-tc.research_text.thaumicenergistics.TEARCANETERM=Crafting with magic §oand technology.§r
-thaumicenergistics.research_page.TEARCANETERM.1=You have discovered that using primal aspects to bind a §lTerminal§r to an §lArcane Worktable§r allows you to imbue the terminal with the worktable's ability to craft arcane items.<BR>The terminal retains its ability to access items on the ME network allowing faster and more plentiful crafting, as well as store and swap a set of armor for when you need a quick vis discount.
+tc.research_name.thaumicenergistics.TEARCANETERM=Arkane Fertigungskonsole
+tc.research_text.thaumicenergistics.TEARCANETERM=Herstellung mit Magie §ound Technik.§r
+thaumicenergistics.research_page.TEARCANETERM.1=Du hast herausgefunden, dass du mithilfe der primären Aspekte eine Konsole an einen arkanen Werktisch binden kannst. Dadurch erhält die Konsole die Fähigkeit, mit Vis arkane Gegenstände herzustellen.
 
 # Research Essentia terminal
-tc.research_name.thaumicenergistics.TEESSTERM=Essentia Monitoring
-tc.research_text.thaumicenergistics.TEESSTERM=Knowing how much you have.
-thaumicenergistics.research_page.TEESSTERM.1=The §lEssentia Terminal§r provides a convenient way to insert or extract essentia stored within the network.<BR>When placing a jar or phial it will be emptied if it contains any essentia, or filled with the selected aspect. Labels can also be set or cleared depending on the selected aspect.
-thaumicenergistics.research_page.TEESSTERM.2=For the Thaumaturge with little time on their hands and many aspects to work with, the displayed aspects can be clicked with an item to fill, drain, or set the item in question.<BR>When holding multiple of an item, items will be returned to your inventory.
+tc.research_name.thaumicenergistics.TEESSTERM=Essentia-Überwachung
+tc.research_text.thaumicenergistics.TEESSTERM=Wissen, wie viel du hast.
+thaumicenergistics.research_page.TEESSTERM.1=Die §lEssentia-Konsole§r ermöglicht dir, die Menge der im Netzwerk gespeicherten Essentia zu überwachen. Außerdem kannst du hier Essentiabehälter auffüllen und leeren.
+thaumicenergistics.research_page.TEESSTERM.2=Der §lEssentia-Füllstandsemitter§r wird kontinuierlich die Füllstände von Essentia im Netzwerk überwachen, und gibt ein Redstone-Signal aus, wenn die eingestellten Bedingungen erfüllt sind.
 thaumicenergistics.research_page.TEESSTERM.3=The §lEssentia Level Emitter§r provides a redstone signal when the level of essentia in the network falls below or rises above a set amount.
 thaumicenergistics.research_page.TEESSTERM.4=The §lEssentia Storage Monitor§r & §lEssentia Conversion Monitor§r allow you to see how much of an aspect is in the network at a glance. The conversion monitor also allows you to insert and extract essentia from the network.<BR>Right-clicking with a wrench will lock/unlock the monitor.<BR>Right-clicking an unlocked monitor with a label or filled jar or phial will set the displayed aspect, and right-clicking with an empty hand will clear aspect.<BR>Right-clicking a locked conversion monitor will fill jar or phial and Shift-Right-Clicking will empty them.<BR>Shift-Double-Right-Click will empty all essentia from your inventory.
 
 # Research Essentia Provider
-tc.research_name.thaumicenergistics.TEESSPROV=Essentia Provider
-tc.research_text.thaumicenergistics.TEESSPROV=Ask and you shall receive.
-thaumicenergistics.research_page.TEESSPROV.1=While import and export buses are useful for an array of jobs, they lack the flexibility to interface with complex alchemical constructs. To overcome this limitation you have created a device that will allow these constructs to request any essentia directly from the network.<BR>Using the §lEssentia Provider§r should prove to be a simple task. Simply connect it to both the network and construct, and it will do the rest.<BR>Like an essentia buffer it has a small amount of suction(8).
+tc.research_name.thaumicenergistics.TEESSPROV=Essentia-Versorger
+tc.research_text.thaumicenergistics.TEESSPROV=Deine Wünsche werden erhört.
+thaumicenergistics.research_page.TEESSPROV.1=Import- und Exportbuse sind nützlich für eine Reihe von Aufgaben, können allerdings nicht mit komplexen alchemischen Aufbauten interagieren. Um diese Einschränkung zu umgehen, hast du ein Gerät entwickelt, durch das diese Aufbauten selbstständig Essentia aus dem Netzwerk anfordern können.<BR>Den §lEssentia-Versorger§r zu nutzen, hat sich als simpel erwiesen. Du musst ihn nur mit dem Netzwerk und dem Aufbau verbinden, und er erledigt den Rest.
 
 # Research Infusion Provider
-tc.research_name.thaumicenergistics.TEINFPROV=Infusion Provider
-tc.research_text.thaumicenergistics.TEINFPROV=Infusion made easier.
-thaumicenergistics.research_page.TEINFPROV.1=By researching the process of essentia infusion, you have discovered a method for instantaneous conversion between digi-sentia and essentia that can be used for infusion.<BR>By placing the §lInfusion Provider§r near a thaumic device, the device can draw essentia directly from the network as if it were a warded jar.<BR>This could prove to be very useful for the infusion alter.
+tc.research_name.thaumicenergistics.TEINFPROV=Infusions-Versorger
+tc.research_text.thaumicenergistics.TEINFPROV=Infusion vereinfacht.
+thaumicenergistics.research_page.TEINFPROV.1=Bei der genaueren Untersuchung des Infusionsprozesses hast du eine Methode entdeckt, um sofort von Digi-sentia zu Essentia umzuwandeln. Das könnte sich als nützlich für Infusionen erweisen.<BR>Durch das Aufbauen des §lInfusions-Versorgers§r in der Nähe eines thaumischen Gerätes kann dieses Essentia direkt aus dem Netzwerk ziehen.
 
 # Research Vis Interface
 tc.research_name.thaumicenergistics.TEVISINT=Vis Relay Interface
