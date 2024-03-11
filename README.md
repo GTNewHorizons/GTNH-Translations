@@ -124,6 +124,7 @@ Translations in mod jars -> ParaTranz
 - Figure out what to do with BLS translation
 - pt_BR to pt_PT conversion script
 - Refine the way conditional sync works
+- Eliminate GregTech.lang
 - Automatically backup ParaTranz project just in case?
 
 ## Credit
