@@ -485,6 +485,14 @@ GT5U.gui.text.drone_operating=§aDrone operating normally!
 GT5U.gui.text.drone_title=Drone Control Centre
 GT5U.gui.text.drone_custom_name=Custom Machine Name
 GT5U.gui.text.drone_search=Search machine name
+GT5U.gui.text.out_of_fluid=§4No following fluids supplied: §b%s§f x §6%s L
+GT5U.gui.text.out_of_item=§4No following items supplied: §b%s§f x §6%s
+GT5U.gui.text.out_of_stuff=§4No following stuffs supplied: §b%s§f x §6%s
+GT5U.gui.text.power_loss=§4Shut down due to power loss.
+GT5U.gui.text.pollution_fail=§4Failed to output the pollution.
+GT5U.gui.text.structure_incomplete=§4Shut down due to incomplete structure.
+GT5U.gui.text.no_repair=§4Shut down due to machine damage.
+GT5U.gui.text.no_machine_part=No correct machine part in controller slot.
 
 GT5U.item.programmed_circuit.select.header=Reprogram Circuit
 
@@ -537,15 +545,15 @@ GT5U.config.colormodulation=Color Modulator
 GT5U.config.colormodulation.cable_insulation=Cable Insulation
 GT5U.config.colormodulation.cable_insulation.B=Blue
 GT5U.config.colormodulation.cable_insulation.G=Green
-GT5U.config.colormodulation.cable_insulation.R=Red
+GT5U.config.colormodulation.cable_insulation.R=Czerwony
 GT5U.config.colormodulation.construction_foam=Construction Foam
 GT5U.config.colormodulation.construction_foam.B=Blue
 GT5U.config.colormodulation.construction_foam.G=Green
-GT5U.config.colormodulation.construction_foam.R=Red
+GT5U.config.colormodulation.construction_foam.R=Czerwony
 GT5U.config.colormodulation.machine_metal=Machine Metal (Default GUI color)
 GT5U.config.colormodulation.machine_metal.B=Blue
 GT5U.config.colormodulation.machine_metal.G=Green
-GT5U.config.colormodulation.machine_metal.R=Red
+GT5U.config.colormodulation.machine_metal.R=Czerwony
 GT5U.config.interface=Interface
 GT5U.config.interface.DisplayCoverTabs=Display Cover Tabs
 GT5U.config.interface.DisplayCoverTabs.tooltip=Displays Cover Tabs on  all Gregtech machines
@@ -588,7 +596,7 @@ GT5U.config.waila.WailaAverageNS=Show average ns of multiblocks on waila
 
 # Cover tabs
 GT5U.interface.coverTabs.down=Bottom
-GT5U.interface.coverTabs.up=Top
+GT5U.interface.coverTabs.up=Góra
 GT5U.interface.coverTabs.north=North
 GT5U.interface.coverTabs.south=South
 GT5U.interface.coverTabs.west=West
@@ -1166,9 +1174,9 @@ for.bees.species.slimeball=Slimeball
 for.bees.species.peat=Peat
 for.bees.species.stickyresin=Stickyresin
 for.bees.species.coal=Coal
-for.bees.species.oil=Oil
+for.bees.species.oil=Olej
 for.bees.species.apatite=Apatite
-for.bees.species.ash=Ash
+for.bees.species.ash=Popiół
 for.bees.species.fertilizer=Fertilizer
 for.bees.species.sandwich=Sandwich
 for.bees.species.coolant=Coolant
@@ -1211,7 +1219,7 @@ for.bees.species.redgarnet=Red Garnet
 for.bees.species.yellowgarnet=Yellow Garnet
 for.bees.species.firestone=Firestone
 for.bees.species.copper=Copper
-for.bees.species.tin=Tin
+for.bees.species.tin=Cyna
 for.bees.species.lead=Lead
 for.bees.species.iron=Iron
 for.bees.species.steel=Steel
@@ -1309,6 +1317,8 @@ for.bees.species.silverfish=Silverfish
 for.mutation.condition.biomeid=Required Biome
 for.mutation.condition.dim=Required Dimension
 
+for.flowers.flaming=Fire
+
 itemGroup.GTtools=Prebuild Tools
 
 gregtech.fertilitySterile=Sterile
@@ -1322,6 +1332,7 @@ gregtech.speedAccelerated=Accelerated
 gregtech.lifeBlink=Blink
 gregtech.lifeEon=Eon
 gregtech.effectTreetwister=Treetwister
+gregtech.effectMachineBoost=Machine Booster
 
 entity.gregtech.GT_Entity_Arrow.name= a GregTech arrow
 
