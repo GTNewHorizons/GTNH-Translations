@@ -4,17 +4,17 @@ tc.research_page.RESEARCHER2.1=You have become even more efficient at performing
 tc.research_page.RESEARCHDUPE.1=You have discovered a way to copy completed research note.<BR>You can see a copy button in a research table. When you complete research or place a completed research note in the research table and as long as you are carrying paper and ink and have enough aspects available - it will become active.<BR>The more copies are created of that research, the more expensive copying it will become.
 
 # Patch to show new UI, explain about combining and researching using aspect drag & drop or right click while dragging
-tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/research/table/research-table-tutorial-schematic.png:0:0:256:227:.45</IMG>You should see all the primal aspects (and possibly some compound aspects) listed in the areas marked §l3§r with varying amounts attached to them. When you enter a world for the first time, every player is assigned a small pool of primal aspects to get them started.<BR>If you had done some exploring with
-tc.research_page.RESEARCH.7=the thaumometer beforehand then you might have a significant number of primal and compound aspects listed here.<BR>You can now start combining aspects into more complex compound aspects by simply dragging and dropping or by right clicking while dragging one aspect over the other. If successful you should see what was gained in the bottom right and it should appear in areas §l3§r.<BR>The component aspects are consumed even if the combination did not result in valid compound aspect.
-tc.research_page.RESEARCH.8=§l   §n(3) Primary Research§r<IMG>thaumcraft:textures/research/table/research-table-tutorial-filled.png:0:0:256:200:.50</IMG>You need to be carrying a set of scribing tools and paper for this step.<BR>If you open your Thaumonomicon you will see all the knowledge have and also all the knowledge that you are now able to pursue.<BR>Flashing square or round icons represent primary researches.
-tc.research_page.RESEARCH.9=If you can read their title (instead of seeing strange runes) you are simply able to click on them. Paper and ink will be consumed from your inventory and you will gain a research note. You can now take this research note to the table to start researching it by placing it in slot §l2§r.<BR>Section §l4§r will now display a sheet of paper covered in hexagonal tiles with aspect icons around the outer edge. If you see question mark icons it means you do not know that aspect yet and you will need to learn it first.<LINE> 
-tc.research_page.RESEARCH.10=To complete your research you simply need to connect and activate all the aspects. You do this by writing an aspect to a hex adjacent to it that is either composed of the target aspect, or can be combined with another aspect to form the target aspect. To write an aspect simply drag and drop or right click while dragging over hex.<IMG>thaumcraft:textures/misc/research3.png:0:0:150:80:.65</IMG>Placing an aspect consumes one research point. If you make a mistake you can click on the aspect to remove it, but you will not regain the research point.
+tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/research/table/research-table-tutorial-schematic.png:0:0:256:227:.45</IMG>§l3番§rの場所には、全ての根源相(と調査で発見した相)の研究ポイントとその所持数が表示されている。初めてワールドに入ったプレイヤーには、最低限の知識として根源相の研究ポイントが少し与えられているようだ。
+tc.research_page.RESEARCH.7=ソーモメーターでの調査をかなり進めていた場合は、多くの相が表示されていることだろう。<BR>研究テーブルでは、複数の相を組み合わせて新たな相を発見することができる。相をもう一つの相にドラッグするか、ドラッグ中に相の上で右クリックすることで、相の合成を試みることができる。合成が成功した場合、画面右下に合成した相の情報が表示され、§l3番§rの場所にも追加される。<BR>合成に使用した相は、合成の成功、失敗に関わらず消費されてしまう。
+tc.research_page.RESEARCH.8=§l       §n(3) 一次研究§r<IMG>thaumcraft:textures/research/table/research-table-tutorial-filled.png:0:0:256:200:.50</IMG>研究をするためには、紙と筆記具を用意する必要がある。<BR>ソーモノミコンを開くと、現在持っている全ての知識と、研究することができる項目が表示されていることだろう。<BR>点滅している四角形や円形の項目は、それが一次研究であることを示している。
+tc.research_page.RESEARCH.9=タイトルが(奇妙なルーン文字ではなく)読めることができる項目は、クリックすることができる。インベントリの紙と筆記具のインクを消費し、研究メモを入手できるだろう。これを研究テーブルの§l2番§rのスロットに入れることで研究を開始することができる。<BR>研究メモを入れると、§l4番§rの場所に六角形のマス目と相のアイコンが記されている1枚の紙が表示される。「？」マークは、該当する相がまだ発見されていないことを示し、研究する前にこの相を発見する必要がある。<LINE>
+tc.research_page.RESEARCH.10=研究の完了条件は、表示されている全ての相を繋ぎ合わせることだ。持っている研究ポイントをマス目にドラッグしたり、ドラッグ中にマス目の上で右クリックすることで相を書き込むことができ、相が隣接する相の構成要素に含まれている場合、相が接続される。<IMG>thaumcraft:textures/misc/research3.png:0:0:150:80:.65</IMG>相を配置すると研究ポイントが1つ消費される。誤配置した相はクリックで削除することができるが、研究ポイントは回復しない。
 
 # Hint button on the table
-researchtable.usagehint.header=How to use
-researchtable.usagehint.description=Drag & drop or drag & right-click aspects to draw and combine
+researchtable.usagehint.header=使い方
+researchtable.usagehint.description=相をドラッグアンドドロップかドラッグ中に右クリックして書き込み、合成をする
 researchtable.usagehint.research_expertise=Hold ctrl while combining to make up to 10 aspects. Works with research mastery. 
 
 # In case notes get corrupted
-tc.research.notes.corrupted.line.1=Notes corrupted!
-tc.research.notes.corrupted.line.2=Try starting from scratch.
+tc.research.notes.corrupted.line.1=メモが壊れています！
+tc.research.notes.corrupted.line.2=一からやり直してください。
