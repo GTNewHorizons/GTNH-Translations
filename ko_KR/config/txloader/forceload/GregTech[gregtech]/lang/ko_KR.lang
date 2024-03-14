@@ -19,36 +19,36 @@ GT5U.autoplace.error.no_mte.class_name=§cSuggested to place machine with class 
 # Context can be found in the class gregtech.api.util.GT_Multiblock_Tooltip_Builder
 GT5U.MBTT.MachineType=Machine Type
 GT5U.MBTT.Dimensions=Dimensions
-GT5U.MBTT.Hollow=(Hollow)
+GT5U.MBTT.Hollow=(속이 비어있는)
 GT5U.MBTT.Structure=구조물
 GT5U.MBTT.Controller=컨트롤러
-GT5U.MBTT.Minimum=(minimum)
-GT5U.MBTT.Tiered=(tiered)
-GT5U.MBTT.MaintenanceHatch=Maintenance Hatch
-GT5U.MBTT.MufflerHatch=Muffler Hatch
-GT5U.MBTT.EnergyHatch=Energy Hatch
-GT5U.MBTT.DynamoHatch=Dynamo Hatch
-GT5U.MBTT.InputBus=Input Bus
-GT5U.MBTT.InputHatch=Input Hatch
-GT5U.MBTT.OutputBus=Output Bus
-GT5U.MBTT.OutputHatch=Output Hatch
-GT5U.MBTT.Causes=Causes
-GT5U.MBTT.PPS=pollution per second
+GT5U.MBTT.Minimum=(최소한)
+GT5U.MBTT.Tiered=(등급별로)
+GT5U.MBTT.MaintenanceHatch=유지보수 해치
+GT5U.MBTT.MufflerHatch=머플러 해치
+GT5U.MBTT.EnergyHatch=에너지 해치
+GT5U.MBTT.DynamoHatch=다이나모 해치
+GT5U.MBTT.InputBus=입력 버스
+GT5U.MBTT.InputHatch=입력 해치
+GT5U.MBTT.OutputBus=출력 버스
+GT5U.MBTT.OutputHatch=출력 해치
+GT5U.MBTT.Causes= 
+GT5U.MBTT.PPS=만큼 초당 오염 발생
 GT5U.MBTT.Hold=Hold
 GT5U.MBTT.Display=to display structure guidelines
 GT5U.MBTT.StructureHint=Some blocks have multiple candidates or can use any tier
 GT5U.MBTT.Mod=Added by
-GT5U.MBTT.Air=Mandatory Air
+GT5U.MBTT.Air=필수적으로 비워둬야함
 
 GT5U.MBTT.subchannel=Uses sub channel §6%s§r§7 for §6%s
 
 GT5U.cracker.io_side=Input/Output Hatches must be on opposite sides!
 
-GT5U.turbine.running.true=Turbine running
-GT5U.turbine.running.false=Turbine stopped
-GT5U.turbine.maintenance.false=No Maintenance issues
-GT5U.turbine.maintenance.true=Needs Maintenance
-GT5U.turbine.efficiency=Current Speed
+GT5U.turbine.running.true=터빈 동작중
+GT5U.turbine.running.false=터빈 중지됨
+GT5U.turbine.maintenance.false=유지보수 문제 없음
+GT5U.turbine.maintenance.true=유지보수 필요
+GT5U.turbine.efficiency=현재 속도
 GT5U.turbine.flow=최적 유량
 GT5U.turbine.fuel=남은 연료
 GT5U.turbine.dmg=터빈의 손상
@@ -60,7 +60,7 @@ GT5U.engine.consumption=연료 소모량
 GT5U.engine.value=연료 가치
 GT5U.engine.efficiency=현재 효율
 
-GT5U.PA.machinetier=Machine tier installed
+GT5U.PA.machinetier=설치된 기계 등급
 GT5U.PA.discount=Discount
 GT5U.PA.parallel=Parallel processing
 
@@ -69,9 +69,9 @@ GT5U.LHE.superheated=Superheated
 GT5U.LHE.threshold=threshold
 
 GT5U.fusion.req=EU Required
-GT5U.fusion.plasma=Plasma Output
+GT5U.fusion.plasma=플라즈마 출력량
 
-GT5U.EBF.heat=Heat capacity
+GT5U.EBF.heat=열 용량
 GT5U.coil.None=None
 GT5U.coil.ULV=None
 GT5U.coil.LV=백동
@@ -83,11 +83,11 @@ GT5U.coil.LuV=HSS-S
 GT5U.coil.ZPM=나콰다
 GT5U.coil.UV=나콰다 합금
 GT5U.coil.UHV=트리늄
-GT5U.coil.UEV=Electrum Flux
-GT5U.coil.UIV=Awakened Draconium
+GT5U.coil.UEV=플럭스 일렉트럼
+GT5U.coil.UIV=깨어난 드라코늄
 GT5U.coil.UMV=무한
 GT5U.coil.UXV=하이포젠
-GT5U.coil.MAX=Eternal
+GT5U.coil.MAX=영원
 
 GT5U.MS.multismelting=Multi smelting
 
@@ -485,6 +485,14 @@ GT5U.gui.text.drone_operating=§aDrone operating normally!
 GT5U.gui.text.drone_title=Drone Control Centre
 GT5U.gui.text.drone_custom_name=Custom Machine Name
 GT5U.gui.text.drone_search=Search machine name
+GT5U.gui.text.out_of_fluid=§4No following fluids supplied: §b%s§f x §6%s L
+GT5U.gui.text.out_of_item=§4No following items supplied: §b%s§f x §6%s
+GT5U.gui.text.out_of_stuff=§4No following stuffs supplied: §b%s§f x §6%s
+GT5U.gui.text.power_loss=§4Shut down due to power loss.
+GT5U.gui.text.pollution_fail=§4Failed to output the pollution.
+GT5U.gui.text.structure_incomplete=§4Shut down due to incomplete structure.
+GT5U.gui.text.no_repair=§4Shut down due to machine damage.
+GT5U.gui.text.no_machine_part=No correct machine part in controller slot.
 
 GT5U.item.programmed_circuit.select.header=Reprogram Circuit
 
@@ -1309,6 +1317,8 @@ for.bees.species.silverfish=Silverfish
 for.mutation.condition.biomeid=Required Biome
 for.mutation.condition.dim=Required Dimension
 
+for.flowers.flaming=Fire
+
 itemGroup.GTtools=Prebuild Tools
 
 gregtech.fertilitySterile=Sterile
@@ -1322,6 +1332,7 @@ gregtech.speedAccelerated=Accelerated
 gregtech.lifeBlink=Blink
 gregtech.lifeEon=Eon
 gregtech.effectTreetwister=Treetwister
+gregtech.effectMachineBoost=Machine Booster
 
 entity.gregtech.GT_Entity_Arrow.name= a GregTech arrow
 

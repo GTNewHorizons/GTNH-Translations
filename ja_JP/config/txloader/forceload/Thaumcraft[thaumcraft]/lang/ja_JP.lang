@@ -77,12 +77,12 @@ entity.trunk.move=かばんをあなたに追従させます
 entity.trunk.stay=かばんをここに留まらせます
 entity.Thaumcraft.MindSpider.name=精神蜘蛛
 entity.Thaumcraft.EldritchGuardian.name=エルドリッチの守護者
-entity.Thaumcraft.EldritchWarden.name=%d%s
+entity.Thaumcraft.EldritchWarden.name=%s%d
 entity.Thaumcraft.EldritchGolem.name=%sエルドリッチ構造体
 entity.Thaumcraft.EldritchOrb.name=エルドリッチのオーブ
 entity.Thaumcraft.CultistKnight.name=紅の教団の騎士
 entity.Thaumcraft.CultistCleric.name=紅の教団の神官
-entity.Thaumcraft.CultistLeader.name=%d紅の教団のリーダー %s
+entity.Thaumcraft.CultistLeader.name=%s紅の教団のリーダー %d
 entity.Thaumcraft.CultistPortal.name=紅の教団のポータル
 entity.Thaumcraft.EldritchCrab.name=エルドリッチのカニ
 entity.Thaumcraft.InhabitedZombie.name=よろめく外皮
@@ -893,212 +893,212 @@ tc.research_page.RESEARCH.3=<IMG>thaumcraft:textures/misc/research1.png:0:0:255:
 tc.research_page.RESEARCH.4=調査したときに新たな相を発見すると、通常よりも2つ多くの研究ポイントを入手できる。<BR>物体や生物は、基本的に一度しか調査することができない。<BR>特定のものを調査すると、魔術に関する手がかりや知見を得ることができ、研究できる項目が開放されるだろう。<BR>この方法で開放した研究は、黄色いアイコンで表示される。
 tc.research_page.RESEARCH.5=§l        §n(2) 相の合成§r<BR><BR>一通り調査が終わったら、入手した研究ポイントを使用して、研究テーブルで相の合成を試みるのが良いだろう。<BR>研究テーブルは、2つの§5テーブル§0を並べて配置し、筆記具でクリックして作成することができる。テーブルのレシピは§5魔導細工§0のカテゴリに載っている。<BR>研究テーブルのインベントリを開くと、右の図のような画面が表示される。<BR>研究テーブルに使用した筆記具は§l1番§rのスロットに入っている。
 tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/misc/research2.png:0:0:128:83:1</IMG>§l3番§rの場所には、全ての根源相(と調査で発見した相)の研究ポイントとその所持数が表示されている。初めてワールドに入ったプレイヤーには、最低限の知識として根源相の研究ポイントが少し与えられているようだ。
-tc.research_page.RESEARCH.7=ソーモメーターでの調査をかなり進めていた場合は、多くの相が表示されていることだろう。<BR>研究テーブルでは、複数の相を組み合わせて新たな相を発見することができる。相をもう一つの相にドラッグして、相の合成を試みることができる。合成が成功した場合、画面右下に合成した相の情報が表示され、§l3番§rの場所にも追加される。<BR>合成に使用した相は、合成の成功、失敗に関わらず消費されてしまう。
+tc.research_page.RESEARCH.7=ソーモメーターでの調査をかなり進めていた場合は、多くの相が表示されていることだろう。<BR>研究テーブルでは、複数の相を組み合わせて新たな相を発見することができる。相をクリックするか§l4番§rのルーン文字が描かれたスロットにドラッグすると、合成する相を選択することができる。選択した相は§l4番§rの場所に表示され、相を2つ選択したあとに紫色のボタンを押すと、相の合成を試みることができる。合成が成功した場合、画面右下に合成した相の情報が表示され、§l3番§rの場所にも追加される。<BR>合成に使用した相は、合成の成功、失敗に関わらず消費されてしまう。
 tc.research_page.RESEARCH.8=§l       §n(3) 一次研究§r<IMG>thaumcraft:textures/misc/research2.png:0:88:255:158:.5</IMG>研究をするためには、紙と筆記具を用意する必要がある。<BR>ソーモノミコンを開くと、現在持っている全ての知識と、研究することができる項目が表示されていることだろう。<BR>点滅している四角形や円形の項目は、それが一次研究であることを示している。
 tc.research_page.RESEARCH.9=タイトルが(奇妙なルーン文字ではなく)読めることができる項目は、クリックすることができる。インベントリの紙と筆記具のインクを消費し、研究メモを入手できるだろう。これを研究テーブルの§l2番§rのスロットに入れることで研究を開始することができる。<BR>研究メモを入れると、§l5番§rの場所に六角形のマス目と相のアイコンが記されている1枚の紙が表示される。「？」マークは、該当する相がまだ発見されていないことを示し、研究する前にこの相を発見する必要がある。<LINE>
 tc.research_page.RESEARCH.10=研究の完了条件は、表示されている全ての相を繋ぎ合わせることだ。持っている研究ポイントをマス目にドラッグすることで相を配置することができ、相が隣接する相の構成要素に含まれている場合、相が接続される。<IMG>thaumcraft:textures/misc/research3.png:0:0:150:95:.75</IMG>相を配置すると研究ポイントが1つ消費される。誤配置した相はクリックで削除することができるが、研究ポイントは回復しない。
 tc.research_page.RESEARCH.11=最初に表示されていた相を全て接続するまで、この作業を続ける必要がある。すべての相が互いに接続されている必要はなく、全体で一繋ぎになっていれば良い。<BR>全ての相を繋ぎ合わせると研究が完了し、研究メモが研究成果に変化する。<LINE>注 : 研究の過程で相の配置や削除を行うと、筆記具のインクが消費される。筆記具のインクが無くなると、充填するまで研究を進めることができない。
 tc.research_page.RESEARCH.12=§l         §n二次研究§r<BR>六角形の項目は、それが二次研究であることを示す。一次研究と同じようにクリックすることができるが、研究メモを入手することなく、直接研究を行う。二次研究は対応する研究ポイントを消費する必要があるが、紙や筆記具を持っていなくても研究を完了させることができる。
 #
-tc.research_name.KNOWFRAG=Knowledge Fragments
-tc.research_text.KNOWFRAG=Fragments of lost lore
-tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of ancient and lost knowledge. On their own they are only worth a few research points when used, but if you gather enough of them together you might gain unique research that you can pursue. Usually the research they reveal cannot be gained through normal means.<BR>The fragments of knowledge can on occasion lead to a false theory, but this will be revealed when you attempt to research it. When this happens most of your knowledge fragments will be returned to you and it usually means you have exhausted all current avenues of research into lost knowledge.
+tc.research_name.KNOWFRAG=知識の断片
+tc.research_text.KNOWFRAG=忘れ去られた伝承の欠片
+tc.research_page.KNOWFRAG.1=探索中に、いにしえの知識の断片を発見するかもしれない。そのまま右クリックするといくつかの研究ポイントしか得ることができないが、いくつか集めることで、独自の研究成果を得ることができる可能性があるだろう。この研究成果は、基本的に通常の研究では得ることができないものだ。<BR>作成した研究成果が間違ったものである可能性もあるが、調べるとすぐにそうであると分かるだろう。間違った研究成果を使用するとほとんどの知識の断片が還元されるが、これは知識の断片から入手できる研究成果を全て入手していることを表す。
 #
-tc.research_name.ASPECTS=Aspects of Magic
-tc.research_text.ASPECTS=The building blocks of magic
-tc.research_page.ASPECTS.1=Every item, object or creature is bound by varying mystical elements known as §5aspects§0. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Terra while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 50 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
-tc.research_page.ASPECTS.2=§lPrimal Aspects§r are the most basic types of aspects and there are only 6 of them: §6Aer§0 (air), §2Terra§0 (earth), §cIgnis§0 (fire), §3Aqua§0 (Water), §7Ordo§0 (order), §8Perditio§0 (entropy).<BR>These form the basic building blocks of all other aspects.<BR>§lCompound Aspects§r are built from two other aspects. The simplest compound aspects are made from two primal aspects, but it is possible to have incredibly complex compound aspects made from successive layers of simpler aspects.<BR>The simplest example of such a compound aspect, is the aspect of Victus (life), which is a combination of §2Terra§0 and §3Aqua§0. 
-tc.research_page.ASPECTS.3=To view what aspects an item possesses, simply hover your cursor over the item and press sneak (shift), and you will see what aspects that item has and what amounts of each. You will first need to study the item however, until then the aspects will remain unknown.<LINE>Aspects that have somehow been separated from their object and purified is known as §5Vis§0 and is very valuable: both as a crafting ingredient and as a subject for magical research.<BR>Vis is most often bound into wands, but it is also possible to store it as a magical liquid. Vis stored as a liquid is known as §5Essentia§0.
+tc.research_name.ASPECTS=相について
+tc.research_text.ASPECTS=魔法の構成要素
+tc.research_page.ASPECTS.1=全てのアイテムやブロック、生物は§5相§0と呼ばれる神秘的な要素で構成されている。物体の性質によって、含まれている相の傾向が決まっているようだ。例えば、単純な石はTerraの相で構成されていることが多いが、木や生物などの複雑なものは、様々な複数の相で構成されている。相は50種類以上存在しており、現在も新たな相が発見されているという。<LINE>相は、主に§5根源相§0と§5合成相§0に分かれている。
+tc.research_page.ASPECTS.2=§l根源相§rは基本的な相で、§6Aer§0 (風)、§2Terra§0 (地)、§cIgnis§0 (火)、§3Aqua§0 (水)、§7Ordo§0 (秩序)、§8Perditio§0 (無秩序)の6種類のみ存在する。<BR>他の全ての相は、この6種類の根源相で構成されている。<BR>§l合成相§rは2つの相で構成されている相だ。最も単純な合成相は2つの根源相で構成されているが、合成相の合成相、その合成相を含む合成相...といったように、とても複雑な合成相も存在する。<BR>Victus (生命)は単純な合成相の1つで、§2Terra§0と§3Aqua§0の相で構成されている。
+tc.research_page.ASPECTS.3=一度調査したアイテムは、アイテムの上にカーソルを置いた状態でShiftを押すことで、含まれている相とその量を表示することができる。もちろん、まだ調査していないアイテムの相は不明のままだ。<LINE>何らかの方法で物体から分離、浄化された相は§5Vis§0と呼ばれており、魔術的な物質の材料や研究対象として、非常に高い価値を持っている。<BR>Visは主に杖に入れて使用するが、液体状にして保管することも可能である。この液体状のVisは§5エッセンシア§0と呼ばれている。
 #
-tc.research_name.NODES=Auras and Nodes
-tc.research_text.NODES=Magic is everywhere
-tc.research_page.NODES.1=The §5Aura§0 is a field of magical energy prevalent throughout the world. Its origin is unclear. Some believe it is the accumulated life force of living beings, while others believe it to merely be another type of energy seeping in from some other place. The last theory seems to be most likely, as the aura is often found surrounding a node of concentrated mystical energy known as an §5Aura Node§0.<BR>Each aura node has a base amount of magical energy it can contain and this energy is aligned to one or more aspects. It is usually aligned to §5Primal Aspects§0, but rarely a node may contain §5Compound Aspects§0. 
-tc.research_page.NODES.2=The aspects within an aura node can be tapped by a thaumaturge for his own purposes. The simplest way to do so is with the use of a wand.<BR>Energy that has been harvested in this manner is known as vis.<LINE>Aura nodes are hard to see with the naked eye, but faint glimmers of light often betray their presence. The §5Thaumometer§0 makes nodes slightly easier to find, as looking through its lens makes them clearly visible.<BR>§4Important:§0 Caution must be taken when draining a node. There is a small chance that when a specific type of aspect within a node is completely drained, it may 
-tc.research_page.NODES.3=disappear or harm the integrity of the node.<BR>It is possible for the node to disappear completely if all the aspects are used up.<LINE>Fortunately most nodes replenish their aspects over time and if properly maintained can provide a clever thaumaturge with all the vis he could want.<BR>Nodes react in interesting ways to other nearby nodes and bigger nodes tend to drain the vis out of their smaller neighbors to increase their own girth. 
+tc.research_name.NODES=オーラと節
+tc.research_text.NODES=この世は魔法で溢れている
+tc.research_page.NODES.1=§5オーラ§0は、この世界に広がる魔術的なエネルギーで、どのように発生しているかは不明である。生物に蓄積されている生命力であるという説や、別世界から流れ込んできたエネルギーであるという説が存在している。オーラは§5オーラ節§0と呼ばれている神秘的な節の周辺で見つかることが多いため、後者の説がより有力であるとされている。<BR>それぞれのオーラ節には一定量の魔力が蓄積されており、いくつかの相に対応している。オーラ節に含まれている相は根源相であることが多いが、稀に合成相が含まれていることもある。
+tc.research_page.NODES.2=魔術を扱う者は、オーラ節に蓄積されているエネルギーを取り出し、独自の目的のために利用できる。最も単純な利用方法は、杖に充填することだ。<BR>杖に充填されたエネルギーはVisと呼ばれる。<LINE>オーラ節は僅かに光り輝いているが、肉眼で見つけることは難しい。§5ソーモメーター§0を通せばはっきりと見えるようになるため、探しやすくなるだろう。<BR>§4重要事項 : §0オーラ節からエネルギーを充填するときは注意しなければならない。オーラ節に含まれている特定の相のエネルギーが無くなると、
+tc.research_page.NODES.3=節が消滅したり、不安定になる可能性があるからだ。<BR>全てのエネルギーが吸い尽くされると、節は完全に消滅してしまうだろう。<LINE>幸い、オーラ節のエネルギーはゆっくりと再生するため、枯渇させないように注意すれば、永久にVisの供給源として利用できるはずだ。<BR>隣接するオーラ節は互いに反応し合い、エネルギー量が多い大きな節は、更にエネルギーを蓄えるために小さな節を吸収する傾向がある。
 #
-tc.research_name.ORE=Ores
-tc.research_text.ORE=Dig deep
-tc.research_page.ORE.1=§l       §nInfused Stone§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>On occasion there is so much primal energy in an aura that it will settle into solid stone to form Infused Ore. The magic forms crystals within the rock that can be harvested.
-tc.research_page.ORE.2=These crystals have various elemental properties and have many uses in Thaumaturgy.<BR>There are six types of infused stone, one for each of the Primal Aspects.<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>They can be combined together to form crystal clusters. Crystal clusters have no special properties beyond adding a touch of class to any home. Breaking a crystal cluster causes it to shatter into its component crystals.
-tc.research_page.ORE.3=§l         §nCinnabar§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>This reddish ore is found deep underground and when smelted produces quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.ORE.4=§l           §nAmber§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>This ore is found near the surface and when mined drops chunks of amber.<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
+tc.research_name.ORE=生成される鉱石
+tc.research_text.ORE=地下深くを探る
+tc.research_page.ORE.1=§l        §n染み込んだ石§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:0:128:128:.6</IMG><BR>オーラには根源相のエネルギーが多く含まれているため、普遍的な物体である石に染み込んで、この鉱石が生成されたと言われている。採掘すると、中にできた結晶を取り出すことができるだろう。
+tc.research_page.ORE.2=この結晶は魔術的要素が強く、魔導学において欠かせないものである。<BR>結晶片は6種類あり、それぞれ一つの根源相に対応している。<BR><BR><IMG>thaumcraft:textures/misc/research3.png:0:104:96:16:1</IMG><BR>結晶片を結合させて、大きな結晶株を作成することができる。ブロックとしての結晶株は、家のインテリアにできるということ以外、特筆すべきことは無い。結晶株を破壊すると、元の結晶片に砕け散る。
+tc.research_page.ORE.3=§l           §n辰砂§r<BR><IMG>thaumcraft:textures/misc/research3.png:128:128:128:128:.6</IMG><BR>この赤みがかった鉱石は地下深くで見つけることができ、精錬すると水銀を入手できる。<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.ORE.4=§l            §n琥珀§r<BR><IMG>thaumcraft:textures/misc/research3.png:0:128:128:128:.6</IMG><BR>この鉱石は地表近くで見つけることができ、採掘すると琥珀の塊を入手できる。<BR><BR><IMG>thaumcraft:textures/items/amber.png:0:0:255:255:0.0625</IMG>
 #
-tc.research_name.PLANTS=Plants & Trees
-tc.research_text.PLANTS=Magical vegetation
-tc.research_page.PLANTS.1=§l      §nGreatwood Trees§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>These large and majestic trees can be found dotted all over the countryside.<BR>Their wood is able to absorb impressive amounts of magic making it a popular component in the crafting of magical devices.
-tc.research_page.PLANTS.2=§l     §nSilverwood Trees§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>These rare and magical trees are a wondrous sight. Their leaves shimmer with magical energy and their pale, soft wood is valued for its purifying properties.<BR>The trees magical nature is such that aura nodes often form within their hearts - this feature alone makes a silverwood sapling a prize beyond measure.
-tc.research_page.PLANTS.3=§l        §nShimmerleaf§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>The strange, glowing flowers only grow in the shadow of Silverwood Trees. They can be harvested and pulped to produce quicksilver.<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
-tc.research_page.PLANTS.4=§l        §nCinderpearl§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>Found only in the hottest of climes, these plants burn with elemental fire. They can be harvested and ground to produce a fine powder akin to Blaze powder.
-tc.research_page.PLANTS.5=§l         §nMana Pod§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>This strange, pod like plant is only found growing on trees in magical forests. They grow very slowly and when harvested usually only yield one or two beans. 
-tc.research_page.PLANTS.6=These beans, known as Mana Beans, contain concentrated amounts of essentia. They can also be consumed, though the results are often a bit unpredictable.<BR>They can be replanted, but cultivation is difficult and time-consuming.<BR>Wild mana pods usually only produce primal aspects, though it is said that planting beans adjacent to existing ones sometimes result in beans with compound aspects.<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
+tc.research_name.PLANTS=植物と木々
+tc.research_text.PLANTS=魔法の草木
+tc.research_page.PLANTS.1=§l     §nグレートウッドの木§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:128:128:128:.6</IMG><BR>この大きくて立派な木は、森などで見かけることがあるだろう。<BR>この木は魔力に対する親和性が高いため、魔導具を作る際の素材としてよく利用される。
+tc.research_page.PLANTS.2=§l    §nシルバーウッドの木§r<BR><IMG>thaumcraft:textures/misc/research4.png:0:128:128:128:.6</IMG><BR>この美しく不思議な木はなかなか見かけることができない。葉は魔力でぼんやりと光り、青白く靭やかな幹には浄化作用があると言われている。<BR>魔力が込められた木であるため、中心にオーラ節が存在するものもある。この特徴だけでも、この木を探しに行く価値は大いにあるだろう。
+tc.research_page.PLANTS.3=§l        §nシマーリーフ§r<BR><IMG>thaumcraft:textures/misc/research4.png:128:0:128:128:.6</IMG><BR>この奇妙で光る花は、シルバーウッドの根本でのみ育成する。その果肉からは水銀を抽出することができる。<BR><BR><IMG>thaumcraft:textures/items/quicksilver.png:0:0:255:255:0.0625</IMG>
+tc.research_page.PLANTS.4=§l       §nシンダーパール§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:0:128:128:.6</IMG><BR>暑い気候で育つこの植物は、魔法の力でかすかに燃え続けている。磨り潰すと、ブレイズパウダーとよく似た粉末を入手できる。
+tc.research_page.PLANTS.5=§l        §nマナビーン§r<BR><IMG>thaumcraft:textures/misc/research5.png:0:128:128:128:.6</IMG><BR><BR><BR>この奇妙な豆のような植物は、魔法の森の木に生えていることがある。成長速度が非常に遅く、完全に成長しても1、2個しか収穫することができない。
+tc.research_page.PLANTS.6=マナビーンにはエッセンシアが豊富に含まれている。そのまま食べることもできるが、体への影響は予測することができない。<BR>再び植えることで栽培できるが、難易度が高く、時間がかかってしまうだろう。<BR>自然に生えているマナビーンに含まれているのは根源相だけだが、マナビーンを隣接して植えることにより、合成相を含むマナビーンを収穫できる可能性がある。<BR><BR><BR><IMG>thaumcraft:textures/misc/research1.png:0:240:64:16:1</IMG>
 #
-tc.research_name.RESEARCHER1=Research Expertise
-tc.research_text.RESEARCHER1=Knowledge is Power
-tc.research_page.RESEARCHER1.1=You have become more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 25% chance that you will regain the research point.<BR>You are also able to see what aspects you need to combine to create an aspect you are hovering over.
+tc.research_name.RESEARCHER1=研究のノウハウ
+tc.research_text.RESEARCHER1=知識は力なり
+tc.research_page.RESEARCHER1.1=より効率的に研究を進める方法を発見した。<BR>マス目に書き込んだ相を削除すると、25%の確率で研究ポイントが還元される。<BR>また、合成相の上にカーソルを置くと、合成するのに必要な相を確認することができる。
 #
-tc.research_name.RESEARCHER2=Research Mastery
-tc.research_text.RESEARCHER2=Power is Knowledge
-tc.research_page.RESEARCHER2.1=You have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.<BR>Lastly you are able to combine aspects in the research table by shift-clicking on the aspect you wish to create. If you have enough of the component aspects they will automatically combine to create the clicked aspect.
+tc.research_name.RESEARCHER2=熟練した研究
+tc.research_text.RESEARCHER2=力は知識なり
+tc.research_page.RESEARCHER2.1=さらに効率的に研究を進めることができるようになった。<BR>マス目に書き込んだ相を削除すると、50%の確率で研究ポイントが還元される。<BR>また、相を書き込むとき、10%の確率で研究ポイントを消費しないようになった。<BR>さらに、合成相をShiftを押しながらクリックすることで、その相を合成することができるようになった。必要な研究ポイントを持っていれば、一瞬で合成相を作ることができるだろう。
 #
-tc.research_name.RESEARCHDUPE=Research Duplication
-tc.research_text.RESEARCHDUPE=Sharing is Caring
-tc.research_page.RESEARCHDUPE.1=You have discovered a way to copy completed research note.<BR>When you complete research or place a completed research note in the research table you will see a star icon. Clicking this will create a copy of this research as long as you are carrying paper and ink and have enough aspects available.<BR>The more copies are created of that research, the more expensive copying it will become.
+tc.research_name.RESEARCHDUPE=研究の複製
+tc.research_text.RESEARCHDUPE=共有は思いやり
+tc.research_page.RESEARCHDUPE.1=研究成果を簡単に複製することができるようになった。<BR>研究の完了時や、研究成果を研究テーブルに入れたとき、星型のアイコンが表示される。これをクリックすると、紙やインク、必要な研究ポイントを消費して、研究成果の複製ができる。<BR>複数回複製する場合、回数が多くなるほど複製コストが高くなる。
 #
-tc.research_name.DECONSTRUCTOR=Deconstruction table
-tc.research_text.DECONSTRUCTOR=When taking a good look just isn't enough
-tc.research_page.DECONSTRUCTOR.1=There comes a point in any thaumaturge's career where he is unable to progress with research due to his lack of knowledge. <BR>One possible recourse is the Deconstruction Table. The table allows you to break down objects into their simplest parts which you can examine. There are limits however - the table breaks compound aspects into their component aspects until only primal aspects remain. During this process much knowledge is lost and at best the thaumaturge can hope for is a single piece of primal knowledge.<BR>For example iron (Metallum) 
-tc.research_page.DECONSTRUCTOR.2=will be simplified into §2Terra§0 and §8Ordo§0, only one of which will have a chance of being discovered.<BR>It is also fairly slow and the fewer aspects and object has, the lower the chance to discover something.
+tc.research_name.DECONSTRUCTOR=分解テーブル
+tc.research_text.DECONSTRUCTOR=調査だけでは足りないときに
+tc.research_page.DECONSTRUCTOR.1=魔導師になると、己の知識不足のために研究が進まなくなってしまうことがどうしてもあるだろう。<BR>少しでも知識を得るために、分解テーブルを使用することができる。これを使うことで、物体を根源相にまで分解することができる。しかし、分解の過程で多くの相が失われ、得られるものは1つの根源相のみとなってしまう。
+tc.research_page.DECONSTRUCTOR.2=例えば、Metallumの相が含まれる鉄を分解テーブルに入れると、Metallumを構成する§2Terra§0と§8Ordo§0に分解され、そのどちらか1つのみを入手することができる。<BR>また、分解する速度は遅く、分解できる相の量が少ないほど根源相を入手できる可能性が低くなる。
 #
-tc.research_name.BASICTHAUMATURGY=Basic Wand Craft
-tc.research_text.BASICTHAUMATURGY=Your first tool
-tc.research_page.BASICTHAUMATURGY.1=The casting wand is your most basic, but also your most important tool. It is what you use to craft objects, activate blocks like the crucible, and countless other tasks.<BR>The most basic wand stores a very limited amount of magical energy (called vis) that it uses to perform its tasks. The replenish the energy in a wand, you must right-click and hold to draw vis from an aura node.<BR>While holding a wand you will see a indicator on the top left of the screen that shows how much vis is stored within the wand.
-tc.research_page.BASICTHAUMATURGY.2=Holding shift will display exact numbers held by the wand and any possible discounts you have to performing magical tasks.<BR>Wands are always constructed by the combination of a rod and two end-caps. As you progress with your studies, you are sure you will discover different materials that you can use to craft rods and caps to make powerful wands. Only the basic wand can be put together in a normal crafting table. All other wands require the §5Arcane Workbench§0 and will cost vis to construct.<BR>The basic wand is constructed from mundane wood and iron, both of which make poor materials for working magic.
+tc.research_name.BASICTHAUMATURGY=簡易的な杖の作成
+tc.research_text.BASICTHAUMATURGY=最初の魔導具
+tc.research_page.BASICTHAUMATURGY.1=杖は最も基礎的で、最も重要な魔導具である。魔法のアイテムの作成や、るつぼなどのブロックの操作など、杖でできることは多岐に渡る。<BR>杖は、魔術に利用するために限られた量の魔力(Visと呼ばれる)を蓄えることができる。オーラ節に杖で右クリックすれば、杖にVisを充填することができるだろう。<BR>杖を持っている間は、画面の左上に杖に充填されているVisの量が表示される。
+tc.research_page.BASICTHAUMATURGY.2=杖にカーソルを置いてShiftを押すと、杖に含まれるVisの数値と、Visを使用する際の軽減量が表示される。<BR>杖を作成するには、1つの杖身と2つの石突が必要になる。研究を進めていくと、より強力な杖身、石突を作成できる素材を見つけることができるだろう。通常の作業台で作成できるのは簡易的な杖だけで、基本的に杖の作成には§5神秘の作業台§0が必要になり、作成時に一定量のVisを消費することになる。<BR>簡易的な杖は木材と鉄で作ることができるが、どちらも魔術を扱うことには向いていない素材だ。
 #
-tc.research_name.GRATE=Item Grate
-tc.research_text.GRATE=Let the good things in
-tc.research_page.GRATE.1=The item grate allows you to toggle it open or close it with your hand, or with a redstone signal. If in the open position, any dropped items will simply fall right through it.<BR>Items can also be piped into the top of an item grate using a hopper or other means and if open, it will be ejected out the bottom.
+tc.research_name.GRATE=格子
+tc.research_text.GRATE=欲しい物だけ通そう
+tc.research_page.GRATE.1=格子は、ドアのように手で開いたり、レッドストーン信号で動作させることができる。格子が開いている場合、格子の上にあるアイテムはすり抜けて下に落ちる。<BR>また、ホッパー等で格子の上側にアイテムを搬入することができ、搬入されたアイテムは下にドロップする。
 #
-tc.research_name.NODETAPPER1=Advanced Node Tapping
-tc.research_text.NODETAPPER1=Taking it all
-tc.research_page.NODETAPPER1.1=Usually the process of drawing vis from a node with a wand is quite slow... but not anymore.<BR>You have discovered a more efficient way of tapping into aura nodes, resulting in a doubling of the vis draw rate.
+tc.research_name.NODETAPPER1=より良い節吸収
+tc.research_text.NODETAPPER1=全部吸っちゃえ
+tc.research_page.NODETAPPER1.1=今までは、オーラ節から杖にVisを充填する作業に時間がかかっていた...<BR>しかし、この研究で効率良く充填する術を発見し、2倍の速度で充填できるようになった。
 #
-tc.research_name.NODETAPPER2=Master Node Tapping
-tc.research_text.NODETAPPER2=All your vis are belong to us
-tc.research_page.NODETAPPER2.1=You have added further refinements to the methods you use to tap aura nodes.<BR>You are now able to draw vis three times faster than normal.
+tc.research_name.NODETAPPER2=さらに良い節吸収
+tc.research_text.NODETAPPER2=お前のVis全部俺はもらう
+tc.research_page.NODETAPPER2.1=オーラ節から杖に充填する時の、更に効率の良いやり方を発見した。<BR>今や、元々の3倍の速度でVisを充填できる。
 #
-tc.research_name.NODEPRESERVE=Node Preserver
-tc.research_text.NODEPRESERVE=Saving some for later
-tc.research_page.NODEPRESERVE=You now have better control over the amount of vis you draw from nodes. You will always leave at least one vis of each aspect in the node, unless you are sneaking.<BR>Be warned, this level of control is not possible when using wands crafted from normal wood and iron.
+tc.research_name.NODEPRESERVE=節の保護
+tc.research_text.NODEPRESERVE=後々のためにとっておく
+tc.research_page.NODEPRESERVE=相から充填するときの精度が上がった。Shiftを押していないときは、相を枯渇させないようにVisを少し残しておくことができる。<BR>ただし、木と鉄で作られた杖では制御が難しく、今まで通り吸い取り尽くしてしまうだろう。
 #
-tc.research_name.THAUMOMETER=Thaumometer
-tc.research_text.THAUMOMETER=Measuring Magic
-tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to hold the right mouse button and wait.<BR>Secondly it makes discovering nodes easier, as they become clearly visible if viewed through the Thaumometer's lens - even through solid objects! 
+tc.research_name.THAUMOMETER=ソーモメーター
+tc.research_text.THAUMOMETER=魔法の測定器
+tc.research_page.THAUMOMETER.1=ソーモメーターは、魔導師が使用する道具の中で杖の次に重要な装置だ。<BR>これを持って右クリックを長押しして物体や生物を調査し、対象に含まれている相を見ることができる。<BR>また、オーラ節はソーモメーターのレンズを通して見ると、ブロックで遮られていたとしてもはっきりと確認することができるため、節を探すときは持っておいたほうが良いだろう。
 #
-tc.research_name.GOGGLES=Goggles of Revealing
-tc.research_text.GOGGLES=Seeing the Unseen
-tc.research_page.GOGGLES.1=Building on the basic principles of the Thaumometer, you have begun refining its ability to detect magic into something more... revealing.<BR>This set of mystical lenses will make aura nodes much easier to find along with revealing all manner of hidden things.<BR>They form an important tool in any Thaumaturgist's arsenal.
+tc.research_name.GOGGLES=洞察の眼鏡
+tc.research_text.GOGGLES=見えざるものを見る
+tc.research_page.GOGGLES.1=ソーモメーターの原理を応用して、より洞察に特化したものを作ることに成功した。<BR>この神秘的なレンズを通して、オーラ節や、その他の隠された魔術的要素が明らかになるだろう。<BR>これは、魔導師の必需品の1つであると言われているそうだ。
 #
-tc.research_name.THAUMIUM=Magical Metallurgy
-tc.research_text.THAUMIUM=Where metals meet magic
-tc.research_page.THAUMIUM.1=Metals have proven to be quite easy to manipulate via thaumaturgical principles. Your first experiments have led to discovery of Thaumium.<BR>Thaumium is the result of infusing base metals with raw magical energy. The result is a metal harder than iron with the ability to accept enchantments beyond that which iron is normally capable of.<BR>A metal such as this has many applications in the crafting of more advanced thaumaturgical devices.<BR>It can also be used to craft tools, arms and armor in a crafting table using the normal recipes.
+tc.research_name.THAUMIUM=魔法の冶金学
+tc.research_text.THAUMIUM=金属が魔法と出会うとき
+tc.research_page.THAUMIUM.1=金属は、魔導学に基づいて簡単に加工することができることが証明されている。自分で実験してみたら、この魔導金属を発見ことができた。<BR>魔導金属は、卑金属に魔力を注入することで入手することができる。魔術の力により、鉄より丈夫で、エンチャント適性も高い金属となっている。<BR>この金属は、高度な魔導具、装置の作成によく使用されるだろう。<BR>また、他の金属と同様にツールや武器、鎧を作成することもできる。
 #
-tc.research_name.NITOR=Nitor
-tc.research_text.NITOR=Mystical Flame
-tc.research_page.NITOR.1=This flame seems to be fuelled by magic itself. The number of uses for an ever burning flame seems endless, but unfortunately it seems to produce much more light than heat. Despite that it could still prove to be a steady source of energy.<BR>Nitor can also be placed in the world to act as a magical light source.
+tc.research_name.NITOR=ニトロ
+tc.research_text.NITOR=神秘的な炎
+tc.research_page.NITOR.1=この炎は、魔法の力で燃え続けているようだ。永久に燃え続ける炎と言うといくつもの使い道が思いつくだろうが、残念ながら、これを炎と呼ぶには火力が無さすぎる。しかし、恒久的なエネルギー源であるということに変わりない。<BR>このニトロは、魔法の光源としても使用することができる。
 #
-tc.research_name.ALUMENTUM=Alumentum
-tc.research_text.ALUMENTUM=Mystical Energy Source
-tc.research_page.ALUMENTUM.1=This substance throbs with fiery energy and it is more than eager to release that energy at the slightest bump. It may be unstable, but it would probably make a good source of fuel.<BR>It is probably not a good idea to throw it against a solid surface unless you enjoy explosions.
+tc.research_name.ALUMENTUM=アルメンタム
+tc.research_text.ALUMENTUM=神秘的な燃料
+tc.research_page.ALUMENTUM.1=この物質は爆発的なエネルギーを秘めており、少し衝撃を与えただけでエネルギーの一部を放出してしまう。このように不安定ではあるが、よく燃える燃料として利用することができるだろう。<BR>爆発を好む人でない限り、投げつけたりして乱暴に扱うようなことはしないほうが良い。
 #
-tc.research_name.HUNGRYCHEST=Hungry Chest
-tc.research_text.HUNGRYCHEST=A chest that doesn't wait to be opened
-tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
+tc.research_name.HUNGRYCHEST=はらぺこチェスト
+tc.research_text.HUNGRYCHEST=餌やりの時間を待てないチェスト
+tc.research_page.HUNGRYCHEST.1=はらぺこチェストに触れるほど近くにアイテムが落ちた場合、それは食われるように収納されるだろう。
 #
-tc.research_name.CAP_gold=Gold Wand Caps
-tc.research_text.CAP_gold=Capping things off with style
-tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and wands capped with this material takes no penalty when used to channel vis.
+tc.research_name.CAP_gold=金の石突
+tc.research_text.CAP_gold=おしゃれなキャップ
+tc.research_page.CAP_gold.1=金は、石突の素材としては鉄よりも優れており、これが付けられた杖は余分にVisを消費することは無いだろう。
 #
-tc.research_name.CAP_thaumium=Thaumium Wand Caps
-tc.research_text.CAP_thaumium=Magical wand caps
-tc.research_page.CAP_thaumium.1=Thaumium is known for its ability to store and absorb magic, so using it to craft wand caps is a logical choice. It is very efficient at focusing vis of all types.<BR>Crafting these wand caps in an arcane worktable is not sufficient - they need to be infused with additional magical energy to make them usable.
+tc.research_name.CAP_thaumium=魔導金属の石突
+tc.research_text.CAP_thaumium=魔術的なキャップ
+tc.research_page.CAP_thaumium.1=魔導金属は魔法を吸収し、蓄えることに長けているため、石突を作成するのにふさわしい素材である。これは全ての種類のVisと相性が良い。<BR>ただし、神秘の作業台でのクラフトだけでは不十分で、使用するためにはさらに魔力を注入しなければならない。
 #
-tc.research_name.CAP_silver=Silver Wand Caps
-tc.research_text.CAP_silver=Capping things off with a little less style
-tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as a wand cap, but it slightly more efficient at channeling the four elemental primals (fire, earth, air and water).<BR>Crafting these wand caps in an arcane worktable is not sufficient - they need to be infused with additional magical energy to make them usable.
+tc.research_name.CAP_silver=銀の石突
+tc.research_text.CAP_silver=ちょっとおしゃれなキャップ
+tc.research_page.CAP_silver.1=銀は、石突にすると金と同等の性能を見せるが、4種類のVis(fire、earth、air、water)との相性が特に良いようだ。<BR>ただし、神秘の作業台でのクラフトだけでは不十分で、使用するためにはさらに魔力を注入しなければならない。
 #
-tc.research_name.CAP_copper=Copper Wand Caps
-tc.research_text.CAP_copper=When iron caps just won't cut it
-tc.research_page.CAP_copper.1=Copper has similar properties to iron when used as a wand cap, but is as efficient as gold when used to channel §7Ordo§0 or §8Perditio§0 vis.
+tc.research_name.CAP_copper=銅の石突
+tc.research_text.CAP_copper=鉄の石突では不十分な場合
+tc.research_page.CAP_copper.1=銀は、石突にすると鉄と同等の性能を見せるが、§7Ordo§0と§8Perditio§0のVisのみ金と同じ性能で扱うことができる。
 #
-tc.research_name.ROD_greatwood=Greatwood Wand Core
-tc.research_text.ROD_greatwood=Repository of magical energy
-tc.research_page.ROD_greatwood.1=Carved from greatwood logs, this rod has double the vis storage potential of mundane wood, being able to store up to 50 vis of each type.
+tc.research_name.ROD_greatwood=グレートウッドの杖身
+tc.research_text.ROD_greatwood=魔力の貯蔵庫
+tc.research_page.ROD_greatwood.1=グレートウッドの原木を加工して作ったこの杖身は、普通の木材の2倍、つまり50Visを溜めておくことができる。
 #
-tc.research_name.ROD_silverwood=Silverwood Wand Core
-tc.research_text.ROD_silverwood=Magical to the core
-tc.research_page.ROD_silverwood.1=Silverwood has proved to be an excellent repository of magical energy, and wand cores crafted from it can store up to 100 vis of each type.
+tc.research_name.ROD_silverwood=シルバーウッドの杖身
+tc.research_text.ROD_silverwood=最後まで魔力たっぷり
+tc.research_page.ROD_silverwood.1=シルバーウッドはより多くの魔力を溜めておくことができ、杖身にした場合は100Visの貯蔵量を誇る。
 #
-tc.research_name.SCEPTRE=Crafting Scepters
-tc.research_text.SCEPTRE=Made to task
-tc.research_page.SCEPTRE.1=Crafting scepters are specialized wands made to be used to craft mystical objects and nothing else. Foci cannot be attached to them, but they have several features that still make them worthwhile using.<BR>Firstly, they have an additional 10% vis discount above and beyond what their caps would normally grant.<BR>Secondly they are able to hold 50% more vis than their cores would normally allow.<BR>Like other wands they can be crafted using most combinations of rods and caps - just a few examples are given on the next page.
+tc.research_name.SCEPTRE=クラフト用錫杖
+tc.research_text.SCEPTRE=専門業者
+tc.research_page.SCEPTRE.1=錫杖は、魔導具の作成に特化した杖である。杖星を装着することができない代わりに、通常の杖より優れている点がいくつかある。<BR>この杖を使用することで、石突が提供するものとは別に10%Vis消費を軽減できる。<BR>さらに、同じ素材で作成した通常の杖よりも、50%多くのVisを溜めておくことができる。<BR>通常の杖と同様に、杖身と石突の組み合わせで作成することができる。次のページにその一例を載せておく。
 #
-tc.research_name.ROD_obsidian=Obsidian Wand Core
-tc.research_text.ROD_obsidian=Earthen vis storage
-tc.research_page.ROD_obsidian.1=A wand core chiseled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, it will slowly replenish without the use of a node.
+tc.research_name.ROD_obsidian=黒曜石の杖身
+tc.research_text.ROD_obsidian=地のVis貯蔵庫
+tc.research_page.ROD_obsidian.1=黒曜石を加工してできた杖身は、グレートウッドの杖身よりも多くのVisを蓄えることができる。また、§2Terra§0のVisが容量の10%を下回った場合、そのVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_bone=Bone Wand Core
-tc.research_text.ROD_bone=Entropic vis storage
-tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, it will slowly replenish without the use of a node.
+tc.research_name.ROD_bone=骨の杖身
+tc.research_text.ROD_bone=無秩序のVis貯蔵庫
+tc.research_page.ROD_bone.1=骨を削り出してできた杖身は、グレートウッドの杖身よりも多くのVisを蓄えることができる。また、§8Perditio§0のVisが容量の10%を下回った場合、そのVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_blaze=Blaze Rod Wand Core
-tc.research_text.ROD_blaze=Fiery vis storage
-tc.research_page.ROD_blaze.1=Blaze rods used as wand cores has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §cIgnis§0 stored inside it drops below 10%, its fiery nature will slowly replenish it.
+tc.research_name.ROD_blaze=ブレイズロッドの杖身
+tc.research_text.ROD_blaze=火のVis貯蔵庫
+tc.research_page.ROD_blaze.1=ブレイズロッドから作られた杖身は、グレートウッドの杖身よりも多くのVisを蓄えることができる。また、§cIgnis§0のVisが容量の10%を下回った場合、ブレイズロッドの熱によりそのVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_ice=Icy Wand Core
-tc.research_text.ROD_ice=Icy vis storage
-tc.research_page.ROD_ice.1=Wand cores crafted from ice can store slightly more vis than greatwood cores. What makes it superior to greatwood cores however is that if the level of §3Aqua§0 stored inside it drops below 10%, its icy nature will slowly replenish it.
+tc.research_name.ROD_ice=氷の杖身
+tc.research_text.ROD_ice=水のVis貯蔵庫
+tc.research_page.ROD_ice.1=氷を彫刻してできた杖身は、グレートウッドの杖身よりも多くのVisを蓄えることができる。また、§3Aqua§0のVisが容量の10%を下回った場合、吸熱作用によりそのVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_quartz=Quartz Wand Core
-tc.research_text.ROD_quartz=Ordered vis storage
-tc.research_page.ROD_quartz.1=A wand core chiseled from nether quartz has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §7Ordo§0 stored inside it drops below 10%, it will slowly replenish without the use of a node.
+tc.research_name.ROD_quartz=クォーツの杖身
+tc.research_text.ROD_quartz=秩序のVis貯蔵庫
+tc.research_page.ROD_quartz.1=ネザークォーツ製の杖身は、グレートウッドの杖身よりも多くのVisを蓄えることができる。また、§7Ordo§0のVisが容量の10%を下回った場合、そのVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_reed=Reed Wand Core
-tc.research_text.ROD_reed=Airy vis storage
-tc.research_page.ROD_reed.1=A wand core made from reeds has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §6Aer§0 stored inside it drops below 10%, it will slowly replenish without the use of a node.
+tc.research_name.ROD_reed=サトウキビの杖身
+tc.research_text.ROD_reed=風のVis貯蔵庫
+tc.research_page.ROD_reed.1=サトウキビを束ねてできた杖身は、グレートウッドの杖身よりも多くのVisを蓄えることができる。また、§6Aer§0のVisが容量の10%を下回った場合、そのVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_greatwood_staff=Magic Staves
-tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
-tc.research_page.ROD_greatwood_staff.1=Wands are the stock and trade of the thaumaturge, but sometimes you want more bang for your buck. Magical staves are basically just bigger wands. They are able to store more vis.<BR>Since they are physically larger and sturdier than a wand, they can actually be used as weapons in an emergency.<BR>Unfortunately this also makes it unsuitable for the intricate workmanship and fine control required by an arcane workbench or similar crafting.
-tc.research_page.ROD_greatwood_staff.2=A staff made from greatwood has more than double the vis storage potential of a greatwood wand, being able to store up to 125 vis of each type.<BR>Note: You still need to add caps to a stave rod, just like you would for a wand.
+tc.research_name.ROD_greatwood_staff=魔術用上級杖
+tc.research_text.ROD_greatwood_staff=ちゃんとした持ち手が付いている杖
+tc.research_page.ROD_greatwood_staff.1=杖は魔導師の武器としても使用することができるが、通常の杖では容量が足りず、もっと景気良く使いたいと感じたことがあるはずだ。上級杖はただの大きな杖に見えるかもしれないが、Vis貯蔵量が従来よりも大幅に増加している。<BR>この杖は大きくて丈夫なため、近接武器としても使用することができるだろう。<BR>ただし、繊細な魔力操作には向かないため、神秘の作業台などで使用することはできない。
+tc.research_page.ROD_greatwood_staff.2=グレートウッドの上級杖身は、同じ素材で作成した通常の杖身の2倍以上、125Visを溜めておくことができる。<BR>注 : 上級杖身は通常の杖身と同じく、石突を付けなければ杖として使用できない。
 #
-tc.research_name.ROD_silverwood_staff=Silverwood Staff Core
-tc.research_text.ROD_silverwood_staff=Magical to the core
-tc.research_page.ROD_silverwood_staff.1=Staff cores crafted from silverwood can store up to 250 vis of each type.
+tc.research_name.ROD_silverwood_staff=シルバーウッドの上級杖身
+tc.research_text.ROD_silverwood_staff=最後まで魔力たっぷり
+tc.research_page.ROD_silverwood_staff.1=シルバーウッドで作られた上級杖身は、250Visの貯蔵量を誇る。
 #
-tc.research_name.ROD_obsidian_staff=Obsidian Staff Core
-tc.research_text.ROD_obsidian_staff=Earthen vis storage
-tc.research_page.ROD_obsidian_staff.1=A staff core chiseled from obsidian can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_name.ROD_obsidian_staff=黒曜石の上級杖身
+tc.research_text.ROD_obsidian_staff=地のVis貯蔵庫
+tc.research_page.ROD_obsidian_staff.1=黒曜石を加工してできた上級杖身は、175Visを溜めることができる。<BR>通常の杖身と同様、対応したVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_bone_staff=Bone Staff Core
-tc.research_text.ROD_bone_staff=Entropic vis storage
-tc.research_page.ROD_bone_staff.1=A staff core carved from bone can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_name.ROD_bone_staff=骨の上級杖身
+tc.research_text.ROD_bone_staff=無秩序のVis貯蔵庫
+tc.research_page.ROD_bone_staff.1=骨を削り出してできた上級杖身は、175Visを溜めることができる。<BR>通常の杖身と同様、対応したVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_blaze_staff=Blaze Rod Staff Core
-tc.research_text.ROD_blaze_staff=Fiery vis storage
-tc.research_page.ROD_blaze_staff.1=A staff core crafted from blaze rods can store 175 vis of each type.
+tc.research_name.ROD_blaze_staff=ブレイズロッドの上級杖身
+tc.research_text.ROD_blaze_staff=火のVis貯蔵庫
+tc.research_page.ROD_blaze_staff.1=ブレイズロッドから作られた上級杖身は、175Visを溜めることができる。<BR>通常の杖身と同様、対応したVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_ice_staff=Icy Staff Core
-tc.research_text.ROD_ice_staff=Icy vis storage
-tc.research_page.ROD_ice_staff.1=A staff core crafted from ice can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_name.ROD_ice_staff=氷の上級杖身
+tc.research_text.ROD_ice_staff=水のVis貯蔵庫
+tc.research_page.ROD_ice_staff.1=氷を彫刻してできた上級杖身は、175Visを溜めることができる。<BR>通常の杖身と同様、対応したVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_quartz_staff=Quartz Staff Core
-tc.research_text.ROD_quartz_staff=Ordered vis storage
-tc.research_page.ROD_quartz_staff.1=A staff core chiseled from quartz can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_name.ROD_quartz_staff=クォーツの上級杖身
+tc.research_text.ROD_quartz_staff=秩序のVis貯蔵庫
+tc.research_page.ROD_quartz_staff.1=ネザークォーツ製の上級杖身は、175Visを溜めることができる。<BR>通常の杖身と同様、対応したVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_reed_staff=Reed Staff Core
-tc.research_text.ROD_reed_staff=Airy vis storage
-tc.research_page.ROD_reed_staff.1=A staff core crafted from reeds can store 175 vis of each type.<BR>Like the wand core it will slowly replenish its vis stores.
+tc.research_name.ROD_reed_staff=サトウキビの上級杖身
+tc.research_text.ROD_reed_staff=風のVis貯蔵庫
+tc.research_page.ROD_reed_staff.1=サトウキビを束ねてできた上級杖身は、175Visを溜めることができる。<BR>通常の杖身と同様、対応したVisがゆっくりと自然回復する。
 #
-tc.research_name.ROD_primal_staff=Staff Core of the Primal
-tc.research_text.ROD_primal_staff=Elemental power combined
-tc.research_page.ROD_primal_staff.1=This core pulses with latent energy.<BR>It combines all the features off the lesser stave cores - it has the vis storage capacity of the silverwood core and is able to replenish its vis stores like the various primal wand cores.<BR>Lastly it adds one level of potency to any foci used with it.<BR>This is truly a potent tool in any thaumaturge's arsenal.<BR>Note: You still need to add caps to this stave rod, just like you would for a wand.
+tc.research_name.ROD_primal_staff=根源の上級杖身
+tc.research_text.ROD_primal_staff=各相の力を一つに
+tc.research_page.ROD_primal_staff.1=この杖身は魔力で脈動しているようだ。<BR>作成に使用した全ての杖の性能を引き継いでいるため、シルバーウッドと同等のVis貯蔵量と、全ての種類のVisの自然回復能力を兼ね備えている。<BR>さらに、装着した杖星に1レベルの潜在能力アップグレードが適用される。<BR>これは、現存する杖身の中で最も強力なものだと言えるだろう。<BR>注 : 通常の杖身と同じく、石突を付けなければ杖として使用できない。
 #
-tc.research_name.FOCUSFIRE=Wand Foci
-tc.research_text.FOCUSFIRE=Form meets Function
-tc.research_page.FOCUSFIRE.1=Some careful experimentation has shown you a way to expand the abilities of even the most basic wand.<BR>By combining crystalline vis shards with quartz crystals and infusing them with magic, you are able to align the crystals into a mystical matrix.<BR>If the proper types and amounts of vis is focused through this matrix, it will reshape the raw magical energies into something useful, controlled, and geared to a specific task. 
-tc.research_page.FOCUSFIRE.2=Adding a focus to your wand is a simple task - simply press F while holding the wand, and any foci you a carrying will show up in a radial menu allowing you to choose from any of the ones you are carrying with a simple click.<LINE>Your initial experiments involved the shaping of fire, and the resulting focus proved to be a simple, but useful tool.<BR>It is capable of sending forth a cone of elemental fire, burning all in its wake.
+tc.research_name.FOCUSFIRE=最初の杖星
+tc.research_text.FOCUSFIRE=形態と機能の融合
+tc.research_page.FOCUSFIRE.1=度重なる実験の結果、杖の能力を外部から拡張する方法を発見した。<BR>根源相の結晶片とクォーツを組み合わせて魔力を注入することによって、根源相ごとに決まった構造の結晶になる。<BR>この結晶を通して特定の種類、量のVisを放出すると、構造によってVisが増幅され、一般的に魔法と呼ばれる能力を行使することができる。能力は結晶に含まれる根源相によって変化するようだ。
+tc.research_page.FOCUSFIRE.2=杖星を杖に取り付けるのは簡単だ。杖を持った状態でFキーを押すと、所持している杖星が円形に表示され、装着したい杖星をクリックして選択することができる。<LINE>最初に作成した杖星には火の結晶を使用したが、これはシンプルで使いやすい能力を発揮した。<BR>これを使用すると前方に炎を撃ち出し、当たったものを焼き尽くすことができる。
 #
-tc.research_name.FOCUSFROST=Wand Focus: Frost
-tc.research_text.FOCUSFROST=Revenge is a dish best served cold
-tc.research_page.FOCUSFROST.1=This focus is capable of hurling chunks of ice.<BR>Care must be taken when aiming, as the ice chunks tend to bounce off solid objects. This can be used to your advantage however as you can bounce the shards around corners, or even hit multiple foes. 
+tc.research_name.FOCUSFROST=氷の杖星
+tc.research_text.FOCUSFROST=復習は冷めきった頃に
+tc.research_page.FOCUSFROST.1=この杖星を使用すると氷片を投げつけることができる<BR>氷片は、硬い壁などに当たると跳ね返るため、狙うときは注意しなければならない。しかしこの性質を利用することで、1つの氷片を複数回当てることもできるだろう。
 #
-tc.research_name.FOCUSSHOCK=Wand Focus: Shock
-tc.research_text.FOCUSSHOCK=Thunder and Lightning
-tc.research_page.FOCUSSHOCK.1=This focus is capable of focusing elemental energy into bolts of lightning that you can hurl at your enemies.
+tc.research_name.FOCUSSHOCK=衝撃の杖星
+tc.research_text.FOCUSSHOCK=雷のように激しく
+tc.research_page.FOCUSSHOCK.1=この杖星を使用すると、魔力を稲妻に変換して敵に撃ち出すことができる。
 #
-tc.research_name.FOCUSEXCAVATION=Wand Focus: Excavation
-tc.research_text.FOCUSEXCAVATION=Terra Terror
-tc.research_page.FOCUSEXCAVATION.1=This focus turns your wand into a tool capable of moving vast amounts of earth and stone with little effort.<BR>Simply point it at what you want to excavate and the magic does the rest. Tougher materials take longer to mine, and anything other than earth, stone or similar materials will take much longer to mine.
+tc.research_name.FOCUSEXCAVATION=発掘の杖星
+tc.research_text.FOCUSEXCAVATION=大地を大事に
+tc.research_page.FOCUSEXCAVATION.1=この杖星を使用することで、ほとんど体を動かさずに地面や岩を掘り進むことができる。<BR>採掘したいものに杖を向けるだけで、後は全部魔法に任せれば良い。硬いものほど採掘に時間がかかり、土や石のようなもの以外を破壊する場合は更に時間がかかってしまうだろう。
 #
 tc.research_name.FOCUSTRADE=Wand Focus: Equal Trade
 tc.research_text.FOCUSTRADE=This for That

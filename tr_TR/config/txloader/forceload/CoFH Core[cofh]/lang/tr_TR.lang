@@ -165,42 +165,42 @@ info.cofh.command.tpx.dimensionOtherToSelf=Başarıyla %s'i %2$s'deki %3$.2f %4$
 info.cofh.command.reloadworldgen.success=Başarıyla dünya oluşumları yeniden yüklendi.
 
 info.cofh.command.replaceblocks.failure=Yerine koyulacak blok yok.
-info.cofh.command.replaceblocks.start=Replacing %s blocks from %s:%s:%s to %s:%s:%s with %s.
-info.cofh.command.replaceblocks.success=Successfully replaced %s blocks from %s:%s:%s to %s:%s:%s with %s.
+info.cofh.command.replaceblocks.start=s:%s:%s:%s ile %s:%s:%s arasındaki %s bloklar %s ile değiştiriliyor.
+info.cofh.command.replaceblocks.success=Başarılıyla %s:%s:%s'den %s:%s:%s'e %s blokları %s ile değiştirildi.
 
-info.cofh.command.clearblocks.failure=No blocks to clear.
-info.cofh.command.clearblocks.start=Clearing %s blocks from %s:%s:%s to %s:%s:%s.
-info.cofh.command.clearblocks.success=Successfully cleared %s blocks from %s:%s:%s to %s:%s:%s.
+info.cofh.command.clearblocks.failure=Temizlenecek blok yok.
+info.cofh.command.clearblocks.start=s:%s:%s:%s'den %s:%s:%s:%s'ye kadar %s blokları temizleniyor.
+info.cofh.command.clearblocks.success=Başarıyla %s:%s:%s'den %s:%s:%s'ye %s blokları temizlendi.
 
-info.cofh.command.countblocks.failure=No blocks exist in the area.
-info.cofh.command.countblocks.start=Counting %s blocks from %s:%s:%s to %s:%s:%s.
-info.cofh.command.countblocks.success=Found %s blocks from %s:%s:%s to %s:%s:%s.
+info.cofh.command.countblocks.failure=Bölgede hiç blok yok.
+info.cofh.command.countblocks.start=s:%s:%s:%s'den %s:%s:%s:%s'e kadar %s blokları sayılıyor.
+info.cofh.command.countblocks.success=s:%s:%s:%s'den %s:%s:%s:%s'e kadar %s blok bulundu.
 
-info.cofh.command.pregen.start=Pre-generating %s chunks from %s:%s to %s:%s.
+info.cofh.command.pregen.start=s:%s'den %s:%s'ye kadar %s yığınları önceden oluşturuluyor.
 
-info.cofh.command.unloadchunk.success=Unloading Chunk at %s:%s
+info.cofh.command.unloadchunk.success=Yığın %s:%s'de Boşaltılıyor
 
-info.cofh.updater.download=Download
-info.cofh.updater.tooltip=Click to download the latest version
-info.cofh.updater.version=A new version is available
+info.cofh.updater.download=İndir
+info.cofh.updater.tooltip=Son sürümü indirmek için tıkla
+info.cofh.updater.version=Yeni sürüm mevcut
 
-info.cofh.tutorial.fluxRequired=Requires Redstone Flux to operate.
-info.cofh.tutorial.tabAugment=The Augment tab allows for modular additions.
-info.cofh.tutorial.tabConfiguration.0=The Configuration tab determines how items enter and leave this device.
-info.cofh.tutorial.tabConfiguration.1=The Configuration tab determines how energy is transferred to and from this device.
-info.cofh.tutorial.tabConfiguration.2=The Configuration tab determines the operation modes for this device.
-info.cofh.tutorial.tabRedstone=The Redstone Control tab configures how this device reacts to redstone signals.
-info.cofh.tutorial.tabSecurity=The Security tab allows the owner to control who can access this device.
+info.cofh.tutorial.fluxRequired=Çalışmak için Redstone Flux gerekli.
+info.cofh.tutorial.tabAugment=Yükseltme sekmesi modüler eklemelere olanak tanır.
+info.cofh.tutorial.tabConfiguration.0=Yapılandırma sekmesi eşyaların bu cihaza nasıl girip çıkacağını belirler.
+info.cofh.tutorial.tabConfiguration.1=Yapılandırma sekmesi, enerjinin bu cihaza ve bu cihazdan nasıl aktarılacağını belirler.
+info.cofh.tutorial.tabConfiguration.2=Yapılandırma sekmesi bu cihaz için çalışma modlarını belirler.
+info.cofh.tutorial.tabRedstone=Kızıltaş Ayarı sekmesi bu cihazın Kızıltaş sinyallerine nasıl tepki vereceğini yapılandırır.
+info.cofh.tutorial.tabSecurity=Güvenlik sekmesi, cihaz sahibinin bu cihaza kimlerin erişebileceğini kontrol etmesini sağlar.
 
-item.invalid.name=Invalid Item (Destroy)
+item.invalid.name=Geçersiz Eşya (Yok Et)
 
-key.cofh.category=CoFH Keys
-key.cofh.empower=Empower/Quell Item
-key.cofh.multimode=Cycle Item Mode
-key.cofh.augments=Open Player Augment GUI
+key.cofh.category=CoFH Tuşları
+key.cofh.empower=Güçlendirme/Bastırma Eşyası
+key.cofh.multimode=Eşya Modunu Değiştir
+key.cofh.augments=Oyuncu Güçlendirme Arayüzünü Aç
 
-tab.cofh.friend.0=Add/Remove Friends!
-tab.cofh.friend.1=Friends not provided.
+tab.cofh.friend.0=Arkadaş Ekle/Kaldır!
+tab.cofh.friend.1=Arkadaşlar gelmedi.
 
-fluid.tile.water=Water
-fluid.tile.lava=Lava
+fluid.tile.water=Su
+fluid.tile.lava=Lav
