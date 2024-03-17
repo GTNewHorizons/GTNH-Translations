@@ -117,6 +117,11 @@ Translations in mod jars -> ParaTranz
     - `--modpack_path` Path to the modpack. It needs to be unzipped.
     - (Optional)`--interactive` True by default. It prints the contents of the translation and asks you whether to adopt it or not, for each jar. Setting False means it uploads all the translations without asking you, which is the same behavior as `upload-jar-translations` workflow.
 
+### Other available Python scripts
+
+- [future_mc_lang_diff](./.github/scripts/future_mc_lang_diff.py)
+  - Fetches vanilla translations from future version and compares to 1.7.10. You can put the resulting lang file to `config/txloader/load/lang` folder to include in the pack.
+
 ## Things to be done
 
 - Add support for IC2
