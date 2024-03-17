@@ -581,28 +581,27 @@ def main() -> None:
     updated = {}
 
     newer = json.loads(requests.get(f'https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/{newer_version}/assets/minecraft/lang/{language.lower()}.json').content)
-    with open('1.7.10', 'r', encoding='UTF-8') as f:
-        for line in requests.get(f'https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.7.10/assets/minecraft/lang/{language}.lang').content.decode().split('\n'):
-            line = line.strip()
-            split = line.split('=')
-            if (len(split) < 2):
-                continue
-            if (len(split) > 2):
-                raise RuntimeError(f'Unexpected string: {line}')
-            key = split[0]
-            value = split[1]
-            if key.startswith('achievement.') or 'stream' in key or key.startswith('potion.prefix.') or re.match(r'^commands\..+\.usage$', key):
-                continue
-            if key in skip_list:
-                continue
-            
-            newer_key = rename_key(key)
-            if newer_key in newer and value != newer[newer_key]:
-                updated[key] = newer[newer_key]
-            if newer_key not in newer:
-                # This prints all the keys unused
-                # print(newer_key)
-                pass
+    for line in requests.get(f'https://raw.githubusercontent.com/InventivetalentDev/minecraft-assets/1.7.10/assets/minecraft/lang/{language}.lang').content.decode().split('\n'):
+        line = line.strip()
+        split = line.split('=')
+        if (len(split) < 2):
+            continue
+        if (len(split) > 2):
+            raise RuntimeError(f'Unexpected string: {line}')
+        key = split[0]
+        value = split[1]
+        if key.startswith('achievement.') or 'stream' in key or key.startswith('potion.prefix.') or re.match(r'^commands\..+\.usage$', key):
+            continue
+        if key in skip_list:
+            continue
+        
+        newer_key = rename_key(key)
+        if newer_key in newer and value != newer[newer_key]:
+            updated[key] = newer[newer_key]
+        if newer_key not in newer:
+            # This prints all the keys unused
+            # print(newer_key)
+            pass
 
     with open(f'{language}.lang', 'w', encoding='UTF-8') as f:
         f.write('\n'.join(map(lambda item: f'{item[0]}={item[1]}', updated.items())))
