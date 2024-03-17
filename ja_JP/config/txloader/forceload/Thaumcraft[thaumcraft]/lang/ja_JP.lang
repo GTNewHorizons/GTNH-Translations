@@ -630,7 +630,7 @@ focus.upgrade.silktouch.text=このアップグレードは同じ名前のエン
 focus.upgrade.seeker.name=追尾
 focus.upgrade.seeker.text=このアップグレードにより、発射するオーブは彷徨うのではなく、最も近い生物に向かって行くようになる。また、オーブの安定性が高まり、爆発以外の悪影響を引き起こさなくなる。
 focus.upgrade.dowsing.name=ダウジング
-focus.upgrade.dowsing.text=このアップグレードが付いた発掘の杖星の能力で鉱石を採掘したときに、通常の鉱石の代わりに自然クラスターが出る可能性がある。自然クラスターは、元の鉱石のインゴット2つに精錬することができる。
+focus.upgrade.dowsing.text=このアップグレードが付いた発掘の杖星の能力で鉱石を採掘したときに、通常の鉱石の代わりに自然クラスターが出る可能性がある。自然クラスターは、元の鉱石のインゴット2つに製錬することができる。
 #
 # GUI
 golemblurb.0.text=何を搬入しますか、マスター。
@@ -1156,98 +1156,98 @@ tc.research_page.CRUCIBLE.3=このエッセンシアの蒸発は、資源を無�
 tc.research_page.CRUCIBLE.4=研究せずとも使える錬金術のレシピがいくつかある。実際のレシピは次のページに記載する。<LINE>§n均衡の結晶片§r<BR><BR>これは、任意の結晶片に含まれていない5種類の根源相を、錬金術によって注入することで作成することができる。そうしてできた結晶片は、すべての根源相と共鳴するようだ。<BR>この結晶片を精錬すると、サリス・ムンドゥスを入手することができる。(次のページを参照)
 tc.research_page.CRUCIBLE.5=§nサリス・ムンドゥス§r<BR><BR>サリス・ムンドゥス、それは魔導師の塩とも呼ばれ、均衡の結晶片を高熱にさらし、粉々に砕くことで入手することができる。<BR>料理で使用される塩のように、この魔導師の塩は、魔法のレシピや配合に風味を加える(比喩)ために使用される。これは魔法の結合剤となり、噛み合わない魔術の要素のつなぎとして機能するようだ。
 #
-tc.research_name.ENCHFABRIC=Enchanted Fabric
-tc.research_text.ENCHFABRIC=Silky and Stylish
-tc.research_page.ENCHFABRIC.1=By combining spider silk and wool and infusing it with primal vis, you have created a silky length of magical cloth that would have numerous uses.<BR>You have also discovered patterns to create cloth robes from the magical fabric. These robes have similar protective properties to leather armor, but they are much more durable than mundane materials could ever be.<BR>They also hold mystical enchantments very well and can hold powerful magic much better than even expensive armor.  
-tc.research_page.ENCHFABRIC.2=The various pieces of this outfit grant a small discount to the amount of vis drained from casting wands when you use them.<BR>You can dye the armor like you would leather armor.
+tc.research_name.ENCHFABRIC=魔力の込められた布
+tc.research_text.ENCHFABRIC=柔軟で洒落た布
+tc.research_page.ENCHFABRIC.1=クモの糸と羊毛を組み合わせて根源相のVisを注入することで、様々な用途に使用でき、魔力が込められた絹のような布を作成することができた。<BR>この素材を使用して、魔導師のローブを作成することができるようだ。このローブは革装備と同じ防御力を持つが、耐久面においては遥かにこちらが優れている。<BR>また、注入されている魔力によって魔法との親和性が高くなっており、高価な鎧よりも優れたエンチャントが付く可能性が高い。
+tc.research_page.ENCHFABRIC.2=さらに、このローブを着用することで、杖のVisの消費量を少し軽減できるようだ。<BR>革装備と同じように染色することもできる。
 #
-tc.research_name.ENCHANT=Enchantments
-tc.research_text.ENCHANT=New Enchantments
-tc.research_page.ENCHANT.1=Thaumcraft adds several unique enchantments.<BR>§nHaste§r<BR>This enchantment can be applied to footwear of all types and increases the wearer's land speed. The higher the enchantment level, the greater the speed bonus granted.<BR>§nRepair§r<BR>This enchantment slowly repairs the durability of items by drawing vis from wands in your inventory. The vis cost is determined by the value of the item.
-tc.research_page.ENCHANT.2=The higher the level of the enchantment, the quicker this takes place. This enchantment can only be applied to items made with Thaumcraft, and even then not all of them.
+tc.research_name.ENCHANT=エンチャント
+tc.research_text.ENCHANT=新しいエンチャントたち
+tc.research_page.ENCHANT.1=Thaumcraftは個性的なエンチャントをいくつか追加する。<BR>§n迅速§r<BR>ブーツに付けることができるエンチャントで、地上での移動速度を上げる効果がある。エンチャントのレベルが上がるほど速度が上がる。<BR>§n自己修復§r<BR>このエンチャントが付いたアイテムは、インベントリ内の杖のVisを消費して耐久値がゆっくりと回復するようになる。Visの消費量はアイテムの価値によって決まる。
+tc.research_page.ENCHANT.2=エンチャントのレベルが上がるほど修復速度も上がる。また、このエンチャントはThaumcraftの一部のアイテムにのみ付けることができる。
 #
-tc.research_name.ELEMENTALAXE=Axe of the Stream
-tc.research_text.ELEMENTALAXE=Rivers of Wood
-tc.research_page.ELEMENTALAXE.1=By combining water shards and a thaumium axe, you have created a tool that embodies the aspects of motion and flow.<BR>It functions like a normal axe on all materials except natural logs and trees. When used on them the axe seeks to furthest block of the same type that is still connected to the block you are attempting to harvest and harvests that one instead.<BR>In effect you will chop trees from the top down even if you hit the bottom-most block. 
-tc.research_page.ELEMENTALAXE.2=Any wood chopped in this fashion will automatically float towards you.<BR>If you press and hold right click the axe will draw all nearby items towards you - not just wood it chopped.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal axe.
+tc.research_name.ELEMENTALAXE=流水の斧
+tc.research_text.ELEMENTALAXE=木々の流動
+tc.research_page.ELEMENTALAXE.1=魔導金属の斧に水の結晶片の魔力を注入すると、流水の如き能力を発揮する魔道具に変化した。<BR>これは通常の斧と同様に、原木や木材を素早く破壊することができる。それに加えて、この斧でブロックを破壊しようとすると、代わりに繋がった同ブロックの中で最も遠いものが破壊される。<BR>つまり、木の一番下の原木だけを破壊し続けるだけで、木全体を伐採することができるのだ。
+tc.research_page.ELEMENTALAXE.2=この方法で破壊されたブロックは、直接使用者のインベントリに流れ込むようだ。<BR>また、斧を持ったまま右クリックを押し続けると、破壊したアイテム以外も自身に引き寄せることができる。<BR>Shiftを押している状態で斧を使用すると、能力を発揮することはなく、通常の斧として振る舞う。
 #
-tc.research_name.ELEMENTALPICK=Pickaxe of the Core
-tc.research_text.ELEMENTALPICK=Purifying Heat
-tc.research_page.ELEMENTALPICK.1=By infusing a thaumium pickaxe with fire shards, you have created a pickaxe that glows with the heat of a forge.<BR>When you mine ore blocks there is a chance that you will mine a cluster instead. Native clusters are much easier to process and produces double the normal amount of metal when smelted.<BR>It can also be used to sound out any surface you right click against to find out what valuable ores, lava or water can be found nearby.
-tc.research_page.ELEMENTALPICK.2=If shift is held while using this tool all its special properties are suspended and it functions like a normal pickaxe.
+tc.research_name.ELEMENTALPICK=地核のつるはし
+tc.research_text.ELEMENTALPICK=浄化の灯火
+tc.research_page.ELEMENTALPICK.1=魔導金属のつるはしに火の結晶片の魔力を注入すると、地核の熱で輝く魔道具に変化した。<BR>このつるはしで鉱石を採掘すると、鉱石の代わりに自然クラスターが出ることがあるだろう。この自然クラスターは製錬で簡単に処理することができ、製錬時に元の鉱石のインゴット2つになる。<BR>また、ブロックの表面を右クリックすると、周辺にある鉱石や水、溶岩を調べることができるようだ。
+tc.research_page.ELEMENTALPICK.2=Shiftを押している状態でつるはしを使用すると、能力を発揮することはなく、通常のつるはしとして振る舞う。
 #
 tc.research_name.ELEMENTALSWORD=Sword of the Zephyr
-tc.research_text.ELEMENTALSWORD=Angry Winds
-tc.research_page.ELEMENTALSWORD.1=You have merged the elemental fury of air shards with a thaumium sword.<BR>When used to strike a foe, the blade will sweep in a wide arc, hitting additional foes near your main target.<BR>While blocking the sword will conjure a sphere of whirling winds around you, pushing enemies and loose objects away and deflecting incoming projectiles.<BR>While blocking it will also slowly lift you into the air.
+tc.research_text.ELEMENTALSWORD=怒れる暴風
+tc.research_page.ELEMENTALSWORD.1=風の結晶片が秘めている暴風の力を魔導金属の剣に注入した。<BR>この剣は広範囲に振るうことができ、攻撃対象の周辺にいる敵もまとめて攻撃することができる。<BR>また、この剣で防御すると旋回する風が使用者を包み込み、敵や軽いものを押しのけたり、矢などの発射物を逸らすことができるようだ。<BR>防御中は、風が使用者をゆっくりと宙に浮遊させる。
 #
-tc.research_name.ELEMENTALSHOVEL=Shovel of the Earthmover
-tc.research_text.ELEMENTALSHOVEL=Shifting Earth
-tc.research_page.ELEMENTALSHOVEL.1=Combining earth shards with a thaumium shovel you have created a peerless digging implement.<BR>When used to dig earth, sand and similar materials it will dig a 3x3 area.<BR>If you right click on the side of a block, it will attempt to place a 3x3 section of the same material in the world as long as you have sufficient blocks in your inventory.<BR>The orientation of both the digging and construction depends on the face you dug or clicked.<BR>If shift is pressed you can see where blocks will be placed 
-tc.research_page.ELEMENTALSHOVEL.2=in the world and you can change the orientation of how blocks are placed by pressing 'G' on the keyboard. Blocks can be placed either parallel to the block face selected, or extending out of the face vertically or horizontally. <BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal shovel.
+tc.research_name.ELEMENTALSHOVEL=土建のシャベル
+tc.research_text.ELEMENTALSHOVEL=大地の転移
+tc.research_page.ELEMENTALSHOVEL.1=魔導金属のシャベルに地の結晶片の魔力を注入すると、唯一無二の土建用の魔道具に変化した。<BR>このシャベルで土や砂などを採掘すると、3x3の範囲を一度に掘ることができる。<BR>また、このシャベルでブロックの側面を右クリックすると、対象のブロックと同じものがインベントリに十分あれば、それを3x3の範囲に設置することができる。<BR>採掘、設置する範囲の方向は、ブロックに採掘、設置した面によって決まるようだ。
+tc.research_page.ELEMENTALSHOVEL.2=Shiftを押すとブロックの設置範囲が表示され、「G」キーを押すと設置する方向を変更することができる。ブロックに対して平行に設置することも、水平、垂直に延長するように設置することもできるだろう。<BR>Shiftを押している状態でシャベルを使用すると、能力を発揮することはなく、通常のシャベルとして振る舞う。
 #
-tc.research_name.ELEMENTALHOE=Hoe of Growth
-tc.research_text.ELEMENTALHOE=Balance of Nature
-tc.research_page.ELEMENTALHOE.1=By merging the magical energy from order and entropy shards with a thaumium hoe, you have created a farming implement with few equals.<BR>When used to till fields, it will till a 3x3 area instead of just a single block.<BR>When used to crops or other plants it will act as bonemeal to promote its growth, though at a higher cost to its durability. It might even be able to grow plants that normal bonemeal can't.<BR>If shift is held while using this tool all its special properties are suspended and it functions like a normal hoe.
+tc.research_name.ELEMENTALHOE=成長のクワ
+tc.research_text.ELEMENTALHOE=自然の均衡
+tc.research_page.ELEMENTALHOE.1=魔導金属のクワに秩序と無秩序の結晶片の魔力を注入すると、これ以上ない農具に成長した。<BR>このクワは、単一のブロックではなく3x3の範囲で耕すことができる。<BR>また、これを作物に対して使用することで、耐久値を消費して骨粉のように成長を促進させることもできる。この能力で、骨粉を使用することができない作物も成長させることができるだろう。<BR>Shiftを押している状態でクワを使用すると、能力を発揮することはなく、通常のクワとして振る舞う。
 #
-tc.research_name.ALCHEMICALDUPLICATION=Alchemical Duplication
-tc.research_text.ALCHEMICALDUPLICATION=You can never have too much of a good thing.
-tc.research_page.ALCHEMICALDUPLICATION.1=There are many substances in the world that are alchemical in nature.<BR>By carefully adding the proper aspects to these substances you should be able to make more of them.
+tc.research_name.ALCHEMICALDUPLICATION=錬金術的複製
+tc.research_text.ALCHEMICALDUPLICATION=多すぎて困ることは無い
+tc.research_page.ALCHEMICALDUPLICATION.1=この世界には、錬金術と相性の良い物質が多く存在しているようだ。<BR>これらの物質に、特定の相を慎重に加えることで、より多くの物質を得ることができるだろう。
 #
-tc.research_name.ALCHEMICALMANUFACTURE=Alchemical Manufacture
-tc.research_text.ALCHEMICALMANUFACTURE=More than one way to skin a cat.
-tc.research_page.ALCHEMICALMANUFACTURE.1=You have mastered the basics of alchemy and alchemical duplication and are now ready to try creating more complex substances from scratch.<BR>You have formulated several recipes that create normally hard to get substances and items via alchemy.
+tc.research_name.ALCHEMICALMANUFACTURE=錬金術的製造
+tc.research_text.ALCHEMICALMANUFACTURE=手段は一つではない
+tc.research_page.ALCHEMICALMANUFACTURE.1=錬金術による複製を習得したので、次は一から複雑な物体を作り出すことに挑戦した。<BR>その成果として、通常は入手が困難なアイテムを錬金するレシピをいくつか発見することができた。
 #
-tc.research_name.ENTROPICPROCESSING=Entropic Processing
-tc.research_text.ENTROPICPROCESSING=Making things worse?
-tc.research_page.ENTROPICPROCESSING.1=While creating magical and mundane substances is quite satisfying, sometimes you just want to break things down into their component parts. What is simpler than adding entropic energy to things?<BR>Actually, there is several reasons why this is a bad idea, but what is progress without some risk?
+tc.research_name.ENTROPICPROCESSING=無秩序的加工
+tc.research_text.ENTROPICPROCESSING=より悪化させる？
+tc.research_page.ENTROPICPROCESSING.1=錬金術で一般的、魔術的な物体を作り出すのはやりがいのあることだが、創造してばかりだと退屈してしまうときもある。少々破壊的な加工をするには、無秩序の相を加えれてやれば良いだろうか？<BR>これはあまり良い考えではないかもしれないが、進歩にはリスクがつきものだ。
 #
-tc.research_name.TRANSIRON=Metal Transmutation
-tc.research_text.TRANSIRON=Transformation of metals into iron
-tc.research_page.TRANSIRON.1=You have discovered a way to multiply iron by steeping iron nuggets in §5metallum§0 harvested from other metals.
+tc.research_name.TRANSIRON=金属の変成
+tc.research_text.TRANSIRON=錬「鉄」術
+tc.research_page.TRANSIRON.1=鉄塊に他の金属から抽出した§5metallum§0の相を加えることで、鉄を増やせることを発見した。
 #
-tc.research_name.TRANSGOLD=Gold Transmutation
-tc.research_text.TRANSGOLD=Transformation of metals into gold
-tc.research_page.TRANSGOLD.1=You have discovered a way to multiply gold by steeping gold nuggets in §5metallum§0 harvested from other metals.
+tc.research_name.TRANSGOLD=金への変成
+tc.research_text.TRANSGOLD=まさに錬「金」術
+tc.research_page.TRANSGOLD.1=金塊に他の金属から抽出した§5metallum§0の相を加えることで、金を増やせることを発見した。
 #
-tc.research_name.TRANSCOPPER=Copper Transmutation
-tc.research_text.TRANSCOPPER=Transformation of metals into copper
-tc.research_page.TRANSCOPPER.1=You have discovered a way to multiply copper by steeping copper nuggets in §5metallum§0 harvested from other metals.
+tc.research_name.TRANSCOPPER=銅への変成
+tc.research_text.TRANSCOPPER=錬「銅」術
+tc.research_page.TRANSCOPPER.1=銅塊に他の金属から抽出した§5metallum§0の相を加えることで、銅を増やせることを発見した。
 #
-tc.research_name.TRANSTIN=Tin Transmutation
-tc.research_text.TRANSTIN=Transformation of metals into tin
-tc.research_page.TRANSTIN.1=You have discovered a way to multiply tin by steeping tin nuggets in §5metallum§0 harvested from other metals.
+tc.research_name.TRANSTIN=錫への変成
+tc.research_text.TRANSTIN=錬「錫」術
+tc.research_page.TRANSTIN.1=錫塊に他の金属から抽出した§5metallum§0の相を加えることで、錫を増やせることを発見した。
 #
-tc.research_name.TRANSSILVER=Silver Transmutation
-tc.research_text.TRANSSILVER=Transformation of metals into silver
-tc.research_page.TRANSSILVER.1=You have discovered a way to multiply silver by steeping silver nuggets in §5metallum§0 harvested from other metals.
+tc.research_name.TRANSSILVER=銀への変成
+tc.research_text.TRANSSILVER=錬「銀」術
+tc.research_page.TRANSSILVER.1=銀塊に他の金属から抽出した§5metallum§0の相を加えることで、銀を増やせることを発見した。
 #
-tc.research_name.TRANSLEAD=Lead Transmutation
-tc.research_text.TRANSLEAD=Transformation of metals into lead
-tc.research_page.TRANSLEAD.1=You have discovered a way to multiply lead by steeping lead nuggets in §5metallum§0 harvested from other metals.
+tc.research_name.TRANSLEAD=鉛への変成
+tc.research_text.TRANSLEAD=錬「鉛」術
+tc.research_page.TRANSLEAD.1=鉛塊に他の金属から抽出した§5metallum§0の相を加えることで、鉛を増やせることを発見した。
 #
-tc.research_name.PUREIRON=Metal Purification
-tc.research_text.PUREIRON=Purification of metals into native clusters
-tc.research_page.PUREIRON.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal iron ore into a native iron cluster.<BR>When smelted these clusters produces twice the normal amount of iron ingots.
+tc.research_name.PUREIRON=金属の精錬
+tc.research_text.PUREIRON=金属を自然クラスターに
+tc.research_page.PUREIRON.1=自然クラスターと呼ばれるものは、通常の鉱石よりも純度が高い。錬金術を用いて、通常の鉄鉱石を自然鉄クラスターに精錬する方法を発見した。<BR>自然鉄クラスターは、鉄インゴット2つに製錬することができる。
 #
-tc.research_name.PUREGOLD=Gold Purification
-tc.research_text.PUREGOLD=Purification of gold into native clusters
-tc.research_page.PUREGOLD.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal gold ore into a native gold cluster.<BR>When smelted these clusters produces twice the normal amount of gold ingots.
+tc.research_name.PUREGOLD=金の精錬
+tc.research_text.PUREGOLD=金を自然クラスターに
+tc.research_page.PUREGOLD.1=自然クラスターと呼ばれるものは、通常の鉱石よりも純度が高い。錬金術を用いて、通常の金鉱石を自然金クラスターに精錬する方法を発見した。<BR>自然金クラスターは、金インゴット2つに製錬することができる。
 #
-tc.research_name.PURECOPPER=Copper Purification
-tc.research_text.PURECOPPER=Purification of copper into native clusters
-tc.research_page.PURECOPPER.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal copper ore into a native copper cluster.<BR>When smelted these clusters produces twice the normal amount of copper ingots.
+tc.research_name.PURECOPPER=銅の精錬
+tc.research_text.PURECOPPER=銅を自然クラスターに
+tc.research_page.PURECOPPER.1=自然クラスターと呼ばれるものは、通常の鉱石よりも純度が高い。錬金術を用いて、通常の銅鉱石を自然銅クラスターに精錬する方法を発見した。<BR>自然銅クラスターは、銅インゴット2つに製錬することができる。
 #
-tc.research_name.PURETIN=Tin Purification
-tc.research_text.PURETIN=Purification of tin into native clusters
-tc.research_page.PURETIN.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal tin ore into a native tin cluster.<BR>When smelted these clusters produces twice the normal amount of tin ingots.
+tc.research_name.PURETIN=錫の精錬
+tc.research_text.PURETIN=錫を自然クラスターに
+tc.research_page.PURETIN.1=自然クラスターと呼ばれるものは、通常の鉱石よりも純度が高い。錬金術を用いて、通常の錫鉱石を自然錫クラスターに精錬する方法を発見した。<BR>自然錫クラスターは、錫インゴット2つに製錬することができる。
 #
-tc.research_name.PURESILVER=Silver Purification
-tc.research_text.PURESILVER=Purification of silver into native clusters
-tc.research_page.PURESILVER.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal silver ore into a native silver cluster.<BR>When smelted these clusters produces twice the normal amount of silver ingots.
+tc.research_name.PURESILVER=銀の精錬
+tc.research_text.PURESILVER=銀を自然クラスターに
+tc.research_page.PURESILVER.1=自然クラスターと呼ばれるものは、通常の鉱石よりも純度が高い。錬金術を用いて、通常の銀鉱石を自然銀クラスターに精錬する方法を発見した。<BR>自然銀クラスターは、銀インゴット2つに製錬することができる。
 #
-tc.research_name.PURELEAD=Lead Purification
-tc.research_text.PURELEAD=Purification of lead into native clusters
-tc.research_page.PURELEAD.1=Native clusters are rare concentrations of metals in its purest form. You have discovered a way to purify and concentrate normal lead ore into a native lead cluster.<BR>When smelted these clusters produces twice the normal amount of lead ingots.
+tc.research_name.PURELEAD=鉛の精錬
+tc.research_text.PURELEAD=鉛を自然クラスターに
+tc.research_page.PURELEAD.1=自然クラスターと呼ばれるものは、通常の鉱石よりも純度が高い。錬金術を用いて、通常の鉛鉱石を自然鉛クラスターに精錬する方法を発見した。<BR>自然鉛クラスターは、鉛インゴット2つに製錬することができる。
 #
 tc.research_name.TALLOW=Magic Tallow
 tc.research_text.TALLOW=Rendered fat with a touch of magic
