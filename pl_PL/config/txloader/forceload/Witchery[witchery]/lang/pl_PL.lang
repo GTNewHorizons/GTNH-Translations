@@ -119,8 +119,8 @@ tile.witchery:alderwooddoor.name=Alder Wood Door
 tile.witchery:rowandoorwood.name=Rowan Wood Door
 tile.witchery:alderdoorwood.name=Alder Wood Door
 tile.witchery:altar.name=Altar
-tile.witchery:witchesovenidle.name=Witches Oven
-tile.witchery:witchesovenburning.name=Witches Oven
+tile.witchery:witchesovenidle.name=Piecyk Czarownic
+tile.witchery:witchesovenburning.name=Piecyk Czarownic
 tile.witchery:distilleryidle.name=Distillery
 tile.witchery:distilleryburning.name=Distillery
 tile.witchery:kettle.name=Kettle
@@ -173,8 +173,8 @@ tile.witchery:plantmine.grass_thorns.name=Shrub of Thorns
 tile.witchery:embermoss.name=Ember Moss
 tile.witchery:artichoke.name=Water Artichoke
 tile.witchery:alluringskull.name=Alluring Skull
-tile.witchery:fumefunnel.name=Fume Funnel
-tile.witchery:filteredfumefunnel.name=Filtered Fume Funnel
+tile.witchery:fumefunnel.name=Lej Oparów
+tile.witchery:filteredfumefunnel.name=Filtrowany Lej Oparów
 
 entity.witchery.demon.name=Demon
 entity.demon.name=Demon
@@ -190,7 +190,7 @@ entity.treefyd.name=Treefyd
 witchery.book.mushroomred=Red Mushroom
 witchery.book.mushroombrown=Brown Mushroom
 witchery.book.altarpower=Altar power
-witchery.book.oven1={o{lWitchcraft{r{r{o: Collecting Fumes{r||The witches oven gives a practitioner of the art, the opportunity to collect the fumes that may be produced when cooking.||Remember that the oven cannot smelt ore, but it does cook a little faster than a furnace.
+witchery.book.oven1={o{lWitchcraft{r{r{o: Collecting Fumes{r||Piecyk Czarownic daje praktykującemu tę sztukę możliwość zbierania oparów, które mogą powstawać podczas gotowania.||Pamiętaj, że piecyk nie może wytapiać rudy, ale gotuje nieco szybciej niż standardowy piec.
 witchery.book.oven2=Place {8Clay Jars{0 into the oven when cooking to collect the fumes:||Food  {6Foul Fume{0|Wood  {6Foul Fume{0||Cooking {2Saplings{0 produces {8Wood Ash{0 and may also release the gaseous essence of the tree.
 witchery.book.oven3={nSapling Fumes{r||Oak  {8Exhale of the Horned One{0|Birch  {8Breath of the Goddess{0|Spruce  {8Hint of Rebirth{0|Rowan  {8Whiff of Magic{0|Hawthorn  {8Odour of Purity{0|Alder  {8Reek of Misfortune{0
 witchery.book.distillery1={o{lWitchcraft{r{r{o: Distilling{r||{81.{0 Ensure the distillery is near to an Altar to get power.|{82.{0 Place the items into the distillery along with the required number of clay jars.|{83.{0 Wait for the distillation process to complete.
@@ -444,7 +444,7 @@ tile.witcheryStatusGoddess.curesinking=The Goddess cures your sinking problem.
 witchery.book.herbology.wildbramble=This thorny bramble spreads around, when you try to pull it down. Mutate this plant from cactus and spanish moss.
 witchery.book.herbology.bloodrose=In a witches garden keep in mind, a scratch from this rose leaves your blood behind. Mutate this plant from roses and a leech chest.
 
-entity.witchery.covenwitch.name=Coven Witch
+entity.witchery.covenwitch.name=Czarownica Sabatu
 item.witchery:ingredient.seerStone.name=Seer Stone
 witchery.rite.infusionseerstone=Rite of Infusion{r||Infuse a stone to communicate in a coven. Perform at night.
 witchery.rite.climatechange=Rite of Shifting Seasons{r||Pick Biome with biome foci and glowstone. Coven of 4 or more.
@@ -682,7 +682,7 @@ witchery.fetish.ghostwalker.desc=Sustains manifested creatures from the Spirit W
 
 item.witchery:ingredient.seerstone.manifestationtime=Can manifest for %s second(s).
 item.witchery:ingredient.seerstone.nomanifestationtime=Cannot manifest.
-item.witchery:ingredient.seerstone.covensize=%s witch(es) in coven.
+item.witchery:ingredient.seerstone.covensize=%s czarownic(y) w sabacie.
 item.witchery:ingredient.seerstone.nocoven=No coven.
 item.witchery:ingredient.seerstone.nofamiliar=No familiar.
 item.witchery:ingredient.seerstone.familiar=Familiar called %s.
@@ -1153,7 +1153,7 @@ witchery:color.white=White
 
 
 
-item.witchery:cauldronbook.name=Witches' Brews
+item.witchery:cauldronbook.name=Napary Czarownic
 item.witchery:cauldronbook.tip=The definitive guide to cauldrons and potion brewing.
 
 witchery:cauldronbook.tbench=[i Crafting Bench][br][br][stack=%s][stack=%s][stack=%s][br][stack=%s][stack=%s][stack=%s] [img=witchery:textures/gui/arrowrightresult.png|left|middle|22|15] [stack=%s|left|middle][br] [stack=%s][stack=%s][stack=%s]
@@ -1424,7 +1424,7 @@ witchery.rite.wolfcurse.nothuman=The target is not a normal villager or player.
 witchery.rite.wolfcurse.notactive=The target is not under the curse.
 witchery.rite.wolfcurse.requiresfullmoon=Perform under a full moon.
 witchery.rite.wolfcurse.requirescat=A cat familiar is required.
-witchery.rite.wolfcurse.requiresfullcoven=A full coven of six additional witches is required.
+witchery.rite.wolfcurse.requiresfullcoven=Wymagany jest pełny sabat sześciu dodatkowych czarownic.
 witchery.rite.wolfcurse.toofar=The werewolf is too powerful, and must be within the circle for the cure to work.
 
 witchery.rite.wolfcurse.book=Curse of the Wolf{r||Perform under a full moon with a full coven.
