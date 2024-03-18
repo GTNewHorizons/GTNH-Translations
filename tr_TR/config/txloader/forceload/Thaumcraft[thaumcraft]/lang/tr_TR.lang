@@ -218,7 +218,7 @@ tile.blockWoodenDevice.8.14.name=Kırmızı Sancak
 tile.blockWoodenDevice.8.15.name=Siyah Sancak
 tile.blockJar.0.name=Warded Jar
 tile.blockJar.1.name=Kavanozdaki Beyin
-tile.blockJar.2.name=Kavanozdaki Node
+tile.blockJar.2.name=Kavanozdaki Düğüm
 tile.blockJar.3.name=Hiçlik Kavanozu
 tile.blockTable.0.name=Table
 tile.blockTable.1.name=Table
@@ -260,11 +260,11 @@ tile.blockStoneDevice.3.name=İnfüzyon Sütun
 tile.blockStoneDevice.4.name=İnfüzyon Sütun
 tile.blockStoneDevice.5.name=Asa Şarj Etme Kaidesi
 tile.blockStoneDevice.6.name=İnfüzyon Sütun
-tile.blockStoneDevice.7.name=İnfüzyon Sütun
+tile.blockStoneDevice.7.name=İnfüzyon Sütunu
 tile.blockStoneDevice.8.name=Compound Recharge Focus
-tile.blockStoneDevice.9.name=Node Dengeleyici
-tile.blockStoneDevice.10.name=Gelişmiş Node Dengeleyici
-tile.blockStoneDevice.11.name=Node Dönüştürücü
+tile.blockStoneDevice.9.name=Düğüm Dengeleyici
+tile.blockStoneDevice.10.name=Gelişmiş Düğüm Dengeleyici
+tile.blockStoneDevice.11.name=Düğüm Dönüştürücü
 tile.blockStoneDevice.12.name=Arcane Spa
 tile.blockStoneDevice.13.name=Focal Manipulator
 tile.blockStoneDevice.14.name=Flux Scrubber
@@ -810,7 +810,7 @@ tc.aspect.pannus=Cloth, Material, Covering
 tc.aspect.machina=Mechanism, Machine
 tc.aspect.vinculum=Trap, Imprison
 tc.aspect.permutatio=Exchange, Barter
-tc.aspect.corpus=Flesh
+tc.aspect.corpus=Et
 #
 tc.aspect.help.aer=hava
 tc.aspect.help.terra=toprak
@@ -820,9 +820,9 @@ tc.aspect.help.ordo=order
 tc.aspect.help.perditio=broken things
 tc.aspect.help.vacuos=empty things
 tc.aspect.help.praecantatio=magical things
-tc.aspect.help.auram=nodes
+tc.aspect.help.auram=nodelar
 tc.aspect.help.vitium=the corrupting influence of magic
-tc.aspect.help.lux=light
+tc.aspect.help.lux=Işık
 tc.aspect.help.potentia=enerji
 tc.aspect.help.motus=things that move
 tc.aspect.help.tempestas=weather
@@ -846,7 +846,7 @@ tc.aspect.help.perfodio=mining
 tc.aspect.help.instrumentum=tools
 tc.aspect.help.telum=weapons
 tc.aspect.help.gelum=cold things
-tc.aspect.help.vitreus=kristal
+tc.aspect.help.vitreus=kristaller
 tc.aspect.help.sano=curative objects
 tc.aspect.help.iter=travelling
 tc.aspect.help.venenum=poisonous things
@@ -855,11 +855,11 @@ tc.aspect.help.tutamen=protective things
 tc.aspect.help.fames=yemek
 tc.aspect.help.fabrico=üretim
 tc.aspect.help.lucrum=valuable things
-tc.aspect.help.pannus=cloth
-tc.aspect.help.machina=mechanical things
+tc.aspect.help.pannus=kumaş
+tc.aspect.help.machina=mekanik şeyler
 tc.aspect.help.vinculum=things that entrap
 tc.aspect.help.permutatio=trading and bartering
-tc.aspect.help.corpus=flesh
+tc.aspect.help.corpus=et
 #  
 # Research categories
 tc.research_category.BASICS=Basic Information
@@ -885,7 +885,7 @@ tc.research_category.ELDRITCH=Eldritch
 #                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
 #
 # Research entries
-tc.research_name.RESEARCH=Research
+tc.research_name.RESEARCH=Araştırma
 tc.research_text.RESEARCH=How you discover things
 tc.research_page.RESEARCH.1=Before you can build most thaumaturgical items and blocks, you first need to discover how to do so. There are several steps in this process:<BR>(1) Exploring the world and examining blocks, items and creatures with a §5Thaumometer§0<BR><BR>(2) Taking the research points you gathered from the first step and expanding your aspect knowledge with the §5Research Table§0<BR><BR>(3) Using the aspects you know and discovering practical knowledge and recipes with the §5Research Table§0.<LINE>
 tc.research_page.RESEARCH.2=§l      §n(1) Exploration§r<BR><BR>You cannot perform research without research points, and the best way to gain research points is by exploration and examining objects in the world.<BR>The first thing you will need to do is construct a §5Thaumometer§0 (see next page). By pointing the §5Thaumometer§0 at objects or creatures and holding the right mouse button you will start examining them. The process does not take long, but your movement speed is reduced while it is occurring.<BR>Once complete the §5Thaumometer§0 will display what aspects the object contains. In the bottom right of the screen you will also see a summary of the aspects and research points 
@@ -900,18 +900,18 @@ tc.research_page.RESEARCH.10=To complete your research you simply need to connec
 tc.research_page.RESEARCH.11=You continue doing this until you have formed a pattern connecting all the starting aspects. The outer aspects need not be connected to all the others, they simply need to form a connected whole.<BR>Once this is done the research will complete and the research note will turn into a discovery.<LINE>NOTE: Placing and removing aspects from the hex grid consumes ink from your scribing tools. If it runs out you will not be able to proceed until you refill it.
 tc.research_page.RESEARCH.12=§l    §nSecondary Research§r<BR>Hexagonal icons indicate Secondary research. Much like primary research you just need to click on them. However instead of gaining a research note, you will simply learn the research directly. Secondary research does have an aspect cost you need to pay, but they do not require you to be carrying scribing tools or paper.
 #
-tc.research_name.KNOWFRAG=Knowledge Fragments
+tc.research_name.KNOWFRAG=Bilgi Parçaları
 tc.research_text.KNOWFRAG=Fragments of lost lore
 tc.research_page.KNOWFRAG.1=In your travels you might happen upon fragments of ancient and lost knowledge. On their own they are only worth a few research points when used, but if you gather enough of them together you might gain unique research that you can pursue. Usually the research they reveal cannot be gained through normal means.<BR>The fragments of knowledge can on occasion lead to a false theory, but this will be revealed when you attempt to research it. When this happens most of your knowledge fragments will be returned to you and it usually means you have exhausted all current avenues of research into lost knowledge.
 #
-tc.research_name.ASPECTS=Aspects of Magic
-tc.research_text.ASPECTS=The building blocks of magic
+tc.research_name.ASPECTS=Büyünün Aspektleri
+tc.research_text.ASPECTS=Büyünün inşa Blokları
 tc.research_page.ASPECTS.1=Every item, object or creature is bound by varying mystical elements known as §5aspects§0. Aspects describe the object's makeup and bent towards the magical elements. A simple stone may possess the aspect of Terra while more complex items like trees or even creatures can be made up of various different aspects in varying amounts. There are close to 50 known aspects with more being discovered all the time.<LINE>There are two main types of aspects: §5Primal§0 and §5Compound§0.
 tc.research_page.ASPECTS.2=§lPrimal Aspects§r are the most basic types of aspects and there are only 6 of them: §6Aer§0 (air), §2Terra§0 (earth), §cIgnis§0 (fire), §3Aqua§0 (Water), §7Ordo§0 (order), §8Perditio§0 (entropy).<BR>These form the basic building blocks of all other aspects.<BR>§lCompound Aspects§r are built from two other aspects. The simplest compound aspects are made from two primal aspects, but it is possible to have incredibly complex compound aspects made from successive layers of simpler aspects.<BR>The simplest example of such a compound aspect, is the aspect of Victus (life), which is a combination of §2Terra§0 and §3Aqua§0. 
 tc.research_page.ASPECTS.3=To view what aspects an item possesses, simply hover your cursor over the item and press sneak (shift), and you will see what aspects that item has and what amounts of each. You will first need to study the item however, until then the aspects will remain unknown.<LINE>Aspects that have somehow been separated from their object and purified is known as §5Vis§0 and is very valuable: both as a crafting ingredient and as a subject for magical research.<BR>Vis is most often bound into wands, but it is also possible to store it as a magical liquid. Vis stored as a liquid is known as §5Essentia§0.
 #
 tc.research_name.NODES=Auras and Nodes
-tc.research_text.NODES=Magic is everywhere
+tc.research_text.NODES=Büyü her yerde
 tc.research_page.NODES.1=The §5Aura§0 is a field of magical energy prevalent throughout the world. Its origin is unclear. Some believe it is the accumulated life force of living beings, while others believe it to merely be another type of energy seeping in from some other place. The last theory seems to be most likely, as the aura is often found surrounding a node of concentrated mystical energy known as an §5Aura Node§0.<BR>Each aura node has a base amount of magical energy it can contain and this energy is aligned to one or more aspects. It is usually aligned to §5Primal Aspects§0, but rarely a node may contain §5Compound Aspects§0. 
 tc.research_page.NODES.2=The aspects within an aura node can be tapped by a thaumaturge for his own purposes. The simplest way to do so is with the use of a wand.<BR>Energy that has been harvested in this manner is known as vis.<LINE>Aura nodes are hard to see with the naked eye, but faint glimmers of light often betray their presence. The §5Thaumometer§0 makes nodes slightly easier to find, as looking through its lens makes them clearly visible.<BR>§4Important:§0 Caution must be taken when draining a node. There is a small chance that when a specific type of aspect within a node is completely drained, it may 
 tc.research_page.NODES.3=disappear or harm the integrity of the node.<BR>It is possible for the node to disappear completely if all the aspects are used up.<LINE>Fortunately most nodes replenish their aspects over time and if properly maintained can provide a clever thaumaturge with all the vis he could want.<BR>Nodes react in interesting ways to other nearby nodes and bigger nodes tend to drain the vis out of their smaller neighbors to increase their own girth. 
@@ -936,7 +936,7 @@ tc.research_name.RESEARCHER1=Research Expertise
 tc.research_text.RESEARCHER1=Bilgi Güçtür
 tc.research_page.RESEARCHER1.1=You have become more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 25% chance that you will regain the research point.<BR>You are also able to see what aspects you need to combine to create an aspect you are hovering over.
 #
-tc.research_name.RESEARCHER2=Research Mastery
+tc.research_name.RESEARCHER2=Araştırma Ustalığı
 tc.research_text.RESEARCHER2=Güç Bilgidir
 tc.research_page.RESEARCHER2.1=You have become even more efficient at performing research.<BR>Whenever you remove an aspect that you placed in a hex, there is a 50% chance that you will regain the research point.<BR>Additionally there is a 10% chance that whenever you place an aspect that it will not cost any research points to do so.<BR>Lastly you are able to combine aspects in the research table by shift-clicking on the aspect you wish to create. If you have enough of the component aspects they will automatically combine to create the clicked aspect.
 #
@@ -970,7 +970,7 @@ tc.research_name.NODEPRESERVE=Node Preserver
 tc.research_text.NODEPRESERVE=Saving some for later
 tc.research_page.NODEPRESERVE=You now have better control over the amount of vis you draw from nodes. You will always leave at least one vis of each aspect in the node, unless you are sneaking.<BR>Be warned, this level of control is not possible when using wands crafted from normal wood and iron.
 #
-tc.research_name.THAUMOMETER=Thaumometer
+tc.research_name.THAUMOMETER=Thaumometre
 tc.research_text.THAUMOMETER=Measuring Magic
 tc.research_page.THAUMOMETER.1=This Thaumometer is one of the most useful and important tools in a thaumaturgists arsenal, second only to the wand.<BR>Firstly it allows you to scan objects, creatures or mystical phenomena and determine their magical make-up. You simply need to hold the right mouse button and wait.<BR>Secondly it makes discovering nodes easier, as they become clearly visible if viewed through the Thaumometer's lens - even through solid objects! 
 #
@@ -990,11 +990,11 @@ tc.research_name.ALUMENTUM=Alumentum
 tc.research_text.ALUMENTUM=Mystical Energy Source
 tc.research_page.ALUMENTUM.1=This substance throbs with fiery energy and it is more than eager to release that energy at the slightest bump. It may be unstable, but it would probably make a good source of fuel.<BR>It is probably not a good idea to throw it against a solid surface unless you enjoy explosions.
 #
-tc.research_name.HUNGRYCHEST=Hungry Chest
+tc.research_name.HUNGRYCHEST=Aç Sandık
 tc.research_text.HUNGRYCHEST=A chest that doesn't wait to be opened
 tc.research_page.HUNGRYCHEST.1=The hungry chest is able to pick up items by itself if they are dropped close enough to touch it.
 #
-tc.research_name.CAP_gold=Gold Wand Caps
+tc.research_name.CAP_gold=Altın Asa Kapakları
 tc.research_text.CAP_gold=Capping things off with style
 tc.research_page.CAP_gold.1=Gold is a far superior focusing agent than iron, and wands capped with this material takes no penalty when used to channel vis.
 #
@@ -1006,7 +1006,7 @@ tc.research_name.CAP_silver=Silver Wand Caps
 tc.research_text.CAP_silver=Capping things off with a little less style
 tc.research_page.CAP_silver.1=Silver has similar properties to gold when used as a wand cap, but it slightly more efficient at channeling the four elemental primals (fire, earth, air and water).<BR>Crafting these wand caps in an arcane worktable is not sufficient - they need to be infused with additional magical energy to make them usable.
 #
-tc.research_name.CAP_copper=Copper Wand Caps
+tc.research_name.CAP_copper=Bakır Asa Kapakları
 tc.research_text.CAP_copper=When iron caps just won't cut it
 tc.research_page.CAP_copper.1=Copper has similar properties to iron when used as a wand cap, but is as efficient as gold when used to channel §7Ordo§0 or §8Perditio§0 vis.
 #
@@ -1027,7 +1027,7 @@ tc.research_text.ROD_obsidian=Earthen vis storage
 tc.research_page.ROD_obsidian.1=A wand core chiseled from obsidian has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §2Terra§0 stored inside it drops below 10%, it will slowly replenish without the use of a node.
 #
 tc.research_name.ROD_bone=Bone Wand Core
-tc.research_text.ROD_bone=Entropic vis storage
+tc.research_text.ROD_bone=Entropik vis depolama
 tc.research_page.ROD_bone.1=A bone used as a wand core has slightly greater storage potential than greatwood cores. What makes it superior to greatwood cores however is that if the level of §8Perditio§0 stored inside it drops below 10%, it will slowly replenish without the use of a node.
 #
 tc.research_name.ROD_blaze=Blaze Rod Wand Core
