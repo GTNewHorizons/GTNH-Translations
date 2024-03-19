@@ -1287,19 +1287,19 @@ tc.research_name.GOLEMTHAUMIUM=魔導金属のゴーレム
 tc.research_text.GOLEMTHAUMIUM=神秘的な従者
 tc.research_page.GOLEMTHAUMIUM.1=魔導金属のゴーレムは鉄製のものより少し性能が良く、アップグレードを2つ付けることができる。また、魔法のダメージに対する耐性を備えているようだ。しかし、金属なので水に沈んでしまう。<BR>§l§n魔導金属のゴーレムの性能§r<BR>§l耐久力 :§r とても高い<BR>§l攻撃力 :§r 高い<BR>§l自己修復力 :§r 遅い<BR>§l運搬数 :§r 32<BR>§l速度 :§r 遅い<BR>§lアップグレード数 :§r 2
 #
-tc.research_name.GOLEMBELL=Golemancer's Bell
-tc.research_text.GOLEMBELL=Pay Attention
-tc.research_page.GOLEMBELL.1=Golems are notoriously bad at following verbal commands, but this bell allows you to avoid all that.<BR>Simply right click on a golem to select it. Once that is done a glowing, gear like circle will appear indicating the golems 'home' location and the side it is attached to.<BR> You are now able to right click anywhere in the world to link the golem to blocks, locations or inventories it may interact with. Clicking on the same location will either unmark it, or cycle through different colors if the golem is able to interact with different colored markers.
-tc.research_page.GOLEMBELL.2=<BR>Shift + right-clicking on a marked location will always clear it and pressing F will clear all marked locations.<LINE>Left-clicking on a golem picks it up with all its current upgrades and settings intact. Shift + left-clicking picks up the golem, but removes its core and any attached upgrades which drops separately. There is a good chance that upgrades will be lost if you do this however. 
+tc.research_name.GOLEMBELL=ゴーレム術師の鐘
+tc.research_text.GOLEMBELL=よく聞いてね
+tc.research_page.GOLEMBELL.1=ゴーレムは口頭での指示が苦手なようだが、この鐘を使用すれば適切に指示を出すことができるだろう。<BR>ゴーレムを右クリックで選択すると、ゴーレムの設置場所の設置面に輝く歯車のような円が表示される。<BR>その状態で任意のブロックを右クリックすると、ゴーレムが操作する場所、ブロック、インベントリをマークすることができる。同じ場所をまたクリックするとマークを削除するか、色を指定できる場合はマークの色を変更する。
+tc.research_page.GOLEMBELL.2=<BR>マークをShift右クリックすると色を指定できる場合でもマークを削除し、Fを押すとゴーレムの全てのマークを削除できる。<LINE>ゴーレムを左クリックすると、アップグレードや設定を保持したまま回収することができる。Shift左クリックすると、回収時にコアやアップグレードを取り外すことができるが、その過程でアップグレードを損失してしまう可能性が高いだろう。
 #
-tc.research_name.COREGATHER=Golem Core: Gather
-tc.research_text.COREGATHER=Picking up what you are putting down
-tc.research_page.COREGATHER.1=Golem Animations cores are used to give your golems purpose - without a core they remain inanimate.<BR>The first such core you are able to create is the §5Gather§0 core.<BR>Golems fitted with this core will seek dropped items within 16 blocks, pick them up and then place them inside an attached inventory. If they are not attached to an inventory they will simply hold on to them.<BR>If you right click on the golem you will be able to set specific items they should pick up - all others will be ignored.
-tc.research_page.COREGATHER.2=Simply right-click on a freshly placed golem with a core to attach it to the golem. 
+tc.research_name.COREGATHER=ゴーレムコア : 収集
+tc.research_text.COREGATHER=片付けたくない気持ちは分かる
+tc.research_page.COREGATHER.1=ゴーレムコアは、ゴーレムの目的を定義付けるための物だ。これが無ければゴーレムは直立不動のままである。<BR>最初に作成することができたのは§5収集§0のコアだ。<BR>このコアが取り付けられたゴーレムは、16ブロック以内の落ちているアイテムを拾い、設置場所のインベントリに収納するようになる。設置場所にインベントリが存在しない場合は、アイテムを拾っても保持し続けるだけだ。<BR>ゴーレムを右クリックすると特定のアイテムを指定でき、指定されたアイテム以外は拾わなくなる。
+tc.research_page.COREGATHER.2=ゴーレムコアは、新たに設置したゴーレムに右クリックするだけで取り付けることができる。
 #
-tc.research_name.COREEMPTY=Golem Core: Empty
-tc.research_text.COREEMPTY=Moving things somewhere else
-tc.research_page.COREEMPTY.1=Golems fitted with this core will remove items from an attached inventory and take them to the marked location. If the marked location is a container, they will place it inside.<BR>If you wish, you can specify what items should be removed from the inventory by accessing the golems interface. All other items will be ignored.
+tc.research_name.COREEMPTY=ゴーレムコア : 空虚
+tc.research_text.COREEMPTY=それは置いといて
+tc.research_page.COREEMPTY.1=このコアが取り付けられたゴーレムは、設置場所のインベントリからアイテムを取り出し、マークされた場所に運ぶ。マークされた場所にインベントリがある場合はそこに収納するようだ。<BR>特定のアイテムだけを運びたい場合は、ゴーレムを右クリックして運ぶアイテムを指定することができる。
 #
 tc.research_name.COREUSE=Golem Core: Use
 tc.research_text.COREUSE=Clickety click
