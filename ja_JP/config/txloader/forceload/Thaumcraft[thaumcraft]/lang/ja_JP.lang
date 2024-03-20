@@ -1301,38 +1301,38 @@ tc.research_name.COREEMPTY=ゴーレムコア : 空虚
 tc.research_text.COREEMPTY=それは置いといて
 tc.research_page.COREEMPTY.1=このコアが取り付けられたゴーレムは、設置場所のインベントリからアイテムを取り出し、マークされた場所に運ぶ。マークされた場所にインベントリがある場合はそこに収納するようだ。<BR>特定のアイテムだけを運びたい場合は、ゴーレムを右クリックして運ぶアイテムを指定することができる。
 #
-tc.research_name.COREUSE=Golem Core: Use
-tc.research_text.COREUSE=Clickety click
-tc.research_page.COREUSE.1=Like the Empty core, golems fitted with this core will remove items from an attached inventory, but instead of placing it in an inventory or dropping it in world, they will attempt to use it on a target block or location.<BR>They will attempt to use the item as if they are a player right-clicking or left-clicking on the target block or location with the item - you can specify which.<BR>If you wish, you can specify what items should be removed from the inventory by accessing the golems interface. All other items will be ignored.
-tc.research_page.COREUSE.2=If the golem is not attached to an inventory, it will attempt to perform its actions with an empty hand instead - simply clicking on the target as instructed.<LINE>You are able to tell the golem how to 'click' on something - apart from just telling it to left or right click you can also instruct it to be sneaking while doing so.<BR>You can also instruct it to only click on empty air instead of a block.
-tc.research_page.COREUSE.3=      §nAir Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>This upgrade will increase the speed at which the golem is able to click the target block or space.
+tc.research_name.COREUSE=ゴーレムコア : 使用
+tc.research_text.COREUSE=カチカチカチカチ...
+tc.research_page.COREUSE.1=これは空虚のコアと同様に設置場所のインベントリからアイテムを取り出すようになるが、それを別のインベントリに運ぶのではなく、マークされた場所で使用しようとするようだ。<BR>このコアを取り付けたゴーレムは、アイテム持ってマークされた場所に持っていき、プレイヤーがクリックするかのようにアイテムを使用する。左右どちらのクリックかは指定することができる。<BR>ゴーレムを右クリックして使用するアイテムを指定することもできる。
+tc.research_page.COREUSE.2=また、ゴーレムの設置場所がインベントリがあるブロックではない場合、素手でのクリックと同様の動作をするようだ。<LINE>普通のクリックではなく、スニーク中のクリックに切り替えることができる。<BR>また、ブロックではなく空間に対して使用させることもできる。
+tc.research_page.COREUSE.3=    §n風のアップグレードの効果§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>ブロック、空間に対してのクリック速度を上昇させる。
 #
-tc.research_name.COREFILL=Golem Core: Fill
-tc.research_text.COREFILL=Keeping an inventory supplied
-tc.research_page.COREFILL.1=Golems fitted with this core will examine inventories you have marked for certain items, and place them in their home inventory.<BR>There are two modes of operation:<BR>In §5Precise Amount§0 mode the golem will fill its home inventory with the specified items until it contains an amount equal to the amount you specified in its interface.<BR>In §5Any Amount§0 mode the golem will keep filling the current inventory with the specified items as long as there is room and available items.
+tc.research_name.COREFILL=ゴーレムコア : 充填
+tc.research_text.COREFILL=在庫への供給を維持
+tc.research_page.COREFILL.1=このコアが取り付けられたゴーレムは、マークされたインベントリにあるアイテムを設置場所のインベントリに運ぶようになる。<BR>2種類のモードを指定できるようだ。<BR>§5Precise Amount§0モードは、設置場所のインベントリの指定したアイテムが指定した個数になるまで充填する。<BR>§5Any Amount§0モードは、運べるアイテムが有る限り指定したアイテムを充填する。
 #
-tc.research_name.COREHARVEST=Golem Core: Harvest
-tc.research_text.COREHARVEST=Animated Farmer
-tc.research_page.COREHARVEST.1=Golems fitted with this core need not be attached to an inventory. They seek out fully grown crops, reeds and other commonly farmed plants within a small radius and harvest them. The harvested material simply drops to the ground and must be gathered by some other means.<BR>Unfortunately they are not smart enough to replant the crops they have harvested, but you are sure with a bit of work you might be able to eventually fix that bug.
-tc.research_page.COREHARVEST.2=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Harvest golems fitted with this upgrade will now attempt to replant the crop they just harvested. This could fail if the plant failed to drop the proper seed or seedling.
+tc.research_name.COREHARVEST=ゴーレムコア : 収穫
+tc.research_text.COREHARVEST=生ける収穫機
+tc.research_page.COREHARVEST.1=このコアが取り付けられたゴーレムはインベントリを必要としないようだ。彼らの仕事は、活動範囲内の小麦やサトウキビなどの作物を収穫することである。収穫するだけで回収はしないため、アイテムは別の方法で集める必要がある。<BR>不便なことに、このゴーレムには収穫した作物を植え直すほどの知能が無いようだ。しかし、何かしらの方法で修正することができるだろう。
+tc.research_page.COREHARVEST.2=   §n秩序のアップグレードの効果§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>収穫した作物を植え直すことができるようになる。しかし、種などのアイテムが落ちなかった場合は植え直すことができない。
 #
-tc.research_name.CORELUMBER=Golem Core: Chop
-tc.research_text.CORELUMBER=Animated lumberjack
-tc.research_page.CORELUMBER.1=Like Harvester golems, Lumberjack golems can be placed anywhere. They will seek out nearby trees and chop them down. Stronger golems will chop them down faster.<BR>Lumberjack golems do not replant the trees they have chopped down.
+tc.research_name.CORELUMBER=ゴーレムコア : 木樵
+tc.research_text.CORELUMBER=生ける伐採機
+tc.research_page.CORELUMBER.1=このコアが取り付けられたゴーレムは、近くの木を切り倒そうとする。強力なゴーレムであるほど伐採速度が早い。また、収穫のゴーレムと同様にインベントリを使用しない。<BR>伐採後に苗木を植え直すことはできないようだ。
 #
-tc.research_name.COREGUARD=Golem Core: Guard
-tc.research_text.COREGUARD=Guarding your valuables
-tc.research_page.COREGUARD.1=Golems fitted with this core act as guards, attacking any hostile creatures within range.<BR>You are sure with a little bit of tinkering you could make the golem a bit more selective with the targets it attacks, but for now it only seeks out aggressive mobs other than creepers.
-tc.research_page.COREGUARD.2=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>If you fit this upgrade you can specify the types of creatures the golem will attack. The golem will also be able to attack more than just hostile entities.
+tc.research_name.COREGUARD=ゴーレムコア : 警護
+tc.research_text.COREGUARD=貴重品を守ろう
+tc.research_page.COREGUARD.1=このコアが取り付けられたゴーレムは、活動範囲内にいる敵対生物を攻撃するようだ。<BR>今のところはクリーパー以外の敵対mobを攻撃するようになっているが、少し工夫すれば攻撃対象を指定することができるかもしれない。
+tc.research_page.COREGUARD.2=   §n秩序のアップグレードの効果§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>ゴーレムの攻撃対象を指定することができる。敵対mob以外を指定することもできる。
 #
-tc.research_name.COREBUTCHER=Golem Core: Butcher
-tc.research_text.COREBUTCHER=Bloody to the armpits
-tc.research_page.COREBUTCHER.1=This core is a refinement of the standard Guard core.<BR>A golem fitted with this core will only attack animals, but it is intelligent enough to only attack the oldest, fully grown adults and always make sure that a breeding pair remains.
+tc.research_name.COREBUTCHER=ゴーレムコア : 屠殺
+tc.research_text.COREBUTCHER=汚れ仕事はお任せ
+tc.research_page.COREBUTCHER.1=このコアは警護のコアを改良してできたものだ。<BR>このコアが取り付けられたゴーレムは動物を攻撃するようになるが、育ちきった大人の動物のみを攻撃し、繁殖に必要な最低限のペアを残しておくほどの知能を備えている。
 #
-tc.research_name.CORELIQUID=Golem Core: Decanting
-tc.research_text.CORELIQUID=Keeping a tank filled with liquid
-tc.research_page.CORELIQUID.1=Golems fitted with this core will attempt to keep the liquid inventory they are attached to filled with an appropriate liquid.<BR>If you wish, you can specify what liquid it places in the tank by accessing the golems interface and placing a liquid container (like a filled bucket) in a slot. All other liquids will be ignored.<BR>A decanting golem can only carry 100mb of liquid per item its material type is normally allowed to carry, though they will always carry a full buckets worth if instructed to pick up liquids blocks in the world.
-tc.research_page.CORELIQUID.2=    §nEntropy Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>If you fit this upgrade the golem will first try and pick up the furthest possible fluid block attached to any you have marked. This will allow it to empty pools of liquid and not just the one block you marked.<BR>It will only search as far as its sight range allows, and the distance is measured in actual blocks searched to get to the target block and not a straight line.
+tc.research_name.CORELIQUID=ゴーレムコア : 水汲
+tc.research_text.CORELIQUID=タンクの液体を維持
+tc.research_page.CORELIQUID.1=このコアが取り付けられたゴーレムは、設置場所の容れ物を液体で満たすようになる。<BR>運ぶ液体はゴーレムを右クリックし、液体が入ったもの(水入りバケツなど)で指定することができるようだ。指定された液体以外を運ぶことはない。<BR>水汲のゴーレムが一度に運ぶ量は、ゴーレムの性能の運搬数×100mbとなる。ただし、世界に配置されている液体を運ぶ場合は、必ず1バケツ分になる。
+tc.research_page.CORELIQUID.2=  §n無秩序のアップグレードの効果§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>池のような液体の溜まり場のうち一箇所をマークすると、そのマークから最も遠い液体から回収するようになる。つまり、一箇所マークするだけで池を空にすることができる。<BR>回収できるのはゴーレムの活動範囲内にある液体のみである。また、直線的な距離ではなく、ゴーレムが移動した時の距離に基づいて回収する液体を決めているようだ。
 #
 tc.research_name.CORESORTING=Golem Core: Sorting
 tc.research_text.CORESORTING=Keeping things in order
