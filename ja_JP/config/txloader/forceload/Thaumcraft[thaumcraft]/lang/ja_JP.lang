@@ -1334,17 +1334,17 @@ tc.research_text.CORELIQUID=タンクの液体を維持
 tc.research_page.CORELIQUID.1=このコアが取り付けられたゴーレムは、設置場所の容れ物を液体で満たすようになる。<BR>運ぶ液体はゴーレムを右クリックし、液体が入ったもの(水入りバケツなど)で指定することができるようだ。指定された液体以外を運ぶことはない。<BR>水汲のゴーレムが一度に運ぶ量は、ゴーレムの性能の運搬数×100mbとなる。ただし、世界に配置されている液体を運ぶ場合は、必ず1バケツ分になる。
 tc.research_page.CORELIQUID.2=  §n無秩序のアップグレードの効果§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>池のような液体の溜まり場のうち一箇所をマークすると、そのマークから最も遠い液体から回収するようになる。つまり、一箇所マークするだけで池を空にすることができる。<BR>回収できるのはゴーレムの活動範囲内にある液体のみである。また、直線的な距離ではなく、ゴーレムが移動した時の距離に基づいて回収する液体を決めているようだ。
 #
-tc.research_name.CORESORTING=Golem Core: Sorting
-tc.research_text.CORESORTING=Keeping things in order
-tc.research_page.CORESORTING.1=This core works much like an Empty core with one key difference: It only takes an item from its home inventory if it already exists in one of its marked inventories. This makes it exceedingly useful to sort unordered items in a container into their proper places.<BR>You cannot specify specific items to include or exclude like you can with the normal Empty core.
+tc.research_name.CORESORTING=ゴーレムコア : 整理
+tc.research_text.CORESORTING=整理整頓
+tc.research_page.CORESORTING.1=このコアは、空虚のコアとよく似た動作をさせるようになる。空虚のコアとの決定的な違いは、マークされたインベントリに既に入っているアイテムと同じ物のみを、そのインベントリに運ぶことだ。つまり、設置場所に入っているアイテムを複数の場所に仕分けることができる。<BR>空虚のコアとは違い、ゴーレムを右クリックしてアイテムを指定することはできない。
 #
-tc.research_name.COREFISHING=Golem Core: Fishing
-tc.research_text.COREFISHING=Sea shanties sold separately
-tc.research_page.COREFISHING.1=This core allows a golem to fish for your supper.<BR>For best results the golem needs to be placed near deep and open water.<BR>Golem strength determines fishing speed.<BR>
-tc.research_page.COREFISHING.2=      §nAir Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>A fishing golem fitted with this upgrade has a small chance of catching more than one thing at a time.
-tc.research_page.COREFISHING.3=      §nFire Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>A fishing golem fitted with this upgrade will automatically cook any fish it catches.
-tc.research_page.COREFISHING.4=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Order upgrades will increase the chance of getting good fishing results.
-tc.research_page.COREFISHING.5=    §nEntropy Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropy upgrades will reduce the chance of getting bad fishing results.
+tc.research_name.COREFISHING=ゴーレムコア : 釣り
+tc.research_text.COREFISHING=海の家は別売り
+tc.research_page.COREFISHING.1=このコアを取り付けたゴーレムは、夕食に魚を提供してくれるようだ。<BR>近くに深い水域が必要になる。<BR>また、釣る速度はゴーレムの強さに左右される。
+tc.research_page.COREFISHING.2=    §n風のアップグレードの効果§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>まれに、複数のものを一度に釣り上げるようになる。
+tc.research_page.COREFISHING.3=    §n火のアップグレードの効果§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>魚を釣ったとき、その魚を製錬するようになる。
+tc.research_page.COREFISHING.4=   §n秩序のアップグレードの効果§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>より良いものが釣れるようになる。
+tc.research_page.COREFISHING.5=  §n無秩序のアップグレードの効果§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>悪いものを釣りにくくなる。
 #
 tc.research_name.COREALCHEMY=Golem Core: Alchemy
 tc.research_text.COREALCHEMY=Moving essentia around
