@@ -152,7 +152,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.desc=So you're probably wondering wh
 
 # Quest: Covering Up
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.name=Covering Up
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=This quest goes over all of the covers, just in case you forgot or they weren't mentioned. If they have their own quest, look at it for more info. You can put them on basically any GT block, pipe, machine, tank, etc. Though that doesn't consider whether it will work right or be useful. Shift-Right-Click will open a GUI for many of them. For covers that you can adjust the amount of, clicking the left side with a screwdriver goes down, and right goes up. All covers block rain on the side they're attached to. Generally you can adjust covers with a screwdriver, whether they have a GUI or not. You can remove them with a crowbar if you forgot.%n%n§lFluid-Related Covers:§r%nPump: Transfers fluids at the speed specified on the tooltip.%n%nFluid Regulator: Regulates the rate that fluid can go through it, as well as pumping it. Can work x/s or x/t.%n%nSteam Valve: Moves more, but is only for steam. Only goes to IV. Does not work on SH steam.%n%nOverflow: Voids anything over the specified amount in the tank.%n%nFluid Detector: Will emit a redstone signal (RS) based on fluid fill rate of the tank it's on. By default, empty=15, full=0. Use inverted mode to swap. Useful on tanks and hatches.%n%nEnder Fluid Link: Cover version of ender tanks to TP fluid around. Doesn't connect to ender tanks though.%n%nDrain Module: Protects from rain on that side, and will fill the tank with water from rain if it can. Useless.%n%nFluid Filter: Filters fluid going through it. Click with a cell to set it.%n%nShutter: Blocks items/fluids when active. Use it with a machine controller and RS. Does not visually disconnect/block. You place it between the pipes, and put the MC on the same pipe.%n%n§lItem-Related Covers:§r%nConveyor: Sends items. Use an item pipe in import mode or on a GT block/machine.%n%nRobot Arm: Sends from a specific slot in the machine it's on (internal) to another specific slot in a block next to it (adjacent). Keep going through numbers until you get it right, it seems to change per machine. If the output slot is full, it won't output. There need to be a valid block with slots to send to or the settings won't save.%n%nItem Detector: Will emit RS based on item fill rate of the block it's on. By default, empty=0, full=15. Detects by filled slots, so doesn't work right with the super/quantum chests. Probably better for busses.%n%nItem Filter: This one is work-in-progress that is not yet finished. Feel free to contribute.%n%n§lEU-Related Covers:§r%nEnergy Detector: Will emit RS based on EU fill rate of the batbuff/tank it's on. By default, empty=0, full=15. Make sure to set it to include batteries. Can also detect steam for some reason.%n%nPower Pass Upgrade: Read the tooltip, then ask Bart how it works, he didn't bother telling anyone. He'll probably just tell you the code is the best documentation, just like the Tectech guys. May not actually be finished/work, either.%n%nTesla Coil/Tesla Coil Rich Edition: Use with the tesla tower to send EU wirelessly or something. %n%n§lOther Covers:§r%nPlayer Detector: Detects players. About 10 block range. §4Currently owner/other is inverted on non-pipes due to some bug or another.§r%n%nActivity Detector: Detects either recipe progress or idleness. 0%%=0 RS, ~95%%=14 by default. In idle mode, idleness is 15, and is 0 when running by default.%n%nMachine Controller: Turns machine on/off based on RS. Disable machine will keep it off regardless of RS state. Safe Mode only works on MBs. If a MB runs out of power, it will normally turn off, but a MC will turn it back on, continuing to void stuff. This will set it to the disable machine state instead. You will also get a notification. §4Safe mode is currently broken?§r%n%nNeeds Maintenance: Emits RS if it meets the condition specified. Rotor=turbine?%n%nRedstone Transmitter/Receiver (In/Out): OK, these things are confusing, so listen closely. First, set a frequency, either by using the GUI, or using the original way: right clicking it with an item. Empty hand = 0, other items = their item ID. Be careful not to reset it to 0 by accident. Honestly, just use the GUI. You can set it to private or not, it's the same kind of thing as EnderStorage, so you don't blare RS across the server. Channel state = RS level.%n%nRT(O) sets the channel state based on the redstone level sent from outside to the specific side. You can TP a RS from this to the RR(O).%nRT(I) sets the channel state based on redstone level that would be emitted from the machine itself. §4Always sends 15, so it's useless.§r%nRR(O) outputs redstone level based on channel state. You can TP RS from the RT(O) to here.%nRR(I) controls whether a machine can work based on channel state, just like a machine controller cover does. If it has 0 RS, it stays off. At least 1, and it turns on. You send the signal from elsewhere with the RT(O).%nRR(I) can also be used in conjunction with other covers whose states talk about conditional.%n%nIC2 Heat vents: Speeds up machines a tiny amount? Also looks neat. TODO: someone please look at the code to see what it actually does.%n%nCrafting Table: Adds a crafting table to the block you can use. Mostly cosmetic.%n%nPlanks/Plates/Foils: Blocks I/O on that side. Use a screwdriver to set allowed types of stuff through. Blocks everything by default. Set the output to another side first to avoid changing its settings too. You'll probably 'use' this by accident at least once.%n%nComputer Monitor: Adds a visual look. Cosmetic-only cover.%n%nLens: Cosmetic-only cover.%n%nYou can also use AE2 facades as cosmetic covers.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=Cette quête passe en revue tous les couvercles, au cas où vous les auriez oubliés ou qu'ils n'auraient pas été mentionnés. S'ils ont leur propre quête, regardez-la pour plus d'informations. Vous pouvez les placer sur n'importe quel bloc GT, tuyau, machine, réservoir, etc. Mais cela ne tient pas compte du fait qu'ils fonctionneront bien ou qu'ils seront utiles. Majuscules-Clic droit ouvrira un écran pour la plupart d'entre eux. Pour les couvercles dont vous pouvez ajuster la quantité, cliquez sur le côté gauche avec un tournevis. Tous les couvercles bloquent la pluie du côté auquel ils sont attachés. En général, vous pouvez ajuster les couvercles à l'aide d'un tournevis, qu'ils soient dotés d'un écran ou non. Vous pouvez les retirer avec un pied-de-biche si vous l'avez oublié.%n%n§lCouvercles relatifs aux fluides:§r%nPompe : Transfère les fluides à la vitesse spécifiée dans l'infobulle.%n%nRégulateur de fluide : Régule la vitesse à laquelle le fluide peut passer à travers lui, tout en le pompant. Peut fonctionner x/s ou x/t.%n%nVanne à vapeur : Permet de déplacer plus de liquide, mais uniquement pour la vapeur. Va uniquement jusqu'à IV. Ne fonctionne pas sur la vapeur surchauffée.%n%nOverflow : Elimine tout ce qui dépasse la quantité spécifiée dans le réservoir.%n%nDétecteur de fluide : Emettra un signal de redstone (RS) basé sur le taux de remplissage du réservoir sur lequel il se trouve. Par défaut, vide=15, plein=0. Utilisez le mode inversé pour permuter. Utile pour les réservoirs et les trappes. %n%nLien fluide Ender : Version de couvercle de réservoir Ender pour TP fluide. Ne se connecte pas aux réservoirs de l'Ender. %n%nModule de drainage : Protège de la pluie ce côté, et remplira le réservoir avec l'eau de la pluie le cas échéant. Inutile.%n%nFiltre à fluide : Filtre le fluide qui le traverse. Cliquez avec une cellule pour l'activer.%n%nObturateur : Bloque les objets/fluides lorsqu'il est actif. À utiliser avec un contrôleur de machine et un singal redstone. Il ne déconnecte ni ne bloque visuellement. Vous le placez entre les tuyaux et connected le contrôleur sur le même tuyau.%n%n§lCouvercles relatifs aux items:§r%nConvoyeur : Envoie des items. Utilisez un tuyau à items en mode import ou sur un bloc/machine GT.%n%nBras robotisé : envoie depuis un emplacement spécifique de la machine sur laquelle il se trouve (interne) vers un autre emplacement spécifique d'un bloc à côté (adjacent). Continuez à parcourir les chiffres jusqu'à ce que vous obteniez le bon résultat, il semble qu'il change en fonction de la machine. Si l'emplacement de sortie est plein, il n'y aura pas de sortie. Il doit y avoir un bloc valide avec des emplacements où envoyer, sinon les réglages ne seront pas sauvegardés.%n%nDétecteur d'items : Emet la redstone en fonction du taux de remplissage du bloc sur lequel il se trouve. Par défaut, vide=0, plein=15. Il détecte les emplacements remplis, donc ne fonctionne pas bien avec les coffres super/quantiques. Probablement mieux pour les bus. %n%nFiltre à items : Celui-ci est en cours de réalisation et n'est pas encore terminé. N'hésitez pas à contribuer.%n%n§lCouvercles liés aux EU :§r%nDétecteur d'énergie : Émettra la redstone en fonction du taux de remplissage d'EU du batbuff/réservoir sur lequel il se trouve. Par défaut, vide=0, plein=15. Veillez à le régler pour qu'il inclue les batteries. Peut également détecter la vapeur pour une raison quelconque.%n%nAmélioration Transfert Énergie : Lisez l'info-bulle, puis demandez à Bart comment ça marche, il n'a pas pris la peine de le dire à qui que ce soit. Il vous dira probablement que le code est la meilleure documentation, tout comme les gars de Tectech. Il se peut qu'il ne soit pas terminé ou qu'il ne fonctionne pas non plus.%n%nBobine Tesla/Tesla Édition Riche : À utiliser avec la Tour Tesla pour transmettre les EU sans-fil ou quelque chose comme ça.%n%n§lAutres couvercles :§r%nDétecteur de joueurs : Détecte les joueurs. Portée d'environ 10 blocs. §Actuellement, le propriétaire/autre est inversé sauf pour les tuyaux à cause d'un bug.§r%n%nDétecteur d'activité : Détecte la progression de la recette ou l'inactivité. 0%%=0 RS, ~95%=14 par défaut. En mode ralenti, l'inactivité est de 15, et de 0 lorsqu'il est en marche par défaut.%n%nContrôleur de machine : Permet d'activer ou de désactiver la machine en fonction du RS. Désactiver la machine la maintient éteinte quel que soit l'état du RS. Le mode sans échec ne fonctionne que sur les MB. Si un MB n'a plus d'énergie, il s'éteindra normalement, mais un MC le rallumera, en continuant à perdre les ingrédients. Ce mode le placera dans l'état de machine désactivée à la place. Vous recevrez également une notification.§4Le mode prudent est-il inopérant ? §r%n%nMaintenance Requise : Emet RS s'il remplit la condition spécifiée. Rotor=turbine?%n%nÉmetteur/récepteur de redstone (entrée/sortie) : D'accord, ces choses sont confuses, alors écoutez attentivement. Tout d'abord, définissez une fréquence, soit en utilisant l'écran, soit en utilisant la méthode originale : en cliquant avec le bouton droit de la souris sur un élément. Main vide = 0, autres objets = leur ID d'objet. Faites attention à ne pas la remettre à 0 par accident. Honnêtement, il suffit d'utiliser l'écran. Vous pouvez le mettre en privé ou non, c'est le même genre de chose qu'avec EnderStorage, afin de ne pas faire hurler RS à travers le serveur. État du canal = niveau de RS.%n%nRT(O) définit l'état du canal basé sur le niveau de redstone envoyé de l'extérieur vers le côté spécifique. Vous pouvez TP un RS de ceci à la RR(O).%nRT(I) définit l'état du canal basé sur le niveau de redstone qui serait émis par la machine elle-même. §4Envoie toujours 15, donc inutile.§r%nRR(O) émet un niveau de redstone basé sur l'état du canal. Vous pouvez TP RS depuis le RT(O) jusqu'ici.%nRR(I) contrôle si une machine peut fonctionner en fonction de l'état du canal, tout comme le fait le couvercle contrôleur de machine. Si le RS est égal à 0, la machine reste éteinte. S'il a au moins 1, elle s'allume. Vous envoyez le signal d'ailleurs avec le RT(O).%nRR(I) peut également être utilisé en conjonction avec d'autres couvercles dont les états parlent de conditionnel.%n%nIC2 Ventilateurs de chaleur : Accélère les machines d'un tout petit peu ? C'est aussi une bonne idée. TODO : quelqu'un peut regarder le code pour voir ce qu'il fait réellement.%n%nÉtabli : Ajoute un établi fonctionnel au bloc. Essentiellement cosmétique.%n%nPlanches/Plaques/Feuilles : Bloque les entrées/sorties de cette face. Utilisez un tournevis pour définir les types autorisés. Bloque tout par défaut. Réglez d'abord la sortie vers un autre côté pour éviter de modifier ses paramètres également. Vous l'utiliserez probablement par accident au moins une fois.%n%nMoniteur d'ordinateur : Ajoute un aspect visuel. Couvercle cosmétique uniquement.%n%nLentille : Vous pouvez également utiliser les façades AE2 comme couvercles cosmétiques.
 
 
 ## Quest Line: Tier 0 - Stone Age
@@ -216,7 +216,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAHQ.name=§2§lAnother Fuel Source
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAHQ.desc=Lignite and regular coal are the fuel sources you'll definitely need. The latter can be turned into coal coke, which is a superior fuel source to smelt your first large batch of ore.%n%nLignite you can toss in a boiler once you have one.
 
 # Quest: Copper
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAHg.name=§2§lCopper
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAHg.name=§2§lCuivre
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAHg.desc=Copper ingots can be created by smelting copper, chalcopyrite, or malachite ore.
 
 # Quest: Tin
@@ -236,7 +236,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lAluminini...um...?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=However it is spelled, you will need it. You can find it in chunks of gravel on the surface.%n%nUse as little as possible and save the rest for when you get a macerator in Steam age, you'll get twice as much.%n%nIf you can't find any, you can get aluminum oreberries to plant from quest rewards, or you can buy them in the Coins tab.%n%nIf you get enough and fully process it, you can also get rutile for titanium out of it. Get a block of that, and you can grow the Titania crop so you can make more out of UUM. The no-rocket run starts here!
 
 # Quest: Making Bronze
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§2§lMaking Bronze
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§2§lFaisons du Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.desc=Now that you've found copper and tin, you should make yourself some bronze. Use your macer... mortar to grind up some copper and tin ingots, and mix them together!
 
 # Quest: Important Tools
@@ -336,7 +336,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACFw.name=§1§2§lRedstone, Early Game P
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACFw.desc=Are you wondering how to process redstone without a macerator? %n%nPlace the ore you got back down, mine it with a gregtech hammer, and get the crushed ore. %nUse the hammer in the crafting table to get some impure redstone dust. %nFill a cauldron with water and drop the whole stack of dust into it either manually or by pressing Ctrl+Q, which the cauldron can handle for the same amount of water. You will get pure redstone dust for your redstone needs.
 
 # Quest: Fallen From the Sky
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACtQ.name=§2§lFallen From the Sky
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACtQ.name=§2§lTombé du ciel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACtQ.desc=You may have noticed big meteors everywhere, and maybe wondered if they're useful somehow? Well, they are, but not just yet. I'll give you a reward for collecting some now.%n%nInside the meteor you can find a skystone chest containing some processor press plates. Save them for later, you can't do AE2 without them. Though you can also just make them yourself in EV. Plus the chest is nice, and can be placed underneath blocks and still opened.%n%nIf all surface meteors have been raided, put some skystone in your Ore Finder to find underground ones, or wait until you can make a Meteorite Compass to find them.
 
 # Quest: Better Than Barrels
@@ -400,7 +400,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyg.name=§2§lWhen All You Have is a Ha
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyg.desc=...the whole world looks like a nail.  When looking for good tool materials, see "GregTech Material Tools" tab in NEI. Remember that NEI bookmarks are your friends.%n%nThe GT tools each have special uses.%n%nScrewdriver - Used on covers to change their behavior.%n%nWrench - Used to change the output direction on a GT machine, or to break it. Can also disconnect/connect pipes or enable their built in shutter.%n%nCrowbar - Remove covers from machines or pipes.%n%nWire cutters - Connecting/disconnecting/breaking wires/cables.%n%nSoft mallet - Turning machines on/off.%n%nHammer - Prospecting for ores in a limited way in front of you, and smashing ore blocks into crushed ores.%n%nOn a side note, Tin Pipes need a Steel Wrench to dismantle, so don't place them randomly.
 
 # Quest: Wooden Door
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_g.name=§2§lWooden Door
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_g.name=§2§lPorte en bois
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_g.desc=For your new House you need some wooden doors. Well, the recipe is really hard and needs iron/copper and a lot of wood. %n%nYou can choose two more doors as a reward if you like.
 
 # Quest: Circle Shapes Give Me Comfort
@@ -436,7 +436,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoA.name=§2§lToo Many Leaves
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoA.desc=Want to clear out shrubbery but don't want to pull out leaves by hand? Need to find that last log hidden in the middle of a bunch of leaves?%n%nTry an Iron Scythe! When used, it clears out a 5x5x5 area of leaves, crops, flowers, or grass. Excellent for tearing through Sacred Oak leaves or dense shrubbery in certain biomes. Later when you have a Cutting Machine you can upgrade to a Diamond Scythe with a 7x7x7 area of effect, or use Amethyst for 9x9x9 to FLEX.%n%nThe lower tiers break leaves instantly but don't seem to have the 3x3x3 range for some reason.
 
 # Quest: Personally, I Prefer Pepsi™
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoQ.name=§2§lPersonally, I Prefer Pepsi™
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoQ.name=§2§lPersonnellement, je préfère Pepsi™
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoQ.desc=You may have noticed that you can make more than just Charcoal in a Coke Oven, you can also make Coke.%n%nThe data below shows the burn time (BT), how long it takes in ticks - 20 ticks is 1 second - and how much creosote (Cr) you gain.%n%nCoal 1600BT + 1800t -> Coal Coke 3200BT + 500l Cr%nWood Log 300BT + 1800t -> Charcoal 1600BT + 250l Cr%nCactus 50BT + 500t -> Cactus Charcoal 400BT + 30l Cr%nCactus Charcoal 400BT + 500t -> Cactus Coke 800BT + 30l Cr%nSugar Cane 50BT + 500t -> Sugar Charcoal 400BT + 30l Cr%nSugar Charcoal 400BT + 500t   -> Sugar Coke 800BT +30l Cr%n%nYou want to save all of your Coke for making Steel in your Bricked Blast Furnace (BBF) later on. As for everything else, check NEI for the uses of each Coal variant, since there are many.
 
 # Quest: More Food, More Hearts
@@ -453,7 +453,7 @@ betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.desc=At the top of your map screen (
 
 
 ## Quest Line: Tier 0.5 - Steam
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAg.name=Tier 0.5 - Steam
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAg.name=Tier 0.5 - Vapeur
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAg.desc=Steam to electricity (EU) is the progression of this tab. Most of the machines you make in this tier you'll use the whole game, if in an upgraded form.
 
 # Quest: Better Tank... Iron Tank
@@ -461,7 +461,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEA.name=§4§3§lBetter Tank... Iron Ta
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEA.desc=Storing more than 16 buckets of fluid in one tank? Sure! Just make an iron tank or upgrade the Buildcraft tank.%n%nDiamond tanks carry up to 64 buckets and obsidian ones are blast proof. There's even more past that, but you should probably use GT tanks or large cells instead.
 
 # Quest: Welcome to Tier 0.5, Steam!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.name=§3§lWelcome to Tier 0.5, Steam!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.name=§3§lBienvenu au Tier 0.5, la Vapeur !
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Siding Tank multiblock in the Multiblock goals tab.%n%nTo connect up your boilers, be sure to provide water from the bottom, they'll accept only water from this side, so no risk of melting your pipe. Wooden pipes are fine for this. Make sure you never run out of water - §4adding water to a dry hot boiler will cause it to explode!§r%n%nSteam will come out from the sides. Remember, steam is hot! It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam.  Cover them with wooden planks or paper. Or just don't walk on/next to them.%n%nAnd no, you can't automate it. Make an electric one if you want to do that.
 
 # Quest: More Advanced Alloys
@@ -697,7 +697,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUw.name=§4§3§lThe Iron Guy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUw.desc=Do you feel lonely? Need some extra protection in your base? Want to keep the pigmen off your back in the Nether? Craft some Iron Golems and the monster problem inside your base will be gone.%n%nThey can do good amounts of damage and aggro enemies like the pigmen away from you. They can even take care of that pesky Vampire Pigman.%n%n
 
 # Quest: The Cool Guy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVA.name=§3§lThe Cool Guy
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVA.name=§3§lLe mec cool
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVA.desc=Feeling lonely? Located far away from a snow biome? Craft a Snow Golem, and perhaps challenge him to a snow ball fight.
 
 # Quest: Barrel Upgrades
@@ -737,7 +737,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhQ.name=§3§lRubber Soft Mallet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhQ.desc=Votre maillet en bois se brise après quelques utilisations. Vous pouvez maintenant fabriquer un maillet en caoutchouc qui est beaucoup plus durable.%n%n§3Le meilleur maillet est fait de Feuilleacier, suivi de , tous deux facilement accessibles une fois que vous avez accès à la Forêt du Crépuscule.
 
 # Quest: Hoppers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtQ.name=§3§lHoppers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtQ.name=§3§lEntonnoirs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEtQ.desc=Hoppers come in handy when you want to automate your machines. You can input items via hoppers directly into GT pipes and you don't have to use a conveyor module. However, the input rate is much slower, and the hopper must be beneath its source inventory.
 
 # Quest: Making a List, Checking it Twice
@@ -793,7 +793,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAICA.name=§3§lJacques Cousteau
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAICA.desc=Now that you have a Scuba Helmet you can safely explore underwater for long periods of time. You just need some compressed air cells.  I'll trade you some Tin ingots for a few compressed air cells.%n%nAs your air drops, the helmet will take a compressed air cell and give back an empty cell. Throw these cells into your compressor and you can easily gather clay from beneath rivers. You'll be able to make more cells later once you get an extruder or a plate bender.
 
 # Quest: Key to Your Heart
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.name=§3§lKey to Your Heart
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.name=§3§lLa clef de ton coeur
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.desc=Barrels by default allow locking the barrel to a specific item, even when empty. For drawers however you will need to make the Drawer Key to lock its content types.
 
 # Quest: A Fool Fit for a King
@@ -846,7 +846,7 @@ betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.name=§5§6§l§5§lHandle Resources
 betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.desc=Le summum de l'ingénierie humaine à votre disposition!%n%nCette machine vous permet de filtrer par type de recette machine et vous aide à automatiser sans effort. Pour l'utiliser, il suffit de placer une machine de n'importe quel type à l'écran pour créer un Filtre, par exemple, un Broyeur permettra à la machine de n'accepter que les Items qui peuvent être broyés. La même machine peut être utilisée pour créer un Filtre inverse (via un bouton) qui vous permettra d'exclure tous les Items qui peuvent être traités par cette machine. %n%n[note]Serait-il temps d'automatiser le traitement du minerai ?[/note]
 
 # Quest: Welcome to Tier 1, LV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.name=§5§r§5§lWelcome to Tier 1, LV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.name=§3§lBienvenu au Tier 1, le bas-voltage (LV) !
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.desc=Why, hello there! It seems you've made it into the electrical age. Don't be so quick to throw away your steam machines, you'll probably want to keep using them for a while.%n%nTo make your life easier, you'll want to focus on getting a wiremill and bender first... once you suffer through making all the machine components.%n%nAfter that, the polarizer, assembler, lathe, and chemical reactor+fluid solidifier (for rubber) all help make things cheaper.%n%nLV machines are more energy-efficient than their steam counterparts because steam machines convert Steam to Power with 50%% efficiency, when the starting LV Steam Turbine has 85%% efficiency.%n%nULV doesn't exist.
 
 # Quest: Damn You, Wire Cutter!
@@ -878,7 +878,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAYA.name=§5§lSaving Redstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAYA.desc=Tired of using 4 redstone for 1 magnetic iron rod? Well, good news for you! The polarizer doesn't need redstone, just a little bit of power. You don't need to attach this machine to a permanent power source, it runs fine on battery power, since it uses so little.
 
 # Quest: Avengers, Assemble!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAYQ.name=§5§lAvengers, Assemble!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAYQ.name=§5§lAvengers, rassemblement !
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAYQ.desc=An absolute must have for fans of the movie. Oh, and to make all the things, of course. There's a number of recipes that take less materials to make in the assembler, or can only be made with it, so make it ASAP!%n%nYou can use the battery slot and the other extra slot in the GUI to store unused configuration circuits.%n%nIf you've completed the Silverwood quest on the first tab, you can go to the Twilight Forest after making your Assembler. See the Novice Thaumaturgy tab for details.
 
 # Quest: No More Filing
@@ -1099,7 +1099,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAChg.desc=The electrotine battery is excl
 
 # Quest: Basic Arc Furnace
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.name=§5§lBasic Arc Furnace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.desc=La Fournaise à Arc est une alternative au broyage en Poudre des matériaux, et permet de fabriquer du Fer Forgé, du Cuivre Recuit, et du Verre (en MV). Le recyclage permet d'obtenir des Lingots et parfois des matériaux différents de ceux que l'on obtient avec un Broyeur. Vous disposez également des 4 Cases en LV. Les recettes utilisent de l'Oxygène et 3 A de puissance.%n%nIl suffit d'ignorer celle du plasma.%n%nEt §4non§r, vous ne pouvez pas simplement envoyer 1 A de MV. Cela la ferait exploser.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.desc=La Fournaise à Arc est une alternative au broyage en Poudre des matériaux, et permet de fabriquer du Fer Forgé, du Cuivre Recuit, et du Verre (en MV). Le recyclage permet d'obtenir des Lingots et parfois des matériaux différents de ceux que l'on obtient avec un Broyeur. Vous disposez également des 4 emplacements en LV. Les recettes utilisent de l'Oxygène et 3 A de puissance.%n%nIl suffit d'ignorer celle du plasma.%n%nEt §4non§r, vous ne pouvez pas simplement envoyer 1 A de MV. Cela la ferait exploser.
 
 # Quest: Faster Steel Production
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClw.name=§5§lFaster Steel Production
@@ -6047,7 +6047,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.desc=You will need machine to proces
 
 # Quest: Neutron Sensor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.name=§6§lNeutron Sensor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.desc=The sensor will sends redstone signals according to the NKE of the Neutron Activator.%n%nYou only need to input some expressions like ">120MeV", "<=1000keV" etc in the sensor, and it will work as you want.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.desc=The sensor will sends redstone signals according to the NKE of the Neutron Activator.%n%nIt works like a cover: enter the threshold value in eV, and it will emit a redstone signal when the NKE is at least as high as the threshold.
 
 # Quest: Neutron Accelerator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeg.name=§6§lNeutron Accelerator
@@ -7049,7 +7049,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3w.name=Extremely Ultimate and Ultimate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3w.desc=An even more expensive capacitor but it has the same storage? You are reading that right. But it has much faster transfer rates to your wireless power network!
 
 # Quest: Wireless Power!?
-betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.name=Wireless Power!?
+betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.name=Energie sans-fil !?
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.desc=Are you sick and tired of having cables all around your base? Are you tired of having to upgrade your cables constantly to handle different amperage amounts? Are you a fan of lightning bolts zapping around your base?%n%nThen this multiblock is for you, the Telsa Tower comes with high amperage output and full TecTech energy hatch support with this powerful multiblock.%n%nTo get started you will need to fill the tower with capacitors matching the tier of the Primary Tesla Windings within the capacitor bank. The Tesla Winding determines the tier of power that the tower transfers power at and the amount of capacitors determines the maximum amperage that can be output. %n%nA total of 16 capacitors can be placed into one capacitor bank so you might need many banks depending on your power needs.%n%nOnce the tower is constructed click open the controller to configure the maximum transfer distance of the tower to fit the needs of your base. The range setting is currently buggy which means that at least for now you can do so without needing any plasmas. This option is called “Tesla Towers Transfer Radius Setting”.%n%nNow that your tower is all configured how do you get power out of it to your machines? Well I am glad you asked. To get power to the machines of the base you will need to use the Tesla Coil Covers. Place them on your machines, energy hatches and even transformers to get power flowing from the tower. Energy hatches are a bit picky however and the hatch likes to be facing upwards to receive power.%n%n§4Warning! The Tesla Tower will output only one tier of amp such as EV, IV etc. When upgrading the Primary Tesla Windings please make sure to check all of your coil covers and transceivers in the base can handle the upgraded power. Failure to do so will result in a machine explosion.%n%nFailure to turn off the controller before adjustment can also cause an explosion.
 
 
@@ -8877,7 +8877,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6Q.name=64k Crafting Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6Q.desc=Component of the crafting CPU which provides 65,536 bytes of storage for crafting.
 
 # Quest: Wireless Boosters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6g.name=Wireless Boosters
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6g.name=Boosters sans-fil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6g.desc=The Wireless Booster is used to increase the range of the ME Wireless Access Point, and stack up to 64.
 
 # Quest: Filling Tanks
@@ -8913,7 +8913,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEA.name=Purifying the Impure
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEA.desc=The purified versions of Nether, Certus and Fluix crystals can be grown from seeds made in the assembler from crystal dust and sand.%n%nThey can be grown in-world for free by dropping them in water, or at a much faster rate in a GT Autoclave.%n%n§3Distilled water reduces the recipe time in the Autoclave by half.%n
 
 # Quest: Wireless Setup
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.name=Wireless Setup
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.name=Setup sans-fil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.desc=Allows you to configure which users, and what permissions the users have with the ME System. By existing it enforces permissions on the usage of the system.%n%nThe security system does not prevent destructive tampering, removing cables / machines or breaking of drives. If you need to protect your system from physical vandalism you will need another form of physical security. This block provides network level security.%n%nThe player who places the ME security terminal has full control over the network and cannot exclude himself any rights. By adding a blank biometric card you define a default behavior for every player who has no biometric card registered.%n%nIn addition to security on the software layer, you can link up your wireless terminal with the network and access it wirelessly.%n%nIf you have one on your main network, your subnets may also need one to have access to your main network, but this is not always the case depending on how you set it up.%n%n%nThe ME Wireless Access Point wireless access via a wireless terminal. Range and power usage is determined based on the number of wireless boosters installed into the ME wireless access point. A network can have any number of ME wireless access points with any number of wireless boosters in each one, allowing you to optimize power usage and range by altering your setup.
 
 # Quest: Dense Boys
@@ -9337,7 +9337,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7A.name=Fluids of the Trade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7A.desc=The ME Fluid Auto Filler will add crafting recipes for any fluid in your network that has a bucket version. When crafting a water bucket for example, it will send a bucket to it, and the filled water bucket back.
 
 # Quest: Wireless 2.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.name=Wireless 2.0
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.name=Sans-fil 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.desc=This is the good wireless terminal. It even has crafting. There's a bit of lag when you open it, but the convenience it worth it, right? You can't pull out fluids, but you can hold on to the universal one if you want.%n%nThe Magnet Card does not pull items to you. Instead, it allows you to automatically deposit them into the network. You can right-click to change the white/blacklist, or shift-right-click to change the mode.
 
 # Quest: Cut the Power!
@@ -13721,7 +13721,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4A.name=I'll Send Wireless Signals Wher
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4A.desc=This block provides unlimited AE for your network.
 
 # Quest: Wireless 3.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.name=Wireless 3.0
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.name=Sans-fil 3.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.desc=This upgrade allows unlimited range. You don't even need a Wireless Access Point!%n%n§4Extremely buggy, unfortunately. May randomly disappear, or fall out of the terminal at any time.%n%n§3Many bugs were fixed. Maybe its better now?
 
 # Quest: UV Solar
