@@ -2,29 +2,29 @@ bdlib.multiblock.face.north=Nord
 bdlib.multiblock.face.south=Sud
 bdlib.multiblock.face.east=Est
 bdlib.multiblock.face.west=Ouest
-bdlib.multiblock.face.up=Top
+bdlib.multiblock.face.up=Dessus
 bdlib.multiblock.face.down=Dessous
 
 bdlib.multiblock.disabled=Désactivé
-bdlib.multiblock.incomplete=This machine is incomplete, it requires at least:
-bdlib.multiblock.notconnected=Not connected to a valid machine
-bdlib.multiblock.toomanyoutputs=Too many outputs connected, unable to attach new connection
-bdlib.multiblock.tip.module=Can be installed in:
-bdlib.multiblock.tip.controller=Possible modules:
+bdlib.multiblock.incomplete=Cette machine est incomplète, elle requiert au moins :
+bdlib.multiblock.notconnected=Non connecté à une machine valide
+bdlib.multiblock.toomanyoutputs=Trop de sortie connectées, incapable d'attacher une nouvelle connexion
+bdlib.multiblock.tip.module=Peut être installé dans :
+bdlib.multiblock.tip.controller=Modules possibles :
 bdlib.multiblock.tip.module.range= * %s (%s - %s)
-bdlib.multiblock.tip.module.max= * %s (up to %s)
+bdlib.multiblock.tip.module.max= * %s (jusqu'à %s)
 
-bdlib.rsmode.always=Always ON
+bdlib.rsmode.always=Toujours ON
 bdlib.rsmode.never=Désactivé
-bdlib.rsmode.rs_on=Enable on redstone
-bdlib.rsmode.rs_off=Disable on redstone
+bdlib.rsmode.rs_on=Activé sous Redstone
+bdlib.rsmode.rs_off=Désactivé sous Redstone
 
 bdlib.label.empty=Vide
 
-bdlib.oredistribution.usage=/oredistribution <radius> [<min height>] [<max height>] [--file]
-bdlib.oredistribution.start1=Checking ore distribution in (%s,%s,%s) to (%s,%s,%s) dim %s
-bdlib.oredistribution.start2=Server may lag for a while
+bdlib.oredistribution.usage=/oredistribution <rayon> [<hauteur min>] [<hauteur max>] [--file]\n
+bdlib.oredistribution.start1=Vérification de la distribution des minerais de (%s,%s,%s) à (%s,%s,%s) dimension %s
+bdlib.oredistribution.start2=Le serveur pourrait ralentir un petit peu
 bdlib.oredistribution.entry=%s %s - %s (%s%%)
-bdlib.oredistribution.warn=%s Warning: %s has multiple variants generated:
-bdlib.oredistribution.saved=Ore distribution dumped to %s
-bdlib.oredistribution.error=Failed to save ore distribution dump: %s
+bdlib.oredistribution.warn=%s Attention : %s a plusieurs variants générés :
+bdlib.oredistribution.saved=Distribution des minerais copiée dans %s
+bdlib.oredistribution.error=Échec de l'enregistrement du dump de distribution des minerais : %s
