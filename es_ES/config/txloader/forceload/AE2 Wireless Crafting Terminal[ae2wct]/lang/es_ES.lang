@@ -1,74 +1,74 @@
 #Items
-item.wirelessCraftingTerminal.name=Terminal Inal?mbrico de Fabricaci?n
-item.infinityBoosterCard.name=Tarjeta de Acelerador de Infinito
-item.magnetCard.name=Tarjeta de im?n
-itemGroup.ae2wct=§9AE2 Terminal Inal?mbrico de Fabricaci?n
+item.wirelessCraftingTerminal.name=Terminal Inalámbrico de Fabricación
+item.infinityBoosterCard.name=Tarjeta de Mejora Infinita
+item.magnetCard.name=Tarjeta de Imán
+itemGroup.ae2wct=§9AE2 Wireless Crafting Terminal
 
 #Tooltips
-gui.tooltips.ae2wct.PressShift=Presiona Shift para más Información
-gui.tooltips.ae2wct.OnlyWorks=S?lo funciona cuando en la ranura de la Terminal de trabajo inal?mbrica!
+gui.tooltips.ae2wct.PressShift=Pulsa Shift para más Información
+gui.tooltips.ae2wct.OnlyWorks=¡Solo funciona en la ranura del Terminal Inalámbrico de Fabricación!
 gui.tooltips.ae2wct.TitleDesc=Descripción
-gui.tooltips.ae2wct.InfinityBoosterDesc=Permite un vinculado AE2 elaboraci?n Terminal inal?mbrica ser utilizado en cualquier distancia y a trav?s de dimensiones.
-gui.tooltips.ae2wct.MagnetDesc=Un im?n que autom?ticamente inserta elementos en la red AE.
-gui.tooltips.ae2wct.MagnetDesc2=Haga clic en establecer filtro
-gui.tooltips.ae2wct.LinkStatus=El estado de enlace
-gui.tooltips.ae2wct.Installed=Instalar
-gui.tooltips.ae2wct.NotInstalled=Instalado
+gui.tooltips.ae2wct.InfinityBoosterDesc=Permite al Terminal Inalámbrico de Fabricación vinculado ser utilizado a cualquier distancia y en otras dimensiones.
+gui.tooltips.ae2wct.MagnetDesc=Un imán que automágicamente inserta elementos en la red AE.
+gui.tooltips.ae2wct.MagnetDesc2=Click derecho para establecer filtro
+gui.tooltips.ae2wct.LinkStatus=Estado del Enlace
+gui.tooltips.ae2wct.Installed=Instalado
+gui.tooltips.ae2wct.NotInstalled=No Instalado
 gui.tooltips.ae2wct.Active=Activo
 gui.tooltips.ae2wct.Inactive=Inactivo
-gui.tooltips.ae2wct.Status=Condici?n
+gui.tooltips.ae2wct.Status=Estado
 gui.tooltips.ae2wct.EmptyTrash=Vaciar Papelera
-gui.tooltips.ae2wct.EmptyTrashDesc=Elimine el contenido de la papelera de la ranura
-gui.tooltips.ae2wct.MagnetFilterTitle=Filtro de im?n
-gui.tooltips.ae2wct.FilterMode=Modo de filtro
-gui.tooltips.ae2wct.Whitelisting=Lista Blanca
-gui.tooltips.ae2wct.Blacklisting=Lista Negra
-gui.tooltips.ae2wct.MagnetActiveDesc1=Art?culos extra a?adidos en el inventario
-gui.tooltips.ae2wct.MagnetActiveDesc2=Art?culos adicionales dejados en suelo
-gui.tooltips.ae2wct.Not=Not
-gui.tooltips.ae2wct.Using=Using
-gui.tooltips.ae2wct.Ignore=Ignore
-gui.tooltips.ae2wct.Ignoring=Ignoring
+gui.tooltips.ae2wct.EmptyTrashDesc=Elimina el contenido de la ranura de Papelera
+gui.tooltips.ae2wct.MagnetFilterTitle=Filtro del Imán
+gui.tooltips.ae2wct.FilterMode=Modo de Filtro
+gui.tooltips.ae2wct.Whitelisting=Solo permitir lo especificado
+gui.tooltips.ae2wct.Blacklisting=Solo permitir lo NO especificado
+gui.tooltips.ae2wct.MagnetActiveDesc1=Artículos extra añadidos en al inventario
+gui.tooltips.ae2wct.MagnetActiveDesc2=Artículos adicionales dejados en el suelo
+gui.tooltips.ae2wct.Not=No
+gui.tooltips.ae2wct.Using=Usando
+gui.tooltips.ae2wct.Ignore=Ignorar
+gui.tooltips.ae2wct.Ignoring=Ignorando
 gui.tooltips.ae2wct.NBTData=NBT Data
 gui.tooltips.ae2wct.MetaData=Meta Data
-gui.tooltips.ae2wct.OreDict=Ore Dictionary
-gui.tooltips.ae2wct.FilteredItems=Filtered Items
-gui.tooltips.ae2wct.OrPress=or press
-gui.tooltips.ae2wct.Press=Press
-gui.tooltips.ae2wct.ToSwitchMode=to switch magnet mode
+gui.tooltips.ae2wct.OreDict=Diccionario de Minerales
+gui.tooltips.ae2wct.FilteredItems=Objetos Filtrados
+gui.tooltips.ae2wct.OrPress=o pulsa
+gui.tooltips.ae2wct.Press=Pulsa
+gui.tooltips.ae2wct.ToSwitchMode=para el cambiar modo del imán
 
 #Labels
-gui.labels.ae2wct.WirelessTermLabel=T?rmino Inal?mbrico
+gui.labels.ae2wct.WirelessTermLabel=Términal Inalámbrico
 
 #Config Descriptions
-config.ae2wct.MaxPowerDesc=Potencia m?xima en unidades AE que puede sostener el terminal inal?mbrico
-config.ae2wct.InfinityBoosterCfgDesc=Activar infinita gama Booster mejora
-config.ae2wct.EasyModeDesc=Activar el modo f?cil (Recetas m?s f?ciles y Infinity Booster receta)
-config.ae2wct.BoosterDropChance=Oportunidad que marchitar caer? infinito Booster tarjeta (en %-100 = caer siempre)
-config.ae2wct.DisableBoosterDrop=Activado Booster Card cae en modo dif?cil (true=permitir)
-config.ae2wct.MineTweakerOverride=Enable MineTweaker Override (true=disables all recipes)
-config.ae2wct.DoVersionCheck=Check for updates
-config.ae2wct.NewVersionAvailable=¡Nueva versión del Terminal Inalámbrico de Fabricación está disponible!
-config.ae2wct.ClickString=["Click here to go to download page [",{"text":"Download","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click this to download the latest version","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
+config.ae2wct.MaxPowerDesc=Cantidad máxima de AE que puede almacenar el terminal inalámbrico
+config.ae2wct.InfinityBoosterCfgDesc=Activar Mejora de Rango Infinito
+config.ae2wct.EasyModeDesc=Activar el Modo Fácil (Recetas más fáciles y receta de la Tarjeta de Mejora Infinita)
+config.ae2wct.BoosterDropChance=Probabilidad de que el Wither suelte una Tarjeta de Mejora Infinita (en porcentaje; 100% = siempre)
+config.ae2wct.DisableBoosterDrop=Permitir drops de Tarjeta de Mejora cuando se está en modo difícil (true = permitido)
+config.ae2wct.MineTweakerOverride=Permitir sobreescritura por MineTweaker (true = elimina todas las recetas)
+config.ae2wct.DoVersionCheck=Buscar actualizaciones
+config.ae2wct.NewVersionAvailable=¡Nueva versión de Wireless Crafting Terminal disponible!
+config.ae2wct.ClickString=["Clica aquí para ir a la página de descargas [",{"text":"Descargar","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Clica para descargar la última versión","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
 config.ae2wct.SaveSearchString=Conservar búsqueda en el terminal al cerrarlo
 
 #Achievements
-achievement.wctAchievement=Digital elaboraci?n sobre WLAN
-achievement.wctAchievement.desc=Un Wireless Terminal de elaboraci?n del arte
-achievement.boosterAchievement=Saco de fabricaci?n interdimensional
-achievement.boosterAchievement.desc=Adquirir una tarjeta de acelerador de infinito
-achievement.magnetAchievement=Aspiradora digital
-achievement.magnetAchievement.desc=Elaborar una tarjeta de im?n
+achievement.wctAchievement=Fabricación Digital Por WiFi
+achievement.wctAchievement.desc=Fabrica un Terminal Inalámbrico de Fabricación
+achievement.boosterAchievement=Saco de Fabricación Interdimensional
+achievement.boosterAchievement.desc=Consigue una Tarjeta de Mejora Infinita
+achievement.magnetAchievement=Aspiradora Digital
+achievement.magnetAchievement.desc=Fabrica una Tarjeta de Imán
 
 #Chat Messages
-chatmessages.ae2wct.NoNetworkPower=Red no tiene poder!
-chatmessages.ae2wct.MagnetMode1=Imanes tarjeta desactivada
-chatmessages.ae2wct.MagnetMode2=Tarjeta im?n activado - Art?culos no almacenados en red AE se colocar? en el inventario
-chatmessages.ae2wct.MagnetMode3=Tarjeta im?n activado - Art?culos no almacenados en red AE se quedar?n en la tierra
+chatmessages.ae2wct.NoNetworkPower=¡La red no tiene energía!
+chatmessages.ae2wct.MagnetMode1=Tarjeta de Imán Desactivada
+chatmessages.ae2wct.MagnetMode2=Tarjeta de Imán Activada - Los objetos que no están en el sistema se quedarán en el inventario
+chatmessages.ae2wct.MagnetMode3=Tarjeta de Imán Activada - Los objetos que no están en el sistema se quedarán en el suelo
 chatmessages.ae2wct.InitializeMagnet=Tienes que dar click derecho con la Tarjeta Imán en la mano antes de usar el keybind!
 
 #Keybindings
-ae2wct.OpenTerminal=Abierto Terminal Inal?mbrico de Fabricaci?n
-ae2wct.OpenMagnetFilter=Filtro tarjeta de im?n abierto GUI
-ae2wct.SwitchMagnetMode=Activar/desactivar tarjeta im?n
-key.categories.ae2wct=Terminal Inal?mbrico de Fabricaci?n
+ae2wct.OpenTerminal=Abrir Terminal Inalámbrico de Fabricación
+ae2wct.OpenMagnetFilter=Abir GUI del filtro de la Tarjeta de Imán
+ae2wct.SwitchMagnetMode=(Des)activar Tarjeta de Imán
+key.categories.ae2wct=Wireless Crafting Terminal
