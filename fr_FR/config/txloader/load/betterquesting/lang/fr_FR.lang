@@ -1086,8 +1086,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACgg.name=§5§lSulfuric Gas
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACgg.desc=Another distillate for your gas turbine you can make out of oil is sulfuric gas with a burn value of 25,000 EU per cell.
 
 # Quest: Refinery Gas
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACgw.name=§5§lRefinery Gas
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACgw.desc=Refine your gas in a chemical reactor with Hydrogen gas to give it a better burn value of 160,000 EU. It used to be the least useful fraction of oil, but it's now possible to distill it into large amounts of Ethylene if you steam-crack the Refinery Gas beforehand.%n%nThis early, you will have to use a Chemical Reactor to crack it, but later on there's a dedicated multiblock for this purpose, the Oil Cracker. For best Ethylene results, you should severely steam-crack it, and you will get lots of Methane as well.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACgw.name=§5§lGaz de Raffinerie
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACgw.desc=Raffinez votre gaz dans un Réacteur Chimique avec de l'Hydrogène pour lui donner un meilleur taux de combustion de 160 000 EU. C'était autrefois la coupe pétrolière la moins utile, mais il est désormais possible de la distiller en de grand volume d'Éthylène si vous réalisez le vapocraquage de Gaz de Raffinerie au préalable.%n%nSi tôt, vous devrez utiliser un Réacteur Chimique pour le casser, mais plus tard il existe un multi-blocs dédié à cette utilisation, le Craqueur. Pour davantage d'Éthylène, vous devez augmenter le degré de vapocraquage, vous aurez aussi beaucoup de Méthane.
 
 # Quest: Methane
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAChA.name=§5§lMethane
@@ -1611,15 +1611,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADRg.name=§6§lAdvanced Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADRg.desc=Finally, the HV circuit! To make it, you need good integrated circuits, RAM, an integrated logic circuit, and transistors.%n%nBy the way, circuits get cheaper to make as you go along, but not till HV.
 
 # Quest: Methane Gas
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.name=§6§lMethane Gas
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.name=§6§lGas de Méthane
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.desc=Methane gas has a burn value of 104,000 EU per cell and can be burned in the gas turbine.
 
 # Quest: Methanol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.name=§6§lMethanol
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.name=§6§lMéthanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.desc=Methanol has a burn value of 84,000 EU per cell and can be used to make bio diesel and other fluids. It's also used to make certain rocket fuels.
 
 # Quest: Ethanol
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.name=§6§lEthanol
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.name=§6§lÉthanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.desc=Ethanol has a burn value of 192,000 EU per cell can be used to make bio diesel and other fluids.
 
 # Quest: Bio Diesel Fuel
@@ -1700,7 +1700,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_Q.desc=Sodium Persulfate can be made i
 
 # Quest: MV Bending
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOQ.name=§6§lMV Bending
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOQ.desc=This Plate Bending Machine allows you to directly make double, triple or more compressed plates, which might be useful for your first rocket in HV Tier.%n%nIt also allows you to make dense plates at all.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOQ.desc=Cette machine à laminer vous permet de fabriquer directement des plaques doubles, triples ou plus compressées, ce qui pourrait être utile pour votre première fusée de niveau HV.%n%nElle vous permet également de fabriquer des plaques denses.
 
 # Quest: Did You Run Low On Gold or Redstone?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.name=§6§lDid You Run Low On Gold or Redstone?
@@ -6140,7 +6140,7 @@ betterquesting.quest.9j1Iwd3KRG6jqLI9m6YDKQ.desc=Craft yourself some bone-streng
 
 # Quest: Industrial Sledgehammer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.name=Industrial Sledgehammer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.desc=A multiblock forge hammer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABgg.desc=Un Martinet multi-blocs
 
 # Quest: A volcano for your base.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhQ.name=A volcano for your base.
@@ -6212,7 +6212,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9Q.desc=Need enough wire to go around t
 
 # Quest: Bender more bending
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.name=Bender more bending
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.desc=When you need plates by the thousands. You can switch between Bending Machine and Forming Press modes with a screwdriver.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9g.desc=Quand vous avez besoin de plaques par milliers. Vous pouvez changer de mode entre laminoir et emboutisseuse avec un tournevis.
 
 # Quest: Bezos would be proud
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH9w.name=Bezos would be proud
@@ -7122,7 +7122,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALuQ.name=Using All the Fractions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALuQ.desc=After getting large amounts of all the oil fractions, what can you do with them? They'll pile up in the tanks or output hatches, and the Distillation Tower stop when it filles, unless you enable fluid voiding in the controller - in which case everything that cannot be output will just be voided instead, and it's in your best interest to avoid this waste. What do, then?%n%nFirst off, it's important to note that almost everything you get from Oil can be processed into even more things. Whether or not the step is worthwhile is a different story altogether. That said, you're free to look through NEI or the spreadsheet to decide what you want to do, and how you want to do it. The charm of a processing chain like this is that it lets you choose your own path and gives you the information to know how to best utilize it.%n%nSecond off, Oil is a major source of byproducts, many of which are needed to create various important materials. However, this isn't the only way to obtain most of them, and you might already found other sources, especially if you've dabbled in the Benzene or the Biomass chains. Which path you take is up to you.%n%nNow, for the four fractions that you get from regular Oil. Up until now, the power generation needed both Light Fuel and Heavy Fuel processing, and Refinery Gas already proved to be a good source of Ethylene. What can these be used for, in case you can build more DTs to process the cracked fluids? Roughly speaking, these are the possibilities:%n%nLight Fuel: You will most likely be using most, or all of this to make Diesel. If you do have leftovers, moderately hydrocracking it is a good source of Propene, and lightly hydrocracking is the best source for Octane. These two are important, but only in EV, for epoxy and powergen, specifically.%n%nHeavy Fuel: If only working with regular Oil, a lot of this will also be consumed to make Diesel. However, it's important to get more of it automated, since it can be distilled directly to make three fantastic byproducts: Toluene, Phenol and Benzene. All of them are important for progression, so make sure you pay attention to this recipe. Toluene is especially useful in HV, as you will need many buckets of it when making your first rocket to be able to get into EV.%n%nNaphtha: You could distill it in a Distillation Tower, but keep in mind that you need to build a max-height one to cover the entire recipe. However, if you do it, you will have most of the Oil byproducts automated meaning that it's worth it to tackle this challenge when you get comfortable with making lots of Stainless Steel; it also has a good burn value, so if you don't need these byproducts, best just use it for power.%n%nRefinery Gas: You're probably already distilling this for Ethylene. You could switch this recipe to a Distillation Tower and a Oil Cracking Unit (see next quest) to gain more output and some useful byproducts.
 
 # Quest: Oil Cracker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALug.name=Oil Cracker
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALug.name=Craqueur
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALug.desc=Another HV multi, and another Stainless Steel sink. Not only that, but it needs 16 coils to work! There is a quest about this multi in the Multiblock Goals tab, as per usual.%n%nDespite being expensive, this is an important multiblock to build. It does the cracking recipes like the Chemical Reactor does, and you might even be tempted to make an LCR for this purpose, since it's cheap and can do many recipes at once, but the Oil Cracker is much more efficient and gives several bonuses when used (check the tooltip for more information). As it stands, it's a higher initial investment that will pay off in the long run, many times over, and in this pack everything takes a long time, so get on it!
 
 # Quest: Boosting the Diesel
@@ -7162,7 +7162,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALww.name=Boiler and Super Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALww.desc=With the advancements in building materials you've made until now, a new kind of generator has been unlocked. The Large Boilers you might have looked at before, and perhaps used, change when you reach Titanium, and if you build one of those, you will get something quite different from the tiers before.%n%nTo start, most burnable items don't work here. These advanced boilers need to burn much hotter, and as such they only accept specific fuels. The fuel of interest here is one of two, who are built in a sort of chain, in a similar fashion as to how Diesel and CBD worked. There is Solid Super Fuel, and Magic Solid Super Fuel, and they are both created from some coal-like block, some binder and some liquid fuel. You can use CBD for this, but Heavy Fuel and LPG are also options.%n%nWhy go through this route, though? The answer is that this extra processing, although it is difficult to automate, creates fuel that is much more efficient than the fuels that were put into it, and this is because the advanced Large Boilers are slow burners that output Superheated Steam, instead of regular one. This also means that they will need two turbines to convert all the steam into EU, and even more if the amount produced is too much for them. If fuel efficiency is something you're looking for, you can tackle this challenge and further process your CBD into something even more powerful.
 
 # Quest: Improved Oil Cracker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALxA.name=Improved Oil Cracker
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALxA.name=Craqueur Amélioré
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALxA.desc=Have you built an Oil Cracker? Have you checked its coils? This multi gets a significant discount to EU/t when upgrading the coils, but it caps at TPV, at a maximum of 50%% discount. If you are still using low-tier coils, this is a great time to upgrade them to Nichrome and enjoy a 40%% discount. You could also do TPV directly.%n%nBy the way, you can wall-share Oil Crackers, just like DTs, LCRs and many other multis, and doing this will save on the amount of coils you need!%n%n§3You only need to do one of the two tasks.
 
 # Quest: Magic Super Fuel
@@ -7210,7 +7210,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALzw.name=Super Distillation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALzw.desc=Your tallest and closest buddy, the Distillation Tower. You've relied on it so much, haven't you? It's time to take it down.%n%nNo, not really, but you can do better now. The catch is that the upgrade to this, the Dangote Distillus, is special in the sense that its crafting recipe is in the Chemical Plant, and the one you have to build for this recipe is very expensive. Should you decide to accept the costs, though, you can build a Dangote in much the same way as the DT, and even upgrade it to tier 2 for better performance (look in NEI for a Distillus Chip, you have to put it in the controller). %n%nIn summary, this multi runs faster than the DT by doing parallels, a recipe done multiple times at once. A quad DT that you were using to distill Oil can be replaced by a Dangote, and so on. Since distillation is usually a bottleneck in speed for oil processing, this multi should prove useful.
 
 # Quest: Maxed Oil Cracker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL0A.name=Maxed Oil Cracker
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL0A.name=Craqueur Maximisé
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL0A.desc=How many oils have you cracked at this point? No matter the number, you can do it cheaper. Once you reach HSS-G coils, you will have achieved the maximum EU/t discount of 50%% on your Oil Crackers, and enjoy the full array of benefits that they can provide you. Don't forget to overclock them if they're running slow, the energy cost is minimal at this point.
 
 # Quest: Super Fuel At The Top
