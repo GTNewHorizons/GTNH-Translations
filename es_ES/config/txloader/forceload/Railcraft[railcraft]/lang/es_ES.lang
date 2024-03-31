@@ -1,10 +1,10 @@
 chat.railcraft.api.error=Error: API obsoleto, mira el log para mas información.
 
 command.railcraft.aliases=Aliases: %s
-command.railcraft.help=Type '%s' for help.
-command.railcraft.list=Available Sub-Commands:
-command.railcraft.permlevel=Permission Level: %s
-command.railcraft.noperms=You do not have permission to use this command.
+command.railcraft.help=Escribe '%s' para ayuda.
+command.railcraft.list=Subcomandos disponibles:
+command.railcraft.permlevel=Nivel de Autorización: %s
+command.railcraft.noperms=No tienes permiso para usar este comando.
 
 command.railcraft.railcraft.help=Various commands for Railcraft
 command.railcraft.railcraft.format=Formato: /%s <sub-command>
@@ -14,7 +14,7 @@ command.railcraft.railcraft.admin.help=Tools for administration.
 command.railcraft.railcraft.admin.format=Formato: /%s
 
 command.railcraft.railcraft.admin.kill.desc=- %s : Kill Tasks
-command.railcraft.railcraft.admin.kill.help=Tools for killing things.
+command.railcraft.railcraft.admin.kill.help=Herramientas para matar.
 command.railcraft.railcraft.admin.kill.format=Formato: /%s
 
 command.railcraft.railcraft.admin.kill.animals.desc=- %s : Kill Animals
@@ -381,8 +381,8 @@ railcraft.gui.detector.item.empty=Vacío
 railcraft.gui.detector.item.exactly=Exactamente
 railcraft.gui.detector.item.filtered=Filtrado
 railcraft.gui.detector.item.full=Lleno
-railcraft.gui.detector.item.greater_than=Greater Than
-railcraft.gui.detector.item.less_than=Less Than
+railcraft.gui.detector.item.greater_than=Mayor que
+railcraft.gui.detector.item.less_than=Menor que
 railcraft.gui.detector.item.not_empty=No Vacío
 railcraft.gui.detector.loco.primary=Color Primario
 railcraft.gui.detector.loco.secondary=Color secundario
@@ -555,7 +555,7 @@ railcraft.gui.surveyor.unloaded=La Primera Señal no esta en un Chunk cargado
 railcraft.gui.surveyor.wrong=No es un Bloque de Señal válido
 
 railcraft.gui.switch.motor.action=Encender Aspecto
-railcraft.gui.switch.motor.redstone=Ignore Redstone
+railcraft.gui.switch.motor.redstone=Ignorar Redstone
 
 railcraft.gui.tank.iron=Tanque de Hierro
 railcraft.gui.tank.steel=Tanque de Acero
@@ -825,11 +825,11 @@ tile.railcraft.machine.gamma.unloader.item.tip=Descarga objetos de vagonetas\n§
 tile.railcraft.machine.gamma.unloader.liquid.name=Descargador de Líquidos
 tile.railcraft.machine.gamma.unloader.liquid.tip=Descarga líquidos de vagonetas\n§o§c- Poner debajo de la vía -
 
-railcraft.gui.tank.aluminium=Aluminium Tank
-railcraft.gui.tank.stainless=Stainless Steel Tank
-railcraft.gui.tank.titanium=Titanium Tank
-railcraft.gui.tank.tungstensteel=Tungstensteel Tank
-railcraft.gui.tank.palladium=Palladium Tank
+railcraft.gui.tank.aluminium=Tanque de Aluminio
+railcraft.gui.tank.stainless=Tanque de Acero Inoxidable
+railcraft.gui.tank.titanium=Tanque de Titanio
+railcraft.gui.tank.tungstensteel=Tanque de Acero de Tungsteno
+railcraft.gui.tank.palladium=Tanque de Paladio
 
 tile.railcraft.machine.zeta.tank.aluminium.gauge.name=Aluminium Tank Gauge
 tile.railcraft.machine.zeta.tank.aluminium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
@@ -862,9 +862,9 @@ tile.railcraft.machine.zeta.tank.palladium.valve.tip=Multi-Block: Must be in bot
 tile.railcraft.machine.zeta.tank.palladium.wall.name=Palladium Tank Wall
 tile.railcraft.machine.zeta.tank.palladium.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
 
-railcraft.gui.tank.iridium=Iridium Tank
-railcraft.gui.tank.osmium=Osmium Tank
-railcraft.gui.tank.neutronium=Neutronium Tank
+railcraft.gui.tank.iridium=Tanque de Iridio
+railcraft.gui.tank.osmium=Tanque de Osmio
+railcraft.gui.tank.neutronium=Tanque de Neutronio
 
 tile.railcraft.machine.eta.tank.iridium.gauge.name=Iridium Tank Gauge
 tile.railcraft.machine.eta.tank.iridium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
