@@ -1309,33 +1309,33 @@ tc.research_page.COREUSE.3=      §nAprimoramento de Ar Liberado§r<IMG>thaumcra
 #
 tc.research_name.COREFILL=Núcleo do Golem: Reunir
 tc.research_text.COREFILL=Estocando um inventário
-tc.research_page.COREFILL.1=Golems fitted with this core will examine inventories you have marked for certain items, and place them in their home inventory.<BR>There are two modes of operation:<BR>In §5Precise Amount§0 mode the golem will fill its home inventory with the specified items until it contains an amount equal to the amount you specified in its interface.<BR>In §5Any Amount§0 mode the golem will keep filling the current inventory with the specified items as long as there is room and available items.
+tc.research_page.COREFILL.1=Golens instalados com este núcleo irão examinar os inventários que você marcou para certos itens, e coloca-los no inventário acoplado.<BR>Esse núcleo pode funcionar de duas formas:<BR>No Modo de §5Quantia Precisa§0, o golem irá encher o inventário acoplado com os itens especificados até que uma certa quantidade seja alcançada, especificada clicando direito no golem.<BR>Já no modo §5Qualquer Quantia§0 o golem continuará enchendo o inventário com os itens especificados até que ele fique sem espaço ou não haja mais itens para transferir.
 #
 tc.research_name.COREHARVEST=Núcleo do Golem: Colher
-tc.research_text.COREHARVEST=Animated Farmer
+tc.research_text.COREHARVEST=Agricultor Animado
 tc.research_page.COREHARVEST.1=Golems fitted with this core need not be attached to an inventory. They seek out fully grown crops, reeds and other commonly farmed plants within a small radius and harvests them. The harvested material simply drops to the ground and must be gathered by some other means.<BR>Unfortunately they are not smart enough to replant the crops they have harvested, but you are sure with a bit of work you might be able to eventually fix that bug.
-tc.research_page.COREHARVEST.2=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Harvest golems fitted with this upgrade will now attempt to replant the crop they just harvested. This could fail if the plant failed to drop the proper seed or seedling.
+tc.research_page.COREHARVEST.2=     §nMelhoria de Ordem Liberada§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Golens instalados com esta melhoria irão tentar replantar o que eles colherem. Isso pode falhar se a planta não derrubar uma semente.
 #
 tc.research_name.CORELUMBER=Núcleo do Golem: Cortar
-tc.research_text.CORELUMBER=Animated lumberjack
-tc.research_page.CORELUMBER.1=Like Harvester golems, Lumberjack golems can be placed anywhere. They will seek out nearby trees and chop them down. Stronger golems will chop them down faster.<BR>Lumberjack golems do not replant the trees they have chopped down.
+tc.research_text.CORELUMBER=Lenhador Animado
+tc.research_page.CORELUMBER.1=Assim como os golens Coletores, os golens Lenhadores podem ser colocados em qualquer lugar. Eles irão procurar a árvore mais próxima e corta-las.  Quanto mais forte for o golem, mais rápido ele cortará a árvore.<BR>Golens Lenhadores não irão replantar as árvores que eles cortam.
 #
 tc.research_name.COREGUARD=Núcleo do Golem: Proteger
-tc.research_text.COREGUARD=Guarding your valuables
-tc.research_page.COREGUARD.1=Golems fitted with this core act as guards, attacking any hostile creatures within range.<BR>You are sure with a little bit of tinkering you could make the golem a bit more selective with the targets it attacks, but for now it only seeks out aggressive mobs other than creepers.
-tc.research_page.COREGUARD.2=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>If you fit this upgrade you can specify the types of creatures the golem will attack. The golem will also be able to attack more than just hostile entities.
+tc.research_text.COREGUARD=Protegendo o que importa
+tc.research_page.COREGUARD.1=Golens instalado com este núcleo agem como guardas, atacando qualquer criatura hostil que entrar na sua área de detecção.<BR>Você acha que com mexendo um pouco neles, você pode fazer com que os golens possam selecionar os seus alvos, mas por enquanto ele irá atrás de monstros agresivos que não se chamam creeper.
+tc.research_page.COREGUARD.2=     §nMelhoria de Ordem Liberada§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Se você instalar esta melhoria no golem, você poderá especificar qual criatura o golem irá atacar. Ele também poderá atacar mais do que entidades hostis.
 #
-tc.research_name.COREBUTCHER=Golem Core: Butcher
-tc.research_text.COREBUTCHER=Bloody to the armpits
-tc.research_page.COREBUTCHER.1=This core is a refinement of the standard Guard core.<BR>A golem fitted with this core will only attack animals, but it is intelligent enough to only attack the oldest, fully grown adults and always make sure that a breeding pair remains.
+tc.research_name.COREBUTCHER=Núcleo de Golem: Açougueiro
+tc.research_text.COREBUTCHER=Encharcado de sangue animal
+tc.research_page.COREBUTCHER.1=Este núcleo é um aprimoramento ao núcleo de Guarda padrão.<BR>Um golem instalado com este núcleo só atacará animais, mas é inteligente o bastante para matar apenas os adultos, e sempre deixará um par para reprodução.
 #
 tc.research_name.CORELIQUID=Núcleo do Golem: Decantar
-tc.research_text.CORELIQUID=Keeping a tank filled with liquid
+tc.research_text.CORELIQUID=Enchendo um tanque com liquido
 tc.research_page.CORELIQUID.1=Golems fitted with this core will attempt to keep the liquid inventory they are attached to filled with an appropriate liquid.<BR>If you wish, you can specify what liquid should placed in the tank by accessing the golems interface and placing a liquid container (like a filled bucket) in a slot. All other liquids will be ignored.<BR>A decanting golem can only carry 100mb of liquid per item its material type is normally allowed to carry, though they will always carry a full buckets worth if instructed to pick up liquids blocks in the world.
-tc.research_page.CORELIQUID.2=    §nEntropy Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>If you fit this upgrade the golem will first try and pick up the furthest possible fluid block attached to any you have marked. This will allow it to empty pools of liquid and not just the one block you marked.<BR>It will only search as far as its sight range allows, and the distance is measured in actual blocks searched to get to the target block and not a straight line.
+tc.research_page.CORELIQUID.2=    §nMelhoria de Entropia Liberada§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Se você instalar esta melhoria no golem, ele tentará pegar o fluido mais longe possível dentre os que você tenha marcado. Isso fará com que ele pegue todos os liquidos em uma área, e não apenas aquele marcado.<BR>Ele só irá procurar  blocos que estiverem na sua linha de visão, e a distância é em relação a blocos andados, e não em linha reta.
 #
-tc.research_name.CORESORTING=Golem Core: Sorting
-tc.research_text.CORESORTING=Keeping things in order
+tc.research_name.CORESORTING=Núcleo de Golem: Organização
+tc.research_text.CORESORTING=Organizando as coisas
 tc.research_page.CORESORTING.1=This core works much like an Empty core with one key difference: It only takes an item from its home inventory if it already exists in one of its marked inventories. This makes it exceedingly useful to sort unordered items in a container into their proper places.<BR>You cannot specify specific items to include or exclude like you can with the normal Empty core.
 #
 tc.research_name.COREFISHING=Golem Core: Fishing
