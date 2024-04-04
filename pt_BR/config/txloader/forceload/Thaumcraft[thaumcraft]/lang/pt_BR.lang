@@ -1260,7 +1260,7 @@ tc.research_page.GOLEMSTRAW.2=O golem que você criou pode ser colocado no mundo
 tc.research_page.GOLEMSTRAW.3=O primeiro golem que você criou é feito de feno e palha.<BR>§l§nAtributos do golem de palha§r<BR>§lDurabilidade:§r Muito Baixa<BR>§lForça:§r Muito Baixa<BR>§lAuto reparo:§r Padrão<BR>§lLimite de Carga:§r 1<BR>§lVelocidade:§r Rápido<BR>§lEspaço de Melhorias:§r 1
 #
 tc.research_name.GOLEMWOOD=Golem de Madeira
-tc.research_text.GOLEMWOOD=How much wood would a wood golem chop if a wood golem could chop wood?
+tc.research_text.GOLEMWOOD=MADEIRA!
 tc.research_page.GOLEMWOOD.1=Este golem foi entalhado em uma Madeira Grandiosa. É uma moderada melhoria em comparação ao de palha.<BR>§l§nAtributos do golem de madeira§r<BR>§lDurabilidade:§r Abaixo do Padrão<BR>§lForça:§r Baixa<BR>§lAuto reparo:§r Padrão<BR>§lLimite de Carga:§r 4<BR>§lVelocidade:§r Abaixo do Padrão<BR>§lEspaço de Melhorias:§r 1
 #
 tc.research_name.GOLEMTALLOW=Golem de Sebo
@@ -1336,18 +1336,18 @@ tc.research_page.CORELIQUID.2=    §nMelhoria de Entropia Liberada§r<IMG>thaumc
 #
 tc.research_name.CORESORTING=Núcleo de Golem: Organização
 tc.research_text.CORESORTING=Organizando as coisas
-tc.research_page.CORESORTING.1=This core works much like an Empty core with one key difference: It only takes an item from its home inventory if it already exists in one of its marked inventories. This makes it exceedingly useful to sort unordered items in a container into their proper places.<BR>You cannot specify specific items to include or exclude like you can with the normal Empty core.
+tc.research_page.CORESORTING.1=Este núcleo funciona como um núcleo de Esvaziar só que com uma importante diferença: ele só irá pegar itens do inventário acoplado se ele também existir em um dos inventários marcados. Isso é extremamente útil para organizar itens em um container e leva-los para seus devidos lugares.<BR>Você não pode especificar a quantidade de itens para incluir our excluir como você pode fazer com o núcleo de Esvaziar.
 #
-tc.research_name.COREFISHING=Golem Core: Fishing
-tc.research_text.COREFISHING=Sea shanties sold separately
-tc.research_page.COREFISHING.1=This core allows a golem to fish for your supper.<BR>For best results the golem needs to be placed near deep and open water.<BR>Golem strength determines fishing speed.<BR>
-tc.research_page.COREFISHING.2=      §nAir Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>A fishing golem fitted with this upgrade has a small chance of catching more than one thing at a time.
-tc.research_page.COREFISHING.3=      §nFire Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>A fishing golem fitted with this upgrade will automatically cook any fish it catches.
-tc.research_page.COREFISHING.4=     §nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Order upgrades will increase the chance of getting good fishing results.
-tc.research_page.COREFISHING.5=    §nEntropy Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Entropy upgrades will reduce the chance of getting bad fishing results.
+tc.research_name.COREFISHING=Núcleo de Golem: Pescaria
+tc.research_text.COREFISHING=yo ho ho e uma garrafa de rum
+tc.research_page.COREFISHING.1=Este núcleo permite que um golem pesque sua próxima refeição.<BR>Para um melhor resultado, coloque o golem perto de um bloco de água fundo e bem espaçoso.<BR>A força do golem determina o quão rápido ele vai pescar.<BR>
+tc.research_page.COREFISHING.2=      §nMelhora de Ar Liberada§r<IMG>thaumcraft:textures/items/golem_upgrade_air.png:0:0:255:255:0.0625</IMG>Um golem Pescador instalado com este núcleo tem uma chance de pegar mais de um item de uma só vez.
+tc.research_page.COREFISHING.3=      §nMelhoria de Fogo Liberada§r<IMG>thaumcraft:textures/items/golem_upgrade_fire.png:0:0:255:255:0.0625</IMG>Um golem Pescador instalado com esta melhoria irá cozinhar o peixe automaticamente.
+tc.research_page.COREFISHING.4=     §nMelhoria de Ordem Liberada§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Melhorias de Ordem vão aumentar a chance de conseguir itens bons.
+tc.research_page.COREFISHING.5=    §nMelhoria de Entropia Liberado§r<IMG>thaumcraft:textures/items/golem_upgrade_entropy.png:0:0:255:255:0.0625</IMG>Melhorias de entropia irão reduzir a chance de conseguir itens ruins.
 #
 tc.research_name.COREALCHEMY=Núcleo do Golem: Alquimia
-tc.research_text.COREALCHEMY=Moving essentia around
+tc.research_text.COREALCHEMY=Circulando essência
 tc.research_page.COREALCHEMY.1=This core is a specialized version of a decanting core, specifically designed to transport essentia.<BR>Alchemy golems assigned to an alchemy furnace or alembic it will draw essentia from the entire stack of alembics and transport it to marked warded jars. It is not required to mark every single jar - the golem will automatically fill all jars adjacent to the marked jar and all other similarly connected jars.<BR>Alchemy golems prioritize nearby jars first and will try to fill an entire jar before starting on a new one.
 tc.research_page.COREALCHEMY.2=They will also favor labeled jars over unlabeled ones. If there are full void jars they will try and fill normal jars first, unless the void jar is labeled. In the case of ties void jars are always filled last.<BR>Alchemy golems can also transport essentia between most other essentia storage containers and blocks that accept essentia.
 #
