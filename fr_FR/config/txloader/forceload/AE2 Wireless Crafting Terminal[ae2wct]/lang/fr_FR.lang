@@ -1,6 +1,6 @@
 #Items
 item.wirelessCraftingTerminal.name=Terminal de fabrication sans-fil
-item.infinityBoosterCard.name=Infinity Booster Card
+item.infinityBoosterCard.name=Carte Booster Infini
 item.magnetCard.name=Carte magnétique
 itemGroup.ae2wct=§9Terminal AE2 de fabrication sans-fil
 
@@ -8,31 +8,31 @@ itemGroup.ae2wct=§9Terminal AE2 de fabrication sans-fil
 gui.tooltips.ae2wct.PressShift=Maintenez Majuscule pour plus d'info
 gui.tooltips.ae2wct.OnlyWorks=Fonctionne uniquement dans l'emplacement du terminal de fabrication sans-fil !
 gui.tooltips.ae2wct.TitleDesc=Description
-gui.tooltips.ae2wct.InfinityBoosterDesc=Allows a linked AE2 Wireless Crafting Terminal to be used at any distance and across dimensions.
-gui.tooltips.ae2wct.MagnetDesc=A magnet that automagically inserts items into the AE network.
+gui.tooltips.ae2wct.InfinityBoosterDesc=Permet à un terminal de fabrication sans-fil AE2 d'être utilisé peut importe la distance et à travers les dimensions
+gui.tooltips.ae2wct.MagnetDesc=Un aimant qui insère automatiquement des objets dans le réseau AE.
 gui.tooltips.ae2wct.MagnetDesc2=Clic-droit pour mettre un filtre
-gui.tooltips.ae2wct.LinkStatus=Link Status
+gui.tooltips.ae2wct.LinkStatus=Statut de la connection
 gui.tooltips.ae2wct.Installed=Installé
 gui.tooltips.ae2wct.NotInstalled=Non installé
 gui.tooltips.ae2wct.Active=Actif
 gui.tooltips.ae2wct.Inactive=Inactif
 gui.tooltips.ae2wct.Status=Statut
 gui.tooltips.ae2wct.EmptyTrash=Vider la poubelle
-gui.tooltips.ae2wct.EmptyTrashDesc=Delete contents of the Trash slot
+gui.tooltips.ae2wct.EmptyTrashDesc=Supprimer le contenu de l'emplacement poubelle
 gui.tooltips.ae2wct.MagnetFilterTitle=Filtre de l'aimant
 gui.tooltips.ae2wct.FilterMode=Mode de filtrage
 gui.tooltips.ae2wct.Whitelisting=Liste blanche
 gui.tooltips.ae2wct.Blacklisting=Liste noire
-gui.tooltips.ae2wct.MagnetActiveDesc1=Extra items added to inventory
-gui.tooltips.ae2wct.MagnetActiveDesc2=Extra items left on ground
-gui.tooltips.ae2wct.Not=Not
+gui.tooltips.ae2wct.MagnetActiveDesc1=Objets additionnels ajoutés à l'inventaire
+gui.tooltips.ae2wct.MagnetActiveDesc2=Objets additionnels laissés au sol
+gui.tooltips.ae2wct.Not=Non
 gui.tooltips.ae2wct.Using=Utilisant
 gui.tooltips.ae2wct.Ignore=Ignorer
 gui.tooltips.ae2wct.Ignoring=Ignorant
 gui.tooltips.ae2wct.NBTData=NBT Data
 gui.tooltips.ae2wct.MetaData=Meta Data
-gui.tooltips.ae2wct.OreDict=Ore Dictionary
-gui.tooltips.ae2wct.FilteredItems=Filtered Items
+gui.tooltips.ae2wct.OreDict=dictionnaire Ore
+gui.tooltips.ae2wct.FilteredItems=Objets Filtrés
 gui.tooltips.ae2wct.OrPress=ou pressez
 gui.tooltips.ae2wct.Press=Appuyez
 gui.tooltips.ae2wct.ToSwitchMode=pour changer le mode de l'aimant
@@ -41,23 +41,23 @@ gui.tooltips.ae2wct.ToSwitchMode=pour changer le mode de l'aimant
 gui.labels.ae2wct.WirelessTermLabel=Terminal sans-fil
 
 #Config Descriptions
-config.ae2wct.MaxPowerDesc=Maximum Power in AE units the wireless terminal can hold
-config.ae2wct.InfinityBoosterCfgDesc=Enable Infinite Range Booster Upgrade
-config.ae2wct.EasyModeDesc=Enable Easy Mode (Easier Recipes+Infinity Booster Recipe)
-config.ae2wct.BoosterDropChance=Chance that Wither will drop Infinity Booster Card (in %-100=always drop)
-config.ae2wct.DisableBoosterDrop=Enabled Booster Card drops in hard mode (true=enabled)
-config.ae2wct.MineTweakerOverride=Enable MineTweaker Override (true=disables all recipes)
+config.ae2wct.MaxPowerDesc=Puissance maximale (en unités AE) pouvant être contenue dans le terminal sans-fil
+config.ae2wct.InfinityBoosterCfgDesc=Activer le Booster de Portée Infinie
+config.ae2wct.EasyModeDesc=Activer le Mode Facile (Recette plus simples et recette pour le Booster Infini)
+config.ae2wct.BoosterDropChance=Chances que le Wither puisse faire tombé une Carte Booster Infini (si %-100 = toujours tombé)
+config.ae2wct.DisableBoosterDrop=Active les drop de Carte Booster en mode dificile (vrai = activé)
+config.ae2wct.MineTweakerOverride=Activer le Forçage de MineTweaker (vrai = désactive toute les recettes)
 config.ae2wct.DoVersionCheck=Vérifier les mises à jour
 config.ae2wct.NewVersionAvailable=Une nouvelle version de Wireless Crafting Terminal est disponible !
 config.ae2wct.ClickString=["Cliquez ici pour aller à la page de téléchargement [",{"text":"Télécharger","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Cliquez ici pour télécharger la dernière version","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
-config.ae2wct.SaveSearchString=Persist terminal search string between sessions
+config.ae2wct.SaveSearchString=Fait persévérer les chaînes de texte dans les terminaux entre chaque sessions
 
 #Achievements
-achievement.wctAchievement=Digital Crafting Over WiFi
+achievement.wctAchievement=Fabrication Digitale par WiFi
 achievement.wctAchievement.desc=Fabriquez un terminal de fabrication sans-fil
-achievement.boosterAchievement=Interdimensional Crafting Sack
-achievement.boosterAchievement.desc=Aquire an Infinity Booster Card
-achievement.magnetAchievement=Digital Hoover
+achievement.boosterAchievement=Sac de Fabrication Interdimensionnel
+achievement.boosterAchievement.desc=Obtiens une Carte Booster Infini
+achievement.magnetAchievement=Aspirateur Digital
 achievement.magnetAchievement.desc=Fabriquez une carte magnétique
 
 #Chat Messages
