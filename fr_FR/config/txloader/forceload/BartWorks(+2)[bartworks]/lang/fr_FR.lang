@@ -101,13 +101,13 @@ tooltip.teslastaff.0.name=Pas de garantie!
 tooltip.labmodule.0.name=Module utilisé pour changer le mode de fonctionnement du BioLab
 tooltip.labparts.0.name=Une boîte de pétri vide et stérile.
 tooltip.labparts.1.name=Un tube à essai pour ADN, vide.
-tooltip.labparts.2.name=An empty Plasmid Cell.
+tooltip.labparts.2.name=Un tube à essai pour plasmide, vide.
 tooltip.labparts.3.name=Une poudre de lavage spéciale pour la Bio ingénierie 
 tooltip.labparts.4.name=Une poudre pour la séparation d'ADN par électrophorèse
 tooltip.labparts.5.name=Une boîte de pétri contenant:
-tooltip.labparts.6.name=Ceci est une culture fragile, elle ne peut pas être élevée dans la Cuve à Bactéries!
+tooltip.labparts.6.name=Ceci est une culture fragile, elle ne peut pas être élevée dans la Cuve à bactéries!
 tooltip.labparts.7.name=Un tube à essai contenant l'ADN suivant:
-tooltip.labparts.8.name=A Plasmid Cell containing:
+tooltip.labparts.8.name=Un tube à essai contenant du plasmide
 
 tooltip.tile.waterpump.0.name=Produit
 tooltip.tile.waterpump.1.name=L/s Water when fueled. Causes %d Pollution per second.
@@ -126,7 +126,7 @@ tooltip.tile.tiereddsc.1.name=Ampérage d'entrée:
 tooltip.tile.tiereddsc.2.name=Ampérage de sortie:
 tooltip.tile.tiereddsc.3.name=Capacité:
 tooltip.tile.diode.0.name=Diode simple permettant le passage du courant dans une seule direction.
-tooltip.tile.energydistributor.0.name=Splits Amperage into several Sides.
+tooltip.tile.energydistributor.0.name=Sépare l'ampérage sur les différents côtés
 tooltip.tile.biolab.0.name=Le BioLab, une station de Bio ingénierie à utilisation multiples
 tooltip.tile.radhatch.0.name=Chambre de confinement d'objets radioactifs pour les Multi blocs
 tooltip.tile.radhatch.1.name=Utilisez un tournevis pour fixer le niveau de confinement
@@ -138,65 +138,65 @@ tooltip.tile.radhatch.6.name=t
 tooltip.tile.radhatch.7.name=s
 tooltip.tile.radhatch.8.name=m
 tooltip.tile.radhatch.9.name=h
-tooltip.tile.radhatch.10.name=Remaining: %s s / %s s
-tooltip.tile.acidgen.0.name=An Acid Generator
-tooltip.tile.acidgen.1.name=Creates Power from Chemical Energy Potentials.
+tooltip.tile.radhatch.10.name=Restant: %s s / %s s
+tooltip.tile.acidgen.0.name=Un générateur utilisant les acides
+tooltip.tile.acidgen.1.name=Produit de l'énergie grâce aux potentiels chimiques
 
 # RecipeMap
-bw.recipe.biolab=Bio Lab
-bw.recipe.BacteriaVat=Bacterial Vat
-bw.fuels.acidgens=Acid Generator
+bw.recipe.biolab=Bio lab
+bw.recipe.BacteriaVat=Cuve à bactéries
+bw.fuels.acidgens=Générateur acide
 bw.recipe.cal=Ligne d'Assemblage de circuits
-bw.recipe.radhatch=Radio Hatch Material List
+bw.recipe.radhatch=Nomenclature pour la trappe Radio
 gt.recipe.electricimplosioncompressor=Compresseur à implosions électriques
-bw.recipe.htgr=High Temperature Gas-cooled Reactor
+bw.recipe.htgr=Réacteur haute température refroidi au gaz
 
-nei.biovat.0.name=Needs Glass Tier: %s
-nei.biovat.1.name=Need exactly Sievert: %s Sv
-nei.biovat.2.name=Need minimum Sievert: %s Sv
-nei.biovat.input.tooltip=Consumed up to 1,001x amount, depending on output rate
-nei.biovat.output.tooltip=Outputs up to 1,001x amount, depending on the amount of fluid stored in the Output Hatch
+nei.biovat.0.name=Tier de verre requis: %s
+nei.biovat.1.name=Besoins exacts en Sievert: %s Sv
+nei.biovat.2.name=Besoins minimums en Sievert: %s Sv
+nei.biovat.input.tooltip=Consomme jusqu'à 1,001 fois la quantité, en fonction du taux de production
+nei.biovat.output.tooltip=Produit jusqu'à 1,001 fois la quantité, en fonction de la quantité de fluide stocké dans la trappe de sortie
 
-tile.diode.name=Cable Diode
-tile.energydistributor.name=Energy Distributor
-tile.acidgenerator.name=Acid Generator
-tile.bw.mbf.name=Mega Blast Furnace
-tile.bw.mvf.name=Mega Vacuum Freezer
-tile.biolab.name=Bio Lab
-tile.biovat.name=Bacterial Vat
-tile.radiohatch.name=Radio Hatch
-tile.bw.windmill.name=Windmill
-tile.manutrafo.name=Manual Trafo
-tile.BioFluidBlock.name=Bio Fluid Block
+tile.diode.name=Diode pour câbles
+tile.energydistributor.name=Distributeur d'énergie
+tile.acidgenerator.name=Générateur acide
+tile.bw.mbf.name=Méga haut fourneau
+tile.bw.mvf.name=Méga congélateur à vide
+tile.biolab.name=Bio lab
+tile.biovat.name=Cuve à bactéries
+tile.radiohatch.name=Trappe Radio
+tile.bw.windmill.name=Moulin à vent
+tile.manutrafo.name=Trafo manuel
+tile.BioFluidBlock.name=Bloc bio fluide
 
-item.TRISOPellet.name=TRISO pebble
-item.TRISOPelletBall.name=TRISO pebble ball
-item.BISOPelletBall.name=BISO pebble ball
-item.TRISOPelletCompound.name=TRISO pebble compound
-item.BISOPelletCompound.name=BISO pebble compound
-item.BurnedOutTRISOPelletBall.name=Burned Out TRISO pebble ball
-item.BurnedOutTRISOPellet.name=Burned Out TRISO pebble
+item.TRISOPellet.name=Pastille de TRISO
+item.TRISOPelletBall.name=Boule à pastille TRISO
+item.BISOPelletBall.name=Pastille de BISO
+item.TRISOPelletCompound.name=Composé pour pastilles TRISO
+item.BISOPelletCompound.name=Composé pour pastilles BISO
+item.BurnedOutTRISOPelletBall.name=Boule à pastille TRISO calcinée 
+item.BurnedOutTRISOPellet.name=Pastille TRISO calcinée 
 
 itemGroup.bartworksMetaMaterials=BartWorks' Meta Materials
 
 planet.Ross128b=Ross128b
 moon.Ross128ba=Ross128ba
 star.Ross128=Ross128
-solarsystem.Ross128System=Ross128-System
+solarsystem.Ross128System=Système Ross128
 
 itemGroup.bw.MetaItems.0=BartWorks Circuit Overhaul Items
 
-BW.infoData.BioVat.expectedProduction=Expected Production
+BW.infoData.BioVat.expectedProduction=Production attendue
 BW.infoData.BioVat.production=Production
 
 BW.NEI.display.radhatch.0=Sievert: %s Sv
-BW.NEI.display.radhatch.1=Mass: %s kg
-BW.NEI.display.radhatch.2=Time: %s s
+BW.NEI.display.radhatch.1=Masse: %s kg
+BW.NEI.display.radhatch.2=Temps: %s s
 
-misc.BatchModeTextOn=Batch recipes
-misc.BatchModeTextOff=Don't batch recipes
+misc.BatchModeTextOn=Recettes à la chaîne
+misc.BatchModeTextOff=N'effectuez pas de recettes à la chaîne
 
-tooltip.cal.imprintedWith=Imprinted with:
-chat.cal.mode.0=Circuit Assembly Line Mode
-chat.cal.mode.1=Circuit Assembler Mode
+tooltip.cal.imprintedWith=Imprimé avec:
+chat.cal.mode.0=Mode de la ligne d'assemblage de circuits
+chat.cal.mode.1=Mode de l'assembleur de circuits
 #Liquids
