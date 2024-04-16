@@ -1,140 +1,157 @@
 # Items
-tile.architecturecraft:sawbench.name=Architect's Sawbench
-tile.architecturecraft:shape.name=Architectural Block
-tile.architecturecraft:shapeSE.name=Architectural Block(Glow)
-item.architecturecraft:largePulley.name=Large Pulley
-item.architecturecraft:sawblade.name=Circular Saw Blade
-item.architecturecraft:chisel.name=Architect's Chisel
-item.architecturecraft:hammer.name=Architect's Hammer
-item.architecturecraft:cladding.name=Cladding
+tile.architecturecraft:sawbench.name=Banc de sciage d'architecte
+tile.architecturecraft:shape.name=Bloc architectural
+tile.architecturecraft:shapeSE.name=Bloc architectural(Brillant)
+item.architecturecraft:largePulley.name=Grande poulie
+item.architecturecraft:sawblade.name=Lame de scie circulaire
+item.architecturecraft:chisel.name=Chisel d'architecte
+item.architecturecraft:hammer.name=Marteau d'architecte
+item.architecturecraft:cladding.name=Revêtement
 
 # Container
-gui.architecturecraft.Sawbench=Sawbench
-gui.architecturecraft.Makes=makes
+gui.architecturecraft.Sawbench=Banc de sciage
+gui.architecturecraft.Makes=donne
 
 # Gui Colors
 gui.architecturecraft.FontColor=404040
 gui.architecturecraft.SelectedBgColor=66CCFF
 
 # Pages
-gui.architecturecraft.Roofing=Roofing
-gui.architecturecraft.Rounded=Rounded
-gui.architecturecraft.Classical=Classical
-gui.architecturecraft.Window=Window
+gui.architecturecraft.Roofing=Toitures
+gui.architecturecraft.Rounded=Arrondis
+gui.architecturecraft.Classical=Classiques
+gui.architecturecraft.Window=Vitrages
 gui.architecturecraft.Arches=Arches
-gui.architecturecraft.Railings=Railings
-gui.architecturecraft.Other=Other
+gui.architecturecraft.Railings=Garde-corps
+gui.architecturecraft.Other=Autres
+gui.architecturecraft.Glow=Brillant
 
 # Shapes
-gui.architecturecraft.RoofTile=Roof Tile
-gui.architecturecraft.RoofOuterCorner=Roof Outer Corner
-gui.architecturecraft.RoofInnerCorner=Roof Inner Corner
-gui.architecturecraft.RoofRidge=Gabled Roof Ridge
-gui.architecturecraft.RoofSmartRidge=Hip Roof Ridge
-gui.architecturecraft.RoofValley=Gabled Roof Valley
-gui.architecturecraft.RoofSmartValley=Hip Roof Valley
+gui.architecturecraft.RoofTile=Tuile de toit
+gui.architecturecraft.RoofOuterCorner=Coin externe de toit
+gui.architecturecraft.RoofInnerCorner=Coin intérieur de toit
+gui.architecturecraft.RoofRidge=Faîte de toit à pignons
+gui.architecturecraft.RoofSmartRidge=Faîte de toit en croupe
+gui.architecturecraft.RoofValley=Noue de toit à pignons
+gui.architecturecraft.RoofSmartValley=Noue de toit en croupe
 
-gui.architecturecraft.RoofOverhang=Roof Overhang
-gui.architecturecraft.RoofOverhangOuterCorner=Roof Overhang Outer Corner
-gui.architecturecraft.RoofOverhangInnerCorner=Roof Overhang Inner Corner
+gui.architecturecraft.RoofOverhang=Débord de toit
+gui.architecturecraft.RoofOverhangOuterCorner=Coin extérieur de débord de toit 
+gui.architecturecraft.RoofOverhangInnerCorner=Coin intérieur de débord de toit
 
-gui.architecturecraft.Cylinder=Cylinder
-gui.architecturecraft.CylinderHalf=Half Cylinder
-gui.architecturecraft.CylinderQuarter=Quarter Cylinder
-gui.architecturecraft.CylinderLargeQuarter=Round Outer Corner
-gui.architecturecraft.AnticylinderLargeQuarter=Round Inner Corner
-gui.architecturecraft.Pillar=Round Pillar
-gui.architecturecraft.Post=Round Post
-gui.architecturecraft.Pole=Round Pole
+gui.architecturecraft.Cylinder=Cylindre
+gui.architecturecraft.CylinderHalf=Demi cylindre
+gui.architecturecraft.CylinderQuarter=Quart de cylindre
+gui.architecturecraft.CylinderLargeQuarter=Coin extérieur arrondi
+gui.architecturecraft.AnticylinderLargeQuarter=Coin intérieur arrondi
+gui.architecturecraft.Pillar=Colonne cylindrique
+gui.architecturecraft.Post=Poteau cylindrique
+gui.architecturecraft.Pole=Piquet cylindrique
 
-gui.architecturecraft.BevelledOuterCorner=Bevelled Outer Corner
-gui.architecturecraft.BevelledInnerCorner=Bevelled Inner Corner
+gui.architecturecraft.BevelledOuterCorner=Coin extérieur biseauté
+gui.architecturecraft.BevelledInnerCorner=Coin intérieur biseauté
 
-gui.architecturecraft.PillarBase=Round Pillar Base
-gui.architecturecraft.DoricCapital=Doric Capital
-gui.architecturecraft.IonicCapital=Ionic capital
-gui.architecturecraft.CorinthianCapital=Corinthian capital
-gui.architecturecraft.DoricTriglyph=Triglyph
-gui.architecturecraft.DoricTriglyphCorner=Triglyph Corner
-gui.architecturecraft.DoricMetope=Metope
+gui.architecturecraft.PillarBase=Socle de colonne cylindrique
+gui.architecturecraft.DoricCapital=Chapiteau dorique
+gui.architecturecraft.IonicCapital=Chapiteau ionique
+gui.architecturecraft.CorinthianCapital=Chapiteau corinthien
+gui.architecturecraft.DoricTriglyph=Triglyphe
+gui.architecturecraft.DoricTriglyphCorner=Coin de triglyphe
+gui.architecturecraft.DoricMetope=Métope
 gui.architecturecraft.Architrave=Architrave
-gui.architecturecraft.ArchitraveCorner=Architrave Corner
+gui.architecturecraft.ArchitraveCorner=Coin d'architrave
 
-gui.architecturecraft.WindowFrame=Window Frame
-gui.architecturecraft.WindowCorner=Window Corner
-gui.architecturecraft.WindowMullion=Window Mullion
+gui.architecturecraft.WindowFrame=Cadre de vitrage
+gui.architecturecraft.WindowCorner=Coin de vitrage
+gui.architecturecraft.WindowMullion=Meneau de vitrage
 
 gui.architecturecraft.SphereFull=Sphere
-gui.architecturecraft.SphereHalf=Hemisphere
-gui.architecturecraft.SphereQuarter=Quarter Sphere
-gui.architecturecraft.SphereEighth=Quarter Hemisphere
-gui.architecturecraft.SphereEighthLarge=Round Outer Corner Cap
-gui.architecturecraft.SphereEighthLargeRev=Round Inner Corner Cap
+gui.architecturecraft.SphereHalf=Demi sphère
+gui.architecturecraft.SphereQuarter=Quart de sphère
+gui.architecturecraft.SphereEighth=Quart de demi sphère
+gui.architecturecraft.SphereEighthLarge=Capuchon de coin extérieur arrondi
+gui.architecturecraft.SphereEighthLargeRev=Capuchon de coin intérieur arrondi
 
-gui.architecturecraft.RoofOverhangGableLH=Gable Overhang LH
-gui.architecturecraft.RoofOverhangGableRH=Gable Overhang RH
-gui.architecturecraft.RoofOverhangGableEndLH=Gable Overhang LH End
-gui.architecturecraft.RoofOverhangGableEndRH=Gable Overhang RH End
-gui.architecturecraft.RoofOverhangRidge=Ridge Overhang
-gui.architecturecraft.RoofOverhangValley=Valley Overhang
+gui.architecturecraft.RoofOverhangGableLH=Débord de pignon (Gauche)
+gui.architecturecraft.RoofOverhangGableRH=Débord de pignon (Droite)
+gui.architecturecraft.RoofOverhangGableEndLH=Extrémité de débord de pignon (Gauche)
+gui.architecturecraft.RoofOverhangGableEndRH=Extrémité de débord de pignon (Droite)
+gui.architecturecraft.RoofOverhangRidge=Faîte en débord
+gui.architecturecraft.RoofOverhangValley=Noue en débord
 
-gui.architecturecraft.CorniceLH=Cornice LH
-gui.architecturecraft.CorniceRH=Cornice RH
-gui.architecturecraft.CorniceEndLH=Cornice LH End
-gui.architecturecraft.CorniceEndRH=Cornice RH End
-gui.architecturecraft.CorniceRidge=Cornice Ridge
-gui.architecturecraft.CorniceValley=Cornice Valley
-gui.architecturecraft.CorniceBottom=Cornice Bottom
+gui.architecturecraft.CorniceLH=Corniche (gauche)
+gui.architecturecraft.CorniceRH=Corniche (droite)
+gui.architecturecraft.CorniceEndLH=Extrémité de corniche (gauche)
+gui.architecturecraft.CorniceEndRH=Extrémité de corniche (droite)
+gui.architecturecraft.CorniceRidge=Corniche de faîtage
+gui.architecturecraft.CorniceValley=Corniche de noue
+gui.architecturecraft.CorniceBottom=Pied de corniche
 
-gui.architecturecraft.CladdingSheet=Cladding
+gui.architecturecraft.CladdingSheet=Revêtement
 
-gui.architecturecraft.ArchD1=Arch Diameter 1
-gui.architecturecraft.ArchD2=Arch Diameter 2
-gui.architecturecraft.ArchD3A=Arch Diameter 3 Part A
-gui.architecturecraft.ArchD3B=Arch Diameter 3 Part B
-gui.architecturecraft.ArchD3C=Arch Diameter 3 Part C
-gui.architecturecraft.ArchD4A=Arch Diameter 4 Part A
-gui.architecturecraft.ArchD4B=Arch Diameter 4 Part B
-gui.architecturecraft.ArchD4C=Arch Diameter 4 Part C
+gui.architecturecraft.ArchD1=Diamètre d'arche 1
+gui.architecturecraft.ArchD2=Diamètre d'arche 2
+gui.architecturecraft.ArchD3A=Diamètre d'arche 3 partie A
+gui.architecturecraft.ArchD3B=Diamètre d'arche 3 partie B
+gui.architecturecraft.ArchD3C=Diamètre d'arche 3 partie C
+gui.architecturecraft.ArchD4A=Diamètre d'arche 4 partie A
+gui.architecturecraft.ArchD4B=Diamètre d'arche 4 partie B
+gui.architecturecraft.ArchD4C=Diamètre d'arche 4 partie C
 
-gui.architecturecraft.BanisterPlainBottom=Plain Banister Bottom Transition
-gui.architecturecraft.BanisterPlain=Plain Banister
-gui.architecturecraft.BanisterPlainTop=Plain Banister Top Transition
+gui.architecturecraft.BanisterPlainBottom=Transition basse de rampe d'escalier
+gui.architecturecraft.BanisterPlain=Transition de rampe d'escalier
+gui.architecturecraft.BanisterPlainTop=Transition haute de rampe d'escalier
 
-gui.architecturecraft.BalustradeFancy=Fancy Balustrade
-gui.architecturecraft.BalustradeFancyCorner=Fancy Corner Balustrade
-gui.architecturecraft.BalustradeFancyWithNewel=Fancy Balustrade with Newel
-gui.architecturecraft.BalustradeFancyNewel=Fancy Newel
+gui.architecturecraft.BalustradeFancy=Balustrade de luxe
+gui.architecturecraft.BalustradeFancyCorner=Coin de balustrade de luxe
+gui.architecturecraft.BalustradeFancyWithNewel=Balustrade de luxe avec newel
+gui.architecturecraft.BalustradeFancyNewel=Newel de luxe
 
-gui.architecturecraft.BalustradePlain=Plain Balustrade
-gui.architecturecraft.BalustradePlainOuterCorner=Plain Outer Corner Balustrade
-gui.architecturecraft.BalustradePlainWithNewel=Plain Balustrade with Newel
+gui.architecturecraft.BalustradePlain=Balustrade plate
+gui.architecturecraft.BalustradePlainOuterCorner=Coin extérieur de balustrade plate
+gui.architecturecraft.BalustradePlainWithNewel=Balustrade plate avec newel
 
-gui.architecturecraft.BanisterPlainEnd=Plain Banister End
+gui.architecturecraft.BanisterPlainEnd=Extrémité de rampe plate
 
-gui.architecturecraft.BanisterFancyNewelTall=Tall Fancy Newel
+gui.architecturecraft.BanisterFancyNewelTall=Grand newel de luxe
 
-gui.architecturecraft.BalustradePlainInnerCorner=Plain Inner Corner Balustrade
-gui.architecturecraft.BalustradePlainEnd=Plain Balustrade End
+gui.architecturecraft.BalustradePlainInnerCorner=Coin intérieur de balustrade plate
+gui.architecturecraft.BalustradePlainEnd=Extrémité de balustrade plate
 
-gui.architecturecraft.BanisterFancyBottom=Fancy Banister Bottom Transition
-gui.architecturecraft.BanisterFancy=Fancy Banister
-gui.architecturecraft.BanisterFancyTop=Fancy Banister Top Transition
-gui.architecturecraft.BanisterFancyEnd=Fancy Banister End
+gui.architecturecraft.BanisterFancyBottom=Transition basse de rampe d'escalier de luxe
+gui.architecturecraft.BanisterFancy=Rampe de luxe
+gui.architecturecraft.BanisterFancyTop=Transition haute de rampe d'escalier de luxe
+gui.architecturecraft.BanisterFancyEnd=Extrémité de rampe de luxe
 
-gui.architecturecraft.BanisterPlainInnerCorner=Plain Banister Inner Corner
+gui.architecturecraft.BanisterPlainInnerCorner=Coin intérieur de rampe d'escalier plate 
 
-gui.architecturecraft.Slab=Slab
-gui.architecturecraft.Stairs=Stairs
-gui.architecturecraft.StairsOuterCorner=Stairs Outer Corner
-gui.architecturecraft.StairsInnerCorner=Stairs Inner Corner
+gui.architecturecraft.Slab=Dalle
+gui.architecturecraft.Stairs=Escaliers
+gui.architecturecraft.StairsOuterCorner=Coin extérieur d'escalier
+gui.architecturecraft.StairsInnerCorner=Coin intérieur d'escalier
 
-gui.architecturecraft.SlopeTileA1=Slope A Start
-gui.architecturecraft.SlopeTileA2=Slope A End
-gui.architecturecraft.SlopeTileB1=Slope B Start
-gui.architecturecraft.SlopeTileB2=Slope B Middle
-gui.architecturecraft.SlopeTileB3=Slope B End
-gui.architecturecraft.SlopeTileC1=Slope C 1
-gui.architecturecraft.SlopeTileC2=Slope C 2
-gui.architecturecraft.SlopeTileC3=Slope C 3
-gui.architecturecraft.SlopeTileC4=Slope C 4
+gui.architecturecraft.SlopeTileA1=Début de pente A
+gui.architecturecraft.SlopeTileA2=Extrémité de pente A
+gui.architecturecraft.SlopeTileB1=Début de pente B
+gui.architecturecraft.SlopeTileB2=Milieu de pente A
+gui.architecturecraft.SlopeTileB3=Extrémité de pente B
+gui.architecturecraft.SlopeTileC1=Pente C 1
+gui.architecturecraft.SlopeTileC2=Pente C 2
+gui.architecturecraft.SlopeTileC3=Pente C3
+gui.architecturecraft.SlopeTileC4=Pente C4
+gui.architecturecraft.AngledRoofRidge=Faîte de toit angulaire
+
+gui.architecturecraft.SquareSE=Carré(Brillant)
+gui.architecturecraft.SlabSE=Dalle(Brillante)
+gui.architecturecraft.RoofTileSE=Tuile de toit(Brillante)
+gui.architecturecraft.SlopeTileA1SE=Début de pente A(Brillante) 
+gui.architecturecraft.SlopeTileA2SE=Extrémité de pente A(Brillante)
+gui.architecturecraft.SlopeTileB1SE=Début de pente B(Brillante)
+gui.architecturecraft.SlopeTileB2SE=Milieu de pente B(Brillante)
+gui.architecturecraft.SlopeTileB3SE=Extrémité de pente B(Brillante)
+gui.architecturecraft.SlopeTileC1SE=Pente C 1(Brillante)
+gui.architecturecraft.SlopeTileC2SE=Pente C 2(Brillante)
+gui.architecturecraft.SlopeTileC3SE=Pente C 3(Brillante)
+gui.architecturecraft.SlopeTileC4SE=Pente C 4(Brillante)
+
+gui.architecturecraft.DoubleRoofTile=Double tuile de toit
