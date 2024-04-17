@@ -58,3 +58,9 @@ jobs:
     with:
       target_lang: pl_PL
     secrets: inherit
+  ru_RU:
+    uses: ./.github/workflows/publish-nightly-lang-pack.yml
+    needs: de_DE # Require previous run to finish
+    with:
+      target_lang: ru_RU
+    secrets: inherit

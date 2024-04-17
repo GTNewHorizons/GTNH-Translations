@@ -50,3 +50,8 @@ jobs:
     with:
       target_lang: pl_PL
     secrets: inherit
+  ru_RU:
+    uses: ./.github/workflows/conditional-sync-to-paratranz.yml
+    with:
+      target_lang: ru_RU
+    secrets: inherit

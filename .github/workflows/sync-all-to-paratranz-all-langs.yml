@@ -57,3 +57,9 @@ jobs:
     with:
       target_lang: pl_PL
     secrets: inherit
+  ru_RU:
+    uses: ./.github/workflows/sync-all-to-paratranz.yml
+    needs: de_DE # Require previous run to finish
+    with:
+      target_lang: ru_RU
+    secrets: inherit
