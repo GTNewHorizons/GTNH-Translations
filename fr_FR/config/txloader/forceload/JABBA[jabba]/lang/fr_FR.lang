@@ -17,12 +17,12 @@ text.jabba.ubgrade.core.ender=Turns the barrel into a BSpace barrel
 text.jabba.ubgrade.core.redstone=Permet au tonneau d'émettre de la redstone
 text.jabba.ubgrade.core.hopper=Permet au tonneau d'éjecter automatiquement
 text.jabba.ubgrade.core.storage=Augmente la capacité de stockage de %s stacks
-text.jabba.ubgrade.core.void=Deletes excess added items once the barrel is full.
+text.jabba.ubgrade.core.void=Détruis les objets en excès une fois que le tonneau est rempli
 text.jabba.ubgrade.core.creative=Allows for infinite withdrawals from a barrel.
 
 item.upgrade.side.sticker.name=Sticker
-item.upgrade.side.hopper.name=Hopper facade
-item.upgrade.side.redstone.name=Redstone facade
+item.upgrade.side.hopper.name=Façade d'entonnoir
+item.upgrade.side.redstone.name=Façade redstone
 
 item.upgrade.structural=Structural MK
 
@@ -35,24 +35,24 @@ item.hammer.structural.name=Barrel Hammer(Structural)
 item.hammer.void.name=Barrel Hammer(Void)
 item.hammer.creative.name=Barrel Hammer(Creative)
 
-item.dolly.normal.empty.name=Dolly
-item.dolly.normal.full.name=Dolly (Full)
-item.dolly.normal.folded.name=Dolly (Folded)
-item.dolly.diamond.empty.name=Diamond Dolly
-item.dolly.diamond.full.name=Diamond Dolly (Full)
-item.dolly.folding_hint.1=Sneak right click to fold
-item.dolly.folding_hint.2=Folded dollies can be stored in chests and backpacks
-item.dolly.folded_hint=Right click to unfold
+item.dolly.normal.empty.name=Diable
+item.dolly.normal.full.name=Diable (Chargé)
+item.dolly.normal.folded.name=Diable (Plié)
+item.dolly.diamond.empty.name=Diable en diamant
+item.dolly.diamond.full.name=Diable en diamant (Chargé)
+item.dolly.folding_hint.1=Clic droit en vous accroupissant pour plier
+item.dolly.folding_hint.2=Les diables pliés peuvent être stockés dans les coffres et les sacs à dos
+item.dolly.folded_hint=Clic droit pour déplier
 item.fork.name=B-Space tuning fork
 
 tile.blockbarrel.name=Better Barrel
 
 text.jabba.bonk=Bonk !
-text.jabba.downgrade=You cannot downgrade a barrel.
+text.jabba.downgrade=Vous ne pouvez pas rétrograder un tonneau
 text.jabba.coreupgrade_exists=Core upgrade already installed.
 text.jabba.upgrade_exists=Upgrade already applied.
-text.jabba.upgrade_remove=Please remove some upgrades first.
-text.jabba.upgrade_insufficient=Not enough upgrade slots for this upgrade. You need at least %s to apply this.
+text.jabba.upgrade_remove=Enlevez d'abord quelques améliorations
+text.jabba.upgrade_insufficient=Il manque des emplacements d'amélioration. Il vous en faut au moins %s 
 text.jabba.upgrade_required=You need at least an upgrade Mark %s to apply this.
 text.jabba.facade_redstone=This facade requires a redstone core update.
 text.jabba.facade_hopper=This facade requires a hopper core update.
@@ -82,12 +82,12 @@ text.jabba.waila.upgrades=Upgrade slots : %s / %s
 text.jabba.waila.items=%s / %s items
 text.jabba.waila.stacks=%s stacks max
 text.jabba.waila.empty=<Empty>
-text.jabba.waila.key.content=Barrel content
-text.jabba.waila.key.quantity=Items quantity
+text.jabba.waila.key.content=Contenant
+text.jabba.waila.key.quantity=Quantité d'objets
 text.jabba.waila.key.stacks=Max stacks
 
 text.jabba.tooltip.slots.used=Emplacements utilisés :
 text.jabba.tooltip.slots.provided=Slots Provided :
 text.jabba.tooltip.empty=< Empty >
 
-mcp.mobius.betterbarrel=Barrel
+mcp.mobius.betterbarrel=Tonneau
