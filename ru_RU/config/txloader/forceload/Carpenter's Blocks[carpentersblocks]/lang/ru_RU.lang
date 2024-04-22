@@ -4,57 +4,57 @@
 itemGroup.carpentersBlocks.name=Carpenter's Blocks
 
 # ITEMS
-item.itemCarpentersHammer.name=Carpenter's Hammer
-item.itemCarpentersChisel.name=Carpenter's Chisel
-item.itemCarpentersDoor.name=Carpenter's Door
-item.itemCarpentersBed.name=Carpenter's Bed
-item.itemCarpentersTile.name=Carpenter's Tile
+item.itemCarpentersHammer.name=Молоток плотника
+item.itemCarpentersChisel.name=Стамеска плотника
+item.itemCarpentersDoor.name=Дверь плотника
+item.itemCarpentersBed.name=Кровать плотника
+item.itemCarpentersTile.name=Плитка плотника
 
 # BLOCKS
-tile.blockCarpentersBarrier.name=Carpenter's Barrier
-tile.blockCarpentersBed.name=Carpenter's Bed
-tile.blockCarpentersBlock.name=Carpenter's Block
-tile.blockCarpentersButton.name=Carpenter's Button
-tile.blockCarpentersDaylightSensor.name=Carpenter's Daylight Sensor
-tile.blockCarpentersCollapsibleBlock.name=Carpenter's Collapsible Block
-tile.blockCarpentersDoor.name=Carpenter's Door
-tile.blockCarpentersGarageDoor.name=Carpenter's Garage Door
-tile.blockCarpentersGate.name=Carpenter's Gate
-tile.blockCarpentersHatch.name=Carpenter's Hatch
-tile.blockCarpentersLadder.name=Carpenter's Ladder
-tile.blockCarpentersLever.name=Carpenter's Lever
-tile.blockCarpentersPressurePlate.name=Carpenter's Pressure Plate
-tile.blockCarpentersSlope.wedge.name=Carpenter's Wedge Slope
-tile.blockCarpentersSlope.obliqueInterior.name=Carpenter's Oblique Interior Slope
-tile.blockCarpentersSlope.obliqueExterior.name=Carpenter's Oblique Exterior Slope
-tile.blockCarpentersSlope.prism.name=Carpenter's Prism Slope
-tile.blockCarpentersSlope.prismWedge.name=Carpenter's Prism Wedge Slope
-tile.blockCarpentersStairs.name=Carpenter's Stairs
-tile.blockCarpentersTorch.name=Carpenter's Torch
-tile.blockCarpentersSafe.name=Carpenter's Safe
-tile.blockCarpentersFlowerPot.name=Carpenter's Flower Pot
+tile.blockCarpentersBarrier.name=Забор плотника
+tile.blockCarpentersBed.name=Кровать плотника
+tile.blockCarpentersBlock.name=Блок плотника
+tile.blockCarpentersButton.name=Кнопка плотника
+tile.blockCarpentersDaylightSensor.name=Датчик дневного света плотника
+tile.blockCarpentersCollapsibleBlock.name=Складной блок плотника
+tile.blockCarpentersDoor.name=Дверь плотника
+tile.blockCarpentersGarageDoor.name=Раздвижная дверь плотника
+tile.blockCarpentersGate.name=Калитка плотника
+tile.blockCarpentersHatch.name=Люк плотника
+tile.blockCarpentersLadder.name=Лестница плотника
+tile.blockCarpentersLever.name=Рычаг плотника
+tile.blockCarpentersPressurePlate.name=Нажимная пластина плотника
+tile.blockCarpentersSlope.wedge.name=Прямой склон плотника
+tile.blockCarpentersSlope.obliqueInterior.name=Косой внутренний склон плотника
+tile.blockCarpentersSlope.obliqueExterior.name=Косой внешний склон плотника
+tile.blockCarpentersSlope.prism.name=Призмовидный склон плотника
+tile.blockCarpentersSlope.prismWedge.name=Призмовидный плоский склон плотника
+tile.blockCarpentersStairs.name=Ступеньки плотника
+tile.blockCarpentersTorch.name=Факел плотника
+tile.blockCarpentersSafe.name=Сейф плотника
+tile.blockCarpentersFlowerPot.name=Цветочный горшок плотника
 
 # ENTITIES
-entity.CarpentersTile.name=Carpenter's Tile
+entity.CarpentersTile.name=Плитка плотника
 
 # MESSAGES
-message.polarity_pos.name=POLARITY: Normal redstone output.
-message.polarity_neg.name=POLARITY: Inverted redstone output.
-message.activation_iron.name=ACTIVATION: Will behave like an iron door.
-message.activation_wood.name=ACTIVATION: Will behave like a wooden door.
-message.trigger_player.name=TRIGGER: Only activate for players.
-message.trigger_monster.name=TRIGGER: Only activate for monsters.
-message.trigger_animal.name=TRIGGER: Only activate for animals.
-message.trigger_all.name=TRIGGER: Activate for all entities.
-message.safe_lock.name=CONTROL: Safe locked.
-message.safe_unlock.name=CONTROL: Safe unlocked.
-message.automation_all.name=AUTOMATION: Items can be inserted and extracted.
-message.automation_disabled.name=AUTOMATION: Disabled.
-message.automation_insert.name=AUTOMATION: Items can be inserted only.
-message.automation_extract.name=AUTOMATION: Items can be extracted only.
-message.block_lock.name=CONTROL: This block is locked.
-message.sensitivity_sleep.name=SENSITIVITY: Toggles state at player sleep threshold (sunrise and sunset).
-message.sensitivity_monsters.name=SENSITIVITY: Toggles state at monster spawn light threshold (including storms).
-message.sensitivity_dynamic.name=SENSITIVITY: Redstone output changes based on position of the sun.
+message.polarity_pos.name=ПОЛЯРНОСТЬ: Нормальный выходной сингнал красного камня.
+message.polarity_neg.name=ПОЛЯРНОСТЬ: Инвертированный выходной сингнал красного камня.
+message.activation_iron.name=АКТИВАЦИЯ: Будет вести себя как железная дверь.
+message.activation_wood.name=АКТИВАЦИЯ: Будет вести себя как деревянная дверь.
+message.trigger_player.name=ТРИГГЕР: Активируется только игроками.
+message.trigger_monster.name=ТРИГГЕР: Активируется только монстрами.
+message.trigger_animal.name=ТРИГГЕР: Активируется только животными.
+message.trigger_all.name=ТРИГГЕР: Активируется всеми сущностями.
+message.safe_lock.name=КОНТРОЛЬ: Сейф закрыт.
+message.safe_unlock.name=КОНТРОЛЬ: Сейф открыт.
+message.automation_all.name=АВТОМАТИЗАЦИЯ: Предметы могут вставляться и извлекаться.
+message.automation_disabled.name=АВТОМАТИЗАЦИЯ: Отключена.
+message.automation_insert.name=АВТОМАТИЗАЦИЯ: Предметы могут только вставляться.
+message.automation_extract.name=АВТОМАТИЗАЦИЯ: Предметы могут только извлекаться.
+message.block_lock.name=КОНТРОЛЬ: Этот блок закрыт.
+message.sensitivity_sleep.name=ЧУВСТВИТЕЛЬНОСТЬ: Переключение состояния на пороге сна игрока (восхода и захода солнца).
+message.sensitivity_monsters.name=ЧУВСТВИТЕЛЬНОСТЬ: Переключение состояния на пороге появления монстров (включая штормы).
+message.sensitivity_dynamic.name=ЧУВСТВИТЕЛЬНОСТЬ: Сила сигнала зависит от положения солнца.
 
 # </file>
