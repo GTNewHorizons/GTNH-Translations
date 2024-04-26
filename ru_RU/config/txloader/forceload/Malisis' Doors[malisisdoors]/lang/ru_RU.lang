@@ -1,23 +1,23 @@
 itemGroup.malisisdoors=Malisis'Doors
 
-item.wood_sliding_door.name=Wooden Glass Door
-item.iron_sliding_door.name=Iron Glass Door
-item.jail_door.name=Jail Door
-item.laboratory_door.name=Laboratory Door
-item.factory_door.name=Factory Door
-item.custom_door.name=Custom Door
-item.shoji_door.name=Shoji Door
-item.rustyHatch.name=Rusty Hatch
-item.rustyHandle.name=Rusty Handle
-item.carriage_door.name=Carriage Door
+item.wood_sliding_door.name=Деревянная стеклянная дверь
+item.iron_sliding_door.name=Железная стеклянная дверь
+item.jail_door.name=Тюремная дверь
+item.laboratory_door.name=Лабораторная дверь
+item.factory_door.name=Фабричная дверь
+item.custom_door.name=Пользовательская дверь
+item.shoji_door.name=Дверь Сёдзи
+item.rustyHatch.name=Ржавый люк
+item.rustyHandle.name=Ржавый вентиль
+item.carriage_door.name=Дверь-фрейм
 item.medieval_door.name=Medieval Door
-item.forcefieldItem.name=Forcefield Controller
-item.door_spruce.name=Spruce Door
-item.door_birch.name=Birch Door
-item.door_jungle.name=Jungle Door
-item.door_acacia.name=Acacia Door
-item.door_dark_oak.name=Dark Oak Door
-item.saloon.name=Saloon Door
+item.forcefieldItem.name=Контроллер силового поля
+item.door_spruce.name=Дверь из ели
+item.door_birch.name=Дверь из берёзы
+item.door_jungle.name=Дверь из тропического дерева
+item.door_acacia.name=Дверь из акации
+item.door_dark_oak.name=Дверь из тёмного дуба
+item.saloon.name=Дверь салуна
 
 item.curtain_white.name=White Curtain
 item.curtain_orange.name=Orange Curtain
@@ -37,35 +37,35 @@ item.curtain_red.name=Red Curtain
 item.curtain_black.name=Black Curtain
 
 
-tile.player_sensor.name=Player Sensor
-tile.vanishing_block_wood.name=Wooden Vanishing Frame
-tile.vanishing_block_iron.name=Iron Vanishing Frame
-tile.vanishing_block_gold.name=Gold Vanishing Frame
-tile.vanishing_block_diamond.name=Diamond Vanishing Frame
-tile.block_mixer.name=Block Mixer
-tile.mixed_block.name=Mixed Block
-tile.garage_door.name=Garage Door
-tile.jail_door.name=Jail Door
-tile.laboratory_door.name=Laboratory Door
-tile.factory_door.name=Factory Door
-tile.door_factory.name=Door Factory
-tile.custom_door.name=Custom Door
-tile.shoji_door.name=Shoji Door
-tile.wood_sliding_door.name=Wooden Glass Door
-tile.iron_sliding_door.name=Iron Glass Door
-tile.rustyHatch.name=Rusty Hatch
-tile.carriage_door.name=Carriage Door
+tile.player_sensor.name=Датчик игрока
+tile.vanishing_block_wood.name=Деревянная рамка исчезновения
+tile.vanishing_block_iron.name=Железная рамка исчезновения
+tile.vanishing_block_gold.name=Золотая рамка исчезновения
+tile.vanishing_block_diamond.name=Алмазная рамка исчезновения
+tile.block_mixer.name=Смешиватель блоков
+tile.mixed_block.name=Смешанный блок
+tile.garage_door.name=Гаражная дверь
+tile.jail_door.name=Тюремная дверь
+tile.laboratory_door.name=Лабораторная дверь
+tile.factory_door.name=Фабричная дверь
+tile.door_factory.name=Дверная фабрика
+tile.custom_door.name=Пользовательская дверь
+tile.shoji_door.name=Дверь Сёдзи
+tile.wood_sliding_door.name=Деревянная стеклянная дверь
+tile.iron_sliding_door.name=Железная стеклянная дверь
+tile.rustyHatch.name=Ржавый люк
+tile.carriage_door.name=Дверь-фрейм
 tile.medieval_door.name=Medieval Door
-tile.forcefieldDoor.name=Forcefield
-tile.rustyLadder.name=Rusty Ladder
-tile.door_spruce.name=Spruce Door
-tile.door_birch.name=Birch Door
-tile.door_jungle.name=Jungle Door
-tile.door_acacia.name=Acacia Door
-tile.door_dark_oak.name=Dark Oak Door
-tile.iron_trapdoor.name=Iron Trapdoor
-tile.sliding_trapdoor.name=Sliding Trapdoor
-tile.saloon.name=Saloon Door
+tile.forcefieldDoor.name=Силовое поле
+tile.rustyLadder.name=Ржавая лестница
+tile.door_spruce.name=Дверь из ели
+tile.door_birch.name=Дверь из берёзы
+tile.door_jungle.name=Дверь из тропического дерева
+tile.door_acacia.name=Дверь из акации
+tile.door_dark_oak.name=Дверь из тёмного дуба
+tile.iron_trapdoor.name=Железный люк
+tile.sliding_trapdoor.name=Задвижной люк
+tile.saloon.name=Дверь салуна
 
 tile.fenceGate.name=Oak Fence Gate
 tile.spruceFenceGate.name=Spruce Fence Gate
@@ -99,83 +99,83 @@ tile.curtain_red.name=Red Curtain
 tile.curtain_black.name=Black Curtain
 
 
-malisisdoors.command.usage=Use /malisisdoors <command> where command is config or version
+malisisdoors.command.usage=Используйте /malisisdoors <команда>, где "команда" - это "config" или "version"
 
-config.title=MalisisDoors' configuration
+config.title=Настройки MalisisDoors
 
-config.modifyVanillaDoors=Enable vanilla doors improvement
-config.modifyVanillaDoors.comment1=Enables the animations for doors, fence gates and trap doors.
-config.modifyVanillaDoors.comment2=This replaces the doors entirely so conflicts may arise if another mod tries to modify them too.
+config.modifyVanillaDoors=Включить улучшение стандартных дверей
+config.modifyVanillaDoors.comment1=Включает анимацию для дверей, калиток и люков.
+config.modifyVanillaDoors.comment2=Это полностью заменит двери, так что могут появиться конфликты, если другой мод попытается изменить их.
 
-config.enableMixedBlocks=Enable Block Mixer and Mixed Blocks
+config.enableMixedBlocks=Включить смешиватель блоков и смешанные блоки
 
-config.simpleMixedBlockRendering=Simple Mixed Blocks rendering
-config.simpleMixedBlockRendering.comment1=Enables less fancy rendering for Mixed Blocks.
-config.simpleMixedBlockRendering.comment2=Enable this option if you experience z-fighting issue or glitched rendering.
+config.simpleMixedBlockRendering=Упрощённое отображение смешанных блоков
+config.simpleMixedBlockRendering.comment1=Включает менее качественное отображение для смешанных блоков.
+config.simpleMixedBlockRendering.comment2=Включите эту опцию, если наблюдаются ошибки в отображении блоков и эффектов мода.
 
-config.enableVanishingBlocks=Enable Vanishing Frames
+config.enableVanishingBlocks=Включить рамки исчезновения
 
-config.enableVanishingGlitch=Enable Vanishing Frames glitch animation
-config.enableVanishingGlitch.comment=Frames randomly become unstable and are temporarily out of this dimension.
+config.enableVanishingGlitch=Включить анимацию "мерцания" рамок исчезновения
+config.enableVanishingGlitch.comment=Рамки иногда становятся нестабильными и на время выпадают из этого измерения.
  
-config.vanishingGlitchChance=Vanishing Frames glitch frequency
-config.vanishingGlitchChance.comment=How often the frame become unstable.
+config.vanishingGlitchChance=Частота анимации "мерцания" рамок исчезновения
+config.vanishingGlitchChance.comment=Как часто рамки становятся нестабильными.
 
-config.enhancedMixedBlockPlacement=Use enhanced mixed block placement
-config.enhancedMixedBlockPlacement.comment1=Allows to place the block base on where you look instead of the side you're placing it on.
-config.enhancedMixedBlockPlacement.comment2=Use sneak key to inverse the block placement.
+config.enhancedMixedBlockPlacement=Использовать продвинутую систему размещения смешанных блоков
+config.enhancedMixedBlockPlacement.comment1=Позволяет разместить основу блока в точке взгляда, а не на стороне какого-либо ранее размещённого блока.
+config.enhancedMixedBlockPlacement.comment2=Присядьте, чтобы изменить размещение блока.
 
-config.enableCamoFenceGate=Enable camo Fence Gates
-config.enableCamoFenceGate.comment=Enables Fence Gate to use the texture of the blocks surrounding them. 
-
-
-door_movement.rotating_door=Rotating
-door_movement.sliding_door=Sliding on the side
-door_movement.sliding_up_door=Sliding up
-door_movement.sliding_split_door=Sliding up and down
-door_movement.rotating_split_door=Rotating up and down
-door_movement.vault_door=Vault
-door_movement.sliding_4ways=Sliding four ways
-door_movement.rotating_4ways=Rotating four ways
-door_movement.rotate_around=Rotating around
-door_movement.rotate_slide=Rotating and sliding
-door_movement.rotate_place=Rotating and replacing
-door_movement.vanishing_door=Vanishing
-door_movement.spinning_door=Spinning
-door_movement.spinning_around_door=Vortex
-door_movement.double_slide_left=Double sliding left
-door_movement.double_slide_right=Double sliding right
-door_movement.double_rotate_left=Double rotating left
-door_movement.double_rotate_right=Double rotating right
+config.enableCamoFenceGate=Включить "камуфляжные" калитки
+config.enableCamoFenceGate.comment=Позволяет калиткам использовать текстуру ближайших блоков.
 
 
+door_movement.rotating_door=Вращение
+door_movement.sliding_door=Сдвиг в сторону
+door_movement.sliding_up_door=Сдвиг вверх
+door_movement.sliding_split_door=Сдвиг вверх и вниз
+door_movement.rotating_split_door=Вращение вверх и вниз
+door_movement.vault_door=Хранилище
+door_movement.sliding_4ways=4-сторонний сдвиг
+door_movement.rotating_4ways=4-стороннее вращение
+door_movement.rotate_around=Вращение вокруг
+door_movement.rotate_slide=Вращение и сдвиг
+door_movement.rotate_place=Вращение и замена
+door_movement.vanishing_door=Исчезновение
+door_movement.spinning_door=Кручение
+door_movement.spinning_around_door=Кручение вокруг
+door_movement.double_slide_left=Двойной сдвиг влево
+door_movement.double_slide_right=Двойной сдвиг вправо
+door_movement.double_rotate_left=Двойное вращение влево
+door_movement.double_rotate_right=Двойное вращение вправо
 
-gui.door_factory.tab_properties=Properties
-gui.door_factory.tab_materials=Materials
-gui.door_factory.tab_digicode=Digicode
-gui.door_factory.rb_create=Create
-gui.door_factory.rb_edit=Modify
-gui.door_factory.door_movement=Movement
-gui.door_factory.door_open_time=Opening time
-gui.door_factory.door_auto_close_time=Auto close delay
-gui.door_factory.door_require_redstone=Requires redstone
-gui.door_factory.door_double_door=Double door
-gui.door_factory.door_sound=Sound type
-gui.door_factory.door_sound.silent_door=Silent
-gui.door_factory.door_sound.vanilla_door=Vanilla door
-gui.door_factory.door_sound.glass_door=Glass door
-gui.door_factory.door_sound.jail_door=Jail door
-gui.door_factory.door_sound.pneumatic_door=Pneumatic door
-gui.door_factory.door_sound.shoji_door=Shoji door
-gui.door_factory.door_sound.carriage_door=Big Door
 
 
-gui.door_factory.frame_type=Frame type
-gui.door_factory.top_material=Top block material
-gui.door_factory.bottom_material=Bottom block material
-gui.door_factory.door_edit_slot=Door to modify
-gui.door_factory.create_door=Create door
-gui.door_factory.edit_door=Modify door
+gui.door_factory.tab_properties=Свойства
+gui.door_factory.tab_materials=Материалы
+gui.door_factory.tab_digicode=Цифр. код
+gui.door_factory.rb_create=Сделать
+gui.door_factory.rb_edit=Изменить
+gui.door_factory.door_movement=Движение
+gui.door_factory.door_open_time=Время открытия
+gui.door_factory.door_auto_close_time=Задержка закрытия
+gui.door_factory.door_require_redstone=Требуется сигнал красного камня
+gui.door_factory.door_double_door=Двойная дверь
+gui.door_factory.door_sound=Тип звука
+gui.door_factory.door_sound.silent_door=Без звука
+gui.door_factory.door_sound.vanilla_door=Обычная дверь
+gui.door_factory.door_sound.glass_door=Стеклянная дверь
+gui.door_factory.door_sound.jail_door=Тюремная дверь
+gui.door_factory.door_sound.pneumatic_door=Пневматическая дверь
+gui.door_factory.door_sound.shoji_door=Дверь Сёдзи
+gui.door_factory.door_sound.carriage_door=Дверь-фрейм
 
-gui.block_mixer.simple_rendering=Simple rendering
-gui.block_mixer.simple_rendering_tooltip=In world blocks require chunk update to take effect.
+
+gui.door_factory.frame_type=Тип рамки
+gui.door_factory.top_material=Материал верхнего блока
+gui.door_factory.bottom_material=Материал нижнего блока
+gui.door_factory.door_edit_slot=Дверь для изменения
+gui.door_factory.create_door=Сделать дверь
+gui.door_factory.edit_door=Изменить дверь
+
+gui.block_mixer.simple_rendering=Упрощённое отображение
+gui.block_mixer.simple_rendering_tooltip=Потребуется обновление чанка, чтобы изменения проявились.

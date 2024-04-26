@@ -1,39 +1,39 @@
 # gui - general
-schematica.gui.openFolder=Open schematic folder
-schematica.gui.done=Done
-schematica.gui.title=Select schematic file
-schematica.gui.folderInfo=(Place schematic files here)
-schematica.gui.noschematic=-- No schematic --
+schematica.gui.openFolder=Открыть папку со схемами
+schematica.gui.done=Готово
+schematica.gui.title=Выберите файл схемы
+schematica.gui.folderInfo=(Место хранения схем)
+schematica.gui.noschematic=-- Нет схем --
 schematica.gui.increase=+
 schematica.gui.decrease=-
-schematica.gui.hide=Hide
-schematica.gui.all=ALL
-schematica.gui.show=Show
-schematica.gui.movehere=Move here
-schematica.gui.flip=Flip
-schematica.gui.rotate=Rotate
-schematica.gui.save=Save
+schematica.gui.hide=Спрятать
+schematica.gui.all=ВСЕ
+schematica.gui.show=Показать
+schematica.gui.movehere=Передвинуть сюда
+schematica.gui.flip=Отразить
+schematica.gui.rotate=Повернуть
+schematica.gui.save=Сохранить
 schematica.gui.name=Name
 schematica.gui.savecoordinates=Save Coordinates
-schematica.gui.moveschematic=Move schematic
-schematica.gui.layers=Layers
-schematica.gui.operations=Operations
+schematica.gui.moveschematic=Передвинуть схему
+schematica.gui.layers=Слои
+schematica.gui.operations=Операции
 schematica.gui.unload=Unload
-schematica.gui.point.red=Red point
-schematica.gui.point.blue=Blue point
-schematica.gui.saveselection=Save the selection as a schematic
+schematica.gui.point.red=Красная точка
+schematica.gui.point.blue=Синяя точка
+schematica.gui.saveselection=Сохранить схему выделенной области
 schematica.gui.on=ON
 schematica.gui.off=OFF
 schematica.gui.x=X:
 schematica.gui.y=Y:
 schematica.gui.z=Z:
-schematica.gui.materials=Materials
-schematica.gui.materialname=Material
-schematica.gui.materialamount=Amount
+schematica.gui.materials=Материалы
+schematica.gui.materialname=Материал
+schematica.gui.materialamount=Количество
 schematica.gui.materialrequired=Required
 schematica.gui.materialavailable=Available
 schematica.gui.materialdump=Save to file
-schematica.gui.printer=Printer
+schematica.gui.printer=Принтер
 
 # gui - config - categories
 schematica.config.category.debug=Debug
@@ -123,9 +123,9 @@ schematica.config.loadEnabled.tooltip=Allow players to load schematics.
 
 # keys
 schematica.key.category=Schematica
-schematica.key.load=Load schematic
-schematica.key.save=Save schematic
-schematica.key.control=Manipulate schematic
+schematica.key.load=Загрузить схему
+schematica.key.save=Сохранить схему
+schematica.key.control=Манипулирование схемой
 schematica.key.layerInc=Next Layer
 schematica.key.layerDec=Previous layer
 
@@ -141,7 +141,7 @@ schematica.command.save.playerSchematicDirUnavailable=There was a problem on the
 # commands - list
 schematica.command.list.usage=/schematicaList [page]
 schematica.command.list.notAvailable=There was a problem retrieving your list of schematics.
-schematica.command.list.remove=Remove
+schematica.command.list.remove=Удалить
 schematica.command.list.download=Download
 schematica.command.list.header=--- Showing schematics page %d of %d ---
 schematica.command.list.noSuchPage=No such page

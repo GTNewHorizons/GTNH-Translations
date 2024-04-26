@@ -1,95 +1,95 @@
-neiintegration.yes=Yes
-neiintegration.no=No
+neiintegration.yes=Да
+neiintegration.no=Нет
 
-neiintegration.shaped=Shaped
-neiintegration.shapeless=Shapeless
+neiintegration.shaped=Форменное
+neiintegration.shapeless=Бесформенное
 
-neiintegration.chance=Chance: %s
-neiintegration.chance.never=Never
+neiintegration.chance=Шанс: %s
+neiintegration.chance.never=Нулевой
 neiintegration.chance.lessThan1=<1%
 
-neiintegration.ticks=ticks
+neiintegration.ticks=тактов
 
 neiintegration.tooltip.internalName=ID:
 neiintegration.tooltip.unlocalizedName=Unloc. name:
-neiintegration.tooltip.maxstack=Maximum stack size:
-neiintegration.tooltip.burntime=Burn time:
-neiintegration.tooltip.oredict=Ore Dictionary names:
-neiintegration.tooltip.fluidreg=Fluid Registry info:
-neiintegration.tooltip.fluidreg.empty=Empty Container
+neiintegration.tooltip.maxstack=Макс. размер стака:
+neiintegration.tooltip.burntime=Время горения:
+neiintegration.tooltip.oredict=Имена словаря руд:
+neiintegration.tooltip.fluidreg=Информация о реестре жидкостей:
+neiintegration.tooltip.fluidreg.empty=Пустой контейнер
 
-neiintegration.config.title=NEI Integration Configuration
+neiintegration.config.title=Конфигурация NEI Integration
 neiintegration.config.integrations=Mod Integrations settings
 neiintegration.config.integrations.tooltip=Enable or disable all recipe handlers for certain mods.
-neiintegration.config.handlers=Recipe Handler settings
-neiintegration.config.handlers.tooltip=Enable or disable some of the recipe handlers this mod adds.
-neiintegration.config.tooltips=Item Tooltip Settings
-neiintegration.config.tooltips.tooltip=No tooltip defined. How ironic.
+neiintegration.config.handlers=Настройки обработчика рецептов
+neiintegration.config.handlers.tooltip=Включает или отключает обработчики рецептов этого мода.
+neiintegration.config.tooltips=Настройки подсказок предметов
+neiintegration.config.tooltips.tooltip=Подсказка не указана. Какая ирония.
 
 nei.options.tools.dump.neiintegration=NEI Integration
-nei.options.tools.dump.neiintegration.chestloots=Chest Loot
-nei.options.tools.dump.neiintegration.chestloot=Chest Loot
-nei.options.tools.dump.neiintegration.dimension=Dimension
-nei.options.tools.dump.neiintegration.dimensions=Dimensions
-nei.options.tools.dump.neiintegration.entity=Entity
-nei.options.tools.dump.neiintegration.entitys=Entities
-nei.options.tools.dump.neiintegration.fluid=Fluid
-nei.options.tools.dump.neiintegration.fluids=Fluids
-nei.options.tools.dump.neiintegration.fluidcontainer=Fluid Container
-nei.options.tools.dump.neiintegration.fluidcontainers=Fluid Containers
-nei.options.tools.dump.neiintegration.inventory=Player Inventory
-nei.options.tools.dump.neiintegration.inventorys=Player Inventory
-nei.options.tools.dump.neiintegration.loadedmod=Loaded Mod
-nei.options.tools.dump.neiintegration.loadedmods=Loaded Mods
-nei.options.tools.dump.neiintegration.oredict=Ore Dictionary
-nei.options.tools.dump.neiintegration.oredicts=Ore Dictionary
-nei.options.tools.dump.neiintegration.recipehandler=Recipe Handler
-nei.options.tools.dump.neiintegration.recipehandlers=Recipe Handlers
-nei.options.tools.dump.neiintegration.tileentity=Tile Entity
-nei.options.tools.dump.neiintegration.tileentitys=Tile Entities
+nei.options.tools.dump.neiintegration.chestloots=Сундук с предметами
+nei.options.tools.dump.neiintegration.chestloot=Сундук с предметами
+nei.options.tools.dump.neiintegration.dimension=Измерение
+nei.options.tools.dump.neiintegration.dimensions=Измерения
+nei.options.tools.dump.neiintegration.entity=Сущность
+nei.options.tools.dump.neiintegration.entitys=Сущности
+nei.options.tools.dump.neiintegration.fluid=Жидкость
+nei.options.tools.dump.neiintegration.fluids=Жидкости
+nei.options.tools.dump.neiintegration.fluidcontainer=Жидкостный контейнер
+nei.options.tools.dump.neiintegration.fluidcontainers=Жидкостные контейнеры
+nei.options.tools.dump.neiintegration.inventory=Инвентарь игрока
+nei.options.tools.dump.neiintegration.inventorys=Инвентарь игрока
+nei.options.tools.dump.neiintegration.loadedmod=Загруженный мод
+nei.options.tools.dump.neiintegration.loadedmods=Загруженные моды
+nei.options.tools.dump.neiintegration.oredict=Словарь руд
+nei.options.tools.dump.neiintegration.oredicts=Словарь руд
+nei.options.tools.dump.neiintegration.recipehandler=Обработчик рецептов
+nei.options.tools.dump.neiintegration.recipehandlers=Обработчики рецептов
+nei.options.tools.dump.neiintegration.tileentity=Блок
+nei.options.tools.dump.neiintegration.tileentitys=Блоки
 
 # Forge
-neiintegration.handler.fluidRegistry=Fluid Registry
+neiintegration.handler.fluidRegistry=Реестр жидкостей
 neiintegration.handler.fluidRegistry.id=ID:
-neiintegration.handler.fluidRegistry.state=State:
-neiintegration.handler.fluidRegistry.state.gaseous=Gaseous
-neiintegration.handler.fluidRegistry.state.liquid=Liquid
-neiintegration.handler.fluidRegistry.placeable=Can be placed:
-neiintegration.handler.fluidRegistry.temperature=Temperature:
-neiintegration.handler.fluidRegistry.luminosity=Luminosity:
-neiintegration.handler.fluidRegistry.density=Density:
-neiintegration.handler.fluidRegistry.viscosity=Viscosity:
+neiintegration.handler.fluidRegistry.state=Состояние:
+neiintegration.handler.fluidRegistry.state.gaseous=Газообразное
+neiintegration.handler.fluidRegistry.state.liquid=Жидкое
+neiintegration.handler.fluidRegistry.placeable=Можно поставить:
+neiintegration.handler.fluidRegistry.temperature=Температура:
+neiintegration.handler.fluidRegistry.luminosity=Светимость:
+neiintegration.handler.fluidRegistry.density=Плотность:
+neiintegration.handler.fluidRegistry.viscosity=Вязкость:
 
-neiintegration.handler.oreDictionary=Ore Dictionary
-neiintegration.handler.oreDictionary.warning=Can take a while to load!
+neiintegration.handler.oreDictionary=Словарь руд
+neiintegration.handler.oreDictionary.warning=Загрузка может занять некоторое время!
 
 # BuildCraft
-neiintegration.handler.refinery.energyRate=%d RF at %d RF/t
+neiintegration.handler.refinery.energyRate=%d RF на скорости %d RF/т
 
 # Electrical Age
-neiintegration.handler.electricalage.compressor=Compressor (ELN)
-neiintegration.handler.electricalage.macerator=Macerator (ELN)
-neiintegration.handler.electricalage.magnetizer=Magnetizer
-neiintegration.handler.electricalage.plateMachine=Plate Machine
+neiintegration.handler.electricalage.compressor=Компрессор (ELN)
+neiintegration.handler.electricalage.macerator=Дробитель (ELN)
+neiintegration.handler.electricalage.magnetizer=Намагничиватель
+neiintegration.handler.electricalage.plateMachine=Производитель пластин
 
 # Forestry
 neiintegration.handler.forestry.shaped=Forestry Shaped
-neiintegration.handler.forestry.fabricator.worth=Worth:
+neiintegration.handler.forestry.fabricator.worth=Стоимость:
 
 # MineFactory Reloaded
-neiintegration.handler.bioreactor.efficiency=Efficiency
-neiintegration.handler.bioreactor.efficiency.1=Depends of the amount of
-neiintegration.handler.bioreactor.efficiency.2=different items being processed.
-neiintegration.handler.bioreactor.efficiency.3=More efficiency means more BioFuel.
-neiintegration.handler.grinder.mobs=Mobs
-neiintegration.handler.grinder.mobs.1=Mobs that drop more XP
-neiintegration.handler.grinder.mobs.2=produce more Essence.
-neiintegration.handler.harvester.harvestables=Harvestable blocks
-neiintegration.handler.harvester.harvestables.1=Sludge is a byproduct of harvesting.
-neiintegration.handler.laserdrill.focus=Focus
-neiintegration.handler.sewer.animals=Animals or villagers
-neiintegration.handler.sewer.animals.1=Larger animals produce more sewage.
-neiintegration.handler.sewer.xp=Experience Orbs
-neiintegration.handler.sewer.xp.1=XP gets converted into Essence.
-neiintegration.handler.slaughterhouse.animals=Animals
-neiintegration.handler.slaughterhouse.animals.1=Larger animals produce more meat.
+neiintegration.handler.bioreactor.efficiency=Эффективность
+neiintegration.handler.bioreactor.efficiency.1=Зависит от количества
+neiintegration.handler.bioreactor.efficiency.2=разных обрабатываемых предметов.
+neiintegration.handler.bioreactor.efficiency.3=Для большой эффективности требуется больше биотоплива.
+neiintegration.handler.grinder.mobs=Мобы
+neiintegration.handler.grinder.mobs.1=Мобы, которые дают больше опыта,
+neiintegration.handler.grinder.mobs.2=производят больше эссенции.
+neiintegration.handler.harvester.harvestables=Собираемые блоки
+neiintegration.handler.harvester.harvestables.1=Шлам - это побочной продукт сбора.
+neiintegration.handler.laserdrill.focus=Фокусирующая линза
+neiintegration.handler.sewer.animals=Животные или жители
+neiintegration.handler.sewer.animals.1=Большие животные производят больше навоза.
+neiintegration.handler.sewer.xp=Сферы опыта
+neiintegration.handler.sewer.xp.1=Опыт преобразовывается в эссенцию.
+neiintegration.handler.slaughterhouse.animals=Животные
+neiintegration.handler.slaughterhouse.animals.1=Большие животные дают больше мяса.
