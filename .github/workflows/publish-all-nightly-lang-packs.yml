@@ -60,7 +60,7 @@ jobs:
     secrets: inherit
   ru_RU:
     uses: ./.github/workflows/publish-nightly-lang-pack.yml
-    needs: de_DE # Require previous run to finish
+    needs: pl_PL # Require previous run to finish
     with:
       target_lang: ru_RU
     secrets: inherit
