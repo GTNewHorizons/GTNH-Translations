@@ -169,8 +169,8 @@ botaniamisc.lokiToggleDescription=Loki Switch Key to turn ring
 botaniamisc.lokiBreakingDescription=Loki Switch Key + Shift to toggle breaking
 botaniamisc.lokiCurrent=Current
 botaniamisc.lokiState=Ring
-botaniamisc.lokiMirror=Current mirror:
-botaniamisc.insufficient_mana=Not enough mana!
+botaniamisc.lokiMirror=現在のミラー：
+botaniamisc.insufficient_mana=マナが足りません！
 
 # NEI INTEGRATION
 botania.nei.brewery=植物の醸造台
@@ -325,9 +325,9 @@ botania.knowledge.alfheim=&aエルフ&7の知識
 botania.knowledge.relic=&5遺物&7の知識
 
 # FLOWER TYPES
-botania.flowerType.passiveGenerating=受動的にマナを生成する花
-botania.flowerType.generating=マナを生成する花
-botania.flowerType.functional=機能を持つ花
+botania.flowerType.passiveGenerating=受動生成花
+botania.flowerType.generating=生成花
+botania.flowerType.functional=機能花
 botania.flowerType.misc=その他の花
 
 # CONFIGURATION
@@ -1978,8 +1978,8 @@ item.banner.botania_sword.white=白色の剣
 # LEXICON CATEGORIES
 botania.category.basics=基本と仕組み
 botania.category.mana=マナ操作
-botania.category.functionalFlowers=機能を持つ花
-botania.category.generationFlowers=マナを生み出す花
+botania.category.functionalFlowers=機能花
+botania.category.generationFlowers=生成花
 botania.category.devices=自然の装置
 botania.category.tools=神秘的なアイテム
 botania.category.baubles=アクセサリー
@@ -2053,7 +2053,7 @@ botania.tagline.apothecary=花を作るために使用する
 botania.page.apothecary0=ボタニストが有用な植物を生み出すには、植物に神秘的なエネルギーを注入する特別な手段が必要です。<br>幸いなことに&1花弁の調合台&0がその役割を果たします。
 botania.page.apothecary1=&1花弁の調合台&0
 botania.page.apothecary2=このブロックを配置し（&1水入りバケツ&0を使用して）水を注ぐと、投げ入れた&1神秘的な花弁&0からエネルギーを吸収できるようになります。<br>正しい花弁を入れた後に&1種&0を投げ入れることで花を作成できます。<br>満タンのバケツを投げ入れると、水で満たされます。
-botania.page.apothecary3=この方法で様々な植物を作ることができます。詳細は、この辞典の&4機能を持つ花&0や&4マナを生成する花&0の章を読んでください。<br>&1花弁の調合台&0を素手でShift右クリックすると、最後に投げ込んだアイテムを取り除きます。
+botania.page.apothecary3=この方法で様々な植物を作ることができます。詳細は、この辞典の&4機能花&0や&4生成花&0の章を読んでください。<br>&1花弁の調合台&0を素手でShift右クリックすると、最後に投げ込んだアイテムを取り除きます。
 botania.page.apothecary4=&1水&0の代わりに&1溶岩&0を注ぐと、焼却炉として機能するようになり、接触したアイテムを焼却します。<br>また、&1ツタ&0を投げ入れると、苔むしたブロックのような見た目になります。
 botania.page.apothecary7=&1コンパレーター&0を使用すると、水が満たされているかどうかを検知できます。<br>&1花弁の調合台&0は&1水入りバケツ&0で満たすことができ、&1ディスペンサー&0を使用してバケツに水を汲むことができるので、水を自動で補充するシステムを作成するのはあまり難しくありません。
 botania.page.apothecary6=より効率的に作業するためのヒントをお教えしましょう。花を作成してから20秒以内に素手で右クリックすることで、インベントリから材料を取り出して入れることができ、これにより素早く大量生産できるようになります。これは水で満たされている場合のみ機能します。
@@ -2108,40 +2108,40 @@ botania.entry.terrasteel=テラスチール
 botania.tagline.terrasteel=マナと自然から生まれた強力な金属
 botania.page.terrasteel0=&1テラスチール&0は、莫大なマナを含む複雑な魔法合金であり、その作成は容易なものではありません。まず、&1ラピスラズリブロック&0と&1リビングロック&0を市松模様に並べ、その上に&1大地集積プレート&0を置きます。このブロックに&4マナ&0を供給する必要がありますが、最も効率的な方法が&1スパーク&0を用いることでしょう。
 botania.page.terrasteel1=プレートのクラフト
-botania.page.terrasteel2=After the plate is set up and ready to receive &4Mana&0, tossing a single &1Manasteel Ingot, Mana Diamond and Mana Pearl&0 on top of it will begin the infusion.<br>Picking up any of the items will halt the infusion causing severe &4Mana Loss&0. The infusion uses half a &1Mana Pool&0 total to create a single piece of &4Terrasteel&0, multiple &1Sparks&0 would make it go faster, too.
-botania.page.terrasteel3=Creating &1Terrasteel&0 (there's &1Livingrock&0 under the plate)
-botania.page.terrasteel4=T.A. Plate
+botania.page.terrasteel2=プレートを設置し&4マナ&0を供給する準備ができたら、 &1マナスチールインゴット、マナダイヤモンド、マナパール&0を1つずつ投げ込むことで、注入が開始されます。<br>投入したアイテムを途中で拾ってしまうと注入が中断され、大きな&4マナの損失&0が発生します。テラスチールを1つ作成するには、&1マナプール&0約半分のマナが必要です、複数の&1スパーク&0を使用すると注入速度を上げることができます。
+botania.page.terrasteel3=&1テラスチール&0の作成（プレートの下は&1リビングロック&0です）
+botania.page.terrasteel4=大地集積プレート
 
 # -- BLACK LOTUS
-botania.entry.blackLotus=Black Lotus
-botania.tagline.blackLotus=Rare loot that can make mana
-botania.page.blackLotus0=An elusive flower by the name of &1Black Lotus&0 is known to exist, however, it does not grow or reproduce. Where they can be found or come from is not known.<br>It is known, however, that it contains a strong amount of concentrated &4Mana&0, that can be released by putting it in contact with a &1Mana Pool&0 that already has some in it. Just tossing it would do. 
+botania.entry.blackLotus=ブラックロータス
+botania.tagline.blackLotus=マナを生み出す珍しい戦利品
+botania.page.blackLotus0=&1ブラックロータス&0と呼ばれる幻の花の存在が確認されていますが、育てることも増やすこともできません。どこで発見できるのか、どこから来るのかも謎のままです。<br>しかし、この花は濃縮されたマナを宿しており、&4マナ&0の入った&1マナプール&0に入れることで放出させることができます。ただ投げ込むだけで構いません。
 
 # -- FLOWER POUCH
-botania.entry.flowerBag=Flower Pouch
-botania.tagline.flowerBag=A trusty pouch to hold your floral goodness
-botania.page.flowerBag0=The laws of physics regarding one's &4Inventory&0 are somewhat skewed in this world. Thanks to that, carrying an array of different colors of flowers turns out to be a major hassle. Luckily, a &1Flower Pouch&0 takes care of all those issues. It can store up to one stack of each color of &1Mystical Flower&0, not only that but it'll passively catch any that enter the holder's inventory.
-botania.page.flowerBag2=Items won't be added automatically to the pouch if that's the item being held.<br>Furthermore, shift-right clicking the pouch into a &1Chest&0 or other inventory will store the flowers it contains into said inventory. 
-botania.page.flowerBag1=Pull a copter out of it (any colors work)
+botania.entry.flowerBag=フラワーポーチ
+botania.tagline.flowerBag=お花の入る便利なポーチ
+botania.page.flowerBag0=この世界では&4インベントリ&0に関する物理法則が少し歪んでいます。そのため、さまざまな色の花を持ち運ぶのは非常に面倒です。ありがたいことに、&1フラワーポーチ&0はそのような問題をすべて解決してくれます。各色の&1神秘的な花&0を1スタックずつ収納できるだけでなく、所持者のインベントリに入った花を自動的に収納してくれます。
+botania.page.flowerBag2=ポーチを手に持っている間は、花を自動的に収納しません、<br>さらに、&1チェスト&0などのインベントリに対してShift右クリックをすると、ポーチの中のアイテムをインベントリに収納します。
+botania.page.flowerBag1=本題に戻りましょう（どの色でも機能します）
 
 # -- MUSHROOM POUCH
-botania.entry.shroomBag=Mushroom Pouch
-botania.tagline.shroomBag=A trusty pouch to hold your mushroom goodness
-botania.page.shroomBag0=Similar to the &1Flower Pouch&0, the mushroom pouch will hold all of those pesky &1Mystical Mushrooms&0 that have been clogging up your inventory.<br>Remember the bag will not pick up items if you are holding it in your hand.<br>Furthermore, shift-right clicking the pouch into a &1Chest&0 or other inventory will store the flowers it contains into said inventory.
-botania.page.shroomBag1=Any colors work
+botania.entry.shroomBag=キノコポーチ
+botania.tagline.shroomBag=キノコの入る便利なポーチ
+botania.page.shroomBag0=&1フラワーポーチ&0と同様に、キノコポーチは&1神秘的なキノコ&0でインベントリが圧迫されるのを防いでくれます。<br>こちらも、ポーチを手に持っている間は、キノコを自動的に収納しません、<br>さらに、&1チェスト&0などのインベントリに対してShift右クリックをすると、ポーチの中のアイテムをインベントリに収納します。
+botania.page.shroomBag1=どの色でも機能します
 
 # -- WRAP
 botania.entry.wrap=Wrap
-botania.tagline.wrap=It's a wrap
-botania.page.wrap0=It seems like the creator of this mod decided to add a weird game mechanic in the form of &1Wrap&0. I don't really know what it does, probably something bad. :/<br>What's this "Fourth Wall" you're talking about...?
+botania.tagline.wrap=これはWrap
+botania.page.wrap0=このModの作者は&1Wrap&0という奇妙なゲームメカニクスを追加することにしたようです。これがなんなのかはよくわかりませんが、多分悪いことがおこるのではないでしょうか？<br>あなたの言っている"第四の壁"とは何ですか……？
 
 # - MANA
 # -- AN INTRODUCTION TO MANA
-botania.entry.mIntro=An Introduction to Mana
-botania.tagline.mIntro=Start off with Mana
-botania.page.mIntro0=&4Mana&0 is an ethereal substance. In layman's terms, it is a form of &4mystical energy&0. Its sensorial existence is inconstant, and its color depends on the environment its put in.<br>Mastering &4Mana&0 is one of the most important skills a botanist needs to master.
-botania.page.mIntro1=In order to create &4Mana&0, one would require a set of &4Generating Flowers&0 (read the respective section). This &4Mana&0 can be dispersed by utilizing &1Mana Spreaders&0 and stored in &1Mana Pools&0. &4Mana&0 can be used for a myriad of different things. For starters, it can be used for &4Functional Flowers&0 (read the respective section).
-botania.page.mIntro2=To get started with mastering the art of &4Mana&0, one would start by learning how to use &1Dayblooms&0, &1Mana Spreaders&0 and &1Mana Pools&0.<br>These form a basic infrastructure for mana, which can be used for all sorts of purposes. Have a read at the &4Functional Flora&0 and &4Natural Apparatus&0 sections of this Lexicon. 
+botania.entry.mIntro=マナについて
+botania.tagline.mIntro=マナから始めよう
+botania.page.mIntro0=&4マナ&0は目に見えない物質であり、簡単に言うと&4神秘的なエネルギー&0の一種です。感覚で感じ取ることは難しく、色は置かれている環境によって変化します。<br>ボタニストにとって、&4マナ&0をマスターすることは最も重要な技術の一つです。
+botania.page.mIntro1=マナを生み出すには、&4生成花&0（詳細は別セクションを参照）が必要です。この&4マナ&0は、&1マナ射出装置&0を使って運搬したり、&1マナプール&0に貯蔵したりすることができます。&4マナ&0は様々な用途に利用できます。まずは&4機能花&0（詳細は別セクションを参照）の動力源として使用するのがいいでしょう。
+botania.page.mIntro2=&4マナ&0の扱いをマスターするための第一歩は、&1デイブルーム&0、&1マナ射出装置&0、&1マナプール&0の使い方を習得することです。<br>これらはマナの基本的な運用基盤となり、様々な用途に応用できます。この辞典の&4機能花&0と&4自然の装置&0のセクションを読んで理解を深めましょう。
 
 # -- MANA SPREADER
 botania.entry.spreader=Mana Spreader
@@ -3873,15 +3873,15 @@ botania.page.tcIntegration6a=Perhaps insanity might not be the greatest tool in 
 botania.page.tcIntegration6b=The official frowny face
 
 # -- BUILDCRAFT INTEGRATION
-botania.entry.bcIntegration=Buildcraft Integration
-botania.tagline.bcIntegration=Gates for interaction with Botania
-botania.page.bcIntegration0=Recent advances in piping technology have allowed &1Gates&0 to get a feel of the &4Mana&0 around them. A &1Gate&0 can now sense whether a &4Mana&0 container is empty, full or if it contains any mana.<br>&1Gates&0 can also use the &1Mana Detector&0 trigger to detect if a mana is passing by the pipe block. In addition, they can also sense when a &1Runic Altar&0 is ready to create runes.
+botania.entry.bcIntegration=Buildcraft連携
+botania.tagline.bcIntegration=Botaniaとゲート
+botania.page.bcIntegration0=配管技術の進歩によって&1ゲート&0が周囲の&4マナ&0を検知できるようになりました。&1ゲート&0は、&4マナ&0が空か、満タンか、入っているかを検知できます。<br>また、&1マナ検知器&0のトリガーを使うことで、マナがパイプを通過しているかを検知できます。さらに、&1ルーンの祭壇&0のルーンを作成する準備が整ったことも検知できます。
 
 # -- BANNER ADDITIONS
-botania.entry.banners=Banner Additions
-botania.tagline.banners=Lots of new banner patterns
-botania.page.banners0=In the presence of the &1Banners&0 from the future, &1Botania&0 adds &415&0 new icons to them, which can be mixed and matched with the original patterns and icons.<br>The following items can be used alongside a dye in the crafting grid to add an icon to a &1Banner&0: &1All Iron Tools&0, &1Spark Augments&0, &1Raw Fish&0, &1Livingwood and Dreamwood Twigs&0, &1Lexica Botania&0, &1Terrasteel&0 and the &1Tiny Potato&0.
-botania.page.banners1=Showcase of the various banners
+botania.entry.banners=旗の追加
+botania.tagline.banners=たくさんの新しい旗の模様
+botania.page.banners0=未来の&1旗&0が存在する場合、&1Botania&0は既存のパターンやアイコンと組み合わせることができる&415&0種類の新しいアイコンを追加します。<br>&1鉄ツール&0、&1スパーク強化&0、&1生魚&0、&1リビングウッドやドリームウッドの小枝&0、&1Botania魔法辞典&0、&1テラスチール&0、&1ちいさなポテト&0を染料と一緒にクラフトすると&1旗&0にアイコンを追加できます。
+botania.page.banners1=各種旗の見た目
 
 # -- PREVNTING DECAY
 botania.entry.preventingDecay=枯れないようにする
