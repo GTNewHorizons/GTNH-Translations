@@ -5,16 +5,16 @@
 death.engine.clockwork.player=%1$s fue apuсalado por un resorte suelto. %2$s fue el relojero negligente.
 death.engine.clockwork=%1$s fue apuсalado por un resorte suelto.
 
-for.beverage.effect.alcoholic=Alcoholic
-for.beverage.effect.antidote=Antidote
+for.beverage.effect.alcoholic=Alcohólico
+for.beverage.effect.antidote=Antídoto
 
-for.chat.accesslocked=%s is the owner of this machine and has locked access.
-for.chat.cannotmemorizeagain=You already memorized this information.
-for.chat.memorizednote=You memorize the note and dispose of the crumpled scrap of paper.
+for.chat.accesslocked=%s es el dueño de esta máquina y tiene acceso restringido.
+for.chat.cannotmemorizeagain=Ya memorizaste esta información.
+for.chat.memorizednote=Memorizas la nota y te deshaces de esta.
 for.chat.memorizednote2=You feel more confident in your ability to breed %1$s with %2$s to make %3$s!
 
 for.chat.command.aliases=Aliases: %s
-for.chat.command.list=Available Sub-Commands:
+for.chat.command.list=Subcomandos disponibles:
 for.chat.command.permlevel=Permission Level: %s
 for.chat.command.noperms=You do not have permission to use this command.
 
@@ -430,7 +430,7 @@ for.researchNote.error.0=It is impossible to decipher the washed out scribbles.
 for.researchNote.error.1=The note has become unreadable and is worthless.
 for.researchNote.discovered.0=§aSpecies researched!
 for.researchNote.discovered.1=§e'%1$s'§7 (%2$s)
-for.researchNote.discovery.0=§aMutation discovered!
+for.researchNote.discovery.0=§a¡Mutación descubierta!
 for.researchNote.discovery.1=§e'%SPEC1'§7 and §e'%SPEC2'§7.
 for.researchNote.discovery.2=Chance for success is §9%s§7.
 for.researchNote.discovery.3=New species is §d'%s'§7.
@@ -612,17 +612,17 @@ item.for.ingotTin.name=Tin Ingot
 item.for.iodineCapsule.name=Iodine Capsule
 item.for.kitPickaxe.name=Pickaxe Kit
 item.for.kitShovel.name=Shovel Kit
-item.for.letters.name=Letter
+item.for.letters.name=Carta
 
-item.for.minerBag.name=Miner's Backpack
-item.for.minerBagT2.name=Miner's Woven Backpack
+item.for.minerBag.name=Mochila de Minero
+item.for.minerBagT2.name=Mochila de Minero Tejida
 
-item.for.mouldyWheat.name=Mouldy Wheat
-item.for.mulch.name=Mulch
-item.for.naturalistHelmet.name=Spectacles
+item.for.mouldyWheat.name=Trigo Mohoso
+item.for.mulch.name=Mantillo
+item.for.naturalistHelmet.name=Gafas
 item.for.oakStick.name=Impregnated Stick
-item.for.peat.name=Peat
-item.for.phosphor.name=Phosphor
+item.for.peat.name=Turba
+item.for.phosphor.name=Fósforo
 item.for.pipette.name=Pipette
 
 item.for.pollen.crystalline.name=Crystalline Pollen Cluster
@@ -637,21 +637,21 @@ item.for.refractoryEthanol.name=Ethanol Capsule
 item.for.refractoryBiomass.name=Biomass Capsule
 item.for.refractoryEmpty.name=Refractory Capsule
 item.for.refractoryFuel.name=Fuel Capsule
-item.for.refractoryHoney.name=Honey Capsule
-item.for.refractoryIce.name=Ice Capsule
-item.for.refractoryJuice.name=Juice Capsule
-item.for.refractoryLava.name=Lava Capsule
+item.for.refractoryHoney.name=Cápsula de Miel
+item.for.refractoryIce.name=Cápsula de Hielo
+item.for.refractoryJuice.name=Cápsula de Jugo
+item.for.refractoryLava.name=Cápsula de Lava
 item.for.refractoryMead.name=Mead Capsule
 item.for.refractoryOil.name=Oil Capsule
 item.for.refractorySeedOil.name=Seed Oil Capsule
 item.for.refractoryShortMead.name=Short Mead Capsule
-item.for.refractoryWater.name=Water Capsule
+item.for.refractoryWater.name=Cápsula de Agua
 item.for.refractoryWax.name=Refractory Wax
 
 item.for.researchNote.name=%s's Notes
-item.for.royalJelly.name=Royal Jelly
+item.for.royalJelly.name=Jalea Real
 item.for.scoop.name=Scoop
-item.for.solderingIron.name=Soldering Iron
+item.for.solderingIron.name=Cautín
 
 item.for.stamps.1n.name=Stamp (1n)
 item.for.stamps.2n.name=Stamp (2n)
@@ -667,8 +667,8 @@ item.for.tent.name=Survivalist's Tent
 
 item.for.thermionicTubes.ex-0.name=Copper Electron Tube
 item.for.thermionicTubes.ex-1.name=Tin Electron Tube
-item.for.thermionicTubes.ex-2.name=Bronze Electron Tube
-item.for.thermionicTubes.ex-3.name=Iron Electron Tube
+item.for.thermionicTubes.ex-2.name=Tubo de Electrones de Bronce
+item.for.thermionicTubes.ex-3.name=Tubo de Electrones de Hierro
 item.for.thermionicTubes.ex-4.name=Golden Electron Tube
 item.for.thermionicTubes.ex-5.name=Diamantine Electron Tube
 item.for.thermionicTubes.ex-6.name=Obsidian Electron Tube
@@ -690,55 +690,55 @@ item.for.waxCapsuleBiomass.name=Biomass Capsule
 item.for.waxCapsuleFuel.name=Fuel Capsule
 item.for.waxCapsuleHoney.name=Honey Capsule
 item.for.waxCapsuleIce.name=Ice Capsule
-item.for.waxCapsuleJuice.name=Juice Capsule
+item.for.waxCapsuleJuice.name=Cápsula de Jugo
 item.for.waxCapsuleMead.name=Mead Capsule
 item.for.waxCapsuleOil.name=Oil Capsule
 item.for.waxCapsuleSeedOil.name=Seed Oil Capsule
 item.for.waxCapsuleShortMead.name=Short Mead Capsule
-item.for.waxCapsuleWater.name=Water Capsule
+item.for.waxCapsuleWater.name=Cápsula de Agua
 item.for.waxCast.name=Wax Cast
 
-item.for.woodPulp.name=Wood Pulp
-item.for.wrench.name=Wrench
+item.for.woodPulp.name=Pulpa de Madera
+item.for.wrench.name=Llave Inglesa
 
 itemGroup.apiculture=Apicultura
 itemGroup.arboriculture=Arboricultura
 itemGroup.forestry=Forestry
 itemGroup.lepidopterology=Lepidopterologнa
 
-tile.for.core.0.name=Analyzer
-tile.for.core.1.name=Escritoire
+tile.for.core.0.name=Analizador
+tile.for.core.1.name=Escritorio
 
-tile.for.engine.0.name=Electrical Engine
+tile.for.engine.0.name=Motor Eléctrico
 tile.for.engine.1.name=Peat-fired Engine
-tile.for.engine.2.name=Biogas Engine
-tile.for.engine.3.name=Bio Generator
+tile.for.engine.2.name=Motor de Biogás
+tile.for.engine.3.name=Bio Generador
 tile.for.engine.4.name=Clockwork Engine
 
-tile.for.factory.0.name=Bottler
+tile.for.factory.0.name=Embotellador
 tile.for.factory.1.name=Carpenter
 tile.for.factory.2.name=Centrifuge
-tile.for.factory.3.name=Fermenter
-tile.for.factory.4.name=Moistener
-tile.for.factory.5.name=Squeezer
+tile.for.factory.3.name=Fermentador
+tile.for.factory.4.name=Humectante
+tile.for.factory.5.name=Exprimidor
 tile.for.factory.6.name=Still
 tile.for.factory.7.name=Rainmaker
 tile.for.factory2.0.name=Thermionic Fabricator
 tile.for.factory2.1.name=Raintank
 tile.for.factory2.2.name=Worktable
 
-tile.for.mail.0.name=Mailbox
+tile.for.mail.0.name=Buzón
 tile.for.mail.1.name=Trade Station
 tile.for.mail.2.name=Stamp Collector
 
 tile.for.resources.0.name=Apatite Ore
-tile.for.resources.1.name=Copper Ore
+tile.for.resources.1.name=Mena de Cobre
 tile.for.resources.2.name=Mineral de estaño
 
 tile.for.resourceStorage.0.name=Block of Apatite
-tile.for.resourceStorage.1.name=Block of Copper
-tile.for.resourceStorage.2.name=Block of Tin
-tile.for.resourceStorage.3.name=Block of Bronze
+tile.for.resourceStorage.1.name=Bloque de Cobre
+tile.for.resourceStorage.2.name=Bloque de Estaño
+tile.for.resourceStorage.3.name=Bloque de Bronce
 
 tile.for.soil.0.name=Humus
 tile.for.soil.1.name=Bog Earth
@@ -798,10 +798,10 @@ for.errors.notGloomy.help=The bees can only work in darkness.
 for.errors.notLucid.desc=Not bright enough
 for.errors.notLucid.help=The bees have trouble navigating in the dark.
 for.errors.notNight.desc=Not nighttime
-for.errors.notNight.help=The bees can only work during the night.
-for.errors.tooHot.desc=Too Hot
+for.errors.notNight.help=Las abejas solo pueden trabajar en la noche.
+for.errors.tooHot.desc=Demasiado caliente
 for.errors.tooHot.help=The bees are melting in the heat here and unable to work. Use a Habitat Locator to find a cooler climate.
-for.errors.tooCold.desc=Too Cold
+for.errors.tooCold.desc=Demasiado frío
 for.errors.tooCold.help=The bees are huddled together to survive the freezing cold here. Use a Habitat Locator to find a warmer climate.
 for.errors.tooHumid.desc=Too Humid
 for.errors.tooHumid.help=The climate here has made the bees' wings too damp to fly. Use a Habitat Locator to find a dryer climate.
@@ -809,13 +809,13 @@ for.errors.tooArid.desc=Too Dry
 for.errors.tooArid.help=The dry climate here has made the bees parched and unable to work. Use a Habitat Locator to find a wetter climate.
 
 # MACHINES
-for.errors.noPower.desc=No Power
+for.errors.noPower.desc=Sin energía
 for.errors.noPower.help=This machine requires RF energy from an engine to function.
-for.errors.noRedstone.desc=Requires Redstone
+for.errors.noRedstone.desc=Requiere redstone
 for.errors.noRedstone.help=This machine requires a redstone signal to activate it.
 for.errors.disabledRedstone.desc=Disabled by Redstone
 for.errors.disabledRedstone.help=This machine is being disabled by a redstone signal.
-for.errors.noRecipe.desc=No recipe
+for.errors.noRecipe.desc=Sin receta
 for.errors.noRecipe.help=No matching recipe was found for the supplied resources.
 for.errors.noResource.desc=Missing resources
 for.errors.noResource.help=More resources need to be supplied for operation.
@@ -1357,10 +1357,10 @@ tile.for.pods.0.name=Pod
 
 for.circuit.managedArboreal=Arboretum
 for.circuit.managedCereal=Crop Farm
-for.circuit.managedInfernal=Infernal Farm
+for.circuit.managedInfernal=Granja Infernal
 for.circuit.managedPeat=Peat Bog
 for.circuit.managedShroom=Shroom Farm
-for.circuit.managedVegetable=Vegetable Farm
+for.circuit.managedVegetable=Granja de Vegetales
 for.circuit.managedEnder=Ender Farm
 for.circuit.manualCereal=Vanilla Crop Farm
 for.circuit.manualCocoa=Cocoa Plantation
@@ -1368,10 +1368,10 @@ for.circuit.manualGourd=Gourd Farm
 for.circuit.manualOrchard=Orchard
 for.circuit.manualPeat=Peat Bog
 for.circuit.manualPoales=Reed Farm
-for.circuit.manualRubber=Rubber Plantation
+for.circuit.manualRubber=Plantación de Goma
 for.circuit.manualShroom=Shroom Farm
 for.circuit.manualSucculent=Succulent Farm
-for.circuit.manualVegetable=Vegetable Farm
+for.circuit.manualVegetable=Granja de Vegetales
 for.circuit.manualIC2Crop=IC2 Crop Farm
 
 for.gui.farm.title=Farm
@@ -1390,7 +1390,7 @@ for.hints.farmland.tag=Lay out your farmland!
 for.hints.fertilizer.desc=All farms need fertilizer to work. Compost or mulch will not suffice.
 for.hints.fertilizer.tag=Fertilizer needed!
 for.hints.gearbox.desc=Use gearboxes to attach engines or power lines to your farm.
-for.hints.gearbox.tag=Supply power!
+for.hints.gearbox.tag=¡Suministra energía!
 for.hints.hatch.desc=Hatches are a pipe or tube's best friend. Use them to automate transport.
 for.hints.hatch.tag=Batten down the hatches!
 for.hints.manualfarms.desc=Apart from the managed farms there are manual farms which will only maintain the farm, but not build it.
@@ -1408,14 +1408,14 @@ tile.for.ffarm.3.name=Farm Hatch
 tile.for.ffarm.4.name=Farm Valve
 tile.for.ffarm.5.name=Farm Control
 
-tile.for.mushroom.0.name=Mushroom
-tile.for.mushroom.1.name=Mushroom
+tile.for.mushroom.0.name=Hongo
+tile.for.mushroom.1.name=Hongo
 
 ####################
 # LEPIDOPTEROLOGY
 ####################
 
-entity.Forestry.butterflyGE.name=Butterfly
+entity.Forestry.butterflyGE.name=Mariposa
 
 for.chat.command.forestry.butterfly.desc=- %s : Butterfly Commands
 for.chat.command.forestry.butterfly.help=Various commands related to butterflies
@@ -1627,7 +1627,7 @@ for.config.tweaks.permissions.comment=Enables access restrictions on forestry ma
 for.config.tweaks.version.check=Version Check
 for.config.tweaks.version.check.comment=Enables update and version check notice.
 
-for.config.tweaks.farms.size=Farm Size
+for.config.tweaks.farms.size=Tamaño de la granja
 for.config.tweaks.farms.size.comment=Sets the size multiplier of the farmland.
 for.config.tweaks.farms.square=Square Farms
 for.config.tweaks.farms.square.comment=Makes farms use a square layout instead of a diamond one.
