@@ -148,40 +148,40 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=Once you have a GT boiler or La
 
 # Quest: Underground Fluids
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.name=Жидкости под бедроком
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.desc=So you're probably wondering what all the underground fluids are. You can actually check so in NEI now!%n%nJust look for the tab called §oUnderground Fluid Stats§r. You can click §oSee All§r for a general overview, search by fluid, or search by planet.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.desc=Итак, тебе наверное интересно, что же это за жидкости. Теперь ты можешь посмотреть  их сам в NEI!%n%nПросто найди вкладку обозначенную §oСводка по Подземным Жидкостям§r. Ты можешь нажать §oСмотреть все§r для общей картины, поиску по жидкости или поиску по планете.
 
 # Quest: Covering Up
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.name=Covering Up
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.name=Модули
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=This quest goes over all of the covers, just in case you forgot or they weren't mentioned. If they have their own quest, look at it for more info. You can put them on basically any GT block, pipe, machine, tank, etc. Though that doesn't consider whether it will work right or be useful. Shift-Right-Click will open a GUI for many of them. For covers that you can adjust the amount of, clicking the left side with a screwdriver goes down, and right goes up. All covers block rain on the side they're attached to. Generally you can adjust covers with a screwdriver, whether they have a GUI or not. You can remove them with a crowbar if you forgot.%n%n§lFluid-Related Covers:§r%nPump: Transfers fluids at the speed specified on the tooltip.%n%nFluid Regulator: Regulates the rate that fluid can go through it, as well as pumping it. Can work x/s or x/t.%n%nSteam Valve: Moves more, but is only for steam. Only goes to IV. Does not work on SH steam.%n%nOverflow: Voids anything over the specified amount in the tank.%n%nFluid Detector: Will emit a redstone signal (RS) based on fluid fill rate of the tank it's on. By default, empty=15, full=0. Use inverted mode to swap. Useful on tanks and hatches.%n%nEnder Fluid Link: Cover version of ender tanks to TP fluid around. Doesn't connect to ender tanks though.%n%nDrain Module: Protects from rain on that side, and will fill the tank with water from rain if it can. Useless.%n%nFluid Filter: Filters fluid going through it. Click with a cell to set it.%n%nShutter: Blocks items/fluids when active. Use it with a machine controller and RS. Does not visually disconnect/block. You place it between the pipes, and put the MC on the same pipe.%n%n§lItem-Related Covers:§r%nConveyor: Sends items. Use an item pipe in import mode or on a GT block/machine.%n%nRobot Arm: Sends from a specific slot in the machine it's on (internal) to another specific slot in a block next to it (adjacent). Keep going through numbers until you get it right, it seems to change per machine. If the output slot is full, it won't output. There need to be a valid block with slots to send to or the settings won't save.%n%nItem Detector: Will emit RS based on item fill rate of the block it's on. By default, empty=0, full=15. Detects by filled slots, so doesn't work right with the super/quantum chests. Probably better for busses.%n%nItem Filter: This one is work-in-progress that is not yet finished. Feel free to contribute.%n%n§lEU-Related Covers:§r%nEnergy Detector: Will emit RS based on EU fill rate of the batbuff/tank it's on. By default, empty=0, full=15. Make sure to set it to include batteries. Can also detect steam for some reason.%n%nPower Pass Upgrade: Read the tooltip, then ask Bart how it works, he didn't bother telling anyone. He'll probably just tell you the code is the best documentation, just like the Tectech guys. May not actually be finished/work, either.%n%nTesla Coil/Tesla Coil Rich Edition: Use with the tesla tower to send EU wirelessly or something. %n%n§lOther Covers:§r%nPlayer Detector: Detects players. About 10 block range. §4Currently owner/other is inverted on non-pipes due to some bug or another.§r%n%nActivity Detector: Detects either recipe progress or idleness. 0%%=0 RS, ~95%%=14 by default. In idle mode, idleness is 15, and is 0 when running by default.%n%nMachine Controller: Turns machine on/off based on RS. Disable machine will keep it off regardless of RS state. Safe Mode only works on MBs. If a MB runs out of power, it will normally turn off, but a MC will turn it back on, continuing to void stuff. This will set it to the disable machine state instead. You will also get a notification. §4Safe mode is currently broken?§r%n%nNeeds Maintenance: Emits RS if it meets the condition specified. Rotor=turbine?%n%nRedstone Transmitter/Receiver (In/Out): OK, these things are confusing, so listen closely. First, set a frequency, either by using the GUI, or using the original way: right clicking it with an item. Empty hand = 0, other items = their item ID. Be careful not to reset it to 0 by accident. Honestly, just use the GUI. You can set it to private or not, it's the same kind of thing as EnderStorage, so you don't blare RS across the server. Channel state = RS level.%n%nRT(O) sets the channel state based on the redstone level sent from outside to the specific side. You can TP a RS from this to the RR(O).%nRT(I) sets the channel state based on redstone level that would be emitted from the machine itself. §4Always sends 15, so it's useless.§r%nRR(O) outputs redstone level based on channel state. You can TP RS from the RT(O) to here.%nRR(I) controls whether a machine can work based on channel state, just like a machine controller cover does. If it has 0 RS, it stays off. At least 1, and it turns on. You send the signal from elsewhere with the RT(O).%nRR(I) can also be used in conjunction with other covers whose states talk about conditional.%n%nIC2 Heat vents: Speeds up machines a tiny amount? Also looks neat. TODO: someone please look at the code to see what it actually does.%n%nCrafting Table: Adds a crafting table to the block you can use. Mostly cosmetic.%n%nPlanks/Plates/Foils: Blocks I/O on that side. Use a screwdriver to set allowed types of stuff through. Blocks everything by default. Set the output to another side first to avoid changing its settings too. You'll probably 'use' this by accident at least once.%n%nComputer Monitor: Adds a visual look. Cosmetic-only cover.%n%nLens: Cosmetic-only cover.%n%nYou can also use AE2 facades as cosmetic covers.
 
 
 ## Quest Line: Tier 0 - Stone Age
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAQ.name=Tier 0 - Stone Age
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAQ.desc=This tab continues the basics until you make your first steam machine, and are ready for the real GT stuff
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAQ.name=Уровень 0 - Каменнный век
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAQ.desc=Данная вкладка продолжает знакомство с основами, вплоть до твоего первого парового механизма и подгатавливает к настоящим GT вещам.
 
 # Quest: Ready, Set, Go!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAADw.name=§2§lReady, Set, Go!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAADw.desc=You probably should have a home by now. A steady supply of food is a fundamental requirement at all times. Take this journal to keep track of the things you've eaten. You will have to travel far in this tier, better be prepared!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAADw.name=§2§На старт, внимание, марш!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAADw.desc=У тебя, наверное уже должен быть дом. Стабильный источник еды это основная потребность во все времена. Возьми этот журнал, чтобы записывать, что ты съел. Тебе предстоит много путешествий на данном этапе, так что лучше подготовиться! 
 
 # Quest: Sand: The Gathering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEQ.name=§2§lSand: The Gathering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEQ.desc=In a strange vision you saw a big structure which would allow you to make charcoal. Finally some torches! According to your calculations, you will need a lot of sand for that.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEQ.name=§2§Песок: сбор
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEQ.desc=В странном видении, ты узрел большую конструкцию, которая позволит тебе сделать древесный уголь. Наконец-то немного факелов! Согласно твоим подсчетам, для этого потребуется куча песка.
 
 # Quest: Basic Processing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEg.name=§2§lBasic Processing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEg.desc=Most things are unavailable at the moment, so let's begin with something simple. Take some of your cobblestone and smelt it into regular stone. Since this modpack is evil, you'll need to use wood for that. How much fun is that?!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEg.name=§2§lБазовая обработка
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEg.desc=Большинство возможностей недоступны в данный момент, так что давай начнем с чего-нибудь простого. Возьми немного своего булыжника и переплавь его в обычный камень. Так как эта сборка модов злобная, для этого тебе понадобится дерево. Ну разве не весело?!
 
 # Quest: Macerator v0.1 Alpha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEw.name=§1§2§lMacerator v0.1 Alpha
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEw.desc=This fancy little device works (almost...) like a macerator. Some people say it's even better, since it does not require power, yay! You only need to craft one for this quest, but you probably should make some more if you can...%n%n[note]The mortar lets you make flint much, much more efficiently - you only need one gravel instead of three. Many tools and stations you'll make in the future will also open up better crafting recipes for things you can already make as well. If you need something but are hard up on resources, use NEI to check the recipes for that item - you may have options you didn't before.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEw.name=§1§2§lДробитель версия 0.1 альфа
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEw.desc=Это замечательное маленькое приспособление работает (почти....) как дробитель. Некоторые люди скажут, что он даже лучше, т.к. не требует энергии, ух! Тебе нужно сделать только один для этотого квеста, но лучше сделать побольше, если есть возможность...%n%n[note]Ступка дает возможность получать кремень гораздо, гораздо эффективней - тебе потребуется всего лишь один гравий заместо трех. Многие инструменты и станки, которые ты в будущем изготовишь, также откроют лучшие рецепты для вещей, которые ты уже можешь делать. Если тебе что-то нужно, но ты ограничен в возможностях, используй NEI для проверки рецептов - возможно у тебя есть возможности, которых ранее не было.[/note]
 
 # Quest: Gravel: The Gathering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFA.name=§2§lGravel: The Gathering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFA.desc=Your tools will eventually lose durability. You think it would be a good idea to collect more gravel in order to provide yourself with flint for more tools. Try searching near water.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFA.name=§2§Гравий: сбор
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFA.desc=Твои инструменты, в конечном счете сломаются. Думаю, было бы неплохо запастись гравием, чтобы обеспечить себя кремнием для создания новых. Попробуй поискать у воды.
 
 # Quest: Clay: The Gathering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFQ.name=§2§lClay: The Gathering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFQ.desc=While bored, you thought that it might be a good idea to take up pottery. You should go and find some clay, the riverbanks should have some.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFQ.name=§2§Глина: сбор
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFQ.desc=От скуки, тебе пришла в голову мысль, что неплохо бы заняться гончарным делом. Тебе следует пойти и найти немного глины, которая наверняка есть на берегах рек. 
 
 # Quest: Finite Water!?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFg.name=§2§lВода не бесконечна?
@@ -192,7 +192,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFw.name=§2§lЧто-то для тра
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFw.desc=Попытки перенести воду голыми руками ни к чему не привели. К счастью, ты помнишь, как сделать ведро из глиняной пыли.%n%nПоместите глину в ступку, чтобы получить из неё мелкую пыль глины, из которой затем можно сделать обычную пыль глины. 
 
 # Quest: Getting (Char)coal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGA.name=§1§2§lGetting (Char)coal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGA.name=§1§2§lПолучение древесного угля
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGA.desc=It's time to get yourself some charcoal. For that, we're going to build a coke oven. Good that you just collected a lot of resources! What a coincidence...%n%nEven though Waila says you can't, you can punch these blocks to get them back if you mess up the placement before you have a metal pickaxe.%n%nIt may be useful to remember that the oven doesn't automatically output its fluid contents. Faucets and pumps can help to change that.
 
 # Quest: Another Brick in the Wall
@@ -453,7 +453,7 @@ betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.desc=At the top of your map screen (
 
 
 ## Quest Line: Tier 0.5 - Steam
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAg.name=Tier 0.5 - Steam
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAg.name=Уровень 0.5 — Пар
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAg.desc=Steam to electricity (EU) is the progression of this tab. Most of the machines you make in this tier you'll use the whole game, if in an upgraded form.
 
 # Quest: Better Tank... Iron Tank
@@ -461,7 +461,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEA.name=§4§3§lBetter Tank... Iron Ta
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEA.desc=Storing more than 16 buckets of fluid in one tank? Sure! Just make an iron tank or upgrade the Buildcraft tank.%n%nDiamond tanks carry up to 64 buckets and obsidian ones are blast proof. There's even more past that, but you should probably use GT tanks or large cells instead.
 
 # Quest: Welcome to Tier 0.5, Steam!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.name=§3§lWelcome to Tier 0.5, Steam!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.name=§3§lДобро пожаловать на уровень 0.5, Пар!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.desc=Welcome, and well done so far! This tier is all about your first machines, getting more stuff from your ores and making bronze ingots in a more efficient manner.%n%nFor water, check out the Water Siding Tank multiblock in the Multiblock goals tab.%n%nTo connect up your boilers, be sure to provide water from the bottom, they'll accept only water from this side, so no risk of melting your pipe. Wooden pipes are fine for this. Make sure you never run out of water - §4adding water to a dry hot boiler will cause it to explode!§r%n%nSteam will come out from the sides. Remember, steam is hot! It will destroy wooden pipes. And it can burn you if you walk on bronze pipes full of steam.  Cover them with wooden planks or paper. Or just don't walk on/next to them.%n%nAnd no, you can't automate it. Make an electric one if you want to do that.
 
 # Quest: More Advanced Alloys
@@ -838,7 +838,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALYA.desc=Are your upgraded cobblestone o
 
 
 ## Quest Line: Tier 1 - LV
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.name=Tier 1 - LV
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.name=Уровень 1 – LV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.desc=The first "voltage" tier of this pack. Things should be a little easier with some of the machines you can now make, and almost every type of machine is now available, try not to be overwhelmed. You can get away with using LV machines for automating processing of things like polyethylene or electrolyzing water the whole game, so consider setting that up when you need it.
 
 # Quest: Handle Resources Like a Bo$$ #1
@@ -846,7 +846,7 @@ betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.name=§5§6§l§5§lHandle Resources
 betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.desc=A peak of human engineering at your disposal!%n%nThis machine allows you to filer by machine recipe type and allows you to effortlessly setup automation. To use it simply put a machine of any type into the GUI to create a filter, e.g. macerator will allow the machine to only accept items that can be macerated. The same machine can be used to create an inverse filter (a button in the GUI) that will allow you to exclude all items that can be processed by that machine. %n%n[note]Is it time for some ore processing automation?[/note]
 
 # Quest: Welcome to Tier 1, LV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.name=§5§r§5§lWelcome to Tier 1, LV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.name=§5§r§5§lДобро пожаловать на уровень 1, LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.desc=Why, hello there! It seems you've made it into the electrical age. Don't be so quick to throw away your steam machines, you'll probably want to keep using them for a while.%n%nTo make your life easier, you'll want to focus on getting a wiremill and bender first... once you suffer through making all the machine components.%n%nAfter that, the polarizer, assembler, lathe, and chemical reactor+fluid solidifier (for rubber) all help make things cheaper.%n%nLV machines are more energy-efficient than their steam counterparts because steam machines convert Steam to Power with 50%% efficiency, when the starting LV Steam Turbine has 85%% efficiency.%n%nULV doesn't exist.
 
 # Quest: Damn You, Wire Cutter!
@@ -898,7 +898,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZg.name=§5§lCutting Things Apart
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZg.desc=An absolutely mandatory machine to have. It will cut rods into bolts, plates into casings, logs into planks, and all of that will be done with the highest possible efficiency. Totally worth it! %n%nYou can use water, distilled water, or lubricant to run it. Use lubricant if possible, as it's the best.
 
 # Quest: Getting Ready for Tier 2, MV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.name=§5§lGetting Ready for Tier 2, MV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.name=§5§lПодготовка к уровню 2, MV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAZw.desc=In order to proceed forward, you need to get aluminium. A lot of it. But for now, 8 is enough to complete this quest.%n%nYour first option is alumina dust. Probably the best source for alumina is clay or hardened clay from canyons, however you need an MV machine for that, so you need to find an alternative until you have enough dust for your initial setup. For now, you can get it by centrifuging various impure piles from your ores or by smelting ruby, sapphire, or green sapphire in an EBF with carbon. Check the EBF quest in the Multiblock Goals.%n%nYou will also need an EBF to turn the alumina into aluminium ingots. For that you need cryolite. Go visit the Twilight Forest for that and find a Cryolite vein. The related quest is "Lead, Galena, Silver and Cryolite" is the Novice Thaumaturgy tab.%n%nYour second option is to use aluminium dust. However, you can not smelt that directly yet, even if you have an EBF. That will require higher heat levels. For now, you will have to either use a Tinker's Smeltery or a GT Compressor to turn the dust into raw aluminium which you can then smelt into ingots in the EBF. Check out the Tier 0 quest for some options to obtain the dust. %n%nBy the time you've completed this, you'll probably be done with most of the tab, but you'll still need Good Circuits (MV) to actually open up the next tier if you haven't done that yet.%n%nYou might also want to check the Getting Around and Without Dying tabs for new unlocks.%n%n§3If you were exploring Twilight Forest before 2.1.1.4 you won't find any cryolite in existing veins. You'll need to explore new chunks.
 
 # Quest: Your Magic Progression
@@ -1391,7 +1391,7 @@ betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.desc=A peak of human engineering at 
 
 
 ## Quest Line: Tier 2 - MV
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAABA.name=Tier 2 - MV
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAABA.name=Уровень 2 — MV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABA.desc=Your second voltage tier. Don't mix different voltage levels, or you'll have a fancy new crater. Start thinking about how to expand your base. %n%nBTW, for OCing purposes, this counts as tier 2, ULV doesn't count.
 
 # Quest: Electrolyzing All the Things
@@ -1707,7 +1707,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.name=§6§lDid You Run Low On Gold o
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.desc=Did you run low on redstone and/or gold? It's no problem with a glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust. Redstone is also a good source of chrome. You'll need tons of gold for HV, so it's a good idea to set this up before then.%n%n§3There's actually a couple plants that produce glowstone, pick the one you like!
 
 # Quest: Tier 2 (MV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfA.name=§6§lTier 2 (MV)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfA.name=§6§lУровень 2 (MV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfA.desc=The MV Machine Hull needs aluminium. You're also gonna need aluminium for every MV machine part, so keep that EBF truckin'.%n%nHere are some tips on where to start:%n- MV Electrolyzer makes getting aluminium easier.%n- MV Extruder makes parts cheaper.%n- MV Miner saves your time.%n%nHave you read the quest Safety First for details about mixing tiers? %nSending MV to an LV machine causes it to explode. %nSending MV voltage over LV cables causes them to melt, which causes fire that will likely cause the machines to blow up. %nAdditionally, recipes done in a tier higher than the original one (not ULV, ULV counts as LV) are overclocked (OC'd). The OC'd recipes use 4x power but complete 2x faster.
 
 # Quest: Passive Chunkloading
@@ -1960,7 +1960,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.desc=If you are salty about the ingr
 
 
 ## Quest Line: Tier 3 - HV
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.name=Tier 3 - HV
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.name=Уроень 3 - HV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.desc=Finally some real power to work with. This tier is all about getting to the moon to gather more rare resources to build even more advanced machines.
 
 # Quest: Keeping your energy hatch from overheating
@@ -1996,7 +1996,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlw.name=§9§lAutomated Mob Farming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlw.desc=Of course... zombies love that... disgusting liquid (nutrient distillation). While using a small amount per hit, he will attack everything that is within his range with a weapon you give him. That also includes players, so be careful. Rumors are there might be a weapon that will never break when used in this "machine"...%n%n§3BTW you need to be at > 75%% to run it.
 
 # Quest: Tier 3 (HV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAoA.name=§9§lTier 3 (HV)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAoA.name=§9§lУроень 3 (HV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAoA.desc=Your first hull, as usual...
 
 # Quest: Dimensional Goal: Moon
@@ -2381,7 +2381,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALog.desc=If processed correctly you can 
 
 
 ## Quest Line: Tier 4 - EV
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAABg.name=Tier 4 - EV
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAABg.name=Уроень 4 - EV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABg.desc=Welcome to EV! You have successfully gone to the moon and processed Titanium. You are now getting extreme levels of energy. In this tier you will unlock Nuclear energy, and Applied Energistics 2.
 
 # Quest: Tier 4 (EV)
@@ -8475,7 +8475,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG3g.name=BIOS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG3g.desc=The ROM disks are necessary to get your computer to start, they're also what you use to run a drone off from.%n%nYour BIOS go onto these little disks,  get a blank one and write the basic BIOS onto it.%n%nYou can do this later when you make more computers by flashing your existing BIOS onto new cards or combining a blank with the manual.
 
 # Quest: Tier 1
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG3w.name=Tier 1
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG3w.name=Уровень 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG3w.desc=Congratulations, we have the parts to start making a computer!%n%nLet's start with the basics here.
 
 # Quest: Intelligence is the Ability to Adapt to Change
@@ -8785,7 +8785,7 @@ betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.name=Essentia Quantum Storage
 betterquesting.quest.y9mYyyz4Qg6iGOYILdKA1A.desc=Seems you really want to swim in essentia?
 
 # Quest: Need More Information?
-betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=Need More Information?
+betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=Нужно больше информации?
 betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.desc=A brand new tool for you, amigo.%n%nThis little buddy not only has a larger card slot than the normal one, but also can show more information about your network storage.%n%nClicking the component icon can switch between ITEM, FLUID, and ESSENTIA details.%n%n%n§4%nNOTE:%n|  unit  |      range   |%n|    B   |    0~2^10   |%n|   KB   | 2^10~2^20 |%n|   MB   | 2^20~2^30 |%n|   GB   | 2^30~2^40 |%n|   TB   | 2^40~2^50 |%n|   PB   | 2^50~2^60 |%n|   EB   | 2^60~2^70 |%n|   ZB   | 2^70~2^80 |%n|   YB   | 2^80~2^90 |%n|   BB   | over 2^90  |§r
 
 # Quest: 16384k Fluid Component
@@ -9603,7 +9603,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7A.desc=If even the soul frame takes to
 
 # Quest: Analyser
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHog.name=Analyser
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHog.desc=The Analyzer is a machine that acts in an identical way to the Forestry Analyzer, in that it reveals the genome of bees, trees, butterflies and flowers. It can also be used to reveal the gene present on the DNA Sequence. Unlike the Analyzer, the Analyzer uses power (RF or EU) and DNA Dye to stain chromosomes and determine the genome directly. The analyzer takes 15 seconds to analyse a single individual.%n%nInformation from these quests was taken from Binnie's wiki at §9§n[url]https://binnie.mods.wiki/wiki/Tutorial/Genetics[/url]§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHog.desc=Анализатор — это машина, действующая аналогично Анализатору Forestry, поскольку она раскрывает геном пчел, деревьев, бабочек и цветов. Его также можно использовать для выявления гена, присутствующего в последовательности ДНК. В отличие от анализатора, анализатор использует мощность (RF или EU) и краситель ДНК для окрашивания хромосом и непосредственного определения генома. Анализатору требуется 15 секунд для анализа одного человека.%n%nИнформация по этим квестам взята из вики Бинни по адресу §9§n[url]https://binnie.mods.wiki/wiki/Tutorial/Genetics[/url] §р
 
 # Quest: Welcome to Biology Class!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.name=Welcome to Biology Class!
