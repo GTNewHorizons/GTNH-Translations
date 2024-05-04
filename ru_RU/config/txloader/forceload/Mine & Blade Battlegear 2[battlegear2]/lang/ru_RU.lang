@@ -21,10 +21,10 @@ flag.design.load.sections=Раздел загрузки
 
 key.categories.battlegear=Battlegear
 
-item.battlegear2:bow.greg.name=Greg's Bow
-item.battlegear2:bow.iron.name=Iron Bow
-item.battlegear2:bow.gold.name=Gold Bow
-item.battlegear2:bow.diamond.name=Diamond Bow
+item.battlegear2:bow.greg.name=Greg's лук
+item.battlegear2:bow.iron.name=Железный лук
+item.battlegear2:bow.gold.name=Золотой лук
+item.battlegear2:bow.diamond.name=Алмазный лук
 
 item.battlegear2:heraldric.name=Геральдическая иконка
 item.battlegear2:chain.name=Цепь
@@ -32,7 +32,7 @@ item.battlegear2:quiver.name=Колчан
 
 item.battlegear2:mb.arrow.ender.name=Стрела Края
 item.battlegear2:mb.arrow.holy.name=Holy Torch Arrow
-item.battlegear2:mb.arrow.ice.name=Ice Packed Arrow
+item.battlegear2:mb.arrow.ice.name=Ледяная стрела
 item.battlegear2:mb.arrow.explosive.name=Разрывная стрела
 item.battlegear2:mb.arrow.flame.name=Пламенная стрела
 item.battlegear2:mb.arrow.piercing.name=Бронебойная стрела
@@ -122,7 +122,7 @@ attribute.quiver.arrow.empty=Пусто
 attribute.quiver.arrow.count=Стрелы
 
 lore.base.arrow.explosive=Содержит взрывную силу
-lore.base.arrow.holy=It helps you face the darkness
+lore.base.arrow.holy=Это поможет вам противостоять тьме
 lore.base.arrow.ice=Effective against hot creatures like blazes and lava monsters
 lore.base.arrow.ender=Этому Оку Края кажется больно...
 lore.base.arrow.flame=Огниво? Спасибо, не надо
@@ -131,8 +131,8 @@ lore.base.arrow.poison=Дорого, хе-хе?
 lore.base.arrow.mystery=Все любят печенье!
 lore.base.arrow.leech=Делает Вас слабым и грустным
 
-lore.advanced.arrow.holy=Put a torch where it falls
-lore.advanced.arrow.ice=Is effective against creatures immune to fire
+lore.advanced.arrow.holy=Поместите факел туда, где он упадет
+lore.advanced.arrow.ice=Эффективен против существ, невосприимчивых к огню.
 lore.advanced.arrow.explosive=Сила взрыва зависит от критического удара
 lore.advanced.arrow.ender=Мгновенное перемещение или перемещение блока
 lore.advanced.arrow.flame=Поджигает мобов, игроков и блоки
@@ -144,7 +144,7 @@ lore.advanced.arrow.leech=Прикосновение вампира
 tooltip.armour.points=Броня
 
 commands.weaponwield.usage=/weaponwield current <рука> [игрок] ИЛИ /weaponwield name <рука> <название предмета> ИЛИ /weaponwield sensitivity <add|remove|get> <ore|type|id|damage|nbt>
-commands.weaponwield.set=%1$s successfully set as wieldable weapon
+commands.weaponwield.set=%1$s успешно установлен как доступное оружие
 commands.weaponwield.sensitivity=Оружейный компаратор имеет следующие чувствительности: %1$s
 commands.weaponwield.sensitivity.added=Чувствительность добавлена к оружейному компаратору: %1$s
 commands.weaponwield.sensitivity.removed=Чувствительность убрана из оружейного компаратора: %1$s
