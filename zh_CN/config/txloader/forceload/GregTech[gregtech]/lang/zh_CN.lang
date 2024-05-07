@@ -395,6 +395,8 @@ GT5U.machines.dronecentre.shutdown=You cannot control machine when drone centre 
 GT5U.machines.dronecentre.turnon=成功开启所有机器!
 GT5U.machines.dronecentre.turnoff=成功开启所有机器!
 GT5U.machines.dronecentre.noconnection=No valid connection
+GT5U.machines.dronecentre.enableRender=Enable Drone Render
+GT5U.machines.dronecentre.disableRender=Disable Drone Render
 
 GT5U.recipe_filter.empty_representation_slot.tooltip=§7用一个机器点击以设置过滤名单
 GT5U.recipe_filter.representation_slot.tooltip=§7点击清空
@@ -485,6 +487,14 @@ GT5U.gui.text.drone_operating=§aDrone operating normally!
 GT5U.gui.text.drone_title=Drone Control Centre
 GT5U.gui.text.drone_custom_name=Custom Machine Name
 GT5U.gui.text.drone_search=Search machine name
+GT5U.gui.text.out_of_fluid=§4No following fluids supplied: §b%s§f x §6%s L
+GT5U.gui.text.out_of_item=§4No following items supplied: §b%s§f x §6%s
+GT5U.gui.text.out_of_stuff=§4No following stuffs supplied: §b%s§f x §6%s
+GT5U.gui.text.power_loss=§4Shut down due to power loss.
+GT5U.gui.text.pollution_fail=§4Failed to output the pollution.
+GT5U.gui.text.structure_incomplete=§4Shut down due to incomplete structure.
+GT5U.gui.text.no_repair=§4Shut down due to machine damage.
+GT5U.gui.text.no_machine_part=No correct machine part in controller slot.
 
 GT5U.item.programmed_circuit.select.header=再编程电路
 
@@ -1309,8 +1319,6 @@ for.bees.species.silverfish=蠹虫
 for.mutation.condition.biomeid=需要生物群系
 for.mutation.condition.dim=需要维度(世界)
 
-for.flowers.flaming=Fire
-
 itemGroup.GTtools=GT预构工具
 
 gregtech.fertilitySterile=不育
@@ -1324,7 +1332,6 @@ gregtech.speedAccelerated=加速
 gregtech.lifeBlink=瞬灭
 gregtech.lifeEon=永生
 gregtech.effectTreetwister=树苗嬗变
-gregtech.effectMachineBoost=Machine Booster
 
 entity.gregtech.GT_Entity_Arrow.name=GT箭头
 
