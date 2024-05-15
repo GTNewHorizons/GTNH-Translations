@@ -859,7 +859,7 @@ enderio.item.endSteel_pickaxe.tooltip.effObs=Efficiency breaking obsidian
 enderio.item.endSteel_pickaxe.tooltip.cost=cost
 
 enderio.item.stellar_pickaxe.tooltip.effPowered=Efficiency when powered
-enderio.item.stellar_pickaxe.tooltip.effObs=Efficiency breaking obsidian
+enderio.item.stellar_pickaxe.tooltip.effObs=Eficiencia al romper obsidiana
 enderio.item.stellar_pickaxe.tooltip.cost=cost
 
 enderio.item.darkSteel_axe.tooltip.multiHarvest=Mantén pulsado shift para recoger múltiples troncos.
@@ -874,29 +874,29 @@ enderio.item.darkSteel_sword.tooltip.line3=+2 de daño cuando está cargada.
 
 enderio.item.endSteel_sword.tooltip.line1=Increased skull and ender pearl drops
 enderio.item.endSteel_sword.tooltip.line2=Endermen can't teleport once hit
-enderio.item.endSteel_sword.tooltip.line3=+2 Damage when Powered
+enderio.item.endSteel_sword.tooltip.line3=+2 de daño con energía
 
 enderio.item.stellar_sword.tooltip.line1=Increased skull and ender pearl drops
 enderio.item.stellar_sword.tooltip.line2=Endermen can't teleport once hit
-enderio.item.stellar_sword.tooltip.line3=+2 Damage when Powered
+enderio.item.stellar_sword.tooltip.line3=+2 de daño con energía
 
 enderio.item.darkSteel_armor.tooltip.line1=Nivel de protección equivalente al diamante cuando está cargada.
-enderio.item.darkSteel_armor.tooltip.line2=when powered
+enderio.item.darkSteel_armor.tooltip.line2=cuando energizado
 
-enderio.item.endSteel_armor.tooltip.line1=Diamond+ level protection
-enderio.item.endSteel_armor.tooltip.line2=when powered
+enderio.item.endSteel_armor.tooltip.line1=Nivel de protección de diamante+
+enderio.item.endSteel_armor.tooltip.line2=cuando energizado
 
-enderio.item.stellar_armor.tooltip.line1=Diamond+ level protection
-enderio.item.stellar_armor.tooltip.line2=when powered
+enderio.item.stellar_armor.tooltip.line1=Nivel de protección de diamante+
+enderio.item.stellar_armor.tooltip.line2=cuando energizado
 
 enderio.item.darkSteel_boots.tooltip.line1=Daño de caída ignorado cuando están cargadas.
-enderio.item.darkSteel_boots.tooltip.line2=when powered
+enderio.item.darkSteel_boots.tooltip.line2=cuando energizado
 
-enderio.item.endSteel_boots.tooltip.line1=Fall damage negated
-enderio.item.endSteel_boots.tooltip.line2=when powered
+enderio.item.endSteel_boots.tooltip.line1=Daño por caída anulado
+enderio.item.endSteel_boots.tooltip.line2=cuando energizado
 
-enderio.item.stellar_boots.tooltip.line1=Fall damage negated
-enderio.item.stellar_boots.tooltip.line2=when powered
+enderio.item.stellar_boots.tooltip.line1=Daño por caída anulado
+enderio.item.stellar_boots.tooltip.line2=cuando energizado
 
 enderio.darksteel.upgrade.empowered_one.name=Fortaleza
 enderio.darksteel.upgrade.empowered_one.tooltip.detailed.line1=Poder: $P
@@ -1192,9 +1192,9 @@ enderio.gui.item_filter.damage.damage_00_50=Up to 50% Damaged
 enderio.gui.item_filter.damage.damage_50_00=More than 50% Damaged
 enderio.gui.item_filter.damage.damage_00_75=Up to 75% Damaged
 enderio.gui.item_filter.damage.damage_75_00=More than 75% Damaged
-enderio.gui.item_filter.damage.damage_00_00=Not Damaged
-enderio.gui.item_filter.damage.damage_01_00=Damaged
-enderio.gui.item_filter.damage.damage_yes=Can be Damaged
+enderio.gui.item_filter.damage.damage_00_00=Sin daño alguno
+enderio.gui.item_filter.damage.damage_01_00=Dañado
+enderio.gui.item_filter.damage.damage_yes=Puede dañarse
 enderio.gui.item_filter.damage.damage_not=Cannot be Damaged
 
 enderio.gui.edit_item_filter=Edit Filter Settings
@@ -1215,8 +1215,8 @@ enderio.gui.item_filter.ignore_nbt=Ignore NBT
 
 enderio.gui.existing.item_filter.snapshot=Snapshot
 enderio.gui.existing.item_filter.merge=Merge
-enderio.gui.existing.item_filter.clear=Clear
-enderio.gui.existing.item_filter.show=Show
+enderio.gui.existing.item_filter.clear=Despejar
+enderio.gui.existing.item_filter.show=Mostrar
 enderio.gui.existing.item_filter.snapshot2=Optional: If no snapshot is set, the inventory content will be used as filter
 enderio.gui.existing.item_filter.merge2=Merge the current snapshot with a new one
 enderio.gui.existing.item_filter.clear2=Clear the snapshot
@@ -1305,7 +1305,7 @@ enderio.gui.conduit.item.fuzzy.fuzzy_75=Damage Mode: Damaged by 75% or more
 enderio.gui.conduit.item.fuzzy.fuzzy_99=Damage Mode: Damaged at least once
 enderio.gui.conduit.item.fuzzy.tooltip.0=Can work without items in the filter
 enderio.gui.conduit.item.fuzzy.tooltip.1=In this case its logic can be
-enderio.gui.conduit.item.fuzzy.tooltip.2=controlled by %s button
+enderio.gui.conduit.item.fuzzy.tooltip.2=controlado por botón %s
 
 enderio.gui.conduit.item.filterupgrade=Insertar Filtro de Objetos
 enderio.gui.conduit.item.speedupgrade=Insertar Mejoras/Reductores de Velocidad para tuberías de objetos
@@ -1328,7 +1328,7 @@ enderio.gui.conduit.gas.autoExtract=Auto-Extracción
 enderio.gui.weather.task.clear=Clima Despejado
 enderio.gui.weather.task.rain=Clima Lluvioso
 enderio.gui.weather.task.storm=Tormenta
-enderio.gui.weather.requiredfluid=Required Fluid: %s L
+enderio.gui.weather.requiredfluid=Fluido requerido: %s L
 enderio.weatherObelisk.fuelTank=Barometric Flux Tank
 
 #Enchants
