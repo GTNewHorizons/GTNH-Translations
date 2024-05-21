@@ -144,7 +144,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAALA.desc=Вся накопленна
 
 # Quest: Automating Power On/Off
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.name=§6§lАвтоматизация включения/выключения подачи энергии
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=Once you have a GT boiler or Large Combustion Engine with a long startup time, you may wish to automate turning it on/off to save fuel, since extra power or Steam will just be voided. Additionally, the bigger your Steam/EU buffer is, the less time your generators will spend heating up, which makes them more efficient. %n%nUse a Machine Controller Cover on the controller for that. You can put it on top, bottom, or sides next to a casing - casings will transmit the redstone signal. You can use a Soldering Iron and Fine Soldering Alloy Wire to set the Redstone Output of a controller block to strong. When set to Strong it can go through a casing, but not hatches, buses, or other blocks. Use it with an activity detector if you want to receive a signal from the controller rather than turning it on/off with one.§r%n%nWith a Machine Controller Cover, you can use redstone to turn the machine on and off. This is handy if you don't want to use a Soft Hammer to disable a machine yourself constantly.%n %nThe best way to do that is with an RS latch. One input will turn the machine on, and one input will turn the machine off. Use a comparator attached to a valve to measure the steam level in your multiblock Iron or Steel Tank. Invert the signal to turn on your boiler when the steam level is low. When the steam level signal is high, turn your boiler off. Use a trail of redstone to lower the signal strength. Because of boiler/turbine warmup, try to set the ON strength to 30 percent of capacity and OFF strength to about 90 percent.%n%nRed alloy wire will hold a redstone signal for a longer distance than normal redstone, while redstone conduits will go indefinitely. You can also use amplified redcrystal to improve the strength of the signal for a long distance, repeating as necessary. %n%nYou can use a Energy Detector Cover in Normal Electrical Storage (including batteries) mode to monitor the power in a battery buffer and use it to enable/disable generators in a similar way. Change mode using a screwdriver. If you use a dense redcrystal, it will only allow signal through at a certain level, perfect for automating this kind of thing.%n%nYou can use MCCs on more than just generators though, you can use it on any multiblock and most singleblocks. This is useful to prevent voiding of materials. Unlike GT++ multies that will halt if full, a non-GT++ multi will void the items or liquids and keep on working, potentially voiding huge amounts of materials. You'll want to use them in combination with Fluid or Item Detection Covers on the output hatch or bus.%n%nFor a video version, check out this video: §9§n[url]https://www.youtube.com/watch?v=jPfnifJEO64§r[/url]§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=Как только у тебя появится GT бойлер или большой двигатель сгорания с долгим разогревом, советую автоматизировать их включение и выключение, чтобы сэкономить на топливе, так как лишняя энергия или пар просто исчезнут. Также чем больше твой буфер пара/EU, тем меньше времени твои генераторы будут тратить на разогрев, делая их эффективнее. %n%nДля этого используй модуль управления механизмом на контроллере механизма. Прикрепи его сверху, снизу или по бокам блока контроллера рядом с корпусами - корпуса передают сигнал красного камня. Можешь использовать паяльник и тонкую проволоку припоя, чтобы выставить сигнал исходящего красного камня с контроллера на "Сильный". Когда сигнал выставлен на "Сильный", он может передаваться через корпуса, но не шлюзы, люки или другие блоки. Используй его в паре с детектором активности, если хочешь считывать сигнал с механизма вместо того, чтобы просто включать и выключать его. §r%n%nС модулем управления механизмом ты можешь использовать сигнал красного камня чтобы контроллировать работу механизма. Полезно, если ты не хочешь постоянно выключать механизм киянкой вручную.%n %nЛучший способ это сделать - с помощью RS-триггера. Один вход включает механизм, а другой его выключает. Поставь компаратор к клапану своего железного или стального мультиблочного бака, чтобы измерять уровень пара. Инвертируй сигнал, чтобы включать бойлер, когда уровень пара низкий. Когда уровень сигнала от пара высокий, выключи бойлер. Используй полосу красного камня, чтобы снизить уровень сигнала. Из-за разогрева бойлера/турбины, поставь сигнал включения на 30% от ёмкости, а сигнал выключения примерно на 90%.%n%nПровод красного сплава удерживает сигнал красного камня на более дальнее расстояние чем обычный красный камень, в то время как труба красного камня из Ender IO удерживает его бесконечно. Также можно использовать Усиленный красный кристалл чтобы удерживать сигнал на более дальнее расстояние если использовать красные кристаллы вместо красного камня. %n%nМожешь использовать модуль детектора энергии в режиме "Обычное электрическое хранилище (включая батареи)", чтобы отслеживать накопленную энергию в батарейном буфере и включать/выключать генераторы RS-триггером. Режимы меняются отверткой. Плотный красный кристалл пропускает сигнал только от определённого порога сигнала, что идеально для автоматизации подобной системы. %n%nКстати модуль контроллера механизма можно использовать не только на генераторах - его можно прикрепить на любой мультиблок и на многие одноблочные механизмы. Полезно для того чтоб предотвратить сгорание лишних материалов. В отличии от мультиблоков из GT++, которые перестают работать, когда забиты предметами, остальные мультиблоки продолжают работать и лишние жидкости/предметы исчезают, потенциально уничтожая огромное количество материалов. Советую использовать модули контроллеров механизмов в паре с модулями детекторов жидкостей и предметов на выходных шлюзах и люках.%n%nТакже есть видео-версия данной автоматизации: §9§n[url]https://www.youtube.com/watch?v=jPfnifJEO64§r[/url]§r
 
 # Quest: Underground Fluids
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.name=Жидкости под бедроком
@@ -634,10 +634,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACLg.desc=После того как ты
 
 # Quest: Upgrade of the Upgrade of the...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACVA.name=§3§k§l§1§2§3§lУлучшение улучшения...улучш...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACVA.desc=It's upgrade time. Unlock redstone and obsidian level for your different tools.%n%nRemember, a fresh tool head starts at one level below.  So you'll need to use it enough to level it up before you can mine at the proper level. Go strip-mine a mountain or something.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACVA.desc=Время обновок. Разблокируй уровни добычи "красный камень" и "обсидиан" для твоих инструментов.%n%nНапоминаю, что новая головка инструмента поначалу идет с уровнем добычи на один ниже. Так что тебе нужно достаточно попользоваться инструментом, пока он не вернется на свой уровень. Иди сровняй с землей гору или тип того.
 
 # Quest: Moving Your Tanks, Chests, and Barrels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.name=§3§lMoving Your Tanks, Chests, and Barrels
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.name=§3§lПеремещаем твои резервуары, сундуки и бочки
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACcQ.desc=Want to move your chests and barrels without spilling all the things (buildcraft™)? No problem! Make a dolly and you can carry your full chests, barrels or storage drawers anywhere you want. But be warned, you will get a slowness debuff so hopefully you don't have to travel very far. You can also move non-portable buildcraft and iron tanks without losing fluids, and worktables without losing stored recipes.%n%nShift right click an empty dolly to collapse it. It won't carry anything until you unfold it, but it will stack and can go in your backpack.%n%n§3PS: Later on you can fly or make a traveller's belt to get around the debuff.§r
 
 # Quest: One Anvil... Better Make That Two!
@@ -6428,7 +6428,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNw.name=Infused Solars
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFNw.desc=Compressed Solar Panels can be infused with Aspects for certain additional features. Check them out and choose one of them.
 
 # Quest: Double Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOA.name=Double Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOA.name=Дважды сжатая солнечная панель
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOA.desc=100EU/t for 72x1EU/t Solars? Sounds like a good deal. Get one of these. They can be Infused as well.
 
 # Quest: Even More Infused
@@ -6436,7 +6436,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOQ.name=Even More Infused
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOQ.desc=You can infuse double or triple compressed solars as well.
 
 # Quest: Triple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOg.name=Triple Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOg.name=Трижды сжатая солнечная панель
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFOg.desc=Triple Compressed Solars. Yes, that's right. They are a bit more expensive than their lower counterparts, 576 Solars in total. But they give out 1,000 GT EU per tick and have no need to be cleaned.  How so? Magic.
 
 # Quest: Essentia Generator: Ignis
@@ -6680,7 +6680,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_g.name=§9§lKinetic Wind Power ZPM
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_g.desc=This is the ZPM version.
 
 # Quest: Quadruple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.name=Quadruple Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.name=Четырежды сжатая солнечная панель
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.desc=Puts out 10000-32768 EU/t.
 
 # Quest: Deep Earth Heating Pump
@@ -6700,15 +6700,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.name=Where Do I Build the Dyson Swar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4A.desc=If you read the Dyson Swarm Ground Unit's tooltip carefully (which you should), you might have noticed, that it mentions a "dimension-dependent factor". The dimension you build the Dyson Swarm multiblock in can greatly affect the real power output.%n%n§lSorted by factor (descending):§r%n§a337%% - Horus%n§a231%% - Barnarda C%n228%% - Neper%n228%% - α Centauri Bb%n211%% - Mehen belt%n198%% - Maahes%n198%% - Seth%n198%% - Vega B%n194%% - Venus Space Stations%n181%% - Anubis%n176%% - Venus%n161%% - Mercury%n141%% - Barnarda E%n134%% - T Ceti E%n126%% - Barnarda F%n112%% - Ross128b, Ross128ba%n110%% - Earth Space Stations%n§6100%% - Overworld, Moon%n§c89%% - Mars Space Stations%n81%% - Mars, Phobos, Deimos%n61%% - Asteroids%n60%% - Ceres%n48%% - Jupiter Space Stations%n44%% - Europa, Io, Ganymede%n36%% - Saturn Space Stations%n32%% - Enceladus, Titan, Callisto%n25%% - Uranus Space Stations%n23%% - Oberon, Proteus, Miranda%n20%% - Neptune Space Stations%n18%% - Triton%n16%% - Pluto, Kuiper Belt%n15%% - Makemake, Haumea%n1%% - Garden, Mining and Void Worlds%n§40%% - All other dimensions
 
 # Quest: Quintuple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALAA.name=Quintuple Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALAA.name=Пятикратно сжатая солнечная панель
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAA.desc=Puts out 100,000-131,072 EU/t.
 
 # Quest: Sextuple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALAQ.name=Sextuple Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALAQ.name=Шестикратно сжатая солнечная панель
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAQ.desc=Puts out 1,000,000-2,097,152 EU/t.
 
 # Quest: Septuple Compressed Solar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALAg.name=Septuple Compressed Solar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALAg.name=Семикратно сжатая солнечная панель
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALAg.desc=Puts out 10,000,000-33,554,432 EU/t.
 
 # Quest: Toss Your Magic Junk in Here LV
