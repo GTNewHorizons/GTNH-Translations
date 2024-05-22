@@ -20,7 +20,6 @@ choice.toggledmaintained=Geschaltet/Gewartet
 choice.showliquids=Flüssigkeiten
 choice.shifttoggledblock=Blöcke schleichend umschalten
 choice.shifttoggledents=Lebewesen schleichend umschalten
-choice.forcelegacymode=Force legacy mode
 screen.button.configureaspect=Konfiguriere Aspekt...
 
 enchant.title.name=Name
@@ -136,6 +135,7 @@ option.bcapi.consump=Zeige maximale Energie
 option.bcapi.trigger=Zeige Startenergie
 option.pr.showio=Zeige Gatter IO
 option.pr.showdata=Zeige Gatterdaten
+option.pr.showsignal=Show wire signal strength
 option.extrautilities.fluidamount=Zeige Flüssigk.-Menge
 option.openblocks.fluidamount=Zeige Flüssigk.-Menge
 option.railcraft.fluidamount=Zeige Flüssigk.-Menge
@@ -150,38 +150,3 @@ option.general.showcrop=Zeige Pflanzenwachstum
 option.thaumcraft.aspects=Zeige Aspekte
 
 nei.options.keys.showenchant=Verzaubernde Werte anzeigen
-
-# waila harvestability
-
-# tools
-wailaharvestability.toolclass.pickaxe=Pickaxe
-wailaharvestability.toolclass.shovel=Shovel
-wailaharvestability.toolclass.axe=Axe
-wailaharvestability.toolclass.chisel=Chisel
-wailaharvestability.toolclass.scoop=Scoop
-wailaharvestability.toolclass.crowbar=Crowbar
-wailaharvestability.toolclass.sword=Sword
-
-# tooltips
-wailaharvestability.effectivetool=Effective Tool :
-wailaharvestability.harvestlevel=Harvest Level :
-wailaharvestability.currentlyharvestable= Currently Harvestable
-wailaharvestability.harvestable= Harvestable
-
-# options
-option.harvestability.harvestlevel=Harvest level
-option.harvestability.effectivetool=Effective tool
-option.harvestability.currentlyharvestable=Currently harvestable
-option.harvestability.oresonly=Ores only
-option.harvestability.harvestlevel.sneakingonly=Sneak only: Harvest level
-option.harvestability.effectivetool.sneakingonly=Sneak only: Effective tool
-option.harvestability.currentlyharvestable.sneakingonly=Sneak only: Harvestable
-option.harvestability.minimal=Minimal mode
-option.harvestability.unharvestableonly=Unharvestable only
-option.harvestability.toolrequiredonly=Tool required only
-option.harvestability.shearability=Shearability
-option.harvestability.shearability.sneakingonly=Sneak only: Shearability
-option.harvestability.silktouchability=Silk Touchability
-option.harvestability.silktouchability.sneakingonly=Sneak only: Silk Touchability
-option.harvestability.harvestlevelnum=Harvest level no.
-option.harvestability.harvestlevelnum.sneakingonly=Sneak only: Harvest level no.
