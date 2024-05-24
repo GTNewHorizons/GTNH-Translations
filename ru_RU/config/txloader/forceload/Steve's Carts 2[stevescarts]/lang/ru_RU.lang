@@ -133,9 +133,9 @@ gui.SC2:sideToolTip=Сторона: [%1]
 
 # Detector Units gui localization
 gui.SC2:operatorOutput=ВЫВОД
-gui.SC2:operatorAnd=AND
+gui.SC2:operatorAnd=И
 gui.SC2:operatorOr=OR (или)
-gui.SC2:operatorNot=NOT
+gui.SC2:operatorNot=НЕ
 gui.SC2:operatorXor=XOR (не-или)
 gui.SC2:operatorTopUnit=Верхний узел
 gui.SC2:operatorBotUnit=Нижний узел
@@ -158,7 +158,7 @@ gui.SC2:stateBridge=Есть материал для моста
 gui.SC2:stateProjectiles=Есть снаряды
 gui.SC2:stateFertilizing=Есть удобрения
 # The cake one is a new one (you can remove this comment)
-gui.SC2:stateCake=Have cake supplies
+gui.SC2:stateCake=Есть тортики
 #
 gui.SC2:stateShield=Щит включен
 gui.SC2:stateChunk=Подгрузчик чанков включен
@@ -308,7 +308,7 @@ item.SC2:trick_or_treat_cake_server.name=Подносчик тортов Сла�
 item.SC2:cake_server.name=Подносчик тортов
 item.SC2:creative_incinerator.name=Творческий мусоросжигатель
 item.SC2:creative_supplies.name=Творческий поставщик ресурсов
-item.SC2:color_randomizer.name=Color Randomizer
+item.SC2:color_randomizer.name=Рандомизатор цвета
 
 # Components
 item.SC2:unknowncomponent.name=Неизвестный компонент SC2
@@ -503,7 +503,7 @@ info.SC2:impossibleCombinationError=Комбинация типов модуле
 info.SC2:complexityOverloadError=Модуль "[%1]" слишком сложен для этого корпуса.
 info.SC2:missingParentError=Для работы [%1] необходим [%2]!
 info.SC2:presentNemesisError=[%1] не работает вместе с [%2]
-info.SC2:presentDuplicateError=[%1] is not allowed to be added twice.
+info.SC2:presentDuplicateError=[%1] нельзя добавить дважды.
 info.SC2:sideClashError=[%1] и [%2] приведут к конфликту на [%3]
 # need beta 3 for these ones to show up (remove this note)
 info.SC2:toolUnbreakable=Неломаемый
@@ -593,7 +593,7 @@ modules.addons.SC2:recipeChangeLimit=[%1->Увеличить|Уменьшить]
 modules.addons.SC2:recipeChangeLimit10=Shift+Клик - изменить на 10.
 modules.addons.SC2:recipeChangeLimit64=Ctrl+Клик - изменить на 64.
 modules.addons.SC2:shieldToggle=[%1->Включить|Выключить] щит
-modules.addons.SC2:buttonRandomize=Randomize Color
+modules.addons.SC2:buttonRandomize=Случайный цвет
 
 # Engines
 modules.engines.SC2:creativePowerLevel=Энергия: [%1]
@@ -681,7 +681,7 @@ modules.attachments.SC2:controlSystemReset=Сбросить счетчик
 # ======================================
 # need beta 3 for these ones to show up (remove this note)
 # Ghast Invaders
-arcade.SC2:ghastInvaders=Ghast Invaders
+arcade.SC2:ghastInvaders=Охотники на гастов
 arcade.SC2:ghastLives=Жизней
 arcade.SC2:highScore=Рекорд: [%1]
 arcade.SC2:score=Очки: [%1]
