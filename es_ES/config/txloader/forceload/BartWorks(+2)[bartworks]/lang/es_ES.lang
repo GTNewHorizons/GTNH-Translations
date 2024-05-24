@@ -130,42 +130,42 @@ tooltip.tile.energydistributor.0.name=Splits Amperage into several Sides.
 tooltip.tile.biolab.0.name=The BioLab, a Multi-Use Bioengineering Station
 tooltip.tile.radhatch.0.name=Cámara de Objetos Radioactivos para Multibloques
 tooltip.tile.radhatch.1.name=Use a screwdriver to set the containment level
-tooltip.tile.radhatch.2.name=Material:
+tooltip.tile.radhatch.2.name=Mateial:
 tooltip.tile.radhatch.3.name=Sievert:
-tooltip.tile.radhatch.4.name=Amount:
+tooltip.tile.radhatch.4.name=Cantidad:
 tooltip.tile.radhatch.5.name=Time (in t/s/m/h) to decay (1kg):
 tooltip.tile.radhatch.6.name=t
 tooltip.tile.radhatch.7.name=s
 tooltip.tile.radhatch.8.name=m
 tooltip.tile.radhatch.9.name=h
 tooltip.tile.radhatch.10.name=Remaining: %s s / %s s
-tooltip.tile.acidgen.0.name=An Acid Generator
+tooltip.tile.acidgen.0.name=Un generador acídico
 tooltip.tile.acidgen.1.name=Creates Power from Chemical Energy Potentials.
 
 # RecipeMap
 bw.recipe.biolab=Bio Lab
-bw.recipe.BacteriaVat=Bacterial Vat
-bw.fuels.acidgens=Acid Generator
-bw.recipe.cal=Circuit Assembly Line
-bw.recipe.radhatch=Radio Hatch Material List
-gt.recipe.electricimplosioncompressor=Electric Implosion Compressor
+bw.recipe.BacteriaVat=Vat Bacterial
+bw.fuels.acidgens=Generador Acídico
+bw.recipe.cal=Línea de Ensamble de Circuitos
+bw.recipe.radhatch=Lista de Materiales de la Escotilla de Radio
+gt.recipe.electricimplosioncompressor=Compresor de Implosiones Eléctrico
 bw.recipe.htgr=High Temperature Gas-cooled Reactor
 
-nei.biovat.0.name=Needs Glass Tier: %s
-nei.biovat.1.name=Need exactly Sievert: %s Sv
-nei.biovat.2.name=Need minimum Sievert: %s Sv
+nei.biovat.0.name=Necesita cristal de nivel: %s
+nei.biovat.1.name=Necesita sievert exactos: %s Sv
+nei.biovat.2.name=Mínimo de Sievert: %s Sv
 nei.biovat.input.tooltip=Consumed up to 1,001x amount, depending on output rate
 nei.biovat.output.tooltip=Outputs up to 1,001x amount, depending on the amount of fluid stored in the Output Hatch
 
-tile.diode.name=Cable Diode
-tile.energydistributor.name=Energy Distributor
-tile.acidgenerator.name=Acid Generator
-tile.bw.mbf.name=Mega Blast Furnace
-tile.bw.mvf.name=Mega Vacuum Freezer
+tile.diode.name=Diodo de Cable
+tile.energydistributor.name=Distribuidor de Energía
+tile.acidgenerator.name=Generador Acídico
+tile.bw.mbf.name=Mega Alto Horno Eléctrico
+tile.bw.mvf.name=Mega Congelador de Vacío
 tile.biolab.name=Bio Lab
-tile.biovat.name=Bacterial Vat
-tile.radiohatch.name=Radio Hatch
-tile.bw.windmill.name=Windmill
+tile.biovat.name=Vat Bacterial
+tile.radiohatch.name=Escotilla de Radio
+tile.bw.windmill.name=Molino de Viento
 tile.manutrafo.name=Manual Trafo
 tile.BioFluidBlock.name=Bio Fluid Block
 
@@ -182,12 +182,12 @@ itemGroup.bartworksMetaMaterials=BartWorks' Meta Materials
 planet.Ross128b=Ross128b
 moon.Ross128ba=Ross128ba
 star.Ross128=Ross128
-solarsystem.Ross128System=Ross128-System
+solarsystem.Ross128System=Sistema Ross128
 
 itemGroup.bw.MetaItems.0=BartWorks Circuit Overhaul Items
 
-BW.infoData.BioVat.expectedProduction=Expected Production
-BW.infoData.BioVat.production=Production
+BW.infoData.BioVat.expectedProduction=Producción esperada
+BW.infoData.BioVat.production=Producción
 
 BW.NEI.display.radhatch.0=Sievert: %s Sv
 BW.NEI.display.radhatch.1=Mass: %s kg
