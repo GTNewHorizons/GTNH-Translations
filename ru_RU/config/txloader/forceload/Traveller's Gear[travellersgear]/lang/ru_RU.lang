@@ -1,16 +1,16 @@
 # -- Items --
-item.TravellersGear.simpleGear.cloak.name=Плащ
+item.TravellersGear.simpleGear.cloak.name=Мантия
 item.TravellersGear.simpleGear.belt.name=Пояс
 item.TravellersGear.simpleGear.ringGold.name=Золотое кольцо
 item.TravellersGear.simpleGear.ringSilver.name=Серебряное кольцо
 item.TravellersGear.simpleGear.pauldrons.name=Наплечник
-item.TravellersGear.simpleGear.vambraces.name=Тяжёлые наручи
-item.TravellersGear.simpleGear.title.name=Именной свиток
+item.TravellersGear.simpleGear.vambraces.name=Наручи
+item.TravellersGear.simpleGear.title.name=Свиток с титулом
 # -- Blocks -- 
 tile.TravellersGear.armorstand.name=Стойка для брони
 
 #-- GUI --
-TG.guitext.equipment=Оборудование
+TG.guitext.equipment=Снаряжение
 TG.guitext.lvl=Уровень
 TG.guitext.visDiscount=Снижение виса
 
@@ -18,21 +18,21 @@ TG.guitext.preset=Установить заранее
 TG.guitext.texture=Текстура
 
 TG.guitext.rightclickToOpen=Нажмите ПКМ, чтобы открыть
-TG.guitext.linkInChat=Ctrl + ПКМ чтобы показать это в чате
+TG.guitext.linkInChat=Нажмите Ctrl + ПКМ, чтобы показать это в чате
 
 TG.guitext.showPlate=Отображать плиту
 TG.guitext.showTable=Отображать стол
 TG.guitext.showArmor0=Отображать шлем
 TG.guitext.showArmor1=Отображать нагрудник
-TG.guitext.showArmor2=Отображать штаны
+TG.guitext.showArmor2=Отображать поножи
 TG.guitext.showArmor3=Отображать ботинки
 TG.guitext.showBaubles0=Отображать амулет на столе
 TG.guitext.showBaubles1=Отображать первое кольцо на столе
 TG.guitext.showBaubles2=Отображать второе кольцо на столе
 TG.guitext.showBaubles3=Отображать пояс на столе
-TG.guitext.showTG0=Отображать плащ на столе
+TG.guitext.showTG0=Отображать мантию на столе
 TG.guitext.showTG1=Отображать наплечники на столе
-TG.guitext.showTG2=Отображать тяжёлые наручи на столе
+TG.guitext.showTG2=Отображать наручи на столе
 TG.guitext.showMari0=Отображать кольцо на столе
 TG.guitext.showMari1=Отображать браслет на столе
 TG.guitext.showMari2=Отображать ожерелье на столе
@@ -41,14 +41,14 @@ TG.guitext.renderBaubles0=Отображать амулет на стойке
 TG.guitext.renderBaubles1=Отображать первое кольцо на стойке
 TG.guitext.renderBaubles2=Отображать второе кольцо на стойке
 TG.guitext.renderBaubles3=Отображать пояс на стойке
-TG.guitext.renderTG0=Отображать плащ на стойке
+TG.guitext.renderTG0=Отображать мантию на стойке
 TG.guitext.renderTG1=Отображать наплечники на стойке
-TG.guitext.renderTG2=Отображать тяжёлые наручи на стойке
+TG.guitext.renderTG2=Отображать наручи на стойке
 TG.guitext.style=Стиль >
 
 TG.guitext.add=Добавить
 TG.guitext.rem=Убрать
-TG.guitext.translation=Перевод
+TG.guitext.translation=Смещение
 TG.guitext.rotation=Вращение
 TG.guitext.scale=Шкала
 TG.guitext.hideWhenEquipped=Скрыть при надевании
@@ -56,28 +56,28 @@ TG.guitext.rotateWithHead=Повернуть с головой
 					
 TG.chattext.showItem=%1$s показывает предмет: %2$s
 
-TG.desc.gearSlot.tg.0=Надевается в слот §aплаща§7 
+TG.desc.gearSlot.tg.0=Надевается в слот §aмантии§7 
 TG.desc.gearSlot.tg.1=Надевается в слот §aнаплечников§7 
-TG.desc.gearSlot.tg.2=Надевается в слот §aтяжёлых наручей§7 
-TG.desc.gearSlot.tg.3=Надевается в слот §aназвания§7
-TG.desc.gearSlot.bauble.RING=Надевается в слот §aназвания§7
+TG.desc.gearSlot.tg.2=Надевается в слот §aнаручей§7 
+TG.desc.gearSlot.tg.3=Надевается в слот §aтитула§7
+TG.desc.gearSlot.bauble.RING=Надевается в слот §aкольца§7
 TG.desc.gearSlot.bauble.BELT=Надевается в слот §aпояса§7 
 TG.desc.gearSlot.bauble.AMULET=Надевается в слот §aамулета§7
 
 itemGroup.travellersgear=Traveller's Gear
 
-TG.keybind.openInv=Инвентарь дорожных пренадлежностей
-TG.keybind.activeaAbilities=Активные способности дорожных принадлежностей
+TG.keybind.openInv=Инвентарь Traveller's Gear
+TG.keybind.activeaAbilities=Активные способности Traveller's Gear
 
 #-- Title --
 TG.personaltitle.treepuncher=Специалист по избиванию деревьев
-TG.personaltitle.titan=Золотоискатель из титана
+TG.personaltitle.titan=Разведчик недр Титана
 TG.personaltitle.librarian=Библиотекарь
 TG.personaltitle.bursar=Казначей
-TG.personaltitle.archchancellor=Аркканцлер
+TG.personaltitle.archchancellor=Верховный канцлер
 TG.personaltitle.justicar=Вершитель правосудия
-TG.personaltitle.explorer=Шагающий разведчик
+TG.personaltitle.explorer=Скачущий исследователь
 TG.personaltitle.defender=Праведный защитник
 TG.personaltitle.seeker=Искатель сокровищ
 TG.personaltitle.boxFox=Лиса в коробке
-TG.personaltitle.freshPrince=Молодой принц
+TG.personaltitle.freshPrince=Новоиспечённый принц
