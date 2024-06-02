@@ -208,6 +208,7 @@ permission.serverutilities.warps.warmup=/warp ウォームアップタイマー
 permission.serverutilities.tpa.warmup=/tpa ウォームアップタイマー
 permission.serverutilities.spawn.warmup=/spawn ウォームアップタイマー
 permission.serverutilities.back.warmup=/back ウォームアップタイマー
+permission.serverutilities.rtp.warmup=/rtp Warmup Timer
 permission.serverutilities.afk.timer=AFK タイマー
 permission.serverutilities.afk.timer.is_afk=%sは現在離席中です
 permission.serverutilities.afk.timer.isnt_afk=%sが復帰しました
@@ -225,6 +226,9 @@ permission.serverutilities.chat.prefix.right.text=チャットのプレフィッ
 permission.serverutilities.chat.suffix.left.text=チャットのサフィックスのテキスト [左]
 permission.serverutilities.chat.suffix.base.text=チャットのサフィックスのテキスト [ベース]
 permission.serverutilities.chat.suffix.right.text=チャットのサフィックスのテキスト [右]
+permission.serverutilities.claims.decay=Claim decay timer. Claims will be permanently removed after team has been inactive for the given time.
+permission.serverutilities.chunkloader.decay=Chunkload decay timer. Loaded chunks will be unloaded after team has been inactive for the given time and are restored once activity resumes.
+
 permission.default_op_rank=Default rank for players with OP or singleplayer with cheat enabled.
 permission.default_player_rank=Default rank for players
 permission.parent=Rank whose permissions will be inherited
