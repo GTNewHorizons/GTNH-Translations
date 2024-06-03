@@ -208,6 +208,7 @@ permission.serverutilities.warps.warmup=/warp Warmup Timer
 permission.serverutilities.tpa.warmup=/tpa Warmup Timer
 permission.serverutilities.spawn.warmup=/spawn Warmup Timer
 permission.serverutilities.back.warmup=/back Warmup Timer
+permission.serverutilities.rtp.warmup=/rtp Warmup Timer
 permission.serverutilities.afk.timer=Таймер AFK
 permission.serverutilities.afk.timer.is_afk=%s сейчас AFK
 permission.serverutilities.afk.timer.isnt_afk=%s больше не AFK
@@ -225,6 +226,9 @@ permission.serverutilities.chat.prefix.right.text=Текст префикса ч
 permission.serverutilities.chat.suffix.left.text=Текст суффикса чата [слева]
 permission.serverutilities.chat.suffix.base.text=Текст суффикса чата [основа]
 permission.serverutilities.chat.suffix.right.text=Текст суффикса чата [справа]
+permission.serverutilities.claims.decay=Claim decay timer. Claims will be permanently removed after team has been inactive for the given time.
+permission.serverutilities.chunkloader.decay=Chunkload decay timer. Loaded chunks will be unloaded after team has been inactive for the given time and are restored once activity resumes.
+
 permission.default_op_rank=Default rank for players with OP or singleplayer with cheat enabled.
 permission.default_player_rank=Default rank for players
 permission.parent=Rank whose permissions will be inherited
