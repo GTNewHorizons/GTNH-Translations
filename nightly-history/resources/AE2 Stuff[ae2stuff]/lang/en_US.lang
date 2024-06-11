@@ -4,6 +4,7 @@ tile.ae2stuff.Inscriber.name=Advanced Inscriber
 tile.ae2stuff.Wireless.name=Wireless Connector
 
 item.ae2stuff.WirelessKit.name=Wireless Setup Kit
+item.ae2stuff.AdvWirelessKit.name=Advanced Wireless Setup Kit
 item.ae2stuff.Visualiser.name=Network Visualisation Tool
 
 ae2stuff.error.not_connected=Network not connected
@@ -27,6 +28,19 @@ ae2stuff.gui.recipes=Recipes
 ae2stuff.wireless.tool.empty=Click Wireless Connector to bind
 ae2stuff.wireless.tool.bound1=Bound to %s,%s,%s
 ae2stuff.wireless.tool.bound2=Click other Wireless Connector to connect
+ae2stuff.wireless.advtool.queueing=§aQueuing Mode
+ae2stuff.wireless.advtool.binding=§aBinding Mode
+ae2stuff.wireless.advtool.queueing.activated=Queuing mode activated
+ae2stuff.wireless.advtool.binding.activated=Binding mode activated
+ae2stuff.wireless.advtool.queued=Added connector at %s,%s,%s to queue
+ae2stuff.wireless.advtool.queueing.empty=Click Wireless Connectors to add to binding queue
+ae2stuff.wireless.advtool.binding.empty=Switch to Queuing Mode to add connectors to queue
+ae2stuff.wireless.advtool.queueing.notempty=Current wireless connectors in queue:
+ae2stuff.wireless.advtool.binding.notempty=Current wireless connectors in queue to be bound:
+ae2stuff.wireless.advtool.connector.next=Next connector in queue: %s,%s,%s
+ae2stuff.wireless.advtool.extra=§oSneak right click to change mode between queuing and binding mode
+ae2stuff.wireless.advtool.noconnectors=No connectors found in queue. Try putting the tool into queueing mode and adding some
+ae2stuff.wireless.advtool.pop=Removed %s,%s,%s from queue
 ae2stuff.wireless.tool.connected=Connected to %s,%s,%s
 ae2stuff.wireless.tool.failed=Connection failed
 ae2stuff.wireless.tool.dimension=Both connectors must be in the same dimension
