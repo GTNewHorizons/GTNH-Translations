@@ -18,6 +18,8 @@ serverutilities.lang.permissions_dumped=%s permissions successfully dumped to fi
 serverutilities.disabled.config=Disabled in config
 serverutilities.disabled.server=Disabled by server
 serverutilities.vp.button=Show Server Utilities Claims Overlay
+serverutilities.unsaved_changes.title=Unsaved Changes
+serverutilities.unsaved_changes=You have unsaved changes. Do you want to save them?
 
 serverutilities.stat.dph=一時間あたりの死亡数
 serverutilities.stat.last_seen=最終ログイン時間
@@ -296,21 +298,21 @@ sidebar_button.serverutilities.mail=メール
 serverutilities.sidebar_button.reset=Reset Sidebar
 serverutilities.sidebar_button.reset.tooltip=Reset Sidebar Position
 
-admin_panel.serverutilities.file_browser=ファイルブラウザ
-admin_panel.serverutilities.crash_reports=クラッシュレポートを表示
-admin_panel.serverutilities.config=設定を編集
-admin_panel.serverutilities.ranks=ランクを編集
-admin_panel.serverutilities.ranks.player_ranks=プレイヤーランク
-admin_panel.serverutilities.ranks.select_rank=ランクを選択
-admin_panel.serverutilities.ranks.edit.id=ID
-admin_panel.serverutilities.ranks.edit.parent=Parent
-admin_panel.serverutilities.ranks.edit.chat_formatting=チャットのフォーマット
-admin_panel.serverutilities.ranks.edit.permissions=パーミッション
-admin_panel.serverutilities.claimed_chunks=全ての領有チャンクを表示
-admin_panel.serverutilities.loaded_chunks=全てのロード済みチャンクを表示
-admin_panel.serverutilities.whitelist=ホワイトリストを編集
-admin_panel.serverutilities.ops=OPを編集
-admin_panel.serverutilities.edit_world=ワールドを編集
+serverutilities.admin_panel.file_browser=File Browser
+serverutilities.admin_panel.crash_reports=View Crash Reports
+serverutilities.admin_panel.config=Edit Config
+serverutilities.admin_panel.claimed_chunks=View All Claimed Chunks
+serverutilities.admin_panel.loaded_chunks=View All Loaded Chunks
+serverutilities.admin_panel.whitelist=Edit Whitelist
+serverutilities.admin_panel.ops=Edit OPs
+serverutilities.admin_panel.edit_world=Edit World
+serverutilities.admin_panel.ranks.player_ranks=Player Ranks
+serverutilities.admin_panel.ranks.select_rank=Select Rank
+serverutilities.admin_panel.edit_rank=Edit Ranks
+serverutilities.admin_panel.ranks.add_perm=Add Permission
+serverutilities.admin_panel.ranks.add_command=Add Command Permission
+serverutilities.admin_panel.ranks.cant_remove=Default rank can't be removed!
+serverutilities.admin_panel.ranks.delete_confirm=This will permanently delete rank: %s. Are you sure?
 
 # Keys
 key.serverutilities.nbt=NBTの編集
