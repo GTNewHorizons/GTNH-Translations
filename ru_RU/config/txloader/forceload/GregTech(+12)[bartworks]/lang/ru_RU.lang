@@ -13,7 +13,7 @@ GT5U.gui.text.wrong_sievert_exactly=§7Wrong sievert. Requires exactly: %s §7Sv
 GT5U.gui.text.wrong_sievert_min=§7Wrong sievert. Requires at least: %s §7Sv
 
 itemGroup.bartworks=BartWorks Inter Temporal
-BW_Machinery_Casings.0.name=Nickel-Zinc Ferrite Block
+BW_Machinery_Casings.0.name=Блок никель-цинкового феррита
 BW_Machinery_Casings.1.name=Transformer-Winding Block
 item.BW_PaperRotor.name=Primitive Paper Rotor (Wind only)
 item.BW_LeatherRotor.name=Primitive Leather Rotor (Wind only)
@@ -123,12 +123,12 @@ tooltip.tile.lesu.2.name=Output EU: LESU Casings amount;Input EU: Next Voltage T
 tooltip.tile.lesu.3.name=Only one Controller allowed, no Wallsharing!
 tooltip.tile.manualtravo.0.name=Controller Block for the Manual Trafo;Operates in 4 different Modes:;Mode 1: Circuit 0 in controller: Direct-Upstep;Mode 2: Circuit 1 in controller: Direct-Downstep;Mode 3: Circuit 2 in controller: Tapped-Upstep;Mode 4: Circuit 3 in controller: Tapped-Downstep;For direct Modes: 3xHx3;Base Contains at least 1 Energy Hatch;1 Layer of Transformer-Winding Blocks for each Tier transformed;Middle of Transformer-Winding Blocks needs to be a Nickel-Zinc Ferrite Block;Top Contains at least 1 Dynamo Hatch;Maintenance Hatch can be placed anywhere;Tapped Mode is disabled at the Moment.
 tooltip.tile.tiereddsc.0.name=Voltage:
-tooltip.tile.tiereddsc.1.name=Amperage IN:
-tooltip.tile.tiereddsc.2.name=Amperage OUT:
+tooltip.tile.tiereddsc.1.name=Ампераж IN:
+tooltip.tile.tiereddsc.2.name=Ампераж OUT:
 tooltip.tile.tiereddsc.3.name=Capacity:
 tooltip.tile.diode.0.name=A Simple diode that will allow Energy Flow in only one direction.
-tooltip.tile.energydistributor.0.name=Splits Amperage into several Sides.
-tooltip.tile.biolab.0.name=The BioLab, a Multi-Use Bioengineering Station
+tooltip.tile.energydistributor.0.name=Разделяет ампераж на несколько сторон.
+tooltip.tile.biolab.0.name=Биолаборатория, многофункциональная биоинженерная станция
 tooltip.tile.radhatch.0.name=Radioactive Item Chamber for Multiblocks
 tooltip.tile.radhatch.1.name=Use a screwdriver to set the containment level
 tooltip.tile.radhatch.2.name=Material:
@@ -144,7 +144,7 @@ tooltip.tile.acidgen.0.name=An Acid Generator
 tooltip.tile.acidgen.1.name=Creates Power from Chemical Energy Potentials.
 
 # RecipeMap
-bw.recipe.biolab=Bio Lab
+bw.recipe.biolab=Биолаборатория
 bw.recipe.BacteriaVat=Bacterial Vat
 bw.fuels.acidgens=Acid Generator
 bw.recipe.cal=Circuit Assembly Line
@@ -163,7 +163,7 @@ tile.energydistributor.name=Energy Distributor
 tile.acidgenerator.name=Acid Generator
 tile.bw.mbf.name=Mega Blast Furnace
 tile.bw.mvf.name=Mega Vacuum Freezer
-tile.biolab.name=Bio Lab
+tile.biolab.name=Биолаборатория
 tile.biovat.name=Bacterial Vat
 tile.radiohatch.name=Radio Hatch
 tile.bw.windmill.name=Windmill
@@ -188,7 +188,7 @@ solarsystem.Ross128System=Ross128-System
 itemGroup.bw.MetaItems.0=BartWorks Circuit Overhaul Items
 
 BW.infoData.BioVat.expectedProduction=Expected Production
-BW.infoData.BioVat.production=Production
+BW.infoData.BioVat.production=Производство
 
 BW.NEI.display.radhatch.0=Sievert: %s Sv
 BW.NEI.display.radhatch.1=Mass: %s kg
