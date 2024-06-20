@@ -23,7 +23,7 @@ item.em.programmer.name=AVR programmer
 item.em.programmer.desc.0=Current PC
 item.em.programmer.desc.1=Awoken
 item.em.programmer.desc.2=Active
-item.em.programmer.desc.3=Debug
+item.em.programmer.desc.3=Отладка
 item.em.programmer.desc.4=Delay
 
 item.em.debugContainer.name=Debug EM Container
@@ -120,11 +120,11 @@ death.attack.subspace=%1$s was N-th dimensionally displeased.
 death.attack.subspace.player=%1$s N-th dimensionally displeased while fighting %2$s.
 
 #Machine hulls
-gt.blockmachines.hull.tier.10.name=UEV Machine Hull
-gt.blockmachines.hull.tier.11.name=UIV Machine Hull
-gt.blockmachines.hull.tier.12.name=UMV Machine Hull
-gt.blockmachines.hull.tier.13.name=UXV Machine Hull
-gt.blockmachines.hull.tier.14.name=MAX Machine Hull
+gt.blockmachines.hull.tier.10.name=UEV Корпус механизма
+gt.blockmachines.hull.tier.11.name=UIV Корпус механизма
+gt.blockmachines.hull.tier.12.name=UMV Корпус механизма
+gt.blockmachines.hull.tier.13.name=UXV Корпус механизма
+gt.blockmachines.hull.tier.14.name=MAX Корпус механизма
 
 #Transformers
 gt.blockmachines.wetransformer.tier.00.name=ULV Сверхмощный трансформатор
@@ -538,11 +538,11 @@ gt.blockmachines.hatch.capacitor.desc.0=For Tesla Tower
 gt.blockmachines.hatch.capacitor.desc.1=Stores 'nergy! (for a while)
 
 #Casings
-gt.blockcasingsNH.10.name=UEV Корпус
-gt.blockcasingsNH.11.name=UIV Корпус
-gt.blockcasingsNH.12.name=UMV Корпус
-gt.blockcasingsNH.13.name=UXV Корпус
-gt.blockcasingsNH.14.name=MAX Корпус
+gt.blockcasingsNH.10.name=UEV Каркас механизма
+gt.blockcasingsNH.11.name=UIV Каркас механизма
+gt.blockcasingsNH.12.name=UMV Каркас механизма
+gt.blockcasingsNH.13.name=UXV Каркас механизма
+gt.blockcasingsNH.14.name=MAX Каркас механизма
 
 gt.blockhintTT.desc.0=Helps while building
 gt.blockhintTT.0.name=Hint 1 dot
@@ -762,7 +762,7 @@ gt.blockmachines.multimachine.em.research.desc.1=Used to scan Data Sticks for As
 gt.blockmachines.multimachine.em.research.desc.2=Needs to be fed with computation to work
 gt.blockmachines.multimachine.em.research.desc.3=Does not consume the item until the Data Stick is written
 gt.blockmachines.multimachine.em.research.mode.Assembly_line=Mode: Research Station
-gt.blockmachines.multimachine.em.research.mode.Scanner=Mode: Scanner
+gt.blockmachines.multimachine.em.research.mode.Scanner=Режим: Сканер
 
 gt.blockmachines.multimachine.em.collider.name=Matter Collider
 gt.blockmachines.multimachine.em.collider.hint.0=1 - Classic Hatches or High Power Casing
@@ -1340,7 +1340,7 @@ tt.keyword.Atom=Atom
 tt.keyword.Isotope=Isotope
 tt.keyword.Boson=Boson
 tt.keyword.Fermion=Fermion
-tt.keyword.GaugeBoson=Gauge boson
+tt.keyword.GaugeBoson=Калибровочный бозон
 tt.keyword.Meson=Meson
 tt.keyword.Baryon=Baryon
 tt.keyword.Tetraquark=Tetraquark
@@ -1349,7 +1349,7 @@ tt.keyword.Hexaquark=Hexaquark
 tt.keyword.Hadron=Hadron
 tt.keyword.Neutrino=Neutrino
 tt.keyword.Quark=Quark
-tt.keyword.ScalarBoson=Scalar boson
+tt.keyword.ScalarBoson=Скалярный бозон
 #em definitions
 tt.keyword.PrimitiveNBTERROR=NBT ERROR
 tt.keyword.PrimitiveNULLPOINTER=NULL POINTER
