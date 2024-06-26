@@ -718,7 +718,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZw.desc=With your steel tool you are ab
 
 # Quest: Lapis? Lucky!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaA.name=§3§lLapis? Lucky!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaA.desc=Maybe you were lucky and received the luck modifier on your pickaxe. If not, you may still have an unused modifier on your pick so you can add some lapis lazuli. Or you can perhaps add another modifier by adding a diamond and a gold block to your pick and then add some lapis. %n%nYou can put the lapis lazuli in more than one slot in the tool station, use blocks to raise the luck level faster, and even use lapis blocks in the crafting station with your tool for maximum luck gain.%n%n[note]Since it only affects small ore it might not be worth it to you to use. Also, if you lack in lapis, you can put 1 point on, and then mine stuff, and it will sometimes gain more points, up to the 450 limit.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaA.desc=Maybe you were lucky and received the luck modifier on your pickaxe. If not, you may still have an unused modifier on your pick so you can add some lapis lazuli. Or you can perhaps add another modifier by adding a diamond and a gold block to your pick and then add some lapis. %n%nYou can put the lapis lazuli in more than one slot in the tool station, use blocks to raise the luck level faster, and even use lapis blocks in the crafting station with your tool for maximum luck gain.
 
 # Quest: Extra Modifier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEag.name=§3§lExtra Modifier
@@ -2265,7 +2265,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEw.desc=4000 buckets not enough storage
 
 # Quest: Teflon Don
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFA.name=§9§lTeflon Don
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFA.desc=To make PTFE, aka Teflon, you only need a few steps.  %n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine might be cryolite. Other options are mining calcite or sandstone for a chance at fluorite ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.%n%nIf you have reached the moon, you can also process Bastnasite ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFA.desc=To make PTFE, aka Teflon, you only need a few steps.  %n%nThe first one is hydrofluoric acid. If you haven't reached the moon yet, the best sources for fluorine might be cryolite. Other options are treating Sand or Sandstone in a Chemical Plant for some Fluorite Ore, and centrifuging stone dust or black granite dust for biotite. You can also get small amounts from Lepidolite in salt veins and Mica. Mix it with some hydrogen to get hydrofluoric acid.%n%nIf you have reached the moon, you can also process Bastnasite ore.
 
 # Quest: Chloroform
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHFQ.name=§9§lChloroform
@@ -5915,7 +5915,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADbA.desc=Tired of using small cells to p
 
 # Quest: Cleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.name=§6§lCleanroom
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. The base does not need to be a square, a rectangular shape is fine if it is symmetric around the center. Besides plascrete blocks for all edges you'll need a controller in the top center,fFilter machine casings for the rest of the top except edges, an energy and a maintenance hatch. You will also need a reinforced door or some other way to get in and out and machine hulls or diodes if you want to automate it. The door, machine hulls, and diodes are optional. You can use the machine hulls for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to around 5%% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines. Some other glass like Borosilicate Glass or Warded Glass can be used in even higher percentages.%n%nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.%n%nJust be really careful when upgrading your machines to a higher voltage. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this for ones you only use to pass items through.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10%% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open or the cleanroom is off, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible and keep the cleanroom running! There are ways around using a door though. With an elevator or travel anchor you never actually need to open a door or even use one in the structure! You can even use the elevator block or travel anchor as a floor block to neatly integrate it.%n%nThe power usage of this multiblock is a bit unusual. It starts out at 40 eu/t and then gradually goes down. But even when it uses 40 eu/t - which is usually MV - a single LV energy hatch suffices. Just keep in mind that this makes the Cleanroom an exception, not the rule.%n%n[note]Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.[/note]%n%n[note]Other helpful hints include: using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100%% efficiency faster (does not use more power once at 100%%).[/note]%n%n[warn]Keep in mind that you cannot use anything in the cleanroom that causes pollution or it will break down.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.desc=If you want to make more advanced (also cheaper!) circuits you'll need a cleanroom. The cleanroom is a multiblock between 3x4x3 and 15x15x15 (WxHxL) blocks. The base does not need to be a square, a rectangular shape is fine if it is symmetric around the center. Besides Plascrete Blocks for all edges you'll need a controller in the top center, Filter Machine Casings for the rest of the top except edges, an energy and a maintenance hatch. You will also need a reinforced door or some other way to get in and out and machine hulls or diodes if you want to automate it. The door, machine hulls, and diodes are optional. You can use the machine hulls for power input, item input, and item output. Tier does not affect item transfer, so use the cheapest ones for that.%n%nLet's build a 5x5x5 room. Expanding it vertically is easy to do, or you can make it wider and longer, as long as both X and Z match and are odd. Up to around 5%% of the plascrete blocks can be replaced with Reinforced Glass to see into the cleanroom and check on machines. Some other glass like Borosilicate Glass or Warded Glass can be used in even higher percentages.%n%nYou can pass materials through the walls using Machine Hulls. You can pass 1A of power using a Machine Hull as well, or you can use Diodes to pass multiple amps through.%n%nJust be really careful when upgrading your machines to a higher voltage. Be sure to remove the machine hulls and diodes and replace them with the new power tier, or else you will be very sad. You don't need to do this for ones you only use to pass items through.%n%nIf the Cleanroom has maintenance issues, it will have a chance to void recipes needing a cleanroom (10%% per maint issue!). Monitor your cleanroom with a Hand Scanner, Industrial Information Panel, or using a Needs Maintenance Cover and a Redstone Powered Light or Howler Alarm.%n%nAdditionally, the longer the door is open or the cleanroom is off, the lower the efficiency will get, which has a direct correlation to recipe voiding. So open the door as little as possible and keep the cleanroom running! There are ways around using a door though. With an elevator or travel anchor you never actually need to open a door or even use one in the structure! You can even use the elevator block or travel anchor as a floor block to neatly integrate it.%n%nThe power usage of this multiblock is a bit unusual. It starts out at 40 eu/t and then gradually goes down. But even when it uses 40 eu/t - which is usually MV - a single LV energy hatch suffices. Just keep in mind that this makes the Cleanroom an exception, not the rule.%n%n[note]Multiblocks such as the LCR, LPF, or PA count as cleanrooms, so you don't need to put them in one. You cannot use the bio lab in a PA, so you'll still need the cleanroom later on.[/note]%n%n[note]Other helpful hints include: using a wireless connector for AE or a transvector interface to skip machine hulls, and that you can use higher tier energy hatches to reach 100%% efficiency faster (does not use more power once at 100%%).[/note]%n%n[warn]Keep in mind that you cannot use anything in the cleanroom that causes pollution or it will break down.[/warn]
 
 # Quest: A Very Useful Scanner
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrQ.name=§6§lA Very Useful Scanner
@@ -9932,23 +9932,23 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0g.desc=Aromatic Lumps are twice as eff
 
 # Quest: Magenta
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3Q.name=赤紫種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3Q.desc=Magenta bees are also Fastest production, but come with +- 3 Climate. Breed them from Pink and Blue.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3Q.desc=赤紫種も最速の生産速度を誇りますが、こちらは±3の気候耐性を有しています。桃色種と青色種を交配してみましょう。 
 
 # Quest: Pink
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3g.name=桃色種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3g.desc=Pink princesses provide pink dye. They also have Fastest production and +-3 Humidity. Breed them from Red and White.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3g.desc=桃色種は桃色の染料を生産します。また、最速の生産速度と±3の湿度耐性を持っています。赤色種と白色種を交配してみましょう。 
 
 # Quest: White
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3w.name=白色種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3w.desc=White bees provide white dye. Breed them from Wintry and Diligent.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI3w.desc=白色種は白色の染料を生産します。冬季種と熱心種を交配してみましょう。 
 
 # Quest: Red
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4A.name=赤色種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4A.desc=Dye bees obviously provide dyes, but some of them are also useful for their traits. There are many dye bees, these are just a sample. They can be useful for the hard to find dye colors from flowers. Breed Red from Common and Diligent.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4A.desc=この系統の蜂は種名と同じ色の染料を生産しますが、それとは別に便利な特性を持つ種も存在します。ここでは一部しか取り上げませんが、他にもたくさんの種類がいます。花から入手しづらい染料の生産に役立つでしょう。平凡種と熱心種を交配してみましょう。
 
 # Quest: Blue
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4Q.name=青色種
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4Q.desc=Blue princesses will provide  a handy source of blue dye. Breed them from Forest and Diligent.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4Q.desc=青色種は、青色の染料を生産してくれる便利な蜂です。森林種と熱心種を交配してみましょう。 
 
 # Quest: Batty
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4g.name=Batty
@@ -10415,7 +10415,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4g.name=獄片種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4g.desc=Critical for your Ichor production.%n%n[note]You will need to breed through a bunch of elemental bees that don't have quests to actually get to it.[/note]
 
 # Quest: Space Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.name=Space Bees
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.name=宇宙の種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=Breed an industrious with a heroic bee to obtain a space bee. You need the temperature to be icy for that.%n%nJust one small step for you, but a giant leap for beekind.%n%n[note]This is the starting point for many space related bees. Maybe check out NEI to see what you can aim for.[/note]
 
 
@@ -12677,8 +12677,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADtQ.name=Garden Bags
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADtQ.desc=Finding some special "Pam's HarvestCraft" gardens can be very difficult. With your farmer coins you can buy some garden bags.%n%n[note]This includes the nether version BTW.[/note]
 
 # Quest: XP Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtg.name=XP Berries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADtg.desc=And a few xp berries for cash.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADtg.name=経験値ベリー
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADtg.desc=いくつかの経験値ベリーも購入できます。
 
 # Quest: Piston
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADuw.name=ピストン
