@@ -157,11 +157,11 @@ ingameinfoxml.tag.bootslargeicon.desc=Большое изображение бо
 
 # gui - tag list - player general
 ingameinfoxml.tag.light.desc=Уровень освещения в вашем положении.
-ingameinfoxml.tag.lightfeet.desc=Light level at your current position (feet level).
+ingameinfoxml.tag.lightfeet.desc=Уровень освещенности в вашем текущем положении (на уровне ног).
 ingameinfoxml.tag.lightnosun.desc=Уровень освещения в вашем положении без солнечного света.
-ingameinfoxml.tag.lightnosunfeet.desc=Light level at your current position without sunlight (feel level).
+ingameinfoxml.tag.lightnosunfeet.desc=Уровень освещенности в вашем текущем положении без солнечного света (уровень ощущения).
 ingameinfoxml.tag.lightsun.desc=Уровень солнечного света в вашем положении.
-ingameinfoxml.tag.lightsunfeet.desc=Sunlight level at your current position (feel level).
+ingameinfoxml.tag.lightsunfeet.desc=Уровень солнечного света в вашем текущем положении (уровень ощущения).
 ingameinfoxml.tag.score.desc=Счет игрока.
 ingameinfoxml.tag.gamemode.desc=Название игрового режима игрока.
 ingameinfoxml.tag.gamemodeid.desc=ID игрового режима игрока.
@@ -276,11 +276,11 @@ ingameinfoxml.tag.tfcrainfall.desc=Rainfall at your current position.
 ingameinfoxml.tag.tfctemperature.desc=Temperature at your current position.
 ingameinfoxml.tag.tfcaveragetemperature.desc=Average yearly temperature at your current position.
 ingameinfoxml.tag.tfctemperatureheatsources.desc=Temperature with external heat sources at your current position.
-ingameinfoxml.tag.tfcseason.desc=Season.
-ingameinfoxml.tag.tfcdate.desc=Date.
-ingameinfoxml.tag.tfcday.desc=Day.
-ingameinfoxml.tag.tfcmonth.desc=Month.
-ingameinfoxml.tag.tfcyear.desc=Year.
+ingameinfoxml.tag.tfcseason.desc=Сезон.
+ingameinfoxml.tag.tfcdate.desc=Дата.
+ingameinfoxml.tag.tfcday.desc=День
+ingameinfoxml.tag.tfcmonth.desc=Месяц.
+ingameinfoxml.tag.tfcyear.desc=Год.
 ingameinfoxml.tag.fmtskill.desc=%s information.
 ingameinfoxml.tag.fmtskillrank.desc=Current rank for %s.
 ingameinfoxml.tag.fmtskillprogress.desc=Current progress in %s.
@@ -289,7 +289,7 @@ ingameinfoxml.tag.fmtskillprogress.desc=Current progress in %s.
 ingameinfoxml.tag.tcwarpperm.desc=Player's permanent warp.
 ingameinfoxml.tag.tcwarpsticky.desc=Player's normal (sticky) warp.
 ingameinfoxml.tag.tcwarptemp.desc=Player's temporary warp.
-ingameinfoxml.tag.tcwarptotal.desc=Player's total warp.
+ingameinfoxml.tag.tcwarptotal.desc=Общий уровень искажения игрока.
 
 # gui - tag list - integration - gregtech
 ingameinfoxml.tag.gtnewore.desc=§etrue§r if using equispaced ore generation, §efalse§r for the old axis symmetric one.
@@ -300,7 +300,7 @@ ingameinfoxml.key.category=InGame Info XML
 ingameinfoxml.key.toggle=Переключить оверлей
 
 # commands
-commands.ingameinfoxml.usage=/igi <reload|load|save|enable|disable|taglist|config> [filename]
+commands.ingameinfoxml.usage=/igi <reload|load|save|enable|disable|taglist|config> [имя файла]
 commands.ingameinfoxml.reload=Перегрузка...
 commands.ingameinfoxml.load=Загрузка %s...
 commands.ingameinfoxml.save=Сохранение %s...
