@@ -971,7 +971,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACGw.desc=После очистки тв�
 
 # Quest: A Truly Sharp Saw Blade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACHA.name=§5§|Действительно острое лезвие пилы. 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACHA.desc=Из кобальтовой латуни и алмазной пыли получится действительно острое лезвие пилы для твоего резчика. %n%n[note]Это единственное использование кобальтовой латуни в игре. Довольно линейной, да?[/note] 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACHA.desc=Из кобальтовой латуни и алмазной пыли получится действительно острое лезвие пилы для твоего резчика.
 
 # Quest: A New Alloy - Cobalt Brass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACHQ.name=§5§|Новый сплав - кобальтовая латунь
@@ -1347,22 +1347,22 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYw.desc=Когда-нибудь мож�
 
 # Quest: Long Distance Fluid Pipeline
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJjA.name=§5§|Жидкостной трубопровод на дальние расстояния
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJjA.desc=Wouldn't it be great if you could transport your oil from a far away oil spout or oil field by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Fluid Pipeline block. Inbetween use the associated pipe blocks - the total distance between endpoints must be more than 64 blocks apart (4 or more chunks). There can only be one start and end point per pipeline.%n%nTo actually connect it, you need to align the start LDFP block such that the arrows are facing inwards, and the opposite side of it has a LDFPP block. Put a pump on the side of the block that has the arrows and set to import. It will now attempt to import fluid to the endpoint LDFP. §2This will go as fast as you can put fluid into it.§r%n%nDo the opposite on the far side, except you don't need a pump.%n%nNow you only need to chunkload the start and end points and the fluid will be "teleported" to you.%n%nOf course, later on you'll probably use ender tanks to §oactually§r teleport the fluid, especially from other dims.%n%nThis setup is lag-free in the pipe blocks, so it's useful in your base as well if you want to reduce lag.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJjA.desc=Было бы здорово, если бы можно было перемешать нефть из дальних полей или залежей нефти с помощью труб на твою базу, не так ли? %n%nЭто больше не будет для тебя проблемой. Соедини начало и конец с помощью трубопровода для жидкости. Однако точки начала и конца должны быть как минимум на расстоянии в 64 блока друг от друга (4 и более чанков). У трубопровода может быть только одно начало и конец. %n%Чтобы его подключить, надо выровнять блок импорта трубопровода так, чтобы стрелки были направлены внутрь, а на противоположной стороне разместить блок экспорта трубопровода. Установи помпу на ту сторону блока, на которой есть стрелки, и настрой на помпе импорт.  Теперь жидкость будет доставляться в пункт назначения. 
 
 # Quest: Chlorine, Your New Best Friend
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiQ.name=§5§lХлор - ваш новый лучший друг
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiQ.desc=Chlorine is a fluid that is used in significant quantities throughout the game, so you might as well get used to collecting it now.%n%nYou can electrolyse Salt, Rock Salt, Sodalite (finally a use!), or Salt Water for it. Since you'll need so much, you may wish to consider using your first Super Tank to hold it all.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiQ.desc=Хлор — это жидкость, которая используется в огромных объёмах на протяжении всей игры, поэтому тебе стоит начать собирать её уже сейчас. %n%nТы можешь электролизировать соль, каменную соль, содалит (наконец-то можно использовать!) или соленую воду.  Поскольку он тебе понадобится в больших объёмах, то, возможно, пора начать использовать свой первый супер резервуар, чтобы хранить его.
 
 # Quest: Faster Steam Transportation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALIQ.name=Более быстрая транспортировка пара
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALIQ.desc=Do you think that steam fluid transport is far too slow? Your LV pumps got you down, doing only 640L/s? Then it's time to make the 32 times faster LV steam valves!%n%nThey only work with steam and are just as fast as the valve on a Railcraft tank (if you put it on the bottom side).%n%nThere are also MV, HV, EV, and IV versions.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALIQ.desc=Думаешь что транспортировка пара происходит слишком медленно? Твои LV помпы начали подводить, пропуская всего 640 л/с? Тогда пришло время сделать паровые клапаны LV, которые работают в 32 раза быстрее! %n%nОни работают только с паром и работают так же быстро, как клапан на Railcraft резервуаре (если поставить его на нижнюю сторону).%n%nТакже есть версии MV, HV, EV и IV.
 
 # Quest: Long Distance Item Pipeline
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALIg.name=§5§lLong Distance Item Pipeline
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALIg.desc=Wouldn't it be great if you could transport ores from a far away ore vein by pipes to your base?%n%nThis is not a problem anymore. Connect your setup on the start and end point with a Long Distance Item Pipeline block. Inbetween use the associated pipe blocks - the total distance between endpoints must be more than 64 blocks apart (4 or more chunks). There can only be one start and end point per pipeline.%n%nTo actually connect it, you need to align the start LDIP block such that the arrows are facing inwards, and the opposite side of it has a LDIPP block. Put a conveyor on the side of the block that has the arrows and set to import. It will now attempt to import stuff to the endpoint LDIP. This will go as fast as you can put items into it.§r%n%nDo the opposite on the far side, except you don't need a conveyor.%n%nNow you only need to chunkload the start and end points and the items will be "teleported" to you.%n%nOf course, later on you'll probably use ender chests to §oactually§r teleport the ore, especially from other dims.%n%nThis setup is lag-free in the pipe blocks, so it's useful in your base as well if you want to reduce lag.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALIg.name=§5§|Предметный трубопровод
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALIg.desc=Разве не здорово перемещать добытую руду из далекой жилы прямо на твою базу? %n%nТеперь это не проблема. Соедини начало и конец с предметным трубопроводом. Между началом и концом должно быть расстояние больше 64 блоков (4 и более чанков). У трубопровода может быть только один вход и выход. %n%nЧтобы соединить трубопровод, стрелки на блоке импорта должны смотреть вовнутрь, и блок экспорта также должен быть подсоединен к трубопроводу. Установи конвейер на часть блока импорта со стрелками и настрой его на импорт. Транспортировка будет настолько быстрой насколько быстро в трубопровод будут поступать предметы.§r%n%nТоже самое нужно сделать и на стороне экспорта, за исключением установки конвеера. %n%nОсталось только загрузить чанки  в начале и конце трубопровода и предметы начнут "телепортироваться" к тебе. %n%nПозже ты сможешь использовать эндер-сундуки чтобы §oдействительно§r телепортировать руды, даже сквозь измерения. %n%nЭта система не имеет задержек, что может быть полезно при быстрой транспортировке предметов по базе, если ты хочешь убрать задержку. 
 
 # Quest: Prison Gangs are Obsolete
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.name=§5§lPrison Gangs are Obsolete
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.name=§5§|Тюремные группировки устарели
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.desc=Want lots of cobble, stone, or obsidian? This is the machine for you!%n%nCobble: Water and lava on 2 of the sides.%nStone: Water on a side, lava on top.%nObsidian: Either of the above, and redstone in the machine.%n%nYou of course need to power it. If you don't want to spend power on cobble, do it the ExU way with the WIU.%n%nYou need to toggle the ghost circuit to circuit 1 to get obsidian.%n
 
 # Quest: Magnets != Magic
@@ -2678,7 +2678,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAg.desc=Get the most out of your Ilmeni
 
 # Quest: Water, Fast
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKog.name=§a§lWater, Fast
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKog.desc=The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you can pull it out, but you can use all the sides to do so.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKog.desc=The Remote IO Water Reservoir works like the Everfull Urn in that you can pull water out as fast as you can pull it out, but you can use all the sides to do so.%n%nYou can further upgrade it into a reservoir hatch, which can be used as an input hatch directly. Producing massive amounts of distilled water with a DT has never been easier!%n%n§3Maybe those massive amounts of water could be condensed into something useful...
 
 # Quest: Tungstate Processing - Step 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALSQ.name=§a§lTungstate Processing - Step 1
@@ -7829,7 +7829,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADWA.name=§9§l1,1-Dimethylhydrazine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADWA.desc=To make 1,1-Dimethylhydrazine you need to combine some Hydrazine and Formaldehyde with Hydrogen along with a Formaldehyde Catalyst in a Chemical Plant.
 
 # Quest: Formaldehyde
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADWQ.name=§9§lFormaldehyde
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADWQ.name=§9§lФормальдегид
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADWQ.desc=Combining Oxygen and Methanol along with a Formaldehyde Catalyst in a Chemical Plant produces some Formaldehyde.
 
 # Quest: Space Station
@@ -8085,11 +8085,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9Q.name=§b§a§9§lNitrogen Tetroxide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9Q.desc=To make Nitrogen Tetroxide you need to combine some Copper Dust and Nitric Acid along with an Orange Metal Catalyst in a Chemical Plant. It needs Palladium, so make sure you have some.
 
 # Quest: Hydrazine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.name=Hydrazine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.name=Гидразин
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.
 
 # Quest: Formaldehyde Catalyst
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWw.name=Formaldehyde Catalyst
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWw.name=Формальдегидный каталист
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWw.desc=Making Formaldehyde will require a catalyst. You can make it by mixing Iron and Vanadium, and placing the mix into a carrier.
 
 # Quest: Hydrogen Peroxide
@@ -8121,7 +8121,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.name=Ракета 8-го уровн�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.
 
 # Quest: RP-1 Rocket Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=RP-1 Rocket Fuel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=RP-1 ракетное топливо
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.desc=One option to fuel your T1 and T2 rocket is RP-1 Rocket Fuel. First, you'll need either Diesel or Coal Tar. Coal Tar is the better option on the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.%n%n[note]If you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore.[/note]%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T4 240 EU/t recipe, so you'll need to make the CP out of Stainless Steel and HV Machine Casings.%n%nSince there is no oxygen in space, you will also need an oxidizer. But since the Galacticraft rocket can only take one fluid we have simplified that a bit. Just combine Liquid Oxygen and RP-1 to make the fully functional RP-1 Rocket Fuel.%n%nIf you're confused about how to use/make the Chemical Plant, refer to the manual with the same name or the quest in the GT++ quest tab.%n%n[note]PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.[/note]%n%n[warn]Oh, and don't use the NEI Preview for the Chemical Plant, it is wrong.[/warn]
 
 # Quest: Coal Tar Distilling
@@ -8133,7 +8133,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfg.name=Dense Hydrazine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfg.desc=Dense Hydrazine is needed starting from rocket tier 3, so you should make some if you want to keep exploring space.%n%nIt's a T5 240 EU/t recipe, so you'll need to build Chemical Plant out of Titanium.
 
 # Quest: Monomethylhydrazine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.name=Monomethylhydrazine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.name=Монометилгидразин
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.desc=You'll need this if you want to make CN3H7O3 (Purple) Rocket Fuel. It's also made in the Chemical Plant.%n%n[note]Look up recipe for CN3H7O3 to properly see recipe for Monomethylhydrazine.[/note]
 
 # Quest: CN3H7O3 (Purple) Rocket Fuel
@@ -8150,15 +8150,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgw.desc=Does anyone else wonder why the
 
 # Quest: How Do You Even Pronounce This?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.name=How Do You Even Pronounce This?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.desc=To make Phthalic Anhydride, use a dehydrator.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhA.desc=Чтобы получить фталевый ангидрид, используйте дегидратор.
 
 # Quest: Phthalic Acid, The Cool Kids' Way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhQ.name=Phthalic Acid, The Cool Kids' Way
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhQ.desc=Make Phthalic Acid out of Naphthalene and Lithium in a Chemical Reactor.%n%nIronically, you can't make this out of Naphtha.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhQ.desc=Сделайте фталевую кислоту из нафталина и лития в химическом реакторе.%n%nПо иронии судьбы, вы не можете сделать это из нафты.
 
 # Quest: Naphthalene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.name=Naphthalene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.desc=To make Naphthalene, combine your Coal Oil Tar with Sulfuric Acid to get Sulfuric Coal Tar Oil.%n%nThen distill it to get Naphthalene. Seem easy? It gets harder.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.name=Нафталин
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.desc=Чтобы сделать нафталин, объедините своё каменноугольное масло с серной кислотой чтобы получить серное каменноугольное минеральное масло.%n%nЗатем перегоните его, чтобы получить нафталин. Кажется легко? Становится сложнее.
 
 # Quest: Serious Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhw.name=Serious Upgrades
@@ -13858,7 +13858,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzA.desc=Это большая верс�
 
 # Quest: Machine Interface Fluid I/O
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALKg.name=§5§lMachine Interface Fluid I/O
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALKg.desc=Thanks to the tireless work of the devs, you can now use cells to I/O fluids directly from the interface of GT machines. Just click on the fluid while holding a cell or other fluid container item.%n%nPoints to consider:%n1) Left click to attempt filling/emptying all fluid containers held on cursor.%n2) Right click to attempt filling/emptying one fluid container held on cursor.%n3) All fluid containers that can be used in a standard gt tank (e.g. super tanks or the X voltage tanks) are supported, including but not limited to: water bottles, vanilla buckets, ic2 (universal and normal) cells, volumetric flasks, large fluid cells, pressurized fluid tanks, etc.%n4) Can fill/take less than one cell (1000L or 144L if molten) of fluid if the fluid container supports doing so.%n5) It won't check if it's a valid fluid for the machine/recipe, keep that in mind.%n6) Doesn't work with Crops++ alcohols, feel free to code compatibility for us.%n7) EIO tanks need to be placed and picked up first before they can be used.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALKg.desc=Благодаря неустанной работе разработчиков, теперь вы можете использовать ячейки для ввода/вывода жидкостей прямо из интерфейса машин GT. Просто нажмите на жидкость, удерживая ячейку или другой элемент контейнера для жидкости.%n%nПримечания:%n1) Левый клик - попытка заполнить/опустошить все контейнеры для жидкости, удерживаемые курсором.%n2) Правый клик - попытка заполнить/опустошить один контейнер для жидкости, удерживаемый курсором.%n3) Все контейнеры для жидкости, которые могут быть использованы в стандартном gt-танке (напр. Супертанки или танки напряжения X), включая, но не ограничиваясь: бутылки с водой, ванильные ведра, ячейки ic2 (универсальные и обычные), объемные колбы, большие ячейки для жидкостей, емкости для жидкостей под давлением и т. д. %n4) Можно заполнить/забрать менее одной ячейки (1000 л или 144 л, если жидкость расплавлена) жидкости, если контейнер для жидкости поддерживает это.%n5) Не будет проверять, является ли это действительной жидкостью для машины/рецепта, имейте это в виду.%n6) Не работает со спиртами Crops++, не стесняйтесь кодировать совместимость для нас.%n7) Емкости EIO нужно сначала разместить и забрать, прежде чем использовать.
 
 # Quest: 「 」
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALSA.name=「 」
