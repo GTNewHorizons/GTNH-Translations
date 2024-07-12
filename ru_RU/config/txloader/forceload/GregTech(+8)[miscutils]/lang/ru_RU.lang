@@ -101,7 +101,7 @@ gtpp.recipe.category.abs_non_alloy_recipes=ABS Non-Alloy Recipes
 # NEI
 gtpp.nei.lftr.power=Power: %s EU/t per Dynamo
 gtpp.nei.lftr.dynamo=Dynamo: %s EU
-gtpp.nei.lftr.total=Total: %s EU
+gtpp.nei.lftr.total=Всего: %s EU
 gtpp.nei.milling.not_consumed=Does not always get consumed in the process
 gtpp.nei.chemplant.tier.1=Bronze
 gtpp.nei.chemplant.tier.2=Steel
@@ -1823,8 +1823,8 @@ item.Naphthalene.name=Капсула нафталина
 item.itemDustPhthalicAnhydride.name=Пыль фталевого ангидрида
 item.itemDustSmallPhthalicAnhydride.name=Маленькая кучка пыли фталевого ангидрида
 item.itemDustTinyPhthalicAnhydride.name=Крошечная кучка пыли фталевого ангидрида
-item.2Ethylanthraquinone.name=2-Ethylanthraquinone Cell
-item.2Ethylanthrahydroquinone.name=2-Ethylanthrahydroquinone Cell
+item.2Ethylanthraquinone.name=Капсула 2-этилантрахинона
+item.2Ethylanthrahydroquinone.name=Капсула 2-этилантрагидрохинона
 item.HydrogenPeroxide.name=Капсула пероксида водорода
 item.itemDustLithiumHydroperoxide.name=Пыль гидропероксида лития
 item.itemDustSmallLithiumHydroperoxide.name=Маленькая кучка пыли гидропероксида лития
@@ -1846,9 +1846,9 @@ item.itemDustTinyRedstoneAlloy.name=Tiny Pile of Redstone Alloy Dust
 item.itemDustElectricalSteel.name=Electrical Steel Dust
 item.itemDustSmallElectricalSteel.name=Small Pile of Electrical Steel Dust
 item.itemDustTinyElectricalSteel.name=Tiny Pile of Electrical Steel Dust
-item.itemDustPulsatingIron.name=Pulsating Iron Dust
-item.itemDustSmallPulsatingIron.name=Small Pile of Pulsating Iron Dust
-item.itemDustTinyPulsatingIron.name=Tiny Pile of Pulsating Iron Dust
+item.itemDustPulsatingIron.name=Пыль пульсирующего железа
+item.itemDustSmallPulsatingIron.name=Маленькая кучка пыли пульсирующего железа
+item.itemDustTinyPulsatingIron.name=Крошечная кучка пыли пульсирующего железа
 item.itemDustEnergeticAlloy.name=Energetic Alloy Dust
 item.itemDustSmallEnergeticAlloy.name=Small Pile of Energetic Alloy Dust
 item.itemDustTinyEnergeticAlloy.name=Tiny Pile of Energetic Alloy Dust
@@ -2188,7 +2188,7 @@ item.RP1Fuel.name=Капсула RP-1 топлива
 item.Monomethylhydrazine.name=Капсула монометилгидразина
 item.Hydrazine.name=Капсула гидразина
 item.NitrogenTetroxide.name=Капсула тетраоксида азота
-item.NitrousOxide.name=Nitrous Oxide Cell
+item.NitrousOxide.name=Капсула оксида азота
 item.AmmoniumNitrateSlurry.name=Капсула суспензии нитрата аммония
 item.Kerosene.name=Капсула керосина
 item.LiquidOxygen.name=Liquid Oxygen Cell [LOX]
@@ -3407,7 +3407,7 @@ item.BasicNuclearChemItem.7.name=Red Cellulose Fiber
 item.itemCellLiFBeF2ZrF4U235.name=Капсула LFTR топлива I
 item.itemCellLiFBeF2ZrF4UF4.name=Капсула LFTR топлива II
 item.itemCellLiFBeF2ThF4UF4.name=Капсула LFTR топлива III
-item.Li2BeF2UF4.name=Burnt Li2BeF2UF4 Cell
+item.Li2BeF2UF4.name=Капсула отработанного Li2BeF2UF4
 
 //Added 6/12/21
 item.itemCellLiFBeF2UF4FP.name=Капсула LiFBeF2UF4FP
@@ -3444,9 +3444,9 @@ item.itemDustAmmoniumTetrafluoroberyllate.name=Пыль тетрафторобе
 
 //Added 10/12/21
 item.ImpureLiFBeF2.name=Капсула неочищенного LiFBeF2
-item.itemCellHeliumSpargedLiFBeF2UF4FP.name=Helium Sparged LiFBeF2UF4FP Cell
-item.itemCellFluorineSpargedLiFThF4.name=Fluorine Sparged LiFThF4 Cell
-item.itemCellFluorineSpargedLiFBeF2ThF4.name=Fluorine Sparged LiFBeF2ThF4 Cell
+item.itemCellHeliumSpargedLiFBeF2UF4FP.name=Капсула промытого гелием LiFBeF2UF4FP
+item.itemCellFluorineSpargedLiFThF4.name=Капсула промытого фтором LiFThF4
+item.itemCellFluorineSpargedLiFBeF2ThF4.name=Капсула промытого фтором LiFBeF2ThF4
 item.itemIngotHS188A.name=HS188-A слиток
 item.itemHotIngotHS188A.name=Раскалённый HS188-A слиток
 item.itemDustHS188A.name=HS188-A пыль
@@ -3526,12 +3526,12 @@ item.SunnariumBit.name=Sunnarium Bit
 //Added 29/01/22
 sleep.event.okay=You slept well and now feel a little better.
 sleep.event.good=You slept well and now feel much better.
-sleep.event.wellrested=You feel really well rested.
+sleep.event.wellrested=Вы чувствуете себя хорошо отдохнувшим.
 sleep.event.downsides=The downsides of life no longer effect you.
 item.miscutils:magicfeather.name=Magical Feather
 
 //Added 10/02/22
-item.BasicGenericChemItem.14.name=Solid-Acid Catalyst
+item.BasicGenericChemItem.14.name=Твёрдо-кислотный катализатор
 
 //Added 30/05/22
 item.BasicGenericChemItem.15.name=Infinite Mutation Catalyst
