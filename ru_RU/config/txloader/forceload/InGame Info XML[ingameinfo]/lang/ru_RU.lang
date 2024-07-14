@@ -1,41 +1,41 @@
 # gui - config - categories
 ingameinfoxml.config.category.general=Общие
-ingameinfoxml.config.category.general.tooltip=Основные опции.
+ingameinfoxml.config.category.general.tooltip=Основные настройки.
 ingameinfoxml.config.category.alignment=Выравнивание
-ingameinfoxml.config.category.alignment.tooltip=Опции смещения выравнивания.
+ingameinfoxml.config.category.alignment.tooltip=Параметры смещения выравнивания.
 
 # gui - config - general
 ingameinfoxml.config.filename=Имя файла
-ingameinfoxml.config.filename.tooltip=Какая конфигурация должны быть использована при запуске.
+ingameinfoxml.config.filename.tooltip=Конфигурация, которая должна быть загружена при запуске.
 ingameinfoxml.config.replaceDebug=Заменить оверлей отладки
-ingameinfoxml.config.replaceDebug.tooltip=Заменить оверлей отладки (F3) на InGameInfoXML оверлей.
+ingameinfoxml.config.replaceDebug.tooltip=Заменить оверлей отладки (F3) на оверлей InGameInfoXML.
 ingameinfoxml.config.showInChat=Показывать в чате
 ingameinfoxml.config.showInChat.tooltip=Показывать оверлей в чате.
 ingameinfoxml.config.showOnPlayerList=Показать со списком игроков
 ingameinfoxml.config.showOnPlayerList.tooltip=Показывать оверлей со списком игроков.
 ingameinfoxml.config.scale=Масштаб
 ingameinfoxml.config.scale.tooltip=Оверлей будет масштабироваться на это значение.
-ingameinfoxml.config.fileInterval=Интервал тегов файлов
+ingameinfoxml.config.fileInterval=Интервал чтения файлов тегов 
 ingameinfoxml.config.fileInterval.tooltip=Интервал между прочтением файлов для 'file' тега (в секундах).
 
 # gui - config - alignment
-ingameinfoxml.config.topleft=Верх Лево
+ingameinfoxml.config.topleft=Сверху слева
 ingameinfoxml.config.topleft.tooltip=Смещения для левой верхней части экрана (X<пространство>Y).
-ingameinfoxml.config.topcenter=Верх Центр
+ingameinfoxml.config.topcenter=Сверху по центру
 ingameinfoxml.config.topcenter.tooltip=Смещения для верхней центральной части экрана (X<пространство>Y).
-ingameinfoxml.config.topright=Верх Право
+ingameinfoxml.config.topright=Сверху справа
 ingameinfoxml.config.topright.tooltip=Смещения для верхней правой части экрана (X<пространство>Y).
-ingameinfoxml.config.middleleft=Середина Лево
+ingameinfoxml.config.middleleft=Посередине слева
 ingameinfoxml.config.middleleft.tooltip=Смещения для средней левой части экрана (X<пространство>Y).
-ingameinfoxml.config.middlecenter=Середина Центр
+ingameinfoxml.config.middlecenter=Посередине по центру
 ingameinfoxml.config.middlecenter.tooltip=Смещения для средней центральной части экрана (X<пространство>Y).
-ingameinfoxml.config.middleright=Середина Право
+ingameinfoxml.config.middleright=Посередине справа
 ingameinfoxml.config.middleright.tooltip=Смещения для средней правой части экрана (X<пространство>Y).
-ingameinfoxml.config.bottomleft=Низ Лево
+ingameinfoxml.config.bottomleft=Внизу слева
 ingameinfoxml.config.bottomleft.tooltip=Смещения для нижней левой части экрана (X<пространство>Y).
-ingameinfoxml.config.bottomcenter=Низ Центр
+ingameinfoxml.config.bottomcenter=Внизу по центру
 ingameinfoxml.config.bottomcenter.tooltip=Смещения для нижней центральной части экрана (X<пространство>Y).
-ingameinfoxml.config.bottomright=Низ Право
+ingameinfoxml.config.bottomright=Внизу справа
 ingameinfoxml.config.bottomright.tooltip=Смещения для нижней правой части экрана (X<пространство>Y).
 
 # gui - tag list
@@ -44,10 +44,10 @@ gui.ingameinfoxml.taglist=Список тегов
 # gui - tag list - categories
 ingameinfoxml.tag.category.formatting.name=Форматирование
 ingameinfoxml.tag.category.misc.name=Разное
-ingameinfoxml.tag.category.mouseover.name=Мышь
-ingameinfoxml.tag.category.nearbyplayer.name=Близлежащие Игроки
+ingameinfoxml.tag.category.mouseover.name=Наведение мышки
+ingameinfoxml.tag.category.nearbyplayer.name=Игроки рядом
 ingameinfoxml.tag.category.playerequipment.name=Игрок - экипировка
-ingameinfoxml.tag.category.playergeneral.name=Игрок - главное
+ingameinfoxml.tag.category.playergeneral.name=Игрок - общие
 ingameinfoxml.tag.category.playerposition.name=Игрок - позиция
 ingameinfoxml.tag.category.playerpotion.name=Игрок - эффекты зелий
 ingameinfoxml.tag.category.riding.name=Верховая езда
