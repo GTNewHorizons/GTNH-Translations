@@ -1,13 +1,13 @@
-item.ItemGolemPlacer.silverwood.name=Silverwood Golem
-item.ItemGolemPlacer.obsidian.name=Obsidian Golem
-item.ItemTransformationFocus.name=[WIP] Wand Focus: Transformation
-item.ItemFamiliar.name=Ethereal Familiar (Deprecated)
-item.ItemEtherealFamiliar.name=Ethereal Familiar
-item.ItemAuraCore.name=Aura Core
-item.ItemArcanePackage.name=Arcane Package
-item.ItemElement.0.name=Element of Darkness
-item.ItemElement.1.name=[WIP] Element of Light
-item.ItemElement.2.name=[WIP] Element of Fire
+item.ItemGolemPlacer.silverwood.name=シルバーウッドのゴーレム
+item.ItemGolemPlacer.obsidian.name=黒曜石のゴーレム
+item.ItemTransformationFocus.name=[WIP] 変換の杖星
+item.ItemFamiliar.name=天上のファミリア (廃止)
+item.ItemEtherealFamiliar.name=天上のファミリア
+item.ItemAuraCore.name=オーラコア
+item.ItemArcanePackage.name=神秘の梱包機
+item.ItemElement.0.name=暗黒の素子
+item.ItemElement.1.name=[WIP] 光の素子
+item.ItemElement.2.name=[WIP] 火の素子
 
 gadomancy.lore.deprecation.back=Put in a crafting grid to get your items back!
 
@@ -26,7 +26,7 @@ tc.research_name.GADOMANCY.STICKYJAR=Sticky Jars
 tc.research_text.GADOMANCY.STICKYJAR=Stick 'em up!
 gadomancy.research_page.STICKYJAR.1=Warded jars are any thaumaturge's bread and butter, but they can be a bit difficult to arrange when large tangles of essentia tubes get involved. You decided to alleviate this minor difficulty by applying some adhesive to the bottom of the jar. Any jar that has its base coated will stick to the surface it is placed on, even if that surface is facing sideways or upside down. Breaking the jar does not remove the adhesive, allowing sticky jars to be reused. Also, many other types of essentia containing jars other than basic warded jars can accept this alteration.
 
-tc.research_name.GADOMANCY.ARCANEDROPPER=Arcane Dropper
+tc.research_name.GADOMANCY.ARCANEDROPPER=神秘のドロッパー
 tc.research_text.GADOMANCY.ARCANEDROPPER=When the pimps in the crib, ma
 gadomancy.research_page.ARCANEDROPPER.1=After considering the properties of the dropper, and how those properties can be extended, you have made a series of modifications to the dropper.<LINE>The Arcane Dropper gives you the ability to extract, insert, and monitor items in a 3x3x3 area as if they were inside of an inventory.<BR>To see this area of effect, hover over the Arcane Dropper with a wand (without a focus).<BR>Only the flat sides of the Arcane Dropper can be interacted with.
 
@@ -48,7 +48,7 @@ tc.research_text.GADOMANCY.REMOTEJAR=Mirrored transportation
 gadomancy.research_page.REMOTEJAR.1=The essentia mirror is excellent for moving essentia around for infusions, but you have the uncanny feeling that it has some untapped potential. Two essentia mirrors, when linked, effectively allow essentia to move between two points in space. By placing an essentia mirror inside of a specially altered warded jar, the space inside of one jar can be effectively linked to another. In order to link two jars, simply place one in the world and right click it with another mirrored jar.
 gadomancy.research_page.REMOTEJAR.2=If a network already exists, then the jar will be added to the current network. Unlike essentia mirrors, mirrored jar networks can have more than two jars. The space inside of a network is shared and balanced between the jars it contains. To put it simply, a two jar network will hold two jars of essentia, a three jar network will hold three, etc. Also, when one mirrored jar is filled, it will attempt to evenly distribute its contents between the other jars in its network.
 
-tc.research_name.GADOMANCY.ETHEREAL_FAMILIAR=Ethereal Familiar
+tc.research_name.GADOMANCY.ETHEREAL_FAMILIAR=天上のファミリア
 tc.research_text.GADOMANCY.ETHEREAL_FAMILIAR=A arcane follower
 gadomancy.research_page.ETHEREAL_FAMILIAR.1=Wisps have intrigued you for some time now. Many of these sentient bits of ethereal magic seem to be  passive, but when attacked, they retaliate with surprising speed and efficiency. Not only that, but sometimes just approaching a wisp too quickly will provoke an attack.<LINE>This behavior gave you an unexpected inspiration. By exploiting the unusually responsive nature of a wisp, it may be possible to bend its defensive instincts to act as a personal protector. Unfortunately, wild wisps have proven to be far to unpredictable to capture.
 gadomancy.research_page.ETHEREAL_FAMILIAR.3=By infusing large amounts of magic and a few binding agents into a sample of ethereal essence, an artificial wisp can be created. This Ethereal "Familiar" will anchor to its wearer's aura and act similarly to a turret when it is held in the amulet slot, shooting sparks any hostile entities that attack its wearer. It is considerably weaker and slower than its wild counterparts, however you feel that there are definitely methods of strengthening it.
@@ -86,13 +86,13 @@ tc.research_name.GADOMANCY.FAMILIAR_SPEED=Frequency Emission Overdrive
 tc.research_text.GADOMANCY.FAMILIAR_SPEED=A certain scientific Railgun
 gadomancy.research_page.FAMILIAR_SPEED.1=Some variants of familiars can have a considerable amount of difficulty dealing with large numbers of foes at once. This upgrade enhances an Ethereal Familiar so that it can attack twice as fast as before. The second stage both increases its attack speed and allows it to hit multiple enemies in a single strike.<LINE>Consumes 0.02 Ordo and 0.01 Ignis vis per attack and level.
 
-tc.research_name.GADOMANCY.KNOWLEDGE_BOOK=Book of Knowledge
+tc.research_name.GADOMANCY.KNOWLEDGE_BOOK=知識の本
 tc.research_text.GADOMANCY.KNOWLEDGE_BOOK=Knowledge is power
 gadomancy.research_page.KNOWLEDGE_BOOK.1=Research and discovery make up the very essence of Thaumaturgy, yet sometimes the sheer amount of paperwork is enough to make even the toughest thaumaturge want to jump off a giant cliff WITHOUT a Thaumostatic Harness. The solution to this problem seems relatively simple. Animating a book to do the writing for you will be easy, right?..............Well, no.<BR>Making a book able to store knowledge is relatively simple since that is what books do by default (obviously). Making it able to compile its knowledge into useable and comprehensible research is another ordeal entirely.
 gadomancy.research_page.KNOWLEDGE_BOOK.3=In order to make the book able to do anything, it must be animated so it can open, close, and turn its pages on its own. After the book of knowledge itself is assembled, it needs to be placed on a flat surface that conducts magic in order to activate, a role which an arcane pedestal serves perfectly.<BR>Once it is placed on a pedestal, the book of knowledge can be used for research. Simply dropping a research page on the ground near the book and supplying it with Cognitio essentia will start the research process. From that point on, the waiting game begins.
 gadomancy.research_page.KNOWLEDGE_BOOK.4=You have found that placing any form of booster that can affect an enchantment table nearby will speed up the process, albeit not in any significant way.<BR> The Book of Knowlege has one more use other than performing research. It can be opened and used like any other Thaumonomicon, removing the need to constantly lug around a Thaumonomicon wherever you go.
 
-tc.research_name.GADOMANCY.ESSENTIA_COMPRESSOR=Essentia Condenser
+tc.research_name.GADOMANCY.ESSENTIA_COMPRESSOR=エッセンシアコンデンサー
 tc.research_text.GADOMANCY.ESSENTIA_COMPRESSOR=NON-noisy Essentia Storage
 gadomancy.research_page.ESSENTIA_COMPRESSOR.1= While experimenting with void materials, you discovered an odd reaction between void seeds and liquid essentia.  When a void seed is left in close proximity with a warded jar for an extended period of time, the energy it releases has the odd tendency to make the essentia in the jar condense into a slightly more dense state, freeing up a small amount of space in the jar without actually destroying any essentia. After some further testing, you found that the seed alone was not powerful enough to make any major difference, but with enhancements to increase the potency of the energy released by the seed, a device that can compress essentia into a super dense state could be made.
 gadomancy.research_page.ESSENTIA_COMPRESSOR.2=By condensing large amounts of void materials,  infusing the resulting mass into void seed to create a small cross dimensional rift, and freezing the resulting anomaly inside a crystal shell, it is possible to increase the potency the void energy the seed can release by several thousand times. Despite the fact that this new “Element of Darkness” seems to be incredibly stable, its effects are far to potent for a normal warded jar to handle. It also has the unfortunate side effect of sucking all of the light out of any space it is dropped in, blinding anything that holds it or stands near it when it is dropped on the ground.
@@ -101,7 +101,7 @@ gadomancy.research_page.ESSENTIA_COMPRESSOR.6=Due to the incredible amount of en
 gadomancy.research_page.ESSENTIA_COMPRESSOR.8=The Essentia Condenser, like most things that contain large amounts of liquid essentia, does not deal with large amounts of physical stress very well. If any of the blocks in the structure are broken while any essentia is contained inside, the entire device will violently explode, leaving a large amount of flux and taint behind. Unlike its slightly more tame counterpart, the essentia reservoir, if the Essentia Condenser has any essentia within, it will release enough destabilized flux to immediately taint the land.
 gadomancy.research_page.ESSENTIA_COMPRESSOR.9=If an element of darkness is placed on an ancient pedestal near the condenser, the core of the condenser will consume it, allowing the condenser to increase its internal capacity by a reasonable amount. The highest point the capacity of the condenser can be pushed to with this method is 3000 per aspect.<LINE>You noticed while standing near the structure, that the pull of the Element of Darkness in the Condensers core is enough to gradually pull you closer. Could it be getting bigger? You don’t think so...hopefully...
 
-tc.research_name.GADOMANCY.NODE_MANIPULATOR=Node Manipulator
+tc.research_name.GADOMANCY.NODE_MANIPULATOR=ノード操作器
 tc.research_text.GADOMANCY.NODE_MANIPULATOR=Almost like roulette
 gadomancy.research_page.NODE_MANIPULATOR.1=Aura nodes have intrigued you for the longest time. Where do they come from? Why are there so many varieties? After some time, you found yourself asking another question entirely; would it be possible to change how a node functions? After journeying far across the world and into the depths of the ancient eldritch mazes, you found a set of materials capable of changing the way aura behaves. After carefully developing these materials, and using them to augment the only device you found to be capable of channeling pure vis directly from a node, one of the most dangerous machines you could fathom finally fell within your grasp.
 gadomancy.research_page.NODE_MANIPULATOR.3=The Node Manipulator is a device that essentially works in a manner opposite to that of a wand recharge pedestal. By drawing vis from a wand or staff and channeling it back into the node, the node manipulator will force a node to destabilize slightly.<LINE> The manipulator's main pedestal is not stable enough to alter nodes on its own. By adding a specially modified focus to hold the wand/staff in place for vis extraction and a set of pillars to channel the extracted vis into the node, the device is finally ready for use. Just place a wand/staff on the pedestal, and the node manipulator will start automatically.
@@ -158,7 +158,7 @@ tc.research_name.GADOMANCY.CLEAN_AURA_CORE=Core Cleaning
 tc.research_text.GADOMANCY.CLEAN_AURA_CORE=Mistakes were made
 gadomancy.research_page.CLEAN_AURA_CORE.1=Returning an Aura Core to it's original state has proven very simple. Tossing an aspect core into a special bath of essentia will allow the extra primal crystal coat to be removed without damaging the aura core.
 
-tc.research_name.GADOMANCY.AURA_PYLON=Aura Pylon
+tc.research_name.GADOMANCY.AURA_PYLON=オーラパイロン
 tc.research_text.GADOMANCY.AURA_PYLON=Diffusing essentia
 gadomancy.research_page.AURA_PYLON.1=The aura pylon is a device that exploits the properties of an Aura Core tuned to Ignis. This device is able to be able to destabilize and evaporate essentia into the local aura. This process is a bit slow, and the essentia needs time to reach full concentration. When it does, the aura concentration should be enough to physically influence the environment.
 gadomancy.research_page.AURA_PYLON.4=After assembling the aura pylon, dropping a piece of crystalized essentia of the desired aspect on the ground nearby will allow the pylon to tune itself. Once the pylon pulls in the crystal and the flame on top changes color, liquid essentia can be fed into the bottom. Removing the crystal is as simple as getting close enough to pick it up.<BR>As for discovering what each different type of essentia does, the only way you think you think you can find out is to test them.
@@ -167,7 +167,7 @@ tc.research_name.GADOMANCY.AURA_EFFECTS=Aura Effects
 tc.research_text.GADOMANCY.AURA_EFFECTS=What diffusing essentia actually does
 gadomancy.research_page.AURA_EFFECTS.1=Most types of essentia have their own unique effects, however some do not. either way, keeping a log of what each aspect does seems like a good idea.
 
-tc.research_name.GADOMANCY.ARCANE_PACKAGER=Arcane Packager
+tc.research_name.GADOMANCY.ARCANE_PACKAGER=神秘の梱包機
 tc.research_text.GADOMANCY.ARCANE_PACKAGER=PACK IT UP!
 gadomancy.research_page.ARCANE_PACKAGER.1=Scattered in dungeons, temples, and ruins throughout the world are strange objects called loot bags. They seem small and relatively tough and light, but when opened, the fabric simply disintergrates, leaving a pile of valuable bits and things. Sometimes the among of things even seems to defy the size of the bag.<BR>A closer inspection revealed that the bag is not actually made of fabric at all, but rather a fine mesh of stable Pannus essentia.
 gadomancy.research_page.ARCANE_PACKAGER.3=Not only that, but the fibers of essentia seem to weave themselves together even tighter when they are brought into contact with the pressure created by an aer tuned aura core.<BR>The Arcane Packager is a device that replicates the conditions needed for Pannus essentia to form threads. The result is a small package that behaves much the same as any other loot bag. These small packages can even be disguised as normal loot bags. The process can also be replicated with leather and strings, but the result looks really cheap.
@@ -197,36 +197,36 @@ gadomancy.lore.remotejar=§7Network: %s
 gadomancy.lore.disguise.item=Disguised as %s
 gadomancy.lore.disguise.none=Transparent
 
-gadomancy.eldritch.portalPlacerCreative=Creative portal placer
+gadomancy.eldritch.portalPlacerCreative=クリエイティブ用エルドリッチポータル
 gadomancy.eldritch.noflyCreative=(even in creative)
-gadomancy.eldritch.nobreakPortalNothing=This portal cannot be broken
-gadomancy.eldritch.portalSpawned=You sense the opening of a portal in the distance.
+gadomancy.eldritch.nobreakPortalNothing=このポータルは壊せない
+gadomancy.eldritch.portalSpawned=遠くでポータルが開くのを感じる。
 
 tile.BlockStickyJar.name=Sticky Jar
-tile.BlockArcaneDropper.name=Arcane Dropper
-tile.BlockInfusionClaw.name=Infusion Claw
-tile.BlockRemoteJar.name=Mirrored Jar
-tile.BlockNode.name=Aura Node
-tile.BlockExtendedNodeJar.name=Node in a Jar
-tile.BlockNodeManipulator.5.name=Node Manipulator
-tile.BlockStoneMachine.0.name=Randomization Focus
-tile.BlockStoneMachine.1.name=Ancient Pedestal
-tile.BlockStoneMachine.2.name=Arcane Enervation Emitter
-tile.BlockStoneMachine.3.name=Redirection Focus
-tile.BlockStoneMachine.4.name=Arcane Packager
-tile.BlockStoneMachine.5.name=Ai Shutdown (WIP)
+tile.BlockArcaneDropper.name=神秘のドロッパー
+tile.BlockInfusionClaw.name=注入のかぎ爪
+tile.BlockRemoteJar.name=鏡面の瓶
+tile.BlockNode.name=オーラ節
+tile.BlockExtendedNodeJar.name=瓶詰めのオーラ節
+tile.BlockNodeManipulator.5.name=ノード操作器
+tile.BlockStoneMachine.0.name=無作為化の焦点
+tile.BlockStoneMachine.1.name=古の台座
+tile.BlockStoneMachine.2.name=神秘のエナベーションエミッター
+tile.BlockStoneMachine.3.name=転移の焦点
+tile.BlockStoneMachine.4.name=神秘の梱包機
+tile.BlockStoneMachine.5.name=Ai シャットダウン (WIP)
 tile.BlockStoneMachine.11.name=Manipulation Pillar
 tile.BlockStoneMachine.15.name=Manipulation Pillar
-tile.BlockAuraPylon.0.name=Aura Pylon
-tile.BlockAuraPylon.1.name=Aura Pylon Peak
-tile.BlockKnowledgeBook.name=Book of Knowledge
-tile.BlockEssentiaCompressor.name=Essentia Condenser
+tile.BlockAuraPylon.0.name=オーラパイロン
+tile.BlockAuraPylon.1.name=オーラパイロンピーク
+tile.BlockKnowledgeBook.name=知識の本
+tile.BlockEssentiaCompressor.name=エッセンシアコンデンサー
 
 gadomancy.nodes.GROWING=Growing
 gadomancy.nodes.STARVING=Starving
 
-gadomancy.auracore.unused=(Unused at the moment)
-gadomancy.auracore.blank=Blank
+gadomancy.auracore.unused=(現在未使用)
+gadomancy.auracore.blank=空
 
 gadomancy.aura.research.unlock=You've discovered the effects of %s essentia.
 
