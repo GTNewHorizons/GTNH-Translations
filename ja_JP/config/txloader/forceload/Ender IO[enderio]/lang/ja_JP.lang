@@ -40,7 +40,7 @@ enderio.itemPowerConduitEndergyGold.name=金製エネルギー導管
 enderio.itemPowerConduitEndergyCopper.name=銅製エネルギー導管
 enderio.itemPowerConduitEndergySilver.name=銀製エネルギー導管
 enderio.itemPowerConduitEndergyElectrum.name=エレクトラム製エネルギー導管
-enderio.itemPowerConduitEndergyEnergeticSilver.name=エナジェティック銀製エネルギー導管
+enderio.itemPowerConduitEndergyEnergeticSilver.name=エナジェティックシルバー製エネルギー導管
 enderio.itemPowerConduitEndergyCrystalline.name=結晶質合金製エネルギー導管
 enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=結晶質ピンクスライム製エネルギー導管
 enderio.itemPowerConduitEndergyMelodic.name=メロディー合金製エネルギー導管
@@ -265,7 +265,7 @@ enderio.itemPowderIngot=粉とインゴット
 
 #Alloys
 enderio.itemAlloy.name=合金
-enderio.electricalSteel.name=電炉鋼インゴット
+enderio.electricalSteel.name=電炉鋼
 enderio.energeticAlloy.name=エナジェティック合金インゴット
 enderio.phasedGold.name=ヴァイブラント合金インゴット
 enderio.redstoneAlloy.name=レッドストーン合金インゴット
@@ -279,18 +279,18 @@ enderio.endSteelNugget.name=エンドスチールナゲット
 
 enderio.crudeSteel.name=粘土混合体インゴット
 enderio.crystallineAlloy.name=結晶質合金インゴット
-enderio.melodicAlloy.name=メロディー合金インゴット
-enderio.stellarAlloy.name=星合金インゴット
+enderio.melodicAlloy.name=メロディック合金インゴット
+enderio.stellarAlloy.name=ステラー合金インゴット
 enderio.crystallinePinkSlime.name=結晶質ピンクスライムインゴット
-enderio.energeticSilver.name=エナジェティック銀インゴット
+enderio.energeticSilver.name=エナジェティックシルバーインゴット
 enderio.vividAlloy.name=ビビッド合金インゴット
 
 enderio.crudeSteelGrindingBall.name=粘土混合体製粉砕用ボール
 enderio.crystallineAlloyGrindingBall.name=結晶質合金製粉砕用ボール
-enderio.melodicAlloyGrindingBall.name=メロディー合金製粉砕用ボール
-enderio.stellarAlloyGrindingBall.name=星合金製粉砕用ボール
+enderio.melodicAlloyGrindingBall.name=メロディック合金製粉砕用ボール
+enderio.stellarAlloyGrindingBall.name=ステラー合金製粉砕用ボール
 enderio.crystallinePinkSlimeGrindingBall.name=結晶質ピンクスライム製粉砕用ボール
-enderio.energeticSilverGrindingBall.name=エナジェティック銀製粉砕用ボール
+enderio.energeticSilverGrindingBall.name=エナジェティックシルバー製粉砕用ボール
 enderio.vividAlloyGrindingBall.name=ビビッド合金製粉砕用ボール
 
 enderio.precientCrystal.name=予知のクリスタル
@@ -325,10 +325,10 @@ tile.enderio.endSteel.name=エンドスチールブロック
 
 tile.enderio.crudeSteel.name=粘土混合体ブロック
 tile.enderio.crystallineAlloy.name=結晶質合金ブロック
-tile.enderio.melodicAlloy.name=メロディー合金ブロック
-tile.enderio.stellarAlloy.name=星合金ブロック
+tile.enderio.melodicAlloy.name=メロディック合金ブロック
+tile.enderio.stellarAlloy.name=ステラー合金ブロック
 tile.enderio.crystallinePinkSlime.name=結晶質ピンクスライムブロック
-tile.enderio.energeticSilver.name=エナジェティック銀ブロック
+tile.enderio.energeticSilver.name=エナジェティックシルバーブロック
 tile.enderio.vividAlloy.name=ビビッド合金ブロック
 
 #Powder / Ingot
@@ -373,7 +373,7 @@ tile.blockReservoir.tooltip.detailed.line4=毎秒1バケツ分の水を生産す
 tile.blockReservoir.tooltip.detailed.line5=レンチで右クリックして
 tile.blockReservoir.tooltip.detailed.line6=自動搬出を有効にできる
 
-tile.blockAlloySmelter.name=合金精錬機
+tile.blockAlloySmelter.name=合金製錬炉
 tile.blockAlloySmelter.tooltip.detailed.line1=EnderIOの合金の作成に使用する
 tile.blockAlloySmelter.tooltip.detailed.line2=電気で動くかまどとしても
 tile.blockAlloySmelter.tooltip.detailed.line3=使用できる
@@ -1393,7 +1393,7 @@ enderio.keybind.stepassist=歩行補助
 enderio.keybind.yetawrenchmode=イェタレンチモード切替
 enderio.keybind.magnet=電磁石の切り替え
 enderio.keybind.staffoftravelingtp=旅の杖の使用
-enderio.nei.alloysmelter=合金精錬機
+enderio.nei.alloysmelter=合金製錬炉
 enderio.nei.enchanter=エンチャンター
 enderio.nei.sagmill=準自生粉砕機
 enderio.nei.sagmill.outputchance=確率 : {0,choice,0#'<1'|0<{0,number}}%

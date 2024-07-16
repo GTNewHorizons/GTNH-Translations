@@ -1,13 +1,13 @@
-itemGroup.SC2Modules=Steve's Carts 2 Modules
-itemGroup.SC2Items=Steve's Carts 2 Components
-itemGroup.SC2Blocks=Steve's Carts 2 Blocks
+itemGroup.SC2Modules=Steve's Carts 2 モジュール
+itemGroup.SC2Items=Steve's Carts 2 コンポーネント
+itemGroup.SC2Blocks=Steve's Carts 2 ブロック
 
 # ======================================
 				BLOCK GUI
 # ======================================
 
 # Cart assembler gui localization
-gui.SC2:cartAssembler=Cart Assembler
+gui.SC2:cartAssembler=トロッコ組立機
 gui.SC2:basicAssembleInstruction=To start making a cart, please add a Cart Hull of your choice to the Hull Slot.
 gui.SC2:invalidHullError=The Cart Hull added to the Hull Slot is not a valid Hull. This should not be possible so you've probably done something strange.
 gui.SC2:hullCapacity=Hull capacity
@@ -336,7 +336,7 @@ item.SC2:reinforced_metal.name=Reinforced Metal
 item.SC2:reinforced_wheels.name=Reinforced Wheels
 item.SC2:pipe.name=Pipe
 item.SC2:shooting_station.name=Shooting Station
-item.SC2:entity_scanner.name=Entity Scanner
+item.SC2:entity_scanner.name=エンティティスキャナー
 item.SC2:entity_analyzer.name=Entity Analyzer
 item.SC2:empty_disk.name=Empty Disk
 item.SC2:tri-torch.name=Tri-torch
@@ -376,7 +376,7 @@ item.SC2:large_tank_pane.name=Large Tank Pane
 item.SC2:huge_tank_pane.name=Huge Tank Pane
 item.SC2:liquid_cleaning_core.name=Liquid Cleaning Core
 item.SC2:liquid_cleaning_tube.name=Liquid Cleaning Tube
-item.SC2:explosive_easter_egg.name=Explosive Easter Egg
+item.SC2:explosive_easter_egg.name=爆発するイースターエッグ
 item.SC2:burning_easter_egg.name=Burning Easter Egg
 item.SC2:glistering_easter_egg.name=Glistering Easter Egg
 item.SC2:chocolate_easter_egg.name=Chocolate Easter Egg
@@ -405,7 +405,7 @@ item.SC2:blade_arm.name=Blade Arm
 tile.SC2:BlockCargoManager.name=Cargo Manager
 tile.SC2:BlockJunction.name=Junction Rail
 tile.SC2:BlockAdvDetector.name=Advanced Detector Rail
-tile.SC2:BlockCartAssembler.name=Cart Assembler
+tile.SC2:BlockCartAssembler.name=トロッコ組立機
 tile.SC2:BlockActivator.name=Module Toggler
 tile.SC2:BlockDistributor.name=External Distributor
 tile.SC2:BlockLiquidManager.name=Liquid Manager
@@ -507,7 +507,7 @@ info.SC2:presentDuplicateError=[%1] is not allowed to be added twice.
 info.SC2:sideClashError=[%1] and [%2] will clash at the [%3]
 # need beta 3 for these ones to show up (remove this note)
 info.SC2:toolUnbreakable=Unbreakable
-info.SC2:toolDurability=Durability: [%1]%
+info.SC2:toolDurability=耐久値: [%1]%
 info.SC2:modularCapacity=Modular capacity: [%1]
 info.SC2:complexityCap=Module complexity cap: [%1]
 info.SC2:maxEngineCount=Max engines count: [%1]
