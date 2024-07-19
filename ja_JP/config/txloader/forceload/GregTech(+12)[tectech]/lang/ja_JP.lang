@@ -522,16 +522,10 @@ gt.blockmachines.hatch.datainass.desc.0=ItemStack Data Input for Multiblocks
 gt.blockmachines.hatch.datainass.desc.1=High speed fibre optics connector.
 gt.blockmachines.hatch.datainass.desc.2=Must be painted to work
 
-gt.blockmachines.hatch.datainasswireless.desc.0=Wireless ItemStack Data Input for Multiblocks
-gt.blockmachines.hatch.datainasswireless.desc.1=High speed internet connection
-
 gt.blockmachines.hatch.dataoutass.tier.07.name=データバンクマスターコネクター
 gt.blockmachines.hatch.dataoutass.desc.0=ItemStack Data Output for Multiblocks
 gt.blockmachines.hatch.dataoutass.desc.1=High speed fibre optics connector.
 gt.blockmachines.hatch.dataoutass.desc.2=Must be painted to work
-
-gt.blockmachines.hatch.wirelessdataoutass.desc.0=Wireless ItemStack Data Output for Multiblocks
-gt.blockmachines.hatch.wirelessdataoutass.desc.1=High speed internet connection
 
 gt.blockmachines.hatch.rack.tier.08.name=Computer Rack
 gt.blockmachines.hatch.rack.desc.0=4 Slot Rack
@@ -665,7 +659,7 @@ gt.blockmachines.multimachine.tm.microwave.cfgo.1=Timer remaining
 
 gt.blockmachines.multimachine.tm.teslaCoil.name=Tesla Tower
 gt.blockmachines.multimachine.tm.teslaCoil.hint.0=1 - Classic Hatches, Capacitor Hatches or Tesla Base Casing
-gt.blockmachines.multimachine.tm.teslaCoil.hint.1=2 - Titanium Frames
+gt.blockmachines.multimachine.tm.teslaCoil.hint.1=2 - チタン製の骨組み
 gt.blockmachines.multimachine.tm.teslaCoil.desc.0=Controller block of the Tesla Tower
 gt.blockmachines.multimachine.tm.teslaCoil.desc.1=Used to transmit power to Tesla Coil Covers and Tesla Transceivers
 gt.blockmachines.multimachine.tm.teslaCoil.desc.2=Can be fed with Helium/Nitrogen/Radon Plasma to increase the range
@@ -709,7 +703,6 @@ gt.blockmachines.multimachine.em.computer.cfgo.0=Current max. heat
 gt.blockmachines.multimachine.em.computer.cfgo.1=Produced computation
 gt.blockmachines.multimachine.em.computer.desc.0=Controller block of the Quantum Computer
 gt.blockmachines.multimachine.em.computer.desc.1=Used to generate computation (and heat)
-gt.blockmachines.multimachine.em.computer.desc.2=Use screwdriver to toggle wireless mode
 
 gt.blockmachines.multimachine.em.databank.name=Data Bank
 gt.blockmachines.multimachine.em.databank.hint.0=1 - Classic Hatches or high power casing
@@ -717,7 +710,6 @@ gt.blockmachines.multimachine.em.databank.hint.1=2 - データアクセスハッ
 gt.blockmachines.multimachine.em.databank.desc.0=Controller block of the Data Bank
 gt.blockmachines.multimachine.em.databank.desc.1=Used to supply Assembling Lines with more Data Sticks
 gt.blockmachines.multimachine.em.databank.desc.2=and give multiple Assembling Lines access to the same Data Stick
-gt.blockmachines.multimachine.em.databank.desc.3=Use screwdriver to toggle wireless mode
 
 gt.blockmachines.multimachine.em.junction.name=Matter Junction
 gt.blockmachines.multimachine.em.junction.hint.0=1 - Classic Hatches or High Power Casing
@@ -1234,7 +1226,6 @@ tt.keyword.Structure.EssentiaStorage=Essentia Storage
 tt.keyword.Structure.DataConnector=Data Connector
 tt.keyword.Structure.SuperconductingCoilBlock=超伝導体コイルブロック
 tt.keyword.Structure.StainlessSteelCasing=Stainless Steel Casing
-tt.wirelessInputData.config.text=Configure how much computation to pull from wireless network
 
 
 tt.keyphrase.Hint_Details=Hint Details
@@ -1432,7 +1423,7 @@ tt.element.Neon=ネオン
 tt.element.Sodium=ナトリウム
 tt.element.Magnesium=マグネシウム
 tt.element.Aluminium=アルミニウム
-tt.element.Silicon=ケイ素
+tt.element.Silicon=シリコン
 tt.element.Phosphorus=リン
 tt.element.Sulfur=硫黄
 tt.element.Chlorine=塩素
@@ -1496,7 +1487,7 @@ tt.element.Tungsten=タングステン
 tt.element.Rhenium=レニウム
 tt.element.Osmium=オスミウム
 tt.element.Iridium=イリジウム
-tt.element.Platinum=白金
+tt.element.Platinum=プラチナ
 tt.element.Gold=金
 tt.element.Mercury=水銀
 tt.element.Thallium=タリウム
@@ -1552,7 +1543,7 @@ tt.element.AntiNeon=反ネオン
 tt.element.AntiSodium=反ナトリウム
 tt.element.AntiMagnesium=反マグネシウム
 tt.element.AntiAluminium=反アルミニウム
-tt.element.AntiSilicon=反ケイ素
+tt.element.AntiSilicon=反シリコン
 tt.element.AntiPhosphorus=反リン
 tt.element.AntiSulfur=反硫黄
 tt.element.AntiChlorine=反塩素
@@ -1616,7 +1607,7 @@ tt.element.AntiTungsten=反タングステン
 tt.element.AntiRhenium=反レニウム
 tt.element.AntiOsmium=反オスミウム
 tt.element.AntiIridium=反イリジウム
-tt.element.AntiPlatinum=反白金
+tt.element.AntiPlatinum=反プラチナ
 tt.element.AntiGold=反金
 tt.element.AntiMercury=反水銀
 tt.element.AntiThallium=反タリウム
