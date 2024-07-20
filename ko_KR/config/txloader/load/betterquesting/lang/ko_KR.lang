@@ -5955,7 +5955,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKA.desc=풍차는 풍력을 이용해 �
 
 # Quest: Awakened Draconium Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKQ.name=§6§l깨어난 드라코늄 코일 업그레이드
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKQ.desc=인피니티 촉매나 인피니티와 같은 가장 고급 재료를 가공하려면 9900K 이상이 온도가 필요합니다. EBF를 10800K으로 업그레이드하세요.%n%n§3열 조절 기능이 포함되어 있어, UHV 해치로 오버클럭 시 최대 11601K까지 올릴 수 있습니다. 그렇다고 꼭 필요한 것은 아니지만요.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKQ.desc=인피니티 촉매나 인피니티와 같은 가장 고급 재료를 가공하려면 9900K 이상이 온도가 필요합니다. EBF를 10800K으로 업그레이드하세요.%n%n[note]UHV 해치로 오버클럭 시 온도를 최대 11601K까지 올릴 수 있습니다. 추후 초전도체 가공을 위해 오버클럭을 해야할겁니다.[/note]
 
 # Quest: Mega is Betta
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_A.name=§6§l거대할수록 좋습니다
@@ -6105,6 +6105,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc="우주의 맹렬한 힘으로 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§6§l하이포젠 코일 업그레이드
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=영생의 용에게 추출된 피로 주조되고, 현실을 넘어서는 핵융합의 힘에 의해 융합된 이 물질은 빛나는 주황색을 띄며 기존의 원소나 화합물들로는 이 영롱한 빛을 재현 할 수 없습니다. 심지어 깨어난 드라코늄조차도 말이죠.%n%nMK4 핵융합로 안에서 무슨 일이 일어났던걸까요? 이 물질은 대체 무엇일까요? 이 물질은 가루형태에서 가루의 크기에 따라 광학적으로 전혀 다른 특성을 보입니다. 하이포젠은 특정 크기에 가까워질수록 완벽한 균형 상태로 유지하게 되며, 이 특성을 이용하면 엄청난 일을 할 수 있을겁니다. %n%n능동적으로 에너지를 흡수하고 방출하는 성질 덕분에 코일로 만들면 좋을것 같지만 만들기가 너무나도 까다롭습니다. 안정되지 않은 하이포젠을 제어하기 위해 웻웨어 회로로는 충분하지 않습니다, 하이포젠이 가진 불규칙한 특성을 견딜 수 있는 것은 최첨단 생체 회로뿐입니다.%n%n 하이포젠 코일은12601K의 열을 제공합니다. DTPF, MEBF, MABF에 '거의' 모든 물질을 가공 할 수 있게 될겁니다.
 
+# Quest: Clean Implosions?!
+betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.name=§l§6§lClean Implosions?!
+betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=Introducing the bigger (and better) Implosion Compressor, the Electric Implosion Compressor.%n%nThe Electric Implosion Compressor does not need any explosive and only needs electricity, isn't that very nice!%n%nFurthermore it gains extra parallels 4^(Tier - 1) based on the containment block used in the middle.%n%nTier 1: Neutronium Block%nTier 2: Infinity Block%nTier 3: transcendent Metal Block%nTier 4: Spacetime Block%nTier 5: Universium Block%n%n[note]While the structure preview shows holes in the middle, it requires the full 27 containment blocks to form, once formed the middle 5 blocks will disappear visually, but sometimes when breaking you will get them back (and sometimes you won't). [/note]%n%n[note]The minimum allowed energy hatch tier is one tier below the recipe tier, so let's start with 2 UV energy hatches for now.[/note]
+
 # Quest: Advanced Assembly Line
 betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.name=고급 조립 라인
 betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=이것은 §6GigaGram§rFab의 고급 조립 라인(Advnaced Assembly Line, AAL)입니다.%n%n이 기계는 아이템 파이프라이닝을 지원합니다. 즉, 모든 재료를 시작할 때 한 번에 소모하는 대신 실제 조립 라인처럼 단계당 한 종류씩 재료를 소모합니다. 실제로, 이 레시피에서 요구하는 아이템 입력 만큼의 병렬성을 제공합니다. AAL은 여러 조립 슬라이스의 집합으로 생각할 수 있습니다. 각 조립 슬라이스는 다른 슬라이스와 독립적으로 각 단계를 처리할 수 있습니다. 입력 버스 내용물이 저장된 데이터 스틱과 일치하면 처리를 시작합니다. 첫 번째 슬라이스는 버스 #1의 입력을 소모합니다. (레시피 시간/입력 수) 시간 후, 첫 번째 슬라이스의 작업이 끝나고 두 번째 슬라이스를 시작합니다. 그와 동시에 첫 번째 슬라이스는 입력 버스 #1에서 입력을 찾습니다. 입력이 여전히 충분하다면 슬라이스 #1은 다시 작업을 시작합니다.%n%n마지막 슬라이스(n번째 슬라이스, 여기서 n은 레시피의 아이템 입력 수)는 작업이 끝나면 레시피 출력을 출력 버스에 넣습니다. 비 마지막 슬라이스의 작업이 끝나면 다음 슬라이스로 작업을 넘기려고 시도합니다. 만약 다음 슬라이스가 입력 버스에서 재료를 찾지 못한다면, 방금 마친 슬라이스는 §4고착§r 상태가 되어 가동을 중단시킵니다. 이런 §4고착§r된 조립 라인을 찾는 것을 돕기 위해, 컨트롤러의 전면에는 상태 빛이 주황색으로 바뀝니다.%n%n이 기계의 EU/t 비용은 활성화된 슬라이스 수와 원래 레시피의 EU/t을 곱한 값입니다. §4고착§r된 슬라이스는 전력을 소비하지 않습니다. 레시피 티어 계산 및 일반적인 불완전한 오버클럭을 위해 가장 나쁜 에너지 공급 해치의 입력 전압을 사용합니다. 멀티 암페어 에너지 해치나 레이저 해치를 사용하면, 일반적인 전압 티어를 넘어선 오버클럭이 가능하지만 원래보다 더 많은 전력을 소비합니다. §2레이저 오버클럭§r마다 전력 지수에 0.3을 더합니다. 1개의 §2레이저 오버클럭§r은 50%%의 레시피 시간과 430%%의 전력을 사용합니다. 2개의 §2레이저 오버클럭§r은 25%%의 레시피 시간과 1978%%의 전력을 사용합니다. 1틱을 넘어서는 오버클럭은 하지 않습니다. 머신이 먼저 병렬화를 시도한 다음, 일반적인 불완전한 오버클럭을 한 후 §2레이저 오버클럭§r을 진행합니다.
@@ -6124,6 +6128,10 @@ betterquesting.quest.pd68ySXjTD6yW1MN6x6swg.desc=...하지만 제목과 다르�
 # Quest: §A§ADrone are not Drones!
 betterquesting.quest.prKPwVNgSgOE1NGPiEEF-g.name=§6§6§6§l§r§6§l§5§l§o§l§r§6§A§l§A§6§l이 드론들은 일벌들이 아닙니다!
 betterquesting.quest.prKPwVNgSgOE1NGPiEEF-g.desc=...하지만 근면성실한 일벌들처럼 일 할 수 있습니다. 이 새로운 친구들은 여러 멀티블럭들의 유지보수, 제어, 관리 등을 한번에 처리할 수 있습니다.%n%n드론 센터는 완전히 새로운 형식으로 디자인된 기계입니다. 전력을 요구하지 않고, 그저 여러대의 드론만 넣어주면 알아서 작동할겁니다.%n드론 센터가 작동을 시작하면 우선 드론들은 자동으로 "드론 다운링크 모듈"을 찾아서 스캔합니다(드론 다운링크 모듈은 타 멀티블럭의 유지보수 해치를 떼어내고 대체해서 넣으면 됩니다). 거리 내에 있는 모듈을 찾고 연결하는데 성공하면 드론 센터의 GUI를 통해 원격으로 해당 멀티블럭의 컨트롤러 GUI에 접근 할 수 있고 더 나은 구별을 위해 이름도 직접 변경이 가능합니다.%n%n높은 티어의 드론을 넣을수록 드론 센터의 감지 거리가 늘어납니다. 갯수는 관계 없습니다.%n%n[warn]드론들은 확률적으로 고장나서 추락할 수 있고, 티어가 올라갈수록 사고 확률이 줄어들며, 티어3 반중력 드론들은 절대 고장나지 않습니다. 그리고 센터로부터 너무 멀리있는 컨트롤러를 GUI로 접근하면 가끔 꺼질수도 있는데, 전원을 내렸다 다시 올리면 다시 작동 할겁니다.[/warn]%n%n어쩌면, 먼미래에는 드론들이 행성 전체를 지배할지도 모르겠네요...!
+
+# Quest: Draconic Development
+betterquesting.quest.rZCrzZ3QTni28BdPZf2-0w.name=Draconic Development
+betterquesting.quest.rZCrzZ3QTni28BdPZf2-0w.desc=The Draconic Fusion Crafted has 5 tier of casings, each an upgrade of the previous tier.%n%nEach new tier of casings allows you to make better Cores, eventually ending at the Chaotic Core.%n%n[note]Recipe time is divided by number of tiers above recipe tier![/note]
 
 # Quest: One Fluid Tank to Store it All!!
 betterquesting.quest.tQecVBhjRRyfR3sqeNBrtA.name=§6§l단 한가지의 유체를 한꺼번에 저장하는 탱크!
@@ -8242,7 +8250,7 @@ betterquesting.quest.FMul7onaSFmWwPZRUSR3FA.desc=이 블록을 사용하면 모�
 
 # Quest: Fancy Stripes!
 betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.name=호화로운 스트라이프!
-betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.desc=로켓 엔진은 어머니선을 가속시키는 데 필요합니다. 각 로켓 엔진은 하나의 로켓 엔진 제트와 1~10개의 로켓 엔진 베이스 블록으로 구성되며, 이들은 세로로 배치됩니다. 각 로켓 엔진 베이스는 2MN의 힘을 제공하고, 최대 10,000L의 나콰다 기반 액체 연료 Mk II를 보유할 수 있습니다.%n%n§3어머니선은 1500kg의 고정 중량으로 설정되어 있습니다. 그래서 크고 화려한 우주선을 디자인하고자하는 욕구를 자유롭게 표현하세요. 필요한 엔진의 수는 동일하게 유지됩니다.
+betterquesting.quest.OaE5CLFfQ8CNDmlmBWB6ZA.desc=로켓 엔진은 모선을 가속시키는 데 필요합니다. 각 로켓 엔진은 하나의 로켓 엔진 제트와 1~10개의 로켓 엔진 베이스 블록으로 구성되며, 이들은 세로로 배치됩니다. 각 로켓 엔진 베이스는 2MN의 힘을 제공하고, 최대 10,000L의 나콰다 기반 액체 연료 Mk II를 보유할 수 있습니다.%n%n[note]모선은 1500kg의 고정 중량으로 설정되어 있습니다. 그러니 부담없이 자유롭게 화려한 우주선을 디자인 해보세요. 필요한 엔진의 수는 동일하게 유지됩니다.[/note]
 
 # Quest: A T0 Rocket? What?
 betterquesting.quest.Oiy66UDmTVeZ95pN0yunBg.name=T0 로켓이라고요? 뭐죠?
