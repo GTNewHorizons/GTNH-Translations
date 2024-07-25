@@ -790,31 +790,31 @@ for.jubilance.resource=養蜂箱の下に%sが必要
 
 # BEES
 for.errors.isRaining.desc=雨
-for.errors.isRaining.help=雨の中で活動できるのは雨耐性の蜂だけです。
+for.errors.isRaining.help=雨の中で活動できるのは雨耐性を持つ蜂だけです。
 for.errors.noDrone.desc=雄蜂なし
-for.errors.noDrone.help=交配には雄蜂が必要です。
+for.errors.noDrone.help=交配には《雄蜂／Drone》が必要です。
 for.errors.noFlower.desc=花なし
-for.errors.noFlower.help=蜂が適切な花を見つけられていません。蜂分析器を使って花の好みを確認しましょう。
+for.errors.noFlower.help=蜂が適切な花を見つけられていません。《蜂分析器／Beealyzer》を使って花の好みを確認しましょう。
 for.errors.noQueen.desc=女王蜂なし
-for.errors.noQueen.help=巣に女王蜂、または王女蜂と雄蜂を補給してください。
+for.errors.noQueen.help=巣に《女王蜂／Queen》、または《王女蜂／Princess》と《雄蜂／Drone》を配置してください。
 for.errors.noSky.desc=空に障害物あり
 for.errors.noSky.help=この巣は上から直射日光を受ける必要があります。
 for.errors.notDay.desc=日中ではない
-for.errors.notDay.help=この蜂は日中しか活動できません。
+for.errors.notDay.help=この蜂は日中でしか活動できません。
 for.errors.notGloomy.desc=暗さ不足
 for.errors.notGloomy.help=この蜂は暗闇でしか活動できません。
 for.errors.notLucid.desc=明るさ不足
 for.errors.notLucid.help=この蜂は暗闇の中を飛ぶのが苦手です。
 for.errors.notNight.desc=夜間ではない
-for.errors.notNight.help=この蜂は夜間しか活動できません。
+for.errors.notNight.help=この蜂は夜間にしか活動できません。
 for.errors.tooHot.desc=暑すぎ
-for.errors.tooHot.help=蜂がこの暑さでだらけてしまい働くことができません。活動環境探知器を使って涼しい気候を探しましょう。
+for.errors.tooHot.help=蜂がこの暑さでだらけてしまい働くことができません。《活動環境探知器／Habitat Locator》を使って涼しい気候を探しましょう。
 for.errors.tooCold.desc=寒すぎ
-for.errors.tooCold.help=蜂がこの凍えるような寒さのなか生き延びるために身を寄せ合っています。動環境探知器を使って暖かい気候を探しましょう。
+for.errors.tooCold.help=蜂がこの凍えるような寒さのなか生き延びるために身を寄せ合っています。《活動環境探知器／Habitat Locator》を使って暖かい気候を探しましょう。
 for.errors.tooHumid.desc=多湿すぎ
-for.errors.tooHumid.help=ここの気候のせいで、湿気が多すぎて蜂が飛べません。活動環境探知器を使って乾燥した気候を探しましょう。
+for.errors.tooHumid.help=この気候のせいで、湿気が多すぎて蜂が飛べません。《活動環境探知器／Habitat Locator》を使って乾燥した気候を探しましょう。
 for.errors.tooArid.desc=乾燥しすぎ
-for.errors.tooArid.help=ここの気候のせいで、蜂が干からびて活動できなくなっています。活動環境探知器を使って湿った気候を探しましょう。
+for.errors.tooArid.help=この気候のせいで、蜂が干からびて活動できなくなっています。《活動環境探知器／Habitat Locator》を使って湿った気候を探しましょう。
 
 # MACHINES
 for.errors.noPower.desc=エネルギーなし
@@ -841,16 +841,16 @@ for.errors.notDark.help=動作にはより暗い環境が必要です。
 # RAIN TANK
 for.errors.notRaining.desc=降雨なし
 for.errors.notRaining.help=雨が降っているときのみ動作します。
-for.errors.noRainBiome.desc=絶対に雨が降らない
+for.errors.noRainBiome.desc=雨が降らない
 for.errors.noRainBiome.help=この場所では雨が降りません。
 for.errors.noSkyRainTank.desc=空に障害物あり
 for.errors.noSkyRainTank.help=雨を集めるため、この機械の上の領域を空けてください。
 
 # ALYZERS
 for.errors.noHoney.desc=ハチミツが必要
-for.errors.noHoney.help=この機器の動作にはハチミツの滴かハニーデューが必要です。
+for.errors.noHoney.help=この機器の動作には《ハチミツの滴／Honey Drop》か《ハニーデュー／Honeydew》が必要です。
 for.errors.noSpecimen.desc=分析対象なし
-for.errors.noSpecimen.help=分析する標本を入れてください。
+for.errors.noSpecimen.help=分析する対象を入れてください。
 
 # ENGINES
 for.errors.forcedCooldown.desc=強制クールダウン
@@ -864,7 +864,7 @@ for.errors.noHeat.help=このエンジンの稼働には熱源が必要です。
 
 # TRADE STATION
 for.errors.noStamps.desc=切手が必要
-for.errors.noStamps.help=交易ステーションでは、送料の支払いに切手が必要です。
+for.errors.noStamps.help=交易ステーションでは、送料の支払いに《切手／Stamp》が必要です。
 for.errors.noPaper.desc=紙が必要
 for.errors.noPaper.help=交易ステーションでは、手紙を送るのに紙が必要です。
 for.errors.noSupplies.desc=在庫が必要
@@ -882,13 +882,13 @@ for.errors.notUnique.help=交易ステーションの名称は固有のもので
 for.errors.noRecipient.desc=受領者なし
 for.errors.noRecipient.help=手紙を送るには宛名を書く必要があります。
 for.errors.notPostpaid.desc=切手が必要
-for.errors.notPostpaid.help=送料の支払いのため切手を貼ってください。
+for.errors.notPostpaid.help=送料の支払いのため《切手／Stamp》を貼ってください。
 
 # CIRCUIT BOARDS
 for.errors.circuitMismatch.desc=レイアウトの不一致
 for.errors.circuitMismatch.help=電子管の数と回路基板の大きさが一致していません。
 for.errors.noCircuitBoard.desc=基板なし
-for.errors.noCircuitBoard.help=選択した電子管をはんだ付けするための回路基板を挿入してください。
+for.errors.noCircuitBoard.help=選択した電子管をはんだ付けするための《回路基板／Circuit Board》を挿入してください。
 for.errors.noCircuitLayout.desc=レイアウトなし
 for.errors.noCircuitLayout.help=現在のゲーム設定により、利用可能なレイアウトがありません。
 
@@ -896,7 +896,7 @@ for.errors.noCircuitLayout.help=現在のゲーム設定により、利用可能
 for.errors.noFarmland.desc=農地の土台なし
 for.errors.noFarmland.help=農場の土台となる、滑らかな砂岩、レンガ、または石レンガを設置してください。
 for.errors.noFertilizer.desc=無機肥料なし
-for.errors.noFertilizer.help=農場の稼働には無機肥料が必要です。堆肥では不十分です。
+for.errors.noFertilizer.help=農場の稼働には《無機肥料／Fertilizer》が必要です。堆肥では不十分です。
 for.errors.noLiquid.desc=水なし
 for.errors.noLiquid.help=降水、温度、湿度に応じて、農場に必要な量の水を供給してください。
 
@@ -906,7 +906,7 @@ for.errors.invalidBiome.help=このバイオームでは機械を動かせませ
 for.errors.noDisposal.desc=廃棄物が処理できない
 for.errors.noDisposal.help=廃棄物を処理するための空間が不十分です。
 for.errors.unknown.desc=不明なエラー
-for.errors.unknown.help=おめでとうございます、不具合を発見しましたね。
+for.errors.unknown.help=おめでとうございます！不具合を発見しましたね。
 for.errors.wrongStacksize.desc=アイテムが多すぎる
 for.errors.wrongStacksize.help=ここでは1つのアイテムしか使用できません。
 
