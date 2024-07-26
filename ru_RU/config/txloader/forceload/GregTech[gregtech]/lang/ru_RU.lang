@@ -17,12 +17,12 @@ GT5U.autoplace.error.no_mte.class_name=§cSuggested to place machine with class 
 
 # Multiblock Tooltip Builder Keywords
 # Context can be found in the class gregtech.api.util.GT_Multiblock_Tooltip_Builder
-GT5U.MBTT.MachineType=Machine Type
+GT5U.MBTT.MachineType=Тип механизма
 GT5U.MBTT.Dimensions=Размеры
 GT5U.MBTT.Hollow=(Hollow)
 GT5U.MBTT.Structure=Структура
-GT5U.MBTT.Controller=Controller
-GT5U.MBTT.Minimum=(minimum)
+GT5U.MBTT.Controller=Контроллер
+GT5U.MBTT.Minimum=(минимум)
 GT5U.MBTT.Tiered=(tiered)
 GT5U.MBTT.MaintenanceHatch=Люк техобслуживания
 GT5U.MBTT.MufflerHatch=Выхлопная система
@@ -65,7 +65,7 @@ GT5U.PA.discount=Discount
 GT5U.PA.parallel=Parallel processing
 
 GT5U.LHE.steam=(in steam)
-GT5U.LHE.superheated=Superheated
+GT5U.LHE.superheated=Перегретый
 GT5U.LHE.threshold=threshold
 
 GT5U.fusion.req=EU Required
@@ -93,7 +93,7 @@ GT5U.MS.multismelting=Multi smelting
 
 # Machine types
 gt.recipe.alloysmelter=Плавильная печь
-gt.recipe.alloysmelter.description=HighTech combination Smelter
+gt.recipe.alloysmelter.description=Комбинированная высокотехнологичная плавильня
 gt.recipe.arcfurnace=Дуговая печь
 gt.recipe.arcfurnace.description=
 gt.recipe.assembler=Сборочная установка
@@ -119,7 +119,7 @@ gt.recipe.compressor.description=Сожми до черной дыры C77
 gt.recipe.cuttingsaw=Режущий станок
 gt.recipe.cuttingsaw.description=Slice'N Dice
 gt.recipe.distillery=Дестилятор
-gt.recipe.distillery.description=Extracting the most relevant Parts of Fluids
+gt.recipe.distillery.description=Извлечение наиболее важных частей жидкостей
 gt.recipe.furnace=Печь
 gt.recipe.furnace.description=Не без помощи 64 битного Коммодора
 gt.recipe.electrolyzer=Электролизёр
@@ -147,7 +147,7 @@ gt.recipe.fluidheater.description=Heating up your Fluids
 gt.recipe.laserengraver=Лазерный гравировщик
 gt.recipe.laserengraver.description=Don't look directly at the Laser
 gt.recipe.lathe=Токарный станок
-gt.recipe.lathe.description=Produces Rods more efficiently
+gt.recipe.lathe.description=Производит стержни еще эффективнее
 gt.recipe.macerator=Дробитель
 gt.recipe.macerator.description=Измельчитель ваших руд
 gt.recipe.macerator_pulverizer=Дробитель/Измельчитель
@@ -163,7 +163,7 @@ gt.recipe.mixer.description=Will it Blend?
 gt.recipe.orewasher=Рудопромывочная машина
 gt.recipe.orewasher.description=Получение большего количества побочных продуктов из ваших руд
 gt.recipe.oven=Печь
-gt.recipe.oven.description=Just a Furnace with a different Design
+gt.recipe.oven.description=Просто печь с другим дизайном
 gt.recipe.packager=Упаковщик
 gt.recipe.packager.description="Puts things into Boxes"
 gt.recipe.plasmaarcfurnace=Плазменная дуговая печь
@@ -189,7 +189,7 @@ gt.recipe.thermalcentrifuge.description=Separating Ores more precisely
 gt.recipe.unpackager=Распаковщик
 gt.recipe.unpackager.description=Grabs things out of Boxes
 gt.recipe.wiremill=Проволочный стан
-gt.recipe.wiremill.description=Produces Wires more efficiently
+gt.recipe.wiremill.description=Производит провода еще эффективнее
 
 # RecipeMaps that are not listed on MachineType enum
 gt.recipe.fakeAssemblylineProcess=Assemblyline Process
@@ -245,7 +245,7 @@ GT5U.machines.blocks=Blocks
 GT5U.machines.chunks=Chunks
 GT5U.machines.miner=Miner
 GT5U.machines.powersource.power=power
-GT5U.machines.powersource.steam=steam
+GT5U.machines.powersource.steam=пар
 GT5U.machines.pump=Помпа
 GT5U.machines.separatebus=Input buses are separated
 GT5U.machines.pumpareaset=Pumping area set to
@@ -597,7 +597,7 @@ GT5U.config.nei.RecipeOwnerStackTrace.tooltip=[requires reboot]
 GT5U.config.nei.OriginalVoltage=Show original voltage when overclocked
 GT5U.config.nei.recipe_categories=Recipe Categories
 GT5U.config.waila=Waila
-GT5U.config.waila.WailaTransformerVoltageTier=Show voltage tier of transformer
+GT5U.config.waila.WailaTransformerVoltageTier=Показать тир волтажа из трансформатора
 GT5U.config.waila.WailaAverageNS=Show average ns of multiblocks on waila
 
 # Cover tabs
@@ -680,7 +680,7 @@ achievement.hammertime=Hammertime
 achievement.hammertime.desc=Скрафтите Отбойный молоток
 achievement.repair=Repairs
 achievement.repair.desc=Скрафтите Разборщик
-achievement.unitool=Universal Tool
+achievement.unitool=Универсальный инструмент
 achievement.unitool.desc=Скрафтите Универсальную лопату
 achievement.recycling=Recycling
 achievement.recycling.desc=Создайте Дуговая печь
@@ -692,9 +692,9 @@ achievement.washing=Washing
 achievement.washing.desc=Get purified crushed ores
 achievement.spinit=Spin it
 achievement.spinit.desc=Get centrifuged ore
-achievement.newfuel=New Fuel
+achievement.newfuel=Новое топливо
 achievement.newfuel.desc=Скрафтите Ториевый топливный элемент
-achievement.newmetal=New Metal
+achievement.newmetal=Новый металл
 achievement.newmetal.desc=Сделай лютеций из ториевого топливного элемента
 achievement.reflect=Reflect
 achievement.reflect.desc=Создайте иридиевый отражатель нейтронов
@@ -1321,7 +1321,7 @@ for.bees.species.enderman=Эндермен
 for.bees.species.silverfish=Чешуйница
 
 for.mutation.condition.biomeid=Требуемый биом
-for.mutation.condition.dim=Required Dimension
+for.mutation.condition.dim=Необходимое измерение
 
 itemGroup.GTtools=Prebuild Tools
 
@@ -1473,7 +1473,7 @@ gt.locker.waila_armor_slot_charged=Slot %s: §e%s§r (%s%s%%§r)
 
 gt.db.metrics_cover.coords=§a%s§r, §a%s§r, §a%s§r
 
-gt.item.adv_sensor_card.dimension=Dimension: §a%s
+gt.item.adv_sensor_card.dimension=Измерение: §a%s
 gt.item.adv_sensor_card.coords=Coordinates: %s
 gt.item.adv_sensor_card.tooltip.recipe_hint=Created by attaching a Metrics Transmitter cover, no standard recipe
 gt.item.adv_sensor_card.tooltip.fried.1=§o§dThis thing looks completely fried...
