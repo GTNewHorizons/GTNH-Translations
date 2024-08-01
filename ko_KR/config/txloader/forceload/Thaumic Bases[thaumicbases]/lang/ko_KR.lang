@@ -7,7 +7,7 @@ enchantment.magicTouch=마법에 걸린
 enchantment.tainted=Tainted
 enchantment.vaporising=기화
 tb.rec.enchantments.magictouched=Magic Touched가 인첸드된 무기를 사용하면 살해된 생물에게서 더 많은 위상 구체가 떨어집니다.
-tb.rec.enchantments.vaporising=Weapons enchanted with Vaporising enchantment have a chance to drop corresponding crystallised essentia of creatures slain by it.
+tb.rec.enchantments.vaporising=증발 마법이 부여된 무기는 해당 무기로 죽인 생물의 결정화된 에센시아를 떨어뜨릴 확률이 있습니다.
 
 #blocks
 tile.quicksilverBlock.name=수은 블록
@@ -52,21 +52,21 @@ tile.TBoldCobblestone.name=고대 조약돌
 tile.TBoldGravel.name=고대 자갈
 tile.TBoldCobblestoneMossy.name=고대 이끼 낀 조약돌
 tile.advAlchFurnace.name=사우뮴 연금 화로
-tile.entityDeconstructor.name=Entity Deconstructor
-tile.TBoldIron.name=Ancient Iron Block
-tile.TBoldDiamond.name=Ancient Diamond Block
-tile.TBoldGold.name=Ancient Gold Block
-tile.TBoldLapis.name=Ancient Lapis Lazuli Block
-tile.TBoldBricks.name=Ancient Bricks
-tile.nodeManipulator.name=Node Manipulator
+tile.entityDeconstructor.name=엔티티 해체자
+tile.TBoldIron.name=고대 철 블록
+tile.TBoldDiamond.name=고대 다이아몬드 블록
+tile.TBoldGold.name=고대 금 블록
+tile.TBoldLapis.name=고대 청금석 블록
+tile.TBoldBricks.name=고대 벽돌
+tile.nodeManipulator.name=노드 조작기
 
-tile.tb.slab.tile.TBoldLapis.name=Ancient Lapis Lazuli Slab
-tile.tb.slab.tile.TBoldIron.name=Ancient Iron Slab
-tile.tb.slab.tile.TBoldGold.name=Ancient Gold Slab
-tile.tb.slab.tile.TBoldDiamond.name=Ancient Diamond Slab
-tile.tb.slab.tile.TBoldCobblestone.name=Ancient Cobblestone Slab
-tile.tb.slab.tile.TBoldBricks.name=Ancient Brick Slab
-tile.tb.slab.tile.TBoldCobblestoneMossy.name=Ancient Mossy Cobblestone Slab
+tile.tb.slab.tile.TBoldLapis.name=고대 청금석 반 블록
+tile.tb.slab.tile.TBoldIron.name=고대 철 반 블록
+tile.tb.slab.tile.TBoldGold.name=고대 금 반 블록
+tile.tb.slab.tile.TBoldDiamond.name=고대 다이아몬드 반 블록
+tile.tb.slab.tile.TBoldCobblestone.name=고대 조약돌 반 블록
+tile.tb.slab.tile.TBoldBricks.name=고대 벽돌 반 블록
+tile.tb.slab.tile.TBoldCobblestoneMossy.name=고대 이끼낀 조약돌 반 블록
 tile.tb.slab.tile.eldritchArk.name=Gold Etched Obsidian Slab
 
 tile.tb.crystalslab.air.name=Air Crystal Slab
@@ -80,29 +80,29 @@ tile.tb.crystalslab.tainted.name=Tainted Crystal Slab
 
 tile.thaumicRelocator.name=Thaumic Relocator
 tile.tb.voidblock.name=Void metal Block
-tile.thaumicAnvil.intact.name=Thaumium Anvil
+tile.thaumicAnvil.intact.name=사우뮴 모루
 tile.thaumicAnvil.slightlyDamaged.name=Slightly Damaged Thaumium Anvil
 tile.thaumicAnvil.veryDamaged.name=Very Damaged Thaumium Anvil
-tile.voidAnvil.intact.name=Void metal Anvil
+tile.voidAnvil.intact.name=공허 금속 모루
 tile.voidAnvil.slightlyDamaged.name=Slightly Damaged Void metal Anvil
 tile.voidAnvil.veryDamaged.name=Very Damaged Void metal Anvil
 
 tile.peacefullTreeSapling.name=Peaceful Sapling
-tile.netherTreeSapling.name=Nether Sapling
-tile.enderTreeSapling.name=Ender Sapling
+tile.netherTreeSapling.name=네더 묘목
+tile.enderTreeSapling.name=엔더 묘목
 tile.peacefullTreeLog.name=Peaceful Wood
-tile.netherTreeLog.name=Nether Wood
-tile.enderTreeLog.name=Ender Wood
+tile.netherTreeLog.name=네더 나무
+tile.enderTreeLog.name=엔더 나무
 tile.peacefullTreeLeaves.name=Peaceful Leaves
-tile.netherTreeLeaves.name=Nether Leaves
-tile.enderTreeLeaves.name=Ender Leaves
-tile.enderPlanks.name=Ender Wood Planks
+tile.netherTreeLeaves.name=네더 나뭇잎
+tile.enderTreeLeaves.name=엔더 나뭇잎
+tile.enderPlanks.name=엔더 나무 판자
 
 #items
 item.resourcenuggetthauminite.name=Thauminite Nugget
 item.resourcethauminite.thauminite_ingot.name=Thauminite Ingot
-item.resourcethaumium_wand_core.name=Thaumium Wand Core
-item.resourcevoid_wand_core.name=Void Wand Core
+item.resourcethaumium_wand_core.name=사우뮴 완드 코어
+item.resourcevoid_wand_core.name=공허 완드 코어
 item.resourceaurelia_petal.name=Aurelia Petal
 
 item.thauminiteAxe.name=Thauminite Axe
@@ -179,41 +179,41 @@ item.nodeFoci.sinister.name=§eNode Manipulator Focus: Sinister
 item.nodeFoci.stability.name=§eNode Manipulator Focus: Stability
 item.nodeFoci.taint.name=§eNode Manipulator Focus: Taint
 
-item.tb.voidShears.name=Void Shears
+item.tb.voidShears.name=공허 가위
 item.tb.voidFAS.name=Flint and Void Steel
 
 #Researchs
-tc.research_name.TB.CRUCIBLE=Basic Alchemy
+tc.research_name.TB.CRUCIBLE=기본 연금술
 tc.research_text.TB.CRUCIBLE=Bubble and Boil
 
-tc.research_name.TB.AdvancedEntropy=Advanced Entropy Manufacturing
-tc.research_text.TB.AdvancedEntropy=Crucible grinding
+tc.research_name.TB.AdvancedEntropy=고급 엔트로피 조작
+tc.research_text.TB.AdvancedEntropy=도가니 연마
 tb.rec.advEntr.page.0=Alchemy offers much more than you can think of! Previously you could only use Entropy to break simple items. However, you have discovered a way to add entropy to more items, than just to the most mundane ones. There must be a way to make the process more efficient, but that opportunity requires more research.
 
 #Alchemy holds a lot of potential you've yet to explore
 
 
 tc.research_name.TB.MasterEntropy=Entropy Manufacturing Mastered!
-tc.research_text.TB.MasterEntropy=110% efficiency
+tc.research_text.TB.MasterEntropy=110% 효율
 tb.rec.mastEntr.page.0=And here it is! After making some more researching on those entropy manipulations you have mastered them - now you are able to receive 100% material cost for wool and sand, and 200% for blaze rods!
 
-tc.research_name.TB.StrongEntropy=Entropy Destruction
+tc.research_name.TB.StrongEntropy=엔트로피 파괴
 tc.research_text.TB.StrongEntropy=Can the crucible hammer?
 tb.rec.strEntr.page.0=You have discovered a way to apply extreme entropy to certain items using your crucible. This results in breaking of those items into their components. However, 100% efficiency is not achievable here.
 
-tc.research_name.TB.SimpleDublication=Simple Duplication
+tc.research_name.TB.SimpleDublication=간단한 복제
 tc.research_text.TB.SimpleDublication=Bubble, bubble, toil and double!
 tb.rec.simDup.page.0=You have managed to master the arts of alchemical duplication! Your idea was the ability to duplicate arrows, and it worked! However, you have also discovered a way to duplicate snowballs and, strangely enough, redstone.
 
-tc.research_name.TB.OreDestruction=Ore Destruction
-tc.research_text.TB.OreDestruction=Entropic processing
+tc.research_name.TB.OreDestruction=광석 파괴
+tc.research_text.TB.OreDestruction=엔트로피 처리
 tb.rec.oreDestr.page.0=Using your knowledge in Entropy and block destruction you have unlocked a way to process your ores, should you mine them using Silk Touch pickaxe. This requires more aspects - just Entropy is not enough, shards simply break if not fortified with Praecantatio essentia. The primal essentia of the processed ore is also required - otherwise the shards instantly boil in the crucible. This is the best you can achieve in your Entropy researching... for now...
 
-tc.research_name.TB.Amber=Making Amber
-tc.research_text.TB.Amber=Trapped in time
+tc.research_name.TB.Amber=엠버 제작
+tc.research_text.TB.Amber=시간에 갇히다
 tb.rec.amber.page.0=You have discovered a way to create amber by putting enough Vinculum together with some spruce in a crucible. Interesting enough, other types of trees seem too mundane for making amber out of them.
 
-tc.research_name.TB.DecoBlocks=Decorative Blocks
+tc.research_name.TB.DecoBlocks=장식 블록
 tc.research_text.TB.DecoBlocks=Fancy.
 tb.rec.decoBlocks.page.0=For a long time thaumaturges could only use Amber blocks as their decorations. The ability to increase the variety of decorations came recently - those are the latest decorations thaumaturges were up to:
 
@@ -225,7 +225,7 @@ tc.research_name.TB.SM=Salis Mundus Duplication
 tc.research_text.TB.SM=Is it even legit?
 tb.rec.sm.page.0=Your latest researches have lead you to a very interesting thought - Salis Mundus are created from Balanced Shard, which contains all primal aspects. Well, what if you give a crucible all those primal aspects and let Salis Mundus stay there for a bit? Well, on it's own it is not enough - the salis are too fragile and simply boil in a crucible, but after addition of Praecantatio to the crucible the Salis were strong enough to absorb the primals and after a mere second you were holding two piles of Salis Mundus!
 
-tc.research_name.TB.AlchemyRestoration=Alchemy Restoration
+tc.research_name.TB.AlchemyRestoration=연금술 회복
 tc.research_text.TB.AlchemyRestoration=A simple purification
 tb.rec.alcRest.page.0=You have discovered a way to make certain things more organised. By putting some blocks in a crucible together with some Ordo essentia they will take shape - for example, Gravel can be restored back to Cobblestone. Not like any Thaumaturge ever needs cobblestone, but still. Weirdly enough this discovery also applies to Packed Ice - but Ordo does no good here - Terra must be used instead.
 
