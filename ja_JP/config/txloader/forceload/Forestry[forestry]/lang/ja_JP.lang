@@ -568,7 +568,7 @@ item.for.diggerBag.name=採掘者のバックパック
 item.for.diggerBagT2.name=採掘者の強化バックパック
 
 item.for.fertilizerBio.name=堆肥
-item.for.fertilizerCompound.name=無機肥料
+item.for.fertilizerCompound.name=リン酸肥料
 item.for.foresterBag.name=木こりのバックパック
 item.for.foresterBagT2.name=木こりの強化バックパック
 
@@ -1396,7 +1396,7 @@ for.hints.farmgui.tag=土は左、種は右！
 for.hints.farmland.desc=滑らかな砂岩やレンガ、石レンガをマルチファームの構築に使用することができます。
 for.hints.farmland.tag=農場を構築しよう！
 for.hints.fertilizer.desc=全ての農場には無機肥料が必要になります。堆肥やマルチでは不十分です。
-for.hints.fertilizer.tag=無機肥料が必要！
+for.hints.fertilizer.tag=リン酸肥料が必要！
 for.hints.gearbox.desc=ギアボックスは、エンジンやケーブルから動力を受け取ることができます。
 for.hints.gearbox.tag=電気を送ろう！
 for.hints.hatch.desc=ハッチはパイプや導管と繋がり、搬入出を自動化できます。
@@ -1406,7 +1406,7 @@ for.hints.manualfarms.tag=手動農場！
 for.hints.valve.desc=全ての農場には水が必要になります。バルブから水を搬入することができます。
 for.hints.valve.tag=水を供給！
 
-for.trigger.lowFertilizer=無機肥料
+for.trigger.lowFertilizer=リン酸肥料
 for.trigger.lowLiquid=水タンク
 for.trigger.lowSoil=土壌
 
@@ -1712,7 +1712,7 @@ for.config.gamemode.recipe.output.fertilizer.apatite.comment=燐灰石から作�
 for.config.gamemode.recipe.output.fertilizer.ash.comment=灰から作成できる無機肥料の数を設定します。
 for.config.gamemode.recipe.output.compost.wheat.comment=小麦から作成できる堆肥の数を設定します。
 for.config.gamemode.recipe.output.compost.ash.comment=灰から作成できる堆肥の数を設定します。
-for.config.gamemode.recipe.output.humus.fertilizer.comment=無機肥料から作成できる腐葉土の数を設定します。
+for.config.gamemode.recipe.output.humus.fertilizer.comment=リン酸肥料から作成できる腐葉土の数を設定します。
 for.config.gamemode.recipe.output.humus.compost.comment=堆肥から作成できる腐葉土の数を設定します。
 for.config.gamemode.recipe.output.bogearth.bucket.comment=バケツから作成できる泥土の数を設定します。
 for.config.gamemode.recipe.output.bogearth.can.comment=缶、セル、カプセルから作成できる泥土の数を設定します。
@@ -1720,9 +1720,9 @@ for.config.gamemode.recipe.output.can.comment=缶の作成数を設定します�
 for.config.gamemode.recipe.output.capsule.comment=蜜蝋製カプセルの作成数を設定します。
 for.config.gamemode.recipe.output.refractory.comment=耐熱性カプセルの作成数を設定します。
 
-for.config.gamemode.fermenter.cycles.fertilizer.comment=無機肥料がバイオマス発酵槽を稼働させられるサイクル数を設定します。
+for.config.gamemode.fermenter.cycles.fertilizer.comment=リン酸肥料がバイオマス発酵槽を稼働させられるサイクル数を設定します。
 for.config.gamemode.fermenter.cycles.compost.comment=堆肥がバイオマス発酵槽を稼働させられるサイクル数を設定します。
-for.config.gamemode.fermenter.value.fertilizer.comment=無機肥料をバイオマス発酵槽に使用するときの1サイクル分のバイオマスの生産量を設定します。
+for.config.gamemode.fermenter.value.fertilizer.comment=リン酸肥料をバイオマス発酵槽に使用するときの1サイクル分のバイオマスの生産量を設定します。
 for.config.gamemode.fermenter.value.compost.comment=堆肥をバイオマス発酵槽に使用するときの1サイクル分のバイオマスの生産量を設定します。
 for.config.gamemode.fermenter.yield.sapling.comment=樹液量のデータを持つ苗木をバイオマス発酵槽に使用するときのバイオマスの基本生産量を設定します。
 for.config.gamemode.fermenter.yield.cactus.comment=バイオマス発酵槽にサボテンを入れたときのバイオマスの生産量を設定します。
