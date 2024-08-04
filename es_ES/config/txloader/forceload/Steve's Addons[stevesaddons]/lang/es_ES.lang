@@ -1,65 +1,65 @@
 #Item Localization
-item.duplicator.name=Manager Duplicator
-item.labeler.name=Factory Labeler
+item.duplicator.name=Duplicador de Gestores
+item.labeler.name=Nombrador de Factorías
 
-tile.cable_rf.name=RF Node
+tile.cable_rf.name=Nodo de RF
 tile.cable_ae.name=Energistics Connector
 
 
 
 
-gui.sfm.RfInputLong=RF Input
-gui.sfm.RfInputShort=RF Input
+gui.sfm.RfInputLong=Entrada de RF
+gui.sfm.RfInputShort=Entrada de RF
 
-gui.sfm.RfOutputLong=RF Output
-gui.sfm.RfOutputShort=RF Output
+gui.sfm.RfOutputLong=Salida de RF
+gui.sfm.RfOutputShort=Salida de RF
 
-gui.sfm.TypeRf=RF Storage
-gui.sfm.TypeRfInput=RF Provider
-gui.sfm.TypeRfOutput=RF Receiver
-gui.sfm.NoRfError=No RF Storage Selected
+gui.sfm.TypeRf=Almacenamiento de RF
+gui.sfm.TypeRfInput=Proveedor de RF
+gui.sfm.TypeRfOutput=Receptor de RF
+gui.sfm.NoRfError=No hay almacenamientos de RF seleccionados
 
-gui.sfm.CopyCommand=Copy [Drop Command Here]
+gui.sfm.CopyCommand=Copiar [Arroja un comando aquí]
 
-gui.sfm.RfConditionShort=RF Condition
-gui.sfm.RfConditionLong=RF Condition
-gui.sfm.RfConditionMenu=RF Level
-gui.sfm.RfConditionInfo=Set the trigger level in the text box, and trigger above or below
-gui.sfm.RfConditionError=Invalid trigger level
-gui.sfm.Below=Trigger low
+gui.sfm.RfConditionShort=Condición de RF
+gui.sfm.RfConditionLong=Condición de RF
+gui.sfm.RfConditionMenu=Nivel de RF
+gui.sfm.RfConditionInfo=Establece el nivel de activación en la casilla, y si se activará al estar por debajo o encima
+gui.sfm.RfConditionError=Nivel de activación inválido
+gui.sfm.Below=Activar por debajo
 
-gui.sfm.DelayOutput=Delayed Output
-gui.sfm.DelayTrigger=Delayed Trigger
-gui.sfm.DelayInfo=Set the delay in seconds, ticks before the trigger fires (minimum 5 ticks)
-gui.sfm.DelayError=Delay too low.
-gui.sfm.DelayRestart=Restart
-gui.sfm.DelayIgnore=Ignore
+gui.sfm.DelayOutput=Salida demorada
+gui.sfm.DelayTrigger=Activación demorada
+gui.sfm.DelayInfo=Establece la demora para la activación en segundos y ticks (mínimo 5 ticks)
+gui.sfm.DelayError=Demora muy corta
+gui.sfm.DelayRestart=Reiniciar
+gui.sfm.DelayIgnore=Ignorar
 
-stevesaddons.waila.labelled=Label: %s
-stevesaddons.idsucompat.isEmpty=Empty
-stevesaddons.idsucompat.contains=Contains: %s
+stevesaddons.waila.labelled=Etiqueta: %s
+stevesaddons.idsucompat.isEmpty=Vacío
+stevesaddons.idsucompat.contains=Contiene: %s
 
-stevesaddons.chat.cleared=Label cleared
-stevesaddons.chat.saved=Label set as "%s"
+stevesaddons.chat.cleared=Etiqueta borrada
+stevesaddons.chat.saved=Etiqueta establecida como "%s"
 
-stevesaddons.command.notFound=Command not found
-stevesaddons.command.noPermission=You not have permission to use this command
-stevesaddons.command.loadFailed=Loading failed
-stevesaddons.command.loadSuccess=Manager loaded from: %s
-stevesaddons.command.nothingToSave=Duplicator is empty
-stevesaddons.command.saveFailed=Save failed
-stevesaddons.command.noDuplicator=Command can only be applied to a Manager Duplicator
-stevesaddons.command.savedTo=Manager saved to: %s
-stevesaddons.command.copiedToClip=Pastebin link loaded onto clipboard
+stevesaddons.command.notFound=Comando no encontrado
+stevesaddons.command.noPermission=No tienes permiso para usar este comando
+stevesaddons.command.loadFailed=Ha fallado la carga
+stevesaddons.command.loadSuccess=Gestor cargado desde: %s
+stevesaddons.command.nothingToSave=El Duplicador se encuentra vacío
+stevesaddons.command.saveFailed=Ha fallado el guardado
+stevesaddons.command.noDuplicator=El comando solo puede ser aplicado a un Duplicador de Gestores
+stevesaddons.command.savedTo=Gestor guardado en: %s
+stevesaddons.command.copiedToClip=Se copió el enlace de Pastebin al portapapeles
 
-stevesaddons.command.info.help.start=Available commands are:
+stevesaddons.command.info.help.start=Los comandos disponibles son:
 stevesaddons.command.help.syntax=/stevesaddons help [command]
-stevesaddons.command.info.help=For help with all available commands.
-stevesaddons.command.info.load=Load the given filename to a held Duplicator.
+stevesaddons.command.info.help=Para más ayuda acerca de los comandos disponibles.
+stevesaddons.command.info.load=Carga el archivo al Duplicador que se encuentre en las manos del jugador.
 stevesaddons.command.load.syntax=/stevesaddons load <filename>
-stevesaddons.command.info.save=Saves the held Duplicator to a file with optional name (defaults to player's name + coordinates)
-stevesaddons.command.save.syntax=/stevesaddons save [filename]
-stevesaddons.command.info.pastebin=Put or get data between Pastebin and a held Duplicator.
+stevesaddons.command.info.save=Guarda el Duplicador que se encuentra en las manos del jugador a un archivo con nombre opcional (por defecto toma el nombre del jugador + las coordenadas actuales)
+stevesaddons.command.save.syntax=/stevesaddons save [nombre de archivo]
+stevesaddons.command.info.pastebin=Informa (put) u obtiene (get) datos entre Pastebin y el Duplicador en las manos.
 stevesaddons.command.pastebin.syntax=/stevesaddons pastebin {put | get <paste>}
-stevesaddons.command.info.clear=Clears a held Duplicator
+stevesaddons.command.info.clear=Vacía el Duplicador en las manos del jugador
 stevesaddons.command.clear.syntax=/stevesaddons clear
