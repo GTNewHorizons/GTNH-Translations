@@ -6,7 +6,7 @@ stat.blockChiseled=ノミでブロックを彫刻した回数
 #Entity localizations
 entity.chisel.snowman.name=スノウゴーレム
 
-item.chisel.nomobspawnsonthisblock.desc=このブロックの上にはMobがスポーンしない
+item.chisel.nomobspawnsonthisblock.desc=このブロックにはMobがスポーンしません
 
 #Item localizations
 item.chisel.chisel_iron.name=彫刻用ノミ
@@ -246,7 +246,7 @@ tile.thaumium.1.desc=トーテムの頭
 tile.thaumium.2.desc=レンガ
 tile.thaumium.3.desc=タイル
 tile.thaumium.4.desc=格子状
-tile.thaumium.5.desc=縁取り板材
+tile.thaumium.5.desc=縁取り木材
 
 #Tallow
 tile.chisel.tallow.name=獣脂ブロック
@@ -794,8 +794,8 @@ tile.iron.5.desc=鉄プレートブロック
 tile.iron.6.desc=リベット入り鉄プレートブロック
 tile.iron.7.desc=積み重なった上向きの鉄コイン
 tile.iron.8.desc=積み重なった下向きの鉄コイン
-tile.iron.9.desc=暗い板材の木箱
-tile.iron.10.desc=明るい板材の木箱
+tile.iron.9.desc=暗い木材の木箱
+tile.iron.10.desc=明るい木材の木箱
 tile.iron.11.desc=月の彫刻入り鉄ブロック
 tile.iron.12.desc=紫色がかった黒曜石に埋め込まれた月型の鉄
 tile.iron.13.desc=黒曜石に埋め込まれた月型の鉄
@@ -810,8 +810,8 @@ tile.gold.3.desc=細かい金レンガ
 tile.gold.4.desc=金のカート
 tile.gold.5.desc=積み重なった上向きの金コイン
 tile.gold.6.desc=積み重なった下向きの金コイン
-tile.gold.7.desc=暗い板材の木箱
-tile.gold.8.desc=明るい板材の木箱
+tile.gold.7.desc=暗い木材の木箱
+tile.gold.8.desc=明るい木材の木箱
 tile.gold.9.desc=金プレートブロック
 tile.gold.10.desc=リベット入り金プレートブロック
 tile.gold.11.desc=星の彫刻入り金ブロック
@@ -1079,12 +1079,12 @@ tile.obsidian.14.desc=ギリシャ風の彫刻入り黒曜石
 tile.obsidian.15.desc=上面がモザイク模様の細かい黒曜石タイルの木箱
 
 #Wood
-tile.chisel.oak_planks.name=オークの板材
-tile.chisel.birch_planks.name=シラカバの板材
-tile.chisel.spruce_planks.name=トウヒの板材
-tile.chisel.jungle_planks.name=ジャングルの板材
-tile.chisel.dark_oak_planks.name=ダークオークの板材
-tile.chisel.acacia_planks.name=アカシアの板材
+tile.chisel.oak_planks.name=オークの木材
+tile.chisel.birch_planks.name=シラカバの木材
+tile.chisel.spruce_planks.name=トウヒの木材
+tile.chisel.jungle_planks.name=ジャングルの木材
+tile.chisel.dark_oak_planks.name=ダークオークの木材
+tile.chisel.acacia_planks.name=アカシアの木材
 
 #Iron Fence
 tile.chisel.iron_bars.name=鉄格子
@@ -1416,106 +1416,106 @@ tile.laboratory.15.desc=情報表示
 
 #Planks (They go in order of creative tab appearance if that helps)
 #Oak
-tile.oak.planks.1.desc=磨かれたオークの板材
-tile.oak.planks.2.desc=短めのオークの板材
-tile.oak.planks.6.desc=おしゃれなオークの板材
+tile.oak.planks.1.desc=磨かれたオークの木材
+tile.oak.planks.2.desc=短めのオークの木材
+tile.oak.planks.6.desc=おしゃれなオークの木材
 tile.oak.planks.8.desc=オークのパネル
 tile.oak.planks.9.desc=重ねたオークのパネルのハーフブロック
 tile.oak.planks.10.desc=オークの木箱
 tile.oak.planks.11.desc=おしゃれなオークの木箱
-tile.oak.planks.13.desc=大きいオークの板材
-tile.oak.planks.3.desc=縦向きのオークの板材
-tile.oak.planks.4.desc=むらがある縦向きのオークの板材
+tile.oak.planks.13.desc=大きいオークの木材
+tile.oak.planks.3.desc=縦向きのオークの木材
+tile.oak.planks.4.desc=むらがある縦向きのオークの木材
 tile.oak.planks.5.desc=オークの寄せ木細工
 tile.oak.planks.7.desc=オークの日避け
 tile.oak.planks.12.desc=オークの足場
-tile.oak.planks.14.desc=不揃いなオークの板材
-tile.oak.planks.15.desc=不揃いな縦向きのオークの板材
+tile.oak.planks.14.desc=不揃いなオークの木材
+tile.oak.planks.15.desc=不揃いな縦向きのオークの木材
 
 #Spruce
-tile.spruce.planks.1.desc=磨かれたトウヒの板材
-tile.spruce.planks.2.desc=短めのトウヒの板材
-tile.spruce.planks.6.desc=おしゃれなトウヒの板材
+tile.spruce.planks.1.desc=磨かれたトウヒの木材
+tile.spruce.planks.2.desc=短めのトウヒの木材
+tile.spruce.planks.6.desc=おしゃれなトウヒの木材
 tile.spruce.planks.8.desc=トウヒのパネル
 tile.spruce.planks.9.desc=重ねたトウヒのパネルのハーフブロック
 tile.spruce.planks.10.desc=トウヒの木箱
 tile.spruce.planks.11.desc=おしゃれなトウヒの木箱
-tile.spruce.planks.13.desc=大きいトウヒの板材
-tile.spruce.planks.3.desc=縦向きのトウヒの板材
-tile.spruce.planks.4.desc=むらがある縦向きのトウヒの板材
+tile.spruce.planks.13.desc=大きいトウヒの木材
+tile.spruce.planks.3.desc=縦向きのトウヒの木材
+tile.spruce.planks.4.desc=むらがある縦向きのトウヒの木材
 tile.spruce.planks.5.desc=トウヒの寄せ木細工
 tile.spruce.planks.7.desc=トウヒの日避け
 tile.spruce.planks.12.desc=トウヒの足場
-tile.spruce.planks.14.desc=不揃いなトウヒの板材
-tile.spruce.planks.15.desc=不揃いな縦向きのトウヒの板材
+tile.spruce.planks.14.desc=不揃いなトウヒの木材
+tile.spruce.planks.15.desc=不揃いな縦向きのトウヒの木材
 
 #Birch
-tile.birch.planks.1.desc=磨かれたシラカバの板材
-tile.birch.planks.2.desc=短めのシラカバの板材
-tile.birch.planks.6.desc=おしゃれなシラカバの板材
+tile.birch.planks.1.desc=磨かれたシラカバの木材
+tile.birch.planks.2.desc=短めのシラカバの木材
+tile.birch.planks.6.desc=おしゃれなシラカバの木材
 tile.birch.planks.8.desc=シラカバのパネル
 tile.birch.planks.9.desc=重ねたシラカバのパネルのハーフブロック
 tile.birch.planks.10.desc=シラカバの木箱
 tile.birch.planks.11.desc=おしゃれなシラカバの木箱
-tile.birch.planks.13.desc=大きいシラカバの板材
-tile.birch.planks.3.desc=縦向きのシラカバの板材
-tile.birch.planks.4.desc=むらがある縦向きのシラカバの板材
+tile.birch.planks.13.desc=大きいシラカバの木材
+tile.birch.planks.3.desc=縦向きのシラカバの木材
+tile.birch.planks.4.desc=むらがある縦向きのシラカバの木材
 tile.birch.planks.5.desc=シラカバの寄せ木細工
 tile.birch.planks.7.desc=シラカバの日避け
 tile.birch.planks.12.desc=シラカバの足場
-tile.birch.planks.14.desc=不揃いなシラカバの板材
-tile.birch.planks.15.desc=不揃いな縦向きのシラカバの板材
+tile.birch.planks.14.desc=不揃いなシラカバの木材
+tile.birch.planks.15.desc=不揃いな縦向きのシラカバの木材
 
 #Jungle
-tile.jungle.planks.1.desc=磨かれたジャングルの板材
-tile.jungle.planks.2.desc=短めのジャングルの板材
-tile.jungle.planks.6.desc=おしゃれなジャングルの板材
+tile.jungle.planks.1.desc=磨かれたジャングルの木材
+tile.jungle.planks.2.desc=短めのジャングルの木材
+tile.jungle.planks.6.desc=おしゃれなジャングルの木材
 tile.jungle.planks.8.desc=ジャングルのパネル
 tile.jungle.planks.9.desc=重ねたジャングルのパネルのハーフブロック
 tile.jungle.planks.10.desc=ジャングルの木箱
 tile.jungle.planks.11.desc=おしゃれなジャングルの木箱
-tile.jungle.planks.13.desc=大きいジャングルの板材
-tile.jungle.planks.3.desc=縦向きのジャングルの板材
-tile.jungle.planks.4.desc=むらがある縦向きのジャングルの板材
+tile.jungle.planks.13.desc=大きいジャングルの木材
+tile.jungle.planks.3.desc=縦向きのジャングルの木材
+tile.jungle.planks.4.desc=むらがある縦向きのジャングルの木材
 tile.jungle.planks.5.desc=ジャングルの寄せ木細工
 tile.jungle.planks.7.desc=ジャングルの日避け
 tile.jungle.planks.12.desc=ジャングルの足場
-tile.jungle.planks.14.desc=不揃いなジャングルの板材
-tile.jungle.planks.15.desc=不揃いな縦向きのジャングルの板材
+tile.jungle.planks.14.desc=不揃いなジャングルの木材
+tile.jungle.planks.15.desc=不揃いな縦向きのジャングルの木材
 
 #Acacia
-tile.acacia.planks.1.desc=磨かれたアカシアの板材
-tile.acacia.planks.2.desc=短めのアカシアの板材
-tile.acacia.planks.6.desc=おしゃれなアカシアの板材
+tile.acacia.planks.1.desc=磨かれたアカシアの木材
+tile.acacia.planks.2.desc=短めのアカシアの木材
+tile.acacia.planks.6.desc=おしゃれなアカシアの木材
 tile.acacia.planks.8.desc=アカシアのパネル
 tile.acacia.planks.9.desc=重ねたアカシアのパネルのハーフブロック
 tile.acacia.planks.10.desc=アカシアの木箱
 tile.acacia.planks.11.desc=おしゃれなアカシアの木箱
-tile.acacia.planks.13.desc=大きいアカシアの板材
-tile.acacia.planks.3.desc=縦向きのアカシアの板材
-tile.acacia.planks.4.desc=むらがある縦向きのアカシアの板材
+tile.acacia.planks.13.desc=大きいアカシアの木材
+tile.acacia.planks.3.desc=縦向きのアカシアの木材
+tile.acacia.planks.4.desc=むらがある縦向きのアカシアの木材
 tile.acacia.planks.5.desc=アカシアの寄せ木細工
 tile.acacia.planks.7.desc=アカシアの日避け
 tile.acacia.planks.12.desc=アカシアの足場
-tile.acacia.planks.14.desc=不揃いなアカシアの板材
-tile.acacia.planks.15.desc=不揃いな縦向きのアカシアの板材
+tile.acacia.planks.14.desc=不揃いなアカシアの木材
+tile.acacia.planks.15.desc=不揃いな縦向きのアカシアの木材
 
 #Dark Oak
-tile.dark-oak.planks.1.desc=磨かれたダークオークの板材
-tile.dark-oak.planks.2.desc=短めのダークオークの板材
-tile.dark-oak.planks.6.desc=おしゃれなダークオークの板材
+tile.dark-oak.planks.1.desc=磨かれたダークオークの木材
+tile.dark-oak.planks.2.desc=短めのダークオークの木材
+tile.dark-oak.planks.6.desc=おしゃれなダークオークの木材
 tile.dark-oak.planks.8.desc=ダークオークのパネル
 tile.dark-oak.planks.9.desc=重ねたダークオークのパネルのハーフブロック
 tile.dark-oak.planks.10.desc=ダークオークの木箱
 tile.dark-oak.planks.11.desc=おしゃれなダークオークの木箱
-tile.dark-oak.planks.13.desc=大きいダークオークの板材
-tile.dark-oak.planks.3.desc=縦向きのダークオークの板材
-tile.dark-oak.planks.4.desc=むらがある縦向きのダークオークの板材
+tile.dark-oak.planks.13.desc=大きいダークオークの木材
+tile.dark-oak.planks.3.desc=縦向きのダークオークの木材
+tile.dark-oak.planks.4.desc=むらがある縦向きのダークオークの木材
 tile.dark-oak.planks.5.desc=ダークオークの寄せ木細工
 tile.dark-oak.planks.7.desc=ダークオークの日避け
 tile.dark-oak.planks.12.desc=ダークオークの足場
-tile.dark-oak.planks.14.desc=不揃いなダークオークの板材
-tile.dark-oak.planks.15.desc=不揃いな縦向きのダークオークの板材
+tile.dark-oak.planks.14.desc=不揃いなダークオークの木材
+tile.dark-oak.planks.15.desc=不揃いな縦向きのダークオークの木材
 
 #Stained Glass
 white.bubble.desc=白色の泡入りガラス
@@ -1730,7 +1730,7 @@ black.pane.glass.fancyquadrant.desc=黒色のおしゃれな細かいガラス
 #Creative Tab localizations
 itemGroup.tabOtherChiselBlocks=その他の彫刻されたブロック
 itemGroup.tabStoneChiselBlocks=石材の彫刻されたブロック
-itemGroup.tabWoodChiselBlocks=板材の彫刻されたブロック
+itemGroup.tabWoodChiselBlocks=木材の彫刻されたブロック
 itemGroup.tabMetalChiselBlocks=金属の彫刻されたブロック
 itemGroup.tabModdedChiselBlocks=他Modの彫刻されたブロック
 itemGroup.tabStairChiselBlocks=彫刻された階段

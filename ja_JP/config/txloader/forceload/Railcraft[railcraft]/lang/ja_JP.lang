@@ -1,50 +1,50 @@
-chat.railcraft.api.error=エラー : APIが古いです、詳細はログを見てください。
+chat.railcraft.api.error=エラー: APIが古いです、詳細はログを参照してください。
 
-command.railcraft.aliases=エイリアス : %s
-command.railcraft.help=「%s」と入力してヘルプを表示します。
-command.railcraft.list=利用可能なサブコマンド :
-command.railcraft.permlevel=権限レベル : %s
+command.railcraft.aliases=エイリアス: %s
+command.railcraft.help='%s' と入力してヘルプを表示します。
+command.railcraft.list=利用可能なサブコマンド:
+command.railcraft.permlevel=権限レベル: %s
 command.railcraft.noperms=このコマンドの使用は許可されていません。
 
 command.railcraft.railcraft.help=Railcraftのコマンド
-command.railcraft.railcraft.format=形式 : /%s <サブコマンド>
+command.railcraft.railcraft.format=形式: /%s <サブコマンド>
 
-command.railcraft.railcraft.admin.desc=- %s : 管理者用ツール
-command.railcraft.railcraft.admin.help=管理者用のツールです。
-command.railcraft.railcraft.admin.format=形式 : /%s
+command.railcraft.railcraft.admin.desc=- %s: 管理者用ツール
+command.railcraft.railcraft.admin.help=管理者用のコマンドです。
+command.railcraft.railcraft.admin.format=形式: /%s
 
-command.railcraft.railcraft.admin.kill.desc=- %s : エンティティの消去
-command.railcraft.railcraft.admin.kill.help=様々なエンティティを消去するツールです。
-command.railcraft.railcraft.admin.kill.format=形式 : /%s
+command.railcraft.railcraft.admin.kill.desc=- %s: エンティティの消去
+command.railcraft.railcraft.admin.kill.help=様々なエンティティを消去するコマンドです。
+command.railcraft.railcraft.admin.kill.format=形式: /%s
 
-command.railcraft.railcraft.admin.kill.animals.desc=- %s : 動物の消去
+command.railcraft.railcraft.admin.kill.animals.desc=- %s: 動物の消去
 command.railcraft.railcraft.admin.kill.animals.help=この世界にいる全ての動物を消去します。
-command.railcraft.railcraft.admin.kill.animals.format=形式 : /%s
+command.railcraft.railcraft.admin.kill.animals.format=形式: /%s
 
 command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : トロッコの消去
-command.railcraft.railcraft.admin.kill.minecarts.help=この世界にいる全てのトロッコを消去します。
-command.railcraft.railcraft.admin.kill.minecarts.format=形式 : /%s
+command.railcraft.railcraft.admin.kill.minecarts.help=この世界に存在する全てのトロッコを消去します。
+command.railcraft.railcraft.admin.kill.minecarts.format=形式: /%s
 
-command.railcraft.railcraft.debug.desc=- %s : デバッグ用ツール
+command.railcraft.railcraft.debug.desc=- %s: デバッグツール
 command.railcraft.railcraft.debug.help=複雑な問題を解決するためのデバッグ用ツールです。
-command.railcraft.railcraft.debug.format=形式 : /%s
+command.railcraft.railcraft.debug.format=形式: /%s
 
-command.railcraft.railcraft.debug.tile.desc=- %s : タイルのデバッグ
-command.railcraft.railcraft.debug.tile.help=タイルのデバッグをします。
-command.railcraft.railcraft.debug.tile.format=形式 : /%s x y z
+command.railcraft.railcraft.debug.tile.desc=- %s: タイルのデバッグ
+command.railcraft.railcraft.debug.tile.help=タイルのデバッグを行います。
+command.railcraft.railcraft.debug.tile.format=形式: /%s x y z
 
-command.railcraft.railcraft.debug.tile.controller.desc=- %s : 送信機デバッグツール
-command.railcraft.railcraft.debug.tile.controller.help=送信機のデバッグをします。
-command.railcraft.railcraft.debug.tile.controller.format=形式 : /%s x y z
+command.railcraft.railcraft.debug.tile.controller.desc=- %s: 送信器デバッグツール
+command.railcraft.railcraft.debug.tile.controller.help=送信機のデバッグを行います。
+command.railcraft.railcraft.debug.tile.controller.format=形式: /%s x y z
 
-command.railcraft.railcraft.debug.tile.receiver.desc=- %s : 受信機デバッグツール
-command.railcraft.railcraft.debug.tile.receiver.help=受信機のデバッグをします。
-command.railcraft.railcraft.debug.tile.receiver.format=形式 : /%s x y z
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : 受信器デバッグツール
+command.railcraft.railcraft.debug.tile.receiver.help=受信機のデバッグを行います。
+command.railcraft.railcraft.debug.tile.receiver.format=形式: /%s x y z
 
 death.railcraft.bore.1=%sはシールドマシンの進路に飛び出した
-death.railcraft.bore.2=%sはシールドマシンを停止させようとした
+death.railcraft.bore.2=%sはシールドマシンを停止させたかった
 death.railcraft.bore.3=%sはシールドマシンに巻き込まれた
-death.railcraft.bore.4=%sはジョン・ヘンリーよりも優れていると過信した
+death.railcraft.bore.4=%sはジョン・ヘンリーよりも優れていると過信していた
 death.railcraft.bore.5=%sは岩と機械の間で押しつぶされた
 death.railcraft.bore.6=%sはシールドマシンの進路を知らなかった
 
@@ -52,7 +52,7 @@ death.railcraft.crusher.1=%sは重機の近くで足を滑らせた
 death.railcraft.crusher.2=%sはスーパーマンでは無かったので、砕石機に粉々にされてしまった
 death.railcraft.crusher.3=%sは砕石機の奥深くを見つめ、そのまま落ちてしまった
 death.railcraft.crusher.4=%sの後継者が必要になってしまった
-death.railcraft.crusher.5=%sは「足元注意！」の警告表示を無視した
+death.railcraft.crusher.5=%sは"足元注意！"の警告表示を無視した
 death.railcraft.crusher.6=%sの血液ゼリーが発売中！
 death.railcraft.crusher.7=%sはペースト状になった
 death.railcraft.crusher.8=%sは説明書を読むべきだった
@@ -61,21 +61,21 @@ death.railcraft.steam.1=%sはこんがりと美味しそうに焼けた
 death.railcraft.steam.2=%sが着ていた耐熱服は、広告通りの効果を発揮しなかった
 death.railcraft.steam.3=%sは蒸気がいかに危険であるかを思い知った
 death.railcraft.steam.4=%sは労災に巻き込まれた
-death.railcraft.steam.5=%sは安易に近づくべきだはなかった
+death.railcraft.steam.5=%sは安易に近づくべきではなかった
 death.railcraft.steam.6=%sはサウナの代わりになるものを見つけた
 
 death.railcraft.track.electric.1=%sは電気レールに向かって立ちションした
-death.railcraft.track.electric.2=%sは「高電圧」の意味を再確認した
-death.railcraft.track.electric.3=%sの脳内の電球が光り輝いた
+death.railcraft.track.electric.2=%sは"高電圧"の意味を理解した
+death.railcraft.track.electric.3=%sの脳内に電球が光り輝いた
 death.railcraft.track.electric.4=%sは第三のレールに殺された
 death.railcraft.track.electric.5=%sは痺れるほどの衝撃を受けた
-death.railcraft.track.electric.6=%sは「電気は危ない！」ということを学んだ
+death.railcraft.track.electric.6=%sは"電気は危ない！"ということを学んだ
 
 death.railcraft.train.1=%sは列車と衝突した
-death.railcraft.train.2=%sはレールの上で遊んでいた
+death.railcraft.train.2=%sはレールの上で遊んだ
 death.railcraft.train.3=%sはレール上でチキンレースをして、列車に轢かれてしまった
 death.railcraft.train.4=%sは駆け込み乗車をしようとした
-death.railcraft.train.5=%sはあの世への片道切符を購入した
+death.railcraft.train.5=%sはあの世への片道切符を手に入れた
 death.railcraft.train.6=%sはオーバーオールを着るべきだった
 
 enchantment.railcraft.crowbar.destruction=解体
@@ -131,7 +131,7 @@ item.railcraft.backpack.apothecary.t1.name=薬師のバックパック
 item.railcraft.backpack.apothecary.t2.name=薬師の強化バックパック
 item.railcraft.backpack.iceman.t1.name=氷屋のバックパック
 item.railcraft.backpack.iceman.t2.name=氷屋の強化バックパック
-item.railcraft.backpack.tip=設計 : Railcraft社
+item.railcraft.backpack.tip=設計: Railcraft, Inc.
 item.railcraft.backpack.trackman.t1.name=鉄道作業員のバックパック
 item.railcraft.backpack.trackman.t2.name=鉄道作業員の強化バックパック
 
@@ -181,15 +181,15 @@ item.railcraft.dust.sulfur.name=硫黄
 item.railcraft.emblem.name=紋章
 
 item.railcraft.firestone.cracked.name=ひび割れたファイヤーストーン
-item.railcraft.firestone.cracked.tip.charged=炎が漏れているようだ\n使用することはできるが\n扱いには気をつけなければ...
+item.railcraft.firestone.cracked.tip.charged=炎が漏れているようだ\n使用することはできるが、\n扱いを間違えれば...
 item.railcraft.firestone.cracked.tip.empty=壊れているが、\nまだ役に立つかもしれない\n炎を充填できれば...
-item.railcraft.firestone.cut.name=カットしたファイヤーストーン
+item.railcraft.firestone.cut.name=カットされたファイヤーストーン
 item.railcraft.firestone.cut.tip=まだ制御されておらず\n猛威を振るっている...
 item.railcraft.firestone.raw.name=未処理のファイヤーストーン
-item.railcraft.firestone.raw.tip=これを持っていると、\n周りの空気も影響を\n受けるだろう...
+item.railcraft.firestone.raw.tip=持っているだけで、\n周りの空気も影響を\n受け始めるだろう...
 item.railcraft.firestone.refined.name=精製したファイヤーストーン
 item.railcraft.firestone.refined.tip.charged=炎で満たされており、\n使用者の意志で\n猛烈な熱を放つことが\nできるだろう...
-item.railcraft.firestone.refined.tip.empty=制御が可能であり、\nまだ役に立つかもしれない\n炎を充填できれば...
+item.railcraft.firestone.refined.tip.empty=まだ制御が可能なため、\n役に立つかもしれない\n炎を充填できれば...
 
 item.railcraft.fluid.creosote.bottle.name=クレオソート入り瓶
 item.railcraft.fluid.creosote.bucket.name=クレオソート入りバケツ
@@ -304,27 +304,27 @@ railcraft.color.red=赤色
 railcraft.color.white=白色
 railcraft.color.yellow=黄色
 
-railcraft.gates.action.pause=一時停止
-railcraft.gates.action.sendcart=トロッコを排出
+railcraft.gates.action.pause=作業を一時停止する
+railcraft.gates.action.sendcart=カートを再発車させる
 
-railcraft.gates.trigger.aspect.green=信号 : 緑色
-railcraft.gates.trigger.aspect.off=信号 : オフ
-railcraft.gates.trigger.aspect.red.blink=信号 : 赤色点滅
-railcraft.gates.trigger.aspect.red=信号 : 赤色
-railcraft.gates.trigger.aspect.yellow.blink=信号 : 黄色点滅
-railcraft.gates.trigger.aspect.yellow=信号 : 黄色
-railcraft.gates.trigger.cart=トロッコがある
-railcraft.gates.trigger.engine.blue=エンジンの状態
-railcraft.gates.trigger.engine.green=エンジンの状態
-railcraft.gates.trigger.engine.orange=エンジンの状態
-railcraft.gates.trigger.engine.red=エンジンの状態
-railcraft.gates.trigger.engine.yellow=エンジンの状態
-railcraft.gates.trigger.fuel=燃料不足
-railcraft.gates.trigger.maintenance=メンテナンスが必要
-railcraft.gates.trigger.temp.cold=冷たい
-railcraft.gates.trigger.temp.hot=熱い
-railcraft.gates.trigger.temp.warm=温かい
-railcraft.gates.trigger.work=動作中
+railcraft.gates.trigger.aspect.green=信号が緑色のとき
+railcraft.gates.trigger.aspect.off=信号がオフのとき
+railcraft.gates.trigger.aspect.red.blink=信号が赤色点滅のとき
+railcraft.gates.trigger.aspect.red=信号が赤色のとき
+railcraft.gates.trigger.aspect.yellow.blink=信号が黄色点滅のとき
+railcraft.gates.trigger.aspect.yellow=信号が黄色のとき
+railcraft.gates.trigger.cart=装置正面にカートがあるとき
+railcraft.gates.trigger.engine.blue=エンジンの状態が青のとき
+railcraft.gates.trigger.engine.green=エンジンの状態が緑のとき
+railcraft.gates.trigger.engine.orange=エンジンの状態が橙のとき
+railcraft.gates.trigger.engine.red=エンジンの状態が赤のとき
+railcraft.gates.trigger.engine.yellow=エンジンの状態が黄のとき
+railcraft.gates.trigger.fuel=燃料残量が1/8未満のとき
+railcraft.gates.trigger.maintenance=メンテナンスが必要なとき
+railcraft.gates.trigger.temp.cold=温度が冷たいとき
+railcraft.gates.trigger.temp.hot=温度が熱いとき
+railcraft.gates.trigger.temp.warm=温度が温かいとき
+railcraft.gates.trigger.work=動作可能or動作中のとき
 
 railcraft.gui.anchor.fuel.remaining=@.2f 時間
 railcraft.gui.anchor.fuel=アンカーの燃料
@@ -386,44 +386,44 @@ railcraft.gui.detector.item.less_than=指定数未満
 railcraft.gui.detector.item.not_empty=空ではない時
 railcraft.gui.detector.loco.primary=主色
 railcraft.gui.detector.loco.secondary=副色
-railcraft.gui.detector.tank.tip.analog=液体の量に基づいて\nレッドストーンを出力
-railcraft.gui.detector.tank.tip.empty=空のタンクを検出
-railcraft.gui.detector.tank.tip.full=満杯のタンクを検出
-railcraft.gui.detector.tank.tip.half=容量の半分以上入ったタンクを検出
-railcraft.gui.detector.tank.tip.less.than.full=満杯ではないタンクを検出
-railcraft.gui.detector.tank.tip.less.than.half=容量の半分未満入ったタンクを検出
-railcraft.gui.detector.tank.tip.less.than.most=容量の3/4未満入ったタンクを検出
-railcraft.gui.detector.tank.tip.less.than.quarter=容量の1/4未満入ったタンクを検出
-railcraft.gui.detector.tank.tip.most=容量の3/4以上入ったタンクを検出
-railcraft.gui.detector.tank.tip.not.empty=空ではないタンクを検出
-railcraft.gui.detector.tank.tip.quarter=容量の1/4以上入ったタンクを検出
-railcraft.gui.detector.tank.tip.void=どんなタンクでも検出
+railcraft.gui.detector.tank.tip.analog=液体の量に基づいて\nレッドストーン信号を出力します
+railcraft.gui.detector.tank.tip.empty=空のタンクを検知します
+railcraft.gui.detector.tank.tip.full=満杯のタンクを検知します
+railcraft.gui.detector.tank.tip.half=容量の半分以上が満たされたタンクを検知します
+railcraft.gui.detector.tank.tip.less.than.full=満杯ではないタンクを検知します
+railcraft.gui.detector.tank.tip.less.than.half=容量の半分未満が満たされたタンクを検知します
+railcraft.gui.detector.tank.tip.less.than.most=容量の3/4未満が満たされたタンクを検知します
+railcraft.gui.detector.tank.tip.less.than.quarter=容量の1/4未満が満たされたタンクを検知します
+railcraft.gui.detector.tank.tip.most=容量の3/4以上が満たされたタンクを検知します
+railcraft.gui.detector.tank.tip.not.empty=空ではないタンクを検知します
+railcraft.gui.detector.tank.tip.quarter=容量の1/4以上が満たされたタンクを検知します
+railcraft.gui.detector.tank.tip.void=どんなタンクでも検知します
 railcraft.gui.detector.train.size=列車の両数 = @d
 railcraft.gui.detector.villager.any=任意
 railcraft.gui.detector.villager.equals=一致
 railcraft.gui.detector.villager.none=反転任意
 railcraft.gui.detector.villager.not=反転一致
 
-railcraft.gui.electric.meter.charge=蓄電量 : @.2fc | 充電速度 : @.2fc/t | 損失量 : @.2fc/t
+railcraft.gui.electric.meter.charge=蓄電量: @.2fc | 充電速度: @.2fc/t | 損失量: @.2fc/t
 
-railcraft.gui.energy.loader.empty=空の場合も停車
-railcraft.gui.energy.loader.fill=満載になるまで停車
-railcraft.gui.energy.unloader.wait=空になるまで停車
+railcraft.gui.energy.loader.empty=空でも停車
+railcraft.gui.energy.loader.fill=満載まで停車
+railcraft.gui.energy.unloader.wait=空まで停車
 
-railcraft.gui.engrave.entercode=コードを入力して解除 :
+railcraft.gui.engrave.entercode=コードを入力してアンロック:
 railcraft.gui.engrave.getmore1=下記のリンクから
-railcraft.gui.engrave.getmore2=コードを更に入手！
-railcraft.gui.engrave.openunlock=紋章を解除
-railcraft.gui.engrave.unlock.exists=解除済みです！
+railcraft.gui.engrave.getmore2=コードを入手可能！
+railcraft.gui.engrave.openunlock=紋章をアンロック
+railcraft.gui.engrave.unlock.exists=アンロック済みです！
 railcraft.gui.engrave.unlock.fail=失敗！
 railcraft.gui.engrave.unlock.success=成功！
-railcraft.gui.engrave.unlock=解除！
+railcraft.gui.engrave.unlock=アンロック！
 railcraft.gui.engrave=刻印
 
 railcraft.gui.feed.station.feed=餌を配置
 
 railcraft.gui.filter=フィルター
-railcraft.gui.filters.carts=トロッコ
+railcraft.gui.filters.carts=カート
 railcraft.gui.filters=フィルター
 
 railcraft.gui.goggles.aura.anchor=アンカー
@@ -437,7 +437,7 @@ railcraft.gui.goggles.tip=右クリックで表示するオーラを変更しま
 
 railcraft.gui.help=ヘルプ
 
-railcraft.gui.ic2.energy.rate=送電速度 : @d EU
+railcraft.gui.ic2.energy.rate=送電速度: @d EU
 
 railcraft.gui.item.loader.all.tip=一致するアイテムを全て輸送します
 railcraft.gui.item.loader.all=全て
@@ -502,14 +502,14 @@ railcraft.gui.locomotive.tip.item.secondary=§o副色:§r @s
 railcraft.gui.locomotive.tip.item.whistle=§o汽笛の音高:§r @s
 railcraft.gui.locomotive.tip.slot.ticket=チケットを挿入
 
-railcraft.gui.mag.glass.aspect=%sの信号を出力中
-railcraft.gui.mag.glass.aspect.dual=上側は%1$s、下側は%2$sの信号を出力中
-railcraft.gui.mag.glass.placedby=%1$sは%2$sによって設置された
+railcraft.gui.mag.glass.aspect=%s の信号を出力しています
+railcraft.gui.mag.glass.aspect.dual=上側は %1$s、下側は %2$s の信号を出力しています
+railcraft.gui.mag.glass.placedby=この %1$s は %2$s によって設置されました
 
 railcraft.gui.rolling.machine.tip.craft=§e-クリックしてクラフト-
 
 railcraft.gui.routing.logic.blank=無記入です
-railcraft.gui.routing.logic.insufficient.operands=演算子が不足しています
+railcraft.gui.routing.logic.insufficient.operands=被演算子(オペランド)が不足しています
 railcraft.gui.routing.logic.malformed.syntax=構文が正しくありません
 railcraft.gui.routing.logic.regex.invalid=無効な正規表現です
 railcraft.gui.routing.logic.regex.unsupported=対応していない正規表現です
@@ -517,33 +517,33 @@ railcraft.gui.routing.logic.unrecognized.keyword=キーワードを認識でき�
 railcraft.gui.routing.slot.label=経路表
 railcraft.gui.routing.table.editor=最新の編集者 : @s
 railcraft.gui.routing.table.manual.numPages=11
-railcraft.gui.routing.table.manual.page1=経路表は、トロッコ検出器(経路)や経路切り替えモーターにルールを設定して、条件に合う機関車にのみ動作させることができるツールです。ルールは論理構文を使用して、単純なものから複雑なものまで定義することができます。ポーランド記法を採用しているため、演算子の後に値を入力する必要があります。1行に1つのキーワードのみを受け付けます。演算子が指定されていない場合は、ORと見なされます。作業台に経路表を2つ以上配置して、内容をコピーすることができます。
-railcraft.gui.routing.table.manual.page2=演算子キーワード :\n  AND - 2つの値がどちらもtrueである必要がある。\n  OR - 2つの値のどちらかがtrueである必要がある。\n  NOT - 値を反転する。
-railcraft.gui.routing.table.manual.page3=条件キーワード :\n  Dest=<文字列>\n    機関車の目的地が指定した\n    文字列から始まる場合、\n    trueになる。\n    「Dest=null」の場合、目的地が\n    存在しないトロッコを指定する。\n  Owner=<プレイヤー名>\n    機関車の所有者が指定した\n    プレイヤー名である場合、trueになる。
-railcraft.gui.routing.table.manual.page4=条件キーワード :\n  Name=<エンティティ名>\n    トロッコの名前が指定した\n    名前と一致する場合、\n    trueになる。\n    「Name=null」の場合、名前を持たない\n    トロッコを指定する。\n  Type=<modid:アイテム名>\n    トロッコのアイテム名が指定したものと\n    一致する場合、trueになる。
-railcraft.gui.routing.table.manual.page5=条件キーワード :\n  Riding=<プレイヤー名>\n    列車に指定したプレイヤーが\n    乗車している場合、trueになる。\n  Ridden=<true/false>\n    プレイヤーの乗車状況と\n    一致している場合、trueになる。
-railcraft.gui.routing.table.manual.page6=条件キーワード :\n  Color=<主色>,<副色>\n    機関車の主色、副色が指定したものと\n    一致する場合、trueになる。\n    「Any」にするとどの色も受け付ける。\n    色 : Black、Red、Green、Brown、Blue、\n    Purple、Cyan、LightGray、Gray、Pink、Lime、\n    Yellow、LightBlue、Magenta、Orange、White\n  NeedsRefuel=<true/false>\n    燃料の残量状況と\n    一致している場合、trueになる。
-railcraft.gui.routing.table.manual.page7=条件キーワード :\n  Redstone=<true/false>\n    このブロックのレッドストーン信号の\n    入力状況が一致している場合、trueになる。
-railcraft.gui.routing.table.manual.page8=条件キーワード :\n  Loco=<文字列>\n    機関車が指定した種類である場合、trueになる。\n    使用できる文字列 : electric、steam、none\n    noneを指定した場合、機関車ではないときにtrueになる。
-railcraft.gui.routing.table.manual.page9=構文例 :\n  Dest=TheFarLands\n  Color=Black,Red\n  AND\n  NOT\n  Owner=RichardG\n  Dest=SecretHideout/OceanEntrance
-railcraft.gui.routing.table.manual.page10=結果 :\n  前ページの文だと、\n  「目的地がTheFarLands/Milliwaysである機関車」\n  「主色が黒色、副色が赤色である機関車」\n  「目的地がSecretHideout/OceanEntranceであり、\n    RichardGの所有物ではない機関車」\n  が通過した場合に\n  ブロックが動作する。
-railcraft.gui.routing.table.manual.page11=正規表現 :\n  正規表現の一部の構文が\n  サポートされている。\n  正規表現を使用するには、「=」の前に「?」と入力する。\n  Javaの正規表現に則っている。\n使用できる条件キーワード :\n  Dest、Name\n使用例 :\n  Dest?=.*Hill
+railcraft.gui.routing.table.manual.page1= 《経路表／Routing Table》 は、 《カート検知器 - 経路／Detector - Routing》 や 《経路切替モーター／Routing Switch Motor》 に配置するツールで、通過する 《機関車／Locomotive》 に対して一致する一連のルールを定義します。ルールは論理構文を使用して、単純なものから複雑なものまで定義することが可能です。\nポーランド記法を採用しているため、演算子の後に被演算子(オペランド)を配置する必要があります。\n1行に1つのキーワードのみが有効です。\n演算子が指定されていない場合はORと見なされます。\n作業台に経路表を2つ以上配置して内容をコピーすることができます。
+railcraft.gui.routing.table.manual.page2=演算子キーワード:\n  AND - 2つの被演算子が\n           どちらもtrueである必要がある。\n  OR -   2つの被演算子の\n           どちらかがtrueである必要がある。\n  NOT - 被演算子を反転する。
+railcraft.gui.routing.table.manual.page3=条件キーワード:\n  Dest=<文字列>\n    機関車の目的地が指定した\n    文字列から始まる場合、\n    条件はtrueになる。\n    "Dest=null"の場合、目的地が\n    存在しないカートを指定する。\n  Owner=<プレイヤー名>\n    機関車の所有者が指定したプレイヤー名で\n    ある場合、条件はtrueになる。
+railcraft.gui.routing.table.manual.page4=条件キーワード:\n  Name=<エンティティ名>\n    トロッコの名前が指定した名前と\n    一致する場合、条件はtrueになる。\n    "Name=null"の場合、名前を持たない\n    トロッコを指定する。\n  Type=<modid:アイテム名>\n    トロッコのアイテム名が指定したものと\n    一致する場合、条件はtrueになる。
+railcraft.gui.routing.table.manual.page5=条件キーワード:\n  Riding=<プレイヤー名>\n    列車に指定したプレイヤーが\n    乗車している場合、条件はtrueになる。\n  Ridden=<true/false>\n    プレイヤーの乗車状況が\n    一致している場合、条件はtrueになる。
+railcraft.gui.routing.table.manual.page6=条件キーワード:\n  Color=<主色>,<副色>\n    機関車の主色、副色が指定したものと\n    一致する場合、条件はtrueになる。\n    "Any"にするとどの色も受け付ける。\n    色: Black, Red, Green, Brown, Blue,\n    Purple, Cyan, LightGray, Gray, Pink, Lime,\n    Yellow, LightBlue, Magenta, Orange, White\n  NeedsRefuel=<true/false>\n    燃料の残量状況が\n    一致している場合、条件はtrueになる。
+railcraft.gui.routing.table.manual.page7=条件キーワード:\n  Redstone=<true/false>\n    このブロックのRS信号の入力状況が\n    一致している場合、条件はtrueになる。
+railcraft.gui.routing.table.manual.page8=条件キーワード:\n  Loco=<文字列>\n    機関車が指定した種類である場合、\n    条件はtrueになる。\n    使用できる文字列: electric、steam、none\n    noneを指定した場合、\n    機関車ではないときに条件はtrueになる。
+railcraft.gui.routing.table.manual.page9=構文例:\n  Dest=TheFarLands\n  Color=Black,Red\n  AND\n  NOT\n  Owner=RichardG\n  Dest=SecretHideout/OceanEntrance
+railcraft.gui.routing.table.manual.page10=結果:\n  前ページのスクリプトは\n  次の条件に一致する機関車をマッチします:\n  "目的地がTheFarLands/Milliwaysである機関車"\n  "または主色が黒色、副色が赤色である機関車"\n  "または目的地が\n     SecretHideout/OceanEntranceであり、\n     RichardGの所有物ではない機関車"
+railcraft.gui.routing.table.manual.page11=正規表現:\n  正規表現の一部の構文が\n  サポートされています。\n  正規表現を使用するには、"="の前に"?"と入力します。\n  ルールは標準のJava正規表現に則ります。\n使用できる条件キーワード:\n  Dest, Name\n使用例:\n  Dest?=.*Hill
 railcraft.gui.routing.table.manual.title=経路表マニュアル
 railcraft.gui.routing.table.name=タイトル
 railcraft.gui.routing.ticket.line1=このチケットは次の
-railcraft.gui.routing.ticket.line2=目的地で有効です :
+railcraft.gui.routing.ticket.line2=目的地で有効です:
 railcraft.gui.routing.ticket.manual.title=金の鉄道チケットについて
-railcraft.gui.routing.ticket.manual=金の鉄道チケットは、公共の機関車や、チケットの発行者が所有する機関車で無制限に使用することができます。紙とクラフトして、使い捨てのチケットを作成することもできます。
-railcraft.gui.routing.ticket.tip.blank=記入なしチケット
-railcraft.gui.routing.ticket.tip.dest=目的地 :
-railcraft.gui.routing.ticket.tip.issuer=発行者 :
+railcraft.gui.routing.ticket.manual=《金の鉄道チケット／Golden Railway Ticket》 は、公共の 《機関車／Locomotive》 や、チケットの発行者が所有する機関車で無制限に使用することができます。紙とクラフトして、使い捨てのチケットを作成することもできます。
+railcraft.gui.routing.ticket.tip.blank=記入のないチケット
+railcraft.gui.routing.ticket.tip.dest=目的地:
+railcraft.gui.routing.ticket.tip.issuer=発行者:
 railcraft.gui.routing.ticket.title=金の鉄道チケット
-railcraft.gui.routing.tip.slot=経路表を挿入
+railcraft.gui.routing.tip.slot=《経路表／Routing Table》を挿入してください
 railcraft.gui.routing.track.slot.label=チケット
-railcraft.gui.routing.track.tip.slot=金の鉄道チケットを挿入
-railcraft.gui.routing.type.private.tip={owner}が\n所有している\n機関車のみ\n誘導する。
+railcraft.gui.routing.track.tip.slot=《金の鉄道チケット／Golden Railway Ticket》を挿入してください
+railcraft.gui.routing.type.private.tip={owner} が\n所有している\n機関車のみを\n誘導します。
 railcraft.gui.routing.type.private=個人用の鉄道
-railcraft.gui.routing.type.public.tip=どの機関車も誘導する。
+railcraft.gui.routing.type.public.tip=どの機関車も誘導します。
 railcraft.gui.routing.type.public=公共の鉄道
 
 railcraft.gui.steam.boiler=§7 蒸気ボイラー
@@ -565,11 +565,11 @@ railcraft.gui.tank.iron=大型鉄タンク
 railcraft.gui.tank.steel=大型スチールタンク
 railcraft.gui.tank.water=貯水槽
 
-railcraft.gui.ticks=ティック
+railcraft.gui.ticks=ticks
 
-railcraft.gui.tip.button.lock.locked=この装置は{owner}\nによってロックされている。\n所有者やサーバー管理者のみ\n操作することができる。
-railcraft.gui.tip.button.lock.notowner=あなたはこの装置の\n所有者ではない。\nこれは{owner}の\n所有物だ。
-railcraft.gui.tip.button.lock.unlocked=クリックして装置をロックする。\nロックしたら、所有者か\nサーバー管理者のみ\n操作することができる。
+railcraft.gui.tip.button.lock.locked=この装置は {owner}\nによってロックされています。\n所有者やサーバー管理者のみ\n操作が可能です。
+railcraft.gui.tip.button.lock.notowner=あなたはこの装置の\n所有者ではありません。\nこれは {owner} の\n所有物です。
+railcraft.gui.tip.button.lock.unlocked=クリックして装置をロックします。\nロックされた装置は、\n所有者かサーバー管理者のみが\n操作できるようになります。
 
 railcraft.gui.track.embarking.radius=半径
 railcraft.gui.track.mode.change=@sモード §fに設定しました
@@ -582,7 +582,7 @@ railcraft.gui.track.locking.mode.holding.train=列車用一時停車
 railcraft.gui.track.locking.mode.holding=一時停車
 railcraft.gui.track.locking.mode.lockdown.train=列車用停止
 railcraft.gui.track.locking.mode.lockdown=停止
-railcraft.gui.track.priming.fuse=起爆 = @dティック後
+railcraft.gui.track.priming.fuse=起爆 = @d tick後
 railcraft.gui.track.launcher.force=強さ = @d
 
 railcraft.gui.trade.station.dice.tip=ランダムな取引
@@ -598,14 +598,14 @@ railcraft.gui.turbine.output=出力: @d%%
 railcraft.gui.turbine.rotor=ローター:
 railcraft.gui.turbine=蒸気タービン
 
-railcraft.gui.update.message=Railcraft @sが<http://railcraft.info>にて利用可能
+railcraft.gui.update.message=Railcraft @s が<http://railcraft.info> にて利用可能です
 
 railcraft.keybind.aura.anchor=アンカーのオーラ
 railcraft.keybind.aura.surveying=サーベイヤーのオーラ
 railcraft.keybind.aura.tuning=チューナーのオーラ
 
 railcraft.keybind.loco.faster=機関車の加速
-railcraft.keybind.loco.mode=機関車モード変更
+railcraft.keybind.loco.mode=機関車のモード変更
 railcraft.keybind.loco.slower=機関車の減速
 railcraft.keybind.loco.whistle=機関車の汽笛
 
@@ -613,18 +613,18 @@ railcraft.locomotive.model.electric.default.name=標準的電気機関車
 railcraft.locomotive.model.steam.magic.default.name=標準的魔術機関車
 railcraft.locomotive.model.steam.solid.default.name=標準的固形燃料機関車
 
-railcraft.multiblock.state.invalid.entity=エンティティが含まれています : %s
-railcraft.multiblock.state.invalid.pattern=パターンと一致しません : %s
-railcraft.multiblock.state.unknown.unloaded=構造物の一部が読み込まれていません : %s
-railcraft.multiblock.state.valid=構造物は有効です
+railcraft.multiblock.state.invalid.entity=エンティティが含まれています: %s
+railcraft.multiblock.state.invalid.pattern=構造体が一致していません: %s
+railcraft.multiblock.state.unknown.unloaded=構造体の一部が読み込まれていません: %s
+railcraft.multiblock.state.valid=構造体は有効です
 
-tc.research_category.RAILCRAFT=Traheremagy
+tc.research_category.RAILCRAFT=バール学
 thaumcraft.research.RC_Crowbar.name=魔導金属のバール
-thaumcraft.research.RC_Crowbar.page.1=By substituting Thaumium for Steel and imbuing it with a touch of Order, you have discovered how to create a Crowbar that is far more receptive to magic.
-thaumcraft.research.RC_Crowbar.text=[RC] I think you dropped this...
+thaumcraft.research.RC_Crowbar.page.1=私は 《スチール／Steel》 の代わりに 《魔導金属／Thaumium》 を使って秩序を吹き込むことで、より魔術的に強力な 《バール／Crowbar》 を作れることを発見した。
+thaumcraft.research.RC_Crowbar.text=[RC] これ、落としたみたいだけど...
 thaumcraft.research.RC_Crowbar_Void.name=虚無鋼のバール
-thaumcraft.research.RC_Crowbar_Void.page.1=Taking things one step further, you have applied your master of arcane materials to create the ultimate Crowbar.
-thaumcraft.research.RC_Crowbar_Void.text=[RC] Gordon would be proud...
+thaumcraft.research.RC_Crowbar_Void.page.1=もう 《バール／Crowbar》 の壊れる音を聞くのはうんざりだ。私はより難解な材料を使って、更に強力なバールを発明した。
+thaumcraft.research.RC_Crowbar_Void.text=[RC] ゴードンも誇りに思うはずだ...
 
 tile.activatorRail.name=アクティベーターレール
 tile.detectorRail.name=ディテクターレール
@@ -693,12 +693,12 @@ tile.railcraft.brick.sandy.ornate.name=模様入りの砂層石
 tile.railcraft.cube.brick.infernal.name=煉獄レンガ (旧)
 tile.railcraft.cube.brick.sandy.name=砂層レンガ (旧)
 tile.railcraft.cube.coke.name=コークスブロック
-tile.railcraft.cube.coke.tip=32,000燃焼時間
+tile.railcraft.cube.coke.tip=32,000 の燃焼時間
 tile.railcraft.cube.concrete.name=鉄筋コンクリートブロック
 tile.railcraft.cube.copper.name=銅ブロック
 tile.railcraft.cube.creosote.name=クレオソート防腐木材
 tile.railcraft.cube.crushed.obsidian.name=砕けた黒曜石
-tile.railcraft.cube.crushed.obsidian.tip=Mobのスポーンを防ぐ
+tile.railcraft.cube.crushed.obsidian.tip=Mobのスポーンを防げる
 tile.railcraft.cube.lead.name=鉛ブロック
 tile.railcraft.cube.steel.name=スチールブロック
 tile.railcraft.cube.stone.abyssal.name=深成岩
@@ -795,12 +795,12 @@ tile.railcraft.machine.delta.wire.tip=離れた§8《§7電気レール§8／Ele
 tile.railcraft.machine.epsilon.admin.steam.producer.name=管理者用蒸気供給器
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=§8《§7蒸気§8／Steam》§7を §5§l無限§r§7 に供給します
 tile.railcraft.machine.epsilon.electric.feeder.admin.name=管理者用電力供給器
-tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Railcraft電力を §5§l無限§r§7 に供給します
+tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Railcraft電力§8(RC)§7を §5§l無限§r§7 に供給します
 tile.railcraft.machine.epsilon.electric.feeder.name=電力供給器
-tile.railcraft.machine.epsilon.electric.feeder.tip=IndustrialCraft 2の電力を\nRailcraft電力に変換します
+tile.railcraft.machine.epsilon.electric.feeder.tip=IndustrialCraft 2の電力§8(EU)§7を\nRailcraft電力§8(RC)§7に変換します
 tile.railcraft.machine.epsilon.engraving.bench.name=刻印作業台
 tile.railcraft.machine.epsilon.flux.transformer.name=フラックス変圧器
-tile.railcraft.machine.epsilon.flux.transformer.tip=§fマルチブロック: §62§7x§62§7x§62§7 (§6幅,W§7x§6高さ,H§7x§6奥行,L§7)\nレッドストーンフラックス(RF)をRailcraft電力に変換します\n変換効率: 80%
+tile.railcraft.machine.epsilon.flux.transformer.tip=§fマルチブロック: §62§7x§62§7x§62§7 (§6幅,W§7x§6高さ,H§7x§6奥行,L§7)\nレッドストーンフラックス§8(RF)§7をRailcraft電力§8(RC)§7に変換します\n変換効率: 80%
 tile.railcraft.machine.epsilon.force.track.emitter.name=フォースレールエミッター
 tile.railcraft.machine.epsilon.force.track.emitter.tip=電気でできたレールを投影する
 
@@ -809,7 +809,7 @@ tile.railcraft.machine.gamma.dispenser.cart.tip=トロッコをレールに配�
 tile.railcraft.machine.gamma.dispenser.train.name=列車ディスペンサー
 tile.railcraft.machine.gamma.dispenser.train.tip=連結済みの列車をレールに配置します\n§9-§8《§9バール§8／Crowbar》§9で右クリックして向きを変更 -\n§c- レッドストーン信号で列車を排出 -
 tile.railcraft.machine.gamma.loader.energy.name=電力積込器
-tile.railcraft.machine.gamma.loader.energy.tip=IC2の電力をトロッコへ供給します\n§9-§8《§9バール§8／Crowbar》§9で右クリックして向きを変更 -\n§c- IC2の電力のみを受け付ける -
+tile.railcraft.machine.gamma.loader.energy.tip=IC2の電力§8(EU)§7をトロッコへ供給します\n§9-§8《§9バール§8／Crowbar》§9で右クリックして向きを変更 -\n§c- IC2の電力のみを受け付ける -
 tile.railcraft.machine.gamma.loader.rf.name=RF積込器
 tile.railcraft.machine.gamma.loader.rf.tip=RF電力をトロッコに供給します\n§9-§8《§9バール§8／Crowbar》§9で右クリックして向きを変更 -\n§c- RFのみを受け付ける -
 tile.railcraft.machine.gamma.loader.item.advanced.name=発展型アイテム積込器
@@ -819,7 +819,7 @@ tile.railcraft.machine.gamma.loader.item.tip=アイテムをトロッコに積�
 tile.railcraft.machine.gamma.loader.liquid.name=液体積込器
 tile.railcraft.machine.gamma.loader.liquid.tip=液体をトロッコに積み込みます\n§o§c- レールの1-2ブロック上に設置 -
 tile.railcraft.machine.gamma.unloader.energy.name=電力荷下器
-tile.railcraft.machine.gamma.unloader.energy.tip=IC2の電力をトロッコから引き出します\n§9-§8《§9バール§8／Crowbar》§9で右クリックして向きを変更 -\n§c- IC2の電力のみを輸送する -
+tile.railcraft.machine.gamma.unloader.energy.tip=IC2の電力§8(EU)§7をトロッコから引き出します\n§9-§8《§9バール§8／Crowbar》§9で右クリックして向きを変更 -\n§c- IC2の電力のみを輸送する -
 tile.railcraft.machine.gamma.unloader.rf.name=RF荷下器
 tile.railcraft.machine.gamma.unloader.rf.tip=RF電力をトロッコから引き出します\n§9-§8《§9バール§8／Crowbar》§9で右クリックして向きを変更 -\n§c- RFのみを輸送する -
 tile.railcraft.machine.gamma.unloader.item.advanced.name=発展型アイテム荷下器
@@ -893,7 +893,7 @@ tile.railcraft.ore.dark.diamond.name=ダイヤモンド鉱石
 tile.railcraft.ore.dark.emerald.name=エメラルド鉱石
 tile.railcraft.ore.dark.lapis.name=ラピスラズリ鉱石
 tile.railcraft.ore.firestone.name=ファイヤーストーン鉱石
-tile.railcraft.ore.firestone.tip.name=これを手に入れたとき、\nこれは生物以外の全てを焼き尽くす、\nそう感じざるを得ないだろう...
+tile.railcraft.ore.firestone.tip.name=これを手に入れたとき、\n生物以外の全てを焼き尽くす、\nそう感じざるを得ないだろう...
 tile.railcraft.ore.poor.copper.name=乏しい銅鉱石
 tile.railcraft.ore.poor.gold.name=乏しい金鉱石
 tile.railcraft.ore.poor.iron.name=乏しい鉄鉱石
@@ -902,7 +902,7 @@ tile.railcraft.ore.poor.tin.name=乏しい錫鉱石
 tile.railcraft.ore.saltpeter.name=硝酸カリウム鉱石
 tile.railcraft.ore.sulfur.name=硫黄鉱石
 
-tile.railcraft.post.emblem.name=紋章つき支柱
+tile.railcraft.post.emblem.name=紋章つきの支柱
 tile.railcraft.post.metal.black.name=黒色の金属の支柱
 tile.railcraft.post.metal.blue.name=青色の金属の支柱
 tile.railcraft.post.metal.brown.name=茶色の金属の支柱
@@ -1099,13 +1099,13 @@ tile.railcraft.track.disembarking.tip=乗車しているエンティティを指
 tile.railcraft.track.disposal.name=吊り下げ下車レール
 tile.railcraft.track.disposal.tip=下にブロックが無くても設置できます\n乗車しているエンティティを下車させます
 tile.railcraft.track.electric.name=電気レール
-tile.railcraft.track.electric.tip=§9警告: 高電圧に注意してください\n§r電力を供給できるレールです\n§8《§7電気機関車§8／Electric Locomotive》§7の走行に使用します\n§8《§7電力供給器§8／Electric Feeder Unit》§7で給電を行います\n§8《§7シャントワイヤー§8／Electric Shunting Wire》§7で離れたレールに接続できます
+tile.railcraft.track.electric.tip=§9警告: 高電圧に注意してください\n§r電力§7(RF)§fを供給できるレールです\n§8《§7電気機関車§8／Electric Locomotive》§7の走行に使用します\n§8《§7電力供給器§8／Electric Feeder Unit》§7で給電を行います\n§8《§7シャントワイヤー§8／Electric Shunting Wire》§7で離れたレールに接続できます
 tile.railcraft.track.electric.junction.name=電気交差レール
-tile.railcraft.track.electric.junction.tip=§9警告: 高電圧に注意してください\n§r電力を供給できるレールです\n§8《§7電気機関車§8／Electric Locomotive》§7の走行に使用します\n§8《§7電力供給器§8／Electric Feeder Unit》§7で給電を行います\n§8《§7シャントワイヤー§8／Electric Shunting Wire》§7で離れたレールに接続できます
+tile.railcraft.track.electric.junction.tip=§9警告: 高電圧に注意してください\n§r電力§7(RF)§fを供給できるレールです\n§8《§7電気機関車§8／Electric Locomotive》§7の走行に使用します\n§8《§7電力供給器§8／Electric Feeder Unit》§7で給電を行います\n§8《§7シャントワイヤー§8／Electric Shunting Wire》§7で離れたレールに接続できます
 tile.railcraft.track.electric.switch.name=電気分岐レール
-tile.railcraft.track.electric.switch.tip=§9警告: 高電圧に注意してください\n§r電力を供給できるレールです\n§8《§7電気機関車§8／Electric Locomotive》§7の走行に使用します\n§8《§7電力供給器§8／Electric Feeder Unit》§7で給電を行います\n§8《§7シャントワイヤー§8／Electric Shunting Wire》§7で離れたレールに接続できます\n§c-§8《§c切替モーター§8／Switch Motor》§c/レバーで切り替え -
+tile.railcraft.track.electric.switch.tip=§9警告: 高電圧に注意してください\n§r電力§7(RF)§fを供給できるレールです\n§8《§7電気機関車§8／Electric Locomotive》§7の走行に使用します\n§8《§7電力供給器§8／Electric Feeder Unit》§7で給電を行います\n§8《§7シャントワイヤー§8／Electric Shunting Wire》§7で離れたレールに接続できます\n§c-§8《§c切替モーター§8／Switch Motor》§c/レバーで切り替え -
 tile.railcraft.track.electric.wye.name=電気Y字切替レール
-tile.railcraft.track.electric.wye.tip=§9警告: 高電圧に注意してください\n§r電力を供給できるレールです\n§8《§7電気機関車§8／Electric Locomotive》§7の走行に使用します\n§8《§7電力供給器§8／Electric Feeder Unit》§7で給電を行います\n§8《§7シャントワイヤー§8／Electric Shunting Wire》§7で離れたレールに接続できます\n§c-§8《§c切替モーター§8／Switch Motor》§c/レバーで切り替え -
+tile.railcraft.track.electric.wye.tip=§9警告: 高電圧に注意してください\n§r電力§7(RF)§fを供給できるレールです\n§8《§7電気機関車§8／Electric Locomotive》§7の走行に使用します\n§8《§7電力供給器§8／Electric Feeder Unit》§7で給電を行います\n§8《§7シャントワイヤー§8／Electric Shunting Wire》§7で離れたレールに接続できます\n§c-§8《§c切替モーター§8／Switch Motor》§c/レバーで切り替え -
 tile.railcraft.track.elevator.name=エレベーターレール
 tile.railcraft.track.elevator.tip=トロッコを垂直に走行させます\n§c- レッドストーン信号で上に移動 -
 tile.railcraft.track.embarking.name=乗車レール
@@ -1176,7 +1176,7 @@ tile.railcraft.track.whistle.tip=通過した§8《§7機関車§8／Locomotive�
 tile.railcraft.track.wye.name=Y字切替レール
 tile.railcraft.track.wye.tip=§c-§8《§c切替モーター§8／Switch Motor》§c/§8《§c切替レバー§8／Switch Lever》§cで切り替え -
 tile.railcraft.track.autolococoupler.name=自動機関車連結機
-tile.railcraft.track.autolococoupler.tip=通過する機関車が最初に\n通過した台車と連結し、\n自動的に入換速度に\n切り替える\n§c- レッドストーン信号で有効化 -
+tile.railcraft.track.autolococoupler.tip=通過する§8《§7機関車§8／Locomotive》§7が最初に\n通過したカートと連結し、\n自動的に入換速度に\n切り替えます。\n§c- レッドストーン信号で有効化 -
 
 tile.railcraft.wall.abyssal.brick.name=細かい深成岩レンガの塀
 tile.railcraft.wall.bleachedbone.brick.name=細かい漂白粘土レンガの塀

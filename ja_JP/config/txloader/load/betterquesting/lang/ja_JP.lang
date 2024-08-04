@@ -19,7 +19,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAg.desc=この本には読書灯が内�
 
 # Quest: Storage For Days
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.name=§9§nずっと使えるストレージ
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.desc=今、あなたは道具を手に入れ、いろいろな物を集めに行こうとしています。集めた物を入れるための収納場所を作る時です。%nいくらかの原木を手に取り、チェストを作りましょう。原木が4つ、板材が4つ、そして火打石が1つ必要です。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAAw.desc=今、あなたは道具を手に入れ、いろいろな物を集めに行こうとしています。集めた物を入れるための収納場所を作る時です。%nいくらかの原木を手に取り、チェストを作りましょう。原木が4つ、木材が4つ、そして火打石が1つ必要です。
 
 # Quest: Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABQ.name=§9§nツールたち
@@ -444,8 +444,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsQ.name=§2§nよく食べ、よく育�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsQ.desc=言うまでもなく、食べ物は素晴らしいですよね？でももっと素晴らしいのは山ほど食べることです！%n%nそれは退屈すぎるし、意味がないと思っていますか？では、もし味覚の幅を広げるだけで体力が増えるとしたらどうでしょう。%n%n新たな食べ物を食べるごとに1ポイントがもらえ、50ポイント集めると最大体力がハートが1つ分増えます！%n%nこれであなたは全ての Pam's HarvestCraft の料理を作る理由が出来ました！%n%n§7《§f弁当箱§7／Lunch Box》§f から何かを食べると、取り出して食べたのと同じようにカウントが行われます。%n%n食べたことのあるものを確認したい場合は「Food Journal - 食べ物の旅」を参照することもできますが、不便です。%n%n現実的な方法としては、NEIによる検索で絞り込みを行えます。 §7《§fまだ食べていない§7／not yet eaten》§f で検索すれば食べたことのないもののみを、 §7《§f食事済み§7／assisted》§f で検索すれば食べたことのあるもののみを表示します。これを確認するには、まず1つ食べてみる必要があります。%n%nもし動作しない場合、インベントリ左下のボタンから NEI Config を開き、search modeをRegexに変更してください。その後、クライアントを再起動し、検索しなおしてみてください。%n%nまた、2つのコマンドを利用できます:%n%n/foodlist size%n全体の進行状況と次のハートまでの進行状況を表示します。%n%n/foodlist sync <PlayerName>%n食べ物の進行状況がサーバーと同期していない場合、再同期を試みます。
 
 # Quest: Loot Games
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.name=§2§l戦利品ゲーム
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.desc=地中...それほど深くないところに秘密の部屋を見つけたようです。かなり地表に近いです。こうした部屋はどこにでもあり、サイモン・セッズが得意な人には甘い戦利品のチャンスがあります。最も高いレベルがカウントされるので、他のラウンドはわざと失敗して速く進めることもできます。ちなみに、チーターは全てのブロックの硬さが-1のマインクラフト地獄に行きますよ。%n%nマインスイーパーで失敗すると爆発します。脱出経路を確保するようにしてください！%n%nワールド生成の影響で水や油が部屋に流れ込んでいないことを確認してください。そうでないと、「チート」とみなされてあなたを殺し、あなたの墓を破壊します。これはバグです。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.name=§2§nルート・ゲーム
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALPA.desc=どうやら地中に隠された"秘密の部屋"を発見したようですね。まあ、実際のところ、それほど深いところにあるわけではありませんが...。%n%nこのような §7《§fミニゲーム・ダンジョン§7／Minigame Dungeon》§f はそこまで珍しいものではなく、 §7《§fサイモンゲーム§7／Game of Light》§f が得意な人にとって、甘い戦利品を手に入れるチャンスです。%n最も高いレベルの成績のみが報酬のグレードに影響するので、他のラウンドでわざと失敗して早く進めることができます。%n%n因みに、不正を行ったチーターはブロックの硬さが-1のマインクラフト地獄へ送られます。%n%n§7《§fマインスイーパー§7／Minesweaper》§f はサイモンゲームよりもやや簡単かもしれません。%nただし、地雷を掘り当てると文字通り爆発するので、脱出経路や防具を固めることをお忘れなく！%n%nゲームを開始する前に、ワールド生成の影響で水や §7《§f石油§7／Oil》§f が部屋に流れ込んでいないことを確認してください。%n%nそうでないと、"チート"とみなしたゲームストラクチャーはあなたを殺害し、更に §7《§fお墓§7／Grave》§f を破壊します。申し訳ありませんが、これはバグです。
 
 # Quest: The power of prospecting!
 betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.name=§6§nこれが探鉱の力だ！
@@ -1190,8 +1190,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADqw.name=§6§l§d§5§lAutomated Farmer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADqw.desc=Your hoe must be getting worn out by now. Why not craft an electric one which never breaks?
 
 # Quest: Vroooooom...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwg.name=§5§lVroooooom...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwg.desc=Tired of standing around to collect all the drops and XP from your diamond spikes?%n%nMake yourself a vacuum hopper to suck up all the drops and XP. Feed the XP into a tank to store it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADwg.name=§5§nヴルルルルルウルッ...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADwg.desc=折角 §7《§fダイヤモンドスパイク§7／Diamond Spike》§f で経験値トラップを自動化したのに、経験値オーブの回収のために放置するのでは意味がないと感じていませんか？%n%n§7《§fバキュームホッパー§7／Vacuum Hopper》§f は範囲内のドロップアイテムと経験値オーブを引き寄せて回収できるホッパーです。%n%n回収された経験値は §7《§f液体経験値§7／Loquid XP》§f としてタンクなどに保管できます。
 
 # Quest: Brewing, the Industrial Way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-Q.name=§5§lBrewing, the Industrial Way
@@ -1711,8 +1711,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.name=§6§lDid You Run Low On Gold o
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.desc=Did you run low on redstone and/or gold? It's no problem with a glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust. Redstone is also a good source of chrome. You'll need tons of gold for HV, so it's a good idea to set this up before then.%n%n[note]There's actually a couple plants that produce glowstone, pick the one you like![/note]
 
 # Quest: Firestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§lファイヤストーン鉱石 / 粉
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unforunately, it's in the nether...at the bottom of the lava ocean! %n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§nファイヤストーン鉱石 / 粉
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=§7《§fファイヤーストーン§7／Firestone》§f は §7《§fフィラー§7／Filler》§f といったBuildCraftの機械や、その他のアイテムの作成に使用する特殊な鉱物です。%n%n厄介なことに、現在の電圧Tierでは、ネザーの溶岩湖の底から鉱石を採掘する以外に入手方法はありません！%n%nファイヤーストーン鉱石を見つけるためのヒントを次に記します:%n%n-ファイヤーストーン鉱石は6ブロック以上の深さがある溶岩の底にしか生成されません。%nまた、ネザーラックに置き換えられる形で生成されるため、ソウルサンドの崖などでは見つかりません。%n溶岩の深さと、底にあるブロックを確認する方法を考えましょう。%n%n-これはグリッチに近いですが、溶岩湖に潜って溶岩面から頭をはみ出すようにし、視点の角度を調整すれば、溶岩湖の底を見ることができます。%nホーバー機能を持つ §7《§fジェットパック§7／Jetpack》§f などと組み合わせるとより便利です。%n%n-Journey Map のフルマップ画面を開いてカーソルを合わせ、バイオームを確認し、ネザーラックの多いバイオームを探します。%n§7《§f地獄§7／Hell》§f がデフォルトのネザーバイオームです。%n%nあるいは単純に、GregTechの §7《§f採掘機§7／Miner》§f を使用して掘ることもできます。%n採掘機の水平範囲内に鉱石が被るよう、溶岩湖の上且つ中心に近い部分に設置するようにしてください。%n%n§7《§f未処理のファイヤーストーン§7／Raw Firestone》§f はプレイヤーのインベントリにある間、周囲に不定期に炎をばら撒くため、 §7《§fバックパック§7／Backpack》§f などに保管するようにしてください。%n%nこれは追加元のModがRailcraftのファイヤーストーンにのみ当てはまります。GregTechによって追加されたファイヤーストーンは該当しません。
 
 # Quest: Tier 2 (MV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfA.name=§6§lTier 2 (MV)
@@ -1739,8 +1739,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1g.name=§6§f§6§lStainless Taking To
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1g.desc=Time for a second EBF! %n%nYou can make ingots faster in 3 ways - better coils, higher tier energy hatches, or adding more furnaces. It's probably time to add a second EBF to your base.%n%nMultiblock machines can share casings, mufflers, and input/output hatches/busses, but not maintenance hatches (you can share the auto ones though). You can share energy hatches, but only if you can supply enough power to all machines it's a part of. So if you have two EBFs that both want MV power, and you use a MV Energy Hatch, it won't work, since neither will get enough power. This is almost never used, so don't worry about it. Also, if you want to share inputs on Processing Arrays, turn off recipe map filtering on the busses.%n%nRemember, pollution will be very high with two EBFs active at once! Watch out for high pollution effects. Use the best mufflers available and don't place the EBFs in the same chunk as farmland or other high pollution machines like Pyrolyse Ovens and Large Boilers.%n%nYou can use whatever coils you have lying around, but you might want to start searching for Mica if you haven't found any yet.
 
 # Quest: All the Crops You Could Want
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.name=§6§lAll the Crops You Could Want
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.desc=Tired of applying bonemeal or fertilizer by hand? A sprinkler can take water and boost your crop growth rate. Bonemeal or fertilizer will make it work even faster.%n%n[note]Note that the sprinkler does not work with IC2 crops.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.name=§6§nあらゆる作物を栽培せよ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.desc=骨粉や §7《§fリン酸肥料§7／Fertilizer》§f を素手でばら撒くのに疲れ果てていますか？%n%n§7《§fスプリンクラー§7／Sprinkler》§f を試してみてください。水を消費して周囲の作物の成長を促進します。肥料や骨粉を追加して更に促進効果を高めることも可能です。%n%n[note]期待していたなら申し訳ありませんが、IC2農業の作物には効果がありません。[/note]
 
 # Quest: Large Aluminium Fluid Cells
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8A.name=§6§lLarge Aluminium Fluid Cells
@@ -1843,8 +1843,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKw.name=§6§nタンタル鉱石
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKw.desc=Tantalum is used in the GT (optional) and Ender IO Capacitors, and is also a source for niobium. You can find Tantalite at Y 20-30 on the Overworld and at Y 20-30 in the Nether..%n%n§4Keep in mind you need an HV + Kanthal EBF and an MV Chemical Bath to get Tantalum Ingots.
 
 # Quest: All We Are is Dust in the Wind
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOg.name=§6§lAll We Are is Dust in the Wind
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOg.desc=Looking for an alternative to flowing water for your mobfarm? Use a fan to blow mobs or items where you want. Apply a redstone signal to activate.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOg.name=§6§n僕らは皆、風のなかのゴミのような存在...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOg.desc=モブトラップに水流を用いるのはスマートだとは言えません。%n%n§7《§f扇風機§7／Fan》§f はMobやドロップアイテムを任意の方向へ吹き飛ばすことができます。%nレッドストーン信号で有効化してください。
 
 # Quest: MV Motor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSw.name=§6§lMV Motor
@@ -4805,7 +4805,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.desc=腐った肉をそのまま食�
 
 ## Quest Line: Getting Around...
 betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.name=旅に出かけよう...
-betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.desc=序盤はノロノロとしか動けません。しかし、科学や魔法の力で簡単に解決することができます！%n%n§nカバーされているMod§r%nバニラ%nIndustrialCraft 2%n§7Gravitation Suite§r%nAdventure Backpack%nBiomes O' Plenty&nBlood Magic%nBotania%nDraconic Evolution%nEnder IO%nGalactiCraft%nOpenBlocks%nRailcraft%nThaumcraft%n§7Automagy§r%n§7Electro-Magic Tools§r%n§7ThaumicHorizons§r%n§7Thaumic Tinkerer§r%n§7Witching Gadgets§r%nTinkers' Construct
+betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.desc=序盤はノロノロとしか動けません。しかし、科学や魔法の力で簡単に解決することができます！%n%n§nカバーされているMod§r%nバニラ%nIndustrialCraft 2%n§7Gravitation Suite§r%nAdventure Backpack%nBiomes O' Plenty%nBlood Magic%nBotania%nDraconic Evolution%nEnder IO%nGalactiCraft%nOpenBlocks%nRailcraft%nThaumcraft%n§7Automagy§r%n§7Electro-Magic Tools§r%n§7ThaumicHorizons§r%n§7Thaumic Tinkerer§r%n§7Witching Gadgets§r%nTinkers' Construct
 
 # Quest: Relocator
 betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.name=Relocator
@@ -4849,7 +4849,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACjQ.desc=The advanced electric jetpack i
 
 # Quest: Row, Row, Row Your Boat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACmg.name=大船に乗ったつもりで行こう
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACmg.desc=水辺の近くに住んでいるのなら、ボートを作成しておいたほうが良いでしょう。%n%n板材、板材ハーフブロック、そしてナイフが必要になります。(このクエストのIDは666です。不気味ですね...)%n%n§3QuestBook社は、このボートの破損や事故に対して一切の責任を負いません。また、標準のワールド生成では海が生成されないので、活用機会が大幅に減るでしょう。川は多いですが、ソロプレイの場合は馬のほうが便利かもしれません。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACmg.desc=水辺の近くに住んでいるのなら、ボートを作成しておいたほうが良いでしょう。%n%n木材、木材ハーフブロック、そしてナイフが必要になります。(このクエストのIDは666です。不気味ですね...)%n%n§3QuestBook社は、このボートの破損や事故に対して一切の責任を負いません。また、標準のワールド生成では海が生成されないので、活用機会が大幅に減るでしょう。川は多いですが、ソロプレイの場合は馬のほうが便利かもしれません。
 
 # Quest: Trainspotting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACmw.name=トレインスポッティング
@@ -4913,11 +4913,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEnw.desc=かまど付きのトロッコ�
 
 # Quest: Steam Locomotive
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoA.name=蒸気機関車
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoA.desc=§7《§f蒸気機関車§7／Steam Locomotive》§f はかまど付きのトロッコよりも良い選択肢です。%n%n機関車は速度と方向を設定して走行が可能です。蒸気機関車の稼働を行うには、内部インベントリに水と燃料を投入し、蒸気を生産させる必要があります。%n%n停車駅で機関車の燃料補給を自動化するために、 §7《§f液体積込器§7／Fluid Loader》§f を利用できます。%n%n液体積込器をレールの上に配置し、 §7《§f貯水槽§7／Water Tank》§f やその他の無限水源を利用して水を供給してください。%n液体積込器はレールの2マス上に置いても認識されるため、プレイヤーの窒息を防ぐごとができます。(機関車に直接乗ることはできませんが、後部にトロッコを連結させて移動することが可能です)%n%n機関車は全てのかまど燃料で稼働を行えます。効率的な稼働のため、 §7《§f圧縮石炭ブロック§7／Block of Compressed Coal》§f などを利用すると便利かもしれません。%n燃料の補給は、 §7《§fアイテム積込器§7／Item Loader》§f を使用して水と同様の方法で行えます。%n%nMV時代に到達し、電力が安定する頃には、より便利な §7《§f電気機関車§7／Electric Locomotive》§f も選択できます。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoA.desc=§7《§f蒸気機関車§7／Steam Locomotive》§f はかまど付きのトロッコよりも良い選択肢です。%n%n機関車は速度と方向を設定して走行が可能です。蒸気機関車の稼働を行うには、内部インベントリに水と燃料を投入し、蒸気を生産させる必要があります。%n%n停車駅で機関車の燃料補給を自動化するために、 §7《§f液体積込器§7／Fluid Loader》§f を利用できます。%n%n液体積込器をレールの上に配置し、 §7《§f貯水槽§7／Water Tank》§f やその他の無限水源を利用して水を供給してください。%n液体積込器はレールの2マス上に置いても認識されるため、プレイヤーの窒息を防ぐごとができます。(機関車に直接乗ることはできませんが、後部にトロッコを連結させて乗り込むことが可能です)%n%n機関車は全てのかまど燃料で稼働を行えます。効率的な稼働のため、 §7《§f圧縮石炭ブロック§7／Block of Compressed Coal》§f などを利用すると便利かもしれません。%n燃料の補給は §7《§fアイテム積込器§7／Item Loader》§f を使用して、水と同様の方法で自動化が行えます。%n%nMV時代に到達し、電力が安定する頃には、より便利な §7《§f電気機関車§7／Electric Locomotive》§f も選択できます。
 
 # Quest: Electric Locomotive
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoQ.name=電気機関車
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoQ.desc=§7《§f電気機関車§7／Electric Locomotive》§f は §7《§f蒸気機関車§7／Steam Locomotive》§f よりもはるかに優れた選択肢です。%n%n使用には §7《§f電気レール§7／Electric Track》§f が必要です。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEoQ.desc=§7《§f電気機関車§7／Electric Locomotive》§f は §7《§f蒸気機関車§7／Steam Locomotive》§f よりもはるかに優れた選択肢です。%n%n運用には §7《§f電気レール§7／Electric Track》§f が必要になります。
 
 # Quest: Boost Your Speed
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEog.name=カートの速度を加速する
@@ -4932,12 +4932,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpA.name=線路は続くよどこまで�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpA.desc=ネザーなどに敷設した鉄道に、危険は常につきものです。%n%n§7《§f強化レール§7／Reinforced Track》§f は耐爆性を持っているので、爆発から鉄道路線を保護することが可能です。...乗客を除く。%n%nまた、強化レールの上を通るトロッコは、通常よりも25%%速い速度で走行が行えます。%n%nNEIは正しいレシピを表示せず、全てのRailcraftレールのレシピが表示されてしまいます。%n自力で正しいレシピを探し出してください。
 
 # Quest: The Transcontinental Railroad - Electric
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpQ.name=The Transcontinental Railroad - Electric
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpQ.desc=Electrical tracks are used together with your electric locomotive. You need to power the rails with energy.%n%nNEI doesn't show the right recipe on the first page. Go through the recipes a bit to find the right one.%n%n[note]Alternatively you can use the search bar to search for a specific name, in this case electric tracks![/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpQ.name=線路は続くよどこまでも - 電車
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpQ.desc=§7《§f電気レール§7／Electric Track》§f は §7《§f電気機関車§7／Electric Locomotive》§f の運用に使用するレールです。電力をレール経由で機関車へ供給できます。%n%nNEIは正しいレシピを表示せず、全てのRailcraftレールのレシピが表示されてしまいます。%n自力で正しいレシピを探し出してください。%n%n[note]メモ: NEIの検索バーに目的のアイテムの名前を入力してダブルクリックし、検索ページをスクロールで遷移すると見つけやすいです。[/note]
 
 # Quest: Electric Feeder Unit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpg.name=Electric Feeder Unit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpg.desc=To get your tracks electrified you need an electric feeding unit, shunting wires and some support frames. You can use an MFE or a transformer to get GT energy into the feeder unit.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpg.name=電力供給器
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEpg.desc=§7《§f電気レール§7／Eelctric Track》§f を介して §7《§f電気機関車§7／Electric Locomotive》§f へ電力を供給するには、以下の周辺機器が必要になります。%n%n§7《§f電力供給器§7／Electric Feeder Unit》§f%n§7《§fシャントワイヤー§7／Electric Shunting Wire》§f%n§7《§fワイヤー支持枠§7／Wire Support Frame》§f%n%n電力供給器はIC2のEUのみを受け付けることに注意してください。%nIC2の §7《§f変圧器§7／Transformer》§f やMFEを使用して、GregTechのEUをIC2のEUへ変換することができます。
 
 # Quest: Travelocity!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5Q.name=Travelocity!
@@ -4973,7 +4973,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEg.desc=§7《§f快速遷移レール�
 
 # Quest: So Much Nicer Than Ladders
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwQ.name=はしごよりも遥かに優れた手段
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwQ.desc=エレベーターは拠点での上下移動に最適です。色付きのエレベーターからは、同じ色のエレベーターにのみ移動できます。本物のエレベーターのようにしたいのなら、Malisis' Doorsも活用してみてください。%n回転エレベーターは、その階に止まったプレイヤーを特定の方向に向けます。両側に扉がついているエレベーターみたいな感じにできます。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwQ.desc=§7《§fエレベーター§7／Elevator》§f は拠点での上下移動に最適な設備です。%n%n2個以上のエレベーターをXZ軸が同じ且つY軸が3マス以上離れた位置に配置します。エレベーターの上に乗った状態でジャンプすると上に、スニークすると下に、エレベーター間でテレポート移動が行えます。%n%n染色されたエレベーターは、同色のエレベーター同士とのみ移動を行えます。。%n%n"本物の"エレベーターのようにしたいのであれば、 Malisis' Doors を活用してみてください。%n%n§7《§f回転エレベーター§7／Routing Elevator》§f は、移動時にプレイヤーの視点を特定方向へ向けます。ある階では片側に、別の階では反対側に出口のあるような場合に使用すると便利です。
 
 # Quest: Better boots with a little pizzazz
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI1A.name=Better boots with a little pizzazz
@@ -5519,7 +5519,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrQ.desc=色付きガラスでステン�
 
 # Quest: Mo' Hammers Mo' Problems
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.name=ハンマーが増えりゃ問題も増える
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.desc=また別のハンマーです、はい。熟練した造作大工のハンマーを持ってガラスや板材などの装飾ブロックを右クリックすると、横に回転させることができます。%n%nスニーク中に右クリックだと縦回転です。%n%nしかし、なぜ無印のハンマーより「熟練した」と書いてある方が低品質なんでしょうね？？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.desc=また別のハンマーです、はい。熟練した造作大工のハンマーを持ってガラスや木材などの装飾ブロックを右クリックすると、横に回転させることができます。%n%nスニーク中に右クリックだと縦回転です。%n%nしかし、なぜ無印のハンマーより「熟練した」と書いてある方が低品質なんでしょうね？？
 
 # Quest: Panels to Cover Your...Everything
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrw.name=パネルは全てをカバーしてくれる
@@ -5527,11 +5527,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrw.desc=パネル加工機で、木材�
 
 # Quest: Fancy Woods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.name=おしゃれな木材
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.desc=木材加工機を使えば、おしゃれな木材ブロックを作成できます。バニラ、Forestry、Extra Treesの板材しか使用できないのでご注意ください。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.desc=木材加工機を使えば、おしゃれな木材ブロックを作成できます。バニラ、Forestry、Extra Treesの木材しか使用できないのでご注意ください。
 
 # Quest: Look Mom, No Torches!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.name=Look Mom, No Torches!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.desc=Tired of a base using nothing but torches? This set of quests will go through the various options available to light up your beautiful base.%n%nFirst up, Railcraft lanterns. These come in stone and metallic varieties. The stone varieties don't need much to craft. One plus/minus for these lanterns is that they are solid blocks - while you cannot walk through them, they also do not fall if the blocks around them are removed. Search "lantern" in NEI for more varieties. They are a bit annoying to craft now, but if you check NEI you can make them pretty easily with assemblers later.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.name=ママ、見て！松明じゃない！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.desc=松明は量産性という点で優れていますが、あなたの素敵な拠点の湧き潰しに使用するには、いささかお洒落さに欠けると感じていませんか？%n%n良いセンスをお持ちですね。このクエスト項目の一連のクエスト群から、様々な種類の、そしてとてもお洒落で綺麗な光源を発見することができます。%n%nもっとも早期から作成できるRailcraftの §7《§fランタン§7／Lantern》§f を確認してみてください。%n%nRailcraftのランタンには複数のバリエーションが存在していますが、石材製と金属製の二種類に大別することが可能です。%n§7《§f石のランタン§7／Stone Lantern》§f はそこまでコストも高くないので、試しに作ってみてください。%n%nランタンは松明とは異なり、固体ブロックとして扱われます。これはメリットともデメリットとも取れるでしょう:%n当たり判定が大きいため、床に並べるのには適していませんが、空中に浮かして設置することができるので、建築の幅が広がります。%n%nNEIでランタンと検索すれば、様々な種類の光源をチェックできます。%n%n石材製のランタンは §7《§f組立機§7／Assembler》§f を使用して、より安いコストでクラフトすることができます。
 
 # Quest: Second Saw
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsg.name=新しいノコギリ
@@ -5586,12 +5586,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.name=3番目のドアには何が？
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvg.desc=Malisis' Doorsのドアファクトリーで、様々なデザインのドアを考え出しましょう。%n%nプレイヤーセンサーは、ボタンや感圧板よりも優れた開閉方法です。コストは少々高いですが...%n%nブロック混成機は...奇妙で不具合が起こる可能性があります。ちょうどいらないと思ってたので、あげますよ。%n%nMalisis' Doorsは他にも様々なドアを追加していますので、NEIで確認してみてください。
 
 # Quest: Build it Bigger
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.name=巨大建築用
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.desc=やればできる！建築ガイドは、単純な幾何学形状のガイドを表示してくれます。起動にはレッドストーン信号が必要です。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.name=夢は大きく持て
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHvw.desc=やればできる！%n%n§7《§f建築ガイド§7／Building Guide》§f は、単純な幾何学形状のガイドを表示してくれる設備です。%n%n側面の模様から形状やサイズを指定し、レッドストーン信号で有効化してください。
 
 # Quest: Faster, Better, Buildi-er
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.name=素早くより良く建築
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.desc=拡張型建築ガイドは、標準のものより多くのパターンを提供します。最大の変更点は、表示されたガイドに向かって右クリックすると、実際にブロックを配置することができる機能の追加です。起動にはレッドストーン信号が必要です。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.name=素早く、より良く、建ちく
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwA.desc=§7《§f拡張型建築ガイド§7／Enhanced Building Guide》§f は、標準のものより多くの機能を備えた建築ガイドです。%n%nもっとも重要なのは、有効化時に任意のブロックで右クリックすることで、ガイドブロックの地点に実際にブロックを配置することができる機能です。%n%n側面の模様から形状やサイズを指定し、レッドストーン信号で有効化してください。
 
 # Quest: More Like Ouch-i-tect
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwg.name=痛そうな建築用品
@@ -5747,7 +5747,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIw.name=Such Pretty Leaves...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIw.desc=Now that you have entered MV you can begin breeding Forestry trees the smart way. Start by getting a Treealyzer, and scan the vanilla trees. They will transform into the forestry versions. You will need to gather honey or honeydew drops from bee combs to power the Treealyzer. %n%nIf you want to bulk scan saplings, you can feed them through a GT scanner filled with honey.%n%nYou can also try the Genetics mod to modify them. It's on the first bee tab.
 
 # Quest: Collecting the Hybrids
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJA.name=Collecting the Hybrids
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJA.name=雑種の収集
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJA.desc=If you got lucky and found some bees in a village, put them in their houses next to some trees. Over time the bees will slowly pollinate the leaves of the trees. Using a grafter you can break the leaf blocks to retrieve a sapling 100%%, useful for getting the forestry saplings. This doesn't seem to work with magical trees though. You can trade with villagers to get proven grafters that have a longer lifetime. Also investigate magic, you have heard rumors of long lasting grafters available to magicians. %n%nGregTech also offers a really nice tool, the Branch Cutter.
 
 # Quest: Seeing the Fruits of Your Labor
@@ -7441,12 +7441,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFA.name=再生可能エネルギー
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFA.desc=野外で油田を見つけたあなたはこう考えたかもしれません。「電気時代を乗り越えるため、そろそろ発電方法を変えるときが来たかもしれない」と。 §7《§f蒸気§7／Steam》§f の使用は序盤の主要な発電方法であり、エネルギー源は大抵の場合燃焼可能なアイテム、つまり、原木だったはずです。蒸気はすべての進行段階にとって最適な選択肢になり得ないことは事実ですが、原木はそうではありません。このクエストラインでは、再生可能資源である原木を扱った発電と、化学物質の抽出についてガイドしていきます。%n%n各電圧Tierに到達するたびに、より大きな電力ニーズが課題となってきます。電圧は、下位Tierの電圧を4倍した数になります。(LVで32EU、MVで128EU、HVで512EUのように)%nしたがって、電圧Tierが上がるにつれて要求される機械セットアップも増え、各ステップもますます複雑になっていくことでしょう。これを維持するためには、原木->木炭のような単純な処理だけではなく、熱分解やバイオマスの発酵といった複雑な化学処理が重要となってきます。以降に続くチャプターから、原木を扱った処理の分岐を認識してください。%n%n最後に、完全に再生可能な発電は、必ずしも §7《§f石油§7／Oil》§f のような枯渇資源と比べると効率的ではないことを覚えておいてください。無限化が可能であることの代償に、同じEU/tの出力を得ようとした場合でも、より複雑な機械セットアップが要求されます。それでもこれは依然として有効な選択肢であり、この妥協を受け入れる価値もあるはずです。良い面として、これらのセットアップの副産物として、今後のクラフトでも要求される興味深い化学物質が得られることがあります。これらの化学物質は石油から直接得ることはできません。もちろん、一方だけを選ばず、両方の道を選択することもできます。どの道もあなた次第です。
 
 # Quest: Carbon, Chemically
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFQ.name=Carbon, Chemically
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFQ.desc=How does all of this organic stuff produce energy, anyways? You burn it, that's how! The heat from that burning heats up water into Steam, and this can make a Steam Turbine spin, generating rotational energy that can directly be converted into electricity with spinning magnetic fields. Pretty neat, right? The wood/charcoal provides the combustible material, and the atmosphere provides the oxygen to keep the fire going. With some chemistry, and GTNH magic, we can use these principles to generate power in an alternative way.%n%nIt's pretty much magic, really. Carbon Monoxide (CO) is a valid fuel for Gas Turbines, and it can be made with Charcoal and Oxygen. The CO has more power than the Charcoal used to make it, but the additional Oxygen will make this step not worth it if you get it from electrolyzing water or centrifuging air, since the EU needed for those crafts will make this process inefficient. There is, however, a more efficient way to automate Oxygen production, but you will need crops for it.%n%nYour target is Sugar and an MV Electrolyzer. This will give you Oxygen at almost 1000 EU per bucket. Each bucket of CO produces 24000 EU, made from one Charcoal that produces roughly 16000 EU in Steam, and costing 560 EU per craft. The whole process gives around 6000 EU of free power per Charcoal, around 30%% extra power overall!%n%nTo get automated Sugar from crops, you want Sugar Beets. Sugar Canes do the same thing, but with more EU cost to get the Sugar. There are other possible ways but, for now, just get loads of Sugar.  
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFQ.name=炭素は化学的に
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFQ.desc=有機物からエネルギーを抽出する最も簡単な方法をご存じですか？%n%nそう、燃焼です！%n%n燃焼から生じる熱が水を蒸気へ変え、蒸気はタービンを回転させ、その回転エネルギーから磁場を利用して電気を生み出します。素晴らしいと思いませんか？%n%n木材や木炭は燃焼素材を提供し、大気は火を維持するための酸素を提供します。これらの原理とGTNHの"魔法"を応用すれば、蒸気の効率的な代替案となる発電方法を利用することが可能です。%nまるで魔法のようですね。%n%n木炭と §7《§f酸素§7／Oxygen》§f から合成できる §7《§f一酸化炭素§7／Carbon Monoxide》§f(CO) は §7《§fガスタービン§7／Gas Turbine》§f の有効的な燃料です。%n%n一酸化炭素は素材となる木炭よりも多くのエネルギーを有しています。%nしかし、合成の過程で使用する、酸素を抽出するための水の電気分解や §7《§f空気§7／Air》§f の遠心分離で、多くのエネルギーが無駄になってしまいます。代わりに、水や空気に頼らずIC2農業で酸素を生産することを検討してください。%n%nここで目標となるのは、砂糖の供給とMVの §7《§f電解槽§7／Electrolyzer》§f です。%nこれにより、1バケツに付きほぼ1,000EUの消費で酸素を無限化可能です。%n%n1バケツの一酸化炭素は24,000EUを生産します。%n一酸化炭素は1バケツの酸素と1つの木炭、560EUの電力で合成を行います。%n木炭1つから蒸気を生産した場合に得られる電力は16,000EUであるため、全体のプロセスで木炭1つにつき約6,000EU、30%%の余剰電力が得られる計算になります。%n%n砂糖の無限化には §7《§fテンサイ§7／Sugar Beet》§f が適しています。%nサトウキビを利用することも可能ですが、砂糖を抽出する過程で消費するエネルギーが大きくなるため注意が必要です。
 
 # Quest: Burning the Carbon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFg.name=Burning the Carbon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFg.desc=If you've automated Carbon Monoxide, you can now burn it directly for EU in a Gas Turbine. It does not use the Steam Turbines that the boilers required, which is a good thing for two reasons: Steam Turbines are less fuel efficient than their Gas or Combustion alternatives, and steam in itself needs large pipes to move it, being much less power dense than gases or diesels. Additionally, you don't even need boilers at all! You can skip them altogether if you invest in this CO route.%n%nYou also get Ashes from this chemical reaction. They can be used in several ways, take a look!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFg.name=炭素を燃やせ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFg.desc=§7《§f一酸化炭素§7／Carbon Moboxide》§f の自動化が完了したら、 §7《§fガスタービン§7／Gas Turbine》§f で直接燃焼させて電力へ変換することができます。%n%nガスタービンによる発電は、これまでの §7《§fボイラー§7／Boiler》§f を介する §7《§f蒸気タービン§7／Steam Turbine》§f の発電と比べて、2つの点で有利だと言えます:%n%nまず、蒸気タービンはガスタービンや §7《§f燃焼エンジン§7／Combustion Engine》§f と比べて燃料効率が低いです。%n%n次に、蒸気タービンは §7《§f蒸気§7／Steam》§f の輸送や管理に大きなパイプやタンクを要します。これは蒸気のエネルギー密度がガスや §7《§fディーゼル§7／Diesel》§f と比べて低いことを意味しています。%n%nCOルートに投資した今、もうボイラーは全く必要ありません！%n%n一酸化炭素の合成の過程で、副産物として §7《§f灰§7／Ash》§f が入手できます。灰は様々な資源を抽出したり、肥料を合成するのに利用できます。
 
 # Quest: Sourcing Your Wood
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMFw.name=原木の供給源
@@ -7457,12 +7457,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.name=木炭の高速生産
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGA.desc=原木を大量に集めたからといって、それだけで電力問題が解決するわけではありません。原木を直接燃料として使用するのは前進するうえではあまり役に立たず、木炭に処理することが非常に重要になります。%n%nあなたは既に §7《§fコークス炉§7／Coke Oven》§f を設置しているはずです。しかし、コークス炉が木炭を1個生産するのには90秒の時間が掛かり、非効率的です。残念なことに、このTierではこれより早いプロセスは存在しないので、コークス炉の設置台数を増やして生産効率を改善する必要があります。では、何台のコークス炉が必要になるのでしょうか？%n%n目標にはさまざまなものがありますが、電力ニーズの良い指標として、19台のコークス炉をセットアップすることが挙げられます。この数は、2台の最大サイズのRailcraft §7《§f低圧蒸気ボイラー§7／LP Steam Boiler》§f を稼働させるのに十分な量の木炭と §7《§fクレオソート§7／Creosote》§f を生産します。1台は固体燃料用、もう1台は液体燃料用です。これらの詳細については次のクエストも参照してください。このセットアップを完了すると、MV2アンペア(LV8アンペア)相当のこのTierのニーズに十分な電力を生産して、次のTierに進むことができます。%n%nコークス炉は設置するだけではなく、自動化を施す必要があります。これにはいくつかの方法がありますが、最も安価な方法の一つを次に挙げます。%n%nチェストや §7《§f引き出し§7／Drawer》§f に §7《§fコンベアーモジュール (LV)§7／Conveyor Module (LV)》§f を取り付けた §7《§f錫製アイテムパイプ§7／Tin Item Pipe》§f を接続し、原木をコークス炉へ供給します。%n各炉の下にホッパーを配置して、アイテムパイプ経由で木炭を回収します。%nクレオソートの取り出しはやや難しいです。Tinkersの §7《§f鋳造蛇口§7／Seared Faucet》§f を炉の側面に設置し、 §7《§f木製液体パイプ§7／Wooden Fluid Pipe》§f と接続します。蛇口にExtra Utilitiesの §7《§fレッドストーンクロック§7／Redstone Clock》§f で断続的なRS信号を送り続けることで、内部のクレオソートを取り出すことができます。
 
 # Quest: Two Big Ovens
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGQ.name=Two Big Ovens
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGQ.desc=With 19 Coke Ovens automated, you can sustain two big boilers endlessly. The boilers you want to build for this are specifically the Low Pressure Railcraft Boilers, made with Iron, each one as big as they can be, a 3x4x3 of the Boiler Tanks. These multiblocks are expensive, but you will have plenty of power and will consume all the Creosote from your Coke Ovens to keep them running permanently.%n%n[note]These boilers have a High Pressure variant, for more information look in the multiblocks tab. This setup is not enough to sustain the high pressure boiler but you can add a few more coke ovens to sustain it if you want.[/note]%n%nThe same goes for the Large Bronze Boiler, GregTech's own way of improving on your tiny boilers, but with two added problems: you can't produce Charcoal fast enough for it, and it has a terrible efficiency for your Creosote, which means most of its power will be wasted. %n%nHowever, surprise! The GT++ Semifluid Generators work, and they're very efficient with the Creosote. You can use a few of those coupled with a Large Bronze Boiler, but you will still run into the issue of not producing Charcoal fast enough unless you do something about it. You can choose this as an option and complete this quest, but it's a more "experimental" alternative that is further into LV, although more powerful.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGQ.name=最強の二人
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGQ.desc=19基の §7《§fコークス炉§7／Coke Oven》§f のセットアップにより、2種類の大型ボイラーを永久に稼働させることが可能となりました。%n%nこの目的のために作成したいのは、Railcraftの §7《§f低圧蒸気ボイラー§7／Low-Pressure Steam Boiler》§f です。§7《§fボイラータンク§7／Boiler Tank》§f を最大サイズの3x4x3にし、液体用と固体用の2種類を設置します。%nこれらのマルチブロックはやや高価ですが、十分な電力を得ることができ、また §7《§fクレオソート§7／Creosote》§f も余すことなく発電に利用することができます。%n%n[note]Railcraftのボイラーには上位の §7《§3高圧§7／High-Pressure》§3 のものもありますが、19基のセットアップだけでは満足に動かすことができません。%nコークス炉を何基か追加することで維持が可能です。%n詳細はマルチブロックのクエスト項目を参照してください。[/note]%n%n同様のセットアップで §7《§f青銅製大型ボイラー§7／Large Bronze Boiler》§f を運用することもできますが、これには2つの問題があります。%n%n1つは、木炭を十分に速く生産できないこと。%nもう1つは、クレオソートは大型ボイラーのを燃料としては燃料効率が低く、取り出せる電力が減少してしまうことです。%n%n後者はGT++の §7《§f半流体発電機§7／Semi-Fluid Generator》§f を使用することで簡単に解決できます。%n%nこれと青銅製大型ボイラーを組み合わせた発電セットアップは強力ですが、木炭の供給を維持するためにコークス炉を何基か追加する必要があります。%n%n大型ボイラー+半流体発電機はLV時点での"実験的"な発電代替案であり、より強力的です。
 
 # Quest: The Benzene Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGg.name=The Benzene Tier
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGg.desc=Having walked into MV, you are soon going to be able to produce and consume Benzene. It's more efficient than burning the Charcoal in a boiler, but you will still need to provide a lot of wood to make sure you have consistent, abundant power. It's heavily recommended that you automate this wood input, if you haven't already, possibly with an MV Crop Manager instead of the LV one, or with the Crop Harvester from IC2. %n%nFor automation, you're still stuck with using bonsais, not regular trees. HV will provide a few options that don't need crops, but for now you might want to increase your crop stats by crossbreeding. Planting saplings on cropsticks creates 1/1/1 bonsais, which are much slower than their high-stat variants. If you want to invest in crops, you can later use the high stats to get more of a several dozen different items that crops can output, but you should start with Stickreed to develop your crop stats, not bonsais.%n%nDon't throw away your saplings, either! They will be useful later on, so save up as many as you can.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGg.name=ザ・ベンゼンTier
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGg.desc=MVの電圧Tierへ進んだ今、 §7《§fベンゼン§7／Benzene》§f の抽出と利用が行えるようになりました。%n%nベンゼンは木炭を §7《§fボイラー§7／Boiler》§f で直接燃焼させるよりも、燃料効率が良いですが、安定的な発電を行うにはより大量の原木が必要となります。%n%nまだ原木の供給を自動化していない場合、 §7《§f作物管理機 (MV)§7／Crop Manager (MV)》§f やIC2の §7《§f作物収穫機§7／Crop Harvester》§f を使用して自動化しておくことを、強くお勧めします。%n%n自動化には通常の樹木ではなく、引き続きIC2の作物を使用することになります。HVの電圧Tierでは、作物を使用しないいくつかの選択肢が開放されますが、今は作物交配で作物のステータスを向上させることに専念してください。%n%n空の §7《§f支柱§7／Crop》§f に苗木を植えると、ステータスが1/1/1の §7《§f盆栽§7／Bonsai》§f を得ることができますが、これは高ステータスの育種と比べて成長速度が遅いです。%nIC2農業を効率的に進めると、将来的には高ステータスの作物から複数のアイテムを効率よく収穫することができます。まずは盆栽ではなく、 §7《§fネバネバ葦§7／Stickreed》§f から始めて、作物のステータスを向上させると良いでしょう。%n%n余っている苗木を捨てないようにしてください。今後役に立つときが来るので、できるだけ多く保管しておきましょう。
 
 # Quest: Biodiesel Alternative
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGw.name=Biodiesel Alternative
@@ -7481,8 +7481,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMHg.name=Biological Diesel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMHg.desc=Reacting the three chemicals from the steps before with each other, you get a highly energetic fluid that is, for most purposes, equivalent to Diesel. To burn it for power, you cannot use Steam or Gas Turbines, but instead the Combustion Generators that Diesel also uses. They are reasonably efficient, generating 90%% of the EU shown in NEI per bucket of fuel, although Biodiesel has a lower fuel value than either Benzene or Diesel, but not by much. Besides the generators, you also need a big enough fuel input per tick to sustain your base, so make sure to expand your setup enough to fuel all of your other automations.%n%nBiodiesel isn't the only thing you get from this process, though. As a side product, you also get Glycerol. Do not throw this away, it will prove itself useful when making epoxy resin, and possibly in other setups, to save you some work at a later time. When using singleblock Chemical Reactors, the recipe will stop if the Glycerol output is full, a situation in which a super tank will surely come in handy. %n%nWith that said, HV holds a big upgrade to this fuel that you might want to invest in. Keep progressing to check it out!%n%n 
 
 # Quest: Advanced Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMHw.name=Advanced Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMHw.desc=Your power needs quadrupled since the last tier, and it's likely that you're not getting Charcoal fast enough. Instead of adding even more Coke Ovens, why not build an upgraded version of them?%n%nThe caveat is that you won't keep producing Creosote alongside the Charcoal from now on. It makes for decent power in the appropriate generators, and you might have already used it to produce Lubricant. Despite that, you can still get Creosote from processing in the next steps of this questline, so you can still get it if you need it. With that out of the way, let's move on to the Advanced Coke Oven (ACO).%n%nHow is it made? The ACO needs a lot more steps than the normal Coke Ovens, steps centered around Nether materials, cooked in the EBF and then cooled down. The cooling part is normally the Vacuum Freezer's job, as you will see later in progression, but you can't build it yet; because of that, you'll have to use IC2 coolant to finish the bricks used in the ACO. Once you've crafted all the blocks needed for this, you can put it together and start it up, to see what's different from before.%n%nThe speed of this new one is 1 Charcoal per second, or the equivalent to 90 Coke Ovens. The cost of this is the loss of the Creosote, and also that it needs fuel to work, making it so approaximately 1/16 of your Charcoal is lost in this step. Fortunately, you can automate it with item pipes, and the EnderIO conduits make it even simpler. Input wood, input charcoal, output charcoal.%n%nMake one of these multis to continue. Be warned that you might need more!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMHw.name=発展型コークス炉
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMHw.desc=前の電圧Tierから電力需要が4倍に増え、木炭の供給も追い付いていないはずです。%n§7《§fコークス炉§7／Coke Oven》§f をただ追加するのではなく、強化されたものを試してみてください。%n%n§7《§f発展型コークス炉§7／Blast Furnace》§f は単なるコークス炉の強化版ではなく、いくつかの点で異なることを留意してください。%n%n発展型コークス炉§7(以下ACO)§fは通常のコークス炉の90倍の処理速度を持ちますが、副産物として §7《§fクレオソート§7／Creosote》§f の生産を行いません。この点を踏まえて、発展型コークス炉について述べていきます。%n%nACOの設置には通常のコークス炉よりも多くの工程を要します。%nネザーラックに由来するネザーレンガを §7《§f電気高炉§7／Electric Blast Furnace》§f で焼成し、その後冷却を行います。これには通常 §7《§f真空冷却器§7／Vacuum Freezer》§f を用いますが、この段階ではまだ作成できないため、 §7《§fIC2冷却材§7／IC2 Coolant》§f を利用する必要があります。%n設置に必要な34ブロックを作成したら、試しに設置し違いを確かめてみてください。%n%nACOは1秒に1個の木炭を精錬でき、これは90基のコークス炉に相当します。その代償として、クレオソートが生産されず、また木炭や石炭を燃料として消費するため、1/16の木炭のロスが発生します。%n%n従来通り §7《§fアイテムパイプ§7／Item Pipe》§f で自動化を施すことが可能です。%nMVで開放されるEnder IOの §7《§fアイテム導管§7／Item Conduit》§f を使用すれば、より容易に自動化を行うこともできます。原木を入力し、木炭を出力&入力するよう設定を施してください。%n%nこのマルチブロックを組み立てるのに十分な建材を用意して、クエストラインを進めてください。
 
 # Quest: Pyrolyse Oven
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMIA.name=熱分解炉
@@ -7537,8 +7537,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMLA.name=Direct Ethylene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMLA.desc=Wood Gas has a big portion of barely useful outputs, but also some hidden gems. The hardest one to get, arguably, is Ethylene, since it needs automated Sulfuric Acid alongside the Ethanol you're already getting. DTing Wood Gas is the main way to get Ethylene directly, without worrying about the acid, when it comes to renewable power. This make Polyethylene, an important plastic you've already worked with at this point.%n%nThe caveat is, of course, the small amount that you get in this recipe. Whether or not you set this process up is your choice, but it's generally useful, especially if your main Ethanol source is Wood Vinegar. 
 
 # Quest: No Benzene Yet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMLQ.name=No Benzene Yet
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMLQ.desc=This questbook page is supposed to explain the Benzene powergen line, but you might have noticed that you haven't made any Benzene yet. That's because the recipe path to get it from Charcoal has an MV recipe, and you can't just skip straight to MV with the small amount of steam you were using in the Bronze Age. %n%nThere are also other paths for renewable power in this page. They have similar sources, or the same source, but different processing lines, and the entire thing looks like a tree branch, with many different ways in which you can go. The Carbon Monoxide path is one example of this, and there are many more to come in the future.%n%nRegardless of which path you chose to get power from your Charcoal, you can now sustain an EBF comfortably and get power more efficiently. It's recommended that you move away from steam in the next tier, because you will need to transport too much of it to produce good amounts of MV power. Fortunately, you won't need steam at all!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMLQ.name=ベンゼンはまだか！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMLQ.desc=このクエスト項目がサポートしている発電方法は §7《§fベンゼン§7／Benzene》§f が主軸となっているのにも関わらず、まだ一度もベンゼンを扱っていないことに気付いたかもしれません。%n%nこれは、木炭からベンゼンを抽出するレシピがMVで開放されるものであり、蒸気時代に扱っていた少量の §7《§f蒸気§7／Steam》§f だけでは直接MV時代へ移行できなかったためです。%n%nこのクエスト項目には、ベンゼン以外にも様々な再生可能エネルギーのパスが用意されています。%nこれらは似たような、または同じソースを持ちながら、異なる処理工程を施す必要があり、全体が樹の枝のように多様な分岐を形成しています。%n§7《§f一酸化炭素§7／Carbon Monoxide》§f のパスはその一例であり、将来的には更に多くのパスが登場することになるでしょう。%n%n木炭を電力へ変換するためにどんなパスを選ぶにせよ、既に §7《§f電気高炉§7／Electric Blast Furnace》§f を安定稼働させるのに十分な電力源を得ることが可能です。%n%n次のTierでは蒸気から離れることをお勧めします。MV時代のニーズに応えるだけの電力を得るためには、大量の蒸気の管理が必要となり、これがネックとなるためです。%n%n幸いなことに、次のTierでは蒸気に変わる新たな発電方法が複数用意されています！
 
 # Quest: Green Nitric Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMLg.name=Green Nitric Acid
@@ -13532,104 +13532,104 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAKg.name=報酬エリア
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAKg.desc=§7《§f報酬バッグ§7／LootBag》§fをアップグレード！
 
 # Quest: Steam > LV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABtw.name=Steam > LV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABtw.desc=Trade three Steam lootbags to get a better one: LV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABtw.name=トレード : 蒸気時代 > LV時代 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABtw.desc=3つの §7《§f報酬バッグ (Tier 0.5 蒸気時代)§7／LootBag (Steam Age)》§f を%n%n1つの §7《§f報酬バッグ (Tier 1 LV時代)§7／LootBag (Tier 1 LV)》§f に交換します。
 
 # Quest: Basic > Steam Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.name=Basic > Steam Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.desc=Trade three Basic lootbags to get a better one: Steam.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.name=トレード : 石器時代 > 蒸気時代 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.desc=3つの §7《§f報酬バッグ (Tier 0 石器時代)§7／LootBag (Basic Stone Age)》§f を%n%n1つの §7《§f報酬バッグ (Tier 0.5 蒸気時代)§7／LootBag (Steam Age)》§f に交換します。
 
 # Quest: LV > MV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuw.name=LV > MV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuw.desc=Trade three LV lootbags to get a better one: MV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABuw.name=トレード : LV時代 > MV時代 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABuw.desc=3つの §7《§f報酬バッグ (Tier 1 LV時代)§7／LootBag (Tier 1 LV)》§f を%n%n1つの §7《§f報酬バッグ (Tier 2 MV時代)§7／LootBag (Tier 2 MV)》§f に交換します。
 
 # Quest: MV > HV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvQ.name=MV > HV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvQ.desc=Trade three MV lootbags to get a better one: HV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABvQ.name=トレード : MV時代 > HV時代 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABvQ.desc=3つの §7《§f報酬バッグ (Tier 2 MV時代)§7／LootBag (Tier 2 MV)》§f を%n%n1つの §7《§f報酬バッグ (Tier 3 HV時代)§7／LootBag (Tier 3 HV)》§f に交換します。
 
 # Quest: HV > EV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvw.name=HV > EV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvw.desc=Trade three HV lootbags to get a better one: EV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABvw.name=トレード : HV時代 > EV時代 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABvw.desc=3つの §7《§f報酬バッグ (Tier 3 HV時代)§7／LootBag (Tier 3 HV)》§f を%n%n1つの §7《§f報酬バッグ (Tier 4 EV時代)§7／LootBag (Tier 4 EV)》§f に交換します。
 
 # Quest: EV > IV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABwQ.name=EV > IV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABwQ.desc=Trade three EV lootbags to get a better one: IV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABwQ.name=トレード : EV時代 > IV時代 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABwQ.desc=3つの §7《§f報酬バッグ (Tier 4 EV時代)§7／LootBag (Tier 4 EV)》§f を%n%n1つの §7《§f報酬バッグ (Tier 5 IV時代)§7／LootBag (Tier 5 IV)》§f に交換します。
 
 # Quest: Forest Ranger Basic > Forest Ranger Advanced Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNA.name=Forest Ranger Basic > Forest Ranger Advanced Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNA.desc=Trade three Forest Ranger Basic lootbags to get a better one: Forest Ranger Advanced.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACNA.name=トレード : 普通 > 高度な森林監視人 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACNA.desc=3つの §7《§f報酬バッグ (普通の森林監視人)§7／LootBag (Forest Ranger Basic)》§f を%n%n1つの §7《§f報酬バッグ (高度な森林監視人)§7／LootBag (Forest Ranger Advanced)》§f に交換します。
 
 # Quest: Forest Ranger Advanced > Forest Ranger Expert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNQ.name=Forest Ranger Advanced > Forest Ranger Expert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNQ.desc=Trade three Forest Ranger Advanced lootbags to get a better one: Forest Ranger Expert.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACNQ.name=トレード : 高度 > 名人の森林監視人 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACNQ.desc=3つの §7《§f報酬バッグ (高度な森林監視人)§7／LootBag (Forest Ranger Advanced)》§f を%n%n1つの §7《§f報酬バッグ (名人の森林監視人)§7／LootBag (Forest Ranger Expert)》§f に交換します。
 
 # Quest: Space Invaders Moon > Space Invaders Mars Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNg.name=Space Invaders Moon > Space Invaders Mars Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNg.desc=Trade three Space Invaders Moon lootbags to get a better one: Space Invaders Mars.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACNg.name=トレード : 月 > 火星のスペース・インベーダー 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACNg.desc=3つの §7《§f報酬バッグ (月のスペース・インベーダー)§7／LootBag (Space Invaders Moon)》§f を%n%n1つの §7《§f報酬バッグ (火星のスペース・インベーダー)§7／LootBag (Space Invaders Mars)》§f に交換します。
 
 # Quest: Space Invaders Mars > Space Invaders Asteroids Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNw.name=Space Invaders Mars > Space Invaders Asteroids Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNw.desc=Trade three Space Invaders Mars lootbags to get a better one: Space Invaders Asteroids.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACNw.name=トレード : 火星 > 小惑星帯のスペース・インベーダー 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACNw.desc=3つの §7《§f報酬バッグ (火星のスペース・インベーダー)§7／LootBag (Space Invaders Mars)》§f を%n%n1つの §7《§f報酬バッグ (小惑星帯のスペース・インベーダー)§7／LootBag (Space Invaders Asteroids)》§f に交換します。
 
 # Quest: Magic Novice > Magic Adept Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOA.name=Magic Novice > Magic Adept Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOA.desc=Trade three Magic Novice lootbags to get a better one: Magic Adept.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACOA.name=トレード : 初歩的 > 熟練の魔導学 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACOA.desc=3つの §7《§f報酬バッグ (初歩的な魔導学)§7／LootBag (Magic Novice)》§f を%n%n1つの §7《§f報酬バッグ (熟練の魔導学)§7／LootBag (Magic Adept)》§f に交換します。
 
 # Quest: Magic Adept > Magic Master Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOQ.name=Magic Adept > Magic Master Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOQ.desc=Trade three Magic Adept lootbags to get a better one: Magic Master.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACOQ.name=トレード : 熟練 > 達人の魔導学 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACOQ.desc=3つの §7《§f報酬バッグ (熟練の魔導学)§7／LootBag (Magic Adept)》§f を%n%n1つの §7《§f報酬バッグ (達人の魔導学)§7／LootBag (Magic Master)》§f に交換します。
 
 # Quest: Magic Master > Magic Grandmaster Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOg.name=Magic Master > Magic Grandmaster Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOg.desc=Trade three Magic Master lootbags to get a better one: Magic Grandmaster.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACOg.name=トレード : 達人 > 大魔導士の魔導学 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACOg.desc=3つの §7《§f報酬バッグ (達人の魔導学)§7／LootBag (Magic Master)》§f を%n%n1つの §7《§f報酬バッグ (大魔導士の魔導学)§7／LootBag (Magic Grandmaster)》§f に交換します。
 
 # Quest: Magic Grandmaster > Magic Grandmaster Unique Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOw.name=Magic Grandmaster > Magic Grandmaster Unique Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOw.desc=Trade sixteen Magic Grandmaster lootbags to get a better one: Magic Grandmaster Unique.%n%n[note]PS: You can only get each of the rewards once, and there's 6 different ones.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACOw.name=トレード : 大魔導士 > 大魔導士の魔導学 - ユニーク 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACOw.desc=16つの §7《§f報酬バッグ (大魔導士の魔導学)§7／LootBag (Magic Grandmaster)》§f を%n%n1つの §7《§f報酬バッグ (大魔導士の魔導学 - ユニーク)§7／LootBag (Magic Grandmaster - Unique)》§f に交換します。%n%n[note]PS: ユニークに分類される報酬バッグからは、同じ報酬が出ることはありません。%n全ての報酬を入手すると開けなくなります。[/note]
 
 # Quest: BM Novice > BM Adept Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPA.name=BM Novice > BM Adept Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPA.desc=Trade three BM Novice lootbags to get a better one: BM Adept.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACPA.name=トレード : 初歩的 > 熟練の血魔術 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACPA.desc=3つの §7《§f報酬バッグ (初歩的な血魔術)§7／LootBag (BM Novice)》§f を%n%n1つの §7《§f報酬バッグ (熟練の血魔術)§7／LootBag (BM Adept)》§f に交換します。
 
 # Quest: BM Adept > BM Master Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPQ.name=BM Adept > BM Master Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPQ.desc=Trade three BM Adept lootbags to get a better one: BM Master.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACPQ.name=トレード : 熟練 > 達人の血魔術 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACPQ.desc=3つの §7《§f報酬バッグ (熟練の血魔術)§7／LootBag (BM Adept)》§f を%n%n1つの §7《§f報酬バッグ (達人の血魔術)§7／LootBag (BM Master)》§f に交換します。
 
 # Quest: Bees Basic > Bees Advanced Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPg.name=Bees Basic > Bees Advanced Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPg.desc=Trade three Bees Basic lootbags to get a better one: Bees Advanced.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACPg.name=トレード : 普通 > 高度な養蜂 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACPg.desc=3つの §7《§f報酬バッグ (普通の養蜂)§7／LootBag (Bees Basic)》§f を%n%n1つの §7《§f報酬バッグ (高度な養蜂)§7／LootBag (Bees Advanced)》§f に交換します。
 
 # Quest: Bee Advanced > Bees Expert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPw.name=Bee Advanced > Bees Expert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPw.desc=Trade three Bees Advanced lootbags to get a better one: Bees Expert.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACPw.name=トレード : 高度 > 名人の養蜂 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACPw.desc=3つの §7《§f報酬バッグ (高度な養蜂)§7／LootBag (Bees Advanced)》§f を%n%n1つの §7《§f報酬バッグ (名人の養蜂)§7／LootBag (Bees Expert)》§f に交換します。
 
 # Quest: Fast Food > Slow Food Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpg.name=Fast Food > Slow Food Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpg.desc=Trade three Fast Food lootbags to get a better one: Slow Food. (Since when is slow food better?)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACpg.name=トレード : ファストフード > スローフード 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACpg.desc=3つの §7《§f報酬バッグ (ファストフード)§7／LootBag (Fast Food)》§f を%n%n1つの §7《§f報酬バッグ (スローフード)§7／LootBag (Slow Food)》§f に交換します。%n%n(スローフードって美味しいんだっけ？)
 
 # Quest: Slow Food > Haute Cuisine Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpw.name=Slow Food > Haute Cuisine Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpw.desc=Trade three Slow Food lootbags to get a better one: Haute Cuisine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACpw.name=トレード : スローフード > オートキュイジーヌ 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACpw.desc=3つの §7《§f報酬バッグ (スローフード)§7／LootBag (Slow Food)》§f を%n%n1つの §7《§f報酬バッグ (オートキュイジーヌ)§7／LootBag (Haute Cuisine)》§f に交換します。
 
 # Quest: Haute Cuisine > Dessert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqA.name=Haute Cuisine > Dessert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqA.desc=Trade six Haute Cuisine lootbags to get a better one: Dessert.%n%n[note]BTW, there's only the marshmallow in this one, so it's not really worth it.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACqA.name=トレード : オートキュイジーヌ > デザート 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACqA.desc=6つの §7《§f報酬バッグ (オートキュイジーヌ)§7／LootBag (Haute Cuisine)》§f を%n%n1つの §7《§f報酬バッグ (デザート)§7／LootBag (Dessert)》§f に交換します。%n%n[note]因みに、この報酬バッグにはマシュマロしか入っていないので、あまり価値は無いかもしれません。[/note]
 
 # Quest: Transportation Class 3 > Transportation Class 2 Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqQ.name=Transportation Class 3 > Transportation Class 2 Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqQ.desc=Trade three Transportation Class 3 lootbags to get a better one: Transportation Class 2.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACqQ.name=トレード : クラス 3 > クラス 2 輸送機関 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACqQ.desc=3つの §7《§f報酬バッグ (クラス 3 輸送機関)§7／LootBag (Transportation 3 Class)》§f を%n%n1つの §7《§f報酬バッグ (クラス 2 輸送機関)§7／LootBag (Transportation 2 Class)》§f に交換します。
 
 # Quest: Transportation Class 2 > Transportation Class 1 Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqg.name=Transportation Class 2 > Transportation Class 1 Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqg.desc=Trade three Transportation Class 2 lootbags to get a better one: Transportation Class 1.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACqg.name=トレード : クラス 2 > クラス 1 輸送機関 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACqg.desc=3つの §7《§f報酬バッグ (クラス 2 輸送機関)§7／LootBag (Transportation 2 Class)》§f を%n%n1つの §7《§f報酬バッグ (クラス 1 輸送機関)§7／LootBag (Transportation 1 Class)》§f に交換します。
 
 # Quest: Chef Training
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.name=Chef Training
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.desc=I need some ingredients to help me train since they don't grow well where I am, could you provide some? I'll give you the results in return.%n%n[note]You only need to turn in one set each time you complete the quest.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.name=シェフのためのトレーニング
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.desc=私の住んでいる地域では、いくつかの食材が栽培されていないので、代わりに集めて頂けませんか？%nもちろんお礼は差し上げますよ。%n%n[note]このクエストは複数回クリア可能です。[/note]
 
 # Quest: IV > LuV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmg.name=IV > LuV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmg.desc=Trade three IV lootbags to get a better one: LuV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmg.name=トレード : IV時代 > LuV時代 報酬バッグ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmg.desc=3つの §7《§f報酬バッグ (Tier 5 IV時代)§7／LootBag (Tier 5 IV)》§f を%n%n1つの §7《§f報酬バッグ (Tier 6 LuV時代)§7／LootBag (Tier 6 LuV)》§f に交換します。
 
 
 ### Quests in multiple quest lines ###
@@ -14134,129 +14134,129 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=There must a be a way to make a
 ### Quests in no quest lines ###
 
 # Quest: Trigger LoC
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.name=Trigger LoC
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.desc=Triggered by having a "Lamp of Cinders" in your inventory.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.name=トリガー : 灰のランプ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.desc=これはトリガークエストです。%n%n§7《§f灰のランプ§7／Lamp of Cinders》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger Singularity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxA.name=Trigger Singularity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxA.desc=Triggered by making a singularity.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxA.name=トリガー : 特異点
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxA.desc=これはトリガークエストです。%n%n§7《§f特異点§7／Singularity》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger Shard of Creation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxQ.name=Trigger Shard of Creation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxQ.desc=Triggered by making a "Shard of Creation".
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxQ.name=トリガー : 創成の結晶片
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxQ.desc=これはトリガークエストです。%n%n§7《§f創成の結晶片§7／Shard of Creation》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger Life and Soul Shard
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxg.name=Trigger Life and Soul Shard
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxg.desc=Triggered by making a "Life Shard" and a "Soul Shard".
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxg.name=トリガー : 命の欠片 & 魂の欠片
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxg.desc=これはトリガークエストです。%n%n§7《§f命の欠片§7／Life Shard》§f と §7《§f魂の欠片§7／Soul Shard》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger Unknown Crystal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw.name=Trigger Unknown Crystal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw.desc=Triggered by finding a "Mysterious Crystal".
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw.name=トリガー : 未知のクリスタルの破片
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw.desc=これはトリガークエストです。%n%n§7《§f未知のクリスタルの破片§7／Unknown Crystal Shard》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger Life
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.name=Trigger Life
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.desc=Triggers the Life Canister Quest after a Wither death.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.name=トリガー : ライフ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.desc=これはトリガークエストです。%n%nウィザーを討伐してスキップしてください。
 
 # Quest: Trigger:Ring
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.name=Trigger: リング
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.name=トリガー : "一つの指輪"
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.desc=これはトリガークエストです。%n%n§7《§f"一つの指輪"§7／The One Ring》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Mjolnir
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.name=Trigger: ミョルニル
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.desc=Find a mjolnir
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.name=トリガー : 壊れたミョルニルの遺物
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.desc=これはトリガークエストです。%n%n§7《§f壊れたミョルニルの遺物§7／Broken Relic of Mjolnir》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Ballthingy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.name=Trigger: Ballthingy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.desc=Find? or make a LS
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.name=トリガー : 召雷具
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.desc=これはトリガークエストです。%n%n§7《§f召雷具§7／Lightning Summoner》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:CtH (unlock)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.name=Trigger: CtH (unlock)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.desc=Complete collecting the hybrids to trigger
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.name=トリガー : 雑種の収集
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.desc=これはトリガークエストです。%n%n§7《§f雑種の収集§7／Collecting the Hybrids》§f クエストを達成してスキップしてください。
 
 # Quest: Bees Template
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw.name=Bees Template
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw.desc=Get the princess bee and reward bag in NEI first.%nCopy this quest.%nPress Icon and set the icon to the bee.%nChange the name, decription, and rewards.%n%nPress Task, and select the stone, and replace it with the princess.%nBefore closing, select the ... next to the bee name and press Raw NBT%nGo into Tag, Genome, Chromosomes. The first one is the name and must stay. %nGo inside there and delete the first entry, keep both of the species so players%nmust have purebreeds.%nDelete the rest of the chromosomes.%nDelete the rest of the entries for Genome.%n%nPress Requirements. Remove the Infinity unlock requirement and select the required bee quests. Use the common bees quest if nothing applies.%n%nChange Show:Hidden to Show:Normal.%n%nTo reduce waste in the questbook file ideally you should also go into the advanced options, then press ... for the icon, and remove unnecessary NBT there as well. Just leave the species as above.%n%n%n§3You can change the visibility of requirements by pressing the eye symbol in the requirements menu.
 
 # Quest: Trigger:Silicone Rubber Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.name=Trigger: シリコーンゴム Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.name=トリガー : シリコーンゴム
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.desc=これはトリガークエストです。%n%n§7《§fシリコーンゴムシート§7／Silicone Rubber Sheet》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:PTFE Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.name=Trigger:PTFE Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.name=トリガー : ポリテトラフルオロエチレン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.desc=これはトリガークエストです。%n%n§7《§fポリテトラフルオロエチレンシート§7／Polytetrafluoroethylene Sheet》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Polystyrene Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.name=Trigger: ポリスチレン Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.name=トリガー : ポリスチレン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.desc=これはトリガークエストです。%n%n§7《§fポリスチレンシート§7／Polystyrene Sheet》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Epoxid Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.name=Trigger: エポキシ Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.name=トリガー : エポキシ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.desc=これはトリガークエストです。%n%n§7《§fエポキシシート§7／Epoxid Sheet》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Naqline Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.name=Trigger: ナクアダライン Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.name=トリガー : ナクアダライン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.desc=これはトリガークエストです。%n%n§7《§fナクアダの粉§7／Naquadah Dust》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Loot Game
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw.name=Trigger: Loot Game
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw.desc=Find a loot game room
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw.name=トリガー : LootGames
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw.desc=これはトリガークエストです。%n%n§7《§fミニゲーム・ダンジョン§7／Minigame Dungeon》§f を訪れてスキップしてください。
 
 # Quest: Trigger Flippers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALVA.name=Trigger Flippers
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALVA.name=トリガー : 足ひれ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVA.desc=
 
 # Quest: Trigger:Titanium Moon Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALVQ.name=Trigger: チタン/月 Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALVQ.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALVQ.name=トリガー : 月 - チタン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALVQ.desc=これはトリガークエストです。%n%n§7《§fチタンインゴット§7／Titanium Ingot》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Platline Platinum Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALVg.name=Trigger: 白金族ライン処理/プラチナ Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALVg.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALVg.name=トリガー : 白金族ライン - プラチナ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALVg.desc=これはトリガークエストです。%n%n§7《§fプラチナの粉§7／Platinum Dust》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:PBI Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALVw.name=Trigger: PBI Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALVw.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALVw.name=トリガー : ポリベンゾイミダゾール
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALVw.desc=これはトリガークエストです。%n%n§7《§fポリベンゾイミダゾールプレート§7／Polybenzimidazole Plate》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Platline Palladium Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWA.name=Trigger: 白金族ライン/パラジウム Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWA.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWA.name=トリガー : 白金族ライン - パラジウム
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWA.desc=これはトリガークエストです。%n%n§7《§fパラジウムの粉§7／Palladium Dust》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Platline Rhodium Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWQ.name=Trigger: 白金族ライン/ロジウム Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWQ.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWQ.name=トリガー : 白金族ライン - ロジウム
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWQ.desc=これはトリガークエストです。%n%n§7《§fロジウムの粉§7／Rhodium Dust》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Platline Ruthenium Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWg.name=Trigger: 白金族ライン/ルテニウム Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWg.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWg.name=トリガー : 白金族ライン - ルテニウム
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWg.desc=これはトリガークエストです。%n%n§7《§fルテニウムの粉§7／Ruthenium Dust》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Platline Iridium Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWw.name=Trigger: 白金族ライン/イリジウム Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALWw.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWw.name=トリガー : 白金族ライン - イリジウム
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALWw.desc=これはトリガークエストです。%n%n§7《§fイリジウムの粉§7／Iridium Dust》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Platline Osmium Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALXA.name=Trigger: 白金族ライン/オスミウム Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALXA.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALXA.name=トリガー : 白金族ライン - オスミウム
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALXA.desc=これはトリガークエストです。%n%n§7《§fオスミウムの粉§7／Osmium Dust》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger:Tungstensteel Mars Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.name=Trigger: タングステンスチール/火星 Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.name=トリガー : 火星 - タングステンスチール
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.desc=これはトリガークエストです。%n%n§7《§fタングステンスチールインゴット§7／Tungstensteel Ingot》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger: Obtain Sunnarium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.name=Trigger: サナリウムの入手
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.name=トリガー : サナリウム
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.desc=これはトリガークエストです。%n%n§7《§fサナリウムの粉§7／Sunnarium Dust》§f 、 §7《§fとても小さなサナリウムの粉§7／Tiny Pile of Sunnarium Dust》§f 、 §7《§fサナリウム§7／Sunnarium》§f 、 §7《§fサナリウムの欠片§7／Sunnarium Piece》§f をインベントリに入れてスキップしてください。
 
 # Quest: Trigger: SMD Transistor Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.name=Trigger: SMDトランジスタ Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=No Description
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.name=トリガー : SMDトランジスタ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=これはトリガークエストです。%n%n§7《§fSMDトランジスタ§7／SMD Transistor》§f をインベントリに入れてスキップしてください。
 
 # Quest: Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.desc=This quest should never be complete which is useful to hide templates and other things.
 
 # Quest: Trigger:Styrene-Butadiene rubber
-betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=Trigger: スチレンブタジエンゴム
+betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=トリガー : スチレンブタジエンゴム
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.desc=No Description
 
 # Quest: Trigger: LV Extruder Skip
-betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.name=Trigger: LV 押出機 Skip
+betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.name=トリガー : LV 押出機 Skip
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.desc=No Description
