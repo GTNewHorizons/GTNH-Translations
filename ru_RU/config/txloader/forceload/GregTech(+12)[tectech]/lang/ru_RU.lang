@@ -479,12 +479,12 @@ gt.blockmachines.hatch.dynamotunnel.tier.14.name=Legendary Laser Source Hatch
 gt.blockmachines.hatch.dynamotunnel.desc.0=Многоамперный выход из мультиблоков
 gt.blockmachines.hatch.dynamotunnel.desc.1=Пропускная способность
 
-gt.blockmachines.emin.tier.08.name=UV Elemental Input Hatch
-gt.blockmachines.emin.tier.09.name=UHV Elemental Input Hatch
-gt.blockmachines.emin.tier.10.name=UEV Elemental Input Hatch
-gt.blockmachines.emin.tier.11.name=UIV Elemental Input Hatch
-gt.blockmachines.emin.tier.12.name=UMV Elemental Input Hatch
-gt.blockmachines.emin.tier.13.name=UXV Elemental Input Hatch
+gt.blockmachines.emin.tier.08.name=UV Элементный входной шлюз
+gt.blockmachines.emin.tier.09.name=UHV Элементный входной шлюз
+gt.blockmachines.emin.tier.10.name=UEV Элементный входной шлюз
+gt.blockmachines.emin.tier.11.name=UIV Элементный входной шлюз
+gt.blockmachines.emin.tier.12.name=UMV Элементный входной шлюз
+gt.blockmachines.emin.tier.13.name=UXV Элементный входной шлюз
 gt.blockmachines.emin.desc=Elemental Input for Multiblocks
 
 gt.blockmachines.emout.tier.08.name=UV Elemental Output Hatch
@@ -650,7 +650,7 @@ gt.blockmachines.multimachine.em.transformer.desc.2=Only 0.004% power loss, HAYO
 gt.blockmachines.multimachine.em.transformer.desc.3=Will explode if broken while running
 
 gt.blockmachines.multimachine.tm.microwave.name=Совершенная микроволновая печь
-gt.blockmachines.multimachine.tm.microwave.hint.0=1 - Classic Hatches or Clean Stainless Steel Casing
+gt.blockmachines.multimachine.tm.microwave.hint.0=1 - Шлюзы или Чистый корпус из нержавеющей стали
 gt.blockmachines.multimachine.tm.microwave.hint.1=Also acts like a hopper so give it an Output Bus
 gt.blockmachines.multimachine.tm.microwave.desc.0=Блок-контроллер Совершенная микроволновая печь
 gt.blockmachines.multimachine.tm.microwave.desc.1=Starts a timer when enabled
@@ -735,14 +735,14 @@ gt.blockmachines.multimachine.em.mattertoem.desc.1=Transforms items into their e
 
 gt.blockmachines.multimachine.em.emtomatter.name=Matter Dequantizer
 gt.blockmachines.multimachine.em.emtomatter.hint.0=1 - Classic Hatches or High Power Casing"
-gt.blockmachines.multimachine.em.emtomatter.hint.1=2 - Elemental Input Hatch
+gt.blockmachines.multimachine.em.emtomatter.hint.1=2 - Элементный входной шлюз
 gt.blockmachines.multimachine.em.emtomatter.hint.2=3 - Элементный шлюз переполнения или Молекулярный корпус
 gt.blockmachines.multimachine.em.emtomatter.desc.0=Блок-контроллер Деквантователь материи
 gt.blockmachines.multimachine.em.emtomatter.desc.1=Transforms elemental matter back into items
 
 gt.blockmachines.multimachine.em.emtoessentia.name=Essentia Dequantizer
 gt.blockmachines.multimachine.em.emtoessentia.hint.0=1 - Classic Hatches or High Power Casing
-gt.blockmachines.multimachine.em.emtoessentia.hint.1=2 - Elemental Input Hatch
+gt.blockmachines.multimachine.em.emtoessentia.hint.1=2 - Элементный входной шлюз
 gt.blockmachines.multimachine.em.emtoessentia.hint.2=3 - Элементный шлюз переполнения или Молекулярные обшивки
 gt.blockmachines.multimachine.em.emtoessentia.hint.3=General - Some sort of Essentia Storage
 gt.blockmachines.multimachine.em.emtoessentia.desc.0=Блок-контроллер Деквантователь эссенции
@@ -1081,7 +1081,11 @@ gt.blockmachines.pipe.energystream.desc.1=Ярчайший вакуум!!!
 gt.blockmachines.pipe.energystream.desc.2=Должно быть окрашено для работы
 gt.blockmachines.pipe.energystream.desc.3=Не разделяйте и не поворачивайте
 
-gt.blockmachines.pipe.datastream.name=Optical Fiber Cable
+gt.blockmachines.pipe.energymirror.name=Laser Vacuum Mirror
+gt.blockmachines.pipe.energymirror.desc.0=Laser reflection device.
+gt.blockmachines.pipe.energymirror.desc.1=Can turn but not split
+
+gt.blockmachines.pipe.datastream.name=Оптоволоконный кабель
 gt.blockmachines.pipe.datastream.desc.0=Совершенная передача данных
 gt.blockmachines.pipe.datastream.desc.1=Не смотри на луч!
 gt.blockmachines.pipe.datastream.desc.2=Должно быть окрашено для работы
@@ -1175,7 +1179,7 @@ GT5U.gui.text.missing_upgrades=§7Missing upgrades
 GT5U.gui.text.waiting_for_inputs=§7Waiting for inputs
 GT5U.gui.text.computation_loss=§4Shut down due to computation loss.
 GT5U.gui.text.researching_item=§fResearching: §b%s
-GT5U.gui.text.research_progress=§fComputation: %d/%d (%s%%)
+GT5U.gui.text.research_progress=§fВычислительной мощности: %d/%d (%s%%)
 
 # RecipeMaps
 gt.recipe.eyeofharmony=Глаз гармонии
@@ -1189,8 +1193,8 @@ tt.nei.eoh.total_items=Total Items: %s
 tt.nei.eoh.solid_mass=Percentage of Solid Mass: %s%%
 tt.nei.eoh.item_count=Item Count: %s
 tt.nei.research.max_eu=Макс. EU: %s EU
-tt.nei.research.computation=Computation: %s
-tt.nei.research.min_computation=Min Computation: %s /s
+tt.nei.research.computation=Вычислительная мощность: %s
+tt.nei.research.min_computation=Мин. вычилительная мощность: %s /s
 
 #Keywords and phrases
 #Example: ID:3
@@ -1216,7 +1220,7 @@ tt.keyword.Structure.AnyMolecularCasing4D=Любой Молекулярный к
 tt.keyword.Structure.AnyOuterMolecularCasing3rd=Any outer Molecular Casing on the 3rd slice
 tt.keyword.Structure.AnyOuterMolecularCasing4th=Any outer Molecular Casing on the 4th slice
 tt.keyword.Structure.AnyOuterMolecularCasing3rd4th=Any outer Molecular Casing on the 3rd or 4th slice
-tt.keyword.Structure.AnyOuterCasingOnBottom=Any outer casing on the bottom layer
+tt.keyword.Structure.AnyOuterCasingOnBottom=Любой внешний корпус нижнего слоя
 # Optional
 tt.keyword.Structure.Optional=(optional)
 # Placement specification
@@ -1231,9 +1235,9 @@ tt.keyword.Structure.DataAccessHatch=Data Access Hatch
 tt.keyword.Structure.ElementalOutput=Elemental Output Hatch
 tt.keyword.Structure.Elemental=Elemental Hatch
 tt.keyword.Structure.ElementalOverflow=Элементный шлюз переполнения
-tt.keyword.Structure.ElementalInput=Elemental Input Hatch
+tt.keyword.Structure.ElementalInput=Элементный входной шлюз
 tt.keyword.Structure.EssentiaStorage=Essentia Storage
-tt.keyword.Structure.DataConnector=Data Connector
+tt.keyword.Structure.DataConnector=Коннектор данных
 tt.keyword.Structure.SuperconductingCoilBlock=Сверхпроводящее нагревательное кольцо
 tt.keyword.Structure.StainlessSteelCasing=Stainless Steel Casing
 tt.wirelessInputData.config.text=Configure how much computation to pull from wireless network
@@ -1247,7 +1251,7 @@ tt.keyword.Destination=Destination
 tt.keyword.Weight=Weight
 tt.keyword.Source=Source
 tt.keyword.Progress=Прогресс
-tt.keyword.Computation=Computation
+tt.keyword.Computation=Вычислительная мощность
 #Problemns as in maintanance issues
 tt.keyword.Problems=Проблемы
 tt.keyword.Efficiency=Эффективность
@@ -1257,7 +1261,7 @@ tt.keyword.PowerPass=PowerPass
 tt.keyword.SafeVoid=SafeVoid
 tt.keyword.Parametrizer=Параметрайзер
 tt.keyword.Value=Value
-tt.keyword.Input=Input
+tt.keyword.Input=Вход
 tt.keyword.input=input
 tt.keyword.output=output
 tt.keyword.Status=Status
@@ -1275,8 +1279,8 @@ tt.keyphrase.Probably_uses=Probably uses
 tt.keyphrase.Probably_makes=Probably makes
 tt.keyphrase.Tier_Rating=Tier Rating
 tt.keyphrase.Amp_Rating=Amp Rating
-tt.keyphrase.Computation_Available=Computation Available
-tt.keyphrase.Computation_Remaining=Computation Remaining
+tt.keyphrase.Computation_Available=Вычислительной мощности доступно
+tt.keyphrase.Computation_Remaining=Вычислительной мощности осталось
 tt.keyphrase.Content_Stack_Count=Content: Stack Count
 tt.keyphrase.Base_computation=Base computation
 tt.keyphrase.After_overclocking=After overclocking
