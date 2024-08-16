@@ -63,8 +63,8 @@ item.em.parametrizerMemoryCard.name=Карта памяти Параметрай
 item.em.parametrizerMemoryCard.name.paste=Карта памяти Параметрайзер (Режим вставки)
 item.em.parametrizerMemoryCard.name.copy=Карта памяти Параметрайзер (Режим копирования)
 item.em.parametrizerMemoryCard.desc.0=Stores Parameters
-item.em.parametrizerMemoryCard.desc.1=Use on Multiblock Controller to configure it
-item.em.parametrizerMemoryCard.desc.2=Use on Multiblock Controller to store parameters
+item.em.parametrizerMemoryCard.desc.1=Используйте на параметризаторе/контроллере чтобы настроить их конфигурацию
+item.em.parametrizerMemoryCard.desc.2=Используйте на параметризаторе/контроллере чтобы сохранить параметры
 item.em.parametrizerMemoryCard.desc.3=Sneak right click to lock/unlock
 
 item.tm.teslaCoilCapacitor.0.name=LV Тесла конденсатор
@@ -512,7 +512,7 @@ gt.blockmachines.hatch.datain.desc.0=Квантовый ввод данных в
 gt.blockmachines.hatch.datain.desc.1=Высокоскоростное оптоволоконное соединение.
 gt.blockmachines.hatch.datain.desc.2=Должно быть окрашено для работы
 
-gt.blockmachines.hatch.dataout.tier.07.name=Optical Master Connector
+gt.blockmachines.hatch.dataout.tier.07.name=Выходной разъем для оптоволокна
 gt.blockmachines.hatch.dataout.desc.0=Квантовый вывод данных в мультиблок
 gt.blockmachines.hatch.dataout.desc.1=Высокоскоростное оптоволоконное соединение.
 gt.blockmachines.hatch.dataout.desc.2=Должно быть окрашено для работы
@@ -688,7 +688,7 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=Scan time display
 gt.blockmachines.multimachine.em.switch.name=QoS сетевой коммутатор
 gt.blockmachines.multimachine.em.switch.hint=1 - Энерговоды/Оптоволоконные разъемы или Корпус компьютера
 gt.blockmachines.multimachine.em.switch.desc.0=Блок-контроллер QoS сетевой коммутатор
-gt.blockmachines.multimachine.em.switch.desc.1=Used to route and distribute computation
+gt.blockmachines.multimachine.em.switch.desc.1=Управляемая пользователем маршрутизация вычислений
 gt.blockmachines.multimachine.em.switch.desc.2=Требуется настройка параметризатора
 
 
@@ -699,9 +699,9 @@ gt.blockmachines.multimachine.em.computer.desc=You need it to process the number
 gt.blockmachines.multimachine.em.computer.cfgi.0=Overclock ratio
 gt.blockmachines.multimachine.em.computer.cfgi.1=Overvoltage ratio
 gt.blockmachines.multimachine.em.computer.cfgo.0=Current max. heat
-gt.blockmachines.multimachine.em.computer.cfgo.1=Produced computation
+gt.blockmachines.multimachine.em.computer.cfgo.1=Произведено вычислений
 gt.blockmachines.multimachine.em.computer.desc.0=Блок-контроллер квантового компьютера
-gt.blockmachines.multimachine.em.computer.desc.1=Used to generate computation (and heat)
+gt.blockmachines.multimachine.em.computer.desc.1=Используется для вычисления (и тепла)
 
 gt.blockmachines.multimachine.em.databank.name=Банк данных
 gt.blockmachines.multimachine.em.databank.hint.0=1 - Classic Hatches or high power casing
@@ -769,7 +769,7 @@ gt.blockmachines.multimachine.em.collider.hint.0=1 - Classic Hatches or High Pow
 gt.blockmachines.multimachine.em.collider.hint.1=2 - Элементные входные шлюзы или Молекулярный корпус
 gt.blockmachines.multimachine.em.collider.hint.2=3 - Элементные выходные шлюзы или Молекулярный корпус
 gt.blockmachines.multimachine.em.collider.hint.3=4 - Элементный шлюз переполнения или Молекулярный корпус
-gt.blockmachines.multimachine.em.collider.hint.4=General - Another Controller facing opposite direction
+gt.blockmachines.multimachine.em.collider.hint.4=General - Ещё один контроллер, направленный в противоположную сторону
 gt.blockmachines.multimachine.em.collider.desc.0=Блок-контроллер Материальный коллайдер
 gt.blockmachines.multimachine.em.collider.desc.1=This machine needs a mirrored copy of it to work
 gt.blockmachines.multimachine.em.collider.desc.2=One needs to be set to 'Fuse Mode' and the other to 'Collide Mode'
@@ -831,7 +831,7 @@ gt.blockmachines.multimachine.em.blackholegenerator.desc.0=Блок-контро
 gt.blockmachines.multimachine.em.blackholegenerator.desc.1=Uses a black hole to generate power
 
 # Eye of Harmony
-achievement.gt.blockmachines.multimachine.em.eye_of_harmony=Eye of Harmony Controller
+achievement.gt.blockmachines.multimachine.em.eye_of_harmony=Контроллер глаза гармонии
 achievement.gt.blockcasingsBA0.12=Infinite Spacetime Energy Boundary Casing
 gt.blockcasingsBA0.12.desc.0=Provides a stable bridge between spacetime regions.
 achievement.gt.blockcasingsBA0.11=Укреплённый пространственный структурный каркас
@@ -1036,9 +1036,9 @@ gt.blockmachines.multimachine.FOG.extensions=Extensions Built
 gt.blockmachines.multimachine.FOG.shardgain=Graviton Shards gained
 
 # Optical Circuits
-achievement.gt.metaitem.03.32155=Optical Assembly
-achievement.gt.metaitem.03.32156=Optical Computer
-achievement.gt.metaitem.03.32157=Optical Mainframe
+achievement.gt.metaitem.03.32155=Оптический кластер
+achievement.gt.metaitem.03.32156=Оптический компьютер
+achievement.gt.metaitem.03.32157=Оптический мейнфрейм
 
 # Parts
 achievement.gt.metaitem.01.32017=Электромотор UIV
@@ -1047,7 +1047,7 @@ achievement.gt.metaitem.01.32025=Электропомпа UIV
 achievement.gt.metaitem.01.32029=Конвейер UIV
 achievement.gt.metaitem.01.32033=Роборука UIV
 achievement.gt.metaitem.01.32037=Излучатель UIV
-achievement.gt.metaitem.01.32041=Сенсор UIV
+achievement.gt.metaitem.01.32041=Приёмник UIV
 achievement.gt.metaitem.01.32045=Генератор поля UIV
 
 achievement.gt.metaitem.01.32018=Электромотор UMV
@@ -1056,7 +1056,7 @@ achievement.gt.metaitem.01.32026=Электропомпа UMV
 achievement.gt.metaitem.01.32030=Конвейер UMV
 achievement.gt.metaitem.01.32034=Роборука UMV
 achievement.gt.metaitem.01.32038=Излучатель UMV
-achievement.gt.metaitem.01.32042=Сенсор UMV
+achievement.gt.metaitem.01.32042=Приёмник UMV
 achievement.gt.metaitem.01.32046=Генератор поля UMV
 
 #Pipes
@@ -1178,8 +1178,8 @@ tt.nei.eoh.total_items=Total Items: %s
 tt.nei.eoh.solid_mass=Percentage of Solid Mass: %s%%
 tt.nei.eoh.item_count=Item Count: %s
 tt.nei.research.max_eu=Макс. EU: %s EU
-tt.nei.research.computation=Вычислительная мощность: %s
-tt.nei.research.min_computation=Мин. вычилительная мощность: %s /s
+tt.nei.research.computation=Вычисление: %s
+tt.nei.research.min_computation=Мин. вычислений: %s /s
 
 #Keywords and phrases
 #Example: ID:3
@@ -1235,7 +1235,7 @@ tt.keyword.Destination=Destination
 tt.keyword.Weight=Weight
 tt.keyword.Source=Source
 tt.keyword.Progress=Прогресс
-tt.keyword.Computation=Вычислительная мощность
+tt.keyword.Computation=Вычисление
 #Problemns as in maintanance issues
 tt.keyword.Problems=Проблемы
 tt.keyword.Efficiency=Эффективность
@@ -1263,10 +1263,10 @@ tt.keyphrase.Probably_uses=Probably uses
 tt.keyphrase.Probably_makes=Probably makes
 tt.keyphrase.Tier_Rating=Tier Rating
 tt.keyphrase.Amp_Rating=Amp Rating
-tt.keyphrase.Computation_Available=Вычислительной мощности доступно
-tt.keyphrase.Computation_Remaining=Вычислительной мощности осталось
+tt.keyphrase.Computation_Available=Доступно вычислений
+tt.keyphrase.Computation_Remaining=Вычислений осталось
 tt.keyphrase.Content_Stack_Count=Content: Stack Count
-tt.keyphrase.Base_computation=Base computation
+tt.keyphrase.Base_computation=Базовые вычисления
 tt.keyphrase.After_overclocking=After overclocking
 tt.keyphrase.Heat_Accumulated=Heat Accumulated
 tt.keyphrase.Running_interdimensional_scan=Running interdimensional scan

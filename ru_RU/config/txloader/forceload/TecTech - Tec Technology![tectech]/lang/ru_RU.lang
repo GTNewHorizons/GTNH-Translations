@@ -688,7 +688,7 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=Отображение вре�
 gt.blockmachines.multimachine.em.switch.name=QoS сетевой коммутатор
 gt.blockmachines.multimachine.em.switch.hint=1 - Энерговоды/Оптоволоконные разъемы или Компьютерные корпуса
 gt.blockmachines.multimachine.em.switch.desc.0=Блок-контроллер QoS сетевой коммутатор
-gt.blockmachines.multimachine.em.switch.desc.1=Управляемая пользователем маршрутизация вычислительной мощности
+gt.blockmachines.multimachine.em.switch.desc.1=Управляемая пользователем маршрутизация вычислений
 gt.blockmachines.multimachine.em.switch.desc.2=Требуется настройка параметризатора
 
 
@@ -699,9 +699,9 @@ gt.blockmachines.multimachine.em.computer.desc=Гораздо лучше про�
 gt.blockmachines.multimachine.em.computer.cfgi.0=Коэффициент разгона
 gt.blockmachines.multimachine.em.computer.cfgi.1=Коэффициент избытка вольтажа
 gt.blockmachines.multimachine.em.computer.cfgo.0=Текущий максимальный нагрев
-gt.blockmachines.multimachine.em.computer.cfgo.1=Вычислительная мощность
+gt.blockmachines.multimachine.em.computer.cfgo.1=Произведено вычислений
 gt.blockmachines.multimachine.em.computer.desc.0=Блок-контроллер квантового компьютера
-gt.blockmachines.multimachine.em.computer.desc.1=Используется для компутации (и тепла)
+gt.blockmachines.multimachine.em.computer.desc.1=Используется для вычисления (и тепла)
 
 gt.blockmachines.multimachine.em.databank.name=Банк данных
 gt.blockmachines.multimachine.em.databank.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
@@ -829,7 +829,7 @@ gt.blockmachines.multimachine.em.blackholegenerator.desc.0=Блок-контро
 gt.blockmachines.multimachine.em.blackholegenerator.desc.1=Генерация энергии из сингулярности
 
 # Eye of Harmony
-achievement.gt.blockmachines.multimachine.em.eye_of_harmony=Eye of Harmony Controller
+achievement.gt.blockmachines.multimachine.em.eye_of_harmony=Контроллер глаза гармонии
 achievement.gt.blockcasingsBA0.12=Infinite Spacetime Energy Boundary Casing
 gt.blockcasingsBA0.12.desc.0=Provides a stable bridge between spacetime regions.
 achievement.gt.blockcasingsBA0.11=Укреплённый пространственный структурный каркас
@@ -1034,9 +1034,9 @@ gt.blockmachines.multimachine.FOG.extensions=Extensions Built
 gt.blockmachines.multimachine.FOG.shardgain=Graviton Shards gained
 
 # Optical Circuits
-achievement.gt.metaitem.03.32155=Optical Assembly
-achievement.gt.metaitem.03.32156=Optical Computer
-achievement.gt.metaitem.03.32157=Optical Mainframe
+achievement.gt.metaitem.03.32155=Оптический кластер
+achievement.gt.metaitem.03.32156=Оптический компьютер
+achievement.gt.metaitem.03.32157=Оптический мейнфрейм
 
 # Parts
 achievement.gt.metaitem.01.32017=Электромотор UIV
@@ -1045,7 +1045,7 @@ achievement.gt.metaitem.01.32025=Электропомпа UIV
 achievement.gt.metaitem.01.32029=Конвейер UIV
 achievement.gt.metaitem.01.32033=Роборука UIV
 achievement.gt.metaitem.01.32037=Излучатель UIV
-achievement.gt.metaitem.01.32041=Сенсор UIV
+achievement.gt.metaitem.01.32041=Приёмник UIV
 achievement.gt.metaitem.01.32045=Генератор поля UIV
 
 achievement.gt.metaitem.01.32018=Электромотор UMV
@@ -1054,7 +1054,7 @@ achievement.gt.metaitem.01.32026=Электропомпа UMV
 achievement.gt.metaitem.01.32030=Конвейер UMV
 achievement.gt.metaitem.01.32034=Роборука UMV
 achievement.gt.metaitem.01.32038=Излучатель UMV
-achievement.gt.metaitem.01.32042=Сенсор UMV
+achievement.gt.metaitem.01.32042=Приёмник UMV
 achievement.gt.metaitem.01.32046=Генератор поля UMV
 
 #Pipes
@@ -1173,8 +1173,8 @@ tt.nei.eoh.total_items=Total Items: %s
 tt.nei.eoh.solid_mass=Percentage of Solid Mass: %s%%
 tt.nei.eoh.item_count=Item Count: %s
 tt.nei.research.max_eu=Макс. EU: %s EU
-tt.nei.research.computation=Вычислительная мощность: %s
-tt.nei.research.min_computation=Мин. вычилительная мощность: %s /s
+tt.nei.research.computation=Вычисление: %s
+tt.nei.research.min_computation=Мин. вычислений: %s /s
 
 #Keywords and phrases
 #Example: ID:3
@@ -1230,7 +1230,7 @@ tt.keyword.Destination=Пункт назначения
 tt.keyword.Weight=Вес
 tt.keyword.Source=Источник
 tt.keyword.Progress=Прогресс
-tt.keyword.Computation=Вычислительная мощность
+tt.keyword.Computation=Вычисление
 #Problemns as in maintanance issues
 tt.keyword.Problems=Проблемы
 tt.keyword.Efficiency=Эффективность
@@ -1258,10 +1258,10 @@ tt.keyphrase.Probably_uses=Сейчас потребляет
 tt.keyphrase.Probably_makes=Сейчас производит
 tt.keyphrase.Tier_Rating=Тир рейтинг
 tt.keyphrase.Amp_Rating=Рейтинг умножения
-tt.keyphrase.Computation_Available=Вычислительной мощности доступно
-tt.keyphrase.Computation_Remaining=Вычислительной мощности осталось
+tt.keyphrase.Computation_Available=Доступно вычислений
+tt.keyphrase.Computation_Remaining=Вычислений осталось
 tt.keyphrase.Content_Stack_Count=Содержимое: количество стеков
-tt.keyphrase.Base_computation=Базовая вычислительная мощность
+tt.keyphrase.Base_computation=Базовые вычисления
 tt.keyphrase.After_overclocking=После оверклока
 tt.keyphrase.Heat_Accumulated=Тепла накоплено
 tt.keyphrase.Running_interdimensional_scan=Производится межпространственное сканирование
