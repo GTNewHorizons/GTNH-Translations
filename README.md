@@ -48,13 +48,15 @@ If you have 3 or more translators for the language, please contact boubou_19.
 
 ### When adding new language
 
-1. Add new language entry for scripts and workflows. Searching for `pl_PL` for example could help. (see commit [ea67c0e](https://github.com/GTNewHorizons/GTNH-Translations/commit/ea67c0ecd7b1a5b81a2b04082d0930ae8dcfffff) for reference)
-2. Add new README_xx_XX.md with a mention from README.md.
-3. Add new issue template.
-4. Add new label for issue.
-5. Run `Sync all to ParaTranz` workflow with the new language code.
-6. Run `Publish nightly lang pack` workflow with the new language code.
-7. (Optional) Run `Upload mod jar translations` workflow to import existing translations in mod jars. You can skip this if you don't want. Or you can run Python script locally to choose which mod to upload, see [List of available actions](#list-of-available-actions).
+1. Make ParaTranz project, and contact boubou to give `GregtechNewHorizons` Manager role.
+2. Add new language entry for scripts and workflows. Searching for `pl_PL` for example could help. (see commit [ea67c0e](https://github.com/GTNewHorizons/GTNH-Translations/commit/ea67c0ecd7b1a5b81a2b04082d0930ae8dcfffff) for reference)
+3. Add a pair of language name and ParaTranz project ID to [paratranz-projects.json](./paratranz-projects.json).
+4. Add new README_xx_XX.md with a mention from README.md.
+5. Add new issue template.
+6. Add new label for issue.
+7. Run `Sync all to ParaTranz` workflow with the new language code.
+8. Run `Publish nightly lang pack` workflow with the new language code.
+9. (Optional) Run `Upload mod jar translations` workflow to import existing translations in mod jars. You can skip this if you don't want. Or you can run Python script locally to choose which mod to upload, see [List of available actions](#list-of-available-actions).
 
 ### How workflows work
 
@@ -126,8 +128,13 @@ Translations in mod jars -> ParaTranz
 ## Things to be done
 
 - Add support for IC2
-- Support some config files for ParaTranz
+- Support ____gtnhoverridenames [#12](https://github.com/GTNewHorizons/GTNH-Translations/issues/12)
+- Support non-standard config files for ParaTranz [#20](https://github.com/GTNewHorizons/GTNH-Translations/issues/20)
+- Support docs for OpenComputers and Computronics [#17](https://github.com/GTNewHorizons/GTNH-Translations/issues/17)
 - Figure out what to do with BLS translation
+- Allow pulling only reviewed strings [#19](https://github.com/GTNewHorizons/GTNH-Translations/issues/19)
+- Include Better Line Break in the pack
+- Include Untranslated Items
 - pt_BR to pt_PT conversion script
 - Refine the way conditional sync works
 - Eliminate GregTech.lang

@@ -8,40 +8,25 @@ inputs:
 outputs:
   project_id:
     description: "Project ID of ParaTranz"
-    value: ${{ steps.output-project-id.outputs.project_id }}
+    value: ${{ steps.load-project-id.outputs.project_id }}
 
 runs:
   using: composite
   steps:
-    - name: Output Project ID
-      id: output-project-id
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Setup jq
+      shell: bash
+      run: sudo apt-get install jq
+    - name: Load project ID from JSON
+      id: load-project-id
       shell: bash
       run: |
-        case "$target_lang" in
-          "zh_CN")
-              project_id=4964 ;;
-          "ja_JP")
-              project_id=8922 ;;
-          "ko_KR")
-              project_id=9359 ;;
-          "pt_BR")
-              project_id=9385 ;;
-          "fr_FR")
-              project_id=9461 ;;
-          "es_ES")
-              project_id=9508 ;;
-          "tr_TR")
-              project_id=9509 ;;
-          "de_DE")
-              project_id=9510 ;;
-          "pl_PL")
-              project_id=9513 ;;
-          "ru_RU")
-              project_id=9929 ;;
-          *)
-            echo "Invalid language: $target_lang"
-            exit 1
-        esac
+        project_id=$(jq -r --arg lang "$target_lang" '.[$lang]' paratranz-projects.json)
+        if [ "$project_id" == "null" ]; then
+          echo "Unknown language: $target_lang"
+          exit 1
+        fi
         echo "project_id=${project_id}" >> $GITHUB_OUTPUT
       env:
         target_lang: ${{ inputs.target_lang }}
