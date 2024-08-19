@@ -151,6 +151,11 @@ item.PipeFluidExtractor=Логистическая жидкостная извл
 item.PipeFluidSatellite=Логистическая жидкостная вспомогательная труба
 item.PipeBlockRequestTable=Логистический стол запросов
 
+item.logisticspipes.tip.active_destination=Valid destination for %cYELLOW Active%cGRAY  routes
+item.logisticspipes.tip.passive_destination=Valid destination for %cYELLOW Passive%cGRAY  routes
+item.logisticspipes.tip.active_source=Valid source for %cYELLOW Active%cGRAY  routes
+item.logisticspipes.tip.passive_source=Valid source for %cYELLOW Passive%cGRAY  routes
+
 # Modules
 
 #TODO: Add shift tooltip information
@@ -358,17 +363,17 @@ gui.firewall.Powerflow=Мощность потока
 
 gui.fluidbasic.Empty=Пусто
 
-gui.fluidsuppliermk2.Inventory=Инвентарь
 gui.fluidsuppliermk2.Fluid=Жидкость
-gui.fluidsuppliermk2.Partial=Частично
-gui.fluidsuppliermk2.minMode=Мин. режим
-gui.fluidsuppliermk2.Yes=Да
-gui.fluidsuppliermk2.No=Нет
+gui.fluidsuppliermk2.partial=Partial
+gui.fluidsuppliermk2.partial.tip=Allows the network to partially fulfill the required space
+gui.fluidsuppliermk2.partial.no=No
+gui.fluidsuppliermk2.partial.no.tip=§eNo§7: Fluid is pulled only if network has enough resources to fill the required space completely
+gui.fluidsuppliermk2.partial.yes=Yes
+gui.fluidsuppliermk2.partial.yes.tip=§eYes§7: Fluid is pulled even if network doesn't have enough resources to fill the required space completely
+gui.fluidsuppliermk2.refill_if_depleted=Refill on depletion at least
+gui.fluidsuppliermk2.refill_if_depleted.tip=Allows to request fluid only if the space is emptied by at least §e%s§r mB
+gui.fluidsuppliermk2.refill_if_depleted.tip.zero=§7Setting to §e0§7 disables the feature
 gui.fluidsuppliermk2.TargetInv=Жидкость в наличии
-gui.fluidsuppliermk2.NONE=Нет
-gui.fluidsuppliermk2.ONEBUCKET=1 ведро
-gui.fluidsuppliermk2.TWOBUCKET=2 ведра
-gui.fluidsuppliermk2.FIVEBUCKET=5 ведер
 
 gui.fluidsupplier.TargetInv=Укомплектовывать жидкости
 gui.fluidsupplier.Inventory=Инвентарь
