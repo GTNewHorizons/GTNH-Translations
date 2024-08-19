@@ -141,7 +141,7 @@ item.PipeItemsFirewall.tip3=   while allowing only certain items to pass
 item.PipeItemsFluidSupplier=Logistics Fluid Container Supplier
 item.PipeItemsFluidSupplier.tip1=Uses buckets or other fluid containers to fill the connected tank
 item.PipeFluidSupplierMk2=Logistics Fluid Supplier
-item.PipeFluidSupplierMk2.tip1=Pulls Fluids from a Logistics Fluid Provider Pipe
+item.PipeFluidSupplierMk2.tip1=Requests configured fluid from network then pulls into connected fluid tank
 item.LogisticsFluidConnectorPipe=Logistics Fluid Connector Pipe
 item.PipeFluidBasic=Logistics Fluid Basic Pipe
 item.PipeFluidInsertion=Logistics Fluid Insertion Pipe
@@ -150,6 +150,11 @@ item.PipeFluidRequestLogistics=Logistics Fluid Request Pipe
 item.PipeFluidExtractor=Logistics Fluid Extractor Pipe
 item.PipeFluidSatellite=Logistics Fluid Satellite Pipe
 item.PipeBlockRequestTable=Logistics Request Table
+
+item.logisticspipes.tip.active_destination=Valid destination for %cYELLOW Active%cGRAY  routes
+item.logisticspipes.tip.passive_destination=Valid destination for %cYELLOW Passive%cGRAY  routes
+item.logisticspipes.tip.active_source=Valid source for %cYELLOW Active%cGRAY  routes
+item.logisticspipes.tip.passive_source=Valid source for %cYELLOW Passive%cGRAY  routes
 
 # Modules
 
@@ -358,17 +363,17 @@ gui.firewall.Powerflow=Powerflow
 
 gui.fluidbasic.Empty=Empty
 
-gui.fluidsuppliermk2.Inventory=Inventory
 gui.fluidsuppliermk2.Fluid=Fluid
-gui.fluidsuppliermk2.Partial=Partial
-gui.fluidsuppliermk2.minMode=Min. Mode
-gui.fluidsuppliermk2.Yes=Yes
-gui.fluidsuppliermk2.No=No
+gui.fluidsuppliermk2.partial=Partial
+gui.fluidsuppliermk2.partial.tip=Allows the network to partially fulfill the required space
+gui.fluidsuppliermk2.partial.no=No
+gui.fluidsuppliermk2.partial.no.tip=§eNo§7: Fluid is pulled only if network has enough resources to fill the required space completely
+gui.fluidsuppliermk2.partial.yes=Yes
+gui.fluidsuppliermk2.partial.yes.tip=§eYes§7: Fluid is pulled even if network doesn't have enough resources to fill the required space completely
+gui.fluidsuppliermk2.refill_if_depleted=Refill on depletion at least
+gui.fluidsuppliermk2.refill_if_depleted.tip=Allows to request fluid only if the space is emptied by at least §e%s§r mB
+gui.fluidsuppliermk2.refill_if_depleted.tip.zero=§7Setting to §e0§7 disables the feature
 gui.fluidsuppliermk2.TargetInv=Fluid to keep stocked
-gui.fluidsuppliermk2.NONE=None
-gui.fluidsuppliermk2.ONEBUCKET=1 Bucket
-gui.fluidsuppliermk2.TWOBUCKET=2 Buckets
-gui.fluidsuppliermk2.FIVEBUCKET=5 Buckets
 
 gui.fluidsupplier.TargetInv=Fluids to keep stocked
 gui.fluidsupplier.Inventory=Inventory
