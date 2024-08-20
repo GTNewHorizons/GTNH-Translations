@@ -33,7 +33,7 @@ tooltip.wawla.tooltype.axe=斧
 tooltip.wawla.armorprot=防御
 tooltip.wawla.armor=アーマーポイント
 tooltip.wawla.progress=進捗
-tooltip.wawla.missingEnch=No description was found for this enchantment. 
+tooltip.wawla.missingEnch=§c該当するエンチャントの情報が存在しません§r
 tooltip.wawla.tnt.fuse=Fuse Time
 tooltip.wawla.profession=職業
 tooltip.wawla.unknownplayer=Unknown Player
@@ -78,30 +78,30 @@ option.wawla.info.showHardness=Show Block Hardness?
 option.wawla.info.showResistance=Show Blast Resistance?
 
 #Vanilla Enchantment Descriptions
-description.enchantment.protect.all=This enchantment reduces damage done to the wearer from many damage sources. It stacks with enchantments such as Fire Resistance and Feather Falling however it is possible to hit a limit on how much damage will be reduced. This enchantment can be applied to all armour types.
-description.enchantment.protect.fire=This enchantment reduces damage taken from fire sources such as fire, blazes and lava. This enchantment also reduces the total amount of time the wearer will stay on fire. This enchantment can be applied to all armour types. 
-description.enchantment.protect.fall=This enchantment reduces damage taken from falling, it also reduces damage taken when using ender pearls. This enchantment is only applicable to boots.
-description.enchantment.protect.explosion=This enchantment reduces damage taken from explosions such as tnt or creepers. This enchantment also reduces the knockback from explosions. This enchantment can be applied to all armour types.
-description.enchantment.protect.projectile=This enchantment reduces damage taken from projectiles such as arrows and fire charges. This enchantment can be applied to all armour types.
-description.enchantment.oxygen=This enchantment improves the vision of the wearer when under water. The enchantment will also increase the total air of the wearer by 15 seconds per level. Time between suffocation damage is also increased by a second per level. This enchantment can only be applied to helmets.
-description.enchantment.waterWorker=This enchantment improves the block breaking speed of the wearer when under water. This enchantment can only be applied to helmets. 
-description.enchantment.thorns=This enchantment has a 15% chance per level to damage mobs that hurt the wearer by half a heart to two hearts. This enchantment can be applied to all armour types. 
-description.enchantment.damage.all=This enchantment increases the damage of the item by 1.25 damage per level. This enchantment can be applied to many tool types however a sword is the primary item. 
-description.enchantment.damage.undead=This enchantment increases damage done to undead mobs such as skeletons, zombies and the wither by 2.5 damage per level. This enchantment can be applied to many tools however a sword is the primary item.
-description.enchantment.damage.arthropods=This enchantment increases damage done to "spider" based mobs such as Spiders, Cave Spiders, Silverfish and Endermites by 2.5 damage per level. This enchantment can be applied to many tools however swords are the primary item.
-description.enchantment.knockback=This enchantment causes mobs hit to knocked away from the player. This enchantment can be applied only to swords.
-description.enchantment.fire=This enchantment causes mobs hit to be set on fire. The mob will receive 3 points of fire damage with an additional 4 points of fire damage for every level afterwards. This enchantment can only be applied to swords. 
-description.enchantment.lootBonus=This enchantment causes mobs to drop more loot. The maximum amount of loot dropped is increased by 1 per level. The chance of rare drops is increased by 3% plus an addition .5% per level afterwards. This enchantment can only be applied to swords.
-description.enchantment.digging=This enchantment causes blocks to break faster by 30%/69%/120%/186%/271%. For the effect to apply the tool must be used on the correct block. This effect be applied to picks, shovels, axes and shears.
-description.enchantment.untouching=This enchantment allows blocks that are normally not obtainable to be obtainable. Examples include ice, grass and ore blocks. This enchantment can be applied to picks, shovels, axes and shears.
-description.enchantment.durability=This enchantment increases the average durability of a tool or piece of armour. This effect can be applied to almost any item in the game as long as it has durability. Examples include flint and steel, fishing rods, all armour types and tools.
-description.enchantment.lootBonusDigger=This enchantment gives certain blocks the chance to drop twice as many items. Each level increases to the amount of chances. The odds that a chance will succeed are decreased however the drop modifier is increased. 33%/25%/20% for 2/3/4 times the drops. For blocks that drop multiple items such as melons the maximum amount of items that could be dropped is increased by 1 per level. The chance to get flint from gravel is also increased offering a 14%/25/100% chance to drop flint. This enchantment can be applied to picks, shovels and axes.
-description.enchantment.arrowDamage=This enchantment increases damage done by a bow by 25% multiplied by the level + 1. Damage is rounded to the nearest half heart. This enchantment is only for bows.
-description.enchantment.arrowKnockback=This enchantment will cause mobs to be knocked away from the player when hit. This enchantment is for bows.
-description.enchantment.arrowFire=This enchantment will set cause arrows launched to be set on fire. Mobs hit will also be set on fire. This fire only affects mobs, players and tnt blocks. This enchantment is only for bows. 
-description.enchantment.arrowInfinite=This enchantment prevents arrows from being consumed when fired. This effect requires that the player has at least one arrow in their inventory. This enchantment is only for bows.
-description.enchantment.lootBonusFishing=This enchantment increases the players odds of getting treasure when fishing by 1% per level. This enchantment is only for fishing rods.
-description.enchantment.fishingSpeed=This enchantment decreases the time it takes for a fish to bite the hook by 5 seconds per level. This also increases the chance to get junk and treasure by 1% per level.
+description.enchantment.protect.all=全てのダメージを(4*レベル)%軽減します          軽減量は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          火炎耐性や爆発耐性のような他の耐性系エンチャントと競合します
+description.enchantment.protect.fire=火やブレイズの攻撃、溶岩のような炎由来のダメージを(8*レベル)%軽減します          着用者の燃焼時間を(15*レベル)%減少させます          軽減量は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          ダメージ軽減や爆発耐性のような他の耐性系エンチャントと競合します
+description.enchantment.protect.fall=落下やエンダーパールの使用のような落下由来のダメージを(12*レベル)%軽減します          軽減量は他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールはブーツで、上限レベルはⅣ§8(4)§7です
+description.enchantment.protect.explosion=TNTやクリーパーの爆発のような爆発由来のダメージを(8*レベル)%軽減します          爆風によるノックバックを(15*レベル)%軽減します          軽減量は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          ダメージ軽減や火炎耐性のような他の耐性系エンチャントと競合します
+description.enchantment.protect.projectile=矢やファイヤーチャージのような投射物由来のダメージを(8*レベル)%軽減します          軽減量は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          ダメージ軽減や爆発耐性のような他の耐性系エンチャントと競合します
+description.enchantment.oxygen=水中での視力を向上させます          水中で息が切れ始めるまでの時間が、レベル*15秒延長されます。          水中での窒息ダメージをレベル/(レベル+1)の確率で回避します          適正ツールはヘルメットで、上限レベルはⅢ§8(3)§7です
+description.enchantment.waterWorker=着用者の頭が水面下にある場合5倍に、足が水底についていない場合5倍に、          上記両方の条件を満たしている場合25倍に、採掘速度を加速します          適正ツールはヘルメットで、上限レベルはⅠ§8(1)§7です
+description.enchantment.thorns=レベル*15%の確率で着用者を攻撃したものへ、1.0~4.0のダメージを与えます          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です
+description.enchantment.damage.all=攻撃力をレベル*1.25増加させます          適正ツールは全ての近接武器で、上限レベルはⅤ§8(5)§7です
+description.enchantment.damage.undead=ゾンビやスケルトンのようなアンデッドに対する攻撃力をレベル*2.5%増加させます          適正ツールは全ての近接武器で、上限レベルはⅤ§8(5)§7です
+description.enchantment.damage.arthropods=クモやシルバーフィッシュのような節足動物に対する攻撃力をレベル*2.5%増加させます          適正ツールは全ての近接武器で、上限レベルはⅤ§8(5)§7です
+description.enchantment.knockback=ノックバック力をレベルに応じて上昇させます          1レベルで2.05倍、2レベルで2.90倍に増加します          適正ツールは剣で、上限レベルはⅡ§8(2)§7です
+description.enchantment.fire=攻撃相手のMobを炎上させます          炎上はレベル*4秒間持続し、炎上によるダメージは(レベル*4)-1となります          適正ツールは剣で、上限レベルはⅡ§8(2)§7です
+description.enchantment.lootBonus=討伐時のMobのドロップアイテム量・確率をレベルに応じて増加させます          通常ドロップをの最大ドロップ数をレベルと同数増加させます          レアドロップの確率を1レベルで3%、以降レベルごとに0.5%増加させます          適正ツールは剣で、上限レベルはⅢ§8(3)§7です
+description.enchantment.digging=適正ブロックへの採掘速度をレベルに応じて増加させます          採掘速度の上昇率は次のようになります: 30%/69%/120%/186%/271%          適正ツールはツルハシ、シャベル、斧、ハサミで、上限レベルはⅤ§8(5)§7です
+description.enchantment.untouching=石や氷のような破壊時に種類が変わってしまうブロックをそのまま回収できるようになります          適正ツールはツルハシ、シャベル、斧、ハサミで、上限レベルはⅠ§8(1)§7です          幸運のエンチャントと競合します
+description.enchantment.durability=耐久値の減少をレベルに応じた確率で回避します          適正ツールは耐久値の存在するほぼ全てのツールで、上限レベルはⅢ§8(3)§7です
+description.enchantment.lootBonusDigger=特定のブロックからドロップするアイテムを確率で倍増させます          レベルごとに最大倍率が1加算されていきますが、各倍率が引かれる確率は等分されます          例えば最大値が2倍/3倍/4倍の場合、倍増が発生する確率はそれぞれ33%/25%/20%に等分されます          レベル3の幸運エンチャントの場合、20%の確率で2倍/3倍/4倍の何れかのドロップが発生し、          そうでない残り40%は1倍(通常通り)のドロップが発生する計算となります          適正ツールはツルハシ、シャベル、斧、ハサミで、上限レベルはⅢ§8(3)§7です          シルクタッチのエンチャントと競合します
+description.enchantment.arrowDamage=矢のダメージを25%*(レベル+1)増加させます          増加値の端数はハート半分単位で切り上げられます          適正ツールは弓で、上限レベルはⅤ§8(5)§7です
+description.enchantment.arrowKnockback=矢のノックバック力をレベル*3ブロック分増加させます          適正ツールは弓で、上限レベルはⅡ§8(2)§7です
+description.enchantment.arrowFire=放たれる矢と、この矢に命中したMobを炎上させます          この炎はMob、プレイヤー、TNTにのみ影響を及ぼし、ブロックへの着火は行いません          適正ツールは弓で、上限レベルはⅠ§8(1)§7です
+description.enchantment.arrowInfinite=矢を消費せずに弓を使用できるようになります          インベントリに矢が1本も無い場合でも使用可能です          適正ツールは弓で、上限レベルはⅠ§8(1)§7です
+description.enchantment.lootBonusFishing='宝'に該当するアイテムが釣れる確率がレベル*2.1%上昇します          適正ツールは釣り竿で、上限レベルはⅢ§8(3)§7です
+description.enchantment.fishingSpeed=アイテムが釣れるまでの時間をレベル*5秒間短縮します          'ゴミ'や'宝'が釣れる確率がレベル*1%上昇します          適正ツールは釣り竿で、上限レベルはⅢ§8(3)§7です
 
 #Villager Professions
 description.villager.profession.farmer=Farmer
@@ -211,13 +211,13 @@ option.wawla.tinkers.showFurnace=Slab furnace contents?
 option.wawla.tinkers.showBurnTime=Burn Time?
 
 #AquaCulture Enchantment Descriptions
-description.enchantment.aquacultureAppealing=This enchantment gives the player a greater amount of time to catch fish.
-description.enchantment.aquacultureBarbedHook=This enchantment gives the player a better chance of catching the fish.
-description.enchantment.aquacultureDoubleHook=This enchantment allows the player to get more than one fish or loot.
-description.enchantment.aquacultureHeavyLine=This enchantment allows the player to catch larger and heavier fish.
-description.enchantment.aquacultureLongCast=This enchantment allows the hook(bobber) of the fishing rod, to be casted longer.
-description.enchantment.aquacultureMagnetic=This enchantment gives the player a greater chance to catch fish.
-description.enchantment.aquacultureShortCast=This enchantment allows the hook(bobber) of the fishing rod, to be casted shorter.
+description.enchantment.aquacultureAppealing=AquaCulture 2の追加エンチャントです          '魚'に該当するアイテムが釣れる確率がレベルに応じて上昇します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です
+description.enchantment.aquacultureBarbedHook=AquaCulture 2の追加エンチャントです          魚が釣り針に食らいついてから離れるまでの時間をレベルに応じて延長します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です
+description.enchantment.aquacultureDoubleHook=AquaCulture 2の追加エンチャントです          レベルに応じた確率で同時に二つのアイテムが釣れるようになります          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です
+description.enchantment.aquacultureHeavyLine=AquaCulture 2の追加エンチャントです          よりレアな魚や宝を釣り上げる確率をレベルに応じて上昇させます          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です
+description.enchantment.aquacultureLongCast=AquaCulture 2の追加エンチャントです          釣り針の飛距離をレベルに応じて延長します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §8《§7ショートキャスト§8／Short Cast》§7のエンチャントと競合します
+description.enchantment.aquacultureMagnetic=AquaCulture 2の追加エンチャントです          '宝'に該当するアイテムが釣れる確率がレベルに応じて上昇します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です
+description.enchantment.aquacultureShortCast=AquaCulture 2の追加エンチャントです          釣り針の飛距離をレベルに応じて短縮します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §8《§7ロングキャスト§8／Long Cast》§7のエンチャントと競合します
 
 #Pixelmon Tooltips
 tooltip.wawla.pixelmon.male=male
