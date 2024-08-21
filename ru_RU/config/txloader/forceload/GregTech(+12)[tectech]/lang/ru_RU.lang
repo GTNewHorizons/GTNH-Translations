@@ -487,13 +487,13 @@ gt.blockmachines.emin.tier.12.name=UMV Элементный входной шл�
 gt.blockmachines.emin.tier.13.name=UXV Элементный входной шлюз
 gt.blockmachines.emin.desc=Elemental Input for Multiblocks
 
-gt.blockmachines.emout.tier.08.name=UV Elemental Output Hatch
-gt.blockmachines.emout.tier.09.name=UHV Elemental Output Hatch
-gt.blockmachines.emout.tier.10.name=UEV Elemental Output Hatch
-gt.blockmachines.emout.tier.11.name=UIV Elemental Output Hatch
-gt.blockmachines.emout.tier.12.name=UMV Elemental Output Hatch
-gt.blockmachines.emout.tier.13.name=UXV Elemental Output Hatch
-gt.blockmachines.emout.desc=Elemental Output for Multiblocks
+gt.blockmachines.emout.tier.08.name=UV Выходной элементный шлюз
+gt.blockmachines.emout.tier.09.name=UHV Выходной элементный шлюз
+gt.blockmachines.emout.tier.10.name=UEV Выходной элементный шлюз
+gt.blockmachines.emout.tier.11.name=UIV Выходной элементный шлюз
+gt.blockmachines.emout.tier.12.name=UMV Выходной элементный шлюз
+gt.blockmachines.emout.tier.13.name=UXV Выходной элементный шлюз
+gt.blockmachines.emout.desc=Вывод элементной материи в мультиблоки
 
 #TODO change tier.05 to tier.04
 gt.blockmachines.hatch.param.tier.05.name=Параметрайзер
@@ -634,7 +634,7 @@ gt.blockcasingsBA0.0.desc.1=What one man calls God, another calls the laws of ph
 gt.blockcasingsBA0.6.name=Корпус основания Башни Теслы
 gt.blockcasingsBA0.6.desc.0=The base of a wondrous contraption
 gt.blockcasingsBA0.6.desc.1=it's alive, IT'S ALIVE!
-gt.blockcasingsBA0.7.name=Tesla Toroid Casing
+gt.blockcasingsBA0.7.name=Корпуса тороидов Башни Теслы
 gt.blockcasingsBA0.7.desc.0=Made out of the finest tin foil!
 gt.blockcasingsBA0.7.desc.1=Костюмы Фарадея в комплект не входят
 gt.blockcasingsBA0.8.name=Tesla Secondary Windings
@@ -643,7 +643,7 @@ gt.blockcasingsBA0.8.desc.1=Who wouldn't want a 32k epoxy multi?
 
 #Multiblocks
 gt.blockmachines.multimachine.em.transformer.name=Активный трансформатор
-gt.blockmachines.multimachine.em.transformer.hint=1 - Energy IO Hatches or High Power Casing
+gt.blockmachines.multimachine.em.transformer.hint=1 - Энерговывод/вывод и Высокоэнергетический корпус
 gt.blockmachines.multimachine.em.transformer.desc.0=Блок-контроллер активного трансформатора
 gt.blockmachines.multimachine.em.transformer.desc.1=Can transform to and from any voltage
 gt.blockmachines.multimachine.em.transformer.desc.2=Only 0.004% power loss, HAYO!
@@ -651,7 +651,7 @@ gt.blockmachines.multimachine.em.transformer.desc.3=Will explode if broken while
 
 gt.blockmachines.multimachine.tm.microwave.name=Совершенная микроволновая печь
 gt.blockmachines.multimachine.tm.microwave.hint.0=1 - Шлюзы или Чистый корпус из нержавеющей стали
-gt.blockmachines.multimachine.tm.microwave.hint.1=Also acts like a hopper so give it an Output Bus
+gt.blockmachines.multimachine.tm.microwave.hint.1=Также работает как воронка, так что не забудьте выходной люк
 gt.blockmachines.multimachine.tm.microwave.desc.0=Блок-контроллер Совершенная микроволновая печь
 gt.blockmachines.multimachine.tm.microwave.desc.1=Starts a timer when enabled
 gt.blockmachines.multimachine.tm.microwave.desc.2=While the timer is running anything inside the machine will take damage
@@ -676,16 +676,16 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgi.1=Hysteresis high setting
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.2=Настройки радиуса передачи Башни Теслы
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.3=Tesla Transceiver transfer radius setting
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.4=Tesla Ultimate Cover transfer radius setting
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.5=Output voltage setting
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.6=Output current setting
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.5=Настройка выходного вольтажа
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.6=Настройка текущего выхода
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.7=Scan time Min setting
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.8=Overdrive setting
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.9=Unused
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.0=Отображение радиуса передачи Башни Теслы
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.1=Tesla Transceiver transfer radius display
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.2=Tesla Ultimate Cover transfer radius display
-gt.blockmachines.multimachine.tm.teslaCoil.cfgo.3=Output voltage display
-gt.blockmachines.multimachine.tm.teslaCoil.cfgo.4=Output current display
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.3=Отображение выходного вольтажа
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.4=Отображение текущего выхода
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.5=Energy Capacity display
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.6=Energy Stored display
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.7=Energy Fraction display
@@ -720,28 +720,28 @@ gt.blockmachines.multimachine.em.databank.desc.2=and give multiple Assembling Li
 gt.blockmachines.multimachine.em.databank.desc.3=Use screwdriver to toggle wireless mode
 
 gt.blockmachines.multimachine.em.junction.name=Matter Junction
-gt.blockmachines.multimachine.em.junction.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.junction.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.junction.hint.1=2 - Элементные шлюзы или Молекулярные обшивки
 gt.blockmachines.multimachine.em.junction.desc.0=Блок-контроллер объединителя материи
 gt.blockmachines.multimachine.em.junction.desc.1=Used to route and distribute elemental matter
 gt.blockmachines.multimachine.em.junction.desc.2=Требуется настройка параметризатора
 
 gt.blockmachines.multimachine.em.mattertoem.name=Matter Quantizer
-gt.blockmachines.multimachine.em.mattertoem.hint.0=1 - Classic Hatches or High Power Casing
-gt.blockmachines.multimachine.em.mattertoem.hint.1=2 - Elemental Output Hatch
+gt.blockmachines.multimachine.em.mattertoem.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
+gt.blockmachines.multimachine.em.mattertoem.hint.1=2 - Выходной элементный шлюз
 gt.blockmachines.multimachine.em.mattertoem.hint.2=3 - Элементный шлюз переполнения или Молекулярный корпус
 gt.blockmachines.multimachine.em.mattertoem.desc.0=Блок-контроллер квантователя материи
 gt.blockmachines.multimachine.em.mattertoem.desc.1=Transforms items into their elemental form
 
 gt.blockmachines.multimachine.em.emtomatter.name=Matter Dequantizer
-gt.blockmachines.multimachine.em.emtomatter.hint.0=1 - Classic Hatches or High Power Casing"
+gt.blockmachines.multimachine.em.emtomatter.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.emtomatter.hint.1=2 - Элементный входной шлюз
 gt.blockmachines.multimachine.em.emtomatter.hint.2=3 - Элементный шлюз переполнения или Молекулярный корпус
 gt.blockmachines.multimachine.em.emtomatter.desc.0=Блок-контроллер деквантователя материи
 gt.blockmachines.multimachine.em.emtomatter.desc.1=Transforms elemental matter back into items
 
 gt.blockmachines.multimachine.em.emtoessentia.name=Essentia Dequantizer
-gt.blockmachines.multimachine.em.emtoessentia.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.emtoessentia.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.emtoessentia.hint.1=2 - Элементный входной шлюз
 gt.blockmachines.multimachine.em.emtoessentia.hint.2=3 - Элементный шлюз переполнения или Молекулярные обшивки
 gt.blockmachines.multimachine.em.emtoessentia.hint.3=General - Some sort of Essentia Storage
@@ -749,15 +749,15 @@ gt.blockmachines.multimachine.em.emtoessentia.desc.0=Блок-контролле
 gt.blockmachines.multimachine.em.emtoessentia.desc.1=Transforms elemental matter back into essentia
 
 gt.blockmachines.multimachine.em.essentiatoem.name=Essentia Quantizer
-gt.blockmachines.multimachine.em.essentiatoem.hint.0=1 - Classic Hatches or High Power Casing
-gt.blockmachines.multimachine.em.essentiatoem.hint.1=2 - Elemental Output Hatch
+gt.blockmachines.multimachine.em.essentiatoem.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
+gt.blockmachines.multimachine.em.essentiatoem.hint.1=2 - Выходной элементный шлюз
 gt.blockmachines.multimachine.em.essentiatoem.hint.2=3 - Элементный шлюз переполнения или Молекулярные обшивки
 gt.blockmachines.multimachine.em.essentiatoem.hint.3=General - Some sort of Essentia Storage
 gt.blockmachines.multimachine.em.essentiatoem.desc.0=Блок-контроллер квантователя эссенции
 gt.blockmachines.multimachine.em.essentiatoem.desc.1=Transforms essentia into their elemental form
 
 gt.blockmachines.multimachine.em.scanner.name=Elemental Scanner
-gt.blockmachines.multimachine.em.scanner.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.scanner.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.scanner.hint.1=2 - Элементные входные шлюзы или Молекулярный корпус
 gt.blockmachines.multimachine.em.scanner.hint.2=3 - Элементные выходные шлюзы или Молекулярный корпус
 gt.blockmachines.multimachine.em.scanner.hint.3=4 - Элементный шлюз переполнения или Молекулярный корпус
@@ -775,7 +775,7 @@ gt.blockmachines.multimachine.em.research.mode.Assembly_line=Mode: Research Stat
 gt.blockmachines.multimachine.em.research.mode.Scanner=Режим: Сканер
 
 gt.blockmachines.multimachine.em.collider.name=Matter Collider
-gt.blockmachines.multimachine.em.collider.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.collider.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.collider.hint.1=2 - Элементные входные шлюзы или Молекулярный корпус
 gt.blockmachines.multimachine.em.collider.hint.2=3 - Элементные выходные шлюзы или Молекулярный корпус
 gt.blockmachines.multimachine.em.collider.hint.3=4 - Элементный шлюз переполнения или Молекулярный корпус
@@ -791,7 +791,7 @@ gt.blockmachines.multimachine.em.collider.mode.3=Currently Slaves...
 gt.blockmachines.multimachine.em.collider.Structure.AdditionalCollider=Needs another Matter Collider that is mirrored to this one
 
 gt.blockmachines.multimachine.em.infuser.name=Наполнитель энергии
-gt.blockmachines.multimachine.em.infuser.hint=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.infuser.hint=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.infuser.desc.0=Блок-контроллер наполнителя энергии
 gt.blockmachines.multimachine.em.infuser.desc.1=Can be used to charge items (lossless)
 gt.blockmachines.multimachine.em.infuser.desc.2=Can be fed with UU-Matter to repair items
@@ -802,27 +802,27 @@ gt.blockmachines.multimachine.em.infuser.Structure.MolecularCasing=Слой 3
 
 
 gt.blockmachines.multimachine.em.processing.name=Quantum Processing Machine
-gt.blockmachines.multimachine.em.processing.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.processing.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.processing.hint.1=2 - Элементные шлюзы или Молекулярные обшивки
 gt.blockmachines.multimachine.em.processing.desc.0=Блок-контроллер квантового процессора
 
 gt.blockmachines.multimachine.em.crafter.name=Сборщик материи
-gt.blockmachines.multimachine.em.crafter.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.crafter.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.crafter.hint.1=2 - Элементные шлюзы или Молекулярные обшивки
 gt.blockmachines.multimachine.em.crafter.desc.0=Блок-контроллер сборщика материи
 
 gt.blockmachines.multimachine.em.stabilizer.name=Elemental Stabilizer
-gt.blockmachines.multimachine.em.stabilizer.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.stabilizer.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.stabilizer.hint.1=2 - Элементные шлюзы или Молекулярные обшивки
 gt.blockmachines.multimachine.em.stabilizer.desc.0=Блок-контроллер элементного стабилизатора
 
 gt.blockmachines.multimachine.em.wormhole.name=Wormhole
-gt.blockmachines.multimachine.em.wormhole.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.wormhole.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.wormhole.hint.1=2 - Элементные шлюзы или Молекулярные обшивки
 gt.blockmachines.multimachine.em.wormhole.desc.0=Блок-контроллер червоточины
 
 gt.blockmachines.multimachine.em.decay.name=Decay Generator
-gt.blockmachines.multimachine.em.decay.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.decay.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.decay.hint.1=2 - Элементные шлюзы или Молекулярные обшивки
 gt.blockmachines.multimachine.em.decay.desc.0=Блок-контроллер генератора распада
 gt.blockmachines.multimachine.em.decay.desc.1=Decays elemental matter to generate power
@@ -830,12 +830,12 @@ gt.blockmachines.multimachine.em.decay.desc.1=Decays elemental matter to generat
 gt.blockmachines.multimachine.em.decay.conf=Ampere divider
 
 gt.blockmachines.multimachine.em.annihilation.name=Annihilation Generator
-gt.blockmachines.multimachine.em.annihilation.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.annihilation.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.annihilation.hint.1=2 - Элементные шлюзы или Молекулярные обшивки
 gt.blockmachines.multimachine.em.annihilation.desc.0=Блок-контроллер генератора аннигиляции
 
 gt.blockmachines.multimachine.em.blackholegenerator.name=Генератор чёрных дыр
-gt.blockmachines.multimachine.em.blackholegenerator.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.blackholegenerator.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.blackholegenerator.hint.1=2 - Элементные шлюзы или Молекулярные обшивки
 gt.blockmachines.multimachine.em.blackholegenerator.desc.0=Блок-контроллер генератора чёрных дыр
 gt.blockmachines.multimachine.em.blackholegenerator.desc.1=Uses a black hole to generate power
@@ -1101,7 +1101,7 @@ gt.blockmachines.machine.tt.ownerdetector.desc.1=Ищет свою мамочк�
 gt.blockmachines.machine.tt.ownerdetector.desc.2=Излучает сигнал, когда счастлив
 
 gt.blockmachines.machine.tt.datareader.name=Data Reader
-gt.blockmachines.machine.tt.datareader.desc.0=Reads Data Sticks and Orbs
+gt.blockmachines.machine.tt.datareader.desc.0=Считывает флешки и сферы данных
 gt.blockmachines.machine.tt.datareader.desc.1=Power it up and
 gt.blockmachines.machine.tt.datareader.desc.2=Put the data storage in
 
@@ -1165,7 +1165,7 @@ GT5U.gui.text.no_research_item=§7No valid item to research
 GT5U.gui.text.no_chargeable_item=§7No chargeable item
 GT5U.gui.text.no_computing=§7Can't compute
 GT5U.gui.text.no_data=§7Can't output data
-GT5U.gui.text.no_planet_block=§7Missing planet block
+GT5U.gui.text.no_planet_block=§7Отсутствует планетарный блок
 GT5U.gui.text.no_helium=§7Not enough Helium
 GT5U.gui.text.no_hydrogen=§7Not enough Hydrogen
 GT5U.gui.text.no_stellar_plasma=§7Not enough Stellar Plasma
@@ -1176,7 +1176,7 @@ GT5U.gui.text.invalid_current_setting=§7Invalid current setting
 GT5U.gui.text.invalid_time_setting=§7Invalid time setting
 GT5U.gui.text.invalid_overdrive_setting=§7Invalid overdrive setting
 GT5U.gui.text.insufficient_power_no_val=§7Insufficient power
-GT5U.gui.text.missing_upgrades=§7Missing upgrades
+GT5U.gui.text.missing_upgrades=§7Отсутствует улучшения
 GT5U.gui.text.waiting_for_inputs=§7Waiting for inputs
 GT5U.gui.text.computation_loss=§4Shut down due to computation loss.
 GT5U.gui.text.researching_item=§fResearching: §b%s
@@ -1218,9 +1218,9 @@ tt.keyword.Structure.AnyMolecularCasing=Любой Молекулярный ко
 tt.keyword.Structure.AnyMolecularCasing2D=Любой Молекулярный корпус с 2 точками
 tt.keyword.Structure.AnyMolecularCasing3D=Любой Молекулярный корпус с 3 точками
 tt.keyword.Structure.AnyMolecularCasing4D=Любой Молекулярный корпус с 4 точками
-tt.keyword.Structure.AnyOuterMolecularCasing3rd=Any outer Molecular Casing on the 3rd slice
-tt.keyword.Structure.AnyOuterMolecularCasing4th=Any outer Molecular Casing on the 4th slice
-tt.keyword.Structure.AnyOuterMolecularCasing3rd4th=Any outer Molecular Casing on the 3rd or 4th slice
+tt.keyword.Structure.AnyOuterMolecularCasing3rd=Любой внешний молекулярный корпус на 3-ем слое
+tt.keyword.Structure.AnyOuterMolecularCasing4th=Любой внешний молекулярный корпус на 4-ом слое
+tt.keyword.Structure.AnyOuterMolecularCasing3rd4th=Любой внешний молекулярный корпус на 3-ем или 4-ом слое
 tt.keyword.Structure.AnyOuterCasingOnBottom=Любой внешний корпус нижнего слоя
 # Optional
 tt.keyword.Structure.Optional=(optional)
@@ -1233,14 +1233,14 @@ tt.keyword.Structure.CenterPillar=Center of the front pillar
 tt.keyword.Structure.Center=Center
 # Additional structure components
 tt.keyword.Structure.DataAccessHatch=Data Access Hatch
-tt.keyword.Structure.ElementalOutput=Elemental Output Hatch
+tt.keyword.Structure.ElementalOutput=Выходной элементный шлюз
 tt.keyword.Structure.Elemental=Elemental Hatch
 tt.keyword.Structure.ElementalOverflow=Элементный шлюз переполнения
 tt.keyword.Structure.ElementalInput=Элементный входной шлюз
 tt.keyword.Structure.EssentiaStorage=Essentia Storage
 tt.keyword.Structure.DataConnector=Коннектор данных
 tt.keyword.Structure.SuperconductingCoilBlock=Сверхпроводящая катушка
-tt.keyword.Structure.StainlessSteelCasing=Stainless Steel Casing
+tt.keyword.Structure.StainlessSteelCasing=Корпус из нержавеющая стали
 tt.wirelessInputData.config.text=Configure how much computation to pull from wireless network
 
 
