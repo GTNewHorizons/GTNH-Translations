@@ -1,32 +1,32 @@
 #Vanilla Tool Tips
-tooltip.wawla.heldItem=Held Item
-tooltip.wawla.feet=Feet
+tooltip.wawla.heldItem=保持アイテム
+tooltip.wawla.feet=ブーツ
 tooltip.wawla.leggings=レギンス
 tooltip.wawla.chestplate=チェストプレート
 tooltip.wawla.helmet=ヘルメット
 tooltip.wawla.item=アイテム
 tooltip.wawla.owner=オーナー
-tooltip.wawla.jumpStrength=Jump Strength
+tooltip.wawla.jumpStrength=ジャンプ力
 tooltip.wawla.speed=速度
 tooltip.wawla.canHarvest=収集可能
 tooltip.wawla.toolType=適正ツール
-tooltip.wawla.yes=Yes
-tooltip.wawla.no=No
+tooltip.wawla.yes=はい
+tooltip.wawla.no=いいえ
 tooltip.wawla.burnTime=燃焼時間
 tooltip.wawla.seconds=秒
-tooltip.wawla.input=Input
-tooltip.wawla.output=Output
+tooltip.wawla.input=入力
+tooltip.wawla.output=出力
 tooltip.wawla.fuel=燃料
 tooltip.wawla.levels=レベル
-tooltip.wawla.primary=First Effect
-tooltip.wawla.secondary=Second Effect
+tooltip.wawla.primary=主要ステータス効果
+tooltip.wawla.secondary=副次ステータス効果
 tooltip.wawla.shiftEnch=スニークキーを押してエンチャントの詳細を表示します
 tooltip.wawla.blockLevel=要求Tier
 tooltip.wawla.amount=量
 tooltip.wawla.lightLevel=明るさ
-tooltip.wawla.sit=Sitting
+tooltip.wawla.sit=おすわり
 tooltip.wawla.birth=クールダウン
-tooltip.wawla.age=Adulthood
+tooltip.wawla.age=成長まで
 tooltip.wawla.tooltype.shovel=シャベル
 tooltip.wawla.tooltype.pickaxe=ツルハシ
 tooltip.wawla.tooltype.axe=斧
@@ -34,17 +34,17 @@ tooltip.wawla.armorprot=防御
 tooltip.wawla.armor=アーマーポイント
 tooltip.wawla.progress=進捗
 tooltip.wawla.missingEnch=§c該当するエンチャントの情報が存在しません§r
-tooltip.wawla.tnt.fuse=Fuse Time
+tooltip.wawla.tnt.fuse=起爆時間
 tooltip.wawla.profession=職業
-tooltip.wawla.unknownplayer=Unknown Player
-tooltip.wawla.sleepable=Sleepable
-tooltip.wawla.hardness=Hardness
+tooltip.wawla.unknownplayer=不明なプレイヤー
+tooltip.wawla.sleepable=睡眠
+tooltip.wawla.hardness=硬度
 tooltip.wawla.resistance=爆破耐性
-tooltip.wawla.enchPower=Enchantment Power
+tooltip.wawla.enchPower=エンチャントパワー
 
 #Fixed/Missing Strings
-tile.null.name=ブロックの名前がありません、mod作者に報告してください。
-entity.ItemFrame.name=アイテムフレーム
+tile.null.name=ブロックの名前がありません、Mod作者に報告してください
+entity.ItemFrame.name=額縁
 
 #Vanilla Module Options
 option.wawla.showEquipment=Entity Equipment?
@@ -78,130 +78,130 @@ option.wawla.info.showHardness=Show Block Hardness?
 option.wawla.info.showResistance=Show Blast Resistance?
 
 #Vanilla Enchantment Descriptions
-description.enchantment.protect.all=全てのダメージを(4*レベル)%軽減します          軽減量は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          火炎耐性や爆発耐性のような他の耐性系エンチャントと競合します
-description.enchantment.protect.fire=火やブレイズの攻撃、溶岩のような炎由来のダメージを(8*レベル)%軽減します          着用者の燃焼時間を(15*レベル)%減少させます          軽減量は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          ダメージ軽減や爆発耐性のような他の耐性系エンチャントと競合します
-description.enchantment.protect.fall=落下やエンダーパールの使用のような落下由来のダメージを(12*レベル)%軽減します          軽減量は他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールはブーツで、上限レベルはⅣ§8(4)§7です
-description.enchantment.protect.explosion=TNTやクリーパーの爆発のような爆発由来のダメージを(8*レベル)%軽減します          爆風によるノックバックを(15*レベル)%軽減します          軽減量は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          ダメージ軽減や火炎耐性のような他の耐性系エンチャントと競合します
-description.enchantment.protect.projectile=矢やファイヤーチャージのような投射物由来のダメージを(8*レベル)%軽減します          軽減量は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          ダメージ軽減や爆発耐性のような他の耐性系エンチャントと競合します
-description.enchantment.oxygen=水中での視力を向上させます          水中で息が切れ始めるまでの時間が、レベル*15秒延長されます。          水中での窒息ダメージをレベル/(レベル+1)の確率で回避します          適正ツールはヘルメットで、上限レベルはⅢ§8(3)§7です
+description.enchantment.protect.all=全てのダメージを(4*レベル)%軽減します          軽減率は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          ダメージ軽減の軽減率は防具の基礎防御力による軽減の後に計算されるため、          総和が100%に達することはありません          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          火炎耐性や爆発耐性のような他の耐性系エンチャントと競合します
+description.enchantment.protect.fire=火やブレイズの攻撃、溶岩のような炎由来のダメージを(8*レベル)%軽減します          軽減率は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          着用者の燃焼時間を(15*レベル)%減少させます          この効果は部位ごとに加算されず、最もレベルの高いものの効果が優先されます          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          ダメージ軽減や爆発耐性のような他の耐性系エンチャントと競合します
+description.enchantment.protect.fall=落下やエンダーパールの使用のような落下由来のダメージを(12*レベル)%軽減します          軽減率は他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールはブーツで、上限レベルはⅣ§8(4)§7です
+description.enchantment.protect.explosion=TNTやクリーパーの爆発のような爆発由来のダメージを(8*レベル)%軽減します          軽減率は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          爆風によるノックバックを(15*レベル)%軽減します          この効果は部位ごとに加算されず、最もレベルの高いものの効果が優先されます          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          ダメージ軽減や火炎耐性のような他の耐性系エンチャントと競合します
+description.enchantment.protect.projectile=矢やファイヤーチャージのような投射物由来のダメージを(8*レベル)%軽減します          軽減率は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          ダメージ軽減や爆発耐性のような他の耐性系エンチャントと競合します
+description.enchantment.oxygen=水中での視力を向上させます          水中で息が切れ始めるまでの時間が、レベル*15秒間延長されます          水中での窒息ダメージをレベル/(レベル+1)の確率で回避します          適正ツールはヘルメットで、上限レベルはⅢ§8(3)§7です
 description.enchantment.waterWorker=着用者の頭が水面下にある場合5倍に、足が水底についていない場合5倍に、          上記両方の条件を満たしている場合25倍に、採掘速度を加速します          適正ツールはヘルメットで、上限レベルはⅠ§8(1)§7です
-description.enchantment.thorns=レベル*15%の確率で着用者を攻撃したものへ、1.0~4.0のダメージを与えます          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です
-description.enchantment.damage.all=攻撃力をレベル*1.25増加させます          適正ツールは全ての近接武器で、上限レベルはⅤ§8(5)§7です
-description.enchantment.damage.undead=ゾンビやスケルトンのようなアンデッドに対する攻撃力をレベル*2.5%増加させます          適正ツールは全ての近接武器で、上限レベルはⅤ§8(5)§7です
-description.enchantment.damage.arthropods=クモやシルバーフィッシュのような節足動物に対する攻撃力をレベル*2.5%増加させます          適正ツールは全ての近接武器で、上限レベルはⅤ§8(5)§7です
+description.enchantment.thorns=(15*レベル)%の確率で着用者を攻撃した対象へ、1.0~4.0のダメージを与えます          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です
+description.enchantment.damage.all=攻撃力を0.5*レベル+0.5増加させます          適正ツールは全ての近接武器で、上限レベルはⅤ§8(5)§7です          アンデッド特攻や虫特攻のような他のダメージ増加系エンチャントと競合します
+description.enchantment.damage.undead=ゾンビやスケルトンのようなアンデッドに対する攻撃力をレベル*2.5増加させます          適正ツールは全ての近接武器で、上限レベルはⅤ§8(5)§7です          ダメージ増加や虫特攻のような他のダメージ増加系エンチャントと競合します
+description.enchantment.damage.arthropods=クモやシルバーフィッシュのような節足動物に対する攻撃力をレベル*2.5増加させます          適正ツールは全ての近接武器で、上限レベルはⅤ§8(5)§7です          ダメージ増加やアンデッド特攻のような他のダメージ増加系エンチャントと競合します
 description.enchantment.knockback=ノックバック力をレベルに応じて上昇させます          1レベルで2.05倍、2レベルで2.90倍に増加します          適正ツールは剣で、上限レベルはⅡ§8(2)§7です
-description.enchantment.fire=攻撃相手のMobを炎上させます          炎上はレベル*4秒間持続し、炎上によるダメージは(レベル*4)-1となります          適正ツールは剣で、上限レベルはⅡ§8(2)§7です
-description.enchantment.lootBonus=討伐時のMobのドロップアイテム量・確率をレベルに応じて増加させます          通常ドロップをの最大ドロップ数をレベルと同数増加させます          レアドロップの確率を1レベルで3%、以降レベルごとに0.5%増加させます          適正ツールは剣で、上限レベルはⅢ§8(3)§7です
-description.enchantment.digging=適正ブロックへの採掘速度をレベルに応じて増加させます          採掘速度の上昇率は次のようになります: 30%/69%/120%/186%/271%          適正ツールはツルハシ、シャベル、斧、ハサミで、上限レベルはⅤ§8(5)§7です
+description.enchantment.fire=攻撃対象のMobを炎上させます          炎上はレベル*4秒間持続し、炎上によるダメージは(レベル*4)-1となります          適正ツールは剣で、上限レベルはⅡ§8(2)§7です
+description.enchantment.lootBonus=討伐時のMobのドロップアイテム量・確率をレベルに応じて上昇させます          通常ドロップの最大ドロップ数をレベルと同数加算します          レアドロップの確率を1レベルで3%、以降レベルごとに0.5%ずつ上昇させます          適正ツールは剣で、上限レベルはⅢ§8(3)§7です
+description.enchantment.digging=適正ブロックへの採掘速度をレベルに応じて上昇させます          採掘速度の上昇率は次のようになります: 30%/69%/120%/186%/271%          適正ツールはツルハシ、シャベル、斧、ハサミで、上限レベルはⅤ§8(5)§7です
 description.enchantment.untouching=石や氷のような破壊時に種類が変わってしまうブロックをそのまま回収できるようになります          適正ツールはツルハシ、シャベル、斧、ハサミで、上限レベルはⅠ§8(1)§7です          幸運のエンチャントと競合します
 description.enchantment.durability=耐久値の減少をレベルに応じた確率で回避します          適正ツールは耐久値の存在するほぼ全てのツールで、上限レベルはⅢ§8(3)§7です
-description.enchantment.lootBonusDigger=特定のブロックからドロップするアイテムを確率で倍増させます          レベルごとに最大倍率が1加算されていきますが、各倍率が引かれる確率は等分されます          例えば最大値が2倍/3倍/4倍の場合、倍増が発生する確率はそれぞれ33%/25%/20%に等分されます          レベル3の幸運エンチャントの場合、20%の確率で2倍/3倍/4倍の何れかのドロップが発生し、          そうでない残り40%は1倍(通常通り)のドロップが発生する計算となります          適正ツールはツルハシ、シャベル、斧、ハサミで、上限レベルはⅢ§8(3)§7です          シルクタッチのエンチャントと競合します
+description.enchantment.lootBonusDigger=特定のブロックからドロップするアイテムを確率で倍増させます          レベルごとに最大倍率が1加算されていきますが、各倍率が引かれる確率は等分されます          例えば最大値が2倍/3倍/4倍の場合、倍増が発生する確率はそれぞれ33%/25%/20%に等分されます          レベル3の幸運エンチャントの場合、20%の確率で2倍/3倍/4倍の何れかのドロップが発生し、          そうでない残り40%は1倍(通常通り)のドロップが発生する計算となります          スイカなどの一部のブロックの場合は、最大ドロップ数が1ずつ加算されていくに留まり、倍増は行われません          適正ツールはツルハシ、シャベル、斧、ハサミで、上限レベルはⅢ§8(3)§7です          シルクタッチのエンチャントと競合します
 description.enchantment.arrowDamage=矢のダメージを25%*(レベル+1)増加させます          増加値の端数はハート半分単位で切り上げられます          適正ツールは弓で、上限レベルはⅤ§8(5)§7です
 description.enchantment.arrowKnockback=矢のノックバック力をレベル*3ブロック分増加させます          適正ツールは弓で、上限レベルはⅡ§8(2)§7です
-description.enchantment.arrowFire=放たれる矢と、この矢に命中したMobを炎上させます          この炎はMob、プレイヤー、TNTにのみ影響を及ぼし、ブロックへの着火は行いません          適正ツールは弓で、上限レベルはⅠ§8(1)§7です
-description.enchantment.arrowInfinite=矢を消費せずに弓を使用できるようになります          インベントリに矢が1本も無い場合でも使用可能です          適正ツールは弓で、上限レベルはⅠ§8(1)§7です
-description.enchantment.lootBonusFishing='宝'に該当するアイテムが釣れる確率がレベル*2.1%上昇します          適正ツールは釣り竿で、上限レベルはⅢ§8(3)§7です
-description.enchantment.fishingSpeed=アイテムが釣れるまでの時間をレベル*5秒間短縮します          'ゴミ'や'宝'が釣れる確率がレベル*1%上昇します          適正ツールは釣り竿で、上限レベルはⅢ§8(3)§7です
+description.enchantment.arrowFire=放たれる矢に火を点け、またこの矢に命中したMobを炎上させます          矢の炎はMob、プレイヤー、TNTにのみ影響を及ぼし、ブロックへの着火は行いません          適正ツールは弓で、上限レベルはⅠ§8(1)§7です
+description.enchantment.arrowInfinite=矢を消費せずに弓を使用できるようになります          インベントリに矢が1本も無い状態でも使用可能です          適正ツールは弓で、上限レベルはⅠ§8(1)§7です
+description.enchantment.lootBonusFishing='宝'に該当するアイテムが釣れる確率を約レベル*2.1%上昇させます          'ゴミ'に該当するアイテムが釣れる確率を約レベル*1.95%減少させます          適正ツールは釣り竿で、上限レベルはⅢ§8(3)§7です
+description.enchantment.fishingSpeed=アイテムが釣れるまでの時間をレベル*5秒間短縮させます          'ゴミ'や'宝'に該当するアイテムが釣れる確率をレベル*1%上昇させます          適正ツールは釣り竿で、上限レベルはⅢ§8(3)§7です
 
 #Villager Professions
-description.villager.profession.farmer=Farmer
-description.villager.profession.librarian=Librarian
-description.villager.profession.priest=Priest
-description.villager.profession.blacksmith=Blacksmith
-description.villager.profession.butcher=Butcher
-description.villager.profession.zombie=Zombie
-description.villager.profession.witch=Witch
-description.villager.profession.misingno=Default
-description.villager.profession.openblocks.king-ish=The King(ish)
-description.villager.profession.tinker.villagertools=Tinkerer
-description.villager.profession.extvil.Miller=Miller
-description.villager.profession.extvil.Fisher=Fisher
-description.villager.profession.extvil.Baker=Baker
-description.villager.profession.extvil.Miner=Miner
-description.villager.profession.extvil.Scientist=Scientist
-description.villager.profession.extvillom.Tanner=Tanner
-description.villager.profession.forestry.beekeeper=Bee Keeper
-description.villager.profession.forestry.lumberjack=Lumberjack
-description.villager.profession.mystcraft.archivist=Archivist
-description.villager.profession.bcaddons.Engineer=Engineer
-description.villager.profession.thaumcraft.wizard=Wizard
-description.villager.profession.thaumcraft.moneychanger=Merchant
-description.villager.profession.compactmachines.villager=Compact Machinist
-description.villager.profession.railcraft.trackman=Rail Worker
-description.villager.profession.pneumaticcraft.VillagerMechanic=Mechanic
-description.villager.profession.witchery.apothecary=Apothecary
-description.villager.profession.minefactoryreloaded.zoologist=Zoologist
-description.villager.profession.is_mtc.card_master=Card Master
-description.villager.profession.gravestone.undertaker=Undertaker
-description.villager.profession.gcewing_sg.tokra=Tok'ra
-description.villager.profession.steamcraft.villager=Steamcrafter
-description.villager.profession.fantastic.fantastic_fisherman=Fantastic Fisherman
-description.villager.profession.defeatedcrow.villager_cafe=Cafe
-description.villager.profession.defeatedcrow.villager_yome=Yome
-description.villager.profession.grccellar.brewer=Brewer
-description.villager.profession.peripheralsplusplus.CCVillager=Computer Technician
-description.villager.profession.evilcraft.werewolfVillager=Werewolf
-description.villager.profession.redgear_brewcraft.villagerwitch=Witch
-description.villager.profession.redgear_brewcraft.villagerwarlock=Warlock
-description.villager.profession.fossil.Archaeologist=Archaeologist
-description.villager.profession.pennyarcade.CoinMerchant=Coin Vendor
-description.villager.profession.psychedelicraft.villagerDealer=Drug Dealer
-description.villager.profession.jukeboxreloaded.villager=Record Dealer
-description.villager.profession.minecraft.etymologist=Etymologist
-description.villager.profession.tofucraft.tofucook=Tofu Chef
-description.villager.profession.jewelrycraft.jeweler=Jeweller
-description.villager.profession.taverns.barwench=Bar Maid
-description.villager.profession.taverns.village_shepherdess=Shepherdess
-description.villager.profession.taverns.village_hostler=Hostler
-description.villager.profession.taverns.village_baker=Baker
-description.villager.profession.tynkyn.jx_villager_chef=Chef
-description.villager.profession.tynkyn.jx_villager_recycle=Recycling
-description.villager.profession.tynkyn.jx_villager_botanist=Botanist
-description.villager.profession.lozmod.villager_beedle=Beedle
-description.villager.profession.lozmod.villager_beedle_special=Beedle
-description.villager.profession.minecraft.farmer=Farmer
-description.villager.profession.savemoney.insurer=Insurer
-description.villager.profession.gvcguns.gvcVillager=Arms Dealer
-description.villager.profession.actuallyadditions.jamVillager=Jam Villager
-description.villager.profession.jewelrycraft2.jeweler=Jeweler
-description.villager.profession.pokecube_adventures.cubesalesman=Salesman
+description.villager.profession.farmer=農民
+description.villager.profession.librarian=司書
+description.villager.profession.priest=司祭
+description.villager.profession.blacksmith=鍛冶屋
+description.villager.profession.butcher=肉屋
+description.villager.profession.zombie=ゾンビ
+description.villager.profession.witch=ウィッチ
+description.villager.profession.misingno=デフォルト
+description.villager.profession.openblocks.king-ish=キング・イシュ
+description.villager.profession.tinker.villagertools=鋳掛屋
+description.villager.profession.extvil.Miller=粉屋
+description.villager.profession.extvil.Fisher=釣り人
+description.villager.profession.extvil.Baker=パン職人
+description.villager.profession.extvil.Miner=炭鉱夫
+description.villager.profession.extvil.Scientist=科学者
+description.villager.profession.extvillom.Tanner=革細工師
+description.villager.profession.forestry.beekeeper=養蜂家
+description.villager.profession.forestry.lumberjack=木こり
+description.villager.profession.mystcraft.archivist=アーキビスト
+description.villager.profession.bcaddons.Engineer=技師
+description.villager.profession.thaumcraft.wizard=奇跡術師
+description.villager.profession.thaumcraft.moneychanger=行商人
+description.villager.profession.compactmachines.villager=コンパクトマシン技師
+description.villager.profession.railcraft.trackman=鉄道作業員
+description.villager.profession.pneumaticcraft.VillagerMechanic=圧力技師
+description.villager.profession.witchery.apothecary=薬剤師
+description.villager.profession.minefactoryreloaded.zoologist=動物学者
+description.villager.profession.is_mtc.card_master=カードマスター
+description.villager.profession.gravestone.undertaker=葬儀屋
+description.villager.profession.gcewing_sg.tokra=トクラ
+description.villager.profession.steamcraft.villager=蒸気技師
+description.villager.profession.fantastic.fantastic_fisherman=素晴らしい釣り人
+description.villager.profession.defeatedcrow.villager_cafe=カフェマスター
+description.villager.profession.defeatedcrow.villager_yome=嫁
+description.villager.profession.grccellar.brewer=醸造家
+description.villager.profession.peripheralsplusplus.CCVillager=コンピューター技術者
+description.villager.profession.evilcraft.werewolfVillager=狼男
+description.villager.profession.redgear_brewcraft.villagerwitch=ウィッチ
+description.villager.profession.redgear_brewcraft.villagerwarlock=黒魔術師
+description.villager.profession.fossil.Archaeologist=考古学者
+description.villager.profession.pennyarcade.CoinMerchant=コイン業者
+description.villager.profession.psychedelicraft.villagerDealer=密売人
+description.villager.profession.jukeboxreloaded.villager=レコード業者
+description.villager.profession.minecraft.etymologist=語源学者
+description.villager.profession.tofucraft.tofucook=豆腐職人
+description.villager.profession.jewelrycraft.jeweler=宝石細工人
+description.villager.profession.taverns.barwench=バーメイド
+description.villager.profession.taverns.village_shepherdess=羊飼い
+description.villager.profession.taverns.village_hostler=馬丁
+description.villager.profession.taverns.village_baker=パン職人
+description.villager.profession.tynkyn.jx_villager_chef=料理人
+description.villager.profession.tynkyn.jx_villager_recycle=リサイクル業者
+description.villager.profession.tynkyn.jx_villager_botanist=植物学者
+description.villager.profession.lozmod.villager_beedle=テリー
+description.villager.profession.lozmod.villager_beedle_special=テリー
+description.villager.profession.minecraft.farmer=農民
+description.villager.profession.savemoney.insurer=保険業者
+description.villager.profession.gvcguns.gvcVillager=武器商人
+description.villager.profession.actuallyadditions.jamVillager=ジャム職人
+description.villager.profession.jewelrycraft2.jeweler=宝石細工人
+description.villager.profession.pokecube_adventures.cubesalesman=セールスマン
 description.villager.profession.terraarts.YE3TE2y=YE3TE2y
-description.villager.profession.xw.smithy3=Smithy
-description.villager.profession.xw.hunter_v1=Hunter
-description.villager.profession.diversity.warrior=Warrior
-description.villager.profession.diversity.priest=Priest
-description.villager.profession.diversity.butcher=Butcher
-description.villager.profession.diversity.chief=Chief
-description.villager.profession.diversity.breeder=Breeder
-description.villager.profession.diversity.guru=Guru
-description.villager.profession.diversity.farmer=Farmer
-description.villager.profession.jbrobot.jbvillagerblock=Blocks
-description.villager.profession.jbrobot.jbvillageritem=Items
-description.villager.profession.jbrobot.jbvillagermodel=Models
-description.villager.profession.jbrobot.jbvillagermotion=Motion
-description.villager.profession.jbrobot.jbvillagercarving=Carving
-description.villager.profession.wa.villager=Villager
-description.villager.profession.wa.swordsmith=Swordsmith
-description.villager.profession.wa.teaMaster=Tea Master
-description.villager.profession.wa.priest=Priest
-description.villager.profession.rftools.rftoolsvillager=RFTools Engineer
-description.villager.profession.forbidden.heretic=Heretic
-description.villager.profession.agricraft.villager=Agricraft Farmer
+description.villager.profession.xw.smithy3=鍛冶職人
+description.villager.profession.xw.hunter_v1=狩人
+description.villager.profession.diversity.warrior=兵士
+description.villager.profession.diversity.priest=司祭
+description.villager.profession.diversity.butcher=肉屋
+description.villager.profession.diversity.chief=首領
+description.villager.profession.diversity.breeder=育種家
+description.villager.profession.diversity.guru=グールー
+description.villager.profession.diversity.farmer=農民
+description.villager.profession.jbrobot.jbvillagerblock=ブロック
+description.villager.profession.jbrobot.jbvillageritem=アイテム
+description.villager.profession.jbrobot.jbvillagermodel=モデル
+description.villager.profession.jbrobot.jbvillagermotion=モーション
+description.villager.profession.jbrobot.jbvillagercarving=彫刻
+description.villager.profession.wa.villager=村人
+description.villager.profession.wa.swordsmith=刀鍛冶
+description.villager.profession.wa.teaMaster=お茶マスター
+description.villager.profession.wa.priest=司祭
+description.villager.profession.rftools.rftoolsvillager=RFTools技師
+description.villager.profession.forbidden.heretic=ヘレティック
+description.villager.profession.agricraft.villager=Agricraft農家
 
 #Jewelrycraft Tooltips
-tooltip.wawla.jewelry.molten=Molten
-tooltip.wawla.jewelry.unmelted=Unmelted
-tooltip.wawla.jewelry.melttime=Melt Time
-tooltip.wawla.jewelry.cooling=Cooling
+tooltip.wawla.jewelry.molten=溶融
+tooltip.wawla.jewelry.unmelted=非溶融
+tooltip.wawla.jewelry.melttime=溶融時間
+tooltip.wawla.jewelry.cooling=冷却
 
 #Jewelrycraft Options
-option.wawla.jewelrycraft.showMoltenAmount=Molten Amounts
-option.wawla.jewelrycraft.showMetalAmount=Unmelted Amounts
-option.wawla.jewelrycraft.showMeltTime=Melting Time
-option.wawla.jewelrycraft.showCooling=Cooling Time
+option.wawla.jewelrycraft.showMoltenAmount=溶融量
+option.wawla.jewelrycraft.showMetalAmount=非溶融量
+option.wawla.jewelrycraft.showMeltTime=溶融時間
+option.wawla.jewelrycraft.showCooling=冷却時間
 
 #Tinkers Construct Tooltips
-tooltip.wawla.tinkers.dryness=Dryness
+tooltip.wawla.tinkers.dryness=乾燥時間
 
 #Tinkers Construct Options
 option.wawla.tinkers.hideLandmine=Hide landmines?
@@ -211,33 +211,33 @@ option.wawla.tinkers.showFurnace=Slab furnace contents?
 option.wawla.tinkers.showBurnTime=Burn Time?
 
 #AquaCulture Enchantment Descriptions
-description.enchantment.aquacultureAppealing=AquaCulture 2の追加エンチャントです          '魚'に該当するアイテムが釣れる確率がレベルに応じて上昇します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です
-description.enchantment.aquacultureBarbedHook=AquaCulture 2の追加エンチャントです          魚が釣り針に食らいついてから離れるまでの時間をレベルに応じて延長します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です
-description.enchantment.aquacultureDoubleHook=AquaCulture 2の追加エンチャントです          レベルに応じた確率で同時に二つのアイテムが釣れるようになります          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です
-description.enchantment.aquacultureHeavyLine=AquaCulture 2の追加エンチャントです          よりレアな魚や宝を釣り上げる確率をレベルに応じて上昇させます          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です
-description.enchantment.aquacultureLongCast=AquaCulture 2の追加エンチャントです          釣り針の飛距離をレベルに応じて延長します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §8《§7ショートキャスト§8／Short Cast》§7のエンチャントと競合します
-description.enchantment.aquacultureMagnetic=AquaCulture 2の追加エンチャントです          '宝'に該当するアイテムが釣れる確率がレベルに応じて上昇します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です
-description.enchantment.aquacultureShortCast=AquaCulture 2の追加エンチャントです          釣り針の飛距離をレベルに応じて短縮します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §8《§7ロングキャスト§8／Long Cast》§7のエンチャントと競合します
+description.enchantment.aquacultureAppealing='魚'に該当するアイテムが釣れる確率をレベルに応じて上昇させます          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §9§oAquaCulture 2§r§7
+description.enchantment.aquacultureBarbedHook=魚が釣り針に食らいついてから離れるまでの時間をレベルに応じて延長します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §9§oAquaCulture 2§r§7
+description.enchantment.aquacultureDoubleHook=レベルに応じた確率で、同時に二つのアイテムが釣れるようになります          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §9§oAquaCulture 2§r§7
+description.enchantment.aquacultureHeavyLine=よりレアな魚や宝を釣り上げる確率をレベルに応じて上昇させます          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §9§oAquaCulture 2§r§7
+description.enchantment.aquacultureLongCast=釣り針の飛距離をレベルに応じて延長します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §8《§7ショートキャスト§8／Short Cast》§7のエンチャントと競合します          §9§oAquaCulture 2§r§7
+description.enchantment.aquacultureMagnetic='宝'に該当するアイテムが釣れる確率をレベルに応じて上昇させます          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §9§oAquaCulture 2§r§7
+description.enchantment.aquacultureShortCast=釣り針の飛距離をレベルに応じて短縮します          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §8《§7ロングキャスト§8／Long Cast》§7のエンチャントと競合します          §9§oAquaCulture 2§r§7
 
 #Pixelmon Tooltips
-tooltip.wawla.pixelmon.male=male
-tooltip.wawla.pixelmon.female=female
-tooltip.wawla.pixelmon.ability=Ability
-tooltip.wawla.pixelmon.happiness=Happiness
-tooltip.wawla.pixelmon.helditem=Held Item
-tooltip.wawla.pixelmon.none=None
-tooltip.wawla.pixelmon.attack=Attack
-tooltip.wawla.pixelmon.defence=Defence
+tooltip.wawla.pixelmon.male=♂
+tooltip.wawla.pixelmon.female=♀
+tooltip.wawla.pixelmon.ability=能力
+tooltip.wawla.pixelmon.happiness=幸福度
+tooltip.wawla.pixelmon.helditem=保持アイテム
+tooltip.wawla.pixelmon.none=なし
+tooltip.wawla.pixelmon.attack=攻撃力
+tooltip.wawla.pixelmon.defence=防御力
 tooltip.wawla.pixelmon.health=HP
-tooltip.wawla.pixelmon.spattack=Special Attack
-tooltip.wawla.pixelmon.spdefence=Special Defence
-tooltip.wawla.pixelmon.speed=Speed
+tooltip.wawla.pixelmon.spattack=特殊攻撃力
+tooltip.wawla.pixelmon.spdefence=特殊防御力
+tooltip.wawla.pixelmon.speed=速度
 tooltip.wawla.pixelmon.iv=IV
 tooltip.wawla.pixelmon.ev=EV
 tooltip.wawla.pixelmon.growth=成長度
-tooltip.wawla.pixelmon.product=Product
-tooltip.wawla.pixelmon.nature=Nature
-tooltip.wawla.pixelmon.size=Size
+tooltip.wawla.pixelmon.product=生産
+tooltip.wawla.pixelmon.nature=自然
+tooltip.wawla.pixelmon.size=サイズ
 
 #Pixelmon Fixed Strings
 entity.pixelmon.Pixelmon.name=Pixelmon
@@ -271,9 +271,9 @@ option.wawla.thaumcraft.pedestalItem=Pedestal Item?
 option.wawla.thaumcraft.deconAspect=Deconstruction Aspect?
 
 #Artifice Enchantment Descriptions
-description.enchantment.artifice.invisible=An armour enchantment which makes the equipped piece of armour look invisible.
-description.enchantment.artifice.soulstealing=A weapon enchantment that causes mobs to drop additional experience points. Higher levels causes the amount of exp to increase.
-description.enchantment.artifice.resistance=An armour enchantment which provides protection from magical damage and wither damage. Higher levels offer better resistance.
+description.enchantment.artifice.invisible=防具の着用時の見た目を非表示にします          適正ツールは全ての防具で、上限レベルはⅠ§8(1)§7です          §9§oArtifice§r§7
+description.enchantment.artifice.soulstealing=討伐時のMobの経験値ドロップ量をレベルに応じて増加させます          適正ツールは剣で、上限レベルはⅢ§8(3)§7です          §9§oArtifice§r§7
+description.enchantment.artifice.resistance=ウィッチのポーションやウィザーのステータス効果のような魔法属性のダメージをレベルに応じて軽減します          適正ツールは全ての防具で、上限レベルはⅢ§8(3)§7です          §9§oArtifice§r§7
 
 #Thaumcraft Enchantment Descriptions
 description.enchantment.repair=Causes items to repair durability over time. This enchantment has two tiers, the second tier restoring durability at a faster rate. This enchantment can be used on weapons, Wand Foci and other tools, excluding shears.
@@ -299,60 +299,60 @@ description.enchantment.ttinkerer:valiance=This enchantment can only be applied 
 description.enchantment.ttinkerer:quickDraw=This enchantment is designed for bows, when applied, the time to fully draw the bow is faster.
 
 #Ars Magica 2 Enchantment Descriptions
-description.enchantment.magicresist=Reduces amount of damage received from magical sources.
-description.enchantment.soulbound=When the player dies, this item will be kept in the inventory on respawn, and will not drop on the ground.
+description.enchantment.magicresist=ウィッチのポーションやウィザーのステータス効果のような魔法属性のダメージをレベルに応じて軽減します          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          §9§oArsMagica 2§r§7
+description.enchantment.soulbound=プレイヤーの死亡時、このエンチャントが付与されたアイテムはドロップせず、          リスポーン後もインベントリに残り続けます          適正ツールは全てのツールで、上限レベルはⅠ§8(1)§7です          §9§oArsMagica 2§r§7
 
 #Red Power 2 Enchantment Descriptions
-description.enchantment.vorpal=Increases the chance that a mob will drop its head on death.
-description.enchantment.disjunction=Increases damage dealt to Enderman and Wither Skeletons.
+description.enchantment.vorpal=Mobの討伐時、レベルに応じた確率で対応したMobの頭をドロップするようになります          適正ツールは剣と§8《§7アタメ§8／Athame》§7で、上限レベルはⅣ§8(4)§7です          §9§oRedPower 2§r§7
+description.enchantment.disjunction=エンダーマンとウィザースケルトンに対する攻撃力をレベルに応じて増加させます          適正ツールは剣と§8《§7アタメ§8／Athame》§7で、上限レベルはⅤ§8(5)§7です          §9§oRedPower 2§r§7
 
 #Special Mobs Enchantment Descriptions
-description.enchantment.SpecialMobs.painBow=A bow based enchantment which deals additional damage which will bypass protection. Each level deals an additional half heart of damage.
-description.enchantment.SpecialMobs.painSword=A sword based enchantment which deals additional damage which will bypass protection. Each level deals an additional half heart of damage.
-description.enchantment.SpecialMobs.plagueBow=A bow based enchantment which gives the damaged mob a random negative effect. The possible effects are slowness, nausea, blindness, hunger, weakness and poison.
-description.enchantment.SpecialMobs.plagueSword=A sword based enchantment which gives the damaged mob a random negative effect. The possible effects are slowness, nausea, blindness, hunger, weakness and poison.
-description.enchantment.SpecialMobs.poisonBow=A bow based enchantment which gives the damaged mob poison. Each level increases the power of the poison effect applied.
-description.enchantment.SpecialMobs.poisonSword=A sword based enchantment which gives the damaged mob poison. Each level increases the power of the poison effect applied.
+description.enchantment.SpecialMobs.painBow=矢のダメージに防御力を無視するレベル*1のダメージが上乗せされます          適正ツールは弓で、最大レベルはⅢ§8(3)§7です          §9§oSpecial Mobs§r§7
+description.enchantment.SpecialMobs.painSword=基礎攻撃力に防御力を無視するレベル*1のダメージが上乗せされます          適正ツールは剣で、最大レベルはⅢ§8(3)§7です          §9§oSpecial Mobs§r§7
+description.enchantment.SpecialMobs.plagueBow=矢に命中したMobにランダムなデバフ効果を与えます          このデバフ効果は移動速度低下、吐き気、盲目、空腹、衰弱、毒の中から選ばれます          適正ツールは弓で、最大レベルはⅢ§8(3)§7です          §9§oSpecial Mobs§r§7
+description.enchantment.SpecialMobs.plagueSword=攻撃対象のMobにランダムなデバフ効果を与えます          このデバフ効果は移動速度低下、吐き気、盲目、空腹、衰弱、毒の中から選ばれます          適正ツールは剣で、最大レベルはⅢ§8(3)§7です          §9§oSpecial Mobs§r§7
+description.enchantment.SpecialMobs.poisonBow=矢に命中したMobに毒のステータス効果を与えます          ステータス効果のレベルはエンチャントのレベルと同数になります          適正ツールは弓で、最大レベルはⅢ§8(3)§7です          §9§oSpecial Mobs§r§7
+description.enchantment.SpecialMobs.poisonSword=攻撃対象のMobに毒のステータス効果を与えます          ステータス効果のレベルはエンチャントのレベルと同数になります          適正ツールは剣で、最大レベルはⅢ§8(3)§7です          §9§oSpecial Mobs§r§7
 
 #Natural Absorption Enchantment Descriptions
-description.enchantment.NaturalAbsorption.absorb=An enchantment for armour. The equipped piece of armour will increase the players maximum absorption amount.
+description.enchantment.NaturalAbsorption.absorb=基礎衝撃吸収値をレベルに応じた量上昇させます          適正ツールは全ての防具で、最大レベルはⅤ§8(5)§7です          §9§oNatural Absorption§r§7
 
 #Simple Flight Enchantment Descriptions
-description.enchantment.fly_longer=Increases the total amount of flaps on Simple Flight devices.
-description.enchantment.fly_faster=Decreases the duration between flaps on Simple Flight devices. Useless on Jet Packs and Jet Gliders.
+description.enchantment.fly_longer=フラップゲージの減少率をレベルに応じて抑止します          適正ツールは全ての飛行用デバイスで、最大レベルはⅧ§8(8)§7です          §9§oSimple Flight§r§7
+description.enchantment.fly_faster=フラップゲージのクールタイムをレベルに応じて短縮させます          適正ツールは§8《§7翼§8／Wings》§7で、最大レベルはⅧ§8(8)§7です          §9§oSimple Flight§r§7
 
 #More Swords Mod Enchantment Descriptions
 description.msm.unused=Note: This item/block has been added to help achieve compatibility with other mods. As of now these do not do anything and are not an ordinary part of this mod. No new ores or tools will be added this is ONLY for for mod compatibility.
-description.enchantment.msm.ignite=This enchantment will set damaged mobs on fire doing damage equal to that of the enchantment level.
-description.enchantment.msm.spark=This enchantment will do 3 fire damage to mobs within 2.4 blocks of the damaged mob. Both the player and the target mob will not be set on fire.
-description.enchantment.msm.feast=This enchantment will restore 0-3 durability when used. The amount restored is multiplied by the level of the effect.
-description.enchantment.msm.vitality=This enchantment will consume 256 durability when used and in turn give the user several buffs such as regen, insta health and extra hearts.
-description.enchantment.msm.venomAspect=This enchantment will poison target mob. The effect will last for seconds equivalent to the level of the effect. It's worth noting that many vanilla mobs such as spiders, zombies and skeletons can not be poisoned rendering this effect useless.
-description.enchantment.msm.absorb=This enchantment has a 5% chance to restore 0-2 hunger points when used.
-description.enchantment.msm.keenEdge=This enchantment increases the damage of the sword by 1 for each level of the effect.
-description.enchantment.msm.scorn=This enchantment will double the damage of the sword by 2 when used in dimensions other than the surface world.
-description.enchantment.msm.enderPulse=This enchantment will warp the player where they are looking when used. This effect has a range of 18 blocks per level. This enchantment will damage the item by 50 points every time it is used. The player will also take 1 damage in fall damage.
-description.enchantment.msm.enderAura=This enchantment has a 15% chance of activating when the player is hit. When activated the player will warp to a random mob within 30 blocks. This mob may not always be friendly. If no mob is found then the effect will be canceled.
-description.enchantment.msm.greed=This enchantment has a 7% chance to drop 1-3 extra points of exp.
-description.enchantment.msm.wisdom=This enchantment is currently broken. My bad :/
-description.enchantment.msm.frozenAspect=This enchantment will slow mobs for 3 seconds per level.
-description.enchantment.msm.frostWave=This enchantment will slow mobs within 2.5 blocks of the target mob for 1.5 seconds.
-description.enchantment.msm.ascension=This enchantment will propel targeted mobs upwards into the air. Hit the mob before it hits the ground to make increase the launch aspect of the effect exponential amount.
-description.enchantment.msm.descension=This enchantment will cause the player to fall at a much slower rate than normal. To activate the effect press and hold shift.
-description.enchantment.msm.shadows=This enchantment will blind the target mob for 1.5 seconds. There is also a 12% chance that the wither effect will be applied for a second.
-description.enchantment.msm.decay=This enchantment will apply the wither effect to the target mob for just under 4 seconds.
-description.enchantment.msm.stealth=This enchantment will cause the player to become invisible when activated. Unlike the potion of invisibility this effect will not give off particles and has no time limit or duration. To toggle this on or off simply right click with the sword. It's worth noting that swords and armor will still be visible while this effect is enabled.
-description.enchantment.msm.extinction=This enchantment will kill all mobs on the map that are an instance of the target mob. This can be used on boats to kill all boats in the world and can be used to manage entities in the world. This effect will not target players.
+description.enchantment.msm.ignite=攻撃対象のMobを炎上させ、エンチャントレベルとほぼ同数の炎上ダメージを与えます          クリーパーを攻撃すると即座に起爆状態に入ります          適正ツールは§8《§6ドーン・スター§8／Dawn§0_§8Star》§7で、最大レベルはⅢ§8(3)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.spark=攻撃対象から半径2.4ブロック以内にいるMobを炎上させ、約3の炎上ダメージを与えます          攻撃対象のMobと使用者には効果を及ぼしませんが、          他プレイヤーは巻き込まれる可能性があります          適正ツールは§8《§6ドーン・スター§8／Dawn§0_§8Star》§7で、最大レベルはⅢ§8(3)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.feast=Mobを討伐したとき、確率で耐久値を0-3回復します          回復される耐久値はレベルと同数の値で乗算されます          適正ツールは§8《§4吸血鬼の刃§8／Vampiric§0_§8Blade》§7で、最大レベルはⅢ§8(3)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.vitality=右クリックで耐久値を256消費し、使用者に2秒間の再生1、吸収2、体力増強2を付与します          適正ツールは§8《§4吸血鬼の刃§8／Vampiric§0_§8Blade》§7で、最大レベルはⅠ§8(1)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.venomAspect=攻撃対象のMobに毒のステータス効果を与えます          ステータス効果の持続時間はエンチャントのレベルと同数になります          §cゾンビやスケルトン、クモなど多くのバニラMobで機能しないため、このエンチャントは役に立ちません§7          適正ツールは§8《§2グラディオラス§8／Gladiolus》§7で、最大レベルはⅠ§8(1)§7です          §9§oMore Swords 2§r§7
+description.enchantment.msm.absorb=Mobを攻撃したとき、5%の確率で満腹度を0-2回復します          適正ツールは§8《§2グラディオラス§8／Gladiolus》§7で、最大レベルはⅠ§8(1)§7です          §9§oMore Swords 2§r§7
+description.enchantment.msm.keenEdge=攻撃力をレベルごとに1増加させます          適正ツールは§8《§5ドラコニック・ブレード§8／Draconic§0_§8Blade》§7で、最大レベルはⅢ§8(3)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.scorn=オーバーワールド以外のディメンションで使用したとき、攻撃力を2倍にします          適正ツールは§8《§5ドラコニック・ブレード§8／Draconic§0_§8Blade》§7で、最大レベルはⅠ§8(1)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.enderPulse=右クリックで耐久値を50消費し、使用者を視点方向へテレポートさせます          効果範囲はレベルごとに18ブロック分上昇していきます          適正ツールは§8《§aアイ・エンドの剣§8／EyeEnd§0_§8Sword》§7で、最大レベルはⅢ§8(3)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.enderAura=このエンチャントが付与された武器を手に持っており、          且つ攻撃を受けたとき、15%の確率で半径30ブロックのランダムなMobの元へテレポートを行います          選ばれるMobはランダムであり、必ずしも友好的であるとは限りません          該当するMobが存在しない場合、この効果は発動しません          適正ツールは§8《§aアイ・エンドの剣§8／EyeEnd§0_§8Sword》§7で、最大レベルはⅠ§8(1)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.greed=Mobの討伐時、(レベル*7)%の確率で1-3の追加の経験値ポイントがドロップします          適正ツールは§8《§7結晶質の刃§8／Crystalline§0_§8Blade》§7で、最大レベルはⅢ§8(3)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.wisdom=§cこのエンチャントは何の効果も持ちません                    §c開発者のミスです :/
+description.enchantment.msm.frozenAspect=攻撃対象のMobにレベル*3秒間の移動速度低下のステータス効果を与えます          適正ツールは§8《§b氷河の刃§8／Glacical§0_§8Blade》§7で、最大レベルはⅢ§8(3)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.frostWave=攻撃対象から半径2.4ブロック以内にいるMobに1.5秒間の移動速度低下のステータス効果を与えます          攻撃対象のMobと使用者には効果を及ぼしませんが、          他プレイヤーは巻き込まれる可能性があります          適正ツールは§8《§b氷河の刃§8／Glacical§0_§8Blade》§7で、最大レベルはⅠ§8(1)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.ascension=攻撃対象のMobを空中に打ち上げます          上昇/落下中に再度攻撃を行うと、打ち上げによる飛距離が指数関数的に増加していきます          適正ツールは§8《§eエーテル・ガード§8／Aether's§0_§8Guard》§7で、最大レベルはⅢ§8(3)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.descension=このエンチャントが付与された武器を手に持っており、          且つスニークを行っている間、使用者の落下速度を緩やかにします          適正ツールは§8《§eエーテル・ガード§8／Aether's§0_§8Guard》§7で、最大レベルはⅠ§8(1)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.shadows=攻撃対象のMobに1.5秒間の盲目のステータス効果を与えます          また、12%の確率で攻撃対象のMobにエンチャントレベルと同レベルの衰弱のステータス効果を1秒間与えます          適正ツールは§8《§8ウィザー・ベイン／Wither's§0_§8Bane》§7で、最大レベルはⅢ§8(3)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.decay=攻撃対象のMobに約4秒間の衰弱のステータス効果を与えます          適正ツールは§8《§8ウィザー・ベイン／Wither's§0_§8Bane》§7で、最大レベルはⅠ§8(1)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.stealth=このエンチャントが付与された武器を右クリックすると、          使用者に恒久的な透明化のステータス効果を与えます          再度右クリックして効果を無効化します          適正ツールは§8《§4アドミニウムのアーク§8／Adminium§0_§8Ark》§7で、最大レベルはⅠ§8(1)§7です                    §9§oMore Swords 2§r§7
+description.enchantment.msm.extinction=攻撃対象のMobと同種のMobをワールドから消去します          例えばこのエンチャントが付与された武器でボートを破壊した場合          同ワールドに存在する全てのボートが消滅します          適正ツールは§8《§4アドミニウムのアーク§8／Adminium§0_§8Ark》§7で、最大レベルはⅠ§8(1)§7です                    §9§oMore Swords 2§r§7
 
 #Railcraft Enchantments
-description.enchantment.railcraft.crowbar.destruction=This enchant is exclusively for crowbars. Deconstructs blocks in a wide area.
-description.enchantment.railcraft.crowbar.implosion=This enchant is exclusively for crowbars. Increases damage dealt to Creepers.
-description.enchantment.railcraft.crowbar.wrecking=This enchant is exclusively for crowbars. Increases damage (works the same as Sharpness).
+description.enchantment.railcraft.crowbar.destruction=半径レベル*2の範囲のブロックを撤去できるようになります          適正ツールは§8《§7バール§8／Crowbar》§7で、最大レベルはⅢ§8(3)§7です          §9§oRailcraft§r§7
+description.enchantment.railcraft.crowbar.implosion=クリーパーに対する攻撃力をレベルに応じて増加させます          適正ツールは§8《§7バール§8／Crowbar》§7で、最大レベルはⅤ§8(5)§7です          §8《§7破壊§8／Wrecking》§7のエンチャントと競合します          §9§oRailcraft§r§7
+description.enchantment.railcraft.crowbar.wrecking=攻撃力をレベルに応じて増加させます          (ダメージ増加のエンチャントのように機能します)          適正ツールは§8《§7バール§8／Crowbar》§7で、最大レベルはⅤ§8(5)§7です          §8《§7爆発物特攻§8／Implosion》§7のエンチャントと競合します          §9§oRailcraft§r§7
 
 #OpenBlocks Enchantments
-description.enchantment.openblocks.explosive=なんらかの衝撃が加わったとき、火薬を消費して爆発を引き起こし、着用者を吹き飛ばします。
-description.enchantment.openblocks.flimflam=プレイヤーを攻撃した対象へ"不運"な結果をもたらします。
-description.enchantment.openblocks.laststand=致命的なダメージを受けたとき、経験値レベルを消費して死亡を肩代わりします。
+description.enchantment.openblocks.explosive=なんらかの衝撃が加わったとき、インベントリから火薬を消費して          レベルに応じた規模の爆発を引き起こし、着用者を吹き飛ばします          適正ツールは全ての防具で、最大レベルはⅢ§8(3)§7です          §9§oOpenblocks§r§7
+description.enchantment.openblocks.flimflam=着用者を攻撃した対象へ、レベルに応じた確率で"不運"な結果をもたらします          適正ツールは全ての防具で、最大レベルはⅡ§8(2)§7です          §9§oOpenblocks§r§7
+description.enchantment.openblocks.laststand=致命的なダメージを受けたとき、経験値レベルを消費して死亡を肩代わりします          レベルと着用部位の数により消費する経験値レベルを軽減できます          適正ツールは全ての防具で、最大レベルはⅣ§8(4)§7です          §9§oOpenblocks§r§7
 
 #Forbidden Magic Enchantments
 description.enchantment.cluster=A Chameleon Pickaxe with the Fiery Core enchantment has a chance of dropping clusters when mining certain ores. Clusters are a lot purer than raw ore and can be smelted for the of the ore's normal smelting result. Higher levels of Fiery Core increase the chance of dropping clusters.
@@ -393,13 +393,13 @@ description.enchantment.enderzoo.witherArrow=Applies Wither effect on hit for 5 
 description.enchantment.enderzoo.witherWeapon=Applies Wither effect on hit for 5 seconds.
 
 #BattleGear Enchantments
-description.enchantment.bash.weightless=Reduce the stamina loss per shield bash.
-description.enchantment.bash.power=Increase the push force on shield bash (further repulse the opponent).
-description.enchantment.bash.damage=Adds damage to a shield bash.
-description.enchantment.shield.usage=Reduce the stamina lost on shield block.
-description.enchantment.shield.recover=Increase the stamina recovery rate when holding the shield, but not when blocking.
-description.enchantment.bow.loot=Adds a chance to increase loot on killing with a bow.
-description.enchantment.bow.charge=Lower charge time for the bow, without effecting the FOV.
+description.enchantment.bash.weightless=シールドバッシュ時のスタミナ消費をレベルに応じて軽減します          適正ツールは§8《§7盾§8／Shield》§7で、最大レベルはⅢ§8(3)§7です          §9§oMine & Blade Battlegear 2§r§7
+description.enchantment.bash.power=シールドバッシュによる相手へのノックバック力をレベルに応じて上昇させます          (シールドバッシュを行った対象のMobがより遠くへ反発するようになります)          適正ツールは§8《§7盾§8／Shield》§7で、最大レベルはⅤ§8(5)§7です          §9§oMine & Blade Battlegear 2§r§7
+description.enchantment.bash.damage=シールドバッシュ時、対象へレベルに応じたダメージを与えます          適正ツールは§8《§7盾§8／Shield》§7で、最大レベルはⅢ§8(3)§7です          §9§oMine & Blade Battlegear 2§r§7
+description.enchantment.shield.usage=防御時のスタミナ消費をレベルに応じて軽減します          適正ツールは§8《§7盾§8／Shield》§7で、最大レベルはⅤ§8(5)§7です          §9§oMine & Blade Battlegear 2§r§7
+description.enchantment.shield.recover=盾のスタミナの回復速度をレベルに応じて上昇させます          防御中は通常通り消費されていき、回復は行われません          適正ツールは§8《§7盾§8／Shield》§7で、最大レベルはⅣ§8(4)§7です          §9§oMine & Blade Battlegear 2§r§7
+description.enchantment.bow.loot=放たれた矢により討伐されたMobのドロップアイテム量・確率を上昇させます          適正ツールは弓で、最大レベルはⅠ§8(1)§7です                    §9§oMine & Blade Battlegear 2§r§7
+description.enchantment.bow.charge=弓を引く時間を省き、一瞬で矢を放てるようになります          FOVのズーム演出をなくします          適正ツールは弓で、最大レベルはⅠ§8(1)§7です                    §9§oMine & Blade Battlegear 2§r§7
 
 #Thaumic Bases Enchantments
 description.enchantment.elderKnowledge=Chance to recieve knowledge from fallen mobs.
@@ -409,10 +409,10 @@ description.enchantment.tainted=Inflict taint poison on attacked enemies.
 description.enchantment.vaporising=Gain Crystalized Essentia of slain mobs.
 
 #Misc. Enchantments
-description.enchant.cofh.holding=Increases the amount of slots (8-9 per level) of a strongbox or satchel.
-description.enchant.cofh.multishot=Makes bows shoot multiple arrows at 1 arrow cost.
+description.enchant.cofh.holding=内部スロットをレベルにつき8-9増加させます          適正ツールは§8《§7タンク§8／Tank》§7や§8《§7サッチェル§8／Satchel》§7などで、最大レベルはⅣ§8(4)§7です          §9§oCoFH§r§7
+description.enchant.cofh.multishot=放たれる矢の本数をレベルに応じて増加させます          消費される矢は従来通り一回につき一本のみです          適正ツールは弓で、最大レベルはⅣ§8(4)§7です          §9§oCoFH§r§7
 description.enchantment.draconicevolution.reaperEnchant=Killing a mob has a chance of dropping a corresponding Mob Soul. This bonus chance stacks with the native chance to drop a soul of the various Draconic Evolution weapons.
-description.enchantment.damage.endermen=Deal more damage to Ender mobs and prevent them from teleporting.
-description.enchantment.damage.radioactivity=Add radioactivity to your weapon or armor causing mobs or players to suffer.
+description.enchantment.damage.endermen=エンダーマンなどに対する攻撃力をレベルに応じて増加させます          エンダーマンのテレポートを防ぎます          適正ツールは全ての近接武器で、上限レベルはⅡ§8(2)§7です          ダメージ増加やアンデッド特攻のような他のダメージ増加系エンチャントと競合します          §9§oGregTech§r§7
+description.enchantment.damage.radioactivity=ツールに放射能を付与します          適正ツールは存在せず、上限レベルはⅤ§8(5)§7です          §9§oGregTech§r§7
 description.gadomancy.enchantment.revealer=An enchantment for your helmet. When used, it makes nodes visible, just like Thaumcraft's Goggles of Revealing.
 description.enchantment.projectred.expansion.fuel_efficiency=Better fuel efficiency for your jetpack.
