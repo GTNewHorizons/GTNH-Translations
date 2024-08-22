@@ -5,7 +5,7 @@ tooltip.wawla.leggings=レギンス
 tooltip.wawla.chestplate=チェストプレート
 tooltip.wawla.helmet=ヘルメット
 tooltip.wawla.item=アイテム
-tooltip.wawla.owner=オーナー
+tooltip.wawla.owner=所有者
 tooltip.wawla.jumpStrength=ジャンプ力
 tooltip.wawla.speed=速度
 tooltip.wawla.canHarvest=収集可能
@@ -23,9 +23,9 @@ tooltip.wawla.secondary=副次ステータス効果
 tooltip.wawla.shiftEnch=スニークキーを押してエンチャントの詳細を表示します
 tooltip.wawla.blockLevel=要求Tier
 tooltip.wawla.amount=量
-tooltip.wawla.lightLevel=明るさ
+tooltip.wawla.lightLevel=光量
 tooltip.wawla.sit=おすわり
-tooltip.wawla.birth=クールダウン
+tooltip.wawla.birth=クールタイム
 tooltip.wawla.age=成長まで
 tooltip.wawla.tooltype.shovel=シャベル
 tooltip.wawla.tooltype.pickaxe=ツルハシ
@@ -39,7 +39,7 @@ tooltip.wawla.profession=職業
 tooltip.wawla.unknownplayer=不明なプレイヤー
 tooltip.wawla.sleepable=睡眠
 tooltip.wawla.hardness=硬度
-tooltip.wawla.resistance=爆破耐性
+tooltip.wawla.resistance=爆発耐性
 tooltip.wawla.enchPower=エンチャントパワー
 
 #Fixed/Missing Strings
@@ -47,35 +47,35 @@ tile.null.name=ブロックの名前がありません、Mod作者に報告し�
 entity.ItemFrame.name=額縁
 
 #Vanilla Module Options
-option.wawla.showEquipment=Entity Equipment?
-option.wawla.furnace.output=Furnace Output?
-option.wawla.showHead=Player Head Names?
-option.wawla.horse.showJump=Horse Jump Power?
-option.wawla.furnace.fuel=Furnace Fuel?
-option.wawla.harvest.showHarvest=Harvestability?
-option.wawla.harvest.showTool=Correct Tool?
-option.wawla.harvest.showTier=Correct Tier?
-option.wawla.furnace.input=Furnace Input?
-option.wawla.furnace.burntime=Furnace Burn Time?
-option.wawla.horse.showSpeed=Horse Speed?
-option.wawla.showEnchDesc=Enchantment Descriptions?
-option.wawla.beacon.showLevels=Beacon Level?
-option.wawla.beacon.showPrimary=Prime Beacon Effect?
-option.wawla.beacon.showSecondary=Second Beacon Effect?
-option.wawla.light.lightLevel=Light Level?
-option.wawla.light.showDay=Day Light Level?
-option.wawla.light.monsterSpawn=Monster Light Level?
-option.wawla.pets.showOwner=Pet Owner?
-option.wawla.pets.cooldown=Birth Cooldown?
-option.wawla.pets.age=Baby Age?
-option.wawla.pets.sitting=Sitting?
-option.wawla.showMobArmor=Show Mob Armor Value?
-option.wawla.harvest.showProgress=Show Block Breaking Progression
-option.wawla.tnt.fuse=Show Fuse Time
-option.wawla.showProfession=Show Villager Profession
-option.wawla.bed.sleepable=Bed Status?
-option.wawla.info.showHardness=Show Block Hardness?
-option.wawla.info.showResistance=Show Blast Resistance?
+option.wawla.showEquipment=エンティティの情報を表示
+option.wawla.furnace.output=かまどの出力を表示
+option.wawla.showHead=プレイヤーの頭の所有者を表示
+option.wawla.horse.showJump=ウマのジャンプ力を表示
+option.wawla.furnace.fuel=かまどの燃料を表示
+option.wawla.harvest.showHarvest=採掘の可否を表示
+option.wawla.harvest.showTool=適正ツールを表示
+option.wawla.harvest.showTier=採掘レベルを表示
+option.wawla.furnace.input=かまどの入力物を表示
+option.wawla.furnace.burntime=かまどの燃焼時間を表示
+option.wawla.horse.showSpeed=ウマの移動速度を表示
+option.wawla.showEnchDesc=エンチャントの本に詳細情報を表示
+option.wawla.beacon.showLevels=ビーコンレベルを表示
+option.wawla.beacon.showPrimary=ビーコンの主要エフェクトを表示
+option.wawla.beacon.showSecondary=ビーコンの副次エフェクトを表示
+option.wawla.light.lightLevel=光量を表示
+option.wawla.light.showDay=日中の場合の光量を表示
+option.wawla.light.monsterSpawn=夜間の場合の光量を表示
+option.wawla.pets.showOwner=ペットの所有者を表示
+option.wawla.pets.cooldown=動物の繁殖クールタイムを表示
+option.wawla.pets.age=動物が成熟するまでの時間を表示
+option.wawla.pets.sitting=ペットの待機状態を表示
+option.wawla.showMobArmor=Mobの防御力を表示
+option.wawla.harvest.showProgress=ブロックの破壊進捗を表示
+option.wawla.tnt.fuse=爆発物の起爆時間を表示
+option.wawla.showProfession=村人の職業を表示
+option.wawla.bed.sleepable=ベッドでの睡眠の可否を表示
+option.wawla.info.showHardness=ブロックの硬度を表示
+option.wawla.info.showResistance=ブロックの爆発耐性を表示
 
 #Vanilla Enchantment Descriptions
 description.enchantment.protect.all=全てのダメージを(4*レベル)%軽減します          軽減率は同種/他の耐性エンチャントで部位ごとに加算されていきますが、80%が限界です          ダメージ軽減の軽減率は防具の基礎防御力による軽減の後に計算されるため、          総和が100%に達することはありません          適正ツールは全ての防具で、上限レベルはⅣ§8(4)§7です          火炎耐性や爆発耐性のような他の耐性系エンチャントと競合します
@@ -204,11 +204,11 @@ option.wawla.jewelrycraft.showCooling=冷却時間
 tooltip.wawla.tinkers.dryness=乾燥時間
 
 #Tinkers Construct Options
-option.wawla.tinkers.hideLandmine=Hide landmines?
-option.wawla.tinkers.showDryerTime=Drying rack progress?
-option.wawla.tinkers.showDryerItem=Drying rack item?
-option.wawla.tinkers.showFurnace=Slab furnace contents?
-option.wawla.tinkers.showBurnTime=Burn Time?
+option.wawla.tinkers.hideLandmine=地雷の情報を非表示
+option.wawla.tinkers.showDryerTime=物干し竿の進捗を表示
+option.wawla.tinkers.showDryerItem=物干し竿の保持アイテムを表示
+option.wawla.tinkers.showFurnace=かまどのハーフブロックの保持アイテムを表示
+option.wawla.tinkers.showBurnTime=燃焼時間を表示
 
 #AquaCulture Enchantment Descriptions
 description.enchantment.aquacultureAppealing='魚'に該当するアイテムが釣れる確率をレベルに応じて上昇させます          適正ツールはAquaculture由来の釣り竿で、上限レベルはⅤ§8(5)§7です          §9§oAquaCulture 2§r§7
@@ -236,22 +236,22 @@ tooltip.wawla.pixelmon.iv=IV
 tooltip.wawla.pixelmon.ev=EV
 tooltip.wawla.pixelmon.growth=成長度
 tooltip.wawla.pixelmon.product=生産
-tooltip.wawla.pixelmon.nature=自然
+tooltip.wawla.pixelmon.nature=性格
 tooltip.wawla.pixelmon.size=サイズ
 
 #Pixelmon Fixed Strings
 entity.pixelmon.Pixelmon.name=Pixelmon
 
 #Pixelmon Options
-option.wawla.pixelmon.showFriendship=Happiness?
-option.wawla.pixelmon.showApricornProduct=Apricorn Type?
-option.wawla.pixelmon.showApricornGrowth=Apricorn Growth?
-option.wawla.pixelmon.showAbility=Abilities?
-option.wawla.pixelmon.showHeldItem=Held Item?
-option.wawla.pixelmon.showNature=Natures?
-option.wawla.pixelmon.showSize=Size?
-option.wawla.pixelmon.showIV=Show IV's?
-option.wawla.pixelmon.showEV=Show EV's?
+option.wawla.pixelmon.showFriendship=幸福度を表示
+option.wawla.pixelmon.showApricornProduct=ぼんぐりの品種を表示
+option.wawla.pixelmon.showApricornGrowth=ぼんぐりの成長度を表示
+option.wawla.pixelmon.showAbility=能力を表示
+option.wawla.pixelmon.showHeldItem=保持アイテムを表示
+option.wawla.pixelmon.showNature=性格を表示
+option.wawla.pixelmon.showSize=サイズを表示
+option.wawla.pixelmon.showIV=IVを表示
+option.wawla.pixelmon.showEV=EVを表示
 
 #Thaumcraft Tooltips
 tooltip.wawla.thaumcraft.aspect=Aspect
