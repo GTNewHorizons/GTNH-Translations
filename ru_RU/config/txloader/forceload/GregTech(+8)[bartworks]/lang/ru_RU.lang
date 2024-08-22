@@ -91,8 +91,8 @@ tooltip.bw.1.name=Добавлено bartimaeusnek -
 tooltip.bw.yes.name=Yes
 tooltip.bw.no.name=No
 tooltip.bw.tier.name=Tier:
-tooltip.bw.kg.0.name=kg
-tooltip.bw.kg.1.name=kgs
+tooltip.bw.kg.0.name=кг
+tooltip.bw.kg.1.name=кг
 tooltip.bw.empty.name=Empty
 tooltip.bw.via.name=Добавлено %s§7 - §2BartWorks
 tooltip.bw.mb_via.name=%s§7 via §2BartWorks
@@ -131,9 +131,9 @@ tooltip.tile.biolab.0.name=Биолаборатория, мульти-функц
 tooltip.tile.radhatch.0.name=Камера радиоактивных предметов для мультиблоков
 tooltip.tile.radhatch.1.name=Используйте отвёртку чтобы установить уровень сдерживания
 tooltip.tile.radhatch.2.name=Материал:
-tooltip.tile.radhatch.3.name=Sievert:
+tooltip.tile.radhatch.3.name=Зиверт:
 tooltip.tile.radhatch.4.name=Кол-во:
-tooltip.tile.radhatch.5.name=Time (in t/s/m/h) to decay (1kg):
+tooltip.tile.radhatch.5.name=Время (в т/с/м/ч) распада (1кг):
 tooltip.tile.radhatch.6.name=t
 tooltip.tile.radhatch.7.name=s
 tooltip.tile.radhatch.8.name=m
@@ -147,13 +147,13 @@ bw.recipe.biolab=Биолаборатория
 bw.recipe.BacteriaVat=Бактериальный чан
 bw.fuels.acidgens=Кислотный генератор
 bw.recipe.cal=Сборочная линия электросхем
-bw.recipe.radhatch=Radio Hatch Material List
+bw.recipe.radhatch=Список материалов радио шлюза
 gt.recipe.electricimplosioncompressor=Электрический имплозионный компрессор
 bw.recipe.htgr=Высокотемпературный газоохлаждаемый реактор
 
 nei.biovat.0.name=Needs Glass Tier: %s
-nei.biovat.1.name=Need exactly Sievert: %s Sv
-nei.biovat.2.name=Need minimum Sievert: %s Sv
+nei.biovat.1.name=Нужно точное кол-во зиверт: %s Sv
+nei.biovat.2.name=Нужно мин. кол-во зиверт: %s Sv
 nei.biovat.input.tooltip=Consumed up to 1,001x amount, depending on output rate
 nei.biovat.output.tooltip=Outputs up to 1,001x amount, depending on the amount of fluid stored in the Output Hatch
 
@@ -164,7 +164,7 @@ tile.bw.mbf.name=Мега доменная печь
 tile.bw.mvf.name=Мега вакуумный холодильник
 tile.biolab.name=Биолаборатория
 tile.biovat.name=Бактериальный чан
-tile.radiohatch.name=Radio Hatch
+tile.radiohatch.name=Радио шлюз
 tile.bw.windmill.name=Мельница
 tile.manutrafo.name=Manual Trafo
 tile.BioFluidBlock.name=Bio Fluid Block
@@ -189,14 +189,14 @@ itemGroup.bw.MetaItems.0=BartWorks Circuit Overhaul Items
 BW.infoData.BioVat.expectedProduction=Expected Production
 BW.infoData.BioVat.production=Производство
 
-BW.NEI.display.radhatch.0=Sievert: %s Sv
-BW.NEI.display.radhatch.1=Mass: %s kg
+BW.NEI.display.radhatch.0=Зиверт: %s Sv
+BW.NEI.display.radhatch.1=Масса: %s кг
 BW.NEI.display.radhatch.2=Время: %s сек
 
 misc.BatchModeTextOn=Batch recipes
 misc.BatchModeTextOff=Don't batch recipes
 
 tooltip.cal.imprintedWith=Imprinted with:
-chat.cal.mode.0=Circuit Assembly Line Mode
-chat.cal.mode.1=Circuit Assembler Mode
+chat.cal.mode.0=Режим: Сборочная линия электросхем
+chat.cal.mode.1=Режим: Сборщик электросхем
 #Liquids
