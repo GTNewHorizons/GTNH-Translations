@@ -9,8 +9,8 @@ GT_LESU_CASING.0.name=LESU外装
 
 GT5U.gui.text.no_imprint=インプリントが欠落しています
 GT5U.gui.text.not_enough_length=マルチブロックが短すぎます
-GT5U.gui.text.wrong_sievert_exactly=§7線量が正しくありません。 要求線量 : %s §7Sv
-GT5U.gui.text.wrong_sievert_min=§7線量が正しくありません。要求最低線量 : %s §7Sv
+GT5U.gui.text.wrong_sievert_exactly=§7線量が正しくありません。 要求線量: %s §7Sv
+GT5U.gui.text.wrong_sievert_min=§7線量が正しくありません。要求最低線量: %s §7Sv
 
 itemGroup.bartworks=BartWorks (インターテンポラル)
 BW_Machinery_Casings.0.name=ニッケル-亜鉛フェライトブロック
@@ -28,7 +28,7 @@ item.rotors.woolParts.name=羊毛張りの木製フレーム
 item.rotors.paperParts.name=紙張りの木製フレーム
 item.rotors.combinedParts.name=複合素材張りの木製フレーム
 item.BW_SimpleWindMeter.name=簡易風速計
-tile.BWHeatedWaterPump.0.name=簡易型スターリング水ポンプ
+tile.BWHeatedWaterPump.0.name=簡易型スターリング水生成ポンプ
 item.BWrawtube.name=細長いガラスチューブ
 item.BWmotor.name=簡易型スターリングモーター
 item.BWstove.name=簡易型加熱ストーブ
@@ -87,8 +87,8 @@ tooltip.rotor.3.name=速度:
 tooltip.rotor.4.name=出力:
 tooltip.cp.0.name=Has Circuit inside?
 
-tooltip.bw.0.name=制作者: 
-tooltip.bw.1.name=bartimaeusnekが次のMod経由で追加: 
+tooltip.bw.0.name=制作者:
+tooltip.bw.1.name=bartimaeusnekが次のMod経由で追加:
 tooltip.bw.yes.name=はい
 tooltip.bw.no.name=いいえ
 tooltip.bw.tier.name=Tier:
@@ -110,9 +110,9 @@ tooltip.labparts.6.name=これは脆弱な培養細胞であるため、バク�
 tooltip.labparts.7.name=このDNAフラスコの中身:
 tooltip.labparts.8.name=このプラスミドセルの中身:
 
-tooltip.tile.waterpump.0.name=燃料を入れると 
-tooltip.tile.waterpump.1.name=L/s の速度で水を生成する。毎秒 %d の汚染を引き起こす。
-tooltip.tile.waterpump.2.name=地面に設置する必要があります。
+tooltip.tile.waterpump.0.name=燃料で稼働中
+tooltip.tile.waterpump.1.name=mB/秒 の水を生成します。毎秒 §5%d§7 の汚染を排出します
+tooltip.tile.waterpump.2.name=設置して使用します
 
 tooltip.tile.mbf.0.name=Controller Block for the Mega Blast Furnace;Size(WxHxD): 15x20x15 (Hollow);Controller: 3rd Layer Middle Center;Inner 13x18x13 Heating Coils (Hollow);Outer 15x18x15 Borosilicate Glass;The glass tier limits the Energy Input tier;1+ Input Hatch/Bus (Any casing);1+ Output Hatch/Bus (Any casing);1+ Energy Hatch (Any casing);1x Maintenance Hatch (Any casing);13x13 Muffler Hatches (Top middle);Heat Proof Machine Casings for the outer 15x15 (Layer 20);1+ Output Hatch to recover CO2/CO/SO2 (optional, any top layer casing);    Recovery scales with Muffler Hatch tier;Heat Proof Machine Casings for Base;Each 900K over the min. Heat Capacity grants 5% speedup (multiplicatively);Each 1800K over the min. Heat Capacity allows for one upgraded overclock;Upgraded overclocks reduce recipe time to 25% and increase EU/t to 400%;Causes maximum
 tooltip.tile.mbf.1.name=汚染/秒
@@ -198,6 +198,6 @@ misc.BatchModeTextOn=Batch recipes
 misc.BatchModeTextOff=Don't batch recipes
 
 tooltip.cal.imprintedWith=Imprinted with:
-chat.cal.mode.0=モード : 電子回路組立ライン
-chat.cal.mode.1=モード : 電子回路組立機
+chat.cal.mode.0=モード: 電子回路組立ライン
+chat.cal.mode.1=モード: 電子回路組立機
 #Liquids
