@@ -38,7 +38,7 @@ item.beeRing.name=収集家の蜂の指輪
 tile.effectJar.name=蜂収集家の瓶
 tile.magicApiary.name=魔法の養蜂箱
 tile.visAuraProvider.name=Vis養蜂箱ブースター
-tile.apimancersDrainer.name=Apimancer's Drainer
+tile.apimancersDrainer.name=魔導養蜂家の排出装置
 tile.manaAuraProvider.name=マナ養蜂箱ブースター
 tile.hive.curious.name=好奇の蜂巣
 tile.hive.unusual.name=特異な蜂巣
@@ -404,8 +404,8 @@ magicbees.speciesTCOrder=秩序
 magicbees.speciesTCOrder.description=彼らの巣板はほぼ完璧で、それぞれの部分が全体の模様を映し出している。|エイピノミコン
 magicbees.speciesTCChaos=混沌
 magicbees.speciesTCChaos.description=彼らの巣の社会構造は日々変化しているようで、他種の巣よりも柔軟で回復力があるが、その予測はより困難を極める。|エイピノミコン
-magicbees.speciesTCEssentia=Essentia
-magicbees.speciesTCEssentia.description="Why spam Essentia Condensers when you can just use bees?"|Quantumly, Condenser Enjoyer
+magicbees.speciesTCEssentia=エッセンシア
+magicbees.speciesTCEssentia.description=蜂が使えるのに、なんでエッセンシアコンデンサーを増やすんだい？|Quantumly - コンデンサーエンジョイ勢
 magicbees.speciesTCVis=魔相
 magicbees.speciesTCVis.description="彼らはオーラの変化を感じることができるが、それに影響を与えることはまだできない。"|Azanorの研究メモ
 magicbees.speciesTCRejuvenating=回春
@@ -659,7 +659,7 @@ tc.research_page.MB_EssenceLife.1=魔法で簡単に作れるこのエッセン�
 
 tc.research_name.MB_EssenceDeath=浅き墓穴のエッセンス
 tc.research_text.MB_EssenceDeath=シックスフィートアンダーにはほど遠い。
-tc.research_page.MB_EssenceDeath.1=The Essence of a Shallow Grave channels the death of many of the ... "natural" creatures that wander the world: Zombies, Skeletons, those sorts of things. Exposing bees to this energy has the effect of making them slow and sluggish, and curtails the extent of their lifespan. Some Apimancers consider using frames imbued with these Essences to be cruel, however, others view it as a natrual part of normal beekeeping, with an eye to creating their perfect strain of bees sometime within THEIR lifetime. <BR> The Apimancer's Guild of Safety recommends handling them with telekenisis or very long tongs.
+tc.research_page.MB_EssenceDeath.1=浅い墓穴のエッセンスは、ゾンビやスケルトン、そういった類の、多くの…"自然な"生き物の死と通じている。蜂をこのエネルギーにさらすと、動きが遅鈍になり、寿命が削れる。魔導養蜂家の中には、これらのエッセンスを染み込ませた巣枠を使うことを残酷だと考える者もいるが、それを通常の養蜂の自然な一部分とみなし、いつか自分たちの寿命が残っている間に完璧な蜂の系統を作ることを視野に入れている者もいる。<BR>魔導養蜂家安全組合は、テレキネシスか非常に長いトングを用いてこれを扱うことを推奨している。
 
 tc.research_name.MB_EssenceArmor=永遠の耐久のエッセンス
 tc.research_text.MB_EssenceArmor=のりにゴム
@@ -685,9 +685,9 @@ tc.research_name.MB_VisAuraProvider=Vis養蜂箱ブースター
 tc.research_text.MB_VisAuraProvider=Vis？Bisはどう？
 tc.research_page.MB_VisAuraProvider.1=特異な花粉にVisを注入し金と組み合わせることで、特異な結晶ができあがる。これにオーラ節からセンチヴィスを与えると、魔法の養蜂箱内の環境に同調した蜂が自然に引き寄せられるような、活力を与えるオーラが生まれる。<LINE>§3Aqua§0のCVは突然変異確率を倍にする<BR>§8Perditio§0のCVは寿命を半分にする<BR>§6Aer§0のCVは生産確率を倍にする
 
-tc.research_name.MB_ApimancersDrainer=Apimancer's Drainer
-tc.research_text.MB_ApimancersDrainer=How long will your queen last?
-tc.research_page.MB_ApimancersDrainer.1=The Apimancer's Drainer is an innovative device in the field of Apimancy, designed to extract essentia from the life force of bees. It is placed beneath an apiary, establishing a direct connection with the apiary above.<BR>To determine the type of essentia it produces, the Drainer is attuned by tapping it with the desired essentia.<BR>Once attuned, the Drainer converts the life energy of the queen into the selected essentia...
+tc.research_name.MB_ApimancersDrainer=魔導養蜂家の排出装置
+tc.research_text.MB_ApimancersDrainer=君の女王はどれだけもつかな？
+tc.research_page.MB_ApimancersDrainer.1=魔導養蜂家の排出装置は、蜂の生命力からエッセンシアを抽出するために設計された、神秘養蜂学分野における革新的な装置である。養蜂箱の下に設置し、上の養蜂場と直結させて使用する。<BR>排出装置を目的のエッセンシアで叩くことで同調させ、生成するエッセンシアの種類を決定する。<BR>同調が完了すると、排出装置は女王蜂の生命エネルギーを選択したエッセンシアに変換する…
 
 tc.research_name.MB_ScoopVoid=虚無鋼の虫取り網
 tc.research_text.MB_ScoopVoid=闇の網
@@ -704,27 +704,27 @@ tc.research_page.MB_GrafterVoid.1=魔導金属が優れた素材であること�
 magicbees.botania.lexicon.subtitle=[Magic Bees]
 
 magicbees.botania.lexicon.manasteelTools.title=マナスチールの自然主義者のツール
-magicbees.botania.lexicon.manasteelTools.0=マナスチールの特異な性質は、自然主義者のツールに適している。&1マナスチールの虫取り網&0は蜂の巣を効果的に採集するのに使うことができ、&1マナスチールの接木小刀&0は一般的な青銅製の接木小刀の耐久性のある代用品である。もちろん、どちらの道具もマナで再生する能力を持っている。最良の結果を得るには、この道具とリビングウッドを組み合わせること。
+magicbees.botania.lexicon.manasteelTools.0=マナスチールの特異な性質 は、自然主義者のツールに 適しています。 &1マナスチールの虫取り網&0は 蜂の巣を効果的に採集するの に使うことができ、 &1マナスチールの接木小刀&0は 一般的な青銅製の接木小刀の 耐久性のある代用品です。 もちろん、どちらの道具も マナで再生する能力を持って います。最良の結果を得る には、この道具とリビング ウッドを組み合わせること です。 
 magicbees.botania.lexicon.manasteelScoop=&1マナスチールの虫取り網&0
 magicbees.botania.lexicon.manasteelGrafter=&1マナスチールの接木小刀&0
 
 magicbees.botania.lexicon.beeAlfheim.title=アルフヘイムの神秘養蜂学
 magicbees.botania.lexicon.beeAlfheim.trade=&bアルフヘイムの雄蜂&0の交易
-magicbees.botania.lexicon.beeAlfheim.0=&1エルフの養蜂家たち&0はあなたの世界における蜂の楽しみを知りたがっており、特にあなたが提供できる&1夢見の雄蜂&0に興味を持っている。その見返りとして、彼らはアルフヘイムに存在する唯一の蜂である &bアルフヘイムの雄蜂&と交換してくれる。
+magicbees.botania.lexicon.beeAlfheim.0=&1エルフの養蜂家たち&0はあなた の世界における蜂の楽しみを 知りたがっており、特にあな たが提供できる&1夢見の雄蜂&0に 興味を持っています。その 見返りとして、彼らはアルフ ヘイムに存在する唯一の蜂で ある&bアルフヘイムの雄蜂&と 交換してくれるでしょう。
 
-magicbees.botania.lexicon.beegonia.0=Drones are the foundation of a healthy colony's future, but really, they can start just piling up to the point where you don't know what to do with them anymore. <br>The &1Beegonia&0 is a solution to the problem of overcrowding! Simply toss your spare drones in their vicinity, and they will reclaim the life force within the drone and convert it into mana! They aren't terribly picky, and will
-magicbees.botania.lexicon.beegonia.1=produce a constant amount of mana while they work, though it does seem more "complex" bees provide more mana than mundane bees, whatever that means.
-magicbees.botania.lexicon.beegonia.crafting=Syncrostrike's Elegant Solution
-magicbees.botania.lexicon.beegonia.2=Well. It was this or &2Beenus Fly Trap&0, but that one has its own issues.
+magicbees.botania.lexicon.beegonia.0=雄蜂は健全なコロニーの将来 的な基盤ですが、実際には、 雄蜂が積み重なるばかりで、 もはやどうすればいいのか わからなくなることもあり ます。<br>&1ビーゴニア&0は、この過密問題 の解決策です！予備の雄蜂を この近くに放り込むだけで、 彼らは雄蜂内の生命力を回収 し、マナに変換します！この 花はそれほど選り好みせず、 稼働している間は一定量の
+magicbees.botania.lexicon.beegonia.1=マナを生産しますが、ありふ れた蜂よりも"複雑な" 蜂の方 が多くのマナを生み出すよう です。
+magicbees.botania.lexicon.beegonia.crafting=シンクロストライクの エレガントな解決策
+magicbees.botania.lexicon.beegonia.2=ああ。これか&2ハチトリグサ&0か ってところだったんだけど、 そっちはそっちで問題があっ てね。
 
-magicbees.botania.lexicon.hiveacynth.0=Finding new bees for your stock can be a bit of a pain. Thankfully, we can tap into the memories of flowers to reproduce bees with up to 74% accuracy! Maybe.<br>The &1Hiveacynth&0 absorbs mana from a nearby mana pool, and once it has collected enough, it begins converting it into life essence and produces a bee! It seems the species is somewhat random, though only 'mundane' bees
-magicbees.botania.lexicon.hiveacynth.1=will ever be produced, and roughly in proportion to how they are found in the wild.<br>Occasionally, the flower will give itself airs, and produce a vaunted heiress rather than a vulgar drone. A redstone signal will prevent the &1Hiveacynth&0 from converting mana into life essence.
+magicbees.botania.lexicon.hiveacynth.0=ある株のために新たな蜂を 見つけてくるのはいささか 面倒です。ありがたいこと に、私たちは花の記憶を利用 して、最大74％の精度で蜂を 複製することができます！ おそらく。<br>&1ハイビアシンス&0は近くのマナ プールからマナを吸収し、 十分な量が集まると、それを 生命のエッセンスに変換し 始め、蜂を生み出します！ 蜂の種類は多少ランダムです が、常に'ありふれた'蜂のみ
+magicbees.botania.lexicon.hiveacynth.1=を、野生で見られるのとほぼ 同じ割合で生み出します。<br>時折、花は自らを気取り、 低俗な雄蜂ではなく、ご自慢 の後継者を生み出します。 レッドストーン信号は、 &1ハイビアシンス&0がマナを生命 のエッセンスに変換するのを 妨げます。
 magicbees.botania.lexicon.hiveacynth.crafting=> beesbeesbees.com
 
-magicbees.botania.lexicon.hibeescus.0=&5Ignoble&0 bees, while exactly as useful as their &2Pristine&0 kin, have but only one flaw - after 100 generations or so, they begin to become diseased, weak, and may die off on you, right before you get that coveted mutation that'll drive your fellow Apiarists mad with envy. It seems that there is a solution to this after all, though! With enough mana, time, and the help of the very special
-magicbees.botania.lexicon.hibeescus.1=&1Hibeescus&0 at your side, you can expunge the multitude of genetic weeknesses in the &5Ignoble&0 wild bees. Patience is a must, since the &1Hibeescus&0 performs its magic very slowly, up to 2 full days!<br>It is also recommended that you use its power sparingly, as it is incredibly mana-hungry. Applying a redstone signal to its roots will prevent it from absorbing new Princesses or Queens, but not
-magicbees.botania.lexicon.hibeescus.2=halt the genetic cleansing operation once it has begun.
-magicbees.botania.lexicon.hibeescus.crafting=Only for use by Spiteful people.
+magicbees.botania.lexicon.hibeescus.0=&5遺伝子汚染&0蜂は、&2純系&0と同様 に有用ではありますが、ただ 1つ欠点があります。 - 100世代ほど経つと病気に かかり、弱り始め、仲間の 養蜂家たちを嫉妬で狂わせる ような、誰もが欲しがる突然 変異体を手に入れる直前に、 あなたのもとで死に絶える かもしれないのです。しかし これには解決策があるよう です！十分なマナと時間、 そして極めて特別な
+magicbees.botania.lexicon.hibeescus.1=&1ハイビースカス&0を味方につけ れば、&5遺伝子汚染&0をもった 野生の蜂の遺伝的弱点を取り 除くことができます。&1ハイ ビースカス&0は非常にゆっくり と、最長で丸2日かけて魔法 を行使するので、忍耐が必須 です！<br>また、この花は信じられない ほどマナ喰らいであるため、 この力の使用は控えめにする ことをおすすめします。根に レッドストーン信号を与える と、新たな王女蜂や女王蜂の 吸収を防ぐことができますが
+magicbees.botania.lexicon.hibeescus.2=一度始まった遺伝子浄化を 止めることはできません。
+magicbees.botania.lexicon.hibeescus.crafting=悪意をもった人の使用に限る。
 
-magicbees.botania.lexicon.manaBooster.0=The Magic Apiary is a natural way to keep bees working quickly, but its a bit... limited. Thankfully, the properties of living stone and petals have a way of apparently energizing bees, making them produce more. Simply provide the &1Mana Apiary Booster&0 with a constant supply of mana, and it will keep the apiaries working efficiently.
-magicbees.botania.lexicon.manaBooster.crafting=Abuzz with mana!
+magicbees.botania.lexicon.manaBooster.0=魔法の養蜂箱は、蜂を素早く 働かせるための自然な方法 ですが、いささか...限界が あります。ありがたいことに リビングロックと花びらの 特性によって、蜂を見かけ上 活気づけ、生産量を増やす 方法があります。&1マナ養蜂箱 ブースター&0に常にマナを供給 するだけで、養蜂箱を効率的 に稼働させ続けることができ ます。
+magicbees.botania.lexicon.manaBooster.crafting=マナでブイブイ言わせろ！
