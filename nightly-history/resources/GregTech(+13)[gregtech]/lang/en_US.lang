@@ -112,6 +112,7 @@ gt.recipe.brewer=Brewery
 gt.recipe.brewer.description=Brewing your Drinks
 gt.recipe.metalbender=Bending Machine
 gt.recipe.metalbender.description=Boo, he's bad! We want BENDER!!!
+gt.recipe.neutroniumcompressor=Neutronium Compressor
 gt.recipe.canner=Canner
 gt.recipe.canner.description=Unmobile Food Canning Machine GTA4
 gt.recipe.centrifuge=Centrifuge
@@ -238,7 +239,6 @@ gt.recipe.purificationplantplasmaheating=Temperature Fluctuation
 gt.recipe.purificationplantuvtreatment=High Energy Laser Treatment
 gt.recipe.purificationplantdegasifier=Degassing
 gt.recipe.purificationplantquarkextractor=Baryonic Perfection
-gt.recipe.crystalizertst=Crystalizer
 
 # Recipe categories
 gt.recipe.category.arc_furnace_recycling=Arc Furnace Recycling
@@ -343,6 +343,8 @@ GT5U.GTPP_MULTI_INDUSTRIAL_MULTI_MACHINE.mode.1=Fluid
 GT5U.GTPP_MULTI_INDUSTRIAL_MULTI_MACHINE.mode.2=Misc
 GT5U.MULTI_CANNER.mode.0=Canner
 GT5U.MULTI_CANNER.mode.1=Fluid Canner
+GT5U.BLACKHOLE.mode.0=Compressor
+GT5U.BLACKHOLE.mode.1=Singularity Compressor
 GT5U.GTPP_MULTI_INDUSTRIAL_DEHYDRATOR.mode.0=Vacuum Furnace
 GT5U.GTPP_MULTI_INDUSTRIAL_DEHYDRATOR.mode.1=Dehydrator
 GT5U.GTPP_MULTI_MASS_FABRICATOR.mode.0=Mass Fabricator
@@ -519,7 +521,6 @@ GT5U.gui.text.cleanroom_running=§aCleanroom running
 GT5U.gui.text.no_machine=§7No valid processing machine
 GT5U.gui.text.machine_mismatch=§7Machine doesn't match to locked recipe
 GT5U.gui.text.high_gravity=§7Recipe needs low gravity
-GT5U.gui.text.too_much_pollution=§7Please reduce pollution under 500k or put it into cleanroom.
 GT5U.gui.text.no_mining_pipe=§7Missing Mining Pipe
 GT5U.gui.text.drilling=§aDrilling
 GT5U.gui.text.deploying_pipe=§aDeploying mining pipe
@@ -530,9 +531,12 @@ GT5U.gui.text.drill_exhausted=§dDrill has exhausted all resources
 GT5U.gui.text.drill_generic_finished=§7Mining pipes have been retracted
 GT5U.gui.text.drill_retract_pipes_finished=§7Operation aborted
 GT5U.gui.text.backfiller_no_concrete=§7No liquid concrete
+GT5U.gui.text.no_black_hole=§7Black hole is not active
+GT5U.gui.text.unstable_black_hole=§7Black hole is unstable
 GT5U.gui.text.backfiller_finished=§aWork complete
 GT5U.gui.text.backfiller_working=§aPouring concrete
 GT5U.gui.text.backfiller_current_area=§7Filling at y-level: §a%s
+GT5U.gui.text.overheated=§7HIP Unit overheated!
 GT5U.gui.text.pump_fluid_type=Fluid: §a%s
 GT5U.gui.text.pump_rate.1=Pumping rate: %s§r
 GT5U.gui.text.pump_rate.2= L/t
@@ -571,7 +575,7 @@ GT5U.gui.text.no_machine_part=No correct machine part in controller slot.
 GT5U.gui.text.missing_item=§7Missing required item: §b%s§f
 GT5U.gui.text.ph_sensor=pH threshold
 GT5U.gui.text.critical_ph_value=pH exceeded critical value.
-
+GT5U.gui.text.heat_sensor=Heat threshold
 GT5U.item.programmed_circuit.select.header=Reprogram Circuit
 
 # Note to translators: this translation entry is supposed to be a number indicating how many taunts you define here
