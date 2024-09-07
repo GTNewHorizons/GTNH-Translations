@@ -8,6 +8,7 @@ thaumicenergistics.fluid.gaseous=Super Critical Fluid
 #Blocks
 thaumicenergistics.block.essentia.provider.name=Essentia Provider
 thaumicenergistics.block.infusion.provider.name=Infusion Provider
+thaumicenergistics.block.advanced.infusion.provider.name=Advanced Infusion Provider
 thaumicenergistics.block.gear.box.name=Iron Gear Box
 thaumicenergistics.block.golem.gear.box.name=Thaumium Gear Box
 thaumicenergistics.block.essentia.cell.workbench.name=Essentia Cell Workbench
@@ -78,6 +79,10 @@ thaumicenergistics.tooltip.button.swap.armor.title=Swap Armor
 thaumicenergistics.tooltip.arcane.assembler.hasVis=Contains Stored Vis
 thaumicenergistics.tooltip.button.reset.aspect=Reset the aspects
 thaumicenergistics.tooltip.button.reset.aspect.description=Reset the left-hand aspects table to its original state
+thaumicenergistics.tooltip.advanced.infusion.provider.working.on=Workig Mode
+thaumicenergistics.tooltip.advanced.infusion.provider.normal=Normal Provider
+thaumicenergistics.tooltip.advanced.infusion.provider.advanced=Advanced Provider
+thaumicenergistics.tooltip.advanced.infusion.provider.bindto=Bind to %s %s %s matrix
 
 
 #GUI
@@ -139,6 +144,11 @@ thaumicenergistics.research_page.TEESSPROV.1=While import and export buses are u
 tc.research_name.thaumicenergistics.TEINFPROV=Infusion Provider
 tc.research_text.thaumicenergistics.TEINFPROV=Infusion made easier.
 thaumicenergistics.research_page.TEINFPROV.1=By researching the process of essentia infusion, you have discovered a method for instantaneous conversion between digi-sentia and essentia that can be used for infusion.<BR>By placing the §lInfusion Provider§r near a thaumic device, the device can draw essentia directly from the network as if it were a warded jar.<BR>This could prove to be very useful for the infusion alter.
+
+# Research Advanced Infusion Provider
+tc.research_name.thaumicenergistics.TEADVINFPROV=Advanced Infusion Provider
+tc.research_text.thaumicenergistics.TEADVINFPROV=Easiest Infusion.
+thaumicenergistics.research_page.TEADVINFPROV.1=As you continue to optimize your ME network autocrafting, you've been stumped by infusion recipes countless times.<BR>Now you have a new idea, why not leave the task of preparing essentia to your ME network?<BR>So you've developed a new infusion provider that incorporates the functionality of the Interceptor and automatically orders the missing essentia. It can also bind infusion matrix in a 9*9*9 area. Right-clicking allows him to search the area for matrix and rebind it.
 
 # Research Vis Interface
 tc.research_name.thaumicenergistics.TEVISINT=Vis Relay Interface
