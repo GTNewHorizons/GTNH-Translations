@@ -1,33 +1,33 @@
-item.kekztech_error_item.name=KekzTech Error Coin
+item.kekztech_error_item.name=Ошибка KekzTech Coin
 
 # -------- Multiblock Tooltip Builder Keywords
 # -------- Context can be found in the class util.MultiBlockTooltipBuilder
 mbdesc.beginStructureBlock.Dimensions=Размеры
 mbdesc.beginStructureBlock.Structure=Структура
 mbdesc.addController.Controller=Controller
-mbdesc.addCasing.atleast=(at least)
-mbdesc.addEnergyHatch.EnergyHatch=Energy Hatch
+mbdesc.addCasing.atleast=(не меньше)
+mbdesc.addEnergyHatch.EnergyHatch=Энерговвод
 mbdesc.addDynamoHatch.DynamoHatch=Энерговывод
 mbdesc.addMaintenanceHatch.MaintenanceHatch=Люк техобслуживания
-mbdesc.addIOHatches.IOHatches=I/O Hatches
+mbdesc.addIOHatches.IOHatches=Шлюзы ввода/вывода
 mbdesc.addInputBus.InputBus=Входной люк/и
-mbdesc.addInputHatch.InputHatch=Input Hatch/es
+mbdesc.addInputHatch.InputHatch=Входной шлюз/ы
 mbdesc.addOutputBus.OutputBus=Выходной люк/и
-mbdesc.addOutputHatch.OutputHatch=Output Hatch/es
-mbdesc.signAndFinalize.Hold=Hold
-mbdesc.signAndFinalize.todisplay=to display structure guidelines
-mbdesc.signAndFinalize.createdby=Created by
+mbdesc.addOutputHatch.OutputHatch=Выходной шлюз/ы
+mbdesc.signAndFinalize.Hold=Держать
+mbdesc.signAndFinalize.todisplay=для отображения структурных рекомендаций
+mbdesc.signAndFinalize.createdby=Создано
 
 # -------- Fuel Cell: Structure Blocks
-tile.kekztech_gdcceramicelectrolyteunit_block.name=GDC Ceramic Electrolyte Unit
-tile.kekztech_yszceramicelectrolyteunit_block.name=YSZ Ceramic Electrolyte Unit
+tile.kekztech_gdcceramicelectrolyteunit_block.name=Керамический электролитный блок GDC
+tile.kekztech_yszceramicelectrolyteunit_block.name=Керамический электролитный блок YSZ
 
 # -------- Fuel Cell: Crafting Components
 item.kekztech_crafting_item.9.name=YSZ Керамическая пыль
 item.kekztech_crafting_item.10.name=GDC Керамическая пыль
-item.kekztech_crafting_item.11.name=Yttria Dust
-item.kekztech_crafting_item.12.name=Пыль циркония
-item.kekztech_crafting_item.13.name=Ceria Dust
+item.kekztech_crafting_item.11.name=Иттриевая пыль
+item.kekztech_crafting_item.12.name=Циркониевая пыль 
+item.kekztech_crafting_item.13.name=Цериевая пыль 
 item.kekztech_crafting_item.14.name=YSZ Керамическая пластина
 item.kekztech_crafting_item.15.name=GDC Керамическая пластина
 
@@ -43,25 +43,25 @@ tile.kekztech_tfftstoragefield_block.7.name=T.F.F.T Блок хранения ж
 tile.kekztech_tfftstoragefield_block.8.name=T.F.F.T Блок хранения жидкостей T8
 tile.kekztech_tfftstoragefield_block.9.name=T.F.F.T Блок хранения жидкостей T9
 tile.kekztech_tfftstoragefield_block.10.name=T.F.F.T Блок хранения жидкостей T10
-tile.kekztech_tfftstoragefield_block.desc=This is not a fluid tank
+tile.kekztech_tfftstoragefield_block.desc=Это не резервуар для жидкости.
 tile.kekztech_tfftstoragefield_block.hint.1=Подсказка 1 точка: T.F.F.T Корпус
 tile.kekztech_tfftstoragefield_block.hint.2=Подсказка 2 точки: T.F.F.T Корпус, Люк техобслуживания, T.F.F.T Мульти I/O шлюз, Входной/Выходной шлюз, Энерговвод
 tile.kekztech_tfftstoragefield_block.hint.3=Подсказка 3 точки: EV+ тировое стекло, T.F.F.T Мульти I/O шлюз, Входной/Выходной шлюз
 tile.kekztech_tfftstoragefield_block.hint.4=Подсказка 4 точки: EV+ тировое стекло
 
 # -------- Lapotronic Super Capacitor: Structure Blocks
-tile.kekztech_lapotronicenergyunit_block.0.name=Lapotronic Super Capacitor Casing
+tile.kekztech_lapotronicenergyunit_block.0.name=Корпус суперконденсатора Lapotronic
 tile.kekztech_lapotronicenergyunit_block.1.name=Лазуротроновый конденсатор (IV)
 tile.kekztech_lapotronicenergyunit_block.2.name=Лазуротроновый конденсатор (LuV)
 tile.kekztech_lapotronicenergyunit_block.3.name=Лазуротроновый конденсатор (ZPM)
 tile.kekztech_lapotronicenergyunit_block.4.name=Лазуротроновый конденсатор (UV)
 tile.kekztech_lapotronicenergyunit_block.5.name=Совершенный конденсатор (UHV)
-tile.kekztech_lapotronicenergyunit_block.6.name=Empty Capacitor (-)
+tile.kekztech_lapotronicenergyunit_block.6.name=Пустой конденсатор (-)
 tile.kekztech_lapotronicenergyunit_block.7.name=Лазуротроновый конденсатор (EV)
 tile.kekztech_lapotronicenergyunit_block.8.name=UEV Конденсатор
 tile.kekztech_lapotronicenergyunit_block.9.name=UIV Конденсатор
 tile.kekztech_lapotronicenergyunit_block.10.name=UMV Конденсатор
-tile.kekztech_lapotronicenergyunit_block.desc=Part of the Lapotronic Super Capacitor
+tile.kekztech_lapotronicenergyunit_block.desc=Часть суперконденсатора Lapotronic
 
 # -------- Thaumium Reinforced Jar: Block
 tile.kekztech_thaumiumreinforcedjar_block.0.name=Укреплённая банка из таум-металла
@@ -71,7 +71,7 @@ tile.kekztech_thaumiumreinforcedjar_block.3.name=Укреплённая пуст
 # This is the name of the research
 tc.research_name.THAUMIUMREINFORCEDJAR=Укреплённая банка из таум-металла
 # This is the subtext for the research note
-tc.research_text.THAUMIUMREINFORCEDJAR=Slightly better jars
+tc.research_text.THAUMIUMREINFORCEDJAR=Немного лучше банки
 # Lore text for the research pages
 kekztech.research_page.THAUMIUMREINFORCEDJAR.0=You have heard your fellow Thaumaturges talk about the benefits of digitized Essentia Storage.<BR><BR>Storing enough Essentia for your advanced infusions has indeed been an issue for you too. However those jars are simply too pleasing to look at to even consider the idea of replacing them with some compact technological construct.<BR><BR>Thanks to this new discovery, you have managed to quadruple the capacity of your jars by improving them with a thick Thaumium lining. This should buy you some more time to come up with a better solution.
 kekztech.research_page.THAUMIUMREINFORCEDJAR.1=Compressing this much Essentia in such a tiny space causes some volatility. Picking up reinforced jars is probably a bad idea...<BR><BR>You imagine that you could get even more out of your jars if only you had some kind of material harder than even diamond or any of the other magical metal you have seen so far.

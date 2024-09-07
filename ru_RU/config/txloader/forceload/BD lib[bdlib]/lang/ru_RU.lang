@@ -9,10 +9,10 @@ bdlib.multiblock.disabled=Отключено
 bdlib.multiblock.incomplete=Этот механизм не завершён, ему требуется как минимум:
 bdlib.multiblock.notconnected=Не подключено к верному механизму
 bdlib.multiblock.toomanyoutputs=Слишком много выходов подсоединено, нельзя установить новое соединение
-bdlib.multiblock.tip.module=Can be installed in:
-bdlib.multiblock.tip.controller=Possible modules:
+bdlib.multiblock.tip.module=Может быть установлен в:
+bdlib.multiblock.tip.controller=Возможные модули:
 bdlib.multiblock.tip.module.range= * %s (%s - %s)
-bdlib.multiblock.tip.module.max= * %s (up to %s)
+bdlib.multiblock.tip.module.max=* %s (вплоть до %s)
 
 bdlib.rsmode.always=Всегда ВКЛ.
 bdlib.rsmode.never=Отключено
@@ -21,10 +21,10 @@ bdlib.rsmode.rs_off=Отключение по сигналу красного к
 
 bdlib.label.empty=Пусто
 
-bdlib.oredistribution.usage=/oredistribution <radius> [<min height>] [<max height>] [--file]
-bdlib.oredistribution.start1=Checking ore distribution in (%s,%s,%s) to (%s,%s,%s) dim %s
-bdlib.oredistribution.start2=Server may lag for a while
+bdlib.oredistribution.usage=/oredistribution <радиус> [<минимальная высота>] [<максимальная высота>] [--файл]
+bdlib.oredistribution.start1=Идёт проверка распределения руд от (%s,%s,%s) до (%s,%s,%s) в измерении %s
+bdlib.oredistribution.start2=Сервер может отставать на некоторое время
 bdlib.oredistribution.entry=%s %s - %s (%s%%)
-bdlib.oredistribution.warn=%s Warning: %s has multiple variants generated:
-bdlib.oredistribution.saved=Ore distribution dumped to %s
-bdlib.oredistribution.error=Failed to save ore distribution dump: %s
+bdlib.oredistribution.warn=%s Предупреждение: %s сгенерировано несколько вариантов:
+bdlib.oredistribution.saved=Dump распределение руды  в %s
+bdlib.oredistribution.error=Не удалось сохранить dump распределение руды: %s

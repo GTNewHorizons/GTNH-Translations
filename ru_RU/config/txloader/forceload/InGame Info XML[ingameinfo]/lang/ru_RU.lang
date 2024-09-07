@@ -188,7 +188,7 @@ ingameinfoxml.tag.sneaking.desc=§eИстина§r если игрок крад�
 ingameinfoxml.tag.sprinting.desc=§eИстина§r если игрок бежит, §eложно§r в противном случае.
 ingameinfoxml.tag.invisible.desc=§eИстина§r если игрок невидим, §eложно§r в противном случае.
 ingameinfoxml.tag.eating.desc=§eИстина§r если игрок есть, §eложно§r в противном случае.
-ingameinfoxml.tag.invulnerable.desc=§etrue§r if the player is invulnerable, §efalse§r otherwise.
+ingameinfoxml.tag.invulnerable.desc=§etrue§r, если игрок неуязвим, §efalse§r в противном случае.
 
 # gui - tag list - player position
 ingameinfoxml.tag.chunkx.desc=X координата чанка игрока.
@@ -197,11 +197,11 @@ ingameinfoxml.tag.chunkoffsetx.desc=X координата смещения в �
 ingameinfoxml.tag.chunkoffsetz.desc=Z координата смещения в чанке игрока (0-15).
 ingameinfoxml.tag.x.desc=X координата игрока.
 ingameinfoxml.tag.y.desc=Y координата игрока.
-ingameinfoxml.tag.yfeet.desc=Player's Y coordinate (feel level).
+ingameinfoxml.tag.yfeet.desc=Координата Y игрока (уровень ощущения).
 ingameinfoxml.tag.z.desc=Z координата игрока.
 ingameinfoxml.tag.xi.desc=X координата игрока, округленная до ближайшего целого числа.
 ingameinfoxml.tag.yi.desc=Y координата игрока, округленная до ближайшего целого числа.
-ingameinfoxml.tag.yfeeti.desc=Player's Y coordinate rounded to the closest whole number (feel level).
+ingameinfoxml.tag.yfeeti.desc=Координата Y игрока округляется до ближайшего целого числа (уровень ощущений).
 ingameinfoxml.tag.zi.desc=Z координата игрока, округленная до ближайшего целого числа.
 ingameinfoxml.tag.speed.desc=Скорость игрока.
 ingameinfoxml.tag.speedx.desc=Скорость игрока вдоль оси х.
@@ -253,7 +253,7 @@ ingameinfoxml.tag.daytime.desc=§eИстина§r если дневное вре
 ingameinfoxml.tag.raining.desc=§eИстина§r если идет дождь, §eложно§r в противном случае.
 ingameinfoxml.tag.thundering.desc=§eИстина§r если идет гроза, §eложно§r в противном случае.
 ingameinfoxml.tag.snowing.desc=§eИстина§r если идет снег, §eложно§r в противном случае.
-ingameinfoxml.tag.nextrain.desc=Time until the next rain.
+ingameinfoxml.tag.nextrain.desc=Время до следующего дождя.
 ingameinfoxml.tag.slimes.desc=§eИстина§r если текущий чанк является слизневым, §eложно§r в противном случае.
 ingameinfoxml.tag.hardcore.desc=§eИстина§r если мир находится в hardcore режиме, §eложно§r в противном случае.
 ingameinfoxml.tag.temperature.desc=Температура биома.
@@ -261,21 +261,21 @@ ingameinfoxml.tag.localtemperature.desc=Температура биома в в�
 ingameinfoxml.tag.humidity.desc=Влажность биома.
 
 # gui - tag list - integration - blood magic
-ingameinfoxml.tag.bmlp.desc=Current §4Essence§r.
-ingameinfoxml.tag.bmmaxlp.desc=Maximum §4Essence§r.
+ingameinfoxml.tag.bmlp.desc=Текущая §4Эссенция§r.
+ingameinfoxml.tag.bmmaxlp.desc=Максимум §4Эссенци§r.
 
 # gui - tag list - integration - simply jetpacks
-ingameinfoxml.tag.sjenergy.desc=Jetpack energy.
-ingameinfoxml.tag.sjmaxenergy.desc=Jetpack maximum energy.
-ingameinfoxml.tag.sjpercent.desc=Jetpack energy left in percents.
-ingameinfoxml.tag.sjenabled.desc=§etrue§r if the jetpack is enabled, §efalse§r otherwise.
-ingameinfoxml.tag.sjhover.desc=§etrue§r if the jetpack is in hover mode, §efalse§r otherwise.
+ingameinfoxml.tag.sjenergy.desc=Энергия джетпака.
+ingameinfoxml.tag.sjmaxenergy.desc=Максимальная энергия джетпака.
+ingameinfoxml.tag.sjpercent.desc=Остаток энергии джетпака в процентах.
+ingameinfoxml.tag.sjenabled.desc=§etrue§r, если джетпак включен, §efalse§r в противном случае.
+ingameinfoxml.tag.sjhover.desc=§etrue§r, если джетпак находится в режиме зависания, §efalse§r в противном случае.
 
 # gui - tag list - integration - terrafirmacraft
-ingameinfoxml.tag.tfcrainfall.desc=Rainfall at your current position.
-ingameinfoxml.tag.tfctemperature.desc=Temperature at your current position.
-ingameinfoxml.tag.tfcaveragetemperature.desc=Average yearly temperature at your current position.
-ingameinfoxml.tag.tfctemperatureheatsources.desc=Temperature with external heat sources at your current position.
+ingameinfoxml.tag.tfcrainfall.desc=Количество осадков в вашем текущем положении.
+ingameinfoxml.tag.tfctemperature.desc=Температура в текущем положении.
+ingameinfoxml.tag.tfcaveragetemperature.desc=Среднегодовая температура на вашем текущем месте.
+ingameinfoxml.tag.tfctemperatureheatsources.desc=Температура с внешними источниками тепла в вашем текущем положении.
 ingameinfoxml.tag.tfcseason.desc=Сезон.
 ingameinfoxml.tag.tfcdate.desc=Дата.
 ingameinfoxml.tag.tfcday.desc=День.
@@ -287,12 +287,12 @@ ingameinfoxml.tag.fmtskillprogress.desc=Текущий прогресс в %s.
 
 # gui - tag list - integration - thaumcraft
 ingameinfoxml.tag.tcwarpperm.desc=Постоянный варп игрока.
-ingameinfoxml.tag.tcwarpsticky.desc=Player's normal (sticky) warp.
+ingameinfoxml.tag.tcwarpsticky.desc=Обычная (липкая) искажение игрока.
 ingameinfoxml.tag.tcwarptemp.desc=Временный варп игрока.
 ingameinfoxml.tag.tcwarptotal.desc=Общий уровень искажения игрока.
 
 # gui - tag list - integration - gregtech
-ingameinfoxml.tag.gtnewore.desc=§etrue§r if using equispaced ore generation, §efalse§r for the old axis symmetric one.
+ingameinfoxml.tag.gtnewore.desc=§etrue§r при использовании равносмещенной генерации руды, §efalse§r для старой осесимметричной генерации руды.
 
 
 # keys
