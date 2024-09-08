@@ -152,7 +152,7 @@ enderio.binderComposite.name=Compuesto de Pegamento
 enderio.phasedIronNugget.name=Pepita de Hierro Pulsante
 tile.blockDarkIronBars.name=Barrotes de Hierro Oscuro
 tile.blockSoulariumBars.name=Soularium Bars
-tile.blockEndSteelBars.name=End Steel Bars
+tile.blockEndSteelBars.name=Barrotes de Acero del End
 tile.blockEndermanSkull.name=Calavera de Enderman
 tile.blockEndermanSkull.base.name=Cabeza de Enderman
 tile.blockEndermanSkull.reanimated.name=Cabeza de Enderman Reanimada
@@ -225,7 +225,7 @@ enderio.itemMachinePart.name=Partes de Máquina
 enderio.machineChassi.name=Chasis de Máquina
 enderio.basicGear.name=Engranaje Básico
 enderio.soulMachineChassi.name=Soul Machine Chassis
-enderio.endSteelMachineChassi.name=End Steel Chassis
+enderio.endSteelMachineChassi.name=Chasis de Acero del End
 enderio.pulsatingCrystal.name=Cristal Pulsante
 enderio.vibrantCrystal.name=Cristal Vibrante
 enderio.enderCrystal.name=Cristal de Ender
@@ -240,7 +240,7 @@ enderio.redstoneGrindingBall.name=Redstone Alloy Ball
 enderio.conductiveGrindingBall.name=Bola de hierro conductor
 enderio.pulsatingGrindingBall.name=Bola de hierro pulsante
 enderio.soulariumGrindingBall.name=Bola de Animarium
-enderio.endSteelGrindingBall.name=End Steel Ball
+enderio.endSteelGrindingBall.name=Bola de Acero del End
 
 enderio.darkGrindingBall.tooltip.detailed.line1=Bola de molido para la Moledora SAG
 enderio.darkGrindingBall.tooltip.detailed.line2=Salida General
@@ -274,8 +274,8 @@ enderio.phasedIron.name=Hierro Pulsante
 enderio.vibrantNugget.name=Pepita de Aleación Vibrante
 enderio.darkSteel.name=Acero Oscuro
 enderio.soularium.name=Animarium
-enderio.endSteel.name=End Steel
-enderio.endSteelNugget.name=End Steel Nugget
+enderio.endSteel.name=Acero del End
+enderio.endSteelNugget.name=Pepita de Acero del End
 
 enderio.crudeSteel.name=Compuesto de arcilla
 enderio.crystallineAlloy.name=Aleación cristalina
@@ -309,7 +309,7 @@ enderio.phasedIron_ball.name=Bola de hierro pulsante
 enderio.vibrantNugget_ball.name=Vibrant Alloy Nugget Ball
 enderio.darkSteel_ball.name=Dark Steel Ball
 enderio.soularium_ball.name=Bola de solárium
-enderio.endSteel_ball.name=End Steel Ball
+enderio.endSteel_ball.name=Bola de Acero del End
 
 tile.blockIngotStorage.name=Almacenamiento de Lingotes
 tile.enderio.electricalSteel.name=Bloque de Acero Eléctrico
@@ -321,7 +321,7 @@ tile.enderio.phasedIron.name=Bloque de Hierro Pulsante
 tile.enderio.vibrantNugget.name=Bloque de Pepita de Aleación Vibrante
 tile.enderio.darkSteel.name=Bloque de Acero Oscuro
 tile.enderio.soularium.name=Bloque de Animarium
-tile.enderio.endSteel.name=End Steel Block
+tile.enderio.endSteel.name=Bloque de Acero del End
 
 tile.enderio.crudeSteel.name=Clay Compound Block
 tile.enderio.crystallineAlloy.name=Crystalline Alloy Block
@@ -370,15 +370,15 @@ tile.blockReservoir.tooltip.detailed.line1=Se crea formando una estructura de 2x
 tile.blockReservoir.tooltip.detailed.line2=Añade dos cubos de agua para producir una fuente infinita de agua.
 tile.blockReservoir.tooltip.detailed.line3=Produce un cubo por segundo.
 tile.blockReservoir.tooltip.detailed.line4=Haz clic-derecho con una llave inglesa para activar el auto-drenaje.
-tile.blockReservoir.tooltip.detailed.line5=R-Click with a wrench to
+tile.blockReservoir.tooltip.detailed.line5=Haz clic derecho con una Llave Inglesa para
 tile.blockReservoir.tooltip.detailed.line6=enable auto-output
 
 tile.blockAlloySmelter.name=Fundidor de Aleaciones
 tile.blockAlloySmelter.tooltip.detailed.line1=Se usa para crear aleaciones EnderIO o como horno eléctrico común.
 tile.blockAlloySmelter.tooltip.detailed.line2=Puedes mejorarlo con condensadores para aumentar la velocidad y el almacenamiento de energía.
-tile.blockAlloySmelter.tooltip.detailed.line3=furnace
-tile.blockAlloySmelter.tooltip.detailed.line4=Upgrade with capacitors to increase
-tile.blockAlloySmelter.tooltip.detailed.line5=speed and energy storage
+tile.blockAlloySmelter.tooltip.detailed.line3=horno
+tile.blockAlloySmelter.tooltip.detailed.line4=Mejoralo con condensadores para incrementar
+tile.blockAlloySmelter.tooltip.detailed.line5=su velocidad y almacenamiento de energía
 
 tile.blockSolarPanel.name=Célula Fotovoltaica
 tile.blockSolarPanel.advanced.name=Célula Fotovoltaica Avanzada
@@ -515,17 +515,17 @@ enderio.gui.fluid.minReq=%s requeridos para la activación.
 tile.blockFrankenzombieGenerator.name=Frank'N'Zombie Generator
 tile.blockFrankenzombieGenerator.tooltip.detailed.line1=Consumes Nutrient Distillation
 tile.blockFrankenzombieGenerator.tooltip.detailed.line2=to generate even more power
-enderio.frankenzombieGenerator.fuelTank=Nutrient Tank
+enderio.frankenzombieGenerator.fuelTank=Tanque de Nutrientes
 
-tile.blockEnderGenerator.name=Ender Generator
+tile.blockEnderGenerator.name=Generador Ender
 tile.blockEnderGenerator.tooltip.detailed.line1=Consumes Dew of the Void
 tile.blockEnderGenerator.tooltip.detailed.line2=to generate power
-enderio.enderGenerator.fuelTank=Void Tank
+enderio.enderGenerator.fuelTank=Vaciar Tanque
 
 tile.blockKillerJoe.name=Killer Joe
 tile.blockKillerJoe.tooltip.detailed.line1=Ataca a las criaturas cercanas cuando se le proporciona una espada y Destilado de Nutrientes.
 tile.blockKillerJoe.tooltip.detailed.line2=La experiencia se puede drenar como XP Líquida usando tuberías de fluidos.
-tile.blockKillerJoe.tooltip.detailed.line3=Nutrient Distillation
+tile.blockKillerJoe.tooltip.detailed.line3=Destilado de Nutrientes
 tile.blockKillerJoe.tooltip.detailed.line4=Experience can be drained as
 tile.blockKillerJoe.tooltip.detailed.line5=Liquid XP using fluid conduits
 
@@ -831,13 +831,13 @@ item.darkSteel_axe.name=Hacha Oscura
 item.darkSteel_shears.name=Tijeras Oscuras
 
 #End Steel
-item.endSteel_helmet.name=End Steel Helm
-item.endSteel_chestplate.name=End Steel Plate
-item.endSteel_leggings.name=End Steel Leggings
-item.endSteel_boots.name=End Steel Boots
+item.endSteel_helmet.name=Casco de Acero del End
+item.endSteel_chestplate.name=Placa de Acero del End
+item.endSteel_leggings.name=Perneras de Acero del End
+item.endSteel_boots.name=Botas de Acero del End
 item.endSteel_sword.name=The Ender MKII
-item.endSteel_pickaxe.name=End Steel Pick
-item.endSteel_axe.name=End Steel Axe
+item.endSteel_pickaxe.name=Pico de Acero del End
+item.endSteel_axe.name=Hacha de Acero del End
 
 #Stellar
 item.stellar_helmet.name=Stellar Helm
