@@ -1,41 +1,41 @@
 tile.air.name=Воздух
 tile.personalSpacePortal.name=Личный портал измерения
-tile.personalSpacePortalLegacy.name=Legacy Personal Dimension Portal (UW Migration)
+tile.personalSpacePortalLegacy.name=Устаревший портал персонального измерения (миграция в UW) 
 
-chat.overworldPersonalDimension=Personal dimensions can only be created from the overworld
-chat.personalWorld.created=Personal dimension successfully created!
-chat.personalWorld.updated=Personal dimension successfully updated!
-chat.personalWorld.relinked=Portal successfully relinked in dimension %d
-chat.personalWorld.relinked.error=Portal was not relinked, it would cause losing access to the dimension.
-chat.personalWorld.proximity=Too close to another portal.
-chat.personalWorld.denied=Settings not changed: access denied.
-chat.personalWorld.badLayers=Settings not changed: using forbidden block layers.
+chat.overworldPersonalDimension=Персональные измерения могут быть созданы только в обычном мире. 
+chat.personalWorld.created=Личное измерение успешно создано! 
+chat.personalWorld.updated=Личное измерение успешно обновлено! 
+chat.personalWorld.relinked=Портал успешно переподключен в измерении %d
+chat.personalWorld.relinked.error=Портал не был переподключен, это приведет к потере доступа к измерению.
+chat.personalWorld.proximity=Слишком близко к другому порталу.
+chat.personalWorld.denied=Настройки не изменены: доступ запрещен.
+chat.personalWorld.badLayers=Настройки не изменены: используются запрещенные слои блоков.
 
 gui.personalWorld.voidWorld=Пустой мир
 gui.personalWorld.biome=Имя биома
-gui.personalWorld.presets=Presets
-gui.personalWorld.layers=Layers
+gui.personalWorld.presets=Предустановки
+gui.personalWorld.layers=Слои 
 
 gui.personalWorld.skyColor=Цвет Неба
 gui.personalWorld.skyColor.red=Красный:
 gui.personalWorld.skyColor.green=Зелёный:
 gui.personalWorld.skyColor.blue=Синий:
-gui.personalWorld.starBrightness=Star brightness
+gui.personalWorld.starBrightness=Яркость звёзд
 
-gui.personalWorld.vegetation=Foliage
+gui.personalWorld.vegetation=Листва
 gui.personalWorld.trees=Деревья
 gui.personalWorld.weather=Погоду
 gui.personalWorld.clouds=Облака
 
-gui.personalWorld.invalidSyntax=Invalid syntax
-gui.personalWorld.notAllowed=Not allowed by the server's configuration
+gui.personalWorld.invalidSyntax=Недопустимый синтаксис 
+gui.personalWorld.notAllowed=Не разрешено конфигурацией сервера
 
 gui.personalWorld.skyType.VANILLA=Ванильное Небо
-gui.personalWorld.skyType.BARNADA_C=Barnada C sky
-gui.personalWorld.skyType.GARDEN_OF_GLASS=Garden of Glass sky
+gui.personalWorld.skyType.BARNADA_C=Неба барнады С
+gui.personalWorld.skyType.GARDEN_OF_GLASS=Небесный сад из стекла. 
 
 commands.pspace.usage=/pspace (give-portal player DIM [X] [Y] [Z])|(tpx player DIM [X Y Z])|(ls)|(where player)|(allow-worldgen-change DIM)
-commands.pspace.badDimension=The specified dimension doesn't exist
-commands.pspace.where=Player %s is in dimension %d
-commands.pspace.tpx=Player %s was teleported to %d: %d, %d, %d
-commands.pspace.allow-worldgen-change=Player %s unlocked worldgen settings for dimension %d
+commands.pspace.badDimension=Указанное измерение не существует
+commands.pspace.where=Игрок %s находится в измерении %d
+commands.pspace.tpx=Игрок %s был телепортирован в %d: %d, %d, %d
+commands.pspace.allow-worldgen-change=Игрок %s разблокировал настройки генерации мира для измерения %d
