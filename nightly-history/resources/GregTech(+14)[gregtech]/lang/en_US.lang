@@ -576,6 +576,9 @@ GT5U.gui.text.missing_item=§7Missing required item: §b%s§f
 GT5U.gui.text.ph_sensor=pH threshold
 GT5U.gui.text.critical_ph_value=pH exceeded critical value.
 GT5U.gui.text.heat_sensor=Heat threshold
+GT5U.gui.text.meteor_mining=§dCurrently Mining!
+GT5U.gui.text.meteor_waiting=§dWaiting for a Meteor...
+GT5U.gui.text.meteor_reset=§dReset completed!
 GT5U.item.programmed_circuit.select.header=Reprogram Circuit
 
 # Note to translators: this translation entry is supposed to be a number indicating how many taunts you define here
@@ -617,8 +620,8 @@ GT5U.multiblock.problems=Problems
 GT5U.multiblock.mei=Max Energy Income
 GT5U.multiblock.maxtier=Max Tier
 GT5U.multiblock.usage=Probably uses
-GT5U.multiblock.parallelism=Max Parallels
-GT5U.multiblock.curparallelism=Current Parallels
+GT5U.multiblock.parallelism=Max Parallel
+GT5U.multiblock.curparallelism=Current Parallel
 GT5U.multiblock.euModifier=EU Modifier
 GT5U.multiblock.speed=Speed
 GT5U.multiblock.fluidPipeTier=Fluid Pipe Tier
@@ -1647,7 +1650,7 @@ GTPP.multiblock.multimachine.fluid=Fluid Mode. Does fermenter (circuit 20), flui
 GTPP.multiblock.multimachine.misc=Misc. Mode. Does precision laser engraver (circuit 20), autoclave (circuit 21) and fluid solidifier (circuit 22).
 
 
-GTPP.waila.steam.use=Probably uses: §e%s§r L/t Steam
+GTPP.waila.steam.use=Probably uses: §e%s§r L/s Steam
 
 GTPP.CC.machinetier=Control Core Tier
 GTPP.CC.discount=EU Discount
