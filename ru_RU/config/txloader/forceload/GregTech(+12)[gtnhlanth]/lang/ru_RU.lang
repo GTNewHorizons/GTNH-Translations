@@ -17,7 +17,7 @@ GT5U.gui.text.gtnhlanth.low_input_rate=Input amount too low!
 GT5U.gui.text.gtnhlanth.scerror=Math error, broken recipe?
 
 # NEI
-value.disstank=Ratio: %s:1
+value.disstank=Соотношение: %s:1
 
 DissolutionTank.hint.0=Точка 1: Чистый корпус из нержавеющей стали
 DissolutionTank.hint.1=24x Боросиликатное стекло
@@ -28,7 +28,7 @@ DissolutionTank.hint.4=Энерговвод, Люк техобслуживани
 Digester.hint.0=Точка 1: Прочный корпус из вольфрамовой стали
 Digester.hint.1=9x Чистый корпус из нержавеющей стали
 Digester.hint.2=16х Жаропрочных корпусов
-Digester.hint.3=16x Нагревательных колец
+Digester.hint.3=16x Блок катушек
 Digester.hint.4=Входной люк, Выходной люк, Входной шлюз, Выходной шлюз
 Digester.hint.5=Энерговвод, Люк техобслуживания
 
@@ -43,7 +43,7 @@ SourceChamber.hint.6=Dot 4: Beamline Output Hatch
 LINAC.hint.0=325-1285x Shielded Accelerator Casing
 LINAC.hint.1=148-852x Coolant Delivery Casing
 LINAC.hint.2=127-703x Shielded Accelerator Glass
-LINAC.hint.3=56-312x Сверхпроводящее нагревательное кольцо
+LINAC.hint.3=56-312x Блок сверхпроводящей катушки
 LINAC.hint.4=156-732x Electrode Casing
 LINAC.hint.5=47x Grate Machine Casing
 LINAC.hint.6=48x Боросиликатное стекло (LuV+)
@@ -53,7 +53,7 @@ LINAC.hint.9=Dot 3: Beamline Input Hatch
 LINAC.hint.10=Dot 4: Beamline Output Hatch
 
 Synchrotron.hint.0=676x Shielded Accelerator Casing
-Synchrotron.hint.1=90x Сверхпроводящее нагревательное кольцо
+Synchrotron.hint.1=90x Блок сверхпроводящей катушки
 Synchrotron.hint.2=64x Niobium Cavity Machine Casing
 Synchrotron.hint.3=28x Coolant Delivery Casing
 Synchrotron.hint.4=16x Боросиликатное стекло (LuV+)
@@ -143,10 +143,10 @@ beamline.in_pre=Multiblock Beamline Input
 beamline.particle=Particle
 beamline.energy=Energy
 beamline.focus=Focus
-beamline.amount=Кол-во
+beamline.amount=Количество
 beamline.rate=Rate
 
-beamline.temperature=Temperature
+beamline.temperature=Температура
 beamline.coolusage=Coolant Usage
 
 beamline.out_pre=Multiblock Beamline Output
@@ -159,9 +159,9 @@ beamline.pipe.desc.1=Signal does not cross or bend
 tile.recipe.tc=Target Chamber
 tile.recipe.sc=Source Chamber
 
-particle.electron=Electron
-particle.photon=Photon
-particle.alpha=Alpha
-particle.neutron=Neutron
-particle.proton=Proton
+particle.electron=Электрон
+particle.photon=Фотон
+particle.alpha=Альфа
+particle.neutron=Нейтрон
+particle.proton=Протон
 GT5U.gui.text.dissolution_ratio=§7Wrong fluid input ratio
