@@ -10,9 +10,9 @@ tile.quantumGlass.name=量子玻璃
 tile.quantumGlass.desc.0=致密但透明
 tile.quantumGlass.desc.1=玻璃&优雅(Glassy & Classy)
 
-tile.spatiallyTranscendentGravitationalLens.name=Spatially Transcendent Gravitational Lens Block
-tile.godforgeGlass.desc.0=Gravitational lensing taken literal
-tile.godforgeGlass.desc.1=GraviLens 9000!
+tile.spatiallyTranscendentGravitationalLens.name=超空间引力透镜块
+tile.godforgeGlass.desc.0=字面意义上的引力透镜
+tile.godforgeGlass.desc.1=引力透镜 9000！
 
 tile.reactorSim.name=反应堆模拟器
 tile.reactorSim.desc.0=裂变反应不确定度解析器9001
@@ -937,7 +937,7 @@ fog.upgrade.lore.28=*在此插入知识* 升级151
 fog.upgrade.lore.29=*在此插入知识* 升级161
 fog.upgrade.lore.30=*在此插入知识* 升级结束
 
-fog.upgrade.text.0=Unlocks a recipe time reduction multiplier based on the current heat the multi is running at. This bonus is calculated via following formula: Multiplier = 1/(Heat^0.01)
+fog.upgrade.text.0=解锁一个配方时间减少升级，倍率取决于当前的多方块运行时的热量。具体加成通过以下公式计算：倍率 = 1 / (热量^0.01)
 fog.upgrade.text.1=*在此插入文本* 升级11
 fog.upgrade.text.2=*在此插入文本* 升级21
 fog.upgrade.text.3=*在此插入文本* 升级22
@@ -979,19 +979,19 @@ fog.button.magmattermode.tooltip.02=磁物质模式锁定，缺少升级
 
 
 achievement.gt.blockmachines.multimachine.em.forge_of_gods=Forge of the Gods
-achievement.gt.godforgecasing.0=Singularity Reinforced Stellar Shielding Casing
-achievement.gt.godforgecasing.1=Celestial Matter Guidance Casing
-achievement.gt.godforgecasing.2=Boundless Gravitationally Severed Structure Casing
-achievement.gt.godforgecasing.3=Transcendentally Amplified Magnetic Confinement Casing
-achievement.gt.godforgecasing.4=Stellar Energy Siphon Casing
-achievement.gt.godforgecasing.5=Remote Graviton Flow Modulator
-achievement.gt.godforgecasing.6=Medial Graviton Flow Modulator
-achievement.gt.godforgecasing.7=Central Graviton Flow Modulator
+achievement.gt.godforgecasing.0=奇点强化的恒星屏蔽机械方块
+achievement.gt.godforgecasing.1=天体物质引导机械方块
+achievement.gt.godforgecasing.2=无界引力隔绝结构方块
+achievement.gt.godforgecasing.3=超时空强化磁约束机械方块
+achievement.gt.godforgecasing.4=恒星能量抽取机械方块
+achievement.gt.godforgecasing.5=远程引力子流动调节器
+achievement.gt.godforgecasing.6=中介引力子流动调节器
+achievement.gt.godforgecasing.7=中央引力子流动调节器
 
 gt.blockmachines.multimachine.FOG.parallel=Parallel
 gt.blockmachines.multimachine.FOG.batch=Batch Size
-gt.blockmachines.multimachine.FOG.fuelconsumption=Stellar Fuel Consumption Factor
-gt.blockmachines.multimachine.FOG.fuelinfo.0=The Stellar Fuel Consumption Factor is the main determining factor in calculating the total stellar fuel consumption per second. Each fuel type has different scaling, which is as follows:
+gt.blockmachines.multimachine.FOG.fuelconsumption=恒星燃料消耗系数
+gt.blockmachines.multimachine.FOG.fuelinfo.0=恒星燃料消耗系数是计算每秒恒星燃料消耗的主要决定因素。每种燃料有不同的调整倍率，如下所示：
 gt.blockmachines.multimachine.FOG.fuelinfo.1=Dimensionally Transcendent Residue: factor*300*1.15^factor
 gt.blockmachines.multimachine.FOG.fuelinfo.2=Condensed Raw Stellar Plasma Mixture: factor*2*1.08^factor
 gt.blockmachines.multimachine.FOG.fuelinfo.3=Magnetohydrodynamically Constrained Star Matter: factor/25
