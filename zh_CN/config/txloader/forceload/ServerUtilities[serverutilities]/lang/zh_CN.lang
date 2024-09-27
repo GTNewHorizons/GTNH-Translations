@@ -17,10 +17,18 @@ serverutilities.lang.heal=%s 已被治愈
 serverutilities.lang.permissions_dumped=%s 权限已成功转储到位于：%s 。
 serverutilities.disabled.config=在配置中被禁用
 serverutilities.disabled.server=在服务端被禁用
-serverutilities.vp.button=显示Server Utilities区块声明叠加
+serverutilities.navigator.button=Show Server Utilities Claims Overlay
+serverutilities.unsaved_changes.title=Unsaved Changes
+serverutilities.unsaved_changes=You have unsaved changes. Do you want to save them?
+serverutilities.command_overview=Command Overview
 
+serverutilities.stat.time_afk=Time AFK
+serverutilities.stat.time_afk_percent=Percentage of time spent AFK
+serverutilities.stat.time_active=Time actively playing (not AFK)
 serverutilities.stat.dph=每小时死亡数
 serverutilities.stat.last_seen=最后在线
+serverutilities.stat.killed_by=Deaths by %s
+serverutilities.stat.entities_killed=%ss killed
 
 wip=仍在开发中！
 deprecated=该方法已被弃用，请使用 %s
@@ -45,6 +53,13 @@ cant_use_now_cooldown=现在无法使用，冷却时间：%s
 action_bar=操作栏
 nothing_changed=无改变！
 player_must_be_online=玩家必须在线！
+
+serverutilities.task.cleanup_entity=Removing %s in %d seconds
+serverutilities.task.cleanup_hostiles=Hostile mobs
+serverutilities.task.cleanup_passives=Passive mobs
+serverutilities.task.cleanup_items=Dropped items
+serverutilities.task.cleanup_experience=XP orbs
+serverutilities.task.cleanup_removed=Removed %s entities from world
 
 serverutilities.lang.reload_server_button=重载服务端
 serverutilities.lang.reload_server=服务端重载耗时 %s
@@ -201,6 +216,7 @@ permission.serverutilities.warps.warmup=/warp Warmup Timer
 permission.serverutilities.tpa.warmup=/tpa Warmup Timer
 permission.serverutilities.spawn.warmup=/spawn Warmup Timer
 permission.serverutilities.back.warmup=/back Warmup Timer
+permission.serverutilities.rtp.warmup=/rtp Warmup Timer
 permission.serverutilities.afk.timer=AFK 计时器
 permission.serverutilities.afk.timer.is_afk=%s 现在处于 AFK 状态
 permission.serverutilities.afk.timer.isnt_afk=%s 离开了 AFK 状态
@@ -218,6 +234,9 @@ permission.serverutilities.chat.prefix.right.text=聊天前缀文本
 permission.serverutilities.chat.suffix.left.text=聊天后缀文本 [左]
 permission.serverutilities.chat.suffix.base.text=聊天后缀文本 [基础]
 permission.serverutilities.chat.suffix.right.text=聊天后缀文本 [右]
+permission.serverutilities.claims.decay=Claim decay timer. Claims will be permanently removed after team has been inactive for the given time.
+permission.serverutilities.chunkloader.decay=Chunkload decay timer. Loaded chunks will be unloaded after team has been inactive for the given time and are restored once activity resumes.
+
 permission.default_op_rank=默认管理员权限组
 permission.default_player_rank=默认玩家权限组
 permission.parent=将继承其权限的权限组
@@ -233,6 +252,8 @@ player_config.serverutilities.render_badge=显示我的徽章
 player_config.serverutilities.enable_pvp=启用 PVP
 player_config.serverutilities.nickname=昵称
 player_config.serverutilities.afk=AFK 通知位置
+player_config.serverutilities.show_team_prefix=Show Team Prefix In Chat
+player_config.serverutilities.show_team_prefix.info=§rAdd [%s] as a prefix to your chat messages
 
 # Team Settings
 team_config.serverutilities.display=显示
@@ -283,21 +304,21 @@ sidebar_button.serverutilities.mail=邮件
 serverutilities.sidebar_button.reset=重置侧边栏
 serverutilities.sidebar_button.reset.tooltip=重置侧边栏位置
 
-admin_panel.serverutilities.file_browser=文件浏览器
-admin_panel.serverutilities.crash_reports=查看崩溃报告
-admin_panel.serverutilities.config=编辑配置
-admin_panel.serverutilities.ranks=编辑权限组
-admin_panel.serverutilities.ranks.player_ranks=玩家权限组
-admin_panel.serverutilities.ranks.select_rank=选择权限组
-admin_panel.serverutilities.ranks.edit.id=ID
-admin_panel.serverutilities.ranks.edit.parent=父组
-admin_panel.serverutilities.ranks.edit.chat_formatting=聊天格式
-admin_panel.serverutilities.ranks.edit.permissions=权限
-admin_panel.serverutilities.claimed_chunks=查看所有已声明区块
-admin_panel.serverutilities.loaded_chunks=查看所有已加载区块
-admin_panel.serverutilities.whitelist=编辑白名单
-admin_panel.serverutilities.ops=编辑服务器管理员
-admin_panel.serverutilities.edit_world=编辑世界
+serverutilities.admin_panel.file_browser=File Browser
+serverutilities.admin_panel.crash_reports=View Crash Reports
+serverutilities.admin_panel.config=Edit Config
+serverutilities.admin_panel.claimed_chunks=View All Claimed Chunks
+serverutilities.admin_panel.loaded_chunks=View All Loaded Chunks
+serverutilities.admin_panel.whitelist=Edit Whitelist
+serverutilities.admin_panel.ops=Edit OPs
+serverutilities.admin_panel.edit_world=Edit World
+serverutilities.admin_panel.ranks.player_ranks=Player Ranks
+serverutilities.admin_panel.ranks.select_rank=Select Rank
+serverutilities.admin_panel.edit_rank=Edit Ranks
+serverutilities.admin_panel.ranks.add_perm=Add Permission
+serverutilities.admin_panel.ranks.add_command=Add Command Permission
+serverutilities.admin_panel.ranks.cant_remove=Default rank can't be removed!
+serverutilities.admin_panel.ranks.delete_confirm=This will permanently delete rank: %s. Are you sure?
 
 # Keys
 key.serverutilities.nbt=编辑NBT
@@ -359,7 +380,6 @@ commands.upload_crash_report.usage=/upload_crash_report <file>
 commands.heal.usage=/heal [player]
 commands.killall.usage=/killall [type] [dimension]
 commands.nbtedit.usage=/nbtedit
-commands.nbtedit.too_large=NBT 大小过大！
 commands.nbtedit.block.usage=/nbtedit block <x> <y> <z>
 commands.nbtedit.entity.usage=/nbtedit entity <id>
 commands.nbtedit.player.usage=/nbtedit player <player>

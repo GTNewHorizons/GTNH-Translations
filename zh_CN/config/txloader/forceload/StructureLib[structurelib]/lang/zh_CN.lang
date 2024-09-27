@@ -172,3 +172,19 @@ structurelib.config.client.hologram.maxCoexisting=最大共存全息图数
 structurelib.config.client.hologram.maxCoexisting.tooltip=可以同时存在的全息图数量. 一般一次右键生成的所有提示都视为一个全息图. 当存在多个全息图且超过此数量后，尝试生成新全息图时会删除旧全息图.
 structurelib.config.client.hologram.removeColliding=移除冲突全息图
 structurelib.config.client.hologram.removeColliding.tooltip=已存在的全息图与新全息图冲突时，会删除旧全息图.
+
+structurelib.config.registries=Sorted Registries
+structurelib.config.registries.tooltip=Sorted Registry is how StructureLib internally keep track of certain features. Each individual elements may be reordered, disabled and enabled at user's command. Changes will be synced to server if needed.\nThis gui can also be accessed in game by shift right clicking air with Multiblock Structure Hologram Projector.
+structurelib.config.registries.stackextractors=Stack Extractors
+structurelib.config.registries.stackextractors.tooltip=Controls which inventory-from-stack functions are enabled during survival autoplace
+structurelib.config.registries.inventoryproviders=Inventory Providers
+structurelib.config.registries.inventoryproviders.tooltip=Controls which inventories functions are enabled during survival autoplace
+
+structurelib.configgui.enabled=Enabled Entry
+structurelib.configgui.disabled=Disabled Entry
+structurelib.configgui.drag.tooltip=Drag this button to reorder this element.
+
+structurelib.sortedregistry.inventoryproviders.5000-main-inventory=Main Player Inventory
+structurelib.sortedregistry.inventoryproviders.5000-main-inventory.tooltip=36 slots of item in your main inventory. Armor slots excluded.
+structurelib.sortedregistry.inventoryproviders.7000-ender-inventory=Ender Chest Inventory
+structurelib.sortedregistry.inventoryproviders.7000-ender-inventory.tooltip=Links to your vanilla ender chest inventory. Require at least one "ender backpack like" item in main inventory to work.
