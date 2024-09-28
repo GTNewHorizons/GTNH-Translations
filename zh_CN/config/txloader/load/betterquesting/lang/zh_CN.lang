@@ -148,7 +148,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.desc=你可能想知道地下都有�
 
 # Quest: Covering Up
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.name=覆盖板通用手册
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=本任务涵盖了所有的覆盖板,可能有些覆盖板没有单独任务进行介绍,或者是你忘了,在这里都可以找到. 当然,如果某种覆盖板有单独任务,那么肯定是单独任务更加详细. 覆盖板可以安装在任意GT方块、管道、机器、容器等上.能安装并不代表它能正常工作. 空手Shift+右键可以打开大部分覆盖板的GUI. 对于那些可以进行调节的覆盖板,手持螺丝刀右键左侧可以向下调节,而右侧就是向上调节. 所有安装了覆盖板的方块,都可以无视与安装面相邻面被淋雨(这对于野外的采矿厂、发电机之类的非常有用). 一般来说,无论覆盖板是否有GUI,你都可以用螺丝刀对其进行调节. 而所有覆盖板,都可以使用撬棍移除.%n%n§l流体相关的覆盖板:§r%n电动泵: 以tooltip上指定的速度传输流体.%n%n流体校准器: 精确校准通过其流体的速度,同时兼具电动泵的功能. 可以以x/s或x/t两种模式工作.%n%n蒸汽阀: 传输速度更快,但只支持蒸汽.最高等级为IV. 不支持过热蒸汽.%n%n溢流阀: 安装于容器上时,可以销毁超出其设定值的任意流体.%n%n流体探测覆盖板: 安装于容器上时,可基于内部流体填充率,发射红石信号. 默认(Default)模式下,空=15,满=0. 切换反转(Inverted)模式,满=15,空=0. 常用于GT储罐和仓室.%n%n末影流体覆盖板: 末影储罐的覆盖板版本,用于传送流体. 不过不要将其与末影储罐相连.%n%n排水道覆盖板: 保护机器安装面淋雨,下雨时可以为容器装水. 无用.%n%n流体过滤器覆盖板: 过滤通过其的流体. 手持流体单元右键即可完成设置.%n%n扇板: 激活时阻挡物品/流体. 可用作单向阀,或配合机器控制覆盖板,红石信号控制.生效时不会有断开的视觉效果.机器控制覆盖板需要与被控制的扇板安装在同一管道上.%n%n§l物品相关覆盖板:§r%n传送带: 传输物品. 在输入/输出(Import/Export)模式下,安装在物品管道或GT方块/机器上.%n%n机械臂: 精准传输. 将所安装机器/容器内部的指定槽位物品,传输到相邻的方块内指定槽位. 至于机器内每个槽位的编号,建议自行摸索,因为看起来不同机器都不一样. 当需要输出的指定槽位已满,机械臂将停止输出. 指向的输出方块必须为有槽位的有效方块,否则机械臂的设置不会保存.%n%n物品探测覆盖板: 安装于方块/机器上时,可基于内部物品填充率,发射红石信号. 默认(Default)模式下,空=0,满=15. 探测基于装满的物品槽,所以安装在超级箱/量子箱上时,无法正确工作. 比较适合用于总线.%n%n物品过滤覆盖板: 尚未完成,开发中,欢迎你的贡献.%n%n§lEU相关覆盖板:§r%n能量探测覆盖板: 安装在电池箱/能源站之类存电设备上时,基于EU的填充率,发射红石信号. 默认(Default)模式下,空=0,满=15. 请确保模式调整为包含电池模式(include batteries). 由于某种原因,这种覆盖板也可以探测蒸汽存量...%n%n导能升级覆盖板: 请阅读tooltip,再询问Bart它的工作方式,他很乐意对任何人讲解. 他可能会告诉你,这段代码是完美的,就像这些Tectech伙计们. 此覆盖板可能没有真正完成/无法真正工作.%n%n(豪华)特斯拉线圈帽: 配合特斯拉电塔使用,可以无线传输EU. %n%n§l其他覆盖板:§r%n玩家探测覆盖板: 探测玩家. 范围约为10格. §4目前,由于这个或那个bug,安装在非管道上时,所有者/其他玩家是反的.§r%n%n设备活跃探测覆盖板: 探测合成处理进程或设备闲置状态. 默认模式下,进程0％=0红石信号,~95％=14. 在闲置(idle)模式的默认(Default)模式下,设备闲置时为15,运行时为0.%n%n机器控制覆盖板: 基于红石信号,开启/关闭机器. 禁用(Disable)模式,覆盖板将强制关闭机器,无视红石信号. 安全(Safe)模式只对多方块机器有效. 当多方块机器能量不足时,它会跳电并自动关闭,但如果安装了正常模式的机器控制覆盖板会让其保持开启,它就会不断开机-跳电-吞原料.而安全模式将在跳电后自动切换为禁用模式.而且你还会收到通知. §4目前安全模式是坏的?§r%n%n维护提示覆盖板: 当符合特定条件时,发射红石信号. 转子=涡轮?%n%n红石信号发射器/接收器(内/外): 好吧,我也知道这四个东西很绕,所以请认真听讲. 首先,设置频道(frequency),可以通过GUI设置,也可以用原始的方法:拿着某个东西右键覆盖板.空手=0,其他物品=它们的物品ID. 别不小心把频道重置了.建议还是用GUI吧. 你可以将覆盖板设置为私人(Private)模式,类似于末影存储(EnderStorage)的箱子和储罐,这样你就不会被服务器里到处乱飞的公共频道干扰了. 频道状态=红石信号等级.%n%n红石信号发射器(外),会基于安装面接到的外部红石信号,设置频道状态. 你可以将红石信号从红石信号发射器(外),传送到红石信号接收器(外).%n红石信号发射器(内),会接收所覆盖的方块产生的红石信号(如污染探测仪的信号)或所覆盖的方块上的其他覆盖板的信号(如贴在大机器主方块上的维护提示覆盖板的信号),并设置频道状态. §4信号永远是15,所以无用.§r%n红石信号接收器(外),会基于频道状态发射红石信号. 你可以将红石信号从红石信号发射器(外),传送到红石信号接收器(外).%n红石信号接收器(内),会基于频道状态,控制机器可否运行,类似机器控制覆盖板. 如果频道状态为0,它就会控制机器保持关闭.当频道状态至少为1时,才会开启机器. 你可以使用红石信号发射器(外),从任意位置传回红石信号.%n红石信号接收器(内)还可以结合其他覆盖板使用,例如某覆盖板"允许工作时输入".%n%nIC2散热片: 稍微加速机器的运行? 待定:希望有人能看一下代码是否真的是这样.不过它应该可以让你的机器看起来井井有条.%n%n工作台覆盖板: 在可安装的方块上,添加一个工作台功能. 无用.%n%n木板/板/箔: 阻挡安装面的输入/输出. 使用螺丝刀设置允许通过的类型. 默认是阻挡所有类型. 在设置覆盖板时,可以将输出面转到其他面,避免影响输出口本身的设置. 你第一次把板/箔作为覆盖板贴到方块上,一定是个意外.%n%n电脑屏幕覆盖板: 添加视觉外观. 纯装饰作用的覆盖板.%n%n透镜: 纯装饰覆盖板.%n%n你还可以用AE2伪装板作为装饰覆盖板.%n%n中文WIKI 覆盖板(未完成): §1§n[url]https://gtnh.huijiwiki.com/p/660[/url]§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=本任务涵盖了所有的覆盖板,可能有些覆盖板没有单独任务进行介绍,或者是你忘了,在这里都可以找到. 当然,如果某种覆盖板有单独任务,那么肯定是单独任务更加详细. 覆盖板可以安装在任意GT方块、管道、机器、容器等上.能安装并不代表它能正常工作. 空手Shift+右键可以打开大部分覆盖板的GUI. 对于那些可以进行调节的覆盖板,手持螺丝刀右键左侧可以向下调节,而右侧就是向上调节. 所有安装了覆盖板的方块,都可以无视与安装面相邻面被淋雨(这对于野外的采矿厂、发电机之类的非常有用). 一般来说,无论覆盖板是否有GUI,你都可以用螺丝刀对其进行调节. 而所有覆盖板,都可以使用撬棍移除.%n%n§l流体相关的覆盖板:§r%n电动泵: 以tooltip上指定的速度传输流体.%n%n流体校准器: 精确校准通过其流体的速度,同时兼具电动泵的功能. 可以以x/s或x/t两种模式工作.%n%n蒸汽阀: 传输速度更快,但只支持蒸汽.最高等级为IV. 不支持过热蒸汽.%n%n溢流阀: 安装于容器上时,可以销毁超出其设定值的任意流体.%n%n流体探测覆盖板: 安装于容器上时,可基于内部流体填充率,发射红石信号. 默认(Default)模式下,空=15,满=0. 切换反转(Inverted)模式,满=15,空=0. 常用于GT储罐和仓室.%n%n末影流体覆盖板: 末影储罐的覆盖板版本,用于传送流体. 不过不要将其与末影储罐相连.%n%n排水道覆盖板: 保护机器安装面淋雨,下雨时可以为容器装水. 无用.%n%n流体过滤器覆盖板: 过滤通过其的流体. 手持流体单元右键即可完成设置.%n%n扇板: 激活时阻挡物品/流体. 可用作单向阀,或配合机器控制覆盖板,红石信号控制.生效时不会有断开的视觉效果.机器控制覆盖板需要与被控制的扇板安装在同一管道上.%n%n§l物品相关覆盖板:§r%n传送带: 传输物品. 在输入/输出(Import/Export)模式下,安装在物品管道或GT方块/机器上.%n%n机械臂: 精准传输. 将所安装机器/容器内部的指定槽位物品,传输到相邻的方块内指定槽位. 至于机器内每个槽位的编号,建议自行摸索,因为看起来不同机器都不一样. 当需要输出的指定槽位已满,机械臂将停止输出. 指向的输出方块必须为有槽位的有效方块,否则机械臂的设置不会保存.%n%n物品探测覆盖板: 安装于方块/机器上时,可基于内部物品填充率,发射红石信号. 默认(Default)模式下,空=0,满=15. 探测基于装满的物品槽,所以安装在超级箱/量子箱上时,无法正确工作. 比较适合用于总线.%n%n物品过滤覆盖板: 尚未完成,开发中,欢迎你的贡献.%n%n§lEU相关覆盖板:§r%n能量探测覆盖板: 安装在电池箱/能源站之类存电设备上时,基于EU的填充率,发射红石信号. 默认(Default)模式下,空=0,满=15. 请确保模式调整为包含电池模式(include batteries). 由于某种原因,这种覆盖板也可以探测蒸汽存量...%n%n导能升级覆盖板: 请阅读tooltip,再询问Bart它的工作方式,他很乐意对任何人讲解. 他可能会告诉你,这段代码是完美的,就像这些Tectech伙计们. 此覆盖板可能没有真正完成/无法真正工作.%n%n(豪华)特斯拉线圈帽: 配合特斯拉电塔使用,可以无线传输EU. %n%n§l其他覆盖板:§r%n玩家探测覆盖板: 探测玩家. 范围约为10格. §4目前,由于这个或那个bug,安装在非管道上时,所有者/其他玩家是反的.§r%n%n设备活跃探测覆盖板: 探测合成处理进程或设备闲置状态. 默认模式下,进程0％=0红石信号,~95％=14. 在闲置(idle)模式的默认(Default)模式下,设备闲置时为15,运行时为0.%n%n机器控制覆盖板: 基于红石信号,开启/关闭机器. 禁用(Disable)模式,覆盖板将强制关闭机器,无视红石信号. 安全(Safe)模式只对多方块机器有效. 当多方块机器能量不足时,它会跳电并自动关闭,但如果安装了正常模式的机器控制覆盖板会让其保持开启,它就会不断开机-跳电-吞原料.而安全模式将在跳电后自动切换为禁用模式.而且你还会收到通知. [warn]目前安全模式是坏的?[/warn]%n%n维护提示覆盖板: 当符合特定条件时,发射红石信号. 转子=涡轮?%n%n红石信号发射器/接收器(内/外): 好吧,我也知道这四个东西很绕,所以请认真听讲. 首先,设置频道(frequency),可以通过GUI设置,也可以用原始的方法:拿着某个东西右键覆盖板.空手=0,其他物品=它们的物品ID. 别不小心把频道重置了.建议还是用GUI吧. 你可以将覆盖板设置为私人(Private)模式,类似于末影存储(EnderStorage)的箱子和储罐,这样你就不会被服务器里到处乱飞的公共频道干扰了. 频道状态=红石信号等级.%n%n红石信号发射器(外),会基于安装面接到的外部红石信号,设置频道状态. 你可以将红石信号从红石信号发射器(外),传送到红石信号接收器(外).%n红石信号发射器(内),会接收所覆盖的方块产生的红石信号(如污染探测仪的信号)或所覆盖的方块上的其他覆盖板的信号(如贴在大机器主方块上的维护提示覆盖板的信号),并设置频道状态. §4信号永远是15,所以无用.§r%n红石信号接收器(外),会基于频道状态发射红石信号. 你可以将红石信号从红石信号发射器(外),传送到红石信号接收器(外).%n红石信号接收器(内),会基于频道状态,控制机器可否运行,类似机器控制覆盖板. 如果频道状态为0,它就会控制机器保持关闭.当频道状态至少为1时,才会开启机器. 你可以使用红石信号发射器(外),从任意位置传回红石信号.%n红石信号接收器(内)还可以结合其他覆盖板使用,例如某覆盖板"允许工作时输入".%n%nIC2散热片: 稍微加速机器的运行? 待定:希望有人能看一下代码是否真的是这样.不过它应该可以让你的机器看起来井井有条.%n%n工作台覆盖板: 在可安装的方块上,添加一个工作台功能. 无用.%n%n木板/板/箔: 阻挡安装面的输入/输出. 使用螺丝刀设置允许通过的类型. 默认是阻挡所有类型. 在设置覆盖板时,可以将输出面转到其他面,避免影响输出口本身的设置. 你第一次把板/箔作为覆盖板贴到方块上,一定是个意外.%n%n电脑屏幕覆盖板: 添加视觉外观. 纯装饰作用的覆盖板.%n%n透镜: 纯装饰覆盖板.%n%n你还可以用AE2伪装板作为装饰覆盖板.%n%n中文WIKI 覆盖板(未完成): §1§n[url]https://gtnh.huijiwiki.com/p/660[/url]§r
 
 
 ## Quest Line: Tier 0 - Stone Age
@@ -337,7 +337,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.desc=现在用这张桌子,你可以
 
 # Quest: Redstone, Early Game Processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACFw.name=§1§2§l红石的前期处理
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACFw.desc=你想知道如何在没有粉碎机的时候处理红石？%n%n将挖回来的矿石重新放置出来,你可以用GT锻造锤开采它们来得到粉碎的矿石,%n然后在工作台里用锻造锤把它们砸成含杂红石粉.%n之后,在炼药锅里装上水,把一整组粉末扔进去 - 可以打开物品栏或者按住Ctrl+Q丢出,而这么操作坩埚只需要消耗1/3的水即可完成洗矿.这样你就可以得到纯净的红石粉,并进一步将其制成红石.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACFw.desc=你想知道如何在没有粉碎机的时候处理红石?%n%n通过在工作台中将GT锻造锤和红石生矿合成来得到粉碎的红石矿石.然后再一次在工作台里用锻造锤把它们砸成含杂红石粉.%n%n之后,在炼药锅里装上水,把一整组粉末扔进去 - 可以打开物品栏或者按住Ctrl+Q丢出,而这么操作坩埚只需要消耗1/3的水即可洗净一整组矿石.这样你就可以得到纯净的红石粉,并进一步将其制成红石.%n%n§3你也可以在下矿时随身携带锻造锤,并直接使用锻造锤进行挖掘,以跳过红石生矿.
 
 # Quest: Fallen From the Sky
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACtQ.name=§2§l从天而降
@@ -436,8 +436,8 @@ betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.name=§6§l勘探之力!
 betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.desc=在你的地图界面(默认按J)的顶上有多个标签页,其中一些十分有用,可以节省你大量的搜索时间!%n%nGT矿脉-此标签页会为你追踪矿脉,要保存矿脉到地图,右键一个自然生成的矿石(有些工具不能右键)%nGT地下流体-这会在之后(MV)帮助你%nTC节点-此标签页会为你追踪神秘时代节点(你得先扫描它们)%n%n§3贫瘠矿石不是矿脉的一部份,因此无法在地图上显示为矿脉.然而矿脉会在它们的区块里生成额外的贫瘠矿石,因此它们对你的搜索仍然很有用(不是所有贫瘠矿石都生成在矿脉旁,不要被骗了)%n%n另一个超棒的功能是,你可以在NEI搜索栏中使用高亮模式(双击它),然后转到地图界面,就可以突出显示匹配的未开采矿脉!
 
 # Quest: NEI is EVEN MORE POWERFUL NOW?
-betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.name=§2§lNEI is EVEN MORE POWERFUL NOW?
-betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.desc=NEI now automatically collapses similiar items into one slot making browsing much faster! To collapse/uncollapse a group use ALT+LMB.%nYou can also create your own presets with custom groups!%n%n[note]You can disable this functionality in NEI settings[/note]%n%nAlso now NEI has JEI-like Advanced Search:%n%n@ - search by mod (@minecraft)%n%n[note]There are even more special characters that you can use but most of them are off by default (e.g. no need to use # to search in tooltip), below are all the special characters, check which ones are on/off in NEI settings.%n%nSpace is used as a logical AND between different conditions%n# - search by tooltip (#UV-Tier)%n& - search by id: (&95:15 extratrees:door)%n$ - search by ore dictionary ($ore)%n%% - search by subsets (%%block)%n| - logical or. multi-item search (wrench|hammer)%n- - logical not. exclude items that match the following expression (-@minecraft)%n" - multiple words wrapped in quotes are treated as one condition rather than several ("White Stained Glass")%n%nSearch Mode (apply on search parts, not full string):%nPlain - simple string%nExtended - allow only ?, * rules (by default)%nRegex - allow full regex%n%nIn Extended Search Mode:%n? - any character (@min?craft)%n* - any few characters (@m*ft = @minecraft)%nr/.../ - standard java regex (@r/m\w{6}ft/ = @minecraft)[/note]%n%n[note]You can disable this functionality in NEI settingss.[/note]%n%nYou can add bookmarks with the A key while hovering over an item, also:%nHold SHIFT to bookmark the whole recipe%nHold CTRL to bookmark number of items%nHold SHIFT + CTRL to bookmark both recipe and all the number of all the items it contains%n 
+betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.name=§2§lNEI再一次更强大了？
+betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.desc=NEI 现在会自动将相似的物品折叠到一个槽位,使浏览速度更快!要折叠/展开一个物品组,请使用 ALT+LMB.%n您还可以使用自定义组创建自己的预设!%n%n[note]您可以在 NEI 设置中禁用此功能[/note]%n%n此外,NEI 现在具有类似 JEI 的高级搜索：%n%n@ - 按 mod 搜索 (@minecraft)%n%n[note]您可以使用更多特殊字符,但大多数特殊字符默认为关闭(例如,无需使用 # 在工具提示中搜索),以下是所有特殊字符,请在 NEI 设置中检查哪些是打开/关闭的.%n%n空格用作不同条件之间的逻辑与%n# - 按工具提示搜索(#UV-Tier)%n& - 按 id 搜索：(&95：15 extratrees：door)%n$ - 按矿物词典搜索 ($ore)%n%% - 按子集搜索(%%block)%n| - 逻辑或.多项物品搜索：(wrench|hammer)％n--逻辑非.排除与以下表达式匹配的物品 (-@minecraft)%n" - 用引号括起来的多个单词将被视为一个条件,而不是多个条件 ("White Stained Glass")%n%n搜索模式(应用于搜索部分,而不是完整字符串)：%n纯文本 - 简单字符串%n扩展 - 仅允许 ?,* 规则(默认)%n正则表达式 - 允许完整正则表达式%n%n在扩展搜索模式下：%n? - 任何一个字符 (@min?craft)%n* - 任意一个或多个字符 (@m*ft = @minecraft)%nr/.../ - 标准 java 正则表达式 (@r/m\w{6}ft/ = @minecraft)[/note]%n%n[note]您可以在 NEI 设置中禁用此功能.[/note]%n%n您可以将鼠标悬停在物品上时使用 A 键添加书签,也可以：%n按住 SHIFT 为整个配方添加书签%n按住 CTRL 为物品的数量添加书签%n按住 SHIFT + CTRL 为配方以及其所包含的所有物品的数量添加书签%n
 
 
 ## Quest Line: Tier 0.5 - Steam
@@ -445,7 +445,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAg.name=第0.5阶-蒸汽时代
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAg.desc=此章节的主题是从蒸汽走向电力.同时这个阶段制造的大部分机器,会随着升压陪你走过整个游戏.
 
 # Quest: Better Tank... Iron Tank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEA.name=§4§3§l更好的水槽...铁储罐
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEA.name=§3§l更好的水槽...铁储罐
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEA.desc=想要在一个水槽中储存超过16桶液体？那就做一个铁储罐或升级你的小水槽.%n%n钻石储罐可以储存64桶,而黑曜石储罐则可以防爆.后面还有更大的储罐,不过你可能更喜欢GT的超级缸或是大型流体单元.
 
 # Quest: Welcome to Tier 0.5, Steam!
@@ -477,7 +477,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMw.name=§3§l提取原料
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMw.desc=为了之后需要的橡胶--包裹导线、制作线缆,你该弄台蒸汽提取机了.你也可以用这台机器,从花朵里得到更多的染料,或者将各种水果做成果汁.
 
 # Quest: A Clear View
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAANA.name=§3§4§3§l清晰的视野
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAANA.name=§3§l清晰的视野
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAANA.desc=你还住在那用泥土或圆石做的火柴盒里吗？何不让阳光照进来呢？磨碎一些沙子和燧石,做些玻璃粉放进你的冶炼炉里,接着把它们倒到铸造盆里,做些通透玻璃.%n%n§4提示:要想使用此配方,你必须先用凿子处理它.%n%n§3PS：粉碎机不再出产小撮粉,手搓吧.等你在LV阶段拥有一台搅拌机后,一定会很喜欢这一点的.
 
 # Quest: Hammer time v2
@@ -653,7 +653,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADYw.name=§3§l青金岩、青金石、�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYw.desc=为了你的砖高炉你必须找到一条含有方解石的青金石矿脉.%n%n你可以在主世界或者暮色森林(LV)(20—50层)找到矿脉.
 
 # Quest: Gypsum
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADZA.name=§1§2§3§l石膏
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADZA.name=§3§l石膏
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADZA.desc=你需要混凝土和石膏来为你的高炉做砖块.石膏可以在主世界(50—60层),和玄武岩、花岗岩矿砂、漂白土一起被发现.
 
 # Quest: Molds, Molds, Molds
@@ -2689,8 +2689,8 @@ betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV力场发生器
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=可以用力场发生器来做你的第一个量子箱或者量子缸了.但记得留两个用来制作T2火箭.%n%n[note]注:组装机配方更节省资源.[/note]
 
 # Quest: EXTREME MIXING
-betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§a§lEXTREME MIXING
-betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.desc=Well, maybe it's not as extreme as the quest name suggests, but it gets the job done.%n%nYou'll need one anyway so why not make one now and save some time on the mixing?
+betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§a§l极限搅拌
+betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.desc=好吧,也许它并不像任务名称所暗示的那样极限,但它确实可以完成工作.%n%n反正你总需要一台搅拌机,为什么不现在就做一台,节省一些搅拌的时间呢?
 
 
 ## Quest Line: Tier 5 - IV
@@ -3194,8 +3194,8 @@ betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.name=一个维度，一套输入总�
 betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.desc=这个特殊的输入总线十分的珍贵，在一个维度内，所有同一个频道的共享输入总线共同交互同一个内容物空间。%n%n多方块机器籍此可以共享同一套物品输入系统。%n%n手持闪存左键共享输入总线可以复制其配置，右键粘贴。%n
 
 # Quest: Universal pickaxe, Vajra
-betterquesting.quest.VoQ7oLYhTjuomLCz_ddOhA.name=§b§lUniversal pickaxe, Vajra
-betterquesting.quest.VoQ7oLYhTjuomLCz_ddOhA.desc=This tool can mine blocks instantly, including GregTech blocks or cables. Using leftclick will mine blocks as usual, while enabling accurate mode will allow you to rightclick to harvest blocks 1 by 1, while also applying silk touch.%n%n[note]To enable accurate mode press Mode Switch Key + Right click while holding Vajra.[/note]
+betterquesting.quest.VoQ7oLYhTjuomLCz_ddOhA.name=§b§l万用镐：金刚杵
+betterquesting.quest.VoQ7oLYhTjuomLCz_ddOhA.desc=此工具可以很快的开采方块,包括格雷科技方块或电缆.使用左键单击将照常开采方块,而启用精确模式将允许您右键单击以逐个获取方块,同时还可以应用精准采集.%n%n[note]要启用精确模式,手持金刚杵并按下模式切换键 + 右键单击​​.[/note]
 
 # Quest: Concentrated Samarium
 betterquesting.quest.ZXyJX8zNTQW6swu0OsE03Q.name=§b§l浓缩钐
@@ -3223,8 +3223,8 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAACA.name=第6阶-剧差压(LuV)
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAACA.desc=你已经走了这么远了,应该昂首挺胸地继续向前,因为你已经开始进入游戏的中期.虽然离毕业仍有一段很长的路要走,但你现在算是一个GTNH专家了,别的大部分mod你都已经精通.恭喜你,为你自己而骄傲吧.%n%n准备制造几条电路装配线,然后直面终极能源聚变反应堆吧,你会用到它们的.
 
 # Quest: Industrial Water Purification
-betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.name=§c§lIndustrial Water Purification
-betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.desc=For a while now, you have been able to get away with cutting and engraving your silicon circuit wafers with nothing but the bare metal of your machines. However, this can cause significant imperfections in the final wafer, so now that you are producing even more advanced circuitry such imperfections are no longer tolerable. %n%nWith the ability to make LuV components, you can now make the Water Purification Plant. This multiblock allows you to make purified water, which will be helpful in making wafers of increasing purity and perfection. For your current Naquadah-Doped Wafers, this is not yet necessary, but using purified water may significantly speed up the process, so it's definitely worth checking out.%n%nThe Water Purification Plant does not run recipes itself. Instead, it provides the core logistics for your water purification line to work. Around it you can build water purification units that link to the Water Purification Plant. The plant then provides power and maintenance to the different units, and synchronizes their recipe cycles.
+betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.name=§c§l工业纯净水净化
+betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.desc=一直以来,您都可以只使用机器的裸金属来切割和雕刻硅电路晶圆.但是,这会导致最终晶圆出现严重缺陷,因此,现在您要生产更先进的电路,就不能再容忍这种缺陷了.%n%n具备了制造 LuV 元件的能力后,您现在可以制造净水厂了.这个多方块可以制造纯净水,这将有助于制造更纯净和更完美的晶圆.对于您当前的硅岩掺杂晶圆来说,这还不是必需的,但使用纯净水可能会大大加快制作过程,因此绝对值得一试.%n%n净水厂本身并不运行配方,而是为您的纯净水产线提供核心物流管理服务.在它周围,您可以建造与净水厂相连的净水装置.净水厂为不同的净水装置提供电力和维护,并同步它们的配方周期.
 
 # Quest: Automated Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyQ.name=§c§l自动挖掘
@@ -3463,16 +3463,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.name=§l§c§l太阳聚变
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.desc=批量生产阳光化合物的替代方案.
 
 # Quest: Ozonation
-betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.name=§c§lOzonation
-betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.desc=Want even more speed on your wafer processing? Using Grade 2 Purified Water, made by ozonation, you can now reduce processing time by 50%%. To run this machine, you will need to make large amounts of Ozone Gas by bombarding air with a strong laser. If you haven't already, you should definitely make the Hyper-Intensity Laser Engraver multiblock to speed up this process.%n%n[note]This multiblock is very picky about where the ozone input hatch goes. If you can't figure out why it's not forming, chances are you forgot to place this hatch in the correct location. Use the hologram projector to see where it goes.[/note]
+betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.name=§c§l臭氧化
+betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.desc=想要更快地处理晶圆?通过使用臭氧法制造的2级纯净水,您现在可以将加工时间缩短 50%.要运行这台机器,你需要用强激光轰击空气来制造大量臭氧气体.如果你还没有准备好,你一定要制作高强度激光蚀刻机,以加快这一过程.%n%n[note]这个多方块机器对臭氧输入仓的位置非常挑剔.如果你不知道为什么机器没有成型,很可能是你忘记把这个仓室放在正确的位置上了.使用全息投影仪查看它的正确位置.[/note]
 
 # Quest: Relentless Glue
 betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.name=顽固胶水
 betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.desc=氰基丙烯酸乙酯,俗称超级胶水,是这里最好的胶水.但强大的力量也带来了...巨大的复杂性.现在不需要它,在未来几个阶段也可能不需要,但它会让你的配方更有效率并且在后期是必要的.%n%n[note]从技术上讲,这一行在 IV 中是可用的,但只是可选.请亲自在 NEI 中搜索配方,以显示您的真本事![/note]
 
 # Quest: Clarifier
-betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.name=§c§lClarifier
-betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.desc=The first step in the water purification process is the clarifier. Operating this machine is a simple task, you will just need to maintain a steady supply of Activated Carbon for the filters. Using this machine, you will be able to make Grade 1 Purified Water, which can spead up processing of Naquadah-Doped Boules and Wafers by 25%%.
+betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.name=§c§l澄清器
+betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.desc=水净化过程的第一步是澄清器.操作这台机器非常简单,您只需为过滤器保持稳定的活性炭供应.使用这台机器,您就能制造出1级纯净水,从而将硅岩掺杂的单晶硅和晶圆的加工速度提高25％.
 
 
 ## Quest Line: Tier 7 - ZPM
@@ -13876,7 +13876,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADpw.desc=把一块基础太阳能板和�
 
 # Quest: More Compact Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.name=§2§l更加紧凑的存储
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.desc=现在你已经有了越来越多的铁储备,你感觉你的木头箱子太小了,不能存下你的所有东西. %n%n是时候升级你的箱子了. 你可以直接制造一个全新的铁箱子,或者通过升级组件将木头箱子升级到铁箱子.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.desc=现在你已经有了越来越多的铁储备,你感觉你的铜箱子太小了,不能存下你的所有东西. %n%n[note]你有一个过小的铜箱子吗?通过升级组件将其升级到铁箱子.[/note]
 
 # Quest: Diamond Chests... Ooo, Shiny
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.name=§5§l钻石箱子...哦,闪闪发亮
@@ -13884,7 +13884,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.desc=在你制造了一台切割机�
 
 # Quest: Even More Compact Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.name=§2§l更加更加紧凑的存储
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.desc=如果你找到了足够多的黄金,那么你可以继续升级你的箱子.黄金箱子拥有9x9的存储空间. 你可以直接制造一个全新的金箱子,或者通过升级组件将铁箱子升级到金箱子. 用组装机制造会稍微便宜一点.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.desc=如果你找到了足够多的黄金,那么你可以继续升级你的箱子.黄金箱子拥有9x9的存储空间.[note]你有一个过小的铁箱子吗?通过升级组件将其升级到金箱子.[/note]
 
 # Quest: Moron's Guide to Better Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.name=种树"智者"手册
@@ -13952,7 +13952,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.desc=你崭新的等离子涡轮需�
 
 # Quest: All Alone in the Night
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.name=§1§l长夜漫漫,独身一人
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=如果你正在玩单人生存,那么更新整合包意味着必须重新加载默认任务. %n%n使用此方块可以让你无需切换到创造模式即可完成这个操作--你不会失去进度,但可能会有新的任务要完成!制造它,放置它,然后右键它.%n%n抱歉,没有奖励,除了那种你自己对抗整个世界的满足感.%n%n此方块作用等同于命令/bq_admin default load.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=感谢我们的超绝开发者们,每次更新之后你都不再需要用命令方块重载任务书了.这意味着每次更新到新版本的GTNH之后都会自动获得所有新任务!是不是很方便?%n%n如果出于某些原因你想要手动重载任务书,你可以在聊天框输入 /bq_admin default load 来达成目的.这需要管理员权限.%n%n这里还有一本任务书备用,以防你已经丢失了最初生成的那本.别忘了,如果你没有修改按键绑定.随时可以按下波浪号 (~) 键查看任务书.%n%n§3某些命令方块仍用于特定任务,但它们不涉及普通玩家,因为它们是管理员专用的,无法合成.
 
 # Quest: How the Heck Do I Find Ores?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.name=§2§l见鬼,我该怎么找到矿石？
@@ -14060,7 +14060,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhg.desc=你准备好长途旅行了吗?
 
 # Quest: Planetary Tears
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.name=行星之泪
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.desc=你确实会为所有等阶行星的繁琐要求而流泪的.这里有一份有用的参考资料.%n%n1阶-需要供氧设备%n月球%n%n2阶-需要隔热套装%n火星%n火卫一%n火卫二%n%n3阶-需要2阶隔热套装%n小行星-无重力环境,因为没有行星%n谷神星%n木卫二%n木卫三%n木卫四%n罗斯128b-宜居行星(无需供氧设备/隔热套装)%n%n4阶-需要2阶隔热套装%n木卫一%n水星%n金星-需要宇航服%n%n5阶-需要2阶隔热套装%n土卫二%n土卫六%n天卫五%n天卫四%n罗斯128ba%n%n6阶-需要2阶隔热套装%n海卫八%n海卫一%n%n7阶-需要2阶隔热套装%n柯伊伯带-无重力环境%n冥王星%n妊神星%n鸟神星%n%n8阶-需要2阶隔热套装%n半人马Bb-需要宇航服%n巴纳德C-宜居行星(无需供氧设备/隔热套装)%n织女B%n巴纳德E%n巴纳德F%n鲸鱼座E-宜居行星(无需供氧设备/隔热套装)%n%n9阶-?%n荷鲁斯%n奈佩尔%n迈罕带%n马赫斯%n赛特%n阿努比斯%n%n译者注:%n%n宇航服-隔热套装-供氧设备-宜居行星%n这四个需求依次降低,高需求必须先满足低需求.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.desc=你确实会为所有等阶行星的繁琐要求而流泪的.这里有一份有用的参考资料.%n%n1阶-需要供氧设备%n月球%n%n2阶-需要隔热套装%n火星%n火卫一%n火卫二%n%n3阶-需要2阶隔热套装%n小行星-无重力环境,因为没有行星%n谷神星%n木卫二%n木卫三%n木卫四%n罗斯128b-宜居行星(无需供氧设备/隔热套装)%n%n4阶-需要2阶隔热套装%n木卫一%n水星%n金星-需要宇航服%n%n5阶-需要2阶隔热套装%n土卫二%n土卫六%n天卫五%n天卫四%n罗斯128ba%n%n6阶-需要2阶隔热套装%n海卫八%n海卫一%n%n7阶-需要2阶隔热套装%n柯伊伯带-无重力环境%n冥王星%n妊神星%n鸟神星%n%n8阶-需要2阶隔热套装%n半人马Bb-需要宇航服%n巴纳德C-宜居行星(无需供氧设备/隔热套装)%n织女B%n巴纳德E%n巴纳德F%n鲸鱼座E-宜居行星(无需供氧设备/隔热套装)%n%n9阶%n荷鲁斯-需要1阶隔热套装%n奈佩尔-宜居行星(无需供氧设备/隔热套装)%n迈罕带%n马赫斯%n赛特%n阿努比斯-需要2阶隔热套装%n%n译者注:%n%n宇航服-隔热套装-供氧设备-宜居行星%n这四个需求依次降低,高需求必须先满足低需求.
 
 # Quest: Don't Put a Finger in That Socket
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.name=§6§l别把手指插进插座里
