@@ -578,35 +578,35 @@ GT5U.gui.text.critical_ph_value=pH exceeded critical value.
 GT5U.gui.text.heat_sensor=Heat threshold
 GT5U.item.programmed_circuit.select.header=再编程电路
 
-GT5U.gui.config.client=Client
+GT5U.gui.config.client=客户端
 GT5U.gui.config.client.color_modulation=Color Modulation
 GT5U.gui.config.client.color_modulation.cable_insulation=Cable Insulation
 GT5U.gui.config.client.color_modulation.construction_foam=Construction Foam
 GT5U.gui.config.client.color_modulation.machine_metal=Machine Metal (Default GUI Color)
 GT5U.gui.config.client.interface=Interface
 GT5U.gui.config.client.preference=Preference
-GT5U.gui.config.client.render=Render
+GT5U.gui.config.client.render=渲染
 GT5U.gui.config.client.waila=Waila
 GT5U.gui.config.client.nei=NEI
-GT5U.gui.config.client.nei.recipe_categories=Recipe Categories
-GT5U.gui.config.gregtech=Gregtech
-GT5U.gui.config.gregtech.debug=Debug
-GT5U.gui.config.gregtech.features=Features
-GT5U.gui.config.gregtech.general=General
-GT5U.gui.config.gregtech.harvest_level=Harvest Level
-GT5U.gui.config.gregtech.machines=Machines
+GT5U.gui.config.client.nei.recipe_categories=合成表类别
+GT5U.gui.config.gregtech=格雷科技
+GT5U.gui.config.gregtech.debug=调试
+GT5U.gui.config.gregtech.features=功能
+GT5U.gui.config.gregtech.general=通用
+GT5U.gui.config.gregtech.harvest_level=采掘等级
+GT5U.gui.config.gregtech.machines=机器
 GT5U.gui.config.gregtech.ore_drop_behavior=Ore Drop Behavior
-GT5U.gui.config.gregtech.pollution=Pollution
+GT5U.gui.config.gregtech.pollution=污染
 GT5U.gui.config.machine_stats=Machine Stats
-GT5U.gui.config.machine_stats.bronze_solar_boiler=Bronze Solar Boiler
-GT5U.gui.config.machine_stats.steel_solar_boiler=Steel Solar Boiler
-GT5U.gui.config.machine_stats.machines=Machines
+GT5U.gui.config.machine_stats.bronze_solar_boiler=青铜太阳能锅炉
+GT5U.gui.config.machine_stats.steel_solar_boiler=钢太阳能锅炉
+GT5U.gui.config.machine_stats.machines=机器
 GT5U.gui.config.machine_stats.microwave_energy_transmitter=Microwave Energy Transmitter
-GT5U.gui.config.machine_stats.mass_fabricator=Mass Fabricator
+GT5U.gui.config.machine_stats.mass_fabricator=质量发生器
 GT5U.gui.config.machine_stats.teleporter=Teleporter
-GT5U.gui.config.worldgen=Worldgen
-GT5U.gui.config.worldgen.end_asteroids=End Asteroids
-GT5U.gui.config.worldgen.general=General
+GT5U.gui.config.worldgen=世界生成
+GT5U.gui.config.worldgen.end_asteroids=末地小行星
+GT5U.gui.config.worldgen.general=通用
 
 # Note to translators: this translation entry is supposed to be a number indicating how many taunts you define here
 # Game will randomly display one of them
@@ -621,16 +621,16 @@ GT5U.item.cable.loss=线损/米/安
 GT5U.item.cable.eu_volt=伏
 GT5U.item.tank.locked_to=内容物已锁定为%s
 
-gt.behaviour.paintspray.infinite.gui.header=Select a Color
-gt.behaviour.paintspray.infinite.gui.lock_error=§eSpray can is §clocked§e! §bSneak middle-click to unlock.
-gt.behaviour.paintspray.infinite.gui.solvent=Solvent
+gt.behaviour.paintspray.infinite.gui.header=选择一种颜色
+gt.behaviour.paintspray.infinite.gui.lock_error=§e喷漆罐已被§锁定§e！§b潜行并鼠标中键单击以解锁。
+gt.behaviour.paintspray.infinite.gui.solvent=有机溶剂
 
-gt.behaviour.paintspray.infinite.tooltip.infinite=Infinite uses
-gt.behaviour.paintspray.infinite.tooltip.more_info=Hold SHIFT for more information
-gt.behaviour.paintspray.infinite.tooltip.switch=Left Click: Change color (sneak to reverse direction)
-gt.behaviour.paintspray.infinite.tooltip.pick=Middle Click block: Copy color to spray can
-gt.behaviour.paintspray.infinite.tooltip.lock=Sneak Middle Click: Lock or unlock spray can
-gt.behaviour.paintspray.infinite.tooltip.gui=Middle Click: Open color choice GUI
+gt.behaviour.paintspray.infinite.tooltip.infinite=无限使用
+gt.behaviour.paintspray.infinite.tooltip.more_info=按住SHIFT以获得更多信息
+gt.behaviour.paintspray.infinite.tooltip.switch=左键单击：切换颜色(潜行以反转切换方向)
+gt.behaviour.paintspray.infinite.tooltip.pick=中键单击方块：复制颜色至喷漆罐
+gt.behaviour.paintspray.infinite.tooltip.lock=潜行时中键单击：锁定或解锁喷漆罐
+gt.behaviour.paintspray.infinite.tooltip.gui=中键：打开颜色选择界面
 
 GT5U.hatch.disableFilter.true=输入过滤：§c关闭§r
 GT5U.hatch.disableFilter.false=输入过滤：§a开启§r
@@ -647,8 +647,8 @@ GT5U.hatch.infiniteCacheFluid.false=ME输出仓离线超过2秒后将停止接�
 GT5U.hatch.additionalConnection.true=ME网络可与任意面连接
 GT5U.hatch.additionalConnection.false=ME网络仅与正面连接
 
-GT5U.bus.filterTooltip.empty=§aDrag item from NEI to set output filter
-GT5U.bus.filterTooltip.full=§aClick to clear output filter
+GT5U.bus.filterTooltip.empty=§a从NEI拖拽物品以设置输出过滤
+GT5U.bus.filterTooltip.full=§a点击以清空输出过滤
 
 GT5U.multiblock.pollution=污染减少到
 GT5U.multiblock.energy=存储能量
@@ -662,9 +662,9 @@ GT5U.multiblock.parallelism=最大并行
 GT5U.multiblock.curparallelism=当前并行
 GT5U.multiblock.euModifier=EU Modifier
 GT5U.multiblock.speed=Speed
-GT5U.multiblock.fluidPipeTier=Fluid Pipe Tier
-GT5U.multiblock.itemPipeTier=Item Pipe Tier
-GT5U.multiblock.coilLevel=Heating Coil Level
+GT5U.multiblock.fluidPipeTier=流体管道等级
+GT5U.multiblock.itemPipeTier=物品管道等级
+GT5U.multiblock.coilLevel=加热线圈等级
 
 # NEI recipe handlers
 GT5U.nei.heat_capacity=热容：%s K (%s)
@@ -737,7 +737,7 @@ GT5U.interface.coverTabs.east=东
 GT5U.steam_variant.bronze=青铜
 GT5U.steam_variant.steel=钢
 
-GT5U.biomes.humidity=Humidity:
+GT5U.biomes.humidity=湿度：
 
 # NEI options
 nei.options.tools.dump.gt5u=GT5u

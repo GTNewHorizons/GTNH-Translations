@@ -1025,7 +1025,7 @@ languagefile {
     S:Material.grade5purifiedwater=极端温度处理水（5级）
     S:Material.grade6purifiedwater=紫外线处理电平衡水（6级）
     S:Material.grade7purifiedwater=脱气无污染水（7级）
-    S:Material.grade8purifiedwater=亚原子完美净化水（8级）
+    S:Material.grade8purifiedwater=8级净化水
     S:Material.graniteblack=黑花岗岩
     S:Material.granitered=红花岗岩
     S:Material.graniticmineralsand=花岗岩矿砂
@@ -3921,7 +3921,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00860_Index_00=机器类型：§e九合一§r
     S:TileEntity_DESCRIPTION_00860_Index_01=大型加工厂的控制器方块
     S:TileEntity_DESCRIPTION_00860_Index_02=§c已弃用!这台机器会在下个主要更新中被移除.
-    S:TileEntity_DESCRIPTION_00860_Index_03=§c为了替代这些大型加工厂,许多新的多方块机器被添加入游戏!
+    S:TileEntity_DESCRIPTION_00860_Index_03=§c为了替代这些大型加工厂,许多新的多方块机器已经加入游戏!
     S:TileEntity_DESCRIPTION_00860_Index_04=比相同电压的单方块机器快250%
     S:TileEntity_DESCRIPTION_00860_Index_05=只需要使用配方要求功率的80%
     S:TileEntity_DESCRIPTION_00860_Index_06=每提升一个电压等级，每次运行可以多处理2个物品
@@ -3931,9 +3931,9 @@ languagefile {
     S:TileEntity_DESCRIPTION_00860_Index_10=阅读大型加工厂手册(Multi-Machine Manual)以获取更多的信息
     S:TileEntity_DESCRIPTION_00860_Index_11=§b可使用固化仓以固化多种流体.§r
     S:TileEntity_DESCRIPTION_00860_Index_12=每秒产生§5400§7点污染
-    S:TileEntity_DESCRIPTION_00860_Index_13=添加者：§2Alkalus §7- §c[GT++]
-    S:TileEntity_DESCRIPTION_00860_Index_14=Hold §l[LSHIFT]§r§7 to display structure guidelines
-    S:TileEntity_DESCRIPTION_00860_Index_15=Added by: §a§2Alkalus §7- §c[GT++]§7
+    S:TileEntity_DESCRIPTION_00860_Index_13=-----------------------------------------
+    S:TileEntity_DESCRIPTION_00860_Index_14=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00860_Index_15=添加者：§2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_00860_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§63§7§c§c(中空)
     S:TileEntity_DESCRIPTION_00860_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00860_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -3950,7 +3950,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00861_Index_02=仓室等级：§aIV§r
     S:TileEntity_DESCRIPTION_00861_Index_03=不要遮挡输入！
     S:TileEntity_DESCRIPTION_00861_Index_04=从周围环境吸入空气
-    S:TileEntity_DESCRIPTION_00861_Index_05=添加者：§2Alkalus §7- §c[GT++]
+    S:TileEntity_DESCRIPTION_00861_Index_05=每4t产生1000升空气
     S:TileEntity_DESCRIPTION_00861_Index_06=添加者：§2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_00862_Index_00=机器类型：§e电弧炉/等离子电弧炉§r
     S:TileEntity_DESCRIPTION_00862_Index_01=工业电弧炉的控制器方块
@@ -4663,9 +4663,9 @@ languagefile {
     S:TileEntity_DESCRIPTION_01006_Index_03=例如：3x编程电路#16 = 48并行. 除时间外，
     S:TileEntity_DESCRIPTION_01006_Index_04=所有输入*并行. 只从无线EU网络接收能量.
     S:TileEntity_DESCRIPTION_01006_Index_05=添加者：§4§l§o§nC§6§l§o§no§a§l§o§nl§3§l§o§ne§5§l§o§nn
-    S:TileEntity_DESCRIPTION_01006_Index_06=虚拟电路板槽不影响并行.
-    S:TileEntity_DESCRIPTION_01006_Index_07=-----------------------------------------
-    S:TileEntity_DESCRIPTION_01006_Index_08=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_01006_Index_06=-----------------------------------------
+    S:TileEntity_DESCRIPTION_01006_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_01006_Index_08=由 §aGregtech§7 添加
     S:TileEntity_DESCRIPTION_01006_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§65§7x§67§7x§65§7§c
     S:TileEntity_DESCRIPTION_01006_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_01006_Secondary_Index_02=   §61+§7输入仓
@@ -7203,7 +7203,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_02711_Index_06=在GUI配置“自动拉取”的最小堆叠数.
     S:TileEntity_DESCRIPTION_02711_Index_07=警告:快速配方检查可能会很卡.请谨慎使用.
     S:TileEntity_DESCRIPTION_02711_Index_08=配置可使用闪存复制/粘贴
-    S:TileEntity_DESCRIPTION_02711_Index_09=Configuration data can be copy+pasted using a data stick.
+    S:TileEntity_DESCRIPTION_02711_Index_09=配置可使用闪存复制/粘贴
     S:TileEntity_DESCRIPTION_02712_Index_00=为多方块机器输入流体(进阶)
     S:TileEntity_DESCRIPTION_02712_Index_01=仓室等级：§5UEV
     S:TileEntity_DESCRIPTION_02712_Index_02=直接从ME网络抽取流体
@@ -7213,7 +7213,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_02712_Index_06=在GUI配置“自动拉取”的最小数量,调整物品槽位刷新时间并启用快速配方检查.
     S:TileEntity_DESCRIPTION_02712_Index_07=警告:快速配方检查可能会很卡.请谨慎使用.
     S:TileEntity_DESCRIPTION_02712_Index_08=配置可使用闪存复制/粘贴
-    S:TileEntity_DESCRIPTION_02712_Index_09=Configuration data can be copy+pasted using a data stick.
+    S:TileEntity_DESCRIPTION_02712_Index_09=配置可使用闪存复制/粘贴
     S:TileEntity_DESCRIPTION_02713_Index_00=为多方块机器输出流体
     S:TileEntity_DESCRIPTION_02713_Index_01=直接存储到ME系统
     S:TileEntity_DESCRIPTION_02713_Index_02=能够缓存无限数量的流体
@@ -8822,7 +8822,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_10500_Index_00=机器类型：§e煮解池§r
     S:TileEntity_DESCRIPTION_10500_Index_01=煮解池的控制器方块
     S:TileEntity_DESCRIPTION_10500_Index_02=输入矿物和流体，输出流体.
-    S:TileEntity_DESCRIPTION_10500_Index_03=请参考§9Structure§1Lib§7全息投影，构建主体结构
+    S:TileEntity_DESCRIPTION_10500_Index_03=请参考§9Structure§2Lib§7全息投影，构建主体结构
     S:TileEntity_DESCRIPTION_10500_Index_04=-----------------------------------------
     S:TileEntity_DESCRIPTION_10500_Index_05=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_10500_Index_06=由 §aGTNH: Lanthanides§7 添加
@@ -8837,7 +8837,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_10501_Index_01=溶解罐的控制器方块
     S:TileEntity_DESCRIPTION_10501_Index_02=输入水和流体，输出流体
     S:TileEntity_DESCRIPTION_10501_Index_03=必须以正确的比例输入流体
-    S:TileEntity_DESCRIPTION_10501_Index_04=请参考§9Structure§1Lib§7全息投影，构建主体结构
+    S:TileEntity_DESCRIPTION_10501_Index_04=请参考§9Structure§2Lib§7全息投影，构建主体结构
     S:TileEntity_DESCRIPTION_10501_Index_05=-----------------------------------------
     S:TileEntity_DESCRIPTION_10501_Index_06=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_10501_Index_07=由 §aGTNH: Lanthanides§7 添加
@@ -10846,8 +10846,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_12730_Index_05=无损超频将减少加工时间至25%(而非普通超频的50%)，即能效比100%
     S:TileEntity_DESCRIPTION_12730_Index_06=电压自MV起可提供额外炉温，即实际炉温=线圈温度+(电压等级-2)*100
     S:TileEntity_DESCRIPTION_12730_Index_07=每秒产生§5102400§7点污染
-    S:TileEntity_DESCRIPTION_12730_Index_08=-----------------------------------------
-    S:TileEntity_DESCRIPTION_12730_Index_09=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_12730_Index_08=每秒产生§5102400§7点污染
+    S:TileEntity_DESCRIPTION_12730_Index_09=-----------------------------------------
     S:TileEntity_DESCRIPTION_12730_Index_10=添加者：bartimaeusnek,模组：§2BartWorks§7
     S:TileEntity_DESCRIPTION_12730_Index_11=Added by: §a§abartimaeusnek§7 via §2BartWorks§7
     S:TileEntity_DESCRIPTION_12730_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§615§7x§620§7x§615§7§c§c(中空)
@@ -10885,11 +10885,11 @@ languagefile {
     S:TileEntity_DESCRIPTION_12731_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§615§7x§615§7x§615§7§c§c(中空)
     S:TileEntity_DESCRIPTION_12731_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_12731_Secondary_Index_02=§f   控制器：§7  正面中央
-    S:TileEntity_DESCRIPTION_12731_Secondary_Index_03=   剩余方块为§7防冻机械方块§r(至少§6900§r个！)
-    S:TileEntity_DESCRIPTION_12731_Secondary_Index_04=§f   能源仓：§7  任意机械方块
-    S:TileEntity_DESCRIPTION_12731_Secondary_Index_05=§f   维护仓：§7  任意机械方块
-    S:TileEntity_DESCRIPTION_12731_Secondary_Index_06=§f   输入仓：§7  任意机械方块
-    S:TileEntity_DESCRIPTION_12731_Secondary_Index_07=§f   输出仓：§7  任意机械方块
+    S:TileEntity_DESCRIPTION_12731_Secondary_Index_03=§f   能源仓：§7 任意防冻机械方块
+    S:TileEntity_DESCRIPTION_12731_Secondary_Index_04=§f   维护仓：§7  任意防冻机械方块
+    S:TileEntity_DESCRIPTION_12731_Secondary_Index_05=§f   输入仓：§7  任意防冻机械方块
+    S:TileEntity_DESCRIPTION_12731_Secondary_Index_06=§f   输出仓：§7  任意防冻机械方块
+    S:TileEntity_DESCRIPTION_12731_Secondary_Index_07=§f   输入总线：§7  任意防冻机械方块
     S:TileEntity_DESCRIPTION_12731_Secondary_Index_08=§f   输入总线：§7任意机械方块
     S:TileEntity_DESCRIPTION_12731_Secondary_Index_09=§f   输出总线：§7任意机械方块
     S:TileEntity_DESCRIPTION_12731_Secondary_Index_10=§6   800x §r§7Frost Proof Machine Casing (minimum)
@@ -12982,7 +12982,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_15410_Index_56=用螺丝刀右键主机可以设置关闭动画特效.
     S:TileEntity_DESCRIPTION_15410_Index_57=-----------------------------------------
     S:TileEntity_DESCRIPTION_15410_Index_58=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_DESCRIPTION_15410_Index_59=添加者: §a§4§l§o§nC§6§l§o§no§a§l§o§nl§3§l§o§ne§5§l§o§nn§7&§9Tec§1Tech§9：万物基石§7
+    S:TileEntity_DESCRIPTION_15410_Index_59=-----------------------------------------
     S:TileEntity_DESCRIPTION_15410_Index_60=Hold §l[LSHIFT]§r§7 to display structure guidelines
     S:TileEntity_DESCRIPTION_15410_Index_61=Added by: §a§4§l§o§nC§6§l§o§no§a§l§o§nl§3§l§o§ne§5§l§o§nn§7&§9Tec§1Tech§9: Elemental Matter§7
     S:TileEntity_DESCRIPTION_15410_Secondary_Index_00=   鸿蒙之眼的结构太复杂了！请参考§9Structure§1Lib§7全息投影
@@ -14216,7 +14216,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_31041_Index_03=只需要使用配方要求蒸汽速率的66.6%
     S:TileEntity_DESCRIPTION_31041_Index_04=一次至多研磨8个矿石
     S:TileEntity_DESCRIPTION_31041_Index_05=-----------------------------------------
-    S:TileEntity_DESCRIPTION_31041_Index_06=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_31041_Index_06=-----------------------------------------
     S:TileEntity_DESCRIPTION_31041_Index_07=添加者：§2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_31041_Index_08=Added by: §a§2Alkalus §7- §c[GT++]§7
     S:TileEntity_DESCRIPTION_31041_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§63§7§c§c(中空)
@@ -14476,7 +14476,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_31078_Index_03=只需要使用配方要求蒸汽速率的66.6%
     S:TileEntity_DESCRIPTION_31078_Index_04=一次至多压缩8个物品
     S:TileEntity_DESCRIPTION_31078_Index_05=-----------------------------------------
-    S:TileEntity_DESCRIPTION_31078_Index_06=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_31078_Index_06=-----------------------------------------
     S:TileEntity_DESCRIPTION_31078_Index_07=添加者：§2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_31078_Index_08=Added by: §a§2Alkalus §7- §c[GT++]§7
     S:TileEntity_DESCRIPTION_31078_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§64§7§c§c(中空)
@@ -14812,8 +14812,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_31783_Index_01=电路板#22已铭刻入仓室
     S:TileEntity_DESCRIPTION_31783_Index_02=容量：1,024,000升
     S:TileEntity_DESCRIPTION_31784_Index_00=为§e大型加工厂§r带模具输入流体
-    S:TileEntity_DESCRIPTION_31784_Index_01=电路板#22已铭刻入仓室
-    S:TileEntity_DESCRIPTION_31784_Index_02=容量：2,048,000升
+    S:TileEntity_DESCRIPTION_31784_Index_01=容量：2,048,000升
+    S:TileEntity_DESCRIPTION_31784_Index_02=添加者：§bQuetz4l - §c[GT++]§r
     S:TileEntity_DESCRIPTION_31790_Index_00=像自动坩埚一样清洗矿物
     S:TileEntity_DESCRIPTION_31790_Index_01=添加者：§2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_31791_Index_00=像自动坩埚一样清洗矿物
@@ -16777,7 +16777,7 @@ languagefile {
     S:fluid.grade5purifiedwater=极端温度处理水（5级）
     S:fluid.grade6purifiedwater=紫外线处理电平衡水（6级）
     S:fluid.grade7purifiedwater=脱气无污染水（7级）
-    S:fluid.grade8purifiedwater=亚原子完美净化水（8级）
+    S:fluid.grade8purifiedwater=8级净化水
     S:fluid.greensapphirejuice=绿色蓝宝石汁
     S:fluid.growthmediumraw=培养基原液
     S:fluid.growthmediumsterilized=无菌培养基
@@ -54800,9 +54800,9 @@ languagefile {
     S:gt.metaitem.01.32145.tooltip=填满也就图一乐
     S:gt.metaitem.01.32146.name=太·终极电池
     S:gt.metaitem.01.32146.tooltip=填满电池 机械飞升
-    S:gt.metaitem.01.32270.name=过滤传送带覆盖板（输出）
+    S:gt.metaitem.01.32270.name=过滤传送带覆盖板(输出)
     S:gt.metaitem.01.32270.tooltip=手持物品右键以设置过滤(仅支持输出模式)
-    S:gt.metaitem.01.32271.name=过滤传送带覆盖板（输入）
+    S:gt.metaitem.01.32271.name=过滤传送带覆盖板(输入)
     S:gt.metaitem.01.32271.tooltip=手持物品右键以设置过滤(仅支持输入模式)
     S:gt.metaitem.01.32272.name=流体过滤覆盖板
     S:gt.metaitem.01.32272.tooltip=基于容器填充水平,限制流体输入
@@ -54883,15 +54883,15 @@ languagefile {
     S:gt.metaitem.01.32336.name=蒸汽校准器(IV)
     S:gt.metaitem.01.32336.tooltip=作覆盖板时，16,384升/t(327,680升/秒)
     S:gt.metaitem.01.32345.name=铁制电磁铁
-    S:gt.metaitem.01.32345.tooltip=Used in Magnetic Flux Exhibitor/n §dSpeed: +10%/n §5EU Usage: 80%/n §bParallel: 8
+    S:gt.metaitem.01.32345.tooltip=在磁通量效应监视器中使用/n §d速度: +10%/n §5EU消耗: 80%/n §b并行: 8
     S:gt.metaitem.01.32346.name=钢制电磁铁
-    S:gt.metaitem.01.32346.tooltip=Used in Magnetic Flux Exhibitor/n §dSpeed: +25%/n §5EU Usage: 75%/n §bParallel: 24
+    S:gt.metaitem.01.32346.tooltip=在磁通量效应监视器中使用/n §d速度: +25%/n §5EU消耗: 75%/n §b并行: 24
     S:gt.metaitem.01.32347.name=钕制电磁铁
-    S:gt.metaitem.01.32347.tooltip=Used in Magnetic Flux Exhibitor/n §dSpeed: +50%/n §5EU Usage: 70%/n §bParallel: 48
+    S:gt.metaitem.01.32347.tooltip=在磁通量效应监视器中使用/n §d速度: +50%/n §5EU消耗: 70%/n §b并行: 48
     S:gt.metaitem.01.32348.name=§e钐制电磁铁
-    S:gt.metaitem.01.32348.tooltip=Used in Magnetic Flux Exhibitor/n §dSpeed: +100%/n §5EU Usage: 60%/n §bParallel: 96
+    S:gt.metaitem.01.32348.tooltip=在磁通量效应监视器中使用/n §d速度: +100%/n §5EU消耗: 60%/n §b并行: 96
     S:gt.metaitem.01.32349.name=§a谐镃电磁铁
-    S:gt.metaitem.01.32349.tooltip=Used in Magnetic Flux Exhibitor/n §dSpeed: +150%/n §5EU Usage: 50%/n §bParallel: 256/n §l§aCan Use Multiamp Hatches
+    S:gt.metaitem.01.32349.tooltip=在磁通量效应监视器中使用/n §d速度: +150%/n §5EU消耗: 50%/n §b并行: 256/n §l§a可以使用多安能源仓
     S:gt.metaitem.01.32350.name=模头(板)
     S:gt.metaitem.01.32350.tooltip=用来制作板的模头
     S:gt.metaitem.01.32351.name=模头(杆)
@@ -69887,7 +69887,7 @@ languagefile {
     S:gt.metaitem.03.32756.tooltip=用来制作钻头的超强恒星模头
     S:gt.metaitem.03.32757.name=时间碎片
     S:gt.metaitem.03.32757.tooltip=小心戴帽子的孩子
-    S:gt.metaitem.03.32758.name=Transdimensional Alignment Matrix
+    S:gt.metaitem.03.32758.name=超维校准矩阵
     S:gt.metaitem.03.32758.tooltip=Device supporting the alignment of transdimensional spaces./n Enables Dimensional Convergence on the DTPF.
     S:gt.metaitem.03.32759.name=Thermal Superconductor
     S:gt.metaitem.03.32759.tooltip=With the power of second sound!
@@ -74221,7 +74221,7 @@ languagefile {
     S:gtplusplus.material.Lautarite=碘钙石
     S:gtplusplus.material.Lead=铅
     S:gtplusplus.material.Lepersonnite=绿泥石
-    S:"gtplusplus.material.Li2CO3 + CaO2H2 Compound"=Li2CO3 + CaO2H2 Compound
+    S:"gtplusplus.material.Li2CO3 + CaO2H2 Compound"=碳酸锂+氢氧化钙复合物
     S:gtplusplus.material.Lithium=锂
     S:"gtplusplus.material.Lithium Carbonate"=碳酸锂
     S:"gtplusplus.material.Lithium Hydroperoxide"=过氧化氢锂
