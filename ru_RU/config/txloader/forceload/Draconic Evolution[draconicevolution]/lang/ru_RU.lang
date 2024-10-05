@@ -111,8 +111,8 @@ item.draconicevolution:magnet.wyvern.name=Телепортационный ма�
 item.draconicevolution:magnet.draconic.name=Пробуждённый телепортационный магнит
 
 //Item Groups ----------------------------------------------------------------------------------------------------------------------------------------
-itemGroup.toolsAndWeapons=DE: Инструменты и оружие
-itemGroup.blocksAndItems=DE: Блоки и предметы
+itemGroup.toolsAndWeapons=Draconic Evolution: Инструменты и оружие
+itemGroup.blocksAndItems=Draconic Evolution: Блоки и предметы
 
 //Chat Messages ----------------------------------------------------------------------------------------------------------------------------------------
 msg.size0.txt=Режим инструмента: Один блок
@@ -565,10 +565,10 @@ gui.de.particleGenerator.info.1=  The Particle Generator is a decorative device 
 gui.de.particleGenerator.info.2=  The first thing to note is that most fields have a random modifier which will add a random number between 0 and whatever max (or min) value you give it to the field.\n  - The first 3 fields (Red, Green & Blue) control the colour of the particle. Most people should be familiar with this colour system if not google RGB colours. Note: the max value for each colour can not go higher then 255 so the colour field limits the random modifier e.g. if the colour field is set to 255 and the random modifier is set to 20 the result will always be 255.
 gui.de.particleGenerator.info.3=  - The next 3 fields (Motion X, Y & Z) control the direction and speed of the particle.\n  - The "Life" field sets how long (in ticks) before the particle despawns.\n  - The "Scale" field sets the size of the particle.\n  - The next 3 fields (Spawn X, Y & Z) Sets the spawn location of the particle (relative to the location of the particle generator).
 gui.de.particleGenerator.info.4=  - The "Delay" field sets the delay (in ticks) between each particle spawn e.g. 1=20/s, 20=1/s, 100=1/5s.\n  - The "Fade" field sets how long (in ticks) it takes the particle to fade out of existance. Note: This adds to the life of the particle.\n  - The "Gravity" field sets how the particle is affected by gravity.\n  - "Block Collision" Toggles weather or not the particle will collide with blocks.\n  - "Particle Selected" switches between the different particles available.
-gui.de.particleGenerator.info.5.title=Redstone Control\n\n
-gui.de.particleGenerator.info.5=  By default a redstone signal is required for the generator to run.\n  However if you shift right click the generator with an empty hand it will switch to inverted mode.\n  The redstone mode is indicated by the 8 cubes at the corners of the block.
-gui.de.particleGenerator.info.6.title=Computer Control\n\n
-gui.de.particleGenerator.info.6=  The Generator can be controlled via a computer.\n  It exposes a relatively straight forward API:\n\n  setGeneratorProperty(property, value)\n  getGeneratorState()\n  resetGeneratorState()
+gui.de.particleGenerator.info.5.title=Контроль сигналом красного камня\n\n
+gui.de.particleGenerator.info.5=Изначально сигнал красного камня нужен, чтобы запустить генератор.\nОднако нажав Shift+ПКМ по генератору с пустой рукой он переключится в инвертированный режим.\nРежим красного камня отображается 8 кубами по углам блока.
+gui.de.particleGenerator.info.6.title=Контроль компьютером\n\n
+gui.de.particleGenerator.info.6=Генератор может контроллироваться компьютером.\nОн предоставляет относительно простой API:\n\nsetGeneratorProperty(property, value)\ngetGeneratorState()\nresetGeneratorState()
 gui.de.particleGenerator.info.7=  Generator state is obtained as a whole from getGeneratorState, whereas properties are modified one at a time using setGeneratorProperty. Property names are strings and mostly correspond to button labels in the GUI.
 
 gui.de.insert.txt=Вставить

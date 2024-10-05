@@ -3,7 +3,7 @@ itemGroup.MiscUtilBlockTab=[GT++] Блоки
 itemGroup.MiscUtilMiscTab=[GT++] Предметы
 itemGroup.MiscUtilCombatTab=[GT++] Combat
 itemGroup.MiscUtilToolsTab=[GT++] Инструменты
-itemGroup.MiscUtilMachineTab=[GT++] Машины
+itemGroup.MiscUtilMachineTab=[GT++] Механизмы
 itemGroup.MiscUtilOtherTab=[GT++] Предметы II
 itemGroup.MiscUtilBOP=[GT++] Biomes O'Plenty Additions
 
@@ -44,10 +44,10 @@ entity.sickBlaze.name=Infected Zealot
 //Tile Entities
 tile.blockToolBuilder.name=GregTech Tool Constructor
 tile.blockEggBox.name=Egg Box
-tile.blockCircuitProgrammer.name=Circuit Programmer
+tile.blockCircuitProgrammer.name=Программатор
 tile.blockDecayablesChest.name=Lead Lined Box
-tile.blockVolumetricFlaskSetter.name=Volumetric Flask Configurator
-tile.blockSuperLight.name=Shining Star
+tile.blockVolumetricFlaskSetter.name=Конфигуратор мерной колбы
+tile.blockSuperLight.name=Сияющая Звезда
 tile.blockPestKiller.name=Pest Killer
 tile.blockSuperJukebox.name=Sir Mixalot [Jukebox]
 
@@ -96,7 +96,7 @@ gtpp.recipe.flotationcell=Флотационная камера
 gtpp.recipe.treefarm=Симулятор роста деревьев
 
 # Recipe categories
-gtpp.recipe.category.abs_non_alloy_recipes=ABS Non-Alloy Recipes
+gtpp.recipe.category.abs_non_alloy_recipes=Рецепты ABS без сплавов
 
 # NEI
 gtpp.nei.lftr.power=Power: %s EU/t per Dynamo
@@ -176,7 +176,7 @@ item.itemTungstenSteelShaft.name=Вал из вольфрамовая стали
 item.itemVibrantShaft.name=Вал из вибрирующего сплава
 item.itemIridiumShaft.name=Иридиевый вал
 item.itemMagnaliumRotorBlade.name=Лопасть ротора из магналия
-item.itemUltimetRotorBlade.name=Ultimet Blade
+item.itemUltimetRotorBlade.name=Ультимет лезвие
 item.itemMagnaliumShaft.name=Магналиевый вал
 item.itemUltimetShaft.name=Ультимет вал
 
@@ -185,7 +185,7 @@ item.itemUltimetShaft.name=Ультимет вал
 item.itemPLACEHOLDER_Circuit.name=Кварк манипулятор (UV)
 item.itemPlateEnrichedSoularium.name=Пластина из обогащённого призрачного сплава
 item.itemHeliumBlob.name=Mysterious Hydrogen Substance
-item.itemAlkalusDisk.name=Alkalus Disk
+item.itemAlkalusDisk.name=Alkalus диск
 
 //Misc Blocks
 tile.blockCompressedObsidian.0.name=Сжатый обсидиан (9)
@@ -227,7 +227,7 @@ item.itemHydrogenBlob.name=Mysterious Hydrogen Blob
 //Normal Items
 item.itemSimpleFiremaker.name=Basic Firemaker
 item.itemFiber.name=Растительное волокно
-item.itemRope.name=Rope
+item.itemRope.name=Веревка
 item.backpackRed.name=Красный рюкзак
 item.backpackGreen.name=Зелёный рюкзак
 item.backpackBlue.name=Синий рюкзак
@@ -239,7 +239,7 @@ item.backpackOlive.name=Оливковый рюкзак
 item.backpackDarkGreen.name=Тёмно-зелёный рюкзак
 item.backpackDarkPurple.name=Тёмно-фиолетовый рюкзак
 item.backpackTeal.name=Бирюзовый рюкзак
-item.backpackNavy.name=Navy Backpack
+item.backpackNavy.name=Тёмно-синий рюкзак
 item.backpackSilver.name=Серебрянный рюкзак
 item.backpackGray.name=Серый рюкзак
 item.backpackBlack.name=Чёрный рюкзак
@@ -269,7 +269,7 @@ item.itemDragonJar.0.name=Dragon Capture Jar
 item.itemDragonJar.0.tooltip=Does not contain anything.
 item.itemDragonJar.1.name=Captured Dragon Jar
 item.itemDragonJar.1.tooltip=Contains a %s.
-item.itemControlCore.name=Control Core [%s]
+item.itemControlCore.name=Ядро управления [%s]
 item.itemControlCore.tooltip.0=Allows a Multiblock to function upto %s
 item.itemControlCore.tooltip.1=Required Tier is determined by the sum of the eu/t of all Energy Inputs
 item.itemControlCore.tooltip.2=Lower tiers may be used to underclock, which is useful in some situations
@@ -1865,7 +1865,7 @@ item.itemPlatePhasedIron.name=Пластина из фазового желез�
 item.itemPlateEnergeticAlloy.name=Пластина из энергетического сплава
 item.itemPlateVibrantAlloy.name=Пластина из вибрирующего сплава
 item.itemPlateConductiveIron.name=Пластина из проводящего железа
-item.itemPlateBlutonium.name=Blutonium plate
+item.itemPlateBlutonium.name=Блутониевая пластина
 item.itemPlateCyanite.name=Цианитовая пластина
 item.itemPlateLudicrite.name=Лудикритовая пластина
 item.itemPlateVoid.name=Пластина из пустотного металла
@@ -1902,7 +1902,7 @@ item.itemBufferCore10.name=Энергетическое ядро [MAX].
 item.itembookgt.name=§oТепловой бойлер - руководство
 
 // Everglade Items
-item.everglades.trigger.name=§6Alkalus Disk [§cActivated§6]
+item.everglades.trigger.name=§6Alkalus диск [§cАктивирован§6]
 
 
 
@@ -1914,7 +1914,7 @@ item.everglades.trigger.name=§6Alkalus Disk [§cActivated§6]
 tile.blockRainforestOakLog.name=Дуб тропический
 tile.blockRainforestOakLeaves.name=Дубовые листья
 tile.blockRainforestOakSapling.name=Сажене дуба тропического
-tile.blockPineLogLog.name=Pine Log
+tile.blockPineLogLog.name=Сосновая древесина
 tile.blockPineLeaves.name=Сосновая листва
 tile.blockPineSapling.name=Саженец сосны
 
@@ -2096,12 +2096,12 @@ tile.blockProjectBench.name=Project Table
 tile.blockTradeBench.name=Trade Bench
 tile.blockModularity.name=Modularity Bench
 tile.blockBlackGate.name=Wither Cage
-tile.blockTankXpConverter.name=Experience Converter
+tile.blockTankXpConverter.name=Конвертер опыта
 
 //Everglades Blocks
-tile.blockDarkWorldPortal.name=A Glimpse of the Future
-tile.blockDarkWorldGround.name=Unstable Earth
-tile.blockDarkWorldGround2.name=Polluted Soil
+tile.blockDarkWorldPortal.name=Взгляд в будущее
+tile.blockDarkWorldGround.name=Нестабильная Земля
+tile.blockDarkWorldGround2.name=Загрязненная почва
 tile.blockDarkWorldGround2.2.name=Highly Polluted Soil
 tile.blockDarkWorldPortalFrame.name=Containment Frame
 
@@ -2147,7 +2147,7 @@ item.dustImpureTrinium.name=Неочищенная кучка триниевой
 item.dustPureTrinium.name=Очищенная кучка триниевой пыли
 
 //Added 1/7/18
-entity.WiseVillager.name=Wise Villager
+entity.WiseVillager.name=Мудрый житель
 tile.blockMobSpawnerEx.0.name=Спавнер монстров
 tile.blockMobSpawnerEx.1.name=Спавнер монстров
 tile.blockMobSpawnerEx.2.name=Спавнер монстров
@@ -2866,11 +2866,11 @@ item.particle.base.Unknown.name=Неизвестная частица
 
 //Added 12/1/19
 
-tile.playerDoorGlass.name=Glass Auto-Door
-tile.playerDoorCactus.name=Cactus Auto-Door
-tile.playerDoorIce.name=Ice Auto-Door
-tile.playerDoorIron.name=Iron Auto-Door
-tile.playerDoorWood.name=Wooden Auto-Door
+tile.playerDoorGlass.name=Стеклянная автоматическая дверь
+tile.playerDoorCactus.name=Кактусовая автоматическая дверь
+tile.playerDoorIce.name=Ледяная автоматическая дверь
+tile.playerDoorIron.name=Железная автоматическая дверь
+tile.playerDoorWood.name=Деревянная автоматическая дверь
 
 //Added 4/2/19
 
@@ -2940,12 +2940,12 @@ tile.Block of Teflon.name=Тефлоновый блок
 item.particle.ion.Aluminium.name=Ион алюминия
 item.particle.ion.Caesium.name=Ион цезия
 
-item.GTPP.MonsterKiller.Enderman.name=Enderman Killer
-item.GTPP.MonsterKiller.Spider.name=Spider Killer
-item.GTPP.MonsterKiller.Skeleton.name=Skeleton Killer
-item.GTPP.MonsterKiller.Creeper.name=Creeper Killer
-item.GTPP.MonsterKiller.Zombie.name=Zombie Killer
-item.GTPP.MonsterKiller.Hellish.name=Nether Mob Killer
+item.GTPP.MonsterKiller.Enderman.name=Убийца Эндермена
+item.GTPP.MonsterKiller.Spider.name=Убийца Пауков
+item.GTPP.MonsterKiller.Skeleton.name=Убийца Скелетов
+item.GTPP.MonsterKiller.Creeper.name=Убийца Криперов
+item.GTPP.MonsterKiller.Zombie.name=Убийца Зомби
+item.GTPP.MonsterKiller.Hellish.name=Убийца Адских мобов
 
 item.itemIngotRunite.name=Рунитовый слиток
 item.itemDustRunite.name=Рунитовая пыль
@@ -3145,7 +3145,7 @@ tile.blockInhibitorObelisk.name=Inhibitor Obelisk
 tile.Battlesign.name=Battlesign
 tile.blockMagicBox.name=Magic Box
 tile.blockManaPod.name=Mana Pod Stem
-tile.buildToolBlock.name=Tool Block
+tile.buildToolBlock.name=Блок инструментов
 tile.blockRedPlasma.name=Red Plasma Block
 tile.pipeBlock.name=Труба
 item.null.name=Null Item report it on github
@@ -3197,7 +3197,7 @@ item.itemDustTinyRareEarthIII.name=Крошечная кучка редкозе�
 item.itemDustSmallRareEarthIII.name=Маленькая кучка редкоземельной (III) пыли
 
 //Added 16/10/19
-item.BioRecipeSelector.name=Programmed Bio Circuit
+item.BioRecipeSelector.name=Запрограммированная био схема
 item.FermentationBase.name=Капсула с ферментационной основой
 item.ureamix.name=Капсула с смесью мочевины
 item.liquidresin.name=Капсула с жидкой смолой
@@ -3213,8 +3213,8 @@ item.BasicAgrichemItem.6.name=Целлюлозное золотисто-кори
 item.BasicAgrichemItem.7.name=Красное целлюлозное волокно
 item.BasicAgrichemItem.8.name=Компост
 item.BasicAgrichemItem.9.name=Деревянная пеллета
-item.BasicAgrichemItem.10.name=Wood Brick
-item.BasicAgrichemItem.11.name=Cellulose Pulp
+item.BasicAgrichemItem.10.name=Деревянный кирпич
+item.BasicAgrichemItem.11.name=Целлюлозная масса
 item.BasicAgrichemItem.12.name=Био волокно
 item.BasicAgrichemItem.13.name=Catalyst Carrier
 item.BasicAgrichemItem.14.name=Зелёный металлический катализатор
@@ -3274,7 +3274,7 @@ item.BasicMetaFood.4.name=Сырое мясо волка
 item.BasicMetaFood.5.name=Приготовленное мясо волка
 item.BasicMetaFood.6.name=Сырое мясо оцелота
 item.BasicMetaFood.7.name=Приготовленное мясо оцелота
-item.BasicMetaFood.8.name=Blaze Flesh
+item.BasicMetaFood.8.name=Пылающая плоть
 
 item.itemCellNaquadahFuel.name=Капсула наквадахового топлива
 item.itemCellEnrichedNaquadahFuel.name=Капсула топлива из обогащённого наквадаха
@@ -3341,7 +3341,7 @@ entity.miscutils.AusOctopus.name=Octopus
 container.EggBox=Ящик для инкубации яиц
 
 //Added 24/05/20
-container.VolumetricFlaskSetter=Volumetric Flask Configurator
+container.VolumetricFlaskSetter=Конфигуратор мерной колбы
 
 //Added 26/05/20
 item.itemIngotLaurenium.name=Лоуренсиевый слиток
@@ -3382,10 +3382,10 @@ tile.Block of Botmium.name=Ботмиевый блок
 tile.Botmium Frame Box.name=Ботмиевая рама
 
 //Added 29/05/20
-item.itemBasicTurbine.name=Basic Turbine
-item.itemBasicTurbine_0.name=Basic Iron Turbine
-item.itemBasicTurbine_1.name=Basic Bronze Turbine
-item.itemBasicTurbine_2.name=Basic Steel Turbine
+item.itemBasicTurbine.name=Базовая турбина
+item.itemBasicTurbine_0.name=Базовая железная турбина
+item.itemBasicTurbine_1.name=Базовая бронзовая турбина
+item.itemBasicTurbine_2.name=Базовая стальная турбина
 
 interaction.voidexcess.enabled=Уничтожение излишек вкл.
 interaction.voidexcess.disabled=Уничтожение излишек выкл.

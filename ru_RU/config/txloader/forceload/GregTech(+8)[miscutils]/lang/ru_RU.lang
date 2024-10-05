@@ -1,10 +1,10 @@
 //Creative Tabs
-itemGroup.MiscUtilBlockTab=[GT++] Blocks
-itemGroup.MiscUtilMiscTab=[GT++] Items
+itemGroup.MiscUtilBlockTab=[GT++] Блоки
+itemGroup.MiscUtilMiscTab=[GT++] Предметы
 itemGroup.MiscUtilCombatTab=[GT++] Combat
-itemGroup.MiscUtilToolsTab=[GT++] Tools
-itemGroup.MiscUtilMachineTab=[GT++] Machines
-itemGroup.MiscUtilOtherTab=[GT++] Items II
+itemGroup.MiscUtilToolsTab=[GT++] Инструменты
+itemGroup.MiscUtilMachineTab=[GT++] Механизмы
+itemGroup.MiscUtilOtherTab=[GT++] Предметы II
 itemGroup.MiscUtilBOP=[GT++] Biomes O'Plenty Additions
 
 //Debug
@@ -44,15 +44,15 @@ entity.sickBlaze.name=Infected Zealot
 //Tile Entities
 tile.blockToolBuilder.name=GregTech Tool Constructor
 tile.blockEggBox.name=Egg Box
-tile.blockCircuitProgrammer.name=Circuit Programmer
+tile.blockCircuitProgrammer.name=Программатор
 tile.blockDecayablesChest.name=Lead Lined Box
-tile.blockVolumetricFlaskSetter.name=Volumetric Flask Configurator
-tile.blockSuperLight.name=Shining Star
+tile.blockVolumetricFlaskSetter.name=Конфигуратор мерной колбы
+tile.blockSuperLight.name=Сияющая Звезда
 tile.blockPestKiller.name=Pest Killer
 tile.blockSuperJukebox.name=Sir Mixalot [Jukebox]
 
 //Tools
-item.itemBufferCore.name=Energy Core
+item.itemBufferCore.name=Энергетическое ядро
 item.itemStaballoyPickaxe.name=Tunnel Digger
 item.itemStaballoyAxe.name=Tree Feller
 item.itemSandstoneHammer.name=Cobblestone Breaker
@@ -96,7 +96,7 @@ gtpp.recipe.flotationcell=Флотационная камера
 gtpp.recipe.treefarm=Симулятор роста деревьев
 
 # Recipe categories
-gtpp.recipe.category.abs_non_alloy_recipes=ABS Non-Alloy Recipes
+gtpp.recipe.category.abs_non_alloy_recipes=Рецепты ABS без сплавов
 
 # NEI
 gtpp.nei.lftr.power=Power: %s EU/t per Dynamo
@@ -176,7 +176,7 @@ item.itemTungstenSteelShaft.name=Вал из вольфрамовая стали
 item.itemVibrantShaft.name=Вал из вибрирующего сплава
 item.itemIridiumShaft.name=Иридиевый вал
 item.itemMagnaliumRotorBlade.name=Лопасть ротора из магналия
-item.itemUltimetRotorBlade.name=Ultimet Blade
+item.itemUltimetRotorBlade.name=Ультимет лезвие
 item.itemMagnaliumShaft.name=Магналиевый вал
 item.itemUltimetShaft.name=Ультимет вал
 
@@ -185,7 +185,7 @@ item.itemUltimetShaft.name=Ультимет вал
 item.itemPLACEHOLDER_Circuit.name=Кварк манипулятор (UV)
 item.itemPlateEnrichedSoularium.name=Пластина из обогащённого призрачного сплава
 item.itemHeliumBlob.name=Mysterious Hydrogen Substance
-item.itemAlkalusDisk.name=Alkalus Disk
+item.itemAlkalusDisk.name=Alkalus диск
 
 //Misc Blocks
 tile.blockCompressedObsidian.0.name=Сжатый обсидиан (9)
@@ -227,23 +227,23 @@ item.itemHydrogenBlob.name=Mysterious Hydrogen Blob
 //Normal Items
 item.itemSimpleFiremaker.name=Basic Firemaker
 item.itemFiber.name=Растительное волокно
-item.itemRope.name=Rope
-item.backpackRed.name=Red Backpack
-item.backpackGreen.name=Green Backpack
-item.backpackBlue.name=Blue Backpack
-item.backpackYellow.name=Yellow Backpack
-item.backpackPurple.name=Purple Backpack
-item.backpackCyan.name=Cyan Backpack
-item.backpackMaroon.name=Maroon Backpack
-item.backpackOlive.name=Olive Backpack
-item.backpackDarkGreen.name=Dark Green Backpack
-item.backpackDarkPurple.name=Dark Purple Backpack
+item.itemRope.name=Веревка
+item.backpackRed.name=Красный рюкзак
+item.backpackGreen.name=Зелёный рюкзак
+item.backpackBlue.name=Синий рюкзак
+item.backpackYellow.name=Жёлтый рюкзак
+item.backpackPurple.name=Фиолетовый рюкзак
+item.backpackCyan.name=Бирюзовый рюкзак
+item.backpackMaroon.name=Тёмно-бордовый рюкзак
+item.backpackOlive.name=Оливковый рюкзак
+item.backpackDarkGreen.name=Тёмно-зелёный рюкзак
+item.backpackDarkPurple.name=Тёмно-фиолетовый рюкзак
 item.backpackTeal.name=Бирюзовый рюкзак
-item.backpackNavy.name=Navy Backpack
-item.backpackSilver.name=Silver Backpack
-item.backpackGray.name=Gray Backpack
-item.backpackBlack.name=Black Backpack
-item.backpackWhite.name=White Backpack
+item.backpackNavy.name=Тёмно-синий рюкзак
+item.backpackSilver.name=Серебрянный рюкзак
+item.backpackGray.name=Серый рюкзак
+item.backpackBlack.name=Чёрный рюкзак
+item.backpackWhite.name=Белый рюкзак
 item.itemBlueprint.name=Blueprint [I am useless]
 item.itemBlueprint.tooltip.0=Technical Document No. %d
 item.itemBlueprint.tooltip.1=Currently holding a blueprint for %s
@@ -269,7 +269,7 @@ item.itemDragonJar.0.name=Dragon Capture Jar
 item.itemDragonJar.0.tooltip=Does not contain anything.
 item.itemDragonJar.1.name=Captured Dragon Jar
 item.itemDragonJar.1.tooltip=Contains a %s.
-item.itemControlCore.name=Control Core [%s]
+item.itemControlCore.name=Ядро управления [%s]
 item.itemControlCore.tooltip.0=Allows a Multiblock to function upto %s
 item.itemControlCore.tooltip.1=Required Tier is determined by the sum of the eu/t of all Energy Inputs
 item.itemControlCore.tooltip.2=Lower tiers may be used to underclock, which is useful in some situations
@@ -1576,10 +1576,10 @@ item.dustPureYellorium.name=Очищенная кучка йеллориумно
 
 //Shards
 item.itemDrained.name=Drained Shard
-item.itemAer.name=Aer Shard
-item.itemIgnis.name=Ignis Shard
-item.itemTerra.name=Terra Shard
-item.itemAqua.name=Aqua Shard
+item.itemAer.name=Кристалл воздуха
+item.itemIgnis.name=Кристалл огня
+item.itemTerra.name=Кристалл земли
+item.itemAqua.name=Кристалл воды
 item.itemDustInfusedAir.name=Пыль кристалла воздуха
 item.itemDustInfusedFire.name=Пыль кристалла огня
 item.itemDustInfusedEarth.name=Пыль кристалла земли
@@ -1632,7 +1632,7 @@ item.itemGregtechPump.tooltip.1=Cannot be emptied via RMB, use inside a tank wit
 item.itemGregtechPump.tooltip.2=This is technically just a fancy fluid cell
 item.itemGregtechPump.tooltip.3=No Fluids Contained
 item.itemBaseEuItem.tooltip.0=§eElectric
-item.itemBaseEuItem.tooltip.1=Contains %d EU   Tier: %d
+item.itemBaseEuItem.tooltip.1=Содержит %s EU   Тир: %s
 item.itemBaseEuItem.tooltip.2=Empty. You should recycle it properly.
 item.itemBaseEuItem.tooltip.3=%d / %d EU - Вольтаж: %d
 item.itemDebugClearing.name=Debug Square [%d]
@@ -1797,14 +1797,14 @@ item.TantalumCarbideMultispade.name=Мульти лопата из карбид�
 //Plates
 item.itemPlateClay.name=Глиняная пластина
 item.itemPlateDoubleClay.name=2x Глиняная пластина
-item.itemPlateLithium.name=Lithium Plate
-item.itemPlateDoubleEuropium.name=Double Europium Plate
+item.itemPlateLithium.name=Литиевая пластина
+item.itemPlateDoubleEuropium.name=2x Европиевая пластина
 
 //Gears
-item.itemSmallGearWroughtIron.name=Small Wrought Iron Gear
+item.itemSmallGearWroughtIron.name=Маленькая шестерня из кованого железа
 
 //Misc
-item.itemFoilUranium235.name=Uranium 235 Foil
+item.itemFoilUranium235.name=Фольга из урана-235
 
 item.itemBoilerChassis_0.name=Advanced Boiler Chassis [Tier 1]
 item.itemDehydratorCoilWire_0.name=Провод катушки [EV]
@@ -1865,10 +1865,10 @@ item.itemPlatePhasedIron.name=Пластина из фазового желез�
 item.itemPlateEnergeticAlloy.name=Пластина из энергетического сплава
 item.itemPlateVibrantAlloy.name=Пластина из вибрирующего сплава
 item.itemPlateConductiveIron.name=Пластина из проводящего железа
-item.itemPlateBlutonium.name=Blutonium plate
-item.itemPlateCyanite.name=Cyanite plate
-item.itemPlateLudicrite.name=Ludicrite plate
-item.itemPlateVoid.name=Void plate
+item.itemPlateBlutonium.name=Блутониевая пластина
+item.itemPlateCyanite.name=Цианитовая пластина
+item.itemPlateLudicrite.name=Лудикритовая пластина
+item.itemPlateVoid.name=Пластина из пустотного металла
 item.itemPlateDimensionShard.name=Dimensional Shard plate
 item.rfEUBattery.name=Универсальная заряжаемая батарейка
 item.rfEUBattery.tooltip.0=§eIC2/EU Информация§7);
@@ -1876,7 +1876,7 @@ item.rfEUBattery.tooltip.1=§7Тир: [§e%d§7] Текущая энергия: 
 item.rfEUBattery.tooltip.2=§7Transfer Limit: [§e%d§7Eu/t] Burn Time: [§e%d§7s]
 item.rfEUBattery.tooltip.3=§cRF Информация§7
 item.rfEUBattery.tooltip.4=§7Extraction Rate: [§%d§7Rf/t] Insert Rate: [§c%d§7Rf/t]
-item.rfEUBattery.tooltip.5=§7Current Charge: [§c%d§7Rf / %dRf] §c%.2f%%§7
+item.rfEUBattery.tooltip.5=§7Текущий заряд: [§c%d§7Rf / %dRf] §c%.2f%%§7
 item.personalCloakingDevice.name=§9Личное маскировочное устройство§7
 item.personalCloakingDevice.tooltip.0=§aНосится как пояс в Baubles.§7
 item.personalCloakingDevice.tooltip.1=§aРасходует 10,000EU/t для обеспечения невидимости.§7
@@ -1889,20 +1889,20 @@ item.SlowBuildingRing.name=§eSlow Building Ring§7
 item.SlowBuildingRing.tooltip.0=§aWorn as a Ring within Baubles. Prevents you from sprinting.§7
 item.SlowBuildingRing.tooltip.1=§aMovement speed reduced to crouch speed.§7
 item.SlowBuildingRing.tooltip.2=§aPress shift while worn to toggle crouch on/off.§7
-item.itemBufferCore1.name=Energy Core [ULV].
-item.itemBufferCore2.name=Energy Core [LV].
-item.itemBufferCore3.name=Energy Core [MV].
-item.itemBufferCore4.name=Energy Core [HV].
-item.itemBufferCore5.name=Energy Core [EV].
-item.itemBufferCore6.name=Energy Core [IV].
-item.itemBufferCore7.name=Energy Core [LuV].
-item.itemBufferCore8.name=Energy Core [ZPM].
-item.itemBufferCore9.name=Energy Core [UV].
-item.itemBufferCore10.name=Energy Core [MAX].
+item.itemBufferCore1.name=Энергетическое ядро [ULV]
+item.itemBufferCore2.name=Энергетическое ядро [LV]
+item.itemBufferCore3.name=Энергетическое ядро [MV]
+item.itemBufferCore4.name=Энергетическое ядро [HV]
+item.itemBufferCore5.name=Энергетическое ядро [EV]
+item.itemBufferCore6.name=Энергетическое ядро [IV]
+item.itemBufferCore7.name=Энергетическое ядро [LuV]
+item.itemBufferCore8.name=Энергетическое ядро [ZPM]
+item.itemBufferCore9.name=Энергетическое ядро [UV]
+item.itemBufferCore10.name=Энергетическое ядро [MAX]
 item.itembookgt.name=§oТепловой бойлер - руководство
 
 // Everglade Items
-item.everglades.trigger.name=§6Alkalus Disk [§cActivated§6]
+item.everglades.trigger.name=§6Alkalus диск [§cАктивирован§6]
 
 
 
@@ -1914,9 +1914,9 @@ item.everglades.trigger.name=§6Alkalus Disk [§cActivated§6]
 tile.blockRainforestOakLog.name=Дуб тропический
 tile.blockRainforestOakLeaves.name=Дубовые листья
 tile.blockRainforestOakSapling.name=Сажене дуба тропического
-tile.blockPineLogLog.name=Pine Log
-tile.blockPineLeaves.name=Pine Leaves
-tile.blockPineSapling.name=Pine Sapling
+tile.blockPineLogLog.name=Сосновая древесина
+tile.blockPineLeaves.name=Сосновая листва
+tile.blockPineSapling.name=Саженец сосны
 
 //TC Stuff
 tile.blockFastAlchemyFurnace.0.name=Сломан
@@ -2096,12 +2096,12 @@ tile.blockProjectBench.name=Project Table
 tile.blockTradeBench.name=Trade Bench
 tile.blockModularity.name=Modularity Bench
 tile.blockBlackGate.name=Wither Cage
-tile.blockTankXpConverter.name=Experience Converter
+tile.blockTankXpConverter.name=Конвертер опыта
 
 //Everglades Blocks
-tile.blockDarkWorldPortal.name=A Glimpse of the Future
-tile.blockDarkWorldGround.name=Unstable Earth
-tile.blockDarkWorldGround2.name=Polluted Soil
+tile.blockDarkWorldPortal.name=Взгляд в будущее
+tile.blockDarkWorldGround.name=Нестабильная Земля
+tile.blockDarkWorldGround2.name=Загрязненная почва
 tile.blockDarkWorldGround2.2.name=Highly Polluted Soil
 tile.blockDarkWorldPortalFrame.name=Containment Frame
 
@@ -2147,23 +2147,23 @@ item.dustImpureTrinium.name=Неочищенная кучка триниевой
 item.dustPureTrinium.name=Очищенная кучка триниевой пыли
 
 //Added 1/7/18
-entity.WiseVillager.name=Wise Villager
-tile.blockMobSpawnerEx.0.name=Monster Spawner
-tile.blockMobSpawnerEx.1.name=Monster Spawner
-tile.blockMobSpawnerEx.2.name=Monster Spawner
-tile.blockMobSpawnerEx.3.name=Monster Spawner
-tile.blockMobSpawnerEx.4.name=Monster Spawner
-tile.blockMobSpawnerEx.5.name=Monster Spawner
-tile.blockMobSpawnerEx.6.name=Monster Spawner
-tile.blockMobSpawnerEx.7.name=Monster Spawner
-tile.blockMobSpawnerEx.8.name=Monster Spawner
-tile.blockMobSpawnerEx.9.name=Monster Spawner
-tile.blockMobSpawnerEx.10.name=Monster Spawner
-tile.blockMobSpawnerEx.11.name=Monster Spawner
-tile.blockMobSpawnerEx.12.name=Monster Spawner
-tile.blockMobSpawnerEx.13.name=Monster Spawner
-tile.blockMobSpawnerEx.14.name=Monster Spawner
-tile.blockMobSpawnerEx.15.name=Monster Spawner
+entity.WiseVillager.name=Мудрый житель
+tile.blockMobSpawnerEx.0.name=Спавнер монстров
+tile.blockMobSpawnerEx.1.name=Спавнер монстров
+tile.blockMobSpawnerEx.2.name=Спавнер монстров
+tile.blockMobSpawnerEx.3.name=Спавнер монстров
+tile.blockMobSpawnerEx.4.name=Спавнер монстров
+tile.blockMobSpawnerEx.5.name=Спавнер монстров
+tile.blockMobSpawnerEx.6.name=Спавнер монстров
+tile.blockMobSpawnerEx.7.name=Спавнер монстров
+tile.blockMobSpawnerEx.8.name=Спавнер монстров
+tile.blockMobSpawnerEx.9.name=Спавнер монстров
+tile.blockMobSpawnerEx.10.name=Спавнер монстров
+tile.blockMobSpawnerEx.11.name=Спавнер монстров
+tile.blockMobSpawnerEx.12.name=Спавнер монстров
+tile.blockMobSpawnerEx.13.name=Спавнер монстров
+tile.blockMobSpawnerEx.14.name=Спавнер монстров
+tile.blockMobSpawnerEx.15.name=Спавнер монстров
 description.villager.profession.miscutils.banker=Банкир
 description.villager.profession.miscutils.technician=GT техник
 description.villager.profession.miscutils.trader=Торговец рудой
@@ -2866,11 +2866,11 @@ item.particle.base.Unknown.name=Неизвестная частица
 
 //Added 12/1/19
 
-tile.playerDoorGlass.name=Glass Auto-Door
-tile.playerDoorCactus.name=Cactus Auto-Door
-tile.playerDoorIce.name=Ice Auto-Door
-tile.playerDoorIron.name=Iron Auto-Door
-tile.playerDoorWood.name=Wooden Auto-Door
+tile.playerDoorGlass.name=Стеклянная автоматическая дверь
+tile.playerDoorCactus.name=Кактусовая автоматическая дверь
+tile.playerDoorIce.name=Ледяная автоматическая дверь
+tile.playerDoorIron.name=Железная автоматическая дверь
+tile.playerDoorWood.name=Деревянная автоматическая дверь
 
 //Added 4/2/19
 
@@ -2940,12 +2940,12 @@ tile.Block of Teflon.name=Тефлоновый блок
 item.particle.ion.Aluminium.name=Ион алюминия
 item.particle.ion.Caesium.name=Ион цезия
 
-item.GTPP.MonsterKiller.Enderman.name=Enderman Killer
-item.GTPP.MonsterKiller.Spider.name=Spider Killer
-item.GTPP.MonsterKiller.Skeleton.name=Skeleton Killer
-item.GTPP.MonsterKiller.Creeper.name=Creeper Killer
-item.GTPP.MonsterKiller.Zombie.name=Zombie Killer
-item.GTPP.MonsterKiller.Hellish.name=Nether Mob Killer
+item.GTPP.MonsterKiller.Enderman.name=Убийца Эндермена
+item.GTPP.MonsterKiller.Spider.name=Убийца Пауков
+item.GTPP.MonsterKiller.Skeleton.name=Убийца Скелетов
+item.GTPP.MonsterKiller.Creeper.name=Убийца Криперов
+item.GTPP.MonsterKiller.Zombie.name=Убийца Зомби
+item.GTPP.MonsterKiller.Hellish.name=Убийца Адских мобов
 
 item.itemIngotRunite.name=Рунитовый слиток
 item.itemDustRunite.name=Рунитовая пыль
@@ -3082,7 +3082,7 @@ item.itemSpringWatertightSteel.name=Пружина из водонепрониц
 item.itemSpringEglinSteel.name=Пружина из эглиновой стали
 
 item.itemSmallSpringMaragingSteel250.name=Маленькая пружина из мартенситностареющей стали 250
-item.itemSmallSpringNichrome.name=Small Nichrome Spring
+item.itemSmallSpringNichrome.name=Маленькая нихромовая пружина
 item.itemSmallSpringStaballoy.name=Маленькая стабаллой пружина
 item.itemSmallSpringBlackSteel.name=Маленькая пружина из чёрной стали
 item.itemSmallSpringBlackTitanium.name=Маленькая пружина из чёрного титана
@@ -3098,11 +3098,11 @@ item.itemFineWireQuantum.name=Тонкий квантум провод
 
 item.itemHeavyPlatePotin.name=Плотная потиновая пластина
 item.itemHeavyPlateWatertightSteel.name=Плотная пластина из водонепроницаемой стали
-item.itemHeavyPlateBronze.name=Heavy Bronze Plate
-item.itemHeavyPlateOsmiridium.name=Heavy Osmiridium Plate
+item.itemHeavyPlateBronze.name=Плотная бронзовая пластина
+item.itemHeavyPlateOsmiridium.name=Плотная осмиридиевая пластина
 item.itemHeavyPlateQuantum.name=Плотная квантум пластина
 item.itemHeavyPlateBlackSteel.name=Плотная пластина из чёрной стали
-item.itemHeavyPlateStainlessSteel.name=Heavy Stainless Steel Plate
+item.itemHeavyPlateStainlessSteel.name=Плотная пластина из нержавеющей стали
 item.itemHeavyPlateEglinSteel.name=Плотная пластина из эглиновой стали
 item.itemHeavyPlateMaragingSteel300.name=Плотная пластина из мартенситностареющей стали 300
 item.itemHeavyPlateTalonite.name=Плотная талонитовая пластина
@@ -3145,7 +3145,7 @@ tile.blockInhibitorObelisk.name=Inhibitor Obelisk
 tile.Battlesign.name=Battlesign
 tile.blockMagicBox.name=Magic Box
 tile.blockManaPod.name=Mana Pod Stem
-tile.buildToolBlock.name=Tool Block
+tile.buildToolBlock.name=Блок инструментов
 tile.blockRedPlasma.name=Red Plasma Block
 tile.pipeBlock.name=Труба
 item.null.name=Null Item report it on github
@@ -3197,7 +3197,7 @@ item.itemDustTinyRareEarthIII.name=Крошечная кучка редкозе�
 item.itemDustSmallRareEarthIII.name=Маленькая кучка редкоземельной (III) пыли
 
 //Added 16/10/19
-item.BioRecipeSelector.name=Programmed Bio Circuit
+item.BioRecipeSelector.name=Запрограммированная био схема
 item.FermentationBase.name=Капсула с ферментационной основой
 item.ureamix.name=Капсула с смесью мочевины
 item.liquidresin.name=Капсула с жидкой смолой
@@ -3213,18 +3213,18 @@ item.BasicAgrichemItem.6.name=Целлюлозное золотисто-кори
 item.BasicAgrichemItem.7.name=Красное целлюлозное волокно
 item.BasicAgrichemItem.8.name=Компост
 item.BasicAgrichemItem.9.name=Деревянная пеллета
-item.BasicAgrichemItem.10.name=Wood Brick
-item.BasicAgrichemItem.11.name=Cellulose Pulp
+item.BasicAgrichemItem.10.name=Деревянный кирпич
+item.BasicAgrichemItem.11.name=Целлюлозная масса
 item.BasicAgrichemItem.12.name=Био волокно
 item.BasicAgrichemItem.13.name=Catalyst Carrier
 item.BasicAgrichemItem.14.name=Зелёный металлический катализатор
 item.BasicAgrichemItem.15.name=Альгиновая кислота
-item.BasicAgrichemItem.16.name=Alumina
+item.BasicAgrichemItem.16.name=Глинозём
 item.BasicAgrichemItem.17.name=Алюминиевая пеллета
 item.BasicAgrichemItem.18.name=Алюминат натрия
 item.BasicAgrichemItem.19.name=Гидроксид натрия
 item.BasicAgrichemItem.20.name=Карбонат натрия
-item.BasicAgrichemItem.21.name=Lithium Chloride
+item.BasicAgrichemItem.21.name=Хлорид лития
 
 //Added 24/10/19
 item.butanol.name=Капсула бутанола
@@ -3236,7 +3236,7 @@ fluidHotWater.name=Горячая вода
 
 
 //Added 11/12/19
-item.itemHotIngotTitanium.name=Hot Titanium Ingot
+item.itemHotIngotTitanium.name=Раскалённый титановый слиток
 item.OilHeavy.name=Heavy Oil Cell
 item.UnsymmetricalDimethylhydrazine.name=Капсула 1,1-диметилгидразина
 item.benzene.name=Капсула бензола
@@ -3267,14 +3267,14 @@ item.BasicGenericChemItem.6.name=Розовый металлический ка�
 
 //Added 23/03/20
 item.BasicMetaFood.0.name=Сырое человеческое мясо
-item.BasicMetaFood.1.name=Cooked Human Meat
+item.BasicMetaFood.1.name=Приготовленное человеческое мясо
 item.BasicMetaFood.2.name=Сырая конина
-item.BasicMetaFood.3.name=Cooked Horse Meat
+item.BasicMetaFood.3.name=Приготовленная конина
 item.BasicMetaFood.4.name=Сырое мясо волка
-item.BasicMetaFood.5.name=Cooked Wolf Meat
+item.BasicMetaFood.5.name=Приготовленное мясо волка
 item.BasicMetaFood.6.name=Сырое мясо оцелота
-item.BasicMetaFood.7.name=Cooked Ocelot Meat
-item.BasicMetaFood.8.name=Blaze Flesh
+item.BasicMetaFood.7.name=Приготовленное мясо оцелота
+item.BasicMetaFood.8.name=Пылающая плоть
 
 item.itemCellNaquadahFuel.name=Капсула наквадахового топлива
 item.itemCellEnrichedNaquadahFuel.name=Капсула топлива из обогащённого наквадаха
@@ -3282,14 +3282,14 @@ item.itemCellNaquadriaFuel.name=Капсула наквадриевого топ
 item.boricacid.name=Капсула борной кислоты
 item.hydrochloricacid.name=Капсула соляной кислоты
 
-item.BasicAlgaeItem.name=Breedable Algae
-item.BasicAlgaeItem.0.name=Breedable Algae
-item.BasicAlgaeItem.1.name=Breedable Algae
-item.BasicAlgaeItem.2.name=Breedable Algae
-item.BasicAlgaeItem.3.name=Breedable Algae
-item.BasicAlgaeItem.4.name=Breedable Algae
-item.BasicAlgaeItem.5.name=Breedable Algae
-item.BasicAlgaeItem.6.name=Breedable Algae
+item.BasicAlgaeItem.name=Размножающиеся водоросли
+item.BasicAlgaeItem.0.name=Размножающиеся водоросли
+item.BasicAlgaeItem.1.name=Размножающиеся водоросли
+item.BasicAlgaeItem.2.name=Размножающиеся водоросли
+item.BasicAlgaeItem.3.name=Размножающиеся водоросли
+item.BasicAlgaeItem.4.name=Размножающиеся водоросли
+item.BasicAlgaeItem.5.name=Размножающиеся водоросли
+item.BasicAlgaeItem.6.name=Размножающиеся водоросли
 
 //Added 30/03/20
 item.milledChalcopyrite.name= Обработанный халькопирит
@@ -3308,11 +3308,11 @@ item.BasicGenericChemItem.8.name=Измельчающий шарик из тал
 //Added 31/03/20
 item.BasicGenericChemItem.9.name=Пыль этилата натрия
 item.BasicGenericChemItem.10.name=Пыль этилксантогената натрия
-item.BasicGenericChemItem.11.name=Potassium Ethyl Xanthate Dust
+item.BasicGenericChemItem.11.name=Пыль этилксантогената натрия
 item.BasicGenericChemItem.12.name=Пыль гидроксида калия
 item.CarbonDisulfide.name=Капсула сероуглерода
 item.HydrogenSulfide.name=Капсула сероводорода
-item.BasicAgrichemItem.24.name=Pinecone
+item.BasicAgrichemItem.24.name=Сосновая шишка
 item.BasicAgrichemItem.25.name=Crushed Pine Materials
 item.pineoil.name=Капсула соснового скипидара
 
@@ -3341,7 +3341,7 @@ entity.miscutils.AusOctopus.name=Octopus
 container.EggBox=Ящик для инкубации яиц
 
 //Added 24/05/20
-container.VolumetricFlaskSetter=Volumetric Flask Configurator
+container.VolumetricFlaskSetter=Конфигуратор мерной колбы
 
 //Added 26/05/20
 item.itemIngotLaurenium.name=Лоуренсиевый слиток
@@ -3382,10 +3382,10 @@ tile.Block of Botmium.name=Ботмиевый блок
 tile.Botmium Frame Box.name=Ботмиевая рама
 
 //Added 29/05/20
-item.itemBasicTurbine.name=Basic Turbine
-item.itemBasicTurbine_0.name=Basic Iron Turbine
-item.itemBasicTurbine_1.name=Basic Bronze Turbine
-item.itemBasicTurbine_2.name=Basic Steel Turbine
+item.itemBasicTurbine.name=Базовая турбина
+item.itemBasicTurbine_0.name=Базовая железная турбина
+item.itemBasicTurbine_1.name=Базовая бронзовая турбина
+item.itemBasicTurbine_2.name=Базовая стальная турбина
 
 interaction.voidexcess.enabled=Уничтожение излишек вкл.
 interaction.voidexcess.disabled=Уничтожение излишек выкл.
@@ -3429,9 +3429,9 @@ item.itemCellThorium232.name=Капсула тория-232
 item.itemCellLithiumTetrafluoroberyllate.name=Капсула тетрафторобериллата лития
 item.itemCellBurntReactorFuelI.name=Капсула отработанного топлива LFTR I
 item.itemCellBurntReactorFuelII.name=Капсула отработанного топлива LFTR II
-item.itemDustTinyIndium.name=Tiny Indium Dust
-item.itemDustSmallIndium.name=Small Indium Dust
-item.itemDustIndium.name=Indium Dust
+item.itemDustTinyIndium.name=Крошечная кучка индиевой пыли
+item.itemDustSmallIndium.name=Маленькая кучка индиевой пыли
+item.itemDustIndium.name=Индиевая пыль
 item.itemDustTinyBerylliumHydroxide.name=Крошечная пыль гидроксида бериллия
 item.itemDustSmallBerylliumHydroxide.name=Маленькая кучка пыли гидроксида бериллия
 item.itemDustBerylliumHydroxide.name=Пыль гидроксида бериллия
