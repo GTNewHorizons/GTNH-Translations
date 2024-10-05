@@ -3801,7 +3801,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcQ.name=来自空间中的中子素
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcQ.desc=现在让我们来制作宇宙中子态素,它大量用于游戏后期物品的制造.%n离心黑钚有几率获得中子态素尘埃. 再通过聚爆压缩机将其制成中子态素颗粒.%n%n将颗粒再次聚爆最终可获得中子态素锭.%n%n[note]无尽贪婪的中子态素锭和GT的宇宙中子态素锭共用矿辞,它们不同于GT的中子锭.[/note]
 
 # Quest: Quantum Mechanics is Hot
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiw.name=再来一次
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiw.name=量子力学有点热
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiw.desc=量子计算机(QC)根据机器的长度有2到24个计算机箱。每个计算机箱有四个插槽，可以放置电路板(用于产生热量和计算)或散热片(用于散热).虽然概念上类似于核反应堆,但组件的具体位置并不重要.每个计算机箱都是独立的,这意味着不可能有一个计算机箱全部放电路.另一个计算机箱全部放散热片.%n%n计算机箱的计算能力是所有组件单独计算的总和.例如,两个APU(T3)和两个冷却核心的计算能力为 240 + 240 + 0 + 0 = 480 基础算力.然而,计算能力会根据超频和超压值显著变化：%n%n[note]算力 = 基础算力 * (1 + 超频^2) / (1 + (超频 - 超压)^2)[/note]%n%n计算机箱的热量介于 0 和 10,000 之间,可以通过量子计算机的界面或便携式扫描仪查看.如果组件的热量超过其限度,该组件会被破坏.如果在热量大于 2000 时拆除或用扳手拆除计算机箱,里面的组件也会被破坏.如果热量超过 10,000,量子计算机会爆炸,但没有组件的热限度超过这个值,因此不必太担心你的基地因此被夷为平地.%n%n[note]热量 α 热常数 * 超频 * 超压^2[/note]%n%n每个计算机箱的电力消耗为 1A ZPM,无论内部组件如何.此外,量子计算机本身也消耗 1A ZPM.然而，EU/t 值与超频和超压直接成正比,这些值会随着你解锁更高级电路而增加.确保在研究站之前打开量子计算机,并且只在需要时开启.[note] EU/t = 131,072 * 超频 * 超压 * (机架数量 + 1)[/note]%n%n为了让你入门,制作4个APU(T3)和4个冷却核心.在两个计算机箱中分别放入两种组件,量子计算机将安全地产生 1,920 算力,只消耗 393,215 EU/t(0.75A UV),这足以进行湿件主机的研究.如果你想进一步提高计算能力,可以将超频和超压值分别调整为 1.44 和 1.03,这样可以生成 2,526 算力,代价是消耗 583,217 EU/t(1.11A UV).%n%n如果制造 APU 过于麻烦,可以尝试使用晶体处理器主机,但你需要为它们设置不同的超频和超压值以获得最佳性能.这适用于所有独特的电路和散热片组合.
 
 # Quest: Fluids for Copying Cultures
@@ -4290,7 +4290,7 @@ betterquesting.quest.QO1gudFvTtKgWe9942dW3Q.desc=Eternal coils? Perfect time for
 
 # Quest: Convergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=维度收敛
-betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.desc=在长时间运行你的DTPF[note](8小时)[/note]之后,可以让多维空间完美对齐.%n%n凭借你新获得的技术,你现在可以完美同步地利用这些空间,让你的等离子锻炉以难以置信的速度运行.%n%n使用[note]超维校准矩阵[/note]可以让DTPF以完美超频的方式运行.要做到这一点,您需要让DTPF达到最大效率状态,而额外的电力成本可以通过使用更多相同的催化剂来抵消.%n%n总的来说,它的效率更高,而且完全值得.%n%n这个过程极其耗费催化剂.确保生产足够的催化剂来维持它保持运转.%n%n对于没有催化剂的配方,必须在GUI中右击维度收敛按钮来指定催化剂,否则将默认为粗制超维度催化剂.[/note]%n%n[note]写给好奇者的数学计算：%n%n为了弄清楚后台到底发生了什么.下面以一个例子来解释额外催化剂消耗值是如何计算的：%n%n所选的示例配方是使用平凡超维度催化剂的熔融中子配方.以64AUMV(8,589,934,592EU/t)运行.%n%n在不使用超频或DTPF催化剂减免的情况下.每次配方运行使用了14,753升平凡超维度催化剂和36,484,545,600EU.催化剂减免触发后.催化剂用量减半.即7,376.5升催化剂.四舍五入后为7,376升.由于机器配备了64AUMV.配方超频3次.即每个配方实际使用36,484,545,600*2^3=291,876,364,800EU.%n%n知道了OC的数量和配方的基本电压.就可以计算出每个配方在有完美OC和没有完美OC的情况下所需EU的差值.即291,876,364,800-36,484,545,600=255,391,819,200的额外EU使用(由于不完美OC而多使用的EU).%n%n要得出所需的额外催化剂值.必须将这一额外的EU值除以相关催化剂的能量密度.在本例中为平凡超维度催化剂.%n%n除数等于255,391,819,200EU/66,768,460EU/L=3,825.037L.四舍五入为每个配方额外需要3,825L平凡超维度催化剂.在最后一步中.该值必须乘以0.5.因为它会受到催化剂减免的影响.这意味着配方中额外添加的催化剂总量为3,825升*0.5=1,912.5升.四舍五入为1,912升.%n%n用一个公式来概括：%n每个配方的额外催化剂数量=(B*((2^x)-1))/2L%n其中：%nB是配方的基本EU消耗%nx是超频次数%nL是相关催化剂的EU/L[/note]%n
+betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.desc=在长时间运行你的DTPF[note](8小时)[/note]之后,可以让多维空间完美对齐.%n%n凭借你新获得的技术,你现在可以完美同步地利用这些空间,让你的等离子锻炉以难以置信的速度运行.%n%n使用[note]超维校准矩阵[/note]可以让DTPF以无损超频的方式运行.要做到这一点,您需要让DTPF达到最大效率状态,而额外的电力成本可以通过使用更多相同的催化剂来抵消.%n%n总的来说,它的效率更高,而且完全值得.%n%n这个过程极其耗费催化剂.确保生产足够的催化剂来维持它保持运转.%n%n对于没有催化剂的配方,必须在GUI中右击维度收敛按钮来指定催化剂,否则将默认为粗制超维度催化剂.[/note]%n%n[note]写给好奇者的数学计算：%n%n为了弄清楚后台到底发生了什么.下面以一个例子来解释额外催化剂消耗值是如何计算的：%n%n所选的示例配方是使用平凡超维度催化剂的熔融中子配方.以64AUMV(8,589,934,592EU/t)运行.%n%n在不使用超频或DTPF催化剂减免的情况下.每次配方运行使用了14,753升平凡超维度催化剂和36,484,545,600EU.催化剂减免触发后.催化剂用量减半.即7,376.5升催化剂.四舍五入后为7,376升.由于机器配备了64AUMV.配方超频3次.即每个配方实际使用36,484,545,600*2^3=291,876,364,800EU.%n%n知道了OC的数量和配方的基本电压.就可以计算出每个配方在有完美OC和没有完美OC的情况下所需EU的差值.即291,876,364,800-36,484,545,600=255,391,819,200的额外EU使用(由于不完美OC而多使用的EU).%n%n要得出所需的额外催化剂值.必须将这一额外的EU值除以相关催化剂的能量密度.在本例中为平凡超维度催化剂.%n%n除数等于255,391,819,200EU/66,768,460EU/L=3,825.037L.四舍五入为每个配方额外需要3,825L平凡超维度催化剂.在最后一步中.该值必须乘以0.5.因为它会受到催化剂减免的影响.这意味着配方中额外添加的催化剂总量为3,825升*0.5=1,912.5升.四舍五入为1,912升.%n%n用一个公式来概括：%n每个配方的额外催化剂数量=(B*((2^x)-1))/2L%n其中：%nB是配方的基本EU消耗%nx是超频次数%nL是相关催化剂的EU/L[/note]%n
 
 # Quest: Black Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.name=黑矮星物质
@@ -4302,11 +4302,11 @@ betterquesting.quest.fj2VzJf2Rgev7uY-h3CkJQ.desc=到目前为止,你改进超维
 
 # Quest: Saving on SpaceTime
 betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.name=节省你的时空
-betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.desc=制造时空是一个相当大的挑战,不是吗?你绝对应该考虑升级你的部件装配线来节省一些时间.%n%n[note]你知道可以共享部件装配线外壳来节省材料吗?只需将一个部件装配线倒置即可.%n%n部件装配线将为低于其最高处理等级的配方执行完美超频.[/note]
+betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.desc=制造时空是一个相当大的挑战,不是吗?你绝对应该考虑升级你的部件装配线来节省一些时间.%n%n[note]你知道可以共享部件装配线外壳来节省材料吗?只需将一个部件装配线倒置即可.%n%n部件装配线将为低于其最高处理等级的配方执行无损超频.[/note]
 
 # Quest: Subspace Cooling
 betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.name=亚空间冷却
-betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=冷却金属锭是比熔炼金属锭更大的挑战.%n%n幸运的是,用新材料强化一些机械方块,可以允许你向其注入先进冷却剂,这些冷却剂可以捕获微型时空中的极端热量,帮助你更快地冷却金属锭.%n%n通过亚空间冷却,你可以让巨型真空冷冻机实现完美超频......但需要付出一定的代价.%n%n第1级将以[warn]7500L/s[/warn]的速度消耗液态时空,并允许1次完美超频.%n%n[note]这个代价非常高,但不会改变,在运行每个配方时都是一样的.因此,在冷却金属锭时要有所选择.%n%n配方速度越快,成本效率越高,因此要找到自己的最佳平衡点.[/note]%n%n无尽冷却机械方块取代了防冻机械方块,因此你不必担心会损坏你的设置与布局.
+betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=冷却金属锭是比熔炼金属锭更大的挑战.%n%n幸运的是,用新材料强化一些机械方块,可以允许你向其注入先进冷却剂,这些冷却剂可以捕获微型时空中的极端热量,帮助你更快地冷却金属锭.%n%n通过亚空间冷却,你可以让巨型真空冷冻机实现无损超频......但需要付出一定的代价.%n%n第1级将以[warn]7500L/s[/warn]的速度消耗液态时空,并允许1次无损超频.%n%n[note]这个代价非常高,但不会改变,在运行每个配方时都是一样的.因此,在冷却金属锭时要有所选择.%n%n配方速度越快,成本效率越高,因此要找到自己的最佳平衡点.[/note]%n%n无尽冷却机械方块取代了防冻机械方块,因此你不必担心会损坏你的设置与布局.
 
 # Quest: Tier 12 (UMV)
 betterquesting.quest.jlXvqqgIQ_Crha2tW0gEQg.name=第12阶段(UMV)
@@ -4334,7 +4334,7 @@ betterquesting.quest.v5GltE2BTW-Me_rEqy5uFg.desc=从现在开始,你将被极其
 
 # Quest: Fuwusion MK5
 betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.name=核聚变,但是MK5
-betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=见识到调律源金的生产速度如此之慢之后,你可能想要升级一下你的聚变设备了.%n%n和它的前身MK4一样,这个版本也支持完美超频.希望这能让你的亚稳态鿫问题变得更容易解决一些.%n%n[note]如果你不想让它处理1tick配方时浪费产能,可以在GUI中设置批处理大小.[/note]%n
+betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=见识到调律源金的生产速度如此之慢之后,你可能想要升级一下你的聚变设备了.%n%n和它的前身MK4一样,这个版本也支持无损超频.希望这能让你的亚稳态鿫问题变得更容易解决一些.%n%n[note]如果你不想让它处理1tick配方时浪费产能,可以在GUI中设置批处理大小.[/note]%n
 
 
 ## Quest Line: Endgame Goals
@@ -4825,7 +4825,7 @@ betterquesting.quest.-MexGhcYQ0OUrr5xgriDXQ.desc=In light of your thaumaturgical
 
 # Quest: Relocator
 betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.name=定位器
-betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.desc=定位器允许你传送到已标记的位置，甚至可以跨纬度。%n%n因为耗电量非常大，所以建议使用重力胸甲或其他什么能源供电。
+betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.desc=定位器允许你传送到已标记的位置，甚至可以跨纬度。%n%n[note]因为耗电量非常大，所以建议使用重力胸甲或其他什么能源供电。[/note]
 
 # Quest: The Power of Endermen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.name=末影人的力量
@@ -4905,7 +4905,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACpA.desc=撬棍有RC版本跟GT版本(�
 
 # Quest: Minecart
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACpQ.name=矿车
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpQ.desc=当你做好第一台车,旅程就可以开始了.%n%n好吧,还不行,你还需要先准备一些轨道.%n%n§3这里是任务书有限公司. 我们不保证矿车或火车的实用性. 而且当你有了锤子和背包后,一次性掏空一个矿脉不费吹灰之力.%n%n§c§l警告: §r§c不受保护的矿车可能因雷击而脱轨.用玻璃遮盖该区域,以防矿车消失.%n%n另外,请确保将矿车放在一个区块中,或使用覆盖整个矿车工作区域的区块加载器.加载/卸载区块可能会导致矿车消失或复制.%n%n§3只有在整乐子的时候才需要考虑这些，这些功能都有更好的替代方案，包括但不限于长距离运输管道。过多的矿车和火车会给服务器造成巨大延迟，您可能会被要求将火车切换成其他方式。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACpQ.desc=当你做好第一台车,旅程就可以开始了.%n%n好吧,还不行,你还需要先准备一些轨道.%n%n[note]这里是任务书有限公司. 我们不保证矿车或火车的实用性. 而且当你有了锤子和背包后,一次性掏空一个矿脉不费吹灰之力.[/warn]%n%n[warn]警告: 不受保护的矿车可能因雷击而脱轨.用玻璃遮盖该区域,以防矿车消失.[/warn]%n%n[warn]另外,请确保将矿车放在一个区块中,或使用覆盖整个矿车工作区域的区块加载器.加载/卸载区块可能会导致矿车消失或复制.[/warn]%n%n[note]只有在整乐子的时候才需要考虑这些，这些功能都有更好的替代方案，包括但不限于长距离运输管道。过多的矿车和火车会给服务器造成巨大延迟，您可能会被要求将火车切换成其他方式。[/note]
 
 # Quest: The Transcontinental Railroad
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYg.name=横贯铁路
@@ -5065,7 +5065,7 @@ betterquesting.quest.iWmU5h_ZSPqAcObmxgW5bw.desc=你是否厌倦了每次等待�
 
 # Quest: Teleporter
 betterquesting.quest.tJdwTeS6TOOFACQhNuUvEw.name=传送机
-betterquesting.quest.tJdwTeS6TOOFACQhNuUvEw.desc=IC2传送机允许在两个已连接的传送机之间传送.%n由于巨大的能量需求,它需要能量存储方块直接相邻.%n%n%n§3能量需求由两个传送机间的距离和物品栏里的物品数量决定.%n据官方wiki说传送机bug很多.
+betterquesting.quest.tJdwTeS6TOOFACQhNuUvEw.desc=IC2传送机允许在两个已连接的传送机之间传送.%n由于巨大的能量需求,它需要能量存储方块直接相邻.%n%n[note]能量需求由两个传送机间的距离和物品栏里的物品数量决定[/note].%n%n[note]据官方wiki说传送机bug很多.[/note]
 
 
 ## Quest Line: ...Without Dying
@@ -6145,7 +6145,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFQ.desc=有了真空冷冻机之后,你
 
 # Quest: Playing With the Big Boys, Chemically
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.name=大男孩,咱们来玩玩化工吧
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.desc=该设施将为你处理稍后需要的某些化学配方.比如火箭燃料. 注意,只有达到配方所需化工厂等级才能运行相应配方.%n%n而且化工厂需要大量资源,开始采矿吧! 某些配方需要催化剂,将它们放在催化剂仓内. 催化剂消耗耐久,包括看起来没有耐久的.%n%n§3碳化硅可在搅拌机中获得,不一定需要合金冶炼炉.§r%n%n可用的固体外壳:(决定可处理的配方等级)%n1 强化青铜机械方块%n2 脱氧钢机械方块%n3 强化铝机械方块%n4 洁净不锈钢机械方块%n5 加强钛机械方块%n6 强化钨钢机械方块%n7 强化劳伦姆合金机械方块%n8 强化博特姆合金机械方块%n%n可用的机械方块:(决定仓室/总线的等级上限)%nULV-UHV机械方块(UHV即可解锁所有仓室/总线)%n%n可用的管道方块:(从2并行,100％催化剂消耗几率开始,每级管道方块提升+2并行,-20％催化剂消耗几率)%n青铜%n钢%n钛%n钨钢%n%n从白铜线圈到永恒线圈,所有等级线圈都可用.每个等级提速+50％,初始速度(白铜线圈)为50％.%n%n另外:使用觉醒龙锭及以上等级的线圈+钨钢管道方块,不会消耗催化剂耐久.%n%n§4请注意不要参考NEI预览化工厂,它是错的.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.desc=该设施将为你处理稍后需要的某些化学配方.比如火箭燃料. 注意,只有达到配方所需化工厂等级才能运行相应配方.%n%n而且化工厂需要大量资源,开始采矿吧! 某些配方需要催化剂,将它们放在催化剂仓内. 催化剂消耗耐久,包括看起来没有耐久的.%n%n[note]碳化硅可在搅拌机中获得,不一定需要合金冶炼炉.[/note]%n%n可用的固体外壳:(决定可处理的配方等级)%n1 强化青铜机械方块%n2 脱氧钢机械方块%n3 强化铝机械方块%n4 洁净不锈钢机械方块%n5 加强钛机械方块%n6 强化钨钢机械方块%n7 强化劳伦姆合金机械方块%n8 强化博特姆合金机械方块%n%n可用的机械方块:(决定仓室/总线的等级上限)%nULV-UHV机械方块(UHV即可解锁所有仓室/总线)%n%n可用的管道方块:(从2并行,100％催化剂消耗几率开始,每级管道方块提升+2并行,-20％催化剂消耗几率)%n青铜%n钢%n钛%n钨钢%n%n从白铜线圈到永恒线圈,所有等级线圈都可用.每个等级提速+50％,初始速度(白铜线圈)为50％.%n%n[note]另外:使用觉醒龙锭及以上等级的线圈+钨钢管道方块,不会消耗催化剂耐久.[/note]%n%n[warn]请注意不要参考NEI预览化工厂,它是错的.[/warn]
 
 # Quest: Better Glass Upgrade, EV Glass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_A.name=§6§l更好的玻璃,升级:EV玻璃
@@ -6296,7 +6296,7 @@ betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.name=A Beginner's Guide to Particle 
 betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.desc=If you've built the Source Chamber already, you may have noticed that particles aren't produced as items, like GT++ ones are. %n%nInstead they're transmitted through Beamline Pipes from multi to multi, similar to real life.%n%nEach stream of particles transmitted, or "beam", has four properties:%n- §%n§%n§6Particle§r: the type of particle carried by the beam%n- §4Energy§r: the amount of energy the particles have%n§r- §9Focus§r: out of 100, how focused the beam is%n§r- §dAmount§r: a measure of the number of particles in the beam%n%nNote that you can see info about a multi's input and output beams by using a Tricorder on the controller.%n%nFor the recipes you'll be interested in, i.e. the ones that actually produce items, there'll be a threshold for allowed input beam energy, a minimum focus value, and an amount value which determines recipe time (more on that in the Target Chamber quest). %nTake a look some TC recipes for an example of this.%n%n%nHave a photon. To hang on your wall.
 
 # Quest: Synchrotron (No Relation to the Catalyst)
-betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.name=Synchrotron (No Relation to the Catalyst)
+betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.name=同步加速器(和那个催化剂没关系)
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.desc=To actually produce some light for photolithography, you'll need to accelerate your electrons in a Synchrotron. Like with the LINAC, providing it with coolant is necessary to keep it running.%n%nYou can increase the energy of the produced photons by increasing EU/t, or increasing the tier of all four Antenna Casings inside.%n%nTo improve focus, you can use a better coolant, and the output amount increases with both EU/t and antennae tier.%n%nYes, you need all four energy hatches.
 
 # Quest: Neutronium Compressor
@@ -6731,15 +6731,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTQ.desc=MV燃气轮机是苯的完美�
 
 # Quest: Diesel Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.name=§6§l柴油的力量
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.desc=MV内燃发电机燃烧轻燃油的速度比起LV版本更快,不过你可以将柴油自动化,并将其用作替代燃料,因为柴油更加强大.柴油可以说是现阶段可以实现自动化并产出大量能量的最简单且最高效的方式,而且如果你不断对其进行升级,它还可以持续供给你更多阶段的能源需求.%n%n另外,柴油可用作直升机背包的燃料,直升机背包是很棒的一种喷气背包类装备,它可以让你在基地内外自由移动.所以如果你有些柴油的话,强烈建议你做个直升机背包.%n%n§3此任务还可以解锁"摆脱死亡,游历四方"章节中的任务.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.desc=MV内燃发电机燃烧轻燃油的速度比起LV版本更快,不过你可以将柴油自动化,并将其用作替代燃料,因为柴油更加强大.柴油可以说是现阶段可以实现自动化并产出大量能量的最简单且最高效的方式,而且如果你不断对其进行升级,它还可以持续供给你更多阶段的能源需求.%n%n另外,柴油可用作直升机背包的燃料,直升机背包是很棒的一种喷气背包类装备,它可以让你在基地内外自由移动.所以如果你有些柴油的话,强烈建议你做个直升机背包.%n%n[note]此任务还可以解锁"摆脱死亡,游历四方"章节中的任务.[/note]
 
 # Quest: Fluid Regulator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.name=§6§l流体校准器
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.desc=涡轮需要精确控制流量,否则容易造成§4爆炸§r或浪费.  将流体校准器贴在连接到输入仓的管道上,控制进入涡轮的流量.想要提高流量,对准流体校准器的右侧,然后:%n%n1L-空手右键%n16L-手持螺丝刀右键%n256L-手持螺丝刀,Shift+右键%n%n想要降低流量,对准流体校准器的左侧,其余操作一致.%n%n请参考大型涡轮计算器和涡轮参数表设置流量(确认燃料后).在GTNH,这些数学计算就交给我们吧!至少在这个任务.%n%n§3按住Shift,空手右键校准器可以打开GUI,进行更精确的设置.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.desc=涡轮需要精确控制流量,否则容易造成[warn]爆炸[/warn]或浪费.  将流体校准器贴在连接到输入仓的管道上,控制进入涡轮的流量.想要提高流量,对准流体校准器的右侧,然后:%n%n1L-空手右键%n16L-手持螺丝刀右键%n256L-手持螺丝刀,Shift+右键%n%n想要降低流量,对准流体校准器的左侧,其余操作一致.%n%n请参考大型涡轮计算器和涡轮参数表设置流量(确认燃料后).在GTNH,这些数学计算就交给我们吧!至少在这个任务.%n%n[note]按住Shift,空手右键校准器可以打开GUI,进行更精确的设置.[/note]
 
 # Quest: Gas Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZg.name=§6§l大型燃气涡轮
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZg.desc=大型燃气涡轮相比于单方块燃气轮机,拥有更高的燃料效率,还可以通过升级消声仓来降低污染.%n%n你还需要消声仓、维护仓、输入仓和动力仓才能构建一台完整的多方块机器.别忘了流体校准器,用以控制多方块的输入流速!由于大型燃气涡轮每t需要的最佳流量远低于大型蒸汽涡轮所需的蒸汽流量,所以不需要太高级的流体校准器(目前LV就够了).%n%n每种涡轮材料都有特定的涡轮效率(效率越高,相同量的燃料获得的EU越多),而且只有燃料的通入速度与最佳流量匹配时,多方块才能达到此涡轮效率.%n%n再次重复,当你为涡轮提供超过最佳流速的燃料时(称之为超载状态),涡轮的输出电压提高,但燃料效率降低,同时最高输出电压取决于涡轮转子类型及其超载效率等级.对于燃气涡轮,超载效率等级1：最高超载150％,输出功率112％;超载效率等级2：最高超载300％,输出功率180％;超载效率等级3：最高超载450％,输出功率252％.越接近超载极限,损失的燃料效率越多.%n%n要得知最佳涡轮材料的信息,请看Discord频道中的大型涡轮计算器以及数据表格.%n%n§4以后版本中,大型燃气涡轮的输出功率将被限制在8192EU/t.要得到更高的输出,需要使用进阶燃气涡轮,它只能接受100kEU以上热值的燃料.%n%n译者注:也可以看看固体氧化物燃料电池MK-II(输出1A-LuV以上)或者特大燃气涡轮(输出无限制).%n%n%n%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZg.desc=大型燃气涡轮相比于单方块燃气轮机,拥有更高的燃料效率,还可以通过升级消声仓来降低污染.%n%n你还需要消声仓、维护仓、输入仓和动力仓才能构建一台完整的多方块机器.别忘了流体校准器,用以控制多方块的输入流速!由于大型燃气涡轮每t需要的最佳流量远低于大型蒸汽涡轮所需的蒸汽流量,所以不需要太高级的流体校准器(目前LV就够了).%n%n每种涡轮材料都有特定的涡轮效率(效率越高,相同量的燃料获得的EU越多),而且只有燃料的通入速度与最佳流量匹配时,多方块才能达到此涡轮效率.%n%n再次重复,当你为涡轮提供超过最佳流速的燃料时(称之为超载状态),涡轮的输出电压提高,但燃料效率降低,同时最高输出电压取决于涡轮转子类型及其超载效率等级.对于燃气涡轮,超载效率等级1：最高超载150％,输出功率112％;超载效率等级2：最高超载300％,输出功率180％;超载效率等级3：最高超载450％,输出功率252％.越接近超载极限,损失的燃料效率越多.%n%n要得知最佳涡轮材料的信息,请看Discord频道中的大型涡轮计算器以及数据表格.%n%n[warn]以后版本中,大型燃气涡轮的输出功率将被限制在8192EU/t.要得到更高的输出,需要使用进阶燃气涡轮,它只能接受100kEU以上热值的燃料.%n%n译者注:也可以看看固体氧化物燃料电池MK-II(输出1A-LuV以上)或者特大燃气涡轮(输出无限制).[/warn]
 
 # Quest: Standard Nuclear Fuel II: Naquadah
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaA.name=§b§l标准核燃料II:硅岩
@@ -6751,7 +6751,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaQ.desc=它们同样意义不大,我只
 
 # Quest: Large Heat Exchanger - Fermat's Last
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcQ.name=§6§l大型热交换机-"费马大定理"
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcQ.desc=大型热交换机是一种产能多方块机器,可以接受非直接的燃料,输出的也不是EU.那是它是用来做什么的呢? §7烧开水!§r%n%n实际上,它是一种蒸汽锅炉,使用某些流体替代了固体燃料,不过机制更加复杂.它的两种主要"燃料"是岩浆和热冷却液,而后者更强,但获取也更困难. 通过炼狱之壶或无数其他选择都可以轻易实现岩浆自动化,而热冷却液通常需要合适的产能装置.%n%n使用岩浆时,大型热交换机§d每1mB岩浆输出160mB蒸汽,输入岩浆速度最高为1000mB/s§r(也就是100％涡轮效率下§a4000-EU/t§r).而使用冷却液时,大型热交换机§d每1mB热冷却液输出400mB蒸汽,输入热冷却液速度最高为800mB/s§r(也就是100％涡轮效率下§a8000-EU/t§r).%n%n§c当你超出此输入速度时,输出变为过热蒸汽,需要通过高压蒸汽涡轮才能变回普通蒸汽.§r这时的最大输入速度为之前的两倍,转换率变为§d岩浆1:80§r而§d热冷却液1:200§r,同时100％涡轮效率下能量输出为岩浆的§a12000-EU/t§r以及热冷却液的§a24000-EU/t§r.%n%n§6§l非常强大,但也很复杂,需要大型蒸汽涡轮!§r%n%n§3想要获知更多信息,请到§9§n[url]https://wiki.gtnewhorizons.com/wiki/Large_Heat_Exchanger[/url]§r§3阅读其机制,或去到§9§n[url]https://wiki.gtnewhorizons.com/wiki/Fluid_Reactor[/url]§r§3,学习如何使用流体反应堆.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcQ.desc=大型热交换机是一种产能多方块机器,可以接受非直接的燃料,输出的也不是EU.那是它是用来做什么的呢? §7烧开水!§r%n%n实际上,它是一种蒸汽锅炉,使用某些流体替代了固体燃料,不过机制更加复杂.它的两种主要"燃料"是岩浆和热冷却液,而后者更强,但获取也更困难. 通过炼狱之壶或无数其他选择都可以轻易实现岩浆自动化,而热冷却液通常需要合适的产能装置.%n%n使用岩浆时,大型热交换机§d每1mB岩浆输出160mB蒸汽,输入岩浆速度最高为1000mB/s§r(也就是100％涡轮效率下§a4000-EU/t§r).而使用冷却液时,大型热交换机§d每1mB热冷却液输出400mB蒸汽,输入热冷却液速度最高为800mB/s§r(也就是100％涡轮效率下§a8000-EU/t§r).%n%n§c当你超出此输入速度时,输出变为过热蒸汽,需要通过高压蒸汽涡轮才能变回普通蒸汽.§r这时的最大输入速度为之前的两倍,转换率变为§d岩浆1:80§r而§d热冷却液1:200§r,同时100％涡轮效率下能量输出为岩浆的§a12000-EU/t§r以及热冷却液的§a24000-EU/t§r.%n%n§6§l非常强大,但也很复杂,需要大型蒸汽涡轮!§r%n%n想要获知更多信息,请到[url]https://wiki.gtnewhorizons.com/wiki/Large_Heat_Exchanger[/url]阅读其机制,或去到[url]https://wiki.gtnewhorizons.com/wiki/Fluid_Reactor[/url],学习如何使用流体反应堆.
 
 # Quest: Rocket Engine EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9g.name=§a§l火箭引擎(EV)
@@ -6995,7 +6995,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALDA.desc=所以这意味着它会产生�
 
 # Quest: More Advanced Reactors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDQ.name=进阶反应堆
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALDQ.desc=流体反应堆,还有冰箱核电和扳手反应堆(lol),是不同于普通版的进阶版本.%n%n流体反应堆的建造方式与普通反应堆不同(使用右侧的这些方块,在普通核电外围成一个5x5x5的中空立方体),目的是产生尽可能多的热冷却液(热交换后循环使用),再将其转化为电力.流体反应堆自己不发电,但更全面.将热冷却液送到大型热交换机,即可获得过热蒸汽,再将其依次通过高压蒸汽涡轮、普通蒸汽涡轮.%n%n冰箱核电(我们一般叫强冷) 指不通过散热片,而是使用冷却单元吸收热量,维持反应堆的热平衡.再用真空冷冻机恢复氦/钠钾冷却单元耐久.这样就无需通过散热片来保证产热散热平衡,意味着可以塞更多的燃料棒,但一个小问题就会...KA-BOOM!%n%n扳手反应堆 指将反应堆塞满燃料棒,启动,在其爆炸前用扳手拆掉,重置热量状态.如果你可以将这个过程自动化,你就能获得我们GTNH核科学的最高奖章!%n%n要是你还不知道MOX怎么用,让我来教教你.简而言之,MOX燃料棒的发电量随堆温升高而升高.所以你需要维持好热平衡并尽可能地提高堆温.不过太高的堆温可能造成附近的方块被§o融化§r.MOX或者超能硅岩燃料棒都有这样的功效.另外,MOX可以产出不少钚(而铀偏少).%n%n增殖反应堆 指搭建此反应堆,更倾向于获得其产物而非靠其发电,比如用钍堆获得镥,MOX堆获得钚,等等.请在NEI或wiki中查看燃料棒(枯竭xxx)的用途.%n%n§3由于冷却液耗尽时,流体反应堆很容易爆炸,所以请确保正确设置了温度相关的红石信号,可以紧急关停反应堆.(建议其他任何反应堆都设置一个温控保险)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALDQ.desc=流体反应堆,还有冰箱核电和扳手反应堆(lol),是不同于普通版的进阶版本.%n%n流体反应堆的建造方式与普通反应堆不同(使用右侧的这些方块,在普通核电外围成一个5x5x5的中空立方体),目的是产生尽可能多的热冷却液(热交换后循环使用),再将其转化为电力.流体反应堆自己不发电,但更全面.将热冷却液送到大型热交换机,即可获得过热蒸汽,再将其依次通过高压蒸汽涡轮、普通蒸汽涡轮.%n%n冰箱核电(我们一般叫强冷) 指不通过散热片,而是使用冷却单元吸收热量,维持反应堆的热平衡.再用真空冷冻机恢复氦/钠钾冷却单元耐久.这样就无需通过散热片来保证产热散热平衡,意味着可以塞更多的燃料棒,但一个小问题就会...KA-BOOM!%n%n扳手反应堆 指将反应堆塞满燃料棒,启动,在其爆炸前用扳手拆掉,重置热量状态.如果你可以将这个过程自动化,你就能获得我们GTNH核科学的最高奖章!%n%n要是你还不知道MOX怎么用,让我来教教你.简而言之,MOX燃料棒的发电量随堆温升高而升高.所以你需要维持好热平衡并尽可能地提高堆温.不过太高的堆温可能造成附近的方块被§o融化§r.MOX或者超能硅岩燃料棒都有这样的功效.另外,MOX可以产出不少钚(而铀偏少).%n%n增殖反应堆 指搭建此反应堆,更倾向于获得其产物而非靠其发电,比如用钍堆获得镥,MOX堆获得钚,等等.请在NEI或wiki中查看燃料棒(枯竭xxx)的用途.%n%n[note]由于冷却液耗尽时,流体反应堆很容易爆炸,所以请确保正确设置了温度相关的红石信号,可以紧急关停反应堆.(建议其他任何反应堆都设置一个温控保险)[/note]
 
 # Quest: Large Naquadah Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.name=大型硅岩反应堆
@@ -7799,7 +7799,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMWg.desc=有些化学元素是构建高�
 
 # Quest: How Much Power From One Reactor?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMWw.name=单堆发电量是多少?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMWw.desc=整座核聚变反应堆本身并不会产出EU,它只能消耗EU.当然,使用其产出的等离子体发电也非常简单,拥有等离子涡轮后,这就是个单步处理过程.等离子涡轮是一种特殊的涡轮机,它只接受等离子体,而且比之前的各种涡轮要贵得多,主体结构需要大量钨钢,而控制器方块需要硅岩和硅岩合金.%n%n首先,MKI聚变反应堆可以生产多少等离子体?在当前阶段,最佳的发电等离子体为氦离子,它的原料非常便宜,同时每桶氦离子生产时间为6.4秒.而每桶氦离子燃值为81,920,000-EU,也就是涡轮100％效率下640,000-EU/t,或是150％效率下960,000-EU/t.基本相当于8A-ZPM,与之前可用的能源相比,这是发电功率的一次巨大飞跃,而且等离子体基本用不着什么前期处理! 多大多数玩家而言,聚变是这三四个阶段的唯一能源,所有其他获取EU的方式都复杂得多,也更难升级.%n%n也就是说,你需要更多的多方块涡轮来消耗产出的所有等离子体.在LuV阶段,每台涡轮只能输出1A-ZPM,所以你需要输出不超过131,072-EU/t的高效涡轮转子. 有三种选择,按效率降序排列如下:%n%n大型镀铑钯涡轮,效率150％,输出功率124,740-EU/t%n普通龙锭涡轮,效率145％,输出功率121,800-EU/t%n大型碳化钨涡轮,效率140％,输出功率123,480-EU/t.%n%n§4§l注意:§r §c这里的建议可能有过时的信息, 可能有其他更好的方式.§r 查询NEI, 问问其他人, 这里可能有更好的配置方式!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMWw.desc=整座核聚变反应堆本身并不会产出EU,它只能消耗EU.当然,使用其产出的等离子体发电也非常简单,拥有等离子涡轮后,这就是个单步处理过程.等离子涡轮是一种特殊的涡轮机,它只接受等离子体,而且比之前的各种涡轮要贵得多,主体结构需要大量钨钢,而控制器方块需要硅岩和硅岩合金.%n%n首先,MKI聚变反应堆可以生产多少等离子体?在当前阶段,最佳的发电等离子体为氦离子,它的原料非常便宜,同时每桶氦离子生产时间为6.4秒.而每桶氦离子燃值为81,920,000-EU,也就是涡轮100％效率下640,000-EU/t,或是150％效率下960,000-EU/t.基本相当于8A-ZPM,与之前可用的能源相比,这是发电功率的一次巨大飞跃,而且等离子体基本用不着什么前期处理! 多大多数玩家而言,聚变是这三四个阶段的唯一能源,所有其他获取EU的方式都复杂得多,也更难升级.%n%n也就是说,你需要更多的多方块涡轮来消耗产出的所有等离子体.在LuV阶段,每台涡轮只能输出1A-ZPM,所以你需要输出不超过131,072-EU/t的高效涡轮转子. 有三种选择,按效率降序排列如下:%n%n大型镀铑钯涡轮,效率150％,输出功率124,740-EU/t%n普通龙锭涡轮,效率145％,输出功率121,800-EU/t%n大型碳化钨涡轮,效率140％,输出功率123,480-EU/t.%n%n[note]注意：这里的建议可能有过时的信息, 可能有其他更好的方式.查询NEI, 问问其他人, 这里可能有更好的配置方式![/note]
 
 # Quest: Optional Tier 1 Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXA.name=MKI聚变的可选配方
@@ -9140,7 +9140,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCg.desc=充能赛特斯石英是制作�
 
 # Quest: Keeping Your Network Happy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCw.name=保持网络稳定
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCw.desc=能源元件可以帮助你稳定网络中的用电波动. 它可以存储200000AE的能源. 不过能源元件不能直接接受电能,但是可以通过ME网络进行能量缓冲.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCw.desc=能源元件可以帮助你稳定网络中的用电波动. 它可以存储2000000AE的能源. 不过能源元件不能直接接受电能,但是可以通过ME网络进行能量缓冲.
 
 # Quest: Storing Your ME Data
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFDA.name=存储你的ME数据
@@ -11981,7 +11981,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABUQ.desc=与硝酸不同,这东西不会
 
 # Quest: Spirit Coin Transfer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABUg.name=精神硬币转换
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABUg.desc=水心之酿只能在精神世界制作.想知道在精神世界中如何获得你所需的设备,如水壶、转轮或是巫师炼药锅?好吧,在服务器中你或许可以通过末影箱子之类的东西,但我这里提供了另外的选择,你可以花些硬币,将这些设备传送到精神世界中.在你前往那边之前不要提交任务.%n%n你已经通过前面的任务收集了不少硬币.让我们将它转换并存到箱子里.%n%n§4再次强调:在你到达另一边之前,不要提交任务.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABUg.desc=水心之酿只能在精神世界制作.想知道在精神世界中如何获得你所需的设备,如水壶、转轮或是巫师炼药锅?好吧,在服务器中你或许可以通过末影箱子之类的东西,但我这里提供了另外的选择,你可以花些硬币,将这些设备传送到精神世界中.在你前往那边之前不要提交任务.%n%n你已经通过前面的任务收集了不少硬币.让我们将它转换并存到箱子里.%n%n[warn]再次强调:在你到达另一边之前,不要提交任务.[/warn]
 
 # Quest: Circle Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABUw.name=圆环法阵
@@ -12394,7 +12394,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABog.desc=有九个基本元素,每个元
 
 # Quest: Some Examples
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABow.name=举个例子吧!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABow.desc=有很多组合值得探索,所以只需尝试并犯错! §3或者直接求助网络.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABow.desc=有很多组合值得探索,所以只需尝试并犯错! %n%n[note]或者直接求助网络.[/note]
 
 # Quest: Tier 4 Sigils
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABpA.name=4阶印记
