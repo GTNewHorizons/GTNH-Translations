@@ -7200,7 +7200,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_02711_Index_03=可标记16种物品
     S:TileEntity_DESCRIPTION_02711_Index_04=ME自动拉取模式将会自动标记ME网络中的前16种物品，每5秒更新一次.
     S:TileEntity_DESCRIPTION_02711_Index_05=使用螺丝刀切换,或在GUI配置.
-    S:TileEntity_DESCRIPTION_02711_Index_06=在GUI配置“自动拉取”的最小堆叠数.
+    S:TileEntity_DESCRIPTION_02711_Index_06=在GUI配置“自动拉取”的最小堆叠数与快速配方检查.
     S:TileEntity_DESCRIPTION_02711_Index_07=警告:快速配方检查可能会很卡.请谨慎使用.
     S:TileEntity_DESCRIPTION_02711_Index_08=配置可使用闪存复制/粘贴
     S:TileEntity_DESCRIPTION_02711_Index_09=配置可使用闪存复制/粘贴
@@ -11556,7 +11556,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_13367_Index_08=在控制器GUI或输入总线中放入相应编程电路
     S:TileEntity_DESCRIPTION_13367_Index_09=§9Tec§1Tech§7的激光仓需要§2UV§7等级的玻璃
     S:TileEntity_DESCRIPTION_13367_Index_10=-----------------------------------------
-    S:TileEntity_DESCRIPTION_13367_Index_11=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_13367_Index_11=每提升一级线圈可减免10%的能耗,最多减免50%
     S:TileEntity_DESCRIPTION_13367_Index_12=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_13367_Index_13=Added by: §a§2BartWorks§7§7
     S:TileEntity_DESCRIPTION_13367_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§613§7x§67§7x§69§7(中空)
@@ -11607,7 +11607,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_13535_Index_00=为你而生的廉价合成工具!
     S:TileEntity_DESCRIPTION_13536_Index_00=为你而生的廉价合成工具!
     S:TileEntity_DESCRIPTION_14001_Index_00=机器类型：§e戴森球§r
-    S:TileEntity_DESCRIPTION_14001_Index_01=§oNot the game.
+    S:TileEntity_DESCRIPTION_14001_Index_01=§oWait, this isn't an army of vacuum cleaners?
     S:TileEntity_DESCRIPTION_14001_Index_02=戴森球指挥中心的控制器方块
     S:TileEntity_DESCRIPTION_14001_Index_03=在输入总线中放入戴森球模块，将其发射至相邻的恒星.
     S:TileEntity_DESCRIPTION_14001_Index_04=每个戴森球模块输出为f*10,000,000EU/t，f为基于所在维度的系数.
@@ -14741,14 +14741,14 @@ languagefile {
     S:TileEntity_DESCRIPTION_31150_Index_00=机器类型：§e合金冶炼炉§r
     S:TileEntity_DESCRIPTION_31150_Index_01=巨型合金冶炼炉的控制器方块
     S:TileEntity_DESCRIPTION_31150_Index_02=与常规合金冶炼炉共用配方，最大并行：§l§n256§r§7
-    S:TileEntity_DESCRIPTION_31150_Index_03=所用线圈每高于白铜线圈一个等级，获得一次加速加成，公式如下：
-    S:TileEntity_DESCRIPTION_31150_Index_04=加成=等级/150，四舍五入(精确到千分之一)
-    S:TileEntity_DESCRIPTION_31150_Index_05=§o要是你对速度加成无所谓的话，在这里也可以用常规合金冶炼炉的线圈 :)§r§7
-    S:TileEntity_DESCRIPTION_31150_Index_06=玻璃等级限制了能源仓等级，UEV玻璃解锁所有等级.
-    S:TileEntity_DESCRIPTION_31150_Index_07=TecTech的激光仓需要UV等级的玻璃
-    S:TileEntity_DESCRIPTION_31150_Index_08=§o"它所做的就是将金属加热"§r§7
-    S:TileEntity_DESCRIPTION_31150_Index_09=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_DESCRIPTION_31150_Index_10=添加者：§a§bMadMan310§7，模组：§cGT++§7
+    S:TileEntity_DESCRIPTION_31150_Index_03=所用线圈每高于钛铂钒线圈一个等级，并且安装了同电压等级或更好的玻璃，就获得一次加速加成，公式如下：
+    S:TileEntity_DESCRIPTION_31150_Index_04=§e速度加成§7: 每个等级提供5%更短的配方时间(额外)
+    S:TileEntity_DESCRIPTION_31150_Index_05=此外,使用高于配方电压等级的线圈还可以获得能量消耗减免.
+    S:TileEntity_DESCRIPTION_31150_Index_06=§e能量消耗减免§7: 每提升一个电压等级,能耗降低5%(乘算)
+    S:TileEntity_DESCRIPTION_31150_Index_07=§o要是你对速度加成无所谓的话，在这里也可以用常规合金冶炼炉的线圈 :)§r§7
+    S:TileEntity_DESCRIPTION_31150_Index_08=玻璃等级限制了能源仓等级，UEV玻璃解锁所有等级.
+    S:TileEntity_DESCRIPTION_31150_Index_09=TecTech的激光仓需要UV等级的玻璃
+    S:TileEntity_DESCRIPTION_31150_Index_10=§o"它所做的就是将金属加热"§r§7
     S:TileEntity_DESCRIPTION_31150_Index_11=Hold §l[LSHIFT]§r§7 to display structure guidelines
     S:TileEntity_DESCRIPTION_31150_Index_12=Added by: §a§bMadMan310 §7via §cGT++§7
     S:TileEntity_DESCRIPTION_31150_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§611§7x§620§7x§611§7§c
@@ -14845,8 +14845,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_32001_Index_10=效率高达150%！
     S:TileEntity_DESCRIPTION_32001_Index_11=结构太复杂了！
     S:TileEntity_DESCRIPTION_32001_Index_12=请参考§9Structure§1Lib§7全息投影，构建主体结构
-    S:TileEntity_DESCRIPTION_32001_Index_13=-----------------------------------------
-    S:TileEntity_DESCRIPTION_32001_Index_14=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_32001_Index_13=如果你忘记为其提供助燃剂，它会吞掉所有的燃料§e且不输出能量§7.
+    S:TileEntity_DESCRIPTION_32001_Index_14=效率高达150%.
     S:TileEntity_DESCRIPTION_32001_Index_15=结构太复杂了！
     S:TileEntity_DESCRIPTION_32001_Index_16=Follow the§9 Structure§1Lib§7 hologram projector to build the main structure.
     S:TileEntity_DESCRIPTION_32001_Index_17=-----------------------------------------
@@ -14855,8 +14855,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_32001_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§65§7x§64§7x§69§7§c
     S:TileEntity_DESCRIPTION_32001_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_32001_Secondary_Index_02=§f   维护仓：§7  提示方块：1号
-    S:TileEntity_DESCRIPTION_32001_Secondary_Index_03=§f   消声仓：§7  提示方块：2号
-    S:TileEntity_DESCRIPTION_32001_Secondary_Index_04=§f   输入仓：§7  提示方块：3号
+    S:TileEntity_DESCRIPTION_32001_Secondary_Index_03=§f   消声仓：§7  提示方块：2号(填满所有提示方块)
+    S:TileEntity_DESCRIPTION_32001_Secondary_Index_04=§f   输入仓：§7  提示方块：3号(填满所有提示方块)
     S:TileEntity_DESCRIPTION_32001_Secondary_Index_05=§f   动力仓：§7  提示方块：4号
     S:TileEntity_DESCRIPTION_32002_Index_00=机器类型：§e源质发电机§r
     S:TileEntity_DESCRIPTION_32002_Index_01=大型源质发电机的控制器方块
@@ -15012,7 +15012,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_32018_Index_08=在常规模式下，精密电子单元机械方块不限制合成表
     S:TileEntity_DESCRIPTION_32018_Index_09=不过使用更高级的精密电子单元机械方块可提供更多并行.
     S:TileEntity_DESCRIPTION_32018_Index_10=在常规模式下，比单方块组装机快100%
-    S:TileEntity_DESCRIPTION_32018_Index_11=MK-I = 32x, MK-II = 64x, MK-III = 128x
+    S:TileEntity_DESCRIPTION_32018_Index_11=不精密的电子单元机械方块(MK-0) = 16x, MK-I = 32x, MK-II = 64x, MK-III = 128x, MK-IV = 256x
     S:TileEntity_DESCRIPTION_32018_Index_12=支持§9Tec§1Tech§7多A能源仓
     S:TileEntity_DESCRIPTION_32018_Index_13=每秒产生§5780§7点污染
     S:TileEntity_DESCRIPTION_32018_Index_14=结构太复杂了！
@@ -15205,7 +15205,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_32026_Index_01=部件装配线的控制器方块
     S:TileEntity_DESCRIPTION_32026_Index_02=批量装配基础部件(马达,泵等)
     S:TileEntity_DESCRIPTION_32026_Index_03=§l§e部件装配线外壳§r§7等级
-    S:TileEntity_DESCRIPTION_32026_Index_04=限制了机器可执行的配方等级.详情请见NEI页面.
+    S:TileEntity_DESCRIPTION_32026_Index_04=使用高于配方等级的机械方块可以提供速度加成：
     S:TileEntity_DESCRIPTION_32026_Index_05=支持§9Tec§1Tech§7多A能源仓/激光仓!
     S:TileEntity_DESCRIPTION_32026_Index_06=支持§9Tec§1Tech§7激光仓与多A能源仓
     S:TileEntity_DESCRIPTION_32026_Index_07=支持超过MAX电压的超频!
