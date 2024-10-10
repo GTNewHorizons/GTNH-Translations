@@ -2,8 +2,8 @@
 item.duplicator.name=Менеджер дубликатор
 item.labeler.name=Заводская маркировка
 
-tile.cable_rf.name=RF Узел 
-tile.cable_ae.name=Energistics Connector
+tile.cable_rf.name=RF Узел
+tile.cable_ae.name=Энергетический коннектор
 
 
 
@@ -42,24 +42,24 @@ stevesaddons.idsucompat.contains=Contains: %s
 stevesaddons.chat.cleared=Label cleared
 stevesaddons.chat.saved=Label set as "%s"
 
-stevesaddons.command.notFound=Command not found
-stevesaddons.command.noPermission=You not have permission to use this command
-stevesaddons.command.loadFailed=Loading failed
-stevesaddons.command.loadSuccess=Manager loaded from: %s
-stevesaddons.command.nothingToSave=Duplicator is empty
-stevesaddons.command.saveFailed=Save failed
-stevesaddons.command.noDuplicator=Command can only be applied to a Manager Duplicator
-stevesaddons.command.savedTo=Manager saved to: %s
-stevesaddons.command.copiedToClip=Pastebin link loaded onto clipboard
+stevesaddons.command.notFound=Команда не найдена
+stevesaddons.command.noPermission=У Вас нет прав на использование этой команды.
+stevesaddons.command.loadFailed=Загрузка не удалась
+stevesaddons.command.loadSuccess=Менеджер загружен из: %s
+stevesaddons.command.nothingToSave=Дубликатор пуст
+stevesaddons.command.saveFailed=Сохранить не удалось
+stevesaddons.command.noDuplicator=Команда может быть применена только к Менеджеру Дубликатор.
+stevesaddons.command.savedTo=Менеджер сохранен в: %s
+stevesaddons.command.copiedToClip=Ссылка Pastebin загружена в буфер обмена
 
-stevesaddons.command.info.help.start=Available commands are:
+stevesaddons.command.info.help.start=Доступны следующие команды:
 stevesaddons.command.help.syntax=/stevesaddons help [команда]
-stevesaddons.command.info.help=For help with all available commands.
-stevesaddons.command.info.load=Load the given filename to a held Duplicator.
+stevesaddons.command.info.help=Для получения справки по всем доступным командам.
+stevesaddons.command.info.load=Загрузите указанное имя файла в удерживаемый Дубликатор.
 stevesaddons.command.load.syntax=/stevesaddons load <filename>
-stevesaddons.command.info.save=Saves the held Duplicator to a file with optional name (defaults to player's name + coordinates)
+stevesaddons.command.info.save=Сохраняет удерживаемый Дубликатор в файл с необязательным именем (по умолчанию имя игрока + координаты)
 stevesaddons.command.save.syntax=/stevesaddons save [имя файла]
-stevesaddons.command.info.pastebin=Put or get data between Pastebin and a held Duplicator.
+stevesaddons.command.info.pastebin=Помещать или получать данные между Pastebin и удерживаемым Дубликатором.
 stevesaddons.command.pastebin.syntax=/stevesaddons pastebin {put | get <paste>}
-stevesaddons.command.info.clear=Clears a held Duplicator
+stevesaddons.command.info.clear=Очищает удерживаемый Дубликатор
 stevesaddons.command.clear.syntax=/stevesaddons clear
