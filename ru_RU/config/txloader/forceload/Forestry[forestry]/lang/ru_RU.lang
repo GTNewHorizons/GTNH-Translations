@@ -245,7 +245,7 @@ for.gui.page=Страница
 
 for.gui.search_ingredients=Search Items
 for.gui.search_ingredients.internal_inventory=Internal Inventory
-for.gui.search_ingredients.player_inventory=Player Inventory
+for.gui.search_ingredients.player_inventory=Инвентарь игрока
 for.gui.search_ingredients.all_inventories=All Inventories
 
 for.gui.pipe.filter.anything=Всё
@@ -579,7 +579,7 @@ item.for.frameUntreated.name=Необработанная рамка
 for.frame.tooltip.durability=Прочность:
 for.frame.tooltip.territory=Территория:
 for.frame.tooltip.mutationRate=Mutation Rate:
-for.frame.tooltip.lifespan=Lifespan:
+for.frame.tooltip.lifespan=Продолжительность жизни:
 for.frame.tooltip.production=Производство:
 for.frame.tooltip.flowering=Flowering:
 for.frame.tooltip.geneticDecay=Genetic Decay:
@@ -686,7 +686,7 @@ item.for.thermionicTubes.ex-9.name=Изумрудная электронная �
 item.for.thermionicTubes.ex-10.name=Апатитовая электронная лампа
 item.for.thermionicTubes.ex-11.name=Лазуритовая электронная лампа
 item.for.thermionicTubes.ex-12.name=Электронная лампа Края
-item.for.thermionicTubes.ex-13.name=Uranium238 Electron Tube
+item.for.thermionicTubes.ex-13.name=Электронная лампа из урана-238
 
 item.for.treealyzer.name=Анализатор деревьев
 
@@ -795,29 +795,29 @@ for.errors.noDrone.desc=Нет трутня
 for.errors.noDrone.help=Спаривание требует наличия трутня.
 for.errors.noFlower.desc=Нет цветов
 for.errors.noFlower.help=Hive members are not finding the right flowers. Use the Beealyzer to learn their flower preference.
-for.errors.noQueen.desc=No queen
-for.errors.noQueen.help=Supply this hive with a queen or a princess and a drone.
-for.errors.noSky.desc=Sky obstructed
-for.errors.noSky.help=The hive requires direct sunlight from above.
-for.errors.notDay.desc=Not daytime
-for.errors.notDay.help=The bees can only work during the daytime.
-for.errors.notGloomy.desc=Not dark enough
-for.errors.notGloomy.help=The bees can only work in darkness.
-for.errors.notLucid.desc=Not bright enough
-for.errors.notLucid.help=The bees have trouble navigating in the dark.
-for.errors.notNight.desc=Not nighttime
-for.errors.notNight.help=The bees can only work during the night.
-for.errors.tooHot.desc=Too Hot
-for.errors.tooHot.help=The bees are melting in the heat here and unable to work. Use a Habitat Locator to find a cooler climate.
-for.errors.tooCold.desc=Too Cold
-for.errors.tooCold.help=The bees are huddled together to survive the freezing cold here. Use a Habitat Locator to find a warmer climate.
-for.errors.tooHumid.desc=Too Humid
-for.errors.tooHumid.help=The climate here has made the bees' wings too damp to fly. Use a Habitat Locator to find a dryer climate.
-for.errors.tooArid.desc=Too Dry
-for.errors.tooArid.help=The dry climate here has made the bees parched and unable to work. Use a Habitat Locator to find a wetter climate.
+for.errors.noQueen.desc=Нет матки
+for.errors.noQueen.help=Снабдите этот улей маткой или принцессой и трутнем.
+for.errors.noSky.desc=Небо закрыто
+for.errors.noSky.help=Улей нуждается в прямом солнечном свете сверху.
+for.errors.notDay.desc=Не дневное время
+for.errors.notDay.help=Пчелы могут работать только днем.
+for.errors.notGloomy.desc=Недостаточно темно
+for.errors.notGloomy.help=Пчелы могут работать только в темноте.
+for.errors.notLucid.desc=Недостаточно ярко
+for.errors.notLucid.help=Пчелам трудно ориентироваться в темноте.
+for.errors.notNight.desc=Не ночное время
+for.errors.notNight.help=Пчелы могут работать только ночью.
+for.errors.tooHot.desc=Слишком жарко
+for.errors.tooHot.help=Пчелы тают здесь от жары и не могут работать. Используйте Определитель ареала, чтобы найти более прохладный климат.
+for.errors.tooCold.desc=Слишком холодно
+for.errors.tooCold.help=Пчелы сбиваются в кучу, чтобы пережить здесь леденящий холод. Используйте Определитель ареала, чтобы найти более теплый климат.
+for.errors.tooHumid.desc=Слишком влажно
+for.errors.tooHumid.help=Местный климат сделал крылья пчел слишком влажными, чтобы летать. Используйте Определитель ареала, чтобы найти более сухой климат.
+for.errors.tooArid.desc=Слишком сухо
+for.errors.tooArid.help=Из-за сухого климата пчелы здесь иссушились и не смогли работать. Используйте Определитель ареала, чтобы найти более влажный климат.
 
 # MACHINES
-for.errors.noPower.desc=No Power
+for.errors.noPower.desc=Нет питания
 for.errors.noPower.help=This machine requires RF energy from an engine to function.
 for.errors.noRedstone.desc=Требуется сигнал красного камня
 for.errors.noRedstone.help=This machine requires a redstone signal to activate it.
@@ -835,7 +835,7 @@ for.errors.noSpace.desc=No inventory space
 for.errors.noSpace.help=Empty this machine's inventory.
 for.errors.noSpaceTank.desc=No tank space
 for.errors.noSpaceTank.help=Empty this machine's liquid tank.
-for.errors.notDark.desc=Not dark enough
+for.errors.notDark.desc=Недостаточно темно
 for.errors.notDark.help=A lower light level is required for operation.
 
 # RAIN TANK
@@ -843,7 +843,7 @@ for.errors.notRaining.desc=No rain
 for.errors.notRaining.help=Operation is only possible when it is raining.
 for.errors.noRainBiome.desc=Never rains
 for.errors.noRainBiome.help=This location never receives rain.
-for.errors.noSkyRainTank.desc=Sky obstructed
+for.errors.noSkyRainTank.desc=Небо закрыто
 for.errors.noSkyRainTank.help=Clear the area above this machine so it can gather rain.
 
 # ALYZERS
@@ -857,15 +857,15 @@ for.errors.forcedCooldown.desc=Forced Cooldown
 for.errors.forcedCooldown.help=The engine has overheated and must cool down before it can start again.
 for.errors.noEnergyNet.desc=No electricity
 for.errors.noEnergyNet.help=Your world is barren of any electricity. (Install IndustrialCraft\u00b2.)
-for.errors.noFuel.desc=No fuel
-for.errors.noFuel.help=This engine requires fuel to run. Replenish this machine's fuel supplies.
+for.errors.noFuel.desc=Нет топлива
+for.errors.noFuel.help=Для работы этого двигателя требуется топливо. Пополните запасы топлива этой машины .
 for.errors.noHeat.desc=Not warmed up
 for.errors.noHeat.help=This engine requires a heat source to run. Refill the heating tank.
 
 # TRADE STATION
-for.errors.noStamps.desc=Need Stamps
+for.errors.noStamps.desc=Нужны марки
 for.errors.noStamps.help=The trade station requires more stamps to pay postage.
-for.errors.noPaper.desc=Need Paper
+for.errors.noPaper.desc=Нужна бумага
 for.errors.noPaper.help=The trade station requires more paper to send letters.
 for.errors.noSupplies.desc=Need Supplies
 for.errors.noSupplies.help=The trade station requires more supplies to send.
@@ -1575,25 +1575,25 @@ for.plugin.minefactoryreloaded.description=Compatibility plugin for MineFactoryR
 # CONFIG FILES
 ####################
 
-for.config.performance=Performance
+for.config.performance=Производительность
 for.config.performance.particleFX=Particle Effects
 for.config.performance.particleFX.comment=Enables particle effects. Note that Forestry respects Minecraft's reduced particle video settings.
 for.config.performance.backpacks.resupply=Backpack Resupply
 for.config.performance.backpacks.resupply.comment=Enable backpack resupply. You may want to set this to false on busy servers.
 
-for.config.world.generate=World Generation
+for.config.world.generate=Генерации мира
 
 for.config.world.generate.retrogen.normal=Retrogen
 for.config.world.generate.retrogen.normal.comment=Creates Forestry world generation in chunks that were created before the mod was added.
 for.config.world.generate.retrogen.forced=Forced Retrogen
 for.config.world.generate.retrogen.forced.comment=Creates Forestry world generation in all chunks, even if they were generated there before.
 
-for.config.world.generate.ore.apatite=Generate Apatite
-for.config.world.generate.ore.apatite.comment=Generates apatite ore blocks in the world.
-for.config.world.generate.ore.copper=Generate Copper
-for.config.world.generate.ore.copper.comment=Generates copper ore blocks in the world.
-for.config.world.generate.ore.tin=Generate Tin
-for.config.world.generate.ore.tin.comment=Generates tin ore blocks in the world.
+for.config.world.generate.ore.apatite=Генерация апатита
+for.config.world.generate.ore.apatite.comment=Генерация блоков апатитовой руды в мире.
+for.config.world.generate.ore.copper=Генерация меди
+for.config.world.generate.ore.copper.comment=Генерация блоков медной руды в мире.
+for.config.world.generate.ore.tin=Генерация олова
+for.config.world.generate.ore.tin.comment=Генерация блоков оловянной руды в мире.
 
 for.config.world.generate.beehives.amount=Beehives Generation Amount
 for.config.world.generate.beehives.amount.comment=Sets how many beehives spawn in the world.
@@ -1662,11 +1662,11 @@ for.config.difficulty.recreate.definitions.comment=Forces recreation of the game
 for.config.difficulty.loot.rare=Rare Loot
 for.config.difficulty.loot.rare.comment=Makes dungeon loot generated by forestry rarer.
 
-for.config.structures=Structures
+for.config.structures=Структуры
 for.config.structures.disabled=Disabled Structures
 for.config.structures.disabled.comment=List specific structures to disable them.
 
-for.config.fluids=Fluids
+for.config.fluids=Жидкости
 for.config.fluids.enable.format=Enables %s fluid.
 for.config.fluid.blocks=Fluid Blocks
 for.config.fluid.blocks.enable.format=Enables %s in-world fluid block.
@@ -1708,27 +1708,27 @@ for.config.gamemode.fuel.ethanol.combustion.comment=modifies the energy provided
 for.config.gamemode.fuel.biomass.generator.comment=modifies the energy provided by Biomass in a Bio Generator.
 for.config.gamemode.fuel.biomass.biogas.comment=изменяет энергию, обеспечиваемую биомассой в биогазовых двигателях.
 
-for.config.gamemode.recipe.output.fertilizer.apatite.comment=amount of fertilizer yielded by the recipe using apatite.
-for.config.gamemode.recipe.output.fertilizer.ash.comment=amount of fertilizer yielded by the recipe using ash.
-for.config.gamemode.recipe.output.compost.wheat.comment=amount of compost yielded by the recipe using wheat.
-for.config.gamemode.recipe.output.compost.ash.comment=amount of compost yielded by the recipe using ash.
-for.config.gamemode.recipe.output.humus.fertilizer.comment=amount of humus yielded by the recipe using fertilizer.
-for.config.gamemode.recipe.output.humus.compost.comment=amount of humus yielded by the recipe using compost.
-for.config.gamemode.recipe.output.bogearth.bucket.comment=amount of bog earth yielded by the recipe using buckets.
-for.config.gamemode.recipe.output.bogearth.can.comment=amount of bog earth yielded by the recipes using cans, cells or capsules.
+for.config.gamemode.recipe.output.fertilizer.apatite.comment=количество удобрения полученного по рецепту с использованием апатита.
+for.config.gamemode.recipe.output.fertilizer.ash.comment=количество удобрения полученного по рецепту с использованием золы.
+for.config.gamemode.recipe.output.compost.wheat.comment=количество компоста полученного по рецепту с использованием пшеницы.
+for.config.gamemode.recipe.output.compost.ash.comment=количество компоста полученного по рецепту с использованием золы.
+for.config.gamemode.recipe.output.humus.fertilizer.comment=количество гумуса полученного по рецепту с использованием удобрения.
+for.config.gamemode.recipe.output.humus.compost.comment=количество гумуса полученного по рецепту с использованием компоста.
+for.config.gamemode.recipe.output.bogearth.bucket.comment=количество болотной земли полученного по рецепту с использованием ведер.
+for.config.gamemode.recipe.output.bogearth.can.comment=количество болотной земли полученного по рецепту с использованием капсул.
 for.config.gamemode.recipe.output.can.comment=amount yielded by the recipe for tin cans.
-for.config.gamemode.recipe.output.capsule.comment=amount yielded by the recipe for wax capsules.
-for.config.gamemode.recipe.output.refractory.comment=amount yielded by the recipe for refractory capsules.
+for.config.gamemode.recipe.output.capsule.comment=количество полученное по рецепту с использованием восковых капсул.
+for.config.gamemode.recipe.output.refractory.comment=количество полученное по рецепту с использованием огнеупорных капсул.
 
-for.config.gamemode.fermenter.cycles.fertilizer.comment=modifies the amount of cycles fertilizer can keep a fermenter going.
-for.config.gamemode.fermenter.cycles.compost.comment=modifies the amount of cycles compost can keep a fermenter going.
-for.config.gamemode.fermenter.value.fertilizer.comment=modifies the amount of biomass per cycle a fermenter will produce using fertilizer.
-for.config.gamemode.fermenter.value.compost.comment=modifies the amount of biomass per cycle a fermenter will produce using compost.
+for.config.gamemode.fermenter.cycles.fertilizer.comment=изменяет количество циклов в течение которых удобрение может поддерживать работу ферментера.
+for.config.gamemode.fermenter.cycles.compost.comment=изменяет количество циклов в течение которых компост может поддерживать работу ферментера.
+for.config.gamemode.fermenter.value.fertilizer.comment=изменяет количество  биомассы, которое ферментер произведет за цикл с использованием удобрений.
+for.config.gamemode.fermenter.value.compost.comment=изменяет количество  биомассы, которое ферментер произведет за цикл с использованием компоста.
 for.config.gamemode.fermenter.yield.sapling.comment=modifies the base amount of biomass a sapling will yield in a fermenter, affected by sappiness trait.
-for.config.gamemode.fermenter.yield.cactus.comment=modifies the amount of biomass a piece of cactus will yield in a fermenter.
-for.config.gamemode.fermenter.yield.wheat.comment=modifies the amount of biomass a piece of wheat will yield in a fermenter.
-for.config.gamemode.fermenter.yield.cane.comment=modifies the amount of biomass a piece of sugar cane will yield in a fermenter.
-for.config.gamemode.fermenter.yield.mushroom.comment=modifies the amount of biomass a mushroom will yield in a fermenter.
+for.config.gamemode.fermenter.yield.cactus.comment=изменяет количество биомассы которое даст кактус в ферментере.
+for.config.gamemode.fermenter.yield.wheat.comment=изменяет количество биомассы которое даст пшеница в ферментере.
+for.config.gamemode.fermenter.yield.cane.comment=изменяет количество биомассы которое даст сахарный тростник в ферментере.
+for.config.gamemode.fermenter.yield.mushroom.comment=изменяет количество биомассы которое даст гриб в ферментере.
 
 for.config.gamemode.squeezer.liquid.seed.comment=modifies the amount of seed oil squeezed from a single seed. other sources are based off this.
 for.config.gamemode.squeezer.liquid.apple.comment=modifies the amount of juice squeezed from a single apple. other sources are based off this.
