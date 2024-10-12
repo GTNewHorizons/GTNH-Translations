@@ -5414,7 +5414,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRw.desc=量子胸甲和它的前任一�
 
 # Quest: Mob Repellators
 betterquesting.quest.tgH86mIERWKIh8OAleKrSw.name=怪物驱逐器
-betterquesting.quest.tgH86mIERWKIh8OAleKrSw.desc=LV就能制作,怪物驱逐器在其工作范围内可以防止怪物生成.无需能量即可工作,但是有能量可以提升其工作范围.%n%n§3你只需要其中一个就能完成任务.
+betterquesting.quest.tgH86mIERWKIh8OAleKrSw.desc=LV就能制作,怪物驱逐器在其工作范围内可以防止怪物生成.无需能量即可工作,但是有能量可以提升其工作范围.%n%n[note]你只需要其中一个就能完成任务.[/note]
 
 
 ## Quest Line: Building Better Bases
@@ -6522,7 +6522,7 @@ betterquesting.quest.XA467S8MQtCEPy6L23eEEA.desc=You probably haven't thought ab
 
 # Quest: Advanced Assembly Line
 betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.name=进阶装配线
-betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=这是§6GigaGram§rFab添加的进阶装配线.%n%n这个装配线支持流水线式操作,也就是说,它会像真正的流水线一样,一个一个消耗物品而非一次性全部消耗.这样它就可以对任意数量的物品输入配方提供并行.你可以认为一条进阶装配线是由数个装配片组成的,每个装配片都可以独立于其它片处理每一步.当输入总线内物品与任意闪存吻合时,装配线将开始工作.第一片将会消耗输入总线#1内的物品.经过(配方时间/输入物品种类数)时间后,第一片的工作完成,第二片开始工作.与此同时,第一片将会在输入总线#1内寻找材料.如果材料足够,则第一片将再次工作.%n%n当所有工作完成时,终端片(第n片,n为配方要求输入物品种类数)将会在输出总线处输出产品,非终端片在工作完成后,将自动尝试让下一片工作,如果下一片的输入总线中没有足够的材料,完成工作的片将会保持§4堵塞§r状态,并使装配线进入"挂起"状态.处于"挂起"状态的装配线,其控制器的正面指示灯将会变为橙色.%n%n启用的片数乘以原配方所需EU/t即机器所消耗的EU/t.§4堵塞§r片不会消耗能量,最低等级能源仓的输入电压,决定了配方等级和常规超频上限.安装激光仓,可在常规超频基础上,再进行§2激光超频§r,但会消耗比常规有损超频更多的能量.每§2激光超频§r一次,都会增加0.3倍的能量损耗,一次§2激光超频§r使配方时间减少到50%%,使用430%%的能量.两次§2激光超频§r使配方时间减少到25%%,使用1978%%的能量.无法超频到1tick以下.机器会首先尝试并行,然后尝试常规有损超频,最后尝试§2激光超频§r.
+betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=这是§6GigaGram§rFab添加的进阶装配线.%n%n这个装配线支持流水线式操作,也就是说,它会像真正的流水线一样,一个一个消耗物品而非一次性全部消耗.这样它就可以对任意数量的物品输入配方提供并行.你可以认为一条进阶装配线是由数个装配片组成的,每个装配片都可以独立于其它片处理每一步.当输入总线内物品与任意闪存吻合时,装配线将开始工作.第一片将会消耗输入总线#1内的物品.经过(配方时间/输入物品种类数)时间后,第一片的工作完成,第二片开始工作.与此同时,第一片将会在输入总线#1内寻找材料.如果材料足够,则第一片将再次工作.%n%n当所有工作完成时,终端片(第n片,n为配方要求输入物品种类数)将会在输出总线处输出产品,非终端片在工作完成后,将自动尝试让下一片工作,如果下一片的输入总线中没有足够的材料,完成工作的片将会保持[warn]堵塞[/warn]状态,并使装配线进入"挂起"状态.为方便定位,处于"挂起"状态的装配线,其控制器的正面指示灯将会变为橙色.%n%n启用的片数乘以原配方所需EU/t即机器所消耗的EU/t.[warn]堵塞[/warn]片不会消耗能量,最低等级能源仓的输入电压,决定了配方等级和常规超频上限.安装激光仓,可在常规超频基础上,再进行§2激光超频§r,但会消耗比常规有损超频更多的能量.每§2激光超频§r一次,都会增加0.3倍的能量损耗,一次§2激光超频§r使配方时间减少到50%%,使用430%%的能量.两次§2激光超频§r使配方时间减少到25%%,使用1978%%的能量.无法超频到1tick以下.机器会首先尝试并行,然后尝试常规有损超频,最后尝试§2激光超频§r.
 
 # Quest: Advanced Autoclaving
 betterquesting.quest._dFgSThoQTWgM696ykr2Gw.name=Advanced Autoclaving
@@ -8516,7 +8516,7 @@ betterquesting.quest.hB5tvfilRVi42OpLLhCwlw.desc=母舰导航控制台用于选�
 
 # Quest: A Better Rocket Fuel
 betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.name=更好的火箭燃料
-betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=如果你想去比火星更远的太空,那么你需要更好的火箭燃料.从这里开始,只有一个选择.化工厂是产线的核心.如果你还没做化工厂,你应该研究一下.它有四个独立的等级系统,一开始可能有点令人生畏,但有本MC手册可以告诉你关于它的全部信息.另外,请查看GT++任务栏中的化工厂任务.%n%n§4请注意不要参考NEI预览化工厂,它是错的.%n%nWIKI 埃克森美孚化工厂：https://gtnh.huijiwiki.com/wiki/埃克森美孚化工厂§r
+betterquesting.quest.qz7VHLFvQx6gDw3KZDIj0g.desc=如果你想去比火星更远的太空,那么你需要更好的火箭燃料.从这里开始,只有一个选择.化工厂是产线的核心.如果你还没做化工厂,你应该研究一下.它有四个独立的等级系统,一开始可能有点令人生畏,但有本MC手册可以告诉你关于它的全部信息.另外,请查看GT++任务栏中的化工厂任务.%n%n[warn]请注意不要参考NEI预览化工厂,它是错的.[/warn]%n%nWIKI 埃克森美孚化工厂：https://gtnh.huijiwiki.com/wiki/埃克森美孚化工厂§r
 
 # Quest: Does It Contain A Black Hole?
 betterquesting.quest.rfqcIf4uT--m6nYPenl8PQ.name=它包含了一个黑洞吗？
@@ -8951,7 +8951,7 @@ betterquesting.quest.Ix6qrScZQPGnl3jEm9P2Ag.desc=有时候一个配方会有额�
 
 # Quest: Remote requests
 betterquesting.quest.MwRByyNxQt-LfGgUqm8QDQ.name=远程请求
-betterquesting.quest.MwRByyNxQt-LfGgUqm8QDQ.desc=远程请求并不总是那么方便.只要您在请求物流管道的范围内,远程请求器就可以接受请求并将其发送到与之绑定的请求物流管道.%n%n如果你有末影箱和末影袋子，组合使用它们非常有用...%n%n§3注：可惜末影箱和末影袋子被IV等级和神秘时代所限制... 而在这个阶段为什么有人会使用物流管道系统，实在是让我费解...
+betterquesting.quest.MwRByyNxQt-LfGgUqm8QDQ.desc=远程请求并不总是那么方便.只要您在请求物流管道的范围内,远程请求器就可以接受请求并将其发送到与之绑定的请求物流管道.%n%n如果你有末影箱和末影袋子，组合使用它们非常有用...%n%n[note]注：可惜末影箱和末影袋子被IV等级和神秘时代所限制... 而在这个阶段为什么有人会使用物流管道系统，实在是让我费解...[/note]
 
 # Quest: Get Those Machines to Work
 betterquesting.quest.N8isBrjBRNe-3f-IHVymDg.name=让这些机器工作起来
@@ -11534,7 +11534,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABMw.desc=你发现这颗珍珠会对你�
 
 # Quest: Shards of Opposite Worlds
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABNQ.name=相反世界的碎片
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABNQ.desc=今天早上,你只想往死里打自己的脸.在你过去的旅程中,你已经见过了许多不同颜色的神奇的碎片.但是和你每天使用的那些基础要素的碎片不同,这两种碎片似乎包含了它们所在世界的原始本质.天堂和地狱....两个截然相反的世界.%n%n你认为可以用它们来制造一些...强力的东西.%n%n§3PS：对,我知道合成时不会消耗珍珠,不过接受这个故事设定,好吗?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABNQ.desc=今天早上,你只想往死里打自己的脸.在你过去的旅程中,你已经见过了许多不同颜色的神奇的碎片.但是和你每天使用的那些基础要素的碎片不同,这两种碎片似乎包含了它们所在世界的原始本质.天堂和地狱....两个截然相反的世界.%n%n你认为可以用它们来制造一些...强力的东西.%n%n[note]PS：对,我知道合成时不会消耗珍珠,不过接受这个故事设定,好吗?[/note]
 
 # Quest: Unleashed the Power - Cowl
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABNg.name=释放力量-头巾
@@ -11650,7 +11650,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqA.desc=这是除了毕业装备/创造
 
 # Quest: These Items Will Not 'Be Back'
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRw.name=这些东西不会'回来'了
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALRw.desc=这种珍珠比较实用的用途之一,就是制造更好的炼金炉. 通过这种炼金炉,你可以用更快的速度,将物品炼成源质.%n%n§3在合成过程中,珍珠不会被消耗,也不会损失耐久.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALRw.desc=这种珍珠比较实用的用途之一,就是制造更好的炼金炉. 通过这种炼金炉,你可以用更快的速度,将物品炼成源质.%n%n[note]在合成过程中,珍珠不会被消耗,也不会损失耐久.[/note]
 
 
 ## Quest Line: Focus on Wand Foci & EMT
@@ -11703,7 +11703,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUQ.desc=你找到了一个黄色的发�
 
 # Quest: The One Ring
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUg.name=魔戒
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUg.desc=你找到了,一枚由强大的黑巫师锻造的戒指.一种奇怪的感觉告诉你:穿上它.戒指似乎也在向你耳语...%n%n§4不过你最好别这么做.除非你想获得大量的扭曲,凋灵在你的屁股后面生成,然后把你的基地炸上天.§r%n%n魔戒会使你§1隐身§r且§1无敌§r,但同时这枚戒指也会不断收集§5扭曲§r,并反馈到你身上.佩戴1小时后,增量会明显变快,所以除非你有的是纯净泪水,不要长时间佩戴.这枚戒指还会带来其他状态,同时戴上后想拿下来就不是那么简单的事情了.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUg.desc=你找到了,一枚由强大的黑巫师锻造的戒指.一种奇怪的感觉告诉你:穿上它.戒指似乎也在向你耳语...%n%n[note]不过你最好别这么做.除非你想获得大量的扭曲,凋灵在你的屁股后面生成,然后把你的基地炸上天.[/note]%n%n魔戒会使你§1隐身§r且§1无敌§r,但同时这枚戒指也会不断收集§5扭曲§r,并反馈到你身上.佩戴1小时后,增量会明显变快,所以除非你有的是纯净泪水,不要长时间佩戴.这枚戒指还会带来其他状态,同时戴上后想拿下来就不是那么简单的事情了.
 
 # Quest: Wand Focus Fire
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXA.name=法杖核心:火焰
@@ -11747,7 +11747,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaA.desc=法杖核心:伊芙利特之辉
 
 # Quest: Wand Focus Dislocation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaQ.name=法杖核心:转移
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaQ.desc=法杖核心:转移允许玩家采集和放置任何方块,甚至是方块实体和通常无法获得的东西,如充能灵气节点、充能节点、刷怪笼、已种植的IC作物等等.%n%n§4请勿随意使用,移动不该移动的方块,比如半边门、多方块结构的一部分,这很容易损坏存档. 换句话说,如果你是单人玩家,在备份完毕后可以为所以为,只要出问题了别找我们就行.§r §4§r%n%n§4移动充能节点会造成一次咒波大爆炸,请谨慎使用.§r%n%n它消耗:%n5vis秩序+5vis混沌+1vis地之要素采集任何固体方块.%n25vis秩序+25vis混沌+5vis地之要素可以采集任何实体方块(例如箱子).%n100vis秩序+100vis混沌+20vis地之要素采集刷怪笼.%n%n这个核心可以在核心镶饰台升级.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaQ.desc=法杖核心:转移允许玩家采集和放置任何方块,甚至是方块实体和通常无法获得的东西,如充能灵气节点、充能节点、刷怪笼、已种植的IC作物等等.%n%n[warn]请勿随意使用,移动不该移动的方块,比如半边门、多方块结构的一部分,这很容易损坏存档. 换句话说,如果你是单人玩家,在备份完毕后可以为所以为,只要出问题了别找我们就行.[/warn]%n%n[note]移动充能节点会造成一次咒波大爆炸,请谨慎使用.[/note]%n%n它消耗:%n5vis秩序+5vis混沌+1vis地之要素采集任何固体方块.%n25vis秩序+25vis混沌+5vis地之要素可以采集任何实体方块(例如箱子).%n100vis秩序+100vis混沌+20vis地之要素采集刷怪笼.%n%n这个核心可以在核心镶饰台升级.
 
 # Quest: Wand Focus Mending
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFag.name=法杖核心:愈合
@@ -11912,7 +11912,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMvA.desc=恐惧之刺(dreadthorne)类似
 
 # Quest: Roses Are Blood-Red
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMvQ.name=玫瑰是血红的
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMvQ.desc=娇媚之刺(bellethorne)是一种有趣的小花,它§c§c§r§4永无止境地渴求着血液§r,不过好在不包括你的血.只要提供了足够的魔力,它就会对附近的任何生物实体造成伤害,玩家除外.这是很好的额外一层防御措施,可以放在你游戏前期的竹子堡垒入口处.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMvQ.desc=娇媚之刺(bellethorne)是一种有趣的小花,它[warn]永无止境地渴求着血液[/warn],不过好在不包括你的血.只要提供了足够的魔力,它就会对附近的任何生物实体造成伤害,玩家除外.这是很好的额外一层防御措施,可以放在你游戏前期的竹子堡垒入口处.
 
 # Quest: Magic Blue Dust
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMvg.name=蓝色的魔法粉末
@@ -12065,7 +12065,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGGw.desc=沉睡之酿是巫师进入精�
 
 # Quest: The Spirit World - Nightmare
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGHA.name=精神世界-噩梦
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGHA.desc=精神世界是一个反映现实主世界地形的替代现实.当人们做梦时,他们往往最终会进入精神世界而浑然不觉(往往作为其中的众多居民之一出现).强大的巫师可以制造出沉睡之酿,使他们可以将清醒的意识传送到精神世界,留下他们的身体和装备.%n%n精神世界是纤细棉花,扰乱棉花(制作织梦者的材料)和甜蜜饥饿的唯一来源.水心之酿也只能在精神世界中制造.%n%n很少有东西可以带入精神世界,或从精神世界带出--在前往那里时要记住这一点(冰针总是会留在物品栏中).纤细棉花,扰乱棉花,甜蜜饥饿和水心之酿可以从精神世界带到现实世界.%n%n两个重要的事项需要注意:圆环法阵在精神世界中不起作用;而且末影人无法进入精神世界.%n%n§3如果你是欧皇,直接进入了美梦世界,那么记得收集至少16个纤细棉花.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGHA.desc=精神世界是一个反映现实主世界地形的替代现实.当人们做梦时,他们往往最终会进入精神世界而浑然不觉(往往作为其中的众多居民之一出现).强大的巫师可以制造出沉睡之酿,使他们可以将清醒的意识传送到精神世界,留下他们的身体和装备.%n%n精神世界是纤细棉花,扰乱棉花(制作织梦者的材料)和甜蜜饥饿的唯一来源.水心之酿也只能在精神世界中制造.%n%n很少有东西可以带入精神世界,或从精神世界带出--在前往那里时要记住这一点(冰针总是会留在物品栏中).纤细棉花,扰乱棉花,甜蜜饥饿和水心之酿可以从精神世界带到现实世界.%n%n两个重要的事项需要注意:圆环法阵在精神世界中不起作用;而且末影人无法进入精神世界.%n%n[note]如果你是欧皇,直接进入了美梦世界,那么记得收集至少16个纤细棉花.[/note]
 
 # Quest: Early Bird Gets the...Nightmare?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGHg.name=早起的鸟儿得到了...噩梦？
@@ -12085,7 +12085,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIQ.desc=厄运之息是许多合成表�
 
 # Quest: Tormented Twine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIg.name=折磨线团
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIg.desc=折磨线团是使用转轮从干扰棉花纺出的. 它是制作织梦者的一种成分. 它是用干扰棉花、血灼之线和厄运之息,通过转轮制成的.%n%n§4你需要T2的血魔法祭坛才能制作这种线,所以要是你想继续推进,却还没做过它的话,请转到血魔法章节.%n%n§r祭坛必须在附近为转轮提供动力.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIg.desc=折磨线团是使用转轮从干扰棉花纺出的. 它是制作织梦者的一种成分. 它是用干扰棉花、血灼之线和厄运之息,通过转轮制成的.%n%n[warn]你需要T2的血魔法祭坛才能制作这种线,所以要是你想继续推进,却还没做过它的话,请转到血魔法章节.[/warn]%n%n祭坛必须在附近为转轮提供动力.
 
 # Quest: Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGIw.name=蒸馏塔
@@ -12105,7 +12105,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGJg.desc=钻石熏气是一种成分,它
 
 # Quest: Foul Fume
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGJw.name=邪恶熏气
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGJw.desc=邪恶熏气(通常称为二氧化硫)是许多配方中使用的成分. 当在巫师烤炉中烹制原版食物(比如面包或生肉)或丛林树苗时,它会随机获得.%n%n§4目前,在巫师烤炉中烧烤食物和原木的配方是坏的,请烤制树苗.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGJw.desc=邪恶熏气(通常称为二氧化硫)是许多配方中使用的成分. 当在巫师烤炉中烹制原版食物(比如面包或生肉)或丛林树苗时,它会随机获得.%n%n[warn]目前,在巫师烤炉中烧烤食物和原木的配方是坏的,请烤制树苗.[/warn]
 
 # Quest: The Spirit World - Dream
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGKA.name=精神世界-美梦
@@ -12233,7 +12233,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHw.desc=巫媒(Taglock-Kit)用于收集
 
 # Quest: Mutandis Extremis
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIA.name=超级转生粉
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIA.desc=超级转生粉是转生粉的升级版,巫师们常用它来使植物突变为其他物种.超级转生粉具有转生粉的所有属性,但它可用于多阶段的植物,如小麦、仙人掌等.它还可以使熟肉突变.%n%n如果在草方块上使用超级转生粉,有一定几率使其突变为菌丝,反之亦然.%n%n对水下的泥土使用超级转生粉,有一定几率使其周围的泥土突变为粘土.%n%n突变植物是获取山梨树、山楂树和赤杨树苗的唯一方法.%n%n某些配方需要超级转生粉作为配料.%n%n超级转生粉可由转生粉与地狱疣制成.%n%n§3某些巫师炼药锅配方需要祭坛能量.超级转生粉就是其中之一.请先阅读《巫师酿造手册》.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIA.desc=超级转生粉是转生粉的升级版,巫师们常用它来使植物突变为其他物种.超级转生粉具有转生粉的所有属性,但它可用于多阶段的植物,如小麦、仙人掌等.它还可以使熟肉突变.%n%n如果在草方块上使用超级转生粉,有一定几率使其突变为菌丝,反之亦然.%n%n对水下的泥土使用超级转生粉,有一定几率使其周围的泥土突变为粘土.%n%n突变植物是获取山梨树、山楂树和赤杨树苗的唯一方法.%n%n某些配方需要超级转生粉作为配料.%n%n超级转生粉可由转生粉与地狱疣制成.%n%n[note]某些巫师炼药锅配方需要祭坛能量.超级转生粉就是其中之一.请先阅读《巫师酿造手册》.[/note]
 
 # Quest: Mandrake Noise Protection
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIQ.name=曼德拉噪音防护
@@ -12313,7 +12313,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJeA.desc=现在你有了蟾蜍和猫头�
 
 # Quest: Greenhouses on Mountains, Hell on Earth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJeQ.name=山巅的温室,地上的炼狱
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJeQ.desc=你就快完成了! 想要让仪式发挥效果,你需要先召集聚会女巫. 寻找聚会女巫并完成她们交付的任务:%n掌控亡者的奥义(The means to control the dead) -> 死灵石%n统治恶魔位面的暴力手段(The beating means to master the infernal dimension) -> 恶魔之心%n我必须施展许多诅咒,为我带回必要的药水 -> 怪诞之酿药水 x5%n我想预知未来(I desire to predict the future) -> 水晶球%n另外还有些战斗任务.%n%n完成任务后,聚会女巫就会消失,直到你召唤她们. 当你经过自己的出生点时,聚会女巫偶尔会出现在附近,所以不要把出生点放在岩浆或别的什么上面,因为聚会女巫会死的,并降低你的聚会数量. 你最多拥有6名聚会女巫,还可以有一名额外的女巫帮助你进行炼药锅仪式. 可以考虑在地牢里留几个聚会女巫以防万一.%n%n等你的聚会召集完毕后,只需要再准备仪式本身所需物品即可: 蜘蛛眼、青蛙趾、蝙蝠毛、狗之舌、小毛头鹰之翼、调谐之石和调谐之石(充能).%n%n指定生物群系: 查看生态之书,然后查找 1) 类型 (森林、平原等等),2) 记住序号. 类型决定了所需的核心,序号决定了获得特定生物群系所需的萤石粉数量. 记得将圆环法阵打包进环形护身符中,这样你就不用重新绘制了,然后携带一些圆石准备搭个平台 (15x15,任意高度). 尽量别在夜晚进行此仪式,除非你喜欢与恶魔打交道.%n%n想要进行仪式,你需要将圆环法阵放置到地上(译者注: 环形护身符右键地面即可,以右键处为圆心展开所保存的圆环法阵,若法阵环上有障碍物则会失败),仪式物品(包括核心与萤石粉)在圆环之内,然后手持先知之石右键法阵中心.%n%n有效范围由你的聚会女巫数量决定. 以16*(聚会女巫数量-3)为半径的圆,要是不失败的话,半径就会是16/32/48这几个数字.%n%n不幸的是,当你退出重新登录后,有时会发现在一些特定的区块并未生效,这(可能)是因为区块更新有限,并未能正确保存改变的生物群系ID. 单纯地重新进行仪式并不会有什么效果,相反仪式结束后,退出之前,放置水可能会有助于解决此问题. 或者用鸡也行. 得用很多鸡...%n%n另外,如果你在范围里种植过作物,它们在方块更新或者重新登录前会消失.%n%n§3PS：想要把你的圆环法阵重新打包回家,你最好带上祭坛.%n译者注: 其实使用带有调谐之石(充能)的那个绑定仪式即可.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJeQ.desc=你就快完成了! 想要让仪式发挥效果,你需要先召集聚会女巫. 寻找聚会女巫并完成她们交付的任务:%n掌控亡者的奥义(The means to control the dead) -> 死灵石%n统治恶魔位面的暴力手段(The beating means to master the infernal dimension) -> 恶魔之心%n我必须施展许多诅咒,为我带回必要的药水 -> 怪诞之酿药水 x5%n我想预知未来(I desire to predict the future) -> 水晶球%n另外还有些战斗任务.%n%n完成任务后,聚会女巫就会消失,直到你召唤她们. 当你经过自己的出生点时,聚会女巫偶尔会出现在附近,所以不要把出生点放在岩浆或别的什么上面,因为聚会女巫会死的,并降低你的聚会数量. 你最多拥有6名聚会女巫,还可以有一名额外的女巫帮助你进行炼药锅仪式. 可以考虑在地牢里留几个聚会女巫以防万一.%n%n等你的聚会召集完毕后,只需要再准备仪式本身所需物品即可: 蜘蛛眼、青蛙趾、蝙蝠毛、狗之舌、小毛头鹰之翼、调谐之石和调谐之石(充能).%n%n指定生物群系: 查看生态之书,然后查找 1) 类型 (森林、平原等等),2) 记住序号. 类型决定了所需的核心,序号决定了获得特定生物群系所需的萤石粉数量. 记得将圆环法阵打包进环形护身符中,这样你就不用重新绘制了,然后携带一些圆石准备搭个平台 (15x15,任意高度). 尽量别在夜晚进行此仪式,除非你喜欢与恶魔打交道.%n%n想要进行仪式,你需要将圆环法阵放置到地上(译者注: 环形护身符右键地面即可,以右键处为圆心展开所保存的圆环法阵,若法阵环上有障碍物则会失败),仪式物品(包括核心与萤石粉)在圆环之内,然后手持先知之石右键法阵中心.%n%n有效范围由你的聚会女巫数量决定. 以16*(聚会女巫数量-3)为半径的圆,要是不失败的话,半径就会是16/32/48这几个数字.%n%n不幸的是,当你退出重新登录后,有时会发现在一些特定的区块并未生效,这(可能)是因为区块更新有限,并未能正确保存改变的生物群系ID. 单纯地重新进行仪式并不会有什么效果,相反仪式结束后,退出之前,放置水可能会有助于解决此问题. 或者用鸡也行. 得用很多鸡...%n%n另外,如果你在范围里种植过作物,它们在方块更新或者重新登录前会消失.%n%n[note]PS：想要把你的圆环法阵重新打包回家,你最好带上祭坛.[/note]%n译者注：其实使用带有调谐之石(充能)的那个绑定仪式即可.
 
 # Quest: Dreams of Gold
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxw.name=黄金之梦
@@ -12671,7 +12671,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADhQ.desc=OK,这是个迷宫.还有,那�
 
 # Quest: A Big Ugly Snake
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADhg.name=大丑蛇
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADhg.desc=一般来说,制作你第一根法杖需要一个丑陋的生物.%n%n§3想要在暮色森林中持续推进,你需要一步一个脚印依次完成成就.它们§o经常§r §3出bug,所以,请将BOSS的掉落物反复丢出、捡起.没错,有的时候首次捡起这些掉落物的时候,mod脑子一抽,我们都懂的.%n%n另外,如果你不是使用近战攻击杀死BOSS的话,任务书3(BQ3)§o也§r §3有可能无法正确检测到击杀,所以想要完成这些任务的话(错失了第一次机会),请使用硬币章节买到的刷怪蛋,然后等到BOSS残血的时候跟他站撸吧.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADhg.desc=一般来说,制作你第一根法杖需要一个丑陋的生物.%n%n[note]想要在暮色森林中持续推进,你需要一步一个脚印依次完成成就.它们经常出bug,所以,请将BOSS的掉落物反复丢出、捡起.没错,有的时候首次捡起这些掉落物的时候,mod脑子一抽,我们都懂的.[/note]%n%n[note]另外,如果你不是使用近战攻击杀死BOSS的话,任务书3(BQ3)也有可能无法正确检测到击杀,所以想要完成这些任务的话(错失了第一次机会),请使用硬币章节买到的刷怪蛋,然后等到BOSS残血的时候跟他站撸吧.[/note]
 
 # Quest: Adventure Time!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADhw.name=冒险时间!
