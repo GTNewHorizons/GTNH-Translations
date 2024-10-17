@@ -43,9 +43,9 @@ entity.sickBlaze.name=Infected Zealot
 
 //Tile Entities
 tile.blockToolBuilder.name=GregTech Tool Constructor
-tile.blockEggBox.name=Egg Box
+tile.blockEggBox.name=Ящик для яиц
 tile.blockCircuitProgrammer.name=Программатор
-tile.blockDecayablesChest.name=Lead Lined Box
+tile.blockDecayablesChest.name=Ящик  со свинцовым покрытием
 tile.blockVolumetricFlaskSetter.name=Конфигуратор мерной колбы
 tile.blockSuperLight.name=Сияющая Звезда
 tile.blockPestKiller.name=Pest Killer
@@ -193,7 +193,7 @@ tile.blockCompressedObsidian.1.name=Двойной сжатыйобсидиан 
 tile.blockCompressedObsidian.2.name=Тройной сжатый обсидиан (729)
 tile.blockCompressedObsidian.3.name=Четверной сжатый обсидиан (6561)
 tile.blockCompressedObsidian.4.name=Пятикратносжатый обсидиан (59049)
-tile.blockCompressedObsidian.5.name=Inverted Obsidian
+tile.blockCompressedObsidian.5.name=Инвертированный обсидиан
 tile.blockCompressedObsidian.6.name=Сжатый светокамень (9)
 tile.blockCompressedObsidian.7.name=Двойной сжатый светокамень (81)
 tile.blockCompressedObsidian.8.name=Тройной сжатый светокамень (729)
@@ -221,7 +221,7 @@ item.Ammonium.name=Капсула аммония
 item.AmmoniumTetrafluoroberyllate.name=Капсула тетрафторобериллата аммония
 
 //Resources
-item.itemCoalCoke.name=Coking Coal
+item.itemCoalCoke.name=Коксующийся уголь
 item.itemHydrogenBlob.name=Mysterious Hydrogen Blob
 
 //Normal Items
@@ -256,13 +256,13 @@ item.itemGemShards.tooltip=Алмазный кристалл
 item.itemHalfCompleteCasings.name=Half Complete Casing
 item.itemSulfuricPotion.name=Метательная колба с серной кислотой
 item.itemHydrofluoricPotion.name=Метательная колба с плавиковой кислотой
-item.itemBaseItemHotFood.tooltip.0=§7Warning: §cVery hot!§7 Avoid direct handling..
-item.itemBaseItemHotFood.tooltip.1=This food has %d seconds left, until it is cool.
+item.itemBaseItemHotFood.tooltip.0=§7Предупреждение: §cОчень горячий!§7 Избегайте прямого обращения..
+item.itemBaseItemHotFood.tooltip.1=У этой еды осталось %d секунд, пока она не остынет.
 item.itemBoilerChassis.name=Advanced Boiler Chassis [Tier %d]
 item.itemDehydratorCoilWire.name=Провод катушки [%s]
 item.itemDehydratorCoil.name=Катушка дегидратора [%s]
 item.itemLavaFilter.name=Лавовый фильтр
-item.itemLavaFilter.tooltip=Filters Lava within a Thermal Boiler.
+item.itemLavaFilter.tooltip=Фильтрует лаву в Тепловом бойлере.
 item.itemGrindleTablet.name=Grindle
 item.itemGrindleTablet.tooltip=Used to read data from DataSticks & DataOrbs.
 item.itemDragonJar.0.name=Dragon Capture Jar
@@ -1631,9 +1631,9 @@ item.itemGregtechPump.tooltip.0=Cannot drain any other standard fluid container 
 item.itemGregtechPump.tooltip.1=Cannot be emptied via RMB, use inside a tank with GUI
 item.itemGregtechPump.tooltip.2=This is technically just a fancy fluid cell
 item.itemGregtechPump.tooltip.3=No Fluids Contained
-item.itemBaseEuItem.tooltip.0=§eElectric
-item.itemBaseEuItem.tooltip.1=Contains %d EU   Tier: %d
-item.itemBaseEuItem.tooltip.2=Empty. You should recycle it properly.
+item.itemBaseEuItem.tooltip.0=§eЭлектрический
+item.itemBaseEuItem.tooltip.1=Содержит %s EU   Тир: %s
+item.itemBaseEuItem.tooltip.2=Пустой. Вы должны правильно перерабатывать.
 item.itemBaseEuItem.tooltip.3=%d / %d EU - Вольтаж: %d
 item.itemDebugClearing.name=Debug Square [%d]
 item.itemDebugClearing.0.tooltip=Режим: Очистка
@@ -2174,8 +2174,8 @@ item.itemHatTinFoil.name=Шапочка из фольги
 
 //Added 13/9/18
 entity.Aboriginal.name=Native
-entity.miscutils.constructStaballoy.name=Staballoy Construct
-entity.miscutils.sickBlaze.name=Infected Zealot
+entity.miscutils.constructStaballoy.name=Стабаллой голем
+entity.miscutils.sickBlaze.name=Заражённый фанатик
 
 //Added 15/9/18
 item.ZirconiumTetrafluoride.name=Капсула тетрафторида циркония
@@ -2906,7 +2906,7 @@ item.itemBombCasing.name=Bomb Casing
 item.gtpp.throwable.bomb.name=Throwable Bomb
 item.itemDetCable.name=Bomb Fuse
 tile.blockPooCollector.0.name=Agricultural Sewer
-tile.blockPooCollector.8.name=Biocomposite Collector
+tile.blockPooCollector.8.name=Биокомпозитный коллектор
 item.itemIngotBakelite.name=Бакелитовый слиток
 item.itemDustBakelite.name=Бакелитовая пыль
 item.itemDustTinyBakelite.name=Крошечная кучка бакелитовой пыли
@@ -3143,7 +3143,7 @@ item.LiquidHydrogen.name=Капсула жидкого водорода [LOH]
 tile.blockDoorAlloy.name=Укреплённая дверь
 tile.blockInhibitorObelisk.name=Inhibitor Obelisk
 tile.Battlesign.name=Battlesign
-tile.blockMagicBox.name=Magic Box
+tile.blockMagicBox.name=Магический ящик
 tile.blockManaPod.name=Mana Pod Stem
 tile.buildToolBlock.name=Блок инструментов
 tile.blockRedPlasma.name=Red Plasma Block
@@ -3332,12 +3332,12 @@ item.FrothPyropeflotation.name=Капсула пиропного флотаци�
 item.T3RecipeSelector.name=Programmed Breakthrough Circuit
 
 //Added 03/05/20
-entity.miscutils.batKing.name=Spectral Bat
+entity.miscutils.batKing.name=Спектральная летучая мышь
 entity.miscutils.bigChickenFriendly.name=Гигантская курица
-entity.miscutils.AusDingo.name=Dingo
-entity.miscutils.AusBoar.name=Wild Boar
-entity.miscutils.AusSpider.name=Forest Spider
-entity.miscutils.AusOctopus.name=Octopus
+entity.miscutils.AusDingo.name=Динго
+entity.miscutils.AusBoar.name=Дикий кабан
+entity.miscutils.AusSpider.name=Лесной паук
+entity.miscutils.AusOctopus.name=Осьминог
 container.EggBox=Ящик для инкубации яиц
 
 //Added 24/05/20
