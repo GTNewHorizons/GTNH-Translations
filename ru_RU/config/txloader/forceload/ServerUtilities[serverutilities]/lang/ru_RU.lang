@@ -15,8 +15,8 @@ serverutilities.lang.god_on=God mode turned on for %s
 serverutilities.lang.god_off=God mode turned off for %s
 serverutilities.lang.heal=%s has been healed
 serverutilities.lang.permissions_dumped=%s permissions successfully dumped to file at: %s.
-serverutilities.disabled.config=Disabled in config
-serverutilities.disabled.server=Disabled by server
+serverutilities.disabled.config=Отключено в конфигурации
+serverutilities.disabled.server=Отключено сервером
 serverutilities.navigator.button=Show Server Utilities Claims Overlay
 serverutilities.unsaved_changes.title=Unsaved Changes
 serverutilities.unsaved_changes=You have unsaved changes. Do you want to save them?
@@ -250,8 +250,8 @@ player_config.serverutilities.render_badge=Рендерить мой значо�
 player_config.serverutilities.enable_pvp=Включить PVP
 player_config.serverutilities.nickname=Никнейм
 player_config.serverutilities.afk=Положение уведомления AFK
-player_config.serverutilities.show_team_prefix=Show Team Prefix In Chat
-player_config.serverutilities.show_team_prefix.info=§rAdd [%s] as a prefix to your chat messages
+player_config.serverutilities.show_team_prefix=Показать префикс команды в чате
+player_config.serverutilities.show_team_prefix.info=§rДобавить [%s] в качестве префикса к сообщениям чата
 
 # Team Settings
 team_config.serverutilities.display=Отображение
@@ -351,16 +351,16 @@ commands.chunks.unload_all.usage=/chunks unload_all [dimension] [player]
 commands.chunks.unclaim_everything.usage=/chunks unclaim_everything [dimension]
 commands.chunks.unload_everything.usage=/chunks unload_everything [dimension]
 commands.chunks.info.usage=/chunks info
-commands.chunks.info.text=Chunk %d:%d in %s: %s
-commands.chunks.info.not_claimed=Not claimed
+commands.chunks.info.text=Чанк %d:%d в %s: %s
+commands.chunks.info.not_claimed=Не занят
 commands.chunks.claim_as.usage=/chunks claim_as <server team> [radius in chunks]
-commands.chunks.claim_as.not_server_team=Team %s is not a server team! Use /team create_server_team <name>
+commands.chunks.claim_as.not_server_team=Команда %s не является серверной командой! Используйте /team create_server_team <name>
 commands.kickme.usage=/kickme
 commands.ranks.none=Нет
 commands.ranks.usage=/ranks
 commands.ranks.not_found=Ранг '%s' не найден!
 commands.ranks.create.usage=/ranks create <id> [parent]
-commands.ranks.create.id_invalid=Invalid rank ID: '%s'. It must be alphanumeric & lowercase!
+commands.ranks.create.id_invalid=еверный ID ранга: '%s'. Он должен состоять из букв, цифр и строчных букв!
 commands.ranks.create.id_exists=Ранг '%s' уже существует!
 commands.ranks.create.added=Ранг %s добавлен!
 commands.ranks.info.usage=/ranks info <rank|player>
@@ -398,7 +398,7 @@ commands.rec.usage=/rec
 commands.rec.recording=%s is now recording!
 commands.rec.not_recording=%s is no longer recording!
 commands.ping.integrated_server=Integrated Server
-commands.ping.unknown=Unknown
+commands.ping.unknown=Неизвестно
 commands.ping.ping=Ping %s
 commands.backup.usage=/backup
 commands.backup.start.usage=/backup start <file name>
@@ -414,8 +414,8 @@ commands.team.transfer_ownership.usage=/team transfer_ownership <player>
 commands.team.kick.usage=/team kick <player>
 commands.team.join.usage=/team join <team>
 commands.team.status.usage=/team status <player> [set_status]
-commands.team.status.set=Status for %s set to %s
-commands.team.status.cant_set=Status can't be set!
+commands.team.status.set=Статус для %s установлен на %s
+commands.team.status.cant_set=Невозможно установить статус!
 commands.team.msg.usage=/team msg <message...>
 commands.team.delete.usage=/team delete <team>
 commands.team.request_invite.usage=/team request_invite <team>
@@ -427,7 +427,7 @@ commands.team.info.owner=Владелец: %s
 commands.team.info.members=Участники: %s
 commands.team.get.usage=/team get <player>
 commands.team.list.usage=/team list
-commands.team.list.teams=List of all teams (%d):
+commands.team.list.teams=Список всех команд (%d):
 commands.add_fake_player.usage=/add_fake_player <uuid> <name>
 commands.god.usage=/god <player>
 commands.rtp.usage=/rtp
@@ -437,7 +437,7 @@ commands.dump_permissions.usage=/dump_permissions
 # Chunks
 serverutilities.lang.chunks.cant_modify_chunk=Не удается изменить этот чанк!
 serverutilities.lang.chunks.unclaimed_all=Отзаявлены все чанки
-serverutilities.lang.chunks.chunk_claimed=Чанк заявлен
+serverutilities.lang.chunks.chunk_claimed=Чанк занят
 serverutilities.lang.chunks.chunk_unclaimed=Чанк отзаявлен
 serverutilities.lang.chunks.chunk_loaded=Чанк загружен
 serverutilities.lang.chunks.chunk_unloaded=Чанк выгружен
@@ -463,9 +463,9 @@ serverutilities.lang.warps.set=Варп '%s' установлен!
 serverutilities.lang.warps.del=Варп '%s' удален!
 serverutilities.lang.warps.not_set=Неизвестный варп: '%s'!
 serverutilities.lang.warps.cooldown=Вы можете использовать варп только в %s!
-serverutilities.lang.warps.tp=Teleported to '%s'!
+serverutilities.lang.warps.tp=Телепортирован в '%s'!
 serverutilities.lang.warps.no_dp=Вы можете вернуться только один раз!
-serverutilities.lang.warps.no_pos_found=No position to go back to!
+serverutilities.lang.warps.no_pos_found=Нет позиции, на которую можно вернуться!
 
 # Homes
 serverutilities.lang.homes.set=Дом '%s' установлен!
@@ -474,7 +474,7 @@ serverutilities.lang.homes.not_set=Неизвестный дом: '%s'!
 serverutilities.lang.homes.cooldown=Вы можете использовать дом только в %s!
 serverutilities.lang.homes.cross_dim=Вы не можете телепортироваться в другое измерение!
 serverutilities.lang.homes.limit=Вы не можете установить больше домашних мест!
-serverutilities.lang.homes.spectator=Exit spectator mode first!
+serverutilities.lang.homes.spectator=Сначала выйдите из режима зрителя!
 
 # TPA
 serverutilities.lang.tpa.from_to=%s -> %s
@@ -486,7 +486,7 @@ serverutilities.lang.tpa.request_expired=TPA запрос истек!
 serverutilities.lang.tpa.request_accepted=TPA запрос принят!
 
 # RTP
-serverutilities.lang.rtp.fail=Could not find a valid location to teleport to!
+serverutilities.lang.rtp.fail=Не удалось найти подходящее место для телепортации!
 
 # Client Commands
 commands.client_config.usage=/client_config
@@ -495,21 +495,21 @@ commands.scan_items.usage=/scan_items
 commands.print_item.usage=/print_item
 
 # Forge
-commands.tree_base.invalid_cmd=Invalid subcommand '%s'!
-commands.tree_base.invalid_cmd.list_subcommands=Invalid subcommand '%s'! Available subcommands: %s
-commands.tree_base.available_subcommands=Available SubCommands: %s
+commands.tree_base.invalid_cmd=Неверная подкоманда '%s'!
+commands.tree_base.invalid_cmd.list_subcommands=Неверная подкоманда '%s'! Доступные подкоманды: %s
+commands.tree_base.available_subcommands=Доступные подкоманды: %s
 
 # Backup
-cmd.timer_backup=Next backup: %s
-cmd.backup_start=Server Backup started!
-cmd.backup_stop=Server Backup stopped!
-cmd.backup_end_1=Server backup done in %s!
-cmd.backup_end_2=Server backup done in %s! (%s)
+cmd.timer_backup=Следующее резервное копирование: %s
+cmd.backup_start=Резервное копирование сервера началось!
+cmd.backup_stop=Резервное копирование сервера остановлено!
+cmd.backup_end_1=Резервное копирование сервера выполнено в %s!
+cmd.backup_end_2=Резервное копирование сервера выполнено в %s! (%s)
 cmd.backup_fail=Ошибка при сохранении мира! (%s)
-cmd.backup_manual_launch=%s launched a manual backup!
-cmd.backup_already_running=Backup in progress!
-cmd.backup_not_running=Backup is not running!
-cmd.backup_size=Current world size: %s, total backups folder size: %s
+cmd.backup_manual_launch=%s запустил ручное резервное копирование!
+cmd.backup_already_running=Выполняется резервное копирование!
+cmd.backup_not_running=Резервное копирование не запущено!
+cmd.backup_size=Текущий размер мира: %s, общий размер папки резервных копий: %s
 
 # Gui
 ## Buttons
