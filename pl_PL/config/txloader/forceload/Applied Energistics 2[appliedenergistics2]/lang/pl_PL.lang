@@ -112,7 +112,7 @@ chat.appliedenergistics2.PriorityReadout=Aktualny priorytet to %d
 chat.appliedenergistics2.PriorityConfigured=Zaktualizowano priorytet do %d
 chat.appliedenergistics2.DriveLocked=Digital Singularity cells in drive were locked to the current item on them
 chat.appliedenergistics2.ChestLocked=Digital Singularity cell in chest was locked to the current item on it
-chat.appliedenergistics2.FinishCraftingRemind=Job for crafting %s * %s is finished, total used %s.
+chat.appliedenergistics2.FinishCraftingRemind=Zadanie tworzenia %s * %s zostało zakończone, trwało to łącznie %s.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -127,7 +127,7 @@ gui.appliedenergistics2.RedstoneTunnel=Redstone
 gui.appliedenergistics2.EUTunnel=EU
 gui.appliedenergistics2.RFTunnel=RF
 gui.appliedenergistics2.LightTunnel=Światło
-gui.appliedenergistics2.SoundTunnel=Sound
+gui.appliedenergistics2.SoundTunnel=Dźwięk
 gui.appliedenergistics2.OCTunnel=OpenComputers
 gui.appliedenergistics2.PressureTunnel=Ciśnienie
 gui.appliedenergistics2.GTTunnel=GT EU
@@ -257,7 +257,7 @@ gui.appliedenergistics2.ToCraftRequests=Kroki
 gui.appliedenergistics2.CraftingPlan=Plan Wytwarzania
 gui.appliedenergistics2.Automatic=Automatycznie
 gui.appliedenergistics2.Start=Start
-gui.appliedenergistics2.Merge=Merge
+gui.appliedenergistics2.Merge=Połącz
 gui.appliedenergistics2.Missing=Brakuje
 gui.appliedenergistics2.NoCraftingTreeReceived=Nie otrzymano drzewka wytwarzania
 gui.appliedenergistics2.CraftingStepLimitExceeded=Przekroczono limit kroków wytwarzania
@@ -318,8 +318,8 @@ gui.appliedenergistics2.Orange=Orange
 gui.appliedenergistics2.Red=Red
 gui.appliedenergistics2.TypesInfo=Typy
 gui.appliedenergistics2.BytesInfo=Bajty
-gui.appliedenergistics2.ToFollow=Follow
-gui.appliedenergistics2.ToUnfollow=Unfollow
+gui.appliedenergistics2.ToFollow=Śledź
+gui.appliedenergistics2.ToUnfollow=Nie śledź 
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -457,7 +457,7 @@ gui.tooltips.appliedenergistics2.SaveSearchString=Zapisz Ciąg Wyszukiwania
 gui.tooltips.appliedenergistics2.SaveSearchStringYes=Tak
 gui.tooltips.appliedenergistics2.SaveSearchStringNo=Nie
 gui.tooltips.appliedenergistics2.DoublePattern=Podwójny wzorzec
-gui.tooltips.appliedenergistics2.DoublePatternHint=Podwaja rozmiary stosu wejść i wyjść wzorca, jeśli może. x8, gdy przytrzymany jest shift. Kliknij prawym przyciskiem myszy, aby podzielić. Kliknij środkowy przycisk myszy, aby dostosować mnożnik.
+gui.tooltips.appliedenergistics2.DoublePatternHint=Podwaja rozmiary schematu. x8, gdy przytrzymany jest shift. Kliknij prawym przyciskiem myszy, aby podzielić. Kliknij środkowy przycisk myszy, aby dostosować mnożnik.
 gui.tooltips.appliedenergistics2.DoublePatterns=Podwójne wzorce
 gui.tooltips.appliedenergistics2.DoublePatternsHint=Podwaja rozmiary stosu wejść i wyjść wzorca, jeśli może. x8, gdy przytrzymany jest shift. Kliknij prawym przyciskiem myszy, aby podzielić.
 gui.tooltips.appliedenergistics2.CraftingStatus=Status Wytwarzania
@@ -524,8 +524,8 @@ gui.tooltips.appliedenergistics2.PriorityCardMode_Dec=Zastosuj priorytet do cel�
 gui.tooltips.appliedenergistics2.MultiplyPattern=Pomnóż
 gui.tooltips.appliedenergistics2.DividePattern=Podziel
 gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=Jeśli jest dodatnia, jest mnożona przez tę liczbę. Jeśli jest ujemna, dzieli przez tę liczbę. Nie zadziała, jeśli liczba nie jest podzielna.
-gui.tooltips.appliedenergistics2.ToFollow=Click to follow this craft and receive message when it is complete\nYou are not following this crafting job right now
-gui.tooltips.appliedenergistics2.ToUnfollow=Click to stop following this craft\nYou are following this crafting job and will receive chat message when it's complete
+gui.tooltips.appliedenergistics2.ToFollow=Kliknij, aby śledzić to zadanie i otrzymać wiadomość po jego ukończeniu. \nNie śledzisz teraz tego zadania.
+gui.tooltips.appliedenergistics2.ToUnfollow=Kliknij, aby przestać śledzić to zadanie \nŚledzisz to zadanie i otrzymasz wiadomość na czacie po jego zakończeniu.
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
