@@ -418,8 +418,8 @@ GT5U.gui.button.down_tier=Down Tier
 GT5U.gui.button.tier=Тир:
 GT5U.gui.button.forbidden=§4Нельзя изменить режим для этого механизма
 GT5U.gui.button.forbidden_while_running=§4Нельзя изменить режим во время работы
-GT5U.gui.button.chunk_loading_on=§7Chunk Loading: §aON
-GT5U.gui.button.chunk_loading_off=§7Chunk Loading: §4OFF
+GT5U.gui.button.chunk_loading_on=§7Загрузка чанков: §aВКЛ
+GT5U.gui.button.chunk_loading_off=§7Загрузка чанков: §aВЫКЛ
 GT5U.gui.button.ore_drill_radius_1=§7Текущий радиус: §a%s
 GT5U.gui.button.ore_drill_radius_2=§7Left-click to increment, right-click to decrement
 GT5U.gui.button.ore_drill_cobblestone_on=§7Replace with cobblestone: §aON
@@ -500,14 +500,14 @@ GT5U.gui.text.structure_incomplete=§7Shut down due to incomplete structure.
 GT5U.gui.text.no_repair=§7Shut down due to machine damage.
 GT5U.gui.text.no_machine_part=§7No correct machine part in controller slot.
 
-GT5U.item.programmed_circuit.select.header=Reprogram Circuit
+GT5U.item.programmed_circuit.select.header=Схема перепрограммирования
 
 # Note to translators: this translation entry is supposed to be a number indicating how many taunts you define here
 # Game will randomly display one of them
 GT5U.item.programmed_circuit.no_screwdriver.count=3
-GT5U.item.programmed_circuit.no_screwdriver.0=Trying to mangle a CIRCUIT with your bare hand again huh?
-GT5U.item.programmed_circuit.no_screwdriver.1=Your thumb is not a screwdriver. Try a real one.
-GT5U.item.programmed_circuit.no_screwdriver.2=Chuck Norris stares at the circuit until it reprograms itself. You do not.
+GT5U.item.programmed_circuit.no_screwdriver.0=Опять пытаетесь изуродовать СХЕМУ голой рукой?
+GT5U.item.programmed_circuit.no_screwdriver.1=Ваш большой палец - не отвёртка. Попробуйте настоящую.
+GT5U.item.programmed_circuit.no_screwdriver.2=Чак Норрис смотрит на схему, пока она сама себя не перепрограммирует. А вы - нет.
 
 GT5U.item.cable.max_voltage=Макс. вольтаж
 GT5U.item.cable.max_amperage=Макс. ампераж
@@ -515,20 +515,20 @@ GT5U.item.cable.loss=Потеря на блок/ампер
 GT5U.item.cable.eu_volt=EU-Вольт
 GT5U.item.tank.locked_to=Content locked to %s
 
-GT5U.hatch.disableFilter.true=Входной фильтр §aВыкл.§r
-GT5U.hatch.disableFilter.false=Входной фильтр §aВкл.§r
-GT5U.hatch.disableMultiStack.true=Мульти стак вход §cВыкл.§r
-GT5U.hatch.disableMultiStack.false=Мульти стак вход §cВкл.§r
-GT5U.hatch.disableSort.true=Режим сортировки §cВыкл.§r
-GT5U.hatch.disableSort.false=Режим сортировки §cВкл.§r
-GT5U.hatch.disableLimited.true=Limiting mode §cOff§r
-GT5U.hatch.disableLimited.false=Limiting mode §aOn§r
-GT5U.hatch.infiniteCache.true=ME Output bus will infinitely cache item, until you connect it to ME
-GT5U.hatch.infiniteCache.false=ME Output bus will stop accepting items when offline for more than 2 seconds
-GT5U.hatch.infiniteCacheFluid.true=ME Output hatch will infinitely cache fluid, until you connect it to ME
-GT5U.hatch.infiniteCacheFluid.false=ME Output hatch will stop accepting fluid when offline for more than 2 seconds
-GT5U.hatch.additionalConnection.true=ME channels connect to any side
-GT5U.hatch.additionalConnection.false=ME channels connect to front side only
+GT5U.hatch.disableFilter.true=Входной фильтр §aВыкл§r
+GT5U.hatch.disableFilter.false=Входной фильтр §aВкл§r
+GT5U.hatch.disableMultiStack.true=Мульти стак вход §cВыкл§r
+GT5U.hatch.disableMultiStack.false=Мульти стак вход §cВкл§r
+GT5U.hatch.disableSort.true=Режим сортировки §cВыкл§r
+GT5U.hatch.disableSort.false=Режим сортировки §cВкл§r
+GT5U.hatch.disableLimited.true=Ограничительный режим §cВыкл§r
+GT5U.hatch.disableLimited.false=Ограничительный режим §cВкл§r
+GT5U.hatch.infiniteCache.true=ME Выходной люк будет бесконечно кэшировать предметы, пока вы не подключите его к ME
+GT5U.hatch.infiniteCache.false=ME Выходной люк перестанет принимать предметы, если находится офлайне более 2 секунд
+GT5U.hatch.infiniteCacheFluid.true=ME Выходной шлюз будет бесконечно кэшировать жидкости, пока вы не подключите его к ME
+GT5U.hatch.infiniteCacheFluid.false=ME Выходной шлюз перестанет принимать жидкости, если находится офлайне более 2 секунд
+GT5U.hatch.additionalConnection.true=ME каналы подключаются к любой стороне
+GT5U.hatch.additionalConnection.false=ME каналы подключаются только к передней стороне
 
 GT5U.multiblock.pollution=Загрязнение снижено до
 GT5U.multiblock.energy=Энергии накоплено
@@ -632,13 +632,13 @@ nei.options.tools.dump.gt5u.mode.1=Используемые
 # Waila
 GT5U.waila.cover=Модуль (%s): %s
 GT5U.waila.cover.current_facing=Текущая сторона
-GT5U.waila.energy.stored=Stored: §a%s§r EU / §e%s§r EU
-GT5U.waila.energy.avg_in_with_amperage=Average Input: §a%s§r EU/t (%sA %s)
-GT5U.waila.energy.avg_out_with_amperage=Average Output: §c%s§r EU/t (%sA %s)
-GT5U.waila.energy.use=Probably uses: §e%s§r EU/t (%s)
-GT5U.waila.energy.use_with_amperage=Probably uses: §e%s§r EU/t (%sA %s)
-GT5U.waila.energy.produce=Probably generates: §a%s§r EU/t (%s)
-GT5U.waila.energy.produce_with_amperage=Probably generates: §a%s§r EU/t (%sA %s)
+GT5U.waila.energy.stored=Хранится: §a%s§r EU / §e%s§r EU
+GT5U.waila.energy.avg_in_with_amperage=В среднем вводит: §a%s§r EU/t (%sA %s)
+GT5U.waila.energy.avg_out_with_amperage=В среднем выводит: §c%s§r EU/t (%sA %s)
+GT5U.waila.energy.use=Сейчас используется: §e%s§r EU/t (%s)
+GT5U.waila.energy.use_with_amperage=Сейчас используется: §e%s§r EU/t (%sA %s)
+GT5U.waila.energy.produce=Сейчас генерирует: §a%s§r EU/t (%s)
+GT5U.waila.energy.produce_with_amperage=Сейчас генерирует: §a%s§r EU/t (%sA %s)
 GT5U.waila.stocking_bus.auto_pull.enabled=Авто-подача из ME: Включено
 GT5U.waila.stocking_bus.auto_pull.disabled=Авто-подача из ME: Выключено
 GT5U.waila.stocking_bus.min_stack_size=Мин. размер стака: %s
@@ -1361,7 +1361,7 @@ fluid.Calcium Chloride=Хлорид кальция
 fluid.Acidic Osmium Solution=Кислотный раствор осмия
 fluid.Osmium Solution=Раствор осмия
 fluid.Acidic Iridium Solution=Кислотный раствор иридия
-fluid.Rhodium Salt Solution=Раствор соли родия
+fluid.Rhodium Salt Solution=Раствор солей родия
 fluid.Rhodium Filter Cake Solution=Раствор фильтрованного родиевого кека
 fluid.Pollution=Загрязнение
 fluid.SodiumPotassium=Нитрат калия
@@ -1416,13 +1416,13 @@ fluid.MeatExtract=Мясной экстракт
 fluid.CompressedOxygen=Сжатый Кислород
 fluid.CompressedNitrogen=Сжатый Азот
 fluid.redplasma=красная плазма
-fluid.tile.fluidBlockSludge=fluidBlockSludge
+fluid.tile.fluidBlockSludge=жидкостной Блок Шлама
 # No Texture
 fluid.guano=Гуано
-fluid.poo=poo
+fluid.poo=какашки
 fluid.sewerage=sewerage
 fluid.fuelgc=fuelgc
-fluid.dirtywater=dirtywater
+fluid.dirtywater=грязная вода
 fluid.oilgc=oilgc
 
 # Space projects
