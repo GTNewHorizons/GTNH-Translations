@@ -126,7 +126,7 @@ tile.blockNetherRuneMob.12.name=Руннический обсидиан (Сли�
 tile.blockNetherRuneMob.13.name=Руннический обсидиан (Летучая мышь)
 tile.blockNetherRuneMob.14.name=Руннический обсидиан (Висп)
 tile.blockAmnesiac.name=Камень амнезии
-tile.blockXPStone.name=Soul Stone
+tile.blockXPStone.name=Камень душ
 tile.blockXPJar.name=Jar of Enchanter's Concentrate
 tile.blockMobLure.name=Соблазн сирены
 tile.blockDimensionLure.name=Dimensional Lure
@@ -439,7 +439,7 @@ Automagy.research_page.DIMENSIONLURE.5=§l   §nRuned Obsidian (Blaze)§r<BR>Wit
 Automagy.research_page.DIMENSIONLURE.6=<LINE>You are certain that you could devise a variant of runed obsidian for many other creatures of the Nether. It should only take a little field research.<BR>Scan your target with your handy thaumometer and then take it down in combat. That should reveal what you need to know, if there's anything to know.<LINE>
 
 Automagy.research_name.NETHERRUNE_ZOMBIE=Руннический обсидиан: Зомби
-Automagy.research_text.NETHERRUNE_ZOMBIE=Oooh, shiny!
+Automagy.research_text.NETHERRUNE_ZOMBIE=Ооо, блестяшка!
 Automagy.research_page.NETHERRUNE_ZOMBIE.1=Zombie pigmen are a rather dim lot. All it takes to lure them through the rift is the promise of shiny things and juicy brains.<BR>Careful, though: Dense as they are, one might still realize it was tricked and become very, very angry.<BR>§lNethermind§r - Cost per conjuration: %s.<BR>§lLure§r - Cost per %s conjurations: %s.<BR>§lInstability§r: §9Minor§0.
 
 Automagy.research_name.NETHERRUNE_GHAST=Руннический обсидиан: Гаст
@@ -494,7 +494,7 @@ Automagy.research_text.ENTROPICREFINING=Turn it up to eleven
 Automagy.research_page.ENTROPICREFINING.1=The shards obtained from infused stone contain only a fraction of the magic found within the ore. With some careful adjustments to the entropic processing procedure, you should be able to extract more of that potential from the stone than normal, albeit in sliver form.
 # More from the sum of its parts
 
-Automagy.research_name.XPSTONE=Soul Stone
+Automagy.research_name.XPSTONE=Камень душ
 Automagy.research_text.XPSTONE=Total recall
 Automagy.research_page.XPSTONE.1=The brain in a jar has a rather limited capacity for stored experience. (This shouldn't be a surprise, given where you found the key ingredient.) While the Amnesiac's Stone helps to extract those memories, it cannot make room for the new without losing the old. To work around this issue, you have created a new type of stone.<BR>When a block of §lSoul Stone§r is placed next to an Amnesiac's Stone which is beneath a brain in a jar, then experience will be drained from the brain, seeping into the soul stone.<BR>Should the stone contain more experience than the brain above, the
 Automagy.research_page.XPSTONE.2=Amnesiac's Stone will begin working in the other direction, pulling from the soul stone until the brain can hold no more.<BR>This simple setup is all you need to increase the effective capacity of your jarred brains, but the soul stones, too, will eventually be filled and, on their own, they don't solve the portability issue. Breaking one destroys a portion of the stored experience and drops the rest. Fortunately, more can be done.<BR>Soul stones are, in a sense, porous. Memories slowly permeate the stone which acts as a filter of sorts, concentrating them as they flow.<BR>Eventually, the essence is condensed enough to be held in a more
@@ -572,7 +572,7 @@ Automagy.tip.enderDisjunction=Рядом с эндерменом
 Automagy.tip.focusCrafting.stored1=(проведение 1 стака)
 Automagy.tip.focusCrafting.stored=(держа %s стаков)
 Automagy.tip.golemWorkbenchUpgrade.0=Speed-boosted Crafting
-Automagy.tip.golemWorkbenchUpgrade.1=Additional Recipe
+Automagy.tip.golemWorkbenchUpgrade.1=Дополнительный рецепт
 Automagy.tip.golemWorkbenchUpgrade.3=Strength-boosted Crafting
 Automagy.tip.golemWorkbenchUpgrade.5=Multipurpose Recipes
 Automagy.tip.jarXP=%s уровней (%s xp)
@@ -690,9 +690,9 @@ Automagy.gui.scribe.mirrors=Зеркала
 Automagy.gui.scribeMirror.input=Вход
 Automagy.gui.scribeMirror.output=Выход
 Automagy.gui.scribeMirror.valid=Connected
-Automagy.gui.scribeMirror.outranged=Out of range
-Automagy.gui.scribeMirror.noMirror=Mirror not found
-Automagy.gui.scribeMirror.unlinked=Mirror isn't linked
+Automagy.gui.scribeMirror.outranged=Вне зоны действия
+Automagy.gui.scribeMirror.noMirror=Зеркало не найдено
+Automagy.gui.scribeMirror.unlinked=Зеркало не привязано
 
 Automagy.gui.focusCrafting.visLow=Недостаточно Вис
 Automagy.gui.focusCrafting.staff.1=Жезл: Земной
@@ -721,7 +721,7 @@ wailaTip.redcrystalPowerMin=[мин. %s]
 wailaTip.hourglassTimerSec=Таймер: %s секунд
 wailaTip.hourglassTimerSecOne=Таймер: 1 секунда
 wailaTip.hourglassTimerMinSec=Таймер: %s мин. %s сек.
-wailaTip.hourglassTimerCountdown=         %s:%s remaining
+wailaTip.hourglassTimerCountdown=         %s:%s осталось
 wailaTip.golemInhibitorMatchOmit=Режим: Исключение связанных големов
 wailaTip.golemInhibitorMatchExclusive=Режим: Только связанные големы
 wailaTip.golem.linkedBlock=Связан с %s на %s
