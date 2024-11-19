@@ -750,7 +750,7 @@ tile.botania:shinyFlower13.name=緑色のきらめく花
 tile.botania:shinyFlower14.name=赤色のきらめく花
 tile.botania:shinyFlower15.name=黒色のきらめく花
 tile.botania:platform0.name=難解なプラットフォーム
-tile.botania:platform1.name=幽霊のプラットフォーム
+tile.botania:platform1.name=おばけプラットフォーム
 tile.botania:platform2.name=丈夫なプラットフォーム
 tile.botania:alfheimPortal.name=エルフのゲートのコア
 tile.botania:blockDarkQuartz.name=くすんだクォーツブロック
@@ -2293,36 +2293,36 @@ botania.page.dreamwoodSpreader2=このすでに強力な射出装置 を&1ガイ
 botania.page.dreamwoodSpreader3=ULTRA_SPREADER
 
 # -- ELVEN MANA LENSES
-botania.entry.elvenLenses=Elven Mana Lenses
-botania.tagline.elvenLenses=Advanced Mana Lenses with new abilities
-botania.page.elvenLenses0=The knowledge of mana handling methods of alfheim comes, of course, with an array of new &1Mana Lenses&0 that can be experimented with.<br>Unlike common overworld-y lenses, these are a bit more ubiquitous in their uses...
-botania.page.elvenLenses1=First off, the &1Paintslinger Lens&0. This lens needs to be dyed one of the 16 colors of the spectrum to function. When a burst with its effect hits a colorable block (&1Wool, Stained Clay or Glass&0...) it'll turn any blocks connected, of the same type and color, into the color of the &4Mana Burst&0 itself. It seems to work with &4Sheep&0 too.
-botania.page.elvenLenses2=Paintslinger Lens
-botania.page.elvenLenses3=The &1Warp Lens&0 is an interesting one. A burst with its effect, when colliding with a &1Force Relay&0 will teleport to the end position of said &1Force Relay&0, maintaining its momentum. Furthermore, when it's used as a composite material to a &1Bore Lens&0 (the &1Bore Lens&0 must be visible) it'll make the lens not break &1Force Relays&0 or &1Pistons&0, as well as teleport any blocks to the spot where the burst was fired.
-botania.page.elvenLenses4=Warp Lens
-botania.page.elvenLenses5=The &1Redirective Lens&0 will only work when fired from a &1Mana Spreader&0. Any burst with its effect that would collide against a &1Mana Spreader&0, aside from the normal &4Mana&0 transfer interaction, also makes the spreader point towards the one that fired the burst.
-botania.page.elvenLenses6=Redirective Lens
-botania.page.elvenLenses7=The &1Celebratory Lens&0 functions much akin to the common &1Entropic Lens&0, however, instead of exploding, it creates a festive firework dyed the color of the burst.
-botania.page.elvenLenses8=Celebratory Lens
-botania.page.elvenLenses9=The &1Flare Lens&0 takes over a &1Mana Spreader&0's functionality, preventing it from firing any bursts. Instead, the spreader becomes a continuous particle burst of the color the lens is dyed, in the direction the spreader is firing.<br>There's surely plenty of decorative uses for this.
-botania.page.elvenLenses10=Flare Lens
+botania.entry.elvenLenses=エルフのマナレンズ
+botania.tagline.elvenLenses=新たな能力を持つ進化したマナレンズ
+botania.page.elvenLenses0=アルフヘイムのマナに関す る知識には、新たな&1マナレ ンズ&0に関するものもありま す。<br>一般的なオーバーワールド のレンズとは異なり、それ らの用途は少し普遍的では ありますが……。
+botania.page.elvenLenses1=まずは、&1着色レンズ&0です。 このレンズを機能させるに は、16色のいずれかに染色 する必要があります。バー ストが着色可能なブロック （&1羊毛、テラコッタ、ガラ ス&0など）に当たると、種類 と色が同じつながっている すべてのブロックが&4マナバー スト&0の色になります。これ は&4羊&0も同様です。
+botania.page.elvenLenses2=着色レンズ
+botania.page.elvenLenses3=&1転移レンズ&0は面白いレンズ です。これの効果を持つバー ストは、&1フォース中継器&0に 衝突すると勢いを維持した まま&1フォース中継器&0の終了 地点にテレポートします。 さらに&1掘削レンズ&0と組み合 わせた場合、&1フォース中継 器&0や&1ピストン&0を破壊せず、 バーストが発射された地点 にブロックをテレポートさ せます（&1掘削レンズ&0が可視 状態である必要があります）。
+botania.page.elvenLenses4=転移レンズ
+botania.page.elvenLenses5=&1反転レンズ&0は、&1マナ射出装 置&0から発射された場合にの み機能します。バーストが &1マナ射出装置&0に衝突した場 合、通常の&4マナ&0移動の相互 作用とは別に、射出装置を バーストが発射した方向に 向けます。
+botania.page.elvenLenses6=反転レンズ
+botania.page.elvenLenses7=&1祝福レンズ&0は&1爆発レンズ&0と 似た機能を持ちますが、爆 発する代わりにバーストと 同じ色の花火を打ち上げま す。
+botania.page.elvenLenses8=祝福レンズ
+botania.page.elvenLenses9=&1フレアレンズ&0は&1マナ射出装 置&0の機能を引き継ぎつつ、 バーストを発射できなくさ せます。その代わり、射出 装置が発射する方向にレン ズと同じ色のパーティクル バーストを発生させます。<br>装飾としての使い道はたく さんあると思います。
+botania.page.elvenLenses10=フレアレンズ
 
 # -- MANA PRISM
-botania.entry.prism=Mana Prism
-botania.tagline.prism=Switch a Mana Burst's effective Lens on the fly
-botania.page.prism0=The concept of &1Mana Lens&0 allows for the manipulation of the power convyed through &4Mana Bursts&0, the &1Mana Prism&0 works on that technology to allow a burst to have its lens effect switched on the fly.<br>Using a &1Spectral Platform&0 as a component, this block does not have a physical presence, entities and bursts can go through it as if it doesn't exist.
-botania.page.prism1=Right clicking it with any variety of &1Mana Lens&0 sets the lens in the prism. Whenever a &4Mana Burst&0 goes through the prism, its color and effect will be set to that of the lens in the prism. Case the lens is not dyed, the burst will turn white.<br>Using any of the four basic lenses also increases the time the burst can go before losing &4Mana&0, allowing it to go further.
-botania.page.prism2=It can also be turned off by the use of a redstone signal.
-botania.page.prism3=Another pixel in the wall
+botania.entry.prism=マナプリズム
+botania.tagline.prism=マナバーストのレンズ効果をその場で切替
+botania.page.prism0=&1マナレンズ&0のコンセプトは &4マナバースト&0を通じて伝達 されるパワーを操作できる ようにし、&1マナプリズム&0は その技術を応用してバース トのレンズ効果をその場で 切り替えることができます。<br>材料として&1おばけプラット フォーム&0を使用すると、物 理的にはブロックが存在し ないかのようになり、エン ティティやバーストが通過 できるようになります。
+botania.page.prism1=いずれかの&1マナレンズ&0で右 クリックすると、プリズム にレンズがセットされます。 &4マナバースト&0がプリズムを 通過するたび、バーストの 色や効果がプリズムのレン ズのものになります。染色 されていない場合、白にな ります。<br>また、4つの基本レンズの いずれかを使用することで、 &4マナ&0を失うまでの時間が長 くなり、より遠くまで届く ようになります。
+botania.page.prism2=レッドストーン信号を使用 することでオフにすること ができます。
+botania.page.prism3=壁のもう一つのピクセル
 
 # -- MANA ON RAILS
-botania.entry.poolCart=Mana on Rails
-botania.tagline.poolCart=This is not a web framework
-botania.page.poolCart0=What could be an easier way to transport &4Mana&0 over large distances than attaching a &1Mana Pool&0 to a &1Minecart&0 and watch it do the merry-go-round? It's simple. Similarly to other types of carts, one can create a &1Minecart with Mana Pool&0 that can store and transport &4Mana&0 on rails.<br>Breaking the cart while there's any &4Mana&0 in it will waste the &4Mana&0, care should be taken with it.
-botania.page.poolCart1=Transfering &4Mana&0 between the cart and a pool is done with a &1Mana Pump&0. It can face any of the four cardinal directions and will transfer &4Mana&0 between a pool adjacent to it and a cart with a pool on an rail opposite to the target pool.<br>The transfer rate is extremely fast due to the mechanical nature, so fast that overflow is possible, causing &4Mana Loss&0.
-botania.page.poolCart2=The side of the pump where the &4Mana&0 will go towards is the pink one, &4Mana&0 is pulled from the blue side.<br>The pump can be turned off with redstone, and a &1Comparator&0 on it will output how much &4Mana&0 exists in the cart.<br>Lastly, a pool on a cart serves purely for transport, and can not receive, send, transfer or infuse any items with its &4Mana&0.
-botania.page.poolCart3=I like trains
-botania.page.poolCart4=This is not a pipe
+botania.entry.poolCart=マナ・オン・レイルズ
+botania.tagline.poolCart=Webフレームワークではありません
+botania.page.poolCart0=&1トロッコ&0に&1マナプール&0を乗 せてメリーゴーランドを眺 めるよりも簡単な&4マナ&0の長 距離輸送手段が果たしてあ るのでしょうか？ 他のト ロッコと同じように、&1マナ プール付きのトロッコ&0を作 成してレールの上で&4マナ&0を 貯蔵・運搬できるのですか ら。<br>&4マナ&0を貯蔵しているトロッ コを破壊すると、その&4マナ&0 が消えるので注意しましょ う。
+botania.page.poolCart1=プールからトロッコへの &4マナ&0の移動は&1マナポンプ&0を 使います。これは4方向の いずれかに向けることがで き、隣接するプールと反対 側のレールにあるプール付 きトロッコの間で&4マナ&0をや り取りします。<br>機械としての性質上、輸送 速度はとても速いですが、 オーバーフローが起きて &4マナの損失&0が発生する可能 性があります。
+botania.page.poolCart2=&4マナ&0はポンプの青色の面か らピンク色の面に送られま す。<br>ポンプはレッドストーンで オフにすることができ、 &1コンパレーター&0を使うとト ロッコの&4マナ&0量を出力でき ます。<br>最後に、トロッコ上のプー ルは輸送のためのものであ り、&4マナ&0をアイテムと受け 渡ししたり注入したりする ことはできません。
+botania.page.poolCart3=電車が好き
+botania.page.poolCart4=パイプではない
 
 # -- SPARK TINKERER
 botania.entry.sparkChanger=Spark Tinkerer
