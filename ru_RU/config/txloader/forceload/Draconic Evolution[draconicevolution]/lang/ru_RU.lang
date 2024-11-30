@@ -157,7 +157,7 @@ msg.cKeyStoneType0.txt=Активируется навсегда (При наж�
 msg.cKeyStoneType1.txt=Работает подобно кнопке
 msg.cKeyStoneType2.txt=Работает подобно переключателю
 msg.cKeyStoneType3.txt=Работает подобно кнопке (При нажатии забирает ключ)
-msg.draconiumChestEditmode.txt=Режим редактирования цвета 
+msg.draconiumChestEditmode.txt=Режим редактирования цвета =
 msg.draconiumChestRed.txt=Красный =
 msg.draconiumChestGreen.txt=Зелёный =
 msg.draconiumChestBlue.txt=Синий =
@@ -269,7 +269,7 @@ info.de.manual.introTxt.txt=Вся нужная информация в одно
 info.de.manual.indexButton.txt=Оглавление
 info.de.manual.indexButtonTip.txt=Перейти к оглавлению
 info.de.manual.contributors.txt=Авторы Draconic Evolution
-info.de.manual.name.txt=Имя 
+info.de.manual.name.txt=Имя
 info.de.manual.contribution.txt=Вклад
 info.de.manual.clickToGoToSite.txt=(Кликните на имя, чтобы открыть сайт)
 info.de.manual.contributorsButton.txt=Авторы
@@ -426,7 +426,7 @@ key.placeItem=Положить предмет в мир
 key.toolConfig=Изменение настроек GUI предмета
 key.toolProfileChange=Смена режима настроек инструмента
 key.toggleFlight=Включить творческий полёт
-key.toggleMagnet=Переключить магнит 
+key.toggleMagnet=Переключить магнит
 
 //Damage ----------------------------------------------------------------------------------------------------------------------------------------
 death.attack.chaos=%1$s был разорван Хранителем Хаоса
@@ -483,7 +483,7 @@ button.de.AxeTreeMode.name=Режим "Дерево"
 button.de.BaseSafeAOE.name=Безопасный режим
 button.de.VerticalAcceleration.name=Вертикальное ускорение
 button.de.EffectiveOnSprint.name=Активация верт. ускор. кнопкой "Бег"
-button.de.GogglesOfRevealing.name=Магическое чутье 
+button.de.GogglesOfRevealing.name=Магическое чутье
 button.de.ApiaristArmor.name=Защита пчеловода
 button.de.NaturalistArmor.name=Очки Натуралиста
 button.de.BowArrowSpeedModifier.name=Модификатор скорости стрелы
@@ -566,9 +566,9 @@ gui.de.particleGenerator.info.2=  The first thing to note is that most fields ha
 gui.de.particleGenerator.info.3=  - The next 3 fields (Motion X, Y & Z) control the direction and speed of the particle.\n  - The "Life" field sets how long (in ticks) before the particle despawns.\n  - The "Scale" field sets the size of the particle.\n  - The next 3 fields (Spawn X, Y & Z) Sets the spawn location of the particle (relative to the location of the particle generator).
 gui.de.particleGenerator.info.4=  - The "Delay" field sets the delay (in ticks) between each particle spawn e.g. 1=20/s, 20=1/s, 100=1/5s.\n  - The "Fade" field sets how long (in ticks) it takes the particle to fade out of existance. Note: This adds to the life of the particle.\n  - The "Gravity" field sets how the particle is affected by gravity.\n  - "Block Collision" Toggles weather or not the particle will collide with blocks.\n  - "Particle Selected" switches between the different particles available.
 gui.de.particleGenerator.info.5.title=Контроль сигналом красного камня\n\n
-gui.de.particleGenerator.info.5=Изначально сигнал красного камня нужен, чтобы запустить генератор.\nОднако нажав Shift+ПКМ по генератору с пустой рукой он переключится в инвертированный режим.\nРежим красного камня отображается 8 кубами по углам блока.
+gui.de.particleGenerator.info.5=  Изначально сигнал красного камня нужен, чтобы запустить генератор.\n  Однако нажав Shift+ПКМ по генератору с пустой рукой он переключится в инвертированный режим.\n  Режим красного камня отображается 8 кубами по углам блока.
 gui.de.particleGenerator.info.6.title=Контроль компьютером\n\n
-gui.de.particleGenerator.info.6=Генератор может контроллироваться компьютером.\nОн предоставляет относительно простой API:\n\nsetGeneratorProperty(property, value)\ngetGeneratorState()\nresetGeneratorState()
+gui.de.particleGenerator.info.6=  Генератор может контроллироваться компьютером.\n  Он предоставляет относительно простой API:\n\n  setGeneratorProperty(property, value)\n  getGeneratorState()\n  resetGeneratorState()
 gui.de.particleGenerator.info.7=  Generator state is obtained as a whole from getGeneratorState, whereas properties are modified one at a time using setGeneratorProperty. Property names are strings and mostly correspond to button labels in the GUI.
 
 gui.de.insert.txt=Вставить
