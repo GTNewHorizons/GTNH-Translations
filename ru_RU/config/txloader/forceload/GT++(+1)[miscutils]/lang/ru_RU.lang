@@ -8,7 +8,7 @@ itemGroup.MiscUtilOtherTab=[GT++] Предметы II
 itemGroup.MiscUtilBOP=[GT++] Biomes O'Plenty Additions
 
 //Debug
-item.AAA_Broken.name=[Несуществующий элемент] Сообщите об этом рецепте на Github, пожалуйста.
+item.AAA_Broken.name=[Несуществующий предмет] Сообщите об этом рецепте на Github, пожалуйста.
 item.itemBedLocator_Base.name=Bed Locator [NBT Test]
 item.itemBaseItemWithCharge.name=Base Chargeable Item
 item.miscutils_itemDebugShapeSpawner.name=[Debug] Shapes
@@ -29,7 +29,7 @@ misc.BatchModeTextOff=Don't batch recipes
 //Alternative Materials
 item.itemPlateBatteryAlloy.name=Пластина из аккумуляторного сплава
 item.itemIngotBatteryAlloy.name=Слиток из аккумуляторного сплава
-item.itemStickyRubber.name=Gumlet of Sticky Rubber
+item.itemStickyRubber.name=Кусочек липкой резины
 
 //Unused Fuel rods
 item.itemFuelRod_Empty.name=Пустой топливный стержень
@@ -115,10 +115,10 @@ gtpp.nei.rtg.days=Стоимость топлива: %s Minecraft дней
 gtpp.nei.solar_tower.1=Solar Heater rings boost tier
 gtpp.nei.solar_tower.2=R1:T1, R2:T2, R3:T4, R4:T8, R5:T16
 gtpp.nei.solar_tower.3=Input Amount = 1000 x T
-gtpp.nei.tgs.1=The sapling is not consumed.
-gtpp.nei.tgs.2=If %s is provided,
-gtpp.nei.tgs.3=Saplings are made instead.
-gtpp.nei.tgs.sapling=Outputted if %s is provided
+gtpp.nei.tgs.1=Саженец не расходуется.
+gtpp.nei.tgs.2=Если указан %s,
+gtpp.nei.tgs.3=Вместо этого выращивают саженцы.
+gtpp.nei.tgs.sapling=Выводится, если указан %s
 
 gtpp.nei.tgs.tooltip.sapling=Поместите в слот контроллера машины
 gtpp.nei.tgs.tooltip.saw=Поместите в входной люк для сбора брёвен
@@ -129,25 +129,25 @@ gtpp.nei.tgs.tooltip.shears=Поместите в входной люк для �
 gtpp.nei.tgs.tooltip.needsShears=Для сбора урожая требуется ножницы
 gtpp.nei.tgs.tooltip.knife=Поместите в входной люк для сбора фруктов
 gtpp.nei.tgs.tooltip.needsKnife=Для сбора урожая требуется нож
-gtpp.nei.tgs.tooltip.multiplier=Output multiplier:
-gtpp.nei.tgs.info-1=Output is further boosted
-gtpp.nei.tgs.info-2=by machine energy tier
-gtpp.nei.tgs.info-3=and tool type
+gtpp.nei.tgs.tooltip.multiplier=Выходной множитель:
+gtpp.nei.tgs.info-1=Производительность дополнительно повышается
+gtpp.nei.tgs.info-2=за счет тира механизма
+gtpp.nei.tgs.info-3=и типа инструмента
 
 
 //Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=Ведро пылающего пиротеума
 item.MiscUtils.bucket.bucketCryotheum.name=Ведро ледяного криотеума
-item.MiscUtils.bucket.bucketEnder.name=Resonant Ender Bucket
+item.MiscUtils.bucket.bucketEnder.name=Ведро резонирующего эндера
 item.MiscUtils.material.dustPyrotheum.name=Пыль пиротеума
 item.MiscUtils.material.dustCryotheum.name=Пыль криотеума
-item.MiscUtils.material.rodBlizz.name=Blizz Rod
-item.MiscUtils.material.dustBlizz.name=Blizz порошок
+item.MiscUtils.material.rodBlizz.name=Стержень бурана
+item.MiscUtils.material.dustBlizz.name=Бурановый порошок
 
 //------------- 'miscutils' is Case Sensitive Here, unsure why
 tile.miscutils.fluid.pyrotheum.name=Пылающий пиротеум
 tile.miscutils.fluid.cryotheum.name=Ледяной криотеум
-tile.miscutils.fluid.ender.name=Resonant Ender
+tile.miscutils.fluid.ender.name=Резонирующий эндер
 //--------------
 
 //Forestry Stuff
@@ -268,7 +268,7 @@ item.itemGrindleTablet.tooltip=Used to read data from DataSticks & DataOrbs.
 item.itemDragonJar.0.name=Dragon Capture Jar
 item.itemDragonJar.0.tooltip=Does not contain anything.
 item.itemDragonJar.1.name=Captured Dragon Jar
-item.itemDragonJar.1.tooltip=Contains a %s.
+item.itemDragonJar.1.tooltip=Содержит %s.
 item.itemControlCore.name=Ядро управления [%s]
 item.itemControlCore.tooltip.0=Позволяет мультиблоку функционировать до %s
 item.itemControlCore.tooltip.1=Required Tier is determined by the sum of the eu/t of all Energy Inputs
@@ -1630,14 +1630,14 @@ item.itemCustomMetaCover.miscutils.GtMachineCasings=%s Machine Plate Cover
 item.itemGregtechPump.tooltip.0=Cannot drain any other standard fluid container block
 item.itemGregtechPump.tooltip.1=Cannot be emptied via RMB, use inside a tank with GUI
 item.itemGregtechPump.tooltip.2=This is technically just a fancy fluid cell
-item.itemGregtechPump.tooltip.3=No Fluids Contained
+item.itemGregtechPump.tooltip.3=Не содержит жидкость
 item.itemBaseEuItem.tooltip.0=§eЭлектрический
 item.itemBaseEuItem.tooltip.1=Содержит %s EU   Тир: %s
 item.itemBaseEuItem.tooltip.2=Пустой. Вы должны правильно перерабатывать.
 item.itemBaseEuItem.tooltip.3=%d / %d EU - Вольтаж: %d
-item.itemDebugClearing.name=Debug Square [%d]
+item.itemDebugClearing.name=Отладочный квадрат [%d]
 item.itemDebugClearing.0.tooltip=Режим: Очистка
-item.itemDebugClearing.1.tooltip=Mode: Fill
+item.itemDebugClearing.1.tooltip=Режим: Заполнение
 
 //Multitools
 item.AluminiumMultipick.name=Алюминиевая мульти кирка
@@ -1885,7 +1885,7 @@ item.personalCloakingDevice.tooltip.3=§7Тир: [§e%d§7] Лимит ввод�
 item.personalCloakingDevice.tooltip.4=§7Текущая энергия: [§e%d§7EU] [§e%.2f%%§7]
 item.personalCloakingDevice.tooltip.5=§7Осталось времени: [§e%d§7 секунд]
 item.personalHealingDevice.name=§9Персональный Наноускоритель исцеления§r
-item.SlowBuildingRing.name=§eSlow Building Ring§7
+item.SlowBuildingRing.name=§eКольцо медленного строительства§7
 item.SlowBuildingRing.tooltip.0=§aWorn as a Ring within Baubles. Prevents you from sprinting.§7
 item.SlowBuildingRing.tooltip.1=§aMovement speed reduced to crouch speed.§7
 item.SlowBuildingRing.tooltip.2=§aPress shift while worn to toggle crouch on/off.§7
@@ -2086,15 +2086,15 @@ tile.blockMFEffect.name=Special
 tile.fluidBlockSludge.name=Осадок
 tile.blockWorkbenchGT.name=Верстак
 tile.blockWorkbenchGTAdvanced.name=Улучшенный верстак
-tile.blockHeliumGenerator.name=Helium Generator
+tile.blockHeliumGenerator.name=Гелиевый генератор
 tile.blockFirePit.name=Огненная яма
 tile.blockFishTrap.name=Рыболовная ловушка
 tile.blockInfiniteFluidTank.name=Бесконечный жидкостный резервуар
 tile.blockMiningExplosives.name=Mining Explosives
-tile.blockHellFire.name=Hellish Fire
+tile.blockHellFire.name=Адский огонь
 tile.blockProjectBench.name=Проектный стол
-tile.blockTradeBench.name=Trade Bench
-tile.blockModularity.name=Modularity Bench
+tile.blockTradeBench.name=Торговый верстак
+tile.blockModularity.name=Модульный верстак
 tile.blockBlackGate.name=Wither Cage
 tile.blockTankXpConverter.name=Конвертер опыта
 
@@ -2102,13 +2102,13 @@ tile.blockTankXpConverter.name=Конвертер опыта
 tile.blockDarkWorldPortal.name=Взгляд в будущее
 tile.blockDarkWorldGround.name=Нестабильная Земля
 tile.blockDarkWorldGround2.name=Загрязненная почва
-tile.blockDarkWorldGround2.2.name=Highly Polluted Soil
-tile.blockDarkWorldPortalFrame.name=Containment Frame
+tile.blockDarkWorldGround2.2.name=Сильно загрязненная почва
+tile.blockDarkWorldPortalFrame.name=Сдерживающая рамка портала
 
 
 //Added 1/4/18
 tile.blockMiningPipeFake.name=Усиленная буровая труба
-tile.blockMiningHeadFake.name=Bedrock Drill
+tile.blockMiningHeadFake.name=Бедроковый бур
 item.itemPlateMeatRaw.name=Мясистая панель
 tile.Block of MeatRaw.name=Блок сырого мяса
 
@@ -2173,7 +2173,7 @@ description.villager.profession.miscutils.aboriginal=Коренной австр
 item.itemHatTinFoil.name=Шапочка из фольги
 
 //Added 13/9/18
-entity.Aboriginal.name=Native
+entity.Aboriginal.name=Коренной
 entity.miscutils.constructStaballoy.name=Стабаллой голем
 entity.miscutils.sickBlaze.name=Заражённый фанатик
 
@@ -3142,13 +3142,13 @@ item.LiquidHydrogen.name=Капсула жидкого водорода [LOH]
 //Debug Labels
 tile.blockDoorAlloy.name=Укреплённая дверь
 tile.blockInhibitorObelisk.name=Inhibitor Obelisk
-tile.Battlesign.name=Battlesign
+tile.Battlesign.name=Боевая табличка
 tile.blockMagicBox.name=Магический ящик
 tile.blockManaPod.name=Mana Pod Stem
 tile.buildToolBlock.name=Блок инструментов
 tile.blockRedPlasma.name=Red Plasma Block
 tile.pipeBlock.name=Труба
-item.null.name=Null Item report it on github
+item.null.name=Null предмет сообщите об этом на GitHub
 
 
 //Added 24/8/19
@@ -3216,7 +3216,7 @@ item.BasicAgrichemItem.9.name=Деревянная пеллета
 item.BasicAgrichemItem.10.name=Деревянный кирпич
 item.BasicAgrichemItem.11.name=Целлюлозная масса
 item.BasicAgrichemItem.12.name=Био волокно
-item.BasicAgrichemItem.13.name=Catalyst Carrier
+item.BasicAgrichemItem.13.name=Носитель катализатора
 item.BasicAgrichemItem.14.name=Зелёный металлический катализатор
 item.BasicAgrichemItem.15.name=Альгиновая кислота
 item.BasicAgrichemItem.16.name=Глинозём
@@ -3528,7 +3528,7 @@ sleep.event.okay=Вы хорошо выспались и теперь чувст
 sleep.event.good=Вы хорошо выспались и теперь чувствуете себя гораздо лучше.
 sleep.event.wellrested=Вы чувствуете себя хорошо отдохнувшим.
 sleep.event.downsides=Негативные стороны жизни больше не влияют на вас.
-item.miscutils:magicfeather.name=Мистические цветы
+item.miscutils:magicfeather.name=Волшебное перо
 
 //Added 10/02/22
 item.BasicGenericChemItem.14.name=Твёрдо-кислотный катализатор
