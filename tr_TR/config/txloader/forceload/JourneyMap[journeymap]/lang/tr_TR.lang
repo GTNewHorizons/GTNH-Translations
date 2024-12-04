@@ -2,9 +2,9 @@
 ### Notes for translators:
 ### Do not translate or alter the codes used for color changes (§b, §e, §f, etc.)
 ### Positional parameters (%1$s, %2$s, %3$s, etc.) may be reordered to suit your language's sentence structure
-jm.advanced.announcemod=Announce Mod
-jm.advanced.announcemod.tooltip=Announces in the chat window that JourneyMap is ready.
-jm.advanced.automappoll=AutoMap Poll Frequency
+jm.advanced.announcemod=Mod Duyurusu
+jm.advanced.announcemod.tooltip=Sohbet penceresinde JourneyMap'in hazır olduğunu duyurur.
+jm.advanced.automappoll=AutoMap Anket Sıklığı
 jm.advanced.automappoll.tooltip=Delay (in milliseconds) between AutoMap region tasks. Lower values will decrease time to AutoMap, but can hurt performance.
 jm.advanced.browserpoll=Browser Poll
 jm.advanced.browserpoll.tooltip=Delay (in milliseconds) before the web map requests updates.  Lower values can hurt performance.
@@ -28,13 +28,13 @@ jm.advanced.recordcachestats=Record Cache Statistics
 jm.advanced.recordcachestats.tooltip=Whether to enable caches to record their statistics. May slightly hurt performance if enabled. Unless you're a beta-tester or have been instructed to do so, leave it off.
 jm.advanced.tile_render_type=Map Tile Render Type
 jm.advanced.tile_render_type.tooltip=Optimize map tile rendering for your video card if they become blurry. Values adjust texture filter + wrap type: 1=Linear+Mirrored, 2=Linear+Clamped, 3=Nearest+Mirrored, 4=Nearest+Clamped.
-jm.colorpalette.basic_colors=Basic Colors
-jm.colorpalette.biome_colors=Biome Colors
-jm.colorpalette.file_error=The color palette file has errors and cannot be used: %1$s
-jm.colorpalette.file_header_1=This file can be used to keep map colors consistent when changing resource packs.
-jm.colorpalette.file_header_2=Edit at your own risk. You can view it using the %1$s file.
-jm.colorpalette.file_header_3=To use this palette with a single world, place %1$s in: %2$s
-jm.colorpalette.file_header_4=To use this palette with all worlds, edit and set "permanent": true, then place %1$s in: %2$s
+jm.colorpalette.basic_colors=Basit Renkler
+jm.colorpalette.biome_colors=Biyom Renkleri
+jm.colorpalette.file_error=Renk paleti dosyasında hatalar var ve kullanılamıyor: %1$s
+jm.colorpalette.file_header_1=Bu dosya, kaynak paketlerini değiştirirken harita renklerini tutarlı tutmak için kullanılabilir
+jm.colorpalette.file_header_2=Riski size ait olmak üzere düzenleyin. %1$s dosyasını kullanarak görüntüleyebilirsiniz
+jm.colorpalette.file_header_3=Bu paleti tek bir dünyayla kullanmak için %1$s'yi şuraya yerleştirin: %2$s
+jm.colorpalette.file_header_4=Bu paleti tüm dünyalarla kullanmak için "permanent": true değerini düzenleyin ve ayarlayın, ardından %1 $s'yi şuraya yerleştirin: %2$s
 jm.colorpalette.file_missing_data=Put this file in the same directory as %1$s to view the color palette.
 jm.colorpalette.file_title=JourneyMap Color Palette
 jm.colorpalette.mods=Mods
