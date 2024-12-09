@@ -6730,7 +6730,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.name=§6§lDiesel Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.desc=The MV Combustion Generator burns Light Fuel faster than the LV version, but you can also automate Diesel and burn that instead, since it's even more powerful. It is arguably the easiest and most efficient way to generate lots of power for automation at this stage, and it'll last you a couple more tiers if you upgrade it as you go.%n%nAdditionally, Diesel can be used as fuel for the Copterpack, a good jetpack that makes it much easier to move around, inside and outside of your base. It's heavily recommended that you make one, if you have Diesel.%n%n[note]This will also unlock new quests in the Armors and Jetpacks tab.[/note]
 
 # Quest: Fluid Regulator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.name=§6§lFluid Regulator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.name=§6§lЖидкостный регулятор
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.desc=Turbines require precise amounts of fluids or else they will [warn]explode[/warn]. Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right click with an empty hand%n16L - Right click with a screwdriver%n256L - Right click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.%n%nUse the Large Turbine Calculator and the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.%n%n[note]If you shift-right click on it you can use the interface which is more precise.[/note]
 
 # Quest: Gas Turbine
@@ -6850,7 +6850,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6Q.name=Hallucinogenics Not Included
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6Q.desc=This is the EV version. I hope you're not using this for primary power gen? At least, it has a pretty good efficiency of 88%% for an EV singleblock, and it's better than voiding the fluids that can be used as fuel here.
 
 # Quest: Portable Clean Energy EV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6g.name=Portable Clean Energy EV
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6g.name=Портативная чистая энергия EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK6g.desc=As long as you don't hold the fuel, that is. Very useful for your Mining rigs, the efficiency on these goes way up as they increase in tier. Though they require more Enriched Naquadah each tier (and Naquadria at ZPM).%n%n[note]The fuel is radioactive, dummy.[/note]
 
 # Quest: Portable Clean Energy LuV
@@ -6875,7 +6875,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK7w.desc=The IV version. Almost certainl
 
 # Quest: Geothermal Power LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8A.name=Геотермальная энергия LuV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8A.desc=The LuV version. Even if you use it with an Everburn Urn, would it even be useful?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8A.desc=Это LuV версия. Даже если ты используешь его с Неугасимой урной, будет ли он вообще полезен?
 
 # Quest: Radioisotope Thermoelectric Generator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK8Q.name=Радиоизотопный термоэлектрический генератор
@@ -6967,7 +6967,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALBw.desc=MV версия.
 
 # Quest: Absorbing Magic Energy to Produce EU LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALCA.name=Поглощение магической энергии для производства энергии EU LV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALCA.desc=These produce power by absorbing magic energy from nodes, dragon eggs, creeper eggs, etc.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALCA.desc=Они вырабатывают энергию, поглощая магическую энергию из узлов, яиц дракона, яиц крипера, и т. д.
 
 # Quest: Absorbing Magic Energy to Produce EU EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALCQ.name=Поглощение магической энергии для производства энергии EU EV
@@ -14059,7 +14059,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.name=This is Not How You Get Into Sp
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. These are specifically GT++ Rocket Fuels, and automating them for powergen in this multi will also provide you with endless fuel for your space travels.%n%nThe math regarding the Rocketdyne is complicated. Looking at the controller's tooltip helps, but the main gist of it is like this: provide Carbon Dioxide and make sure it doesn't run out, choose the EU/t you want to get, calculate the amount of fuel you need for the fuel you will use, and then provide enough Liquid Hydrogen to boost the multi, according to the EU/t value.%n%nYou will always want to have the Rocketdyne boosted, for several reasons. Assuming you have at least a buffered IV Dynamo Hatch, outputting close to the maximum on that hatch will lower the fuel efficiency, but not if it's boosted. Additionally, this multi doesn't consume fuel continuously, but with intervals of 1 second between consuming and not consuming, while generating power all the same. Boosting this consumption results in huge fuel efficiency, combined with the high fuel values of the Rocket Fuels.
 
 # Quest: Dyson Swarm Ground Unit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.name=Dyson Swarm Ground Unit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.name=Ядро группы дайсон роя
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3w.desc=The Dyson Swarm Ground Unit multiblock is basically a solar panel, you just insert Dyson Swarm Modules (how many depends on how much energy you want) and get energy out. There are some complications though:%n- Each hour, n of m modules are destroyed according to this formula: n = m (2 * 0.066) / (exp(-0.00005 * (m - 1))+exp(0.00003 * cps)), where cps is computation per second,%n- Needs 3.6M L/h of Gelid Cryotheum.%n- Up to 10,000 modules can be inserted into a single Dyson Swarm.%n- Dyson Swarm can only accept up to 100k computation.%n%n[note]Note: TecTech's Multi-Amp Dynamo Hatches and Laser Source Hatches are supported.[/note]%n%nThe amount of each part on the right is only the minimum, depending on how many Dynamo Hatches, Input Busses, Input Hatches and Optical Slave Connectors you use, you may need more Energy Receiver Base Casings, Module Deployment Unit Base Casings or Control Center Base Casings.%n%n[warn]This machine will explode if Dynamo buffer is full![/warn]%n%nFun fact: The maximum output is 337B EU/t (limited by 10,000 Modules and the 3.37x dimension bonus of Horus)%n%n(If you don't want to calculate how many modules you need per hour, the number is 64 for max stats)
 
 # Quest: Where Do I Build the Dyson Swarm?
