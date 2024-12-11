@@ -6292,8 +6292,8 @@ betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.name=藻类池塘
 betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.desc=可持续性。它不是一个游戏术语……但却是可以在这里达成的！%n%n你可能已经尝试过从单一资源中生产多种化学物质了，比如石化或苯产线。但还有藻类农场，它只是一个池塘，所以工作并不耗能。不仅如此它也无法使用常规配方，所以NEI不会显示任何关于藻类的页面。藻类农场会周期性产生藻类。它的等级取决于底层的机械方块，这些一层方块必须全部匹配对应的工作等级（译者：或更高级的仓室）。从超低压（ULV，起始时间为每批次50秒）到高压（IV，每批次25秒），每个等级都会减少生产藻类的时间约5秒，然后在此基础上，每个等级的速度将减半。该装置目前支持到超高压（UHV）外壳，高于此等级的外壳将无法与此机器配合使用。生产速度也有可能随机地加倍或三倍增加所需时间，但这种情况比较罕见。%n%n每次升级还会增加单次产出的藻类量。每个周期会给出一个精确的数量，并且有10%%的机会会额外奖励一定数量。藻类农场还可以用堆肥提高一级农场的等级，同时用藻类就可以生产堆肥。最开始的时候可能很贵，但很建议在大多数情况下这样做。你可以从超低压（ULV）等级开始获得普通藻类和绿藻，高压（HV）等级开始出现褐藻，极高压（EV）等级出现金褐藻，超高压（IV）等级出现红藻，尽管在大多数情况下，它们开始出现时的数量都非常少。%n%n要了解具体的产出数量和时间，请查看维基：[url]https://gtnh.huijiwiki.com/wiki/%E8%97%BB%E7%B1%BB%E5%86%9C%E5%9C%BA[/url]%n%n藻类可以用来生产多种化学制品，例如甲烷、氨气、硫酸、碳酸钠、乙烯、氯化锂，甚至一些产能流体。你通常需要用埃克森美孚化工厂来生产它们。在IV阶段你还可以通过结合绿色藻类和萤石来生产夜光珊瑚，用来生产阳光化合物。如果很好奇整个产线的话，查查NEI：关于它们的任务很快就会上线，可能还会有一些不用化工厂的配方。
 
 # Quest: A Beginner's Guide to Particle Physics
-betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.name=A Beginner's Guide to Particle Physics
-betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.desc=If you've built the Source Chamber already, you may have noticed that particles aren't produced as items, like GT++ ones are. %n%nInstead they're transmitted through Beamline Pipes from multi to multi, similar to real life.%n%nEach stream of particles transmitted, or "beam", has four properties:%n- §%n§%n§6Particle§r: the type of particle carried by the beam%n- §4Energy§r: the amount of energy the particles have%n§r- §9Focus§r: out of 100, how focused the beam is%n§r- §dAmount§r: a measure of the number of particles in the beam%n%nNote that you can see info about a multi's input and output beams by using a Tricorder on the controller.%n%nFor the recipes you'll be interested in, i.e. the ones that actually produce items, there'll be a threshold for allowed input beam energy, a minimum focus value, and an amount value which determines recipe time (more on that in the Target Chamber quest). %nTake a look some TC recipes for an example of this.%n%n%nHave a photon. To hang on your wall.
+betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.name=粒子物理学新手指南
+betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.desc=如果您已经搭建了源仓,您可能已经注意到粒子并不像GT++中那样以物品的形式产生.%n%n它们是通过束流管从多方块机器一端传输到另一台多方块机器,与现实生活类似.%n%n传输的每个粒子流,或者说“束流”,有四个属性:%n-§%n§%n§6粒子§r:束流携带的粒子类型%n-§4能量§r:粒子的能量大小%n§r-§9聚焦§r:束流的聚焦程度,幅度为0-100%.%n§r-§d数量§r：光束中粒子数量的测量值%n%n注意,你可以通过三录仪查看多方块机器控制器上的束流IO信息.%n%n对于你感兴趣的配方,也就是真正能生产物品的配方,会有一个允许输入束流能量的临界值、一个最小聚焦值和一个决定配方时间的粒子数量值(更多信息请见靶仓任务).%n%n%n产出一颗光子,挂在你的墙上炫耀吧!
 
 # Quest: Synchrotron (No Relation to the Catalyst)
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.name=同步加速器(和那个催化剂没关系)
@@ -6497,7 +6497,7 @@ betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.name=环保的聚爆?!
 betterquesting.quest.IlCOpa8bR9WbOjSOPxZIlA.desc=向你介绍更大(更好)的聚爆压缩机--电动聚爆压缩机!%n%n电动聚爆压缩机不需要任何爆炸物,是不是很好?%n%n此外,它还能根据中间使用的方块等级来获得额外的并行数(4^(等级 - 1)).%n%n等级1：中子块%n等级2：无尽之块%n等级3：超时空金属块%n等级4：时空块%n等级5：宇宙素块%n%n[note]虽然结构预览显示中间有洞,但它需要完整的 27 个方块才能形成,一旦成型,中间的 5 个方块就会消失,但破坏后会找回来(有时直接消失).[/note]%n%n[note]允许的最低能量仓等级比配方等级低一级,所以我们可以从两个UV能源仓开始.[/note]
 
 # Quest: Extraction Point
-betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.name=Extraction Point
+betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.name=我们到撤离(提取)点了!
 betterquesting.quest.Itn1KOiISHSbXzoDd2BB8w.desc=没有什么东西能比大型流体提取机更快地将固体变成液体 - 至少现在没有. 这台机器需要你制作加热和螺线管两种线圈. %n%n[note]理论上这台多方块可以在EV制造, 但它需要大量的钨钢.[/note]
 
 # Quest: More steam, more pressure!
@@ -6509,7 +6509,7 @@ betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.name=IV阶段多方块机器
 betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=当你到达IV机械国度,你可以组装更多的多方块机器并加速你的自动化!%n%n从IV阶段开始,大多数多方块机器都需要特殊的合金,像你之前用过的金属(在熔炉或者工业高炉中冶炼),这些特殊的合金也都需要冶炼,但是有些合金必须在合金冶炼炉中制成流体,然后需要固化.%n%n需要合金冶炼炉的多方块机器在更后面. 为了解锁它们的任务,你需要首先合成合金冶炼炉.然而,有不需要合金冶炼炉也能制作许多机器,只需要相应的IV单方块的对应机器以及一些其他资源.%n%n都在这里了...但如果你仔细查看NEI,也许还能找到更多.祝你好运!
 
 # Quest: See You Lather
-betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=See You Lather
+betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=我们稍后再见(See You Lather)
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=一刻也没有为建造AE系统所需的大量石英杆发愁, 立马赶到现场的是工业精密车床!%n%n[note]这台多方块的速度取决于物品管道方块, 且至少需要铂等级的.[/note]
 
 # Quest: Steam Blender?
@@ -6517,7 +6517,7 @@ betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=蒸汽搅拌机?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=既然可以用蒸汽和活塞来混合粉末,为什么还要使用复杂的导线和电路呢?大型蒸汽搅拌机是这些蒸汽多方块中最大的一个,可以满足您一段时间的搅拌需求,比LV单方块搅拌机有着更多的并行数.%n%n[note]该多方块机器只能处理LV级以下的配方并且无法处理流体配方.[/note]
 
 # Quest: Taking Things Apart
-betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=Taking Things Apart
+betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=提取万物
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.desc=您可能很久没有考虑过提取机了.你的蒸汽提取机还在某个地方积灰吗?好吧.如果你需要快速提取物品.(可能是处理成吨花?)拿起Dissection Apparatus.%n%n[note]根据管道方块的不同等级获取更多的并行,因此使用你能制作的最好的管道方块.[/note]
 
 # Quest: Advanced Assembly Line
@@ -6533,7 +6533,7 @@ betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.name=...借助科学的力量!
 betterquesting.quest.bLAFkZX-RHGRFAz-C93aeQ.desc=这个多方块结构可以让您使用质量发生器制造的所有UU物质，并不是说您没有其他东西可以用它来做...%n%n[note]这是一个UV的多方块结构.[/note]
 
 # Quest: You've Gotta Keep 'Em Separated
-betterquesting.quest.bkEol9zuRiiCMwMUopFHhg.name=You've Gotta Keep 'Em Separated
+betterquesting.quest.bkEol9zuRiiCMwMUopFHhg.name=得把它们分得远远的
 betterquesting.quest.bkEol9zuRiiCMwMUopFHhg.desc=当您需要将你的磁体极化或将带磁性的矿物与其他部分分离时,请使用 MFE！这种多方块机器需要将电磁铁放入其仓室中--更好的电磁铁将带来更强的增益.不过,在 IV 阶段中您将只能使用铁制电磁铁.%n%n[note]在放入最高级电磁铁的时候,你可以在这台机器上使用来自TecTech多安能源仓.在加工某种磁性材料时,不妨记住这一点...[/note]
 
 # Quest: Cracking the World
@@ -6545,7 +6545,7 @@ betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.name=滥砍滥伐的终结
 betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.desc=这台多方块机器是获取大量木材的完美解决方案.您是否在为木炭或者苯发电时所需的大量木材发愁?您是否苦于无法获取大量坚果来榨取种子油?亦或者因为装饰性树叶的来源而大伤脑筋?踏破铁鞋无觅处,得来全不费工夫!%n%n原木拟生场可以种植游戏内几乎全部种类的树木并且输出你砍树时会获得的正常掉落.这一切都被集成在一个3x3x3的空间中,无需忍受树木真实生长时带来的卡顿.%n%n首先,将任意一种树苗放入控制器GUI中.其次,在输入总线中放入你所需求的产物所对应的工具.最后,给机器通电,并且打开它.接着你就准备好被产物所淹没吧.%n%n树的不同部分需要不同种类的工具.%n - 锯对应木材%n - 剪枝器(GT)对应树苗%n - 剪刀对应树叶%n - 小刀对应水果%n高级工具(链锯,剪枝器(林业),...)会提供更多产出!具体请查看控制器的tooltip%n%n您甚至可以同时使用多个不同的工具,机器就能同时收获多个不同的产品!%n%n请注意,使用的工具会缓慢失去耐久值.因此,为了长期运行,你可能需要设置一些自动更换功能.%n%n[note]虽然这台机器在IV阶段就能制作,但在IV初期却相当昂贵,需要16个 ZPM电路板和一些高级合金.[/note]
 
 # Quest: Can it!
-betterquesting.quest.gMRufFtRRRa30LE21boFNQ.name=Can it!
+betterquesting.quest.gMRufFtRRRa30LE21boFNQ.name=把它装进罐子里！(Can it!)
 betterquesting.quest.gMRufFtRRRa30LE21boFNQ.desc=如果您曾经需要等待装罐机来装满锡罐,或者等待流体灌装机来制造成吨的冷却单元,那么请考虑下涡轮装罐机Pro.当您决定需要它时,这台多方块机器可以同时充当这两种机器,并具有显著的优势!
 
 # Quest: High Voltage Multiblocks
@@ -6553,7 +6553,7 @@ betterquesting.quest.pKSx6HEUS0WkL6qkwo742g.name=高压阶段的多方块结构
 betterquesting.quest.pKSx6HEUS0WkL6qkwo742g.desc=是时候扩大生产规模了!在HV阶段中,你可以使用一些新的功能强大的多方块机器.特别是§l大型化学反应釜§r,它总能无损超频.此外还有§l蒸馏塔§r,它能让你从蒸馏中获得所有副产物,而不是仅仅获得一种.
 
 # Quest: Under Pressure
-betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.name=Under Pressure
+betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.name=压力之下
 betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.desc=更大,更好,更快!这台 Large Electric Compressor和你预料的差不多
 
 # Quest: STEAM-POWERED BREAKTHROUGH
@@ -6561,7 +6561,7 @@ betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=蒸汽动力的突破
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=您现在应该已经收集了不少单方块蒸汽机器.虽然这些机器可以帮助您处理少量材料,但总有一天您需要处理大量物品.这就是蒸汽多方块机器发挥作用的地方.%n%n虽然多方块蒸汽机器的材料成本远高于单方块,但它们也有一些优势：它们使用的蒸汽更少,而且可以并行处理配方,这意味着如果提供的蒸汽足够,一个配方循环可以同时制作多个物品.%n%n§T不过,它们也有一些需要注意的怪癖：%n%n-这些多方块需要§4§l非常特殊§r的I/O方块,只能使用任务中的显示的那些方块%n%n-它们最多可以加工8件物品,其中基础等级由青铜制成,高压等级由钢铁制成(查看NEI中的多方块预览,它会显示不同的等级)%n-如果你正在查看控制器方块,可以通过WAILA查看机器的等级和并行处理的数量%n%n§W[note]通过这个任务,你已经开始了大规模生产之旅.不过,先别高兴得太早.虽然在蒸汽时代可以获得一些多方块机器,但它们中的大多数只有在EV或更高电压等级才能解锁,包括这些多方块机器的更好版本.
 
 # Quest: Steam stomping!
-betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=Steam stomping!
+betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=蒸汽猛击!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.desc=锻造锤的速度已经相当快了,为什么不制造这个升级版,让它变得更快?有了大型蒸汽锻造锤,你就可以在任何材料上充分释放蒸汽的力量.你可以看到方块分崩离析,各种杆被挤在一起,速度比以往任何时候都快----至少在你获得更先进的技术之前是这样.%n%n§3这台大型蒸汽锻造锤只能处理LV等级及以下的配方.
 
 # Quest: Superdense
@@ -6569,7 +6569,7 @@ betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.name=极度致密
 betterquesting.quest.sB_lbhZZRnmZNjJiF8-1Hg.desc=您现在正在制造的先进机器需要更高级的材料,以及材料所需要的更先进的加工方法.在ZPM中,您可以建造热等静压装置,它是大型电动压缩机的升级版.这种多方块设备可以在极高的压力下将材料加热到极高的温度,从而制造出瑕疵极少的超致密板材料.%n%n这台机器会在运行时会升温,必须给它一定的时间冷却.如果达到最大热阈值,会大大降低配方处理速度,甚至吞掉输入的物品.使用更好的线圈来延长过热时间,并使用热传感器仓室来自动控制它保持在恰当的温度.%n%n[note]可以运行NEI中标注"需要热等静压装置(HIP)"的压缩配方.[/note]
 
 # Quest: Engraving With Style
-betterquesting.quest.uP_FwHb_QTyAPaoZ80u74A.name=Engraving With Style
+betterquesting.quest.uP_FwHb_QTyAPaoZ80u74A.name=精致蚀刻
 betterquesting.quest.uP_FwHb_QTyAPaoZ80u74A.desc=厌倦了不停更换透镜, 或者往超净间里塞十几台激光蚀刻机? 高强度激光蚀刻机正是你所需要的. 这台多方块能够处理你所有的激光蚀刻需求.%n%n通过在结构中使用更强大的§l激光源仓§r, 你可以获得更多的并行并处理更高等级的配方. %n%n[note]这台多方块§o必须§r使用硼玻璃 - 请阅读tooltip![/note]
 
 # Quest: Extreme Voltage Multiblocks
@@ -6577,7 +6577,7 @@ betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.name=EV多方块
 betterquesting.quest.w5O5rPL_Q_GDp8lxWMd0DQ.desc=你可能已经用上了蒸汽多方块设备或者工业筛选机.但在EV,IV以及之后的电压等级中,你将解锁许多多方块机器,它们对应几乎所有的GT单方块机器.甚至还有更强大的设备.%n%n它们中的大多数和你之前的GT的处理流程相同,但是速度更快. 多方块机器有三个好处: 节省能源,更快的配方处理时间以及并行, 并行意味着在能量供应足够的情况下, 配方单次的处理时间里一次可以同时合成多个物品.%n%n这些新的多方块机器的多样性和复杂性远远超出了工业高炉、大型化学反应釜或者真空冷冻机等简单的多方块机器. 有些虽然是简单的立方体,但有些则具有更多样化的机制和工作条件.作为回报,它们是非常强大的,因此务必留意他们.
 
 # Quest: Megalomania
-betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.name=Megalomania
+betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.name=永无止境,大就是好!
 betterquesting.quest.wGINqtSuSQKLI_Yk7hAdcA.desc=在 HV 阶段中,从技术上讲您现在有能力制造某些巨型多方块结构.这些绝对的巨无霸将把您的产能提高到前所未见的水平,但这是有代价的.这些多模块有两大优势：%n-它们天生就有 256 的并行数.%n-它们可以使用 TecTech 多A能源仓和激光仓,让您可以向其中注入巨大的能量。%n%n[note]要想从这些巨型多方块结构获得真正的好处,您需要使用大量的电力来利用其超高并行数的优势--在使用 HV 阶段建造巨型高炉之前,请考虑一下您是否能真正利用这些设备.[/note]%n
 
 # Quest: Pressure washing!
@@ -9027,11 +9027,11 @@ betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.name=2阶AE流体存储
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.desc=通过2阶流体处理器,您可以制作256k,1024k,4096k 和16384k的ME流体存储组件.%n%n这些ME流体存储组件需要与ME高级流体存储外壳合成才能变成ME流体存储元件.
 
 # Quest: Waterproof Tech
-betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=Waterproof Tech
+betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=防水科技,完美样板
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.desc=随着你能随心所欲地弯曲时空,你能防止流体和电子元件发生相互作用.%n%n现在它可以处理包含流体的处理样板.%n%n[note]不然它就像样板输入总线一样工作[/note]
 
 # Quest: Cribs
-betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.name=Cribs
+betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.name=你这是在作弊!
 betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=随着你对"应用格雷"的研究不断深入,你找到了将 ME 接口的样板处理能力与输入总线相结合的方法,即"样板输入总线"!现在,你可以直接将样板放入样板输入总线.然而,样板输入总线缺乏足够的项目空间和计算能力来处理来自 ME 网络的项目.因此,您增加了额外的存储空间和编程电路.%n%n您甚至可以在样板输入总线中放置透镜或模具等在配方中不消耗的物品!但是,你仍然缺乏足够的技术来处理流体,它们对电子产品来说并不好.%n%n样板输入总线与其他总线或仓室完全隔离,所以你可能不得不修改你的样板.%n%n[warn]样板输入镜像[/warn]允许您在不同的多方块结构中共用样板输入总线而无需真正的在结构中共用方块.§lUV级§r%n%n[warn]样板输入总成[/warn]将会§9§o防水§r.§lUIV级§r%n(译注:即为样板输入总成可以放入带流体的处理样板)
 
 # Quest: Need More Information?
@@ -9671,7 +9671,7 @@ betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.name=ME高级流体存储外壳
 betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.desc=高阶流体存储组件需要使用此外壳才能制成可用的元件.
 
 # Quest: Slavery is Bad
-betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.name=Slavery is Bad
+betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.name=黑奴并不好(Slavery is Bad)
 betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.desc=你已经掌握了跨维度物流和在多方块结构中共用仓室,为什么不把它们结合起来呢?%n%n你可以将用闪存右键样板输入总线或样板输入总成与它们起来,用它来处理多台机器的处理样板,就像在多方块结构中共用了样板输入总线或样板输入总成一样,虽然物理上没有共享仓室.%n%n[note]或许这能降低卡顿?[/note]
 
 # Quest: 16384k Essentia Storage Cell
