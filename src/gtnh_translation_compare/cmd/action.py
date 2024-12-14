@@ -238,12 +238,16 @@ class Action:
             subdirectory: Path,
     ) -> None:
         base_path: Path = repo_path / subdirectory
-        with subprocess.Popen(['git', 'diff', '--name-only', 'HEAD^..HEAD'], encoding='UTF-8', stdout=subprocess.PIPE, stderr=subprocess.PIPE) as p:
-            changed_relpaths: list[str] = [os.path.relpath(str.strip(line), base_path) for line in p.stdout]
-            logger.info('detected lang updates:')
-            for change in changed_relpaths:
-                logger.info(change)
-            logger.info('#'*30)
+        result = subprocess.run(['git', 'diff', '--name-only', 'HEAD^..HEAD'], encoding='UTF-8', stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        if result.returncode != 0:
+            logger.error(f"Git diff command failed with error: {result.stderr}")
+            raise RuntimeError()
+
+        changed_relpaths: list[str] = [os.path.relpath(line.strip(), base_path) for line in result.stdout.splitlines()]
+        logger.info('detected lang updates:')
+        for change in changed_relpaths:
+            logger.info(change)
+        logger.info('#'*30)
 
         if settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH in changed_relpaths:
             with open(base_path / settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
