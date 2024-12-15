@@ -105,6 +105,10 @@ chat.appliedenergistics2.TunnelHasNoOutputs=Tunel nie ma wyjść.
 chat.appliedenergistics2.TunnelOutputsAreAt=Wyjścia tunelu znajdują się na:
 chat.appliedenergistics2.InterfaceInOtherDim=Interfejs znajduje się w wymiarze: %d i nie może zostać podświetlony
 chat.appliedenergistics2.InterfaceHighlighted=Interfejs jest teraz podświetlony na %d, %d, %d
+chat.appliedenergistics2.LevelEmitterInAnotherDim=Level emitter located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.LevelEmitterHighlighted=The level emitter is now highlighted at %d, %d, %d
+chat.appliedenergistics2.P2PInAnotherDim=P2P located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.P2PHighlighted=The P2P is now highlighted at %d, %d, %d
 chat.appliedenergistics2.CraftingItemsWentMissing=Nie można uruchomić wytwarzania, brakuje składnika: %d * %s
 chat.appliedenergistics2.FBOUnsupported=FBO OpenGL nie są obsługiwane, nie można wyeksportować obrazu
 chat.appliedenergistics2.PriorityInvalidTarget=Cel nie ma priorytetu
@@ -310,20 +314,16 @@ gui.appliedenergistics2.NetworkBytesDetails=Szczegóły Dotyczące Bajtów Sieci
 gui.appliedenergistics2.Items=Przedmioty
 gui.appliedenergistics2.Fluids=Płyny
 gui.appliedenergistics2.Essentias=Esen
+gui.appliedenergistics2.NetworkCellStatus=Cell status
 gui.appliedenergistics2.NetworkItemCellCount=Ilość Dysków Przedmiotów w Sieci
 gui.appliedenergistics2.NetworkFluidCellCount=Ilość Dysków Płynów w Sieci
 gui.appliedenergistics2.NetworkEssentiaCellCount=Ilość Dysków Esencji w Sieci
-gui.appliedenergistics2.Green=Green
-gui.appliedenergistics2.Orange=Orange
-gui.appliedenergistics2.Red=Red
 gui.appliedenergistics2.TypesInfo=Typy
 gui.appliedenergistics2.BytesInfo=Bajty
 gui.appliedenergistics2.ToFollow=Śledź
 gui.appliedenergistics2.ToUnfollow=Nie śledź 
 
 # GUI Colors - ARGB
-gui.color.appliedenergistics2.SearchboxFocused=6E000000
-gui.color.appliedenergistics2.SearchboxUnfocused=00000000
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
 gui.color.appliedenergistics2.SearchboxUnfocused=00000000
 gui.color.appliedenergistics2.ItemSlotOverlayUnpowered=66111111
@@ -377,6 +377,7 @@ gui.tooltips.appliedenergistics2.Clear=Wyczyść
 gui.tooltips.appliedenergistics2.TrashController=Usuwanie przez kliknięcie z wciśniętym klawiszem Shift/Spacja.
 
 gui.tooltips.appliedenergistics2.InterfaceBlockingMode=Tryb Blokowania
+gui.tooltips.appliedenergistics2.InterfaceSmartBlockingMode=Smart Blocking Mode
 gui.tooltips.appliedenergistics2.InterfaceCraftingMode=Tryb Wytwarzania
 gui.tooltips.appliedenergistics2.Trash=Zniszcz Przedmioty
 gui.tooltips.appliedenergistics2.MatterBalls=Kondensacja w Kule Materii\n%s na przedmiot
@@ -408,6 +409,8 @@ gui.tooltips.appliedenergistics2.Disabled=Wyłączone
 gui.tooltips.appliedenergistics2.Enable=Włączone
 gui.tooltips.appliedenergistics2.Blocking=Nie pchaj przedmiotów do wytwarzania, jeśli w ekwipunku znajdują się przedmioty.
 gui.tooltips.appliedenergistics2.NonBlocking=Ignoruje zawartość docelowego ekwipunku.
+gui.tooltips.appliedenergistics2.SmartBlocking=Allow insert same recipe.
+gui.tooltips.appliedenergistics2.NonSmartBlocking=Regular blocking mode behavior.
 gui.tooltips.appliedenergistics2.Craft=Zachowanie podczas wytwarzania
 gui.tooltips.appliedenergistics2.CraftOnly=Nie używaj przedmiotów magazynowanych, podczas eksportu używaj tylko przedmiotów wytworzonych.
 gui.tooltips.appliedenergistics2.CraftEither=Używaj przedmiotów magazynowych lub przedmiotów wytwarzanych podczas eksportu.
@@ -526,6 +529,10 @@ gui.tooltips.appliedenergistics2.DividePattern=Podziel
 gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=Jeśli jest dodatnia, jest mnożona przez tę liczbę. Jeśli jest ujemna, dzieli przez tę liczbę. Nie zadziała, jeśli liczba nie jest podzielna.
 gui.tooltips.appliedenergistics2.ToFollow=Kliknij, aby śledzić to zadanie i otrzymać wiadomość po jego ukończeniu. \nNie śledzisz teraz tego zadania.
 gui.tooltips.appliedenergistics2.ToUnfollow=Kliknij, aby przestać śledzić to zadanie \nŚledzisz to zadanie i otrzymasz wiadomość na czacie po jego zakończeniu.
+
+gui.tooltips.appliedenergistics2.StringOrder=Sorting
+gui.tooltips.appliedenergistics2.StringOrderNatural=Default
+gui.tooltips.appliedenergistics2.StringOrderAlphanum=Natural Order
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
