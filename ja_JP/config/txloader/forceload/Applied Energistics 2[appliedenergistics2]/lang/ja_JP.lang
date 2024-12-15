@@ -105,6 +105,10 @@ chat.appliedenergistics2.TunnelHasNoOutputs=トンネルに出力がありませ
 chat.appliedenergistics2.TunnelOutputsAreAt=トンネルの出力は以下の通り:
 chat.appliedenergistics2.InterfaceInOtherDim=インタフェースはディメンション%d にあり、ハイライトできません。
 chat.appliedenergistics2.InterfaceHighlighted=インターフェースが %d, %d, %d でハイライトされました。
+chat.appliedenergistics2.LevelEmitterInAnotherDim=Level emitter located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.LevelEmitterHighlighted=The level emitter is now highlighted at %d, %d, %d
+chat.appliedenergistics2.P2PInAnotherDim=P2P located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.P2PHighlighted=The P2P is now highlighted at %d, %d, %d
 chat.appliedenergistics2.CraftingItemsWentMissing=クラフトを開始できませんでした: %d * %s
 chat.appliedenergistics2.FBOUnsupported=OpenGL FBOがサポートされていないため、画像を出力できません。
 chat.appliedenergistics2.PriorityInvalidTarget=Target has no priority
@@ -112,7 +116,7 @@ chat.appliedenergistics2.PriorityReadout=Current priority is %d
 chat.appliedenergistics2.PriorityConfigured=Updated priority to %d
 chat.appliedenergistics2.DriveLocked=Digital Singularity cells in drive were locked to the current item on them
 chat.appliedenergistics2.ChestLocked=Digital Singularity cell in chest was locked to the current item on it
-chat.appliedenergistics2.FinishCraftingRemind=Job for crafting %s * %s is finished, total used %s.
+chat.appliedenergistics2.FinishCraftingRemind=Crafting of %s * %s finished in %s.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -310,20 +314,16 @@ gui.appliedenergistics2.NetworkBytesDetails=ネットワークのバイト数詳
 gui.appliedenergistics2.Items=アイテム
 gui.appliedenergistics2.Fluids=液体
 gui.appliedenergistics2.Essentias=エッセンシア
+gui.appliedenergistics2.NetworkCellStatus=Cell status
 gui.appliedenergistics2.NetworkItemCellCount=ネットワーク内アイテムセル数
 gui.appliedenergistics2.NetworkFluidCellCount=ネットワーク内液体セル数
 gui.appliedenergistics2.NetworkEssentiaCellCount=ネットワーク内エッセンシアセル数
-gui.appliedenergistics2.Green=Green
-gui.appliedenergistics2.Orange=Orange
-gui.appliedenergistics2.Red=Red
 gui.appliedenergistics2.TypesInfo=タイプ
 gui.appliedenergistics2.BytesInfo=バイト
 gui.appliedenergistics2.ToFollow=Follow
 gui.appliedenergistics2.ToUnfollow=Unfollow
 
 # GUI Colors - ARGB
-gui.color.appliedenergistics2.SearchboxFocused=6E000000
-gui.color.appliedenergistics2.SearchboxUnfocused=00000000
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
 gui.color.appliedenergistics2.SearchboxUnfocused=00000000
 gui.color.appliedenergistics2.ItemSlotOverlayUnpowered=66111111
@@ -377,6 +377,7 @@ gui.tooltips.appliedenergistics2.Clear=Clear
 gui.tooltips.appliedenergistics2.TrashController=Deletion via Shift / Space Clicking.
 
 gui.tooltips.appliedenergistics2.InterfaceBlockingMode=ブロッキングモード
+gui.tooltips.appliedenergistics2.InterfaceSmartBlockingMode=Smart Blocking Mode
 gui.tooltips.appliedenergistics2.InterfaceCraftingMode=Crafting Mode
 gui.tooltips.appliedenergistics2.Trash=Destroy Items
 gui.tooltips.appliedenergistics2.MatterBalls=Condense Into Matter Balls\n%s per item
@@ -408,6 +409,8 @@ gui.tooltips.appliedenergistics2.Disabled=Disabled
 gui.tooltips.appliedenergistics2.Enable=Enabled
 gui.tooltips.appliedenergistics2.Blocking=Do not push crafting items if inventory contains items.
 gui.tooltips.appliedenergistics2.NonBlocking=Ignore the contents of the target inventory.
+gui.tooltips.appliedenergistics2.SmartBlocking=Allow insert same recipe.
+gui.tooltips.appliedenergistics2.NonSmartBlocking=Regular blocking mode behavior.
 gui.tooltips.appliedenergistics2.Craft=Crafting Behavior
 gui.tooltips.appliedenergistics2.CraftOnly=Do not use stocked items, only craft items while exporting.
 gui.tooltips.appliedenergistics2.CraftEither=Use stocked items, or craft items while exporting.
@@ -527,6 +530,10 @@ gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=If it's positive, i
 gui.tooltips.appliedenergistics2.ToFollow=Click to follow this craft and receive message when it is complete\nYou are not following this crafting job right now
 gui.tooltips.appliedenergistics2.ToUnfollow=Click to stop following this craft\nYou are following this crafting job and will receive chat message when it's complete
 
+gui.tooltips.appliedenergistics2.StringOrder=Sorting
+gui.tooltips.appliedenergistics2.StringOrderNatural=Default
+gui.tooltips.appliedenergistics2.StringOrderAlphanum=Natural Order
+
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
 gui.appliedenergistics2.units.ic2=EU
@@ -585,7 +592,7 @@ item.appliedenergistics2.ItemAdvancedStorageCell.16384k.name=16384k MEストレ�
 item.appliedenergistics2.ItemExtremeStorageCell.Container.name=MEブロックコンテナセル
 item.appliedenergistics2.ItemExtremeStorageCell.Quantum.name=ME量子ストレージセル
 item.appliedenergistics2.ItemExtremeStorageCell.Singularity.name=MEデジタル特異点セル
-item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Artificial Universe Cell
+item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Artificial Universe ME Storage Cell
 item.appliedenergistics2.ItemCreativeStorageCell.name=クリエイティブMEストレージセル
 item.appliedenergistics2.ItemVoidStorageCell.name=虚無MEストレージセル
 item.appliedenergistics2.ItemEncodedPattern.name=エンコードパターン
