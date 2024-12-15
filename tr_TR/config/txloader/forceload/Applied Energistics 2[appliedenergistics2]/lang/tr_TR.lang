@@ -105,6 +105,10 @@ chat.appliedenergistics2.TunnelHasNoOutputs=Tünelin hiçbir çıkışı yok.
 chat.appliedenergistics2.TunnelOutputsAreAt=Tünel çıkışları:
 chat.appliedenergistics2.InterfaceInOtherDim=Arayüz boyut: %d'de bulundu ve vurgulanamadı.
 chat.appliedenergistics2.InterfaceHighlighted=Arayüz (%d, %d, %d)'de vurgulandı.
+chat.appliedenergistics2.LevelEmitterInAnotherDim=Level emitter located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.LevelEmitterHighlighted=The level emitter is now highlighted at %d, %d, %d
+chat.appliedenergistics2.P2PInAnotherDim=P2P located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.P2PHighlighted=The P2P is now highlighted at %d, %d, %d
 chat.appliedenergistics2.CraftingItemsWentMissing=Üretim başlatılamadı, malzeme kayboldu: %d * %s
 chat.appliedenergistics2.FBOUnsupported=OpenGL FBOs not supported, cannot export image
 chat.appliedenergistics2.PriorityInvalidTarget=Hedefin hiçbir önceliği yok
@@ -112,7 +116,7 @@ chat.appliedenergistics2.PriorityReadout=Şu anki öncelik: %d
 chat.appliedenergistics2.PriorityConfigured=Öncelik %d olarak güncellendi
 chat.appliedenergistics2.DriveLocked=Digital Singularity cells in drive were locked to the current item on them
 chat.appliedenergistics2.ChestLocked=Digital Singularity cell in chest was locked to the current item on it
-chat.appliedenergistics2.FinishCraftingRemind=Job for crafting %s * %s is finished, total used %s.
+chat.appliedenergistics2.FinishCraftingRemind=Crafting of %s * %s finished in %s.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -310,20 +314,16 @@ gui.appliedenergistics2.NetworkBytesDetails=Ağ Baytları Detayları
 gui.appliedenergistics2.Items=Eşyalar
 gui.appliedenergistics2.Fluids=Sıvılar
 gui.appliedenergistics2.Essentias=Esanslar
+gui.appliedenergistics2.NetworkCellStatus=Cell status
 gui.appliedenergistics2.NetworkItemCellCount=Ağda Bulunan Eşya Hücresi Miktarı
 gui.appliedenergistics2.NetworkFluidCellCount=Ağda Bulunan Sıvı Hücresi Miktarı
 gui.appliedenergistics2.NetworkEssentiaCellCount=Ağda Bulunan Esans Hücresi Miktarı
-gui.appliedenergistics2.Green=Green
-gui.appliedenergistics2.Orange=Orange
-gui.appliedenergistics2.Red=Red
 gui.appliedenergistics2.TypesInfo=Tip
 gui.appliedenergistics2.BytesInfo=Baytlar
 gui.appliedenergistics2.ToFollow=Follow
 gui.appliedenergistics2.ToUnfollow=Unfollow
 
 # GUI Colors - ARGB
-gui.color.appliedenergistics2.SearchboxFocused=6E000000
-gui.color.appliedenergistics2.SearchboxUnfocused=00000000
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
 gui.color.appliedenergistics2.SearchboxUnfocused=00000000
 gui.color.appliedenergistics2.ItemSlotOverlayUnpowered=66111111
@@ -377,6 +377,7 @@ gui.tooltips.appliedenergistics2.Clear=Temizle
 gui.tooltips.appliedenergistics2.TrashController=Shift / Space Tıklaması ile Silme
 
 gui.tooltips.appliedenergistics2.InterfaceBlockingMode=Engelleme Modu
+gui.tooltips.appliedenergistics2.InterfaceSmartBlockingMode=Smart Blocking Mode
 gui.tooltips.appliedenergistics2.InterfaceCraftingMode=Üretim Modu
 gui.tooltips.appliedenergistics2.Trash=Eşyaları Yok et
 gui.tooltips.appliedenergistics2.MatterBalls=Madde Toplarına Yoğunlaştır\nEşya başına %s
@@ -408,6 +409,8 @@ gui.tooltips.appliedenergistics2.Disabled=Devre Dışı
 gui.tooltips.appliedenergistics2.Enable=Etkin 
 gui.tooltips.appliedenergistics2.Blocking=Envanterde eşya varken üretim bileşenlerini gönderme.
 gui.tooltips.appliedenergistics2.NonBlocking=Hedef envanterin içeriklerini yoksay.
+gui.tooltips.appliedenergistics2.SmartBlocking=Allow insert same recipe.
+gui.tooltips.appliedenergistics2.NonSmartBlocking=Regular blocking mode behavior.
 gui.tooltips.appliedenergistics2.Craft=Üretim Davranışı
 gui.tooltips.appliedenergistics2.CraftOnly=Stoklanan eşyaları kullanma, sadece dışa aktarırken üret.
 gui.tooltips.appliedenergistics2.CraftEither=Dışa aktarırken depolanan eşyaları kullan ya da üret
@@ -526,6 +529,10 @@ gui.tooltips.appliedenergistics2.DividePattern=Böl
 gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=Positif ise, bu sayı ile katlar; Negatif ise, bu sayı ile böler. Tam bölemez ise çalışmaz.
 gui.tooltips.appliedenergistics2.ToFollow=Click to follow this craft and receive message when it is complete\nYou are not following this crafting job right now
 gui.tooltips.appliedenergistics2.ToUnfollow=Click to stop following this craft\nYou are following this crafting job and will receive chat message when it's complete
+
+gui.tooltips.appliedenergistics2.StringOrder=Sorting
+gui.tooltips.appliedenergistics2.StringOrderNatural=Default
+gui.tooltips.appliedenergistics2.StringOrderAlphanum=Natural Order
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
