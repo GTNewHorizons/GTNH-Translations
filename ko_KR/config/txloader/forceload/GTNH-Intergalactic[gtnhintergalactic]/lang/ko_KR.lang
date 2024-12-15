@@ -156,7 +156,6 @@ gt.blockmachines.multimachine.ig.siphon.lore3=이 이름은 정의에 의해 정
 
 # Space Elevator
 gt.blockmachines.multimachine.ig.elevator.name=우주 엘레베이터
-gt.blockmachines.multimachine.ig.elevator.desc0=우주 엘레베이터 컨트롤러 블럭
 gt.blockmachines.multimachine.ig.elevator.desc2=우주 엘레베이터 모듈 12개 수용 가능
 gt.blockmachines.multimachine.ig.elevator.desc3=모터 티어에 따라 모듈 티어와 수용 갯수를 결정함
 gt.blockmachines.multimachine.ig.elevator.desc4=각 모듈마다 고유의 입출력과 에너지 저장량을 가짐
@@ -216,6 +215,7 @@ gt.blockmachines.multimachine.project.ig.miner.t2.desc1=이거 드론의 권리�
 gt.blockmachines.multimachine.project.ig.miner.t3.desc1=분명히 드론의 권리를 위반하네요.
 gt.blockmachines.multimachine.project.ig.miner.desc3=플라즈마를 주입해야 합니다 (헬륨 1000L / 비스무트 500L  / 라돈 300L)
 gt.blockmachines.multimachine.project.ig.miner.desc4=높은 티어의 플라즈마는 채굴량이 증폭됩니다.
+gt.blockmachines.multimachine.project.ig.miner.desc5=Needs to be fed with computation to work.
 gt.blockmachines.multimachine.project.ig.miner.t1.desc5=2배 까지 병렬화 가능
 gt.blockmachines.multimachine.project.ig.miner.t2.desc5=4배 까지 병렬화 가능
 gt.blockmachines.multimachine.project.ig.miner.t3.desc5=8배 까지 병렬화 가능
@@ -231,7 +231,10 @@ gt.blockmachines.multimachine.project.ig.pump.t2.desc1=완전히 빨아먹습니
 gt.blockmachines.multimachine.project.ig.pump.t3.desc1=쮸와아아압-
 gt.blockmachines.multimachine.project.ig.pump.desc3=행성 종류와 액체 종류를 설정하여 액체를 뽑아냅니다
 gt.blockmachines.multimachine.project.ig.pump.desc4=출력 해치를 잠그면 증발보호가 가능함
+gt.blockmachines.multimachine.project.ig.pump.t1.desc5=Runs at UHV with up to 4 parallels
 gt.blockmachines.multimachine.project.ig.pump.t2.desc5=4가지의 액체를 동시에 뽑아냅니다
+gt.blockmachines.multimachine.project.ig.pump.t3.desc5=Runs at UXV with up to 64 parallels per recipe
+gt.blockmachines.multimachine.project.ig.pump.t2.desc6=Processes up to 4 different recipes at once
 gt.blockmachines.multimachine.project.ig.pump.cfgi.0=행성 종류
 gt.blockmachines.multimachine.project.ig.pump.cfgi.1=액체 종류
 gt.blockmachines.multimachine.project.ig.pump.cfgi.2=병렬화 수량
@@ -288,13 +291,11 @@ ig.elevator.structure.OpticalConnector=광학 커넥터
 ig.elevator.structure.AnyBaseCasingWith1Dot=자유배치: 우주 엘레베이터 기반 케이싱 1번 표시기
 ig.elevator.structure.AnyBaseCasingWith2Dot=자유배치: 우주 엘레베이터 기반 케이싱 2번 표시기
 ig.elevator.structure.AnyBaseCasingWith3Dot=자유배치: 우주 엘레베이터 기반 케이싱 3번 표시기
-ig.elevator.structure.TooComplex=구조물 형태가 매우 복잡합니다!
 ig.structure.contributors=Contributors
 ig.structure.programming=Programming
 ig.structure.design=Design
 ig.structure.specialThanks=Special Thanks to
-ig.structure.author=Author:
-ig.structure.moreContributors=Check controller GUI for all Contributors
+ig.structure.author=Added by
 ig.structure.and= and
 
 # Space Projects

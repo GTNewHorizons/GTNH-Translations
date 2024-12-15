@@ -103,8 +103,12 @@ chat.appliedenergistics2.TunnelNotConnected=터널이 연결되어있지 않습�
 chat.appliedenergistics2.TunnelInputIsAt=Tunnel input is at (%d, %d, %d)
 chat.appliedenergistics2.TunnelHasNoOutputs=터널의 출력이 없습니다
 chat.appliedenergistics2.TunnelOutputsAreAt=Tunnel outputs are at:
-chat.appliedenergistics2.InterfaceInOtherDim=Interface located at dimension: %d and cant be highlighted
+chat.appliedenergistics2.InterfaceInOtherDim=Interface located in dimension: %d and cant be highlighted
 chat.appliedenergistics2.InterfaceHighlighted=The interface is now highlighted at %d, %d, %d
+chat.appliedenergistics2.LevelEmitterInAnotherDim=Level emitter located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.LevelEmitterHighlighted=The level emitter is now highlighted at %d, %d, %d
+chat.appliedenergistics2.P2PInAnotherDim=P2P located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.P2PHighlighted=The P2P is now highlighted at %d, %d, %d
 chat.appliedenergistics2.CraftingItemsWentMissing=Could not start craft, ingredient went missing: %d * %s
 chat.appliedenergistics2.FBOUnsupported=OpenGL FBOs not supported, cannot export image
 chat.appliedenergistics2.PriorityInvalidTarget=Target has no priority
@@ -112,7 +116,7 @@ chat.appliedenergistics2.PriorityReadout=Current priority is %d
 chat.appliedenergistics2.PriorityConfigured=Updated priority to %d
 chat.appliedenergistics2.DriveLocked=Digital Singularity cells in drive were locked to the current item on them
 chat.appliedenergistics2.ChestLocked=Digital Singularity cell in chest was locked to the current item on it
-chat.appliedenergistics2.FinishCraftingRemind=Job for crafting %s * %s is finished, total used %s.
+chat.appliedenergistics2.FinishCraftingRemind=Crafting of %s * %s finished in %s.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=응용 에너지학 2
@@ -310,20 +314,16 @@ gui.appliedenergistics2.NetworkBytesDetails=Network Bytes Details
 gui.appliedenergistics2.Items=Items
 gui.appliedenergistics2.Fluids=Fluids
 gui.appliedenergistics2.Essentias=Essen
+gui.appliedenergistics2.NetworkCellStatus=Cell status
 gui.appliedenergistics2.NetworkItemCellCount=Network Item Cell Count
 gui.appliedenergistics2.NetworkFluidCellCount=Network Fluid Cell Count
 gui.appliedenergistics2.NetworkEssentiaCellCount=Network Essentia Cell Count
-gui.appliedenergistics2.Green=Green
-gui.appliedenergistics2.Orange=Orange
-gui.appliedenergistics2.Red=Red
 gui.appliedenergistics2.TypesInfo=Types
 gui.appliedenergistics2.BytesInfo=Bytes
 gui.appliedenergistics2.ToFollow=Follow
 gui.appliedenergistics2.ToUnfollow=Unfollow
 
 # GUI Colors - ARGB
-gui.color.appliedenergistics2.SearchboxFocused=6E000000
-gui.color.appliedenergistics2.SearchboxUnfocused=00000000
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
 gui.color.appliedenergistics2.SearchboxUnfocused=00000000
 gui.color.appliedenergistics2.ItemSlotOverlayUnpowered=66111111
@@ -377,6 +377,7 @@ gui.tooltips.appliedenergistics2.Clear=Clear
 gui.tooltips.appliedenergistics2.TrashController=Deletion via Shift / Space Clicking.
 
 gui.tooltips.appliedenergistics2.InterfaceBlockingMode=Blocking Mode
+gui.tooltips.appliedenergistics2.InterfaceSmartBlockingMode=Smart Blocking Mode
 gui.tooltips.appliedenergistics2.InterfaceCraftingMode=Crafting Mode
 gui.tooltips.appliedenergistics2.Trash=Destroy Items
 gui.tooltips.appliedenergistics2.MatterBalls=Condense Into Matter Balls\n%s per item
@@ -408,6 +409,8 @@ gui.tooltips.appliedenergistics2.Disabled=Disabled
 gui.tooltips.appliedenergistics2.Enable=Enabled
 gui.tooltips.appliedenergistics2.Blocking=Do not push crafing items if inventory contains items.
 gui.tooltips.appliedenergistics2.NonBlocking=Ignore the contents of the target inventory.
+gui.tooltips.appliedenergistics2.SmartBlocking=Allow insert same recipe.
+gui.tooltips.appliedenergistics2.NonSmartBlocking=Regular blocking mode behavior.
 gui.tooltips.appliedenergistics2.Craft=Crafting Behavior
 gui.tooltips.appliedenergistics2.CraftOnly=Do not use stocked items, only craft items while exporting.
 gui.tooltips.appliedenergistics2.CraftEither=Use stocked items, or craft items while exporting.
@@ -527,6 +530,10 @@ gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=If it's positive, i
 gui.tooltips.appliedenergistics2.ToFollow=Click to follow this craft and receive message when it is complete\nYou are not following this crafting job right now
 gui.tooltips.appliedenergistics2.ToUnfollow=Click to stop following this craft\nYou are following this crafting job and will receive chat message when it's complete
 
+gui.tooltips.appliedenergistics2.StringOrder=Sorting
+gui.tooltips.appliedenergistics2.StringOrderNatural=Default
+gui.tooltips.appliedenergistics2.StringOrderAlphanum=Natural Order
+
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
 gui.appliedenergistics2.units.ic2=에너지 단위(EU)
@@ -582,10 +589,10 @@ item.appliedenergistics2.ItemAdvancedStorageCell.256k.name=256k ME Storage Cell
 item.appliedenergistics2.ItemAdvancedStorageCell.1024k.name=1024k ME Storage Cell
 item.appliedenergistics2.ItemAdvancedStorageCell.4096k.name=4096k ME Storage Cell
 item.appliedenergistics2.ItemAdvancedStorageCell.16384k.name=16384k ME Storage Cell
-item.appliedenergistics2.ItemExtremeStorageCell.Container.name=ME Block Container Cell
-item.appliedenergistics2.ItemExtremeStorageCell.Quantum.name=ME Quantum Storage Cell
-item.appliedenergistics2.ItemExtremeStorageCell.Singularity.name=ME Digital Singularity Cell
-item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Artificial Universe Cell
+item.appliedenergistics2.ItemExtremeStorageCell.Container.name=Block Container ME Storage Cell
+item.appliedenergistics2.ItemExtremeStorageCell.Quantum.name=Quantum ME Storage Cell
+item.appliedenergistics2.ItemExtremeStorageCell.Singularity.name=Digital Singularity ME Storage Cell
+item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Artificial Universe ME Storage Cell
 item.appliedenergistics2.ItemCreativeStorageCell.name=크리에이티브 ME 저장용 셀
 item.appliedenergistics2.ItemVoidStorageCell.name=Void ME Storage Cell
 item.appliedenergistics2.ItemEncodedPattern.name=쓰여진 패턴
