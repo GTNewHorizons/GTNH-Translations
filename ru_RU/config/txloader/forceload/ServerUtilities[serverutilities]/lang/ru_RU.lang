@@ -27,6 +27,8 @@ serverutilities.stat.time_afk_percent=Процент потраченного в
 serverutilities.stat.time_active=Время активной игры (не AFK)
 serverutilities.stat.dph=Смертей за час
 serverutilities.stat.last_seen=Последнее посещение
+serverutilities.stat.killed_by=Deaths by %s
+serverutilities.stat.entities_killed=%ss killed
 
 wip=Работа в процессе!
 deprecated=Этот метод устарел, используйте %s
@@ -466,6 +468,7 @@ serverutilities.lang.warps.cooldown=Вы можете использовать �
 serverutilities.lang.warps.tp=Телепортирован в '%s'!
 serverutilities.lang.warps.no_dp=Вы можете вернуться только один раз!
 serverutilities.lang.warps.no_pos_found=Нет позиции, на которую можно вернуться!
+serverutilities.lang.warps.cross_dim=You can't teleport to another dimension!
 
 # Homes
 serverutilities.lang.homes.set=Дом '%s' установлен!
@@ -510,6 +513,12 @@ cmd.backup_manual_launch=%s запустил ручное резервное к�
 cmd.backup_already_running=Выполняется резервное копирование!
 cmd.backup_not_running=Резервное копирование не запущено!
 cmd.backup_size=Текущий размер мира: %s, общий размер папки резервных копий: %s
+serverutilities.gui.backup.title=Restore Backup (%s)
+serverutilities.gui.backup.button=Backups
+serverutilities.gui.backup.restore=Restore
+serverutilities.gui.backup.error=An error occured while restoring backup!
+serverutilities.gui.backup.delete_confirm=Are you sure you want to §c§ldelete§r this backup?
+serverutilities.gui.backup.restore_confirm=Are you sure you want to §a§lrestore§r this backup?
 
 # Gui
 ## Buttons

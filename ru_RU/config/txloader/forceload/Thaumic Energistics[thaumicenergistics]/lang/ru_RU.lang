@@ -8,6 +8,7 @@ thaumicenergistics.fluid.gaseous=Газ
 #Blocks
 thaumicenergistics.block.essentia.provider.name=Поставщик эссенции
 thaumicenergistics.block.infusion.provider.name=Поставщик наполнения
+thaumicenergistics.block.advanced.infusion.provider.name=Advanced Infusion Provider
 thaumicenergistics.block.gear.box.name=Железная коробка передач
 thaumicenergistics.block.golem.gear.box.name=Таумическая коробка передач
 thaumicenergistics.block.essentia.cell.workbench.name=Верстак для ячеек эссенции
@@ -78,6 +79,10 @@ thaumicenergistics.tooltip.button.swap.armor.title=Замена брони
 thaumicenergistics.tooltip.arcane.assembler.hasVis=Содержит сохраненные Вис
 thaumicenergistics.tooltip.button.reset.aspect=Сбросить аспекты
 thaumicenergistics.tooltip.button.reset.aspect.description=Сбросить левую таблицу аспектов в исходное состояние
+thaumicenergistics.tooltip.advanced.infusion.provider.working.on=Workig Mode
+thaumicenergistics.tooltip.advanced.infusion.provider.normal=Normal Provider
+thaumicenergistics.tooltip.advanced.infusion.provider.advanced=Advanced Provider
+thaumicenergistics.tooltip.advanced.infusion.provider.totalbind=Total binded to %d matrixs
 
 
 #GUI
@@ -139,6 +144,11 @@ thaumicenergistics.research_page.TEESSPROV.1=В то время как шины 
 tc.research_name.thaumicenergistics.TEINFPROV=Поставщик наполнения
 tc.research_text.thaumicenergistics.TEINFPROV=Упрощает наполнение.
 thaumicenergistics.research_page.TEINFPROV.1=После изучения процесса наполнения эссенцией, Вы обнаружили способ мгновенного преобразования между цифросенцией и эссенцией, который может использоваться во время наполнения.<BR>После размещения §lПоставщика эссенции§r вблизи таумического устройство, устройство сможет потреблять эссенцию напрямую из сети, как будто оно - банка.<BR>Это устройство может быть полезным для алтаря наполнения.
+
+# Research Advanced Infusion Provider
+tc.research_name.thaumicenergistics.TEADVINFPROV=Advanced Infusion Provider
+tc.research_text.thaumicenergistics.TEADVINFPROV=Easiest Infusion.
+thaumicenergistics.research_page.TEADVINFPROV.1=As you continue to optimize your ME network autocrafting, you've been stumped by infusion recipes countless times.<BR>Now you have a new idea, why not leave the task of preparing essentia to your ME network?<BR>So you've developed a new infusion provider that incorporates the functionality of the Interceptor and automatically orders the missing essentia. It can also bind multiple infusion matrices in 25*25*11 area. All you need to do is just put it down among those matrices, that's it. Right-click allows him to search the area for matrix and rebind it.
 
 # Research Vis Interface
 tc.research_name.thaumicenergistics.TEVISINT=Интерфейс Вис-реле

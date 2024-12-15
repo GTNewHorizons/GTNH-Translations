@@ -156,7 +156,6 @@ gt.blockmachines.multimachine.ig.siphon.lore3=The name is wrong by definition...
 
 # Space Elevator
 gt.blockmachines.multimachine.ig.elevator.name=Космический лифт
-gt.blockmachines.multimachine.ig.elevator.desc0=Блок-контроллер космического лифта
 gt.blockmachines.multimachine.ig.elevator.desc2=Может быть оснащёно до 12 модулей космического лифта
 gt.blockmachines.multimachine.ig.elevator.desc3=Motor tier limits module tier and amount of possible modules
 gt.blockmachines.multimachine.ig.elevator.desc4=Each module has their own space for IO, except energy
@@ -216,6 +215,7 @@ gt.blockmachines.multimachine.project.ig.miner.t2.desc1=Does this violate drone 
 gt.blockmachines.multimachine.project.ig.miner.t3.desc1=This definitely violates drone rights.
 gt.blockmachines.multimachine.project.ig.miner.desc3=Для работы требуется плазма (1000L Гелий / 500L Висмут / 300L Радон).
 gt.blockmachines.multimachine.project.ig.miner.desc4=Higher tier plasmas give bonuses.
+gt.blockmachines.multimachine.project.ig.miner.desc5=Needs to be fed with computation to work.
 gt.blockmachines.multimachine.project.ig.miner.t1.desc5=До 2 параллелей
 gt.blockmachines.multimachine.project.ig.miner.t2.desc5=До 4 параллелей
 gt.blockmachines.multimachine.project.ig.miner.t3.desc5=До 8 параллелей
@@ -231,7 +231,10 @@ gt.blockmachines.multimachine.project.ig.pump.t2.desc1=Literally sucks
 gt.blockmachines.multimachine.project.ig.pump.t3.desc1=S U C C
 gt.blockmachines.multimachine.project.ig.pump.desc3=Set Planet and Gas Type determine pumped fluid
 gt.blockmachines.multimachine.project.ig.pump.desc4=Can be void protected by locking output hatches
-gt.blockmachines.multimachine.project.ig.pump.t2.desc5=Processes up to 4 different recipes at once
+gt.blockmachines.multimachine.project.ig.pump.t1.desc5=Runs at UHV with up to 4 parallels
+gt.blockmachines.multimachine.project.ig.pump.t2.desc5=Runs at UEV with up to 4 parallels per recipe
+gt.blockmachines.multimachine.project.ig.pump.t3.desc5=Runs at UXV with up to 64 parallels per recipe
+gt.blockmachines.multimachine.project.ig.pump.t2.desc6=Processes up to 4 different recipes at once
 gt.blockmachines.multimachine.project.ig.pump.cfgi.0=Тип планеты
 gt.blockmachines.multimachine.project.ig.pump.cfgi.1=Тип газа
 gt.blockmachines.multimachine.project.ig.pump.cfgi.2=Параллелей
@@ -288,13 +291,11 @@ ig.elevator.structure.OpticalConnector=Разъем для оптоволокн�
 ig.elevator.structure.AnyBaseCasingWith1Dot=любой Основной корпус космического лифта с 1 точкой
 ig.elevator.structure.AnyBaseCasingWith2Dot=любой Основной корпус космического лифта с 2 точками
 ig.elevator.structure.AnyBaseCasingWith3Dot=любой Основной корпус космического лифта с 3 точками
-ig.elevator.structure.TooComplex=Эта структура слишком сложна!
 ig.structure.contributors=Авторы
 ig.structure.programming=Programming
 ig.structure.design=Дизайн
 ig.structure.specialThanks=Special Thanks to
 ig.structure.author=Автор:
-ig.structure.moreContributors=Check controller GUI for all Contributors
 ig.structure.and= и
 
 # Space Projects

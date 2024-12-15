@@ -7,26 +7,15 @@ modularui2.fluid.empty=Пусто
 modularui2.fluid.amount=§9Количество: %s/%s %s
 modularui2.fluid.phantom.amount=§9Количество: %s %s
 modularui2.fluid.phantom.control=§7Колесо прокрутки вверх увеличивает количество, вниз - уменьшает.\n§7Shift[§6x10§7],Ctrl[§ex100§7],Alt[§ax1000§7]\n§7ПКМ увеличивает количество, ЛКМ - уменьшает.\n§7Shift + ЛКМ для очистки.
+modularui2.fluid.phantom.clear=§8left click to remove
+modularui2.fluid.registry=§7Registry: %s
+modularui2.fluid.unique_registry=§7Unique registry key: %s
+modularui2.fluid.temperature=§cTemperature: %,d K
+modularui2.fluid.state=§aState: %s
+modularui2.fluid.gas=Gas
+modularui2.fluid.liquid=Liquid
 modularui2.item.phantom.control=§7Колесо прокрутки вверх увеличивает количество, вниз - уменьшает.\n§7Shift[§6x4§7],Ctrl[§ex16§7],Alt[§ax64§7]\n§7Пкм увеличивает количество, Лкм - уменьшает.\n§7Shift + Лкм для очистки
 
 modularui2.fluid.click_to_fill=§bЛКМ §7 по контейнеру с жидкостью, чтобы §bнаполнить §7резервуар (нажмите Shift, чтобы получить полный стак).
 modularui2.fluid.click_combined=§cПКМ §7 или §bЛКМ §7 по контейнеру с жидкостью, чтобы §cопустошить §7или §bзаполнить §7резервуар (нажмите Shift, чтобы получить полный стак).
 modularui2.fluid.click_to_empty=§cПравый §7Нажмите на контейнер с жидкостью чтобы,§cопустошить §7резервуар (Щелкните Shift, чтобы получить полный стак).
-
-modularui2.config.rendering=Рендеринг
-modularui2.config.debug=Отладка
-
-modularui2.config.animations.defaultScrollSpeed=Скорость прокрутки по умолчанию
-modularui2.config.animations.defaultScrollSpeed.tooltip=Количество прокрученных пикселей.
-modularui2.config.animations.smoothProgressBar=Плавный индикатор прогресса
-modularui2.config.animations.smoothProgressBar.tooltip=Если полоса прогресса должна переходить в пиксели текстуры или пиксели экрана. (Пикселы экрана намного меньше и, следовательно, более плавные)
-modularui2.config.animations.panelOpenCloseAnimationTime=Продолжительность анимации открытия/закрытия
-modularui2.config.animations.panelOpenCloseAnimationTime.tooltip=Время открытия и закрытия панелей 1/60 сек.
-modularui2.config.animations.tooltipPos=Положение подсказки по умолчанию
-modularui2.config.animations.tooltipPos.tooltip=Положение всплывающей подсказки по умолчанию вокруг виджета или его панели. Выберите: ВЫШЕ, НИЖЕ, СЛЕВА, СПРАВА, ВЕРТИКАЛЬНО, ГОРИЗОНТАЛЬНО, РЯДОМ_С_МЫШЬЮ
-modularui2.config.animations.useDarkThemeByDefault=Тёмная тема
-modularui2.config.animations.useDarkThemeByDefault.tooltip=Если true и не указано иные, экраны будут пытаться использовать тему 'тёмная_ванилла'.
-modularui2.config.debug.guiDebugMode=Режим отладки Gui
-modularui2.config.debug.guiDebugMode.tooltip=Если значение равно true, будут отрисованы контуры виджета и информация о нем.
-modularui2.config.debug.enableTestGuis=Включить тесты Gui
-modularui2.config.debug.enableTestGuis.tooltip=Включает тестовый блок, тестовый предмет с тестовым Gui и открытие Gui по щелчку ПКМ по алмазу.
