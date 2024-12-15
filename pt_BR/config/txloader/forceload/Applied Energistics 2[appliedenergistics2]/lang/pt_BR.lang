@@ -105,6 +105,10 @@ chat.appliedenergistics2.TunnelHasNoOutputs=O Túnel não tem saídas.
 chat.appliedenergistics2.TunnelOutputsAreAt=As saídas do túnel estão em:
 chat.appliedenergistics2.InterfaceInOtherDim=Interface localizada na dimensão: %d e não pode ser destacada 
 chat.appliedenergistics2.InterfaceHighlighted=A interface está agora destacada em %d, %d, %d
+chat.appliedenergistics2.LevelEmitterInAnotherDim=Level emitter located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.LevelEmitterHighlighted=The level emitter is now highlighted at %d, %d, %d
+chat.appliedenergistics2.P2PInAnotherDim=P2P located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.P2PHighlighted=The P2P is now highlighted at %d, %d, %d
 chat.appliedenergistics2.CraftingItemsWentMissing=Could not start craft, ingredient went missing: %d * %s
 chat.appliedenergistics2.FBOUnsupported=OpenGL FBOs not supported, cannot export image
 chat.appliedenergistics2.PriorityInvalidTarget=Target has no priority
@@ -112,7 +116,7 @@ chat.appliedenergistics2.PriorityReadout=Current priority is %d
 chat.appliedenergistics2.PriorityConfigured=Updated priority to %d
 chat.appliedenergistics2.DriveLocked=Digital Singularity cells in drive were locked to the current item on them
 chat.appliedenergistics2.ChestLocked=Digital Singularity cell in chest was locked to the current item on it
-chat.appliedenergistics2.FinishCraftingRemind=Job for crafting %s * %s is finished, total used %s.
+chat.appliedenergistics2.FinishCraftingRemind=Crafting of %s * %s finished in %s.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Energística Aplicada 2
@@ -310,20 +314,16 @@ gui.appliedenergistics2.NetworkBytesDetails=Network Bytes Details
 gui.appliedenergistics2.Items=Itens
 gui.appliedenergistics2.Fluids=Fluidos
 gui.appliedenergistics2.Essentias=Essen
+gui.appliedenergistics2.NetworkCellStatus=Cell status
 gui.appliedenergistics2.NetworkItemCellCount=Network Item Cell Count
 gui.appliedenergistics2.NetworkFluidCellCount=Network Fluid Cell Count
 gui.appliedenergistics2.NetworkEssentiaCellCount=Network Essentia Cell Count
-gui.appliedenergistics2.Green=Green
-gui.appliedenergistics2.Orange=Orange
-gui.appliedenergistics2.Red=Red
 gui.appliedenergistics2.TypesInfo=Types
 gui.appliedenergistics2.BytesInfo=Bytes
 gui.appliedenergistics2.ToFollow=Follow
 gui.appliedenergistics2.ToUnfollow=Unfollow
 
 # GUI Colors - ARGB
-gui.color.appliedenergistics2.SearchboxFocused=6E000000
-gui.color.appliedenergistics2.SearchboxUnfocused=00000000
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
 gui.color.appliedenergistics2.SearchboxUnfocused=00000000
 gui.color.appliedenergistics2.ItemSlotOverlayUnpowered=66111111
@@ -377,6 +377,7 @@ gui.tooltips.appliedenergistics2.Clear=Limpar
 gui.tooltips.appliedenergistics2.TrashController=Deleção via Shift / Espaço + Clique.
 
 gui.tooltips.appliedenergistics2.InterfaceBlockingMode=Modo de Bloqueio
+gui.tooltips.appliedenergistics2.InterfaceSmartBlockingMode=Smart Blocking Mode
 gui.tooltips.appliedenergistics2.InterfaceCraftingMode=Modo de Fabricação
 gui.tooltips.appliedenergistics2.Trash=Destruir Itens
 gui.tooltips.appliedenergistics2.MatterBalls=Condensar em Bolas de Matéria\n%s por item
@@ -408,6 +409,8 @@ gui.tooltips.appliedenergistics2.Disabled=Desativado
 gui.tooltips.appliedenergistics2.Enable=Ativado
 gui.tooltips.appliedenergistics2.Blocking=Não empurra itens de fabricação se o inventário contém itens.
 gui.tooltips.appliedenergistics2.NonBlocking=Ignora o conteúdo do inventário alvo.
+gui.tooltips.appliedenergistics2.SmartBlocking=Allow insert same recipe.
+gui.tooltips.appliedenergistics2.NonSmartBlocking=Regular blocking mode behavior.
 gui.tooltips.appliedenergistics2.Craft=Comportamento de Fabricação
 gui.tooltips.appliedenergistics2.CraftOnly=Não usa itens estocados, apenas cria enquanto exporta.
 gui.tooltips.appliedenergistics2.CraftEither=Usa itens estocados, ou cria itens quando exporta.
@@ -527,6 +530,10 @@ gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=If it's positive, i
 gui.tooltips.appliedenergistics2.ToFollow=Click to follow this craft and receive message when it is complete\nYou are not following this crafting job right now
 gui.tooltips.appliedenergistics2.ToUnfollow=Click to stop following this craft\nYou are following this crafting job and will receive chat message when it's complete
 
+gui.tooltips.appliedenergistics2.StringOrder=Sorting
+gui.tooltips.appliedenergistics2.StringOrderNatural=Default
+gui.tooltips.appliedenergistics2.StringOrderAlphanum=Natural Order
+
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
 gui.appliedenergistics2.units.ic2=Unidades de Energia
@@ -582,10 +589,10 @@ item.appliedenergistics2.ItemAdvancedStorageCell.256k.name=256k ME Storage Cell
 item.appliedenergistics2.ItemAdvancedStorageCell.1024k.name=1024k ME Storage Cell
 item.appliedenergistics2.ItemAdvancedStorageCell.4096k.name=4096k ME Storage Cell
 item.appliedenergistics2.ItemAdvancedStorageCell.16384k.name=16384k ME Storage Cell
-item.appliedenergistics2.ItemExtremeStorageCell.Container.name=ME Block Container Cell
-item.appliedenergistics2.ItemExtremeStorageCell.Quantum.name=ME Quantum Storage Cell
-item.appliedenergistics2.ItemExtremeStorageCell.Singularity.name=ME Digital Singularity Cell
-item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Artificial Universe Cell
+item.appliedenergistics2.ItemExtremeStorageCell.Container.name=Block Container ME Storage Cell
+item.appliedenergistics2.ItemExtremeStorageCell.Quantum.name=Quantum ME Storage Cell
+item.appliedenergistics2.ItemExtremeStorageCell.Singularity.name=Digital Singularity ME Storage Cell
+item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Artificial Universe ME Storage Cell
 item.appliedenergistics2.ItemCreativeStorageCell.name=Célula de Armazenamento ME Criativa
 item.appliedenergistics2.ItemVoidStorageCell.name=Void ME Storage Cell
 item.appliedenergistics2.ItemEncodedPattern.name=Padrão Codificado

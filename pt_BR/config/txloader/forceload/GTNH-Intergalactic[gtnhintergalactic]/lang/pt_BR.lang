@@ -156,7 +156,6 @@ gt.blockmachines.multimachine.ig.siphon.lore3=O nome está errado por definiçã
 
 # Space Elevator
 gt.blockmachines.multimachine.ig.elevator.name=Elevador Espacial
-gt.blockmachines.multimachine.ig.elevator.desc0=Bloco Controlador para o Elevador Espacial
 gt.blockmachines.multimachine.ig.elevator.desc2=Pode ser equipado com até 12 Módulos do Elevador Espacial
 gt.blockmachines.multimachine.ig.elevator.desc3=Nível do motor limita nível do módulo e quantidade de módulos possíveis
 gt.blockmachines.multimachine.ig.elevator.desc4=Cada módula tem seu próprio espaço de entrada/saída, exceto energia
@@ -216,6 +215,7 @@ gt.blockmachines.multimachine.project.ig.miner.t2.desc1=Isso viola os direitos d
 gt.blockmachines.multimachine.project.ig.miner.t3.desc1=Isso definitivamente viola os direitos dos drones.
 gt.blockmachines.multimachine.project.ig.miner.desc3=Requer um plasma para operar. (1000L Hélio / 500L Bismuto / 300L Radônio)
 gt.blockmachines.multimachine.project.ig.miner.desc4=Plasmas de níveis alto dão bônus.
+gt.blockmachines.multimachine.project.ig.miner.desc5=Needs to be fed with computation to work.
 gt.blockmachines.multimachine.project.ig.miner.t1.desc5=Até 2 paralelos
 gt.blockmachines.multimachine.project.ig.miner.t2.desc5=Até 4 paralelos
 gt.blockmachines.multimachine.project.ig.miner.t3.desc5=Até 8 paralelos
@@ -231,7 +231,10 @@ gt.blockmachines.multimachine.project.ig.pump.t2.desc1=Literalmente uma bomba
 gt.blockmachines.multimachine.project.ig.pump.t3.desc1=C H U P A
 gt.blockmachines.multimachine.project.ig.pump.desc3=Planeta e Tipo de Gás determinan fluido bombado
 gt.blockmachines.multimachine.project.ig.pump.desc4=Pode ser protegido contra perdas trancado válvulas de entrada
+gt.blockmachines.multimachine.project.ig.pump.t1.desc5=Runs at UHV with up to 4 parallels
 gt.blockmachines.multimachine.project.ig.pump.t2.desc5=Processa até 4 receitas diferentes de uma vez
+gt.blockmachines.multimachine.project.ig.pump.t3.desc5=Runs at UXV with up to 64 parallels per recipe
+gt.blockmachines.multimachine.project.ig.pump.t2.desc6=Processes up to 4 different recipes at once
 gt.blockmachines.multimachine.project.ig.pump.cfgi.0=Tipo de Planeta
 gt.blockmachines.multimachine.project.ig.pump.cfgi.1=Tipo de Gás
 gt.blockmachines.multimachine.project.ig.pump.cfgi.2=Paralelos
@@ -288,13 +291,11 @@ ig.elevator.structure.OpticalConnector=Conector Óptico
 ig.elevator.structure.AnyBaseCasingWith1Dot=Qualquer Invólucro da Base do Elevador Espacial com 1 ponto
 ig.elevator.structure.AnyBaseCasingWith2Dot=Qualquer Invólucro da Base do Elevador Espacial com 2 pontos
 ig.elevator.structure.AnyBaseCasingWith3Dot=Qualquer Invólucro da Base do Elevador Espacial com 3 pontos
-ig.elevator.structure.TooComplex=A estrutura é muito complexa!
 ig.structure.contributors=Contribuidores
 ig.structure.programming=Programação
 ig.structure.design=Design
 ig.structure.specialThanks=Agradecimentos Especiais a
 ig.structure.author=Autor:
-ig.structure.moreContributors=Cheque a Interface Gráfica do Controlador para ver todos os Contribuidores
 ig.structure.and=e
 
 # Space Projects
