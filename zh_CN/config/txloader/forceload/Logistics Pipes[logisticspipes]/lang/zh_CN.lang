@@ -364,15 +364,15 @@ gui.firewall.Powerflow=能量
 gui.fluidbasic.Empty=空
 
 gui.fluidsuppliermk2.Fluid=流体
-gui.fluidsuppliermk2.partial=Partial
-gui.fluidsuppliermk2.partial.tip=Allows the network to partially fulfill the required space
-gui.fluidsuppliermk2.partial.no=No
-gui.fluidsuppliermk2.partial.no.tip=§eNo§7: Fluid is pulled only if network has enough resources to fill the required space completely
-gui.fluidsuppliermk2.partial.yes=Yes
-gui.fluidsuppliermk2.partial.yes.tip=§eYes§7: Fluid is pulled even if network doesn't have enough resources to fill the required space completely
-gui.fluidsuppliermk2.refill_if_depleted=Refill on depletion at least
-gui.fluidsuppliermk2.refill_if_depleted.tip=Allows to request fluid only if the space is emptied by at least §e%s§r mB
-gui.fluidsuppliermk2.refill_if_depleted.tip.zero=§7Setting to §e0§7 disables the feature
+gui.fluidsuppliermk2.partial=部分
+gui.fluidsuppliermk2.partial.tip=允许从网络中部分填充所需的空间
+gui.fluidsuppliermk2.partial.no=否
+gui.fluidsuppliermk2.partial.no.tip=§e否§7：只有当网络中有足够的资源完全填充所需空间时，流体才会被抽取
+gui.fluidsuppliermk2.partial.yes=是
+gui.fluidsuppliermk2.partial.yes.tip=§e是§7：即使网络中没有足够的资源完全填充所需空间，流体也会被抽取。
+gui.fluidsuppliermk2.refill_if_depleted=重新填充的损耗阈值
+gui.fluidsuppliermk2.refill_if_depleted.tip=仅在空间至少被消耗§e%s§r mB时允许请求流体。
+gui.fluidsuppliermk2.refill_if_depleted.tip.zero=§7设置为§e0§7以关闭该功能
 gui.fluidsuppliermk2.TargetInv=要补给的流体
 
 gui.fluidsupplier.TargetInv=要补给的流体
@@ -460,7 +460,7 @@ gui.networkstatistics.gettasks=已获得任务
 gui.networkstatistics.add.alreadytracked=该物品已经开始追踪
 
 gui.settings.pipenewrenderer=使用新渲染
-gui.settings.pipevborenderer=Use VBO Renderer (experimental)
+gui.settings.pipevborenderer=使用VBO渲染器（实验性）
 gui.settings.pipefallbackrenderer=使用备用渲染
 gui.settings.piperenderdistance=新渲染最大渲染距离
 gui.settings.pipecontentrenderdistance=管道内容物最大渲染距离

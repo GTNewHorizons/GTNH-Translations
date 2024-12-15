@@ -22,13 +22,13 @@ serverutilities.unsaved_changes.title=未保存的更改
 serverutilities.unsaved_changes=你有未保存的更改。你想要保存它们吗？
 serverutilities.command_overview=命令概述
 
-serverutilities.stat.time_afk=Time AFK
-serverutilities.stat.time_afk_percent=Percentage of time spent AFK
-serverutilities.stat.time_active=Time actively playing (not AFK)
+serverutilities.stat.time_afk=AFK时长
+serverutilities.stat.time_afk_percent=AFK时长百分比
+serverutilities.stat.time_active=实际游戏时长（不包含AFK）
 serverutilities.stat.dph=每小时死亡数
 serverutilities.stat.last_seen=最后在线
-serverutilities.stat.killed_by=Deaths by %s
-serverutilities.stat.entities_killed=%ss killed
+serverutilities.stat.killed_by=死于%s
+serverutilities.stat.entities_killed=%ss死亡
 
 wip=仍在开发中！
 deprecated=该方法已被弃用，请使用 %s
@@ -54,7 +54,7 @@ action_bar=操作栏
 nothing_changed=无改变！
 player_must_be_online=玩家必须在线！
 
-serverutilities.task.cleanup_entity=Removing %s in %d seconds
+serverutilities.task.cleanup_entity=移除%s耗时%d秒
 serverutilities.task.cleanup_hostiles=敌对生物
 serverutilities.task.cleanup_passives=友善生物
 serverutilities.task.cleanup_items=掉落物
@@ -234,8 +234,8 @@ permission.serverutilities.chat.prefix.right.text=聊天前缀文本
 permission.serverutilities.chat.suffix.left.text=聊天后缀文本 [左]
 permission.serverutilities.chat.suffix.base.text=聊天后缀文本 [基础]
 permission.serverutilities.chat.suffix.right.text=聊天后缀文本 [右]
-permission.serverutilities.claims.decay=Claim decay timer. Claims will be permanently removed after team has been inactive for the given time.
-permission.serverutilities.chunkloader.decay=Chunkload decay timer. Loaded chunks will be unloaded after team has been inactive for the given time and are restored once activity resumes.
+permission.serverutilities.claims.decay=区块声明淘汰计时器。在给定时间内不活跃后，组内的区块声明将被永久移除。
+permission.serverutilities.chunkloader.decay=区块加载淘汰计时器。在给定时间内不活跃后，组内保持加载的区块将被卸载，重新活跃之后将会重新加载。
 
 permission.default_op_rank=默认管理员权限组
 permission.default_player_rank=默认玩家权限组
@@ -312,13 +312,13 @@ serverutilities.admin_panel.loaded_chunks=查看所有已加载区块
 serverutilities.admin_panel.whitelist=编辑白名单
 serverutilities.admin_panel.ops=编辑管理员
 serverutilities.admin_panel.edit_world=编辑世界
-serverutilities.admin_panel.ranks.player_ranks=Player Ranks
-serverutilities.admin_panel.ranks.select_rank=Select Rank
-serverutilities.admin_panel.edit_rank=Edit Ranks
+serverutilities.admin_panel.ranks.player_ranks=玩家排行榜
+serverutilities.admin_panel.ranks.select_rank=选择排行榜
+serverutilities.admin_panel.edit_rank=编辑排行榜
 serverutilities.admin_panel.ranks.add_perm=添加权限
 serverutilities.admin_panel.ranks.add_command=添加命令权限
-serverutilities.admin_panel.ranks.cant_remove=Default rank can't be removed!
-serverutilities.admin_panel.ranks.delete_confirm=This will permanently delete rank: %s. Are you sure?
+serverutilities.admin_panel.ranks.cant_remove=默认排行榜无法被移除！
+serverutilities.admin_panel.ranks.delete_confirm=这将会永久删除排行榜：%s。是否确定？
 
 # Keys
 key.serverutilities.nbt=编辑NBT
