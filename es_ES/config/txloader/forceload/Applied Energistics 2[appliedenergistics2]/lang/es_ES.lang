@@ -425,6 +425,7 @@ gui.tooltips.appliedenergistics2.TerminalStyle_Full=Terminal Pantalla Completa
 gui.tooltips.appliedenergistics2.TerminalStyle_Tall=Terminal Centrada Alta
 gui.tooltips.appliedenergistics2.TerminalStyle_Small=Terminal Centrada Pequeña
 gui.tooltips.appliedenergistics2.SaveAsImage=Guardar como imágen
+gui.tooltips.appliedenergistics2.HideStored=Hide Stored Items
 
 gui.tooltips.appliedenergistics2.DoesntDespawn=Este objeto no desaparece si se deja tirado en el suelo.
 gui.tooltips.appliedenergistics2.EmitterMode=Modo del Emisor de Elaboración
@@ -509,6 +510,10 @@ gui.tooltips.appliedenergistics2.CraftingModeStandard=Modo de Elaboración Estan
 gui.tooltips.appliedenergistics2.CraftingModeStandardDesc=Solo empieza a fabricar si todos los ingredientes están en el sistema ME.
 gui.tooltips.appliedenergistics2.CraftingModeIgnoreMissing=Modo Ignorar Objetos Faltantes
 gui.tooltips.appliedenergistics2.CraftingModeIgnoreMissingDesc=Empieza a fabricar incluso si faltan ingredientes en el sistema ME.
+
+gui.tooltips.appliedenergistics2.FakeCraftingMode=Fake Crafting
+gui.tooltips.appliedenergistics2.FakeCraftingOn=Fake Crafting Mode
+gui.tooltips.appliedenergistics2.FakeCraftingOff=Standard Crafting Mode
 
 gui.tooltips.appliedenergistics2.ExtraOptions=Opciones Extra
 
@@ -625,6 +630,8 @@ item.appliedenergistics2.ItemMaterial.CardPatternRefiller.name=Tarjeta de Rellen
 item.appliedenergistics2.ItemMaterial.CardAdvancedBlocking.name=Tarjeta de Bloqueo Avanzada
 item.appliedenergistics2.ItemMaterial.CardLockCrafting.name=Tarjeta de Bloqueo
 item.appliedenergistics2.ItemMaterial.CardSticky.name=Tarjeta Pegajosa
+item.appliedenergistics2.ItemMaterial.CardSuperSpeedGod.name=Superluminal Acceleration Card
+item.appliedenergistics2.ItemMaterial.CardFakeCrafting.name=Fake Crafting Card
 
 item.appliedenergistics2.ItemMaterial.Cell2SpatialPart.name=Componente Espacial de 2³ 
 item.appliedenergistics2.ItemMaterial.Cell16SpatialPart.name=Componente Espacial de 16³ 
@@ -712,6 +719,7 @@ item.appliedenergistics2.ItemPart.P2PTunnel.name=Tunel P2P
 item.appliedenergistics2.ItemPart.PatternTerminal.name=Terminal de Patrones ME
 item.appliedenergistics2.ItemPart.PatternTerminalEx.name=Terminal de Patrones de Procesamiento ME
 item.appliedenergistics2.ItemPart.QuartzFiber.name=Fibra de Cuarzo
+item.appliedenergistics2.ItemPart.PartCreativeEnergy.name=Creative Energy Anchor
 item.appliedenergistics2.ItemPart.StorageBus.name=Bus de Almacenamiento ME
 item.appliedenergistics2.ItemPart.Terminal.name=Terminal ME
 item.appliedenergistics2.ItemPart.CraftingTerminal.name=Terminal de Trabajo ME
