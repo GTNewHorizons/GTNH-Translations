@@ -116,8 +116,10 @@ item.WG_PrimordialBoots.name=Botas Primordiales
 item.WG_Baubles.ring_primordial.name=Anillo Primordial
 item.WG_Baubles.ring_lifeProtection.name=Anillo de Protección Vital
 
-item.WG_Baubles.shouldersDoublejump.name=Hombreras del Serafín
-item.WG_Baubles.shouldersKnockback.name=Hombreras Firmes
+item.WG_Baubles.charmEmpty.name=Empty Leather Charm
+item.WG_Baubles.vambraceEmpty.name=Leather Vambraces
+item.WG_Baubles.charmDoublejump.name=Seraph's Charm
+item.WG_Baubles.charmKnockback.name=Steadfast Charm
 item.WG_Baubles.vambraceStrength.name=Brazales del Berserker
 item.WG_Baubles.vambraceHaste.name=Brazales del Firme Progreso
 item.WG_Baubles.titleCrimsonCult.name=Título: Secta Carmesí
@@ -148,6 +150,8 @@ enchantment.wg.soulbound=Atado al Alma
 enchantment.wg.soultether=Atado al Alma
 #
 # -- Random bits of text --
+wg.config.activateKey=Hotkey for activating some worn items.
+
 wg.chat.notyourbag=§7¡Esta bolsa es de§r %1$s§7! No puedes abrirla.§r
 wg.chat.bagunlocked=§7Bolsa desbloqueada; ahora otros pueden abrirla.§r
 wg.chat.baglocked=§7Bolsa bloqueada; nadie salvo tú puede abrirla.§r
@@ -158,6 +162,7 @@ wg.gui.buttonMigrate=Volver al nido
 wg.gui.noFeathersToMigrate=No tienes los objetos necesarios para volver a tu nido
 
 wg.desc.noGlide=Planeo desactivado
+wg.desc.enableCloak=§7Enable or disable by Holding §a%s1§7 and pressing §a%s2§7.
 
 wg.gui.visSize=Capacidad de Vis
 wg.gui.shiftForAspectList=§7Pulsa y mantiene §aShift§7 para ver una lista de Aspectos§r
@@ -175,13 +180,13 @@ wg.desc.gemaversion=Aversiones Inherentes:
 wg.desc.ctrlForAspectList=§7Pulsa y mantén §aCtrl§7 para ver una lista de Aspectos§r
 wg.desc.scanCompleted=Escaneo Completado
 
-wg.desc.gearSlot.tg.0=Equipado en la ranura de §aCapa§7
-wg.desc.gearSlot.tg.1=Equipado en la ranura de §aHombrera§7
-wg.desc.gearSlot.tg.2=Equipado en la ranura de §aBrazal§7
-wg.desc.gearSlot.tg.3=Equipado en la ranura de §aTítulo§7
-wg.desc.gearSlot.bauble.RING=Equipado en la ranura de §aAnillo§7
-wg.desc.gearSlot.bauble.BELT=Equipado en la ranura de §aCinturón§7
-wg.desc.gearSlot.bauble.AMULET=Equipado en la ranura de §aAmuleto§7
+wg.desc.gearSlot.bauble.Cloak=Equipped in the §aCloak§7 slot
+wg.desc.gearSlot.bauble.Charm=Equipped in the §aCharm§7 slot
+wg.desc.gearSlot.bauble.Gloves=Equipped in the §aGloves§7 slot
+wg.desc.gearSlot.bauble.Title=Equipped in the §aTitle§7 slot
+wg.desc.gearSlot.bauble.Ring=Equipped in the §aRing§7 slot
+wg.desc.gearSlot.bauble.Belt=Equipped in the §aBelt§7 slot
+wg.desc.gearSlot.bauble.Amulet=Equipped in the §aAmulet§7 slot
 
 wg.desc.filteredItems=Objetos Aceptados:
 
@@ -309,12 +314,15 @@ witchinggadgets_research_page.ADVANCEDROBES.r1=<IMG>witchinggadgets:textures/gui
 #-----------------------#
 witchinggadgets_research_name.WGBAUBLES=Vestibles y Embrujantes
 witchinggadgets_research_text.WGBAUBLES=[WG] Casi casi una boutique mágica
+witchinggadgets_research_page.WGBAUBLES.0=What looks like catalogue pages from a wizarding equipment store actually proved to be arcane schematics for magical garments! §oAll of these are to be equipped in Baubles slots.§r<BR>§lEmpty Leather Charm:§r<BR>This basic leather charm is ready to be enchanted.§r
 witchinggadgets_research_page.WGBAUBLES.1=¡Lo que parece un catálogo de una tienda de equipamiento de hechizería es en realidad esquemas para ropajes mágicos! §0Todos deben ser equipados en ranuras de Baubles o de Traveller's Gear. A este último puedes acceder usando la tecla 'Numpad 7', si no has cambiado los controles.§r<BR>§lHombreras Firmes§r:<BR>Estas hombreras no son muy bonitas, y apenas te protege nada, pero la mágica imbuida en ellas te ancla al suelo y evita que los enemigos te desplacen. §oReduce el retroceso en un 60%.§r
 witchinggadgets_research_page.WGBAUBLES.2=§lBrazales del Berserker§r:<BR>Cubierto en pelaje de lobo, estos brazales no te cubren de las espadas, sino que, gracias a la magia imbuida en ellos, te proporcinan la ferocidad de un lobo. También son muy suaves.<BR>§oAumenta el daño de tus ataques en 2 puntos.§r
 witchinggadgets_research_page.WGBAUBLES.3=§lBrazales del Firme Progreso§r:<BR>Estos brazales diseñados por enanos taumaturgos están diseñados para poder cavar hoyos a velocidad constante y sin interrupción. A fin de conseguirlo reaccionan dinámicante a las condiciones de trabajo, aumentando la velocidad de minería bajo el agua, mientras se está volando o cuando se intenta minar materiales altamente resistentes.<BR>También aumenta la velocidad a la que se suben las escalerillas de mano, para poder escapar de lo que eventualmente despiertes allí abajo.
 witchinggadgets_research_page.WGBAUBLES.4=§lHombreras del Serafín§r:<BR>Volar es el deseo de muchos. Es muy avanzado para incluso para ti, pero dar un pequeño salto es algo dentro de tus posibilidades.<BR>Estas hombreras otorgan unas alas mágicas capaces de permitirte realizar un segundo salto en el aire.
 witchinggadgets_research_page.WGBAUBLES.5=§lAnillo del Tirador§r:<BR>Algunas criaturas de lo oscuro son demasiado fuertes como para ir cuerpo a cuerpo contra ellas—lidiar con ellos a distancia es más recomendable. El Anillo del Tirador facilita esto sustancialmente.<BR>Mientras lo lleves puesto podrás moverte más rápido mientras apuntas con un arco. Además, agacharte con una flecha lista te permitirá centrarte en objetivos lejanos.
 witchinggadgets_research_page.WGBAUBLES.6=§lAnillo de la Moneda Avariciosa§r:<BR>¡Qué suerte es tener suerte! Mas nunca se tiene suficiente, así que a fin de tener más suerte has descubierto que puedes hacerlo echándole magia a una moneda y un anillo.<BR>§oEl anillo aumenta tu fortuna y botín en dos niveles.<BR>Los libros encantados usados para fabricar la moneda pueden tener cualquier encantamiento.§r
+witchinggadgets_research_page.WGBAUBLES.7=§lRing of the Covetous Coin:§r<BR>It's great to be lucky! But one can never have enough luck. You've devised a way to boost your own luck, by socketing a golden coin in a ring and loading it with magic.<BR>§oWearing the ring will increase your fortune and looting by two levels.<BR>The enchanted books used to make the coin can carry any enchantment.§r
+witchinggadgets_research_page.WGBAUBLES.8=§lLucky Gold Coin:§r<BR>An enchanted Lucky Coin, ready to be used.§r
 #
 witchinggadgets_research_name.CLOAK=Capa
 witchinggadgets_research_text.CLOAK=[WG] ¡Swish!
