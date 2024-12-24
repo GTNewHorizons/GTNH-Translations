@@ -116,8 +116,10 @@ item.WG_PrimordialBoots.name=Первобытные сапоги
 item.WG_Baubles.ring_primordial.name=Первобытное кольцо
 item.WG_Baubles.ring_lifeProtection.name=Кольцо защиты жизни
 
-item.WG_Baubles.shouldersDoublejump.name=Наплечники Серафима
-item.WG_Baubles.shouldersKnockback.name=Непоколебимый наплеч
+item.WG_Baubles.charmEmpty.name=Empty Leather Charm
+item.WG_Baubles.vambraceEmpty.name=Leather Vambraces
+item.WG_Baubles.charmDoublejump.name=Seraph's Charm
+item.WG_Baubles.charmKnockback.name=Steadfast Charm
 item.WG_Baubles.vambraceStrength.name=Наручи берсерка
 item.WG_Baubles.vambraceHaste.name=Наручи неуклонного прогресса
 item.WG_Baubles.titleCrimsonCult.name=Название: Багровый культ
@@ -148,6 +150,8 @@ enchantment.wg.soulbound=Привязка души
 enchantment.wg.soultether=Привязка души
 #
 # -- Random bits of text --
+wg.config.activateKey=Hotkey for activating some worn items.
+
 wg.chat.notyourbag=§7Эта сумка принадлежит§r %1$s! §7Вам не разрешено его открывать.§r
 wg.chat.bagunlocked=§7Сумка была разблокирована, теперь ее могут открыть другие.§r
 wg.chat.baglocked=§7Сумка была заперта, никто, кроме вас, не может ее открыть.§r
@@ -158,6 +162,7 @@ wg.gui.buttonMigrate=Вернуться в гнездо
 wg.gui.noFeathersToMigrate=У вас нет предметов, необходимых для возвращения в гнездо
 
 wg.desc.noGlide=Планирование отключено
+wg.desc.enableCloak=§7Enable or disable by Holding §a%s1§7 and pressing §a%s2§7.
 
 wg.gui.visSize=Ёмкость Вис
 wg.gui.shiftForAspectList=§7Удерживать §aShift§7 для списка аспектов§r
@@ -175,13 +180,13 @@ wg.desc.gemaversion=Природное отвращение:
 wg.desc.ctrlForAspectList=§7Удерживать §aCtrl§7 для списка аспектов§r
 wg.desc.scanCompleted=Сканирование завершено
 
-wg.desc.gearSlot.tg.0=Одето в слот для §aПлаща§7
-wg.desc.gearSlot.tg.1=Одето в слот для §aНаплечья§7
-wg.desc.gearSlot.tg.2=Одето в слот для §aНаручи§7
-wg.desc.gearSlot.tg.3=Одето в слот для §aЗвания§7
-wg.desc.gearSlot.bauble.RING=Одето в слот для §aКольца§7
-wg.desc.gearSlot.bauble.BELT=Одето в слот для §aПояса§7
-wg.desc.gearSlot.bauble.AMULET=Одето в слот для §aАмулета§7
+wg.desc.gearSlot.bauble.Cloak=Equipped in the §aCloak§7 slot
+wg.desc.gearSlot.bauble.Charm=Equipped in the §aCharm§7 slot
+wg.desc.gearSlot.bauble.Gloves=Equipped in the §aGloves§7 slot
+wg.desc.gearSlot.bauble.Title=Equipped in the §aTitle§7 slot
+wg.desc.gearSlot.bauble.Ring=Equipped in the §aRing§7 slot
+wg.desc.gearSlot.bauble.Belt=Equipped in the §aBelt§7 slot
+wg.desc.gearSlot.bauble.Amulet=Equipped in the §aAmulet§7 slot
 
 wg.desc.filteredItems=Принятые предметы:
 
@@ -309,12 +314,15 @@ witchinggadgets_research_page.ADVANCEDROBES.r1=<IMG>witchinggadgets:textures/gui
 #-----------------------#
 witchinggadgets_research_name.WGBAUBLES=Колдовское снаряжение
 witchinggadgets_research_text.WGBAUBLES=[WG] Это похоже на волшебный бутик
+witchinggadgets_research_page.WGBAUBLES.0=What looks like catalogue pages from a wizarding equipment store actually proved to be arcane schematics for magical garments! §oAll of these are to be equipped in Baubles slots.§r<BR>§lEmpty Leather Charm:§r<BR>This basic leather charm is ready to be enchanted.§r
 witchinggadgets_research_page.WGBAUBLES.1=То, что выглядит как страницы каталога из магазина волшебного снаряжения, на самом деле оказалось загадочной схемой для магической одежды!§oВсе они должны быть размещены в слотах Baubles или Traveller's Gear. Привязка клавиш по умолчанию для инвентаря TG - "Numpad 7".§r<BR>§lНепоколебимый наплеч:§r<BR>Эти наплечные пластины не предназначены для того, чтобы быть очень модными, и их защитная ценность ничтожна. Тем не менее, магия, вложенная в них, способна прижать вас к полу, так что вы не будете колебаться, застряв от атак врага. §oДает 60% сопротивления отбрасыванию.§r
 witchinggadgets_research_page.WGBAUBLES.2=§lНаручи берсерка:§r<BR>Покрытые волчьим мехом, эти наручи не удерживают клинки. Но благодаря магии, наполненной ими, они наделяют пользователя свирепостью волка. К тому же они невероятно пушистые.<BR>§oУвеличивает урон от атаки на 2.§r
 witchinggadgets_research_page.WGBAUBLES.3=§lНаручи неуклонного прогресса:§r<BR>Эти наручи, разработанные дворфскими волшебниками, созданы, чтобы дать вам возможность рыть яму в стабильном темпе, не прерываясь. Для этого они динамически реагируют на условия работы, увеличивая скорость копания, когда пользователь погружается в воду, летает в воздухе или при столкновении с очень упругими материалами.<BR>Они также увеличивают скорость, с которой вы поднимаетесь по лестнице, когда вам в конце концов нужно убежать от того, что вы разбудили в темноте внизу.
 witchinggadgets_research_page.WGBAUBLES.4=§lНаплечники Серафима:§r<BR>Полет - это способность, о которой мечтают многие. Это довольно продвинутая форма магии, которая позволяет пользователям летать, но небольшой прыжок в воздухе - в ваших возможностях.<BR>Эти плечи порождают мощные волшебные крылья, которые позволяют вам совершить второй прыжок в воздухе.
 witchinggadgets_research_page.WGBAUBLES.5=§lКольцо снайпера:§r<BR>Некоторые существа тьмы слишком сильны, чтобы сражаться с ними в рукопашном бою, поэтому убрать их на расстоянии кажется более целесообразным. С кольцом Снайпера эта задача значительно упрощается.<BR>Пока вы носите кольцо, вы сможете двигаться быстрее, натягивая лук. Подкрадывание со сбитой стрелой позволит вам сфокусироваться на цели, находящейся на расстоянии.
 witchinggadgets_research_page.WGBAUBLES.6=§lКольцо жадной монеты:§r<BR>Хорошо быть удачливым! Но никогда не бывает достаточно удачи. Вы придумали способ повысить свою удачу, вставив золотую монету в кольцо и зарядив ее магией.<BR>§oНошение кольца увеличит ваше состояние и добычу на два уровня.<BR>Зачарованные книги, из которых изготавливается монета, могут нести любые чары.§r
+witchinggadgets_research_page.WGBAUBLES.7=§lRing of the Covetous Coin:§r<BR>It's great to be lucky! But one can never have enough luck. You've devised a way to boost your own luck, by socketing a golden coin in a ring and loading it with magic.<BR>§oWearing the ring will increase your fortune and looting by two levels.<BR>The enchanted books used to make the coin can carry any enchantment.§r
+witchinggadgets_research_page.WGBAUBLES.8=§lLucky Gold Coin:§r<BR>An enchanted Lucky Coin, ready to be used.§r
 #
 witchinggadgets_research_name.CLOAK=Плащ
 witchinggadgets_research_text.CLOAK=[WG] Свист
