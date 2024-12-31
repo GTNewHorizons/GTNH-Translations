@@ -1,18 +1,22 @@
-sharewhereiam.command.SAVE_WAYPOINT_USAGE=Użycie: /savewaypoint <kod punktu trasy> [czy otworzyć edytor? domyślnie: true]
-sharewhereiam.command.SAVE_WAYPOINT_SUCCESS=Punkt orientacyjny zapisany
-sharewhereiam.command.SAVE_WAYPOINT_EXISTS=Punkt orientacyjny istnieje, ale nie można go zapisać
-sharewhereiam.command.SHARE_WHERE_I_AM_USAGE=Użycie: /sharewhereiam
-sharewhereiam.command.TOGGLE_TEMP_BEACON_USAGE=Użycie: /toggletempbeacon [kod punktu orientacyjnego]
-sharewhereiam.commanderror.ERROR_INVALID_WAYPOINT_CODE=Nieprawidłowy kod punktu orientacyjnego
-sharewhereiam.chat.SHARE_WAYPOINT_MSG=udostępniono punkt orientacyjny:
-sharewhereiam.chat.SHARE_WAYPOINT_SAVE=ZAPISZ
-sharewhereiam.chat.SHARE_WAYPOINT_SAVE_DESC=Zapisz ten punkt orientacyjny do twojej JourneyMap
-sharewhereiam.chat.SHARE_WAYPOINT_EDIT=EDYTUJ
-sharewhereiam.chat.SHARE_WAYPOINT_EDIT_DESC=Otwórz ten Punkt orientacyjny w Edytorze
-sharewhereiam.chat.SHARE_WAYPOINT_TOGGLE=Włącz/Wyłącz
-sharewhereiam.chat.SHARE_WAYPOINT_TOGGLE_DESC=Włącz/wyłącz jako Tymczasowy Sygnał Nawigacyjny
-sharewhereiam.chat.SHARE_WAYPOINT_VP=To jest punkt orientacyjny VisualProspecting, nadal musisz dodać punkt orientacyjny do VP w sposób, na jaki pozwala VP
-sharewhereiam.keybinding.KEYBINDING_SHARE_NAME=Udostępnij
-sharewhereiam.keybinding.KEYBINDING_SHARE_CATEGORY=Udostępnij Gdzie jestem
-sharewhereiam.text.TEXT_DEFAULT_WAYPOINT_NAME=Aktualna Lokalizacja
-sharewhereiam.text.TEXT_JM_WAYPOINT_BUTTON=Udostępnij
+sharewhereiam.command.savewaypoint.usage=Usage: /savewaypoint <waypoint code> [neet to open editor? default: true]
+sharewhereiam.command.savewaypoint.save.success=Waypoint saved
+sharewhereiam.command.savewaypoint.save.exists=Waypoint exists, can't save
+sharewhereiam.command.sharewhereiam.usage=Usage: /sharewhereiam
+sharewhereiam.command.toggletempbeacon.usage=Usage: /toggletempbeacon [waypoint code]
+
+sharewhereiam.commanderror.invalidcode=Invalid waypoint code
+
+sharewhereiam.chat.share=shared a waypoint:
+sharewhereiam.chat.save=SAVE
+sharewhereiam.chat.save.desc=Save this waypoint to your JourneyMap
+sharewhereiam.chat.edit=EDIT
+sharewhereiam.chat.edit.desc=Open this Waypoint in Editor
+sharewhereiam.chat.toggle=Enable/Disable
+sharewhereiam.chat.toggle.desc=Enable/Disable as Temporary Beacon
+sharewhereiam.chat.additionalInformation.VP=This is a VisualProspecting Waypoint, you still need to add the Waypoint to the VP in the way that the VP allows
+
+sharewhereiam.keybinding.share.name=Share
+sharewhereiam.keybinding.share.category=Share Where I am
+
+sharewhereiam.text.default_waypoint_name=Current Location
+sharewhereiam.text.jm.waypoint.share=Share
