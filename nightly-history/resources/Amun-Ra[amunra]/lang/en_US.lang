@@ -19,8 +19,11 @@ moon.kebe=Kebechet
 
 tile.darkMatter.name=Dark Matter
 tile.basalt.name=Basalt
+tile.rockSlab.0.name=Basalt Slab
+tile.rockDoubleslab.0.name=Basalt Slab
 tile.basalt.slab.name=Basalt Slab
 tile.basalt.stairs.name=Basalt Stairs
+tile.baseBlockRock.0.name=Block
 tile.basaltcobble.name=Basalt Cobblestone
 tile.redrock.name=Red Sandstone
 tile.redrockcobble.name=Red Cobblestone
@@ -39,7 +42,9 @@ tile.blockUranium.name=Block of Uranium
 tile.mothershipController.name=Mothership Navigation Console
 tile.mothershipController.description=This block is used to control destination of Motherships.
 tile.mothershipEngineRocket.name=Rocket Engine
+tile.machines2.name=Jet
 tile.mothershipEngineRocketJet.name=Rocket Engine Jet
+tile.msBoosters1.0.name=Base
 tile.mothershipEngineRocketBooster.name=Rocket Engine Base
 tile.mothershipEngineRocket.description=Place one or more engine base blocks in a row, and one jet block on one side to create a mothership engine, to allow the Mothership to move
 tile.mothershipSettings.name=Mothership Configuration Terminal
@@ -63,8 +68,10 @@ tile.msBaseBlock.name=Mothership Base Block
 tile.mothershipEngineIon.name=Ion Thruster
 tile.mothershipEngineRocketBoosterIon.name=Ion Thruster Base
 tile.mothershipEngineRocketJetIon.name=Ion Thruster Jet
+tile.machines3.0.name=Machine
 tile.blockScale.name=Block Scale
 tile.blockScale.description=Displays the mass of the block placed directly above it. The mass is relevant for mothership building.
+tile.machines4.0.name=Machine
 tile.shuttleDock.name=Shuttle Dock
 tile.shuttleDock.description=Place into a wall of a Mothership or a Space Station for easier shuttle usage. Shuttles can then dock on the other side.
 tile.gravity.name=Artificial Gravity Generator
@@ -75,15 +82,18 @@ tile.steelChest.name=Steel Chest
 tile.steelChest.description=Twice the capacity of a wooden chest, but cannot be combined into a double chest.
 
 
+tile.oldConcreteOre.0.name=Urbolite
 tile.oldConcrete.name=Urbolite
 tile.oldConcreteOre.oreSteel.name=Steel-bearing Urbolite
 tile.oldConcreteOre.oreBone.name=Fossiliferous Urbolite
 
 
+tile.baseBlockCrystal.0.name=Glowing Coral
 tile.glowCoral.name=Glowing Coral
 tile.obsidianbrick.name=Obsidian Brick
 tile.obsidianbrick.stairs.name=Obsidian Brick Stairs
 tile.obsidianbrick.slab.name=Obsidian Brick Slab
+tile.baseBlockGround.0.name=Dirt / Crusted Dust
 tile.methanedirt.name=Dirt
 tile.dustblock.name=Crusted Dust
 tile.underwaterBlueGrass.name=Deep Algae
@@ -96,24 +106,40 @@ tile.oreTitanium.name=Ilmenite Ore
 tile.oreUranium.name=Uranium Ore
 tile.oreSteel.name=Steel Ore
 tile.oreBone.name=Fossil Ore
+tile.asteroidMultiOre1.0.name=Ore
+tile.basaltMultiOre.0.name=Ore
+tile.hardClayMultiOre.0.name=Ore
+tile.obsidianMultiOre.0.name=Ore
 
+tile.basePlant.0.name=Tall Redgrass
 tile.methaneTallGrass.name=Tall Redgrass
 
+tile.blockFake.0.name=Fake Block
 
+tile.bossSpawner.0.name=Boss Spawner
+
+tile.baseFalling.0.name=Falling Block
 tile.basaltregolith.name=Basalt Regolith
 tile.obsidianGravel.name=Obsidian Gravel
 tile.obsidianSand.name=Obsidian Sand
 
+tile.baseGrass.0.name=Redgrass
 tile.methanegrass.name=Redgrass
 tile.vacuumRedGrass.name=Pale Redgrass
+tile.log1.0.name=Virilig Log
 tile.methanewood.name=Virilig Log 
 tile.methanePlanks.name=Virilig Planks
 tile.methanePlanks.slab.name=Virilig Slab
 tile.methanePlanks.stairs.name=Virilig Stairs
+tile.null.0.name=Virilig Leaf
 tile.methaneleaf.name=Virilig Leaf 
+tile.saplings.0.name=Virilig Sapling
 tile.mTreeSapling.name=Virilig Sapling 
+tile.wood1.0.name=Lumipod Bark
 tile.podBark.name=Lumipod Bark
 tile.podPlanks.name=Lumipod Planks
+tile.woodSlab.0.name=Lumipod Slab
+tile.woodDoubleslab.0.name=Lumipod Slab
 tile.podPlanks.slab.name=Lumipod Slab
 tile.podPlanks.stairs.name=Lumipod Stairs
 tile.podleaf.name=Lumipod Pulp
@@ -127,11 +153,13 @@ tile.hydroponics.noplant=No Plant
 tile.hydroponics.plantstatus=Plant status
 
 
+tile.machines1.0.name=Radioisotope Generator
 tile.isotopeGeneratorBasic.name=Radioisotope Generator
 tile.isotopeGeneratorAdvanced.name=Advanced Radioisotope Generator
 tile.isotopeGenerator.description=Generates electrical power from the heat created by the decay of integrated nuclear material. The rate of energy production depends on the outside temperature, the hotter it is, the less power is generated. Due to the high half-life of the used isotope, this generator can be assumed inexhaustible.
 
 
+item.baseItem.name=Resource
 item.baseItem.compressedGold.name=Compressed Gold
 item.baseItem.goldFoil.name=Gold Foil
 item.baseItem.transformer.name=Transformer
@@ -181,6 +209,7 @@ entity.alienVillagerAR.name=Gastropod Villager
 entity.alienBug.name=Pincer Bug
 entity.GalacticraftAmunRa.Shuttle.name=Shuttle Rocket
 item.itemShuttle.name=Shuttle Rocket
+item.thermalSuit.name=Thermoregulation Armor Piece
 item.thermalSuit.thermalLevel.name=Thermal Level: %s
 item.thermalSuit.helmet.name=Thermoregulation Helmet
 item.thermalSuit.chest.name=Thermoregulation Chest
