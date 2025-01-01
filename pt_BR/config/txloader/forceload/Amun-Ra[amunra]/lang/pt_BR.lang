@@ -19,8 +19,11 @@ moon.kebe=Kebechet
 
 tile.darkMatter.name=Matéria Escura
 tile.basalt.name=Basalto
+tile.rockSlab.0.name=Basalt Slab
+tile.rockDoubleslab.0.name=Basalt Slab
 tile.basalt.slab.name=Laje de Basalto
 tile.basalt.stairs.name=Escadas de Basalto
+tile.baseBlockRock.0.name=Block
 tile.basaltcobble.name=Pedregulho de Basalto
 tile.redrock.name=Arenito Vermelho
 tile.redrockcobble.name=Pedregulho Vermelho
@@ -39,7 +42,9 @@ tile.blockUranium.name=Bloco de Urânio
 tile.mothershipController.name=Console de Navegação da Nave-Mãe
 tile.mothershipController.description=Esse bloco é usado para controlar o destino das Naves-Mãe.
 tile.mothershipEngineRocket.name=Motor de Foguete
+tile.machines2.name=Jet
 tile.mothershipEngineRocketJet.name=Jato do Motor de Foguete
+tile.msBoosters1.0.name=Base
 tile.mothershipEngineRocketBooster.name=Base do Motor de Foguete
 tile.mothershipEngineRocket.description=Coloque um ou mais blocos base de motor de foguete em fila, e um bloco de jato em um dos lados para criar um motor de nave-mãe, permitindo a Nave-mãe se mover
 tile.mothershipSettings.name=Terminal de Configuração da Nave-Mãe
@@ -63,8 +68,10 @@ tile.msBaseBlock.name=Bloco da Base da Nave-Mãe
 tile.mothershipEngineIon.name=Propulsor Iônico
 tile.mothershipEngineRocketBoosterIon.name=Base do Propulsor Iônico
 tile.mothershipEngineRocketJetIon.name=Jato do Propulsor Iônico
+tile.machines3.0.name=Machine
 tile.blockScale.name=Balança de Blocos
 tile.blockScale.description=Mostra a massa do bloco diretamente acima dele. Essa massa é relevante para construção de naves-mãe.
+tile.machines4.0.name=Machine
 tile.shuttleDock.name=Porto de Transporte
 tile.shuttleDock.description=Coloque em uma parede da Nave-mãe ou uma Estação Espacial para uso de transporte. Cargas podem ancorar no outro lado.
 tile.gravity.name=Gerador de Gravidade Artificial
@@ -75,15 +82,18 @@ tile.steelChest.name=Baú de Aço
 tile.steelChest.description=Dobro da capacidade de um baú de madeira, mas não pode ser combinado em um baú duplo.
 
 
+tile.oldConcreteOre.0.name=Urbolite
 tile.oldConcrete.name=Urbolita
 tile.oldConcreteOre.oreSteel.name=Urbolita Armada
 tile.oldConcreteOre.oreBone.name=Urbolita Fossilferrosa
 
 
+tile.baseBlockCrystal.0.name=Glowing Coral
 tile.glowCoral.name=Coral Brilhante
 tile.obsidianbrick.name=Tijolo de Obsidiana
 tile.obsidianbrick.stairs.name=Escadas de Tijolos de Obsidiana 
 tile.obsidianbrick.slab.name=Laje de Tijolos de Obsidiana
+tile.baseBlockGround.0.name=Dirt / Crusted Dust
 tile.methanedirt.name=Terra
 tile.dustblock.name=Pó Encrustado
 tile.underwaterBlueGrass.name=Alga Profunda
@@ -96,24 +106,40 @@ tile.oreTitanium.name=Minério de Ilmenita
 tile.oreUranium.name=Minério de Urânio
 tile.oreSteel.name=Minério de Aço
 tile.oreBone.name=Minério de Fósseis
+tile.asteroidMultiOre1.0.name=Ore
+tile.basaltMultiOre.0.name=Ore
+tile.hardClayMultiOre.0.name=Ore
+tile.obsidianMultiOre.0.name=Ore
 
+tile.basePlant.0.name=Tall Redgrass
 tile.methaneTallGrass.name=Carmingrama Alta
 
+tile.blockFake.0.name=Fake Block
 
+tile.bossSpawner.0.name=Boss Spawner
+
+tile.baseFalling.0.name=Falling Block
 tile.basaltregolith.name=Rególito Basáltico
 tile.obsidianGravel.name=Cascalho de Obsidiana
 tile.obsidianSand.name=Areia de Obsidiana
 
+tile.baseGrass.0.name=Redgrass
 tile.methanegrass.name=Carmingrama
 tile.vacuumRedGrass.name=Carmimgrama Pálida
+tile.log1.0.name=Virilig Log
 tile.methanewood.name=Madeira de Viriligna
 tile.methanePlanks.name=Tábuas de Viriligna
 tile.methanePlanks.slab.name=Laje de Viriligna
 tile.methanePlanks.stairs.name=Escadas de Viriligna
+tile.null.0.name=Virilig Leaf
 tile.methaneleaf.name=Folha de Viriligna
+tile.saplings.0.name=Virilig Sapling
 tile.mTreeSapling.name=Muda de Viriligna
+tile.wood1.0.name=Lumipod Bark
 tile.podBark.name=Casca de Lumibola
 tile.podPlanks.name=Tábuas de Lumibola
+tile.woodSlab.0.name=Lumipod Slab
+tile.woodDoubleslab.0.name=Lumipod Slab
 tile.podPlanks.slab.name=Laje de Lumibola
 tile.podPlanks.stairs.name=Escadas de Lumibola
 tile.podleaf.name=Polpa de Lumibola
@@ -127,11 +153,13 @@ tile.hydroponics.noplant=Nenhuma Planta
 tile.hydroponics.plantstatus=Status da Planta
 
 
+tile.machines1.0.name=Radioisotope Generator
 tile.isotopeGeneratorBasic.name=Gerador de Radioisótopos
 tile.isotopeGeneratorAdvanced.name=Gerador de Radioisótopos Avançado
 tile.isotopeGenerator.description=Gera energia elétrica a partir do calor criado pelo decaimento do material nuclear usado. A taxa de produção de energia depende da temperatura externa: quanto mais quente, menos energia é gerada. Devido à alta meia-vida do isótopo utilizado, este gerador pode ser considerado inesgotável.
 
 
+item.baseItem.name=Resource
 item.baseItem.compressedGold.name=Ouro Comprimido
 item.baseItem.goldFoil.name=Folha de Ouro
 item.baseItem.transformer.name=Transformador
@@ -181,6 +209,7 @@ entity.alienVillagerAR.name=Gastropod Villager
 entity.alienBug.name=Pincer Bug
 entity.GalacticraftAmunRa.Shuttle.name=Shuttle Rocket
 item.itemShuttle.name=Shuttle Rocket
+item.thermalSuit.name=Thermoregulation Armor Piece
 item.thermalSuit.thermalLevel.name=Nível Termal: %s
 item.thermalSuit.helmet.name=Elmo de Termorregulação
 item.thermalSuit.chest.name=Peitoral de Termorregulação

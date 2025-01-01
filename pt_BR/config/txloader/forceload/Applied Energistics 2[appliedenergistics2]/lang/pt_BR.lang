@@ -60,8 +60,12 @@ tile.appliedenergistics2.BlockCraftingAccelerator256x.name=256 Núcleos Unidade 
 tile.appliedenergistics2.BlockCraftingAccelerator1024x.name=1024 Núcleos Unidade de Co-Processamento de Fabricação
 tile.appliedenergistics2.BlockCraftingAccelerator4096x.name=4096 Núcleos Unidade de Co-Processamento de Fabricação
 tile.appliedenergistics2.BlockCraftingUnit.name=Unidade de Fabricação
+tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=Crafting Storage
+tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=Crafting Unit
 tile.appliedenergistics2.BlockMolecularAssembler.name=Montador Molecular
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Pattern Optimization Matrix
+tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafting Storage
+tile.appliedenergistics2.BlockPaint.name=Paint
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Escadas de Quartzo Certus Talhadas
@@ -75,13 +79,21 @@ tile.appliedenergistics2.SkyStoneStairBlock.name=Escadas de Pedra do Céu
 
 # Slabs
 tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=Laje de Quartzo Certus Talhadas
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Chiseled Certus Quartz Slabs
 tile.appliedenergistics2.FluixSlabBlock.name=Laje de Fluix 
+tile.appliedenergistics2.FluixSlabBlock.double.name=Fluix Slabs
 tile.appliedenergistics2.QuartzPillarSlabBlock.name=Laje de Pilar de Quartzo Certus 
+tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Certus Quartz Pillar Slabs
 tile.appliedenergistics2.QuartzSlabBlock.name=Laje de Quartzo Certus 
+tile.appliedenergistics2.QuartzSlabBlock.double.name=Certus Quartz Slabs
 tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=Laje de Bloco de Pedra do Céu 
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Sky Stone Block Slabs
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=Laje de Tijolos de Pedra do Céu 
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Sky Stone Brick Slabs
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=Laje de Tijolos Pequenos de Pedra do Céu 
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Sky Stone Small Brick Slabs
 tile.appliedenergistics2.SkyStoneSlabBlock.name=Laje de Pedra do Céu 
+tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Sky Stone Slabs
 
 # Chat Messages
 chat.appliedenergistics2.ChestCannotReadStorageCell=Baú ME não consegue ler a célula de armazenamento.
@@ -601,12 +613,16 @@ item.appliedenergistics2.ItemEncodedPattern.name=Padrão Codificado
 item.appliedenergistics2.ItemViewCell.name=Ver Célula
 item.appliedenergistics2.ItemFacade.name=Fachada de Cabos
 
+item.appliedenergistics2.ItemCrystalSeed.name=Seed
 item.appliedenergistics2.ItemCrystalSeed.Certus.name=Semente de Quartzo Certus
 item.appliedenergistics2.ItemCrystalSeed.Nether.name=Semente de Quartzo do Nether
 item.appliedenergistics2.ItemCrystalSeed.Fluix.name=Semente de Fluix
 
 item.appliedenergistics2.ItemPart.InvalidType.name=Item Desabilitado
 item.appliedenergistics2.ItemMaterial.InvalidType.name=Esse item está Desativado.
+
+item.appliedenergistics2.ItemMaterial.name=ME Component
+item.appliedenergistics2.ItemPart.name=ME Cable and/or Bus
 
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=Padrão em Branco
 item.appliedenergistics2.ItemMaterial.FormationCore.name=Núcleo de Formação
@@ -700,8 +716,6 @@ item.appliedenergistics2.ItemPart.CableGlass.name=Cabo de Vidro ME
 item.appliedenergistics2.ItemPart.CableSmart.name=Cabo Inteligente ME
 item.appliedenergistics2.ItemPart.CableDense.name=Cabo Denso ME
 item.appliedenergistics2.ItemPart.CableDenseCovered.name=ME Dense Covered Cable
-item.appliedenergistics2.ItemPart.CableUltraDenseCovered.name=ME Backbone Covered Cable
-item.appliedenergistics2.ItemPart.CableUltraDenseSmart.name=ME Backbone Smart Cable
 item.appliedenergistics2.ItemPart.StorageMonitor.name=Monitor de Armazenamento ME
 item.appliedenergistics2.ItemPart.ConversionMonitor.name=Monitor de Conversão ME
 item.appliedenergistics2.ItemPart.SemiDarkMonitor.name=Painel Iluminado
