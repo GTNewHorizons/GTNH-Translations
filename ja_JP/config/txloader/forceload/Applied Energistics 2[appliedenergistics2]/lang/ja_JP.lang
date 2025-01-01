@@ -60,8 +60,12 @@ tile.appliedenergistics2.BlockCraftingAccelerator256x.name=256コアクラフテ
 tile.appliedenergistics2.BlockCraftingAccelerator1024x.name=1024コアクラフティング並列処理ユニット
 tile.appliedenergistics2.BlockCraftingAccelerator4096x.name=4096コアクラフティング並列処理ユニット
 tile.appliedenergistics2.BlockCraftingUnit.name=クラフティングユニット
+tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=Crafting Storage
+tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=Crafting Unit
 tile.appliedenergistics2.BlockMolecularAssembler.name=分子アセンブラー
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Pattern Optimization Matrix
+tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafting Storage
+tile.appliedenergistics2.BlockPaint.name=Paint
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=模様入りのケルタスクォーツの階段
@@ -75,13 +79,21 @@ tile.appliedenergistics2.SkyStoneStairBlock.name=スカイストーンの階段
 
 # Slabs
 tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=模様入りのケルタスクォーツのハーフブロック
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Chiseled Certus Quartz Slabs
 tile.appliedenergistics2.FluixSlabBlock.name=フルーシュのハーフブロック
+tile.appliedenergistics2.FluixSlabBlock.double.name=Fluix Slabs
 tile.appliedenergistics2.QuartzPillarSlabBlock.name=模様入りのケルタスクォーツのハーフブロック
+tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Certus Quartz Pillar Slabs
 tile.appliedenergistics2.QuartzSlabBlock.name=ケルタスクォーツのハーフブロック
+tile.appliedenergistics2.QuartzSlabBlock.double.name=Certus Quartz Slabs
 tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=スカイストーンブロックのハーフブロック
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Sky Stone Block Slabs
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=スカイストーンレンガのハーフブロック
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Sky Stone Brick Slabs
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=スカイストーン小レンガのハーフブロック
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Sky Stone Small Brick Slabs
 tile.appliedenergistics2.SkyStoneSlabBlock.name=スカイストーンのハーフブロック
+tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Sky Stone Slabs
 
 # Chat Messages
 chat.appliedenergistics2.ChestCannotReadStorageCell=MEチェストがストレージセルを読み込めませんでした。
@@ -601,12 +613,16 @@ item.appliedenergistics2.ItemEncodedPattern.name=エンコードパターン
 item.appliedenergistics2.ItemViewCell.name=視認セル
 item.appliedenergistics2.ItemFacade.name=ケーブル外装
 
+item.appliedenergistics2.ItemCrystalSeed.name=Seed
 item.appliedenergistics2.ItemCrystalSeed.Certus.name=ケルタスクォーツの種
 item.appliedenergistics2.ItemCrystalSeed.Nether.name=ネザークォーツの種
 item.appliedenergistics2.ItemCrystalSeed.Fluix.name=フルーシュの種
 
 item.appliedenergistics2.ItemPart.InvalidType.name=使用不可アイテム
 item.appliedenergistics2.ItemMaterial.InvalidType.name=このアイテムは使用不可です
+
+item.appliedenergistics2.ItemMaterial.name=ME Component
+item.appliedenergistics2.ItemPart.name=ME Cable and/or Bus
 
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=空白のパターン
 item.appliedenergistics2.ItemMaterial.FormationCore.name=形成コア
@@ -700,8 +716,6 @@ item.appliedenergistics2.ItemPart.CableGlass.name=MEガラスケーブル
 item.appliedenergistics2.ItemPart.CableSmart.name=MEスマートケーブル
 item.appliedenergistics2.ItemPart.CableDense.name=ME高密度スマートケーブル
 item.appliedenergistics2.ItemPart.CableDenseCovered.name=ME高密度カバーケーブル
-item.appliedenergistics2.ItemPart.CableUltraDenseCovered.name=MEバックボーンカバーケーブル
-item.appliedenergistics2.ItemPart.CableUltraDenseSmart.name=MEバックボーンスマートケーブル
 item.appliedenergistics2.ItemPart.StorageMonitor.name=MEストレージモニター
 item.appliedenergistics2.ItemPart.ConversionMonitor.name=ME変換モニター
 item.appliedenergistics2.ItemPart.SemiDarkMonitor.name=照光パネル

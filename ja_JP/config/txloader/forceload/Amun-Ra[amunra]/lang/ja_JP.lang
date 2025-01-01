@@ -19,8 +19,11 @@ moon.kebe=ケベチェト
 
 tile.darkMatter.name=ダークマター
 tile.basalt.name=玄武岩
+tile.rockSlab.0.name=Basalt Slab
+tile.rockDoubleslab.0.name=Basalt Slab
 tile.basalt.slab.name=玄武岩のハーフブロック
 tile.basalt.stairs.name=玄武岩の階段
+tile.baseBlockRock.0.name=Block
 tile.basaltcobble.name=玄武岩の丸石
 tile.redrock.name=赤砂岩
 tile.redrockcobble.name=赤丸石
@@ -39,7 +42,9 @@ tile.blockUranium.name=ウランブロック
 tile.mothershipController.name=母船航行コンソール
 tile.mothershipController.description=母船の行き先を制御するために使用します。
 tile.mothershipEngineRocket.name=ロケットエンジン
+tile.machines2.name=Jet
 tile.mothershipEngineRocketJet.name=ロケットエンジンの噴出口
+tile.msBoosters1.0.name=Base
 tile.mothershipEngineRocketBooster.name=ロケットエンジンのベース
 tile.mothershipEngineRocket.description=1つ以上のエンジンベースブロックを一列に設置し片側に噴出口ブロックを設置することで母船のエンジンを作成され、母船が移動できるようになります。
 tile.mothershipSettings.name=母船設定端末
@@ -63,8 +68,10 @@ tile.msBaseBlock.name=母船ベースブロック
 tile.mothershipEngineIon.name=イオンスタスター
 tile.mothershipEngineRocketBoosterIon.name=イオンスタスターのベース
 tile.mothershipEngineRocketJetIon.name=イオンスタスターの噴出口
+tile.machines3.0.name=Machine
 tile.blockScale.name=ブロックスケール
 tile.blockScale.description=上に置かれたブロックの質量を表示します。質量は母船建造に関係します。
+tile.machines4.0.name=Machine
 tile.shuttleDock.name=シャトルドック
 tile.shuttleDock.description=母船や宇宙ステーションの壁に設置することで、シャトルを簡単に使用できるようになります。シャトルは他の面にドッキングできます。
 tile.gravity.name=人工重力発生装置
@@ -75,15 +82,18 @@ tile.steelChest.name=スチールチェスト
 tile.steelChest.description=木製のチェストの2倍の容量がありますが、ダブルチェストにすることはできません。
 
 
+tile.oldConcreteOre.0.name=Urbolite
 tile.oldConcrete.name=アーボライト
 tile.oldConcreteOre.oreSteel.name=スチールアーボライト
 tile.oldConcreteOre.oreBone.name=化石アーボライト
 
 
+tile.baseBlockCrystal.0.name=Glowing Coral
 tile.glowCoral.name=発光サンゴ
 tile.obsidianbrick.name=黒曜石レンガ
 tile.obsidianbrick.stairs.name=黒曜石レンガの階段
 tile.obsidianbrick.slab.name=黒曜石レンガのハーフブロック
+tile.baseBlockGround.0.name=Dirt / Crusted Dust
 tile.methanedirt.name=土
 tile.dustblock.name=表面の硬い粉
 tile.underwaterBlueGrass.name=深海の藻
@@ -96,24 +106,40 @@ tile.oreTitanium.name=イルメナイト鉱石
 tile.oreUranium.name=ウラン鉱石
 tile.oreSteel.name=スチール鉱石
 tile.oreBone.name=化石鉱石
+tile.asteroidMultiOre1.0.name=Ore
+tile.basaltMultiOre.0.name=Ore
+tile.hardClayMultiOre.0.name=Ore
+tile.obsidianMultiOre.0.name=Ore
 
+tile.basePlant.0.name=Tall Redgrass
 tile.methaneTallGrass.name=背の高い赤草
 
+tile.blockFake.0.name=Fake Block
 
+tile.bossSpawner.0.name=Boss Spawner
+
+tile.baseFalling.0.name=Falling Block
 tile.basaltregolith.name=玄武岩の表土
 tile.obsidianGravel.name=黒曜石の砂利
 tile.obsidianSand.name=黒曜石の砂
 
+tile.baseGrass.0.name=Redgrass
 tile.methanegrass.name=赤草
 tile.vacuumRedGrass.name=淡い赤草
+tile.log1.0.name=Virilig Log
 tile.methanewood.name=ビリリグの原木
 tile.methanePlanks.name=ビリリグの木材
 tile.methanePlanks.slab.name=ビリリグのハーフブロック
 tile.methanePlanks.stairs.name=ビリリグの階段
+tile.null.0.name=Virilig Leaf
 tile.methaneleaf.name=ビリリグの葉
+tile.saplings.0.name=Virilig Sapling
 tile.mTreeSapling.name=ビリリグの苗木
+tile.wood1.0.name=Lumipod Bark
 tile.podBark.name=ルミポッドの樹皮
 tile.podPlanks.name=ルミポッドの木材
+tile.woodSlab.0.name=Lumipod Slab
+tile.woodDoubleslab.0.name=Lumipod Slab
 tile.podPlanks.slab.name=ルミポッドのハーフブロック
 tile.podPlanks.stairs.name=ルミポッドの階段
 tile.podleaf.name=ルミポッドのパルプ
@@ -127,11 +153,13 @@ tile.hydroponics.noplant=植物なし
 tile.hydroponics.plantstatus=植物の状態
 
 
+tile.machines1.0.name=Radioisotope Generator
 tile.isotopeGeneratorBasic.name=放射性同位体発電機
 tile.isotopeGeneratorAdvanced.name=発展型放射性同位体発電機
 tile.isotopeGenerator.description=核物質の崩壊によって生成される熱から電力を生成します。発電量は外気温に依存し、気温が高いほど少なくなります。使用される同位体の半減期が長いため、この発電機は無尽蔵であると考えられます。
 
 
+item.baseItem.name=Resource
 item.baseItem.compressedGold.name=圧縮金
 item.baseItem.goldFoil.name=金のホイル
 item.baseItem.transformer.name=変成器
@@ -181,6 +209,7 @@ entity.alienVillagerAR.name=腹足村人
 entity.alienBug.name=ハサミムシ
 entity.GalacticraftAmunRa.Shuttle.name=シャトルロケット
 item.itemShuttle.name=シャトルロケット
+item.thermalSuit.name=Thermoregulation Armor Piece
 item.thermalSuit.thermalLevel.name=熱レベル: %s
 item.thermalSuit.helmet.name=体温調節ヘルメット
 item.thermalSuit.chest.name=体温調節チェストプレート

@@ -1,6 +1,8 @@
 ##################################################
 ## Machines
 
+tile.machine.name=Machine
+
 extratrees.machine.kitchen.bar=バー
 extratrees.machine.kitchen.bottleRack=ボトルラック
 
@@ -159,6 +161,7 @@ extratrees.block.tooltip.twoMaterials=%sと%s
 extratrees.block.door.name=%1$sのドア
 
 < %1$s is name of wood used for door, %2$s is type of door >
+tile.door.name=Wood Door
 extratrees.block.door.name.adv=%2$s%1$sのドア
 extratrees.block.door.type.standard=
 extratrees.block.door.type.solid=窓なし
@@ -166,19 +169,24 @@ extratrees.block.door.type.double=半窓
 extratrees.block.door.type.full=全窓
 
 < %1$s is name of the wood>
+tile.planks.name=Wood Planks
 extratrees.block.plank.name=%1$sの木材
 extratrees.block.log.name=%1$sの原木
+tile.slabs.name=Wood Slab
 extratrees.block.woodslab.name=%1$sのハーフブロック
+tile.stairs.name=Stairs
 extratrees.block.woodstairs.name=%1$sの階段
 extratrees.block.woodfence.name=%1$sのフェンス
 extratrees.block.woodgate.name=%1$sのフェンスゲート
 
 < %1$s is the adjective for the fence type, %2$s is the name of the wood >
+tile.multifence.name=Fence
 extratrees.block.multifence.name=%2$s%1$sのフェンス
 < %3$s is the name of the second wood >
 extratrees.block.multifence.name2=%2$s%1$sと%3$sのフェンス
 
 < %1$s is name of the design >
+tile.carpentry.name=Wooden Panel/Tile
 extratrees.block.woodentile.name=%1$sのタイル
 extratrees.block.woodenpanel.name=%1$sのパネル
 extratrees.block.stainedglass.name=%1$sの色付きガラス
@@ -312,14 +320,18 @@ extratrees.genetics.unknown=<不明>
 extratrees.genetics.discoveredBy=%s によって発見された
 extratrees.genetics.complexity=複雑度: %d
 
+item.hammer.name=Carpentry Hammer
 extratrees.item.carpentryHammer=熟練した造作大工のハンマー
+item.durableHammer.name=Master Carpentry Hammer
 extratrees.item.masterCarpentryHammer=造作大工のハンマー
+item.misc.name=Resource
 extratrees.item.sawdust=おがくず
 extratrees.item.bark=樹皮
 extratrees.item.provenGear=含侵加工済み歯車
 extratrees.item.woodWax=木材用艶出し蜜蝋
 extratrees.item.glassFitting=ガラス用継ぎ手
 
+item.food.name=Fruit
 for.extratrees.item.food.apple=リンゴ
 for.extratrees.item.food.crabapple=クラブアップル
 for.extratrees.item.food.orange=オレンジ
@@ -383,10 +395,12 @@ for.extratrees.item.food.mango=マンゴー
 for.extratrees.item.food.starfruit=スターフルーツ
 for.extratrees.item.food.candlenut=ククイ
 
+item.database.name=Arborist Database
 extratrees.item.database=樹木データベース
 extratrees.item.masterDatabase=完璧な樹木データベース
 extratrees.item.database.tooltip=ムショ入りのSengir
 
+item.databaseMoth.name=Lepidopterist Database
 extratrees.item.mothDatabase=鱗翅類学データベース
 extratrees.item.mothMasterDatabase=完璧な鱗翅類学データベース
 extratrees.item.mothDatabase.tooltip=Binnieによる鱗翅類のデパート

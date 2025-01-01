@@ -19,6 +19,7 @@ item.enderio.itemEnderface.name=エンダーフェイス
 
 #Conduits
 enderio.blockConduitBundle=導管束
+tile.blockConduitFacade.name=Conduit Facade
 enderio.blockConduitFacade=導管用外装
 item.enderio.itemConduitFacade.name=導管用外装
 item.enderio.itemConduitFacade.hardened.name=導管用強化外装
@@ -29,10 +30,12 @@ item.enderio.itemConduitFacade.tooltip.detailed.line3=レンチや導管を装�
 item.enderio.itemConduitFacade.tooltip.detailed.line4=見えなくなります
 item.enderio.itemConduitFacade.hardened.tooltip=強化：破壊や爆発に耐えます
 
+item.itemPowerConduit.name=Energy Conduit
 enderio.itemPowerConduit.name=エネルギー導管
 enderio.itemPowerConduitEnhanced.name=強化エネルギー導管
 enderio.itemPowerConduitEnder.name=エンダーエネルギー導管
 
+item.itemPowerConduitEndergy.name=Energy Conduit
 enderio.itemPowerConduitEndergyCrude.name=粘土混合体製エネルギー導管
 enderio.itemPowerConduitEndergyIron.name=鉄製エネルギー導管
 enderio.itemPowerConduitEndergyAluminum.name=アルミニウム製エネルギー導管
@@ -46,10 +49,12 @@ enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=結晶質ピンクス�
 enderio.itemPowerConduitEndergyMelodic.name=メロディー合金製エネルギー導管
 enderio.itemPowerConduitEndergyStellar.name=星合金製エネルギー導管
 
+item.itemRedstoneConduit.name=Redstone Conduit
 enderio.itemRedstoneConduit.name=レッドストーン導管
 enderio.itemRedstoneConduitSwitch.name=導管スイッチ
 enderio.itemRedstoneConduitInsulated.name=絶縁レッドストーン導管
 
+item.itemLiquidConduit.name=Fluid Conduit
 enderio.itemLiquidConduit.name=液体導管
 enderio.itemLiquidConduitAdvanced.name=加圧液体導管
 enderio.itemLiquidConduitEnder.name=エンダー液体導管
@@ -71,10 +76,13 @@ enderio.itemLiquidConduitEnder.tooltip.detailed.line1=液体を瞬時に転送�
 enderio.itemLiquidConduitEnder.tooltip.detailed.line2=複数の液体を1つの導管で
 enderio.itemLiquidConduitEnder.tooltip.detailed.line3=輸送できる
 
+item.itemItemConduit.name=Item Conduit
 enderio.itemItemConduit.name=アイテム導管
 
+item.itemBasicFilterUpgrade.name=Item Filter
 enderio.filterUpgradeBasic.name=基本アイテムフィルター
 enderio.filterUpgradeAdvanced.name=強化アイテムフィルター
+item.itemBigFilterUpgrade.name=Big Item Filter
 enderio.filterUpgradeBig.name=大容量アイテムフィルター
 enderio.filterUpgradeBigAdvanced.name=大容量強化アイテムフィルター
 enderio.itemConduitFilterUpgrade=アイテム導管のアップグレード
@@ -119,6 +127,7 @@ item.itemExtractSpeedDowngrade.tooltip.basic.line1=アイテム導管のダウ�
 item.itemExtractSpeedDowngrade.tooltip.detailed.line1=このアイテム1つで
 item.itemExtractSpeedDowngrade.tooltip.detailed.line2=輸送速度を1にする
 
+item.itemFunctionUpgrade.name=Remote Awareness Upgrade
 item.itemInventoryPanelUpgrade.name=遠隔認識アップグレード
 item.itemInventoryPanelUpgrade.tooltip.basic.line1=インベントリパネルで遠隔認識できるようにする
 item.itemInventoryPanelUpgrade.tooltip.detailed.line1=アイテム導管の機能的アップグレード
@@ -134,11 +143,12 @@ enderio.itemGasConduit.tooltip.maxExtract=最大搬出量 :
 enderio.itemGasConduit.tooltip.maxIo=最大輸送量 :
 enderio.itemGasConduit.tooltip.detailed.line1=Mekanismと互換性のある気体を輸送する
 
+item.itemMEConduit.name=ME Conduit
 enderio.itemMEConduit.name=ME導管
 enderio.itemMEConduitDense.name=高密度ME導管
-enderio.itemMEConduitDenseUltra.name=超高密度ME導管
 enderio.itemMEConduit.channelsUsed={0,number} of {1,number} Channels
 
+item.itemOCConduit.name=Network Conduit (OC)
 enderio.itemOCConduit.name=Network Conduit (OC)
 
 #Entity
@@ -146,6 +156,7 @@ entity.witherSkeleton.name=ウィザースケルトン
 
 #Materials
 enderio.itemMaterial.name=素材
+item.itemMaterial.name=Materials
 enderio.silicon.name=シリコン
 enderio.conduitBinder.name=導管接合材
 enderio.binderComposite.name=接合剤用複合物
@@ -222,6 +233,7 @@ enderio.gas.gasTick=ガス/t
 
 #Materials
 enderio.itemMachinePart.name=機械の部品
+item.itemMachinePart.name=Machine Parts
 enderio.machineChassi.name=工業用マシンシャーシ
 enderio.basicGear.name=基礎的な歯車
 enderio.soulMachineChassi.name=ソウルマシンシャーシ
@@ -232,6 +244,7 @@ enderio.enderCrystal.name=エンダークリスタル
 enderio.attractorCrystal.name=誘惑のクリスタル
 enderio.weatherCrystal.name=ウェザークリスタル
 
+item.itemGrindingBall.name=Grinding Ball
 enderio.darkGrindingBall.name=ダークスチールの粉砕用ボール
 enderio.electricalGrindingBall.name=電炉鋼の粉砕用ボール
 enderio.energeticGrindingBall.name=エナジェティック合金の粉砕用ボール
@@ -265,6 +278,7 @@ enderio.itemPowderIngot=粉とインゴット
 
 #Alloys
 enderio.itemAlloy.name=合金
+item.itemAlloy.name=Alloy
 enderio.electricalSteel.name=電炉鋼
 enderio.energeticAlloy.name=エナジェティック合金インゴット
 enderio.phasedGold.name=ヴァイブラント合金インゴット
@@ -277,6 +291,7 @@ enderio.soularium.name=ソウラリウムインゴット
 enderio.endSteel.name=エンドスチールインゴット
 enderio.endSteelNugget.name=エンドスチールナゲット
 
+item.itemAlloyEndergy.name=Alloy
 enderio.crudeSteel.name=粘土混合体インゴット
 enderio.crystallineAlloy.name=結晶質合金インゴット
 enderio.melodicAlloy.name=メロディック合金インゴット
@@ -285,6 +300,7 @@ enderio.crystallinePinkSlime.name=結晶質ピンクスライムインゴット
 enderio.energeticSilver.name=エナジェティックシルバーインゴット
 enderio.vividAlloy.name=ビビッド合金インゴット
 
+item.itemGrindingBallEndergy.name=Grinding Ball
 enderio.crudeSteelGrindingBall.name=粘土混合体の粉砕用ボール
 enderio.crystallineAlloyGrindingBall.name=結晶質合金の粉砕用ボール
 enderio.melodicAlloyGrindingBall.name=メロディック合金の粉砕用ボール
@@ -323,6 +339,7 @@ tile.enderio.darkSteel.name=ダークスチールブロック
 tile.enderio.soularium.name=ソウラリウムブロック
 tile.enderio.endSteel.name=エンドスチールブロック
 
+tile.blockIngotStorageEndergy.name=Alloy Block
 tile.enderio.crudeSteel.name=粘土混合体ブロック
 tile.enderio.crystallineAlloy.name=結晶質合金ブロック
 tile.enderio.melodicAlloy.name=メロディック合金ブロック
@@ -332,6 +349,7 @@ tile.enderio.energeticSilver.name=エナジェティックシルバーブロッ�
 tile.enderio.vividAlloy.name=ビビッド合金ブロック
 
 #Powder / Ingot
+item.itemPowderIngot.name=Powder
 enderio.powderCoal.name=石炭の粉
 enderio.powderIron.name=鉄の粉
 enderio.powderGold.name=金の粉
@@ -343,6 +361,7 @@ enderio.ingotEnderiumBase.name=エンダリウムベース
 
 #Capacitors
 enderio.itemBasicCapacitor.name=コンデンサー
+item.itemBasicCapacitor.name=Capacitor
 enderio.basicCapacitor.name=基本コンデンサー
 enderio.activatedCapacitor.name=二重コンデンサー
 enderio.enderCapacitor.name=八重コンデンサー
@@ -391,6 +410,7 @@ enderio.maxSolorProduction=最大出力
 enderio.tooltip.efficiency=効率
 enderio.tooltip.sunlightBlocked=空に面していません！
 
+tile.blockElectricLight.name=Powered Light
 item.itemElectricLight.name=電気ライト
 item.itemElectricLight.tooltip.detailed.line1=電気とレッドストーン信号を
 item.itemElectricLight.tooltip.detailed.line2=供給すると広範囲を照らす
@@ -407,6 +427,8 @@ item.itemLight.tooltip.detailed.line2=供給すると光る
 item.itemLightInverted.name=ライト(反転)
 item.itemLightInverted.tooltip.detailed.line1=レッドストーン信号を
 item.itemLightInverted.tooltip.detailed.line2=供給するとオフになる
+
+tile.blockLightNode.name=Light Node
 
 item.itemWirelessLight.name=無線電気ライト
 item.itemWirelessLight.tooltip.detailed.line1=電気とレッドストーン信号を
@@ -425,6 +447,7 @@ tile.blockCapacitorBank.tooltip.detailed.line1=クラフトすると新しいバ
 tile.blockCapacitorBank.tooltip.detailed.line2=ブロックに変化する
 tile.blockCapacitorBank.tooltipPrefix=蓄電量
 
+tile.blockCapBank.name=Capacitor Bank
 tile.blockCapBank.creative.name=クリエイティブ蓄電機
 tile.blockCapBank.simple.name=簡易蓄電機
 tile.blockCapBank.activated.name=蓄電機
@@ -622,6 +645,7 @@ tile.blockWeatherObelisk.tooltip.detailed.line1=現在の天候を変更する
 tile.blockWeatherObelisk.tooltip.detailed.line2=大量の電気と天候ごとに異なる
 tile.blockWeatherObelisk.tooltip.detailed.line3=アイテムを消費する
 
+tile.blockBuffer.name=Buffer
 tile.blockBuffer.item.name=アイテムバッファ
 tile.blockBuffer.power.name=電力バッファ
 tile.blockBuffer.omni.name=総合バッファ
@@ -696,6 +720,7 @@ tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line2=塗装機で塗�
 tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line3=高透過ガラスで塗装すると
 tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line4=透明になる
 
+tile.blockDarkSteelAnvil.name=Dark Steel Anvil
 tile.blockDarkSteelAnvil.intact.name=ダークスチールの金床
 tile.blockDarkSteelAnvil.slightlyDamaged.name=欠けたダークスチールの金床
 tile.blockDarkSteelAnvil.veryDamaged.name=壊れかけのダークスチールの金床
@@ -759,6 +784,7 @@ tile.blockPaintedFenceGate.name=塗装したフェンスゲート
 tile.blockPaintedWall.name=塗装した塀
 tile.blockPaintedStair.name=塗装した階段
 tile.blockPaintedSlab.name=塗装したハーフブロック
+tile.blockPaintedSlabDouble.name=Painted Slab
 tile.blockPaintedDoubleSlab.name=塗装したハーフブロック
 tile.blockPaintedGlowstone.name=塗装したグロウストーン
 tile.blockPaintedCarpet.name=塗装したカーペット
@@ -810,6 +836,7 @@ item.itemXpTransfer.tooltip.detailed.line2=右クリックして、経験値と�
 item.itemXpTransfer.tooltip.detailed.line3=液体タンクにShift右クリックして
 item.itemXpTransfer.tooltip.detailed.line4=経験値をタンクに貯める
 
+item.itemFrankenSkull.name=Zombie Electrode
 skullZombieElectrode.name=ゾンビ電極
 skullZombieController.name=Z回路コントローラー
 skullZombieFrankenstien.name=フランケンゾンビ
