@@ -1,6 +1,8 @@
 ##################################################
 ## Machines
 
+tile.machine.name=Machine
+
 extratrees.machine.kitchen.bar=Bar
 extratrees.machine.kitchen.bottleRack=Şişe Rafı
 
@@ -159,6 +161,7 @@ extratrees.block.tooltip.twoMaterials=%s ve %s
 extratrees.block.door.name=%1$s Odunu Kapı
 
 < %1$s is name of wood used for door, %2$s is type of door >
+tile.door.name=Wood Door
 extratrees.block.door.name.adv=%2$s %1$s Odunu Kapı
 extratrees.block.door.type.standard=
 extratrees.block.door.type.solid=Katı
@@ -166,19 +169,24 @@ extratrees.block.door.type.double=Ayrık
 extratrees.block.door.type.full=Tam
 
 < %1$s is name of the wood>
+tile.planks.name=Wood Planks
 extratrees.block.plank.name=%1$s Odunu Tahta 
 extratrees.block.log.name=%1$s Odunu
+tile.slabs.name=Wood Slab
 extratrees.block.woodslab.name=%1$s Odunu Basamak
+tile.stairs.name=Stairs
 extratrees.block.woodstairs.name=%1$s Merdiven
 extratrees.block.woodfence.name=%1$s Çit
 extratrees.block.woodgate.name=%1$s Geçit
 
 < %1$s is the adjective for the fence type, %2$s is the name of the wood >
+tile.multifence.name=Fence
 extratrees.block.multifence.name=%2$s %1$s Geçit
 < %3$s is the name of the second wood >
 extratrees.block.multifence.name2=%2$s %1$s & $3$s Geçit
 
 < %1$s is name of the design >
+tile.carpentry.name=Wooden Panel/Tile
 extratrees.block.woodentile.name=%1$s Tahtası Karo
 extratrees.block.woodenpanel.name=%1$s Tahtası Panel
 extratrees.block.stainedglass.name=%1$s Lekeli Cam
@@ -312,14 +320,18 @@ extratrees.genetics.unknown=<Unknown>
 extratrees.genetics.discoveredBy=%s tarafından keşfedildi
 extratrees.genetics.complexity=Karmaşıklık: %d
 
+item.hammer.name=Carpentry Hammer
 extratrees.item.carpentryHammer=Usta Marangozluk Çekici
+item.durableHammer.name=Master Carpentry Hammer
 extratrees.item.masterCarpentryHammer=Marangozluk Çekici
+item.misc.name=Resource
 extratrees.item.sawdust=Talaş
 extratrees.item.bark=Odun Kabuğu
 extratrees.item.provenGear=Müdellel Çark
 extratrees.item.woodWax=Ahşap Cilası
 extratrees.item.glassFitting=Cam Bağlantılar
 
+item.food.name=Fruit
 for.extratrees.item.food.apple=Elma
 for.extratrees.item.food.crabapple=Yaban Elması
 for.extratrees.item.food.orange=Portakal
@@ -383,10 +395,12 @@ for.extratrees.item.food.mango=Mango
 for.extratrees.item.food.starfruit=Yıldız Meyvesi
 for.extratrees.item.food.candlenut=Kukui Fındığı
 
+item.database.name=Arborist Database
 extratrees.item.database=Ağaç Uzmanı Veri Tabanı
 extratrees.item.masterDatabase=Usta Ağaç Uzmanı Veri Tabanı
 extratrees.item.database.tooltip=Bir kavanoz Sengir
 
+item.databaseMoth.name=Lepidopterist Database
 extratrees.item.mothDatabase=Kelebek Koleksiyoncusu Veri Tabanı
 extratrees.item.mothMasterDatabase=Usta Kelebek Koleskiyoncusu Veri Tabanı
 extratrees.item.mothDatabase.tooltip=Binnie'nin Kelebek Koleksiyoncusu Dükkanı

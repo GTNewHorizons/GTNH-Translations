@@ -60,8 +60,12 @@ tile.appliedenergistics2.BlockCraftingAccelerator256x.name=256 Çekirdekli Yard�
 tile.appliedenergistics2.BlockCraftingAccelerator1024x.name=1024 Çekirdekli Yardımcı-İşlem Ünitesi
 tile.appliedenergistics2.BlockCraftingAccelerator4096x.name=4096 Çekirdekli Yardımcı-İşlem Ünitesi
 tile.appliedenergistics2.BlockCraftingUnit.name=Üretim Ünitesi
+tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=Crafting Storage
+tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=Crafting Unit
 tile.appliedenergistics2.BlockMolecularAssembler.name=Moleküler Montajcı
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Kalıp Optimizasyon Matriksi
+tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafting Storage
+tile.appliedenergistics2.BlockPaint.name=Paint
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Yontulmuş Certus Kuvars Merdivenleri
@@ -75,13 +79,21 @@ tile.appliedenergistics2.SkyStoneStairBlock.name=Gök Taşı Merdivenleri
 
 # Slabs
 tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=Yontulmuş Certus Kuvars Merdivenleri
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Chiseled Certus Quartz Slabs
 tile.appliedenergistics2.FluixSlabBlock.name=Fluiks Basamağı
+tile.appliedenergistics2.FluixSlabBlock.double.name=Fluix Slabs
 tile.appliedenergistics2.QuartzPillarSlabBlock.name=Certus Kuvars Sütunu Basamağı
+tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Certus Quartz Pillar Slabs
 tile.appliedenergistics2.QuartzSlabBlock.name=Certus Kuvars Basamağı
+tile.appliedenergistics2.QuartzSlabBlock.double.name=Certus Quartz Slabs
 tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=Gök Taşı Bloğu Basamağı
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Sky Stone Block Slabs
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=Gök Taşı Tuğla Basamağı
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Sky Stone Brick Slabs
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=Gök Taşı Küçük Tuğla Basamağı
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Sky Stone Small Brick Slabs
 tile.appliedenergistics2.SkyStoneSlabBlock.name=Gök Taşı Basamağı
+tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Sky Stone Slabs
 
 # Chat Messages
 chat.appliedenergistics2.ChestCannotReadStorageCell=ME Sandığı depolama hücresini okuyamıyor.
@@ -601,12 +613,16 @@ item.appliedenergistics2.ItemEncodedPattern.name=Kodlanmış Kalıp
 item.appliedenergistics2.ItemViewCell.name=Görüntüleme Hücresi
 item.appliedenergistics2.ItemFacade.name=Kablo Dış Cephesi
 
+item.appliedenergistics2.ItemCrystalSeed.name=Seed
 item.appliedenergistics2.ItemCrystalSeed.Certus.name=Certus Kuvars Tohumu
 item.appliedenergistics2.ItemCrystalSeed.Nether.name=Nether Kuvars Tohumu
 item.appliedenergistics2.ItemCrystalSeed.Fluix.name=Fluiks Tohumu
 
 item.appliedenergistics2.ItemPart.InvalidType.name=Devre Dışı Eşya
 item.appliedenergistics2.ItemMaterial.InvalidType.name=Bu Eşya Devre Dışı
+
+item.appliedenergistics2.ItemMaterial.name=ME Component
+item.appliedenergistics2.ItemPart.name=ME Cable and/or Bus
 
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=Boş Kalıp
 item.appliedenergistics2.ItemMaterial.FormationCore.name=Formasyon Çekirdeği
@@ -700,8 +716,6 @@ item.appliedenergistics2.ItemPart.CableGlass.name=ME Cam Kablo
 item.appliedenergistics2.ItemPart.CableSmart.name=ME Akıllı Kablo
 item.appliedenergistics2.ItemPart.CableDense.name=ME Yoğun Akıllı Kablo
 item.appliedenergistics2.ItemPart.CableDenseCovered.name=ME Yoğun Sarılı Kablo
-item.appliedenergistics2.ItemPart.CableUltraDenseCovered.name=ME Backbone Covered Cable
-item.appliedenergistics2.ItemPart.CableUltraDenseSmart.name=ME Backbone Smart Cable
 item.appliedenergistics2.ItemPart.StorageMonitor.name=ME Depolama Monitörü
 item.appliedenergistics2.ItemPart.ConversionMonitor.name=ME Çevirim Monitörü
 item.appliedenergistics2.ItemPart.SemiDarkMonitor.name=Aydınlatılmış Panel
