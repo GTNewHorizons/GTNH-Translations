@@ -19,8 +19,11 @@ moon.kebe=Kebechet
 
 tile.darkMatter.name=Materia Oscura
 tile.basalt.name=Basalto
+tile.rockSlab.0.name=Basalt Slab
+tile.rockDoubleslab.0.name=Basalt Slab
 tile.basalt.slab.name=Losa de Basalto
 tile.basalt.stairs.name=Escaleras de Basalto
+tile.baseBlockRock.0.name=Block
 tile.basaltcobble.name=Adoquín de Basalto
 tile.redrock.name=Arenisca Roja
 tile.redrockcobble.name=Adoquín Rojo
@@ -39,7 +42,9 @@ tile.blockUranium.name=Bloque de Uranio
 tile.mothershipController.name=Consola de Navegación de Nave Nodriza
 tile.mothershipController.description=Este bloque se usa para controlar el destino de la Nave Nodriza
 tile.mothershipEngineRocket.name=Motor de Cohete
+tile.machines2.name=Jet
 tile.mothershipEngineRocketJet.name=Motor Jet de Cohetes
+tile.msBoosters1.0.name=Base
 tile.mothershipEngineRocketBooster.name=Base de Motor de Cohete
 tile.mothershipEngineRocket.description=Pon uno o más bloques de base de motor, y uno de jet a un lado para crear un motor de nave nodriza, permitiendo a la Nave Nodriza moverse
 tile.mothershipSettings.name=Terminal de configuración de Nave Nodriza
@@ -63,8 +68,10 @@ tile.msBaseBlock.name=Bloque Base de Nave Nodriza
 tile.mothershipEngineIon.name=Propulsor de Iones
 tile.mothershipEngineRocketBoosterIon.name=Base de Propulsor de Iones
 tile.mothershipEngineRocketJetIon.name=Jet Propulsador de Iones
+tile.machines3.0.name=Machine
 tile.blockScale.name=Báscula de Bloques
 tile.blockScale.description=Muestra la masa del bloque colocado justo encima. Dicham asa es relevante a la hora de construir una nave nodriza.
+tile.machines4.0.name=Machine
 tile.shuttleDock.name=Muelle de Lanzaderas
 tile.shuttleDock.description=Ponlo en la pared de una Nave Nodriza o una Estación Espacial para facilitar el uso de lanzaderas. Las lanzaderas atracarán al otro lado.
 tile.gravity.name=Generador de Gravedad Artificial
@@ -75,15 +82,18 @@ tile.steelChest.name=Cofre de Acero
 tile.steelChest.description=Doble de capacidad que un cofre de madera, pero no se puede combinar en un cofre doble.
 
 
+tile.oldConcreteOre.0.name=Urbolite
 tile.oldConcrete.name=Urbolita
 tile.oldConcreteOre.oreSteel.name=Urbolita Acerosa
 tile.oldConcreteOre.oreBone.name=Urbolita Fosilífera
 
 
+tile.baseBlockCrystal.0.name=Glowing Coral
 tile.glowCoral.name=Coral Brillante
 tile.obsidianbrick.name=Ladrillos de Obsidiana
 tile.obsidianbrick.stairs.name=Escaleras de Ladrillos de Obsidiana
 tile.obsidianbrick.slab.name=Losa de Ladrillos de Obsidiana
+tile.baseBlockGround.0.name=Dirt / Crusted Dust
 tile.methanedirt.name=Tierra
 tile.dustblock.name=Polvo Encostrado
 tile.underwaterBlueGrass.name=Algas de las Profundidades
@@ -96,24 +106,40 @@ tile.oreTitanium.name=Mena de Ilmenita
 tile.oreUranium.name=Mena de Uranio
 tile.oreSteel.name=Mena de Acero
 tile.oreBone.name=Mena de Fósil
+tile.asteroidMultiOre1.0.name=Ore
+tile.basaltMultiOre.0.name=Ore
+tile.hardClayMultiOre.0.name=Ore
+tile.obsidianMultiOre.0.name=Ore
 
+tile.basePlant.0.name=Tall Redgrass
 tile.methaneTallGrass.name=Hierba Alta Roja
 
+tile.blockFake.0.name=Fake Block
 
+tile.bossSpawner.0.name=Boss Spawner
+
+tile.baseFalling.0.name=Falling Block
 tile.basaltregolith.name=Regolito de Basalto
 tile.obsidianGravel.name=Grava de Obsidiana
 tile.obsidianSand.name=Arena de Obsidiana
 
+tile.baseGrass.0.name=Redgrass
 tile.methanegrass.name=Hierba Roja
 tile.vacuumRedGrass.name=Hierba Roja Pálida
+tile.log1.0.name=Virilig Log
 tile.methanewood.name=Tronco de Viríligo
 tile.methanePlanks.name=Tablas de Viríligo
 tile.methanePlanks.slab.name=Losa de Viríligo
 tile.methanePlanks.stairs.name=Escaleras de Viríligo
+tile.null.0.name=Virilig Leaf
 tile.methaneleaf.name=Hojas de Viríligo
+tile.saplings.0.name=Virilig Sapling
 tile.mTreeSapling.name=Brote de Viríligo
+tile.wood1.0.name=Lumipod Bark
 tile.podBark.name=Corteza de Lumivaina
 tile.podPlanks.name=Tablas de Lumivaina
+tile.woodSlab.0.name=Lumipod Slab
+tile.woodDoubleslab.0.name=Lumipod Slab
 tile.podPlanks.slab.name=Losa de Lumivaina
 tile.podPlanks.stairs.name=Escaleras de Lumivaina
 tile.podleaf.name=Pulpa de Lumivaina
@@ -127,11 +153,13 @@ tile.hydroponics.noplant=Ninguna Planta
 tile.hydroponics.plantstatus=Estado de la planta
 
 
+tile.machines1.0.name=Radioisotope Generator
 tile.isotopeGeneratorBasic.name=Generador de Radioisótopos
 tile.isotopeGeneratorAdvanced.name=Generador de Radioisótopos Avanzado
 tile.isotopeGenerator.description=Genera electricidad a partir del calor generador por la desintegración de material nuclear. El ratio de producción depende de la temperatura en el exterior: a mayor temperatura menor producción. Dada la larga vida media del isótopo, este generador se asume inexhaustible.
 
 
+item.baseItem.name=Resource
 item.baseItem.compressedGold.name=Oro Comprimido
 item.baseItem.goldFoil.name=Lámina de Oro
 item.baseItem.transformer.name=Transformador
@@ -181,6 +209,7 @@ entity.alienVillagerAR.name=Aldeano Gasterópodo
 entity.alienBug.name=Bicho Pinzante
 entity.GalacticraftAmunRa.Shuttle.name=Cohete Lanzadera
 item.itemShuttle.name=Cohete Lanzadera
+item.thermalSuit.name=Thermoregulation Armor Piece
 item.thermalSuit.thermalLevel.name=Nivel Térmico: %s
 item.thermalSuit.helmet.name=Casco de Termoregulación
 item.thermalSuit.chest.name=Pechera de Termoregulación

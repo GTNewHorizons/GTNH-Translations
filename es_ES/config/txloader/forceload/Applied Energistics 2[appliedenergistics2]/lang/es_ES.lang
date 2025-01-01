@@ -60,8 +60,12 @@ tile.appliedenergistics2.BlockCraftingAccelerator256x.name=Unidad de co-procesam
 tile.appliedenergistics2.BlockCraftingAccelerator1024x.name=Unidad de co-procesamiento de 1024 núcleos
 tile.appliedenergistics2.BlockCraftingAccelerator4096x.name=Unidad de co-procesamiento de 4096 núcleos
 tile.appliedenergistics2.BlockCraftingUnit.name=Unidad de elaboración
+tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=Crafting Storage
+tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=Crafting Unit
 tile.appliedenergistics2.BlockMolecularAssembler.name=Ensamblador molecular
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Matriz de Optimización de Patrones
+tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafting Storage
+tile.appliedenergistics2.BlockPaint.name=Paint
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Escaleras de Cuarzo de Certus cinceladas
@@ -75,13 +79,21 @@ tile.appliedenergistics2.SkyStoneStairBlock.name=Escaleras de piedra del cielo
 
 # Slabs
 tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=Losa de Cuarzo de Certus Cincelada
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Chiseled Certus Quartz Slabs
 tile.appliedenergistics2.FluixSlabBlock.name=Losas de Fluix
+tile.appliedenergistics2.FluixSlabBlock.double.name=Fluix Slabs
 tile.appliedenergistics2.QuartzPillarSlabBlock.name=Losa de Pilar de Cuarzo de Certus
+tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Certus Quartz Pillar Slabs
 tile.appliedenergistics2.QuartzSlabBlock.name=Losa de Cuarzo de Certus
+tile.appliedenergistics2.QuartzSlabBlock.double.name=Certus Quartz Slabs
 tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=Losa de Bloque de Piedra del Cielo
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Sky Stone Block Slabs
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=Escaleras de Bloque de Piedra del Cielo
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Sky Stone Brick Slabs
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=Losa de Ladrillo Pequeño de Piedra del Cielo
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Sky Stone Small Brick Slabs
 tile.appliedenergistics2.SkyStoneSlabBlock.name=Losa de Piedra del Cielo
+tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Sky Stone Slabs
 
 # Chat Messages
 chat.appliedenergistics2.ChestCannotReadStorageCell=El cofre ME no puede leer la célula de almacenamiento.
@@ -601,12 +613,16 @@ item.appliedenergistics2.ItemEncodedPattern.name=Patrón Codificado
 item.appliedenergistics2.ItemViewCell.name=Celda de Visión
 item.appliedenergistics2.ItemFacade.name=Fachada de Cable
 
+item.appliedenergistics2.ItemCrystalSeed.name=Seed
 item.appliedenergistics2.ItemCrystalSeed.Certus.name=Semilla de Cuarzo de Certus
 item.appliedenergistics2.ItemCrystalSeed.Nether.name=Semilla de Cuarzo
 item.appliedenergistics2.ItemCrystalSeed.Fluix.name=Semilla de Fluix
 
 item.appliedenergistics2.ItemPart.InvalidType.name=Objeto deshabilitado
 item.appliedenergistics2.ItemMaterial.InvalidType.name=Este objeto está deshabilitado
+
+item.appliedenergistics2.ItemMaterial.name=ME Component
+item.appliedenergistics2.ItemPart.name=ME Cable and/or Bus
 
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=Patrón en Blanco
 item.appliedenergistics2.ItemMaterial.FormationCore.name=Núcleo de Formación
@@ -700,8 +716,6 @@ item.appliedenergistics2.ItemPart.CableGlass.name=Cable de Cristal ME
 item.appliedenergistics2.ItemPart.CableSmart.name=Cable Inteligente ME
 item.appliedenergistics2.ItemPart.CableDense.name=Cable Inteligente Denso ME
 item.appliedenergistics2.ItemPart.CableDenseCovered.name=Cable Denso Cubierto ME
-item.appliedenergistics2.ItemPart.CableUltraDenseCovered.name=Cable Principal Cubierto ME
-item.appliedenergistics2.ItemPart.CableUltraDenseSmart.name=Cable Principal Inteligente ME
 item.appliedenergistics2.ItemPart.StorageMonitor.name=Monitor de Almacenamiento ME
 item.appliedenergistics2.ItemPart.ConversionMonitor.name=Monitor de Conversión ME
 item.appliedenergistics2.ItemPart.SemiDarkMonitor.name=Panel Iluminado
