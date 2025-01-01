@@ -1,6 +1,8 @@
 ##################################################
 ## Machines
 
+tile.machine.name=Machine
+
 extratrees.machine.kitchen.bar=Bar
 extratrees.machine.kitchen.bottleRack=Porte-Bouteilles
 
@@ -159,6 +161,7 @@ extratrees.block.tooltip.twoMaterials=%s et %s
 extratrees.block.door.name=Porte en bois en %1$s
 
 < %1$s is name of wood used for door, %2$s is type of door >
+tile.door.name=Wood Door
 extratrees.block.door.name.adv=porte en bois %2$s en %1$s
 extratrees.block.door.type.standard=
 extratrees.block.door.type.solid=Pleine
@@ -166,19 +169,24 @@ extratrees.block.door.type.double=à 2 panneaux
 extratrees.block.door.type.full=à 3 panneaux
 
 < %1$s is name of the wood>
+tile.planks.name=Wood Planks
 extratrees.block.plank.name=Planche en %1$s
 extratrees.block.log.name=Bûche en %1$s
+tile.slabs.name=Wood Slab
 extratrees.block.woodslab.name=Dalle en %1$s
+tile.stairs.name=Stairs
 extratrees.block.woodstairs.name=Escaliers en %1$s
 extratrees.block.woodfence.name=Clôture en %1$s
 extratrees.block.woodgate.name=Portail en %1$s
 
 < %1$s is the adjective for the fence type, %2$s is the name of the wood >
+tile.multifence.name=Fence
 extratrees.block.multifence.name=%2$s %1$s Gate
 < %3$s is the name of the second wood >
 extratrees.block.multifence.name2=%2$s %1$s & $3$s Gate
 
 < %1$s is name of the design >
+tile.carpentry.name=Wooden Panel/Tile
 extratrees.block.woodentile.name=Tuile en %1$s
 extratrees.block.woodenpanel.name=Panneau en %1$s
 extratrees.block.stainedglass.name=%1$s Stained Glass
@@ -312,14 +320,18 @@ extratrees.genetics.unknown=<Unknown>
 extratrees.genetics.discoveredBy=Discovered by %s 
 extratrees.genetics.complexity=Complexity: %d 
 
-extratrees.item.carpentryHammer=Master Carpentry Hammer
-extratrees.item.masterCarpentryHammer=Carpentry Hammer
+item.hammer.name=Carpentry Hammer
+extratrees.item.carpentryHammer=Carpentry Hammer
+item.durableHammer.name=Master Carpentry Hammer
+extratrees.item.masterCarpentryHammer=Master Carpentry Hammer
+item.misc.name=Resource
 extratrees.item.sawdust=Sawdust
 extratrees.item.bark=Bark
 extratrees.item.provenGear=Proven Gear
 extratrees.item.woodWax=Wood Polish
 extratrees.item.glassFitting=Glass Fittings
 
+item.food.name=Fruit
 for.extratrees.item.food.apple=Apple
 for.extratrees.item.food.crabapple=Crabapple
 for.extratrees.item.food.orange=Orange
@@ -383,10 +395,12 @@ for.extratrees.item.food.mango=Mango
 for.extratrees.item.food.starfruit=Starfruit
 for.extratrees.item.food.candlenut=Candlenut
 
+item.database.name=Arborist Database
 extratrees.item.database=Arborist Database
 extratrees.item.masterDatabase=Master Arborist Database
 extratrees.item.database.tooltip=Sengir-in-a-can
 
+item.databaseMoth.name=Lepidopterist Database
 extratrees.item.mothDatabase=Lepidopterist Database
 extratrees.item.mothMasterDatabase=Master Lepidopterist Database
 extratrees.item.mothDatabase.tooltip=Binnie's Emporium of Lepidopterans
