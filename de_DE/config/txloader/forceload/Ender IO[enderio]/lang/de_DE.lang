@@ -19,6 +19,7 @@ item.enderio.itemEnderface.name=Endergesicht
 
 #Conduits
 enderio.blockConduitBundle=Leitungsbündel
+tile.blockConduitFacade.name=Conduit Facade
 enderio.blockConduitFacade=Leitungsverkleidung
 item.enderio.itemConduitFacade.name=Leitungsverkleidung
 item.enderio.itemConduitFacade.hardened.name=Verstärkte Leitungsvekleidung
@@ -29,10 +30,12 @@ item.enderio.itemConduitFacade.tooltip.detailed.line3=Versteckt, wenn ein Schrau
 item.enderio.itemConduitFacade.tooltip.detailed.line4=ausgerüstet ist
 item.enderio.itemConduitFacade.hardened.tooltip=Gehärtet: Widersteht Brechen und Explosionen.
 
+item.itemPowerConduit.name=Energy Conduit
 enderio.itemPowerConduit.name=Energieleitung
 enderio.itemPowerConduitEnhanced.name=Verbesserte Energieleitung
 enderio.itemPowerConduitEnder.name=Ender-Energieleitung
 
+item.itemPowerConduitEndergy.name=Energy Conduit
 enderio.itemPowerConduitEndergyCrude.name=Lehm-Energieleitung
 enderio.itemPowerConduitEndergyIron.name=Eisen-Energieleitung
 enderio.itemPowerConduitEndergyAluminum.name=Aluminium-Energieleitung
@@ -46,10 +49,12 @@ enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=Kristalliner Rosa Schle
 enderio.itemPowerConduitEndergyMelodic.name=Melodische Energieleitung
 enderio.itemPowerConduitEndergyStellar.name=Hervorragende Energieleitung
 
+item.itemRedstoneConduit.name=Redstone Conduit
 enderio.itemRedstoneConduit.name=Redstone-Leitung
 enderio.itemRedstoneConduitSwitch.name=Leitungsschalter
 enderio.itemRedstoneConduitInsulated.name=Isolierte Redstone-Leitung
 
+item.itemLiquidConduit.name=Fluid Conduit
 enderio.itemLiquidConduit.name=Flüssigkeitsleitung
 enderio.itemLiquidConduitAdvanced.name=Flüssigkeitsdruckleitung
 enderio.itemLiquidConduitEnder.name=Ender-Flüssigkeitsleitung
@@ -71,10 +76,13 @@ enderio.itemLiquidConduitEnder.tooltip.detailed.line1=Sofortiger Flüssigkeitste
 enderio.itemLiquidConduitEnder.tooltip.detailed.line2=Ermöglicht es, verschiedene Flüssigkeiten
 enderio.itemLiquidConduitEnder.tooltip.detailed.line3=durch die selbe Leitung zu transportieren
 
+item.itemItemConduit.name=Item Conduit
 enderio.itemItemConduit.name=Item-Leitung
 
+item.itemBasicFilterUpgrade.name=Item Filter
 enderio.filterUpgradeBasic.name=Einfacher Item-Filter
 enderio.filterUpgradeAdvanced.name=Erweiterter Item-Filter
+item.itemBigFilterUpgrade.name=Big Item Filter
 enderio.filterUpgradeBig.name=Großer Item Filter
 enderio.filterUpgradeBigAdvanced.name=Großer fortschrittlicher Item Filter
 enderio.itemConduitFilterUpgrade=Upgrade für Item-Leitungen
@@ -119,6 +127,7 @@ item.itemExtractSpeedDowngrade.tooltip.basic.line1=Downgrade für Item-Leitungen
 item.itemExtractSpeedDowngrade.tooltip.detailed.line1=Reduziert Geschwindigkeit auf 1
 item.itemExtractSpeedDowngrade.tooltip.detailed.line2=Item pro Extraktion
 
+item.itemFunctionUpgrade.name=Remote Awareness Upgrade
 item.itemInventoryPanelUpgrade.name=Fernsteuerungs-Upgrade
 item.itemInventoryPanelUpgrade.tooltip.basic.line1=Inventar-Panelbedienbarkeit
 item.itemInventoryPanelUpgrade.tooltip.detailed.line1=Funktions-Upgrade für Item-Leitungen
@@ -134,10 +143,12 @@ enderio.itemGasConduit.tooltip.maxExtract=Maximale Entnahme
 enderio.itemGasConduit.tooltip.maxIo=Max IO:
 enderio.itemGasConduit.tooltip.detailed.line1=Transportiert Mekanism-kompatible Gase
 
+item.itemMEConduit.name=ME Conduit
 enderio.itemMEConduit.name=ME-Leitung
 enderio.itemMEConduitDense.name=Dichte ME-Leitung
 enderio.itemMEConduit.channelsUsed={0,number} von {1,number} Kanälen
 
+item.itemOCConduit.name=Network Conduit (OC)
 enderio.itemOCConduit.name=Netzwerkleitung (OC)
 
 #Entity
@@ -145,6 +156,7 @@ entity.witherSkeleton.name=Witherskelett
 
 #Materials
 enderio.itemMaterial.name=Materialien
+item.itemMaterial.name=Materials
 enderio.silicon.name=Silizium
 enderio.conduitBinder.name=Leitungsbinder
 enderio.binderComposite.name=Bindegemisch
@@ -221,6 +233,7 @@ enderio.gas.gasTick=Gas/t
 
 #Materials
 enderio.itemMachinePart.name=Maschinenteile
+item.itemMachinePart.name=Machine Parts
 enderio.machineChassi.name=Maschinenhülle
 enderio.basicGear.name=Basiszahnrad
 enderio.soulMachineChassi.name=Soul Machine Chassis
@@ -231,6 +244,7 @@ enderio.enderCrystal.name=Enderkristall
 enderio.attractorCrystal.name=Anziehender Kristall
 enderio.weatherCrystal.name=Wetterkristall
 
+item.itemGrindingBall.name=Grinding Ball
 enderio.darkGrindingBall.name=Dunkelstahlkugel
 enderio.electricalGrindingBall.name=Electrical Steel Ball
 enderio.energeticGrindingBall.name=Energetic Alloy Ball
@@ -264,6 +278,7 @@ enderio.itemPowderIngot=Pulver & Barren
 
 #Alloys
 enderio.itemAlloy.name=Legierung
+item.itemAlloy.name=Alloy
 enderio.electricalSteel.name=Elektrischer Stahl
 enderio.energeticAlloy.name=Energetisierte Legierung
 enderio.phasedGold.name=Dynamische Legierung
@@ -276,6 +291,7 @@ enderio.soularium.name=Soularium
 enderio.endSteel.name=End-Stahl
 enderio.endSteelNugget.name=End-Stahl-Nugget
 
+item.itemAlloyEndergy.name=Alloy
 enderio.crudeSteel.name=Lehmzusammensetzung
 enderio.crystallineAlloy.name=Kristallin-Legierung
 enderio.melodicAlloy.name=Melodische Legierung
@@ -284,6 +300,7 @@ enderio.crystallinePinkSlime.name=Kristalliner Rosa Schleim
 enderio.energeticSilver.name=Energetisches Silber
 enderio.vividAlloy.name=Lebendige Legierung
 
+item.itemGrindingBallEndergy.name=Grinding Ball
 enderio.crudeSteelGrindingBall.name=Mahlwerkkugel aus Lehmzusammensetzung
 enderio.crystallineAlloyGrindingBall.name=Mahlwerkkugel aus Kristallin-Legierung
 enderio.melodicAlloyGrindingBall.name=Mahlwerkkugel aus Melodischer Legierung
@@ -322,6 +339,7 @@ tile.enderio.darkSteel.name=Dunkelstahlblock
 tile.enderio.soularium.name=Soularium-Block
 tile.enderio.endSteel.name=End Steel Block
 
+tile.blockIngotStorageEndergy.name=Alloy Block
 tile.enderio.crudeSteel.name=Clay Compound Block
 tile.enderio.crystallineAlloy.name=Crystalline Alloy Block
 tile.enderio.melodicAlloy.name=Melodic Alloy Block
@@ -331,6 +349,7 @@ tile.enderio.energeticSilver.name=Energetic Silver Block
 tile.enderio.vividAlloy.name=Vivid Alloy Block
 
 #Powder / Ingot
+item.itemPowderIngot.name=Powder
 enderio.powderCoal.name=Kohlepulver
 enderio.powderIron.name=Eisenpulver
 enderio.powderGold.name=Goldpulver
@@ -342,6 +361,7 @@ enderio.ingotEnderiumBase.name=Enderium-Basis
 
 #Capacitors
 enderio.itemBasicCapacitor.name=Kondensator
+item.itemBasicCapacitor.name=Capacitor
 enderio.basicCapacitor.name=Basiskondensator
 enderio.activatedCapacitor.name=Doppelschichtkondensator
 enderio.enderCapacitor.name=Oktadischer Kondensator
@@ -390,6 +410,7 @@ enderio.maxSolorProduction=Max.-Output
 enderio.tooltip.efficiency=Effizienz
 enderio.tooltip.sunlightBlocked=Himmel verdeckt!
 
+tile.blockElectricLight.name=Powered Light
 item.itemElectricLight.name=Energiebetriebenes Licht
 item.itemElectricLight.tooltip.detailed.line1=Beleuchtet einen großen Bereich, wenn mit
 item.itemElectricLight.tooltip.detailed.line2=Energie und einem Redstone-Signal versorgt
@@ -406,6 +427,8 @@ item.itemLight.tooltip.detailed.line2=einem Redstone-Signal
 item.itemLightInverted.name=Licht (Invertiert)
 item.itemLightInverted.tooltip.detailed.line1=Verbreitet Licht, kann mit einem
 item.itemLightInverted.tooltip.detailed.line2=Redstone-Signal deaktiviert werden
+
+tile.blockLightNode.name=Light Node
 
 item.itemWirelessLight.name=Drahtlosgespeistes Licht
 item.itemWirelessLight.tooltip.detailed.line1=Erleuchtet ein Gebiet, wenn mit
@@ -424,6 +447,7 @@ tile.blockCapacitorBank.tooltip.detailed.line1=In einen neuen Block umwandeln
 tile.blockCapacitorBank.tooltip.detailed.line2=durch Platzieren in Fertigungsgitter.
 tile.blockCapacitorBank.tooltipPrefix=Enthält
 
+tile.blockCapBank.name=Capacitor Bank
 tile.blockCapBank.creative.name=Kreative Kondensatorbank
 tile.blockCapBank.simple.name=Basis-Kondensatorbank
 tile.blockCapBank.activated.name=Kondensatorbank
@@ -621,6 +645,7 @@ tile.blockWeatherObelisk.tooltip.detailed.line1=Ändere das derzeitige Wetter
 tile.blockWeatherObelisk.tooltip.detailed.line2=Benötigt eine Menge an Energie
 tile.blockWeatherObelisk.tooltip.detailed.line3=und ein Katalysator-Item
 
+tile.blockBuffer.name=Buffer
 tile.blockBuffer.item.name=Item-Puffer
 tile.blockBuffer.power.name=Energiepuffer
 tile.blockBuffer.omni.name=Omnipuffer
@@ -695,6 +720,7 @@ tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line2=Kann in der Färb
 tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line3=unsichtbar wenn mit Ziemlich Klaren Glas
 tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line4=bemalt.
 
+tile.blockDarkSteelAnvil.name=Dark Steel Anvil
 tile.blockDarkSteelAnvil.intact.name=Dunkelstahlamboss
 tile.blockDarkSteelAnvil.slightlyDamaged.name=Leicht beschädigter Dunkelstahlamboss
 tile.blockDarkSteelAnvil.veryDamaged.name=Stark beschädikter Dunkelstahlamboss
@@ -758,6 +784,7 @@ tile.blockPaintedFenceGate.name=Bemaltes Tor
 tile.blockPaintedWall.name=Bemalte Wand
 tile.blockPaintedStair.name=Bemalte Treppe
 tile.blockPaintedSlab.name=Bemalte Stufe
+tile.blockPaintedSlabDouble.name=Painted Slab
 tile.blockPaintedDoubleSlab.name=Bemalte Stufe
 tile.blockPaintedGlowstone.name=Bemaltes Glowstone
 tile.blockPaintedCarpet.name=Bemalter Teppich
@@ -809,6 +836,7 @@ item.itemXpTransfer.tooltip.detailed.line2=Flüssig-XP, um Level zu erlangen
 item.itemXpTransfer.tooltip.detailed.line3=Shift-Rechts-Klick um Level in den
 item.itemXpTransfer.tooltip.detailed.line4=Tank zu befördern
 
+item.itemFrankenSkull.name=Zombie Electrode
 skullZombieElectrode.name=Zombieelektrode
 skullZombieController.name=Z-Logik-Controller
 skullZombieFrankenstien.name=Frank'N'Zombie
