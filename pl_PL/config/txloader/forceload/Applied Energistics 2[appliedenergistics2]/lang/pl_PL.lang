@@ -60,8 +60,12 @@ tile.appliedenergistics2.BlockCraftingAccelerator256x.name=256 Rdzeniowa Jednost
 tile.appliedenergistics2.BlockCraftingAccelerator1024x.name=1024 Rdzeniowa Jednostka Współ-Wytwarzania
 tile.appliedenergistics2.BlockCraftingAccelerator4096x.name=4096 Rdzeniowa Jednostka Współ-Wytwarzania
 tile.appliedenergistics2.BlockCraftingUnit.name=Jednostka Wytwarzania
+tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=Crafting Storage
+tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=Crafting Unit
 tile.appliedenergistics2.BlockMolecularAssembler.name=Asembler Molekularny
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Macierz Optymalizacji Wzorców
+tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafting Storage
+tile.appliedenergistics2.BlockPaint.name=Paint
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Dłutowane Schody Kwarcu Certus
@@ -75,13 +79,21 @@ tile.appliedenergistics2.SkyStoneStairBlock.name=Schody Kamienia Nieba
 
 # Slabs
 tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=Dłutowane Płyty Kwarcu Certus
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Chiseled Certus Quartz Slabs
 tile.appliedenergistics2.FluixSlabBlock.name=Płyty Fluix
+tile.appliedenergistics2.FluixSlabBlock.double.name=Fluix Slabs
 tile.appliedenergistics2.QuartzPillarSlabBlock.name=Płyty Filarów Kwarcu Certus
+tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Certus Quartz Pillar Slabs
 tile.appliedenergistics2.QuartzSlabBlock.name=Płyty Kwarcu Certus
+tile.appliedenergistics2.QuartzSlabBlock.double.name=Certus Quartz Slabs
 tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=Płyty Bloku Kamienia Nieba
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Sky Stone Block Slabs
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=Płyty Cegły Kamienia Nieba
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Sky Stone Brick Slabs
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=Płyty Małej Cegły Kamienia Nieba
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Sky Stone Small Brick Slabs
 tile.appliedenergistics2.SkyStoneSlabBlock.name=Płyty Kamienia Nieba
+tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Sky Stone Slabs
 
 # Chat Messages
 chat.appliedenergistics2.ChestCannotReadStorageCell=Skrzynia ME nie może odczytać dysku ME.
@@ -601,12 +613,16 @@ item.appliedenergistics2.ItemEncodedPattern.name=Zakodowany Wzorzec
 item.appliedenergistics2.ItemViewCell.name=Dysk Widoku
 item.appliedenergistics2.ItemFacade.name=Fasada Kablowa
 
+item.appliedenergistics2.ItemCrystalSeed.name=Seed
 item.appliedenergistics2.ItemCrystalSeed.Certus.name=Nasiono Kwarcu Certus
 item.appliedenergistics2.ItemCrystalSeed.Nether.name=Nasiono Kwarcu
 item.appliedenergistics2.ItemCrystalSeed.Fluix.name=Nasiono Fluix
 
 item.appliedenergistics2.ItemPart.InvalidType.name=Przedmiot Wyłączony
 item.appliedenergistics2.ItemMaterial.InvalidType.name=Ten Przedmiot Jest Wyłączony.
+
+item.appliedenergistics2.ItemMaterial.name=ME Component
+item.appliedenergistics2.ItemPart.name=ME Cable and/or Bus
 
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=Pusty Wzorzec
 item.appliedenergistics2.ItemMaterial.FormationCore.name=Rdzeń Kreacji
@@ -700,8 +716,6 @@ item.appliedenergistics2.ItemPart.CableGlass.name=Szklany Kabel ME
 item.appliedenergistics2.ItemPart.CableSmart.name=Inteligentny Kabel ME
 item.appliedenergistics2.ItemPart.CableDense.name=Gęsty Inteligentny Kabel ME
 item.appliedenergistics2.ItemPart.CableDenseCovered.name=Gęsty Osłonięty Kabel ME
-item.appliedenergistics2.ItemPart.CableUltraDenseCovered.name=Osłonięty Kabel ME Backbone
-item.appliedenergistics2.ItemPart.CableUltraDenseSmart.name=Inteligentny Kabel ME Backbone
 item.appliedenergistics2.ItemPart.StorageMonitor.name=Monitor Magazynowania ME
 item.appliedenergistics2.ItemPart.ConversionMonitor.name=Monitor Konwersji ME
 item.appliedenergistics2.ItemPart.SemiDarkMonitor.name=Podświetlany Panel

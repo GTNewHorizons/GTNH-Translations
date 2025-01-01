@@ -19,8 +19,11 @@ moon.kebe=Kebechet
 
 tile.darkMatter.name=Ciemna Materia
 tile.basalt.name=Bazalt
+tile.rockSlab.0.name=Basalt Slab
+tile.rockDoubleslab.0.name=Basalt Slab
 tile.basalt.slab.name=Płyta z Bazaltu
 tile.basalt.stairs.name=Schody z Bazaltu
+tile.baseBlockRock.0.name=Block
 tile.basaltcobble.name=Bazaltowy Bruk
 tile.redrock.name=Czerwony Piaskowiec
 tile.redrockcobble.name=Czerwony Bruk
@@ -39,7 +42,9 @@ tile.blockUranium.name=Blok Uranu
 tile.mothershipController.name=Konsola Nawigacyjna Statku Kosmicznego
 tile.mothershipController.description=Ten blok jest potrzebny aby wybrać miejsce docelowe Statku Kosmicznego
 tile.mothershipEngineRocket.name=Silniki Rakietowe
+tile.machines2.name=Jet
 tile.mothershipEngineRocketJet.name=Ster Strumieniowy Silnika Rakietowego
+tile.msBoosters1.0.name=Base
 tile.mothershipEngineRocketBooster.name=Podstawa Silnika Rakietowego
 tile.mothershipEngineRocket.description=Umieść Jeden lub więcej bloków bazowych silnika rakietowego w rzędzie następnie jeden ster strumieniowy silnika rakietowego na jednej stronie, aby utworzyć Statek Kosmiczny
 tile.mothershipSettings.name=Terminal Konfiguracyjny Statku Kosmicznego
@@ -63,8 +68,10 @@ tile.msBaseBlock.name=Podstawowy Blok Statku Kosmicznego
 tile.mothershipEngineIon.name=Silnik Jonowy
 tile.mothershipEngineRocketBoosterIon.name=Podstawa Silnika Jonowego
 tile.mothershipEngineRocketJetIon.name=Dysza Silnika Jonowego
+tile.machines3.0.name=Machine
 tile.blockScale.name=Skala bloków
 tile.blockScale.description=Wyświetla masę bloku postawionego bezpośrednio nad nim, ma to znaczenie przy budowie statku kosmicznego.
+tile.machines4.0.name=Machine
 tile.shuttleDock.name=Dok Wahadłowca
 tile.shuttleDock.description=Postaw w ścianie statku-matki lub stacji kosmicznej by łatwo korzystać z wahadłowców. Wahadłowce dokują po drugiej stronie ściany.
 tile.gravity.name=Generator Sztucznej Grawitacji
@@ -75,15 +82,18 @@ tile.steelChest.name=Stalowa Skrzynia
 tile.steelChest.description=Dwa razy większa pojemność niż skrzynia drewniana, ale nie można łączyć w podwójne skrzynie.
 
 
+tile.oldConcreteOre.0.name=Urbolite
 tile.oldConcrete.name=Urbolit
 tile.oldConcreteOre.oreSteel.name=Urbolit zawierający stal
 tile.oldConcreteOre.oreBone.name=Skamieniały Urbolit
 
 
+tile.baseBlockCrystal.0.name=Glowing Coral
 tile.glowCoral.name=Świecący Koral
 tile.obsidianbrick.name=Cegły Obsydianu
 tile.obsidianbrick.stairs.name=Schody z Obsydianowych Cegieł
 tile.obsidianbrick.slab.name=Płyta z Obsydianowych Cegieł
+tile.baseBlockGround.0.name=Dirt / Crusted Dust
 tile.methanedirt.name=Ziemia
 tile.dustblock.name=Skorupowy Pył
 tile.underwaterBlueGrass.name=Głębokie Glony
@@ -96,24 +106,40 @@ tile.oreTitanium.name=Ruda Ilmenitu
 tile.oreUranium.name=Ruda Uranu
 tile.oreSteel.name=Ruda Stali
 tile.oreBone.name=Ruda Skamielin
+tile.asteroidMultiOre1.0.name=Ore
+tile.basaltMultiOre.0.name=Ore
+tile.hardClayMultiOre.0.name=Ore
+tile.obsidianMultiOre.0.name=Ore
 
+tile.basePlant.0.name=Tall Redgrass
 tile.methaneTallGrass.name=Wysoka Czerwona Trawa
 
+tile.blockFake.0.name=Fake Block
 
+tile.bossSpawner.0.name=Boss Spawner
+
+tile.baseFalling.0.name=Falling Block
 tile.basaltregolith.name=Bazaltowy Regolit
 tile.obsidianGravel.name=Żwir z Obsydianu
 tile.obsidianSand.name=Piasek z Obsydianu
 
+tile.baseGrass.0.name=Redgrass
 tile.methanegrass.name=Czerwona Trawa
 tile.vacuumRedGrass.name=Wyblakła Czerwona Trawa
+tile.log1.0.name=Virilig Log
 tile.methanewood.name=Viriligowy Pień
 tile.methanePlanks.name=Viriligowe Deski
 tile.methanePlanks.slab.name=Plyta z Viriligu
 tile.methanePlanks.stairs.name=Schody z Viriligu
+tile.null.0.name=Virilig Leaf
 tile.methaneleaf.name=Viriligowe Liście 
+tile.saplings.0.name=Virilig Sapling
 tile.mTreeSapling.name=Sadzonka Viriligu
+tile.wood1.0.name=Lumipod Bark
 tile.podBark.name=Kora Lumipodu
 tile.podPlanks.name=Lumipodowe Deski
+tile.woodSlab.0.name=Lumipod Slab
+tile.woodDoubleslab.0.name=Lumipod Slab
 tile.podPlanks.slab.name=Płyta z Lumipodu
 tile.podPlanks.stairs.name=Schody z Lumipodu
 tile.podleaf.name=Ścier z Lumipodu
@@ -127,11 +153,13 @@ tile.hydroponics.noplant=Brak Rośliny
 tile.hydroponics.plantstatus=Status rośliny
 
 
+tile.machines1.0.name=Radioisotope Generator
 tile.isotopeGeneratorBasic.name=Generator radioizotopów
 tile.isotopeGeneratorAdvanced.name=Zaawansowany Generator Radioizotopów
 tile.isotopeGenerator.description=Generuje energię poprzez ciepło stworzone, w skutek rozpadu materiału jądrowego. Tempo produkcji energi zależy od temperatury na zewnątrz, im jest cieplej, tym mniej energi zostaje wygenerowanej. Ze względu na długi okres półtrwania użytego izotopu, generator może działać wiecznie.
 
 
+item.baseItem.name=Resource
 item.baseItem.compressedGold.name=Skompresowane Złoto
 item.baseItem.goldFoil.name=Złota folia
 item.baseItem.transformer.name=Transformator
@@ -181,6 +209,7 @@ entity.alienVillagerAR.name=Ślimak Osadnik
 entity.alienBug.name=Robak Szczypcowy
 entity.GalacticraftAmunRa.Shuttle.name=Rakieta Wahadłowca
 item.itemShuttle.name=Rakieta Wahadłowca
+item.thermalSuit.name=Thermoregulation Armor Piece
 item.thermalSuit.thermalLevel.name=Poziom Termiczny: %s
 item.thermalSuit.helmet.name=Hełm Termoregulacyjny
 item.thermalSuit.chest.name=Napiersnik Termoregulacyjny
