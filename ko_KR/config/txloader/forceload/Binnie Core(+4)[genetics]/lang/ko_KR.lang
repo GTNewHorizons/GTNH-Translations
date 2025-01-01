@@ -9,22 +9,29 @@ genetics.item.fieldKit.tooltip.noPaper=No paper
 genetics.item.fieldKit.tooltip.sheetsOfPaper=%d sheets of paper
 genetics.item.fieldKit.tooltip.sheetOfPaper=%d sheet of paper
 
+item.misc.name=Resource
 genetics.item.casingIron.name=Reinforced Casing
 genetics.item.dnaDye.name=DNA Dye
 genetics.item.dyeFluor.name=Fluorescent Dye
 genetics.item.enzyme.name=Enzyme
 genetics.item.growthMedium.name=Growth Medium
 genetics.item.sequencerEmpty.name=Blank Sequence
+item.serum.name=Empty Serum Vial
 genetics.item.serumEmpty.name=Empty Serum Vial
+item.serumArray.name=Empty Serum Array
 genetics.item.genomeEmpty.name=Empty Serum Array
 genetics.item.cylinderEmpty.name=Glass Cylinder
 genetics.item.integratedCircuit.name=Integrated Circuit Board
 genetics.item.integratedCPU.name=Integrated CPU
 genetics.item.casingCircuit.name=Integrated Casing
+item.analyst.name=Analyst
 genetics.item.analyst.name=Analyst
+item.database.name=Gene Database
 genetics.item.database.0.name=유전자 데이터베이스
 genetics.item.database.1.name=Master Gene Database
+item.registry.name=Registry
 genetics.item.registry.0.name=Registry
+item.masterRegistry.name=Registry
 genetics.item.registry.1.name=Master Registry
 genetics.item.serum.name=%s Serum
 genetics.item.serumArray.name=%s Serum Array
@@ -42,6 +49,7 @@ genetics.gene.charge.one=1 Charge
 genetics.gene.charge.many=%d Charges
 genetics.gene.more=%d more genes. Hold shift to display
 
+item.sequence.name=DNA Sequence
 genetics.sequence.corrupted=Corrupted Sequence
 genetics.sequence.descriptor=%s DNA Sequence
 genetics.sequence.unknown=<Unknown>
@@ -49,6 +57,7 @@ genetics.sequence.unsequenced=Unsequenced
 genetics.sequence.fully=Fully Sequenced
 genetics.sequence.partially=Partially Sequenced (%d%%)
 
+tile.machine.name=Isolator
 genetics.machine.machine.isolator=Isolator
 genetics.machine.machine.isolator.info=The Isolator takes a random allele from a bee, tree or other individual and copies it into an empty sequence vial. This requires the use of ethanol as a solvent and an enzyme to cut up the DNA. The unsequenced serums can then be amplified in a Polymeriser and sequenced in a Sequencer. This process has a small chance to destroy the individual.
 genetics.machine.isolator.error.noIndividual=No individual to isolate
@@ -102,6 +111,7 @@ genetics.machine.genepool.error.noRoom=Not enough room in Tank
 genetics.machine.genepool.error.noEthanol=Not enough Ethanol
 genetics.machine.genepool.error.insufficientEnzyme=Insufficient Enzyme
 
+tile.labMachine.name=Lab Stand
 genetics.machine.labMachine.labMachine=Lab Stand
 
 genetics.machine.labMachine.analyser=Analyzer
@@ -128,6 +138,7 @@ genetics.machine.acclimatiser.error.noIndividual=No Individual to Acclimatise
 genetics.machine.acclimatiser.error.noAcclimatizingItems=No Acclimatising Items
 genetics.machine.acclimatiser.error.invalidAcclimatizingItems=Cannot Acclimatise this individual with these items
 
+tile.advMachine.name=Splicer
 genetics.machine.advMachine.splicer=Splicer
 genetics.machine.advMachine.splicer.info=The Splicer is an incredibly powerful machine that is used to insert genes into individuals. This process is fast, but requires monumental amounts of power.
 genetics.machine.splicer.error.noIndividual=No Individual to Splice

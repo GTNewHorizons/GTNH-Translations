@@ -60,8 +60,12 @@ tile.appliedenergistics2.BlockCraftingAccelerator256x.name=256 Core Co-Processin
 tile.appliedenergistics2.BlockCraftingAccelerator1024x.name=1024 Core Co-Processing Unit
 tile.appliedenergistics2.BlockCraftingAccelerator4096x.name=4096 Core Co-Processing Unit
 tile.appliedenergistics2.BlockCraftingUnit.name=조합 유닛
+tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=Crafting Storage
+tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=Crafting Unit
 tile.appliedenergistics2.BlockMolecularAssembler.name=분자 조합기
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Pattern Optimization Matrix
+tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafting Storage
+tile.appliedenergistics2.BlockPaint.name=Paint
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Chiseled Certus Quartz Stairs
@@ -75,13 +79,21 @@ tile.appliedenergistics2.SkyStoneStairBlock.name=스카이 스톤 계단
 
 # Slabs
 tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=조각된 세투스 석영 반블럭
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Chiseled Certus Quartz Slabs
 tile.appliedenergistics2.FluixSlabBlock.name=액정 반블럭
+tile.appliedenergistics2.FluixSlabBlock.double.name=Fluix Slabs
 tile.appliedenergistics2.QuartzPillarSlabBlock.name=세투스 석영 기둥 반블럭
+tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Certus Quartz Pillar Slabs
 tile.appliedenergistics2.QuartzSlabBlock.name=세투스 석영 반블럭
+tile.appliedenergistics2.QuartzSlabBlock.double.name=Certus Quartz Slabs
 tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=천령석 블럭 반블럭
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Sky Stone Block Slabs
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=천령석 벽돌 반블럭
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Sky Stone Brick Slabs
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=천령석 작은 벽돌 반블럭
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Sky Stone Small Brick Slabs
 tile.appliedenergistics2.SkyStoneSlabBlock.name=천령석 반블럭
+tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Sky Stone Slabs
 
 # Chat Messages
 chat.appliedenergistics2.ChestCannotReadStorageCell=ME 창고가 셀을 읽을 수 없습니다.
@@ -601,12 +613,16 @@ item.appliedenergistics2.ItemEncodedPattern.name=쓰여진 패턴
 item.appliedenergistics2.ItemViewCell.name=View Cell
 item.appliedenergistics2.ItemFacade.name=케이블 덮개
 
+item.appliedenergistics2.ItemCrystalSeed.name=Seed
 item.appliedenergistics2.ItemCrystalSeed.Certus.name=세투스 석영 씨앗
 item.appliedenergistics2.ItemCrystalSeed.Nether.name=지옥 석영 씨앗
 item.appliedenergistics2.ItemCrystalSeed.Fluix.name=액정 씨앗
 
 item.appliedenergistics2.ItemPart.InvalidType.name=Disabled Item
 item.appliedenergistics2.ItemMaterial.InvalidType.name=이 아이템은 비활성화됨
+
+item.appliedenergistics2.ItemMaterial.name=ME Component
+item.appliedenergistics2.ItemPart.name=ME Cable and/or Bus
 
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=빈 패턴
 item.appliedenergistics2.ItemMaterial.FormationCore.name=형성 코어
@@ -700,8 +716,6 @@ item.appliedenergistics2.ItemPart.CableGlass.name=ME 유리 케이블
 item.appliedenergistics2.ItemPart.CableSmart.name=ME 스마트 케이블
 item.appliedenergistics2.ItemPart.CableDense.name=ME 조밀 케이블
 item.appliedenergistics2.ItemPart.CableDenseCovered.name=ME Dense Covered Cable
-item.appliedenergistics2.ItemPart.CableUltraDenseCovered.name=ME Backbone Covered Cable
-item.appliedenergistics2.ItemPart.CableUltraDenseSmart.name=ME Backbone Smart Cable
 item.appliedenergistics2.ItemPart.StorageMonitor.name=ME 저장소 모니터
 item.appliedenergistics2.ItemPart.ConversionMonitor.name=ME 변환 모니터
 item.appliedenergistics2.ItemPart.SemiDarkMonitor.name=조명판

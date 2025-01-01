@@ -19,6 +19,7 @@ item.enderio.itemEnderface.name=엔더 얼굴
 
 #Conduits
 enderio.blockConduitBundle=컨두잇 묶음
+tile.blockConduitFacade.name=Conduit Facade
 enderio.blockConduitFacade=컨두잇 덮개
 item.enderio.itemConduitFacade.name=컨두잇 덮개
 item.enderio.itemConduitFacade.hardened.name=강화된 컨두잇 덮개
@@ -29,10 +30,12 @@ item.enderio.itemConduitFacade.tooltip.detailed.line3=렌치나 컨두잇을 들
 item.enderio.itemConduitFacade.tooltip.detailed.line4=보이지 않습니다.
 item.enderio.itemConduitFacade.hardened.tooltip=Hardened: Resists breaking and explosions
 
+item.itemPowerConduit.name=Energy Conduit
 enderio.itemPowerConduit.name=에너지 컨두잇
 enderio.itemPowerConduitEnhanced.name=고급 에너지 컨두잇
 enderio.itemPowerConduitEnder.name=엔더식 에너지 컨두잇
 
+item.itemPowerConduitEndergy.name=Energy Conduit
 enderio.itemPowerConduitEndergyCrude.name=점토 화합물 에너지 컨두잇
 enderio.itemPowerConduitEndergyIron.name=철 에너지 컨두잇
 enderio.itemPowerConduitEndergyAluminum.name=알루미늄 에너지 컨두잇
@@ -46,10 +49,12 @@ enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=Crystalline Pink Slime 
 enderio.itemPowerConduitEndergyMelodic.name=Melodic Energy Conduit
 enderio.itemPowerConduitEndergyStellar.name=Stellar Energy Conduit
 
+item.itemRedstoneConduit.name=Redstone Conduit
 enderio.itemRedstoneConduit.name=레드스톤 컨두잇
 enderio.itemRedstoneConduitSwitch.name=컨두잇 스위치
 enderio.itemRedstoneConduitInsulated.name=절연 레드스톤 컨두잇
 
+item.itemLiquidConduit.name=Fluid Conduit
 enderio.itemLiquidConduit.name=액체 컨두잇
 enderio.itemLiquidConduitAdvanced.name=가압식 액체 컨두잇
 enderio.itemLiquidConduitEnder.name=엔더식 액체 컨두잇
@@ -71,10 +76,13 @@ enderio.itemLiquidConduitEnder.tooltip.detailed.line1=액체를 순간이동시�
 enderio.itemLiquidConduitEnder.tooltip.detailed.line2=서로 다른 액체들을 하나의
 enderio.itemLiquidConduitEnder.tooltip.detailed.line3=수송관만으로 수송할 수 있습니다.
 
+item.itemItemConduit.name=Item Conduit
 enderio.itemItemConduit.name=아이템 컨두잇
 
+item.itemBasicFilterUpgrade.name=Item Filter
 enderio.filterUpgradeBasic.name=기본 아이템 필터
 enderio.filterUpgradeAdvanced.name=고급 아이템 필터
+item.itemBigFilterUpgrade.name=Big Item Filter
 enderio.filterUpgradeBig.name=큰 아이템 필터
 enderio.filterUpgradeBigAdvanced.name=Big Advanced Item Filter
 enderio.itemConduitFilterUpgrade=아이템 컨두잇 업그레이드
@@ -119,6 +127,7 @@ item.itemExtractSpeedDowngrade.tooltip.basic.line1=아이템 컨두잇용 다운
 item.itemExtractSpeedDowngrade.tooltip.detailed.line1=속도를 1개로 줄입니다
 item.itemExtractSpeedDowngrade.tooltip.detailed.line2=item per extraction
 
+item.itemFunctionUpgrade.name=Remote Awareness Upgrade
 item.itemInventoryPanelUpgrade.name=Remote Awareness Upgrade
 item.itemInventoryPanelUpgrade.tooltip.basic.line1=Inventory Panel Remote Awareness
 item.itemInventoryPanelUpgrade.tooltip.detailed.line1=아이템 컨두잇용 기능 업그레이드
@@ -134,11 +143,12 @@ enderio.itemGasConduit.tooltip.maxExtract=최대 추출량:
 enderio.itemGasConduit.tooltip.maxIo=최대 유량:
 enderio.itemGasConduit.tooltip.detailed.line1=메탈러지 호환 기체 전송
 
+item.itemMEConduit.name=ME Conduit
 enderio.itemMEConduit.name=ME 컨두잇
 enderio.itemMEConduitDense.name=밀집된 ME 컨두잇
-enderio.itemMEConduitDenseUltra.name=초고밀도 ME 컨두잇
 enderio.itemMEConduit.channelsUsed={0,number} of {1,number} Channels
 
+item.itemOCConduit.name=Network Conduit (OC)
 enderio.itemOCConduit.name=Network Conduit (OC)
 
 #Entity
@@ -146,6 +156,7 @@ entity.witherSkeleton.name=Wither Skeleton
 
 #Materials
 enderio.itemMaterial.name=자원
+item.itemMaterial.name=Materials
 enderio.silicon.name=실리콘
 enderio.conduitBinder.name=컨두잇 접합제
 enderio.binderComposite.name=접합제용 혼합물
@@ -222,6 +233,7 @@ enderio.gas.gasTick=Gas/t
 
 #Materials
 enderio.itemMachinePart.name=기계 부품
+item.itemMachinePart.name=Machine Parts
 enderio.machineChassi.name=기계 틀
 enderio.basicGear.name=기본 톱니바퀴
 enderio.soulMachineChassi.name=Soul Machine Chassis
@@ -232,6 +244,7 @@ enderio.enderCrystal.name=엔더 수정
 enderio.attractorCrystal.name=매혹적인 수정
 enderio.weatherCrystal.name=Weather Crystal
 
+item.itemGrindingBall.name=Grinding Ball
 enderio.darkGrindingBall.name=흑강 공
 enderio.electricalGrindingBall.name=Electrical Steel Ball
 enderio.energeticGrindingBall.name=Energetic Alloy Ball
@@ -265,6 +278,7 @@ enderio.itemPowderIngot=분말 & 주괴
 
 #Alloys
 enderio.itemAlloy.name=합금
+item.itemAlloy.name=Alloy
 enderio.electricalSteel.name=전기강
 enderio.energeticAlloy.name=활동성 합금
 enderio.phasedGold.name=진동성 합금
@@ -277,6 +291,7 @@ enderio.soularium.name=소울라륨
 enderio.endSteel.name=End Steel
 enderio.endSteelNugget.name=End Steel Nugget
 
+item.itemAlloyEndergy.name=Alloy
 enderio.crudeSteel.name=Clay Compound
 enderio.crystallineAlloy.name=Crystalline Alloy
 enderio.melodicAlloy.name=Melodic Alloy
@@ -285,6 +300,7 @@ enderio.crystallinePinkSlime.name=Crystalline Pink Slime
 enderio.energeticSilver.name=Energetic Silver
 enderio.vividAlloy.name=Vivid Alloy
 
+item.itemGrindingBallEndergy.name=Grinding Ball
 enderio.crudeSteelGrindingBall.name=Clay Compound Grinding Ball
 enderio.crystallineAlloyGrindingBall.name=Crystalline Alloy Grinding Ball
 enderio.melodicAlloyGrindingBall.name=Melodic Alloy Grinding Ball
@@ -323,6 +339,7 @@ tile.enderio.darkSteel.name=흑강 블럭
 tile.enderio.soularium.name=소울라륨 블럭
 tile.enderio.endSteel.name=End Steel Block
 
+tile.blockIngotStorageEndergy.name=Alloy Block
 tile.enderio.crudeSteel.name=Clay Compound Block
 tile.enderio.crystallineAlloy.name=Crystalline Alloy Block
 tile.enderio.melodicAlloy.name=Melodic Alloy Block
@@ -332,6 +349,7 @@ tile.enderio.energeticSilver.name=Energetic Silver Block
 tile.enderio.vividAlloy.name=Vivid Alloy Block
 
 #Powder / Ingot
+item.itemPowderIngot.name=Powder
 enderio.powderCoal.name=석탄 분말
 enderio.powderIron.name=철 분말
 enderio.powderGold.name=금 분말
@@ -343,6 +361,7 @@ enderio.ingotEnderiumBase.name=Enderium Base
 
 #Capacitors
 enderio.itemBasicCapacitor.name=축전지
+item.itemBasicCapacitor.name=Capacitor
 enderio.basicCapacitor.name=기본 축전지
 enderio.activatedCapacitor.name=이중 축전지
 enderio.enderCapacitor.name=팔중 축전지
@@ -391,6 +410,7 @@ enderio.maxSolorProduction=최대 출력
 enderio.tooltip.efficiency=효율
 enderio.tooltip.sunlightBlocked=Sky Blocked!
 
+tile.blockElectricLight.name=Powered Light
 item.itemElectricLight.name=전등
 item.itemElectricLight.tooltip.detailed.line1=전력과 레드스톤 신호를 받으면
 item.itemElectricLight.tooltip.detailed.line2=넓은 공간을 밝혀 줍니다.
@@ -407,6 +427,8 @@ item.itemLight.tooltip.detailed.line2=빛을 발합니다.
 item.itemLightInverted.name=등 (역신호)
 item.itemLightInverted.tooltip.detailed.line1=빛을 발합니다.
 item.itemLightInverted.tooltip.detailed.line2=레드스톤 신호로 끌 수 있습니다.
+
+tile.blockLightNode.name=Light Node
 
 item.itemWirelessLight.name=무선 전등
 item.itemWirelessLight.tooltip.detailed.line1=전력과 레드스톤 신호를 받으면
@@ -425,6 +447,7 @@ tile.blockCapacitorBank.tooltip.detailed.line1=멀티블럭 에너지 저장고�
 tile.blockCapacitorBank.tooltip.detailed.line2=RF를 사용하는 아이템들을 충전할 수 있습니다.
 tile.blockCapacitorBank.tooltipPrefix=에너지 저장량:
 
+tile.blockCapBank.name=Capacitor Bank
 tile.blockCapBank.creative.name=Creative Capacitor Bank
 tile.blockCapBank.simple.name=Basic Capacitor Bank
 tile.blockCapBank.activated.name=Capacitor Bank
@@ -622,6 +645,7 @@ tile.blockWeatherObelisk.tooltip.detailed.line1=Changes the current weather
 tile.blockWeatherObelisk.tooltip.detailed.line2=Requires a lot of power and
 tile.blockWeatherObelisk.tooltip.detailed.line3=a catalyst item
 
+tile.blockBuffer.name=Buffer
 tile.blockBuffer.item.name=Item Buffer
 tile.blockBuffer.power.name=Power Buffer
 tile.blockBuffer.omni.name=Omni Buffer
@@ -696,6 +720,7 @@ tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line2=채색기에서 �
 tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line3=투명한 유리로 채색할 시
 tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line4=투명 감압판이 됩니다.
 
+tile.blockDarkSteelAnvil.name=Dark Steel Anvil
 tile.blockDarkSteelAnvil.intact.name=흑강 모루
 tile.blockDarkSteelAnvil.slightlyDamaged.name=약간 손상된 흑강 모루
 tile.blockDarkSteelAnvil.veryDamaged.name=심하게 손상된 흑강 모루
@@ -759,6 +784,7 @@ tile.blockPaintedFenceGate.name=채색된 울타리 문
 tile.blockPaintedWall.name=채색된 담장
 tile.blockPaintedStair.name=채색된 계단
 tile.blockPaintedSlab.name=채색된 반 블럭
+tile.blockPaintedSlabDouble.name=Painted Slab
 tile.blockPaintedDoubleSlab.name=채색된 반 블럭
 tile.blockPaintedGlowstone.name=채색된 발광석
 tile.blockPaintedCarpet.name=채색된 카펫
@@ -810,6 +836,7 @@ item.itemXpTransfer.tooltip.detailed.line2=liquid XP to gain levels
 item.itemXpTransfer.tooltip.detailed.line3=Shift-R-Click to transfer levels to
 item.itemXpTransfer.tooltip.detailed.line4=the tank
 
+item.itemFrankenSkull.name=Zombie Electrode
 skullZombieElectrode.name=좀비 전극
 skullZombieController.name=Z-논리 제어기
 skullZombieFrankenstien.name=프랑켄 좀비

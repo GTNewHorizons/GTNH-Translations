@@ -19,8 +19,11 @@ moon.kebe=케베체트
 
 tile.darkMatter.name=암흑물질
 tile.basalt.name=현무암
+tile.rockSlab.0.name=Basalt Slab
+tile.rockDoubleslab.0.name=Basalt Slab
 tile.basalt.slab.name=현무암 반블록
 tile.basalt.stairs.name=현무암 계단
+tile.baseBlockRock.0.name=Block
 tile.basaltcobble.name=현무암 조약돌
 tile.redrock.name=붉은 사암
 tile.redrockcobble.name=붉은 조약돌
@@ -39,7 +42,9 @@ tile.blockUranium.name=우라늄 블록
 tile.mothershipController.name=모선 항해 콘솔
 tile.mothershipController.description=이 블록은 모선의 목적지를 정하는데 사용합니다.
 tile.mothershipEngineRocket.name=로켓 엔진
+tile.machines2.name=Jet
 tile.mothershipEngineRocketJet.name=로켓 엔진 추진기
+tile.msBoosters1.0.name=Base
 tile.mothershipEngineRocketBooster.name=로켓 엔진 기반
 tile.mothershipEngineRocket.description=모선을 움직이기위해 하나 이상을 연이어 설치하고, 한개의 추진기를 설치하세요
 tile.mothershipSettings.name=모선 설정 터미널
@@ -63,8 +68,10 @@ tile.msBaseBlock.name=모선 기초 블록
 tile.mothershipEngineIon.name=이온 추진기
 tile.mothershipEngineRocketBoosterIon.name=이온 추진기 기반
 tile.mothershipEngineRocketJetIon.name=이온 제트 추진기
+tile.machines3.0.name=Machine
 tile.blockScale.name=블록 저울
 tile.blockScale.description=위에 놓인 블록의 질량을 표시합니다. 질량은 모선에 연관됩니다.
+tile.machines4.0.name=Machine
 tile.shuttleDock.name=왕복선 도킹 포트
 tile.shuttleDock.description=모선의 벽이나 우주 정거장에 설치하여 더 쉽게 우주 왕복선을 사용하세요. 왕복선은 다른 쪽에서 도킹할 수 있습니다.
 tile.gravity.name=인공 중력 생성기
@@ -75,15 +82,18 @@ tile.steelChest.name=강철 상자
 tile.steelChest.description=나무 상자의 2배 용량을 지닙니다. 큰 상자로 합쳐질 수 없습니다.
 
 
+tile.oldConcreteOre.0.name=Urbolite
 tile.oldConcrete.name=우르보라이트
 tile.oldConcreteOre.oreSteel.name=강철-우르보라이트
 tile.oldConcreteOre.oreBone.name=화석화된 우르보라이트
 
 
+tile.baseBlockCrystal.0.name=Glowing Coral
 tile.glowCoral.name=빛나는 산호
 tile.obsidianbrick.name=흑요석 벽돌
 tile.obsidianbrick.stairs.name=흑요석 벽돌 계단
 tile.obsidianbrick.slab.name=흑요석 벽돌 반 블록
+tile.baseBlockGround.0.name=Dirt / Crusted Dust
 tile.methanedirt.name=흙
 tile.dustblock.name=굳은 가루
 tile.underwaterBlueGrass.name=심해 조류
@@ -96,24 +106,40 @@ tile.oreTitanium.name=일메나이트 광석
 tile.oreUranium.name=우라늄 광석
 tile.oreSteel.name=강철 광석
 tile.oreBone.name=화석
+tile.asteroidMultiOre1.0.name=Ore
+tile.basaltMultiOre.0.name=Ore
+tile.hardClayMultiOre.0.name=Ore
+tile.obsidianMultiOre.0.name=Ore
 
+tile.basePlant.0.name=Tall Redgrass
 tile.methaneTallGrass.name=큰 붉은잔디
 
+tile.blockFake.0.name=Fake Block
 
+tile.bossSpawner.0.name=Boss Spawner
+
+tile.baseFalling.0.name=Falling Block
 tile.basaltregolith.name=현무암질 표토
 tile.obsidianGravel.name=흑요석 자갈
 tile.obsidianSand.name=흑요석 모래
 
+tile.baseGrass.0.name=Redgrass
 tile.methanegrass.name=붉은잔디
 tile.vacuumRedGrass.name=창백한 붉은잔디
+tile.log1.0.name=Virilig Log
 tile.methanewood.name=벌리그 통나무
 tile.methanePlanks.name=벌리그나무 판자
 tile.methanePlanks.slab.name=벌리그나무 반 블록
 tile.methanePlanks.stairs.name=벌리그나무 계단
+tile.null.0.name=Virilig Leaf
 tile.methaneleaf.name=벌리그 앞
+tile.saplings.0.name=Virilig Sapling
 tile.mTreeSapling.name=벌리그나무 묘목
+tile.wood1.0.name=Lumipod Bark
 tile.podBark.name=루미포드 껍질
 tile.podPlanks.name=루미포드나무 판자
+tile.woodSlab.0.name=Lumipod Slab
+tile.woodDoubleslab.0.name=Lumipod Slab
 tile.podPlanks.slab.name=루미포드나무 반 블록
 tile.podPlanks.stairs.name=루미포드나무 계단
 tile.podleaf.name=루미포드나무 펄프
@@ -127,11 +153,13 @@ tile.hydroponics.noplant=식물 없음
 tile.hydroponics.plantstatus=식물 상태
 
 
+tile.machines1.0.name=Radioisotope Generator
 tile.isotopeGeneratorBasic.name=방사성동위원소 발전기
 tile.isotopeGeneratorAdvanced.name=고급 방사성동위원소 발전기
 tile.isotopeGenerator.description=합성된 방사성 물질의 붕괴로 발생한 열로부터 에너지를 생산합니다. 외부 기온에 따라 에너지의 생산량이 달라집니다. 뜨거워질수록 더 적은 에너지가 생산됩니다. 동위원소의 긴 반감기로 인해, 이 발전기는 영구적인 것으로 간주됩니다. 
 
 
+item.baseItem.name=Resource
 item.baseItem.compressedGold.name=압축된 금
 item.baseItem.goldFoil.name=금 호일
 item.baseItem.transformer.name=변압기
@@ -181,6 +209,7 @@ entity.alienVillagerAR.name=가스트로포드 주민
 entity.alienBug.name=핀서 벌레
 entity.GalacticraftAmunRa.Shuttle.name=우주 왕복선
 item.itemShuttle.name=우주 왕복선
+item.thermalSuit.name=Thermoregulation Armor Piece
 item.thermalSuit.thermalLevel.name=열 레벨: %s
 item.thermalSuit.helmet.name=온도조절 헬멧
 item.thermalSuit.chest.name=온도조절 상의
