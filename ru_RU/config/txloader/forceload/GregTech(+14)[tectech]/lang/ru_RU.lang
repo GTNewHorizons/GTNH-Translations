@@ -18,6 +18,11 @@ tile.reactorSim.name=Симулятор реактора
 tile.reactorSim.desc.0=Разрешитель неопределенности в реакциях деления 9001
 tile.reactorSim.desc.1=Взрывается, но не так сильно...
 
+gt.spacetime_compression_field_generator.name=Spacetime Compression Field Generator
+gt.time_acceleration_field_generator.name=Time Dilation Field Generator
+
+tile.Forge of the Gods Renderer.name=Forge of the Gods Renderer
+
 #Items
 item.em.programmer.name=AVR-программатор
 item.em.programmer.desc.0=Текущий ПК
@@ -67,6 +72,7 @@ item.em.parametrizerMemoryCard.desc.1=Используйте на парамет
 item.em.parametrizerMemoryCard.desc.2=Используйте на параметризаторе/контроллере чтобы сохранить параметры
 item.em.parametrizerMemoryCard.desc.3=Shift+ПКМ чтобы заблокировать/разблокировать
 
+item.tm.teslaCoilCapacitor.name=Tesla Capacitor
 item.tm.teslaCoilCapacitor.0.name=LV Тесла конденсатор
 item.tm.teslaCoilCapacitor.1.name=MV Тесла конденсатор
 item.tm.teslaCoilCapacitor.2.name=HV Тесла конденсатор
@@ -80,10 +86,12 @@ item.tm.teslaCoilCapacitor.desc.2=И все же этот сломанный п�
 item.tm.teslaCoilCapacitor.desc.3=Вставьте это в конденсаторный люк Башни Теслы
 item.tm.teslaCoilCapacitor.desc.4=Конденсаторы работают прямо как аккумулятор, так ведь?
 
+item.tm.itemTeslaComponent.name=Tesla Windings
 item.tm.itemTeslaComponent.0.name=Электриумная обмотка Тесла
 item.tm.itemTeslaComponent.1.name=Сверхпроводниковая обмотка Тесла
 item.tm.itemTeslaComponent.desc=Теслабои охотятся на это!
 
+item.tm.teslaCover.name=Tesla Coil Cover
 item.tm.teslaCover.0.name=Тесла-покрытие
 item.tm.teslaCover.1.name=Тесла-МЕГАпокрытие
 item.tm.teslaCover.desc.0=Заражает механизмы вирусом ТЕСЛА!
@@ -110,6 +118,8 @@ item.tm.itemAstralArrayFabricator.desc0=Parallel dimensions?!
 item.tm.itemAstralArrayFabricator.desc1=Device capable of enhancing the Eye of Harmony's spatial compression,
 item.tm.itemAstralArrayFabricator.desc2=reaching into the space beyond.
 item.tm.itemAstralArrayFabricator.desc3=Allows for recipe parallelism.
+
+item.tm.fakeItemQGP.name=Fake Item
 
 #Death Messages
 death.attack.microwaving=%1$s был дегидратирован под действием радиации.
@@ -546,6 +556,7 @@ gt.blockmachines.hatch.capacitor.desc.0=Для Башни Теслы
 gt.blockmachines.hatch.capacitor.desc.1=Сохраняет энергию (надолго!)
 
 #Casings
+gt.godforgecasing.name=Machine Casing
 gt.blockcasingsNH.10.name=UEV Обшивка механизма
 gt.blockcasingsNH.11.name=UIV Обшивка механизма
 gt.blockcasingsNH.12.name=UMV Обшивка механизма
@@ -575,6 +586,7 @@ gt.blockhintTT.desc.4=Убедитесь, что это не содержит в
 gt.blockhintTT.15.name=Ошибочная подсказка
 gt.blockhintTT.desc.5=ОШИБКА (а что вы ожидали?)
 
+gt.blockcasingsTT.name=Machine Casing
 gt.blockcasingsTT.0.name=Высокоэнергетический корпус
 gt.blockcasingsTT.0.desc.0=Прекрасно подготовлен для высоких энергий.
 gt.blockcasingsTT.0.desc.1=Энергия растёт!
@@ -624,6 +636,7 @@ gt.blockcasingsTT.15.name=Отладочные стороны
 gt.blockcasingsTT.15.desc.0=Ленивый способ определения сторон
 gt.blockcasingsTT.15.desc.1=0, 1, 2, 3, 4, 5, 6?!
 
+gt.blockcasingsBA0.name=Primary Tesla Windings
 gt.blockcasingsBA0.0.name=Первичные обмотки Теслы из сплава красного камня
 gt.blockcasingsBA0.1.name=MV Сверхпроводниковые первичные обмотки Теслы
 gt.blockcasingsBA0.2.name=HV Сверхпроводниковые первичные обмотки Теслы

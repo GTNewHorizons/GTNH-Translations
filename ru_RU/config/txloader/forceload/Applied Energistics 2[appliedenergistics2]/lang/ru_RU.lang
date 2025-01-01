@@ -60,8 +60,12 @@ tile.appliedenergistics2.BlockCraftingAccelerator256x.name=256-х ядерный
 tile.appliedenergistics2.BlockCraftingAccelerator1024x.name=1024-х ядерный сопроцессор создания
 tile.appliedenergistics2.BlockCraftingAccelerator4096x.name=4096-х ядерный сопроцессор создания
 tile.appliedenergistics2.BlockCraftingUnit.name=Блок создания
+tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=Crafting Storage
+tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=Crafting Unit
 tile.appliedenergistics2.BlockMolecularAssembler.name=Молекулярный сборщик
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Матрица оптимизации шаблонов
+tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafting Storage
+tile.appliedenergistics2.BlockPaint.name=Paint
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Ступеньки из резного истинного кварца
@@ -75,13 +79,21 @@ tile.appliedenergistics2.SkyStoneStairBlock.name=Ступеньки из неб�
 
 # Slabs
 tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=Плита из резного истинного кварца
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Chiseled Certus Quartz Slabs
 tile.appliedenergistics2.FluixSlabBlock.name=Изменьчивая плита
+tile.appliedenergistics2.FluixSlabBlock.double.name=Fluix Slabs
 tile.appliedenergistics2.QuartzPillarSlabBlock.name=Плита из колонны истинного кварца
+tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Certus Quartz Pillar Slabs
 tile.appliedenergistics2.QuartzSlabBlock.name=Плита из истинного кварца
+tile.appliedenergistics2.QuartzSlabBlock.double.name=Certus Quartz Slabs
 tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=Плита из блока небесного камня
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Sky Stone Block Slabs
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=Плита из кирпича небесного камня
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Sky Stone Brick Slabs
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=Плита из малого кирпича небесного камня
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Sky Stone Small Brick Slabs
 tile.appliedenergistics2.SkyStoneSlabBlock.name=Плита из небесного камня
+tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Sky Stone Slabs
 
 # Chat Messages
 chat.appliedenergistics2.ChestCannotReadStorageCell=МЭ сундук не может прочитать ячейку хранения.
@@ -601,12 +613,16 @@ item.appliedenergistics2.ItemEncodedPattern.name=Закодированный ш
 item.appliedenergistics2.ItemViewCell.name=Ячейка представления
 item.appliedenergistics2.ItemFacade.name=Кабельный фасад
 
+item.appliedenergistics2.ItemCrystalSeed.name=Seed
 item.appliedenergistics2.ItemCrystalSeed.Certus.name=Семя истинного кварца
 item.appliedenergistics2.ItemCrystalSeed.Nether.name=Семя кварца Нижнего мира
 item.appliedenergistics2.ItemCrystalSeed.Fluix.name=Изменчивое семя
 
 item.appliedenergistics2.ItemPart.InvalidType.name=Отключенный предмет
 item.appliedenergistics2.ItemMaterial.InvalidType.name=Этот предмет отключен.
+
+item.appliedenergistics2.ItemMaterial.name=ME Component
+item.appliedenergistics2.ItemPart.name=ME Cable and/or Bus
 
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=Пустой шаблон
 item.appliedenergistics2.ItemMaterial.FormationCore.name=Ядро формирования
@@ -700,8 +716,6 @@ item.appliedenergistics2.ItemPart.CableGlass.name=МЭ стеклянный ка
 item.appliedenergistics2.ItemPart.CableSmart.name=МЭ умный кабель
 item.appliedenergistics2.ItemPart.CableDense.name=МЭ плотный кабель
 item.appliedenergistics2.ItemPart.CableDenseCovered.name=МЭ покрытый плотный кабель
-item.appliedenergistics2.ItemPart.CableUltraDenseCovered.name=МЭ покрытый магистральный кабель
-item.appliedenergistics2.ItemPart.CableUltraDenseSmart.name=МЭ Магистральный умный кабель
 item.appliedenergistics2.ItemPart.StorageMonitor.name=МЭ монитор хранения
 item.appliedenergistics2.ItemPart.ConversionMonitor.name=МЭ монитор преобразования
 item.appliedenergistics2.ItemPart.SemiDarkMonitor.name=Осветительная панель

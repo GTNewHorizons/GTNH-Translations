@@ -9,22 +9,29 @@ genetics.item.fieldKit.tooltip.noPaper=Отсутствует бумага
 genetics.item.fieldKit.tooltip.sheetsOfPaper=%d бумаги
 genetics.item.fieldKit.tooltip.sheetOfPaper=%d бумага
 
+item.misc.name=Resource
 genetics.item.casingIron.name=Укреплённый корпус
 genetics.item.dnaDye.name=Краситель ДНК
 genetics.item.dyeFluor.name=Флюорофор
 genetics.item.enzyme.name=Фермент
 genetics.item.growthMedium.name=Питательная среда
 genetics.item.sequencerEmpty.name=Пустая последовательность
+item.serum.name=Empty Serum Vial
 genetics.item.serumEmpty.name=Колба без сыворотки
+item.serumArray.name=Empty Serum Array
 genetics.item.genomeEmpty.name=Массив без сыворотки
 genetics.item.cylinderEmpty.name=Пустой баллон
 genetics.item.integratedCircuit.name=Интегральная печатная плата
 genetics.item.integratedCPU.name=Интегральный процессор
 genetics.item.casingCircuit.name=Интегральный корпус
+item.analyst.name=Analyst
 genetics.item.analyst.name=Аналитик
+item.database.name=Gene Database
 genetics.item.database.0.name=Генная база данных
 genetics.item.database.1.name=Генная база данных мастера
+item.registry.name=Registry
 genetics.item.registry.0.name=Картотека
+item.masterRegistry.name=Registry
 genetics.item.registry.1.name=Картотека мастера
 genetics.item.serum.name=Сыворотка (%s)
 genetics.item.serumArray.name=Массив (%s)
@@ -42,6 +49,7 @@ genetics.gene.charge.one=1 заряд
 genetics.gene.charge.many=%d зарядов
 genetics.gene.more=%d генов. Зажмите SHIFT для подробностей
 
+item.sequence.name=DNA Sequence
 genetics.sequence.corrupted=Разрушенная секвенция
 genetics.sequence.descriptor=Секвенцированая ДНК - %s
 genetics.sequence.unknown=<Неизвестно>
@@ -49,6 +57,7 @@ genetics.sequence.unsequenced=Не секвенцировано
 genetics.sequence.fully=Полностью секвенцировано
 genetics.sequence.partially=Частично секвенцировано (%d%%)
 
+tile.machine.name=Isolator
 genetics.machine.machine.isolator=Изолятор
 genetics.machine.machine.isolator.info=Изолятор извлекает случайный ген от пчелы, дерева или другого организма и копирует его в пустой пузырек сыворотки (empty sequence vial). Требуется Этанол для растворения и Фермент для извлечения ДНК. Полученная сыворотка с геном затем может быть усилена в Полимеризаторе и исследована в Секвенсоре.
 genetics.machine.isolator.error.noIndividual=Нет образцов для изоляции
@@ -102,6 +111,7 @@ genetics.machine.genepool.error.noRoom=Нет свободного места в
 genetics.machine.genepool.error.noEthanol=Не хватает этанола
 genetics.machine.genepool.error.insufficientEnzyme=Недостаточно Энзима
 
+tile.labMachine.name=Lab Stand
 genetics.machine.labMachine.labMachine=Лабораторная тумба
 
 genetics.machine.labMachine.analyser=Анализатор
@@ -128,6 +138,7 @@ genetics.machine.acclimatiser.error.noIndividual=Нет образцов для 
 genetics.machine.acclimatiser.error.noAcclimatizingItems=Отсутствуют катализаторы
 genetics.machine.acclimatiser.error.invalidAcclimatizingItems=Невозможно акклиматизировать образец с этими катализаторами
 
+tile.advMachine.name=Splicer
 genetics.machine.advMachine.splicer=Сплайсер
 genetics.machine.advMachine.splicer.info=Сплайсер аналогичен инокулятору, но гораздо быстрее и требует огромную мощность.
 genetics.machine.splicer.error.noIndividual=Нет образца для сращивания

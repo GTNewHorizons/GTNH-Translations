@@ -1,6 +1,8 @@
 ##################################################
 ## Machines
 
+tile.machine.name=Machine
+
 extratrees.machine.kitchen.bar=Бар
 extratrees.machine.kitchen.bottleRack=Стойка для бутылок
 
@@ -159,6 +161,7 @@ extratrees.block.tooltip.twoMaterials=Из %s и %s
 extratrees.block.door.name=Дверь из %1$s
 
 < %1$s is name of wood used for door, %2$s is type of door >
+tile.door.name=Wood Door
 extratrees.block.door.name.adv=%2$s дверь из %1$s
 extratrees.block.door.type.standard=
 extratrees.block.door.type.solid=Плотный
@@ -166,19 +169,24 @@ extratrees.block.door.type.double=Разделенная
 extratrees.block.door.type.full=Плотная
 
 < %1$s is name of the wood>
+tile.planks.name=Wood Planks
 extratrees.block.plank.name=Доски из %1$s
 extratrees.block.log.name=Древесина %1$s
+tile.slabs.name=Wood Slab
 extratrees.block.woodslab.name=Плита из %1$s
+tile.stairs.name=Stairs
 extratrees.block.woodstairs.name=Ступени из %1$s
 extratrees.block.woodfence.name=Забор из %1$s
 extratrees.block.woodgate.name=Калитка из %1$s
 
 < %1$s is the adjective for the fence type, %2$s is the name of the wood >
+tile.multifence.name=Fence
 extratrees.block.multifence.name=%1$s ворота из %2$s
 < %3$s is the name of the second wood >
 extratrees.block.multifence.name2=%2$s забор из %1$s и $3$s
 
 < %1$s is name of the design >
+tile.carpentry.name=Wooden Panel/Tile
 extratrees.block.woodentile.name=Деревянный блок, дизайн %1$s
 extratrees.block.woodenpanel.name=Деревянная панель, дизайн %1$s
 extratrees.block.stainedglass.name=Витражное стекло, дизайн %1$s
@@ -312,14 +320,18 @@ extratrees.genetics.unknown=<Неизвестно>
 extratrees.genetics.discoveredBy=Изучено игроком %s 
 extratrees.genetics.complexity=Сложность: %d 
 
+item.hammer.name=Carpentry Hammer
 extratrees.item.carpentryHammer=Мастерский молоток плотника
+item.durableHammer.name=Master Carpentry Hammer
 extratrees.item.masterCarpentryHammer=Молоток плотника
+item.misc.name=Resource
 extratrees.item.sawdust=Опилки
 extratrees.item.bark=Кора
 extratrees.item.provenGear=Проверенная шестерня
 extratrees.item.woodWax=Полироль
 extratrees.item.glassFitting=Стеклянные фитинги
 
+item.food.name=Fruit
 for.extratrees.item.food.apple=Яблоко
 for.extratrees.item.food.crabapple=Яблоко-дичка
 for.extratrees.item.food.orange=Апельсин
@@ -383,10 +395,12 @@ for.extratrees.item.food.mango=Манго
 for.extratrees.item.food.starfruit=Карамбола
 for.extratrees.item.food.candlenut=Лумбанг
 
+item.database.name=Arborist Database
 extratrees.item.database=База данных лесовода
 extratrees.item.masterDatabase=База данных лесовода-мастера
 extratrees.item.database.tooltip=Sengir-в-банке
 
+item.databaseMoth.name=Lepidopterist Database
 extratrees.item.mothDatabase=База данных бабочковеда
 extratrees.item.mothMasterDatabase=База данных бабочковеда-мастера
 extratrees.item.mothDatabase.tooltip=Эмпиум Binnie о чешуекрылых

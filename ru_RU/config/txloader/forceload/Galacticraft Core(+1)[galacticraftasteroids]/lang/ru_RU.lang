@@ -1,6 +1,7 @@
 # Galacticraft Asteroids Language File = UNITED STATES ENGLISH
 
 # GENERAL ITEMS
+item.itemTier3Rocket.name=Tier 3 Rocket
 item.itemTier3Rocket.t3Rocket.name=Ракета 3-го уровня
 item.itemAstroMiner.name=Астрономический шахтёр
 item.heavyNoseCone.name=Прочный головной обтекатель
@@ -10,6 +11,7 @@ item.shardTitanium.name=Титановый осколок
 item.shardIron.name=Железный осколок
 item.rocketFinsT2.name=Прочный ракетный стабилизатор
 item.engineT2.name=Прочный ракетный двигатель
+item.itemBasicAsteroids.name=Resource
 item.reinforcedPlateT3.name=Сверхпрочное покрытие
 item.grapple.name=Крюк
 item.atmosphericValve.name=Атмосферный клапан
@@ -26,6 +28,7 @@ item.titanium_shovel.name=Титановая лопата
 item.titanium_sword.name=Титановый меч
 
 # ARMOR
+item.thermalPadding.name=Thermal Padding Piece
 item.thermalHelm.name=Теплоустойчивый шлем
 item.thermalChestplate.name=Теплоустойчивая кираса
 item.thermalLeggings.name=Теплоустойчивые поножи
@@ -39,9 +42,11 @@ item.titanium_boots.name=Титановые ботинки
 item.methaneCanisterPartial.name=Канистра для метана
 item.methaneCanister.name=Канистра метана
 item.canister.gas.name=Газ
+item.canisterPartialLOX.name=Canister of Liquid Oxygen
 item.canister.LOX.partial.name=Канистра жидкого кислорода
 item.canister.LOX.full.name=Заполненная канистра жидкого кислорода
 item.canister.LOX.name=ЖК
+item.canisterPartialLN2.name=Canister of Liquid Nitrogen
 item.canister.liquidNitrogen.partial.name=Канистра жидкого азота
 item.canister.liquidNitrogen.full.name=Заполненная канистра жидкого азота
 item.canister.liquidNitrogen.name=Жидкость
@@ -66,6 +71,7 @@ fluid.liquidargon=Жидкий аргон
 fluid.fuel=Топливо
 
 # BLOCKS
+tile.asteroidsBlock.0.name=Asteroid Rock/Ore
 tile.asteroidsBlock.asteroid0.name=Астероидный камень
 tile.asteroidsBlock.asteroid1.name=Астероидный камень
 tile.asteroidsBlock.asteroid2.name=Астероидный камень
@@ -74,12 +80,14 @@ tile.asteroidsBlock.oreIlmenite.name=Ильменитовая руда
 tile.asteroidsBlock.oreAluminum.name=Алюминиевая руда
 tile.beamReflector.name=Лучевой отражатель энергии
 tile.beamReceiver.name=Лучевой приёмник энергии
+tile.telepadFake.name=Short Range Telepad
 tile.telepadShort.name=Короткодистанционный телепорт
 tile.walkway.name=Дорожки
 tile.walkwayWire.name=Дорожки
 tile.walkwayOxygenPipe.name=Дорожки
 tile.treasureT3.name=Сундук с сокровищами 3-го уровня
 tile.denseIce.name=Плотный лёд
+tile.minerBaseFull.name=Astro Miner Base
 tile.minerBase.name=Основание астрономического шахтёра
 
 # GUI
