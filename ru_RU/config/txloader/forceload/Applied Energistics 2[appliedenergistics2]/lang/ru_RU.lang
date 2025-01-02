@@ -60,11 +60,11 @@ tile.appliedenergistics2.BlockCraftingAccelerator256x.name=256-х ядерный
 tile.appliedenergistics2.BlockCraftingAccelerator1024x.name=1024-х ядерный сопроцессор создания
 tile.appliedenergistics2.BlockCraftingAccelerator4096x.name=4096-х ядерный сопроцессор создания
 tile.appliedenergistics2.BlockCraftingUnit.name=Блок создания
-tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=Crafting Storage
-tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=Crafting Unit
+tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=Хранилища создания
+tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=Блок создания
 tile.appliedenergistics2.BlockMolecularAssembler.name=Молекулярный сборщик
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Матрица оптимизации шаблонов
-tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafting Storage
+tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Сингулярное хранилище создания
 tile.appliedenergistics2.BlockPaint.name=Paint
 
 # Stairs
@@ -79,21 +79,21 @@ tile.appliedenergistics2.SkyStoneStairBlock.name=Ступеньки из неб�
 
 # Slabs
 tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=Плита из резного истинного кварца
-tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Chiseled Certus Quartz Slabs
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Плита из резного истинного кварца
 tile.appliedenergistics2.FluixSlabBlock.name=Изменьчивая плита
-tile.appliedenergistics2.FluixSlabBlock.double.name=Fluix Slabs
+tile.appliedenergistics2.FluixSlabBlock.double.name=Изменьчивая плита
 tile.appliedenergistics2.QuartzPillarSlabBlock.name=Плита из колонны истинного кварца
-tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Certus Quartz Pillar Slabs
+tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Плита из колонны истинного кварца
 tile.appliedenergistics2.QuartzSlabBlock.name=Плита из истинного кварца
-tile.appliedenergistics2.QuartzSlabBlock.double.name=Certus Quartz Slabs
+tile.appliedenergistics2.QuartzSlabBlock.double.name=Плита из истинного кварца
 tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=Плита из блока небесного камня
-tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Sky Stone Block Slabs
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Плита из блока небесного камня
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=Плита из кирпича небесного камня
-tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Sky Stone Brick Slabs
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Плита из кирпича небесного камня
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=Плита из малого кирпича небесного камня
-tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Sky Stone Small Brick Slabs
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Плита из малого кирпича небесного камня
 tile.appliedenergistics2.SkyStoneSlabBlock.name=Плита из небесного камня
-tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Sky Stone Slabs
+tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Плита из небесного камня
 
 # Chat Messages
 chat.appliedenergistics2.ChestCannotReadStorageCell=МЭ сундук не может прочитать ячейку хранения.
@@ -129,7 +129,7 @@ chat.appliedenergistics2.PriorityConfigured=Приоритет обновлен 
 chat.appliedenergistics2.DriveLocked=Digital Singularity cells in drive were locked to the current item on them
 chat.appliedenergistics2.ChestLocked=Digital Singularity cell in chest was locked to the current item on it
 chat.appliedenergistics2.FinishCraftingRemind=Работа по крафту %s * %s завершена, всего использовано %s.
-chat.appliedenergistics2.CraftingCantExtract=Can't extract required amount of ingredient from storage: %d / %d | %s
+chat.appliedenergistics2.CraftingCantExtract=Невозможно извлечь необходимое количество ингредиента из хранилища: %d / %d | %s
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -613,7 +613,7 @@ item.appliedenergistics2.ItemEncodedPattern.name=Закодированный ш
 item.appliedenergistics2.ItemViewCell.name=Ячейка представления
 item.appliedenergistics2.ItemFacade.name=Кабельный фасад
 
-item.appliedenergistics2.ItemCrystalSeed.name=Seed
+item.appliedenergistics2.ItemCrystalSeed.name=Семена
 item.appliedenergistics2.ItemCrystalSeed.Certus.name=Семя истинного кварца
 item.appliedenergistics2.ItemCrystalSeed.Nether.name=Семя кварца Нижнего мира
 item.appliedenergistics2.ItemCrystalSeed.Fluix.name=Изменчивое семя
@@ -621,8 +621,8 @@ item.appliedenergistics2.ItemCrystalSeed.Fluix.name=Изменчивое сем�
 item.appliedenergistics2.ItemPart.InvalidType.name=Отключенный предмет
 item.appliedenergistics2.ItemMaterial.InvalidType.name=Этот предмет отключен.
 
-item.appliedenergistics2.ItemMaterial.name=ME Component
-item.appliedenergistics2.ItemPart.name=ME Cable and/or Bus
+item.appliedenergistics2.ItemMaterial.name=МЭ компонент
+item.appliedenergistics2.ItemPart.name=МЭ кабель и/или шина 
 
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=Пустой шаблон
 item.appliedenergistics2.ItemMaterial.FormationCore.name=Ядро формирования
