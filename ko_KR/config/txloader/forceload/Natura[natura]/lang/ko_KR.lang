@@ -10,6 +10,7 @@ item.wartBag.name=네더 와트 봉투
 item.cottonBag.name=목화 씨앗 봉투
 item.boneBag.name=뼛가루 봉투
 
+item.barleyFood.name=Resource
 item.barley.seed.name=보리 씨앗
 item.barley.plant.name=보리
 item.barley.flour.name=보릿가루
@@ -25,56 +26,70 @@ item.powder.sulfur.name=유황
 item.waterdrop.name=선인장 수액
 item.saguaro.fruit.name=사와로 선인장 열매
 
+item.berry.name=Berry
 item.berry.rasp.name=라즈베리
 item.berry.blue.name=블루베리
 item.berry.black.name=블랙베리
 item.berry.geo.name=말로베리
+item.berryMedley.name=Berry Medley
 item.berry.medley.name=베리 화채
+item.berry.nether.name=Nether Berry
 item.berry.blight.name=암흑베리
 item.berry.dusk.name=황혼베리
 item.berry.sky.name=하늘베리
 item.berry.sting.name=따끔베리
 
+tile.berrybush.name=Berry Bush
 block.rasp.berryBush.name=라즈베리 덤불
 block.blue.berryBush.name=블루베리 덤불
 block.black.berryBush.name=블랙베리 덤불
 block.geo.berryBush.name=말로베리 덤불
 
+tile.berrybush.name=Nether Berry Bush
 block.bush.berry.blight.name=암흑베리 덤불
 block.bush.berry.dusk.name=황혼베리 덤불
 block.bush.berry.sky.name=하늘베리 덤불
 block.bush.berry.sting.name=따끔베리 덤불
 
+tile.RareTree.name=Wood
 block.log.maple.name=단풍나무 원목
 block.log.silverbell.name=때죽나무 원목
 block.log.purpleheart.name=아마란스 원목
 block.log.tiger.name=호랑나무 원목
 block.log.willow.name=버드나무 원목
 
+tile.Darktree.name=Wood
 block.log.darkwood.name=암흑나무 원목
 block.log.fusewood.name=퓨즈나무 원목
 
+item.natura.emptybowl.name=Bowl
+item.natura.stewbowl.name=Stew
 item.bowl.mushroom.name=버섯 스튜
 item.bowl.glowshroom.name=발광버섯 스튜
 
+tile.Darkleaves.name=Leaves
 block.leaves.darkwood.name=암흑나무 잎
 block.leaves.darkwood.flowering.name=암흑나무 잎
 block.leaves.darkwood.fruit.name=암흑나무 잎
 block.leaves.fusewood.name=퓨즈나무 잎
 
+item.Natura.netherfood.name=Potash Apple
 item.food.nether.potashapple.name=탄산칼슘 사과
 
+tile.RareLeaves.name=Leaves
 block.leaves.maple.name=단풍 잎
 block.leaves.silverbell.name=때죽나무 잎
 block.leaves.purpleheart.name=아마란스 잎
 block.leaves.tiger.name=호랑나무 잎
 block.leaves.willow.name=버드나무 잎
 
+tile.cloud.name=Cloud
 block.normal.cloud.name=구름
 block.dark.cloud.name=먹구름
 block.ash.cloud.name=재구름
 block.sulfur.cloud.name=유황구름
 
+item.redwoodDoorItem.name=Door
 redwoodNDoor.name=삼나무 문
 eucalyptusNDoor.name=유칼립투스 문
 hopseedNDoor.name=호프씨 문
@@ -83,10 +98,12 @@ ghostNDoor.name=유령나무 문
 bloodNDoor.name=피 유칼립투스 문
 redwoodBarkNDoor.name=삼나무 껍질 문
 
+tile.natura.redwood.name=Redwood
 block.bark.redwood.name=삼나무 껍질
 block.heart.redwood.name=삼나무 원목
 block.root.redwood.name=삼나무 뿌리
 
+tile.natura.planks.name=Planks
 block.eucalyptus.NPlanks.name=유칼립투스 판자
 block.sakura.NPlanks.name=벚나무 판자
 block.ghost.NPlanks.name=유령나무 판자
@@ -101,6 +118,8 @@ block.willow.NPlanks.name=버드나무 판자
 block.darkwood.NPlanks.name=암흑나무 판자
 block.fusewood.NPlanks.name=퓨즈나무 판자
 
+tile.natura.sapling.name=Sapling
+tile.RareSapling.name=Sapling
 block.sapling.eucalyptus.name=유칼립투스 묘목
 block.sapling.sakura.name=벚나무 묘목
 block.sapling.ghost.name=유령나무 묘목
@@ -115,6 +134,8 @@ block.sapling.maple.name=단풍나무 묘목
 block.sapling.purpleheart.name=아마란스 묘목
 block.sapling.silverbell.name=때죽나무 묘목
 
+tile.plankSlab1.name=Slab
+tile.plankSlab2.name=Slab
 block.wood.eucalyptus.slab.name=유칼립투스 판자 반 블럭
 block.wood.sakura.slab.name=벚나무 판자 반 블럭
 block.wood.ghost.slab.name=유령나무 판자 반 블럭
@@ -230,13 +251,17 @@ tile.furnace.netherrack.name=지옥 화로
 tile.nether.obelisk.name=오벨리스크
 tile.nether.hopper.name=깔대기
 
+tile.nether.glass.name=Nether Glass
 tile.glass.soul.name=영혼 유리
 tile.glass.heat.name=열 유리
 
+tile.Glowshroom.name=Glowshroom
 block.glowshroom.green.name=초록색 발광버섯
 block.glowshroom.purple.name=보라색 발광버섯
 block.glowshroom.blue.name=파란색 발광버섯
 
+tile.natura.leaves.name=Leaves
+tile.natura.leavesnocolor.name=Leaves
 block.eucalyptus.NLeaves.name=유칼립투스 잎
 block.leaves.sakura.name=벚나무 잎
 block.leaves.ghost.name=유령나무 잎
@@ -244,6 +269,7 @@ block.bush.NLeaves.name=호프씨나무 잎
 block.redwood.NLeaves.name=삼나무 잎
 block.leaves.blood.name=피 유칼립투스 잎
 
+tile.natura.treeblock.name=Wood
 block.eucalyptus.log.name=유칼립투스 원목
 block.sakura.log.name=벚나무 원목
 block.ghost.log.name=유령나무 원목
@@ -254,12 +280,15 @@ bloodBoat.name=피 유칼립투스 보트
 whiteBoat.name=흰색 보트
 eucalyptusBoat.name=유칼립투스 보트
 
+item.impmeat.name=Imphide
 item.impmeat.raw.name=생 임프고기
 item.impmeat.cooked.name=구운 임프고기
 
+tile.GrassBlock.name=Grass
 block.soil.grass.name=장식된 잔디
 block.soil.bluegrass.name=파란 잔디
 block.soil.autumngrass.name=가을 잔디
+tile.GrassSlab.name=Grass Slab
 block.soil.grass.slab.name=장식된 잔디 반 블럭
 block.soil.bluegrass.slab.name=파란잔디 반 블럭
 block.soil.autumngrass.slab.name=가을 잔디 반 블럭

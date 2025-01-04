@@ -12,6 +12,7 @@ tb.rec.enchantments.vaporising=증발 마법이 부여된 무기는 해당 무�
 #blocks
 tile.quicksilverBlock.name=수은 블록
 tile.quicksilverBrick.name=수은 벽돌
+tile.crystalBlock.name=Crystal Block
 tile.crystalBlockfire.name=파이어 크리스발 블록
 tile.crystalBlockwater.name=워터 크리스탈 블록
 tile.crystalBlockearth.name=어스 크리스탈 블록
@@ -41,6 +42,7 @@ tile.glieonia.name=글리오니아 작물
 tile.briar.name=찔레
 tile.tobacco.name=담배 작물
 tile.voidPlant.name=공허 작물
+tile.spike.name=Spikes
 tile.spikeiron.name=쇠못
 tile.spikethaumic.name=사우믹못
 tile.spikevoid.name=공허못
@@ -60,6 +62,7 @@ tile.TBoldLapis.name=고대 청금석 블록
 tile.TBoldBricks.name=고대 벽돌
 tile.nodeManipulator.name=노드 조작기
 
+tile.tb.slab..name=Slab
 tile.tb.slab.tile.TBoldLapis.name=고대 청금석 반 블록
 tile.tb.slab.tile.TBoldIron.name=고대 철 반 블록
 tile.tb.slab.tile.TBoldGold.name=고대 금 반 블록
@@ -69,6 +72,7 @@ tile.tb.slab.tile.TBoldBricks.name=고대 벽돌 반 블록
 tile.tb.slab.tile.TBoldCobblestoneMossy.name=고대 이끼낀 조약돌 반 블록
 tile.tb.slab.tile.eldritchArk.name=Gold Etched Obsidian Slab
 
+tile.tb.crystalslab..name=Crystal Slab
 tile.tb.crystalslab.air.name=Air Crystal Slab
 tile.tb.crystalslab.water.name=Water Crystal Slab
 tile.tb.crystalslab.fire.name=Fire Crystal Slab
@@ -80,9 +84,11 @@ tile.tb.crystalslab.tainted.name=Tainted Crystal Slab
 
 tile.thaumicRelocator.name=Thaumic Relocator
 tile.tb.voidblock.name=Void metal Block
+tile.thaumicAnvil.name=Thaumium Anvil
 tile.thaumicAnvil.intact.name=사우뮴 모루
 tile.thaumicAnvil.slightlyDamaged.name=Slightly Damaged Thaumium Anvil
 tile.thaumicAnvil.veryDamaged.name=Very Damaged Thaumium Anvil
+tile.voidAnvil.name=Void metal Anvil
 tile.voidAnvil.intact.name=공허 금속 모루
 tile.voidAnvil.slightlyDamaged.name=Slightly Damaged Void metal Anvil
 tile.voidAnvil.veryDamaged.name=Very Damaged Void metal Anvil
@@ -99,6 +105,7 @@ tile.enderTreeLeaves.name=엔더 나뭇잎
 tile.enderPlanks.name=엔더 나무 판자
 
 #items
+item.resource.name=Resource
 item.resourcenuggetthauminite.name=Thauminite Nugget
 item.resourcethauminite.thauminite_ingot.name=Thauminite Ingot
 item.resourcethaumium_wand_core.name=사우뮴 완드 코어
@@ -128,6 +135,7 @@ item.plaxSeeds.name=플렉스 씨앗
 item.metalleatSeeds.name=메탈릿 씨앗
 item.lucriteSeeds.name=루크라이트 씨앗
 item.knoseSeed.name=로사 미스테리아 새싹
+item.knoseFragment..name=Fragment
 item.knoseFragment.fire.name=이그니스 조각
 item.knoseFragment.aqua.name=아쿠아 조각
 item.knoseFragment.terra.name=테라 조각
@@ -144,6 +152,7 @@ item.rosehipSyrup.name=로즈힙 시
 
 item.greatwoodPipe.name=Greatwood Smoking Pipe
 item.silverwoodPipe.name=Silverwood Smoking Pipe
+item.tobacco.name=Tobacco Pile
 item.tobacco.tobacco_pile.name=Tobacco Pile
 item.tobacco.tobacco_eldritch.name=Eldritch Tobacco Pile
 item.tobacco.tobacco_fighting.name=Angry Tobacco Pile
@@ -168,6 +177,7 @@ item.fluxFoci.name=Wand Focus: Flux Scrubber
 item.drainFoci.name=Wand Focus: Liquid Drain
 item.experienceFoci.name=Wand Focus: Experience
 
+item.nodeFoci..name=§eNode Manipulator Focus
 item.nodeFoci.speed.name=§eNode Manipulator Focus: Speed
 item.nodeFoci.brightness.name=§eNode Manipulator Focus: Brightness
 item.nodeFoci.destruction.name=§eNode Manipulator Focus: Destruction
@@ -568,6 +578,7 @@ tile.tb.brazier.name=Brazier of Warding
 
 #Items
 item.tb.revolver.name=Thaumaturge's Revolver
+item.tb.bracelet.name=Bracelet
 item.tb.bracelet.iron=Iron Bracelet
 item.tb.bracelet.gold=Gold Bracelet
 item.tb.bracelet.greatwood=Greatwood Bracelet
