@@ -213,9 +213,11 @@ item.railcraft.nugget.steel.name=Pepita de Acero
 item.railcraft.nugget.tin.name=Pepita de Estaño
 
 item.railcraft.part.bleached.clay.name=Arcilla Blanqueada
+item.railcraft.part.circuit.name=Circuit
 item.railcraft.part.circuit.controller.name=Circuito de Control
 item.railcraft.part.circuit.receiver.name=Circuito Receptor
 item.railcraft.part.circuit.signal.name=Circuito de Señal
+item.railcraft.part.gear.name=Gear
 item.railcraft.part.gear.bushing.name=Buje para Engranaje de Estaño
 item.railcraft.part.gear.gold.plate.name=Engranaje de Oro-Plata
 item.railcraft.part.gear.iron.name=Engranaje de Hierro
@@ -225,16 +227,19 @@ item.railcraft.part.plate.iron.name=Placa de Hierro
 item.railcraft.part.plate.lead.name=Lead Plate
 item.railcraft.part.plate.steel.name=Placa de Acero
 item.railcraft.part.plate.tin.name=Placa de Estaño
+item.railcraft.part.rail.name=Rail
 item.railcraft.part.rail.advanced.name=Riel Avanzado
 item.railcraft.part.rail.electric.name=Riel Eléctrico
 item.railcraft.part.rail.reinforced.name=Riel Reforzado
 item.railcraft.part.rail.speed.name=Riel AltaVelocidad
 item.railcraft.part.rail.standard.name=Riel Estándar
 item.railcraft.part.rail.wood.name=Riel de Madera
+item.railcraft.part.railbed.name=Railbed
 item.railcraft.part.railbed.stone.name=Base de Piedra para Rieles
 item.railcraft.part.railbed.wood.name=Base de Madera para Rieles
 item.railcraft.part.rebar.name=Barras de Refuerzo
 item.railcraft.part.signal.lamp.name=Lampara de Señal
+item.railcraft.part.tie.name=Tie
 item.railcraft.part.tie.stone.name=Amarre de Piedra
 item.railcraft.part.tie.wood.name=Amarre de Madera
 item.railcraft.part.turbine.blade.name=Cuchillas para Turbina
@@ -631,10 +636,12 @@ tile.detectorRail.name=Vía Detectora
 tile.goldenRail.name=Vía Energizada
 tile.rail.name=Vía
 
+tile.railcraft.anvil.name=Steel Anvil
 tile.railcraft.anvil.intact.name=Yunque de Acero
 tile.railcraft.anvil.slightlyDamaged.name=Yunque Ligeramente Dañado
 tile.railcraft.anvil.veryDamaged.name=Yunque Muy Dañado
 
+tile.railcraft.brick.abyssal.name=Abyssal Block
 tile.railcraft.brick.abyssal.block.name=Bloque Abisal
 tile.railcraft.brick.abyssal.brick.name=Ladrillos Abisales
 tile.railcraft.brick.abyssal.cobble.name=Adoquín Abisal
@@ -642,6 +649,7 @@ tile.railcraft.brick.abyssal.etched.name=Piedra Abisal Grabada
 tile.railcraft.brick.abyssal.fitted.name=Piedra Abisal Entallada
 tile.railcraft.brick.abyssal.ornate.name=Piedra Abisal Ornamentada
 
+tile.railcraft.brick.bleachedbone.name=Bleached Bone Block
 tile.railcraft.brick.bleachedbone.block.name=Bloque de Hueso Desteñido
 tile.railcraft.brick.bleachedbone.brick.name=Ladrillos de Hueso Desteñido
 tile.railcraft.brick.bleachedbone.cobble.name=Adoquín de Hueso Desteñido
@@ -649,6 +657,7 @@ tile.railcraft.brick.bleachedbone.etched.name=Piedra de Hueso Desteñido Grabada
 tile.railcraft.brick.bleachedbone.fitted.name=Piedra de Hueso Desteñido Entallada
 tile.railcraft.brick.bleachedbone.ornate.name=Piedra de Hueso Desteñido Ornamentada
 
+tile.railcraft.brick.bloodstained.name=Blood Stained Block
 tile.railcraft.brick.bloodstained.block.name=Bloque Manchado con Sangre
 tile.railcraft.brick.bloodstained.brick.name=Ladrillos Manchado con Sangre
 tile.railcraft.brick.bloodstained.cobble.name=Adoquín Manchado con Sangre
@@ -656,6 +665,7 @@ tile.railcraft.brick.bloodstained.etched.name=Piedra Manchado con Sangre Grabada
 tile.railcraft.brick.bloodstained.fitted.name=Piedra Manchada con Sangre Entallada
 tile.railcraft.brick.bloodstained.ornate.name=Piedra Manchada con Sangre Ornamentada
 
+tile.railcraft.brick.frostbound.name=Frost Bound Block
 tile.railcraft.brick.frostbound.block.name=Bloque de Hielo atado
 tile.railcraft.brick.frostbound.brick.name=Ladrillos de Hielo atado
 tile.railcraft.brick.frostbound.cobble.name=Adoquín de Hielo atado
@@ -663,6 +673,7 @@ tile.railcraft.brick.frostbound.etched.name=Piedra de Hielo atado Grabada
 tile.railcraft.brick.frostbound.fitted.name=Piedra de Hielo atado Entallada
 tile.railcraft.brick.frostbound.ornate.name=Piedra de Hielo atado Ornamentado
 
+tile.railcraft.brick.infernal.name=Infernal Block
 tile.railcraft.brick.infernal.block.name=Bloque Infernal
 tile.railcraft.brick.infernal.brick.name=Ladrillos Infernales
 tile.railcraft.brick.infernal.cobble.name=Adoquín Infernal
@@ -670,12 +681,14 @@ tile.railcraft.brick.infernal.etched.name=Piedra Infernal Grabada
 tile.railcraft.brick.infernal.fitted.name=Piedra Infernal Entallada
 tile.railcraft.brick.infernal.ornate.name=Piedra Infernal Ornamentada
 
+tile.railcraft.brick.nether.name=Nether Block
 tile.railcraft.brick.nether.block.name=Bloque del Inframundo
 tile.railcraft.brick.nether.cobble.name=Adoquín del Inframundo
 tile.railcraft.brick.nether.etched.name=Piedra del Inframundo Grabada
 tile.railcraft.brick.nether.fitted.name=Piedra del Inframundo Entallada
 tile.railcraft.brick.nether.ornate.name=Piedra del Inframundo Ornamentada
 
+tile.railcraft.brick.quarried.name=Quarried Block
 tile.railcraft.brick.quarried.block.name=Bloque de Cantera
 tile.railcraft.brick.quarried.brick.name=Ladrillos de Cantera
 tile.railcraft.brick.quarried.cobble.name=Adoquín de Cantera
@@ -683,6 +696,7 @@ tile.railcraft.brick.quarried.etched.name=Piedra de Cantera Grabada
 tile.railcraft.brick.quarried.fitted.name=Piedra de Cantera Entallada
 tile.railcraft.brick.quarried.ornate.name=Piedra de Cantera Ornamentada
 
+tile.railcraft.brick.sandy.name=Sandy Block
 tile.railcraft.brick.sandy.block.name=Bloque Arenoso
 tile.railcraft.brick.sandy.brick.name=Ladrillo Arenoso
 tile.railcraft.brick.sandy.cobble.name=Adoquín Arenoso
@@ -690,6 +704,7 @@ tile.railcraft.brick.sandy.etched.name=Piedra Arenosa Grabada
 tile.railcraft.brick.sandy.fitted.name=Piedra Arenosa Entallada
 tile.railcraft.brick.sandy.ornate.name=Piedra Arenosa Ornamentada
 
+tile.railcraft.cube.name=Block
 tile.railcraft.cube.brick.infernal.name=Ladrillos Infernales (Obsoleto)
 tile.railcraft.cube.brick.sandy.name=Bloque Arenoso (Obsoleto)
 tile.railcraft.cube.coke.name=Bloque de Fuel de Carbón
@@ -705,6 +720,7 @@ tile.railcraft.cube.stone.abyssal.name=Piedra Abismal
 tile.railcraft.cube.stone.quarried.name=Piedra de Cantera
 tile.railcraft.cube.tin.name=Bloque de Estaño
 
+tile.railcraft.detector.name=Detector
 tile.railcraft.detector.advanced.name=Detector - Avanzado
 tile.railcraft.detector.age.name=Detector - Era
 tile.railcraft.detector.animal.name=Detector - Animal
@@ -734,6 +750,7 @@ tile.railcraft.frame.tip=Úsalo para poner vías sobre el cable
 
 tile.railcraft.glass.name=Vidrio Endurecido
 
+tile.railcraft.machine.alpha.name=Machine
 tile.railcraft.machine.alpha.anchor.admin.name=Ancla de Administrador
 tile.railcraft.machine.alpha.anchor.passive.name=Passive Anchor
 tile.railcraft.machine.alpha.anchor.personal.name=Ancla Personal
@@ -757,6 +774,7 @@ tile.railcraft.machine.alpha.trade.station.name=Estación de Comercio
 tile.railcraft.machine.alpha.turbine.name=Cubierta para Turbina a Vapor
 tile.railcraft.machine.alpha.turbine.tip=Multi-Bloque: 3x2x2\n Genera electricidad con vapor\n Vierte agua por el fondo\n Requiere un Rotor de Turbina
 
+tile.railcraft.machine.beta.name=Machine
 tile.railcraft.machine.beta.anchor.sentinel.name=Ancla Centinela
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Caldera de Combustión - Líquidos
 tile.railcraft.machine.beta.boiler.firebox.liquid.tip=Multi-Bloque: Tamaño Variable, Capa Inferior\n Dimensiones: 1x1, 2x2, 3x3
@@ -789,9 +807,11 @@ tile.railcraft.machine.beta.tank.steel.valve.tip=Multi-Bloque: Debe ser las ulti
 tile.railcraft.machine.beta.tank.steel.wall.name=Pared para Tanque de Acero
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multi-Bloque: Tamaño Variable, hueco\n Altura: 4, 5, 6, 7, 8\n Diámetros: 3, 5, 7, 9
 
+tile.railcraft.machine.delta.name=Electric Shunting Wire
 tile.railcraft.machine.delta.wire.name=Cable eléctrico de cambio de vía
 tile.railcraft.machine.delta.wire.tip=Conecta vías eléctricas a través de los huecos\n Ponlo debajo de la vía usando el Marco de soporte de Cables
 
+tile.railcraft.machine.epsilon.name=Machine
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Generador de Vapor de Admin
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=Produce vapor ilimitado
 tile.railcraft.machine.epsilon.electric.feeder.admin.name=Unidad de alimentación de Admin
@@ -804,6 +824,7 @@ tile.railcraft.machine.epsilon.flux.transformer.tip=Multi-Bloque: 2x2x2\n Convie
 tile.railcraft.machine.epsilon.force.track.emitter.name=Emisor de vías de fuerza
 tile.railcraft.machine.epsilon.force.track.emitter.tip=Transmite a vías basadas en energía
 
+tile.railcraft.machine.gamma.name=Machine
 tile.railcraft.machine.gamma.dispenser.cart.name=Dispensador de Vagonetas
 tile.railcraft.machine.gamma.dispenser.cart.tip=Dispensa vagonetas en vías\n§o§9- Golpea con la palanca para cambiar la orientación -\n§o§c- Aplica Redstone para dispensar una vagoneta -
 tile.railcraft.machine.gamma.dispenser.train.name=Dispensador de Trenes
@@ -835,6 +856,7 @@ railcraft.gui.tank.titanium=Tanque de Titanio
 railcraft.gui.tank.tungstensteel=Tanque de Acero de Wolframio
 railcraft.gui.tank.palladium=Tanque de Paladio
 
+tile.railcraft.machine.zeta.name=Tank
 tile.railcraft.machine.zeta.tank.aluminium.gauge.name=Aluminium Tank Gauge
 tile.railcraft.machine.zeta.tank.aluminium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
 tile.railcraft.machine.zeta.tank.aluminium.valve.name=Aluminium Tank Valve
@@ -870,6 +892,7 @@ railcraft.gui.tank.iridium=Tanque de Iridio
 railcraft.gui.tank.osmium=Tanque de Osmio
 railcraft.gui.tank.neutronium=Tanque de Neutronio
 
+tile.railcraft.machine.eta.name=Tank
 tile.railcraft.machine.eta.tank.iridium.gauge.name=Iridium Tank Gauge
 tile.railcraft.machine.eta.tank.iridium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
 tile.railcraft.machine.eta.tank.iridium.valve.name=Iridium Tank Valve
@@ -889,6 +912,7 @@ tile.railcraft.machine.eta.tank.neutronium.valve.tip=Multi-Block: Must be in bot
 tile.railcraft.machine.eta.tank.neutronium.wall.name=Neutronium Tank Wall
 tile.railcraft.machine.eta.tank.neutronium.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
 
+tile.railcraft.ore.name=Ore
 tile.railcraft.ore.dark.diamond.name=Mineral de Diamante Oscuro
 tile.railcraft.ore.dark.emerald.name=Mineral de Esmeralda Oscura
 tile.railcraft.ore.dark.lapis.name=Mineral de Lapislázuli Oscuro
@@ -903,6 +927,7 @@ tile.railcraft.ore.saltpeter.name=Mineral de Salitre
 tile.railcraft.ore.sulfur.name=Mineral de Azufre
 
 tile.railcraft.post.emblem.name=Poste de Emblema
+tile.railcraft.post.metal.name=Metal Post
 tile.railcraft.post.metal.black.name=Poste de Metal Negro
 tile.railcraft.post.metal.blue.name=Poste de Metal Azul
 tile.railcraft.post.metal.brown.name=Poste de Metal Marrón
@@ -916,6 +941,7 @@ tile.railcraft.post.metal.magenta.name=Poste de Metal Magenta
 tile.railcraft.post.metal.unpainted.name=Poste de Metal
 tile.railcraft.post.metal.orange.name=Poste de Metal Naranja
 tile.railcraft.post.metal.pink.name=Poste de Metal Rosa
+tile.railcraft.post.metal.platform.name=Metal Platform
 tile.railcraft.post.metal.platform.black.name=Plataforma de Metal Negro
 tile.railcraft.post.metal.platform.blue.name=Plataforma de Metal Azul
 tile.railcraft.post.metal.platform.brown.name=Plataforma de Metal Marrón
@@ -939,11 +965,13 @@ tile.railcraft.post.metal.white.name=Poste de Metal Blanco
 tile.railcraft.post.metal.yellow.name=Poste de Metal Amarillo
 tile.railcraft.post.stone.name=Poste de Piedra
 tile.railcraft.post.stone.platform.name=Plataforma de Piedra
+tile.railcraft.post.name=Wooden Post
 tile.railcraft.post.wood.name=Poste de Madera
 tile.railcraft.post.wood.platform.name=Plataforma de Madera
 
 tile.railcraft.residual.heat.name=Calor Residual
 
+tile.railcraft.signal.name=Signal
 tile.railcraft.signal.block.signal.dual.name=Bloque de Señal Doble-Cabeza
 tile.railcraft.signal.block.signal.dual.tip=Detects Carts in Signal Block\nDisplays aspect of linked Controller\n§o§9Aerial Linkages:\n§o§9- 1x Signal Blocks\n§o§9- 1x Controller\n§o§9- 1x Receiver\n§o§cRelevant Tools:\n§o§c- Signal Tuner\n§o§c- Signal Block Surveyor
 tile.railcraft.signal.block.signal.name=Bloque de Señal
@@ -973,6 +1001,7 @@ tile.railcraft.signal.switch.motor.tip=Controls adjacent Switch Tracks\n§o§9Ae
 tile.railcraft.signal.switch.routing.name=Motor de Cambio de Ruta
 tile.railcraft.signal.switch.routing.tip=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
 
+tile.railcraft.slab.name=Slab
 tile.railcraft.slab.abyssal.block.name=Losa de Bloque Abismal
 tile.railcraft.slab.abyssal.brick.name=Losa de Ladrillos Abismales
 tile.railcraft.slab.abyssal.cobble.name=Losa de Adoquín Abismal
@@ -1018,6 +1047,7 @@ tile.railcraft.slab.snow.name=Losa de Nieve
 tile.railcraft.slab.steel.name=Losa de Acero
 tile.railcraft.slab.tin.name=Losa de Estaño
 
+tile.railcraft.stair.name=Stairs
 tile.railcraft.stair.abyssal.block.name=Escalera de Bloque Abismal
 tile.railcraft.stair.abyssal.brick.name=Escalera de Ladrillos Abismales
 tile.railcraft.stair.abyssal.cobble.name=Escalera de Adoquín Abismal
@@ -1063,6 +1093,7 @@ tile.railcraft.stair.snow.name=Escalera de Nieve
 tile.railcraft.stair.steel.name=Escalera de Acero
 tile.railcraft.stair.tin.name=Escalera de Estaño
 
+tile.railcraft.lantern.metal.name=Lantern
 tile.railcraft.lantern.metal.copper.name=Linterna de Cobre
 tile.railcraft.lantern.metal.gold.name=Linterna de Oro
 tile.railcraft.lantern.metal.iron.name=Linterna de Hierro
@@ -1070,6 +1101,7 @@ tile.railcraft.lantern.metal.lead.name=Linterna de Plomo
 tile.railcraft.lantern.metal.steel.name=Linterna de Acero
 tile.railcraft.lantern.metal.tin.name=Linterna de Estaño
 
+tile.railcraft.lantern.stone.name=Stone Lantern
 tile.railcraft.lantern.stone.abyssal.name=Linterna de Piedra Abisal
 tile.railcraft.lantern.stone.bleachedbone.name=Linterna de Piedra con Hueso Desteñido
 tile.railcraft.lantern.stone.bloodstained.name=Linterna de Piedra manchada de Sangre
@@ -1081,6 +1113,7 @@ tile.railcraft.lantern.stone.sandstone.name=Linterna de Piedra Arenisca
 tile.railcraft.lantern.stone.sandy.name=Linterna de Piedra Arenosa
 tile.railcraft.lantern.stone.stone.name=Linterna de Piedra
 
+tile.railcraft.track.name=Track
 tile.railcraft.track.boarding.name=Vía de Embarque
 tile.railcraft.track.boarding.tip=Sustituido por Vía de Bloqueo
 tile.railcraft.track.boarding.train.name=Vía de Estacionamiento para Trenes
@@ -1178,6 +1211,8 @@ tile.railcraft.track.wye.tip=§o§c- Requiere Motor/Palanca de Cambio para cambi
 tile.railcraft.track.autolococoupler.name=Automatic Locomotive Coupler
 tile.railcraft.track.autolococoupler.tip=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- Apply Redstone to enable -
 
+tile.railcraft.wall.alpha.name=Wall
+tile.railcraft.wall.beta.name=Wall
 tile.railcraft.wall.abyssal.brick.name=Pared de Ladrillos Abismales
 tile.railcraft.wall.bleachedbone.brick.name=Pared de Ladrillos de Hueso Desteñido
 tile.railcraft.wall.bloodstained.brick.name=Pared de Ladrillos Manchados con Sangre

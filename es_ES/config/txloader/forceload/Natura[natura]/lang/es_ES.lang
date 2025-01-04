@@ -10,6 +10,7 @@ item.wartBag.name=Bolsa de Verruga Abisal
 item.cottonBag.name=Bolsa de Semillas de Algodón
 item.boneBag.name=Bolsa de Polvo de Hueso
 
+item.barleyFood.name=Resource
 item.barley.seed.name=Semilas de Cebada
 item.barley.plant.name=Cebada
 item.barley.flour.name=Harina de Cebada
@@ -25,56 +26,70 @@ item.powder.sulfur.name=Azufre
 item.waterdrop.name=Zumo de Cactus
 item.saguaro.fruit.name=Fruta de Saguaro
 
+item.berry.name=Berry
 item.berry.rasp.name=Frambuesa
 item.berry.blue.name=Arándano
 item.berry.black.name=Zarzamora
 item.berry.geo.name=Malomora
+item.berryMedley.name=Berry Medley
 item.berry.medley.name=Macedonia de Bayas
+item.berry.nether.name=Nether Berry
 item.berry.blight.name=Plagabaya
 item.berry.dusk.name=Ocasobaya
 item.berry.sky.name=Cielobaya
 item.berry.sting.name=Pinchobaya
 
+tile.berrybush.name=Berry Bush
 block.rasp.berryBush.name=Arbusto de Frambuesas
 block.blue.berryBush.name=Arbusto de Arándanos
 block.black.berryBush.name=Arbusto de Zarzamoras
 block.geo.berryBush.name=Arbusto de Malobayas
 
+tile.berrybush.name=Nether Berry Bush
 block.bush.berry.blight.name=Arbusto de Plagabayas
 block.bush.berry.dusk.name=Arbusto de Ocasobayas
 block.bush.berry.sky.name=Arbusto de Cielobayas
 block.bush.berry.sting.name=Arbusto de Pinchobayas
 
+tile.RareTree.name=Wood
 block.log.maple.name=Madera de Arce
 block.log.silverbell.name=Madera de Halesia
 block.log.purpleheart.name=Madera de Amaranto
 block.log.tiger.name=Madera de Embero
 block.log.willow.name=Madera de Sauce
 
+tile.Darktree.name=Wood
 block.log.darkwood.name=Madera Sombría
 block.log.fusewood.name=Mechadera
 
+item.natura.emptybowl.name=Bowl
+item.natura.stewbowl.name=Stew
 item.bowl.mushroom.name=Estofado de Setas
 item.bowl.glowshroom.name=Estofado de Brillasetas
 
+tile.Darkleaves.name=Leaves
 block.leaves.darkwood.name=Hojas de Madera Sombría
 block.leaves.darkwood.flowering.name=Hojas de Madera Sombría
 block.leaves.darkwood.fruit.name=Hojas de Madera Sombría
 block.leaves.fusewood.name=Hojas de Mechadera
 
+item.Natura.netherfood.name=Potash Apple
 item.food.nether.potashapple.name=Manzana de Potasa
 
+tile.RareLeaves.name=Leaves
 block.leaves.maple.name=Hojas de Arce
 block.leaves.silverbell.name=Hojas de Halesia
 block.leaves.purpleheart.name=Hojas de Amaranto
 block.leaves.tiger.name=Hojas de Embero
 block.leaves.willow.name=Hojas de Sauce
 
+tile.cloud.name=Cloud
 block.normal.cloud.name=Nube
 block.dark.cloud.name=Nube Oscura
 block.ash.cloud.name=Nube de Ceniza
 block.sulfur.cloud.name=Nube de Azufre
 
+item.redwoodDoorItem.name=Door
 redwoodNDoor.name=Puerta de Secuoya Gigante
 eucalyptusNDoor.name=Puerta de Eucalipto
 hopseedNDoor.name=Puerta de Jarilla
@@ -83,10 +98,12 @@ ghostNDoor.name=Puerta de Madera Fantasmal
 bloodNDoor.name=Puerta de Madera Sangrienta
 redwoodBarkNDoor.name=Puerta de Corteza de Secuoya Gigante
 
+tile.natura.redwood.name=Redwood
 block.bark.redwood.name=Corteza de Secuoya Gigante
 block.heart.redwood.name=Secuoya Gigante
 block.root.redwood.name=Raíz de Secuoya Gigante
 
+tile.natura.planks.name=Planks
 block.eucalyptus.NPlanks.name=Tablas de Eucalipto
 block.sakura.NPlanks.name=Sakura Planks
 block.ghost.NPlanks.name=Ghostwood Planks
@@ -101,6 +118,8 @@ block.willow.NPlanks.name=Willow Planks
 block.darkwood.NPlanks.name=Darkwood Planks
 block.fusewood.NPlanks.name=Fusewood Planks
 
+tile.natura.sapling.name=Sapling
+tile.RareSapling.name=Sapling
 block.sapling.eucalyptus.name=Eucalyptus Sapling
 block.sapling.sakura.name=Sakura Sapling
 block.sapling.ghost.name=Ghostwood Sapling
@@ -115,6 +134,8 @@ block.sapling.maple.name=Maple Sapling
 block.sapling.purpleheart.name=Amaranth Sapling
 block.sapling.silverbell.name=Silverbell Sapling
 
+tile.plankSlab1.name=Slab
+tile.plankSlab2.name=Slab
 block.wood.eucalyptus.slab.name=Eucalyptus Slab
 block.wood.sakura.slab.name=Sakura Slab
 block.wood.ghost.slab.name=Ghostwood Slab
@@ -230,13 +251,17 @@ tile.furnace.netherrack.name=Nether Furnace
 tile.nether.obelisk.name=Obelisk
 tile.nether.hopper.name=Hopper
 
+tile.nether.glass.name=Nether Glass
 tile.glass.soul.name=Soul Glass
 tile.glass.heat.name=Heat Glass
 
+tile.Glowshroom.name=Glowshroom
 block.glowshroom.green.name=Green Glowshroom
 block.glowshroom.purple.name=Purple Glowshroom
 block.glowshroom.blue.name=Blue Glowshroom
 
+tile.natura.leaves.name=Leaves
+tile.natura.leavesnocolor.name=Leaves
 block.eucalyptus.NLeaves.name=Eucalyptus Leaves
 block.leaves.sakura.name=Sakura Leaves
 block.leaves.ghost.name=Ghostwood Leaves
@@ -244,6 +269,7 @@ block.bush.NLeaves.name=Hopseed Leaves
 block.redwood.NLeaves.name=Redwood Leaves
 block.leaves.blood.name=Bloodleaves
 
+tile.natura.treeblock.name=Wood
 block.eucalyptus.log.name=Eucalyptus Wood
 block.sakura.log.name=Sakura Wood
 block.ghost.log.name=Ghostwood
@@ -254,12 +280,15 @@ bloodBoat.name=Bloodwood Boat
 whiteBoat.name=White Boat
 eucalyptusBoat.name=Eucalyptus Boat
 
+item.impmeat.name=Imphide
 item.impmeat.raw.name=Raw Imphide
 item.impmeat.cooked.name=Cooked Imphide
 
+tile.GrassBlock.name=Grass
 block.soil.grass.name=Topiary Grass
 block.soil.bluegrass.name=Bluegrass
 block.soil.autumngrass.name=Autumnal Grass
+tile.GrassSlab.name=Grass Slab
 block.soil.grass.slab.name=Topiary Grass Slab
 block.soil.bluegrass.slab.name=Bluegrass Slab
 block.soil.autumngrass.slab.name=Autumnal Grass Slab

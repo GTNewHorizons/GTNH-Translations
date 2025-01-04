@@ -11,6 +11,7 @@ storageDrawers.container.framingTable=Framing Table
 storagedrawers.msg.maxUpgrades=This drawer cannot accept any more upgrades.
 
 # Items
+item.storagedrawers.upgrade.name=Upgrade
 item.storagedrawers.upgradeTemplate.name=Upgrade Template
 item.storagedrawers.upgrade.iron.name=Storage Upgrade (II)
 item.storagedrawers.upgrade.gold.name=Storage Upgrade (III)
@@ -19,6 +20,7 @@ item.storagedrawers.upgrade.diamond.name=Storage Upgrade (V)
 item.storagedrawers.upgrade.emerald.name=Storage Upgrade (VI)
 item.storagedrawers.upgrade.ruby.name=Storage Upgrade (VII)
 item.storagedrawers.upgrade.tanzanite.name=Storage Upgrade (VIII)
+item.storagedrawers.upgradeStatus.name=Status Upgrade
 item.storagedrawers.upgradeStatus.level1.name=Status Upgrade (I)
 item.storagedrawers.upgradeStatus.level1.description=Shows full storage
 item.storagedrawers.upgradeStatus.level2.name=Status Upgrade (II)
@@ -27,10 +29,12 @@ item.storagedrawers.upgradeLock.name=Drawer Key
 item.storagedrawers.upgradeLock.description=Locks and unlocks drawers
 item.storagedrawers.upgradeVoid.name=Void Upgrade
 item.storagedrawers.upgradeVoid.description=Destroys excess items
+item.storagedrawers.upgradeCreative.name=Creative Upgrade
 item.storagedrawers.upgradeCreative.store.name=Creative Storage Upgrade
 item.storagedrawers.upgradeCreative.store.description=Near-infinite storage
 item.storagedrawers.upgradeCreative.vend.name=Creative Vending Upgrade
 item.storagedrawers.upgradeCreative.vend.description=Unlimited item withdrawal
+item.storagedrawers.upgradeRedstone.name=Redstone Upgrade
 item.storagedrawers.upgradeRedstone.combined.name=Redstone Upgrade
 item.storagedrawers.upgradeRedstone.combined.description=Emits signal for total storage.
 item.storagedrawers.upgradeRedstone.max.name=Redstone Max Upgrade
@@ -43,6 +47,7 @@ item.storagedrawers.upgradeSorting.name=Sorting Upgrade
 item.storagedrawers.upgradeSorting.description=For Refined Relocation
 item.storagedrawers.shroudKey.name=Concealment Key
 item.storagedrawers.shroudKey.description=Show or hide item labels
+item.storagedrawers.personalKey.name=Personal Key
 item.storagedrawers.personalKey.default.name=Personal Key
 item.storagedrawers.personalKey.default.description=Protect access from other players
 item.storagedrawers.personalKey.cofh.name=Personal Key (CoFH)
@@ -51,6 +56,7 @@ item.storagedrawers.tape.name=Packing Tape
 item.storagedrawers.tape.description=Seals drawers for moving
 
 # Blocks
+tile.fullDrawers1.name=Drawer
 tile.fullDrawers1.oak.name=Oak Drawer
 tile.fullDrawers1.spruce.name=Spruce Drawer
 tile.fullDrawers1.birch.name=Birch Drawer
@@ -58,6 +64,7 @@ tile.fullDrawers1.jungle.name=Jungle Drawer
 tile.fullDrawers1.acacia.name=Acacia Drawer
 tile.fullDrawers1.big_oak.name=Dark Oak Drawer
 
+tile.fullDrawers2.name=Drawers 1x2
 tile.fullDrawers2.oak.name=Oak Drawers 1x2
 tile.fullDrawers2.spruce.name=Spruce Drawers 1x2
 tile.fullDrawers2.birch.name=Birch Drawers 1x2
@@ -65,6 +72,7 @@ tile.fullDrawers2.jungle.name=Jungle Drawers 1x2
 tile.fullDrawers2.acacia.name=Acacia Drawers 1x2
 tile.fullDrawers2.big_oak.name=Dark Oak Drawers 1x2
 
+tile.fullDrawers4.name=Drawers 2x2
 tile.fullDrawers4.oak.name=Oak Drawers 2x2
 tile.fullDrawers4.spruce.name=Spruce Drawers 2x2
 tile.fullDrawers4.birch.name=Birch Drawers 2x2
@@ -72,6 +80,7 @@ tile.fullDrawers4.jungle.name=Jungle Drawers 2x2
 tile.fullDrawers4.acacia.name=Acacia Drawers 2x2
 tile.fullDrawers4.big_oak.name=Dark Oak Drawers 2x2
 
+tile.halfDrawers2.name=Compact Drawers 1x2
 tile.halfDrawers2.oak.name=Compact Oak Drawers 1x2
 tile.halfDrawers2.spruce.name=Compact Spruce Drawers 1x2
 tile.halfDrawers2.birch.name=Compact Birch Drawers 1x2
@@ -79,6 +88,7 @@ tile.halfDrawers2.jungle.name=Compact Jungle Drawers 1x2
 tile.halfDrawers2.acacia.name=Compact Acacia Drawers 1x2
 tile.halfDrawers2.big_oak.name=Compact Dark Oak Drawers 1x2
 
+tile.halfDrawers4.name=Compact Drawers 2x2
 tile.halfDrawers4.oak.name=Compact Oak Drawers 2x2
 tile.halfDrawers4.spruce.name=Compact Spruce Drawers 2x2
 tile.halfDrawers4.birch.name=Compact Birch Drawers 2x2
@@ -98,6 +108,7 @@ tile.drawerController.name=Drawer Controller
 tile.controllerSlave.name=Controller Slave
 tile.framingTable.name=Framing Table
 
+tile.trim.name=Trim
 tile.trim.oak.name=Oak Trim
 tile.trim.spruce.name=Spruce Trim
 tile.trim.birch.name=Birch Trim
