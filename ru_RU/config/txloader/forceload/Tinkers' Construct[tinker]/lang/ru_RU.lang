@@ -19,6 +19,7 @@ inventory.knapsack=Ранец
 
 nei.options.keys.gui.tinkers_belt=Переключить пояс путешественника
 
+tile.ToolStation.name=Tool Station
 ToolStation.Crafter.name=Инженерная станция
 ToolStation.Parts.name=Конструктор деталей
 ToolStation.PatternChest.name=Сундук для схем
@@ -29,6 +30,7 @@ tile.FurnaceSlab.name=Печь-плита
 tile.ToolForge.name=Инженерная кузня
 tile.TinkerTable.name=Стол инженера
 tile.Armor.DryingRack.name=Сушильная стойка
+tile.TConstruct.Soil.name=Soil
 CraftedSoil.Slime.name=Слизневая грязь
 CraftedSoil.Grout.name=Цемент
 CraftedSoil.BlueSlime.name=Слизневая грязь
@@ -39,6 +41,7 @@ tile.slime.channel.name=Сточная слизь
 tile.slime.pad.name=Прыжковая панель
 tile.blood.channel.name=Сточная кровь
 
+tile.tconstruct.stoneore.name=Ore
 MetalOre.NetherSlag.name=Шлак Нижнего мира
 MetalOre.Cobalt.name=Кобальтовая руда
 MetalOre.Ardite.name=Ардитовая руда
@@ -47,6 +50,8 @@ MetalOre.Tin.name=Оловянная руда
 MetalOre.Aluminum.name=Алюминиевая Руда
 MetalOre.Slag.name=Каменный шлак
 
+tile.ore.berries.one.name=Oreberry Bush
+tile.ore.berries.two.name=Oreberry Bush
 block.oreberry.iron.name=Железный рудный куст
 block.oreberry.gold.name=Золотой рудный куст
 block.oreberry.copper.name=Медный рудный куст
@@ -54,6 +59,7 @@ block.oreberry.tin.name=Оловянный рудный куст
 block.oreberry.aluminum.name=Алюминиевый рудный куст
 block.oreberry.essence.name=Куст эссенции опыта
 
+tile.tconstruct.gravelore.name=Gravel Ore
 block.ore.gravel.iron.name=Железная гравиевая руда
 block.ore.gravel.gold.name=Золотая гравиевая руда
 block.ore.gravel.copper.name=Медная гравиевая руда
@@ -61,6 +67,7 @@ block.ore.gravel.tin.name=Оловянная гравиевая руда
 block.ore.gravel.aluminum.name=Алюминиевая гравиевая руда
 block.ore.gravel.cobalt.name=Кобальтовая гравиевая руда
 
+tile.SpeedBlock.name=Brownstone
 block.brownstone.rough.name=Грубый бурый песчаник
 block.brownstone.rough.road.name=Дорога из грубого бурого песчаника
 block.brownstone.smooth.name=Бурый песчаник
@@ -69,6 +76,7 @@ block.brownstone.smooth.road.name=Дорога из бурого песчани�
 block.brownstone.smooth.fancy.name=Красивый бурый песчаник
 block.brownstone.smooth.chiseled.name=Резной бурый песчаник
 
+tile.SpeedSlab.name=Brownstone Slab
 block.brownstone.rough.slab.name=Плита из грубого бурого песчаника
 block.brownstone.rough.road.slab.name=Плита из грубого дорожного бурого песчаника
 block.brownstone.smooth.slab.name=Плита из бурого песчаника
@@ -77,6 +85,8 @@ block.brownstone.smooth.road.slab.name=Плита из дорожного бур
 block.brownstone.smooth.fancy.slab.name=Плита из красивого бурого песчаника
 block.brownstone.smooth.chiseled.slab.name=Плита из резного бурого песчаника
 
+tile.Decoration.Brick.name=Brick
+tile.Decoration.BrickMetal.name=Metal Brick
 block.brick.obsidian.name=Обсидиановый кирпич
 block.brick.sandstone.name=Песчаниковый кирпич
 block.brick.netherrack.name=Адский кирпич
@@ -96,6 +106,7 @@ block.brick.ardite.name=Ардитовый кирпич
 block.brick.cobalt.name=Кобальтовый кирпич
 block.brick.manyullyn.name=Мануллиновый кирпич
 
+tile.Decoration.BrickFancy.name=Fancy Brick
 block.fancybrick.obsidian.name=Красивый обсидиановый кирпич
 block.fancybrick.sandstone.name=Красивый песчаниковый кирпич
 block.fancybrick.netherrack.name=Красивый адский кирпич
@@ -141,6 +152,7 @@ tile.liquid.glue.name=Клей
 
 tile.Frypan.name=Сковорода
 
+item.oreberry.name=Oreberry
 item.oreberry.iron.name=Кусочки железа
 item.oreberry.gold.name=Кусочки золота
 item.oreberry.copper.name=Кусочки меди
@@ -153,6 +165,7 @@ item.tconstruct.titleicon.name=Призвать существо -
 
 tile.tconstruct.meatblock.name=Ветчина на кости
 
+item.InfiTool.name=Tool / Weapon
 item.InfiTool.Pickaxe.name=Кирка
 item.InfiTool.Shovel.name=Лопата
 item.InfiTool.Axe.name=Топорик
@@ -206,6 +219,7 @@ item.tconstruct.PotionLauncher.name=Метатель зелий
 
 item.tool.randomarrow=Случайный серпантин
 
+item.tconstruct.Pattern.name=Pattern
 item.tconstruct.Pattern.blank_pattern.name=Пустая схема
 item.tconstruct.Pattern.rod.name=Схема стержня
 item.tconstruct.Pattern.pickaxe.name=Схема обуха кирки
@@ -238,6 +252,7 @@ item.tconstruct.Pattern.crossbowbody.name=Схема основы арбалет
 item.tconstruct.Pattern.bowlimb.name=Схема плеча лука
 
 item.tconstruct.Pattern.blank_cast.name=Пустой слепок
+item.tconstruct.MetalPattern.name=Cast
 item.tconstruct.MetalPattern.rod.name=Слепок стержня
 item.tconstruct.MetalPattern.pickaxe.name=Слепок обуха кирки
 item.tconstruct.MetalPattern.shovel.name=Слепок штыка лопаты
@@ -272,6 +287,7 @@ item.tconstruct.MetalPattern.crossbowbody.name=Слепок основы арб�
 item.tconstruct.MetalPattern.bowlimb.name=Слепок плеча лука
 item.tconstruct.GearPattern.name=Слепок шестерни
 
+item.tconstruct.ClayPattern.name=Clay Cast
 item.tconstruct.ClayPattern.rod.name=Глиняный слепок стержня
 item.tconstruct.ClayPattern.pickaxe.name=Глиняный слепок обуха кирки
 item.tconstruct.ClayPattern.shovel.name=Глиняный слепок штыка лопаты
@@ -305,6 +321,7 @@ item.tconstruct.ClayPattern.crossbowlimb.name=Глиняный слепок пл
 item.tconstruct.ClayPattern.crossbowbody.name=Глиняный слепок основы арбалета
 item.tconstruct.ClayPattern.bowlimb.name=Глиняный слепок плеча лука
 
+item.tconstruct.Materials.name=Material
 item.tconstruct.Materials.PaperStack.name=Кучка бумаги
 item.tconstruct.Materials.SlimeCrystal.name=Слизневый кристалл
 item.tconstruct.Materials.SearedBrick.name=Обожжённый кирпич
@@ -366,6 +383,7 @@ item.tconstruct.travelboots.name=Ботинки путешественника
 item.tconstruct.travelgloves.name=Перчатки путешественника
 item.tconstruct.travelbelt.name=Пояс путешественника
 
+item.tconstruct.jerky.name=Jerky
 item.tconstruct.jerky.beef.name=Вяленая говядина
 item.tconstruct.jerky.pig.name=Вяленый бекон
 item.tconstruct.jerky.chicken.name=Вяленая курятина
@@ -378,6 +396,7 @@ item.tconstruct.jerky.blood.name=Капля свернувшейся крови
 beginnertool.pickaxe=Кирка новичка
 beginnertool.hatchet=Топорик новичка
 
+tile.Smeltery.name=Smeltery Block
 Smeltery.Controller.name=Контроллер плавильни
 Smeltery.Drain.name=Слив плавильни
 Smeltery.Brick.name=Обожжённый кирпич
@@ -405,6 +424,7 @@ tile.trap.barricade.birch.name=Баррикада из берёзы
 tile.trap.barricade.jungle.name=Баррикада из тропического дерева
 tile.explosive.slime.name=Бомба из слизи
 
+tile.tconstruct.metalblock.name=Block
 StorageMetals.Cobalt.name=Кобальтовый блок
 StorageMetals.Ardite.name=Ардитовый блок
 StorageMetals.Manyullyn.name=Мануллиновый блок
@@ -419,8 +439,10 @@ StorageMetals.Ender.name=Блок спрессованного ока Края
 
 tile.decoration.stonetorch.name=Факел
 tile.decoration.stoneladder.name=Лестница
+tile.CraftingSlab.name=Crafting Station
 tile.CraftingStation.name=Верстак инженера
 
+tile.GlassBlock.name=Glass
 block.glass.pure.name=Прозрачное стекло
 block.glass.soul.name=Стекло душ
 block.glass.soul.pure.name=Прозрачное стекло душ
@@ -429,6 +451,7 @@ block.glass.pure.pane.name=Прозрачная стеклянная панел�
 block.glass.soul.pane.name=Стеклянная панель душ
 block.glass.soul.pane.pure.name=Прозрачная стеклянная панель душ
 
+tile.GlassBlock.StainedClear.name=Stained Glass
 block.stainedglass.white.name=Белое стекло
 block.stainedglass.orange.name=Оранжевое стекло
 block.stainedglass.magenta.name=Сиреневое стекло
@@ -446,6 +469,7 @@ block.stainedglass.green.name=Зелёное стекло
 block.stainedglass.red.name=Красное стекло
 block.stainedglass.black.name=Чёрное стекло
 
+tile.tconstruct.glasspanestained.name=Stained Pane
 block.stainedglass.white.pane.name=Белая стеклянная панель
 block.stainedglass.orange.pane.name=Оранжевая стеклянная панель
 block.stainedglass.magenta.pane.name=Сиреневая стеклянная панель
@@ -463,6 +487,7 @@ block.stainedglass.green.pane.name=Зелёная стеклянная пане�
 block.stainedglass.red.pane.name=Красная стеклянная панель
 block.stainedglass.black.pane.name=Чёрная стеклянная панель
 
+tile.SearedSlab.name=Seared Slab
 block.searedstone.slab.brick.name=Плита из обожжённого кирпича
 block.searedstone.slab.stone.name=Плита из обожжённого камня
 block.searedstone.slab.cobble.name=Плита из обожжённого булыжника
@@ -481,15 +506,21 @@ block.soil.slab.graveyardsoil.name=Плита из кладбищенской п
 block.soil.slab.consecratedsoil.name=Плита из священной почвы
 
 block.slime.soil.blue.name=Земля из синей слизи
+tile.slime.leaves.name=Slimy Leaves
 block.slime.leaves.blue.name=Слизневая листва
+tile.slime.sapling.name=Slimy Sapling
 block.slime.sapling.bluegreen.name=Слизневый саженец
+tile.slime.grass.name=Slimy Grass
 block.slime.grass.blue.name=Слизневая трава
 block.slime.grass.dirt.name=Слизневая трава
+tile.slime.grass.tall.name=Slimy Grass
 block.slime.tallgrass.name=Слизневая трава
+tile.slime.gel.name=Congealed Slime
 block.slime.congealed.blue.name=Застывшая синяя слизь
 block.slime.congealed.green.name=Застывшая зелёная слизь
 block.slime.congealed.purple.name=Застывшая фиолетовая слизь
 
+item.tconstruct.storage.name=Knapsack
 item.tconstruct.storage.knapsack.name=Ранец  
 item.tconstruct.blankpattern.pattern.name=Пустая схема
 item.tconstruct.blankpattern.cast.name=Пустой слепок
@@ -504,12 +535,14 @@ item.tconstruct.Fletching.slime.name=Слизневое оперение
 item.tconstruct.Fletching.blueslime.name=Слизневое оперение
 item.tconstruct.Fletching.slimeleaf.name=Оперение из слизневого листа
 
+item.tconstruct.manual.name=Manual
 item.tconstruct.manual.beginner.name=Материалы и Вы: Том 1
 item.tconstruct.manual.toolstation.name=Материалы и Вы: Том 2
 item.tconstruct.manual.smeltery.name=Могучая металлургия
 item.tconstruct.manual.diary.name=Дневник инженера
 item.tconstruct.manual.weaponry.name=Вооружение инженера
 
+item.tconstruct.bucket.name=Bucket
 item.tconstruct.bucket.Iron.name=Ведро расплавленного железа
 item.tconstruct.bucket.Gold.name=Ведро расплавленного золота
 item.tconstruct.bucket.Copper.name=Ведро расплавленной меди
@@ -604,10 +637,13 @@ LiquidMetal.Invar.name=Расплавленный инвар
 LiquidMetal.Electrum.name=Расплавленный электрум
 LiquidMetal.Ender.name=Жидкость Края
 
+item.tconstruct.apple.diamond.name=Jeweled Apple
 item.food.apple.diamond.name=Драгоценное яблоко
+item.tconstruct.strangefood.name=Strange Food
 item.tconstruct.strangefood.edibleslime.name=Желатиновая слизь
 item.tconstruct.strangefood.edibleblood.name=Свернувшаяся кровь
 item.tconstruct.strangefood.bacon.name=Бекон
+item.tconstruct.canister.name=Heart Canister
 item.tconstruct.canister.empty.name=Пустая банка
 item.tconstruct.canister.miniheart.red.name=Маленькое красное сердечко
 item.tconstruct.canister.red.name=Банка с красным сердцем
@@ -618,6 +654,7 @@ item.tconstruct.canister.green.name=Банка с зелёным сердцем
 item.tconstruct.glove.name=Земленосные перчатки
 item.tconstruct.modifier.creative.name=Творческий модификатор инструмента
 
+tile.SearedBlock.name=Seared Block
 SearedBlock.Table.name=Литейный стол
 SearedBlock.Faucet.name=Литейный кран
 SearedBlock.Basin.name=Литейный резервуар
@@ -675,6 +712,38 @@ toolpart.CrossbowBody=%%material основа арбалета
 toolpart.BowLimb=%%material плечо лука
 toolpart.Bolt=%%material болт
 toolpart.Shaft=%%material стержень стрелы
+
+item.tconstruct.ArrowHead.name=Arrowhead
+item.tconstruct.AxeHead.name=Axe Head
+item.tconstruct.Binding.name=Binding
+item.tconstruct.Bolt.name=Bolt
+item.tconstruct.BowLimb.name=Bow Limb
+item.tconstruct.Bowstring.name=Bowstring
+item.tconstruct.ChiselHead.name=Chisel Head
+item.tconstruct.Crossbar.name=Crossbar
+item.tconstruct.CrossbowBody.name=Crossbow Body
+item.tconstruct.CrossbowLimb.name=Crossbow Limb
+item.tconstruct.ExcavatorHead.name=Excavator Head
+item.tconstruct.Fletching.name=Fletching
+item.tconstruct.FrypanHead.name=Pan
+item.tconstruct.FullGuard.name=Full Guard
+item.tconstruct.HammerHead.name=Hammer Head
+item.tconstruct.KnifeBlade.name=Knife Blade
+item.tconstruct.LargeGuard.name=Wide Guard
+item.tconstruct.LargePlate.name=Large Plate
+item.tconstruct.LargeSwordBlade.name=Large Sword Blade
+item.tconstruct.LumberAxeHead.name=Broad Axe Head
+item.tconstruct.MediumGuard.name=Hand Guard
+item.tconstruct.PickaxeHead.name=Pickaxe Head
+item.tconstruct.ScytheHead.name=Scythe Head
+item.tconstruct.ShovelHead.name=Shovel Head
+item.tconstruct.Shuriken.name=Shuriken
+item.tconstruct.SignHead.name=Sign Head
+item.tconstruct.SwordBlade.name=Sword Blade
+item.tconstruct.ToolRod.name=Tool Rod
+item.tconstruct.ToolShard.name=Shard
+item.tconstruct.ToughBinding.name=Tough Binding
+item.tconstruct.ToughRod.name=Tough Rod
 
 # Now with translations of specific material and part combinations:
 #toolpart.ToolRod.wood=Wooden Tool Rod
@@ -1013,6 +1082,7 @@ manual.page.modifier3=Стол инженера
 manual.page.casting1=Ингридиенты
 manual.page.tool1=Детали
 
+item.tconstruct.glassArrows.name=Glass Arrows
 tool.glassarrows=Стеклянные стрелы
 tool.glassarrows.lore=Созданы легендой по имени Glassmaker
 tool.boneana.lore=Это звучало как неплохая идея раньше
@@ -1114,6 +1184,7 @@ modifier.tooltip.Triple-Jump=Тройной прыжок
 modifier.tooltip.ThaumicVision=Таумическое зрение
 modifier.tooltip.Water-Walking=Прогулка по воде
 
+tile.LavaTank.name=Seared Tank
 option.tcon.searedtank=Обожжённый резервуар
 option.tcon.castingchannel=Разливочный канал
 option.tcon.basin=Литейный резервуар
