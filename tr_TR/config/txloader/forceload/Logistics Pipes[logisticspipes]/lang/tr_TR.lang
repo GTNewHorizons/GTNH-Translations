@@ -5,24 +5,28 @@
 
 # Pipes
 item.PipeItemsBasicTransport=Unrouted Transport Pipe
+item.PipeItemsBasicTransport.name=Unrouted Transport Pipe
 item.PipeItemsBasicTransport.tip1=Type: Simple Transport Pipe
 item.PipeItemsBasicTransport.tip2= - Serves for the Transport of Items
 item.PipeItemsBasicTransport.tip3= - Doesn´t route Stuff
 item.PipeItemsBasicTransport.tip4= - Can´t access Inventories
 
 item.PipeItemsBasicLogistics=Basic Logistics Pipe
+item.PipeItemsBasicLogistics.name=Basic Logistics Pipe
 item.PipeItemsBasicLogistics.tip1=Type: Passive push destination
 item.PipeItemsBasicLogistics.tip2= - Routes items around the network.
 item.PipeItemsBasicLogistics.tip3= - Puts specific types of items into chests.
 item.PipeItemsBasicLogistics.tip4= - Can be a default route.
 
 item.PipeItemsRequestLogistics=Request Logistics Pipe
+item.PipeItemsRequestLogistics.name=Request Logistics Pipe
 item.PipeItemsRequestLogistics.tip1=Type: Active requester
 item.PipeItemsRequestLogistics.tip2= - Lets you manually request items
 item.PipeItemsRequestLogistics.tip3= - Items can come from any Item Source pipe
 item.PipeItemsRequestLogistics.tip4= - Put a chest on the pipe to catch items coming out.
 
 item.PipeItemsRequestLogisticsMk2=Request Logistics Pipe Mk2
+item.PipeItemsRequestLogisticsMk2.name=Request Logistics Pipe Mk2
 item.PipeItemsRequestLogisticsMk2.tip1=Type: Active requester
 item.PipeItemsRequestLogisticsMk2.tip2= - Faster then a Mk1
 item.PipeItemsRequestLogisticsMk2.tip3= - Lets you manually request items
@@ -30,18 +34,21 @@ item.PipeItemsRequestLogisticsMk2.tip4= - Items can come from any Source pipe
 item.PipeItemsRequestLogisticsMk2.tip5= - Put a chest on the pipe to catch items coming out.
 
 item.PipeItemsProviderLogistics=Provider Logistics Pipe
+item.PipeItemsProviderLogistics.name=Provider Logistics Pipe
 item.PipeItemsProviderLogistics.tip1=Type: Item Source
 item.PipeItemsProviderLogistics.tip2= - Attaches to an inventory
 item.PipeItemsProviderLogistics.tip3= - Sends 16 items into the network on request
 item.PipeItemsProviderLogistics.tip4= - Aynı bloktaki Tedarikçileri yok sayar.
 
 item.PipeItemsProviderLogisticsMk2=Provider Logistics Pipe Mk2
+item.PipeItemsProviderLogisticsMk2.name=Provider Logistics Pipe Mk2
 item.PipeItemsProviderLogisticsMk2.tip1=Type: Item Source
 item.PipeItemsProviderLogisticsMk2.tip2= - Attaches to an inventory
 item.PipeItemsProviderLogisticsMk2.tip3= - Sends a stack of items into the network on request
 item.PipeItemsProviderLogisticsMk2.tip4= - Aynı bloktaki Tedarikçileri yok sayar.
 
 item.PipeItemsCraftingLogistics=Crafting Logistics Pipe
+item.PipeItemsCraftingLogistics.name=Crafting Logistics Pipe
 item.PipeItemsCraftingLogistics.tip1=Type: Active Requester + Source
 item.PipeItemsCraftingLogistics.tip2= - Crafts one item at a time.
 item.PipeItemsCraftingLogistics.tip3= - Attaches to an Automatic Crafting Table.
@@ -49,6 +56,7 @@ item.PipeItemsCraftingLogistics.tip4= - Automatically crafts the item inside whe
 item.PipeItemsCraftingLogistics.tip5= - Girdileri başka bir yere göndermek için bir uydu borusu kullanabilir.
 
 item.PipeItemsCraftingLogisticsMk2=Crafting Logistics Pipe Mk2
+item.PipeItemsCraftingLogisticsMk2.name=Crafting Logistics Pipe Mk2
 item.PipeItemsCraftingLogisticsMk2.tip1=Type: Active Requester + Source
 item.PipeItemsCraftingLogisticsMk2.tip2= - Crafts 16 items at a time.
 item.PipeItemsCraftingLogisticsMk2.tip3= - Attaches to an Automatic Crafting Table.
@@ -56,6 +64,7 @@ item.PipeItemsCraftingLogisticsMk2.tip4= - Automatically crafts the item inside 
 item.PipeItemsCraftingLogisticsMk2.tip5= - Girdileri başka bir yere göndermek için bir uydu borusu kullanabilir.
 
 item.PipeItemsCraftingLogisticsMk3=Crafting Logistics Pipe Mk3
+item.PipeItemsCraftingLogisticsMk3.name=Crafting Logistics Pipe Mk3
 item.PipeItemsCraftingLogisticsMk3.tip1=Type: Active Requester + Source
 item.PipeItemsCraftingLogisticsMk3.tip2= - Crafts a stack at a time.
 item.PipeItemsCraftingLogisticsMk3.tip3= - Attaches to an Automatic Crafting Table.
@@ -63,10 +72,12 @@ item.PipeItemsCraftingLogisticsMk3.tip4= - Automatically crafts the item inside 
 item.PipeItemsCraftingLogisticsMk3.tip5= - Girdileri başka bir yere göndermek için bir uydu borusu kullanabilir.
 
 item.PipeItemsSatelliteLogistics=Satellite Logistics Pipe
+item.PipeItemsSatelliteLogistics.name=Satellite Logistics Pipe
 item.PipeItemsSatelliteLogistics.tip1=Type: Active request destination
 item.PipeItemsSatelliteLogistics.tip2= - Bir Üretim borusu buraya ek girdiler gönderebilir
 
 item.PipeItemsSupplierLogistics=Supplier Logistics Pipe
+item.PipeItemsSupplierLogistics.name=Supplier Logistics Pipe
 item.PipeItemsSupplierLogistics.tip1=Type: Active item requester
 item.PipeItemsSupplierLogistics.tip2= - Automatically fills a chest or machine
 item.PipeItemsSupplierLogistics.tip3= - Can get items from any Item Source.
@@ -77,42 +88,51 @@ item.PipeItemsBuilderSupplierLogistics.tip1=Type: Active item requester
 item.PipeItemsBuilderSupplierLogistics.tip2= - Automatically fills a builder with required materials
 
 item.PipeLogisticsChassiMk1=Logistics Chassis Mk1
+item.PipeLogisticsChassiMk1.name=Logistics Chassis Mk1
 item.PipeLogisticsChassiMk1.tip1=Type: Mixed
 item.PipeLogisticsChassiMk1.tip2= - Can hold 1 module.
 
 item.PipeLogisticsChassiMk2=Logistics Chassis Mk2
+item.PipeLogisticsChassiMk2.name=Logistics Chassis Mk2
 item.PipeLogisticsChassiMk2.tip1=Type: Mixed
 item.PipeLogisticsChassiMk2.tip2= - Can hold 2 modules.
 
 item.PipeLogisticsChassiMk3=Logistics Chassis Mk3
+item.PipeLogisticsChassiMk3.name=Logistics Chassis Mk3
 item.PipeLogisticsChassiMk3.tip1=Type: Mixed
 item.PipeLogisticsChassiMk3.tip2= - Can hold 3 modules.
 
 item.PipeLogisticsChassiMk4=Logistics Chassis Mk4
+item.PipeLogisticsChassiMk4.name=Logistics Chassis Mk4
 item.PipeLogisticsChassiMk4.tip1=Type: Mixed
 item.PipeLogisticsChassiMk4.tip2= - Can hold 4 modules.
 
 item.PipeLogisticsChassiMk5=Logistics Chassis Mk5
+item.PipeLogisticsChassiMk5.name=Logistics Chassis Mk5
 item.PipeLogisticsChassiMk5.tip1=Type: Mixed
 item.PipeLogisticsChassiMk5.tip2= - Can hold 8 modules.
 
 item.PipeItemsRemoteOrdererLogistics=Remote Orderer Logistics Pipe
+item.PipeItemsRemoteOrdererLogistics.name=Remote Orderer Logistics Pipe
 item.PipeItemsRemoteOrdererLogistics.tip1=Type: Active requester
 item.PipeItemsRemoteOrdererLogistics.tip2= - Lets you manually request items *remotely*
 item.PipeItemsRemoteOrdererLogistics.tip3= - Can pull from any Item Source
 item.PipeItemsRemoteOrdererLogistics.tip4= - You must right click a Remote Orderer on this pipe.
 
 item.PipeItemsApiaristAnalyser=Bee Analyzer Logistics Pipe
+item.PipeItemsApiaristAnalyser.name=Bee Analyzer Logistics Pipe
 item.PipeItemsApiaristAnalyser.tip1=Type: Passive Destination
 item.PipeItemsApiaristAnalyser.tip2= - A passive destination for un-analyzed bees
 item.PipeItemsApiaristAnalyser.tip3= - Allows for automatic analyzing
 
 item.PipeItemsApiaristSink=BeeSink Logistics Pipe
+item.PipeItemsApiaristSink.name=BeeSink Logistics Pipe
 item.PipeItemsApiaristSink.tip1=Type: Passive Destination
 item.PipeItemsApiaristSink.tip2= - A passive destination for analyzed bees
 item.PipeItemsApiaristSink.tip3= - Can filter based on genetic properties and genome.
 
 item.PipeItemsInvSysConnector=Logistics Inventory System Connector
+item.PipeItemsInvSysConnector.name=Logistics Inventory System Connector
 item.PipeItemsInvSysConnector.tip1=Type: Bridge
 item.PipeItemsInvSysConnector.tip2= - Connects two logistics networks together
 item.PipeItemsInvSysConnector.tip3=   over a shared inventory
@@ -120,6 +140,7 @@ item.PipeItemsInvSysConnector.tip4= - Usually used with an ender chest but you
 item.PipeItemsInvSysConnector.tip5=   can get clever with trains too...
 
 item.PipeItemsSystemEntranceLogistics=Logistics System Entrance Pipe
+item.PipeItemsSystemEntranceLogistics.name=Logistics System Entrance Pipe
 item.PipeItemsSystemEntranceLogistics.tip1=Type: Router
 item.PipeItemsSystemEntranceLogistics.tip2= - Sends un-routable items to a matched
 item.PipeItemsSystemEntranceLogistics.tip3=   Destination Pipe.
@@ -127,6 +148,7 @@ item.PipeItemsSystemEntranceLogistics.tip4= - Both Entrance and Destination pipe
 item.PipeItemsSystemEntranceLogistics.tip5=   must share a coded frequency card.
 
 item.PipeItemsSystemDestinationLogistics=Logistics System Destination Pipe
+item.PipeItemsSystemDestinationLogistics.name=Logistics System Destination Pipe
 item.PipeItemsSystemDestinationLogistics.tip1=Type: Special Destination
 item.PipeItemsSystemDestinationLogistics.tip2= - Receives un-routeable items from a
 item.PipeItemsSystemDestinationLogistics.tip3=   matched Entrance Pipe
@@ -134,22 +156,32 @@ item.PipeItemsSystemDestinationLogistics.tip4= - Both Entrance and Destination p
 item.PipeItemsSystemDestinationLogistics.tip5=   must share a coded frequency card.
 
 item.PipeItemsFirewall=Logistics Firewall Pipe
+item.PipeItemsFirewall.name=Logistics Firewall Pipe
 item.PipeItemsFirewall.tip1=Type: Request Filter
 item.PipeItemsFirewall.tip2= - Allows connecting 'hostile' networks
 item.PipeItemsFirewall.tip3=   while allowing only certain items to pass
 
 item.PipeItemsFluidSupplier=Logistics Fluid Container Supplier
+item.PipeItemsFluidSupplier.name=Logistics Fluid Container Supplier
 item.PipeItemsFluidSupplier.tip1=Uses buckets or other fluid containers to fill the connected tank
 item.PipeFluidSupplierMk2=Logistics Fluid Supplier
+item.PipeFluidSupplierMk2.name=Logistics Fluid Supplier
 item.PipeFluidSupplierMk2.tip1=Requests configured fluid from network then pulls into connected fluid tank
 item.LogisticsFluidConnectorPipe=Logistics Fluid Connector Pipe
 item.PipeFluidBasic=Logistics Fluid Basic Pipe
+item.PipeFluidBasic.name=Logistics Fluid Basic Pipe
 item.PipeFluidInsertion=Logistics Fluid Insertion Pipe
+item.PipeFluidInsertion.name=Logistics Fluid Insertion Pipe
 item.PipeFluidProvider=Logistics Fluid Provider Pipe
+item.PipeFluidProvider.name=Logistics Fluid Provider Pipe
 item.PipeFluidRequestLogistics=Logistics Fluid Request Pipe
+item.PipeFluidRequestLogistics.name=Logistics Fluid Request Pipe
 item.PipeFluidExtractor=Logistics Fluid Extractor Pipe
+item.PipeFluidExtractor.name=Logistics Fluid Extractor Pipe
 item.PipeFluidSatellite=Logistics Fluid Satellite Pipe
+item.PipeFluidSatellite.name=Logistics Fluid Satellite Pipe
 item.PipeBlockRequestTable=Logistics Request Table
+item.PipeBlockRequestTable.name=Logistics Request Table
 
 item.logisticspipes.tip.active_destination=Valid destination for %cYELLOW Active%cGRAY  routes
 item.logisticspipes.tip.passive_destination=Valid destination for %cYELLOW Passive%cGRAY  routes
@@ -160,6 +192,7 @@ item.logisticspipes.tip.passive_source=Valid source for %cYELLOW Passive%cGRAY  
 
 #TODO: Add shift tooltip information
 
+item.itemModule.name=Module
 item.ModuleBlank=Blank Module
 item.ModuleItemSink=ItemSink module
 item.ModulePassiveSupplier=Passive Supplier module
@@ -197,6 +230,7 @@ item.ModuleTypeFilterItemSink=Type Filter ItemSink module
 # Items
 
 item.structframe=Structural Pipe Frame
+item.pipeComponents.name=Structural Pipe Frame
 item.microservo=Micro Servo
 item.routeprocess=Routing Logic Processor
 item.micropackager=Micro Packager
@@ -210,23 +244,32 @@ item.diamondupgradechip=Diamond Upgrade Chip
 item.goldcraftingupgradechip=Advanced Gold Crafting Chip
 item.diamondcraftingupgradechip=Advanced Diamond Crafting Chip
 item.pipeController=Logistics Pipe Controller
+item.pipeController.name=Logistics Pipe Controller
 item.brokenItem=Logistics Broken Item
+item.brokenItem.name=Logistics Broken Item
 item.logisticsFluidContainer=Logistics Fluid Container
+item.logisticsFluidContainer.name=Logistics Fluid Container
 
 # %cRED (DEPRECATED) %cRESET
 item.upgradeManagerItem=Upgrade Manager
 item.HUDbow=Logistics HUD Bow
+item.logisticsParts.name=Logistics HUD Bow
 item.HUDglass=Logistics HUD Glass
 item.HUDnosebridge=Logistics HUD Nose Bridge
 item.NanoHopper=Nano Hopper
 item.logisticsItemCard=Logistics Item Card
+item.logisticsItemCard.name=Logistics Item Card
 item.itemDisk=Logistics Disk
+item.itemDisk.name=Logistics Disk
 # %cRED (DEPRECATED) %cRESET
 item.networkMonitorItem=Network monitor
+item.ItemPipeSignCreator.name=Sign Creator
 item.ItemPipeSignCreator.0=Crafting Sign Creator
 item.ItemPipeSignCreator.1=Item Amount Sign Creator
 item.logisticsHUDGlasses=Logistics HUD Glasses
+item.logisticsHUDGlasses.name=Logistics HUD Glasses
 item.remoteOrdererItem=Remote Orderer
+item.remoteOrdererItem.name=Remote Orderer
 
 # Tooltips
 tooltip.brokenItem.1=This is an useless item
@@ -236,6 +279,7 @@ tooltip.logisticsItemCard=This is no valid Card
 
 # Upgrades
 
+item.itemUpgrade.name=Upgrade
 item.SneakyUpgradeUP=Sneaky Upgrade (UP)
 item.SneakyUpgradeDOWN=Sneaky Upgrade (DOWN)
 item.SneakyUpgradeNORTH=Sneaky Upgrade (NORTH)
@@ -305,6 +349,8 @@ misc.extractionmode.Leave1PerStack=Leave 1 item per stack
 misc.extractionmode.Leave1PerType=Leave 1 item per type
 misc.selectType=Select Type
 misc.selectOreDict=Select OreDict Type
+
+LogisticsPipes Pipe Block.name=LogisticsPipes Pipe Block
 
 #Misc Chat messages
 
