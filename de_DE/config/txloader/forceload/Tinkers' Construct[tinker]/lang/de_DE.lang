@@ -19,6 +19,7 @@ inventory.knapsack=Rucksack
 
 nei.options.keys.gui.tinkers_belt=Toggle Travellers Belt
 
+tile.ToolStation.name=Tool Station
 ToolStation.Crafter.name=Werkzeugstation
 ToolStation.Parts.name=Basteltisch
 ToolStation.PatternChest.name=Schablonenkiste
@@ -29,6 +30,7 @@ tile.FurnaceSlab.name=Stufenofen
 tile.ToolForge.name=Werkzeugesse
 tile.TinkerTable.name=Tinker Tisch
 tile.Armor.DryingRack.name=Trockenregal
+tile.TConstruct.Soil.name=Soil
 CraftedSoil.Slime.name=Schleimiger Matsch
 CraftedSoil.Grout.name=Mörtel
 CraftedSoil.BlueSlime.name=Schleimiger Matsch (Blau)
@@ -39,6 +41,7 @@ tile.slime.channel.name=Schleimkanal
 tile.slime.pad.name=Sprungfläche
 tile.blood.channel.name=Blutkanal
 
+tile.tconstruct.stoneore.name=Ore
 MetalOre.NetherSlag.name=Netherstein-Schlacke
 MetalOre.Cobalt.name=Cobalterz
 MetalOre.Ardite.name=Arditerz
@@ -47,6 +50,8 @@ MetalOre.Tin.name=Zinnerz
 MetalOre.Aluminum.name=Aluminiumerz
 MetalOre.Slag.name=Schlacke
 
+tile.ore.berries.one.name=Oreberry Bush
+tile.ore.berries.two.name=Oreberry Bush
 block.oreberry.iron.name=Eisenbeerenbusch
 block.oreberry.gold.name=Goldbeerenbusch
 block.oreberry.copper.name=Kupferbeerenbusch
@@ -54,6 +59,7 @@ block.oreberry.tin.name=Zinnbeerenbusch
 block.oreberry.aluminum.name=Aluminiumbeerenbusch
 block.oreberry.essence.name=Essenzbeerenbusch
 
+tile.tconstruct.gravelore.name=Gravel Ore
 block.ore.gravel.iron.name=Eisenkies
 block.ore.gravel.gold.name=Goldkies
 block.ore.gravel.copper.name=Kupferkies
@@ -61,6 +67,7 @@ block.ore.gravel.tin.name=Zinnkies
 block.ore.gravel.aluminum.name=Aluminiumkies
 block.ore.gravel.cobalt.name=Kobaltkies
 
+tile.SpeedBlock.name=Brownstone
 block.brownstone.rough.name=Rauer Braunstein
 block.brownstone.rough.road.name=Raue Braunsteinstraße
 block.brownstone.smooth.name=Braunstein
@@ -69,6 +76,7 @@ block.brownstone.smooth.road.name=Braunsteinstraße
 block.brownstone.smooth.fancy.name=Schicker Braunstein
 block.brownstone.smooth.chiseled.name=Ziselierter Braustein
 
+tile.SpeedSlab.name=Brownstone Slab
 block.brownstone.rough.slab.name=Raue Braunsteinstufe
 block.brownstone.rough.road.slab.name=Braunsteintraßenstufe
 block.brownstone.smooth.slab.name=Braunsteinstufe
@@ -77,6 +85,8 @@ block.brownstone.smooth.road.slab.name=Braunsteinstraßenstufe
 block.brownstone.smooth.fancy.slab.name=Schicke Braunsteinstufe
 block.brownstone.smooth.chiseled.slab.name=Ziselierte Braunsteinstufe
 
+tile.Decoration.Brick.name=Brick
+tile.Decoration.BrickMetal.name=Metal Brick
 block.brick.obsidian.name=Obsidianziegel
 block.brick.sandstone.name=Sandsteinziegel
 block.brick.netherrack.name=Nethersteinziegel
@@ -96,6 +106,7 @@ block.brick.ardite.name=Arditeziegel
 block.brick.cobalt.name=Kobaltziegel
 block.brick.manyullyn.name=Manyullynziegel
 
+tile.Decoration.BrickFancy.name=Fancy Brick
 block.fancybrick.obsidian.name=Schicke Obsidianziegel
 block.fancybrick.sandstone.name=Schicke Sandsteinziegel
 block.fancybrick.netherrack.name=Schicke Nethersteinziegel
@@ -141,6 +152,7 @@ tile.liquid.glue.name=Klebstoff
 
 tile.Frypan.name=Bratpfanne
 
+item.oreberry.name=Oreberry
 item.oreberry.iron.name=Eisenbeere
 item.oreberry.gold.name=Goldbeere
 item.oreberry.copper.name=Kupferbeere
@@ -153,6 +165,7 @@ item.tconstruct.titleicon.name=Erschaffe
 
 tile.tconstruct.meatblock.name=Knochenschinken
 
+item.InfiTool.name=Tool / Weapon
 item.InfiTool.Pickaxe.name=Spitzhacke
 item.InfiTool.Shovel.name=Schaufel
 item.InfiTool.Axe.name=Beil
@@ -206,6 +219,7 @@ item.tconstruct.PotionLauncher.name=Trankwerfer
 
 item.tool.randomarrow=Zufälliges Band
 
+item.tconstruct.Pattern.name=Pattern
 item.tconstruct.Pattern.blank_pattern.name=Leere Schablone
 item.tconstruct.Pattern.rod.name=Werkzeuggriffsschablone
 item.tconstruct.Pattern.pickaxe.name=Spitzhackenkopfschablone
@@ -238,6 +252,7 @@ item.tconstruct.Pattern.crossbowbody.name=Armbrustabzugschablone
 item.tconstruct.Pattern.bowlimb.name=Bogensehnenschablone
 
 item.tconstruct.Pattern.blank_cast.name=Leere Gussform
+item.tconstruct.MetalPattern.name=Cast
 item.tconstruct.MetalPattern.rod.name=Werkzeuggriffsgussform
 item.tconstruct.MetalPattern.pickaxe.name=Spitzhackenkopfgussform
 item.tconstruct.MetalPattern.shovel.name=Schaufelkopfgussform
@@ -272,6 +287,7 @@ item.tconstruct.MetalPattern.crossbowbody.name=Armbrustabzugsgussform
 item.tconstruct.MetalPattern.bowlimb.name=Bogensehnengussform
 item.tconstruct.GearPattern.name=Zahnradgussform
 
+item.tconstruct.ClayPattern.name=Clay Cast
 item.tconstruct.ClayPattern.rod.name=Tool Rod Clay Cast
 item.tconstruct.ClayPattern.pickaxe.name=Pickaxe Head Clay Cast
 item.tconstruct.ClayPattern.shovel.name=Shovel Head Clay Cast
@@ -305,6 +321,7 @@ item.tconstruct.ClayPattern.crossbowlimb.name=Crossbow Limb Clay Cast
 item.tconstruct.ClayPattern.crossbowbody.name=Crossbow Body Clay Cast
 item.tconstruct.ClayPattern.bowlimb.name=Bow Limb Clay Cast
 
+item.tconstruct.Materials.name=Material
 item.tconstruct.Materials.PaperStack.name=Papierstapel
 item.tconstruct.Materials.SlimeCrystal.name=Schleimkristall
 item.tconstruct.Materials.SearedBrick.name=Versengter Ziegelstein
@@ -366,6 +383,7 @@ item.tconstruct.travelboots.name=Stiefel des Reisenden
 item.tconstruct.travelgloves.name=Handschuhe des Reisenden
 item.tconstruct.travelbelt.name=Gürterl des Reisenden
 
+item.tconstruct.jerky.name=Jerky
 item.tconstruct.jerky.beef.name=Rindfleisch-Charqui
 item.tconstruct.jerky.pig.name=Schweinefleisch-Charqui
 item.tconstruct.jerky.chicken.name=Hühnchen-Charqui
@@ -378,6 +396,7 @@ item.tconstruct.jerky.blood.name=Geronnener Bluttropfen
 beginnertool.pickaxe=Anfängerspitzhacke
 beginnertool.hatchet=Anfängerbeil
 
+tile.Smeltery.name=Smeltery Block
 Smeltery.Controller.name=Schmelzereikern
 Smeltery.Drain.name=Schmelzereiausguss
 Smeltery.Brick.name=Versengte Ziegel
@@ -405,6 +424,7 @@ tile.trap.barricade.birch.name=Birken-Barrikade
 tile.trap.barricade.jungle.name=Tropen-Barrikade
 tile.explosive.slime.name=SDX
 
+tile.tconstruct.metalblock.name=Block
 StorageMetals.Cobalt.name=Cobaltblock
 StorageMetals.Ardite.name=Arditblock
 StorageMetals.Manyullyn.name=Block of Manyullyn
@@ -419,8 +439,10 @@ StorageMetals.Ender.name=Block Soliden Enders
 
 tile.decoration.stonetorch.name=Fackel
 tile.decoration.stoneladder.name=Leiter
+tile.CraftingSlab.name=Crafting Station
 tile.CraftingStation.name=Werkstation
 
+tile.GlassBlock.name=Glass
 block.glass.pure.name=Klares Glas
 block.glass.soul.name=Seelenglas
 block.glass.soul.pure.name=Klares Seelenglas
@@ -429,6 +451,7 @@ block.glass.pure.pane.name=Klare Glasscheibe
 block.glass.soul.pane.name=Seelenglasscheibe
 block.glass.soul.pane.pure.name=Klare Seelenglasscheibe
 
+tile.GlassBlock.StainedClear.name=Stained Glass
 block.stainedglass.white.name=Weiß getöntes Glas
 block.stainedglass.orange.name=Orange getöntes Glas
 block.stainedglass.magenta.name=Magenta getöntes Glas
@@ -446,6 +469,7 @@ block.stainedglass.green.name=Grün getöntes Glas
 block.stainedglass.red.name=Rot getöntes Glas
 block.stainedglass.black.name=Schwarz getöntes Glas
 
+tile.tconstruct.glasspanestained.name=Stained Pane
 block.stainedglass.white.pane.name=Weiß getönte Glasscheibe
 block.stainedglass.orange.pane.name=Orange getönte Glasscheibe
 block.stainedglass.magenta.pane.name=Magenta getönte Glasscheibe
@@ -463,6 +487,7 @@ block.stainedglass.green.pane.name=Grün getönte Glasscheibe
 block.stainedglass.red.pane.name=Rot getönte Glasscheibe
 block.stainedglass.black.pane.name=Schwarz getönte Glasscheibe
 
+tile.SearedSlab.name=Seared Slab
 block.searedstone.slab.brick.name=Versengte Ziegelstufe
 block.searedstone.slab.stone.name=Versengte Steinstufe
 block.searedstone.slab.cobble.name=Versengte Cobblestonestufe
@@ -481,15 +506,21 @@ block.soil.slab.graveyardsoil.name=Friedhofserdenstufe
 block.soil.slab.consecratedsoil.name=Gesegnete Erdstufe
 
 block.slime.soil.blue.name=Blauschleimerde
+tile.slime.leaves.name=Slimy Leaves
 block.slime.leaves.blue.name=Schleimige Blätter
+tile.slime.sapling.name=Slimy Sapling
 block.slime.sapling.bluegreen.name=Schleimiger Setzling
+tile.slime.grass.name=Slimy Grass
 block.slime.grass.blue.name=Schleimiges Gras
 block.slime.grass.dirt.name=Schleimiges Gras
+tile.slime.grass.tall.name=Slimy Grass
 block.slime.tallgrass.name=Schleimiges Gras
+tile.slime.gel.name=Congealed Slime
 block.slime.congealed.blue.name=Erstarrter Blauschleim
 block.slime.congealed.green.name=Erstarrter Grüner Schleim
 block.slime.congealed.purple.name=Erstarrter Violetter Schleim
 
+item.tconstruct.storage.name=Knapsack
 item.tconstruct.storage.knapsack.name=Rucksack
 item.tconstruct.blankpattern.pattern.name=Leere Schablone
 item.tconstruct.blankpattern.cast.name=Leere Gussform
@@ -504,12 +535,14 @@ item.tconstruct.Fletching.slime.name=Schleimige Befiederung
 item.tconstruct.Fletching.blueslime.name=Schleimige Befiederung
 item.tconstruct.Fletching.slimeleaf.name=Schleimblätter Befiederung
 
+item.tconstruct.manual.name=Manual
 item.tconstruct.manual.beginner.name=Materialien und Du: Band 1
 item.tconstruct.manual.toolstation.name=Materialien und Du: Band 2
 item.tconstruct.manual.smeltery.name=Die Mächtige Schmelzerei
 item.tconstruct.manual.diary.name=Tagebuch eines Bastlers
 item.tconstruct.manual.weaponry.name=Tinkers' Waffen
 
+item.tconstruct.bucket.name=Bucket
 item.tconstruct.bucket.Iron.name=Eimer mit geschmolzenem Eisen
 item.tconstruct.bucket.Gold.name=Eimer mit geschmolzenem Gold
 item.tconstruct.bucket.Copper.name=Eimer mit geschmolzenem Kupfer
@@ -604,10 +637,13 @@ LiquidMetal.Invar.name=Geschmolzenes Invar
 LiquidMetal.Electrum.name=Geschmolzenes Elektrum
 LiquidMetal.Ender.name=Verflüssigtes Ender
 
+item.tconstruct.apple.diamond.name=Jeweled Apple
 item.food.apple.diamond.name=Verzierter Apfel
+item.tconstruct.strangefood.name=Strange Food
 item.tconstruct.strangefood.edibleslime.name=Essbarer Schleim
 item.tconstruct.strangefood.edibleblood.name=Geronnenes Blut
 item.tconstruct.strangefood.bacon.name=Speck
+item.tconstruct.canister.name=Heart Canister
 item.tconstruct.canister.empty.name=Leerer Kanister
 item.tconstruct.canister.miniheart.red.name=Rotes Miniherz
 item.tconstruct.canister.red.name=Roter Herzkanister
@@ -618,6 +654,7 @@ item.tconstruct.canister.green.name=Grüner Herzkanister
 item.tconstruct.glove.name=Handschuh
 item.tconstruct.modifier.creative.name=Kreativ-Werkzeugmodifikator
 
+tile.SearedBlock.name=Seared Block
 SearedBlock.Table.name=Gusstisch
 SearedBlock.Faucet.name=Zapfhahn
 SearedBlock.Basin.name=Gussbecken
@@ -675,6 +712,38 @@ toolpart.CrossbowBody=%%material-Armbrustabzug
 toolpart.BowLimb=%%material-Bogensehne
 toolpart.Bolt=%%materialbolzen
 toolpart.Shaft=%%material-Pfeilschaft
+
+item.tconstruct.ArrowHead.name=Arrowhead
+item.tconstruct.AxeHead.name=Axe Head
+item.tconstruct.Binding.name=Binding
+item.tconstruct.Bolt.name=Bolt
+item.tconstruct.BowLimb.name=Bow Limb
+item.tconstruct.Bowstring.name=Bowstring
+item.tconstruct.ChiselHead.name=Chisel Head
+item.tconstruct.Crossbar.name=Crossbar
+item.tconstruct.CrossbowBody.name=Crossbow Body
+item.tconstruct.CrossbowLimb.name=Crossbow Limb
+item.tconstruct.ExcavatorHead.name=Excavator Head
+item.tconstruct.Fletching.name=Fletching
+item.tconstruct.FrypanHead.name=Pan
+item.tconstruct.FullGuard.name=Full Guard
+item.tconstruct.HammerHead.name=Hammer Head
+item.tconstruct.KnifeBlade.name=Knife Blade
+item.tconstruct.LargeGuard.name=Wide Guard
+item.tconstruct.LargePlate.name=Large Plate
+item.tconstruct.LargeSwordBlade.name=Large Sword Blade
+item.tconstruct.LumberAxeHead.name=Broad Axe Head
+item.tconstruct.MediumGuard.name=Hand Guard
+item.tconstruct.PickaxeHead.name=Pickaxe Head
+item.tconstruct.ScytheHead.name=Scythe Head
+item.tconstruct.ShovelHead.name=Shovel Head
+item.tconstruct.Shuriken.name=Shuriken
+item.tconstruct.SignHead.name=Sign Head
+item.tconstruct.SwordBlade.name=Sword Blade
+item.tconstruct.ToolRod.name=Tool Rod
+item.tconstruct.ToolShard.name=Shard
+item.tconstruct.ToughBinding.name=Tough Binding
+item.tconstruct.ToughRod.name=Tough Rod
 
 # Now with translations of specific material and part combinations:
 #toolpart.ToolRod.wood=Wooden Tool Rod
@@ -1013,6 +1082,7 @@ manual.page.modifier3=Tinker Tisch
 manual.page.casting1=Zutaten
 manual.page.tool1=Crafting Teile
 
+item.tconstruct.glassArrows.name=Glass Arrows
 tool.glassarrows=Glaspfeile
 tool.glassarrows.lore=Gecraftet von einem legendären Glasmacher
 tool.boneana.lore=Es klang wie eine gute Idee, damals
@@ -1114,6 +1184,7 @@ modifier.tooltip.Triple-Jump=Dreifachsprung
 modifier.tooltip.ThaumicVision=Thaumische Visionen
 modifier.tooltip.Water-Walking=Auf Wasser laufen
 
+tile.LavaTank.name=Seared Tank
 option.tcon.searedtank=Verbrannter Tank
 option.tcon.castingchannel=Gießkanal
 option.tcon.basin=Gießbecken

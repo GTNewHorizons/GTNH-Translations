@@ -213,9 +213,11 @@ item.railcraft.nugget.steel.name=Stahlnugget
 item.railcraft.nugget.tin.name=Zinnnugget
 
 item.railcraft.part.bleached.clay.name=Gebleichter Lehm
+item.railcraft.part.circuit.name=Circuit
 item.railcraft.part.circuit.controller.name=Steuerschaltung
 item.railcraft.part.circuit.receiver.name=Empfängerschaltung
 item.railcraft.part.circuit.signal.name=Signalstromkreis
+item.railcraft.part.gear.name=Gear
 item.railcraft.part.gear.bushing.name=Zinn-Zahnradbuchse
 item.railcraft.part.gear.gold.plate.name=Vergoldetes Zahnrad
 item.railcraft.part.gear.iron.name=Eisenzahnrad
@@ -225,16 +227,19 @@ item.railcraft.part.plate.iron.name=Eisenplatte
 item.railcraft.part.plate.lead.name=Bleiplatte
 item.railcraft.part.plate.steel.name=Stahlplatte
 item.railcraft.part.plate.tin.name=Zinnplatte
+item.railcraft.part.rail.name=Rail
 item.railcraft.part.rail.advanced.name=Erw. Schiene
 item.railcraft.part.rail.electric.name=Elektrische Schiene
 item.railcraft.part.rail.reinforced.name=Verstärkte Schiene
 item.railcraft.part.rail.speed.name=Hochgeschw. Schiene
 item.railcraft.part.rail.standard.name=Normale Schiene
 item.railcraft.part.rail.wood.name=Holzschiene
+item.railcraft.part.railbed.name=Railbed
 item.railcraft.part.railbed.stone.name=Steinschienenbett
 item.railcraft.part.railbed.wood.name=Holzschienenbett
 item.railcraft.part.rebar.name=Bewehrungsstab
 item.railcraft.part.signal.lamp.name=Signallampe
+item.railcraft.part.tie.name=Tie
 item.railcraft.part.tie.stone.name=Steinschwelle
 item.railcraft.part.tie.wood.name=Holzschwelle
 item.railcraft.part.turbine.blade.name=Turbinenschaufel
@@ -631,10 +636,12 @@ tile.detectorRail.name=Detektorschiene
 tile.goldenRail.name=Boosterschiene
 tile.rail.name=Schiene
 
+tile.railcraft.anvil.name=Steel Anvil
 tile.railcraft.anvil.intact.name=Stahlamboss
 tile.railcraft.anvil.slightlyDamaged.name=Leicht beschädigter Stahlamboss
 tile.railcraft.anvil.veryDamaged.name=Stark beschädigter Stahlamboss
 
+tile.railcraft.brick.abyssal.name=Abyssal Block
 tile.railcraft.brick.abyssal.block.name=Abyss-Block
 tile.railcraft.brick.abyssal.brick.name=Abyss-Ziegel
 tile.railcraft.brick.abyssal.cobble.name=Abyss-Pflasterstein
@@ -642,6 +649,7 @@ tile.railcraft.brick.abyssal.etched.name=Geätzter Abyss-Stein
 tile.railcraft.brick.abyssal.fitted.name=Gemeißelter Abyss-Stein
 tile.railcraft.brick.abyssal.ornate.name=Verzierter Abyss-Stein
 
+tile.railcraft.brick.bleachedbone.name=Bleached Bone Block
 tile.railcraft.brick.bleachedbone.block.name=Gebleichter Knochen-Block
 tile.railcraft.brick.bleachedbone.brick.name=Gebleichter Knochen-Ziegel
 tile.railcraft.brick.bleachedbone.cobble.name=Gebleichter Knochen-Pflasterstein
@@ -649,6 +657,7 @@ tile.railcraft.brick.bleachedbone.etched.name=Geätzter gebleichter Knochen-Stei
 tile.railcraft.brick.bleachedbone.fitted.name=Gemeißelter gebleichter Knochen-Stein
 tile.railcraft.brick.bleachedbone.ornate.name=Verzierter gebleichter Knochen-Stein
 
+tile.railcraft.brick.bloodstained.name=Blood Stained Block
 tile.railcraft.brick.bloodstained.block.name=Blutiger Block
 tile.railcraft.brick.bloodstained.brick.name=Blutiger Ziegel
 tile.railcraft.brick.bloodstained.cobble.name=Blutiger Pflasterstein
@@ -656,6 +665,7 @@ tile.railcraft.brick.bloodstained.etched.name=Geätzter Blutiger Stein
 tile.railcraft.brick.bloodstained.fitted.name=Gemeißelter Blutiger Stein
 tile.railcraft.brick.bloodstained.ornate.name=Verzierter Blutiger Stein
 
+tile.railcraft.brick.frostbound.name=Frost Bound Block
 tile.railcraft.brick.frostbound.block.name=Frostiger Block
 tile.railcraft.brick.frostbound.brick.name=Frostiger Ziegel
 tile.railcraft.brick.frostbound.cobble.name=Frostiger Pflasterstein
@@ -663,6 +673,7 @@ tile.railcraft.brick.frostbound.etched.name=Veätzter Frostiger Stein
 tile.railcraft.brick.frostbound.fitted.name=Gemeißelter Frostiger Stein
 tile.railcraft.brick.frostbound.ornate.name=Verzierter Frostiger Stein
 
+tile.railcraft.brick.infernal.name=Infernal Block
 tile.railcraft.brick.infernal.block.name=Höllischer Block
 tile.railcraft.brick.infernal.brick.name=Höllischer Ziegel
 tile.railcraft.brick.infernal.cobble.name=Höllischer Pflasterstein
@@ -670,12 +681,14 @@ tile.railcraft.brick.infernal.etched.name=Geätzter Höllischer Stein
 tile.railcraft.brick.infernal.fitted.name=Gemeißelter Höllischer Stein
 tile.railcraft.brick.infernal.ornate.name=Verzierter Höllischer Stein
 
+tile.railcraft.brick.nether.name=Nether Block
 tile.railcraft.brick.nether.block.name=Netherblock
 tile.railcraft.brick.nether.cobble.name=Nether-Pflasterstein
 tile.railcraft.brick.nether.etched.name=Gerätzter Netherstein
 tile.railcraft.brick.nether.fitted.name=Gemeißelter Netherstein
 tile.railcraft.brick.nether.ornate.name=Verzierter Netherstein
 
+tile.railcraft.brick.quarried.name=Quarried Block
 tile.railcraft.brick.quarried.block.name=Brüchiger Block
 tile.railcraft.brick.quarried.brick.name=Brüchiger Ziegel
 tile.railcraft.brick.quarried.cobble.name=Brüchiger Pflasterstein
@@ -683,6 +696,7 @@ tile.railcraft.brick.quarried.etched.name=Geätzter Brüchiger Stein
 tile.railcraft.brick.quarried.fitted.name=Gemeißelter Brüchiger Stein
 tile.railcraft.brick.quarried.ornate.name=Verzierter Brüchiger Stein
 
+tile.railcraft.brick.sandy.name=Sandy Block
 tile.railcraft.brick.sandy.block.name=Sandsteinblock
 tile.railcraft.brick.sandy.brick.name=Sandsteinziegel
 tile.railcraft.brick.sandy.cobble.name=Sand-Pflasterstein
@@ -690,6 +704,7 @@ tile.railcraft.brick.sandy.etched.name=Geätzter Sandstein
 tile.railcraft.brick.sandy.fitted.name=Gemeißelter Sandstein
 tile.railcraft.brick.sandy.ornate.name=Verzierter Sandstein
 
+tile.railcraft.cube.name=Block
 tile.railcraft.cube.brick.infernal.name=Verfluchter Ziegel (veraltet)
 tile.railcraft.cube.brick.sandy.name=Sandsteinziegel (veraltet)
 tile.railcraft.cube.coke.name=Koksblock
@@ -705,6 +720,7 @@ tile.railcraft.cube.stone.abyssal.name=Abyss-Stein
 tile.railcraft.cube.stone.quarried.name=Brüchiger Stein
 tile.railcraft.cube.tin.name=Zinnblock
 
+tile.railcraft.detector.name=Detector
 tile.railcraft.detector.advanced.name=Detektor - Fortgeschritten
 tile.railcraft.detector.age.name=Detektor - Alter
 tile.railcraft.detector.animal.name=Detektor - Tiere
@@ -734,6 +750,7 @@ tile.railcraft.frame.tip=Verwende es, um Schienen auf Rangierkabeln zu platziere
 
 tile.railcraft.glass.name=Gestärktes Glas
 
+tile.railcraft.machine.alpha.name=Machine
 tile.railcraft.machine.alpha.anchor.admin.name=Admin-Anker
 tile.railcraft.machine.alpha.anchor.passive.name=Passivanker
 tile.railcraft.machine.alpha.anchor.personal.name=Persönlicher Anker
@@ -757,6 +774,7 @@ tile.railcraft.machine.alpha.trade.station.name=Handelsstation
 tile.railcraft.machine.alpha.turbine.name=Dampfturbinengehäuse
 tile.railcraft.machine.alpha.turbine.tip=Multiblock: 3x2x2\n Generiert Elektrizität aus Dampf\nGibt unten Wasser ab\n Benötigt einen Turbinenrotor
 
+tile.railcraft.machine.beta.name=Machine
 tile.railcraft.machine.beta.anchor.sentinel.name=Anker-Markierung
 tile.railcraft.machine.beta.boiler.firebox.liquid.name=Öl-Dampfkessel-Feuerbüchse
 tile.railcraft.machine.beta.boiler.firebox.liquid.tip=Multiblock: variable Größe, unterste Ebene\n Abmessung: 1x1, 2x2, 3x3
@@ -789,9 +807,11 @@ tile.railcraft.machine.beta.tank.steel.valve.tip=Multiblock: muss in die unteren
 tile.railcraft.machine.beta.tank.steel.wall.name=Stahltankwand
 tile.railcraft.machine.beta.tank.steel.wall.tip=Multiblock: variable Größe, Hohlraum\n Höhen: 4, 5, 6, 7, 8\n Abmessungen: 3, 5, 7, 9
 
+tile.railcraft.machine.delta.name=Electric Shunting Wire
 tile.railcraft.machine.delta.wire.name=Elektrisches Rangierkabel
 tile.railcraft.machine.delta.wire.tip=Verbindet Elektrische Schienen über Lücken\n Platziere unterhalb von Schienen,\n die Kabelstützrahmen verwenden
 
+tile.railcraft.machine.epsilon.name=Machine
 tile.railcraft.machine.epsilon.admin.steam.producer.name=Admin-Dampfproduzent
 tile.railcraft.machine.epsilon.admin.steam.producer.tip=Gibt unendlich Dampf
 tile.railcraft.machine.epsilon.electric.feeder.admin.name=Admin-Feeder-Einheit
@@ -804,6 +824,7 @@ tile.railcraft.machine.epsilon.flux.transformer.tip=Multi-Block: 2x2x2\n Wandelt
 tile.railcraft.machine.epsilon.force.track.emitter.name=Kraftschienenemitter
 tile.railcraft.machine.epsilon.force.track.emitter.tip=Projeziert energiebasierte Schienen
 
+tile.railcraft.machine.gamma.name=Machine
 tile.railcraft.machine.gamma.dispenser.cart.name=Waggonspender
 tile.railcraft.machine.gamma.dispenser.cart.tip=Lädt Waggons direkt auf Schienen\n§o§9- Verändere die Ausrichtung mit einem Brecheisen -\n§o§c- Lade Waggon mit einem Redstone-Signal auf Schiene -
 tile.railcraft.machine.gamma.dispenser.train.name=Zugspender
@@ -835,6 +856,7 @@ railcraft.gui.tank.titanium=Titanium Tank
 railcraft.gui.tank.tungstensteel=Tungstensteel Tank
 railcraft.gui.tank.palladium=Palladium Tank
 
+tile.railcraft.machine.zeta.name=Tank
 tile.railcraft.machine.zeta.tank.aluminium.gauge.name=Aluminium Tank Gauge
 tile.railcraft.machine.zeta.tank.aluminium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
 tile.railcraft.machine.zeta.tank.aluminium.valve.name=Aluminium Tank Valve
@@ -870,6 +892,7 @@ railcraft.gui.tank.iridium=Iridium Tank
 railcraft.gui.tank.osmium=Osmium Tank
 railcraft.gui.tank.neutronium=Neutronium Tank
 
+tile.railcraft.machine.eta.name=Tank
 tile.railcraft.machine.eta.tank.iridium.gauge.name=Iridium Tank Gauge
 tile.railcraft.machine.eta.tank.iridium.gauge.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
 tile.railcraft.machine.eta.tank.iridium.valve.name=Iridium Tank Valve
@@ -889,6 +912,7 @@ tile.railcraft.machine.eta.tank.neutronium.valve.tip=Multi-Block: Must be in bot
 tile.railcraft.machine.eta.tank.neutronium.wall.name=Neutronium Tank Wall
 tile.railcraft.machine.eta.tank.neutronium.wall.tip=Multi-Block: Variable Size, Hollow\n Heights: 4, 5, 6, 7, 8\n Diameters: 3, 5, 7, 9
 
+tile.railcraft.ore.name=Ore
 tile.railcraft.ore.dark.diamond.name=Dunkles Diamanterz
 tile.railcraft.ore.dark.emerald.name=Dunkles Smaragderz
 tile.railcraft.ore.dark.lapis.name=Dunkles Lapis-Lazuli-Erz
@@ -903,6 +927,7 @@ tile.railcraft.ore.saltpeter.name=Salpetererz
 tile.railcraft.ore.sulfur.name=Schwefelerz
 
 tile.railcraft.post.emblem.name=Emblempfosten
+tile.railcraft.post.metal.name=Metal Post
 tile.railcraft.post.metal.black.name=Schwarzer Metallpfosten
 tile.railcraft.post.metal.blue.name=Blauer Metallpfosten
 tile.railcraft.post.metal.brown.name=Brauner Metallpfosten
@@ -916,6 +941,7 @@ tile.railcraft.post.metal.magenta.name=Magentafarbener Metallpfosten
 tile.railcraft.post.metal.unpainted.name=Metallpfosten
 tile.railcraft.post.metal.orange.name=Orangener Metallpfosten
 tile.railcraft.post.metal.pink.name=Pinker Metallpfosten
+tile.railcraft.post.metal.platform.name=Metal Platform
 tile.railcraft.post.metal.platform.black.name=Schwarze Metallplattform
 tile.railcraft.post.metal.platform.blue.name=Blaue Metallplattform
 tile.railcraft.post.metal.platform.brown.name=Braune Metallplattform
@@ -939,11 +965,13 @@ tile.railcraft.post.metal.white.name=Weißer Metallpfosten
 tile.railcraft.post.metal.yellow.name=Gelber Metallpfosten
 tile.railcraft.post.stone.name=Steinpfosten
 tile.railcraft.post.stone.platform.name=Steinplattform
+tile.railcraft.post.name=Wooden Post
 tile.railcraft.post.wood.name=Holzpfosten
 tile.railcraft.post.wood.platform.name=Hölzerne Plattform
 
 tile.railcraft.residual.heat.name=Restwärme
 
+tile.railcraft.signal.name=Signal
 tile.railcraft.signal.block.signal.dual.name=Doppelkopf-Blocksignal
 tile.railcraft.signal.block.signal.dual.tip=Erkennt Schienenfahrzeuge im Signalblock\nZeigt Aspekt des verbundenen Controllers\n§o§9Fernverbindungen:\n§o§9- 1x Signalblock\n§o§9- 1x Controller\n§o§9- 1x Empfänger\n§o§cWichtiges Werkzeug:\n§o§c- Abstimmgerät\n§o§c- Signalblockvermesser
 tile.railcraft.signal.block.signal.name=Blocksignal
@@ -973,6 +1001,7 @@ tile.railcraft.signal.switch.motor.tip=Steuert verbundene Weichen\n§o§9Fernver
 tile.railcraft.signal.switch.routing.name=Routender Stellantrieb
 tile.railcraft.signal.switch.routing.tip=Steuert verbundene Weichen\n§o§9Steuerung durch Logikskript\n§o§cWichtiges Werkzeug:\n§o§c- Streckenplan
 
+tile.railcraft.slab.name=Slab
 tile.railcraft.slab.abyssal.block.name=Abyss-Blockstufe
 tile.railcraft.slab.abyssal.brick.name=Abyss-Ziegel-Stufe
 tile.railcraft.slab.abyssal.cobble.name=Abyss-Pflastersteinstufe
@@ -1018,6 +1047,7 @@ tile.railcraft.slab.snow.name=Schneestufe
 tile.railcraft.slab.steel.name=Stahlstufe
 tile.railcraft.slab.tin.name=Zinnstufe
 
+tile.railcraft.stair.name=Stairs
 tile.railcraft.stair.abyssal.block.name=Abyss-Blocktreppe
 tile.railcraft.stair.abyssal.brick.name=Abyss-Ziegeltreppe
 tile.railcraft.stair.abyssal.cobble.name=Abyss-Pflastersteintreppe
@@ -1063,6 +1093,7 @@ tile.railcraft.stair.snow.name=Schneetreppe
 tile.railcraft.stair.steel.name=Stahltreppe
 tile.railcraft.stair.tin.name=Zinntreppe
 
+tile.railcraft.lantern.metal.name=Lantern
 tile.railcraft.lantern.metal.copper.name=Kupferlaterne
 tile.railcraft.lantern.metal.gold.name=Goldlaterne
 tile.railcraft.lantern.metal.iron.name=Eisenlaterne
@@ -1070,6 +1101,7 @@ tile.railcraft.lantern.metal.lead.name=Bleilaterne
 tile.railcraft.lantern.metal.steel.name=Stahllaterne
 tile.railcraft.lantern.metal.tin.name=Zinnlaterne
 
+tile.railcraft.lantern.stone.name=Stone Lantern
 tile.railcraft.lantern.stone.abyssal.name=Abyss-Steinlaterne
 tile.railcraft.lantern.stone.bleachedbone.name=Gebleichte Knochen-Steinlaterne
 tile.railcraft.lantern.stone.bloodstained.name=Blutige Steinlaterne
@@ -1081,6 +1113,7 @@ tile.railcraft.lantern.stone.sandstone.name=Sandsteinlaterne
 tile.railcraft.lantern.stone.sandy.name=Sandige Steinlaterne
 tile.railcraft.lantern.stone.stone.name=Steinlaterne
 
+tile.railcraft.track.name=Track
 tile.railcraft.track.boarding.name=Einstiegsschiene
 tile.railcraft.track.boarding.tip=Durch die Sperrschiene ersetzt
 tile.railcraft.track.boarding.train.name=Zugeinstiegsschiene
@@ -1178,6 +1211,8 @@ tile.railcraft.track.wye.tip=§o§c- Benötigt Motorisierten/Manuellen Stellantr
 tile.railcraft.track.autolococoupler.name=Automatischer Lokomotivenkoppler
 tile.railcraft.track.autolococoupler.tip=Sorgt dafür, dass passierende Lokomotiven mit\ndem ersten Wagen, mit dem sie\nkollidieren, koppeln und dann\nAuf Rangiergeschwindigkeit umschalten.\n§o§c- Aktiviere mit einem Redstone-Signal -
 
+tile.railcraft.wall.alpha.name=Wall
+tile.railcraft.wall.beta.name=Wall
 tile.railcraft.wall.abyssal.brick.name=Abyss-Ziegelmauer
 tile.railcraft.wall.bleachedbone.brick.name=Gebleichte Knochen-Ziegelmauer
 tile.railcraft.wall.bloodstained.brick.name=Blutige Ziegelmauer
