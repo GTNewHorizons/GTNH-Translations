@@ -127,6 +127,7 @@ Translations in mod jars -> ParaTranz
 
 ## Things to be done
 
+- Fix entries with (+n) notation
 - Add support for IC2
 - Support ____gtnhoverridenames [#12](https://github.com/GTNewHorizons/GTNH-Translations/issues/12)
 - Support non-standard config files for ParaTranz [#20](https://github.com/GTNewHorizons/GTNH-Translations/issues/20)

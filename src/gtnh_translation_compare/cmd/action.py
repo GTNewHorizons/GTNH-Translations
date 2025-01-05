@@ -6,6 +6,7 @@ from pathlib import Path
 import subprocess
 from typing import Sequence, TypeAlias, Callable, Optional
 
+from gtnh_translation_compare.utils.github_action import set_output
 import httpx
 from dulwich import porcelain
 from loguru import logger
@@ -221,6 +222,7 @@ class Action:
             paths_to_commit,
             settings.GIT_AUTHOR,
             f"Nightly modpack {str(datetime.date.today())}",
+            allow_empty=True,
         )
 
     def save_nightly_modpack_history(
@@ -421,8 +423,16 @@ def git_commit(
     paths: list[str],
     author: Optional[str],
     message: str,
+    allow_empty: bool = False,
 ) -> None:
     porcelain.add(git_root, paths)  # type: ignore[no-untyped-call]
+    staged = porcelain.status(git_root).staged  # type: ignore[no-untyped-call]
+    if not allow_empty and len(staged['add']) == 0 and len(staged['delete']) == 0 and len(staged['modify']) == 0:
+        logger.info("No changes to commit")
+        return
+
+    logger.info("Changes: {}", staged)
+    set_output("found_update", "true")
     porcelain.commit(  # type: ignore[no-untyped-call]
         git_root,
         message=message,

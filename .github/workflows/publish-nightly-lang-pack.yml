@@ -29,9 +29,47 @@ env:
   PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
 
 jobs:
+  sync-from-paratranz:
+    name: Sync ${{ inputs.target_lang }} from ParaTranz
+    runs-on: ubuntu-latest
+    outputs:
+      found_update: ${{ steps.sync-from-paratranz.outputs.found_update }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Get project ID
+        id: get-project-id
+        uses: ./.github/actions/get-project-id
+        with:
+          target_lang: ${{ inputs.target_lang }}
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+
+      - name: Sync from ParaTranz
+        id: sync-from-paratranz
+        run: >-
+          poetry run python main.py action sync-from-paratranz
+          --subdirectory='${{ inputs.target_lang }}'
+        env:
+          PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
+          TARGET_LANG: ${{ inputs.target_lang }}
+      - name: Push commits
+        if: ${{ steps.sync-from-paratranz.outputs.found_update == 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
+          git pull origin master
+          git push origin master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   nightly-build:
     name: ${{ inputs.target_lang }} Nightly Build
     runs-on: ubuntu-latest
+    needs: sync-from-paratranz
+    if: ${{ needs.sync-from-paratranz.outputs.found_update == 'true' }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -48,15 +86,6 @@ jobs:
           target_lang: ${{ inputs.target_lang }}
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
-
-      - name: Sync from ParaTranz
-        run: >-
-          poetry run python main.py action sync-from-paratranz
-          --subdirectory='${{ inputs.target_lang }}'
-        env:
-          PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
-          TARGET_LANG: ${{ inputs.target_lang }}
-
       - name: Ensure temp dir
         run: mkdir temp
       - name: Ensure assets dir
