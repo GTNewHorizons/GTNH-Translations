@@ -31,7 +31,7 @@ env:
 jobs:
   sync-from-paratranz:
     name: Sync ${{ inputs.target_lang }} from ParaTranz
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     outputs:
       found_update: ${{ steps.sync-from-paratranz.outputs.found_update }}
     steps:
@@ -67,7 +67,7 @@ jobs:
 
   nightly-build:
     name: ${{ inputs.target_lang }} Nightly Build
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: sync-from-paratranz
     if: ${{ needs.sync-from-paratranz.outputs.found_update == 'true' }}
     steps:
