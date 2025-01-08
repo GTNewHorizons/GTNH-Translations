@@ -5,28 +5,28 @@
 
 # Pipes
 item.PipeItemsBasicTransport=Не направляющая транспортная труба
-item.PipeItemsBasicTransport.name=Unrouted Transport Pipe
+item.PipeItemsBasicTransport.name=Не направляющая транспортная труба
 item.PipeItemsBasicTransport.tip1=Тип: Нетрассировачная транспортная труба
 item.PipeItemsBasicTransport.tip2= - Служит для перемещения предметов
 item.PipeItemsBasicTransport.tip3= - Не умеет направлять предметы в нужную сторону
 item.PipeItemsBasicTransport.tip4= - Не подключается к инвентарям, ввиду отсутствия логики
 
 item.PipeItemsBasicLogistics=Основная логистическая труба
-item.PipeItemsBasicLogistics.name=Basic Logistics Pipe
+item.PipeItemsBasicLogistics.name=Основная логистическая труба
 item.PipeItemsBasicLogistics.tip1=Тип: Пассивный трассировщик, задающий направления
 item.PipeItemsBasicLogistics.tip2= - Циркулирует предметы в пределах подключения системы
 item.PipeItemsBasicLogistics.tip3= - Может складывать заданные типы предметов в сундуки
 item.PipeItemsBasicLogistics.tip4= - %cYELLOW Склад по-ум: %cRESET Предметы, не имеющие заданного назначения в системе, будут складываться в подключённое к трубе/шасси хранилище
 
 item.PipeItemsRequestLogistics=Логистическая труба запросов
-item.PipeItemsRequestLogistics.name=Request Logistics Pipe
+item.PipeItemsRequestLogistics.name=Логистическая труба запросов
 item.PipeItemsRequestLogistics.tip1=Тип: Активный запросчик
 item.PipeItemsRequestLogistics.tip2= - Позволяет вручную заказывать предметы
 item.PipeItemsRequestLogistics.tip3= - Предметы могут запрашиваться от любого логистического поставщика или приходить в результате преобразований
 item.PipeItemsRequestLogistics.tip4= - Выбрасывает предметы, но может перехватывать и складывать их в подключённое хранилище
 
 item.PipeItemsRequestLogisticsMk2=Логистическая труба запросов Mk2
-item.PipeItemsRequestLogisticsMk2.name=Request Logistics Pipe Mk2
+item.PipeItemsRequestLogisticsMk2.name=Логистическая труба запросов Mk2
 item.PipeItemsRequestLogisticsMk2.tip1=Тип: Активный запросчик
 item.PipeItemsRequestLogisticsMk2.tip2= - Быстрее, чем Mk1
 item.PipeItemsRequestLogisticsMk2.tip3= - Позволяет вручную заказывать предметы
@@ -34,21 +34,21 @@ item.PipeItemsRequestLogisticsMk2.tip4= - Предметы могут запра
 item.PipeItemsRequestLogisticsMk2.tip5= - Выбрасывает предметы, но может перехватывать и складывать их в подключённое хранилище
 
 item.PipeItemsProviderLogistics=Логистическая труба-провайдер
-item.PipeItemsProviderLogistics.name=Provider Logistics Pipe
+item.PipeItemsProviderLogistics.name=Логистическая труба-провайдер
 item.PipeItemsProviderLogistics.tip1=Тип: Поставщик предметов
 item.PipeItemsProviderLogistics.tip2= - Присоединяется к хранилищу
 item.PipeItemsProviderLogistics.tip3= - По запросу, отсылает порциями по 16 предметов в логистическую систему
 item.PipeItemsProviderLogistics.tip4= - Игнорирует трубы снабжателей, находящиеся на этом же блоке
 
 item.PipeItemsProviderLogisticsMk2=Логистическая труба-провайдер Mk2
-item.PipeItemsProviderLogisticsMk2.name=Provider Logistics Pipe Mk2
+item.PipeItemsProviderLogisticsMk2.name=Логистическая труба-провайдер Mk2
 item.PipeItemsProviderLogisticsMk2.tip1=Тип: Поставщик предметов
 item.PipeItemsProviderLogisticsMk2.tip2= - Присоединяется к хранилищу
 item.PipeItemsProviderLogisticsMk2.tip3= - По запросу, отсылает порциями по 64 предмета в логистическую систему
 item.PipeItemsProviderLogisticsMk2.tip4= - Игнорирует трубы снабжателей, находящиеся на этом же блоке
 
 item.PipeItemsCraftingLogistics=Логистическая труба создания
-item.PipeItemsCraftingLogistics.name=Crafting Logistics Pipe
+item.PipeItemsCraftingLogistics.name=Логистическая труба создания
 item.PipeItemsCraftingLogistics.tip1=Тип: Активный запросчик, а после преобразования - поставщик
 item.PipeItemsCraftingLogistics.tip2= - Создаёт по предмету за раз
 item.PipeItemsCraftingLogistics.tip3= - Присоединяется, например, к логистическим верстакам и не только
@@ -56,7 +56,7 @@ item.PipeItemsCraftingLogistics.tip4= - По запросу помещает п�
 item.PipeItemsCraftingLogistics.tip5= - Может объединятся с вспомогательной логистической трубой
 
 item.PipeItemsCraftingLogisticsMk2=Логистическая труба создания Mk2
-item.PipeItemsCraftingLogisticsMk2.name=Crafting Logistics Pipe Mk2
+item.PipeItemsCraftingLogisticsMk2.name=Логистическая труба создания Mk2
 item.PipeItemsCraftingLogisticsMk2.tip1=Тип: Активный запросчик, а после преобразования - поставщик
 item.PipeItemsCraftingLogisticsMk2.tip2= - Создаёт 16 предметов за раз.
 item.PipeItemsCraftingLogisticsMk2.tip3= - Присоединяется, например, к логистическим верстакам и не только
@@ -64,7 +64,7 @@ item.PipeItemsCraftingLogisticsMk2.tip4= - По запросу помещает 
 item.PipeItemsCraftingLogisticsMk2.tip5= - Может объединятся с вспомогательной логистической трубой
 
 item.PipeItemsCraftingLogisticsMk3=Логистическая труба создания Mk3
-item.PipeItemsCraftingLogisticsMk3.name=Crafting Logistics Pipe Mk3
+item.PipeItemsCraftingLogisticsMk3.name=Логистическая труба создания Mk3
 item.PipeItemsCraftingLogisticsMk3.tip1=Тип: Активный запросчик, а после преобразования - поставщик
 item.PipeItemsCraftingLogisticsMk3.tip2= - Создаёт 64 предмета за раз
 item.PipeItemsCraftingLogisticsMk3.tip3= - Присоединяется, например, к логистическим верстакам и не только
@@ -72,12 +72,12 @@ item.PipeItemsCraftingLogisticsMk3.tip4= - По запросу помещает 
 item.PipeItemsCraftingLogisticsMk3.tip5= - Может объединятся с вспомогательной логистической трубой
 
 item.PipeItemsSatelliteLogistics=Вспомогательная логистическая труба
-item.PipeItemsSatelliteLogistics.name=Satellite Logistics Pipe
+item.PipeItemsSatelliteLogistics.name=Вспомогательная логистическая труба
 item.PipeItemsSatelliteLogistics.tip1=Тип: Активный запросчик и корректировщик маршрута
 item.PipeItemsSatelliteLogistics.tip2= - %cITALIC Труба создания %cRESET может перенаправлять предметы через данную трубу к другому входу
 
 item.PipeItemsSupplierLogistics=Логистическая труба снабжения
-item.PipeItemsSupplierLogistics.name=Supplier Logistics Pipe
+item.PipeItemsSupplierLogistics.name=Логистическая труба снабжения
 item.PipeItemsSupplierLogistics.tip1=Тип: Активный запросчик
 item.PipeItemsSupplierLogistics.tip2= - Автоматически снабжает хранилище или механизм
 item.PipeItemsSupplierLogistics.tip3= - Предметы могут запрашиваться от любого логистического поставщика или приходить в результате преобразований
@@ -88,51 +88,51 @@ item.PipeItemsBuilderSupplierLogistics.tip1=Тип: Активный запро�
 item.PipeItemsBuilderSupplierLogistics.tip2= - Автоматически заполняет BuildCraft/Строитель всеми необходимыми материалами
 
 item.PipeLogisticsChassiMk1=Логистическое шасси Mk1
-item.PipeLogisticsChassiMk1.name=Logistics Chassis Mk1
+item.PipeLogisticsChassiMk1.name=Логистическое шасси Mk1
 item.PipeLogisticsChassiMk1.tip1=Тип: Настраиваемая труба
 item.PipeLogisticsChassiMk1.tip2= - Может подключать 1 модуль
 
 item.PipeLogisticsChassiMk2=Логистическое шасси Mk2
-item.PipeLogisticsChassiMk2.name=Logistics Chassis Mk2
+item.PipeLogisticsChassiMk2.name=Логистическое шасси Mk2
 item.PipeLogisticsChassiMk2.tip1=Тип: Настраиваемая труба
 item.PipeLogisticsChassiMk2.tip2= - Может подключать 2 модуля
 
 item.PipeLogisticsChassiMk3=Логистическое шасси Mk3
-item.PipeLogisticsChassiMk3.name=Logistics Chassis Mk3
+item.PipeLogisticsChassiMk3.name=Логистическое шасси Mk3
 item.PipeLogisticsChassiMk3.tip1=Тип: Настраиваемая труба
 item.PipeLogisticsChassiMk3.tip2= - Может подключать 3 модуля
 
 item.PipeLogisticsChassiMk4=Логистическое шасси Mk4
-item.PipeLogisticsChassiMk4.name=Logistics Chassis Mk4
+item.PipeLogisticsChassiMk4.name=Логистическое шасси Mk4
 item.PipeLogisticsChassiMk4.tip1=Тип: Настраиваемая труба
 item.PipeLogisticsChassiMk4.tip2= - Может подключать 4 модуля
 
 item.PipeLogisticsChassiMk5=Логистическое шасси Mk5
-item.PipeLogisticsChassiMk5.name=Logistics Chassis Mk5
+item.PipeLogisticsChassiMk5.name=Логистическое шасси Mk5
 item.PipeLogisticsChassiMk5.tip1=Тип: Настраиваемая труба
 item.PipeLogisticsChassiMk5.tip2= - Может подключать 8 модулей
 
 item.PipeItemsRemoteOrdererLogistics=Логистическая труба дистанционных запросов
-item.PipeItemsRemoteOrdererLogistics.name=Remote Orderer Logistics Pipe
+item.PipeItemsRemoteOrdererLogistics.name=Логистическая труба дистанционных запросов
 item.PipeItemsRemoteOrdererLogistics.tip1=Тип: Активный запросчик
 item.PipeItemsRemoteOrdererLogistics.tip2= - Позволяет вручную запрашивать предметы дистанционно
 item.PipeItemsRemoteOrdererLogistics.tip3= - Предметы могут запрашиваться от любого логистического поставщика или приходить в результате преобразований
 item.PipeItemsRemoteOrdererLogistics.tip4= - Для привязки этой трубы к дистанционному пульту - кликните *ПКМ* по ней этим пультом
 
 item.PipeItemsApiaristAnalyser=Логистическая труба-анализатор пчёл
-item.PipeItemsApiaristAnalyser.name=Bee Analyzer Logistics Pipe
+item.PipeItemsApiaristAnalyser.name=Логистическая труба-анализатор пчёл
 item.PipeItemsApiaristAnalyser.tip1=Тип: Пассивное назначение
 item.PipeItemsApiaristAnalyser.tip2= - Пассивное назначение для не-анализированных пчёл
 item.PipeItemsApiaristAnalyser.tip3= - Позволяет анализировать автоматически
 
 item.PipeItemsApiaristSink=Логистическая BeeSink труба
-item.PipeItemsApiaristSink.name=BeeSink Logistics Pipe
+item.PipeItemsApiaristSink.name=Логистическая BeeSink труба
 item.PipeItemsApiaristSink.tip1=Тип: Пассивное назначение
 item.PipeItemsApiaristSink.tip2= - Пассивное назначение для анализированных пчёл
 item.PipeItemsApiaristSink.tip3= - Может фильтровать на основе генетических свойств и генома.
 
 item.PipeItemsInvSysConnector=Логистический инвентарный системный коннектор
-item.PipeItemsInvSysConnector.name=Logistics Inventory System Connector
+item.PipeItemsInvSysConnector.name=Логистический инвентарный системный коннектор
 item.PipeItemsInvSysConnector.tip1=Тип: Переправа
 item.PipeItemsInvSysConnector.tip2= - Соединяет две логистические системы вместе
 item.PipeItemsInvSysConnector.tip3=   через общий буфер (хранилище)
@@ -140,7 +140,7 @@ item.PipeItemsInvSysConnector.tip4= - Обычно используют сунд
 item.PipeItemsInvSysConnector.tip5=   также можете соорудить сообщение через Ж/Д (Вагонеткой с сундуком)
 
 item.PipeItemsSystemEntranceLogistics=Логистическая системная входная труба
-item.PipeItemsSystemEntranceLogistics.name=Logistics System Entrance Pipe
+item.PipeItemsSystemEntranceLogistics.name=Логистическая системная входная труба
 item.PipeItemsSystemEntranceLogistics.tip1=Тип: Маршрутизатор
 item.PipeItemsSystemEntranceLogistics.tip2= - Отправляет предметы без назначения (например, новые или случайные)
 item.PipeItemsSystemEntranceLogistics.tip3=   в присоединённую трубу назначения
@@ -148,7 +148,7 @@ item.PipeItemsSystemEntranceLogistics.tip4= - Оба: Вход и назначе
 item.PipeItemsSystemEntranceLogistics.tip5=   закодированной на единую частоту картой
 
 item.PipeItemsSystemDestinationLogistics=Логистическая системная труба назначения
-item.PipeItemsSystemDestinationLogistics.name=Logistics System Destination Pipe
+item.PipeItemsSystemDestinationLogistics.name=Логистическая системная труба назначения
 item.PipeItemsSystemDestinationLogistics.tip1=Тип: Условное назначение
 item.PipeItemsSystemDestinationLogistics.tip2= - Получает предметы без назначения (например, новые или случайные)
 item.PipeItemsSystemDestinationLogistics.tip3=   от присоединённой входной трубы
@@ -156,32 +156,32 @@ item.PipeItemsSystemDestinationLogistics.tip4= - Оба: Вход и назна�
 item.PipeItemsSystemDestinationLogistics.tip5=   закодированной на единую частоту картой
 
 item.PipeItemsFirewall=Логистическая брандмауэрная труба
-item.PipeItemsFirewall.name=Logistics Firewall Pipe
+item.PipeItemsFirewall.name=Логистическая брандмауэрная труба
 item.PipeItemsFirewall.tip1=Тип: Фильтр запросов
 item.PipeItemsFirewall.tip2= - Позволяет подключать "враждебные" системы, позволяя
 item.PipeItemsFirewall.tip3=   при этом проходить только конкретным предметам
 
 item.PipeItemsFluidSupplier=Логистическая труба снабжения жидкостных контейнеров
-item.PipeItemsFluidSupplier.name=Logistics Fluid Container Supplier
+item.PipeItemsFluidSupplier.name=Логистическая труба снабжения жидкостных контейнеров
 item.PipeItemsFluidSupplier.tip1=Использует контейнеры с жидкостью для наполнения подключённой цистерны
 item.PipeFluidSupplierMk2=Логистическая жидкостная труба снабжения
-item.PipeFluidSupplierMk2.name=Logistics Fluid Supplier
+item.PipeFluidSupplierMk2.name=Логистическая жидкостная труба снабжения
 item.PipeFluidSupplierMk2.tip1=Запрашивает жидкости из жидкостной трубы-поставщика
 item.LogisticsFluidConnectorPipe=Логистическая жидкостная труба-коннектор
 item.PipeFluidBasic=Логистическая жидкостная основная труба
-item.PipeFluidBasic.name=Logistics Fluid Basic Pipe
+item.PipeFluidBasic.name=Логистическая жидкостная основная труба
 item.PipeFluidInsertion=Логистическая жидкостная вводящая труба
-item.PipeFluidInsertion.name=Logistics Fluid Insertion Pipe
+item.PipeFluidInsertion.name=Логистическая жидкостная вводящая труба
 item.PipeFluidProvider=Логистическая жидкостная труба-провайдер
-item.PipeFluidProvider.name=Logistics Fluid Provider Pipe
+item.PipeFluidProvider.name=Логистическая жидкостная труба-провайдер
 item.PipeFluidRequestLogistics=Логистическая жидкостная труба запросов
-item.PipeFluidRequestLogistics.name=Logistics Fluid Request Pipe
+item.PipeFluidRequestLogistics.name=Логистическая жидкостная труба запросов
 item.PipeFluidExtractor=Логистическая жидкостная извлекающая труба
-item.PipeFluidExtractor.name=Logistics Fluid Extractor Pipe
+item.PipeFluidExtractor.name=Логистическая жидкостная извлекающая труба
 item.PipeFluidSatellite=Логистическая жидкостная вспомогательная труба
-item.PipeFluidSatellite.name=Logistics Fluid Satellite Pipe
+item.PipeFluidSatellite.name=Логистическая жидкостная вспомогательная труба
 item.PipeBlockRequestTable=Логистический стол запросов
-item.PipeBlockRequestTable.name=Logistics Request Table
+item.PipeBlockRequestTable.name=Логистический стол запросов
 
 item.logisticspipes.tip.active_destination=Допустимый пункт назначения для %cYELLOW активных %cGRAY маршрутов
 item.logisticspipes.tip.passive_destination=Допустимый пункт назначения для %cYELLOW пассивных %cGRAY  маршрутов
@@ -192,7 +192,7 @@ item.logisticspipes.tip.passive_source=Действительный источн
 
 #TODO: Add shift tooltip information
 
-item.itemModule.name=Module
+item.itemModule.name=Модуль
 item.ModuleBlank=Пустой модуль
 item.ModuleItemSink=Модуль: ItemSink
 item.ModulePassiveSupplier=Модуль: Снабжатель. Пассивный
@@ -230,7 +230,7 @@ item.ModuleTypeFilterItemSink=Тип фильтр: ItemSink модуль
 # Items
 
 item.structframe=Структурная рамка трубы
-item.pipeComponents.name=Structural Pipe Frame
+item.pipeComponents.name=Структурная рамка трубы
 item.microservo=Микромотор
 item.routeprocess=Маршрутизированый логистический процессор
 item.micropackager=Микро-упаковщик
@@ -244,32 +244,32 @@ item.diamondupgradechip=Алмазное улучшение
 item.goldcraftingupgradechip=Улучшенный золотой чип создания
 item.diamondcraftingupgradechip=Улучшенный алмазный чип создания
 item.pipeController=Контроллер логистических труб
-item.pipeController.name=Logistics Pipe Controller
+item.pipeController.name=Контроллер логистических труб
 item.brokenItem=Логистический сломанный предмет
-item.brokenItem.name=Logistics Broken Item
+item.brokenItem.name=Логистический сломанный предмет
 item.logisticsFluidContainer=Логистический жидкостный контейнер
-item.logisticsFluidContainer.name=Logistics Fluid Container
+item.logisticsFluidContainer.name=Логистический жидкостный контейнер
 
 # %cRED (DEPRECATED) %cRESET
 item.upgradeManagerItem=Диспетчер улучшений
 item.HUDbow=Очки с интерфейсом: Дужка и заушник
-item.logisticsParts.name=Logistics HUD Bow
+item.logisticsParts.name=Очки с интерфейсом
 item.HUDglass=Очки с интерфейсом: Линза
 item.HUDnosebridge=Очки с интерфейсом: Носовая перекладина
 item.NanoHopper=Нано-воронка
 item.logisticsItemCard=Предметная карта. Логистическая
-item.logisticsItemCard.name=Logistics Item Card
+item.logisticsItemCard.name=Предметная карта. Логистическая
 item.itemDisk=Дискета
-item.itemDisk.name=Logistics Disk
+item.itemDisk.name=Дискета
 # %cRED (DEPRECATED) %cRESET
 item.networkMonitorItem=Сетевой монитор
-item.ItemPipeSignCreator.name=Sign Creator
+item.ItemPipeSignCreator.name=Создатель табличек
 item.ItemPipeSignCreator.0=Создатель табличек
 item.ItemPipeSignCreator.1=Создатель табличек-счётчиков
 item.logisticsHUDGlasses=Очки с интерфейсом. Логистические
-item.logisticsHUDGlasses.name=Logistics HUD Glasses
+item.logisticsHUDGlasses.name=Очки с интерфейсом. Логистические
 item.remoteOrdererItem=Дистанционный пульт
-item.remoteOrdererItem.name=Remote Orderer
+item.remoteOrdererItem.name=Дистанционный пульт
 
 # Tooltips
 tooltip.brokenItem.1=Это бесполезная предмет
@@ -279,7 +279,7 @@ tooltip.logisticsItemCard=Это недействительная карта
 
 # Upgrades
 
-item.itemUpgrade.name=Upgrade
+item.itemUpgrade.name=Улучшение
 item.SneakyUpgradeUP=Улучшение: Окольное присоединение. ВВЕРХУ
 item.SneakyUpgradeDOWN=Улучшение: Окольное присоединение. ВНИЗУ
 item.SneakyUpgradeNORTH=Улучшение: Окольное присоединение. СЕВЕР
@@ -350,7 +350,7 @@ misc.extractionmode.Leave1PerType=Предмет за тип
 misc.selectType=Выбрать тип
 misc.selectOreDict=Выбрать - список руд
 
-LogisticsPipes Pipe Block.name=LogisticsPipes Pipe Block
+LogisticsPipes Pipe Block.name=LogisticsPipes блок трубы
 
 #Misc Chat messages
 
