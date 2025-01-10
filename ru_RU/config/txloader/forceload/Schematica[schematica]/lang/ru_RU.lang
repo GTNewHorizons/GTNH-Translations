@@ -30,20 +30,20 @@ schematica.gui.z=Z:
 schematica.gui.materials=Материалы
 schematica.gui.materialname=Материал
 schematica.gui.materialamount=Количество
-schematica.gui.materialrequired=Required
-schematica.gui.materialavailable=Available
+schematica.gui.materialrequired=Необходимо
+schematica.gui.materialavailable=Доступно
 schematica.gui.materialdump=Сохранить в файл
 schematica.gui.printer=Принтер
 
 # gui - config - categories
 schematica.config.category.debug=Отладка
-schematica.config.category.debug.tooltip=Debug/developer settings.\nDon't touch unless you know what you're doing.
-schematica.config.category.render=Rendering
-schematica.config.category.render.tooltip=Render related settings.
+schematica.config.category.debug.tooltip=Настройки отладки/разработчика.\nНе трогайте если не знаете, что делаете.
+schematica.config.category.render=Отображение
+schematica.config.category.render.tooltip=Настройки связанные с отображением.
 schematica.config.category.printer=Принтер
-schematica.config.category.printer.tooltip=Printer related settings.
-schematica.config.category.printer.swapslots=Hotbar Slots
-schematica.config.category.printer.swapslots.tooltip=Allow the printer to use non empty hotbar slots.
+schematica.config.category.printer.tooltip=Настройки связанные с принтером
+schematica.config.category.printer.swapslots=Слоты на панели быстрого доступа
+schematica.config.category.printer.swapslots.tooltip=Разрешить принтеру использовать непустые слоты панели быстрого доступа.
 schematica.config.category.general=Общие
 schematica.config.category.general.tooltip=Основные настройки.
 schematica.config.category.server=Сервер
@@ -55,13 +55,13 @@ schematica.config.showDebugInfo.tooltip=Отображение информац�
 
 # gui - config - render
 schematica.config.alphaEnabled=Alpha Enabled
-schematica.config.alphaEnabled.tooltip=Enable transparent textures.
+schematica.config.alphaEnabled.tooltip=Включить прозрачные текстуры.
 schematica.config.alpha=Альфа
-schematica.config.alpha.tooltip=Alpha value used when rendering the schematic (1.0 = opaque, 0.5 = half transparent, 0.0 = transparent).
-schematica.config.highlight=Highlight Blocks
-schematica.config.highlight.tooltip=Highlight invalid placed blocks and to be placed blocks.
-schematica.config.highlightAir=Highlight Air
-schematica.config.highlightAir.tooltip=Highlight blocks that should be air.
+schematica.config.alpha.tooltip=Значение альфа, используемое при визуализации схемы (1.0 = непрозрачный, 0.5 = полупрозрачный, 0.0 = прозрачный).
+schematica.config.highlight=Подсветить блок
+schematica.config.highlight.tooltip=Подсветить недопустимо размещенные блоки и блоки, которые необходимо разместить.
+schematica.config.highlightAir=Подсветить воздух
+schematica.config.highlightAir.tooltip=Подсветить блоки, которые должны быть воздухом.
 schematica.config.blockDelta=Block Delta
 schematica.config.blockDelta.tooltip=Delta value used for highlighting (if you experience z-fighting increase this).
 schematica.config.drawQuads=Draw Quads
@@ -106,12 +106,12 @@ schematica.config.swapSlot8.tooltip=Разрешите принтеру испо
 # gui - config - general
 schematica.config.schematicDirectory=Schematic Directory
 schematica.config.schematicDirectory.tooltip=Schematic directory.
-schematica.config.extraAirBlocks=Extra Air Blocks
-schematica.config.extraAirBlocks.tooltip=Extra blocks to consider as air for the schematic renderer.
+schematica.config.extraAirBlocks=Дополнительные воздушные блоки
+schematica.config.extraAirBlocks.tooltip=Дополнительные блоки следует рассматривать как воздух для схематического отображения.
 
 # chat
-Schematica.chat.saveCoordinatesSuccess=Successfully saved coordinates
-Schematica.chat.saveCoordinatesFail=Failed to save coordinates
+Schematica.chat.saveCoordinatesSuccess=Координаты успешно сохранены
+Schematica.chat.saveCoordinatesFail=Не удалось сохранить координаты
 
 # gui - config - server
 schematica.config.printerEnabled=Разрешить принтер
