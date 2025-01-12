@@ -43,7 +43,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAACQ.desc=Es ist Zeit, etwas zu verbrenne
 
 # Quest: Rest in Pieces
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACg.name=§1§lRuhe in Stücken
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAACg.desc=Es ist Zeit, etwas essen zu besorgen! Geh und töte einige Schweine, um Fleisch zu sammeln. Wenn du sie mit einem Feuersteinwerkzeug tötest, werden sie gekochte Schweinekoteletts fallen lassen. Das ist doch nützlich, oder?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAACg.desc=Es ist Zeit, etwas essen zu besorgen! Geh und töte einige Schweine, um Fleisch zu sammeln. 
 
 # Quest: Fluffy and Red
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAADA.name=§1§lFlauschig und rot
@@ -107,7 +107,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFww.desc=Was zur...? Hast du bemerkt, da
 
 # Quest: Creeping Dread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.name=§1§lSchleichende Angst
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.desc=Creepers can make you have a baaaad time. %n%nDrowning Creeper - when it explodes, it surrounds you in a ball of cobble filled with water. Not only do you have to escape, but the cobble is infested with silverfish! And those silverfish are all infernal!  The best way to deal with it is to first escape up or down.  If you have to clear the cobble ball, first clear the water. Surrounding the cobble with a dirt moat will keep the silverfish inside and unable to hide. Put down punjis, quicksand, or lava, and/or spectral glass. Make a wall with a 1x1 window and use that to break the cobbles - fishing silverfish is especially dangerous.%n%nEnder Creeper - Randomly teleports you a short distance - possibly deep underground. 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMg.desc=Creeper können dir eine wirklich schlechte Zeit bereiten.%n%nErtrinkender Creeper – Wenn er explodiert, umgibt er dich mit einer Kugel aus Pflasterstein, die mit Wasser gefüllt ist. Du musst nicht nur entkommen, sondern der Pflasterstein ist auch noch mit Silberfischen verseucht! Und diese Silberfische sind alle infernalisch! Der beste Weg, damit umzugehen, ist zuerst nach oben oder unten zu entkommen. Falls du die Pflastersteinkugel beseitigen musst, entferne zuerst das Wasser. Ein Graben aus Erde um die Pflastersteine herum verhindert, dass die Silberfische entkommen oder sich verstecken können. Setze Dornenfallen, Treibsand, Lava und/oder Spektralglas ein. Baue eine Wand mit einem 1x1-Fenster und nutze dieses, um die Pflastersteine zu zerstören – Silberfische „herauszufischen“ ist besonders gefährlich.%n%nEnder-Creeper – Teleportiert dich zufällig über eine kurze Distanz – möglicherweise tief unter die Erde.
 
 # Quest: Caught in the Web
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMw.name=§1§lIm Netz gefangen
@@ -136,7 +136,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAALA.desc=All unser gesammeltes Wisse
 
 # Quest: Automating Power On/Off
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.name=§6§lAutomatisches Ein- und Ausschalten der Energie
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=Once you have a GT boiler or Large Combustion Engine with a long startup time, you may wish to automate turning it on/off to save fuel, since extra power or Steam will just be voided. Additionally, the bigger your Steam/EU buffer is, the less time your generators will spend heating up, which makes them more efficient. %n%nUse a Machine Controller Cover on the controller for that. You can put it on top, bottom, or sides next to a casing - casings will transmit the redstone signal. You can use a Soldering Iron and Fine Soldering Alloy Wire to set the Redstone Output of a controller block to strong. When set to Strong it can go through a casing, but not hatches, buses, or other blocks. Use it with an activity detector if you want to receive a signal from the controller rather than turning it on/off with one.%n%nWith a Machine Controller Cover, you can use redstone to turn the machine on and off. This is handy if you don't want to use a Soft Hammer to disable a machine yourself constantly.%n %nThe best way to do that is with an RS latch. One input will turn the machine on, and one input will turn the machine off. Use a comparator attached to a valve to measure the steam level in your multiblock Iron or Steel Tank. Invert the signal to turn on your boiler when the steam level is low. When the steam level signal is high, turn your boiler off. Use a trail of redstone to lower the signal strength. Because of boiler/turbine warmup, try to set the ON strength to 30 percent of capacity and OFF strength to about 90 percent.%n%nRed alloy wire will hold a redstone signal for a longer distance than normal redstone, while redstone conduits will go indefinitely. You can also use amplified redcrystal to improve the strength of the signal for a long distance, repeating as necessary. %n%nYou can use a Energy Detector Cover in Normal Electrical Storage (including batteries) mode to monitor the power in a battery buffer and use it to enable/disable generators in a similar way. Change mode using a screwdriver. If you use a dense redcrystal, it will only allow signal through at a certain level, perfect for automating this kind of thing.%n%nYou can use MCCs on more than just generators though, you can use it on any multiblock and most singleblocks. This is useful to prevent voiding of materials. Unlike GT++ multies that will halt if full, a non-GT++ multi will void the items or liquids and keep on working, potentially voiding huge amounts of materials. You'll want to use them in combination with Fluid or Item Detection Covers on the output hatch or bus.%n%nFor a video version, check out this video: [url]https://www.youtube.com/watch?v=jPfnifJEO64[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=Sobald du einen GT-Boiler oder einen großen Verbrennungsmotor mit langer Startzeit besitzt, möchtest du diese möglicherweise automatisiert ein- und ausschalten, um Treibstoff zu sparen, da überschüssige Energie oder Dampf einfach verloren geht. Je größer dein Dampf-/EU-Puffer ist, desto weniger Zeit verbringen deine Generatoren mit dem Aufheizen, was sie effizienter macht. %n%nVerwende dafür eine Maschinensteuerungsabdeckung an der Steuerung. Du kannst sie oben, unten oder an den Seiten neben einem Gehäuse anbringen – Gehäuse übertragen das Redstonesignal. Mit einem Lötkolben und feinem Lötlegierungsdraht kannst du den Redstone-Ausgang eines Steuerungsblocks auf „stark“ einstellen. Wenn auf „stark“ gesetzt, kann das Signal durch ein Gehäuse gehen, aber nicht durch Luken, Busse oder andere Blöcke. Verwende es mit einem Aktivitätsdetektor, wenn du ein Signal von der Steuerung empfangen möchtest, anstatt sie nur ein-/auszuschalten. %n%nMit einer Maschinensteuerungsabdeckung kannst du die Maschine mit Redstone ein- und ausschalten. Das ist praktisch, wenn du sie nicht ständig selbst mit einem weichen Hammer deaktivieren möchtest. %n%nDer beste Weg hierfür ist ein RS-Latch. Ein Eingang schaltet die Maschine ein, ein anderer schaltet sie aus. Verwende einen Comparator, der an ein Ventil angeschlossen ist, um den Dampfpegel in deinem Multiblock-Eisen- oder Stahl-Tank zu messen. Invertiere das Signal, damit der Boiler eingeschaltet wird, wenn der Dampfpegel niedrig ist. Wenn der Dampfpegel hoch ist, schalte den Boiler aus. Verlege eine Redstone-Leitung, um die Signalstärke zu verringern. Aufgrund der Aufheizzeit von Boiler/Turbine solltest du die EIN-Signalstärke auf 30 Prozent der Kapazität und die AUS-Signalstärke auf etwa 90 Prozent einstellen. %n%nRote Legierungsdrähte halten ein Redstonesignal über eine längere Distanz als normales Redstone, während Redstone-Leitungen unendlich weit reichen. Du kannst auch verstärktes Redkristall verwenden, um die Signalstärke über eine große Entfernung zu verbessern, und es bei Bedarf wiederholen. %n%nDu kannst eine Energie-Detektor-Abdeckung im normalen elektrischen Speicher-Modus verwenden, um die Energie in einem Batterie-Puffer zu überwachen und damit Generatoren auf ähnliche Weise ein- oder auszuschalten. Ändere den Modus mit einem Schraubendreher. Wenn du dichtes Redkristall verwendest, lässt es Signale nur ab einem bestimmten Pegel durch – ideal für die Automatisierung solcher Aufgaben. %n%nDu kannst Maschinensteuerungsabdeckungen nicht nur bei Generatoren verwenden, sondern auch bei jedem Multiblock und den meisten Einzelblöcken. Das ist nützlich, um das Leeren von Materialien zu verhindern. Im Gegensatz zu GT++-Multiblöcken, die anhalten, wenn sie voll sind, arbeiten Nicht-GT++-Multiblöcke weiter und leeren dabei möglicherweise große Mengen an Materialien. Du solltest sie in Kombination mit Flüssigkeits- oder Gegenstandserkennungsabdeckungen an der Ausgabeluke oder dem Bus verwenden. %n%nFür eine Videoanleitung, sieh dir dieses Video an: [url]https://www.youtube.com/watch?v=jPfnifJEO64[/url]
 
 # Quest: Underground Fluids
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.name=Unterirdische Flüssigkeiten
@@ -1007,11 +1007,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACJg.desc=Centrifuge some brown or yellow
 
 # Quest: Heavy Sulfuric Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACJw.name=§5§lHeavy Sulfuric Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACJw.desc=You can distill your oil into heavy sulfuric fuel, that has a burn value of 40,000 EU.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACJw.desc=You can distill your oil into heavy sulfuric fuel, that has a burn value of 80,000 EU.
 
 # Quest: Heavy Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACKA.name=§5§lHeavy Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACKA.desc=By adding Hydrogen to sulfuric Heavy Fuel in a Chemical Reactor you can produce Heavy Fuel, with a burn value of 240,000 EU per cell! Aside from this, it's also required for Diesel, in MV, which is a better fuel, and it can also be distilled into three very useful fluids: Benzene, Toluene and Phenol.%n%nIf you want to use Heavy Fuel as a power source, you will need Semi-Fluid generators, unlike Light Fuel and Diesel which use Combustion generators.%n%nIt's honestly not especially efficient to make Heavy Fuel out of regular Oil. You should try to get Heavy Oil to make it, like from Oilsands Ore in MV once you can. Then use it to make Diesel.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACKA.desc=By adding Hydrogen to sulfuric Heavy Fuel in a Chemical Reactor you can produce Heavy Fuel, with a burn value of 360,000 EU per cell! Aside from this, it's also required for Diesel, in MV, which is a better fuel, and it can also be distilled into three very useful fluids: Benzene, Toluene and Phenol.%n%nIf you want to use Heavy Fuel as a power source, you will need Semi-Fluid generators, unlike Light Fuel and Diesel which use Combustion generators.%n%nIt's honestly not especially efficient to make Heavy Fuel out of regular Oil. You should try to get Heavy Oil to make it, like from Oilsands Ore in MV once you can. Then use it to make Diesel.
 
 # Quest: Hey DJ, Mix it!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACKg.name=§5§lHey DJ, Mix it!
@@ -1552,7 +1552,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9w.desc=Polyethylene is made out of eth
 
 # Quest: Diesel Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACKQ.name=§6§lDiesel Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACKQ.desc=If you get an MV mixer, you can mix your light and heavy fuel together to give diesel. At 480,000 per cell, this turns 1,525,000 EU into 2,880,000, not accounting for how much you spent to get it, so it's definitely worth it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACKQ.desc=If you get an MV mixer, you can mix your light and heavy fuel together to give diesel. At 480,000 per cell, this turns 1,885,000 EU into 2,880,000, not accounting for how much you spent to get it, so it's definitely worth it.
 
 # Quest: RF Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACXA.name=§6§lRF Batteries
@@ -1624,7 +1624,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.desc=Ethanol has a burn value of 192
 
 # Quest: Bio Diesel Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTQ.name=§6§lBio Diesel Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADTQ.desc=With ethanol or methanol and seed oil or fish oil you can make bio diesel. It's burn value is 256,000 EU per cell, less than regular diesel, but more renewable. Diesel or bio diesel are needed for cetane-boosted diesel.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADTQ.desc=With ethanol or methanol and seed oil or fish oil you can make bio diesel. It's burn value is 320,000 EU per cell, less than regular diesel, but more renewable. Diesel or bio diesel are needed for cetane-boosted diesel.
 
 # Quest: O like Oxygen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTg.name=§6§lO like Oxygen
@@ -4326,7 +4326,7 @@ betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.desc=Maybe take a break every no
 
 # Quest: Finally, Universium!
 betterquesting.quest.21tDEYptRuOgSJym30Watg.name=Finally, Universium!
-betterquesting.quest.21tDEYptRuOgSJym30Watg.desc=You’ve finally solved it. Who knew that leaving dead stars long enough would cause your artificial solar system to implode and lead to a Big Bang?%n%nIf only you could tap into that much mass right before it started expanding again, you could literally hold the entire universe in the palm of your hand.%n%nThis is your third and final material from the EOH.%n%n[note]It's mainly used for UXV crafts, but your first few should go in the Eternity loop. The quest for it is located in the Endgame Goals tab.%n%nCongrats! You can now move on to the UXV tier.[/note]
+betterquesting.quest.21tDEYptRuOgSJym30Watg.desc=You’ve finally solved it. Who knew that leaving dead stars long enough would cause your artificial solar system to implode and lead to a Big Bang?%n%nIf only you could tap into that much mass right before it started expanding again, you could literally hold the entire universe in the palm of your hand.%n%nThis is your third and final material from the EOH.%n%n[note]It's mainly used for UXV crafts, but your first few should go in the Eternity loop. The quest for it is located in the Endgame Goals tab.%n%nCongrats! You can now craft Magnetohydrodynamically Constrained Star Matter (MHDCSM).[/note]
 
 # Quest: Wireless Multi-Amp Hatches
 betterquesting.quest.2TXAUm6oQ0OhtMK79tC5cw.name=Wireless Multi-Amp Hatches
@@ -4370,7 +4370,7 @@ betterquesting.quest.Qjg1J4kuS-6937dCEUqHUw.desc=As additional rings are placed 
 
 # Quest: Magnetic Monopole Matter
 betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.name=§b§lMagnetic Monopole Matter
-betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=With total mastery of the Forge of the Gods achieved, it is possible to begin a new universe-spanning initiative. It is now possible to quantize and extract graviton shards for use outside the Forge in powerful new technological endeavours; produce the most exotic plasmas beyond merely periodic elements; and most importantly, begin to understand the immense power of magmatter, a form of matter made entirely of magnetic monopoles with density and stability billions of times that of conventional bosonic matter. It is with this development you realise that the completion of the Forge was not the end goal, but merely a stepping stone to universal transcendence.%n%n[note]Required for UXV components, Magmatter is the second material the Heliofusion Exoticizer can create, and will require a second module. Read the Godforge Information in the UI for more information on how to automate this.[/note]%n%n[note]The creation of Magmatter requires the END upgrade.[/note]%n
+betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=With total mastery of the Forge of the Gods achieved, it is possible to begin a new universe-spanning initiative. It is now possible to quantize and extract graviton shards for use outside the Forge in powerful new technological endeavours; produce the most exotic plasmas beyond merely periodic elements; and most importantly, begin to understand the immense power of magmatter, a form of matter made entirely of magnetic monopoles with density and stability billions of times that of conventional bosonic matter. It is with this development you realise that the completion of the Forge was not the end goal, but merely a stepping stone to universal transcendence.%n%n[note]Required for UXV components, Magmatter is the second material the Heliofusion Exoticizer can create, and will require a second module. Read the Godforge Information in the UI for more information on how to automate this.[/note]%n%n[note]The creation of Magmatter requires the END upgrade.[/note]%n%n[note]Congrats! You can now move on to the UXV tier![/note]%n
 
 # Quest: Convergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=Convergence
@@ -4441,8 +4441,8 @@ betterquesting.quest.v5GltE2BTW-Me_rEqy5uFg.desc=From now on, you’ll be dealin
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Collection of endgame objectives, good luck and thanks for playing so far.
 
-# Quest: Magnetohydrodynamically Constrained Starmatter
-betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.name=Magnetohydrodynamically Constrained Starmatter
+# Quest: Magnetohydrodynamically Constrained Star Matter
+betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.name=Magnetohydrodynamically Constrained Star Matter
 betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.desc=Or MHDCSM for short.%n%nThis is your primary material for UXV components. It’s tricky to make and extremely expensive, as all endgame materials should be.%n%nInstead of solidifying it directly, you need to coat Eternity parts with it.%n%nHave fun!
 
 # Quest: Tier 13 (UXV)
@@ -14376,7 +14376,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=There must a be a way to make a
 
 # Quest: Compact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§2§lCompact Storage
-betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=Now that you are starting to find more and more copper, you feel your wood chests are too small to hold all the stuff. %n%n[note]It's time to upgrade your wooden chests to copper chests! Higher tiers of chests can be upgraded cheaply by using upgrade items, but not all tier chests can be upgraded directly this way. try the "Wood to Copper Chest Upgrade", upgrade from wood to a tiered chest will not be chaper.[/note]%n%n[note]Upgraded chests cannot be connected into double chests.[/note]
+betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=Now that you are starting to find more and more copper, you feel your wood chests are too small to hold all the stuff. %n%n[note]It's time to upgrade your wooden chests to copper chests! Higher tiers of chests can be upgraded cheaply by using upgrade items, but not all tier chests can be upgraded directly this way. You can also try the "Wood to Copper Chest Upgrade", but upgrading from wood to a tiered chest will not be any cheaper.[/note]%n%n[note]Upgraded chests cannot be connected into double chests.[/note]
 
 # Quest: Steel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§3§lSteel Chest?
