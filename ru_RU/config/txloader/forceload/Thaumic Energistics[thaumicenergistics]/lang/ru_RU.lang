@@ -8,7 +8,7 @@ thaumicenergistics.fluid.gaseous=Газ
 #Blocks
 thaumicenergistics.block.essentia.provider.name=Поставщик эссенции
 thaumicenergistics.block.infusion.provider.name=Поставщик наполнения
-thaumicenergistics.block.advanced.infusion.provider.name=Advanced Infusion Provider
+thaumicenergistics.block.advanced.infusion.provider.name=Улучшенный поставщик наполнения
 thaumicenergistics.block.gear.box.name=Железная коробка передач
 thaumicenergistics.block.golem.gear.box.name=Таумическая коробка передач
 thaumicenergistics.block.essentia.cell.workbench.name=Верстак для ячеек эссенции
@@ -85,8 +85,8 @@ thaumicenergistics.tooltip.arcane.assembler.hasVis=Содержит сохран
 thaumicenergistics.tooltip.button.reset.aspect=Сбросить аспекты
 thaumicenergistics.tooltip.button.reset.aspect.description=Сбросить левую таблицу аспектов в исходное состояние
 thaumicenergistics.tooltip.advanced.infusion.provider.working.on=Рабочий режим
-thaumicenergistics.tooltip.advanced.infusion.provider.normal=Normal Provider
-thaumicenergistics.tooltip.advanced.infusion.provider.advanced=Advanced Provider
+thaumicenergistics.tooltip.advanced.infusion.provider.normal=Нормальный поставщик
+thaumicenergistics.tooltip.advanced.infusion.provider.advanced=Улучшенный поставщик
 thaumicenergistics.tooltip.advanced.infusion.provider.totalbind=Total binded to %d matrices
 
 
@@ -137,7 +137,7 @@ tc.research_name.thaumicenergistics.TEESSTERM=Мониторинг эссенц�
 tc.research_text.thaumicenergistics.TEESSTERM=Зная, сколько у Вас есть.
 thaumicenergistics.research_page.TEESSTERM.1=§lТерминал эссенции§r и §lБеспроводной терминал эссенции§r позволяют Вам просматривать количество накопленной эссенции в сети и предоставляют возможность заполнять и опустошать контейнеры эссенции в терминале.<BR>§lИзлучатель уровня эссенции§r выдает сигнал красного камня, когда уровень эссенции в сети падает ниже или поднимается выше определенного количества.
 thaumicenergistics.research_page.TEESSTERM.2=§lМонитор хранения эссенции§r и §lМонитор преобразования эссенции§r позволит вам увидеть, сколько аспектов находится в сети с первого взгляда. Монитор преобразования также позволяет наполнять и извлекать эссенции из сети.<BR>Нажатие ПКМ с гаечным ключем будет блокировать/разблокировать монитор.<BR>Нажатие ПКМ по разблокированному монитору с биркой или заполненой банкой или пузырьком установит отображаемый аспект, а нажатие ПКМ пустой рукой очистит аспект.<BR>Нажатие ПКМ по заблокированному монитору преобразования запретит установку отображаемого аспекта, позволяя наполнять им банки или пузырьки, а SHIFT+ПКМ опустошать их.<BR>Двойное нажатие SHIFT+ПКМ опустошит все эссенции из вашего инвентаря.
-thaumicenergistics.research_page.TEESSTERM.3=The §lEssentia Level Emitter§r provides a redstone signal when the level of essentia in the network falls below or rises above a set amount.
+thaumicenergistics.research_page.TEESSTERM.3=§lИзлучатель уровня эссенции§r подает сигнал красного камня, когда уровень эссенции в сети падает ниже или поднимается выше установленного значения.
 thaumicenergistics.research_page.TEESSTERM.4=The §lEssentia Storage Monitor§r & §lEssentia Conversion Monitor§r allow you to see how much of an aspect is in the network at a glance. The conversion monitor also allows you to insert and extract essentia from the network.<BR>Right-clicking with a wrench will lock/unlock the monitor.<BR>Right-clicking an unlocked monitor with a label or filled jar or phial will set the displayed aspect, and right-clicking with an empty hand will clear aspect.<BR>Right-clicking a locked conversion monitor will fill jar or phial and Shift-Right-Clicking will empty them.<BR>Shift-Double-Right-Click will empty all essentia from your inventory.
 
 # Research Essentia Provider
@@ -151,7 +151,7 @@ tc.research_text.thaumicenergistics.TEINFPROV=Упрощает наполнен�
 thaumicenergistics.research_page.TEINFPROV.1=После изучения процесса наполнения эссенцией, Вы обнаружили способ мгновенного преобразования между цифросенцией и эссенцией, который может использоваться во время наполнения.<BR>После размещения §lПоставщика эссенции§r вблизи таумического устройство, устройство сможет потреблять эссенцию напрямую из сети, как будто оно - банка.<BR>Это устройство может быть полезным для алтаря наполнения.
 
 # Research Advanced Infusion Provider
-tc.research_name.thaumicenergistics.TEADVINFPROV=Advanced Infusion Provider
+tc.research_name.thaumicenergistics.TEADVINFPROV=Улучшенный поставщик наполнения
 tc.research_text.thaumicenergistics.TEADVINFPROV=Easiest Infusion.
 thaumicenergistics.research_page.TEADVINFPROV.1=As you continue to optimize your ME network autocrafting, you've been stumped by infusion recipes countless times.<BR>Now you have a new idea, why not leave the task of preparing essentia to your ME network?<BR>So you've developed a new infusion provider that incorporates the functionality of the Interceptor and automatically orders the missing essentia. It can also bind multiple infusion matrices in 25*25*11 area. All you need to do is just put it down among those matrices, that's it. Right-click allows him to search the area for matrix and rebind it.
 
