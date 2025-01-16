@@ -596,6 +596,12 @@ serverutilities.gui.backup.error=Произошла ошибка при восс
 serverutilities.gui.backup.delete_confirm=Вы уверены, что хотите §c§lудалить§r эту резервную копию?
 serverutilities.gui.backup.restore_confirm=Вы уверены, что хотите §a§lвосстановить§r эту резервную копию?
 
+# Pause When Empty
+cmd.pause_when_empty_updated=Server property 'pause-when-empty-seconds' set to %d
+cmd.pause_when_empty_oneshot='pause-when-empty-seconds' temporarily set to %d until next resume. Set to -1 to disable one shot
+commands.pause_when_empty.set.usage=/pause_when_empty set <seconds> (0 to disable)
+commands.pause_when_empty.oneshot.usage=/pause_when_empty oneshot <seconds> (old value is applied on the next resume; 0 to disable pausing; -1 to disable the oneshot)
+
 # Gui
 ## Buttons
 gui.accept=Принять
