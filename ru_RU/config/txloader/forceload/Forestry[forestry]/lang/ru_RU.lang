@@ -125,7 +125,7 @@ for.gui.beach=Пляж
 for.gui.beealyzer.artificial=Искусственного происх.
 for.gui.beealyzer.behaviour=Поведение
 for.gui.beealyzer.generations=Поколений в неволе: %s
-for.gui.beealyzer.help=Положите пчелу и предоставьте мёд или нектар в качестве успокоительного.
+for.gui.beealyzer.help=Положите пчелу и предоставьте мёд или медвяную росу в качестве успокоительного.
 for.gui.beealyzer.mutations=Возможные мутации
 for.gui.beealyzer.natural=Естественного происх.
 for.gui.beealyzer.produce=Возможная продукция
@@ -244,9 +244,9 @@ for.gui.owner=Владелец
 for.gui.page=Страница
 
 for.gui.search_ingredients=Поиск предметов
-for.gui.search_ingredients.internal_inventory=Internal Inventory
+for.gui.search_ingredients.internal_inventory=Внутренний инвентарь
 for.gui.search_ingredients.player_inventory=Инвентарь игрока
-for.gui.search_ingredients.all_inventories=All Inventories
+for.gui.search_ingredients.all_inventories=Все инвентари
 
 for.gui.pipe.filter.anything=Всё
 for.gui.pipe.filter.bee=Любые пчёлы
@@ -592,8 +592,8 @@ item.for.adventurerBagT2.name=Тканый рюкзак авантюриста
 item.for.ambrosia.name=Амброзия
 item.for.apatite.name=Апатит
 
-item.for.coinBag.name=Coiner's Backpack
-item.for.coinBagT2.name=Coiner's Woven Backpack
+item.for.coinBag.name=Рюкзак для монет
+item.for.coinBagT2.name=Тканый рюкзак для монет
 
 item.for.apiaristBag.name=Рюкзак пчеловода
 item.for.apiaristBoots.name=Ботинки пчеловода
@@ -929,7 +929,7 @@ for.errors.isRaining.help=Только устойчивые летуны мог�
 for.errors.noDrone.desc=Нет трутня
 for.errors.noDrone.help=Спаривание требует наличия трутня.
 for.errors.noFlower.desc=Нет цветов
-for.errors.noFlower.help=Hive members are not finding the right flowers. Use the Beealyzer to learn their flower preference.
+for.errors.noFlower.help=Пчёлы не могут найти нужные цветы. Воспользуйся анализатором пчёл, чтобы узнать, какие цветы они предпочитают.
 for.errors.noQueen.desc=Нет матки
 for.errors.noQueen.help=Снабдите этот улей маткой или принцессой и трутнем.
 for.errors.noSky.desc=Небо закрыто
@@ -953,39 +953,39 @@ for.errors.tooArid.help=Из-за сухого климата пчелы зде�
 
 # MACHINES
 for.errors.noPower.desc=Нет питания
-for.errors.noPower.help=This machine requires RF energy from an engine to function.
+for.errors.noPower.help=Для работы механизма требуется энергия RF
 for.errors.noRedstone.desc=Требуется сигнал красного камня
-for.errors.noRedstone.help=This machine requires a redstone signal to activate it.
+for.errors.noRedstone.help=Необходим сигнал красного камня для активации.
 for.errors.disabledRedstone.desc=Disabled by Redstone
 for.errors.disabledRedstone.help=This machine is being disabled by a redstone signal.
 for.errors.noRecipe.desc=Нет рецепта
-for.errors.noRecipe.help=No matching recipe was found for the supplied resources.
-for.errors.noResource.desc=Missing resources
-for.errors.noResource.help=More resources need to be supplied for operation.
+for.errors.noRecipe.help=Не найден рецепт для предоставленных ресурсов.
+for.errors.noResource.desc=Отсутствуют ресурсы
+for.errors.noResource.help=Для работы необходимо поставить больше ресурсов.
 for.errors.noResourceInventory.desc=Inventory needs resources
 for.errors.noResourceInventory.help=Resources need to be added to the machine's inventory to begin crafting this recipe.
-for.errors.noResourceLiquid.desc=Missing liquid resources
-for.errors.noResourceLiquid.help=More liquid resources need to be supplied for operation.
+for.errors.noResourceLiquid.desc=Отсутствует жидкость
+for.errors.noResourceLiquid.help=Поставьте необходимую для работы жидкость.
 for.errors.noSpace.desc=No inventory space
 for.errors.noSpace.help=Empty this machine's inventory.
 for.errors.noSpaceTank.desc=No tank space
 for.errors.noSpaceTank.help=Empty this machine's liquid tank.
 for.errors.notDark.desc=Недостаточно темно
-for.errors.notDark.help=A lower light level is required for operation.
+for.errors.notDark.help=Для работы требуется низкий уровень освещённости.
 
 # RAIN TANK
-for.errors.notRaining.desc=No rain
-for.errors.notRaining.help=Operation is only possible when it is raining.
+for.errors.notRaining.desc=Нет дождя
+for.errors.notRaining.help=Работает только во время дождя.
 for.errors.noRainBiome.desc=Never rains
 for.errors.noRainBiome.help=This location never receives rain.
 for.errors.noSkyRainTank.desc=Небо закрыто
 for.errors.noSkyRainTank.help=Clear the area above this machine so it can gather rain.
 
 # ALYZERS
-for.errors.noHoney.desc=Honey required
-for.errors.noHoney.help=This gadget requires honey drops or honeydew for operation.
-for.errors.noSpecimen.desc=Nothing to analyze
-for.errors.noSpecimen.help=Supply a specimen to analyze.
+for.errors.noHoney.desc=Требуется мёд
+for.errors.noHoney.help=Для анализа требуется капля мёда или медвяной росы.
+for.errors.noSpecimen.desc=Нечего анализировать
+for.errors.noSpecimen.help=Предоставьте образец для анализа.
 
 # ENGINES
 for.errors.forcedCooldown.desc=Forced Cooldown
@@ -1022,8 +1022,8 @@ for.errors.notPostpaid.help=Apply more stamps to pay the postal service.
 # CIRCUIT BOARDS
 for.errors.circuitMismatch.desc=Layout Mismatch
 for.errors.circuitMismatch.help=Amount of tubes does not match size of circuit board.
-for.errors.noCircuitBoard.desc=Board Missing
-for.errors.noCircuitBoard.help=Insert a circuit board to solder the selected tubes onto it.
+for.errors.noCircuitBoard.desc=Отсутствует плата
+for.errors.noCircuitBoard.help=Вставьте печатную плату чтобы припаять к ней лампы.
 for.errors.noCircuitLayout.desc=No Layouts Found
 for.errors.noCircuitLayout.help=No layouts available due to the current game settings.
 
@@ -1399,7 +1399,7 @@ for.gui.saplings=Вид саженца
 for.gui.sappiness=Жизнеспособность
 for.gui.supports=Вид плодов
 for.gui.tolerated=Нужный биом
-for.gui.treealyzer.help=Положите саженец и предоставьте мёд или нектар в качестве катализатора.
+for.gui.treealyzer.help=Положите саженец и предоставьте мёд или медвяную росу в качестве катализатора.
 for.gui.treealyzer=Анализатор деревьев
 for.gui.yield=Урожай
 
@@ -1636,7 +1636,7 @@ for.butterflies.species.pieridae.springAzure=Голубянка Весенняя
 for.butterflies.species.saturniidae.atlas=Павлиноглазка Атлас
 
 for.gui.flutterlyzer=Анализатор бабочек
-for.gui.flutterlyzer.help=Положите бабочку и предоставьте мёд или нектар в качестве успокоительного.
+for.gui.flutterlyzer.help=Положите бабочку и предоставьте мёд или медвяную росу в качестве успокоительного.
 for.gui.loot.butterfly=Возможная добыча бабочки
 for.gui.loot.caterpillar=Возможная добыча гусеницы
 
