@@ -60,8 +60,12 @@ tile.appliedenergistics2.BlockCraftingAccelerator256x.name=256核并行处理单
 tile.appliedenergistics2.BlockCraftingAccelerator1024x.name=1024核并行处理单元
 tile.appliedenergistics2.BlockCraftingAccelerator4096x.name=4096核并行处理单元
 tile.appliedenergistics2.BlockCraftingUnit.name=合成单元
+tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=合成存储器
+tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=合成单元
 tile.appliedenergistics2.BlockMolecularAssembler.name=分子装配室
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=样板优化矩阵
+tile.appliedenergistics2.BlockSingularityCraftingStorage.name=奇点合成存储器
+tile.appliedenergistics2.BlockPaint.name=染色
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=錾制赛特斯石英楼梯
@@ -75,13 +79,21 @@ tile.appliedenergistics2.SkyStoneStairBlock.name=陨石楼梯
 
 # Slabs
 tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=錾制赛特斯石英台阶
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=錾制赛特斯石英台阶
 tile.appliedenergistics2.FluixSlabBlock.name=福鲁伊克斯台阶
+tile.appliedenergistics2.FluixSlabBlock.double.name=福鲁伊克斯台阶
 tile.appliedenergistics2.QuartzPillarSlabBlock.name=竖纹赛特斯石英台阶
+tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=竖纹赛特斯石英台阶
 tile.appliedenergistics2.QuartzSlabBlock.name=赛特斯石英台阶
+tile.appliedenergistics2.QuartzSlabBlock.double.name=赛特斯石英台阶
 tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=陨石块台阶
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=陨石块台阶
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=陨石石砖台阶
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=陨石石砖台阶
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=陨石砖块台阶
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=陨石砖块台阶
 tile.appliedenergistics2.SkyStoneSlabBlock.name=陨石台阶
+tile.appliedenergistics2.SkyStoneSlabBlock.double.name=陨石台阶
 
 # Chat Messages
 chat.appliedenergistics2.ChestCannotReadStorageCell=ME箱子无法读取存储元件.
@@ -105,6 +117,10 @@ chat.appliedenergistics2.TunnelHasNoOutputs=通道无出口.
 chat.appliedenergistics2.TunnelOutputsAreAt=通道出口位于:
 chat.appliedenergistics2.InterfaceInOtherDim=接口位于 %d 维度，无法高亮显示
 chat.appliedenergistics2.InterfaceHighlighted=接口已高亮，坐标：%d, %d, %d
+chat.appliedenergistics2.LevelEmitterInAnotherDim=发信器位于 %d 维度，无法高亮显示
+chat.appliedenergistics2.LevelEmitterHighlighted=发信器已高亮，坐标：%d, %d, %d
+chat.appliedenergistics2.P2PInAnotherDim=P2P位于 %d 维度，无法高亮显示
+chat.appliedenergistics2.P2PHighlighted=P2P已高亮，坐标：%d, %d, %d
 chat.appliedenergistics2.CraftingItemsWentMissing=无法启动合成，缺少材料：%d * %s
 chat.appliedenergistics2.FBOUnsupported=不支持OpenGL FBOs,无法导出图片
 chat.appliedenergistics2.PriorityInvalidTarget=目标没有优先级
@@ -322,8 +338,6 @@ gui.appliedenergistics2.ToUnfollow=取消跟踪
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
 gui.color.appliedenergistics2.SearchboxUnfocused=00000000
-gui.color.appliedenergistics2.SearchboxFocused=6E000000
-gui.color.appliedenergistics2.SearchboxUnfocused=00000000
 gui.color.appliedenergistics2.ItemSlotOverlayUnpowered=66111111
 gui.color.appliedenergistics2.ItemSlotOverlayInvalid=66ff6666
 gui.color.appliedenergistics2.CraftConfirmMissingItem=1AFF0000
@@ -375,6 +389,7 @@ gui.tooltips.appliedenergistics2.Clear=清除
 gui.tooltips.appliedenergistics2.TrashController=按下Shift/空格+左键以删除.
 
 gui.tooltips.appliedenergistics2.InterfaceBlockingMode=阻挡模式
+gui.tooltips.appliedenergistics2.InterfaceSmartBlockingMode=智能阻挡模式
 gui.tooltips.appliedenergistics2.InterfaceCraftingMode=合成模式
 gui.tooltips.appliedenergistics2.Trash=销毁物品
 gui.tooltips.appliedenergistics2.MatterBalls=每%s个物品\n聚合为一个物质球
@@ -406,6 +421,8 @@ gui.tooltips.appliedenergistics2.Disabled=禁用
 gui.tooltips.appliedenergistics2.Enable=启用
 gui.tooltips.appliedenergistics2.Blocking=当容器内有物品时不传送物品.
 gui.tooltips.appliedenergistics2.NonBlocking=忽略目标容器的内容.
+gui.tooltips.appliedenergistics2.SmartBlocking=允许相同配方输入.
+gui.tooltips.appliedenergistics2.NonSmartBlocking=常规阻挡模式行为.
 gui.tooltips.appliedenergistics2.Craft=输出时若有需要则合成物品.
 gui.tooltips.appliedenergistics2.CraftOnly=不使用已存储物品,只使用合成物品.
 gui.tooltips.appliedenergistics2.CraftEither=输出时使用已存储物品或合成物品.
@@ -584,22 +601,26 @@ item.appliedenergistics2.ItemAdvancedStorageCell.256k.name=256k-ME存储元件
 item.appliedenergistics2.ItemAdvancedStorageCell.1024k.name=1024k-ME存储元件
 item.appliedenergistics2.ItemAdvancedStorageCell.4096k.name=4096k-ME存储元件
 item.appliedenergistics2.ItemAdvancedStorageCell.16384k.name=16384K-ME存储元件
-item.appliedenergistics2.ItemExtremeStorageCell.Container.name=ME方块容器元件
-item.appliedenergistics2.ItemExtremeStorageCell.Quantum.name=ME量子存储元件
-item.appliedenergistics2.ItemExtremeStorageCell.Singularity.name=ME数字奇点元件
-item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=人造宇宙元件
+item.appliedenergistics2.ItemExtremeStorageCell.Container.name=方块容器ME存储元件
+item.appliedenergistics2.ItemExtremeStorageCell.Quantum.name=量子ME存储元件
+item.appliedenergistics2.ItemExtremeStorageCell.Singularity.name=数字奇点ME存储元件
+item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=人造宇宙ME存储元件
 item.appliedenergistics2.ItemCreativeStorageCell.name=创造ME存储元件
 item.appliedenergistics2.ItemVoidStorageCell.name=ME虚空存储元件
 item.appliedenergistics2.ItemEncodedPattern.name=编码样板
 item.appliedenergistics2.ItemViewCell.name=显示元件
 item.appliedenergistics2.ItemFacade.name=线缆伪装板
 
+item.appliedenergistics2.ItemCrystalSeed.name=种子
 item.appliedenergistics2.ItemCrystalSeed.Certus.name=赛特斯石英种子
 item.appliedenergistics2.ItemCrystalSeed.Nether.name=下界石英种子
 item.appliedenergistics2.ItemCrystalSeed.Fluix.name=福鲁伊克斯种子
 
 item.appliedenergistics2.ItemPart.InvalidType.name=已禁用
 item.appliedenergistics2.ItemMaterial.InvalidType.name=该物品被禁用.
+
+item.appliedenergistics2.ItemMaterial.name=ME组件
+item.appliedenergistics2.ItemPart.name=ME线缆/总线
 
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=空白样板
 item.appliedenergistics2.ItemMaterial.FormationCore.name=成型核心
