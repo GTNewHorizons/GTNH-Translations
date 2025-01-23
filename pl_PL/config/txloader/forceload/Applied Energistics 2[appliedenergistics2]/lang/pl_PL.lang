@@ -60,12 +60,12 @@ tile.appliedenergistics2.BlockCraftingAccelerator256x.name=256 Rdzeniowa Jednost
 tile.appliedenergistics2.BlockCraftingAccelerator1024x.name=1024 Rdzeniowa Jednostka Współ-Wytwarzania
 tile.appliedenergistics2.BlockCraftingAccelerator4096x.name=4096 Rdzeniowa Jednostka Współ-Wytwarzania
 tile.appliedenergistics2.BlockCraftingUnit.name=Jednostka Wytwarzania
-tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=Crafting Storage
-tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=Crafting Unit
+tile.appliedenergistics2.BlockAdvancedCraftingStorage.name=Magazyn Wytwarzania
+tile.appliedenergistics2.BlockAdvancedCraftingUnit.name=Jednostka Wytwarzania
 tile.appliedenergistics2.BlockMolecularAssembler.name=Asembler Molekularny
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Macierz Optymalizacji Wzorców
-tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafting Storage
-tile.appliedenergistics2.BlockPaint.name=Paint
+tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Magazyn Wytwarzania Osobliwości
+tile.appliedenergistics2.BlockPaint.name=Farba
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Dłutowane Schody Kwarcu Certus
@@ -79,21 +79,21 @@ tile.appliedenergistics2.SkyStoneStairBlock.name=Schody Kamienia Nieba
 
 # Slabs
 tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=Dłutowane Płyty Kwarcu Certus
-tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Chiseled Certus Quartz Slabs
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Dłutowane Płyty Kwarcu Certus
 tile.appliedenergistics2.FluixSlabBlock.name=Płyty Fluix
-tile.appliedenergistics2.FluixSlabBlock.double.name=Fluix Slabs
+tile.appliedenergistics2.FluixSlabBlock.double.name=Płyty Fluix
 tile.appliedenergistics2.QuartzPillarSlabBlock.name=Płyty Filarów Kwarcu Certus
-tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Certus Quartz Pillar Slabs
+tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Płyty Filarów Kwarcu Certus
 tile.appliedenergistics2.QuartzSlabBlock.name=Płyty Kwarcu Certus
-tile.appliedenergistics2.QuartzSlabBlock.double.name=Certus Quartz Slabs
+tile.appliedenergistics2.QuartzSlabBlock.double.name=Płyty Kwarcu Certus
 tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=Płyty Bloku Kamienia Nieba
-tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Sky Stone Block Slabs
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Płyty Bloku Kamienia Nieba
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=Płyty Cegły Kamienia Nieba
-tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Sky Stone Brick Slabs
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Płyty Cegły Kamienia Nieba
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=Płyty Małej Cegły Kamienia Nieba
-tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Sky Stone Small Brick Slabs
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Płyty Małej Cegły Kamienia Nieba
 tile.appliedenergistics2.SkyStoneSlabBlock.name=Płyty Kamienia Nieba
-tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Sky Stone Slabs
+tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Płyty Kamienia Nieba
 
 # Chat Messages
 chat.appliedenergistics2.ChestCannotReadStorageCell=Skrzynia ME nie może odczytać dysku ME.
@@ -117,19 +117,19 @@ chat.appliedenergistics2.TunnelHasNoOutputs=Tunel nie ma wyjść.
 chat.appliedenergistics2.TunnelOutputsAreAt=Wyjścia tunelu znajdują się na:
 chat.appliedenergistics2.InterfaceInOtherDim=Interfejs znajduje się w wymiarze: %d i nie może zostać podświetlony
 chat.appliedenergistics2.InterfaceHighlighted=Interfejs jest teraz podświetlony na %d, %d, %d
-chat.appliedenergistics2.LevelEmitterInAnotherDim=Level emitter located in dimension: %d and cant be highlighted
-chat.appliedenergistics2.LevelEmitterHighlighted=The level emitter is now highlighted at %d, %d, %d
-chat.appliedenergistics2.P2PInAnotherDim=P2P located in dimension: %d and cant be highlighted
-chat.appliedenergistics2.P2PHighlighted=The P2P is now highlighted at %d, %d, %d
+chat.appliedenergistics2.LevelEmitterInAnotherDim=Emiter poziomu znajduje się w wymiarze: %d i nie można go podświetlić
+chat.appliedenergistics2.LevelEmitterHighlighted=Emiter poziomu jest teraz podświetlony na %d, %d, %d
+chat.appliedenergistics2.P2PInAnotherDim=P2P znajduje się w wymiarze: %d i nie może zostać podświetlony
+chat.appliedenergistics2.P2PHighlighted=P2P jest teraz podświetlony na %d, %d, %d
 chat.appliedenergistics2.CraftingItemsWentMissing=Nie można uruchomić wytwarzania, brakuje składnika: %d * %s
 chat.appliedenergistics2.FBOUnsupported=FBO OpenGL nie są obsługiwane, nie można wyeksportować obrazu
 chat.appliedenergistics2.PriorityInvalidTarget=Cel nie ma priorytetu
 chat.appliedenergistics2.PriorityReadout=Aktualny priorytet to %d
 chat.appliedenergistics2.PriorityConfigured=Zaktualizowano priorytet do %d
-chat.appliedenergistics2.DriveLocked=Digital Singularity cells in drive were locked to the current item on them
-chat.appliedenergistics2.ChestLocked=Digital Singularity cell in chest was locked to the current item on it
+chat.appliedenergistics2.DriveLocked=Cyfrowe Osobliwości dysku zostały zablokowane dla bieżącego elementu
+chat.appliedenergistics2.ChestLocked=Cyfrowa Osobliwość dysku w skrzyni była powiązana z aktualnie znajdującym się w niej przedmiotem
 chat.appliedenergistics2.FinishCraftingRemind=Zadanie tworzenia %s * %s zostało zakończone, trwało to łącznie %s.
-chat.appliedenergistics2.CraftingCantExtract=Can't extract required amount of ingredient from storage: %d / %d | %s
+chat.appliedenergistics2.CraftingCantExtract=Nie można wyodrębnić wymaganej ilości składnika z magazynu: %d / %d | %S
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -327,7 +327,7 @@ gui.appliedenergistics2.NetworkBytesDetails=Szczegóły Dotyczące Bajtów Sieci
 gui.appliedenergistics2.Items=Przedmioty
 gui.appliedenergistics2.Fluids=Płyny
 gui.appliedenergistics2.Essentias=Esen
-gui.appliedenergistics2.NetworkCellStatus=Cell status
+gui.appliedenergistics2.NetworkCellStatus=Status Dysku
 gui.appliedenergistics2.NetworkItemCellCount=Ilość Dysków Przedmiotów w Sieci
 gui.appliedenergistics2.NetworkFluidCellCount=Ilość Dysków Płynów w Sieci
 gui.appliedenergistics2.NetworkEssentiaCellCount=Ilość Dysków Esencji w Sieci
@@ -391,7 +391,7 @@ gui.tooltips.appliedenergistics2.Clear=Wyczyść
 gui.tooltips.appliedenergistics2.TrashController=Usuwanie przez kliknięcie z wciśniętym klawiszem Shift/Spacja.
 
 gui.tooltips.appliedenergistics2.InterfaceBlockingMode=Tryb Blokowania
-gui.tooltips.appliedenergistics2.InterfaceSmartBlockingMode=Smart Blocking Mode
+gui.tooltips.appliedenergistics2.InterfaceSmartBlockingMode=Tryb Inteligentnego blokowania
 gui.tooltips.appliedenergistics2.InterfaceCraftingMode=Tryb Wytwarzania
 gui.tooltips.appliedenergistics2.Trash=Zniszcz Przedmioty
 gui.tooltips.appliedenergistics2.MatterBalls=Kondensacja w Kule Materii\n%s na przedmiot
@@ -416,7 +416,7 @@ gui.tooltips.appliedenergistics2.SearchMode=Tryb Pola Wyszukiwania
 gui.tooltips.appliedenergistics2.PartitionStorageHint=Konfiguruje Partycję na podstawie aktualnie zapisanych przedmiotów.
 gui.tooltips.appliedenergistics2.ClearSettings=Wyczyść Konfigurację/Ustawienia
 gui.tooltips.appliedenergistics2.Craftable=Do Wytworzenia
-gui.tooltips.appliedenergistics2.MoveWhenEmpty=Przenieś do wyjścia, gdy puste.
+gui.tooltips.appliedenergistics2.MoveWhenEmpty=Przenieś do wyjścia, gdy dysk jest pusty lub sieć została opróżniona.
 gui.tooltips.appliedenergistics2.MoveWhenWorkIsDone=Przenieś do wyjścia po zakończeniu pracy.
 gui.tooltips.appliedenergistics2.MoveWhenFull=Przenieś do wyjścia po zapełnieniu.
 gui.tooltips.appliedenergistics2.Disabled=Wyłączone
@@ -439,7 +439,7 @@ gui.tooltips.appliedenergistics2.TerminalStyle_Full=Terminal Pełnoekranowy
 gui.tooltips.appliedenergistics2.TerminalStyle_Tall=Wysoki Terminal Centralny
 gui.tooltips.appliedenergistics2.TerminalStyle_Small=Mały Terminal Centralny
 gui.tooltips.appliedenergistics2.SaveAsImage=Zapisz jako obraz
-gui.tooltips.appliedenergistics2.HideStored=Hide Stored Items
+gui.tooltips.appliedenergistics2.HideStored=Ukryj Zmagazynowane Przedmioty
 
 gui.tooltips.appliedenergistics2.DoesntDespawn=Ten przedmiot nie zniknie.
 gui.tooltips.appliedenergistics2.EmitterMode=Tryb Emitera Wytwarzania
@@ -545,9 +545,9 @@ gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=Jeśli jest dodatni
 gui.tooltips.appliedenergistics2.ToFollow=Kliknij, aby śledzić to zadanie i otrzymać wiadomość po jego ukończeniu. \nNie śledzisz teraz tego zadania.
 gui.tooltips.appliedenergistics2.ToUnfollow=Kliknij, aby przestać śledzić to zadanie \nŚledzisz to zadanie i otrzymasz wiadomość na czacie po jego zakończeniu.
 
-gui.tooltips.appliedenergistics2.StringOrder=Sorting
-gui.tooltips.appliedenergistics2.StringOrderNatural=Default
-gui.tooltips.appliedenergistics2.StringOrderAlphanum=Natural Order
+gui.tooltips.appliedenergistics2.StringOrder=Sortowanie
+gui.tooltips.appliedenergistics2.StringOrderNatural=Domyślne
+gui.tooltips.appliedenergistics2.StringOrderAlphanum=Naturalny porządek
 gui.tooltips.appliedenergistics2.CellRestrictionLabel=Cell Restriction
 gui.tooltips.appliedenergistics2.CellRestrictionHint=Setup Cell Restriction
 # Units
@@ -615,7 +615,7 @@ item.appliedenergistics2.ItemEncodedPattern.name=Zakodowany Wzorzec
 item.appliedenergistics2.ItemViewCell.name=Dysk Widoku
 item.appliedenergistics2.ItemFacade.name=Fasada Kablowa
 
-item.appliedenergistics2.ItemCrystalSeed.name=Seed
+item.appliedenergistics2.ItemCrystalSeed.name=Nasiono
 item.appliedenergistics2.ItemCrystalSeed.Certus.name=Nasiono Kwarcu Certus
 item.appliedenergistics2.ItemCrystalSeed.Nether.name=Nasiono Kwarcu
 item.appliedenergistics2.ItemCrystalSeed.Fluix.name=Nasiono Fluix
@@ -623,8 +623,8 @@ item.appliedenergistics2.ItemCrystalSeed.Fluix.name=Nasiono Fluix
 item.appliedenergistics2.ItemPart.InvalidType.name=Przedmiot Wyłączony
 item.appliedenergistics2.ItemMaterial.InvalidType.name=Ten Przedmiot Jest Wyłączony.
 
-item.appliedenergistics2.ItemMaterial.name=ME Component
-item.appliedenergistics2.ItemPart.name=ME Cable and/or Bus
+item.appliedenergistics2.ItemMaterial.name=Komponent ME
+item.appliedenergistics2.ItemPart.name=Kabel ME i/lub Magistrala
 
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=Pusty Wzorzec
 item.appliedenergistics2.ItemMaterial.FormationCore.name=Rdzeń Kreacji
@@ -647,7 +647,7 @@ item.appliedenergistics2.ItemMaterial.CardLockCrafting.name=Karta Blokowania
 item.appliedenergistics2.ItemMaterial.CardSticky.name=Lepka Karta
 item.appliedenergistics2.ItemMaterial.CardVoidOverflow.name=Overflow Void Card
 item.appliedenergistics2.ItemMaterial.CardDistribution.name=Equal Distribution Card
-item.appliedenergistics2.ItemMaterial.CardFakeCrafting.name=Fake Crafting Card
+item.appliedenergistics2.ItemMaterial.CardFakeCrafting.name=Fałszywa Karta Wytwarzania
 item.appliedenergistics2.ItemMaterial.CardSuperluminalSpeed.name=Superluminal Acceleration Card
 
 item.appliedenergistics2.ItemMaterial.Cell2SpatialPart.name=Komponent Przestrzenny 2³ 
@@ -734,7 +734,7 @@ item.appliedenergistics2.ItemPart.P2PTunnel.name=Tunel P2P
 item.appliedenergistics2.ItemPart.PatternTerminal.name=Terminal Wzorców
 item.appliedenergistics2.ItemPart.PatternTerminalEx.name=Terminal Zaawansowanych Wzorców ME
 item.appliedenergistics2.ItemPart.QuartzFiber.name=Włókno Kwarcowe
-item.appliedenergistics2.ItemPart.PartCreativeEnergy.name=Creative Energy Anchor
+item.appliedenergistics2.ItemPart.PartCreativeEnergy.name=Kreatywna Kotwica Energii
 item.appliedenergistics2.ItemPart.StorageBus.name=Magistrala Magazynowania Przedmiotów ME
 item.appliedenergistics2.ItemPart.Terminal.name=Terminal ME
 item.appliedenergistics2.ItemPart.CraftingTerminal.name=Terminal Wytwarzania ME
