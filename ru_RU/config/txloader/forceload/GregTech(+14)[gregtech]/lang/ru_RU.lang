@@ -404,8 +404,8 @@ GT5U.GTPP_MULTI_MASS_FABRICATOR.mode.0=Генератор материи
 GT5U.GTPP_MULTI_MASS_FABRICATOR.mode.1=Утилизатор
 GT5U.GTPP_MULTI_ADV_DISTILLATION_TOWER.mode.0=Ректификационная колонна
 GT5U.GTPP_MULTI_ADV_DISTILLATION_TOWER.mode.1=Дистилятор
-GT5U.GTPP_MULTI_PRECISE_ASSEMBLER.mode.0=Precise
-GT5U.GTPP_MULTI_PRECISE_ASSEMBLER.mode.1=Normal
+GT5U.GTPP_MULTI_PRECISE_ASSEMBLER.mode.0=Точный
+GT5U.GTPP_MULTI_PRECISE_ASSEMBLER.mode.1=Нормальный
 GT5U.GTPP_MULTI_PACKAGER.mode.0=Упаковщик
 GT5U.GTPP_MULTI_PACKAGER.mode.1=Распаковщик
 GT5U.MULTI_MACHINE_CHANGE=Сейчас работает в режиме %s
@@ -681,6 +681,14 @@ GT5U.item.cable.loss=Потеря на блок/ампер
 GT5U.item.cable.eu_volt=EU-Вольт
 GT5U.item.tank.locked_to=Content locked to %s
 
+GT5U.item.pipe.capacity=Capacity
+GT5U.item.pipe.heat_resistance=Heat Resistance
+GT5U.item.pipe.gas_proof=Gas Proof
+GT5U.item.pipe.gas_proof.yes=Yes
+GT5U.item.pipe.gas_proof.no=No
+GT5U.item.pipe.amount=Pipe Amount
+GT5U.item.pipe.empty=Empty
+
 gt.behaviour.paintspray.infinite.gui.header=Выберите цвет
 gt.behaviour.paintspray.infinite.gui.lock_error=§eSpray can is §clocked§e! §bSneak middle-click to unlock.
 gt.behaviour.paintspray.infinite.gui.solvent=Растворитель
@@ -713,10 +721,10 @@ GT5U.hatch.infiniteCacheFluid.true=МЭ Выходной шлюз будет б�
 GT5U.hatch.infiniteCacheFluid.false=МЭ Выходной шлюз перестанет принимать жидкости, если находится офлайне более 2 секунд
 GT5U.hatch.additionalConnection.true=МЭ каналы подключаются к любой стороне
 GT5U.hatch.additionalConnection.false=МЭ каналы подключаются только к передней стороне
-GT5U.hatch.fluid.filter.enable=Outputs these specific Fluids: %s
-GT5U.hatch.item.filter.enable=Outputs these specific Items: %s
-GT5U.hatch.fluid.filter.disable=Fluid locking disabled
-GT5U.hatch.item.filter.disable=Item locking disabled
+GT5U.hatch.fluid.filter.enable=Fluid output filter set to: %s
+GT5U.hatch.item.filter.enable=Item output filter set to: %s
+GT5U.hatch.fluid.filter.disable=Fluid output filtering disabled
+GT5U.hatch.item.filter.disable=Item output filtering disabled
 
 GT5U.bus.filterTooltip.empty=§aDrag item from NEI to set output filter
 GT5U.bus.filterTooltip.full=§aClick to clear output filter
@@ -850,6 +858,8 @@ GT5U.waila.producing=Производит:
 GT5U.waila.producing.andmore=  And %d More...
 GT5U.waila.generating.on=Generating Energy
 GT5U.waila.generating.off=Not Generating
+GT5U.waila.status.insufficient_energy=Status: Insufficient energy
+GT5U.waila.status.obstructed_steam_vent=Status: Obstructed steam vent
 
 
 achievement.flintpick=Первые инструменты
