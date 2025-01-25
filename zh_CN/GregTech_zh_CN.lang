@@ -10986,7 +10986,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_12735_Index_08=--------- §6电路组装机模式§7 --------
     S:TileEntity_DESCRIPTION_12735_Index_09=处理电路组装机配方, 最小长度: §c5§7
     S:TileEntity_DESCRIPTION_12735_Index_10=电路组装机模式的配方等级=最高能源仓等级-1
-    S:TileEntity_DESCRIPTION_12735_Index_11=此模式支持样板输入总成/总线，支持独立输入
+    S:TileEntity_DESCRIPTION_12735_Index_11=此模式支持样板输入总成/总线，支持总线隔离
     S:TileEntity_DESCRIPTION_12735_Index_13=-----------------------------------------
     S:TileEntity_DESCRIPTION_12735_Index_14=请在主方块上使用§9Structure§1Lib§7全息投影仪，以查看整体结构！
     S:TileEntity_DESCRIPTION_12735_Index_15=按住 §l[LSHIFT]§r§7 以显示结构指导
@@ -12873,7 +12873,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_15313_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§65§7x§63§7x§63§7§c
     S:TileEntity_DESCRIPTION_15313_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_15313_Secondary_Index_02=§f   数据访问仓：§7  任意电子计算机械方块
-    S:TileEntity_DESCRIPTION_15313_Secondary_Index_03=§f   数据库主接口：§7任意电子计算机械方块
+    S:TileEntity_DESCRIPTION_15313_Secondary_Index_03=§f   数据库发送接口：§7任意电子计算机械方块
     S:TileEntity_DESCRIPTION_15313_Secondary_Index_04=§f   能源仓：§7任意超能机械方块
     S:TileEntity_DESCRIPTION_15313_Secondary_Index_05=§f   维护仓：§7      任意超能机械方块
     S:TileEntity_DESCRIPTION_15314_Index_00=机器类型：§e特斯拉电塔§r
@@ -20885,12 +20885,12 @@ languagefile {
     S:gt.blockmachines.hatch.dataaccess.name=数据访问仓
     S:gt.blockmachines.hatch.datain.tier.07.name=副光学接口
     S:gt.blockmachines.hatch.datain.wireless.tier.12.name=云算力数据客户仓
-    S:gt.blockmachines.hatch.datainass.tier.07.name=装配线数据库接口
-    S:gt.blockmachines.hatch.datainass.wireless.tier.12.name=无线装配线数据库接收接口
+    S:gt.blockmachines.hatch.datainass.tier.07.name=装配线接收接口
+    S:gt.blockmachines.hatch.datainass.wireless.tier.12.name=装配线无线接收接口
     S:gt.blockmachines.hatch.dataout.tier.07.name=主光学接口
     S:gt.blockmachines.hatch.dataout.wireless.tier.12.name=云算力数据服务仓
-    S:gt.blockmachines.hatch.dataoutass.tier.07.name=数据库主接口
-    S:gt.blockmachines.hatch.dataoutass.wireless.tier.12.name=无线装配线数据库发射接口
+    S:gt.blockmachines.hatch.dataoutass.tier.07.name=数据库发送接口
+    S:gt.blockmachines.hatch.dataoutass.wireless.tier.12.name=数据库无线发送接口
     S:gt.blockmachines.hatch.degasifiercontrol.name=除气机控制仓
     S:gt.blockmachines.hatch.dronedownlink.name=无人机下行模块
     S:gt.blockmachines.hatch.dynamo.buffer.tier.00.name=ULV动力仓[缓冲]
