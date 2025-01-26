@@ -1219,7 +1219,7 @@ languagefile {
     S:Material.magnetoresonatic=磁共振石
     S:Material.malachite=孔雀石
     S:Material.manadiamond=魔力钻石
-    S:Material.manasteel=魔钢
+    S:Material.manasteel=魔力钢
     S:Material.manganese=锰
     S:Material.manyullyn=玛玉灵
     S:Material.mar-ce-m200steel=MAR-Ce-M200特种钢
@@ -7374,7 +7374,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_03007_Secondary_Index_10=§f   输入仓：§7任意中子机械方块
     S:TileEntity_DESCRIPTION_03007_Secondary_Index_11=§f   维护仓：§7任意中子机械方块
     S:TileEntity_DESCRIPTION_03008_Index_00=机器类型：§e压缩机/进阶中子态素压缩机§r
-    S:TileEntity_DESCRIPTION_03008_Index_01=亚稳态黑洞遏制者的控制器方块
+    S:TileEntity_DESCRIPTION_03008_Index_01=亚稳态黑洞遏制场的控制器方块
     S:TileEntity_DESCRIPTION_03008_Index_02=§d以事件视界之伟力压缩物品.
     S:TileEntity_DESCRIPTION_03008_Index_03=§d无须热量控制即可进行超密压缩
     S:TileEntity_DESCRIPTION_03008_Index_04=§d足以制造更高级的奇点!
@@ -11625,7 +11625,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_03=   动力仓：    可使用普通动力仓/多A动力仓/激光源仓(1-12)
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_04=§f   输入总线：§7    1-11
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_05=§f   输入仓：§7  1-11
-    S:TileEntity_DESCRIPTION_14001_Secondary_Index_06=§f  副光学接口：§7    1-11
+    S:TileEntity_DESCRIPTION_14001_Secondary_Index_06=§f  光学接收端口：§7    1-11
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_07=   
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_08=   §o另外需要：
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_09=   能量接收基座机械方块：    53-64(基于动力仓数量)
@@ -11633,7 +11633,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_11=   模块部署单元基座机械方块：62-72(基于输入总线/仓数量)
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_12=   模块部署单元核心：        1
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_13=   模块部署单元超导磁体：    32
-    S:TileEntity_DESCRIPTION_14001_Secondary_Index_14=   控制中心基座机械方块：    115-138(基于副光学接口数量)
+    S:TileEntity_DESCRIPTION_14001_Secondary_Index_14=   控制中心基座机械方块：    115-138(基于光学接收端口数量)
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_15=   控制中心初级绕组：        20
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_16=   控制中心次级绕组：        12
     S:TileEntity_DESCRIPTION_14001_Secondary_Index_17=   控制中心环形机械方块：    128
@@ -15235,7 +15235,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_32027_Index_08=所有高于最低数量的仓室将会§c失去差值的一半!§7
     S:TileEntity_DESCRIPTION_32027_Index_09=若循环中能量或元始物质不足，§c10%的反物质将被销毁!§7
     S:TileEntity_DESCRIPTION_32027_Index_10=每个循环生产(§3反物质量§7^§60.5§7) * N(§b0.2§7, 0.25)的反物质，并消耗等量元始物质
-    S:TileEntity_DESCRIPTION_32027_Index_11=反物质量的改变将以符合N(§b0.2§7, 1)(均值为0.2的高斯分布)的比例在16个反物质仓中分配
+    S:TileEntity_DESCRIPTION_32027_Index_11=反物质的改变量将基于N(§b0.2§7, 1)(均值为0.2的正态分布)的抽样在16个反物质仓中分配
     S:TileEntity_DESCRIPTION_32027_Index_12=反物质量的总改变量可能为负!
     S:TileEntity_DESCRIPTION_32027_Index_13=-----------------------------------------
     S:TileEntity_DESCRIPTION_32027_Index_14=可输入稳定化流体以提升反物质产出
@@ -17133,7 +17133,7 @@ languagefile {
     S:fluid.molten.magnesia=熔融氧化镁
     S:fluid.molten.magnesium=熔融镁
     S:fluid.molten.magnetohydrodynamicallyconstrainedstarmatter=熔融磁流体约束恒星物质
-    S:fluid.molten.manasteel=熔融魔钢
+    S:fluid.molten.manasteel=熔融魔力钢
     S:fluid.molten.manganese=熔融锰
     S:fluid.molten.manyullyn=熔融玛玉灵
     S:"fluid.molten.mar-ce-m200 steel"=熔融MAR-Ce-M200特种钢
@@ -20883,11 +20883,11 @@ languagefile {
     S:gt.blockmachines.hatch.dataaccess.adv.name=进阶数据访问仓
     S:gt.blockmachines.hatch.dataaccess.auto.name=自动数据访问仓
     S:gt.blockmachines.hatch.dataaccess.name=数据访问仓
-    S:gt.blockmachines.hatch.datain.tier.07.name=副光学接口
+    S:gt.blockmachines.hatch.datain.tier.07.name=光学接收端口
     S:gt.blockmachines.hatch.datain.wireless.tier.12.name=云算力数据客户仓
     S:gt.blockmachines.hatch.datainass.tier.07.name=装配线接收接口
     S:gt.blockmachines.hatch.datainass.wireless.tier.12.name=装配线无线接收接口
-    S:gt.blockmachines.hatch.dataout.tier.07.name=主光学接口
+    S:gt.blockmachines.hatch.dataout.tier.07.name=光学发送端口
     S:gt.blockmachines.hatch.dataout.wireless.tier.12.name=云算力数据服务仓
     S:gt.blockmachines.hatch.dataoutass.tier.07.name=数据库发送接口
     S:gt.blockmachines.hatch.dataoutass.wireless.tier.12.name=数据库无线发送接口
@@ -21495,7 +21495,7 @@ languagefile {
     S:gt.blockmachines.multimachine.assemblyline.name=装配线
     S:gt.blockmachines.multimachine.autoclave.name=工业高压釜
     S:gt.blockmachines.multimachine.basiccompressor.name=大型电动压缩机
-    S:gt.blockmachines.multimachine.blackholecompressor.name=亚稳态黑洞遏制者
+    S:gt.blockmachines.multimachine.blackholecompressor.name=亚稳态黑洞遏制场
     S:gt.blockmachines.multimachine.blastfurnace.name=工业高炉
     S:gt.blockmachines.multimachine.boiler.bronze.name=大型青铜锅炉
     S:gt.blockmachines.multimachine.boiler.steel.name=大型钢锅炉
