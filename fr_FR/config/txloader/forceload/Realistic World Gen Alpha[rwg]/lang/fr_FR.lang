@@ -1,15 +1,15 @@
 generator.RWG=Realistic Alpha
-rwg.buginfo.line1=A bug in the RWG version shipped with GTNH 2.2.0.0 caused the world to be generated differently than previous versions.
-rwg.buginfo.line2=The bug has since been fixed, reverting future generation to pre-2.2.0.0 style.
-rwg.buginfo.line3=Unfortunately, what version was used when this world was created can't be automatically detected.
-rwg.buginfo.line4=To allow players from both versions to continue playing on their world without making new ugly chunk borders,
-rwg.buginfo.line5=this version of RWG supports both but requires you to select which one to use when upgrading worlds.
-rwg.buginfo.perlin= is the version used in all versions except 2.2.0.0
-rwg.buginfo.opensimplex= is the version used in 2.2.0.0
+rwg.buginfo.line1=Un bug dans la version de RWG incluse dans GTNH 2.2.0.0 a entraîné une génération du monde différente des versions précédentes.
+rwg.buginfo.line2=Le bug a depuis été corrigé, rétablissant la génération future au style d'avant la 2.2.0.0.
+rwg.buginfo.line3=Malheureusement, la version utilisée lors de la création de ce monde ne peut pas être détectée automatiquement.
+rwg.buginfo.line4=Pour permettre aux joueurs des deux versions de continuer à jouer sur leur monde sans créer de nouvelles frontières de chunks discontinues,
+rwg.buginfo.line5=Cette version de RWG prend en charge les deux, mais vous devez choisir lequel utiliser lors de la mise à niveau des mondes.
+rwg.buginfo.perlin= est la version utilisée dans toutes les versions sauf la 2.2.0.0
+rwg.buginfo.opensimplex= est la version utilisée en 2.2.0.0
 
-rwg.noise.current_type=Current noise type is %s
-rwg.noise.unchanged=Noise type unchanged.
+rwg.noise.current_type=Le type de bruit actuel est %s
+rwg.noise.unchanged=Type de bruit inchangé
 rwg.noise.was_set_to.unknown=Noise type was set to UNKNOWN, which will default to Perlin.
-rwg.noise.was_set_to.generic=Noise type was set to %s
-rwg.noise.instant_new_chunks=All new chunks will instantly be generated with the selected algorithm.
-rwg.noise.needs_restart=World must be reloaded (server restarted or single player relog) for changes to take effect.
+rwg.noise.was_set_to.generic=Le type de bruit a été défini sur %s
+rwg.noise.instant_new_chunks=Tous les nouveaux chunks seront instantanément générés avec l’algorithme sélectionné.
+rwg.noise.needs_restart=Le monde doit être rechargé (redémarrage du serveur ou reconnexion en solo) pour que les changements prennent effet.
