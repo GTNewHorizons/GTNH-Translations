@@ -591,9 +591,13 @@ cmd.backup_size=Текущий размер мира: %s, общий разме�
 serverutilities.gui.backup.title=Восстановление резервной копии (%s)
 serverutilities.gui.backup.button=Резервное копирование
 serverutilities.gui.backup.restore=Восстановить
+serverutilities.gui.backup.restore_global=Restore (with global data)
 serverutilities.gui.backup.error=Произошла ошибка при восстановлении резервной копии!
 serverutilities.gui.backup.delete_confirm=Вы уверены, что хотите §c§lудалить§r эту резервную копию?
 serverutilities.gui.backup.restore_confirm=Вы уверены, что хотите §a§lвосстановить§r эту резервную копию?
+serverutilities.gui.backup.restore_global_confirm=Are you sure you want to §a§lrestore (global)§r this backup?
+serverutilities.gui.backup.restore_confirm_desc=This will also restore global world related data. The previous data will be moved into "backups/old_global_data"
+serverutilities.gui.backup.restore_global_confirm_desc=This will also restore global world related data, and will overwrite global settings with those included in the backup. The previous data will be moved into "/backups/old_global_data"
 
 # Pause When Empty
 cmd.pause_when_empty_updated=Server property 'pause-when-empty-seconds' set to %d
