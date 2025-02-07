@@ -38,7 +38,7 @@ SourceChamber.hint.2=16x Электродный корпус
 SourceChamber.hint.3=Точка 1: Входной люк
 SourceChamber.hint.4=Точка 2: Выходной люк
 SourceChamber.hint.5=Точка 3: Люк техобслуживания, Энерговвод
-SourceChamber.hint.6=Dot 4: Beamline Output Hatch
+SourceChamber.hint.6=Точка 4: Выходной шлюз установки для литографии
 
 LINAC.hint.0=325-1285x Экранированный корпус ускорителя
 LINAC.hint.1=148-852x Coolant Delivery Casing
@@ -49,8 +49,8 @@ LINAC.hint.5=47x Вентиляционный корпус
 LINAC.hint.6=48x Боросиликатное стекло (LuV+)
 LINAC.hint.7=Точка 1: Энерговвод, Люк техобслуживания
 LINAC.hint.8=Точка 2: Входной шлюз, Выходной шлюз
-LINAC.hint.9=Dot 3: Beamline Input Hatch
-LINAC.hint.10=Dot 4: Beamline Output Hatch
+LINAC.hint.9=Точка 3: Входной шлюз установки для литографии
+LINAC.hint.10=Точка 4: Выходной шлюз установки для литографии
 
 Synchrotron.hint.0=676x Экранированный корпус ускорителя
 Synchrotron.hint.1=90x Блок сверхпроводящей катушки
@@ -58,8 +58,8 @@ Synchrotron.hint.2=64x Ниобиевый полый корпус
 Synchrotron.hint.3=28x Coolant Delivery Casing
 Synchrotron.hint.4=16x Боросиликатное стекло (LuV+)
 Synchrotron.hint.5=4x Корпус антенны
-Synchrotron.hint.6=Dot 1: Beamline Input Hatch
-Synchrotron.hint.7=Dot 2: Beamline Output Hatch
+Synchrotron.hint.6=Точка 1: Входной шлюз установки для литографии
+Synchrotron.hint.7=Точка 2: Выходной шлюз установки для литографии
 Synchrotron.hint.8=Точка 3: Люк техобслуживания
 Synchrotron.hint.9=Точка 4: Входной шлюз
 Synchrotron.hint.10=Точка 5: Выходной шлюз
@@ -73,11 +73,11 @@ TargetChamber.hint.4=4x Корпус фокуса манипулятора
 TargetChamber.hint.5=4x Корпус целевого приемника
 TargetChamber.hint.6=1x Держатель фокуса
 TargetChamber.hint.7=1x Приёмник образцов
-TargetChamber.hint.8=Dot 1: Focus Input Bus
+TargetChamber.hint.8=Точка 1: Входной люк фокусировки
 TargetChamber.hint.9=Точка 2: Энерговвод, Люк техобслуживания
 TargetChamber.hint.10=Точка 1: Входной люк
 TargetChamber.hint.11=Точка 4: Выходной люк
-TargetChamber.hint.12=Dot 5: Beamline Input Hatch
+TargetChamber.hint.12=Точка 5: Входной шлюз установки для литографии
 
 
 fluid.Antimony Pentafluoride Solution=Раствор пентафторида сурьмы
@@ -120,7 +120,7 @@ casing.coolant_delivery.name=Coolant Delivery Casing
 casing.antenna_t1.name=Корпус антенны (T1)
 casing.antenna_t2.name=Корпус антенны (T2)
 casing.niobium_cavity.name=Ниобиевый полый корпус
-casing.focus_manipulator.name=Фокус манипулятор
+casing.focus_manipulator.name=Манипулятор фокусировки
 casing.focus_holder.name=Держатель фокуса
 casing.target_receptacle.name=Целевой приемник
 casing.target_holder.name=Приёмник образцов
@@ -139,7 +139,7 @@ item.masked_mask_substrate.name=Обработанная маска-субстр
 
 beamline.info=Информация о механизме
 
-beamline.in_pre=Multiblock Beamline Input
+beamline.in_pre=Мультиблоковый вход установки для литографии
 beamline.particle=Частица
 beamline.energy=Энергия
 beamline.focus=Фокус
@@ -149,7 +149,7 @@ beamline.rate=Скорость
 beamline.temperature=Температура
 beamline.coolusage=Coolant Usage
 
-beamline.out_pre=Multiblock Beamline Output
+beamline.out_pre=Мультиблоковый выход установки для литографии
 
 beamline.particleinput=Входная информация о частицах:
 

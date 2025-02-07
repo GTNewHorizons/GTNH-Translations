@@ -50,7 +50,7 @@ tile.draconicevolution:energyCrystal2.name=Энергетический пере
 tile.draconicevolution:energyCrystal3.name=Улучшенный энергетический передатчик
 tile.draconicevolution:energyCrystal4.name=Беспроводной энергетический передатчик
 tile.draconicevolution:energyCrystal5.name=Улучшенный беспроводной энергетический передатчик
-tile.draconicevolution:dislocatorInhibitor.name=Dislocator Inhibitor
+tile.draconicevolution:dislocatorInhibitor.name=Ингибитор телепортации
 
 
 //Item Information ----------------------------------------------------------------------------------------------------------------------------------------
@@ -100,7 +100,7 @@ item.draconicevolution:draconiumFluxCapacitor.name=Энергетическое 
 item.draconicevolution:draconiumFluxCapacitor0.name=Энергетическое хранилище Виверны
 item.draconicevolution:draconiumFluxCapacitor1.name=Энергетическое хранилище Дракона
 item.draconicevolution:draconicIngot.name=Пробуждённый дракониевый слиток
-item.draconicevolution:creativeStructureSpawner.name=Structure Spawner
+item.draconicevolution:creativeStructureSpawner.name=Спавнер структур
 item.draconicevolution:creativeStructureSpawnerComet.name=Заспавнить комету
 item.draconicevolution:creativeStructureSpawnerEnderIsland.name=Заспавнить остров Края
 item.draconicevolution:infoTablet.name=Информационный планшет Draconic Evolution
@@ -510,7 +510,7 @@ button.de.BowShockWavePower.name=Сила ударной волны
 button.de.BowEnergyBolt.name=Стрела Драконьего огня
 button.de.BowZoomModifier.name=Приближение камеры
 button.de.Enabled.name=Включить
-button.de.MagnetSneak.name=Disabled while sneaking
+button.de.MagnetSneak.name=Отключено во время подкрадывания 
 
 button.de.reactorCharge.txt=Зарядить реактор
 button.de.reactorStart.txt=Активировать
@@ -553,7 +553,7 @@ gui.de.particleGenerator.motionX.name=Движение X:
 gui.de.particleGenerator.motionY.name=Движение Y:
 gui.de.particleGenerator.motionZ.name=Движение Z:
 gui.de.particleGenerator.scale.name=Размер:
-gui.de.particleGenerator.life.name=Life (T):
+gui.de.particleGenerator.life.name=Время жизни (T):
 gui.de.particleGenerator.spawnX.name=Позиция появления X:
 gui.de.particleGenerator.spawnY.name=Позиция появления Y:
 gui.de.particleGenerator.spawnZ.name=Позиция появления Z:
@@ -563,31 +563,31 @@ gui.de.particleGenerator.gravity.name=Гравитация:
 gui.de.particleGenerator.pitch.name=Наклон:
 gui.de.particleGenerator.yaw.name=Поворот:
 gui.de.particleGenerator.rotation.name=Вращение:
-gui.de.particleGenerator.length.name=Length:
+gui.de.particleGenerator.length.name=Длина:
 
 gui.de.particleGenerator.main.title=Генератор частиц
-gui.de.particleGenerator.beam.title=Beam Generator
+gui.de.particleGenerator.beam.title=Генератор луча
 gui.de.particleGenerator.info.title=Информация
 
-gui.de.particleGenerator.hold.name=Hold:
+gui.de.particleGenerator.hold.name=Удержание:
 gui.de.particleGenerator.info.name=i
 gui.de.particleGenerator.back.name=Назад
 gui.de.particleGenerator.page.name=Страница: %d
-gui.de.particleGenerator.blockCollision.name=Block Collision: %s
-gui.de.particleGenerator.particleSelected.name=Particle Selected: %d
-gui.de.particleGenerator.enabled.name=Enabled: %s
-gui.de.particleGenerator.renderCore.name=Render Core: %s
-gui.de.particleGenerator.saveSettings.name=Take note of values
+gui.de.particleGenerator.blockCollision.name=Коллизия с блоками: %s
+gui.de.particleGenerator.particleSelected.name=Выбранная частица: %d
+gui.de.particleGenerator.enabled.name=Активировано: %s
+gui.de.particleGenerator.renderCore.name=Отображать ядро: %s
+gui.de.particleGenerator.saveSettings.name=Сохранить настройки
 
-gui.de.particleGenerator.info.1=  The Particle Generator is a decorative device that allows you to create your own custom particle effects.\n  It is fairly easy you use this device you simply adjust the fields (variables) in the interface to change how the generated particles look and behave.\n  This block is a work in progress and new features and particles are likely to be added in future versions.\n  The following is a list of all of the fields in the interface and what they do.
-gui.de.particleGenerator.info.2=  The first thing to note is that most fields have a random modifier which will add a random number between 0 and whatever max (or min) value you give it to the field.\n  - The first 3 fields (Red, Green & Blue) control the colour of the particle. Most people should be familiar with this colour system if not google RGB colours. Note: the max value for each colour can not go higher then 255 so the colour field limits the random modifier e.g. if the colour field is set to 255 and the random modifier is set to 20 the result will always be 255.
-gui.de.particleGenerator.info.3=  - The next 3 fields (Motion X, Y & Z) control the direction and speed of the particle.\n  - The "Life" field sets how long (in ticks) before the particle despawns.\n  - The "Scale" field sets the size of the particle.\n  - The next 3 fields (Spawn X, Y & Z) Sets the spawn location of the particle (relative to the location of the particle generator).
-gui.de.particleGenerator.info.4=  - The "Delay" field sets the delay (in ticks) between each particle spawn e.g. 1=20/s, 20=1/s, 100=1/5s.\n  - The "Fade" field sets how long (in ticks) it takes the particle to fade out of existance. Note: This adds to the life of the particle.\n  - The "Gravity" field sets how the particle is affected by gravity.\n  - "Block Collision" Toggles weather or not the particle will collide with blocks.\n  - "Particle Selected" switches between the different particles available.
+gui.de.particleGenerator.info.1=  Генератор частиц - это декоративное устройство, которое позволяет создавать собственные пользовательские эффекты частиц.\n  Использовать это устройство довольно просто: нужно настроить поля (переменные) в интерфейсе, чтобы изменить внешний вид и поведение создаваемых частиц.\n  Этот блок находится в разработке, и в будущих версиях, скорее всего, будут добавлены новые функции и частицы.\n  Ниже приведён список всех полей в интерфейсе и их назначение.
+gui.de.particleGenerator.info.2=  Первое, на что стоит обратить внимание, это то, что большинство полей имеют модификатор случайности, который добавляет случайное число от 0 до указанного вами максимального (или минимального) значения к полю.\n  - Первые 3 поля (Красный, Зелёный и Синий) управляют цветом частицы. Большинство людей знакомы с этой системой цветов, если нет — поищите информацию о цветовой модели RGB. Примечание: максимальное значение для каждого цвета не может превышать 255, поэтому поле цвета ограничивает модификатор случайности. Например, если поле цвета установлено на 255, а модификатор случайности — на 20, результат всегда будет 255.
+gui.de.particleGenerator.info.3=  - Следующие 3 поля (Движение X, Y и Z) управляют направлением и скоростью частицы.\n  - Поле "Время жизни" задаёт, как долго (в тиках) частица будет существовать до исчезновения.\n  - Поле "Масштаб" задаёт размер частицы.\n  - Следующие 3 поля (Позиция появления X, Y и Z) определяют место появления частицы (относительно местоположения генератора частиц).
+gui.de.particleGenerator.info.4=  - Поле "Задержка" задаёт задержку (в тиках) между появлением каждой частицы, например: 1=20/с, 20=1/с, 100=1/5с.\n  - Поле "Затухание" задаёт, сколько времени (в тиках) требуется частице, чтобы полностью исчезнуть. Примечание: это добавляется к времени жизни частицы.\n  - Поле "Гравитация" определяет, как частица подвержена влиянию гравитации.\n  - "Коллизия с блоками" включает или отключает столкновение частиц с блоками.\n  - "Выбранная частица" позволяет переключаться между доступными типами частиц.
 gui.de.particleGenerator.info.5.title=Контроль сигналом красного камня\n\n
 gui.de.particleGenerator.info.5=  Изначально сигнал красного камня нужен, чтобы запустить генератор.\n  Однако нажав Shift+ПКМ по генератору с пустой рукой он переключится в инвертированный режим.\n  Режим красного камня отображается 8 кубами по углам блока.
 gui.de.particleGenerator.info.6.title=Контроль компьютером\n\n
 gui.de.particleGenerator.info.6=  Генератор может контроллироваться компьютером.\n  Он предоставляет относительно простой API:\n\n  setGeneratorProperty(property, value)\n  getGeneratorState()\n  resetGeneratorState()
-gui.de.particleGenerator.info.7=  Generator state is obtained as a whole from getGeneratorState, whereas properties are modified one at a time using setGeneratorProperty. Property names are strings and mostly correspond to button labels in the GUI.
+gui.de.particleGenerator.info.7=Состояние генератора получается целиком через getGeneratorState, тогда как свойства изменяются по одному с помощью setGeneratorProperty. Имена свойств представляют собой строки и в основном соответствуют названиям кнопок в графическом интерфейсе.
 
 gui.de.insert.txt=Вставить
 gui.de.extract.txt=Извлечь
