@@ -71,6 +71,10 @@ item.em.parametrizerMemoryCard.desc.0=Хранит параметры
 item.em.parametrizerMemoryCard.desc.1=Используйте на параметризаторе/контроллере чтобы настроить их конфигурацию
 item.em.parametrizerMemoryCard.desc.2=Используйте на параметризаторе/контроллере чтобы сохранить параметры
 item.em.parametrizerMemoryCard.desc.3=Shift+ПКМ чтобы заблокировать/разблокировать
+item.em.parametrizerMemoryCard.copyMessage=Configuration copied to the card
+item.em.parametrizerMemoryCard.pasteMessage=Configuration pasted from the card
+item.em.parametrizerMemoryCard.controllerMismatch=Can't paste configuration from %s to %s!
+item.em.parametrizerMemoryCard.noConfig=Can't paste from empty card!
 
 item.tm.teslaCoilCapacitor.name=Тесла конденсатор
 item.tm.teslaCoilCapacitor.0.name=LV Тесла конденсатор
@@ -507,11 +511,6 @@ gt.blockmachines.emout.tier.13.name=UXV Выходной элементный ш
 gt.blockmachines.emout.desc=Вывод элементной материи в мультиблоки
 
 #TODO change tier.05 to tier.04
-gt.blockmachines.hatch.param.tier.05.name=Параметрайзер
-gt.blockmachines.hatch.param.tier.07.name=Параметрайзер X
-gt.blockmachines.hatch.param.tier.10.name=Параметрайзер tXt
-gt.blockmachines.hatch.param.desc.0=Для параметризации мультиблоков
-gt.blockmachines.hatch.param.desc.1=E=mine*craft
 
 gt.blockmachines.hatch.certain.tier.05.name=Разрешитель неопределенности
 gt.blockmachines.hatch.certain.tier.07.name=Разрешитель неопределенности
@@ -1038,7 +1037,7 @@ fog.upgrade.text.29=Allows construction of the third ring and adds 4 module slot
 fog.upgrade.text.30=Unlocks Magmatter production in the Heliofusion Exoticizer, creation of exotic plasmas in the Heliothermal Plasma Fabricator and Graviton Shard ejection & injection.
 
 fog.debug.resetbutton.text=Сброс
-fog.debug.resetbutton.tooltip=Resets all upgrades to zero
+fog.debug.resetbutton.tooltip=Сбрасывает все улучшения до нуля
 fog.debug.unlockall.text=Unlock all upgrades
 fog.debug.gravitonshardsetter.tooltip=Set the amount of available graviton shards
 
@@ -1070,7 +1069,7 @@ fog.button.color.tooltip=Cosmetics Menu
 fog.button.statistics.tooltip=Stats Overview
 fog.text.tooltip.heat=Heat value used for checking if a recipe can run
 fog.text.tooltip.effectiveheat=Heat value used for calculating bonuses
-fog.text.tooltip.parallel=Maximum parallel amount
+fog.text.tooltip.parallel=Максимальное количество параллелей
 fog.text.tooltip.speedbonus=Multiplier for base recipe time, making it shorter
 fog.text.tooltip.energydiscount=Multiplier for base energy usage, reducing it
 fog.text.tooltip.ocdivisor=Divisor for recipe time reduction per overclock (does not affect perfect OCs)
@@ -1168,8 +1167,8 @@ gt.blockmachines.multimachine.FOG.energydiscount=Energy Discount
 gt.blockmachines.multimachine.FOG.ocdivisor=OC Divisor
 gt.blockmachines.multimachine.FOG.clickstat=Click to view value breakdown
 
-gt.blockmachines.multimachine.FOG.hint.0=1 - Classic Hatches or Transcendentally Amplified Magnetic Confinement Casing
-gt.blockmachines.multimachine.FOG.hint.1=2 - Module Controllers or Singularity Reinforced Stellar Shielding Casing
+gt.blockmachines.multimachine.FOG.hint.0=1 - Классические шлюзы или Трансцендентно усиленный магнитно-удерживающий корпус
+gt.blockmachines.multimachine.FOG.hint.1=2 - Контроллеры модулей или Укрепленный сингулярностью звездный экранирующий корпус
 
 # Godforge Star Cosmetics
 fog.cosmetics.header=Star Cosmetics
@@ -1343,6 +1342,7 @@ GT5U.gui.text.invalid_hysteresis=§7Неверные настройки гист
 GT5U.gui.text.invalid_transfer_radius=§7Неверные настройки радиуса передачи
 GT5U.gui.text.invalid_voltage_setting=§7Неверная настройка вольтажа
 GT5U.gui.text.invalid_current_setting=§7Неверная текущая настройка
+GT5U.gui.text.invalid_primary_winding=§7Primary winding tier is too low!
 GT5U.gui.text.invalid_time_setting=§7Неверная настройка времени
 GT5U.gui.text.invalid_overdrive_setting=§7Неверная настройка перегрузки
 GT5U.gui.text.insufficient_power_no_val=§7Недостаточно энергии
@@ -1455,7 +1455,12 @@ tt.keyphrase.Tier_Rating=Тир вольтажа
 tt.keyphrase.Amp_Rating=Кол-во ампер
 tt.keyphrase.Computation_Available=Доступно вычислений
 tt.keyphrase.Computation_Remaining=Вычислений осталось
-tt.keyphrase.Content_Stack_Count=Содержимое: количество стаков
+tt.keyphrase.AL_Recipe_Providing=Providing §6%s§7 Assembly Line Recipes
+tt.keyphrase.AL_Recipe_Receiving=Receiving §6%s§7 Assembly Line Recipes
+tt.keyphrase.AL_Recipe_Transmitting=Transmitting §6%s§7 Assembly Line Recipes
+tt.keyphrase.AL_Recipe_Header=§7Assembly Line Recipes:
+tt.keyphrase.AL_Recipe_Desc=§7- §a%s§7
+tt.keyphrase.AL_Recipe_None=§7- None
 tt.keyphrase.Base_computation=Базовые вычисления
 tt.keyphrase.After_overclocking=После оверклока
 tt.keyphrase.Heat_Accumulated=Тепла накоплено
