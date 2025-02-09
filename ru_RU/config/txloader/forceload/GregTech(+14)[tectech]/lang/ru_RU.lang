@@ -661,7 +661,6 @@ gt.blockmachines.multimachine.em.transformer.machinetype=Active Transformer, AT
 gt.blockmachines.multimachine.em.transformer.hint=1 - Энерговывод/вывод и Высокоэнергетический корпус
 gt.blockmachines.multimachine.em.transformer.desc.1=Может преобразовывать в любой вольтаж и обратно
 gt.blockmachines.multimachine.em.transformer.desc.2=Всего 0.004% энергопотерь, ВАУ!!!
-gt.blockmachines.multimachine.em.transformer.desc.3=Взорвется, если сломается во время работы.
 
 gt.blockmachines.multimachine.tm.microwave.name=Совершенная микроволновая печь
 gt.blockmachines.multimachine.tm.microwave.hint.0=1 - Шлюзы или Чистый корпус из нержавеющей стали
@@ -785,7 +784,7 @@ gt.blockmachines.multimachine.em.research.desc.2=Needs to be fed with computatio
 gt.blockmachines.multimachine.em.research.desc.3=Does not consume the item until the Data Stick is written
 gt.blockmachines.multimachine.em.research.desc.4=Используйте отвёртку для смены режима
 gt.blockmachines.multimachine.em.research.desc.5=Computation required in scanner mode follows the formula:
-gt.blockmachines.multimachine.em.research.desc.6=Recipe duration in seconds * (2 ^ Recipe voltage tier)
+gt.blockmachines.multimachine.em.research.desc.6=Recipe duration in seconds * (2 ^ (Recipe voltage tier - 1))
 gt.blockmachines.multimachine.em.research.mode.Assembly_line=Режим: Исследовательская станция
 gt.blockmachines.multimachine.em.research.mode.Scanner=Режим: Сканер
 
