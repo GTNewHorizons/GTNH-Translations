@@ -75,7 +75,7 @@ GT5U.MBTT.InputBus=Входной люк
 GT5U.MBTT.InputHatch=Входной шлюз
 GT5U.MBTT.OutputBus=Выходной люк
 GT5U.MBTT.OutputHatch=Выходной шлюз
-GT5U.MBTT.TecTechHatch=Supports TecTech Multi-Amp and Laser Hatches!
+GT5U.MBTT.TecTechHatch=Поддерживает TecTech Мультиамперные энерговводы и лазеры!
 GT5U.MBTT.Causes=Производит
 GT5U.MBTT.PPS=загрязнения в секунду
 GT5U.MBTT.Hold=Удерживайте
@@ -89,7 +89,7 @@ GT5U.MBTT.Structure.SeeStructure2=Голограммный проект на к�
 
 GT5U.MBTT.subchannel=Использует подканал §6%s§r§7 для §6%s
 
-GT5U.cracker.io_side=Input/Output Hatches must be on opposite sides!
+GT5U.cracker.io_side=Входные/Выходные шлюзы должны быть на противоположных сторонах!
 
 GT5U.turbine.running.true=Турбина работает
 GT5U.turbine.running.false=Турбина остановлена
@@ -289,6 +289,7 @@ gt.recipe.purificationplantplasmaheating=Температурное колеба
 gt.recipe.purificationplantuvtreatment=Обработка высокоэнергетическим лазером
 gt.recipe.purificationplantdegasifier=Дегазация
 gt.recipe.purificationplantquarkextractor=Барионное совершенство
+gt.recipe.quantumcomputer=QC Components
 
 # Recipe categories
 gt.recipe.category.arc_furnace_recycling=Переработка в дуговой печи
@@ -451,7 +452,7 @@ GT5U.machines.industrialapiary.autoqueen.tooltip=Автоматически по
 GT5U.machines.industrialapiary.autoqueen.tooltip.1=§7Не требует улучшение "Автоматизация"
 GT5U.machines.industrialapiary.autoqueen.tooltip.2=§7§oЭта опция игнорируется, если установлено улучшение "Автоматизация"
 GT5U.machines.advdebugstructurewriter.tooltip=Сканирует блоки вокруг
-GT5U.machines.advdebugstructurewriter.tooltip.1=Печатает код не-ТЕ структуры многоблоков
+GT5U.machines.advdebugstructurewriter.tooltip.1=Печатает код не-ТЕ структуры мультиблоков
 GT5U.machines.advdebugstructurewriter.tooltip.2=ABC axes aligned to machine front
 GT5U.machines.advdebugstructurewriter.printed=Printed structure to console
 GT5U.machines.advdebugstructurewriter.gui.origin=Origin
@@ -513,6 +514,7 @@ GT5U.machines.betterjukebox.loop.tooltip=Loop mode (keep discs in input inventor
 GT5U.machines.betterjukebox.shuffle.tooltip=Shuffle mode (play random discs instead of in order)
 GT5U.machines.betterjukebox.headphonesbound=Наушники привязаны к проигрывателю
 GT5U.machines.betterjukebox.headphonesunbound=Shift-клик на электрическом проигрывателе для привязки наушников
+GT5U.machines.computation_hatch.computation=Computation
 GT5U.machines.laser_hatch.amperage=Ампераж
 
 GT5U.recipe_filter.empty_representation_slot.tooltip=§7Click with a machine to set filter
@@ -571,6 +573,9 @@ GT5U.gui.text.no_lubricant=§7Смазка не найдена
 GT5U.gui.text.no_coolant=§7Хладагент не найдена
 GT5U.gui.text.cycle_idle=§6Waiting for cycle to start
 GT5U.gui.text.fuel_quality_too_high=§7Качество топлива слишком высокое для работы без усиления
+GT5U.gui.text.data_stick.saved=Saved Config to Data Stick
+GT5U.gui.text.data_stick.loaded=Loaded Config from Data Stick
+GT5U.gui.text.data_stick.invalid=Invalid Data Stick configuration
 GT5U.gui.text.no_data_sticks=§7Флешки не найдены
 GT5U.gui.text.bio_upgrade_missing=§7Для запуска рецепта требуется биоапгрейд
 GT5U.gui.text.nanites_missing=§7Отсутствует нанит
@@ -623,7 +628,7 @@ GT5U.gui.text.drone_operating=§aДрон работает нормально!
 GT5U.gui.text.drone_title=Центр управления дронами
 GT5U.gui.text.drone_custom_name=Собственное имя механизма
 GT5U.gui.text.drone_search=Поиск имени механизма
-GT5U.gui.text.shutdown_duration=§4Shut down §e%s §4h §e%s §4min §e%s §4s ago.
+GT5U.gui.text.shutdown_duration=§4Выключен §e%s §4ч §e%s §4м §e%s §4с назад.
 GT5U.gui.text.out_of_fluid=§4Не поставлены следующие жидкости: §b%s§f x §6%s Л
 GT5U.gui.text.out_of_item=§4Не поставлены следующие предметы: §b%s§f x §6%s
 GT5U.gui.text.out_of_stuff=§4Не поставлены следующие ресурсы: §b%s§f x §6%s
@@ -639,15 +644,15 @@ GT5U.gui.text.heat_sensor=Heat threshold
 GT5U.gui.text.no_maintenance=Missing Maintenance Hatch
 GT5U.gui.text.no_muffler=Missing Muffler Hatch
 GT5U.gui.text.pulse_mode=Pulse Mode
+GT5U.gui.text.static_mode=Static Mode
+GT5U.gui.text.pulse_mode=Pulse Mode
 GT5U.gui.text.no_wafer=No wafer was found
 GT5U.gui.text.low_wafer_tier=Found wafer is too low tier for the recipe
 GT5U.gui.text.not_enough_wafer=Found wafer but recipe requires more than given
-GT5U.gui.text.static_mode=Static Mode
 GT5U.gui.text.unneeded_muffler=Does not accept Muffler Hatches
 GT5U.gui.missing_casings=Too few casings: needs %s but has %s
 GT5U.gui.missing_hatch=Missing %s
 GT5U.gui.too_many_hatches=Too many %ses (max %s)
-
 GT5U.item.programmed_circuit.select.header=Схема перепрограммирования
 
 GT5U.gui.config.client=Client
@@ -766,6 +771,10 @@ GT5U.nei.tier=Тир: %s
 GT5U.nei.start_eu=Запуск: %s EU (MK %s)
 GT5U.nei.stages=Этапы: %s
 GT5U.nei.fuel=Стоимость топлива: %s EU
+GT5U.nei.qc.heating=Heating Constant: %s
+GT5U.nei.qc.cooling=Cooling Constant: %s
+GT5U.nei.qc.computation=Computation: %s
+GT5U.nei.qc.maxheat=Maximum Heat: %s
 
 GT5U.config.colormodulation=Цветовой модулятор
 GT5U.config.colormodulation.cable_insulation=Изоляция кабеля
