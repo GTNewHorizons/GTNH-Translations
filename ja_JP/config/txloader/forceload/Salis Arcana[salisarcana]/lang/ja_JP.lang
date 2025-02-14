@@ -1,0 +1,138 @@
+salisarcana:command.category_header=Category: %s
+salisarcana:command.desc=Description:
+salisarcana:command.usage=Usage:
+salisarcana:command.args=Arguments:
+
+salisarcana:command.error.tabcomplete=An error occurred while getting tab-completion suggestions. Please open a bug report, including your server log, on the the Salis Arcana GitHub.
+salisarcana:command.error.execute=An error occurred while executing this command. If this happens again, please open a bug report, including your server log, on the the Salis Arcana GitHub.
+
+salisarcana:command.create-node.desc=Create a new randomly-generated node at the specified coordinates.
+salisarcana:command.create-node.usage=§7/salisarcana-create-node §7<x> §7<y> §7<z> §7[-t §7<type>] §7[-m §7<modifier>] §7[--silverwood] §7[--eerie] §7[--small] §7[-a §7<aspect1> §7<count1>[ §7-a §7<aspect2> §7<count2>[ §7...]]]§r
+salisarcana:command.create-node.args.coord=§7§o<x> <y> <z>§r §cRequired.§r Specify where the node will be created.
+salisarcana:command.create-node.args.type=§7§o[-t <type>]§r Specify the new node's type
+salisarcana:command.create-node.args.modifier=§7§o[-m <modifier>]§r Specify the new node's modifier
+salisarcana:command.create-node.args.silverwood=§7§o[--silverwood]§r Spawn a pure, small node, as though generated in a silverwood tree. Mutually exclusive with §7--eerie§r and §7--small§r.
+salisarcana:command.create-node.args.eerie=§7§o[--eerie]§r Spawn a dark node, as though generated in an obsidian totem. Mutually exclusive with §7--silverwood§r.
+salisarcana:command.create-node.args.small=§7§o[--small]§r The node will have low aspect capacity. Mutually exclusive with §7--silverwood§r and §7-a§r.
+salisarcana:command.create-node.args.aspect=§7§o[-a <aspect> <count>]§r Override the new node's aspects. Can be used multiple times to specify additional aspects. Mutually exclusive with §7--small§r.
+
+salisarcana:command.create-node.failure=A node could not be created at %d %d %d.
+
+salisarcana:command.forget-research.desc=Remove research from a player's knowledge.
+salisarcana:command.forget-research.usage=§7/salisarcana-forget-research §7<--all §7§lOR§r §7--research-key §7<key>[ §7--research-key §7<key2> §7...]> §7[--player §7<username>] §7[--scalpel]§r
+salisarcana:command.forget-research.args.all=§7<--all>§r Remove all research from the player's known research. Required if §7research-key§r is not provided. Mutually exclusive with §7research-key§r and §7scalpel§r.
+salisarcana:command.forget-research.args.research=§7<--research-key>§r Specify the id of the research to remove. Can be provided multiple times. Required if §7all§r is not set. Mutually exclusive with §7all§r.
+salisarcana:command.forget-research.args.player=§7[--player <username>]§r Specify the player whose research will be altered. If not provided, defaults to the player executing this command.
+salisarcana:command.forget-research.args.scalpel=§7[--scalpel]§r If set, the specified research will be removed, but not any of its siblings or descendants. This may have unexpected side effects. Mutually exclusive with §7all§r.
+
+salisarcana:command.forget-research.success=§9Success:§r Removed %d research items collectively worth %d permanent warp and %d sticky warp.
+
+salisarcana:command.forget-scanned.desc=Resets the lists of things a player has scanned, allowing those things to be scanned again.
+salisarcana:command.forget-scanned.usage=§7/salisarcana-forget-scanned §7[--player §7<username>] §7[--objects] §7[--entities] §7[--nodes] §7[--all]§r
+salisarcana:command.forget-scanned.args.player=§7[--player <username>]§r Specify the player whose scanned things will be altered. If not provided, defaults to the player executing this command.
+salisarcana:command.forget-scanned.args.objects=§7[--objects]§r Reset scanned items and blocks.
+salisarcana:command.forget-scanned.args.entities=§7[--entities]§r Reset scanned entities, including mobs.
+salisarcana:command.forget-scanned.args.nodes=§7[--nodes]§r Reset scanned nodes.
+salisarcana:command.forget-scanned.args.hand=§7[--hand]§r Reset the item currently held. Mutually exclusive with §7--all§r.
+salisarcana:command.forget-scanned.args.inventory=§7[--inventory]§r Reset all items in your inventory. Mutually exclusive with §7--all§r.
+salisarcana:command.forget-scanned.args.looking=§7[--looking]§r Reset the block you are currently looking at. Mutually exclusive with §7--all§r.
+salisarcana:command.forget-scanned.args.container=§7[--container]§r Reset all items in the container (eg. Chest) you are looking at. Mutually exclusive with §7--all§r.
+salisarcana:command.forget-scanned.all=§7[--all]§r Combines the effects of §7objects§r, §7entities§r, and §7nodes§r
+
+salisarcana:command.forget-scanned.success=§9Success:§r %d entries were removed from %s's scan lists.
+salisarcana:command.forget-scanned.failure=§cFailure:§r There was nothing to remove from %s's scan lists.
+
+salisarcana:command.help.desc=Get help information about a Salis Arcana command.
+salisarcana:command.help.usage=§7/salisarcana-help §7[command]§r
+salisarcana:command.help.args.cmd=§7§o[command]§r The name or alias of a Salis Arcana command.
+
+salisarcana:command.help.available=Available commands:
+salisarcana:command.help.nocommands=There are no enabled Salis Mundis commands you have permission to use.
+
+salisarrcana:command.infusion-symmetry.desc=Get the symmetry of the nearest runic matrix within 8 blocks, or at the specified coordinates.
+salisarrcana:command.infusion-symmetry.usage=§7/salisarcana-infusion-symmetry §7[<x> §7<y> §7<z>]§r
+salisarrcana:command.infusion-symmetry.args.coord=§7[<x> §7<y> §7<z>]§r Optional. The coordinates of the Runic Matrix whose stability should be checked.
+salisarrcana:command.infusion-symmetry.not_found_coords=A runic matrix was not found at the given coordinates.
+salisarrcana:command.infusion-symmetry.not_found_nearby=No runic matrix found nearby.
+salisarrcana:command.infusion-symmetry.found=§9This runic matrix can stabilize recipes up to instability§r %d.
+salisarrcana:command.infusion-symmetry.accessError=Something went wrong with this command. Please report this to the mod authors.
+
+salisarcana:command.list-research.desc=List registered TC4 research, grouped by tab in the Thaumonomicon.
+salisarcana:command.list-research.usage=§7/salisarcana-list-research §7[--player §7<username>] §7[--search §7<search §7term>]§r
+salisarcana:command.list-research.args.player=§7[--player §7<username>]§r Restrict results to only research known by this player.
+salisarcana:command.list-research.args.search=§7[--search §7<search §7term>§r Restrict results to only research that contains this text in its id or its name. Enclose in double quotation marks to search for a term containing one or more spaces (e.g. "wand craft").
+salisarcana:command.list-research.no_results=No research found.
+
+salisarcana:command.prereqs.desc=Lists the prerequisites to unlock a specific research, or the research required to craft a specific item.
+salisarcana:command.prereqs.usage=§7/salisarcana-prereqs §7[--research §7<research-key> §7[--completed]] §7[--item §7<item-id> §7[item-damage]]
+salisarcana:command.prereqs.args.research=§7[--research]§r The unique key of the research to look up. Mutually exclusive with §7item§r.
+salisarcana:command.prereqs.args.all=§7[--completed]§r Include prerequisite research you have already completed. Only available if using §7research§r.
+salisarcana:command.prereqs.args.item=§7[--item <item-id> [item-damage]]§r The string id and optional damage value of the item to look up. Mutually exclusive with §7research§r. 
+
+salisarcana:command.prereqs.already_known=You have already completed %s.
+
+salisarcana:command.prereqs.header=Requirements to unlock
+
+salisarcana:command.prereqs.triggers=Scanning requirements:
+salisarcana:command.prereqs.triggers_or=or
+salisarcana:command.prereqs.triggers_aspects=something with one of these aspects
+salisarcana:command.prereqs.triggers_entities=one of these entities
+salisarcana:command.prereqs.triggers_items=one of these items
+
+salisarcana:command.prereqs.parents=Research requirements:
+salisarcana:command.prereqs.parents_none=None
+
+salisarcana:command.prereqs.header_item=Research requirements to craft %s:
+salisarcana:command.prereqs.item_not_found=No research required to craft %s was found.
+
+salisarcana:command.update-node.desc=Update the properties of the node at the specified coordinates.
+salisarcana:command.update-node.usage=§7/salisarcana-update-node §7<x> §7<y> §7<z>§r §7[-t §7<type>] §7[-m §7<modifier>] §7[--set §7<aspect1> §7<count1>[ §7--set §7<aspect2> §7<count2> §7[...]]] §7[--rem §7<aspect3>[ §7--rem §7<aspect4>]]§r
+salisarcana:command.update-node.args.coord=§7§o<x> <y> <z>§r §cRequired.§r Specify the coordinates of the node to update.
+salisarcana:command.update-node.args.type=§7§o[-t <type>]§r Change the node's type
+salisarcana:command.update-node.args.modifier=§7§o[-m <modifier>]§r Change the node's modifier
+salisarcana:command.update-node.args.set=§7§o[--set <aspect> <count>]§r Set how much vis of the specified aspect the node contains. Can be used multiple times to set additional aspects.
+salisarcana:command.update-node.args.rem=§7§o[--rem <aspect> <count>]§r Remove an aspect from the node. Can be used multiple times to remove additional aspects.
+salisarcana:command.update-node.not_found=A node was not found at %d %d %d.
+
+salisarcana:command.upgrade-focus.desc=Add focus upgrades your or another player's held wand focus. Will not apply upgrades beyond the focus's five-upgrade limit.
+salisarcana:command.upgrade-focus.usage=§7/salisarcana-upgrade-focus §7<upgrade[ §7upgrade[ §7...]]> §7[--player §7<username>]
+salisarcana:command.upgrade-focus.args.upgrades=§7<upgrade>§r Required. A list of one to five upgrade ids to be applied. Upgrade ids have the form §7<internalId>-<name>§r. Use tab-completion to see available upgrade ids.
+salisarcana:command.upgrade-focus.args.player=§7[--player]§r If set, apply upgrades to the specified player's held focus instead of your own.
+salisarcana:command.upgrade-focus.noItem=Target player is not holding a wand focus.
+salisarcana:command.upgrade-focus.noUpgrades=No focus upgrades specified.
+salisarcana:command.upgrade-focus.tooManyUpgrades=%d focus upgrade(s) could not be applied due to the five-upgrade limit. 
+salisarcana:command.upgrade-focus.success=All focus upgrades applied successfully.
+
+salisarcana:commands.export-research.success=§9Success:§r Exported %s research to %s.
+salisarcana:commands.export-research.usage=/salisarcana-export-research --research <research-key> [--overwrite]
+salisarcana:commands.export-research.failed=§cFailure:§r Failed to export %s. Research likely has unsupported properties.
+
+salisarcana:error.invalid_aspect="%s" is not a known aspect.
+salisarcana:error.invalid_focus_upgrade=%s is not a known focus upgrade.
+salisarcana:error.invalid_node_modifier=%s is not a known node modifier.
+salisarcana:error.invalid_node_type=%s is not a known node type.
+salisarcana:error.unexpected_value=Unexpected input "%s".
+salisarcana:error.unknown_value=Unknown value "%s".
+salisarcana:error.unknown_research=%s is not a known research key.
+
+salisarcana:biome_color_deprecation=§eNotice:§r The biome colors module is broken for some users, and slated for removal in a future update.
+salisarcana:biome_color_deprecation_suppress= Set §7acknowledgeDeprecation§r to §7true§r in §7salisarcana/biome_colors.cfg§r to suppress this warning.
+salisarcana:update_available=A new version of Salis Arcana is available (%s). 
+salisarcana:update_link= §9Click here to open the download page.§r
+
+salisarcana:tcinventoryscan_notice=§eNotice:§r Thaumic Inventory Scanning is installed. It is §cdeprecated§r by Salis Arcana, and should be removed to avoid conflicts. You can enable Salis Arcana's scanning features in salisarcana/enhancements.cfg.
+
+tc.research_name.CAP_iron=Iron Wand Caps
+tc.research_name.ROD_wood=Wooden Wand Core
+
+salisarcana:tcinventoryscan.scanning=Scanning
+salisarcana:tcinventoryscan.thaumometerTooltip=Inventory Scanning available
+salisarcana:tcinventoryscan.thaumometerTooltipMore=Hover items with the Thaumometer\non the cursor to scan.
+
+tc.research_name.salisarcana:REPLACEWANDCAPS=Wand Cap Substitution
+tc.research_text.salisarcana:REPLACEWANDCAPS=Improving what is
+tc.research_page.salisarcana:REPLACEWANDCAPS.0=With proper technique, a casting implement's caps can be replaced. This destroys the implement's existing caps, but preserves its core.<BR>Replacing an implement's caps requires the same amount of vis as it would take to craft the same implement from scratch. Upgrading a Gold Banded Greatwood Wand to a Thaumium Bossed Greatwood Wand will cost just as much vis as creating a Thaumium Bossed Greatwood Wand directly.  
+
+tc.research_name.salisarcana:REPLACEWANDCORE=Wand Core Substitution
+tc.research_text.salisarcana:REPLACEWANDCORE=Improving what is
+tc.research_page.salisarcana:REPLACEWANDCORE.0=With proper technique, a casting implement's core can be replaced. This destroys the implement's existing core, but preserves its caps.<BR>Replacing an implement's core requires the same amount of vis as it would take to craft the same implement from scratch. Upgrading a Gold Banded Greatwood Wand to a Gold Banded Silverwood Wand will cost just as much vis as creating a Gold Banded Silverwood Wand directly.
