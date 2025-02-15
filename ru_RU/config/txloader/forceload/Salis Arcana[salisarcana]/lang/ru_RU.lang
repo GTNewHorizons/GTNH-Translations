@@ -1,7 +1,7 @@
-salisarcana:command.category_header=Category: %s
-salisarcana:command.desc=Description:
-salisarcana:command.usage=Usage:
-salisarcana:command.args=Arguments:
+salisarcana:command.category_header=Категория: %s
+salisarcana:command.desc=Описание:
+salisarcana:command.usage=Использование:
+salisarcana:command.args=Аргументы:
 
 salisarcana:command.error.tabcomplete=An error occurred while getting tab-completion suggestions. Please open a bug report, including your server log, on the the Salis Arcana GitHub.
 salisarcana:command.error.execute=An error occurred while executing this command. If this happens again, please open a bug report, including your server log, on the the Salis Arcana GitHub.
@@ -43,10 +43,10 @@ salisarcana:command.forget-scanned.success=§9Success:§r %d entries were remove
 salisarcana:command.forget-scanned.failure=§cFailure:§r There was nothing to remove from %s's scan lists.
 
 salisarcana:command.help.desc=Get help information about a Salis Arcana command.
-salisarcana:command.help.usage=§7/salisarcana-help §7[command]§r
+salisarcana:command.help.usage=§7/salisarcana-help §7[команда]§r
 salisarcana:command.help.args.cmd=§7§o[command]§r The name or alias of a Salis Arcana command.
 
-salisarcana:command.help.available=Available commands:
+salisarcana:command.help.available=Доступные команды:
 salisarcana:command.help.nocommands=There are no enabled Salis Mundis commands you have permission to use.
 
 salisarrcana:command.infusion-symmetry.desc=Get the symmetry of the nearest runic matrix within 8 blocks, or at the specified coordinates.
@@ -71,16 +71,16 @@ salisarcana:command.prereqs.args.item=§7[--item <item-id> [item-damage]]§r The
 
 salisarcana:command.prereqs.already_known=You have already completed %s.
 
-salisarcana:command.prereqs.header=Requirements to unlock
+salisarcana:command.prereqs.header=Требования для разблокировки
 
-salisarcana:command.prereqs.triggers=Scanning requirements:
-salisarcana:command.prereqs.triggers_or=or
+salisarcana:command.prereqs.triggers=Требования к сканированию:
+salisarcana:command.prereqs.triggers_or=или
 salisarcana:command.prereqs.triggers_aspects=something with one of these aspects
 salisarcana:command.prereqs.triggers_entities=one of these entities
 salisarcana:command.prereqs.triggers_items=one of these items
 
-salisarcana:command.prereqs.parents=Research requirements:
-salisarcana:command.prereqs.parents_none=None
+salisarcana:command.prereqs.parents=Требования к исследованию:
+salisarcana:command.prereqs.parents_none=Нет
 
 salisarcana:command.prereqs.header_item=Research requirements to craft %s:
 salisarcana:command.prereqs.item_not_found=No research required to craft %s was found.
@@ -122,12 +122,12 @@ salisarcana:update_link= §9Click here to open the download page.§r
 
 salisarcana:tcinventoryscan_notice=§eNotice:§r Thaumic Inventory Scanning is installed. It is §cdeprecated§r by Salis Arcana, and should be removed to avoid conflicts. You can enable Salis Arcana's scanning features in salisarcana/enhancements.cfg.
 
-tc.research_name.CAP_iron=Iron Wand Caps
-tc.research_name.ROD_wood=Wooden Wand Core
+tc.research_name.CAP_iron=Железные наконечники
+tc.research_name.ROD_wood=Деревянный стержень
 
-salisarcana:tcinventoryscan.scanning=Scanning
-salisarcana:tcinventoryscan.thaumometerTooltip=Inventory Scanning available
-salisarcana:tcinventoryscan.thaumometerTooltipMore=Hover items with the Thaumometer\non the cursor to scan.
+salisarcana:tcinventoryscan.scanning=Сканируем
+salisarcana:tcinventoryscan.thaumometerTooltip=Доступно сканирование инвентаря
+salisarcana:tcinventoryscan.thaumometerTooltipMore=Наведите таумометр на предмет,\nчтобы изучить его.
 
 tc.research_name.salisarcana:REPLACEWANDCAPS=Wand Cap Substitution
 tc.research_text.salisarcana:REPLACEWANDCAPS=Improving what is
