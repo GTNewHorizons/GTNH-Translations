@@ -53,9 +53,9 @@ item.gt.propolis.name=Прополис
 tile.gt.dronerender.name=Drone Renderer
 
 # Air Filter
-item.GTPP.air_filter.name=Air Filter
-item.GTPP.air_filter.name.t1=Air Filter [Tier 1]
-item.GTPP.air_filter.name.t2=Air Filter [Tier 2]
+item.GTPP.air_filter.name=Воздушный фильтр
+item.GTPP.air_filter.name.t1=Воздушный фильтр [Тир 1]
+item.GTPP.air_filter.name.t2=Воздушный фильтр [Тир 2]
 
 GTPP.tooltip.air_filter.0=An Air filter for Atmospheric Reconditioning.
 GTPP.tooltip.air_filter.1=%d/%d uses left.
@@ -64,10 +64,10 @@ GTPP.tooltip.air_filter.1=%d/%d uses left.
 GTPP.tooltip.fish_trap.0=This trap catches fish faster if surrounded by more water blocks
 GTPP.tooltip.fish_trap.1=Can also be placed beside up to 4 other fish traps
 GTPP.tooltip.fish_trap.2=Requires at least two faces touching water
-GTPP.tooltip.fish_trap.3=1/1000 chance to produce triple loot.
+GTPP.tooltip.fish_trap.3=Вероятность получения тройной добычи составляет 1/1000.
 
 # Circuit Table
-GTPP.tooltip.circuit_table.0=Easy Circuit Configuration
+GTPP.tooltip.circuit_table.0=Простая конфигурация схемы
 GTPP.tooltip.circuit_table.1=Change default setting with a Screwdriver
 GTPP.tooltip.circuit_table.2=Default is used to select slot for auto-insertion
 
@@ -90,28 +90,28 @@ GTPP.tooltip.bad_tooltip_id=Bad Tooltip ID - %d
 # Infinite Spray Can
 
 item.GT5U.infinite_spray_can.name.solvent=Infinite Spray Can %cSolvent%c
-item.GT5U.infinite_spray_can.name.colored=Infinite Spray Can %c%s%c
+item.GT5U.infinite_spray_can.name.colored=Бесконечная банка спрея (%c%s%c)
 
-GT5U.infinite_spray_can.color.Black=Black
-GT5U.infinite_spray_can.color.Red=Red
-GT5U.infinite_spray_can.color.Green=Green
-GT5U.infinite_spray_can.color.Brown=Brown
-GT5U.infinite_spray_can.color.Blue=Blue
-GT5U.infinite_spray_can.color.Purple=Purple
-GT5U.infinite_spray_can.color.Cyan=Cyan
-GT5U.infinite_spray_can.color.Light Gray=Light Gray
-GT5U.infinite_spray_can.color.Gray=Gray
-GT5U.infinite_spray_can.color.Pink=Pink
-GT5U.infinite_spray_can.color.Lime=Lime
-GT5U.infinite_spray_can.color.Yellow=Yellow
-GT5U.infinite_spray_can.color.Light Blue=Light Blue
-GT5U.infinite_spray_can.color.Magenta=Magenta
-GT5U.infinite_spray_can.color.Orange=Orange
-GT5U.infinite_spray_can.color.White=White
-GT5U.infinite_spray_can.color.INVALID COLOR=INVALID COLOR
-GT5U.infinite_spray_can.color.Cable Insulation=Cable Insulation
-GT5U.infinite_spray_can.color.Construction Foam=Construction Foam
-GT5U.infinite_spray_can.color.Machine Metal=Machine Metal
+GT5U.infinite_spray_can.color.Black=Чёрный
+GT5U.infinite_spray_can.color.Red=Красный
+GT5U.infinite_spray_can.color.Green=Зелёный
+GT5U.infinite_spray_can.color.Brown=Коричневый
+GT5U.infinite_spray_can.color.Blue=Синий
+GT5U.infinite_spray_can.color.Purple=Фиолетовый
+GT5U.infinite_spray_can.color.Cyan=Бирюзовый
+GT5U.infinite_spray_can.color.Light Gray=Светло-серый
+GT5U.infinite_spray_can.color.Gray=Серый
+GT5U.infinite_spray_can.color.Pink=Розовый
+GT5U.infinite_spray_can.color.Lime=Лаймовый
+GT5U.infinite_spray_can.color.Yellow=Жёлтый
+GT5U.infinite_spray_can.color.Light Blue=Светло-синий
+GT5U.infinite_spray_can.color.Magenta=Сиреневый
+GT5U.infinite_spray_can.color.Orange=Оранжевый
+GT5U.infinite_spray_can.color.White=Белый
+GT5U.infinite_spray_can.color.INVALID COLOR=НЕПРАВИЛЬНЫЙ ЦВЕТ
+GT5U.infinite_spray_can.color.Cable Insulation=Изоляция кабеля
+GT5U.infinite_spray_can.color.Construction Foam=Строительная пена
+GT5U.infinite_spray_can.color.Machine Metal=Металл механизма
 
 
 
@@ -579,9 +579,9 @@ GT5U.machines.betterjukebox.headphonesbound=Наушники привязаны 
 GT5U.machines.betterjukebox.headphonesunbound=Shift-клик на электрическом проигрывателе для привязки наушников
 GT5U.machines.computation_hatch.computation=Computation
 GT5U.machines.laser_hatch.amperage=Ампераж
-GT5U.machines.hatch_output.lockfluid.label=Locked Fluid
+GT5U.machines.hatch_output.lockfluid.label=Закреплено
 GT5U.machines.hatch_output.lockfluid.empty=None
-GT5U.machines.basic_tank.liquid_amount=Liquid Amount
+GT5U.machines.basic_tank.liquid_amount=Количество жидкости
 
 GT5U.recipe_filter.empty_representation_slot.tooltip=§7Click with a machine to set filter
 GT5U.recipe_filter.representation_slot.tooltip=§7Click to clear
@@ -726,12 +726,12 @@ GT5U.gui.missing_hatch=Missing %s
 GT5U.gui.too_many_hatches=Too many %ses (max %s)
 
 GT5U.gui.text.too_uncertain=Too Uncertain.
-GT5U.gui.text.invalid_parameters=Invalid Parameters.
+GT5U.gui.text.invalid_parameters=Неверные параметры.
 GT5U.item.programmed_circuit.select.header=Reprogram Circuit
 GT5U.gui.config.client=Client
 GT5U.gui.config.client.color_modulation=Color Modulation
-GT5U.gui.config.client.color_modulation.cable_insulation=Cable Insulation
-GT5U.gui.config.client.color_modulation.construction_foam=Construction Foam
+GT5U.gui.config.client.color_modulation.cable_insulation=Изоляция кабеля
+GT5U.gui.config.client.color_modulation.construction_foam=Строительная пена
 GT5U.gui.config.client.color_modulation.machine_metal=Machine Metal (Default GUI Color)
 GT5U.gui.config.client.interface=Интерфейс
 GT5U.gui.config.client.preference=Preference
@@ -847,23 +847,23 @@ GT5U.nei.stages=Этапы: %s
 GT5U.nei.fuel=Стоимость топлива: %s EU
 GT5U.nei.qc.heating=Heating Constant: %s
 GT5U.nei.qc.cooling=Cooling Constant: %s
-GT5U.nei.qc.computation=Computation: %s
+GT5U.nei.qc.computation=Вычисление: %s
 GT5U.nei.qc.maxheat=Maximum Heat: %s
-GT5U.nei.large_boiler.burn_time=Burn time in seconds:
-GT5U.nei.large_boiler.bronze_boiler=Bronze Boiler: %.4f
-GT5U.nei.large_boiler.steel_boiler=Steel Boiler: %.4f
+GT5U.nei.large_boiler.burn_time=Время горения в секундах:
+GT5U.nei.large_boiler.bronze_boiler=Бронзовый бойлер: %.4f
+GT5U.nei.large_boiler.steel_boiler=Стальной бойлер: %.4f
 GT5U.nei.large_boiler.steel_boiler.ban=Steel Boiler: Not allowed
-GT5U.nei.large_boiler.titanium_boiler=Titanium Boiler: %.4f
+GT5U.nei.large_boiler.titanium_boiler=Титановый бойлер: %.4f
 GT5U.nei.large_boiler.titanium_boiler.ban=Titanium Boiler: Not allowed
-GT5U.nei.large_boiler.tungstensteel_boiler=Tungstenst. Boiler: %.4f
+GT5U.nei.large_boiler.tungstensteel_boiler=Бойлер из вольфрамовой стали: %.4f
 GT5U.nei.large_boiler.tungstensteel_boiler.ban=Tungstenst. Boiler: Not allowed
 GT5U.nei.large_boiler.solid=Not all solid fuels are listed.\nAny burnable item with a burn\ntime of at least %d / %d\nwill burn in a Large Bronze\n/ Steel Boiler, respectively.
 GT5U.nei.nuclear.model.mox=MOX Model
 GT5U.nei.nuclear.model.uranium=Uranium Model
 GT5U.nei.nuclear.neutron_pulse=Neutron Pulse: %d
-GT5U.nei.nuclear.heat.0=Heat: %.1f * n1 * (n1 + 1)
-GT5U.nei.nuclear.heat.1=Heat: %.1f * (%d + n1) * (%d + n1)
-GT5U.nei.nuclear.energy=Energy: %.1f + n2 * %.1f EU/t
+GT5U.nei.nuclear.heat.0=Температура: %.1f * n1 * (n1 + 1)
+GT5U.nei.nuclear.heat.1=Температура: %.1f * (%d + n1) * (%d + n1)
+GT5U.nei.nuclear.energy=Энергия: %.1f + n2 * %.1f EU/t
 GT5U.nei.nuclear.breeder.neutron_reflecting=Neutron reflecting Breeder
 GT5U.nei.nuclear.breeder.heat_neutral=Heat neutral Breeder
 GT5U.nei.nuclear.breeder.reactor_hull_heat=Every %d reactor hull heat\nincrease speed by %d00%%
@@ -931,14 +931,14 @@ GT5U.interface.coverTabs.south=Юг
 GT5U.interface.coverTabs.west=Запад
 GT5U.interface.coverTabs.east=Восток
 GT5U.interface.coverTabs.cover_on=Cover on %s side: %s
-GT5U.interface.coverTabs.emits_redstone=Emits a strong redstone signal on the %s side
+GT5U.interface.coverTabs.emits_redstone=Излучает сильный сигнал красного камня на стороне %s
 
-GT5U.interface.coverTabs.redstone.bottom=bottom
-GT5U.interface.coverTabs.redstone.top=top
-GT5U.interface.coverTabs.redstone.north=north
-GT5U.interface.coverTabs.redstone.south=south
-GT5U.interface.coverTabs.redstone.west=west
-GT5U.interface.coverTabs.redstone.east=east
+GT5U.interface.coverTabs.redstone.bottom=снизу
+GT5U.interface.coverTabs.redstone.top=сверху
+GT5U.interface.coverTabs.redstone.north=север
+GT5U.interface.coverTabs.redstone.south=юг
+GT5U.interface.coverTabs.redstone.west=запад
+GT5U.interface.coverTabs.redstone.east=восток
 GT5U.interface.coverTabs.redstone.unknown=<unknown>
 
 GT5U.steam_variant.bronze=Бронза
@@ -989,21 +989,21 @@ GT5U.waila.generating.off=Not Generating
 GT5U.waila.status.insufficient_energy=Status: Insufficient energy
 GT5U.waila.status.obstructed_steam_vent=Status: Obstructed steam vent
 GT5U.waila.machine.working_disabled=Working Disabled
-GT5U.waila.machine.idle=Idle
-GT5U.waila.machine.in_progress=In progress: %,.1fs / %,.1fs (%,.1f%%)
-GT5U.waila.machine_facing=Machine Facing: %s
-GT5U.waila.output_facing=Output Facing: %s
-GT5U.waila.facing=Facing: %s
-GT5U.waila.facing.down=DOWN
-GT5U.waila.facing.up=UP
-GT5U.waila.facing.north=NORTH
-GT5U.waila.facing.south=SOUTH
-GT5U.waila.facing.west=WEST
-GT5U.waila.facing.east=EAST
-GT5U.waila.facing.unknown=UNKNOWN
+GT5U.waila.machine.idle=Простой
+GT5U.waila.machine.in_progress=В прогрессе: %,.1fs / %,.1fs (%,.1f%%)
+GT5U.waila.machine_facing=Лицевая сторона механизма: %s
+GT5U.waila.output_facing=Выходная сторона: %s
+GT5U.waila.facing=Сторона: %s
+GT5U.waila.facing.down=СНИЗУ
+GT5U.waila.facing.up=СВЕРХУ
+GT5U.waila.facing.north=СЕВЕР
+GT5U.waila.facing.south=ЮГ
+GT5U.waila.facing.west=ЗАПАД
+GT5U.waila.facing.east=ВОСТОК
+GT5U.waila.facing.unknown=НЕИЗВЕСТНО
 
-GT5U.waila.multiblock.status.incomplete=** INCOMPLETE STRUCTURE **
-GT5U.waila.multiblock.status.efficiency=  Efficiency: %f%%
+GT5U.waila.multiblock.status.incomplete=** НЕЗАВЕРШЕННАЯ СТРУКТУРА **
+GT5U.waila.multiblock.status.efficiency=  Эффективность: %f%%
 GT5U.waila.multiblock.status.has_problem=** HAS PROBLEMS **
 GT5U.waila.multiblock.status.running_fine=Running Fine
 GT5U.waila.multiblock.status.cpu_load=Average CPU load of ~%s ns
@@ -2011,22 +2011,22 @@ GTPP.MBTT.SteamOutputBus=Выходной люк (Пар)
 
 # Item Tooltips
 GTPP.tooltip.hold_ctrl=Hold Ctrl to show additional info.
-GTPP.tooltip.material.type=Material Type: %s.
-GTPP.tooltip.material.state=Material State: %s.
-GTPP.tooltip.material.radioactivity=Radioactivity Level: %s.
-GTPP.tooltip.ore.contains=Ore contains:
-GTPP.tooltip.ore.mining_level=Mining Level: %d
-GTPP.tooltip.ore.found=Found:
-GTPP.tooltip.ore.unknown=- Unknown
-GTPP.tooltip.block.mining_level=Mining Level: %d
-GTPP.tooltip.block.contains=Contains:
+GTPP.tooltip.material.type=Тип материала: %s.
+GTPP.tooltip.material.state=Состояние материала: %s.
+GTPP.tooltip.material.radioactivity=Уровень радиоактивности: %s.
+GTPP.tooltip.ore.contains=Руда содержит:
+GTPP.tooltip.ore.mining_level=Уровень добычи: %d
+GTPP.tooltip.ore.found=Найдено:
+GTPP.tooltip.ore.unknown=- Неизвестно
+GTPP.tooltip.block.mining_level=Уровень добычи: %d
+GTPP.tooltip.block.contains=Содержит:
 
 
-GT5U.tooltip.pollution.produces=Produces %d Pollution/Second
-GT5U.tooltip.pollution.produces.multiblock=A complete Multiblock produces %d Pollution/Second
-GT5U.tooltip.pollution.produces.firebox=Produces %d Pollution/Second per firebox
-GT5U.tooltip.pollution.produces.rocket.ignited=Produces %d Pollution/Second when ignited
-GT5U.tooltip.pollution.produces.rocket.flying=Produces %d Pollution/Second when flying
+GT5U.tooltip.pollution.produces=Производит %d загрязнения/секунду
+GT5U.tooltip.pollution.produces.multiblock=Полный мультиблок производит %d загрязнения/секунду
+GT5U.tooltip.pollution.produces.firebox=Производит %d загрязнения/секунду на камеру сгорания
+GT5U.tooltip.pollution.produces.rocket.ignited=При поджигании производит %d загрязнения/секунду
+GT5U.tooltip.pollution.produces.rocket.flying=Производит %d загрязнения/секунду во время полета
 
 
 # Achievements
