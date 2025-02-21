@@ -1217,6 +1217,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQg.desc=펌프는 오일과 물을 빨�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.name=§5§l반짝거리는 다이아몬드 탱크
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.desc=절단기를 만든 후에는 다이아몬드 판으로 크고 아름다운 64,000L 단일 블록 탱크를 만들 수 있습니다.
 
+# Quest: Firestone Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§5§lFirestone Ore
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and heats your Railcraft boiler much faster and more effectively than conventional fuels. %nUnforunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 blocks deep. It will only replace Netherrack, so a fjord filled with Soul Sand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has Netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
+
 # Quest: Ardite and Cobalt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.name=§5§l아르다이트와 코발트
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.desc=시간이 있다면 네더에서 코발트와 아르다이트를 찾아볼 수 있습니다.%n%n황혼숲에서만 발견되는 특별한 나무로 코발트와 아르다이트를 캘 수 있다고 하네요. 물론 다른 재료로도 가능합니다. %n%n 코발트와 아르다이트로 도구를 만들기 위해서는, 전기 용광로가 필요합니다.
@@ -1392,6 +1396,14 @@ betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.desc=당신의 손에 인간 공학�
 # Quest: Keeping things organized
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.name=§5§lKeeping things organized
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.desc=Are you tired of storing Shapes and/or Molds near your Extruders and Solidifiers instead of inside them? Today must be your lucky day, because these item holders let you do exactly that!%n%nThey allow your machines to hold a small number of extra items, though each slot can only store one item at a time. There are three versions of this cover, each offering a different amount of storage:%n%nBasic Item Holder: 9 slots%nGood Item Holder: 12 slots%nAdvanced Item Holder: 15 slots%n%n[note]If that's still not enough space and you are already using the highest tier, you can simply attach multiple holders to your machine of choice.[/note]
+
+# Quest: Refined Firestone
+betterquesting.quest.njE33db1TxaiJhEBA16E4A.name=§5§lRefined Firestone§5
+betterquesting.quest.njE33db1TxaiJhEBA16E4A.desc=Cut Firestone is the basic shape for producing Refined Firestone.%nUse a Diamond Lens or Flint Lens for cutting.%nIt is then fired with lava in the EBF.%n%nLastly it is thrown into lava and charged by absorbing lava blocks around it.%nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.%n%n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]
+
+# Quest: Precision Laser Engraver
+betterquesting.quest.vV8Pw_lTTSiMmWOLqkyIWg.name=§5§lPrecision Laser Engraver
+betterquesting.quest.vV8Pw_lTTSiMmWOLqkyIWg.desc=The Precision Laser Engraver does not have many functions in LV, but is needed to create Cut Firestone which can later be filled with lava.
 
 
 ## Quest Line: Tier 2 - MV
@@ -1710,7 +1722,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOQ.desc=이 판 벤딩 기계를 사용
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.name=§6§l금이나 레드스톤이 부족하신가요?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.desc=레드스톤이나 금이 부족해졌나요? 발광석 꽃 농장을 갖추면 문제가 되지 않습니다. 발광석 먼지를 원심분리하면 레드스톤과 금 먼지를 얻을 수 있습니다. 레드스톤은 크롬의 좋은 원천이기도 합니다. HV를 위해 상당량의 금이 필요하므로, 그 때가 되기 전에 이것을 설정하는 것이 좋습니다. %n%n§3실제로는 발광석을 생산하는 식물이 몇 가지 있으니, 마음에 드는 것을 선택하세요!
 
-# Quest: Firestone Ore/Dust
+# Quest: Firestone Ore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§l화염석 광석/가루
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=화염석 광석은 필러 등의 BC 기계를 만드는 데 사용되며, 그 외에도 다른 여러 가지 용도로 사용됩니다. 유감스럽게도, 이것은 네더... 바로 용암 바다의 밑바닥에 있습니다! %n%n여기 화염석을 찾는 몇 가지 팁을 알려드립니다: %n%n-화염석은 적어도 깊이 6 이상의 깊은 용암에만 생성됩니다. 네더 암석만 대체하므로, 소울 샌드로 가득한 피요르드에는 없습니다. 용암의 깊이와 그 밑에 무엇이 있는지 확인하는 방법을 생각해 볼 수 있나요?%n-또는, 만약 머리를 용암 위의 정확한 높이에, 그리고 정확한 각도에 유지한다면, 용암 아래를 볼 수 있을 것입니다 - 분명히 호버링하는 제트팩이 있어야만 합니다, 그렇죠?%n-...또는 cursor가 JM map 위에 있을 때 바이옴을 찾아보세요. Hell은 네더 암석이 있는 기본 바이옴입니다.%n%nGT 광부들로 화염석을 채굴할 수 있습니다, 만약 수평 범위 내에 놓일 경우입니다. 화염석 광석과 그 제품들은 주변에 임의로 불을 일으키므로, 빠르게 백팩 안에 넣어두세요!
 
@@ -2476,7 +2488,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3g.desc=일부 기계들, 예를 들어
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3w.name=§a§l양자의 눈
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE3w.desc=양자의 눈은 EV 발광체와 센서들에 필요합니다. 단지 엔더 아이에 라돈을 주입하면 됩니다.
 
-# Quest: Nanoprocessor
+# Quest: Nano Processor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4A.name=§a§l나노프로세서
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4A.desc=이것은 나노프로세서 회로 라인입니다. 여기서 나노프로세서를 제작하기 위해 처음 3 가지 유형을 전적으로 만들어야 하며, 모두 같은 이름(이 경우 '나노')을 공유합니다.
 
@@ -2484,11 +2496,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4A.desc=이것은 나노프로세서 �
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4Q.name=§a§lNanoCPU 웨이퍼와 칩
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4Q.desc=NanoCPU 웨이퍼는 CPU 웨이퍼, 원자료 탄소 섬유, 그리고 녹은 글로스톤을 EV 화학 반응기에서 만듭니다. 이것을 잘라서 나노 CPU 칩을 만드세요.
 
-# Quest: Nanoprocessor Assembly
+# Quest: Nano Assembly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4g.name=§a§l나노프로세서 조립체
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4g.desc=나노프로세서 조립체는 EV 회로입니다.
 
-# Quest: Elite Nanocomputer
+# Quest: Nano Supercomputer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.name=§a§l엘리트 나노컴퓨터
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.desc=엘리트 나노컴퓨터는 IV 회로입니다.
 
@@ -2496,7 +2508,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.desc=엘리트 나노컴퓨터는 IV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.name=§a§f§a§lEV 화학 욕조
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.desc=양자의 눈을 얻기 위해서는 HV 화학 목욕기 이상이 필요합니다. 일멘타이트를 더 잘 처리할 수 있도록 EV 목욕기를 만드는 것이 좋습니다.
 
-# Quest: Nanoprocessor Mainframe
+# Quest: Nano Mainframe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.name=§a§l나노프로세서 메인프레임
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.desc=나노프로세서 메인프레임은 첫 번째 LuV 회로로, 이 회로 라인의 끝에서 EV에서 생산됩니다. 2단계 로켓을 만들고 화성, 포보스, 데이모스에 도달하려면 이 회로에 도달하고 8개를 만들어야 합니다.%n%n그 후에는 IV로 훨씬 더 쉽게 진행할 수 있지만, IV 회로 조립기를 만들기 위해 두 개의 회로가 더 필요하게 될 것입니다.
 
@@ -2857,15 +2869,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpw.desc=질산칼륨은 칼륨과 질�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqA.name=§b§l삼산화 크로뮴
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqA.desc=삼산화 크로뮴은 크롬과 산소를 이용하여 두 단계로 만들어집니다. 먼저 이산화 크로뮴을 만든 뒤에 삼산화 크로뮴을 만듭니다.
 
-# Quest: Quantumprocessor Assembly
+# Quest: Quantum Assembly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqQ.name=§b§l양자프로세서 조립체
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqQ.desc=양자 프로세서 조립체는 IV 회로입니다.
 
-# Quest: Master Quantumcomputer
+# Quest: Quantum Supercomputer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqg.name=§b§l마스터 양자 컴퓨터
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqg.desc=마스터 양자 컴퓨터는 LuV 회로입니다.
 
-# Quest: Quantumprocessor Mainframe
+# Quest: Quantum Mainframe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqw.name=§b§l양자프로세서 메인프레임
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqw.desc=양자프로세서 메인프레임은 만들 수 있는 첫 번째 ZPM 회로입니다.
 
@@ -3298,7 +3310,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGkw.desc=제작하려고 하는 회로�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.name=§c§l저렴한 HV 회로
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlA.desc=이전보다 저렴하게 나노프로세서를 제작할 수 있습니다. 그러나 먼저 각인을 만들어야 합니다.
 
-# Quest: Crystalprocessors
+# Quest: Crystal Processors
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.name=§c§l수정체 프로세서
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlg.desc=이제 여러분이 LuV에서 이 정도로 멀리 왔으니, IV 회로를 보다 쉽게 만들 수 있을 뿐 아니라, 첫 UV 회로도 만들 수 있습니다.%n%n각 회로를 제작한 후에는 이를 각인하여 나중에 제작할 회로의 비용을 줄일 수 있습니다.
 
@@ -3314,15 +3326,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmA.desc=새로운 회로 라인과 보�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmQ.name=§9§a§c§lLuV 레이저 각인기
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmQ.desc=LuV 레이저 각인기는 후반 게임 회로 생산의 중요한 부분입니다. 수정체 프로세서 회로 시리즈 및 이후 웻웨어 시리즈를 위해 크리스탈 CPU를 만들어야합니다. %n%n[note]초고강도 레이저 각인기를 만들었다면 그것을 업그레이드할 수 있습니다.[/note]
 
-# Quest: Crystalprocessor Assembly
+# Quest: Crystal Assembly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrA.name=§c§l수정체 프로세서 조립체
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrA.desc=수정체 프로세서 조립체는 LuV 회로입니다.
 
-# Quest: Ultimate Crystalcomputer
+# Quest: Crystal Supercomputer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrQ.name=§c§l얼티메이트 수정체 컴퓨터
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrQ.desc=얼티메이트 수정체 컴퓨터는 ZPM 회로입니다.
 
-# Quest: Crystalprocessor Mainframe
+# Quest: Crystal Mainframe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrg.name=§c§l수정체 프로세서 메인프레임
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGrg.desc=수정체 프로세서 메인프레임은 만들 수 있는 첫 번째 UV 회로입니다.
 
@@ -3804,7 +3816,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXA.desc=웻웨어 회로의 또 다른 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXQ.name=당신의 첫 번째 웻웨어 회로
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXQ.desc=첫 번째 웻웨어 LuV 회로.
 
-# Quest: Wetware Processor Assembly
+# Quest: Wetware Assembly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXg.name=웻웨어 프로세서 조립체
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKXg.desc=웻웨어 프로세서 조립체는 ZPM 회로입니다.
 
