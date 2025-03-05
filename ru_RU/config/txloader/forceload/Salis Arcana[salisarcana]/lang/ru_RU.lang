@@ -28,7 +28,7 @@ salisarcana:command.forget-research.args.scalpel=§7[--scalpel]§r If set, the s
 salisarcana:command.forget-research.success=§9Success:§r Removed %d research items collectively worth %d permanent warp and %d sticky warp.
 
 salisarcana:command.forget-scanned.desc=Resets the lists of things a player has scanned, allowing those things to be scanned again.
-salisarcana:command.forget-scanned.usage=§7/salisarcana-forget-scanned §7[--player §7<username>] §7[--objects] §7[--entities] §7[--nodes] §7[--all]§r
+salisarcana:command.forget-scanned.usage=§7/salisarcana-forget-scanned §7[--player §7<username>] §7[--objects] §7[--entities] §7[--nodes] §7[--all] §7[--aspects <...>]§r
 salisarcana:command.forget-scanned.args.player=§7[--player <username>]§r Specify the player whose scanned things will be altered. If not provided, defaults to the player executing this command.
 salisarcana:command.forget-scanned.args.objects=§7[--objects]§r Reset scanned items and blocks.
 salisarcana:command.forget-scanned.args.entities=§7[--entities]§r Reset scanned entities, including mobs.
@@ -37,7 +37,9 @@ salisarcana:command.forget-scanned.args.hand=§7[--hand]§r Reset the item curre
 salisarcana:command.forget-scanned.args.inventory=§7[--inventory]§r Reset all items in your inventory. Mutually exclusive with §7--all§r.
 salisarcana:command.forget-scanned.args.looking=§7[--looking]§r Reset the block you are currently looking at. Mutually exclusive with §7--all§r.
 salisarcana:command.forget-scanned.args.container=§7[--container]§r Reset all items in the container (eg. Chest) you are looking at. Mutually exclusive with §7--all§r.
-salisarcana:command.forget-scanned.all=§7[--all]§r Combines the effects of §7objects§r, §7entities§r, and §7nodes§r
+salisarcana:command.forget-scanned.args.all=§7[--all]§r Combines the effects of §7objects§r, §7entities§r, and §7nodes§r
+salisarcana:command.forget-scanned.args.aspects=§7[--aspects <aspect[ aspect[ aspect...]]]>§r Reset the discovery of one or more aspects. Mutually exclusive with §7--all-aspects§r.
+salisarcana:command.forget-scanned.args.all-aspects=§7[--all-aspects]§r Reset the discovery of all non-primal aspects. Mutually exclusive with §7--aspects§r.
 
 salisarcana:command.forget-scanned.success=§9Success:§r %d entries were removed from %s's scan lists.
 salisarcana:command.forget-scanned.failure=§cFailure:§r There was nothing to remove from %s's scan lists.
