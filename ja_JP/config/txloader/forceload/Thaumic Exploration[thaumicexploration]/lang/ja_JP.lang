@@ -1,6 +1,6 @@
 ----Item Names----
 item.thaumicexploration:tentacleRing.name=汚染触手の指輪
-item.thaumicexploration:stabilizerBelt.name=魔導制御の安定帯
+item.thaumicexploration:stabilizerBelt.name=魔導制御安定帯
 item.thaumicexploration:pureZombieBrain.name=治療したゾンビの脳みそ
 item.thaumicexploration:transmutationCore.name=変化の杖身
 item.thaumicexploration:transmutationStaffCore.name=変化の上級杖身
@@ -15,23 +15,23 @@ item.thaumicexploration:capMechanistInert.name=不活性な技術者の石突
 item.thaumicexploration:maskEvil.name=残酷な仮面
 item.thaumicexploration:bootsMeteor.name=隕石のブーツ
 item.thaumicexploration:bootsComet.name=彗星のブーツ
-item.thaumicexploration:runicBootsMeteor.name=Runic Boots of the Meteor
-item.thaumicexploration:runicBootsComet.name=Runic Boots of the Comet
-item.thaumicexploration:theCandle.name=The Candle
+item.thaumicexploration:runicBootsMeteor.name=隕石の魔導ブーツ
+item.thaumicexploration:runicBootsComet.name=彗星の魔導ブーツ
+item.thaumicexploration:theCandle.name=ろうそく
 
 item.thaumicexploration:enhancedHelmetRunic.name=Enhanced Runic Headpiece
 item.thaumicexploration:enhancedChestplateRunic.name=Enhanced Runic Chestpiece
 item.thaumicexploration:enhancedLeggingsRunic.name=Enhanced Runic Legpiece
 item.thaumicexploration:enhancedBootsRunic.name=Enhanced Runic Foodpiece
 
-item.thaumicexploration:dreamcatcher.name=Wispy Dreamcatcher
+item.thaumicexploration:dreamcatcher.name=薄明のドリームキャッチャー
 item.thaumicexploration:ringTaint.name=汚染されたリストバンド
 item.thaumicexploration:talismanFood.name=栄養のタリスマン
 item.thaumicexploration:taintBerry.name=汚染ベリー
-item.thaumicexploration:necroAltar.name=Necromantic Pedestal
-thaumicexploration.bread0=Will you be my friend?
-thaumicexploration.bread1=Please eat me.
-thaumicexploration.bread2=Are you feeling hungry?
+item.thaumicexploration:necroAltar.name=屍術の台座
+thaumicexploration.bread0=友達になってくれる？
+thaumicexploration.bread1=私を食べてください。
+thaumicexploration.bread2=おなか空いてない？
 thaumicexploration.bread3=Bonjour, monsieur.
 thaumicexploration.bread4=Mangez-moi, s'il vous plait.
 
@@ -43,46 +43,46 @@ item.thaumicexploration:discountRing:3.name=アクアの指輪
 item.thaumicexploration:discountRing:4.name=オードの指輪
 item.thaumicexploration:discountRing:5.name=パーディシオの指輪
 
-tc.aspect.Necromantic Energy=Energy of the Undead
+tc.aspect.Necromantic Energy=不死者のエネルギー
 
 ----Creative Tab----
 itemGroup.thaumicExploration=Thaumic Exploration
 
 ----Death Messages----
-death.attack.witherMask=%1$s was withered away by %2$s
-death.attack.noTaint=%1$s suffered from Taint withdrawl
-potion.binding=Binding
+death.attack.witherMask=%1$sは%2$sによって干からびさせられた
+death.attack.noTaint=%1$sは汚染離脱に苦しめられた
+potion.binding=拘束
 potion.taintWithdrawl=汚染離脱
 
 ----Misc---
-soulbrazier.invalidplayer=The brazier grumbles and spits as it refuses to work for an unknown soul
-soulbrazier.nopower=The brazier spluters as it's reserves are too dry.
-soulbrazier.noWarp=You have no permanent warp to get rid of.
-txitems.boundJar.networkInfo=Network ID: %s
-txitems.boundJar.noNetworkInfo=No Network
+soulbrazier.invalidplayer=未知の魂のために働くのを拒否して、火鉢が不満をこぼし、唾を吐く
+soulbrazier.nopower=中身が枯渇しているために、火鉢がバチバチと音を立てる。
+soulbrazier.noWarp=取り除くべき永続的な歪みがない。
+txitems.boundJar.networkInfo=ネットワークID: %s
+txitems.boundJar.noNetworkInfo=ネットワークなし
 
-txwaila.boundJar.network=Network: %s
-txwaila.boundJar.colour=Colour: %S
+txwaila.boundJar.network=ネットワーク: %s
+txwaila.boundJar.colour=色: %S
 
-ttwaila.soulBrazier.essentia=Essentia: %d
+ttwaila.soulBrazier.essentia=エッセンシア: %d
 ttwaila.soulBrazier.vis=Vis: %d
-ttwaila.soulBrazier.active=Active
-ttwaila.soulBrazier.notActive=Not Active
-ttwaila.soulBrazier.warp=Warp: %d
-ttwaila.soulBrazier.owner=Owner: %s
-ttwaila.everburnUrn.fluid=Lava: %d mb
+ttwaila.soulBrazier.active=稼働中
+ttwaila.soulBrazier.notActive=非稼働
+ttwaila.soulBrazier.warp=歪み: %d
+ttwaila.soulBrazier.owner=所有者: %s
+ttwaila.everburnUrn.fluid=溶岩: %d mb
 ----Enchantment Names----
-enchantment.binding=Binding
-enchantment.nightVision=Night Vision
-enchantment.disarm=Disarming
+enchantment.binding=拘束
+enchantment.nightVision=暗視
+enchantment.disarm=武装解除
 
 ----Wand Names----
-item.Wand.AMBER.rod=Amber
-item.Wand.BREAD.rod=Baguette
-item.Wand.TRANSMUTATION.rod=Transmutative
-item.Wand.NECROMANCER.rod=Necromancer's
-item.Wand.SOJOURNER.cap=Sojourner's
-item.Wand.MECHANIST.cap=Mechanist's
+item.Wand.AMBER.rod=琥珀の
+item.Wand.BREAD.rod=バゲットの
+item.Wand.TRANSMUTATION.rod=変化の
+item.Wand.NECROMANCER.rod=死霊術師の
+item.Wand.SOJOURNER.cap=滞在者の
+item.Wand.MECHANIST.cap=技術者の
 
 ----Blank Seals----
 item.thaumicexploration:blankSeal:Pale.name=淡い無印の封蝋
@@ -171,40 +171,40 @@ tile.thaumicexploration:autoSorter.name=Auto-sorter
 
 ----Thaumonomicon Entries----
 te.researchPrefix=[TX]
-tc.research_category.TAINT=Tainturgy
-tc.research_category.NECROMANCY=Necromancy
-tc.research_category.TX=Thaumic Exploration
+tc.research_category.TAINT=魔導汚染学
+tc.research_category.NECROMANCY=死霊術
+tc.research_category.TX=魔導探究学 - Thaumic Exploration
 
 --Oblivion Jar
-te.name.TRASHJAR=Oblivion Jar
-te.tag.TRASHJAR=Essentia disposal
-te.text.TRASHJAR.1=While void jars are very useful in getting rid of large amounts of a certain type of essentia, you often find your infusion room overflowing with several types. Instead of wasting time making a void jar for every mystical aspect, you decided that there must be an easier solution. That solution has manifested itself in the form of the oblivion jar.<BR><BR>While significantly more expensive than its void or warded counterparts, only one oblivion jar is necessary to handle all of the excess essentia from a network. It will obliterate all essentia that enters the jar, much like a filled void jar does.
-te.text.TRASHJAR.2=The oblivion jar has the lowest suction of any jar, meaning that it will only take essentia that has nowhere else to go. Golems may interact with this jar as well, if they do not find another jar that can handle the essentia they are carrying.
+te.name.TRASHJAR=忘却の瓶
+te.tag.TRASHJAR=エッセンシアの廃棄処分
+te.text.TRASHJAR.1=虚無の瓶は特定のエッセンシアを大量に処分するのにとても便利だが、注入の儀式を行う部屋が数種類のエッセンシアで溢れかえっているのはよく目にするものだ。神秘の相ごとに虚無の瓶を作るのに時間を浪費するより、もっと簡単な解決策があるはずだと思い至った。その解決策が忘却の瓶という形で実現した。<BR><BR>虚無の瓶や保護瓶に比べるとかなり高価だが、忘却の瓶が1つあれば、ネットワークから余分なエッセンシアをすべて処理することができる。充填された虚無の瓶がそうであるように、忘却の瓶に入ったエッセンシアはすべて抹消される。
+te.text.TRASHJAR.2=忘却の瓶はどの瓶よりも陰圧が低く、他に行き場のないエッセンシアしか取り込めない。ゴーレムも、運んでいるエッセンシアを保持できる壺が他に見つからなければ、この瓶とやりとりすることができる。
 
 --Soul Brazier
-te.name.SOULBRAZIER=Soul Brazier
-te.tag.SOULBRAZIER=Warp is bad mmkay?
-te.text.SOULBRAZIER.1=Warp is a dangerous, malicious force. While in a mind, it is bad enough, released onto the world it is worse, this is why we have made a way to hold this warp safeish. It needs both vis from a node, and Mortus essentia, but it can hold the warp the player has, without too much damage to the enviroment
+te.name.SOULBRAZIER=魂の火鉢
+te.tag.SOULBRAZIER=歪みは悪いものだろ？
+te.text.SOULBRAZIER.1=歪みは危険で悪意ある力だ。心の中にあるだけでも十分有害だが、それが世界に放たれたらなお有害だ。そこで、この歪みを安全に保持する方法を作り上げた。オーラ節からのVisとMortuusのエッセンシアの両方が必要になるが、これで環境に大きな損害を与えることなく、プレイヤーが持つ歪みを保持することができる。
 
 
 --Taintacle Ring
 te.name.TENTACLERING=汚染触手の指輪
-te.tag.TENTACLERING=Henturgy
-te.text.TENTACLERING.1=You have found a way to harness the knowledge you have gained from researching tainted lands. You have discovered a way to summon small taintacles to aid you in combat, similarily to the large taintacles you have found in your travels.<BR><BR>Wearing this ring in one of your ring slots activates this effect. Any time that you take damage and are on solid land, a small taintacle will sprout, attacking nearby foes.
+te.tag.TENTACLERING=エロマンガ学
+te.text.TENTACLERING.1=汚染された地の調査から得た知識を活用する方法を見つけた。旅先で見つけた大きな汚染触手と同様、戦闘の助けとなる小さな触手を召喚する方法がわかったのだ。<BR><BR>この指輪を指輪スロットにはめると効果が発動する。陸地の上で自身がダメージを受けると、小さな触手が芽生え、近くの敵を攻撃する。
 
 --Discount Rings
-te.name.DISCOUNTRINGS=Shard Rings
-te.tag.DISCOUNTRINGS=Conserving vis
-te.text.DISCOUNTRINGS.1=You have found a way to reduce the amount of vis used by casting wands. Simply carve the mystical shards that you find underground into the shape of a ring, and give them a touch of magic.<BR><BR>A ring can be made for each of the six primal aspects. You may wear up to two of these rings at a time. Two rings of the same aspect will stack their discounts.
+te.name.DISCOUNTRINGS=結晶片の指輪
+te.tag.DISCOUNTRINGS=Visの節約
+te.text.DISCOUNTRINGS.1=杖のVis使用量を減らす方法を見つけた。地下で見つけた神秘の結晶片を指輪の形に彫り、魔力を少々与えるだけだ。<BR><BR>指輪は6つの根源相それぞれに作ることができる。これらの指輪は一度に2つまで身につけることができる。同じ相の指輪を2つつけると軽減効果が重複する。
 
 --Thaumostatic Stabilizer
-te.name.STABILIZERBELT=Thaumostatic Stabilizer
-te.tag.STABILIZERBELT=Knockback nullifier
-te.text.STABILIZERBELT.1=Using similar technology to that found in the thaumostatic harness, you've created a special belt that nullifies the effect of knockback.<BR><BR>Any time you take damage, instead of being knocked around, you will instead remain in place. You have found this device to be extremely useful for not only flying using the harness, but also for travel at night.
+te.name.STABILIZERBELT=魔導制御安定帯
+te.tag.STABILIZERBELT=ノックバック無効化器
+te.text.STABILIZERBELT.1=魔動制御装備と同様の技術を使って、ノックバック効果を無効化する特殊なベルトを作った。<BR><BR>このベルトを装着していれば、ダメージを受けてもふらつくことなく、その場にとどまることができる。この装置は、魔動制御装備を使った飛行だけでなく、夜間の移動にも非常に役立つことがわかった。
 
 --Floating Candles
-te.name.FLOATCANDLE=Floating Candles
-te.tag.FLOATCANDLE=Wingardium Leviosa
+te.name.FLOATCANDLE=浮遊するろうそく
+te.tag.FLOATCANDLE=ウィンガーディアム・レヴィオーサ
 te.text.FLOATCANDLE.1=You always have felt that tallow candles are missing something... A touch of magic and an Aer shard should be enough to make them look right at home in any respected wizarding school. Floating candles can be placed in midair without a surface beneath them. These candles bob pleasingly, and add a touch of magic to any room.<BR><BR>Like their more mundane counterparts, they can also be used to stabilise infusions.
 
 --Flesh Curing
