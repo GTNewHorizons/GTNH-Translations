@@ -141,7 +141,7 @@ item.thaumicexploration:jarSeal:Red.name=赤色の保護瓶に紐づいた封蝋
 item.thaumicexploration:jarSeal:Dark.name=暗い保護瓶に紐づいた封蝋
 
 ----Block Names----
-tile.thaumicexploration:thinkTankJar.name=考える水槽
+tile.thaumicexploration:thinkTankJar.name=シンクタンク
 tile.thaumicexploration:everfullUrn.name=満たされた壺
 tile.thaumicexploration:everburnUrn.name=燃え盛る壺
 tile.thaumicexploration:crucibleSouls.name=魂のるつぼ
@@ -167,7 +167,7 @@ tile.thaumicexploration:floatCandle.12.name=茶色の浮遊するろうそく
 tile.thaumicexploration:floatCandle.13.name=緑色の浮遊するろうそく
 tile.thaumicexploration:floatCandle.14.name=赤色の浮遊するろうそく
 tile.thaumicexploration:floatCandle.15.name=黒色の浮遊するろうそく
-tile.thaumicexploration:autoSorter.name=Auto-sorter
+tile.thaumicexploration:autoSorter.name=自動ソーター
 
 ----Thaumonomicon Entries----
 te.researchPrefix=[TX]
@@ -205,28 +205,28 @@ te.text.STABILIZERBELT.1=魔動制御装備と同様の技術を使って、ノ�
 --Floating Candles
 te.name.FLOATCANDLE=浮遊するろうそく
 te.tag.FLOATCANDLE=ウィンガーディアム・レヴィオーサ
-te.text.FLOATCANDLE.1=You always have felt that tallow candles are missing something... A touch of magic and an Aer shard should be enough to make them look right at home in any respected wizarding school. Floating candles can be placed in midair without a surface beneath them. These candles bob pleasingly, and add a touch of magic to any room.<BR><BR>Like their more mundane counterparts, they can also be used to stabilise infusions.
+te.text.FLOATCANDLE.1=獣脂のろうそくには何かが足りないといつも感じる... ちょっとした魔法とエアの結晶片があれば、どんな立派な魔法学校にも馴染むろうそくにできるはずだ。浮遊するろうそくは、下に地面がなくても空中に設置することができる。このキャンドルは心地よく揺れ、どんな部屋にもちょっとした魔法を付け加えてくれる。<BR><BR>より一般的なろうそくのように、注入の儀式を安定させるために使うこともできる。
 
 --Flesh Curing
-te.name.FLESHCURE=Flesh Purification
-te.tag.FLESHCURE=Making things better
-te.text.FLESHCURE.1=By imbuing rotten flesh with certain aspects, you have found that you are able to remove nearly all traces of disease and decomposition from the flesh, rendering it much more useful.<BR><BR>Although this discovery may not be particularly useful, you are sure it will lead to exciting things.
+te.name.FLESHCURE=肉の浄化
+te.tag.FLESHCURE=より良いものに
+te.text.FLESHCURE.1=腐った肉に特定の相を染み込ませることで、肉から病気や腐敗の形跡をほとんど全て取り除き、より有用なものにできることがわかった。<BR><BR>この発見は特に役立つものではないかもしれないが、これは刺激的な物事へとつながると確信している。
 
 --Brain Curing
-te.name.BRAINCURE=Brain Sanitization
-te.tag.BRAINCURE=Brain washing
-te.text.BRAINCURE.1=You have discovered that by using a process similar to purifying zombie villagers, you can reverse the effects of zombification on the brain. These cured brains exhibit much more intellectual capacity than their diseased counterparts, so you hope they will prove useful in future creations.<BR><BR>Note that any type and any duration of weakening potion will work.
+te.name.BRAINCURE=脳の浄化
+te.tag.BRAINCURE=洗脳
+te.text.BRAINCURE.1=村人ゾンビを治療するのと同様のプロセスを用いることで、ゾンビ化が脳に及ぼす影響を逆行させられることがわかった。この治癒した脳は病気の脳よりもはるかに高い知的能力を発揮するので、将来の創造物に役立つことが期待される。<BR><BR>なお弱体化のポーションは、どんな種類でも、どんな持続時間でも使える。
 TO BE IMPLEMENTED: The brains also serve as a bait for zombified creatures, when dropped or placed on an arcane pedestal.
 
 --Think Tank
-te.name.THINKTANK=Think Tank
-te.tag.THINKTANK=All the way from the Big MT
-te.text.THINKTANK.1=Your search for a way to automate research has finally come to an end. You have found that purified zombie brains make the perfect research aide. Placing a few of them in a warded jar with some thaumic devices and supplying them with an ample amount of books will result in a quantity of knowledge fragments. The system is not perfect, and the supplied books are destroyed in the process.
-te.text.THINKTANK.2=This 'think tank' has very particular placement requirements. To construct a working think tank, you must place the tank on top of a bookshelf, with nothing occupying the space in a 3x3x3 cube around the tank except for the bookshelf it is placed on. Note that a wand does not need to be used when setting up your think tank.
+te.name.THINKTANK=シンクタンク
+te.tag.THINKTANK=ビッグ・マウンテンから遠路はるばる
+te.text.THINKTANK.1=研究を自動化する方法の探究についに終止符が打たれた。浄化したゾンビの脳みそが完璧な研究助手になることがわかったのだ。いくつかの魔導装置と脳数個を保護瓶に入れ、十分な量の本を与えれば、大量の知識の断片が得られる。このシステムは完璧ではなく、供給された本はその過程で破壊される。
+te.text.THINKTANK.2=この'シンクタンク'には、非常に特殊な配置要件がある。働くシンクタンクを構築するには、タンクを本棚の上に設置し、タンクの周りの3×3×3の立方体の空間には本棚を除いて何もない状態にしなければならない。なお、シンクタンクを組み上げる際に杖を使う必要はない。
 
 --Chest Sealing
-te.name.CHESTSEAL=Seal of Chest Binding
-te.tag.CHESTSEAL=Magical inventory linking
+te.name.CHESTSEAL=チェストの紐づけ用封蝋
+te.tag.CHESTSEAL=魔法のインベントリ連結
 te.text.CHESTSEAL.1=By soaking a mundane seal made of tallow in a concoction of essentia, you have discovered a way to bind chests so that they share their contents. These seals can be dyed various colors for sorting purposes, but an unlimited number of bound chest networks can be created.<BR><BR>By right clicking on a chest with a chest binding seal, you can create a new network. Right clicking on a bound chest will link the seal to that network. Right clicking on an unbound chest with a linked seal will add that chest to the linked network. Note that only empty chests are able to be bound.
 
 --Jar Sealing
