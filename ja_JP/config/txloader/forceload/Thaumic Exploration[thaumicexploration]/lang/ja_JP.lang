@@ -195,7 +195,7 @@ te.text.TENTACLERING.1=汚染された地の調査から得た知識を活用す
 --Discount Rings
 te.name.DISCOUNTRINGS=結晶片の指輪
 te.tag.DISCOUNTRINGS=Visの節約
-te.text.DISCOUNTRINGS.1=杖のVis使用量を減らす方法を見つけた。地下で見つけた神秘の結晶片を指輪の形に彫り、魔力を少々与えるだけだ。<BR><BR>指輪は6つの根源相それぞれに作ることができる。これらの指輪は一度に2つまで身につけることができる。同じ相の指輪を2つつけると軽減効果が重複する。
+te.text.DISCOUNTRINGS.1=杖のVis使用量を減らす方法を見つけた。地下で見つけた神秘の結晶片を指輪の形に彫り、魔力を少々与えるだけだ。<BR><BR>指輪は6つの根源相それぞれについて作ることができる。これらの指輪は一度に2つまで身につけることができる。同じ相の指輪を2つつけると軽減効果が重複する。
 
 --Thaumostatic Stabilizer
 te.name.STABILIZERBELT=魔導制御安定帯
@@ -227,36 +227,36 @@ te.text.THINKTANK.2=この'シンクタンク'には、非常に特殊な配置�
 --Chest Sealing
 te.name.CHESTSEAL=チェストの紐づけ用封蝋
 te.tag.CHESTSEAL=魔法のインベントリ連結
-te.text.CHESTSEAL.1=By soaking a mundane seal made of tallow in a concoction of essentia, you have discovered a way to bind chests so that they share their contents. These seals can be dyed various colors for sorting purposes, but an unlimited number of bound chest networks can be created.<BR><BR>By right clicking on a chest with a chest binding seal, you can create a new network. Right clicking on a bound chest will link the seal to that network. Right clicking on an unbound chest with a linked seal will add that chest to the linked network. Note that only empty chests are able to be bound.
+te.text.CHESTSEAL.1=獣脂でできた平凡な封蝋をエッセンシアの調合液に浸すことで、チェストを紐づけて中身を共有する方法を発見した。この封蝋は仕分けのためにさまざまな色に染めることができ、紐づけたチェストのネットワークを無制限に作ることができる。<BR><BR>チェストの紐づけ用封蝋を持ってチェストを右クリックすると、新しいネットワークが作成できる。封蝋を持って紐づけられたチェストを右クリックすると、封蝋がそのネットワークにリンクする。リンクされた封蝋で紐づけされていないチェストを右クリックすると、そのチェストがリンクされたネットワークに追加される。なお、紐づけできるのは空のチェストだけである。
 
 --Jar Sealing
-te.name.JARSEAL=Seal of Jar Binding
+te.name.JARSEAL=保護瓶の紐づけ用封蝋
 te.tag.JARSEAL=Essentia, essentia everywhere
-te.text.JARSEAL.1=By adjusting the mixture of aspects that you soak the tallow seal in to account for essentia's mystical properties, you have found that you are able to bind essentia containers, in particular, warded jars. Much like your previous binding seals, the jar binding seal can be dyed and an unlimited amount of networks can be created.<BR><BR>By right clicking on a jar with a jar binding seal, you can create a new network. Right clicking on a bound jar will link the seal to that network. Right clicking on an unbound jar with a linked seal will add that jar to the linked network. Note that only empty jars are able to be bound. You can not bind void jars or jars with labels.<BR><BR>Sealed jars have a higher suction than unlabeled jars but lower than labeled jars.
+te.text.JARSEAL.1=エッセンシアの神秘的な特性を考慮し、獣脂の封蝋を浸す相の混成を調整することで、エッセンシアの容器、特に保護瓶が紐づけられることがわかった。これまでの紐づけ用封蝋と同じように、保護瓶の紐づけ用封蝋も染色することができ、無制限にネットワークを作成することができる。<BR><BR>保護瓶の紐づけ用封蝋を持って保護瓶を右クリックすると、新しいネットワークを作成することができる。封蝋を持って紐づけられた保護瓶を右クリックすると、封蝋がそのネットワークにリンクする。リンクした封蝋を持って紐づけられていない保護瓶を右クリックすると、その保護瓶がリンクされたネットワークに追加される。なお、紐づけできるのは空の保護瓶だけである。虚無の瓶やラベル付きの保護瓶は紐付けすることができない。<BR><BR>封蝋付きの保護瓶はラベルのない保護瓶よりも陰圧が高く、ラベルのある保護瓶よりも陰圧が低い。
 
 --Everfull Urn
-te.name.URN=Everfull Urn
-te.tag.URN=It seems familiar...
-te.text.URN.1=You have read much about an 'Everfull Urn' in your research, a mystical device created by the great Thaumaturge Azanor that acted as an endless source of water. You have finally constructed a device that can do that and more.<BR><BR>Your Everfull Urn can not only supply water to an infinite amount of buckets, it can also be pumped out of the top to an external tank. Your urn also has the ability to fill any nearby crucible, and extinguish nearby players that are on fire.
-te.text.URN.1B=You have read much about an 'Everfull Urn' in your research, a mystical device created by the great Thaumaturge Azanor that acted as an endless source of water. You have finally constructed a device that can do that and more.<BR><BR>Your Everfull Urn can not only supply water to an infinite amount of buckets, it can also be pumped out of the top to an external tank. Your urn also has the ability to fill any nearby crucible, and extinguish nearby players that are on fire.<BR><BR>The Urn is also able to fill nearby Petal Apothecaries, if one chooses to dabble in floral magic.
+te.name.URN=満たされた壺
+te.tag.URN=見覚えがあるような...
+te.text.URN.1=偉大なる魔導師Azanorによって作られた、無限の水源として機能する神秘の装置、'満たされた壺'。研究の中で、これについての記述をよく目にしてきた。そしてついに、それ以上のことができる装置を作り上げた。<BR><BR>満たされた壺は、無限のバケツに水を供給できるだけでなく、上部から外部のタンクへと水を汲み出すことも可能だ。またこの壷は、付近のるつぼを満たしたり、付近の炎上しているプレイヤーの火を消したりする能力も持っている。
+te.text.URN.1B=偉大なる魔導師Azanorによって作られた、無限の水源として機能する神秘の装置、'満たされた壺'。研究の中で、これについての記述をよく目にしてきた。そしてついに、それ以上のことができる装置を作り上げた。<BR><BR>満たされた壺は、無限のバケツに水を供給できるだけでなく、上部から外部のタンクへと水を汲み出すことも可能だ。またこの壷は、付近のるつぼを満たしたり、付近の炎上しているプレイヤーの火を消したりする能力も持っている。<BR><BR>さらに、花の魔法に手を出している場合、この壷は付近にある花びらの調合台を満たすこともできる。
 
 
 
 
 --Everburn Urn
 te.name.BURN=燃え盛る壺
-te.tag.BURN=Why did I make it out of fire??
-te.text.BURN.1=After researching more into your Everfull Urn, you find a way to generate lava with one.<BR><BR>You find that unlike water, lava needs energy to produce, and so, the Everburn urn as you decide to call it, will need Centivis to power it. Your Everfull Urn can not only supply lava to buckets, it can also be pumped out of the top to an external tank.
+te.tag.BURN=なんで火から作った？？
+te.text.BURN.1=満たされた壺についてさらに調べた結果、壷で溶岩を生成する方法を見つけた。<BR><BR>水とは異なり、溶岩を生産するにはエネルギーが必要であることがわかった。燃え盛る壺と呼ぶことにしたそれは、溶岩をバケツに供給するだけでなく、上部から外部のタンクへと汲み出すこともできる。
 
 --Crucible of Souls
-te.name.CRUCSOULS=Crucible of Souls
-te.tag.CRUCSOULS=Caution: Keep out of reach of children.
-te.text.CRUCSOULS.1=You have discovered a way to take advantage of a previously untapped source of essentia - that of living creatures. Infusing an alchemical furnace with various occult reagents and precise quantities of essentia, will create a crucible of souls, a device that will seek out the nearest living creature and slowly drain their life force, retrieving essentia at the final blow. This comes at the cost of the normal loot the creature would drop. This essentia can then be piped out of any face except the top via essentia tubes.
-te.text.CRUCSOULS.2=The Crucible of Souls is very unstable, and has a high probability of converting some of the essentia to flux or breaking it down into its component parts. You should make preparations to dispose of this flux before it causes a problem.<BR><BR>You have managed to install a basic safeguard so the device will not attack humans, but keep your pets at a safe distance. Magical golems should also be ignored by the device.
+te.name.CRUCSOULS=魂のるつぼ
+te.tag.CRUCSOULS=注意:  お子様の手の届かないところに保管してください。
+te.text.CRUCSOULS.1=これまで手つかずだったエッセンシアの供給源、すなわち生物のエッセンシアを利用する方法を発見した。錬金かまどに様々なオカルト的試薬と正確な量のエッセンシアを注入することで、魂のるつぼが作れる。これは付近の生物を探し出してゆっくりと生命力を吸い取り、最後の一撃でエッセンシアを回収する。ここで生物がドロップする戦利品が代償となる。このエッセンシアは、エッセンシア管を通じて上面以外のどの面からも取り出すことができる。
+te.text.CRUCSOULS.2=魂のるつぼは非常に不安定で、エッセンシアの一部がフラックスに変換されたり、その合成相を構成する相へと分解されたりする可能性が高い。問題が起こる前に、このフラックスを廃棄する準備をしなければならない。<BR><BR>基本的な安全装置を取り付けることができたので、この装置が人に危害を加えることはないが、ペットとは安全な距離を保つことだ。また魔法のゴーレムもこの装置には無視されるはずだ。
 
 --Replicator
 te.name.REPLICATOR=魔導複製機
-te.tag.REPLICATOR=Equivalent exchange
+te.tag.REPLICATOR=等価交換
 te.text.REPLICATOR.1=You have been able to break down blocks and items into essentia with an alchemical furnace, now finally you have found a way to do the opposite. You have created a device that can replicate simple building blocks using essentia.<BR><BR>By right clicking the Thaumic Replicator with a block, you can set the template. Right clicking with a wand starts the replication process. Simply look at the Replicator with Goggles of Revealing to see what essentia is neccesary, and place this essentia in nearby jars like you would for an infusion.
 te.text.REPLICATOR.2=This essentia will then form into the block that you set as a template. This block must be removed before starting the process again. Right clicking will remove any blocks in the replicator and right clicking again will reset the template.<BR><BR>This process can also be automated by starting replication with a redstone signal and removing blocks with a hopper.
 
