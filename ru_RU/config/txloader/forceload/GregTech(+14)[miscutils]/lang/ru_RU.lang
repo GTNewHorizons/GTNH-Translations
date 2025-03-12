@@ -64,7 +64,7 @@ GTPP.machines.chisel_slot.tooltip=Слот блока
 GTPP.machines.chisel_slot.tooltip.1=§7Поместите chisel предмет, чтобы указать выход
 GTPP.core.GT_Tooltip=Добавлено: §2Alkalus §7- §c[GT++]
 GTPP.core.GT_Tooltip_Builder=§2Alkalus §7- §c[GT++]
-GTPP.core.GT_Tooltip_Radioactive=§7Внимание: §aРадиоактивно! §6 Избегайте прямого обращения без средств защиты.
+GTPP.core.GT_Tooltip_Radioactive=§7Внимание: §aРадиоактивно! §6 Избегайте прямого контакта без средств защиты.
 
 # RecipeMaps
 gtpp.recipe.cokeoven=Коксовая печь
@@ -315,7 +315,7 @@ item.itemGemShards.tooltip=Алмазный кристалл
 item.itemHalfCompleteCasings.name=Полу комплектный корпус
 item.itemSulfuricPotion.name=Метательная колба с серной кислотой
 item.itemHydrofluoricPotion.name=Метательная колба с плавиковой кислотой
-item.itemBaseItemHotFood.tooltip.0=§7Предупреждение: §cОчень горячий!§7 Избегайте прямого обращения..
+item.itemBaseItemHotFood.tooltip.0=§7Предупреждение: §cОчень горячий!§7 Избегайте прямого контакта..
 item.itemBaseItemHotFood.tooltip.1=У этой еды осталось %d секунд, пока она не остынет.
 item.itemBoilerChassis.name=Улучшенное шасси бойлера [Тир %d]
 item.itemDehydratorCoilWire.name=Провод катушки [%s]
@@ -1694,7 +1694,7 @@ item.itemGregtechPump.tooltip.3=Не содержит жидкость
 item.itemBaseEuItem.tooltip.0=§eЭлектрический
 item.itemBaseEuItem.tooltip.1=Содержит %s EU   Тир: %s
 item.itemBaseEuItem.tooltip.2=Пустой. Вы должны правильно перерабатывать.
-item.itemBaseEuItem.tooltip.3=%d / %d EU - Вольтаж: %d
+item.itemBaseEuItem.tooltip.3=%s / %s EU - Вольтаж: %d
 item.itemDebugClearing.name=Отладочный квадрат [%d]
 item.itemDebugClearing.0.tooltip=Режим: Очистка
 item.itemDebugClearing.1.tooltip=Режим: Заполнение
@@ -3990,26 +3990,26 @@ gtpp.gui.config.asm.debug=Отладка
 gtpp.gui.config.asm.general=Общие
 
 # item tooltips
-gtpp.tooltip.ignot.very_hot=§7Warning: §cVery hot! §7Avoid direct handling..
+gtpp.tooltip.ignot.very_hot=§7Предупреждение: §cОчень горячий! §7Избегайте прямого контакта..
 gtpp.tooltip.tickable.decay_seconds=%d§7 seconds until decay
 gtpp.tooltip.ion_particles.state_not_set=A %s Ion with an §eUnknown§7 charge state
 gtpp.tooltip.ion_particles.charge_positive=A %s Ion with a §aPositive§7 charge state of %d
 gtpp.tooltip.ion_particles.charge_negative=A %s Ion with a §cNegative§7 charge state of %d
-gtpp.tooltip.base_particles.type=Type: %s
-gtpp.tooltip.base_particles.type.quark=Quark
-gtpp.tooltip.base_particles.type.lepton=Lepton
-gtpp.tooltip.base_particles.type.boson=Boson
-gtpp.tooltip.base_particles.type.baryon=Baryon
-gtpp.tooltip.base_particles.type.meson=Meson
-gtpp.tooltip.base_particles.type.unknown=Unknown
-gtpp.tooltip.integrated_circuit.configuration=Configuration == %d
+gtpp.tooltip.base_particles.type=Тип: %s
+gtpp.tooltip.base_particles.type.quark=Кварк
+gtpp.tooltip.base_particles.type.lepton=Лептон
+gtpp.tooltip.base_particles.type.boson=Бозон
+gtpp.tooltip.base_particles.type.baryon=Барион
+gtpp.tooltip.base_particles.type.meson=Пион
+gtpp.tooltip.base_particles.type.unknown=Неизвестная
+gtpp.tooltip.integrated_circuit.configuration=Конфигурация == %d
 gtpp.tooltip.scrubber_turbine.early_tier=An early tier Turbine for Atmospheric Reconditioning.
 gtpp.tooltip.scrubber_turbine.uses_left=%d/%d uses left.
 gtpp.tooltip.buffer_core.key_crafting_component=A key crafting component for %s Applicances
-gtpp.tooltip.magic_feather.0=Does not need to be the item held in your hand to work
-gtpp.tooltip.magic_feather.1=Needs to be within beacon range
-gtpp.tooltip.magic_feather.2=Range is beacon level * 10 + 10
-gtpp.tooltip.book.author=Author: %s
+gtpp.tooltip.magic_feather.0=Не обязательно держать предмет в руке, чтобы он работал.
+gtpp.tooltip.magic_feather.1=Необходимо находиться в пределах радиуса маяка
+gtpp.tooltip.magic_feather.2=Радиус составляет уровень маяка * 10 + 10
+gtpp.tooltip.book.author=Автор: %s
 gtpp.tooltip.book.pages.s=Pages: %s
 gtpp.tooltip.book.pages.d=Pages: %d
 gtpp.tooltip.meta_casing.energy_storage=Energy Storage: %s
