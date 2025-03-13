@@ -35,7 +35,7 @@ thaumicexploration.bread2=おなか空いてない？
 thaumicexploration.bread3=Bonjour, monsieur.
 thaumicexploration.bread4=Mangez-moi, s'il vous plait.
 
-item.thaumicexploration:discountRing.name=Ring
+item.thaumicexploration:discountRing.name=指輪
 item.thaumicexploration:discountRing:0.name=エアの指輪
 item.thaumicexploration:discountRing:1.name=テラの指輪
 item.thaumicexploration:discountRing:2.name=イグニスの指輪
@@ -103,7 +103,7 @@ item.thaumicexploration:blankSeal:Red.name=赤色の無印の封蝋
 item.thaumicexploration:blankSeal:Dark.name=暗い無印の封蝋
 
 ----Chest Seals----
-item.thaumicexploration:chestSeal.name=Chest Binding Seal
+item.thaumicexploration:chestSeal.name=チェストの紐づけ用封蝋
 item.thaumicexploration:chestSeal:Pale.name=淡いチェストに紐づいた封蝋
 item.thaumicexploration:chestSeal:Orange.name=橙色のチェストに紐づいた封蝋
 item.thaumicexploration:chestSeal:Magenta.name=赤紫色のチェストに紐づいた封蝋
@@ -122,7 +122,7 @@ item.thaumicexploration:chestSeal:Red.name=赤色のチェストに紐づいた�
 item.thaumicexploration:chestSeal:Dark.name=暗いチェストに紐づいた封蝋
 
 ----Jar Seals----
-item.thaumicexploration:jarSeal.name=Jar Binding Seal
+item.thaumicexploration:jarSeal.name=保護瓶の紐づけ用封蝋
 item.thaumicexploration:jarSeal:Pale.name=淡い保護瓶に紐づいた封蝋
 item.thaumicexploration:jarSeal:Orange.name=橙色の保護瓶に紐づいた封蝋
 item.thaumicexploration:jarSeal:Magenta.name=赤紫色の保護瓶に紐づいた封蝋
@@ -150,7 +150,7 @@ tile.thaumicexploration:trashJar.name=忘却の瓶
 tile.thaumicexploration:soulBrazier.name=魂の火鉢
 tile.boundJar.name=紐づけられた保護瓶
 tile.boundChest.name=紐づけられたチェスト
-tile.thaumicexploration:floatCandle.name=Floating Candle
+tile.thaumicexploration:floatCandle.name=浮遊するろうそく
 tile.thaumicexploration:floatCandle.0.name=白色の浮遊するろうそく
 tile.thaumicexploration:floatCandle.1.name=橙色の浮遊するろうそく
 tile.thaumicexploration:floatCandle.2.name=赤紫色の浮遊するろうそく
@@ -231,7 +231,7 @@ te.text.CHESTSEAL.1=獣脂でできた平凡な封蝋をエッセンシアの調
 
 --Jar Sealing
 te.name.JARSEAL=保護瓶の紐づけ用封蝋
-te.tag.JARSEAL=Essentia, essentia everywhere
+te.tag.JARSEAL=またエッセンシアか壊れるなぁ
 te.text.JARSEAL.1=エッセンシアの神秘的な特性を考慮し、獣脂の封蝋を浸す相の混成を調整することで、エッセンシアの容器、特に保護瓶が紐づけられることがわかった。これまでの紐づけ用封蝋と同じように、保護瓶の紐づけ用封蝋も染色することができ、無制限にネットワークを作成することができる。<BR><BR>保護瓶の紐づけ用封蝋を持って保護瓶を右クリックすると、新しいネットワークを作成することができる。封蝋を持って紐づけられた保護瓶を右クリックすると、封蝋がそのネットワークにリンクする。リンクした封蝋を持って紐づけられていない保護瓶を右クリックすると、その保護瓶がリンクされたネットワークに追加される。なお、紐づけできるのは空の保護瓶だけである。虚無の瓶やラベル付きの保護瓶は紐付けすることができない。<BR><BR>封蝋付きの保護瓶はラベルのない保護瓶よりも陰圧が高く、ラベルのある保護瓶よりも陰圧が低い。
 
 --Everfull Urn
@@ -271,64 +271,64 @@ te.tag.ROD_AMBER_staff=再生するVis貯蔵庫
 te.text.ROD_AMBER_staff.1=琥珀から作った上級杖身は、25Visを溜めることができる。<BR>通常の杖身と同様、Visがゆっくりと自然回復する。
 
 --Transmutation Staff Core
-te.name.ROD_TRANSMUTATION_staff=Transmutative Staff Core
-te.tag.ROD_TRANSMUTATION_staff=One thing into another
-te.text.ROD_TRANSMUTATION_staff.1=A staff core crafted from a primal charm and various shards can store 175 vis of each type.<BR>Like the wand core it transmutate vis forms when over 90% capacity in a particular type.
+te.name.ROD_TRANSMUTATION_staff=変化の上級杖身
+te.tag.ROD_TRANSMUTATION_staff=あるものを別のものへ
+te.text.ROD_TRANSMUTATION_staff.1=根源の魔除けから作った上級杖身は、175Visを溜めることができる。<BR>通常の杖身と同様、ある相のVisが90％以上充填されるとVisが変換される。
 
 --Necromancer's Staff Core
-te.name.ROD_NECROMANCER_staff=Necromancer's Staff Core
-te.tag.ROD_NECROMANCER_staff=The power of the undead
-te.text.ROD_NECROMANCER_staff.1=You have created a horrifying tool by infusing a Bone Staff Core with remnants of the undead.<BR><BR>This staff core is the perfect tool for the bloodthirsty thaumaturge. It boasts a large capacity of 200 vis, and receives four times the normal amount of vis from killed monsters. In addition, this staff is an even more proficient at melee combat. Striking a monster begins to wither their life force away. Unfortunately, this does not come without downsides. The dark magic used to infuse the staff makes it less receptive to vis obtained from other means, only effectively receiving 75% of the vis an ordinary wand would from nodes or other sources.
+te.name.ROD_NECROMANCER_staff=死霊術師の上級杖身
+te.tag.ROD_NECROMANCER_staff=不死者の力
+te.text.ROD_NECROMANCER_staff.1=骨の上級杖身にアンデッドの残骸を注入し、恐るべき道具を作成した。<BR><BR>この上級杖身は血に飢えた魔導師にとって完璧な道具だ。この杖は200Visという大容量を誇り、殺したモンスターから通常の4倍のVisを得ることができる。加えて、この杖は近接戦闘をより熟達させる。モンスターを殴ると、その生命力が衰弱し始める。残念ながら、この杖には欠点もある。杖に注入された闇の魔法により、他の手段で得たVisを受け付けにくく、通常の杖がオーラ節などから得られるVisの75％しか受け取れないのだ。
 
 --Bread Wand Core
-te.name.ROD_BREAD=Baguette Wand Core
-te.tag.ROD_BREAD=Frenchman's vis storage
-te.text.ROD_BREAD.1=Bonjour! Yesterday, you bought one too many baguettes. It is a shame to let this beautiful bread go to waste, so you have developed a way to use this bread as a wand core. Bon Appetit!
+te.name.ROD_BREAD=バゲットの杖身
+te.tag.ROD_BREAD=フランス人のVis貯蔵庫
+te.text.ROD_BREAD.1=Bonjour！昨日はバゲットを買いすぎた。この美しいパンを無駄にするのは勿体ないので、このパンを杖身として使う方法を開発した。Bon Appetit！
 
 --Sojourner's Wand Cap
-te.name.CAP_SOJOURNER=Sojourner's Wand Caps
-te.tag.CAP_SOJOURNER=Sentient wand caps
-te.text.CAP_SOJOURNER.1=Even with the wand recharge pedestal, refilling your wand has been a chore. One must go through the work of constructing the pedestal and placing nodes in its vicinity. You have developed a special wand cap that will passively drain nearby nodes in a similar fashion to the Wand Recharge Pedestal when the wand is held in the hand.<BR><BR>This cap is more efficient in channeling vis than gold wand caps but less efficient than thaumium wand caps.
+te.name.CAP_SOJOURNER=滞在者の石突
+te.tag.CAP_SOJOURNER=科学者の石突
+te.text.CAP_SOJOURNER.1=杖充填台があっても、杖の充填は面倒なままだ。充填台を作り、その周辺にオーラ節を配置する手間がかかる。そこで杖を手に持ったときに、杖充填台と同じように近くのオーラ節を受動的に吸収する特別な石突を開発した。<BR><BR>この石突は金の石突よりもVisを流す効率が高いが、魔導金属の石突よりは効率が低い。
 
 --Mechanist's Wand Cap
-te.name.CAP_MECHANIST=Mechanist's Wand Caps
-te.tag.CAP_MECHANIST=Mechanical wand caps
-te.text.CAP_MECHANIST.1=You have researched nodes extensively, and you feel that you have reached a point in which you can no longer improve the draining speed of nodes without improving your wands themselves. You have created a mechanical wand cap that is able to deconstruct and harvest vis from a node much more quickly than usual, using a combination of gadgetry and magic.<BR><BR>This cap is more efficient in channeling vis than gold wand caps but less efficient than thaumium wand caps.
+te.name.CAP_MECHANIST=技術者の石突
+te.tag.CAP_MECHANIST=機械的な石突
+te.text.CAP_MECHANIST.1=オーラ節を幅広く研究し、もはや杖そのものを改良しなければオーラ節の吸収速度を改善できないところまで来ていると感じた。機械類と魔法を組み合わせて、通常よりもはるかに素早くオーラ節を分解し、そこからVisを回収できる機械的な石突を作成した。<BR><BR>この石突は金の石突よりもVisを流す効率が高いが、魔導金属の石突よりは効率が低い。
 
 --Wispy Dreamcatcher
-te.name.DREAMCATCHER=Wispy Dreamcatcher
-te.tag.DREAMCATCHER=Filtered thoughts
-te.text.DREAMCATCHER.1=They say that dreamcatchers are meant to stop nightmares from reaching the mind. Though taint may not be a construct of your psyche, you think that perhaps the ill effects that taint has on the body could be combated using a modified dreamcatcher.<BR><BR>If you hold this dreamcatcher in your hotbar, it will have a high probability of nullifying damage from taint or tainted creatures. Although this dreamcatcher does not nullify all damage, it will certainly make excursions into tainted land much less dangerous.
+te.name.DREAMCATCHER=薄明のドリームキャッチャー
+te.tag.DREAMCATCHER=濾過した思考
+te.text.DREAMCATCHER.1=ドリームキャッチャーは悪夢が心に届かないようにするものだと言われている。汚染は自らの精神が作り出したものではないかもしれないが、改良したドリームキャッチャーを使えば、汚染が身体に及ぼす悪影響に対抗できるのではないかと考えた。<BR><BR>このドリームキャッチャーをホットバー入れると、汚染や汚染された生物からのダメージを高確率で無効化できる。このドリームキャッチャーですべてのダメージが無効化されるわけではないが、汚染された地への遠征における危険性が大幅に減ることは間違いない。
 
 --Talisman of Nourishment
-te.name.TALISMANFOOD=Talisman of Nourishment
-te.tag.TALISMANFOOD=Everfull belly
-te.text.TALISMANFOOD.1=You often find yourself needing to take breaks during marathon researching sessions to satisfy your hunger. Finally you have found a way to get past your need for food.<BR><BR>By infusing a ruby with the essence of hunger, you have created an item that is able to suck the nourishing energy from various food items in your hotbar and store this energy within. It will then automatically replenish your food meter if it is depleted.<BR><BR>This device will only work on simple food items, so foods that invoke effects such as Rotten Flesh and Golden Apples must be consumed normally.
+te.name.TALISMANFOOD=栄養のタリスマン
+te.tag.TALISMANFOOD=満たされたベリー
+te.text.TALISMANFOOD.1=長時間の研究中、空腹を満たすために休憩が必要になることがよくある。ついに、食べ物への欲求を克服する方法を見つけた。<BR><BR>ルビーに飢餓のエッセンスを注入することで、ホットバーにある様々な食べ物から栄養となるエネルギーを吸い取り、そのエネルギーを蓄えることができるアイテムを作成した。満腹度が減少すると、満腹度が自動的に回復するのだ。<BR><BR>この装置は単純な食べ物にしか使えないので、腐った肉や金のリンゴのような効果を付与する食べ物は普通に食べなければならない。
 
 --Disarming Enchantment
-te.name.ENCHDISARM=Enchantment: Disarming
-te.tag.ENCHDISARM=Fighting dirty
-te.text.ENCHDISARM.1=You have formulated an enchantment that has a slight chance of knocking a weapon from a creature's hands.<BR><BR>This enchantment can be applied to swords. When done so, struck creatures have a chance of dropping the weapon they are holding. This disarming effect does not work on other players. This enchantment has a better chance of success if it is a higher level.
+te.name.ENCHDISARM=エンチャント: 武装解除
+te.tag.ENCHDISARM=きたない戦い
+te.text.ENCHDISARM.1=わずかな確率で敵の手から武器を叩き落とすエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用できる。この剣で殴られた敵は持っている武器を落とす可能性がある。この武装解除効果は他のプレイヤーには効かない。このエンチャントはレベルが高いほど成功率が高くなる。
 
 --Binding Enchantment
-te.name.ENCHBINDING=Enchantment: Binding
-te.tag.ENCHBINDING=Going somewhere?
-te.text.ENCHBINDING.1=You have formulated an enchantment that binds a struck creature to a certain location.<BR><BR>This enchantment can be applied to swords. When a creature is struck with a sword enchanted with the first level of this enchantment, they will be slowed temporarily. Attacking an enderman with a sword that carries the second level of this enchantment will stop the enderman from teleporting away. Creepers struck with a blade that holds the second level of this enchantment will not be able to explode for a short time afterward.
+te.name.ENCHBINDING=エンチャント: 拘束
+te.tag.ENCHBINDING=どこへ行こうというのかね？
+te.text.ENCHBINDING.1=殴られた敵を特定の場所に拘束するエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用できる。このエンチャントのレベル1が付与された剣で敵が殴られると、一時的に動きが遅くなる。このエンチャントのレベル2が付与された剣でエンダーマンを攻撃すると、エンダーマンのテレポートを止めることができる。このエンチャントのレベル2が付与された剣で殴られたクリーパーは、その後しばらくの間爆発しなくなる。
 
 --Night Vision Enchantment
-te.name.ENCHNIGHTVISION=Enchantment: Night Vision
-te.tag.ENCHNIGHTVISION=Low-light vision
-te.text.ENCHNIGHTVISION.1=You have formulated an enchantment that allows you to see in the dark.<BR><BR>This enchantment can be applied to headgear. When done so, the wearer is able to see in low light conditions, similarly to using a night vision potion.<BR><BR>§oIf the mod §lEnderIO§r§o is installed, you can toggle this ability with the Dark Steel Armor Night Vision hotkey.
+te.name.ENCHNIGHTVISION=エンチャント: 暗視
+te.tag.ENCHNIGHTVISION=低照度での視界
+te.text.ENCHNIGHTVISION.1=暗闇でも物を視認できるようにするエンチャントを編み出した。<BR><BR>このエンチャントは頭部装備に適用できる。この装備の着用者は暗視ポーションを使うのと同じように、暗い状況でも物を見ることができるようになる。<BR><BR>§oMod §lEnderIO§r§o がインストールされている場合、ダークスチール装備の暗視切替キーでこの能力を切り替えることができる。
 
 --Boots of the Meteor
-te.name.METEORBOOTS=Boots of the Meteor
-te.tag.METEORBOOTS=Come on and slam
-te.text.METEORBOOTS.1=Your Boots of the Traveller have been very useful, but sometimes you have desired even more mobility. By imbuing the Boots of the Traveller with the raw power of Ignis and Potentia, you have created a pair of boots with unrivaled mobility.<BR><BR>These boots propel the wearer with the force of a meteor in the direction they are looking, if they jump while crouching. Pressing the crouch button when in midair will launch the player towards the ground at incredible speeds, damaging anything near the point of impact.
+te.name.METEORBOOTS=隕石のブーツ
+te.tag.METEORBOOTS=叩きつけてやれ
+te.text.METEORBOOTS.1=旅人の靴はとても便利だが、もっと機動力が欲しいと思うこともある。旅人の靴にイグニスとポテンシアの力を注入することで、比類なき機動力を持つブーツを作成した。<BR><BR>このブーツは、しゃがんだ状態でジャンプすると、着用者は隕石の力によって見ている方向に推進する。空中でしゃがみボタンを押すと、プレイヤーは信じられないスピードで地面に向かって飛び出し、着地点付近のあらゆるものにダメージを与える。
 
 --Boots of the Comet
-te.name.COMETBOOTS=Boots of the Comet
-te.tag.COMETBOOTS=Ice ice baby
-te.text.COMETBOOTS.1=The Boots of the Traveller are fast, but you think that there is room for improvement. By infusing the Boots of the Traveller with Aqua and Gelum, you have created a pair of boots with unrivaled speed.<BR><BR>These boots allow the user to run with the speed of a comet, covering large tracts of land in a matter of seconds. Water can do nothing to slow you. When wearing the Boots of the Comet, water will be temporarily frozen under your feet.
+te.name.COMETBOOTS=彗星のブーツ
+te.tag.COMETBOOTS=アイス・アイス・ベイビー
+te.text.COMETBOOTS.1=旅人の靴は速いが、改善の余地があると考えられる。旅人の靴にアクアとゲラムを注入することで、比類なきスピードを持つブーツを作成した。<BR><BR>このブーツを履けば、彗星のようなスピードで走ることができ、広大な土地を一瞬で駆け抜けることができる。水に足止めされることもない。彗星のブーツを履くと、足元の水が一時的に凍るのだ。
 
 --Runic Boots
 te.name.RUNICBOOTS=Runic Elemental Boots
@@ -342,29 +342,29 @@ te.text.ENHANCEDRUNICARMOR.1=Your extensive research into augmenting Runic Armor
 te.text.ENHANCEDRUNICARMOR.2=Keep in mind that the inital creation of the Enhanced armor will wipe existing augments. <BR><BR>In the case that you want to overwrite an augment placed on the Enhanced armor, you may right click while holding it to swap positions of the augments. The augment displayed first is the one that will be overwritten.<BR><BR>[Recipes pending... leave feedback]
 
 --Transmutative Wand Core
-te.name.ROD_TRANSMUTATION=Transmutative Wand Core
-te.tag.ROD_TRANSMUTATION=One thing into another
-te.text.ROD_TRANSMUTATION.1=While experimenting with the properties of primal charms, you have found that you can sporadically convert one form of vis into another. You have found this property to be too unreliable to use for most purposes, but if a charm is infused with certain materials, it can be used as a wand core with unique properties.<BR><BR>When the wand is filled at over 90% capacity of a certain aspect, this vis will be converted into other forms of vis, albeit at a low ratio.<BR><BR>This wand also boasts a higher vis capacity than a mundane greatwood wand, holding up to 75 vis of each type.
+te.name.ROD_TRANSMUTATION=変化の杖身
+te.tag.ROD_TRANSMUTATION=あるものを別のものへ
+te.text.ROD_TRANSMUTATION.1=根源の魔除けの特性を実験しているうちに、ある形態のVisを別の形態に変換できることがあるとわかった。この特性は信頼性が低すぎるためほとんどの用途では使えないが、魔除けに特定の素材を注入すれば、ユニークな特性を持つ杖身として使用できることを発見した。<BR><BR>ある相について杖のVis容量が90％以上充填された場合、低い比率ではあるが、このVisは他の形態のVisへと変換される。<BR><BR>また、この杖は一般的なグレートウッドの杖よりも高いVis容量を誇り、各種Visを最大75まで保持できる。
 
 --Necro Wand
-te.name.ROD_NECROMANCER=Necromancer's Wand Core
-te.tag.ROD_NECROMANCER=Evil vis storage
-te.text.ROD_NECROMANCER.1=You have always found finding a node to charge your depleted wand to be a nuisance. To remedy this, you have developed a wand core that harnesses the energy of the dead more efficiently.<BR><BR>Vis orbs collected from the remains of dead monsters yeild twice the vis, charging your wand quickly. Unfortunately, the dark energies used to infuse this wand are not as receptive to other forms of vis. When draining nodes or obtaining vis from other means, approximately a fourth is lost. This wand core has storage that rivals that of silverwood, making it a formidible option when choosing which core to use.
+te.name.ROD_NECROMANCER=死霊術師の杖身
+te.tag.ROD_NECROMANCER=邪悪なVis貯蔵庫
+te.text.ROD_NECROMANCER.1=枯渇した杖を充填するためのオーラ節を見つける作業は厄介だといつも感じていた。これを改善するため、死者のエネルギーをより効率的に利用する杖身を開発した。<BR><BR>死んだモンスターの残骸から集めたVisオーブからは2倍のVisが得られ、杖を素早く充填できる。残念なことに、この杖に注入された闇のエネルギーは、他の形のVisを受け付けない。オーラ節を吸収したり、他の手段でVisを得た場合、およそ4分の1が失われる。この杖身はシルバーウッドに匹敵する容量を持ち、使用する杖身を選ぶ際に有力な選択肢となる。
 
 --Necromantic Energy
-te.name.NECROENERGY=Necromantic Energy
-te.tag.NECROENERGY=Energy of the Undead
-te.text.NECROENERGY.1=When infusing using the Necromantic Infusion Altar, a specific quantity of Necromantic Energy is required. This energy can be provided by specific items being sacrificed at the altar, a list of these items is displayed here.
+te.name.NECROENERGY=屍術エネルギー
+te.tag.NECROENERGY=不死者のエネルギー
+te.text.NECROENERGY.1=屍術の注入の祭壇を使って注入をする場合、一定量の屍術エネルギーが必要となる。このエネルギーは特定のアイテムを祭壇に捧ることによって供給される。ここにそのアイテム一覧を示す。
 
 --Necro Infusion
-te.name.NECROINFUSION=Necromantic Infusion
-te.tag.NECROINFUSION=Kali ma! Kali maaa!
-te.text.NECROINFUSION.1=Harnessing the mystical energies of the natural world is all fine and good, but you want to do more. The energy of a living being is something you've wanted to be able to capture for a long time. Finally, that day is here.<BR><BR>By infusing an Arcane Pedestal with evil energies, adorning it with the skulls of the undead, and building a pentagram of candles surrounding the pedestal, you have created an altar that will allow you to fuse items wih evil energies. Right click on this construct with a wand to activate the altar. Right click with items to add them to the altar, shift right click the altar to remove items.
-te.text.NECROINFUSION.2=To infuse an item, simply hit the altar with a wand. Each infusion requires a certain amount of Necromantic Energy, or NE, that can be supplied by sacrificing items that contain NE to the altar. To do this, light a fire on top of the altar and toss in items. When enough NE is supplied, the infusion will complete.
-te.text.NECROINFUSION.3=An example setup for the Necromantic Infusion Altar can be found below.<IMG>thaumicexploration:textures/tabs/altarSetup.png:0:0:255:255:0.5</IMG> The skulls placed on the altar can be from a zombie, skeleton, or wither skeleton.
+te.name.NECROINFUSION=屍術的注入
+te.tag.NECROINFUSION=カーリー・マー！カーリー・マァー！
+te.text.NECROINFUSION.1=自然界の神秘的なエネルギーを利用するのは素晴らしいことだが、もっとやりたいことがある。長い間、生体のエネルギーを捕獲したいと考えていた。ついにその日がやってきたのだ。<BR><BR>神秘の台座に邪悪なエネルギーを注入し、アンデッドの頭蓋骨で飾りつけ、台座を囲むようにろうそくで五芒星を作ることで、邪悪なエネルギーとアイテムを融合させられる祭壇を作り上げた。この構造体を杖で右クリックすると祭壇が活性化する。アイテムを持って祭壇を右クリックするとアイテムが追加され、祭壇をシフト右クリックするとアイテムが取り除かれる。
+te.text.NECROINFUSION.2=アイテムを注入するには、杖で祭壇を叩くだけでよい。注入には一定量の屍術エネルギー (Necromantic Energy、NE) が必要で、NEを含むアイテムを祭壇に捧げることで供給できる。これを行うには、祭壇の上に火を灯し、アイテムを投げ入れる。十分な量のNEが供給されると、注入が完了する。
+te.text.NECROINFUSION.3=屍術的注入の祭壇のセットアップ例を以下に示す。<IMG>thaumicexploration:textures/tabs/altarSetup.png:0:0:255:255:0.5</IMG>祭壇に置く頭蓋骨はゾンビ、スケルトン、ウィザースケルトンのいずれでもよい。
 
 --Taint Basics
-te.name.TAINTBASICS=Taint
-te.tag.TAINTBASICS=Evil magic
-te.text.TAINTBASICS.1=Sometimes, Thaumaturgy goes horribly wrong. Miracles become twisted calamities and the very landscape twists into hideous forms. Tainted Lands are places infected by the sick runoff of magical workings, flux. Local flora and fauna become warped and mutated into forms hostile to normal life and the very ground of a tainted land infects those who tread upon its pulsing fibres.
-te.text.TAINTBASICS.2=Tainted Lands can be found naturally in the world, but can also form when a careless Thaumaturge allows flux goo to stagnate for too long. They are recognizable by their telltale purple fibres and bright violet stalks. Left alone, the tainted land will gradually extend its tendrils outwards, infecting more and more of the surrounding land. Dirt becomes thick, pulpy Tainted Soil while trees and other natural materials are slowly covered in fibres and converted into structurally unsound crust which can collapse or melt into flux goo at any moment.
+te.name.TAINTBASICS=汚染
+te.tag.TAINTBASICS=邪悪な魔法
+te.text.TAINTBASICS.1=時として、魔導学は恐ろしく失敗することもある。奇跡は歪んだ災難となり、風景は醜悪な姿へと変貌する。汚染された地は、魔法の作用における病的な流出物、すなわちフラックスに感染した場所である。その地の動植物は歪み、通常の生命に敵対的な形態へと変異する。そして汚染された地の地面そのものが、その脈打つ繊維を踏む者に感染するのだ。
+te.text.TAINTBASICS.2=汚染された地は自然にも存在するが、不注意な魔導師が液体フラックスを長く滞留させた場合にも形成される。紫色の繊維と鮮やかな紫色の茎が特徴だ。放置しておくと、汚染された地は徐々にその蔓を伸ばし、周囲の土地をどんどん感染させていく。土は肉厚で紫色の"汚染された土壌"となる。樹木やその他の自然物は徐々に繊維に覆われ、構造的に不安定な地殻へと変化し、いつ崩壊するか、融解して液体フラックスになるかわからない状態になる。
