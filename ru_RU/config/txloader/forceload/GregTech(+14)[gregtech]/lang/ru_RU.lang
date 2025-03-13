@@ -53,8 +53,8 @@ item.gt.propolis.name=Прополис
 tile.gt.dronerender.name=Drone Renderer
 
 # GT++ items
-item.GTPP.air_intake_hatch.name=Air Intake Hatch
-item.GTPP.catalyst_housing.name=Catalyst Housing
+item.GTPP.air_intake_hatch.name=Воздухозаборный шлюз
+item.GTPP.catalyst_housing.name=Катализаторное хранилище
 
 # Air Filter
 item.GTPP.air_filter.name=Воздушный фильтр
@@ -162,7 +162,7 @@ GT5U.MBTT.Structure.SeeStructure1=Чтобы увидеть структуру, 
 GT5U.MBTT.Structure.SeeStructure2=Голограммный проект на контроллере!
 
 GT5U.MBTT.subchannel=Использует подканал §6%s§r§7 для §6%s
-GT5U.tooltip.channelvalue=Use value §6%d§r§7 for sub channel §6%s
+GT5U.tooltip.channelvalue=Используйте значение §6%d§r§7 ля подканала §6%s
 
 GT5U.cracker.io_side=Входные/Выходные шлюзы должны быть на противоположных сторонах!
 
@@ -415,7 +415,7 @@ GT5U.machines.digitaltank.inputfromoutput.tooltip=Ввод жидкости со
 GT5U.machines.select_circuit=Настроить схему
 GT5U.machines.select_circuit.tooltip=Слот призрачной схемы
 GT5U.machines.select_circuit.tooltip.configuration=§aConfiguration: §f%s§r
-GT5U.machines.select_circuit.tooltip.configuration.none=None
+GT5U.machines.select_circuit.tooltip.configuration.none=Нет
 GT5U.machines.select_circuit.tooltip.1=§7ЛКМ/ПКМ/прокрутка для перемещения по списку
 GT5U.machines.select_circuit.tooltip.2=§7Shift+ЛКМ, чтобы открыть интерфейс
 GT5U.machines.select_circuit.tooltip.3=§7Shift+ПКМ чтобы очистить
@@ -591,7 +591,7 @@ GT5U.machines.betterjukebox.loop.tooltip=Loop mode (keep discs in input inventor
 GT5U.machines.betterjukebox.shuffle.tooltip=Shuffle mode (play random discs instead of in order)
 GT5U.machines.betterjukebox.headphonesbound=Наушники привязаны к проигрывателю
 GT5U.machines.betterjukebox.headphonesunbound=Shift-клик на электрическом проигрывателе для привязки наушников
-GT5U.machines.computation_hatch.computation=Computation
+GT5U.machines.computation_hatch.computation=Вычисление
 GT5U.machines.laser_hatch.amperage=Ампераж
 GT5U.machines.hatch_output.lockfluid.label=Закреплено
 GT5U.machines.hatch_output.lockfluid.empty=None
@@ -642,10 +642,10 @@ GT5U.gui.button.drone_showLocalName=Показать локализованно�
 GT5U.gui.button.toggle_output_slot_lock=Toggle output slot
 GT5U.gui.button.power_panel=Open Power Panel
 GT5U.gui.button.max_parallel=Always use maximum
-GT5U.gui.text.rangedvalue=Range: %s-%s
+GT5U.gui.text.rangedvalue=Радиус: %s-%s
 GT5U.gui.text.lockedvalue=Locked: %s
 GT5U.gui.text.success=§aОбработка рецепта
-GT5U.gui.text.progress=§fProgress:
+GT5U.gui.text.progress=§fПрогресс:
 GT5U.gui.text.generating=§aГенерация энергии
 GT5U.gui.text.no_recipe=§7Подходящий рецепт не найден
 GT5U.gui.text.item_output_full=§7Недостаточно места для вывода предметов
@@ -658,9 +658,9 @@ GT5U.gui.text.no_lubricant=§7Смазка не найдена
 GT5U.gui.text.no_coolant=§7Хладагент не найдена
 GT5U.gui.text.cycle_idle=§6Waiting for cycle to start
 GT5U.gui.text.fuel_quality_too_high=§7Качество топлива слишком высокое для работы без усиления
-GT5U.gui.text.data_stick.saved=Saved Config to Data Stick
-GT5U.gui.text.data_stick.loaded=Loaded Config from Data Stick
-GT5U.gui.text.data_stick.invalid=Invalid Data Stick configuration
+GT5U.gui.text.data_stick.saved=Настройки сохранены на флешку
+GT5U.gui.text.data_stick.loaded=Настройки загружены с флешки
+GT5U.gui.text.data_stick.invalid=Неверная настройка флешки
 GT5U.gui.text.no_data_sticks=§7Флешки не найдены
 GT5U.gui.text.bio_upgrade_missing=§7Для запуска рецепта требуется биоапгрейд
 GT5U.gui.text.nanites_missing=§7Отсутствует нанит
@@ -728,14 +728,14 @@ GT5U.gui.text.critical_ph_value=pH превысил критическое зн�
 GT5U.gui.text.heat_sensor=Heat threshold
 GT5U.gui.text.no_maintenance=Missing Maintenance Hatch
 GT5U.gui.text.no_muffler=Missing Muffler Hatch
-GT5U.gui.text.pulse_mode=Pulse Mode
+GT5U.gui.text.pulse_mode=Импульсный режим
 GT5U.gui.text.no_wafer=No wafer was found
 GT5U.gui.text.low_wafer_tier=Found wafer is too low tier for the recipe
 GT5U.gui.text.not_enough_wafer=Found wafer but recipe requires more than given
-GT5U.gui.text.static_mode=Static Mode
+GT5U.gui.text.static_mode=Статический режим
 GT5U.gui.text.unneeded_muffler=Does not accept Muffler Hatches
 GT5U.gui.missing_casings=Too few casings: needs %s but has %s
-GT5U.gui.missing_hatch=Missing %s
+GT5U.gui.missing_hatch=Отсутствует %s
 GT5U.gui.too_many_hatches=Too many %ses (max %s)
 GT5U.gui.text.power_panel=Power Control Panel
 GT5U.gui.text.too_uncertain=Too Uncertain.
@@ -822,7 +822,7 @@ gt.behaviour.paintspray.infinite.tooltip.ctrl_mac=Команда
 gt.behaviour.trowel.tooltip1=Places a random block from your hotbar
 gt.behaviour.trowel.tooltip2=§o"Don't forget to bring a trowel!"§r -§cQuerns§r
 
-gt.behaviour.switch_mode.tooltip=Shift+Rclick to change mode
+gt.behaviour.switch_mode.tooltip=Для смены режима нажмите Shift + ПКМ
 
 GT5U.hatch.disableFilter.true=Входной фильтр §aВыкл§r
 GT5U.hatch.disableFilter.false=Входной фильтр §aВкл§r
@@ -883,14 +883,14 @@ GT5U.nei.large_boiler.tungstensteel_boiler.ban=Tungstenst. Boiler: Not allowed
 GT5U.nei.large_boiler.solid=Not all solid fuels are listed.\nAny burnable item with a burn\ntime of at least %d / %d\nwill burn in a Large Bronze\n/ Steel Boiler, respectively.
 GT5U.nei.nuclear.model.mox=MOX Model
 GT5U.nei.nuclear.model.uranium=Uranium Model
-GT5U.nei.nuclear.neutron_pulse=Neutron Pulse: %d
+GT5U.nei.nuclear.neutron_pulse=Нейтронный импульс: %d
 GT5U.nei.nuclear.heat.0=Температура: %.1f * n1 * (n1 + 1)
 GT5U.nei.nuclear.heat.1=Температура: %.1f * (%d + n1) * (%d + n1)
 GT5U.nei.nuclear.energy=Энергия: %.1f + n2 * %.1f EU/t
 GT5U.nei.nuclear.breeder.neutron_reflecting=Neutron reflecting Breeder
 GT5U.nei.nuclear.breeder.heat_neutral=Heat neutral Breeder
 GT5U.nei.nuclear.breeder.reactor_hull_heat=Every %d reactor hull heat\nincrease speed by %d00%%
-GT5U.nei.nuclear.breeder.required_pulse=Required pulses: %d
+GT5U.nei.nuclear.breeder.required_pulse=Требуемые импульсы: %d
 
 
 GT5U.config.colormodulation=Цветовой модулятор
@@ -1029,7 +1029,7 @@ GT5U.waila.multiblock.status.incomplete=** НЕЗАВЕРШЕННАЯ СТРУК
 GT5U.waila.multiblock.status.efficiency=  Эффективность: %f%%
 GT5U.waila.multiblock.status.has_problem=** HAS PROBLEMS **
 GT5U.waila.multiblock.status.running_fine=Running Fine
-GT5U.waila.multiblock.status.cpu_load=Average CPU load of ~%s ns
+GT5U.waila.multiblock.status.cpu_load=Средняя загрузка ЦП ~%s нс
 GT5U.waila.multiblock.status.locked_recipe=Locked Recipe:
 
 achievement.flintpick=Первые инструменты
@@ -2042,17 +2042,17 @@ GTPP.tooltip.ore.found=Найдено:
 GTPP.tooltip.ore.unknown=- Неизвестно
 GTPP.tooltip.block.mining_level=Уровень добычи: %d
 GTPP.tooltip.block.contains=Содержит:
-GTPP.tooltip.meta_special.quantum_stability=Provides quantum stability
-GTPP.tooltip.meta_special.quantum_modulation=Provides quantum modulation
+GTPP.tooltip.meta_special.quantum_stability=Обеспечивает квантовую стабильность
+GTPP.tooltip.meta_special.quantum_modulation=Обеспечивает квантовую модуляцию
 GTPP.tooltip.meta_food.unless_starving=I wouldn't eat this unless I was starving
 GTPP.tooltip.meta_food.better_cooked=Doesn't look any better cooked
 GTPP.tooltip.meta_food.warm_touch=Warm to the touch
 
 # GTPP structure hints
-GTPP.tooltip.structure.anvil=Anvil
-GTPP.tooltip.structure.data_orb_repository=Data Orb Repository
-GTPP.tooltip.structure.many_bus_hatch=Input Bus, Output Bus, Input Hatch, Output Bus, Energy Hatch
-GTPP.tooltip.structure.rotor_assembly=Rotor Assembly
+GTPP.tooltip.structure.anvil=Наковальня
+GTPP.tooltip.structure.data_orb_repository=Хранилище сфер данных
+GTPP.tooltip.structure.many_bus_hatch=Входной люк, Выходной люк, Входной шлюз, Выходной люк, Энерговвод
+GTPP.tooltip.structure.rotor_assembly=Узел ротора
 
 GT5U.tooltip.pollution.produces=Производит %d загрязнения/секунду
 GT5U.tooltip.pollution.produces.multiblock=Полный мультиблок производит %d загрязнения/секунду
@@ -2061,40 +2061,40 @@ GT5U.tooltip.pollution.produces.rocket.ignited=При поджигании пр�
 GT5U.tooltip.pollution.produces.rocket.flying=Производит %d загрязнения/секунду во время полета
 
 # GT structure hints
-GT5U.tooltip.structure.data_access_hatch=Data Access Hatch
-GT5U.tooltip.structure.electromagnet_housing=Electromagnet Housing
-GT5U.tooltip.structure.laser_source_hatch=Laser Source Hatch
-GT5U.tooltip.structure.heating_coil=Heating Coil
-GT5U.tooltip.structure.four_item_pipe_casings=4 Item Pipe Casings
-GT5U.tooltip.structure.heat_sensor_hatch=Heat Sensor Hatch
-GT5U.tooltip.structure.degasser_control_hatch=Degasser Control Hatch
-GT5U.tooltip.structure.input_hatch_ozone=Input Hatch (Ozone)
-GT5U.tooltip.structure.input_hatch_water=Input Hatch (Water)
-GT5U.tooltip.structure.output_hatch=Output Hatch
-GT5U.tooltip.structure.ph_sensor_hatch=pH Sensor Hatch
-GT5U.tooltip.structure.input_bus_sodium_hydroxide=Input Bus (Sodium Hydroxide)
-GT5U.tooltip.structure.input_hatch_hydrochloric_acid=Input Hatch (Hydrochloric Acid)
-GT5U.tooltip.structure.input_hatch_coolant=Input Hatch (Coolant)
-GT5U.tooltip.structure.input_hatch_plasma=Input Hatch (Plasma)
-GT5U.tooltip.structure.input_hatch_output_hatch=Input Hatch, Output Hatch
-GT5U.tooltip.structure.lens_housing=Lens Housing
-GT5U.tooltip.structure.lens_indicator=Lens Indicator
+GT5U.tooltip.structure.data_access_hatch=Шлюз доступа к данным
+GT5U.tooltip.structure.electromagnet_housing=Электромагнитное хранилище
+GT5U.tooltip.structure.laser_source_hatch=Источник лазера
+GT5U.tooltip.structure.heating_coil=Нагревательная катушка
+GT5U.tooltip.structure.four_item_pipe_casings=4 Предметных полых корпуса
+GT5U.tooltip.structure.heat_sensor_hatch=Тепловой датчик
+GT5U.tooltip.structure.degasser_control_hatch=Люк управления дегазатором
+GT5U.tooltip.structure.input_hatch_ozone=Входной шлюз (Озон)
+GT5U.tooltip.structure.input_hatch_water=Входной шлюз (Вода)
+GT5U.tooltip.structure.output_hatch=Выходной шлюз
+GT5U.tooltip.structure.ph_sensor_hatch=Датчик pH
+GT5U.tooltip.structure.input_bus_sodium_hydroxide=Входной люк (Гидроксид натрия)
+GT5U.tooltip.structure.input_hatch_hydrochloric_acid=Входной шлюз (Соляная кислота)
+GT5U.tooltip.structure.input_hatch_coolant=Входной шлюз (Хладагент)
+GT5U.tooltip.structure.input_hatch_plasma=Входной шлюз (Плазма)
+GT5U.tooltip.structure.input_hatch_output_hatch=Входной шлюз, Выходной шлюз
+GT5U.tooltip.structure.lens_housing=Хранилище линз
+GT5U.tooltip.structure.lens_indicator=Индикатор линз
 
-GT5U.tooltip.fluid.registry=Registry: %s
+GT5U.tooltip.fluid.registry=Реестр: %s
 GT5U.tooltip.fluid.amount=Amount: %s L
-GT5U.tooltip.fluid.temperature=Temperature: %s K
-GT5U.tooltip.fluid.stat=State: %s
-GT5U.tooltip.fluid.stat.gas=Gas
-GT5U.tooltip.fluid.stat.liquid=Liquid
+GT5U.tooltip.fluid.temperature=Температура: %s K
+GT5U.tooltip.fluid.stat=Состояние: %s
+GT5U.tooltip.fluid.stat.gas=Газ
+GT5U.tooltip.fluid.stat.liquid=Жидкость
 
 GT5U.tooltip.comb.ban_forestry=Forestry can't process it
 GT5U.tooltip.mega_apiary.only_producer=Will only be produced in mega Apiary
 
-GT5U.tooltip.electric.tier=Tier: %d
-GT5U.tooltip.electric.tier.s=Tier: %s
+GT5U.tooltip.electric.tier=Тир: %d
+GT5U.tooltip.electric.tier.s=Тир: %s
 
-gt.coilheattooltip=Base Heating Capacity =
-gt.coilunittooltip= Kelvin
+gt.coilheattooltip=Теплопроизводительность =
+gt.coilunittooltip= Кельвинов
 
 # Achievements
 
