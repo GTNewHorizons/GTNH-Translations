@@ -229,13 +229,13 @@ item.transcendentBloodOrb.name=Трансцендентальный кровав
 item.itemMailCatalogue.name=Mail Order Catalogue
 item.inputRoutingFocus.name=Фокус направления входа
 item.bloodMagicBaseItem.EnderShard.name=Осколок Края
-item.outputRoutingFocus.name=Output Routing Focus
+item.outputRoutingFocus.name=Фокус направления выхода
 item.outputRoutingFocus.default.name=Обычный фокус направления выхода
 item.outputRoutingFocus.modItem.name=Фокус направления выхода (ModItem)
 item.outputRoutingFocus.ignMeta.name=Фокус направления выхода (Ignore Meta)
 item.outputRoutingFocus.matchNBT.name=Фокус направления выхода (MatchNBT)
 item.outputRoutingFocus.global.name=Фокус направления выхода (Global)
-item.dawnScribeTool.name=Elemental Inscription Tool: Dawn
+item.dawnScribeTool.name=Инструмент начертания элементаля: Рассвет
 item.boundHelmetEarth.name=Земляной омега шлем
 item.boundPlateEarth.name=Земляная омега кираса
 item.boundLeggingsEarth.name=Земляные омега поножи
@@ -280,7 +280,7 @@ nei.recipe.meteor.radius=Радиус: %s
 nei.recipe.meteor.chance=Шанс: %s%%
 nei.recipe.meteor.amount=Estimated amount: %s
 nei.recipe.meteor.filler=§7Filler block
-nei.recipe.meteor.reagent=§nRequired reagent§r: %s
+nei.recipe.meteor.reagent=§nТребуется реагент§r: %s
 
 #Rituals
 ritual.AW001Water.name=Ритуал вызова родника
@@ -364,7 +364,7 @@ commands.help.help=Displays the help information for the "/bloodmagic" command.
 
 commands.network.usage=/bloodmagic network [syphon|add|get|fill|cap] player [amount]
 commands.network.help=LP network utilities
-commands.network.syphon.help=Removes the given amount of LP from the given player's LP network.
+commands.network.syphon.help=Удаляет заданное количество LP из сети LP данного игрока.
 commands.network.syphon.success=Успешно извлечено %d LP из %s.
 commands.network.add.help=Добавляет заданное количество LP к сети LP данного игрока. Следуйте стандартным правилам получения LP.
 commands.network.add.success=Успешно добавлено %d LP в сеть LP %s.
@@ -615,12 +615,12 @@ achievement.alchemicalwizardry:trancsendentOrb=OVERPOWERED
 achievement.alchemicalwizardry:trancsendentOrb.desc=Pickup a Transcendent Blood Orb
 
 #G-API Downloading
-bm.versioning.getGAPI=["[BM] You don't have Guide-API installed! Install it to get it to unlock the book! [",{"text":"Download","color":"red","hoverEvent":{"action":"show_text","value":{"text":"Click this to auto-magically download the latest version","color":"red"}},"clickEvent":{"action":"run_command","value":"/bloodmagic-download-g-api"}},"]"]
-bm.versioning.startingDownload=[{"text":"Starting download of %s Please do not remove your hard disk.", "color":"orange"}]
-bm.versioning.doneDownloading=Finished downloading %s Reload your game to update.
-bm.versioning.error=An error has occurred while downloading the mod!
-bm.versioning.downloadedAlready=You have the latest version already, reload your game to update!
-bm.versioning.downloadingAlready=It's downloading! Be patient!
+bm.versioning.getGAPI=["[BM] У вас не установлен Guide-API! Установите его, чтобы разблокировать книгу! [",{"text":"Загрузить","color":"red","hoverEvent":{"action":"show_text","value":{"text":""Нажмите, чтобы автоматически загрузить последнюю версию","color":"red"}},"clickEvent":{"action":"run_command","value":"/bloodmagic-download-g-api"}},"]"]
+bm.versioning.startingDownload=[{"text":"Начало скачивания %s Пожалуйста, не изымайте ваш жёсткий диск.", "color":"orange"}]
+bm.versioning.doneDownloading=Загрузка %s закончена. Перезагрузите игру для обновления.
+bm.versioning.error=Возникла ошибка при скачивании обновления!
+bm.versioning.downloadedAlready=У вас уже установлена ​​последняя версия. Перезагрузите игру, чтобы обновиться!
+bm.versioning.downloadingAlready=Скачивается! Потерпи!
 bm.versioning.disabled=Эта функция отключена.
 
 # Waila localizations
