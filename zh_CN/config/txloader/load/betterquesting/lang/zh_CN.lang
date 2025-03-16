@@ -436,8 +436,8 @@ betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.name=§6§l勘探之力!
 betterquesting.quest.bMKIeFhNQluRks9YzpqEGQ.desc=在你的地图界面(默认按J)的顶上有多个标签页,其中一些十分有用,可以节省你大量的搜索时间!%n%nGT矿脉-此标签页会为你追踪矿脉,要保存矿脉到地图,右键一个自然生成的矿石(有些工具不能右键)%nGT地下流体-这会在之后(MV)帮助你%nTC节点-此标签页会为你追踪神秘时代节点(你得先扫描它们)%n%n[note]贫瘠矿石不是矿脉的一部份,因此无法在地图上显示为矿脉.然而矿脉会在它们的区块里生成额外的贫瘠矿石,因此它们对你的搜索仍然很有用(不是所有贫瘠矿石都生成在矿脉旁,不要被骗了)[/note]%n%n[note]另一个超棒的功能是,你可以在NEI搜索栏中使用高亮模式(双击它),然后转到地图界面,就可以突出显示匹配的未开采矿脉![/note]
 
 # Quest: Sustainable Paper
-betterquesting.quest.bbaqMVmnQFyjDT-CHJKqQQ.name=Sustainable Paper
-betterquesting.quest.bbaqMVmnQFyjDT-CHJKqQQ.desc=Now that you got your first paper, it's time for a better way to get more. With paperbark you can do just that.%n%nOnce grown you can obtain paper by right clicking the logs of the tree. The bark regrows in due time.
+betterquesting.quest.bbaqMVmnQFyjDT-CHJKqQQ.name=可再生纸
+betterquesting.quest.bbaqMVmnQFyjDT-CHJKqQQ.desc=你已经获得了第一批纸,是时候用更好的办法获取更多的纸了.白千层树就可以做到这一点.%n%n右击白千层木即可扒下树皮并获得一张纸.树皮会在一段时间后重新生长.(译者注:可以用骨粉催熟)
 
 # Quest: Your First Flint Sword
 betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.name=§2§l你的第一把燧石剑
@@ -1398,12 +1398,12 @@ betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.name=§5§l让一切井然有序
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.desc=你是否已经厌倦了将模头或模具从压模机或流体固化器中存放到周边容器之中?那么今天就是你的幸运日,因为这些槽位扩展就是为你做这些的!%n%n它们允许你的机器存储一些额外物品,每个格子只能存一个物品.这种覆盖版有三个等级,每种提供不同的存储容量.%n%n基础槽位扩展：9格%n优质槽位扩展：12格%n高级槽位扩展：15格%n%n[note]如果你已经使用了最高级的槽位扩展但空间需求仍未满足,你可以选择在机器上附着更多的槽位扩展覆盖板.[/note]
 
 # Quest: Refined Firestone
-betterquesting.quest.njE33db1TxaiJhEBA16E4A.name=§5§lRefined Firestone§5
-betterquesting.quest.njE33db1TxaiJhEBA16E4A.desc=Cut Firestone is the basic shape for producing Refined Firestone.%nUse a Diamond Lens or Flint Lens for cutting.%nIt is then fired with lava in the EBF.%n%nLastly it is thrown into lava and charged by absorbing lava blocks around it.%nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.%n%n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]
+betterquesting.quest.njE33db1TxaiJhEBA16E4A.name=§5§l精炼火石§5
+betterquesting.quest.njE33db1TxaiJhEBA16E4A.desc=使用切割活石作为原料,你就能制作出精炼火石.%n使用钻石或隧石透镜进一步切割它.%n接着,在工业高炉里将其和岩浆一起煅烧.%n%n最后将它丢进岩浆,它会吸收周围的岩浆源并充能.%n想要将其充满,一共需要5000桶岩浆,所以你需要寻找一个大型的岩浆湖,下界就是一个不错的选择.%n%n[note]如果精炼火石碎裂,你可以将其放回工业高炉中煅烧来修复它,并用岩浆再次充能.[/note]
 
 # Quest: Precision Laser Engraver
-betterquesting.quest.vV8Pw_lTTSiMmWOLqkyIWg.name=§5§lPrecision Laser Engraver
-betterquesting.quest.vV8Pw_lTTSiMmWOLqkyIWg.desc=The Precision Laser Engraver does not have many functions in LV, but is needed to create Cut Firestone which can later be filled with lava.
+betterquesting.quest.vV8Pw_lTTSiMmWOLqkyIWg.name=§5§l精密激光蚀刻机
+betterquesting.quest.vV8Pw_lTTSiMmWOLqkyIWg.desc=精密激光蚀刻机在LV阶段没有多少用途,但之后你需要用它来制造切割火石.进一步将其充满岩浆即可制造精炼火石
 
 
 ## Quest Line: Tier 2 - MV
@@ -3246,7 +3246,7 @@ betterquesting.quest.tu5Lk_jKQR-qgTYD1o3sLg.name=§b§l在LuV阶段获取钐
 betterquesting.quest.tu5Lk_jKQR-qgTYD1o3sLg.desc=如果你搞定了ZPM能源（或者LuV能源仓双仓升压），这个方法应该会更好。%n%n熔融氯化钐，再用镧在蒸馏塔中还原氯化钐。然后电解回收氯化镧。
 
 # Quest: More Samarium!
-betterquesting.quest.u_-8t2IvRnydvmUx_qdYuA.name=§b§l更多钐 !
+betterquesting.quest.u_-8t2IvRnydvmUx_qdYuA.name=§b§l更多钐!
 betterquesting.quest.u_-8t2IvRnydvmUx_qdYuA.desc=如果你搞到了稳定的钐矿来源，精处理这些钐矿资源应该是获取钐的最好方式。%n%n第一步先准备钐精粉或粉碎钐矿石（现在你应该还得不到钐矿石），用在煮解池里硝酸煮溶这些矿资源，得到钐稀土浊溶液。钍和磷则以固体渣粉的形式保留下来。%n%n然后转移到溶解罐中继续用硝酸浸泡，将不溶的粉末仔细过滤出来，主要是铈。%n%n然后加水调节pH值。
 
 
@@ -4035,7 +4035,7 @@ betterquesting.quest.Yxrhi0z7SUuvUT3BrsENww.desc=活性晶体芯片更具效率�
 
 # Quest: A Blast to the Past
 betterquesting.quest._vOu6ZYdRiOqLN_5-uBU_A.name=对过去苦难之路的一瞥
-betterquesting.quest._vOu6ZYdRiOqLN_5-uBU_A.desc=现在你已经拥有了生物处理器主机,你已经解锁了星门的第一个奖杯!%n是的,星门有多个奖杯,星门配方的每一次主要迭代都有一个.%n这些奖杯只是,嗯,奖杯,如果你想把它们的成本和现在星门的标准来比较一下,你可以尝试制作它们.%n要完成这些任务,你必须提交两座星门的材料.%n%n§3现在,让我给你上一堂简短的历史课,让你了解GT:NH的过去.%n%n那是2020年,当时的生物处理器主机几乎是GTNH发展的终点,UHV以上的材料大多数要么不存在,要么无法合成.这也是你开始为了制作星门堆叠机器的的时间点,因为星门的等级也是UHV.从技术上讲,UEV部件是可以制作的,但它们唯一的用途是制作单方块机器放在处理阵列中(在那时处理阵列最多只能容纳16台UEV机器)和漆黑之门.UEV-UMV能源仓是可以制作的,但它们的配方只是简单的外壳+导线工作台配方%n......对于UHV+内容来说,也仅此而已.%n随着虚空采矿机的加入,以前被认为不可能的事情,一套星门,开始显得真的可以实现.具体来说,是要§o做§3一套星门,而非只是像其他人之前做的一样找到它们.%n%n其中一个名为§aGigaplex§3的小组全力以赴,最终成功完成了任务,证明了只要有足够的决心,制作星门是可能的.%n%n因此,在§a2021年2月16日§3,第一套人造的星门诞生了.%n%n附注：如果您想尽可能忠实于曾经的挑战,请尝试在不使用任何当时不存在的现代功能的情况下完成此任务.以下是当时不存在的主要功能的不完全列表(排名不分先后)：%n-PCB工厂,太空电梯,部件装配线,进阶装配线,精密组装机,工业屠宰场,极限工业温室,压缩聚变堆,巨型化学反应釜,巨型合金冶炼炉%n-任何与蜜蜂有关的GT机器%n-任何UEV及以上的多方块机器%n-XL涡轮机,硅岩燃料,大型源质发电机%n-低于1t的超频,批处理,多方块机器内置的溢出保护%n-并行超过64的处理阵列(如果使用UEV机器,它们会自动降级为UHV)%n-ME请求器,AE2FC,存储输入总线/仓,样板输入总线,ME输出总线/仓,不需要套娃的AE组件配方%n%n-使用Shift一键将配方写入AE模板(呃啊)%n-游戏前中期的QoL,例如单方块机器GUI中的虚拟编程电路,小地图可见的矿脉,使用螺丝刀重新编程电路,在制作装配线配方之前在NEI中看到它们的合成等等%n%n附注中的附注：这个任务故意漏掉了混沌电容库,因为混沌核心配方现在需要时空,但混沌电容库配方自那以后没有任何变化.总而言之,这些电容库的成本在当时完全可以忽略不计,现在也是如此,它们只是作为星门的魔法门而已.
+betterquesting.quest._vOu6ZYdRiOqLN_5-uBU_A.desc=现在你已经拥有了生物处理器主机,你已经解锁了星门的第一个奖杯!%n是的,星门有多个奖杯,星门配方的每一次主要迭代都有一个.%n这些奖杯只是,嗯,奖杯,如果你想把它们的成本和现在星门的标准来比较一下,你可以尝试制作它们.%n要完成这些任务,你必须提交两座星门的材料.%n%n§3现在,让我给你上一堂简短的历史课,让你了解GT:NH的过去.%n%n那是2020年,当时的生物处理器主机几乎是GTNH发展的终点,UHV以上的材料大多数要么不存在,要么无法合成.这也是你开始为了制作星门堆叠机器的的时间点,因为星门的等级也是UHV.从技术上讲,UEV部件是可以制作的,但它们唯一的用途是制作单方块机器放在处理阵列中(在那时处理阵列最多只能容纳16台UEV机器)和漆黑之门.UEV-UMV能源仓是可以制作的,但它们的配方只是简单的外壳+导线工作台配方%n......对于UHV+内容来说,也仅此而已.%n随着虚空采矿机的加入,以前被认为不可能的事情,一套星门,开始显得真的可以实现.具体来说,是要§o做§3一套星门,而非只是像其他人之前做的一样找到它们.%n%n其中一个名为§aGigaplex§3的小组全力以赴,最终成功完成了任务,证明了只要有足够的决心,制作星门是可能的.%n%n因此,在§a2021年2月16日§3,第一套人造的星门诞生了.%n%n附注：如果您想尽可能忠实于曾经的挑战,请尝试在不使用任何当时不存在的现代功能的情况下完成此任务.以下是当时不存在的主要功能的不完全列表(排名不分先后)：%n-PCB工厂,太空电梯,部件装配线,进阶装配线,精密组装机,工业屠宰场,极限工业温室,压缩聚变堆,巨型化学反应釜,巨型合金冶炼炉%n-任何与蜜蜂有关的GT机器%n-任何UEV及以上的多方块机器%n-XL涡轮机,硅岩燃料,大型源质发电机%n-低于1t的超频,批处理,多方块机器内置的溢出保护%n-ME请求器,AE2FC,存储输入总线/仓,样板输入总线,ME输出总线/仓,不需要套娃的AE组件配方%n%n-使用Shift一键将配方写入AE模板(呃啊)%n-游戏前中期的QoL,例如单方块机器GUI中的虚拟编程电路,小地图可见的矿脉,使用螺丝刀重新编程电路,在制作装配线配方之前在NEI中看到它们的合成等等%n%n附注中的附注：这个任务故意漏掉了混沌电容库,因为混沌核心配方现在需要时空,但混沌电容库配方自那以后没有任何变化.总而言之,这些电容库的成本在当时完全可以忽略不计,现在也是如此,它们只是作为星门的魔法门而已.
 
 
 ## Quest Line: Tier 10 - UEV
@@ -4116,7 +4116,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.desc=其构造是你无法理解的.
 
 # Quest: Dragonblood
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.name=龙血
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.desc=你需要龙血制造第一批海珀珍.也许你已经有了些龙血,是很久以前击杀末影龙掉落的,正躺在某个地方.不过还有两个其他选择:蜜蜂和龙研聚合装置(DE Fusion Crafter).%n%n对于蜜蜂路线,你需要深入研究蜜蜂培育线,但说不定你已经完成了?不论如何,看看"蜜蜂育种"任务栏吧.%n%n在龙研聚合装置中有两个配方.较好的一个要用到巫术mod的无限之蛋.如果你没有巫术进度的话,就只能用普通龙蛋,使用较弱的配方了.%n%n只要你有了些海珀珍,就能以此开始在超维度等离子锻炉(DTPF)中制造更多,而不需要龙血了.我不知道为何这么设计,要抱怨就找Colen吧.不过,你最终还是需要更多的龙血,以制造UMV超导.%n%n%n[note]实际上还有另一种方法获得龙血,这与龙研聚合装置的配方相似,不过是用搅拌机.它的速度更慢,资源利用率更低.尤其要注意的是,这个配方会消耗龙蛋.所以只有在你需要完全避开魔法和蜜蜂线的时候,才会使用这个配方.[/note]%n%n[note]流体任务目标只要求你物品栏内某个容器中有相应的流体.(单元、通用流体单元、大型单元、容量瓶,等等.)[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.desc=你需要龙血制造第一批海珀珍.也许你已经有了些龙血,是很久以前击杀末影龙掉落的,正躺在某个地方.不过还有两个其他选择:蜜蜂和龙研聚合装置.%n%n对于蜜蜂路线,你需要深入研究蜜蜂培育线,但说不定你已经完成了?不论如何,看看"蜜蜂育种"任务栏吧.%n%n在龙研聚合装置中有两个配方.较好的一个要用到巫术mod的无限之蛋.如果你没有巫术进度的话,就只能用普通龙蛋,使用较弱的配方了.%n%n只要你有了些海珀珍,就能以此开始在超维度等离子锻炉中制造更多,而不需要龙血了.我不知道为何这么设计,要抱怨就找Colen吧.不过,你最终还是需要更多的龙血,以制造UMV超导.%n%n[note]实际上还有另一种方法获得龙血,这与龙研聚合装置的配方相似,不过是用搅拌机.它的速度更慢,资源利用率更低.尤其要注意的是,这个配方会消耗龙蛋.所以只有在你需要完全避开魔法和蜜蜂线的时候,才使用这个配方.[/note]%n%n[note]只是个提醒：流体任务目标只要求你物品栏内某个容器中有相应的流体.(单元、通用流体单元、大型单元、容量瓶,等等.)[/note]
 
 # Quest: Infinity Boots
 betterquesting.quest.AzTPKiXuRWaBTOFhTeV83Q.name=无尽靴子
@@ -4394,7 +4394,7 @@ betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=随着对诸神之锻炉的完�
 
 # Quest: Convergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=维度收敛
-betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.desc=在长时间运行你的DTPF[note](8小时)[/note]之后,可以让多维空间完美对齐.%n%n凭借你新获得的技术,你现在可以完美同步地利用这些空间,让你的等离子锻炉以难以置信的速度运行.%n%n使用[note]超维校准矩阵[/note]可以让DTPF以无损超频的方式运行.要做到这一点,您需要让DTPF达到最大效率状态,而额外的电力成本可以通过使用更多相同的催化剂来抵消.%n%n总的来说,它的效率更高,而且完全值得.%n%n这个过程极其耗费催化剂.确保生产足够的催化剂来维持它保持运转.%n%n对于没有催化剂的配方,必须在GUI中右击维度收敛按钮来指定催化剂,否则将默认为粗制超维度催化剂.[/note]%n%n[note]写给好奇者的数学计算：%n%n为了弄清楚后台到底发生了什么.下面以一个例子来解释额外催化剂消耗值是如何计算的：%n%n所选的示例配方是使用平凡超维度催化剂的熔融中子配方.以64AUMV(8,589,934,592EU/t)运行.%n%n在不使用超频或DTPF催化剂减免的情况下.每次配方运行使用了14,753升平凡超维度催化剂和36,484,545,600EU.催化剂减免触发后.催化剂用量减半.即7,376.5升催化剂.四舍五入后为7,376升.由于机器配备了64AUMV.配方超频3次.即每个配方实际使用36,484,545,600*2^3=291,876,364,800EU.%n%n知道了OC的数量和配方的基本电压.就可以计算出每个配方在有完美OC和没有完美OC的情况下所需EU的差值.即291,876,364,800-36,484,545,600=255,391,819,200的额外EU使用(由于不完美OC而多使用的EU).%n%n要得出所需的额外催化剂值.必须将这一额外的EU值除以相关催化剂的能量密度.在本例中为平凡超维度催化剂.%n%n除数等于255,391,819,200EU/66,768,460EU/L=3,825.037L.四舍五入为每个配方额外需要3,825L平凡超维度催化剂.在最后一步中.该值必须乘以0.5.因为它会受到催化剂减免的影响.这意味着配方中额外添加的催化剂总量为3,825升*0.5=1,912.5升.四舍五入为1,912升.%n%n用一个公式来概括：%n每个配方的额外催化剂数量=(B*((2^x)-1))/2L%n其中：%nB是配方的基本EU消耗%nx是超频次数%nL是相关催化剂的EU/L[/note]
+betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.desc=在长时间运行你的DTPF[note](8小时)[/note]之后,可以让多维空间完美对齐.%n%n凭借你新获得的技术,你现在可以完美同步地利用这些空间,让你的等离子锻炉以难以置信的速度运行.%n%n超维校准矩阵可以让DTPF以无损超频的方式运行.要做到这一点,您需要让DTPF达到最大催化剂减免状态,而额外的电力成本可以通过使用更多与配方所需相同的催化剂来抵消.%n%n总的来说,它的效率更高,而且完全值得.%n%n这个过程极其耗费催化剂.确保生产足够的催化剂来维持其运转.%n%n对于没有催化剂的配方,必须在GUI中右击维度收敛按钮来指定催化剂,否则将默认为粗制超维度催化剂.[/note]%n%n[note]写给好奇者的数学计算：%n%n为了弄清楚后台到底发生了什么,下面以一个例子来解释额外催化剂消耗值是如何计算的：%n%n所选的示例配方是使用平凡超维度催化剂的熔融中子配方,以64AUMV(8,589,934,592EU/t)运行.%n%n在不使用超频或DTPF催化剂减免的情况下.每次配方运行使用了14,753升平凡超维度催化剂和36,484,545,600EU.有了催化剂减免,催化剂用量减半,即7,376.5L催化剂,取整后为7,376L.由于机器被供应了64AUMV,配方超频3次,即配方每次实际使用36,484,545,600*2^3=291,876,364,800EU.%n%n知道了超频次数和配方的基础电压,就可以计算出配方每次在有无损超频和没有无损超频的情况下所需EU的差值,本例中有损超频造成的额外EU是291,876,364,800-36,484,545,600=255,391,819,200EU.%n%n要得出所需的额外催化剂量,需要将这一额外的EU值除以对应催化剂(本例中为平凡超维度催化剂)的能量密度.%n%n商值等于255,391,819,200EU/66,768,460EU/L=3,825.037L,取整为配方每次额外需要3,825L平凡超维度催化剂.在最后一步中,该值需要乘以0.5,因为它会受到催化剂减免的影响.这意味着配方中额外添加的催化剂总量为3,825升*0.5=1,912.5升,取整为1,912升.%n%n用一个公式来概括：%n每个配方的额外催化剂数量=(B*((2^x)-1))/2L%n其中：%nB是配方的基础EU消耗%nx是超频次数%nL是对应催化剂的EU/L[/note]
 
 # Quest: What Do I Use This Stuff On?
 betterquesting.quest._Cwgzi_VR5ChWJSIIrzUvg.name=我能用这东西干什么？
@@ -6057,7 +6057,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAALQ.desc=576桶的容量,这应该够你
 
 # Quest: You Are Now Prepared, Hopefully!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAASg.name=§f§k§f§l§6§l希望你已经准备好了!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAASg.desc=不论你的冶炼炉是从哪来的,反正你已经有了.做些铸件吧!%n%n如果你找不到地表的铝矿砂砾,那么可以将铝矿莓种植于作物架上,然后熔炼获得用于制作铸模的铝.%n%nPS：这本书告诉你的是一个3X3的底座,但是你可以用一个较小的底座搭建一个冶炼炉,更高更大的冶炼炉可以同时做更多的物品以节约燃料.%n%n[note]在GTNH冶炼炉处理矿石没有双倍产出.稍后会有机器帮你实现类似的效果.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAASg.desc=不论你的冶炼炉是从哪来的,反正你已经有了.做些铸件吧!%n%n如果你找不到地表的锌矿砂砾,可以在任务书的硬币、硬币、硬币章节购买.%n%n注:匠魂宝典中写的是3X3的底座,但是你可以用一个较小的底座搭建一个冶炼炉,更高更大的冶炼炉可以同时做更多的物品以节约燃料.%n%n[note]在GTNH里,冶炼炉处理矿石没有双倍产出.稍后会有机器帮你实现类似的效果.[/note]
 
 # Quest: The Water Dilemma
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAASw.name=§6§l缺水危机
@@ -6634,7 +6634,7 @@ betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=当你到达IV机械国度,你�
 
 # Quest: See You Lather
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=我们稍后再见(See You Lather)
-betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=一刻也没有为建造AE系统所需的大量石英杆发愁,立马赶到现场的是工业精密车床!%n%n这台多方块的并行取决于物品管道方块和电压等级：%n并行 = 物品管道方块等级 + 2 * 电压等级,其中LV为1.%n%n此外,所有配方都会根据此公式获得速度提升：%n速度提升 = ( 物品管道方块速度系数 + 电压等级 ) / 4%n或者等同于：%n配方运行时间 = 4 / ( 物品管道方块速度系数 + 电压等级 ).%n[note]请注意：如果你提供了低等级的物品管道方块或者电压等级,配方运行速度会变得[warn]相    当    慢[/warn].[/note]%n%n物品管道方块的并行和速度系数会在后面列出：%n锡：并行 1 ,速度系数 0.75%n黄铜：并行 1 ,速度系数 0.8%n琥珀金：并行 2 ,速度系数 0.9%n铂：并行 4 ,速度系数 1%n锇：并行 8 ,速度系数 1.5%n量子：并行 12 ,速度系数 2%n通流琥珀金：并行 16 ,速度系数 3%n黑钚：并行 32 ,速度系数 4
+betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=一刻也没有为建造AE系统所需的大量石英杆发愁,立马赶到现场的是工业精密车床!%n%n这台多方块的并行取决于物品管道方块和电压等级：%n并行数 = 物品管道方块等级*8%n%n比相同电压的单方块机器快300%%%n%n只需要使用配方要求功率的80%%
 
 # Quest: Steam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=蒸汽搅拌机?
@@ -11208,7 +11208,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAETw.desc=诅咒之土上会刷出强力�
 
 # Quest: Silky Jewel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUA.name=精致的珠宝
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUA.desc=使用精致的珠宝可以为你的匠魂工具上面附加精准采集的附魔. 对大部分部件来说,精准采集有点...没用,因为像煤矿这样的GT矿石,本来就会完整掉落为方块. 不过,你可以用它来获取一些诅咒土、草方块之类的物品.%n%n具体的合成表可以在魔导手册的"GTNH"章节中找到(前置解锁附魔台).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUA.desc=使用精致珠宝可以为你的匠魂工具上面附加精准采集的效果.这样你就可以获取原矿而不是粗矿了.你可以用它来获取一些诅咒土、草方块之类的物品.%n%n具体的合成表可以在魔导手册的"新视界"章节中找到(前置解锁附魔台).
 
 # Quest: Blub Blub Blub.....
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUg.name=咕噜...咕噜...咕噜...
@@ -11240,7 +11240,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWQ.desc=每个神秘蕴魔石矿脉都�
 
 # Quest: Just Tell Me What to Scan Already!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.name=告诉我要扫描什么!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.desc=不想再猜测什么物品含有什么要素? 只想直接开始工作? 扫描这些东西吧. 第一组需要按顺序扫描. 如果它们中的某些物品无法扫描出结果,请尝试先扫描别的(特别是第三组).%n%n洒水壶%n火把%n煤%n草方块%n活板门%n箱子%n玻璃%n白骨方块%n鸡%n灵魂沙%n纸%n腐肉%n小麦%n燧石%n黑曜石%n%n灰云%n任意染料%n羊毛%n蜘蛛眼%n雪球%n牛奶%n原版锄%n原版镐%n箭%n原版护甲%n水银%n栅栏门%n铁粒%n金%n僵尸之脑%n末影珍珠%n粘液球.实在找不着史莱姆可以在坩埚里加满物品制造咒波粘浆,然后就可以生成神秘史莱姆了(别在基地里这么干)%n带腐化的任意物品.%n天域之华(任意要素,小精灵的掉落物,当然你也可以手撸节点)或大地疣%n%n铝锭%n铂金属粉%n细铜导线%n磁铁矿粉%n钍粉%n猪%n地狱岩%n金制护甲%n床%n拴绳(不是铅) 译者注:拴绳和铅在英语中都是Lead%n恶魂之泪%n时钟%n水晶矩阵%n%n最后还有5种通常只能通过要素合成/创造节点获取的要素.可以结合以下要素获取:%n%nCognitio(思维) + Ordo(秩序)%nCognitio(思维) + Vitium(腐化)%nVacuos(虚空) + Motus(移动)%nLux(光明) + Primordium(始源)%nHumanus(人类) + Iter(旅行)%n%n%n%n请注意,以上列表仅用于解锁要素,你可能还需要扫描一些特定物品(比如下界传送门),以解锁某些隐藏研究.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.desc=不想再猜测什么物品含有什么要素? 只想直接开始工作? 扫描这些东西吧. 第一组需要按顺序扫描. 如果它们中的某些物品无法扫描出结果,请尝试先扫描别的(特别是第三组).%n%n洒水壶%n火把%n煤%n草方块%n活板门%n箱子%n玻璃%n白骨方块%n鸡%n灵魂沙%n纸%n腐肉%n小麦%n燧石%n黑曜石%n%n灰云%n任意染料%n羊毛%n蜘蛛眼%n雪球%n牛奶%n原版锄%n原版镐%n箭%n原版护甲%n水银%n栅栏门%n铁粒%n金%n僵尸之脑%n末影珍珠%n粘液球.实在找不着史莱姆可以在坩埚里加满物品制造咒波粘浆,然后就可以生成神秘史莱姆了(别在基地里这么干)%n带腐化的任意物品.%n天域之华(任意要素,小精灵的掉落物,当然你也可以手撸节点)或大地疣%n%n[[[obzinite]]]锭%n铂金属粉%n细铜导线%n磁铁矿粉%n钍粉%n猪%n地狱岩%n金制护甲%n床%n拴绳(不是铅) 译者注:拴绳和铅在英语中都是Lead%n恶魂之泪%n时钟%n水晶矩阵%n%n最后还有5种通常只能通过要素合成/创造节点获取的要素.可以结合以下要素获取:%n%nCognitio(思维) + Ordo(秩序)%nCognitio(思维) + Vitium(腐化)%nVacuos(虚空) + Motus(移动)%nLux(光明) + Primordium(始源)%nHumanus(人类) + Iter(旅行)%n%n%n%n请注意,以上列表仅用于解锁要素,你可能还需要扫描一些特定物品(比如下界传送门),以解锁某些隐藏研究.
 
 # Quest: Warp Warnings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8g.name=扭曲警报
@@ -13767,8 +13767,8 @@ betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.name=找不到植物魔法的蘑菇?
 betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.desc=为什么不花一些硬币来节省你在暮色森林中寻找微光蘑菇的时间呢?
 
 # Quest: Zinc Gravel Ore
-betterquesting.quest.a15LlbgfQAmJqUgrRkvCFg.name=Zinc Gravel Ore
-betterquesting.quest.a15LlbgfQAmJqUgrRkvCFg.desc=Having a hard time finding some Zinc Gravel Ore? I'll trade you some for your hard-earned coins.
+betterquesting.quest.a15LlbgfQAmJqUgrRkvCFg.name=锌矿砂砾
+betterquesting.quest.a15LlbgfQAmJqUgrRkvCFg.desc=找不到锌矿砂砾?用辛苦挣来的硬币向我换取一些吧.
 
 # Quest: More SMD Inductors
 betterquesting.quest.b8oLtR7SS86ItajFCriChw.name=更多贴片电感

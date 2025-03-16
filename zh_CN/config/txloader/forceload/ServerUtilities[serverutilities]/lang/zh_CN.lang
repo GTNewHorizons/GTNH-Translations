@@ -195,27 +195,27 @@ serverutilities_client.show_dotted_lines=在加载的区块上显示虚线
 
 # Notification Config
 serverutilities.notifications.config=Notification Config
-serverutilities.notifications.last_received=Last received notification:
-serverutilities.notifications.chunk_modified=Chunk Modified
-serverutilities.notifications.chunk_modified.desc=Notifies when claiming/loading a chunk
-serverutilities.notifications.chunk_changed=Chunk Changed
-serverutilities.notifications.chunk_changed.desc=Notifies when a entering a claimed chunk
-serverutilities.notifications.cant_modify_chunk=Can't Modify Chunk
-serverutilities.notifications.cant_modify_chunk.desc=Notifies when unable to modify a chunk
-serverutilities.notifications.teleport=Teleport
-serverutilities.notifications.teleport.desc=Notifies when teleporting to homes/warps
-serverutilities.notifications.teleport_warmup=Teleport Warmup
-serverutilities.notifications.teleport_warmup.desc=Counts down until teleport is complete
-serverutilities.notifications.backup=Backup
-serverutilities.notifications.backup.desc=Notifies when a backup is started/stopped
-serverutilities.notifications.config_changed=Config Changed
-serverutilities.notifications.config_changed.desc=Notifies when configs are changed via commands
-serverutilities.notifications.restart_timer=Restart Timer
-serverutilities.notifications.restart_timer.desc=Notifies when server is about to restart
-serverutilities.notifications.cleanup=Cleanup
-serverutilities.notifications.cleanup.desc=Notifies when entity cleanup is about to start or finish
-serverutilities.notifications.player_afk=Player AFK
-serverutilities.notifications.player_afk.desc=Notifies when a player goes AFK
+serverutilities.notifications.last_received=最新通知
+serverutilities.notifications.chunk_modified=区块设置已变更
+serverutilities.notifications.chunk_modified.desc=当区块被声明/加载时通知
+serverutilities.notifications.chunk_changed=区块状态更新
+serverutilities.notifications.chunk_changed.desc=当进入已被声明的区块时通知
+serverutilities.notifications.cant_modify_chunk=无法修改此区块
+serverutilities.notifications.cant_modify_chunk.desc=当无法修改区块状态时通知
+serverutilities.notifications.teleport=传送中
+serverutilities.notifications.teleport.desc=当使用/home或/warp传送时通知
+serverutilities.notifications.teleport_warmup=传送即将开始...
+serverutilities.notifications.teleport_warmup.desc=传送前倒计时
+serverutilities.notifications.backup=备份中
+serverutilities.notifications.backup.desc=当备份开始/完成时通知
+serverutilities.notifications.config_changed=配置已修改
+serverutilities.notifications.config_changed.desc=通过指令更改配置文件时通知
+serverutilities.notifications.restart_timer=服务器即将重启...
+serverutilities.notifications.restart_timer.desc=服务器重启倒计时
+serverutilities.notifications.cleanup=清理实体中...
+serverutilities.notifications.cleanup.desc=当实体清理即将开始/结束时通知
+serverutilities.notifications.player_afk=玩家已进入AFK状态
+serverutilities.notifications.player_afk.desc=当玩家进入AFK状态时通知
 
 
 
@@ -445,7 +445,7 @@ commands.team.status.usage=/team status <player> [set_status]
 commands.team.status.set=%s的状态设置为%s
 commands.team.status.cant_set=状态不能被设置！
 commands.team.status_for.usage=/team status_for <team> <player> [set_status]
-commands.team.status.invalid=Couldn't find status %s! Available statuses: %s
+commands.team.status.invalid=无法找到状态 %s! 可用的状态: %s
 commands.team.status.success=Status for %s in team %s set to %s
 commands.team.status.failed=Failed to set status %s for %s in team %s
 commands.team.msg.usage=/team msg <message...>
@@ -499,8 +499,8 @@ serverutilities.lang.warps.tp=传送至 “%s”！
 serverutilities.lang.warps.no_dp=你只能使用一次 /back！
 serverutilities.lang.warps.no_pos_found=没有位置使用 /back！
 serverutilities.lang.warps.cross_dim=你不能传送至其它维度！
-serverutilities.lang.warps.warmup=Please, stand still for %d seconds [%d].
-serverutilities.lang.warps.cancelled=You moved! Teleport cancelled.
+serverutilities.lang.warps.warmup=请在传送前原地等待 %d 秒。
+serverutilities.lang.warps.cancelled=请在传送前原地等待 %d 秒。
 
 # Homes
 serverutilities.lang.homes.set=家“%s”已设置！
