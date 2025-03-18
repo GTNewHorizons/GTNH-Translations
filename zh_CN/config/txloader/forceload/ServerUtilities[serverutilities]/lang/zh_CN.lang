@@ -194,7 +194,7 @@ serverutilities_client.notification_location=通知位置
 serverutilities_client.show_dotted_lines=在加载的区块上显示虚线
 
 # Notification Config
-serverutilities.notifications.config=Notification Config
+serverutilities.notifications.config=通知配置
 serverutilities.notifications.last_received=最新通知
 serverutilities.notifications.chunk_modified=区块设置已变更
 serverutilities.notifications.chunk_modified.desc=当区块被声明/加载时通知
@@ -446,8 +446,8 @@ commands.team.status.set=%s的状态设置为%s
 commands.team.status.cant_set=状态不能被设置！
 commands.team.status_for.usage=/team status_for <team> <player> [set_status]
 commands.team.status.invalid=无法找到状态 %s! 可用的状态: %s
-commands.team.status.success=Status for %s in team %s set to %s
-commands.team.status.failed=Failed to set status %s for %s in team %s
+commands.team.status.success=团队%2$s中%1$s的状态设置为%3$s
+commands.team.status.failed=未能把团队%2$s中%1$s的状态设置为%3$s
 commands.team.msg.usage=/team msg <message...>
 commands.team.delete.usage=/team delete <team>
 commands.team.request_invite.usage=/team request_invite <team>
