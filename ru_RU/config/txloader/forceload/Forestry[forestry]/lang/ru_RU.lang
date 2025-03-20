@@ -1305,10 +1305,10 @@ tile.for.stump.0.name=Потухшая свеча
 # MULTIBLOCK
 ####################
 
-for.multiblock.error.notConnected=The MultiBlock is not connected to a controller. This could be due to lag, or a bug. If the problem persists, try breaking and re-placing the block.
-for.multiblock.error.invalid.interior=%d, %d, %d - (%s) Block is not valid for use in the machine's interior.
-for.multiblock.error.invalid.part=The multiblock part @ %d, %d, %d is incompatible with machines of type %s.
-for.multiblock.error.small=The multiblock is too small. It must be at least %d X, %d Y, %d Z.
+for.multiblock.error.notConnected=Мультиблок не подключен к контроллеру. Это может быть вызвано задержкой или ошибкой. Если проблема не устранена, попробуйте сломать и переустановить блок.
+for.multiblock.error.invalid.interior=%d, %d, %d - (%s) Блок недопустим для использования внутри механизма.
+for.multiblock.error.invalid.part=Многоблочная часть @ %d, %d, %d несовместима с механизмами типа %s.
+for.multiblock.error.small=Мультиблок слишком мал. Он должен быть не меньше %d X, %d Y, %d Z.
 for.multiblock.error.large.x=Мультиблок слишком большой, он может быть не более %d блоков в X границе.
 for.multiblock.error.large.y=Мультиблок слишком большой, он может быть не более %d блоков в Y границе.
 for.multiblock.error.large.z=Мультиблок слишком большой, он может быть не более %d блоков в Z границе.
@@ -1316,20 +1316,20 @@ for.multiblock.error.small.x=Мультиблок слишком маленьк�
 for.multiblock.error.small.y=Мультиблок слишком маленький, он должен быть как минимум %d блоков в Y границе.
 for.multiblock.error.small.z=Мультиблок слишком маленький, он должен быть как минимум %d блоков в Z границе.
 
-for.multiblock.alveary.error.needSlabs=The Alveary must have wooden slabs on top.
-for.multiblock.alveary.error.needSpace=The alveary needs space around the top for the bees to enter and exit.
-for.multiblock.alveary.error.needPlainOnTop=The Alveary must have plain alveary blocks for the top level.
-for.multiblock.alveary.error.needPlainInterior=The Alveary must have plain alveary blocks for the interior.
+for.multiblock.alveary.error.needSlabs=Сверху улья должны быть деревянные плиты.
+for.multiblock.alveary.error.needSpace=В улье должно быть достаточно места сверху, чтобы пчелы могли входить и выходить.
+for.multiblock.alveary.error.needPlainOnTop=Улей должен иметь простые блоки улья для верхнего уровня.
+for.multiblock.alveary.error.needPlainInterior=Внутри пчелиного улья должны быть простые блоки улья.
 
-for.multiblock.farm.error.needPlainBand=The Farm must have plain farm blocks for the third level.
-for.multiblock.farm.error.needPlainInterior=The Farm must have plain farm blocks for the interior.
+for.multiblock.farm.error.needPlainBand=На третьем уровне фермы должны быть простые блоки фермы.
+for.multiblock.farm.error.needPlainInterior=Внутри фермы должны быть простые блоки фермы.
 for.multiblock.farm.error.needGearbox=Ферма должна иметь редуктор, чтобы принимать мощность и выполнять работу
 
 ####################
 # ARBORICULTURE
 ####################
 
-entity.Villager.arborist=Arborist
+entity.Villager.arborist=Арборист
 
 for.arboriculture.effect.none=Нет
 
@@ -1541,7 +1541,7 @@ for.circuit.manualRubber=Плантация резины
 for.circuit.manualShroom=Грибная ферма
 for.circuit.manualSucculent=Кактусовая ферма
 for.circuit.manualVegetable=Овощная ферма
-for.circuit.manualIC2Crop=IC2 Crop Farm
+for.circuit.manualIC2Crop=Ферма IC2 культур
 
 for.gui.farm.title=Ферма
 for.gui.hydr.heat=тепла
@@ -1735,8 +1735,8 @@ for.plugin.enderIO.description=Плагин совместимости для En
 for.plugin.immersiveengineering.description=Плагин совместимости для Immersive Engineering.
 for.plugin.growthcraft.description=Плагин совместимости для GrowthCraft.
 for.plugin.erebus.description=Плагин совместимости для Erebus.
-for.plugin.rotarycraft.description=Compatibility plugin for RotaryCraft
-for.plugin.minefactoryreloaded.description=Compatibility plugin for MineFactoryReloaded
+for.plugin.rotarycraft.description=Плагин совместимости для RotaryCraft
+for.plugin.minefactoryreloaded.description=Плагин совместимости для MineFactoryReloaded
 
 ####################
 # CONFIG FILES
@@ -1778,16 +1778,16 @@ for.config.crafting.stamps.enabled.comment=Enables the crafting recipe for stamp
 for.config.crafting.stamps.disabled=Disabled Stamps
 for.config.crafting.stamps.disabled.comment=Disables the crafting recipe for certain stamps.
 
-for.config.tweaks=Tweaks
+for.config.tweaks=Мелкие правки
 
-for.config.tweaks.gui.mail.alert.enabled=Mail Alert
-for.config.tweaks.gui.mail.alert.enabled.comment=Enables the new mail alert box.
-for.config.tweaks.gui.mail.alert.xPosition=Horizontal Position
-for.config.tweaks.gui.mail.alert.xPosition.comment=Horizontal Position of the mail alert box on the screen.
-for.config.tweaks.gui.mail.alert.yPosition=Vertical Position
-for.config.tweaks.gui.mail.alert.yPosition.comment=Vertical Position of the mail alert box on the screen.
+for.config.tweaks.gui.mail.alert.enabled=Почтовое оповещение
+for.config.tweaks.gui.mail.alert.enabled.comment=Включает окно оповещения о новой почте.
+for.config.tweaks.gui.mail.alert.xPosition=Горизонтальное положение
+for.config.tweaks.gui.mail.alert.xPosition.comment=Горизонтальное положение окна почтового оповещения на экране.
+for.config.tweaks.gui.mail.alert.yPosition=Вертикальное положение
+for.config.tweaks.gui.mail.alert.yPosition.comment=Вертикальное положение окна почтового оповещения на экране.
 
-for.config.tweaks.gui.tabs.hints=Hints
+for.config.tweaks.gui.tabs.hints=Подсказки
 for.config.tweaks.gui.tabs.hints.comment=Enables the hints tab on machine and engine guis.
 for.config.tweaks.gui.tabs.speed=Tab Speed
 for.config.tweaks.gui.tabs.speed.comment=Set the speed at which the gui side tabs open and close.
@@ -1834,8 +1834,8 @@ for.config.structures.disabled=Disabled Structures
 for.config.structures.disabled.comment=List specific structures to disable them.
 
 for.config.fluids=Жидкости
-for.config.fluids.enable.format=Enables %s fluid.
-for.config.fluid.blocks=Fluid Blocks
+for.config.fluids.enable.format=Включает %s жидкость.
+for.config.fluid.blocks=Жидкостные блоки
 for.config.fluid.blocks.enable.format=Enables %s in-world fluid block.
 
 for.config.debug.enabled=Отладочный режим
@@ -1862,8 +1862,8 @@ for.config.butterfly.entities.pollination.comment=Allow butterflies to pollinate
 for.config.butterfly.entities.disable.leaf.spawns=Disable Butterfly Leaf Spawns
 for.config.butterfly.entities.disable.leaf.spawns.comment=Prevent random butterflies from autonomously spawning from Forestry leaves.
 
-for.config.backpacks.item.stacks.format=Add itemStacks for the %s's backpack here in the format 'modid:name:meta'. For wildcard metadata the format is 'modid:name'.
-for.config.backpacks.ore.dict.format=Add ore dictionary names for the %s's backpack here in the format 'oreDictName'.
+for.config.backpacks.item.stacks.format=Добавьте itemStacks для рюкзака %s здесь в формате 'modid:name:meta'. Для метаданных с подстановочными знаками формат будет 'modid:name'.
+for.config.backpacks.ore.dict.format=Добавьте сюда названия словарей руды для рюкзака %s в формате 'oreDictName'.
 
 for.config.gamemode=Игровой режим
 
@@ -1897,9 +1897,9 @@ for.config.gamemode.fermenter.yield.wheat.comment=изменяет количе�
 for.config.gamemode.fermenter.yield.cane.comment=изменяет количество биомассы которое даст сахарный тростник в ферментере.
 for.config.gamemode.fermenter.yield.mushroom.comment=изменяет количество биомассы которое даст гриб в ферментере.
 
-for.config.gamemode.squeezer.liquid.seed.comment=modifies the amount of seed oil squeezed from a single seed. other sources are based off this.
-for.config.gamemode.squeezer.liquid.apple.comment=modifies the amount of juice squeezed from a single apple. other sources are based off this.
-for.config.gamemode.squeezer.mulch.apple.comment=modifies the chance of mulch per squeezed apple.
+for.config.gamemode.squeezer.liquid.seed.comment=изменяет количество масла, выжимаемого из одного семени. Другие источники основаны на этом.
+for.config.gamemode.squeezer.liquid.apple.comment=изменяет количество сока, выжатого из одного яблока. Другие источники основаны на этом.
+for.config.gamemode.squeezer.mulch.apple.comment=изменяет вероятность образования мульчи на одно выжатое яблоко.
 
 for.config.gamemode.energy.engine.clockwork.comment=Enable the clockwork engine.
 
