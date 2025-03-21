@@ -70,8 +70,8 @@ subtitle.game.hostile.hurt=Звук получения урона
 subtitle.game.hostile.swim=Кто-то плавает
 subtitle.game.hostile.swim.splash=Всплеск
 
-subtitle.game.player.die=Player dies
-subtitle.game.player.hurt=Player takes damage
+subtitle.game.player.die=Игрок умирает
+subtitle.game.player.hurt=Игрок получает урон
 
 subtitle.portal.portal=Portal whooshes
 
@@ -105,7 +105,7 @@ subtitle.entity.item_frame.rotate_item=Поворот предмета в рам
 
 subtitle.entity.bee.loop=Bee buzzes
 subtitle.entity.bee.hurt=Bee takes damage
-subtitle.entity.bee.death=Bee dies
+subtitle.entity.bee.death=Пчела умирает
 subtitle.entity.bee.sting=Bee stings
 subtitle.entity.bee.pollinate=Bee buzzes happily
 subtitle.entity.bee.loop_aggressive=Bee buzzes angrily
@@ -141,7 +141,7 @@ subtitle.entity.fox.screech=Fox screeches
 subtitle.entity.fox.sleep=Fox snores
 subtitle.entity.fox.aggro=Fox angers
 subtitle.entity.fox.bite=Fox bites
-subtitle.entity.fox.death=Fox dies
+subtitle.entity.fox.death=Лиса умирает
 subtitle.entity.fox.eat=Fox eats
 subtitle.entity.fox.hurt=Fox hurts
 subtitle.entity.fox.sniff=Fox sniffs
@@ -246,14 +246,14 @@ subtitle.block.beehive.work=Bees work
 subtitle.block.beehive.shear=Beehive sheared
 subtitle.block.honey_block.slide=Sliding down a honey block
 subtitle.block.brewing_stand.brew=Brewing Stand bubbles
-subtitle.block.composter.fill=Composter filled
-subtitle.block.composter.fill_success=Compost level rises
-subtitle.block.composter.ready=Composter is full
+subtitle.block.composter.fill=Компостер заполнен
+subtitle.block.composter.fill_success=Уровень компоста повышается
+subtitle.block.composter.ready=Компостер полон
 subtitle.block.composter.empty=Composter emptied
-subtitle.block.enchantment_table.use=Enchanting Table used
-subtitle.block.smithing_table.use=Smithing Table used
-subtitle.block.sweet_berry_bush.pick_berries=Sweet Berries picked
-subtitle.block.sponge.absorb=Sponge sucks up water
+subtitle.block.enchantment_table.use=Стол зачарований используется
+subtitle.block.smithing_table.use=Кузнечный стол используется
+subtitle.block.sweet_berry_bush.pick_berries=Сладкие ягоды собраны
+subtitle.block.sponge.absorb=Губка впитывает воду
 
 subtitle.mob.hurt=%s получает урон
 subtitle.mob.death=%s погибает
@@ -293,7 +293,7 @@ subtitle.mob.ghast.fireball=Звук полета огненного шара
 subtitle.mob.zombiepig.zpig=Zombie Pigman growls
 subtitle.mob.zombiepig.zpighurt=Zombie Pigman takes damage
 subtitle.mob.zombiepig.zpigangry=Zombie Pigman growls angrily
-subtitle.mob.zombiepig.zpigdeath=Zombie Pigman dies
+subtitle.mob.zombiepig.zpigdeath=Свинозомби умирает
 subtitle.mob.endermen.idle=Эндермен урчит
 subtitle.mob.endermen.portal=Эндермен телепортировался
 subtitle.mob.endermen.hit=Эндермен получает урон
@@ -342,7 +342,7 @@ entity.etfuturum.guardian.name=Страж
 entity.etfuturum.elder_guardian.name=Древний страж
 entity.etfuturum.polar_bear.name=Белый медведь
 entity.etfuturum.bee.name=Пчела
-entity.etfuturum.fox.name=Fox
+entity.etfuturum.fox.name=Лиса
 
 # Items
 item.etfuturum.mutton.name=Сырая баранина
@@ -1715,15 +1715,15 @@ efr.elytra.betterfps.warn3=§cПолет элитр отключен.
 
 # Mod support blocks
 
-tile.etfuturum.iron_barrel.name=Iron Barrel
-tile.etfuturum.gold_barrel.name=Gold Barrel
-tile.etfuturum.diamond_barrel.name=Diamond Barrel
-tile.etfuturum.copper_barrel.name=Copper Barrel
-tile.etfuturum.silver_barrel.name=Silver Barrel
-tile.etfuturum.obsidian_barrel.name=Obsidian Barrel
-tile.etfuturum.netherite_barrel.name=Netherite Barrel
-tile.etfuturum.steel_barrel.name=Steel Barrel
-tile.etfuturum.darksteel_barrel.name=Dark Steel Barrel
+tile.etfuturum.iron_barrel.name=Железная бочка
+tile.etfuturum.gold_barrel.name=Золотая бочка
+tile.etfuturum.diamond_barrel.name=Алмазная бочка
+tile.etfuturum.copper_barrel.name=Медная бочка
+tile.etfuturum.silver_barrel.name=Серебряная бочка
+tile.etfuturum.obsidian_barrel.name=Обсидиановая бочка
+tile.etfuturum.netherite_barrel.name=Незеритовая бочка
+tile.etfuturum.steel_barrel.name=Стальная бочка
+tile.etfuturum.darksteel_barrel.name=Бочка из тёмной стали
 
 
 tile.etfuturum.iron_shulker_box.name=Железный шалкеровый ящик
@@ -1965,17 +1965,17 @@ item.shulker_copper_iron_upgrade.name=Улучшение медного шалк
 item.shulker_copper_silver_upgrade.name=Улучшение медного шалкерового ящика до серебряного шалкерового ящика
 item.shulker_silver_gold_upgrade.name=Улучшение серебряного шалкерового ящика до золотого шалкерового ящика
 
-item.barrel_vanilla_iron_upgrade.name=Vanilla to Iron Barrel Upgrade
-item.barrel_vanilla_copper_upgrade.name=Vanilla to Copper Barrel Upgrade
-item.barrel_iron_gold_upgrade.name=Iron to Gold Barrel Upgrade
-item.barrel_gold_diamond_upgrade.name=Gold to Diamond Barrel Upgrade
-item.barrel_diamond_obsidian_upgrade.name=Diamond to Obsidian Barrel Upgrade
-item.barrel_copper_iron_upgrade.name=Copper to Iron Barrel Upgrade
-item.barrel_copper_silver_upgrade.name=Copper to Silver Barrel Upgrade
-item.barrel_silver_gold_upgrade.name=Silver to Gold Barrel Upgrade
-item.barrel_steel_gold_upgrade.name=Steel to Gold Barrel Upgrade
-item.barrel_obsidian_netherite_upgrade.name=Obsidian to Netherite Barrel Upgrade
-item.barrel_obsidian_darksteel_upgrade.name=Obsidian to Dark Steel Barrel Upgrade
+item.barrel_vanilla_iron_upgrade.name=Улучшение бочки до железной бочки
+item.barrel_vanilla_copper_upgrade.name=Улучшение бочки до медной бочки
+item.barrel_iron_gold_upgrade.name=Улучшение железной до золотой бочки
+item.barrel_gold_diamond_upgrade.name=Улучшение золотой до алмазной бочки
+item.barrel_diamond_obsidian_upgrade.name=Улучшение алмазной до обсидиановой бочки
+item.barrel_copper_iron_upgrade.name=Улучшение медной до железной бочки
+item.barrel_copper_silver_upgrade.name=Улучшение медной до серебряной бочки
+item.barrel_silver_gold_upgrade.name=Улучшение серебряной до золотой бочки
+item.barrel_steel_gold_upgrade.name=Улучшение стальной до золотой бочки
+item.barrel_obsidian_netherite_upgrade.name=Улучшение обсидиановой до незеритовой бочки
+item.barrel_obsidian_darksteel_upgrade.name=Улучшение незеритовой до бочки из тёмной стали
 
 item.etfuturum.raw_aluminum.name=Необработанный алюминий
 item.etfuturum.raw_tin.name=Необработанное олово
