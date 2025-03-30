@@ -163,6 +163,18 @@ ae2fc.tooltip.not_fill_pattern.hint=Выключено
 ae2fc.tooltip.open_configuration=Открыть настройки
 ae2fc.tooltip.block_highlight=Подсветить блок
 
+ae2fc.tooltip.magnet_card.off=Magnet Card
+ae2fc.tooltip.magnet_card.off.hint=Off
+ae2fc.tooltip.magnet_card.inv=Magnet Card
+ae2fc.tooltip.magnet_card.inv.hint=Pickup to Inventory
+ae2fc.tooltip.magnet_card.me=Magnet Card
+ae2fc.tooltip.magnet_card.me.hint=Pickup to ME
+ae2fc.tooltip.magnet_card.filter=Magnet Filter
+ae2fc.tooltip.restock.on=Toggle Restock
+ae2fc.tooltip.restock.on.hint=Enable
+ae2fc.tooltip.restock.off=Toggle Restock
+ae2fc.tooltip.restock.off.hint=Disable
+
 ae2fc.gui.part_fluid_pattern_terminal=Жидкостный терминал шаблонов
 ae2fc.gui.part_fluid_pattern_terminal_ex=Жидкостный терминал шаблонов обработки
 ae2fc.gui.part_level_terminal=Терминал уровня
@@ -187,6 +199,13 @@ ae2fc.gui.part_fluid_terminal=МЭ жидкостный терминал
 ae2fc.gui.part_fluid_storage_bus=МЭ жидкостная шина хранения
 ae2fc.gui.fluid_auto_filler=МЭ жидкостный авто-заполнитель
 
+ae2fc.gui.magnet=Magnet Filter
+ae2fc.gui.magnet.nbt=Ignore NBT Data
+ae2fc.gui.magnet.meta=Ignore Meta Data
+ae2fc.gui.magnet.ore=Use Ore Dictionary
+ae2fc.gui.magnet.whitelist=Whitelisting
+ae2fc.gui.magnet.blacklist=BlackListing
+
 ae2fc.gui.color.StateNone=00000000
 ae2fc.gui.color.StateIdle=FF55FF55
 ae2fc.gui.color.StateCraft=FFFFFF55
@@ -195,7 +214,8 @@ ae2fc.gui.color.StateError=FFFF5555
 
 error.unknown=Неизвестно
 
-key.OpenTerminal=Открыть беспроводной универсальный терминал
+ae2fc.key.OpenTerminal=Open Wireless Universal Terminal
+ae2fc.key.Restock=Toggle Restock
 
 itemGroup.ae2fc=Fluid Craft For AE2
 

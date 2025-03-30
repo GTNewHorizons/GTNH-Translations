@@ -69,6 +69,7 @@ tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Сингулярн
 tile.appliedenergistics2.BlockPaint.name=Краска
 tile.appliedenergistics2.BlockWirelessConnector.name=Беспроводной соединитель
 tile.appliedenergistics2.BlockWirelessHub.name=Беспроводной хаб
+tile.appliedenergistics2.BlockGrower.name=Crystal Growth Chamber
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Ступеньки из резного истинного кварца
@@ -133,6 +134,8 @@ chat.appliedenergistics2.DriveLockingToggled=Ячейки в накопител�
 chat.appliedenergistics2.ChestLockingToggled=Ячейка в сундуке была размечена/не размечена
 chat.appliedenergistics2.FinishCraftingRemind=Создание %s * %s завершено за %s.
 chat.appliedenergistics2.CraftingCantExtract=Невозможно извлечь необходимое количество ингредиента из хранилища: %d / %d | %s
+chat.appliedenergistics2.MachineInOtherDim=%d located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.MachineHighlighted=The %d is now highlighted at %d, %d, %d
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -366,6 +369,9 @@ gui.color.appliedenergistics2.CraftConfirmMissingItem=1AFF0000
 gui.color.appliedenergistics2.CraftingCPUActive=5A45A021
 gui.color.appliedenergistics2.CraftingCPUScheduled=FF787878
 gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
+gui.color.appliedenergistics2.ProcessBarStartColor=FFE60A00
+gui.color.appliedenergistics2.ProcessBarMiddleColor=FFE6E600
+gui.color.appliedenergistics2.ProcessBarEndColor=FF0AE600
 
 # GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=Хранить предметы
@@ -633,10 +639,10 @@ gui.appliedenergistics2.GuiSuperWirelessKit.includehubs.desc=Include connectors 
 gui.appliedenergistics2.GuiSuperWirelessKit.delete.name=Удалить сеть
 gui.appliedenergistics2.GuiSuperWirelessKit.delete.desc=Удалить сеть из списка
 gui.appliedenergistics2.GuiSuperWirelessKit.bind.name=Привязать
-gui.appliedenergistics2.GuiSuperWirelessKit.bind.desc=Bind wireless`s in 2nd row to wireless`s in 3rd row
+gui.appliedenergistics2.GuiSuperWirelessKit.bind.desc=Привязать беспроводные устройства во 2-м ряду с беспроводными устройствами в 3-м ряду.
 gui.appliedenergistics2.GuiSuperWirelessKit.unbind.name=Отвязать
-gui.appliedenergistics2.GuiSuperWirelessKit.unbind.desc=Break connection for wireless`s in 2nd row
-gui.appliedenergistics2.GuiSuperWirelessKit.namefield.desc=Rename wireless or network or color
+gui.appliedenergistics2.GuiSuperWirelessKit.unbind.desc=Разрыв соединения для беспроводных устройств во 2-м ряду
+gui.appliedenergistics2.GuiSuperWirelessKit.namefield.desc=Переименовать беспроводную связь, сеть или цвет
 
 # Waila
 waila.appliedenergistics2.Crafting=Создание
