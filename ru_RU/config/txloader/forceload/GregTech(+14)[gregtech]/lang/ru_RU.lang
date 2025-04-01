@@ -149,8 +149,8 @@ GT5U.MBTT.MultiampEnergyHatch=Мультиамперный энерговвод
 GT5U.MBTT.MultiampEnergyDynamo=Мультиамперный энерговывод
 GT5U.MBTT.LaserTargetHatch=Приёмник лазера
 GT5U.MBTT.LaserSourceHatch=Источник лазера
-GT5U.MBTT.ExoticEnergyHatch=Laser/Multi-Amp Energy Hatch
-GT5U.MBTT.ExoticEnergyDynamo=Laser/Multi-Amp Dynamo Hatch
+GT5U.MBTT.ExoticEnergyHatch=Лазер/Мультиамперный энерговвод
+GT5U.MBTT.ExoticEnergyDynamo=Лазер/Мультиамперный энерговывод
 GT5U.MBTT.InputBus=Входной люк
 GT5U.MBTT.InputHatch=Входной шлюз
 GT5U.MBTT.OutputBus=Выходной люк
@@ -169,14 +169,14 @@ GT5U.MBTT.Mod=Добавлено
 GT5U.MBTT.Air=Обязательный воздух
 GT5U.MBTT.HatchInfo=Любой %s
 GT5U.MBTT.HatchDots= (точки %s)
-GT5U.MBTT.BoroGlassAny=Borosilicate Glass (any, mixed)
-GT5U.MBTT.BoroGlassTiered=Borosilicate Glass (any)
+GT5U.MBTT.BoroGlassAny=Боросиликатное стекло (любое, смешанное)
+GT5U.MBTT.BoroGlassTiered=Боросиликатное стекло (любое)
 GT5U.MBTT.Structure.Complex=Эта структура слишком сложна!
 GT5U.MBTT.Structure.SeeStructure1=Чтобы увидеть структуру, используйте
 GT5U.MBTT.Structure.SeeStructure2=Голограммный проект на контроллере!
-GT5U.MBTT.Structure.MinGlassForLaser=-tier glass required for §9Tec§1Tech§7 Laser Hatches.
-GT5U.MBTT.Structure.GlassEnergyLimit=Energy Hatch limited by Glass tier
-GT5U.MBTT.Structure.GlassEnergyLimitTier=-tier Glass unlocks all.
+GT5U.MBTT.Structure.MinGlassForLaser=-тировое стекло требуется для §9Tec§1Tech§7 лазеров.
+GT5U.MBTT.Structure.GlassEnergyLimit=Энерговвод ограничен тиром стекла
+GT5U.MBTT.Structure.GlassEnergyLimitTier=-тировое стекло разблокирует все.
 
 GT5U.MBTT.subchannel=Использует подканал §6%s§r§7 для §6%s
 GT5U.tooltip.channelvalue=Используйте значение §6%d§r§7 ля подканала §6%s
@@ -238,15 +238,15 @@ GT5U.coil.MAX=Вечность
 
 GT5U.MS.multismelting=Мультиплавка
 
-gt.casing.no-mob-spawning=Mobs cannot Spawn on this Block
-gt.casing.not-tile-entity=This is NOT a TileEntity!
-gt.casing.blast-proof=This Block is Blast Proof
-gt.casing.heat-capacity=Base Heating Capacity = %s Kelvin
-gt.casing.tier=Casing Tier: §e%s§r
+gt.casing.no-mob-spawning=Монстры не могут появиться на этом блоке
+gt.casing.not-tile-entity=Это НЕ TileEntity
+gt.casing.blast-proof=Этот блок Взрывостойкий
+gt.casing.heat-capacity=Теплопроизводительность = %s Кельвинов
+gt.casing.tier=Тир корпуса: §e%s§r
 
-gt.casing.chemical-resistant=Able to resist the most extreme chemical conditions.
-gt.casing.hawking-focus=Controls the outward flow of Hawking Radiation to stabilize a black hole.
-gt.casings.advanced-filter=Less than five 0.1μm particles per m^3
+gt.casing.chemical-resistant=Способен противостоять самым экстремальным химическим условиям.
+gt.casing.hawking-focus=Управляет исходящим потоком излучения Хокинга для стабилизации черной дыры.
+gt.casings.advanced-filter=Менее пяти 0,1мкм частиц на м^3
 
 # Machine types
 gt.recipe.alloysmelter=Плавильная печь
@@ -770,7 +770,7 @@ GT5U.gui.text.too_uncertain=Too Uncertain.
 GT5U.gui.text.invalid_parameters=Неверные параметры.
 GT5U.gui.text.enabled=§aEnabled§f
 GT5U.gui.text.disabled=§cDisabled§f
-GT5U.gui.text.lma_craftingfx=Show Crafting Effects
+GT5U.gui.text.lma_craftingfx=Показать эффекты крафта
 
 
 GT5U.gui.config.client=Клиент
@@ -1915,15 +1915,15 @@ gt.item.adv_sensor_card.error.deconstructed.2=Place machine again to re-enable
 gt.item.adv_sensor_card.error.no_data=Данные не найдены
 gt.item.redstone_sniffer.regular_wireless=Regular Wireless
 gt.item.redstone_sniffer.advanced_wireless=Advanced Wireless
-gt.item.redstone_sniffer.frequency=Frequency
-gt.item.redstone_sniffer.frequency_filter=Frequency:
+gt.item.redstone_sniffer.frequency=Частота
+gt.item.redstone_sniffer.frequency_filter=Частота:
 gt.item.redstone_sniffer.owner=Owner
 gt.item.redstone_sniffer.owner_filter=Owner:
 gt.item.redstone_sniffer.private=Private
-gt.item.redstone_sniffer.dimension=Dimension
-gt.item.redstone_sniffer.action=Action
+gt.item.redstone_sniffer.dimension=Измерение
+gt.item.redstone_sniffer.action=Действие
 gt.item.redstone_sniffer.locate=Locate
-gt.item.redstone_sniffer.teleport=Teleport
+gt.item.redstone_sniffer.teleport=Телепорт
 
 gt.cover.info.format.tick_rate=§b%s§r %s
 gt.cover.info.chat.tick_rate=Cover tick rate set to %s
