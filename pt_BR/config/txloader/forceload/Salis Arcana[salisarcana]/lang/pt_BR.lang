@@ -40,11 +40,21 @@ salisarcana:command.forget-scanned.args.inventory=§7[--inventory]§r Reset all 
 salisarcana:command.forget-scanned.args.looking=§7[--looking]§r Reset the block you are currently looking at. Mutually exclusive with §7--all§r.
 salisarcana:command.forget-scanned.args.container=§7[--container]§r Reset all items in the container (eg. Chest) you are looking at. Mutually exclusive with §7--all§r.
 salisarcana:command.forget-scanned.args.all=§7[--all]§r Combines the effects of §7objects§r, §7entities§r, and §7nodes§r
-salisarcana:command.forget-scanned.args.aspects=§7[--aspects <aspect[ aspect[ aspect...]]]>§r Reset the discovery of one or more aspects. Mutually exclusive with §7--all-aspects§r.
-salisarcana:command.forget-scanned.args.all-aspects=§7[--all-aspects]§r Reset the discovery of all non-primal aspects. Mutually exclusive with §7--aspects§r.
 
 salisarcana:command.forget-scanned.success=§9Success:§r %d entries were removed from %s's scan lists.
 salisarcana:command.forget-scanned.failure=§cFailure:§r There was nothing to remove from %s's scan lists.
+
+salisarcana:command.forget-aspect.desc=Forget or reset aspects from a player's knowledge.
+salisarcana:command.forget-aspect.usage=§7/salisarcana-forget-aspect §7[--player §7<username>] §7[--reset] §7[--forget] §7[--aspect <...>] §7[--all] §r
+salisarcana:command.forget-aspect.args.player=§7[--player §7<username>]§r Specify the player whose aspects will be altered. If not provided, defaults to the player executing this command.
+salisarcana:command.forget-aspect.args.reset=§7[--reset]§r Reset the amount of research aspects the player has to 1. Mutually exclusive with §7forget§r.
+salisarcana:command.forget-aspect.args.forget=§7[--forget]§r Forget the aspect, requiring it to be rediscovered. Mutually exclusive with §7reset§r.
+salisarcana:command.forget-aspect.args.aspect=§7[--aspect §7<aspect[ §7aspect[ §7...]]]§r Specify the aspect(s) to reset or forget. Mutually exclusive with §7all§r.
+salisarcana:command.forget-aspect.args.all=§7[--all]§r Reset or forget all aspects. Mutually exclusive with §7aspect§r.
+
+salisarcana:command.forget-aspect.success=§9Success:§r %d aspects were altered for %s.
+salisarcana:command.forget-aspect.failure=§cFailure:§r There was nothing to alter for %s.
+salisarcana:command.forget-aspect.no-action=§cFailure:§r No action specified. You must specify either §7--reset§r or §7--forget§r.
 
 salisarcana:command.help.desc=Get help information about a Salis Arcana command.
 salisarcana:command.help.usage=§7/salisarcana-help §7[command]§r
@@ -146,3 +156,17 @@ tc.research_text.salisarcana:CHESTSCAN=Looking a little closer
 tc.research_page.salisarcana:CHESTSCAN.0=Thanks to your research about deconstructing items, you've learned to look inside other blocks with your Thaumometer by using it to "deconstruct" the block magically. You can scan any block that can hold items, such as a chest or hopper, to scan all contained items automatically.
 
 item.Wand.staffter.obj=Staffter
+
+focus.upgrade.salisarcana:disenchant.name=Disenchant Focus
+focus.upgrade.salisarcana:disenchant.text=Remove the last upgrade applied to the focus and refund some of the XP spent.
+focus.upgrade.salisarcana:disenchant.text.generic=Remove the last upgrade applied to the focus and refund %d%% of the XP spent.
+focus.upgrade.salisarcana:disenchant.text.specific=Remove §5%s§r from this focus and refund §a%d XP§r.
+
+tc.research_name.salisarcana:FOCUS_DISENCHANTING=Focal Disenchanting
+tc.research_text.salisarcana:FOCUS_DISENCHANTING=Regretting your choices
+tc.research_page.salisarcana:FOCUS_DISENCHANTING.0=While experimenting with the Focal Manipulator, you often found yourself left with perfectly functional foci which were ruined by their upgrades.<BR>To your delight, some additional experimentation revealed that the enchantments on foci are nowhere near as permanent as they seem.<BR>By applying §8Perditio§0 CV to any upgraded focus in the Focal Manipulator, you can remove the last upgrade applied to the focus and recover up to %d%% of the experience spent on that upgrade.
+tc.research_page.salisarcana:FOCUS_DISENCHANTING.1=(Since each level stores more experience as you gain more levels, upgrading a focus at a level higher than the minimum will lose additional experience due to the larger experience bars being consumed.)
+
+salisarcana:error_missing_research.infusion=You lack the research to start this infusion! You must research "%s" in %s before you can craft this item!
+salisarcana:error_missing_research.crucible=You lack the research to craft this recipe in the Crucible! You must research "%s" in %s before you can craft this item!
+salisarcana:error_missing_research.gui=Missing Research
