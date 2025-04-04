@@ -925,15 +925,15 @@ witchery:potion.colorful.red=Красный оттенок
 witchery:potion.colorful.green=Зелёный оттенок
 witchery:potion.colorful.brown=Коричневый оттенок
 witchery:potion.colorful.blue=Голубой оттенок
-witchery:potion.colorful.purple=Пурпурный оттенок
+witchery:potion.colorful.purple=Фиолетовый оттенок
 witchery:potion.colorful.cyan=Бирюзовый оттенок
 witchery:potion.colorful.lightgray=Светло-серый оттенок
 witchery:potion.colorful.gray=Серый оттенок
 witchery:potion.colorful.pink=Розовый оттенок
 witchery:potion.colorful.lime=Лаймовый оттенок
 witchery:potion.colorful.yellow=Жёлтый оттенок
-witchery:potion.colorful.lightblue=Светло-голубой оттенок
-witchery:potion.colorful.magenta=Фиолетовый оттенок
+witchery:potion.colorful.lightblue=Голубой оттенок
+witchery:potion.colorful.magenta=Пурпурный оттенок
 witchery:potion.colorful.orange=Оранжевый оттенок
 witchery:potion.colorful.white=Белый оттенок
 
@@ -1139,15 +1139,15 @@ witchery:color.red=Красный
 witchery:color.green=Зелёный
 witchery:color.brown=Коричневый
 witchery:color.blue=Голубой
-witchery:color.purple=Пурпурный
+witchery:color.purple=Фиолетовый
 witchery:color.cyan=Бирюзовый
 witchery:color.lightgray=Светло-серый
 witchery:color.gray=Серый
 witchery:color.pink=Розовый
 witchery:color.lime=Лаймовый
 witchery:color.yellow=Жёлтый
-witchery:color.lightblue=Светло-голубой
-witchery:color.magenta=Фиолетовый
+witchery:color.lightblue=Голубой
+witchery:color.magenta=Пурпурный
 witchery:color.orange=Оранжевый
 witchery:color.white=Белый
 
@@ -1200,7 +1200,7 @@ witchery:cauldronbook.rituals5=[next=rituals6][h1 Ритуалы: Риск и м
 witchery:cauldronbook.rituals6=[next=rituals7][h1 Ритуалы: Риск и мощь]Белые маленькие и/или средние ритуальные круги можно использовать, чтобы умеренно снизить затраты энергии и устранить побочные эффекты.[br][br][img=witchery:textures/gui/circles_2white.png|center|top|32|32]
 witchery:cauldronbook.rituals7=[next=rituals8][h1 Ритуалы: Риск и мощь]Красные маленькие и/или средние ритуальные круги можно использовать, чтобы существенно снизить затраты энергии, но сильно увеличить риск появления побочных эффектов.[br][br][img=witchery:textures/gui/circles_2red.png|center|top|32|32]
 witchery:cauldronbook.rituals8=[next=rituals9][h1 Ритуалы: Риск и мощь]Красные и белые круги можно комбинировать (по желанию), чтобы получить соответствующий баланс затрат энергии и риска получения побочных эффектов.
-witchery:cauldronbook.rituals9=[next=rituals10][h1 Ритуалы: Неудачный ритуалы] Когда ритуал провалился, он будет испускать цветной дым:[br][br][darkgreen Зелёный] Цель слишком далеко[br][darkblue Голубой] Нужен шабаш[br][darkred Красный] Неправильные круги[br][darkyellow Жёлтый] Нужно больше энергии алтаря[br][darkpurple Пурпурный] Другая причина провала[br][br] Ритуалы не начнутся, если имеется слишком мало энергии.
+witchery:cauldronbook.rituals9=[next=rituals10][h1 Ритуалы: Неудачный ритуалы] Когда ритуал провалился, он будет испускать цветной дым:[br][br][darkgreen Зелёный] Цель слишком далеко[br][darkblue Голубой] Нужен шабаш[br][darkred Красный] Неправильные круги[br][darkyellow Жёлтый] Нужно больше энергии алтаря[br][darkpurple Фиолетовый] Другая причина провала[br][br] Ритуалы не начнутся, если имеется слишком мало энергии.
 witchery:cauldronbook.rituals10=[next=rituals11][h1 Ритуалы: Ритуал возвышения земли]Чем дальше от котла место, привязанное к камню, тем больше нужно ведьм...[br][br][template=tritual stack|0=nether_wart,witchery:ingredient|37,quartz,witchery:ingredient|13,witchery:ingredient|25]
 witchery:cauldronbook.rituals11=[h1 Ритуалы: Расширенное проклятие слепоты]Чем дальше жертва, тем больше нужно ведьм...[br][br][template=tritual stack|0=nether_wart,witchery:ingredient|37,redstone,dye|0,witchery:taglockkit|1]
 
@@ -1216,8 +1216,8 @@ witchery:cauldronbook.duration=[i Длительность] - Добавьте, 
 
 witchery:cauldronbook.modifiers=[next=modifiers2][h1 Модификаторы: Основные]Эти модификаторы изменяют следующий эффект (Их необязательно добавлять).[br][br][stack=gold_nugget Без частиц][br][stack=fermented_spider_eye Обратный эффект][br][stack=netherbrick Без эффектов на блоки][br][stack=brick Без эффектов на существ]
 witchery:cauldronbook.modifiers2=[next=modifiers3][h1 Модификаторы: Поглощение] Каждый бонус поглощения можно добавить лишь раз, перед всеми эффектами, для увеличения скорости питья.[br][br][stack=witchery:ingredient|63 Ускорение питья][br][stack=witchery:ingredient|31 Ускорение питья][br][stack=witchery:spanishmoss Ускорение питья]
-witchery:cauldronbook.modifiers3=[next=modifiers4][h1 Модификаторы: Цвет]Изменяет цвет отвара.[br][stack=wool|0 Белый ][br][stack=wool|1 Оранжевый ][br][stack=wool|2 Фиолетовый ][br][stack=wool|3 Светло-голубой][br][stack=wool|4 Жёлтый ][br][stack=wool|5 Лаймовый]
-witchery:cauldronbook.modifiers4=[next=modifiers5][h1 Модификаторы: Цвет][stack=wool|6 Розовый ][br][stack=wool|7 Серый ][br][stack=wool|8 Светло-серый ][br][stack=wool|9 Бирюзовый][br][stack=wool|10 Пурпурный][br][stack=wool|11 Голубой]
+witchery:cauldronbook.modifiers3=[next=modifiers4][h1 Модификаторы: Цвет]Изменяет цвет отвара.[br][stack=wool|0 Белый ][br][stack=wool|1 Оранжевый][br][stack=wool|2 Пурпурный][br][stack=wool|3 Голубой][br][stack=wool|4 Жёлтый ][br][stack=wool|5 Лаймовый]
+witchery:cauldronbook.modifiers4=[next=modifiers5][h1 Модификаторы: Цвет][stack=wool|6 Розовый ][br][stack=wool|7 Серый ][br][stack=wool|8 Светло-серый ][br][stack=wool|9 Бирюзовый][br][stack=wool|10 Фиолетовый][br][stack=wool|11 Голубой]
 witchery:cauldronbook.modifiers5=[h1 Модификаторы: Цвет][stack=wool|12 Коричневый ][br][stack=wool|13 Зелёный ][br][stack=wool|14 Красный ][br][stack=wool|15 Чёрный]
 
 witchery:cauldronbook.dispersal=[i Рассредоточение] - Добавить можно лишь одно, после [url=extent области воздействия рассред.] или [url=linger длительности рассред.], чтобы установить нужное рассредоточение(Необязательно).[br][br][stack=gunpowder или][stack=witchery:ingredient|69 - Взрывное][br][stack=witchery:ingredient|24 - В виде облака газа][br][stack=witchery:ingredient|111 - В виде жидкости][br][stack=skull|2][url=dispersaltrigger|middle Механизированное]
@@ -1495,16 +1495,16 @@ tile.witchery:shadedglass_active.black.name=Чёрное затемнённое 
 tile.witchery:shadedglass_active.red.name=Красное затемнённое стекло
 tile.witchery:shadedglass_active.green.name=Зелёное затемнённое стекло
 tile.witchery:shadedglass_active.brown.name=Коричневое затемнённое стекло
-tile.witchery:shadedglass_active.blue.name=Голубое затемнённое стекло
-tile.witchery:shadedglass_active.purple.name=Пурпурное затемнённое стекло
+tile.witchery:shadedglass_active.blue.name=Синее затемнённое стекло
+tile.witchery:shadedglass_active.purple.name=Фиолетовое затемнённое стекло
 tile.witchery:shadedglass_active.cyan.name=Бирюзовое затемнённое стекло
 tile.witchery:shadedglass_active.silver.name=Серебряное затемнённое стекло
 tile.witchery:shadedglass_active.gray.name=Серое затемнённое стекло
 tile.witchery:shadedglass_active.pink.name=Розовое затемнённое стекло
 tile.witchery:shadedglass_active.lime.name=Лаймовое затемнённое стекло
 tile.witchery:shadedglass_active.yellow.name=Жёлтое затемнённое стекло
-tile.witchery:shadedglass_active.light_blue.name=Светло-голубое затемнённое стекло
-tile.witchery:shadedglass_active.magenta.name=Фиолетовое затемнённое стекло
+tile.witchery:shadedglass_active.light_blue.name=Голубое затемнённое стекло
+tile.witchery:shadedglass_active.magenta.name=Пурпурное затемнённое стекло
 tile.witchery:shadedglass_active.orange.name=Оранжевое затемнённое стекло
 tile.witchery:shadedglass_active.white.name=Белое затемнённое стекло
 
@@ -1512,16 +1512,16 @@ tile.witchery:shadedglass.black.name=Чёрное затемнённое сте�
 tile.witchery:shadedglass.red.name=Красное затемнённое стекло
 tile.witchery:shadedglass.green.name=Зелёное затемнённое стекло
 tile.witchery:shadedglass.brown.name=Коричневое затемнённое стекло
-tile.witchery:shadedglass.blue.name=Голубое затемнённое стекло
-tile.witchery:shadedglass.purple.name=Пурпурное затемнённое стекло
+tile.witchery:shadedglass.blue.name=Синее затемнённое стекло
+tile.witchery:shadedglass.purple.name=Фиолетовое затемнённое стекло
 tile.witchery:shadedglass.cyan.name=Бирюзовое затемнённое стекло
 tile.witchery:shadedglass.silver.name=Серебряное затемнённое стекло
 tile.witchery:shadedglass.gray.name=Серое затемнённое стекло
 tile.witchery:shadedglass.pink.name=Розовое затемнённое стекло
 tile.witchery:shadedglass.lime.name=Лаймовое затемнённое стекло
 tile.witchery:shadedglass.yellow.name=Жёлтое затемнённое стекло
-tile.witchery:shadedglass.light_blue.name=Светло-голубое затемнённое стекло
-tile.witchery:shadedglass.magenta.name=Фиолетовое затемнённое стекло
+tile.witchery:shadedglass.light_blue.name=Голубое затемнённое стекло
+tile.witchery:shadedglass.magenta.name=Пурпурное затемнённое стекло
 tile.witchery:shadedglass.orange.name=Оранжевое затемнённое стекло
 tile.witchery:shadedglass.white.name=Белое затемнённое стекло
 
