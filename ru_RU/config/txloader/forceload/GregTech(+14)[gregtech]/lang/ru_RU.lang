@@ -155,7 +155,6 @@ GT5U.MBTT.InputBus=Входной люк
 GT5U.MBTT.InputHatch=Входной шлюз
 GT5U.MBTT.OutputBus=Выходной люк
 GT5U.MBTT.OutputHatch=Выходной шлюз
-GT5U.MBTT.TecTechMultiAmp=Supports TecTech Multi-Amp Hatches!
 GT5U.MBTT.TecTechHatch=Поддерживает TecTech Мультиамперные энерговводы и лазеры!
 GT5U.MBTT.Param=Параметрайзер
 GT5U.MBTT.Uncertainty=Решитель неопределенности
@@ -168,21 +167,16 @@ GT5U.MBTT.Display=чтобы отобразить рекомендации по 
 GT5U.MBTT.StructureHint=Некоторые блоки имеют несколько кандидатов или могут использовать любой тир
 GT5U.MBTT.Mod=Добавлено
 GT5U.MBTT.Air=Обязательный воздух
+GT5U.MBTT.HatchInfo=Любой %s
+GT5U.MBTT.HatchDots= (точки %s)
+GT5U.MBTT.BoroGlassAny=Боросиликатное стекло (любое, смешанное)
+GT5U.MBTT.BoroGlassTiered=Боросиликатное стекло (любое)
 GT5U.MBTT.Structure.Complex=Эта структура слишком сложна!
 GT5U.MBTT.Structure.SeeStructure1=Чтобы увидеть структуру, используйте
 GT5U.MBTT.Structure.SeeStructure2=Голограммный проект на контроллере!
 GT5U.MBTT.Structure.MinGlassForLaser=-тировое стекло требуется для §9Tec§1Tech§7 лазеров.
 GT5U.MBTT.Structure.GlassEnergyLimit=Энерговвод ограничен тиром стекла
 GT5U.MBTT.Structure.GlassEnergyLimitTier=-тировое стекло разблокирует все.
-GT5U.MBTT.HatchInfo=Any %s
-GT5U.MBTT.HatchDots= (dots: %s)
-GT5U.MBTT.BoroGlassAny=Borosilicate Glass (any, mixed)
-GT5U.MBTT.BoroGlassTiered=Borosilicate Glass (any)
-
-GT5U.MBTT.HatchInfo=Любой %s
-GT5U.MBTT.HatchDots= (точки %s)
-GT5U.MBTT.BoroGlassAny=Боросиликатное стекло (любое, смешанное)
-GT5U.MBTT.BoroGlassTiered=Боросиликатное стекло (любое)
 
 GT5U.MBTT.subchannel=Использует подканал §6%s§r§7 для §6%s
 GT5U.tooltip.channelvalue=Используйте значение §6%d§r§7 ля подканала §6%s
@@ -396,6 +390,18 @@ gt.recipe.purificationplantuvtreatment=Обработка высокоэнерг
 gt.recipe.purificationplantdegasifier=Дегазация
 gt.recipe.purificationplantquarkextractor=Барионное совершенство
 gt.recipe.quantumcomputer=QC Components
+gt.recipe.steamgateassembler=Perfect Steam Progenesis
+gt.recipe.steamextruder=Hammer Conformation
+gt.recipe.steamextractinator=Extractination
+gt.recipe.cactuswonder=Offerings to the Cacti Pantheon
+gt.recipe.infernalcokeoven=Coke Oven but OP
+gt.recipe.steammanufacturing=Hydraulic Manufacturing
+gt.recipe.steamfusion=Hyper Pressure Reactor
+gt.recipe.steamcarpenter=Steamic Carpentry
+gt.recipe.steamwoodcutter=Vapor Gardening
+gt.recipe.lavamaker=Steam Vapor Melting
+
+GT5U.gui.text.metadata.steamfusion=Requires compact HPR
 
 # Recipe categories
 gt.recipe.category.arc_furnace_recycling=Переработка в дуговой печи
@@ -630,6 +636,7 @@ GT5U.machines.basic_tank.liquid_amount=Количество жидкости
 GT5U.machines.computation_hatch.pending_computation=§7Total Computation I/O: §b%d§r
 GT5U.machines.computation_hatch.wasted_computation=§7Wasted Computation: §b%d§r
 
+
 GT5U.recipe_filter.empty_representation_slot.tooltip=§7Click with a machine to set filter
 GT5U.recipe_filter.representation_slot.tooltip=§7Click to clear
 GT5U.type_filter.representation_slot.tooltip=§7Left click to cycle forward
@@ -832,7 +839,8 @@ GT5U.item.pipe.gas_proof.yes=Да
 GT5U.item.pipe.gas_proof.no=Нет
 GT5U.item.pipe.amount=Количество труб
 GT5U.item.pipe.empty=Пусто
-GT5U.item.pipe.swap=Pipe Swapped:
+
+GT5U.item.programmed_circuit.select.header=Reprogram Circuit
 
 GT5U.item.programmed_circuit.select.header=Схема перепрограммирования
 
@@ -891,7 +899,7 @@ GT5U.multiblock.maxtier=Макс. Тир
 GT5U.multiblock.usage=Примерное потребление
 GT5U.multiblock.parallelism=Макс параллель
 GT5U.multiblock.curparallelism=Текущая параллель
-GT5U.multiblock.euModifier=EU Modifier
+GT5U.multiblock.euModifier=EU Модификатор
 GT5U.multiblock.speed=Скорость
 GT5U.multiblock.fluidPipeTier=Тир жидкостной трубы
 GT5U.multiblock.itemPipeTier=Тир предметной трубы
