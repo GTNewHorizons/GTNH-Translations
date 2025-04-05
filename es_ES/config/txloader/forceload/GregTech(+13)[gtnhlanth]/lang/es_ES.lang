@@ -1,6 +1,6 @@
 # RecipeMaps
-gtnhlanth.recipe.digester=Digester
-gtnhlanth.recipe.disstank=Dissolution Tank
+gtnhlanth.recipe.digester=Digestor
+gtnhlanth.recipe.disstank=Tanque de Disolución
 gtnhlanth.recipe.tc=Target Chamber
 gtnhlanth.recipe.sc=Source Chamber
 
@@ -83,19 +83,19 @@ TargetChamber.hint.12=Dot 5: Beamline Input Hatch
 fluid.Antimony Pentafluoride Solution=Antimony Pentafluoride Solution
 fluid.Hafnium Tetrachloride Solution=Hafnium Tetrachloride Solution
 fluid.Zirconium Tetrachloride Solution=Zirconium Tetrachloride Solution
-fluid.Iodine=Iodine
+fluid.Iodine=Yodo
 fluid.Muddy Monazite Rare Earth Solution=Muddy Monazite Rare Earth Solution
 fluid.Diluted Monazite Rare Earth Mud=Diluted Monazite Rare Earth Mud
 fluid.Diluted Monazite Sulfate=Diluted Monazite Sulfate
 fluid.Nitrogenated Monazite Rare Earth Concentrate=Nitrogenated Monazite Rare Earth Concentrate
 fluid.Nitric Monazite Leached Concentrate=Nitric Monazite Leached Concentrate
-fluid.Ammonium Nitrate Solution=Ammonium Nitrate Solution
-fluid.Seaweed Concentrate=Seaweed Concentrate
+fluid.Ammonium Nitrate Solution=Solución de Nitrato de Amonio
+fluid.Seaweed Concentrate=Concentrado de Algas
 fluid.Potassium Permanganate Solution=Potassium Permanganate Solution
 fluid.Seaweed Byproducts=Seaweed Byproducts
 fluid.Nitric-Leached Monazite Mixture=Nitric-Leached Monazite Mixture
 fluid.Muddy Bastnasite Rare Earth Solution=Muddy Bastnasite Rare Earth Solution
-fluid.Sodiumfluorosilicate=Sodiumfluorosilicate
+fluid.Sodiumfluorosilicate=Fluorosilicato de sodio
 fluid.Steam-Cracked Bastnasite Mud=Steam-Cracked Bastnasite Mud
 fluid.Conditioned Bastnasite Mud=Conditioned Bastnasite Mud
 fluid.Diluted Bastnasite Mud=Diluted Bastnasite Mud
@@ -104,21 +104,21 @@ fluid.Nitrogenated Bastnasite Rarer Earth Oxides=Nitrogenated Bastnasite Rarer E
 fluid.Bastnasite Rarer Earth Oxide Suspension=Bastnasite Rarer Earth Oxide Suspension
 fluid.Calcium Fluoride=Calcium Fluoride
 fluid.Tetrahydrofuran=Tetrahydrofuran
-"fluid.1,4-Butanediol"="1,4-butanediol"
+"fluid.1,4-Butanediol"="1,4-butanodiol"
 "fluid.Acidicised 1,4-Butanediol"="acidicised 1,4-butanediol"
 fluid.Polytetrahydrofuran=Polytetrahydrofuran
 fluid.Tungstophosphoric Acid=Tungstophosphoric Acid
 fluid.Toluene Diisocyanate=Toluene Diisocyanate
-fluid.Dinitrotoluene=Dinitrotoluene
-fluid.Diaminotoluene=Diaminotoluene
+fluid.Dinitrotoluene=Dinitrotolueno
+fluid.Diaminotoluene=Diaminotolueno
 fluid.Toluene Tetramethyl Diisocyanate=Toluene Tetramethyl Diisocyanate
 fluid.Diluted Acetone=Diluted Acetone
 
 tile.casing.shielded_accelerator_glass.name=Shielded Accelerator Glass
-casing.electrode.name=Electrode Casing
-casing.coolant_delivery.name=Coolant Delivery Casing
-casing.antenna_t1.name=Antenna Casing (T1)
-casing.antenna_t2.name=Antenna Casing (T2)
+casing.electrode.name=Carcasa de Electrodo
+casing.coolant_delivery.name=Carcasa Proveedora de Refrigerante
+casing.antenna_t1.name=Carcasa de Antena (T1)
+casing.antenna_t2.name=Carcasa de Antena (T2)
 casing.niobium_cavity.name=Niobium Cavity Machine Casing
 casing.focus_manipulator.name=Focus Manipulator
 casing.focus_holder.name=Focus Holder
@@ -127,8 +127,8 @@ casing.target_holder.name=Target Holder
 casing.shielded_accelerator.name=Shielded Accelerator Casing
 
 item.capillary_exchange.name=Capillary Exchange
-item.mm_lattice.name=Mu-Metal Lattice
-item.iron_quartz_plate.name=Iron Quartz Plate
+item.mm_lattice.name=Enrejado de Mu-Metal
+item.iron_quartz_plate.name=Placa de Hierro de Cuarzo
 item.mask_substrate.name=Mask Substrate
 item.etched_mask1.name=Etched Mask
 item.substrate_precursor.name=Substrate Precursor
@@ -137,17 +137,17 @@ item.masked_mask_substrate.name=Processed Mask Substrate
 
 
 
-beamline.info=Machine Information
+beamline.info=Información de Maquina
 
 beamline.in_pre=Multiblock Beamline Input
-beamline.particle=Particle
-beamline.energy=Energy
-beamline.focus=Focus
-beamline.amount=Amount
-beamline.rate=Rate
+beamline.particle=Particula
+beamline.energy=Energía
+beamline.focus=Enfoque
+beamline.amount=Cantidad
+beamline.rate=Tasa
 
-beamline.temperature=Temperature
-beamline.coolusage=Coolant Usage
+beamline.temperature=Temperatura
+beamline.coolusage=Uso de Refrigerante
 
 beamline.out_pre=Multiblock Beamline Output
 
@@ -159,9 +159,9 @@ beamline.pipe.desc.1=Signal does not cross or bend
 tile.recipe.tc=Target Chamber
 tile.recipe.sc=Source Chamber
 
-particle.electron=Electron
-particle.photon=Photon
-particle.alpha=Alpha
-particle.neutron=Neutron
-particle.proton=Proton
+particle.electron=Electrón
+particle.photon=Fotón
+particle.alpha=Alfa
+particle.neutron=Neutrón
+particle.proton=Protón
 GT5U.gui.text.dissolution_ratio=§7Wrong fluid input ratio
