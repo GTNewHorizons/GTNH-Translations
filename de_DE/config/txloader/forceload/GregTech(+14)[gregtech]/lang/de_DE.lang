@@ -143,7 +143,7 @@ GT5U.MBTT.Minimum=(minimum)
 GT5U.MBTT.Tiered=(tiered)
 GT5U.MBTT.MaintenanceHatch=Maintenance Hatch
 GT5U.MBTT.MufflerHatch=Muffler Hatch
-GT5U.MBTT.EnergyHatch=Energy Hatch
+GT5U.MBTT.EnergyHatch=Steam Hatch
 GT5U.MBTT.DynamoHatch=Dynamo Hatch
 GT5U.MBTT.MultiampEnergyHatch=Multi-Amp Energy Hatch
 GT5U.MBTT.MultiampEnergyDynamo=Multi-Amp Dynamo Hatch
@@ -155,12 +155,11 @@ GT5U.MBTT.InputBus=Input Bus
 GT5U.MBTT.InputHatch=Input Hatch
 GT5U.MBTT.OutputBus=Output Bus
 GT5U.MBTT.OutputHatch=Output Hatch
-GT5U.MBTT.TecTechMultiAmp=Supports TecTech Multi-Amp Hatches!
 GT5U.MBTT.TecTechHatch=Supports TecTech Multi-Amp and Laser Hatches!
 GT5U.MBTT.Param=Parametrizer Hatch
 GT5U.MBTT.Uncertainty=Uncertainty Hatch
-GT5U.MBTT.InputData=Data Reception Connector
-GT5U.MBTT.OutputData=Data Transmission Connector
+GT5U.MBTT.InputData=Data Transmission Connector
+GT5U.MBTT.OutputData=Data Reception Connector
 GT5U.MBTT.Causes=Causes
 GT5U.MBTT.PPS=pollution per second
 GT5U.MBTT.Hold=Hold
@@ -168,21 +167,16 @@ GT5U.MBTT.Display=to display structure guidelines
 GT5U.MBTT.StructureHint=Some blocks have multiple candidates or can use any tier
 GT5U.MBTT.Mod=Added by
 GT5U.MBTT.Air=Mandatory Air
+GT5U.MBTT.HatchInfo=Any %s
+GT5U.MBTT.HatchDots= (dots: %s)
+GT5U.MBTT.BoroGlassAny=Borosilicate Glass (any, mixed)
+GT5U.MBTT.BoroGlassTiered=Borosilicate Glass (any)
 GT5U.MBTT.Structure.Complex=Structure is too complex!
 GT5U.MBTT.Structure.SeeStructure1=To see the structure, use a
 GT5U.MBTT.Structure.SeeStructure2=Hologram Projector on the Controller!
 GT5U.MBTT.Structure.MinGlassForLaser=-tier glass required for §9Tec§1Tech§7 Laser Hatches.
 GT5U.MBTT.Structure.GlassEnergyLimit=Energy Hatch limited by Glass tier
 GT5U.MBTT.Structure.GlassEnergyLimitTier=-tier Glass unlocks all.
-GT5U.MBTT.HatchInfo=Any %s
-GT5U.MBTT.HatchDots= (dots: %s)
-GT5U.MBTT.BoroGlassAny=Borosilicate Glass (any, mixed)
-GT5U.MBTT.BoroGlassTiered=Borosilicate Glass (any)
-
-GT5U.MBTT.HatchInfo=Any %s
-GT5U.MBTT.HatchDots= (dots: %s)
-GT5U.MBTT.BoroGlassAny=Borosilicate Glass (any, mixed)
-GT5U.MBTT.BoroGlassTiered=Borosilicate Glass (any)
 
 GT5U.MBTT.subchannel=Uses sub channel §6%s§r§7 for §6%s
 GT5U.tooltip.channelvalue=Use value §6%d§r§7 for sub channel §6%s
@@ -396,6 +390,18 @@ gt.recipe.purificationplantuvtreatment=High Energy Laser Treatment
 gt.recipe.purificationplantdegasifier=Degassing
 gt.recipe.purificationplantquarkextractor=Baryonic Perfection
 gt.recipe.quantumcomputer=QC Components
+gt.recipe.steamgateassembler=Perfect Steam Progenesis
+gt.recipe.steamextruder=Hammer Conformation
+gt.recipe.steamextractinator=Extractination
+gt.recipe.cactuswonder=Offerings to the Cacti Pantheon
+gt.recipe.infernalcokeoven=Coke Oven but OP
+gt.recipe.steammanufacturing=Hydraulic Manufacturing
+gt.recipe.steamfusion=Hyper Pressure Reactor
+gt.recipe.steamcarpenter=Steamic Carpentry
+gt.recipe.steamwoodcutter=Vapor Gardening
+gt.recipe.lavamaker=Steam Vapor Melting
+
+GT5U.gui.text.metadata.steamfusion=Requires compact HPR
 
 # Recipe categories
 gt.recipe.category.arc_furnace_recycling=Arc Furnace Recycling
@@ -443,7 +449,7 @@ GT5U.machines.digitaltank.voidoverflow.tooltip.1=§7Voids all fluid excess if th
 GT5U.machines.digitaltank.voidfull.tooltip=Void Full Mode
 GT5U.machines.digitaltank.voidfull.tooltip.1=§7Voids all fluids that enter the tank
 GT5U.machines.digitaltank.inputfromoutput.tooltip=Input Fluid from Output Side
-GT5U.machines.select_circuit=Configure Circuit
+GT5U.machines.select_circuit=Adjust Internal Cog
 GT5U.machines.select_circuit.tooltip=Ghost Circuit Slot
 GT5U.machines.select_circuit.tooltip.configuration=§aConfiguration: §f%s§r
 GT5U.machines.select_circuit.tooltip.configuration.none=None
@@ -630,6 +636,7 @@ GT5U.machines.basic_tank.liquid_amount=Liquid Amount
 GT5U.machines.computation_hatch.pending_computation=§7Total Computation I/O: §b%d§r
 GT5U.machines.computation_hatch.wasted_computation=§7Wasted Computation: §b%d§r
 
+
 GT5U.recipe_filter.empty_representation_slot.tooltip=§7Click with a machine to set filter
 GT5U.recipe_filter.representation_slot.tooltip=§7Click to clear
 GT5U.type_filter.representation_slot.tooltip=§7Left click to cycle forward
@@ -750,7 +757,7 @@ GT5U.gui.text.shutdown_duration=§4Shut down §e%s §4h §e%s §4min §e%s §4s 
 GT5U.gui.text.out_of_fluid=§4No following fluids supplied: §b%s§f x §6%s L
 GT5U.gui.text.out_of_item=§4No following items supplied: §b%s§f x §6%s
 GT5U.gui.text.out_of_stuff=§4No following stuffs supplied: §b%s§f x §6%s
-GT5U.gui.text.power_loss=§4Shut down due to power loss.
+GT5U.gui.text.power_loss=§4Shut down due to pressure loss.
 GT5U.gui.text.pollution_fail=§4Failed to output the pollution.
 GT5U.gui.text.structure_incomplete=§4Shut down due to incomplete structure.
 GT5U.gui.text.no_repair=§4Shut down due to machine damage.
@@ -832,12 +839,13 @@ GT5U.item.pipe.gas_proof.yes=Yes
 GT5U.item.pipe.gas_proof.no=No
 GT5U.item.pipe.amount=Pipe Amount
 GT5U.item.pipe.empty=Empty
-GT5U.item.pipe.swap=Pipe Swapped:
+
+GT5U.item.programmed_circuit.select.header=Reprogram Circuit
 
 GT5U.item.programmed_circuit.select.header=Reprogram Circuit
 
 gt.behaviour.paintspray.infinite.gui.header=Select a Color
-gt.behaviour.paintspray.infinite.gui.lock_error=§eSpray can is §clocked§e! §bCtrl middle-click to unlock.
+gt.behaviour.paintspray.infinite.gui.lock_error=§eSpray can is §clocked§e! §bSneak middle-click to unlock.
 gt.behaviour.paintspray.infinite.gui.solvent=Solvent
 gt.behaviour.paintspray.infinite.gui.shake_toggle=Allow/disallow color iteration
 
@@ -848,9 +856,9 @@ gt.behaviour.paintspray.infinite.tooltip.preventing_shake=Left click action disa
 
 gt.behaviour.paintspray.infinite.tooltip.switch=Left Click: Change color (sneak to reverse direction)
 gt.behaviour.paintspray.infinite.tooltip.pick=Middle Click block: Copy color to spray can
-gt.behaviour.paintspray.infinite.tooltip.lock=%s Middle Click: Lock or unlock spray can
+gt.behaviour.paintspray.infinite.tooltip.lock=Sneak Middle Click: Lock or unlock spray can
 gt.behaviour.paintspray.infinite.tooltip.gui=Middle Click: Open color choice GUI
-gt.behaviour.paintspray.infinite.tooltip.prevent_shake=Shift Middle Click: Allow/prevent left click action
+gt.behaviour.paintspray.infinite.tooltip.prevent_shake=%s-Middle Click: Allow/prevent left click action
 gt.behaviour.paintspray.infinite.tooltip.ctrl_pc=Ctrl
 gt.behaviour.paintspray.infinite.tooltip.ctrl_mac=Command
 
