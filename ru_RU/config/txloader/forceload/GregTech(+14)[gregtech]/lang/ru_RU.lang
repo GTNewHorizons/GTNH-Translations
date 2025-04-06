@@ -124,7 +124,9 @@ GT5U.infinite_spray_can.color.Cable Insulation=Изоляция кабеля
 GT5U.infinite_spray_can.color.Construction Foam=Строительная пена
 GT5U.infinite_spray_can.color.Machine Metal=Металл механизма
 
-
+# Power Goggles
+GT5U.power_goggles.open_config_gui=Open Goggles Config
+GT5U.power_goggles.toggle_power_chart=Toggle Power Chart
 
 GT5U.autoplace.error.no_hatch=§cSuggested to place hatch §4%s§c but none was found
 GT5U.autoplace.error.no_mte.id=§cSuggested to place machine with meta ID §4%s§c but none was found
@@ -155,6 +157,7 @@ GT5U.MBTT.InputBus=Входной люк
 GT5U.MBTT.InputHatch=Входной шлюз
 GT5U.MBTT.OutputBus=Выходной люк
 GT5U.MBTT.OutputHatch=Выходной шлюз
+GT5U.MBTT.TecTechMultiAmp=Supports TecTech Multi-Amp Hatches!
 GT5U.MBTT.TecTechHatch=Поддерживает TecTech Мультиамперные энерговводы и лазеры!
 GT5U.MBTT.Param=Параметрайзер
 GT5U.MBTT.Uncertainty=Решитель неопределенности
@@ -167,16 +170,16 @@ GT5U.MBTT.Display=чтобы отобразить рекомендации по 
 GT5U.MBTT.StructureHint=Некоторые блоки имеют несколько кандидатов или могут использовать любой тир
 GT5U.MBTT.Mod=Добавлено
 GT5U.MBTT.Air=Обязательный воздух
-GT5U.MBTT.HatchInfo=Любой %s
-GT5U.MBTT.HatchDots= (точки %s)
-GT5U.MBTT.BoroGlassAny=Боросиликатное стекло (любое, смешанное)
-GT5U.MBTT.BoroGlassTiered=Боросиликатное стекло (любое)
 GT5U.MBTT.Structure.Complex=Эта структура слишком сложна!
 GT5U.MBTT.Structure.SeeStructure1=Чтобы увидеть структуру, используйте
 GT5U.MBTT.Structure.SeeStructure2=Голограммный проект на контроллере!
 GT5U.MBTT.Structure.MinGlassForLaser=-тировое стекло требуется для §9Tec§1Tech§7 лазеров.
 GT5U.MBTT.Structure.GlassEnergyLimit=Энерговвод ограничен тиром стекла
 GT5U.MBTT.Structure.GlassEnergyLimitTier=-тировое стекло разблокирует все.
+GT5U.MBTT.HatchInfo=Любой %s
+GT5U.MBTT.HatchDots= (точки %s)
+GT5U.MBTT.BoroGlassAny=Боросиликатное стекло (любое, смешанное)
+GT5U.MBTT.BoroGlassTiered=Боросиликатное стекло (любое)
 
 GT5U.MBTT.subchannel=Использует подканал §6%s§r§7 для §6%s
 GT5U.tooltip.channelvalue=Используйте значение §6%d§r§7 ля подканала §6%s
@@ -390,18 +393,6 @@ gt.recipe.purificationplantuvtreatment=Обработка высокоэнерг
 gt.recipe.purificationplantdegasifier=Дегазация
 gt.recipe.purificationplantquarkextractor=Барионное совершенство
 gt.recipe.quantumcomputer=QC Components
-gt.recipe.steamgateassembler=Perfect Steam Progenesis
-gt.recipe.steamextruder=Hammer Conformation
-gt.recipe.steamextractinator=Extractination
-gt.recipe.cactuswonder=Offerings to the Cacti Pantheon
-gt.recipe.infernalcokeoven=Coke Oven but OP
-gt.recipe.steammanufacturing=Hydraulic Manufacturing
-gt.recipe.steamfusion=Hyper Pressure Reactor
-gt.recipe.steamcarpenter=Steamic Carpentry
-gt.recipe.steamwoodcutter=Vapor Gardening
-gt.recipe.lavamaker=Steam Vapor Melting
-
-GT5U.gui.text.metadata.steamfusion=Requires compact HPR
 
 # Recipe categories
 gt.recipe.category.arc_furnace_recycling=Переработка в дуговой печи
@@ -449,7 +440,7 @@ GT5U.machines.digitaltank.voidoverflow.tooltip.1=§7Удаляет все изл
 GT5U.machines.digitaltank.voidfull.tooltip=Режим утилизации
 GT5U.machines.digitaltank.voidfull.tooltip.1=§7Удаляет все жидкости, попадающие в резервуар
 GT5U.machines.digitaltank.inputfromoutput.tooltip=Ввод жидкости со стороны выхода
-GT5U.machines.select_circuit=Настроить схему
+GT5U.machines.select_circuit=Отрегулируйте внутреннюю шестерню
 GT5U.machines.select_circuit.tooltip=Слот призрачной схемы
 GT5U.machines.select_circuit.tooltip.configuration=§aКонфигурация: §f%s§r
 GT5U.machines.select_circuit.tooltip.configuration.none=Нет
@@ -635,7 +626,6 @@ GT5U.machines.hatch_output.lockfluid.empty=None
 GT5U.machines.basic_tank.liquid_amount=Количество жидкости
 GT5U.machines.computation_hatch.pending_computation=§7Total Computation I/O: §b%d§r
 GT5U.machines.computation_hatch.wasted_computation=§7Wasted Computation: §b%d§r
-
 
 GT5U.recipe_filter.empty_representation_slot.tooltip=§7Click with a machine to set filter
 GT5U.recipe_filter.representation_slot.tooltip=§7Click to clear
@@ -839,8 +829,7 @@ GT5U.item.pipe.gas_proof.yes=Да
 GT5U.item.pipe.gas_proof.no=Нет
 GT5U.item.pipe.amount=Количество труб
 GT5U.item.pipe.empty=Пусто
-
-GT5U.item.programmed_circuit.select.header=Reprogram Circuit
+GT5U.item.pipe.swap=Pipe Swapped:
 
 GT5U.item.programmed_circuit.select.header=Схема перепрограммирования
 
