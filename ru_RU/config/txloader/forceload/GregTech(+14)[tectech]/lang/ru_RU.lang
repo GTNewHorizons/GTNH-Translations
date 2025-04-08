@@ -537,7 +537,7 @@ gt.blockmachines.hatch.datainass.desc.2=Должно быть окрашено �
 gt.blockmachines.hatch.datainasswireless.desc.0=Беспроводной квантовый ввод данных в мультиблок
 gt.blockmachines.hatch.datainasswireless.desc.1=Высокоскоростное подключение к интернету
 
-gt.blockmachines.hatch.dataoutass.tier.07.name=Разъем передачи банка данных
+gt.blockmachines.hatch.dataoutass.tier.07.name=Выходной разъём для банка данных
 gt.blockmachines.hatch.dataoutass.desc.0=Квантовый вывод данных из мультиблока
 gt.blockmachines.hatch.dataoutass.desc.1=Высокоскоростное оптоволоконное соединение.
 gt.blockmachines.hatch.dataoutass.desc.2=Должно быть окрашено для работы
@@ -799,7 +799,7 @@ gt.blockmachines.multimachine.em.collider.hint.2=3 - Элементные вых
 gt.blockmachines.multimachine.em.collider.hint.3=4 - Элементный шлюз переполнения или Молекулярный корпус
 gt.blockmachines.multimachine.em.collider.hint.4=General - Ещё один контроллер, направленный в противоположную сторону
 gt.blockmachines.multimachine.em.collider.desc.0=Блок-контроллер материального коллайдера
-gt.blockmachines.multimachine.em.collider.desc.1=Для работы этой машины нужна ее зеркальная копия
+gt.blockmachines.multimachine.em.collider.desc.1=Для работы этого механизма нужна ее зеркальная копия
 gt.blockmachines.multimachine.em.collider.desc.2=Один должен быть установлен на 'Режим слияния', а другой - на 'Режим столкновения'
 gt.blockmachines.multimachine.em.collider.desc.3=Сплавляет две элементарные материи для создания другой (и энергии)
 gt.blockmachines.multimachine.em.collider.mode.0=Режим: Слияние
@@ -1188,7 +1188,7 @@ gt.blockmachines.multimachine.FOG.exoticizer=Exoticizer
 gt.blockmachines.multimachine.FOG.heat=Heat
 gt.blockmachines.multimachine.FOG.effectiveheat=Effective Heat
 gt.blockmachines.multimachine.FOG.speedbonus=Speed Bonus
-gt.blockmachines.multimachine.FOG.energydiscount=Energy Discount
+gt.blockmachines.multimachine.FOG.energydiscount=Скидка на энергию
 gt.blockmachines.multimachine.FOG.ocdivisor=OC Divisor
 gt.blockmachines.multimachine.FOG.processingvoltage=Processing Voltage
 gt.blockmachines.multimachine.FOG.factorpreview=Preview Fuel Factor:
@@ -1394,7 +1394,7 @@ tt.nei.eoh.solid_mass=Процент твердой массы: %s%%
 tt.nei.eoh.item_count=Количество предметов: %s
 tt.nei.research.max_eu=Макс. EU: %s EU
 tt.nei.research.computation=Вычисление: %s
-tt.nei.research.min_computation=Мин. вычислений: %s /s
+tt.nei.research.min_computation=Мин. вычислений: %s /сек
 
 #Keywords and phrases
 #Example: ID:3
@@ -1923,7 +1923,7 @@ tt.eoh.fancy_names.unknown=Неизвестный
 # Info data
 
 tt.infodata.multi.energy_hatches=Энерговводы: %s EU / %s EU
-tt.infodata.multi.currently_generates=Примерно генерирует: %s EU/t at %s A
+tt.infodata.multi.currently_generates=Примерно генерирует: %s EU/t при %s A
 tt.infodata.multi.computation=Вычисление: %s / %s
 tt.infodata.multi.max_parallel=Макс. параллелей: %s
 tt.infodata.multi.multiplier.recipe_time=Множитель времени рецепта: %s
@@ -1948,10 +1948,10 @@ tt.infodata.eoh.success_chance=Шанс успеха рецепта: %s
 tt.infodata.eoh.recipe_yield=Выход рецепта: %s
 tt.infodata.eoh.effective_astral_array_fabricators=Действующие астральные массивы: %s
 tt.infodata.eoh.total_parallel=Всего параллелей: %s
-tt.infodata.eoh.eu_output=Выход EU: %s EU
+tt.infodata.eoh.eu_output=Вывод EU: %s EU
 tt.infodata.eoh.eu_input=Ввод EU: %s EU
-tt.infodata.eoh.avg_output=Средний выход %s: %s Л, %s Л/сек
-tt.infodata.eoh.estimated_eu=Estimated EU/t: %s EU/t
+tt.infodata.eoh.avg_output=Средний вывод %s: %s Л, %s Л/сек
+tt.infodata.eoh.estimated_eu=Расчётные EU/t: %s EU/t
 
 ## Quantum Computer
 tt.infodata.qc.wireless_mode.enabled=Беспроводной режим: §aвключен
