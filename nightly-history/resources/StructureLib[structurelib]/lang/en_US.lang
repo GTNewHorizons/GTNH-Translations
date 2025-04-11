@@ -22,6 +22,9 @@ item.structurelib.frontRotationTool.desc.1=Rotates only the front panel,
 item.structurelib.frontRotationTool.desc.2=which allows structure rotation.
 
 item.structurelib.constructableTrigger.name=Multiblock Structure Hologram Projector
+item.structurelib.constructableTrigger.modes.0=Building Mode
+item.structurelib.constructableTrigger.modes.1=Updating Mode
+item.structurelib.constructableTrigger.modes.2=Removing Mode
 item.structurelib.constructableTrigger.desc.0=Triggers Constructable Interface
 item.structurelib.constructableTrigger.desc.1=Shows multiblock construction schematic,
 item.structurelib.constructableTrigger.desc.2=use on the multiblock controller.
@@ -40,6 +43,13 @@ item.structurelib.constructableTrigger.gui.error.show=Show Errors
 item.structurelib.constructableTrigger.gui.error.hide=Hide Errors
 item.structurelib.constructableTrigger.gui.gt_no_hatch.enable=No Hatch
 item.structurelib.constructableTrigger.gui.gt_no_hatch.disable=Hatches
+item.structurelib.constructableTrigger.keyCategory=Multiblock Structure Hologram Projector Keys
+item.structurelib.constructableTrigger.keys.cycleMode=Cycle Projector Mode
+item.structurelib.constructableTrigger.gui.channels.from=§rMod: §9§o%s
+
+channels.structurelib.show_errors=When set, will highlight parts of the multiblock that is definitely wrong
+
+structurelib.tooltip.channelvalue=§7Indicates value §6%d§r§7 for sub channel §6%s
 
 structurelib.autoplace.built_stat=Built %s blocks
 structurelib.autoplace.complete=§aThis multiblock has completed!
