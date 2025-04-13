@@ -1,55 +1,55 @@
-neiintegration.yes=Yes
-neiintegration.no=No
+neiintegration.yes=はい
+neiintegration.no=いいえ
 
 neiintegration.shaped=定型
 neiintegration.shapeless=不定形
 
 neiintegration.chance=確率: %s
-neiintegration.chance.never=Never
+neiintegration.chance.never=不可能
 neiintegration.chance.lessThan1=<1%
 
 neiintegration.ticks=ティック
 
 neiintegration.tooltip.internalName=ID:
-neiintegration.tooltip.unlocalizedName=Unloc. name:
+neiintegration.tooltip.unlocalizedName=ローカライズ前の名称:
 neiintegration.tooltip.maxstack=最大スタック量:
 neiintegration.tooltip.burntime=燃焼時間:
 neiintegration.tooltip.oredict=鉱石辞書名:
 neiintegration.tooltip.fluidreg=液体登録情報:
-neiintegration.tooltip.fluidreg.empty=Empty Container
+neiintegration.tooltip.fluidreg.empty=空のコンテナ
 
 neiintegration.config.title=NEI Integration の設定
-neiintegration.config.integrations=Mod Integrations settings
-neiintegration.config.integrations.tooltip=Enable or disable all recipe handlers for certain mods.
-neiintegration.config.handlers=Recipe Handler settings
-neiintegration.config.handlers.tooltip=Enable or disable some of the recipe handlers this mod adds.
+neiintegration.config.integrations=Mod連携の設定
+neiintegration.config.integrations.tooltip=特定のMODに対してすべてのレシピハンドラを有効または無効にする。
+neiintegration.config.handlers=レシピハンドラの設定
+neiintegration.config.handlers.tooltip=このModが追加するレシピハンドラの一部を有効または無効にする。
 neiintegration.config.tooltips=Item Tooltip の設定
-neiintegration.config.tooltips.tooltip=No tooltip defined. How ironic.
+neiintegration.config.tooltips.tooltip=ツールチップはありません。皮肉なことに。
 
 nei.options.tools.dump.neiintegration=NEI Integration
-nei.options.tools.dump.neiintegration.chestloots=Chest Loot
-nei.options.tools.dump.neiintegration.chestloot=Chest Loot
-nei.options.tools.dump.neiintegration.dimension=Dimension
-nei.options.tools.dump.neiintegration.dimensions=Dimensions
-nei.options.tools.dump.neiintegration.entity=Entity
-nei.options.tools.dump.neiintegration.entitys=Entities
-nei.options.tools.dump.neiintegration.fluid=Fluid
-nei.options.tools.dump.neiintegration.fluids=Fluids
-nei.options.tools.dump.neiintegration.fluidcontainer=Fluid Container
-nei.options.tools.dump.neiintegration.fluidcontainers=Fluid Containers
-nei.options.tools.dump.neiintegration.inventory=Player Inventory
-nei.options.tools.dump.neiintegration.inventorys=Player Inventory
-nei.options.tools.dump.neiintegration.loadedmod=Loaded Mod
-nei.options.tools.dump.neiintegration.loadedmods=Loaded Mods
+nei.options.tools.dump.neiintegration.chestloots=チェストの戦利品
+nei.options.tools.dump.neiintegration.chestloot=チェストの戦利品
+nei.options.tools.dump.neiintegration.dimension=ディメンション
+nei.options.tools.dump.neiintegration.dimensions=ディメンション
+nei.options.tools.dump.neiintegration.entity=エンティティ
+nei.options.tools.dump.neiintegration.entitys=エンティティ
+nei.options.tools.dump.neiintegration.fluid=液体
+nei.options.tools.dump.neiintegration.fluids=液体
+nei.options.tools.dump.neiintegration.fluidcontainer=液体コンテナ
+nei.options.tools.dump.neiintegration.fluidcontainers=液体コンテナ
+nei.options.tools.dump.neiintegration.inventory=プレイヤーのインベントリ
+nei.options.tools.dump.neiintegration.inventorys=プレイヤーのインベントリ
+nei.options.tools.dump.neiintegration.loadedmod=ロード済みのMod
+nei.options.tools.dump.neiintegration.loadedmods=ロード済みのMod
 nei.options.tools.dump.neiintegration.oredict=鉱石辞書
 nei.options.tools.dump.neiintegration.oredicts=鉱石辞書
-nei.options.tools.dump.neiintegration.recipehandler=Recipe Handler
-nei.options.tools.dump.neiintegration.recipehandlers=Recipe Handlers
-nei.options.tools.dump.neiintegration.tileentity=Tile Entity
-nei.options.tools.dump.neiintegration.tileentitys=Tile Entities
+nei.options.tools.dump.neiintegration.recipehandler=レシピハンドラ
+nei.options.tools.dump.neiintegration.recipehandlers=レシピハンドラ
+nei.options.tools.dump.neiintegration.tileentity=タイルエンティティ
+nei.options.tools.dump.neiintegration.tileentitys=タイルエンティティ
 
 # Forge
-neiintegration.handler.fluidRegistry=液体登録
+neiintegration.handler.fluidRegistry=液体レジストリ
 neiintegration.handler.fluidRegistry.id=ID:
 neiintegration.handler.fluidRegistry.state=状態:
 neiintegration.handler.fluidRegistry.state.gaseous=ガス
@@ -64,13 +64,13 @@ neiintegration.handler.oreDictionary=鉱石辞書
 neiintegration.handler.oreDictionary.warning=読み込みに時間がかかることがあります!
 
 # BuildCraft
-neiintegration.handler.refinery.energyRate=%d RF at %d RF/t
+neiintegration.handler.refinery.energyRate=%d RF (%d RF/t)
 
 # Electrical Age
-neiintegration.handler.electricalage.compressor=Compressor (ELN)
-neiintegration.handler.electricalage.macerator=Macerator (ELN)
-neiintegration.handler.electricalage.magnetizer=Magnetizer
-neiintegration.handler.electricalage.plateMachine=Plate Machine
+neiintegration.handler.electricalage.compressor=圧縮機 (ELN)
+neiintegration.handler.electricalage.macerator=破砕機 (ELN)
+neiintegration.handler.electricalage.magnetizer=磁化装置
+neiintegration.handler.electricalage.plateMachine=プレート製造機
 
 # Forestry
 neiintegration.handler.forestry.shaped=定形 (Forestry)
@@ -86,7 +86,7 @@ neiintegration.handler.grinder.mobs.1=経験値を多くドロップするモブ
 neiintegration.handler.grinder.mobs.2=より多くのエッセンスを生産します。
 neiintegration.handler.harvester.harvestables=ブロックを収穫します
 neiintegration.handler.harvester.harvestables.1=収穫時に副産物として汚泥がでます。
-neiintegration.handler.laserdrill.focus=Focus
+neiintegration.handler.laserdrill.focus=フォーカス
 neiintegration.handler.sewer.animals=動物または村人
 neiintegration.handler.sewer.animals.1=大型の動物ほど多くの汚水を生み出します。
 neiintegration.handler.sewer.xp=経験値オーブ

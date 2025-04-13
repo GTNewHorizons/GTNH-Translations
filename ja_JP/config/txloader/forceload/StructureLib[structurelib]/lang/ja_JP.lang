@@ -22,6 +22,9 @@ item.structurelib.frontRotationTool.desc.1=Rotates only the front panel,
 item.structurelib.frontRotationTool.desc.2=which allows structure rotation.
 
 item.structurelib.constructableTrigger.name=Multiblock Structure Hologram Projector
+item.structurelib.constructableTrigger.modes.0=Building Mode
+item.structurelib.constructableTrigger.modes.1=Updating Mode
+item.structurelib.constructableTrigger.modes.2=Removing Mode
 item.structurelib.constructableTrigger.desc.0=Triggers Constructable Interface
 item.structurelib.constructableTrigger.desc.1=Shows multiblock construction schematic,
 item.structurelib.constructableTrigger.desc.2=use on the multiblock controller.
@@ -30,6 +33,7 @@ item.structurelib.constructableTrigger.desc.4=Quantity of schematics in item sta
 item.structurelib.constructableTrigger.desc.5=Hold §l[LSHIFT]§r to display channel data
 item.structurelib.constructableTrigger.desc.lshift.0=Contain %d sub channel.
 item.structurelib.constructableTrigger.too_fast=Please wait %d milliseconds before another autoplace...
+item.structurelib.constructableTrigger.gui.title=Sub Channels
 item.structurelib.constructableTrigger.gui.key=Key:
 item.structurelib.constructableTrigger.gui.value=Value:
 item.structurelib.constructableTrigger.gui.add=Add
@@ -40,6 +44,15 @@ item.structurelib.constructableTrigger.gui.error.show=Show Errors
 item.structurelib.constructableTrigger.gui.error.hide=Hide Errors
 item.structurelib.constructableTrigger.gui.gt_no_hatch.enable=No Hatch
 item.structurelib.constructableTrigger.gui.gt_no_hatch.disable=Hatches
+item.structurelib.constructableTrigger.keyCategory=Multiblock Structure Hologram Projector Keys
+item.structurelib.constructableTrigger.keys.cycleMode=Cycle Projector Mode
+item.structurelib.constructableTrigger.gui.channels.from=§rMod: §9§o%s
+item.structurelib.constructableTrigger.gui.info=Many multiblocks support some degree of variation in its structure and use sub channels to indicate which variant to use.\n Sub channels are has a sequence of lower case characters as key and a positive integer as value. Most known sub channels should be available as typeahead completions.\nYou can also drag and drop items from NEI to set the corresponding sub channel value. These items all have a tooltip of §oIndicates value X for sub channel Y§r.
+
+channels.structurelib.show_errors=When set, will highlight parts of the multiblock that is definitely wrong
+
+structurelib.tooltip.channelvalue=§7Indicates value §6%d§r§7 for sub channel §6%s
+structurelib.tooltip.indicator_dnd=Drop into GUI to select this value for this channel
 
 structurelib.autoplace.built_stat=Built %s blocks
 structurelib.autoplace.complete=§aThis multiblock has completed!
