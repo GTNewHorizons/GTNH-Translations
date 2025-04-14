@@ -22,9 +22,9 @@ item.structurelib.frontRotationTool.desc.1=Поворачивает только
 item.structurelib.frontRotationTool.desc.2=что позволяет повернуть всю структуру.
 
 item.structurelib.constructableTrigger.name=Голограммный проектор мультиблоковой структуры
-item.structurelib.constructableTrigger.modes.0=Building Mode
-item.structurelib.constructableTrigger.modes.1=Updating Mode
-item.structurelib.constructableTrigger.modes.2=Removing Mode
+item.structurelib.constructableTrigger.modes.0=Режим строительства
+item.structurelib.constructableTrigger.modes.1=Режим улучшения
+item.structurelib.constructableTrigger.modes.2=Режим удаления
 item.structurelib.constructableTrigger.desc.0=Используется по интерфейсу контроллера
 item.structurelib.constructableTrigger.desc.1=Показывает схему постройки мультиблочной структуры,
 item.structurelib.constructableTrigger.desc.2=используется при нажатии по контроллеру
@@ -33,7 +33,7 @@ item.structurelib.constructableTrigger.desc.4=Количество проект�
 item.structurelib.constructableTrigger.desc.5=Удерживайте §l[LSHIFT]§r для отображения данных канала
 item.structurelib.constructableTrigger.desc.lshift.0=Содержит %d подканал
 item.structurelib.constructableTrigger.too_fast=Подождите %d миллисекунд перед очередным автозаполнением...
-item.structurelib.constructableTrigger.gui.title=Sub Channels
+item.structurelib.constructableTrigger.gui.title=Подканалы
 item.structurelib.constructableTrigger.gui.key=Ключ:
 item.structurelib.constructableTrigger.gui.value=Значение:
 item.structurelib.constructableTrigger.gui.add=Добавить
@@ -45,14 +45,14 @@ item.structurelib.constructableTrigger.gui.error.hide=Скрыть ошибки
 item.structurelib.constructableTrigger.gui.gt_no_hatch.enable=No Hatch
 item.structurelib.constructableTrigger.gui.gt_no_hatch.disable=Hatches
 item.structurelib.constructableTrigger.keyCategory=Multiblock Structure Hologram Projector Keys
-item.structurelib.constructableTrigger.keys.cycleMode=Cycle Projector Mode
-item.structurelib.constructableTrigger.gui.channels.from=§rMod: §9§o%s
+item.structurelib.constructableTrigger.keys.cycleMode=Режим циклического проектора
+item.structurelib.constructableTrigger.gui.channels.from=§rМод: §9§o%s
 item.structurelib.constructableTrigger.gui.info=Many multiblocks support some degree of variation in its structure and use sub channels to indicate which variant to use.\n Sub channels are has a sequence of lower case characters as key and a positive integer as value. Most known sub channels should be available as typeahead completions.\nYou can also drag and drop items from NEI to set the corresponding sub channel value. These items all have a tooltip of §oIndicates value X for sub channel Y§r.
 
 channels.structurelib.show_errors=When set, will highlight parts of the multiblock that is definitely wrong
 
-structurelib.tooltip.channelvalue=§7Indicates value §6%d§r§7 for sub channel §6%s
-structurelib.tooltip.indicator_dnd=Drop into GUI to select this value for this channel
+structurelib.tooltip.channelvalue=§7Указывает значение §6%d§r§7 для подканала §6%s
+structurelib.tooltip.indicator_dnd=Перейдите в GUI, чтобы выбрать это значение для этого канала.
 
 structurelib.autoplace.built_stat=Построено %s блоков
 structurelib.autoplace.complete=§aЭтот мультиблок собран!

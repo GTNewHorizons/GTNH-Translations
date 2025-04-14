@@ -520,7 +520,7 @@ Automagy.research_page.MIRRORMULTIDEST.3=pick up loose items and take them to a 
 
 # Chat messages
 Automagy.chat.newVersionAvailable=Автомагия v%s теперь доступна. (Вы работаете v%s.)
-Automagy.chat.newVersionLink=["Click ",{"text":"[this link]","color":"aqua","hoverEvent":{"action":"show_text","value":{"text":"Click to go to Automagy's webpage","color":"aqua"}},"clickEvent":{"action":"open_url","value":"http://everburningtorch.com/minecraft/automagy/"}}," for more info and downloads."]
+Automagy.chat.newVersionLink=["Нажмите ",{"text":"[эта ссылку]","color":"aqua","hoverEvent":{"action":"show_text","value":{"text":"Нажмите, чтобы перейти на веб-страницу Automagy","color":"aqua"}},"clickEvent":{"action":"open_url","value":"http://everburningtorch.com/minecraft/automagy/"}}," для получения дополнительной информации и загрузки."]
 Automagy.chat.redcrystalDim.setCap=Колпачок силы сигнала красного камня установлен на %s.
 Automagy.chat.redcrystalDense.setMin=Минимум силы сигнала красного камня установлен на %s.
 Automagy.chat.remoteComparator.itemUnlinked=Вы должны связать этот элемент в месте, прежде чем поместить его здесь.
@@ -530,7 +530,7 @@ Automagy.chat.golemInhibitor.omitMatch=Замедлитьель сейчас о�
 Automagy.chat.golemInhibitor.exclusiveMatch=Теперь замедлитель будет применяться только к связанным големам.
 Automagy.chat.essentiaLocus.itemUnlinked=Вы должны связать этот элемент в месте в пределах блоков %s перед установкой его здесь.
 Automagy.chat.essentiaLocus.itemLinkedSelf=Вы не можете указать место себе
-Automagy.chat.unseenScribe.outOfRange=Соединение не удалось. Там нет Ядра Инвентаря.
+Automagy.chat.unseenScribe.outOfRange=Соединение не удалось. Там нет ядра инвентаря.
 Automagy.chat.unseenScribe.noConnectionsLeft=Соединение не удалось. Все соединения используются.
 Automagy.chat.unseenScribe.alreadyLinked=Это уже было соединено. (%s, %s, %s)
 Automagy.chat.thaumostaticSpire.setSuction=Установите эту сторону для ввода %s.
@@ -545,15 +545,15 @@ Automagy.chat.inventarium.statusNodes= Книжки: %s/%s. Память: %s/%s.
 Automagy.chat.inventarium.chunkUnloaded=Связанное Ядро Инвентаря недоступен.(Чанк не загружен)
 Automagy.chat.golemTaskmaster.alreadyLinked=Это уже было связано. (%s, %s, %s)
 Automagy.chat.golemTaskmaster.noConnectionsLeft=Соединение не удалось. Все соединения в использовании.
-Automagy.chat.golemTaskmaster.outOfRange=Соединение не удалось. Там нет Ядра Инвентаря в пределах диапазона.
+Automagy.chat.golemTaskmaster.outOfRange=Соединение не удалось. Там нет ядра инвентаря.
 Automagy.chat.reqTome.noConnectionsLeft=Соединение не удалось. Все соединения в использовании.
-Automagy.chat.reqTome.outOfRange=Соединение не удалось. Там нет Ядра Инвентаря в пределах диапазона.
+Automagy.chat.reqTome.outOfRange=Соединение не удалось. Там нет ядра инвентаря.
 Automagy.chat.reqTome.alreadyLinked=Это уже было связано. (%s, %s, %s)
-Automagy.chat.scribePointer.itemLinkedSelf=You cannot point the oculus to itself.
-Automagy.chat.scribePointer.itemUnlinked=You must link that item to a location within %s blocks before placing it here.
-Automagy.chat.mirrorMultiDest.alreadyLinked=This has already been linked. (%s, %s, %s)
-Automagy.chat.mirrorMultiDest.noConnectionsLeft=Link failed. All connections are in use.
-Automagy.chat.mirrorMultiDest.outOfRange=Link failed. There is no Inventarium Core within range.
+Automagy.chat.scribePointer.itemLinkedSelf=Вы не можете указать место себе
+Automagy.chat.scribePointer.itemUnlinked=Вы должны связать этот элемент в месте в пределах блоков %s перед установкой его здесь.
+Automagy.chat.mirrorMultiDest.alreadyLinked=Это уже было соединено. (%s, %s, %s)
+Automagy.chat.mirrorMultiDest.noConnectionsLeft=Соединение не удалось. Все соединения используются.
+Automagy.chat.mirrorMultiDest.outOfRange=Соединение не удалось. Там нет ядра инвентаря.
 
 # Tooltips
 Automagy.tip.crystalEye.link=Наблюдение %s,%s,%s in %s
@@ -574,7 +574,7 @@ Automagy.tip.focusCrafting.stored=(держа %s стаков)
 Automagy.tip.golemWorkbenchUpgrade.0=Speed-boosted Crafting
 Automagy.tip.golemWorkbenchUpgrade.1=Дополнительный рецепт
 Automagy.tip.golemWorkbenchUpgrade.3=Strength-boosted Crafting
-Automagy.tip.golemWorkbenchUpgrade.5=Multipurpose Recipes
+Automagy.tip.golemWorkbenchUpgrade.5=Универсальные рецепты
 Automagy.tip.jarXP=%s уровней (%s xp)
 Automagy.tip.phialXP=A swig of enlightenment
 
