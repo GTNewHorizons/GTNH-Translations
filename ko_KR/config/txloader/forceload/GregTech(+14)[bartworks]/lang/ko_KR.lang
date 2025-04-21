@@ -15,22 +15,22 @@ bw.werkstoffblocks.01.name=Block
 bw.werkstoffblockscasing.01.name=Bolted Casing
 bw.werkstoffblockscasingadvanced.01.name=Rebolted Casing
 
-GT5U.gui.text.no_imprint=Missing imprint
+GT5U.gui.text.no_imprint=각인 없음
 GT5U.gui.text.not_enough_length=Multiblock Too Short
-GT5U.gui.text.wrong_sievert_exactly=§7Wrong sievert. Requires exactly: %s §7Sv
-GT5U.gui.text.wrong_sievert_min=§7Wrong sievert. Requires at least: %s §7Sv
+GT5U.gui.text.wrong_sievert_exactly=§7시버트(Sv)수치가 부적절합니다. 정확히 요구되는 양: %s §7Sv
+GT5U.gui.text.wrong_sievert_min=§7시버트(Sv)수치가 부적절합니다. 최소한으로 요구되는 시버트: %s §7Sv
 GT5U.gui.config.general.mixins=Mixins
 GT5U.gui.config.general.crossmodinteractions=CrossMod Interactions
 GT5U.gui.config.general.multiblocks=Multiblocks
 GT5U.gui.config.general.tooltip=Tooltip
-GT5U.gui.config.general.singleblocks=Singleblocks
+GT5U.gui.config.general.singleblocks=싱글블록
 GT5U.gui.config.general.pollution=Pollution
 GT5U.gui.config.general.rossruinmetas=Ross128B's Ruins MetaIDs
-GT5U.gui.config.general.rossruinmetas.highpressuresteam=High Pressure Steam
+GT5U.gui.config.general.rossruinmetas.highpressuresteam=고압 증기
 GT5U.gui.config.general.rossruinmetas.highpressuresteam.buffers=Buffers
 GT5U.gui.config.general.rossruinmetas.highpressuresteam.cables=Cables
 GT5U.gui.config.general.rossruinmetas.highpressuresteam.generators=Generators
-GT5U.gui.config.general.rossruinmetas.highpressuresteam.machines=Machines
+GT5U.gui.config.general.rossruinmetas.highpressuresteam.machines=기계
 GT5U.gui.config.general.rossruinmetas.lv=LV
 GT5U.gui.config.general.rossruinmetas.lv.buffers=Buffers
 GT5U.gui.config.general.rossruinmetas.lv.cables=Cables
@@ -278,3 +278,13 @@ tooltip.cal.imprintedWith=Imprinted with:
 chat.cal.mode.0=Circuit Assembly Line Mode
 chat.cal.mode.1=Circuit Assembler Mode
 #Liquids
+
+# gui
+BW.gui.text.radio_hatch.tooltip.radiation_shutter=Radiation Shutter
+BW.gui.text.radio_hatch.tooltip.radiation_shutter_control=Radiation Shutter Control
+
+BW.gui.text.lesu.eu=EU: %s
+BW.gui.text.lesu.max=MAX: %s
+BW.gui.text.lesu.max_in=MAX EU/t IN: %s
+BW.gui.text.lesu.eu_out=EU/t OUT: %s
+BW.gui.text.lesu.amp_io=AMP/t IN/OUT: %s
