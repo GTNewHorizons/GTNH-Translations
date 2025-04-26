@@ -275,12 +275,24 @@ text.recipe.altar.tier=Tier: %s
 text.recipe.altar.bloodRequired=LP: %s
 text.recipe.shapedOrb=Shaped Orb Recipe
 nei.recipe.meteor.category=Meteor Ritual
-nei.recipe.meteor.cost=Cost: %s LP
+nei.recipe.meteor.cost=LP cost to summon this meteor
+nei.recipe.meteor.tooExpensive=Insufficient LP in Soul Network
 nei.recipe.meteor.radius=Radius: %s
+nei.recipe.meteor.diameter=Diameter: %d (2r + 1)
 nei.recipe.meteor.chance=Chance: %s%%
 nei.recipe.meteor.amount=Estimated amount: %s
 nei.recipe.meteor.filler=§7Filler block
 nei.recipe.meteor.reagent=§nRequired reagent§r: %s
+nei.recipe.ritual.name=Ritual Name: %s
+nei.recipe.ritual.cost=Activation Cost: %,d
+nei.recipe.reagent.text=Reagent Effects:
+nei.recipe.reagent.meteor.radius= %+d radius (%s)
+nei.recipe.reagent.meteor.filler.chance= Changes chance for filler block to %f%%
+nei.recipe.reagent.meteor.filler.blocks= Replaces filler with %s
+nei.recipe.reagent.meteor.explosions= Entirely disables meteor explosions
+nei.recipe.reagent.meteor.blockDamage.on= Enables meteor block damage
+nei.recipe.reagent.meteor.blockDamage.off= Disables meteor block damage
+nei.recipe.reagent.none=No reagents can be added to this ritual.
 
 #Rituals
 ritual.AW001Water.name=Ritual of the Full Spring
