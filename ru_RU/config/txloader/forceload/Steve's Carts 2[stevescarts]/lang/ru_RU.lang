@@ -45,7 +45,7 @@ gui.SC2:sideRed=Красная
 gui.SC2:sideBlue=Синяя
 gui.SC2:sideYellow=Жёлтый
 gui.SC2:sideGreen=Зелёная
-gui.SC2:sideDisabled=Выключено
+gui.SC2:sideDisabled=Отключено
 
 # Cargo manager gui localization
 gui.SC2:cargoManager=Груз
@@ -97,7 +97,7 @@ gui.SC2:optionInvisibility=Невидимость
 gui.SC2:optionChunk=Загрузка чанков
 gui.SC2:optionCageAuto=Автоматически ловить в клетку
 gui.SC2:optionCage=Ловить в клетку
-gui.SC2:settingDisabled=Выключено
+gui.SC2:settingDisabled=Отключено
 gui.SC2:settingOrange=Оранжевое направление
 gui.SC2:settingBlue=Синее направление
 gui.SC2:stateActivate=Включить
@@ -311,6 +311,10 @@ item.SC2:creative_supplies.name=Творческий поставщик ресу
 item.SC2:color_randomizer.name=Рандомизатор цвета
 item.SC2:crop_exotic.name=Семя: Экзотические
 item.SC2:train_connector.name=Соединитель поездов
+item.SC2:electric_engine_lv.name=Electric Engine LV
+item.SC2:electric_engine_mv.name=Electric Engine MV
+item.SC2:electric_engine_hv.name=Electric Engine HV
+
 
 # Components
 item.SC2:unknowncomponent.name=Неизвестный компонент SC2
@@ -563,7 +567,7 @@ modules.addons.SC2:colorizerRgbGreen=Зеленый
 modules.addons.SC2:colorizerRgbBlue=Синий
 modules.addons.SC2:intelligenceLockedBlock=Бур всегда будет разбивать этот блок
 modules.addons.SC2:intelligenceChange=Изменить выборку бура
-modules.addons.SC2:intelligenceCurrent=Сейчас: [%1->Включено|Выключено]
+modules.addons.SC2:intelligenceCurrent=Сейчас: [%1->Включено|Отключено]
 modules.addons.SC2:enchanterInstruction=Положить зачарованную книгу в левый слот.
 modules.addons.SC2:invisibilityToggle=[%1->Активировать/Деактивировать] ядро невидимости
 modules.addons.SC2:informationProviderLabelName=Название
@@ -612,8 +616,11 @@ modules.engines.SC2:thermalEngineTitle=Термальный двигатель
 modules.engines.SC2:thermalPowered=Работает
 modules.engines.SC2:outOfWater=Воды нет
 modules.engines.SC2:outOfLava=Лавы нет
+modules.engines.SC2:electricEngineTitle=Electric Engine
+modules.engines.SC2:chargeLevel=Charge: [%1]
+modules.engines.SC2:outOfCharge=Out of Charge
 # need beta 3 for these ones to show up (remove this note)
-modules.engines.SC2:engineDisabledMessage=Выключено
+modules.engines.SC2:engineDisabledMessage=Отключено
 modules.engines.SC2:enginePriorityMessage=[%1->Высокий|Средний|Низкий] приоритет
 # end of beta 3 requirement (remove this note)
 
@@ -636,7 +643,7 @@ modules.tools.SC2:toolRepairInstruction=Починить этот инструм
 modules.tools.SC2:toolUnbreakable=Этот инструмент не ломается.
 modules.tools.SC2:toolUnbreakableRepairError=Заберите ремонтные материалы.
 modules.tools.SC2:drillTitle=Бур
-modules.tools.SC2:drillToggle=[%1->Включить|Выключить] бур
+modules.tools.SC2:drillToggle=[%1->Включить|Отключить] бур
 modules.tools.SC2:repairDiamonds=Алмазы
 modules.tools.SC2:repairIron=Железные слитки
 modules.tools.SC2:farmerTitle=Комбайнер
