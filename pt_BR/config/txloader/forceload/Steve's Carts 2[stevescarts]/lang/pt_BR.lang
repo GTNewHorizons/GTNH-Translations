@@ -311,6 +311,10 @@ item.SC2:creative_supplies.name=Suprimentos Criativo
 item.SC2:color_randomizer.name=Color Randomizer
 item.SC2:crop_exotic.name=Crop: Exotic
 item.SC2:train_connector.name=Train Connector
+item.SC2:electric_engine_lv.name=Electric Engine LV
+item.SC2:electric_engine_mv.name=Electric Engine MV
+item.SC2:electric_engine_hv.name=Electric Engine HV
+
 
 # Components
 item.SC2:unknowncomponent.name=Componente SC2 Desconhecido
@@ -612,6 +616,9 @@ modules.engines.SC2:thermalEngineTitle=Motor Térmico
 modules.engines.SC2:thermalPowered=Com Energia
 modules.engines.SC2:outOfWater=Sem Água
 modules.engines.SC2:outOfLava=Sem Lava
+modules.engines.SC2:electricEngineTitle=Electric Engine
+modules.engines.SC2:chargeLevel=Charge: [%1]
+modules.engines.SC2:outOfCharge=Out of Charge
 # need beta 3 for these ones to show up (remove this note)
 modules.engines.SC2:engineDisabledMessage=Disabled
 modules.engines.SC2:enginePriorityMessage=[%1->High|Medium|Low] priority
