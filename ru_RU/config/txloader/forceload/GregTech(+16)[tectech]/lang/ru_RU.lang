@@ -708,11 +708,12 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgo.7=Отображение дол�
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=Отображение времени сканирования
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.9=Отображение макс. выхода
 
-gt.blockmachines.multimachine.em.switch.name=QoS сетевой коммутатор
-gt.blockmachines.multimachine.em.switch.hint.0=1 - Data Input/Output Hatches or Advanced computer casing
-gt.blockmachines.multimachine.em.switch.hint.1=2 - Data Output Hatches or Computer casing
 gt.blockmachines.multimachine.em.switch.desc.0=Блок-контроллер QoS сетевого коммутатора
 gt.blockmachines.multimachine.em.switch.desc.1=Управляемая пользователем маршрутизация вычислений
+gt.blockmachines.multimachine.em.switch.desc.2=Scan connectors with a Portable Scanner to determine their ID.
+gt.blockmachines.multimachine.em.switch.desc.3=Computation output is configured via TecTech parameters.
+gt.blockmachines.multimachine.em.switch.desc.4=The first parameter in each group controls the hatch ID.
+gt.blockmachines.multimachine.em.switch.desc.5=The second parameter in each group controls the hatch weight.
 
 gt.blockmachines.multimachine.em.computer.name=Квантовый компьютер
 gt.blockmachines.multimachine.em.computer.machinetype=Квантовый компьютер, QC
@@ -1476,14 +1477,16 @@ tt.keyphrase.Contained_mass=Содержит массу
 tt.keyphrase.Mass_Disposal_speed=Скорость рассеяния массы
 tt.keyphrase.Muffler_BOOM=Выхлопная система БУУУУУМ!
 tt.keyphrase.Energy_Hatches=Энерговводы
-tt.keyphrase.Probably_uses=Примерное потребление
-tt.keyphrase.Probably_makes=Примерно производит
+tt.keyphrase.Probably_uses=Сейчас использует
+tt.keyphrase.Probably_makes=Сейчас генерирует
 tt.keyphrase.Tier_Rating=Тир вольтажа
 tt.keyphrase.Amp_Rating=Кол-во ампер
 tt.keyphrase.Computation_Available=Доступно вычислений
 tt.keyphrase.Computation_Remaining=Вычислений осталось
 tt.keyphrase.AL_Recipe_Providing=Providing §6%s§7 Assembly Line Recipes
 tt.keyphrase.AL_Recipe_Receiving=Receiving §6%s§7 Assembly Line Recipes
+tt.keyphrase.Computation_Receiving=Receiving §6%s§7 Computation per Second
+tt.keyphrase.Computation_Transmitting=Transmitting §6%s§7 Computation per Second
 tt.keyphrase.AL_Recipe_Transmitting=Transmitting §6%s§7 Assembly Line Recipes
 tt.keyphrase.AL_Recipe_Header=§7Рецепты сборочной линии:
 tt.keyphrase.AL_Recipe_Desc=§7- §a%s§7
@@ -1948,13 +1951,13 @@ tt.eoh.spacetime.standard.tooltip.1=§b§lCapable of running recipes up to tier 
 # Info data
 
 tt.infodata.multi.energy_hatches=Энерговводы: %s EU / %s EU
-tt.infodata.multi.currently_generates=Примерно генерирует: %s EU/t при %s A
+tt.infodata.multi.currently_generates=Сейчас генерирует: %s EU/t при %s A
 tt.infodata.multi.computation=Вычисление: %s / %s
 tt.infodata.multi.max_parallel=Макс. параллелей: %s
 tt.infodata.multi.multiplier.recipe_time=Множитель времени рецепта: %s
 tt.infodata.multi.multiplier.energy=Множитель энергии: %s
 tt.infodata.multi.divisor.recipe_time.non_perfect_oc=Recipe time divisor per non-perfect OC: %s
-tt.infodata.multi.currently_using=Примерное потребление: %s EU/t
+tt.infodata.multi.currently_using=Сейчас используется: %s EU/t
 tt.infodata.multi.capacity.heat=Теплоёмкость: %s
 tt.infodata.multi.capacity.heat.effective=Эффективная теплоёмкость: %s
 

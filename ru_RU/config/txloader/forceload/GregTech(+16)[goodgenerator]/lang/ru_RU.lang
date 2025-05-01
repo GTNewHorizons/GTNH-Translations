@@ -17,8 +17,8 @@ FRF_Coil_4.name=Временная катушка ограничителя по�
 FRF_Coil_4.0.name=Временная катушка ограничителя поля
 FRF_Casing.name=Корпус наквадахового топливного завода
 FRF_Casing.0.name=Корпус наквадахового топливного завода
-rawCylinder.name=Raw Cylinder
-rawCylinder.0.name=Raw Cylinder
+rawCylinder.name=Необработанный баллон
+rawCylinder.0.name=Необработанный баллон
 titaniumPlatedCylinder.name=Покрытый титаном баллон
 titaniumPlatedCylinder.0.name=Покрытый титаном баллон
 magicCasing.name=Магический корпус
@@ -116,7 +116,7 @@ item.radioactiveWaste.name=Радиоактивные отходы
 item.plasticCase.name=Пластиковый корпус
 item.quartzWafer.name=Кварцевая вафля
 item.microHeater.name=Микронагреватель
-item.quartzCrystalResonator.name=Quartz Crystal Resonator
+item.quartzCrystalResonator.name=Кварцевый кристаллический резонатор
 item.inverter.name=Инвертор
 item.neutronSource.name=Сенсор нейтронов
 item.naquadahMass.name=Наквадаховая масса
@@ -201,26 +201,26 @@ item.circuitWrap.14.name=Комплект MAX электросхем
 crops.saltroot=Соленый корень
 
 #Tooltip
-inverter.tooltip.0=Turn DC into AC.
+inverter.tooltip.0=Преврати постоянный ток в переменный.
 naquadahMass.tooltip.0=ДАЛЕКО не ЧИСТЫЙ.
-enrichedNaquadahMass.tooltip.0=An intense to satisfaction in the world.
+enrichedNaquadahMass.tooltip.0=Интенсивное стремление к удовлетворенности миром.
 naquadriaMass.tooltip.0=Что?
-EssentiaHatch.tooltip.0=You can right click it with an Essentia Jar to set Essentia Filter.
-EssentiaHatch.tooltip.1=Right click it with empty hands to clear the Filter.
+EssentiaHatch.tooltip.0=Вы можете щелкнуть ПКМ по нему банкой с эссенцией, чтобы установить фильтр эссенции.
+EssentiaHatch.tooltip.1=ПКМ пустой рукой, чтобы очистить фильтр.
 fuelrod.tooltip.0=Прочность: %s/%s
-fuelrodheat.tooltip.0=Has the same heat output as uranium
-fuelrodheat.tooltip.1=The heat output is %s times than uranium
+fuelrodheat.tooltip.0=Имеет такую же теплоотдачу, как и уран
+fuelrodheat.tooltip.1=Теплоотдача в %s раз больше, чем у урана
 fuelrodheat.tooltip.2=Имеет Mox-поведение
 depletedfuelrod.tooltip.0=Обеднённый
 YOTTankCell.tooltip.0=Ёмкость:
 YOTTankCell.tooltip.1=Жидкостная ячейка для YOTТанк
 hatchTier.tooltip.0=Тир шлюза:
 huiCircuit.tooltip.0=§b93015 TFlops§r
-huiCircuit.tooltip.1=§e76M Processor Units§r
-huiCircuit.tooltip.2=§aInvalidate RSA§r
-huiCircuit.tooltip.3=§c56th Mersenne Prime§r
+huiCircuit.tooltip.1=§e76M процессорных блоков§r
+huiCircuit.tooltip.2=§aАннулировать RSA§r
+huiCircuit.tooltip.3=§c56-й прайм Мерсенна§r
 huiCircuit.tooltip.4=§5Парадокс§r
-EssentiaOutputHatch.tooltip.0=Shift right click it with empty hands to clear the container.
+EssentiaOutputHatch.tooltip.0=Shift+ПКМ пустой рукой, чтобы очистить контейнер.
 EssentiaOutputHatch.tooltip.1=Ёмкость:
 
 gg.structure.tooltip.antimatter_hatch=Шлюз антиматерии
@@ -330,7 +330,7 @@ itemGroup.Nuclear Items=[GG] Multi Nuclear Reactor
 
 #Scanner Info
 scanner.info.FRF=Тир катушки:
-scanner.info.NA=Тек. кинетич. энергия нейтронов:
+scanner.info.NA=Текущая кинетич. энергия нейтронов:
 scanner.info.YOTTank.0=Текущая вместимость:
 scanner.info.YOTTank.1=Название жидкости:
 scanner.info.YOTTank.2=Текущее использование:
@@ -345,28 +345,28 @@ scanner.info.CASS.tier=Тир корпуса:
 scanner.info.CASS.tier.none=None!
 
 gg.scanner.info.antimatter_forge=Antimatter Forge
-gg.scanner.info.les.parallel=Parallel:
+gg.scanner.info.les.parallel=Параллель:
 gg.scanner.info.les.node_power=Node Power:
 gg.scanner.info.les.purification_efficiency=Эффективность очистки:
 gg.scanner.info.les.speed_up=Ускорение:
 
-gg.scanner.info.generator.generates=Примерно генерирует: %s EU/t
+gg.scanner.info.generator.generates=Сейчас генерирует: %s EU/t
 gg.scanner.info.generator.problems=Проблемы:
 gg.scanner.info.generator.efficiency=Эффективность:
 gg.scanner.info.neutron_activator.progress=Прогресс: %s с / %s с
-gg.scanner.info.neutron_activator.input=Current Neutron Kinetic Energy Input: %sev
+gg.scanner.info.neutron_activator.input=Текущий ввод кинетич. энергия нейтронов: %sev
 
 gg.scanner.info.fusion_reactor_mk=Термоядерный реактор MK
 
 #GUI Info
-GT5U.gui.text.node_too_small=§7Node too small
+GT5U.gui.text.node_too_small=§7Узел слишком маленький
 
 gui.NeutronSensor.0=Введите знач. кинет. энергии нейтрона.
 gui.NeutronSensor.1=пример >5000KeV, <=30MeV . . .
 gui.NeutronSensor.2=Valid
 gui.NeutronSensor.3=Invalid
 gui.NeutronSensor.4=eV порог
-gui.NeutronActivator.0=Тек. кинетич. энергия нейтронов:
+gui.NeutronActivator.0=Текущая кинетич. энергия нейтронов:
 gui.NeutronActivator.1=Вход:
 gui.YOTTank.0=Ёмкость:
 gui.YOTTank.1=Жидкость:
@@ -377,7 +377,7 @@ gui.YOTTank.button.locking=Блокировка жидкости
 gui.LargeFusion.0=Энергоемкость:
 gui.LargeFusion.1=Энергии накоплено:
 gui.AntimatterForge.0=Contained Antimatter
-gui.AntimatterForge.1=Passive Consumption
+gui.AntimatterForge.1=Пассивное потребление
 gui.AntimatterForge.2=Активное потребление
 gui.AntimatterForge.3=Antimatter Change
 gui.AntimatterGenerator.0=EU Произведено
@@ -605,10 +605,10 @@ research.ESSENTIA_UPGRADE_AIR.page.1=Подходящие аспекты:<BR><BR
 research.ESSENTIA_UPGRADE_THERMAL.page.0=The energy from this kind of Essentia cannot be fully converted into electricity, and some of it is converted into heat that heats up the diffusion cell.<BR><BR>Coolants are needed to keep the generator running steadily and better coolants allow Essentia to release more energy safely.<BR><BR>The basic consuming speed is 40L/sec.
 research.ESSENTIA_UPGRADE_THERMAL.page.1=Подходящие аспекты:<BR><BR>Ignis: 16000EU Коэффициент:x1.0<BR><BR>Aequalitas: 300000EU Коэффициент:x7.0<BR><BR>Volatus: 56000EU Коэффициент:x2.0<BR><BR>Infernus: 35700EU Коэффициент:x3.0<BR><BR>Ira: 82600EU Коэффициент:x5.0
 research.ESSENTIA_UPGRADE_THERMAL.page.2=Требуемая жидкость:<BR><BR>Вода: Эффективность:x0.5<BR><BR>Дистиллированная вода: Эффективность:x1.0<BR><BR>Молотый лёд: Эффективность:x1.2<BR><BR>Хладагент: Эффективность:x1.5<BR><BR>Криотеум: Эффективность:x5.0<BR><BR>Промышленный хладагент: Эффективность:x9.0
-research.ESSENTIA_UPGRADE_UNSTABLE.page.0=This kind of Essentia tends to damage the diffusion cell or reacts with air easily.<BR><BR>Inert gases are needed to protect the diffusion cell.<BR><BR>The more inert the gas, the more energy can be safely released from the Essentia.<BR><BR>The basic consuming speed is 80L/sec.
+research.ESSENTIA_UPGRADE_UNSTABLE.page.0=Этот вид эссенции имеет тенденцию повреждать диффузионную ячейку или легко вступает в реакцию с воздухом.<BR><BR>Для защиты диффузионной ячейки необходимы инертные газы.<BR><BR>Чем инертнее газ, тем больше энергии можно безопасно высвободить из эссенции.<BR><BR>Базовая скорость потребления составляет 80Л/с.
 research.ESSENTIA_UPGRADE_UNSTABLE.page.1=Подходящие аспекты:<BR><BR>Perditio: 4500EU Коэффициент:x1.0<BR><BR>Vacuos: 8200EU Коэффициент:x1.5<BR><BR>Venenum: 17000EU Коэффициент:x2.0<BR><BR>Telum: 14200EU Коэффициент:x2.5<BR><BR>Terminus: 300000EU Коэффициент:x10.0
 research.ESSENTIA_UPGRADE_UNSTABLE.page.2=Требуемая жидкость:<BR><BR>Азот: Эффективность:x1.0<BR><BR>Гелий: Эффективность:x2.0<BR><BR>Неон: Эффективность:x2.2<BR><BR>Аргон: Эффективность:x2.5<BR><BR>Криптон: Эффективность:x3.0<BR><BR>Ксенон: Эффективность:x4.0
-research.ESSENTIA_UPGRADE_VICTUS.page.0=This kind of Essentia contains the essence of life.<BR><BR>Most of them can't be converted into much energy directly, but you can provide them with Life Essence, enhancing the power they generate greatly.<BR><BR>The basic consuming speed is 360L/sec.
+research.ESSENTIA_UPGRADE_VICTUS.page.0=Этот вид эссенции содержит сущность жизни.<BR><BR>Большинство из них не могут быть преобразованы в энергию напрямую, но вы можете снабдить их эссенцией жизни, что значительно увеличит генерируемую ими энергию.<BR><BR>Базовая скорость потребления 360Л/с.
 research.ESSENTIA_UPGRADE_VICTUS.page.1=Подходящие аспекты:<BR><BR>Victus: 20000EU Коэффициент:x1.0<BR><BR>Spiritus: 37600EU Коэффициент:x0.7<BR><BR>Sano: 24600EU Коэффициент:x1.2<BR><BR>Corpus: 5200EU Коэффициент:x0.9<BR><BR>Humanus: 16700EU Коэффициент:x1.3<BR><BR>Fames: 17600EU Коэффициент:x1.1<BR><BR>Gloria: 120000EU Коэффициент:x0.6
 research.ESSENTIA_UPGRADE_VICTUS.page.2=Необязательная жидкость:<BR><BR>Жидкий опыт: Эффективность:x2.0<BR><BR>Жизненная эссенция: Эффективность:x6.0
 research.ESSENTIA_UPGRADE_TAINTED.page.0=This kind of Essentia contains dark powers. It may cause flux pollution when running.<BR><BR>You can provide these Essentia with Purifying Fluid or Liquid Death...... resulting two different effects.<BR><BR>The Purifying Fluid can purify and greatly enhances the energy outputted by the Essentia, and also prevents the flux pollution.<BR><BR>The Water of Death does not dissolve Essentia, but adding it to diffused Essentia can have a wonderful effect. The lower the basic fuel value of the Essentia, the more the dark energy can be released.
