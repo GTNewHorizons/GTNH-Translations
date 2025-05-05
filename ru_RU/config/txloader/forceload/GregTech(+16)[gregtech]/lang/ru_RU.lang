@@ -784,8 +784,6 @@ GT5U.MBTT.HatchInfo=Любой %s
 GT5U.MBTT.HatchDots= (точки %s)
 GT5U.MBTT.BoroGlassAny=Боросиликатное стекло (любое, смешанное)
 GT5U.MBTT.BoroGlassTiered=Боросиликатное стекло (любое)
-GT5U.MBTT.AlchemyCasingAny=Алхимически устойчивый/инертный/иммунный корпус
-GT5U.MBTT.AlchemicalConstructAny=Алхимическая конструкция
 GT5U.MBTT.ConfigMenu=Меню конфигурации
 
 GT5U.MBTT.PCB.Tier=Тир завода печатных плат
@@ -813,6 +811,9 @@ GT5U.MBTT.PCB.Tooltip.3=Позволяет разгонять. Требуетс�
 GT5U.MBTT.PCB.Tooltip.4=Обеспечивает идеальный разгон, позволяя нанитам работать с экстремальной скоростью и эффективностью. Использует 10 л/с промышленного хладагента.
 GT5U.MBTT.PCB.Tooltip.5=Установите ширину дорожки. Более мелкие дорожки позволяют экономить материал, но требуют больше времени на изготовление. Более крупные дорожки тратят материал впустую, но работают быстро. 50-200 мкм.
 GT5U.MBTT.PCB.Tooltip.6=Невозможно изменить конфигурацию во время работы!
+
+GT5U.MBTT.AlchemyCasingAny=Алхимически устойчивый/инертный/иммунный корпус
+GT5U.MBTT.AlchemicalConstructAny=Алхимическая конструкция
 
 GT5U.MBTT.subchannel=Использует подканал §6%s§r§7 для §6%s
 
@@ -1058,8 +1059,20 @@ GT5U.machines.oilfluidpump=Oil/Fluid Pump
 GT5U.machines.minermulti=Мультиблочный шахтёр
 GT5U.machines.digitalchest.voidoverflow.enabled=Пустотный режим при переполнении §aВкл.§r
 GT5U.machines.digitalchest.voidoverflow.disabled=Пустотный режим при переполнении §cОткл.§r
+GT5U.machines.digitalchest.voidoverflow.tooltip=Overflow Voiding Mode
 GT5U.machines.digitalchest.inputfilter.enabled=Входной фильтр §aВкл.§r
 GT5U.machines.digitalchest.inputfilter.disabled=Входной фильтр §cОткл.§r
+GT5U.machines.digitalchest.autooutput.enabled=Item Auto Output Enabled
+GT5U.machines.digitalchest.autooutput.disabled=Item Auto Output Disabled
+GT5U.machines.digitalchest.lockItem.enabled=Lock Item Mode Enabled
+GT5U.machines.digitalchest.lockItem.disabled=Lock Item Mode Disabled
+GT5U.machines.digitalchest.lockItem.none=Currently nothing to lock, will be locked to the next that is put in
+GT5U.machines.digitalchest.lockItem.tooltip=Lock Item Mode
+GT5U.machines.digitalchest.lockItem.tooltip.1=§7This chest will be locked to only accept one type of item
+GT5U.machines.digitalchest.lockItem.tooltip.2=§7It will be locked to the first item type that enters the chest
+GT5U.machines.digitalchest.inputfromoutput.tooltip=Input Item from Output Side
+GT5U.machines.digitalchest.voidfull.tooltip=Void Full Mode
+GT5U.machines.digitalchest.voidfull.tooltip.1=§7Voids all items that enter the chest
 GT5U.machines.digitaltank.tooltip=Хранит %sЛ жидкости
 GT5U.machines.digitaltank.tooltip1=Сохраняет свое содержимое при сборе
 GT5U.machines.digitaltank.autooutput.tooltip=Авто-вывод жидкости
@@ -1073,7 +1086,7 @@ GT5U.machines.digitaltank.voidoverflow.tooltip=Пустотный режим п�
 GT5U.machines.digitaltank.voidoverflow.tooltip.1=§7Удаляет все излишки жидкости, если резервуар полон
 GT5U.machines.digitaltank.voidfull.tooltip=Режим утилизации
 GT5U.machines.digitaltank.voidfull.tooltip.1=§7Удаляет все жидкости, попадающие в резервуар
-GT5U.machines.digitaltank.inputfromoutput.tooltip=Ввод жидкости со стороны выхода
+GT5U.machines.digitaltank.inputfromoutput.tooltip=Ввод жидкости со стороны вывода
 GT5U.machines.select_circuit=Настроить схему
 GT5U.machines.select_circuit.tooltip=Слот призрачной схемы
 GT5U.machines.select_circuit.tooltip.configuration=§aКонфигурация: §f%s§r
@@ -1329,6 +1342,7 @@ GT5U.gui.button.power_panel=Open Power Panel
 GT5U.gui.button.max_parallel=Always use maximum
 GT5U.gui.text.rangedvalue=Радиус: %s-%s
 GT5U.gui.text.lockedvalue=Locked: %s
+GT5U.gui.text.locked=Locked
 GT5U.gui.text.success=§aОбработка рецепта
 GT5U.gui.text.progress=§fПрогресс:
 GT5U.gui.text.amount=§fКоличество:
@@ -1436,6 +1450,7 @@ GT5U.gui.text.enabled=§aEnabled§f
 GT5U.gui.text.disabled=§cDisabled§f
 GT5U.gui.text.lma_craftingfx=Показать эффекты крафта
 GT5U.gui.text.repair_tip=Click with Tool to repair.
+GT5U.gui.text.item.amount=Item Amount
 GT5U.gui.text.contents=§7Contents:§r
 GT5U.gui.text.content-entry=§7%s:§9 %s§r
 GT5U.gui.text.decay-rate=§7Скорость распада:§9 %s§7%s
@@ -2625,6 +2640,10 @@ gt.time.second.plural=секунды
 #Tool modes
 gt.wrench.mode.1=Режим линии
 
+# Tooltip for vajra
+gt.vajra.tooltip.flavor=Your friendly instant block breaker
+gt.vajra.tooltip.charge=Can be charged in any %s machine
+gt.vajra.tooltip.silk_touch=Shift right click air to toggle silk touch
 
 # GT++
 
@@ -2925,8 +2944,10 @@ GT5U.infodata.oil_drill.drilling_fluid=Буровой раствор: %s
 GT5U.infodata.oil_drill.drilling_flow=Поток бурения: %s Л/тик
 
 GT5U.infodata.critical_info=Важнейшая информация
-GT5U.infodata.plasma_forge.ticks_run_fuel_discount=Ticks run: %s, Fuel Discount: %s
+GT5U.infodata.plasma_forge.ticks_run_fuel_discount=Ticks run: %s, Fuel Discount: %s (Extra catalyst use: %smb)
 GT5U.infodata.plasma_forge.convergence=Конвергенция: %s
+GT5U.infodata.plasma_forge.convergence.progress=, perfect convergence reached in %s min
+GT5U.infodata.plasma_forge.convergence.achieved=, perfect convergence achieved
 GT5U.infodata.plasma_forge.convergence.active=Активен
 GT5U.infodata.plasma_forge.convergence.inactive=Неактивен
 
