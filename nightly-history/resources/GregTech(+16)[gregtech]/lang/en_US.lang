@@ -691,6 +691,10 @@ GTPP.algae.tooltip.generation=Generation: %d
 # Power Goggles
 GT5U.power_goggles.open_config_gui=Open Goggles Config
 GT5U.power_goggles.toggle_power_chart=Toggle Power Chart
+GT5U.power_goggles.link_lsc=Goggles linked to LSC at %d,%d,%d.
+GT5U.power_goggles.link_fail=That's not an LSC...
+GT5U.power_goggles.unlink=Goggles Unlinked.
+GT5U.power_goggles.link_tooltip=Linked to LSC at %d,%d,%d: %s
 # Power Goggles config GUI
 GT5U.power_goggles_config.notation_scientific=SCIENTIFIC
 GT5U.power_goggles_config.notation_engineering=ENGINEERING
@@ -700,28 +704,27 @@ GT5U.power_goggles_config.reading_total=TOTAL
 GT5U.power_goggles_config.reading_eut=EUT
 GT5U.power_goggles_config.settings_general=General Settings
 GT5U.power_goggles_config.settings_scale=Scale settings
-GT5U.power_goggles_config.settings_color_gradient=Color Scheme: Gradient
-GT5U.power_goggles_config.settings_color_text=Color Scheme: Text
+GT5U.power_goggles_config.settings_color=Color Scheme
 
 GT5U.power_goggles_config.toggle_notation=Toggle Notation: %s
 GT5U.power_goggles_config.toggle_reading=Toggle Reading Type: %s
-GT5U.power_goggles_config.toggle_hud_with_chat=Toggle HUD with chat open: %s
+GT5U.power_goggles_config.toggle_hud_with_chat=Hide HUD when chat open: %s
 GT5U.power_goggles_config.main_text_scale=Storage Text Scale
 GT5U.power_goggles_config.sub_text_scale=Sub Text Scale
 GT5U.power_goggles_config.hud_scale=HUD Scale
 
-GT5U.power_goggles_config.gradient_bad=Bad Gradient RGB
+GT5U.power_goggles_config.gradient_bad=Bad Gradient Color
 GT5U.power_goggles_config.gradient_bad_tooltip=Affects what color the power rectangle's gradient approaches as EU change goes lower
-GT5U.power_goggles_config.gradient_ok=OK Gradient RGB
+GT5U.power_goggles_config.gradient_ok=OK Gradient Color
 GT5U.power_goggles_config.gradient_ok_tooltip=Affects what color the power rectangle's gradient approaches as EU change approaches 0
-GT5U.power_goggles_config.gradient_good=Good Gradient RGB
+GT5U.power_goggles_config.gradient_good=Good Gradient Color
 GT5U.power_goggles_config.gradient_good_tooltip=Affects what color the power rectangle's gradient approaches as EU change goes higher
 
-GT5U.power_goggles_config.text_bad=Bad Text RGB
+GT5U.power_goggles_config.text_bad=Bad Text Color
 GT5U.power_goggles_config.text_bad_tooltip=Affects Text and Power Chart color when EU change is negative
-GT5U.power_goggles_config.text_ok=OK Text RGB
+GT5U.power_goggles_config.text_ok=OK Text Color
 GT5U.power_goggles_config.text_ok_tooltip=Affects Text color when EU change is 0
-GT5U.power_goggles_config.text_good=Good Text RGB
+GT5U.power_goggles_config.text_good=Good Text Color
 GT5U.power_goggles_config.text_good_tooltip=Affects Text and Power Chart color when EU change is positive
 
 GT5U.autoplace.error.no_hatch=§cSuggested to place hatch §4%s§c but none was found
@@ -784,6 +787,8 @@ GT5U.MBTT.HatchInfo=Any %s
 GT5U.MBTT.HatchDots= (dots: %s)
 GT5U.MBTT.BoroGlassAny=Borosilicate Glass (any, mixed)
 GT5U.MBTT.BoroGlassTiered=Borosilicate Glass (any)
+GT5U.MBTT.AlchemyCasingAny=Alchemically Resistant/Inert/Immune Casing
+GT5U.MBTT.AlchemicalConstructAny=Alchemical Construct
 GT5U.MBTT.ConfigMenu=Configuration Menu
 
 GT5U.MBTT.PCB.Tier=PCB Factory Tier
@@ -811,9 +816,6 @@ GT5U.MBTT.PCB.Tooltip.3=Allows for overclocking. Requires 10 L/s of distilled wa
 GT5U.MBTT.PCB.Tooltip.4=Enables perfect overclocking by allowing nanites to work with extreme speed and efficiency. Uses 10 L/s of Super Coolant.
 GT5U.MBTT.PCB.Tooltip.5=Set the trace size. Smaller traces allow material savings but take longer to fabricate. Larger traces waste material but are fast. 50-200 μm.
 GT5U.MBTT.PCB.Tooltip.6=Can't change configuration when running!
-
-GT5U.MBTT.AlchemyCasingAny=Alchemically Resistant/Inert/Immune Casing
-GT5U.MBTT.AlchemicalConstructAny=Alchemical Construct
 
 GT5U.MBTT.subchannel=Uses sub channel §6%s§r§7 for §6%s
 
@@ -1267,6 +1269,7 @@ GT5U.machines.betterjukebox.shuffle.tooltip=Shuffle mode (play random discs inst
 GT5U.machines.betterjukebox.headphonesbound=Headphones bound to jukebox
 GT5U.machines.betterjukebox.headphonesunbound=Shift-click on an electric jukebox to bind headphones
 GT5U.machines.computation_hatch.computation=Computation
+GT5U.machines.computation_hatch.weightedComputation=Computation Weight
 GT5U.machines.laser_hatch.amperage=Amperage
 GT5U.machines.hatch_output.lockfluid.label=Locked Fluid
 GT5U.machines.hatch_output.lockfluid.empty=None
@@ -2944,7 +2947,7 @@ GT5U.infodata.oil_drill.drilling_fluid=Drilling Fluid: %s
 GT5U.infodata.oil_drill.drilling_flow=Drilling flow: %s L/t
 
 GT5U.infodata.critical_info=Critical Information
-GT5U.infodata.plasma_forge.ticks_run_fuel_discount=Ticks run: %s, Fuel Discount: %s (Extra catalyst use: %smb)
+GT5U.infodata.plasma_forge.ticks_run_fuel_discount=Ticks run: %s, Fuel Discount: %s (Extra catalyst use: %sL)
 GT5U.infodata.plasma_forge.convergence=Convergence: %s
 GT5U.infodata.plasma_forge.convergence.progress=, perfect convergence reached in %s min
 GT5U.infodata.plasma_forge.convergence.achieved=, perfect convergence achieved
