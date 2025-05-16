@@ -675,7 +675,7 @@ gt.blockmachines.multimachine.tm.microwave.desc.3=Механизм также б
 gt.blockmachines.multimachine.tm.microwave.desc.4=Может быть настроен с помощью параметрайзера
 gt.blockmachines.multimachine.tm.microwave.desc.5=(Не вставляйте Иссушителя)
 gt.blockmachines.multimachine.tm.microwave.cfgi.0=Настройки энергии
-gt.blockmachines.multimachine.tm.microwave.power=Power
+gt.blockmachines.multimachine.tm.microwave.power=Энергия
 gt.blockmachines.multimachine.tm.microwave.timer=Время
 gt.blockmachines.multimachine.tm.microwave.cfgi.1=Настройки таймера
 gt.blockmachines.multimachine.tm.microwave.cfgo.0=Значение таймера
@@ -719,7 +719,7 @@ gt.blockmachines.multimachine.tm.teslaCoil.overdrive=Перегрузка
 
 gt.blockmachines.multimachine.em.switch.desc.0=Распределяет вычисления по выходным разъёмам на основе весов.
 gt.blockmachines.multimachine.em.switch.desc.1=Вывод вычислений настраивается путем щелчка ПКМ по выходному разъёму отвёрткой.
-gt.blockmachines.multimachine.em.switch.desc.2=Сканируйте разъёмы с помощью портативного сканера, чтобы определить ID.
+gt.blockmachines.multimachine.em.switch.desc.2=Выходные разъёмы должны быть частью структуры, чтобы их можно было настраивать.
 
 gt.blockmachines.multimachine.em.computer.name=Квантовый компьютер
 gt.blockmachines.multimachine.em.computer.machinetype=Квантовый компьютер, QC
@@ -1456,7 +1456,7 @@ tt.keyphrase.Hint_Details=Hint Details
 
 #debug boom
 tt.keyword.BOOM=БУУУУУМ!
-tt.keyword.Destination=Пункт назначения
+tt.keyword.Destination=ID Выходного разъёма
 tt.keyword.Weight=Вес
 tt.keyword.Source=Источник
 tt.keyword.Progress=Прогресс
@@ -1935,13 +1935,13 @@ tt.spaceminer.filterButtonTooltip=Открытый фильтр
 tt.spaceminer.togglefilter=Переключить фильтр
 tt.spaceminer.asteroidutilitypanelButtonTooltip=Open Space Miner Utility Panel
 tt.spaceminer.asteroidButtonTooltipInfo=Нажмите, чтобы получить больше информации!
-tt.spaceminer.asteroidButtonFilter=Right click to add asteroid to filter
+tt.spaceminer.asteroidButtonFilter=Щелкните ПКМ, чтобы добавить астероид в фильтр
 tt.spaceminer.textFieldOre=Руда
 tt.spaceminer.textFieldDistance=Дистанция
 tt.spaceminer.textFieldTier=Тир
 tt.spaceminer.calculatorButtonTooltip=Open Space Miner Calculator
-tt.spaceminer.asteroidutilitypanel.miningDrones=Can be mined by:
-tt.spaceminer.asteroidutilitypanel.uses=Uses
+tt.spaceminer.asteroidutilitypanel.miningDrones=Может быть добыто:
+tt.spaceminer.asteroidutilitypanel.uses=Использует
 tt.spaceminer.asteroidutilitypanel.and=И
 tt.spaceminer.asteroidutilitypanel.parallelInfo=Per parallel
 tt.spaceminer.asteroidutilitypanel.sizeForDrone=Размер астероида с помощью этого дрона: %d-%d
