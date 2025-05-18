@@ -783,15 +783,14 @@ GT5U.MBTT.Structure.SeeStructure2=Hologram Projector on the Controller!
 GT5U.MBTT.Structure.MinGlassForLaser=-tier glass required for §9Tec§1Tech§7 Laser Hatches.
 GT5U.MBTT.Structure.GlassEnergyLimit=Energy Hatch limited by Glass tier
 GT5U.MBTT.Structure.GlassEnergyLimitTier=-tier Glass unlocks all.
+GT5U.MBTT.Structure.NoTierSkips=This machine can only run recipes matching its average energy hatch tier.
+GT5U.MBTT.Structure.MaxTierSkips=This machine can run recipes at most %d tiers above its average energy hatch tier.
+GT5U.MBTT.Structure.UnlimitedTierSkips=This machine can run recipes regardless of tier, if given enough energy.
 GT5U.MBTT.HatchInfo=Any %s
 GT5U.MBTT.HatchDots= (dots: %s)
 GT5U.MBTT.BoroGlassAny=Borosilicate Glass (any, mixed)
 GT5U.MBTT.BoroGlassTiered=Borosilicate Glass (any)
-GT5U.MBTT.AlchemyCasingAny=Alchemically Resistant/Inert/Immune Casing
-GT5U.MBTT.AlchemicalConstructAny=Alchemical Construct
-GT5U.MBTT.SuperChest=Super/Quantum Chest
 GT5U.MBTT.ConfigMenu=Configuration Menu
-
 GT5U.MBTT.PCB.Tier=PCB Factory Tier
 GT5U.MBTT.PCB.Bio=Biochamber
 GT5U.MBTT.PCB.RotBio=Bio Rotation
@@ -817,6 +816,10 @@ GT5U.MBTT.PCB.Tooltip.3=Allows for overclocking. Requires 10 L/s of distilled wa
 GT5U.MBTT.PCB.Tooltip.4=Enables perfect overclocking by allowing nanites to work with extreme speed and efficiency. Uses 10 L/s of Super Coolant.
 GT5U.MBTT.PCB.Tooltip.5=Set the trace size. Smaller traces allow material savings but take longer to fabricate. Larger traces waste material but are fast. 50-200 μm.
 GT5U.MBTT.PCB.Tooltip.6=Can't change configuration when running!
+
+GT5U.MBTT.AlchemyCasingAny=Alchemically Resistant/Inert/Immune Casing
+GT5U.MBTT.AlchemicalConstructAny=Alchemical Construct
+GT5U.MBTT.SuperChest=Super/Quantum Chest
 
 GT5U.MBTT.subchannel=Uses sub channel §6%s§r§7 for §6%s
 
@@ -859,10 +862,10 @@ GT5U.tpm.parallelwindow=Open Parallel Configuration Window
 
 GT5U.ECCF.pressure=Current pressure
 GT5U.ECCF.temperature=Current temperature
-GT5U.ECCF.pressure.threshold=Pressure threshold
-GT5U.ECCF.temperature.threshold=Temperature threshold
-GT5U.ECCF.pressure.required=Pressure required
-GT5U.ECCF.temperature.required=Temperature required
+GT5U.ECCF.pressure_threshold=Pressure threshold
+GT5U.ECCF.temperature_threshold=Temperature threshold
+GT5U.ECCF.pressure_required=Pressure required
+GT5U.ECCF.temperature_required=Temperature required
 
 GT5U.EBF.heat=Heat capacity
 GT5U.coil.None=None
@@ -1040,6 +1043,7 @@ gt.recipe.purificationplantquarkextractor=Baryonic Perfection
 gt.recipe.quantumcomputer=QC Components
 gt.recipe.eccf=Environmentally Controlled Chemical Facility
 
+
 # Recipe categories
 gt.recipe.category.arc_furnace_recycling=Arc Furnace Recycling
 gt.recipe.category.plasma_arc_furnace_recycling=Plasma Arc Furnace Recycling
@@ -1050,6 +1054,7 @@ gt.recipe.category.alloy_smelter_molding=Alloy Smelter Molding
 gt.recipe.category.forge_hammer_recycling=Forge Hammer Recycling
 gt.recipe.category.tic_part_extruding=TiC Part Extruding
 gt.recipe.category.tic_bolt_molding=TiC Bolt Molding
+gt.recipe.category.planets=Planet Conditions
 
 GT5U.machines.tier=Tier
 GT5U.machines.workarea=Work Area
@@ -1466,7 +1471,8 @@ GT5U.gui.text.enabled=§aEnabled§f
 GT5U.gui.text.disabled=§cDisabled§f
 GT5U.gui.text.lma_craftingfx=Show Crafting Effects
 GT5U.gui.text.repair_tip=Click with Tool to repair.
-GT5U.gui.text.conditions.out.of.range=§4Out of recipe conditions
+GT5U.gui.text.apiary_missing_flowers=Missing flowers: %s
+GT5U.gui.text.conditions_range=§4Out of recipe conditions
 GT5U.gui.text.item.amount=Item Amount
 GT5U.gui.text.contents=§7Contents:§r
 GT5U.gui.text.content-entry=§7%s:§9 %s§r
@@ -1633,9 +1639,12 @@ GT5U.nei.nuclear.breeder.neutron_reflecting=Neutron reflecting Breeder
 GT5U.nei.nuclear.breeder.heat_neutral=Heat neutral Breeder
 GT5U.nei.nuclear.breeder.reactor_hull_heat=Every %d reactor hull heat\nincrease speed by %d00%%
 GT5U.nei.nuclear.breeder.required_pulse=Required pulses: %d
-GT5U.nei.temperature=Temperature: %s K
-GT5U.nei.pressure=Pressure: %s
-
+GT5U.nei.temperature=Temperature: %s - %s K
+GT5U.nei.pressure=Pressure: %s - %s
+GT5U.nei.bare_temperature=Temperature
+GT5U.nei.bare_pressure=Pressure
+GT5U.nei.bare_tier=Tier
+GT5U.nei.bare_name=Name
 
 GT5U.config.colormodulation=Color Modulator
 GT5U.config.colormodulation.cable_insulation=Cable Insulation
@@ -2806,7 +2815,6 @@ GTPP.tooltip.meta_special.quantum_modulation=Provides quantum modulation
 GTPP.tooltip.meta_food.unless_starving=I wouldn't eat this unless I was starving
 GTPP.tooltip.meta_food.better_cooked=Doesn't look any better cooked
 GTPP.tooltip.meta_food.warm_touch=Warm to the touch
-GTPP.tooltip.dust-decay-hint=Only decays in a %s or a %s
 
 # GTPP structure hints
 GTPP.tooltip.structure.anvil=Anvil
