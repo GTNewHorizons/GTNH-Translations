@@ -46,7 +46,7 @@ LINAC.hint.2=127-703x Экранированное стекло ускорите
 LINAC.hint.3=56-312x Блок сверхпроводящей катушки
 LINAC.hint.4=156-732x Электродный корпус
 LINAC.hint.5=47x Вентиляционный корпус
-LINAC.hint.6=48x Любое тировое стекло (LuV+)
+LINAC.hint.6=48x Стекло любого тира (LuV+)
 LINAC.hint.7=Точка 1: Энерговвод, Люк техобслуживания
 LINAC.hint.8=Точка 2: Входной шлюз, Выходной шлюз
 LINAC.hint.9=Точка 3: Входной шлюз установки для литографии
@@ -56,7 +56,7 @@ Synchrotron.hint.0=676x Экранированный корпус ускорит
 Synchrotron.hint.1=90x Блок сверхпроводящей катушки
 Synchrotron.hint.2=64x Ниобиевый полый корпус
 Synchrotron.hint.3=28x Корпус подачи хладагента
-Synchrotron.hint.4=16x Любое тировое стекло (LuV+)
+Synchrotron.hint.4=16x Стекло любого тира (LuV+)
 Synchrotron.hint.5=4x Корпус антенны
 Synchrotron.hint.6=Точка 1: Входной шлюз установки для литографии
 Synchrotron.hint.7=Точка 2: Выходной шлюз установки для литографии
@@ -67,7 +67,7 @@ Synchrotron.hint.11=Точка 6: Энерговвод
 
 TargetChamber.hint.0=28x Экранированный корпус ускорителя
 TargetChamber.hint.1=34x Экранированное стекло ускорителя
-TargetChamber.hint.2=16x Любое тировое стекло
+TargetChamber.hint.2=16x Стекло любого тира
 TargetChamber.hint.3=29x Вентиляционный корпус
 TargetChamber.hint.4=4x Корпус фокуса манипулятора
 TargetChamber.hint.5=4x Корпус целевого приёмника
@@ -126,12 +126,12 @@ casing.target_receptacle.name=Целевой приёмник
 casing.target_holder.name=Приёмник образцов
 casing.shielded_accelerator.name=Экранированный корпус ускорителя
 
-item.capillary_exchange.name=Capillary Exchange
+item.capillary_exchange.name=Капиллярный аппарат
 item.mm_lattice.name=Решётка из мю-металла
 item.iron_quartz_plate.name=Железо-кварцевая пластина
 item.mask_substrate.name=Маска-субстрат
 item.etched_mask1.name=Гравированная маска
-item.substrate_precursor.name=Substrate Precursor
+item.substrate_precursor.name=Прекурсор субстрата
 item.masked_mask_substrate.name=Обработанная маска-субстрат
 
 
@@ -139,7 +139,7 @@ item.masked_mask_substrate.name=Обработанная маска-субстр
 
 beamline.info=Информация о механизме
 
-beamline.in_pre=Мультиблоковый вход установки для литографии
+beamline.in_pre=Мультиблочный вход установки для литографии
 beamline.particle=Частица
 beamline.energy=Энергия
 beamline.focus=Фокус
@@ -149,7 +149,7 @@ beamline.rate=Скорость
 beamline.temperature=Температура
 beamline.coolusage=Потребляется хладогента
 
-beamline.out_pre=Мультиблоковый выход установки для литографии
+beamline.out_pre=Мультиблочный выход установки для литографии
 
 beamline.particleinput=Входная информация о частицах:
 
