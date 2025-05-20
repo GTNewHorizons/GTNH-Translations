@@ -704,9 +704,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZA.desc=¿Están tus barriles de adoqui
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZQ.name=§3§lActualizaciones de barriles Nivel 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZQ.desc=¿Tus barriles de adoquines o tierra mejorados vuelven a estar llenos? No hay problema, ¡mejóralos un poco más!
 
-# Quest: Alumite
+# Quest: Obzinite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.name=§3§lAlumita
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.desc=Ha llegado la hora de mejorar. En principio, podrías fabricar Alumita mezclando obsidiana, acero y aluminio en la fundición. Pero para obtener un rendimiento mucho mejor, puedes demostrar que eres un héroe GregTech y buscar en NEI una receta alternativa usando polvos. Los picos de Alumita son capaces de extraer ardita en el Nether.%n%nDeja el resto de tu Alumita como líquido en tu smeltery, la querrás para hacer la Forja de Herramientas. Necesitas 16 lingotes en la fundición para hacer 2 Placas Grandes.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZg.desc=Ha llegado la hora de mejorar. En principio, podrías fabricar Alumita mezclando obsidiana, acero y aluminio en la fundición. Pero para obtener un rendimiento mucho mejor, puedes demostrar que eres un héroe GregTech y buscar en NEI una receta alternativa usando polvos. Los picos de Alumita son capaces de extraer ardita en el InfraMundo.%n%nDeja el resto de tu Alumita como líquido en tu smeltery, la querrás para hacer la Forja de Herramientas. Necesitas 16 lingotes en la fundición para hacer 2 Placas Grandes.
 
 # Quest: Reinforced X? Unbreakable
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEZw.name=§3§l¿Reforzado X? Irrompible
@@ -1186,16 +1186,18 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADog.name=§5§lAuto Minería
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADog.desc=¿Minería automática en el nivel BT? ¡Guau! Esta ingeniosa máquina recogerá minerales por ti, lo que puede ser útil especialmente en el Inframundo, ya que no enfadará a los pigmen.%n%nColoca hasta dos pilas de tuberías de minería en las ranuras adecuadas. Cada tubería puede avanzar 1 bloque y permitir al minero excavar 1 bloque más. Si estás por encima de Y64, puede que necesites más tuberías.%n%nEsta máquina solo necesita 8 EU/t para funcionar, así que las pilas de BT en un batbuff funcionan bien si no quieres hacer otro generador.%n%n¡El minero busca minerales en un área de trabajo de 17x17 bloques (ajustable con un destornillador), y viene con una bonificación de fortuna de nivel 1! No te olvides de cubrirlo. Son máquinas GT, así que recuerda protegerlas (¡y a sus fuentes de energía!) de la lluvia por todos lados. ¡Y fija un waypoint con JourneyMap para que no se te olvide dónde la has colocado si la colocas lejos! Tendrás que cargar el minero si quieres que siga funcionando cuando no estés.
 
 # Quest: Automated Sticky Resin Farmer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADqg.name=§5§6§l§5§lAutomated Sticky Resin Farmer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADqg.desc=If you're tired of crafting tons of tree taps, how about a machine that uses power but never breaks? Let's craft an electric tree tap!%n%n(If you're looking for better ways to get Sticky Resin, you might want to consider the Stickreed crop from IC2 crops. To get it, plant Sugarcanes on Crops on an X formation, with spaces between them, and then put 2 Crops on each empty slot. For more information, check the crop quests.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADqg.name=§5§6§l§5§lAutomatización del cultivo de resina pegajosa
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADqg.desc=Si estás cansado de fabricar toneladas de grifos para árboles, ¿Qué te parece una máquina que consuma energía pero que nunca se rompa? Creemos un grifo eléctrico! %n%n(Si buscas mejores formas de conseguir resina pegajosa, quizá te interese el cultivo Stickreed de IC2. Para conseguirlo, planta Cañas de Azúcar en los Cultivos en una formación de X, con espacios entre ellos, y luego pon 2 Cultivos en cada ranura vacía. Para más información, consulta las misiones de cultivos.
+
 
 # Quest: Automated Farmer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADqw.name=§6§l§d§5§lAutomated Farmer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADqw.desc=Your hoe must be getting worn out by now. Why not craft an electric one which never breaks?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADqw.name=§6§l§d§5§lAutomatización del agricultor
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADqw.desc=Tu azada ya debe estar muy gastada. ¿Por qué no fabricar una eléctrica que no se rompa nunca?
+
 
 # Quest: Vroooooom...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwg.name=§5§lVroooooom...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADwg.desc=Tired of standing around to collect all the drops and XP from your diamond spikes?%n%nMake yourself a vacuum hopper to suck up all the drops and XP. Feed the XP into a tank to store it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADwg.name=§5§lFiuuuuuuumm...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADwg.desc=¿Cansado de quedarte esperando para recoger todas las gotas y XP de tus puntas de diamante? %n%nCréate una tolva de vacío para aspirar todas las gotas y XP. Introduce la XP en un depósito para almacenarla.
 
 # Quest: Brewing, the Industrial Way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-Q.name=§5§lBrewing, the Industrial Way
@@ -1206,35 +1208,31 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-g.name=§5§lFerment Your Brew!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-g.desc=What's better than lame brews? Alcoholic brews! Get one of these to make beer, rum or even vodka.
 
 # Quest: Be Sure to Get Your Armpits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.name=§5§lBe Sure to Get Your Armpits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.desc=Want to use all that delicious XP to raise your levels? Move the tank with XP above you and attach this convenient shower head to take the XP from the tank.%n%nThis thing can be laggy, so be careful about letting too many xp orbs out of the tank. Apply a redstone signal to turn it off.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.name=§5§lAsegúrate de que te tocan las axilas
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.desc=¿Quieres usar toda esa deliciosa XP para subir tus niveles? Mueve el tanque con XP por encima de ti y coloca esta práctica alcachofa de ducha para sacar la XP del tanque.%n%nEsta cosa puede tener lag, así que ten cuidado con dejar salir demasiados orbes de XP del tanque. Aplica una señal de redstone para apagarlo.
 
 # Quest: Lubricant
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPA.name=§5§lLubricant
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPA.desc=Using lubricant instead of water or distilled water in your cutting machines will increase their speed.%n%nYou can make lubricant out of oil, seed oil, fish oil or creosote in a distillery (or distillation tower later on). If you're able to craft a brewery you can use talc or soapstone to get much more lubricant each cycle.%n%nLube cells are required to make low tier energy hatches, so stockpile a few cells and use the rest to make your cutting machine faster.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPA.name=§5§lLubricante
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPA.desc=Utilizar lubricante en lugar de agua o agua destilada en tus máquinas de corte aumentará su velocidad.%n%nPuedes fabricar lubricante a partir de aceite, aceite de semillas, aceite de pescado o creosota en una destilería (o torre de destilación más adelante). Si puedes construir una fábrica de brebaje, puedes usar talco o esteatita para obtener mucho más lubricante en cada ciclo.%n%nLas células de lubricante son necesarias para fabricar escotillas de energía de nivel bajo, así que acumula unas cuantas células y usa el resto para hacer que tu máquina de corte sea más rápida.
 
 # Quest: Time to Dry Out the Nether
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQg.name=§5§lTime to Dry Out the Nether
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQg.desc=Pumps can do more than pump oil and water. You can go to the nether and pump lava from the huge lava lakes too.%n%nOnce you reach HV, lava can be centrifuged for Silicon Dioxide, Magnesia, Quicklime, Gold, Sapphire, and Tantalite. You can get Silicon, Magnesium, Calcium, Gold, Aluminium, Manganese, Tantalum, and Oxygen out of them.%n%nThis is a good use for your LV pumps once you upgrade to MV pumps for oil. If you get into Thaumcraft or Blood Magic, there are ways to produce lava with magic unlimitedly and easily too.%n%n[note]You'll want either ULV tanks and cells, or BC tanks and a dolly to transport your lava.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQg.name=§5§lHora de secar el Inframundo
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQg.desc=Las bombas pueden hacer más que bombear aceite y agua. También puedes ir a las profundidades y bombear lava de los enormes lagos de lava.%n%nUna vez que alcanzas el HV, la lava puede centrifugarse para obtener dióxido de silicio, magnesia, cal viva, oro, zafiro y tantalita. Puedes obtener Silicio, Magnesio, Calcio, Oro, Aluminio, Manganeso, Tantalio y Oxígeno.%n%nEsto es un buen uso para tus bombas de BT una vez que actualices a bombas de MT para petróleo. Si te metes en Thaumcraft o Magia de Sangre, hay maneras de producir lava con magia ilimitadamente y fácilmente también.%n%n[note]Necesitarás tanques ULV y celdas, o tanques BC y una carretilla para transportar tu lava.[/note].
 
 # Quest: Diamond Tanks... Ooo, Shiny
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.name=§5§lDiamond Tanks... Ooo, Shiny
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.desc=After you build a cutting machine you can make some diamond plates for your new 64,000L single block tank.
-
-# Quest: Firestone Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§5§lFirestone Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and heats your Railcraft boiler much faster and more effectively than conventional fuels. %nUnfortunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 blocks deep. It will only replace Netherrack, so a fjord filled with Soul Sand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has Netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.name=§5§lTanques de diamante... Ooo, Brillante
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.desc=Después de construir una máquina de corte puedes hacer algunas placas de diamante para tu nuevo tanque monobloque de 64.000L.
 
 # Quest: Ardite and Cobalt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.name=§5§lArdite and Cobalt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.desc=If you have some time you can look for cobalt and ardite in the Nether.%n%nYou've heard rumors of a special wood only found in another land, a forest of Twilight, that can make tools strong enough to mine them.%n%nRemember, you need an electric blast furnace to process these materials before you can make tools with them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.name=§5§lArdita y cobalto
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.desc=Si tienes algo de tiempo puedes buscar cobalto y ardita en el Inframundo.%n%nHas oído rumores de una madera especial que sólo se encuentra en otra tierra, un bosque del Crepúsculo, que puede hacer herramientas lo suficientemente fuertes como para extraerlas.%n%nRecuerda que necesitas un alto horno eléctrico para procesar estos materiales antes de poder fabricar herramientas con ellos.
 
 # Quest: LV Advanced Steam Boiler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.name=§5§lLV Advanced Steam Boiler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.desc=The LV GT++ Steam Boiler is the next machine you can build to produce steam more efficiently than with the High Pressure Boiler. It won't use fuel up unless it starts to run low on steam, so it's very efficient.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.name=Caldera de vapor avanzada §5§lBT
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.desc=La caldera de vapor de BT GT++ es la siguiente máquina que puede construir para producir vapor de forma más eficiente que con la caldera de alta presión. No consumirá combustible a menos que empiece a quedarse sin vapor, por lo que es muy eficiente.
 
 # Quest: Lossless LV Cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcA.name=§5§lLossless LV Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcA.name=§5§lCables de BT sin pérdidas
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcA.desc=How about lossless 32 EU cables? Redstone alloy is a superconductor and will transfer your energy without any loss.%n%nRedstone Alloy is a new alloy which requires an EBF. Mix redstone, silicon and coal by hand, or in the mixer for a better result.%n%n[note]Remember not to mix it up with Red Alloy, that's the ULV one.[/note]
 
 # Quest: A New Alloy - Magnalium
@@ -1725,10 +1723,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOQ.desc=This Plate Bending Machine allo
 # Quest: Did You Run Low On Gold or Redstone?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.name=§6§lDid You Run Low On Gold or Redstone?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERQ.desc=Did you run low on redstone and/or gold? It's no problem with a glowstone flower farm. You can centrifuge glowstone dust to redstone and gold dust. Redstone is also a good source of chrome. You'll need tons of gold for HV, so it's a good idea to set this up before then.%n%n[note]There are actually a couple plants that produce glowstone, pick the one you like![/note]
-
-# Quest: Firestone Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§5§lFirestone Ore
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and heats your Railcraft boiler much faster and more effectively than conventional fuels. %nUnfortunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 blocks deep. It will only replace Netherrack, so a fjord filled with Soul Sand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has Netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
 
 # Quest: Tier 2 (MV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfA.name=§6§lTier 2 (MV)
@@ -4513,9 +4507,13 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=May Dreammaster have mercy on y
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.name=Fabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
 
+# Quest: See You Next Time!
+betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.name=See You Next Time!
+betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.desc=Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!%n%nThere's also roles to be earned for completing the pack two or even three times if you want an extra incentive.%n%n[note]If you are going for 100%% questbook completion, you can choose between this quest or 'The Factory Must Grow!', both are valid options.%nBe wary that choosing one will lock you out of the other though.[/note]
+
 # Quest: The Factory Must Grow!
 betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.name=The Factory Must Grow!
-betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.desc=Welcome to the post stargate tier! Now that you successfully managed to make a stargate, what about crafting them in an industrial quantity? Try to craft 5 pairs of gates in the least amount of time, then come in #screenshot-brag to post your time to see where your infrastructure stands in the community!%n%nNote: This quest is entirely optional for those who are attempting the challenge of fully completing the questbook.
+betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.desc=A single stargate pair wasn't enough for you?%n%nWell then, time to build a network.%n%nWelcome to the post-stargate tier! %n%nNow that you successfully managed to make a stargate, what about crafting them in industrial quantities? Try to craft 5 pairs of gates in the least amount of time, then come in #screenshot-brag and post your time to see where your infrastructure stands in the community!%n%n[note]If you are going for 100%% questbook completion, you can choose between this quest or 'See You Next Time!', both are valid options.%nBe wary that choosing one will lock you out of the other though.%n%nEnjoy your round of Minesweeper![/note]%n
 
 # Quest: Assembling on Space Steroids
 betterquesting.quest.UVG21mYSQJex90gQWdkpIw.name=Assembling on Space Steroids
@@ -14091,8 +14089,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.name=§2§lAlmacenamiento Más Compa
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.desc=Ahora que estas empezando a encontrar más y más hierro, sientes que tus cofres de cobre son muy chicos para almacenar tus cosas.%n%n[note]¿Tienes cofres de cobre que no se adaptan a tus necesidades? Puedes mejorarlos con su ítem de mejora correspondiente.[/note]
 
 # Quest: Diamond Chests... Ooo, Shiny
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.name=§5§lDiamond Chests... Ooo, Shiny
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.desc=After you build a cutting machine you can make some diamond plates for your new, even bigger diamond chests.%n%n[note]Just as with the previous chests you can also upgrade with a fitting upgrade item.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.name=§5§lCofres de diamantes... Ooo, Brillante
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.desc=Después de construir una máquina de corte, puedes hacer algunas placas de diamante para tus nuevos cofres de diamante, aún más grandes.%n%n[note]Al igual que con los cofres anteriores, también puedes mejorarlos con un objeto de mejora adecuado.[/note].
 
 # Quest: Even More Compact Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.name=§2§lAlmacenamiento Aún Más Compacto
@@ -14101,6 +14099,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.desc=Si encontraste suficiente oro, 
 # Quest: Moron's Guide to Better Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.name=Moron's Guide to Better Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.desc=Forestry trees have a variety of attributes. Once you get a tree with a useful attribute, you can breed that attribute into other tree species. This way you can get an ultimate tree that combines all the attributes you want - including the type of fruit! You can also extract the genes with Gendustry if you can make the machines.%n%n[warn]Please do your Forestry tree-breeding indoors or underground because butterflies cause lag.[/warn]%n%nKeep in mind that for quests, you will need to breed the species "pure", not a hybrid. You should probably save the crossbreeding until after you get all the good ones.%n%nFor faster tree breeding, enclose your trees so that butterflies cannot escape, and breed bees with better traits for area and pollination speed. There's also frames too if you can afford it. The sieve may also help if you want to do it more exactly if you can make an alveary. You need either bees or butterflies, trees won't pollinate each other.%n%nTrees have the following characteristics:%n§eSaplings/Fertility§r: chance of getting a sapling from a destroyed leaf. Good for making into biomass or other uses. Balsa, Gooseberry and Sweetgum are what you want.%n%nAllele     Drop Chance%nLowest   1%%%nLower    2.5%%%nLow       3.5%%%nAverage 5%%%nHigh      10%%%n%n[warn]Maturation/Matures[/warn]: the growth speed of a sapling into a tree. Important if you plan to cut it down right away for logs. Golden Raspberry is the fastest.%n%nAllele    Time%nSlowest  10%nSlower   7%nSlow      5%nAverage 4%nFast      3%nFaster   2%nFastest  ?%n%n§dHeight§r: controls how high the tree grows. Giant Sequoia is the best, though it may be a little §otoo§r large.%n%nAllele    Value%nSmallest  25%%%nSmaller   50%%%nSmall      75%%%nAverage 100%%%nLarge    125%%%nLarger   150%%%nLargest  175%%%nGigantic  BIG%n%n§bGirth§r: the width of your tree. Wider trees have more leaves and logs, but will also need more saplings to begin growing. All saplings must be the same species and girth. The sapling in the NW corner determines the stats of the new tree, and is where bone meal must be applied to mature the tree. The Giant Sequoia is best here too.%n%nAllele/Size%n1x1%n2x2%n3x3%n4x4%n%nYield: chances of getting a fruit from a destroyed leaf. Orchard Apple and Chili Pepper are the best here.%n%nAllele     Drop Chance%nLowest   2.5%%%nLower    5%%%nLow       10%%%nAverage 20%%%nHigh       30%%%nHigher    ?%%%n%n§6Sappiness§r: the amount of biomass a sapling produces in the Forestry Fermenter. You can boost the Fermenter's output by using honey or fruit juice. Blue Mahoe and Red Maple are the best. NEI doesn't show recipes for analyzed saplings, and probably hybrids too, in the fermenter.%n%nAllele  Forestry Biomass%nLowest   100mB%nLower    200mB%nLow       300mB%nAverage 400mB%nHigh       600mB%n%n[warn]Fireproof[/warn]: applies to the wood. Only the Coast and Giant Sequoia have this.%n%n§7Effect§r: not used in trees, so it's None for any.%n%nBelow is more information on some other parameters:%n%n§2Growth§r: Sipiri trees have Tropical instead of Light, can only be bred in a Biome with temperature 90%%-190%% and humidity 90%%-200%%, and can only grow in 120%%-190%% temp and 90%%-200%% humidity. All other trees just need light to grow.%n%n[note]Territory/Soil[/note]: all trees have Average, whatever that means. Probably something related to the below that never really got used.%n%n§eTolerates§r: if it can be planted on sand or not. Only Desert Acacia and Grandidier's Baobab have this. The trait is either Plains or Plains, Desert.%n%n§5Supports§r: what kind of fruits it can theoretically have. Determined by Species. Only fruits from families listed under this trait can be produced by the tree, regardless of what appears under the tree's Fruits trait. There are a number of trees from the Extra Trees mod that support all 4 types, but none from Forestry itself.%n%n§aFruit§r: determines what fruit or nut it produces. Each fruit/nut provides different advantages:%nPlum and Cherry Plum only produces 100L Fruit Juice, but have a 60%% chance of producing Mulch in the Fluid Extractor or Squeezer.%nPapaya produces 600L Fruit Juice, but only has a 10%% chance to produce Mulch.%nCoconuts produce 300L Seed Oil, but only have a 25%% chance to produce Mulch.%nUse a Forestry Multifarm so you don't have to break the leaf block to get the fruit/nut. Set it to Manual Orchard, and place everything first.%n%n§bFamily§r: Tells you what family of the fruit listed under the Fruits trait is: Pomes, Prunes, Nuts or Jungle.
+
+# Quest: Firestone Ore/Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§lFirestone Ore/Dust
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=Firestone ore is used to make some BC machines like the filler, and some other stuff. Unfortunately, it's in the nether...at the bottom of the lava ocean!%n%nHere are some tips for finding it:%n%n-Firestone only spawns in deep lava, at least 6 deep. It will only replace netherrack, so a fjord filled with soulsand won't have any. Can you think of ways to check the lava depth, and what's down there?%n-Alternatively, if you keep your head at just the correct height above the lava and at the correct angle, you'll be able to see underneath it - surely there must be a hovering jetpack?%n-...or just look for the biome when your cursor is over the JM map. Hell is the default one that has netherrack.%n%nFirestone can be mined with the GT miners, if you place it within horizontal range. Firestone ore and products will cause random fires to start nearby, so get it into a backpack quickly!
 
 # Quest: Kinetic Power HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcQ.name=§9§lKinetic Power HV
