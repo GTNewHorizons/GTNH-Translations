@@ -118,8 +118,6 @@ ae2fc.tooltip.ultra_terminal.WIRELESS_FLUID_PATTERN_TERMINAL_EX=Mode: Processing
 ae2fc.tooltip.ultra_terminal=Right click + sneaking to switch mode.
 ae2fc.tooltip.ultra_terminal.tips=ToolTips:
 ae2fc.tooltip.ultra_terminal.tips.desc=1.You can put it to baubles slot and use hotkey to open.\n2.Interface mode hold §3Shift§7 toggle interface renamer button.\n3.When you are in the crafting plan screen.\nHold §3Shift§7 click cancel button will automatically add missing items to NEI bookmark.
-ae2fc.tooltip.ultra_terminal.restock.on=Restock activated
-ae2fc.tooltip.ultra_terminal.restock.off=Restock deactivated
 ae2fc.tooltip.infinity_fluid=§aInfinity§r
 ae2fc.tooltip.fluid_storage.void=Where nothing is everything, and everything is nothing
 
@@ -166,19 +164,6 @@ ae2fc.tooltip.not_fill_pattern.hint=Disabled
 ae2fc.tooltip.open_configuration=Open configuration
 ae2fc.tooltip.block_highlight=Highlight Block
 
-ae2fc.tooltip.magnet_card.off=Magnet Card
-ae2fc.tooltip.magnet_card.off.hint=Off
-ae2fc.tooltip.magnet_card.inv=Magnet Card
-ae2fc.tooltip.magnet_card.inv.hint=Pickup to Inventory
-ae2fc.tooltip.magnet_card.me=Magnet Card
-ae2fc.tooltip.magnet_card.me.hint=Pickup to ME
-ae2fc.tooltip.magnet_card.filter=Magnet Filter
-ae2fc.tooltip.magnet_card.oreDictFilter=Oredictionary filter
-ae2fc.tooltip.restock.on=Toggle Restock
-ae2fc.tooltip.restock.on.hint=Enable
-ae2fc.tooltip.restock.off=Toggle Restock
-ae2fc.tooltip.restock.off.hint=Disable
-
 ae2fc.gui.part_fluid_pattern_terminal=Fluid Pattern Terminal
 ae2fc.gui.part_fluid_pattern_terminal_ex=Fluid Processing Pattern Terminal
 ae2fc.gui.part_level_terminal=Level Terminal
@@ -203,13 +188,6 @@ ae2fc.gui.part_fluid_terminal=ME Fluid Terminal
 ae2fc.gui.part_fluid_storage_bus=ME Fluid Storage Bus
 ae2fc.gui.fluid_auto_filler=ME Fluid Auto Filler
 
-ae2fc.gui.magnet=Magnet Filter
-ae2fc.gui.magnet.nbt=Ignore NBT Data
-ae2fc.gui.magnet.meta=Ignore Meta Data
-ae2fc.gui.magnet.ore=Use Ore Dictionary
-ae2fc.gui.magnet.whitelist=Whitelisting
-ae2fc.gui.magnet.blacklist=BlackListing
-
 ae2fc.gui.color.StateNone=00000000
 ae2fc.gui.color.StateIdle=FF55FF55
 ae2fc.gui.color.StateCraft=FFFFFF55
@@ -218,8 +196,7 @@ ae2fc.gui.color.StateError=FFFF5555
 
 error.unknown=Unknown
 
-ae2fc.key.OpenTerminal=Open Wireless Universal Terminal
-ae2fc.key.Restock=Toggle Restock
+key.OpenTerminal=Open Wireless Universal Terminal
 
 itemGroup.ae2fc=Fluid Craft For AE2
 
