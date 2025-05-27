@@ -675,8 +675,6 @@ gt.blockmachines.multimachine.tm.microwave.desc.3=The machine will also collect 
 gt.blockmachines.multimachine.tm.microwave.desc.4=Can be configured with a Parametrizer
 gt.blockmachines.multimachine.tm.microwave.desc.5=(Do not insert a Wither)
 gt.blockmachines.multimachine.tm.microwave.cfgi.0=Power setting
-gt.blockmachines.multimachine.tm.microwave.power=Power
-gt.blockmachines.multimachine.tm.microwave.timer=Timer
 gt.blockmachines.multimachine.tm.microwave.cfgi.1=Timer setting
 gt.blockmachines.multimachine.tm.microwave.cfgo.0=Timer value
 gt.blockmachines.multimachine.tm.microwave.cfgo.1=Timer remaining
@@ -709,17 +707,13 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgo.6=Energy Stored display
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.7=Energy Fraction display
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=Scan time display
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.9=Output max display
-gt.blockmachines.multimachine.tm.teslaCoil.hysteresisLow=Hysteresis Low
-gt.blockmachines.multimachine.tm.teslaCoil.hysteresisHigh=Hysteresis High
-gt.blockmachines.multimachine.tm.teslaCoil.transferRadius=Transfer Radius
-gt.blockmachines.multimachine.tm.teslaCoil.outputVoltage=Output Voltage
-gt.blockmachines.multimachine.tm.teslaCoil.outputCurrent=Output Current
-gt.blockmachines.multimachine.tm.teslaCoil.scanTime=Scan Time
-gt.blockmachines.multimachine.tm.teslaCoil.overdrive=Overdrive
 
 gt.blockmachines.multimachine.em.switch.desc.0=Distributes computation to transmission connectors based on weights.
-gt.blockmachines.multimachine.em.switch.desc.1=Computation output is configured by right clicking transmission connectors with a screwdriver.
-gt.blockmachines.multimachine.em.switch.desc.2=Transmission connectors must be part of the structure for them to be configurable.
+gt.blockmachines.multimachine.em.switch.desc.1=Transmission connectors are assigned an ID.
+gt.blockmachines.multimachine.em.switch.desc.2=Scan connectors with a Portable Scanner to determine their ID.
+gt.blockmachines.multimachine.em.switch.desc.3=Computation output is configured via TecTech parameters.
+gt.blockmachines.multimachine.em.switch.desc.4=The first parameter in each group controls the hatch ID.
+gt.blockmachines.multimachine.em.switch.desc.5=The second parameter in each group controls the hatch weight.
 
 gt.blockmachines.multimachine.em.computer.name=Quantum Computer
 gt.blockmachines.multimachine.em.computer.machinetype=Quantum Computer, QC
@@ -1917,48 +1911,6 @@ GT5U.gui.config.general.features=Features
 GT5U.gui.config.general.teslatweaks=Tesla Tweaks
 GT5U.gui.config.general.visual=Visual
 
-tt.spacepump.noFluidTooltip=No fluid set! Click to open configuration panel!
-tt.spacepump.parallelTooltip=per parallel
-tt.spacepump.fluid=Fluid %d:
-
-
-tt.multiblock.batchSize=Batch Size
-tt.multiblock.parallel=Fluid %d Parallels
-
-
-tt.spaceminer.distance=Distance
-tt.spaceminer.parallel=Parallels
-tt.spaceminer.cycle=Cycle Distance
-tt.spaceminer.range=Cycle Range
-tt.spaceminer.step=Cycle Step
-tt.spaceminer.filterButtonTooltip=Open Filter
-tt.spaceminer.togglefilter=Toggle Filter
-tt.spaceminer.asteroidutilitypanelButtonTooltip=Open Space Miner Utility Panel
-tt.spaceminer.asteroidButtonTooltipInfo=Click me to get more info!
-tt.spaceminer.asteroidButtonFilter=Right click to add asteroid to filter
-tt.spaceminer.textFieldOre=Ore
-tt.spaceminer.textFieldDistance=Distance
-tt.spaceminer.textFieldTier=Tier
-tt.spaceminer.calculatorButtonTooltip=Open Space Miner Calculator
-tt.spaceminer.asteroidutilitypanel.miningDrones=Can be mined by:
-tt.spaceminer.asteroidutilitypanel.uses=Uses
-tt.spaceminer.asteroidutilitypanel.and=And
-tt.spaceminer.asteroidutilitypanel.parallelInfo=Per parallel
-tt.spaceminer.asteroidutilitypanel.sizeForDrone=Asteroid size with this drone: %d-%d
-tt.spaceminer.asteroidutilitypanel.miningTime=Mining operation time with this drone: %ss
-tt.spaceminer.asteroidutilitypanel.distanceRange=Found at: %s%d-%d%s distance
-tt.spaceminer.asteroidutilitypanel.computation=Requires %s%d computation/s per parallel
-tt.spaceminer.asteroidutilitypanel.moduleTier=Requires at least tier %d Space Mining module
-tt.spaceminer.asteroidutilitypanel.drops=Drops:
-tt.spaceminer.asteroidutilitypanel.targetAsteroidButtonTooltip=Target this asteroid
-tt.spaceminer.calculator.missing.distance=Missing distance setting!
-tt.spaceminer.calculator.missing.moduleTier=Missing module tier!
-tt.spaceminer.calculator.missing.drone=Missing drone!
-tt.spaceminer.calculator.calculate=Calculate
-tt.spaceminer.calculator.asteroidChance= %s Chance for:
-
-
-
 tt.eoh.fancy_names.crude=Crude
 tt.eoh.fancy_names.primitive=Primitive
 tt.eoh.fancy_names.stable=Stable
@@ -1990,6 +1942,11 @@ tt.godforge.casings.7.Tooltip.1=Gravity Central
 tt.godforge.casings.8.Tooltip.0=Transfers and stores extreme amounts of heat without any loss
 tt.godforge.casings.8.Tooltip.1=<<<Thermal<<<
 tt.godforge.casings.8.Tooltip.2=>>>Wave>>>
+tt.godforge.star_color.preset.default=Default
+tt.godforge.star_color.preset.rainbow=Rainbow
+tt.godforge.star_color.preset.clouds_pick=Cloud's Pick
+tt.godforge.star_color.preset.mayas_pick=Maya's Pick
+
 
 tt.eoh.stability.tooltip=§b§lIncreases stability of spacetime field.
 tt.eoh.time_dilation.standard.tooltip=§b§lTime dilation in a box.
@@ -2043,3 +2000,33 @@ tt.infodata.fog.connected=Connected Modules: %s
 ## Base factory pipe
 tt.infodata.pipe.active=Active.
 tt.infodata.pipe.inactive=Not active.
+
+# Gui
+tt.gui.tooltip.power_pass=Power Pass
+tt.gui.tooltip.safe_void=Safe Void
+tt.gui.tooltip.power_switch=Power Switch
+
+tt.gui.tooltip.plasma_module.debug_window=Debug Window
+tt.gui.tooltip.plasma_module.debug_window.multi_step=multi-step
+tt.gui.tooltip.plasma_module.debug_window.fusion_tier=fusion tier
+tt.gui.tooltip.plasma_module.debug_window.parallel=parallel
+
+tt.gui.text.debug.eut=EUT
+tt.gui.text.debug.amp=AMP
+tt.gui.text.debug.sum=SUM
+tt.gui.text.debug.tier=TIER
+
+tt.gui.text.debug_pollutor.pollution=Pollution
+
+tt.gui.text.debug_structure_writer.structure_size=Structure size
+tt.gui.text.debug_structure_writer.my_position=My position
+tt.gui.text.debug_structure_writer.changing_scan_size=(Changing scan size)
+tt.gui.text.debug_structure_writer.moving_origin=(Moving origin)
+
+tt.gui.text.hatch.uncertainty.status.ok=Status: OK
+tt.gui.text.hatch.uncertainty.status.ng=Status: NG
+
+tt.gui.tooltip.full_led_desc.in.id=ID: %s:%s:§bI %s
+tt.gui.tooltip.full_led_desc.out.id=ID: %s:%s:§bO %s
+tt.gui.tooltip.full_led_desc.value=Value: %s
+tt.gui.tooltip.full_led_desc.unused=Unused
