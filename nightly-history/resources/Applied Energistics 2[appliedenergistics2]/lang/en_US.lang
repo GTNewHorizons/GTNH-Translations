@@ -228,6 +228,7 @@ gui.appliedenergistics2.StorageCells=ME Storage Cells
 gui.appliedenergistics2.IOBuses=ME Import/Export Bus
 gui.appliedenergistics2.Stores=Stores
 gui.appliedenergistics2.BytesUsed=Bytes Used
+gui.appliedenergistics2.TimeUsed=Time Used
 gui.appliedenergistics2.Types=Types
 gui.appliedenergistics2.Blank=Blank
 gui.appliedenergistics2.Unlinked=Unlinked
@@ -371,6 +372,9 @@ gui.color.appliedenergistics2.CraftConfirmMissingItem=1AFF0000
 gui.color.appliedenergistics2.CraftingCPUActive=5A45A021
 gui.color.appliedenergistics2.CraftingCPUScheduled=FF787878
 gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
+gui.color.appliedenergistics2.ProcessBarStartColor=FFE60A00
+gui.color.appliedenergistics2.ProcessBarMiddleColor=FFE6E600
+gui.color.appliedenergistics2.ProcessBarEndColor=FF0AE600
 
 # GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=Store Items
@@ -646,6 +650,8 @@ gui.appliedenergistics2.GuiSuperWirelessKit.pinbutton.name=Pin
 gui.appliedenergistics2.GuiSuperWirelessKit.pinbutton.desc=Keep this unit in current row
 gui.appliedenergistics2.GuiSuperWirelessKit.madchameleonrecolor.name=Mad Chameleon
 gui.appliedenergistics2.GuiSuperWirelessKit.madchameleonrecolor.desc=Recolor in color which not allow connect to neighbor wireless`s
+gui.appliedenergistics2.GuiSuperWirelessKit.ae2stuff.name=AE2Stuff converter
+gui.appliedenergistics2.GuiSuperWirelessKit.ae2stuff.desc=Replace ae2tuff connectors in networks with AE2 connections (World reload required).
 gui.appliedenergistics2.GuiSuperWirelessKit.includeconnectors.name=Include hubs
 gui.appliedenergistics2.GuiSuperWirelessKit.includeconnectors.desc=Include hubs in manipulations
 gui.appliedenergistics2.GuiSuperWirelessKit.includehubs.name=Include connectors
@@ -677,6 +683,11 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Locked by lack of
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Locked by redstone signal
 waila.appliedenergistics2.CraftingLockedUntilPulse=Waiting for redstone pulse to unlock
 waila.appliedenergistics2.CraftingLockedUntilResult=Waiting for results to unlock
+waila.appliedenergistics2.wireless.connected=Connected to %s,%s,%s
+waila.appliedenergistics2.wireless.notconnected=Not Connected
+waila.appliedenergistics2.wireless.channels=Channels: %s
+waila.appliedenergistics2.wireless.power=Power Used: %s AE/t
+waila.appliedenergistics2.wireless.name=Name: %s
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=1k ME Storage Cell
