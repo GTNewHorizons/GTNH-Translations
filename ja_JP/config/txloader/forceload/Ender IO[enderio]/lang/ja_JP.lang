@@ -441,11 +441,6 @@ item.itemWirelessLightInverted.tooltip.detailed.line2=照らす
 item.itemWirelessLightInverted.tooltip.detailed.line3=レッドストーン信号でオフにする
 item.itemWirelessLightInverted.tooltip.detailed.line4=無線充電機から電気を供給できる
 
-tile.blockCapacitorBank.name=蓄電機(廃止)
-tile.blockCapacitorBank.creative.name=クリエイティブ蓄電機(廃止)
-tile.blockCapacitorBank.tooltip.detailed.line1=クラフトすると新しいバージョンの
-tile.blockCapacitorBank.tooltip.detailed.line2=ブロックに変化する
-tile.blockCapacitorBank.tooltipPrefix=蓄電量
 
 tile.blockCapBank.name=Capacitor Bank
 tile.blockCapBank.creative.name=クリエイティブ蓄電機
@@ -644,6 +639,9 @@ tile.blockWeatherObelisk.name=天候のオベリスク
 tile.blockWeatherObelisk.tooltip.detailed.line1=現在の天候を変更する
 tile.blockWeatherObelisk.tooltip.detailed.line2=大量の電気と天候ごとに異なる
 tile.blockWeatherObelisk.tooltip.detailed.line3=アイテムを消費する
+tile.blockWeatherObelisk.tooltip.detailed.line4=Liquid Sunshine: Sun
+tile.blockWeatherObelisk.tooltip.detailed.line5=Cloud Seed: Rain
+tile.blockWeatherObelisk.tooltip.detailed.line6=Concentrated Cloud Seed: Thunder
 
 tile.blockBuffer.name=Buffer
 tile.blockBuffer.item.name=アイテムバッファ
@@ -1102,8 +1100,8 @@ enderio.gui.machine.side.east=東
 enderio.gui.machine.side.up=上
 enderio.gui.machine.side.down=下
 enderio.gui.machine.weather.control=Control Mode
-enderio.gui.machine.weather.redstone=Launch on Redstone
-enderio.gui.machine.weather.manual=Default Control Mode
+enderio.gui.machine.weather.redstone=Launch on Redstone Signal
+enderio.gui.machine.weather.manual=Launch Manually
 enderio.gui.machine.weather.run=Launch
 
 

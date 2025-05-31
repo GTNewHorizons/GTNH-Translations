@@ -45,6 +45,18 @@ tile.blockInfoPanel.name=Industrial Information Panel
 tile.blockInfoPanelExtender.name=Information Panel Extender
 tile.blockAdvancedInfoPanel.name=Advanced Information Panel
 tile.blockAdvancedInfoPanelExtender.name=Advanced Panel Extender
+tile.blockAdvancedInfoPanel.RotateRight=Rotate to the right
+tile.blockAdvancedInfoPanel.RotateLeft=Rotate to the left
+tile.blockAdvancedInfoPanel.Colors=Change Colors
+tile.blockAdvancedInfoPanel.Labels=Labels
+tile.blockAdvancedInfoPanel.Power=normal/inverted redstone and on/off
+tile.blockAdvancedInfoPanel.Slope=Change slope settings
+tile.blockAdvancedInfoPanel.Settings=Settings
+tile.blockAdvancedInfoPanel.Transparency=Switch transparency
+tile.blockAdvancedInfoPanel.LineConfig=Open line configuration
+tile.blockAdvancedInfoPanel.Save=Save
+tile.blockAdvancedInfoPanel.Reset=Reset
+tile.blockAdvancedInfoPanel.Cancel=Cancel
 tile.nclight0.name=White Lamp
 tile.nclight1.name=White Lamp
 tile.nclight2.name=Orange Lamp
@@ -144,14 +156,25 @@ nc.msg.notValid=This Card may not be compatible
 nc.msg.notValid2=with the Remote Monitor
 nc.msg.notValid3=Try reopening the GUI
 
+
+# Advanced Info Panel Settings messages
+# Settings labels for Vanilla Machine Card (Furnace/Brewing Stand)
+msg.nc.Vanilla.setting.activityStatus=Activity Status (Brewing/Burning)
+msg.nc.Vanilla.setting.activeTime=Active Time (Brew/Burn)
+msg.nc.Vanilla.setting.slot1Contents=Slot 1 Contents (Potion/Input)
+msg.nc.Vanilla.setting.slot2Contents=Slot 2 Contents (Potion/Fuel)
+msg.nc.Vanilla.setting.slot3Contents=Slot 3 Contents (Potion/Output)
+
+
 #Vanilla Intergration Messages
 msg.nc.Vanilla.Display=%s / %s emplacements utilisés
 msg.nc.Vanilla.Name=Block Name
 msg.nc.Vanilla.StorageLVL=Storage Level
-msg.nc.Vanilla.brewstand=Current Brew Time: %s
+msg.nc.Vanilla.brewstand=Brew Time: %s
 msg.nc.Vanilla.potionType1=1st Potion Type: %s
-msg.nc.Vanilla.potionType2=2st Potion Type: %s
-msg.nc.Vanilla.potionType3=3st Potion Type: %s
+msg.nc.Vanilla.potionType2=2nd Potion Type: %s
+msg.nc.Vanilla.potionType3=3rd Potion Type: %s
+msg.nc.Vanilla.Time=Active Time
 msg.nc.Vanilla.brewing=Brewing
 msg.nc.Vanilla.notBrewing=Not Brewing
 msg.nc.Vanilla.dispBrewUse=Show Output Type #%s
@@ -161,6 +184,7 @@ msg.nc.Vanilla.cooking=Cooking: %sx - %s
 msg.nc.Vanilla.fuel=Fuel: %sx - %s
 msg.nc.Vanilla.output=Output: %sx - %s
 msg.nc.Vanilla.burnTime=Burn Time: %s
+
 
 #Big Reactor Messages
 msg.nc.InfoPanelRF.Temp=Core Temp.: %s C
@@ -176,7 +200,7 @@ msg.nc.InfoPanelRF.OutputTank=Output Tank: %s x%smB
 #5x5 Reactor Messages
 msg.nc.InfoPanel55.Output=Output: %s Hu/s
 msg.nc.InfoPanel55.Temp=Core Temperature: %s%%
-msg.nc.InfoPanel55.tarkin=Tank In: %s / 10000 mB
+msg.nc.InfoPanel55.tankin=Tank In: %s / 10000 mB
 msg.nc.InfoPanel55.tankout=Tank Out: %s / 10000 mB
 msg.nc.InfoPanel55.Out=Output (Hu/s)
 msg.nc.InfoPanel55.BufferIn=Coolant Storage Tank

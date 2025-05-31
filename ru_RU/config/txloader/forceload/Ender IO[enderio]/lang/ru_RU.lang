@@ -67,7 +67,7 @@ enderio.itemLiquidConduit.unlockedType=Тип жидкости не устано
 enderio.itemLiquidConduit.lockedWaila=Установленная жидкость 
 
 enderio.itemLiquidConduit.tooltip.maxExtract=Макс. извлечение:
-enderio.itemLiquidConduit.tooltip.maxIo=Макс. вход/выход:
+enderio.itemLiquidConduit.tooltip.maxIo=Макс. ввод/вывод:
 enderio.itemLiquidConduit.tooltip.detailed.line1=Жидкости не будут течь вверх
 enderio.itemLiquidConduit.tooltip.detailed.line2=Скорость потока зависит от
 enderio.itemLiquidConduit.tooltip.detailed.line3=вязкости жидкости
@@ -94,7 +94,7 @@ item.itemExistingItemFilter.name=Существующий предметный �
 item.itemExistingItemFilter.tooltip.basic.line1=Улучшение для предметного кондуита
 item.itemExistingItemFilter.tooltip.detailed.line1=Выбирает предметы только
 item.itemExistingItemFilter.tooltip.detailed.line2=в инвентаре
-item.itemExistingItemFilter.tooltip.detailed.line3=ПКМ с зажатым Shift
+item.itemExistingItemFilter.tooltip.detailed.line3=Shift+ПКМ
 item.itemExistingItemFilter.tooltip.detailed.line4=по инвентарю, чтобы добавить
 item.itemExistingItemFilter.tooltip.detailed.line5=содержимое в фильтр
 
@@ -418,7 +418,7 @@ item.itemElectricLight.tooltip.detailed.line2=энергии и сигнала �
 item.itemElectricLightInverted.name=Электрический светильник (Инвертированный)
 item.itemElectricLightInverted.tooltip.detailed.line1=Освещает большую площадь при подаче
 item.itemElectricLightInverted.tooltip.detailed.line2=энергии.
-item.itemElectricLightInverted.tooltip.detailed.line3=Выключается по сигналу красного камня.
+item.itemElectricLightInverted.tooltip.detailed.line3=Отключается по сигналу красного камня.
 
 item.itemLight.name=Светильник
 item.itemLight.tooltip.detailed.line1=Излучает свет по
@@ -438,14 +438,9 @@ item.itemWirelessLight.tooltip.detailed.line3=Может получать эне
 item.itemWirelessLightInverted.name=Беспроводной электрический светильник (Инвертированный)
 item.itemWirelessLightInverted.tooltip.detailed.line1=Освещает большую площадь при подаче
 item.itemWirelessLightInverted.tooltip.detailed.line2=энергии.
-item.itemWirelessLightInverted.tooltip.detailed.line3=Выключается по сигналу красного камня.
+item.itemWirelessLightInverted.tooltip.detailed.line3=Отключается по сигналу красного камня.
 item.itemWirelessLightInverted.tooltip.detailed.line4=Может получать энергию от беспроводных зарядников.
 
-tile.blockCapacitorBank.name=Блок конденсаторов (Устаревший)
-tile.blockCapacitorBank.creative.name=Творческий блок конденсаторов (Устаревший)
-tile.blockCapacitorBank.tooltip.detailed.line1=Переделайте в новый блок, положив
-tile.blockCapacitorBank.tooltip.detailed.line2=в сетку создания.
-tile.blockCapacitorBank.tooltipPrefix=Содержит
 
 tile.blockCapBank.name=Блок конденсаторов
 tile.blockCapBank.creative.name=Творческий блок конденсаторов
@@ -454,13 +449,13 @@ tile.blockCapBank.activated.name=Блок конденсаторов
 tile.blockCapBank.vibrant.name=Вибрирующий блок конденсаторов
 tile.blockCapBank.tooltip.detailed.line1=Мульти-блок для хранения энергии.
 tile.blockCapBank.tooltip.detailed.line2=Может заряжать RF-предметы.
-tile.blockCapBank.tooltip.detailed.line3=Shift-ПКМ, по экрану пустой рукой,
+tile.blockCapBank.tooltip.detailed.line3=Shift+ПКМ, по экрану пустой рукой,
 tile.blockCapBank.tooltip.detailed.line4=чтобы изменить отображаемую информацию
 tile.blockCapBank.tooltip.hasItems=Предметов в инвентаре: {0,number,integer} {0,choice,1#item|1<items}
 tile.blockCapBank.tooltipPrefix=Содержит
 
-enderio.capbank.maxIO=Макс. вход/выход
-enderio.capbank.maxIn=Макс. вход
+enderio.capbank.maxIO=Макс. ввод/вывод
+enderio.capbank.maxIn=Макс. ввод
 enderio.capbank.maxOut=Макс выход
 enderio.capbank.change=Вход/выход
 enderio.capbank.iodisplay.stable=Вход/выход
@@ -495,7 +490,7 @@ tile.blockEnderRail.tooltip.detailed.line1=Телепортирует вагон
 tile.blockEnderRail.tooltip.detailed.line2=на пространственный приёмопередатчик
 tile.blockEnderRail.tooltip.detailed.line3=Установите направления, используя
 tile.blockEnderRail.tooltip.detailed.line4=вкладку "рельс" в приёмопередатчике
-tile.blockEnderRail.tooltip.detailed.line5=Установите направление с помощью Shift-ПКМ
+tile.blockEnderRail.tooltip.detailed.line5=Установите направление с помощью Shift+ПКМ
 tile.blockEnderRail.tooltip.detailed.line6=ключом
 
 enderio.trans.showChannels=<Shift, чтобы увидеть каналы>
@@ -644,6 +639,9 @@ tile.blockWeatherObelisk.name=Погодный обелиск
 tile.blockWeatherObelisk.tooltip.detailed.line1=Изменяет текущую погоду
 tile.blockWeatherObelisk.tooltip.detailed.line2=Требует много энергии и
 tile.blockWeatherObelisk.tooltip.detailed.line3=предмет в качестве катализатора
+tile.blockWeatherObelisk.tooltip.detailed.line4=Жидкий солнечный свет: Солнце
+tile.blockWeatherObelisk.tooltip.detailed.line5=Облако семян: Дождь
+tile.blockWeatherObelisk.tooltip.detailed.line6=Концентрированное облако семян: Шторм
 
 tile.blockBuffer.name=Буфер
 tile.blockBuffer.item.name=Предметный буфер
@@ -688,7 +686,7 @@ enderio.gui.inventorypanel.tooltip.sort.count_up.line2=Начиная с оди�
 enderio.gui.inventorypanel.tooltip.refill.line1=Заполняет сетку крафта
 enderio.gui.inventorypanel.tooltip.refill.line2=Обычный клик помещает предметы
 enderio.gui.inventorypanel.tooltip.refill.line3=для одной операции крафта,
-enderio.gui.inventorypanel.tooltip.refill.line4=в то время как shift+лкм пытается
+enderio.gui.inventorypanel.tooltip.refill.line4=в то время как Shift+ЛКМ пытается
 enderio.gui.inventorypanel.tooltip.refill.line5=заполнить сетку крафта.
 enderio.gui.inventorypanel.tooltip.setrecipe.line1=Узнайте текущий рецепт крафта
 enderio.gui.inventorypanel.tooltip.setrecipe.line2=Позволяет пополнить для 
@@ -753,7 +751,7 @@ item.itemTravelStaff.name=Посох путешествия
 item.itemTravelStaff.tooltip.detailed.line1=Когда якори путешествия и EnderIO экипированы
 item.itemTravelStaff.tooltip.detailed.line2=блоки становятся видимыми и могут быть
 item.itemTravelStaff.tooltip.detailed.line3=активированы ПКМ
-item.itemTravelStaff.tooltip.detailed.line4=Shift-ПКМ телепортирует
+item.itemTravelStaff.tooltip.detailed.line4=Shift+ПКМ телепортирует
 item.itemTravelStaff.tooltip.detailed.line5=игрока на короткую дистанцию
 enderio.itemTravelStaff.notEnoughPower=Недостаточно энергии
 enderio.travelStaffKeybind.isDisabled=Travel Staff Blink Keybind Disabled!
@@ -768,7 +766,7 @@ item.itemCoordSelector.name=Настройщик координат
 item.itemCoordSelector.tooltip.detailed.line1=Сохраняет координаты блока.
 item.itemCoordSelector.tooltip.detailed.line2=ПКМ по блоку, чтобы выбрать
 item.itemCoordSelector.tooltip.detailed.line3=блок рядом с этой стороной.
-item.itemCoordSelector.tooltip.detailed.line4=Shift-ПКМ по блоку, чтобы
+item.itemCoordSelector.tooltip.detailed.line4=Shift+ПКМ по блоку, чтобы
 item.itemCoordSelector.tooltip.detailed.line5=выбрать конкретный блок.
 item.itemCoordSelector.tooltip.detailed.line6=Можно выбирать блоки на расстоянии.
 enderio.itemCoordSelector.chat.newCoords=Новые координаты: %s
@@ -800,26 +798,26 @@ tile.blockPainter.tooltip.detailed.line6=якорей путешествия
 #Items
 item.itemYetaWrench.name=Гаечный ключ Yeta
 item.itemYetaWrench.tooltip.detailed.line1=Скрывает фасады труб, когда в руке
-item.itemYetaWrench.tooltip.detailed.line2=Shift-ПКМ, чтобы моментально демонтировать
+item.itemYetaWrench.tooltip.detailed.line2=Shift+ПКМ, чтобы моментально демонтировать
 item.itemYetaWrench.tooltip.detailed.line3=механизм или кондуиты
-item.itemYetaWrench.tooltip.detailed.line4=Shift-ЛКМ по кондуиту, чтобы 
+item.itemYetaWrench.tooltip.detailed.line4=Shift+ЛКМ по кондуиту, чтобы 
 item.itemYetaWrench.tooltip.detailed.line5=открыть интерфейс настроек
-item.itemYetaWrench.tooltip.detailed.line6=Используйте Shift-колёсико мыши или '%s', чтобы
+item.itemYetaWrench.tooltip.detailed.line6=Используйте Shift+колёсико мыши или '%s', чтобы
 item.itemYetaWrench.tooltip.detailed.line7=отображать только один вид кондуита
 
 item.itemMagnet.name=Электромагнит
 item.itemMagnet.tooltip.detailed.line1=Тянет ближайший предмет к Вам
-item.itemMagnet.tooltip.detailed.line2=Shift-ПКМ, чтобы включить/выключить
+item.itemMagnet.tooltip.detailed.line2=Shift+ПКМ, чтобы включить/отключить
 item.itemMagnet.tooltip.detailed.line3=Должен быть запитан, активен и в
 item.itemMagnet.tooltip.detailed.line4=панели быстрого доступа(или в слоте Baubles) для функционирования
 
 item.enderio.itemConduitProbe.name=Зонд для кондуит
 item.enderio.itemConduitProbe.tooltip.detailed.line1=ПКМ по кондуиту, чтобы отобразить
 item.enderio.itemConduitProbe.tooltip.detailed.line2=детали о её сети
-item.enderio.itemConduitProbe.tooltip.detailed.line3=Shift-ПКМ по трубе, чтобы
+item.enderio.itemConduitProbe.tooltip.detailed.line3=Shift+ПКМ по трубе, чтобы
 item.enderio.itemConduitProbe.tooltip.detailed.line4=скопировать её параметры подключения 
 item.enderio.itemConduitProbe.tooltip.detailed.line5=ПКМ, чтобы вставить их
-item.enderio.itemConduitProbe.tooltip.detailed.line6=Используйте Shift-колёсико мыши или 'Y', чтобы изменить режим
+item.enderio.itemConduitProbe.tooltip.detailed.line6=Используйте Shift+колёсико мыши или 'Y', чтобы изменить режим
 
 item.itemSoulVessel.name=Флакон для душ
 enderio.item.itemSoulVessel.tooltip.health=Здоровье:
@@ -833,7 +831,7 @@ item.itemSoulVessel.tooltip.detailed.line3=Нажмите ПКМ снова, ч�
 item.itemXpTransfer.name=Стержень опыта
 item.itemXpTransfer.tooltip.detailed.line1=ПКМ по резервуару, содержащему
 item.itemXpTransfer.tooltip.detailed.line2=жидкий опыт, чтобы получить его
-item.itemXpTransfer.tooltip.detailed.line3=Shift-ПКМ, чтобы передать опыт
+item.itemXpTransfer.tooltip.detailed.line3=Shift+ПКМ, чтобы передать опыт
 item.itemXpTransfer.tooltip.detailed.line4=в резервуар
 
 item.itemFrankenSkull.name=Зомби-электрод
@@ -951,7 +949,7 @@ enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line2=Поглощае
 enderio.darksteel.upgrade.empowered_five.tooltip.detailed.line3=если есть питание
 
 enderio.darksteel.upgrade.travel.name=Путешествие
-enderio.darksteel.upgrade.travel.tooltip.detailed.line1=Зажмите shift и нажмите ПКМ, для телепорта.
+enderio.darksteel.upgrade.travel.tooltip.detailed.line1=Удерживайте SHIFT и нажмите ПКМ, для телепорта.
 enderio.darksteel.upgrade.travel.tooltip.detailed.line2=Так же можно телепортироваться на якоря путешествия.
 
 enderio.darksteel.upgrade.spoon.name=Ложка
@@ -960,13 +958,13 @@ enderio.darksteel.upgrade.spoon.tooltip.detailed.line2=есть ложка
 
 enderio.darksteel.upgrade.glider.name=Планер
 enderio.darksteel.upgrade.glider.tooltip.detailed.line1=Включает планирование
-enderio.darksteel.upgrade.glider.enabled=Планер включен
+enderio.darksteel.upgrade.glider.enabled=Планер активирован
 enderio.darksteel.upgrade.glider.disabled=Планер отключен
 
 enderio.darksteel.upgrade.sound.name=Звуколокатор
 enderio.darksteel.upgrade.sound.tooltip.detailed.line1=Отображает расположение
 enderio.darksteel.upgrade.sound.tooltip.detailed.line2=ближайших звуков
-enderio.darksteel.upgrade.sound.enabled=Звуколокатор включен
+enderio.darksteel.upgrade.sound.enabled=Звуколокатор активирован
 enderio.darksteel.upgrade.sound.disabled=Звуколокатор отключен
 
 enderio.darksteel.upgrade.gogglesOfRevealing.name=Откровение
@@ -998,7 +996,7 @@ item.itemGliderWings.tooltip.detailed.line1=Улучшается кирасой
 item.itemGliderWings.tooltip.detailed.line2=из чёрной стали
 
 enderio.darksteel.upgrade.jump.enabled=Прыжок включен
-enderio.darksteel.upgrade.jump.disabled=Прыжок выключен
+enderio.darksteel.upgrade.jump.disabled=Прыжок отключён
 
 enderio.darksteel.upgrade.jump_one.name=Прыжок
 enderio.darksteel.upgrade.jump_one.tooltip.detailed.line1=Увеличивает шаг и высоту прыжка
@@ -1028,7 +1026,7 @@ enderio.darksteel.upgrade.swim.name=Ласты
 
 enderio.darksteel.upgrade.nightVision.name=Ночное зрение
 enderio.darksteel.upgrade.nightVision.enabled=Ночное зрение включено
-enderio.darksteel.upgrade.nightVision.disabled=Ночное зрение выключено
+enderio.darksteel.upgrade.nightVision.disabled=Ночное зрение отключено
 
 enderio.darksteel.upgrade.solar_one.name=Солнечная батарея I
 enderio.darksteel.upgrade.solar_one.tooltip.detailed.line1=Генерирует энергию от солнечных лучей.
@@ -1041,11 +1039,11 @@ enderio.darksteel.upgrade.solar_three.tooltip.detailed.line1=Генерируе�
 
 #------GUI
 
-enderio.gui.simple.in=Макс. вход:
-enderio.gui.simple.out=Макс. выход:
+enderio.gui.simple.in=Макс. ввод:
+enderio.gui.simple.out=Макс. вывод:
 
 enderio.gui.available=Доступно
-enderio.gui.disabled=Выключено
+enderio.gui.disabled=Отключено
 enderio.gui.enabled=Включено
 enderio.gui.max=Макс:
 enderio.gui.progress=Прогресс {0,number}%
@@ -1075,7 +1073,7 @@ enderio.gui.machine.button.retrieveall=Забрать все
 enderio.gui.machine.tooltip.retrieveall=уровни опыта игрока
 
 enderio.gui.machine.ioMode.overlay.tooltip=Настроить вход/выход
-enderio.gui.machine.ioMode.overlay.tooltip.visible.line1=Shift-клик, чтобы сбросить все стороны
+enderio.gui.machine.ioMode.overlay.tooltip.visible.line1=Shift+клик, чтобы сбросить все стороны
 enderio.gui.machine.ioMode.overlay.tooltip.visible.line2=на настройки по-умолчанию
 enderio.gui.machine.ioMode.none=Нет
 enderio.gui.machine.ioMode.pull=Тянуть
@@ -1101,10 +1099,10 @@ enderio.gui.machine.side.west=Запад
 enderio.gui.machine.side.east=Восток
 enderio.gui.machine.side.up=Верх
 enderio.gui.machine.side.down=Низ
-enderio.gui.machine.weather.control=Control Mode
-enderio.gui.machine.weather.redstone=Launch on Redstone
-enderio.gui.machine.weather.manual=Default Control Mode
-enderio.gui.machine.weather.run=Launch
+enderio.gui.machine.weather.control=Режим управления
+enderio.gui.machine.weather.redstone=Запуск по сигналу красного камня
+enderio.gui.machine.weather.manual=Запустить вручную
+enderio.gui.machine.weather.run=Запуск
 
 
 #Power Monitor
@@ -1145,8 +1143,8 @@ enderio.gui.mjReader.receiveItem2=от:
 #CapactorBank
 enderio.gui.capBank.inputRs=Режим красного камня на входе
 enderio.gui.capBank.outputRs=Режим красного камня на выходе
-enderio.gui.capBank.maxIo=Макс. вход/выход
-enderio.gui.capBank.maxInput=Макс. вход
+enderio.gui.capBank.maxIo=Макс. ввод/вывод
+enderio.gui.capBank.maxInput=Макс. ввод
 enderio.gui.capBank.maxOutput=Макс выход
 enderio.gui.capBank.inputMode=Вход
 enderio.gui.capBank.outputMode=Выход
@@ -1241,7 +1239,7 @@ enderio.gui.item_filter.match_meta=Соблюдать метаданные
 enderio.gui.item_filter.ignore_meta=Игнорировать метаданные
 enderio.gui.item_filter.sticky_enabled=Включён "липкий" режим
 enderio.gui.item_filter.sticky_enabled2=Выбранные предметы будут отправляться только на этот или другие липкие выходы
-enderio.gui.item_filter.sticky_disabled=Выключен "липкий" режим
+enderio.gui.item_filter.sticky_disabled=Отключен "липкий" режим
 enderio.gui.item_filter.ore_dic_enabled=Использовать словарь руд
 enderio.gui.item_filter.ore_dic_disabled=Игнорировать словарь руд
 enderio.gui.item_filter.match_nbt=Соблюдать NBT
@@ -1321,12 +1319,12 @@ enderio.gui.conduit.item.blacklist=Чёрный список
 enderio.gui.conduit.item.blacklist.tooltip.0=Если список предметов пуст, то
 enderio.gui.conduit.item.blacklist.tooltip.1=все предметы будут приняты
 enderio.gui.conduit.item.stickyEnabled=Включён "липкий" режим|Выбранные предметы будут|отправляться только на этот|или другие "липкие" выходы.
-enderio.gui.conduit.item.stickyDisbaled="Липкий" режим выключен
+enderio.gui.conduit.item.stickyDisbaled="Липкий" режим отключён
 enderio.gui.conduit.item.ignoreNBT=Игнорировать NBT
 enderio.gui.conduit.item.matchNBT=Соблюдать NBT
 enderio.gui.conduit.item.oreDicEnabled=Использовать словарь руд
 enderio.gui.conduit.item.oreDicDisabled=Игнорировать словарь руд
-enderio.gui.conduit.item.selfFeedEnabled=Авто-подача активна
+enderio.gui.conduit.item.selfFeedEnabled=Авто-подача включена
 enderio.gui.conduit.item.selfFeedDisabled=Авто-подача отключена
 enderio.gui.conduit.item.roundRobinEnabled=Цикл включён
 enderio.gui.conduit.item.roundRobinDisabled=Цикл отключен

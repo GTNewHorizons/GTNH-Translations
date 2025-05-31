@@ -9,17 +9,17 @@ kubatech.mobhandler.eec_chance=§5Шанс добычи в EEC: %.2f%%
 kubatech.mobhandler.eec_disabled=§5Не падает в EEC
 
 #Commands
-kubatech.commandhandler.invalid=§cНедопустимое использование ! Правильное использование этой команды /%s
+kubatech.commandhandler.invalid=§cНедопустимое использование! Правильное использование этой команды /%s
 kubatech.commandhandler.cant_find=§cНе удается найти параметр команды %s
 kubatech.commandhandler.generic_help=§cВы также можете использовать "/kubatech help" для получения возможных команд
 kubatech.commandhandler.usage=<option>
 kubatech.command.help.possible_commands=Возможные команды:
 kubatech.command.help.usage=- Показывает все возможные команды
-kubatech.command.config.invalid_option=§cНеверный вариант ! Возможные варианты: перезагрузить
+kubatech.command.config.invalid_option=§cНеверный вариант! Возможные варианты: перезагрузить
 kubatech.command.config.success=§aКонфигурация успешно перезагружена!
 kubatech.command.config.usage=<option>
 
-kubatech.command.tea.invalid_option=§cНедопустимое использование !
+kubatech.command.tea.invalid_option=§cНедопустимое использование!
 kubatech.command.tea.player_not_found=§cИгрок не найден!
 kubatech.command.tea.success_get=Игрок %s имеет %d Чай
 kubatech.command.tea.success_set=Игрок %s теперь имеет %d Чай
@@ -37,6 +37,48 @@ GT5U.gui.text.EIG_seedOverflow=Внутри слишком много семян
 GT5U.gui.text.EIG_missingwater=Нет воды!
 GT5U.gui.text.EIG_ic2glass=Недостаточный тир стекла!
 
+kubatech.gui.text.configuration=Настройки
+
+kubatech.gui.text.tee_ultimate.status=СТАТУС
+kubatech.gui.text.tee_ultimate.tea=Чай
+kubatech.gui.text.tee_ultimate.tea_limit=Лимит чая
+kubatech.gui.text.tee_ultimate.exchange=ОБМЕН
+kubatech.gui.text.tee_ultimate.exchange.cost=Cost: %s Tea
+kubatech.gui.text.tee_ultimate.benefits=ПРЕИМУЩЕСТВА
+kubatech.gui.tooltip.tee_ultimate.tea_acceptor_research_note=Записки исследования по Приёмщику чая
+
+kubatech.gui.text.tee_acceptor.name=Приёмщик чая
+kubatech.gui.text.tee_acceptor.tea=[Чай]
+kubatech.gui.text.tee_acceptor.not_owner=Это не ваш блок
+kubatech.gui.text.tee_acceptor.in=Ввод: %s/t
+kubatech.gui.text.tee_acceptor.in.tooltip=Средний ввод за последние 5 секунд
+
+kubatech.gui.text.eec.infernal_drop=Is allowed to spawn infernal mobs
+kubatech.gui.text.eec.infernal_drop.always=Does not affect mobs that are always infernal !
+kubatech.gui.text.eec.void_all_damaged=Void all damaged and enchanted items
+kubatech.gui.text.eec.void_all_damaged.always=Does not affect infernal drops and some special drops like Sticky Sword!
+kubatech.gui.tooltip.eec.ritual_mode=Режим ритуала
+
+kubatech.gui.text.inventory=Инвентарь
+kubatech.gui.text.status=Статус
+kubatech.gui.text.operating=Работает
+kubatech.gui.text.input=Ввод
+kubatech.gui.text.output=Вывод
+kubatech.gui.text.eig.setup_mode=Режим настройки
+kubatech.gui.text.eig.disabled=Отключено
+kubatech.gui.text.eig.enabled=Включено
+kubatech.gui.text.eig.ic2_mode=IC2 режим
+kubatech.gui.text.eig.no_humidity_mode=No Humidity mode
+kubatech.gui.text.mia.primary_mode=Основной режим
+kubatech.gui.text.mia.normal=Обычный
+kubatech.gui.text.mia.swarmer=Роение
+kubatech.gui.text.mia.secondary_mode=Второй режим
+
+kubatech.gui.tooltip.dynamic_inventory.identical_slots=Имеется %d одинаковых слотов
+kubatech.gui.tooltip.dynamic_inventory.empty_slot=Пустой слот
+kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=Оставшиеся виды семян: %d
+kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=Remaining seed capacity: %d
+
 # info data
 ## general
 kubatech.infodata.running_mode=Работает в режиме:
@@ -53,7 +95,7 @@ kubatech.infodata.eec.void_damaged.no=Уничтожать все поврежд
 kubatech.infodata.eec.in_ritual_mode.yes=Находится в режим ритуала: §eДа
 kubatech.infodata.eec.in_ritual_mode.no=Находится в режим ритуала: §eНет
 kubatech.infodata.eec.connected_to_ritual.yes=Связан с ритуалом: §aДа
-kubatech.infodata.eec.connected_to_ritual.no=Связан с ритуалом: §aНет
+kubatech.infodata.eec.connected_to_ritual.no=Связан с ритуалом: §cНет
 kubatech.infodata.eec.inserted_weapon.yes=Вставленное оружие: §eДа
 kubatech.infodata.eec.inserted_weapon.no=Вставленное оружие: §eНет
 kubatech.infodata.eec.weapon.damage=Урон от атаки оружием: §e%f
@@ -63,13 +105,13 @@ kubatech.infodata.eec.total_damage=Общий урон от атаки: §e%f
 ## Exreme Industrial Greenhouse
 kubatech.infodata.eig.running_mode.setup_mode.input=Режим настройки (загрузка)
 kubatech.infodata.eig.running_mode.setup_mode.output=Режим настройки (выгрузка)
-kubatech.infodata.eig.uses.water=Uses %dL/operation of water
+kubatech.infodata.eig.uses.water=Использует %dЛ воды за операцию
 kubatech.infodata.eig.uses.weedex=Использует %dЛ/секунду Анти-сорняка 9000
 kubatech.infodata.eig.max_slots=Макс. слотов:
 kubatech.infodata.eig.used_slots=Используется слотов:
 kubatech.infodata.bucket.humidity=Влажность:
 kubatech.infodata.bucket.humidity.on=Вкл.
-kubatech.infodata.bucket.humidity.off=Выкл.
+kubatech.infodata.bucket.humidity.off=Откл.
 kubatech.infodata.eig.too_many_types=Внутри слишком много видов семян для запуска!
 kubatech.infodata.eig.too_many_seeds=Внутри слишком много семян для запуска!
 
@@ -91,7 +133,7 @@ kubablock.tea_storage.name=§4§lРасширенное хранилище ча�
 
 #DEFC Casings
 defc.casing.name=Термоядерный корпус
-defc.casing.tip=Корпус Draconic Evolution термоядерный крафтера, тир %d
+defc.casing.tip=Корпус Draconic Evolution термоядерного крафтера, тир %d
 
 #Items
 item.kubaitems.name=Чай/Чайный лист

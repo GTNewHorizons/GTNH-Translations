@@ -128,6 +128,8 @@ block.fancybrick.ardite.name=Красивый ардитовый кирпич
 block.fancybrick.cobalt.name=Красивый кобальтовый кирпич
 block.fancybrick.manyullyn.name=Красивый мануллиновый кирпич
 
+tile.rail.wood.name=Деревянный рельс
+
 tile.cloth.white.slab.name=Плита из шерсти
 tile.cloth.orange.slab.name=Плита из оранжевой шерсти
 tile.cloth.magenta.slab.name=Плита из пурпурной шерсти
@@ -354,8 +356,8 @@ item.tconstruct.Materials.ManyullynNugget.name=Мануллиновый само
 item.tconstruct.Materials.BronzeNugget.name=Бронзовый самородок
 item.tconstruct.Materials.AlumiteNugget.name=Алюмитовый самородок
 item.tconstruct.Materials.SteelNugget.name=Стальной самородок
-item.tconstruct.Materials.PigIronIngot.name=Слиток свиного железа
-item.tconstruct.Materials.PigIronNugget.name=Тарелка свиного железа
+item.tconstruct.Materials.PigIronIngot.name=Слиток свиного чугуна
+item.tconstruct.Materials.PigIronNugget.name=Самородок свиного чугуна
 item.tconstruct.Materials.GlueBall.name=Шарик клея
 item.tconstruct.Materials.ArditeDust.name=Ардитовая пыль
 item.tconstruct.Materials.CobaltDust.name=Кобальтовая пыль
@@ -570,7 +572,7 @@ item.tconstruct.bucket.Mithril.name=Ведро расплавленного ми
 item.tconstruct.bucket.Enderium.name=Ведро расплавленного эндериума
 item.tconstruct.bucket.Ender.name=Ведро жидкости Края
 item.tconstruct.bucket.Slime.name=Ведро жидкой слизи
-item.tconstruct.bucket.PigIron.name=Ведро расплавленного свиного железа
+item.tconstruct.bucket.PigIron.name=Ведро расплавленного свиного чугуна
 item.tconstruct.bucket.Glue.name=Ведро липкого клея
 item.tconstruct.bucket.Quartz.name=Ведро расплавленного кварца
 
@@ -591,7 +593,7 @@ tile.fluid.molten.manyullyn.name=Расплавленный мануллин
 tile.fluid.molten.alumite.name=Расплавленный алюмит
 tile.fluid.molten.obsidian.name=Расплавленный обсидиан
 tile.fluid.molten.steel.name=Расплавленная сталь
-tile.fluid.molten.pigiron.name=Расплавленное свиное железо
+tile.fluid.molten.pigiron.name=Расплавленный свиной чугун
 tile.fluid.molten.glass.name=Расплавленное стекло
 tile.molten.stone.name=Обожжённый камень
 tile.molten.emerald.name=Сжиженный изумруд
@@ -777,7 +779,7 @@ fluid.mithril.molten=Расплавленный мифрил
 fluid.enderium.molten=Расплавленный эндериум
 fluid.ender=Жидкость Края
 fluid.slime.blue=Жидкая синяя слизь
-fluid.pigiron.molten=Свиное железо
+fluid.pigiron.molten=Свиной чугун
 fluid.glue=Клей
 fluid.quartz.molten=Расплавленный кварц
 
@@ -1004,7 +1006,7 @@ material.netherrack.ability=Сила камня
 material.obsidian=Обсидиан
 material.paper=Бумага
 material.paper.ability=Переписываемость
-material.pigiron=Свиное железо
+material.pigiron=Свиной чугун
 material.pigiron.ability=Вкусность
 material.slime=Слизь
 material.slime.ability=Слизь
@@ -1203,3 +1205,8 @@ item.iguana.tcon.clayBucket.Quartz.name=Глиняное ведро распла
 #mobsinfo compat
 tconstruct.mobsinfocompat.tinkers_construct_beheading=Каждый уровень обезглавливания на вашем оружии дает дополнительные %.2f%%
 tconstruct.mobsinfocompat.tinkers_construct_beheading_1=Если вы используете тесак, он дает еще %.2f%%
+
+provider.wdmla.tconstruct.landmine.header=Оголовье мины
+provider.wdmla.tconstruct.drying.rack=Сушильная стойка
+provider.wdmla.tconstruct.furnace.slab=Печь-плита
+provider.wdmla.tconstruct.smeltery.status=Статус плавильни

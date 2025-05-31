@@ -342,7 +342,7 @@ for.gui.temperature=Температура
 for.gui.tolerance=Устойчивость
 for.gui.temptol=Устойчивость к темп.
 for.gui.tooltip.tmi=Зажмите Shift для подробностей
-for.gui.tooltip.tml=Удерживайте ctrl для просмотра истории
+for.gui.tooltip.tml=Удерживайте Ctrl для просмотра истории
 for.gui.triple=Тройной
 for.gui.unknown=Неизвестный геном
 for.gui.warm=Жаркая
@@ -755,6 +755,7 @@ item.for.naturalistHelmet.name=Очки
 item.for.oakStick.name=Полированная палка
 item.for.peat.name=Торф
 item.for.phosphor.name=Фосфор
+item.for.phosphoricIodineCapsule.name=Капсула фосфорного йода
 item.for.pipette.name=Пипетка
 
 item.for.pollenFertile.name=Плодородная пыльца
@@ -916,8 +917,8 @@ neiintegration.handler.forestry.fabricator.worth=Стоимость:
 # JUBILANCE
 ################
 
-for.jubilance.climate=Needs preferred climate
-for.jubilance.hermit=Will not produce if there are any other living creatures nearby
+for.jubilance.climate=Нужен предпочтительный климат
+for.jubilance.hermit=Не будет производить, если поблизости есть другие живые существа.
 for.jubilance.resource=Требуется %s в качестве основы
 
 ################
@@ -1043,7 +1044,7 @@ for.errors.noDisposal.desc=Waste not disposable
 for.errors.noDisposal.help=Insufficient space to dispose of waste products.
 for.errors.unknown.desc=Неизвестная ошибка
 for.errors.unknown.help=Congratulations, you found a glitch.
-for.errors.wrongStacksize.desc=Too Many Items
+for.errors.wrongStacksize.desc=Слишком много предметов
 for.errors.wrongStacksize.help=Only single items can be used here.
 
 ####################
@@ -1762,13 +1763,13 @@ for.config.world.generate.ore.copper.comment=Генерация блоков м�
 for.config.world.generate.ore.tin=Генерация олова
 for.config.world.generate.ore.tin.comment=Генерация блоков оловянной руды в мире.
 
-for.config.world.generate.beehives.amount=Beehives Generation Amount
-for.config.world.generate.beehives.amount.comment=Sets how many beehives spawn in the world.
-for.config.world.generate.beehives.debug=Debug Beehive Generation
-for.config.world.generate.beehives.debug.comment=Force Forestry to generate a beehive at every possible location. (This will break your world. Only useful to developers)
+for.config.world.generate.beehives.amount=Количество генераций ульев
+for.config.world.generate.beehives.amount.comment=Устанавливает количество ульев, появляющихся в мире.
+for.config.world.generate.beehives.debug=Отладочный генератор ульев
+for.config.world.generate.beehives.debug.comment=Заставить Forestry сгенерировать улей в каждом возможном месте. (Это сломает ваш мир. Полезно только разработчикам)
 
 for.config.world.generate.villagers=Генерация жителей
-for.config.world.generate.villagers.comment=Generates forestry villagers and their houses.
+for.config.world.generate.villagers.comment=Создает forestry жителей и их дома.
 
 for.config.crafting=Crafting
 for.config.crafting.bronze=Craft Bronze
@@ -1798,40 +1799,40 @@ for.config.tweaks.gui.tooltip.liquidamount=Liquid Tooltip
 for.config.tweaks.gui.tooltip.liquidamount.comment=Display liquid amounts in tank tooltips.
 
 for.config.tweaks.permissions=Разрешения
-for.config.tweaks.permissions.comment=Enables access restrictions on forestry machines.
+for.config.tweaks.permissions.comment=Позволяет ограничить доступ к forestry механизмам.
 for.config.tweaks.version.check=Проверка версии
-for.config.tweaks.version.check.comment=Enables update and version check notice.
+for.config.tweaks.version.check.comment=Включает уведомления об обновлениях и проверке версий.
 
-for.config.tweaks.farms.size=Farm Size
-for.config.tweaks.farms.size.comment=Sets the size multiplier of the farmland.
-for.config.tweaks.farms.square=Square Farms
-for.config.tweaks.farms.square.comment=Makes farms use a square layout instead of a diamond one.
+for.config.tweaks.farms.size=Размер фермы
+for.config.tweaks.farms.size.comment=Устанавливает множитель размера пашни.
+for.config.tweaks.farms.square=Квадратные фермы
+for.config.tweaks.farms.square.comment=Заставляет фермы использовать квадратную планировку вместо ромбовидной.
 for.config.tweaks.farms.enderlily=Поддержка фермы Лилии Края
 for.config.tweaks.farms.enderlily.comment=Разрешать ферме поддержку для ExtraUtilities Семена лилии Края.
 for.config.tweaks.farms.magicalcrops=Поддержка фермы Magical Crops
 for.config.tweaks.farms.magicalcrops.comment=Разрешать ферме поддержку для Magical Crops.
 
 for.config.genetics=Генетика
-for.config.genetics.clear.invalid.chromosomes=Clear Invalid Chromosomes
-for.config.genetics.clear.invalid.chromosomes.comment=Clears chromosomes which contain invalid alleles. Might rescue your save if it is crashing after the removal of a bee addon.
-for.config.genetics.pollinate.vanilla.trees=Pollinate Vanilla Trees
-for.config.genetics.pollinate.vanilla.trees.comment=Allow bees, butterflies, and players to pollinate vanilla tree leaves. When disabled, vanilla trees must be analyzed before they can be pollinated.
-for.config.genetics.research.boost.multiplier=Research Mutation Multiplier
-for.config.genetics.research.boost.multiplier.comment=Multiplies the chance of a mutation when it has been discovered in the Escritoire.
+for.config.genetics.clear.invalid.chromosomes=Очистить недействительные хромосомы
+for.config.genetics.clear.invalid.chromosomes.comment=Очищает хромосомы, содержащие недействительные аллели. Может спасти ваше сохранение, если оно вылетает после удаления дополнения к пчелам.
+for.config.genetics.pollinate.vanilla.trees=Опылять ванильные деревья
+for.config.genetics.pollinate.vanilla.trees.comment=Разрешить пчелам, бабочкам и игрокам опылять листья ванильного дерева. Если отключено, ванильные деревья должны быть проанализированы, прежде чем их можно будет опылить.
+for.config.genetics.research.boost.multiplier=Множитель мутаций исследований
+for.config.genetics.research.boost.multiplier.comment=Увеличивает вероятность мутации при её обнаружении в секретере.
 for.config.genetics.research.boost.max.percent=Research Mutation Max
 for.config.genetics.research.boost.max.percent.comment=The maximum percentage boost that can be applied by researching a mutation in the Escritoire.
 
 for.config.difficulty=Сложность
 for.config.difficulty.game.mode=Игровой режим
-for.config.difficulty.game.mode.comment=Set to your preferred game mode. Mismatch with the server may cause visual glitches with recipes.
+for.config.difficulty.game.mode.comment=Установите предпочитаемый вами игровой режим. Несоответствие серверу может вызвать визуальные сбои в рецептах.
 for.config.difficulty.recreate.definitions=Recreate Definitions
 for.config.difficulty.recreate.definitions.comment=Forces recreation of the game mode definitions in config/forestry/gamemodes.
 for.config.difficulty.loot.rare=Rare Loot
 for.config.difficulty.loot.rare.comment=Makes dungeon loot generated by forestry rarer.
 
 for.config.structures=Структуры
-for.config.structures.disabled=Disabled Structures
-for.config.structures.disabled.comment=List specific structures to disable them.
+for.config.structures.disabled=Отключённые структуры
+for.config.structures.disabled.comment=Перечислите конкретные структуры, которые необходимо отключить.
 
 for.config.fluids=Жидкости
 for.config.fluids.enable.format=Включает %s жидкость.
@@ -1843,8 +1844,8 @@ for.config.debug.enabled.comment=Включить режим отладки (п�
 
 for.config.beekeeping.mode=Режим пчеловодства
 for.config.beekeeping.mode.comment=Измените режим пчеловодства.
-for.config.beekeeping.second.princess=Second Princess Chance
-for.config.beekeeping.second.princess.comment=Percent chance of a second princess drop, for limited/skyblock maps.
+for.config.beekeeping.second.princess=Шанс второй принцессы
+for.config.beekeeping.second.princess.comment=Процентный шанс выпадения второй принцессы для ограниченных/скайблок карт.
 for.config.beekeeping.flowers.accepted=Accepted Flowers
 for.config.beekeeping.flowers.accepted.comment=Accepted flowers allow bees to work. Format is 'modid:name:meta', one per line. The format for wildcard  metadata is 'modid:name'.
 for.config.beekeeping.flowers.plantable=Plantable Flowers

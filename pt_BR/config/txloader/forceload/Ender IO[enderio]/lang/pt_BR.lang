@@ -441,11 +441,6 @@ item.itemWirelessLightInverted.tooltip.detailed.line2=com energia.
 item.itemWirelessLightInverted.tooltip.detailed.line3=Desliga com um sinal de redstone.
 item.itemWirelessLightInverted.tooltip.detailed.line4=Pode receber energia de Carregadores Sem Fio
 
-tile.blockCapacitorBank.name=Banco de Capacitores (Deprecado)
-tile.blockCapacitorBank.creative.name=Banco de Capacitores Criativo (Deprecado)
-tile.blockCapacitorBank.tooltip.detailed.line1=Converta a um novo bloco colocando-o
-tile.blockCapacitorBank.tooltip.detailed.line2=em uma grade de crafting.
-tile.blockCapacitorBank.tooltipPrefix=Contém
 
 tile.blockCapBank.name=Capacitor Bank
 tile.blockCapBank.creative.name=Banco de Capacitores Criativo
@@ -642,8 +637,11 @@ tile.blockExperienceObelisk.tooltip.detailed.line3=tanques adjacentes
 
 tile.blockWeatherObelisk.name=Weather Obelisk
 tile.blockWeatherObelisk.tooltip.detailed.line1=Changes the current weather
-tile.blockWeatherObelisk.tooltip.detailed.line2=Requires a lot of power and
-tile.blockWeatherObelisk.tooltip.detailed.line3=a catalyst item
+tile.blockWeatherObelisk.tooltip.detailed.line2=Requires a firework rocket and 1000 L
+tile.blockWeatherObelisk.tooltip.detailed.line3=of one of the following liquids:
+tile.blockWeatherObelisk.tooltip.detailed.line4=Liquid Sunshine: Sun
+tile.blockWeatherObelisk.tooltip.detailed.line5=Cloud Seed: Rain
+tile.blockWeatherObelisk.tooltip.detailed.line6=Concentrated Cloud Seed: Thunder
 
 tile.blockBuffer.name=Buffer
 tile.blockBuffer.item.name=Buffer de Itens
@@ -1102,8 +1100,8 @@ enderio.gui.machine.side.east=Lado
 enderio.gui.machine.side.up=Cima
 enderio.gui.machine.side.down=Baixo
 enderio.gui.machine.weather.control=Control Mode
-enderio.gui.machine.weather.redstone=Launch on Redstone
-enderio.gui.machine.weather.manual=Default Control Mode
+enderio.gui.machine.weather.redstone=Launch on Redstone Signal
+enderio.gui.machine.weather.manual=Launch Manually
 enderio.gui.machine.weather.run=Launch
 
 

@@ -311,6 +311,11 @@ item.SC2:creative_supplies.name=Creative Supplies
 item.SC2:color_randomizer.name=Color Randomizer
 item.SC2:crop_exotic.name=Crop: Exotic
 item.SC2:train_connector.name=Train Connector
+item.SC2:electric_engine_lv.name=Electric Engine LV
+item.SC2:electric_engine_mv.name=Electric Engine MV
+item.SC2:electric_engine_hv.name=Electric Engine HV
+item.SC2:crop_ic2.name=Crop: IC2
+
 
 # Components
 item.SC2:unknowncomponent.name=Unknown SC2 Component
@@ -599,6 +604,8 @@ modules.addons.SC2:recipeChangeLimit10=Shift click to change by 10.
 modules.addons.SC2:recipeChangeLimit64=Ctrl click to change by 64.
 modules.addons.SC2:shieldToggle=[%1->Activate|Deactivate] shield
 modules.addons.SC2:buttonRandomize=Randomize Color
+modules.addons.SC2:toggleHarvestmode=Toggle Harvestmode
+modules.addons.SC2:harvestmode=Harvestmode: [%1->ASAP|Optimal]
 
 # Engines
 modules.engines.SC2:creativePowerLevel=Power Level: [%1]
@@ -612,6 +619,9 @@ modules.engines.SC2:thermalEngineTitle=Thermal Engine
 modules.engines.SC2:thermalPowered=Powered
 modules.engines.SC2:outOfWater=Out of Water
 modules.engines.SC2:outOfLava=Out of Lava
+modules.engines.SC2:electricEngineTitle=Electric Engine
+modules.engines.SC2:chargeLevel=Charge: [%1]
+modules.engines.SC2:outOfCharge=Out of Charge
 # need beta 3 for these ones to show up (remove this note)
 modules.engines.SC2:engineDisabledMessage=Disabled
 modules.engines.SC2:enginePriorityMessage=[%1->High|Medium|Low] priority

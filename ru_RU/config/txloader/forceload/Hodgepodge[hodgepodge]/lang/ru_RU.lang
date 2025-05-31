@@ -1,7 +1,7 @@
 key.hodgepodge.category=Hodgepodge
 key.fastBlockPlacing.desc=Быстрое размещение блоков
 key.fastBlockPlacing.enabled=§fБыстрое размещение блоков §aВключено
-key.fastBlockPlacing.disabled=§fБыстрое размещение блоков §aВыключено
+key.fastBlockPlacing.disabled=§fБыстрое размещение блоков §cОтключено
 
 tile.dirt.name=Земля
 tile.sapling.name=Саженец
@@ -21,8 +21,14 @@ item.dyePowder.name=Краситель
 item.skull.name=Череп
 item.fish.name=Рыба
 
-commands.time.get=The current world time is %s (time of day: %s)
-commands.time.usageWithGet=/time <set|add> <value> OR /time get
+commands.time.get=Текущее мировое время составляет %s (время суток: %s)
+commands.time.usageWithGet=/time <set|add> <value> ИЛИ /time get
 
 hodgepodge.soundsmenu.refreshsounds=Обновить звуки
-hodgepodge.bed_respawn.msg=Respawn Set
+hodgepodge.bed_respawn.msg=Установить респаун
+
+bettermodlist.sort.normal=Обычный
+bettermodlist.sort.a_to_z=A-Z
+bettermodlist.sort.z_to_a=Z-A
+bettermodlist.gui.modlistinfo1=ОМГ, все изменилось!
+bettermodlist.gui.modlistinfo2=Новое расположение предоставлено:

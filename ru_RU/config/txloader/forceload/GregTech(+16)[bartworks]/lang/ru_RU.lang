@@ -3,16 +3,16 @@ item.GT_Rockcutter_Item_LV.name=Камнерез LV
 item.GT_Rockcutter_Item_MV.name=Камнерез MV
 item.GT_Rockcutter_Item_HV.name=Камнерез HV
 item.GT_Teslastaff_Item.name=Посох Теслы
-BW_ItemBlocks.name=Лазуритом покрытая ячейка
-BW_ItemBlocks.0.name=Лазуритом покрытая ячейка
-BW_ItemBlocks.1.name=Лазуритом покрытая ячейка
+BW_ItemBlocks.name=Травленная лазуритовая ячейка
+BW_ItemBlocks.0.name=Травленная лазуритовая ячейка
+BW_ItemBlocks.1.name=Покрытая лазуритовая ячейка
 GT_LESU_CASING.name=LESU корпус
 GT_LESU_CASING.0.name=LESU корпус
 
 bw.blockores.01.name=Руда
 bw.blockores.02.name=Маленькая руда
 bw.werkstoffblocks.01.name=Блок
-bw.werkstoffblockscasing.01.name=Болтовой корпус
+bw.werkstoffblockscasing.01.name=Заклепочный корпус
 bw.werkstoffblockscasingadvanced.01.name=Переболтованный корпус
 
 GT5U.gui.text.no_imprint=Отсутствует слепок
@@ -20,7 +20,7 @@ GT5U.gui.text.not_enough_length=Мультиблок слишком коротк
 GT5U.gui.text.wrong_sievert_exactly=§7Неправильный зиверт. Требуется ровно: %s §7Sv
 GT5U.gui.text.wrong_sievert_min=§7Неправильный зиверт. Требуется не менее: %s §7Sv
 GT5U.gui.config.general.mixins=Mixins
-GT5U.gui.config.general.crossmodinteractions=CrossMod Interactions
+GT5U.gui.config.general.crossmodinteractions=Взаимодействие между модами
 GT5U.gui.config.general.multiblocks=Мультиблоки
 GT5U.gui.config.general.tooltip=Tooltip
 GT5U.gui.config.general.singleblocks=Одиночные блоки
@@ -54,7 +54,7 @@ GT5U.gui.config.general.rossruinmetas.ev.machines=Механизмы
 
 itemGroup.bartworks=BartWorks Inter Temporal
 BW_Machinery_Casings.name=Обшивка механизма
-BW_Machinery_Casings.0.name=Блок никель-цинкового феррита
+BW_Machinery_Casings.0.name=Никель-цинк ферритный блок
 BW_Machinery_Casings.1.name=Трансформаторно-обмоточный блок
 item.BW_PaperRotor.name=Примитивный бумажный ротор (Только ветер)
 item.BW_LeatherRotor.name=Примитивный кожаный ротор (Только ветер)
@@ -112,7 +112,7 @@ BW_GlasBlocks.15.name=Укрепленное боросиликатное сте
 BW_GlasBlocks2.name=Боросиликатное стекло
 BW_GlasBlocks2.0.name=Укрепленное боросиликатное стекло из трансцендентного металла
 
-tooltip.glass_tier.0.name=Тир-стекла:
+tooltip.glass_tier.0.name=Тир стекла:
 tooltip.LESU.0.name=Максимальная ёмкость!
 tooltip.LESU.1.name=Несколько контроллеров!
 
@@ -124,7 +124,7 @@ tooltip.windmeter.4.name=обычный
 tooltip.windmeter.5.name=довольно сильный
 tooltip.windmeter.6.name=очень сильный
 tooltip.windmeter.7.name=слишком сильный
-tooltip.windmeter.8.name=Ветер здесь кажется
+tooltip.windmeter.8.name=Кажется, ветер здесь
 tooltip.rotor.0.name=Диаметр:
 tooltip.rotor.1.name=Прочность:
 tooltip.rotor.2.name=Эффективность:
@@ -133,7 +133,7 @@ tooltip.rotor.4.name=Выход:
 tooltip.cp.0.name=Имеет Схему внутри?
 
 tooltip.bw.0.name=Добавлено
-tooltip.bw.1.name=Добавлено §abartimaeusnek -
+tooltip.bw.1.name=Добавлено bartimaeusnek -
 tooltip.bw.yes.name=Да
 tooltip.bw.no.name=Нет
 tooltip.bw.tier.name=Тир:
@@ -143,25 +143,25 @@ tooltip.bw.mb_via.name=%s§7 через §2BartWorks
 tooltip.bw.high_temp_gas_cooled_reactor.material=Материал для высокотемпературного газоохлаждаемого реактора
 
 tooltip.bw.item.circuit.tagged=a circuit
-tooltip.bw.item.circuit.tagged.imprint=An imprint for: %s
-tooltip.bw.item.circuit.tagged.sliced=A sliced %s
-tooltip.bw.item.circuit.imprint=An imprint for a Circuit
-tooltip.bw.item.circuit.sliced=A sliced Circuit
+tooltip.bw.item.circuit.tagged.imprint=Слепок с: %s
+tooltip.bw.item.circuit.tagged.sliced=Нарезанная %s
+tooltip.bw.item.circuit.imprint=Слепок с электросхемой
+tooltip.bw.item.circuit.sliced=Нарезанная электросхема
 
 tooltip.teslastaff.0.name=Никаких гарантий!
-tooltip.labmodule.0.name=Модуль используемый для изменения Режима работы Биолаборатории
+tooltip.labmodule.0.name=Модуль для изменения режима работы Биолаборатории
 tooltip.labparts.0.name=Пустая стерилизованная чашка Петри.
 tooltip.labparts.1.name=Пустой колба для ДНК.
 tooltip.labparts.2.name=Пустая плазмидная ячейка.
 tooltip.labparts.3.name=Специальный стиральный порошок для Биоинженерии.
 tooltip.labparts.4.name=Порошок для разделения ДНК методом электрофореза.
 tooltip.labparts.5.name=Чашка Петри содержащая:
-tooltip.labparts.6.name=Это слабая культура, ее нельзя разводить в бактериальном чане!
+tooltip.labparts.6.name=Это слабая культура, её нельзя разводить в бактериальном чане!
 tooltip.labparts.7.name=Колба с ДНК содержащая:
 tooltip.labparts.8.name=Плазмидная ячейка содержащая:
 
 tooltip.tile.waterpump.0.name=Производит
-tooltip.tile.waterpump.1.name=Л/сек воды при заправке топливом. Производит %d загрязнения в секунду.
+tooltip.tile.waterpump.1.name=Л/с воды при заправке топливом. Производит %d загрязнения в секунду.
 tooltip.tile.waterpump.2.name=Должен быть размещен на Земле.
 
 tooltip.tile.mbf.1.name=Загрязнения в секунду
@@ -171,8 +171,8 @@ tooltip.tile.lesu.1.name=Хранение в LESU корпусе:
 tooltip.tile.lesu.2.name=Вывод EU: Количество LESU корпусов;Ввод EU: Следующий тир вольтажа на выходе EU;Входной/Выходной ампераж можно настроить через 4 схему в GUI;На стороне выхода есть точка.
 tooltip.tile.lesu.3.name=Разрешен только один Контроллер, никакого разделения стен!
 tooltip.tile.tiereddsc.0.name=Вольтаж:
-tooltip.tile.tiereddsc.1.name=Ампераж IN:
-tooltip.tile.tiereddsc.2.name=Ампераж OUT:
+tooltip.tile.tiereddsc.1.name=Входной ампераж:
+tooltip.tile.tiereddsc.2.name=Выходной ампераж:
 tooltip.tile.tiereddsc.3.name=Ёмкость:
 tooltip.tile.diode.0.name=Простой диод, который пропускает поток энергии только в одном направлении.
 tooltip.tile.energydistributor.0.name=Разделяет ампераж на несколько сторон.
@@ -184,16 +184,16 @@ tooltip.tile.radhatch.3.name=Зиверт:
 tooltip.tile.radhatch.4.name=Масса:
 tooltip.tile.radhatch.5.name=Время (в т/с/м/ч) распада (1кг):
 tooltip.tile.radhatch.6.name=тик
-tooltip.tile.radhatch.7.name=сек
+tooltip.tile.radhatch.7.name=с
 tooltip.tile.radhatch.8.name=мин
 tooltip.tile.radhatch.9.name=ч
-tooltip.tile.radhatch.10.name=Осталось: %s сек / %s сек
+tooltip.tile.radhatch.10.name=Осталось: %s с / %s с
 tooltip.tile.acidgen.0.name=Кислотный генератор
 tooltip.tile.acidgen.1.name=Создает энергию из химических энергетических потенциалов.
 
 tooltip.bw.structure.glass=Стекло
 tooltip.bw.structure.radio_hatch=Радио шлюз
-tooltip.bw.structure.tier_glass=%s+ Тировое стекло
+tooltip.bw.structure.tier_glass=Стекло %s+ тира
 
 # RecipeMap
 bw.recipe.biolab=Биолаборатория
@@ -207,8 +207,8 @@ bw.recipe.htgr=Высокотемпературный газоохлаждаем
 nei.biovat.0.name=Нужен тир стекла: %s
 nei.biovat.1.name=Нужно точное количество зиверт: %s Sv
 nei.biovat.2.name=Нужно мин. количество зиверт: %s Sv
-nei.biovat.input.tooltip=Consumed up to 1,001x amount, depending on output rate
-nei.biovat.output.tooltip=Outputs up to 1,001x amount, depending on the amount of fluid stored in the Output Hatch
+nei.biovat.input.tooltip=Потребляет до 1,001x количества в зависимости от объёма выхода
+nei.biovat.output.tooltip=Выдаёт до 1,001x количества в зависимости от объёма жидкости в Выходном шлюзе
 
 tile.diode.name=Кабельный диод
 tile.energydistributor.name=Распределитель энергии
@@ -247,11 +247,11 @@ BW.infoData.htr.helium_level=Уровень гелия: %sЛ / %sЛ
 BW.infoData.htr.problems=Проблемы: %s
 
 BW.infoData.htgr.mode=Режим: %s
-BW.infoData.htgr.mode.emptying=Emptying
-BW.infoData.htgr.mode.normal=Normal
+BW.infoData.htgr.mode.emptying=Опустошение
+BW.infoData.htgr.mode.normal=Обычный
 BW.infoData.htgr.progress=Прогресс: %sс / %sс
 BW.infoData.htgr.fuel_type=Тип топлива: %s
-BW.infoData.htgr.fuel_type.none=NONE
+BW.infoData.htgr.fuel_type.none=НЕТ
 BW.infoData.htgr.fuel_type.triso=TRISO (%s)
 BW.infoData.htgr.fuel_amount=Количество топлива: %s шт.
 BW.infoData.htgr.coolant=Хладагент: %sЛ/с
@@ -261,20 +261,30 @@ BW.infoData.thtr.triso_pebbles=Пеллеты TRISO: %sшт. / %sшт.
 BW.infoData.thtr.coolant=Хладагент/t: %sЛ/t
 
 BW.infoData.wind_mill.progress=Progress: %d Grindings of %d needed Grindings
-BW.infoData.wind_mill.grind_power=GrindPower: %dKU/t
+BW.infoData.wind_mill.grind_power=Мощность измельчения: %dKU/t
 
 BW.infoData.mega_vacuum_freezer.tier=Тир: %d
-BW.infoData.mega_vacuum_freezer.subspace_cooling.active=Subspace cooling: §aActive (%s)
-BW.infoData.mega_vacuum_freezer.subspace_cooling.inactive=Subspace cooling: §cInactive
+BW.infoData.mega_vacuum_freezer.subspace_cooling.active=Подпространственное охлаждение: §aАктивно (%s)
+BW.infoData.mega_vacuum_freezer.subspace_cooling.inactive=Подпространственное охлаждение: §cНеактивно
 
 BW.NEI.display.radhatch.0=Зиверт: %s Sv
 BW.NEI.display.radhatch.1=Масса: %s кг
-BW.NEI.display.radhatch.2=Время: %s сек
+BW.NEI.display.radhatch.2=Время: %s с
 
 misc.BatchModeTextOn=Включён пакетный режим (рекомендуется использовать МЭ выходной люк, излишки на выходе будут уничтожены!)
 misc.BatchModeTextOff=Отключён пакетный режим
 
-tooltip.cal.imprintedWith=Imprinted with:
+tooltip.cal.imprintedWith=Настроено на:
 chat.cal.mode.0=Режим: Сборочная линия электросхем
 chat.cal.mode.1=Режим: Сборщик электросхем
 #Liquids
+
+# gui
+BW.gui.text.radio_hatch.tooltip.radiation_shutter=Радиационный затвор
+BW.gui.text.radio_hatch.tooltip.radiation_shutter_control=Управление радиационным затвором
+
+BW.gui.text.lesu.eu=EU: %s
+BW.gui.text.lesu.max=МАКС.: %s
+BW.gui.text.lesu.max_in=МАКС. ВВОД EU/t: %s
+BW.gui.text.lesu.eu_out=ВЫВОД EU/t: %s
+BW.gui.text.lesu.amp_io=ВВОД/ВЫВОД В СРЕДНЕМ/t: %s

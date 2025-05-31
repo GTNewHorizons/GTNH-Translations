@@ -69,7 +69,7 @@ tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafti
 tile.appliedenergistics2.BlockPaint.name=Paint
 tile.appliedenergistics2.BlockWirelessConnector.name=Wireless Connector
 tile.appliedenergistics2.BlockWirelessHub.name=Wireless Hub
-tile.appliedenergistics2.BlockGrower.name=Crystal Growth Chamber
+tile.appliedenergistics2.BlockCrystalGrowthChamber.name=Crystal Growth Chamber
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Chiseled Certus Quartz Stairs
@@ -228,6 +228,7 @@ gui.appliedenergistics2.StorageCells=ME Storage Cells
 gui.appliedenergistics2.IOBuses=ME Import/Export Bus
 gui.appliedenergistics2.Stores=Stores
 gui.appliedenergistics2.BytesUsed=Bytes Used
+gui.appliedenergistics2.TimeUsed=Time Used
 gui.appliedenergistics2.Types=Types
 gui.appliedenergistics2.Blank=Blank
 gui.appliedenergistics2.Unlinked=Unlinked
@@ -271,6 +272,7 @@ gui.appliedenergistics2.Next=Next
 gui.appliedenergistics2.Lumen=Lumen
 gui.appliedenergistics2.Empty=Empty
 gui.appliedenergistics2.Stored=Stored
+gui.appliedenergistics2.AddToBookmark=Bookmark
 gui.appliedenergistics2.Cancel=Cancel
 gui.appliedenergistics2.ETAFormat=HH:mm:ss
 gui.appliedenergistics2.SwitchCraftingSimulationDisplayMode=Switch display mode (List/Tree)
@@ -371,6 +373,9 @@ gui.color.appliedenergistics2.CraftConfirmMissingItem=1AFF0000
 gui.color.appliedenergistics2.CraftingCPUActive=5A45A021
 gui.color.appliedenergistics2.CraftingCPUScheduled=FF787878
 gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
+gui.color.appliedenergistics2.ProcessBarStartColor=FFE60A00
+gui.color.appliedenergistics2.ProcessBarMiddleColor=FFE6E600
+gui.color.appliedenergistics2.ProcessBarEndColor=FF0AE600
 
 # GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=Store Items
@@ -599,6 +604,16 @@ gui.tooltips.appliedenergistics2.SuperWirelessToolHideBoundedYesDesc=Hide connec
 gui.tooltips.appliedenergistics2.SuperWirelessToolHideBoundedNoName=Show bounded
 gui.tooltips.appliedenergistics2.SuperWirelessToolHideBoundedNoDesc=Show connectors with connection and hubs without free slots
 
+gui.tooltips.appliedenergistics2.scheduledreason.SOMETHING_STUCK=Something stuck in interface
+gui.tooltips.appliedenergistics2.scheduledreason.BLOCKING_MODE=Blocking Mode
+gui.tooltips.appliedenergistics2.scheduledreason.LOCK_MODE=Lock Mode
+gui.tooltips.appliedenergistics2.scheduledreason.NO_TARGET=Cant find target to push
+gui.tooltips.appliedenergistics2.scheduledreason.NOT_ENOUGH_INGREDIENTS=Not enough ingredients
+gui.tooltips.appliedenergistics2.scheduledreason.SAME_NETWORK=Target interface in same network
+
+gui.tooltips.appliedenergistics2.ToggleShowOnlySubstitute=Toggles showing interfaces with patterns with substitutions enabled
+gui.tooltips.appliedenergistics2.ToggleShowOnlySubstituteOnDesc=Showing all interfaces
+gui.tooltips.appliedenergistics2.ToggleShowOnlySubstituteOffDesc=Showing only interfaces with patterns with substitutions enabled
 
 # Units
 gui.appliedenergistics2.units.appliedenergstics=AE
@@ -636,6 +651,8 @@ gui.appliedenergistics2.GuiSuperWirelessKit.pinbutton.name=Pin
 gui.appliedenergistics2.GuiSuperWirelessKit.pinbutton.desc=Keep this unit in current row
 gui.appliedenergistics2.GuiSuperWirelessKit.madchameleonrecolor.name=Mad Chameleon
 gui.appliedenergistics2.GuiSuperWirelessKit.madchameleonrecolor.desc=Recolor in color which not allow connect to neighbor wireless`s
+gui.appliedenergistics2.GuiSuperWirelessKit.ae2stuff.name=AE2Stuff converter
+gui.appliedenergistics2.GuiSuperWirelessKit.ae2stuff.desc=Replace ae2tuff connectors in networks with AE2 connections (World reload required).
 gui.appliedenergistics2.GuiSuperWirelessKit.includeconnectors.name=Include hubs
 gui.appliedenergistics2.GuiSuperWirelessKit.includeconnectors.desc=Include hubs in manipulations
 gui.appliedenergistics2.GuiSuperWirelessKit.includehubs.name=Include connectors
@@ -667,6 +684,11 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Locked by lack of
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Locked by redstone signal
 waila.appliedenergistics2.CraftingLockedUntilPulse=Waiting for redstone pulse to unlock
 waila.appliedenergistics2.CraftingLockedUntilResult=Waiting for results to unlock
+waila.appliedenergistics2.wireless.connected=Connected to %s,%s,%s
+waila.appliedenergistics2.wireless.notconnected=Not Connected
+waila.appliedenergistics2.wireless.channels=Channels: %s
+waila.appliedenergistics2.wireless.power=Power Used: %s AE/t
+waila.appliedenergistics2.wireless.name=Name: %s
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=1k ME Storage Cell
@@ -684,6 +706,7 @@ item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Artificial Univers
 item.appliedenergistics2.ItemCreativeStorageCell.name=Creative ME Storage Cell
 item.appliedenergistics2.ItemVoidStorageCell.name=Void ME Storage Cell
 item.appliedenergistics2.ItemEncodedPattern.name=Encoded Pattern
+item.appliedenergistics2.ItemEncodedUltimatePattern.name=Encoded Ultimate Pattern
 item.appliedenergistics2.ItemViewCell.name=View Cell
 item.appliedenergistics2.ItemFacade.name=Cable Facade
 
