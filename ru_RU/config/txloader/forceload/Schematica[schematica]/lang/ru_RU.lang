@@ -7,7 +7,7 @@ schematica.gui.noschematic=-- Нет схем --
 schematica.gui.increase=+
 schematica.gui.decrease=-
 schematica.gui.hide=Спрятать
-schematica.gui.all=ВСЕ
+schematica.gui.all=ВСЁ
 schematica.gui.show=Показать
 schematica.gui.movehere=Передвинуть сюда
 schematica.gui.flip=Отразить
@@ -47,14 +47,14 @@ schematica.config.category.printer.swapslots.tooltip=Разрешить прин
 schematica.config.category.general=Общие
 schematica.config.category.general.tooltip=Основные настройки.
 schematica.config.category.server=Сервер
-schematica.config.category.server.tooltip=Server-side settings.
+schematica.config.category.server.tooltip=Настройки на стороне сервера.
 
 # gui - config - debug
-schematica.config.showDebugInfo=Show Debug Info
+schematica.config.showDebugInfo=Показать отладочную информацию
 schematica.config.showDebugInfo.tooltip=Отображение информации на экране отладки (F3).
 
 # gui - config - render
-schematica.config.alphaEnabled=Alpha Enabled
+schematica.config.alphaEnabled=Альфа включена
 schematica.config.alphaEnabled.tooltip=Включить прозрачные текстуры.
 schematica.config.alpha=Альфа
 schematica.config.alpha.tooltip=Значение альфа, используемое при визуализации схемы (1.0 = непрозрачный, 0.5 = полупрозрачный, 0.0 = прозрачный).
@@ -70,8 +70,8 @@ schematica.config.drawLines=Draw Lines
 schematica.config.drawLines.tooltip=Draw outlines.
 
 # gui - config - printer
-schematica.config.placeDelay=Placement Delay
-schematica.config.placeDelay.tooltip=Delay between placement attempts (in ticks).
+schematica.config.placeDelay=Задержка размещения
+schematica.config.placeDelay.tooltip=Задержка между попытками размещения (в тиках).
 schematica.config.timeout=Тайм-аут
 schematica.config.timeout.tooltip=Timeout before re-trying failed blocks.
 schematica.config.placeInstantly=Place Instantly

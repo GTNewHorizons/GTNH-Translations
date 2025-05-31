@@ -702,12 +702,12 @@ GT5U.power_goggles_config.reading_both=BOTH
 GT5U.power_goggles_config.reading_total=TOTAL
 GT5U.power_goggles_config.reading_eut=EUT
 GT5U.power_goggles_config.settings_general=Основные настройки
-GT5U.power_goggles_config.settings_scale=Scale settings
+GT5U.power_goggles_config.settings_scale=Настройки шкалы
 GT5U.power_goggles_config.settings_color=Цветовая гамма
 
-GT5U.power_goggles_config.toggle_notation=Toggle Notation: %s
-GT5U.power_goggles_config.toggle_reading=Toggle Reading Type: %s
-GT5U.power_goggles_config.toggle_hud_with_chat=Hide HUD when chat open: %s
+GT5U.power_goggles_config.toggle_notation=Переключить обозначение: %s
+GT5U.power_goggles_config.toggle_reading=Переключить тип чтения: %s
+GT5U.power_goggles_config.toggle_hud_with_chat=Скрыть HUD при открытом чате: %s
 GT5U.power_goggles_config.main_text_scale=Storage Text Scale
 GT5U.power_goggles_config.sub_text_scale=Sub Text Scale
 GT5U.power_goggles_config.hud_scale=Масштаб HUD
@@ -1161,9 +1161,6 @@ GT5U.GTPP_MULTI_INDUSTRIAL_PLATE_PRESS.mode.0=Гибочный станок
 GT5U.GTPP_MULTI_INDUSTRIAL_PLATE_PRESS.mode.1=Формовочный пресс
 GT5U.INDUSTRIAL_ELECTROMAGNETIC_SEPARATOR.mode.0=Сепаратор
 GT5U.INDUSTRIAL_ELECTROMAGNETIC_SEPARATOR.mode.1=Поляризатор
-GT5U.GTPP_MULTI_INDUSTRIAL_MULTI_MACHINE.mode.0=Metal
-GT5U.GTPP_MULTI_INDUSTRIAL_MULTI_MACHINE.mode.1=Fluid
-GT5U.GTPP_MULTI_INDUSTRIAL_MULTI_MACHINE.mode.2=Misc
 GT5U.MULTI_CANNER.mode.0=Наполнитель
 GT5U.MULTI_CANNER.mode.1=Жидкостный наполнитель
 GT5U.BLACKHOLE.mode.0=Компрессор
@@ -1317,7 +1314,7 @@ channels.gregtech.time_dilation=Определяет тир Генератора
 channels.gregtech.gt_no_hatch=When set, disable automatic hatch placement
 channels.gregtech.field=Определяет тир T.F.F.T блока хранения жидкостей.
 channels.gregtech.eccf_heater=Decides the tier of §6ECCF heating module§r. Starts at value 1 and ends at value 4.
-channels.gregtech.eccf_cooler=Decides the tier of §6ECCF cooling module§r. Starts at value 1 and ends at value 4.
+channels.gregtech.eccf_freezer=Decides the tier of §6ECCF freezing module§r. Starts at value 1 and ends at value 4.
 channels.gregtech.eccf_vacuum=Decides the tier of §6ECCF compressor module§r. Starts at value 1 and ends at value 4.
 channels.gregtech.eccf_compress=Decides the tier of §6ECCF vacuum pump module§r. Starts at value 1 and ends at value 4.
 channels.gregtech.eccf_parallel_left=Decides the tier of §6ECCF parallel module§r. Starts at value 1 and ends at value 3.
@@ -1472,13 +1469,13 @@ GT5U.gui.text.enabled=§aВключён§f
 GT5U.gui.text.disabled=§cОтключён§f
 GT5U.gui.text.lma_craftingfx=Показать эффекты крафта
 GT5U.gui.text.repair_tip=Click with Tool to repair.
-GT5U.gui.text.conditions_range=§4Out of recipe conditions
+GT5U.gui.text.conditions_range=§4Conditions outside recipe range
 GT5U.gui.text.apiary_missing_flowers=Отсутствуют цветы: %s
+GT5U.gui.text.item.amount=Количество предметов
 GT5U.gui.text.microwave_energy_transmitter.x=Координата-X
 GT5U.gui.text.microwave_energy_transmitter.y=Координата-Y
 GT5U.gui.text.microwave_energy_transmitter.z=Координата-Z
 GT5U.gui.text.microwave_energy_transmitter.d=Target Dim
-GT5U.gui.text.item.amount=Количество предметов
 GT5U.gui.text.contents=§7Contents:§r
 GT5U.gui.text.content-entry=§7%s:§9 %s§r
 GT5U.gui.text.decay-rate=§7Скорость распада:§9 %s§7%s
@@ -1553,7 +1550,7 @@ GT5U.gui.text.fusion_computer.hit_to_start=Ударьте киянкой для 
 GT5U.gui.text.fusion_computer.running_perfectly=Неполадок не обнаружено.
 
 GT5U.gui.text.large_fluid_extractor.not_enough_casings=Недостаточно корпусов: нужно %d, но\nесть %d.
-GT5U.gui.text.wormhole_generator.missing_entangled_singularity=§7Missing Entangled Singularity§f
+GT5U.gui.text.wormhole_generator.missing_entangled_singularity=§7Отсутствует запутанная сингулярность§f
 GT5U.gui.text.wormhole_generator.status.no_destination=§7Статус Червоточины: §cНет пункта назначения§f
 GT5U.gui.text.wormhole_generator.status.decaying=§7Статус Червоточины: §6Распад§f
 GT5U.gui.text.wormhole_generator.status.active=§7Статус Червоточины: §bАктивен§f
@@ -1606,7 +1603,7 @@ GT5U.gui.circuit.combination_lock.name=Combination Lock
 GT5U.gui.circuit.combination_lock.description=Checks Combinations
 GT5U.gui.circuit.combination_lock.data_description=Мощность %d
 GT5U.gui.circuit.equals.name=Равно
-GT5U.gui.circuit.equals.description=signal == this
+GT5U.gui.circuit.equals.description=сигнал == это
 GT5U.gui.circuit.equals.data_description.signal=Сигнал
 GT5U.gui.circuit.equals.data_description.equal=Equal
 GT5U.gui.circuit.equals.data_description.unequal=Unequal
@@ -1676,7 +1673,7 @@ gt.behaviour.paintspray.infinite.tooltip.pick=Средний щелчок: по 
 gt.behaviour.paintspray.infinite.tooltip.lock=Shift+Средний щелчок: блокировать или разблокировать баллончик
 gt.behaviour.paintspray.infinite.tooltip.gui=Средний щелчок: Открыть GUI выбора цвета
 gt.behaviour.paintspray.infinite.tooltip.prevent_shake=%s+Средний щелчок: Переключить блокировку изменения цвета
-GTPacketInfiniteSpraycan.Action.TOGGLE_SHAKE_LOCK=Infinite Spray Can : Color Cycle Lock
+GTPacketInfiniteSpraycan.Action.TOGGLE_SHAKE_LOCK=Бесконечный баллончик: Заблокировано изменения цвета
 
 
 gt.behaviour.trowel.tooltip1=Places a random block from your hotbar
@@ -1847,7 +1844,7 @@ nei.options.tools.dump.gt5u.batch_mode=Отсутствует поддержка
 nei.options.tools.dump.gt5u.batch_modes=Отсутствует поддержка пакетного режима
 nei.options.tools.dump.gt5u.recipe_locking=Отсутствует поддержка блокировки рецепта
 nei.options.tools.dump.gt5u.recipe_lockings=Отсутствует поддержка блокировки рецепта
-nei.options.tools.dump.gt5u.warn_env=You're outside of the pack. Some IDs present in the full pack might be missing in this dump.
+nei.options.tools.dump.gt5u.warn_env=Вы находитесь за пределами пака. Некоторые ID, присутствующие в полном паке, могут отсутствовать в этом дампе.
 nei.options.tools.dump.gt5u.mode.0=Свободные
 nei.options.tools.dump.gt5u.mode.1=Используемые
 
@@ -2046,8 +2043,6 @@ achievement.highpowersmelt=Плавильня высокой мощности
 achievement.highpowersmelt.desc=Скрафтите Мультипечь
 achievement.oilplant=Нефтепереработка
 achievement.oilplant.desc=Запустите Ректификационную колонну
-achievement.factory=Фабрика
-achievement.factory.desc=Скрафтите Обработчик массивов
 achievement.upgradeebf=Улучши свой EBF
 achievement.upgradeebf.desc=Скрафтите MV Энерговвод
 achievement.maintainance=Техобслуживание
@@ -2778,6 +2773,7 @@ gt.time.second.plural=секунды
 
 #Tool modes
 gt.wrench.mode.1=Режим линии
+gt.wrench.mode.2=Precision Mode
 
 # Tooltip for vajra
 gt.vajra.tooltip.flavor=Ваш дружеский мгновенный разрушитель блоков
@@ -2928,8 +2924,8 @@ GTPP.tooltip.meta_food.better_cooked=Выглядит приготовленны
 GTPP.tooltip.meta_food.warm_touch=Теплый на ощупь
 GTPP.tooltip.dust-decay-hint=Only decays in a %s or a %s
 
-tooltip.blockECCFTemp=§6Temperature loss: %d%%
-tooltip.blockECCFPressure=§6Pressure loss: %d%%
+tooltip.blockECCFTemp=§6Потеря температуры: %d%%
+tooltip.blockECCFPressure=§6Потеря давления: %d%%
 tooltip.blockECCFParallel=§6Parallel multiplier: %d
 
 # GTPP structure hints
@@ -3130,7 +3126,7 @@ GT5U.infodata.purification_unit_base.linked_at=Данная очистная у�
 GT5U.infodata.purification_unit_base.success_chance=Шанс успеха: %s
 GT5U.infodata.purification_unit_base.not_linked=Эта очистная установка не привязана к Водоочистной станции.
 
-GT5U.infodata.purification_unit_degasser.control_signal=Current control signal (binary): 0b%s
+GT5U.infodata.purification_unit_degasser.control_signal=Текущий управляющий сигнал (двоичный): 0b%s
 GT5U.infodata.purification_unit_degasser.output_multiplier=Текущий выходной множитель: %s
 GT5U.infodata.purification_unit_degasser.fluid_inserted=Жидкость введенная в этом цикле: %sЛ %s
 GT5U.infodata.purification_unit_degasser.bit=Бит %d статус: %s
@@ -3140,7 +3136,7 @@ GT5U.infodata.purification_unit_flocculation.consumed=%s израсходова�
 GT5U.infodata.purification_unit_ph_adjustment.ph=Текущее значение pH: %s pH
 GT5U.infodata.purification_unit_plasma_heater.temperature=Текущая температура: %sK
 GT5U.infodata.purification_unit_plasma_heater.heating_cycles=Циклов нагрева, выполненных в этом цикле: %s
-GT5U.infodata.purification_unit_uv_treatment.lens_swaps=Lens swaps performed this run:
+GT5U.infodata.purification_unit_uv_treatment.lens_swaps=Замена линз, выполненная в этом цикле:
 GT5U.infodata.purification_unit_uv_treatment.lens_requested=Current lens requested: %s
 GT5U.infodata.purification_unit_uv_treatment.removed_too_early=Если извлечь линзу слишком рано, рецепт будет провален.
 
