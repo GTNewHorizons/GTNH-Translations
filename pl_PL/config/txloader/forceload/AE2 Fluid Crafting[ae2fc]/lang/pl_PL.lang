@@ -118,8 +118,8 @@ ae2fc.tooltip.ultra_terminal.WIRELESS_FLUID_PATTERN_TERMINAL_EX=Tryb: Terminal Z
 ae2fc.tooltip.ultra_terminal=Prawy przycisk myszy + skradanie, aby przełączyć tryb.
 ae2fc.tooltip.ultra_terminal.tips=ToolTips:
 ae2fc.tooltip.ultra_terminal.tips.desc=1. Możesz umieścić go w slocie na baubles i użyć skrótu klawiszowego, aby go otworzyć.\n2. Tryb interfejsu przytrzymaj §3Shift§7, aby przełączyć przycisk zmiany nazwy interfejsu.\n3. Gdy jesteś na ekranie planu wytwarzania.\nPrzytrzymanie §3Shift§7 i kliknięcie przycisku anulowania automatycznie doda brakujące przedmioty do zakładki NEI.
-ae2fc.tooltip.ultra_terminal.restock.on=Restock activated
-ae2fc.tooltip.ultra_terminal.restock.off=Restock deactivated
+ae2fc.tooltip.ultra_terminal.restock.on=Uzupełnianie Włączone
+ae2fc.tooltip.ultra_terminal.restock.off=Uzupełnianie Wyłączone
 ae2fc.tooltip.infinity_fluid=§aNieskończoność§r
 ae2fc.tooltip.fluid_storage.void=Gdzie nic jest wszystkim i wszystko jest niczym
 
@@ -166,18 +166,18 @@ ae2fc.tooltip.not_fill_pattern.hint=Wyłączone
 ae2fc.tooltip.open_configuration=Otwórz konfigurację
 ae2fc.tooltip.block_highlight=Podświetl Blok
 
-ae2fc.tooltip.magnet_card.off=Magnet Card
-ae2fc.tooltip.magnet_card.off.hint=Off
-ae2fc.tooltip.magnet_card.inv=Magnet Card
-ae2fc.tooltip.magnet_card.inv.hint=Pickup to Inventory
-ae2fc.tooltip.magnet_card.me=Magnet Card
-ae2fc.tooltip.magnet_card.me.hint=Pickup to ME
-ae2fc.tooltip.magnet_card.filter=Magnet Filter
+ae2fc.tooltip.magnet_card.off=Karta Magnetyczna
+ae2fc.tooltip.magnet_card.off.hint=Wyłączone
+ae2fc.tooltip.magnet_card.inv=Karta Magnetyczna
+ae2fc.tooltip.magnet_card.inv.hint=Podnieś do ekwipunku
+ae2fc.tooltip.magnet_card.me=Karta Magnetyczna
+ae2fc.tooltip.magnet_card.me.hint=Podnieś do ME
+ae2fc.tooltip.magnet_card.filter=Filtr Przyciągania
 ae2fc.tooltip.magnet_card.oreDictFilter=Oredictionary filter
-ae2fc.tooltip.restock.on=Toggle Restock
-ae2fc.tooltip.restock.on.hint=Enable
-ae2fc.tooltip.restock.off=Toggle Restock
-ae2fc.tooltip.restock.off.hint=Disable
+ae2fc.tooltip.restock.on=Włącz uzupełnianie
+ae2fc.tooltip.restock.on.hint=Włącz
+ae2fc.tooltip.restock.off=Włącz uzupełnianie
+ae2fc.tooltip.restock.off.hint=Wyłącz
 
 ae2fc.gui.part_fluid_pattern_terminal=Terminal Wzorców Płynów
 ae2fc.gui.part_fluid_pattern_terminal_ex=Terminal Zaawansowanych Wzorców Przetwarzania Płynów
@@ -203,12 +203,12 @@ ae2fc.gui.part_fluid_terminal=Terminal Płynów ME
 ae2fc.gui.part_fluid_storage_bus=Magistrala Magazynowania Płynów ME
 ae2fc.gui.fluid_auto_filler=Automatyczny Napełniacz Płynów ME
 
-ae2fc.gui.magnet=Magnet Filter
-ae2fc.gui.magnet.nbt=Ignore NBT Data
-ae2fc.gui.magnet.meta=Ignore Meta Data
-ae2fc.gui.magnet.ore=Use Ore Dictionary
-ae2fc.gui.magnet.whitelist=Whitelisting
-ae2fc.gui.magnet.blacklist=BlackListing
+ae2fc.gui.magnet=Filtr Przyciągania
+ae2fc.gui.magnet.nbt=Ignoruj Dane NBT
+ae2fc.gui.magnet.meta=Ignoruj Meta Dane
+ae2fc.gui.magnet.ore=Użyj Słownik Rud
+ae2fc.gui.magnet.whitelist=Biała Lista
+ae2fc.gui.magnet.blacklist=Czarna Lista
 
 ae2fc.gui.color.StateNone=00000000
 ae2fc.gui.color.StateIdle=FF55FF55
@@ -218,8 +218,8 @@ ae2fc.gui.color.StateError=FFFF5555
 
 error.unknown=Nieznany
 
-ae2fc.key.OpenTerminal=Open Wireless Universal Terminal
-ae2fc.key.Restock=Toggle Restock
+ae2fc.key.OpenTerminal=Otwórz Uniwersalny Terminal Bezprzewodowy
+ae2fc.key.Restock=Włącz uzupełnianie
 
 itemGroup.ae2fc=Wytwarzanie z Płynami dla AE2
 
