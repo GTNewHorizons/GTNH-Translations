@@ -1068,6 +1068,7 @@ GT5U.machines.chunks=Chunks
 GT5U.machines.miner=Miner
 GT5U.machines.powersource.power=power
 GT5U.machines.powersource.steam=steam
+GT5U.machines.steam.amount=%1$s/%2$sL Steam
 GT5U.machines.pump=Pump
 GT5U.machines.separatebus=Input buses are separated
 GT5U.machines.pumpareaset=Pumping area set to
@@ -1358,8 +1359,6 @@ GT5U.gui.button.drone_error=Sort by §3shutdown status
 GT5U.gui.button.drone_showLocalName=Show localized name
 GT5U.gui.button.toggle_output_slot_lock=Toggle output slot
 GT5U.gui.button.power_panel=Open Power Panel
-GT5U.gui.button.turbinemenu=Open Chamber Controller
-GT5U.gui.button.centrifugestatsmenu=Display Machine Information
 GT5U.gui.button.max_parallel=Always use maximum
 GT5U.gui.text.rangedvalue=Range: %s-%s
 GT5U.gui.text.lockedvalue=Locked: %s
@@ -1432,6 +1431,8 @@ GT5U.gui.text.drill_chunks_left=Drilling chunk: §a%s / %s
 GT5U.gui.text.drill_current_vein=Current Vein: §a%s
 GT5U.gui.text.drill_offline_reason=Drill Offline: %s
 GT5U.gui.text.drill_offline_generic=Drill Offline
+GT5U.gui.text.drill_extracting_ores=Extracting Ores
+GT5U.gui.text.drill_extracting_ores_failed=Extraction Failed
 GT5U.gui.text.stocking_bus_fail_extraction=§4Failed to extract expected amount of items from stocking bus. This can be caused by attaching multiple storage buses to the same inventory.
 GT5U.gui.text.stocking_hatch_fail_extraction=§4Failed to extract expected amount of fluids from stocking hatch. This can be caused by attaching multiple storage fluid buses to the same tank.
 GT5U.gui.text.drone_noDrone=§4Can't find any drone in inputBuses!
@@ -1629,8 +1630,6 @@ GT5U.gui.circuit.timer.name=Timer
 GT5U.gui.circuit.timer.description=Pulses Redstone
 GT5U.gui.circuit.timer.data_description.pulses=Pulses
 GT5U.gui.circuit.timer.data_description.time=Time
-
-GT5U.gui.tooltip.steam_progress=Steam: %d/%dL
 
 # Note to translators: this translation entry is supposed to be a number indicating how many taunts you define here
 # Game will randomly display one of them
@@ -2775,7 +2774,7 @@ gt.time.second.plural=seconds
 
 #Tool modes
 gt.wrench.mode.1=Line Mode
-gt.wrench.mode.2=Precision Mode
+gt.wrench.mode.2=Precise Mode
 
 # Tooltip for vajra
 gt.vajra.tooltip.flavor=Your friendly instant block breaker
