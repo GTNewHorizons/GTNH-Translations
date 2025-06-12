@@ -67,9 +67,6 @@ tile.appliedenergistics2.BlockMolecularAssembler.name=Moleküler Montajcı
 tile.appliedenergistics2.BlockPatternOptimizationMatrix.name=Kalıp Optimizasyon Matriksi
 tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Tekillik Üretim Deposu
 tile.appliedenergistics2.BlockPaint.name=Boya
-tile.appliedenergistics2.BlockWirelessConnector.name=Kablosuz Bağlayıcı
-tile.appliedenergistics2.BlockWirelessHub.name=Kablosuz Merkezi
-tile.appliedenergistics2.BlockCrystalGrowthChamber.name=Kristal Yetiştirme Odası
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=Yontulmuş Certus Kuvars Merdivenleri
@@ -228,6 +225,7 @@ gui.appliedenergistics2.StorageCells=ME Depolama Hücreleri
 gui.appliedenergistics2.IOBuses=ME İçe/Dışa Aktarım Veriyolu
 gui.appliedenergistics2.Stores=Depolar
 gui.appliedenergistics2.BytesUsed=Kullanılan Baytlar
+gui.appliedenergistics2.TimeUsed=Time Used
 gui.appliedenergistics2.Types=Tip üzerinden
 gui.appliedenergistics2.Blank=Boş
 gui.appliedenergistics2.Unlinked=Bağlı Değil
@@ -271,6 +269,7 @@ gui.appliedenergistics2.Next=Sonraki
 gui.appliedenergistics2.Lumen=Lumen
 gui.appliedenergistics2.Empty=Boş
 gui.appliedenergistics2.Stored=Depolanmış
+gui.appliedenergistics2.AddToBookmark=Bookmark
 gui.appliedenergistics2.Cancel=İptal
 gui.appliedenergistics2.ETAFormat=HH:mm:ss
 gui.appliedenergistics2.SwitchCraftingSimulationDisplayMode=Görüntüleme modunu değiştir (Liste/Ağaç)
@@ -371,6 +370,9 @@ gui.color.appliedenergistics2.CraftConfirmMissingItem=1AFF0000
 gui.color.appliedenergistics2.CraftingCPUActive=5A45A021
 gui.color.appliedenergistics2.CraftingCPUScheduled=FF787878
 gui.color.appliedenergistics2.InterfaceTerminalMatch=2A00FF00
+gui.color.appliedenergistics2.ProcessBarStartColor=FFE60A00
+gui.color.appliedenergistics2.ProcessBarMiddleColor=FFE6E600
+gui.color.appliedenergistics2.ProcessBarEndColor=FF0AE600
 
 # GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=Eşya Depola
@@ -439,6 +441,7 @@ gui.tooltips.appliedenergistics2.SearchMode_NEIStandard=NEI ile Eşzamanlı Stan
 gui.tooltips.appliedenergistics2.SearchMode=Arama Kutusu Modu
 
 gui.tooltips.appliedenergistics2.PartitionStorageHint=Biçimlendirmeyi şu anda depolanmış eşyalara göre ayarlar.
+gui.tooltips.appliedenergistics2.NextPartitionStorageHint=Click to get next item in the storage.
 gui.tooltips.appliedenergistics2.ClearSettings=Konfigürasyonu/Ayarı Temizle
 gui.tooltips.appliedenergistics2.Craftable=Üretilebilir
 gui.tooltips.appliedenergistics2.MoveWhenEmpty=Hücre boş olduğunda veya Ağ boşaltıldığında çıktıya aktar.
@@ -587,18 +590,6 @@ gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Sadece oyuncudan olma
 gui.tooltips.appliedenergistics2.PinsSection=Sabitlenenler Bölmesi
 gui.tooltips.appliedenergistics2.PinsSectionActive=Sabitlenenler Bölmesi Aktif
 gui.tooltips.appliedenergistics2.PinsSectionDisabled=Sabitlenenler Bölmesi Devre Dışı
-
-gui.tooltips.appliedenergistics2.SuperWirelessToolGroupBySingleName=Tekli
-gui.tooltips.appliedenergistics2.SuperWirelessToolGroupBySingleDesc=Her kablosuz tek bir birim
-gui.tooltips.appliedenergistics2.SuperWirelessToolGroupByNetworkName=Ağ
-gui.tooltips.appliedenergistics2.SuperWirelessToolGroupByNetworkDesc=Ağdaki tüm kablosuzlar tek bir birim
-gui.tooltips.appliedenergistics2.SuperWirelessToolGroupByColorName=Renk
-gui.tooltips.appliedenergistics2.SuperWirelessToolGroupByColorDesc=Aynı ağda ve aynı renkteki kablosuzlar tek bir birim
-gui.tooltips.appliedenergistics2.SuperWirelessToolHideBoundedYesName=Sınırlıları gizle
-gui.tooltips.appliedenergistics2.SuperWirelessToolHideBoundedYesDesc=Bağlantılı bağlayıcıları ve boş yuvası olmayan merkezleri gizle
-gui.tooltips.appliedenergistics2.SuperWirelessToolHideBoundedNoName=Sınırlıları göster
-gui.tooltips.appliedenergistics2.SuperWirelessToolHideBoundedNoDesc=Bağlantılı bağlayıcıları ve boş yuvası olmayan merkezleri göster
-
 gui.tooltips.appliedenergistics2.scheduledreason.SOMETHING_STUCK=Arayüzde bir şey sıkışmış
 gui.tooltips.appliedenergistics2.scheduledreason.BLOCKING_MODE=Engelleme Modu
 gui.tooltips.appliedenergistics2.scheduledreason.LOCK_MODE=Kilit Modu
@@ -636,28 +627,6 @@ gui.appliedenergistics2.Red=Kırmızı
 gui.appliedenergistics2.Black=Siyah
 gui.appliedenergistics2.Fluix=Fluiks 
 
-#
-gui.appliedenergistics2.GuiSuperWirelessKit.color=Renk %s
-gui.appliedenergistics2.GuiSuperWirelessKit.network=Ağ %s
-gui.appliedenergistics2.GuiSuperWirelessKit.selfpos=G: %s,%s,%s
-gui.appliedenergistics2.GuiSuperWirelessKit.targetpos=H: %s,%s,%s
-gui.appliedenergistics2.GuiSuperWirelessKit.channelsUsage=Kanal Kullanımı: %s
-gui.appliedenergistics2.GuiSuperWirelessKit.pinbutton.name=Sabitle
-gui.appliedenergistics2.GuiSuperWirelessKit.pinbutton.desc=Bu birimi mevcut sırada tut
-gui.appliedenergistics2.GuiSuperWirelessKit.madchameleonrecolor.name=Çılgın Bukalemun
-gui.appliedenergistics2.GuiSuperWirelessKit.madchameleonrecolor.desc=Komşu kablosuzlara bağlanmasına izin vermeyecek şekilde renklendir
-gui.appliedenergistics2.GuiSuperWirelessKit.includeconnectors.name=Merkezleri dahil et
-gui.appliedenergistics2.GuiSuperWirelessKit.includeconnectors.desc=Merkezleri işlemlere dahil et
-gui.appliedenergistics2.GuiSuperWirelessKit.includehubs.name=Bağlayıcıları dahil et
-gui.appliedenergistics2.GuiSuperWirelessKit.includehubs.desc=Bağlayıcıları işlemlere dahil et
-gui.appliedenergistics2.GuiSuperWirelessKit.delete.name=Ağı Sil
-gui.appliedenergistics2.GuiSuperWirelessKit.delete.desc=Ağı listeden kaldırır
-gui.appliedenergistics2.GuiSuperWirelessKit.bind.name=Bağla
-gui.appliedenergistics2.GuiSuperWirelessKit.bind.desc=2. sıradaki kablosuzları 3. sıradakilere bağlar
-gui.appliedenergistics2.GuiSuperWirelessKit.unbind.name=Bağlantıyı Kopar
-gui.appliedenergistics2.GuiSuperWirelessKit.unbind.desc=İkinci sıradaki kablosuzların bağlantısını koparır
-gui.appliedenergistics2.GuiSuperWirelessKit.namefield.desc=Kablosuzu veya ağı veya rengi yeniden adlandırır
-
 # Waila
 waila.appliedenergistics2.Crafting=Üretim
 waila.appliedenergistics2.DeviceOnline=Cihaz Bağlı
@@ -694,7 +663,6 @@ item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Yapay Evren ME Dep
 item.appliedenergistics2.ItemCreativeStorageCell.name=Yaratıcı ME Depolama Hücresi
 item.appliedenergistics2.ItemVoidStorageCell.name=Boşluk ME Depolama Hücresi
 item.appliedenergistics2.ItemEncodedPattern.name=Kodlanmış Kalıp
-item.appliedenergistics2.ItemEncodedUltimatePattern.name=Kodlanmış Nihai Kalıp
 item.appliedenergistics2.ItemViewCell.name=Görüntüleme Hücresi
 item.appliedenergistics2.ItemFacade.name=Kablo Dış Cephesi
 
@@ -862,56 +830,6 @@ item.appliedenergistics2.ToolBiometricCard.name=Biyometrik Kart
 
 item.appliedenergistics2.ToolDebugCard.name=Dev.DebugCard
 item.appliedenergistics2.ToolReplicatorCard.name=Dev.ReplicatorCard
-
-item.appliedenergistics2.ToolNetworkVisualiser.name=Ağ Görüntüleme Cihazı
-item.appliedenergistics2.ToolNetworkVisualiser.bound=%s,%s,%s de ağ görüntüleniyor
-item.appliedenergistics2.ToolNetworkVisualiser.mode=Mod:
-item.appliedenergistics2.ToolNetworkVisualiser.set=Mod %s olarak değiştirildi
-item.appliedenergistics2.ToolNetworkVisualiser.mode.full=Her Şeyi Göster
-item.appliedenergistics2.ToolNetworkVisualiser.mode.nodes=Düğümleri Göster
-item.appliedenergistics2.ToolNetworkVisualiser.mode.channels=Kanalları Göster
-item.appliedenergistics2.ToolNetworkVisualiser.mode.nonum=Kanalları ve Düğümleri Göster
-item.appliedenergistics2.ToolNetworkVisualiser.mode.p2p=P2P Bağlantılarını Göster
-
-item.appliedenergistics2.ToolSuperWirelessKit.name=Süper Kablosuz Kiti
-item.appliedenergistics2.ToolSuperWirelessKit.security.player=Güvenlik İhlali - Bu ağı düzenleyemezsiniz
-item.appliedenergistics2.ToolSuperWirelessKit.dimension=İki bağlantı da aynı boyut içinde olmalı
-item.appliedenergistics2.ToolSuperWirelessKit.clear=Mevcut alet modunu sıfırlamak için Shift + Control + Sağ tıklayın
-item.appliedenergistics2.ToolSuperWirelessKit.bound=%s,%s,%s e bağlı
-item.appliedenergistics2.ToolSuperWirelessKit.bound.advanced.filled=Bağlayıcı zaten kuyrukta
-item.appliedenergistics2.ToolSuperWirelessKit.bound.super=%s, %s, %s konumundaki ağ listeye %s sıra numarasıyla eklendi
-item.appliedenergistics2.ToolSuperWirelessKit.bound.super.failed=%s sıra numaralı ağ zaten listede
-item.appliedenergistics2.ToolSuperWirelessKit.connected=%s,%s,%s konumuna bağlanıldı
-item.appliedenergistics2.ToolSuperWirelessKit.failed=Bağlantı başarısız
-item.appliedenergistics2.ToolSuperWirelessKit.empty=%s modu listesi temizlendi
-item.appliedenergistics2.ToolSuperWirelessKit.set=Mod %s olarak değiştirildi
-item.appliedenergistics2.ToolSuperWirelessKit.mode=Mod:
-item.appliedenergistics2.ToolSuperWirelessKit.mode.simple=Basit
-item.appliedenergistics2.ToolSuperWirelessKit.mode.simple.empty=Bağlamak için Kablosuz Bağlayıcıya tıklayın
-item.appliedenergistics2.ToolSuperWirelessKit.mode.simple.bound=Bağlamak için diğer Kablosuz Bağlayıcıya tıklayın
-item.appliedenergistics2.ToolSuperWirelessKit.mode.simple.bound.targethubfull=Hedef Merkez Dolu
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced=Gelişmiş
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.next=Sıradaki sonraki bağlayıcı: %s,%s,%s
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.extra=§oKuyruk ve bağlama modları arasında geçiş yapmak için çömelirken sağ tıklayın
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.queueing=§aKuyruk Modu
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.binding=§aBağlama Modu
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.queueing.activated=§aKuyruk§r modu aktifleştirildi
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.binding.activated=§aBağlama§r modu aktifleştirildi
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.queueing.empty=Bağlama sırasına eklemek için Kablosuz Bağlayıcılara tıklayın.
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.binding.empty=Kuyruğa bağlayıcılar eklemek için Kuyruk Moduna geçin
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.queueing.notempty=Kuyruktaki mevcut kablosuz bağlayıcılar:
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.binding.notempty=Kuyruktaki bağlamayı bekleyen mevcut kablosuz bağlayıcılar:
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.noconnectors=Kuyrukta bağlayıcı bulunamadı. Aleti kuyruk moduna almayı ve birkaç tane eklemeyi deneyin.
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.queued=%s,%s,%s'deki bağlayıcı kuyruğa eklendi
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.binding.hubqols=Tüm boş merkez yuvalarına bağlamak için Ctrl + Sağ tıklayın
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.queueing.hubqols=Tüm boş merkez yuvalarını kuyruğa eklemek için Ctrl + Sağ tıklayın
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.queueing.hub=%s merkez yuvası kuyruğa eklendi
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.binding.hub=%s merkez yuvası kuyruğa eklendi
-item.appliedenergistics2.ToolSuperWirelessKit.mode.advanced.queueing.targethubfull=Hedef merkezin tüm boş yuvaları zaten kuyruğa ekli
-item.appliedenergistics2.ToolSuperWirelessKit.mode.super=Süper
-item.appliedenergistics2.ToolSuperWirelessKit.mode.super.networklist=Ağ listesi:
-item.appliedenergistics2.ToolSuperWirelessKit.mode.super.network="%s" ağı %s, %s, %s konumunda
-item.appliedenergistics2.ToolSuperWirelessKit.mode.super.networklistempty=Listede ağ yok
 
 # Commands
 commands.ae2.usage=Applied Energistics 2 tarafından sağlanan komutlar - bir liste için /ae2 list ve bir komutla ilgili yardım için /ae2 help _____ kullanın.
