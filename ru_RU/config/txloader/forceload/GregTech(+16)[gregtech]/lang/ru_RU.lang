@@ -863,13 +863,6 @@ GT5U.fusion.plasma=Выход плазмы
 
 GT5U.tpm.parallelwindow=Открыть окно конфигурации параллели
 
-GT5U.ECCF.pressure=Текущее давление
-GT5U.ECCF.temperature=Текущая температура
-GT5U.ECCF.pressure_threshold=Порог давления
-GT5U.ECCF.temperature_threshold=Порог температуры
-GT5U.ECCF.pressure_required=Требуемое давление
-GT5U.ECCF.temperature_required=Требуемая температура
-
 GT5U.EBF.heat=Температура в печи
 GT5U.coil.None=Нет
 GT5U.coil.ULV=Нет
@@ -897,7 +890,7 @@ gt.casing.heat-capacity=Теплопроизводительность = %s Ке
 gt.casing.tier=Тир корпуса: §e%s§r
 
 gt.casing.chemical-resistant=Способен противостоять самым экстремальным химическим условиям.
-gt.casing.hawking-focus=Управляет исходящим потоком излучения Хокинга для стабилизации черной дыры.
+gt.casing.hawking-focus=Управляет исходящим потоком излучения Хокинга для стабилизации чёрной дыры.
 gt.casings.advanced-filter=Менее пяти 0,1мкм частиц на м^3
 
 # Machine types
@@ -925,7 +918,7 @@ gt.recipe.chemicalreactor.description=Позвольте химическим в
 gt.recipe.circuitassembler=Сборщик электросхем
 gt.recipe.circuitassembler.description=Pick-n-Place повсюду
 gt.recipe.compressor=Компрессор
-gt.recipe.compressor.description=Сожми до черной дыры C77
+gt.recipe.compressor.description=Сожми до чёрной дыры C77
 gt.recipe.cuttingsaw=Режущий станок
 gt.recipe.cuttingsaw.description=Режет вдоль и поперёк!
 gt.recipe.distillery=Дистилятор
@@ -1044,8 +1037,6 @@ gt.recipe.purificationplantuvtreatment=Обработка высокоэнерг
 gt.recipe.purificationplantdegasifier=Дегазация
 gt.recipe.purificationplantquarkextractor=Барионное совершенство
 gt.recipe.quantumcomputer=QC Components
-gt.recipe.eccf=Environmentally Controlled Chemical Facility
-
 
 # Recipe categories
 gt.recipe.category.arc_furnace_recycling=Переработка в дуговой печи
@@ -1057,7 +1048,6 @@ gt.recipe.category.alloy_smelter_molding=Формовка в плавильно�
 gt.recipe.category.forge_hammer_recycling=Переработка в кузнечном молоте
 gt.recipe.category.tic_part_extruding=Экструдирование TiC деталей
 gt.recipe.category.tic_bolt_molding=Формовка TiC болтов
-gt.recipe.category.planets=Условия планеты
 
 GT5U.machines.tier=Тир
 GT5U.machines.workarea=Рабочая площадь
@@ -1079,20 +1069,8 @@ GT5U.machines.oilfluidpump=Oil/Fluid Pump
 GT5U.machines.minermulti=Мультиблочный шахтёр
 GT5U.machines.digitalchest.voidoverflow.enabled=Пустотный режим при переполнении §aВкл.§r
 GT5U.machines.digitalchest.voidoverflow.disabled=Пустотный режим при переполнении §cОткл.§r
-GT5U.machines.digitalchest.voidoverflow.tooltip=Пустотный режим при переполнении
 GT5U.machines.digitalchest.inputfilter.enabled=Входной фильтр §aВкл.§r
 GT5U.machines.digitalchest.inputfilter.disabled=Входной фильтр §cОткл.§r
-GT5U.machines.digitalchest.autooutput.enabled=Авто-вывод предметов включен
-GT5U.machines.digitalchest.autooutput.disabled=Авто-вывод предметов отключен
-GT5U.machines.digitalchest.lockItem.enabled=Режим блок. предмета вкл.
-GT5U.machines.digitalchest.lockItem.disabled=Режим блок. предмета откл.
-GT5U.machines.digitalchest.lockItem.none=Currently nothing to lock, will be locked to the next that is put in
-GT5U.machines.digitalchest.lockItem.tooltip=Режим блокировки предмета
-GT5U.machines.digitalchest.lockItem.tooltip.1=§7Этот сундук будет принимать только один тип предметов
-GT5U.machines.digitalchest.lockItem.tooltip.2=§7Он будет привязан к первому типу предмета, который попадёт в сундук.
-GT5U.machines.digitalchest.inputfromoutput.tooltip=Ввод предметов со стороны вывода
-GT5U.machines.digitalchest.voidfull.tooltip=Режим утилизации
-GT5U.machines.digitalchest.voidfull.tooltip.1=§7Удаляет все предметы, попадающие в сундук
 GT5U.machines.digitaltank.tooltip=Хранит %sЛ жидкости
 GT5U.machines.digitaltank.tooltip1=Сохраняет своё содержимое при сборе
 GT5U.machines.digitaltank.autooutput.tooltip=Авто-вывод жидкости
@@ -1317,12 +1295,6 @@ channels.gregtech.stabilisation=Определяет тир Генератора
 channels.gregtech.time_dilation=Определяет тир Генератора поля замедления времени. Начинается с §6Грубый генератор поля замедления времени§r со значением 1 и заканчивается §6Галлифрейский генератор поля замедления времени§r со значением 9.
 channels.gregtech.gt_no_hatch=When set, disable automatic hatch placement
 channels.gregtech.field=Определяет тир T.F.F.T блока хранения жидкостей.
-channels.gregtech.eccf_heater=Decides the tier of §6ECCF heating module§r. Starts at value 1 and ends at value 4.
-channels.gregtech.eccf_freezer=Decides the tier of §6ECCF freezing module§r. Starts at value 1 and ends at value 4.
-channels.gregtech.eccf_vacuum=Decides the tier of §6ECCF compressor module§r. Starts at value 1 and ends at value 4.
-channels.gregtech.eccf_compress=Decides the tier of §6ECCF vacuum pump module§r. Starts at value 1 and ends at value 4.
-channels.gregtech.eccf_parallel_left=Decides the tier of §6ECCF parallel module§r. Starts at value 1 and ends at value 3.
-channels.gregtech.eccf_parallel_right=Decides the tier of §6ECCF parallel module§r. Starts at value 1 and ends at value 3.
 
 GT5U.gui.select.current=Состояние:
 GT5U.gui.button.liquid_filling_OFF=§7Жидкое наполнение: §4ОТКЛ.
@@ -1365,7 +1337,6 @@ GT5U.gui.button.power_panel=Открыть панель энергии
 GT5U.gui.button.max_parallel=Всегда использовать максимум
 GT5U.gui.text.rangedvalue=Радиус: %s-%s
 GT5U.gui.text.lockedvalue=Заблокировано: %s
-GT5U.gui.text.locked=Locked
 GT5U.gui.text.success=§aОбработка рецепта
 GT5U.gui.text.progress=§fПрогресс:
 GT5U.gui.text.amount=§fКоличество:
@@ -1409,7 +1380,7 @@ GT5U.gui.text.drill_exhausted=§dБур завершил добычу всех �
 GT5U.gui.text.drill_generic_finished=§7Буровые трубы втянуты
 GT5U.gui.text.drill_retract_pipes_finished=§7Операция прервана
 GT5U.gui.text.backfiller_no_concrete=§7Нет жидкого бетона
-GT5U.gui.text.no_black_hole=§7Требуется активная черная дыра
+GT5U.gui.text.no_black_hole=§7Требуется активная чёрная дыра
 GT5U.gui.text.backfiller_finished=§aРабота завершена
 GT5U.gui.text.backfiller_working=§aЗаливка бетона
 GT5U.gui.text.backfiller_current_area=§7Заливка на уровне высоты: §a%s
@@ -1452,6 +1423,7 @@ GT5U.gui.text.pollution_fail=§4Не удалось вывести загряз�
 GT5U.gui.text.structure_incomplete=§4Отключён из-за неполной структуры.
 GT5U.gui.text.no_repair=§4Выключен из-за повреждения механизма.
 GT5U.gui.text.no_machine_part=В контроллере отсутствует подходящая деталь механизма.
+GT5U.gui.text.insufficient=§4Shut down due to insufficient dynamo size
 GT5U.gui.text.missing_item=§7Отсутствует требуемый предмет: §b%s§f
 GT5U.gui.text.ph_sensor=pH порог
 GT5U.gui.text.critical_ph_value=pH превысил критическое значение.
@@ -1475,9 +1447,7 @@ GT5U.gui.text.enabled=§aВключён§f
 GT5U.gui.text.disabled=§cОтключён§f
 GT5U.gui.text.lma_craftingfx=Показать эффекты крафта
 GT5U.gui.text.repair_tip=Click with Tool to repair.
-GT5U.gui.text.conditions_range=§4Conditions outside recipe range
 GT5U.gui.text.apiary_missing_flowers=Отсутствуют цветы: %s
-GT5U.gui.text.item.amount=Количество предметов
 GT5U.gui.text.microwave_energy_transmitter.x=Координата-X
 GT5U.gui.text.microwave_energy_transmitter.y=Координата-Y
 GT5U.gui.text.microwave_energy_transmitter.z=Координата-Z
@@ -1753,14 +1723,7 @@ GT5U.nei.nuclear.breeder.neutron_reflecting=Neutron reflecting Breeder
 GT5U.nei.nuclear.breeder.heat_neutral=Heat neutral Breeder
 GT5U.nei.nuclear.breeder.reactor_hull_heat=Every %d reactor hull heat\nincrease speed by %d00%%
 GT5U.nei.nuclear.breeder.required_pulse=Требуемые импульсы: %d
-GT5U.nei.temperature=Температура: %s - %s K
-GT5U.nei.pressure=Давление: %s - %s
-GT5U.nei.temperature_delta=Изменение температуры: %s K/с
-GT5U.nei.pressure_delta=Изменение давления: %s Pa/с
-GT5U.nei.bare_temperature=Температура
-GT5U.nei.bare_pressure=Давление
-GT5U.nei.bare_tier=Тир
-GT5U.nei.bare_name=Название
+
 
 GT5U.config.colormodulation=Цветовой модулятор
 GT5U.config.colormodulation.cable_insulation=Изоляция кабеля
@@ -2782,7 +2745,7 @@ gt.wrench.mode.2=Точный режим
 # Tooltip for vajra
 gt.vajra.tooltip.flavor=Ваш дружеский мгновенный разрушитель блоков
 gt.vajra.tooltip.charge=Можно заряжать в любом %s механизме
-gt.vajra.tooltip.silk_touch=Shift+ПКМ по воздуху, чтобы переключить режим шелкового касания
+gt.vajra.tooltip.silk_touch=Shift+ПКМ по воздуху, чтобы переключить режим шёлкового касания
 
 # GT++
 
@@ -2794,7 +2757,7 @@ GT5U.gui.text.no_li2bef4=§7Отсутствует Li2BeF4
 GT5U.gui.text.no_saw=§7Отсутствует пила
 GT5U.gui.text.no_sapling=§7Отсутствует саженец
 GT5U.gui.text.no_oxygen=§7Отсутствует кислород
-GT5U.gui.text.fuel_blacklisted=§7Топливо в черном списке
+GT5U.gui.text.fuel_blacklisted=§7Топливо в чёрном списке
 GT5U.gui.text.no_catalyst=§7Катализатор не найден
 GT5U.gui.text.no_milling_ball=§7Измельчающий шарик не найден
 GT5U.gui.text.growing_trees=§aВыращивание деревьев
@@ -2927,10 +2890,6 @@ GTPP.tooltip.meta_food.unless_starving=Я бы не стала есть это, 
 GTPP.tooltip.meta_food.better_cooked=Выглядит приготовленным не лучше
 GTPP.tooltip.meta_food.warm_touch=Теплый на ощупь
 GTPP.tooltip.dust-decay-hint=Only decays in a %s or a %s
-
-tooltip.blockECCFTemp=§6Потеря температуры: %d%%
-tooltip.blockECCFPressure=§6Потеря давления: %d%%
-tooltip.blockECCFParallel=§6Parallel multiplier: %d
 
 # GTPP structure hints
 GTPP.tooltip.structure.anvil=Наковальня

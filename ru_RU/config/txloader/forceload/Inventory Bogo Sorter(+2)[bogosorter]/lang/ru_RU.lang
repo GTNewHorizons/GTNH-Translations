@@ -2,7 +2,9 @@ key.categories.bogosorter=Inventory Bogo Sorter
 key.sort_config=Открыть конфигурацию сортировки
 key.sort=Сортировать инвентарь
 key.dropoff=Выбросить
-key.dropoff.tooltip=Выгрузка в ближайшие инвентари %nCtrl + перетаскивание для перемещения
+key.dropoff.tooltip1=Dropoff To Nearby Inventories
+key.dropoff.tooltip2=Control + Drag To Move
+key.tooltip.keybind=Keybind
 
 bogosort.gui.title=Конфигурация сортировки
 bogosort.gui.tab.general.name=Общие
@@ -84,3 +86,30 @@ bogosort.sortrules.nbt.enchantment.description=Сортирует зачаров
 bogosort.sortrules.nbt.enchantment_book.description=Сортирует зачарованные книги по эффекту и уровню
 bogosort.sortrules.nbt.gt_circ_config.description=Сортирует программируемые схемы GregTech по их конфигурации
 bogosort.sortrules.nbt.gt_item_damage.description=Сортирует инструменты GregTech по их повреждению
+
+bogosorter.config.dropoff=Drop-Off Settings
+bogosorter.config.dropoff.enable=Enable drop-off
+bogosorter.config.dropoff.scan_radius=Drop-off scan radius (blocks)
+bogosorter.config.dropoff.render=Render highlight on containers
+bogosorter.config.dropoff.chat_message=Show chat message on drop-off
+bogosorter.config.dropoff.quota=Drop-off quota (ms)
+bogosorter.config.dropoff.throttle=Drop-off throttle (ms)
+bogosorter.config.dropoff.targets=Container name filters
+
+bogosorter.config.dropoff.button=Drop-Off Button Settings
+bogosorter.config.dropoff.button.x=Button X Position
+bogosorter.config.dropoff.button.y=Button Y Position
+bogosorter.config.dropoff.button.visible=Show Drop-Off Button
+
+bogosorter.config.usage_ticker=Usage Ticker Settings
+bogosorter.config.usage_ticker.enable=Enable usage ticker
+bogosorter.config.usage_ticker.mainhand=Show main hand usage
+bogosorter.config.usage_ticker.offhand=Show off hand usage
+bogosorter.config.usage_ticker.armor=Show armor usage
+
+bogosorter.config.sort.sound=Sort button click sound
+bogosorter.config.hotbarsort.enable=Enable hotbar sort
+bogosorter.config.hotbarswap.enable=Enable hotbar swap
+bogosorter.config.autorefill.enable=Enable auto-refill
+bogosorter.config.autorefill.damage_threshold=Auto-refill damage threshold
+bogosorter.config.button.color=Sort button color
