@@ -1,16 +1,16 @@
 ggfab.recipe.toolcast=툴 주조 기계
 
-ggfab.info.advassline.0=Advanced Assembly Line Help
-ggfab.info.advassline.1=This is advanced assembly line from §6GigaGram§rFab.
-ggfab.info.advassline.2=It supports item pipelining. That is, it will mimic a real assembly line by consuming ingredients one by one instead of all at start. In effect, it offers a parallelism up to however many item input this recipe requires.
-ggfab.info.advassline.3=You can think of an advanced assembly line as a collection of assembly slices. Each assembly slice is capably of processing each step independent of other slices.
-ggfab.info.advassline.4=It will start processing once the input bus contents align with any stored data stick. The first slice will consume the input in Bus #1. After (recipe time/number of inputs) time, the first slice's work is concluded and will start the second slice. At the same time, first slice will look for input in input bus #1. If there are still enough input there slice #1 will start working again.
-ggfab.info.advassline.5=The terminal slice (the n-th slice, where n is number of item input in recipe) will put the recipe output in output bus when it has concluded his work. Whenever a non-terminal slice finished its work, it will try to pass the work onto next slice. If the next slice cannot find the materials in its input bus, the just-finished slice will remain in §4STUCK§r state and hang the assembly line. To help locate these §4STUCK§r assembly lines, the controller's front face will have its status light turned orange.
-ggfab.info.advassline.6=The EU/t cost of this machine is number of slices active multiplied by the original recipe EU/t. §4STUCK§r slices do not consume power. It will use the worst energy supplying hatch's input voltage for recipe tier calculation and normal imperfect overclock.
-ggfab.info.advassline.7=With exotic energy hatches, it can overclock beyond usual voltage tier, but will consume even more power than usual imperfect overclock. Every §2laser overclock§r will add %s to power exponent.
-ggfab.info.advassline.8=1 §2laser overclock§r will have 50%% recipe time and use %s%% power. 2 §2laser overclock§r will have 25%% recipe time and use %s%% (%s * %s) power. Will not overclock beyond 1 tick. Machine first tries to parallelize, then normal imperfect overclock, then §2laser overclock§r.
-ggfab.waila.advassline.slice=Slice #%s: %s s / %s s
-ggfab.waila.advassline.slice.small=Slice #%s: %s ticks / %s ticks
+ggfab.info.advassline.0=고급 조립 라인 도움말
+ggfab.info.advassline.1=이것은 §6GigaGram§rFab의 고급 조립 라인입니다.
+ggfab.info.advassline.2=아이템 파이프라인을 지원합니다. 즉, 처음에 모든 재료를 소비하는 대신 하나씩 재료를 소비하여 실제 조립 라인을 모방합니다. 실제로 이 조합법에 필요한 아이템 입력 수만큼 병렬성을 제공합니다.
+ggfab.info.advassline.3=고급 조립 라인은 조립 슬라이스의 집합으로 생각할 수 있습니다. 각 조립 슬라이스는 다른 슬라이스와 독립적으로 각 단계를 처리할 수 있습니다.
+ggfab.info.advassline.4=입력 버스 내용이 저장된 데이터 스틱과 일치하면 처리 과정이 시작됩니다. 첫 번째 슬라이스는 버스 #1의 입력을 소비합니다. (조합법 시간/입력 수) 시간이 경과하면 첫 번째 슬라이스의 작업이 완료되고 두 번째 슬라이스가 시작됩니다. 동시에 첫 번째 슬라이스는 입력 버스 #1의 입력을 검색합니다. 해당 버스에 여전히 충분한 입력이 있다면 슬라이스 #1은 다시 작업을 시작합니다.
+ggfab.info.advassline.5=종단 슬라이스(조합법에 입력된 항목 수 n번째 슬라이스)는 작업을 완료하면 조합법 출력을 출력 버스에 전송합니다. 비종단 슬라이스가 작업을 완료하면 다음 슬라이스로 작업을 전달하려고 시도합니다. 다음 슬라이스가 입력 버스에서 재료를 찾을 수 없는 경우, 방금 완료된 슬라이스는 §4고정된§r 상태로 남아 조립 라인을 중단시킵니다. 이러한 §4고정된§r 조립 라인을 식별하기 위해 컨트롤러의 전면 패널에는 상태 표시등이 오렌지색으로 점등됩니다.
+ggfab.info.advassline.6=이 기계의 EU/t 비용은 활성화된 슬라이스 수에 원본 조합법의 EU/t를 곱한 값입니다. §4고정된§r 슬라이스는 전력을 소비하지 않습니다. 조합법 티어 계산 및 일반적인 불완전 오버클럭을 위해 가장 낮은 에너지 공급 해치의 입력 전압을 사용합니다.
+ggfab.info.advassline.7=엑소틱 에너지 해치를 통해 일반적인 전압 티어를 초월해 오버클럭이 가능하지만, 일반적인 불완전한 오버클럭보다 더 많은 전력을 소비합니다. 각 §2레이저 오버클럭§r은 전력 지수에 %s를 추가합니다.
+ggfab.info.advassline.8=1 §2레이저 오버클럭§r는 50%의 조합법 시간을 갖으며 %s%%의 전력을 사용합니다. 2 §2레이저 오버클럭§r는 25%의 조합법 시간을 갖으며 %s%% (%s * %s)의 전력을 사용합니다. 1틱을 초과하여 오버클럭하지 않습니다. 기계는 먼저 병렬 처리를 시도한 후 일반적인 불완전한 오버클럭을 시도하며, 마지막으로 §2레이저 오버클럭§r를 시도합니다.
+ggfab.waila.advassline.slice=조각 #%s: %s 초 / %s 초
+ggfab.waila.advassline.slice.small=조각 #%s: %s 틱 / %s 틱
 ggfab.waila.advassline.slice.idle=Slice #%s: Idle
 ggfab.waila.advassline.slice.stuck=Slice #%s: §4STUCK
 ggfab.gui.advassline.slice.idle=Slice #%s: Idle
