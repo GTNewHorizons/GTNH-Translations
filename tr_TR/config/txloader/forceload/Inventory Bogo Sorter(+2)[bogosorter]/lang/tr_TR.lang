@@ -2,7 +2,9 @@ key.categories.bogosorter=Inventory Bogo Sorter
 key.sort_config=Open Sort Config
 key.sort=Sort Inventory
 key.dropoff=Dropoff
-key.dropoff.tooltip=Dropoff To Nearby Inventories %nControl + Drag To Move
+key.dropoff.tooltip1=Dropoff To Nearby Inventories
+key.dropoff.tooltip2=Control + Drag To Move
+key.tooltip.keybind=Keybind
 
 bogosort.gui.title=Sort Config
 bogosort.gui.tab.general.name=General
@@ -84,3 +86,30 @@ bogosort.sortrules.nbt.enchantment.description=Sorts enchanted items by effect a
 bogosort.sortrules.nbt.enchantment_book.description=Sorts enchanted books by effect and level
 bogosort.sortrules.nbt.gt_circ_config.description=Sorts GregTech programmable circuits by their configuration
 bogosort.sortrules.nbt.gt_item_damage.description=Sorts GregTech tools by their damage
+
+bogosorter.config.dropoff=Drop-Off Settings
+bogosorter.config.dropoff.enable=Enable drop-off
+bogosorter.config.dropoff.scan_radius=Drop-off scan radius (blocks)
+bogosorter.config.dropoff.render=Render highlight on containers
+bogosorter.config.dropoff.chat_message=Show chat message on drop-off
+bogosorter.config.dropoff.quota=Drop-off quota (ms)
+bogosorter.config.dropoff.throttle=Drop-off throttle (ms)
+bogosorter.config.dropoff.targets=Container name filters
+
+bogosorter.config.dropoff.button=Drop-Off Button Settings
+bogosorter.config.dropoff.button.x=Button X Position
+bogosorter.config.dropoff.button.y=Button Y Position
+bogosorter.config.dropoff.button.visible=Show Drop-Off Button
+
+bogosorter.config.usage_ticker=Usage Ticker Settings
+bogosorter.config.usage_ticker.enable=Enable usage ticker
+bogosorter.config.usage_ticker.mainhand=Show main hand usage
+bogosorter.config.usage_ticker.offhand=Show off hand usage
+bogosorter.config.usage_ticker.armor=Show armor usage
+
+bogosorter.config.sort.sound=Sort button click sound
+bogosorter.config.hotbarsort.enable=Enable hotbar sort
+bogosorter.config.hotbarswap.enable=Enable hotbar swap
+bogosorter.config.autorefill.enable=Enable auto-refill
+bogosorter.config.autorefill.damage_threshold=Auto-refill damage threshold
+bogosorter.config.button.color=Sort button color
