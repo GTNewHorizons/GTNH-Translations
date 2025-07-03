@@ -189,8 +189,8 @@ class Action:
     ) -> None:
         asyncio.run(self._gt_lang_to_paratranz(Path(repo_path), Path(subdirectory)))
 
-    # Commit changes made to nightly modpack
-    async def _save_nightly_modpack_history(
+    # Commit changes made to daily modpack
+    async def _save_daily_modpack_history(
             self,
             modpack_path: Path,
             repo_path: Path,
@@ -221,19 +221,19 @@ class Action:
             repo_path,
             paths_to_commit,
             settings.GIT_AUTHOR,
-            f"Nightly modpack {str(datetime.date.today())}",
+            f"Daily modpack {str(datetime.date.today())}",
             allow_empty=True,
         )
 
-    def save_nightly_modpack_history(
+    def save_daily_modpack_history(
             self,
             modpack_path: str,
             repo_path: str = ".",
             subdirectory: str = ".",
     ) -> None:
-        asyncio.run(self._save_nightly_modpack_history(Path(modpack_path), Path(repo_path), Path(subdirectory)))
+        asyncio.run(self._save_daily_modpack_history(Path(modpack_path), Path(repo_path), Path(subdirectory)))
 
-    # Sync files that have actually been changed compared to last nightly modpack to ParaTranz, excluding GregTech.lang
+    # Sync files that have actually been changed compared to last daily modpack to ParaTranz, excluding GregTech.lang
     async def _conditional_sync_to_paratranz(
             self,
             repo_path: Path,

@@ -55,21 +55,21 @@ If you have 3 or more translators for the language, please contact boubou_19.
 5. Add new issue template.
 6. Add new label for issue.
 7. Run `Sync all to ParaTranz` workflow with the new language code.
-8. Run `Publish nightly lang pack` workflow with the new language code.
+8. Run `Publish daily lang pack` workflow with the new language code.
 9. (Optional) Run `Upload mod jar translations` workflow to import existing translations in mod jars. You can skip this if you don't want. Or you can run Python script locally to choose which mod to upload, see [List of available actions](#list-of-available-actions).
 
 ### How workflows work
 
 All workflows under `./.github/workflow` directory can also be triggered manually. Go to Actions tab, select workflow, (select language) and run it. (Only project owners have permission to do this.)
 
-- [nightly-schedule](./.github/workflows/nightly-schedule.yml) This is where the nightly schedule is triggered. 3 workflows are called sequentially, due to the way syncing to ParaTranz is written.
-  - [save-nightly-modpack-history](./.github/workflows/save-nightly-modpack-history.yml) Downloads nightly modpack build from [DAXXL](https://github.com/GTNewHorizons/DreamAssemblerXXL/actions), unzips, and commits to this repository. The result of the commit will be used by the next workflow.
+- [daily-schedule](./.github/workflows/daily-schedule.yml) This is where the daily schedule is triggered. 3 workflows are called sequentially, due to the way syncing to ParaTranz is written.
+  - [save-daily-modpack-history](./.github/workflows/save-daily-modpack-history.yml) Downloads daily modpack build from [DAXXL](https://github.com/GTNewHorizons/DreamAssemblerXXL/actions), unzips, and commits to this repository. The result of the commit will be used by the next workflow.
   - [conditional-sync-to-paratranz-parallel](./.github/workflows/conditional-sync-to-paratranz-parallel.yml) Calls the following workflow for all the languages in parallel.
-    - [conditional-sync-to-paratranz](./.github/workflows/conditional-sync-to-paratranz.yml) Syncs mod lang and questbook to ParaTranz for specific language. It does not try to send all the files; Instead, it uses commit from [save-nightly-modpack-history](./.github/workflows/save-nightly-modpack-history.yml) to see which files have been actually changed and sends only them. This way the workflow can be faster. However, it has major flaw; It requires the specific commit to present before this workflow runs. Hence, nobody should (in theory) push commit between save-nightly-modpack-history and conditional-sync-to-paratranz runs, nor rerun the former before the latter runs. If something goes wrong, [sync-all-to-paratranz](./.github/workflows/sync-all-to-paratranz.yml) can force all the files to be synced. If this behavior turns out to be messy, we can stop it and switch to always uploading all the files.
-  - [publish-all-nightly-lang-packs](./.github/workflows/publish-all-nightly-lang-packs.yml) Calls the following workflow for all the languages sequentially.
-    - [publish-nightly-lang-pack](./.github/workflows/publish-nightly-lang-pack.yml) Pulls latest translation data from ParaTranz, commits them to this repository, and publishes as a lang pack for specific language. Anyone can download it and put it into the modpack.
+    - [conditional-sync-to-paratranz](./.github/workflows/conditional-sync-to-paratranz.yml) Syncs mod lang and questbook to ParaTranz for specific language. It does not try to send all the files; Instead, it uses commit from [save-daily-modpack-history](./.github/workflows/save-daily-modpack-history.yml) to see which files have been actually changed and sends only them. This way the workflow can be faster. However, it has major flaw; It requires the specific commit to present before this workflow runs. Hence, nobody should (in theory) push commit between save-daily-modpack-history and conditional-sync-to-paratranz runs, nor rerun the former before the latter runs. If something goes wrong, [sync-all-to-paratranz](./.github/workflows/sync-all-to-paratranz.yml) can force all the files to be synced. If this behavior turns out to be messy, we can stop it and switch to always uploading all the files.
+  - [publish-all-daily-lang-packs](./.github/workflows/publish-all-daily-lang-packs.yml) Calls the following workflow for all the languages sequentially.
+    - [publish-daily-lang-pack](./.github/workflows/publish-daily-lang-pack.yml) Pulls latest translation data from ParaTranz, commits them to this repository, and publishes as a lang pack for specific language. Anyone can download it and put it into the modpack.
 - [sync-gt-lang-to-paratranz-all-langs](./.github/workflows/sync-gt-lang-to-paratranz-all-langs.yml) Calls the following workflow for all the languages sequentially.
-  - [sync-gt-lang-to-paratranz](./.github/workflows/sync-gt-lang-to-paratranz.yml) Syncs `GregTech.lang` to ParaTranz for specific language. Due to the way GT lang is generated, it cannot be automatically uploaded as a part of nightly workflow. Contributor needs to manually upload lang file under `nightly-history` directory and run this workflow if they want to update.
+  - [sync-gt-lang-to-paratranz](./.github/workflows/sync-gt-lang-to-paratranz.yml) Syncs `GregTech.lang` to ParaTranz for specific language. Due to the way GT lang is generated, it cannot be automatically uploaded as a part of daily workflow. Contributor needs to manually upload lang file under `daily-history` directory and run this workflow if they want to update.
 - [sync-all-to-paratranz-all-langs](./.github/workflows/sync-all-to-paratranz-all-langs.yml) Calls the following workflow for all the languages sequentially.
   - [sync-all-to-paratranz](./.github/workflows/sync-all-to-paratranz.yml) Syncs mod lang, questbook, and GT lang to ParaTranz for specific language.
 - [upload-jar-translations](./.github/workflows/upload-jar-translations.yml) Uploads existing translations in mod jars to ParaTranz for specific language. If you want to choose which mod to upload, you can run it locally. Refer to [List of available actions](#list-of-available-actions).
@@ -100,10 +100,10 @@ ParaTranz -> Local
 
 - sync-from-paratranz
 
-Local/Nightly -> ParaTranz
+Local/Daily -> ParaTranz
 
 - gt-lang-to-paratranz
-- save-nightly-modpack-history
+- save-daily-modpack-history
 - conditional-sync-to-paratranz
 - sync-all-to-paratranz
 

@@ -1,0 +1,18 @@
+name: Entrypoint for daily workflows
+
+on:
+  schedule:
+    - cron: "20 1 * * *" # 1:20am UTC every day, before modpack daily builds
+  workflow_dispatch:
+
+jobs:
+  save-daily-modpack-history:
+    uses: ./.github/workflows/save-daily-modpack-history.yml
+  conditional-sync-to-paratranz-parallel:
+    needs: save-daily-modpack-history
+    uses: ./.github/workflows/conditional-sync-to-paratranz-parallel.yml
+    secrets: inherit
+  publish-all-daily-lang-packs:
+    needs: conditional-sync-to-paratranz-parallel
+    uses: ./.github/workflows/publish-all-daily-lang-packs.yml
+    secrets: inherit

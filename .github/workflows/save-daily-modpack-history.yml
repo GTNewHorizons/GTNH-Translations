@@ -1,12 +1,12 @@
-name: Save nightly modpack history
+name: Save daily modpack history
 
 on:
   workflow_call:
   workflow_dispatch:
 
 jobs:
-  save-nightly-modpack-history:
-    name: Save nightly modpack history
+  save-daily-modpack-history:
+    name: Save daily modpack history
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
@@ -15,15 +15,15 @@ jobs:
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
 
-      - name: Download nightly
-        uses: ./.github/actions/download-nightly
+      - name: Download daily
+        uses: ./.github/actions/download-daily
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          directory: .nightly-temp
-      - name: Save nightly modpack history
+          directory: .daily-temp
+      - name: Save daily modpack history
         run: >-
-          poetry run python main.py action save-nightly-modpack-history
-          --modpack-path='.nightly-temp/nightly' --subdirectory='nightly-history'
+          poetry run python main.py action save-daily-modpack-history
+          --modpack-path='.daily-temp/daily' --subdirectory='daily-history'
         env:
           # Required by system validation but actually unused
           PARATRANZ_TOKEN: -1
