@@ -75,6 +75,7 @@ gui.SC2:cartAreaSaplings=树苗
 gui.SC2:cartAreaFirework=烟花
 gui.SC2:cartAreaBuckets=桶（给挤奶工用的）
 gui.SC2:cartAreaCakes=蛋糕
+gui.SC2:cartAreaCropsticks=Cropsticks
 
 
 
@@ -310,6 +311,12 @@ item.SC2:creative_incinerator.name=创造模式焚化炉
 item.SC2:creative_supplies.name=创造模式供应
 item.SC2:color_randomizer.name=颜色定制组件
 item.SC2:crop_exotic.name=作物：异域
+item.SC2:train_connector.name=Train Connector
+item.SC2:electric_engine_lv.name=Electric Engine LV
+item.SC2:electric_engine_mv.name=Electric Engine MV
+item.SC2:electric_engine_hv.name=Electric Engine HV
+item.SC2:crop_ic2.name=Crop: IC2
+
 
 # Components
 item.SC2:unknowncomponent.name=未知SC2组件
@@ -598,6 +605,8 @@ modules.addons.SC2:recipeChangeLimit10=Shift点击改变10。
 modules.addons.SC2:recipeChangeLimit64=Ctrl点击改变64。
 modules.addons.SC2:shieldToggle=[%1->激活|取消激活]护盾
 modules.addons.SC2:buttonRandomize=随机颜色
+modules.addons.SC2:toggleHarvestmode=Toggle Harvestmode
+modules.addons.SC2:harvestmode=Harvestmode: [%1->ASAP|Optimal]
 
 # Engines
 modules.engines.SC2:creativePowerLevel=能量等级：[%1]
@@ -611,6 +620,9 @@ modules.engines.SC2:thermalEngineTitle=热能引擎
 modules.engines.SC2:thermalPowered=已供能
 modules.engines.SC2:outOfWater=缺水
 modules.engines.SC2:outOfLava=缺熔岩
+modules.engines.SC2:electricEngineTitle=Electric Engine
+modules.engines.SC2:chargeLevel=Charge: [%1]
+modules.engines.SC2:outOfCharge=Out of Charge
 # need beta 3 for these ones to show up (remove this note)
 modules.engines.SC2:engineDisabledMessage=禁用
 modules.engines.SC2:enginePriorityMessage=[%1->高|中|低] 优先级

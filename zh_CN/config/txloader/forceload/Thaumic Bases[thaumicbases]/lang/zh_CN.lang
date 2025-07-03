@@ -12,6 +12,7 @@ tb.rec.enchantments.vaporising=附魔了蒸发的武器杀死生物时,有几率
 #blocks
 tile.quicksilverBlock.name=水银块
 tile.quicksilverBrick.name=水银砖块
+tile.crystalBlock.name=水晶块
 tile.crystalBlockfire.name=火之魔晶块
 tile.crystalBlockwater.name=水之魔晶块
 tile.crystalBlockearth.name=地之魔晶块
@@ -41,6 +42,7 @@ tile.glieonia.name=荧光花
 tile.briar.name=治愈草
 tile.tobacco.name=烟草
 tile.voidPlant.name=虚空植物
+tile.spike.name=Spikes
 tile.spikeiron.name=铁钉
 tile.spikethaumic.name=神秘钉
 tile.spikevoid.name=虚空钉
@@ -60,6 +62,7 @@ tile.TBoldLapis.name=远古青金石块
 tile.TBoldBricks.name=远古砖块
 tile.nodeManipulator.name=节点调节器
 
+tile.tb.slab..name=台阶
 tile.tb.slab.tile.TBoldLapis.name=远古青金石台阶
 tile.tb.slab.tile.TBoldIron.name=远古铁台阶
 tile.tb.slab.tile.TBoldGold.name=远古金台阶
@@ -69,6 +72,7 @@ tile.tb.slab.tile.TBoldBricks.name=远古石砖台阶
 tile.tb.slab.tile.TBoldCobblestoneMossy.name=远古苔石台阶
 tile.tb.slab.tile.eldritchArk.name=远古镶金黑曜石台阶
 
+tile.tb.crystalslab..name=魔晶台阶
 tile.tb.crystalslab.air.name=风之魔晶台阶
 tile.tb.crystalslab.water.name=水之魔晶台阶
 tile.tb.crystalslab.fire.name=火之魔晶台阶
@@ -80,9 +84,11 @@ tile.tb.crystalslab.tainted.name=腐化魔晶台阶
 
 tile.thaumicRelocator.name=扩展奥术悬浮台
 tile.tb.voidblock.name=虚空金属块
+tile.thaumicAnvil.name=神秘铁砧
 tile.thaumicAnvil.intact.name=神秘铁砧
 tile.thaumicAnvil.slightlyDamaged.name=轻微损坏的神秘铁砧
 tile.thaumicAnvil.veryDamaged.name=严重损坏的神秘铁砧
+tile.voidAnvil.name=虚空金属砧
 tile.voidAnvil.intact.name=虚空金属砧
 tile.voidAnvil.slightlyDamaged.name=轻微损坏的虚空金属砧
 tile.voidAnvil.veryDamaged.name=严重损坏的虚空金属砧
@@ -99,6 +105,7 @@ tile.enderTreeLeaves.name=末影树叶
 tile.enderPlanks.name=末影树木板
 
 #items
+item.resource.name=Resource
 item.resourcenuggetthauminite.name=秘晶粒
 item.resourcethauminite.thauminite_ingot.name=秘晶锭
 item.resourcethaumium_wand_core.name=神秘杖芯
@@ -128,6 +135,7 @@ item.plaxSeeds.name=纤化种子
 item.metalleatSeeds.name=金属种子
 item.lucriteSeeds.name=炼金种子
 item.knoseSeed.name=神秘玫瑰芽
+item.knoseFragment..name=Fragment
 item.knoseFragment.fire.name=火之知识
 item.knoseFragment.aqua.name=水之知识
 item.knoseFragment.terra.name=地之知识
@@ -144,6 +152,7 @@ item.rosehipSyrup.name=玫瑰果浆
 
 item.greatwoodPipe.name=宏伟之木烟斗
 item.silverwoodPipe.name=银树烟斗
+item.tobacco.name=烟草堆
 item.tobacco.tobacco_pile.name=烟草堆
 item.tobacco.tobacco_eldritch.name=邪术烟草堆
 item.tobacco.tobacco_fighting.name=愤怒烟草堆
@@ -168,6 +177,7 @@ item.fluxFoci.name=法杖核心:咒波净化
 item.drainFoci.name=法杖核心:蒸发
 item.experienceFoci.name=法杖核心:经验
 
+item.nodeFoci..name=§eNode Manipulator Focus
 item.nodeFoci.speed.name=§e节点调节核心:速度
 item.nodeFoci.brightness.name=§e节点调节核心:明亮
 item.nodeFoci.destruction.name=§e节点调节核心:湮灭
@@ -568,6 +578,7 @@ tile.tb.brazier.name=奥术火盆
 
 #Items
 item.tb.revolver.name=奥术左轮枪
+item.tb.bracelet.name=手镯
 item.tb.bracelet.iron=铁手镯
 item.tb.bracelet.gold=金手镯
 item.tb.bracelet.greatwood=宏伟之木手镯

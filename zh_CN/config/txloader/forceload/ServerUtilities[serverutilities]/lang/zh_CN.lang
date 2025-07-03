@@ -315,6 +315,7 @@ team_config.serverutilities.blocks_interact=交互方块所需的级别
 team_config.serverutilities.attack_entities=攻击实体所需的级别
 team_config.serverutilities.use_items=使用物品所需的级别
 team_config.serverutilities.explosions=在已声明区块中启用爆炸
+team_config.serverutilities.endermen=Enable Endermen Interacting With Blocks in Claimed Chunks
 team_config.serverutilities.fake_players=允许假玩家与方块进行交互
 
 # Sidebar Buttons
@@ -603,9 +604,9 @@ serverutilities.gui.backup.restore_global_confirm_desc=这也将恢复全局世�
 
 # Pause When Empty
 cmd.pause_when_empty_updated=服务器属性‘pause-when-empty-seconds’(无玩家上线多少秒后暂停)设置为%d
-cmd.pause_when_empty_oneshot=‘pause-when-empty-seconds’(无玩家上线多少秒后暂停)暂时设置为%d，直到下次恢复。设置为-1表示禁用单次执行
+cmd.pause_when_empty_mask=Ignoring 'pause-when-empty-seconds' for the next %d seconds. Set to 0 to cancel masking.
 commands.pause_when_empty.set.usage=/pause_when_empty set <秒> (0为禁止)
-commands.pause_when_empty.oneshot.usage=/pause_when_empty oneshot <秒> (旧值将在下次恢复时应用; 0表示禁用暂停; -1表示禁用单次执行)
+commands.pause_when_empty.mask.usage=/pause_when_empty mask <seconds> (temporary: don't pause for the next x seconds from now)
 
 # Gui
 ## Buttons

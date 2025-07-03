@@ -146,7 +146,6 @@ enderio.itemGasConduit.tooltip.detailed.line1=传送和通用机械兼容的气�
 item.itemMEConduit.name=ME导管
 enderio.itemMEConduit.name=ME导管
 enderio.itemMEConduitDense.name=致密ME导管
-enderio.itemMEConduitDenseUltra.name=超密ME导管
 enderio.itemMEConduit.channelsUsed=第{0,number}频道, 共{1,number}频道
 
 item.itemOCConduit.name=网络导管(OC)
@@ -442,11 +441,6 @@ item.itemWirelessLightInverted.tooltip.detailed.line2=照亮大片区域.
 item.itemWirelessLightInverted.tooltip.detailed.line3=有红石信号时熄灭
 item.itemWirelessLightInverted.tooltip.detailed.line4=可从无线充能器接收能量.
 
-tile.blockCapacitorBank.name=电容储能库
-tile.blockCapacitorBank.creative.name=创造模式电容储能库
-tile.blockCapacitorBank.tooltip.detailed.line1=多方块能量存储.
-tile.blockCapacitorBank.tooltip.detailed.line2=可以给使用RF能量的物品充能.
-tile.blockCapacitorBank.tooltipPrefix=包含
 
 tile.blockCapBank.name=电容库
 tile.blockCapBank.creative.name=创造模式电容库
@@ -643,8 +637,11 @@ tile.blockExperienceObelisk.tooltip.detailed.line3=至相邻的储罐中
 
 tile.blockWeatherObelisk.name=气象方尖碑
 tile.blockWeatherObelisk.tooltip.detailed.line1=改变当前天气
-tile.blockWeatherObelisk.tooltip.detailed.line2=需要大量能量
-tile.blockWeatherObelisk.tooltip.detailed.line3=和催化物品
+tile.blockWeatherObelisk.tooltip.detailed.line2=需要一个烟花火箭和 1000L 
+tile.blockWeatherObelisk.tooltip.detailed.line3=下列流体中的一种
+tile.blockWeatherObelisk.tooltip.detailed.line4=液态阳光：晴天
+tile.blockWeatherObelisk.tooltip.detailed.line5=云之精华：雨天
+tile.blockWeatherObelisk.tooltip.detailed.line6=浓缩云之精华：雷暴天
 
 tile.blockBuffer.name=缓冲
 tile.blockBuffer.item.name=物品缓存器
@@ -975,6 +972,9 @@ enderio.darksteel.upgrade.gogglesOfRevealing.tooltip.detailed.line1=Vis减免: 5
 enderio.darksteel.upgrade.gogglesOfRevealing.enabled=魔法已经显现出来
 enderio.darksteel.upgrade.gogglesOfRevealing.disabled=魔法隐藏在了普通视野当中
 
+enderio.darksteel.upgrade.trackmansGoggles.name=铁路工护目镜
+enderio.darksteel.upgrade.trackmansGoggles.tooltip.detailed.line1=Show infrastructure and anchor auras
+
 enderio.darksteel.upgrade.naturalistEye.name=自然之眼
 enderio.darksteel.upgrade.naturalistEye.tooltip.detailed.line1=显示已授粉的树叶
 
@@ -1099,6 +1099,10 @@ enderio.gui.machine.side.west=西
 enderio.gui.machine.side.east=东
 enderio.gui.machine.side.up=上
 enderio.gui.machine.side.down=下
+enderio.gui.machine.weather.control=Control Mode
+enderio.gui.machine.weather.redstone=Launch on Redstone Signal
+enderio.gui.machine.weather.manual=Launch Manually
+enderio.gui.machine.weather.run=Launch
 
 
 #Power Monitor
@@ -1413,6 +1417,7 @@ enderio.category.darksteelarmor=玄钢护甲
 enderio.category.tools=末影接口 - 工具
 enderio.keybind.glidertoggle=滑翔开关
 enderio.keybind.gogglesofrevealing=揭示护目镜
+enderio.keybind.trackmansgoggles=铁路工护目镜
 enderio.keybind.nightvision=夜视
 enderio.keybind.soundlocator=声波定位
 enderio.keybind.speed=速度
