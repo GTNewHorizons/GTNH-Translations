@@ -52,14 +52,14 @@ languagefile {
     S:"Book.Nuclear Chemistry [FFPP].Page03"=Warstwa 4<BR>[ ][3][ ]<BR>[3][2][3]<BR>[ ][3][ ]<BR><BR>Warstwa 7/8/9<BR>[ ][ ][ ]<BR>[ ][3][ ]<BR>[ ][ ][ ]<BR>
     S:"Book.Nuclear Chemistry [FFPP].Page04"=Paliwo Rozszczepialne<BR>Zakład Przetwórczy----------------------<BR>Ta struktura jest wykorzystywana do produkcji Stopionych Soli wymaganych do uruchomienia Reaktora Torowego na Ciekłych Fluorkach [RTCF].
     S:"Book.Power Storage & You [Version 0.64].Name"=Magazyn Energii i Ty [Wersja 0.64]
-    S:"Book.Power Storage & You [Version 0.64].Page00"=Więc kiedy przychodzi do przechowywania energii, tak naprawde masz 3 opcje: <BR> <BR> Battery Buffer,<BR> Energy Buffer, <BR> The Power Sub-Station<BR>
-    S:"Book.Power Storage & You [Version 0.64].Page01"=Battery Buffer<BR> <BR>Is rather portable. Allowing you to throw set one up and insert batteries where ever you may need.<BR>They output 1A for each battery stored inside, up to a maximum of 16A.
-    S:"Book.Power Storage & You [Version 0.64].Page02"=Energy Buffer<BR> <BR>Is a more optimal choice for storage in your base. Once placed down, they cannot be moved without losing all stored power.<BR>Energy Buffers can output 4A from the output side, however accept 16A as input.
-    S:"Book.Power Storage & You [Version 0.64].Page03"=The Power Sub-Station <BR>Is used for storing Insane amounts of power later game.<BR>Consumes 2% of the average voltage of all energy type hatches every tick.<BR>
-    S:"Book.Power Storage & You [Version 0.64].Page04"=Allows Insertion/Removal of power from the rear face of the controller, swap with a screwdriver.<BR>Variable Height Structure, between 4-16Y. Inserted Redox Cells dictate max energy tier of structure.<BR>
-    S:"Book.Power Storage & You [Version 0.64].Page05"=Redox Cells cannot be placed into the Top or Bottom layer and only take up 3xhx3 internally.<BR>Different Tier cells CANNOT be mixed together.<BR>
+    S:"Book.Power Storage & You [Version 0.64].Page00"=Więc kiedy przychodzi do przechowywania energii, tak naprawde masz 3 opcje: <BR> <BR> Bufor Baterii,<BR> EBufor Energii, <BR> Podstacja Elektryczna <BR>
+    S:"Book.Power Storage & You [Version 0.64].Page01"=Bufor Batterii <BR> <BR> jest przenośny. Można go rozłożyć i włożyć batterie, gdziekolwiek będziesz potrzebować. <BR> Oddaje 1A za każdą baterię, którą ma w środku, aż do 16A.
+    S:"Book.Power Storage & You [Version 0.64].Page02"=Bufor Energi<BR> <BR> jest bardzo dobrym wyborem na magazynowanie energi w twojej bazie. Kiedy zostanie postawniony, nie może być przestawiony przez straty całej zmagazynowanej energii.<BR> Bufory Energi mogą oddwać 4A ze strony wyjścia, jednak mogą przyjnować 16A jako wejście.
+    S:"Book.Power Storage & You [Version 0.64].Page03"= Podstacja Elektryczna<BR> jest wykorzystywana do przechowywania niesamowicie wielkich ilości energi w późnej fazie gry.<BR> Zabiera 2% z uśrodnionego napięcia wszystkich włazów energi, co każdy tick. <BR>
+    S:"Book.Power Storage & You [Version 0.64].Page04"=Pozwala Wkładać/Wyjmować energie z tylnej ściany kontrolera, można zamienić za pomocą śrubokręta.<BR> Wysokość strudktury może być modyfikowana od 4 do 16Y.  Włożone Komórek z Redoxem  narzuca maksymalny tier energii struktury.<BR>
+    S:"Book.Power Storage & You [Version 0.64].Page05"=Komórki Redox nie mogą być położone na górnej lub dolnej warstwie i mogą zająć tylko 3xHx3 wewnętrznie.<BR> Różne poziomy komórek, NIE MOGĄ być połączone ze sobą.<BR>
     S:"Book.Power Storage & You [Version 0.64].Page06"=Wszystkie włazy muszą być co najmniej HV, ten minimalny poziom został wprowadzony, aby powstrzymać ludzi przed nadużywaniem włazów ULV / LV w celu obniżenia średniej / t.<BR>Obecnie GUI NIE wyświetla niczego, dopóki struktura się nie uformuje, jest to znany błąd. <BR>
-    S:"Book.Power Storage & You [Version 0.64].Page07"=Valid Hatches:<BR>Energy Hatch,<BR>Dynamo Hatch,<BR>Charging Bus,<BR>Discharging Bus,<BR>Dynamo Buffer,<BR>Multi-Amp Dynamo Hatch.<BR><BR><BR>Structure MUST contain at least one energy input and one energy output hatch.
+    S:"Book.Power Storage & You [Version 0.64].Page07"=Dostępne włazy:<BR>Właz Energii,<BR>Właz Dynamo,<BR> Magistrala Ładnowania,<BR> Magistrala Rozładowania,<BR> Bufer Dynamo, <BR> Wielo-Ampowy Właz Dynamo.<BR><BR><BR> Struktura musi zawierać przynajmniej jedno wejście energii i jedno wyjście energii.
     S:"Book.Printer Manual V2.0.Name"=Instrukcja Obsługi Drukarki V2.0
     S:"Book.Printer Manual V2.0.Page00"=Niniejsza instrukcja wyjaśnia różne funkcje wbudowane w Fabrykę Druku GregTech, których nie ma w NEI. Większość z nich jest już obsługiwana przez NEI, ale niektóre wciąż pozostają bez wsparcia.
     S:"Book.Printer Manual V2.0.Page01"=1. Zmiana kolory przedmiotów i bloków: Znasz te przepisy wytwarzania, które mają barwnik otoczony 8 przedmiotami do barwienia? Albo te, które mają tylko jeden przedmiot i jeden barwnik w siatce? Te dwa typy receptur można tanio zautomatyzować za pomocą drukarki.
@@ -69,13 +69,13 @@ languagefile {
     S:"Book.Printer Manual V2.0.Page05"=Masz stos stron do stworzenia swojej nowej Książki, włóż je do Assemblera z Klejem i kawałkiem Skóry a otrzymasz identyczną kopię Książki, która będzie się łączyła w stos razem z oryginałem.
     S:"Book.Printer Manual V2.0.Page06"=3. Zmiana nazwy przedmiotów: Ta funkcja nie jest już częścią Drukarki. Dostępna jest teraz Forma Nazw do nadawania nazw przedmiotom przy użyciu Prasy do Formowania, która umożliwia nadrukowanie dowolnej nazwy, wystarczy zmienić nazwę formy w kowadle i użyć jej w Prasie do Formowania na dowolnym przedmiocie.
     S:"Book.Printer Manual V2.0.Page07"=4. Wytwarzanie Książek, Map, Identyfikatorów itp. itd.: Te Receptury zostały przeniesione do innych Maszyn, wystarczy poszukać ich w NEI.
-    S:"Book.Punch Card Manual V0.0.Name"=Punch Card Manual V0.0
-    S:"Book.Punch Card Manual V0.0.Page00"=This Manual will explain the Functionality of the Punch Cards, once they are fully implemented. And no, they won't be like the IRL Punch Cards. This is just a current Idea Collection.
+    S:"Book.Punch Card Manual V0.0.Name"=Instrukcja Karty Dziurkowanej V0.0
+    S:"Book.Punch Card Manual V0.0.Page00"=Ta intrukcja wypłumaczy funkcjonalność Kart Dziurkowanych, kiedy zostaną one w pełni zaimplementowany. I nie, one nie będą podobne do prawdziwych Kart Dziurkowanych. To jest dopiero zbiór ideii.
     S:"Book.Punch Card Manual V0.0.Page01"=(i1&&i2)?o1=15:o1=0;=10
-    S:"Book.Punch Card Manual V0.0.Page02"=ignore all Whitespace Characters, use Long for saving the Numbers
+    S:"Book.Punch Card Manual V0.0.Page02"=Zignoruj wszystkie białe znaki, użyj Long aby zapisywać numery.
     S:"Book.Punch Card Manual V0.0.Page03"=&& || ^^ & | ^ ! ++ -- + - % / // * ** << >> >>> < > <= >= == !=  ~ ( ) ?: , ; ;= ;=X; = i0 i1 i2 i3 i4 i5 o0 o1 o2 o3 o4 o5 v0 v1 v2 v3 v4 v5 v6 v7 v8 v9 m0 m1 m2 m3 m4 m5 m6 m7 m8 m9 A B C D E F
     S:"Book.Punch Card Manual V0.0.Page04"='0' = nieprawda, 'wszystko oprócz 0' = prawda, '!' zamienia '0' na '1', a wszystko inne na '0'.
-    S:"Book.Punch Card Manual V0.0.Page05"=',' is just a separator for multiple executed Codes in a row.
+    S:"Book.Punch Card Manual V0.0.Page05"=',' jest to separator dla wielu wykonywanach kodów z rzędu.
     S:"Book.Punch Card Manual V0.0.Page06"=';' oznacza, że program będzie czekał do następnego ticku przed kontynuowaniem. ';=10' i ';=10;' oznaczają, że program będzie czekał 10 ticków zamiast 1. A ';=0' lub cokolwiek < 0 będzie domyślnie ustawione na 0.
     S:"Book.Punch Card Manual V0.0.Page07"=Jeśli operator "=" jest używany w nawiasach, zwraca wartość, na którą zmienna została ustawiona.
     S:"Book.Punch Card Manual V0.0.Page08"=The Program saves the Char Index of the current Task, the 10 Variables (which reset to 0 as soon as the Program Loop stops), the 10 Member Variables and the remaining waiting Time in its NBT.
