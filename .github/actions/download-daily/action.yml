@@ -1,5 +1,5 @@
-name: Download nightly
-description: Download latest nightly modpack build and unzip it
+name: Download daily
+description: Download latest daily modpack build and unzip it
 
 inputs:
   GITHUB_TOKEN:
@@ -17,7 +17,7 @@ runs:
       shell: bash
       run: |
         echo "artifact_id=$(gh --repo GTNewHorizons/DreamAssemblerXXL run list \
-          --limit 1 --workflow "Nightly modpack build" --json databaseId --jq '.[].databaseId')" \
+          --limit 1 --workflow "Daily modpack build" --json databaseId --jq '.[].databaseId')" \
           >> $GITHUB_OUTPUT
       env:
         GH_TOKEN: ${{ inputs.GITHUB_TOKEN }}
@@ -25,7 +25,7 @@ runs:
       shell: bash
       run:
         mkdir ${{ inputs.directory }}
-    - name: Download nightly
+    - name: Download daily
       shell: bash
       working-directory: ${{ inputs.directory }}
       run: |
@@ -36,6 +36,6 @@ runs:
         cd $(ls | head -1)
         unzip -q -o $(ls | head -1) -d ../unzip-tmp
         cd ..
-        mv "unzip-tmp/GT New Horizons nightly" nightly
+        mv "unzip-tmp/GT New Horizons daily" daily
       env:
         GH_TOKEN: ${{ inputs.GITHUB_TOKEN }}

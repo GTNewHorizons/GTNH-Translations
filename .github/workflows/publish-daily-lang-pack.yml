@@ -1,4 +1,4 @@
-name: Publish nightly lang pack
+name: Publish daily lang pack
 
 on:
   workflow_call:
@@ -65,8 +65,8 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  nightly-build:
-    name: ${{ inputs.target_lang }} Nightly Build
+  daily-build:
+    name: ${{ inputs.target_lang }} Daily Build
     runs-on: ubuntu-24.04
     needs: sync-from-paratranz
     if: ${{ needs.sync-from-paratranz.outputs.found_update == 'true' }}
@@ -96,12 +96,12 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: GTNH-${{ inputs.target_lang }}-Translation-Nightly-${{ steps.date.outputs.today }}
+          name: GTNH-${{ inputs.target_lang }}-Translation-Daily-${{ steps.date.outputs.today }}
           path: ./temp/
       - name: Zip
         run: |
           cd temp
-          zip -r ../assets/GTNH-${{ inputs.target_lang }}-Translation-Nightly-${{ steps.date.outputs.today }}.zip ./*
+          zip -r ../assets/GTNH-${{ inputs.target_lang }}-Translation-Daily-${{ steps.date.outputs.today }}.zip ./*
           cd ..
       - name: Push commits and tag
         run: |
@@ -122,5 +122,5 @@ jobs:
           tag_name: ${{ inputs.target_lang }}-latest
           name: ${{ inputs.target_lang }} Latest
           files: |
-            ./assets/GTNH-${{ inputs.target_lang }}-Translation-Nightly-${{ steps.date.outputs.today }}.zip
+            ./assets/GTNH-${{ inputs.target_lang }}-Translation-Daily-${{ steps.date.outputs.today }}.zip
           token: ${{ secrets.GITHUB_TOKEN }}

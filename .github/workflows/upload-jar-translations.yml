@@ -27,15 +27,15 @@ jobs:
       - name: Ensure Dependencies
         uses: ./.github/actions/ensure-dependencies
 
-      - name: Download nightly
-        uses: ./.github/actions/download-nightly
+      - name: Download daily
+        uses: ./.github/actions/download-daily
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          directory: .nightly-temp
+          directory: .daily-temp
       - name: Upload mod jar translations
         run: >-
           poetry run python main.py action upload-jar-translations
-          --modpack-path='.nightly-temp/nightly' --interactive=False
+          --modpack-path='.daily-temp/daily' --interactive=False
         env:
           PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
           TARGET_LANG: ${{ inputs.target_lang }}

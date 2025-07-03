@@ -47,7 +47,7 @@ jobs:
       - name: Sync to ParaTranz
         run: >-
           poetry run python main.py action sync-all-to-paratranz
-          --subdirectory='nightly-history'
+          --subdirectory='daily-history'
         env:
           PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
           TARGET_LANG: ${{ inputs.target_lang }}
