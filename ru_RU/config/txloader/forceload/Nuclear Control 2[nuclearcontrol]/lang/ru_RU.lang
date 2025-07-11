@@ -45,6 +45,18 @@ tile.blockInfoPanel.name=Промышленная информационная �
 tile.blockInfoPanelExtender.name=Расширитель информационной панели
 tile.blockAdvancedInfoPanel.name=Продвинутая информационная панель
 tile.blockAdvancedInfoPanelExtender.name=Расширитель продвинутой информационной панели
+tile.blockAdvancedInfoPanel.RotateRight=Rotate to the right
+tile.blockAdvancedInfoPanel.RotateLeft=Rotate to the left
+tile.blockAdvancedInfoPanel.Colors=Change Colors
+tile.blockAdvancedInfoPanel.Labels=Labels
+tile.blockAdvancedInfoPanel.Power=normal/inverted redstone and on/off
+tile.blockAdvancedInfoPanel.Slope=Change slope settings
+tile.blockAdvancedInfoPanel.Settings=Settings
+tile.blockAdvancedInfoPanel.Transparency=Switch transparency
+tile.blockAdvancedInfoPanel.LineConfig=Open line configuration
+tile.blockAdvancedInfoPanel.Save=Save
+tile.blockAdvancedInfoPanel.Reset=Reset
+tile.blockAdvancedInfoPanel.Cancel=Cancel
 tile.nclight0.name=Белый светильник
 tile.nclight1.name=Белый светильник
 tile.nclight2.name=Оранжевый светильник
@@ -144,6 +156,16 @@ nc.msg.notValid=Эта карта не может быть совместима
 nc.msg.notValid2=с дистанционным датчиком
 nc.msg.notValid3=Попробуйте открыть интерфейс заново
 
+
+# Advanced Info Panel Settings messages
+# Settings labels for Vanilla Machine Card (Furnace/Brewing Stand)
+msg.nc.Vanilla.setting.activityStatus=Activity Status (Brewing/Burning)
+msg.nc.Vanilla.setting.activeTime=Active Time (Brew/Burn)
+msg.nc.Vanilla.setting.slot1Contents=Slot 1 Contents (Potion/Input)
+msg.nc.Vanilla.setting.slot2Contents=Slot 2 Contents (Potion/Fuel)
+msg.nc.Vanilla.setting.slot3Contents=Slot 3 Contents (Potion/Output)
+
+
 #Vanilla Intergration Messages
 msg.nc.Vanilla.Display=%s / %s слотов использовано
 msg.nc.Vanilla.Name=Имя блока
@@ -152,6 +174,7 @@ msg.nc.Vanilla.brewstand=Текущее время заваривания: %s
 msg.nc.Vanilla.potionType1=1-й тип зелья: %s
 msg.nc.Vanilla.potionType2=2-й тип зелья: %s
 msg.nc.Vanilla.potionType3=3-й тип зелья: %s
+msg.nc.Vanilla.Time=Active Time
 msg.nc.Vanilla.brewing=Жарится
 msg.nc.Vanilla.notBrewing=Не жарится
 msg.nc.Vanilla.dispBrewUse=Показать тип выхода #%s
@@ -161,6 +184,7 @@ msg.nc.Vanilla.cooking=Готовится: %sx - %s
 msg.nc.Vanilla.fuel=Топливо: %sx - %s
 msg.nc.Vanilla.output=Выход: %sx - %s
 msg.nc.Vanilla.burnTime=Время горения: %s
+
 
 #Big Reactor Messages
 msg.nc.InfoPanelRF.Temp=Темп. ядра: %s C
@@ -176,7 +200,7 @@ msg.nc.InfoPanelRF.OutputTank=Выходной бак: %s x%smB
 #5x5 Reactor Messages
 msg.nc.InfoPanel55.Output=Выход: %s Hu/с
 msg.nc.InfoPanel55.Temp=Температура ядра: %s%%
-msg.nc.InfoPanel55.tarkin=Внутренний резервуар: %s / 10000 мВ
+msg.nc.InfoPanel55.tankin=Tank In: %s / 10000 mB
 msg.nc.InfoPanel55.tankout=Внешний резервуар: %s / 10000 мВ
 msg.nc.InfoPanel55.Out=Выход (Hu/с)
 msg.nc.InfoPanel55.BufferIn=Резервуар хладагента
