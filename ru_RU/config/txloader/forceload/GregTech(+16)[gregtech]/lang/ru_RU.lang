@@ -1271,13 +1271,13 @@ GT5U.machines.computation_hatch.wasted_computation=§7Wasted Computation: §b%d�
 GT5U.machines.animations.enabled=Animations are now enabled
 GT5U.machines.animations.disabled=Animations are now disabled
 GT5U.machines.nano_forge.t4_info_tooltip=Click for T4 info
-GT5U.machines.nano_forge.t4_info_header=Nano Forge Tier 4
+GT5U.machines.nano_forge.t4_info_header=Нано кузница тир 4
 GT5U.machines.nano_forge.t4_info_text.1=Upgrading the Nano Forge to T4 by placing an eternity nanite into the controller completely transforms the structure and unlocks both a scaling speed boost and parallel for mass nanite creation.
-GT5U.machines.nano_forge.t4_info_text.2=The Nano Forge can be supplied with molten magmatter to increase its maximum parallels. At the start of a recipe cycle ALL supplied magmatter is consumed and converted to parallels via the following formula:
-GT5U.machines.nano_forge.t4_info_text.3=Maximum Parallel = Max((Magmatter Amount / (144 / 2^(4 - Recipe Tier))), 1)
-GT5U.machines.nano_forge.t4_info_text.4=To actually apply the parallels to the recipe, a copy of the output nanite has to be supplied in an input bus and will be consumed.
+GT5U.machines.nano_forge.t4_info_text.2=Нано кузница может снабжаться расплавленной магматерией для увеличения максимального количества параллелей. В начале цикла рецепта вся поставляемая магматерия потребляется и преобразуется в параллели по следующей формуле:
+GT5U.machines.nano_forge.t4_info_text.3=Максимум параллелей = Макс((Количество магматерии / (144 / 2^(4 - Тир рецепта))), 1)
+GT5U.machines.nano_forge.t4_info_text.4=Чтобы фактически применить параллели к рецепту, копия выходного нанита должна быть предоставлена во входном люке и будет потребляться.
 GT5U.machines.nano_forge.t4_info_text.5=A recipe time multiplier is also granted based on maximum parallels via the following formula:
-GT5U.machines.nano_forge.t4_info_text.6=Recipe Time Multiplier = 0.9999^(Maximum Parallel)
+GT5U.machines.nano_forge.t4_info_text.6=Множитель времени рецепта = 0,9999^(Максимальная параллель)
 
 GT5U.recipe_filter.empty_representation_slot.tooltip=§7Click with a machine to set filter
 GT5U.recipe_filter.representation_slot.tooltip=§7Click to clear
