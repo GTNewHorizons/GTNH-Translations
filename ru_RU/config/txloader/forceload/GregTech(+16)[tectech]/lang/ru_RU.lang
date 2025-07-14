@@ -729,6 +729,7 @@ gt.blockmachines.multimachine.em.computer.desc.1=Используется для
 gt.blockmachines.multimachine.em.computer.desc.2=Используйте отвертку для переключения беспроводного режима
 
 gt.blockmachines.multimachine.em.databank.name=Банк данных
+gt.blockmachines.multimachine.em.databank.type=Data Bank, DB
 gt.blockmachines.multimachine.em.databank.hint.0=1 - Энерговоды или Высокоэнергетические корпуса
 gt.blockmachines.multimachine.em.databank.hint.1=2 - Разъемы доступа к данным/банку данных или Корпус компьютера
 gt.blockmachines.multimachine.em.databank.desc.0=Блок-контроллер банка данных
@@ -1080,7 +1081,7 @@ fog.text.tooltip.ocdivisor=Divisor for recipe time reduction per overclock (does
 fog.text.tooltip.processingvoltage=Base processing voltage for recipes
 fog.text.tooltip.factorpreview=Введите топливный коэффициент для моделирования расчетов с
 fog.text.tooltip.applysimulationchanges=Моделировать новые значения
-fog.text.tooltip.voltageadjustment=Because of overflow concerns, actual processing voltage follows this formula:
+fog.text.tooltip.voltageadjustment=Because of overflow concerns, actual voltage follows this formula:
 fog.text.tooltip.voltageadjustment.1=Вольтаж = Мин(Выбранный вольтаж, 2^63 / Макс параллель)
 
 achievement.gt.blockmachines.multimachine.em.forge_of_gods=Кузница Богов
@@ -1282,7 +1283,7 @@ gt.blockmachines.pipe.energystream.desc.3=Не разделяйте и не по
 
 gt.blockmachines.pipe.energymirror.name=Лазерное вакуумное зеркало
 gt.blockmachines.pipe.energymirror.desc.0=Лазерное туннелирующее устройство.
-gt.blockmachines.pipe.energymirror.desc.1=Не разделяйте и не поворачивайте
+gt.blockmachines.pipe.energymirror.desc.1=Может поворачиваться, но не разделяться
 
 gt.blockmachines.pipe.datastream.name=Оптоволоконный кабель
 gt.blockmachines.pipe.datastream.desc.0=Совершенная передача данных
