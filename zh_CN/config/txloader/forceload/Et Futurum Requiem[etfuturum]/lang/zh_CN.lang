@@ -3,16 +3,16 @@ itemGroup.etfuturum.items=Et Futurum Items
 itemGroup.etfuturum.blocks=Et Futurum Blocks
 
 # Enchantments
-enchantment.frost_walker=Frost Walker
-enchantment.mending=Mending
+enchantment.frost_walker=冰霜行者
+enchantment.mending=经验修补
 enchantment.waterWalker=Depth Strider
-enchantment.binding_curse=§cCurse of Binding
-enchantment.vanishing_curse=§cCurse of Vanishing
-enchantment.swift_sneak=Swift Sneak
+enchantment.binding_curse=§c绑定诅咒
+enchantment.vanishing_curse=§c消失诅咒
+enchantment.swift_sneak=迅捷潜行
 
 # Potions
-potion.levitation=Levitation
-potion.levitation.postfix=Potion of Levitation
+potion.levitation=飘浮
+potion.levitation.postfix=飘浮药水
 
 # Gamemode selector
 
@@ -20,135 +20,135 @@ debug.gamemodes.select_next=%s Next
 debug.gamemodes.press_f4=[ F4 ]
 
 # Gamemodes
-gameMode.Spectator=Spectator Mode
+gameMode.Spectator=旁观模式
 
 # Commands
 commands.etfuturum.fill.usage=/fill <from> <to> <block>
-commands.etfuturum.fill.outOfWorld=Cannot place blocks outside of world
-commands.etfuturum.fill.success=Successfully filled %d block(s)
+commands.etfuturum.fill.outOfWorld=不能在世界之外放置方块
+commands.etfuturum.fill.success=成功填充%d个方块
 
-sleep.players_sleeping=%s/%s players sleeping
-sleep.skipping_night=Sleeping through this night
+sleep.players_sleeping=%s/%s名玩家已入睡
+sleep.skipping_night=在睡梦中度过今夜
 
 # Containers/GUI
-container.enchant.lapis.one=1 Lapis Lazuli
-container.enchant.lapis.many=%d Lapis Lazuli
-container.enchant.level.required=Level Requirement
+container.enchant.lapis.one=花费：1颗青金石
+container.enchant.lapis.many=花费：%d颗青金石
+container.enchant.level.required=等级需求
 container.enchant.level.one=1 Enchantment Level
 container.enchant.level.many=%d Enchantment Levels
 container.enchant.clue=%s . . . ?
-container.etfuturum.blast_furnace=Blast Furnace
-container.etfuturum.smoker=Smoker
-container.etfuturum.barrel=Barrel
-container.etfuturum.shulker_box=Shulker Box
-container.etfuturum.chest_boat=Boat with Chest
+container.etfuturum.blast_furnace=高炉
+container.etfuturum.smoker=烟熏炉
+container.etfuturum.barrel=木桶
+container.etfuturum.shulker_box=潜影盒
+container.etfuturum.chest_boat=运输船
 
 item.record.pigstep.desc=Lena Raine - Pigstep
 item.record.otherside.desc=Lena Raine - otherside
 
-gui.smithing.upgrade=Upgrade Gear
-gui.warn.continue=Continue...
-gui.warn.dismiss=Don't show me this again.
-gui.warn.notice=NOTICE:
+gui.smithing.upgrade=升级装备
+gui.warn.continue=继续...
+gui.warn.dismiss=不再显示
+gui.warn.notice=注意:
 gui.warn.configSplit1=Due to the main Et Futurum Requiem config becoming very long and hard to navigate, the configs have been split into multiple files. You are being shown this warning because you have a config from a previous version in "configs/etfuturum.cfg". There is no system in place to automatically transfer your settings so be sure to check out the new files!
 gui.warn.configSplit2=When you're done, you can delete or rename the old config file, or tick the box below to stop seeing this warning.
 gui.chat.update=%1$s version %2$s is available!
 gui.chat.update.download=Click here to download the update on %s!
 
 # Subtitles
-subtitle.game.tnt.primed=TNT primed
-subtitle.game.player.swim=Player swims
-subtitle.game.player.swim.splash=Player splashes
+subtitle.game.tnt.primed=TNT：嘶嘶作响
+subtitle.game.player.swim=玩家：游泳
+subtitle.game.player.swim.splash=玩家：溅起水花
 subtitle.entity.player.splash.high_speed=Huge splash
-subtitle.game.potion.smash=Potion Smashed
+subtitle.game.potion.smash=玻璃瓶：碎裂
 
-subtitle.game.neutral.hurt=Damage
-subtitle.game.neutral.swim=Someone swims
-subtitle.game.neutral.swim.splash=Splash
+subtitle.game.neutral.hurt=某物：受伤
+subtitle.game.neutral.swim=某物：游泳
+subtitle.game.neutral.swim.splash=溅起水花
 
-subtitle.game.hostile.hurt=Damage
-subtitle.game.hostile.swim=Someone swims
-subtitle.game.hostile.swim.splash=Splash
+subtitle.game.hostile.hurt=某物：受伤
+subtitle.game.hostile.swim=某物：游泳
+subtitle.game.hostile.swim.splash=溅起水花
 
-subtitle.game.player.die=Player dies
-subtitle.game.player.hurt=Player takes damage
+subtitle.game.player.die=玩家：死亡
+subtitle.game.player.hurt=玩家：受伤
 
-subtitle.portal.portal=Portal whooshes
+subtitle.portal.portal=传送门：呼啸
 
-subtitle.fireworks.launch=Fireworks launch
-subtitle.fireworks.blast=Firework explosion
-subtitle.fireworks.blast_far=Firework explosion (Far)
-subtitle.fireworks.largeblast=Firework explosion (Large)
-subtitle.fireworks.largeblast_far=Firework explosion (Large/Far)
-subtitle.fireworks.twinkle=Fireworks crackle
-subtitle.fireworks.twinkle_far=Firework crackle (Far)
+subtitle.fireworks.launch=烟花：发射
+subtitle.fireworks.blast=烟花：爆裂
+subtitle.fireworks.blast_far=烟花：爆裂(远处)
+subtitle.fireworks.largeblast=大型烟花：爆裂
+subtitle.fireworks.largeblast_far=大型烟花：爆裂(远处)
+subtitle.fireworks.twinkle=烟花：闪烁
+subtitle.fireworks.twinkle_far=烟花：闪烁(远处)
 
-subtitle.fire.fire=Fire crackles
+subtitle.fire.fire=火：噼啪作响
 subtitle.fire.ignite=Fire ignites
 
-subtitle.entity.player.attack.weak=Weak attack
-subtitle.entity.player.attack.strong=Strong attack
-subtitle.entity.player.attack.crit=Critical attack
-subtitle.entity.player.attack.knockback=Knockback attack
+subtitle.entity.player.attack.weak=轻击
+subtitle.entity.player.attack.strong=重击
+subtitle.entity.player.attack.crit=暴击
+subtitle.entity.player.attack.knockback=击退攻击
 
-subtitle.entity.player.hurt_on_fire=Player burns
-subtitle.entity.player.hurt_drown=Player drowns
-subtitle.entity.player.hurt_freeze=Player freezes
+subtitle.entity.player.hurt_on_fire=玩家：燃烧
+subtitle.entity.player.hurt_drown=玩家：溺水
+subtitle.entity.player.hurt_freeze=玩家：冻伤
 subtitle.entity.player.hurt_sweet_berry_bush=Sweet Berry Bush hurts player
 
-subtitle.entity.fishing_bobber.throw=Casting out fishing line
-subtitle.entity.fishing_bobber.retrieve=Reeling in fishing line
+subtitle.entity.fishing_bobber.throw=浮漂：甩出
+subtitle.entity.fishing_bobber.retrieve=浮漂：收回
 
-subtitle.entity.item_frame.add_item=Item Frame filled
-subtitle.entity.item_frame.remove_item=Emptied Item Frame
-subtitle.entity.item_frame.rotate_item=Rotated framed item
+subtitle.entity.item_frame.add_item=物品展示框：填充
+subtitle.entity.item_frame.remove_item=物品展示框：清空
+subtitle.entity.item_frame.rotate_item=物品展示框：转动
 
-subtitle.entity.bee.loop=Bee buzzes
-subtitle.entity.bee.hurt=Bee takes damage
-subtitle.entity.bee.death=Bee dies
-subtitle.entity.bee.sting=Bee stings
-subtitle.entity.bee.pollinate=Bee buzzes happily
-subtitle.entity.bee.loop_aggressive=Bee buzzes angrily
-subtitle.entity.rabbit.ambient=Rabbit squeaks
-subtitle.entity.rabbit.death=Rabbit dies
-subtitle.entity.rabbit.hurt=Rabbit takes damage
-subtitle.entity.rabbit.jump=Rabbit jumps
-subtitle.entity.husk.ambient=Husk groans
-subtitle.entity.husk.hurt=Husk takes damage
-subtitle.entity.husk.death=Husk dies
-subtitle.entity.stray.ambient=Stray rattles
-subtitle.entity.stray.hurt=Stray takes damage
-subtitle.entity.stray.death=Stray dies
-subtitle.entity.shulker.ambient=Shulker lurks
-subtitle.entity.shulker.hurt=Shulker takes damage
+subtitle.entity.bee.loop=蜜蜂：嗡嗡
+subtitle.entity.bee.hurt=蜜蜂：受伤
+subtitle.entity.bee.death=蜜蜂：死亡
+subtitle.entity.bee.sting=蜜蜂：刺蛰
+subtitle.entity.bee.pollinate=蜜蜂：高兴地嗡嗡叫
+subtitle.entity.bee.loop_aggressive=蜜蜂：愤怒地嗡嗡叫
+subtitle.entity.rabbit.ambient=兔子：吱吱叫
+subtitle.entity.rabbit.death=兔子：死亡
+subtitle.entity.rabbit.hurt=兔子：受伤
+subtitle.entity.rabbit.jump=兔子：跳动
+subtitle.entity.husk.ambient=尸壳：低吼
+subtitle.entity.husk.hurt=尸壳：受伤
+subtitle.entity.husk.death=尸壳：死亡
+subtitle.entity.stray.ambient=流浪者：咯咯声
+subtitle.entity.stray.hurt=流浪者：受伤
+subtitle.entity.stray.death=流浪者：死亡
+subtitle.entity.shulker.ambient=潜影贝：窥视
+subtitle.entity.shulker.hurt=潜影贝：受伤
 subtitle.entity.shulker.hurt_closed=Shulker hit on the shell
-subtitle.entity.shulker.open=Shulker opens
-subtitle.entity.shulker.close=Shulker closes
-subtitle.entity.shulker.teleport=Shulker teleports
-subtitle.entity.shulker.death=Shulker dies
-subtitle.entity.zombie_villager.ambient=Zombie Villager groans
-subtitle.entity.zombie_villager.hurt=Zombie Villager takes damage
-subtitle.entity.zombie_villager.death=Zombie Villager dies
-subtitle.entity.witch.ambient=Witch laughs
-subtitle.entity.witch.drink=Witch drinks
-subtitle.entity.witch.hurt=Witch takes damage
-subtitle.entity.witch.death=Witch dies
-subtitle.entity.squid.ambient=Squid swims
-subtitle.entity.squid.hurt=Squid takes damage
-subtitle.entity.squid.death=Squid dies
-subtitle.entity.fox.ambient=Fox squeaks
-subtitle.entity.fox.screech=Fox screeches
-subtitle.entity.fox.sleep=Fox snores
-subtitle.entity.fox.aggro=Fox angers
-subtitle.entity.fox.bite=Fox bites
-subtitle.entity.fox.death=Fox dies
-subtitle.entity.fox.eat=Fox eats
-subtitle.entity.fox.hurt=Fox hurts
-subtitle.entity.fox.sniff=Fox sniffs
-subtitle.entity.fox.spit=Fox spits
+subtitle.entity.shulker.open=潜影贝：打开
+subtitle.entity.shulker.close=潜影贝：闭合
+subtitle.entity.shulker.teleport=潜影贝：传送
+subtitle.entity.shulker.death=潜影贝：死亡
+subtitle.entity.zombie_villager.ambient=僵尸村民：低吼
+subtitle.entity.zombie_villager.hurt=僵尸村民：受伤
+subtitle.entity.zombie_villager.death=僵尸村民：死亡
+subtitle.entity.witch.ambient=女巫：暗笑
+subtitle.entity.witch.drink=女巫：饮用药水
+subtitle.entity.witch.hurt=女巫：受伤
+subtitle.entity.witch.death=女巫：死亡
+subtitle.entity.squid.ambient=鱿鱼：游泳
+subtitle.entity.squid.hurt=鱿鱼：受伤
+subtitle.entity.squid.death=鱿鱼：死亡
+subtitle.entity.fox.ambient=狐狸：吱吱叫
+subtitle.entity.fox.screech=狐狸：尖声叫
+subtitle.entity.fox.sleep=狐狸：打鼾
+subtitle.entity.fox.aggro=狐狸：愤怒
+subtitle.entity.fox.bite=狐狸：撕咬
+subtitle.entity.fox.death=狐狸：死亡
+subtitle.entity.fox.eat=狐狸：进食
+subtitle.entity.fox.hurt=狐狸：受伤
+subtitle.entity.fox.sniff=狐狸：嗅探
+subtitle.entity.fox.spit=狐狸：吐出
 
-subtitle.entity.boat.paddle_water=Paddles smack the water
-subtitle.entity.boat.paddle_land=Paddles hit the ground
+subtitle.entity.boat.paddle_water=划船
+subtitle.entity.boat.paddle_land=划船
 
 subtitle.random.fizz=Something fizzes
 subtitle.random.drink=Drinking
@@ -173,15 +173,15 @@ subtitle.dig.glass=Glass placed or destroyed
 subtitle.dig.gravel=Gravel placed or destroyed
 subtitle.dig.sand=Sand placed or destroyed
 
-subtitle.fall.small=Something trips
-subtitle.fall.big=Something falls
-subtitle.footsteps=Footsteps
+subtitle.fall.small=某物：摔倒
+subtitle.fall.big=某物：着地
+subtitle.footsteps=脚步声
 
-subtitle.note.harp=Note Block plays
+subtitle.note.harp=音符盒：播放
 
-subtitle.liquid.water=Water flowing
+subtitle.liquid.water=水：流动
 subtitle.liquid.lava=Lava flowing
-subtitle.liquid.lavapop=Lava seething
+subtitle.liquid.lavapop=熔岩：迸裂
 
 subtitle.item.bucket.empty=Bucket empties
 subtitle.item.bucket.fill=Bucket fills

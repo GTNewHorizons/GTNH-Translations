@@ -2586,17 +2586,17 @@ languagefile {
     S:TileEntity_DESCRIPTION_00356_Index_05=每个等级和每种升级都需要额外结构.
     S:TileEntity_DESCRIPTION_00356_Index_06=能耗需乘以√(结构数量).
     S:TileEntity_DESCRIPTION_00356_Index_07=2和3级工厂支持使用额外的纳米蜂群提高并行.
-    S:TileEntity_DESCRIPTION_00356_Index_08=每增加一倍的纳米蜂群提供+1并行.
-    S:TileEntity_DESCRIPTION_00356_Index_09=1x->1,2x->2,4x->3,8x->4,没有上限.
-    S:TileEntity_DESCRIPTION_00356_Index_10=需要冷却升级方可进行超频.
+    S:TileEntity_DESCRIPTION_00356_Index_08=纳米蜂群需要放置于纳米蜂群收容总线中.
+    S:TileEntity_DESCRIPTION_00356_Index_09=并行数等于纳米蜂群数量^0.75, 向上取整.
+    S:TileEntity_DESCRIPTION_00356_Index_10=并行数上线为256.
     S:TileEntity_DESCRIPTION_00356_Index_11=配方需要冷却升级来超频.
-    S:TileEntity_DESCRIPTION_00356_Index_12=液冷每秒消耗10L冷却水,启用默认超频.
-    S:TileEntity_DESCRIPTION_00356_Index_13=可修改线宽参数,以改变材料用量和加工速度.
-    S:TileEntity_DESCRIPTION_00356_Index_14=§9支持TecTech多A能源仓与激光仓!
+    S:TileEntity_DESCRIPTION_00356_Index_12=液冷塔每秒消耗10L冷却水,启用默认超频.
+    S:TileEntity_DESCRIPTION_00356_Index_13=空冻塔每秒消耗10L超级冷却液, 启用无损超频.
+    S:TileEntity_DESCRIPTION_00356_Index_14=可修改线宽参数,以改变材料用量和加工速度.
     S:TileEntity_DESCRIPTION_00356_Index_15=§a支持TecTech多A能源仓与激光仓!
     S:TileEntity_DESCRIPTION_00356_Index_16=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00356_Index_17=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_DESCRIPTION_00356_Index_18=Added by: §9§lBlue§b§lWeabo
+    S:TileEntity_DESCRIPTION_00356_Index_18=添加者：§9§lBlue§b§lWeabo
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§630§7x§638§7x§613§7
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_02=§f   维护仓：§7  §61
@@ -2627,13 +2627,13 @@ languagefile {
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_27=   §640§7 大马士革钢框架
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_28=   §668§7 放射硅岩合金机械方块
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_29=   §612§7 极限引擎进气机械方块
-    S:TileEntity_DESCRIPTION_00356_Secondary_Index_30=   §620x§7 钨钢管道方块
+    S:TileEntity_DESCRIPTION_00356_Secondary_Index_30=   §620§rx§7 钨钢管道方块
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_31=   §621§7 强化光刻框架方块
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_32=   §9空冻塔(§52§9级)：
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_33=   §640§7 镅框架
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_34=   §641§7  强化光刻框架方块
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_35=   §68§7 超导线圈方块
-    S:TileEntity_DESCRIPTION_00356_Secondary_Index_36=   §620x§7 钨钢管道方块
+    S:TileEntity_DESCRIPTION_00356_Secondary_Index_36=   §620§rx§7 钨钢管道方块
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_37=   §7§m------------------------------
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_38=§f结构太复杂了!
     S:TileEntity_DESCRIPTION_00356_Secondary_Index_39=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪,以查看整体结构! 
@@ -2653,7 +2653,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00357_Index_12=只要有足够的能量,这台机器能运行任何等级的配方.
     S:TileEntity_DESCRIPTION_00357_Index_13=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00357_Index_14=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_DESCRIPTION_00357_Index_15=Added by: §9§lBlue§b§lWeabo
+    S:TileEntity_DESCRIPTION_00357_Index_15=添加者：§9§lBlue§b§lWeabo
     S:TileEntity_DESCRIPTION_00357_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§630§7x§638§7x§613§7
     S:TileEntity_DESCRIPTION_00357_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00357_Secondary_Index_02=   §51§7级
@@ -3131,7 +3131,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00681_Index_05=增产3
     S:TileEntity_DESCRIPTION_00686_Index_00=机器类型：§e车床§r
     S:TileEntity_DESCRIPTION_00686_Index_01=§9最大并行数取决于物品管道方块和电压.
-    S:TileEntity_DESCRIPTION_00686_Index_02=最大并行数 = 物品管道方块对应并行数 + (电压等级 * 2).
+    S:TileEntity_DESCRIPTION_00686_Index_02=最大并行数 = 管道方块等级 * 8
     S:TileEntity_DESCRIPTION_00686_Index_03=§9更高的物品管道方块等级和电压提升处理速度.
     S:TileEntity_DESCRIPTION_00686_Index_04=时间缩短量 = 4 / (物品管道方块速度增益 + 电压等级).
     S:TileEntity_DESCRIPTION_00686_Index_05=速度增益 = (100 / 时间缩短量).
@@ -15102,7 +15102,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_31151_Index_17=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31151_Index_18=添加者：§9§lBlue§b§lWeabo & §a§aSteelux
     S:TileEntity_DESCRIPTION_31151_Index_19=Hold §l[LSHIFT]§r§7 to display structure guidelines
-    S:TileEntity_DESCRIPTION_31151_Index_20=Added by: §9§lBlue§b§lWeabo§r§7 & §a§aSteelux
+    S:TileEntity_DESCRIPTION_31151_Index_20=添加者：§9§lBlue§b§lWeabo§r§7 & §a§aSteelux
     S:TileEntity_DESCRIPTION_31151_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§615§7x§621§7x§615§7(中空)
     S:TileEntity_DESCRIPTION_31151_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_31151_Secondary_Index_02=   §f控制器：§7      正面底中
@@ -21582,7 +21582,7 @@ languagefile {
     S:gt.blockmachines.hatch.multi.input.tier.09.name=四重输入仓(UMV)
     S:gt.blockmachines.hatch.multi.input.tier.10.name=四重输入仓(UXV)
     S:gt.blockmachines.hatch.multi.input.tier.11.name=巨型四重输入仓
-    S:gt.blockmachines.hatch.nanite.name=Nanite Containment Bus
+    S:gt.blockmachines.hatch.nanite.name=纳米蜂群收容总线
     S:gt.blockmachines.hatch.output.me.name=输出仓(ME)
     S:gt.blockmachines.hatch.output.tier.00.name=输出仓(ULV)
     S:gt.blockmachines.hatch.output.tier.01.name=输出仓(LV)

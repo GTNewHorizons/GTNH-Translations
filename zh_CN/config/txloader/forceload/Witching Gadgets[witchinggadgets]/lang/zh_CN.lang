@@ -1,7 +1,7 @@
 # -- Blocks --
 tile.WG_WallMirror.name=墙上的魔镜
 tile.WG_VoidWalkway.name=虚空走道
-tile.WG_StoneDevice.name=Stone Device
+tile.WG_StoneDevice.name=石制设备
 tile.WG_StoneDevice.etherealWall.name=虚无砖块
 tile.WG_StoneDevice.magicTileLock.name=奇异之锁
 tile.WG_StoneDevice.obsidianPlate.name=黑曜石板
@@ -12,7 +12,7 @@ tile.WG_StoneDevice.sarcophagus.name=石棺
 tile.WG_StoneDevice.timeStone.name=生长之石
 tile.WG_StoneDevice.blastFurnace.name=炼狱高炉
 
-tile.WG_WoodenDevice.name=Wooden Device
+tile.WG_WoodenDevice.name=木制设备
 tile.WG_WoodenDevice.spinningWheel.name=纺车
 tile.WG_WoodenDevice.loom.name=织机
 tile.WG_WoodenDevice.snowGen.name=神秘造雪机
@@ -23,7 +23,7 @@ tile.WG_WoodenDevice.cuttingTable.name=切割台
 tile.WG_WoodenDevice.saunaStove.name=神秘桑拿炉
 tile.WG_WoodenDevice.labelLibrary.name=要素标记库
 
-tile.WG_MetalDevice.name=Metal Device
+tile.WG_MetalDevice.name=金属设备
 tile.WG_MetalDevice.essentiaPump.name=源质泵
 tile.WG_MetalDevice.voidmetalBlock.name=虚空金属块
 tile.WG_MetalDevice.terraformer.name=奥术群系转化器
@@ -44,7 +44,7 @@ tile.WG_CustomAir.name=微光
 
 #
 # -- Items --
-item.WG_Material.name=Material
+item.WG_Material.name=原料
 item.WG_Material.threadSimple.name=纱线
 item.WG_Material.threadGold.name=金丝线
 item.WG_Material.threadThaumium.name=神秘丝线
@@ -67,14 +67,14 @@ item.WG_Material.gemstoneDust.name=宝石粉
 
 item.WG_Cluster.name=%1$s矿簇
 
-item.WG_Bag.name=Bag
+item.WG_Bag.name=口袋
 item.WG_Bag.normal.name=奇术口袋
 item.WG_Bag.void.name=虚空口袋
 item.WG_Bag.ender.name=末影口袋
 item.WG_Bag.hungry.name=饕餮口袋
 
 item.WG_ThaumiumShears.name=神秘剪刀
-item.WG_MagicFood.name=Magic Food
+item.WG_MagicFood.name=神秘食物
 item.WG_MagicFood.sweetwart.name=糖渍地狱疣
 item.WG_MagicFood.nethercake.name=地狱蛋糕
 item.WG_MagicFood.brainjerky.name=僵脑肉干
@@ -83,21 +83,21 @@ item.WG_AdvancedRobeLegs.name=秘法护腿
 
 item.WG_AdvancedScribingTools.name=发光笔与墨
 
-item.WG_Cloak.name=Cloak
+item.WG_Cloak.name=斗篷
 item.WG_Cloak.standard.name=斗篷
 item.WG_Cloak.storage.name=奇术斗篷
 item.WG_Cloak.raven.name=乌鸦斗篷
 item.WG_Cloak.spectral.name=幽灵斗篷
 item.WG_Cloak.wolf.name=野狼斗篷
 
-item.WG_Kama.name=Kama
+item.WG_Kama.name=短袍
 item.WG_Kama.standard.name=卡玛短袍
 item.WG_Kama.storage.name=奇术短袍
 item.WG_Kama.raven.name=乌鸦短袍
 item.WG_Kama.spectral.name=幽灵短袍
 item.WG_Kama.wolf.name=野狼短袍
 
-item.WG_Baubles.name=Bauble
+item.WG_Baubles.name=饰品
 
 #unused
 item.WG_EliteArmorHelm.ANGELIC_0.name=座天使头盔
@@ -126,10 +126,10 @@ item.WG_PrimordialBoots.name=元始靴子
 item.WG_Baubles.ring_primordial.name=元始指环
 item.WG_Baubles.ring_lifeProtection.name=生命保护指环
 
-item.WG_Baubles.charmEmpty.name=Empty Leather Charm
-item.WG_Baubles.vambraceEmpty.name=Leather Vambraces
-item.WG_Baubles.charmDoublejump.name=Seraph's Charm
-item.WG_Baubles.charmKnockback.name=Steadfast Charm
+item.WG_Baubles.charmEmpty.name=空的皮革护符
+item.WG_Baubles.vambraceEmpty.name=皮革护腕
+item.WG_Baubles.charmDoublejump.name=炽天使护符
+item.WG_Baubles.charmKnockback.name=坚实护符
 item.WG_Baubles.vambraceStrength.name=狂战士护腕
 item.WG_Baubles.vambraceHaste.name=迅捷护腕
 item.WG_Baubles.titleCrimsonCult.name=称号:血腥教徒
@@ -160,7 +160,7 @@ enchantment.wg.soulbound=灵魂绑定
 enchantment.wg.soultether=灵魂绑定
 #
 # -- Random bits of text --
-wg.config.activateKey=Hotkey for activating some worn items.
+wg.config.activateKey=用于激活某些穿戴物品的快捷键。
 
 wg.chat.notyourbag=§7这个口袋属于§r %1$s! §7你不能打开它.§r
 wg.chat.bagunlocked=§7口袋已解锁,其他人可以打开.§r
@@ -171,10 +171,10 @@ wg.gui.buttonSetNest=设置新巢穴
 wg.gui.buttonMigrate=回到巢穴
 wg.gui.noFeathersToMigrate=你没有回到巢穴需要的物品
 
-wg.desc.noGlide=无法滑翔
-wg.desc.glide=Gliding enabled
-wg.desc.enableCloak=§7Enable or disable by pressing §a%s1§7.
-wg.desc.cycleArmor=§7Cycle this item by Holding §a%s1§7 and pressing §a%s2§7.
+wg.desc.noGlide=滑翔禁用
+wg.desc.glide=滑翔启用
+wg.desc.enableCloak=§7按下 §a%s1§7 来启用或禁用.
+wg.desc.cycleArmor=§7按住 §a%s1§7 然后按下 §a%s2§7 来循环此物品.
 
 wg.gui.visSize=Vis容量
 wg.gui.shiftForAspectList=§7按住§aShift§7查看源质列表§r
@@ -192,13 +192,13 @@ wg.desc.gemaversion=自然疏离:
 wg.desc.ctrlForAspectList=§7按住§aCtrl§7查看源质列表§r
 wg.desc.scanCompleted=已扫描
 
-wg.desc.gearSlot.bauble.Cloak=Equipped in the §aCloak§7 slot
-wg.desc.gearSlot.bauble.Charm=Equipped in the §aCharm§7 slot
-wg.desc.gearSlot.bauble.Gloves=Equipped in the §aGloves§7 slot
+wg.desc.gearSlot.bauble.Cloak=可装备于§a斗篷§7格
+wg.desc.gearSlot.bauble.Charm=可装备于§a护符§7格
+wg.desc.gearSlot.bauble.Gloves=可装备于§a手套§7格
 wg.desc.gearSlot.bauble.Title=可装备于§a头衔§7格
-wg.desc.gearSlot.bauble.Ring=Equipped in the §aRing§7 slot
-wg.desc.gearSlot.bauble.Belt=Equipped in the §aBelt§7 slot
-wg.desc.gearSlot.bauble.Amulet=Equipped in the §aAmulet§7 slot
+wg.desc.gearSlot.bauble.Ring=可装备于§a指环§7格
+wg.desc.gearSlot.bauble.Belt=可装备于§a腰带§7格
+wg.desc.gearSlot.bauble.Amulet=可装备于§a护身符§7格
 
 wg.desc.filteredItems=接受物品:
 
@@ -326,15 +326,15 @@ witchinggadgets_research_page.ADVANCEDROBES.r1=<IMG>witchinggadgets:textures/gui
 #-----------------------#
 witchinggadgets_research_name.WGBAUBLES=巫师装备
 witchinggadgets_research_text.WGBAUBLES=[WG]就像神奇的魔法
-witchinggadgets_research_page.WGBAUBLES.0=What looks like catalogue pages from a wizarding equipment store actually proved to be arcane schematics for magical garments! §oAll of these are to be equipped in Baubles slots.§r<BR>§lEmpty Leather Charm:§r<BR>This basic leather charm is ready to be enchanted.§r
-witchinggadgets_research_page.WGBAUBLES.1=这几页看上去是从巫术装备商店取来的,实际上居然是魔法装备的制作图!§o所有的这些都可在Baubles或Traveller's Gear的装备栏中装备.TG默认的键位是'数字键7'.§r<BR>§l磐石肩铠:§r<BR>这些肩铠并没有设计得多么好看,保护作用也可以忽略不计.然而其中所蕴含的魔法能让你扎根于地面,从而不会被敌人的攻击所击退.§o赋予你60%的击退抗性.§r
-witchinggadgets_research_page.WGBAUBLES.2=§l狂战士护腕:§r<BR>这些覆盖着狼皮的护腕禁不住刀刃的攻击.但有了注入其中的魔力,就能让使用者如狼般的凶猛.另外,它们也是毛茸茸的.<BR>§o会让你的攻击伤害提升2点.§r
-witchinggadgets_research_page.WGBAUBLES.3=§l迅捷护腕:§r<BR>这些护腕由矮人中的神秘使所设计,能赋予你快速挖掘的能力.它们的效果随工作环境而变化,提升水下,空中以及对坚硬材料的挖掘速度.<BR>它们也会提升爬梯子的速度,以便你能快速从地下脱离.
-witchinggadgets_research_page.WGBAUBLES.4=§l炽天使肩铠:§r<BR>飞翔是许多人所向往的.让使用者飞行算是很高级的魔法了,但在空中继续跳跃还是力所能及的.<BR>这些肩铠会生成强力的魔法之翼,让你能在半空中进行第二次跳跃.
-witchinggadgets_research_page.WGBAUBLES.5=§l狙击指环:§r<BR>有些黑暗生物由于太过强大而最好不要和它们肉搏,因此和它们保持一定距离是一个明智的选择.使用狙击指环会使得这个任务更加容易.<BR>戴上这个指环的时候,你会提升拉开弓时候的移动速度.潜行时可以让你更容易瞄准一个目标.
-witchinggadgets_research_page.WGBAUBLES.6=§l贪婪指环:§r<BR>幸运万岁!但没人能一直保持好运气.你想出了一个办法来增加自己的运气,给戒指镶上一枚金币然后施以魔法.<BR>§o戴着这个指环时你的时运和抢夺等级就会提升2级.<BR>制作金币的附魔书所带的附魔种类不限.§r
-witchinggadgets_research_page.WGBAUBLES.7=§lRing of the Covetous Coin:§r<BR>It's great to be lucky! But one can never have enough luck. You've devised a way to boost your own luck, by socketing a golden coin in a ring and loading it with magic.<BR>§oWearing the ring will increase your fortune and looting by two levels.<BR>The enchanted books used to make the coin can carry any enchantment.§r
-witchinggadgets_research_page.WGBAUBLES.8=§lLucky Gold Coin:§r<BR>An enchanted Lucky Coin, ready to be used.§r
+witchinggadgets_research_page.WGBAUBLES.0=这几页看上去是从巫术装备商店取来的,实际上居然是魔法装备的制作图!§o所有的这些都可在饰品栏中装备.§r <BR>§l 空的皮革护符:§r<BR>这个基础的护符随时可以被附魔.§r
+witchinggadgets_research_page.WGBAUBLES.1=§l皮革护腕:§r<BR>这些基础护腕已准备好接受进一步的改进.
+witchinggadgets_research_page.WGBAUBLES.2=§l坚实护符:§r<BR>这此护符并非为了追求时尚而设计,而且其防护价值微乎其微.然而,注入其中的魔法能够将你牢牢固定在地面上,使你在遭受敌人攻击时不会动摇.§o赋予你 60% 的击退抗性.§r
+witchinggadgets_research_page.WGBAUBLES.3=§l狂战士护腕:§r<BR>这些覆盖着狼皮的护腕禁不住刀刃的攻击.但有了注入其中的魔力,就能让使用者如狼般的凶猛.另外,它们也是毛茸茸的.<BR>§o会让你的攻击伤害提升2点.§r
+witchinggadgets_research_page.WGBAUBLES.4=§l迅捷护腕:§r<BR>这些护腕由矮人中的神秘使所设计,能赋予你快速挖掘的能力.它们的效果随工作环境而变化,提升水下,空中以及对坚硬材料的挖掘速度.<BR>它们也会提升爬梯子的速度,以便你能快速从地下脱离.
+witchinggadgets_research_page.WGBAUBLES.5=§l炽天使护符:§r<BR>飞行是许多人渴望拥有的能力,那是一种太过高级的魔法.不过你能在空中小跳一下.<BR>这个魔咒会召唤出一对强大的魔法翅膀,让你在空中进行第二次跳跃.
+witchinggadgets_research_page.WGBAUBLES.6=§l狙击指环:§r<BR>有些黑暗生物由于太过强大而最好不要和它们肉搏,因此和它们保持一定距离是一个明智的选择.使用狙击指环会使得这个任务更加容易.<BR>戴上这个指环的时候,你会提升拉开弓时候的移动速度.潜行时可以让你更容易瞄准一个目标.
+witchinggadgets_research_page.WGBAUBLES.7=§l贪婪指环:§r<BR>幸运万岁!但没人能一直保持好运气.你想出了一个办法来增加自己的运气,给戒指镶上一枚金币然后施以魔法.<BR>§o戴着这个指环时你的时运和抢夺等级就会提升2级.<BR>制作金币的附魔书所带的附魔种类不限.§r
+witchinggadgets_research_page.WGBAUBLES.8=§l 幸运金币:§r<BR>一枚被施加了魔法的幸运金币,随时可以使用.§r
 
 #
 witchinggadgets_research_name.CLOAK=斗篷
