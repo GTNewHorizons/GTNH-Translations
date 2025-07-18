@@ -47,6 +47,119 @@ mm.tooltip.installed_upgrades=Installed Upgrades:
 mm.structure.hatch-info=Any %s Casing
 mm.structure.hatch-dots= (dots %s)
 
+# GUI
+mm.gui.set_mode=Set Mode
+mm.gui.set_remove_mode=Set Remove Mode
+mm.gui.remove_none=Remove None
+mm.gui.remove_replaceable=Remove Replaceable
+mm.gui.remove_all=Remove All
+mm.gui.geometry=Geometry
+mm.gui.moving=Moving
+mm.gui.copying=Copying
+mm.gui.exchanging=Exchanging
+mm.gui.cables=Cables
+mm.gui.select_blocks=Select Blocks
+mm.gui.set_corners=Set Corners
+mm.gui.set_edges=Set Edges
+mm.gui.set_faces=Set Faces
+mm.gui.set_volumes=Set Volumes
+mm.gui.set_all=Set All
+mm.gui.clear_all=Clear All
+mm.gui.set_shape=Set Shape
+mm.gui.line=Line
+mm.gui.cube=Cube
+mm.gui.sphere=Sphere
+mm.gui.cylinder=Cylinder
+mm.gui.move_coords=Move Coords
+mm.gui.move_coord_a=Move Coord A
+mm.gui.move_all=Move All
+mm.gui.move_coord_b=Move Coord B
+mm.gui.move_here=Move Here
+mm.gui.mark_copy=Mark Copy
+mm.gui.edit_stack=Edit Stack
+mm.gui.reset=Reset
+mm.gui.mark=Mark
+mm.gui.planning=Planning
+mm.gui.cancel_auto_plans=Cancel Auto Plans
+mm.gui.plan_all_auto=Plan (All, Auto)
+mm.gui.plan_all_manual=Plan (All, Manual)
+mm.gui.clear_manual_plans=Clear Manual Plans
+mm.gui.plan_missing_manual=Plan (Missing, Manual)
+mm.gui.plan_missing_auto=Plan (Missing, Auto)
+mm.gui.edit_transform=Edit Transform
+mm.gui.mark_cut=Mark Cut
+mm.gui.mark_paste=Mark Paste
+mm.gui.edit_replace_whitelist=Edit Replace Whitelist
+mm.gui.clear=Clear
+mm.gui.add_block=Add Block
+mm.gui.set_block=Set Block
+mm.gui.set_block_to_replace_with=Set Block To Replace With
+mm.gui.set_cable=Set Cable
+
+# InfoMessage
+
+mm.info.error.out_of_eu=Matter Manipulator ran out of EU.
+mm.info.error.could_not_place=Could not place %s remaining blocks.
+mm.info.finished_placing=Finished placing blocks.
+mm.info.warning.could_not_find=Could not find item, %d block(s) will be skipped temporarily:
+mm.info.placed_remaining=Placed %s blocks (%s remaining)
+mm.info.warning=Warning at block %d, %d, %d%s: %s
+mm.info.error=Error at block %d, %d, %d%s: %s
+mm.info.error.could_not_move_block=Could not move block X=%d, Y=%d, Z=%d: %s
+mm.info.error.could_not_move_protected_block=Could not move protected block X=%d, Y=%d, Z=%d: %s
+mm.info.error.could_not_move_invulnerable_block=Could not move invulnerable source block X=%d, Y=%d, Z=%d: %s
+mm.info.error.could_not_move_blocked_block=Destination was blocked for source block X=%d, Y=%d, Z=%d: %s
+mm.info.process_move=Moved %s blocks (%s remaining)
+mm.info.finished_move=Finished moving blocks.
+mm.info.warning.protected_area=Tried to break/place a block in a protected area!
+mm.info.warning.not_find_container_for_fluid=Could not find a container for fluid (it was voided): 
+mm.info.error.could_not_push_items_to_uplink=Could not push items to uplink: 
+mm.info.error.could_not_push_fluids_to_uplink=Could not push fluids to uplink: 
+mm.info.error.could_not_request_items_from_uplink=Could not request items from uplink: 
+mm.info.added=Added %s to %s
+mm.info.set=Set %s to: %s
+mm.info.set_block_to_replace_with=Set block to replace with to: %s
+mm.info.added_block_to_exchange_whitelist=Added block to exchange whitelist: %s
+mm.info.set_exchange_whitelist_to_only_contain=Set exchange whitelist to only contain: %s
+mm.info.set_cable=Set cables to: %s
+mm.info.error.cannot_mark_copy=Cannot mark array: copy region is invalid
+mm.info.error.cannot_mark_paste=Cannot mark array: paste coordinate is invalid
+mm.info.new_virtual_me_pattern=Pushed a new virtual ME pattern to the uplink called '%s'.
+mm.info.error.craft_failed=Craft for plan %s failed.
+mm.info.craft_finished='%s' has finished.
+mm.info.cleared_all_plans_and_pending_jobs=Cleared all plans and cancelled pending craft jobs.
+mm.info.cleared_your_manual_plans=Cleared your manual plans.
+mm.info.cleared_your_plans_and_craft=Cleared your auto plans and cancelled their crafting jobs.
+mm.info.submitted_job=Submitted job for plan '%s'.
+mm.info.error.must_have_copy_region=Must have copy region marked.
+mm.info.error.must_have_paste_region=Must have paste region marked to detect missing items.
+mm.info.required_items=Required items:
+mm.info.not_need_creating_pattern=Not creating pattern because all required items are present.
+mm.info.error.not_connected=Manipulator not connected to an uplink: cannot create a fake pattern.
+mm.info.error.must_look_at_block=You must be looking at a block to use this command.
+mm.info.error.property_not_found=Property not found.
+mm.info.properties=Properties:
+mm.info.none=None
+mm.info.error.error_setting_property=Error setting property: 
+
+# Transform
+mm.transform.info=Flip: %s\nUp: %s\nForward: %s
+mm.transform.button.rotate_x-=Rotate X-
+mm.transform.button.rotate_x+=Rotate X+
+mm.transform.button.rotate_y-=Rotate Y-
+mm.transform.button.rotate_y+=Rotate Y+
+mm.transform.button.rotate_z-=Rotate Z-
+mm.transform.button.rotate_z+=Rotate Z+
+mm.transform.button.flip_x=Flip X
+mm.transform.button.flip_y=Flip Y
+mm.transform.button.flip_z=Flip Z
+mm.transform.button.reset=Reset
+mm.transform.header.copy=Copy
+mm.transform.header.copy_a=Copy (A)
+mm.transform.header.copy_b=Copy (B)
+mm.transform.header.paste=Paste
+mm.transform.header.stacking=Stacking
+
 # Keybindings
 key.mm=Matter Manipulator
 key.mm-ctrl=Control
