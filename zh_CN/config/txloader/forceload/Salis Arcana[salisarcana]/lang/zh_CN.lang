@@ -1,50 +1,50 @@
-salisarcana:command.category_header=Category: %s
-salisarcana:command.desc=Description:
-salisarcana:command.usage=Usage:
-salisarcana:command.args=Arguments:
+salisarcana:command.category_header=类别：%s
+salisarcana:command.desc=描述：
+salisarcana:command.usage=用途：
+salisarcana:command.args=参数：
 
-salisarcana:command.error.tabcomplete=An error occurred while getting tab-completion suggestions. Please open a bug report, including your server log, on the the Salis Arcana GitHub.
-salisarcana:command.error.execute=An error occurred while executing this command. If this happens again, please open a bug report, including your server log, on the the Salis Arcana GitHub.
+salisarcana:command.error.tabcomplete=使用缩进键补全时发生了错误。请在Salis Arcana GitHub仓库中新建一个漏洞报告，并附上服务器日志。
+salisarcana:command.error.execute=执行该命令时发生了错误。如果该错误再次出现，请在Salis Arcana GitHub仓库中新建一个漏洞报告，并附上服务器日志。
 
-salisarcana:command.create-node.desc=Create a new randomly-generated node at the specified coordinates.
-salisarcana:command.create-node.usage=§7/salisarcana-create-node §7<x> §7<y> §7<z> §7[-t §7<type>] §7[-m §7<modifier>] §7[--silverwood] §7[--eerie] §7[--small] §7[-a §7<aspect1> §7<count1>[ §7-a §7<aspect2> §7<count2>[ §7...]]]§r
-salisarcana:command.create-node.args.coord=§7§o<x> <y> <z>§r §cRequired.§r Specify where the node will be created.
-salisarcana:command.create-node.args.type=§7§o[-t <type>]§r Specify the new node's type
-salisarcana:command.create-node.args.modifier=§7§o[-m <modifier>]§r Specify the new node's modifier
-salisarcana:command.create-node.args.silverwood=§7§o[--silverwood]§r Spawn a pure, small node, as though generated in a silverwood tree. Mutually exclusive with §7--eerie§r and §7--small§r.
-salisarcana:command.create-node.args.eerie=§7§o[--eerie]§r Spawn a dark node, as though generated in an obsidian totem. Mutually exclusive with §7--silverwood§r.
-salisarcana:command.create-node.args.small=§7§o[--small]§r The node will have low aspect capacity. Mutually exclusive with §7--silverwood§r and §7-a§r.
-salisarcana:command.create-node.args.aspect=§7§o[-a <aspect> <count>]§r Override the new node's aspects. Can be used multiple times to specify additional aspects. Mutually exclusive with §7--small§r.
+salisarcana:command.create-node.desc=在指定坐标创建一个随机节点。
+salisarcana:command.create-node.usage=§7/salisarcana-create-node §7<x> §7<y> §7<z> §7[-t §7<类型>] §7[-m §7<特性>] §7[--silverwood] §7[--eerie] §7[--small] §7[-a §7<要素1> §7<数量1>[ §7-a §7<要素2> §7<数量2>[ §7...]]]§r
+salisarcana:command.create-node.args.coord=§7§o<x> <y> <z>§r §c必需§r，节点将被创建的位置
+salisarcana:command.create-node.args.type=§7§o[-t <类型>]§r 节点的类型
+salisarcana:command.create-node.args.modifier=§7§o[-m <特性>]§r 节点的特性
+salisarcana:command.create-node.args.silverwood=§7§o[--silverwood]§r 生成一个纯净的小型节点，与在银树中生成的类似；与§7--eerie§r和§7--small§r选项互斥
+salisarcana:command.create-node.args.eerie=§7§o[--eerie]§r 生成一个黑暗节点，与在黑曜石图腾中生成的类似；与§7--silverwood§r选项互斥
+salisarcana:command.create-node.args.small=§7§o[--small]§r 节点将拥有较低的要素容量；与§7--silverwood§r和§7-a§r选项互斥
+salisarcana:command.create-node.args.aspect=§7§o[-a <要素> <数量>]§r 覆盖节点的要素设定；可传入多组该参数以指定多种要素；与§7--small§r选项互斥
 
-salisarcana:command.create-node.failure=A node could not be created at %d %d %d.
+salisarcana:command.create-node.failure=无法在%d %d %d处创建节点。
 
-salisarcana:command.forget-research.desc=Remove research from a player's knowledge.
-salisarcana:command.forget-research.usage=§7/salisarcana-forget-research §7<--all §7§lOR§r §7--research-key §7<key>[ §7--research-key §7<key2> §7...]> §7[--player §7<username>] §7[--scalpel]§r
-salisarcana:command.forget-research.args.all=§7<--all>§r Remove all research from the player's known research. Required if §7research-key§r is not provided. Mutually exclusive with §7research-key§r and §7scalpel§r.
-salisarcana:command.forget-research.args.research=§7<--research-key>§r Specify the id of the research to remove. Can be provided multiple times. Required if §7all§r is not set. Mutually exclusive with §7all§r.
-salisarcana:command.forget-research.args.player=§7[--player <username>]§r Specify the player whose research will be altered. If not provided, defaults to the player executing this command.
-salisarcana:command.forget-research.args.scalpel=§7[--scalpel]§r If set, the specified research will be removed, but not any of its siblings or descendants. This may have unexpected side effects. Mutually exclusive with §7all§r.
-salisarcana:command.forget-research.args.retain-warp=§7[--retain-warp]§r If set, any permanent and/or sticky warp associated with the removed research will be kept.
+salisarcana:command.forget-research.desc=使玩家遗忘研究项目。
+salisarcana:command.forget-research.usage=§7/salisarcana-forget-research §7<--all §7§l或§r §7--research-key §7<研究项目键>[ §7--research-key §7<研究项目键2> §7...]> §7[--player §7<玩家名>] §7[--scalpel]§r
+salisarcana:command.forget-research.args.all=§7<--all>§r 从该玩家的已知研究中移除所有项目；未指定§7research-key§r选项时必需，与§7research-key§r和§7scalpel§r选项互斥
+salisarcana:command.forget-research.args.research=§7<--research-key>§r 指定要移除的研究项目ID；可传入多组该参数；未指定§7all§r选项时必需，与§7all§r选项互斥
+salisarcana:command.forget-research.args.player=§7[--player <玩家名>]§r 指定研究列表将被变更的玩家；未指定该选项时，默认为执行该命令的玩家
+salisarcana:command.forget-research.args.scalpel=§7[--scalpel]§r 指定该选项时，被指定的研究的同级或下级研究不会被移除；这可能会产生预料外的效应；与§7all§r选项互斥
+salisarcana:command.forget-research.args.retain-warp=§7[--retain-warp]§r 指定该选项时，与研究项目相应的永久扭曲和黏性扭曲会被保留
 
-salisarcana:command.forget-research.remove=§9Success:§r Removed %d research items and any associated warp, collectively removing %d permanent warp and %d sticky warp.
-salisarcana:command.forget-research.retain=§9Success:§r Removed %d research items. (%d permanent warp and %d sticky warp was §lnot§r removed.)
+salisarcana:command.forget-research.remove=§9成功：§r已移除%d个研究项目和相应的扭曲，包括%d点永久扭曲和%d点黏性扭曲。
+salisarcana:command.forget-research.retain=§9成功：§r已移除%d个研究项目（相应的%d点永久扭曲和%d点黏性扭曲§l未§r移除）。
 
-salisarcana:command.forget-scanned.desc=Resets the lists of things a player has scanned, allowing those things to be scanned again.
-salisarcana:command.forget-scanned.usage=§7/salisarcana-forget-scanned §7[--player §7<username>] §7[--objects] §7[--entities] §7[--nodes] §7[--all] §7[--aspects <...>]§r
-salisarcana:command.forget-scanned.args.player=§7[--player <username>]§r Specify the player whose scanned things will be altered. If not provided, defaults to the player executing this command.
-salisarcana:command.forget-scanned.args.objects=§7[--objects]§r Reset scanned items and blocks.
-salisarcana:command.forget-scanned.args.entities=§7[--entities]§r Reset scanned entities, including mobs.
-salisarcana:command.forget-scanned.args.nodes=§7[--nodes]§r Reset scanned nodes.
-salisarcana:command.forget-scanned.args.hand=§7[--hand]§r Reset the item currently held. Mutually exclusive with §7--all§r.
-salisarcana:command.forget-scanned.args.inventory=§7[--inventory]§r Reset all items in your inventory. Mutually exclusive with §7--all§r.
-salisarcana:command.forget-scanned.args.looking=§7[--looking]§r Reset the block you are currently looking at. Mutually exclusive with §7--all§r.
-salisarcana:command.forget-scanned.args.container=§7[--container]§r Reset all items in the container (eg. Chest) you are looking at. Mutually exclusive with §7--all§r.
-salisarcana:command.forget-scanned.args.all=§7[--all]§r Combines the effects of §7objects§r, §7entities§r, and §7nodes§r
+salisarcana:command.forget-scanned.desc=重置玩家扫描过的物品列表，使这些物品可被再次扫描。
+salisarcana:command.forget-scanned.usage=§7/salisarcana-forget-scanned §7[--player §7<玩家名>] §7[--objects] §7[--entities] §7[--nodes] §7[--all] §7[--aspects <...>]§r
+salisarcana:command.forget-scanned.args.player=§7[--player <玩家名>]§r 指定已扫描物品列表将被变更的玩家；未指定该选项时，默认为执行该命令的玩家
+salisarcana:command.forget-scanned.args.objects=§7[--objects]§r 重置已扫描的物品和方块
+salisarcana:command.forget-scanned.args.entities=§7[--entities]§r 重置已扫描的实体，包括生物
+salisarcana:command.forget-scanned.args.nodes=§7[--nodes]§r 重置已扫描的节点
+salisarcana:command.forget-scanned.args.hand=§7[--hand]§r 重置当前手持的物品；与§7--all§r选项互斥
+salisarcana:command.forget-scanned.args.inventory=§7[--inventory]§r 重置物品栏中的所有物品；与§7--all§r选项互斥
+salisarcana:command.forget-scanned.args.looking=§7[--looking]§r 重置你当前看向的方块；与§7--all§r选项互斥
+salisarcana:command.forget-scanned.args.container=§7[--container]§r 重置你当前看向的容器（如箱子）中的所有物品；与§7--all§r选项互斥
+salisarcana:command.forget-scanned.args.all=§7[--all]§r 等同于§7objects§r、§7entities§r、§7nodes§r选项之和
 
-salisarcana:command.forget-scanned.success=§9Success:§r %d entries were removed from %s's scan lists.
-salisarcana:command.forget-scanned.failure=§cFailure:§r There was nothing to remove from %s's scan lists.
+salisarcana:command.forget-scanned.success=§9成功：§r%d个实体已从%s的扫描列表中移除。
+salisarcana:command.forget-scanned.failure=§c失败：§r%s的扫描列表中没有可以移除的项目。
 
-salisarcana:command.forget-aspect.desc=Forget or reset aspects from a player's knowledge.
+salisarcana:command.forget-aspect.desc=使玩家遗忘要素或重置对其的了解。
 salisarcana:command.forget-aspect.usage=§7/salisarcana-forget-aspect §7[--player §7<username>] §7[--reset] §7[--forget] §7[--aspect <...>] §7[--all] §r
 salisarcana:command.forget-aspect.args.player=§7[--player §7<username>]§r Specify the player whose aspects will be altered. If not provided, defaults to the player executing this command.
 salisarcana:command.forget-aspect.args.reset=§7[--reset]§r Reset the amount of research aspects the player has to 1. Mutually exclusive with §7forget§r.

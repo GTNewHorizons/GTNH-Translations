@@ -13,7 +13,7 @@ bw.blockores.01.name=矿石
 bw.blockores.02.name=贫瘠矿石
 bw.werkstoffblocks.01.name=方块
 bw.werkstoffblockscasing.01.name=螺栓机械方块
-bw.werkstoffblockscasingadvanced.01.name=Rebolted Casing
+bw.werkstoffblockscasingadvanced.01.name=强化螺栓机械方块
 
 GT5U.gui.text.no_imprint=未压印
 GT5U.gui.text.not_enough_length=多方块机器长度不足
@@ -53,14 +53,14 @@ GT5U.gui.config.general.rossruinmetas.ev.generators=发电机
 GT5U.gui.config.general.rossruinmetas.ev.machines=机器
 
 itemGroup.bartworks=BartWorks跨时代
-BW_Machinery_Casings.name=Machine Casing
+BW_Machinery_Casings.name=机械方块
 BW_Machinery_Casings.0.name=镍锌铁氧体块
 BW_Machinery_Casings.1.name=变压器绕组方块
 item.BW_PaperRotor.name=原始纸转子(风车专用)
 item.BW_LeatherRotor.name=原始皮革转子(风车专用)
 item.BW_WoolRotor.name=原始羊毛转子(风车专用)
 item.BW_CombinedRotor.name=原始复合转子(风车专用)
-tile.BWRotorBlock.name=Primitive Kinetic Shaftbox
+tile.BWRotorBlock.name=原始动力轴箱
 tile.BWRotorBlock.0.name=原始动力轴箱
 item.grindstone_top.name=磨石顶部件
 item.grindstone_bottom.name=磨石底部件
@@ -70,7 +70,7 @@ item.rotors.woolParts.name=羊毛包层木框架
 item.rotors.paperParts.name=纸包层木框架
 item.rotors.combinedParts.name=复合材料包层木框架
 item.BW_SimpleWindMeter.name=简易风速计
-tile.BWHeatedWaterPump.name=Simple Stirling Water Pump
+tile.BWHeatedWaterPump.name=简易斯特林水泵
 tile.BWHeatedWaterPump.0.name=简易斯特林水泵
 item.BWrawtube.name=加长玻璃管
 item.BWmotor.name=简易斯特林马达
@@ -92,7 +92,7 @@ labModule.item.PCRThermoclyclingModule.name=基因扩增模块
 labModule.item.PlasmidSynthesisModule.name=质粒合成模块
 labModule.item.TransformationModule.name=基因转化模块
 labModule.item.ClonalCellularSynthesisModule.name=细胞克隆模块
-BW_GlasBlocks.name=Borosilicate Glass Block
+BW_GlasBlocks.name=硼玻璃方块
 BW_GlasBlocks.0.name=硼玻璃方块
 BW_GlasBlocks.1.name=钛强化硼玻璃方块
 BW_GlasBlocks.2.name=钨钢强化硼玻璃方块
@@ -109,7 +109,7 @@ BW_GlasBlocks.12.name=钍钇玻璃方块
 BW_GlasBlocks.13.name=中子强化硼玻璃方块
 BW_GlasBlocks.14.name=宇宙中子强化硼玻璃方块
 BW_GlasBlocks.15.name=无尽强化硼玻璃方块
-BW_GlasBlocks2.name=Borosilicate Glass Block
+BW_GlasBlocks2.name=硼玻璃方块
 BW_GlasBlocks2.0.name=超时空强化硼玻璃方块
 
 tooltip.glass_tier.0.name=玻璃等级:
@@ -140,13 +140,13 @@ tooltip.bw.tier.name=等级:
 tooltip.bw.empty.name=空
 tooltip.bw.mb_via.name=%s§7 via §2BartWorks
 
-tooltip.bw.high_temp_gas_cooled_reactor.material=Material for High Temperature Gas-cooled Reactor
+tooltip.bw.high_temp_gas_cooled_reactor.material=供高温气冷反应堆使用
 
-tooltip.bw.item.circuit.tagged=a circuit
-tooltip.bw.item.circuit.tagged.imprint=An imprint for: %s
-tooltip.bw.item.circuit.tagged.sliced=A sliced %s
-tooltip.bw.item.circuit.imprint=An imprint for a Circuit
-tooltip.bw.item.circuit.sliced=A sliced Circuit
+tooltip.bw.item.circuit.tagged=电路
+tooltip.bw.item.circuit.tagged.imprint=一个压印%s
+tooltip.bw.item.circuit.tagged.sliced=一个切片%s
+tooltip.bw.item.circuit.imprint=一个压印电路
+tooltip.bw.item.circuit.sliced=一个切片电路
 
 tooltip.teslastaff.0.name=没有保修!
 tooltip.labmodule.0.name=用于改变生物实验室工作模式的模块
@@ -165,7 +165,7 @@ tooltip.tile.waterpump.1.name=L/s水. 每秒产生%d点污染
 tooltip.tile.waterpump.2.name=必须放在地上.
 
 tooltip.tile.mbf.1.name=污染
-tooltip.tile.windmill.0.name=由动能驱动的原始研磨机;大小(宽x高x长): 7x12x7;=第1层: 7x7砖块,角落空置,控制器方块在正面中央;第2-5层: 5x5硬化粘土,角落空置,可包含一扇门,;中空,墙上必须至少有一个发射器;第6层: 5x5木板.角落填充,中空.;第7层: 7x7木板.角落空置,中空.;第8层: 7x7木板.角落空置,中空,;正面中央必须是原始动力轴箱;第9层: 7x7木板.角落空置,中空.;第10层: 5x5木板.角落填充,中空.;第11层: 3x3木板.角落填充,中空.;第12层: 1x1木板;需要在轴箱中放入风车转子方可运行;在控制器方块中输入物品;输出物品将出现在发射器中;在多风的地区运行比较快(类似IC2风机)
+tooltip.tile.windmill.0.name=由动能驱动的原始研磨机;大小(宽x高x长): 7x12x7;=第1层: 7x7砖块,角落空置,控制器方块在正面中央;第2-5层: 5x5硬化黏土,角落空置,可包含一扇门,;中空,墙上必须至少有一个发射器;第6层: 5x5木板.角落填充,中空.;第7层: 7x7木板.角落空置,中空.;第8层: 7x7木板.角落空置,中空,;正面中央必须是原始动力轴箱;第9层: 7x7木板.角落空置,中空.;第10层: 5x5木板.角落填充,中空.;第11层: 3x3木板.角落填充,中空.;第12层: 1x1木板;需要在轴箱中放入风车转子方可运行;在控制器方块中输入物品;输出物品将出现在发射器中;在多风的地区运行比较快(类似IC2风机)
 tooltip.tile.lesu.0.name=LESU的控制器方块;大小(宽x高x长): 任意
 tooltip.tile.lesu.1.name=每个LESU机械方块存储:
 tooltip.tile.lesu.2.name=输出EU: LESU机械方块数量;输入EU: 输出EU的下一电压等级;输入/输出电流可通过GUI中的4个编程电路调整;输出端有一个点.
@@ -181,7 +181,7 @@ tooltip.tile.radhatch.0.name=多方块的放射性物品输入仓
 tooltip.tile.radhatch.1.name=使用螺丝刀设置抑制等级
 tooltip.tile.radhatch.2.name=材料:
 tooltip.tile.radhatch.3.name=辐射剂量:
-tooltip.tile.radhatch.4.name=数量:
+tooltip.tile.radhatch.4.name=质量：
 tooltip.tile.radhatch.5.name=衰变单位质量(1kg)所需时间(t/s/m/h):
 tooltip.tile.radhatch.6.name=t
 tooltip.tile.radhatch.7.name=s
@@ -191,9 +191,9 @@ tooltip.tile.radhatch.10.name=剩余时间: %s s / %s s
 tooltip.tile.acidgen.0.name=酸性发电机
 tooltip.tile.acidgen.1.name=用化学势能产生电力.
 
-tooltip.bw.structure.glass=Glass
-tooltip.bw.structure.radio_hatch=Radio Hatch
-tooltip.bw.structure.tier_glass=%s+ Tier Glass
+tooltip.bw.structure.glass=玻璃
+tooltip.bw.structure.radio_hatch=放射仓
+tooltip.bw.structure.tier_glass=%s+玻璃
 
 # RecipeMap
 bw.recipe.biolab=生物实验室
@@ -243,29 +243,29 @@ itemGroup.bw.MetaItems.0=BartWorks电路板改革
 BW.infoData.BioVat.expectedProduction=预期产量
 BW.infoData.BioVat.production=产量
 
-BW.infoData.htr.helium_level=Helium-Level: %sL / %sL
-BW.infoData.htr.problems=Problems: %s
+BW.infoData.htr.helium_level=氦水平：%sL / %sL
+BW.infoData.htr.problems=问题：%s
 
-BW.infoData.htgr.mode=Mode: %s
-BW.infoData.htgr.mode.emptying=Emptying
-BW.infoData.htgr.mode.normal=Normal
-BW.infoData.htgr.progress=Progress: %ss / %ss
-BW.infoData.htgr.fuel_type=Fuel type: %s
-BW.infoData.htgr.fuel_type.none=NONE
+BW.infoData.htgr.mode=模式：%s
+BW.infoData.htgr.mode.emptying=清空
+BW.infoData.htgr.mode.normal=正常
+BW.infoData.htgr.progress=进度：%ss / %ss
+BW.infoData.htgr.fuel_type=燃料类型：%s
+BW.infoData.htgr.fuel_type.none=无
 BW.infoData.htgr.fuel_type.triso=TRISO (%s)
-BW.infoData.htgr.fuel_amount=Fuel amount: %s pcs.
-BW.infoData.htgr.coolant=Coolant: %sL/s
+BW.infoData.htgr.fuel_amount=燃料数量：%s 个。
+BW.infoData.htgr.coolant=冷却液：%sL/s
 
-BW.infoData.thtr.progress=Progress: %ssecs / %ssecs
-BW.infoData.thtr.triso_pebbles=TRISO-Pebbles: %spcs. / %spcs.
-BW.infoData.thtr.coolant=Coolant/t: %sL/t
+BW.infoData.thtr.progress=进度：%ss/%ss
+BW.infoData.thtr.triso_pebbles=TRISO燃料丸：%s个 / %s个
+BW.infoData.thtr.coolant=冷却液/t: %s升/t
 
-BW.infoData.wind_mill.progress=Progress: %d Grindings of %d needed Grindings
-BW.infoData.wind_mill.grind_power=GrindPower: %dKU/t
+BW.infoData.wind_mill.progress=进度：%d次研磨（共需%d次研磨）
+BW.infoData.wind_mill.grind_power=研磨功率：%dKU/t
 
-BW.infoData.mega_vacuum_freezer.tier=Tier: %d
-BW.infoData.mega_vacuum_freezer.subspace_cooling.active=Subspace cooling: §aActive (%s)
-BW.infoData.mega_vacuum_freezer.subspace_cooling.inactive=Subspace cooling: §cInactive
+BW.infoData.mega_vacuum_freezer.tier=等级: %d
+BW.infoData.mega_vacuum_freezer.subspace_cooling.active=亚空间冷却：§a激活中（%s）
+BW.infoData.mega_vacuum_freezer.subspace_cooling.inactive=亚空间冷却：§c未激活
 
 BW.NEI.display.radhatch.0=辐射剂量: %s Sv
 BW.NEI.display.radhatch.1=质量: %s kg
@@ -280,11 +280,11 @@ chat.cal.mode.1=电路组装机模式
 #Liquids
 
 # gui
-BW.gui.text.radio_hatch.tooltip.radiation_shutter=Radiation Shutter
-BW.gui.text.radio_hatch.tooltip.radiation_shutter_control=Radiation Shutter Control
+BW.gui.text.radio_hatch.tooltip.radiation_shutter=辐射快门
+BW.gui.text.radio_hatch.tooltip.radiation_shutter_control=辐射快门控制
 
-BW.gui.text.lesu.eu=EU: %s
-BW.gui.text.lesu.max=MAX: %s
-BW.gui.text.lesu.max_in=MAX EU/t IN: %s
-BW.gui.text.lesu.eu_out=EU/t OUT: %s
-BW.gui.text.lesu.amp_io=AMP/t IN/OUT: %s
+BW.gui.text.lesu.eu=EU： %s
+BW.gui.text.lesu.max=最大：%s
+BW.gui.text.lesu.max_in=最大EU/t输入：%s
+BW.gui.text.lesu.eu_out=EU/t 输出：%s
+BW.gui.text.lesu.amp_io=A/t 输入/输出: %s

@@ -97,17 +97,17 @@ ae2fc.tooltip.level_maintainer.desc=自动将物品和流体的存量保持在�
 ae2fc.tooltip.level_maintainer.current=当前:
 ae2fc.tooltip.level_maintainer.none=未配置请求
 ae2fc.tooltip.level_maintainer.idle=§a待机中§r
-ae2fc.tooltip.level_maintainer.idle_desc=请求器将会在这些情况下待机:存储量达到设定值;缺少对应的样板;缺少原材料.
+ae2fc.tooltip.level_maintainer.idle_desc=请求器会在存储量达到设定值或没有可用CPU时待机
 ae2fc.tooltip.level_maintainer.link=§e合成中§r
 ae2fc.tooltip.level_maintainer.link_desc=系统正在合成所请求的物品或流体
 ae2fc.tooltip.level_maintainer.export=§5输出中§r
 ae2fc.tooltip.level_maintainer.export_desc=请求器正在试图将合成好的物品导入ME系统.如果请求器一直处于此状态,那就是系统没有可存储空间了。
 ae2fc.tooltip.level_maintainer.error=§4错误§r
-ae2fc.tooltip.level_maintainer.error_desc=请求器进行规划合成作业的尝试失败了，可能是由于缺少配方或原材料缺失。
-ae2fc.tooltip.level_maintainer.not_found=§4Not Found§r
-ae2fc.tooltip.level_maintainer.not_found_desc=The Requester is trying to schedule a crafting job but can't find a crafting pattern.
-ae2fc.tooltip.level_maintainer.cant_craft=§4Can't Craft§r
-ae2fc.tooltip.level_maintainer.cant_craft_desc=The Requester is trying to schedule a crafting job but the crafting manager cannot process the job. (not enough ingredients, CPU doesn't have enough memory, recursion).
+ae2fc.tooltip.level_maintainer.error_desc=由于内部错误，请求器规划合成作业的尝试失败了
+ae2fc.tooltip.level_maintainer.not_found=§4未找到§r
+ae2fc.tooltip.level_maintainer.not_found_desc=请求器尝试规划合成作业，但未能找到对应样板
+ae2fc.tooltip.level_maintainer.cant_craft=§4无法合成§r
+ae2fc.tooltip.level_maintainer.cant_craft_desc=请求器尝试规划合成作业，但管理器无法处理该作业（缺少原材料、CPU内存不足或使用了递归配方）
 ae2fc.tooltip.level_maintainer.batch_size=§6单次合成数量§r
 ae2fc.tooltip.level_maintainer.batch_size.hint=请求器发出合成请求时,合成数量为"单次合成数量"的设定值.更大的单次合成数量会增加补仓速度,但也需要更大的合成存储器.
 ae2fc.tooltip.level_maintainer.request_size=维持数量
@@ -178,9 +178,9 @@ ae2fc.tooltip.magnet_card.me=磁场增幅卡
 ae2fc.tooltip.magnet_card.me.hint=捡起至ME系统
 ae2fc.tooltip.magnet_card.filter=磁卡过滤名单
 ae2fc.tooltip.magnet_card.oreDictFilter=矿典过滤
-ae2fc.tooltip.restock.on=切换补货
+ae2fc.tooltip.restock.on=切换补充库存模式
 ae2fc.tooltip.restock.on.hint=启用
-ae2fc.tooltip.restock.off=切换补货
+ae2fc.tooltip.restock.off=切换补充库存模式
 ae2fc.tooltip.restock.off.hint=禁用
 
 ae2fc.gui.part_fluid_pattern_terminal=ME流体样板终端
@@ -223,7 +223,7 @@ ae2fc.gui.color.StateError=FFFF5555
 error.unknown=未知
 
 ae2fc.key.OpenTerminal=打开无线通用终端
-ae2fc.key.Restock=切换补货
+ae2fc.key.Restock=切换补充库存模式
 
 itemGroup.ae2fc=AE2流体合成套件
 

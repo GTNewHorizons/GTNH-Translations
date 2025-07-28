@@ -37,106 +37,106 @@ GT5U.gui.text.EIG_seedOverflow=存储了太多种子!
 GT5U.gui.text.EIG_missingwater=没有水!
 GT5U.gui.text.EIG_ic2glass=玻璃等级不足!
 
-kubatech.gui.text.configuration=Configuration
+kubatech.gui.text.configuration=配置
 
-kubatech.gui.text.tea_ultimate.status=STATUS
-kubatech.gui.text.tea_ultimate.tea=Tea
-kubatech.gui.text.tea_ultimate.tea_limit=Tea limit
-kubatech.gui.text.tea_ultimate.exchange=EXCHANGE
-kubatech.gui.text.tea_ultimate.exchange.cost=Cost: %s Tea
-kubatech.gui.text.tea_ultimate.benefits=BENEFITS
-kubatech.gui.tooltip.tea_ultimate.tea_acceptor_research_note=Tea Acceptor Research Note
+kubatech.gui.text.tea_ultimate.status=状态
+kubatech.gui.text.tea_ultimate.tea=茶
+kubatech.gui.text.tea_ultimate.tea_limit=茶限制
+kubatech.gui.text.tea_ultimate.exchange=交换
+kubatech.gui.text.tea_ultimate.exchange.cost=消耗：%s 茶
+kubatech.gui.text.tea_ultimate.benefits=增益
+kubatech.gui.tooltip.tea_ultimate.tea_acceptor_research_note=茶接收器研究笔记
 
-kubatech.gui.text.tea_acceptor.name=Tea Acceptor
-kubatech.gui.text.tea_acceptor.tea=[Tea]
-kubatech.gui.text.tea_acceptor.not_owner=This is not your block
-kubatech.gui.text.tea_acceptor.in=IN: %s/t
-kubatech.gui.text.tea_acceptor.in.tooltip=Average input from the last 5 seconds
+kubatech.gui.text.tea_acceptor.name=茶接收器
+kubatech.gui.text.tea_acceptor.tea=[茶]
+kubatech.gui.text.tea_acceptor.not_owner=这不是你的方块
+kubatech.gui.text.tea_acceptor.in=输入: %s/t
+kubatech.gui.text.tea_acceptor.in.tooltip=过去5秒的平均输入
 
-kubatech.gui.text.eec.infernal_drop=Is allowed to spawn infernal mobs
-kubatech.gui.text.eec.infernal_drop.always=Does not affect mobs that are always infernal!
-kubatech.gui.text.eec.void_all_damaged=Void all damaged and enchanted items
-kubatech.gui.text.eec.void_all_damaged.warning=Does not affect infernal drops and some special drops like Sticky Sword!
-kubatech.gui.tooltip.eec.ritual_mode=Ritual mode
+kubatech.gui.text.eec.infernal_drop=允许生成精英怪
+kubatech.gui.text.eec.infernal_drop.always=不影响始终为精英怪的怪物！
+kubatech.gui.text.eec.void_all_damaged=销毁所有受损及附魔的物品
+kubatech.gui.text.eec.void_all_damaged.warning=不影响精英怪掉落物及一些特殊掉落物，比如史莱姆剑！
+kubatech.gui.tooltip.eec.ritual_mode=仪式模式
 
-kubatech.gui.text.inventory=Inventory
-kubatech.gui.text.status=Status
-kubatech.gui.text.operating=Operating
-kubatech.gui.text.input=Input
-kubatech.gui.text.output=Output
-kubatech.gui.text.eig.setup_mode=Setup mode
-kubatech.gui.text.eig.disabled=Disabled
-kubatech.gui.text.eig.enabled=Enabled
-kubatech.gui.text.eig.ic2_mode=IC2 mode
-kubatech.gui.text.eig.no_humidity_mode=No Humidity mode
-kubatech.gui.text.mia.primary_mode=Primary mode
-kubatech.gui.text.mia.normal=Normal
-kubatech.gui.text.mia.swarmer=Swarmer
-kubatech.gui.text.mia.secondary_mode=Secondary mode
+kubatech.gui.text.inventory=物品栏
+kubatech.gui.text.status=状态
+kubatech.gui.text.operating=运行中
+kubatech.gui.text.input=输入
+kubatech.gui.text.output=输出
+kubatech.gui.text.eig.setup_mode=设置模式
+kubatech.gui.text.eig.disabled=禁用
+kubatech.gui.text.eig.enabled=启用
+kubatech.gui.text.eig.ic2_mode=IC2 模式
+kubatech.gui.text.eig.no_humidity_mode=无湿度模式
+kubatech.gui.text.mia.primary_mode=主要模式
+kubatech.gui.text.mia.normal=常规
+kubatech.gui.text.mia.swarmer=蜂群
+kubatech.gui.text.mia.secondary_mode=次要模式
 
-kubatech.gui.tooltip.dynamic_inventory.identical_slots=There are %d identical slots
-kubatech.gui.tooltip.dynamic_inventory.empty_slot=Empty slot
-kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=Remaining seed types: %d
-kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=Remaining seed capacity: %d
+kubatech.gui.tooltip.dynamic_inventory.identical_slots=有%d个相同的槽位
+kubatech.gui.tooltip.dynamic_inventory.empty_slot=空槽位
+kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=剩余种子类型：%d
+kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=剩余种子容量：%d
 
 # info data
 ## general
-kubatech.infodata.running_mode=Running in mode:
+kubatech.infodata.running_mode=运行模式：
 
 ## Extreme Entity Crusher
-kubatech.infodata.eec.current_mob=Current Mob: §e%s
-kubatech.infodata.eec.current_mob.none=Current Mob: §eNone
-kubatech.infodata.eec.animations.enabled=Animations: §eEnabled
-kubatech.infodata.eec.animations.disabled=Animations: §eDisabled
-kubatech.infodata.eec.produce_infernal_drops.allowed=Is allowed to produce infernal drops: §eYes
-kubatech.infodata.eec.produce_infernal_drops.not_allowed=Is not allowed to produce infernal drops: §eNo
-kubatech.infodata.eec.void_damaged.yes=Void all damaged and enchanted items: §eYes
-kubatech.infodata.eec.void_damaged.no=Void all damaged and enchanted items: §eNo
-kubatech.infodata.eec.in_ritual_mode.yes=Is in ritual mode: §eYes
-kubatech.infodata.eec.in_ritual_mode.no=Is in ritual mode: §eNo
-kubatech.infodata.eec.connected_to_ritual.yes=Is connected to ritual: §aYes
-kubatech.infodata.eec.connected_to_ritual.no=Is connected to ritual: §cNo
-kubatech.infodata.eec.inserted_weapon.yes=Inserted weapon: §eYes
-kubatech.infodata.eec.inserted_weapon.no=Inserted weapon: §eNo
-kubatech.infodata.eec.weapon.damage=Weapon attack damage: §e%f
-kubatech.infodata.eec.weapon.looting_level=Weapon looting level: §e%d
-kubatech.infodata.eec.total_damage=Total attack damage: §e%f
+kubatech.infodata.eec.current_mob=当前生物：§e%s
+kubatech.infodata.eec.current_mob.none=当前怪物：§e无
+kubatech.infodata.eec.animations.enabled=动画：§e已启用
+kubatech.infodata.eec.animations.disabled=动画：§e已禁用
+kubatech.infodata.eec.produce_infernal_drops.allowed=允许产出精英怪掉落物：§e是
+kubatech.infodata.eec.produce_infernal_drops.not_allowed=不允许产出精英怪凋落物：§e否
+kubatech.infodata.eec.void_damaged.yes=销毁所有损坏及附魔物品：§e是
+kubatech.infodata.eec.void_damaged.no=销毁所有损坏及附魔物品：§e否
+kubatech.infodata.eec.in_ritual_mode.yes=处于仪式模式：§e是
+kubatech.infodata.eec.in_ritual_mode.no=处于仪式模式：§e否
+kubatech.infodata.eec.connected_to_ritual.yes=已连接到仪式：§a是
+kubatech.infodata.eec.connected_to_ritual.no=已连接到仪式：§c否
+kubatech.infodata.eec.inserted_weapon.yes=武器已插入: §eYes
+kubatech.infodata.eec.inserted_weapon.no=武器已插入: §eNo
+kubatech.infodata.eec.weapon.damage=武器攻击伤害：§e%f
+kubatech.infodata.eec.weapon.looting_level=武器掠夺等级：§e%d
+kubatech.infodata.eec.total_damage=总攻击伤害：§e%f
 
 ## Exreme Industrial Greenhouse
-kubatech.infodata.eig.running_mode.setup_mode.input=Setup mode (input)
-kubatech.infodata.eig.running_mode.setup_mode.output=Setup mode (output)
-kubatech.infodata.eig.uses.water=Uses %dL/operation of water
-kubatech.infodata.eig.uses.weedex=Uses %dL/second of Weed-EX 9000
-kubatech.infodata.eig.max_slots=Max slots:
-kubatech.infodata.eig.used_slots=Used slots:
-kubatech.infodata.bucket.humidity=Humidity:
-kubatech.infodata.bucket.humidity.on=On
-kubatech.infodata.bucket.humidity.off=Off
-kubatech.infodata.eig.too_many_types=There are too many seed types inside to run!
-kubatech.infodata.eig.too_many_seeds=There are too many seeds inside to run!
+kubatech.infodata.eig.running_mode.setup_mode.input=设置模式（输入）
+kubatech.infodata.eig.running_mode.setup_mode.output=设置模式（输出）
+kubatech.infodata.eig.uses.water=每次操作消耗 %d L 水
+kubatech.infodata.eig.uses.weedex=每秒消耗 %d L 除草剂-9000
+kubatech.infodata.eig.max_slots=最大槽位数：
+kubatech.infodata.eig.used_slots=已用槽位数：
+kubatech.infodata.bucket.humidity=湿度：
+kubatech.infodata.bucket.humidity.on=开启
+kubatech.infodata.bucket.humidity.off=关闭
+kubatech.infodata.eig.too_many_types=里面的种子类型太多了，无法运行！
+kubatech.infodata.eig.too_many_seeds=里面的种子数量太多了，无法运行！
 
 ## Mega Industrial Apiary
-kubatech.infodata.mia.running_mode.input=Input mode
-kubatech.infodata.mia.running_mode.output=Output mode
-kubatech.infodata.mia.running_mode.operating.normal=Operating mode (NORMAL)
-kubatech.infodata.mia.running_mode.operating.swarmer=Operating mode (SWARMER)
-kubatech.infodata.mia.running_mode.bee_storage=Bee storage (%s/%s):
+kubatech.infodata.mia.running_mode.input=输入模式
+kubatech.infodata.mia.running_mode.output=输出模式
+kubatech.infodata.mia.running_mode.operating.normal=工作模式（常规）
+kubatech.infodata.mia.running_mode.operating.swarmer=工作模式（蜂群）
+kubatech.infodata.mia.running_mode.bee_storage=蜜蜂储存（%s/%s）：
 
 
 #Waila
-kubatech.waila.eec.mob_type=Mob Type: %s
-kubatech.waila.eec.no_mob=None
+kubatech.waila.eec.mob_type=生物类型：%s
+kubatech.waila.eec.no_mob=无
 
 #Blocks
 kubablock.tea_acceptor.name=§4§l茶接收器
 kubablock.tea_storage.name=§4§l茶叶存储扩展器
 
 #DEFC Casings
-defc.casing.name=Fusion Casing
+defc.casing.name=聚变方块
 defc.casing.tip=龙研聚合装置外壳 T %d
 
 #Items
-item.kubaitems.name=Tea / Tea Leaf
+item.kubaitems.name=茶 / 茶叶
 kubaitem.fromcollection=此物品来自
 kubaitem.notyours=那东西好像不是你的
 kubaitem.defc_schematic_t1.name=龙之核心图纸
@@ -225,10 +225,10 @@ tc.research_text.KT_UltimateTea=§4§l纯粹的能源
 KT.research.ultimatetea=你找到一种方法,将这些茶转化为纯粹的能源并获得%s§6§l茶
 
 #Tooltip
-kubatech.tooltip.tea=Tea
-kubatech.tooltip.tea_acceptor.0=Accepts Tea items and adds them to your network
-kubatech.tooltip.tea_acceptor.1=Can accept up to 10 stacks per tick
-kubatech.tooltip.tea_storage.0=Extends Tea Storage by %s
-kubatech.tooltip.tea_ingredient.0=This is Tea ingredient
+kubatech.tooltip.tea=茶
+kubatech.tooltip.tea_acceptor.0=接受茶叶物品并将其加入您的网络
+kubatech.tooltip.tea_acceptor.1=每tick最多可叠加10层
+kubatech.tooltip.tea_storage.0=将茶叶储存空间扩展%s
+kubatech.tooltip.tea_ingredient.0=这是茶叶成分
 
-kubatech.tooltip.structure.flowers=Flowers
+kubatech.tooltip.structure.flowers=花
