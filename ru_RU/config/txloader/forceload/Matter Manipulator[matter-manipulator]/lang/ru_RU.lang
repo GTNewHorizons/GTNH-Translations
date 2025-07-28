@@ -103,12 +103,12 @@ mm.info.error.could_not_place=Не удалось разместить %s ост
 mm.info.finished_placing=Finished placing blocks.
 mm.info.warning.could_not_find=Could not find item, %d block(s) will be skipped temporarily:
 mm.info.placed_remaining=Placed %s blocks (%s remaining)
-mm.info.warning=Warning at block %d, %d, %d%s: %s
-mm.info.error=Error at block %d, %d, %d%s: %s
-mm.info.error.could_not_move_block=Could not move block X=%d, Y=%d, Z=%d: %s
-mm.info.error.could_not_move_protected_block=Could not move protected block X=%d, Y=%d, Z=%d: %s
-mm.info.error.could_not_move_invulnerable_block=Could not move invulnerable source block X=%d, Y=%d, Z=%d: %s
-mm.info.error.could_not_move_blocked_block=Destination was blocked for source block X=%d, Y=%d, Z=%d: %s
+mm.info.warning=Предупреждение в блоке %d, %d, %d%s: %s
+mm.info.error=Ошибка в блоке %d, %d, %d%s: %s
+mm.info.error.could_not_move_block=Не удалось переместить блок x=%d, y=%d, z=%d: %s
+mm.info.error.could_not_move_protected_block=Не удалось переместить защищенный блок x=%d, y=%d, z=%d: %s
+mm.info.error.could_not_move_invulnerable_block=Не удалось переместить неуязвимый исходный блок x=%d, y=%d, z=%d: %s
+mm.info.error.could_not_move_blocked_block=Пункт назначения был заблокирован для исходного блока x=%d, y=%d, z=%d: %s
 mm.info.process_move=Moved %s blocks (%s remaining)
 mm.info.finished_move=Finished moving blocks.
 mm.info.warning.protected_area=Tried to break/place a block in a protected area!
@@ -136,7 +136,7 @@ mm.info.error.must_have_paste_region=Must have paste region marked to detect mis
 mm.info.required_items=Required items:
 mm.info.not_need_creating_pattern=Not creating pattern because all required items are present.
 mm.info.error.not_connected=Manipulator not connected to an uplink: cannot create a fake pattern.
-mm.info.error.must_look_at_block=You must be looking at a block to use this command.
+mm.info.error.must_look_at_block=Чтобы использовать эту команду, вы должны смотреть на блок.
 mm.info.error.property_not_found=Property not found.
 mm.info.properties=Properties:
 mm.info.none=None
