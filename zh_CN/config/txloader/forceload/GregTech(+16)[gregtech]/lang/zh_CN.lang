@@ -93,18 +93,18 @@ gt.crop.withereed.name=凋灵甘蔗
 gt.crop.zomplant.name=僵尸草
 
 # Tooltip info of tile-entities
-gt.tileentity.eup_in=Voltage IN: §a%d (%s§a)§7
-gt.tileentity.eup_out=Voltage OUT: §a%d (%s§a)§7
-gt.tileentity.eup_amount=Amperage: §e%d§7
-gt.tileentity.eup_store=Capacity: §9%d§7 EU
+gt.tileentity.eup_in=电压输入：§a%d（%s§a）§7
+gt.tileentity.eup_out=电压输出：§a%d（%s§a）§7
+gt.tileentity.eup_amount=电流强度：§e%d§7
+gt.tileentity.eup_store=容量：§9%d§7 EU
 gt.tileentity.has_muffler=装有静音升级
 gt.tileentity.has_steam_upgrade=装有蒸汽升级
-gt.tileentity.colored=Colored (%s%s§7)
+gt.tileentity.colored=颜色（%s%s§7）
 
 item.gt.advancedsensorcard.name=高级传感器卡片[GT]
-gt.blackholerenderer.name=Black Hole Renderer
-gt.block.longdistancepipe.name=Long Distance Pipeline Pipe
-gt.blockcasings.cyclotron_coils.name=Solenoid Superconductor Coil
+gt.blackholerenderer.name=黑洞渲染器
+gt.block.longdistancepipe.name=长距离管道
+gt.blockcasings.cyclotron_coils.name=螺线管超导线圈
 gt.blockcasings.name=机械方块
 gt.blockcasings2.name=机械方块
 gt.blockcasings3.name=机械方块
@@ -117,7 +117,7 @@ gt.blockcasings10.name=机械方块
 gt.blockcasings11.name=机械方块
 gt.blockcasingsNH.name=机械方块
 gt.blockconcretes.name=混凝土
-gt.blockframes.name=Frame
+gt.blockframes.name=框架
 gt.blockgem1.name=方块
 gt.blockgem2.name=方块
 gt.blockgem3.name=方块
@@ -134,21 +134,21 @@ gt.blockmetal7.name=方块
 gt.blockmetal8.name=方块
 gt.blockmetal9.name=方块
 gt.blockores.name=矿石
-gt.blockreinforced.name=Reinforced Block
+gt.blockreinforced.name=强化方块
 gt.blockstones.name=石头
-gt.blocktintedglass.name=Tinted Industrial Glass
-gt.wormholerenderer.name=Wormhole Renderer
-item.gt.comb.name=Comb
-item.gt.drop.name=Drop
-item.gt.pollen.name=Pollen
-item.gt.propolis.name=Propolis
-tile.gt.dronerender.name=Drone Renderer
+gt.blocktintedglass.name=染色工业玻璃
+gt.wormholerenderer.name=虫洞渲染器
+item.gt.comb.name=蜂窝
+item.gt.drop.name=掉落物
+item.gt.pollen.name=花粉
+item.gt.propolis.name=蜂胶
+tile.gt.dronerender.name=无人机渲染器
 
 # GT Item Descriptions
 gt.item.desc.stored_heat=储存热量: %s
 gt.item.desc.durability=耐久: %s/%s
-gt.item.desc.tier=%s Tier %s
-gt.item.desc.level=%s lvl %s
+gt.item.desc.tier=%s 等级 %s
+gt.item.desc.level=%s 等级 %s
 gt.item.desc.damage=攻击伤害: %s
 gt.item.desc.mine_speed=挖掘速度: %s
 gt.item.desc.base_eff=基础涡轮效率: %s
@@ -160,7 +160,7 @@ gt.item.desc.empty=空的.你应该好好循环利用它.
 gt.item.desc.eu_info=%s / %s EU - 电压: %s
 gt.item.desc.no_fluid=不含流体
 gt.item.desc.fluid_info=%s升 / %s升
-gt.item.desc.miss_coord=Missing Coordinates!
+gt.item.desc.miss_coord=缺少坐标！
 gt.item.desc.device_at=设备位于:
 gt.item.desc.state=状态: %s
 gt.item.desc.breeder_tip=在炽热的反应堆中洗个中子澡吧
@@ -195,7 +195,7 @@ gt.interact.desc.mb.running=运行正常
 gt.interact.desc.mb.incomplete=结构不完整.
 gt.interact.desc.mb.locking_on=启用单个配方锁定.将锁定下一个配方.
 gt.interact.desc.mb.locking_off=禁用单个配方锁定.
-gt.interact.desc.mb.mode=§fRunning mode: §6%s
+gt.interact.desc.mb.mode=§f运行模式：§6%s
 gt.interact.desc.export=输出
 gt.interact.desc.import=输入
 gt.interact.desc.export_cond=允许工作时输出
@@ -600,23 +600,23 @@ gtpp.material.Zirkelite=钛锆钍矿
 gtpp.material.ZrCl4=氯化锆
 
 # Air Filter
-item.GTPP.air_filter.name=Air Filter
-item.GTPP.air_filter.name.t1=Air Filter [Tier 1]
-item.GTPP.air_filter.name.t2=Air Filter [Tier 2]
+item.GTPP.air_filter.name=空气滤网
+item.GTPP.air_filter.name.t1=空气滤网 [一级]
+item.GTPP.air_filter.name.t2=空气滤网 [二级]
 
-GTPP.tooltip.air_filter.0=An Air filter for Atmospheric Reconditioning.
-GTPP.tooltip.air_filter.1=%d/%d uses left.
+GTPP.tooltip.air_filter.0=用于净化空气的滤网。
+GTPP.tooltip.air_filter.1=剩余 %d/%d 次使用。
 
 # Fish trap
-GTPP.tooltip.fish_trap.0=This trap catches fish faster if surrounded by more water blocks
-GTPP.tooltip.fish_trap.1=Can also be placed beside up to 4 other fish traps
-GTPP.tooltip.fish_trap.2=Requires at least two faces touching water
-GTPP.tooltip.fish_trap.3=1/1000 chance to produce triple loot.
+GTPP.tooltip.fish_trap.0=这个陷阱周围的水方块越多，捕鱼速度越快
+GTPP.tooltip.fish_trap.1=也可以与最多4个其他渔栅并排放置
+GTPP.tooltip.fish_trap.2=至少需要两个面接触水
+GTPP.tooltip.fish_trap.3=1/1000的几率产出三倍战利品。
 
 # Circuit Table
-GTPP.tooltip.circuit_table.0=Easy Circuit Configuration
-GTPP.tooltip.circuit_table.1=Change default setting with a Screwdriver
-GTPP.tooltip.circuit_table.2=Default is used to select slot for auto-insertion
+GTPP.tooltip.circuit_table.0=简易电路配置
+GTPP.tooltip.circuit_table.1=用螺丝刀更改默认设置
+GTPP.tooltip.circuit_table.2=默认是自动选择插入的槽位
 
 # Decayables Chest
 GTPP.tooltip.decayables_chest.0=Chest which holds radioactive materials
@@ -647,7 +647,7 @@ item.GT5U.infinite_spray_can.name.colored=Infinite Spray Can %c%s%c
 
 GT5U.infinite_spray_can.color.Black=黑
 GT5U.infinite_spray_can.color.Red=红
-GT5U.infinite_spray_can.color.Green=Green
+GT5U.infinite_spray_can.color.Green=绿色
 GT5U.infinite_spray_can.color.Brown=Brown
 GT5U.infinite_spray_can.color.Blue=Blue
 GT5U.infinite_spray_can.color.Purple=Purple
