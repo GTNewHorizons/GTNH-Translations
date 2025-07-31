@@ -45,10 +45,10 @@ salisarcana:command.forget-scanned.success=§9成功：§r%d个实体已从%s的
 salisarcana:command.forget-scanned.failure=§c失败：§r%s的扫描列表中没有可以移除的项目。
 
 salisarcana:command.forget-aspect.desc=使玩家遗忘要素或重置对其的了解。
-salisarcana:command.forget-aspect.usage=§7/salisarcana-forget-aspect §7[--player §7<username>] §7[--reset] §7[--forget] §7[--aspect <...>] §7[--all] §r
-salisarcana:command.forget-aspect.args.player=§7[--player §7<username>]§r Specify the player whose aspects will be altered. If not provided, defaults to the player executing this command.
-salisarcana:command.forget-aspect.args.reset=§7[--reset]§r Reset the amount of research aspects the player has to 1. Mutually exclusive with §7forget§r.
-salisarcana:command.forget-aspect.args.forget=§7[--forget]§r Forget the aspect, requiring it to be rediscovered. Mutually exclusive with §7reset§r.
+salisarcana:command.forget-aspect.usage=§7/salisarcana-forget-aspect §7[--player §7<玩家名>] §7[--reset] §7[--forget] §7[--aspect <...>] §7[--all] §r
+salisarcana:command.forget-aspect.args.player=§7[--player §7<玩家名>]§r 指定要素列表将被变更的玩家；未指定该选项时，默认为执行该命令的玩家
+salisarcana:command.forget-aspect.args.reset=§7[--reset]§r 将玩家对要素的研究点数重置为1；与§7forget§r选项互斥
+salisarcana:command.forget-aspect.args.forget=§7[--forget]§r 遗忘该要素，使其变为未发现状态；与§7reset§r选项互斥
 salisarcana:command.forget-aspect.args.aspect=§7[--aspect §7<aspect[ §7aspect[ §7...]]]§r Specify the aspect(s) to reset or forget. Mutually exclusive with §7all§r.
 salisarcana:command.forget-aspect.args.all=§7[--all]§r Reset or forget all aspects. Mutually exclusive with §7aspect§r.
 
