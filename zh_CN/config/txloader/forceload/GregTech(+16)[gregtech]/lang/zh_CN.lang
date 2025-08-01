@@ -206,9 +206,9 @@ gt.interact.desc.export_allow_cond=允许工作时输出，允许输入
 gt.interact.desc.import_allow_cond=允许工作时输入，允许输出
 gt.interact.desc.export_allow_invert_cond=禁止工作时输出，允许输入
 gt.interact.desc.import_allow_invert_cond=禁止工作时输入，允许输出
-gt.interact.desc.no_fluid=Keep Fluids Away
-gt.interact.desc.no_fluid_cond=Keep Fluids Away (conditional)
-gt.interact.desc.no_fluid_invert_cond=Keep Fluids Away (invert cond)
+gt.interact.desc.no_fluid=阻挡流体
+gt.interact.desc.no_fluid_cond=工作时阻挡流体
+gt.interact.desc.no_fluid_invert_cond=不工作时阻挡流体
 gt.interact.desc.export_allow=输出，允许输入
 gt.interact.desc.import_allow=输入，允许输出
 gt.interact.desc.input_from_output_on=允许从输出面输入
@@ -216,18 +216,18 @@ gt.interact.desc.input_from_output_off=禁止从输出面输入
 gt.interact.desc.public=公共
 gt.interact.desc.private=私人
 gt.interact.desc.set_perm=公共/私人
-gt.interact.desc.set_io=Import/Export
+gt.interact.desc.set_io=输入/输出
 gt.interact.desc.channel=频道
 gt.interact.desc.freq=频率
-gt.interact.desc.freq_format=Frequency: %s
+gt.interact.desc.freq_format=频率：%s
 gt.interact.desc.freq_perm=Frequency: %s, Transmission: %s
 gt.interact.desc.normal=常规
 gt.interact.desc.inverted=反转
 gt.interact.desc.inverted_b=(Inverted)
 gt.interact.desc.ready=待机
 gt.interact.desc.not_ready=待机，反转信号
-gt.interact.desc.mach_on=Machine Enabled
-gt.interact.desc.mach_off=Machine Disabled
+gt.interact.desc.mach_on=机器开启
+gt.interact.desc.mach_off=机器关闭
 gt.interact.desc.univ_normal=探测能量缓存
 gt.interact.desc.univ_invert=探测能量缓存，反转信号
 gt.interact.desc.eu_normal=探测电力缓存
@@ -244,9 +244,9 @@ gt.interact.desc.need_maint_count=Emit if %s Maintenance Needed%s
 gt.interact.desc.need_maint_rotor_lo=转子需要维护时输出信号(低灵敏度模式)
 gt.interact.desc.need_maint_rotor_hi=转子需要维护时输出信号(高灵敏度模式)
 gt.interact.desc.issue=1个维护问题
-gt.interact.desc.issues=%s Issues
-gt.interact.desc.issue_rotor_low=Rotor < 20%%
-gt.interact.desc.issue_rotor_dead=Rotor ≈ 0%%
+gt.interact.desc.issues=%s个维护问题
+gt.interact.desc.issue_rotor_low=转子耐久<20%%
+gt.interact.desc.issue_rotor_dead=转子耐久≈0%%
 
 # GT++ items
 item.GTPP.air_intake_hatch.name=进气仓
@@ -619,72 +619,72 @@ GTPP.tooltip.circuit_table.1=用螺丝刀更改默认设置
 GTPP.tooltip.circuit_table.2=默认是自动选择插入的槽位
 
 # Decayables Chest
-GTPP.tooltip.decayables_chest.0=Chest which holds radioactive materials
-GTPP.tooltip.decayables_chest.1=Items which decay will tick while inside
-GTPP.tooltip.decayables_chest.2=Place with right-click
+GTPP.tooltip.decayables_chest.0=可收纳放射性物质的箱子
+GTPP.tooltip.decayables_chest.1=可衰变物品会在内部发生衰变
+GTPP.tooltip.decayables_chest.2=右键放置
 
 # Butterfly Killer
-GTPP.tooltip.butterfly_killer.0=Kills Forestry Butterflies, Bats and other pests
-GTPP.tooltip.butterfly_killer.1=Use either Formaldehyde or Hydrogen cyanide
+GTPP.tooltip.butterfly_killer.0=杀死林业蝴蝶、蝙蝠和其他害虫
+GTPP.tooltip.butterfly_killer.1=使用甲醛或氰化氢
 GTPP.tooltip.butterfly_killer.2=Be weary of your neighbours
 
 # Volumetric Flask Setter
-GTPP.tooltip.volumetric_flask_setter.0=Easy Flask Configuration
-GTPP.tooltip.volumetric_flask_setter.1=Configure default input slot with a screwdriver
+GTPP.tooltip.volumetric_flask_setter.0=轻松配置容量瓶
+GTPP.tooltip.volumetric_flask_setter.1=用螺丝刀更改默认输入设置
 
 # Tin Foil Hat
-GTPP.tooltip.tin_foil_hat=DoomSquirter's protection against cosmic radiation!\nGeneral paranoia makes the wearer unable to collect xp\nMovement speed is also reduced, to keep you safe\nThis hat may also have other strange powers
+GTPP.tooltip.tin_foil_hat=来自DoomSquirter的对防护宇宙射线防护！\n偏执症会导致穿戴者无法吸取经验\n玩家的移速也会降低（为了安全！）\n也许还有更多奇怪的能力
 
-GTPP.tooltip.bad_tooltip_id=Bad Tooltip ID - %d
+GTPP.tooltip.bad_tooltip_id=无效的tooltip ID - %d
 
 # GT++ chem
 GTPP.tooltip.catalyst.active_reaction_agent=Active Reaction Agent
 GTPP.tooltip.milling_ball.tumble=Tumble Tumble Tumble
 
 # Infinite Spray Can
-item.GT5U.infinite_spray_can.name.solvent=Infinite Spray Can %cSolvent%c
-item.GT5U.infinite_spray_can.name.colored=Infinite Spray Can %c%s%c
+item.GT5U.infinite_spray_can.name.solvent=无限喷漆罐%c溶剂%c
+item.GT5U.infinite_spray_can.name.colored=无限喷漆罐%c%s%c
 
-GT5U.infinite_spray_can.color.Black=黑
-GT5U.infinite_spray_can.color.Red=红
+GT5U.infinite_spray_can.color.Black=黑色
+GT5U.infinite_spray_can.color.Red=红色
 GT5U.infinite_spray_can.color.Green=绿色
-GT5U.infinite_spray_can.color.Brown=Brown
-GT5U.infinite_spray_can.color.Blue=Blue
-GT5U.infinite_spray_can.color.Purple=Purple
-GT5U.infinite_spray_can.color.Cyan=Cyan
-GT5U.infinite_spray_can.color.Light Gray=Light Gray
-GT5U.infinite_spray_can.color.Gray=Gray
-GT5U.infinite_spray_can.color.Pink=Pink
-GT5U.infinite_spray_can.color.Lime=Lime
-GT5U.infinite_spray_can.color.Yellow=Yellow
-GT5U.infinite_spray_can.color.Light Blue=Light Blue
-GT5U.infinite_spray_can.color.Magenta=Magenta
-GT5U.infinite_spray_can.color.Orange=Orange
-GT5U.infinite_spray_can.color.White=White
-GT5U.infinite_spray_can.color.INVALID COLOR=INVALID COLOR
-GT5U.infinite_spray_can.color.Cable Insulation=Cable Insulation
+GT5U.infinite_spray_can.color.Brown=棕色
+GT5U.infinite_spray_can.color.Blue=蓝色
+GT5U.infinite_spray_can.color.Purple=紫色
+GT5U.infinite_spray_can.color.Cyan=青色
+GT5U.infinite_spray_can.color.Light Gray=淡灰
+GT5U.infinite_spray_can.color.Gray=灰色
+GT5U.infinite_spray_can.color.Pink=粉色
+GT5U.infinite_spray_can.color.Lime=黄绿
+GT5U.infinite_spray_can.color.Yellow=黄色
+GT5U.infinite_spray_can.color.Light Blue=淡蓝
+GT5U.infinite_spray_can.color.Magenta=品红
+GT5U.infinite_spray_can.color.Orange=橙色
+GT5U.infinite_spray_can.color.White=白色
+GT5U.infinite_spray_can.color.INVALID COLOR=无效颜色
+GT5U.infinite_spray_can.color.Cable Insulation=线缆绝缘材料
 GT5U.infinite_spray_can.color.Construction Foam=建筑泡沫
-GT5U.infinite_spray_can.color.Machine Metal=Machine Metal
+GT5U.infinite_spray_can.color.Machine Metal=机器金属
 
-GT5U.generic.true=True
-GT5U.generic.false=False
+GT5U.generic.true=是
+GT5U.generic.false=否
 
 # Algae
-GTPP.algae.euglenoids.name=Euglenoids
-GTPP.algae.golden-brown_algae.name=Golden-Brown Algae
-GTPP.algae.fire_algae.name=Fire Algae
-GTPP.algae.green_algae.name=Green Algae
-GTPP.algae.red_algae.name=Red Algae
-GTPP.algae.brown_algae.name=Brown Algae
-GTPP.algae.yellow-green_algae.name=Yellow-Green Algae
+GTPP.algae.euglenoids.name=裸藻
+GTPP.algae.golden-brown_algae.name=金褐藻
+GTPP.algae.fire_algae.name=火藻
+GTPP.algae.green_algae.name=绿藻
+GTPP.algae.red_algae.name=红藻
+GTPP.algae.brown_algae.name=褐藻
+GTPP.algae.yellow-green_algae.name=黄藻
 
-GTPP.algae.tooltip.requires_light=Requires Light: %s
-GTPP.algae.tooltip.salt_water=Salt Water: %s
-GTPP.algae.tooltip.fresh_water=Fresh Water: %s
-GTPP.algae.tooltip.temp_tolerance=Temp Tolerance: %d
-GTPP.algae.tooltip.growth=Growth: %d
-GTPP.algae.tooltip.production=Production: %d
-GTPP.algae.tooltip.lifespan=Lifespan in days: %d
+GTPP.algae.tooltip.requires_light=需要光照：%s
+GTPP.algae.tooltip.salt_water=盐水：%s
+GTPP.algae.tooltip.fresh_water=淡水：%s
+GTPP.algae.tooltip.temp_tolerance=温度耐受：%d
+GTPP.algae.tooltip.growth=生长：%d
+GTPP.algae.tooltip.production=生产进度：%d
+GTPP.algae.tooltip.lifespan=寿命：%d天
 GTPP.algae.tooltip.generation=Generation: %d
 
 # Power Goggles
@@ -756,22 +756,22 @@ GT5U.MBTT.MaintenanceHatch=维护仓
 GT5U.MBTT.MufflerHatch=消声仓
 GT5U.MBTT.EnergyHatch=能源仓
 GT5U.MBTT.DynamoHatch=动力仓
-GT5U.MBTT.MultiampEnergyHatch=Multi-Amp Energy Hatch
-GT5U.MBTT.MultiampEnergyDynamo=Multi-Amp Dynamo Hatch
-GT5U.MBTT.LaserTargetHatch=Laser Target Hatch
-GT5U.MBTT.LaserSourceHatch=Laser Source Hatch
-GT5U.MBTT.ExoticEnergyHatch=Laser/Multi-Amp Energy Hatch
-GT5U.MBTT.ExoticEnergyDynamo=Laser/Multi-Amp Dynamo Hatch
+GT5U.MBTT.MultiampEnergyHatch=多A能源仓
+GT5U.MBTT.MultiampEnergyDynamo=多A动力仓
+GT5U.MBTT.LaserTargetHatch=激光靶仓
+GT5U.MBTT.LaserSourceHatch=激光源仓
+GT5U.MBTT.ExoticEnergyHatch=激光多A能源仓
+GT5U.MBTT.ExoticEnergyDynamo=激光多A动力仓
 GT5U.MBTT.InputBus=输入总线
 GT5U.MBTT.InputHatch=输入仓
 GT5U.MBTT.OutputBus=输出总线
 GT5U.MBTT.OutputHatch=输出仓
-GT5U.MBTT.TecTechMultiAmp=Supports TecTech Multi-Amp Hatches!
+GT5U.MBTT.TecTechMultiAmp=支持TecTech多A仓室！
 GT5U.MBTT.TecTechHatch=支持TecTech多A能源仓与激光仓!
-GT5U.MBTT.Param=Parametrizer Hatch
-GT5U.MBTT.Uncertainty=Uncertainty Hatch
-GT5U.MBTT.InputData=Data Reception Connector
-GT5U.MBTT.OutputData=Data Transmission Connector
+GT5U.MBTT.Param=参数仪仓
+GT5U.MBTT.Uncertainty=不确定度仓
+GT5U.MBTT.InputData=数据接收接口
+GT5U.MBTT.OutputData=数据发送接口
 GT5U.MBTT.Causes=产生
 GT5U.MBTT.PPS=点/秒污染
 GT5U.MBTT.Hold=按住
@@ -782,12 +782,12 @@ GT5U.MBTT.Air=必须留空
 GT5U.MBTT.Structure.Complex=结构太复杂了！
 GT5U.MBTT.Structure.SeeStructure1=请在主方块上使用
 GT5U.MBTT.Structure.SeeStructure2=全息投影，构建主体结构！
-GT5U.MBTT.Structure.MinGlassForLaser=-tier glass required for §9Tec§1Tech§7 Laser Hatches.
-GT5U.MBTT.Structure.GlassEnergyLimit=Energy Hatch limited by Glass tier
-GT5U.MBTT.Structure.GlassEnergyLimitTier=-tier Glass unlocks all.
-GT5U.MBTT.Structure.NoTierSkips=This machine can only run recipes matching its average energy hatch tier.
-GT5U.MBTT.Structure.MaxTierSkips=This machine can run recipes at most %d tiers above its average energy hatch tier.
-GT5U.MBTT.Structure.UnlimitedTierSkips=This machine can run recipes regardless of tier, if given enough energy.
+GT5U.MBTT.Structure.MinGlassForLaser=等级的玻璃为§9Tec§1Tech§7激光仓所需
+GT5U.MBTT.Structure.GlassEnergyLimit=玻璃等级限制了能源仓等级
+GT5U.MBTT.Structure.GlassEnergyLimitTier=等级的玻璃可解锁所有能源仓等级
+GT5U.MBTT.Structure.NoTierSkips=这台机器只能运行其能源仓平均等级的配方。
+GT5U.MBTT.Structure.MaxTierSkips=这台机器能运行其能源仓平均等级以上%d个等级的配方。
+GT5U.MBTT.Structure.UnlimitedTierSkips=只要有足够的能量，这台机器能运行任何等级的配方。
 GT5U.MBTT.HatchInfo=Any %s
 GT5U.MBTT.HatchDots= (dots: %s)
 GT5U.MBTT.BoroGlassAny=Borosilicate Glass (any, mixed)
