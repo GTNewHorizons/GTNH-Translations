@@ -171,7 +171,7 @@ betterquesting.help.page3=§l§n§l§n制作任务%n§r%n如果你想要开始�
 betterquesting.help.page4=§l§n§l§n指令%n§r%n你在设置这个MOD的任务时，只需要知道少量的指令。分别为玩家指令和管理指令，即所有人都可以使用的指令和仅服务器管理员执行的指令。%n%n§o/bq_user refresh%n§r%n在可能发生错误的情况下，将本地任务数据与服务器任务数据同步。%n%n§o/bq_user help%n§r%n给予玩家一本入门指南。%n%n§o/bq_admin edit%n§r%n开启或关闭编辑模式，在开启时，任务菜单中可以对章节和任务进行编辑。记得在发布任务或整合包时关闭编辑模式。%n%n§o/bq_admin hardcore%n§r%n对极限模式的开启和关闭。当玩家的生命耗尽时，服务器中他们会被封禁，单人游戏中他们的存档会被删除。%n%n§o/bq_admin reset [all|<quest_id>] [username|uuid]%n§r%n给服务器开启或发布整合包时将它打开。%n%n§o/bq_admin default [save|load]%n§r%n把当前的设置储存到全局设置中。设置默认将代表任何创建的世界都从这组特定的任务开始。保存数据时还会保存任务数据，极限模式，编辑模式，所以在使用这个指令之前，先用其它指令进行一些设置。%n%n§o/bq_admin complete <quest_id> [username|uuid]%n§r%n给某个玩家直接完成某个任务。%n%n§o/bq_admin delete [all|<quest_id>]%n§r%n删除某个任务的进程和数据，但是它不会删除全局设置中这个任务的数据。%n%n§o/bq_admin lives [add|set|max|default] <value> [username]%n§r%n这个指令用于改变玩家的生命数量，初始生命和最大生命。
 betterquesting.help.page5=§l§n§l§n拓展包%n§r%n可能你会有一些拓展包，它包含了额外的MOD或者在线下载的任务，要使用这些拓展包，你需要点击任务编辑菜单中的“导入”按钮，默认没有任何拓展包，所以如果你需要拓展包，你需要自己去寻找。
 betterquesting.help.page6=§l§n§l§n主题%n§r%n如果你偏爱某一种颜色或者一种类型或感觉，那么你可以通过改变菜单主题来满足你的需求，主题可以改变菜单的样式，主要颜色，图标的样式等等，各种主题都可以通过资源包，资源目录和拓展包来添加。
-betterquesting.help.page7=§l§n§l§n全球定位%n§r%n如果你想把你的任务包给全球其他人使用，请看这里。开始制作你的任务，你得使用一些独特的按键，比如“ §omypack.quest1.name§r” ，而不是纯文本。然后创建一个只包含在这个任务里的资源包。并提供lang.yml语言文件。这些文件也可以存储在更好的任务MOD的目录中，方便更好的打包。
+betterquesting.help.page7=§l§n本地化%n§r%n更好的任务支持任务名和任务介绍的完全本地化，因此如果你想把你的任务包给全球各地的玩家使用，现在你可以做到了！要开始本地化你任务，你需要使用唯一的键，比如“ §omypack.quest1.name§r” ，而不是纯文本。你可以创建一个仅包含 .lang 文件的资源包，用于存放所有特定语言的翻译文本。这些文件也可以存储在更好的任务MOD的资源目录中，方便更好的打包。
 betterquesting.help.page8=§l§n§l§n资源目录%n§r%n如果你想自定义主界面或添加定位文件，你可以通过%n%n"§o/config/betterquesting/resources/<pack_name>/§r"%n%n所有文件夹在这里都可以被视为未列出的个性化包所需。
 
 betterquesting.design.tree=树形图设计
