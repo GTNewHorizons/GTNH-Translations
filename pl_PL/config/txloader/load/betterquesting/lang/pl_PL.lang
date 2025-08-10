@@ -130,7 +130,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.name=§1§lŁadowanie Chunków
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft opiera się na chunkach - kolumnach bloków o wielkości 16x16 kratek, od skały macierzystej do nieba. Chunki w pobliżu ciebie są symulowane, lub innymi słowy, załadowane. Jeśli chunk nie jest załadowany, nic się w nim nie dzieje - rośliny nie rosną, maszyny nie działają. Więc, najlepiej by było gdyby twoja baza była ciągle załadowana gdy eksplorujesz świat. W przyszłości, będziesz chciał aby tak było żeby nagle nie wybuchła, szczególnie maszyny multiblokowe.%n%nChunki można ładować na kilka sposobów:%n%n1) Zainstaluj mod ServerUtilities (Który jest zaktualizowaną wersją FTB Utilities. Spójrz §9§n[url]https://github.com/GTNewHorizons/ServerUtilities/releases[/url]§r) i zajmij chunki, a następnie ustaw aby były ciągle załadowane. Ze standardowymi ustawieniami, możesz nie być w stanie zająć wystarczającej ilości chunków jako jeden gracz, więc spokojnie zwiększ ten limit w ustawieniach. Musisz grać w trybie jednoosobowym lub posiadać własny serwer aby to zrobić.%n%n2) Użyj czterech rodzajów Kotwic z Railcraft, lecz nie będziesz w stanie ich wytworzyć aż do etapu Low Voltage (LV). W trybie Jednoosobowym, lub na swoim serwerze, zcheatuj sobie Administracyjną kotwicę aby ładować chunki wiecznie, i za darmo. Kotwice są ograniczone na serwerach, aby gracze nie obciążali serwera swoją bazą gdy nie ma ich na serwerze. Na oficjalnych serwerach, musisz używać Fragmentów Kresu, Pereł Kresu, lub Monet aby je zasilić. Przeczytaj opis każdego z nich, aby dowiedzieć się jak długo będzie działać, oraz w którym chunkloaderze.%n%n3) Użyj Chunkloadera z GT++. Będziesz potrzebować do niego EU.%n%n4) Użyj jednego z bloków który sam siebie chunkloaduje. Jeśli zrobisz to na serwerze, przygotuj się na to, że administracja będzie na ciebie bardzo zła, jeśli jest to coś zabronionego. Analogicznie dla sposobów z Vanilli. %n%n Nie używaj Chicken Chunks aby zdobyć bloki zbliżone do Kotwic. Jest to zbugowane.
 
 # Quest: Permanent Offhand!
-betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.name=Permanent Offhand!
+betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.name=§9§lPermanent Offhand!
 betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.desc=With the release of version 2.8 of GTNH, the modern offhand slot has been backported and is available for every player. %n%nWith this, we say goodbye to the Battlegear slots of before. The three slots on either side of your hotbar, default key "G", are no longer!%n%nDefault Keybind to swap between mainhand and offhand: §9F§r%n%n[warn]Any items that were in the Battlegear slots should return to your inventory or dropped on the ground if your inventory is full.[/warn]%n%n[note]You can also toggle various Torch Tweaks in Backhand's mod client configs. They are disabled by default, but you may find them useful if you love holding torches in your offhand.[/note]
 
 
@@ -6770,7 +6770,7 @@ betterquesting.quest.RFgYQ7LAQD-p1gHMaeg5Sg.desc=Upon reaching the land of IV ma
 
 # Quest: See You Lather
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=See You Lather
-betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge number of crystal rods you'll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!%n%nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing and the voltage tier:%nParallel = Item Pipe Casing Tier * 8%n%nAdditionally, it has a 300%% speed boost on all recipes compared to the singleblock of that voltage and only consumes 80%% of the EU/t normally required
+betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge number of crystal rods you'll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!%n%nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing.§l%n§§§r§6§9(Parallel = Item Pipe Casing Tier * 8)§r%n%nAdditionally, it has a 300%% speed boost on all recipes compared to the singleblock of that voltage and only consumes 80%% of the EU/t normally required
 
 # Quest: Steam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=Steam Blender?
@@ -11871,6 +11871,10 @@ betterquesting.quest.TBMfXgORRHuggrozS7vsVA.desc=Don't want to spend your Salis 
 betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.name=Who Came Up With This Name??
 betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.desc=Sanitizing Soap isn't strong enough to keep up? %n%nThis soap has a 50%% Chance to reduce your normal warp, increased to 75%% if you have the Warp Ward effect (obtained by Purifying Bath Salts) and increased to 100%% if you're standing inside of the purifying fluid. %nThis soap also has a 100%% chance to cleanse §lall§r of your temporary warp!%n%nIn case you're wondering how to pronounce it: Don't even bother trying.%n
 
+# Quest: Research Completer
+betterquesting.quest.q9PTMZlaR-GCnyoGNoO8Pw.name=Research Completer
+betterquesting.quest.q9PTMZlaR-GCnyoGNoO8Pw.desc=Let's face it... nobody (sane) wants to do all of their research manually!%n%nNow that you've learned how to collect nodes and create a wand recharging pedestal you can make the research completer. This quest shows the minimum required blocks but the structure can be up to 13 in length.%n%nThis machine will consume EU and eat nodes placed in the center of it in exchange for completing research notes given to it. If you're using a long machine it's highly recommended you use node stabilizers underneath your nodes to prevent them from destroying each other.%n%n[note]Of course you need to §lresearch§r the Research Completer, you'll find it in the electro-magic tools tab.[/note]
+
 
 ## Quest Line: Kaaami, Haaaami, ... HA!
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGA.name=Kaaami, Haaaami, ... HA!
@@ -14115,11 +14119,11 @@ betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§2§lCopper Barrel
 betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.desc=The Copper barrel has 45 slots.
 
 # Quest: Main Quests and Secondary Quests
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.name=§1§lMain Quests and Secondary Quests
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.name=§9§lMain Quests and Secondary Quests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.desc=Now that you've made it this far, you might notice how the two new quests look different.%n%nThe quest with the jagged edges is a main quest - it is linked to other main quests by a thick line. You must complete main quests to unlock the next tier and to progress in general. If you can't progress, go back to previous tiers and look for uncompleted main quests.%n%nThe other quest is an optional quest, and is not needed to unlock new tiers. However, optional quests often introduce you to useful items or processes.%n%nWhat are the coins for? You can use them to purchase things in the "Coins, Coins, Coins" questbook tab - you have to scroll to the bottom once it unlocks!%n%nIn case you started in a bad biome, here's enough coins to purchase some saplings.
 
 # Quest: Monster Hunter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.name=§1§lMonster Hunter
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.name=§9§lMonster Hunter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACw.desc=It's about time to craft something more useful: A sword!%n%nNow that you have a sword, you will get credit for monster kills in the Kill All the Things tab. Watch out, monsters in this world will chew you up and spit you out!%n%nYou can find additional weapon quests on the Getting Around tab.
 
 # Quest: What's That...?
@@ -14179,15 +14183,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABhA.name=§6§lDraconic Evolution
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABhA.desc=You have tinkered long and hard to try to combine magic and technology. It looks like you finally found a way! Combining your powers as a thaumaturge and blood mage with your UHV technology you think you have found a way to distill the power of a dragon into a small core. This machine can do it, you are sure. If only you know how precisely to assembler such a core.%n%n[note]Use a hologram projector to see how it is built. You can also upgrade your draconic cores but for that you need the higher tier schematics and you need to upgrade the multiblock.[/note]
 
 # Quest: Shields UP
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvg.name=§1§lShields UP
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABvg.name=§9§lShields UP
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABvg.desc=With a sword in one hand, what can you do with the other? Right, you need a shield. Let's make one.
 
 # Quest: Shield Update
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABwA.name=§1§lShield Update
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABwA.name=§9§lShield Update
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwA.desc=Your wooden shield is very weak. So you should make a better one. Looks like you need some leather, so go and find some cows.
 
 # Quest: Your First 'Long Range' Weapon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.name=§1§lYour First 'Long Range' Weapon
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.name=§9§lYour First 'Long Range' Weapon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABwg.desc=You can't make a vanilla bow or Tinkers weapons yet, but you can make a spear!%n%nSome monsters will become much easier to kill with this long-range weapon.
 
 # Quest: Exploding Fluids For Power
@@ -14347,7 +14351,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.name=§a§b§c§d§e§f§d§l§l§c�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsQ.desc=Your fancy new Large Plasma Turbine will need a rotor to go inside of it.%n%nYou can make it out of any GT material, but the best right now is NORMAL Draconium. [warn]Always test in Creative first![/warn]%n%nWhen using turbines, be careful of flow rates. To find the optimal flow rate, you divide the optimal energy flow rate listed on the turbine, by the energy value for the plasma. You can also use the Large Turbine Calculator (there's a link on the main spreadsheet, which is linked to in discord), or scan the multiblock's controller while feeding it a minimal amount of plasma to see what the optimal flow is. Make sure to use a Fluid Regulator set to this flow rate for highest fuel efficiency, or go beyond it to get more EU/t at a cost to efficiency, with Plasma Turbines being the best at retaining efficiency beyond the optimal flow.%n%nIf you go beyond the optimal flow, you will get a higher EU/t value, but less fuel efficiency, and the maximum EU/t value depends on the turbine type and its Overflow Efficiency tier. For this type of turbine, tier 1 reaches the max at 250%% of optimal flow to produce 158%% of the EU/t, tier 2 reaches the max at 400%% of optimal flow to produce 214%% of the EU/t and tier 3 reaches the max at 550%% of optimal flow to produce 301%% of the EU/t. The closer you get to this maximum, the more fuel efficiency you're throwing away.%n%nThe choice is yours!%n%n[note]For a lot of extra information on fusion, check out the new quest line called Powerful Nuclear Physics.[/note]
 
 # Quest: All Alone in the Night
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.name=§1§lAll Alone in the Night
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.name=§9§lAll Alone in the Night
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=Thanks to our amazing devs, you no longer have to use a command block to reload your questbook between updates. This means you'll get all new quests automatically upon updating to a new version of GTNH! Isn't that convenient?%n%nIf, for whatever reason, you want to manually reload your questbook, you can do so by typing /bq_admin default load in the chat window. You will need to be an admin for it to work, though.%n%nHere's another questbook in case you already lost the one you spawned with. Don't forget that it can also be viewed at any time by pressing the Tilde (~) key if you have not changed its keybind.%n%n§3Some command blocks are still used for specific tasks, but they do not concern the average player since they are admin-only and thus are not craftable.
 
 # Quest: How the Heck Do I Find Ores?
@@ -14359,11 +14363,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2Q.name=§2§lDigging Deeper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2Q.desc=Now that you know what an Ore Chunk is, dig all the way down to bedrock to find if there is a vein located in it.%n%nCheck out an ore in NEI to see where you can find a vein that contains it. Search for it and click on it to get this info, among other things.%n%nThere are many types of ores, even just for getting one material like Iron, so don't stick to only one ore.%n%nYou can also search small ores in NEI, but not all of them are used.
 
 # Quest: Better Questing?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3A.name=§1§lBetter Questing?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3A.name=§9§lBetter Questing?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3A.desc=Better Questing has a number of useful commands for the questbook (QB). You need to have cheats enabled to use them.%n%n/bq_admin default load%nUse this command to update your QB after you update the modpack. It reloads the quest database from the file. Your save file stores a version of the QB that can be different from the one in the file.%n%n/bq_admin edit%nToggles editing quests. Pressing RMB on the quest will open a context menu to share it or copy its ID.%n%n/bq_admin reset all <Player>%nResets all quests. Use this if you want to start over, or are editing the QB. You should specify the player as well if it is a server, otherwise you can skip that part.%n%n/bq_admin reset <ID> <Player>%nResets a specific quest, defined by the quest ID. Sometimes it may be easier to go into Edit Mode > Designer Tool to specify what to reset.%n%n/bq_admin complete <number> <Player>%nCompletes a specific quest, similarly to the above. You can still claim the rewards. Use this command if a quest is broken, and then report it on GitHub, but please check if it's already reported.%n%n/bq_admin default save%nSaves changes to the QB after editing it.%n%n/bq_copyquests <PlayerWithQuestsCompleted> <NewPlayer>%nIf you want to sync the quests with someone in your party, then use this. They won't get any rewards for that though.%n%n/bq_admin hardcore%nEnables BQ3 Hardcore Mode. You only start with 3 lives, so best of luck. Additional life hearts are available in the Kill all the Things tab.%n%nAside from the consume-type quests, a quest counts for everyone in the party if one person finished it. However, if someone joined your party later, you need to get them up to speed first either through /bq_copyquests above, or manually. Otherwise, your quest completion won't count for them because the requirements for that quest are not fulfilled for them.%n%nIf your singleplayer world does not have cheats enabled, go to the ESC screen, open to LAN, then enable cheats. This makes pausing impossible until you reload afterwards. If you host a server, you can run the commands in the command line, without "/". You can also edit the level.dat file, and set 'allowCommands' to 1, but make sure to backup your world before doing that.%n%n[warn]For quests to save properly, you must be online and logged into your Mojang account when starting the game. Sorry, it's a limitation of Better Questing.[/warn]
 
 # Quest: Backup Your Stuff...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.name=§1§lBackup Your Stuff...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.name=§9§lBackup Your Stuff...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.desc=The mod ServerUtilities (SU) is included in the pack to backup your world. You can adjust save path, frequency, and the number of backups to keep in its settings at '.minecraft\serverutilities\serverutilities.cfg'.%n%nIf you need to restore from a backup, you can find them in the backups folder in the instance directory.%n%nRemember that the mods JourneyMap and Thaumcraft Node Tracker store information outside of what most solutions backup, so please backup your journeymap and tcnodetracker folders yourself.%n%nThe Thaumcraft data is a little buggy, losing scanned aspect data and Thaumonomicon data, so consider backing it up as well. The file is at 'saves\<worldname>\playerdata\<nameofplayer>.thaum'.%n%nIf you move to another drive or computer, don't forget to migrate all the backed up files, not just the world folder.
 
 # Quest: Nobody Wants an Explosion...
@@ -14427,11 +14431,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHQ.name=§5§lCable Diodes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHQ.desc=Sometimes you just need a Diode, either to prevent burning up cables when splitting off a main line, or on a Thermos Server's chunk borders. Make one 4A Diode and get a 2A one for free!
 
 # Quest: Mushroom Biomes? Why Are There So Many?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKg.name=§1§lMushroom Biomes? Why Are There So Many?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKg.name=§9§lMushroom Biomes? Why Are There So Many?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKg.desc=The GTNH pack is made for the Realistic World Generator (RWG).%n%nIf your setup uses the vanilla-biomes worldgen, you will get huge Mushroom biomes over the map. If you have this problem, please generate a new world with the RWG.%n%nIf you met this problem on a server, put "level-type=rwg" into the server.properties file and generate a new world.
 
 # Quest: Moron's Manual for Massacring Monsters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.name=§1§lMoron's Manual for Massacring Monsters
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.name=§9§lMoron's Manual for Massacring Monsters
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.desc=If you haven't noticed, this world is a true hellscape full of Special Mobs and Infernals around every corner. Unlike in vanilla, a player has to actually stay aware and pay attention to what they are fighting. Here are some tips.%n%nIf an infernal has Vengeance, don't shoot it with your 56-damage crossbow!%n%nA high health infernal with regeneration is hard to kill. Even worse if it is a witch that can also heal herself. In those cases, run like hell, or bring a soul vial to capture it and throw it into Mount Doom.%n%nWatch out for zombies with fishing poles - they can pull you to them. And zombies with a bow and arrow - they can shoot you back!
 
 # Quest: Moron's Manual for Effective EBFing
@@ -14467,7 +14471,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.name=§6§lDon't Put a Finger in Tha
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.desc=If you want to pass multiple amps through your cleanroom walls, use a one-way Diode. Also handy to limit power when branching off a main power line to trunk lines that normally will not use as many amps, but that you want to prevent catching fire.
 
 # Quest: E_TOO_MANY_KEYS
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.name=§1§lE_TOO_MANY_KEYS
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.name=§9§lE_TOO_MANY_KEYS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=ERROR: Too many keys to fit a 104 key keyboard.%n%nThere are many keybinds in this modpack. To avoid conflicts, most of them are unbound by default. Only the ones available from the start are bound. Note that NEI keybinds are found in the NEI menu and not with the rest of the keybinds.%n%nHere is the list of what some of them do :%n%n%nBetterQuesting%nGRAVE - Open Questbook%n%nDraconic Evolution%nV - Place the item you are holding on the block you are looking at%n%nJourneymap%nB - Create a Waypoint%nCtrl+B - Open the Waypoint Manager%nJ - Open Fullscreen Map%n= - Zoom In (works on minimap too)%n- - Zoom out%n%nInventory Tweaks%nR - Sort Inventory%n%nShare Where I am%nINSERT - Places a temporary beam where you are looking at that will be seen by you and other players%nSHIFT + INSERT - Places a temporary beam where §oyou§r are that will be seen by you and other players%nCTRL + INSERT - Shares the position you are looking at with other players%nCTRL + SHIFT + INSERT - Shares your position with other players%n%nWaila - Shows information about what you are looking at%nNUMPAD1 - show/hide the Waila HUD%nNUMPAD3 - shows how to craft what you are looking at%nNUMPAD4 - shows the crafting usages of the thing you are looking at%n%n%n[note]If you have a non-standard keyboard layout, using the java 17-21 version of GTNH §omight§r help you in being able to use certain keys for keybinds.%n[/note]
 
 # Quest: Safety First
@@ -14499,7 +14503,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.name=§e§d§c§6§lObtaining Ender 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.desc=You can hunt endermen the Vanilla way to get a chance at Ender Pearls, you can purchase Endermen spawn eggs, or try your luck in the End.%n%nOr you can get cruel, and stuff one into a smeltery to melt it down into delicious Liquid Ender and cast pearls from it.%n%nYou monster.%n%nSome of the dungeons have Spawner of Enderman, so you can do whatever you want with it.%n%nTo prevent endermen from teleporting, make sure to cover the smeltery so they don't see the sky.%n%nIf you manage to put a regenerating endermen in there, tag it so it doesn't despawn, and make sure your smeltery is not in a claimed chunk on a server.
 
 # Quest: Numbers in the Corner?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.name=§1§lNumbers in the Corner?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.name=§9§lNumbers in the Corner?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.desc=What's with the numbers in the corner? That is the In-Game Info (IGI) mod. Some of the info it gives is useful right away, some of it shines later on in progression.%n%nFor now, the most important thing it does is showing if you are in an ore chunk. Further quests will explain what it means.%n%nIf you want to hide it, type "/igi disable" in the chat. Type "/igi enable" if you want to turn it back on.%n%nThe command "/igi config" opens the configuration window to control its position, scale, and size.%n%nThe command "/xu_tps" from the mod Extra Utilities toggles numbers to measure ticktime in milliseconds and the TPS (Ticks Per Second). TPS is a measure of how well your server is running. The ideal TPS is 20.00 (meaning a ticktime of at most 50.00). If your TPS is less than 15, things are going to start lagging noticeably. At 10 or less TPS, it is going to be hard to play.%nThe tooltip shows three types of measurement: instantaneous, average, and worst-case. Each one first shows the ticktime and then the TPS in brackets.%n%nIf you need suggestions on solving TPS problems, feel free to ask for help in the GTNH Discord.%n%nWhile GTNH comes with recommended default settings, in particular when it comes to balance, there are many commands and configurations to customize your experience. They range from accessibility or debug tools to visual customization all the way to various cheats. You can find a small overview on [url]https://wiki.gtnewhorizons.com/wiki/Commands_and_Configurations[/url].
 
 # Quest: Bringing the Biome to You
