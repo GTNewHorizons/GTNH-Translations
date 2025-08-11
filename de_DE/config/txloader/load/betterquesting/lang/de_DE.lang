@@ -118,15 +118,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNA.name=§1§lSchweinekoteletts mit Att
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHNA.desc=Der einzige Zombie-Pigman, vor dem du aufpassen musst, ist der Vampir-Pigman. Er erleidet kaum Schaden, es sei denn, du verwendest ein Holzschwert als Pfahl oder hast ein magisches Schwert.
 
 # Quest: Tell Me When We Reach 20
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOQ.name=§1§lSag mir Bescheid, wenn wir 20 erreichen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOQ.desc=Ständiges Springen ist anstrengend und macht dich wirklich hungrig. %nUm deinen Nahrungsbedarf zu reduzieren, solltest du lieber Treppen benutzen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOQ.name=§9§lSag mir Bescheid, wenn wir 20 erreichen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHOQ.desc=Ständiges Springen ist anstrengend und macht dich wirklich hungrig.%nUm deinen Nahrungsbedarf zu reduzieren, solltest du lieber Treppen benutzen.
 
 # Quest: Staying Cool in the Heat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQA.name=§1§lCool bleiben bei der Hitze
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQA.name=§9§lCool bleiben bei der Hitze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQA.desc=Wenn du zufällig in der Nähe eines Schnee Biom bist, kannst du den Schnee ernten, um köstliche Smoothies herzustellen. Sie sättigen besser als die Beeren alleine zu essen.
 
 # Quest: Loading the Chunks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.name=§1§lChunks laden
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.name=§9§lChunks laden
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft funktioniert in Chunks – den 16x16-Säulen von Blöcken, die sich von Bedrock bis zum Himmel erstrecken. Die Chunks in einem Radius um dich herum werden simuliert, oder anders gesagt, sie sind chunkloaded. Wenn ein Chunk nicht geladen ist, passiert darin nichts – Pflanzen wachsen nicht, Maschinen arbeiten nicht. Deshalb solltest du deine Basis chunkloaded haben, wenn du auf Erkundungstour gehst. Später möchtest du deine Basis chunkloaded haben, damit nichts spontan explodiert, insbesondere bei Multi-Block-Maschinen.%n%n%nDu kannst auf verschiedene Weise Chunks laden:%n%n1)ServerUtilities-Mod. Mit den Standardeinstellungen kannst du nicht chunkloaden. Du kannst diese Einstellung jedoch in der Konfiguration ändern, wenn du im Einzelspieler-Modus (SP) oder auf deinem eigenen Server spielst.%n%n2)Vier Arten von Ankern aus Railcraft. Diese sind allerdings erst ab der Niederspannungszeitalter (LV) herstellbar. Im Einzelspieler-Modus oder auf einem eigenen Server kannst du Admin-Anker cheaten, die kostenlos und dauerhaft chunkloaden. Auf Servern sind diese eingeschränkt, um TPS-Abfälle zu vermeiden, wenn Spieler ihre Basis für immer chunkloaden, obwohl sie gar nicht da sind. Auf den offiziellen Servern musst du Ender-Fragmente, Enderperlen oder Münzen verwenden, um sie zu betreiben. Schau dir das Tooltip auf jedem Anker an, um zu sehen, wie lange er funktioniert und in welchem Chunkloader.%n%n3)Chunkloader aus GT++. Dafür benötigst du EU Strom.%n%n4)Selbstladende Blöcke. Wenn du das auf einem Server machst, könnten die Admins möglicherweise sehr verärgert sein, wenn es nicht erlaubt ist. Das Gleiche gilt für Vanilla-Methoden.%n%n%nVermeide es, Chicken Chunks zu verwenden, um anchorähnliche Blöcke zu erhalten, da es fehlerhaft ist.
 
 # Quest: Permanent Offhand!
@@ -140,7 +140,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAALA.desc=All unser gesammeltes Wisse
 
 # Quest: Automating Power On/Off
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.name=§6§lAutomatisches Ein- und Ausschalten der Energie
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=Sobald du einen GT-Boiler oder einen großen Verbrennungsmotor mit langer Startzeit besitzt, möchtest du diese möglicherweise automatisiert ein- und ausschalten, um Treibstoff zu sparen, da überschüssige Energie oder Dampf einfach verloren geht. Je größer dein Dampf-/EU-Puffer ist, desto weniger Zeit verbringen deine Generatoren mit dem Aufheizen, was sie effizienter macht. %n%nVerwende dafür eine Maschinensteuerungsabdeckung an der Steuerung. Du kannst sie oben, unten oder an den Seiten neben einem Gehäuse anbringen – Gehäuse übertragen das Redstonesignal. Mit einem Lötkolben und feinem Lötlegierungsdraht kannst du den Redstone-Ausgang eines Steuerungsblocks auf „stark“ einstellen. Wenn auf „stark“ gesetzt, kann das Signal durch ein Gehäuse gehen, aber nicht durch Luken, Busse oder andere Blöcke. Verwende es mit einem Aktivitätsdetektor, wenn du ein Signal von der Steuerung empfangen möchtest, anstatt sie nur ein-/auszuschalten. %n%nMit einer Maschinensteuerungsabdeckung kannst du die Maschine mit Redstone ein- und ausschalten. Das ist praktisch, wenn du sie nicht ständig selbst mit einem weichen Hammer deaktivieren möchtest. %n%nDer beste Weg hierfür ist ein RS-Latch. Ein Eingang schaltet die Maschine ein, ein anderer schaltet sie aus. Verwende einen Comparator, der an ein Ventil angeschlossen ist, um den Dampfpegel in deinem Multiblock-Eisen- oder Stahl-Tank zu messen. Invertiere das Signal, damit der Boiler eingeschaltet wird, wenn der Dampfpegel niedrig ist. Wenn der Dampfpegel hoch ist, schalte den Boiler aus. Verlege eine Redstone-Leitung, um die Signalstärke zu verringern. Aufgrund der Aufheizzeit von Boiler/Turbine solltest du die EIN-Signalstärke auf 30 Prozent der Kapazität und die AUS-Signalstärke auf etwa 90 Prozent einstellen. %n%nRote Legierungsdrähte halten ein Redstonesignal über eine längere Distanz als normales Redstone, während Redstone-Leitungen unendlich weit reichen. Du kannst auch verstärktes Redkristall verwenden, um die Signalstärke über eine große Entfernung zu verbessern, und es bei Bedarf wiederholen. %n%nDu kannst eine Energie-Detektor-Abdeckung im normalen elektrischen Speicher-Modus verwenden, um die Energie in einem Batterie-Puffer zu überwachen und damit Generatoren auf ähnliche Weise ein- oder auszuschalten. Ändere den Modus mit einem Schraubendreher. Wenn du dichtes Redkristall verwendest, lässt es Signale nur ab einem bestimmten Pegel durch – ideal für die Automatisierung solcher Aufgaben. %n%nDu kannst Maschinensteuerungsabdeckungen nicht nur bei Generatoren verwenden, sondern auch bei jedem Multiblock und den meisten Einzelblöcken. Das ist nützlich, um das Leeren von Materialien zu verhindern. Im Gegensatz zu GT++-Multiblöcken, die anhalten, wenn sie voll sind, arbeiten Nicht-GT++-Multiblöcke weiter und leeren dabei möglicherweise große Mengen an Materialien. Du solltest sie in Kombination mit Flüssigkeits- oder Gegenstandserkennungsabdeckungen an der Ausgabeluke oder dem Bus verwenden. %n%nFür eine Videoanleitung, sieh dir dieses Video an: [url]https://www.youtube.com/watch?v=jPfnifJEO64[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=Sobald du einen GT-Boiler oder einen großen Verbrennungsmotor mit langer Startzeit besitzt, möchtest du diese möglicherweise automatisiert ein- und ausschalten, um Treibstoff zu sparen, da überschüssige Energie oder Dampf einfach verloren geht. Je größer dein Dampf-/EU-Puffer ist, desto weniger Zeit verbringen deine Generatoren mit dem Aufheizen, was sie effizienter macht. %n%nVerwende dafür eine Maschinensteuerungsabdeckung an der Steuerung. Du kannst sie oben, unten oder an den Seiten neben einem Gehäuse anbringen – Gehäuse übertragen das Redstonesignal. Mit einem Lötkolben und feinem Lötlegierungsdraht kannst du den Redstone-Ausgang eines Steuerungsblocks auf „stark“ einstellen. Wenn auf „stark“ gesetzt, kann das Signal durch ein Gehäuse gehen, aber nicht durch Luken, Busse oder andere Blöcke. Verwende es mit einem Aktivitätsdetektor, wenn du ein Signal von der Steuerung empfangen möchtest, anstatt sie nur ein-/auszuschalten. %n%nMit einer Maschinensteuerungsabdeckung kannst du die Maschine mit Redstone ein- und ausschalten. Das ist praktisch, wenn du sie nicht ständig selbst mit einem weichen Hammer deaktivieren möchtest. %n%nDer beste Weg hierfür ist ein RS-Latch. Ein Eingang schaltet die Maschine ein, ein anderer schaltet sie aus. Verwende einen Comparator, der an ein Ventil angeschlossen ist, um den Dampfpegel in deinem Multiblock-Eisen- oder Stahl-Tank zu messen. Invertiere das Signal, damit der Boiler eingeschaltet wird, wenn der Dampfpegel niedrig ist. Wenn der Dampfpegel hoch ist, schalte den Boiler aus. Verlege eine Redstone-Leitung, um die Signalstärke zu verringern. Aufgrund der Aufheizzeit von Boiler/Turbine solltest du die EIN-Signalstärke auf 30 Prozent der Kapazität und die AUS-Signalstärke auf etwa 90 Prozent einstellen. %n%nRote Legierungsdrähte halten ein Redstonesignal über eine längere Distanz als normales Redstone, während Redstone-Leitungen unendlich weit reichen. Du kannst auch verstärktes Redkristall verwenden, um die Signalstärke über eine große Entfernung zu verbessern, und es bei Bedarf wiederholen. %n%nDu kannst eine Energie-Detektor-Abdeckung im normalen elektrischen Speicher-Modus verwenden, um die Energie in einem Batterie-Puffer zu überwachen und damit Generatoren auf ähnliche Weise ein- oder auszuschalten. Ändere den Modus mit einem Schraubendreher. Wenn du dichtes Redkristall verwendest, lässt es Signale nur ab einem bestimmten Pegel durch – ideal für die Automatisierung solcher Aufgaben.%n%nFür eine Videoanleitung, sieh dir dieses Video an: [url]https://www.youtube.com/watch?v=jPfnifJEO64[/url]
 
 # Quest: Underground Fluids
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.name=Unterirdische Flüssigkeiten
@@ -181,7 +181,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEw.desc=Dieses schicke kleine Gerät fu
 
 # Quest: Gravel: The Gathering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFA.name=§2§lKies: Die Beschaffung
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFA.desc=Deine Werkzeuge werden irgendwann an Haltbarkeit verlieren. Es wäre eine gute Idee, mehr Kies zu sammeln, um dir Flint für weitere Werkzeuge zu besorgen. Versuche, in der Nähe von Wasser zu suchen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFA.desc=Du denkst es wäre eine gute Idee, mehr Kies zu sammeln, um dir Feuersteine für die weitere Reise zu besorgen. Versuche, in der Nähe von Wasser zu suchen.
 
 # Quest: Clay: The Gathering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAFQ.name=§2§lTon: Die Beschaffung
@@ -205,7 +205,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGg.desc=Wie du vielleicht bemerkt hast,
 
 # Quest: Finally, Some Powerful Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGw.name=§2§lSchließlich: Ein kraftvoller Treibstoff
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGw.desc=Jetzt, wo du einen Koksofen hast, kannst du mit der Herstellung von Holzkohle beginnen. Je mehr, desto besser. Kreosot wird zur gleichen Zeit, als Abfallprodukt, produziert, und der Koksofen hört auf, wenn er mit einem der beiden Produkte voll ist, was bedeutet, dass du das Kreosot nicht einfach liegen lassen kannst. Schau dir das Kreosot-Quest von vorhin an, um zu erfahren, was du damit machen kannst.%n%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAGw.desc=Jetzt, wo du einen Koksofen hast, kannst du mit der Herstellung von Holzkohle beginnen. Je mehr, desto besser. Kreosot wird zur gleichen Zeit, als Abfallprodukt, produziert, und der Koksofen hört auf, wenn er mit einem der beiden Produkte voll ist, was bedeutet, dass du das Kreosot nicht einfach liegen lassen kannst. Schau dir das Kreosot-Quest von vorhin an, um zu erfahren, was du damit machen kannst.
 
 # Quest: Copper Sky, Iron Curtain
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAHA.name=§2§lKupferner Himmel, Eiserner Vorhang
@@ -229,11 +229,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIA.desc=Nachdem du eine Möglichkeit ge
 
 # Quest: Tinker-Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.name=§2§lTinker-Zeit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=Die Feuersteinwerkzeuge machen zwar Spaß beim Töten von Schweinen und Kühen, aber sie sind nicht lange haltbar und können nicht repariert werden. Außerdem lachen die Höllenwesen über deine Versuche, sie zu töten. Du hast herausgefunden, wie du Werkzeuge herstellen kannst, die repariert und verbessert werden können, aber dafür brauchst du auf jeden Fall eine fortgeschrittenere Handwerkstechnik.%n%nWenn du für deine Tische anderes Holz als Eiche verwenden musst, kannst du sie in die Standardholzart Eiche umwandeln, um diese Quest abzuschließen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=Die Holzwerkzeuge machen zwar Spaß beim Töten von Schweinen und Kühen, aber sie sind nicht lange haltbar und können nicht repariert werden. Außerdem lachen die Höllenwesen über deine Versuche, sie zu töten. Du hast herausgefunden, wie du Werkzeuge herstellen kannst, die repariert und verbessert werden können, aber dafür brauchst du auf jeden Fall eine fortgeschrittenere Handwerkstechnik.%n%nWenn du für deine Tische anderes Holz als Eiche verwenden musst, kannst du sie in die Standardholzart Eiche umwandeln, um diese Quest abzuschließen.
 
 # Quest: Zinc Gravel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lAluminini...um...?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=Wie auch immer es buchstabiert wird, du wirst es brauchen. Du kannst es in Kiesbrocken auf der Oberfläche finden.%n%nVerwendet so wenig wie möglich und hebt den Rest auf, wenn du im Dampfzeitalter einen Makerator erhältst, dann bekommst du doppelt so viel.%n%nWenn du keins finden kannst, kannst du Aluminium-Erzbeeren von Questbelohnungen erhalten, um sie zu pflanzen, oder du kannst sie im Münzen-Tab kaufen.%n%nWenn du genug davon bekommst und es vollständig verarbeitest, kannst du auch Rutil für Titan daraus gewinnen. Wenn du einen Block davon bekommst, kannst du die Titania-Ernte anbauen, um mehr aus UUM zu machen. Der Nicht-Raketenlauf beginnt hier!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§2§lZinkkies
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=Du kannst es in Kiesbrocken auf der Oberfläche finden.%n%nVerwendet so wenig wie möglich und hebt den Rest auf, wenn du im Dampfzeitalter einen Makerator erhältst, dann bekommst du doppelt so viel.%n%nWenn du keins finden kannst, kannst du sie im Münzen-Tab kaufen.%n%nWenn du genug davon bekommst und es vollständig verarbeitest, kannst du auch Gallium für Galliumarsenid im LV bekommen.
 
 # Quest: Making Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§2§lBronze herstellen
@@ -249,7 +249,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.desc=Eisen kann in mehreren Adern vo
 
 # Quest: Making Better Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.name=§2§lBessere Werkzeuge herstellen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.desc=Mit Aluminium und Kupfer kannst du ein Material mit einer höheren Schmelztemperatur herstellen - Aluminium-Messing -, das zum Gießen besserer Werkzeuge verwendet werden kann. Siehe die Registerkarte Multiblock-Ziele für Details. Du kannst auch ein paar zusätzliche Blöcke aus einigen Dörfern mitnehmen, aber sie zählen nicht für die Quest.%n%nAlternativ gibt es auch einmalig verwendbare Lehmgüsse.%n%nDann kannst du deine schicke Bronze verwenden, um bessere Werkzeuge mit einer höheren Bergbaustufe herzustellen.%n%nDenkt daran, dass du die Spitzhacke ein wenig benutzen musst, um Bergbau-EP zu sammeln, wenn du die volle Bergbaustufe auf deiner Bronze-Spitzhacke haben willst. Bestimmte Werkzeug-Upgrades kann dir diese direkt geben, wenn du einen Upgrade-Slot zur Verfügung auf der jeweiligen Bronze-Spitzhacke hast.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.desc=Mit Zink und Kupfer kannst du ein Material mit einer höheren Schmelztemperatur herstellen - Messing -, das zum Gießen besserer Werkzeuge verwendet werden kann. Siehe die Registerkarte Multiblock-Ziele für Details. Du kannst auch ein paar zusätzliche Blöcke aus einigen Dörfern mitnehmen, aber sie zählen nicht für die Quest.%n%nAlternativ gibt es auch einmalig verwendbare Lehmgüsse.%n%nDann kannst du deine schicke Bronze verwenden, um bessere Werkzeuge mit einer höheren Bergbaustufe herzustellen.%n%nDenkt daran, dass du die Spitzhacke ein wenig benutzen musst, um Bergbau-EP zu sammeln, wenn du die volle Bergbaustufe auf deiner Bronze-Spitzhacke haben willst. Bestimmte Werkzeug-Upgrades kann dir diese direkt geben, wenn du einen Upgrade-Slot zur Verfügung auf der jeweiligen Bronze-Spitzhacke hast.
 
 # Quest: Better Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.name=§2§lBesseres Lager
@@ -257,7 +257,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.desc=Normale Truhen eignen sich zwar
 
 # Quest: You Shall Proceed
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKA.name=§2§lDu sollst vorgehen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKA.desc=Wenn du alle Materialien und Werkzeuge für deine grundlegenden Dampfmaschinen gesammelt und hergestellt hast, kannst du nun zur nächsten Stufe übergehen. Denk daran, dass du Berge von Rohstoffen braucht, um selbst die einfachsten Dinge herzustellen, also solltest du dich mit allen Erzen in dieser Stufe eindecken. Aber das bleibt dir selbst überlassen.%n%nAls besondere Belohnung erhältst du eine Holobrille, mit der du in deine Vorräte schauen kannst. Legt sie in den Maskenschlitz und schaltet sie mit der Tastenkombination ein. Manchmal wird sie irgendwie ausgeschaltet, also versuche, die Taste zu drücken, wenn das passiert.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKA.desc=Wenn du alle Materialien und Werkzeuge für deine grundlegenden Dampfmaschinen gesammelt und hergestellt hast, kannst du nun zur nächsten Stufe übergehen. Denk daran, dass du Berge von Rohstoffen braucht, um selbst die einfachsten Dinge herzustellen, also solltest du dich mit allen Erzen in dieser Stufe eindecken. Aber das bleibt dir selbst überlassen.%n%nAls besondere Belohnung erhältst du eine Holobrille, mit der du in deine Vorräte schauen kannst. Legt sie in den Maskenschlitz und schaltet sie mit der Tastenkombination ein.%n%n[note]Tipp: Wenn du doppelt auf das NEI-Suchfeld klickst, wird die resultierende hervorgehobene Suche auch auf das angewendet, was du mit deiner Holo-Brille sehen kannst![/note]
 
 # Quest: Don't Burn Your Fingers!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKQ.name=§2§lVerbrenn dir nicht die Finger!
@@ -317,7 +317,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB6Q.desc=Deine Lunchtüte ist inzwischen
 
 # Quest: Sleeping Outside
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB6w.name=§2§lSchlafen im Freien
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB6w.desc=Das Bett die ganze Zeit mit sich herumzutragen sieht sehr komisch aus. Warum bastelst du dir nicht einen Schlafsack, um draußen zu bleiben, ohne ein Bett aufzustellen und deinen Spawn-Punkt zu ändern. Wenn du stirbst, bist du sofort wieder zu Hause!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB6w.desc=Das Bett die ganze Zeit mit sich herumzutragen sieht sehr komisch aus. Warum bastelst du dir nicht einen Schlafsack, um draußen zu bleiben, ohne ein Bett aufzustellen und deinen Spawn-Punkt zu ändern? Wenn du stirbst, bist du sofort wieder zu Hause!
 
 # Quest: Sheep Hairdresser
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB7A.name=§2§lSchafsfriseur
@@ -333,11 +333,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8g.desc=Die Erkundung einiger Dungeons 
 
 # Quest: Better Than Barrels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.name=§1§2§lBesser als Fässer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.desc=Während Fässer einen Steckplatz für einen einzigen Gegenstand bieten, können Schubladen bis zu 4 Steckplätze haben und 16 Stapel pro Steckplatz aufnehmen. Man kann sie nicht nach oben oder unten ausrichten, und man kann nur von vorne auf den Inhalt zugreifen. Automatisierungen können jedoch, jede Seite nutzen. 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1w.desc=Während Fässer einen Slot für einen einzigen Gegenstand bieten, können Lagerkästen bis zu 4 Steckplätze haben und 16 Stapel pro Slot aufnehmen. Man kann sie nicht nach oben oder unten ausrichten, und man kann nur von vorne auf den Inhalt zugreifen. Automatisierungen können jedoch, jede Seite nutzen.
 
 # Quest: Compact Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2A.name=§2§lKompakte Schubladen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2A.desc=Sie sind sehr kompakt und verleihen Ihrem glorreichen Zuhause eine gewisse Raffinesse. 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2A.desc=Sie sind sehr kompakt und verleihen deinem glorreichen Zuhause eine gewisse Raffinesse.
 
 # Quest: Framing Drawers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2Q.name=§2§lFraming Schubladen
@@ -361,7 +361,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADOg.desc=Mit Eisenwerkzeugen kannst du d
 
 # Quest: Chad - A Better Way to Make Paper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADsQ.name=§2§lChad - Ein besserer Weg, Papier herzustellen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADsQ.desc=Papier aus Holzbrei und Wasser herzustellen kann mühsam und schwierig sein. Warum nicht eine Mühle verwenden, um Zuckerrohr in „Chad“ zu mahlen, und es dann mit zwei Steinstufen zu Papier pressen? Später kannst du das Chemikalienbad verwenden, um ein noch besseres Verhältnis zu erzielen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADsQ.desc=Papier aus Holzzellstoff und Wasser herzustellen kann mühsam und schwierig sein. Warum nicht eine Mörser verwenden, um Zuckerrohr in Papierschnipsel zu mahlen, und es dann mit zwei Steinstufen zu Papier pressen? Später kannst du das Chemikalienbad verwenden, um ein noch besseres Verhältnis zu erzielen.
 
 # Quest: Punji Sticks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADsw.name=§2§lPunji-Stöcke
@@ -377,7 +377,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4A.desc=Der Erzfinderstab vereinfacht d
 
 # Quest: A Better Crafting Table
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5A.name=§2§lEin Bessere Werkbank
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5A.desc=Bist du es leid, dass deine Sachen aus der Werkbank fallen, jedes Mal wenn du weggehst? Dieser fancy Tisch aus Tinkers Construct hat Slots, um die Gegenstände deines Rezepts zu halten. %n%nDu kannst ihn auch verwenden, um Werkzeuge mit 8 Modifikatoren gleichzeitig aufzuwerten. Sehr praktisch für zusätzliche Geschwindigkeit mit Redstone und Looting mit Lapislazuli!%n%nWenn er neben einer normalen Truhe platziert wird, zeigt er sogar das Inventar der Truhe im Bastelbereich an. Dabei funktionieren hierbei nur einzelne oder doppelte normale Truhen.%n%nAußerdem kannst du deine Säge für eine noch kleinere Version, dieser Werkbank verwenden.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5A.desc=Bist du es leid, dass deine Sachen aus der Werkbank fallen, jedes Mal wenn du weggehst? Dieser fancy Tisch aus Tinkers Construct hat Slots, um die Gegenstände deines Rezepts zu halten. %n%nDu kannst ihn auch verwenden, um Werkzeuge mit 8 Modifikatoren gleichzeitig aufzuwerten. Sehr praktisch für zusätzliche Geschwindigkeit mit Redstone und Plünderung mit Lapislazuli!%n%nWenn er neben einer normalen Truhe platziert wird, zeigt er sogar das Inventar der Truhe im Bastelbereich an. Dabei funktionieren hierbei nur einzelne oder doppelte normale Truhen.%n%nAußerdem kannst du deine Säge für eine noch kleinere Version, dieser Werkbank verwenden.
 
 # Quest: All the Finest Cuts of Meat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxA.name=§2§lAller feinste Fleischstücke
@@ -409,7 +409,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPA.desc=... Aber sie wird nie aufhören
 
 # Quest: No Self-Healing Tools Here...Yet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.name=§2§lKein Selbstheilungswerkzeug hier... noch nicht
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.desc=Neue Spieler werden vielleicht überrascht sein, dass der Tinker's Construct "Kugel aus Moos" in NEI kein tatsächliches Rezept enthält. %n%nIn diesem Paket musst du zuerst Fachwissen in Thaumcraft erwerben, um es herzustellen. Werde ein gefährlicher Zauberer und du erhältst die nötige Kraft, um den "Ball aus Moos" herzustellen und deine Werkzeuge sich selbst heilen zu lassen. Natürlich musst du in den Twilight Forest gehen und einige Aluminiumbarren besorgen, bevor du anfangen kannst. Die "Kugel aus Moos" befindet sich im GTNH-Register des Thaumonomikons und muss infundiert werden. Das Thaumonomikon enthält noch viele andere großartige Dinge, aber hüte dich vor dem Warp.%n%nTrinke ein Bier, um dich auf deine lange Reise vorzubereiten.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.desc=In diesem Paket musst du zuerst Fachwissen in Thaumcraft erwerben, um die Tinker's Construct "Kugel aus Moos" herzustellen. Werde ein gefährlicher Zauberer und du erhältst die nötige Kraft, um die "Kugel aus Moos" herzustellen und deine Werkzeuge sich selbst heilen zu lassen. Natürlich musst du in den Twilight Forest gehen und einige Aluminiumbarren besorgen, bevor du anfangen kannst. Die "Kugel aus Moos" befindet sich im GTNH-Register des Thaumonomikons und muss infundiert werden. Das Thaumonomikon enthält noch viele andere großartige Dinge, aber hüte dich vor dem Warp.%n%nTrinke ein Bier, um dich auf deine lange Reise vorzubereiten.
 
 # Quest: Options For Finding Zinc in This Tier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.name=§2§lMöglichkeiten in dieser Stufe Zink zu finden
@@ -429,7 +429,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoA.desc=Möchtest du Gebüsch entfernen
 
 # Quest: Personally, I Prefer Pepsi™
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoQ.name=§2§lIch selbst, ich bevorzuge Pepsi™
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoQ.desc=Dir ist vielleicht aufgefallen, dass du mehr als nur Holzkohle im Koksofen machen kannst, du kannst auch Koks (Ja, ist ein Fachbegriff!) machen.%n%nDie Daten unten zeigen die Brenndauer (BD), wie lange es in Ticks dauert - 20 Ticks sind 1 Sekunde - und wie viel Kreosot (Kr) man bekommt.%n%nKohle 1600BD + 1800t -> Kohlekoks 3200BD + 500l Kr%nHolzstamm 300BD + 1800t -> Holzkohle 1600BD + 250l Kr%nKaktus 50BD + 500t -> Kaktusholzkohle 400BD + 30l Kr%nKaktusholzkohle 400BD + 500t -> Kaktuskoks 800BD + 30l Kr%nZuckerrohr 50BD + 500t -> Zuckerholzkohle 400BD + 30l Kr%nZuckerholzkohle 400BD + 500t -> Zuckerkoks 800BD + 30l Kr%n%nDu möchtest möglichst alles Koks aufbewahren, um Stahl im Gemauerten Schmelzofen (GSO) später zu machen. Und für alles andere, gucke in NEI für die verschiedenen Einsatzgebiete der Kohlevarianten, denn es gibt viele.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKoQ.desc=Dir ist vielleicht aufgefallen, dass du mehr als nur Holzkohle im Koksofen machen kannst, du kannst auch Koks machen.%n%nDu möchtest möglichst alles Koks aufbewahren, um Stahl im Gemauerten Schmelzofen (GSO) später zu machen. Und für alles andere, gucke in NEI für die verschiedenen Einsatzgebiete der Kohlevarianten, denn es gibt viele.%n%n[note]Sobald du das Dampfzeitalter erreichst, kannst du deinen Zucker und Kaktus-Koks für höhere Effizienz komprimieren, genau wie normale Kohle und Holzkohle.[/note]
 
 # Quest: More Food, More Hearts
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsQ.name=§2§lMehr Essen, Mehr Herzen
@@ -466,7 +466,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAEA.desc=Mehr als 16 Eimer Flüssigkeit 
 
 # Quest: Welcome to Tier 0.5, Steam!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.name=§3§lStufe 0.5 - Willkommen im Dampfzeitalter!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.desc=Willkommen und gut gemacht bisher! In dieser Stufe geht es um deine ersten Maschinen, darum, mehr aus deinen Erzen herauszuholen und Bronze-Barren effizienter herzustellen.%n%nFür Wasser schau dir den Multiblock „Wasserseitentank“ auf der Registerkarte „Multiblock Ziele“ an.%n%nUm deine Kessel ans Wasser anzuschließen, stelle sicher, dass du dein Wasser von unten zuführst, der Kessel nimmt nur Wasser von dieser Seite an, sodass keine Gefahr besteht, dass dein Rohr, durch die Hitze, schmilzt. Zum zuführen von Wasser, kannst du Holzrohre verwenden. Achte besonders darauf, dass dir nie das Wasser ausgeht – [warn]das Nachfüllen von Wasser in einen trockenen, heißen Kessel führt zu einer Explosion![/warn]%n%nAn den Seiten tritt Dampf aus. Denk daran, dass Dampf heiß ist! Er zerstört Holzrohre. Und du kannst dich verbrennen, wenn du auf bronzene Rohre voller Dampf trittst. Decke sie mit Holzbrettern oder Papier ab. Oder geh einfach nicht auf sie drauf oder daneben. 
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.desc=Willkommen und gut gemacht bisher! In dieser Stufe geht es um deine ersten Maschinen, darum, mehr aus deinen Erzen herauszuholen und Bronze-Barren effizienter herzustellen.%n%nFür Wasser schau dir den Multiblock „Wasserseitentank“ auf der Registerkarte „Multiblock-Ziele“ an.%n%nUm deine Kessel ans Wasser anzuschließen, stelle sicher, dass du dein Wasser von unten zuführst, der Kessel nimmt nur Wasser von dieser Seite an, sodass keine Gefahr besteht, dass dein Rohr, durch die Hitze, schmilzt. Zum zuführen von Wasser, kannst du Holzrohre verwenden. Achte besonders darauf, dass dir nie das Wasser ausgeht – [warn]das Nachfüllen von Wasser in einen trockenen, heißen Kessel führt zu einer Explosion![/warn]%n%nAn den Seiten tritt Dampf aus. Denk daran, dass Dampf heiß ist! Er zerstört Holzrohre. Und du kannst dich verbrennen, wenn du auf bronzene Rohre voller Dampf trittst. Decke sie mit Holzbrettern oder Papier ab. Oder geh einfach nicht auf sie drauf oder daneben.
 
 # Quest: More Advanced Alloys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALg.name=§3§lWeitere Fortgeschrittene Legierungen
@@ -478,7 +478,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAALw.desc=Wie bei den meisten Maschinen g
 
 # Quest: A Very Important Alloy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMA.name=§3§lEine sehr wichtige Legierung
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMA.desc=Die wichtigste Legierung (bis ihr eine höhere Stufe erreicht) ist zweifellos die Rotlegierung. Glücklicherweise habt ihr eine Legierungsschmelze, also schnappt euch etwas Redstone und kombiniert es mit Kupfer, um euch eine Handvoll davon zu besorgen. %n%nVerwechselt eure Bronze nicht mit eurem Kupfer, sonst werdet ihr euch am Kopf kratzen und wundern.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMA.desc=Die wichtigste Legierung (bis ihr eine höhere Stufe erreicht) ist zweifellos die Rotlegierung. Glücklicherweise habt ihr eine Legierungsofen, also schnappt euch etwas Redstone und kombiniert es mit Kupfer, um euch eine Handvoll davon zu besorgen. %n%nVerwechselt eure Bronze nicht mit eurem Kupfer, sonst werdet ihr euch am Kopf kratzen und wundern.
 
 # Quest: The Hell is That?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAMQ.name=§3§lWas zur Hölle ist das?
@@ -2934,8 +2934,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAA.name=§b§lVerarbeitung der Platingr
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAA.desc=Wenn du Platin verarbeitet hast, solltest du eine Menge Platinrückstandsstaub herumliegen haben.%n%nJetzt kannst du ihn endlich verarbeiten und all die restlichen wertvollen seltenen Metalle daraus gewinnen. Dazu benötigen wir jedoch etwas davon, um Kaliumdisulfat herzustellen, und es dann zu flüssig-extrahieren, um die geschmolzene Version zuvor zu erhalten.
 
 # Quest: First Separation - Rhodium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAQ.name=§b§lFirst Separation - Rhodium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAQ.desc=The Platinum Group processing line (AKA Platline) is a multi-step complicated process. Because of its complexity, and how much you need, you should have a processing line running all the time. You should be able to comprehend it better after doing these quests. Or maybe you set it up already, and you're siphoning off some of the results? Either way.%n%nAs a first step in getting Rhodium, Ruthenium, Iridium, and Osmium, we will split apart the Rhodium from the other metals in an EBF with the Potassium Disulfate you made previously.%n%nThe amounts for this step are pretty annoying, blame Bart for that.%n%n[warn]Your output hatch needs to be at the bottom to collect the Rhodium Sulfate.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAQ.name=§b§lErste Trennung - Rhodium
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAQ.desc=Die Verarbeitungslinie für die Platingruppe (auch Platlinie genannt) ist ein mehrstufiger, komplizierter Prozess. Aufgrund seiner Komplexität und der benötigten Menge solltest du eine Verarbeitungslinie haben, die die ganze Zeit läuft. Du solltest sie nach Abschluss dieser Quests besser verstehen. Oder vielleicht hast du sie ja schon aufgebaut und zweigst bereits einige der Ergebnisse ab? So oder so.%n%nAls ersten Schritt, um Rhodium, Ruthenium, Iridium und Osmium zu erhalten, werden wir das Rhodium mithilfe des Kaliumdisulfats, das du zuvor hergestellt hast, in einem EHO von den anderen Metallen abspalten.%n%nDie Mengen für diesen Schritt sind ziemlich nervig, gib Bart die Schuld dafür.%n%n[warn]Deine Ablassöffnung muss sich am Boden befinden, um das Rhodiumsulfat zu sammeln.[/warn]
 
 # Quest: Second Separation - Ruthenium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJAg.name=§b§lSecond Separation - Ruthenium
@@ -14272,7 +14272,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADpw.desc=Put those single EU panels on a
 
 # Quest: More Compact Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.name=§2§lMehr Kompakter Speicher
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.desc=Jetzt, da Du immer mehr Eisen findest, merkst Du, dass Deine Kupfertruhen zu klein sind, um all die Sachen zu verstauen. %n%n[note]Sind Deine Kupfertruhen zu klein? Du kannst sie auch mit einem passenden Upgrade-Item aufrüsten.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPQ.desc=Jetzt, da du immer mehr Eisen findest, merkst du, dass deine Kupfertruhen zu klein sind, um all die Sachen zu verstauen. %n%n[note]Sind Deine Kupfertruhen zu klein? Du kannst sie auch mit einem passenden Verbesserungs-Item aufrüsten.[/note]
 
 # Quest: Diamond Chests... Ooo, Shiny
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERg.name=§5§lDiamanttruhen... Ooo, glänzend
