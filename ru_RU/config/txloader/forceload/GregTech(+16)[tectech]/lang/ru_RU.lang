@@ -622,7 +622,7 @@ gt.blockcasingsTT.10.desc.0=Удаленное соединение.
 gt.blockcasingsTT.10.desc.1=Сначала лучше бросить камешек.
 gt.blockcasingsTT.11.name=Генератор межпространственных мостов
 gt.blockcasingsTT.11.desc.0=Межпространственные манипуляции.
-gt.blockcasingsTT.11.desc.1=Во всей Вселенной и в других местах тоже.
+gt.blockcasingsTT.11.desc.1=Во всей вселенной и в других местах тоже.
 gt.blockcasingsTT.12.name=Совершенный молекулярный корпус
 gt.blockcasingsTT.12.desc.0=Совершенная, как ни крути
 gt.blockcasingsTT.12.desc.1=Я не знаю, что она НЕ может.
@@ -1016,11 +1016,11 @@ fog.upgrade.text.3=Умножает максимальный расход топ
 fog.upgrade.text.4=Увеличивает базовый рабочий вольтаж всех модулей на: Единицы звездного топлива/сек * 10^8 EU/t
 fog.upgrade.text.5=Разблокирует модуль Helioflux Melting Core.
 fog.upgrade.text.6=Unlocks a multiplier to maximum parallel based on fuel consumption rate. This bonus is calculated via this formula: Multiplier = 1 + (Stellar Fuel Units/sec) / 15
-fog.upgrade.text.7=Unlocks the Heliothermal Plasma Fabricator module and basic element -> plasma processing (1 step plasmas, T3 fusion maximum).
+fog.upgrade.text.7=Разблокирует модуль Heliothermal Plasma Fabricator и базовый элемент -> обработка плазмы (1 шаг плазмы, T3 максимум).
 fog.upgrade.text.8=Unlocks a configuration window for maximum battery size and increases the limit to max int. Furthermore, an energy discount multiplier is unlocked that scales with battery size (capped to 0.05, or 5%). The discount is calculated as follows: Discount = (1 - 1.05^(-0.05 * Max Battery Capacity)) / 20
 fog.upgrade.text.9=Увеличивает максимальный расход топлива на 1 единицу звездного топлива/сек за каждое приобретенное улучшение.
 fog.upgrade.text.10=Добавляет x2 множитель к максимальной параллели.
-fog.upgrade.text.11=Unlocks the Heliofusion Exoticizer module and quark gluon plasma creation. At this point this module is not affected by any other multipliers or bonuses from other upgrades.
+fog.upgrade.text.11=Разблокирует модуль Heliofusion Exoticizer и создание кварк-глюонной плазмы. На данный момент этот модуль не подвержен влиянию других множителей или бонусов от других улучшений.
 fog.upgrade.text.12=Улучшает формулу преобразования расхода топлива -> тепла. Улучшенная формула: Тепло Power Forge = log1,12 (единиц звездного топлива/сек) * 1000 + 12601, Тепло Melting Core = log1,18 (единиц звездного топлива/сек) * 1000 + 12601
 fog.upgrade.text.13=Improves the formula of SA to: Multiplier = 1 + (Stellar Fuel Units/sec) / 5
 fog.upgrade.text.14=Improves the OC formula from 4/2 OCs to 4/2.3 OCs.
@@ -1035,11 +1035,11 @@ fog.upgrade.text.22=Improves IGCC based on current maximum parallel. Improved Fo
 fog.upgrade.text.23=Умножает максимальный рабочий вольтаж на 4 за каждое активное кольцо, применяется после других бонусов.
 fog.upgrade.text.24=Позволяет Heliothermal Plasma Fabricator обрабатывать плазму до Т5.
 fog.upgrade.text.25=Allows the Heliofusion Exoticizer to be affected by other upgrade benefits, but those benefits are square rooted first. The overclock bonus is adjusted via the following formula: OC Factor = 2 + (Base OC Factor - 2)^2
-fog.upgrade.text.26=Allows construction of the second ring and adds 4 module slots.
+fog.upgrade.text.26=Позволяет построить второе кольцо и добавляет 4 слота для модулей.
 fog.upgrade.text.27=Uncaps maximum fuel consumption, but fuel consumption used in bonus calculations scales according to this formula: Actual FC = Current Max FC + (Current FC - Current Max FC)^0.4, where FC refers to fuel consumption and max FC refers to the max fuel consumption without this upgrade.
 fog.upgrade.text.28=Uncaps maximum processing voltage. Voltage can be set in each module's GUI.
-fog.upgrade.text.29=Allows construction of the third ring and adds 4 module slots.
-fog.upgrade.text.30=Unlocks Magmatter production in the Heliofusion Exoticizer, creation of exotic plasmas in the Heliothermal Plasma Fabricator and Graviton Shard ejection & injection.
+fog.upgrade.text.29=Позволяет построить третье кольцо и добавляет 4 слота для модулей.
+fog.upgrade.text.30=Разблокирует производство Магматерии в Heliofusion Exoticizer, создание экзотических плазм в Heliothermal Plasma Fabricator и выброс и впрыск гравитонных осколоков.
 
 fog.debug.resetbutton.text=Сброс
 fog.debug.resetbutton.tooltip=Сбрасывает все улучшения до нуля
@@ -1406,10 +1406,10 @@ tt.keyword.ID=ID
 tt.keyword.at=при
 # Any X
 tt.keyword.Structure.AnyComputerCasing=Любой Корпус компьютера
-tt.keyword.Structure.AnyHighPowerCasing=Любой Высокоэнергетический корпус
-tt.keyword.Structure.AnyHighPowerCasing1D=Любой Высокоэнергетический корпус с 1 точками
-tt.keyword.Structure.AnyHighPowerCasing2D=Любой Высокоэнергетический корпус с 2 точками
-tt.keyword.Structure.AnyHighPowerCasingFront=Любой Высокоэнергетический корпус на передней стороне
+tt.keyword.Structure.AnyHighPowerCasing=Любой высокоэнергетический корпус
+tt.keyword.Structure.AnyHighPowerCasing1D=Любой высокоэнергетический корпус с 1 точками
+tt.keyword.Structure.AnyHighPowerCasing2D=Любой высокоэнергетический корпус с 2 точками
+tt.keyword.Structure.AnyHighPowerCasingFront=Любой высокоэнергетический корпус на передней стороне
 tt.keyword.Structure.AnyTeslaBaseCasingOuter=Любой внешний Корпус основания Башни Теслы
 tt.keyword.Structure.AnyComputerCasingFirstOrLastSlice=Любой корпус компьютера на первой или последней секции
 tt.keyword.Structure.AnyComputerCasingBackMain=Любой корпус компьютера на задней стороне основного корпуса
@@ -1507,7 +1507,7 @@ tt.keyphrase.Sending_power=Sending power
 tt.keyphrase.Receiving_power=Receiving power
 tt.keyphrase.Stored_energy=Энергии накоплено
 tt.keyphrase.Stored_EU=EU хранится
-tt.keyphrase.Average_IO=Средний Вход/Выход
+tt.keyphrase.Average_IO=Средний вход/выход
 tt.keyphrase.Average_IO_(max)=Вольтаж I/O (макс.)
 tt.keyphrase.Average_IO_max=Вольтаж I/O макс.
 tt.keyphrase.Amperage_IO_(max)=Ампераж I/O (макс.)
