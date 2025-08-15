@@ -8,7 +8,7 @@ bdlib.multiblock.face.down=Unten
 bdlib.multiblock.disabled=Deaktiviert
 bdlib.multiblock.incomplete=Diese Maschine ist unvollständig, sie erfordert mindestens:
 bdlib.multiblock.notconnected=Nicht mit einer gültigen Maschine verbunden
-bdlib.multiblock.toomanyoutputs=Too many outputs connected, unable to attach new connection
+bdlib.multiblock.toomanyoutputs=Zu viele Ausgänge verbunden, eine neue Verbindung kann nicht hergestellt werden
 bdlib.multiblock.tip.module=Kann installiert werden in:
 bdlib.multiblock.tip.controller=Mögliche Module:
 bdlib.multiblock.tip.module.range=* %s (%s - %s)
@@ -21,10 +21,10 @@ bdlib.rsmode.rs_off=Disable on redstone
 
 bdlib.label.empty=Leer
 
-bdlib.oredistribution.usage=/oredistribution <radius> [<min height>] [<max height>] [--file]
-bdlib.oredistribution.start1=Checking ore distribution in (%s,%s,%s) to (%s,%s,%s) dim %s
-bdlib.oredistribution.start2=Server may lag for a while
+bdlib.oredistribution.usage=oredistribution <radius> [<min height>] [<max height>] [--file]
+bdlib.oredistribution.start1=Prüfe die Erzverteilung von (%s,%s,%s) bis (%s,%s,%s) Dimension %s
+bdlib.oredistribution.start2=Server könnte eine Weile hinterherhinken
 bdlib.oredistribution.entry=%s %s - %s (%s%%)
-bdlib.oredistribution.warn=%s Warning: %s has multiple variants generated:
-bdlib.oredistribution.saved=Ore distribution dumped to %s
-bdlib.oredistribution.error=Failed to save ore distribution dump: %s
+bdlib.oredistribution.warn=%s Warnung: %s hat mehrere Varianten generiert:
+bdlib.oredistribution.saved=Erzverteilung abgelegt in %s
+bdlib.oredistribution.error=Ablage der Erzverteilung fehlgeschlagen: %s
