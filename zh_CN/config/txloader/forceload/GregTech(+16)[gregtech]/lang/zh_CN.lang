@@ -639,7 +639,7 @@ GTPP.tooltip.bad_tooltip_id=无效的tooltip ID - %d
 
 # GT++ chem
 GTPP.tooltip.catalyst.active_reaction_agent=活性反应剂
-GTPP.tooltip.milling_ball.tumble=Tumble Tumble Tumble
+GTPP.tooltip.milling_ball.tumble=磨~磨~磨~
 
 # Infinite Spray Can
 item.GT5U.infinite_spray_can.name.solvent=无限喷漆罐%c溶剂%c
@@ -685,7 +685,7 @@ GTPP.algae.tooltip.temp_tolerance=温度耐受：%d
 GTPP.algae.tooltip.growth=生长：%d
 GTPP.algae.tooltip.production=生产进度：%d
 GTPP.algae.tooltip.lifespan=寿命：%d天
-GTPP.algae.tooltip.generation=Generation: %d
+GTPP.algae.tooltip.generation=产生：%d
 
 # Power Goggles
 GT5U.power_goggles.open_config_gui=打开护目镜配置
@@ -821,8 +821,8 @@ GT5U.MBTT.PCB.Tooltip.5=设置线宽大小。较小的线宽可节省材料但�
 GT5U.MBTT.PCB.Tooltip.6=无法在运行时更改配置！
 
 GT5U.MBTT.AlchemyCasingAny=炼金反应抵抗/惰性/免疫机械方块
-GT5U.MBTT.AlchemicalConstructAny=Alchemical Construct
-GT5U.MBTT.SuperChest=Super/Quantum Chest
+GT5U.MBTT.AlchemicalConstructAny=炼金构材
+GT5U.MBTT.SuperChest=超级/量子箱
 
 GT5U.MBTT.subchannel=子信道 §6%s§r 将被用于 %s
 
@@ -886,8 +886,8 @@ GT5U.MS.multismelting=同时熔炼
 gt.casing.no-mob-spawning=生物不会在这个方块上生成
 gt.casing.not-tile-entity=这不是一个实体！
 gt.casing.blast-proof=这个方块防爆
-gt.casing.heat-capacity=Base Heating Capacity = %s Kelvin
-gt.casing.tier=Casing Tier: §e%s§r
+gt.casing.heat-capacity=基础炉温 = %s开尔文
+gt.casing.tier=外壳等级: §e%s§r
 
 gt.casing.chemical-resistant=能够抵抗极端的化学环境。
 gt.casing.hawking-focus=控制霍金辐射的外流以稳定黑洞。
@@ -1026,7 +1026,7 @@ gt.recipe.largeboilerfakefuels=大型锅炉
 gt.recipe.nanoforge=纳米锻炉
 gt.recipe.pcbfactory=PCB工厂
 gt.recipe.ic2nuke=IC2核反应堆
-gt.recipe.entropic-processing=Entropic Processing
+gt.recipe.entropic-processing=混沌过程
 gt.recipe.isotope-decay=同位素衰变
 gt.recipe.purificationplantclarifier=澄清器
 gt.recipe.purificationplantflocculation=絮凝
@@ -1036,7 +1036,7 @@ gt.recipe.purificationplantplasmaheating=温度波动
 gt.recipe.purificationplantuvtreatment=高能激光处理
 gt.recipe.purificationplantdegasifier=脱气
 gt.recipe.purificationplantquarkextractor=重子完美
-gt.recipe.quantumcomputer=QC Components
+gt.recipe.quantumcomputer=量子计算机
 gt.recipe.cal-imprinting=Circuit Assembly Line Imprinting
 
 # Recipe categories
@@ -1088,7 +1088,7 @@ GT5U.machines.digitaltank.voidfull.tooltip.1=§7销毁所有进入容器的流�
 GT5U.machines.digitaltank.inputfromoutput.tooltip=从输出面输入流体
 GT5U.machines.select_circuit=选择机器模式
 GT5U.machines.select_circuit.tooltip=虚拟电路板槽
-GT5U.machines.select_circuit.tooltip.configuration=§aConfiguration: §f%s§r
+GT5U.machines.select_circuit.tooltip.configuration=§a配置: §f%s§r
 GT5U.machines.select_circuit.tooltip.configuration.none=无
 GT5U.machines.select_circuit.tooltip.1=§7左键/右键/滚轮以切换编程电路
 GT5U.machines.select_circuit.tooltip.2=§7Shift+左键打开GUI
@@ -1286,26 +1286,26 @@ GT5U.type_filter.representation_slot.tooltip=§7左击循环切换下一个
 GT5U.type_filter.representation_slot.tooltip.1=§7右击回到上一个
 GT5U.type_filter.representation_slot.tooltip.2=§7用一个物品点击以设置过滤名单
 
-channels.gregtech.manipulator=Decides the tier of QFT manipulator blocks. Starts at §6Neutron Pulse Manipulator§r at value 1 and ends at §6SpaceTime Continuum Ripper§r at value 4.
-channels.gregtech.shielding=Decides the tier of QFT shielding blocks. Starts at §6Neutron Shielding Core§r at value 1 and ends at §6SpaceTime Bending Core§r at value 4.
-channels.gregtech.coil=Decides the tier of heating coil. Starts at §6Cupronickel Coil§r at value 1 and ends at §6Eternal Coil§r at value 14.
-channels.gregtech.glass=Decides the tier of glass. This has many tiers and many substitutes for various tiers. Please refer to the tooltip of individual glass blocks.
-channels.gregtech.casing=Decides the tier of metallic machine casing.
-channels.gregtech.unit_casing=Decides the tier of Electronic Unit casing. Starts at §6Imprecise Electronic Unit Casing§r at value 1 and ends at §6MkIV§r at value 5.
-channels.gregtech.machine_casing=Decides the tier of Machine Casing. Starts at §6ULV machine casing§r at value 1 and ends at §6UHV machine casing§r at value 10.
-channels.gregtech.solenoid=Decides the tier of Solenoid Superconductor Coil. Starts at §6MV§r at value 1 and ends at §6UMV§r at value 11.
-channels.gregtech.capacitor=Decides the tier of Lapotronic Capacitor. Starts at §6Empty§r at value 1 and ends at §6UMV§r at value 10.
-channels.gregtech.height=Decides the height of repeatable slices. Valid range varies from multi to multi.
-channels.gregtech.length=Decides the length of repeatable slices. Valid range varies from multi to multi.
-channels.gregtech.pipe=Decides the tier of Pipe Casing. Starts at §6Bronze Pipe Casing§r at value 1 and ends at §6Tungsten Steel Pipe Casing§r at value 4.
-channels.gregtech.item_pipe=Decides the tier of Item Pipe Casing. Starts at §6Tin Item Pipe Casing§r at value 1 and ends at §6Black Plutonium Item Pipe Casing§r at value 8.
-channels.gregtech.cell=Decides the tier of Vanadium Redox Power Cell. Starts at §6EV§r at value 1 and ends at §6UHV§r at value 6.
-channels.gregtech.antenna=Decides the of Antenna Casing. Starts at §6T1§r at value 1 and ends at §6T2§r at value 2.
-channels.gregtech.spacetime_compression=Decides the tier of Spacetime Compression Field Generator. Starts at §6Crude Spacetime Compression Field Generator§r at value 1 and ends at §6Gallifreyan Spacetime Compression Field Generator§r at value 9.
-channels.gregtech.stabilisation=Decides the tier of Stabilisation Field Generator. Starts at §6Crude Stabilisation Field Generator§r at value 1 and ends at §6Gallifreyan Stabilisation Field Generator§r at value 9.
-channels.gregtech.time_dilation=Decides the tier of Time Dilation Field Generator. Starts at §6Crude Time Dilation Field Generator§r at value 1 and ends at §6Gallifreyan Time Dilation Field Generator§r at value 9.
+channels.gregtech.manipulator=决定量子操纵者的脉冲控制方块等级。最低为§6中子脉冲控制方块§r等级1，最高为§6时空连续体撕裂方块§r等级4。
+channels.gregtech.shielding=决定量子操纵者的屏蔽核心方块等级。最低为§6中子屏蔽核心方块§r等级1，最高为§6时时空扭曲核心方块§r等级4。
+channels.gregtech.coil=决定线圈方块等级。最低为§6白铜线圈§r等级1，最高为§6永恒线圈§r等级14。
+channels.gregtech.glass=决定玻璃的等级。玻璃等级繁多，且不同等级各有多种可替代玻璃方块。具体请参考各个玻璃方块的物品描述
+channels.gregtech.casing=决定金属机械方块等级。
+channels.gregtech.unit_casing=决定电子单元机械方块等级。最低为§6不精密的电子单元机械方块§r等级1，最高为§6精密电子单元机械方块 MK-IV§r等级5。
+channels.gregtech.machine_casing=决定机械方块等级。最低为§6ULV机械方块§r等级1，最高为§6UHV机械方块§r等级10。
+channels.gregtech.solenoid=决定螺线管超导线圈等级。最低为§6MV螺线管超导线圈§r等级1，最高为§6UMV螺线管超导线圈§r等级11。
+channels.gregtech.capacitor=决定兰博顿电容等级。最低为§6空电容§r等级1，最高为§6终极电容UMV§r等级10。
+channels.gregtech.height=决定可重复片的高度。其有效范围根据多方块结构不同而有所差异。
+channels.gregtech.length=决定可重复片的宽度。其有效范围根据多方块结构不同而有所差异。
+channels.gregtech.pipe=决定管道方块等级。最低为§6青铜管道方块§r等级1，最高为§6钨钢管道方块§r等级4。
+channels.gregtech.item_pipe=决定物品管道方块等级。最低为§6锡物品管道方块§r等级1，最高为§6黑钚物品管道方块§r等级8。
+channels.gregtech.cell=决定钒氧化还原能量单元等级。最低为§6EV§r等级1，最高为§6UHV§r等级6。
+channels.gregtech.antenna=决定天线机械方块等级。最低为§6T1§r等级1，最高为§6T2§r等级2。
+channels.gregtech.spacetime_compression=决定压缩时空场发生器等级。最低为§6粗制压缩时空场发生器§r等级1，最高为§6鸿蒙压缩时空场发生器§r等级9。
+channels.gregtech.stabilisation=决定稳定力场发生器等级。最低为§6粗制稳定力场发生器§r等级1，最高为§6鸿蒙稳定力场发生器§r等级9。
+channels.gregtech.time_dilation=决定时间膨胀场发生器等级。最低为§6粗制时间膨胀场发生器§r等级1，最高为§6鸿蒙时间膨胀场发生器§r等级9。
 channels.gregtech.gt_no_hatch=When set, disable automatic hatch placement
-channels.gregtech.field=Decides the tier of T.F.F.T. Storage Field.
+channels.gregtech.field=决定T.F.F.T.储库方块等级。
 
 GT5U.gui.select.current=当前：
 GT5U.gui.button.liquid_filling_OFF=§7填充流体: §4关闭
@@ -1663,7 +1663,7 @@ gt.behaviour.paintspray.infinite.tooltip.prevent_shake=%s-鼠标中键: 允许/�
 GTPacketInfiniteSpraycan.Action.TOGGLE_SHAKE_LOCK=Infinite Spray Can : Color Cycle Lock
 
 
-gt.behaviour.trowel.tooltip1=Places a random block from your hotbar
+gt.behaviour.trowel.tooltip1=右键随机放置一个物品栏中的方块
 gt.behaviour.trowel.tooltip2=§o"Don't forget to bring a trowel!"§r -§cQuerns§r
 
 gt.behaviour.switch_mode.tooltip=Press [%s] to change mode

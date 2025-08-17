@@ -1164,8 +1164,8 @@ languagefile {
     S:Material.naquadriaoxidemixture=氧化超能硅岩混合物
     S:Material.naquadriasulphate=硫酸超能硅岩
     S:Material.natruralgas=天然气
-    S:Material.nefariousgas=Nefarious Gas
-    S:Material.nefariousoil=Nefarious Oil
+    S:Material.nefariousgas=邪恶气体
+    S:Material.nefariousoil=邪恶原油
     S:Material.neodymium=钕
     S:Material.neodymiumchlorideconcentrate=氯化钕浓缩液
     S:Material.neodymiumextractingnanoresin=钕萃取纳米树脂
@@ -1180,7 +1180,7 @@ languagefile {
     S:Material.netherite=下界合金
     S:Material.netherquartz=下界石英
     S:Material.netherrack=地狱岩
-    S:Material.nethersemifluid=地狱半流质
+    S:Material.nethersemifluid=半流质地狱空气
     S:Material.netherstar=下界之星
     S:Material.neutralizedmonaziterareearthfiltrate=中和独居石稀土滤渣
     S:Material.neutralizeduraniumfiltrate=中和铀滤渣
@@ -17762,14 +17762,14 @@ languagefile {
     S:"fluid.naquadah-rich solution"=高纯硅岩溶液
     S:"fluid.naquadria goo"=超能硅岩黏浆
     S:"fluid.naquadria-rich solution"=高纯超能硅岩溶液
-    S:fluid.nefariousgas=Nefarious Gas
-    S:fluid.nefariousoil=Nefarious Oil
+    S:fluid.nefariousgas=邪恶气体
+    S:fluid.nefariousoil=邪恶原油
     S:"fluid.neodymium chloride concentrate"=氯化钕浓缩液
     S:"fluid.neodymium extracting nano resin"=钕萃取纳米树脂
     S:fluid.neon=氖
     S:fluid.neptuniumhexafluoride=六氟化镎
     S:fluid.netherair=地狱空气
-    S:fluid.nethersemifluid=地狱半流质
+    S:fluid.nethersemifluid=半流质地狱空气
     S:fluid.nickeltetracarbonyl=四羰基镍
     S:"fluid.nitric monazite leached concentrate"=浓缩硝酸独居石浸出溶液
     S:"fluid.nitric-leached monazite mixture"=硝酸独居石浸出混合物
@@ -21238,7 +21238,7 @@ languagefile {
     S:gt.blockmachines.gtpp.multimachine.replicator.name=大型元素复制机
     S:gt.blockmachines.gtpp.multimachine.rocketengine.name=火箭引擎 F-1A
     S:gt.blockmachines.gtpp.multimachine.semifluidgenerator.name=大型半流质发电机
-    S:gt.blockmachines.gtpp.multimachine.steam.alloysmelter.name=Steam Fuser
+    S:gt.blockmachines.gtpp.multimachine.steam.alloysmelter.name=大型蒸汽合金炉
     S:gt.blockmachines.gtpp.multimachine.steam.centrifuge.name=大型蒸汽离心机
     S:gt.blockmachines.gtpp.multimachine.steam.compressor.name=大型蒸汽压缩机
     S:gt.blockmachines.gtpp.multimachine.steam.forge.hammer.name=大型蒸汽锻造锤
@@ -62313,8 +62313,8 @@ languagefile {
     S:gt.metaitem.02.32585.tooltip=
     S:gt.metaitem.02.32586.name=磁控管
     S:gt.metaitem.02.32586.tooltip=
-    S:gt.metaitem.02.32587.name=Cherry Plank
-    S:gt.metaitem.02.32587.tooltip=Usable as Cover
+    S:gt.metaitem.02.32587.name=樱桃木木板
+    S:gt.metaitem.02.32587.tooltip=可作覆盖板
     S:gt.metaitem.02.32765.name=免费！
     S:gt.metaitem.02.32765.tooltip=(至少几乎免费)
     S:gt.metaitem.02.32765.with.ItSFreePlaceLavaOnSide.name=免费！在侧面放置岩浆
@@ -64469,7 +64469,7 @@ languagefile {
     S:gt.metaitem.03.32244.tooltip=
     S:gt.metaitem.03.32245.name=下界合金纳米颗粒
     S:gt.metaitem.03.32245.tooltip=
-    S:gt.metaitem.03.32246.name=Intensely Bonded Netherite Nanoparticles
+    S:gt.metaitem.03.32246.name=强键合下界合金纳米颗粒
     S:gt.metaitem.03.32246.tooltip=
     S:gt.metaitem.03.32247.name=热下界合金碎片
     S:gt.metaitem.03.32247.tooltip=已活化？
@@ -64564,7 +64564,7 @@ languagefile {
     S:gt.metaitem.03.32761.name=声子晶体种晶
     S:gt.metaitem.03.32761.tooltip=完美的热导率
     S:gt.metaitem.03.32762.name=谐和化合物
-    S:gt.metaitem.03.32762.tooltip=Toxic violet with a red haze
+    S:gt.metaitem.03.32762.tooltip=散发红雾的紫色物质
     S:gt.metaitem.03.4010.name=%material纳米蜂群
     S:gt.metaitem.03.4010.tooltip=C
     S:gt.metaitem.03.4032.name=%material纳米蜂群
@@ -66360,9 +66360,9 @@ languagefile {
     S:gt.metatool.01.192.tooltip=
     S:gt.metatool.01.193.name=万能工具(剪线钳)(空)
     S:gt.metatool.01.193.tooltip=你需要为其充电
-    S:gt.metatool.01.194.name=Decorator's Trowel
+    S:gt.metatool.01.194.name=装饰铲
     S:gt.metatool.01.194.tooltip=
-    S:gt.metatool.01.195.name=Decorator's Trowel (Empty)
+    S:gt.metatool.01.195.name=装饰铲（空）
     S:gt.metatool.01.195.tooltip=你需要为其充电
     S:gt.metatool.01.20.name=撬棍
     S:gt.metatool.01.20.tooltip=拆下覆盖板、旋转铁轨
