@@ -1444,7 +1444,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAgw.desc=这台机器能通过燃烧煤�
 
 # Quest: Simple RF Power: Liquids
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhA.name=§6§l简易RF能源:液体
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhA.desc=这台发电机需要作为冷却剂的水和作为燃料的可燃液体,它发电的功率取决于使用的液体.%n%n流体           燃烧时间(ticks/mB)    输出功率(RF/tick)    输出能量(RF/mB) %n油             5                     30                   150%n烈酒           6                     60                   360%n乙醇           15                    40                   600 %n火焰水         15                    80                   1200%n柴油           25                    60                   1500%n%n[note]火箭燃料已禁用.[note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhA.desc=这台发电机需要作为冷却剂的水和作为燃料的可燃液体,它发电的功率取决于使用的液体.%n%n流体 ——  燃烧时间(ticks/mB)  输出功率(RF/tick)  输出能量(RF/mB) %n油—— ——          05                    30                   0150%n烈酒 ——          06                    60                   0360%n乙醇 ——          15                    40                   0600 %n火焰水           15                    80                   1200%n柴油 ——          25                    60                   1500%n%n[note]火箭燃料已禁用.[/note]
 
 # Quest: Conduits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhg.name=§6§l导管
@@ -2407,6 +2407,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAABg.desc=欢迎来到EV! 你成功�
 # Quest: The Redstone Sniffer
 betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.name=红石嗅探器
 betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.desc=是否曾为寻找红石发射器的位置而困扰？或希望它们都被标注过用途？或许队友放了无线发射器却没有告诉你设定的频率，留下你独自猜谜？%n%n现在，这些都不是问题了。%n%n隆重推出，§6红石嗅探器§r！%n%n对于普通的§c红石信号发射/接收器§f§r，红石嗅探器会列出所有正在使用的频率，是否为私人频率，并且支持自定义标签。%n%n对于§c进阶红石信号发射/接收器§f§r，红石嗅探器还会列出坐标和维度信息，并且支持高亮标记或传送到选定的覆盖板处。
+
+# Quest: Raw Carbon Fibre
+betterquesting.quest.0fzaxas8R8OJzvYvqX5d9w.name=§a§lRaw Carbon Fibre
+betterquesting.quest.0fzaxas8R8OJzvYvqX5d9w.desc=Alternatively, you can use Raw Carbon Fibre for your Reinforced Circuit Boards.%n%n[note]You can use Epoxid to get a better yield on it![/note]
 
 # Quest: Pulverize the Planet
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1A.name=§a§l粉碎星球
@@ -3723,6 +3727,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALiw.desc=将其与镁粉一起在工业�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.name=最终的目标
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsw.desc=在你的帮助下,我终于创造了一个终极的能量来源:一个被磁场包裹的迷你虫洞.它将从人工宇宙中吸取能量,直到它生命的终点-热寂. 你已经帮助我完成了我的梦想.这个虫洞对我没什么实际用处,所以现在它是你的了. 最后再次感谢你,我的朋友!
 
+# Quest: Never Hungry Again
+betterquesting.quest.YqImjtIqSZCc-Mlri03SEA.name=Never Hungry Again
+betterquesting.quest.YqImjtIqSZCc-Mlri03SEA.desc=Congratulations! You have gracefully served your penance; no longer shall you be bound by the woes of hunger. %n%nWith this new trinket (equipable in a baubles slot) you will automatically have your hunger and saturation replenished, so long as the nanobooster stays charged.%n%nAdditionally it will do it's best to keep you healed, though it cannot ward off death completely on its own.%n%n[note]P.S. Upgrading your wireless charger might be a good idea![/note]
+
 # Quest: pH Neutralization
 betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.name=pH中和
 betterquesting.quest.eon8hLumTS-E7MYJ4TFT3w.desc=如果您想大幅提升铕掺杂晶圆的加工速度,这台机器就是您的最佳选择.使用从这台机器获得的pH中性水,您可以将晶圆处理速度提高一倍.%n%n这是净化水产线中第一个真正复杂的自动化挑战,您需要弄清楚如何处理pH中和过程.祝您玩得开心!%n%n[note]这个多方块对酸和碱的仓室位置非常挑剔.如果你不知道为什么它没有形成,很可能是你忘记将这些仓室放在正确的位置.使用全息投影仪查看它们的位置.[/note]
@@ -4962,6 +4970,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALTw.desc=感谢mitch把这个超棒的mo
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.name=香脆腐肉
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.desc=腐肉不太健康.它无法为你充饥. 要是晾干会怎么样?
 
+# Quest: Never Hungry Again
+betterquesting.quest.hvukogcPRX-hht60vc0Zgw.name=Never Hungry Again
+betterquesting.quest.hvukogcPRX-hht60vc0Zgw.desc=Congratulations! You have gracefully served your penance; no longer shall you be bound by the woes of hunger. %n%nWith this new trinket (equipable in a baubles slot) you will automatically have your hunger and saturation replenished, so long as the nanobooster stays charged.%n%nAdditionally it will do it's best to keep you healed, though it cannot ward off death completely on its own.%n%n[note]P.S. Upgrading your wireless charger might be a good idea![/note]
+
+# Quest: A Magical Lunchbox?
+betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.name=A Magical Lunchbox?
+betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.desc=Given sufficient magical prowess, the Thaumaturgist need not waste their time physically consuming food. The Talisman of Nourishment can hold up to 1000 hunger and 1000 saturation points, and will feed you automatically. %n%nYou can fill it up by placing food items on your hotbar, the more valuable the food, the more points added.%n%n[note]Careful not to place food items you want to keep in your hotbar while you have it on you![/note]
+
 
 ## Quest Line: Getting Around...
 betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.name=游历四方...
@@ -5785,13 +5801,29 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.desc=另一个自定义方块系统!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.name=栈桥
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3g.desc=栈桥Mod添加了多种装饰性方块来装饰你的工厂.%n%n脚手架和施工脚手架对于你可以飞行之前的空中建造很有用.它们像梯子一样可以攀爬,并在轻击时立刻破坏掉落.及时在攀爬时松开移动键,也不好从脚手架上摔落.如果使用固体方块右击施工脚手架,脚手架将会被替换为该固体方块.%n%n栈桥可以相互连接形成一条宽阔的通道.可以通过警示胶带和霓虹灯装饰栈桥,后者可以提供昏暗的照明.%n%n笼式扶梯可以让你上下移动而不会摔落,并且比原版梯子快得多.%n%n支柱只是一个装饰性方块,它们可以在任意方向互相连接,并向具有梯子的功能.%n%n坚实铁轨可以让矿车在没有方块支撑的情况下通过.使用焊枪右键坚实铁轨可以永久为其充能,而不需要红石火把.如果你还没有足够的娱乐项目,用它们建造一个过山车吧!%n%n焊枪可以让你通过右键单击移除栈桥的栏杆或地板.用焊枪可以在栈桥栏杆上打开一个允许你进出的通道,但不要违反"安全生产管理条例".GT或Forge兼容的扳手也有相同的功能,所以你没有必要制作焊枪.
 
+# Quest: Crystal Shulker Box
+betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.name=§5§6§lCrystal Shulker Box
+betterquesting.quest.DSkXvzhRSKiwFLJywGDMRg.desc=An enhanced version of the Diamond Shulker that allows you to see the contents within.%n%nHas §n108§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
+# Quest: Obsidian Barrel
+betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.name=§5§6§lObsidian Barrel
+betterquesting.quest.KfgATF33ToiE0aYS4pp04Q.desc=The Obsidian barrel holds as many items as the Diamond one, and is also immune to explosions.
+
 # Quest: Double the Radius = Double the Fun!
 betterquesting.quest.LaLMF5rFQ0SxAZ5o-C-r5Q.name=双倍半径=双倍快乐！
 betterquesting.quest.LaLMF5rFQ0SxAZ5o-C-r5Q.desc=[quest]进阶磁悬浮能量塔 II (HV)[/quest]%n%nHV能量塔拥有§c32§r格的有效半径(以能量塔为中心的65x65x65的立方体)%n%n未供能时有效半径§9减半§r.
 
+# Quest: Obsidian Shulker Box
+betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.name=§5§6§lObsidian Shulker Box
+betterquesting.quest.MbFXZcovQ1GRxQCeS2PUuw.desc=The portable equivalent of the Obsidian Barrel that retains it's explosion-proof qualities.%n%nHas §n108§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
 # Quest: Obsidian Chest
 betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.name=§8黑曜石箱子
 betterquesting.quest.QMlw6Z67T5-y_qflA7On2Q.desc=将钻石箱子与黑曜石结合起来，使你能够制作一个防爆箱！%n%n[note]就像之前的箱子一样，你也可以用合适的升级物品来升级它。
+
+# Quest: Iron Shulker Box
+betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.name=§2§lIron Shulker Box
+betterquesting.quest.StA9TvxxSi2n2c7wQdCAFA.desc=The portable equivalent of the Iron Barrel.%n%nHas §n54§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
 
 # Quest: Constructing Additional Pylons!
 betterquesting.quest.U0LzQUUkRIi-cY3ZpT4uiQ.name=建造更多能量塔！
@@ -5801,9 +5833,37 @@ betterquesting.quest.U0LzQUUkRIi-cY3ZpT4uiQ.desc=[quest]进阶磁悬浮能量塔
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.name=一项现代科技
 betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.desc=混凝土.哦不，是汉麻混凝土!通过GTNH Chisel模组带来的一项全新的现代技术.一共有16种颜色.%n%n在Chisel中还有很多其他漂亮的方块.只需要在NEI中输入"@chisel"然后看一看.
 
+# Quest: Gold Shulker Box
+betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.name=§3§lGold Shulker Box
+betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.desc=The portable equivalent of the Gold Barrel.%n%nHas §n81§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
+# Quest: Shulker Upgrades
+betterquesting.quest.Zza5BrD7TduqKby_b3wQsQ.name=§3§lShulker Upgrades
+betterquesting.quest.Zza5BrD7TduqKby_b3wQsQ.desc=Shulker boxes in need of an upgrade? No need to gather all new shells, there are 9 upgrade items availible. They will preserve the inventory of your shulker so there is no need to empty it beforehand. %n%n§n§A§r§lAvailible Upgrades:§l§r%nVanilla -) Copper%nVanilla -) Iron%nCopper -) Iron%nCopper -) Silver%nIron -) Gold%nSilver -) Gold%nGold -) Diamond%nDiamond -) Crystal%nDiamond -) Obsidian%n%n[note]Hint: You can also use these upgrades to avoid the 50 vis wand requirement of the higher tier shulkers.[/note]%n
+
+# Quest: Diamond Shulker Box
+betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.name=§5§lDiamond Shulker Box
+betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.desc=The portable equivalent of the Diamond Barrel, you'll need to either upgrade your wand or take advantage of the Gold -) Diamond shulker box upgrade.%n%nHas §n108§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
+# Quest: Dark Steel Barrel
+betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.name=§5§6§lDark Steel Barrel
+betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.desc=The Dark Steel barrel holds 135 items! And is also immune to explosions.
+
+# Quest: Copper Shulker Box
+betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.name=§2§lCopper Shulker Box
+betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.desc=The portable equivalent of the Copper Barrel.%n%nHas §n45§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
 # Quest: Crystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§b水晶箱子
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=你已经制作了一个可以让你看到里面内容的箱子，是不是很有用？%n%n[note]就像之前的箱子一样，你也可以用合适的升级物品来升级它。
+
+# Quest: Silver Shulker Box
+betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.name=§3§lSilver Shulker Box
+betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.desc=The portable equivalent of the Silver Barrel.%n%nHas §n72§n§n§n§n§n§n§n§r slots.%n%n[note]Can be Dyed![/note]
+
+# Quest: Draconic Chest
+betterquesting.quest.njQqj1iCTK-64uA4HfSdVw.name=§5§6§lDraconic Chest
+betterquesting.quest.njQqj1iCTK-64uA4HfSdVw.desc=The Draconic Chest is a special upgrade of the compressed chest. In addition to a large inventory size and being able to retain it's contents, it has a crafting station and a furnace integrated directly into it. %n%nThe smelting module can be powered by EU or RF and has an internal buffer of it's own. It can smelt up to 5 items at a time.
 
 
 ## Quest Line: Forestry and Multifarms
@@ -6091,8 +6151,12 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAADA.desc=这里有所有的多方块
 betterquesting.quest.-1GoIXIXR029oc0Ge6sRGg.name=无中生有2
 betterquesting.quest.-1GoIXIXR029oc0Ge6sRGg.desc=这台机器就像普通油气流体钻机一样工作，但受益于§5§l§o科技进步§r，它在产出时不会导致地下油田储量降低。无限的稳定的输出！
 
+# Quest: Distill the Atmosphere
+betterquesting.quest.7p2Sqx7dR8mfVCNUYEUIuQ.name=§6§lDistill the Atmosphere
+betterquesting.quest.7p2Sqx7dR8mfVCNUYEUIuQ.desc=Using the Vacuum Freezer you can create Liquid Air. Liquid Air can be centrifuged into additional gases you won't get when centrifuging normal compressed air. If you can gather enough Liquid Air you can instead distill it into a larger quantity and variety of rare gases.%n%nMake these special hatches to hold and store the amounts required for this recipe.
+
 # Quest: Collision Course
-betterquesting.quest.9Pc7p99ASnybsIbWmmg0LQ.name=警告：可能发生撞击（Collision Course）
+betterquesting.quest.9Pc7p99ASnybsIbWmmg0LQ.name=撞击轨道
 betterquesting.quest.9Pc7p99ASnybsIbWmmg0LQ.desc=最后，要实际获得一些 IC，请在§9高能束流聚焦对撞靶室§r中使用你的光子。%n%n请注意，束流靶腔配方中列出的 EU/t 值只是一个最小值，因为配方时间完全由你提供给多方块的光子数量决定。%n%n更具体地说，你可以通过将配方所需数量除以输入粒子束的数量，然后乘以 5 秒来获得配方时间。
 
 # Quest: Multiblock Tanks... Railcraft Tanks
@@ -6177,7 +6241,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-w.desc=工业TNT是HV版本的TNT.它�
 
 # Quest: Better Than Duct Tape
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8w.name=§6§l比胶带更好
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8w.desc=使用电烙铁可以移除"电路短路了"的故障讯息,比用胶带更便宜.%n%n电烙铁需要一份焊料和10,000EU.有许多材料可以做为焊料,由锡、铅或焊锡制成的细导线、杆或锭都可以.电烙铁将会消耗玩家物品栏中找到的第一个这类材料.因为你的焊锡往往多的用不完,所以细焊锡导线可能是最佳的选择.%n%n你也可以用电烙铁调整GT机器/覆盖板发出的红石信号,从弱充能调整为强充能.%n%n另外,当你手持电烙铁时,所有的管道、导线以及线缆都会显示为一根细线,这样你就可以清楚地看到后面被遮挡的东西,弄清准确的走线.%n%n完成任务所需的电烙铁需要充满电.%n%n修复其他故障还需要其他的工具.别忘了你可以把所有需要的工具放在工具盒里,再用工具盒点击一次就能修复所有问题. %n%n可能的故障                  维修工具%n“管道松了”                扳手%n“螺丝没拧紧”              螺丝刀%n“有什么东西卡住了”        软锤%n“板子凹凸不平”            锻造锤%n“电路短路了”              电烙铁%n“有个零件不应该在这里”    撬棍
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8w.desc=使用电烙铁可以移除"电路短路了"的故障讯息,比用胶带更便宜。%n%n电烙铁需要一份焊料和10,000EU。有许多材料可以做为焊料，由锡、铅或焊锡制成的细导线、杆或锭都可以。电烙铁将会消耗玩家物品栏中找到的第一个这类材料.因为你的焊锡往往多的用不完，所以细焊锡导线可能是最佳的选择。%n%n你也可以用电烙铁调整GT机器/覆盖板发出的红石信号，从弱充能调整为强充能。%n%n另外,当你手持电烙铁时,所有的管道、导线以及线缆都会显示为一根细线,这样你就可以清楚地看到后面被遮挡的东西,弄清准确的走线。%n%n完成任务所需的电烙铁需要充满电。%n%n修复其他故障还需要其他的工具。别忘了你可以把所有需要的工具放在工具盒里，再用工具盒点击一次就能修复所有问题。%n%n      可能的故障           维修工具%n“管道松了”                 扳手%n“螺丝没拧紧”             螺丝刀%n“有什么东西卡住了”        软锤%n“板子凹凸不平”           锻造锤%n“电路短路了”             电烙铁%n“有个零件不应该在这里”   撬棍
 
 # Quest: Less Power Loss
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9A.name=§6§l减少电力损失
@@ -6341,7 +6405,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAQ.desc=细菌培养缸是一种独特�
 
 # Quest: Sievert for the Vat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAw.name=§6§l细菌所需的辐射剂量(SV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAw.desc=某些培养缸配方要求一定的辐射剂量(Sievert-Value). 所以你需要为你的细菌培养缸添加放射仓用以输入放射性材料!%n%n放射仓可容纳放射性材料制成的杆或长杆,然后用它们提供辐射剂量. 输入的物品决定SV值、持续时间. 在放射仓中的物品会随时间而消耗(即使机器未启动),所以最好在合成前再放入.%n%nSV值和持续时间可通过三录仪扫描放射仓获知.高阶放射仓可以容纳更多放射性材料,HV容纳1kg,UV容纳6kg. 杆看作1kg,长杆是2kg.%n%n某些配方需要[warn]精确的[/warn]辐射剂量,手持螺丝刀右键放射仓可以进入辐射控制界面(radiation-shutter-control)以精确设置需要抑制的SV值. 比如说,你需要100SV来制取海藻基质(SeaweedBroth),使用硅岩杆,然后抑制30SV.%n%n杆属性:%n材料-SV-持续时间.%n铋-83sv-198s%n铀235-92sv-80s%n铀238-92sv-80s%n钚239-94sv-66s%n钚241-94sv-66s%n硅岩-130sv-14.5s%n富集硅岩-140sv-10.5s%n超能硅岩-150sv-8s%n%n放射性材料还有许多,但这些是主要的.%n%n§3译者注:现在可以直接在NEI中搜索放射性材料查看相关的属性,或者搜索放射仓查看所有放射性材料列表.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAw.desc=某些培养缸配方要求一定的辐射剂量(Sievert-Value). 所以你需要为你的细菌培养缸添加放射仓用以输入放射性材料!%n%n放射仓可容纳放射性材料制成的杆或长杆,然后用它们提供辐射剂量. 输入的物品决定SV值、持续时间. 在放射仓中的物品会随时间而消耗(即使机器未启动),所以最好在合成前再放入.%n%nSV值和持续时间可通过三录仪扫描放射仓获知.高阶放射仓可以容纳更多放射性材料,HV容纳1kg,UV容纳6kg. 杆看作1kg,长杆是2kg.%n%n某些配方需要[warn]精确的[/warn]辐射剂量,手持螺丝刀右键放射仓可以进入辐射闸门控制界面以精确设置需要抑制的SV值. 比如说,你需要100SV来制取海藻基质(SeaweedBroth),使用硅岩杆,然后抑制30SV.%n%n杆属性:%n材料-SV-持续时间.%n铋-83sv-198s%n铀235-92sv-80s%n铀238-92sv-80s%n钚239-94sv-66s%n钚241-94sv-66s%n硅岩-130sv-14.5s%n富集硅岩-140sv-10.5s%n超能硅岩-150sv-8s%n%n放射性材料还有许多,但这些是主要的.%n%n§3译者注:现在可以直接在NEI中搜索放射性材料查看相关的属性,或者搜索放射仓查看所有放射性材料列表.
 
 # Quest: Making the Vat More Efficient!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBA.name=§6§l让培养缸更有效率!
@@ -6431,15 +6495,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2A.desc=这一机制是完全可选的,
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2Q.name=催化奇迹
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2Q.desc=量子操纵者使用化工厂也使用的那种催化剂.然而,就像拥有觉醒龙锭或更高等级线圈的化工厂一样,它不会在配方完成时消耗催化剂的耐久,更像是现实化学反应中的催化剂,它们在反应结束后会被重新生成为最初的物质.这使得这里使用的催化剂的制作成本更高,就像与高等级线圈配合来制作突变活性焊料的无限突变催化剂一样.%n%n鉴于没有耐久损失,似乎只需要制作一次催化剂.然而,两个原因使得你需要制作不止一份催化剂：首先,每个量子操纵者配方使用不同的催化剂;其次,量子操纵者通过计算大宗催化剂仓中所含催化剂的数量来确定并行(上限为2,147,483,647).这套系统使你只制造一份催化剂就可以解锁配方的使用,但最好多制作一些.而且多份催化剂只会改变配方的运行速度,前提是你要提供足够的EU.%n%n每个能够使你跳过某个生产线的催化剂都需要该产线解锁的材料来制作.也就是说,必须使用原始加工线才能跳过它们.量子操纵者的每个配方都是如此.%n%n为了提高处理的总体速度,你的一种选择是添加更多催化剂来增加量子操纵者的并行.另一种更复杂的方法是通过向系统添加更多能量来增加成功输出的概率,但以一种特殊的方式:不是直接使用EU,而是生成大量的等离子体来提高量子处理过程.%n%n不同的等离子体有不同的功能.你也可以通过升级结构中的方块来增强量子操纵者.这些升级依赖于更高级和更强大的材料,主要来自于超维度等离子锻炉.然而,仅靠那些材料是不够的,因为这些常规来源的物质无法维持量子稳定性.幸运的是,量子操纵者本身就可以生产你所需要的这些奇异材料.你在尝试跳过一些生产线时发现了它们.因此,量子操纵者允许你更简单的生产现有材料,在这个过程中,它产出了一些全新的材料,供你升级结构本身.%n%n你总共发现了三种新物质,机器也就有了四个层级.第一级是初始层级,之后的每个层级都需要这些新物质来建造.在现实生活中,这些物质只是理论上的理想材料.它们的特性都neta自其对应的跳过的产线.%n%n你升级量子操纵者所需要的第一种奇异物品是超稳态自修复黏合剂.要制作这种材料,请使用黏合促进催化剂执行胶水/焊料配方.此外,制作其他催化剂来证明您在量子领域之旅中已经准备就绪.
 
-# Quest: Tier 2 Transforming
+# Quest: Tier 2 Shielding
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2g.name=等级2:转化
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2g.desc=历经艰难,你终于可以通过用此任务中列出的机械方块替换一级量子操纵者种对应的两种机械方块来构建2级量子操纵者.完成后,多方块结构就可用于跳过镧系金属处理和三分之二的硅岩处理.在所有昂贵的材料中,有一种材料只能在量子操纵者Tier 1中制作,所以我希望你已经有所进展了.%n%n第一种奇异物质——超稳态自修复黏合剂.这种黏合剂在将东西黏在一起方面非常有效,但它也是量子稳定的,这意味着它不会被简单的量子场改变或破坏.最重要的是,它还具有自我修复特性,这意味着它可以通过自我修复来承受2,3或4级量子操纵者的庞大能量流,无论如何破坏,破坏至何种程度,它都能自我修复并保证量子操纵者的正常运行.
 
-# Quest: Tier 3 Focusing
+# Quest: Tier 3 Shielding
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2w.name=等级3:聚焦
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2w.desc=通过获得更好的材料,您可以升级到量子操纵者Tier 3.在这一等级中,你可以跳过两条生产线:全部的硅岩处理和干细胞处理.%n%n第二种奇异物质---复合稀土超导材料.它能够促进能量流的转移,而不是像上一种那样稳定结构.鉴于所有的损坏可以自动修复,现在的重点是让能量更容易从一个组件流到下一个组件,并允许更多的能量输入到机器中.现有的超导体不能很好地处理量子流,而这种复合材料中存在着由多种稀土元素构成的独特结构,使用它作为能量导体可以消除结构中能量转移的所有阻力.能量在结构种的转移是如此的丝滑,没有任何阻碍,也不会有任何逸散.
 
-# Quest: Tier 4 Transforming
+# Quest: Tier 4 Shielding
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.name=等级4:转化
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.desc=量子操纵者的最终形态,建立在许多组时空之上.完成后,您将可以使用当前游戏中所有的产线跳过处理,和上一级相比,新能跳过的是生物细胞产线、凯芙拉产线和拉多X与异氙产线.%n%n第三种奇异物质---超固态超能硅岩黑体.即便有了所有的升级,你的化学跳过能力也不可能达到生产你制作第一台QFT所需的材料(如生物电路)的程度.而这里就是量子操纵者理论上的极限了,为了到达这里,你需要硅岩处理后半段中获得的材料.这种新的与硅岩相关的物质具有黑体的特性,吸收它接收到的所有辐射且不反射任何辐射,并且是一种超固体,即一种能像流体一样流动的固体,黏度为零.使用这种材料,可以保证任何EU级别的量子能量轻松稳定地流动,即使在MAX电压也是如此.有了所有这些进展,你的量子操纵者已是完全形态,可以制作那些你在UHV及以下时苦恼过的所有物质成分.
 
@@ -6458,6 +6522,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=以宇宙自身的伟力熔炼.
 # Quest: Algae Pond
 betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.name=藻类池塘
 betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.desc=可持续性。它不是一个游戏术语……但却是可以在这里达成的！%n%n你可能已经尝试过从单一资源中生产多种化学物质了，比如石化或苯产线。但还有藻类农场，它只是一个池塘，所以工作并不耗能。不仅如此它也无法使用常规配方，所以NEI不会显示任何关于藻类的页面。藻类农场会周期性产生藻类。它的等级取决于底层的机械方块，这些一层方块必须全部匹配对应的工作等级（译者：或更高级的仓室）。从超低压（ULV，起始时间为每批次50秒）到高压（IV，每批次25秒），每个等级都会减少生产藻类的时间约5秒，然后在此基础上，每个等级的速度将减半。该装置目前支持到超高压（UHV）外壳，高于此等级的外壳将无法与此机器配合使用。生产速度也有可能随机地加倍或三倍增加所需时间，但这种情况比较罕见。%n%n每次升级还会增加单次产出的藻类量。每个周期会给出一个精确的数量，并且有10%%的机会会额外奖励一定数量。藻类农场还可以用堆肥提高一级农场的等级，同时用藻类就可以生产堆肥。最开始的时候可能很贵，但很建议在大多数情况下这样做。你可以从超低压（ULV）等级开始获得普通藻类和绿藻，高压（HV）等级开始出现褐藻，极高压（EV）等级出现金褐藻，超高压（IV）等级出现红藻，尽管在大多数情况下，它们开始出现时的数量都非常少。%n%n要了解具体的产出数量和时间，请查看维基：[url]https://gtnh.huijiwiki.com/p/1696[/url]%n%n藻类可以用来生产多种化学制品，例如甲烷、氨气、硫酸、碳酸钠、乙烯、氯化锂，甚至一些产能流体。你通常需要用埃克森美孚化工厂来生产它们。在IV阶段你还可以通过结合绿色藻类和荧石来生产夜光珊瑚，用来生产阳光化合物。如果很好奇整个产线的话，查查NEI：关于它们的任务很快就会上线，可能还会有一些不用化工厂的配方。
+
+# Quest: Tier 2 Manipulating
+betterquesting.quest.Mf1D7e-LTaW3rbBRYmxBAQ.name=Tier 2 Manipulating
+betterquesting.quest.Mf1D7e-LTaW3rbBRYmxBAQ.desc=After significant progression, you'll be able to upgrade the QFT to tier 2 by replacing the §b§3Neutron Pulse Manipulator§f §rcasings § with §b§3Cosmic Fabric Manipulator§f §rcasings. Once installed, the QFT can perform the §6§6monaline skip§f §rand the §6§6first two naqline skips§f§r.%n%n§rThese casings require more advanced materials, including §b§3Hyper-Stable Self-Healing Adhesive§f§r, which can only be crafted in a tier 1 QFT. This adhesive isn’t just excellent at sticking things together - it’s also built to withstand the intense energy flow of a tier 2, 3, or even tier 4 QFT! §o%n%nWho knows what kinds of materials you’ll need after this?!
 
 # Quest: A Beginner's Guide to Particle Physics
 betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.name=粒子物理学新手指南
@@ -6522,6 +6590,14 @@ betterquesting.quest.rZCrzZ3QTni28BdPZf2-0w.desc=龙研聚合装置有5级外壳
 # Quest: One Fluid Tank to Store it All!!
 betterquesting.quest.tQecVBhjRRyfR3sqeNBrtA.name=§6§l至尊储罐驭众液
 betterquesting.quest.tQecVBhjRRyfR3sqeNBrtA.desc=如果你觉得普通的超级缸或量子缸实在是太小了,那YOT储罐一定对你胃口！%n%n相较T.F.F.T能存储25种流体,YOT储罐只能存储一种.然而,不必与其他流体共享存储空间也并非一件坏事.YOT储罐同样不需要能源和维护.%n%n如果你就是想大量存储一种流体,YOT储罐就是最佳选择.该储罐有专用的AE交互仓：YOT仓;存储单元方块部分结构上也是可扩展的.既可以升级流体单元方块增加最大容量,也可以加高流体单元方块部分的结构.%n%n因此,想要规整靓丽地存储流体,YOT储罐就是最佳选择.%n%n[note]如果你在NEI中找不到流体单元方块,可以试试搜:fluid cell block[/note]
+
+# Quest: Tier 4 Manipulating
+betterquesting.quest.tXVcSBqQQnS4tF8VoMqr6Q.name=Tier 4 Manipulating
+betterquesting.quest.tXVcSBqQQnS4tF8VoMqr6Q.desc=§lFinally, you have done it§r! You can now upgrade your QFT to the ultimate tier by replacing your §b§3Infinity Infused Manipulator§f §rcasings with §b§3SpaceTime Continuum Ripper§f §rcasings. This final upgrade unlocks all skips, including the §6§6bio cell§f §rskip, the §6§6kevlar skip§f §rand the §6§6radox + xenoxene skip§f§r.%n%nEven with all previous upgrades, the final leap remained out of reach. Chemical skips for foundational components used in the earlier stages of the QFT, such as bioware circuits, were still impossible - §ountil now§r. Reaching the theoretical limit of the QFT demands a material far beyond anything seen before, hidden deep within the second half of the Naquadah line.%n%nThe material you require will be your magnum opus - the §b§3Black Body Naquadria Supersolid§f§r. This extraordinary substance acts as a perfect black body - absorbing all radiation without reflection - and behaves as a supersolid, flowing like a fluid with zero viscosity. Combining these properties in a single material ensures stable, effortless quantum energy flow at any voltage level, even at the MAX tier!%n%nWith this breakthrough, your QFT is fully unlocked, capable of creating components up to the UHV tier.
+
+# Quest: Tier 3 Manipulating
+betterquesting.quest.vK1Ed8HPTTms4QxfaA_P8Q.name=Tier 3 Manipulating
+betterquesting.quest.vK1Ed8HPTTms4QxfaA_P8Q.desc=With access to even more advanced materials, you can upgrade your QFT to tier 3 by replacing the §b§3Cosmic Fabric Manipulator§f §rcasings with §b§3§b§3Infinity Infused Manipulator§§§f §rcasings. This tier unlocks two powerful new skips: the §6§6final naqline skip§f §rand the §6§6stem cell skip§f§r.%n%nThis new casing requires even more advanced materials still, including the §b§3Superconductor Rare-Earth Composite§f§r, which can only be crafted in a tier 2 QFT. Unlike §b§3Hyper-Stable Self-Healing Adhesive§f§r, which focused on structural integrity, this composite is designed purely for energy transmission. With automatic self-repair now fully handled, we can shift our focus to increasing the energy flow between components and into the multi itself.%n%nStandard superconductors break down under quantum stress - but this composite eliminates all resistance across the outer shell. Its precisely layered rare-earth elements create such gradual transitions that quantum flow moves effortlessly, with no losses or destabilizing effects.%n%n§oWhat will you discover next?!
 
 # Quest: More Algae Uses
 betterquesting.quest.wgxwGsMBScCIIWzrgyfb8w.name=藻类的更多用途
@@ -8505,8 +8581,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFvw.name=黏滑怪
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFvw.desc=黏滑怪是一种实用怪物,它会在火星表面发现的黏滑怪蛋中生成. 它分享了原版狼和骡子的一些特征:它可以变形并攻击威胁其主人的怪物,并且可以配备一个特殊的箱子来运输物品.%n%n作为一个友方怪物,黏滑怪将积极帮助并跟随玩家--并且将试图保护他们. 它们也可能具有中立行为,也就是说,如果被非所有者挑衅或伤害,它们就可以进行攻击.%n%n提示:你可以使用以下方式喂养黏滑怪:%n%n船%n熟鱼%n火药%n金锭%n红石中继器%n木门%n%n黏滑怪的所有者可以编辑黏滑怪的背包,运输物品.%n%n获取任意黏滑怪蛋即可完成此任务-注意,你可能需要一柄重镐.
 
 # Quest: Grapple
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwA.name=抓钩
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwA.desc=抓钩是一只钩爪配上绳子,玩家抛出后,会向抛出的方向摆动. 对于到达跳不上去的高处或在小行星间旅行非常有用. [note](或者,你懂的,飞翔.)[/note]%n%n按住右键以将抓钩瞄准想要到达的方块,类似于弓的瞄准. 释放右键--类似于用弓箭射击--将自己拉往瞄准的方向.%n%n为了获得最佳效果,将抓钩瞄准比你想要到达的点高1或2格的位置.%n%n如果此时没有可供安全落地的平台,你会摔下去,受到掉落伤害,因此安全使用抓钩需要一些技巧.%n%n在下界传送门、末地传送门或是低高度的空间站上(Y小于30)使用抓钩得小心一点. 如果抓钩跨越维度,可能会产生奇怪的后果.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwA.name=攀缘钩爪
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwA.desc=攀缘钩爪是一只钩爪配上绳子,玩家抛出后,会向抛出的方向摆动. 对于到达跳不上去的高处或在小行星间旅行非常有用. [note](或者,你懂的,飞翔.)[/note]%n%n按住右键以将攀缘钩爪瞄准想要到达的方块,类似于弓的瞄准. 释放右键--类似于用弓箭射击--将自己拉往瞄准的方向.%n%n为了获得最佳效果,将攀缘钩爪瞄准比你想要到达的点高1或2格的位置.%n%n如果此时没有可供安全落地的平台,你会摔下去,受到掉落伤害,因此安全使用攀缘钩爪需要一些技巧.%n%n在下界传送门、末地传送门或是低高度的空间站上(Y小于30)使用攀缘钩爪得小心一点. 如果攀缘钩爪跨越维度,可能会产生奇怪的后果.
 
 # Quest: Nice and Comfortable - in Space!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwQ.name=漂亮又舒适 - 在太空!
@@ -9915,6 +9991,10 @@ betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.desc=高阶流体存储组件需要�
 # Quest: Crafting Input Proxy
 betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.name=样板输入镜像
 betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.desc=你已经掌握了跨维度物流和在多方块结构中共用仓室,为什么不把它们结合起来呢?%n%n你可以用闪存右键样板输入总线或样板输入总成,将它们与镜像连接起来,并用它来处理多台机器的处理样板,就像在多方块结构中共用了样板输入总线或样板输入总成一样,虽然物理上没有共享仓室.%n%n[note]或许这能降低卡顿?[/note]
+
+# Quest: Level Maintainer
+betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.name=Level Maintainer
+betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.desc=The ME Level Maintainer is another cool addition of AE2FC. Choose an item or fluid and an amount to maintain, and the Level Maintainer will attempt to call patterns to keep crafting the item until it reaches the threshold you configured. You can also configure the crafting batch size.%n%n[note]For fluid crafts, put in a fluid drop and don't drag from NEI.[/note]
 
 # Quest: 16384k Essentia Storage Cell
 betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16384k-ME源质存储元件
@@ -11464,6 +11544,10 @@ betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=现在你已经能够以源质�
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=用魔法的方式种植荧石
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=有许多作物都能为你提供荧石粉,但是其中最好的可能是荧光花.这种神奇的作物一旦成熟便可以直接收获两个荧石粉.
 
+# Quest: Shadow Metal
+betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.name=Shadow Metal
+betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.desc=Shadow Metal is an extremely useful metal in the early game. It can be easily made via the crucible and refined once you unlock the vacuum freezer. %n%nIt's high durability makes it a fantastic candidate for handheld tools, prospector scanners, turbines, and even wand caps later down the line.%n%nStart off by making 5 ores, and doubling that using a macerator.%n%n[note]Hint: You can find the research early on in the Maleficia section of the Thaumonomicon[/note]
+
 # Quest: More Health
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=更多生命值
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.desc=当你射出弩箭时你没来得及注意到你瞄准的是一种背上有着红色线条的特殊蜘蛛,无论你是怎样一个神射手也无济于事.通常,令人难以置信的疼痛会随之而来...%n%n利用你的新法杖,你可以制作红心容器了.你可以最多放10个红心容器到专用的栏位中,每个红心容器能提升一颗心的生命值上限.%n%n这可能并不够,但如果他最终让你好好的站着,而不是横着躺在棺材里,你便会庆幸你制作了这些心之容器.
@@ -11524,6 +11608,10 @@ betterquesting.quest.yT18iStZRzKem7FYnZoRzw.desc=给这个坏小子泵入一点I
 ## Quest Line: Adept Thaumaturgy
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFw.name=熟练的神秘使
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFw.desc=囊括扭曲.
+
+# Quest: Smoke Your Normal Warp Away
+betterquesting.quest.6pH9sRoUSbCDG8eWqXS_ow.name=Smoke Your Normal Warp Away
+betterquesting.quest.6pH9sRoUSbCDG8eWqXS_ow.desc=Having too much normal warp? Saniziting Soap is too expensive for you?%n%nWell, luckily for you, you can remove your Warp using a Silverwood Smoking Pipe and some Relaxing Tobacco. This is a fairly cheap and sustainable option for removing your Normal warp (assuming you have a good option to get a lot of Vis).%n%nIt also has a chance to reduce your temporary warp.%n%n[note]The chance to reduce your normal warp per Relaxing Tobacco is 10%%, so you'll be needing a bunch of it.[/note]%n
 
 # Quest: Adept Thaumaturgy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABBA.name=熟练的神秘使
@@ -11801,9 +11889,25 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA.desc=下个杖芯有太多可选！�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.name=无视它们眼中的光芒
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.desc=这不是个好主意,但不应成为你停下来的理由.不过是有脑子的傀儡罢了,能出什么问题?%n%n§2§b§3你只需完成其中一项要求即可.
 
+# Quest: The BEST Soap!
+betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.name=The BEST Soap!
+betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.desc=Finally, you can now reduce your permanent warp.%n%nThe chance to reduce your permanent warp is 10%%, increased to 25%% if you have the Warp Ward effect and further increased to 40%% if you're standing in Purifying Liquid. %n%n[warn]This soap has some side effects. Make sure you have a way to remove your normal (and temporary) warp.[/warn]%n%n
+
 # Quest: ...or are they?
 betterquesting.quest.LIZCdBLfQquQpULGmFDixw.name=......还是?
 betterquesting.quest.LIZCdBLfQquQpULGmFDixw.desc=这对杖端比神秘锭还要更好!
+
+# Quest: Check Your Warp For Free!
+betterquesting.quest.TBMfXgORRHuggrozS7vsVA.name=Check Your Warp For Free!
+betterquesting.quest.TBMfXgORRHuggrozS7vsVA.desc=Don't want to spend your Salis Mundus on Litmus Paper anymore? This device can significantly reduce your Litmus Paper useage!%n%nWhile holding this item, you gain a HUD Icon on the top left of your screen, which tells you how much warp you have. It does not tell you the exact warp values, but it helps you estimate it.%n%nHere's how to read it:%nYour §l§5§lPermanent Warp§r is displayed as a dark purple bar%nYour §5Normal Warp§r is displayed as a light purple bar%nYour §dTemporary Warp§r is displayed as a pink bar%n%nThe bar is full at 100 total warp.
+
+# Quest: Who Came Up With This Name??
+betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.name=Who Came Up With This Name??
+betterquesting.quest.lMDEhTDISSG1u2HYaZVg9w.desc=Sanitizing Soap isn't strong enough to keep up? %n%nThis soap has a 50%% Chance to reduce your normal warp, increased to 75%% if you have the Warp Ward effect (obtained by Purifying Bath Salts) and increased to 100%% if you're standing inside of the purifying fluid. %nThis soap also has a 100%% chance to cleanse §lall§r of your temporary warp!%n%nIn case you're wondering how to pronounce it: Don't even bother trying.%n
+
+# Quest: Research Completer
+betterquesting.quest.q9PTMZlaR-GCnyoGNoO8Pw.name=Research Completer
+betterquesting.quest.q9PTMZlaR-GCnyoGNoO8Pw.desc=Let's face it... nobody (sane) wants to do all of their research manually!%n%nNow that you've learned how to collect nodes and create a wand recharging pedestal you can make the research completer. This quest shows the minimum required blocks but the structure can be up to 13 in length.%n%nThis machine will consume EU and eat nodes placed in the center of it in exchange for completing research notes given to it. If you're using a long machine it's highly recommended you use node stabilizers underneath your nodes to prevent them from destroying each other.%n%n[note]Of course you need to §lresearch§r the Research Completer, you'll find it in the electro-magic tools tab.[/note]
 
 
 ## Quest Line: Kaaami, Haaaami, ... HA!
@@ -13900,6 +14004,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKtw.desc=吸血鬼币终于有用处了!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.name=黏性树脂
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYQ.desc=找不到橡胶树? 造不出集水器? 不想老是搓木龙头?  花点硬币买一组黏性树脂吧.
 
+# Quest: Shulker
+betterquesting.quest.C8FHZDizTnax3tt7HvnkBw.name=Shulker
+betterquesting.quest.C8FHZDizTnax3tt7HvnkBw.desc=I would carry out this battle indoors if I were you...
+
 # Quest: Having trouble finding Botania mushrooms?
 betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.name=找不到植物魔法的蘑菇?
 betterquesting.quest.ZW-P5BllSP25hEBQTgEBQQ.desc=为什么不花一些硬币来节省你在暮色森林中寻找微光蘑菇的时间呢?
@@ -14032,9 +14140,17 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmg.desc=三袋IV时代战利品袋 = �
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=防水科技,完美样板
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.desc=随着你能随心所欲地弯曲时空,你能防止流体和电子元件发生相互作用.%n%n现在它可以处理包含流体的处理样板.%n%n[note]除此之外,它就像样板输入总线一样工作.[/note]
 
+# Quest: Steel Barrel
+betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.name=§3§lSteel Barrel
+betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.desc=The Steel barrel also has 72 slots.
+
 # Quest: Integrated Ore Factory - All in One!
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.name=§6§6§6§l集成矿石处理厂 - 一体化！
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.desc=集成矿石处理厂允许你一次性进行多进程的矿石处理.
+
+# Quest: Copper Barrel
+betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§2§lCopper Barrel
+betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.desc=The Copper barrel has 45 slots.
 
 # Quest: Main Quests and Secondary Quests
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABA.name=§1§l主要任务和次要任务
@@ -14548,6 +14664,18 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzg.desc=为什么在我们可以运用�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.name=1阶纳米锻炉
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=一定有种方式,可以让纳米机器人,在机器中参与加工.虽说可以在装配线中制造碳纳米蜂群,但效率极低.一定还有更好的方式.%n%n这台纳米锻炉如何,它能够将方块切割成纳米级薄片,然后制成第一个纳米蜂群,而生产出来的纳米蜂群又可以参与制造,几秒内即可造出数以千计的同类.%n%n[note]纳米锻炉是一台庞大的多方块机器,在几分钟内需要消耗更加庞大的能量.支持TecTech的多A能源仓/激光仓.需要在控制器的GUI中放入一个碳纳米蜂群,方可解锁1阶配方.[/note]%n%n[note]另外,NEI中纳米锻炉配方没有最低电压要求.如果你想要让配方正常运行,只需达到其功率即可,不用管电压.[/note]
 
+# Quest: A Portable Barrel?
+betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.name=§2§lA Portable Barrel?
+betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to portably tote it's contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]Checkout the coins tab if you're looking for shells![/note]
+
+# Quest: Gold Barrel
+betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§3§lGold Barrel
+betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.desc=The Gold barrel has 81 slots.
+
+# Quest: Diamond Barrel
+betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.name=§5§lDiamond Barrel
+betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slots.
+
 # Quest: Compact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§2§l紧凑的存储
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=现在你已经有了越来越多的铜储备,你感觉你的木箱子太小了,不能存下你的所有东西. %n%n[note]是时候将你的木箱子升级为铜箱子了!更高等级的箱子可以通过升级组件方便地进行升级,但并不是所有等级的箱子都可以通过这种方法直接升级.你也可以试试看"箱子升级：木>铜",不过,用这种方式将木箱子升级到高级的箱子并不会更加便宜.[/note]%n%n[note]升级后相邻的箱子不再能连接组成更大的箱子.[/note]
@@ -14556,9 +14684,21 @@ betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=现在你已经有了越来越�
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§3§l钢箱子?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=钢箱子的造价明显高于金箱,容量也更小,但可用于某些特殊合成配方.
 
+# Quest: The future is here!
+betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§2§lThe future is here!
+betterquesting.quest.V9BupH47RI6RWX6vff5dpw.desc=EFR adds with it vanilla Barrels (not to be confused with JABBA barrels). These are essentially like chests, but they can be placed next to each other and opened with a block above them. And you can upgrade them! Great for those compact machine setups.
+
+# Quest: Silver Barrel
+betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.name=§3§lSilver Barrel
+betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.desc=The Silver barrel has 72 slots.
+
 # Quest: Multiblock Revolution
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.name=§3§l多方块革命
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.desc=你一直在使用的蒸汽机器表现良好,但总有一天你需要处理更多的物品.这时候,所谓的多方块机器就派上用场了.有多种蒸汽多方块机器可供你选择——快去看看“大批量加工”的任务页面吧!%n%n这一页任务将向你介绍一系列极其强大的多方块机器,它们可以替代你那些陈旧的单方块机器(以及一些旧的多方块机器!).这些新机器中的许多需要你处理额外的机制和要求,但绝对值得一试!%n%n在进入多方块的世界之前,你需要熟悉以下术语:%n%n超频(OC):%n如果一台机器能够处理至少为配方所需电压4倍的电压,它将会超频——导致其消耗4倍的EU/t,但运行速度提高到2倍.这种情况可以多次发生!%n%n无损超频(通常表述为“超频时效率不会降低”):%n某些机器在条件允许时(或无条件)执行无损超频:在这种情况下,机器需要4倍的EU/t,但运行速度提高到4倍,从而既增加了速度又没有增加总EU消耗!%n%n并行(通常表述为“同时处理x个物品”):%n并行工作的机器就像在运行多个自身——也就是说,它们可以同时执行多个相同的配方,使用配方的EU/t乘以并行数.机器会[warn]优先考虑[/warn]并行这种行为而不是超频,这对你有利!并行更加高效.%n%n[note]当使用多方块机器时,如果运行过程中电力中断,你的输入物品将会永久丢失……小心![/note]
+
+# Quest: Iron Barrel
+betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.name=§2§lIron Barrel
+betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.desc=The Iron barrel has 54 slots.
 
 # Quest: Dark Steel Chest
 betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.name=§5§6§l玄钢箱子
@@ -14571,43 +14711,47 @@ betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=经过对第四维度的研究,
 
 ### Quests in no quest lines ###
 
-# Quest: Trigger LoC
+# Quest: Trigger: Rocket Shuttle Skip
+betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.name=Trigger: Rocket Shuttle Skip
+betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.desc=No Description
+
+# Quest: Trigger: LoC
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.name=触发灰烬烧灯
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.desc=触发你背包里的"灰烬烧灯".
 
-# Quest: Trigger Singularity
+# Quest: Trigger: Singularity
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxA.name=触发奇点
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxA.desc=制作一个奇点并触发吧.
 
-# Quest: Trigger Shard of Creation
+# Quest: Trigger: Shard of Creation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxQ.name=触发创世碎片
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxQ.desc=制作一个创世碎片并触发吧.
 
-# Quest: Trigger Life and Soul Shard
+# Quest: Trigger: Life and Soul Shard
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxg.name=触发生命碎片和灵魂碎片
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxg.desc=制作一个生命碎片和一个灵魂碎片并触发吧.
 
-# Quest: Trigger Unknown Crystal
+# Quest: Trigger: Unknown Crystal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw.name=触发未知水晶
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw.desc=寻找"神秘水晶"并触发吧.
 
-# Quest: Trigger Life
+# Quest: Trigger: Life
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.name=触发生命
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.desc=在凋灵死亡后触发红心容器任务.
 
-# Quest: Trigger:Ring
+# Quest: Trigger: Ring
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.name=触发:魔戒
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.desc=寻找魔戒.
 
-# Quest: Trigger:Mjolnir
+# Quest: Trigger: Mjolnir
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.name=触发:雷神之锤
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.desc=寻找雷神之锤.
 
-# Quest: Trigger:Ballthingy
+# Quest: Trigger: Ballthingy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.name=触发:球状物
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVQ.desc=找到?或做个雷电碎片
 
-# Quest: Trigger:CtH (unlock)
+# Quest: Trigger: CtH (unlock)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.name=触发:树木培育任务线(解锁)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.desc=完全收集杂交树木触发.
 
@@ -14615,67 +14759,67 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAISw.desc=完全收集杂交树木触发.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw.name=蜜蜂模板
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIbw.desc=首先从NEI中拿出公主蜂和奖励袋. %n复制这个任务.%n点击任务图标,打开编辑菜单,将图标设置为这个蜜蜂. %n%n打开任务,编辑,任务目标,将石头替换成这个公主蜂. %n在关闭之前,点击蜜蜂名字右侧的"...",然后点击"原NBT". %n点击tag栏"对象...",Genome栏"对象...",Chromosomes栏"列表...".%n第一个是必须保留的品种,删除剩余的条目.%n%n点击前置任务.删除"工具:不要完成",并选择需要的前置蜜蜂任务.如果不需要别的前置,选择"培育一些寻常蜂"任务即可.%n%n将"图表显示:隐藏"改为"图表显示:默认".%n%n要减少任务书中的无用文件,你还要进入高级设置,点击"..."图标,删除其中不必要的NBT.只保留前面提到的那些.%n%n最后将最外全局设置里的repeatTime改为-1.%n%n%n§3点击前置任务菜单中的眼睛图标可以调整前置任务的可见性.
 
-# Quest: Trigger:Silicone Rubber Skip
+# Quest: Trigger: Silicone Rubber Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.name=触发:跳过硅橡胶
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2A.desc=没有描述.
 
-# Quest: Trigger:PTFE Skip
+# Quest: Trigger: PTFE Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.name=触发:跳过聚四氟乙烯
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2Q.desc=没有描述.
 
-# Quest: Trigger:Polystyrene Skip
+# Quest: Trigger: Polystyrene Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.name=触发:跳过聚苯乙烯
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2g.desc=没有描述.
 
-# Quest: Trigger:Epoxid Skip
+# Quest: Trigger: Epoxid Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.name=触发:跳过环氧树脂
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL2w.desc=没有描述.
 
-# Quest: Trigger:Naqline Skip
+# Quest: Trigger: Naqline Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.name=触发:跳过硅岩处理
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3A.desc=没有描述.
 
-# Quest: Trigger:Loot Game
+# Quest: Trigger: Loot Game
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw.name=触发:奖励小游戏(Loot Game)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOw.desc=找到一座小游戏地牢.
 
-# Quest: Trigger Flippers
+# Quest: Trigger: Flippers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVA.name=触发脚蹼
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVA.desc=
 
-# Quest: Trigger:Titanium Moon Skip
+# Quest: Trigger: Titanium Moon Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVQ.name=触发:跳过月球获得钛
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVQ.desc=没有描述.
 
-# Quest: Trigger:Platline Platinum Skip
+# Quest: Trigger: Platline Platinum Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVg.name=触发:跳过铂线铂
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVg.desc=没有描述.
 
-# Quest: Trigger:PBI Skip
+# Quest: Trigger: PBI Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVw.name=触发:跳过PBI
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALVw.desc=没有描述.
 
-# Quest: Trigger:Platline Palladium Skip
+# Quest: Trigger: Platline Palladium Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWA.name=触发:跳过铂线钯
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWA.desc=没有描述.
 
-# Quest: Trigger:Platline Rhodium Skip
+# Quest: Trigger: Platline Rhodium Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWQ.name=触发:跳过铂线铑
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWQ.desc=没有描述.
 
-# Quest: Trigger:Platline Ruthenium Skip
+# Quest: Trigger: Platline Ruthenium Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWg.name=触发:跳过铂线钌
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWg.desc=没有描述.
 
-# Quest: Trigger:Platline Iridium Skip
+# Quest: Trigger: Platline Iridium Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWw.name=触发:跳过铂线铱
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALWw.desc=没有描述.
 
-# Quest: Trigger:Platline Osmium Skip
+# Quest: Trigger: Platline Osmium Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALXA.name=触发:跳过铂线锇
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALXA.desc=没有描述.
 
-# Quest: Trigger:Tungstensteel Mars Skip
+# Quest: Trigger: Tungstensteel Mars Skip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.name=触发:跳过火星获得钨钢
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.desc=没有描述.
 
@@ -14691,22 +14835,66 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=没有描述.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=工具:不要完成
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.desc=这个任务永远不应该完成,它用来隐藏模板和其他必要隐藏的任务.
 
+# Quest: Trigger: Graphene Skip
+betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.name=Trigger: Graphene Skip
+betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.desc=No Description
+
 # Quest: Trigger: Early Scribing Tools
 betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.name=触发:笔与墨
 betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=无描述
 
-# Quest: Trigger:Styrene-Butadiene rubber
+# Quest: Trigger: Rocket Tier 3 Skip
+betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.name=Trigger: Rocket Tier 3 Skip
+betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.desc=No Description
+
+# Quest: Trigger: Rocket Tier 4 Skip
+betterquesting.quest.ThhwoFJASzGjsSjyGqCROQ.name=Trigger: Rocket Tier 4 Skip
+betterquesting.quest.ThhwoFJASzGjsSjyGqCROQ.desc=No Description
+
+# Quest: Trigger: Rocket Tier 1 Skip
+betterquesting.quest.VoVbERmlQRGNglekP68u-Q.name=Trigger: Rocket Tier 1 Skip
+betterquesting.quest.VoVbERmlQRGNglekP68u-Q.desc=No Description
+
+# Quest: Trigger: Rocket Tier 5 Skip
+betterquesting.quest.aPHM7QnaQEmVjOJwYbMp8Q.name=Trigger: Rocket Tier 5 Skip
+betterquesting.quest.aPHM7QnaQEmVjOJwYbMp8Q.desc=No Description
+
+# Quest: Trigger: Styrene-Butadiene Rubber Skip
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.name=触发:丁苯橡胶
 betterquesting.quest.cQkx83QYT4m3mwovgZIKvA.desc=无描述
+
+# Quest: Trigger: Rocket Tier 2 Skip
+betterquesting.quest.duath_FBQVqyzgYn4PicxA.name=Trigger: Rocket Tier 2 Skip
+betterquesting.quest.duath_FBQVqyzgYn4PicxA.desc=No Description
+
+# Quest: Trigger: SMD Inductor Skip
+betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.name=Trigger: SMD Inductor Skip
+betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.desc=No Description
+
+# Quest: Trigger: Polyphenylene Sulfide Skip
+betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.name=Trigger: Polyphenylene Sulfide Skip
+betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.desc=No Description
+
+# Quest: Trigger: Rocket Tier 7 Skip
+betterquesting.quest.jAZpo1cHR56fqHckKP14lw.name=Trigger: Rocket Tier 7 Skip
+betterquesting.quest.jAZpo1cHR56fqHckKP14lw.desc=No Description
 
 # Quest: Trigger: Profane Wand
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.name=触发:渎神杖柄
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.desc=无描述
 
-# Quest: Trigger:Nether Skip
+# Quest: Trigger: Nether Skip
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.name=触发:跳过下界
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.desc=无描述
 
 # Quest: Trigger: LV Extruder Skip
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.name=触发:跳过LV压模机
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.desc=无描述
+
+# Quest: Trigger: Rocket Tier 6 Skip
+betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.name=Trigger: Rocket Tier 6 Skip
+betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.desc=No Description
+
+# Quest: Trigger: Rocket Tier 8 Skip
+betterquesting.quest.zDoZ8PcTSFWF8Jh5diM0_Q.name=Trigger: Rocket Tier 8 Skip
+betterquesting.quest.zDoZ8PcTSFWF8Jh5diM0_Q.desc=No Description
