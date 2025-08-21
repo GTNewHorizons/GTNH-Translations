@@ -6,7 +6,7 @@ generator.botania-skyblock.info=보타니아를 처음하는 분에게는 권장
 # Something that is not localized, translators, do NOT change this line.
 botaniamisc.noloc=botaniamisc.noloc
 
-nomobspawnsonthisblock.tip=Mobs cannot Spawn on this Block
+nomobspawnsonthisblock.tip=몬스터들이 이 블록에서 생성될 수 없습니다
 
 botaniamisc.nextPage=다음 장
 botaniamisc.prevPage=이전 장
@@ -140,7 +140,7 @@ botaniamisc.notes=노트
 botaniamisc.pay2win=아이템을 마나웅덩이에 빠트려서 업그레이드해보세요
 botaniamisc.justDoIt=지금 당장
 botaniamisc.changes0=&aBotania&7 has changed since you last used it in this instance!
-botaniamisc.changes1=The last version of &aBotania&7 you used was &b%s&7.
+botaniamisc.changes1=마지막으로 사용한 &a보타니아&7 버전은 &b%s&7 입니다.
 botaniamisc.changes2=Things change, don't panic. If something seems off, read the entry again.
 botaniamisc.changes3=&oEveryone is afraid of change, yet change is the force that moves us forward.
 botaniamisc.changes4=&fShift-Left Click&7 to read the changes since then
@@ -151,7 +151,7 @@ botaniamisc.tutorialVideo=Video
 botaniamisc.shiftToStopSpin=(SHIFT to stop animation)
 botaniamisc.noVideo=&4Video will be back soon. Sorry :(
 botaniamisc.adaptativeConfigChanges=Botania's Adaptative Config has changed the following config defaults for you:
-botaniamisc.altarRefill0=Right click with an empty hand to
+botaniamisc.altarRefill0=빈 손으로 오른쪽 클릭하여
 botaniamisc.altarRefill1=add back the last recipe
 botaniamisc.santaweaveInfo=Manaweave, changed up for the &cs&fe&ca&fs&co&fn
 botaniamisc.enterToView=^ Press ENTER to view ^
@@ -169,7 +169,7 @@ botaniamisc.lokiDescription2=Can Place/Interact/Break with multiple blocks at on
 botaniamisc.lokiToggleDescription=Loki Switch Key to turn ring
 botaniamisc.lokiBreakingDescription=Loki Switch Key + Shift to toggle breaking
 botaniamisc.lokiCurrent=Current
-botaniamisc.lokiState=Ring
+botaniamisc.lokiState=반지
 botaniamisc.lokiMirror=Current mirror:
 botaniamisc.insufficient_mana=Not enough mana!
 
@@ -181,7 +181,7 @@ botania.nei.manaPool=마나 주입
 botania.nei.petalApothecary=꽃잎 연금술기
 botania.nei.runicAltar=루닉 제단
 botania.nei.pureDaisy=정화의 데이지
-botania.nei.lexica=Lexica Botania
+botania.nei.lexica=보타니아 사전
 nei.options.keys.gui.botania_corporea_request=Corporea Request
 
 botania.nei.lexicaSeparator=Extra Info:
@@ -197,7 +197,7 @@ botania.nei.quickInfo:flower.nightshadePrimus=This flower can not be harvested, 
 
 botania.nei.quickInfo:item.bone~0=You're gonna have a bad time
 botania.nei.quickInfo:item.lexicon~0=What exactly did you expect?
-botania.nei.quickInfo:item.terrasteel~4=You can get Terrasteel by tossing the right materials on a Terrestrial Agglomeration Plate
+botania.nei.quickInfo:item.terrasteel~4=테라스틸 집적 판에 올바른 재료를 올려놓아 테라스틸을 만들 수 있습니다.
 botania.nei.quickInfo:item.enderAirBottle~15=You can get this by right clicking with a Glass Bottle while in the End
 
 # BUILDCRAFT INTEGRATION
@@ -269,7 +269,7 @@ botania.armorset.elementium.desc=픽시의 포션 효과가 변경됩니다.
 botania.armorset.terrasteel.name=고대의 의지
 botania.armorset.terrasteel.desc0=마나를 사용하는 도구들의 마나 사용량이 20% 감소합니다.
 botania.armorset.terrasteel.desc1=포만도와 상관없이 채력이 차오릅니다.
-botania.armorset.terrasteel.desc2=Passive Mana generation on Mana Tablets
+botania.armorset.terrasteel.desc2=패시브 마나 재생을 마나 태블릿에 부여
 botania.armorset.manaweave.name=마나타이드의 솜씨
 botania.armorset.manaweave.desc0=마나를 사용하는 도구들의 마나 사용량이 35% 감소합니다.
 botania.armorset.manaweave.desc1=마법막대들의 효율증가
@@ -2997,7 +2997,7 @@ botania.page.daybloom2=&oStarting up a brand new day&r.
 # -- NIGHTSHADE
 botania.entry.nightshade=Nightshade
 botania.tagline.nightshade=Mana from the moon
-botania.page.nightshade0=The &1Nightshade&0 is the dark counterpart of the &1Daybloom&0, as it generates &4Mana&0 passively in any situation the &1Daybloom&0 can not, as long as it's nighttime<br>Similarly to their shining counterpart, they suffer diminishing returns from having any adjacent.
+botania.page.nightshade0=The &1Nightshade&0 is the dark counterpart of the &1Daybloom&0, as it generates &4Mana&0 passively in any situation the &1Daybloom&0 can not, as long as it's nighttime.<br>Alike its shining counterpart, they are classified as &4passive flowers&0, and as such will decay.
 botania.page.nightshade1=&oThe shadow of the day&r.
 
 # -- ENDOFLAME
@@ -3011,14 +3011,14 @@ botania.page.endoflame2=&oNot nitor&r.
 # -- HYDROANGEAS
 botania.entry.hydroangeas=Hydroangeas
 botania.tagline.hydroangeas=Mana from water
-botania.page.hydroangeas0=While passive &4Mana&0 generation can be easily achieved through &1Dayblooms&0, different means of doing so might come in handy. The &1Hydroangeas&0 will suck up any &1Still Water&0 in a 3x3 area around it, on the same height, creating &4Mana&0 from it. They also seem to function faster during &4Rain&0, who'd have thought?
+botania.page.hydroangeas0=&1Hydroangeas&0 act as a liquid based passive generator. They will suck up any &1Still Water&0 in a 3x3 area around it, on the same height, creating &4Mana&0 from it. The amount they produce is comparable to that of an &1Endoflame&0. They also seem to function faster during &4Rain&0.<br>&1Hydroangeas&0 are classified as &4passive flowers&0 and as such will decay.
 botania.page.hydroangeas2=A simple &1Hydroangeas&0 system
 botania.page.hydroangeas1=&oFrom some Hyperdimension&r?
 
 # -- THERMALILY
 botania.entry.thermalily=Thermalily
 botania.tagline.thermalily=Mana from lava
-botania.page.thermalily0=There comes a point where slow generating power, like the &1Hydroangeas&0 or the &1Endoflame&0 is not enough. An answer to that is the &1Thermalily&0, which works similarly to the &1Hydroangeas&0, except with &1Lava&0, it'll produce a very large amount of &1Mana&0 at a spurt when it consumes &1Lava&0, doing this heats up the flower, and it'll need some time to cool down before it can begin the cycle anew.
+botania.page.thermalily0=The &1Thermalily&0 acts as a &1Lava&0 counterpart to the &1Hydroangeas&0. As expected, the flower will absorb &1Lava&0 around it, in the same height as it, to create &4Mana&0.<br>After absorbing the &1Lava&0, the flower will produce &4Mana&0 for around 45 seconds. After it stops, it needs a bit of time, around 5 minutes, to cool down, before it can absorb more &1Lava&0.
 botania.page.thermalily2=The amount of &4Mana&0 the &1Thermalily&0 produces during its active period is extremely high, serving as a very functional flower for when a quick boost is needed.<br>During the "cooldown" period, if the flower were to absorb any &4Lava&0, it instead consumes it, generating no &4Mana&0 and having to wait 5 minutes from there to start over.
 botania.page.thermalily3=While placing &1Lava&0 in the world is definitely possible via &1Dispensers&0, automatically gathering it and carrying it from the &4Nether&0 or deep underground is another story entirely.<br>As such, the &1Thermalily&0 is clasified as a "semi-automatable" flower.
 botania.page.thermalily1=&o0108 Style&r.
@@ -3348,7 +3348,7 @@ botania.page.felPumpkin1=Nerfing warlocks again
 # -- MANA BLASTER
 botania.entry.manaBlaster=Mana Blaster
 botania.tagline.manaBlaster=Portable Mana Spreader, with lenses!
-botania.page.manaBlaster0=The &1Mana Blaster&0 is like a portable &1Mana Spreader&0, while shaped like a pistol for easy handling, it's not exactly a firearm, as much as it is just a portable spreader.<br>By utilizing &4Mana&0 from &4Mana carrying items&0 in the holder's inventory, it can shoot a mana burst when one is looking at.
+botania.page.manaBlaster0=The &1Mana Blaster&0 is like a portable &1Mana Spreader&0, while shaped like a pistol for easy handling, it's not exactly a firearm, as much as it is just a portable spreader.<br>By utilizing &4Mana&0 from &4Mana carrying items&0 in the holder's inventory, it can shoot a mana burst wherever one is looking.
 botania.page.manaBlaster1=This burst is a bit different from the one fired from speaders, as it's faster, but carries only three quarters of the mana a spreader burst would. There's also a short cooldown period after firing the blaster until another burst can be shot.
 botania.page.manaBlaster2=&1Mana Lenses&0 also function with the blaster, to attach one to it, put them side by side on a crafting table, to remove it, simply place the &1Mana Blaster&0 back on the crafting grid.
 botania.page.manaBlaster3=We need more dakka
@@ -3600,7 +3600,7 @@ botania.page.fireChakram1=As fire as fenn's mixtape
 # -- OVERGROWTH SEED
 botania.entry.overgrowthSeed=Overgrowth Seed
 botania.tagline.overgrowthSeed=An elusive object that powers up flowers and prevents passive death
-botania.page.overgrowthSeed0=An &1Overgrowth Seed&0 is an elusive item, which can be used to enchant a piece of &1Grass&0, via right clicking on it in the world, creating &1Enchanted Soil&0. Flowers that are rooted on this &1Enchanted Soil&0 will function at double the normal speed.<br>There's one problem, though. No known method of creating these exists, but they have been spotted in ancient structures and the like.
+botania.page.overgrowthSeed0=An &1Overgrowth Seed&0 is an elusive item, which can be used to enchant a piece of &1Grass&0, via right clicking on it in the world, creating &1Enchanted Soil&0. Flowers that are rooted on this &1Enchanted Soil&0 will function at double the normal speed.<br>&4Passive flowers&0 planted on this soil won't get the speed boost, instead, they will simply not decay.
 botania.page.overgrowthSeed1=There's one problem, though.<br>No known method of creating these exists. They have however, been allegedly spotted by historians in ancient structures and temples. Perhaps that would be a wise guess as to where to find these.
 
 # -- LIVINGWOOD BOW

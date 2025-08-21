@@ -1,76 +1,76 @@
 # Creative Tabs
-itemGroup.MiscUtilBlockTab=[GT++] Blocks
-itemGroup.MiscUtilMiscTab=[GT++] Items
-itemGroup.MiscUtilCombatTab=[GT++] Combat
-itemGroup.MiscUtilToolsTab=[GT++] Tools
-itemGroup.MiscUtilMachineTab=[GT++] Machines
-itemGroup.MiscUtilOtherTab=[GT++] Items II
-itemGroup.MiscUtilBOP=[GT++] Biomes O'Plenty Additions
+itemGroup.MiscUtilBlockTab=[GT++] 블록들
+itemGroup.MiscUtilMiscTab=[GT++] 아이템
+itemGroup.MiscUtilCombatTab=[GT++] 전투
+itemGroup.MiscUtilToolsTab=[GT++] 도구
+itemGroup.MiscUtilMachineTab=[GT++] 기계들
+itemGroup.MiscUtilOtherTab=[GT++] 아이템 2
+itemGroup.MiscUtilBOP=[GT++] 바이옴 오 플렌티 추가품
 
 # Debug
-item.AAA_Broken.name=[Non-existent Item] Report This Recipe On Github, Please.
+item.AAA_Broken.name=[존재하지 않는 아이템] 깃허브에 신고하세요. 꼭이요.
 item.itemBedLocator_Base.name=Bed Locator [NBT Test]
 item.itemBaseItemWithCharge.name=Base Chargeable Item
-item.miscutils_itemDebugShapeSpawner.name=[Debug] Shapes
+item.miscutils_itemDebugShapeSpawner.name=[디버그] 모양
 
 # Fluids
 tile.fluidSludge.name=Stagnant Waste Water
 tile.fluidSludge.0.name=Stagnant Waste Water
 
 # Death Messages
-death.attack.plasmabolt=%s died by burning hot plasma.
-death.attack.plasmabolt.player=%1$s was killed by %2$s using plasma.
-death.attack.gtpp.grinder=%s was ground into nothingness by an IsaMill.
+death.attack.plasmabolt=%s 이(가) 뜨겁게 불타는 플라즈마에 의해 죽었습니다.
+death.attack.plasmabolt.player=%1$s 이(가) 뜨겁게 불타는 플라즈마를 사용한 %2$s 에게 살해당했습니다.
+death.attack.gtpp.grinder=%s 이(가) IsaMill에 의해 무(無)로 분쇄되었습니다.
 
 # Batch mode chat message
-misc.BatchModeTextOn=Batch recipes (ME output bus recommended, will void excess outputs!)
-misc.BatchModeTextOff=Don't batch recipes
+misc.BatchModeTextOn=레시피를 묶어서 생산합니다. (ME 출력 버스가 권장됩니다. 출력 버스를 초과하는 출력은 사라질 것입니다.)
+misc.BatchModeTextOff=제작법을 묶어서 생산하지 않습니다.
 
 # Alternative Materials
-item.itemPlateBatteryAlloy.name=Plate of Battery Alloy
-item.itemIngotBatteryAlloy.name=Ingot of Battery Alloy
+item.itemPlateBatteryAlloy.name=배터리 합금판
+item.itemIngotBatteryAlloy.name=배터리 합금 주괴
 item.itemStickyRubber.name=Gumlet of Sticky Rubber
 
 # Unused Fuel rods
-item.itemFuelRod_Empty.name=Empty Fuel Rod
-item.itemFuelRod_Thorium.name=Thorium Fuel Rod
-item.itemFuelRod_Uranium.name=Uranium Fuel Rod
-item.itemFuelRod_Plutonium.name=Plutonium Fuel Rod
+item.itemFuelRod_Empty.name=빈 연료봉
+item.itemFuelRod_Thorium.name=토륨 연료봉
+item.itemFuelRod_Uranium.name=우라늄 연료봉
+item.itemFuelRod_Plutonium.name=플루토늄 연료봉
 
 # Entities
-item.BasicMetaSpawnEgg.name=Spawn Staballoy Construct
-entity.constructStaballoy.name=Staballoy Construct
+item.BasicMetaSpawnEgg.name=스타바로이 구조체 생성알
+entity.constructStaballoy.name=스타바로이 구조체
 entity.sickBlaze.name=Infected Zealot
 
 # Tile Entities
-tile.blockToolBuilder.name=GregTech Tool Constructor
-tile.blockEggBox.name=Egg Box
-tile.blockCircuitProgrammer.name=Circuit Programmer
-tile.blockDecayablesChest.name=Lead Lined Box
-tile.blockVolumetricFlaskSetter.name=Volumetric Flask Configurator
-tile.blockSuperLight.name=Shining Star
+tile.blockToolBuilder.name=그레그테크 도구 제조기
+tile.blockEggBox.name=계란 상자
+tile.blockCircuitProgrammer.name=회로 프로그래머
+tile.blockDecayablesChest.name=납으로 차폐된 상자
+tile.blockVolumetricFlaskSetter.name=용적 플라스크 조절기
+tile.blockSuperLight.name=빛나는 별
 tile.blockPestKiller.name=Pest Killer
 tile.blockSuperJukebox.name=Sir Mixalot [Jukebox]
 tile.blockSuperJukebox.deprecated=§cDEPRECATED, Use the Electric Jukeboxes instead
 
 # Tools
-item.itemBufferCore.name=Energy Core
-item.itemStaballoyPickaxe.name=Tunnel Digger
-item.itemStaballoyAxe.name=Tree Feller
-item.itemSandstoneHammer.name=Cobblestone Breaker
+item.itemBufferCore.name=에너지 코어
+item.itemStaballoyPickaxe.name=터널 채굴기
+item.itemStaballoyAxe.name=나무 절삭자
+item.itemSandstoneHammer.name=광물 분쇄자
 
 # Tooltips
-GTPP.machines.chisel_slot.tooltip=Target Slot
-GTPP.machines.chisel_slot.tooltip.1=§7Put chiseled item to specify output
-GTPP.core.GT_Tooltip=Added by: §2Alkalus §7- §c[GT++]
+GTPP.machines.chisel_slot.tooltip=견본 넣는 곳
+GTPP.machines.chisel_slot.tooltip.1=§7조각된 아이템을 넣어 출력을 정하세요
+GTPP.core.GT_Tooltip=추가자: §2Alkalus §7- §c[GT++]
 GTPP.core.GT_Tooltip_Builder=§2Alkalus §7- §c[GT++]
-GTPP.core.GT_Tooltip_Radioactive=§7Warning: §aRadioactive! §6 Avoid direct handling without hazmat protection.
+GTPP.core.GT_Tooltip_Radioactive=§7주의: §a방사성을 가지고 있습니다! §6 항화학 보호장비 없이 직접 운반하는 것을 피하십시오.
 
 # RecipeMaps
-gtpp.recipe.cokeoven=Coke Oven
-gtpp.recipe.matterfab2=Matter Fabricator
-gtpp.recipe.rocketenginefuel=Rocket Engine Fuel
-gtpp.recipe.quantumforcesmelter=Quantum Force Transformer
+gtpp.recipe.cokeoven=코크스 오븐
+gtpp.recipe.matterfab2=물질 제작기
+gtpp.recipe.rocketenginefuel=로켓 엔진 연료
+gtpp.recipe.quantumforcesmelter=양자 힘 변환기
 gtpp.recipe.chemicaldehydrator=Dehydrator
 gtpp.recipe.vacfurnace=Vacuum Furnace
 gtpp.recipe.alloyblastsmelter=Alloy Blast Smelter
@@ -85,36 +85,36 @@ gtpp.recipe.simplewasher=Simple Dust Washer
 gtpp.recipe.moleculartransformer=Molecular Transformer
 gtpp.recipe.fluidchemicaleactor=Chemical Plant
 gtpp.recipe.RTGgenerators=RTG
-gtpp.recipe.thermalgeneratorfuel=Thermal Boiler
-gtpp.recipe.solartower=Solar Tower
-gtpp.recipe.cyclotron=COMET - Compact Cyclotron
-gtpp.recipe.fishpond=Zhuhai - Fishing Port
-gtpp.recipe.cryogenicfreezer=Cryogenic Freezer
-gtpp.recipe.multicentrifuge=Multiblock Centrifuge
-gtpp.recipe.multielectro=Multiblock Electrolyzer
-gtpp.recipe.multimixer=Multiblock Mixer
-gtpp.recipe.multidehydrator=Multiblock Dehydrator
-gtpp.recipe.semifluidgeneratorfuels=Semifluid Generator Fuels
-gtpp.recipe.flotationcell=Flotation Cell
-gtpp.recipe.treefarm=Tree Growth Simulator
+gtpp.recipe.thermalgeneratorfuel=열 보일러
+gtpp.recipe.solartower=태양 타워
+gtpp.recipe.cyclotron=COMET - 컴팩트 사이클로트론
+gtpp.recipe.fishpond=주하이 - 낚시 항구
+gtpp.recipe.cryogenicfreezer=극저온 냉동기
+gtpp.recipe.multicentrifuge=멀티블록 원심분리기
+gtpp.recipe.multielectro=멀티블록 전해조
+gtpp.recipe.multimixer=멀티블록 혼합기
+gtpp.recipe.multidehydrator=멀티블록 탈수기
+gtpp.recipe.semifluidgeneratorfuels=반유체 발전기 연료
+gtpp.recipe.flotationcell=부양 셀
+gtpp.recipe.treefarm=나무 성장 시뮬레이터
 
 # Recipe categories
-gtpp.recipe.category.abs_non_alloy_recipes=ABS Non-Alloy Recipes
+gtpp.recipe.category.abs_non_alloy_recipes=합금 용광로 비합금 레시피
 
 # NEI
-gtpp.nei.lftr.power=Power: %s EU/t per Dynamo
-gtpp.nei.lftr.dynamo=Dynamo: %s EU
-gtpp.nei.lftr.total=Total: %s EU
-gtpp.nei.milling.not_consumed=Does not always get consumed in the process
-gtpp.nei.chemplant.tier.1=Bronze
-gtpp.nei.chemplant.tier.2=Steel
-gtpp.nei.chemplant.tier.3=Aluminium
-gtpp.nei.chemplant.tier.4=Stainless Steel
-gtpp.nei.chemplant.tier.5=Titanium
-gtpp.nei.chemplant.tier.6=Tungsten Steel
-gtpp.nei.chemplant.tier.7=Laurenium
-gtpp.nei.chemplant.tier.8=Botmium
-gtpp.nei.rtg.days=Fuel Value: %s Minecraft Days
+gtpp.nei.lftr.power=전력 사용량: 다이나모당 %s EU/t
+gtpp.nei.lftr.dynamo=다이나모: %s EU
+gtpp.nei.lftr.total=총합: %s EU
+gtpp.nei.milling.not_consumed=가공 중에 반드시 소모되지 않습니다
+gtpp.nei.chemplant.tier.1=청동
+gtpp.nei.chemplant.tier.2=강철
+gtpp.nei.chemplant.tier.3=알루미늄
+gtpp.nei.chemplant.tier.4=스테인리스강
+gtpp.nei.chemplant.tier.5=티타늄
+gtpp.nei.chemplant.tier.6=텅스텐 스틸
+gtpp.nei.chemplant.tier.7=로레늄
+gtpp.nei.chemplant.tier.8=보트뮴
+gtpp.nei.rtg.days=연료량: %s Minecraft Days
 gtpp.nei.solar_tower.1=Solar Heater rings boost tier
 gtpp.nei.solar_tower.2=R1:T1, R2:T2, R3:T4, R4:T8, R5:T16
 gtpp.nei.solar_tower.3=Input Amount = 1000 x T
@@ -149,7 +149,7 @@ item.MiscUtils.material.dustBlizz.name=Blizz Powder
 
 # ------------- 'miscutils' is Case Sensitive Here, unsure why
 tile.miscutils.fluid.pyrotheum.name=Blazing Pyrotheum
-tile.miscutils.fluid.cryotheum.name=Gelid Cryotheum
+tile.miscutils.fluid.cryotheum.name=얼어붙는 크라이오시움
 tile.miscutils.fluid.ender.name=Resonant Ender
 # --------------
 
@@ -2862,7 +2862,7 @@ tile.Abyssal Alloy Frame Box.name=Abyssal Alloy Frame Box
 
 # Radioactive
 item.dustNeptunium238.name=Neptunium 238 Dust
-item.dustNeptunium239.name=Neptunium 239 Dust
+item.dustNeptunium239.name=넵투늄-238 가루
 item.dustRadium226.name=Radium 226 Dust
 item.itemDustDecayedRadium226.name=Decayed Radium 226 Dust
 item.itemDustSmallDecayedRadium226.name=Small Decayed Radium 226 Dust
