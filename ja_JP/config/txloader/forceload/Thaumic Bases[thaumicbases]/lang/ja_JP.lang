@@ -60,7 +60,7 @@ tile.TBoldDiamond.name=古のダイヤモンドブロック
 tile.TBoldGold.name=古の金ブロック
 tile.TBoldLapis.name=古のラピスラズリブロック
 tile.TBoldBricks.name=古のレンガ
-tile.nodeManipulator.name=Node Manipulator
+tile.nodeManipulator.name=オーラ節操作器
 
 tile.tb.slab..name=Slab
 tile.tb.slab.tile.TBoldLapis.name=古のラピスラズリのハーフブロック
@@ -178,16 +178,16 @@ item.drainFoci.name=液体除去の杖星
 item.experienceFoci.name=経験値の杖星
 
 item.nodeFoci..name=§eNode Manipulator Focus
-item.nodeFoci.speed.name=§eNode Manipulator Focus: Speed
-item.nodeFoci.brightness.name=§eNode Manipulator Focus: Brightness
-item.nodeFoci.destruction.name=§eNode Manipulator Focus: Destruction
-item.nodeFoci.efficiency.name=§eNode Manipulator Focus: Efficiency
-item.nodeFoci.hunger.name=§eNode Manipulator Focus: Hunger
-item.nodeFoci.instability.name=§eNode Manipulator Focus: Instability
-item.nodeFoci.purity.name=§eNode Manipulator Focus: Purity
-item.nodeFoci.sinister.name=§eNode Manipulator Focus: Sinister
-item.nodeFoci.stability.name=§eNode Manipulator Focus: Stability
-item.nodeFoci.taint.name=§eNode Manipulator Focus: Taint
+item.nodeFoci.speed.name=§e速度の操作星具
+item.nodeFoci.brightness.name=§e光輝の操作星具
+item.nodeFoci.destruction.name=§e破壊の操作星具
+item.nodeFoci.efficiency.name=§e効率の操作星具
+item.nodeFoci.hunger.name=§e飢餓の操作星具
+item.nodeFoci.instability.name=§e不安定化の操作星具
+item.nodeFoci.purity.name=§e純化の操作星具
+item.nodeFoci.sinister.name=§e邪悪の操作星具
+item.nodeFoci.stability.name=§e安定化の操作星具
+item.nodeFoci.taint.name=§e汚染の操作星具
 
 item.tb.voidShears.name=虚無鋼のハサミ
 item.tb.voidFAS.name=火打石と虚無鋼
@@ -440,48 +440,48 @@ tc.research_name.TB.NodeMan=オーラ節操作
 tc.research_text.TB.NodeMan=完全制御！
 tb.rec.nodeMan.page.0=これまでに、オーラ節を安定器によって支える方法を発見した。オーラ節を引き裂いてどこかへと通じる小さな裂け目を開く方法も発見した。節の研究はこれで終わりなのか？それは不適当に思える。オーラ節には多くの種類がある。汚染、純粋、飢餓、光輝もあれば衰微もある...。だが、魔導師は皆その先へ進もうとせず、ここで歩みを止めてしまう。オーラ節の構造そのものを操作し、安定させることが可能。引き裂き、励起させることも可能。ならば、なぜその力を融合させ、オーラ節の微細な繊維を変化させようとしないのか？なぜこれを研究しないのか？何かこの道を阻むものがあるのだろうか？それとも、他の魔導師たちは自らを魔導学の熟練者だと信じ込み、この道を見落としているだけなのだろうか？
 tb.rec.nodeMan.page.1=さて、今のところ何も起きていない。己を止めるものは現れない。命を奪われることも、精神を蝕まれることもなかった——何もないのだ！なぜ他の魔導師たちがこの道を進まないのか理解できない。オーラ節を支える安定器の力と、オーラ節の繊維を動かし引き裂く変換器の力を融合させた装置の創造に成功した。もちろん、それほど単純な話ではない。Visを常に循環させなければならないため鏡が必要になる。致命傷となるフラックスも生成されるため、フラックス洗浄装置も必須だ。そしてこの構造を安定させるため、サリス・ムンドゥスも必要となる。こうして完成したのが、オーラ節そのものを操作することができる装置だ！
-tb.rec.nodeMan.page.2=実のところ、話はそう簡単ではない。この装置は通常のオーラ節しか扱えず、励起した節は強力すぎて扱えない。また、Visは下方へ流れる性質があるため、装置はオーラ節の上部でしか動作させることができない。つまり、変換器とこの装置を同時に使うことは不可能だ。さらに、この装置は非常に...凡庸なものだと判明した。期待していたようにオーラ節を操作することはできなかった。装置にはその能力があるはずだが、節の繊維はそう簡単には動かせない。節焦点が必要なのだ。だがその作り方はわからない。通常の杖星で試してみたが、結果は芳しくなく、怒ったウィスプの群れが現れただけだった。それでも、節焦点はこの装置と同じ原理で機能し、装置からの力を制御することでオーラ節と干渉できるようになるはずだ。
-tb.rec.nodeMan.page.3=装置自体は非常に安定しており、事実、動作に必要なものは何もない。装置の持つ力を考慮すると滑稽に思えるほどだ。節焦点を入手できたなら、それを装置の底部にセットするだけで、装置からの力を利用する形で動作する。節焦点を持って装置をクリックすれば節焦点を装置にセットできる。素手でクリックすれば節焦点を取り外せる。別の節焦点を持ってクリックすると節焦点を切り替えることもできる。この方法で進行状況を保存することも可能だ！また、装置が行う処理の内容によって必要な時間が変化しうることに留意すること！
+tb.rec.nodeMan.page.2=実のところ、話はそう簡単ではない。この装置は通常のオーラ節しか扱えず、励起した節は強力すぎて扱えない。また、Visは下方へ流れる性質があるため、装置はオーラ節の上部でしか動作させることができない。つまり、変換器とこの装置を同時に使うことは不可能だ。さらに、この装置は非常に...凡庸なものだと判明した。期待していたようにオーラ節を操作することはできなかった。装置にはその能力があるはずだが、節の繊維はそう簡単には動かせない。操作星具が必要なのだ。だがその作り方はわからない。通常の杖星で試してみたが、結果は芳しくなく、怒ったウィスプの群れが現れただけだった。それでも、星具はこの装置と同じ原理で機能し、装置からの力を制御することでオーラ節と干渉できるようになるはずだ。
+tb.rec.nodeMan.page.3=装置自体は非常に安定しており、事実、動作に必要なものは何もない。装置の持つ力を考慮すると滑稽に思えるほどだ。操作星具を入手できたなら、それを装置の底部にセットするだけで、装置からの力を利用する形で動作する。星具を持って装置をクリックすれば星具を装置にセットできる。素手でクリックすれば星具を取り外せる。別の星具を持ってクリックすると星具を切り替えることもできる。この方法で進行状況を保存することも可能だ！また、装置が行う処理の内容によって必要な時間が変化しうることに留意すること！
 
-tc.research_name.TB.NodeFoci.Speed=Manipulator Foci: Speed
-tc.research_text.TB.NodeFoci.Speed=Restoration is a key to success
-tb.rec.foci.speed.page.0=Speed foci increases the speed at which node restores it's aspects 5 times. It may be hard for a thaumaturge to see this in action, but should he use his wand, or any of his vis using devices it will become obvious.
+tc.research_name.TB.NodeFoci.Speed=速度の操作星具
+tc.research_text.TB.NodeFoci.Speed=修復こそ成功の鍵
+tb.rec.foci.speed.page.0=速度の星具は、節のVis回復速度を5倍に引き上げる。この効果は一見わかりづらいかもしれないが、杖やその他Visを消費する装置を使用すれば、違いはすぐに明らかになるだろう。
 
-tc.research_name.TB.NodeFoci.Sinister=Manipulator Foci: Sinister
-tc.research_text.TB.NodeFoci.Sinister=A tiny mob spawner
-tb.rec.foci.sinister.page.0=Sinister foci will make the Manipulator slowly turn the node into a Sinister Node. Removing the Pure modifier takes 30 minutes. Takes 6 minutes to turn a normal node into Sinister.
+tc.research_name.TB.NodeFoci.Sinister=邪悪の操作星具
+tc.research_text.TB.NodeFoci.Sinister=小さなモブスポナー
+tb.rec.foci.sinister.page.0=邪悪の星具は、操作器によって節を徐々に邪悪節へと変化させる。純粋属性を除去するには30分かかり、通常のオーラ節を邪悪節に変化させるには6分かかる。
 
-tc.research_name.TB.NodeFoci.Unstable=Manipulator Foci: Instability
-tc.research_text.TB.NodeFoci.Unstable=Shaterring the node
-tb.rec.foci.unstable.page.0=Instability foci will make the Manipulator slowly turn the node into an Unstable Node. Will only work with normal nodes. Takes 7 minutes to finish.
+tc.research_name.TB.NodeFoci.Unstable=不安定化の操作星具
+tc.research_text.TB.NodeFoci.Unstable=砕け散るオーラ節
+tb.rec.foci.unstable.page.0=不安定化の星具は、操作器によって節を徐々に不安定節へと変化させる。通常のオーラ節でのみ動作し、変化の終了までには7分かかる。
 
-tc.research_name.TB.NodeFoci.Efficiency=Manipulator Foci: Efficiency
-tc.research_text.TB.NodeFoci.Efficiency=Waste nothing
-tb.rec.foci.efficiency.page.0=Efficiency foci will affect the node in a very spectacular way. If any aspect is drained from the node affected with this foci there is a 50% chance that the aspect will be used, but will not be drained. Works with everything - wands, recharge pedestals, different constructs...
+tc.research_name.TB.NodeFoci.Efficiency=効率の操作星具
+tc.research_text.TB.NodeFoci.Efficiency=無駄なく
+tb.rec.foci.efficiency.page.0=効率の星具はオーラ節に非常に劇的な影響を与える。この星具が適用された節からVisが引き出されて使用されたときに、50%の確率で実際には消費されなくなる。杖、充填台、各種装置など、あらゆる装置に対して動作する。
 
-tc.research_name.TB.NodeFoci.Bright=Manipulator Foci: Brightness
-tc.research_text.TB.NodeFoci.Bright=Making things brigher
-tb.rec.foci.bright.page.0=Brightness foci will make the Manipulator extremely slowly turn the node into a Bright Node. Will only work with normal nodes. Takes 20 minutes to finish.
+tc.research_name.TB.NodeFoci.Bright=光輝の操作星具
+tc.research_text.TB.NodeFoci.Bright=どうだ明るくなったろう
+tb.rec.foci.bright.page.0=光輝の星具は、操作器によって節を非常にゆっくりと光輝節へと変化させる。通常のオーラ節でのみ動作し、変化の終了までには20分かかる。
 
-tc.research_name.TB.NodeFoci.Destr=Manipulator Foci: Destruction
-tc.research_text.TB.NodeFoci.Destr=Making the node weaker
-tb.rec.foci.destr.page.0=Destruction foci will slowly destroy the node it is attached to. It will turn bright nodes into normal, normal into pales, pales into fading and will completely destroy fading nodes. On the other hand Vis from the node being destroyed will escape into surroundings in the form of Aspect Orbs, which can be absorbed by any wand. Vis escapes much faster than regulary.
+tc.research_name.TB.NodeFoci.Destr=破壊の操作星具
+tc.research_text.TB.NodeFoci.Destr=オーラ節を弱らせる
+tb.rec.foci.destr.page.0=破壊の星具は、取りつけたオーラ節を徐々に破壊していく。光輝節は通常に、通常は幽々に、幽々は衰微に変化し、衰微節は完全に消滅する。一方で、破壊されている節から放出されたVisは相オーブとして周囲に拡散し、杖で吸収できる。Visの放出速度は通常よりも大幅に速い。
 
-tc.research_name.TB.NodeFoci.Hunger=Manipulator Foci: Hunger
-tc.research_text.TB.NodeFoci.Hunger=It is pretty obvious what this foci does
-tb.rec.foci.hunger.page.0=Hunger foci will make the Manipulator slowly turn the node into a Hungry Node. Will only work with normal nodes. Note, that the manipulator can freely be eaten by the hunger node, if it chooses to do so. Takes 5 minutes to finish. Authors are in no way responsible for the possible damage done to you, your house, your world, other worlds, your pets, animals, monsters, nodes and items. By crafting the foci you agree to being fully responsible to anything, that may happen with the foci, manipulator, node and everything surrounding the node.
+tc.research_name.TB.NodeFoci.Hunger=飢餓の操作星具
+tc.research_text.TB.NodeFoci.Hunger=星具の用途は一目瞭然
+tb.rec.foci.hunger.page.0=飢餓の星具は、操作器によって取りつけたオーラ節を徐々に飢餓節へと変化させる。通常のオーラ節でのみ動作し、操作器そのものが飢餓節に食べられる可能性があるという点には注意が必要である。変化の終了までには5分かかる。なお、あなた自身、家、ワールド、他のワールド、ペット、動物、モンスター、オーラ節、アイテムなどに起こりうる損害について、作者は一切責任を負いません。この星具をクラフトすることで、あなたは星具、操作器、オーラ節、その周囲に起こり得るすべての事象に対して、全責任を負うことに同意したものとみなします。
 
-tc.research_name.TB.NodeFoci.Purity=Manipulator Foci: Purity
-tc.research_text.TB.NodeFoci.Purity=Node purification
-tb.rec.foci.pure.page.0=Purity foci will make the Manipulator slowly turn a Tainted node into normal and a normal node into Pure Node. Will only work with normal or tainted nodes. Takes 3 minutes to finish with a normal node or 33 minutes with a tainted node. Note that the node will not recieve aspects that pure nodes usually have in them, but will still turn the biome around to Magical Forest.
+tc.research_name.TB.NodeFoci.Purity=純化の操作星具
+tc.research_text.TB.NodeFoci.Purity=節の純化
+tb.rec.foci.pure.page.0=純化の星具は、操作器によって汚染節を通常の節へ、通常の節を純粋節へと徐々に変化させる。通常または汚染のオーラ節でのみ動作し、変化の終了までには通常の節で3分、汚染節で33分かかる。変化させたオーラ節は純粋節が本来持っている相を含まないものの、周囲のバイオームを魔法の森に変化させる能力は有している。
 
-tc.research_name.TB.NodeFoci.Stability=Manipulator Foci: Stability
-tc.research_text.TB.NodeFoci.Stability=Saving the dying nodes
-tb.rec.foci.stability.page.0=Stability foci will make the Manipulator slowly restore nodes. It will convert nodes into different types, using time. Converting a Fading node into Pale takes 5 minutes. Converting a Pale node into normal takes 10 minutes. Removing the Sinister modifier takes 2 minutes. Removing the Unstable modifier takes 7 minutes. Removing the Hunger modifier takes 30 seconds. Removing the Taint modifier takes 30 minutes.
+tc.research_name.TB.NodeFoci.Stability=安定化の操作星具
+tc.research_text.TB.NodeFoci.Stability=死にかけた節の保護
+tb.rec.foci.stability.page.0=安定化の星具は、操作器によってオーラ節を徐々に回復させる。時間をかけて節の種類を変化させることができる。衰微節から幽々節への変換には5分かかる。幽々節から通常節への変換には10分かかる。邪悪属性の除去には2分かかる。不安定属性の除去には7分かかる。飢餓属性の除去には30秒かかる。汚染属性の除去には30分かかる。
 
-tc.research_name.TB.NodeFoci.Taint=Manipulator Foci: Taint
-tc.research_text.TB.NodeFoci.Taint=Why make everything worse?
-tb.rec.foci.taint.page.0=Taint foci will make the Manipulator slowly turn the node into a tainted node. Will only work with normal nodes. Takes 6 minutes to finish. Note that the node will not recieve aspects that tainted nodes usually have in them, but will still turn the biome around to tainted Lands.
+tc.research_name.TB.NodeFoci.Taint=汚染の操作星具
+tc.research_text.TB.NodeFoci.Taint=どうして何もかも悪化させるんだ？
+tb.rec.foci.taint.page.0=汚染の星具は、操作器によって節を徐々に汚染節へと変化させる。通常のオーラ節でのみ動作し、変化の終了までには6分かかる。変化させたオーラ節は汚染節が本来持っている相を含まないものの、周囲のバイオームを汚染された地に変化させる能力は有している。
 
 tc.research_name.TB.Enchantments=New Enchantments!
 tc.research_text.TB.Enchantments=Magic reborn!
