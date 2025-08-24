@@ -82,7 +82,7 @@ tile.tb.crystalslab.entropy.name=無秩序の結晶のハーフブロック
 tile.tb.crystalslab.mixed.name=合成結晶のハーフブロック
 tile.tb.crystalslab.tainted.name=汚染結晶のハーフブロック
 
-tile.thaumicRelocator.name=Thaumic Relocator
+tile.thaumicRelocator.name=魔導移動器
 tile.tb.voidblock.name=虚無鋼ブロック
 tile.thaumicAnvil.name=Thaumium Anvil
 tile.thaumicAnvil.intact.name=魔導金属の金床
@@ -93,16 +93,16 @@ tile.voidAnvil.intact.name=虚無鋼の金床
 tile.voidAnvil.slightlyDamaged.name=欠けた虚無鋼の金床
 tile.voidAnvil.veryDamaged.name=壊れかけの虚無鋼の金床
 
-tile.peacefullTreeSapling.name=Peaceful Sapling
-tile.netherTreeSapling.name=Nether Sapling
-tile.enderTreeSapling.name=Ender Sapling
-tile.peacefullTreeLog.name=Peaceful Wood
-tile.netherTreeLog.name=Nether Wood
-tile.enderTreeLog.name=Ender Wood
-tile.peacefullTreeLeaves.name=Peaceful Leaves
-tile.netherTreeLeaves.name=Nether Leaves
-tile.enderTreeLeaves.name=Ender Leaves
-tile.enderPlanks.name=Ender Wood Planks
+tile.peacefullTreeSapling.name=ピースフルの苗木
+tile.netherTreeSapling.name=ネザーの苗木
+tile.enderTreeSapling.name=エンダーの苗木
+tile.peacefullTreeLog.name=ピースフルの原木
+tile.netherTreeLog.name=ネザーの原木
+tile.enderTreeLog.name=エンダーの原木
+tile.peacefullTreeLeaves.name=ピースフルの葉
+tile.netherTreeLeaves.name=ネザーの葉
+tile.enderTreeLeaves.name=エンダーの葉
+tile.enderPlanks.name=エンダーの木材
 
 #items
 item.resource.name=Resource
@@ -303,7 +303,7 @@ tc.research_text.TB.Lucrite=貪欲は良いこと？
 tb.rec.lucrite.page.0=メタリートのさらなる研究の末、Lucrumをニンジンに注入することで似たような作物を生み出せることを発見した。これは非常に奇妙な作物だ。メタリートと同様にふるまうが、成長には倍の時間がかかる。また魔力に非常に強く依存しており、土壌の下に十分な魔力源が無いと育とうとしない。ちょうどサリス・ムンドゥスブロックが魔力源として完璧なようだ。骨粉の効果も弱く、成長には7個の骨粉を与える必要がある。しかし育て上げれば、その枝から金のナゲットが実る。またこれはニンジンであるため、収穫の際にはニンジンが再び得られる。
 
 tc.research_name.TB.Aurelia=アウレリア
-tc.research_text.TB.Aurelia=An elder plant
+tc.research_text.TB.Aurelia=古の植物
 tb.rec.aurelia.page.0=魔導学研究において、常として確保が極めて面倒だった相がある——Auramだ。その力はクラフトにおいて極めて有用だが、その入手にはオーラ節の破壊か、ネザーの深部でのウィスプの討伐が必要となり、どちらも良い手段とは言えない。しかし、植物に関する知識を利用することで、これらの手段を用いずにAuramを得る方法を発見した。
 tb.rec.aurelia.page.1=この植物は月光に晒されると花弁を開き、月光を受け入れる。どうやら月光を糧としているようだ。ただし、この世界の空気の性質上、これは満月の夜にのみ可能な行動のようだ。この植物はときどき花弁を落とし、花の周囲の地面からそれらを回収することができる。その花弁には、Auramのエッセンシアが非常に豊富に含まれている。ただしこの植物は、月が直接視認できる位置に植えられている場合にしか月光を吸収しない。
 
@@ -539,33 +539,33 @@ tc.research_text.TB.Tainted=この地に災いあれ！
 
 #Messages
 tb.txt.knoseFragment=右クリックで知識を獲得
-tb.txt.howlBelow=Something howls in the depths of the world...
-tb.txt.howlDeeper=You hear a howl from below the bedrock, you might want to go deeper...
-tb.txt.taintDevelop=What was that? You need to remember what just happened!
-tb.txt.spawnSet=Spawn point set!
-tb.txt.linkEntDecon=Device link established!
+tb.txt.howlBelow=世界の奥深くで何かが唸っている...
+tb.txt.howlDeeper=岩盤の下から唸り声が聞こえる。さらなる深淵へと身を沈めるべきかもしれない...
+tb.txt.taintDevelop=あれは何だ？この出来事を覚えておかなければ！
+tb.txt.spawnSet=スポーン地点を設定！
+tb.txt.linkEntDecon=装置のリンクを確立！
 
 #Foci enchantments
-tb.foci.aquatic.name=Aquatic
-tb.foci.aquatic.desc=Water may be crystallised into essentia upon draining
+tb.foci.aquatic.name=水相
+tb.foci.aquatic.desc=水が除去される際にエッセンシアとして結晶化する
 
-tb.foci.netheric.name=Netheric
-tb.foci.netheric.desc=Allows the Drain Foci to work on Lava blocks.
+tb.foci.netheric.name=ネザー
+tb.foci.netheric.desc=液体除去の杖星が溶岩ブロックにも機能するようになる
 
-tb.foci.decomposing.name=Decomposing
-tb.foci.decomposing.desc=Allows Experience Foci to absorb mobs for experience.
+tb.foci.decomposing.name=分解
+tb.foci.decomposing.desc=経験値の杖星がモブの経験値を吸収できるようになる
 
-tb.foci.vaporizing.name=Vaporizing
-tb.foci.vaporizing.desc=Experience Foci can create crystallised essentia from absorbed blocks.
+tb.foci.vaporizing.name=蒸発
+tb.foci.vaporizing.desc=経験値の杖星が吸収したブロックから結晶化エッセンシアを生成できるようになる
 
-tb.foci.warping.name=Warping
-tb.foci.warping.desc=Removing flux blocks will inflict warp on the remover
+tb.foci.warping.name=歪み
+tb.foci.warping.desc=フラックスを除去すると使用者に歪みを付与する
 
-tb.foci.crystalization.name=Crystallisation
-tb.foci.crystalization.desc=Flux blocks can drop Potentia essence. On level II drops random essence
+tb.foci.crystalization.name=結晶化
+tb.foci.crystalization.desc=フラックスがPotentiaのエッセンシアをドロップするようになる。レベルIIではランダムなエッセンシアがドロップするようになる。
 
-tb.foci.calming.name=Calming
-tb.foci.calming.desc=Negates the Warping effect. Removed flux blocks can remove temporary and regular warp from the remover
+tb.foci.calming.name=鎮静
+tb.foci.calming.desc=歪みアップグレードの効果を逆転させる。フラックスを除去すると使用者の一時的な歪みと通常の歪みを除去できるようになる
 
 #1.2
 
