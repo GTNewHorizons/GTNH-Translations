@@ -909,12 +909,12 @@ achievement.gt.stabilisation_field_generator.8=Галлифрейский ген
 
 # Forge of the Gods / Godforge
 fog.upgrade.confirm=Построить
-fog.upgrade.respec=Respec
+fog.upgrade.respec=Уважение
 
 fog.upgrade.tt.0=Кузница Богов
-fog.upgrade.tt.1=Improved Gravitational Convection Coils
-fog.upgrade.tt.2=Spacetime Topology Expansion Modulator
-fog.upgrade.tt.3=Cosmic Fuel Chamber Expansion
+fog.upgrade.tt.1=Улучшенные катушки гравитационной конвекции
+fog.upgrade.tt.2=Модулятор расширения топологии пространства-времени
+fog.upgrade.tt.3=Расширение космической топливной камеры
 fog.upgrade.tt.4=Graviton-Induced Superconductivity System
 fog.upgrade.tt.5=Fluid Dynamics Integration Module
 fog.upgrade.tt.6=Superluminal Amplifier
@@ -945,9 +945,9 @@ fog.upgrade.tt.30=Orion’s Arm Genesis Schema
 fog.upgrade.tt.secret=Secret Upgrade
 
 fog.upgrade.tt.short.0=START
-fog.upgrade.tt.short.1=IGCC
-fog.upgrade.tt.short.2=STEM
-fog.upgrade.tt.short.3=CFCE
+fog.upgrade.tt.short.1=УГКГ
+fog.upgrade.tt.short.2=МРТП
+fog.upgrade.tt.short.3=РКТК
 fog.upgrade.tt.short.4=GISS
 fog.upgrade.tt.short.5=FDIM
 fog.upgrade.tt.short.6=SA
@@ -975,7 +975,7 @@ fog.upgrade.tt.short.27=TSE
 fog.upgrade.tt.short.28=БП
 fog.upgrade.tt.short.29=EE
 fog.upgrade.tt.short.30=END
-fog.upgrade.tt.short.secret=SECRET
+fog.upgrade.tt.short.secret=СЕКРЕТ
 
 fog.upgrade.lore.0=Кузница богов - это чрезвычайно мощная структура, построенная вокруг стабилизированной нейтронной звезды. Она настолько совершенна, что её полные возможности ещё не изучены. Однако при постоянном использовании можно постепенно улучшать и расширять спектр возможностей Кузницы, а также познать силу, скрытую в самых экстремальных уголках Вселенной: гравитонные осколки. Этот эзотерический материал можно найти только там, где встречаются обычная материя и вырожденная материя нейтронной коры на поверхности нейтронной звезды. В этой точке пространства гравитоны встречаются гораздо чаще и облучают эту материальную смесь, создавая крайне нестабильные гравитонные осколки, которые можно использовать для внутренней модернизации Кузницы. Пока эти осколки не могут существовать вне экстремальных условий Кузницы, но при постоянных исследованиях и использовании их можно будет в конце концов выделить и извлечь за пределы Кузницы - но для чего?
 fog.upgrade.lore.1=Первое крупное улучшение Кузницы Богов позволило увеличить скорость обработки при повышении температуры благодаря эффекту гравитационного искривления гравитонных осколков. Это первое из многих применений осколков, которые будут открыты в ходе постоянного использования Кузницы.
@@ -1023,21 +1023,21 @@ fog.upgrade.text.10=Добавляет x2 множитель к максимал
 fog.upgrade.text.11=Разблокирует модуль Heliofusion Exoticizer и создание кварк-глюонной плазмы. На данный момент этот модуль не подвержен влиянию других множителей или бонусов от других улучшений.
 fog.upgrade.text.12=Улучшает формулу преобразования расхода топлива -> тепла. Улучшенная формула: Тепло Power Forge = log1,12 (единиц звездного топлива/сек) * 1000 + 12601, Тепло Melting Core = log1,18 (единиц звездного топлива/сек) * 1000 + 12601
 fog.upgrade.text.13=Improves the formula of SA to: Multiplier = 1 + (Stellar Fuel Units/sec) / 5
-fog.upgrade.text.14=Improves the OC formula from 4/2 OCs to 4/2.3 OCs.
-fog.upgrade.text.15=Allows the Heliothermal Plasma Fabricator to process multi step plasmas. Tier restriction still applies.
-fog.upgrade.text.16=Allows the Helioflare Power Forge to receive the full benefits of the Helioflux Melting Core upgrade path.
-fog.upgrade.text.17=Increases the cap of EBF heat bonuses to 30,000K.
-fog.upgrade.text.18=Unlocks a multiplier to maximum parallel based on current heat. This bonus is calculated via this formula: Multiplier = 1 + Heat / 15000
+fog.upgrade.text.14=Улучшает формулу разгона с 4/2 до 4/2.3.
+fog.upgrade.text.15=Позволяет Heliothermal Plasma Fabricator обрабатывать многоступенчатую плазму. Ограничение по тиру сохраняется.
+fog.upgrade.text.16=Позволяет Helioflare Power Forge получить все преимущества пути улучшения Helioflux Melting Core.
+fog.upgrade.text.17=Увеличивает лимит бонуса тепла EBF до 30,000K.
+fog.upgrade.text.18=Разблокирует множитель для максимальной параллели на основе текущего тепла. Этот бонус рассчитывается по следующей формуле: Множитель = 1 + Тепло / 15000
 fog.upgrade.text.19=Improves the EBF energy reduction heat bonus from 5% to 8% and adds an energy discount based on the fill level of the internal battery. This bonus is calculated via the formula: Discount = (Current fill level / Max Capacity - 0.5)^2 * (-0.6) + 0.15, multiplied by 2/3 for modules other than the Plasma Fabricator
 fog.upgrade.text.20=EBF heat bonuses are granted above 30,000K, but the heat value used in heat bonus calculations is determined by this formula: Power Forge Heat = 30000 + (Current Heat - 30000)^0.85, Melting Core Heat = 30000 + (Current Heat - 30000)^0.8
 fog.upgrade.text.21=Unlocks a multiplier to maximum parallel based on total amount of purchased upgrades. This bonus is calculated via this formula: Multiplier = 1 + Upgrade Amount / 5
-fog.upgrade.text.22=Improves IGCC based on current maximum parallel. Improved Formula: Multiplier = (1 / Heat^0.01) / (Parallel^0.02)
+fog.upgrade.text.22=Улучшает УГКГ на основе максимальной параллели. Улучшенная формула: Множитель = (1 / Тепло^0,01) / (Параллель^0,02)
 fog.upgrade.text.23=Умножает максимальный рабочий вольтаж на 4 за каждое активное кольцо, применяется после других бонусов.
 fog.upgrade.text.24=Позволяет Heliothermal Plasma Fabricator обрабатывать плазму до Т5.
 fog.upgrade.text.25=Allows the Heliofusion Exoticizer to be affected by other upgrade benefits, but those benefits are square rooted first. The overclock bonus is adjusted via the following formula: OC Factor = 2 + (Base OC Factor - 2)^2
 fog.upgrade.text.26=Позволяет построить второе кольцо и добавляет 4 слота для модулей.
 fog.upgrade.text.27=Uncaps maximum fuel consumption, but fuel consumption used in bonus calculations scales according to this formula: Actual FC = Current Max FC + (Current FC - Current Max FC)^0.4, where FC refers to fuel consumption and max FC refers to the max fuel consumption without this upgrade.
-fog.upgrade.text.28=Uncaps maximum processing voltage. Voltage can be set in each module's GUI.
+fog.upgrade.text.28=Отключает максимальный вольтаж обработки. Вольтаж можно задать в GUI каждого модуля.
 fog.upgrade.text.29=Позволяет построить третье кольцо и добавляет 4 слота для модулей.
 fog.upgrade.text.30=Разблокирует производство Магматерии в Heliofusion Exoticizer, создание экзотических плазм в Heliothermal Plasma Fabricator и выброс и впрыск гравитонных осколоков.
 
