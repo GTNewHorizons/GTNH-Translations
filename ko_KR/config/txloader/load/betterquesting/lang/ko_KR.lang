@@ -451,10 +451,6 @@ betterquesting.quest.bbaqMVmnQFyjDT-CHJKqQQ.desc=이제 첫 번째 종이를 얻
 betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.name=§2§l우리 아이 첫 부싯돌 검
 betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.desc=목검을 조금 업그레이드할 때가 되었습니다.%n부싯돌 뼈와 막대기를 모으십시오.%n%n지금은 위더를 죽일 수 없지만 나중에 이 도구를 업그레이드하고 개선할 수 있습니다. 부싯돌로 수리할 수도 있습니다.
 
-# Quest: NEI is EVEN MORE POWERFUL NOW?
-betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.name=§2§lNEI는 이제 더 강력해졌나요?
-betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.desc=NEI는 이제 유사한 항목을 자동으로 하나의 슬롯으로 통합하여 탐색 속도를 크게 향상시켰습니다! 그룹을 접거나 펼치려면 ALT+LMB를 사용하세요.%n사용자 정의 그룹을 사용하여 자체 프리셋을 만들 수도 있습니다!%n%n[참고]이 기능을 NEI 설정에서 비활성화할 수 있습니다[/참고]%n%n또한 이제 NEI는 JEI와 유사한 고급 검색 기능을 제공합니다: %n%n@ - 모드(@minecraft)로 검색%n%n[참고]사용할 수 있는 특수 문자가 더 있지만 대부분 기본적으로 비활성화되어 있습니다(예: 툴팁에서 검색할 때 #를 사용할 필요가 없음). 아래는 모든 특수 문자 목록이며, NEI 설정에서 활성화/비활성화 상태를 확인하세요. %n%n공백은 서로 다른 조건 사이의 논리적 AND 연산자로 사용됩니다%n# - 툴팁으로 검색 (#UV-Tier)%n& - ID로 검색: (&95:15 extratrees:door)%n$ - 광물 사전으로 검색 ($ore)%n%% - 하위 집합으로 검색 (%%block)%n| - 논리적 OR. 다중 항목 검색 (wrench|hammer)%n- - 논리적 NOT. 다음 표현식과 일치하는 항목 제외 (-@minecraft)%n“ - 따옴표로 감싸인 여러 단어는 여러 조건이 아닌 하나의 조건으로 처리됩니다 (”White Stained Glass")%n%n검색 모드 (검색 부분에 적용, 전체 문자열이 아님):%nPlain - 단순 문자열%nExtended - ?, * 규칙만 허용 (기본 설정)%nRegex - 전체 정규 표현식 허용%n%n확장 검색 모드에서:%n? - 어떤 문자 (@min?craft)%n* - 몇 개의 문자 (@m*ft = @minecraft)%nr/.../ - 표준 자바 정규 표현식 (@r/m\w{6}ft/ = @minecraft)[/note]%n%n[note]이 기능을 NEI 설정에서 비활성화할 수 있습니다. [/note]%n%n아이템 위에 마우스를 올린 상태에서 A 키를 눌러 북마크를 추가할 수 있으며, 다음과 같이 사용할 수 있습니다:%nSHIFT 키를 누른 상태에서 전체 레시피를 북마크합니다%nCTRL 키를 누른 상태에서 아이템 수를 북마크합니다%nSHIFT + CTRL 키를 동시에 누른 상태에서 레시피와 해당 레시피에 포함된 모든 아이템의 수를 모두 북마크합니다
-
 
 ## Quest Line: Tier 0.5 - Steam
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAg.name=티어 0.5 - 증기
@@ -11212,23 +11208,23 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4w.desc=이제 당신은 마법적인 �
 
 # Quest: Infused Stones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q.name=주입석
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q.desc=이곳 전체는 마법으로 가득 차 있습니다. 어디를 보든지, 모든 곳에 그것이 넘쳐납니다. 오랫동안 대량의 마법에 노출되는 정상적인 돌에게 무슨 일이 생길지 궁금해집니다. 아마 광산에 가볼 때가 온 것일까요?%n%n 3개의 광맥이 있습니다. 각각에서 호박석과 cinabre가 보입니다. 그들은 그다지 유용하지는 않지만, 최소한 어느 정도는 지니고 계신 것이 좋습니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q.desc=이곳은 마법으로 가득 차 있습니다. 어디를 보든, 모든 곳에 마법이 넘쳐납니다. 오랜 시간 대량의 마법에 노출된 바위들이 어떻게 변했을지 궁금하지 않으신가요? 이제 광산을 탐험할 때가 온 것 같습니다.%n%n여기에는 3개의 광맥이 있습니다. 각 광맥에서는 호박석(Amber)과 진사(Cinnabar)를 찾을 수 있습니다. 큰 용도는 없지만, 최소한의 만큼은 챙겨두는 것이 좋습니다.%n%n마법이 주입된 돌을 찾더라도, 필요한 주입 샤드(Infused Shards)는 바로 얻을 수 없습니다. 원석 자체를 가공해야 하거든요. 가장 간단한 방법은 원석을 대장간 망치(Forge Hammer)에 넣는 것입니다.%n%n나중에 선별기(Sifter)를 갖추면 정제된 광석에서 더 많은 샤드를 채취할 수 있습니다. 또한 오토클레이브(Autoclave)를 사용하면 결정 분말을 다시 샤드로 만들 수도 있습니다. 아마 다른 마법적인 방법으로도 가능할지도요?
 
 # Quest: Your First Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g.name=당신의 첫 완드
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g.desc=여기가 당신이 찾는 모든 답을 줄 것이라 봅니다! 계속 진행하려면 ‘vis’라는 마법 에너지를 다룰 수 있는 도구가 필요합니다. 이제 첫 완드를 만들 때인 것 같군요.%n%n아직 황혼의 숲(TF) 보스를 처치하지 않았다면, 진행을 위해 먼저 물리쳐야 합니다. 모든 완드는 황혼의 숲 보스 드랍 아이템이 필요하며, 더 강력한 완드는 후반 보스 드랍을 요구합니다. 한 번 보스를 처치하면 스폰 알을 구입할 수 있습니다.(단, 황혼의 숲에서만 사용 가능) 또는 보스 트로피 + 정화된 소금(Salis Mundus)을 이용해 드랍 아이템을 추가로 제작할 수 있습니다.%n%n§3NEI에서 완드 레시피를 확인하는 것이 좋습니다. 사우모노미콘(Thaumonomicon)에 있는 모든 레시피가 정확한 것은 아니니 주의하세요.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g.desc=여기가 당신이 찾는 모든 답을 줄 것이라 봅니다! 계속 진행하려면 ‘vis’라는 마법 에너지를 다룰 수 있는 도구가 필요합니다. 이제 첫 완드를 만들 때인 것 같군요.%n%n아직 황혼의 숲(TF) 보스를 처치하지 않았다면, 진행을 위해 먼저 물리쳐야 합니다. 모든 완드는 황혼의 숲 보스 드랍 아이템이 필요하며, 더 강력한 완드는 후반 보스 드랍을 요구합니다. 한 번 보스를 처치하면 스폰 알을 구입할 수 있습니다.(단, 황혼의 숲에서만 사용 가능) 또는 보스 트로피 + 정화된 소금(Salis Mundus)을 이용해 드랍 아이템을 추가로 제작할 수 있습니다.%n%n[note]NEI에서 완드 레시피를 확인하는 것이 좋습니다. 사우모노미콘(Thaumonomicon)에 있는 모든 레시피가 정확한 것은 아니니 주의하세요.[/note]
 
 # Quest: Tome of Knowledge
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w.name=지식의 서적
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w.desc=지금까지 발견한 모든 것들, 당신은 그것들을 적어두어야 합니다. 하지만 당신은 게으르고, 완드를 가지고 있으니, 왜 마법적인 방법으로 연구 결과를 "적어두지" 않을까요? 당신은 완드로 책을 마법에 걸어서, 그것이 당신의 진행 상황을 추적하게 할 수 있을지 궁금해합니다... 그것을 책장에서 시도해 봐야겠어요!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w.name=빛나라 지식의 책
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w.desc=지금까지 발견한 모든 것들을 기록해 두어야 합니다. 당신은 게으르지만… 완드를 가지고 있으니, 마법으로 연구 결과를 ‘기록’해 보지 않겠습니까? 완드로 책에 마법을 걸어 진행 상황을 자동으로 기록하게 할 수 있을지도 모르겠네요… 책장에서 한 번 시도해 보세요!
 
 # Quest: Improving Your Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6A.name=당신의 완드 개선하기
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6A.desc=당신의 완드는 원하는대로 비스를 저장하고 방출하는 데 훌륭한 일을 합니다. 그러나, 그 철제 캡들은... §oweak§r 약합니다. 만약 충분히 주의를 기울이지 않으면, 그것은 노드를 손상시킬 수 있습니다. 그들은 또한 제작을 더 어렵게 만듭니다. 어쩌면 더 값진 재료로 만든 캡으로 개선을 시도해 보는 것이 좋을지도 모릅니다. 금같은... 어쩌면?
 
 # Quest: Getting Shards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.name=조각 얻기
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.desc=이제 당신은 모든 종류의 주입석을 찾았으니, 이를 부수어 조각을 얻어야 합니다. 그것을 가장 쉽게 하는 방법은 이 돌들을 당신의 Forge Hammer에 넣어 부수는 것입니다. 나중에 Sifter를 가지게 되면, 정화된 광석을 체에 걸러 더 많은 조각을 얻을 수 있습니다. 오토클레이브는 조각 먼지를 조각으로 변환시킬 수 있습니다. 같은 일을 하는 마법적인 방법이 있을까요?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.name=샤드 얻기
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.desc=이제 모든 종류의 주입석을 찾았으니, 이를 부숴서 조각을 얻어야 합니다. 가장 간단한 방법은 이 돌들을 대장간 망치(Forge Hammer)에 넣는 것입니다. 나중에 선별기(Sifter)를 갖추면, 정제된 광석에서 더 많은 조각을 체로 걸러 얻을 수 있습니다. 오토클레이브(Autoclave)는 결정 분말(Shard dust)을 다시 샤드(Shards)로 만들 수 있습니다. 혹시 같은 일을 할 수 있는 마법적인 방법도 있지 않을까요?
 
 # Quest: A "Greater" Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6g.name="그레이터" 완드
@@ -11352,7 +11348,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAELg.desc=자신이 어디에 있는지, 
 
 # Quest: Magic Map
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAELw.name=마법 지도
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAELw.desc=마법 지도를 만들려면 마법 지도 포커스(Magic Map Focus)와 종이 더미가 필요합니다. 이는 여러 장의 종이(한 스택)를 사용해 만들 수 있습니다.%n%n주변 지역이 채워지면서, 보스의 위치를 표시합니다. 황혼의 숲의 다른 구역에 접근하려면 보스를 처치해야 합니다. 나가(Naga)부터 시작하세요. %n%nTF 업적 탭에서 다음에 해야 할 일을 확인할 수 있습니다. '모든 것들을 처치하세요' 탭에는 보스 처치에 대한 퀘스트도 있습니다. 24시간마다 한 장의 지도만 얻을 수 있으니 주의하세요. %n%n§4마법 지도는 황혼의 숲에서만 사용하세요. 다른 차원에서 이 지도를 사용하면 서버가 느려집니다!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAELw.desc=마법 지도를 만들려면 마법 지도 중추(Magic Map Focus)와 종이 더미가 필요합니다. 이는 여러 장의 종이(한 스택)를 사용해 만들 수 있습니다.%n%n주변 지역이 채워지면서, 보스의 위치를 표시합니다. 황혼의 숲의 다른 구역에 접근하려면 보스를 처치해야 합니다. 나가(Naga)부터 시작하세요. %n%nTF 업적 탭에서 다음에 해야 할 일을 확인할 수 있습니다. '모든 것들을 처치하세요' 탭에는 보스 처치에 대한 퀘스트도 있습니다. 24시간마다 한 장의 지도만 얻을 수 있으니 주의하세요. %n%n§4마법 지도는 황혼의 숲에서만 사용하세요. 다른 차원에서 이 지도를 사용하면 서버가 느려집니다!
 
 # Quest: Scribing Tool
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAESA.name=필기도구
@@ -11384,7 +11380,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg.desc=아이언 우드(Ironwood)는 �
 
 # Quest: Steeleaf
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw.name=강철잎
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw.desc=만약 미궁을 찾아낸다면, 그 안의 상자에서 스틸리프를 찾을 수 있습니다. 이것은 지금 당장 소프트 말렛을 만드는 데 최적의 재료이지만, 스틸리프로 독특한 방어구를 만들 수도 있습니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw.desc=미궁을 발견했다면, 그 안의 상자에서 강철잎(Steeleaf)을 얻을 수 있을 겁니다. 강철잎은 현 시점에서 소프트 말렛 제작에 가장 좋은 재료이지만, 특별한 방어구를 만드는 데에도 활용할 수 있습니다.
 
 # Quest: Thaumium Cooking
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmQ.name=사우뮴 조리
@@ -11396,7 +11392,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBg.desc=원시 버섯을 사용하면 �
 
 # Quest: Stuck in the Twilight Forest?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA.name=황혼의 숲에 갇히셨나요?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA.desc=만약 황혼의 숲(Twilight Forest)에서 포털이 깨진다면, 곤란한 상황에 처하게 될 겁니다. 하루(24시간)마다 일부 자원을 교환하여, 새로운 포털 크리스털을 얻어 탈출하세요.%n%n§3또한 혹시 모르니 여분을 하나 더 만들어 황혼의 숲 쪽 상자에 보관해 두는 것도 좋을 것 같습니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWA.desc=만약 황혼의 숲(Twilight Forest)에서 포털이 깨진다면, 곤란한 상황에 처하게 될 겁니다. 하루(24시간)마다 일부 자원을 교환하여, 새로운 포털 크리스털을 얻어 탈출하세요.%n%n[note]또한 혹시 모르니 여분을 하나 더 만들어 황혼의 숲 쪽 상자에 보관해 두는 것도 좋을 것 같습니다.[/note]
 
 # Quest: Where'd I Put That Amber?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWQ.name=나는 그 호박을 어디에 두었을까?
@@ -11416,7 +11412,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGHQ.desc=하드코어 어둠은 고통�
 
 # Quest: Source of Nickel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.name=§5§l니켈 원천
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.desc=전기 용광로(EBF - Electric Blast Furnace)에는 니켈이 필요합니다. 이제 황혼의 숲(Twilight Forest)에 도착했으니, 니켈을 확보할 시간입니다. 니켈 광맥은 Y 10-40 위치에 있습니다. MV에서는 백동(Cupronickel) 제작을 위해 많은 양의 니켈이 필요하니 충분히 모으세요.%n%n세척이나 열 원심 분리 같은 부가 공정을 통해 코발타이트(Cobaltite)에서 소량의 코발트(Cobalt)를 얻을 수 있습니다. 전해하려면 MV 전해조(Electrolyzer)가 필요하며, 또는 전기 용광로(EBF)로 처리할 수도 있습니다. 이때 발생하는 이산화황(Sulfur Dioxide)의 양은 설치된 머플러 해치 티어에 따라 달라집니다. 어쨌든, 이 방법이 네더에서 코발트를 찾는 것보다 훨씬 쉽습니다.%n%n§3원한다면 오버월드(Overworld)에서도 소량의 펜틀란다이트(Pentlandite) 광석을 얻을 수 있습니다.”
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.desc=전기 용광로(EBF - Electric Blast Furnace)에는 니켈이 필요합니다. 이제 황혼의 숲(Twilight Forest)에 도착했으니, 니켈을 확보할 시간입니다. 니켈 광맥은 Y 10-40 위치에 있습니다. MV에서는 백동(Cupronickel) 제작을 위해 많은 양의 니켈이 필요하니 충분히 모으세요.%n%n세척이나 열 원심 분리 같은 부가 공정을 통해 코발타이트(Cobaltite)에서 소량의 코발트(Cobalt)를 얻을 수 있습니다. 전해하려면 MV 전해조(Electrolyzer)가 필요하며, 또는 전기 용광로(EBF)로 처리할 수도 있습니다. 이때 발생하는 이산화황(Sulfur Dioxide)의 양은 설치된 머플러 해치 티어에 따라 달라집니다. 어쨌든, 이 방법이 네더에서 코발트를 찾는 것보다 훨씬 쉽습니다.%n%n[note]원한다면 오버월드(Overworld)에서도 소량의 펜틀란다이트(Pentlandite) 광석을 얻을 수 있습니다.[/note]
 
 # Quest: So Thirsty 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g.name=너무 목말라
@@ -11424,15 +11420,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g.desc=이 탱크가 물을 크게 마
 
 # Quest: Ardite and Cobalt Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ.name=아르다이트와 코발트 채굴
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ.desc=처음 생각했던 것보다 아이언우드는 훨씬 단단하고 내구성이 뛰어난 재료입니다. 이로 도구와 방어구를 제작하면 매우 독특한 기능들을 가지게 됩니다. 곡괭이로는 코발트 레벨에서 광산을 캘 수 있음을 의미하는데, 이는 전기 용광로 없이 아르다이트와 코발트를 수확할 수 있다는 것을 의미합니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ.desc=아이언우드는 생각보다 훨씬 단단하며 내구성이 뛰어난 재료입니다. 이 재료로 도구와 방어구를 제작하면 특별한 능력을 갖게 됩니다. 예를 들어 아이언우드 곡괭이는 코발트 등급의 광석까지 채굴할 수 있어, 전기 용광로(EBF) 없이도 아르다이트와 코발트를 얻을 수 있습니다.
 
 # Quest: Low on Sticks?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.name=막대가 부족하신가요?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.desc=황혼의 숲(Twilight Forest)에서 조금 돌아다니다 보면 캐노피 나무(Canopy Trees)를 발견할 수 있습니다. 이 큰 나무는 코크 오븐용 원목을 많이 제공하며, 심으면 일부분이 뿌리로 생성되며 막대기를 얻을 수 있습니다. 나무 바로 옆이나 위쪽에 건물이나 상자가 없도록 주의하세요. 그렇지 않으면 나무가 그것들을 대체할 수 있습니다. 이를 이용하면 의도치 않게 천장 위로도 올라갈 수 있습니다.
 
 # Quest: A Better Fluid Pipe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.name=더 나은 유체 파이프
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.desc=이제 납을 보유하고 있으니, 용량이 더 큰 포틴 파이프로 청동 파이프를 변환할 수 있습니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.name=더 좋은 유체 파이프
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.desc=이제 납을 확보했으니, 청동 파이프보다 용량이 더 빵빵한 포틴 파이프로 바꿔볼까요?
 
 # Quest: 3 Plus 4, Carry the 2...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA.name=3 더하기 4, 2를 더하세요...
@@ -11464,7 +11460,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAg.desc=Automagy의 탐욕스러운 상
 
 # Quest: Knightmetal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw.name=나이트메탈
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw.desc=나이트메탈 주괴는 고블린 기사 요새에서 빼앗은 전리품입니다. 이 주괴는 다이아몬드 티어 갑옷으로 제작될 수 있습니다. 헬멧 크랩들이 떨어뜨린 갑옷 조각들을 모아 나이트메탈 주괴로 변환할 수 있습니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw.desc=나이트메탈 주괴(Knightmetal Ingot)는 고블린 기사 요새에서 획득할 수 있습니다. 이 주괴로 다이아몬드 등급의 방어구를 제작 할 수 있습니다. 또한 투구 게(Helmet Crab)가 드롭하는 갑옷 파편을 모아 주괴로도 제련할 수도 있습니다.
 
 # Quest: Clothes Make the Magical Man or Woman
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEQ.name=옷이 마법의 남자나 여자를 만듭니다
@@ -13203,15 +13199,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALEA.desc=아, 이럴 수가, 가엾은 �
 
 # Quest: Time to Kill (Wild Deer)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEQ.name=야생 사슴을 처치할 시간입니다.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALEQ.desc=올해의 크리스마스는 취소되었습니다. 정말 슬픕니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALEQ.desc=올해 크리스마스는 뒤졌다. 슬프지?
 
 # Quest: Time to Kill (Wild Boar)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEg.name=야생 멧돼지 처치 시간
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALEg.desc=맛있는 구운 야생 멧돼지. 음... 맛있어요.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALEg.desc=맛있게 구워진 야생 멧돼지.. 뫄이쩡!
 
 # Quest: Time to Kill (Rabbit)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.name=토끼를 처치할 시간입니다.
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.desc=아, 이 작은 토끼가 얼마나 귀여운지. Pow! .... 아, 죽었나요?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.desc=와, 이 쪼매난 토깽이 진짜 귀엽ㄴ..(뿌직!)... 엥? 죽었다고?
 
 # Quest: Time to Kill (Raven)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALFA.name=까마귀를 처치할 시간입니다.
@@ -14658,9 +14654,21 @@ betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.desc=The Silver barrel has 72 slots.
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.name=§3§l멀티블럭 혁명
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.desc=지금까지 만든 여러 증기 기계들을 잘 활용하고 있으신가요? 앞으로 더 많은 레시피를 처리해야 할 때가 자주 있을겁니다. 이때가 바로 멀티블럭이 필요한 때입니다. 이제부터 다양한 증기 멀티블럭을 사용할 수 있습니다.%n대량 가공 퀘스트 탭을 살펴보세요!%n%n이 탭에서는 낡고 오래된 싱글블럭 기계들을 대체할 수 있는 매우 강력한 멀티블럭 기계들을 다양하게 소개합니다(그리고 추후 오래된 구세대 멀티블럭을 대체할 새로운 기계들도 소개하죠!). 이러한 새로운 기계 중 다수는 추가적인 메커니즘과 요구 사항을 처리해야 하지만 그만한 가치가 있습니다!%n%n멀티블럭의 세계에 입문할 때 숙지해야 할 몇 가지 용어가 있습니다:%n%n오버클럭(OC):%n기계가 레시피 처리에 필요한 전압보다 더 높은 단계의 전압을 주면 오버클럭이 되어 4배의 EU/t가 필요하지만 2배 빠르게 실행됩니다. 더욱 높은 단계의 전압을 제공할수록 효과는 중첩됩니다! n%n퍼펙트 오버클럭(종종 "오버클럭 시 효율성이 떨어지지 않음"으로 표현됨):%n조건부(또는 무조건) 퍼펙트 오버클럭을 수행하는 기계도 있습니다: 이 경우 기계는 4배의 EU/t를 필요로 하지만 대신 4배 더 빠르게 실행되므로 속도가 증가하면서도 총 EU 사용량은 정비례하게 늘어납니다!%n%n병렬화(종종 "프로세스 x 아이템"으로 표현됨):%n병렬로 작동하는 기계는 마치 여러 대를 실행하는 것처럼, 즉 레시피의 EU/t에 병렬화 수를 곱하여 동일한 레시피를 동시에 여러 개 실행할 수 있습니다. 병렬 처리하는 기계는 오버클럭보다 병렬화 처리를 [warn]우선적으로[/warn] 처리합니다. 참고로 오버클럭보다 병렬 처리가 더 효율적입니다.%n%n[note]멀티블럭으로 작업할 때, 작동 중에 전원 공급이 중단되면 투입한 재료들은 영원히 손실됩니다. 주의하세요![/note]
 
+# Quest: NEI Next Level Recipe Search
+betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.name=§2§lNEI Next Level Recipe Search
+betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.desc=NEI recipe search got improved even further!%n%nSelect a search mode extended+ to try it out!%n%nHere backticks `` are used around the search queries. You don't need them when searching.%n%nBy default the search works like in the extended mode, searching in §lany§r of the inputs and outputs of a recipe. So if you search a recipe by `§1-§rdust`, it would return all the recipes where there's at least one item that doesn't have §o"dust"§r.%n%nLet's say you want to search only in §linputs§r. Put §a<§r before your search query to do that! For example `§a<§riron` returns all the recipes with §o"iron"§r in one of the §linputs§r, `§a<§rsteel§5@gregtech§r` returns the recipes with at least one item from mods, containing §9Gregtech§r in their name, with §o"steel"§r.%n%nBut then, if you search by `§a<§1-§rdust` it still returns the recipes with §o"dust"§r on the left. Why is that? Because §a<§r searches among §lany§r items. So if there's one item that doesn't have §o"dust"§r, then it would still match the recipe, even if the rest of the inputs are dusts.%n%nTo solve this use §a<&§r instead. Like this: `§a<&§1-§rdust`. It returns §lall§r the recipes without §o"dust"§r among the inputs! §a<&§r sets a §lstrict§r condition on §lall§r inputs, unlike §a<§r that sets a condition on §lany§r input.%n%nTo filter the §loutputs§r use §a>§r and §a>&§r. They work the same way, but allow you to filter the §loutputs§r of a recipe. So `§a>§rgold` gives you the recipes with at least one §loutput§r with §o"gold"§r. And `§a>&§rgold` gives you the recipes with §o"gold"§r in every outputted item.%n%nWant to combine multiple conditions? Sure, just put them one after another in any order. E.g. you could search for `§a<§riron§a>§rsteel`, `§a<&§r §1-§b$dust§r §a<§r cell`, `§a>&§1-§rdust cell`.%n%nOr even for `dust§a>§rcell`. Here the non-prefixed part works like default, searching among §lany§r items from the inputs or outputs. So this query returns the recipes with §o"dust"§r in one of the inputs or outputs and §o"cell"§r in one of the outputs.%n%nIn some recipes you might have items that don't belong to inputs or outputs. In order to filter them use `§a^§r` and `§a^&§r` respectively.%n%nYou could add spaces for readability too, because (unless you have space mode on) spaces could be used anywhere while in extended+ mode.
+
+# Quest: NEI Next Level Search
+betterquesting.quest.kR1YVSq2R4WFu9KNM9lCZQ.name=§2§lNEI Next Level Search
+betterquesting.quest.kR1YVSq2R4WFu9KNM9lCZQ.desc=NEI search got improved even further!%n%nSelect a search mode extended+ to try it out!%n%nExtended+ works pretty much like extended, but it doesn't support * and ? expanding in the names. Also the following symbols have to be escaped with a `\`: `-` (dash) `<` and `>` (less-than and more-than) `^` (caret) `{` and `}` (curly brackets) `|` (vertical bar) `\` (backslash) ` ` (space) `"` (quote) alongside with the prefixes that you have enabled like §5@§r or §b$§r.%n%nExamples: §5@§oElectro\-Magic§r, §oiron\ ingot§r, §oPB\&J§r.%n%nExtended+ adds some QoL to your everyday search experience and an improved recipe search (next quest). In the following backticks `` are used around the search queries. You don't need them when searching.%n%nWant to search for something without having to put a backslash before every other symbol? Use quotes! You could use a quote inside quotes too, but you would have to escape it. Like this: `§6"§r\"§6"§r`.%n%nUse curly brackets §7{}§r to group conditions. Searching for `§7{§rmytryl§7|§rmanasteel§7}§r hammer head` would show you hammer heads made out of mytryl or manasteel.%n%nSpace is no longer necessary to use. So `§7{§rmytryl§7|§rmanasteel§7}§rhammer` works too!%n%nThere's a space mode support, so if you want your spaces to work literally turn it on!%n%nQuotes no longer require a closing quote. So you could search for `§6"§riron ingot` and it would work! You still do need a quote if you want your quotes to end though.%n%nRegex syntax got simplified (though the old one is still supported). Now instead of `§br/§rsome regex§b/§r` you could search for `§b/§rsome regex` and it would work too! You still do need a slash if you want your regex to end. Regex doesn't require escaping, the same way quotes don't, with the only exception being the `/`. So to find a slash with a regex you would search with `§b/§r\/`.%n%nYou can use quotes or regex after prefix to search with them instead of a plain text. For example, use `§5@§6"§5chest minecarts§r` to search for items from the §9Iron Chest Minecarts§r mod. Or `§5@§b/§5chest minecarts§r` to do the same with a regex.
+
 # Quest: Iron Barrel
 betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.name=§2§lIron Barrel
 betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.desc=The Iron barrel has 54 slots.
+
+# Quest: NEI is EVEN MORE POWERFUL NOW?
+betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.name=§2§lNEI는 이제 더 강력해졌나요?
+betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.desc=NEI는 이제 유사한 항목을 자동으로 하나의 슬롯으로 통합하여 탐색 속도를 크게 향상시켰습니다! 그룹을 접거나 펼치려면 ALT+LMB를 사용하세요.%n사용자 정의 그룹을 사용하여 자체 프리셋을 만들 수도 있습니다!%n%n[참고]이 기능을 NEI 설정에서 비활성화할 수 있습니다[/참고]%n%n또한 이제 NEI는 JEI와 유사한 고급 검색 기능을 제공합니다: %n%n@ - 모드(@minecraft)로 검색%n%n[참고]사용할 수 있는 특수 문자가 더 있지만 대부분 기본적으로 비활성화되어 있습니다(예: 툴팁에서 검색할 때 #를 사용할 필요가 없음). 아래는 모든 특수 문자 목록이며, NEI 설정에서 활성화/비활성화 상태를 확인하세요. %n%n공백은 서로 다른 조건 사이의 논리적 AND 연산자로 사용됩니다%n# - 툴팁으로 검색 (#UV-Tier)%n& - ID로 검색: (&95:15 extratrees:door)%n$ - 광물 사전으로 검색 ($ore)%n%% - 하위 집합으로 검색 (%%block)%n| - 논리적 OR. 다중 항목 검색 (wrench|hammer)%n- - 논리적 NOT. 다음 표현식과 일치하는 항목 제외 (-@minecraft)%n“ - 따옴표로 감싸인 여러 단어는 여러 조건이 아닌 하나의 조건으로 처리됩니다 (”White Stained Glass")%n%n검색 모드 (검색 부분에 적용, 전체 문자열이 아님):%nPlain - 단순 문자열%nExtended - ?, * 규칙만 허용 (기본 설정)%nRegex - 전체 정규 표현식 허용%n%n확장 검색 모드에서:%n? - 어떤 문자 (@min?craft)%n* - 몇 개의 문자 (@m*ft = @minecraft)%nr/.../ - 표준 자바 정규 표현식 (@r/m\w{6}ft/ = @minecraft)[/note]%n%n[note]이 기능을 NEI 설정에서 비활성화할 수 있습니다. [/note]%n%n아이템 위에 마우스를 올린 상태에서 A 키를 눌러 북마크를 추가할 수 있으며, 다음과 같이 사용할 수 있습니다:%nSHIFT 키를 누른 상태에서 전체 레시피를 북마크합니다%nCTRL 키를 누른 상태에서 아이템 수를 북마크합니다%nSHIFT + CTRL 키를 동시에 누른 상태에서 레시피와 해당 레시피에 포함된 모든 아이템의 수를 모두 북마크합니다
 
 # Quest: Dark Steel Chest
 betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.name=§5§6§l다크 강철 상자
