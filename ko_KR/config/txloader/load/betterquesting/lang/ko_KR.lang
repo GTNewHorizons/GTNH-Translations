@@ -9290,9 +9290,13 @@ betterquesting.quest.-IWmYEgKSGi0M7rtP59zaw.desc=1k와 동일합니다.
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.name=AE 티어 2 유체 저장소
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.desc=이 프로세서는 256k, 1024k, 4096 및 16384k 유체 저장 구성 요소를 제작할 수 있습니다.%n%n이 구성 요소는 고급 유체 저장 케이스와 결합되어야 유체 저장 셀로 변환됩니다.
 
+# Quest: Quantum Entangled Singularities
+betterquesting.quest.0qhnm9tYQfmKHzWPUlb8iw.name=Quantum Entangled Singularities
+betterquesting.quest.0qhnm9tYQfmKHzWPUlb8iw.desc=To make an entangled pair for usage in the quantum ring, put the Singularity and Enderpearl Dust on the ground, then use an explosion (Tiny TNT works well) to create two Quantum Entangled Singularities.%n%n[note]QESs are each a unique pair and will only work with one another.[/note]
+
 # Quest: Cribs
 betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.name=CRIBS
-betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=As your researches for Applied Greg continued, you found a way to combine ME interface's pattern processing ability with input buses, §lcrafting input buses§r! Now, you can directly place patterns into input bus. However, input buses lacked sufficient item space and computational power to process items coming from your ME network. Thus, you added additional storage and circuits.%n%nYou can even place non-consumable items like lenses, molds inside!! However, consumable items won't do anything.%n%nBut, still you lack enough technology to process fluids, they are just not good for electronics.%n%nCrafting input bus is fully isolated from other buses/hatches, so you may have to change your patterns.%n%n[warn]Crafting input proxy[/warn] will let you wallshare multiblocks without actually wallsharing them. §lUV-Tier§r%n%n[warn]Crafting input buffer[/warn] will be §9§owaterproof§r. §lUIV-Tier§r
+betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=As your researches for Applied Greg continued, you found a way to combine ME interface's pattern processing ability with input buses, §lcrafting input buses§r! Now, you can directly place patterns into input bus. However, input buses lacked sufficient item space and computational power to process items coming from your ME network. Thus, you added additional storage and circuits.%n%nYou can even place non-consumable items like lenses, molds inside!! However, consumable items won't do anything.%n%nBut, still you lack enough technology to process fluids, they are just not good for electronics.%n%nCrafting input bus is fully isolated from other buses/hatches, so you may have to change your patterns.%n%n[warn]Crafting input proxy[/warn] will let you wallshare multiblocks without actually wallsharing them. §lUIV-Tier§r%n%n[warn]Crafting input buffer[/warn] will be §9§owaterproof§r. §lUEV-Tier§r
 
 # Quest: Need More Information?
 betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=더 많은 정보가 필요하신가요?
@@ -9354,7 +9358,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.desc=뭐라고요? 양자 저장셀�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.name=반란
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.desc=당신의 주입이 매우 느린가요? 아쉽게도, 이 문제를 해결하려면 월드 가속기가 필요합니다. 그것이 아마 많은 지연을 초래할 것입니다.%n%n이제 그런 걱정은 더 이상 필요 없습니다! 새로운 주입 인터셉터를 시도해보세요. 당신의 타우모노미콘 내의 타우믹 인서전스 페이지에서 더 많은 정보를 알아보세요.
 
-# Quest: That is not storage!
+# Quest: Item Void Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.name=그것은 저장소가 아닙니다!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.desc=주의하세요! 매우 조심스럽게 사용하십시오! 이 셀은 정확하게 설명된 대로 모든 작업을 수행합니다. 여기에 올리는 모든 것을 삭제합니다. 그러니 실제로 어떤 것이 들어갈 수 있는지를 정확하게 제어하십시오.
 
@@ -9385,10 +9389,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6A.desc=가장 큰 바닐라 저장소 
 # Quest: 64k Crafting Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6Q.name=64k 조립 저장소
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6Q.desc=조립기 중앙 처리 장치의 부품으로, 조립에 대해 65,536 바이트의 저장 공간을 제공합니다.
-
-# Quest: Wireless Boosters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6g.name=무선 부스터
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6g.desc=무선 부스터는 ME 무선 액세스 포인트의 범위를 확장하며, 최대 64개까지 쌓을 수 있습니다.
 
 # Quest: Filling Tanks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6w.name=탱크 채우기
@@ -9430,7 +9430,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.desc=ME 시스템에서 사용자와
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEw.name=고밀도 소년들
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEw.desc=당신의 네트워크에 더욱 폭넓은 안정성을 부여합니다. 덴스 에너지 셀은 최대 1.6 백만 유닛까지 AE 에너지를 저장합니다. 그들은 직접 전력을 받아들이지 않지만 이미 존재하는 ME 네트워크에서 전력을 버퍼하는 데 사용됩니다.
 
-# Quest: ME in the Ether
+# Quest: Wireless Applied Energistics Terminal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.name=에테르 속의 ME
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.desc=ME 보안 터미널에서 무선 터미널을 연결하면, ME 네트워크에 휴대용으로 접근할 수 있는 권한이 부여됩니다. 충전을 위해 충전기에 넣으십시오.%n%n배터리에 1.6m AE를 보유하고 있으며, 가장 가까운 ME 무선 액세스 포인트로부터 떨어진 블록마다 1 AE/t를 소모합니다.%n%nEIO 무선 충전기를 통해 무선 터미널(및 후속 제품)을 충전하면, 충전을 위해 오랜 시간 기다릴 필요가 없습니다.
 
@@ -9894,6 +9894,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME 버스는 기술과 다른 �
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.name=AE2 유체 제작
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.desc=당신의 ME 시스템에 직접 통합된 유체 제작 기능. 이건 놀라워요!%n%nAE2FC는 GTNH를 위해 백포트된 강력한 애드온입니다.%n%n그럼, 이 맛있는 기능을 작동시키기 위해 필요한 것은 무엇일까요?%n모든 ME 시스템은 Fluid Discretizer가 필요합니다. 이 도구를 통해 요청 시 제작이 가능해집니다. 유체 이동을 위해 Fluid Discretizer 없이 AE2FC를 사용할 수 있지만, 자동 제작을 위해서는 Discretizer가 필요합니다.%n%n그리고 Assembling Line을 위해 Fluid Terminal 또는 Fluid Processing Terminal도 필요합니다. %n%n패턴을 만들 때, 유체가 마치 아이템처럼 배치되는 것을 알 수 있을 것입니다. %n완성된 패턴은 청색조로 보입니다. 이것들을 Dual Interface에 배치하면 AE2가 유체와 아이템을 둘 다 밀어낼 수 있게 됩니다. 주의하세요. 유체가 먼저 전송되고, 그 다음에 아이템이 전송됩니다.%n재고에 유체를 유지하고 싶다면, 오른쪽 상단에서 dual interface를 전환할 수 있습니다. %n%n일반 인터페이스에서 파랑색 패턴(유체 패턴)을 사용하면, AE2는 유체 패킷으로 유체를 전송합니다. 이것은 단지 아이템처럼 나타난 유체의 표현일 뿐입니다. 유체 디코더는 이것을 다시 유체로 돌려놓고, 유체 그리드에 저장할 수 있습니다.%n%n패턴으로 전송된 아이템과 유체를 내부적으로 하나의 블록에 저장하기 위해 재료 버퍼(크거나 작은 것)를 사용할 수 있습니다. 일반 버퍼는 9개의 아이템과 4개의 유체를 저장할 수 있고, 큰 버퍼는 27개의 아이템과 7개의 유체를 저장할 수 있습니다. 꼭 필요한 것은 아니지만, 아이템과 유체 컨듀트를 자동화하는 데 사용할 수 있습니다. %n%n단일 블록을 자동화하려면, 다이어트 중인데 초콜릿 케이크를 먹는 것처럼 쉽습니다:%n패턴을 만들고, 인터페이스를 만드세요, 그리고 끝난 거예요! 이것이 자동으로 유체를 단일 블록 기계의 유체 인벤토리에 삽입합니다. %n%nAssembling Line과 같은 더 어려운 것들을 자동화하는 것조차도 이러한 도구들이 있으면 훨씬 쉬워집니다.%n%n더 자세한 정보가 필요하면, 위키를 방문하세요:%n%n§9§n[url]https://wiki.gtnewhorizons.com/wiki/AE2FC[/url]§r%n%n§3The Extra Cells 모드는 제거되었습니다. 기존의 모든 컴포넌트와 셀은 가능한 한 AE2 및 AE2FC 부품으로 변환되었습니다.
 
+# Quest: Starting Your AE2 Journey
+betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.name=§5§lStarting Your AE2 Journey
+betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.desc=§nApplied Energistics 2 is an integral part of GTNH gameplay. %n§r%nAE2 is the primary networking and logistics management mod in GTNH for Items, Fluids, and Crafting. You will use it starting from EV and onward for most automations you perform. Given the sheer density of this modpack there are a variety of unique tools and features added specifically to aid in your adventure. Most of these tools are covered in this quest tab.%n%nThere is a lot to learn, but don't feel overburdened! Your abilities will continue to grow the more time you spend with it. There are a wide variety of helpful resources to take advantage of in addition to this book when it comes to learning:%n%n§2§2§1§b§r§21. The Wiki:§r§r§o§o §o§o§r[url]§o§o§rhttps://wiki.gtnewhorizons.com/wiki/Applied_Energistics_2[/url]%n%n§r- The Wiki has a lot of great starter information on what various systems do. They also have a lot of machine specific automation tutorials so be sure to check the Wiki if you're struggling or want a point of reference.%n%n%n§b§r§22. The Discord: §o§r[url]https://discord.gg/EXshrPV[/url]%n%n§r- The Discord is full of experienced AE2ers', check out #ae2-help to find plenty of people who will take time to help you figure something out.%n%n%n§b§r§23. Video Tutorials: §r[url]§o§rhttps://www.youtube.com/watch?v=LUYVmIAEC-I[/url]%n%n§r- There are a lot of great GTNH content creators who make high quality video tutorials for this. Here is a link to AE2 Fundamentals by IX. There's an advanced version as well.
+
+# Quest: Advanced Wireless Setup Kit
+betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.name=Advanced Wireless Setup Kit
+betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.desc=The Advanced Wireless Setup Kit is a must have for heavy wireless users. Instead of being a 1:1 back and forth it allows you to enter a "queuing mode" and a "binding mode" where you can select multiple targets at one time to bind in a row.%n%nWhen binding to connectors, the kit will bind connectors in the exact order that they were queued in. %n%nTo clear a queue and reset the kit, just shapelessly craft it into itself in your inventory.
+
 # Quest: 4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k 에센시아 저장소 셀
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.desc=이들은 8,388,608 유닛의 에센시아를 보유할 수 있습니다.%n%n그리고 48가지 종류를 저장할 수 있습니다.
@@ -9910,9 +9918,17 @@ betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.desc=1k와 동일합니다.
 betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.name=하이퍼 가속!
 betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=초가속 카드는 기본 가속 카드의 더 빠른 버전입니다. n%n[note]초가속 카드는 다음에만 배치할 수 있습니다:[/note]%n%n§cME IO 포트 (3)%nME 유체 수입 버스 (4)%nME 유체 출력 버스 (4)%n%rIO 포트에서, 초가속 카드는 다음 속도로 아이템을 전송합니다: %n%n61x 카드: 4,096 아이템/틱%n2x 카드: 32,768 항목/tick%n3x 카드: 262,144 항목/tick%n%rMe 유체 버스에서 초가속 카드는 다음과 같은 속도로 유체를 전송합니다:%n%n§61x 카드: 4,096,000mb/tick%n2x 카드: 32,768,000mb/tick%n3x 카드: 262,144,000mb/tick%n
 
+# Quest: Advanced Neutronium Tech
+betterquesting.quest.LsZndSrhSAGSi60QlbnDtg.name=Advanced Neutronium Tech
+betterquesting.quest.LsZndSrhSAGSi60QlbnDtg.desc=Now that you've unlocked the neutronium energy cell, you can combine it with other objects to make powerful upgrades to your AE capabilities.%n%nCombining with an ME controller gives you a controller with infinite energy.%n%nCombining with a cable anchor & quartz fiber gives you a replacement for the quartz fiber cable that has infinite energy.%n%nCombining with an advanced card will give you an energy card that will allow you to upgrade your wireless terminal to have infinite energy, wherever you go.%n%n[note]It is HIGHLY recommended you use these tools wherever possible on main-nets and sub-nets as they are huge TPS savers[/note]
+
 # Quest: 16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.name=16384k 유체 저장소 셀
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.desc=이것은 32GL 이상을 보유합니다.
+
+# Quest: Super Stock Replenisher
+betterquesting.quest.MPYhN1gKQ3isYpgLbtfDJA.name=Super Stock Replenisher
+betterquesting.quest.MPYhN1gKQ3isYpgLbtfDJA.desc=The Super Stock Replenisher is an incredibly useful item, especially for those pesky loop automations!%n%nTo use, put a storage cell in the empty slot (item vs fluid & type amount do not matter) and you can set up to 63 items & 9 fluids to be stocked by the machine. The total quantity of both items and fluids are determined by the byte size of the storage cell.%n%nWhen an item / fluid is stocked, it will pull it from the ME network it is attached to and those items / fluids will become invisible to your network. You can then use a storage bus to make these items visible to a subnet. Items will not be able to re-enter the block once pulled out.%n%n[note]When an item or fluid is erased from the stocker or when the stocker is broken, everything will return to the network the stocker was attached too, so no need to panic about losing items.[/note]
 
 # Quest: And Another Digital Singularity
 betterquesting.quest.O0tN--UDTlCbt5ufLodVqA.name=또 다른 디지털 특이점
@@ -9962,9 +9978,9 @@ betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.desc=이들은 33,554,432 유닛의 
 betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.name=초광속으로 가기
 betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.desc=초광속 가속 카드는 아이템이나 유체를 전송하는 데 사용할 수 있는 가장 빠른 AE 카드입니다.%n%n[note]초광속 가속 카드는 다음에만 배치할 수 있습니다:[/note]%n%n§cME IO 포트 (3)§r%n%nIO 포트에서, 초광속 카드가 아이템을 전송하는 속도:%n%n§61x 카드: 33,554,432 아이템/틱%n2x 카드: 2,147,483,648 아이템/틱%n3x 카드: 137,438,953,472 아이템/틱%n%n§rIO 포트에서 초고속 가속 카드는 다음과 같은 속도로 유체를 전송합니다:%n%n§61x 카드: 33,554,432,000MB/tick%n2x 카드: 2,147,483,648,000MB/tick%n3x 카드: 137,438,953,472,000 mb/tick%n%n
 
-# Quest: Wireless 2.5 - All in One
-betterquesting.quest.mYdFnW4UQ2WXHshmj7BH2w.name=무선 2.5 - 올인원
-betterquesting.quest.mYdFnW4UQ2WXHshmj7BH2w.desc=다양한 무선 단말기를 결합하면 최고의 7-in-1 무선 단말기를 만들 수 있습니다.%n%n[note]이 단말기에 인피니티 부스터 카드와 결합하면 무제한 거리와 모든 차원에서 사용할 수 있습니다.[/note]
+# Quest: Fluid Void Cell
+betterquesting.quest.krGyRorETXqDuJdbU3K5tA.name=Fluid Void Cell
+betterquesting.quest.krGyRorETXqDuJdbU3K5tA.desc=[warn]Caution! Use with utmost care! This cell does exactly what it says. It deletes everything you put on there. So better make sure you have precise control over what can actually go there.[/warn]%n%n[note]Will only void fluids, not items[/note]
 
 # Quest: ...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.name=§6§l...유체 지원과 함께!
@@ -9993,6 +10009,10 @@ betterquesting.quest.soyN9ODlQmmjrKEyKBNENA.desc=Works like stocking input bus b
 # Quest: Even More Basic Cards! 
 betterquesting.quest.suQSf7Z-QICknl3I1RfymA.name=더 기본적인 카드들!
 betterquesting.quest.suQSf7Z-QICknl3I1RfymA.desc=[quest]오버플로우 공허, 패턴 리필러, 및 스티키 카드[/quest]%n%n§6오버플로 공허 카드:§r %n%n오버플로 공허 카드는 ME 저장 셀이 과도한 입력을 void하도록 합니다.%n%n§6패턴 리필러 카드:§r %n%n패턴 리필러 카드는 처리 및 유체 처리 터미널의 빈 패턴을 재충전합니다. %n%n§6스티키 카드:§r %n%n스티키 카드는 ME 시스템이 전체 네트워크에서 특정 위치를 제외하고 필터링된 항목을 저장하도록 원하는 경우 유용합니다. %n%n[warn]스티키 카드를 사용하는 위치에 주의하세요. 이는 패시브 시스템이 고장날 수 있습니다. [/warn]
+
+# Quest: Wireless HUBs
+betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.name=Wireless HUBs
+betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.desc=The Wireless Connector also has a HUB upgrade! These Wireless HUBs can be linked to many wireless connectors at once so you won't need to spam a chunk of 1:1 connectors into one spot. Keep in mind there is still a 32 channel limitation.%n%n[note]Great for placing on controller faces![/note]
 
 # Quest: 1024k Essentia Storage Cell
 betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.name=1024k 에센시아 저장소 셀
@@ -11199,8 +11219,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4Q.name=답을 찾는 중
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4Q.desc=어젯밤에 당신은 꿈을 꿨습니다. 뭔가 이상하고 색다르면서, 거의... 마법? 같았어요. 마치 당신이 찾은 묘목들처럼요. 당신은 그곳에 가서 답을 찾기로 결정했습니다.%n%n먼저, 2x2 땅을 파 물을 채우고, 그 주변에 12개의 꽃으로 둘러쌉니다. 그리고 포털 수정체를 던지면 포탈을 열 수 있습니다. 아뇨, 다이아몬드만으로는 부족합니다.%n%n§3어떤 바닐라 꽃이든 사용할 수 있습니다.
 
 # Quest: See the Unseen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4g.name=눈에 보이지 않는 것을 보다
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4g.desc=모든 것은 6개의 기본적인 양상으로 이루어져 있습니다. 이러한 양상들은 복합 양상을 형성하기 위해 결합될 수 있지만, 결국에는 6개만이 존재합니다. 물론 당신이 찾은 주입된 샤드들처럼 말이죠. 당신은 그들이 해당 양상으로 이루어진 물질 옆에 놓을 때 샤드들이 진동하기 시작한다는 것을 알아챘습니다. 아마도, 실제로 "스캔" 아이템을 생성하고 그들의 복합체를 밝혀낼 수 있는 장치를 만들 수 있을지도 모르겠습니다. 이것은 나중에 아주 유용하게 쓰일 수 있을 것입니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4g.name=감춰진 것을 목도하라
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4g.desc=모든 것은 여섯 가지 태초의 위상(Primal Aspects)으로 이루어져 있습니다. 이 위상들은 서로 결합해 복합 위상을 형성할 수 있지만, 근본적으로는 단 여섯 가지뿐이지요. 마치 당신이 발견한 주입된 샤드들과도 같습니다. 흥미롭게도, 샤드들은 해당 위상이 깃든 물질 옆에 두면 진동하기 시작합니다. 그렇다면 아이템을 실제로 "스캔"하여 그 안의 복합 위상을 밝혀낼 수 있는 장치를 만들 수도 있지 않을까요? 나중에는 매우 요긴하게 쓰일지도 모릅니다.
 
 # Quest: A Table to Work On
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4w.name=작업을 위한 테이블
@@ -11400,7 +11420,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWQ.desc=모든 Thaumcraft 주입석 광
 
 # Quest: Just Tell Me What to Scan Already!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.name=이미 스캔할 것을 말해줘!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.desc=무엇이 어떤 위상을 가지고 추측하기 싫나요? 바로 작업을 시작하고 싶나요?. 아래의 것들을 스캔하세요. 첫 번째 세트는 순서대로 스캔해야 합니다. 어떤 것이 작동하지 않는다면 먼저 다른 것을 스캔해 보세요 (특히 세 번째 세트).%n%n물뿌리개%n횃불%n석탄%n잔디 블록%n다락문%n상자%n유리%n백골석%n닭%n영혼 모래%n종이%n썩은 고기%n밀%n부싯돌%n흑요석%n%n재구름%n모든 염료%n양털%n거미 눈%n눈덩이%n우유 양동이%n바닐라 괭이%n바닐라 곡괭이%n화살%n바닐라 갑옷%n수은%n울타리문 %n철 조각%n금%n좀비 뇌%n엔더 진주%n슬라임볼%n어떤 것이든 오염된 것. 가마솥을 넘치게 채워서 슬라임 (당신의 기지에서 아님)을 만들기 위한 플럭스 점액을 만들어 보세요%n위습이나 테라 와트에서 얻은 에테리얼 에센스 (모든 위상)%n%n옵지나이트 주괴%n백금 금속 가루%n가는 구리 전선%n자철석 가루%n토륨 가루%n돼지%n네더랙%n금 갑옷%n침대%n끈%n가스트의 눈물%n시계%n크리스탈 매트릭스 주괴%n%n마지막 5개의 양상은 양상을 결합하거나 그것들을 가지고 있는 노드를 만들어야 얻을 수 있을 수도 있습니다. 다음을 결합할 수 있습니다:%n%nCognito + Ordo%nCognito + Vitium%nVacuos + Motus%nLux + Primordium%Humanus + Iter %n%n%n%n위 목록은 위상을 위한 것임을 유의하세요, 특정 연구를 해제하기 위해 네더 포털과 같은 것들을 스캔할 필요가 있을 수 있습니다.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.desc=무엇이 어떤 위상을 가지고 있는지 일일이 추측하기 싫으신가요? 그냥 바로 작업에 들어가고 싶으신가요? 그렇다면 아래의 아이템들을 스캔해 보세요.%n%n첫 번째 세트는 반드시 순서대로 스캔해야 합니다. 만약 어떤 것이 작동하지 않는다면, 다른 것을 먼저 스캔해 보세요 (특히 세 번째 세트의 경우).%n%n물뿌리개%n횃불%n석탄%n잔디 블록%n다락문%n상자%n유리 블록%n백골석%n닭%n영혼 모래%n종이%n썩은 살점%n밀%n부싯돌%n흑요석%n%n재구름%n염료(아무 색이나)%n양털%n거미 눈%n눈덩이%n우유 양동이%n바닐라 괭이%n바닐라 곡괭이%n화살%n바닐라 갑옷%n수은%n울타리문%n철 조각%n금%n좀비 뇌%n엔더 진주%n슬라임볼%n오염된 아이템 (예: 가마솥을 넘치게 채워 플럭스 점액을 만들면 슬라임이 생성됨. 단, 기지에서 하지는 마세요!)%n에테리얼 에센스 (위습 또는 테라 와트에서, 어떤 위상이든 가능)%n%n옵지나이트 주괴%n백금 금속 가루%n가는 구리 전선%n자철석 가루%n토륨 가루%n돼지%n네더랙%n금 갑옷%n침대%n끈%n가스트의 눈물%n시계%n크리스탈 매트릭스 주괴%n%n마지막 다섯 가지 위상은 단순 스캔만으로는 얻기 어려울 수 있으며, 양상 결합이나 해당 위상을 가진 노드를 생성해야 할 수도 있습니다.%n다음 조합을 시도해 보세요:%n%nCognito + Ordo%nCognito + Vitium%nVacuos + Motus%nLux + Primordium%nHumanus + Iter%n%n위 목록은 어디까지나 위상 해제를 위한 아이템 목록입니다. 특정 연구를 해제하려면 네더 포털과 같은 특수한 구조물을 스캔해야 할 수도 있다는 점을 기억하세요.
 
 # Quest: Warp Warnings
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8g.name=왜곡 경고
