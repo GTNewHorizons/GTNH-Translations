@@ -8306,7 +8306,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADKQ.desc=Avarita的9x9终极工作台...
 
 # Quest: Rocket Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.name=1阶火箭
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.desc=在经过数小时的辛勤努力,你的1阶火箭终于已经准备就绪.但是点火登月之前你需要把它真正造出来.%n%n§c如果你制作了带箱子的火箭, 有一个合成配方可以把它转换为任务所需的火箭. 详见NEI.§r%n%n[note]以防你忘记提交，手持火箭即可将所有前置任务也一起完成。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADKg.desc=经过数小时的辛勤努力后，你的1阶火箭终于已经准备就绪。但是点火登月之前你需要把它真正造出来。%n%n§c如果你制作了带箱子的火箭，有一个合成配方可以把它转换为任务所需的火箭。详见NEI。§r%n%n[note]以防你忘记提交，手持火箭即可将所有前置任务也一起完成。[/note]
 
 # Quest: Tier 1 Control Computer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADKw.name=1阶火箭控制电脑
@@ -8726,7 +8726,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.desc=将煤焦油和硫酸混合以�
 
 # Quest: Serious Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhw.name=重大升级
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhw.desc=如果你觉得'嘿,这个紫色的东西还不错,为什么不做绿色的呢?',好吧,首先,你可能需要专业协助. 其次,你需要进入ZPM阶段才能制造所需的机械方块,完毕. 一台ZPM的合金冶炼炉是制作部件必不可少的机器,所以等你制造出ZPM能源仓再来吧.%n%n你可能可以自行解决大部分问题,但请记住,某些材料需要在合金冶炼炉中才能制成,固化,打粉,然后作为另一配方的原料重新投入合金冶炼炉中. 比如: 路菲恩化合物需要的哈斯特洛依合金-N, 以及铼和镝.%n%n铼是由非标合金冶炼炉配方制出的,而镝需要稀土(III)或前往废土世界才能制得. 你还需要稀土(II)或稀土(III)中的镱或者再次前往废土世界.[warn]废土世界矿脉可能非常难找, 因为它非常稀有.[/warn]你也可以试试通过GT++的研磨机和浮选机从铁铝榴石矿石中提取镱.%n%n玩得开心!%n%n[note]几乎可以肯定,你将需要的比任务要求的多,但一如既往,确切的数量取决于你的仓室/总线数量.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhw.desc=如果你觉得“嘿，这个紫色的东西还不错，为什么不做绿色的呢？”好吧，首先，你可能需要专业协助。其次，你需要进入ZPM阶段才能制造所需的机械方块，完毕。一台ZPM的合金冶炼炉是制作部件必不可少的机器，所以等你制造出ZPM能源仓再来吧。%n%n你可能可以自行解决大部分问题，但请记住，某些材料需要在合金冶炼炉中才能制成，固化，打粉，然后作为另一配方的原料重新投入合金冶炼炉中。比如：路菲恩化合物需要的哈斯特洛依合金-N，以及铼和镝。铼是由非标合金冶炼炉配方制出的，而镝需要稀土(III)或前往废土世界才能制得。你还需要稀土(II)或稀土(III)中的镱或者再次前往废土世界。[warn]废土世界矿脉可能非常难找，因为它非常稀有。[/warn]你也可以试试通过GT++的研磨机和浮选机从铁铝榴石矿石中提取镱。%n%n玩得开心！%n%n[note]几乎可以肯定，你将需要的比任务要求的多，但一如既往，确切的数量取决于你的仓室/总线数量。[/note]
 
 # Quest: Tier 7 Control Computer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKjg.name=7阶火箭控制电脑
@@ -9064,7 +9064,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG4w.desc=好吧,你有了台电脑,它�
 
 # Quest: Basic Power Display
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG5A.name=基础能量显示
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG5A.desc=在这一部分,我们将学习如何使用适配器.将它放在你工业高炉(EBF)连着的电池箱旁边,并用线缆将它连接到计算机.%n现在让我们在计算机上键入'lua'以打开LUA环境,在LUA环境中可以直接进行测试,不需要担心反复保存调试程序的麻烦.%n%n键入'component.list()',会显示一个包含组件中所有.list的表.我们正在寻找的是gt_batterybuffer.%n如果附近有太多东西,可能无法显示完全,而搜索整个组件列表的方式对于初学者来说太高级了.%n%n现在为它分配一个变量;例如'a = component.gt_batterybuffer';现在我们可以调用'a'来查看batteryBuffer有哪些方法.%n我们在这个例子中将使用的是'getBatteryCharge'方法.因此输入'a.getBatteryCharge(1)',就会从组件gt_batterybuffer存储空间的第一格调用方法getBatteryCharge.%n%n因此,如果我们使用的是2x2电池箱;就可以键入 'for i=1, 4 do print(a.getBatteryCharge(i)) end'%n现在你就能看到所有电池的EU值了.那我们可以做些什么呢？%n%n试着定义变量'batteryCharge = 0',然后执行'for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge(i) end'%n%n现在键入'print(batteryCharge)'就会显示总电量.%n%n这儿有一个使用它的程序示例.把它放入磁盘驱动器,然后键入'install',然后按照提示将其安装到C:中.然后编辑,测试,确定它是如何工作的.%n%n我想这就足够了;恭喜!多多实验学习,不要忘记尽可能多地查查谷歌(或是别的搜索引擎)! 这个任务线将来会再次更新;但我想目前为止这是一个很好的结束点.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG5A.desc=在这一部分，我们将学习如何使用适配器。将它放在你工业高炉连着的电池箱旁边，并用线缆将它连接到计算机。%n现在让我们在计算机上键入“lua”以打开LUA环境，在LUA环境中可以直接进行测试，不需要担心反复保存调试程序的麻烦。%n%n键入“component.list()”，会显示一个包含组件中所有.list的表。我们正在寻找的是gt_batterybuffer。%n如果附近有太多东西，可能无法显示完全，而搜索整个组件列表的方式对于初学者来说太高级了。%n%n现在为它分配一个变量，例如“a = component.gt_batterybuffer”。现在我们可以调用“a”来查看batteryBuffer有哪些方法。%n我们在这个例子中将使用的是“getBatteryCharge”方法。因此输入“a.getBatteryCharge(1)”，就会从组件gt_batterybuffer存储空间的第一格调用方法getBatteryCharge。%n%n因此，如果我们使用的是2x2电池箱，就可以键入“for i=1, 4 do print(a.getBatteryCharge(i)) end”%n现在你就能看到所有电池的EU值了。那我们可以做些什么呢？%n%n试着定义变量“batteryCharge = 0”，然后执行“for i = 1,4 for batteryCharge = batteryCharge + a.getBatteryCharge(i) end”%n%n现在键入“print(batteryCharge)”就会显示总电量。%n%n这儿有一个使用它的程序示例。把它放入磁盘驱动器，然后键入“install”，然后按照提示将其安装到C:中。然后编辑、测试，确定它是如何工作的。%n%n我想这就足够了。恭喜！多多实验学习，不要忘记尽可能多地查查谷歌（或是别的搜索引擎）！%n这个任务线将来会再次更新，但我想目前为止这是一个很好的结束点。
 
 # Quest: Online Shopping - Tier 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG5Q.name=在线购物-第一阶
