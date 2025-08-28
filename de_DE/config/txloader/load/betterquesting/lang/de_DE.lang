@@ -2732,6 +2732,10 @@ betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Jetzt, da du in der EV-Stufe bi
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV-Feldgeneratoren
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=Mit Feldgenerator kannst du deine ersten Quanten-Kisten oder Quanten-Tanks herstellen. Aber die ersten beiden solltest du für deine T2-Rakete verwenden.%n%n[note]Beachte, dass das Rezept der Montagemaschine ressourcenschonender ist.[/note]
 
+# Quest: Supersized Buses
+betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§b§lÜbergroße Busse
+betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Fassen deine Eingangs- und Ausgangsbusse nicht genug für dich?%n%nWerte deine Busse zum Super-Bus auf und genieße die erhöhten Slots!
+
 # Quest: EXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§a§lEXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.desc=Well, maybe it's not as extreme as the quest name suggests, but it gets the job done.%n%nYou'll need one anyway so why not make one now and save some time on the mixing?
@@ -3224,10 +3228,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(Und Gadolinium)%n%nEinfach, od
 # Quest: Getting Samarium in IV
 betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.name=§b§lSamarium in IV Bekommen
 betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.desc=Mische Samariumchlorid-Staub mit Salz. Elektrolysiere das Ergebnis, und der Samarium-Staub wird abgetrennt.%n%nNatrium und Chlor können ebenfalls vollständig zurückgewonnen werden.%n%nDu bekommst auch zusätzlichen Rückstand. Er hat derzeit keine Verwendungszwecke, könnte aber in der Zukunft nützlich sein.
-
-# Quest: Supersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§b§lÜbergroße Busse
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Fassen deine Eingangs- und Ausgangsbusse nicht genug für dich?%n%nWerte deine Busse zum Super-Bus auf und genieße die erhöhten Slots!
 
 # Quest: The sane option
 betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.name=§b§lDie vernünftige Option
@@ -4699,8 +4699,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmg.name=Essen 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEmg.desc=Vergiss alles, was du über Essen und Werte weißt. Mit deiner neuen Feststofffüllmaschine bist du in der Lage, Blechdosen mit sehr nahrhaftem Essen zu füllen. Dieses Essen kann in Millisekunden verzehrt werden und macht dich satt und glücklich. Und du kannst so viel essen, wie du willst, ohne des Essens überdrüssig zu werden.%n%nEssen, bevor du am Verhungern bist, stellt die Sättigung wieder her und spart Dosen.
 
 # Quest: Dezil's Marshmallow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0A.name=Dezil's Marshmallow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0A.desc=In the last step you need to infuse your Marshmallow with some epic food in the thaumcraft infusion altar. Before you can do it you need to unlock the research.%n%nIs this worth it? Is there any enemy worthy of using the buffs this gives on? That's up to you.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0A.name=Dezils Marshmallow
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0A.desc=Im letzten Schritt musst du deinen Marshmallow mit etwas epischem Essen im Thaumcraft-Infundierungsaltar infundieren. Bevor du es tun kannst, musst du die Forschung freischalten.%n%nIst es das wert? Gibt es einen Gegner, der es wert ist, diese Buffs zu verwenden oder wäre es nur Verschwendung? Das liegt an dir.
 
 # Quest: The industrial way
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFAA.name=Der industrielle Weg
@@ -4743,100 +4743,100 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzw.name=Deinen Marshmallow Abkühlen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzw.desc=Im nächsten Schritt kühlst du deinen Leuchtenden Marshmallow in einem HV-Vakuumfroster, um ihn stabiler zu machen.%n%nDu bekommst immer noch Schwäche II und Übelkeit II.
 
 # Quest: Analyze Your Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBQ.name=Analyze Your Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBQ.desc=The cropnalyzer is a powered tool used to analyze IC2 crop seedbags. Charge it by placing it in an MV machine; it is recommended to also place an MV battery in it to keep it fully charged. To fully analyze a seed bag, you will need to put it through the cropnalyzer four times. If the crop is already planted, it is better to analyze it with the portable scanner instead of breaking it just to scan it - you have a chance of losing the seed every time you break it.%n%nThe cropnalyzer also has a feature called the IC2 Crop Calculator, where you can find the mix of outputs of breeding together any crops. To access the calculator, hit the IC2 side inventory key while holding the cropnalyzer. You can select any crops available and discover what plants have decent percentages of a result. And no, you can't do the reverse, search for the crops.zip on discord for that (it doesn't have micadia though).%n%nYou can choose up to four crops to breed together. Then click "process" and the bottom row will show the possible crossbreeding outputs, and their weights. You can use the + and - gui buttons to scroll through the row(s) of crops. You can also use a button in the GUI to sort the rows by tier or weight. You can invert the sorting by hitting the sorting button while holding shift.%n%nWhen trying to get a specific crop, you generally want to maximize its percentage. Do this by breeding 2-4 of the same plant together (more is faster). There is no advantage to crossing plant types, it just reduces the %% chance of getting what you want, contrary to what you might think.%n%nUse the crops guide at [url]https://wiki.gtnewhorizons.com/wiki/IC2_Crops_List[/url] for more details.%n%nA large field of stickreeds has a good chance at making lots of valuable crosses. This is because it's decently high tier (they randomly mutate to tiers nearby mostly), and it's really fast, so you can get it to a high stat fast, which you should probably do first. Mutations are random, you can get transformium from stickreed, so keep that in mind. You do tend to get similar crops, so if you want metals, get the metal crops for example. Go to the wiki or spreadsheet (not up to date) to see the attributes that govern similarity.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBQ.name=Analysiere Deine Feldfrüchte
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBQ.desc=Der Feldfrüchteanalyser ist ein batteriebetriebenes Werkzeug, das verwendet wird, um IC2-Pflanzensamenbeutel zu analysieren. Lade ihn auf, indem du ihn in eine MV-Maschine legst; es wird empfohlen, auch eine MV-Batterie darin zu platzieren, um ihn vollständig aufgeladen zu halten. Um einen Samenbeutel vollständig zu analysieren, musst du ihn viermal durch den Feldfrüchteanalyser laufen lassen. Wenn die Pflanze bereits gepflanzt ist, ist es besser, sie stattdessen mit dem Tragbaren Scanner zu analysieren, anstatt sie zu zerstören, nur um sie zu scannen - du hast eine Chance, den Samen jedes Mal zu verlieren, wenn du ihn zerstörst.%n%nDer Feldfrüchteanalyser  hat auch eine Funktion namens IC2-Pflanzenrechner, wo du die Mischung der Ergebnisse des Kreuzens von beliebigen Pflanzen finden kannst. Um auf den Rechner zuzugreifen, drücke die IC2-Seiteninventar-Taste, während du den Feldfrüchteanalyser hältst. Du kannst beliebige verfügbare Pflanzen auswählen und herausfinden, welche Pflanzen gute Prozentsätze eines Ergebnisses haben. Und nein, du kannst nicht umgekehrt suchen, suche nach der crops.zip auf Discord dafür (sie hat jedoch kein Micadia).%n%nDu kannst bis zu vier Pflanzen auswählen, um sie zusammen zu kreuzen. Dann klicke auf "verarbeiten" und die untere Reihe wird die möglichen Kreuzungsergebnisse und ihre Wahrscheinlichkeit zeigen. Du kannst die +- und --GUI-Tasten verwenden, um durch die Reihe(n) von Pflanzen zu scrollen. Du kannst auch eine Taste in der GUI verwenden, um die Reihen nach Stufe oder Gewicht zu sortieren. Du kannst die Sortierung umkehren, indem du die Sortier-Taste drückst, während du Umschalt hältst.%n%nWenn du versuchst, eine bestimmte Pflanze zu bekommen, willst du im Allgemeinen ihren Prozentsatz maximieren. Mache das, indem du 2-4 derselben Pflanze zusammen züchtest (mehr ist schneller). Es gibt keinen Vorteil, Pflanzentypen zu kreuzen, es reduziert nur die Prozent-Chance, das zu bekommen, was du willst, im Gegensatz zu dem, was du vielleicht denkst.%n%nVerwende den Pflanzenführer unter [url]https://wiki.gtnewhorizons.com/wiki/IC2_Crops_List[/url] für mehr Details.%n%nEin großes Feld von Stiel-Schilf hat eine gute Chance, viele wertvolle Kreuzungen zu machen. Dies liegt daran, dass es eine anständig hohe Stufe hat (sie mutieren zufällig zu Stufen in der Nähe), und es ist wirklich schnell, so dass du es schnell auf einen hohen Wert bringen kannst, was du wahrscheinlich zuerst tun solltest. Mutationen sind zufällig, du kannst Transformium von Stiel-Schilf bekommen, also behalte das im Hinterkopf. Du neigst dazu, ähnliche Pflanzen zu bekommen, also wenn du Metalle willst, besorge dir zum Beispiel die Metallpflanzen. Gehe zum Wiki oder zur Tabelle (nicht auf dem neuesten Stand), um die Attribute zu sehen, die die Ähnlichkeit bestimmen.
 
 # Quest: Crop Automation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=Crop Automation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=The Crop Manager is a LV machine that will monitor crops in a 11x5x11 area and automatically apply fertilizer, Weed-EX, and Water as needed. Water can be pumped in directly or use IC2 Universal water cells, normal cells aren't returned when they're used.%n%nThe Crop Manager is NOT rainproof, but you can cover it with a water source block just fine!%n%nTilled dirt still requires a nearby water block to be hydrated as the Manager will only water the crop, not the soil. Try putting a lily pad on top so it isn't annoying to walk on, or using Garden Soil instead.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=Feldfrucht Automatisierung
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=Der Pflanzenverwalter ist eine LV-Maschine, die Pflanzen in einem 11x5x11-Bereich überwacht und automatisch Dünger, Weed-EX und Wasser nach Bedarf anwendet. Wasser kann direkt hineingepumpt oder IC2-Universal Wasser-Zellen verwendet werden, normale Zellen werden nicht zurückgegeben, wenn sie verwendet werden.%n%nDer Pflanzenverwalter ist NICHT regensicher, aber du kannst ihn problemlos mit einem Wasserquellenblock abdecken!%n%nAckerboden benötigt immer noch einen nahegelegenen Wasserblock, um hydriert zu werden, da der Verwalter nur die Pflanze, nicht den Boden, bewässert. Versuche, ein Seerosenblatt darauf zu legen, damit es nicht nervig ist, darauf zu laufen, oder verwende stattdessen Gartenerde.
 
 # Quest: Weed Ex
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.name=Weed Ex
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX is used to prevent the growth of Weeds on empty Crop blocks at the cost of some weed-EX. Damage to the crop's quality is illusory, and not true. We have people that have looked at the code, we assure you. §oUnless§r it counts as a weed (venomilia Gr 8+, any other crop Gr 24+), then it loses maybe 1 stat. Maybe. And you can just increase it again too. And it might not take effect even then if you don't apply too much, like a crop matron won't.%n%nUsage:%nWhile holding Weed-Ex, right-click on a Crop to apply it. It can also be placed in a Crop Manager to automatically apply it to your crops.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.name=Weed-Ex
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX wird verwendet, um das Wachstum von Unkraut auf leeren Pflanzenblöcken auf Kosten von etwas Weed-EX zu verhindern. Der Schaden an der Qualität der Pflanze ist illusorisch und nicht echt. Wir haben Leute, die sich den Code angesehen haben, wir versichern es dir. Es sei denn, es zählt als Unkraut (Venomilia Wa 8+, jede andere Pflanze Wa 24+), dann verliert es vielleicht 1 Wert. Vielleicht. Und du kannst ihn auch einfach wieder erhöhen. Und es tritt vielleicht nicht einmal dann in Kraft, wenn du nicht zu viel anwendest, wie es ein Pflanzenautomat nicht tun wird.%n%nVerwendung:%nHalte Weed-Ex und rechts-klicke auf eine Pflanze, um es anzuwenden. Es kann auch in einem Pflanzenverwalter platziert werden, um es automatisch auf deine Pflanzen anzuwenden.
 
 # Quest: Reed and Resin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.name=Reed and Resin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.desc=One of the first useful crops you'll get is Stickreed. It's fast growing, and can produce sticky resin and sugarcane (harvest before it reaches full maturity). It's also great for crossing with other crops to raise their stats. One of the best strategies is to get these to around 20/31/10, then breed out from there. Most people will say 23/31/10, but 24+ act like weeds, so it's better to have some wiggle room.%n%nI'll trade you some fertilizer for 2 stacks of each.%n%n[note]PS, you don't really need rubber trees if you can get these.[/note]%n%n[note]You'll need a Basic Scanner to scan your Stickreed seeds once you get them, though any set of stats will work. See the quest in LV, and note it requires MV circuits.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.name=Schilf und Harz
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.desc=Eines der ersten nützlichen Gewächse, die du bekommen wirst, ist Stiel-Schilf. Es wächst schnell und kann Klebriges Harz und Zuckerrohr (vor voller Reife ernten) produzieren. Es eignet sich auch hervorragend zum Kreuzen mit anderen Gewächsen, um deren Werte zu erhöhen. Eine der besten Strategien ist es, diese auf etwa 20/31/10 zu bringen und dann von dort aus weiter zu züchten. Die meisten Leute werden 23/31/10 sagen, aber 24+ verhalten sich wie Unkraut, also ist es besser, etwas Spielraum zu haben.%n%nIch tausche dir etwas Dünger für 2 Stapel von jedem.%n%n[note]PS, du brauchst keine Kautschukbäume mehr, wenn du diese bekommen kannst.[/note]%n%n[note]Du wirst jedoch einen Grundlegenden Scanner benötigen, um deine Stiel-Schilf-Samen zu scannen, sobald du sie hast, obwohl jeder Satz von Werten funktionieren wird. Siehe die Quest in LV, und beachte, dass sie MV-Schaltkreise benötigt.[/note]
 
 # Quest: Metals From the Earth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQQ.name=Metals From the Earth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQQ.desc=With higher tier crops you can even increase your ore production. Mixing some of these fibers and leaves with crushed ores can quadruple your output, and some can even be converted directly to dust. Later you can mix these materials to make purified ore with some UU matter.%n%nShow me your ability to get these metal crops and I'll give you some more fertilizer and some decent stat seedbags of rarer crops. Good source crops are essence berries or any of the oreberries.%n%nYou will need the proper oreblock beneath the crop to reach 100 percent maturity. For best growing conditions use dirt in between the oreblock and the crop.%n%nFor Ferru and Aurelia you will have to use a block of metal instead of a GT oreblock - a vanilla oreblock automined from the Twilight Forest will however work. You can also buy some from the coins tab. WAILA will tell you if the crop will accept the block you are using.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQQ.name=Metalle von der Erde
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQQ.desc=Mit höherstufigen Pflanzen kannst du sogar deine Erzproduktion erhöhen. Das Mischen einiger dieser Fasern und Blätter mit Zerkleinertem Erzen kann deine Ausbeute vervierfachen, und einige können sogar direkt in Staub umgewandelt werden. Später kannst du diese Materialien mischen, um Gereinigtes Erz mit etwas UU-Materie herzustellen.%n%nZeig mir deine Fähigkeit, diese Metallernten zu erhalten, und ich werde dir mehr Dünger und einige Samenbeutel mit anständigen Werten von selteneren Pflanzen geben. Gute Ausgangspflanzen sind Essenzbeeren oder eine der Erzbeeren.%n%nDu wirst den richtigen Erzblock unter der Pflanze benötigen, um 100 Prozent Reife zu erreichen. Für die besten Wachstumsbedingungen verwende Erde zwischen dem Erzblock und der Pflanze.%n%nFür Ferru und Aurelia wirst du einen Block aus Metall anstelle eines GT-Erzblocks verwenden müssen - ein Minecraft-Erzblock, der aus dem Twilight Forest automatisch abgebaut wurde, wird jedoch funktionieren. Du kannst auch einige vom Münz-Reiter kaufen. WAILA wird dir sagen, ob die Pflanze den Block akzeptiert, den du verwendest.
 
 # Quest: Water, Water, Everywhere
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQg.name=Water, Water, Everywhere
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQg.desc=Even though you have to plant crops near the water, they don't actually get any hydration unless you apply water manually. Make a hydration cell and use it on your crops to increase their growth speed.%n%nYou can recycle empty cells in an extractor.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQg.name=Wasser, Wasser, Überall
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQg.desc=Obwohl du Pflanzen in der Nähe von Wasser pflanzen musst, werden sie keine Feuchtigkeit aufnehmen können, außer wenn du es manuell machst. Stelle eine Hydrationszelle her und benutze sie auf deinen Pflanzen, um ihre Wachstumsgeschwindigkeit zu erhöhen.%n%nDu kannst Leere Zellen in einem Extrahierer recyceln.
 
 # Quest: Feeling a Little Like a Noob...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.name=Feeling a Little Like a Noob...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.desc=So could you grow me some essence berries so I can level up? You can plant the ones you get from the bushes, or breed up some.%n%nAs a reward, I'll give you a silly seed a friend of mine came up with. It will definitely keep you on your toes.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.name=Das Gefühl, ein Kleiner Anfänger zu sein...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.desc=So könntest du für mich ein paar Essenzbeeren anbauen, damit ich hochleveln kann? Du kannst die pflanzen, die du von den Büschen bekommst, oder einige züchten.%n%nAls Belohnung gebe ich dir einen albernen Samen, den ein Freund von mir sich ausgedacht hat. Er wird dich definitiv auf Trab halten.
 
 # Quest: Put the Petal to the Metal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.name=Put the Petal to the Metal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.desc=... with the Bio Diesel you produce from Canola!%n%nYou can try getting it from dandelions, cocoa, potatoes or lemons.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.name=Trete aufs Pedal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.desc=... mit dem Biodiesel, den du aus Canola herstellst!%n%nDu kannst versuchen, ihn aus Löwenzahn, Kakao, Kartoffeln oder Zitronen zu gewinnen.
 
 # Quest: Better Than Milk
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.name=Better Than Milk
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.desc=I haven't been feeling well lately. Would you grow me some Terrawart? They're better than milk, since they only remove negative effects, and stack to 64. Really nice when fighting that Alchemist infernal!%n%nThey also have Auramx8, Praecantatiox4 and Victusx4 essentia on them, very useful for the budding thaumaturge. And you can get them by placing a snow block under your netherwart and waiting instead of mutating to get them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.name=Besser Als Milch
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.desc=Ich habe mich in letzter Zeit nicht gut gefühlt. Würdest du mir etwas Terrawart anbauen? Sie sind besser als Milch, da sie nur negative Effekte entfernen und bis zu 64 stapelbar sind. Wirklich toll, wenn man gegen diesen höllischen Alchemisten kämpft!%n%nSie haben auch Auram x8-, Praecantatio x4- und Victus x4-Essenz an sich, sehr nützlich für den angehenden Thaumaturgen. Und du kannst sie bekommen, indem du einen Schneeblock unter deine Netherwarzen platzierst und wartest, anstatt zu mutieren, um sie zu erhalten.
 
 # Quest: Sweet Tooth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.name=Sweet Tooth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.desc=Sugarcane or Reed not keeping up with your sugary needs? Sugar beets give 8 sugar per beet. Potatoes or carrots should easily give you sugar beets.%n%nHmm, now I want some candy. Give me some sugar from your beets. I'll share some with you.%n%n[note]Electrolyze the sugar into O2 for an easy source.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.name=Naschkatzen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.desc=Zuckerrohr oder Schilf kommen mit deinem Zuckerbedarf nicht hinterher? Zuckerrüben geben 8 Zucker pro Rübe. Kartoffeln oder Karotten sollten dir leicht Zuckerrüben geben.%n%nHmm, jetzt will ich Süßigkeiten. Gib mir etwas Zucker aus deinen Rüben. Ich werde etwas mit dir teilen.%n%n[note]Elektrolysiere den Zucker zu Sauerstoff für eine einfache Quelle.[/note]
 
 # Quest: More Useful IC2 Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRw.name=More Useful IC2 Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRw.desc=Once you get into crops, consider trying other crops that may be of interest. Don't underestimate them, they can be quite strong if used well!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRw.name=Weitere Nützliche IC2-Pflanzen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRw.desc=Wenn du dich erst einmal mit Pflanzen beschäftigst, ziehe in Betracht, auch andere Pflanzen auszuprobieren, die von Interesse sein könnten. Unterschätze sie nicht, sie können bei guter Anwendung ziemlich stark sein!
 
 # Quest: More Red, Less Wheat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.name=More Red, Less Wheat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.desc=When breeding together crops for an output crop, try to get crops that are close in tier to the output crop, and have similar attributes to the output crop.%n%nFor example, Redwheat has "Red", "Wheat" and "Redstone" attributes and is tier 6. Netherwart has "Red" and is tier 5. Use the cropnalyzer crop prediction mode to see how many points Redwheat has using two Netherwart.%n%nYou'll also want to make sure the light level is between 5-10 for this particular cross breeding to occur. Honestly, it's the worst, condition-wise.%n%nReally though, once you get to MV it's better to make a Glowstone crop and centrifuge it for redstone. Or a redstone block crop. Or just mine it, honestly. Red wheat == Dead wheat.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.name=Mehr Rot, Weniger Weizen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.desc=Wenn du Pflanzen für eine Ausgangspflanze züchtest, versuche, Pflanzen zu bekommen, die in der Stufe nahe an der Ausgangspflanze liegen und ähnliche Attribute wie die Ausgangspflanze haben.%n%nZum Beispiel hat Rotweizen die Attribute "Rot", "Weizen" und "Redstone" und ist Stufe 6. Netherwarze hat "Rot" und ist Stufe 5. Verwende den Feldfrüchteanalyser im Pflanzen-Vorhersagemodus, um zu sehen, wie viele Punkte Rotweizen hat, wenn du zwei Netherwarzen verwendest.%n%nDu wirst auch sicherstellen wollen, dass das Lichtlevel zwischen 5-10 liegt, damit diese spezielle Kreuzung stattfinden kann. Ehrlich gesagt, ist es die schlechteste, was die Bedingungen angeht.%n%nAber wirklich, sobald du MV erreichst, ist es besser, eine Leuchtstein-Pflanze zu machen und sie für Redstone zu zentrifugieren. Oder eine Redstoneblock-Pflanze. Oder es einfach abzubauen, ehrlich gesagt. Rotweizen == Totes Weizen.
 
 # Quest: Turning Dirt into proper Soil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.name=Turning Dirt into proper Soil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.desc=With an Assembler and some Seed Oil, you can turn Dirt and Sand into Garden Soil. This optimal Soil does not require nearby water, and Crops won't break when you fall on or run near it.%n%nHowever, unlike watered Farmland, it doesn't contribute to the humidity stat or speed up IC2 crops, so it's not useful for min-maxing.%n%nThe same goes for Enchanted Earth, the Lamp of Growth, Sprinklers, etc.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.name=Das Umwandeln von Erde in richtigen Boden
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.desc=Mit einem Montierer und etwas Samenöl kannst du Erde und Sand in Gartenerde umwandeln. Diese optimale Erde benötigt kein Wasser in der Nähe, und die Pflanzen gehen nicht kaputt, wenn du darauf fällst oder in der Nähe rennst.%n%nAnders als bewässertes Ackerland trägt sie jedoch nicht zum Feuchtigkeitswert bei oder beschleunigt IC2-Pflanzen, weshalb sie nicht zum Min-Maxing geeignet ist.%n%nDas Gleiche gilt für Verzauberte Erde, die Lampe des Wachstums, Sprinkler usw.
 
 # Quest: Crop Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.name=Crop Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=With the portable scanner, you can get the crop's stats and environmental info while it is still in the ground by right-clicking it. It also stays scanned after getting the seed. Look for the portable scanner quest after the EBF in Multiblock Goals. About those stats:%n%n§aGrowth§r:%nHow fast it grows, with higher = faster. Specifically, it increases the growth points your crop gets per growth tick. If it gets to 24+, your crop acts like a weed, so most people say to stay at 23 or less. However, it will only weed other crops under certain conditions.%n%n1) Is in a cardinal direction on the same Y level. 2) Will only affect dirt/grass, or cropsticks or crops 3) If there's a crop there that is §oalso§r a weed, if it's at a maturity level > 1, it §owon't affect it§r 4) If it affects the crop, it'll be replaced with a normal weed%n%n§9Gain§r:%nInfluences chances of how many drops you get, and whether you get any at all. 31 is the best for sure.%n%n§eResistance§r:%nThis stat is responsible for a couple of crops' properties: chances for getting a seed while punching crop, resistance of your crop to trampling (jumping on it), decreases chance of crop dying due to lack of environmental stats, and resistance of crop to weed spread. It also reduces mutation chance as it goes up (apparently). Aim for around 10 for balance.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.name=Pflanzenwerte
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=Mit dem Tragbaren Scanner kannst du die Werte und Umweltinformationen der Pflanze erhalten, während sie sich noch im Boden befindet, indem du rechts-klickst. Sie bleibt auch gescannt, nachdem du den Samen bekommen hast. Suche nach der Tragebaren Scanner-Quest nach dem EHO in Multiblock-Ziele. Zu diesen Werten:%n%n§aWachstum§r:%nWie schnell sie wächst, wobei höher = schneller ist. Konkret erhöht es die Wachstumspunkte, die deine Pflanze pro Wachstums-Tick erhält. Wenn es 24+ erreicht, verhält sich deine Pflanze wie ein Unkraut, weshalb die meisten Leute sagen, du sollst bei 23 oder weniger bleiben. Sie wird jedoch nur unter bestimmten Bedingungen andere Pflanzen überwuchern.%n%n1) Ist in einer Himmelsrichtung auf der gleichen Y-Ebene. 2) Wirkt sich nur auf Erde/Gras oder Pflanzstäbe oder Pflanzen aus 3) Wenn dort eine Pflanze ist, die §oauch§r ein Unkraut ist, und sie einen Reifegrad > 1 hat, wird es §osie nicht beeinflussen§r 4) Wenn es die Pflanze beeinflusst, wird sie durch ein normales Unkraut ersetzt%n%n§9Ertrag§r:%nBeeinflusst die Chancen, wie viele Drops du bekommst, und ob du überhaupt welche bekommst. 31 ist auf jeden Fall das Beste.%n%n§eWiderstand§r:%nDieser Wert ist für ein paar Eigenschaften der Pflanzen verantwortlich: Chancen, einen Samen zu bekommen, wenn man die Pflanze schlägt, Widerstand deiner Pflanze gegen Vertrampeln (darauf springen), verringert die Chance, dass die Pflanze aufgrund von fehlenden Umweltwerten stirbt, und Widerstand der Pflanze gegen Unkrautausbreitung. Er verringert auch die Mutationschance, wenn er steigt (anscheinend). Strebe für eine Balance etwa 10 an.
 
 # Quest: Metals From the Sky
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAw.name=Metals From the Sky
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAw.desc=You can even create metals not found on Earth using crops! You'll need the proper metal block beneath the crop in order for them to fully mature.%n%nBTW, higher tier crops have a lower chance of dropping seeds, so consider breeding a second one before you try breaking them, ok?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAw.name=Metalle Vom Himmel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAw.desc=Du kannst sogar Metalle erschaffen, die nicht auf der Erde zu finden sind, indem du Pflanzen verwendest! Du wirst den passenden Metallblock unter der Pflanze benötigen, damit sie vollständig reifen kann.%n%nÜbrigens, Pflanzen höherer Stufe haben eine geringere Chance, Samen fallen zu lassen, also ziehe in Betracht, eine zweite zu züchten, bevor du versuchst, sie zu zerstören, okay?
 
 # Quest: New Threads
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.name=New Threads
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.desc=Tired of killing spiders for string? Grow some flax for an easy non-biting source of string.%n%nYou can also directly place Cotton seeds on cropsticks to grow cotton that way. With some Corium in the next quest, you can get easy tanned leather.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.name=Neue Fäden
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.desc=Hast du es satt, Spinnen für Fäden zu töten? Baue etwas Flachs an, um eine einfache, nicht beißende Quelle für Faden zu haben.%n%nDu kannst auch Baumwollsamen direkt auf Anbaustäben platzieren, um so Baumwolle anzubauen. Mit etwas Corium in der nächsten Quest kannst du leicht Gegerbtes Leder erhalten.
 
 # Quest: The Ground is Crying
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.name=The Ground is Crying
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.desc=Need an alternate source of Chlorine? Breed some Tearstalks to get Ghast Tears for making salt water.%n%n;-;%n%nNether warts should yield tearstalks.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.name=Der Boden Weint
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.desc=Du benötigst eine alternative Quelle für Chlor? Züchte einige Tränenranken, um Ghasttränen für die Herstellung von Salzwasser zu erhalten.%n%n;-;%n%nNetherwarzen sollten Tränenranken ergeben.
 
 # Quest: Blazes Too Hard to Kill?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.name=Blazes Too Hard to Kill?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.desc=Then grow some blazereed to save yourself the trouble.%n%nTearstalks should easily yield blazereed.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.name=Lohen Zu Schwer zu Töten?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.desc=Dann züchte etwas Lohen-Schilf, um dir die Mühe zu ersparen.%n%nTränenranken sollten leicht Lohen-Schilf ergeben.
 
 # Quest: A Girl's Best Friend
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.name=A Girl's Best Friend
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.desc=Need to impress a lady? How about growing diamonds on reeds?!?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.name=Eines Mädchens Bester Freund
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.desc=Musst du eine Frau beeindrucken? Wie wäre es, wenn du Diamanten auf Schilf anbaust?!?
 
 # Quest: Why Does My Plant Bawk Like a Chicken?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCQ.name=Why Does My Plant Bawk Like a Chicken?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCQ.desc=Because it can lay eggs!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCQ.name=Warum Gackert Meine Pflanze Wie Ein Huhn?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCQ.desc=Weil es Eier legen kann!
 
 # Quest: Vegan, But Still Want to Eat Meat?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCg.name=Vegan, But Still Want to Eat Meat?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCg.desc=Instead of killing animals, just mutate some crazy GMOs into making animal products for you. Science!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCg.name=Vegan, Aber Du Möchtest Immer Noch Fleisch Essen?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCg.desc=Anstatt Tiere zu töten, mutiere einfach ein paar verrückte GMOs, um Tierprodukte für dich herzustellen. Wissenschaft!
 
 # Quest: Magic Metal Berry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.name=Magic Metal Berry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.desc=...is obviously the name of my cover band. But also a great crop for Thaumium or Void metals. Requires a block of iron or thaumium to get thaumium, and void metal block to get void metal. Like other ore berries, it only grows in dim light. Any oreberry should have a decent chance of yielding this.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.name=Magische Metall-Beere
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.desc=... ist offensichtlich der Name meiner Cover-Band. Aber auch eine großartige Pflanze für Thaumium oder Void-Metalle. Benötigt einen Block aus Eisen oder Thaumium, um Thaumium zu erhalten, und einen Void-Metall-Block, um Void-Metall zu erhalten. Wie andere Erzbeeren wächst sie nur bei schwachem Licht. Jede Erzbeere sollte eine gute Chance haben, dies zu ergeben.
 
 # Quest: Other Magic Flowers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDA.name=Other Magic Flowers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDA.desc=Other magical flowers are possible such as shimmerleaf, mandragora, wolf's bane, and more.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDA.name=Andere Magische Blumen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDA.desc=Andere magische Blumen sind möglich, wie Schimmerblatt, Mandragora, Wolfsbann und mehr.
 
 # Quest: Stonelillies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.name=Stonelillies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.desc=Stone lillies allow you to get dusts without having to look for granites, basalt, or marble. A great renewable way to get calcite, fluorine, or bulk aluminium (and a tiny bit of uranium).%n%nThese require the original block directly beneath them to grow properly.%n%nThere is also a Grey stonelilly for stone dust (who needs more of that??) and a Yellow stonelilly for sand or Endstone dust. Handy for the clever chemist!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.name=Steinlilien
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.desc=Steinlilien ermöglichen es dir, Stäube zu erhalten, ohne nach Granit, Basalt oder Marmor suchen zu müssen. Eine großartige erneuerbare Methode, um Calcit, Fluor oder Aluminium in großen Mengen (und ein winziges bisschen Uran) zu bekommen.%n%nDiese benötigen den originalen Block direkt unter ihnen, um richtig zu wachsen.%n%nEs gibt auch eine Graue Steinlilie für Steinstaub (wer braucht mehr davon??) und eine Gelbe Steinlilie für Sand oder Endsteinstaub. Praktisch für den klugen Chemiker!
 
 # Quest: Growing some Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=Growing some Glowstone
@@ -6612,6 +6612,10 @@ betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.desc=Starte deine eigene lokale Brau
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=Fits The Mold
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.desc=Making machines for every mold sounds tiring... fortunately, the Fluid Shaper multiblock can handle any number of molds by using §lSolidifier Hatches§r. This multiblock is also extendable, gaining more parallels if you add additional segments. Be sure to expand it if it's too slow!%n%n[note]The Fluid Shaper also speeds up as it is running, making it more efficient to do large batches.[/note]
 
+# Quest: T2 Maceration Stack 
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.name=T2 Maceration Stack 
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.desc=Upgrade your Maceration Stack by replacing all the casings with Maceration Stack Casings and then placing the Upgrade Chip into the slot in the controller.%n%nThe Tier 2 Maceration stack has 4x more parallels!
+
 # Quest: Smelt All the Things Stack-Wise...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.name=Smelt All the Things Stack-Wise...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.desc=...with this great invention! Upgrade power and coils to smelt absolutely ridiculous amounts of items.
@@ -6767,6 +6771,10 @@ betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge numbe
 # Quest: Steam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=Steam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=Why use fancy wiring and circuitry to blend dusts together when you can do the same thing with steam and pistons? The Steam Blender is the largest of these Steam Multiblocks and can handle your mixing needs for a while, having more parallel than an LV singleblock Mixer.%n%n[note]This Multiblock can only process recipes up to LV tier.[/note]
+
+# Quest: Steam Fusing?
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=Steam Fusing?
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed. %n(Check out the tooltip for more info!)%n%n[note]Will only process up to LV tier recipes[/note]
 
 # Quest: Taking Things Apart
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=Taking Things Apart
@@ -7386,6 +7394,10 @@ betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.desc=High pressure, superheated load
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIQ.name=Storing and Transforming EU
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIQ.desc=You can find ways to store EU here and ways to transform between voltages.
 
+# Quest: IV 16A Hatches
+betterquesting.quest.-H2HWiVlTn-1IT2aaXhLkg.name=IV 16A Hatches
+betterquesting.quest.-H2HWiVlTn-1IT2aaXhLkg.desc=These ones do 16A.
+
 # Quest: Can we get much higher?
 betterquesting.quest.13PWs3MhTUOgkIQq8EKhaQ.name=Can we get much higher?
 betterquesting.quest.13PWs3MhTUOgkIQq8EKhaQ.desc=With the EU transfer rates!
@@ -7594,9 +7606,29 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3w.desc=An even more expensive capacito
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.name=Wireless Power!?
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.desc=Are you sick and tired of having cables all around your base? Are you tired of having to upgrade your cables constantly to handle different amperage amounts? Are you a fan of lightning bolts zapping around your base?%n%nThen this multiblock is for you, the Telsa Tower comes with high amperage output and full TecTech energy hatch support with this powerful multiblock.%n%nTo get started you will need to fill the tower with capacitors matching the tier of the Primary Tesla Windings within the capacitor bank. The Tesla Winding determines the tier of power that the tower transfers power at and the amount of capacitors determines the maximum amperage that can be output.%n%nA total of 16 capacitors can be placed into one capacitor bank so you might need many banks depending on your power needs.%n%nOnce the tower is constructed click open the controller to configure the maximum transfer distance of the tower to fit the needs of your base. The range setting is currently buggy which means that at least for now you can do so without needing any plasmas. This option is called “Tesla Towers Transfer Radius Setting”.%n%nNow that your tower is all configured how do you get power out of it to your machines? Well I am glad you asked. To get power to the machines of the base you will need to use the Tesla Coil Covers. Place them on your machines, energy hatches and even transformers to get power flowing from the tower. Energy hatches are a bit picky however and the hatch likes to be facing upwards to receive power.%n%n[warn]Warning! The Tesla Tower will output only one tier of amp such as EV, IV etc. When upgrading the Primary Tesla Windings, please make sure to check that all of your coil covers and transceivers in the base can handle the upgraded power. Failure to do so will result in a machine explosion.[/warn]%n%n[warn]Failure to turn off the controller before adjustment can also cause an explosion.[/warn]
 
+# Quest: EV 4A Hatches
+betterquesting.quest.EOlpI83vT36jaFwDH7pS7w.name=EV 4A Hatches
+betterquesting.quest.EOlpI83vT36jaFwDH7pS7w.desc=To insert and extract many amps from your LSC, make these special hatches.%n%nSome multiblocks can also accept multi-amp hatches.
+
 # Quest: Power Goggles
 betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.name=Power Goggles
 betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.desc=Wanna see how your LSC is doing but don't want to run to it or your information panel every time? Get yourself a pair of §6§oPower Goggles§r to see your energy storage straight from the HUD!%n%nBy §adefault§f§r the goggles are §cunlinked§r and will monitor the amount of energy in your wireless network.%n%nTo link the goggles to an LSC, §cRight+Click§r the controller with the goggles in your hand. §cShift+Right Click§f§r air to unlink.%n%nIf you wish to move or modify the display you can do so by opening the power goggles config menu!%n%n[warn]Make sure to check your keybinds! There's also a keybind for toggling the power chart![/warn]
+
+# Quest: EV 64A Hatches
+betterquesting.quest.M_HRDMb8Q2GnvpgfgsRnRw.name=EV 64A Hatches
+betterquesting.quest.M_HRDMb8Q2GnvpgfgsRnRw.desc=You get the idea, these ones do 64A!
+
+# Quest: IV 64A Hatches
+betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.name=IV 64A Hatches
+betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.desc=The final multi-amp hatches for IV, 64A!
+
+# Quest: IV 4A Hatches
+betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.name=IV 4A Hatches
+betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.desc=Same as the EV Multi-amp hatches, use these to extract and insert many amps from your LSC.
+
+# Quest: EV 16A Hatches
+betterquesting.quest.iR0UzvKrRJmM8oY2SNCZjA.name=EV 16A Hatches
+betterquesting.quest.iR0UzvKrRJmM8oY2SNCZjA.desc=These ones can extract and insert 16A.
 
 # Quest: At last, the final capacitor!
 betterquesting.quest.vrE4rYLuSnmmtAklayd6gw.name=§6§lAt last, the final capacitor!
