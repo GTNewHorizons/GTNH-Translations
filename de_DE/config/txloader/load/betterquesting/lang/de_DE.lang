@@ -2734,7 +2734,7 @@ betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=Mit Feldgenerator kannst du dei
 
 # Quest: Supersized Buses
 betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§b§lÜbergroße Busse
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Fassen deine Eingangs- und Ausgangsbusse nicht genug für dich?%n%nWerte deine Busse zum Super-Bus auf und genieße die erhöhten Slots!
+betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Fassen deine Eingangs- und Ausgangsbusse nicht genug für dich?%n%nWerte deine Busse zum Super-Bus auf und genieße die erhöhten Slots!%n%n[note]Um Geschmolzenes Siliziumkarbid ohne LHS zu bekommen, kannst du Siliziumkarbidstaub in einem Mischer herstellen, ihn dann schmelzen und flüssig-extrahieren.[/note]
 
 # Quest: EXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§a§lEXTREME MIXING
@@ -3057,9 +3057,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-Q.desc=Nun musst du das ausgelaugte Ko
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-g.name=§b§lDer Beginn von Cer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-g.desc=Diese Reihe wird dich anleiten, elementares Cer zu erhalten.%n%nZuerst, reagiere dein Cerdioxid mit Ammoniumchlorid, um Cerchlorid zu erhalten.
 
-# Quest: Compounding With Oxalate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.name=§b§lVerbindungen Mit Oxalat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.desc=Die Kombination deines Cerchlorids mit Oxalat ergibt Ceroxalat. Dies kann dann (in deinem/deinen EHO(s), natürlich) erhitzt werden, um §oein weiteres§r Ceroxid zu erhalten.
+# Quest: Compounding With Oxalic Acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.name=§b§lVerbindungen Mit Oxalsäure
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.desc=Die Kombination deines Cerchlorids mit Oxalsäure ergibt Ceroxalat. Dies kann dann (in deinem/deinen EHO(s), natürlich) erhitzt werden, um §oein weiteres§r Ceroxid zu erhalten.
 
 # Quest: Monazite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4w.name=§b§lMonazit
@@ -3177,9 +3177,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALRA.desc=Du musst dein Rutheniumtetroxid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.name=§b§lNoch Besserere Magnetstäbe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.desc=Wie zuvor wirst du in der nächsten Stufe bessere Stäbe für deine Motoren benötigen. Baue dies, um deine Magnetischen Samarium-Stäbe herzustellen.
 
-# Quest: Oxalate
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.name=§b§lOxalat
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.desc=Oxalat ist eigentlich nur nützlich für die Cer-Verarbeitung. Fahre fort und stelle etwas davon her.%n%nDafür gibt es ein paar Optionen, also schau einfach in NEI nach und wähle, was am besten für dich passt.
+# Quest: Oxalalic Acid
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.name=§b§lOxalsäure
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.desc=Oxalsäure ist eigentlich nur nützlich für die Cer-Verarbeitung. Fahre fort und stelle etwas davon her.%n%nDafür gibt es ein paar Optionen, also schau einfach in NEI nach und wähle, was am besten für dich passt.
 
 # Quest: Glowing Matter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBA.name=§b§lLeuchtende Materie
@@ -3669,7 +3669,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.desc=Viele TecTech-Multiblöcke kön
 
 # Quest: Lasers Solve Everything
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.name=Laser Lösen Alles
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.desc=Laseranschlüsse sind eine High-End-Möglichkeit, viele Amps zu senden, so viel, dass es bei 32A beginnt. Das geht dann weiter mit 32/64/96/128/256+ und so weiter. Sie sind auch so leistungsstark, dass nur wenige Maschinen sie außerhalb der stets §owundervollen§r TecTech unterstützen: LSK, MHO, MVF und USW. Denke daran, die Laser-Vakuumrohre, den Quellanschluss und den Zielanschluss einzufärben. Auch, Quelle = Ausgabe, Ziel = Eingabe. Laser-Vakuumrohre teilen oder biegen sich nicht, um deinen Laser zu drehen, verwende [note]Aktive Transformatoren[/note]. Später kannst du Laser-Vakuumspiegel verwenden, um deine Laser-Vakuumrohre zu biegen, dies wird jedoch keine Aufteilung ermöglichen.%n%n[note]Die Betriebsstromstärke der Laseranschlüsse kann in ihrem GUI angepasst werden.[/note]%n%nLaserkonverter sind im Grunde: Laserquelle (an der Maschine) -> Vakuumrohre -> LK -> 5x Ausgang aufgeteilt in X Amps, 32 für den ersten. Achte darauf, ihn in den Empfangsmodus zu versetzen. Oder mache es andersherum, wenn du nach oben gehen willst. Es ist im Grunde ein Transformator, der Laser zu/von Kabeln umwandelt. Du kannst sie auch verwenden, um die Laser zu drehen, wenn dir der 3-fache Verlust am Geräteausgang (und das Senden nicht aller Amps) im Vergleich zum Aktiven Transformator nichts ausmacht (wegen des Verlusts an jedem Ausgang). Denke einfach daran, einen Batteriepuffer dazwischen zu setzen, wenn es funktionieren soll.%n%n[note]Du kannst die LV-Laser-Rohre verwenden, wenn du einen LV-Anschluss oder einen Konverter verwendest, aber denke daran, dass du sie selbst mit einem Drahtschneider verbinden musst, nachdem du sie eingefärbt hast.[/note]%n%n[warn]Sei vorsichtig bei der Verwendung von Laseranschlüssen mit sehr hoher Amperezahl, da jeder Laseranschluss einen passiven Leistungsverlust von 1EU/s * max. Amperezahl hat. Zum Beispiel verlieren ein 256A-Laserquellanschluss und ein 256A-Laserzielanschluss beide 256 EU/s, unabhängig von der Menge an Strom, die durch sie fließt.[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.desc=Laseranschlüsse sind eine High-End-Möglichkeit, viele Amps zu senden, so viel, dass es bei 256A beginnt. Das geht dann weiter mit 1024/4096/16384+ und so weiter. Sie sind auch so leistungsstark, dass nur wenige Maschinen sie außerhalb der stets §owundervollen§r TecTech unterstützen: LSK, MHO, MVF und USW. Denke daran, die Laser-Vakuumrohre, den Quellanschluss und den Zielanschluss einzufärben. Auch, Quelle = Ausgabe, Ziel = Eingabe. Laser-Vakuumrohre teilen oder biegen sich nicht, um deinen Laser zu drehen, verwende [note]Aktive Transformatoren[/note]. Später kannst du Laser-Vakuumspiegel verwenden, um deine Laser-Vakuumrohre zu biegen, dies wird jedoch keine Aufteilung ermöglichen.%n%n[note]Die Betriebsstromstärke der Laseranschlüsse kann in ihrem GUI angepasst werden.[/note]%n%n[warn]Sei vorsichtig bei der Verwendung von Laseranschlüssen mit sehr hoher Amperezahl, da jeder Laseranschluss einen passiven Leistungsverlust von 1EU/s * max. Amperezahl hat. Zum Beispiel verlieren ein 256A-Laserquellanschluss und ein 256A-Laserzielanschluss beide 256 EU/s, unabhängig von der Menge an Strom, die durch sie fließt.[/warn]
 
 # Quest: Enriched Naquadah Ingot
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZw.name=Angereichertes Naquadah-Barren
@@ -4839,128 +4839,128 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.name=Steinlilien
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.desc=Steinlilien ermöglichen es dir, Stäube zu erhalten, ohne nach Granit, Basalt oder Marmor suchen zu müssen. Eine großartige erneuerbare Methode, um Calcit, Fluor oder Aluminium in großen Mengen (und ein winziges bisschen Uran) zu bekommen.%n%nDiese benötigen den originalen Block direkt unter ihnen, um richtig zu wachsen.%n%nEs gibt auch eine Graue Steinlilie für Steinstaub (wer braucht mehr davon??) und eine Gelbe Steinlilie für Sand oder Endsteinstaub. Praktisch für den klugen Chemiker!
 
 # Quest: Growing some Glowstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=Growing some Glowstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.desc=There are a couple of different glowstone crops - glowflower, glowing earth coral, and glowshrooms. Nether wart is a great source of these.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=Etwas Leuchtstein Anbauen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.desc=Es gibt ein paar verschiedene Leuchtstein-Pflanzen – Leuchtblume, Leuchtende Erdkoralle und Leuchtpilze. Netherwarzen sind eine großartige Quelle dafür.
 
 # Quest: Leaves of Steel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDw.name=Leaves of Steel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDw.desc=Well, steel leaves anyways. Instead of grinding Twilight Forest for steel leaves, grow a crop in peace.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDw.name=Blätter aus Stahl
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDw.desc=Nun, Stahlblätter jedenfalls. Anstatt den Dämmerwald nach Stahlblättern abzugrasen, bau sie in aller Ruhe an.
 
 # Quest: Plants That Make Their Own Fertilizer?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.name=Plants That Make Their Own Fertilizer?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.desc=Sign me up! This plant will create fertilzer ingredients for you.%n%nThe best plants to cross to get Fertilia are zomplant, venomilia, trollplant, or spidernip. Watch out for venomilia though, not only is it poisonous, it also acts like a weed at growth 8+!%n%nUse the IC2 fertilizer and apatite this drops to make forestry fertilizer if using the multifarm.%n%n[note]BTW this is the rarest one, with a 0.76%% chance even for zomplant, so expect it to take approximately 3 eternities.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.name=Pflanze Die Ihren Eigenen Dünger Produzieren?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.desc=Hier geht's los! Diese Pflanze wird Düngemittel-Zutaten für dich herstellen.%n%nDie besten Pflanzen für die Kreuzung, um Fertilia zu erhalten, sind Zompflanz, Venomilia, Trollpflanz oder Spinnenbiss. Pass aber auf die Venomilia auf; sie ist nicht nur giftig, sondern verhält sich ab Wuchs 8+ auch wie ein Unkraut!%n%nVerwende den IC2-Dünger und das Apatit, das sie abwirft, um Forestry-Dünger herzustellen, wenn du die Multifarm verwendest.%n%n[note]Übrigens ist dies die seltenste Pflanze mit einer Chance von 0,76 % selbst bei Zompflanz, erwarte also, dass es etwa 3 Ewigkeiten dauern wird.[/note]
 
 # Quest: Renewable Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.name=Renewable Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.desc=Oil from crops? Makes as much sense as oil from bees!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.name=Erneuerbares Öl
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.desc=Öl aus Pflanzen? Macht genauso viel Sinn wie Öl aus Bienen!
 
 # Quest: Kitchenware 2.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLA.name=Kitchenware 2.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLA.desc=GregTech tools like the knives get used up when crafting foods. Pams Tool like the Cutting Board, Juicer or the Bakeware can last forever.%n%nAfter you reach stainless steel in HV you can make these tools that last forever.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLA.name=Küchengeschirr 2.0
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLA.desc=GregTech-Werkzeuge wie die Messer werden bei der Zubereitung von Speisen verbraucht. Pam's Werkzeuge wie das Schneidebrett, der Entsafter oder die Backform können ewig halten.%n%nNachdem du in HV Edelstahl erreicht hast, kannst du diese Werkzeuge herstellen, die für immer halten.
 
 # Quest: Just Like Mom Used to Make
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPg.name=Just Like Mom Used to Make
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPg.desc=Jelly sandwiches are a great food source with decent saturation and are easy to make. Almost any fruit can be converted to jelly with sugar and a saucepan. There are a few different nut butters available. Peanuts can be found in Ground Gardens in forest, mountain, or taiga style biomes. Cashews are trees located in jungles or swamps. Chestnuts can be found in warmer forests. Pistachios can be found in jungles. Many of these saplings are also available for trade from villagers.%n%nTo keep all your recipes together, you can use either a Kitchen multiblock if you want to see all recipes available to you, or a Forestry Worktable if you're fine with the limit of nine recipes.%n%nSome sandwiches have better saturation than others, so be sure to check before buying that sapling!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPg.name=Genau Wie Früher Bei Mama
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPg.desc=Gelee-Sandwiches sind eine tolle Nahrungsquelle mit guter Sättigung und einfach zuzubereiten. Fast jede Frucht kann mit Zucker und einem Topf in Gelee umgewandelt werden. Es gibt auch verschiedene Nussbutter-Sorten. Erdnüsse findest du in Bodengärten in Wald-, Berg- oder Taiga-Biomen. Kaschubäume wachsen in Dschungeln oder Sümpfen. Kastanien findest du in wärmeren Wäldern. Pistazien wachsen im Dschungel. Viele dieser Setzlinge kannst du auch bei Dorfbewohnern eintauschen.%n%nUm all deine Rezepte beisammenzuhalten, kannst du entweder einen Küchen-Multiblock verwenden, wenn du alle verfügbaren Rezepte sehen willst, oder einen Forestry-Arbeitstisch, wenn du mit dem Limit von neun Rezepten klarkommst.%n%nManche Sandwiches haben eine bessere Sättigung als andere, also schau genau hin, bevor du einen Setzling kaufst!
 
 # Quest: I Like Big Sandwiches
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPw.name=I Like Big Sandwiches
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPw.desc=Now that you have dough, there are several options for large sandwiches. They offer great saturation restoration and are easy to make.%n%nThe veggie and cheese options aren't quite as good and need more work to produce.%n%nThere are also normal-sized varieties of these sandwiches if you need more diet choices.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPw.name=I Mag Große Sandwiches
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPw.desc=Nachdem du jetzt Teig hast, gibt es verschiedene Optionen für große Sandwiches. Sie stellen viel Sättigung wieder her und sind einfach zuzubereiten.%n%nDie Veggie- und Käse-Optionen sind nicht ganz so gut und erfordern mehr Aufwand bei der Herstellung.%n%nEs gibt auch normalgroße Varianten dieser Sandwiches, falls du mehr Auswahl für deine Ernährung brauchst.
 
 # Quest: No Chicken Escapes!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.name=No Chicken Escapes!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.desc=Do you like pies? I sure do! There are many varieties of pies available for you. The chicken pot pie is one of the easiest to make. Just a chicken, potato, carrot, and some dough. The fruit pies are a little simpler, so they don't quite restore as much saturation, but are great for filling tummies while you wait for the best foods to wear off.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.name=Kein Huhn Wird Entkommen!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.desc=Magst du Pasteten? Ich auf jeden Fall! Es gibt viele Sorten, die du herstellen kannst. Die Chicken Pot Pie ist eine der einfachsten. Einfach ein Hühnchen, eine Kartoffel, eine Karotte und etwas Teig. Die Obstkuchen sind etwas simpler, stellen daher nicht ganz so viel Sättigung wieder her, eignen sich aber hervorragend, um den Magen zu füllen, während du auf die besten Gerichte wartest, bis ihre Wirkung nachlässt.
 
 # Quest: You Can't Tell Them Apart Either?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.name=You Can't Tell Them Apart Either?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.desc=Many plants look the same. Someday you'll be able to use a machine to tell them apart+more, but for now you can make a simple Plant Lens to at least identify species.%n%nAfter using it you can tell the following:%nSpecies%nCrop tier%nWhether it can grow (some crops have requirements)%nWhether you can harvest it%nGrowth stage, and progress to the next
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.name=Du Kannst Sie Auch Nicht auseinanderhalten?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.desc=Viele Pflanzen sehen gleich aus. Eines Tages wirst du in der Lage sein, eine Maschine zu benutzen, um sie zu unterscheiden + mehr, aber im Moment kannst du eine einfache Pflanzenlinse herstellen, um zumindest die Arten zu identifizieren.%n%nNachdem du sie benutzt hast, kannst du Folgendes erkennen:%nSpezies%nPflanzen-Stufe%nOb sie wachsen kann (einige Pflanzen haben spezielle Anforderungen)%nOb du sie ernten kannst%nWachstumsstadium und Fortschritt zum nächsten
 
 # Quest: Coal...From Withereed?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.name=Coal...From Withereed?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.desc=Withereed is a source for coal, and more importantly, a good breeding stock for higher tiers.%n%nYou'll need coal blocks underneath it to fully mature.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.name=Kohle...Von Wither-Schilf?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.desc=Wither-Schilf ist eine Quelle für Kohle und, was noch wichtiger ist, eine gute Zuchtsorte für höhere Stufen.%n%nDu wirst Kohleblöcke darunter brauchen, damit sie vollständig reift.
 
 # Quest: Son of Odin One-Eye
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.name=Son of Odin One-Eye
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.desc=The God of Thunder crop lets you increase your Thorium ore from the Nether to 4x. It also will give you Uranium you can use for Reactoria crops.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.name=Sohn von Odin Einäugig
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.desc=Die Ernte der Gott des Donners-Pflanze ermöglicht es dir, dein Thorium-Erz aus dem Nether auf das Vierfache zu steigern. Sie gibt dir auch Uran, das du für Reactoria-Pflanzen verwenden kannst.
 
 # Quest: Just Cover Your Privates When You Walk By
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.name=Just Cover Your Privates When You Walk By
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.desc=Reactoria crops will drop Reactoria leaves which will 4x your Pitchblende ore.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.name=Bedeck Nur Deine Genitalien, Wenn Du Vorbeigehst
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.desc=Reactoria-Pflanzen lassen Reactoria-Blätter fallen, die dein Pechblende-Erz vervierfachen.
 
 # Quest: Ironwood is Better Than Normal Wood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHig.name=Ironwood is Better Than Normal Wood
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHig.desc=A necessary step for steeleafranks? Maybe not. But ironwood does make some great rollers for cooking, and a decent Sense blade.%n%nCreeperweed has a decent chance of giving liveroots seeds.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHig.name=Eisenholz ist Besser Als Normales Holz
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHig.desc=Eisenholz ergibt großartige Nudelhölzer zum Kochen und eine ordentliche Sensen-Klinge.%n%nCreepergras hat eine gute Chance, Lebwurzel-Samen zu geben.
 
 # Quest: Vegan Leather?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.name=Vegan Leather?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.desc=If you want to save your cows and horses for milk and ...glue... you can use Corium to make leather instead.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.name=Veganes Leder?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.desc=Wenn du deine Kühe und Pferde für Milch und ...Kleber... behalten willst, kannst du stattdessen Corium verwenden, um Leder herzustellen.
 
 # Quest: Gunpowder? More Like Dirtpowder!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.name=Gunpowder? More Like Dirtpowder!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.desc=Creeperweed can supply your gunpowder needs without dealing with bothersome explosions. It also has quite a few attributes, making it a good source of random crops.%n%nCorium can breed into creeperweed.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.name=Schwarzpulver? Eher Schmutzpulver!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.desc=Creepergras kann deinen Schwarzpulverbedarf decken, ohne dass du dich mit lästigen Explosionen auseinandersetzen musst. Es hat auch ziemlich viele Eigenschaften, was es zu einer guten Quelle für zufällige Pflanzen macht.%n%nCorium kann sich zu Creepergras züchten.
 
 # Quest: Milk of the Earth-Mother
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.name=Milk of the Earth-Mother
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.desc=Milkwart means you can get rid of all your cows. Isn't that nice?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.name=Milch der Mutter Erde
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.desc=Milchwarzen bedeutet, dass du alle deine Kühe loswerden kannst. Ist das nicht schön?
 
 # Quest: Better Put On That Rubber Suit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.name=Better Put On That Rubber Suit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.desc=Troll plant! What does it do? Troll you!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.name=Zieh Dir Besser Den Gummianzug An
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.desc=Trollpflanze! Was macht sie? Sie trollt dich!
 
 # Quest: Who the Hell is Bob?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.name=Who the Hell is Bob?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.desc=Want emeralds for trading or other uses? These are the source.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.name=Wer zur Hölle ist Bob?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.desc=Willst du Smaragde für den Handel oder andere Zwecke? Dies ist die Quelle.
 
 # Quest: And I Dub Thee Sir Knight
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnw.name=And I Dub Thee Sir Knight
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnw.desc=Need an infinite source of knightmetal? It will be a hard plant to grow. Make sure you provide plenty of nutrients, clean air, fertilizer and water. Don't cry to me if it dies. Any oreberry is a good source crop, with Cobalt and Ardite best, then iron and the rest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnw.name=Und Ich Taufe Dich Herr Ritter
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnw.desc=Brauchst du eine unendliche Quelle für Rittermetall? Es wird eine schwierige Pflanze zum Anbauen sein. Stelle sicher, dass du reichlich Nährstoffe, saubere Luft, Dünger und Wasser zur Verfügung stellst. Heul nicht bei mir, wenn sie stirbt. Jede Erzbeere ist eine gute Quellpflanze, wobei Kobalt und Ardite am besten sind, dann Eisen und der Rest.
 
 # Quest: Do You Taste Metal?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2A.name=Do You Taste Metal?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2A.desc=Metal oreberries are a great source of new seeds. You can breed some or buy some from the Coins shop. I need some Copper myself, so give me some berries please.%n%nMetal oreberries require a block of that metal to fully mature, but you can harvest a reduced amount before then. Pretty much everything else that needs a block can't be harvested before maturity though. Look at the seedbag to see what it wants. You can also go to the wiki for the exact blocks. Usually, you can use an ore or metal block for those that have them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2A.name=Schmeckst Du Metall?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2A.desc=Metall-Erzbeeren sind eine großartige Quelle für neue Samen. Du kannst entweder welche züchten oder sie im Münz-Shop kaufen. Ich selbst brauche etwas Kupfer, also gib mir bitte ein paar Beeren.%n%nMetall-Erzbeeren benötigen einen Block des jeweiligen Metalls, um vollständig zu reifen, aber du kannst schon vorher eine reduzierte Menge ernten. So ziemlich alles andere, was einen Block benötigt, kann jedoch nicht vor der Reife geerntet werden. Sieh in den Samenbeutel, um zu erfahren, was die Pflanze benötigt. Du kannst auch das Wiki für die genauen Blöcke besuchen. Normalerweise kannst du ein Erz oder einen Metallblock für diejenigen verwenden, die sie haben.
 
 # Quest: Deep Blue Sea of Sapphires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.name=Deep Blue Sea of Sapphires
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.desc=Sapphirum are pretty easy to get from Copper Oreberries. You'll need a block of Sapphire beneath them to get them to maturity. They are a good source of aluminium and oxygen in LV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.name=Tiefblaues Meer aus Saphiren
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.desc=Saphire sind ziemlich einfach aus Kupfer-Erzbeeren zu bekommen. Du wirst einen Saphir-Block darunter benötigen, damit sie reif werden. Sie sind eine gute Quelle für Aluminium und Sauerstoff in LV.
 
 # Quest: Red Touch Yellow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.name=Red Touch Yellow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.desc=Garnets are actually more valuable than Sapphires. They're an early source of Chrome and Manganese, which you'll need for HV machines. You can also centrifuge Pyrope, Almandine, and Spessartine Dust with Nitric Acid to obtain a variety of additional passive resources. To reach maturity, you will need a block of Garnet (either type) beneath this crop. You can get Garnets from the HV macerator and Spessartine Ore, or you can use an Implosion Compressor to turn Garnet Sands into crystals to make blocks.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.name=Rot Berührt Gelb
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.desc=Granate sind tatsächlich wertvoller als Saphire. Sie sind eine frühe Quelle für Chrom und Mangan, die du für HV-Maschinen benötigst. Du kannst auch Pyrop-, Almandin- und Spessartin-Staub mit Salpetersäure zentrifugieren, um eine Vielzahl von zusätzlichen passiven Ressourcen zu erhalten. Um die Reife zu erreichen, benötigst du einen Block Granat (egal welcher Art) unter dieser Pflanze. Du kannst Granate vom HV-Zerkleinerer und Spessartin-Erz erhalten, oder du kannst einen Implosionskompressor verwenden, um Granat-Sand in Kristalle zu verwandeln, um daraus Blöcke zu machen.
 
 # Quest: Moss
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.name=Moss
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.desc=Given up on looking for moss in the Twilight Forest? You can easily grow a crop that will give you the various mosses, perfect for your Tinker's tools. Start with a lilypad.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.name=Moos
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.desc=Hast du die Suche nach Moos im Dämmerwald aufgegeben? Du kannst ganz einfach eine Pflanze anbauen, die dir die verschiedenen Moose liefert – perfekt für deine Tinker-Werkzeuge. Fang am besten mit einem Seerosenblatt an.
 
 # Quest: Wax On, Wax Off
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.name=Wax On, Wax Off
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.desc=You can take vanilla tree saplings and place them directly on crop sticks. This will give you a "bonsai" tree. Bonsai trees will give you drops just like a tree, but without the wasted CPU of placing all the tree blocks just to chop them down again.%n%nThis can be significant overhead on a server, so if you want to be nice, breed some bonsai trees for your pyrolyze ovens. They also drop a ton and are fast, especially statted up, so there's no reason not to if you can automate them.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.name=Wachs Drauf, Wachs Runter
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.desc=Du kannst  Minecraft-Baumsetzlinge nehmen und sie direkt auf Anbaustäbe setzen. Das gibt dir einen „Bonsai“-Baum. Bonsai-Bäume geben dir die gleichen Erträge wie ein normaler Baum, aber ohne die verschwendete CPU-Leistung, die es kostet, all die Baumblöcke zu platzieren, nur um sie dann wieder abzuhacken.%n%nDas kann einen erheblichen Overhead auf einem Server verursachen. Wenn du also nett sein willst, züchte ein paar Bonsai-Bäume für deine Pyrolyseöfen. Sie bringen auch eine Menge Ertrag und sind schnell, besonders wenn ihre Stats hoch sind, es gibt also keinen Grund, es nicht zu tun, wenn du sie automatisieren kannst.
 
 # Quest: Pumpkin Pie
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhw.name=Pumpkin Pie
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhw.desc=Pumpkin Pie is a traditional US dessert that is particularly popular for Halloween, Thanksgiving, and Christmas.%n%n1,5 Food Bars for just two Pumpkins and a three sugar. Bon Appétit.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhw.name=Kürbiskuchen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhw.desc=Kürbiskuchen ist ein traditionelles US-Dessert, das besonders zu Halloween, Thanksgiving und Weihnachten beliebt ist.%n%n1,5 Nahrungsbalken für nur zwei Kürbisse und drei Zucker. Guten Appetit.
 
 # Quest: Even More Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.name=Even More Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.desc=There are seven more stats to worry about too.%n%n§7Fertilizer§r, §9Water§r, and [warn]Weed-EX[/warn] are all about how much of these is on the crop stick rather than the crop itself. They're all about how much was applied, and is left of that.%n%n§2Nutrients§r, §1Humidity§r, and §6Air Quality§r are all about the environment. They're also affected by the Fertilizer and Water stats.%n%nNutrients and Humidity are mostly about the right biome, with swamp and rainforest types (hot+humid) being the best, but you can also get some extra stats by setting up right.%n%n§2Nutrients§r:%n3 possible free points from dirt under the farmland block, 2 for plants that require a specific block. So optimally always make sure that the required block is at the bottommost bottom in the column, because it checks in chain, not certain height. For example: cropstick -> farmland -> dirt -> oreblock -> dirt, it will only register 1 dirt, ignoring the one below the oreblock.%n%n5-10 possible points from fertilizing your crops. You can use fertilizer on a crop to increase its nutrient stat. Fertilizer caps at 199 which gives 10 nutrients, but can be applied again only if the crop drops below 100 fertilizer points. So for high stat crops it's safe to assume and make tests for 100 fertilizer points as it's a given constant unlike 199->100 values. You can apply bonemeal, IC2 fertilizer and Forestry fertilizer to a crop by hand. Forestry manual orchard multifarm and crop matron does this automatically when supplied with fertilizer (the multifarm needs fertilizer to harvest crops as well).%n%n§1Humidity§r:%n2 free points from using dirt as farmland, as when farmland gets hydrated by water(turns darker) it gains 2 humidity points. This is why other blocks for this suck, since they don't give this bonus.%n%n10 possible points from hydrating your crop. Similar to fertilizing, water can be applied to crop up to 200 points, which is 10 humidity points, although unlike fertilizer it does not need to drop below value of 100, water can be applied over and over keeping it at constant 200 points. You can apply water to your crop by using IC2 hydration cells by hand, or let your Forestry manual orchard multifarm and crop matron do it automatically. The multifarm needs water to harvest crops as well though.%n%n§6Air Quality§r:%n4 potential free points from empty space around crop. A crop checks for empty spaces to calculate bonus air quality points, it gives up to 4 points, 1 point for each 2 empty spaces. It only counts full blocks or cropsticks though. If you like looks, you'll probably have to sacrifice this.%n%n4 free points from height of your farm. You get 1 free point every 15 blocks startng at Y79.%n79 - 1 point%n94 - 2 points%n109 - 3 points%n124 - 4 points%n%n2 free points from no opaque blocks above the crop. You can place glass above and you won't lose the bonus since it's a transparent block. You cannot use dark glass, several layers of water, or gaseous tenebrae to get around this if your crop likes the dark. Unless you only let it grow at night I guess.%n%n§aGrowability§r:%nYour crop will require a certain level of NHA, try to reach or surpass this, or the crop will either not grow, or even die (disappear). Each crop is different, and higher tiers (and stats) require more. It's generally easy to meet though, as long as you're in a good biome.%n%nGrowability is determined by the difference between what the crop needs in terms of NHA, and what it actually has. If you have more than what you need it grows faster. This is why you don't want a maxed resistance stat, since higher stats will slow it down.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.name=Noch Mehr Werte
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.desc=Jetzt gibt es noch sieben weitere Werte, um die du dich kümmern musst.%n%n§7Dünger§r, §9Wasser§r und [warn]Weed-EX[/warn] beziehen sich darauf, wie viel davon auf dem Anbaustab vorhanden ist, nicht auf der Pflanze selbst. Es geht nur darum, wie viel davon angewendet wurde und wie viel davon übrig ist.%n%n§2Nährstoffe§r, §1Feuchtigkeit§r und §6Luftqualität§r beziehen sich auf die Umgebung. Sie werden auch durch die Werte für Dünger und Wasser beeinflusst.%n%nNährstoffe und Feuchtigkeit hängen größtenteils vom richtigen Biom ab, wobei Sumpf- und Regenwald-Biome (heiß + feucht) die besten sind. Aber du kannst auch zusätzliche Werte erhalten, wenn du die richtigen Vorkehrungen triffst.%n%n§2Nährstoffe§r:%n3 mögliche freie Punkte von Erde unter dem Ackerlandblock, 2 für Pflanzen, die einen bestimmten Block benötigen. Sorge also optimalerweise immer dafür, dass der benötigte Block in der Spalte ganz unten ist, da er die Kette überprüft und nicht eine bestimmte Höhe. Beispiel: Anbaustab -> Ackerland -> Erde -> Erzblock -> Erde. Es wird nur 1 Erde registriert, die unter dem Erzblock wird ignoriert.%n%n5-10 mögliche Punkte durch Düngung deiner Pflanzen. Du kannst Dünger auf eine Pflanze auftragen, um ihren Nährstoffwert zu erhöhen. Der Dünger hat eine Obergrenze von 199, was 10 Nährstoffpunkte ergibt. Er kann aber nur erneut aufgetragen werden, wenn die Pflanze unter 100 Düngerpunkte fällt. Bei Pflanzen mit hohen Werten kann man also bedenkenlos von 100 Düngerpunkten ausgehen und Tests machen, da dies eine gegebene Konstante ist, im Gegensatz zu den Werten 199->100. Du kannst Knochenmehl, IC2-Dünger und Forestry-Dünger von Hand auf eine Pflanze auftragen. Die Forestry manuelle Obstgarten-Multifarm und der Pflanzenautomat machen dies automatisch, wenn sie mit Dünger versorgt werden (die Multifarm benötigt auch Dünger, um Pflanzen zu ernten).%n%n§1Feuchtigkeit§r:%n2 freie Punkte durch die Verwendung von Erde als Ackerland, da Ackerland, wenn es durch Wasser hydriert wird (dunkler wird), 2 Feuchtigkeitspunkte gewinnt. Deshalb sind andere Blöcke dafür nicht gut, da sie diesen Bonus nicht geben.%n%n10 mögliche Punkte durch die Hydratation deiner Pflanze. Ähnlich wie bei der Düngung kann Wasser bis zu 200 Punkte auf die Pflanze aufgetragen werden, was 10 Feuchtigkeitspunkte entspricht. Im Gegensatz zu Dünger muss der Wert aber nicht unter 100 fallen. Wasser kann immer wieder aufgetragen werden, sodass der Wert konstant bei 200 Punkten bleibt. Du kannst Wasser manuell mit IC2-Hydrationszellen auf deine Pflanze auftragen oder deine Forestry manuelle Obstgarten-Multifarm und der Pflanzenautomat es automatisch tun lassen. Die Multifarm benötigt jedoch auch Wasser, um Pflanzen zu ernten.%n%n§6Luftqualität§r:%n4 potenzielle freie Punkte durch leeren Raum um die Pflanze. Eine Pflanze überprüft leere Räume, um Bonus-Luftqualitätspunkte zu berechnen. Sie gibt bis zu 4 Punkte, 1 Punkt für jeweils 2 leere Räume. Dabei werden nur volle Blöcke oder Anbaustäbe gezählt. Wenn du Wert auf die Optik legst, musst du diesen Bonus wahrscheinlich opfern.%n%n4 freie Punkte durch die Höhe deiner Farm. Du erhältst 1 freien Punkt alle 15 Blöcke, beginnend bei Y79.%n79 - 1 Punkt%n94 - 2 Punkte%n109 - 3 Punkte%n124 - 4 Punkte%n%n2 freie Punkte, wenn keine undurchsichtigen Blöcke über der Pflanze sind. Du kannst Glas darüber platzieren und den Bonus nicht verlieren, da es ein transparenter Block ist. Du kannst kein dunkles Glas, mehrere Wasserschichten oder gasförmige Tenebrae verwenden, um dies zu umgehen, wenn deine Pflanze es dunkel mag. Es sei denn, du lässt sie nur nachts wachsen, schätze ich.%n%n§aWachstumsfähigkeit§r:%nDeine Pflanze benötigt ein bestimmtes Niveau an NHA. Versuche, dieses zu erreichen oder zu übertreffen, da die Pflanze sonst entweder nicht wächst oder sogar stirbt (verschwindet). Jede Pflanze ist anders, und höhere Stufen (und Werte) benötigen mehr. Im Allgemeinen ist es jedoch einfach, dies zu erfüllen, solange du in einem guten Biom bist.%n%nDie Wachstumsfähigkeit wird durch die Differenz zwischen dem, was die Pflanze an Umweltbedingungen benötigt, und dem, was sie tatsächlich hat, bestimmt. Wenn du mehr hast, als du benötigst, wächst sie schneller. Deshalb willst du keinen maximalen Resistenzwert, da höhere Werte sie verlangsamen.
 
 # Quest: Min-Maxing Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=Min-Maxing Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.desc=Breed stickreed until it's around 20/31/10, then create other crops with it, they inherit the stats. Crossbreeding with the ones you got on the way to raise their stats is also good.%n%nSet up camp in a swamp/jungle type biome around Y130, or use the biome changing methods to make one. This is way faster when breeding crops, not just growing them for drops.%n%nUse multifarms, always. You can use them together with the harvesters if you have super fast crops. Or just use more farms. Or add more gearboxes.%n%nDark glass is nice for oreberry crops.%n%nTo avoid weeding, checkerboard up and down on your multifarm. It may look stupid, but no weeds, Gr 23->31, and +2 AQ!%n%nUse fertilia to create more fertilizer.%n%nYou can replace mob farms with crops if you don't care about the other drops. Infernals drop special stuff though.%n%nUse WAs in TE mode to accelerate crops if you need it. Mostly useful for breeding, statting up, and for the primordial berry crop.%n%nAs you tier up, you can create 31/31/0 crops with the machines and UUM. It's up to you whether it's worth it though.%n%nGo do bees if you want something higher than EV tier materials.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=Min-Maxen von Pflanzen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.desc=Züchte Stiel-Schilf, bis es ungefähr 20/31/10 hat, und erschaffe dann damit andere Pflanzen, da sie diese Werte erben. Es ist auch gut, sie mit den Pflanzen zu kreuzen, die du dabei erhältst, um deren Werte zu steigern.%n%nSchlage dein Lager in einem Sumpf-/Dschungel-Biom um Y130 auf oder nutze Methoden zur Biomanpassung, um eins zu erstellen. Dies ist viel schneller beim Züchten von Pflanzen, nicht nur beim Anbauen für Erträge.%n%nBenutze immer Multifarmen. Du kannst sie zusammen mit den Erntemaschinen verwenden, wenn du superschnelle Pflanzen hast. Oder benutze einfach mehr Farmen. Oder füge mehr Getriebe hinzu.%n%nDunkles Glas ist gut für Erzbeeren-Pflanzen.%n%nUm Unkraut zu vermeiden, baue deine Multifarm in einem Schachbrettmuster nach oben und unten. Es mag dumm aussehen, aber es gibt kein Unkraut, Wachstum 23->31, und +2 Luftqualität!%n%nVerwende Fertilia, um mehr Dünger herzustellen.%n%nDu kannst Mob-Farmen durch Pflanzen ersetzen, wenn dir die anderen Erträge egal sind. Höllische Mobs lassen jedoch spezielle Sachen fallen.%n%nVerwende WBs im TE-Modus, um Pflanzen zu beschleunigen, wenn du es brauchst. Dies ist hauptsächlich nützlich für die Züchtung, das Steigern der Werte und für die Urbeeren-Pflanze.%n%nWenn du in der Stufe aufsteigst, kannst du mit den Maschinen und UUM 31/31/0 Pflanzen erschaffen. Es liegt an dir, ob sich das lohnt.%n%nBeschäftige dich mit Bienen, wenn du Materialien über der EV-Stufe haben willst.
 
 # Quest: Barley Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpQ.name=Barley Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpQ.desc=It's time to plant some barley to make some bread. If you can't find wheat, barley is a good alternative source to make flour.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpQ.name=Gerstenzeit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpQ.desc=Es ist Zeit, Gerste zu pflanzen, um Brot zu machen. Wenn du keinen Weizen findest, ist Gerste eine gute alternative Quelle, um Mehl herzustellen.
 
 # Quest: Genetically Modifying Your Plants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.name=Genetically Modifying Your Plants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.desc=There are 3 machines crucial to doing this. You'll also need bucketloads of power, and the same (literally) of UUM.%n%nAll 3 can only work on crops up to a certain tier, determined by the tier of the machine you made and the crop you're working with. Basically, it's (crop tier+2)/2, rounded up. So an LV machine can work on T1 crops, but an MV one can work on T3.%n%n[note]LV=T1, MV=T3, HV=T5, EV=T7, IV=T9, LuV=T11, ZPM=T13, UV=T15, UHV=T17.[/note]%n%nFirst is the Crop Gene Extractor:%nIt takes an existing crop seedbag, an empty §2Data Orb§r (See EV quests), and §61A§r while running. Use a circuit to determine what stat to copy to the Data Orb. You'll probably want either 23-31-0, or 31-31-0 for max speed and output, since you won't be breeding from these. Remember to take proper precautions if going over 23, as they will attempt to weed everything around them. There's a significant number of crops, so you'll probably need a ton of Orbs too, unless you want to reuse them. [warn]Remember to keep a Data Orb or seedbag backup![/warn]%n%nSecond is the Crop Synthesizer:%nIt takes §24 Data Orbs§r, one for each of the types from the CGE, §51000L of UUM per crop tier/2§r (this is not rounded), and §616A§r while running. It will create a new crop seedbag with the desired stats.%n%nLastly is the Crop Replicator:%nIt takes an existing crop seedbag, §51000L per crop tier of UUM§r, and §66A§r while running. After finishing, it gives you back two of the same seedbag, duplicating it. This takes twice as much UUM, but less power, it's up to you whether that's worth it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.name=Genetisches Modifizieren Deiner Pflanzen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.desc=Um das zu tun, sind drei Maschinen entscheidend. Du wirst massenhaft Energie und buchstäblich genauso viel UUM benötigen.%n%nAlle drei können nur mit Pflanzen bis zu einer bestimmten Stufe arbeiten, die durch die Stufe der Maschine, die du hergestellt hast, und die Pflanze, mit der du arbeitest, bestimmt wird. Im Grunde ist es (Pflanzenstufe+2)/2, aufgerundet. Eine LV-Maschine kann also mit S1-Pflanzen arbeiten, eine MV-Maschine jedoch mit S3.%n%n[note]LV=S1, MV=S3, HV=S5, EV=S7, IV=S9, LuV=S11, ZPM=S13, UV=S15, UHV=S17.[/note]%n%nZuerst kommt der Pflanzengen-Extraktor:%nEr benötigt einen vorhandenen Pflanzen-Samenbeutel, eine leere §2Datenkugel§r (siehe EV-Quests) und §61A§r während des Betriebs. Verwende einen Schaltkreis, um festzulegen, welcher Wert auf die Datenkugel kopiert werden soll. Du wirst wahrscheinlich entweder 23-31-0 oder 31-31-0 für maximale Geschwindigkeit und Ertrag verwenden wollen, da du mit diesen nicht züchten wirst. Denke daran, die richtigen Vorsichtsmaßnahmen zu treffen, wenn du über 23 gehst, da sie versuchen werden, alles um sie herum zu verunkrauten. Es gibt eine beträchtliche Anzahl von Pflanzen, also wirst du wahrscheinlich auch eine Menge Kugeln benötigen, es sei denn, du möchtest sie wiederverwenden. [warn]Denke daran, eine Sicherung deiner Datenkugel oder deines Samenbeutels zu erstellen![/warn]%n%nAls Nächstes kommt der Pflanzen-Synthetisierer:%nEr benötigt §24 Datenkugeln§r, eine für jeden der Typen aus dem Pflanzengen-Extraktor, §51000L UUM pro Pflanzenstufe/2§r (dies wird nicht gerundet) und §616A§r während des Betriebs. Er wird einen neuen Pflanzen-Samenbeutel mit den gewünschten Werten erstellen.%n%nZuletzt ist der Pflanzenreplikator:%nEr benötigt einen vorhandenen Pflanzen-Samenbeutel, §51000L UUM pro Pflanzenstufe§r und §66A§r während des Betriebs. Nachdem er fertig ist, gibt er dir zwei der gleichen Samenbeutel zurück, indem er ihn dupliziert. Das verbraucht doppelt so viel UUM, aber weniger Energie. Es liegt an dir, ob sich das lohnt.
 
 # Quest: Cooking for Blockheads
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALTw.name=Cooking for Blockheads
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALTw.desc=Say thanks to mitch for backporting this great mod. You can use it to help you craft new food items. All blocks connected to the kitchen floor (use it as walls too!) are considered part of the same multiblock. Countertops will search up two blocks for cabinets to include.%n%nItems stored in storages like the cabinet (or your inventory) can be used in recipes. All storage spaces for items are the same, so don't bother making a ton of fridges unless you really want to. Supply water to the sink to get water for recipes.%n%nYou can store some cooking tools in the oven. You can store the rest on tool racks to auto-use them all in recipes. This includes stuff like the GT soft mallet if you can't make all the Pam's tools yet.%n%nThe oven has 3 input slots and 3 output slots, and can work on 9 items at once. It's basically a furnace. You can request items be cooked from the cooking table too.%n%nThe Cooking Table will automatically show you all recipes that can be created with the existing ingredients, and you can click on them to craft them. Make all the food, and get all the hearts!%n%nYou can use dye to color the kitchen, except for the oven.%n%nNote that the implementation is not finished, so there are some problems. Upgrades like powering the oven with RF/EU are not in yet. And so on. But we finally have a toaster so you can make TOAST!%n%nPlease report any bugs/problems to the CFB-specific GTNH issue tracker at [url]https://github.com/GTNewHorizons/CookingForBlockheads/issues[/url]%n%n[note]There is no cow in a jar, it will not come back.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALTw.desc=Sage "Danke" zu Mitch für das Zurückportieren dieser großartigen Mods. Du kannst ihn verwenden, um neue Lebensmittel herzustellen. Alle Blöcke, die mit dem Küchenboden verbunden sind (benutze ihn auch als Wände!), gelten als Teil desselben Multiblocks. Arbeitsplatten suchen bis zu zwei Blöcke nach oben, um Schränke einzubeziehen.%n%nGegenstände, die in Speichern wie dem Schrank (oder deinem Inventar) gelagert werden, können in Rezepten verwendet werden. Alle Speicherplätze für Gegenstände sind gleich, also gib dir keine Mühe, tonnenweise Kühlschränke zu bauen, es sei denn, du willst es wirklich. Versorge die Spüle mit Wasser, um Wasser für Rezepte zu erhalten.%n%nDu kannst einige Kochwerkzeuge im Ofen aufbewahren. Den Rest kannst du in Werkzeughaltern lagern, um sie automatisch in Rezepten zu verwenden. Dies beinhaltet auch Dinge wie den GT-Gummihammer, falls du noch nicht alle Pam's-Werkzeuge herstellen kannst.%n%nDer Ofen hat 3 Eingabe- und 3 Ausgabeplätze und kann an 9 Gegenständen gleichzeitig arbeiten. Er ist im Grunde ein Ofen. Du kannst auch vom Kochtisch aus verlangen, dass Gegenstände gekocht werden.%n%nDer Kochtisch zeigt dir automatisch alle Rezepte an, die mit den vorhandenen Zutaten hergestellt werden können, und du kannst darauf klicken, um sie herzustellen. Mache all das Essen und erhalte alle Herzen!%n%nDu kannst Farbstoff verwenden, um die Küche einzufärben, außer den Ofen.%n%nBeachte, dass die Implementierung noch nicht abgeschlossen ist, es gibt also einige Probleme. Verbesserungen wie die Versorgung des Ofens mit RF/EU sind noch nicht enthalten. Und so weiter. Aber wir haben endlich einen Toaster, damit du TOAST machen kannst!%n%nBitte melde alle Bugs/Probleme an den CFB-spezifischen GTNH-Issue-Tracker unter [url]https://github.com/GTNewHorizons/CookingForBlockheads/issues[/url]%n%n[note]Es gibt keine Kuh im Glas, sie wird nicht zurückkommen.[/note]
 
 # Quest: Crispy Rotten Flesh
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.name=Crispy Rotten Flesh
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.desc=Rotten Flesh is not really healthy. It doesn't satisfy your hunger. What if you try to dry?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.name=Knuspriges Verrottetes Fleisch
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.desc=Verrottetes Fleisch ist nicht wirklich gesund. Es stillt deinen Hunger nicht. Was, wenn du versuchst, es zu trocknen?
 
 # Quest: Never Hungry Again
 betterquesting.quest.hvukogcPRX-hht60vc0Zgw.name=Never Hungry Again
@@ -4972,8 +4972,8 @@ betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.desc=Given sufficient magical prowes
 
 
 ## Quest Line: Getting Around...
-betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.name=Getting Around...
-betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.desc=Movement can be slow initially. But with some technology or magic, that is easily overcome!
+betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.name=Fortbewegung...
+betterquesting.questline.bAal8kZ3R8eRTwaHgbYkKA.desc=Anfangs kann Bewegung langsam sein. Aber mit etwas Technologie oder Magie ist das leicht zu überwinden!
 
 # Quest: Indestructible Vessel
 betterquesting.quest.-MexGhcYQ0OUrr5xgriDXQ.name=Indestructible Vessel
@@ -4984,36 +4984,36 @@ betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.name=Basic Flight Potion
 betterquesting.quest.4LY2S8QsSw-JdMGrF8FUsQ.desc=Tired of jetpacks? Want normal flight with no strings attached? Look no further!%n%nUsing your brand new MV Assembler and a Chicken Trophy, you can craft a basic Potion of Flight from Blood Magic, giving you 7 minutes of Creative flight with 8 uses before you have to make a new one.%n%n[note]Chicken Trophies are a rare drop from killing chickens.[/note]%n%n[note]Once you unlock Blood Magic, you can craft your own Flight Potion Flasks with a duration of up to 19 minutes, and refill them with any Filling Agent and Blood Orb in an Alchemic Chemistry set.[/note]%n
 
 # Quest: Relocator
-betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.name=Relocator
-betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.desc=The relocator allows for teleportation to previously marked locations, even between dimensions.%n%n[note]Uses quite a lot of power so a GraviChestPlate or other energy sources are recommended.[/note]
+betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.name=Relokierer
+betterquesting.quest.8QSORTVOSOaUXC6mQurMgA.desc=Der Relokierer ermöglicht die Teleportation zu zuvor markierten Orten, sogar zwischen Dimensionen.%n%n[note]Verbraucht ziemlich viel Energie, daher werden ein Gravi-Brustplatte oder andere Energiequellen empfohlen.[/note]
 
 # Quest: The Power of Endermen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.name=The Power of Endermen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.desc=Elevators are nice, but they're limited to vertical teleportation, and their range is also highly limited. Travel anchors don't have a limitation on angle, you can teleport from one anchor to any other within 128 blocks. You do this by looking at the anchor you wish to travel to and pressing the shift button. You can also name them and even set them as private if you like. They have a 2s cooldown.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.name=Die Kraft der Endermen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAhQ.desc=Aufzüge sind schön, aber sie sind auf vertikale Teleportation beschränkt und ihre Reichweite ist ebenfalls stark begrenzt. Reiseanker haben keine Winkelbegrenzung; du kannst dich von einem Anker zu jedem anderen innerhalb von 128 Blöcken teleportieren. Dazu schaust du auf den Anker, zu dem du reisen möchtest, und drückst die Umschalttaste. Du kannst ihnen auch Namen geben und sie sogar privat machen, wenn du möchtest. Sie haben eine Abklingzeit von 2 Sekunden.
 
 # Quest: Glider Wings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAChQ.name=Glider Wings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAChQ.desc=If for some reason you want to be able to jump down a cliff without getting the message "Player X fell from a high place", a great idea would be to find a way to slow your fall. The store was out of feather falling potions, so make a hang glider instead.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAChQ.name=Gleiterflügel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAChQ.desc=Wenn du aus irgendeinem Grund eine Klippe hinunterspringen möchtest, ohne die Nachricht "Spieler X ist von einem hohen Ort gefallen" zu erhalten, wäre es eine gute Idee, einen Weg zu finden, deinen Fall zu verlangsamen. Der Laden hatte keine Sanfter Fall-Tränke mehr, also mach stattdessen einen Hängegleiter.
 
 # Quest: Electrotine Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAChw.name=Electrotine Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAChw.desc=Your glider gets you to the ground safely but it does not have any method to get up. After you researched electrotine you discovered that it is powerful enough for your first jetpack.%n%nA diamond chestplate surrounded with 4 electrotine batteries is powerful enough to bring you up into the air.%n%nIt does not have a hover mode so you better take your glider with you.%n%nHint: This jetpack can't fly higher than Y-128.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAChw.name=Elektrotin-Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAChw.desc=Dein Gleiter bringt dich sicher auf den Boden, aber er hat keine Möglichkeit, dich wieder nach oben zu bringen. Nachdem du Elektrotin erforscht hast, hast du entdeckt, dass es stark genug für dein erstes Jetpack ist.%n%nEine Diamant-Brustplatte, umgeben von 4 Elektrotin-Batterien, ist stark genug, um dich in die Luft zu bringen.%n%nEs hat keinen Schwebemodus, also nimm besser deinen Gleiter mit.%n%nHinweis: Dieses Jetpack kann nicht höher als Y-128 fliegen.
 
 # Quest: Refill Your Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiA.name=Refill Your Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiA.desc=GREAT.... you now have an empty jetpack. You need 25 electrotine dust to completely fill it. Let's craft an electrotine generator and a charging bench to use the power of electrotine.%n%nYou will very quickly discover that, while it is fast and cheap, it's empty in the blink of an eye. Despite this, it is useful in combination with the hang glider to get into the air and to get away from hairy situations.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiA.name=Dein Jetpack Nachfüllen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiA.desc=TOLL.... du hast jetzt ein leeres Jetpack. Du brauchst 25 Elektrotin-Staub, um es vollständig zu füllen. Lass uns einen Elektrotin-Generator und eine Ladebank herstellen, um die Kraft des Elektrotins zu nutzen.%n%nDu wirst sehr schnell feststellen, dass es zwar schnell und günstig ist, aber im Handumdrehen leer. Trotzdem ist es nützlich in Kombination mit dem Hängegleiter, um in die Luft zu kommen und aus brenzligen Situationen zu entkommen.
 
 # Quest: Coal Steam Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiQ.name=Coal Steam Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiQ.desc=Your coal jetpack needs coal and water to produce steam. After a short warm-up period you can go and take it for a ride. Keep in mind you will need your glider to make a soft landing.%n%nPut your jetpack on your back and hit Shift and the adventure backpack's action-key to start it.%n%nMax flying height for this jetpack is Y-185.%n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiQ.name=Kohledampf-Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiQ.desc=Dein Kohle-Jetpack benötigt Kohle und Wasser, um Dampf zu erzeugen. Nach einer kurzen Aufwärmphase kannst du es für einen Flug nutzen. Denk daran, dass du deinen Gleiter brauchst, um sanft zu landen.%n%nSetze dein Jetpack auf deinen Rücken und drücke Umschalt und die Aktionstaste des Abenteuer-Rucksacks, um es zu starten.%n%nDie maximale Flughöhe für dieses Jetpack ist Y-185.%n%nDie vertikale Geschwindigkeit nimmt linear mit der Höhe ab, nachdem die optimale Höhe überwunden wurde – 135 für das Jetpack und 100 für den Helikopter.
 
 # Quest: Copterpack, More 'Hover' than 'Jet'
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACig.name=Copterpack, More 'Hover' than 'Jet'
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACig.desc=The copterpack is the first jetpack with a hover mode. It uses several different types of fuels to power it.%n%nBuckets of creosote, lava, oil, diesel, cetane, ethanol, and fuel will work.%n%nEquip your jetpack and hit Shift and the adventure backpack's action-key. You can also switch between hover and normal mode.%n%nMax flying height is limited to Y-200.%n%nVertical velocity decreases linearly with height after overcoming optimal height - 135 for jetpack and 100 for copter.%n%n[note]Dropped items will be pushed away from you, just like a helicopter pushes things away, so be careful in the End, or by cliffsides.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACig.name=Helikopterrucksack, mehr 'Gleiter' als 'Jet'
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACig.desc=Der Helikopterrucksack ist das erste Jetpack mit einem Schwebemodus. Es verwendet verschiedene Brennstoffe, um sich anzutreiben.%n%nEimer mit Kreosot, Lava, Öl, Diesel, Cetan, Ethanol und normalem Treibstoff funktionieren.%n%nLege dein Jetpack an und drücke Shift und die Aktionstaste des Abenteuer-Rucksacks. Du kannst auch zwischen Schwebe- und Normalmodus wechseln.%n%nDie maximale Flughöhe ist auf Y-200 begrenzt.%n%nDie vertikale Geschwindigkeit nimmt linear mit der Höhe ab, nachdem die optimale Höhe überwunden wurde – 135 für das Jetpack und 100 für den Helikopter.%n%n[note]Gegenstände, die du fallen lässt, werden von dir weggedrückt, genau wie ein Hubschrauber Dinge wegstößt. Sei also vorsichtig im End oder an Klippenrändern.[/note]
 
 # Quest: Electric Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.name=Electric Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.desc=Your first electrical jetpack, It can be charged in any LV machine. You need to hit the IC2 mode-switch key to toggle between normal mode and hover mode while holding down the jump key. When descending, remember to shut off hover mode or else you'll drain your jetpack.%n%nThe only limitation is that you can't fly higher than Y-185.%n%nFor charging on the go, you can craft a charging crystal from ic2 charging components. You have to take the backpack out of the armor slot and put it in your hotbar and activate the charger by sneak-clicking. %n%nFinally, the GT++ wireless charger will charge everything in your inventory, including the jetpack, from your base at long ranges. A quest is unlocked once you finish your nanosuit. Just remember when you are off world or in the Nether that your jetpack isn't charging!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.name=Elektrisches Jetpack
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.desc=Dein erstes elektrisches Jetpack! Es kann in jeder LV-Maschine aufgeladen werden. Du musst die IC2-Modus-Wechseltaste drücken, um zwischen Normalmodus und Schwebemodus zu wechseln, während du die Sprungtaste gedrückt hältst. Beim Abstieg solltest du daran denken, den Schwebemodus auszuschalten, da du sonst dein Jetpack entleerst.%n%nDie einzige Einschränkung ist, dass du nicht höher als Y-185 fliegen kannst.%n%nUm unterwegs aufzuladen, kannst du einen Ladekristall aus IC2-Ladekomponenten herstellen. Du musst den Rucksack aus dem Rüstungsplatz nehmen und in deine Hotbar legen und das Ladegerät durch Schleich-Klicken aktivieren.%n%nSchließlich lädt der GT++-Kabellose Lader alles in deinem Inventar, einschließlich des Jetpacks, von deiner Basis aus über große Entfernungen auf. Ein Quest wird freigeschaltet, sobald du deinen Nanoanzug fertiggestellt hast. Denk nur daran, dass dein Jetpack nicht lädt, wenn du nicht in deiner Welt oder im Nether bist!
 
 # Quest: Fueled Jetpack
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.name=Fueled Jetpack
@@ -5220,12 +5220,12 @@ betterquesting.quest.aXAQD7T1SnGCAu0L4iV64w.name=Speed up with the Sash
 betterquesting.quest.aXAQD7T1SnGCAu0L4iV64w.desc=The Sashes from Botania improves your speed passively along with a jump boost and provide Step assist all while fitting in your belt slot, how convenient is that?%n%nYou will need a method of powering them with either the mana tablet or the mana mirror linked to a pool.%n%nThe Soujorner Sash provides the basic speed boost, jump boost and step assist while the Globetrotter provides double the jump height and speed boost.%n%nThe Planestrider is special since it provides a slowly increasing speed boost as long as you are moving. You can even reach up to 11 times the Soujorner Sash speed boost!%n%n[note]You only need to make one Sash to complete the quest.[/note]
 
 # Quest: Alternative to blasting off!?
-betterquesting.quest.iWmU5h_ZSPqAcObmxgW5bw.name=Alternative to blasting off!?
-betterquesting.quest.iWmU5h_ZSPqAcObmxgW5bw.desc=Are you sick and tired of using the rocket to blast off every time and want an alternative and faster method? The Enderio Telepad is a 3x3x1 structure that when powered with RF will teleport the player to a set coordinate.%n%nTo set the Coordinate you will need a Coordinate selector tool to mark an area by shift-right-clicking to mark. Then shift-right-click the middle of the Enderio Telepad pad to set the desired location.%n%nThen stand on the pad and click teleport to be sent in style.
+betterquesting.quest.iWmU5h_ZSPqAcObmxgW5bw.name=Alternative zum Abheben!?
+betterquesting.quest.iWmU5h_ZSPqAcObmxgW5bw.desc=Bist du es leid, jedes Mal die Rakete zum Abheben zu benutzen, und willst eine alternative und schnellere Methode? Das Enderio Telepad ist eine 3x3x1-Struktur, die, wenn sie mit RF betrieben wird, den Spieler zu einer festgelegten Koordinate teleportiert.%n%nUm die Koordinate festzulegen, benötigst du ein Koordinaten-Auswahlwerkzeug, um einen Bereich durch Umschalt-Rechtsklick zu markieren. Dann klicke mit Umschalt-Rechtsklick auf die Mitte der Enderio Telepad-Platte, um den gewünschten Ort festzulegen.%n%nDann stelle dich auf die Platte und klicke auf "Teleportieren", um stilvoll verschickt zu werden.
 
 # Quest: Teleporter
 betterquesting.quest.tJdwTeS6TOOFACQhNuUvEw.name=Teleporter
-betterquesting.quest.tJdwTeS6TOOFACQhNuUvEw.desc=The IndustrialCraft2 Teleporter allows for teleportation between 2 connected teleporters.%nIt requires energy storing block right next to it due to the massive power demand.%n%n[note]The energy required is determined by the distance between the teleporters and amount of items in the inventory.[/note]%n%n[note]The teleporter is quite buggy according to the official wiki.[/note]
+betterquesting.quest.tJdwTeS6TOOFACQhNuUvEw.desc=Der IndustrialCraft2 Teleporter ermöglicht die Teleportation zwischen zwei verbundenen Teleportern.%nEr benötigt einen Energie-Speicherblock direkt daneben, aufgrund des massiven Energiebedarfs.%n%n[warn]Die benötigte Energie wird durch die Entfernung zwischen den Teleportern und die Anzahl der Gegenstände im Inventar bestimmt.[/warn]%n%n[note]Der Teleporter ist laut dem offiziellen Wiki ziemlich verbuggt.[/note]
 
 
 ## Quest Line: ...Without Dying
@@ -6648,10 +6648,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...go round and round, all the 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.name=Dancing in circles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.desc=Spinning around, getting hot - sounds like a dance. Or a thermal centrifuge. Build a large thermal refinery to get the most out of your ores.%n%nYou can use Noise Hazard Signs instead of Thermal Processing Casings, as long as you have at least 8 Thermal Processing Casings.%n%nThe muffler goes on the bottom layer.
 
-# Quest: Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-A.name=Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-A.desc=Swimming in logs? Turn those logs into clean burning charcoal! The Industrial Coke Oven is a 3x3x3 multiblock that runs much faster than those gigangic Pyrolyse Ovens. With one of these, you can replace several of those, since it does up to 24x parallels.%n%nYou'll be able to effectively retire the Pyros from now on, unless there's some very fast recipe that they can keep up with. To turn Wood into Charcoal, for example, this ICO can keep up with an entire farm as long as you provide it enough Nitrogen for the job!
-
 # Quest: I think I'm going to be sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=I think I'm going to be sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=The Industrial Centrifuge is the solution to those thousands of ore you'll get with the multiblock ore drill.
@@ -6774,7 +6770,7 @@ betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=Why use fancy wiring and circui
 
 # Quest: Steam Fusing?
 betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=Steam Fusing?
-betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed. %n(Check out the tooltip for more info!)%n%n[note]Will only process up to LV tier recipes[/note]
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=Singleblock Alloy Smelters not fast enough for you? Look no further than the Steam Fuser. This will make light work of your alloy smelter tasks at a fraction of the steam cost and a much faster speed. %n(Check out the tooltip for more info!)%n%nWhile the NEI requirements show borosilicate glass, you can substitute any HV tier glass in it's place like warded glass, quite clear glass, or fused quartz. If you end up using borosilicate; boron can be obtained from electrolyzing borax.%n%n[note]Will only process up to LV tier recipes[/note]
 
 # Quest: Taking Things Apart
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=Taking Things Apart
@@ -7967,10 +7963,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMNw.desc=Having moved another tier, you 
 # Quest: CBD Into Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOA.name=CBD Into Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOA.desc=There are no more Diesel-related upgrades for the CBD. To continue using Combustion Generators, or the LCE, you can only make your setup bigger or upgrade energy hatches. There is, however, a more power-dense fuel that uses CBD in its recipe, but there's a catch: it's a solid fuel, to be used in steam boilers, which gives it advantages and disadvantages.%n%nEverything from this quest onwards is about those solid fuels. There are two versions, one with additional inputs over the other, and they both follow the same logic: they need to be converted to Steam, which is hard to transport, convert into EU and basically require the EV and IV Large Steam Boilers. However, the combination of these fuels and those boilers is much, much more fuel efficient than before, if you are willing to face the additional challenges in this kind of setup.%n%nHow does it generally go? If you already have CBD, you can get power from it by putting it directly in Combustion Generators. In this line, though, you need to automate Fuel Binder, add blocks of Charcoal, Coal or Coal Coke and then put the Super Fuel in a Titanium or Tungstensteel Large Boiler, where you get Superheated Steam. After that, you need an HP Steam Turbine multi, followed by a regular Steam Turbine multi, and the setup is complete.%n%nIf you want to continue, then you'll need at least one Titanium Large Boiler. Build one.
-
-# Quest: Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!%n%nWhat does it do? It's in the name, it's a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs both Titanium and Tungsten, although only a small amount of the latter. You can get that much from processing End Stone Dust, Ender Goo or Moon Dust.%n%nYou can also choose between two types of casings. One of them does 12x parallels and the other does 24x parallels, which means the multi can do that amount of recipes at the same time per craft, if it receives enough power to do so. Since they're both quite cheap, you should use the better casings.
 
 # Quest: Mass Distilled Water
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOg.name=Mass Distilled Water
@@ -12252,7 +12244,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnA.desc=The infusion altar will allow y
 
 # Quest: Terrasteel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.name=Terrasteel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.desc=To get some advanced tools and equipment you will need some terrasteel. This is done using a dedicated machine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.desc=To get some advanced tools and equipment you will need some terrasteel. This is done using a dedicated machine.%n%nYou'll need to layout the blocks underneath the plate as described in the Lexica Botania. Then place a spark on top of the plate nearby a mana pool with a large stockpile of mana. Lastly you'll place a mana diamond, mana pearl, and mana steel onto the plate to begin the transformation.
 
 # Quest: Alfheim
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMng.name=Alfheim
@@ -14605,6 +14597,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.desc=Learning more about the world a
 # Quest: Precise Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.name=Precise Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.desc=Precise Assembler has two modes: Precise mode and Normal mode.%n%nPrecise mode is used to make some of the advanced components from Good Generator mod.%n%n[note]As name suggests your current casings lack precision to produce these advanced components.%nYou will need at least MK-1 casings for this mode to work.[/note]%n%nNormal mode works as multiblock version of Assembler.%n%n[note]You can't skip tiers with this. You need singleblock Assembler or GT++ multi to make your first Energy Hatch, then you can use it for Precise Assembler.[/note]
+
+# Quest: Industrial Coke Oven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=Industrial Coke Oven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=Your EV endeavors might push you into a GT++ multiblock, despite most of those being IV-tier. This happens because the special alloys used to put them together need to be crafted in an Alloy Blast Smelter, which is IV, but the Industrial Coke Oven (ICO) does not!%n%nWhat does it do? It's in the name, it's a really fast Coke Oven. So fast, in fact, that it can replace a few dozen Pyrolyse Ovens. It actually takes its recipes from that multi, so you also get the additional fluid, such as Charcoal Byproducts, alongside the greatly increased processing speed. The caveat is that this multi needs Titanium, Platinum, and a little bit of Tungsten. You can get unprocessed Platinum from Nickel or Meteoric Iron & you can get Tungsten from processing End Stone Dust, Ender Goo or Moon Dust.%n%nIn EV you'll have to stick to the heat resistant casing, which offers 18 parallels. When you unlock HSS-S in IV however you can upgrade to the heat proof casings for an upgrade to 30 parallels.
 
 # Quest: Bet On The Distillus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.name=Bet On The Distillus
