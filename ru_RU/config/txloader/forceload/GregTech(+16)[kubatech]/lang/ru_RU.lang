@@ -37,6 +37,7 @@ GT5U.gui.text.EIG_seedOverflow=Внутри слишком много семян
 GT5U.gui.text.EIG_missingwater=Нет воды!
 GT5U.gui.text.EIG_ic2glass=Недостаточный тир стекла!
 
+## General
 kubatech.gui.text.configuration=Настройки
 
 kubatech.gui.text.tea_ultimate.status=СТАТУС
@@ -53,11 +54,22 @@ kubatech.gui.text.tea_acceptor.not_owner=Это не твой блок
 kubatech.gui.text.tea_acceptor.in=Ввод: %s/t
 kubatech.gui.text.tea_acceptor.in.tooltip=Средний ввод за последние 5 секунд
 
-kubatech.gui.text.eec.infernal_drop=Разрешено спавнить инфернальных мобов
-kubatech.gui.text.eec.infernal_drop.always=Не действует на мобов, которые всегда инфернальные!
-kubatech.gui.text.eec.void_all_damaged=Уничтожает все повреждённые и зачарованные предметы
-kubatech.gui.text.eec.void_all_damaged.warning=Does not affect infernal drops and some special drops like Sticky Sword!
-kubatech.gui.tooltip.eec.ritual_mode=Режим ритуала
+kubatech.gui.text.eec.preserve_weapon_on=Сохранение оружия: ВКЛ
+kubatech.gui.text.eec.preserve_weapon_off=Сохранение оружия: ВЫКЛ
+kubatech.gui.text.eec.preserve_weapon_warning=Not using GUI weapon.
+kubatech.gui.text.eec.cycle_weapons_on=Weapon Cycling: ON
+kubatech.gui.text.eec.cycle_weapons_off=Weapon Cycling: OFF
+kubatech.gui.text.eec.cycle_weapons.info=If §fWeapon Preservation§r is enabled, moves almost broken weapons from the GUI to Output Buses, if there's space.
+kubatech.gui.text.eec.void_all_damaged_on=Уничтожать повреждённые и зачарованные предметы: ВКЛ
+kubatech.gui.text.eec.void_all_damaged_off=Уничтожать повреждённые и зачарованные предметы: ВЫКЛ
+kubatech.gui.text.eec.void_all_damaged.warning=Does not affect infernal drops and some special drops like the Sticky Sword! Will never void the weapon in the GUI slot.
+kubatech.gui.text.eec.infernal_drop_on=Разрешить спавн инферналов: ВКЛ
+kubatech.gui.text.eec.infernal_drop_off=Разрешить спавн инферналов: ВЫКЛ
+kubatech.gui.text.eec.infernal_drop_always=Не действует на мобов, которые всегда инфернальные!
+kubatech.gui.text.eec.ritual_mode_on=Режим ритуала: ВКЛ
+kubatech.gui.text.eec.ritual_mode_off=Режим ритуала: ВЫКЛ
+kubatech.gui.text.eec.ritual_mode_connected=Подключён к ритуалу.
+kubatech.gui.text.eec.ritual_mode_error=Не могу подключиться к ритуалу!
 
 kubatech.gui.text.inventory=Инвентарь
 kubatech.gui.text.status=Статус
@@ -79,6 +91,16 @@ kubatech.gui.tooltip.dynamic_inventory.empty_slot=Пустой слот
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=Оставшиеся виды семян: %d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=Remaining seed capacity: %d
 
+#Chat Messages
+kubatech.chat.forbidden_while_running=Нельзя изменить режим во время работы!
+
+kubatech.chat.eec.ritual_mode_enabled=Режим ритуала включён
+kubatech.chat.eec.ritual_mode_disabled=Режим ритуала отключен
+kubatech.chat.eec.ritual_mode_connected=Успешно подключён к ритуалу
+kubatech.chat.eec.ritual_mode_error=Не могу подключиться к ритуалу!
+kubatech.chat.eec.infernal_drops_enabled=Mobs can spawn infernal
+kubatech.chat.eec.infernal_drops_disabled=Mobs will be prevented from spawning infernal
+
 # info data
 ## general
 kubatech.infodata.running_mode=Работает в режиме:
@@ -96,13 +118,17 @@ kubatech.infodata.eec.in_ritual_mode.yes=Находится в режим рит
 kubatech.infodata.eec.in_ritual_mode.no=Находится в режим ритуала: §eНет
 kubatech.infodata.eec.connected_to_ritual.yes=Связан с ритуалом: §aДа
 kubatech.infodata.eec.connected_to_ritual.no=Связан с ритуалом: §cНет
+kubatech.infodata.eec.cycle_weapons.yes=Is cycling weapons: §eYes
+kubatech.infodata.eec.cycle_weapons.no=Is cycling weapons: §eNo
+kubatech.infodata.eec.weapon_preservation.yes=Is preserving weapons: §eYes
+kubatech.infodata.eec.weapon_preservation.no=Is preserving weapons: §eNo
 kubatech.infodata.eec.inserted_weapon.yes=Вставленное оружие: §eДа
 kubatech.infodata.eec.inserted_weapon.no=Вставленное оружие: §eНет
 kubatech.infodata.eec.weapon.damage=Урон от атаки оружием: §e%f
 kubatech.infodata.eec.weapon.looting_level=Уровень добычи оружия: §e%d
 kubatech.infodata.eec.total_damage=Общий урон от атаки: §e%f
 
-## Exreme Industrial Greenhouse
+## Extreme Industrial Greenhouse
 kubatech.infodata.eig.running_mode.setup_mode.input=Режим настройки (загрузка)
 kubatech.infodata.eig.running_mode.setup_mode.output=Режим настройки (выгрузка)
 kubatech.infodata.eig.uses.water=Использует %dЛ воды за операцию
@@ -122,10 +148,11 @@ kubatech.infodata.mia.running_mode.operating.normal=Режим работы (Н�
 kubatech.infodata.mia.running_mode.operating.swarmer=Режим работы (РОЕНИЕ)
 kubatech.infodata.mia.running_mode.bee_storage=Хранилище пчел (%s/%s):
 
-
 #Waila
 kubatech.waila.eec.mob_type=Вид существа: %s
 kubatech.waila.eec.no_mob=Нет
+kubatech.waila.eec.ritual_mode_connected=Подключён к ритуалу
+kubatech.waila.eec.ritual_mode_error=Не подключен к ритуалу!
 
 #Blocks
 kubablock.tea_acceptor.name=§4§lПриёмщик чая
