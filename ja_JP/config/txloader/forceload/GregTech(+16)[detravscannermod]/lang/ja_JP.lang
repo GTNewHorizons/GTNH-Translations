@@ -1,45 +1,45 @@
-detrav.scanner.mode.0=Set Mode: Ores
-detrav.scanner.mode.1=Set Mode: Ores and Small Ores
-detrav.scanner.mode.2=Set Mode: Underground Fluids
-detrav.scanner.mode.3=Set Mode: Pollution
-detrav.scanner.mode.error=Set Mode: ERROR
+detrav.scanner.mode.0=モード設定: 鉱石
+detrav.scanner.mode.1=モード設定: 鉱石と小さな鉱石
+detrav.scanner.mode.2=モード設定: 地下の液体資源
+detrav.scanner.mode.3=モード設定: 汚染
+detrav.scanner.mode.error=モード設定: ERROR
 
-detrav.scanner.distance.texts.0= §nnext to you,§r
-detrav.scanner.distance.texts.1= §nclose to you,§r
-detrav.scanner.distance.texts.2= §nat medium range,§r
-detrav.scanner.distance.texts.3= §nat long range,§r
-detrav.scanner.distance.texts.4= §nfar away,§r
+detrav.scanner.distance.texts.0= §n至近距離§r
+detrav.scanner.distance.texts.1= §n近距離§r
+detrav.scanner.distance.texts.2= §n中距離§r
+detrav.scanner.distance.texts.3= §n遠距離§r
+detrav.scanner.distance.texts.4= §n超遠距離§r
 
 detrav.scanner.small_ore.keyword=Small
 
-detrav.scanner.found.texts.0=Found nothing of interest
-detrav.scanner.found.texts.1= §8traces§r.
-detrav.scanner.found.texts.2= §7small sample§r.
-detrav.scanner.found.texts.3= §2medium sample§r.
-detrav.scanner.found.texts.4= §elarge sample§r.
-detrav.scanner.found.texts.5= §dvery large sample§r.
-detrav.scanner.found.texts.6=Found 
+detrav.scanner.found.texts.0=発見は特になし
+detrav.scanner.found.texts.1=§8検知§r
+detrav.scanner.found.texts.2=§7小さなサンプル§r
+detrav.scanner.found.texts.3= §2中くらいのサンプル§r
+detrav.scanner.found.texts.4=§e大きなサンプル§r
+detrav.scanner.found.texts.5=§d非常に大きなサンプル§r
+detrav.scanner.found.texts.6=発見
 
 # Don't translate "%badluck"
-detrav.scanner.success=All chunks scanned successfully!
-detrav.scanner.fail=Failed on %badluck chunks. Better luck next time!
+detrav.scanner.success=全てのチャンクのスキャンに成功！
+detrav.scanner.fail=%badluckチャンクのスキャンに失敗。次回に期待を！
 
-detrav.scanner.prospecting=Prospecting at
+detrav.scanner.prospecting=次の座標を調査中
 
-tooltip.detrav.scanner.durability=Durability:
-tooltip.detrav.scanner.range=Chunks:
-tooltip.detrav.scanner.usage.0=Right click on rock for prospecting current chunk!
-tooltip.detrav.scanner.usage.1=Right click on bedrock for prospecting fluids!
-tooltip.detrav.scanner.usage.2=Right click on air for scanning!
-tooltip.detrav.scanner.usage.3=Shift + Right click on air to switch modes!
-tooltip.detrav.scanner.usage.4=Double click any entry to invert the background color!
-tooltip.detrav.scanner.success.chance=Chance of a successful scan:
-tooltip.detrav.scanner.distance.0=next to you (0 chunks away), close to you (1-2)
-tooltip.detrav.scanner.distance.1=at medium range (3-5), at long range (6-8), far away (9+)
+tooltip.detrav.scanner.durability=耐久力:
+tooltip.detrav.scanner.range=チャンク:
+tooltip.detrav.scanner.usage.0=石を右クリックして現在のチャンクを調査します！
+tooltip.detrav.scanner.usage.1=岩盤を右クリックして地下の液体資源を調査します！
+tooltip.detrav.scanner.usage.2=空中を右クリックしてスキャンします！
+tooltip.detrav.scanner.usage.3=空中をShift+右クリックしてモードを切り替えます！
+tooltip.detrav.scanner.usage.4=任意のエントリをダブルクリックして背景色を反転します！
+tooltip.detrav.scanner.success.chance=スキャンの成功率:
+tooltip.detrav.scanner.distance.0=至近距離 (距離 0 チャンク)、近距離 (1-2)
+tooltip.detrav.scanner.distance.1=中距離 (3-5)、遠距離 (6-8)、超遠距離 (9以上)
 
-gui.detrav.scanner.pollution=Pollution
-gui.detrav.scanner.unknown_fluid=Unknown Fluid name!
+gui.detrav.scanner.pollution=汚染
+gui.detrav.scanner.unknown_fluid=不明な液体名！
 
-gui.detrav.scanner.tooltip.fluid_name=Fluid Name: 
-gui.detrav.scanner.tooltip.fluid_amount=Fluid Amount: 
-gui.detrav.scanner.tooltip.no_fluid=Empty
+gui.detrav.scanner.tooltip.fluid_name=液体名 :
+gui.detrav.scanner.tooltip.fluid_amount=保持中の液体の量: 
+gui.detrav.scanner.tooltip.no_fluid=なし

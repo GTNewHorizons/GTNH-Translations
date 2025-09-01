@@ -1,173 +1,173 @@
 # RecipeMaps
-gtnhlanth.recipe.digester=Digester
-gtnhlanth.recipe.disstank=Dissolution Tank
-gtnhlanth.recipe.tc=Target Chamber
-gtnhlanth.recipe.sc=Source Chamber
+gtnhlanth.recipe.digester=蒸解釜
+gtnhlanth.recipe.disstank=溶解タンク
+gtnhlanth.recipe.tc=ターゲットチャンバー
+gtnhlanth.recipe.sc=ソースチャンバー
 
-gtnhlanth.tt.beaminfo=Use a §bportable scanner §7for info about the input/output of this multiblock
-gtnhlanth.tt.blueprint=Follow the §9Structure§2Lib §7hologram projector to build the main structure.
-gtnhlanth.tt.pc=§6Partially consumed: §7Takes damage in the process
+gtnhlanth.tt.beaminfo=§b携帯型スキャナー§7を使うとこのマルチブロックの入力/出力についての情報を表示できます
+gtnhlanth.tt.blueprint=§9Structure§2Lib §7のホログラムプロジェクターに従ってメイン構造を建設してください。
+gtnhlanth.tt.pc=§6部分的消費: §7耐久値を消費します
 
-gtnhlanth.tt.hintdot=Hint block with dot %s
+gtnhlanth.tt.hintdot=ドットのヒントブロック %s
 
-GT5U.gui.text.gtnhlanth.nocoolant=No coolant present in machine!
-GT5U.gui.text.gtnhlanth.inscoolant=Insufficient coolant in machine!
-GT5U.gui.text.gtnhlanth.noaccel=Particle type can't be accelerated!
-GT5U.gui.text.gtnhlanth.low_input_eut=Input EU/t too low to produce  photons!
-GT5U.gui.text.gtnhlanth.scerror=Math error, broken recipe?
+GT5U.gui.text.gtnhlanth.nocoolant=機械内に冷却材がありません！
+GT5U.gui.text.gtnhlanth.inscoolant=機械内の冷却材が不足しています！
+GT5U.gui.text.gtnhlanth.noaccel=加速不可能な種類の粒子です！
+GT5U.gui.text.gtnhlanth.low_input_eut=光子を生み出すには電力が足りません！
+GT5U.gui.text.gtnhlanth.scerror=計算エラー、レシピの破損？
 
 # NEI
-value.disstank=Ratio: %s:1
+value.disstank=比率: %s:1
 
-DissolutionTank.hint.0=Dot 1: Clean Stainless Steel Machine Casing
-DissolutionTank.hint.1=24x Titanium-Reinforced Borosilicate Glass
-DissolutionTank.hint.2=9x Heat Proof Machine Casing
-DissolutionTank.hint.3=Input Bus, Output Bus, Input Hatches, Output Hatch
-DissolutionTank.hint.4=Energy Hatch, Maintenance Hatch
+DissolutionTank.hint.0=ドット 1: 清潔なステンレススチール製マシン外装
+DissolutionTank.hint.1=24x チタン強化ホウケイ酸ガラス
+DissolutionTank.hint.2=9x 耐熱マシン外装
+DissolutionTank.hint.3=入力バス、出力バス、入力ハッチ、出力ハッチ
+DissolutionTank.hint.4=エネルギーハッチ、メンテナンスハッチ
 
-Digester.hint.0=Dot 1: Robust Tungstensteel Machine Casing
-Digester.hint.1=9x Clean Stainless Steel Machine Casing
-Digester.hint.2=16x Heat Proof Machine Casing
-Digester.hint.3=16x Coil Block
-Digester.hint.4=Input Bus, Output Bus, Input Hatch, Output Hatch
-Digester.hint.5=Energy Hatch, Maintenance Hatch
+Digester.hint.0=ドット 1: 頑強なタングステンスチール製マシン外装
+Digester.hint.1=9x 清潔なステンレススチール製マシン外装
+Digester.hint.2=16x 耐熱マシン外装
+Digester.hint.3=16x コイルブロック
+Digester.hint.4=入力バス、出力バス、入力ハッチ、出力ハッチ
+Digester.hint.5=エネルギーハッチ、メンテナンスハッチ
 
-SourceChamber.hint.0=56x Shielded Accelerator Casing
-SourceChamber.hint.1=52x Shielded Accelerator Glass
-SourceChamber.hint.2=16x Electrode Casing
-SourceChamber.hint.3=Dot 1: Input Bus
-SourceChamber.hint.4=Dot 2: Output Bus
-SourceChamber.hint.5=Dot 3: Maintenance Hatch, Energy Hatch
-SourceChamber.hint.6=Dot 4: Beamline Output Hatch
+SourceChamber.hint.0=56x 加速器用遮蔽外装
+SourceChamber.hint.1=56x 加速器用遮蔽ガラス
+SourceChamber.hint.2=16x 電極外装
+SourceChamber.hint.3=ドット 1: 入力バス
+SourceChamber.hint.4=ドット 2: 出力バス
+SourceChamber.hint.5=ドット 3: メンテナンスハッチ、エネルギーハッチ
+SourceChamber.hint.6=ドット 4: ビームライン出力ハッチ
 
-LINAC.hint.0=325-1285x Shielded Accelerator Casing
-LINAC.hint.1=148-852x Coolant Delivery Casing
-LINAC.hint.2=127-703x Shielded Accelerator Glass
-LINAC.hint.3=56-312x Superconducting Coil Block
-LINAC.hint.4=156-732x Electrode Casing
-LINAC.hint.5=47x Grate Machine Casing
-LINAC.hint.6=48x Any Tiered Glass (LuV+)
-LINAC.hint.7=Dot 1: Energy Hatch, Maintenance Hatch
-LINAC.hint.8=Dot 2: Input Hatch, Output Hatch
-LINAC.hint.9=Dot 3: Beamline Input Hatch
-LINAC.hint.10=Dot 4: Beamline Output Hatch
+LINAC.hint.0=325-1285x 加速器用遮蔽外装
+LINAC.hint.1=148-852x 冷却材搬送用外装
+LINAC.hint.2=127-703x 加速器用遮蔽ガラス
+LINAC.hint.3=56-312x 超伝導体コイルブロック
+LINAC.hint.4=156-732x 電極外装
+LINAC.hint.5=47x 格子状マシン外装
+LINAC.hint.6=48x 任意のTier付きガラス (LuV以上)
+LINAC.hint.7=ドット 1: エネルギーハッチ、メンテナンスハッチ
+LINAC.hint.8=ドット 1: 入力ハッチ、出力ハッチ
+LINAC.hint.9=ドット 3: ビームライン入力ハッチ
+LINAC.hint.10=ドット 4: ビームライン出力ハッチ
 
-Synchrotron.hint.0=676x Shielded Accelerator Casing
-Synchrotron.hint.1=90x Superconducting Coil Block
-Synchrotron.hint.2=64x Niobium Cavity Machine Casing
-Synchrotron.hint.3=28x Coolant Delivery Casing
-Synchrotron.hint.4=16x Any Tiered Glass (LuV+)
-Synchrotron.hint.5=4x Antenna Casing
-Synchrotron.hint.6=Dot 1: Beamline Input Hatch
-Synchrotron.hint.7=Dot 2: Beamline Output Hatch
-Synchrotron.hint.8=Dot 3: Maintenance Hatch
-Synchrotron.hint.9=Dot 4: Input Hatch
-Synchrotron.hint.10=Dot 5: Output Hatch
-Synchrotron.hint.11=Dot 6: Energy Hatch
+Synchrotron.hint.0=676x 加速器用遮蔽外装
+Synchrotron.hint.1=90x 超伝導体コイルブロック
+Synchrotron.hint.2=64x ニオブ製キャビティマシン外装
+Synchrotron.hint.3=28x 冷却材搬送用外装
+Synchrotron.hint.4=16x 任意のTier付きガラス (LuV以上)
+Synchrotron.hint.5=4x アンテナ外装
+Synchrotron.hint.6=ドット 1: ビームライン入力ハッチ
+Synchrotron.hint.7=ドット 2: ビームライン出力ハッチ
+Synchrotron.hint.8=ドット 3: メンテナンスハッチ
+Synchrotron.hint.9=ドット 4: 入力ハッチ
+Synchrotron.hint.10=ドット 5: 出力ハッチ
+Synchrotron.hint.11=ドット 6: エネルギーハッチ
 
-TargetChamber.hint.0=28x Shielded Accelerator Casing
-TargetChamber.hint.1=34x Shielded Accelerator Glass
-TargetChamber.hint.2=16x Any Tiered Glass
-TargetChamber.hint.3=29x Grate Machine Casing
-TargetChamber.hint.4=4x Focus Manipulation Casing
-TargetChamber.hint.5=4x Target Receptacle Casing
-TargetChamber.hint.6=1x Focus Holder
-TargetChamber.hint.7=1x Target Holder
-TargetChamber.hint.8=Dot 1: Focus Input Bus
-TargetChamber.hint.9=Dot 2: Energy Hatch, Maintenance Hatch
-TargetChamber.hint.10=Dot 3: Input Bus
-TargetChamber.hint.11=Dot 4: Output Bus
-TargetChamber.hint.12=Dot 5: Beamline Input Hatch
-
-
-fluid.Antimony Pentafluoride Solution=Antimony Pentafluoride Solution
-fluid.Hafnium Tetrachloride Solution=Hafnium Tetrachloride Solution
-fluid.Zirconium Tetrachloride Solution=Zirconium Tetrachloride Solution
-fluid.Iodine=Iodine
-fluid.Muddy Monazite Rare Earth Solution=Muddy Monazite Rare Earth Solution
-fluid.Diluted Monazite Rare Earth Mud=Diluted Monazite Rare Earth Mud
-fluid.Diluted Monazite Sulfate=Diluted Monazite Sulfate
-fluid.Nitrogenated Monazite Rare Earth Concentrate=Nitrogenated Monazite Rare Earth Concentrate
-fluid.Nitric Monazite Leached Concentrate=Nitric Monazite Leached Concentrate
-fluid.Ammonium Nitrate Solution=Ammonium Nitrate Solution
-fluid.Seaweed Concentrate=Seaweed Concentrate
-fluid.Potassium Permanganate Solution=Potassium Permanganate Solution
-fluid.Seaweed Byproducts=Seaweed Byproducts
-fluid.Nitric-Leached Monazite Mixture=Nitric-Leached Monazite Mixture
-fluid.Muddy Bastnasite Rare Earth Solution=Muddy Bastnasite Rare Earth Solution
-fluid.Sodiumfluorosilicate=Sodiumfluorosilicate
-fluid.Steam-Cracked Bastnasite Mud=Steam-Cracked Bastnasite Mud
-fluid.Conditioned Bastnasite Mud=Conditioned Bastnasite Mud
-fluid.Diluted Bastnasite Mud=Diluted Bastnasite Mud
-fluid.Filtered Bastnasite Mud=Filtered Bastnasite Mud
-fluid.Nitrogenated Bastnasite Rarer Earth Oxides=Nitrogenated Bastnasite Rarer Earth Oxides
-fluid.Bastnasite Rarer Earth Oxide Suspension=Bastnasite Rarer Earth Oxide Suspension
-fluid.Calcium Fluoride=Calcium Fluoride
-fluid.Tetrahydrofuran=Tetrahydrofuran
-"fluid.1,4-Butanediol"="1,4-butanediol"
-"fluid.Acidicised 1,4-Butanediol"="acidicised 1,4-butanediol"
-fluid.Polytetrahydrofuran=Polytetrahydrofuran
-fluid.Tungstophosphoric Acid=Tungstophosphoric Acid
-fluid.Toluene Diisocyanate=Toluene Diisocyanate
-fluid.Dinitrotoluene=Dinitrotoluene
-fluid.Diaminotoluene=Diaminotoluene
-fluid.Toluene Tetramethyl Diisocyanate=Toluene Tetramethyl Diisocyanate
-fluid.Diluted Acetone=Diluted Acetone
-
-tile.casing.shielded_accelerator_glass.name=Shielded Accelerator Glass
-casing.electrode.name=Electrode Casing
-casing.coolant_delivery.name=Coolant Delivery Casing
-casing.antenna_t1.name=Antenna Casing (T1)
-casing.antenna_t2.name=Antenna Casing (T2)
-casing.niobium_cavity.name=Niobium Cavity Machine Casing
-casing.focus_manipulator.name=Focus Manipulator
-casing.focus_holder.name=Focus Holder
-casing.target_receptacle.name=Target Receptacle
-casing.target_holder.name=Target Holder
-casing.shielded_accelerator.name=Shielded Accelerator Casing
-
-item.capillary_exchange.name=Capillary Exchange
-item.mm_lattice.name=Mu-Metal Lattice
-item.iron_quartz_plate.name=Iron Quartz Plate
-item.mask_substrate.name=Mask Substrate
-item.etched_mask1.name=Etched Mask
-item.substrate_precursor.name=Substrate Precursor
-item.masked_mask_substrate.name=Processed Mask Substrate
+TargetChamber.hint.0=28x 加速器用遮蔽外装
+TargetChamber.hint.1=34x 加速器用遮蔽ガラス
+TargetChamber.hint.2=16x 任意のTier付きガラス
+TargetChamber.hint.3=29x 格子状マシン外装
+TargetChamber.hint.4=4x 焦点操作外装
+TargetChamber.hint.5=4x ターゲット受容外装
+TargetChamber.hint.6=1x 焦点保持器
+TargetChamber.hint.7=1x ターゲット保持器
+TargetChamber.hint.8=ドット 1: 焦点入力バス
+TargetChamber.hint.9=ドット 2: エネルギーハッチ、メンテナンスハッチ
+TargetChamber.hint.10=ドット 3: 入力バス
+TargetChamber.hint.11=ドット 4: 出力バス
+TargetChamber.hint.12=ドット 5: ビームライン入力ハッチ
 
 
+fluid.Antimony Pentafluoride Solution=五フッ化アンチモン溶液
+fluid.Hafnium Tetrachloride Solution=四塩化ハフニウム溶液
+fluid.Zirconium Tetrachloride Solution=四塩化ジルコニウム溶液
+fluid.Iodine=ヨウ素
+fluid.Muddy Monazite Rare Earth Solution=泥質のモナズ石希土類溶液
+fluid.Diluted Monazite Rare Earth Mud=希薄なモナズ石希土類泥
+fluid.Diluted Monazite Sulfate=希薄な硫酸モナズ石
+fluid.Nitrogenated Monazite Rare Earth Concentrate=窒化モナズ石希土類濃縮液
+fluid.Nitric Monazite Leached Concentrate=硝酸モナズ石浸出濃縮液
+fluid.Ammonium Nitrate Solution=硝酸アンモニウム溶液
+fluid.Seaweed Concentrate=海藻濃縮液
+fluid.Potassium Permanganate Solution=過マンガン酸カリウム溶液
+fluid.Seaweed Byproducts=海藻副産物
+fluid.Nitric-Leached Monazite Mixture=硝酸モナズ石浸出混合液
+fluid.Muddy Bastnasite Rare Earth Solution=泥質のバストネサイト希土類溶液
+fluid.Sodiumfluorosilicate=フルオロケイ酸ナトリウム
+fluid.Steam-Cracked Bastnasite Mud=蒸気で分解されたバストネサイト泥
+fluid.Conditioned Bastnasite Mud=調整したバストネサイト泥
+fluid.Diluted Bastnasite Mud=希薄なバストネサイト泥
+fluid.Filtered Bastnasite Mud=濾過したバストネサイト泥
+fluid.Nitrogenated Bastnasite Rarer Earth Oxides=窒化バストネサイト希少土類酸化物
+fluid.Bastnasite Rarer Earth Oxide Suspension=バストネサイト希少土類酸化物懸濁液
+fluid.Calcium Fluoride=フッ化カルシウム
+fluid.Tetrahydrofuran=テトラヒドロフラン
+"fluid.1,4-Butanediol"="1,4-ブタンジオール"
+"fluid.Acidicised 1,4-Butanediol"="酸性1,4-ブタンジオール"
+fluid.Polytetrahydrofuran=ポリテトラヒドロフラン
+fluid.Tungstophosphoric Acid=リンタングステン酸
+fluid.Toluene Diisocyanate=トルエンジイソシアネート
+fluid.Dinitrotoluene=ジニトロトルエン
+fluid.Diaminotoluene=ジアミノトルエン
+fluid.Toluene Tetramethyl Diisocyanate=トルエンテトラメチルジイソシアネート
+fluid.Diluted Acetone=希アセトン
+
+tile.casing.shielded_accelerator_glass.name=加速器用遮蔽ガラス
+casing.electrode.name=電極外装
+casing.coolant_delivery.name=冷却材搬送用外装
+casing.antenna_t1.name=アンテナ外装 (T1)
+casing.antenna_t2.name=アンテナ外装 (T2)
+casing.niobium_cavity.name=ニオブ製キャビティマシン外装
+casing.focus_manipulator.name=焦点操作器
+casing.focus_holder.name=焦点保持器
+casing.target_receptacle.name=ターゲット受容器
+casing.target_holder.name=ターゲット保持器
+casing.shielded_accelerator.name=加速器用遮蔽外装
+
+item.capillary_exchange.name=熱交換キャピラリー
+item.mm_lattice.name=ミューメタルの格子
+item.iron_quartz_plate.name=鉄クォーツプレート
+item.mask_substrate.name=マスク基板
+item.etched_mask1.name=エッチング済みマスク
+item.substrate_precursor.name=基板前駆体
+item.masked_mask_substrate.name=加工済みマスク基板
 
 
-beamline.info=Machine Information
 
-beamline.in_pre=Multiblock Beamline Input
-beamline.particle=Particle
-beamline.energy=Energy
-beamline.focus=Focus
-beamline.amount=Amount
-beamline.rate=Rate
 
-beamline.temperature=Temperature
-beamline.coolusage=Coolant Usage
+beamline.info=機械の情報
 
-beamline.out_pre=Multiblock Beamline Output
+beamline.in_pre=マルチブロックのビームライン入力
+beamline.particle=粒子
+beamline.energy=エネルギー
+beamline.focus=焦点
+beamline.amount=量
+beamline.rate=比率
 
-beamline.particleinput=Input Particle Info:
+beamline.temperature=温度
+beamline.coolusage=冷却材使用量
 
-beamline.pipe.desc.0=Transport for particles
-beamline.pipe.desc.1=Signal does not cross or bend
+beamline.out_pre=マルチブロックのビームライン出力
 
-tile.recipe.tc=Target Chamber
-tile.recipe.sc=Source Chamber
+beamline.particleinput=入力した粒子の情報:
 
-item.particle.name=Particle
-particle.electron=Electron
-particle.photon=Photon
-particle.alpha=Alpha
-particle.neutron=Neutron
-particle.proton=Proton
-GT5U.gui.text.dissolution_ratio=§7Wrong fluid input ratio
+beamline.pipe.desc.0=粒子の輸送用
+beamline.pipe.desc.1=信号は交差させたり曲げたりできません
 
-tooltip.gtnhlanth.particle.rest_mass=Rest Mass: %f MeV
-tooltip.gtnhlanth.particle.charge=Charge: %s e
-tooltip.gtnhlanth.photomask.desc_spectrum=Suitable for the %s segment of the electromagnetic spectrum and lower
-tooltip.gtnhlanth.photomask.max_uses=Max Uses: %d
+tile.recipe.tc=ターゲットチャンバー
+tile.recipe.sc=ソースチャンバー
+
+item.particle.name=粒子
+particle.electron=電子
+particle.photon=光子
+particle.alpha=アルファ線
+particle.neutron=中性子
+particle.proton=陽子
+GT5U.gui.text.dissolution_ratio=§7液体の入力比率が間違っています
+
+tooltip.gtnhlanth.particle.rest_mass=静止質量: %f MeV
+tooltip.gtnhlanth.particle.charge=電荷: %s e
+tooltip.gtnhlanth.photomask.desc_spectrum=電磁スペクトルの%s領域およびそれ以下の低周波に対応
+tooltip.gtnhlanth.photomask.max_uses=最大耐久値: %d
