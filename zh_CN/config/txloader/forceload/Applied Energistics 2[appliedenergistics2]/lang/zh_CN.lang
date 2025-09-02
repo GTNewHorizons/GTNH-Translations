@@ -133,6 +133,8 @@ chat.appliedenergistics2.FinishCraftingRemind=%s 个 %s 的合成已在 %s 内�
 chat.appliedenergistics2.CraftingCantExtract=存储网络中没有足够的原料:%d / %d | %s
 chat.appliedenergistics2.MachineInOtherDim=%d位于维度：%d，无法高亮显示
 chat.appliedenergistics2.MachineHighlighted=%d现在高亮显示于%d, %d, %d
+chat.appliedenergistics2.StorageHighlighted=%d 包含 §6%d §fx §r%d 已高亮，坐标：%d，%d，%d
+chat.appliedenergistics2.StorageInOtherDim=%d 包含 §6%d §fx §r%d 在维度：%d，无法高亮。
 
 # Creative Tabs
 itemGroup.appliedenergistics2=应用能源2
@@ -638,6 +640,7 @@ waila.appliedenergistics2.Unlocked=未锁定
 waila.appliedenergistics2.Showing=显示
 waila.appliedenergistics2.Contains=容纳
 waila.appliedenergistics2.Channels=%1$d / %2$d 频道
+waila.appliedenergistics2.ChannelsUnbound=%1$d 频道
 waila.appliedenergistics2.P2PUnlinked=未链接
 waila.appliedenergistics2.P2PInputOneOutput=已链接(输入)
 waila.appliedenergistics2.P2PInputManyOutputs=已链接(输入) - %d 输出
@@ -909,3 +912,4 @@ stat.ae2.TurnedCranks=转动曲柄
 # Keys
 key.appliedenergistics2.category=应用能源2
 key.toggle_focus.desc=切换是否选中搜索框
+key.search_connected_inventories.desc=在网络库存中搜索指定物品

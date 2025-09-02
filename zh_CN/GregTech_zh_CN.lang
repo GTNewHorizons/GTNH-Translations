@@ -398,8 +398,8 @@ languagefile {
     S:MU-metaitem.01.32149.tooltip=
     S:MU-metaitem.01.32150.name=传动部件(UHV)
     S:MU-metaitem.01.32150.tooltip=
-    S:MU-metaitem.01.32151.name=丹格特升级芯片
-    S:MU-metaitem.01.32151.tooltip=用于将蒸馏厂升级到2阶
+    S:MU-metaitem.01.32151.name=丹格特蒸馏厂升级芯片
+    S:MU-metaitem.01.32151.tooltip=用于将丹格特蒸馏厂升级到2阶
     S:MU-metaitem.01.32152.name=粉碎升级芯片
     S:MU-metaitem.01.32152.tooltip=用于将粉碎机升级到2阶
     S:MU-metaitem.01.name=Generated Item
@@ -1239,7 +1239,7 @@ languagefile {
     S:Material.osmiumtetroxide=四氧化锇
     S:Material.osmonium=幻锇
     S:Material.oureclase=地晶
-    S:Material.oxalate=草酸
+    S:Material.oxalicacid=草酸
     S:Material.oxygen=氧
     S:Material.ozone=臭氧
     S:Material.p-507=P-507
@@ -2306,7 +2306,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_00199_Index_01=16格
     S:TileEntity_DESCRIPTION_00200_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_00200_Index_01=容量：32,000升
-    S:TileEntity_DESCRIPTION_00200_Index_02=可容纳4种流体.
     S:TileEntity_DESCRIPTION_00201_Index_00=高科技联合熔炉
     S:TileEntity_DESCRIPTION_00201_Index_01=机器类型：§e合金炉§r
     S:TileEntity_DESCRIPTION_00202_Index_00=高科技联合熔炉
@@ -2656,9 +2655,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_00357_Index_12=它启用§c无损超频§7。
     S:TileEntity_DESCRIPTION_00357_Index_13=§a支持TecTech多A能源仓与激光仓！
     S:TileEntity_DESCRIPTION_00357_Index_14=只要有足够的能量，这台机器能运行任何等级的配方。
-    S:TileEntity_DESCRIPTION_00357_Index_15=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_00357_Index_15=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00357_Index_16=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_DESCRIPTION_00357_Index_17=添加者：§9§lBlue§b§lWeabo
     S:TileEntity_DESCRIPTION_00357_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§630§7x§638§7x§613§7
     S:TileEntity_DESCRIPTION_00357_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00357_Secondary_Index_02=   建造§51§7/§12§7/§33§7级结构的结构方块列表
@@ -2710,6 +2708,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00360_Index_04=%9真是不可思议!(It's uncanny!)
     S:TileEntity_DESCRIPTION_00360_Index_05=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00360_Index_06=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00360_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00360_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§67§7x§65§7x§67§7§c(中空)
     S:TileEntity_DESCRIPTION_00360_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00360_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -3160,7 +3159,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_00687_Index_04=比相同电压的单方块机器快(25*线圈方块等级)%.
     S:TileEntity_DESCRIPTION_00687_Index_05=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00687_Index_06=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_DESCRIPTION_00687_Index_07=添加者：§bVolence
     S:TileEntity_DESCRIPTION_00687_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§67§7x§67§7x§69§7§c(中空)
     S:TileEntity_DESCRIPTION_00687_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00687_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -3205,34 +3203,24 @@ languagefile {
     S:TileEntity_DESCRIPTION_00699_Index_01=4格
     S:TileEntity_DESCRIPTION_00710_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_00710_Index_01=容量：64,000升
-    S:TileEntity_DESCRIPTION_00710_Index_02=可容纳4种流体.
     S:TileEntity_DESCRIPTION_00711_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_00711_Index_01=容量：128,000升
-    S:TileEntity_DESCRIPTION_00711_Index_02=可容纳4种流体.
     S:TileEntity_DESCRIPTION_00712_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_00712_Index_01=容量：256,000升
-    S:TileEntity_DESCRIPTION_00712_Index_02=可容纳4种流体.
     S:TileEntity_DESCRIPTION_00713_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_00713_Index_01=容量：512,000升
-    S:TileEntity_DESCRIPTION_00713_Index_02=可容纳4种流体.
     S:TileEntity_DESCRIPTION_00714_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_00714_Index_01=容量：1,024,000升
-    S:TileEntity_DESCRIPTION_00714_Index_02=可容纳4种流体.
     S:TileEntity_DESCRIPTION_00715_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_00715_Index_01=容量：2,048,000升
-    S:TileEntity_DESCRIPTION_00715_Index_02=可容纳4种流体.
     S:TileEntity_DESCRIPTION_00716_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_00716_Index_01=容量：4,096,000升
-    S:TileEntity_DESCRIPTION_00716_Index_02=可容纳4种流体.
     S:TileEntity_DESCRIPTION_00717_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_00717_Index_01=容量：8,192,000升
-    S:TileEntity_DESCRIPTION_00717_Index_02=可容纳4种流体.
     S:TileEntity_DESCRIPTION_00718_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_00718_Index_01=容量：16,384,000升
-    S:TileEntity_DESCRIPTION_00718_Index_02=可容纳4种流体.
     S:TileEntity_DESCRIPTION_00719_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_00719_Index_01=容量：500,000,000升
-    S:TileEntity_DESCRIPTION_00719_Index_02=可容纳4种流体.
     S:TileEntity_DESCRIPTION_00749_Index_00=机器类型：§e反应堆处理单元,冷阱§r
     S:TileEntity_DESCRIPTION_00749_Index_01=加工液态氟钍反应堆出产的枯竭熔盐
     S:TileEntity_DESCRIPTION_00749_Index_02=可处理反应堆处理单元和冷阱的配方
@@ -3245,6 +3233,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00749_Index_09=每秒产生§5500§7点污染
     S:TileEntity_DESCRIPTION_00749_Index_10=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00749_Index_11=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00749_Index_12=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00749_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_00749_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00749_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -3483,7 +3472,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_00792_Index_04=每个输入总线中可以放入一个不同的电路板/模具!
     S:TileEntity_DESCRIPTION_00792_Index_05=每秒产生§5480 §7点污染
     S:TileEntity_DESCRIPTION_00792_Index_06=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_00792_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00792_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_00792_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00792_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -3577,7 +3565,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_00799_Index_05=§b超频时不会降低效率
     S:TileEntity_DESCRIPTION_00799_Index_06=每秒产生§540§7点污染
     S:TileEntity_DESCRIPTION_00799_Index_07=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_00799_Index_08=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00799_Index_08=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_00799_Index_09=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00799_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§65§7x§64§7x§65§7§c(中空)
     S:TileEntity_DESCRIPTION_00799_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00799_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -3620,6 +3609,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00811_Index_03=每秒产生§5800§7点污染
     S:TileEntity_DESCRIPTION_00811_Index_04=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00811_Index_05=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00811_Index_06=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00811_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§64§7x§63§7
     S:TileEntity_DESCRIPTION_00811_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00811_Secondary_Index_02=   §f控制器：§7  正面第二层中央
@@ -3864,6 +3854,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00850_Index_07=每秒产生§5100§7点污染
     S:TileEntity_DESCRIPTION_00850_Index_08=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00850_Index_09=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00850_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00850_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§65§7x§63§7x§67§7§c(顶部开放)
     S:TileEntity_DESCRIPTION_00850_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00850_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -3885,8 +3876,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_00859_Index_04=每个输入总线中可以放入一个不同的模具!
     S:TileEntity_DESCRIPTION_00859_Index_05=每台多方块压模机可使用多个输入总线
     S:TileEntity_DESCRIPTION_00859_Index_06=每秒产生§51000§7点污染
-    S:TileEntity_DESCRIPTION_00859_Index_07=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_00859_Index_08=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00859_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§65§7§c(中空)
     S:TileEntity_DESCRIPTION_00859_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00859_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -3906,7 +3895,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_00861_Index_04=请勿阻塞输入！
     S:TileEntity_DESCRIPTION_00861_Index_05=从周围环境吸入空气
     S:TileEntity_DESCRIPTION_00861_Index_06=每4t生成1000L空气
-    S:TileEntity_DESCRIPTION_00861_Index_07=添加者：§2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_00862_Index_00=机器类型：§e电弧炉,等离子电弧炉§r
     S:TileEntity_DESCRIPTION_00862_Index_01=比相同电压的单方块机器快250%
     S:TileEntity_DESCRIPTION_00862_Index_02=一次处理电压等级*8*n个物品,n为多方块长宽
@@ -3915,6 +3903,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_00862_Index_05=每秒产生§52400§7点污染
     S:TileEntity_DESCRIPTION_00862_Index_06=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00862_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00862_Index_08=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_00862_Index_09=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00862_Secondary_Index_00=大小(宽x高x长)：nxnx3(中空) n=3/5/7
     S:TileEntity_DESCRIPTION_00862_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00862_Secondary_Index_02=   §f控制器：§7  顶层中央
@@ -4045,6 +4035,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00876_Index_04=每秒产生§5500§7点污染
     S:TileEntity_DESCRIPTION_00876_Index_05=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00876_Index_06=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00876_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00876_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_00876_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00876_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -4198,6 +4189,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_00910_Index_05=每秒产生§5500§7点污染
     S:TileEntity_DESCRIPTION_00910_Index_06=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00910_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00910_Index_08=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_00910_Index_09=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00910_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_00910_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00910_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -4255,6 +4248,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_00963_Index_05=每秒产生§5500§7点污染
     S:TileEntity_DESCRIPTION_00963_Index_06=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00963_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00963_Index_08=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_00963_Index_09=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00963_Secondary_Index_00=   §f控制器：§7  正面底中
     S:TileEntity_DESCRIPTION_00963_Secondary_Index_01=   剩余方块为§7炽焱高炉机械方块§r(至少§66§r个！)
     S:TileEntity_DESCRIPTION_00963_Secondary_Index_02=§f   输入仓：§7  任意机械方块
@@ -4275,6 +4270,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_00964_Index_04=每秒产生§55000§7点污染
     S:TileEntity_DESCRIPTION_00964_Index_05=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00964_Index_06=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00964_Index_07=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_00964_Index_08=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00964_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_00964_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00964_Secondary_Index_02=   §f控制器：  §7正面中央
@@ -4376,6 +4373,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_00995_Index_08=每秒产生§5500§7点污染
     S:TileEntity_DESCRIPTION_00995_Index_09=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_00995_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_00995_Index_11=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_00995_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§65§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_00995_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_00995_Secondary_Index_02=   §f控制器：§7  正面底中
@@ -4534,6 +4532,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_01003_Index_02=每秒产生§5400§7点污染
     S:TileEntity_DESCRIPTION_01003_Index_03=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_01003_Index_04=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_01003_Index_05=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_01003_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_01003_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_01003_Secondary_Index_02=   §f控制器：§7  正面底中
@@ -4560,8 +4559,9 @@ languagefile {
     S:TileEntity_DESCRIPTION_01004_Index_10=优先消耗已储存的总运行时间。
     S:TileEntity_DESCRIPTION_01004_Index_11=只要有足够的能量，这台机器能运行任何等级的配方。
     S:TileEntity_DESCRIPTION_01004_Index_12=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_01004_Index_13=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_DESCRIPTION_01004_Index_14=添加者：§4§l§o§nC§6§l§o§no§a§l§o§nl§3§l§o§ne§5§l§o§nn
+    S:TileEntity_DESCRIPTION_01004_Index_13=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_01004_Index_14=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_01004_Index_15=添加者：§4§l§o§nC§6§l§o§no§a§l§o§nl§3§l§o§ne§5§l§o§nn
     S:TileEntity_DESCRIPTION_01004_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§633§7x§624§7x§633§7
     S:TileEntity_DESCRIPTION_01004_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_01004_Secondary_Index_02=   §62,112§7x线圈方块
@@ -4849,7 +4849,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_01132_Index_07=手持螺丝刀Shift+右键以销毁石粉.
     S:TileEntity_DESCRIPTION_01132_Index_08=每秒产生§5200§7点污染
     S:TileEntity_DESCRIPTION_01132_Index_09=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_01132_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_01132_Index_10=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_01132_Index_11=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_01132_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§66§7x§612§7x§611§7
     S:TileEntity_DESCRIPTION_01132_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_01132_Secondary_Index_02=   §f控制器：§7  正面第三层中央
@@ -5044,7 +5045,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_01159_Index_04=功率不受线圈等级影响
     S:TileEntity_DESCRIPTION_01159_Index_05=每秒产生§5300§7点污染
     S:TileEntity_DESCRIPTION_01159_Index_06=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_01159_Index_07=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_01159_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§65§7x§64§7x§65§7§c(中空)
     S:TileEntity_DESCRIPTION_01159_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_01159_Secondary_Index_02=   §f控制器：  §7正面中央
@@ -5071,6 +5071,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_01160_Index_08=每提升一级线圈可降低10%的所需功率,最多降低50%
     S:TileEntity_DESCRIPTION_01160_Index_09=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_01160_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_01160_Index_11=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_01160_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§65§7x§63§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_01160_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_01160_Secondary_Index_02=   §f控制器：  §7正面中央
@@ -7480,13 +7481,15 @@ languagefile {
     S:TileEntity_DESCRIPTION_03010_Secondary_Index_09=§f   维护仓：§7任意洁净不锈钢机械方块
     S:TileEntity_DESCRIPTION_03010_Secondary_Index_10=   使用子信道 §6glass§r§7 定义 §6分级玻璃§7 等级
     S:TileEntity_DESCRIPTION_03010_Secondary_Index_11=   §7§m------------------------------
-    S:TileEntity_DESCRIPTION_03010_Secondary_Index_12=§f结构太复杂了！
-    S:TileEntity_DESCRIPTION_03010_Secondary_Index_13=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
+    S:TileEntity_DESCRIPTION_03010_Secondary_Index_12=  §7§m------------------------------
+    S:TileEntity_DESCRIPTION_03010_Secondary_Index_13=§f结构太复杂了!
+    S:TileEntity_DESCRIPTION_03010_Secondary_Index_14=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪,以查看整体结构!
     S:TileEntity_DESCRIPTION_03011_Index_00=机器类型：§e酿造室§r
     S:TileEntity_DESCRIPTION_03011_Index_01=比相同电压的单方块机器快50%
     S:TileEntity_DESCRIPTION_03011_Index_02=每提升一个电压等级,并行系数加4
-    S:TileEntity_DESCRIPTION_03011_Index_03=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_03011_Index_04=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_03011_Index_03=§8100%§7 EU 使用率
+    S:TileEntity_DESCRIPTION_03011_Index_04=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_03011_Index_05=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_03011_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§65§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_03011_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_03011_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -8979,6 +8982,15 @@ languagefile {
     S:TileEntity_DESCRIPTION_10505_Index_12=每秒需要(长度)kL冷却剂
     S:TileEntity_DESCRIPTION_10505_Index_13=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_10505_Index_14=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_10505_Index_15=where §eV§f = (Length - 1) * cbrt(§2Machine Voltage§f) / 4
+    S:TileEntity_DESCRIPTION_10505_Index_16=and §cIE §f= 1+min(§dInput Beam Energy§f, 7500) / §aMaximum Source Energy
+    S:TileEntity_DESCRIPTION_10505_Index_17=§cInput Beam Energies§7 higher than 7500keV are treated as if they are 7500keV
+    S:TileEntity_DESCRIPTION_10505_Index_18=§aMaximum Source Energy§7 refers to values in the Source Chamber Tooltip
+    S:TileEntity_DESCRIPTION_10505_Index_19=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10505_Index_20=§cOutput Beam Focus§7§f = (§eInput Beam Focus§f + §3Machine Focus§f)/2
+    S:TileEntity_DESCRIPTION_10505_Index_21=where §3Machine Focus§f = min(max((-0.9 * (Length-1) * 1.1^(0.2 * §6Coolant Temperature§f) + 110), 5), 90)
+    S:TileEntity_DESCRIPTION_10505_Index_22=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10505_Index_23=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_10505_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§67§7x§67§7x§619-83§7
     S:TileEntity_DESCRIPTION_10505_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_10505_Secondary_Index_02=§f   控制器：§7  正面底中
@@ -9004,6 +9016,27 @@ languagefile {
     S:TileEntity_DESCRIPTION_10506_Index_02=用§b扫描仪§7右键来获取多方块输入输出信息
     S:TileEntity_DESCRIPTION_10506_Index_03=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_10506_Index_04=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_10506_Index_05=All recipes last for one second
+    S:TileEntity_DESCRIPTION_10506_Index_06=This upper limit is approached asymptotically as operating power increases
+    S:TileEntity_DESCRIPTION_10506_Index_07=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10506_Index_08=Each §6Particle Type§7 has a §aMaximum Particle Energy§7
+    S:TileEntity_DESCRIPTION_10506_Index_09=§6Alpha§7 : §a8000keV§7
+    S:TileEntity_DESCRIPTION_10506_Index_10=§6Proton§7 : §a15000keV§7
+    S:TileEntity_DESCRIPTION_10506_Index_11=§6Neutron§7 : §a15000keV§7
+    S:TileEntity_DESCRIPTION_10506_Index_12=§6Electron§7 : §a5000keV§7
+    S:TileEntity_DESCRIPTION_10506_Index_13=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10506_Index_14=Each §dSource input§7 has an Associated §9Energy Ratio§7
+    S:TileEntity_DESCRIPTION_10506_Index_15=§dU-238 Dust§7 : §9999§7
+    S:TileEntity_DESCRIPTION_10506_Index_16=§dCalifornium Dust§7 : §9999§7
+    S:TileEntity_DESCRIPTION_10506_Index_17=§dTungsten Rods§7 : §90.1§7
+    S:TileEntity_DESCRIPTION_10506_Index_18=§dLong LaB6 Rods§7 : §90.3§7
+    S:TileEntity_DESCRIPTION_10506_Index_19=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10506_Index_20=§fActual Beam Energy = min(§aMax Particle Energy§7, §6aeV§7)
+    S:TileEntity_DESCRIPTION_10506_Index_21=Where §6aeV§f =  §eMax Beam Energy§f * (1 - 1.001^(§9Energy Ratio§7 * (§bEU/t required§f - §cEU/t provided§f)))
+    S:TileEntity_DESCRIPTION_10506_Index_22=In short, the §6particle beam's§7 energy is capped to the §aMax Particle Energy§7
+    S:TileEntity_DESCRIPTION_10506_Index_23=Any one recipe can only provide up to its own §eMaximum Beam Energy
+    S:TileEntity_DESCRIPTION_10506_Index_24=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10506_Index_25=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_10506_Secondary_Index_00=§f大小§7(§6W§7x§6H§7x§6L§7)：§65§7x§65§7x§66§7§c(中空)
     S:TileEntity_DESCRIPTION_10506_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_10506_Secondary_Index_02=§f   控制器：§7  正面底中
@@ -9033,6 +9066,20 @@ languagefile {
     S:TileEntity_DESCRIPTION_10507_Index_12=每秒需要32kL冷却剂
     S:TileEntity_DESCRIPTION_10507_Index_13=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_10507_Index_14=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_10507_Index_15=There are two types of §3Antenna Casings§7, upgrade them to improve the machine
+    S:TileEntity_DESCRIPTION_10507_Index_16=All energies in the following formulae must be in keV
+    S:TileEntity_DESCRIPTION_10507_Index_17=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10507_Index_18=§9Output Beam Energy§7§f = §cIR §f* §2Power Scale Factor
+    S:TileEntity_DESCRIPTION_10507_Index_19=where §cIR §f =  (§eInput Beam Energy§f)^(1.13*(§3Antenna Tier§f)^(4/9))/40,000,000
+    S:TileEntity_DESCRIPTION_10507_Index_20=and §2Power Scale Factor§f = 1 - 0.15^(§9Total EU/t Provided§f / (30,384 * (§3Antenna Tier§f)^(5/2)))
+    S:TileEntity_DESCRIPTION_10507_Index_21=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10507_Index_22=§cOutput Beam Focus§7§f = (§eInput Beam Focus§f + §aMachine Focus§f)/2.5
+    S:TileEntity_DESCRIPTION_10507_Index_23=§fwhere §aMachine Focus§f = max(min(1.5^(12 - §6Coolant Temperature§f/40), 90), 10)
+    S:TileEntity_DESCRIPTION_10507_Index_24=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10507_Index_25=§6Output Beam Rate§7§f = floor(2.5^(§3Antenna Tier§f) * sqrt(§9Total EU/t Provided)§f * §eInput Beam Rate§f/15,000)
+    S:TileEntity_DESCRIPTION_10507_Index_26=§a支持TecTech多A能源仓与激光仓!
+    S:TileEntity_DESCRIPTION_10507_Index_27=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10507_Index_28=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_10507_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§636§7x§67§7x§634§7§c(中空)
     S:TileEntity_DESCRIPTION_10507_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_10507_Secondary_Index_02=   §f控制器：§7  正面中间
@@ -9058,6 +9105,16 @@ languagefile {
     S:TileEntity_DESCRIPTION_10508_Index_02=用§b扫描仪§7右键来获取多方块输入输出信息
     S:TileEntity_DESCRIPTION_10508_Index_03=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_10508_Index_04=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_10508_Index_05=NEI shows the required §dparticle type§7, minimum §bEU/t
+    S:TileEntity_DESCRIPTION_10508_Index_06=minimum §cBeam Focus§7, minimum §6Beam Rate§7(Amount), and required §9Beam Energy Range
+    S:TileEntity_DESCRIPTION_10508_Index_07=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10508_Index_08=The incoming §dBeam§7 must be within the required §9Energy Range§7, be the correct §dparticle type
+    S:TileEntity_DESCRIPTION_10508_Index_09=and have sufficient §cFocus§7 and §6Rate
+    S:TileEntity_DESCRIPTION_10508_Index_10=§fProcessing Time§7 is determined solely by the §eBeam Rate§7
+    S:TileEntity_DESCRIPTION_10508_Index_11=§fProcessing Time = 5 seconds * §6Minimum Required Rate§f / §eInput Beam Rate§7
+    S:TileEntity_DESCRIPTION_10508_Index_12=Can process up to one §aMask's§7 worth of durability per game tick
+    S:TileEntity_DESCRIPTION_10508_Index_13=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_10508_Index_14=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_10508_Secondary_Index_00=§f大小§7(§6W§7x§6H§7x§6L§7)：§65§7x§65§7x§66§7§c(中空)
     S:TileEntity_DESCRIPTION_10508_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_10508_Secondary_Index_02=   §f控制器：§7  正面底中
@@ -10560,6 +10617,11 @@ languagefile {
     S:TileEntity_DESCRIPTION_12108_Index_02=用螺丝刀右键以限制自动输出
     S:TileEntity_DESCRIPTION_12108_Index_03=可以被设定为仅输出/仅不输出 物品/蒸汽/流体
     S:TileEntity_DESCRIPTION_12108_Index_04=被设定过的输出仓在多方块中拥有更高的优先级
+    S:TileEntity_DESCRIPTION_12109_Index_00=销毁来自多方块结构的流体
+    S:TileEntity_DESCRIPTION_12109_Index_01=必须配置才能工作
+    S:TileEntity_DESCRIPTION_12109_Index_02=模仿到达上限的仓的行为
+    S:TileEntity_DESCRIPTION_12110_Index_00=销毁来自多方块结构的物品
+    S:TileEntity_DESCRIPTION_12110_Index_01=必须配置才能工作
     S:TileEntity_DESCRIPTION_12501_Index_00=它可以提取作物基因
     S:TileEntity_DESCRIPTION_12501_Index_01=用一个编程电路来确定你想要提取的基因，
     S:TileEntity_DESCRIPTION_12501_Index_02=1-样品，2-生长，3-产量，4-抗性
@@ -10965,8 +11027,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_12730_Index_09=§9Tec§1Tech§7的激光能源仓需要§2UV§7等级的玻璃
     S:TileEntity_DESCRIPTION_12730_Index_10=只要有足够的能量，这台机器能运行任何等级的配方。
     S:TileEntity_DESCRIPTION_12730_Index_11=每秒产生§5102400§7点污染
-    S:TileEntity_DESCRIPTION_12730_Index_12=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_12730_Index_13=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_12730_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§615§7x§620§7x§615§7§c(中空)
     S:TileEntity_DESCRIPTION_12730_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_12730_Secondary_Index_02=§f   控制器：§7  正面第三层中央
@@ -11091,6 +11151,9 @@ languagefile {
     S:TileEntity_DESCRIPTION_12734_Index_07=§a支持TecTech多A能源仓与激光仓！
     S:TileEntity_DESCRIPTION_12734_Index_08=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_12734_Index_09=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_12734_Index_10=§a支持TecTech多A能源仓与激光仓!
+    S:TileEntity_DESCRIPTION_12734_Index_11=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_12734_Index_12=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_12734_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§69§7x§63§7
     S:TileEntity_DESCRIPTION_12734_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_12734_Secondary_Index_02=   §f控制器：      §7正面第三层中央
@@ -11171,13 +11234,17 @@ languagefile {
     S:TileEntity_DESCRIPTION_12738_Secondary_Index_12=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪,以查看整体结构! 
     S:TileEntity_DESCRIPTION_12739_Index_00=机器类型：§e采矿机§r
     S:TileEntity_DESCRIPTION_12739_Index_01=消耗功率：524,288EU/t
-    S:TileEntity_DESCRIPTION_12739_Index_02=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或鿫(x64)，以提高产量
-    S:TileEntity_DESCRIPTION_12739_Index_03=每秒输出6个矿石，矿石种类取决于机器所在的世界
-    S:TileEntity_DESCRIPTION_12739_Index_04=请将矿石放入输入总线，以设置白名单/黑名单
-    S:TileEntity_DESCRIPTION_12739_Index_05=使用螺丝刀切换白名单/黑名单
-    S:TileEntity_DESCRIPTION_12739_Index_06=黑名单或非白名单矿石将被§4销毁§r.
-    S:TileEntity_DESCRIPTION_12739_Index_07=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_12739_Index_08=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_12739_Index_02=可以提供 §b2L/s§7 的惰性气体以提高§6产量
+    S:TileEntity_DESCRIPTION_12739_Index_03=§d氖§7 : §64x§7
+    S:TileEntity_DESCRIPTION_12739_Index_04=§b氪§7 : §68x§7
+    S:TileEntity_DESCRIPTION_12739_Index_05=§3氙§7 : §616x§7
+    S:TileEntity_DESCRIPTION_12739_Index_06=§9鿫§7 : §664x§7
+    S:TileEntity_DESCRIPTION_12739_Index_07=根据建造所在维度，每秒将产出 6 个矿石。
+    S:TileEntity_DESCRIPTION_12739_Index_08=将矿石放入输入总线以设置白名单/黑名单
+    S:TileEntity_DESCRIPTION_12739_Index_09=使用螺丝刀切换白名单/黑名单
+    S:TileEntity_DESCRIPTION_12739_Index_10=黑名单或非白名单矿石将被§4销毁§r。
+    S:TileEntity_DESCRIPTION_12739_Index_11=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_12739_Index_12=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_12739_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§69§7x§616§7x§69§7
     S:TileEntity_DESCRIPTION_12739_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_12739_Secondary_Index_02=   §647§fx§7 中子采矿机械方块
@@ -11195,13 +11262,17 @@ languagefile {
     S:TileEntity_DESCRIPTION_12739_Secondary_Index_14=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪,以查看整体结构！
     S:TileEntity_DESCRIPTION_12740_Index_00=机器类型：§e采矿机§r
     S:TileEntity_DESCRIPTION_12740_Index_01=消耗功率：131,072EU/t
-    S:TileEntity_DESCRIPTION_12740_Index_02=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或鿫(x64)，以提高产量
-    S:TileEntity_DESCRIPTION_12740_Index_03=每秒输出4个矿石，矿石种类取决于机器所在的世界
-    S:TileEntity_DESCRIPTION_12740_Index_04=请将矿石放入输入总线，以设置白名单/黑名单
-    S:TileEntity_DESCRIPTION_12740_Index_05=使用螺丝刀切换白名单/黑名单
-    S:TileEntity_DESCRIPTION_12740_Index_06=黑名单或非白名单矿石将被§4销毁§r.
-    S:TileEntity_DESCRIPTION_12740_Index_07=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_12740_Index_08=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_12740_Index_02=可以提供 §b2L/s§7 的惰性气体以提高§6产量
+    S:TileEntity_DESCRIPTION_12740_Index_03=§d氖§7 : §64x§7
+    S:TileEntity_DESCRIPTION_12740_Index_04=§b氪§7 : §68x§7
+    S:TileEntity_DESCRIPTION_12740_Index_05=§3氙§7 : §616x§7
+    S:TileEntity_DESCRIPTION_12740_Index_06=§9鿫§7 : §664x§7
+    S:TileEntity_DESCRIPTION_12740_Index_07=根据建造所在维度，每秒将产出 4 个矿石。
+    S:TileEntity_DESCRIPTION_12740_Index_08=将矿石放入输入总线以设置白名单/黑名单
+    S:TileEntity_DESCRIPTION_12740_Index_09=使用螺丝刀切换白名单/黑名单
+    S:TileEntity_DESCRIPTION_12740_Index_10=黑名单或非白名单矿石将被§4销毁§r。
+    S:TileEntity_DESCRIPTION_12740_Index_11=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_12740_Index_12=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_12740_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§69§7x§613§7x§68§7
     S:TileEntity_DESCRIPTION_12740_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_12740_Secondary_Index_02=   §629§fx§7 黑钚采矿机械方块
@@ -11219,13 +11290,17 @@ languagefile {
     S:TileEntity_DESCRIPTION_12740_Secondary_Index_14=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
     S:TileEntity_DESCRIPTION_12741_Index_00=机器类型：§e采矿机§r
     S:TileEntity_DESCRIPTION_12741_Index_01=消耗功率：32,768 EU/t
-    S:TileEntity_DESCRIPTION_12741_Index_02=可以提供2L/s的氖(x4)、氪(x8)、氙(x16)或鿫(x64)，以提高产量
-    S:TileEntity_DESCRIPTION_12741_Index_03=每秒输出2个矿石，矿石种类取决于机器所在的世界
-    S:TileEntity_DESCRIPTION_12741_Index_04=请将矿石放入输入总线，以设置白名单/黑名单
-    S:TileEntity_DESCRIPTION_12741_Index_05=使用螺丝刀切换白名单/黑名单
-    S:TileEntity_DESCRIPTION_12741_Index_06=黑名单或非白名单矿石将被§4销毁§r.
-    S:TileEntity_DESCRIPTION_12741_Index_07=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_12741_Index_08=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_12741_Index_02=可以提供 §b2L/s§7 的惰性气体以提高§6产量
+    S:TileEntity_DESCRIPTION_12741_Index_03=§d氖§7 : §64x§7
+    S:TileEntity_DESCRIPTION_12741_Index_04=§b氪§7 : §68x§7
+    S:TileEntity_DESCRIPTION_12741_Index_05=§3氙§7 : §616x§7
+    S:TileEntity_DESCRIPTION_12741_Index_06=§9鿫§7 : §664x§7
+    S:TileEntity_DESCRIPTION_12741_Index_07=根据建造所在维度，每秒将产出 2 个矿石。
+    S:TileEntity_DESCRIPTION_12741_Index_08=将矿石放入输入总线以设置白名单/黑名单
+    S:TileEntity_DESCRIPTION_12741_Index_09=使用螺丝刀切换白名单/黑名单
+    S:TileEntity_DESCRIPTION_12741_Index_10=黑名单或非白名单矿石将被§4销毁§r。
+    S:TileEntity_DESCRIPTION_12741_Index_11=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_12741_Index_12=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_12741_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§67§7x§69§7x§67§7
     S:TileEntity_DESCRIPTION_12741_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_12741_Secondary_Index_02=   §620§fx §7坚实铱锇机械方块
@@ -11546,7 +11621,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_13367_Index_12=只要有足够的能量，这台机器能运行任何等级的配方。
     S:TileEntity_DESCRIPTION_13367_Index_13=每提升一级线圈可降低10%的所需功率，最多降低50%
     S:TileEntity_DESCRIPTION_13367_Index_14=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_13367_Index_15=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_13367_Index_15=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_13367_Index_16=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_13367_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§613§7x§67§7x§69§7§c(中空)
     S:TileEntity_DESCRIPTION_13367_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_13367_Secondary_Index_02=   §f控制器：§7  正面底中
@@ -11603,8 +11679,11 @@ languagefile {
     S:TileEntity_DESCRIPTION_13533_Index_02=用闪存 左键/右键 单击以 复制/粘贴 配置
     S:TileEntity_DESCRIPTION_13533_Index_03= 添加者：§6GigaGram§rFab
     S:TileEntity_DESCRIPTION_13534_Index_00=为你而生的廉价合成工具!
+    S:TileEntity_DESCRIPTION_13534_Index_01=§7为你准备的廉价合成工具！
     S:TileEntity_DESCRIPTION_13535_Index_00=为你而生的廉价合成工具!
+    S:TileEntity_DESCRIPTION_13535_Index_01=§7为你准备的廉价合成工具！
     S:TileEntity_DESCRIPTION_13536_Index_00=为你而生的廉价合成工具!
+    S:TileEntity_DESCRIPTION_13536_Index_01=§7为你准备的廉价合成工具！
     S:TileEntity_DESCRIPTION_14001_Index_00=机器类型：§e戴森球§r
     S:TileEntity_DESCRIPTION_14001_Index_01=§o9号吗？不完全是。
     S:TileEntity_DESCRIPTION_14001_Index_02=在输入总线中放入戴森球模块，将其发射至相邻的恒星.
@@ -11675,8 +11754,9 @@ languagefile {
     S:TileEntity_DESCRIPTION_14003_Index_07=关闭控制器即可暂停所有模块
     S:TileEntity_DESCRIPTION_14003_Index_08=§a支持TecTech多A能源仓与激光仓!
     S:TileEntity_DESCRIPTION_14003_Index_09=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_14003_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_DESCRIPTION_14003_Index_11=添加者：§9§dminecraft7771
+    S:TileEntity_DESCRIPTION_14003_Index_10=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_14003_Index_11=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_14003_Index_12=添加者：§9§dminecraft7771
     S:TileEntity_DESCRIPTION_14003_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§635§7x§643§7x§635§7
     S:TileEntity_DESCRIPTION_14003_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_14003_Secondary_Index_02=§f   工程模块：§7任意太空电梯基座机械方块(提示方块：2号)
@@ -11751,7 +11831,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_14007_Index_09=需要MK-I或更高等级的加速轨道
     S:TileEntity_DESCRIPTION_14007_Index_10=请将矿石放入输入总线，以设置白名单/黑名单
     S:TileEntity_DESCRIPTION_14007_Index_11=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_14007_Index_12=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_14007_Index_12=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_14007_Index_13=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_14007_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§61§7x§65§7x§62§7
     S:TileEntity_DESCRIPTION_14007_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_14007_Secondary_Index_02=§6   0§7-§69§r§7个太空电梯基座机械方块
@@ -11774,7 +11855,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_14008_Index_09=需要MK-II或更高等级的加速轨道
     S:TileEntity_DESCRIPTION_14008_Index_10=请将矿石放入输入总线，以设置白名单/黑名单
     S:TileEntity_DESCRIPTION_14008_Index_11=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_14008_Index_12=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_14008_Index_12=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_14008_Index_13=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_14008_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§61§7x§65§7x§62§7
     S:TileEntity_DESCRIPTION_14008_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_14008_Secondary_Index_02=§6   0§7-§69§r§7个太空电梯基座机械方块
@@ -11797,7 +11879,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_14009_Index_09=需要MK-III或更高等级的加速轨道
     S:TileEntity_DESCRIPTION_14009_Index_10=请将矿石放入输入总线，以设置白名单/黑名单
     S:TileEntity_DESCRIPTION_14009_Index_11=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_14009_Index_12=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_14009_Index_12=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_14009_Index_13=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_14009_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§61§7x§65§7x§62§7
     S:TileEntity_DESCRIPTION_14009_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_14009_Secondary_Index_02=§6   0§7-§69§r§7个太空电梯基座机械方块
@@ -11913,8 +11996,9 @@ languagefile {
     S:TileEntity_DESCRIPTION_14101_Secondary_Index_05=§f   能源仓：§7  任意机械方块
     S:TileEntity_DESCRIPTION_14101_Secondary_Index_06=§f   维护仓：§7  任意机械方块
     S:TileEntity_DESCRIPTION_14101_Secondary_Index_07=   §7§m------------------------------
-    S:TileEntity_DESCRIPTION_14101_Secondary_Index_08=§f结构太复杂了!
-    S:TileEntity_DESCRIPTION_14101_Secondary_Index_09=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪,以查看整体结构! 
+    S:TileEntity_DESCRIPTION_14101_Secondary_Index_08=  §7§m------------------------------
+    S:TileEntity_DESCRIPTION_14101_Secondary_Index_09=§f结构太复杂了!
+    S:TileEntity_DESCRIPTION_14101_Secondary_Index_10=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪,以查看整体结构!
     S:TileEntity_DESCRIPTION_14201_Index_00=机器类型：§e电动刷怪笼§7；机器简称：§eEEC§r
     S:TileEntity_DESCRIPTION_14201_Index_01=为你生成并屠宰怪物.
     S:TileEntity_DESCRIPTION_14201_Index_02=将电动刷怪笼放入控制器的GUI中.
@@ -11937,6 +12021,14 @@ languagefile {
     S:TileEntity_DESCRIPTION_14201_Index_19=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_14201_Index_20=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_14201_Index_21=添加者：§4§lk§c§lu§6§lb§e§la§2§l6§a§l0§b§l0§3§l0
+    S:TileEntity_DESCRIPTION_14201_Index_22=当连接时，怪物会进入缓冲并缓慢死亡，为连接的祭坛提供血液。
+    S:TileEntity_DESCRIPTION_14201_Index_23=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_14201_Index_24=你可以用电烙铁禁用生物动画。
+    S:TileEntity_DESCRIPTION_14201_Index_25=你可以使用剪线钳启用批处理模式。提供 §9 16x时间、输出、武器伤害
+    S:TileEntity_DESCRIPTION_14201_Index_26=能源仓受限于玻璃等级，§2UV§7级玻璃可解锁上限
+    S:TileEntity_DESCRIPTION_14201_Index_27=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_14201_Index_28=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_14201_Index_29=添加者：§4§lk§c§lu§6§lb§e§la§2§l6§a§l0§b§l0§3§l0
     S:TileEntity_DESCRIPTION_14201_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§65§7x§67§7x§65§7§c(中空)
     S:TileEntity_DESCRIPTION_14201_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_14201_Secondary_Index_02=§f   控制器：§7  正面底中
@@ -13072,7 +13164,9 @@ languagefile {
     S:TileEntity_DESCRIPTION_15350_Secondary_Index_07=§f   维护仓：§7任意超能机械方块
     S:TileEntity_DESCRIPTION_15350_Secondary_Index_08=   §7§m------------------------------
     S:TileEntity_DESCRIPTION_15350_Secondary_Index_09=§f结构太复杂了!
-    S:TileEntity_DESCRIPTION_15350_Secondary_Index_10=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪,以查看整体结构! 
+    S:TileEntity_DESCRIPTION_15350_Secondary_Index_10=  §7§m------------------------------
+    S:TileEntity_DESCRIPTION_15350_Secondary_Index_11=§f结构太复杂了!
+    S:TileEntity_DESCRIPTION_15350_Secondary_Index_12=§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪,以查看整体结构!
     S:TileEntity_DESCRIPTION_15410_Index_00=机器类型：§e时空操纵者§7；机器简称：§eEOH§r
     S:TileEntity_DESCRIPTION_15410_Index_01=使用超维度引擎，创造一块远超内部空间的压缩时空场
     S:TileEntity_DESCRIPTION_15410_Index_02=时间领主认证.
@@ -14376,6 +14470,11 @@ languagefile {
     S:TileEntity_DESCRIPTION_31021_Index_08=每秒产生§5480§7点污染
     S:TileEntity_DESCRIPTION_31021_Index_09=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_31021_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_31021_Index_11=§a350%§7 速度
+    S:TileEntity_DESCRIPTION_31021_Index_12=§8100%§7 EU 使用率
+    S:TileEntity_DESCRIPTION_31021_Index_13=§5480 §7每秒污染
+    S:TileEntity_DESCRIPTION_31021_Index_14=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_31021_Index_15=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31021_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63-12§7x§63§7§c（中空）
     S:TileEntity_DESCRIPTION_31021_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_31021_Secondary_Index_02=§f控制器：§7正面底中
@@ -14446,7 +14545,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_31027_Index_02=§b超频时不会降低效率
     S:TileEntity_DESCRIPTION_31027_Index_03=每秒产生§51280§7点污染
     S:TileEntity_DESCRIPTION_31027_Index_04=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_31027_Index_05=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_31027_Index_05=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_31027_Index_06=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31027_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§67§7
     S:TileEntity_DESCRIPTION_31027_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_31027_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -14559,6 +14659,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_31050_Index_07=每秒产生§51000§7点污染
     S:TileEntity_DESCRIPTION_31050_Index_08=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_31050_Index_09=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_31050_Index_10=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_31050_Index_11=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§69§7x§66§7x§69§7§c(中空)
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_31050_Secondary_Index_02=§f   控制器：§7  顶层中央
@@ -14593,6 +14695,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_31065_Index_07=每秒产生§5100§7点污染
     S:TileEntity_DESCRIPTION_31065_Index_08=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_31065_Index_09=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_31065_Index_10=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_31065_Index_11=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31065_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§64§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_31065_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_31065_Secondary_Index_02=   §f控制器：  §7正面底中
@@ -14628,6 +14732,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_31069_Index_06=每秒产生§550§7点污染
     S:TileEntity_DESCRIPTION_31069_Index_07=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_31069_Index_08=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_31069_Index_09=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_31069_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31069_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_31069_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_31069_Secondary_Index_02=   §f控制器：  §7正面中央
@@ -14647,14 +14753,11 @@ languagefile {
     S:TileEntity_DESCRIPTION_31070_Index_04=请勿阻塞输入口！
     S:TileEntity_DESCRIPTION_31070_Index_05=从周围环境吸入空气
     S:TileEntity_DESCRIPTION_31070_Index_06=每4t生成8000L空气
-    S:TileEntity_DESCRIPTION_31070_Index_07=添加者：§2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_31071_Index_00=为多方块机器输入流体
     S:TileEntity_DESCRIPTION_31071_Index_01=容量：2,000,000,000升
     S:TileEntity_DESCRIPTION_31071_Index_02=容量：128,000升
     S:TileEntity_DESCRIPTION_31071_Index_03=仓室等级：§8EV§r
     S:TileEntity_DESCRIPTION_31071_Index_04=无限供水仓
-    S:TileEntity_DESCRIPTION_31071_Index_05=每5秒填充至最大容量
-    S:TileEntity_DESCRIPTION_31071_Index_06=添加者：§2Alkalus §7- §c[GT++]
     S:TileEntity_DESCRIPTION_31072_Index_00=机器类型：§e分子重组仪§r
     S:TileEntity_DESCRIPTION_31072_Index_01=改变物质结构，生产新物质
     S:TileEntity_DESCRIPTION_31072_Index_02=总线/仓室最多1个.
@@ -14736,6 +14839,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_31075_Index_07=每秒产生§5250§7点污染
     S:TileEntity_DESCRIPTION_31075_Index_08=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_31075_Index_09=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_31075_Index_10=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_31075_Index_11=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_31075_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§63§7x§63§7x§63§7§c(中空)
     S:TileEntity_DESCRIPTION_31075_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_31075_Secondary_Index_02=   §f控制器：§7  正面中央
@@ -15152,8 +15257,10 @@ languagefile {
     S:TileEntity_DESCRIPTION_31151_Index_16=§a支持TecTech多A能源仓与激光仓!
     S:TileEntity_DESCRIPTION_31151_Index_17=只要有足够的能量，这台机器能运行任何等级的配方。
     S:TileEntity_DESCRIPTION_31151_Index_18=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_31151_Index_19=按住 §l[LSHIFT]§r§7 以显示结构指导
-    S:TileEntity_DESCRIPTION_31151_Index_20=添加者：§9§lBlue§b§lWeabo§r§7 & §a§aSteelux
+    S:TileEntity_DESCRIPTION_31151_Index_19=§a支持TecTech多A能源仓与激光仓!
+    S:TileEntity_DESCRIPTION_31151_Index_20=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_31151_Index_21=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_31151_Index_22=添加者：§9§lBlue§b§lWeabo§r§7 与 §a§aSteelux
     S:TileEntity_DESCRIPTION_31151_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§615§7x§621§7x§615§7(中空)
     S:TileEntity_DESCRIPTION_31151_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_31151_Secondary_Index_02=   §f控制器：§7      正面底中
@@ -15229,7 +15336,9 @@ languagefile {
     S:TileEntity_DESCRIPTION_32001_Index_14=效率高达150%。
     S:TileEntity_DESCRIPTION_32001_Index_15=§a支持TecTech多A能源仓与激光仓！
     S:TileEntity_DESCRIPTION_32001_Index_16=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_32001_Index_17=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_32001_Index_17=§a支持TecTech多A能源仓与激光仓!
+    S:TileEntity_DESCRIPTION_32001_Index_18=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_32001_Index_19=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_32001_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§65§7x§64§7x§69§7
     S:TileEntity_DESCRIPTION_32001_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_32001_Secondary_Index_02=§f   控制器：§7第二层正中
@@ -15328,6 +15437,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_32015_Index_01=将YOT储罐与AE流体存储系统直接连接.
     S:TileEntity_DESCRIPTION_32015_Index_02=使用螺丝刀设置存储优先级
     S:TileEntity_DESCRIPTION_32015_Index_03=使用电烙铁设置读/写模式
+    S:TileEntity_DESCRIPTION_32015_Index_04=使用剪线钳，以启用/禁用粘性模式
     S:TileEntity_DESCRIPTION_32016_Index_00=机器类型：§e超临界蒸汽涡轮§r
     S:TileEntity_DESCRIPTION_32016_Index_01=需要涡轮转子(控制器方块的GUI中)
     S:TileEntity_DESCRIPTION_32016_Index_02=利用超临界蒸汽发电
@@ -15384,6 +15494,11 @@ languagefile {
     S:TileEntity_DESCRIPTION_32018_Index_11=每秒产生§5780§7点污染
     S:TileEntity_DESCRIPTION_32018_Index_12=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_32018_Index_13=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_32018_Index_14=§a支持TecTech多A能源仓与激光仓!
+    S:TileEntity_DESCRIPTION_32018_Index_15=这台机器只能运行与其平均能源仓等级相匹配的配方。
+    S:TileEntity_DESCRIPTION_32018_Index_16=§5780 §7每秒污染
+    S:TileEntity_DESCRIPTION_32018_Index_17=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_32018_Index_18=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_32018_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§69§7x§65§7x§65§7§c(中空)
     S:TileEntity_DESCRIPTION_32018_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_32018_Secondary_Index_02=   §f控制器：§7正面底中
@@ -15435,7 +15550,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_32020_Index_07=启动能量 >= 160,000,000 EU: 64x并行
     S:TileEntity_DESCRIPTION_32020_Index_08=§a支持TecTech多A能源仓与激光仓！
     S:TileEntity_DESCRIPTION_32020_Index_09=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_32020_Index_10=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_32020_Secondary_Index_00=§6   1664x§r§7聚变机械方块(至少！)
     S:TileEntity_DESCRIPTION_32020_Secondary_Index_01=§6   560x§r§7压缩聚变线圈方块
     S:TileEntity_DESCRIPTION_32020_Secondary_Index_02=§6   128x§r§7铿铀框架
@@ -15458,8 +15572,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_32021_Index_07=启动能量 < 320,000,000 EU: 128x并行
     S:TileEntity_DESCRIPTION_32021_Index_08=启动能量 >= 320,000,000 EU: 64x并行
     S:TileEntity_DESCRIPTION_32021_Index_09=§a支持TecTech多A能源仓与激光仓！
-    S:TileEntity_DESCRIPTION_32021_Index_10=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_32021_Index_11=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_32021_Secondary_Index_00=§6   1664x§r§7聚变机械方块Mk II(至少！)
     S:TileEntity_DESCRIPTION_32021_Secondary_Index_01=§6   560x§r§7进阶压缩聚变线圈方块
     S:TileEntity_DESCRIPTION_32021_Secondary_Index_02=   §6128§fx §7中子框架（至少！）
@@ -15483,9 +15595,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_32022_Index_08=启动能量 < 320,000,000 EU: 192x并行
     S:TileEntity_DESCRIPTION_32022_Index_09=启动能量 < 640,000,000 EU: 128x并行
     S:TileEntity_DESCRIPTION_32022_Index_10=启动能量 >= 640,000,000 EU: 64x并行
-    S:TileEntity_DESCRIPTION_32022_Index_11=§a支持TecTech多A能源仓与激光仓！
-    S:TileEntity_DESCRIPTION_32022_Index_12=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_32022_Index_13=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_32022_Secondary_Index_00=§6   1664x§r§7聚变机械方块Mk III(至少！)
     S:TileEntity_DESCRIPTION_32022_Secondary_Index_01=§6   560x§r§7进阶压缩聚变线圈方块MK-II原型
     S:TileEntity_DESCRIPTION_32022_Secondary_Index_02=§6   128x§r§7无尽催化剂框架
@@ -15509,10 +15618,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_32023_Index_08=启动能量 < 320,000,000 EU: 256x并行
     S:TileEntity_DESCRIPTION_32023_Index_09=启动能量 < 640,000,000 EU: 192x并行
     S:TileEntity_DESCRIPTION_32023_Index_10=启动能量 < 5,120,000,000 EU: 128x并行
-    S:TileEntity_DESCRIPTION_32023_Index_11=启动能量 >= 5,120,000,000 EU: 64x并行
-    S:TileEntity_DESCRIPTION_32023_Index_12=§a支持TecTech多A能源仓与激光仓！
-    S:TileEntity_DESCRIPTION_32023_Index_13=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_32023_Index_14=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_32023_Secondary_Index_00=§6   1664x§r§7聚变机械方块Mk IV(至少！)
     S:TileEntity_DESCRIPTION_32023_Secondary_Index_01=§6   560x§r§7进阶压缩聚变线圈方块MK-II
     S:TileEntity_DESCRIPTION_32023_Secondary_Index_02=§6   128x§r§7无尽框架
@@ -15597,7 +15702,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_32027_Index_04=没有反物质时此消耗每tick衰减0.5%
     S:TileEntity_DESCRIPTION_32027_Index_05=每次运行主动消耗(§3反物质量§7 * 10000)^(1.5 - §5§l§nG§r§7) EU以产生反物质
     S:TileEntity_DESCRIPTION_32027_Index_06=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_32027_Index_07=每秒运行1次
+    S:TileEntity_DESCRIPTION_32027_Index_07=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_32027_Index_08=每次运行中，记录16个反物质仓中最低的反物质量
     S:TileEntity_DESCRIPTION_32027_Index_09=所有高于最低数量的仓室将会§c失去差值的一半!§7
     S:TileEntity_DESCRIPTION_32027_Index_10=若运行中能量或元始物质耗尽,§c10%的反物质将被销毁!§7
@@ -15606,7 +15711,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_32027_Index_13=该随机数服从平均值为0.2 + §b§l§nA§r§7，方差为1的正态分布
     S:TileEntity_DESCRIPTION_32027_Index_14=反物质的总产出可能为负！
     S:TileEntity_DESCRIPTION_32027_Index_15=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_32027_Index_16=可输入稳定化流体以提升反物质产出
+    S:TileEntity_DESCRIPTION_32027_Index_16=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_32027_Index_17=§a§l§nM§r§a-磁性稳定化§7 (每次运行消耗§3反物质量§7^0.5 L的流体)
     S:TileEntity_DESCRIPTION_32027_Index_18=1. 熔融纯镃 = §a0.1§7
     S:TileEntity_DESCRIPTION_32027_Index_19=2. 富快子时间流体 = §a0.2§7
@@ -15623,7 +15728,8 @@ languagefile {
     S:TileEntity_DESCRIPTION_32027_Index_30=2. 硅岩基流体燃料-MkVI(枯竭的) = §b0.10§7
     S:TileEntity_DESCRIPTION_32027_Index_31=每一类稳定化同时只能使用一种流体
     S:TileEntity_DESCRIPTION_32027_Index_32=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_32027_Index_33=按住 §l[LSHIFT]§r§7 以显示结构指导
+    S:TileEntity_DESCRIPTION_32027_Index_33=§7§m-----------------------------------------
+    S:TileEntity_DESCRIPTION_32027_Index_34=按住 §l[LSHIFT]§r§7 以显示结构指导
     S:TileEntity_DESCRIPTION_32027_Secondary_Index_00=§f大小§7(§6宽§7x§6高§7x§6长§7)：§653§7x§653§7x§647§7
     S:TileEntity_DESCRIPTION_32027_Secondary_Index_01=§f结构：
     S:TileEntity_DESCRIPTION_32027_Secondary_Index_02=§6   512x §r§7反物质隔离机械方块 (至少!)
@@ -15648,7 +15754,7 @@ languagefile {
     S:TileEntity_DESCRIPTION_32028_Index_09=效率公式：Min(§3反物质量§7/§6物质量§7, §6物质量§7/§3反物质量§7)
     S:TileEntity_DESCRIPTION_32028_Index_10=产生的多余EU将会§c湮灭！§7
     S:TileEntity_DESCRIPTION_32028_Index_11=§7§m-----------------------------------------
-    S:TileEntity_DESCRIPTION_32028_Index_12=能量产出公式：§a§l§nA§r§7*(§3反物质量§7)^§6§l§nE§r§7 EU/周期
+    S:TileEntity_DESCRIPTION_32028_Index_12=§7§m-----------------------------------------
     S:TileEntity_DESCRIPTION_32028_Index_13=每个周期不能生产超过9.2e18的EU
     S:TileEntity_DESCRIPTION_32028_Index_14=§a反物质基础发电量§7（§a§l§nA§r§7）：§a1.0e12§7 EU/L
     S:TileEntity_DESCRIPTION_32028_Index_15=§6能量产出增益§7（§6§l§nE§r§7）：
@@ -15770,7 +15876,6 @@ languagefile {
     S:TileEntity_DESCRIPTION_32765_Index_03=仓室等级：§4UHV§r
     S:TileEntity_DESCRIPTION_32765_Index_04=请勿阻塞输入！
     S:TileEntity_DESCRIPTION_32765_Index_05=从周围环境吸入空气
-    S:TileEntity_DESCRIPTION_32765_Index_06=每4t填满容量
     S:TileEntity_EUp_AMOUNT=电流：
     S:TileEntity_EUp_IN=输入电压：
     S:TileEntity_EUp_OUT=输出电压：
@@ -17448,6 +17553,8 @@ languagefile {
     S:fluid.molten.glass=熔融玻璃
     S:fluid.molten.glowstone=熔融荧石
     S:fluid.molten.gold=熔融金
+    S:fluid.molten.graniteblack=熔融黑花岗岩
+    S:fluid.molten.granitered=熔融红花岗岩
     S:fluid.molten.grisium=熔融灰钛合金
     S:fluid.molten.haderoth=熔融幻之铜
     S:fluid.molten.hafnium=熔融铪
@@ -17814,7 +17921,7 @@ languagefile {
     S:fluid.octane=辛烷
     S:fluid.oganesson=鿫
     S:"fluid.osmium solution"=锇溶液
-    S:fluid.oxalate=草酸
+    S:"fluid.oxalic acid"=草酸
     S:fluid.ozone=臭氧
     S:fluid.p-507=P-507
     S:"fluid.palladium enriched ammonia"=富钯氨
@@ -18427,38 +18534,12 @@ languagefile {
     S:gt.60k_NaK_Coolantcell.name=60k钠钾冷却单元
     S:gt.BWCircuitProgrammer.name=电路编程器
     S:gt.BWCircuitProgrammer.tooltip_main=为电路编程
-    S:gt.Core_Reactor_Cell.name="核心"单元
-    S:gt.Core_Reactor_CellDep.name=枯竭"核心"单元
-    S:gt.Double_MNqCell.name=二联燃料棒(Nq*-热量与发电同MOX)
-    S:gt.Double_MNqCellDep.name=枯竭二联燃料棒(Nq*)
-    S:gt.Double_Naquadahcell.name=二联燃料棒(硅岩)
-    S:gt.Double_NaquadahcellDep.name=枯竭二联燃料棒(硅岩)
-    S:gt.Double_Thoriumcell.name=二联燃料棒(钍)
-    S:gt.Double_ThoriumcellDep.name=枯竭二联燃料棒(钍)
-    S:gt.Double_Tiberiumcell.name=二联燃料棒(泰伯利亚)
-    S:gt.Double_TiberiumcellDep.name=枯竭二联燃料棒(泰伯利亚)
     S:gt.GregTech_FluidDisplay.name=流体显示
     S:gt.Item_Redstone_Sniffer.name=红石嗅探器
     S:gt.Item_Redstone_Sniffer.tooltip_main=这都是些什么频率？！
-    S:gt.MNqCell.name=燃料棒(Nq*-热量与发电同MOX)
-    S:gt.MNqCellDep.name=枯竭燃料棒(Nq*)
     S:gt.MaglevHarness.name=磁浮缰绳
-    S:gt.Naquadahcell.name=燃料棒(硅岩)
-    S:gt.NaquadahcellDep.name=枯竭燃料棒(硅岩)
     S:gt.Power_Goggles.name=能源护目镜
     S:gt.Power_Goggles.tooltip_main=以防你需要007监视你的能量储备
-    S:gt.Quad_MNqCell.name=四联燃料棒(Nq*-热量与发电同MOX)
-    S:gt.Quad_MNqCellDep.name=枯竭四联燃料棒(Nq*)
-    S:gt.Quad_Naquadahcell.name=四联燃料棒(硅岩)
-    S:gt.Quad_NaquadahcellDep.name=枯竭四联燃料棒(硅岩)
-    S:gt.Quad_Thoriumcell.name=四联燃料棒(钍)
-    S:gt.Quad_ThoriumcellDep.name=枯竭四联燃料棒(钍)
-    S:gt.Quad_Tiberiumcell.name=四联燃料棒(泰伯利亚)
-    S:gt.Quad_TiberiumcellDep.name=枯竭四联燃料棒(泰伯利亚)
-    S:gt.Thoriumcell.name=燃料棒(钍)
-    S:gt.ThoriumcellDep.name=枯竭燃料棒(钍)
-    S:gt.Tiberiumcell.name=燃料棒(泰伯利亚)
-    S:gt.TiberiumcellDep.name=枯竭燃料棒(泰伯利亚)
     S:gt.Tool_Vajra.name=金刚杵
     S:gt.Volumetric_Flask.name=容量瓶
     S:gt.Volumetric_Flask_32k.name=巨型容量瓶
@@ -18766,9 +18847,9 @@ languagefile {
     S:gt.blockframes.129.name=%material框架
     S:gt.blockframes.129.tooltip=Nt
     S:gt.blockframes.131.name=%material框架
-    S:gt.blockframes.131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockframes.131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockframes.132.name=%material框架
-    S:gt.blockframes.132.tooltip=NhAuMa*
+    S:gt.blockframes.132.tooltip=NrAuMa*
     S:gt.blockframes.134.name=%material框架
     S:gt.blockframes.134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.blockframes.139.name=%material框架
@@ -21706,6 +21787,8 @@ languagefile {
     S:gt.blockmachines.hatch.superbus.output.tier.09.name=超级输出总线(UHV)
     S:gt.blockmachines.hatch.turbine.input.tier.00.name=涡轮仓
     S:gt.blockmachines.hatch.turbine.name=转子仓
+    S:gt.blockmachines.hatch.void.tier.00.name=虚空仓
+    S:gt.blockmachines.hatch.void_bus.tier.00.name=虚空总线
     S:gt.blockmachines.hatch.water.intake.tier.00.name=蓄水仓
     S:gt.blockmachines.hatch.wireless.receiver.tier.00.name=ULV无线能源仓
     S:gt.blockmachines.hatch.wireless.receiver.tier.01.name=LV无线能源仓
@@ -22980,9 +23063,9 @@ languagefile {
     S:gt.blockores.1130.name=%material矿石
     S:gt.blockores.1130.tooltip=恒星
     S:gt.blockores.1131.name=%material矿石
-    S:gt.blockores.1131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.1131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.1132.name=%material矿石
-    S:gt.blockores.1132.tooltip=NhAuMa*
+    S:gt.blockores.1132.tooltip=NrAuMa*
     S:gt.blockores.1133.name=%material矿石
     S:gt.blockores.1133.tooltip=
     S:gt.blockores.1134.name=%material矿石
@@ -23008,7 +23091,7 @@ languagefile {
     S:gt.blockores.1144.name=%material矿石
     S:gt.blockores.1144.tooltip=§kX§r§7g§kX
     S:gt.blockores.1145.name=%material矿石
-    S:gt.blockores.1145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.1145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.1146.name=%material矿石
     S:gt.blockores.1146.tooltip=〄
     S:gt.blockores.1147.name=%material矿石
@@ -23126,7 +23209,7 @@ languagefile {
     S:gt.blockores.1309.name=%material矿石
     S:gt.blockores.1309.tooltip=AgRp₄
     S:gt.blockores.131.name=%material矿石
-    S:gt.blockores.131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.1310.name=%material矿石
     S:gt.blockores.1310.tooltip=CuNi
     S:gt.blockores.1311.name=%material矿石
@@ -23148,7 +23231,7 @@ languagefile {
     S:gt.blockores.1319.name=%material矿石
     S:gt.blockores.1319.tooltip=Ad
     S:gt.blockores.132.name=%material矿石
-    S:gt.blockores.132.tooltip=NhAuMa*
+    S:gt.blockores.132.tooltip=NrAuMa*
     S:gt.blockores.1320.name=%material矿石
     S:gt.blockores.1320.tooltip=化学式太长了……
     S:gt.blockores.1321.name=%material矿石
@@ -23370,7 +23453,7 @@ languagefile {
     S:gt.blockores.144.name=%material矿石
     S:gt.blockores.144.tooltip=§kX§r§7g§kX
     S:gt.blockores.145.name=%material矿石
-    S:gt.blockores.145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.146.name=%material矿石
     S:gt.blockores.146.tooltip=〄
     S:gt.blockores.1460.name=%material矿石
@@ -23828,9 +23911,9 @@ languagefile {
     S:gt.blockores.16130.name=贫瘠%material矿石
     S:gt.blockores.16130.tooltip=恒星
     S:gt.blockores.16131.name=贫瘠%material矿石
-    S:gt.blockores.16131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.16131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.16132.name=贫瘠%material矿石
-    S:gt.blockores.16132.tooltip=NhAuMa*
+    S:gt.blockores.16132.tooltip=NrAuMa*
     S:gt.blockores.16133.name=贫瘠%material矿石
     S:gt.blockores.16133.tooltip=
     S:gt.blockores.16134.name=贫瘠%material矿石
@@ -23858,7 +23941,7 @@ languagefile {
     S:gt.blockores.16144.name=贫瘠%material矿石
     S:gt.blockores.16144.tooltip=§kX§r§7g§kX
     S:gt.blockores.16145.name=贫瘠%material矿石
-    S:gt.blockores.16145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.16145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.16146.name=贫瘠%material矿石
     S:gt.blockores.16146.tooltip=〄
     S:gt.blockores.16147.name=贫瘠%material矿石
@@ -25516,9 +25599,9 @@ languagefile {
     S:gt.blockores.17130.name=贫瘠%material矿石
     S:gt.blockores.17130.tooltip=恒星
     S:gt.blockores.17131.name=贫瘠%material矿石
-    S:gt.blockores.17131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.17131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.17132.name=贫瘠%material矿石
-    S:gt.blockores.17132.tooltip=NhAuMa*
+    S:gt.blockores.17132.tooltip=NrAuMa*
     S:gt.blockores.17133.name=贫瘠%material矿石
     S:gt.blockores.17133.tooltip=
     S:gt.blockores.17134.name=贫瘠%material矿石
@@ -25546,7 +25629,7 @@ languagefile {
     S:gt.blockores.17144.name=贫瘠%material矿石
     S:gt.blockores.17144.tooltip=§kX§r§7g§kX
     S:gt.blockores.17145.name=贫瘠%material矿石
-    S:gt.blockores.17145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.17145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.17146.name=贫瘠%material矿石
     S:gt.blockores.17146.tooltip=〄
     S:gt.blockores.17147.name=贫瘠%material矿石
@@ -27200,9 +27283,9 @@ languagefile {
     S:gt.blockores.18130.name=贫瘠%material矿石
     S:gt.blockores.18130.tooltip=恒星
     S:gt.blockores.18131.name=贫瘠%material矿石
-    S:gt.blockores.18131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.18131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.18132.name=贫瘠%material矿石
-    S:gt.blockores.18132.tooltip=NhAuMa*
+    S:gt.blockores.18132.tooltip=NrAuMa*
     S:gt.blockores.18133.name=贫瘠%material矿石
     S:gt.blockores.18133.tooltip=
     S:gt.blockores.18134.name=贫瘠%material矿石
@@ -27230,7 +27313,7 @@ languagefile {
     S:gt.blockores.18144.name=贫瘠%material矿石
     S:gt.blockores.18144.tooltip=§kX§r§7g§kX
     S:gt.blockores.18145.name=贫瘠%material矿石
-    S:gt.blockores.18145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.18145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.18146.name=贫瘠%material矿石
     S:gt.blockores.18146.tooltip=〄
     S:gt.blockores.18147.name=贫瘠%material矿石
@@ -28866,9 +28949,9 @@ languagefile {
     S:gt.blockores.19130.name=贫瘠%material矿石
     S:gt.blockores.19130.tooltip=恒星
     S:gt.blockores.19131.name=贫瘠%material矿石
-    S:gt.blockores.19131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.19131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.19132.name=贫瘠%material矿石
-    S:gt.blockores.19132.tooltip=NhAuMa*
+    S:gt.blockores.19132.tooltip=NrAuMa*
     S:gt.blockores.19133.name=贫瘠%material矿石
     S:gt.blockores.19133.tooltip=
     S:gt.blockores.19134.name=贫瘠%material矿石
@@ -28896,7 +28979,7 @@ languagefile {
     S:gt.blockores.19144.name=贫瘠%material矿石
     S:gt.blockores.19144.tooltip=§kX§r§7g§kX
     S:gt.blockores.19145.name=贫瘠%material矿石
-    S:gt.blockores.19145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.19145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.19146.name=贫瘠%material矿石
     S:gt.blockores.19146.tooltip=〄
     S:gt.blockores.19147.name=贫瘠%material矿石
@@ -30522,9 +30605,9 @@ languagefile {
     S:gt.blockores.20130.name=贫瘠%material矿石
     S:gt.blockores.20130.tooltip=恒星
     S:gt.blockores.20131.name=贫瘠%material矿石
-    S:gt.blockores.20131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.20131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.20132.name=贫瘠%material矿石
-    S:gt.blockores.20132.tooltip=NhAuMa*
+    S:gt.blockores.20132.tooltip=NrAuMa*
     S:gt.blockores.20133.name=贫瘠%material矿石
     S:gt.blockores.20133.tooltip=
     S:gt.blockores.20134.name=贫瘠%material矿石
@@ -30552,7 +30635,7 @@ languagefile {
     S:gt.blockores.20144.name=贫瘠%material矿石
     S:gt.blockores.20144.tooltip=§kX§r§7g§kX
     S:gt.blockores.20145.name=贫瘠%material矿石
-    S:gt.blockores.20145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.20145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.20146.name=贫瘠%material矿石
     S:gt.blockores.20146.tooltip=〄
     S:gt.blockores.20147.name=贫瘠%material矿石
@@ -32170,9 +32253,9 @@ languagefile {
     S:gt.blockores.21130.name=贫瘠%material矿石
     S:gt.blockores.21130.tooltip=恒星
     S:gt.blockores.21131.name=贫瘠%material矿石
-    S:gt.blockores.21131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.21131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.21132.name=贫瘠%material矿石
-    S:gt.blockores.21132.tooltip=NhAuMa*
+    S:gt.blockores.21132.tooltip=NrAuMa*
     S:gt.blockores.21133.name=贫瘠%material矿石
     S:gt.blockores.21133.tooltip=
     S:gt.blockores.21134.name=贫瘠%material矿石
@@ -32198,7 +32281,7 @@ languagefile {
     S:gt.blockores.21144.name=贫瘠%material矿石
     S:gt.blockores.21144.tooltip=§kX§r§7g§kX
     S:gt.blockores.21145.name=贫瘠%material矿石
-    S:gt.blockores.21145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.21145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.21146.name=贫瘠%material矿石
     S:gt.blockores.21146.tooltip=〄
     S:gt.blockores.21147.name=贫瘠%material矿石
@@ -32312,7 +32395,7 @@ languagefile {
     S:gt.blockores.21309.name=贫瘠%material矿石
     S:gt.blockores.21309.tooltip=AgRp₄
     S:gt.blockores.2131.name=%material矿石
-    S:gt.blockores.2131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.2131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.21310.name=贫瘠%material矿石
     S:gt.blockores.21310.tooltip=CuNi
     S:gt.blockores.21311.name=贫瘠%material矿石
@@ -32334,7 +32417,7 @@ languagefile {
     S:gt.blockores.21319.name=贫瘠%material矿石
     S:gt.blockores.21319.tooltip=Ad
     S:gt.blockores.2132.name=%material矿石
-    S:gt.blockores.2132.tooltip=NhAuMa*
+    S:gt.blockores.2132.tooltip=NrAuMa*
     S:gt.blockores.21320.name=贫瘠%material矿石
     S:gt.blockores.21320.tooltip=化学式太长了……
     S:gt.blockores.21321.name=贫瘠%material矿石
@@ -32554,7 +32637,7 @@ languagefile {
     S:gt.blockores.2144.name=%material矿石
     S:gt.blockores.2144.tooltip=§kX§r§7g§kX
     S:gt.blockores.2145.name=%material矿石
-    S:gt.blockores.2145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.2145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.2146.name=%material矿石
     S:gt.blockores.2146.tooltip=〄
     S:gt.blockores.21460.name=贫瘠%material矿石
@@ -33764,9 +33847,9 @@ languagefile {
     S:gt.blockores.22130.name=贫瘠%material矿石
     S:gt.blockores.22130.tooltip=恒星
     S:gt.blockores.22131.name=贫瘠%material矿石
-    S:gt.blockores.22131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.22131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.22132.name=贫瘠%material矿石
-    S:gt.blockores.22132.tooltip=NhAuMa*
+    S:gt.blockores.22132.tooltip=NrAuMa*
     S:gt.blockores.22133.name=贫瘠%material矿石
     S:gt.blockores.22133.tooltip=
     S:gt.blockores.22134.name=贫瘠%material矿石
@@ -33792,7 +33875,7 @@ languagefile {
     S:gt.blockores.22144.name=贫瘠%material矿石
     S:gt.blockores.22144.tooltip=§kX§r§7g§kX
     S:gt.blockores.22145.name=贫瘠%material矿石
-    S:gt.blockores.22145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.22145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.22146.name=贫瘠%material矿石
     S:gt.blockores.22146.tooltip=〄
     S:gt.blockores.22147.name=贫瘠%material矿石
@@ -36508,9 +36591,9 @@ languagefile {
     S:gt.blockores.3130.name=%material矿石
     S:gt.blockores.3130.tooltip=恒星
     S:gt.blockores.3131.name=%material矿石
-    S:gt.blockores.3131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.3131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.3132.name=%material矿石
-    S:gt.blockores.3132.tooltip=NhAuMa*
+    S:gt.blockores.3132.tooltip=NrAuMa*
     S:gt.blockores.3133.name=%material矿石
     S:gt.blockores.3133.tooltip=
     S:gt.blockores.3134.name=%material矿石
@@ -36538,7 +36621,7 @@ languagefile {
     S:gt.blockores.3144.name=%material矿石
     S:gt.blockores.3144.tooltip=§kX§r§7g§kX
     S:gt.blockores.3145.name=%material矿石
-    S:gt.blockores.3145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.3145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.3146.name=%material矿石
     S:gt.blockores.3146.tooltip=〄
     S:gt.blockores.3147.name=%material矿石
@@ -38203,9 +38286,9 @@ languagefile {
     S:gt.blockores.4130.name=%material矿石
     S:gt.blockores.4130.tooltip=恒星
     S:gt.blockores.4131.name=%material矿石
-    S:gt.blockores.4131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.4131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.4132.name=%material矿石
-    S:gt.blockores.4132.tooltip=NhAuMa*
+    S:gt.blockores.4132.tooltip=NrAuMa*
     S:gt.blockores.4133.name=%material矿石
     S:gt.blockores.4133.tooltip=
     S:gt.blockores.4134.name=%material矿石
@@ -38233,7 +38316,7 @@ languagefile {
     S:gt.blockores.4144.name=%material矿石
     S:gt.blockores.4144.tooltip=§kX§r§7g§kX
     S:gt.blockores.4145.name=%material矿石
-    S:gt.blockores.4145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.4145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.4146.name=%material矿石
     S:gt.blockores.4146.tooltip=〄
     S:gt.blockores.4147.name=%material矿石
@@ -39761,9 +39844,9 @@ languagefile {
     S:gt.blockores.5130.name=%material矿石
     S:gt.blockores.5130.tooltip=恒星
     S:gt.blockores.5131.name=%material矿石
-    S:gt.blockores.5131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.5131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.5132.name=%material矿石
-    S:gt.blockores.5132.tooltip=NhAuMa*
+    S:gt.blockores.5132.tooltip=NrAuMa*
     S:gt.blockores.5133.name=%material矿石
     S:gt.blockores.5133.tooltip=
     S:gt.blockores.5134.name=%material矿石
@@ -39791,7 +39874,7 @@ languagefile {
     S:gt.blockores.5144.name=%material矿石
     S:gt.blockores.5144.tooltip=§kX§r§7g§kX
     S:gt.blockores.5145.name=%material矿石
-    S:gt.blockores.5145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.5145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.5146.name=%material矿石
     S:gt.blockores.5146.tooltip=〄
     S:gt.blockores.5147.name=%material矿石
@@ -41435,9 +41518,9 @@ languagefile {
     S:gt.blockores.6130.name=%material矿石
     S:gt.blockores.6130.tooltip=恒星
     S:gt.blockores.6131.name=%material矿石
-    S:gt.blockores.6131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.blockores.6131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.blockores.6132.name=%material矿石
-    S:gt.blockores.6132.tooltip=NhAuMa*
+    S:gt.blockores.6132.tooltip=NrAuMa*
     S:gt.blockores.6133.name=%material矿石
     S:gt.blockores.6133.tooltip=
     S:gt.blockores.6134.name=%material矿石
@@ -41465,7 +41548,7 @@ languagefile {
     S:gt.blockores.6144.name=%material矿石
     S:gt.blockores.6144.tooltip=§kX§r§7g§kX
     S:gt.blockores.6145.name=%material矿石
-    S:gt.blockores.6145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.blockores.6145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.blockores.6146.name=%material矿石
     S:gt.blockores.6146.tooltip=〄
     S:gt.blockores.6147.name=%material矿石
@@ -43733,6 +43816,39 @@ languagefile {
     S:gt.bwMetaGeneratedtoolHeadWrench.name=Generated Item
     S:gt.bwMetaGeneratedturbineBlade.name=Generated Item
     S:gt.bwMetaGeneratedwireFine.name=Generated Item
+    S:gt.depletedRodExcitedPlutonium.name=燃料棒（枯竭激发钚） 
+    S:gt.depletedRodExcitedPlutonium2.name=二联燃料棒（枯竭激发钚）
+    S:gt.depletedRodExcitedPlutonium4.name=四联燃料棒（枯竭激发钚） 
+    S:gt.depletedRodExcitedUranium.name=燃料棒（枯竭激发铀）
+    S:gt.depletedRodExcitedUranium2.name=二联燃料棒（枯竭激发铀）
+    S:gt.depletedRodExcitedUranium4.name=四联燃料棒（枯竭激发铀）
+    S:gt.depletedRodGlowstone.name=燃料棒（阳光化合物）
+    S:gt.depletedRodHighDensityPlutonium.name=燃料棒（枯竭浓缩钚）
+    S:gt.depletedRodHighDensityPlutonium2.name=二联燃料棒（枯竭浓缩钚）
+    S:gt.depletedRodHighDensityPlutonium4.name=四联燃料棒（枯竭浓缩钚）
+    S:gt.depletedRodHighDensityUranium.name=燃料棒（枯竭浓缩铀）
+    S:gt.depletedRodHighDensityUranium2.name=二联燃料棒（枯竭浓缩铀）
+    S:gt.depletedRodHighDensityUranium4.name=四联燃料棒（枯竭浓缩铀）
+    S:gt.depletedRodLithium.name=燃料棒（氚）
+    S:gt.depletedRodMOX.name=燃料棒（枯竭MOX）
+    S:gt.depletedRodMOX2.name=二联燃料棒（枯竭MOX）
+    S:gt.depletedRodMOX4.name=四联燃料棒（枯竭MOX）
+    S:gt.depletedRodNaquadah.name=燃料棒（枯竭硅岩）
+    S:gt.depletedRodNaquadah2.name=二联燃料棒（枯竭硅岩）
+    S:gt.depletedRodNaquadah32.name=“核心”（枯竭）
+    S:gt.depletedRodNaquadah4.name=四联燃料棒（枯竭硅岩）
+    S:gt.depletedRodNaquadria.name=燃料棒（枯竭超能硅岩）
+    S:gt.depletedRodNaquadria2.name=二联燃料棒（枯竭超能硅岩）
+    S:gt.depletedRodNaquadria4.name=四联燃料棒（枯竭超能硅岩）
+    S:gt.depletedRodThorium.name=燃料棒（枯竭钍） 
+    S:gt.depletedRodThorium2.name=二联燃料棒（枯竭钍）
+    S:gt.depletedRodThorium4.name=四联燃料棒（枯竭钍） 
+    S:gt.depletedRodTiberium.name=燃料棒（枯竭泰伯利亚）
+    S:gt.depletedRodTiberium2.name=二联燃料棒（枯竭泰伯利亚）
+    S:gt.depletedRodTiberium4.name=四联燃料棒（枯竭泰伯利亚）
+    S:gt.depletedRodUranium.name=燃料棒（枯竭铀）
+    S:gt.depletedRodUranium2.name=二联燃料棒（枯竭铀）
+    S:gt.depletedRodUranium4.name=四联燃料棒（枯竭铀）
     S:gt.detrav.metatool.01.10.name=探矿仪(IV)
     S:gt.detrav.metatool.01.10.tooltip=
     S:gt.detrav.metatool.01.100.name=电子探矿仪(LuV)
@@ -43819,8 +43935,6 @@ languagefile {
     S:gt.ggfab.d1.7.name=一次性锯子
     S:gt.ggfab.d1.7.tooltip=
     S:gt.ggfab.d1.name=Generated Item
-    S:gt.glowstoneCell.name=荧石燃料棒
-    S:gt.glowstoneCell.tooltip_main=阳光化合物的原料
     S:gt.godforgecasing.0.name=奇点强化恒星屏蔽机械方块
     S:gt.godforgecasing.1.name=天体物质引导机械方块
     S:gt.godforgecasing.2.name=无界引力隔绝机械方块
@@ -44121,9 +44235,9 @@ languagefile {
     S:gt.metaitem.01.11129.name=%material锭
     S:gt.metaitem.01.11129.tooltip=Nt
     S:gt.metaitem.01.11131.name=%material锭
-    S:gt.metaitem.01.11131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.11131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.11132.name=%material锭
-    S:gt.metaitem.01.11132.tooltip=NhAuMa*
+    S:gt.metaitem.01.11132.tooltip=NrAuMa*
     S:gt.metaitem.01.11134.name=%material锭
     S:gt.metaitem.01.11134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.11139.name=%material锭
@@ -44175,7 +44289,7 @@ languagefile {
     S:gt.metaitem.01.11309.name=%material锭
     S:gt.metaitem.01.11309.tooltip=AgRp₄
     S:gt.metaitem.01.1131.name=小堆%material粉
-    S:gt.metaitem.01.1131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.1131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.11310.name=%material锭
     S:gt.metaitem.01.11310.tooltip=CuNi
     S:gt.metaitem.01.11311.name=%material锭
@@ -44197,7 +44311,7 @@ languagefile {
     S:gt.metaitem.01.11319.name=%material锭
     S:gt.metaitem.01.11319.tooltip=Ad
     S:gt.metaitem.01.1132.name=小堆%material粉
-    S:gt.metaitem.01.1132.tooltip=NhAuMa*
+    S:gt.metaitem.01.1132.tooltip=NrAuMa*
     S:gt.metaitem.01.11320.name=%material锭
     S:gt.metaitem.01.11320.tooltip=化学式太长了……
     S:gt.metaitem.01.11321.name=%material锭
@@ -44549,9 +44663,9 @@ languagefile {
     S:gt.metaitem.01.12129.name=热%material锭
     S:gt.metaitem.01.12129.tooltip=Nt
     S:gt.metaitem.01.12131.name=热%material锭
-    S:gt.metaitem.01.12131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.12131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.12132.name=热%material锭
-    S:gt.metaitem.01.12132.tooltip=NhAuMa*
+    S:gt.metaitem.01.12132.tooltip=NrAuMa*
     S:gt.metaitem.01.12134.name=热%material锭
     S:gt.metaitem.01.12134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.12141.name=热%material锭
@@ -44757,7 +44871,7 @@ languagefile {
     S:gt.metaitem.01.1309.name=小堆%material粉
     S:gt.metaitem.01.1309.tooltip=AgRp₄
     S:gt.metaitem.01.131.name=小撮%material粉
-    S:gt.metaitem.01.131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.1310.name=小堆%material粉
     S:gt.metaitem.01.1310.tooltip=CuNi
     S:gt.metaitem.01.1311.name=小堆%material粉
@@ -44779,7 +44893,7 @@ languagefile {
     S:gt.metaitem.01.1319.name=小堆%material粉
     S:gt.metaitem.01.1319.tooltip=Ad
     S:gt.metaitem.01.132.name=小撮%material粉
-    S:gt.metaitem.01.132.tooltip=NhAuMa*
+    S:gt.metaitem.01.132.tooltip=NrAuMa*
     S:gt.metaitem.01.1320.name=小堆%material粉
     S:gt.metaitem.01.1320.tooltip=化学式太长了……
     S:gt.metaitem.01.1321.name=小堆%material粉
@@ -45321,9 +45435,9 @@ languagefile {
     S:gt.metaitem.01.17129.name=%material板
     S:gt.metaitem.01.17129.tooltip=Nt
     S:gt.metaitem.01.17131.name=%material板
-    S:gt.metaitem.01.17131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.17131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.17132.name=%material板
-    S:gt.metaitem.01.17132.tooltip=NhAuMa*
+    S:gt.metaitem.01.17132.tooltip=NrAuMa*
     S:gt.metaitem.01.17134.name=%material板
     S:gt.metaitem.01.17134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.17139.name=%material板
@@ -46009,9 +46123,9 @@ languagefile {
     S:gt.metaitem.01.1813.name=小堆%material粉
     S:gt.metaitem.01.1813.tooltip=
     S:gt.metaitem.01.18131.name=双重%material板
-    S:gt.metaitem.01.18131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.18131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.18132.name=双重%material板
-    S:gt.metaitem.01.18132.tooltip=NhAuMa*
+    S:gt.metaitem.01.18132.tooltip=NrAuMa*
     S:gt.metaitem.01.18134.name=双重%material板
     S:gt.metaitem.01.18134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.18139.name=双重%material板
@@ -47101,7 +47215,7 @@ languagefile {
     S:gt.metaitem.01.21306.name=五重%material板
     S:gt.metaitem.01.21306.tooltip=Fe₆CrMnNi
     S:gt.metaitem.01.2131.name=%material粉
-    S:gt.metaitem.01.2131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.2131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.21316.name=五重%material板
     S:gt.metaitem.01.21316.tooltip=(Fe₅C)W
     S:gt.metaitem.01.21317.name=五重%material板
@@ -47111,7 +47225,7 @@ languagefile {
     S:gt.metaitem.01.21319.name=五重%material板
     S:gt.metaitem.01.21319.tooltip=Ad
     S:gt.metaitem.01.2132.name=%material粉
-    S:gt.metaitem.01.2132.tooltip=NhAuMa*
+    S:gt.metaitem.01.2132.tooltip=NrAuMa*
     S:gt.metaitem.01.21324.name=五重%material板
     S:gt.metaitem.01.21324.tooltip=Nq
     S:gt.metaitem.01.21327.name=五重%material板
@@ -47339,9 +47453,9 @@ languagefile {
     S:gt.metaitem.01.22129.name=致密%material板
     S:gt.metaitem.01.22129.tooltip=Nt
     S:gt.metaitem.01.22131.name=致密%material板
-    S:gt.metaitem.01.22131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.22131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.22132.name=致密%material板
-    S:gt.metaitem.01.22132.tooltip=NhAuMa*
+    S:gt.metaitem.01.22132.tooltip=NrAuMa*
     S:gt.metaitem.01.22134.name=致密%material板
     S:gt.metaitem.01.22134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.22139.name=致密%material板
@@ -47855,9 +47969,9 @@ languagefile {
     S:gt.metaitem.01.2313.name=%material粉
     S:gt.metaitem.01.2313.tooltip=MgAl₂
     S:gt.metaitem.01.23131.name=%material杆
-    S:gt.metaitem.01.23131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.23131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.23132.name=%material杆
-    S:gt.metaitem.01.23132.tooltip=NhAuMa*
+    S:gt.metaitem.01.23132.tooltip=NrAuMa*
     S:gt.metaitem.01.23134.name=%material杆
     S:gt.metaitem.01.23134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.23139.name=%material杆
@@ -48743,9 +48857,9 @@ languagefile {
     S:gt.metaitem.01.2513.name=%material粉
     S:gt.metaitem.01.2513.tooltip=Al₂SiF₂H₂O₆
     S:gt.metaitem.01.25131.name=%material滚珠
-    S:gt.metaitem.01.25131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.25131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.25132.name=%material滚珠
-    S:gt.metaitem.01.25132.tooltip=NhAuMa*
+    S:gt.metaitem.01.25132.tooltip=NrAuMa*
     S:gt.metaitem.01.25134.name=%material滚珠
     S:gt.metaitem.01.25134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.25139.name=%material滚珠
@@ -49353,9 +49467,9 @@ languagefile {
     S:gt.metaitem.01.2613.name=%material粉
     S:gt.metaitem.01.2613.tooltip=NiZnFe₄O₈
     S:gt.metaitem.01.26131.name=%material螺栓
-    S:gt.metaitem.01.26131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.26131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.26132.name=%material螺栓
-    S:gt.metaitem.01.26132.tooltip=NhAuMa*
+    S:gt.metaitem.01.26132.tooltip=NrAuMa*
     S:gt.metaitem.01.26134.name=%material螺栓
     S:gt.metaitem.01.26134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.26139.name=%material螺栓
@@ -50001,9 +50115,9 @@ languagefile {
     S:gt.metaitem.01.27129.name=%material螺丝
     S:gt.metaitem.01.27129.tooltip=Nt
     S:gt.metaitem.01.27131.name=%material螺丝
-    S:gt.metaitem.01.27131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.27131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.27132.name=%material螺丝
-    S:gt.metaitem.01.27132.tooltip=NhAuMa*
+    S:gt.metaitem.01.27132.tooltip=NrAuMa*
     S:gt.metaitem.01.27134.name=%material螺丝
     S:gt.metaitem.01.27134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.27139.name=%material螺丝
@@ -50659,9 +50773,9 @@ languagefile {
     S:gt.metaitem.01.2813.name=%material粉
     S:gt.metaitem.01.2813.tooltip=
     S:gt.metaitem.01.28131.name=%material环
-    S:gt.metaitem.01.28131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.28131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.28132.name=%material环
-    S:gt.metaitem.01.28132.tooltip=NhAuMa*
+    S:gt.metaitem.01.28132.tooltip=NrAuMa*
     S:gt.metaitem.01.28134.name=%material环
     S:gt.metaitem.01.28134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.28139.name=%material环
@@ -51337,9 +51451,9 @@ languagefile {
     S:gt.metaitem.01.2913.name=%material粉
     S:gt.metaitem.01.2913.tooltip=As₄S₄
     S:gt.metaitem.01.29131.name=%material箔
-    S:gt.metaitem.01.29131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.29131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.29132.name=%material箔
-    S:gt.metaitem.01.29132.tooltip=NhAuMa*
+    S:gt.metaitem.01.29132.tooltip=NrAuMa*
     S:gt.metaitem.01.29134.name=%material箔
     S:gt.metaitem.01.29134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.29139.name=%material箔
@@ -51909,7 +52023,7 @@ languagefile {
     S:gt.metaitem.01.30144.name=%material单元
     S:gt.metaitem.01.30144.tooltip=§kX§r§7g§kX
     S:gt.metaitem.01.30145.name=%material单元
-    S:gt.metaitem.01.30145.tooltip=((Si₅O₁₀Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
+    S:gt.metaitem.01.30145.tooltip=((Si₅O₁Fe)₃(Bi₂Te₃)₄ZrO₂Fe₅C)₅Og*Pr₁₅((C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅)₆〄₄
     S:gt.metaitem.01.30146.name=%material单元
     S:gt.metaitem.01.30146.tooltip=〄
     S:gt.metaitem.01.30151.name=%material单元
@@ -56829,7 +56943,7 @@ languagefile {
     S:gt.metaitem.01.913.name=小撮%material粉
     S:gt.metaitem.01.913.tooltip=As₄S₄
     S:gt.metaitem.01.9131.name=%material粒
-    S:gt.metaitem.01.9131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.01.9131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.01.9134.name=%material粒
     S:gt.metaitem.01.9134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.01.9139.name=%material粒
@@ -58424,9 +58538,9 @@ languagefile {
     S:gt.metaitem.02.18129.name=%material外壳
     S:gt.metaitem.02.18129.tooltip=Nt
     S:gt.metaitem.02.18131.name=%material外壳
-    S:gt.metaitem.02.18131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.02.18131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.02.18132.name=%material外壳
-    S:gt.metaitem.02.18132.tooltip=NhAuMa*
+    S:gt.metaitem.02.18132.tooltip=NrAuMa*
     S:gt.metaitem.02.18134.name=%material外壳
     S:gt.metaitem.02.18134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.02.18139.name=%material外壳
@@ -58990,7 +59104,7 @@ languagefile {
     S:gt.metaitem.02.19129.name=细%material导线
     S:gt.metaitem.02.19129.tooltip=Nt
     S:gt.metaitem.02.19131.name=细%material导线
-    S:gt.metaitem.02.19131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.02.19131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.02.19134.name=细%material导线
     S:gt.metaitem.02.19134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.02.19139.name=细%material导线
@@ -59310,7 +59424,7 @@ languagefile {
     S:gt.metaitem.02.20129.name=小型%material齿轮
     S:gt.metaitem.02.20129.tooltip=Nt
     S:gt.metaitem.02.20132.name=小型%material齿轮
-    S:gt.metaitem.02.20132.tooltip=NhAuMa*
+    S:gt.metaitem.02.20132.tooltip=NrAuMa*
     S:gt.metaitem.02.20139.name=小型%material齿轮
     S:gt.metaitem.02.20139.tooltip=时空裂缝
     S:gt.metaitem.02.20141.name=小型%material齿轮
@@ -59656,7 +59770,7 @@ languagefile {
     S:gt.metaitem.02.21129.name=%material转子
     S:gt.metaitem.02.21129.tooltip=Nt
     S:gt.metaitem.02.21132.name=%material转子
-    S:gt.metaitem.02.21132.tooltip=NhAuMa*
+    S:gt.metaitem.02.21132.tooltip=NrAuMa*
     S:gt.metaitem.02.21139.name=%material转子
     S:gt.metaitem.02.21139.tooltip=时空裂缝
     S:gt.metaitem.02.21141.name=%material转子
@@ -60044,9 +60158,9 @@ languagefile {
     S:gt.metaitem.02.22129.name=长%material杆
     S:gt.metaitem.02.22129.tooltip=Nt
     S:gt.metaitem.02.22131.name=长%material杆
-    S:gt.metaitem.02.22131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.02.22131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.02.22132.name=长%material杆
-    S:gt.metaitem.02.22132.tooltip=NhAuMa*
+    S:gt.metaitem.02.22132.tooltip=NrAuMa*
     S:gt.metaitem.02.22134.name=长%material杆
     S:gt.metaitem.02.22134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.02.22139.name=长%material杆
@@ -60632,7 +60746,7 @@ languagefile {
     S:gt.metaitem.02.23129.name=小型%material弹簧
     S:gt.metaitem.02.23129.tooltip=Nt
     S:gt.metaitem.02.23131.name=小型%material弹簧
-    S:gt.metaitem.02.23131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.02.23131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.02.23134.name=小型%material弹簧
     S:gt.metaitem.02.23134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.02.23139.name=小型%material弹簧
@@ -61106,7 +61220,7 @@ languagefile {
     S:gt.metaitem.02.24129.name=%material弹簧
     S:gt.metaitem.02.24129.tooltip=Nt
     S:gt.metaitem.02.24131.name=%material弹簧
-    S:gt.metaitem.02.24131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.02.24131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.02.24134.name=%material弹簧
     S:gt.metaitem.02.24134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.02.24139.name=%material弹簧
@@ -61648,7 +61762,7 @@ languagefile {
     S:gt.metaitem.02.31129.name=%material齿轮
     S:gt.metaitem.02.31129.tooltip=Nt
     S:gt.metaitem.02.31132.name=%material齿轮
-    S:gt.metaitem.02.31132.tooltip=NhAuMa*
+    S:gt.metaitem.02.31132.tooltip=NrAuMa*
     S:gt.metaitem.02.31139.name=%material齿轮
     S:gt.metaitem.02.31139.tooltip=时空裂缝
     S:gt.metaitem.02.31141.name=%material齿轮
@@ -62346,6 +62460,7 @@ languagefile {
     S:gt.metaitem.02.32765.name=免费！
     S:gt.metaitem.02.32765.tooltip=(至少几乎免费)
     S:gt.metaitem.02.32765.with.ItSFreePlaceLavaOnSide.name=免费！在侧面放置岩浆
+    S:gt.metaitem.02.32765.with.ItSFreePlaceLavaOnTop.name=免费！在顶部放置岩浆
     S:gt.metaitem.02.5008.name=%material锤头
     S:gt.metaitem.02.5008.tooltip=Be
     S:gt.metaitem.02.5010.name=%material锤头
@@ -65230,9 +65345,9 @@ languagefile {
     S:gt.metaitem.03.6129.name=超致密%material板
     S:gt.metaitem.03.6129.tooltip=Nt
     S:gt.metaitem.03.6131.name=超致密%material板
-    S:gt.metaitem.03.6131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.03.6131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.03.6132.name=超致密%material板
-    S:gt.metaitem.03.6132.tooltip=NhAuMa*
+    S:gt.metaitem.03.6132.tooltip=NrAuMa*
     S:gt.metaitem.03.6134.name=超致密%material板
     S:gt.metaitem.03.6134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.03.6139.name=超致密%material板
@@ -65702,7 +65817,7 @@ languagefile {
     S:gt.metaitem.99.129.name=熔融%material单元
     S:gt.metaitem.99.129.tooltip=Nt
     S:gt.metaitem.99.131.name=熔融%material单元
-    S:gt.metaitem.99.131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁₀(Fs⚶)₆(⌘☯☯⌘)₅
+    S:gt.metaitem.99.131.tooltip=(C₁₄Os₁₁O₇Ag₃SpH₂O)₄?₁(Fs⚶)₆(⌘☯☯⌘)₅
     S:gt.metaitem.99.134.name=熔融%material单元
     S:gt.metaitem.99.134.tooltip=?₆Or₃(Hy⚶)₁₁(((CW)₇Ti₃)₃)₅۞₂
     S:gt.metaitem.99.13642.name=轻度蒸汽裂化%material单元
@@ -66165,8 +66280,12 @@ languagefile {
     S:gt.metaitem.99.83.tooltip=Os
     S:gt.metaitem.99.84.name=熔融%material单元
     S:gt.metaitem.99.84.tooltip=Ir
+    S:gt.metaitem.99.849.name=熔融%material单元
+    S:gt.metaitem.99.849.tooltip=(SiO₂)₄(KMg₃Al₃F₂Si₃O₁)
     S:gt.metaitem.99.85.name=熔融%material单元
     S:gt.metaitem.99.85.tooltip=Pt
+    S:gt.metaitem.99.850.name=熔融%material单元
+    S:gt.metaitem.99.850.tooltip=Al₂(KAlSi₃O₈)O₃
     S:gt.metaitem.99.856.name=熔融%material单元
     S:gt.metaitem.99.856.tooltip=Si*
     S:gt.metaitem.99.86.name=熔融%material单元
@@ -66445,12 +66564,6 @@ languagefile {
     S:gt.plusplus.metatool.01.7935.name=自动剪线钳(空)
     S:gt.plusplus.metatool.01.7935.tooltip=你需要为其充电
     S:gt.plusplus.metatool.01.name=Generated Item
-    S:gt.reactorMOXDual.name=二联燃料棒(MOX)
-    S:gt.reactorMOXQuad.name=四联燃料棒(MOX)
-    S:gt.reactorMOXSimple.name=燃料棒(MOX)
-    S:gt.reactorUraniumDual.name=二联燃料棒(铀)
-    S:gt.reactorUraniumQuad.name=四联燃料棒(铀)
-    S:gt.reactorUraniumSimple.name=燃料棒(铀)
     S:gt.research.page.1.GT_ADVANCEDMETALLURGY=你已经掌握了所有基础金属的冶炼方法。凭借着这些经验，你的魔法冶金水平上升到新的高度——你终于可以制作出更多高级金属了。
     S:gt.research.page.1.GT_CRYSTALLISATION=在你处理水晶碎片时你时常会得到一堆粉末而不是你所需的源质碎片。<BR><BR>这很令人头疼；但最终你找到了一种方法，通过使用晶体(Vitreus)源质来逆转该过程，使碎片重结晶.
     S:gt.research.page.1.GT_FILL_WATER_BUCKET=你发现了一种方法用水(Aqua)源质来给空桶装满水.
@@ -66477,6 +66590,41 @@ languagefile {
     S:gt.research.page.1.GT_TRANSSOLDERINGALLOY=青铜嬗变术的发现让你得出了它对其他合金同样有效的结论——比如，对于焊锡.
     S:gt.research.page.1.GT_TRANSZINC=你发现了如何从金属提取§5metallum§0源质并将其转换为锌粒的方法.
     S:gt.research.page.1.GT_WOOD_TO_CHARCOAL=你发现了一种用魔法的方法而不是通常的加热法来制作木炭.<BR><BR>制作木炭首先要隔绝空气,因此需要一些虚空(Vacuus)源质,其次要用火(Ignis)源质灼烧木头直至其中的水分全部被蒸发.<BR><BR>然而这种方法不会产生杂酚油这样的副产品.
+    S:gt.rodExcitedPlutonium.name=燃料棒（激发钚）
+    S:gt.rodExcitedPlutonium2.name=燃料棒（激发钚）
+    S:gt.rodExcitedPlutonium4.name=燃料棒（激发钚）
+    S:gt.rodExcitedUranium.name=燃料棒（激发铀）
+    S:gt.rodExcitedUranium2.name=二联燃料棒（激发铀）
+    S:gt.rodExcitedUranium4.name=四联燃料棒（激发铀）
+    S:gt.rodGlowstone.name=燃料棒（荧石）
+    S:gt.rodGlowstone.tooltip_main=阳光化合物的来源
+    S:gt.rodHighDensityPlutonium.name=燃料棒（浓缩钚）
+    S:gt.rodHighDensityPlutonium2.name=二联燃料棒（浓缩钚）
+    S:gt.rodHighDensityPlutonium4.name=四联燃料棒（浓缩钚）
+    S:gt.rodHighDensityUranium.name=燃料棒（浓缩铀）
+    S:gt.rodHighDensityUranium2.name=二联燃料棒（浓缩铀）
+    S:gt.rodHighDensityUranium4.name=四联燃料棒（浓缩铀）
+    S:gt.rodLithium.name=燃料棒（锂）
+    S:gt.rodLithium.tooltip_main=氚的来源
+    S:gt.rodMOX.name=燃料棒（Mox）
+    S:gt.rodMOX2.name=二联燃料棒（Mox）
+    S:gt.rodMOX4.name=四联燃料棒（Mox）
+    S:gt.rodNaquadah.name=燃料棒（硅岩）
+    S:gt.rodNaquadah2.name=二联燃料棒（硅岩）
+    S:gt.rodNaquadah32.name=“核心”
+    S:gt.rodNaquadah4.name=四联燃料棒（硅岩）
+    S:gt.rodNaquadria.name=燃料棒（超能硅岩）
+    S:gt.rodNaquadria2.name=二联燃料棒（超能硅岩）
+    S:gt.rodNaquadria4.name=四联燃料棒（超能硅岩）
+    S:gt.rodThorium.name=燃料棒（钍）
+    S:gt.rodThorium2.name=二联燃料棒（钍）
+    S:gt.rodThorium4.name=四联燃料棒（钍）
+    S:gt.rodTiberium.name=燃料棒（泰伯利亚）
+    S:gt.rodTiberium2.name=二联燃料棒（泰伯利亚）
+    S:gt.rodTiberium4.name=四联燃料棒（泰伯利亚）
+    S:gt.rodUranium.name=燃料棒（铀）
+    S:gt.rodUranium2.name=二联燃料棒（铀）
+    S:gt.rodUranium4.name=四联燃料棒（铀）
     S:gt.runfastertooltip=这个方块上你可以走得更快
     S:gt.sensorcard.name=传感器卡片[GT]
     S:gt.sensorcard.tooltip_main=插入核电控制的显示屏中
@@ -66500,7 +66648,6 @@ languagefile {
     S:gt.stabilisation_field_generator.6.name=§f完美§r稳定力场发生器
     S:gt.stabilisation_field_generator.7.name=§f太初§r稳定力场发生器
     S:gt.stabilisation_field_generator.8.name=§f§l鸿蒙§r稳定力场发生器
-    S:gt.sunnariumCell.name=阳光化合物燃料棒
     S:gt.tierdDrone0.name=无人机(T1)
     S:gt.tierdDrone0.tooltip_main=四旋翼稳定小型飞行器
     S:gt.tierdDrone1.name=无人机(T2)

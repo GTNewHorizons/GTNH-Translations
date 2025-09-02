@@ -184,3 +184,81 @@ salisarcana:misc.arcane_pressure_plate.everyone=现在它所有情况都会触�
 salisarcana:misc.arcane_pressure_plate.not_you=现在它会触发除你之外的所有目标。
 salisarcana:misc.arcane_pressure_plate.only_you=现在只会对你触发。
 salisarcana:misc.mirror.already_linked=该镜子已经链接到了一个有效的目的地。
+
+salisarcana:misc.arcane_key.creator=§5§o创建者：%s
+salisarcana:misc.arcane_key.dimension=（维度 %s）
+
+item.Wand.salisarcana:unknown.cap=[INVALID CAP]
+item.Wand.salisarcana:unknown.rod=[INVALID CORE]
+salisarcana:unknown_wand.craft=§4Place in a crafting grid to clear all invalid components.
+
+salisarcana:error.preface=Salis Arcana Error: 
+salisarcana:error.potion_id_limit=%s was assigned id %d, which is above the safe limit of 127. If the limit has been raised through another mod, please set _uncapped_potion_ids to `true` in the Salis Arcana feature configs.
+salisarcana:error.potion_id_claimed=%s could not be given id %d as configured because that id has been assigned to a different potion effect.
+salisaracan:error.potion_array_too_long=No more unassigned potion ids could be found within the safe limit. If the limit has been raised through another mod, please set _uncapped_potion_ids to `true` in the Salis Arcana feature configs.
+
+salisarcana:wand_part.show_details=§8Hold §6CTRL§8 to show Thaumcraft Wand stats
+salisarcana:wand_part.cannot_preserve_node=§4Cannot preserve nodes!
+salisarcana:wand_cap.vis_discount.generic=§5Discount: %s
+salisarcana:wand_cap.vis_discount.aspect=%s §5Discount: %s
+salisarcana:wand_cap.price_mult=§3Crafting Cost Multiplier: §e%sx
+salisarcana:wand_rod.vis_capacity=§5Capacity: §d%s vis
+salisarcana:wand_rod.base_price=§3Base Crafting Cost: §d%s vis
+salisarcana:wand_rod.runes=§5+1 Potency§2 for any equipped focus
+
+salisarcana:wand_rod.special.obsidian=§5Regenerates §21 Terra§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.obsidian_staff=§5Regenerates §21 Terra§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.blaze=§5Regenerates §c1 Ignis§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.blaze_staff=§5Regenerates §c1 Ignis§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.ice=§5Regenerates §31 Aqua§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.ice_staff=§5Regenerates §31 Aqua§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.quartz=§5Regenerates §71 Ordo§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.quartz_staff=§5Regenerates §71 Ordo§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.bone=§5Regenerates §81 Perditio§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.bone_staff=§5Regenerates §81 Perditio§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.reed=§5Regenerates §e1 Aer§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.reed_staff=§5Regenerates §e1 Aer§d vis§5 every 10 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.primal_staff=§5Regenerates §d1 vis§5 of a random uncapped aspect every 2.5 seconds (max §d10% vis§5)
+
+salisarcana:wand_rod.special.warpwood=§5Regenerates §d1 vis§5 of every aspect, rate increases the more permanent warp you have (max §d100% vis§5)
+salisarcana:wand_rod.special.warpwood_staff=§5Regenerates §d1 vis§5 of every aspect, rate increases the more permanent warp you have (max §d100% vis§5)
+
+salisarcana:wand_rod.special.AMBER=§5Regenerates §d1 vis§5 of every aspect every 5 seconds (max §d100% vis§5)
+salisarcana:wand_rod.special.AMBER_staff=§5Regenerates §d1 vis§5 of every aspect every 5 seconds (max §d100% vis§5)
+salisarcana:wand_rod.special.BREAD=§6Sentient, French, and quite chatty!
+salisarcana:wand_rod.special.TRANSMUTATION=§5Instantly refills any aspects below §d90% vis§5 by transmuting other aspects above §d90% vis§5.
+salisarcana:wand_rod.special.TRANSMUTATION_staff=§5Instantly refills any aspects below §d90% vis§5 by transmuting other aspects above §d90% vis§5.
+salisarcana:wand_rod.special.NECROMANCER_staff=§5Quadruples the vis collected from aspect orbs from mobs, loses 25% of vis from all other sources.
+
+salisarcana:wand_cap.special.manasteel=§525% discount on §bBotania mana drain§5 for regenerating vis.
+salisarcana:wand_cap.special.elementium=§525% discount on §bBotania mana drain§5 for regenerating vis.
+salisarcana:wand_rod.special.livingwood.1=§5Regenerates §d1 vis§5 of each aspect every 2 seconds (max §d100% vis§5)
+salisarcana:wand_rod.special.livingwood.2=  §5at the cost of §bsome Botania mana§5.
+salisarcana:wand_rod.special.dreamwood.1=§5Regenerates §d1 vis§5 of each aspect every 2 seconds (max §d100% vis§5)
+salisarcana:wand_rod.special.dreamwood.2=  §5at the cost of §bsome Botania mana§5.
+salisarcana:wand_rod.special.dreamwood_staff.1=§5Regenerates §d1 vis§5 of each aspect every 2 seconds (max §d100% vis§5)
+salisarcana:wand_rod.special.dreamwood_staff.2=  §5at the cost of §bsome Botania mana§5.
+
+salisarcana:wand_cap.special.alchemical=§520% discount on §4LP costs§5 for regenerating vis.
+salisarcana:wand_rod.special.blood.1=§5Regenerates §d1 vis§5 of each aspect every 5 seconds (max §d100% vis§5)
+salisarcana:wand_rod.special.blood.2=  §5using §4500 LP§5 or §41.5 hearts§5 per vis.
+salisarcana:wand_rod.special.blood.3=§5Inflicts §8Weakness III§5 on spell targets when combined with Alchemical Caps.
+salisarcana:wand_rod.special.blood_staff.1=§5Regenerates §d1 vis§5 of each aspect every 1.25 seconds (max §d100% vis§5)
+salisarcana:wand_rod.special.blood_staff.2=  §5using §4500 LP§5 or §41.5 hearts§5 per vis (only while in hotbar)
+salisarcana:wand_rod.special.blood_staff.3=§4Can kill you if you run out of LP!
+salisarcana:wand_rod.special.blood_staff.4=§5Inflicts §8Weakness III§5 on spell targets when combined with Alchemical Caps.
+
+salisarcana:wand_rod.special.infernal.1=§5Regenerates §c1 Ignis§d vis§5 every 5 seconds (max §d20% vis§5)
+salisarcana:wand_rod.special.infernal.2=§5Regenerates §d1 vis§5 of all other types every 5 seconds while in the §4Nether§5 (max §d10% vis§5)
+salisarcana:wand_rod.special.infernal.3=§4Extinguishes fire§5 and removes the §8Wither§5 effect.
+salisarcana:wand_rod.special.profane.1=§5Recovers §dall consumed vis§5 every second (max §d100% vis§5)
+salisarcana:wand_rod.special.profane.2=  §5at the cost of 1 warp per §d25.01 vis§5.
+salisarcana:wand_rod.special.profane.3=§5After recovering §d250 vis§5, it §4burns out§5 forever & gives 1 extra warp.
+salisarcana:wand_rod.special.tainted.1=§5Regenerates §d1 vis§5 of each aspect every 5 seconds while in Tainted Land (max §d10% vis§5)
+salisarcana:wand_rod.special.tainted.2=§5Gains §d3 vis§5 of random aspects if the wand is held when you take taint damage.
+
+salisarcana:wand_rod.special.witchwood.1=§5Regenerates §d1 vis§5 of each aspect every 5 seconds (max §d100% vis§5)
+salisarcana:wand_rod.special.witchwood.2=  §5at the cost of §9140 Ars Magica 2 mana§5 per vis.
+salisarcana:wand_rod.special.witchwood_staff.1=§5Regenerates §d1 vis§5 of each aspect every 2 seconds (max §d100% vis§5)
+salisarcana:wand_rod.special.witchwood_staff.2=  §5at the cost of §9100 Ars Magica 2 mana§5 per vis.
+salisarcana:wand_cap.special.vinteum=§5Reduces the §9Ars Magica mana§5 cost of Witchwood cores' vis regeneration by about half.

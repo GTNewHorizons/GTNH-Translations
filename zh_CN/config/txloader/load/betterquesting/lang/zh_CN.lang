@@ -451,10 +451,6 @@ betterquesting.quest.bbaqMVmnQFyjDT-CHJKqQQ.desc=你已经获得了第一批纸,
 betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.name=§2§l你的第一把燧石剑
 betterquesting.quest.h_PK8qnyR9CBUoOhT9nwzA.desc=是时候升级一下你的木剑了.%n收集燧石骨头和一根木棍.%n%n你现在还不能用它杀死凋零,但是你可以在之后升级这把武器.你也可以用燧石来修复它
 
-# Quest: NEI is EVEN MORE POWERFUL NOW?
-betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.name=§2§lNEI再一次更强大了？
-betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.desc=NEI现在会自动将相似的物品折叠到一个槽位，使浏览速度更快！要折叠/展开一个物品组，请使用ALT+左键。%n您还可以使用自定义组创建自己的预设！%n%n[note]您可以在NEI设置中禁用此功能[/note]%n%n此外，NEI现在具有类似JEI的高级搜索：%n%n@ - 按mod搜索 (@minecraft)%n%n[note]您可以使用更多特殊字符，但大多数特殊字符默认为关闭（例如，无需使用#在tooltip中搜索），以下是所有特殊字符，请在NEI设置中检查哪些是打开/关闭的。%n%n空格用作不同条件之间的逻辑与%n# - 按tooltip搜索（#UV-Tier）%n& - 按id搜索：（&95:15 extratrees:door）%n$ - 按矿物词典搜索（$ore）%n%% - 按子集搜索（%%block）%n| - 逻辑或，多项物品搜索：（wrench|hammer）%n--逻辑非，排除与后续表达式匹配的物品（-@minecraft）%n" - 用引号括起来的多个单词将被视为一个条件，而不是多个条件（"White Stained Glass"）%n%n搜索模式（应用于搜索部分，而不是完整字符串）：%n纯文本 - 简单字符串%n扩展 - 仅允许?、*规则（默认）%n正则表达式 - 允许完整正则表达式%n%n在扩展搜索模式下：%n? - 任何一个字符（@min?craft）%n* - 任意一个或多个字符 （@m*ft = @minecraft）%nr/.../ - 标准java正则表达式（@r/m\w{6}ft/ = @minecraft）[/note]%n%n[note]您可以在 NEI 设置中禁用此功能。[/note]%n%n您可以将鼠标悬停在物品上时使用A键添加书签，也可以：%n按住SHIFT为整个配方添加书签%n按住CTRL为物品的数量添加书签%n按住SHIFT+CTRL为配方以及其所包含的所有物品的数量添加书签
-
 
 ## Quest Line: Tier 0.5 - Steam
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAg.name=第0.5阶-蒸汽时代
@@ -2478,7 +2474,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADXQ.desc=下一阶段的所有机器都�
 
 # Quest: Empty Epoxid Board
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.name=§a§l高级电路基板
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.desc=首先我们需要使用使用硫酸将金箔和环氧树脂片结合制取环氧树脂电路基板.然后再使用氯化铁或者过硫酸钠将琥珀金板和环氧树脂电路基板结合,就可以得到高级电路基板了. 以上制作过程都需要用到化学反应釜.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE0g.desc=首先我们需要使用硫酸将金箔和环氧树脂片结合制取环氧树脂电路基板，然后再使用氯化铁或者过硫酸钠将琥珀金板和环氧树脂电路基板结合，就可以得到高级电路基板了。%n%n[note]如果你是通过IC2废料盒获取的电路基板，手持64个高级电路基板以跳过此任务。[/note]
 
 # Quest: Radon Loop
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE2Q.name=§a§l氡循环
@@ -2526,7 +2522,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE4w.desc=纳米超级计算机是IV级�
 
 # Quest: EV Chemical Bath
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.name=§a§l§a§lEV化学浸洗机
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.desc=制作量子之眼需要用到HV+级别或以上的化学浸洗机.最好做一个EV的,这样你也可以更好的处理钛铁矿.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE5A.desc=制作量子之眼需要用到HV级别或以上的化学浸洗机。如果做一个EV的，你还可以更好地处理钛铁矿。
 
 # Quest: Nano Mainframe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE7Q.name=§a§l纳米主机
@@ -2735,6 +2731,10 @@ betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=现在您已经进入了EV级�
 # Quest: EV Field Generators
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV力场发生器
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=可以用力场发生器来做你的第一个量子箱或者量子缸了.但记得留两个用来制作T2火箭.%n%n[note]注:组装机配方更节省资源.[/note]
+
+# Quest: Supersized Buses
+betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§b§l超大型总线
+betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=输入和输出总线不够用?%n%n将总线升级到超级总线,享受更多槽位.%n%n[note]要在没有合金冶炼炉的情况下获得熔融碳化硅,你可以先在搅拌机中制作碳化硅粉,将其熔炼成锭后再流体提取.[/note]
 
 # Quest: EXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§a§l极限搅拌
@@ -3057,9 +3057,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-Q.desc=现在,筛选(或者说过滤)�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-g.name=§b§l铈处理开始
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-g.desc=这条任务线将会指导你获取元素铈.%n%n首先,将二氧化铈与氯化铵进行反应,制取一些氯化铈.
 
-# Quest: Compounding With Oxalate
+# Quest: Compounding With Oxalic Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.name=§b§l与草酸结合
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.desc=将获得的氯化铈与草酸进行反应,即可制得草酸铈.而草酸铈可以在稍后进行煅烧(当然,是在工业高炉中进行),转化成§o另一种§r铈的氧化物--氧化铈(III).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL-w.desc=将获得的氯化铈与草酸进行反应,即可制得草酸铈。而草酸铈可以在稍后进行煅烧（当然，是在工业高炉中进行），转化成§o另一种§r铈的氧化物--氧化铈（III）。
 
 # Quest: Monazite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL4w.name=§b§l独居石
@@ -3177,9 +3177,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALRA.desc=在这一步,你只需要将四
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.name=§b§l更更好的磁化杆
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.desc=与之前类似,下一阶段的马达需要更好的磁化杆. 想要制造磁化钐杆,你得先做好这个.
 
-# Quest: Oxalate
+# Quest: Oxalalic Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.name=§b§l草酸
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.desc=目前草酸真的仅适用于铈处理.继续前进并制备一点草酸吧.%n%n有多种方法可以制取草酸,请查阅NEI并选择最适合自己的方法吧.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.desc=目前草酸真的仅适用于铈处理。继续前进并制备一点草酸吧。%n%n有多种方法可以制取草酸，请查阅NEI并选择最适合自己的方法吧。
 
 # Quest: Glowing Matter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBA.name=§b§l发光物质
@@ -3228,10 +3228,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEA.desc=(以及钆)%n%n简单吧?别担
 # Quest: Getting Samarium in IV
 betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.name=§b§l在IV阶段获取钐
 betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.desc=将氯化钐粉与氯化钠粉混合在一起,再交给电解机处理,就可以分离出钐了.%n%n钠和氯都可以完全回收.%n%n此外还有一些没啥用的副产物,可能以后会有用吧.
-
-# Quest: Supersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§b§l超大型总线
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=输入和输出总线不够用?%n%n将总线升级到超级总线,享受更多槽位.
 
 # Quest: The sane option
 betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.name=§b§l明智的选择
@@ -3673,7 +3669,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKew.desc=许多TecTech的多方块机器
 
 # Quest: Lasers Solve Everything
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.name=激光解决一切
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.desc=激光仓是发送大电流能量的高端方式,准确地说,起步是32A.然后是32/64/96/128/256+这些电流数,依此类推.激光仓实在是太强大,导致除了§o黑科技§rTecTech以外,只有少量多方块机器支持它们: 兰波顿超级电容库、巨型工业高炉、巨型真空冷冻机,以及能源站. 请记住,激光真空管、激光源仓和激光靶仓都需要涂色才能正常使用. 另外,激光源仓=输出,激光靶仓=输入.激光真空管不能分流或转向,要使激光转向,请使用[note]有源变压器[/note].之后,您可以使用激光真空反射镜来转向激光真空管,但这并不允许分流.%n%n[note]激光仓可以在GUI中调整其工作电流数.[/note]%n%n激光转换器的工作机制基本上就是：激光源仓(在机器上)->激光真空管->激光转换器->分成5面输出X安,X从32开始.记得切换为接收模式.如果你是想提高传输电流,当然也可以反过来操作,总而言之,它就是一个将激光转换到线缆或从线缆转换为激光的变压器.如果你不在乎激光转换器三倍于有源变压器的损耗(且无法发送所有电流),你也可以用它们把线缆电流转换为激光.如果想要避免这种损耗,记得在它们之间加个电池箱.%n%n[note]'低功率'仓室或转换器对应低功率激光管,但有一点需要注意: 涂色后这种激光管无法自动连接,需要使用剪线钳手动连接.[/note]%n%n[warn]请注意,谨慎使用非常高电流的激光仓,因为每个激光仓,每安培电流都会有1EU/s的被动损耗.例如,一个256A的激光源仓和256A的激光靶仓每秒都会消耗256EU,不管它们正在输送多少能量.[/warn]%n%n[note]译者注:低功率激光管似乎坏了,没法用...[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqg.desc=激光仓是发送大电流能量的高端方式，高端到最低都有256A。然后是1024，4096，16384+这些电流数，依此类推。激光仓实在是太强大，导致除了§o黑科技§rTecTech以外，只有少量多方块机器支持它们：兰波顿超级电容库、巨型工业高炉、巨型真空冷冻机，以及能源站。请记住，激光真空管、激光源仓和激光靶仓都需要涂色才能正常使用。另外，激光源仓=输出，激光靶仓=输入。激光真空管不能分流或转向，要使激光转向，请使用[note]有源变压器[/note]。之后，您可以使用激光真空反射镜来转向激光真空管，但这并不允许分流。%n%n[note]激光仓可以在GUI中调整其工作电流数。[/note]%n%n激光转换器的工作机制基本上就是：激光源仓(在机器上)->激光真空管->激光转换器->分成5面输出X安,X从32开始。记得切换为接收模式.如果你是想提高传输电流，当然也可以反过来操作，总而言之，它就是一个将激光转换到线缆或从线缆转换为激光的变压器。如果你不在乎激光转换器三倍于有源变压器的损耗(且无法发送所有电流)，你也可以用它们把线缆电流转换为激光。如果想要避免这种损耗，记得在它们之间加个电池箱。%n%n[note]“低功率”仓室或转换器对应低功率激光管，但有一点需要注意：涂色后这种激光管无法自动连接，需要使用剪线钳手动连接。[/note]%n%n[warn]请注意，谨慎使用非常高电流的激光仓，因为每个激光仓，每A电流都会有1EU/s的被动损耗。例如，一个256A的激光源仓和256A的激光靶仓每秒都会消耗256EU，不管它们正在输送多少能量。[/warn]
 
 # Quest: Enriched Naquadah Ingot
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZw.name=富集硅岩锭
@@ -4752,11 +4748,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBQ.desc=作物分析仪是一种电动�
 
 # Quest: Crop Automation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=作物自动化
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=作物监管机是一台LV机器,可以监控11x11x3区域的作物,并根据需要自动施肥,使用除草剂与浇水. 水可以直接泵入或使用IC2水化单元,水化单元使用后不会返还单元.%n%n作物监管机防雨,但要确保你的电源不会淋雨(你可能会找到一种奇特的方式做到),或使用LV电池供电. 锂电池大概能持续约2小时.%n%n耕地仍然需要附近有水方块才能保持湿润,因为监管机长只会浇灌作物,而不是土壤. 尝试将睡莲放在水上,这样走路就不会掉下去了,或者你可以试试花土.%n%n你需要不锈钢来制作作物收割机.  林业的多方块农场(林场)可作为作物监管机和作物收割机的替代方案,它也可以收获作物架上的作物,甚至不需要使用作物分析仪来选择正确的生长阶段即可收获!%n%n目前,作物收割机是LV机器. 林业农场可以替代作物监管机与作物收割机的功能.而且它也支持作物架,甚至无需作物分析仪也可在正确的阶段收割作物!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=作物监管机是一台LV机器，可以监控11x5x11区域的作物，并根据需要自动施肥、使用除草剂与浇水。水可以直接泵入或使用IC2水化单元。水化单元使用后不会返还单元。%n%n作物监管机不防雨，但是你可以在机器正上方放一格水源%n%n耕地仍然需要附近有水方块才能保持湿润，因为监管机长只会浇灌作物，而不是土壤。试试将睡莲放在水上，这样走路就不会掉下去了，或者你可以用花土。%n%n译者注：你需要不锈钢来制作作物收割机。林业的多方块农场(林场)可作为作物监管机和作物收割机的替代方案。它也可以收获作物架上的作物，甚至不需要使用作物分析仪来选择正确的生长阶段即可收获！%n%n目前，作物收割机是LV机器。林业农场可以替代作物监管机与作物收割机的功能，而且它也支持作物架,甚至无需作物分析仪也可在正确的阶段收割作物。
 
 # Quest: Weed Ex
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.name=除草剂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=除草剂可防止杂草在空作物架上生长(消耗除草剂). 它对作物质量的损害是无稽之谈,我们检查过代码,可以向你保证.§o除非§r作物有杂草属性(奇妙花(venomilia)生长值8+,其他作物生长值24+),那么它可能会损失1点属性.而且还可以再次培育回来.且这种损失只有在使用过多下才可能出现,而作物监管机不会滥用除草剂.%n%n用法:%n当手持除草剂时,右键单击作物架以使用它. 它也可以放置在作物监管机中,自动将其应用于作物.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=除草剂可防止杂草在空作物架上生长(消耗除草剂). 它对作物质量的损害是无稽之谈,我们检查过代码,可以向你保证.§o除非§r作物有杂草属性(奇妙花(venomilia)生长值8+,其他作物生长值24+),那么它可能会损失1点属性.而且还可以再次培育回来.且这种损失只有在使用过多下才可能出现,而作物监管机不会滥用除草剂.%n%n用法:%n当手持除草剂时,右键单击作物架以使用它. 它也可以放置在作物管理器中,自动将其应用于作物.
 
 # Quest: Reed and Resin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.name=甘蔗和树脂
@@ -4873,10 +4869,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPw.desc=现在你有了面团,有多种
 # Quest: No Chicken Escapes!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.name=鸡,一只也别想跑!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.desc=你喜欢派吗?当然!  有许多种派可供选择.  鸡肉派是最容易做的派之一.只需生鸡肉、土豆、胡萝卜和面团.水果派要简单一点,所以提供的饱食度不太多,但是在你等待最好食物的过程中,它们对填饱肚子很有用.
-
-# Quest: Robotic Crop Pickers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRg.name=机械化作物收割
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHRg.desc=作物收割机可以自动收割11x11x3范围的作物,太棒了! 又因为多方块农场在HV阶段,所以前期作物收割机就是最好的农业自动化选择了.%n%n如果你需要其在特定阶段收割作物,需要在其中放入作物分析仪.否则只要可以收割,作物收割机就会即刻工作.比如种植黏性甘蔗的时候,如果不放分析仪,收割机就会在2阶段(收获甘蔗)工作,而不会等到4阶段(收获黏性树脂).
 
 # Quest: You Can't Tell Them Apart Either?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.name=啥啥分不清楚?
@@ -6469,7 +6461,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.desc=中子传感器会基于中子�
 
 # Quest: Neutron Accelerator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeg.name=§6§l中子加速器
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALeg.desc=用于加速中子,获得中子动能. 你只需要给它接上一根线缆,它就会持续消耗电能.%n%n[note]PS：可使用机器控制覆盖板关闭.%n%n最高等级的中子加速器是UV的.在尝试使用前请三思.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALeg.desc=用于加速中子，获得中子动能。你只需要给它接上一根线缆，它就会持续耗电。%n%n[note]PS：可使用机器控制覆盖板关闭。%n%n译者注：最高等级的中子加速器是UMV的，在尝试使用前请三思。[/note]
 
 # Quest: Oops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALew.name=§6§lOops
@@ -6620,6 +6612,10 @@ betterquesting.quest.3SzKMSj0StOAOzVmInDjZQ.desc=有了大型啤酒酿造室，�
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.name=适合不同模具
 betterquesting.quest.6glle46JSyuwR6O4x7mLYA.desc=为每种模具都制造一台流体固化器听起来就很累人......幸运的是,多方块结构流体塑形机可以通过使用§l固化仓§r来处理任意数量的模具.这台多方块机器还可以扩展,如果你在两端添加额外的片,就能获得更多的并行.如果速度太慢,一定要延长它!%n%n[note]注：流体塑形机会随着其持续运行不断加速,这使其用于大批量生产时更为有效.[/note]%n%n[note]译者注:最大并行=电压等级×(2+3×额外片数).[/note]
 
+# Quest: T2 Maceration Stack 
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.name=T2 粉碎机
+betterquesting.quest.A4rEQOAXQsaa26Ib_nzkHg.desc=通过将所有的机器方块替换成粉碎机机械方块以及在主机格子中插入粉碎升级芯片来升级你的工业粉碎机.%n%nT2的粉碎机并行是原先的四倍!
+
 # Quest: Smelt All the Things Stack-Wise...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.name=熔化万物...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAVQ.desc=...有了这项伟大的发明!只要升级供电和线圈,就可以熔炼不可胜数的物品.
@@ -6651,10 +6647,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjg.desc=...转啊转,转了一整天.�
 # Quest: Dancing in circles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.name=旋转,跳跃
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFjw.desc=旋转,升温——听起来像一个舞蹈.或是热力离心机.建造一个工业热力精炼厂,以充分利用你的矿石.%n%n只要保证至少8个热处理机械方块,你就可以用噪音危险标志来代替热处理机械方块.%n%n注意消声仓安装在底层.
-
-# Quest: Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-A.name=工业焦炉
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-A.desc=已经在原木的海洋中游泳了?把这些原木变成清洁燃烧的木炭! 工业焦炉是一个3x3x3的多方块结构,运行速度比那些巨大的热解炉快多了.一个这个就可以替换掉好几个热解炉,因为它有高达24x的并行度.%n%n从现在起,你就可以让热解炉们退役了,除非还有什么非常快的配方能让它们的工作速度跟上. 例如,要将木材转化为木炭,只要提供足够的氮气,工业焦炉就能满足整个农场的需求!
 
 # Quest: I think I'm going to be sick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=我感觉我要吐了
@@ -6775,6 +6767,10 @@ betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=一刻也没有为建造AE系�
 # Quest: Steam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=蒸汽搅拌机?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=既然可以用蒸汽和活塞来混合粉末,为什么还要使用复杂的导线和电路呢?大型蒸汽搅拌机是这些蒸汽多方块中最大的一个,可以满足您一段时间的搅拌需求,比LV单方块搅拌机有着更多的并行数.%n%n[note]该多方块机器只能处理LV级以下的配方.[/note]
+
+# Quest: Steam Fusing?
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=蒸汽合金？
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=觉得单方块合金炉太慢？不妨试试大型蒸汽合金炉。它将以极低的蒸汽消耗与更高的效率轻松完成你的合金任务。%n（更多信息请查询tooltip！）%n%n虽然NEI显示需要硼玻璃，你仍然可以使用任意HV等级的玻璃来代替。比如守卫者玻璃，纯净玻璃或者石英玻璃。如果仍然选择使用硼玻璃，可通过电解硼砂获取硼。%n%n[note]仅能运行最高LV级的配方。[/note]
 
 # Quest: Taking Things Apart
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=提取万物
@@ -7295,7 +7291,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALlA.desc=每L出产88,540,000-EU/t,持�
 
 # Quest: Naquadah Based Fuel MkV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.name=硅岩基流体燃料-MkV
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.desc=每L出产399,576,000EU/t,持续8秒.无尽粉和重拉多X的来源可能需要之后才能解决.%n%n高级配方需要同样多的无尽来制造时空,不过只需要牺牲一点超时空金属产能就能获得50%%的增产.%n%n[note]译者注:在2.7.0版本中硅岩5的配方得到了增强,高级配方所需的时空已被替换为创律合金和灿茶合金了.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALlQ.desc=每L出产399,576,000EU/t,持续8秒.无尽粉和重拉多X的来源可能需要之后才能解决.%n%n高级配方需要灿茶合金和创律合金,不过只需要牺牲一点超时空金属产能就能获得50%%的增产.
 
 # Quest: Tier 3 Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlg.name=3阶线圈
@@ -7361,7 +7357,7 @@ betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=你已能超越维度了,但随
 
 # Quest: Naquadah Based Fuel MkVI
 betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.name=硅岩基流体燃料-MkVI
-betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.desc=每L产出2,077,795,200EU/t,持续12s.相当离谱的发电,也有相当离谱的消耗.这条产线需要大量的基建,不过能够产出数以万亿计的EU/t.%n%n配方所需的星体钛和天体钨可以从激光蚀刻或者等离子线产出.%n%n三钛可以通过聚变或者DD采矿产出.%n%n调律源金需要大量的聚变和DTPF来维持产出.%n%n在拥有鸿蒙之眼以后,你可以使用白矮星物质来提高产率以产出更多的能量. %n%n为了充分利用MKVI燃料,你还得考虑使用富快子时间流体.%n%n[note]译者注:在2.7.0版本中硅岩6的配方得到了增强,高级配方所需的白矮星物质已被替换为浓缩原始恒星等离子体混合物了.[/note]
+betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.desc=每L产出2,077,795,200EU/t,持续12s.相当离谱的发电,也有相当离谱的消耗.这条产线需要大量的基建,不过能够产出数以万亿计的EU/t.%n%n配方所需的星体钛和天体钨可以从激光蚀刻或者等离子线产出.%n%n三钛可以通过聚变或者DD采矿产出.%n%n调律源金需要大量的聚变和DTPF来维持产出.%n%n在拥有鸿蒙之眼以后,你可以使用浓缩原始恒星等离子体混合物来提高产率以产出更多的能量. %n%n为了充分利用MKVI燃料,你还得考虑使用富快子时间流体.
 
 # Quest: Tier 4 Coil
 betterquesting.quest.KlI9Fbh9SsK4ckVNMJqGFA.name=4阶线圈
@@ -7427,6 +7423,10 @@ betterquesting.quest.yDY1ALr9QdG8zTbEszNaMw.desc=高压,过热的能量荷载.�
 ## Quest Line: Storing and Transforming EU
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIQ.name=EU的存储与变压
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIQ.desc=在这里,你可以找到存储EU、以及在不同电压之间变换的方法.
+
+# Quest: IV 16A Hatches
+betterquesting.quest.-H2HWiVlTn-1IT2aaXhLkg.name=16安IV仓
+betterquesting.quest.-H2HWiVlTn-1IT2aaXhLkg.desc=此型号支持16安培。
 
 # Quest: Can we get much higher?
 betterquesting.quest.13PWs3MhTUOgkIQq8EKhaQ.name=能更高吗？
@@ -7586,7 +7586,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZQ.desc=兰波顿能量球是IV等级�
 
 # Quest: One BILLION EU
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZg.name=10亿EU
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZg.desc=如果你想要一个固定的电池,制作AFSU吧,它可以储存10亿EU还能为物品充电.你可以使用扳手拆卸它,但这样你会失去存储EU的20％.记得是用右键而不是用左键.左键会导致你损失所有存储的EU.%n%n作为替代方案,如果你能做得起的话,试试GT++的能量缓冲器吧.它们更贵而且无法为物品充电,但存储量更多,且不会损失EU,而且输出可设置为1-16A.查看GT++任务栏以获知更多细节.%n%n[note]它们可以接收无限大的电流,所以或许你需要配合二极管或其他什么(如果你不想影响到主线供电的话).§r%n%n§5译者注:你可以用手推车搬运AFSU,不会损失任何存储的EU.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIZg.desc=如果你想要一个固定的电池,制作AFSU吧,它可以储存10亿EU还能为物品充电.你可以使用扳手拆卸它,但这样你会失去存储EU的20％.记得是用右键而不是用左键.左键会导致你损失所有存储的EU.%n%n作为替代方案,如果你能做得起的话,试试GT++的能量缓冲器吧.它们更贵而且无法为物品充电,但存储量更多,且不会损失EU,而且输出可设置为1-16A.%n%n[note]它们可以接收无限大的电流,所以或许你需要配合二极管或其他什么(如果你不想影响到主线供电的话).§r%n%n§5译者注:你可以用手推车搬运AFSU,不会损失任何存储的EU.[/note]
 
 # Quest: Storage of the Gods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGg.name=上帝的蓄电池
@@ -7636,9 +7636,29 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3w.desc=一个更昂贵但储量相同�
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.name=无线的力量!?
 betterquesting.quest.Dif-0NSERYGdGP7j8xAzPQ.desc=被基地里面密密麻麻的电线整吐了？厌倦了为了满足供电要求不断升级线缆？喜欢基地里面全是闪电？%n%n那么这个多方块正合你意。特斯拉电塔是一个强大的多方块结构，可以无线输出高电流，支持所有TecTech能源仓。%n%n首先你要在电容仓里放上和初级超导特斯拉绕组相同电压的特斯拉电容。特斯拉绕组决定了电塔输出的电压级别，特斯拉电容的数量决定了电塔能输出的最大电流数。%n%n一个电容仓最多能放16个特斯拉电容，所以你可能需要根据用电需求增加电容仓数量。%n%n搭建好电塔后，右击打开控制器，根据需要配置电塔的最大传输距离。这个配置现在有点bug，因此至少现在你不需要任何等离子就能进行配置。对应的选项是“特斯拉电塔传输半径设置”。%n%n设置完你的电塔之后该怎么输送电力到机器呢？很高兴你问了。要送电到基地还需要使用特斯拉线圈帽。把线圈帽安装到机器、能源仓甚至变压器上都能让它们从电塔获得电力。能源仓有点特殊，需要面朝上才能正确获得电力。%n%n[warn]警告！特斯拉电塔会强制输出固定电压的电流，比如说EV或者IV。当你升级初级超导特斯拉绕组前一定要确认你所有的线圈帽和收发器对应的机器都能承受升级后的电压。否则可能会导致机器爆炸。[/warn]%n%n[warn]在关闭控制器之前调整多方块结构也会导致爆炸。[/warn]
 
+# Quest: EV 4A Hatches
+betterquesting.quest.EOlpI83vT36jaFwDH7pS7w.name=4安EV仓
+betterquesting.quest.EOlpI83vT36jaFwDH7pS7w.desc=要为您的兰波顿超级电容库实现多安培输入输出，请制作这些专用仓室。%n%n部分多方快结构也支持多A仓。
+
 # Quest: Power Goggles
 betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.name=能源护目镜
 betterquesting.quest.GvlZG9IESmW2qsEMw-hkIw.desc=是否想实时监控兰波顿超级电容库状态，而不是每次跑到机器或者工业信息屏旁边查看？即刻装备 §6§o能源护目镜§r，在HUD中直接读取能源储量！%n%n§a默认§f§r模式下护目镜是§c未绑定§r状态，并会自动监测无线EU网络的电量%n%n手持护目镜§c右键单击§r控制器即可绑定到特定的兰波顿超级电容库，对着空气§cShift+右键单击§f§r即可解除绑定。%n%n可通过能源护目镜的配置菜单自由调整显示位置与样式！%n%n[warn]在选项-控制中更改配置菜单的快捷键。还有个快捷键是用来控制护目镜的开关的[/warn]
+
+# Quest: EV 64A Hatches
+betterquesting.quest.M_HRDMb8Q2GnvpgfgsRnRw.name=64安EV仓
+betterquesting.quest.M_HRDMb8Q2GnvpgfgsRnRw.desc=想必你已明白，这些型号支持64安！
+
+# Quest: IV 64A Hatches
+betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.name=64安IV仓
+betterquesting.quest.UuBSfl0oRLqUL92DUyXMOw.desc=IV的最终多A仓室，64安！
+
+# Quest: IV 4A Hatches
+betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.name=4安IV仓
+betterquesting.quest.crSDPHDOT1m9OXmI4mUFbQ.desc=和EV等级的一样，用于为您的兰波顿超级电容库实现多安输入输出。
+
+# Quest: EV 16A Hatches
+betterquesting.quest.iR0UzvKrRJmM8oY2SNCZjA.name=16安EV仓
+betterquesting.quest.iR0UzvKrRJmM8oY2SNCZjA.desc=这些型号支持16安培的输入输出。
 
 # Quest: At last, the final capacitor!
 betterquesting.quest.vrE4rYLuSnmmtAklayd6gw.name=§6§l终章：最后的电容！
@@ -7977,10 +7997,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMNw.desc=进入下一阶段,你解锁了
 # Quest: CBD Into Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOA.name=高十六烷值柴油--->蒸汽
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOA.desc=对于高十六烷值柴油来说,已经不会有柴油相关的升级了.想要继续使用内燃发电机或大型内燃引擎的话,你只能扩大产线,升级能源仓. 然而,还有一种能量密度更高的燃料,在其合成配方中用到了高十六烷值柴油,但有个问题：它是一种固体燃料,用于大型蒸汽锅炉,这使其既有优点也有缺点.%n%n从这个任务开始,都是与这些固体燃料的相关任务.固体燃料有两个版本,其中一种比起另一种,需要添加额外输入,而这两种燃料都遵循相同的一些逻辑：它们都需要被转化为难以输送的蒸汽,才能转化为EU,而且匹配的锅炉为EV和IV等级的大型锅炉. 但是如果你愿意在这条产线中面对额外的挑战,这些燃料和那些锅炉的组合,其燃料效率远比之前高.%n%n在通常情况下,如果你已经拥有了高十六烷值柴油,你会直接将其通入内燃发电机以获取电力. 但是在这条产线中,你需要将燃料黏合剂自动化,再加上木炭块/煤块/焦煤块,然后就能将获得的超级燃料丢进钛或者钨钢大型锅炉,转化为过热蒸汽.然后,你需要一台大型高压蒸汽涡轮,再配合一台普通大型蒸汽涡轮,将过热蒸汽转化为EU和蒸馏水,至此产线结束.%n%n想要继续任务,你需要至少一台大型钛锅炉.建造一台吧.
-
-# Quest: Industrial Coke Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=工业焦炉
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=你为EV阶段所做的努力可能会将你推向GT++多方块机器,虽然由于制造大多数GT++多方块机器的特殊合金都需要在合金冶炼炉(IV阶段)内合成,即大部分GT++多方块都需要到IV阶段以后才可以建造,但是工业焦炉(ICO)不需要!%n%n那么它能做什么呢?顾名思义,它就是一台非常非常快的焦炉.事实上它的速度可以顶得上几十台热解炉,而且它其实也继承了热解炉的合成表,所以你仍然可以从中获取额外流体,如木炭副产,同时又能大大提高处理速度.需要注意的是,这台多方块机器需要钛和钨,不过后者只需要一点就行.你可以在处理末地石粉、末影黏浆或月尘的过程中获得不少钨.%n%n你还可以在两种机械方块中择一完成搭建,一种可以提供12x并行,而另一种可以提供24x并行.并行的意思就是,如果多方块机器接收的能量足够,它可以在一次处理过程中同时完成多少数量的配方. 两种机械方块都很便宜,你应该会用更好的那种吧.
 
 # Quest: Mass Distilled Water
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOg.name=大量蒸馏水
@@ -9332,9 +9348,13 @@ betterquesting.quest.-IWmYEgKSGi0M7rtP59zaw.desc=与1k存储元件一样.
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.name=2阶AE流体存储
 betterquesting.quest.0J3hYoBeTpe_OnXMU9zRDA.desc=通过2阶流体处理器,您可以制作256k,1024k,4096k 和16384k的ME流体存储组件.%n%n这些ME流体存储组件需要与ME高级流体存储外壳合成才能变成ME流体存储元件.
 
+# Quest: Quantum Entangled Singularities
+betterquesting.quest.0qhnm9tYQfmKHzWPUlb8iw.name=量子纠缠奇点
+betterquesting.quest.0qhnm9tYQfmKHzWPUlb8iw.desc=要制作用于量子环的量子纠缠奇点，请将奇点与末影珍珠粉置于地面，随后利用爆炸（微型TNT效果最佳）来产生一对量子纠缠奇点。%n%n[note]每对量子纠缠奇点具有唯一配对特性，仅能彼此协同工作。[/note]
+
 # Quest: Cribs
 betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.name=你这是在作弊!
-betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=随着您对"应用格雷"的研究不断深入,您找到了将 ME 接口的样板处理能力与输入总线相结合的方法,即"§l样板输入总线§r"!现在,您可以直接将样板放入样板输入总线.%n%n然而,样板输入总线有时缺乏足够的项目空间和计算能力来处理来自 ME 网络的项目.为此,您增加了额外的存储空间和虚拟编程电路槽位.您甚至可以在样板输入总线中放置透镜或模具等在配方中不消耗的物品!注意,消耗品在这个存储空间中将不会起任何作用%n%n但是,您仍然缺乏足够的技术来处理流体,那些流体对于电子元件来说相当棘手.%n%n样板输入总线与其他总线或仓室完全隔离,所以您可能在某些情况下不得不修改您的样板.%n%n[warn]样板输入镜像[/warn]允许您在不同的多方块结构中共用样板输入总线而无需真正的在结构中共用方块.§lUV级§r%n%n[warn]样板输入总成[/warn]将会§9§o防水§r.§lUIV级§r%n(译注:即为样板输入总成可以放入带流体的处理样板)
+betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=随着您对"应用格雷"的研究不断深入,您找到了将 ME 接口的样板处理能力与输入总线相结合的方法,即"§l样板输入总线§r"!现在,您可以直接将样板放入样板输入总线.%n%n然而,样板输入总线有时缺乏足够的项目空间和计算能力来处理来自 ME 网络的项目.为此,您增加了额外的存储空间和虚拟编程电路槽位.您甚至可以在样板输入总线中放置透镜或模具等在配方中不消耗的物品!注意,消耗品在这个存储空间中将不会起任何作用%n%n但是,您仍然缺乏足够的技术来处理流体,那些流体对于电子元件来说相当棘手.%n%n样板输入总线与其他总线或仓室完全隔离,所以您可能在某些情况下不得不修改您的样板.%n%n[warn]样板输入镜像[/warn]允许您在不同的多方块结构中共用样板输入总线而无需真正的在结构中共用方块.§lUIV级§r%n%n[warn]样板输入总成[/warn]将会§9§o防水§r.§lUEV级§r%n(译注:即为样板输入总成可以放入带流体的处理样板)
 
 # Quest: Need More Information?
 betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=需要更多信息？
@@ -9396,9 +9416,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB1A.desc=什么?你装满了量子存储
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.name=革命
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABbQ.desc=你觉得注魔太慢了?唉,你要用世界加速器才能解决这个问题--但这会导致大量的延迟.%n%n好在你再也不用担心了!试试全新的"注魔截流者"吧.阅读魔导手册"神秘革命"章节获取更多信息.
 
-# Quest: That is not storage!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.name=这可不是存储元件!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.desc=当心!使用时务必万分小心!这个元件的功能正如其名字一样:它会删除你放进去的任何东西.所以最好确保你能够精确控制哪些东西能进入这个元件里.
+# Quest: Item Void Cell
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.name=物品虚空元件
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABdg.desc=[warn]当心!使用时务必万分小心!这个元件的功能正如其名字一样:它会删除你放进去的任何东西.所以最好确保你能够精确控制哪些东西能进入这个元件里.[/warn]%n%n[note]只会销毁物品,不会销毁流体.[/note]
 
 # Quest: Co-Processing x16
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABiA.name=并行处理单元,但是16核
@@ -9427,10 +9447,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6A.desc=相对而言最大的存储组�
 # Quest: 64k Crafting Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6Q.name=64K合成存储器
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6Q.desc=合成处理单元的组成部分,可以提供65536字节的存储空间.
-
-# Quest: Wireless Boosters
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6g.name=无线信号增幅器
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6g.desc=无线信号增幅器用于增加无线接入点的覆盖范围,最大堆叠数64.%n%n*插入越多,耗电越多,具体如下:%n%n0增幅器%n范围:16,80EU/t%n%n16增幅器%n范围:80,400EU/t%n%n32增幅器%n范围:197,1890EU/t%n%n48增幅器%n范围:348.5,8833EU/t%n%n64增幅器%n范围:528,41040EU/t%n%n§3这里的范围值为半径.
 
 # Quest: Filling Tanks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE6w.name=装满水箱
@@ -9472,8 +9488,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.desc=ME安全终端允许你配置ME
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEw.name=致密能源元件
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEw.desc=致密能源元件可以让你的网络更加更加稳定. 它可以存储1600万AE的能量.
 
-# Quest: ME in the Ether
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.name=无线接入
+# Quest: Wireless Applied Energistics Terminal
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.name=无线AE终端
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.desc=在ME安全终端验证你的无线终端,无线终端将会获得对ME网络的永久访问和控制权. 如果无线终端没电了你可以将它放进充电器充电. 无线终端有160万AE的能源储量.在使用无线终端时,和最近的无线接入点距离每增加1米,能量消耗增加1AE/t.
 
 # Quest: Annihilation and Formation
@@ -9562,7 +9578,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMA.desc=这是一个特殊的用于编�
 
 # Quest: ME in Your Cleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.name=将ME网络接入超净间
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.desc=无线接入器——近距离传输的量子桥代替方案. 通过无线设置工具点对点连接,但一个无线接入器只能连接另外一个无线接入器.一个接入器的耗能为(10+距离*ln(距离^2+3)AE/t.不能跨维度连接.能量只能从一个面输入.最多可传输32个频道.能与致密线缆直接连接.本身不消耗频道.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.desc=无线接入器——近距离传输的量子桥代替方案.%n%n通过无线设置工具点对点连接,但一个无线接入器只能连接另外一个无线接入器.一个接入器的耗能为(10+距离*ln(距离^2+3)AE/t.不能跨维度连接.能量只能从一个面输入.最多可传输32个频道.能与致密线缆直接连接.本身不消耗频道.%n%n[note]另外,相对于超长的致密线缆来说它对TPS也更友好![/note]
 
 # Quest: Ore Dictionary Output
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.name=矿典过滤卡
@@ -9570,7 +9586,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.desc=安装矿典过滤卡的总线�
 
 # Quest: To Link P2P Buses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.name=连接P2P通道
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.desc=一个可以存储、复制、粘贴网络配置的小工具. 按住SHIFT右击ME网络设备可以将目标网络设备的配置复制到内存卡中,对着其他同类型的设备点击右键可以将复制好的配置文件粘贴到设备中. 对着空白区域按着SHIFT右键可以清除内存卡中的信息. 内存卡是连接两个P2P通道不可或缺的工具!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.desc=一个可以存储、复制、粘贴网络配置的小工具. 按住SHIFT右击ME网络设备可以将目标网络设备的配置复制到内存卡中,对着其他同类型的设备点击右键可以将复制好的配置文件粘贴到设备中. 对着空白区域按着SHIFT右键可以清除内存卡中的信息. 内存卡是连接两个P2P通道不可或缺的工具!%n%n如果你正在一个庞大的P2P网络中进行一些高级配置,推荐使用高级内存卡.其提供的可视化界面可帮助您查看并设置各P2P通道的名称,输入及输出端.%n%n[note]请注意：除流体P2P之外,所有P2P通道都仅能设置一个输入端!唯一的例外是流体P2P,它的输入端可当作输出端使用,反之亦然.[/note]
 
 # Quest: Smart cables
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRw.name=智能线缆
@@ -9674,7 +9690,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5g.desc=你可能已经注意到了ME�
 
 # Quest: Singular Singularities Signify Something
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5w.name=一个奇点意味着...(Singular Singularities Signify Something)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5w.desc=有时很难找到任务名称,对吧? 想要制作一个奇点(用于量子桥),你需要向设置为奇点模式的物质聚合器投入512,000个物品,同时物质聚合器内还需要有一个ME-64K物品存储组件(或更高级).%n%n然后将获得的奇点与末影珍珠粉一起放在地上,使用爆炸物(迷你TNT就不错)将它们压缩即可获得一对量子纠缠奇点.%n%n每个量子纠缠奇点都是唯一配对的.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ5w.desc=有时很难找到任务名称,对吧? 想要制作一个奇点(用于量子桥),你需要向设置为奇点模式的物质聚合器投入512,000个物品,同时物质聚合器内还需要有一个ME-64K物品存储组件(或更高级).%n%n这些奇点有若干用途.其主要功能是制造用于量子环的量子纠缠奇点,但也可用于制作虚空单元及其他几种实用物品.
 
 # Quest: Quantum Bridging Your Outposts
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6A.name=量子桥连接你的前哨基地
@@ -9698,7 +9714,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7A.desc=流体自动装填机的默认�
 
 # Quest: Wireless 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.name=无线 2.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.desc=这是一个不错的无线终端. 它甚至能无线合成. 当你打开它的时候可能会有点延迟(尤其是第一次),但它很便捷,值得随身携带,对吧? 你不能从这个终端抽出流体,但你可以同时带个通用终端...%n%n磁场增幅卡会将收集到的掉落物直接送入网络,而不是物品栏. 手持磁场增幅卡右键可以改变收集的白名单/黑名单(white/blacklist),按住Shift+右键可以切换模式.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7g.desc=这是一个不错的无线终端.它将六大终端功能集于一体：合成终端,样板终端,流体终端,源质终端,接口终端和请求终端.%n%n如果你做了完全体版本,你可以跳过LuV部件,直接获得编写增广流体样板的功能.%n%n[note]建议为其设置一个快捷键,这样就无需将其一直放在快捷栏.[/note]
 
 # Quest: Cut the Power!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8A.name=切断电源!
@@ -9936,6 +9952,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=输入/输出总线(ME)是一�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.name=AE2流体合成(AE2FC)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsg.desc=流体合成已经直接集成到了你的ME网络.这怎么可能!%n%n多亏了AE2FC,一个为了GTNH而从高版本移植的、强大的AE2附属mod.%n%n现在,需要什么才能让这个美妙的玩意运作呢?%n每个ME系统都需要一个ME流体离散器,它支持按需合成.虽然没有流体离散器,你也可以使用AE2FC转运流体;但它是自动合成必需的.%n%n然后你还需要一个ME流体样板终端或是ME增广流体样板终端,后者用于装配线.%n%n书写样板时,你会注意到流体放置的样式就如同物品一样.%n完成书写的样板看着是蓝色的.将其放置在ME二合一接口中,能使AE2"同时"发送流体和物品.注意,"同时"是说"两者都会",而在先后顺序上,AE2会先发送流体,再发送物品.%n如果想将流体储存在二合一接口中,你可以点击GUI右上角以切换设置界面.%n%n如果你在普通接口界面中使用蓝色样板(流体样板),AE2会以流体包的形式发送流体.这只是用物品的形式来代表流体.ME流体封包解码器可以将其变回流体,并储存在流体槽中.%n%n你可以使用一个原材料缓存仓(大型或是普通的),这样你由样板发送的物品和流体就都能存储在一个方块内部了.普通的原材料缓存仓可以存储9组物品和4种流体,大型的则是27组物品和7种流体.你可以使用它同物品和流体导管实现自动化,但不一定要这样做.%n%n如果你想自动化单方块机器,那就如同节食期间吃巧克力蛋糕一样简单:%n书写样板,制造一个二合一接口,当当当当--完成!它会自动把流体塞到单方块机器的流体格子里.%n%n即使是像装配线这样更困难的事情,在这些工具的帮助下自动化也变得容易多了%n%n如果你需要更详细的信息,请访问Wiki:%n%n[url]https://wiki.gtnewhorizons.com/wiki/AE2FC[/url]%n%n[note]更多存储单元2(ExtraCells2)mod现在已经被移除了.任何旧的元件和单元都已经尽可能地被转换为AE2和AE2FC的元件和单元了.[/note]
 
+# Quest: Starting Your AE2 Journey
+betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.name=§5§l应用能源2启程
+betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.desc=§n应用能源2是GTNH玩法中不可或缺的核心模组。%n§r%nAE2作为整合包内处理物品、流体与合成的主要网络与物流管理系统，您将从EV阶段开始，在绝大多数自动化流程中运用它。鉴于本整合包超高的复杂度，我们特别加入了一系列独特工具与功能来辅助您的冒险，其中大部分都将在本章任务线中详细介绍。%n%n虽有许多知识需要掌握，但无需感到压力过大！您与它共处的时间越久，驾驭它的能力就会越强。除了本书之外，还有多种辅助学习资源可供利用：%n%n§r§21.官方Wiki：§r[url]https://wiki.gtnewhorizons.com/wiki/Applied_Energistics_2[/url]%n%n§r- 维基百科提供了大量关于各系统功能的优质入门指南，并包含诸多针对特定机器的自动化教程。若您遇到困难或需要参考依据，请务必查阅Wiki。%n%n%n§r§22.Discord社区：§r[url]https://discord.gg/EXshrPV[/url]%n%n§r- Discord聚集了大量经验丰富的AE2玩家。前往#ae2-help频道，您会发现许多愿意花时间帮您解惑的热心成员。%n%n%n§r§23.视频教程：§r[url]https://www.youtube.com/watch?v=LUYVmIAEC-I[/url]%n%n§r众多GTNH内容创作者制作了高质量视频教程。推荐IX主讲的《AE2基础教程》（附链接），此外还有进阶版本可供学习。%n%n中文WIKI 应用能源2：[url]https://gtnh.huijiwiki.com/p/522[/url]
+
+# Quest: Advanced Wireless Setup Kit
+betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.name=高级无线设置工具
+betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.desc=高级无线设置工具是重度无线用户的必备品。摒弃了传统的一对一往返操作模式，它允许你进入“队列模式”以及“绑定模式”，从而可以一次性选择多个目标并按顺序完成绑定。%n%n在与无线接入器绑定时，它将严格按照队列的先后顺序执行绑定操作。%n%n如需清空队列并重置工具，只需在背包合成格子中将其无序合成为其自身即可。
+
 # Quest: 4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k-ME源质存储元件
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.desc="它们"可以存储 8,388,608 点源质。%n%n以及48个种类。
@@ -9952,9 +9976,17 @@ betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.desc=与1k存储元件一样.
 betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.name=超级加速！
 betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=超级加速卡是更快的普通加速卡。%n%n[note]超级加速卡可放置于：[/note]%n%n§cME IO接口(3)%nME流体输入总线(4)%nME流体输出总线(4)%n%n§r在IO接口中，超级加速卡将以以下速度传输物品：%n%n§61张：4,096物品/tick%n2张：32,768物品/tick%n3张：262,144物品/tick%n%n§r在ME流体总线中，超级加速卡将以以下速度传输流体：%n%n§61张：4,096,000 mb/tick%n2张：32,768,000 mb/tick%n3张：262,144,000 mb/tick%n%n§r[note]译者注：您可以安全地使用这张卡，无需担心招来森林蝙蝠打击。[/note]
 
+# Quest: Advanced Neutronium Tech
+betterquesting.quest.LsZndSrhSAGSi60QlbnDtg.name=先进中子科技
+betterquesting.quest.LsZndSrhSAGSi60QlbnDtg.desc=既然你已经解锁了中子能源元件，你就可以将其和其余组件结合，为您的AE系统制造出强大的升级组件。%n%n与ME控制器合成：你将获得一个有无限能量的ME控制器。%n%n与线缆锚及石英纤维合成：你将获得一个有无限能量的石英纤维。%n%n与高级卡合成：你将获得无限能量升级卡，可为您无线终端赋予无限能量，无论你身处何方。%n%n[note]强烈建议在主网络与子网络中尽可能使用这些工具，它们能大幅缓解TPS压力。[/note]
+
 # Quest: 16384k Fluid Storage Cell
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.name=16384k-ME流体存储元件
 betterquesting.quest.MJoHkNK0Ta-zKyJAvV_DBg.desc=它能存储超过32GL的流体.
+
+# Quest: Super Stock Replenisher
+betterquesting.quest.MPYhN1gKQ3isYpgLbtfDJA.name=超级库存补充器
+betterquesting.quest.MPYhN1gKQ3isYpgLbtfDJA.desc=超级库存补充器是一款极其实用的设备，尤其能高效解决棘手的循环自动化需求！%n%n使用方法：将存储元件放入空槽（物品/流体类型及容量均不限）即可设置最多63种物品与9种流体的自动库存补充。物品与流体的总补给量上限由存储元件的字节容量决定。%n%n当物品/流体被纳入补给库存后，设备会从其连接的ME网络中提取对应资源，这些资源将对您的主网络变为不可见。你可以通过子网的存储总线来读取其内部存储资源。资源一旦被提取就不会回存到超级库存补充器中。%n%n[note]当超级库存补充器中的物品/流体被清除或设备被破坏时，所有资源将自动返回其连接的ME网络，无需担心资源损失。[/note]
 
 # Quest: And Another Digital Singularity
 betterquesting.quest.O0tN--UDTlCbt5ufLodVqA.name=以及又一个数字奇点
@@ -10004,9 +10036,9 @@ betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.desc="它们"可以存储 33,554,432
 betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.name=超越光速
 betterquesting.quest.kBjBqQR5Q-GWh4olyHmXXg.desc=超光速加速卡是AE传输物品/流体最快的加速卡。%n%n%n[note]超光速加速卡仅可用于：[/note]%n%n§cME-IO端口（3）§r%n%n在ME-IO端口中，物品传输速率为：%n%n§61x加速卡：33,554,432 物品/t%n2x加速卡：2,147,483,648 物品/t%n3x加速卡：137,438,953,472 物品/t§r%n%n在ME-IO端口中，流体传输速率为：%n%n§61x加速卡：33,554,432,000 L/t%n2x加速卡：2,147,483,648,000 L/t%n3x加速卡：137,438,953,472,000 L/t%n
 
-# Quest: Wireless 2.5 - All in One
-betterquesting.quest.mYdFnW4UQ2WXHshmj7BH2w.name=无线 2.5 多合一
-betterquesting.quest.mYdFnW4UQ2WXHshmj7BH2w.desc=通过将各种无线终端合成在一起,你制作出了究极七合一无线终端%n%n§3您可以将其与量子无线增幅器结合使用.在所有维度上实现无限的无线范围.
+# Quest: Fluid Void Cell
+betterquesting.quest.krGyRorETXqDuJdbU3K5tA.name=流体虚空元件
+betterquesting.quest.krGyRorETXqDuJdbU3K5tA.desc=[warn]当心!使用时务必万分小心!这个元件的功能正如其名字一样:它会删除你放进去的任何东西.所以最好确保你能够精确控制哪些东西能进入这个元件里.[/warn]%n%n[note]只会销毁流体,不会销毁物品[/note]
 
 # Quest: ...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.name=§6§l...已加入流体支持!
@@ -10035,6 +10067,10 @@ betterquesting.quest.soyN9ODlQmmjrKEyKBNENA.desc=就像存储输入总线一样�
 # Quest: Even More Basic Cards! 
 betterquesting.quest.suQSf7Z-QICknl3I1RfymA.name=更多的基础卡！
 betterquesting.quest.suQSf7Z-QICknl3I1RfymA.desc=[quest]溢出销毁卡，空白样板重填卡，黏性卡[/quest]%n%n§6溢出销毁卡：§r%n%n溢出销毁卡使ME存储元件销毁过量物品%n%n§6空白样板重填卡：§r%n%n自动补充增广样板终端与增广流体样板终端中的空白样板%n%n§6黏性卡：§r%n%n黏性卡强制ME系统将整个网络中的特定物品仅存储在一个位置%n%n[warn]务必谨慎选择黏性卡的使用位置，否则将导致被动产线堵塞[/warn]
+
+# Quest: Wireless HUBs
+betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.name=无线集线器
+betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.desc=无线连接器还新增了集线器这个升级版本！无线集线器可同时连接多个无线连接器，无需将大量1:1连接器堆叠在同一位置。请注意仍存在32个通道的限制。%n%n[note]非常适合放置在控制器表面！[/note]
 
 # Quest: 1024k Essentia Storage Cell
 betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.name=1024k-ME源质存储元件
@@ -12242,7 +12278,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnA.desc=你可以用符文祭坛制作�
 
 # Quest: Terrasteel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.name=泰拉钢
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.desc=要制造高级工具和装备,你需要泰拉钢.制作泰拉钢需要专门的装置.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.desc=要制造高级工具和装备,你需要泰拉钢.制作泰拉钢需要专门的装置.%n%n根据《植物魔法辞典》的描述,你需要在泰拉凝聚板下方放置正确结构.随后在凝聚板上方放置火花并确保火花魔力网络中存有大量的魔力.最后,你需要往凝聚板上放置一个魔力钻石,一个魔力珍珠,和一个魔力钢锭来开始转化.
 
 # Quest: Alfheim
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMng.name=亚尔夫海姆(Alfheim,精灵之国)
@@ -14290,7 +14326,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADXw.desc=铜制标枪的成本有些贵�
 
 # Quest: Your First Flint Throwing Knife
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.name=§2§l你的第一把燧石飞刀
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.desc=骨弓对你来说太贵了？那就做把燧石飞刀吧!你需要燧石和木棒来做成12把刀.虽然它的耐久和伤害都非常低,但它还是能帮你从安全的距离杀死杂鱼.%n%n如果你想拾取你射出的飞刀,你需要把匠魂的飞刀放在你的物品栏中,如果飞刀在战备双持的物品栏里,则无法拾取。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.desc=骨弓对你来说太贵了？那就做把燧石飞刀吧！你需要燧石和木棒来做成12把刀。虽然它的耐久和伤害都非常低，但它还是能帮你在安全的距离杀死生物。%n%n如果你想拾取射出的飞刀，你需要把飞刀本体放在你的物品栏中。
 
 # Quest: Power of the Sun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADpQ.name=§6§l太阳能
@@ -14530,7 +14566,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4A.desc=中子能源元件可以为你�
 
 # Quest: Wireless 3.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.name=无线 3.0
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.desc=此升级可以无限拓展你的无线范围,甚至不需要无线访问点! 想要制作它,你需要提供无尽锭.%n%n[warn]遗憾的是,这玩意bug很多. 总是莫名其妙地消失或者掉出终端.[/warn]%n%n[note]现在大部分bug已经修复了.也许好用些了?[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ7w.desc=此升级可以无限拓展你的无线范围,甚至不需要无线访问点! 想要制作它,你需要提供无尽锭.
 
 # Quest: Obtaining Ender Pearls
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.name=§e§d§c§6§l获取末影珍珠
@@ -14595,6 +14631,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM1w.desc=尝试学习并了解世间一�
 # Quest: Precise Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.name=精密组装机
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEg.desc=精密组装机有两种模式：精密模式和常规模式.%n%n精密模式是用于制造Good-Generator这个mod中的某些先进部件.%n%n[note]顾名思义,你现在的机械方块精度不够,无法制造这些高级组件%n你需要至最低MK-1级别的机械方块来使这个模式工作.[/note]%n%n常规模式则类似多方块版本的组装机.%n%n[note]你不能借助这台多方块机器跳科技.需要通过单方块组装机或GT++多方块组装机,才能制造第一个高阶能源仓,然后才能把它安装在精密组装机上.[/note]
+
+# Quest: Industrial Coke Oven
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.name=工业焦炉
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=你为EV阶段所做的努力可能会将你推向GT++多方块机器,虽然由于制造大多数GT++多方块机器的特殊合金都需要在合金冶炼炉(IV阶段)内合成,即大部分GT++多方块都需要到IV阶段以后才可以建造,但是工业焦炉(ICO)不需要!%n%n那么它能做什么呢?顾名思义,它就是一台非常非常快的焦炉.事实上它的速度可以顶得上几十台热解炉,而且它其实也继承了热解炉的合成表,所以你仍然可以从中获取额外流体,如木炭副产,同时又能大大提高处理速度.需要注意的是,这台多方块机器需要钛和少量钨.未加工的铂可从镍矿或者陨铁矿中获得.你可以在处理末地石粉、末影黏浆或月尘的过程中获得不少钨.%n%n在EV阶段你只能使用隔热焦炉机械方块,其可以提供18x并行.当你在IV阶段解锁了高速钢-S后就可以换成绝热焦炉机械方块,它可以将机器升级到30x并行.
 
 # Quest: Bet On The Distillus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.name=赌上蒸馏
@@ -14696,9 +14736,21 @@ betterquesting.quest.fhzjYvdATJuUQTMUO1pVvA.desc=银桶有72个槽位。
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.name=§3§l多方块革命
 betterquesting.quest.hEsmeH74S4aOOrROI1AHxQ.desc=你一直在使用的蒸汽机器表现良好,但总有一天你需要处理更多的物品.这时候,所谓的多方块机器就派上用场了.有多种蒸汽多方块机器可供你选择——快去看看“大批量加工”的任务页面吧!%n%n这一页任务将向你介绍一系列极其强大的多方块机器,它们可以替代你那些陈旧的单方块机器(以及一些旧的多方块机器!).这些新机器中的许多需要你处理额外的机制和要求,但绝对值得一试!%n%n在进入多方块的世界之前,你需要熟悉以下术语:%n%n超频(OC):%n如果一台机器能够处理至少为配方所需电压4倍的电压,它将会超频——导致其消耗4倍的EU/t,但运行速度提高到2倍.这种情况可以多次发生!%n%n无损超频(通常表述为“超频时效率不会降低”):%n某些机器在条件允许时(或无条件)执行无损超频:在这种情况下,机器需要4倍的EU/t,但运行速度提高到4倍,从而既增加了速度又没有增加总EU消耗!%n%n并行(通常表述为“同时处理x个物品”):%n并行工作的机器就像在运行多个自身——也就是说,它们可以同时执行多个相同的配方,使用配方的EU/t乘以并行数.机器会[warn]优先考虑[/warn]并行这种行为而不是超频,这对你有利!并行更加高效.%n%n[note]当使用多方块机器时,如果运行过程中电力中断,你的输入物品将会永久丢失……小心![/note]
 
+# Quest: NEI Next Level Recipe Search
+betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.name=§2§lNEI 更高级的配方搜索
+betterquesting.quest.hmQlN9vLSEOyCnCSOOXz7Q.desc=NEI配方搜索功能进一步升级！%n%n选择扩展+搜索模式来体验吧！%n%n这里用反引号``将搜索词括起来，实际搜索时不需要输入它们。%n%n默认搜索方式与扩展模式类似，会在配方的§l任意§r输入或输出物品中进行搜索。例如搜索`§1-§rdust`会返回所有至少包含一个不带有§o"dust"§r字样的物品的配方。%n%n若只想在§l输入项§r中搜索，请在搜索词前加§a<§r！比如`§a<§riron`返回所有§l输入项§r中包含§o"iron"§r的配方，`§a<§rsteel§5@gregtech§r`返回包含名称带§9Gregtech§r的模组物品、且含有§o"steel"§r的配方。%n%n但若搜索`§a<§1-§rdust`仍会返回左侧带有§o"dust"§r的配方。这是因为§a<§r是在§l任意§r物品中搜索。只要有一个物品不包含§o"dust"§r，即使其他输入项都是粉尘，该配方仍会被匹配。%n%n要解决这个问题，请使用§a<&§r。例如：`§a<&§1-§rdust`。这会返回§l所有§r输入项都不含§o"dust"§r的配方！§a<&§r对§l所有§r输入项设置§l严格§r条件，而§a<§r只对§l任意§r输入项设置条件。%n%n要筛选§l输出项§r，请使用§a>§r和§a>&§r。它们用法相同，但用于过滤配方的§l输出项§r。因此`§a>§rgold`返回至少有一个§l输出项§r包含§o"gold"§r的配方，而`§a>&§rgold`返回每个输出物品都含§o"gold"§r的配方。%n%n想组合多个条件？只需按任意顺序连续输入即可。例如可以搜索`§a<§riron§a>§rsteel`、`§a<&§r §1-§b$dust§r §a<§r cell`、`§a>&§1-§rdust cell`。%n%n甚至可以是`dust§a>§rcell`。这里未加前缀的部分会像默认模式一样，在§l任意§r输入或输出物品中搜索。因此该查询返回在输入或输出项中含§o"dust"§r、且在输出项中含§o"cell"§r的配方。%n%n某些配方中可能存在不属于输入或输出的物品。要筛选这些物品，请分别使用`§a^§r`和`§a^&§r`。%n%n您也可以随意添加空格增强可读性，因为（除非开启空格模式）在扩展+模式下空格可以任意使用。
+
+# Quest: NEI Next Level Search
+betterquesting.quest.kR1YVSq2R4WFu9KNM9lCZQ.name=§2§lNEI 更高级的搜索
+betterquesting.quest.kR1YVSq2R4WFu9KNM9lCZQ.desc=NEI搜索功能进一步升级！%n%n选择扩展+搜索模式来试试吧！%n%n扩展+模式与扩展模式类似，但不支持在名称中使用*和?进行扩展。此外以下符号需要用`\`转义：`-`（短横线）`<`和`>`（小于和大于号）`^`（脱字符）`{`和`}`（花括号）`|`（竖线）`\`（反斜杠）` `（空格）`"`（引号）以及您已启用的前缀如§5@§r或§b$§r。%n%n示例：§5@§oElectro\-Magic§r、§oiron\ ingot§r、§oPB\&J§r。%n%n扩展+模式为您日常搜索体验增添了便利性，并改进了配方搜索（下一个任务）。下文使用反引号``包裹搜索查询，实际搜索时无需添加。%n%n不想在每个符号前加反斜杠？用引号！引号内也可嵌套引号，但需要转义。例如：`§6"§r\"§6"§r`。%n%n使用花括号§7{}§r分组条件。搜索`§7{§rmytryl§7|§rmanasteel§7}§r锤头`将显示由秘银或玛娜钢制成的锤头。%n%n不再强制要求空格。因此`§7{§rmytryl§7|§rmanasteel§7}§r锤`同样有效！%n%n支持空格模式，若需按字面意义处理空格请开启该功能！%n%n引号不再需要闭合引号。因此搜索`§6"§r铁锭`也能工作！但若需要结束引号范围仍需闭合引号。%n%n正则表达式语法已简化（旧语法仍支持）。现在无需`§br/§r某正则§b/§r`，直接搜索`§b/§r某正则`即可！但若需结束正则范围仍需斜杠。与引号类似，正则表达式无需转义，唯一例外是`/`符号。因此要用正则搜索斜杠时需使用`§b/§r\/`。%n%n可在前缀后使用引号或正则进行非纯文本搜索。例如用`§5@§6"§5箱子矿车§r`搜索§9铁箱子矿车§r模组物品，或用`§5@§b/§5箱子矿车§r`实现相同功能的正则搜索。
+
 # Quest: Iron Barrel
 betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.name=§2§l铁桶
 betterquesting.quest.ne_onBK6TP2F_ySPabM7Lw.desc=铁桶有54个槽位。
+
+# Quest: NEI is EVEN MORE POWERFUL NOW?
+betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.name=§2§lNEI再一次更强大了？
+betterquesting.quest.pl7uw8oSRhe6L4DmTRfrOQ.desc=NEI现在会自动将相似的物品折叠到一个槽位，使浏览速度更快！要折叠/展开一个物品组，请使用ALT+左键。%n您还可以使用自定义组创建自己的预设！%n%n[note]您可以在NEI设置中禁用此功能[/note]%n%n此外，NEI现在具有类似JEI的高级搜索：%n%n@ - 按mod搜索 (@minecraft)%n%n[note]您可以使用更多特殊字符，但大多数特殊字符默认为关闭（例如，无需使用#在tooltip中搜索），以下是所有特殊字符，请在NEI设置中检查哪些是打开/关闭的。%n%n空格用作不同条件之间的逻辑与%n# - 按tooltip搜索（#UV-Tier）%n& - 按id搜索：（&95:15 extratrees:door）%n$ - 按矿物词典搜索（$ore）%n%% - 按子集搜索（%%block）%n| - 逻辑或，多项物品搜索：（wrench|hammer）%n--逻辑非，排除与后续表达式匹配的物品（-@minecraft）%n" - 用引号括起来的多个单词将被视为一个条件，而不是多个条件（"White Stained Glass"）%n%n搜索模式（应用于搜索部分，而不是完整字符串）：%n纯文本 - 简单字符串%n扩展 - 仅允许?、*规则（默认）%n正则表达式 - 允许完整正则表达式%n%n在扩展搜索模式下：%n? - 任何一个字符（@min?craft）%n* - 任意一个或多个字符 （@m*ft = @minecraft）%nr/.../ - 标准java正则表达式（@r/m\w{6}ft/ = @minecraft）[/note]%n%n[note]您可以在 NEI 设置中禁用此功能。[/note]%n%n您可以将鼠标悬停在物品上时使用A键添加书签，也可以：%n按住SHIFT为整个配方添加书签%n按住CTRL为物品的数量添加书签%n按住SHIFT+CTRL为配方以及其所包含的所有物品的数量添加书签
 
 # Quest: Dark Steel Chest
 betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.name=§5§6§l玄钢箱子
@@ -14706,10 +14758,14 @@ betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.desc=拥抱黑暗后,你可以获得
 
 # Quest: Thaumometric Essentia Cell
 betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.name=魔导源质存储元件
-betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=经过对第四维度的研究,你终于发现了获取无限源质的方法.魔导源质存储元件是你从这个无穷无尽的源泉中提取源质的工具--把它想象成你的无限魔力信用卡吧！%n%n不幸的是,你必须在源质元件工作台中过滤每一种源质.要是你的技术更先进就好了...
+betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=经过对第四维度的研究,你终于发现了获取无限源质的方法.魔导源质存储元件是你从这个无穷无尽的源泉中提取源质的工具--把它想象成你的无限魔力信用卡吧！
 
 
 ### Quests in no quest lines ###
+
+# Quest: Trigger: Nano Boots of the Traveller Skip
+betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.name=触发：跳过纳米旅行者之靴
+betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.desc=
 
 # Quest: Trigger: Rocket Shuttle Skip
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.name=触发：跳过穿梭机火箭
@@ -14847,6 +14903,14 @@ betterquesting.quest.S8Z31Xp-RrSdc2A6rOvUzg.desc=无描述
 betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.name=触发：跳过3阶火箭
 betterquesting.quest.SjBDdQ9oT8qQAK5K64z7Jw.desc=没有描述
 
+# Quest: Trigger: Electric Boots of the Traveller Skip
+betterquesting.quest.SsBfuluoR5m5D-dEuoKgsg.name=触发：跳过电子旅行者之靴
+betterquesting.quest.SsBfuluoR5m5D-dEuoKgsg.desc=
+
+# Quest: Trigger: Boots of the Traveller Skip
+betterquesting.quest.TakFzrg7Rfew3UivxIIzvw.name=触发：跳过纳米旅行者之靴
+betterquesting.quest.TakFzrg7Rfew3UivxIIzvw.desc=
+
 # Quest: Trigger: Rocket Tier 4 Skip
 betterquesting.quest.ThhwoFJASzGjsSjyGqCROQ.name=触发：跳过4阶火箭
 betterquesting.quest.ThhwoFJASzGjsSjyGqCROQ.desc=没有描述
@@ -14882,6 +14946,10 @@ betterquesting.quest.jAZpo1cHR56fqHckKP14lw.desc=没有描述
 # Quest: Trigger: Profane Wand
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.name=触发:渎神杖柄
 betterquesting.quest.kPOfft_mTjqocCR6z9GhVw.desc=无描述
+
+# Quest: Trigger: Epoxy Board Skip
+betterquesting.quest.kZ6QmUGzTCitYMg_BdiVeQ.name=触发：跳过环氧树脂基板
+betterquesting.quest.kZ6QmUGzTCitYMg_BdiVeQ.desc=没有描述.
 
 # Quest: Trigger: Nether Skip
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.name=触发：跳过下界
