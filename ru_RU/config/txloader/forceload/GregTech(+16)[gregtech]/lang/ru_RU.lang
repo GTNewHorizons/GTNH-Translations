@@ -188,7 +188,7 @@ gt.interact.desc.deny_i_filter_o=Запретить ввод, фильтрова
 gt.interact.desc.deny_i_invert_o=Запретить ввод, инвертировать выход
 gt.interact.desc.any_i_filter_o=Разрешить любой ввод, фильтровать выход
 gt.interact.desc.any_i_invert_o=Разрешить любой ввод, инвертированный выход
-gt.interact.desc.mb.idle.1=Ударьте киянкой для
+gt.interact.desc.mb.idle.1=Ударь киянкой для
 gt.interact.desc.mb.idle.2=(повторного) запуска механизма
 gt.interact.desc.mb.idle.3=если не запускается.
 gt.interact.desc.mb.running=Неполадок не обнаружено.
@@ -1201,6 +1201,8 @@ GT5U.machines.oreprocessor.Sifter=Просеиватель
 GT5U.machines.oreprocessor.Chemical_Bathing=Химической ванна
 GT5U.machines.oreprocessor.Ore_Washer=Рудопромывочная машина
 GT5U.machines.oreprocessor.Thermal_Centrifuge=Термальная центрифуга
+GT5U.machines.oreprocessor.Forge_Hammer=Кузнечный молот
+GT5U.machines.oreprocessor.Simple_Washer=Простая промывочная машина
 GT5U.machines.oreprocessor.WRONG_MODE=Что-то пошло не так
 GT5U.machines.industrialapiary.cancel.tooltip=§cОтменить процесс
 GT5U.machines.industrialapiary.cancel.tooltip.1=§7Также отключит механизм (киянка)
@@ -1303,8 +1305,8 @@ GT5U.machines.nano_forge.t4_info_tooltip=Click for T4 info
 GT5U.machines.nano_forge.t4_info_header=Нано кузница тир 4
 GT5U.machines.nano_forge.t4_info_text.1=Upgrading the Nano Forge to T4 by placing an eternity nanite into the controller completely transforms the structure and unlocks both a scaling speed boost and parallel for mass nanite creation.
 GT5U.machines.nano_forge.t4_info_text.2=Нано кузница может снабжаться расплавленной магматерией для увеличения максимального количества параллелей. В начале цикла рецепта вся поставляемая магматерия потребляется и преобразуется в параллели по следующей формуле:
-GT5U.machines.nano_forge.t4_info_text.3=Максимум параллелей = Макс((Количество магматерии / (144 / 2^(4 - Тир рецепта))), 1)
-GT5U.machines.nano_forge.t4_info_text.4=Чтобы фактически применить параллели к рецепту, копия выходного нанита должна быть предоставлена во входном люке и будет потребляться.
+GT5U.machines.nano_forge.t4_info_text.3=Максимум параллелей = Макс((Количество магматерии / (288 / 2^(4 - Тир рецепта))), 1)
+GT5U.machines.nano_forge.t4_info_text.4=Чтобы фактически применить параллели к рецепту, копия выходного нанита должна находиться в входном люке и будет потребляться. Если присутствуют другие типы нанитов, это не сработает.
 GT5U.machines.nano_forge.t4_info_text.5=A recipe time multiplier is also granted based on maximum parallels via the following formula:
 GT5U.machines.nano_forge.t4_info_text.6=Множитель времени рецепта = 0,9999^(Максимальная параллель)
 GT5U.machines.nano_forge.t4_info_text.7=Additionally, tier 1 & 2 nanites will receive unconditional perfect overclocks, while perfect OCs on tier 3 nanites require parallels to be above 1. Tier 4 nanites do not get perfect overclocks.
@@ -1547,7 +1549,7 @@ GT5U.gui.config.worldgen.general=Общие
 GT5U.gui.text.cannot_change_when_running=Невозможно изменить конфигурацию во время работы!
 
 GT5U.gui.tooltip.purification_plant.debug_mode=Переключить в режим отладки.
-GT5U.gui.text.purification_plant.hit_to_start=Ударьте киянкой для запуска.
+GT5U.gui.text.purification_plant.hit_to_start=Ударь киянкой для запуска.
 
 GT5U.gui.tooltip.redstone_circuit.toggle_output=Переключить вывод EU
 GT5U.gui.tooltip.redstone_circuit.toggle_active=Toggle Active State
@@ -1569,7 +1571,7 @@ GT5U.gui.text.wireless_maintenance_detector.extra.ge5_issues=>= 5 проблем
 GT5U.gui.text.wireless_maintenance_detector.extra.rotor_lt20=Ротор < 20%
 GT5U.gui.text.wireless_maintenance_detector.extra.rotor_0=Ротор ≈ 0%
 
-GT5U.gui.text.fusion_computer.hit_to_start=Ударьте киянкой для (повторного) запуска механизма если не запускается.
+GT5U.gui.text.fusion_computer.hit_to_start=Ударь киянкой для (пере)запуска механизма если он не запускается.
 GT5U.gui.text.fusion_computer.running_perfectly=Неполадок не обнаружено.
 
 GT5U.gui.text.large_fluid_extractor.not_enough_casings=Недостаточно корпусов: нужно %d, но\nесть %d.
