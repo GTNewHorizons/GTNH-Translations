@@ -4,7 +4,7 @@ tc.research_category.THAUMICBASES=Thaumic Bases
 enchantment.elderKnowledge=観察者の知恵
 enchantment.eldritchBane=エルドリッチ特攻
 enchantment.magicTouch=魔法の接触
-enchantment.tainted=Tainted
+enchantment.tainted=汚染
 enchantment.vaporising=蒸発
 tb.rec.enchantments.magictouched=魔法の接触がエンチャントされた武器でクリーチャーを倒すと、より多くのアスペクトオーブがドロップする。
 tb.rec.enchantments.vaporising=蒸発がエンチャントされた武器でクリーチャーを倒すと、結晶化したエッセンスがドロップする可能性がある。
@@ -12,7 +12,7 @@ tb.rec.enchantments.vaporising=蒸発がエンチャントされた武器でク�
 #blocks
 tile.quicksilverBlock.name=水銀ブロック
 tile.quicksilverBrick.name=水銀レンガ
-tile.crystalBlock.name=Crystal Block
+tile.crystalBlock.name=結晶ブロック
 tile.crystalBlockfire.name=火の結晶ブロック
 tile.crystalBlockwater.name=水の結晶ブロック
 tile.crystalBlockearth.name=地の結晶ブロック
@@ -42,7 +42,7 @@ tile.glieonia.name=グリーオニアの作物
 tile.briar.name=ブライア
 tile.tobacco.name=タバコの作物
 tile.voidPlant.name=虚無の作物
-tile.spike.name=Spikes
+tile.spike.name=トゲ
 tile.spikeiron.name=鉄のトゲ
 tile.spikethaumic.name=魔導金属のトゲ
 tile.spikevoid.name=虚無鋼のトゲ
@@ -62,7 +62,7 @@ tile.TBoldLapis.name=古のラピスラズリブロック
 tile.TBoldBricks.name=古のレンガ
 tile.nodeManipulator.name=オーラ節操作器
 
-tile.tb.slab..name=Slab
+tile.tb.slab..name=ハーフブロック
 tile.tb.slab.tile.TBoldLapis.name=古のラピスラズリのハーフブロック
 tile.tb.slab.tile.TBoldIron.name=古の鉄のハーフブロック
 tile.tb.slab.tile.TBoldGold.name=古の金のハーフブロック
@@ -72,7 +72,7 @@ tile.tb.slab.tile.TBoldBricks.name=古のレンガのハーフブロック
 tile.tb.slab.tile.TBoldCobblestoneMossy.name=古の苔むした丸石のハーフブロック
 tile.tb.slab.tile.eldritchArk.name=金で彫刻された黒曜石のハーフブロック
 
-tile.tb.crystalslab..name=Crystal Slab
+tile.tb.crystalslab..name=結晶のハーフブロック
 tile.tb.crystalslab.air.name=風の結晶のハーフブロック
 tile.tb.crystalslab.water.name=水の結晶のハーフブロック
 tile.tb.crystalslab.fire.name=火の結晶のハーフブロック
@@ -84,11 +84,11 @@ tile.tb.crystalslab.tainted.name=汚染結晶のハーフブロック
 
 tile.thaumicRelocator.name=魔導移動器
 tile.tb.voidblock.name=虚無鋼ブロック
-tile.thaumicAnvil.name=Thaumium Anvil
+tile.thaumicAnvil.name=魔導金属の金床
 tile.thaumicAnvil.intact.name=魔導金属の金床
 tile.thaumicAnvil.slightlyDamaged.name=欠けた魔導金属の金床
 tile.thaumicAnvil.veryDamaged.name=壊れかけの魔導金属の金床
-tile.voidAnvil.name=Void Metal Anvil
+tile.voidAnvil.name=虚無鋼の金床
 tile.voidAnvil.intact.name=虚無鋼の金床
 tile.voidAnvil.slightlyDamaged.name=欠けた虚無鋼の金床
 tile.voidAnvil.veryDamaged.name=壊れかけの虚無鋼の金床
@@ -105,7 +105,7 @@ tile.enderTreeLeaves.name=エンダーの葉
 tile.enderPlanks.name=エンダーの木材
 
 #items
-item.resource.name=Resource
+item.resource.name=素材
 item.resourcenuggetthauminite.name=魔導鋼ナゲット
 item.resourcethauminite.thauminite_ingot.name=魔導鋼インゴット
 item.resourcethaumium_wand_core.name=魔導金属の杖身
@@ -135,7 +135,7 @@ item.plaxSeeds.name=プラックスの種
 item.metalleatSeeds.name=メタリートの種
 item.lucriteSeeds.name=ルクリットの種
 item.knoseSeed.name=ローザ・ミステリアの新芽
-item.knoseFragment..name=Fragment
+item.knoseFragment..name=断片
 item.knoseFragment.fire.name=イグニスの断片
 item.knoseFragment.aqua.name=アクアの断片
 item.knoseFragment.terra.name=テラの断片
@@ -152,7 +152,7 @@ item.rosehipSyrup.name=ローズヒップシロップ
 
 item.greatwoodPipe.name=グレートウッドの喫煙パイプ
 item.silverwoodPipe.name=シルバーウッドの喫煙パイプ
-item.tobacco.name=Tobacco Pile
+item.tobacco.name=タバコの刻
 item.tobacco.tobacco_pile.name=タバコの刻
 item.tobacco.tobacco_eldritch.name=エルドリッチのタバコの刻
 item.tobacco.tobacco_fighting.name=怒れるタバコの刻
@@ -177,7 +177,7 @@ item.fluxFoci.name=フラックス洗浄の杖星
 item.drainFoci.name=液体除去の杖星
 item.experienceFoci.name=経験値の杖星
 
-item.nodeFoci..name=§eNode Manipulator Focus
+item.nodeFoci..name=§e操作星具
 item.nodeFoci.speed.name=§e速度の操作星具
 item.nodeFoci.brightness.name=§e光輝の操作星具
 item.nodeFoci.destruction.name=§e破壊の操作星具
@@ -434,7 +434,7 @@ tb.rec.eDec.page.0=魔導師には、研究を継続するためさらなる知�
 tc.research_name.TB.GoldenOak=魔導樹木学
 tc.research_text.TB.GoldenOak=知識の樹皮に噛りつく
 tb.rec.goldenOak.page.0=魔力の注入により新たな魔法を生み出す植物は雑草や花だけではない。樹木には計り知れない可能性が秘められている。ただし、その頑強な性質ゆえに、簡単なるつぼ程度では魔力を注入できない。しかし、注入の儀式にはそれを可能にするだけの力がある！この理論を試すため、黄金のオークの苗木を生み出した。これは通常のオークの苗木と同様に成長するが、リンゴがドロップすると、その果実は黄金に輝くのだ！ただし残念ながら、エンチャントされた金リンゴは重すぎて枝が耐えられないため、実ることがない。
-tb.rec.goldenOak.page.1=Infused with the essentia of Greed, this tree clings to life selfishly. It drops fewer saplings than normal, hoarding sunlight and water for itself. Due to a magical anomaly (note: this is unique to GT:NH), its leaves will not yield themselves when sheared. Using a tool enchanted with Silk Touch allows you to collect the leaves normally, but you’ll forfeit the chance to harvest Golden Apples.
+tb.rec.goldenOak.page.1=強欲のエッセンシアを注入することで、この木は自分勝手に生命に固執するようになる。苗木のドロップ数が通常より少なくなり、日光と水を独り占めする。また魔術的異常により(メモ:これはGT:NH特有)、葉をハサミで破壊した際にドロップしなくなる。シルクタッチがエンチャントされた道具を使うことで通常通り葉を回収することができるが、金のリンゴを収穫する機会を失うことになる。
 
 tc.research_name.TB.NodeMan=オーラ節操作
 tc.research_text.TB.NodeMan=完全制御！
@@ -570,26 +570,26 @@ tb.foci.calming.desc=歪みアップグレードの効果を逆転させる。�
 #1.2
 
 #Blocks
-tile.nodeLinker.name=ノード接続装置
+tile.nodeLinker.name=節リンク装置
 tile.tb.campfire.name=魔法使いの焚き火
-tile.tb.brazier.name=Brazier of Warding
+tile.tb.brazier.name=保護の火鉢
 
 #Items
-item.tb.revolver.name=Thaumaturge's Revolver
-item.tb.bracelet.name=Bracelet
-item.tb.bracelet.iron=Iron Bracelet
-item.tb.bracelet.gold=Gold Bracelet
-item.tb.bracelet.greatwood=Greatwood Bracelet
-item.tb.bracelet.thaumium=Thaumium Bracelet
-item.tb.bracelet.silverwood=Silverwood Bracelet
-item.tb.bracelet.reed=Reed Bracelet
-item.tb.bracelet.bone=Bone Bracelet
-item.tb.bracelet.obsidian=Obsidian Bracelet
-item.tb.bracelet.ice=Ice Bracelet
-item.tb.bracelet.blaze=Blaze Bracelet
-item.tb.bracelet.quartz=Quartz Bracelet
-item.tb.bracelet.void=Void Bracelet
-item.tb.bracelet.primal=Primal Bracelet
+item.tb.revolver.name=魔導師のリボルバー
+item.tb.bracelet.name=ブレスレット
+item.tb.bracelet.iron=鉄のブレスレット
+item.tb.bracelet.gold=金のブレスレット
+item.tb.bracelet.greatwood=グレートウッドのブレスレット
+item.tb.bracelet.thaumium=魔導金属のブレスレット
+item.tb.bracelet.silverwood=シルバーウッドのブレスレット
+item.tb.bracelet.reed=サトウキビのブレスレット
+item.tb.bracelet.bone=骨のブレスレット
+item.tb.bracelet.obsidian=黒曜石のブレスレット
+item.tb.bracelet.ice=氷のブレスレット
+item.tb.bracelet.blaze=ブレイズのブレスレット
+item.tb.bracelet.quartz=クォーツのブレスレット
+item.tb.bracelet.void=虚無鋼のブレスレット
+item.tb.bracelet.primal=根源のブレスレット
 
 #Enchantments for the revolver
 revolverUpgrade.ACCURACY.name=Accuracy
@@ -616,11 +616,11 @@ tb.rec.revolver.page.0=Thaumic weapons are good. Especially those where you do n
 tb.rec.revolver.page.1=You have been engineering for a while now - this is what you have came with. A pretty strange contraption that is not all that big and is comfort to hold in hand. You have named your contraption "The Revolver". No, you have no idea why.<BR>The device is able to shoot very small yet extremely fast projectiles which deal devastating damage to anything they come in contact with. Due to your weapon having a magical nature those projectiles are also magical - they are created out of raw Telum essentia, stored in a jar inside of the revolver. One point of aspect is enough for just two shots. To open the revolver sneak and left-click anywhere. Sneaking also allows you to aim more precise. Right-click to shoot of course, that should be obvious.
 tb.rec.revolver.page.2=The revolver is also much more potent than it looks - you are sure, that there are TONS of ways to improve it's construction by performing further infusions over it. You still need to discover them though. Some of the improvements might conflict with each other and therefore can't be installed together. It is also worth noticing that most improvements can be applied over and over again, but the stability of the infusion will suffer great penalties for each new level. The aspect cost will also increase for each level of improvement by the amount it originally cost.
 
-tc.research_name.TB.NodeLinker=Node Linking
-tc.research_text.TB.NodeLinker=From one source to another!
-tb.rec.nodeLink.page.0=Nodes. The things that link your world to the world of magic. They are heavily used in thaumaturgy - some devices use them to function, you need them to recharge your wands. However there is a small problem - a node can always store that much of vis and if it has, for example, no terra it it - this is it, it has no terra, and that aspect can't be gained from the node. There sure is a so called 'node bullying' - one node eating other, smaller nodes. With the discovery of the Advanced node stabiliser that can be worked with, but it takes a ridiculous amount of time and also is unreliable.
-tb.rec.nodeLink.page.1=You have discovered a device that might get the job done. The node Linking Device creates a mysterious link between 2 nodes and will move aspects from the linked one to the linker. You need 2 of this devices placed on top of nodes. Then just take your wand and right click on the receiver. After that click on the transmitter - and the link will be established. The link will firstly drain all aspects out of the transmitting node's pull, then it will draw the node's capacity and will increase the receiver’s capacity based on that. Lastly the node without any capacity left will fade away. The chance of the receiver node to increase it's aspect capacity is around 70% for each capacity decrease on the transmitting node.
-tb.rec.nodeLink.page.2=The transmission however is pretty unstable - both nodes will react to the link. This will result in a so called instability. The more time the device functions - the more instability it will have. Based on the amount of instability different things may happen - from the aspects escaping out of nodes on both ends into air in form of flux, to the complete transmitting node destruction with the explosion. The receiving node however will never get harmed in any way. If you would only have a magic inert metal, forged from both, Nether and End, that could stabilize the link. In theory a Block of this supreme metal above this device would be sufficient.
+tc.research_name.TB.NodeLinker=節のリンク
+tc.research_text.TB.NodeLinker=源から別の源へ！
+tb.rec.nodeLink.page.0=オーラ節。この世界と魔法の世界をつなぐ存在。魔導学では広く利用されている。いくつかの装置はオーラ節によって動作し、杖の再充填にも必要となる。しかし、小さな問題がある。オーラ節が保持できるVisの量には限りがあり、例えばTerraを持っていない場合——それはもうTerraが存在しないということであり、その相をそのオーラ節から得ることはできない。また、いわゆる「オーラ節の相互作用」という現象も確かに存在する。ある節が他の小さな節を吸収することだ。上位節安定器の発見によってこの現象を利用することも可能になったが、膨大な時間を要する上に、信頼性にも欠ける。
+tb.rec.nodeLink.page.1=その目的を果たせそうな装置を発見した。節リンク装置は、2つのオーラ節の間に神秘的なリンクを形成し、リンク元からリンク先へ相を移動させる。この装置2つをオーラ節の上に設置する必要がある。その後、杖を使って受取側の装置を右クリックする。続けて発送側の装置を右クリックすると、リンクが確立される。リンクが成立すると、まず発送側のオーラ節から相がすべて吸い出される。次に、そのオーラ節の容量が引き出され、受取側のオーラ節の容量がそれに応じて増加する。最終的に、容量を失ったオーラ節は消滅する。リンク元の相容量が減少するたびに、リンク先の容量が約70%の確率で増加する。
+tb.rec.nodeLink.page.2=しかしながらこの伝達は非常に不安定であり、リンクされた両方のオーラ節が反応を起こす。これにより、いわゆる不安定度が発生する。装置の稼働時間が長くなるほど不安定度は増加していく。不安定度に応じて、さまざまな現象が起こり得る——両端のオーラ節からフラックスの形で相が空気中へと漏れ出すこともあれば、発送側のオーラ節が爆発とともに完全に破壊されることもある。ただし、何があっても受取側のオーラ節が損傷を受けることは決してない。もしネザーとエンドの両方から鍛造した魔法的に不活性な金属があれば、このリンクを安定化できるかもしれない。理論上、この装置の上にその至高の金属ブロックを設置することで十分なはずだ。
 
 tc.research_name.TB.Revolver.Accuracy=Revolver Upgrade: Accuracy
 tc.research_text.TB.Revolver.Accuracy=Sniping from miles away
@@ -682,70 +682,70 @@ tc.research_name.TB.Revolver.Void=Revolver Upgrade: Void
 tc.research_text.TB.Revolver.Void=Merging with the bullets
 tb.rec.revolver.void.page.0=Infusing the revolver with some void metal gives the gun the primal ability of the void metal - self-repairing. Warning - seeing the gun metal changing shape due to the void metal might not be a pleasant experience and may cause hallucinations and nightmares!<BR>Max Level: §6§l 3 §r§0<BR>Conflicts with: §nNone§r
 
-tc.research_name.TB.Campfire=Mage's Campfire
-tc.research_text.TB.Campfire=A safe night in the woods
-tb.rec.campfire.page.0=If a person wanders around for example in the forest when it is getting dark and he is too far away from home to go to his bed he is probably stuck there in the darkness with all those monsters around. You are a thaumaturge, sure you can solve that problem! You have discovered a way to make a campfire! To light it up you first need to right-click it with a log - magical logs may be more long-lasting. Next just insert any fuel in it. Your campfire is imbued with magic, so monsters nearby will retreat, just as creepers flee from cats. However, sometimes a hunger will make monsters ignore the campfire to a certain extent - it is not absolute protection.
+tc.research_name.TB.Campfire=魔法使いの焚き火
+tc.research_text.TB.Campfire=森の中で安全な夜を
+tb.rec.campfire.page.0=例えば、周囲が暗くなりはじめたときに森の中をさまよっていて、ベッドに戻れないほど家から遠く離れているなら、その人はそこで周囲のモンスターたちとともに暗闇の中で立ち往生することになるだろう。だが自分は魔導師、この問題を解決できるはずだ！焚き火を作る方法を発見した！点火するには、まず原木を持って右クリックする必要がある(魔法的な原木はより長持ちするかもしれない)。次に、その中に任意の燃料を投入すればよい。この焚き火には魔法が込められており、ネコを恐れるクリーパーのように、付近のモンスターは焚き火を避けるようになる。ただし、空腹に駆られたモンスターは、焚き火の効果をある程度無視することもある──完全な防御ではないのだ。
 
-tc.research_name.TB.Brazier=Brazier of Warding
-tc.research_text.TB.Brazier=Not just decorative
-tb.rec.brazier.page.0=The campfire is well and good, but there is a problem - it requires way too much manual control. You need to toss in logs, you need to toss in fuel. Maybe thaumaturgy can help you with this? And it sure can! You have improved the construction of the campfire. The brazier will do exactly the same, but it does not require manual fuel/logs insertion - it will instead drain ignis essentia from nearby jars and mirrors.
+tc.research_name.TB.Brazier=保護の火鉢
+tc.research_text.TB.Brazier=ただの装飾ではない
+tb.rec.brazier.page.0=焚き火は便利ではあるが、ひとつ問題がある。手動制御が必要になることが多すぎるのだ。原木を投入しれなければならず、燃料も投入しなければならない。魔導学がこれを解決する助けになるかもしれない。そして、それは確かに可能だった！焚き火の構造を改良した。この火鉢は焚き火と同様の機能を持ちながら、手動での燃料/原木搬入が必要ない。その代わりに、近くの保護瓶や鏡からIgnisのエッセンシアを吸収するのだ。
 
-tc.research_name.TB.Bracelet.Iron=Thaumic Bracelets
-tc.research_text.TB.Bracelet.Iron=Elegant foci solution
-tb.rec.bracelet.iron.page.0=Since the discovery of wands you have been thinking of alternating the way vis channels through the wand. The wand on it's own has a very basic system of vis channelling - it uses the Vis from the core and exports it into the world using the caps. Well, that makes the wand a universal device it can use vis offensively, defensively and for crafts. But it both lacks the power for offensive usage and the efficiency for crafts. Sure there are staffs and sceptres. The sceptres are fine, but you think that the staffs can be made... differently.
-tb.rec.bracelet.iron.page.1=By completely removing the core from the construction, adding some mundane parts to hold it all together and making a 'zone of potency' with the caps you have discovered the Bracelets. They are your alternative to the staffs. Due to their construction they do not come in thousands of variants - there are some though. You are also sure, that you can't combine different caps to create a bracelet - it will be unstable and will not work. Only the regular caps discovered by thaumaturges can be used to create the bracelets too... The bracelet works just as your regular wand would - it can drain vis from nodes, it can be charged in a wand recharging pedestal, it can harvest the aspect orbs from mobs. 
-tb.rec.bracelet.iron.page.2=The bracelets also work with foci - it is what they were made for. However since the bracelet has no core it is very limited in the amount of vis it can store - the most basic one - the iron can only store 10! Due to the bracelets having no core, they can't be used for crafting. However what they shine at is the usage of foci. First of all they have an amazing vis discount for doing so. Any foci in the bracelet will have it's cooldown greatly reduced. The foci are also MUCH faster and potent than in wands. Lastly since the bracelets are extremely small they also will get affected by the invisibility potion if their carrier is.
+tc.research_name.TB.Bracelet.Iron=魔導ブレスレット
+tc.research_text.TB.Bracelet.Iron=優雅なる杖星の解法
+tb.rec.bracelet.iron.page.0=杖の発見以来、杖を通るVisの流れ方を変える方法について考えてきた。杖自体のVis伝導システムは非常に基本的なもので、杖身からVisを取り出し、石突を通じて外界へと放出する。この仕組みによって、杖は攻撃・防御・クラフトのいずれにも使える汎用的な装置となっている。しかし、攻撃用には力不足であり、クラフト用には効率が足りない。もちろん上級杖や錫杖も存在する。錫杖は悪くないが、上級杖はもっと...別の形にできると考えられる。
+tb.rec.bracelet.iron.page.1=杖身を完全に取り除き、形を保つために普通の素材を加え、石突によって「力場」を形成することで、ブレスレットを発見した。これは上級杖の代替となる装置である。その構造上、無数のバリエーションが存在するわけではないが、いくつかの種類は存在する。また、異なる種類の石突を組み合わせてブレスレットを作ることはできないと考えられる。不安定となり機能しなくなるからだ。魔導師によって発見された通常の石突のみが使用できる。ブレスレットは通常の杖と同様に機能する。オーラ節からVisを吸収でき、杖充填台でVisを充填でき、モブから相オーブを回収することもできる。
+tb.rec.bracelet.iron.page.2=ブレスレットは杖星にも対応している——そもそもそのために作られたものだが。ただし、ブレスレットは杖身を持たないため、保持できるVisの量は非常に限られている。最も基本的な鉄製のものでは、わずか10Visしか保持できない！また杖身が存在しないため、クラフトには使用できない。しかし、ブレスレットが輝くのは杖星使用時だ。まず、使用時のVis消費が大幅に軽減される。さらに、ブレスレットに装着された杖星はクールダウンが大幅に短縮される。発動速度と威力も杖に装着したときよりもはるかに高い。最後に、ブレスレットは非常に小型であるため、持ち主が透明化ポーションの効果を受けている場合、それに応じて見えなくなる。
 
-tc.research_name.TB.Bracelet.Gold=Gold Bracelet
-tc.research_text.TB.Bracelet.Gold=Gold is a great conductor
-tb.rec.bracelet.gold.page.0=Since iron is much more mundane than gold you might want to use that instead. The golden bracelet simply holds more vis than the iron one and also gives more vis discount.
+tc.research_name.TB.Bracelet.Gold=金のブレスレット
+tc.research_text.TB.Bracelet.Gold=金は優れた導体
+tb.rec.bracelet.gold.page.0=鉄は金に比べて遥かに平凡な素材であるため、代わりに金を使いたくなるかもしれない。金のブレスレットは鉄製のものよりも多くのVisを保持でき、さらにVis消費の軽減率も高い。
 
-tc.research_name.TB.Bracelet.Greatwood=Greatwood Bracelets
-tc.research_text.TB.Bracelet.Greatwood=It's a stub
-tb.rec.bracelet.greatwood.page.0=Similar to how wands can be made out of greatwood bracelets can too. It simply holds more vis than the golden one, yet keeping the same vis discount.
+tc.research_name.TB.Bracelet.Greatwood=グレートウッドのブレスレット
+tc.research_text.TB.Bracelet.Greatwood=切れ端でしょ
+tb.rec.bracelet.greatwood.page.0=杖がそうであるように、ブレスレットもグレートウッド製にすることができる。金製のものよりも多くのVisを保持できるが、Vis消費の軽減率はそのまま維持される。
 
-tc.research_name.TB.Bracelet.Thaumium=Thaumium Bracelets
-tc.research_text.TB.Bracelet.Thaumium=Chanelling magic
-tb.rec.bracelet.thaumium.page.0=Since you have discovered a way to make wands out on thaumium you have applied the same to the bracelets. This one holds more vis than the greatwood one and has a better vis discount too
+tc.research_name.TB.Bracelet.Thaumium=魔導金属のブレスレット
+tc.research_text.TB.Bracelet.Thaumium=魔法の流れ
+tb.rec.bracelet.thaumium.page.0=魔導金属製の杖を作る方法を発見したため、同じ技術をブレスレットにも応用した。このブレスレットはグレートウッド製のものよりも多くのVisを保持でき、Vis消費の軽減率も優れている。
 
-tc.research_name.TB.Bracelet.Silverwood=Silverwood Bracelets
-tc.research_text.TB.Bracelet.Silverwood=Magical and pure
-tb.rec.bracelet.silverwood.page.0=The greatwood bracelet is great, but there always is a room for improvement. Using silverwood instead of greatwood allows the creation of a better bracelet. It also has a pretty good vis discount
+tc.research_name.TB.Bracelet.Silverwood=シルバーウッドのブレスレット
+tc.research_text.TB.Bracelet.Silverwood=魔術的で純粋
+tb.rec.bracelet.silverwood.page.0=グレートウッドのブレスレットは優れているが、改良の余地は常に存在する。グレートウッドの代わりにシルバーウッドを使用することで、より優秀なブレスレットを作ることができる。Vis消費の軽減率もなかなか良好だ。
 
-tc.research_name.TB.Bracelet.Void=Void Bracelets
-tc.research_text.TB.Bracelet.Void=With the void energies
-tb.rec.bracelet.void.page.0=You have applied your discovery of the void wand creation to the bracelet. This new bracelet shares the same functionality - it will slowly regenerate aspects and has a pretty good vis discount.
+tc.research_name.TB.Bracelet.Void=虚無鋼のブレスレット
+tc.research_text.TB.Bracelet.Void=虚無の力で
+tb.rec.bracelet.void.page.0=虚無鋼製の杖の作製に関する発見をブレスレットにも応用した。この新たなブレスレットは杖と同様に、Visをゆっくりと回復させる機能を有しており、Vis消費の軽減率もなかなか優秀だ。
 
-tc.research_name.TB.Bracelet.Reed=Reed Bracelets
-tc.research_text.TB.Bracelet.Reed=Light as the sky itself
-tb.rec.bracelet.reed.page.0=You have created a bracelet that shares the same functionality as the reed wand core - it will slowly regenerate aer vis inside it.
+tc.research_name.TB.Bracelet.Reed=サトウキビのブレスレット
+tc.research_text.TB.Bracelet.Reed=空気みたいに軽い
+tb.rec.bracelet.reed.page.0=サトウキビの杖身と同様の機能を有するブレスレットを作製した。内部に保持するAerのVisをゆっくりと自然回復させる。
 
-tc.research_name.TB.Bracelet.Blaze=Blaze Bracelets
-tc.research_text.TB.Bracelet.Blaze=With an infernal touch
-tb.rec.bracelet.blaze.page.0=You have created a bracelet that shares the same functionality as the blaze wand core - it will slowly regenerate ignis vis inside it.
+tc.research_name.TB.Bracelet.Blaze=ブレイズのブレスレット
+tc.research_text.TB.Bracelet.Blaze=地獄の一触で
+tb.rec.bracelet.blaze.page.0=ブレイズの杖身と同様の機能を有するブレスレットを作製した。内部に保持するIgnisのVisをゆっくりと自然回復させる。
 
-tc.research_name.TB.Bracelet.Obsidian=Obsidian Bracelets
-tc.research_text.TB.Bracelet.Obsidian=From the depths of the world
-tb.rec.bracelet.obsidian.page.0=You have created a bracelet that shares the same functionality as the obsidian wand core - it will slowly regenerate terra vis inside it.
+tc.research_name.TB.Bracelet.Obsidian=黒曜石のブレスレット
+tc.research_text.TB.Bracelet.Obsidian=世界の深淵から
+tb.rec.bracelet.obsidian.page.0=黒曜石の杖身と同様の機能を有するブレスレットを作製した。内部に保持するTerraのVisをゆっくりと自然回復させる。
 
-tc.research_name.TB.Bracelet.Ice=Ice Bracelets
-tc.research_text.TB.Bracelet.Ice=Cold to the touch
-tb.rec.bracelet.ice.page.0=You have created a bracelet that shares the same functionality as the ice wand core - it will slowly regenerate aqua vis inside it.
+tc.research_name.TB.Bracelet.Ice=氷のブレスレット
+tc.research_text.TB.Bracelet.Ice=触ると冷たい
+tb.rec.bracelet.ice.page.0=氷の杖身と同様の機能を有するブレスレットを作製した。内部に保持するAquaのVisをゆっくりと自然回復させる。
 
-tc.research_name.TB.Bracelet.Quartz=Quartz Bracelets
-tc.research_text.TB.Bracelet.Quartz=Just what you've ordered
-tb.rec.bracelet.quartz.page.0=You have created a bracelet that shares the same functionality as the quartz wand core - it will slowly regenerate ordo vis inside it.
+tc.research_name.TB.Bracelet.Quartz=クォーツのブレスレット
+tc.research_text.TB.Bracelet.Quartz=君の頼み通り
+tb.rec.bracelet.quartz.page.0=クォーツの杖身と同様の機能を有するブレスレットを作製した。内部に保持するOrdoのVisをゆっくりと自然回復させる。
 
-tc.research_name.TB.Bracelet.Bone=Bone Bracelets
-tc.research_text.TB.Bracelet.Bone=The undead bracelet!
-tb.rec.bracelet.bone.page.0=You have created a bracelet that shares the same functionality as the bone wand core - it will slowly regenerate perdidio vis inside it.
+tc.research_name.TB.Bracelet.Bone=骨のブレスレット
+tc.research_text.TB.Bracelet.Bone=アンデッドのブレスレット！
+tb.rec.bracelet.bone.page.0=骨の杖身と同様の機能を有するブレスレットを作製した。内部に保持するPerditioのVisをゆっくりと自然回復させる。
 
-tc.research_name.TB.Bracelet.Primal=Primal Bracelets
-tc.research_text.TB.Bracelet.Primal=The ultimate way
-tb.rec.bracelet.primal.page.0=Using your knowledge of the Staff core of the Primal you have created a bracelet that shares the same functionality. It will slowly regenerate all aspects within itself up to 10%. It also holds the most vis out of all bracelets and offers the best discount. Lastly, similar to the primal staff core it will automatically add 1 level of Potency to any foci used with it.
+tc.research_name.TB.Bracelet.Primal=根源のブレスレット
+tc.research_text.TB.Bracelet.Primal=究極の方法
+tb.rec.bracelet.primal.page.0=根源の上級杖身に関する知識を応用することで、同様の機能を有するブレスレットを創り出した。このブレスレットはすべての相を最大10%までゆっくりと自然回復させる。また、全ブレスレットの中で最も多くのVisを保持でき、Vis消費の軽減率も最高である。さらに、根源の上級杖身と同様に、このブレスレットに装着された杖星には自動的に潜在能力アップグレードが1レベル分追加される。
 
 
 
 #Chat notifications
-tb.txt.linkStarted=Link Started
-tb.txt.linkEstabilished=Link Established
+tb.txt.linkStarted=リンクを開始
+tb.txt.linkEstabilished=リンクを確立
