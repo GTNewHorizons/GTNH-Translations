@@ -132,7 +132,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft funciona em chunks - 
 
 # Quest: Permanent Offhand!
 betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.name=§9§lPermanent Offhand!
-betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.desc=With the release of version 2.8 of GTNH, the modern offhand slot has been backported and is available for every player. %n%nWith this, we say goodbye to the Battlegear slots of before. The three slots on either side of your hotbar, default key "G", are no longer!%n%nDefault Keybind to swap between mainhand and offhand: §9F§r%n%n[warn]Any items that were in the Battlegear slots should return to your inventory or dropped on the ground if your inventory is full.[/warn]%n%n[note]You can also toggle various Torch Tweaks in Backhand's mod client configs. They are disabled by default, but you may find them useful if you love holding torches in your offhand.[/note]
+betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.desc=With the release of version 2.8 of GTNH, the modern offhand slot has been backported and is available for every player. %n%nWith this, we say goodbye to the Battlegear slots of before. The three slots on either side of your hotbar, default key "G", are no longer!%n%nThis feature also works with any item that opens a GUI, like a backpack for example. This makes inventory management easier and helps with certain tedious tasks.%n%nDefault Keybind to swap between mainhand and offhand: §9F§r%n%n[warn]Any items that were in the Battlegear slots should return to your inventory or dropped on the ground if your inventory is full.[/warn]%n%n[note]You can also toggle various Torch Tweaks in Backhand's mod client configs. They are disabled by default, but you may find them useful if you love holding torches in your offhand.[/note]
 
 
 ## Quest Line: Tips and Tricks
@@ -1245,7 +1245,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEaw.desc=If you have some time you can l
 
 # Quest: LV Advanced Steam Boiler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.name=§5§lLV Advanced Steam Boiler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.desc=The LV GT++ Steam Boiler is the next machine you can build to produce steam more efficiently than with the High Pressure Boiler. It won't use fuel up unless it starts to run low on steam, so it's very efficient.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEbg.desc=The LV GT++ Steam Boiler is the next machine you can build to produce steam more efficiently than with the previous single block boilers. It won't use fuel unless it cools below 100 degrees and gains a higher efficiency with longer burning fuels.%n%n[note]Fortunately, it won't explode if you let it run dry but it §nwill waste fuel§r if there is no water present.[/note]
 
 # Quest: Lossless LV Cables
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcA.name=§5§lLossless LV Cables
@@ -3816,7 +3816,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSQ.desc=You need Quantum Power ICs for 
 
 # Quest: Circuits, Assemble!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.name=Circuits, Assemble!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.desc=To make Wetware Circuits (UHV-Tier Circuits), you need to make a ZPM Circuit Assembling Machine.%n%nWhat? Did you think that just because you made the multi you can skip out making the singleblock? Well, too bad! You still need to use it to make the first circuit for the imprints.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKSw.desc=To make Wetware Circuits (UHV-Tier Circuits), you need to make either a ZPM Circuit Assembling Machine, or a UV energy hatch for your Circuit Assembly Machine.
 
 # Quest: Cheaper IV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTg.name=Cheaper IV Circuits
@@ -3985,7 +3985,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKRQ.desc=If you want to make the T8 Rock
 
 # Quest: Assembling Living Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.name=Assembling Living Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.desc=To make Bioware Boards and Circuits, you need to make a UV Circuit Assembling Machine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKTA.desc=To make Bioware Boards and Circuits, you need to either make a UV Circuit Assembling Machine or obtain a UHV energy hatch for your circuit assembly machine.
 
 # Quest: The Final Frontier?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKWA.name=The Final Frontier?
@@ -4222,7 +4222,7 @@ betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=Welcome to UEV! Now that you've
 
 # Quest: One Last Time
 betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.name=One Last Time
-betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=For the final circuit line currently in the game, you will need to make one last circuit assembler.
+betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=For the final circuit line currently in the game, you will need to either make one last circuit assembler, or a UEV hatch for your circuit assembly machine.
 
 # Quest: Stabilized Baryonic Matter
 betterquesting.quest.n8PKF63sSSi0y8ZBb2RIKQ.name=Stabilized Baryonic Matter
@@ -5658,10 +5658,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.desc=The Iron wand will last longer 
 # Quest: Mid-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.name=Mid-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.desc=The next tier up wand is the Diamond wand. Has all kinds of fun modes. Just be careful using it, would hate to place a bunch of blocks accidentally!
-
-# Quest: No ASMR From Your Machines?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnA.name=No ASMR From Your Machines?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnA.desc=If the sounds of your machines are driving you crazy, you can add a muffler upgrade to block them out.%n%nNOTE: This also means you won't hear when the machine is out of energy. Also, once applied the upgrade cannot be removed.
 
 # Quest: Botany
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.name=Botany
@@ -14605,7 +14601,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=There must be a way to make a n
 
 # Quest: A Portable Barrel?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.name=§2§lA Portable Barrel?
-betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to portably tote it's contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]Checkout the coins tab if you're looking for shells![/note]
+betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=As an upgrade to the barrels, EFR also adds the ever-familiar shulker box! The shulker box allows you to portably tote it's contents. You can find the research for them in the New Horizons tab of the Thaumonomicon.%n%nThese have seven additional tiers much like the barrels and chests that give you additional storage space. %n%nYou can dye any tier by shapelessly crafting them with a dye, and undye them by shapelessly crafting them alone. They §nwill§r retain their inventory. %n%n[note]There are many ways to obtain shulker shells:%n1. Fighting Shulkers in the Twilight Forest Lich & Ghast Queen Towers.%n2. Fighting Shulkers from the eggs in the Coins tab%n3. Manually crafting the shells[/note]
 
 # Quest: Gold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§3§lGold Barrel
@@ -14621,7 +14617,7 @@ betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=Now that you are starting to fi
 
 # Quest: Steel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§3§lSteel Chest?
-betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=While being significantly more expensive than gold chest, the steel chest has less capacity but it can be used in some specialized crafting recipes.
+betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=While being significantly more expensive than a gold chest, the steel chest has less capacity but it can be used in some specialized crafting recipes.
 
 # Quest: The future is here!
 betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§2§lThe future is here!
