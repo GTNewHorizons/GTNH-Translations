@@ -97,7 +97,7 @@ gt.tileentity.eup_in=Входной вольтаж: §a%d (%s§a)§7
 gt.tileentity.eup_out=Выходной вольтаж: §a%d (%s§a)§7
 gt.tileentity.eup_amount=Ампераж: §e%d§7
 gt.tileentity.eup_store=Ёмкость: §9%d§7 EU
-gt.tileentity.has_muffler=есть улучшение глушитель
+gt.tileentity.has_muffler=приглушен
 gt.tileentity.has_steam_upgrade=есть улучшение пар
 gt.tileentity.colored=Окрашенный (%s%s§7)
 
@@ -739,7 +739,7 @@ GT5U.providesbiologicalhazmatprotection=Обеспечивает защиту о
 GT5U.providesfrosthazmatprotection=Обеспечивает защиту от замерзания.
 GT5U.providesheathazmatprotection=Обеспечивает защиту от тепла.
 GT5U.providesradiohazmatprotection=Обеспечивает защиту от радиации.
-GT5U.provideselectricalhazmatprotection=Обеспечивает газовую защиту.
+GT5U.provideselectricalhazmatprotection=Обеспечивает электрическую защиту.
 GT5U.providesgashazmatprotection=Обеспечивает газовую защиту.
 
 # Multiblock Tooltip Builder Keywords
@@ -1055,7 +1055,7 @@ gt.recipe.largeboilerfakefuels=Большой бойлер
 gt.recipe.nanoforge=Нано кузница
 gt.recipe.pcbfactory=Завод печатных плат
 gt.recipe.ic2nuke=Nuclear Fission
-gt.recipe.entropic-processing=Entropic Processing
+gt.recipe.entropic-processing=Энтропийный процессор
 gt.recipe.isotope-decay=Распад изотопов
 gt.recipe.purificationplantclarifier=Осветление
 gt.recipe.purificationplantflocculation=Коагуляция
@@ -1065,7 +1065,7 @@ gt.recipe.purificationplantplasmaheating=Температурное колеба
 gt.recipe.purificationplantuvtreatment=Обработка высокоэнергетическим лазером
 gt.recipe.purificationplantdegasifier=Дегазация
 gt.recipe.purificationplantquarkextractor=Барионное совершенство
-gt.recipe.quantumcomputer=QC Components
+gt.recipe.quantumcomputer=QC компоненты
 gt.recipe.cal-imprinting=Circuit Assembly Line Imprinting
 
 # Recipe categories
@@ -1097,9 +1097,9 @@ GT5U.machines.separatebus=Input buses are separated
 GT5U.machines.pumpareaset=Pumping area set to
 GT5U.machines.oilfluidpump=Oil/Fluid Pump
 GT5U.machines.minermulti=Мультиблочный шахтёр
-GT5U.machines.muffled=Sound Muffling
-GT5U.machines.muffled.on=Sound Muffling: §aEnabled§r
-GT5U.machines.muffled.off=Sound Muffling: §cDisabled§r
+GT5U.machines.muffled=Глушитель звука
+GT5U.machines.muffled.on=Глушитель звука: §aВключён§r
+GT5U.machines.muffled.off=Глушитель звука: §cОтключён§r
 GT5U.machines.digitalchest.voidoverflow.enabled=Пустотный режим при переполнении §aВкл.§r
 GT5U.machines.digitalchest.voidoverflow.disabled=Пустотный режим при переполнении §cОткл.§r
 GT5U.machines.digitalchest.inputfilter.enabled=Входной фильтр §aВкл.§r
@@ -1107,7 +1107,7 @@ GT5U.machines.digitalchest.inputfilter.disabled=Входной фильтр §c�
 GT5U.machines.digitaltank.tooltip=Хранит %sЛ жидкости
 GT5U.machines.digitaltank.tooltip1=Сохраняет своё содержимое при сборе
 GT5U.machines.digitaltank.autooutput.tooltip=Авто-вывод жидкости
-GT5U.machines.digitaltank.fluid.amount=Количество жидкости
+GT5U.machines.digitaltank.fluid.amount=Кол-во жидкости
 GT5U.machines.digitaltank.lockfluid.label=Закреплено
 GT5U.machines.digitaltank.lockfluid.empty=Нет
 GT5U.machines.digitaltank.lockfluid.tooltip=Режим блокировки жидкости
@@ -1299,7 +1299,7 @@ GT5U.machines.computation_hatch.computation=Вычисление
 GT5U.machines.laser_hatch.amperage=Ампераж
 GT5U.machines.hatch_output.lockfluid.label=Закреплено
 GT5U.machines.hatch_output.lockfluid.empty=Нет
-GT5U.machines.basic_tank.liquid_amount=Количество жидкости
+GT5U.machines.basic_tank.liquid_amount=Кол-во жидкости
 GT5U.machines.computation_hatch.pending_computation=§7Total Computation I/O: §b%d§r
 GT5U.machines.computation_hatch.wasted_computation=§7Wasted Computation: §b%d§r
 GT5U.machines.animations.enabled=Animations are now enabled
@@ -1599,7 +1599,7 @@ GT5U.gui.text.dim.valid=Dim Valid: Yes
 GT5U.gui.text.dim.invalid=Dim Valid: No
 
 GT5U.gui.title.unknown=Неизвестно
-GT5U.gui.text.item_amount=Количество предметов
+GT5U.gui.text.item_amount=Кол-во предметов
 
 GT5U.gui.circuit.generic.data_display.off=ОТКЛ
 GT5U.gui.circuit.generic.data_display.on=ВКЛ
