@@ -1,4 +1,5 @@
 tab.battle.title=挖矿与砍杀|战备双持2
+
 config.battlegear.title=挖矿与砍杀2 配置文件
 config.battlegear.category=禁用自定义物品渲染
 config.battlegear.warn=需要重启才能生效
@@ -20,6 +21,10 @@ flag.design.load=载入
 flag.design.load.sections=载入选择
 
 key.categories.battlegear=战备双持
+key.battleInv=战斗物品栏
+key.drawWeapons=拔出武器
+key.openSigilEditor=打开印记编辑器
+key.special=特殊
 
 item.battlegear2:bow.greg.name=格雷的弓
 item.battlegear2:bow.iron.name=铁弓
@@ -118,8 +123,10 @@ attribute.name.weapon.extendedReach=攻击距离
 attribute.name.weapon.attackSpeed=攻击速度
 attribute.name.weapon.backstab=背刺
 attribute.name.weapon.mountedBonus=骑兵额外伤害
+attribute.shield.tooltip=装备在副手以使用
 attribute.shield.block.time=%s 秒格挡
 attribute.shield.arrow.count=%s 弓箭
+attribute.shield.arrow.state=显示箭头：%s（潜行时右键点击切换）
 attribute.quiver.arrow.empty=已空
 attribute.quiver.arrow.count=弓箭
 
@@ -151,7 +158,14 @@ commands.weaponwield.sensitivity=武器比较器有以下灵敏度: %1$s
 commands.weaponwield.sensitivity.added=武器比较器灵敏度已增加: %1$s
 commands.weaponwield.sensitivity.removed=武器比较器灵敏度已减少: %1$s
 
-death.attack.battlegearExtra.backstab=%1$s死于%2$s的背刺.
-death.attack.battlegearExtra.backstab.item=%1$死于%2$s使用%3$s发起的背刺.
-death.attack.battlegearExtra.mounted=%1$s被%2$s和他的坐骑踩得粉碎.
-death.attack.battlegearExtra.mounted.item=%1$s被骑着坐骑的%2$s用%3$s刺得粉碎.
+death.attack.battlegearExtra.backstab=%1$s死于%2$s的背刺
+death.attack.battlegearExtra.backstab.item=%1$s死于%2$s使用%3$s发起的背刺
+death.attack.battlegearExtra.mounted=%1$s被%2$s和他的坐骑踩得粉碎
+death.attack.battlegearExtra.mounted.item=%1$s被骑着坐骑的%2$s用%3$s刺得粉碎
+
+tool.pen=鉛筆
+tool.rectangle=矩形
+tool.circle=椭圆
+tool.flood=洪水
+tool.text=文本
+tool.dropper=投掷器

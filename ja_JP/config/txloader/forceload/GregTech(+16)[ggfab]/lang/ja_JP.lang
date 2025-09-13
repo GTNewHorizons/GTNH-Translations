@@ -1,35 +1,35 @@
-ggfab.recipe.toolcast=Tool Casting Machine
+ggfab.recipe.toolcast=ツール鋳造機
 
-ggfab.waila.advassline.slice=Slice #%s: %s s / %s s
-ggfab.waila.advassline.slice.small=Slice #%s: %s ticks / %s ticks
-ggfab.waila.advassline.slice.idle=Slice #%s: Idle
-ggfab.waila.advassline.slice.stuck=Slice #%s: §4STUCK
-ggfab.gui.advassline.slice.idle=Slice #%s: Idle
-ggfab.gui.advassline.slice.stuck=Slice #%s: §4STUCK
-ggfab.gui.advassline.slice.unknown=Slice #%s: ?
-ggfab.gui.advassline.shutdown=§4Last abnormal shutdown reason:
-ggfab.gui.advassline.shutdown_clear=§6Clear
-ggfab.gui.advassline.shutdown.input_busses=§4Too few input buses to support current recipe
-ggfab.gui.advassline.shutdown.recipe_null=§4Recipe is null (report to author)
-ggfab.gui.advassline.shutdown.fluid_null=§4Fluid drained failed (check your ME fluid storage)
-ggfab.gui.advassline.shutdown.structure=§4Incompatible structural change
-ggfab.gui.advassline.shutdown.energy=§4Insufficient power
-ggfab.gui.advassline.shutdown.load.energy=§4Loaded invalid electric stat
-ggfab.gui.advassline.shutdown.load.recipe=§4Incompatible recipe change
+ggfab.waila.advassline.slice=%s列目: %s s / %s s
+ggfab.waila.advassline.slice.small=%s列目: %s ticks / %s ticks
+ggfab.waila.advassline.slice.idle=%s列目: 待機中
+ggfab.waila.advassline.slice.stuck=%s列目: §4停止中
+ggfab.gui.advassline.slice.idle=%s列目: 待機中
+ggfab.gui.advassline.slice.stuck=%s列目: §4停止中
+ggfab.gui.advassline.slice.unknown=%s列目: ?
+ggfab.gui.advassline.shutdown=§4直近の異常シャットダウン要因:
+ggfab.gui.advassline.shutdown_clear=§6クリア
+ggfab.gui.advassline.shutdown.input_busses=§4現在のレシピを実行するには入力バスが少なすぎます
+ggfab.gui.advassline.shutdown.recipe_null=§4レシピが無効です (作者に報告してください)
+ggfab.gui.advassline.shutdown.fluid_null=§4液体の引き出しに失敗しました (ME液体ストレージを確認してください)
+ggfab.gui.advassline.shutdown.structure=§4不適合な構造変更
+ggfab.gui.advassline.shutdown.energy=§4電力不足
+ggfab.gui.advassline.shutdown.load.energy=§4無効な電気状態が読み込まれました
+ggfab.gui.advassline.shutdown.load.recipe=§4不適合なレシピ変更
 
-ggfab.info.linked_input_bus.not_owned=§6The settings were copied from a different owner!
-ggfab.info.linked_input_bus.no_data=§6Configuration data not found!
-ggfab.info.linked_input_bus.invalid_data=§6Configuration data was found but it is invalid!
-ggfab.info.linked_input_bus.invalid_circuit=§6Configuration data was found but it contains a circuit not valid on this bus!
-ggfab.info.linked_input_bus.data_pasted=§2Pasted channel ("%s§2") and configuration circuit setting!
-ggfab.info.linked_input_bus.data_copied=§2Copied channel ("%s§2") and configuration circuit setting!
-ggfab.info.linked_input_bus.no_channel=§6No channel specified yet!
+ggfab.info.linked_input_bus.not_owned=§6この設定は別の管理者によってコピーされたものです！
+ggfab.info.linked_input_bus.no_data=§6設定データが見つかりません！
+ggfab.info.linked_input_bus.invalid_data=§6設定データが見つかりましたが、無効です！
+ggfab.info.linked_input_bus.invalid_circuit=§6設定データは見つかりましたが、バスに有効ではない回路が含まれています！
+ggfab.info.linked_input_bus.data_pasted=§2チャンネル ("%s§2") とプログラム回路の設定をペーストしました！
+ggfab.info.linked_input_bus.data_copied=§2チャンネル ("%s§2") とプログラム回路の設定をコピーしました！
+ggfab.info.linked_input_bus.no_channel=§6チャンネルが指定されていません！
 
-ggfab.info.biome=Biome:
+ggfab.info.biome=バイオーム:
 
-ggfab.tooltip.linked_input_bus.change_freq_warn=Changing channel while this is the last one on this channel will spill all items left!
-ggfab.tooltip.linked_input_bus.private=Private channel are not shared with others.
-ggfab.tooltip.linked_input_bus.private.1=Changing channel while this is the last one on this channel will spill all items left!
+ggfab.tooltip.linked_input_bus.change_freq_warn=このチャンネルが設定された§8《§7接続入力バス§8／Linked Input Bus》§7がワールド内から無くなると、中身のアイテムが放出されます！
+ggfab.tooltip.linked_input_bus.private=非公開チャンネルは他人と共有できません。
+ggfab.tooltip.linked_input_bus.private.1=このチャンネルが設定された§8《§7接続入力バス§8／Linked Input Bus》§7がワールド内から無くなると、中身のアイテムが放出されます！
 
-ggfab.gui.linked_input_bus.private=Private
-ggfab.gui.linked_input_bus.channel=Channel
+ggfab.gui.linked_input_bus.private=非公開
+ggfab.gui.linked_input_bus.channel=チャンネル

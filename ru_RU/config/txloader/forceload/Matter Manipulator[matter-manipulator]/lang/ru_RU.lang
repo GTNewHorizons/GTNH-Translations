@@ -47,12 +47,127 @@ mm.tooltip.installed_upgrades=Установлено улучшений:
 mm.structure.hatch-info=Любой %s корпус
 mm.structure.hatch-dots= (точки %s)
 
+# GUI
+mm.gui.set_mode=Выбрать режим
+mm.gui.set_remove_mode=Установить режим удаления
+mm.gui.remove_none=Не удалять
+mm.gui.remove_replaceable=Удалять заменяемые
+mm.gui.remove_all=Удалить всё
+mm.gui.geometry=Геометрия
+mm.gui.moving=Перемещение
+mm.gui.copying=Копирование
+mm.gui.exchanging=Заменить
+mm.gui.cables=Кабели
+mm.gui.select_blocks=Выбрать блоки
+mm.gui.set_corners=Выбрать углы
+mm.gui.set_edges=Выбрать края
+mm.gui.set_faces=Выбрать грани
+mm.gui.set_volumes=Выбрать заполнение
+mm.gui.set_all=Установить всё
+mm.gui.clear_all=Очистить всё
+mm.gui.set_shape=Установить форму
+mm.gui.line=Линия
+mm.gui.cube=Куб
+mm.gui.sphere=Сфера
+mm.gui.cylinder=Цилиндр
+mm.gui.move_coords=Переместить координаты
+mm.gui.move_coord_a=Переместить координату A
+mm.gui.move_all=Переместить всё
+mm.gui.move_coord_b=Переместить координату B
+mm.gui.move_here=Переместить сюда
+mm.gui.mark_copy=Отметить копирование
+mm.gui.edit_stack=Редактировать стак
+mm.gui.reset=Сброс
+mm.gui.mark=Отметить
+mm.gui.planning=Планирование
+mm.gui.cancel_auto_plans=Отменить автопланы
+mm.gui.plan_all_auto=План (Всё, Авто)
+mm.gui.plan_all_manual=План (Всё, Ручной)
+mm.gui.clear_manual_plans=Очистить ручные планы
+mm.gui.plan_missing_manual=План (Отсутствующие, Ручной)
+mm.gui.plan_missing_auto=План (Отсутствующие, Авто)
+mm.gui.edit_transform=Редактирование формы
+mm.gui.mark_cut=Отметить вырезание
+mm.gui.mark_paste=Отметить вставку
+mm.gui.edit_replace_whitelist=Редактировать белый список замены
+mm.gui.clear=Очистить
+mm.gui.add_block=Добавить блок
+mm.gui.set_block=Выбрать блок
+mm.gui.set_block_to_replace_with=Установите блок для замены на
+mm.gui.set_cable=Выбрать кабель
+
+# InfoMessage
+
+mm.info.error.out_of_eu=Манипулятора материей разряжен.
+mm.info.error.could_not_place=Не удалось разместить %s оставшихся блоков.
+mm.info.finished_placing=Завершено размещение блоков.
+mm.info.warning.could_not_find=Не удалось найти предмет, %d блок(ов) будут временно пропущены:
+mm.info.placed_remaining=Размещено %s блоков (осталось %s)
+mm.info.warning=Предупреждение в блоке %d, %d, %d%s: %s
+mm.info.error=Ошибка в блоке %d, %d, %d%s: %s
+mm.info.error.could_not_move_block=Не удалось переместить блок x=%d, y=%d, z=%d: %s
+mm.info.error.could_not_move_protected_block=Не удалось переместить защищенный блок x=%d, y=%d, z=%d: %s
+mm.info.error.could_not_move_invulnerable_block=Не удалось переместить неуязвимый исходный блок x=%d, y=%d, z=%d: %s
+mm.info.error.could_not_move_blocked_block=Пункт назначения был заблокирован для исходного блока x=%d, y=%d, z=%d: %s
+mm.info.process_move=Перемещено %s блоков (осталось %s)
+mm.info.finished_move=Завершено перемещение блоков.
+mm.info.warning.protected_area=Попытался сломать/поставить блок в защищенной зоне!
+mm.info.warning.not_find_container_for_fluid=Could not find a container for fluid (it was voided): 
+mm.info.error.could_not_push_items_to_uplink=Could not push items to uplink: 
+mm.info.error.could_not_push_fluids_to_uplink=Could not push fluids to uplink: 
+mm.info.error.could_not_request_items_from_uplink=Could not request items from uplink: 
+mm.info.added=Added %s to %s
+mm.info.set=Set %s to: %s
+mm.info.set_block_to_replace_with=Set block to replace with to: %s
+mm.info.added_block_to_exchange_whitelist=Added block to exchange whitelist: %s
+mm.info.set_exchange_whitelist_to_only_contain=Set exchange whitelist to only contain: %s
+mm.info.set_cable=Set cables to: %s
+mm.info.error.cannot_mark_copy=Cannot mark array: copy region is invalid
+mm.info.error.cannot_mark_paste=Cannot mark array: paste coordinate is invalid
+mm.info.new_virtual_me_pattern=Pushed a new virtual ME pattern to the uplink called '%s'.
+mm.info.error.craft_failed=Craft for plan %s failed.
+mm.info.craft_finished='%s' has finished.
+mm.info.cleared_all_plans_and_pending_jobs=Cleared all plans and cancelled pending craft jobs.
+mm.info.cleared_your_manual_plans=Cleared your manual plans.
+mm.info.cleared_your_plans_and_craft=Cleared your auto plans and cancelled their crafting jobs.
+mm.info.submitted_job=Submitted job for plan '%s'.
+mm.info.error.must_have_copy_region=Must have copy region marked.
+mm.info.error.must_have_paste_region=Must have paste region marked to detect missing items.
+mm.info.required_items=Required items:
+mm.info.not_need_creating_pattern=Not creating pattern because all required items are present.
+mm.info.error.not_connected=Manipulator not connected to an uplink: cannot create a fake pattern.
+mm.info.error.must_look_at_block=Чтобы использовать эту команду, вы должны смотреть на блок.
+mm.info.error.property_not_found=Property not found.
+mm.info.properties=Properties:
+mm.info.intrinsic_properties=Intrinsic Properties:
+mm.info.none=None
+mm.info.error.error_setting_property=Error setting property: %s
+mm.info.error.move_overlapping=Cannot move when the cut and paste regions overlap.
+
+# Transform
+mm.transform.info=Перевернуть: %s\nВверх: %s\nВперед: %s
+mm.transform.button.rotate_x-=Повернуть по X-
+mm.transform.button.rotate_x+=Повернуть по X+
+mm.transform.button.rotate_y-=Повернуть по Y-
+mm.transform.button.rotate_y+=Повернуть по Y+
+mm.transform.button.rotate_z-=Повернуть по Z-
+mm.transform.button.rotate_z+=Повернуть по Z+
+mm.transform.button.flip_x=Отразить по X
+mm.transform.button.flip_y=Отразить по Y
+mm.transform.button.flip_z=Отразить по Z
+mm.transform.button.reset=Сброс
+mm.transform.header.copy=Копирование
+mm.transform.header.copy_a=Копирование (A)
+mm.transform.header.copy_b=Копирование (B)
+mm.transform.header.paste=Вставка
+mm.transform.header.stacking=Stacking
+
 # Keybindings
-key.mm=Манипулятор материи
+key.mm=Matter Manipulator
 key.mm-ctrl=Ctrl
-key.mm-cut=Mark Cut
-key.mm-copy=Mark Copy
-key.mm-paste=Mark Paste
+key.mm-cut=Отметить вырезание
+key.mm-copy=Отметить копирование
+key.mm-paste=Отметить вставку
 key.mm-reset=Сбросить координаты
 
 # Config
@@ -62,4 +177,4 @@ debug=Отладка
 building=Строительство
 
 # NEI
-mm.recipe.upgrades=Manipulator Upgrades
+mm.recipe.upgrades=Улучшения манипулятора

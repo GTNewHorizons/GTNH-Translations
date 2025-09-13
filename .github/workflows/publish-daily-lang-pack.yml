@@ -1,0 +1,126 @@
+name: Publish daily lang pack
+
+on:
+  workflow_call:
+    inputs:
+      target_lang:
+        description: "Target language to run"
+        required: true
+        type: string
+  workflow_dispatch:
+    inputs:
+      target_lang:
+        description: "Target language to run"
+        required: true
+        type: choice
+        options:
+          - zh_CN
+          - ja_JP
+          - ko_KR
+          - pt_BR
+          - fr_FR
+          - es_ES
+          - tr_TR
+          - de_DE
+          - pl_PL
+          - ru_RU
+
+env:
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+
+jobs:
+  sync-from-paratranz:
+    name: Sync ${{ inputs.target_lang }} from ParaTranz
+    runs-on: ubuntu-24.04
+    outputs:
+      found_update: ${{ steps.sync-from-paratranz.outputs.found_update }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Get project ID
+        id: get-project-id
+        uses: ./.github/actions/get-project-id
+        with:
+          target_lang: ${{ inputs.target_lang }}
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+
+      - name: Sync from ParaTranz
+        id: sync-from-paratranz
+        run: >-
+          poetry run python main.py action sync-from-paratranz
+          --subdirectory='${{ inputs.target_lang }}'
+        env:
+          PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
+          TARGET_LANG: ${{ inputs.target_lang }}
+      - name: Push commits
+        if: ${{ steps.sync-from-paratranz.outputs.found_update == 'true' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
+          git pull origin master
+          git push origin master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  daily-build:
+    name: ${{ inputs.target_lang }} Daily Build
+    runs-on: ubuntu-24.04
+    needs: sync-from-paratranz
+    if: ${{ needs.sync-from-paratranz.outputs.found_update == 'true' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Get current date
+        id: date
+        shell: bash
+        run: |
+          echo "today=$(date --iso-8601)+${{ github.run_number }}" >> "$GITHUB_OUTPUT"
+      - name: Get project ID
+        id: get-project-id
+        uses: ./.github/actions/get-project-id
+        with:
+          target_lang: ${{ inputs.target_lang }}
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+      - name: Ensure temp dir
+        run: mkdir temp
+      - name: Ensure assets dir
+        run: mkdir assets
+      - name: Pack
+        run: python .github/scripts/pack.py ${{ inputs.target_lang }}
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: GTNH-${{ inputs.target_lang }}-Translation-Daily-${{ steps.date.outputs.today }}
+          path: ./temp/
+      - name: Zip
+        run: |
+          cd temp
+          zip -r ../assets/GTNH-${{ inputs.target_lang }}-Translation-Daily-${{ steps.date.outputs.today }}.zip ./*
+          cd ..
+      - name: Push commits and tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
+          git pull origin master
+          git push -d origin ${{ inputs.target_lang }}-latest || :
+          gh release delete ${{ inputs.target_lang }}-latest || :
+          git tag ${{ inputs.target_lang }}-latest
+          git push origin ${{ inputs.target_lang }}-latest
+          git push origin master
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Release as Latest
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.target_lang }}-latest
+          name: ${{ inputs.target_lang }} Latest
+          files: |
+            ./assets/GTNH-${{ inputs.target_lang }}-Translation-Daily-${{ steps.date.outputs.today }}.zip
+          token: ${{ secrets.GITHUB_TOKEN }}

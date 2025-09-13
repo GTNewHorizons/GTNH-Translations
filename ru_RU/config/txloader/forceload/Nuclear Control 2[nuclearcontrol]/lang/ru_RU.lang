@@ -48,15 +48,15 @@ tile.blockAdvancedInfoPanelExtender.name=Расширитель продвину
 tile.blockAdvancedInfoPanel.RotateRight=Повернуть вправо
 tile.blockAdvancedInfoPanel.RotateLeft=Повернуть влево
 tile.blockAdvancedInfoPanel.Colors=Изменить цвета
-tile.blockAdvancedInfoPanel.Labels=Метки
-tile.blockAdvancedInfoPanel.Power=нормальный/инвертированный красный камень и включение/выключение
-tile.blockAdvancedInfoPanel.Slope=Изменение настроек наклона
+tile.blockAdvancedInfoPanel.Labels=Labels
+tile.blockAdvancedInfoPanel.Power=normal/inverted redstone and on/off
+tile.blockAdvancedInfoPanel.Slope=Изменить настройки уклона
 tile.blockAdvancedInfoPanel.Settings=Настройки
-tile.blockAdvancedInfoPanel.Transparency=Прозрачность переключателя
+tile.blockAdvancedInfoPanel.Transparency=Переключить прозрачность
 tile.blockAdvancedInfoPanel.LineConfig=Конфигурация открытой линии
 tile.blockAdvancedInfoPanel.Save=Сохранить
 tile.blockAdvancedInfoPanel.Reset=Сбросить
-tile.blockAdvancedInfoPanel.Cancel=Отмена
+tile.blockAdvancedInfoPanel.Cancel=Отменить
 tile.nclight0.name=Белый светильник
 tile.nclight1.name=Белый светильник
 tile.nclight2.name=Оранжевый светильник
@@ -78,7 +78,7 @@ msg.nc.Thermo=Темп. корпуса: %s
 msg.nc.ThermoDigital=Темп. корпуса: %s (Вода испаряется при: %s / плавится: %s)
 msg.nc.SensorKit=Дистанционный датчик установлен, карта-датчик получена
 
-msg.nc.InfoPanelOutOfRange=Вне диапазона
+msg.nc.InfoPanelOutOfRange=Вне радиуса
 msg.nc.InfoPanelInvalidCard=Недействительная карта
 msg.nc.InfoPanelNoTarget=Цель не найдена
 
@@ -113,7 +113,7 @@ msg.nc.InfoPanelLiquidFree=Свободно: %s
 msg.nc.InfoPanelLiquidPercentage=Заполнено: %s%%
 
 msg.nc.InfoPanelNotFoundN=#%d Не найдено
-msg.nc.InfoPanelOutOfRangeN=#%d Вне диапазона
+msg.nc.InfoPanelOutOfRangeN=#%d Вне радиуса
 msg.nc.InfoPanelEnergyN=#%d Энергия: %s
 msg.nc.InfoPanelEnergyFreeN=#%d Свободно: %s
 msg.nc.InfoPanelEnergyStorageN=#%d Хранилище: %s
@@ -161,16 +161,16 @@ nc.msg.notValid3=Попробуйте открыть интерфейс зано
 # Settings labels for Vanilla Machine Card (Furnace/Brewing Stand)
 msg.nc.Vanilla.setting.activityStatus=Activity Status (Brewing/Burning)
 msg.nc.Vanilla.setting.activeTime=Active Time (Brew/Burn)
-msg.nc.Vanilla.setting.slot1Contents=Содержимое 1-го слота (зелье/вход)
-msg.nc.Vanilla.setting.slot2Contents=Содержимое 2-го слота (зелье/топливо)
-msg.nc.Vanilla.setting.slot3Contents=Содержимое 3-го слота (зелье/выход)
+msg.nc.Vanilla.setting.slot1Contents=Содержимое слота 1 (зелье/вход)
+msg.nc.Vanilla.setting.slot2Contents=Содержимое слота 2 (зелье/топливо)
+msg.nc.Vanilla.setting.slot3Contents=Содержимое слота 3 (зелье/выход)
 
 
 #Vanilla Intergration Messages
 msg.nc.Vanilla.Display=%s / %s слотов использовано
 msg.nc.Vanilla.Name=Имя блока
 msg.nc.Vanilla.StorageLVL=Уровень хранилища
-msg.nc.Vanilla.brewstand=Время жарки: %s
+msg.nc.Vanilla.brewstand=Время заваривания: %s
 msg.nc.Vanilla.potionType1=1-й тип зелья: %s
 msg.nc.Vanilla.potionType2=2-й тип зелья: %s
 msg.nc.Vanilla.potionType3=3-й тип зелья: %s

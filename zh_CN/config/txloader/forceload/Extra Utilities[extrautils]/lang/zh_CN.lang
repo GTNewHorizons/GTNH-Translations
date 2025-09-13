@@ -1,9 +1,9 @@
 gui.transferNode.searching=搜寻容器于
 gui.transferNode=传输节点
 
-death.attack.darkness.player=%1$s在和%2$s战斗是时候被暗影吞噬掉了.
-death.attack.darkness=%1$s被暗影吞噬掉了.
-death.attack.divbyzero=%1$s遭遇了一次致命异常'java.lang.ArithmeticException:  by 钻石'
+death.attack.darkness.player=%1$s在和%2$s战斗的时候被暗影吞噬掉了
+death.attack.darkness=%1$s被暗影吞噬掉了
+death.attack.divbyzero=%1$s遭遇了一次致命的“java.lang.ArithmeticException: \ by diamond”异常
 
 power.drain=能量消耗倍率: x%1$s
 
@@ -158,7 +158,7 @@ tile.extrautils:conveyor.name=传送带
 tile.extrautils:cursedearthside.name=诅咒之土
 tile.extrautils:curtains.name=黑幕布帘
 tile.extrautils:dark_portal.name=漆黑之门
-tile.extrautils:dark_portal.1.name=传送门:深渊世界
+tile.extrautils:dark_portal.1.name=传送门：深渊世界
 tile.extrautils:decorativeBlock1.0.name=镶边石砖
 tile.extrautils:decorativeBlock1.1.name=末影黑曜石
 tile.extrautils:decorativeBlock1.10.name=沙砾路
@@ -183,7 +183,7 @@ tile.extrautils:decorativeBlock2.3.name=雕纹玻璃
 tile.extrautils:decorativeBlock2.4.name=镶金玻璃
 tile.extrautils:decorativeBlock2.5.name=黑曜石玻璃
 tile.extrautils:decorativeBlock2.6.name=漩涡玻璃
-tile.extrautils:decorativeBlock2.7.name=萤石玻璃
+tile.extrautils:decorativeBlock2.7.name=荧石玻璃
 tile.extrautils:decorativeBlock2.8.name=心之玻璃
 tile.extrautils:decorativeBlock2.9.name=四方玻璃
 tile.extrautils:drum.0.name=筒
@@ -347,7 +347,7 @@ item.extrautils:watering_can.documentation.1=你可以使用洒水壶灭火.当�
 tile.extrautils:angelBlock.documentation=当你处于创造模式在天空中或者远离陆地的大洋之上工作时,这个方块是你最好的朋友,因为它不需要一个实体的表面来放置它.只要右击空气,这个方块就会出现在你面前.然后当你左击破坏这个方块时,它会立即被破坏,并且会自动进入你的物品栏中(仅限于生存模式).
 tile.extrautils:budoff.0.documentation=这个方块会在一格范围内复制标准的原版BUD.如果与其相邻的方块的BUD更新了,它便会激活并发出一个1tick的红石脉冲信号,然后便进入一个长达3ticks的冷却期.相邻的BUDs不会互相触发.
 tile.extrautils:budoff.3.documentation=它是原版BUD的升级版本.它可无需方块升级发生便会检测到任何与方块id或元数据或实体附加值数据相关的变化.你可以手持扳手右击一个高级BUD方块,来选择能发出红石信号的面.
-tile.extrautils:chandelier.documentation.0=你是否有想过更多能用来炫富的方法? 这是一个黄金与钻石做的豪华吊顶灯,你可以将它吊在天花板上.它会发出比一般火把和萤石稍微更亮点的光芒,可以用来当作一个永恒的提示,提醒那些乌合之众,谁才是老板(提示:就是你).
+tile.extrautils:chandelier.documentation.0=你是否有想过更多能用来炫富的方法? 这是一个黄金与钻石做的豪华吊顶灯,你可以将它吊在天花板上.它会发出比一般火把和荧石稍微更亮点的光芒,可以用来当作一个永恒的提示,提醒那些乌合之众,谁才是老板(提示:就是你).
 tile.extrautils:chandelier.documentation.1=而且它会防止16格范围内的怪物生成,不管那些是否有足够的吊灯光线.
 tile.extrautils:cobblestone_compressed.documentation=你家中是否堆积着成箱的圆石,而你又希望能够将它们塞到几件东西里面呢 - 现在你可以做到了.将9个圆石放置在工作台中来合成一个压缩圆石.然后将9个压缩圆石放在格子中来合成二重压缩圆石.重复这一步骤你最终能够合成八重压缩圆石.
 tile.extrautils:colorStoneBrick.documentation=共有16种不同颜色的石砖被添加到了游戏当中,而好处在于你能够以区块为单位进行调色.例如,你手持绿色染料右击一块红色石砖,它会变成一块略微发绿的红色石砖,并且在16x16区块范围内的所有红色石砖颜色均会随之变化.

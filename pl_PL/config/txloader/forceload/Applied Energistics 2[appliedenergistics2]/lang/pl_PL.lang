@@ -133,6 +133,8 @@ chat.appliedenergistics2.FinishCraftingRemind=Zadanie tworzenia %s * %s zostało
 chat.appliedenergistics2.CraftingCantExtract=Nie można wyodrębnić wymaganej ilości składnika z magazynu: %d / %d | %S
 chat.appliedenergistics2.MachineInOtherDim=%d located in dimension: %d and cant be highlighted
 chat.appliedenergistics2.MachineHighlighted=The %d is now highlighted at %d, %d, %d
+chat.appliedenergistics2.StorageHighlighted=The %d containing %d %d is now highlighted at %d, %d, %d
+chat.appliedenergistics2.StorageInOtherDim=%d containing %d %d is located in dimension: %d and cant be highlighted
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -590,6 +592,7 @@ gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Only allow crafting r
 gui.tooltips.appliedenergistics2.PinsSection=Pins Section
 gui.tooltips.appliedenergistics2.PinsSectionActive=Pins Section Enabled
 gui.tooltips.appliedenergistics2.PinsSectionDisabled=Pins Section Disabled
+
 gui.tooltips.appliedenergistics2.scheduledreason.SOMETHING_STUCK=Something stuck in interface
 gui.tooltips.appliedenergistics2.scheduledreason.BLOCKING_MODE=Blocking Mode
 gui.tooltips.appliedenergistics2.scheduledreason.LOCK_MODE=Lock Mode
@@ -637,6 +640,7 @@ waila.appliedenergistics2.Unlocked=Odblokowane
 waila.appliedenergistics2.Showing=Pokazywanie
 waila.appliedenergistics2.Contains=Zawiera
 waila.appliedenergistics2.Channels=%1$d z %2$d Kanałów
+waila.appliedenergistics2.ChannelsUnbound=%1$d Channels
 waila.appliedenergistics2.P2PUnlinked=Bez Połączenia
 waila.appliedenergistics2.P2PInputOneOutput=Połączono (Strona Wejściowa)
 waila.appliedenergistics2.P2PInputManyOutputs=Połączono (Strona Wejściowa) - %d Wyjść
@@ -908,3 +912,4 @@ stat.ae2.TurnedCranks=Obrócone Korby
 # Keys
 key.appliedenergistics2.category=Applied Energistics 2
 key.toggle_focus.desc=Przełącz fokus pola wyszukiwania
+key.search_connected_inventories.desc=Search network inventories for item

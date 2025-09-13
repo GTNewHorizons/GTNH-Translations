@@ -1,40 +1,41 @@
 #Items
 item.floodlights:rawFilament.name=가공 안된 필라멘트
 item.floodlights:glowingFilament.name=빛나는 필라멘트
-item.floodlights:electricIncandescentLightBulb.name=Electric Incandescent Light Bulb
-item.floodlights:carbonDissolver.name=Fuel Dissolver
-item.floodlights:carbonLantern.name=Non-electric Lantern
-item.floodlights:mantle.name=Mantle
-item.floodlights:lightDebugTool.name=Lightblock Debug Tool
+item.floodlights:electricIncandescentLightBulb.name=전기식 백열 전구
+item.floodlights:carbonDissolver.name=연료 분해제
+item.floodlights:carbonLantern.name=비전기식 랜턴
+item.floodlights:mantle.name=맨틀
+item.floodlights:lightDebugTool.name=라이트블록 디버그 도구
 
 #TileEntities
-tile.floodlights:carbonFloodlight.name=Non-electric Floodlight
-tile.floodlights:electricFloodlight.name=Electric Floodlight
-tile.floodlights:smallElectricFloodlight.name=Small Electric Floodlight
-tile.floodlights:uvFloodlight.name=UV Floodlight
-tile.floodlights:smallElectricFloodlightMetaBlock.name=Flourescent Light
-tile.floodlights:smallElectricFloodlightMetaBlock_smallFluorescent.name=Small Flourescent Light
-tile.floodlights:smallElectricFloodlightMetaBlock_squareFluorescent.name=Square Flourescent Light
-tile.floodlights:growLight.name=Grow Light
+tile.floodlights:carbonFloodlight.name=비전기식 투광등
+tile.floodlights:electricFloodlight.name=전기식 투광등
+tile.floodlights:smallElectricFloodlight.name=소형 전기식 투광등
+tile.floodlights:uvFloodlight.name=UV 투광등
+tile.floodlights:smallElectricFloodlightMetaBlock.name=형광등
+tile.floodlights:smallElectricFloodlightMetaBlock_smallFluorescent.name=소형 형광등
+tile.floodlights:smallElectricFloodlightMetaBlock_squareFluorescent.name=정사각형 형광등
+tile.floodlights:growLight.name=조명 키우기
 
-tile.floodlights:tilePhantomLight.name=Phantom Light
-tile.floodlights:tileUVLight.name=UV Light
+tile.floodlights:tilePhantomLight.name=환영 빛
+tile.floodlights:tileUVLight.name=UV 빛
 
 #GUI
-gui.floodlights:nonElectricFloodlightTimeRemaining=Time remaining
-gui.floodlights:RFStorage=RF Storage
-gui.floodlights:invert=Inverted
-gui.floodlights:mode=Mode
-gui.floodlights:true=true
-gui.floodlights:false=false
-gui.floodlights:straight=straight
-gui.floodlights:narrowCone=narrow cone
-gui.floodlights:wideCone=wide cone
+gui.floodlights:nonElectricFloodlightTimeRemaining=남은 시간
+gui.floodlights:RFStorage=RF 저장소
+gui.floodlights:invert=반전
+gui.floodlights:mode=모드
+gui.floodlights:true=진실
+gui.floodlights:false=거짓
+gui.floodlights:straight=직선
+gui.floodlights:narrowCone=좁은 원뿔
+gui.floodlights:wideCone=넓은 원뿔
 gui.floodlights:minutesShort=m
 gui.floodlights:secondsShort=s
-gui.floodlights:growLightLighting=Normal lighting
-gui.floodlights:growLightDarkLight=Black light
+gui.floodlights:growLightLighting=일반 조명
+gui.floodlights:growLightDarkLight=검은색 빛
+gui.floodlights:tooltipConfigured=설정됨
 
 # Creative Tabs
-itemGroup.floodlights=Flood Lights
+itemGroup.floodlights=투광등
 

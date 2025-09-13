@@ -1,35 +1,35 @@
-ggfab.recipe.toolcast=Tool Casting Machine
+ggfab.recipe.toolcast=Alet Döküm Makinesi
 
-ggfab.waila.advassline.slice=Slice #%s: %s s / %s s
-ggfab.waila.advassline.slice.small=Slice #%s: %s ticks / %s ticks
-ggfab.waila.advassline.slice.idle=Slice #%s: Idle
-ggfab.waila.advassline.slice.stuck=Slice #%s: §4STUCK
-ggfab.gui.advassline.slice.idle=Slice #%s: Idle
-ggfab.gui.advassline.slice.stuck=Slice #%s: §4STUCK
-ggfab.gui.advassline.slice.unknown=Slice #%s: ?
-ggfab.gui.advassline.shutdown=§4Last abnormal shutdown reason:
-ggfab.gui.advassline.shutdown_clear=§6Clear
-ggfab.gui.advassline.shutdown.input_busses=§4Too few input buses to support current recipe
-ggfab.gui.advassline.shutdown.recipe_null=§4Recipe is null (report to author)
-ggfab.gui.advassline.shutdown.fluid_null=§4Fluid drained failed (check your ME fluid storage)
-ggfab.gui.advassline.shutdown.structure=§4Incompatible structural change
-ggfab.gui.advassline.shutdown.energy=§4Insufficient power
-ggfab.gui.advassline.shutdown.load.energy=§4Loaded invalid electric stat
-ggfab.gui.advassline.shutdown.load.recipe=§4Incompatible recipe change
+ggfab.waila.advassline.slice=Dilim #%s: %s s / %s s
+ggfab.waila.advassline.slice.small=Dilim #%s: %s tik / %s tik
+ggfab.waila.advassline.slice.idle=Dilim #%s: Boşta
+ggfab.waila.advassline.slice.stuck=Dilim #%s: §4TAKILDI
+ggfab.gui.advassline.slice.idle=Dilim #%s: Boşta
+ggfab.gui.advassline.slice.stuck=Dilim #%s: §4TAKILDI
+ggfab.gui.advassline.slice.unknown=Dilim #%s: ?
+ggfab.gui.advassline.shutdown=§4Son anormal kapatma nedeni:
+ggfab.gui.advassline.shutdown_clear=§6Temizle
+ggfab.gui.advassline.shutdown.input_busses=§4Mevcut tarifi desteklemek için çok az sayıda giriş hattı
+ggfab.gui.advassline.shutdown.recipe_null=§4Tarif bulunamadı (yazara bildir)
+ggfab.gui.advassline.shutdown.fluid_null=§4Sıvı tahliyesi başarısız (ME sıvı deponuzu kontrol edin)
+ggfab.gui.advassline.shutdown.structure=§4Uyumsuz yapısal değişiklik
+ggfab.gui.advassline.shutdown.energy=§4Yetersiz güç
+ggfab.gui.advassline.shutdown.load.energy=§4Geçersiz elektrik statüsü yüklendi
+ggfab.gui.advassline.shutdown.load.recipe=§4Uyumsuz tarif değişikliği
 
-ggfab.info.linked_input_bus.not_owned=§6The settings were copied from a different owner!
-ggfab.info.linked_input_bus.no_data=§6Configuration data not found!
-ggfab.info.linked_input_bus.invalid_data=§6Configuration data was found but it is invalid!
-ggfab.info.linked_input_bus.invalid_circuit=§6Configuration data was found but it contains a circuit not valid on this bus!
-ggfab.info.linked_input_bus.data_pasted=§2Pasted channel ("%s§2") and configuration circuit setting!
-ggfab.info.linked_input_bus.data_copied=§2Copied channel ("%s§2") and configuration circuit setting!
-ggfab.info.linked_input_bus.no_channel=§6No channel specified yet!
+ggfab.info.linked_input_bus.not_owned=§6Ayarlar farklı bir sahipten kopyalandı!
+ggfab.info.linked_input_bus.no_data=§6Yapılandırma verileri bulunamadı!
+ggfab.info.linked_input_bus.invalid_data=§6Yapılandırma verileri bulundu ancak geçersiz!
+ggfab.info.linked_input_bus.invalid_circuit=§6Yapılandırma verileri bulundu ancak bu veri hattında geçerli olmayan bir devre içeriyor!
+ggfab.info.linked_input_bus.data_pasted=§2Yapıştırılan kanal ("%s§2") ve yapılandırma devresi ayarı!
+ggfab.info.linked_input_bus.data_copied=§2"%s§2" kanalı ve yapılandırma devresi ayarı kopyalandı!
+ggfab.info.linked_input_bus.no_channel=§6Henüz kanal belirtilmedi!
 
-ggfab.info.biome=Biome:
+ggfab.info.biome=Biyom:
 
-ggfab.tooltip.linked_input_bus.change_freq_warn=Changing channel while this is the last one on this channel will spill all items left!
-ggfab.tooltip.linked_input_bus.private=Private channel are not shared with others.
-ggfab.tooltip.linked_input_bus.private.1=Changing channel while this is the last one on this channel will spill all items left!
+ggfab.tooltip.linked_input_bus.change_freq_warn=Bu kanaldaki son öğe bu iken kanal değiştirmek kalan tüm eşyaları dökecektir!
+ggfab.tooltip.linked_input_bus.private=Özel kanal başkalarıyla paylaşılmaz.
+ggfab.tooltip.linked_input_bus.private.1=Bu kanaldaki son öğe bu iken kanal değiştirmek kalan tüm eşyaları dökecektir!
 
-ggfab.gui.linked_input_bus.private=Private
-ggfab.gui.linked_input_bus.channel=Channel
+ggfab.gui.linked_input_bus.private=Özel
+ggfab.gui.linked_input_bus.channel=Kanal

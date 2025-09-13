@@ -2,21 +2,21 @@ item.kekztech_error_item.name=KekzTech Error Coin
 
 # -------- Multiblock Tooltip Builder Keywords
 # -------- Context can be found in the class util.MultiBlockTooltipBuilder
-mbdesc.beginStructureBlock.Dimensions=Dimensions
-mbdesc.beginStructureBlock.Structure=Structure
-mbdesc.addController.Controller=Controller
+mbdesc.beginStructureBlock.Dimensions=Dimensiones
+mbdesc.beginStructureBlock.Structure=Estructura
+mbdesc.addController.Controller=Controlador
 mbdesc.addCasing.atleast=(at least)
-mbdesc.addEnergyHatch.EnergyHatch=Energy Hatch
-mbdesc.addDynamoHatch.DynamoHatch=Dynamo Hatch
-mbdesc.addMaintenanceHatch.MaintenanceHatch=Maintenance Hatch
-mbdesc.addIOHatches.IOHatches=I/O Hatches
-mbdesc.addInputBus.InputBus=Input Bus/ses
-mbdesc.addInputHatch.InputHatch=Input Hatch/es
-mbdesc.addOutputBus.OutputBus=Output Bus/ses
-mbdesc.addOutputHatch.OutputHatch=Output Hatch/es
+mbdesc.addEnergyHatch.EnergyHatch=Compuerta de Energía
+mbdesc.addDynamoHatch.DynamoHatch=Compuerta Dinamo
+mbdesc.addMaintenanceHatch.MaintenanceHatch=Compuerta de Mantenimiento
+mbdesc.addIOHatches.IOHatches=Compuertas de I/O
+mbdesc.addInputBus.InputBus=Bus/es de Entrada
+mbdesc.addInputHatch.InputHatch=Compuerta/s de Entrada
+mbdesc.addOutputBus.OutputBus=Bus/es de Salida
+mbdesc.addOutputHatch.OutputHatch=Compuerta/s de Salida
 mbdesc.signAndFinalize.Hold=Hold
 mbdesc.signAndFinalize.todisplay=to display structure guidelines
-mbdesc.signAndFinalize.createdby=Created by
+mbdesc.signAndFinalize.createdby=Creado por
 
 # -------- Fuel Cell: Structure Blocks
 tile.kekztech_gdcceramicelectrolyteunit_block.name=GDC Ceramic Electrolyte Unit
@@ -25,8 +25,8 @@ tile.kekztech_yszceramicelectrolyteunit_block.name=YSZ Ceramic Electrolyte Unit
 # -------- Fuel Cell: Crafting Components
 item.kekztech_crafting_item.9.name=YSZ Ceramic Dust
 item.kekztech_crafting_item.10.name=GDC Ceramic Dust
-item.kekztech_crafting_item.11.name=Yttria Dust
-item.kekztech_crafting_item.12.name=Zirconia Dust
+item.kekztech_crafting_item.11.name=Polvo de Itria
+item.kekztech_crafting_item.12.name=Polvo de Circonia
 item.kekztech_crafting_item.13.name=Ceria Dust
 item.kekztech_crafting_item.14.name=YSZ Ceramic Plate
 item.kekztech_crafting_item.15.name=GDC Ceramic Plate
@@ -43,7 +43,7 @@ tile.kekztech_tfftstoragefield_block.7.name=T.F.F.T Storage Field Block (Tier VI
 tile.kekztech_tfftstoragefield_block.8.name=T.F.F.T Storage Field Block (Tier VIII)
 tile.kekztech_tfftstoragefield_block.9.name=T.F.F.T Storage Field Block (Tier IX)
 tile.kekztech_tfftstoragefield_block.10.name=T.F.F.T Storage Field Block (Tier X)
-tile.kekztech_tfftstoragefield_block.desc=This is not a fluid tank
+tile.kekztech_tfftstoragefield_block.desc=Esto no es un tanque de fluidos
 tile.kekztech_tfftstoragefield_block.hint.1=Hint 1 Dot: T.F.F.T Casing
 tile.kekztech_tfftstoragefield_block.hint.2=Hint 2 Dot: T.F.F.T Casing, Maintenance Hatch, T.F.F.T Multi I/O Hatch, Input/Output Hatch, Energy Hatch
 tile.kekztech_tfftstoragefield_block.hint.3=Hint 3 Dot: EV+ Tier Glass, T.F.F.T Multi I/O Hatch, Input/Output Hatch
@@ -51,14 +51,14 @@ tile.kekztech_tfftstoragefield_block.hint.4=Hint 4 Dot: EV+ Tier Glass
 
 # -------- Lapotronic Super Capacitor: Structure Blocks
 tile.kekztech_lapotronicenergyunit_block.0.name=Lapotronic Super Capacitor Casing
-tile.kekztech_lapotronicenergyunit_block.1.name=Lapotronic Capacitor (IV)
-tile.kekztech_lapotronicenergyunit_block.2.name=Lapotronic Capacitor (LuV)
-tile.kekztech_lapotronicenergyunit_block.3.name=Lapotronic Capacitor (ZPM)
-tile.kekztech_lapotronicenergyunit_block.4.name=Lapotronic Capacitor (UV)
-tile.kekztech_lapotronicenergyunit_block.5.name=Ultimate Capacitor (UHV)
-tile.kekztech_lapotronicenergyunit_block.6.name=Empty Capacitor (-)
-tile.kekztech_lapotronicenergyunit_block.7.name=Lapotron Capacitor (EV)
-tile.kekztech_lapotronicenergyunit_block.8.name=Extremely Ultimate Capacitor (UEV)
+tile.kekztech_lapotronicenergyunit_block.1.name=Capacitor de Lapotrón (IV)
+tile.kekztech_lapotronicenergyunit_block.2.name=Capacitor de Lapotrón (LuV)
+tile.kekztech_lapotronicenergyunit_block.3.name=Capacitor de Lapotrón (ZPM)
+tile.kekztech_lapotronicenergyunit_block.4.name=Capacitor de Lapotrón (UV)
+tile.kekztech_lapotronicenergyunit_block.5.name=Capacitor Definitivo (UHV)
+tile.kekztech_lapotronicenergyunit_block.6.name=Capacitor Vacío (-)
+tile.kekztech_lapotronicenergyunit_block.7.name=Capacitor de Lapotrón (EV)
+tile.kekztech_lapotronicenergyunit_block.8.name=Capacitor Extremadamente Definitivo (UEV)
 tile.kekztech_lapotronicenergyunit_block.9.name=Insanely Ultimate Capacitor (UIV)
 tile.kekztech_lapotronicenergyunit_block.10.name=Mega Ultimate Capacitor (UMV)
 tile.kekztech_lapotronicenergyunit_block.desc=Part of the Lapotronic Super Capacitor
@@ -94,16 +94,16 @@ achievement.tile.kekztech_lapotronicenergyunit_block.2=Lapotronic Capacitor (LuV
 achievement.tile.kekztech_lapotronicenergyunit_block.3.desc=Pickup this item to see the recipe in NEI
 achievement.tile.kekztech_lapotronicenergyunit_block.3=Lapotronic Capacitor (ZPM)
 achievement.tile.kekztech_lapotronicenergyunit_block.4.desc=Pickup this item to see the recipe in NEI
-achievement.tile.kekztech_lapotronicenergyunit_block.4=Lapotronic Capacitor (UV)
+achievement.tile.kekztech_lapotronicenergyunit_block.4=Capacitor de Lapotrón (UV)
 achievement.tile.kekztech_lapotronicenergyunit_block.5.desc=Pickup this item to see the recipe in NEI
-achievement.tile.kekztech_lapotronicenergyunit_block.5=Ultimate Capacitor (UHV)
+achievement.tile.kekztech_lapotronicenergyunit_block.5=Capacitor Definitivo (UHV)
 achievement.tile.kekztech_lapotronicenergyunit_block.8.desc=Beyond the ranks of Gods
-achievement.tile.kekztech_lapotronicenergyunit_block.8=Extremely Ultimate Capacitor (UEV)
+achievement.tile.kekztech_lapotronicenergyunit_block.8=Capacitor Extremadamente Definitivo (UEV)
 achievement.tile.kekztech_lapotronicenergyunit_block.9.desc=Insanity ensues!
-achievement.tile.kekztech_lapotronicenergyunit_block.9=Insanely Ultimate Capacitor (UIV)
-achievement.tile.kekztech_lapotronicenergyunit_block.10.desc=How far can we go?
-achievement.tile.kekztech_lapotronicenergyunit_block.10=Mega Ultimate Capacitor (UMV)
+achievement.tile.kekztech_lapotronicenergyunit_block.9=Capacitor Verdaderamente Definitivo (UIV)
+achievement.tile.kekztech_lapotronicenergyunit_block.10.desc=¿Qué tan lejos podemos llegar?
+achievement.tile.kekztech_lapotronicenergyunit_block.10=Capacitor Mega Definitivo (UMV)
 
 
 # -------- GUI
-gui.kekztech_lapotronicenergyunit.wireless=Wireless mode
+gui.kekztech_lapotronicenergyunit.wireless=Modo inalámbrico

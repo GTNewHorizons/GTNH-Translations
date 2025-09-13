@@ -1,0 +1,41 @@
+name: Download daily
+description: Download latest daily modpack build and unzip it
+
+inputs:
+  GITHUB_TOKEN:
+    description: secrets.GITHUB_TOKEN
+    required: true
+  directory:
+    description: Directory to put unzipped modpack
+    required: true
+
+runs:
+  using: composite
+  steps:
+    - name: Fetch artifact ID
+      id: fetch-artifact-id
+      shell: bash
+      run: |
+        echo "artifact_id=$(gh --repo GTNewHorizons/DreamAssemblerXXL run list \
+          --limit 1 --workflow "Daily modpack build" --json databaseId --jq '.[].databaseId')" \
+          >> $GITHUB_OUTPUT
+      env:
+        GH_TOKEN: ${{ inputs.GITHUB_TOKEN }}
+    - name: Ensure ${{ inputs.directory }}
+      shell: bash
+      run:
+        mkdir ${{ inputs.directory }}
+    - name: Download daily
+      shell: bash
+      working-directory: ${{ inputs.directory }}
+      run: |
+        gh --repo GTNewHorizons/DreamAssemblerXXL run download \
+          ${{ steps.fetch-artifact-id.outputs.artifact_id }} \
+          --pattern *-mmcprism-new-java
+        # gh automatically unzips the first layer of the zip, one more zip left
+        cd $(ls | head -1)
+        unzip -q -o $(ls | head -1) -d ../unzip-tmp
+        cd ..
+        mv "unzip-tmp/GT New Horizons daily" daily
+      env:
+        GH_TOKEN: ${{ inputs.GITHUB_TOKEN }}

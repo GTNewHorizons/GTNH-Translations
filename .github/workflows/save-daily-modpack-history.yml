@@ -1,0 +1,38 @@
+name: Save daily modpack history
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  save-daily-modpack-history:
+    name: Save daily modpack history
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: master
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+
+      - name: Download daily
+        uses: ./.github/actions/download-daily
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          directory: .daily-temp
+      - name: Save daily modpack history
+        run: >-
+          poetry run python main.py action save-daily-modpack-history
+          --modpack-path='.daily-temp/daily' --subdirectory='daily-history'
+        env:
+          # Required by system validation but actually unused
+          PARATRANZ_TOKEN: -1
+          PARATRANZ_PROJECT_ID: -1
+          TARGET_LANG: "en_US"
+      - name: Push commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config pull.rebase true
+          git pull origin master
+          git push origin master

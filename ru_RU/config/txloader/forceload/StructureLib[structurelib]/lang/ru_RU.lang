@@ -22,9 +22,6 @@ item.structurelib.frontRotationTool.desc.1=Поворачивает только
 item.structurelib.frontRotationTool.desc.2=что позволяет повернуть всю структуру.
 
 item.structurelib.constructableTrigger.name=Голограммный проектор мультиблоковой структуры
-item.structurelib.constructableTrigger.modes.0=Режим строительства
-item.structurelib.constructableTrigger.modes.1=Режим улучшения
-item.structurelib.constructableTrigger.modes.2=Режим удаления
 item.structurelib.constructableTrigger.desc.0=Используется по интерфейсу контроллера
 item.structurelib.constructableTrigger.desc.1=Показывает схему постройки мультиблочной структуры,
 item.structurelib.constructableTrigger.desc.2=используется при нажатии по контроллеру
@@ -40,12 +37,6 @@ item.structurelib.constructableTrigger.gui.add=Добавить
 item.structurelib.constructableTrigger.gui.set=Задать
 item.structurelib.constructableTrigger.gui.unset=Сбросить
 item.structurelib.constructableTrigger.gui.wipe=§4Стереть
-item.structurelib.constructableTrigger.gui.error.show=Показать ошибки
-item.structurelib.constructableTrigger.gui.error.hide=Скрыть ошибки
-item.structurelib.constructableTrigger.gui.gt_no_hatch.enable=No Hatch
-item.structurelib.constructableTrigger.gui.gt_no_hatch.disable=Hatches
-item.structurelib.constructableTrigger.keyCategory=Multiblock Structure Hologram Projector Keys
-item.structurelib.constructableTrigger.keys.cycleMode=Режим циклического проектора
 item.structurelib.constructableTrigger.gui.channels.from=§rМод: §9§o%s
 item.structurelib.constructableTrigger.gui.info=Many multiblocks support some degree of variation in its structure and use sub channels to indicate which variant to use.\n Sub channels are has a sequence of lower case characters as key and a positive integer as value. Most known sub channels should be available as typeahead completions.\nYou can also drag and drop items from NEI to set the corresponding sub channel value. These items all have a tooltip of §oIndicates value X for sub channel Y§r.
 
@@ -188,7 +179,7 @@ structurelib.config.client.hologram=Голограммные настройки
 structurelib.config.client.hologram.tooltip=Настройки, которые по умолчанию меняют способ проецирования голограммы в мир.
 structurelib.config.client.hologram.maxCoexisting=Макс. сосуществующих голограмм
 structurelib.config.client.hologram.maxCoexisting.tooltip=Количество голограмм, которые могут сосуществовать. Обычно все подсказки, сгенерированные одним щелчком ПКМ, принадлежат одной голограмме. Будет предпринята попытка удаления старой голограммы, когда будет проецироваться новая голограмма и этот лимит будет превышен.
-structurelib.config.client.hologram.removeColliding=Remove Colliding Holograms
+structurelib.config.client.hologram.removeColliding=Удалить сталкивающиеся голограммы
 structurelib.config.client.hologram.removeColliding.tooltip=Whether an attempt will be made to remove any existing hologram that collides with a new hologram.
 
 structurelib.config.registries=Sorted Registries
@@ -204,5 +195,5 @@ structurelib.configgui.drag.tooltip=Перетащите эту кнопку, ч
 
 structurelib.sortedregistry.inventoryproviders.5000-main-inventory=Основной инвентарь игрока
 structurelib.sortedregistry.inventoryproviders.5000-main-inventory.tooltip=36 ячеек для предметов в вашем основном инвентаре. Слоты для брони исключены.
-structurelib.sortedregistry.inventoryproviders.7000-ender-inventory=Инвентарь Сундука Эндера
+structurelib.sortedregistry.inventoryproviders.7000-ender-inventory=Инвентарь сундука Эндера
 structurelib.sortedregistry.inventoryproviders.7000-ender-inventory.tooltip=Соединяет на ваш инвентарь из ванильного сундука Эндера. Требуется не менее один "похожий на рюкзак Эндера" предмет в основном инвентаре для работы.

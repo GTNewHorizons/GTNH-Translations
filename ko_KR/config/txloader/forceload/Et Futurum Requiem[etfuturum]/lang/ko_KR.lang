@@ -1,74 +1,74 @@
 # Creative Tab
-itemGroup.etfuturum.items=Et Futurum Items
-itemGroup.etfuturum.blocks=Et Futurum Blocks
+itemGroup.etfuturum.items=미래의 아이템
+itemGroup.etfuturum.blocks=미래의 블록
 
 # Enchantments
-enchantment.frost_walker=Frost Walker
-enchantment.mending=Mending
-enchantment.waterWalker=Depth Strider
-enchantment.binding_curse=§cCurse of Binding
-enchantment.vanishing_curse=§cCurse of Vanishing
-enchantment.swift_sneak=Swift Sneak
+enchantment.frost_walker=서리 걸음
+enchantment.mending=수선
+enchantment.waterWalker=깊이 건너가다
+enchantment.binding_curse=§c구속의 저주
+enchantment.vanishing_curse=§c소멸의 저주
+enchantment.swift_sneak=신속한 잠입
 
 # Potions
-potion.levitation=Levitation
-potion.levitation.postfix=Potion of Levitation
+potion.levitation=부유
+potion.levitation.postfix=부유의 물약
 
 # Gamemode selector
 
-debug.gamemodes.select_next=%s Next
+debug.gamemodes.select_next=%s 다음
 debug.gamemodes.press_f4=[ F4 ]
 
 # Gamemodes
-gameMode.Spectator=Spectator Mode
+gameMode.Spectator=관전자 모드
 
 # Commands
 commands.etfuturum.fill.usage=/fill <from> <to> <block>
-commands.etfuturum.fill.outOfWorld=Cannot place blocks outside of world
-commands.etfuturum.fill.success=Successfully filled %d block(s)
+commands.etfuturum.fill.outOfWorld=월드 밖으로 블록을 배치할 수 없습니다.
+commands.etfuturum.fill.success=%d 블록을 성공적으로 채웠습니다.
 
-sleep.players_sleeping=%s/%s players sleeping
-sleep.skipping_night=Sleeping through this night
+sleep.players_sleeping=%s/%s 명의 플레이어가 잠을 자고 있습니다.
+sleep.skipping_night=이 밤을 자고 지나가다
 
 # Containers/GUI
-container.enchant.lapis.one=1 Lapis Lazuli
-container.enchant.lapis.many=%d Lapis Lazuli
-container.enchant.level.required=Level Requirement
-container.enchant.level.one=1 Enchantment Level
-container.enchant.level.many=%d Enchantment Levels
+container.enchant.lapis.one=1 라피스 라줄리
+container.enchant.lapis.many=%d 라피스 라줄리
+container.enchant.level.required=레벨 요구사항
+container.enchant.level.one=1 마법 수준
+container.enchant.level.many=%d 마법 부여 단계
 container.enchant.clue=%s . . . ?
-container.etfuturum.blast_furnace=Blast Furnace
-container.etfuturum.smoker=Smoker
-container.etfuturum.barrel=Barrel
-container.etfuturum.shulker_box=Shulker Box
-container.etfuturum.chest_boat=Boat with Chest
+container.etfuturum.blast_furnace=용광로
+container.etfuturum.smoker=흡연자
+container.etfuturum.barrel=통
+container.etfuturum.shulker_box=셜커 박스
+container.etfuturum.chest_boat=상자가 있는 보트
 
 item.record.pigstep.desc=Lena Raine - Pigstep
 item.record.otherside.desc=Lena Raine - otherside
 
-gui.smithing.upgrade=Upgrade Gear
-gui.warn.continue=Continue...
-gui.warn.dismiss=Don't show me this again.
-gui.warn.notice=NOTICE:
-gui.warn.configSplit1=Due to the main Et Futurum Requiem config becoming very long and hard to navigate, the configs have been split into multiple files. You are being shown this warning because you have a config from a previous version in "configs/etfuturum.cfg". There is no system in place to automatically transfer your settings so be sure to check out the new files!
-gui.warn.configSplit2=When you're done, you can delete or rename the old config file, or tick the box below to stop seeing this warning.
-gui.chat.update=%1$s version %2$s is available!
-gui.chat.update.download=Click here to download the update on %s!
+gui.smithing.upgrade=장비 업그레이드
+gui.warn.continue=계속...
+gui.warn.dismiss=이걸 다시 보여주지 마세요.
+gui.warn.notice=공지:
+gui.warn.configSplit1=주요 Et Futurum Requiem 구성 파일이 매우 길고 탐색하기 어려워졌기 때문에 구성 파일을 여러 개의 파일로 분할했습니다. 이 경고가 표시되는 이유는 “configs/etfuturum.cfg”에 이전 버전의 구성 파일이 존재하기 때문입니다. 설정을 자동으로 이전하는 시스템이 없으므로 새로운 파일을 반드시 확인해 주세요!
+gui.warn.configSplit2=작업이 완료되면 구성 파일을 삭제하거나 이름을 변경할 수 있습니다. 또는 아래의 체크박스를 선택하여 이 경고 메시지가 더 이상 표시되지 않도록 할 수 있습니다.
+gui.chat.update=%1$s 버전 %2$s가 사용 가능합니다!
+gui.chat.update.download=여기를 클릭하여 %s의 업데이트를 다운로드하세요!
 
 # Subtitles
-subtitle.game.tnt.primed=TNT primed
-subtitle.game.player.swim=Player swims
-subtitle.game.player.swim.splash=Player splashes
-subtitle.entity.player.splash.high_speed=Huge splash
-subtitle.game.potion.smash=Potion Smashed
+subtitle.game.tnt.primed=TNT 점화
+subtitle.game.player.swim=플레이어가 수영합니다.
+subtitle.game.player.swim.splash=플레이어 스플래시
+subtitle.entity.player.splash.high_speed=거대한 파장
+subtitle.game.potion.smash=포션 부서짐
 
-subtitle.game.neutral.hurt=Damage
-subtitle.game.neutral.swim=Someone swims
-subtitle.game.neutral.swim.splash=Splash
+subtitle.game.neutral.hurt=피해
+subtitle.game.neutral.swim=누군가가 수영을 합니다.
+subtitle.game.neutral.swim.splash=스플래시
 
-subtitle.game.hostile.hurt=Damage
-subtitle.game.hostile.swim=Someone swims
-subtitle.game.hostile.swim.splash=Splash
+subtitle.game.hostile.hurt=피해
+subtitle.game.hostile.swim=누군가가 수영을 합니다.
+subtitle.game.hostile.swim.splash=스플래시
 
 subtitle.game.player.die=Player dies
 subtitle.game.player.hurt=Player takes damage
@@ -153,50 +153,50 @@ subtitle.entity.boat.paddle_land=Paddles hit the ground
 subtitle.random.fizz=Something fizzes
 subtitle.random.drink=Drinking
 subtitle.random.eat=Chomping
-subtitle.random.explode=Explosion
-subtitle.random.pop=Item pickup
-subtitle.random.orb=Experience gained
+subtitle.random.explode=폭발
+subtitle.random.pop=아이템 수령
+subtitle.random.orb=경험치 얻기
 subtitle.random.levelup=Leveled up
-subtitle.random.bow=Projectile launched
-subtitle.random.bowhit=Arrow hits
-subtitle.random.click=Click
-subtitle.random.chestopen=Chest opens
-subtitle.random.chest.close=Chest closes
-subtitle.random.anvil_land=Anvil clanks
-subtitle.random.burp=Burp
+subtitle.random.bow=발사체 발사
+subtitle.random.bowhit=화살 적중
+subtitle.random.click=클릭
+subtitle.random.chestopen=상자 열기
+subtitle.random.chest.close=상자 닫기
+subtitle.random.anvil_land=모루 소리
+subtitle.random.burp=트림
 
-subtitle.dig.grass=Dirt placed or destroyed
-subtitle.dig.stone=Stone placed or destroyed
-subtitle.dig.wood=Wood placed or destroyed
-subtitle.dig.cloth=Block placed or destroyed
-subtitle.dig.glass=Glass placed or destroyed
-subtitle.dig.gravel=Gravel placed or destroyed
+subtitle.dig.grass=흙이 쌓이거나 파괴됨
+subtitle.dig.stone=돌을 배치하거나 파괴하다
+subtitle.dig.wood=나무를 배치하거나 파괴하다
+subtitle.dig.cloth=블록을 배치하거나 파괴하다
+subtitle.dig.glass=유리를 배치하거나 파괴하다
+subtitle.dig.gravel=자갈을 배치하거나 파괴하다
 subtitle.dig.sand=Sand placed or destroyed
 
-subtitle.fall.small=Something trips
-subtitle.fall.big=Something falls
-subtitle.footsteps=Footsteps
+subtitle.fall.small=무언가가 걸려 넘어진다.
+subtitle.fall.big=무언가가 떨어진다
+subtitle.footsteps=발자국
 
-subtitle.note.harp=Note Block plays
+subtitle.note.harp=노트 블록 재생
 
-subtitle.liquid.water=Water flowing
-subtitle.liquid.lava=Lava flowing
-subtitle.liquid.lavapop=Lava seething
+subtitle.liquid.water=흐르는 물
+subtitle.liquid.lava=흐르는 용암
+subtitle.liquid.lavapop=끓어오르는 용암
 
-subtitle.item.bucket.empty=Bucket empties
-subtitle.item.bucket.fill=Bucket fills
+subtitle.item.bucket.empty=빈 양동이
+subtitle.item.bucket.fill=채워진 양동이
 subtitle.item.bucket.empty_lava=Bucket empties
 subtitle.item.bucket.fill_lava=Bucket fills
-subtitle.item.bottle.empty=Bottle empty
-subtitle.item.bottle.fill=Bottle fills up
-subtitle.item.hoe.till=Tilling with Hoe
-subtitle.item.elytra.flying=Elytra whooshes
-subtitle.item.armor.equip_generic=Leather armor equipped
-subtitle.item.armor.equip_iron=Iron armor equipped
+subtitle.item.bottle.empty=빈 병
+subtitle.item.bottle.fill=채워진 병
+subtitle.item.hoe.till=괭이로 밭을 갈다
+subtitle.item.elytra.flying=겉날개가 윙윙거리다
+subtitle.item.armor.equip_generic=가죽 갑옷을 착용하다
+subtitle.item.armor.equip_iron=철 갑옷을 착용하다
 subtitle.item.armor.equip_gold=Golden armor equipped
 subtitle.item.armor.equip_chain=Chainmail armor equipped
 subtitle.item.armor.equip_diamond=Diamond armor equipped
-subtitle.item.armor.equip_netherite=Netherite armor equipped
+subtitle.item.armor.equip_netherite=네더라이트 갑옷을 착용하다
 subtitle.item.armor.equip_elytra=Elytra equipped
 subtitle.item.bone_meal.use=Bone Meal crinkles 
 
@@ -215,8 +215,8 @@ subtitle.records.wait=The "wait" record is playing
 
 subtitle.ambient.nether_wastes.mood=Hellish sounds
 
-subtitle.block.destroyed=Block placed or destroyed
-subtitle.block.placed=Block placed or destroyed
+subtitle.block.destroyed=블록을 배치하거나 파괴하다
+subtitle.block.placed=블록을 배치하거나 파괴하다
 subtitle.block.wooden_door.close=Wooden Door closes
 subtitle.block.wooden_door.open=Wooden Door opens
 subtitle.block.iron_door.close=Iron Door closes
@@ -364,17 +364,17 @@ item.etfuturum.dragon_breath.name=Dragon's Breath
 item.etfuturum.elytra.name=Elytra
 item.etfuturum.end_crystal.name=End Crystal
 item.etfuturum.iron_nugget.name=Iron Nugget
-item.etfuturum.netherite_scrap.name=Netherite Scrap
-item.etfuturum.netherite_ingot.name=Netherite Ingot
-item.etfuturum.netherite_helmet.name=Netherite Helmet
-item.etfuturum.netherite_chestplate.name=Netherite Chestplate
-item.etfuturum.netherite_leggings.name=Netherite Leggings
-item.etfuturum.netherite_boots.name=Netherite Boots
-item.etfuturum.netherite_pickaxe.name=Netherite Pickaxe
-item.etfuturum.netherite_axe.name=Netherite Axe
-item.etfuturum.netherite_spade.name=Netherite Shovel
-item.etfuturum.netherite_sword.name=Netherite Sword
-item.etfuturum.netherite_hoe.name=Netherite Hoe
+item.etfuturum.netherite_scrap.name=네더라이트 파편
+item.etfuturum.netherite_ingot.name=네더라이트 주괴
+item.etfuturum.netherite_helmet.name=네더라이트 투구
+item.etfuturum.netherite_chestplate.name=네더라이트 갑옷
+item.etfuturum.netherite_leggings.name=네더라이트 레깅스
+item.etfuturum.netherite_boots.name=네더라이트 부츠
+item.etfuturum.netherite_pickaxe.name=네더라이트 곡괭이
+item.etfuturum.netherite_axe.name=네더라이트 도끼
+item.etfuturum.netherite_spade.name=네더라이트 삽
+item.etfuturum.netherite_sword.name=네더라이트 검
+item.etfuturum.netherite_hoe.name=네더라이트 괭이
 potion.prefix.lingering=Lingering
 item.etfuturum.totem_of_undying.name=Totem of Undying
 item.etfuturum.white_dye.name=White Dye
@@ -480,7 +480,7 @@ tile.etfuturum.crying_obsidian.name=Crying Obsidian
 tile.etfuturum.frosted_ice.name=Frosted Ice
 tile.etfuturum.rose.name=Rose
 tile.etfuturum.ancient_debris.name=Ancient Debris
-tile.etfuturum.netherite_block.name=Block of Netherite
+tile.etfuturum.netherite_block.name=네더라이트 블록
 tile.etfuturum.netherite_stairs.name=Swaggiest stairs ever
 tile.etfuturum.blue_ice.name=Blue Ice
 tile.etfuturum.smooth_stone.name=Smooth Stone
@@ -664,6 +664,8 @@ tile.etfuturum.bee_nest.name=Bee Nest
 tile.etfuturum.beehive.name=Beehive
 tile.etfuturum.honey_block.name=Honey Block
 tile.etfuturum.honeycomb_block.name=Honeycomb Block
+
+tile.etfuturum.glow_lichen.name=Glow Lichen
 
 tile.etfuturum.barrel.name=Barrel
 tile.etfuturum.blast_furnace.name=Blast Furnace
@@ -1721,7 +1723,7 @@ tile.etfuturum.diamond_barrel.name=Diamond Barrel
 tile.etfuturum.copper_barrel.name=Copper Barrel
 tile.etfuturum.silver_barrel.name=Silver Barrel
 tile.etfuturum.obsidian_barrel.name=Obsidian Barrel
-tile.etfuturum.netherite_barrel.name=Netherite Barrel
+tile.etfuturum.netherite_barrel.name=네더라이트 통
 tile.etfuturum.steel_barrel.name=Steel Barrel
 tile.etfuturum.darksteel_barrel.name=Dark Steel Barrel
 
@@ -1974,7 +1976,7 @@ item.barrel_copper_iron_upgrade.name=Copper to Iron Barrel Upgrade
 item.barrel_copper_silver_upgrade.name=Copper to Silver Barrel Upgrade
 item.barrel_silver_gold_upgrade.name=Silver to Gold Barrel Upgrade
 item.barrel_steel_gold_upgrade.name=Steel to Gold Barrel Upgrade
-item.barrel_obsidian_netherite_upgrade.name=Obsidian to Netherite Barrel Upgrade
+item.barrel_obsidian_netherite_upgrade.name=흑요석 상자를 네더라이트 통으로 업그레이드
 item.barrel_obsidian_darksteel_upgrade.name=Obsidian to Dark Steel Barrel Upgrade
 
 item.etfuturum.raw_aluminum.name=Raw Aluminum

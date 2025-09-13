@@ -1,6 +1,6 @@
-defaultconfigs.cmd.createUpdateFile.failure=§cCould not create modpack-update file (%1$s)
-defaultconfigs.cmd.createUpdateFile.success=§amodpack-update file has been created inside the config directory. You should always ship that file in your modpack; just leave it there forever. This will ensure that local player configs defined in localconfig.txt will be restored on updates.
-defaultconfigs.cmd.saveKeys.failure=§cFailed saving the key configuration. See the log for more information.
-defaultconfigs.cmd.saveKeys.success=§aSuccessfully saved the key configuration.
-defaultconfigs.cmd.saveOptions.failure=§cFailed saving the configuration. See the log for more information.
-defaultconfigs.cmd.saveOptions.success=§aSuccessfully saved the configuration.
+defaultconfigs.cmd.createUpdateFile.failure=§c모드팩 업데이트 파일을 생성할 수 없습니다. ($s)%1
+defaultconfigs.cmd.createUpdateFile.success=§amodpack-update 파일이 config 디렉토리 내부에 생성되었습니다. 이 파일을 모드팩에 항상 포함시켜야 하며, 영구적으로 해당 위치에 남겨두어야 합니다. 이로써 localconfig.txt에 정의된 로컬 플레이어 설정들이 업데이트 시 복원되도록 보장됩니다.
+defaultconfigs.cmd.saveKeys.failure=§c키 설정 저장 실패. 자세한 내용은 로그를 참조하세요.
+defaultconfigs.cmd.saveKeys.success=§a키 구성 설정을 성공적으로 저장했습니다.
+defaultconfigs.cmd.saveOptions.failure=§c구성 저장 실패. 자세한 내용은 로그를 참조하세요.
+defaultconfigs.cmd.saveOptions.success=§a구성 설정이 성공적으로 저장되었습니다.

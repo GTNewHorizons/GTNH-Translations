@@ -1,4 +1,5 @@
 tab.battle.title=M&B Battlegear 2 (마인&블래이드 배틀기어2)
+
 config.battlegear.title=Mine&Blade Battlegear 2 설정
 config.battlegear.category=커스텀 아이템에 대한 렌더링 제거
 config.battlegear.warn=변경된 효과를 보기 위해선 게임을 재 시작 해야합니다.
@@ -20,6 +21,10 @@ flag.design.load=불러오기
 flag.design.load.sections=섹션 불러오기
 
 key.categories.battlegear=Battlegear
+key.battleInv=Battle Inventory
+key.drawWeapons=Draw Weapons
+key.openSigilEditor=Open Sigil Editor
+key.special=Special
 
 item.battlegear2:bow.greg.name=그레그의 활
 item.battlegear2:bow.iron.name=철 활
@@ -118,8 +123,10 @@ attribute.name.weapon.extendedReach=사정 거리
 attribute.name.weapon.attackSpeed=공격 속도
 attribute.name.weapon.backstab=백 스탭
 attribute.name.weapon.mountedBonus=추가 데미지
+attribute.shield.tooltip=Equip in offhand to use
 attribute.shield.block.time=%s 초 방어
 attribute.shield.arrow.count=%s 화살
+attribute.shield.arrow.state=Display Arrows: %s (Sneak + Right Click while holding to toggle)
 attribute.quiver.arrow.empty=비어있음
 attribute.quiver.arrow.count=활 종류
 
@@ -155,3 +162,10 @@ death.attack.battlegearExtra.backstab=%1$s 이(가) %2$s 에게 통수를 맞아
 death.attack.battlegearExtra.backstab.item=%1$s 이(가) %3$s 을(를) 사용한  %2$s 에게 통수를 맞아 죽었습니다.
 death.attack.battlegearExtra.mounted=%1$s 이(가) %2$s 에게 꿰뚫렸습니다.
 death.attack.battlegearExtra.mounted.item=%1$s 이(가) %2$s 에게 꿰뚫렸습니다. %3$s 이란 무기 대단해!
+
+tool.pen=Pencil
+tool.rectangle=Rectangle
+tool.circle=Ellipse
+tool.flood=Flood
+tool.text=Text
+tool.dropper=Dropper

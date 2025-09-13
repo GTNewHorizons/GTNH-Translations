@@ -1,4 +1,5 @@
 tab.battle.title=M&B Battlegear 2
+
 config.battlegear.title=Mine&Blade Battlegear 2 Yapılandırma
 config.battlegear.category=Özel Eşya İşleyiciler Devre Dışı
 config.battlegear.warn=Değişimlerin uygulanması için yeniden başlatma gerekli
@@ -13,17 +14,17 @@ gui.open.fake=Ekran Özelleşticiyi Aç
 gui.fake.help1=Ekran bileşenlerini tıklayarak ve sürükleyerek hareket ettir
 gui.fake.help2=Sadak Yuvaları
 gui.fake.help3=Kalkan Dayanıklılık Çubuğu
-gui.fake.help4=El Dışı Yuvalar
-gui.fake.help5=Mainhand Slots
+gui.fake.help4=Diğer El Yuvaları
+gui.fake.help5=Ana El Yuvaları
 flag.design.save=Kaydet
 flag.design.load=Yükle
 flag.design.load.sections=Bölüm Yükle
 
 key.categories.battlegear=Savaş Teçhizatı
-key.battleInv=Battle Inventory
-key.drawWeapons=Draw Weapons
-key.openSigilEditor=Open Sigil Editor
-key.special=Special
+key.battleInv=Savaş Envanteri
+key.drawWeapons=Silah Çekme
+key.openSigilEditor=Sigil Düzenleyiciyi Aç
+key.special=Özel
 
 item.battlegear2:bow.greg.name=Greg'in Yayı
 item.battlegear2:bow.iron.name=Demir Yay
@@ -34,10 +35,10 @@ item.battlegear2:heraldric.name=Hanedan Simgesi
 item.battlegear2:chain.name=Zincir
 item.battlegear2:quiver.name=Sadak
 
-item.battlegear2:mb.arrow.name=Arrow
+item.battlegear2:mb.arrow.name=Ok
 item.battlegear2:mb.arrow.ender.name=Ender Oku
 item.battlegear2:mb.arrow.holy.name=Kutsal Meşale Oku
-item.battlegear2:mb.arrow.ice.name=Buzlu Ok
+item.battlegear2:mb.arrow.ice.name=Buz Dolu Ok
 item.battlegear2:mb.arrow.explosive.name=Patlayıcı Ok
 item.battlegear2:mb.arrow.flame.name=Ateşli Ok
 item.battlegear2:mb.arrow.piercing.name=Delici Ok
@@ -76,7 +77,7 @@ item.battlegear2:shield.diamond.name=Elmas Kalkan
 item.battlegear2:shield.gold.name=Altın Kalkan
 
 item.battlegear2:knights_armour.helmet.name=Şövalyenin Kaskı
-item.battlegear2:knights_armour.plate.name=Şövalyenin Zırhı
+item.battlegear2:knights_armour.plate.name=Şövalyenin Göğüslüğü
 item.battlegear2:knights_armour.legs.name=Şövalyenin Pantolonu
 item.battlegear2:knights_armour.boots.name=Şövalyenin Botları
 
@@ -88,9 +89,9 @@ enchantment.bash.damage=Darbe Hasarı
 enchantment.shield.usage=Kalkan Verimliliği
 enchantment.shield.recover=Kalkan İyileşimi
 enchantment.bow.loot=Yay Şansı
-enchantment.bow.charge=Bow Drawnback
+enchantment.bow.charge=Yay Çekildi
 
-tile.battlegear2:flagpole.name=Flag Pole
+tile.battlegear2:flagpole.name=Bayrak Direği
 tile.battlegear2:flagpole.oak.name=Meşe Bayrak Direği
 tile.battlegear2:flagpole.spruce.name=Ladin Bayrak Direği
 tile.battlegear2:flagpole.birch.name=Huş Bayrak Direği
@@ -122,8 +123,10 @@ attribute.name.weapon.extendedReach=Yetişme
 attribute.name.weapon.attackSpeed=Saldırı Hızı
 attribute.name.weapon.backstab=Arkadan Saldırı
 attribute.name.weapon.mountedBonus=At Üstündeki Hasar
+attribute.shield.tooltip=Equip in offhand to use
 attribute.shield.block.time=%s s Blok
 attribute.shield.arrow.count=%s Oklar
+attribute.shield.arrow.state=Display Arrows: %s (Sneak + Right Click while holding to toggle)
 attribute.quiver.arrow.empty=Boş
 attribute.quiver.arrow.count=Oklar
 
@@ -160,9 +163,9 @@ death.attack.battlegearExtra.backstab.item=%1$s, %3$s kullanılarak %2$s tarafı
 death.attack.battlegearExtra.mounted=%1$s, %2$s ve bineği tarafından delindi
 death.attack.battlegearExtra.mounted.item=%1$s, %2$s ve bineği tarafından %3$s kullanılarak delindi
 
-tool.pen=Pencil
-tool.rectangle=Rectangle
-tool.circle=Ellipse
-tool.flood=Flood
-tool.text=Text
-tool.dropper=Dropper
+tool.pen=Kurşun Kalem
+tool.rectangle=Dikdörtgen
+tool.circle=Elips
+tool.flood=Sel
+tool.text=Metin
+tool.dropper=Bırakıcı

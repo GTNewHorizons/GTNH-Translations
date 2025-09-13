@@ -1,0 +1,75 @@
+name: Publish all daily lang packs
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  zh_CN:
+    uses: ./.github/workflows/publish-daily-lang-pack.yml
+    with:
+      target_lang: zh_CN
+    secrets: inherit
+  ja_JP:
+    uses: ./.github/workflows/publish-daily-lang-pack.yml
+    needs: zh_CN # Wait for previous run to finish
+    if: success() || failure()
+    with:
+      target_lang: ja_JP
+    secrets: inherit
+  ko_KR:
+    uses: ./.github/workflows/publish-daily-lang-pack.yml
+    needs: ja_JP # Wait for previous run to finish
+    if: success() || failure()
+    with:
+      target_lang: ko_KR
+    secrets: inherit
+  pt_BR:
+    uses: ./.github/workflows/publish-daily-lang-pack.yml
+    needs: ko_KR # Wait for previous run to finish
+    if: success() || failure()
+    with:
+      target_lang: pt_BR
+    secrets: inherit
+  fr_FR:
+    uses: ./.github/workflows/publish-daily-lang-pack.yml
+    needs: pt_BR # Wait for previous run to finish
+    if: success() || failure()
+    with:
+      target_lang: fr_FR
+    secrets: inherit
+  es_ES:
+    uses: ./.github/workflows/publish-daily-lang-pack.yml
+    needs: fr_FR # Wait for previous run to finish
+    if: success() || failure()
+    with:
+      target_lang: es_ES
+    secrets: inherit
+  tr_TR:
+    uses: ./.github/workflows/publish-daily-lang-pack.yml
+    needs: es_ES # Wait for previous run to finish
+    if: success() || failure()
+    with:
+      target_lang: tr_TR
+    secrets: inherit
+  de_DE:
+    uses: ./.github/workflows/publish-daily-lang-pack.yml
+    needs: tr_TR # Wait for previous run to finish
+    if: success() || failure()
+    with:
+      target_lang: de_DE
+    secrets: inherit
+  pl_PL:
+    uses: ./.github/workflows/publish-daily-lang-pack.yml
+    needs: de_DE # Wait for previous run to finish
+    if: success() || failure()
+    with:
+      target_lang: pl_PL
+    secrets: inherit
+  ru_RU:
+    uses: ./.github/workflows/publish-daily-lang-pack.yml
+    needs: pl_PL # Wait for previous run to finish
+    if: success() || failure()
+    with:
+      target_lang: ru_RU
+    secrets: inherit

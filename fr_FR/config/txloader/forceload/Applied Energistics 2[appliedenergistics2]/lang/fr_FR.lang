@@ -44,14 +44,14 @@ tile.appliedenergistics2.BlockSkyChest.name=Coffre en roche céleste
 tile.appliedenergistics2.BlockSkyChest.Block.name=Coffre en bloc de roche céleste
 tile.appliedenergistics2.BlockSkyCompass.name=Boussole à météorites
 tile.appliedenergistics2.BlockCraftingMonitor.name=Moniteur de fabrication
-tile.appliedenergistics2.BlockCraftingStorage.name=1k Crafting Storage
-tile.appliedenergistics2.BlockCraftingStorage4k.name=4k Crafting Storage
-tile.appliedenergistics2.BlockCraftingStorage16k.name=16k Crafting Storage
-tile.appliedenergistics2.BlockCraftingStorage64k.name=64k Crafting Storage
-tile.appliedenergistics2.BlockCraftingStorage256k.name=256k Crafting Storage
-tile.appliedenergistics2.BlockCraftingStorage1024k.name=1024k Crafting Storage
-tile.appliedenergistics2.BlockCraftingStorage4096k.name=4096k Crafting Storage
-tile.appliedenergistics2.BlockCraftingStorage16384k.name=16384k Crafting Storage
+tile.appliedenergistics2.BlockCraftingStorage.name=§61k§r Crafting Storage
+tile.appliedenergistics2.BlockCraftingStorage4k.name=§e4k§r Crafting Storage
+tile.appliedenergistics2.BlockCraftingStorage16k.name=§a16k§r Crafting Storage
+tile.appliedenergistics2.BlockCraftingStorage64k.name=§b64k§r Crafting Storage
+tile.appliedenergistics2.BlockCraftingStorage256k.name=§9256k§r Crafting Storage
+tile.appliedenergistics2.BlockCraftingStorage1024k.name=§d1024k§r Crafting Storage
+tile.appliedenergistics2.BlockCraftingStorage4096k.name=§c4096k§r Crafting Storage
+tile.appliedenergistics2.BlockCraftingStorage16384k.name=§516384k§r Crafting Storage
 tile.appliedenergistics2.BlockCraftingStorageSingularity.name=Singularity Crafting Storage
 tile.appliedenergistics2.BlockCraftingAccelerator.name=Crafting Co-Processing Unit
 tile.appliedenergistics2.BlockCraftingAccelerator4x.name=Quad Core Co-Processing Unit
@@ -79,21 +79,21 @@ tile.appliedenergistics2.SkyStoneSmallBrickStairBlock.name=Sky Stone Small Brick
 tile.appliedenergistics2.SkyStoneStairBlock.name=Sky Stone Stairs
 
 # Slabs
-tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=Chiseled Certus Quartz Slabs
+tile.appliedenergistics2.ChiseledQuartzSlabBlock.name=Chiseled Certus Quartz Slab
 tile.appliedenergistics2.ChiseledQuartzSlabBlock.double.name=Chiseled Certus Quartz Slabs
-tile.appliedenergistics2.FluixSlabBlock.name=Fluix Slabs
+tile.appliedenergistics2.FluixSlabBlock.name=Fluix Slab
 tile.appliedenergistics2.FluixSlabBlock.double.name=Fluix Slabs
-tile.appliedenergistics2.QuartzPillarSlabBlock.name=Certus Quartz Pillar Slabs
+tile.appliedenergistics2.QuartzPillarSlabBlock.name=Certus Quartz Pillar Slab
 tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Certus Quartz Pillar Slabs
-tile.appliedenergistics2.QuartzSlabBlock.name=Certus Quartz Slabs
+tile.appliedenergistics2.QuartzSlabBlock.name=Certus Quartz Slab
 tile.appliedenergistics2.QuartzSlabBlock.double.name=Certus Quartz Slabs
-tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=Sky Stone Block Slabs
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=Sky Stone Block Slab
 tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Sky Stone Block Slabs
-tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=Sky Stone Brick Slabs
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=Sky Stone Brick Slab
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Sky Stone Brick Slabs
-tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=Sky Stone Small Brick Slabs
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=Sky Stone Small Brick Slab
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Sky Stone Small Brick Slabs
-tile.appliedenergistics2.SkyStoneSlabBlock.name=Sky Stone Slabs
+tile.appliedenergistics2.SkyStoneSlabBlock.name=Sky Stone Slab
 tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Sky Stone Slabs
 
 # Chat Messages
@@ -133,6 +133,8 @@ chat.appliedenergistics2.FinishCraftingRemind=Crafting of %s * %s finished in %s
 chat.appliedenergistics2.CraftingCantExtract=Can't extract required amount of ingredient from storage: %d / %d | %s
 chat.appliedenergistics2.MachineInOtherDim=%d located in dimension: %d and cant be highlighted
 chat.appliedenergistics2.MachineHighlighted=The %d is now highlighted at %d, %d, %d
+chat.appliedenergistics2.StorageHighlighted=The %d containing %d %d is now highlighted at %d, %d, %d
+chat.appliedenergistics2.StorageInOtherDim=%d containing %d %d is located in dimension: %d and cant be highlighted
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -537,7 +539,7 @@ gui.tooltips.appliedenergistics2.SidelessModeSideless=Sideless Mode
 gui.tooltips.appliedenergistics2.SidelessModeSidelessDesc=All fluids are accessible from all sides
 
 gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefault=Default Blocking Mode
-gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefaultDesc=Blocking interfaces follow follow normal blocking rules (ignore circuits, etc.)
+gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefaultDesc=Blocking interfaces follow normal blocking rules (ignore circuits, etc.)
 gui.tooltips.appliedenergistics2.AdvancedBlockingModeAll=Loose Mode
 gui.tooltips.appliedenergistics2.AdvancedBlockingModeAllDesc=Blocking interfaces will block on any item in this ME system.
 
@@ -590,6 +592,7 @@ gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Only allow crafting r
 gui.tooltips.appliedenergistics2.PinsSection=Pins Section
 gui.tooltips.appliedenergistics2.PinsSectionActive=Pins Section Enabled
 gui.tooltips.appliedenergistics2.PinsSectionDisabled=Pins Section Disabled
+
 gui.tooltips.appliedenergistics2.scheduledreason.SOMETHING_STUCK=Something stuck in interface
 gui.tooltips.appliedenergistics2.scheduledreason.BLOCKING_MODE=Blocking Mode
 gui.tooltips.appliedenergistics2.scheduledreason.LOCK_MODE=Lock Mode
@@ -637,6 +640,7 @@ waila.appliedenergistics2.Unlocked=Unlocked
 waila.appliedenergistics2.Showing=Showing
 waila.appliedenergistics2.Contains=Contains
 waila.appliedenergistics2.Channels=%1$d of %2$d Channels
+waila.appliedenergistics2.ChannelsUnbound=%1$d Channels
 waila.appliedenergistics2.P2PUnlinked=Unlinked
 waila.appliedenergistics2.P2PInputOneOutput=Linked (Input Side)
 waila.appliedenergistics2.P2PInputManyOutputs=Linked (Input Side) - %d Outputs
@@ -648,14 +652,14 @@ waila.appliedenergistics2.CraftingLockedUntilPulse=Waiting for redstone pulse to
 waila.appliedenergistics2.CraftingLockedUntilResult=Waiting for results to unlock
 
 # Items
-item.appliedenergistics2.ItemBasicStorageCell.1k.name=1k ME Storage Cell
-item.appliedenergistics2.ItemBasicStorageCell.4k.name=4k ME Storage Cell
-item.appliedenergistics2.ItemBasicStorageCell.16k.name=16k ME Storage Cell
-item.appliedenergistics2.ItemBasicStorageCell.64k.name=64k ME Storage Cell
-item.appliedenergistics2.ItemAdvancedStorageCell.256k.name=256k ME Storage Cell
-item.appliedenergistics2.ItemAdvancedStorageCell.1024k.name=1024k ME Storage Cell
-item.appliedenergistics2.ItemAdvancedStorageCell.4096k.name=4096k ME Storage Cell
-item.appliedenergistics2.ItemAdvancedStorageCell.16384k.name=16384k ME Storage Cell
+item.appliedenergistics2.ItemBasicStorageCell.1k.name=§61k§r ME Storage Cell
+item.appliedenergistics2.ItemBasicStorageCell.4k.name=§e4k§r ME Storage Cell
+item.appliedenergistics2.ItemBasicStorageCell.16k.name=§a16k§r ME Storage Cell
+item.appliedenergistics2.ItemBasicStorageCell.64k.name=§b64k§r ME Storage Cell
+item.appliedenergistics2.ItemAdvancedStorageCell.256k.name=§9256k§r ME Storage Cell
+item.appliedenergistics2.ItemAdvancedStorageCell.1024k.name=§d1024k§r ME Storage Cell
+item.appliedenergistics2.ItemAdvancedStorageCell.4096k.name=§c4096k§r ME Storage Cell
+item.appliedenergistics2.ItemAdvancedStorageCell.16384k.name=§516384k§r ME Storage Cell
 item.appliedenergistics2.ItemExtremeStorageCell.Container.name=Block Container ME Storage Cell
 item.appliedenergistics2.ItemExtremeStorageCell.Quantum.name=Quantum ME Storage Cell
 item.appliedenergistics2.ItemExtremeStorageCell.Singularity.name=Digital Singularity ME Storage Cell
@@ -705,14 +709,14 @@ item.appliedenergistics2.ItemMaterial.Cell2SpatialPart.name=2³ Spatial Componen
 item.appliedenergistics2.ItemMaterial.Cell16SpatialPart.name=16³ Spatial Component
 item.appliedenergistics2.ItemMaterial.Cell128SpatialPart.name=128³ Spatial Component
 
-item.appliedenergistics2.ItemMaterial.Cell1kPart.name=1k ME Storage Component
-item.appliedenergistics2.ItemMaterial.Cell4kPart.name=4k ME Storage Component
-item.appliedenergistics2.ItemMaterial.Cell16kPart.name=16k ME Storage Component
-item.appliedenergistics2.ItemMaterial.Cell64kPart.name=64k ME Storage Component
-item.appliedenergistics2.ItemMaterial.Cell256kPart.name=256k ME Storage Component
-item.appliedenergistics2.ItemMaterial.Cell1024kPart.name=1024k ME Storage Component
-item.appliedenergistics2.ItemMaterial.Cell4096kPart.name=4096k ME Storage Component
-item.appliedenergistics2.ItemMaterial.Cell16384kPart.name=16384k ME Storage Component
+item.appliedenergistics2.ItemMaterial.Cell1kPart.name=§61k§r ME Storage Component
+item.appliedenergistics2.ItemMaterial.Cell4kPart.name=§e4k§r ME Storage Component
+item.appliedenergistics2.ItemMaterial.Cell16kPart.name=§a16k§r ME Storage Component
+item.appliedenergistics2.ItemMaterial.Cell64kPart.name=§b64k§r ME Storage Component
+item.appliedenergistics2.ItemMaterial.Cell256kPart.name=§9256k§r ME Storage Component
+item.appliedenergistics2.ItemMaterial.Cell1024kPart.name=§d1024k§r ME Storage Component
+item.appliedenergistics2.ItemMaterial.Cell4096kPart.name=§c4096k§r ME Storage Component
+item.appliedenergistics2.ItemMaterial.Cell16384kPart.name=§516384k§r ME Storage Component
 
 item.appliedenergistics2.ItemMaterial.CertusQuartzCrystal.name=Certus Quartz Crystal
 item.appliedenergistics2.ItemMaterial.CertusQuartzCrystalCharged.name=Charged Certus Quartz Crystal
@@ -908,3 +912,4 @@ stat.ae2.TurnedCranks=Turned Cranks
 # Keys
 key.appliedenergistics2.category=Applied Energistics 2
 key.toggle_focus.desc=Toggle search box focus
+key.search_connected_inventories.desc=Search network inventories for item
