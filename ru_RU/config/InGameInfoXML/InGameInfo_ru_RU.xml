@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <config>
     <lines at="topleft">
-        <line>            
-			<icon>
+        <line>
+            <icon>
                 <str>minecraft:skull</str>
                 <num>3</num>
             </icon>
@@ -21,7 +21,7 @@
                 <str>$6</str>
                 <str>$c</str>
                 <str>$4</str>
-                <str/>
+                <str />
             </op>
             <var>fps</var>
         </line>
@@ -66,7 +66,7 @@
             <str> $rИзмерение: $6{dimension} ({dimensionid}), </str>
             <str> $rЗагруженно чанков: $6{loadedchunks} </str>
         </line>
-		<line>
+        <line>
             <icon>
                 <str>minecraft:sapling</str>
                 <num>4</num>
@@ -98,8 +98,8 @@
                 <num>0</num>
             </round>
             <str>$rK,</str>
-            <str>  Влажность: $6{humidity}%$f</str>
-        </line>		
+            <str> Влажность: $6{humidity}%$f</str>
+        </line>
         <line>
             <icon>
                 <str>minecraft:compass</str>
@@ -107,15 +107,11 @@
             </icon>
             <str> Чанк X:$6 {chunkx} $fZ:$6 {chunkz}$f ($3$6 {chunkoffsetx} $f:$6 {chunkoffsetz} $f)</str>
             <str> Y: $6{yfeeti}$f, Направление $6{finedirection}$f</str>
-            <if>
-                <var>slimechunk</var>
-                <str> $6Чанк со слизнями$f</str>
-            </if>
-        </line>       
-		<line>
-			<icon>
-				<str>Thaumcraft:ItemSanitySoap</str>
-			</icon>
+        </line>
+        <line>
+            <icon>
+                <str>Thaumcraft:ItemSanitySoap</str>
+            </icon>
             <str> Варп: </str>
             <op>
                 <str>ge</str>
@@ -130,18 +126,18 @@
                 <str>§c</str>
                 <str>§e</str>
                 <str>§a</str>
-			</op>
-			<str>{tcwarptotal}$f ($6T$e{tcwarptemp}$f $6S$e{tcwarpsticky}$f $6P$e{tcwarpperm}$f)</str>
-			
-        </line> 	
-	
-		<line>
-			<icon>
-				<str>HardcoreEnderExpansion:silverfish_blood</str>
-			</icon>
-			<str> Кровь: $e{bmlp} / {bmmaxlp}$f</str>
-		</line> 
-		<line>
+            </op>
+            <str>{tcwarptotal}$f ($6T$e{tcwarptemp}$f $6S$e{tcwarpsticky}$f $6P$e{tcwarpperm}$f)</str>
+
+        </line>
+
+        <line>
+            <icon>
+                <str>HardcoreEnderExpansion:silverfish_blood</str>
+            </icon>
+            <str> Кровь: $e{bmlp} / {bmmaxlp}$f</str>
+        </line>
+        <line>
             <str>$0</str>
         </line>
         <line>
@@ -188,7 +184,7 @@
                         <num>16</num>
                         <num>16</num>
                     </icon>
-                    <str>  Этот чанк с $2{underline}рудой$f !</str>
+                    <str> Этот чанк с $2{underline}рудой$f !</str>
                 </concat>
             </if>
         </line>
@@ -240,33 +236,10 @@
                                 </equal>
                             </or>
                         </and>
-                        <str>      </str>
+                        <str> </str>
                     </if>
                     <str>Вы в $4центре$f чанка.</str>
                 </concat>
-            </if>
-        </line>
-        <line>
-            <str>$0</str>
-        </line>
-        <line>
-            <if>
-                <str>  Nearest players:</str>
-            </if>
-        </line>
-        <line>
-            <if>
-                <str>  1) $6{nearbyplayername0}$f({nearbyplayerdistance0}m)</str>
-            </if>
-        </line>
-        <line>
-            <if>
-                <str>  2) $6{nearbyplayername1}$f({nearbyplayerdistance1}m)</str>
-            </if>
-        </line>
-        <line>
-            <if>
-                <str>  2) $6{nearbyplayername2}$f({nearbyplayerdistance2}m)</str>
             </if>
         </line>
     </lines>
@@ -288,7 +261,7 @@
                 <str>$6</str>
                 <str>$c</str>
                 <str>$4</str>
-                <str/>
+                <str />
             </op>
             <max>
                 <var>equippeddamageleft</var>
@@ -318,7 +291,7 @@
                 <var>helmetdamageleft</var>
                 <num>0.5</num>
                 <str>{helmetdamageleft}$f / $e{helmetmaxdamage}</str>
-                <str/>
+                <str />
             </max>
             <str> </str>
         </line>
@@ -343,7 +316,7 @@
                 <var>chestplatedamageleft</var>
                 <num>0.5</num>
                 <str>{chestplatedamageleft}$f / $e{chestplatemaxdamage}</str>
-                <str/>
+                <str />
             </max>
             <str> </str>
         </line>
@@ -368,7 +341,7 @@
                 <var>leggingsdamageleft</var>
                 <num>0.5</num>
                 <str>{leggingsdamageleft}$f / $e{leggingsmaxdamage}</str>
-                <str/>
+                <str />
             </max>
         </line>
         <line>
@@ -392,7 +365,7 @@
                 <var>bootsdamageleft</var>
                 <num>0.5</num>
                 <str>{bootsdamageleft}$f / $e{bootsmaxdamage}</str>
-                <str/>
+                <str />
             </max>
         </line>
     </lines>
@@ -402,7 +375,7 @@
                 <var>potiondurationticks0</var>
                 <num>0.5</num>
                 <str>{potionduration0} {potionicon0}</str>
-                <str/>
+                <str />
             </max>
         </line>
         <line>
@@ -410,7 +383,7 @@
                 <var>potiondurationticks1</var>
                 <num>0.5</num>
                 <str>{potionduration1} {potionicon1}</str>
-                <str/>
+                <str />
             </max>
         </line>
         <line>
@@ -418,7 +391,7 @@
                 <var>potiondurationticks2</var>
                 <num>0.5</num>
                 <str>{potionduration2} {potionicon2}</str>
-                <str/>
+                <str />
             </max>
         </line>
         <line>
@@ -426,7 +399,7 @@
                 <var>potiondurationticks3</var>
                 <num>0.5</num>
                 <str>{potionduration3} {potionicon3}</str>
-                <str/>
+                <str />
             </max>
         </line>
         <line>
@@ -434,7 +407,7 @@
                 <var>potiondurationticks4</var>
                 <num>0.5</num>
                 <str>{potionduration4} {potionicon4}</str>
-                <str/>
+                <str />
             </max>
         </line>
         <line>
@@ -442,7 +415,7 @@
                 <var>potiondurationticks5</var>
                 <num>0.5</num>
                 <str>{potionduration5} {potionicon5}</str>
-                <str/>
+                <str />
             </max>
         </line>
         <line>
@@ -450,7 +423,7 @@
                 <var>potiondurationticks6</var>
                 <num>0.5</num>
                 <str>{potionduration6} {potionicon6}</str>
-                <str/>
+                <str />
             </max>
         </line>
         <line>
@@ -458,7 +431,7 @@
                 <var>potiondurationticks7</var>
                 <num>0.5</num>
                 <str>{potionduration7} {potionicon7}</str>
-                <str/>
+                <str />
             </max>
         </line>
         <line>
@@ -466,10 +439,8 @@
                 <var>potiondurationticks8</var>
                 <num>0.5</num>
                 <str>{potionduration8} {potionicon8}</str>
-                <str/>
+                <str />
             </max>
         </line>
     </lines>
-	
-	
 </config>
