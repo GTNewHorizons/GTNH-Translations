@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+    <lines at="topleft">
+        <line>
+            <icon>
+                <str>minecraft:skull</str>
+                <num>3</num>
+            </icon>
+            <str> $6{username}$f, </str>
+            <str>FPS: </str>
+            <op>
+                <str>gt</str>
+                <var>fps</var>
+                <num>60</num>
+                <num>45</num>
+                <num>30</num>
+                <num>15</num>
+                <num>0</num>
+                <str>$a</str>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str />
+            </op>
+            <var>fps</var>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:clock</str>
+            </icon>
+            <str> $rГод: $3</str>
+            <add>
+                <round>
+                    <div>
+                        <sub>
+                            <var>day</var>
+                            <modi>
+                                <var>day</var>
+                                <num>365</num>
+                            </modi>
+                        </sub>
+                        <num>365</num>
+                    </div>
+                    <num>0</num>
+                </round>
+                <num>1</num>
+            </add>
+            <str>$r, День: $3</str>
+            <modi>
+                <var>day</var>
+                <num>365</num>
+            </modi>
+            <str>$f, Время: </str>
+            <str>$6{mctime12} $r</str>
+            <if>
+                <var>daytime</var>
+                <str>$e(День)</str>
+                <str>$7(Ночь)</str>
+            </if>
+        </line>
+        <line>
+            <icon>
+                <str>HardcoreEnderExpansion:temple_end_portal</str>
+            </icon>
+            <str> $rИзмерение: $6{dimension} ({dimensionid}), </str>
+            <str> $rЗагруженно чанков: $6{loadedchunks} </str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:sapling</str>
+                <num>4</num>
+            </icon>
+            <str> Биом: $3{biome}$f</str>
+            <str> $6{temperature}$r°F, $6</str>
+            <round>
+                <div>
+                    <sub>
+                        <var>temperature</var>
+                        <num>32</num>
+                    </sub>
+                    <num>1.8</num>
+                </div>
+                <num>0</num>
+            </round>
+            <str>$r°C, $6</str>
+            <round>
+                <add>
+                    <div>
+                        <sub>
+                            <var>temperature</var>
+                            <num>32</num>
+                        </sub>
+                        <num>1.8</num>
+                    </div>
+                    <num>273.15</num>
+                </add>
+                <num>0</num>
+            </round>
+            <str>$rK,</str>
+            <str> Влажность: $6{humidity}%$f</str>
+        </line>
+        <line>
+            <icon>
+                <str>minecraft:compass</str>
+                <num>0</num>
+            </icon>
+            <str> Чанк X:$6 {chunkx} $fZ:$6 {chunkz}$f ($3$6 {chunkoffsetx} $f:$6 {chunkoffsetz} $f)</str>
+            <str> Y: $6{yfeeti}$f, Направление $6{finedirection}$f</str>
+        </line>
+        <line>
+            <icon>
+                <str>Thaumcraft:ItemSanitySoap</str>
+            </icon>
+            <str> Варп: </str>
+            <op>
+                <str>ge</str>
+                <var>tcwarptotal</var>
+                <num>80</num>
+                <num>50</num>
+                <num>30</num>
+                <num>16</num>
+                <num>0</num>
+                <str>§5</str>
+                <str>§4</str>
+                <str>§c</str>
+                <str>§e</str>
+                <str>§a</str>
+            </op>
+            <str>{tcwarptotal}$f ($6T$e{tcwarptemp}$f $6S$e{tcwarpsticky}$f $6P$e{tcwarpperm}$f)</str>
+
+        </line>
+
+        <line>
+            <icon>
+                <str>HardcoreEnderExpansion:silverfish_blood</str>
+            </icon>
+            <str> Кровь: $e{bmlp} / {bmmaxlp}$f</str>
+        </line>
+        <line>
+            <str>$0</str>
+        </line>
+        <line>
+            <if>
+                <and>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                </and>
+                <concat>
+                    <icon>
+                        <str>textures/items/diamond_pickaxe.png</str>
+                        <num>0</num>
+                        <num>0</num>
+                        <num>16</num>
+                        <num>16</num>
+                    </icon>
+                    <str> Этот чанк с $2{underline}рудой$f !</str>
+                </concat>
+            </if>
+        </line>
+        <line>
+            <if>
+                <and>
+                    <equal>
+                        <var>chunkoffsetx</var>
+                        <num>7</num>
+                    </equal>
+                    <equal>
+                        <var>chunkoffsetz</var>
+                        <num>7</num>
+                    </equal>
+                </and>
+                <concat>
+                    <if>
+                        <and>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkx</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                            <or>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>-1</num>
+                                </equal>
+                                <equal>
+                                    <modi>
+                                        <var>chunkz</var>
+                                        <num>3</num>
+                                    </modi>
+                                    <num>1</num>
+                                </equal>
+                            </or>
+                        </and>
+                        <str> </str>
+                    </if>
+                    <str>Вы в $4центре$f чанка.</str>
+                </concat>
+            </if>
+        </line>
+    </lines>
+    <lines at="middleleft">
+        <line>
+            <var>equippedicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>equippeddamageleft</var>
+                    <var>equippedmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <num>0</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+                <str />
+            </op>
+            <max>
+                <var>equippeddamageleft</var>
+                <num>0.5</num>
+                <str>{equippeddamageleft}$f / $e{equippedmaxdamage}</str>
+                <var>equippedname</var>
+            </max>
+        </line>
+        <line>
+            <var>helmeticon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>helmetdamageleft</var>
+                    <var>helmetmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>helmetdamageleft</var>
+                <num>0.5</num>
+                <str>{helmetdamageleft}$f / $e{helmetmaxdamage}</str>
+                <str />
+            </max>
+            <str> </str>
+        </line>
+        <line>
+            <var>chestplateicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>chestplatedamageleft</var>
+                    <var>chestplatemaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>chestplatedamageleft</var>
+                <num>0.5</num>
+                <str>{chestplatedamageleft}$f / $e{chestplatemaxdamage}</str>
+                <str />
+            </max>
+            <str> </str>
+        </line>
+        <line>
+            <var>leggingsicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>leggingsdamageleft</var>
+                    <var>leggingsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>leggingsdamageleft</var>
+                <num>0.5</num>
+                <str>{leggingsdamageleft}$f / $e{leggingsmaxdamage}</str>
+                <str />
+            </max>
+        </line>
+        <line>
+            <var>bootsicon</var>
+            <str> </str>
+            <op>
+                <str>ge</str>
+                <pct>
+                    <var>bootsdamageleft</var>
+                    <var>bootsmaxdamage</var>
+                </pct>
+                <num>50</num>
+                <num>20</num>
+                <num>10</num>
+                <str>$e</str>
+                <str>$6</str>
+                <str>$c</str>
+                <str>$4</str>
+            </op>
+            <max>
+                <var>bootsdamageleft</var>
+                <num>0.5</num>
+                <str>{bootsdamageleft}$f / $e{bootsmaxdamage}</str>
+                <str />
+            </max>
+        </line>
+    </lines>
+    <lines at="bottomright">
+        <line>
+            <max>
+                <var>potiondurationticks0</var>
+                <num>0.5</num>
+                <str>{potionduration0} {potionicon0}</str>
+                <str />
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks1</var>
+                <num>0.5</num>
+                <str>{potionduration1} {potionicon1}</str>
+                <str />
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks2</var>
+                <num>0.5</num>
+                <str>{potionduration2} {potionicon2}</str>
+                <str />
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks3</var>
+                <num>0.5</num>
+                <str>{potionduration3} {potionicon3}</str>
+                <str />
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks4</var>
+                <num>0.5</num>
+                <str>{potionduration4} {potionicon4}</str>
+                <str />
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks5</var>
+                <num>0.5</num>
+                <str>{potionduration5} {potionicon5}</str>
+                <str />
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks6</var>
+                <num>0.5</num>
+                <str>{potionduration6} {potionicon6}</str>
+                <str />
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks7</var>
+                <num>0.5</num>
+                <str>{potionduration7} {potionicon7}</str>
+                <str />
+            </max>
+        </line>
+        <line>
+            <max>
+                <var>potiondurationticks8</var>
+                <num>0.5</num>
+                <str>{potionduration8} {potionicon8}</str>
+                <str />
+            </max>
+        </line>
+    </lines>
+</config>
