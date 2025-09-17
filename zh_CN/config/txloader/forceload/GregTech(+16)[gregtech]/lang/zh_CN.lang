@@ -162,7 +162,7 @@ gt.item.desc.no_fluid=不含流体
 gt.item.desc.fluid_info=%s升 / %s升
 gt.item.desc.miss_coord=缺少坐标！
 gt.item.desc.device_at=设备位于:
-gt.item.desc.state=状态: %s
+gt.item.desc.state=状态：%s
 gt.item.desc.breeder_tip=在炽热的反应堆中洗个中子澡吧
 gt.item.desc.progress=进度：%s/%s
 gt.item.desc.haz_rad=辐射危险
@@ -621,7 +621,7 @@ GTPP.tooltip.circuit_table.2=默认是自动选择插入的槽位
 # Decayables Chest
 GTPP.tooltip.decayables_chest.0=可收纳放射性物质的箱子
 GTPP.tooltip.decayables_chest.1=可衰变物品会在内部发生衰变
-GTPP.tooltip.decayables_chest.2=右键放置
+GTPP.tooltip.decayables_chest.2=右键放置至世界中
 
 # Butterfly Killer
 GTPP.tooltip.butterfly_killer.0=杀死林业蝴蝶、蝙蝠和其他害虫
@@ -633,7 +633,7 @@ GTPP.tooltip.volumetric_flask_setter.0=轻松配置容量瓶
 GTPP.tooltip.volumetric_flask_setter.1=用螺丝刀更改默认输入设置
 
 # Tin Foil Hat
-GTPP.tooltip.tin_foil_hat=来自DoomSquirter的对防护宇宙射线防护！\n偏执症会导致穿戴者无法吸取经验\n玩家的移速也会降低（为了安全！）\n也许还有更多奇怪的能力
+GTPP.tooltip.tin_foil_hat=来自DoomSquirter的宇宙射线防护帽！\n偏执症会导致穿戴者无法吸取经验\n玩家的移速也会降低（为了安全！）\n也许还有更多奇怪的能力
 
 GTPP.tooltip.bad_tooltip_id=无效的tooltip ID - %d
 
@@ -774,7 +774,7 @@ GT5U.MBTT.InputData=数据接收接口
 GT5U.MBTT.OutputData=数据发送接口
 GT5U.MBTT.Causes=产生
 GT5U.MBTT.Produces=生产
-GT5U.MBTT.PPS=点/秒污染
+GT5U.MBTT.PPS=每秒产生%s点污染
 GT5U.MBTT.Hold=按住
 GT5U.MBTT.Display=以显示结构指导
 GT5U.MBTT.StructureHint=多种可选方块或任意等级方块
@@ -1698,7 +1698,7 @@ GTPacketInfiniteSpraycan.Action.TOGGLE_SHAKE_LOCK=无限喷漆罐：锁定颜色
 
 
 gt.behaviour.trowel.tooltip1=右键随机放置一个物品栏中的方块
-gt.behaviour.trowel.tooltip2=§o“别忘了带上毛巾！”§r -§ccQuerns§r
+gt.behaviour.trowel.tooltip2=§o“别忘了带上装饰铲！”§r -§cQuerns§r
 
 gt.behaviour.switch_mode.tooltip=按[%s]切换模式
 
@@ -1829,7 +1829,7 @@ GT5U.interface.coverTabs.north=北
 GT5U.interface.coverTabs.south=南
 GT5U.interface.coverTabs.west=西
 GT5U.interface.coverTabs.east=东
-GT5U.interface.coverTabs.cover_on=%s侧覆盖板：%s
+GT5U.interface.coverTabs.cover_on=%s覆盖板：%s
 GT5U.interface.coverTabs.emits_redstone=在%s侧发出强烈的红石信号
 
 GT5U.interface.coverTabs.redstone.bottom=底部
@@ -2958,11 +2958,11 @@ GTPP.tooltip.structure.data_orb_repository=数据球仓
 GTPP.tooltip.structure.many_bus_hatch=输入总线，输出总线，输入仓，输出仓，能源仓
 GTPP.tooltip.structure.rotor_assembly=转子仓
 
-GT5U.tooltip.pollution.produces=每秒产生%d污染
-GT5U.tooltip.pollution.produces.multiblock=一个完整的多方块结构每秒产生%d污染
+GT5U.tooltip.pollution.produces=每秒产生%d点污染
+GT5U.tooltip.pollution.produces.multiblock=一个完整的多方块结构每秒产生%d点污染
 GT5U.tooltip.pollution.produces.firebox=每秒每个燃烧室产生%d污染
-GT5U.tooltip.pollution.produces.rocket.ignited=点燃时每秒产生%d污染
-GT5U.tooltip.pollution.produces.rocket.flying=飞行时每秒产生%d污染
+GT5U.tooltip.pollution.produces.rocket.ignited=点火时每秒产生%d点污染
+GT5U.tooltip.pollution.produces.rocket.flying=飞行时每秒产生%d点污染
 
 # GT structure hints
 GT5U.tooltip.structure.data_access_hatch=数据访问仓
@@ -2987,11 +2987,11 @@ GT5U.tooltip.structure.lens_indicator=透镜指示器
 GT5U.tooltip.fluid.registry=注册：%s
 GT5U.tooltip.fluid.amount=数量：%s L
 GT5U.tooltip.fluid.temperature=温度：%s K
-GT5U.tooltip.fluid.stat=状态: %s
+GT5U.tooltip.fluid.stat=状态：%s
 GT5U.tooltip.fluid.stat.gas=气体
 GT5U.tooltip.fluid.stat.liquid=液体
 
-GT5U.tooltip.comb.ban_forestry=林业无法处理
+GT5U.tooltip.comb.ban_forestry=林业机器无法处理
 GT5U.tooltip.mega_apiary.only_producer=仅在巨型工业蜂箱中生产
 
 GT5U.tooltip.electric.tier=等级：%d
