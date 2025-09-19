@@ -150,6 +150,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.desc=你可能想知道地下都有�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.name=覆盖板通用手册
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=本任务涵盖了所有的覆盖板,可能有些覆盖板没有单独任务进行介绍,或者是你忘了,在这里都可以找到. 当然,如果某种覆盖板有单独任务,那么肯定是单独任务更加详细. 覆盖板可以安装在任意GT方块、管道、机器、容器等上.能安装并不代表它能正常工作. 空手Shift+右键可以打开大部分覆盖板的GUI. 对于那些可以进行调节的覆盖板,手持螺丝刀右键左侧可以向下调节,而右侧就是向上调节. 所有安装了覆盖板的方块,都可以无视与安装面相邻面被淋雨(这对于野外的采矿厂、发电机之类的非常有用). 一般来说,无论覆盖板是否有GUI,你都可以用螺丝刀对其进行调节. 而所有覆盖板,都可以使用撬棍移除.%n%n§l流体相关的覆盖板:§r%n电动泵: 以tooltip上指定的速度传输流体.%n%n流体校准器: 精确校准通过其流体的速度,同时兼具电动泵的功能. 可以以x/s或x/t两种模式工作.%n%n蒸汽阀: 传输速度更快,但只支持蒸汽.最高等级为IV. 不支持过热蒸汽.%n%n溢流阀: 安装于容器上时,可以销毁超出其设定值的任意流体.%n%n流体探测覆盖板: 安装于容器上时,可基于内部流体填充率,发射红石信号. 默认(Default)模式下,空=15,满=0. 切换反转(Inverted)模式,满=15,空=0. 常用于GT储罐和仓室.%n%n末影流体覆盖板: 末影储罐的覆盖板版本,用于传送流体. 不过不要将其与末影储罐相连.%n%n排水道覆盖板: 保护机器安装面淋雨,下雨时可以为容器装水. 无用.%n%n流体过滤器覆盖板: 过滤通过其的流体. 手持流体单元右键即可完成设置.%n%n扇板: 激活时阻挡物品/流体. 可用作单向阀,或配合机器控制覆盖板,红石信号控制.生效时不会有断开的视觉效果.机器控制覆盖板需要与被控制的扇板安装在同一管道上.%n%n§l物品相关覆盖板:§r%n传送带: 传输物品. 在输入/输出(Import/Export)模式下,安装在物品管道或GT方块/机器上.%n%n机械臂: 精准传输. 将所安装机器/容器内部的指定槽位物品,传输到相邻的方块内指定槽位. 至于机器内每个槽位的编号,建议自行摸索,因为看起来不同机器都不一样. 当需要输出的指定槽位已满,机械臂将停止输出. 指向的输出方块必须为有槽位的有效方块,否则机械臂的设置不会保存.%n%n物品探测覆盖板: 安装于方块/机器上时,可基于内部物品填充率,发射红石信号. 默认(Default)模式下,空=0,满=15. 探测基于装满的物品槽,所以安装在超级箱/量子箱上时,无法正确工作. 比较适合用于总线.%n%n物品过滤覆盖板: 尚未完成,开发中,欢迎你的贡献.%n%n§lEU相关覆盖板:§r%n能量探测覆盖板: 安装在电池箱/能源站之类存电设备上时,基于EU的填充率,发射红石信号. 默认(Default)模式下,空=0,满=15. 请确保模式调整为包含电池模式(include batteries). 由于某种原因,这种覆盖板也可以探测蒸汽存量...%n%n导能升级覆盖板: 请阅读tooltip,再询问Bart它的工作方式,他很乐意对任何人讲解. 他可能会告诉你,这段代码是完美的,就像这些Tectech伙计们. 此覆盖板可能没有真正完成/无法真正工作.%n%n(豪华)特斯拉线圈帽: 配合特斯拉电塔使用,可以无线传输EU. %n%n§l其他覆盖板:§r%n玩家探测覆盖板: 探测玩家. 范围约为10格. §4目前,由于这个或那个bug,安装在非管道上时,所有者/其他玩家是反的.§r%n%n设备活跃探测覆盖板: 探测合成处理进程或设备闲置状态. 默认模式下,进程0％=0红石信号,~95％=14. 在闲置(idle)模式的默认(Default)模式下,设备闲置时为15,运行时为0.%n%n机器控制覆盖板: 基于红石信号,开启/关闭机器. 禁用(Disable)模式,覆盖板将强制关闭机器,无视红石信号. 安全(Safe)模式只对多方块机器有效. 当多方块机器能量不足时,它会跳电并自动关闭,但如果安装了正常模式的机器控制覆盖板会让其保持开启,它就会不断开机-跳电-吞原料.而安全模式将在跳电后自动切换为禁用模式.而且你还会收到通知. [warn]目前安全模式是坏的?[/warn]%n%n维护提示覆盖板: 当符合特定条件时,发射红石信号. 转子=涡轮?%n%n红石信号发射器/接收器(内/外): 好吧,我也知道这四个东西很绕,所以请认真听讲. 首先,设置频道(frequency),可以通过GUI设置,也可以用原始的方法:拿着某个东西右键覆盖板.空手=0,其他物品=它们的物品ID. 别不小心把频道重置了.建议还是用GUI吧. 你可以将覆盖板设置为私人(Private)模式,类似于末影存储(EnderStorage)的箱子和储罐,这样你就不会被服务器里到处乱飞的公共频道干扰了. 频道状态=红石信号等级.%n%n红石信号发射器(外),会基于安装面接到的外部红石信号,设置频道状态. 你可以将红石信号从红石信号发射器(外),传送到红石信号接收器(外).%n红石信号发射器(内),会接收所覆盖的方块产生的红石信号(如污染探测仪的信号)或所覆盖的方块上的其他覆盖板的信号(如贴在大机器主方块上的维护提示覆盖板的信号),并设置频道状态. §4信号永远是15,所以无用.§r%n红石信号接收器(外),会基于频道状态发射红石信号. 你可以将红石信号从红石信号发射器(外),传送到红石信号接收器(外).%n红石信号接收器(内),会基于频道状态,控制机器可否运行,类似机器控制覆盖板. 如果频道状态为0,它就会控制机器保持关闭.当频道状态至少为1时,才会开启机器. 你可以使用红石信号发射器(外),从任意位置传回红石信号.%n红石信号接收器(内)还可以结合其他覆盖板使用,例如某覆盖板"允许工作时输入".%n%nIC2散热片: 稍微加速机器的运行? 待定:希望有人能看一下代码是否真的是这样.不过它应该可以让你的机器看起来井井有条.%n%n工作台覆盖板: 在可安装的方块上,添加一个工作台功能. 无用.%n%n木板/板/箔: 阻挡安装面的输入/输出. 使用螺丝刀设置允许通过的类型. 默认是阻挡所有类型. 在设置覆盖板时,可以将输出面转到其他面,避免影响输出口本身的设置. 你第一次把板/箔作为覆盖板贴到方块上,一定是个意外.%n%n电脑屏幕覆盖板: 添加视觉外观. 纯装饰作用的覆盖板.%n%n透镜: 纯装饰覆盖板.%n%n你还可以用AE2伪装板作为装饰覆盖板.%n%n中文WIKI 覆盖板(未完成): §1§n[url]https://gtnh.huijiwiki.com/p/660[/url]§r
 
+# Quest: Lootbag Uptiering
+betterquesting.quest.ZM4oSqeWQRW1Y-zoE01ivg.name=Lootbag Uptiering
+betterquesting.quest.ZM4oSqeWQRW1Y-zoE01ivg.desc=In GTNH, the lootbags are quite useful tools for boosting your resources. There are a wide variety of lootbag types, and those types all have upgrade paths to get better resources.%n%nThere are two paths you can take when it comes to upgrading your lootbags, you can either enchant it with fortune, or you can upgrade the bag itself. Enchanting the lootbag with fortune will increase the chances of more rare drops being given to you on opening, while upgrading the bag itself will change the item pool to that of the upgraded bag. Notably, if you uptier the bag itself, it will cost 3 of the previous bag tier, so make sure it's worthwhile to upgrade before you do so!%n%n§2If you're looking to maximize your advantage it's recommended you both uptier your lootbag AND apply the fortune upgrade. %n§r%n[note]Be sure to use NEI to see all of this information. Use 'U' on your lootbag and you will be able to see the potential drops, the drop chances based on fortune levels, and you will be able to see recipes for uptiering the bag.[/note]%n
+
 
 ## Quest Line: Tier 0 - Stone Age
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAQ.name=第0阶-石器时代
@@ -241,11 +245,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.desc=你现在已经找到铜和锡�
 
 # Quest: Important Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJA.name=§2§l重要的工具
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJA.desc=为了做些最基本的机器,你需要一些新的工具,这些工具在之后都可以被机器替代.而现在呢,鉴于你将需要大量的工具,从今天起,你应该熟悉每个工具的制作方法.%n%n这些新工具可以用来制作RC集水器,基于水源十分有限的状态下,这家伙可是非常实用的多方块结构.%n%n这些工具还有电动版本,有需要的话,后续可以进行升级. 另外,工具材质不同有许许多多不同版本,它们大体遵循匠魂部件的规则,涡轮也是类似. 关于GT工具的参数,你可以查阅数据表格,那里更加详细.%n%n这个任务中,你可以使用任意材料.锯的宝石版本与金属版本不同. 更高阶的工具,木棍需要用钢杆或钨钢杆替代.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJA.desc=为了做些最基本的机器,你需要一些新的工具,这些工具在之后都可以被机器替代.而现在呢,鉴于你将需要大量的工具,从今天起,你应该熟悉每个工具的制作方法.%n%n这些新工具可以用来制作RC集水器,基于水源十分有限的状态下,这家伙可是非常实用的多方块结构.%n%n这些工具还有电动版本,有需要的话,后续可以进行升级. 另外,工具材质不同有许许多多不同版本,它们大体遵循匠魂部件的规则,涡轮也是类似. 关于GT工具的参数,你可以查阅数据表格,那里更加详细.%n%n这个任务中,你可以使用任意材料.锯的宝石版本与金属版本不同. 更高阶的工具,木棍需要用钢杆或钨钢杆替代.%n%n[note]如果你想知道使用特定材料的工具配方，请务必利用工具列表顶部的放大镜图标搜索。[/note]
 
 # Quest: Getting Iron
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.name=§2§l获得铁
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.desc=在各种矿脉里都可以找到铁.%n磁铁矿脉(30—180层)、黄铜矿脉(5—60层)和褐铁矿脉(10—40层)等,都能挖掘到铁矿.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJQ.desc=在各种矿脉里都可以找到铁，并且有许多种矿石都可以熔炼为铁锭，例如磁铁矿，棕/黄褐铁矿，带状铁矿，焙烧铁和花岗岩/玄武岩矿砂。%n%n§l富铁矿脉：%n§r磁铁矿脉（60—180层）%n黄铜矿脉（5—60层）%n金矿脉（30-60层）%n褐铁矿脉(10—40层)%n%n[note]你可以用NEI在游戏中查阅所有矿脉的信息！[/note]
 
 # Quest: Making Better Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJg.name=§2§l做些更好的工具
@@ -393,7 +397,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG_g.desc=你的新家需要木门. 当�
 
 # Quest: When All You Have is a Hammer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyg.name=§2§l当你只有一柄锤子...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyg.desc=当你只有一柄锤子...整个世界看起来就像钉子.当你寻找优秀的工具材料时,请看NEI"GT材料/工具"页面.记住,NEI书签是你最好的朋友.%n%n每个GT工具都有特殊用途:%n%n螺丝刀-用于覆盖板以改变它们的模式.%n%n扳手-用于改变GT机器的输出方向,或者拆除机器.也可以断开/连接管道或打开/关闭扇板.%n%n撬棍-从机器或管道上拆下覆盖板.%n%n剪线钳-连接/断开/拆除导线/线缆.%n%n软锤-打开/关闭机器.%n%n锤-在你面前以有限的方式勘探矿石,还可将矿石块粉碎.%n%n顺便提一下,锡管道需要钢制及以上的扳手才能拆卸,所以不要随意放置.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyg.desc=…整个世界都像是个钉子。%n%n当你寻找优秀的工具材料时，请查看NEI的“GT材料/工具”页面。记住，NEI书签是你最好的朋友。%n%n每个GT工具都有特殊用途：%n%n§l螺丝刀§r-用于更改覆盖板的行为或机器的输入模式。%n%n§l扳手§r-用于改变GT机器的输出方向或将它们拆除。也可以断开/连接管道或启用/禁用管道内置的扇板（设定流向）。%n%n§l撬棍§r-从机器或管道上拆下覆盖板。%n%n§l剪线钳§r-连接/断开/拆除导线和线缆。%n%n§l软锤§r-启动/关闭机器。%n%n§l锻造锤§r-有限地勘探面前的矿石，粉碎矿石方块，还可以将机器静音。%n%n§l搋子§r-清空机器或储罐中的流体。%n%n[note]顺便提一下，锡管道需要钢制及以上的扳手才能拆卸，所以不要随意放置它们。多留意材料等级！[/note]
 
 # Quest: Circle Shapes Give Me Comfort
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHJw.name=§2§l圆形使我愉悦
@@ -604,6 +608,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8A.desc=制作橡胶现在变得更加�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.name=§3§l点燃制炭之路
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.desc="木炭堆点火器"是一种批量生产木炭的替代方案。该设备不消耗电力或蒸汽，但会产生大量污染。操作步骤如下：%n%n1. 用砖块搭建最大不超过11×11格的地板%n2. 在砖地板上铺设1-5层高的原木（不能留有空隙）%n3. 将木炭堆点火器置于顶层原木中心格的正上方%n4. 用泥土或草方块覆盖原木堆其余暴露面%n5. 木炭堆点火器将立即开始工作%n6. 经过一段时间，原木将转化为易碎的木炭块%n7. 使用斧头破坏它以获取木炭（幸运/时运附魔不会影响掉落率）%n%n如果这是你第一次搭建多方块结构，请打开背包界面并将鼠标悬停在物品上方，然后按住Shift键以查看扩展tooltip了解建造要求，或访问[url]wiki.gtnewhorizons.com/wiki/Charcoal_Pile_Igniter[/url]获取带步骤图解的详细说明。
 
+# Quest: Basic > Steam Lootbag Trade
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.name=基础时代/石器时代战利品袋 -> 蒸汽时代战利品袋
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.desc=三袋基础时代/石器时代战利品袋 = 一袋蒸汽时代战利品袋
+
 # Quest: Tool Forge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.name=§3§l工具装配台
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.desc=制造出锌曜钢后,为了制造更大(并且更好)的匠魂工具了,是时候制作一个工具装配台了.%n%n§Y§3现在铸模不一定需要使用铁来制作;您还可以使用其他材料,例如锡或铜等.
@@ -758,7 +766,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGxw.desc=或者至少你的工厂里堆�
 
 # Quest: Nice Nether Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzQ.name=§3§l下界之树真棒
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzQ.desc=有一些非常有用的下界之树,它们提供了像红石,火药,骨粉或肥料等资源. 去下界找到这样的树吧,如血树,熔融树,黑暗树或幽魂树.这些树可以像普通的树木一样种植,除了血树.血树必须种在天花板上,然后它会向下生长而不是向上生长...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGzQ.desc=有一些非常有用的下界树种，它们可以提供红石、火药、骨粉或肥料等资源。%n%n 去下界寻找诸如血树、熔融树、黑暗树或幽魂树的树种吧。%n%n这些树可以像普通的树木一样种植，除了血树。血树必须种在天花板上，然后它会向下生长而不是向上生长。
 
 # Quest: A Better Way to Find Items
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6g.name=§3§l更好的寻找物品方式
@@ -2404,7 +2412,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAABg.desc=欢迎来到EV! 你成功�
 betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.name=红石嗅探器
 betterquesting.quest.07lxVb9wQWSSoZRcvIswZQ.desc=是否曾为寻找红石发射器的位置而困扰？或希望它们都被标注过用途？或许队友放了无线发射器却没有告诉你设定的频率，留下你独自猜谜？%n%n现在，这些都不是问题了。%n%n隆重推出，§6红石嗅探器§r！%n%n对于普通的§c红石信号发射/接收器§f§r，红石嗅探器会列出所有正在使用的频率，是否为私人频率，并且支持自定义标签。%n%n对于§c进阶红石信号发射/接收器§f§r，红石嗅探器还会列出坐标和维度信息，并且支持高亮标记或传送到选定的覆盖板处。
 
-# Quest: Raw Carbon Fibre
+# Quest: Raw Carbon Fiber
 betterquesting.quest.0fzaxas8R8OJzvYvqX5d9w.name=§a§l生碳纤维
 betterquesting.quest.0fzaxas8R8OJzvYvqX5d9w.desc=或者，你可以使用生碳纤维来制作强化电路板。%n%n[note]使用环氧树脂可以提高它的产量！[/note]
 
@@ -3177,7 +3185,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALRA.desc=在这一步,你只需要将四
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.name=§b§l更更好的磁化杆
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZg.desc=与之前类似,下一阶段的马达需要更好的磁化杆. 想要制造磁化钐杆,你得先做好这个.
 
-# Quest: Oxalalic Acid
+# Quest: Oxalic Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.name=§b§l草酸
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_A.desc=目前草酸真的仅适用于铈处理。继续前进并制备一点草酸吧。%n%n有多种方法可以制取草酸，请查阅NEI并选择最适合自己的方法吧。
 
@@ -3273,6 +3281,26 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAACA.desc=你已经走了这么远了
 # Quest: Industrial Water Purification
 betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.name=§c§l工业纯净水净化
 betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.desc=一直以来,您都可以单单使用机器直接切割和雕刻硅电路晶圆.但是,这会导致最终晶圆出现严重缺陷,当您要生产更先进的电路时,就不能再容忍这种缺陷了.%n%n在具备了制造LuV元件的能力之后,您就可以制造净水厂了.这个多方块可以制造净化水,这将有助于制造更纯净和更完美的晶圆.对于您当前使用的硅岩掺杂晶圆来说,这还不是必需的,但使用净化水可以大大加快制作过程,因此绝对值得一试.%n%n净水厂本身并不运行配方,而是为您的净化水产线提供核心物流管理服务.您可以在净水厂周围建造与它相连的净水单元.净水厂为不同的净水单元提供电力和维护,并同步它们的配方周期.
+
+# Quest: Netherite Scrap Seed
+betterquesting.quest.01C00SMsRUyKUD2zJht8tA.name=§c§lNetherite Scrap Seed
+betterquesting.quest.01C00SMsRUyKUD2zJht8tA.desc=Finally, we can start putting some of that Netherite Scrap to use!%n%nCombine the Hot Neterite Scrap and some Rich Nether Waste in an §5§lAutoclave§r for a §2§l10%%§r chance at getting a §4Netherite Scrap Seed§r. %n%nNotably, as mentioned before, the Netherite Scrap gets recycled during this recipe so it only really costs Rich Nether Waste to create. Given the low probability, you want the recipe to be running as often as possible.%n%n%n%n
+
+# Quest: Dense Netherite Plate
+betterquesting.quest.4v3YtOxvT8aWIwy7NEJNhw.name=§c§lDense Netherite Plate
+betterquesting.quest.4v3YtOxvT8aWIwy7NEJNhw.desc=Once you've managed to aquire 36 of these Intensely Bonded Netherite Nanoparticles you can finally create your very first Netherite material: The §4§lDense Netherite Plate§r.%n%nYou will need one of these for the §3§lMk1 Fusion Reactor§r, which is required to create the rest of the Netherite materials.
+
+# Quest: Nefarious Production
+betterquesting.quest.7YjYGaWnQ4uXqUOfMA0C9Q.name=§c§lNefarious Production
+betterquesting.quest.7YjYGaWnQ4uXqUOfMA0C9Q.desc=Now that you're producing Nether Semifluid§r, you can run it through a §5§lDistillation Tower§r to start extracting the nefarious products. You will need the §4Heavy Hellish Mud§r later in the line, and you'll need the §4Nefarious Gas§r for the next step.%n%n[note]Don't neglect the byproducts! There are a lot of useful bonus resources to be collected.[/note]
+
+# Quest: Hot Netherite Scrap
+betterquesting.quest.8zpQos1hR1CbwmWldvxSpg.name=§c§lHot Netherite Scrap
+betterquesting.quest.8zpQos1hR1CbwmWldvxSpg.desc=Heating up the Netherite Scrap is a rather quick and cheap process; simply throwing it in the §5§lChemical Bath§r with a little lava ought to do the trick! %n%nBear in mind though, you will be re-heating this scrap many times over so it's definitely recommended to have a substantial supply of lava to be able to pull from. 
+
+# Quest: Netherite Materials
+betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.name=§c§lNetherite Materials
+betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=Now that you've completed the Netherite line and successfully set up your Mk1 Fusion Reactor, you finally have access to the ingredients necessary for creating all of the different §4Netherite materials§r. %n%nThese will be important for the rest of the game and are used often in a variety of items and materials, so it's important to make upgrades to your line both in terms of power and recipe usage as you continue to progress through the tiers.%n%n[note]UHV power and the QFT are the biggest milestones in terms of recipe upgrades for the line.[/note]
 
 # Quest: Automated Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyQ.name=§c§l自动挖掘
@@ -3510,9 +3538,41 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBQ.desc=如果你在进入LuV阶段之�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.name=§l§c§l太阳聚变
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.desc=批量生产阳光化合物的替代方案.
 
+# Quest: Behold: The Netherite Line
+betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.name=§c§lBehold: The Netherite Line
+betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.desc=You didn't seriously think you only needed to do the Naquadah line in LuV did you? Well if so; better brace yourself for the Netherite line!%n%nDon't panic, it's a relatively straight-forward line so long as you can wrap your head around minor processing loops and percent based output. Fortunately you have a quest book to guide you through your initial setup.%n%nBe warned- you will need at least §2§lGrade 1 Purified Water§r and§5§l Naquadah Coils§r to make it through this entire line.%n%n§3This questline will start you off with the three primary things you must prepare in order to begin:%n%n§l- Milled Netherrack%n- Nether Air%n- Ancient Debris Collection§r%n%n§3For at least one and likely two of those you will need to journey into the nether, so make sure you're prepared equipment wise!§r%n%n[warn]If you already created the line and do not wish to complete the individual quests, hold one of these three item sets in your hand after completing this quest: [/warn]%n%n§4§l- 1 Dense Netherite Plate%n- 64 Intensely Bonded Netherite Nanoparticles%n- 16 Netherite Ingots 
+
 # Quest: Ozonation
 betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.name=§c§l臭氧化
 betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.desc=想要更快地处理晶圆?通过使用臭氧法制造的2级净化水,您现在可以将加工时间缩短50%%.要运行这台机器,你需要用强激光轰击空气来制造大量臭氧气体.为了加快这一过程,你需要制作高强度激光蚀刻机(如果你还没有准备好).%n%n[note]这个多方块机器对臭氧输入仓的位置非常挑剔.如果你不知道为什么机器没有成型,很可能是你忘记把这个仓室放在正确的位置上了.使用全息投影仪查看它的正确位置.[/note]
+
+# Quest: Hellish Metal
+betterquesting.quest.JVZjTR4hRSaeaoXPvBcG9w.name=§c§lHellish Metal
+betterquesting.quest.JVZjTR4hRSaeaoXPvBcG9w.desc=Regular Netherite Nanoparticles alone don't have enough density to compress into Netherite... they require a strong and somewhat magical binding agent. %n%n§4Hellish Metal§r should be the perfect candidate, you can either fabricate it in the §5§lElectrolyzer§r or §5§lInfuse§r it.%n%n[note]The Infusion recipe is much cheaper, but can only be used by those who have been proactive in their magic infrastructure.[/note]
+
+# Quest: Nefarious Oil
+betterquesting.quest.KGBrxQRsSneYMzNHBll9Bg.name=§c§lNefarious Oil
+betterquesting.quest.KGBrxQRsSneYMzNHBll9Bg.desc=Using purified water, you can use an §5§lOil Cracker§r to convert the Nefarious Gas from the previous step into §4Nefarious Oil§r.%n%n[note]If you are proactive and setup grade 2 water production, you unlock a recipe that produces much more oil, with much less water, in much less time. §[[/note]
+
+# Quest: Netherite Nanoparticles
+betterquesting.quest.P_nO8frbRM2c-MLKAaJUkw.name=§c§lNetherite Nanoparticles
+betterquesting.quest.P_nO8frbRM2c-MLKAaJUkw.desc=§4Netherite Nanoparticles§r can be made from §5§lMacerating§r your newly attained Brittle Netherite Scraps.%n%n[note]Almost seems too easy doesn't it?[/note]
+
+# Quest: Netherite Scrap
+betterquesting.quest.SmLW-ht6TrKSmAUDyDoNqg.name=§c§lNetherite Scrap
+betterquesting.quest.SmLW-ht6TrKSmAUDyDoNqg.desc=Netherite Scrap is an integral part of the Netherite refinement process and fortunately you don't need very much of it. Technically you §nonly need two§r§r pieces of scrap, as they will constantly cycle from hot to cool while never actually being used up in the process §(§(§3(though, having more scrap handy could improve your setup efficiency).%n%n§rYou can obtain Netherite Scrap by either §5smelting§r Ancient Debris or using a §5§lForge Hammer§r on it. Though considering the forge hammer offers a §2§l25%%§r chance at gaining an additional scrap, you would be a little crazy to choose the former.%n%nIf you're wondering where you can find Ancient Debris, try scouring the Nether. It's more likely to spawn lower near the lava, and is found sporadically like small ores are rather than being in large veins like usual GT ores. §3Miners can also collect it!%n%n§r[warn]If you don't feel like leaving home, or are lacking blocks within your nether dimension, there is also a §lmeteor§r that can alleviate your Ancient Debris woes.[/warn]
+
+# Quest: Netherrack Froth
+betterquesting.quest.WNC6mX67QGG5gpjX0YkvDw.name=§c§lNetherrack Froth
+betterquesting.quest.WNC6mX67QGG5gpjX0YkvDw.desc=To get §4Netherrack Froth§r, you can combine your milling products with your Nefarious Oil in a §5§lFlotation Cell§r. %n%n[note]It would be wise to make a robust setup for this.[/note]
+
+# Quest: Netherrack Milling
+betterquesting.quest.XDZFjGB9RlWlrW0mHFoL0g.name=§c§lNetherrack Milling
+betterquesting.quest.XDZFjGB9RlWlrW0mHFoL0g.desc=With the Netherite line comes the first mandatory usage of the §5§lIsamill Grinding Machine§r, which you will need to create§4 Milled Netherrack§r. You will require a lot of this so be prudent in keeping up with your netherrack and milling ball production. %n%nFor netherrack, the best methods of production are through the rock breaker using glowstone dust, or through compressing netherrack dust that you may have obtained a stash of through mining.%n%nFor the milling balls, you have two options:%n%n§2§l- Soapstone ->§r§2 Cheaper, 50%% as effective as Alumina%n§3§l- Alumina ->§r§3 More Expensive, 2x as effective as Soapstone
+
+# Quest: Poor Nether Waste
+betterquesting.quest.afDCORKvSI-Vk_Mh2-rnZw.name=§c§lPoor Nether Waste
+betterquesting.quest.afDCORKvSI-Vk_Mh2-rnZw.desc=Once you've gathered enough froth, it can run through a §5§lVacuum Furnace§r to get a number of useful resources. Most importantly though, this is where we extract §4Poor Nether Waste§r; a quite valuable fluid to the Netherite line.
 
 # Quest: Relentless Glue
 betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.name=§c§l顽固胶水
@@ -3521,6 +3581,22 @@ betterquesting.quest.eZADH1WASo6NLBUTKjLNGQ.desc=氰基丙烯酸乙酯,俗称超
 # Quest: Clarifier
 betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.name=§c§l澄清器
 betterquesting.quest.mMCFuGqxQTuuLnJgEldztA.desc=水净化过程的第一步是澄清器.操作这台机器非常简单,您只需为过滤器保持稳定的活性炭供应.使用这台机器,您就能制造出1级净化水,从而将硅岩掺杂的单晶硅和晶圆的加工速度提高25%%.
+
+# Quest: Rich Nether Waste
+betterquesting.quest.nx7KEyhlTc6qYVM1vImkBA.name=§c§lRich Nether Waste
+betterquesting.quest.nx7KEyhlTc6qYVM1vImkBA.desc=§nOne§r of the ways you will be using the Poor Nether Waste is to combine it with the Hellish Mud you obtained earlier in the §5§lMixer§r to create §4Rich Nether Waste§r. %n%nWe will be using the Rich Nether Waste for the next step, and it will continue to be valuable for a while, though it does eventually become unecessary to the line when you reach §4§lUHV.
+
+# Quest: Brittle Netherite Scrap
+betterquesting.quest.rlVdurFlSbuoWZAIUG0-aA.name=§c§lBrittle Netherite Scrap
+betterquesting.quest.rlVdurFlSbuoWZAIUG0-aA.desc=You're so close... just a few more steps.%n%nNow that you've attained the Netherite Scrap Seeds, you can combine them with Poor Nether Waste in a §5§lChemical Bath§r for a §2§l50%%§r chance to get 3 §4Brittle Netherite Scraps§r. As a bonus, there's even a §2§l50%%§r chance that you get your Netherite Scrap Seed back to run the recipe over again. %n%n[note]Don't worry, this is the last Netherite recipe based on chance.[/note]
+
+# Quest: Nether Air & Semifluid
+betterquesting.quest.x79CeO4ORDWIbPLtdtp1wQ.name=§c§lNether Air & Semifluid
+betterquesting.quest.x79CeO4ORDWIbPLtdtp1wQ.desc=Ever take a deep breath while roaming the nether and start to feel lightheaded or dizzy? Turns out that's from the highly toxic air. There may be no saving our lungs, but at least we can take advantage of this dense air for our own material gain!%n%nIf you haven't already been taking advantage of the Nether Air for it's sulfurous properties, (talking to you, Nitrobenzene lovers) you'll need to take advantage of it now for making §4Nether Semifluid§r.%n%nSetup a §5§lVacuum Freezer§r in the nether and attach an§2§l Air Intake Hatch§r to start collecting the Nether Air. You can move onto the next step once you've started Semifluid production. 
+
+# Quest: Intensely Bonded Netherite Nanoparticles
+betterquesting.quest.zb1nbwNuSFKuSEyW3mVj-Q.name=§c§lIntensely Bonded Netherite Nanoparticles
+betterquesting.quest.zb1nbwNuSFKuSEyW3mVj-Q.desc=At long last... the final ingredient needed before making Netherite materials.%n%nThrough the combination of the Netherite Nanoparticles and Hellish Metal in the §5§lEBF§r, you can create §4Intensely Bonded Netherite Nanoparticles.§r As an added bonus for those who have invested in bees, using the combs from a Netherite Queen, will reward you with §2§l2x§r the product.%n%nThese are not only the primary pre-requisite ingredients for the Dense Netherite Plate that you need for the §3§lFusion Reactor§r, but also the pre-requisite material for making the rest of the Netherite parts after you have created one; so be sure to stockpile and manufacture as many of these nanoparticles as you can. %n%n[note]Keep in mind this recipe does require Naquadah coils![/note]
 
 
 ## Quest Line: Tier 7 - ZPM
@@ -4654,6 +4730,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8Q.desc=钓鱼真的很无聊.那为什
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8g.name=淡水和牛奶
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8g.desc=很多合成表都需要用到牛奶和淡水.但是普通的制作方法很麻烦.%n%n但是如果使用林业工作台就容易得多.把所有装有牛奶或者水的桶都放进工作台的缓存区,按住Shift点击一下合成表,就可以一次全部处理完毕了.
 
+# Quest: Chef Training
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.name=厨师训练
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.desc=我需要一些配料来帮助我进行练习,不过它们无法在我这里种植,你可以提供一些吗? 我会回报你一些成品.%n%n[note]只需凑齐一组即可完成任务.[/note]
+
 # Quest: Wheaty Juice
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-A.name=小麦汁
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-A.desc=酿造啤酒或者其他含酒精饮料的第一步就是制取小麦汁.
@@ -5644,10 +5724,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.desc=铁质建筑之杖比石质的�
 # Quest: Mid-Tier Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.name=中阶建筑之杖
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.desc=下一阶的建筑之杖是钻石建筑之杖,拥有所有的有趣模式.只是用的时候要当心,一不小心放下一大片方块会令人很不愉快!
-
-# Quest: No ASMR From Your Machines?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnA.name=不想接受你机器提供的ASMR服务?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnA.desc=要是你机器发出的声音快把你逼疯了,你可以添加静音升级让它们闭嘴.%n%n注意:这也意味着你将不会听到跳电的声音.  另外,一旦添加了这个升级就无法移除了.
 
 # Quest: Botany
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.name=植物学
@@ -8259,10 +8335,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMgg.desc=强冷核反应堆是对技术�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMgw.name=铿铀与回旋加速器
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMgw.desc=在此前的任务中，铿铀作为制造三钛的一种材料而被引入。虽说这确实是其一大用途，不过它的作用远不止于此。它的另一个重要配方在回旋加速器中，几率产出量子反常。%n%n首先，回旋加速器是什么？这是一台类似核聚变反应堆的多方块机器，不过仅用于合成新材料。它消耗能量，将单个粒子与其他粒子加速碰撞，或与流体相互碰撞，以生成新材料。它的大部分配方都没什么用，不过也可以合成量子反常。这是一种概率合成，不过量子反常有一个特性：使用它转化方块时，它不会被消耗。因此，你只需要生产出一个量子反常即可。%n%n这是必需的吗？嗯……是的。当你到达游戏的某个阶段后，可能会发现自己需要一种新的合金焊料，名为突变活性焊料。想要合成这种焊料，你需要一座博特姆合金化工厂，而博特姆合金需要用到高级镍钛诺。而高级镍钛诺，是需要用到量子反常进行转化的方块之一。鉴于铿铀是合成量子反常的唯一流体选择，所以也变成了必需品，不过是ZPM之后的几个阶段。%n%n另外，还有其他配方会用到量子反常，比如大型元素复制机。它是一台非常强大的复制机，它的速度和它支持的配方，可以极大地提升你的自动化水平；但是请注意，这里的量子反常会被消耗，所以如果你只有一个的话，别用在这里。不过，后面还会有更多需要消耗量子反常的配方，比如量子操纵仪的外壳，届时必须实现自动生产量子反常。
 
-# Quest: The End of Fusion Materials
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMhA.name=聚变材料--终章
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMhA.desc=只有几种必需的聚变材料,目前你已经全部完成了.还有许多其他聚变配方,其中的不少已经在任务中列出,但也有一些尚未解决.%n%n不过,到这里即是终章.如果你仔细看过NEI的聚变合成页面,应该会发现有一些配方的功率以及启动消耗高于3级聚变可以提供的极限,这表明还有另一个等级.实际上,4级聚变确实存在,不过更多的是用来作为里程碑/奇观,而实际用处不大,并且它比其他聚变要贵得多得多,也更难制造.在"终极目标"任务章节中有相关任务(要是你已经解锁了的话).%n%n在最后的材料中,你能找到、鲁格诺,以及最后的,海珀珍.在整合包的大部分流程中,它们并没有多少用途,但海珀珍在大后期很重要,是线圈方块进度的一环,细海珀珍导线也用于很多配方中.如果你真的想要开启星门的话,会需要成吨成吨海珀珍的.
-
 # Quest: Reactors are Expensive!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMhQ.name=反应堆很贵!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMhQ.desc=你的第一台MKI核聚变反应堆,是整合包科技树推进过程中,要跨过的最大的几个门槛之一.你不太可能马上再建造另一台MKI,所以必须使用一台聚变,分配好几个配方的优先级、批次数量等.%n%n新的聚变条件是,每次切换正在合成的配方时,你都必须付出EU和时间.假如你正在使用聚变产出等离子体发电,那么铕以及其他材料,应该在发电间歇期进行批量生产.可能是发电过剩的时候?你可以暂停发电等离子体的合成,转而生产一些有用的材料.%n%n随着科技的进步,你终究能够建造并使用多座核聚变反应堆.不过现在,还没到时候.
@@ -8279,6 +8351,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMhw.desc=现在，为什么不呢？你�
 ## Quest Line: Space Race
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIg.name=太空竞赛
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIg.desc=帮助你开始星系mod并遨游星际.我们的征途是星辰大海!
+
+# Quest: Cetane Boosted Diesel
+betterquesting.quest.0TQy1g-KQ0GMuvc5n6c2Tg.name=§9§lCetane Boosted Diesel
+betterquesting.quest.0TQy1g-KQ0GMuvc5n6c2Tg.desc=The other option is Cetane-Boosted Diesel. %n%nYou will need to mix either Diesel or Bio Diesel with Tetranitromethane. Check out the related quests in [quest]Tier 3 - HV[/quest] or [quest]Working with Oil[/quest] tabs for more information.
 
 # Quest: Can I Build A Mothership For My Father?
 betterquesting.quest.1R8whL35Qnm93uBUpchI0A.name=我能为我的父亲建造一艘母舰吗？
@@ -10093,6 +10169,10 @@ betterquesting.quest.zNBMiy1gQuC_GY0wtQ4cbA.desc=那些数字奇点元件虽然�
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFA.name=人来疯(蜂)
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAFA.desc=一套在游戏中不分阶段的任务,蜜蜂的基础探索和指南.是一个非常有用来推进的工具.
 
+# Quest: Splicer
+betterquesting.quest.A462Q2yHRleMxFZCeNzhuA.name=Splicer
+betterquesting.quest.A462Q2yHRleMxFZCeNzhuA.desc=The Splicer is much like the Inoculator in function, however it has the benefit of not requiring any liquid. %n%nThe Splicer will take a Genome Template from the Sequencer and will 'Splice' in the DNA, allowing you to change a bee's genetics.%n%nThe primary drawback of using this compared to the Inoculator is the increased expense of the block, and the significant power cost in comparison.
+
 # Quest: To Scan or Not to Scan
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-A.name=扫描还是不扫描--这并非一个问题
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-A.desc=为了让你的养蜂事业更进一步,你需要用一种更加先进的方式来观察蜜蜂的所有特征,不论是显性还是隐性的. 你只需要培育那些"纯种"的蜜蜂: 纯种蜜蜂的显性和隐性基因完全相同.%n%n[note]顺带一提,并非越'高级'的特性越好.蜜蜂的特性有很多,合适的才是最好的.用你喜欢的那个就行.[/note]
@@ -11584,6 +11664,10 @@ betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=有许多作物都能为你提�
 betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.name=暗影金属
 betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.desc=暗影金属是游戏初期极为有用的金属。它可以通过坩埚轻松制作，并在解锁真空冷冻机后进一步精炼。%n%n其高耐久性使其成为手持工具、探矿扫描仪、涡轮机乃至后期魔杖顶端的绝佳选择。%n%n建议先制作5块矿石，然后用粉碎机增产。%n%n[note]提示：你可以在魔导手册的"污秽魔法"章节早期找到相关研究[/note]
 
+# Quest: Scanning Made Easy
+betterquesting.quest.PKOdH3D6SsG3LQN6-pFF_A.name=Scanning Made Easy
+betterquesting.quest.PKOdH3D6SsG3LQN6-pFF_A.desc=We get it; The early-game of thaumcraft sucks and you don't want to throw every one of your 1000 items on the ground and scan them. That's why we added 2 cool QoL features which makes this tedious task very quick and easy.%n%n1. You don't actually have to throw the item on the ground. You can scan it directly from your inventory! Simply hover it over the item you want to scan, and after a short duration it will be scanned.%n%n2. You've probably accumulated dozens of double chests full of junk that you don't want to sift through and scan, so there's a second feature now: Scanning entire chests! Simply shift right-click while hovering over a chest with your thaumometer and it'll scan EVERY item inside of the chest. Though be beware, this strong feature requires a bit of research. %n[note]To unlock the research, go to your Thaumonomicon, open "Basic Information" (the first tab), and complete this research path: Research -> Research Expertise -> Deconstruction Table -> Container Scanning[/note]
+
 # Quest: More Health
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=更多生命值
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.desc=当你射出弩箭时你没来得及注意到你瞄准的是一种背上有着红色线条的特殊蜘蛛,无论你是怎样一个神射手也无济于事.通常,令人难以置信的疼痛会随之而来...%n%n利用你的新法杖,你可以制作红心容器了.你可以最多放10个红心容器到专用的栏位中,每个红心容器能提升一颗心的生命值上限.%n%n这可能并不够,但如果他最终让你好好的站着,而不是横着躺在棺材里,你便会庆幸你制作了这些心之容器.
@@ -12240,11 +12324,15 @@ betterquesting.quest.l4q7oG79RfCZjnE_Ys57DA.desc=法杖核心:维护可以在维
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIA.name=花的力量
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAIA.desc=有关魔法植物学和植物魔法的专题任务线.
 
-# Quest: The roots of magic
+# Quest: Fountain Of Conjuration
+betterquesting.quest.1W0BrWncRuWbeTrPDVV99w.name=Fountain Of Conjuration
+betterquesting.quest.1W0BrWncRuWbeTrPDVV99w.desc=The Fountain of Conjuration, as I'm sincerely hoping you can guess at this point, functions exactly like the Mana Fountain and the Fountain of Alchemy, except it handles §nexclusively§r recipes that are typically done with a Conjuration Catalyst underneath a Mana Pool.%n%nIf you need any further details about it's functionality, check out the Mana Fountain quest or the Lexica Botania.%n%n[note]Reminder that this can also wall-share with any type of Mana Fountain you may currently have.[/note]
+
+# Quest: The Roots of Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlA.name=魔法的根基
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlA.desc=如果你熟悉植物魔法,会注意到主世界明显没有神秘花和微光蘑菇.很遗憾,如此漂亮的魔力展现方式需要你提升自己的魔法水平.现在你得利用这个新维度所提供的东西.%n%n暮色森林的深层洞穴中,在Y轴较低的地方,可以找到微光蘑菇.这些是你的起始材料,可以用来代替花瓣.注意,与花不同,你现在还不能种植它们,所以要小心使用.
 
-# Quest: Flower grafting
+# Quest: Flower Grafting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlQ.name=花卉嫁接
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlQ.desc=你要做的第一个东西是花药台.将微光蘑菇的组分涂在炼药锅上,就能给予它自我恢复的能力.%n%n操作时,先用一桶水填满它,以保持植物的水分.要加入合成材料,把它们丢到花药台上面即可.%n%n所有花药台的合成都需要些魔法成分;还需要从世界中取得的一种或多种普通花,作为配方稳定的基础.把所有合成材料都加进去后,再加一粒种子就可以完成合成.所有原版种子都行.
 
@@ -12252,27 +12340,27 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlQ.desc=你要做的第一个东西是�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlg.name=白雏菊
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlg.desc=你能做出的第一种魔力花卉就是白雏菊.这种花可以缓慢地为附近的石头和原木注入魔力,将其转变为植物魔法的原材料.%n%n放下一朵白雏菊,然后在其周围紧邻的8格放上石头和原木,过一段时间它们就会转化为活石和活木.
 
-# Quest: Your first mana pool
+# Quest: Your First Mana Pool
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlw.name=你的第一座魔力池
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlw.desc=既然有活石了,就开始制造第一座魔力池吧.用锯子将活石切成台阶制作底部,把活石板黏在一起制成四边.%n%n你缺乏使其变得有效的知识,所以很遗憾,你没法用它一次合成很多东西.
 
-# Quest: Upgrading your mana pool
+# Quest: Upgrading Your Mana Pool
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMmA.name=升级魔力池
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMmA.desc=既然你已经发现了被施以魔力的坩埚的力量,就可以用这项技术造一座更好的魔力池了.
 
-# Quest: Pollination buddies
+# Quest: Pollination Buddies
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMmQ.name=授粉好伙伴
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMmQ.desc=有些花到处都有,有些则仅限于特定的生物群系.如果你不想离家走太远,可以找些帮手.%n%n具有采蜜对象特性的蜜蜂会在它的工作范围内慢慢产生新的花卉,包括大量从遥远牧场带来的品种.
 
-# Quest: Mana diamonds
+# Quest: Mana Diamonds
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMmg.name=魔力钻石
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMmg.desc=魔力钻石是注入了魔力的钻石,制作它们需要的魔力取决于钻石的质量.%n%n一座全满的稀释魔力池勉强能把一颗精致的钻石转变成魔力钻石.等到你升级一次魔力池之后,就可以用普通钻石了,不过魔力消耗会多些.
 
-# Quest: A glimpse into a watery future
+# Quest: A Glimpse Into A Watery Future
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMmw.name=窥见水之未来
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMmw.desc=下一步就是做催化器了.炼金催化器可以使用魔力,将物品或方块转变成相关的另一种物品或方块.%n%n把它放在充满的魔力池下面,做些海晶石试试.%n%n合成表需要魔导手册研究解锁.
 
-# Quest: Botanic infusion
+# Quest: Botanic Infusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnA.name=植物魔法注魔
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnA.desc=你可以用符文祭坛制作符文,符文可以让你能够制作更高级的花卉.使用方法:把材料放在上面,用森林魔杖右键祭坛,满足条件后,在祭坛上丢一颗活石以完成制作.你还需要一个魔力源,比如一个指向祭坛的魔力发射器.
 
@@ -12284,15 +12372,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnQ.desc=要制造高级工具和装备,
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMng.name=亚尔夫海姆(Alfheim,精灵之国)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMng.desc=传说中有一个传送门,通向充满绿色能量的异世界.
 
-# Quest: Round one... FIGHT!
+# Quest: Round One... FIGHT!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnw.name=第一回合...开打!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMnw.desc=在正确的位置放置4个盖亚水晶,手持泰拉钢锭,shift+右击激活的信标,召唤盖亚守护者.
 
-# Quest: A deal with Alfar Industries
+# Quest: A Deal With Alfar Industries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoA.name=和精灵工业的一场交易
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoA.desc=所以关于精灵的传言曾经是真的.好吧,§o*曾经是*§r真的.它们中大部分仍然是真的.现在是假的那些,曾经也是真的.%n%n原来,他们那之后一直在和一个被称作§oDream Master§r的神秘人物交谈,显然这在精灵族的土地上引发了一次工业革命.这很不幸地意味着,他们现在坚持引进最新款的机械,以驱动不断扩大的工厂,从而换掉正迅速过时的精灵材料.%n%n有人需要和这家伙谈谈...
 
-# Quest: Round two... FIGHT!
+# Quest: Round Two... FIGHT!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqQ.name=第二回合...开打!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqQ.desc=现在用你击杀盖亚守护者得到的盖亚之魂合成一个盖亚魂锭.%n%n在正确的位置放置4个盖亚水晶,手持盖亚魂锭,shift+右击激活的信标,召唤增强版的盖亚守护者.
 
@@ -12300,11 +12388,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqQ.desc=现在用你击杀盖亚守护�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrg.name=符文
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrg.desc=制造些符文吧,因为--为什么不呢?
 
-# Quest: What are all these flowers even for?
+# Quest: What Are All These Flowers Even For?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMtA.name=这些花究竟都有什么用?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMtA.desc=如果你以前从未接触过植物魔法(Botania),可能会困惑于付出这些努力到底有什么意义.这并不是个容易回答的问题,但你至少现在就能做一件相当有用的事--制作魔力钢.%n%n魔力钢在LV材料中如果不是耐久度§o最§o§r高的,也一定是耐久度最高的之一,所以这是你制作工具的绝佳选择--而这也仅仅是其用途之一.%n%n如果你特别讨厌匠魂的话,魔力钢也是制作GT镐子的极好材料.
 
-# Quest: Moron's Manual for Mana Manufacture And Manipulation
+# Quest: Moron's Manual For Mana Manufacture And Manipulation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMtQ.name=Moron的魔力生产和操纵指南
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMtQ.desc=要使用魔法花卉的力量,你必须先了解如何生产和操纵魔力.只要满足产能花的生产需求,它们就会产生出这种空灵的蓝色物质.魔力不易量化,所以如果你想有效地使用它,就不得不做大量的估算.%n%n一旦你选定了一种产能花,就必须在魔力发射器边上种植它.当满足该花朵的产能条件时,它会开始生产魔力,并将其存储在最靠近的魔力发射器的内部缓存中.魔力发射器会自动发射存储的任何魔力,只要其发射方向上有合适的接收方块(例如魔力池).你会需要很多这些设备的,所以现在就合成一对吧.%n%n放置魔力发射器时,它会面朝你所在的方向.使用森林法杖可以改变其朝向:手持法杖Shift+右键魔力发射器,然后Shift+右键你想让其朝向的方块即可.这种绑定的方法对于其他物件也有效,例如将产能花绑定至指定的魔力发射器.
 
@@ -12320,7 +12408,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMtw.desc=魔力是蓝色的,水也是蓝
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMuA.name=暗能量
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMuA.desc=大概不是你熟悉的那种"暗能量".夜颠茄(nightshade)在夜晚产生魔力.和其他被动产能花一样,它过一小时就会自然枯萎.
 
-# Quest: Is this a combustion generator?
+# Quest: Is This A Combustion Generator?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMuQ.name=这是内燃发电机吗?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMuQ.desc=火红莲(endoflame)消耗可燃材料生产魔力.它可以高效消耗燃烧时间不超过64000(单个物品)的燃料(相当于4个煤炭块);任何超出此值的燃烧时间都会浪费掉.火红莲不同于被动产能花,它不会枯萎,并且简单易用,因此做几朵是个好主意.
 
@@ -12348,7 +12436,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMvg.desc=想要继续前进,你需要一
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMvw.name=更好的产能花
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMvw.desc=如果你想要些比火红莲更好的花,就需要一个符文祭坛.幸运的是,你只要能做出符文祭坛,大部分符文都极易合成.不过,七宗罪符文需要钛才能制作.现在,只要每种元素符文做一个就好;这足够你起步了.
 
-# Quest: Shut down your canning machine
+# Quest: Shut Down Your Canning Machine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwA.name=关掉你的装罐机
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwA.desc=有些花吃蜜蜂,有的吃树叶,有的吃史莱姆.而这种花什么都能吃(当然只包括你能吃的所有食物).彼方兰(gourmaryllis)在你投喂多种多样的美味食物时会感到最快乐,所以但愿HV阶段的装罐饮食没让你忘了怎么烹饪.
 
@@ -12372,9 +12460,21 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxA.desc=炽玫瑰(thermalily)会消耗�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxQ.name=鸡化
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxQ.desc=索利安德之嗜(soarleander)会消化掉任何与鸡有关的东西,包括整只鸡.%n%n译者注:没别的用了!就是这么简单!
 
-# Quest: According to all known laws of mana generation...
+# Quest: According To All Known Laws Of Mana Generation...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxg.name=根据一切已知的魔力生产法则...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxg.desc=...蜜蜂绝不可能生产魔力.食蜂海棠(beegonia)似乎对此浑然不知,并且会很高兴地吃掉你所有盈余的雄蜂,以填满你的魔力池.
+
+# Quest: Mana Fountain
+betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.name=Mana Fountain
+betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.desc=The Mana Fountain allows for quick and seamless automation of Mana Pool recipes.%n%nYou can assemble the multiblock as specified in the Lexica Botania / NEI. After it's assembled, right clicking it using the Wand of the Forest will show you whether it's complete and the amount of internally stored mana.%n%nYou can send the controller mana directly by either using a spreader or a spark much like a Mana Pool. Technically you don't have to use the Mana Pool in the center of the multiblock for it to function, but it is placed conveniently so that you can (plus, it doesn't hurt to have an extra buffer).%n%nItems are allowed to input from any side of the controller, but can only output from the bottom. For early automation, it's recommended to just use hoppers. Once you uinlock AE2 however you can simply place an interface underneath the controller with the appropriate patterns and it should push and pull items automatically.%n%n[warn]You cannot craft Alchemy or Conjuration recipes using this multiblock, those are separate multiblocks that you will unlock with more advanced robot arm technology.[/warn]%n%n[note]This structure can absolutely wall-share. It has the perfect design to be able to share 4 different Mana Fountains between the center pool.[/note]%n
+
+# Quest: Fountain Of Alchemy
+betterquesting.quest.MJgg4KT4Q1Gi-2hgQ9Sz6w.name=Fountain Of Alchemy
+betterquesting.quest.MJgg4KT4Q1Gi-2hgQ9Sz6w.desc=The Fountain of Alchemy as you may guess, is functionally just like the Mana Fountain, except it can handle the recipes that you would typically need an Alchemy Rune underneath a Mana Pool for.%n%nIf you need any further details about it's functionality, check out the Mana Fountain quest or the Lexica Botania.%n%n[warn]This cannot do regular Mana Pool recipes, only Alchemy recipes.[/warn]%n%n[note]If, for whatever reason, you needed an abundance of prismarine in the future... perhaps a quad Fountain of Alchemy would be an excellent aid in obtaining that.[/note]
+
+# Quest: Synthetic Elven Gateway
+betterquesting.quest.V76lvP8lSsewcKfwxHirPw.name=Synthetic Elven Gateway
+betterquesting.quest.V76lvP8lSsewcKfwxHirPw.desc=The Synthetic Elven Gateway is an advanced and easily automatable version of the normal Elven Gateway. As a result it is much quicker, less TPS intensive, and AE2 compatible.%n%nMuch like the Mana Fountain, the controller can be given mana via a mana spreader or spark & item input can happen from any face, while item output is restricted to the bottom.%n%n[note]While running, this uses more mana passively than a normal Elven Gateway does, so be sure you have adequate mana production![/note]
 
 
 ## Quest Line: Look to the Edges
@@ -13283,7 +13383,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALEQ.desc=今年的圣诞节取消了,太
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEg.name=杀戮时刻(野猪)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEg.desc=美味的烤野猪. 嗯...非常好吃.
 
-# Quest: Time to Kill (Rabbit)
+# Quest: Time to Kill (Forest Bunny)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.name=杀戮时刻(兔子)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALEw.desc=哦,这只小兔子多么可爱啊.  砰! .... 死了?
 
@@ -13350,6 +13450,26 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALJQ.desc=它们具有很高的爆炸性,
 # Quest: Time to Kill (Imp)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALJg.name=杀戮时刻(小恶魔)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALJg.desc=小恶魔是一种会在整个下界跑来跑去的橘色小动物.它们很和平不会攻击你. %n%n杀戮一些以获取皮革再打造防火护甲吧.
+
+# Quest: Time to Kill (Shulker)
+betterquesting.quest.PpBmbfhnSGqI7R_Mm_vJGw.name=Time to Kill (Shulker)
+betterquesting.quest.PpBmbfhnSGqI7R_Mm_vJGw.desc=The Shulker doesn't spawn naturally so you will need to obtain it's spawn egg to complete this quest. You can do so in the coins tab or through crafting.
+
+# Quest: Time to Kill (Rabbit)
+betterquesting.quest.UfPfIUITQrG1E1G33eQ__g.name=Time to Kill (Rabbit)
+betterquesting.quest.UfPfIUITQrG1E1G33eQ__g.desc=It's a shame to kill something so adorable... oh well, do it anyway.
+
+# Quest: Time to Kill (Husk)
+betterquesting.quest.Wz1LEV9eQomLVXDpK18ysQ.name=Time to Kill (Husk)
+betterquesting.quest.Wz1LEV9eQomLVXDpK18ysQ.desc=A Husk is a variant of Zombie that spawns in deserts! They attack like Zombies, except they inflict hunger and refuse to burn in the sunlight.
+
+# Quest: Time to Kill (Fox)
+betterquesting.quest.aZbgSe36TnSB3O4ZwkSlJw.name=Time to Kill (Fox)
+betterquesting.quest.aZbgSe36TnSB3O4ZwkSlJw.desc=The Fox can be found in colder biomes. Make sure you're properly equipped, they're quite quick!
+
+# Quest: Time to Kill (Stray)
+betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.name=Time to Kill (Stray)
+betterquesting.quest.z6Xaal6yTVi4fqEFCChoGg.desc=The Stray is a variety of Skeleton you will find in colder biomes. Watch out for their arrows; they can have a slowness effect!
 
 
 ## Quest Line: Coins, Coins, Coins
@@ -14065,111 +14185,6 @@ betterquesting.quest.la9w2qsKRhSIm-9-4cnWwg.name=烈焰棒
 betterquesting.quest.la9w2qsKRhSIm-9-4cnWwg.desc=你可以用硬币购买一些烈焰棒.
 
 
-## Quest Line: Reward Area
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAKg.name=奖励区
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAAKg.desc=升级你的战利品!
-
-# Quest: Steam > LV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABtw.name=蒸汽时代战利品袋 -> LV时代战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABtw.desc=三袋蒸汽时代战利品袋 = 一袋LV时代战利品袋
-
-# Quest: Basic > Steam Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.name=基础时代/石器时代战利品袋 -> 蒸汽时代战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.desc=三袋基础时代/石器时代战利品袋 = 一袋蒸汽时代战利品袋
-
-# Quest: LV > MV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuw.name=LV时代战利品袋 -> MV时代战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuw.desc=三袋LV时代战利品袋 -> 一袋MV时代战利品袋
-
-# Quest: MV > HV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvQ.name=MV时代战利品袋 -> HV时代战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvQ.desc=三袋MV时代战利品袋 = 一袋HV时代战利品袋
-
-# Quest: HV > EV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvw.name=HV时代战利品袋 -> EV时代战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABvw.desc=三袋HV时代战利品袋 = 一袋EV时代战利品袋
-
-# Quest: EV > IV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABwQ.name=EV时代战利品袋 -> IV时代战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABwQ.desc=三袋EV时代战利品袋 = 一袋IV时代战利品袋
-
-# Quest: Forest Ranger Basic > Forest Ranger Advanced Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNA.name=林业护林员-基础战利品袋 -> 林业护林员-高级战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNA.desc=三袋林业护林员-基础战利品袋 = 一袋林业护林员-高级战利品袋
-
-# Quest: Forest Ranger Advanced > Forest Ranger Expert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNQ.name=林业护林员-高级战利品袋 -> 林业护林员-专家战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNQ.desc=三袋林业护林员-高级战利品袋 = 一袋林业护林员-高级战利品袋
-
-# Quest: Space Invaders Moon > Space Invaders Mars Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNg.name=太空侵略者-月球战利品袋 -> 太空侵略者-火星战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNg.desc=三袋太空侵略者-月球战利品袋 = 一袋太空侵略者-火星战利品袋
-
-# Quest: Space Invaders Mars > Space Invaders Asteroids Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNw.name=太空侵略者-火星战利品袋 -> 太空侵略者-小行星带战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACNw.desc=三袋太空侵略者-火星战利品袋 = 一袋太空侵略者-小行星带战利品袋
-
-# Quest: Magic Novice > Magic Adept Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOA.name=魔法学徒战利品袋 -> 魔法达人战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOA.desc=三袋魔法学徒战利品袋 = 一袋魔法达人战利品袋
-
-# Quest: Magic Adept > Magic Master Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOQ.name=魔法达人战利品袋 -> 魔法大师战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOQ.desc=三袋魔法达人战利品袋 = 一袋魔法大师战利品袋
-
-# Quest: Magic Master > Magic Grandmaster Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOg.name=魔法大师战利品袋 -> 魔法宗师战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOg.desc=三袋魔法大师战利品袋 = 一袋魔法宗师战利品袋
-
-# Quest: Magic Grandmaster > Magic Grandmaster Unique Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOw.name=魔法宗师战利品袋 > 魔法宗师（独特）战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACOw.desc=十六袋魔法宗师战利品袋 = 一袋魔法宗师（独特）战利品袋%n%n[note]PS：你只能获得每种奖励一次，有6种不同的奖励。[/note]
-
-# Quest: BM Novice > BM Adept Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPA.name=血魔法学徒战利品袋 -> 血魔法达人战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPA.desc=三袋血魔法学徒战利品袋 = 一袋血魔法达人战利品袋
-
-# Quest: BM Adept > BM Master Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPQ.name=血魔法达人战利品袋 -> 血魔法大师战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPQ.desc=三袋血魔法学徒战利品袋 = 一袋血魔法大师战利品袋
-
-# Quest: Bees Basic > Bees Advanced Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPg.name=蜜蜂-基础战利品袋 -> 蜜蜂-高级战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPg.desc=三袋蜜蜂-基础战利品袋 = 一袋蜜蜂-高级战利品袋
-
-# Quest: Bee Advanced > Bees Expert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPw.name=蜜蜂-高级战利品袋 -> 蜜蜂-专家战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACPw.desc=三袋蜜蜂-高级战利品袋 = 一袋蜜蜂-专家战利品袋
-
-# Quest: Fast Food > Slow Food Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpg.name=快餐战利品袋 -> 慢餐战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpg.desc=三袋快餐战利品袋 = 一袋慢餐战利品袋（什么时候慢餐成更好的了？）
-
-# Quest: Slow Food > Haute Cuisine Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpw.name=慢餐战利品袋 -> 佳肴战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACpw.desc=三袋慢餐战利品袋 = 一袋佳肴战利品袋
-
-# Quest: Haute Cuisine > Dessert Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqA.name=佳肴战利品袋 -> 甜点战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqA.desc=六袋佳肴战利品袋 = 一袋甜点战利品袋%n%n[note]不过,这个奖励包里头只有棉花糖，所以其实不太值…[/note]
-
-# Quest: Transportation Class 3 > Transportation Class 2 Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqQ.name=三流交通工具战利品袋 -> 二流交通工具战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqQ.desc=三袋三流交通工具战利品袋 = 一袋二流交通工具战利品袋
-
-# Quest: Transportation Class 2 > Transportation Class 1 Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqg.name=二流交通工具战利品袋 -> 一流交通工具战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACqg.desc=三袋二流交通工具战利品袋 = 一袋一流交通工具战利品袋
-
-# Quest: Chef Training
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.name=厨师训练
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADWg.desc=我需要一些配料来帮助我进行练习,不过它们无法在我这里种植,你可以提供一些吗? 我会回报你一些成品.%n%n[note]只需凑齐一组即可完成任务.[/note]
-
-# Quest: IV > LuV Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmg.name=IV时代战利品袋 -> LuV时代战利品袋
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmg.desc=三袋IV时代战利品袋 = 一袋LuV时代战利品袋
-
-
 ### Quests in multiple quest lines ###
 
 # Quest: Waterproof Tech
@@ -14238,7 +14253,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxQ.desc=散热片可以被动的从反�
 
 # Quest: Making a Better Sword
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.name=§2§l做一把好剑
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.desc=现在是时候做一把匠魂剑了!首先你需要制作剑刃、某种护手以及手柄.在匠魂冶炼炉里面熔化一些青铜来铸造这些零件.拿去工具组装台把它们装好,这样你就有你第一把匠魂的剑了.%n%n有4种护手,改变护手类型会得到不同类型的剑,请查阅匠魂手册以获取更多信息.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.desc=现在是时候做一把优质的匠魂剑了!首先你需要制作剑刃、某种护手以及手柄.在匠魂冶炼炉里面熔化一些青铜来铸造这些零件.拿去工具组装台把它们装好,这样你就有你第一把匠魂的剑了.%n%n有4种护手,改变护手类型会得到不同类型的剑,请查阅匠魂手册以获取更多信息.
 
 # Quest: Magical Waystones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.name=神奇的传送核心
@@ -14546,7 +14561,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=错误:需要绑定的按键太
 
 # Quest: Safety First
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.name=§3§l安全第一
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.desc=对于那些GT新手,这里有些用电方面的提示和警告.%n%n机器不喜欢淋雨,否则附近就会着火.而机器附近的火有随机几率引爆机器.另外,给机器过高电压也会造成爆炸.%n%n在线缆里传输过高电压或过大电流会造成线缆被烧毁并在附近着火,而这可能造成机器爆炸.确保发电机和电池提供的电流数不超过线缆/导线的传输能力.%n%n一台产生1A电流的发电机可能可以为多台机器供电-如果那些机器运行的配方低于满电压的话.举个例子,研磨机处理矿石时只需2EU/t,所以你可以用一台1A发电机带动好几台台研磨机,如果线缆不太长的话.(因为线损计算单位为/电流/米.请注意,线缆会优于导线.)但是要当心!有时配方会需要超过你预想的高电压,比如研磨机沙子-->石英矿砂这个配方.%n%n大部分机器只会用到1A,但有些例外,如电弧炉、热力离心机、世界加速器、质量发生器.注意,为了确保运行时电力充足,机器可以接受比运行所需更高的电流(通常为2A),这在线损较高(通常是在LV阶段),机器接收到的1A电力包损失了太多时,尤其重要.机器接受最大电流的公式是:[(2*配方EU/t)/机器电压]+1.("[]"表示向下取整) 选用线缆时请牢记这点.%n%n某些机器专用于处理多A电流,比如电池箱、变压器和线缆二级管.请查看"EU的存储与变压"任务栏,以了解更多信息.%n%n如果你需要输送大电流,可以使用更粗的线缆或超导导线(MV+,另外ULV和LV也有自己的无线损线缆).在后期,你还可以用激光仓输送巨量电流. 甚至还有无线EU网络,不过现在还可望而不可即.%n%n跳电的单方块机器在有电后会重新开始处理,不会吞掉物品.但多方块机器跳电就会吞掉物品了.%n%n请注意,任何发送EU的方块都存在内阻,电压损失为每安培2^(电压等级-1). 比如LV损失1EU,MV损失2EU,以此类推.因此连续使用大量电池箱会对能量造成极大浪费,尤其在低电压阶段,甚至一个电池箱都会造成MV工业高炉无法稳定运行,或许发电机直供会更好? 当然,如果你想在长距离内保持电流输送始终处于峰值,还是偶尔需要借助电池箱的,不过随着电压的升高,其内阻造成的损失影响也越来越小.%n%n如果这里还没有看明白的话,请转到[url]https://wiki.gtnewhorizons.com/wiki/Electricity[/url] 阅读更多信息.%n%n 中文 WIKI 电力：[url]gtnh.huijiwiki.com/p/149[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.desc=对于那些GT新手,这里有些用电方面的提示和警告.%n%n机器不喜欢淋雨,否则附近就会着火.而机器附近的火有随机几率引爆机器.另外,给机器过高电压也会造成爆炸.%n%n在线缆里传输过高电压或过大电流会造成线缆被烧毁并在附近着火,而这可能造成机器爆炸.确保发电机和电池提供的电流数不超过线缆/导线的传输能力.%n%n一台产生1A电流的发电机可能可以为多台机器供电-如果那些机器运行的配方低于满电压的话.举个例子,研磨机处理矿石时只需2EU/t,所以你可以用一台1A发电机带动好几台台研磨机,如果线缆不太长的话.(因为线损计算单位为/电流/米.请注意,线缆会优于导线.)但是要当心!有时配方会需要超过你预想的高电压,比如研磨机沙子-->石英矿砂这个配方.%n%n大部分机器只会用到1A,但有些例外,如电弧炉、热力离心机、世界加速器、质量发生器.注意,为了确保运行时电力充足,机器可以接受比运行所需更高的电流(通常为2A),这在线损较高(通常是在LV阶段),机器接收到的1A电力包损失了太多时,尤其重要.机器接受最大电流的公式是:[(2*配方EU/t)/机器电压]+1.("[]"表示向下取整) 选用线缆时请牢记这点.%n%n某些机器专用于处理多A电流,比如电池箱、变压器和线缆二级管.请查看"EU的存储与变压"任务栏,以了解更多信息.%n%n如果你需要输送大电流,可以使用更粗的线缆或超导导线(MV+,另外ULV和LV也有自己的无线损线缆).在后期,你还可以用激光仓输送巨量电流. 甚至还有无线EU网络,不过现在还可望而不可即.%n%n跳电的单方块机器在有电后会重新开始处理,不会吞掉物品.但多方块机器跳电就会吞掉物品了.%n%n请注意,任何发送EU的方块都存在内阻,电压损失为每安培2^(电压等级-1). 比如LV损失1EU,MV损失2EU,以此类推.因此连续使用大量电池箱会对能量造成极大浪费,尤其在低电压阶段,甚至一个电池箱都会造成MV工业高炉无法稳定运行,或许发电机直供会更好? 当然,如果你想在长距离内保持电流输送始终处于峰值,还是偶尔需要借助电池箱的,不过随着电压的升高,其内阻造成的损失影响也越来越小.%n%n如果这里还没有看明白的话,请转到[url]https://wiki.gtnewhorizons.com/wiki/Electricity[/url] 阅读更多信息.%n%n如果你更喜欢看视频学习，那么Youtube上也有些很棒的资源，比如HamCorp的电力指南：[url]https://www.youtube.com/watch?v=lpDPY8J-4QY[/url]%n%n中文 WIKI 电力：[url]gtnh.huijiwiki.com/p/149[/url]
 
 # Quest: Moron's Guide to Breeding Better Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIoQ.name=蜜蜂培育"智者"手册
@@ -14716,6 +14731,10 @@ betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.desc=金桶有81个槽位。
 betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.name=§5§l钻石桶
 betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=钻石桶有108个槽位。
 
+# Quest: Large Molecular Assembler
+betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.name=Large Molecular Assembler
+betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%n[note]Super Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
+
 # Quest: Compact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§2§l紧凑的存储
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.desc=现在你已经有了越来越多的铜储备,你感觉你的木箱子太小了,不能存下你的所有东西. %n%n[note]是时候将你的木箱子升级为铜箱子了!更高等级的箱子可以通过升级组件方便地进行升级,但并不是所有等级的箱子都可以通过这种方法直接升级.你也可以试试看"箱子升级：木>铜",不过,用这种方式将木箱子升级到高级的箱子并不会更加便宜.[/note]%n%n[note]升级后相邻的箱子不再能连接组成更大的箱子.[/note]
@@ -14767,9 +14786,17 @@ betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=经过对第四维度的研究,
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.name=触发：跳过纳米旅行者之靴
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.desc=
 
+# Quest: Trigger: Hafnium Skip
+betterquesting.quest.5pXaevjTR-atLo3tdEZMEw.name=Trigger: Hafnium Skip
+betterquesting.quest.5pXaevjTR-atLo3tdEZMEw.desc=No Description
+
 # Quest: Trigger: Rocket Shuttle Skip
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.name=触发：跳过穿梭机火箭
 betterquesting.quest.87VYEeyaTWGSnRhRwAhrLw.desc=没有描述
+
+# Quest: Trigger: Samarium Skip
+betterquesting.quest.8_u1r5cyR92lkZZTVvPRag.name=Trigger: Samarium Skip
+betterquesting.quest.8_u1r5cyR92lkZZTVvPRag.desc=No Description
 
 # Quest: Trigger: LoC
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABww.name=触发：灰烬烧灯
@@ -14891,6 +14918,26 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=没有描述.
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=工具:不要完成
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.desc=这个任务永远不应该完成,它用来隐藏模板和其他必要隐藏的任务.
 
+# Quest: Trigger: NaK Skip
+betterquesting.quest.Bv3i0a9kRGWScgrhhV9tOg.name=Trigger: NaK Skip
+betterquesting.quest.Bv3i0a9kRGWScgrhhV9tOg.desc=No Description
+
+# Quest: Trigger: Dense Hydrazine Skip
+betterquesting.quest.CSYjTrFrQwi2XzCFUOAIjg.name=Trigger: Dense Hydrazine Skip
+betterquesting.quest.CSYjTrFrQwi2XzCFUOAIjg.desc=No Description
+
+# Quest: Trigger: Zirconium Skip
+betterquesting.quest.DHHWGPJ2RAKJuWh6T58_cA.name=Trigger: Zirconium Skip
+betterquesting.quest.DHHWGPJ2RAKJuWh6T58_cA.desc=No Description
+
+# Quest: Trigger: Netherite Skip
+betterquesting.quest.GvUC3hv2RsO-3FofYAyd7A.name=Trigger: Netherite Skip
+betterquesting.quest.GvUC3hv2RsO-3FofYAyd7A.desc=No Description
+
+# Quest: Trigger: Cerium Skip
+betterquesting.quest.KcPyyBL4Rre8QMDg3T4kqA.name=Trigger: Cerium Skip
+betterquesting.quest.KcPyyBL4Rre8QMDg3T4kqA.desc=No Description
+
 # Quest: Trigger: Graphene Skip
 betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.name=触发：跳过石墨烯
 betterquesting.quest.MdXhDkN_TECH5kMp4OM2Gg.desc=没有描述
@@ -14955,9 +15002,17 @@ betterquesting.quest.kZ6QmUGzTCitYMg_BdiVeQ.desc=没有描述.
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.name=触发：跳过下界
 betterquesting.quest.qFco17HGS0SxmpVn-uWJZQ.desc=无描述
 
+# Quest: Trigger: H8N4C2O4 (Green) Rocket Fuel Skip
+betterquesting.quest.rTYfjovjSEazD4lgxmmkEA.name=Trigger: H8N4C2O4 (Green) Rocket Fuel Skip
+betterquesting.quest.rTYfjovjSEazD4lgxmmkEA.desc=No Description
+
 # Quest: Trigger: LV Extruder Skip
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.name=触发:跳过LV压模机
 betterquesting.quest.sIP_FoxIRaeE08GesBwYcQ.desc=无描述
+
+# Quest: Trigger: CN3H7O3 (Purple) Rocket Fuel Skip
+betterquesting.quest.vP1W1MPQTOa4kzbCpQJzOQ.name=Trigger: CN3H7O3 (Purple) Rocket Fuel Skip
+betterquesting.quest.vP1W1MPQTOa4kzbCpQJzOQ.desc=No Description
 
 # Quest: Trigger: Rocket Tier 6 Skip
 betterquesting.quest.xcpJ6bs3R-i9KuADhiHOXw.name=触发：跳过6阶火箭

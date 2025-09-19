@@ -708,12 +708,21 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgo.7=充能进度显示
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=扫描时间显示
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.9=最大输出显示
 
+gt.blockmachines.multimachine.em.switch.type=Computation Network Switch, CNS
+gt.blockmachines.multimachine.em.switch.name=Weighted Network Switch With QoS
 gt.blockmachines.multimachine.em.switch.desc.0=根据权重将计算分配到传输接入器。
 gt.blockmachines.multimachine.em.switch.desc.1=传输接入器被分配了一个ID。
 gt.blockmachines.multimachine.em.switch.desc.2=使用便携式扫描仪扫描连接器以确定其ID。
 gt.blockmachines.multimachine.em.switch.desc.3=算力输出由TecTech参数配置。
 gt.blockmachines.multimachine.em.switch.desc.4=每组中的第一个参数控制这个仓的ID。
 gt.blockmachines.multimachine.em.switch.desc.5=每组中的第二个参数控制这个仓的权重。
+gt.blockmachines.multimachine.em.switch.adv.name=Static Network Switch With QoS
+gt.blockmachines.multimachine.em.switch.adv.desc.0=Variable-length version of the Weighted Network Switch.
+gt.blockmachines.multimachine.em.switch.adv.desc.1=Consumes §b524,288§7 EU/t per middle slice while active.
+gt.blockmachines.multimachine.em.switch.adv.desc.2=Computation output is configured by right clicking transmission connectors with a screwdriver.
+gt.blockmachines.multimachine.em.switch.adv.desc.3=Transmission connectors must be part of the structure for them to be configurable.
+gt.blockmachines.multimachine.em.switch.adv.desc.4=Computation output for a hatch is directly controlled by the hatch's setting.
+gt.blockmachines.multimachine.em.switch.adv.desc.5=For weighted computation distribution, use the §6%s§r.
 
 gt.blockmachines.multimachine.em.computer.name=量子计算机
 gt.blockmachines.multimachine.em.computer.machinetype=量子计算机(QC)
