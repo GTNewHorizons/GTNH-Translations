@@ -781,19 +781,19 @@ tile.railcraft.machine.beta.boiler.firebox.liquid.tip=§fマルチブロック: 
 tile.railcraft.machine.beta.boiler.firebox.solid.name=固体燃料用火室
 tile.railcraft.machine.beta.boiler.firebox.solid.tip=§fマルチブロック: §7可変サイズ、底面に設置 (§6幅,W§7x§6高さ,H§7x§6奥行,L§7)\n§f寸法: §61§7x§61§7, §62§7x§62§7, §63§7x§63§r
 tile.railcraft.machine.beta.boiler.tank.pressure.high.name=高圧ボイラータンク
-tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=§fマルチブロック: §7可変サイズ、§8《§7火室§8／Firebox》§7の上部に設置 (§6幅,W§7x§6高さ,H§7x§6奥行,L§7)\n§f寸法: §61§7x§61§7x§61§7, §62§7x§62§7x§62§7, §62§7x§63§7x§62§7, §63§7x§62§7x§63§7, §63§7x§63§7x§63§7, §63§7x§64§7x§63\n§7毎tick 40mB の§8《§7蒸気§8／Steam》§7を生産します
+tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=§fマルチブロック: §7可変サイズ、§8《§7火室§8／Firebox》§7の上部に設置 (§6幅,W§7x§6高さ,H§7x§6奥行,L§7)\n§f寸法: §61§7x§61§7x§61§7, §62§7x§62§7x§62§7, §62§7x§63§7x§62§7, §63§7x§62§7x§63§7, §63§7x§63§7x§63§7, §63§7x§64§7x§63\n§7毎秒 800mB の§8《§7蒸気§8／Steam》§7を生産します
 tile.railcraft.machine.beta.boiler.tank.pressure.low.name=低圧ボイラータンク
-tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=§fマルチブロック: §7可変サイズ、§8《§7火室§8／Firebox》§7の上部に設置 (§6幅,W§7x§6高さ,H§7x§6奥行,L§7)\n§f寸法: §61§7x§61§7x§61§7, §62§7x§62§7x§62§7, §62§7x§63§7x§62§7, §63§7x§62§7x§63§7, §63§7x§63§7x§63§7, §63§7x§64§7x§63\n§7毎tick 10mB の§8《§7蒸気§8／Steam》§7を生産します
+tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=§fマルチブロック: §7可変サイズ、§8《§7火室§8／Firebox》§7の上部に設置 (§6幅,W§7x§6高さ,H§7x§6奥行,L§7)\n§f寸法: §61§7x§61§7x§61§7, §62§7x§62§7x§62§7, §62§7x§63§7x§62§7, §63§7x§62§7x§63§7, §63§7x§63§7x§63§7, §63§7x§64§7x§63\n§7毎秒 200mB の§8《§7蒸気§8／Steam》§7を生産します
 tile.railcraft.machine.beta.chest.metals.name=金属圧縮チェスト
 tile.railcraft.machine.beta.chest.metals.tip=金属をブロックへ圧縮します
 tile.railcraft.machine.beta.chest.void.name=消滅チェスト
 tile.railcraft.machine.beta.chest.void.tip=アイテムを消去します
 tile.railcraft.machine.beta.engine.steam.high.name=産業用蒸気エンジン
-tile.railcraft.machine.beta.engine.steam.high.tip=80RF/tick の電力を生産します\n毎tick 40mB の§8《§7蒸気§8／Steam》§7を消費します
+tile.railcraft.machine.beta.engine.steam.high.tip=80RF/tick の電力を生産します\n毎秒 800mB の§8《§7蒸気§8／Steam》§7を消費します
 tile.railcraft.machine.beta.engine.steam.hobby.name=個人用蒸気エンジン
-tile.railcraft.machine.beta.engine.steam.hobby.tip=20RF/tick の電力を生産します\n毎tick 10mB の§8《§7蒸気§8／Steam》§7を消費します
+tile.railcraft.machine.beta.engine.steam.hobby.tip=20RF/tick の電力を生産します\n毎秒 200mB の§8《§7蒸気§8／Steam》§7を消費します
 tile.railcraft.machine.beta.engine.steam.low.name=業務用蒸気エンジン
-tile.railcraft.machine.beta.engine.steam.low.tip=40RF/tick の電力を生産します\n毎tick 20mB の§8《§7蒸気§8／Steam》§7を消費します
+tile.railcraft.machine.beta.engine.steam.low.tip=40RF/tick の電力を生産します\n毎秒 400mB の§8《§7蒸気§8／Steam》§7を消費します
 tile.railcraft.machine.beta.tank.iron.gauge.name=大型鉄タンクのゲージ
 tile.railcraft.machine.beta.tank.iron.gauge.tip=§fマルチブロック: §7可変サイズ §c(中空)\n§f高さ: §64§7, §65§7, §66§7, §67§7, §68\n§f平面: §63§7, §65§7, §67§7, §69
 tile.railcraft.machine.beta.tank.iron.valve.name=大型鉄タンクのバルブ
@@ -817,7 +817,7 @@ tile.railcraft.machine.epsilon.admin.steam.producer.tip=§8《§7蒸気§8／Ste
 tile.railcraft.machine.epsilon.electric.feeder.admin.name=管理者用電力供給器
 tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Railcraft電力§8(RC)§7を §5§l無限§r§7 に供給します
 tile.railcraft.machine.epsilon.electric.feeder.name=電力供給器
-tile.railcraft.machine.epsilon.electric.feeder.tip=IndustrialCraft 2の電力§8(EU)§7を\nRailcraft電力§8(RC)§7に変換します
+tile.railcraft.machine.epsilon.electric.feeder.tip=IC2およびGregtechの電力§8(EU)§7を\nRailcraft電力§8(RC)§7に変換します
 tile.railcraft.machine.epsilon.engraving.bench.name=刻印作業台
 tile.railcraft.machine.epsilon.flux.transformer.name=フラックス変圧器
 tile.railcraft.machine.epsilon.flux.transformer.tip=§fマルチブロック: §62§7x§62§7x§62§7 (§6幅,W§7x§6高さ,H§7x§6奥行,L§7)\nレッドストーンフラックス§8(RF)§7をRailcraft電力§8(RC)§7に変換します\n変換効率: 80%
@@ -830,7 +830,7 @@ tile.railcraft.machine.gamma.dispenser.cart.tip=トロッコをレールに配�
 tile.railcraft.machine.gamma.dispenser.train.name=列車ディスペンサー
 tile.railcraft.machine.gamma.dispenser.train.tip=連結済みの列車をレールに配置します\n§9-§8《§9バール§8／Crowbar》§9で右クリックして向きを変更 -\n§c- レッドストーン信号で列車を排出 -
 tile.railcraft.machine.gamma.loader.energy.name=電力積込器
-tile.railcraft.machine.gamma.loader.energy.tip=IC2の電力§8(EU)§7をトロッコへ供給します\n§9-§8《§9バール§8／Crowbar》§9で右クリックして向きを変更 -\n§c- IC2の電力のみを受け付ける -
+tile.railcraft.machine.gamma.loader.energy.tip=IC2の電力§8(EU)§7をトロッコへ供給します\n§9-§8《§9バール§8／Crowbar》§9で右クリックして向きを変更 -\n§c- IC2およびGregtechの電力のみを受け付ける -
 tile.railcraft.machine.gamma.loader.rf.name=RF積込器
 tile.railcraft.machine.gamma.loader.rf.tip=RF電力をトロッコに供給します\n§9-§8《§9バール§8／Crowbar》§9で右クリックして向きを変更 -\n§c- RFのみを受け付ける -
 tile.railcraft.machine.gamma.loader.item.advanced.name=発展型アイテム積込器
