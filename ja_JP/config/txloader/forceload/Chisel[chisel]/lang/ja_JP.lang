@@ -27,7 +27,7 @@ item.cloudBottle.name=雲入り瓶
 item.cloudBottle.desc=右クリックで投げる。着弾地点に雲ブロックを出現させる
 item.smashingRock.name=粉砕の小石
 item.smashingRock.desc=右クリックで投げる。着弾地点付近の丸石を砂利に、砂利を砂に変化させる
-item.upgrade.name=Upgrade
+item.upgrade.name=アップグレード
 item.upgrade_speed.name=速度アップグレード
 item.upgrade_automation.name=自動化アップグレード
 item.upgrade_stack.name=スタックアップグレード
@@ -139,7 +139,7 @@ tile.beacon.blue.desc=青色ビームビーコン
 tile.beacon.brown.desc=茶色ビームビーコン
 tile.beacon.cyan.desc=青緑色ビームビーコン
 tile.beacon.green.desc=緑色ビームビーコン
-tile.beacon.lightBlue.desc=Light Blue Beamed Beacon
+tile.beacon.lightBlue.desc=空色ビームビーコン
 tile.beacon.silver.desc=薄灰色ビームビーコン
 tile.beacon.lime.desc=黄緑色ビームビーコン
 tile.beacon.magenta.desc=赤紫色ビームビーコン
@@ -950,9 +950,9 @@ tile.dirt.9.desc=横向きの土
 tile.dirt.10.desc=縦向きの土
 tile.dirt.11.desc=土の地層
 tile.dirt.12.desc=樹皮模様の土
-tile.dirt.13.desc=Jumbled Dirt
-tile.dirt.14.desc=Tilled Dirt
-tile.dirt.15.desc=Large Dirt Tile
+tile.dirt.13.desc=ごちゃ混ぜの土
+tile.dirt.14.desc=耕された土
+tile.dirt.15.desc=大きい土タイル
 
 #Ice
 tile.chisel.ice.name=氷
@@ -1091,24 +1091,24 @@ tile.chisel.dark_oak_planks.name=ダークオークの木材
 tile.chisel.acacia_planks.name=アカシアの木材
 
 #BOP Wood
-tile.chisel.sacredoak_planks.name=Sacred Oak Wood Planks
-tile.chisel.cherry_planks.name=Cherry Wood Planks
-tile.chisel.dark_planks.name=Dark Wood Planks
-tile.chisel.fir_planks.name=Fir Wood Planks
-tile.chisel.ethereal_planks.name=Ethereal Wood Planks
-tile.chisel.magic_planks.name=Magic Wood Planks
-tile.chisel.mangrove_planks.name=Mangrove Wood Planks
-tile.chisel.palm_planks.name=Palm Wood Planks
-tile.chisel.redwood_planks.name=Redwood Wood Planks
-tile.chisel.willow_planks.name=Willow Wood Planks
-tile.chisel.pine_planks.name=Pine Wood Planks
-tile.chisel.hellbark_planks.name=Hellbark Wood Planks
-tile.chisel.jacaranda_planks.name=Jacaranda Wood Planks
-tile.chisel.mahogany_planks.name=Mahogany Wood Planks
+tile.chisel.sacredoak_planks.name=神聖なるオークの木材
+tile.chisel.cherry_planks.name=サクラの木材
+tile.chisel.dark_planks.name=ダークウッドの木材
+tile.chisel.fir_planks.name=モミの木材
+tile.chisel.ethereal_planks.name=エーテルの木材
+tile.chisel.magic_planks.name=マジカルツリーの木材
+tile.chisel.mangrove_planks.name=マングローブの木材
+tile.chisel.palm_planks.name=ヤシの木材
+tile.chisel.redwood_planks.name=セコイアの木材
+tile.chisel.willow_planks.name=ヤナギの木材
+tile.chisel.pine_planks.name=シロマツの木材
+tile.chisel.hellbark_planks.name=ヘルバークの木材
+tile.chisel.jacaranda_planks.name=ジャカランダの木材
+tile.chisel.mahogany_planks.name=マホガニーの木材
 
 #Thaumcraft Wood
-tile.chisel.greatwood_planks.name=Greatwood Wood Planks
-tile.chisel.silverwood_planks.name=Silverwood Wood Planks
+tile.chisel.greatwood_planks.name=グレートウッドの木材
+tile.chisel.silverwood_planks.name=シルバーウッドの木材
 
 #Iron Fence
 tile.chisel.iron_bars.name=鉄格子
@@ -1542,38 +1542,38 @@ tile.dark-oak.planks.14.desc=不揃いなダークオークの木材
 tile.dark-oak.planks.15.desc=不揃いな縦向きのダークオークの木材
 
 #Sacred Oak
-tile.sacredoak.planks.1.desc=Smooth Sacred Oak Wood Planks
-tile.sacredoak.planks.2.desc=Short Sacred Oak Wood Planks
-tile.sacredoak.planks.6.desc=Fancy Sacred Oak Wood Plank Arrangement
-tile.sacredoak.planks.8.desc=Sacred Oak Wood Panel
-tile.sacredoak.planks.9.desc=Sacred Oak Wood Double Slab
-tile.sacredoak.planks.10.desc=Sacred Oak Wood Crate
-tile.sacredoak.planks.11.desc=Fancy Sacred Oak Wood Crate
-tile.sacredoak.planks.13.desc=Large Long Sacred Oak Wood Planks
-tile.sacredoak.planks.3.desc=Vertical Sacred Oak Wood Planks
-tile.sacredoak.planks.4.desc=Vertical Uneven Sacred Oak Wood Planks
-tile.sacredoak.planks.5.desc=Sacred Oak Wood Parquet
-tile.sacredoak.planks.7.desc=Sacred Oak Wood Plank Blinds
-tile.sacredoak.planks.12.desc=Sacred Oak Wood Scaffold
-tile.sacredoak.planks.14.desc=Sacred Oak Wood Planks in Disarray
-tile.sacredoak.planks.15.desc=Vertical Sacred Oak Wood Planks in Disarray
+tile.sacredoak.planks.1.desc=磨かれた神聖なるオークの木材
+tile.sacredoak.planks.2.desc=短めの神聖なるオークの木材
+tile.sacredoak.planks.6.desc=おしゃれな神聖なるオークの木材
+tile.sacredoak.planks.8.desc=神聖なるオークのパネル
+tile.sacredoak.planks.9.desc=重ねた神聖なるオークのパネルのハーフブロック
+tile.sacredoak.planks.10.desc=神聖なるオークの木箱
+tile.sacredoak.planks.11.desc=おしゃれな神聖なるオークの木箱
+tile.sacredoak.planks.13.desc=大きい神聖なるオークの木材
+tile.sacredoak.planks.3.desc=縦向きの神聖なるオークの木材
+tile.sacredoak.planks.4.desc=むらがある縦向きの神聖なるオークの木材
+tile.sacredoak.planks.5.desc=神聖なるオークの寄せ木細工
+tile.sacredoak.planks.7.desc=神聖なるオークの日避け
+tile.sacredoak.planks.12.desc=神聖なるオークの足場
+tile.sacredoak.planks.14.desc=不揃いな神聖なるオークの木材
+tile.sacredoak.planks.15.desc=不揃いな縦向きの神聖なるオークの木材
 
 #Cherry
-tile.cherry.planks.1.desc=Smooth Cherry Wood Planks
-tile.cherry.planks.2.desc=Short Cherry Wood Planks
-tile.cherry.planks.6.desc=Fancy Cherry Wood Plank Arrangement
-tile.cherry.planks.8.desc=Cherry Wood Panel
-tile.cherry.planks.9.desc=Cherry Wood Double Slab
-tile.cherry.planks.10.desc=Cherry Wood Crate
-tile.cherry.planks.11.desc=Fancy Cherry Wood Crate
-tile.cherry.planks.13.desc=Large Long Cherry Wood Planks
-tile.cherry.planks.3.desc=Vertical Cherry Wood Planks
-tile.cherry.planks.4.desc=Vertical Uneven Cherry Wood Planks
-tile.cherry.planks.5.desc=Cherry Wood Parquet
-tile.cherry.planks.7.desc=Cherry Wood Plank Blinds
-tile.cherry.planks.12.desc=Cherry Wood Scaffold
-tile.cherry.planks.14.desc=Cherry Wood Planks in Disarray
-tile.cherry.planks.15.desc=Vertical Cherry Wood Planks in Disarray
+tile.cherry.planks.1.desc=磨かれたサクラの木材
+tile.cherry.planks.2.desc=短めのサクラの木材
+tile.cherry.planks.6.desc=おしゃれなサクラの木材
+tile.cherry.planks.8.desc=サクラのパネル
+tile.cherry.planks.9.desc=重ねたサクラのパネルのハーフブロック
+tile.cherry.planks.10.desc=サクラの木箱
+tile.cherry.planks.11.desc=おしゃれなサクラの木箱
+tile.cherry.planks.13.desc=大きいサクラの木材
+tile.cherry.planks.3.desc=縦向きのサクラの木材
+tile.cherry.planks.4.desc=むらがある縦向きのサクラの木材
+tile.cherry.planks.5.desc=サクラの寄せ木細工
+tile.cherry.planks.7.desc=サクラの日避け
+tile.cherry.planks.12.desc=サクラの足場
+tile.cherry.planks.14.desc=不揃いなサクラの木材
+tile.cherry.planks.15.desc=不揃いな縦向きのサクラの木材
 
 #Dark
 tile.dark.planks.1.desc=Smooth Dark Wood Planks
@@ -2185,8 +2185,8 @@ tile.froglight.4.desc=フラックス
 tile.froglight.5.desc=ウラン
 tile.froglight.6.desc=Girisium
 tile.froglight.7.desc=オランダム
-tile.froglight.8.desc=Blood-Stained
+tile.froglight.8.desc=血染め
 tile.froglight.9.desc=イコル
 
-tile.chisel.amber.name=Block of Amber
-tile.chisel.bloodBrick.name=Bloodstone Brick
+tile.chisel.amber.name=琥珀ブロック
+tile.chisel.bloodBrick.name=ブラッドストーンレンガ
