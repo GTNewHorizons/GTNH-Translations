@@ -1,9 +1,9 @@
 key.categories.bogosorter=Inventory Bogo Sorter
 key.sort_config=Открыть конфигурацию сортировки
 key.sort=Сортировать инвентарь
-key.dropoff=Выбросить
-key.dropoff.tooltip1=Dropoff To Nearby Inventories
-key.dropoff.tooltip2=Control + Drag To Move
+key.dropoff=Сбросить
+key.dropoff.tooltip1=Сбросить в ближайшие хранилища
+key.dropoff.tooltip2=CTRL + зажать для перемещения
 key.tooltip.keybind=Сочетание клавиш
 
 bogosort.gui.title=Конфигурация сортировки
@@ -25,10 +25,10 @@ bogosort.gui.hotbar_scrolling.tooltip=Прокручивание стобцов 
 bogosort.gui.enabled=Включено
 bogosort.gui.button.enabled=Enable sort and config buttons in GUI's
 bogosort.gui.button.color=Background color of sort buttons
-bogosort.gui.dropoff_enable=Включить выброс
-bogosort.gui.dropoffbutton_enable=Показать кнопку вырузки в инвентаре
-bogosort.gui.dropoff_render=Показать цели выгрузки
-bogosort.gui.dropoff_chatmessage=Показать сообщение в чате о выгрузке
+bogosort.gui.dropoff_enable=Включить сброс
+bogosort.gui.dropoffbutton_enable=Показать кнопку сброса в инвентаре
+bogosort.gui.dropoff_render=Показать цели сброса
+bogosort.gui.dropoff_chatmessage=Показать сообщение в чате о сбросе
 bogosort.gui.usageticker_enable=Включить тикер использования
 bogosort.gui.usageticker_mainhand=Включить тикер использования основной руки
 bogosort.gui.usageticker_offhand=Включить тикер использования неосновной руки
@@ -90,19 +90,19 @@ bogosort.sortrules.nbt.enchantment_book.description=Сортирует зача�
 bogosort.sortrules.nbt.gt_circ_config.description=Сортирует программируемые схемы GregTech по их конфигурации
 bogosort.sortrules.nbt.gt_item_damage.description=Сортирует инструменты GregTech по их повреждению
 
-bogosorter.config.dropoff=Drop-Off Settings
-bogosorter.config.dropoff.enable=Enable drop-off
-bogosorter.config.dropoff.scan_radius=Drop-off scan radius (blocks)
-bogosorter.config.dropoff.render=Render highlight on containers
-bogosorter.config.dropoff.chat_message=Show chat message on drop-off
+bogosorter.config.dropoff=Настройка сброса
+bogosorter.config.dropoff.enable=Включить сброс
+bogosorter.config.dropoff.scan_radius=Радиус сканирования для сброса (блоки)
+bogosorter.config.dropoff.render=Подсвечивать хранилища
+bogosorter.config.dropoff.chat_message=Показывать сообщение в чате о сбросе
 bogosorter.config.dropoff.quota=Drop-off quota (ms)
 bogosorter.config.dropoff.throttle=Drop-off throttle (ms)
-bogosorter.config.dropoff.targets=Container name filters
+bogosorter.config.dropoff.targets=Фильтр хранилищ (имена)
 
-bogosorter.config.dropoff.button=Drop-Off Button Settings
+bogosorter.config.dropoff.button=Настройки кнопки сброса
 bogosorter.config.dropoff.button.x=Положение кнопки X
 bogosorter.config.dropoff.button.y=Положение кнопки Y
-bogosorter.config.dropoff.button.visible=Show Drop-Off Button
+bogosorter.config.dropoff.button.visible=Показывать кнопку сброса
 
 bogosorter.config.usage_ticker=Usage Ticker Settings
 bogosorter.config.usage_ticker.enable=Enable usage ticker
