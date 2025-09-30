@@ -70,18 +70,18 @@ thaumicenergistics.tooltip.itemstack.details=§eCTRL§fを押して詳細を表�
 thaumicenergistics.tooltip.essentia.cell.contains=保持中のエッセンシア
 thaumicenergistics.tooltip.essentia.cell.bytes=バイト使用済み
 thaumicenergistics.tooltip.essentia.cell.types=種類のエッセンシアを保持
-thaumicenergistics.tooltip.button.void=Allow Void?
-thaumicenergistics.tooltip.button.void.disabled=Do not void essentia
-thaumicenergistics.tooltip.button.void.allowed=Void essentia if jar is full
-thaumicenergistics.tooltip.button.void.note=Only applies to void jars
-thaumicenergistics.tooltip.button.inscriber.invalid=Invalid Arcane Recipe
-thaumicenergistics.tooltip.button.inscriber.full=Knowledge Core Is Full
-thaumicenergistics.tooltip.button.inscriber.delete=Erase Pattern From Knowledge Core
-thaumicenergistics.tooltip.button.inscriber.save=Save Pattern To Knowledge Core
-thaumicenergistics.tooltip.button.inscriber.missing=Requires Knowledge Core
-thaumicenergistics.tooltip.button.swap.armor=Swaps your currently equipped armor with the armor stored in the terminal.
-thaumicenergistics.tooltip.button.swap.armor.title=Swap Armor
-thaumicenergistics.tooltip.arcane.assembler.hasVis=Contains Stored Vis
+thaumicenergistics.tooltip.button.void=超過分の消去
+thaumicenergistics.tooltip.button.void.disabled=エッセンシアを消去しない
+thaumicenergistics.tooltip.button.void.allowed=瓶が満杯のときエッセンシアを消去
+thaumicenergistics.tooltip.button.void.note=虚無の瓶にのみ適用
+thaumicenergistics.tooltip.button.inscriber.invalid=無効な神秘の作業台レシピ
+thaumicenergistics.tooltip.button.inscriber.full=知識のコアの登録上限
+thaumicenergistics.tooltip.button.inscriber.delete=知識のコアからパターンを削除
+thaumicenergistics.tooltip.button.inscriber.save=知識のコアからパターンを保存
+thaumicenergistics.tooltip.button.inscriber.missing=知識のコアが必要
+thaumicenergistics.tooltip.button.swap.armor=現在装備中の防具とターミナル内に保持中の防具を入れ替える
+thaumicenergistics.tooltip.button.swap.armor.title=防具の入れ替え
+thaumicenergistics.tooltip.arcane.assembler.hasVis=Visを保持中
 thaumicenergistics.tooltip.button.reset.aspect=Reset the aspects
 thaumicenergistics.tooltip.button.reset.aspect.description=Reset the left-hand aspects table to its original state
 thaumicenergistics.tooltip.advanced.infusion.provider.working.on=Working Mode
@@ -91,15 +91,15 @@ thaumicenergistics.tooltip.advanced.infusion.provider.totalbind=Total bound to %
 
 
 #GUI
-thaumicenergistics.gui.arcane.crafting.terminal.title=Arcane Terminal
-thaumicenergistics.gui.essentia.cell.title=Essentia Cell
-thaumicenergistics.gui.selected.amount=Amount
-thaumicenergistics.gui.selected.aspect=Aspect
+thaumicenergistics.gui.arcane.crafting.terminal.title=神秘のターミナル
+thaumicenergistics.gui.essentia.cell.title=エッセンシアセル
+thaumicenergistics.gui.selected.amount=量
+thaumicenergistics.gui.selected.aspect=相
 thaumicenergistics.gui.digivis.source.name=DigiVis Source
-thaumicenergistics.gui.essentia.cell.workbench.title=Essentia Cell Workbench
+thaumicenergistics.gui.essentia.cell.workbench.title=エッセンシアセルワークベンチ
 thaumicenergistics.gui.arcane.assembler.title=神秘の組立室
-thaumicenergistics.gui.vibration.chamber.stored=Stored: %d %s
-thaumicenergistics.gui.vibration.chamber.processing=Processing: %s
+thaumicenergistics.gui.vibration.chamber.stored=保持中: %d %s
+thaumicenergistics.gui.vibration.chamber.processing=処理中: %s
 
 #Research Tab
 tc.research_category.thaumicenergistics=魔導分子工学 - Thaumic Energistics
