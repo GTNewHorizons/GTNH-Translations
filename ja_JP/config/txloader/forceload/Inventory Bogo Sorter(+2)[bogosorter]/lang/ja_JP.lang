@@ -1,6 +1,7 @@
 key.categories.bogosorter=Inventory Bogo Sorter
 key.sort_config=ソート設定を開く
-key.sort=インベントリのソート
+key.sort_nogui=Sort Inventory Outside GUIs
+key.sort_gui=Sort Inventory In GUIs
 key.dropoff=自動収納
 key.dropoff.tooltip1=付近のインベントリに自動収納
 key.dropoff.tooltip2=Ctrl + ドラッグで移動
@@ -114,6 +115,7 @@ bogosorter.config.sort.sound=ソートボタンのクリック音
 bogosorter.config.hotbarsort.enable=ホットバーのソートを有効化
 bogosorter.config.hotbarswap.enable=ホットバーの入れ替えを有効化
 bogosorter.config.autorefill.enable=自動補充を有効化
+bogosorter.config.autorefill.enable_server=Enable auto-refill (Server Toggle)
 bogosorter.config.autorefill.damage_threshold=自動補充のダメージしきい値
 bogosorter.config.preventSplit=スタック不可能なアイテムの分離を防止
 bogosorter.config.button.color=ソートボタンの色
