@@ -132,7 +132,9 @@ chat.appliedenergistics2.ChestLockingToggled=Sandıktaki hücreler bölünmüşt
 chat.appliedenergistics2.FinishCraftingRemind=%s * %s üretimi %s süresinde tamamlandı.
 chat.appliedenergistics2.CraftingCantExtract=Depodan gereken miktarda malzeme alınamıyor: %d / %d | %s
 chat.appliedenergistics2.MachineInOtherDim=%d boyutunda bulundu ve vurgulanamıyor.
+chat.appliedenergistics2.MachineInOtherDimNamed=%d "%s" located in dimension: %d and cant be highlighted
 chat.appliedenergistics2.MachineHighlighted=%d (%d, %d, %d)'de vurgulandı.
+chat.appliedenergistics2.MachineHighlightedNamed=The %d "%d" is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageHighlighted=The %d containing %d %d is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d containing %d %d is located in dimension: %d and cant be highlighted
 
@@ -273,6 +275,8 @@ gui.appliedenergistics2.Empty=Boş
 gui.appliedenergistics2.Stored=Haznede
 gui.appliedenergistics2.AddToBookmark=Yer İmi
 gui.appliedenergistics2.Cancel=İptal
+gui.appliedenergistics2.Suspend=Suspend
+gui.appliedenergistics2.Resume=Resume
 gui.appliedenergistics2.ETAFormat=HH:mm:ss
 gui.appliedenergistics2.SwitchCraftingSimulationDisplayMode=Görüntüleme modunu değiştir (Liste/Ağaç)
 gui.appliedenergistics2.Crafting=Üretim
@@ -589,6 +593,9 @@ gui.tooltips.appliedenergistics2.CPUAllowAllDesc=Tüm üretim isteklerine izin v
 gui.tooltips.appliedenergistics2.CPUOnlyAllowPlayerDesc=Sadece oyuncudan gelen üretim isteklerine izin ver
 gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Sadece oyuncudan olmayan üretim isteklerine izin ver
 
+gui.tooltips.appliedenergistics2.Suspend=Click to stop this CPU from sending out crafts
+gui.tooltips.appliedenergistics2.Resume=Click to make this CPU send out crafts again
+
 gui.tooltips.appliedenergistics2.PinsSection=Sabitlenenler Bölmesi
 gui.tooltips.appliedenergistics2.PinsSectionActive=Sabitlenenler Bölmesi Aktif
 gui.tooltips.appliedenergistics2.PinsSectionDisabled=Sabitlenenler Bölmesi Devre Dışı
@@ -667,6 +674,7 @@ item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Yapay Evren ME Dep
 item.appliedenergistics2.ItemCreativeStorageCell.name=Yaratıcı ME Depolama Hücresi
 item.appliedenergistics2.ItemVoidStorageCell.name=Boşluk ME Depolama Hücresi
 item.appliedenergistics2.ItemEncodedPattern.name=Kodlanmış Kalıp
+item.appliedenergistics2.ItemEncodedUltimatePattern.name=Encoded Ultimate Pattern
 item.appliedenergistics2.ItemViewCell.name=Görüntüleme Hücresi
 item.appliedenergistics2.ItemFacade.name=Kablo Dış Cephesi
 
