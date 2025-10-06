@@ -132,7 +132,9 @@ chat.appliedenergistics2.ChestLockingToggled=Ячейка в сундуке бы
 chat.appliedenergistics2.FinishCraftingRemind=Крафт %s * %s завершён за %s.
 chat.appliedenergistics2.CraftingCantExtract=Невозможно извлечь ингредиент: %d / %d | %s
 chat.appliedenergistics2.MachineInOtherDim=%d расположен в измерении: %d и не может быть подсвечен
+chat.appliedenergistics2.MachineInOtherDimNamed=%d "%s" located in dimension: %d and cant be highlighted
 chat.appliedenergistics2.MachineHighlighted=%d сейчас подсвечен и находится: %d, %d, %d
+chat.appliedenergistics2.MachineHighlightedNamed=The %d "%d" is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageHighlighted=%d содержащий %d %d сейчас подсвечен и находится: %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d содержащий %d %d находится в измерении: %d и не может быть выделен
 
@@ -273,6 +275,8 @@ gui.appliedenergistics2.Empty=Пустой
 gui.appliedenergistics2.Stored=Хранится
 gui.appliedenergistics2.AddToBookmark=Закладка
 gui.appliedenergistics2.Cancel=Отмена
+gui.appliedenergistics2.Suspend=Suspend
+gui.appliedenergistics2.Resume=Resume
 gui.appliedenergistics2.ETAFormat=HH:mm:ss
 gui.appliedenergistics2.SwitchCraftingSimulationDisplayMode=Переключить режим отображения (Список/Дерево)
 gui.appliedenergistics2.Crafting=Создание
@@ -589,6 +593,9 @@ gui.tooltips.appliedenergistics2.CPUAllowAllDesc=Разрешить все за�
 gui.tooltips.appliedenergistics2.CPUOnlyAllowPlayerDesc=Разрешить только запросы на создание предметов от игрока
 gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Разрешить запросы на создание предметов только от неигроков
 
+gui.tooltips.appliedenergistics2.Suspend=Click to stop this CPU from sending out crafts
+gui.tooltips.appliedenergistics2.Resume=Click to make this CPU send out crafts again
+
 gui.tooltips.appliedenergistics2.PinsSection=Секция закрепленных предметов
 gui.tooltips.appliedenergistics2.PinsSectionActive=Секция закрепленных предметов включена
 gui.tooltips.appliedenergistics2.PinsSectionDisabled=Секция закрепленных предметов отключена
@@ -667,6 +674,7 @@ item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=МЭ ячейка 
 item.appliedenergistics2.ItemCreativeStorageCell.name=Творческая МЭ ячейка хранения
 item.appliedenergistics2.ItemVoidStorageCell.name=МЭ пустотная ячейка хранения
 item.appliedenergistics2.ItemEncodedPattern.name=Закодированный шаблон
+item.appliedenergistics2.ItemEncodedUltimatePattern.name=Encoded Ultimate Pattern
 item.appliedenergistics2.ItemViewCell.name=Ячейка представления
 item.appliedenergistics2.ItemFacade.name=Кабельный фасад
 
