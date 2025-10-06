@@ -132,7 +132,9 @@ chat.appliedenergistics2.ChestLockingToggled=Celda en el cofre fue Particionada/
 chat.appliedenergistics2.FinishCraftingRemind=La elaboración de %s × %s ha terminado en %s
 chat.appliedenergistics2.CraftingCantExtract=No se puede extraer la cantidad requerida de ingrediente del Almacenamiento: %d / %d | %s 
 chat.appliedenergistics2.MachineInOtherDim=%d ubicada en la dimensión: %d , no puede ser resaltada
+chat.appliedenergistics2.MachineInOtherDimNamed=%d "%s" located in dimension: %d and cant be highlighted
 chat.appliedenergistics2.MachineHighlighted=La %d ahora esta resaltada en %d, %d, %d
+chat.appliedenergistics2.MachineHighlightedNamed=The %d "%d" is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageHighlighted=El %d contiene %d %d esta ahora resaltado en %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d contiene %d %d esta ubicado en la dimensión: %d y no puede ser resaltado
 
@@ -273,6 +275,8 @@ gui.appliedenergistics2.Empty=Vacío
 gui.appliedenergistics2.Stored=Almacenado
 gui.appliedenergistics2.AddToBookmark=Marcador 
 gui.appliedenergistics2.Cancel=Cancelar
+gui.appliedenergistics2.Suspend=Suspend
+gui.appliedenergistics2.Resume=Resume
 gui.appliedenergistics2.ETAFormat=HH:mm:ss
 gui.appliedenergistics2.SwitchCraftingSimulationDisplayMode=Cambiar modo de visualización (Lista/Árbol)
 gui.appliedenergistics2.Crafting=Elaborando
@@ -589,6 +593,9 @@ gui.tooltips.appliedenergistics2.CPUAllowAllDesc=Permitir todas las peticiones d
 gui.tooltips.appliedenergistics2.CPUOnlyAllowPlayerDesc=Permitir solo las peticiones de elaboración del jugador
 gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Permitir solo las peticiones de elaboración de No-Jugadores
 
+gui.tooltips.appliedenergistics2.Suspend=Click to stop this CPU from sending out crafts
+gui.tooltips.appliedenergistics2.Resume=Click to make this CPU send out crafts again
+
 gui.tooltips.appliedenergistics2.PinsSection=Sección de pines 
 gui.tooltips.appliedenergistics2.PinsSectionActive=Sección de pines habilitada 
 gui.tooltips.appliedenergistics2.PinsSectionDisabled=Sección de pines deshabilitada
@@ -667,6 +674,7 @@ item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Celda de Almacenam
 item.appliedenergistics2.ItemCreativeStorageCell.name=Unidad de Almacenamiento Creativa ME
 item.appliedenergistics2.ItemVoidStorageCell.name=Celda de Almacenamiento del Vacío ME 
 item.appliedenergistics2.ItemEncodedPattern.name=Patrón Codificado
+item.appliedenergistics2.ItemEncodedUltimatePattern.name=Encoded Ultimate Pattern
 item.appliedenergistics2.ItemViewCell.name=Celda de Visión
 item.appliedenergistics2.ItemFacade.name=Fachada de Cable
 
