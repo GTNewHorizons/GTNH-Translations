@@ -1,48 +1,48 @@
-salisarcana:command.category_header=Category: %s
-salisarcana:command.desc=Description:
-salisarcana:command.usage=Usage:
-salisarcana:command.args=Arguments:
+salisarcana:command.category_header=項目: %s
+salisarcana:command.desc=説明:
+salisarcana:command.usage=使い方:
+salisarcana:command.args=引数:
 
-salisarcana:command.error.tabcomplete=An error occurred while getting tab-completion suggestions. Please open a bug report, including your server log, on the the Salis Arcana GitHub.
-salisarcana:command.error.execute=An error occurred while executing this command. If this happens again, please open a bug report, including your server log, on the the Salis Arcana GitHub.
+salisarcana:command.error.tabcomplete=Tabキーでの候補補完中にエラーが発生しました。サーバーログを添付してSalis ArcanaのGitHubにバグ報告をお願いします。
+salisarcana:command.error.execute=このコマンドの実行中にエラーが発生しました。再度起こった場合、サーバーログを添付してSalis ArcanaのGitHubにバグ報告をお願いします。
 
-salisarcana:command.create-node.desc=Create a new randomly-generated node at the specified coordinates.
+salisarcana:command.create-node.desc=指定した座標に新しくランダムなオーラ節を生み出す。
 salisarcana:command.create-node.usage=§7/salisarcana-create-node §7<x> §7<y> §7<z> §7[-t §7<type>] §7[-m §7<modifier>] §7[--silverwood] §7[--eerie] §7[--small] §7[-a §7<aspect1> §7<count1>[ §7-a §7<aspect2> §7<count2>[ §7...]]]§r
-salisarcana:command.create-node.args.coord=§7§o<x> <y> <z>§r §cRequired.§r Specify where the node will be created.
-salisarcana:command.create-node.args.type=§7§o[-t <type>]§r Specify the new node's type
-salisarcana:command.create-node.args.modifier=§7§o[-m <modifier>]§r Specify the new node's modifier
-salisarcana:command.create-node.args.silverwood=§7§o[--silverwood]§r Spawn a pure, small node, as though generated in a silverwood tree. Mutually exclusive with §7--eerie§r and §7--small§r.
-salisarcana:command.create-node.args.eerie=§7§o[--eerie]§r Spawn a dark node, as though generated in an obsidian totem. Mutually exclusive with §7--silverwood§r.
-salisarcana:command.create-node.args.small=§7§o[--small]§r The node will have low aspect capacity. Mutually exclusive with §7--silverwood§r and §7-a§r.
-salisarcana:command.create-node.args.aspect=§7§o[-a <aspect> <count>]§r Override the new node's aspects. Can be used multiple times to specify additional aspects. Mutually exclusive with §7--small§r.
+salisarcana:command.create-node.args.coord=§7§o<x> <y> <z>§r §c必須。§rオーラ節を生成する座標を指定する。
+salisarcana:command.create-node.args.type=§7§o[-t <type>]§r 新しいオーラ節の種類を指定する。
+salisarcana:command.create-node.args.modifier=§7§o[-m <modifier>]§r 新しいオーラ節のモディファイアを指定する。
+salisarcana:command.create-node.args.silverwood=§7§o[--silverwood]§r シルバーウッド内に生成されるのと同様の小さな純粋節をスポーンさせる。§7--eerie§r及び§7--small§rと相互排他的。
+salisarcana:command.create-node.args.eerie=§7§o[--eerie]§r 黒曜石のトーテム内に生成されるのと同様の邪悪節をスポーンさせる。§7--silverwood§rと相互排他的。
+salisarcana:command.create-node.args.small=§7§o[--small]§r オーラ節の相の容量を小さくする。§7--silverwood§r及び§7-a§rと相互排他的。
+salisarcana:command.create-node.args.aspect=§7§o[-a <aspect> <count>]§r 新しいオーラ節の相を上書きする。追加の相を複数回指定することが可能。§7--small§rと相互排他的。
 
-salisarcana:command.create-node.failure=A node could not be created at %d %d %d.
+salisarcana:command.create-node.failure=座標 %d %d %d にオーラ節が生成できませんでした。
 
-salisarcana:command.forget-research.desc=Remove research from a player's knowledge.
+salisarcana:command.forget-research.desc=プレイヤーの知識から研究を削除する。
 salisarcana:command.forget-research.usage=§7/salisarcana-forget-research §7<--all §7§lOR§r §7--research-key §7<key>[ §7--research-key §7<key2> §7...]> §7[--player §7<username>] §7[--scalpel]§r
-salisarcana:command.forget-research.args.all=§7<--all>§r Remove all research from the player's known research. Required if §7research-key§r is not provided. Mutually exclusive with §7research-key§r and §7scalpel§r.
-salisarcana:command.forget-research.args.research=§7<--research-key>§r Specify the id of the research to remove. Can be provided multiple times. Required if §7all§r is not set. Mutually exclusive with §7all§r.
-salisarcana:command.forget-research.args.player=§7[--player <username>]§r Specify the player whose research will be altered. If not provided, defaults to the player executing this command.
-salisarcana:command.forget-research.args.scalpel=§7[--scalpel]§r If set, the specified research will be removed, but not any of its siblings or descendants. This may have unexpected side effects. Mutually exclusive with §7all§r.
+salisarcana:command.forget-research.args.all=§7<--all>§r プレイヤーの既知の研究をすべて削除する。§7research-key§rが入力されていない場合は必須。§7research-key§r 及び§7scalpel§rと相互排他的。
+salisarcana:command.forget-research.args.research=§7<--research-key>§r 削除したい研究のIDを指定する。複数回入力可能。§7all§rが入力されていない場合は必須。§7all§rと相互排他的。
+salisarcana:command.forget-research.args.player=§7[--player <username>]§r 研究を削除したいプレイヤーを指定する。入力されていない場合、デフォルトでこのコマンドを実行したプレイヤーが指定される。
+salisarcana:command.forget-research.args.scalpel=§7[--scalpel]§r 設定した場合、指定した研究は削除されるが、同時解放される研究や指定の研究を前提とする研究は削除されない。これは予期せぬ副作用をもたらす可能性がある。§7all§rと相互排他的。
 salisarcana:command.forget-research.args.retain-warp=§7[--retain-warp]§r If set, any permanent and/or sticky warp associated with the removed research will be kept.
 
 salisarcana:command.forget-research.remove=§9Success:§r Removed %d research items and any associated warp, collectively removing %d permanent warp and %d sticky warp.
 salisarcana:command.forget-research.retain=§9Success:§r Removed %d research items. (%d permanent warp and %d sticky warp was §lnot§r removed.)
 
-salisarcana:command.forget-scanned.desc=Resets the lists of things a player has scanned, allowing those things to be scanned again.
+salisarcana:command.forget-scanned.desc=プレイヤーが調査したアイテムのリストをリセットし、同じアイテムを再度調査可能にする。
 salisarcana:command.forget-scanned.usage=§7/salisarcana-forget-scanned §7[--player §7<username>] §7[--objects] §7[--entities] §7[--nodes] §7[--all] §7[--aspects <...>]§r
-salisarcana:command.forget-scanned.args.player=§7[--player <username>]§r Specify the player whose scanned things will be altered. If not provided, defaults to the player executing this command.
-salisarcana:command.forget-scanned.args.objects=§7[--objects]§r Reset scanned items and blocks.
-salisarcana:command.forget-scanned.args.entities=§7[--entities]§r Reset scanned entities, including mobs.
-salisarcana:command.forget-scanned.args.nodes=§7[--nodes]§r Reset scanned nodes.
-salisarcana:command.forget-scanned.args.hand=§7[--hand]§r Reset the item currently held. Mutually exclusive with §7--all§r.
-salisarcana:command.forget-scanned.args.inventory=§7[--inventory]§r Reset all items in your inventory. Mutually exclusive with §7--all§r.
-salisarcana:command.forget-scanned.args.looking=§7[--looking]§r Reset the block you are currently looking at. Mutually exclusive with §7--all§r.
-salisarcana:command.forget-scanned.args.container=§7[--container]§r Reset all items in the container (eg. Chest) you are looking at. Mutually exclusive with §7--all§r.
+salisarcana:command.forget-scanned.args.player=§7[--player <username>]§r 調査リストを削除したいプレイヤーを指定する。入力されていない場合、デフォルトでこのコマンドを実行したプレイヤーが指定される。
+salisarcana:command.forget-scanned.args.objects=§7[--objects]§r アイテムとブロックの調査がリセットされる。
+salisarcana:command.forget-scanned.args.entities=§7[--entities]§r エンティティ(Mobを含む)の調査がリセットされる。
+salisarcana:command.forget-scanned.args.nodes=§7[--nodes]§r オーラ節の調査がリセットされる。
+salisarcana:command.forget-scanned.args.hand=§7[--hand]§r 現在手に持っているアイテムの調査がリセットされる。§7--all§rと相互排他的。
+salisarcana:command.forget-scanned.args.inventory=§7[--inventory]§r インベントリ内にある全てのアイテムの調査がリセットされる。§7--all§rと相互排他的。
+salisarcana:command.forget-scanned.args.looking=§7[--looking]§r 現在視線の先にあるブロックの調査がリセットされる。§7--all§rと相互排他的。
+salisarcana:command.forget-scanned.args.container=§7[--container]§r 現在視線の先にあるコンテナ(チェストなど)に入っているすべてのアイテムの調査がリセットされる。§7--all§rと相互排他的。
 salisarcana:command.forget-scanned.args.all=§7[--all]§r Combines the effects of §7objects§r, §7entities§r, and §7nodes§r
 
-salisarcana:command.forget-scanned.success=§9Success:§r %d entries were removed from %s's scan lists.
-salisarcana:command.forget-scanned.failure=§cFailure:§r There was nothing to remove from %s's scan lists.
+salisarcana:command.forget-scanned.success=§9成功:§r %d 項目が%sの調査リストから削除されました。
+salisarcana:command.forget-scanned.failure=§c失敗:§r %sの調査リストに削除する項目がありません。
 
 salisarcana:command.forget-aspect.desc=Forget or reset aspects from a player's knowledge.
 salisarcana:command.forget-aspect.usage=§7/salisarcana-forget-aspect §7[--player §7<username>] §7[--reset] §7[--forget] §7[--aspect <...>] §7[--all] §r
@@ -56,20 +56,20 @@ salisarcana:command.forget-aspect.success=§9Success:§r %d aspects were altered
 salisarcana:command.forget-aspect.failure=§cFailure:§r There was nothing to alter for %s.
 salisarcana:command.forget-aspect.no-action=§cFailure:§r No action specified. You must specify either §7--reset§r or §7--forget§r.
 
-salisarcana:command.help.desc=Get help information about a Salis Arcana command.
+salisarcana:command.help.desc=Salis Arcanaのコマンドについて情報を表示する。
 salisarcana:command.help.usage=§7/salisarcana-help §7[command]§r
-salisarcana:command.help.args.cmd=§7§o[command]§r The name or alias of a Salis Arcana command.
+salisarcana:command.help.args.cmd=§7§o[command]§r Salis Arcanaのコマンド名またはエイリアス。
 
-salisarcana:command.help.available=Available commands:
-salisarcana:command.help.nocommands=There are no enabled Salis Mundis commands you have permission to use.
+salisarcana:command.help.available=利用可能なコマンド:
+salisarcana:command.help.nocommands=あなたが使用可能なSalis Mundisのコマンドはありません。
 
-salisarrcana:command.infusion-symmetry.desc=Get the symmetry of the nearest runic matrix within 8 blocks, or at the specified coordinates.
+salisarrcana:command.infusion-symmetry.desc=指定した座標に存在する、または8ブロック以内の最も近い位置に存在するルーンのマトリクスの対称性を確認する。
 salisarrcana:command.infusion-symmetry.usage=§7/salisarcana-infusion-symmetry §7[<x> §7<y> §7<z>]§r
-salisarrcana:command.infusion-symmetry.args.coord=§7[<x> §7<y> §7<z>]§r Optional. The coordinates of the Runic Matrix whose stability should be checked.
-salisarrcana:command.infusion-symmetry.not_found_coords=A runic matrix was not found at the given coordinates.
-salisarrcana:command.infusion-symmetry.not_found_nearby=No runic matrix found nearby.
-salisarrcana:command.infusion-symmetry.found=§9This runic matrix can stabilize recipes up to instability§r %d.
-salisarrcana:command.infusion-symmetry.accessError=Something went wrong with this command. Please report this to the mod authors.
+salisarrcana:command.infusion-symmetry.args.coord=§7[<x> §7<y> §7<z>]§r 任意。安定度を確認するルーンのマトリクスがある座標。
+salisarrcana:command.infusion-symmetry.not_found_coords=指定された座標にルーンのマトリクスが見つかりませんでした。
+salisarrcana:command.infusion-symmetry.not_found_nearby=付近にルーンのマトリクスが見つかりません。
+salisarrcana:command.infusion-symmetry.found=§9このルーンのマトリクスは不安定度が最大§r %d§9 のレシピを安定化できます。
+salisarrcana:command.infusion-symmetry.accessError=このコマンド実行時に問題が発生しました。Mod作者にご報告ください。
 
 salisarcana:command.list-research.desc=List registered TC4 research, grouped by tab in the Thaumonomicon.
 salisarcana:command.list-research.usage=§7/salisarcana-list-research §7[--player §7<username>] §7[--search §7<search §7term>]§r
@@ -121,144 +121,144 @@ salisarcana:commands.export-research.success=§9Success:§r Exported %s research
 salisarcana:commands.export-research.usage=/salisarcana-export-research --research <research-key> [--overwrite]
 salisarcana:commands.export-research.failed=§cFailure:§r Failed to export %s. Research likely has unsupported properties.
 
-salisarcana:error.invalid_aspect="%s" is not a known aspect.
+salisarcana:error.invalid_aspect="%s" は未知の相です。
 salisarcana:error.invalid_focus_upgrade=%s is not a known focus upgrade.
-salisarcana:error.invalid_node_modifier=%s is not a known node modifier.
-salisarcana:error.invalid_node_type=%s is not a known node type.
+salisarcana:error.invalid_node_modifier=%s は未知のモディファイアです。
+salisarcana:error.invalid_node_type=%s は未知の種類のオーラ節です。
 salisarcana:error.unexpected_value=Unexpected input "%s".
 salisarcana:error.unknown_value=Unknown value "%s".
 salisarcana:error.unknown_research=%s is not a known research key.
 
-salisarcana:update_available=A new version of Salis Arcana is available (%s). 
-salisarcana:update_link= §9Click here to open the download page.§r
+salisarcana:update_available=新しいバージョンのSalis Arcanaが利用可能です。(%s)
+salisarcana:update_link= §9クリックしてダウンロードページを開きます。§r
 
-salisarcana:tcinventoryscan_notice=§eNotice:§r Thaumic Inventory Scanning is installed. It is §cdeprecated§r by Salis Arcana, and should be removed to avoid conflicts. You can enable Salis Arcana's scanning features in salisarcana/enhancements.cfg.
+salisarcana:tcinventoryscan_notice=§eお知らせ:§r Thaumic Inventory Scanningがインストールされています。このModとSalis Arcanaの同時使用は§c非推奨§rであり、競合を回避するため削除されます。salisarcana/enhancements.cfgからSalis Arcanaの同要素を有効化できます。
 
-tc.research_name.CAP_iron=Iron Wand Caps
-tc.research_name.ROD_wood=Wooden Wand Core
+tc.research_name.CAP_iron=鉄の石突
+tc.research_name.ROD_wood=木の杖身
 
-salisarcana:tcinventoryscan.scanning=Scanning
-salisarcana:tcinventoryscan.thaumometerTooltip=Inventory Scanning available
-salisarcana:tcinventoryscan.thaumometerTooltipMore=Hover items with the Thaumometer\non the cursor to scan.
+salisarcana:tcinventoryscan.scanning=スキャン中
+salisarcana:tcinventoryscan.thaumometerTooltip=インベントリからの調査が可能
+salisarcana:tcinventoryscan.thaumometerTooltipMore=ソーモメーターを持ち\nアイテムにカーソルを合わせて調査。
 
-tc.research_name.salisarcana:REPLACEWANDCAPS=Wand Cap Substitution
-tc.research_text.salisarcana:REPLACEWANDCAPS=Improving what is
-tc.research_page.salisarcana:REPLACEWANDCAPS.0=With proper technique, a casting implement's caps can be replaced. This destroys the implement's existing caps, but preserves its core.<BR>Replacing an implement's caps requires the same amount of vis as it would take to craft the same implement from scratch. Upgrading a Gold Banded Greatwood Wand to a Thaumium Bossed Greatwood Wand will cost just as much vis as creating a Thaumium Bossed Greatwood Wand directly.  
+tc.research_name.salisarcana:REPLACEWANDCAPS=石突の置換
+tc.research_text.salisarcana:REPLACEWANDCAPS=改善すべき所を改善
+tc.research_page.salisarcana:REPLACEWANDCAPS.0=適切な技術を用いれば、杖の石突を交換することができる。これにより既存の石突は破壊されるが、杖身は残る。<BR>杖の石突を交換するには、同じ杖を最初からクラフトするのと同量のVisが必要となる。例えば、金留めのグレートウッドの杖を魔導金属留めのグレートウッドの杖にアップグレードするには、魔導金属留めのグレートウッドの杖を直接作るのと同じVisコストがかかる。
 
-tc.research_name.salisarcana:REPLACEWANDCORE=Wand Core Substitution
-tc.research_text.salisarcana:REPLACEWANDCORE=Improving what is
-tc.research_page.salisarcana:REPLACEWANDCORE.0=With proper technique, a casting implement's core can be replaced. This destroys the implement's existing core, but preserves its caps.<BR>Replacing an implement's core requires the same amount of vis as it would take to craft the same implement from scratch. Upgrading a Gold Banded Greatwood Wand to a Gold Banded Silverwood Wand will cost just as much vis as creating a Gold Banded Silverwood Wand directly.
+tc.research_name.salisarcana:REPLACEWANDCORE=杖身の置換
+tc.research_text.salisarcana:REPLACEWANDCORE=改善すべき所を改善
+tc.research_page.salisarcana:REPLACEWANDCORE.0=適切な技術を用いれば、杖の杖身を交換することができる。これにより既存の杖身は破壊されるが、石突は残る。<BR>杖の杖身を交換するには、同じ杖を最初からクラフトするのと同量のVisが必要となる。例えば、金留めのグレートウッドの杖を金留めのシルバーウッドの杖にアップグレードするには、金留めのシルバーウッドの杖を直接作るのと同じVisコストがかかる。
 
-tc.research_name.salisarcana:CHESTSCAN=Container Scanning
-tc.research_text.salisarcana:CHESTSCAN=Looking a little closer
-tc.research_page.salisarcana:CHESTSCAN.0=Thanks to your research about deconstructing items, you've learned to look inside other blocks with your Thaumometer by using it to "deconstruct" the block magically. You can scan any block that can hold items, such as a chest or hopper, to scan all contained items automatically.
+tc.research_name.salisarcana:CHESTSCAN=コンテナの調査
+tc.research_text.salisarcana:CHESTSCAN=もう少し近づいて覗いてみたら
+tc.research_page.salisarcana:CHESTSCAN.0=アイテムの分解について研究したおかげで、ソーモメーターでブロックを魔術的に"分解"し、ブロックの中まで覗けるようになった。チェストやホッパーといったアイテムを保持可能なブロックに対して、その内容物すべてを自動的に調査できるようになったのだ。
 
-item.Wand.staffter.obj=Staffter
+item.Wand.staffter.obj=上級錫杖
 
-focus.upgrade.salisarcana:disenchant.name=Disenchant Focus
-focus.upgrade.salisarcana:disenchant.text=Remove the last upgrade applied to the focus and refund some of the XP spent.
-focus.upgrade.salisarcana:disenchant.text.generic=Remove the last upgrade applied to the focus and refund %d%% of the XP spent.
-focus.upgrade.salisarcana:disenchant.text.specific=Remove §5%s§r from this focus and refund §a%d XP§r.
+focus.upgrade.salisarcana:disenchant.name=杖星のディスエンチャント
+focus.upgrade.salisarcana:disenchant.text=最後にこの杖星に適用したアップグレードを消去し、消費した経験値の一部を返還する。
+focus.upgrade.salisarcana:disenchant.text.generic=最後にこの杖星に適用したアップグレードを消去し、消費した経験値のうち%d%%を返還する。
+focus.upgrade.salisarcana:disenchant.text.specific=§5%s§rアップグレードをこの杖星から消去し、§a%d XP§rを返還する。
 
-tc.research_name.salisarcana:FOCUS_DISENCHANTING=Focal Disenchanting
-tc.research_text.salisarcana:FOCUS_DISENCHANTING=Regretting your choices
-tc.research_page.salisarcana:FOCUS_DISENCHANTING.0=While experimenting with the Focal Manipulator, you often found yourself left with perfectly functional foci which were ruined by their upgrades.<BR>To your delight, some additional experimentation revealed that the enchantments on foci are nowhere near as permanent as they seem.<BR>By applying §8Perditio§0 CV to any upgraded focus in the Focal Manipulator, you can remove the last upgrade applied to the focus and recover up to %d%% of the experience spent on that upgrade.
-tc.research_page.salisarcana:FOCUS_DISENCHANTING.1=(Since each level stores more experience as you gain more levels, upgrading a focus at a level higher than the minimum will lose additional experience due to the larger experience bars being consumed.)
+tc.research_name.salisarcana:FOCUS_DISENCHANTING=杖星のディスエンチャント
+tc.research_text.salisarcana:FOCUS_DISENCHANTING=己の選択を悔いて
+tc.research_page.salisarcana:FOCUS_DISENCHANTING.0=杖星加工器での実験中、せっかくの機能的な杖星をアップグレードによって台無しにしてしまうことがよくあった。<BR>嬉しいことに、さらに実験してみると、杖星に施したエンチャントは見た目ほど永続的なものではないことがわかった。<BR>杖星加工器の中でアップグレードした杖星に§8Perditio§0のCVを浴びせることで、杖星に適用した最後のアップグレードを消去し、アップグレード時に消費した経験値を最大%d%%返還させることができる。
+tc.research_page.salisarcana:FOCUS_DISENCHANTING.1=(レベルが上がっていくと1レベルあたりの経験値量は増加する。このため、最低レベルより高いレベルで杖星をアップグレードすると、消費される経験値量が多くなることにより、経験値の損失が余分に生じる。)
 
 salisarcana:error_missing_research.infusion=You lack the research to start this infusion! You must research "%s" in %s before you can craft this item!
 salisarcana:error_missing_research.crucible=You lack the research to craft this recipe in the Crucible! You must research "%s" in %s before you can craft this item!
 salisarcana:error_missing_research.gui=Missing Research
 
-salisarcana:duplicate_research.extra_page=§l[Salis Arcana]§r<BR>Additionally, while hovering over any completed research in the Thaumonomicon, a new button will become visible.<BR>Shift-clicking this button will create a completed research paper of that research at the cost of paper, some ink from your Scribing Tools, and some research aspects.
-salisarcana:duplicate_research.text=Duplicate "%s"
-salisarcana:duplicate_research.prompt=Shift-click to purchase a duplicate of this research
-salisarcana:duplicate_research.success=Duplicated research paper added to inventory
+salisarcana:duplicate_research.extra_page=§l[Salis Arcana]§r<BR>加えて、ソーモノミコン内で完了済みの研究にカーソルを合わせたとき、新しいボタンが見えるようになる。<BR>このボタンをShiftクリックすると、神と筆記具のインク、相を消費し、完了済みの研究メモを生成する。
+salisarcana:duplicate_research.text="%s"を複製
+salisarcana:duplicate_research.prompt=Shiftクリックでこの研究の複製を取得
+salisarcana:duplicate_research.success=複製した研究メモがインベントリに追加された
 
-tile.blockPortalNothing.name=Portal to Nothing
+tile.blockPortalNothing.name=無へのポータル
 
-slot.focus_pouch=§aFocus Pouch§7
+slot.focus_pouch=§a杖星袋§7
 
-salisarcana:misc.golem.reject_player=You are not my Master!
-salisarcana:misc.warded.destroy_ender_pearl=The magic of a nearby warded object destroys the ender pearl.
-salisarcana:misc.arcane_pressure_plate.everyone=It will now trigger on everything.
-salisarcana:misc.arcane_pressure_plate.not_you=It will now trigger on everything except you.
-salisarcana:misc.arcane_pressure_plate.only_you=It will now trigger on just you.
-salisarcana:misc.mirror.already_linked=That mirror is already linked to a valid destination.
+salisarcana:misc.golem.reject_player=お前は"マスター"なんかじゃない！
+salisarcana:misc.warded.destroy_ender_pearl=保護済みオブジェクトの魔法によりエンダーパールが破壊された。
+salisarcana:misc.arcane_pressure_plate.everyone=すべてに反応するようになった。
+salisarcana:misc.arcane_pressure_plate.not_you=自分以外のすべてに反応するようになった。
+salisarcana:misc.arcane_pressure_plate.only_you=自分だけに反応するようになった。
+salisarcana:misc.mirror.already_linked=この鏡は既に有効な接続先にリンク済みです。
 
-salisarcana:misc.arcane_key.creator=§5§oCreated by: %s
-salisarcana:misc.arcane_key.dimension= (dimension %s)
+salisarcana:misc.arcane_key.creator=§5§o作成者: %s
+salisarcana:misc.arcane_key.dimension= (ディメンション %s)
 
-item.Wand.salisarcana:unknown.cap=[INVALID CAP]
-item.Wand.salisarcana:unknown.rod=[INVALID CORE]
-salisarcana:unknown_wand.craft=§4Place in a crafting grid to clear all invalid components.
+item.Wand.salisarcana:unknown.cap=[無効な石突]
+item.Wand.salisarcana:unknown.rod=[無効な杖身]
+salisarcana:unknown_wand.craft=§4作業台に入れて無効な部品をすべて消去してください。
 
 salisarcana:error.preface=Salis Arcana Error: 
 salisarcana:error.potion_id_limit=%s was assigned id %d, which is above the safe limit of 127. If the limit has been raised through another mod, please set _uncapped_potion_ids to `true` in the Salis Arcana feature configs.
 salisarcana:error.potion_id_claimed=%s could not be given id %d as configured because that id has been assigned to a different potion effect.
 salisaracan:error.potion_array_too_long=No more unassigned potion ids could be found within the safe limit. If the limit has been raised through another mod, please set _uncapped_potion_ids to `true` in the Salis Arcana feature configs.
 
-salisarcana:wand_part.show_details=§8Hold §6CTRL§8 to show Thaumcraft Wand stats
-salisarcana:wand_part.cannot_preserve_node=§4Cannot preserve nodes!
-salisarcana:wand_cap.vis_discount.generic=§5Discount: %s
-salisarcana:wand_cap.vis_discount.aspect=%s §5Discount: %s
-salisarcana:wand_cap.price_mult=§3Crafting Cost Multiplier: §e%sx
-salisarcana:wand_rod.vis_capacity=§5Capacity: §d%s vis
-salisarcana:wand_rod.base_price=§3Base Crafting Cost: §d%s vis
-salisarcana:wand_rod.runes=§5+1 Potency§2 for any equipped focus
+salisarcana:wand_part.show_details=§6CTRL§8を押してThaumcraft杖の状態を表示
+salisarcana:wand_part.cannot_preserve_node=§4節の保護が不可能！
+salisarcana:wand_cap.vis_discount.generic=§5Vis軽減率: %s
+salisarcana:wand_cap.vis_discount.aspect=%s §5軽減率: %s
+salisarcana:wand_cap.price_mult=§3クラフトコスト倍率: §e%sx
+salisarcana:wand_rod.vis_capacity=§5容量: §d%s vis
+salisarcana:wand_rod.base_price=§3基本のクラフトコスト: §d%s vis
+salisarcana:wand_rod.runes=§2装着した杖星に§5潜在能力 +1
 
-salisarcana:wand_rod.special.obsidian=§5Regenerates §21 Terra§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.obsidian_staff=§5Regenerates §21 Terra§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.blaze=§5Regenerates §c1 Ignis§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.blaze_staff=§5Regenerates §c1 Ignis§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.ice=§5Regenerates §31 Aqua§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.ice_staff=§5Regenerates §31 Aqua§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.quartz=§5Regenerates §71 Ordo§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.quartz_staff=§5Regenerates §71 Ordo§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.bone=§5Regenerates §81 Perditio§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.bone_staff=§5Regenerates §81 Perditio§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.reed=§5Regenerates §e1 Aer§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.reed_staff=§5Regenerates §e1 Aer§d vis§5 every 10 seconds (max §d10% vis§5)
-salisarcana:wand_rod.special.primal_staff=§5Regenerates §d1 vis§5 of a random uncapped aspect every 2.5 seconds (max §d10% vis§5)
+salisarcana:wand_rod.special.obsidian=§510秒毎に§2Terra§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.obsidian_staff=§510秒毎に§2Terra§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.blaze=§510秒毎に§cIgnis§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.blaze_staff=§510秒毎に§cIgnis§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.ice=§510秒毎に§3Aqua§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.ice_staff=§510秒毎に§3Aqua§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.quartz=§510秒毎に§7Ordo§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.quartz_staff=§510秒毎に§7Ordo§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.bone=§510秒毎に§8Perditio§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.bone_staff=§510秒毎に§8Perditio§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.reed=§510秒毎に§eAer§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.reed_staff=§510秒毎に§eAer§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.primal_staff=§52.5秒毎に上限未満のランダムな相§d 1 vis§5を自然回復 (最大 §d10% vis§5)
 
-salisarcana:wand_rod.special.warpwood=§5Regenerates §d1 vis§5 of every aspect, rate increases the more permanent warp you have (max §d100% vis§5)
-salisarcana:wand_rod.special.warpwood_staff=§5Regenerates §d1 vis§5 of every aspect, rate increases the more permanent warp you have (max §d100% vis§5)
+salisarcana:wand_rod.special.warpwood=§5すべての相§d 1 vis§5を自然回復、速度は永続的な歪みの量により増加 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.warpwood_staff=§5すべての相§d 1 vis§5を自然回復、速度は永続的な歪みの量により増加 (最大 §d100% vis§5)
 
-salisarcana:wand_rod.special.AMBER=§5Regenerates §d1 vis§5 of every aspect every 5 seconds (max §d100% vis§5)
-salisarcana:wand_rod.special.AMBER_staff=§5Regenerates §d1 vis§5 of every aspect every 5 seconds (max §d100% vis§5)
-salisarcana:wand_rod.special.BREAD=§6Sentient, French, and quite chatty!
-salisarcana:wand_rod.special.TRANSMUTATION=§5Instantly refills any aspects below §d90% vis§5 by transmuting other aspects above §d90% vis§5.
-salisarcana:wand_rod.special.TRANSMUTATION_staff=§5Instantly refills any aspects below §d90% vis§5 by transmuting other aspects above §d90% vis§5.
-salisarcana:wand_rod.special.NECROMANCER_staff=§5Quadruples the vis collected from aspect orbs from mobs, loses 25% of vis from all other sources.
+salisarcana:wand_rod.special.AMBER=§55秒毎にすべての相§d 1 vis§5を自然回復 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.AMBER_staff=§55秒毎にすべての相§d 1 vis§5を自然回復 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.BREAD=§6自我があり、フランス語を操り、とってもおしゃべり！
+salisarcana:wand_rod.special.TRANSMUTATION=§5Vis容量の§d90%§5を上回る相をVis容量の§d90%§5を下回る他の相に変換して即座に充填。
+salisarcana:wand_rod.special.TRANSMUTATION_staff=§5Vis容量の§d90%§5を上回る相をVis容量の§d90%§5を下回る他の相に変換して即座に充填。
+salisarcana:wand_rod.special.NECROMANCER_staff=§5モブからの相オーブから充填されるVisが4倍になり、その他あらゆる手段での充填に25%の損失が発生。
 
-salisarcana:wand_cap.special.manasteel=§525% discount on §bBotania mana drain§5 for regenerating vis.
-salisarcana:wand_cap.special.elementium=§525% discount on §bBotania mana drain§5 for regenerating vis.
-salisarcana:wand_rod.special.livingwood.1=§5Regenerates §d1 vis§5 of each aspect every 2 seconds (max §d100% vis§5)
-salisarcana:wand_rod.special.livingwood.2=  §5at the cost of §bsome Botania mana§5.
-salisarcana:wand_rod.special.dreamwood.1=§5Regenerates §d1 vis§5 of each aspect every 2 seconds (max §d100% vis§5)
-salisarcana:wand_rod.special.dreamwood.2=  §5at the cost of §bsome Botania mana§5.
-salisarcana:wand_rod.special.dreamwood_staff.1=§5Regenerates §d1 vis§5 of each aspect every 2 seconds (max §d100% vis§5)
-salisarcana:wand_rod.special.dreamwood_staff.2=  §5at the cost of §bsome Botania mana§5.
+salisarcana:wand_cap.special.manasteel=§5Vis回復に使用される§bBotaniaマナ吸収量§5を25%軽減。
+salisarcana:wand_cap.special.elementium=§5Vis回復に使用される§bBotaniaマナ吸収量§5を25%軽減。
+salisarcana:wand_rod.special.livingwood.1=§52秒毎にすべての相§d 1 vis§5を回復 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.livingwood.2=  §5回復には§bBotaniaマナ§5を消費。
+salisarcana:wand_rod.special.dreamwood.1=§52秒毎にすべての相§d 1 vis§5を回復 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.dreamwood.2=  §5回復には§bBotaniaマナ§5を消費。
+salisarcana:wand_rod.special.dreamwood_staff.1=§52秒毎にすべての相§d 1 vis§5を回復 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.dreamwood_staff.2=  §5回復には§bBotaniaマナ§5を消費。
 
-salisarcana:wand_cap.special.alchemical=§520% discount on §4LP costs§5 for regenerating vis.
-salisarcana:wand_rod.special.blood.1=§5Regenerates §d1 vis§5 of each aspect every 5 seconds (max §d100% vis§5)
-salisarcana:wand_rod.special.blood.2=  §5using §4500 LP§5 or §41.5 hearts§5 per vis.
-salisarcana:wand_rod.special.blood.3=§5Inflicts §8Weakness III§5 on spell targets when combined with Alchemical Caps.
-salisarcana:wand_rod.special.blood_staff.1=§5Regenerates §d1 vis§5 of each aspect every 1.25 seconds (max §d100% vis§5)
-salisarcana:wand_rod.special.blood_staff.2=  §5using §4500 LP§5 or §41.5 hearts§5 per vis (only while in hotbar)
-salisarcana:wand_rod.special.blood_staff.3=§4Can kill you if you run out of LP!
-salisarcana:wand_rod.special.blood_staff.4=§5Inflicts §8Weakness III§5 on spell targets when combined with Alchemical Caps.
+salisarcana:wand_cap.special.alchemical=§5Vis回復に使用される§4LP量§5を20%軽減。
+salisarcana:wand_rod.special.blood.1=§55秒毎にすべての相§d 1 vis§5を回復 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.blood.2=  §5回復には§4500LP§5または§4ハート1.5個分の体力§5を消費。
+salisarcana:wand_rod.special.blood.3=§5錬金加工された石突と組み合わせた時、杖星の攻撃対象に§8弱体化 III§5を付与。
+salisarcana:wand_rod.special.blood_staff.1=§51.25秒毎にすべての相§d 1 vis§5を回復 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.blood_staff.2=  §5回復には§4500LP§5または§4ハート1.5個分の体力§5を消費 (ホットバー内にある時のみ)
+salisarcana:wand_rod.special.blood_staff.3=§4LPが尽きると死亡する可能性あり！
+salisarcana:wand_rod.special.blood_staff.4=§5錬金加工された石突と組み合わせた時、杖星の攻撃対象に§8弱体化 III§5を付与。
 
-salisarcana:wand_rod.special.infernal.1=§5Regenerates §c1 Ignis§d vis§5 every 5 seconds (max §d20% vis§5)
-salisarcana:wand_rod.special.infernal.2=§5Regenerates §d1 vis§5 of all other types every 5 seconds while in the §4Nether§5 (max §d10% vis§5)
-salisarcana:wand_rod.special.infernal.3=§4Extinguishes fire§5 and removes the §8Wither§5 effect.
-salisarcana:wand_rod.special.profane.1=§5Recovers §dall consumed vis§5 every second (max §d100% vis§5)
-salisarcana:wand_rod.special.profane.2=  §5at the cost of 1 warp per §d25.01 vis§5.
-salisarcana:wand_rod.special.profane.3=§5After recovering §d250 vis§5, it §4burns out§5 forever & gives 1 extra warp.
-salisarcana:wand_rod.special.tainted.1=§5Regenerates §d1 vis§5 of each aspect every 5 seconds while in Tainted Land (max §d10% vis§5)
-salisarcana:wand_rod.special.tainted.2=§5Gains §d3 vis§5 of random aspects if the wand is held when you take taint damage.
+salisarcana:wand_rod.special.infernal.1=§55秒毎に§cIgnis§d 1 vis§5を自然回復 (最大 §d20% vis§5)
+salisarcana:wand_rod.special.infernal.2=§4ネザー§5にいる間、5秒毎にIgnis以外の相§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.infernal.3=§5所持者を§4消火§5し、§8衰弱§5効果を除去。
+salisarcana:wand_rod.special.profane.1=§55秒毎に§d 消費したVisをすべて§5回復 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.profane.2=  §d25.01 vis§5回復する毎に歪みを 1 付与。
+salisarcana:wand_rod.special.profane.3=§d250 vis§5を回復すると永遠に§4燃え尽き§5、追加の歪みを 1 付与。
+salisarcana:wand_rod.special.tainted.1=§5汚染された地にいる間、5秒毎にすべての相§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.tainted.2=§5汚染ダメージを受けた時に杖を手に持っていると、ランダムな相の§d3Vis§5を獲得。
 
-salisarcana:wand_rod.special.witchwood.1=§5Regenerates §d1 vis§5 of each aspect every 5 seconds (max §d100% vis§5)
-salisarcana:wand_rod.special.witchwood.2=  §5at the cost of §9140 Ars Magica 2 mana§5 per vis.
-salisarcana:wand_rod.special.witchwood_staff.1=§5Regenerates §d1 vis§5 of each aspect every 2 seconds (max §d100% vis§5)
-salisarcana:wand_rod.special.witchwood_staff.2=  §5at the cost of §9100 Ars Magica 2 mana§5 per vis.
-salisarcana:wand_cap.special.vinteum=§5Reduces the §9Ars Magica mana§5 cost of Witchwood cores' vis regeneration by about half.
+salisarcana:wand_rod.special.witchwood.1=§55秒毎にすべての相§d 1 vis§5を回復 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.witchwood.2=  §5回復には1 visあたり§9140 Ars Magica 2 マナ§5を消費。
+salisarcana:wand_rod.special.witchwood_staff.1=§52秒毎にすべての相§d 1 vis§5を回復 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.witchwood_staff.2=  §5回復には1 visあたり§9100 Ars Magica 2 マナ§5を消費。
+salisarcana:wand_cap.special.vinteum=§5ウィッチウッドの杖身によるVis自然回復時の§9Ars Magica マナ§5の消費を約半分に軽減。

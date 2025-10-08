@@ -8,7 +8,7 @@ thaumicenergistics.fluid.gaseous=超臨界流体
 #Blocks
 thaumicenergistics.block.essentia.provider.name=エッセンシアプロバイダー
 thaumicenergistics.block.infusion.provider.name=注入プロバイダー
-thaumicenergistics.block.advanced.infusion.provider.name=Advanced Infusion Provider
+thaumicenergistics.block.advanced.infusion.provider.name=発展型注入プロバイダー
 thaumicenergistics.block.gear.box.name=鉄のギアボックス
 thaumicenergistics.block.golem.gear.box.name=魔導金属のギアボックス
 thaumicenergistics.block.essentia.cell.workbench.name=エッセンシアセルワークベンチ
@@ -18,7 +18,7 @@ thaumicenergistics.block.essentia.vibration.chamber.name=エッセンシア振�
 thaumicenergistics.block.distillation.encoder.name=蒸留パターンエンコーダー
 
 #Cable parts
-thaumicenergistics.item.aeparts.name=Essentia Bus/Terminal/Interface/Monitor
+thaumicenergistics.item.aeparts.name=エッセンシアバス/ターミナル/インターフェース/モニター
 thaumicenergistics.aeparts.essentia.ImportBus.name=エッセンシア入力バス
 thaumicenergistics.aeparts.essentia.ExportBus.name=エッセンシア出力バス
 thaumicenergistics.aeparts.essentia.levelemitter.name=エッセンシアレベルエミッター
@@ -31,8 +31,8 @@ thaumicenergistics.aeparts.essentia.storage.monitor.name=エッセンシアス�
 thaumicenergistics.aeparts.essentia.conversion.monitor.name=エッセンシア変換モニター
 
 #Items
-item.itemCraftingAspect.name=Aspect
-thaumicenergistics.item.essentia.cell.name=ME Essentia Storage Cell
+item.itemCraftingAspect.name=相
+thaumicenergistics.item.essentia.cell.name=MEエッセンシアストレージセル
 thaumicenergistics.item.essentia.cell.1k.name=§61k§r MEエッセンシアストレージセル
 thaumicenergistics.item.essentia.cell.4k.name=§e4k§r MEエッセンシアストレージセル
 thaumicenergistics.item.essentia.cell.16k.name=§a16k§r MEエッセンシアストレージセル
@@ -45,7 +45,7 @@ thaumicenergistics.item.essentia.cell.quantum.name=ME量子エッセンシアス
 thaumicenergistics.item.essentia.cell.singularity.name=MEエッセンシアデジタル特異点ストレージセル
 thaumicenergistics.item.essentia.cell.creative.name=奇跡術師のエッセンシアストレージセル
 thaumicenergistics.item.storage.casing.name=MEエッセンシアストレージセル筐体
-thaumicenergistics.item.storage.component.name=ME Essentia Storage Component
+thaumicenergistics.item.storage.component.name=MEエッセンシアストレージコンポーネント
 thaumicenergistics.item.storage.component.1k.name=§61k§r MEエッセンシアストレージコンポーネント
 thaumicenergistics.item.storage.component.4k.name=§e4k§r MEエッセンシアストレージコンポーネント
 thaumicenergistics.item.storage.component.16k.name=§a16k§r MEエッセンシアストレージコンポーネント
@@ -54,7 +54,7 @@ thaumicenergistics.item.storage.component.256k.name=§9256k§r MEエッセンシ
 thaumicenergistics.item.storage.component.1024k.name=§d1024k§r MEエッセンシアストレージコンポーネント
 thaumicenergistics.item.storage.component.4096k.name=§c4096k§r MEエッセンシアストレージコンポーネント
 thaumicenergistics.item.storage.component.16384k.name=§516384k§r MEエッセンシアストレージコンポーネント
-thaumicenergistics.item.material.name=Material
+thaumicenergistics.item.material.name=素材
 thaumicenergistics.item.material.diffusion.core.name=拡散コア
 thaumicenergistics.item.material.coalescence.core.name=凝集コア
 thaumicenergistics.item.material.iron.gear.name=鉄の歯車
@@ -82,12 +82,12 @@ thaumicenergistics.tooltip.button.inscriber.missing=知識のコアが必要
 thaumicenergistics.tooltip.button.swap.armor=現在装備中の防具とターミナル内に保持中の防具を入れ替える
 thaumicenergistics.tooltip.button.swap.armor.title=防具の入れ替え
 thaumicenergistics.tooltip.arcane.assembler.hasVis=Visを保持中
-thaumicenergistics.tooltip.button.reset.aspect=Reset the aspects
-thaumicenergistics.tooltip.button.reset.aspect.description=Reset the left-hand aspects table to its original state
-thaumicenergistics.tooltip.advanced.infusion.provider.working.on=Working Mode
-thaumicenergistics.tooltip.advanced.infusion.provider.normal=Normal Provider
-thaumicenergistics.tooltip.advanced.infusion.provider.advanced=Advanced Provider
-thaumicenergistics.tooltip.advanced.infusion.provider.totalbind=Total bound to %d matrices
+thaumicenergistics.tooltip.button.reset.aspect=相をリセット
+thaumicenergistics.tooltip.button.reset.aspect.description=相スロットを元の状態にリセットします
+thaumicenergistics.tooltip.advanced.infusion.provider.working.on=動作モード
+thaumicenergistics.tooltip.advanced.infusion.provider.normal=通常型プロバイダー
+thaumicenergistics.tooltip.advanced.infusion.provider.advanced=発展型プロバイダー
+thaumicenergistics.tooltip.advanced.infusion.provider.totalbind=合計 %d 個のマトリクスに紐付け中
 
 
 #GUI
@@ -95,7 +95,7 @@ thaumicenergistics.gui.arcane.crafting.terminal.title=神秘のターミナル
 thaumicenergistics.gui.essentia.cell.title=エッセンシアセル
 thaumicenergistics.gui.selected.amount=量
 thaumicenergistics.gui.selected.aspect=相
-thaumicenergistics.gui.digivis.source.name=DigiVis Source
+thaumicenergistics.gui.digivis.source.name=デジタルVis源
 thaumicenergistics.gui.essentia.cell.workbench.title=エッセンシアセルワークベンチ
 thaumicenergistics.gui.arcane.assembler.title=神秘の組立室
 thaumicenergistics.gui.vibration.chamber.stored=保持中: %d %s
@@ -151,9 +151,9 @@ tc.research_text.thaumicenergistics.TEINFPROV=注入を簡単に。
 thaumicenergistics.research_page.TEINFPROV.1=エッセンシア注入の工程を研究することで、デジセンシアを注入に使えるエッセンシアへと瞬時に変換する方法を発見した。<BR>§l注入プロバイダー§rを魔導学的装置の近くに設置することで、保護瓶からエッセンシアを引き出すのと同様に、その装置がネットワークから直接エッセンシアを引き出せるようになる。<BR>これは注入の祭壇で非常に重宝するだろう。
 
 # Research Advanced Infusion Provider
-tc.research_name.thaumicenergistics.TEADVINFPROV=Advanced Infusion Provider
-tc.research_text.thaumicenergistics.TEADVINFPROV=Easiest Infusion.
-thaumicenergistics.research_page.TEADVINFPROV.1=As you continue to optimize your ME network autocrafting, you've been stumped by infusion recipes countless times.<BR>Now you have a new idea, why not leave the task of preparing essentia to your ME network?<BR>So you've developed a new infusion provider that incorporates the functionality of the Interceptor and automatically orders the missing essentia. It can also bind multiple infusion matrices in 25*25*11 area. All you need to do is just put it down among those matrices, that's it. Right-click allows him to search the area for matrix and rebind it.
+tc.research_name.thaumicenergistics.TEADVINFPROV=発展型注入プロバイダー
+tc.research_text.thaumicenergistics.TEADVINFPROV=超簡単な注入。
+thaumicenergistics.research_page.TEADVINFPROV.1=MEネットワークによる自動クラフトの最適化を続けていく中で、注入レシピは幾度となくその行く手を阻んできた。<BR>ここで新たな考えが浮かぶ。エッセンシアの準備をMEネットワークに任せてはどうだろうか。<BR>そして、注入インターセプターの機能を統合し、不足しているエッセンシアを自動で注文する新たな注入プロバイダーを開発した。このプロバイダーは25*25*11の範囲内にある複数のマトリクスと紐づけることもできる。必要なのはマトリクスが範囲内に入るよう設置するだけ、ただそれだけだ。プロバイダーを右クリックすると範囲内にあるマトリクスを検索し、紐付けを行う。
 
 # Research Vis Interface
 tc.research_name.thaumicenergistics.TEVISINT=Vis中継器インターフェース
@@ -164,64 +164,64 @@ thaumicenergistics.research_page.TEVISINT.3=§lリンクについて§r<LINE>§l
 
 # Research Iron Gear Box
 tc.research_name.thaumicenergistics.TEIRONGEARBOX=鉄のギアボックス
-tc.research_text.thaumicenergistics.TEIRONGEARBOX=One Turn At A Time
-thaumicenergistics.research_page.TEIRONGEARBOX.1=Your experiences with the §lWooden Crank§r has left you to wonder, could this be improved?<BR>You have devised a way of setting up a series of gears in a box so that when any side is turned, all other sides will also turn. However you will need a stronger material than wood, to that end you have created the §lIron Gear§r by bonding iron to a wooden gear.<BR>The §lIron Gear Box§r will allow you to crank multiple devices simultaneously. You will need to orient the devices so that their input faces the gearbox.
-thaumicenergistics.research_page.TEIRONGEARBOX.2=When cranking multiple devices, such as a two grinders & a charger, the crank power will be split evenly between all devices that are currently able to be cranked.<BR>Another advantage of the gearbox is that it can be used by multiple people simultaneously. Each person cranking the gearbox will add to the crank power output.<BR>Now if only you had someone who would stand around all day and crank this for you...
+tc.research_text.thaumicenergistics.TEIRONGEARBOX=ひと回しずつ
+thaumicenergistics.research_page.TEIRONGEARBOX.1=§l木製クランク§rを使った経験から、これを改良できないかと考えた。<BR>箱の中に歯車を並べ、ある面が回転したら他の面もすべて回転するようにする方法を編み出した。しかしこれには木よりも強固な素材が必要となったため、木の歯車に鉄を接合させ§l鉄の歯車§rを作った。<BR>§l鉄のギアボックス§rを使うと複数の装置へ同時に動力を与えられる。ただし、装置の入力面がギアボックスに向くよう回転させる必要がある。
+thaumicenergistics.research_page.TEIRONGEARBOX.2=例えば砥石2台とチャージ機1台というように複数の装置に動力を与える場合、動力を伝達可能なすべての装置に対して均等に力が分配される<BR>ギアボックスのもうひとつの利点は、複数人で同時に回すことができるということだ。ギアボックスを回す人が増えるごとに出力される動力も増えていく。<BR>一日中立ちっぱなしでこれを回してくれる者が誰かいればいいのだが...。
 
 # Research Thaumium Gear Box
 tc.research_name.thaumicenergistics.TETHAUMGBOX=魔導金属のギアボックス
-tc.research_text.thaumicenergistics.TETHAUMGBOX=Little Labor Force
-thaumicenergistics.research_page.TETHAUMGBOX.1=Now that your golems can right-click on your behalf, its time you updated the gearbox to accommodate them. Adding a dash of metal and magic, you have retrofitted the §lIron Gear Box§r and created the §lThaumium Gear Box§r.<BR>The redesigned model will allow any golem with the §lUse Core§r to crank the gearbox.
+tc.research_text.thaumicenergistics.TETHAUMGBOX=ちいさな労働力
+thaumicenergistics.research_page.TETHAUMGBOX.1=ゴーレムたちが自分の代わりに右クリックできるようになった今こそ、ギアボックスをアップデートして彼らに対応させる時だ。金属と魔法を少々加えて、§l鉄のギアボックス§rを改造し§l魔導金属のギアボックス§rを創り出した。<BR>この改良モデルでは、§lゴーレムコア: 使用§rを取り付けたゴーレムがギアボックスを回せるようになっている。
 
 # Research Certus Quartz Duplication
-tc.research_name.thaumicenergistics.TECERTUSDUPE=Quartz Duplication
-tc.research_text.thaumicenergistics.TECERTUSDUPE=Impurities Intact
-thaumicenergistics.research_page.TECERTUSDUPE.1=You are now able to alchemically duplicate §lCertus Quartz Crystal§r and §lNether Quartz§r.
+tc.research_name.thaumicenergistics.TECERTUSDUPE=クォーツの複製
+tc.research_text.thaumicenergistics.TECERTUSDUPE=不純物そのまま
+thaumicenergistics.research_page.TECERTUSDUPE.1=§lケルタスクォーツ§rと§lネザークォーツ§rが錬金術的に複製できるようになった。
 
 # Research Knowledge Inscriber + Core
-tc.research_name.thaumicenergistics.TEKNOWLEDGEINSCRIBER=Knowledge Inscription
-tc.research_text.thaumicenergistics.TEKNOWLEDGEINSCRIBER=Magical Patterns
-thaumicenergistics.research_page.TEKNOWLEDGEINSCRIBER.1=With the §lArcane Assembler§r constructed, you will need a way to teach it what it will be assembling.<BR>You have devised the §lKnowledge Core§r, a device capable of storing arcane recipes. The core serves as pattern storage, giving the assembler instructions on how to build items.<BR>To encode recipe patterns on the core, you will need to use the §lKnowledge Inscriber§r.
-thaumicenergistics.research_page.TEKNOWLEDGEINSCRIBER.2=Using The §lKnowledge Inscriber§r<BR>First place a §lKnowledge Core§r into the top-right slot. Next, use the crafting grid to setup the recipe for the item. If you have the required knowledge(research) for the recipe, the resulting item will be displayed. Pressing the save button will then inscribe the recipe onto the core. The finished product will then show in the stored-pattern area.<BR>To remove an inscribed recipe from the core, first select a pattern from the stored-pattern area. The selected patterns recipe will then display in the crafting area. Finally, clicking the delete button will remove the pattern from the core.
+tc.research_name.thaumicenergistics.TEKNOWLEDGEINSCRIBER=知識の刻印
+tc.research_text.thaumicenergistics.TEKNOWLEDGEINSCRIBER=魔法のパターン
+thaumicenergistics.research_page.TEKNOWLEDGEINSCRIBER.1=§l神秘の組立室§rの創造に伴って、それにアイテムの組み立て方を学習させる方法が必要となった。<BR>そこで、神秘のレシピを記憶可能な装置である§l知識のコア§rを発明した。このコアはパターンストレージとして機能し、組立室にアイテムの作り方を指示する。<BR>コアにレシピのパターンを書き込むには、§l知識の刻印機§rを使用する必要がある。
+thaumicenergistics.research_page.TEKNOWLEDGEINSCRIBER.2=§l知識の刻印機§rの使用方法<BR>まずは§l知識のコア§rを右上のスロットに配置する。次にクラフト枠に追加したいアイテムのレシピを準備する。そのレシピに必要な知識や研究が習得済みである場合、成果物が表示される。そしたら保存ボタンを押すことでそのレシピがコアへと刻印される。刻印された成果物は保存済みパターンスロットに表示される。<BR>刻印したレシピをコアから削除するには、まず保存済みパターンスロットからパターンを選択する。すると選択されたレシピパターンがクラフト枠に表示される。あとは削除ボタンを押せばコアからパターンが消える。
 
 # Research Arcane Assembler
 tc.research_name.thaumicenergistics.TEARCANEASSEMBLER=神秘の組立室
-tc.research_text.thaumicenergistics.TEARCANEASSEMBLER=Magical Molecule Assembly
-thaumicenergistics.research_page.TEARCANEASSEMBLER.1=While examining the §lMolecular Assembler§r it occurs to you that it may be possible to modify the assembler to produce arcane items. You conclude that by infusing the assembler with the appropriate shards it will be able to regulate vis flow into items. It will also need a moderate amount of vis storage, and the §lSilverwood Scepter§r seems the best choice.<BR>Note: The scepter is infused into the assembler, and must be fully charged.
-thaumicenergistics.research_page.TEARCANEASSEMBLER.2=§lPattern Storage§r<BR>The assembler itself does not store crafting recipes. Further research may be required to devise a pattern storage medium.<BR>§lVis Replenishment§r<BR>Replenishing the assembler's internal vis storage will require the services of a §lVis Relay Interface§r.<BR>§lAcceleration Cards§r<BR>Each card decreases crafting time by 20% and increases power required by 50%.
-thaumicenergistics.research_page.TEARCANEASSEMBLER.3=§lVis Discounts§r<BR>Due to the inclusion of the crafting scepter, the assembler has a base vis discount equal to that of the scepter. The discount can be further enhanced by providing the assembler vis discount armor. The discount for each aspect can be viewed by hovering over the aspect in the GUI.<BR>The assembler is not immune to the effects of warping gear; For each point of warp the assembler must draw an additional 15% power to remain stable while crafting.
+tc.research_text.thaumicenergistics.TEARCANEASSEMBLER=魔法の分子アセンブラー
+thaumicenergistics.research_page.TEARCANEASSEMBLER.1=§l分子アセンブラー§rを調査していると、アセンブラーを改造して神秘のアイテムを生産可能にできるかもしれないと思い至った。そして、アセンブラーに適切な結晶片を注入することで、アイテムへのVisの流れを制御できるようになるという結論が導かれた。これには適度な容量のVis用ストレージが必要だが、§lシルバーウッドの錫杖§rを使うのが最良の選択のようだ。<BR>メモ: この錫杖はアセンブラーに注入されて消滅する。またVisを最大量まで充填しておかなければならない。
+thaumicenergistics.research_page.TEARCANEASSEMBLER.2=§lパターンストレージ§r<BR>組立室自体にはクラフトレシピを保存する能力はない。パターンの記録媒体を生み出すためにはさらなる研究が必要になるかもしれない。<BR>§lVisの充填§r<BR>組立室の内部Visストレージを充填するには、§lVis中継器インターフェース§rが必要になる。<BR>§l加速カード§r<BR>加速カード1枚につきクラフト時間は20%短縮され、電力消費量は50%増加する。
+thaumicenergistics.research_page.TEARCANEASSEMBLER.3=§lVis消費軽減§r<BR>錫杖が注入されているため、組立室には錫杖と同等のVis消費軽減が適用される。加えて、Vis消費軽減効果のある防具を組立室にセットすることで、軽減幅をさらに大きくすることが可能だ。各相の軽減率は、GUI上で相のゲージにカーソルを合わせることで見られる。<BR>組立室は歪みの影響を受ける。クラフト中の組立室を安定させるために、歪み1ポイントにつき追加で15%の電力が消費されるようになる。
 
 # Research Wrench Focus
-tc.research_name.thaumicenergistics.TEFOCUSWRENCH=Wand Focus: AE Wrench
-tc.research_text.thaumicenergistics.TEFOCUSWRENCH=Some Assembly Required
-thaumicenergistics.research_page.TEFOCUSWRENCH.1=This wand focus interacts with blocks and machinery as if it were an AE2 wrench.<BR>Sneak + left click: Rotate.<BR>Sneak + right click: Dismantle.
+tc.research_name.thaumicenergistics.TEFOCUSWRENCH=AEレンチの杖星
+tc.research_text.thaumicenergistics.TEFOCUSWRENCH=注意: 組み立てが必要です
+thaumicenergistics.research_page.TEFOCUSWRENCH.1=この杖星はAE2のレンチを持っている時と同様にブロックや機械にインタラクトできるようになる。<BR>スニーク左クリック: 回転<BR>スニーク右クリック: 撤去
 
 # Research Essentia Vibration Chamber
-tc.research_name.thaumicenergistics.TEESSVIBCMBR=Vibration Chamber
-tc.research_text.thaumicenergistics.TEESSVIBCMBR=Essentia Powered Network
-thaumicenergistics.research_page.TEESSVIBCMBR.1=Getting power for your network until this point has relied on burning items in the §lVibration Chamber§r. That is about to change!<BR>You have constructed a simple device that unleashes the energies of essentia to fuel the vibration chamber. By using distilled §lIgnis or Potentia§r essentia, you can generate more power than simply burning the item.<BR>Be aware that it has the same regulation behavior as the original chamber: It minimizes wasted power by slowing the reaction if the network is fully powered, but so long as there is essentia to use, it will use it.
-thaumicenergistics.research_page.TEESSVIBCMBR.2=§l§nOperation§r<BR>By breaking down an item, such as coal, into Ignis or Potentia much more power can be generated from the essentia. Your early estimates show an increase of roughly 350% for processing coal essentia v.s. burning the coal directly. Potentia essentia seems to be much more potent than Ignis.<BR>The §lE.V.C.§r will rotate which essentia it is requesting on a regular interval when empty. When essentia is stored, it will only request more of the stored essentia.
-thaumicenergistics.research_page.TEESSVIBCMBR.3=Opening the GUI shows how much and what type of essentia is stored. What is currently being processed, and the time remaining. As well as the current power production level.<LINE>§l§nNotes§r<BR>The §lE.V.C.§r can be placed in an §lEssentia Terminal§r to quickly fill or drain the stored essentia.<BR>The §lEssentia Export Bus§r, §lEssentia Provider§r, and essentia tubes can be used to keep the §lE.V.C.§r full.
+tc.research_name.thaumicenergistics.TEESSVIBCMBR=振動チャンバー
+tc.research_text.thaumicenergistics.TEESSVIBCMBR=エッセンシアで動くネットワーク
+thaumicenergistics.research_page.TEESSVIBCMBR.1=これまでネットワーク用の電力を供給するには、§l振動チャンバー§rでアイテムを燃焼させるしかなかった。今こそ変化の時だ！<BR>エッセンシアのエネルギーを解放し振動チャンバーの燃料として用いるシンプルな装置を創り出した。蒸留した§lIgnisまたはPotentia§rのエッセンシアを使うことで、単に燃料を燃やすよりも強力な発電を行うことができる。<BR>ただし元のチャンバーと同様の制御仕様に注意が必要だ。すなわち、ネットワークへの給電が十分な場合、反応速度を低下させることで電力の浪費を最小化するが、使用可能なエッセンシアがある限りは消費を続けるということだ。
+thaumicenergistics.research_page.TEESSVIBCMBR.2=§l§n稼働について§r<BR>石炭などのアイテムをIgnisやPotentiaといったエッセンシアへ分解することで発電を強化することができる。石炭を直接燃焼させるよりも、石炭をエッセンシアに加工した方が約350%発電量が増加するというのが当初の見積もりだ。<BR>§lエッセンシア振動チャンバー§r は空の状態になると、定期的に要求するエッセンシアを切り替える。エッセンシアを既に保持している場合、その保持しているエッセンシアのみを追加で要求する。
+thaumicenergistics.research_page.TEESSVIBCMBR.3=GUIを開くと、どのエッセンシアがどのくらいの量保持されいるのか見られる。同時に、現在処理中のエッセンシアと残りの処理時間、現在の発電量も確認できる。<LINE>§l§nメモ§r<BR>§lエッセンシア振動チャンバー§r は§lエッセンシアターミナル§r内のスロットに配置することでエッセンシアを素早く貯蔵したり空にしたりできる。<BR>§lエッセンシア出力バス§rや§lエッセンシアプロバイダー§r、エッセンシア管を使えば§lエッセンシア振動チャンバー§rにエッセンシアを充填することができる。
 
 # Research Distillation Pattern Encoder
-tc.research_name.thaumicenergistics.TEDISTILLATIONPATTERNENCODER=Distillation Pattern Encoder
-tc.research_text.thaumicenergistics.TEDISTILLATIONPATTERNENCODER=Ordering More
-thaumicenergistics.research_page.TEDISTILLATIONPATTERNENCODER.1=Expanding on the principals of AE's autocrafing system, you have created a way to encode the essentia distillation process onto an §lEncoded Pattern§r.<BR>Placing an item into the Thaumometer slot will reveal what you know of the items composition. After selecting the preferred aspect, it can then be encoded onto the encoded pattern or an available blank pattern.
+tc.research_name.thaumicenergistics.TEDISTILLATIONPATTERNENCODER=蒸留パターンエンコーダー
+tc.research_text.thaumicenergistics.TEDISTILLATIONPATTERNENCODER=もっと注文
+thaumicenergistics.research_page.TEDISTILLATIONPATTERNENCODER.1=AEの自動クラフトシステムの機構を拡張することで、エッセンシアの蒸留プロセスを§lエンコードパターン§rにエンコードする方法を編み出した。<BR>ソーモメータースロットにアイテムを配置するとアイテムに含まれる相の構成が表示される。その中から好きな相を選択すると、エンコードパターンまたは空白のパターンにレシピがエンコード可能になる。
 
 # Research Golem Wifi Backpack
-tc.research_name.thaumicenergistics.TEGOLEMWIFIBACKPACK=Golem Wifi Backpack
+tc.research_name.thaumicenergistics.TEGOLEMWIFIBACKPACK=無線ゴーレムバックパック
 tc.research_text.thaumicenergistics.TEGOLEMWIFIBACKPACK=DigitalGolem423@ae2.net
-thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.1=After watching your golems running around depositing gathered items into a chest for you to collect and store later, you wondered if you could cut out the middle-man.  Inspiration struck when you realized that you could utilize your networks wireless capabilities to do just that.<BR>After spending hours feverishly working, you created a backpack that will give your golems access to the network. The backpack does come with some limitations however. Golems must be in range of an §lAccess Point§r to communicate with the network. The fluix pearl atop the antenna serves as an indicator to whether or not the golem can communicate with the network.
-thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.2=As communicating with the network takes power, you retro-fitted a charger to draw power from two embedded Nitor. When charged the backpack will be able to transmit for only a short time before starting another charge cycle. During this window of opportunity the golem will be able to interact with the network.<BR>To link the backpack with your network, place it in the security terminal.<LINE>As you progress with your golemancy research, check back here for potential new uses of the backpack.
-thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.3=§nFacades§r<BR>Facades can be used to apply a variety of styles to the backpack: Thaumium Block(default), Greatwood Log, Bricks, Hay Bale, Tallow Block, Flesh Block, Stone, Iron Block, Gold Block and Diamond Block.<BR>Right click on a golem wearing a backpack with the facade in hand to apply it.
-thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREGATHER=§nGather Core Unlocked§r<IMG>thaumicenergistics:textures/gui/states.png:16:0:16:16:1.0</IMG>A golem equipped with a §lGather Core§r will be able to deposit gathered items directly into the network. The maximum number of items deposited is determined by how efficiently the golem manages each charge.
-thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREFILL=§nFill Core Unlocked§r<IMG>thaumicenergistics:textures/gui/states.png:32:0:16:16:1.0</IMG>A golem equipped with a §lFill Core§r will be able to extract items from the network. The maximum number of items extracted is determined by the golems GUI, and how efficiently the golem manages each charge.
-thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.CORELIQUID=§nDecanting Core Unlocked§r<IMG>thaumicenergistics:textures/gui/states.png:48:0:16:16:1.0</IMG>A golem equipped with a §lDecanting Core§r will be able to extract fluid from the network. The maximum amount of fluid extracted is determined by how efficiently the golem manages each charge.<LINE>Special note: Storing fluids in the AE network requires the services of another mod, such as Extra Cells 2.
-thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREALCHEMY=§nAlchemy Core Unlocked§r<IMG>thaumicenergistics:textures/gui/states.png:64:0:16:16:1.0</IMG>A golem equipped with an §lAlchemy Core§r will be able to insert and extract essentia from the network. The maximum amount of essentia transferred is determined by how efficiently the golem manages each charge.<BR>When the golem is placed against an essentia source, such as the Alchemical Furnace, it will deposit the gathered essentia.<BR>When the golem has been instructed to fill essentia containers, such as jars, it will extract essentia from the network.
-thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.UPGRADEORDER=§nOrder Upgrade Unlocked§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>Golems equipped with the order upgrade will better manage each backpack charge, increasing the amount of work they can perform per charge.
-thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.ADVANCEDGOLEM=§nAdvanced Golems§r<IMG>thaumcraft:textures/items/brain.png:0:0:255:255:0.0625</IMG>Advanced golems are able to perform twice as much work per charge.
+thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.1=ゴーレムたちが走り回り、集めたアイテムをチェストに入れてくれる様子を観察していると、そのアイテムは後でMEネットワークに保管するのだから、その中間の手間を省くことはできないかと考えた。 ネットワークのワイヤレス機能を利用すればこれが実現できると気づくと、ひらめきが訪れた。<BR>何時間も無我夢中で研究した末、ゴーレムたちがネットワークにアクセスできるようになるバックパックを創り出した。しかしこのバックパックにはいくつかの制約がある。ゴーレムがネットワークとやりとりするには、§l無線アクセスポイント§rの範囲内にいなければならない。アンテナ上部にあるフルーシュパールの状態が、ゴーレムがネットワークと通信できるかどうかの指標となる。
+thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.2=ネットワークとのやりとりには電力が必要なため、組み込んだ2つのニトロから電力を取り出せるようチャージ機を改良した。充電されたバックパックは、次の充電サイクルに入るまでのわずかな時間だけ発信可能になる。ゴーレムはこの間を縫ってネットワークとやりとりすることができるのだ。<BR>バックパックをセキュリティターミナル内に配置すればネットワークとのリンクが確立する。<LINE>ゴーレム術の研究が進んだら定期的にこの項目を確認し、バックパックの新たな使い道を見つけるといいだろう。
+thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.3=§nケーブル外装§r<BR>バックパックに外装を使用することで様々に見た目を変更することができる。使用可能ブロック: 魔導金属ブロック(デフォルト)、グレートウッドの原木、レンガ、干草の俵、獣脂ブロック、肉ブロック、石、鉄ブロック、金ブロック、ダイヤモンドブロック。<BR>バックパックを装着しているゴーレムを外装で右クリックすると変更が適用される。
+thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREGATHER=§nゴーレムコア: 収集§r<IMG>thaumicenergistics:textures/gui/states.png:16:0:16:16:1.0</IMG>§l収集コア§rを装着したゴーレムは、収集したアイテムをネットワークに直接搬入できるようになる。 搬入できるアイテムの最大数は、ゴーレム固有の運搬数によって決まる。
+thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREFILL=§nゴーレムコア: 充填§r<IMG>thaumicenergistics:textures/gui/states.png:32:0:16:16:1.0</IMG>§l充填コア§rを装着したゴーレムは、ネットワークからアイテムを搬出できるようになる。 搬出できるアイテムの最大数は、ゴーレムのGUIで指定した個数とゴーレム固有の運搬数によって決まる。
+thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.CORELIQUID=§nゴーレムコア: 水汲§r<IMG>thaumicenergistics:textures/gui/states.png:48:0:16:16:1.0</IMG>§l水汲コア§rを装着したゴーレムは、ネットワークから液体を搬出できるようになる。 搬出できる液体の最大量は、ゴーレム固有の運搬数によって決まる。<LINE>特記事項: MEネットワークに液体を保存するには、Extra Cells 2のような他Modの機能が必要になる。
+thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREALCHEMY=§nゴーレムコア: 錬金§r<IMG>thaumicenergistics:textures/gui/states.png:64:0:16:16:1.0</IMG>§l錬金コア§rを装着したゴーレムは、ネットワークからエッセンシアを搬入出できるようになる。 搬入出できるエッセンシアの最大量は、ゴーレム固有の運搬数によって決まる。<BR>ゴーレムを錬金かまどといったエッセンシア源に紐づけて設置すると、集めたエッセンシアをネットワークに搬入する。<BR>ゴーレムを瓶などのエッセンシア用コンテナを充填するように設定すると、ネットワークからエッセンシアを搬出する。
+thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.UPGRADEORDER=§n秩序のアップグレードの効果§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>秩序のアップグレードを装着したゴーレムは、通信一回あたりの搬入出数が増加する。
+thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.ADVANCEDGOLEM=§n高度なゴーレム§r<IMG>thaumcraft:textures/items/brain.png:0:0:255:255:0.0625</IMG>高度なゴーレムは、通信一回あたりの搬入出数が元の2倍になる。
 
 # Research Cell Microscope
-tc.research_name.thaumicenergistics.TECELLMICROSCOPE=Cell Microscopy
-tc.research_text.thaumicenergistics.TECELLMICROSCOPE=Aer Quarks and Terra Quarks
-thaumicenergistics.research_page.TECELLMICROSCOPE.1=Through careful study and experimentation, you have developed a microscopic scanning device that can produce a detailed image of energy contained within a storage cell. This is an intricate task, requiring the cell to be on the ground during the process.<LINE>All contents contained within the cell will be scanned as if looked at through a §lThaumometer§r.
+tc.research_name.thaumicenergistics.TECELLMICROSCOPE=細胞顕微鏡
+tc.research_text.thaumicenergistics.TECELLMICROSCOPE=エアクォークとテラクォーク
+thaumicenergistics.research_page.TECELLMICROSCOPE.1=入念な研究と実験を経て、ストレージセル内に保存されたエネルギーの詳細な画像を生成できる顕微鏡のようなスキャン装置を開発した。これは複雑な処理であり、処理中はセルを地面に置いておく必要がある。<LINE>処理が終わると、セル内部に含まれるすべての内容物は§lソーモメーター§rを通して行うのと同様に調査されたことになる。
