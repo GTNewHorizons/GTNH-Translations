@@ -2732,7 +2732,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=당신이 잘 알고 있는 단
 betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.name=§a§l한 개의 해치에 네 가지 유체!
 betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=이제 EV 티어에 도달했으므로, 4배 입력 해치를 사용할 수 있게 되었습니다. 이 해치들은 한 개의 해치에 네 가지 다른 유체를 보유할 수 있어 당신의 멀티블록에서 소중한 자리를 절약할 수 있습니다.%n%n당신의 EBF에 설치하기에 완벽합니다.%n
 
-# Quest: EV Field Generators
+# Quest: EV Field Generator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV 장 생성기
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=장 생성기를 사용하면 첫 양자 상자나 양자 탱크를 만들 수 있습니다. 하지만 처음 두 개는 T2 로켓을 위해 사용해야 합니다.
 
@@ -2748,6 +2748,10 @@ betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.desc=음, 아마도 퀘스트 이름
 ## Quest Line: Tier 5 - IV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.name=티어 5 - IV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABw.desc=IV 티어는 백금족을 포함한 여러 복잡한 화학 공정과 조립 라인을 만드는 것에 중점을 두고 있습니다. 두 가지 모두 상당히 어려우나 필수적입니다.%n%n공식 통계 기준으로, 해당 티어가 플레이어 폐사 비율이 최고로 높습니다. 행운을 빕니다.
+
+# Quest: IV Field Generator
+betterquesting.quest.6ENNFc4RS3u2sQFL5fnz1A.name=§b§lIV Field Generator
+betterquesting.quest.6ENNFc4RS3u2sQFL5fnz1A.desc=Oh look, the latest and greatest field generator! I wonder what you'll end up using these for... maybe a Tree Growth Simulator? Maybe a new Matter Manipulator?
 
 # Quest: Tier 5 (IV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.name=§b§l티어 5 (IV)
@@ -14817,6 +14821,10 @@ betterquesting.quest._zwtTNh-SG6B4wp221XPcQ.desc=The MKIII is the final upgrade 
 betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.name=§6§lCreative Flight With MagLev
 betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach pipes and conduits around your base? Look no further than the §5§lMagLev Harness§r!%n%nWith the MagLev, you can have creative flight whenever you are within range of a MagLev Pylon and have the Harness equip.%n%nThis will work even when unpowered, however the range of the Pylon gets doubled when it's given §21A§r of it's corresponding tier of power. The MagLev will only draw power while you are in-range, not passively. A Harness can only be tethered to one Pylon at a time, but a Pylon can attach to any number of Harnesses. Will only consume 1A §nregardless§r of how many Harnesses are tethered to the Pylon§r.%n%n[note]Check the tooltip to see the range of your chosen Pylon, the MV one has a maximum range of 16 (33 x 33 x 33) when powered![/note]
 
+# Quest: Powerfail Notifications
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.name=§6§lPowerfail Notifications
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use </gt §4global_energy_join§r §1[User Joining] [User to Join]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
+
 # Quest: Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=절대적 순수함
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.desc=절대적인 바리온의 완벽함! 이 멀티블럭 구조물은 아원자 수준에서조차 완벽하게 순수한 물을 생성할 수 있게 해줍니다. 8등급 정제수(Grade 8 Purified Water)에는 단 하나의 쿼크조차 제자리를 벗어나 있지 않습니다.%n%n이러한 순수성 덕분에 훨씬 더 진보된 공정들이 가능해집니다. 우선 광학 부울의 제작 시간이 단축되고 광학 칩의 생산량이 증가하는 것부터 시작됩니다.%n%n컨트롤러 툴팁 설명을 보면 이전의 탈기 장치보다 훨씬 덜 위협적으로 보이겠지만, 이 공정을 자동화하는 것은 결코 쉬운 도전이 아닐 것입니다. 즐겁게 퍼즐을 풀어보시길 바랍니다!
@@ -14883,6 +14891,10 @@ betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.desc=4차원을 건드린 후, 드�
 # Quest: Trigger: Nano Boots of the Traveller Skip
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.name=Trigger: Nano Boots of the Traveller Skip
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.desc=
+
+# Quest: Trigger: Nightvision Goggle Skip
+betterquesting.quest.5bnuPY-USBW37JbkO5VzOw.name=Trigger: Nightvision Goggle Skip
+betterquesting.quest.5bnuPY-USBW37JbkO5VzOw.desc=Skip is here for those who get the goggles in a lootbag
 
 # Quest: Trigger: Hafnium Skip
 betterquesting.quest.5pXaevjTR-atLo3tdEZMEw.name=Trigger: Hafnium Skip
