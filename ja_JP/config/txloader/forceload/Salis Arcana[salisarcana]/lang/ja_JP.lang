@@ -71,42 +71,42 @@ salisarrcana:command.infusion-symmetry.not_found_nearby=付近にルーンのマ
 salisarrcana:command.infusion-symmetry.found=§9このルーンのマトリクスは不安定度が最大§r %d§9 のレシピを安定化できます。
 salisarrcana:command.infusion-symmetry.accessError=このコマンド実行時に問題が発生しました。Mod作者にご報告ください。
 
-salisarcana:command.list-research.desc=List registered TC4 research, grouped by tab in the Thaumonomicon.
+salisarcana:command.list-research.desc=登録されているTC4研究のリストを表示する。ソーモノミコン内のタブでグループ分けされる。
 salisarcana:command.list-research.usage=§7/salisarcana-list-research §7[--player §7<username>] §7[--search §7<search §7term>]§r
-salisarcana:command.list-research.args.player=§7[--player §7<username>]§r Restrict results to only research known by this player.
-salisarcana:command.list-research.args.search=§7[--search §7<search §7term>§r Restrict results to only research that contains this text in its id or its name. Enclose in double quotation marks to search for a term containing one or more spaces (e.g. "wand craft").
-salisarcana:command.list-research.no_results=No research found.
+salisarcana:command.list-research.args.player=§7[--player §7<username>]§r 指定したプレイヤーが習得済みの研究のみを出力結果として表示。
+salisarcana:command.list-research.args.search=§7[--search §7<search §7term>§r 指定したテキストがIDまたは研究名に含まれる研究のみを出力結果として表示。テキストをダブルクォーテーションで閉じることで、スペースを含むフレーズを検索可能 (例: "wand craft")。
+salisarcana:command.list-research.no_results=研究が見つかりません。
 
-salisarcana:command.prereqs.desc=Lists the prerequisites to unlock a specific research, or the research required to craft a specific item.
+salisarcana:command.prereqs.desc=指定した研究を解放する、または指定したアイテムをクラフトするために必要な前提研究のリストを表示する。
 salisarcana:command.prereqs.usage=§7/salisarcana-prereqs §7[--research §7<research-key> §7[--completed]] §7[--item §7<item-id> §7[item-damage]]
-salisarcana:command.prereqs.args.research=§7[--research]§r The unique key of the research to look up. Mutually exclusive with §7item§r.
-salisarcana:command.prereqs.args.all=§7[--completed]§r Include prerequisite research you have already completed. Only available if using §7research§r.
-salisarcana:command.prereqs.args.item=§7[--item <item-id> [item-damage]]§r The string id and optional damage value of the item to look up. Mutually exclusive with §7research§r. 
+salisarcana:command.prereqs.args.research=§7[--research]§r 検索する研究のID。§7item§rと相互排他的。
+salisarcana:command.prereqs.args.all=§7[--completed]§r 完了済みの研究を前提に含める。§7research§rを使用する場合にのみ利用可能。
+salisarcana:command.prereqs.args.item=§7[--item <item-id> [item-damage]]§r 検索するアイテムのIDとダメージ値(任意)。§7research§rと相互排他的。
 
-salisarcana:command.prereqs.already_known=You have already completed %s.
+salisarcana:command.prereqs.already_known=%s は完了済みです。
 
-salisarcana:command.prereqs.header=Requirements to unlock
+salisarcana:command.prereqs.header=解放前提
 
-salisarcana:command.prereqs.triggers=Scanning requirements:
-salisarcana:command.prereqs.triggers_or=or
-salisarcana:command.prereqs.triggers_aspects=something with one of these aspects
-salisarcana:command.prereqs.triggers_entities=one of these entities
-salisarcana:command.prereqs.triggers_items=one of these items
+salisarcana:command.prereqs.triggers=前提調査:
+salisarcana:command.prereqs.triggers_or=または
+salisarcana:command.prereqs.triggers_aspects=これらの相の内いずれかを持つもの
+salisarcana:command.prereqs.triggers_entities=これらのエンティティの内いずれか
+salisarcana:command.prereqs.triggers_items=これらのアイテムの内いずれか
 
-salisarcana:command.prereqs.parents=Research requirements:
-salisarcana:command.prereqs.parents_none=None
+salisarcana:command.prereqs.parents=前提研究:
+salisarcana:command.prereqs.parents_none=なし
 
-salisarcana:command.prereqs.header_item=Research requirements to craft %s:
-salisarcana:command.prereqs.item_not_found=No research required to craft %s was found.
+salisarcana:command.prereqs.header_item=%sをクラフトするための前提研究:
+salisarcana:command.prereqs.item_not_found=%sをクラフトするために必要な研究が見つかりませんでした。
 
-salisarcana:command.update-node.desc=Update the properties of the node at the specified coordinates.
+salisarcana:command.update-node.desc=指定した座標にあるオーラ節の性質を変更する。
 salisarcana:command.update-node.usage=§7/salisarcana-update-node §7<x> §7<y> §7<z>§r §7[-t §7<type>] §7[-m §7<modifier>] §7[--set §7<aspect1> §7<count1>[ §7--set §7<aspect2> §7<count2> §7[...]]] §7[--rem §7<aspect3>[ §7--rem §7<aspect4>]]§r
-salisarcana:command.update-node.args.coord=§7§o<x> <y> <z>§r §cRequired.§r Specify the coordinates of the node to update.
-salisarcana:command.update-node.args.type=§7§o[-t <type>]§r Change the node's type
-salisarcana:command.update-node.args.modifier=§7§o[-m <modifier>]§r Change the node's modifier
-salisarcana:command.update-node.args.set=§7§o[--set <aspect> <count>]§r Set how much vis of the specified aspect the node contains. Can be used multiple times to set additional aspects.
-salisarcana:command.update-node.args.rem=§7§o[--rem <aspect> <count>]§r Remove an aspect from the node. Can be used multiple times to remove additional aspects.
-salisarcana:command.update-node.not_found=A node was not found at %d %d %d.
+salisarcana:command.update-node.args.coord=§7§o<x> <y> <z>§r §c必須。§r変更を適用するオーラ節の座標を指定する。
+salisarcana:command.update-node.args.type=§7§o[-t <type>]§r オーラ節の種類を変更する。
+salisarcana:command.update-node.args.modifier=§7§o[-m <modifier>]§r オーラ節のモディファイアを変更する。
+salisarcana:command.update-node.args.set=§7§o[--set <aspect> <count>]§r オーラ節に含まれる相の種類とVis容量を設定する。追加の相を複数回指定することが可能。
+salisarcana:command.update-node.args.rem=§7§o[--rem <aspect> <count>]§r オーラ節から指定した相を削除する。追加の相を複数回指定することが可能。
+salisarcana:command.update-node.not_found=座標 %d %d %d にオーラ節が見つかりませんでした。
 
 salisarcana:command.upgrade-focus.desc=Add focus upgrades your or another player's held wand focus. Will not apply upgrades beyond the focus's five-upgrade limit.
 salisarcana:command.upgrade-focus.usage=§7/salisarcana-upgrade-focus §7<upgrade[ §7upgrade[ §7...]]> §7[--player §7<username>]
