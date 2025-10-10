@@ -108,14 +108,14 @@ salisarcana:command.update-node.args.set=§7§o[--set <aspect> <count>]§r オ�
 salisarcana:command.update-node.args.rem=§7§o[--rem <aspect> <count>]§r オーラ節から指定した相を削除する。追加の相を複数回指定することが可能。
 salisarcana:command.update-node.not_found=座標 %d %d %d にオーラ節が見つかりませんでした。
 
-salisarcana:command.upgrade-focus.desc=Add focus upgrades your or another player's held wand focus. Will not apply upgrades beyond the focus's five-upgrade limit.
+salisarcana:command.upgrade-focus.desc=指定したプレイヤーが持っている杖星をアップグレードする。最大5個のアップグレード上限を超える適用は不可能。
 salisarcana:command.upgrade-focus.usage=§7/salisarcana-upgrade-focus §7<upgrade[ §7upgrade[ §7...]]> §7[--player §7<username>]
-salisarcana:command.upgrade-focus.args.upgrades=§7<upgrade>§r Required. A list of one to five upgrade ids to be applied. Upgrade ids have the form §7<internalId>-<name>§r. Use tab-completion to see available upgrade ids.
-salisarcana:command.upgrade-focus.args.player=§7[--player]§r If set, apply upgrades to the specified player's held focus instead of your own.
-salisarcana:command.upgrade-focus.noItem=Target player is not holding a wand focus.
-salisarcana:command.upgrade-focus.noUpgrades=No focus upgrades specified.
-salisarcana:command.upgrade-focus.tooManyUpgrades=%d focus upgrade(s) could not be applied due to the five-upgrade limit. 
-salisarcana:command.upgrade-focus.success=All focus upgrades applied successfully.
+salisarcana:command.upgrade-focus.args.upgrades=§7<upgrade>§r 必須。適用するアップグレードのIDを1から5種類指定。アップグレードのIDは §7<internalId>-<name>§r の形式をとる。利用可能なアップグレードIDを見るにはTabでの補完機能を利用すること。
+salisarcana:command.upgrade-focus.args.player=§7[--player]§r 手元の杖星をアップグレードするプレイヤーを指定する。入力されていない場合、コマンドの実行者が指定される。
+salisarcana:command.upgrade-focus.noItem=指定されたプレイヤーは杖星を持っていません。
+salisarcana:command.upgrade-focus.noUpgrades=アップグレードが指定されていません。
+salisarcana:command.upgrade-focus.tooManyUpgrades=%d アップグレードは5個の上限を超過したため適用できませんでした。
+salisarcana:command.upgrade-focus.success=すべてのアップグレードの適用に成功しました。
 
 salisarcana:commands.export-research.success=§9Success:§r Exported %s research to %s.
 salisarcana:commands.export-research.usage=/salisarcana-export-research --research <research-key> [--overwrite]
