@@ -24,10 +24,10 @@ salisarcana:command.forget-research.args.all=§7<--all>§r プレイヤーの既
 salisarcana:command.forget-research.args.research=§7<--research-key>§r 削除したい研究のIDを指定する。複数回入力可能。§7all§rが入力されていない場合は必須。§7all§rと相互排他的。
 salisarcana:command.forget-research.args.player=§7[--player <username>]§r 研究を削除したいプレイヤーを指定する。入力されていない場合、デフォルトでこのコマンドを実行したプレイヤーが指定される。
 salisarcana:command.forget-research.args.scalpel=§7[--scalpel]§r 設定した場合、指定した研究は削除されるが、同時解放される研究や指定の研究を前提とする研究は削除されない。これは予期せぬ副作用をもたらす可能性がある。§7all§rと相互排他的。
-salisarcana:command.forget-research.args.retain-warp=§7[--retain-warp]§r If set, any permanent and/or sticky warp associated with the removed research will be kept.
+salisarcana:command.forget-research.args.retain-warp=§7[--retain-warp]§r 設定した場合、削除した研究に関する歪みを保持したままにする。
 
-salisarcana:command.forget-research.remove=§9Success:§r Removed %d research items and any associated warp, collectively removing %d permanent warp and %d sticky warp.
-salisarcana:command.forget-research.retain=§9Success:§r Removed %d research items. (%d permanent warp and %d sticky warp was §lnot§r removed.)
+salisarcana:command.forget-research.remove=§9成功:§r %d 項目の研究と関連する歪みが削除されました。合わせて %d の永続的な歪みと %d の通常の歪みを削除しました。
+salisarcana:command.forget-research.retain=§9成功:§r %d 項目の研究が削除されました。(%d の永続的な歪みと %d の通常の歪みは§l削除されていません§r。)
 
 salisarcana:command.forget-scanned.desc=プレイヤーが調査したアイテムのリストをリセットし、同じアイテムを再度調査可能にする。
 salisarcana:command.forget-scanned.usage=§7/salisarcana-forget-scanned §7[--player §7<username>] §7[--objects] §7[--entities] §7[--nodes] §7[--all] §7[--aspects <...>]§r
@@ -39,22 +39,22 @@ salisarcana:command.forget-scanned.args.hand=§7[--hand]§r 現在手に持っ�
 salisarcana:command.forget-scanned.args.inventory=§7[--inventory]§r インベントリ内にある全てのアイテムの調査がリセットされる。§7--all§rと相互排他的。
 salisarcana:command.forget-scanned.args.looking=§7[--looking]§r 現在視線の先にあるブロックの調査がリセットされる。§7--all§rと相互排他的。
 salisarcana:command.forget-scanned.args.container=§7[--container]§r 現在視線の先にあるコンテナ(チェストなど)に入っているすべてのアイテムの調査がリセットされる。§7--all§rと相互排他的。
-salisarcana:command.forget-scanned.args.all=§7[--all]§r Combines the effects of §7objects§r, §7entities§r, and §7nodes§r
+salisarcana:command.forget-scanned.args.all=§7[--all]§r §7objects§r、§7entities§r、§7nodes§rの内容をすべて実行する。
 
 salisarcana:command.forget-scanned.success=§9成功:§r %d 項目が%sの調査リストから削除されました。
 salisarcana:command.forget-scanned.failure=§c失敗:§r %sの調査リストに削除する項目がありません。
 
-salisarcana:command.forget-aspect.desc=Forget or reset aspects from a player's knowledge.
+salisarcana:command.forget-aspect.desc=プレイヤーの知識から相を削除またはリセットする。
 salisarcana:command.forget-aspect.usage=§7/salisarcana-forget-aspect §7[--player §7<username>] §7[--reset] §7[--forget] §7[--aspect <...>] §7[--all] §r
-salisarcana:command.forget-aspect.args.player=§7[--player §7<username>]§r Specify the player whose aspects will be altered. If not provided, defaults to the player executing this command.
-salisarcana:command.forget-aspect.args.reset=§7[--reset]§r Reset the amount of research aspects the player has to 1. Mutually exclusive with §7forget§r.
-salisarcana:command.forget-aspect.args.forget=§7[--forget]§r Forget the aspect, requiring it to be rediscovered. Mutually exclusive with §7reset§r.
-salisarcana:command.forget-aspect.args.aspect=§7[--aspect §7<aspect[ §7aspect[ §7...]]]§r Specify the aspect(s) to reset or forget. Mutually exclusive with §7all§r.
-salisarcana:command.forget-aspect.args.all=§7[--all]§r Reset or forget all aspects. Mutually exclusive with §7aspect§r.
+salisarcana:command.forget-aspect.args.player=§7[--player §7<username>]§r 相の情報に変更を加えたいプレイヤーを指定する。入力されていない場合、デフォルトでこのコマンドを実行したプレイヤーが指定される。
+salisarcana:command.forget-aspect.args.reset=§7[--reset]§r プレイヤーが持つ研究ポイントの量を1にリセットする。§7forget§rと相互排他的。
+salisarcana:command.forget-aspect.args.forget=§7[--forget]§r 相の情報を忘れさせ、再発見が必要なようにする。§7reset§rと相互排他的。
+salisarcana:command.forget-aspect.args.aspect=§7[--aspect §7<aspect[ §7aspect[ §7...]]]§r リセットまたは忘れさせる相を指定する。§7all§rと相互排他的。
+salisarcana:command.forget-aspect.args.all=§7[--all]§r すべての相をリセットまたは忘れさせる。§7aspect§rと相互排他的。
 
-salisarcana:command.forget-aspect.success=§9Success:§r %d aspects were altered for %s.
-salisarcana:command.forget-aspect.failure=§cFailure:§r There was nothing to alter for %s.
-salisarcana:command.forget-aspect.no-action=§cFailure:§r No action specified. You must specify either §7--reset§r or §7--forget§r.
+salisarcana:command.forget-aspect.success=§9成功:§r %sの %d の相に関する知識が変化しました。
+salisarcana:command.forget-aspect.failure=§c失敗:§r %sに変更できる知識がありません。
+salisarcana:command.forget-aspect.no-action=§c失敗:§r 実行内容が指定されていません。§7--reset§r または §7--forget§r のいずれかを指定してください。
 
 salisarcana:command.help.desc=Salis Arcanaのコマンドについて情報を表示する。
 salisarcana:command.help.usage=§7/salisarcana-help §7[command]§r
@@ -117,17 +117,17 @@ salisarcana:command.upgrade-focus.noUpgrades=アップグレードが指定さ�
 salisarcana:command.upgrade-focus.tooManyUpgrades=%d アップグレードは5個の上限を超過したため適用できませんでした。
 salisarcana:command.upgrade-focus.success=すべてのアップグレードの適用に成功しました。
 
-salisarcana:commands.export-research.success=§9Success:§r Exported %s research to %s.
+salisarcana:commands.export-research.success=§9成功:§r %s の研究が %s に出力されました。
 salisarcana:commands.export-research.usage=/salisarcana-export-research --research <research-key> [--overwrite]
-salisarcana:commands.export-research.failed=§cFailure:§r Failed to export %s. Research likely has unsupported properties.
+salisarcana:commands.export-research.failed=§c失敗:§r %s の出力に失敗しました。指定した研究がサポートされていない性質を持っている可能性があります。
 
 salisarcana:error.invalid_aspect="%s" は未知の相です。
-salisarcana:error.invalid_focus_upgrade=%s is not a known focus upgrade.
+salisarcana:error.invalid_focus_upgrade=%s は未知のアップグレードです。
 salisarcana:error.invalid_node_modifier=%s は未知のモディファイアです。
 salisarcana:error.invalid_node_type=%s は未知の種類のオーラ節です。
-salisarcana:error.unexpected_value=Unexpected input "%s".
-salisarcana:error.unknown_value=Unknown value "%s".
-salisarcana:error.unknown_research=%s is not a known research key.
+salisarcana:error.unexpected_value="%s"は予期しない入力です。
+salisarcana:error.unknown_value="%s"は未知の値です。
+salisarcana:error.unknown_research=%s は未知の研究キーです。
 
 salisarcana:update_available=新しいバージョンのSalis Arcanaが利用可能です。(%s)
 salisarcana:update_link= §9クリックしてダウンロードページを開きます。§r
@@ -165,9 +165,9 @@ tc.research_text.salisarcana:FOCUS_DISENCHANTING=己の選択を悔いて
 tc.research_page.salisarcana:FOCUS_DISENCHANTING.0=杖星加工器での実験中、せっかくの機能的な杖星をアップグレードによって台無しにしてしまうことがよくあった。<BR>嬉しいことに、さらに実験してみると、杖星に施したエンチャントは見た目ほど永続的なものではないことがわかった。<BR>杖星加工器の中でアップグレードした杖星に§8Perditio§0のCVを浴びせることで、杖星に適用した最後のアップグレードを消去し、アップグレード時に消費した経験値を最大%d%%返還させることができる。
 tc.research_page.salisarcana:FOCUS_DISENCHANTING.1=(レベルが上がっていくと1レベルあたりの経験値量は増加する。このため、最低レベルより高いレベルで杖星をアップグレードすると、消費される経験値量が多くなることにより、経験値の損失が余分に生じる。)
 
-salisarcana:error_missing_research.infusion=You lack the research to start this infusion! You must research "%s" in %s before you can craft this item!
-salisarcana:error_missing_research.crucible=You lack the research to craft this recipe in the Crucible! You must research "%s" in %s before you can craft this item!
-salisarcana:error_missing_research.gui=Missing Research
+salisarcana:error_missing_research.infusion=この注入を始めるための研究が不足しています！このアイテムをクラフトするには研究"%s"(%s内)が必要です！
+salisarcana:error_missing_research.crucible=るつぼでこのクラフトをするための研究が不足しています！このアイテムをクラフトするには研究"%s"(%s内)が必要です！
+salisarcana:error_missing_research.gui=前提研究の不足
 
 salisarcana:duplicate_research.extra_page=§l[Salis Arcana]§r<BR>加えて、ソーモノミコン内で完了済みの研究にカーソルを合わせたとき、新しいボタンが見えるようになる。<BR>このボタンをShiftクリックすると、神と筆記具のインク、相を消費し、完了済みの研究メモを生成する。
 salisarcana:duplicate_research.text="%s"を複製
@@ -192,10 +192,10 @@ item.Wand.salisarcana:unknown.cap=[無効な石突]
 item.Wand.salisarcana:unknown.rod=[無効な杖身]
 salisarcana:unknown_wand.craft=§4作業台に入れて無効な部品をすべて消去してください。
 
-salisarcana:error.preface=Salis Arcana Error: 
-salisarcana:error.potion_id_limit=%s was assigned id %d, which is above the safe limit of 127. If the limit has been raised through another mod, please set _uncapped_potion_ids to `true` in the Salis Arcana feature configs.
-salisarcana:error.potion_id_claimed=%s could not be given id %d as configured because that id has been assigned to a different potion effect.
-salisaracan:error.potion_array_too_long=No more unassigned potion ids could be found within the safe limit. If the limit has been raised through another mod, please set _uncapped_potion_ids to `true` in the Salis Arcana feature configs.
+salisarcana:error.preface=Salis Arcanaエラー:
+salisarcana:error.potion_id_limit=%s はID %d に割り当てられています。これは上限の127を超える値です。他Modで上限が引き上げられている場合、Salis Arcanaのコンフィグで set _uncapped_potion_ids を`true`に設定してください。
+salisarcana:error.potion_id_claimed=%s にID %d は割り当てられません。そのIDはすでに他のポーション効果に割り当てられています。
+salisaracan:error.potion_array_too_long=ID上限内に未割り当てのポーションIDが見つかりませんでした。他Modで上限が引き上げられている場合、Salis Arcanaのコンフィグで set _uncapped_potion_ids を`true`に設定してください。
 
 salisarcana:wand_part.show_details=§6CTRL§8を押してThaumcraft杖の状態を表示
 salisarcana:wand_part.cannot_preserve_node=§4節の保護が不可能！
