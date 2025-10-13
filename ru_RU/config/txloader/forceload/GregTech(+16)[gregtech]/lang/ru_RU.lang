@@ -198,6 +198,8 @@ gt.interact.desc.mb.locking_off=Блокировка одного рецепта
 gt.interact.desc.mb.mode=§fРежим работы: §6%s
 gt.interact.desc.export=Экспорт
 gt.interact.desc.import=Импорт
+gt.interact.desc.export.tooltip=Export
+gt.interact.desc.import.tooltip=Import
 gt.interact.desc.export_cond=Экспорт (Условный)
 gt.interact.desc.import_cond=Импорт (Условный)
 gt.interact.desc.export_invert_cond=Экспорт (Инвертированный)
@@ -1494,6 +1496,7 @@ GT5U.gui.text.out_of_fluid=§4Не поставлены следующие жи�
 GT5U.gui.text.out_of_item=§4Не поставлены следующие предметы: §b%s§f x §6%s
 GT5U.gui.text.out_of_stuff=§4Не поставлены следующие ресурсы: §b%s§f x §6%s
 GT5U.gui.text.power_loss=§4Выключен из-за потери питания.
+GT5U.gui.text.no_void_mining=§4Cannot void mine this dimension (%s).
 GT5U.gui.text.pollution_fail=§4Не удалось вывести загрязнение.
 GT5U.gui.text.structure_incomplete=§4Отключён из-за неполной структуры.
 GT5U.gui.text.no_repair=§4Выключен из-за повреждения механизма.
@@ -1546,12 +1549,12 @@ GT5U.gui.text.beta-plus=β+ распад
 GT5U.gui.text.invalidfluidsup=Invalid Fluid Supplied
 
 
-GT5U.gui.hoverable.runningfine=Running Fine.
-GT5U.gui.hoverable.incomplete=Structure incomplete.
-GT5U.gui.hoverable.powerloss=Lost Power.
-GT5U.gui.hoverable.norepair=Machine too damaged.
-GT5U.gui.hoverable.manualshutdown=Manual shutdown (get it?).
-GT5U.gui.hoverable.error=ERROR! REPORT ME!
+GT5U.gui.hoverable.runningfine=Работает отлично.
+GT5U.gui.hoverable.incomplete=Незавершенная структура.
+GT5U.gui.hoverable.powerloss=Потеря энергии 
+GT5U.gui.hoverable.norepair=Механизм слишком повреждён. 
+GT5U.gui.hoverable.manualshutdown=Ручное выключение (понятно?).
+GT5U.gui.hoverable.error=ОШИБКА! СООБЩИТЕ ОБ ОШИБКЕ!
 
 GT5U.gui.config.client=Клиент
 GT5U.gui.config.client.color_modulation=Модуляция цвета
@@ -1581,7 +1584,6 @@ GT5U.gui.config.machine_stats.mass_fabricator=Генератор материи
 GT5U.gui.config.machine_stats.teleporter=Телепорт
 GT5U.gui.config.machine_stats.cleanroom=Чистая комната
 GT5U.gui.config.worldgen=Worldgen
-GT5U.gui.config.worldgen.end_asteroids=Астероиды Энда
 GT5U.gui.config.worldgen.general=Общие
 
 GT5U.gui.text.cannot_change_when_running=Невозможно изменить конфигурацию во время работы!
