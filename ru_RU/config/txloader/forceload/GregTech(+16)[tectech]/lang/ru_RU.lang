@@ -1025,7 +1025,7 @@ fog.upgrade.text.3=Умножает максимальный расход топ
 fog.upgrade.text.4=Увеличивает базовый рабочий вольтаж всех модулей на: Единицы звездного топлива/сек * 10^8 EU/t
 fog.upgrade.text.5=Разблокирует модуль Helioflux Melting Core.
 fog.upgrade.text.6=Разблокирует множитель для максимальной параллели на основе расхода топлива. Этот бонус рассчитывается по следующей формуле: Множитель = 1 + (Единицы звездного топлива/сек) / 15
-fog.upgrade.text.7=Разблокирует модуль Heliothermal Plasma Fabricator и базовый элемент -> обработка плазмы (1 шаг плазмы, T3 максимум).
+fog.upgrade.text.7=Разблокирует модуль Гелиотермальный производитель плазмы и базовый элемент -> обработка плазмы (1 шаг плазмы, T3 максимум).
 fog.upgrade.text.8=Открывает окно конфигурации для максимального размера батареи и увеличивает предел до максимального значения. Кроме того, разблокирует множитель скидки на энергию, который масштабируется в зависимости от размера батареи (ограничен 0.05 или 5%). Скидка рассчитывается следующим образом: Скидка = (1 - 1.05^(-0.05 * Максимальная ёмкость батареи)) / 20
 fog.upgrade.text.9=Увеличивает максимальный расход топлива на 1 единицу звездного топлива/сек за каждое приобретенное улучшение.
 fog.upgrade.text.10=Добавляет x2 множитель к максимальной параллели.
@@ -1033,7 +1033,7 @@ fog.upgrade.text.11=Разблокирует модуль Heliofusion Exoticizer
 fog.upgrade.text.12=Улучшает формулу преобразования расхода топлива -> тепла. Улучшенная формула: Тепло Power Forge = log_1.12(единиц звездного топлива/сек) * 1000 + 12601, Тепло Melting Core = log1.18 (единиц звездного топлива/сек) * 1000 + 12601
 fog.upgrade.text.13=Улучшает формулу СУ: Множитель = 1 + (единицы звездного топлива/сек) / 5
 fog.upgrade.text.14=Улучшает формулу разгона с 4/2 до 4/2.3.
-fog.upgrade.text.15=Позволяет Heliothermal Plasma Fabricator обрабатывать многоступенчатую плазму. Ограничение по тиру сохраняется.
+fog.upgrade.text.15=Позволяет Гелиотермальному производителю плазмы обрабатывать многоступенчатую плазму. Ограничение по тиру сохраняется.
 fog.upgrade.text.16=Позволяет Helioflare Power Forge получить все преимущества пути улучшения Helioflux Melting Core.
 fog.upgrade.text.17=Увеличивает лимит бонуса тепла EBF до 30,000K.
 fog.upgrade.text.18=Разблокирует множитель для максимальной параллели на основе текущего тепла. Этот бонус рассчитывается по следующей формуле: Множитель = 1 + Тепло / 15000
@@ -1042,13 +1042,13 @@ fog.upgrade.text.20=EBF heat bonuses are granted above 30,000K, but the heat val
 fog.upgrade.text.21=Разблокирует множитель для максимальной параллели на основе общего количества приобретенных улучшений. Этот бонус рассчитывается по следующей формуле: Множитель = 1 + количество улучшения / 5
 fog.upgrade.text.22=Улучшает УГКГ на основе максимальной параллели. Улучшенная формула: Множитель = (1 / Тепло^0.01) / (Параллель^0.02)
 fog.upgrade.text.23=Умножает максимальный рабочий вольтаж на 4 за каждое активное кольцо, применяется после других бонусов.
-fog.upgrade.text.24=Позволяет Heliothermal Plasma Fabricator обрабатывать плазму до Т5.
+fog.upgrade.text.24=Позволяет Гелиотермальному производителю плазмы обрабатывать плазму до Т5.
 fog.upgrade.text.25=Allows the Heliofusion Exoticizer to be affected by other upgrade benefits, but those benefits are square rooted first. The overclock bonus is adjusted via the following formula: OC Factor = 2 + (Base OC Factor - 2)^2
 fog.upgrade.text.26=Позволяет построить второе кольцо и добавляет 4 слота для модулей.
 fog.upgrade.text.27=Отключает максимальный расход топлива, но расход топлива, используемый в расчётах бонусов, масштабируется по следующей формуле: Фактический РТ = Текущий макс. РТ + (Текущий РТ - Текущий макс. РТ)^0.4, где РТ - расход топлива, а макс. РТ - максимальный расход топлива без этого улучшения.
 fog.upgrade.text.28=Отключает максимальный вольтаж обработки. Вольтаж можно задать в GUI каждого модуля.
 fog.upgrade.text.29=Позволяет построить третье кольцо и добавляет 4 слота для модулей.
-fog.upgrade.text.30=Разблокирует производство Магматерии в Heliofusion Exoticizer, создание экзотических плазм в Heliothermal Plasma Fabricator и выброс и впрыск гравитонных осколоков.
+fog.upgrade.text.30=Разблокирует производство Магматерии в Heliofusion Exoticizer, создание экзотических плазм в Гелиотермальном производителе плазмы и выброс и впрыск гравитонных осколоков.
 
 fog.debug.resetbutton.text=Сброс
 fog.debug.resetbutton.tooltip=Сбрасывает все улучшения до нуля
@@ -1096,7 +1096,7 @@ fog.text.tooltip.voltageadjustment.1=Вольтаж = Мин(Выбранный 
 achievement.gt.blockmachines.multimachine.em.forge_of_gods=Кузница Богов
 achievement.gt.blockmachines.multimachine.em.smelting_module=Helioflare Power Forge
 achievement.gt.blockmachines.multimachine.em.molten_module=Helioflux Melting Core
-achievement.gt.blockmachines.multimachine.em.plasma_module=Heliothermal Plasma Fabricator
+achievement.gt.blockmachines.multimachine.em.plasma_module=Гелиотермальный производитель плазмы
 achievement.gt.blockmachines.multimachine.em.exotic_module=Heliofusion Exoticizer
 achievement.gt.godforgecasing.0=Укреплённый сингулярностью звездный экранирующий корпус
 achievement.gt.godforgecasing.1=Направляющий корпус из небесной материи
@@ -1394,7 +1394,7 @@ GT5U.gui.text.research_progress=§fВычислительной мощности
 # RecipeMaps
 gt.recipe.eyeofharmony=Глаз гармонии
 gt.recipe.researchStation=Исследовательская станция
-gt.recipe.fog_plasma=Heliothermal Plasma Fabricator
+gt.recipe.fog_plasma=Гелиотермальный производитель плазмы
 gt.recipe.fog_exotic=Heliofusion Exoticizer
 gt.recipe.fog_molten=Helioflux Melting Core
 gt.recipe.upgrade_costs=Улучшения Кузницы Богов
