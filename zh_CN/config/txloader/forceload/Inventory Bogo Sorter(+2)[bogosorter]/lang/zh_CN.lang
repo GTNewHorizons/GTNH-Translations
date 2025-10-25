@@ -1,10 +1,18 @@
 key.categories.bogosorter=Inventory Bogo Sorter
 key.sort_config=开启排序配置
-key.sort=整理物品栏
+key.sort_nogui=Sort Inventory Outside GUIs
+key.sort_gui=Sort Inventory In GUIs
 key.dropoff=卸货
 key.dropoff.tooltip1=卸货至附近库存
 key.dropoff.tooltip2=按住Ctrl键拖动以移动
 key.tooltip.keybind=按键绑定
+key.bogosorter.controls_button=A Shortcuts Settings
+key.bogosorter.move_all_same=Move All Same
+key.bogosorter.move_all=Move All
+key.bogosorter.move_single=Move Single
+key.bogosorter.move_single_empty=Move Single To Empty Slot
+key.bogosorter.throw_all_same=Throw All Same
+key.bogosorter.throw_all=Throw All
 
 bogosort.gui.title=排序配置
 bogosort.gui.tab.general.name=通用
@@ -33,7 +41,7 @@ bogosort.gui.usageticker_enable=启用使用计数器
 bogosort.gui.usageticker_mainhand=启用主手使用计数器
 bogosort.gui.usageticker_offhand=启用副手使用计时器
 bogosort.gui.usageticker_armor=启用装甲使用计数器
-
+bogosort.gui.usageticker_arrow=Enable Usage Ticker Arrows
 
 
 bogosort.command.config_relaod.success=重新加载排序配置
@@ -109,11 +117,16 @@ bogosorter.config.usage_ticker.enable=启用使用计数器
 bogosorter.config.usage_ticker.mainhand=显示主手使用
 bogosorter.config.usage_ticker.offhand=显示副手使用
 bogosorter.config.usage_ticker.armor=显示护甲使用
+bogosorter.config.usage_ticker.arrow=Arrow Settings
+bogosorter.config.usage_ticker.arrow.enable=Enable arrow usage
+bogosorter.config.usage_ticker.arrow.arrowItems=Item arrows
+bogosorter.config.usage_ticker.arrow.bowItems=Item bows
 
 bogosorter.config.sort.sound=排序按钮点击音效
 bogosorter.config.hotbarsort.enable=启用快捷栏排序
 bogosorter.config.hotbarswap.enable=启用快捷栏切换
 bogosorter.config.autorefill.enable=启用自动快捷栏重填
+bogosorter.config.autorefill.enable_server=Enable auto-refill (Server Toggle)
 bogosorter.config.autorefill.damage_threshold=自动重装耐久阈值
 bogosorter.config.preventSplit=阻止不可堆叠物品分堆
 bogosorter.config.button.color=排序按钮颜色
