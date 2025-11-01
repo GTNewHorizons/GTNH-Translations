@@ -131,11 +131,11 @@ botanichorizons.lexicon.preview.automatedAlchemyPool=构建设备
 botanichorizons.lexicon.entry.basicWrenches=扳手
 botanichorizons.lexicon.tagline.basicWrenches=窸窣如蛇
 botanichorizons.lexicon.text.basicWrenches.1=你可以用多种植物魔法材料制作&1扳手&0。只要你身上有魔力源，它们就不会损耗耐久，而是转而消耗一点点&4魔力&0。可惜，它们只善于破坏方块。查看你的&1魔导手册&0以了解相关研究和配方。
-botanichorizons.lexicon.entry.multiblockWrenches=Disassembling Wrenches
-botanichorizons.lexicon.tagline.multiblockWrenches=A force of nature.
-botanichorizons.lexicon.text.multiblockWrenches.1=The upgraded &1Wrench&0 is built to do the exact opposite as the holo projector, it can disassemble multiblocks in its entirety by right-clicking on the controller. This costs &4Mana&0, and the wrench needs to be charged before it can be used. These wrenches are made from a &1Terrasteel Wrench&0 or a &1Elementium Wrench&0 with some further upgrades. The recipe can be researched in the &1Thaumonomicon&0.
-botanichorizons.lexicon.text.multiblockWrenches.2=There are two wrenches you can make. The &1Wrench of Erosion&0 is made from the &1Terrasteel Wrench&0, and it breaks brocks indiscriminately. The second, the &1Wrench of Evolution&0 is made from the &1Elementium Wrench&0, will only disassemble one specific kind of block at a time. Shift+right-click with the &1Wrench of Evolution&0 on the block you wish, to select which block you want to remove.
-botanichorizons.lexicon.text.multiblockWrenches.3=The wrench has some limitations. It requires that the block can be wrenched, or is soft enough that the game considers it to be removable by hand. The wrench deposits blocks removed at your feet, but may not do so with their contents. This tool has charge tiers, and the number of blocks removed multiplies by 5 after the second tier, up to a maximum of 625.
+botanichorizons.lexicon.entry.multiblockWrenches=拆解用扳手
+botanichorizons.lexicon.tagline.multiblockWrenches=自然的力量
+botanichorizons.lexicon.text.multiblockWrenches.1=这类升级后的&1扳手&0作用与全息投影仪恰好相反。通过右键点击多方块机器的控制器，它能够拆解整个机器。这样做会消耗&4魔力&0，而扳手先充好能才能使用。这类扳手是通过为&1泰拉钢扳手&0或&1源质钢扳手&0添加一些升级制作的。其配方可在&1魔导手册&0中研究获得。
+botanichorizons.lexicon.text.multiblockWrenches.2=你可以制作两种扳手。由&1泰拉钢扳手&0制成的&1侵蚀之扳手&0可以无差别地破坏方块；由&1源质钢扳手&0制成的&1进化之扳手&0每次只会拆卸一种方块。用&1进化之扳手&0Shift+右键点击，可以选定你想拆卸的方块。
+botanichorizons.lexicon.text.multiblockWrenches.3=这类扳手也有其局限性。它要求方块必须是可用扳手拆卸的，或是硬度低到可以用手拆除。被拆卸的方块会掉落在你的脚下，但它们的内容物可能不会。这些扳手拥有充能等级。充能等级每增加1级，可拆卸的方块数翻5倍，最高可达625倍。
 
 botanichorizons.tooltip.parallels=每秒处理最多%d份配方
 botanichorizons.tooltip.multiblock.1=尺寸：§6%d§7×§6%d§7×§6%d§7（§6宽§7×§6高§7×§6长§7）
@@ -143,11 +143,11 @@ botanichorizons.tooltip.multiblock.2=这是一个高级多方块结构。
 botanichorizons.tooltip.multiblock.3=请参考§e植物魔法辞典§7获取建造说明。
 botanichorizons.author.combuster=添加者：§4(Com)§6Buster§7
 
-botanichorizons.tooltip.disassembly.rightClick=Right click a controller to remove its blocks
-botanichorizons.tooltip.disassembly.shiftRightClick=Shift+Right click to choose a block to remove.
+botanichorizons.tooltip.disassembly.rightClick=右键点击控制器方块以移除机器方块
+botanichorizons.tooltip.disassembly.shiftRightClick=Shift+右键点击以选定一个待移除方块
 
-botanichorizons.chat.disassembly.amount=Disassembled %s blocks
-botanichorizons.chat.disassembly.complete=§aThere are no more blocks to remove§7
-botanichorizons.chat.disassembly.obstructed=Some blocks couldn't be disassembled
-botanichorizons.chat.disassembly.missingConstruct=The wrench doesn't respond to this block
-botanichorizons.chat.disassembly.notWrenchable=The wrench doesn't respond to this block
+botanichorizons.chat.disassembly.amount=已拆卸%s个方块
+botanichorizons.chat.disassembly.complete=§a已无待移除方块§7
+botanichorizons.chat.disassembly.obstructed=一些方块无法被拆卸
+botanichorizons.chat.disassembly.missingConstruct=扳手对这个方块没有反应
+botanichorizons.chat.disassembly.notWrenchable=扳手对这个方块没有反应
