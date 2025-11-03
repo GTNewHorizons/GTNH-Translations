@@ -4306,10 +4306,6 @@ betterquesting.quest.msIxGO5gQCWJPmEyp_JhtQ.desc=为了目前游戏中的最后�
 betterquesting.quest.n8PKF63sSSi0y8ZBb2RIKQ.name=稳定重子物质
 betterquesting.quest.n8PKF63sSSi0y8ZBb2RIKQ.desc=在完成绝对重子完美净化单元的自动化后,你将会缓慢的开始得到稳定重子物质,产出速率为500mB每120秒每并行.
 
-# Quest: Biocatalyzed Propulsion Fluid
-betterquesting.quest.omilMDAFTVWzvZwo0SmnMw.name=Biocatalyzed Propulsion Fluid
-betterquesting.quest.omilMDAFTVWzvZwo0SmnMw.desc=Now with access to Maahes you can finally start making §5§lBiocatalyzed Propulsion Fluid§r. %n%nBPF is a superior fuel for the §9Spinmatron-2737§r, granting an additional §2§l1.25x§r parallels and allowing you to finally have access to §a§lHeavy mode§r dependent recipes.%n%n[note]If you happen to be avoiding rockets; check out the §nLumipod Sapling§r recipe[/note]
-
 # Quest: Wireless Data for Your Assembly Lines!
 betterquesting.quest.pLB6Sb0FSZ65cjWJ_Q4IIg.name=为装配线提供无线数据！
 betterquesting.quest.pLB6Sb0FSZ65cjWJ_Q4IIg.desc=接下来你可能不得不建造一堆装配线,而数据库无线发送接口和装配线无线接收接口可以让你避免为它们建造,连接大量的数据库和§o"意大利§r光缆".%n%n要使用这个,你需要先用螺丝刀右击存储闪存的数据库,再在数据库上放一个数据库无线发送接口,最后在装配线上设置一个装配线无线接收接口.%n%n[note]无线数据仓可以多对多,而不是只能一对一.[/note]
@@ -6411,6 +6407,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADEw.desc=大型钛锅炉是青铜锅炉�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFA.name=§6§l还要更多蒸汽？你确定吗？
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADFA.desc=在四种锅炉中,大型钨钢锅炉是最大也是最烂的.它与钛锅炉类似,只接受特定燃料,主要就是固体超级燃料,不过它输出过热蒸汽的速度相当于100％效率下的16000EU/t.如果你有更好的涡轮转子材料,比如奥利哈钢,那么你就能获得远超这个数字的功率输出,约为24000EU/t或是更高.%n%n你建造的大型锅炉数量,决定了你可能需要大量的大型涡轮.而为了解决这个问题,你可以考虑让每台涡轮进入超载状态,或者直接切换到松模式,不过只有在松模式下匹配最佳流量,这才算是个不错的选择.
 
+# Quest: Smelt All the Things...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.name=§6§l熔了所有东西...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.desc=一次熔炼多达九件物品听起来不错吧？只要一点点钢,你就可以做一台RC蒸汽炉.这是一个2x2x2的多方块结构.%n%n提示:所有熔炉的配方运作得都不错,但你没办法用它来将木头烧制成木炭.
+
 # Quest: Cleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.name=§6§l超净间
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.desc=更加先进(也更加洁净!)的电路板需要在无尘环境下才能制作.为了得到无尘环境我们需要超净间.超净间是个有趣的多方块结构,因为你将在它的§o内部§r放置其他机器!%n%n超净间是整体大小在3x4x3到15x15x15之间的中空多方块结构.超净间的底部并不需要是正方形,长方形也可以.顶层由过滤机外壳构成,除了边缘,它是塑料混凝土方块.控制器必须位于顶层的中心.如果超净间的长或宽是双数,那么控制器可以放在中心两块(或四块)中的任意一块.结构的其余部分均由塑料混凝土方块搭建而成.%n%n其中最多30%%的塑料混凝土方块可以用其它的方块或材料代替：%n%n一扇防爆门可以让你进出无尘室.请确保门是关着的,否则超净间会迅速失去洁净度.旅行锚和电梯也可以使用,如果需要,甚至可以将它们嵌入地板中.%n%n你可以使用线缆二极管或机器外壳,来自动通过墙壁输送电力和材料.但是在为你的内部机器更新换代时你要万分小心.务必拆下旧的机器外壳和线缆二级管,然后用新的更高电压的替换,否则你一定会很伤心的.如果只是用于传输物品,那就不用管等级的事.%n%n如果你想看到内部,可以使用任何EV级别以上的玻璃,例如防爆玻璃和魔力玻璃.如果超净间没有成型,请注意30%%的限制：问题往往由你放置了太多玻璃导致的.这个多方块结构的耗电量有点不同寻常,一开始是40EU/t,然后逐渐降低.但即使是在使用40EU/t的情况下,要给它足够的电,单个LV能源仓就足够了,你往往会用MV电的.请记住,这只适用于超净间,并不是一个普适规则.%n%n让我们现在先造一个5x5x5大小的超净间,你以后可以根据需要对它进行扩建.给它通电,让它运行,直到洁净度达到100%%.如果洁净度低于100%%,超净间内的机器就有几率吞掉在其中制作的物品,因此您要让超净间始终保持运行状态!%n%n任何维护问题都会使洁净度上限降低10%%.使用便携式扫描仪,工业信息屏,或使用维护提示覆盖板配上红石灯或蜂鸣报警器来监控你的超净间.%n%n[note]多方块机器,如大型化学反应釜或是高强度激光蚀刻机,都可以提供无尘环境,所以这些机器无需放入超净间.不过,你在使用其他机器,例如生物实验室时还是会需要超净间的.[/note]%n%n[note]其它有用的提示:你可以使用AE的无线接入器或矢量变换接口,来跳过机器外壳,进行物品运输,你还可以使用更高级的能源仓以更快地达到100%%的洁净度.[/note]%n%n[warn]请注意：你不能在超净间内使用任何会产生污染的机器,否则超净间会停止工作.[/warn]
@@ -6919,10 +6919,6 @@ betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.desc=这台多方块机器是获取�
 # Quest: Can it!
 betterquesting.quest.gMRufFtRRRa30LE21boFNQ.name=把它装进罐子里！(Can it!)
 betterquesting.quest.gMRufFtRRRa30LE21boFNQ.desc=如果您曾经需要等待装罐机来装满锡罐,或者等待流体灌装机来制造成吨的冷却单元,那么请考虑下涡轮装罐机Pro.当您决定需要它时,这台多方块机器可以同时充当这两种机器,并具有显著的优势!
-
-# Quest: Spinmatron-2737
-betterquesting.quest.p4BZRIJZQKON4zmHeIqcoA.name=Spinmatron-2737
-betterquesting.quest.p4BZRIJZQKON4zmHeIqcoA.desc=Tired of spamming Centrifuges already? %n%nAlas, with your newfound ZPM technology you can finally fabricate a Centrifuge with some real power; §5§lThe Spinmatron-2737§r!%n%nThe Spinmatron§r comes with a litany of advantages compared to the regular centrifuge multiblock, including a §2§l3x§r Speed boost, a §2§l30%%§r reduction in EU usage, and a malleable number of parallels.%n%nUnlike the generic turbine that comes stock in a normal Centrifuge, the Spinmatron§r graciously allows you to choose the quality of the turbines that go into the machine. You can add between §9§l2-8§r turbines depending on the machine tier, each turbine will increase the parallel amount by [§94 * Turbine Material Tier§r]. §3(You'll want to avoid using smaller, non-huge turbines!)§r%n%nThis efficiency comes at a cost however, and will require [§9Recipe Tier * 10§r] L/s of §5Kerosene§r in order to run. This can optionally be switched out with §5Biocatalyzed Propulsion Fluid§r for a §2§l1.25x§r parallel multiplier once you've reached §4UEV§r.%n%nAdditionally there are three modes that come unique to the Spinmatron:%n%n- §dLight§r -> Gives increased speed in exchange for only being able to process [§9Voltage Tier - 3§r] recipes%n%n- §6Normal§r -> No changes%n%n- §aHeavy§r -> Grants the ability to craft Heavy Mode dependent recipes in exchange for reducing your parallels by §c§l32x§r and consuming §5Biocatalyzed Propulsion Fluid§r.%n%n[note]Checkout the tooltip for more information![/note]%n%n[warn]Use the GUI for adding turbines; don't add them to the rotor assemblies.[/warn]
 
 # Quest: High Voltage Multiblocks
 betterquesting.quest.pKSx6HEUS0WkL6qkwo742g.name=高压阶段的多方块结构
@@ -12221,6 +12217,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUA.desc=护盾方块-防爆-一次性�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUQ.name=搞什么鬼...？
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUQ.desc=你找到了一个黄色的发光球. 以后可能会有用.
 
+# Quest: The One Ring
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUg.name=The One Ring
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUg.desc=So you found it. The One Ring, forged by a mighty Dark Wizard. A strange feeling tells you to put it on. The Ring seems to whisper to you as well...%n%n[warn]Yeah, maybe don't do that. Unless you like tons of warp and withers spawning on your ass, blowing up your base.[/warn]%n%nThe ring may make you §1invisible§r and §1invincible§r, but not only does it collect §5warp§r itself, it piles it on you as well. After an hour the amount SIGNIFICANTLY increases so try not to wear it that long unless you have a pure tear handy. You can also expect other effects, and the ring to not want to come off either.
+
 # Quest: I Don't Want to Set the World on Fire
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXA.name=I Don't Want to Set the World on Fire
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXA.desc=法杖核心:火焰是一个基础的法杖核心，它将能够发出短程锥形火焰并点燃怪物。%n%n[note]这个法杖核心可以在核心镶饰台中附加以下升级：[/note]%n§5朴素§r：每级降低10％vis消耗%n§5潜能§r：每级提升伤害%n§5炼金之焰§r（偶数等级）：延长目标燃烧时间并点燃接触方块%n§5火球§r（3级）：发射可爆炸的大型火球，若与§5炼金之焰§r相结合将点燃地面%n§5火柱§r（3级）：将锥形火焰凝聚为伤害更高、射程更远的射线%n%n译者注：任务标题“I Don't Want To Set The World On Fire”是游戏《辐射3》的主题曲，中文翻译为“我不想给这个世界纵火”
@@ -14385,10 +14385,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADXw.desc=铜制标枪的成本有些贵�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.name=§2§l你的第一把燧石飞刀
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADYA.desc=骨弓对你来说太贵了？那就做把燧石飞刀吧！你需要燧石和木棒来做成12把刀。虽然它的耐久和伤害都非常低，但它还是能帮你在安全的距离杀死生物。%n%n如果你想拾取射出的飞刀，你需要把飞刀本体放在你的物品栏中。
 
-# Quest: Smelt All the Things...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.name=§6§l熔了所有东西...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADZg.desc=一次熔炼多达九件物品听起来不错吧？只要一点点钢,你就可以做一台RC蒸汽炉.这是一个2x2x2的多方块结构.%n%n提示:所有熔炉的配方运作得都不错,但你没办法用它来将木头烧制成木炭.
-
 # Quest: Power of the Sun
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADpQ.name=§6§l太阳能
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADpQ.desc=现在我们应该研究一些别的可再生能源了.让我们从太阳能开始,最低等级的太阳能板发电量是1EU/t.这些太阳能板可以作为大部分GT机器的覆盖板使用,让这些机器能从太阳中获取能源(但前提是它可以看见太阳,即顶部没有不透明遮挡).%n%n千万记住挡雨,在机器上方放一层玻璃,也别忘了机器紧邻的方块也不能淋雨.%n%n[note]铝铁板需要MV冲压机床.[/note]
@@ -14709,7 +14705,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.desc=§W欢迎来到我的TED演讲,
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=单涡轮UV发电
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=等你到达ZPM阶段,可以制造ZPM动力仓后,每台涡轮的输出功率可以提高到524,288-EU/t.达到这个数字后,你对涡轮材料的选择限制已经少很多了,并且可以显著增加单堆输出的总功率.只要选择合适的涡轮材料,你就可以用3台大型等离子涡轮消化掉单堆输出的所有氦离子,建议材料如下:%n%n大型高耐久性复合钢涡轮,效率235％,输出功率473,759-EU/t%n大型原子分离催化剂涡轮,效率206％,输出功率409,663-EU/t%n大型精金涡轮,效率206％,输出功率413,280-EU/t%n大型龙锭涡轮,效率175％,输出功率220,500-EU/t(耐久高)%n大型中子涡轮,效率165％,输出功率249,480-EU/t(耐久极高)%n%n根据你使用涡轮的不同,最终的效率与输出功率会有很大差异.以上所列材料中,灵宝和中子涡轮的耐久极高,基本可以近乎永久使用,而另一些效率更高但需要时不时进行更换. 如果你想要单涡轮输出尽可能高的功率,尽可能迫近动力仓的极限的话,可以提高等离子体的流量,但一定要小心!千万不要超出动力仓的极限,而且流量超过最佳流量后,随着流量的进一步提升,效率会逐渐降低.更具体的效率损失值,可以在LuV任务章节中的"涡轮时间"任务内找到.%n%n制造一个ZPM动力仓(普通或缓冲的)即可完成此任务.
 
-# Quest: High Temperature Gas-cooled Reactor
+# Quest: High Temperature Super Breeder
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.name=§6§6§6§l高温气冷反应堆
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.desc=你听说过球床反应堆吗?%n%n它叫作高温气冷反应堆(HTGR),需要使用燃料丸,并且消耗电力.然而,它也无法真正大量发电,尽管造价高昂,甚至无法与钍高温反应堆(THTR)所输出的EU/t相比.多方块机器的结构基本相同,这是一座巨大的反应堆,尺寸约为12x12x12,需要500+铕制机械方块.而发电效率低下的交换,就是其增殖效率极高.%n%n对不知情者来说,这台机器非常昂贵.球床反应堆的工作原理是,填满燃料丸,然后反应堆就会持续运行,基本上可以说是永久运行.这样,你就能拥有全自动的,几乎无穷无尽的镥、钚以及其他东西(将在之后的任务中解释,以及如何生产燃料、如何处理输出). 换句话说,虽然这台多方块机器确实造价高昂,但如果你需要巨量的、无休止的增殖输出,其实这个成本还是合理的.%n%n如果你还在犹豫是否要建造它,请先查看下一个任务,了解关于燃料和输出的更多信息后再做决定吧.%n%n注意事项:%n%n高温气冷反应堆有内部燃料缓存,并且只需要1个任意种类的输入总线和1个输出总线(反应堆会自动将每64个枯竭燃料丸压缩成1个球,所以为了避免输出总线满了之后吞物品,你需要6格以上空间的输出总线)%n%n反应堆运行只需要720k燃料丸中的72k个,但以最小需求量运行意味着你无法获得任何增益,例如更短的配方时间,每轮运行更多的燃料丸处理量.%n%n无论内部有多少燃料丸,这台多方块机器运行时总会消耗1A-LuV,但也会在运行时产生热冷却液.如果你将其用于发电,就可以获取比反应堆运行所需更多的电力.%n%n放入的燃料丸越多,反应堆的吞吐量越大.%n%n在NEI中输入"HTGR",就可以看到所有与这台多方块机器相关的物品.
 
@@ -14939,6 +14935,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABxw.desc=寻找"神秘水晶"并触发�
 # Quest: Trigger: Life
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.name=触发：生命
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByA.desc=在凋灵死亡后触发红心容器任务.
+
+# Quest: Trigger: Ring
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.name=Trigger: Ring
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFUw.desc=No Description
 
 # Quest: Trigger: Mjolnir
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFVA.name=触发：雷神之锤
