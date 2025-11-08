@@ -5,6 +5,7 @@ from loguru import logger
 
 from gtnh_translation_compare.filetypes import Language
 from gtnh_translation_compare.filetypes.filetype import Filetype
+from gtnh_translation_compare.filetypes.linebreak import linebreak_restorer, linebreak_normalizer
 from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
 from gtnh_translation_compare.paratranz.paratranz_cache import ParatranzCache
 from gtnh_translation_compare.paratranz.types import (
@@ -41,6 +42,7 @@ class Converter:
         content = file_extra.original
         string_items = await self.client.get_strings(paratranz_file.id)
         string_items_map = {item.key: item for item in string_items}
+        linebreak_mapper = linebreak_restorer(file_extra.en_us_relpath)
 
         properties: List[Tuple[str, Property]] = [(k, v) for k, v in file_extra.properties.items()]
         properties.sort(key=sort_key)
@@ -51,7 +53,7 @@ class Converter:
             if k not in string_items_map:
                 continue
             string_item = string_items_map[k]
-            translation = string_item.translation
+            translation = linebreak_mapper(string_item.translation)
             if translation:
                 buffer.write(content[left : p.start])
                 buffer.write(translation)
@@ -65,8 +67,9 @@ class Converter:
 
     async def to_paratranz_file(self, file: Filetype) -> "ParatranzFile":
         file_name = file.get_target_language_relpath(self.target_lang) + ".json"
+        linebreak_mapper = linebreak_normalizer(file.get_en_us_relpath())
         string_list: List[StringItem] = [
-            StringItem(key=p.key, original=p.value, context=p.full) for p in file.properties.values()
+            StringItem(key=p.key, original=linebreak_mapper(p.value), context=p.full) for p in file.properties.values()  # pyright: ignore [reportCallIssue]
         ]
         paratranz_file_extra_properties: Dict[str, Property] = {
             k: Property(key=p.key, start=p.start, end=p.end) for k, p in file.properties.items()
