@@ -1942,10 +1942,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaQ.desc=Возможно, ты прен
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.name=§6§lСлишком много предметов? Невозможно!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.desc=Начинает напрягать излишек некоторых предметов? Просто прилепи этого плохиша на ящик и любые предметы сверх максимального лимита будут автоматически уничтожаться! Удобней при использовании совместно с контроллером ящиков.
 
-# Quest: Hangover From All That Glue?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§6§lБашка трещит от этого клея?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=Монтаж на SMD компонентах, это более продвинутая технология изготовления электросхем. Они нужны для создания электросхем EV+ уровня, а также, электросхемы созданные на SMD компонентах дешевле обычных, если у тебя есть требуемые материалы. Тебе понадобится MV сборочная машина и немного расплавленного полиэтилена. Скорее всего, на данный момент без проблем ты можешь создавать только резисторы.
-
 # Quest: Make a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.name=§6§lДелаем дистиллятор получше
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=Чтобы сильно ускорить производство метанола и этанола сделай MV дистиллятор.
@@ -2095,7 +2091,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8w.desc=В бокситовой жил�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.name=§9§lРутил
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.desc=Ты же уже набрал немного рутила в качестве побочного продукта рудопереботки, правда? Ну или пожарил немного ильменита в EBF?%n%nСмешав рутил, хлор и углерод, ты получишь тетрахлорид титана и немного угарного газа. Газ при желании ты можешь переработать, чтобы получить углерод. Советую использовать большой химический реактор.%n%nПри переплавке тетрахлорида титана с добавлением магния в EBF ты получишь раскалённый титановый слиток и хлорид магния. Последний ты можешь переработать, смешав с натрием, чтобы получить обратно магний и хлор. 
 
-# Quest: SMD Circuit Components
+# Quest: SMD Diodes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.name=§9§lSMD компоненты
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.desc=Монтаж с помощью SMD компонентов это более продвинутый способ производства электросхем. Они потребуются для создания электросхем начиная со следующего тира, а также они дешевле в производстве чем обычные конденсаторы, транзисторы, диоды и резисторы. Как только ты наладишь производство полиэтилена, то сможешь сэкономить кучу ресурсов, перейдя на SMD компоненты.%n%nПроверь свои запасы галлия - возможно не стоит его тратить на производство SMD диодов и транзисторов пока не наладишь его добычу с помощью HV дробителя или пчёлок. Также, обрати внимание на растения из IC2 - некоторые из них могут учетверить выход продукта из руд цинка, сфалерита и боксита. 
 
@@ -2374,6 +2370,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBg.desc=Биолаборатория э
 # Quest: Petri Dishes, Not for Eating
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.name=§9§lЧашки Петри, не для еды
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.desc=Для выращивания культур тебе понадобятся чашки Петри. Они делаются из боросиликатного стекла, полистирола или ПТФЭ.%n%nПеред выращиванием культур чашки Петри нужно обязательно стерилизовать. Для стерилизации можно использовать этанол, метанол, аммиак или хлор.
+
+# Quest: Hangover From All That Glue?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§6§lБашка трещит от этого клея?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=Монтаж на SMD компонентах, это более продвинутая технология изготовления электросхем. Они нужны для создания электросхем EV+ уровня, а также, электросхемы созданные на SMD компонентах дешевле обычных, если у тебя есть требуемые материалы. Тебе понадобится MV сборочная машина и немного расплавленного полиэтилена. Скорее всего, на данный момент без проблем ты можешь создавать только резисторы.
 
 # Quest: Better Magnetic Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZQ.name=§9§lНамагниченные стержни получше
@@ -3857,7 +3857,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.name=Улучшаем реактор
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.desc=A MK II is nice, but why not make a MK III? This time you need UV+ energy hatches, as well as the Fusion Machine Casing MK II.%n%nEach energy hatch has an energy capacity of 40M EU and draws up to 32768 EU/t. That means it can handle start costs up to 640M EU and power consumption up to 524288 EU/t.%n%nThe MK III reactor also grants a 2/2 perfect overclock for every machine tier above the minimum recipe tier.
 
 # Quest: I Put Fusion in Your Fusion so you Can Fusion While You Fusion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.name=I Put Fusion in Your Fusion so you Can Fusion While You Fusion
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.name=Я ставлю слияние в твое слияние так что ты можешь слиять пока ты слияешься 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.desc=To make Oganesson, you'll need to make Californium. To make that, you'll need Beryllium and Plutonium 239, all in the Fusion Reactor. After the two fusion chains, you'll have the best noble gas in the pack, which is used in several places.%n%nIn this tier, you can send it to Void Miners, to increase their ore production speed, or EBFs, to make them run faster, although the EBF option is too weak right now (changes coming soon). Later on, Oganesson will be used in other places, like the optical circuit line, or to produce Metastable Oganesson, which is needed in much larger quantities later on.%n%nOganesson replication is on the way out, and the fusion recipe has improved a lot, so there is no longer an incentive to replicate and your Fusion Reactor should keep running for Og.
 
 # Quest: Time for Another Reactor
@@ -3877,7 +3877,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH2A.name=Исследовательск�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH2A.desc=Теперь, когда ты начал строить свой драгоценный Квантовый компьютер, как насчет Исследовательской станции? И снова, используя Голограммный проектор мультиблоковой структуры, ты узнаешь, как построить этот мультиблок. Под ним должно быть 3 пустых блока, чтобы ты мог видеть весь чертеж. Когда он будет почти собран, установи Энерговвод, Оптический входной разъём и Люк техобслуживания с обратной стороны.%n%nПосле полной сборки ты можешь в любой момент приступить к работе с рецептами, если Квантовый компьютер также активен и подключён. Исследовательская станция требует, чтобы ты поместил предмет для исследования в Держатель образцов, а затем флешку в интерфейс мультиблока. Когда вычисления будут полностью завершены, флешка содержащая все данные о созданном предмете, окажется в интерфейсе мультиблока.%n%nВсё ещё путаешься? Отлично, в этом и заключается дух обучения! Всегда проверяй эти вещи в одиночной игре, если хочешь узнать найти точные измерения и т.п. Не забудь ВСЕГДА ОКРАШИВАТЬ ОПТИЧЕСКИЕ РАЗЬЁМЫ И ВОЛОКНА!%n%n[note]Обрати внимание, что некоторые исследования требуют значительного количества энергии, так что имейте это в виду.
 
 # Quest: Maintenance Free At Last!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMA.name=Maintenance Free At Last!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMA.name=Техобслуживание наконец-то бесплатное!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMA.desc=You'll never §oever§r need to fix maintenance problems on any multi that has this, nor will it cost parts. Well, except to make it.
 
 # Quest: Tier 8 (UV)
@@ -4013,7 +4013,7 @@ betterquesting.quest.w4JcJ33CSWGlsKrmyHxnXA.name=Synthetic Crystal
 betterquesting.quest.w4JcJ33CSWGlsKrmyHxnXA.desc=Fabricating Crystal SoCs with LuAG is so much faster than directly engraving crystal chips! They can also be used for Raw Advanced Crystal Chip.%n%nRemember to keep some LuAG gems for growing more crystals.
 
 # Quest: Advanced Crystal SoC Production
-betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.name=Advanced Crystal SoC Production
+betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.name=Производство продвинутых кристальных систем на чипе
 betterquesting.quest.yo1cuNvYSU2JAczbJLAfjg.desc=We can process Crystal Processing Units in a Laser Engraver to get the Crystal SoC. But as our demand for circuits gradually increases, this method of production is becoming untenable. We need a more advanced way to mass produce Crystal SoCs!%n%nFor that we use a new material, Cerium-doped Lutetium Aluminium Garnet (Ce:LuAG). LuAG has better performance when making Crystal SoCs - in fact it is a laser crystal material.%n%nFirst, mix Lutetium, Aluminium, Oxygen, and a little Cerium to get the material blend. Then put the blend with Molten Lutetium into an Autoclave to get a regular LuAG gem. If you have already got Oganesson you can also directly use that. As the second step, use the LuAG gem and more of the blend to produce Exquisite LuAG Gems.%n%nAfter you get the first gem, you can also use your Autoclave to grow crystals. Using the Vacuum Furnace might be a better choice to produce Exquisite LuAG Gems.%n%nLutetium, Lutetium, it needs a lot of Lutetium. How will you get a lot of Lutetium? Check out the Powerful Nuclear Physics quest tab!
 
 
@@ -4626,11 +4626,11 @@ betterquesting.quest.IGVryoMbRu28q08v4uwSuw.name=Fabricating Solar Systems... in
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
 
 # Quest: See You Next Time!
-betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.name=See You Next Time!
+betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.name=Увидимся в следующий раз!
 betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.desc=Still want more? Consider doing another run! Maybe even with some restrictions if you want to spice it up a bit. Check the first quest chapter for some recommendations!%n%nThere's also roles to be earned for completing the pack two or even three times if you want an extra incentive.%n%n[note]If you are going for 100%% questbook completion, you can choose between this quest or 'The Factory Must Grow!', both are valid options.%nBe wary that choosing one will lock you out of the other though.[/note]
 
 # Quest: The Factory Must Grow!
-betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.name=The Factory Must Grow!
+betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.name=Завод должен расти!
 betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.desc=A single stargate pair wasn't enough for you?%n%nWell then, time to build a network.%n%nWelcome to the post-stargate tier! %n%nNow that you successfully managed to make a stargate, what about crafting them in industrial quantities? Try to craft 5 pairs of gates in the least amount of time, then come in #screenshot-brag and post your time to see where your infrastructure stands in the community!%n%n[note]If you are going for 100%% questbook completion, you can choose between this quest or 'See You Next Time!', both are valid options.%nBe wary that choosing one will lock you out of the other though.%n%nEnjoy your round of Minesweeper![/note]%n
 
 # Quest: Assembling on Space Steroids
@@ -6620,7 +6620,7 @@ betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.name=Пруд с водоросля�
 betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.desc=Стабильность. Это не про наш случай…а может и про наш!%n%nЕсли ты когда-либо задумывался о получении множества различных химических веществ из одного источника, то наверняка уже знаешь про нефтепереработку или бензол. Однако, существует ещё и Ферма водорослей. По сути, это просто пруд, потому ей не требуется энергия для работы. Также, поскольку у неё нет рецептов в классическом их понимании, то ты не найдешь их в NEI. Этот ферма просто производит водоросли на постоянной основе.%n%nТир фермы определяется нижним слоем обшивок корпуса (все обшивки должны быть одинаковыми). Время производства партии водорослей снижается с ростом тира – начиная от 50 секунд на ULV, оно снижается каждый тир на 5 секунд, вплоть до 25 секунд на IV, а далее, оно снижается в 2 раза на каждом последующем тире. Иногда, скорость производства может случайным образом снизиться в два или три раза, но это случается крайне редко.%n%nС ростом тира увеличивается количество водорослей за партию, а также разблокируются новые типы водорослей. За каждый цикл работы производится фиксированное количество водорослей, а также есть шанс в 10%% получить дополнительное количество. В ферму также можно добавлять специальный компост из GT++, который можно делать в том числе из самих водорослей, чтобы увеличить тир фермы на единицу. По началу, это может быть затратно, но в дальнейшем, рекомендую его использовать в большинстве случаев. Таким образом, начиная с ULV, ты можешь выращивать обычные и зелёные водоросли, бурые водоросли с HV, золотисто-бурые водоросли с EV и красные водоросли с IV. Однако, в большинстве случаев, на тире, на котором они только открываются, производимое количество невелико.%n%nЧтобы узнать точное количество, время и т.д., прошу заглянуть на вики: : [url]https://wiki.gtnewhorizons.com/wiki/Algae_Farm[/url]%n%nФерму водорослей можно использовать для добычи таких химических веществ как: метан, аммиак, серная кислота, карбонат натрия, этилен, хлорид лития и даже некоторое жидкое топливо. Зачастую, для этого потребуется постройка Химического завода. На IV этапе ты также сможешь наладить производство саннария из светящихся кораллов, которые можно получить, смешивая зеленые водоросли со светящейся пылью. Если тебя интересуют и другие производственные цепочки – поищи в NEI: квесты про них, возможно, появятся в будущем, в том числе и для тех рецептов, где не нужен Химический завод.
 
 # Quest: Tier 2 Manipulating
-betterquesting.quest.Mf1D7e-LTaW3rbBRYmxBAQ.name=Tier 2 Manipulating
+betterquesting.quest.Mf1D7e-LTaW3rbBRYmxBAQ.name=Манипулятор 2-го тира
 betterquesting.quest.Mf1D7e-LTaW3rbBRYmxBAQ.desc=After significant progression, you'll be able to upgrade the QFT to tier 2 by replacing the §3Neutron Pulse Manipulator§r casings with §3Cosmic Fabric Manipulator§r casings. Once installed, the QFT can perform the §6monaline skip§r, the §6first two naqline skips§r, and the §6netherite line skip§r.%n%nThese casings require more advanced materials, including §3Hyper-Stable Self-Healing Adhesive§r, which can only be crafted in a tier 1 QFT. This adhesive isn’t just excellent at sticking things together - it’s also built to withstand the intense energy flow of a tier 2, 3, or even tier 4 QFT! §o%n%nWho knows what kinds of materials you’ll need after this?!
 
 # Quest: A Beginner's Guide to Particle Physics
@@ -6708,11 +6708,11 @@ betterquesting.quest.tQecVBhjRRyfR3sqeNBrtA.name=§6§lOne Fluid Tank to Store i
 betterquesting.quest.tQecVBhjRRyfR3sqeNBrtA.desc=If you ever thought that the standard super tanks or quantum tanks were still too small then the YOTTank is the next option.%n%nThe YOTTank compared to the TFFT might only be able to store one fluid instead of 25 fluids. However it makes up for this downside by not having to share any of the fluid storage space with any other fluids. It also does not require any energy input or maintenance requirements.%n%nIf all you want to do is store a large amount of one fluid type then look no further then the YOTTank. It has a special ME input hatch for ae2 connections while having expandable storage blocks. The tank can be both upgraded with the fluid storage blocks and can be increased in height to hold any more fluid.%n%nSo if you want to store your fluid in style then look no further then the YOTTank.%n%n[note]If you're having issues searching for the fluid storage blocks for the YOTTank in NEI then search for: fluid cell block[/note]
 
 # Quest: Tier 4 Manipulating
-betterquesting.quest.tXVcSBqQQnS4tF8VoMqr6Q.name=Tier 4 Manipulating
+betterquesting.quest.tXVcSBqQQnS4tF8VoMqr6Q.name=Манипулятор 4-го тира
 betterquesting.quest.tXVcSBqQQnS4tF8VoMqr6Q.desc=§lFinally, you have done it§r! You can now upgrade your QFT to the ultimate tier by replacing your §3Infinity Infused Manipulator§r casings with §3SpaceTime Continuum Ripper§r casings. This final upgrade unlocks all skips, including the §6bio cell skip, the kevlar skip and the radox + xenoxene skip§r.%n%nEven with all previous upgrades, the final leap remained out of reach. Chemical skips for foundational components used in the earlier stages of the QFT, such as bioware circuits, were still impossible - §ountil now§r. Reaching the theoretical limit of the QFT demands a material far beyond anything seen before, hidden deep within the second half of the Naquadah line.%n%nThe material you require will be your magnum opus - the §3Black Body Naquadria Supersolid§r. This extraordinary substance acts as a perfect black body - absorbing all radiation without reflection - and behaves as a supersolid, flowing like a fluid with zero viscosity. Combining these properties in a single material ensures stable, effortless quantum energy flow at any voltage level, even at the MAX tier!%n%nWith this breakthrough, your QFT is fully unlocked, capable of creating components up to the UHV tier.
 
 # Quest: Tier 3 Manipulating
-betterquesting.quest.vK1Ed8HPTTms4QxfaA_P8Q.name=Tier 3 Manipulating
+betterquesting.quest.vK1Ed8HPTTms4QxfaA_P8Q.name=Манипулятор 3-го тира
 betterquesting.quest.vK1Ed8HPTTms4QxfaA_P8Q.desc=With access to even more advanced materials, you can upgrade your QFT to tier 3 by replacing the §3Cosmic Fabric Manipulator§r casings with §3Infinity Infused Manipulator§r casings. This tier unlocks two powerful new skips: the §6final naqline skip§r and the §6stem cell skip§r.%n%nThis new casing requires even more advanced materials still, including the §3Superconductor Rare-Earth Composite§r, which can only be crafted in a tier 2 QFT. Unlike §3Hyper-Stable Self-Healing Adhesive§r, which focused on structural integrity, this composite is designed purely for energy transmission. With automatic self-repair now fully handled, we can shift our focus to increasing the energy flow between components and into the multi itself.%n%nStandard superconductors break down under quantum stress - but this composite eliminates all resistance across the outer shell. Its precisely layered rare-earth elements create such gradual transitions that quantum flow moves effortlessly, with no losses or destabilizing effects.%n%n§oWhat will you discover next?!
 
 # Quest: More Algae Uses
@@ -9138,7 +9138,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2Q.desc=Cache me outside.%n%nYour CPU w
 
 # Quest: Computer Case
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.name=Системный блок
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive. Both parts are essential but both for some strange reason requires the T2 microchips to craft; so I'll let you trade the materials+T1 Microchips for some. Don't lose them!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive.
 
 # Quest: My Little Scrench
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2w.name=Мой маленький ключ
@@ -9394,7 +9394,7 @@ betterquesting.quest.Va3q2ob4Q-6sSdIxiIfuJw.name=И ЕЩЕ ЛУЧШЕЕ ШАСС
 betterquesting.quest.Va3q2ob4Q-6sSdIxiIfuJw.desc=Что? Тебе уже нужно шасси получше? Нужно ещё больше слотов для рецептов?%n%nВот шасси Mk4. Оно вмещает 4 модуля.
 
 # Quest: Inserting Fluids
-betterquesting.quest.WTIyEmzLR_mlw__SXY_iwA.name=Inserting Fluids
+betterquesting.quest.WTIyEmzLR_mlw__SXY_iwA.name=Вставляя жидкости
 betterquesting.quest.WTIyEmzLR_mlw__SXY_iwA.desc=Sometimes you insert fluid in the system. You need something to get the fluid into the correct buffer other than inserting the fluid into the buffer manually.%n%nThere are 2 pipes that can do the job: transfer fluid into a tank connected to a fluid basic pipe allocated to said fluid.%n%n1. Logistics Fluid Extractor Pipe. It extracts fluid from connected buffer to the correct big storage tank. It doesn't require a pump but it is slower.%n%n2. Logistics Fluid Insertion Pipe. It does not pull fluids from tanks actively, requiring a GT pump if you are using GT tanks, but it can send fluids faster.%n%nTake a pick :)
 
 # Quest: It's DA BEST
@@ -10208,7 +10208,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-Q.name=Top-Tier Analyzer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-Q.desc=The best you can get, for all your scanning and analyzing needs.
 
 # Quest: To Play God
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-g.name=To Play God
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-g.name=Играть бога
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB-g.desc=In order to continue with bees, to mutate and breed them as you like, you need mutagen. This greenish, smelly liquid needs to be refined from bacterial sludge that seems to be most readily available from fluid pockets on Mars. You will be able to continue, once you've acquired this.%n%nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Check out the recipes and you'll understand why you should look into the Genetics mod.%n%n[note]Make sure to make more with the Vat once you can actually make it.[/note]
 
 # Quest: Upgraded Home
@@ -10312,7 +10312,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACDw.name=Только лучшее: Де
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACDw.desc=On your way to awesome bees, you have to collect only the best traits available. Bee working day and night, all night and all day long!
 
 # Quest: Only the Best: Cave
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.name=Only the Best: Cave
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.name=Только лучшее: Пещера
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.desc=On your way to awesome bees, you have to collect only the best traits available. Bees with Cave can work in housing that is covered - by more housing!
 
 # Quest: Go Find Some Tropical Bees
@@ -10404,7 +10404,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKQ.name=Bees By the Millions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKQ.desc=If you need endgame high speed production, industrial apiaries are the way to go. Industrial Apiaries take upgrade frames that never break. Production frames can be stacked up to 8 high. It also has many options for emulation, more pollen retrieval, and others.%n%nThe Industrial Apiary is now a GT machine. It takes up to UV voltage and up to 4 amps but the base usage is just 37 EU/t. You can no longer use a World Accelerator and there is only the one machine, so no GT overclocking. Instead, there are new §oacceleration upgrades§r that act similar to a World Accelerator but are directly integrated into the machine. You will want to use them, they increase the speed and energy usage by a lot. The final tier also increases productivity.%n%nBut I shouldn't drone on too long. Go make one and find out yourself.
 
 # Quest: Fastest Way to Get There
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.name=Fastest Way to Get There
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.name=Быстрейший способ туда попасть
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKg.desc=A GT++ Mutagenic frame will get your bees to their final destination faster than you can blink. Just remember to wear your rubber suit while making it!%n%n[note]These will break in the alveary before they take effect since their durability is under 6. So you can only get to 125x, but I think that's enough, don't you?[/note]
 
 # Quest: Upgrading the Alveary
@@ -10424,7 +10424,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAILg.name=X-Men, or Should I Say X-Bee?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILg.desc=The Mutator can vastly accelerate genetic mutations, even allowing those ultra rare bees to be bred. Items inserted into the Mutator control how much mutation it causes.%n%nSoul Sand - 50 percent increase%nEnder Pearl - 100 percent increase%nEye of Ender - 300 percent increase
 
 # Quest: Genepool
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.name=Genepool
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.name=Генофонд
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.desc=Another important resource is Raw DNA. This can be obtained from any breedable organism such as bees, trees or flowers, and is created in the Genepool. The Genepool requires both Ethanol and Enzyme to digest the DNA, and will destroy the organism. Note this gives raw DNA, and does not preserve any genes or alleles present.
 
 # Quest: Isolator
@@ -13037,7 +13037,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABsg.name=Bound Tools: Pickaxe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABsg.desc=Mining never was easier. Just right-click with this tool and all the stone is gone! Like all bound tools, this uses a massive amount of LP.%n%n[note]Watch out for falling into lava![/note]
 
 # Quest: Bound Tools: Shovel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABsw.name=Bound Tools: Shovel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABsw.name=Связанные инструменты: Лопата
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABsw.desc=Ever wanted to clear out a large piece of terrain with dirt, gravel and sand? Why not let demons do it? This shovel, imbued with the soul of a demon will unleash the power by your will. But be warned: The demon you're about to summon with this is thirsty, and it costs a lot of LP to make use of it, so make sure your LP pool is full!%n%n[note]Will not dig beneath you.[/note]
 
 # Quest: Bound Tools: Axe
@@ -13069,7 +13069,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACvg.name=Плитки 5 тира
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACvg.desc=1023 Buckets of blood in one slate! How much more I can store, oh I wish I would know. Then I add one and check if it works. 1024 buckets of blood in one slate! ... ...
 
 # Quest: Powerful Shards
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACvw.name=Powerful Shards
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACvw.name=Сильные осколки
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACvw.desc=The demons summoned are rather strong, but their souls contain immense power!
 
 # Quest: Tier 4 Slates
@@ -15035,10 +15035,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.desc=Без описания
 # Quest: Trigger: Obtain Sunnarium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.name=Триггер: Получите Саннарий
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.desc=Без описания
-
-# Quest: Trigger: SMD Transistor Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.name=Триггер: SMD-транзистор
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=Без описания
 
 # Quest: Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=Инструмент: Никогда не завершать
