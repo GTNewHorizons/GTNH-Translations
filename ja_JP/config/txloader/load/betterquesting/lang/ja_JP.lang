@@ -1942,10 +1942,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaQ.desc=レアアースの精製はこ�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.name=§6§nアイテムが多すぎる？ 大丈夫！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.desc=アイテムが多すぎて困っていますか？%n%n§7《§r引き出し§7／Drawer》§r にこのバッドボーイ、 §7《§r消去アップグレード§7／Void Upgrade》§r を配置すれば、容量上限を超えて搬入されたアイテムを自動的に消去できるようになります！%n%n§7《§r引き出し制御器§7／Drawer Controller》§r と組み合わせるとより便利です。
 
-# Quest: Hangover From All That Glue?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§6§n接着剤の過剰使用による後遺症？
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=表面実装デバイスはより高度な回路部品です。EV以上の回路ラインに必須の部品で、適切な材料があれば基本バージョンよりも低コストで製作可能です。MVアセンブラと溶融ポリエチレンが必要です。現時点では、比較的容易に製作できるのはSMDレジスターだけでしょう。
-
 # Quest: Make a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.name=§6§lMake a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=To produce methanol and ethanol much faster, craft a mv distillery.
@@ -2061,7 +2057,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-g.desc=Integrated Processors need cent
 
 # Quest: Small Coil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.name=§9§lSmall Coil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you're an overachiever and created SMD Inductors already you may hold 24 in your hand to skip this quest.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD-w.desc=The Processor Assembly circuit needs some small coils. You can make these a couple different ways.%n%n[note]If you somehow got SMD Inductors already, you may hold 24 in your hand to skip this quest.[/note]
 
 # Quest: Upgraded RF Batteries
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2w.name=§9§lUpgraded RF Batteries
@@ -2095,9 +2091,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8w.desc=The Bauxite vein contains two o
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.name=§9§nルチル
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.desc=You've gotten some Rutile as a byproduct by now, right? Or EBF'd some Ilmenite?%n%nRutile, Chlorine and Carbon makes Titaniumtetrachloride, and some CO. You can recycle this for Carbon if you want to. Best use a Large Chemical Reactor in that case to get the full recipe.%n%nCombining TiCl4 with Magnesium in an HV EBF will give you a Hot Titanium ingot, and Magnesiumchloride. You can recycle this as well to get all the Magnesium and Chlorine back using some Sodium.
 
-# Quest: SMD Circuit Components
+# Quest: SMD Diodes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.name=§9§nSMD回路素材
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.desc=Surface-mount devices are more advanced circuit parts. They're needed for circuits starting next tier and are cheaper to craft than basic capacitors, transistors, diodes and resistors. Once you get a reliable polyethylene setup, you can save a lot of resources by using SMD components.%n%nBe sure to check how much gallium you have available. It might not be worth it to use SMD diodes and transistors until you have a steady supply with an HV macerator or bees. Also look into IC2 crops to 4x your zinc, sphalerite, and bauxite.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.desc=With Platinum in hand, you consider making some SMD diodes. Eventually, in EV, they will be required. But for now it is up to you if you have enough Gallium and Platinum to use them.
 
 # Quest: Workstations, Your First EV Circuit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9g.name=§9§lワークステーション、はじめてのEV回路
@@ -2374,6 +2370,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBg.desc=The Bio Lab is a multi-use bioe
 # Quest: Petri Dishes, Not for Eating
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.name=§9§nペトリ皿、食べ物のための皿じゃないよ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.desc=You'll need petri dishes to hold the cultures. You can make them out of borosilicate, styrene, or PTFE.%n%nThe petri dishes must then be sterilized to allow cultures to grow on them. You can use ethanol, methanol, ammonia, or chlorine to sterilize them.
+
+# Quest: Hangover From All That Glue?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§6§n接着剤の過剰使用による後遺症？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=表面実装デバイスはより高度な回路部品です。EV以上の回路ラインに必須の部品で、適切な材料があれば基本バージョンよりも低コストで製作可能です。MVアセンブラと溶融ポリエチレンが必要です。現時点では、比較的容易に製作できるのはSMDレジスターだけでしょう。
 
 # Quest: Better Magnetic Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZQ.name=§9§nより良い磁化した棒
@@ -3854,7 +3854,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAALQ.desc="究極"の電圧時代へ�
 
 # Quest: Upgrading the Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.name=核融合炉のアップグレード
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.desc=Mk 2は素晴らしいですが、なぜMk 3を作らないのですか？これにはUV以上のエネルギーハッチや、核融合マシン外装 MK IIが必要になります。%n%n16個それぞれのエネルギーハッチには32,768 EU/tの電力を入力することができ、40,000,000EUの開始電力容量を持っています。したがって、核融合炉Mk 3は最大640,000,000 EUの開始電力容量を持ち131,072 EU/tの電力消費を要するレシピを処理できます。%n%nより低いティアのレシピに使用する場合、核融合炉はレシピごとに必要な電力を2倍にし、処理時間を半分に短縮します。この両方がティアごとの差分に対して適用されます。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.desc=Mk 2は素晴らしいですが、なぜMk 3を作らないのですか？これにはUV以上のエネルギーハッチや、核融合マシン外装 MK IIが必要になります。%n%n16個それぞれのエネルギーハッチには32,768 EU/tの電力を入力することができ、40,000,000EUの開始電力容量を持っています。したがって、核融合炉Mk 3は最大640,000,000 EUの開始電力容量を持ち524,288 EU/tの電力消費を要するレシピを処理できます。%n%nより低いティアのレシピに使用する場合、核融合炉はレシピごとに必要な電力を2倍にし、処理時間を半分に短縮します。この両方がティアごとの差分に対して適用されます。
 
 # Quest: I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.name=I Put Fusion in Your Fusion so you Can Fusion While You Fusion
@@ -8512,7 +8512,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADWQ.desc=Combining Oxygen and Methanol a
 
 # Quest: Space Station
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKw.name=Space Station
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKw.desc=You can build a space station if you want. You can add up to four spin thrusters to your station to rotate it.%n%nDays on space stations last longer than on the overworld, so you can generate more solar power.%n%n§oYou can build space stations here:§r%nMoon - T1%nMars - T2%nJupiter - T3%nVenus - T4%nSaturn - T5%nUranus - T5%nNeptune - T6%n%n§bHint:§r Each task corresponds to one space station (they are in the same order). You need to complete at least one task to complete the quest.%n%n§cNote:§r It is likely that you will loose your rocket when flying back to earth or another space station. Make sure you have an alternative way to return (some form of teleportation) or use another planet/moon as proxy (if you get an error while doing so, you spawn on the planet/moon and can launch your rocket again).
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEKw.desc=You can build a space station if you want. You can add up to four spin thrusters to your station to rotate it.%n%nDays on space stations last longer than on the overworld, so you can generate more solar power.%n%n§oYou can build space stations here:§r%n§21§r. Moon - §9T1%n§22§r. Mars - §9T2%n§23§r. Jupiter - §9T3%n§24§r. Venus - §9T4%n§25§r. Saturn - §9T5%n§26§r. Uranus - §9T5%n§27§r. Neptune - §9T6§r%n%nEach §2Retrieval Task§r in this quest corresponds (in order) to the resources you will need in order to §2build a space station§r at one of the planets listed above. The "§9T#§r" afterwards refers to the §9tier of rocket§r you will need to get there.%n%n[note]You will need to complete at least one task to complete this quest![/note]%n%n[warn]It is likely that you will loose your rocket when flying back to earth or another space station. Make sure you have an alternative way to return (some form of teleportation) or use another planet/moon as proxy (if you get an error while doing so, you spawn on the planet/moon and can launch your rocket again).[/warn]
 
 # Quest: Are You Prepared?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAELA.name=Are You Prepared?
@@ -9138,7 +9138,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2Q.desc=Cache me outside.%n%nYour CPU w
 
 # Quest: Computer Case
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.name=Computer Case
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive. Both parts are essential but both for some strange reason requires the T2 microchips to craft; so I'll let you trade the materials+T1 Microchips for some. Don't lose them!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2g.desc=100 Percent Waterproof.%n%nThe computer base is the HUB of all your computer parts essentially. It takes two memory sticks, a BIOs rom, a CPU, and a hard drive at the very least to run your computer.%n%nThe power converter allows you to power it from your GregTech power grid, and the floppy drive will allow you to install your operating system onto the hard drive.
 
 # Quest: My Little Scrench
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2w.name=My Little Scrench
@@ -14515,7 +14515,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.desc=このModpackに入っている
 
 # Quest: Nobody Wants an Explosion...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.name=§6§l誰も爆発なんか望んじゃいない...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.desc=...ですよね？なのでマルチブロックを建てるときは次のことを確認しましょう:%n%n1. マルチブロックをチャンク境界をまたいで建てないこと。%n%n2. 可能であれば、チャンク外からの資源に頼らないこと。水は必ず現地で確保すること。%n%n電気機械は雨や雪を嫌うことを覚えておいてください。機械が燃えだしてしまい、その火で爆発を引き起こす可能性があります。この爆発はほかの機械を誘爆させ、あなたの拠点全体が穴ぼこだらけになってしまうでしょう。バックアップがある理由の一つです。安全な場所に置きましょう！%n%nもし最悪の事態が発生した場合、爆発した原因を追跡するためのlogs/Explosion.logがあります。しかし、このファイルはワールド読み込み時にリセットされてしまうようです。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.desc=...ですよね？なのでマルチブロックを建てるときは、電気機械が雨や雪を嫌うことを覚えておいてください。機械が燃えだしてしまい、その火で爆発を引き起こす可能性があります。この爆発はほかの機械を誘爆させ、あなたの拠点全体が穴ぼこだらけになってしまうでしょう。バックアップがある理由の一つです。安全な場所に置きましょう！%n%nもし最悪の事態が発生した場合、爆発した原因を追跡するためのlogs/Explosion.logがあります。しかし、このファイルはワールド読み込み時にリセットされてしまうようです。
 
 # Quest: Not Enough Items - Now with Bookmarks and Recent History!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.name=§2§nNot Enough Items - ブックマーク追加と最近の更新履歴！
@@ -15035,10 +15035,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.desc=これはトリガークエス�
 # Quest: Trigger: Obtain Sunnarium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.name=トリガー : サナリウム
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.desc=これはトリガークエストです。%n%n§7《§rサナリウムの粉§7／Sunnarium Dust》§r 、 §7《§rとても小さなサナリウムの粉§7／Tiny Pile of Sunnarium Dust》§r 、 §7《§rサナリウム§7／Sunnarium》§r 、 §7《§rサナリウムの欠片§7／Sunnarium Piece》§r をインベントリに入れてスキップしてください。
-
-# Quest: Trigger: SMD Transistor Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.name=トリガー : SMDトランジスタ
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=これはトリガークエストです。%n%n§7《§rSMDトランジスタ§7／SMD Transistor》§r をインベントリに入れてスキップしてください。
 
 # Quest: Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=Tool: Never complete
