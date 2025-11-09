@@ -1942,10 +1942,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJaQ.desc=희토류 처리는 무시되�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.name=§6§l너무 많은 아이템? 그럴 수 없어!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbg.desc=아이템이 너무 많아 고민이라구요? 이걸 서랍에 장착하세요, 최대 용량 이상의 아이템을 넣으면 자동으로 소멸합니다! 그런데 솔직히 말해서 이것은 서랍 컨트롤러와 함께 사용하면 더 유용해요.
 
-# Quest: Hangover From All That Glue?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§6§l접착제 때문에 숙취가 있나요?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=표면 장착 장치는 더 고급 회로 부품입니다. 이들은 EV 티어+ 회로 라인에 필요하며, 올바른 재료를 가지고 있다면 기본 버전보다 제작 비용이 저렴합니다. MV 조립기와 일부 녹은 폴리에틸렌이 필요합니다. 현재로서는 저항기만이 아마 쉽게 만들 수 있는 유일한 부품일 것입니다.
-
 # Quest: Make a better Distillery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.name=§6§l더 좋은 증류기를 만드세요
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=메탄올과 에탄올을 더 빠르게 생산하려면, MV 증류기를 제작하세요.
@@ -2095,7 +2091,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8w.desc=보크사이트 광맥에는 �
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.name=§9§l루타일
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9A.desc=이제부터 일부 부산물로 Rutile을 얻었나요? 아니면 Ilmenite로 EBF를 진행했나요?%n%nRutile, Chlorine과 Carbon은 Titaniumtetrachloride와 일부 CO를 만듭니다. 필요하다면 이것을 Carbon으로 재활용하거나 버릴 수 있습니다.%n%nTiCl4를 Magnesium과 HV EBF에서 결합하면 Hot Titanium 주괴와 Magnesiumchloride가 생성됩니다. 이것도 Sodium을 사용하여 모든 Magnesium과 Chlorine을 되돌리기 위해 재활용할 수 있습니다.
 
-# Quest: SMD Circuit Components
+# Quest: SMD Diodes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.name=§9§lSMD 회로 부품
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9Q.desc=표면 장착 장치(Surface-mount devices, SMD)는 더 고급 회로 부품입니다. 다음 단계의 회로부터 필요하며, 기본 콘덴서, 트랜지스터, 다이오드, 저항보다 제작 비용이 저렴합니다. 신뢰할 수 있는 폴리에틸렌 설정을 가지게 되면, SMD 부품을 사용하여 많은 자원을 절약할 수 있습니다.%n%n보유한 갈륨의 양을 확인하세요. HV macerator나 벌이 안정적인 공급을 제공하기 전까지는 SMD 다이오드와 트랜지스터를 사용하는 것이 가치가 없을 수도 있습니다. 또한 IC2 작물을 통해 아연, 스팔레라이트, 박사이트를 4배로 키우는 것을 검토해 보세요.%n
 
@@ -2374,6 +2370,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBg.desc=바이오 랩은 다기능 바�
 # Quest: Petri Dishes, Not for Eating
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.name=§9§l배양접시, 섭취용이 아닙니다
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKBw.desc=문화를 담기 위해선 배양접시가 필요합니다. 붕규산 유리, 스티렌 또는 PTFE로 만들 수 있습니다.%n%n배양접시는 문화가 성장할 수 있도록 멸균해야 합니다. 이에 대한 멸균은 에탄올, 메탄올, 암모니아 혹은 염소를 사용할 수 있습니다.
+
+# Quest: Hangover From All That Glue?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.name=§6§l접착제 때문에 숙취가 있나요?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKsA.desc=표면 장착 장치는 더 고급 회로 부품입니다. 이들은 EV 티어+ 회로 라인에 필요하며, 올바른 재료를 가지고 있다면 기본 버전보다 제작 비용이 저렴합니다. MV 조립기와 일부 녹은 폴리에틸렌이 필요합니다. 현재로서는 저항기만이 아마 쉽게 만들 수 있는 유일한 부품일 것입니다.
 
 # Quest: Better Magnetic Rods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALZQ.name=§9§l더 나은 자기성 막대
@@ -15035,10 +15035,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALXQ.desc=설명 없음
 # Quest: Trigger: Obtain Sunnarium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.name=트리거: 선나리움 획득하기
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.desc=설명 없음
-
-# Quest: Trigger: SMD Transistor Skip
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.name=트리거: SMD 트랜지스터 스킵
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjw.desc=설명 없음
 
 # Quest: Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=도구: 절대 완료되지 않음
