@@ -2670,7 +2670,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI-w.desc=现在,你已经获得了所需
 
 # Quest: Platinum Processing, Step 1
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI_A.name=§a§l铂处理,步骤1
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI_A.desc=王水-酸中之王-是一种可以溶解铂的化学物质.这是铂处理的理想溶剂.制备一些吧.%n%n§6你已经搭好了整条自动化铂线,不想再一个个走这些单元任务了? 手持任意一组铂线的最终产物粉,即可跳过相应的任务线.%n%n译者注:GTNH的王水组成并不科学.现实中的王水是由浓硝酸:浓盐酸=1:3(体积比)混合而成的.化学考试可千万别写错了!%n%n译者又注:2.8.0版本以后王水的组成已经改正了.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI_A.desc=王水-酸中之王-是一种可以溶解铂的化学物质。这是铂处理的理想溶剂。制备一些吧。%n%n§6你已经搭好了整条自动化铂线，不想再一个个走这些单元任务了？手持任意一组铂线的最终产物粉，即可跳过相应的任务线。
 
 # Quest: Platinum Processing, Step 2a
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI_Q.name=§a§l铂处理,步骤2a
@@ -9568,7 +9568,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEA.desc=高纯度的下界石英、赛�
 
 # Quest: Wireless Setup
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.name=无线网络
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.desc=ME安全终端允许你配置ME系统的用户与用户权限.%n%n安全终端无法阻止物理上的破坏,如果你需要物理防护,你得选择另一种防护形式.它只能提供网络方面的安全防护.%n%n放置ME安全终端的玩家对网络具有完全的控制权,并且无法取消自己的最高权限.该玩家可以通过添加一张空白的身份卡来为没有权限的玩家定义一些默认权限.%n%n除了软件层面的安全保障外,它还可以将无线终端和ME网络关联,并且让无线终端可以访问ME网络.%n%n主网络部署ME安全终端时,子网可能需同步部署方可访问主网(具体取决于网络架构配置).%n%n%nME无线访问点为无线终端提供信号覆盖,其范围与能耗由访问点内安装的无线信号增幅器数量决定.单个网络可部署多个访问点,每台设备的增幅器数量可自定义以优化能耗与覆盖范围.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.desc=ME安全终端允许你配置ME系统的用户与用户权限。ME安全终端存在时，使用ME系统需要对应的权限。%n%n安全终端只能提供网络方面的安全防护，它无法阻止蓄意毁坏行为，例如拆除电缆/机器、销毁驱动器等。如果你需要物理防护，你得使用别的防护形式。%n%n放置ME安全终端的玩家对网络具有完全的控制权，并且无法取消自己的权限。该玩家可以通过添加一张空白的身份卡来为没有身份卡的玩家定义默认权限。%n%n除了软件层面的安全保障外，它还可以将无线终端和ME网络关联，使你可以无线访问ME网络。%n%n主网络部署ME安全终端时，子网可能需要同步部署安全终端后才能访问主网（取决于具体网络架构）。%n%nME无线访问点使你可以用无线终端无线地访问网络。其范围与能耗由访问点内安装的无线信号增幅器数量决定。单个网络可部署任意数量的访问点，每个访问点内可以安装任意数量的增幅器，因此你可以通过改变排布自行优化能耗与覆盖范围。
 
 # Quest: Dense Boys
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEw.name=致密能源元件
@@ -9576,7 +9576,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEw.desc=致密能源元件可以让你�
 
 # Quest: Wireless Applied Energistics Terminal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.name=无线AE终端
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.desc=在ME安全终端验证你的无线终端,无线终端将会获得对ME网络的永久访问和控制权. 如果无线终端没电了你可以将它放进充电器充电. 无线终端有160万AE的能源储量.在使用无线终端时,和最近的无线接入点距离每增加1米,能量消耗增加1AE/t.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFA.desc=After you link up the wireless terminal in the ME security terminal, it grants portable access to the ME network. Put it into a charger to recharge it.%n%nHolds 1.6m AE in its battery and drains 1 AE/t for each block you are away from the nearest ME wireless access point.%n%nCharge your Wireless Terminals (and the successors) with an EIO Wireless Charger if you don't want to wait a century for them to charge.
 
 # Quest: Annihilation and Formation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFFQ.name=破坏核心和成型核心
@@ -12150,7 +12150,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVg.desc=你有没有一个梦想,祛除
 
 # Quest: Journey to the Center of the Earth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJag.name=地心之旅
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJag.desc=在得到一把新镐子并清理了一两座山之后,你想知道自己能否挖得...§o更深§r.给了基岩一镐子后,你看到一条深入地心的路.探索这个新世界后,你记下了几条发现:%n%nA) 似乎没有生命%nB) 充满了基岩,需要用新镐子才能清理%nC) 到处都是一条条上下贯通的矿脉%nD) 某些矿石很奇怪,§o不同于§r你习惯的矿石%nE) 由于矿机无法破坏基岩,所以你想使用它的话,得先为它打通一条路.%nF) 离开此世界后,你将出现在附近的地表,你此类记忆的缺失可能是由于缺氧. §o有可能§r. (离开基岩世界后,你将会被传送到附近的地表,不会传送到地底窒息,但不保证不会传送到树的内部!)%n%n在你带回来的矿石样品中,你找到了大量"基础"或者"中级"矿石和宝石,还有一些你不认识的!也许得再去一趟?%n%n另外,由于某种原因,你似乎闻起来像奶酪?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJag.desc=在得到一把新镐子并清理了一两座山之后，你想知道自己能否挖得……§o更深§r。在给了基岩一镐子后，你看到一条深入地心的路。探索这个新世界后，你发现它：%n%nA）似乎没有生命%nB）充满了基岩，需要用新镐子才能清理%nC）到处都是一条条上下贯通的矿脉%nD）某些矿石很奇怪，§o不同于§r你习惯的矿石%nE）由于矿机无法破坏基岩，所以你想使用它的话，得先为它打通一条路%nF）离开此世界后，你出现在了附近的地表，你的记忆缺失大概是缺氧造成的。§o大概是§r。（离开基岩世界后，你会被传送到附近某处，希望那里是地表的开阔处，而不是方块内部——没有保障！）%n%n在你带回来的矿石样品中，你找到了大量“基础”和“中级”的矿石和宝石，还有一些你不认识的！也许应该再去一趟？%n%n另外，由于某种原因，你似乎闻起来像奶酪？
 
 # Quest: Ichor Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpg.name=灵宝杖芯
