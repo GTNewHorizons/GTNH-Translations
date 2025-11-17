@@ -1,7 +1,7 @@
 # gui - config - categories
-ingameinfoxml.config.category.general=General
-ingameinfoxml.config.category.general.tooltip=General options.
-ingameinfoxml.config.category.alignment=Alignment
+ingameinfoxml.config.category.general=Geral
+ingameinfoxml.config.category.general.tooltip=Opções gerais.
+ingameinfoxml.config.category.alignment=Alinhamento
 ingameinfoxml.config.category.alignment.tooltip=Alignment offset options.
 
 # gui - config - general
@@ -13,7 +13,7 @@ ingameinfoxml.config.showInChat=Show in Chat
 ingameinfoxml.config.showInChat.tooltip=Display the overlay in chat.
 ingameinfoxml.config.showOnPlayerList=Show on Player List
 ingameinfoxml.config.showOnPlayerList.tooltip=Display the overlay on the player list.
-ingameinfoxml.config.scale=Scale
+ingameinfoxml.config.scale=Escala
 ingameinfoxml.config.scale.tooltip=The overlay will be scaled by this amount.
 ingameinfoxml.config.fileInterval=File Tag Interval
 ingameinfoxml.config.fileInterval.tooltip=The interval between file reads for the 'file' tag (in seconds).
@@ -51,8 +51,8 @@ ingameinfoxml.tag.category.playergeneral.name=Player - General
 ingameinfoxml.tag.category.playerposition.name=Player - Position
 ingameinfoxml.tag.category.playerpotion.name=Player - Potion Effects
 ingameinfoxml.tag.category.riding.name=Riding
-ingameinfoxml.tag.category.time.name=Time
-ingameinfoxml.tag.category.world.name=World
+ingameinfoxml.tag.category.time.name=Tempo
+ingameinfoxml.tag.category.world.name=Mundo
 ingameinfoxml.tag.category.bloodmagic.name=Blood Magic
 ingameinfoxml.tag.category.simplyjetpacks.name=Simply Jetpacks
 ingameinfoxml.tag.category.terrafirmacraft.name=TerraFirmaCraft
@@ -276,12 +276,12 @@ ingameinfoxml.tag.tfcrainfall.desc=Rainfall at your current position.
 ingameinfoxml.tag.tfctemperature.desc=Temperature at your current position.
 ingameinfoxml.tag.tfcaveragetemperature.desc=Average yearly temperature at your current position.
 ingameinfoxml.tag.tfctemperatureheatsources.desc=Temperature with external heat sources at your current position.
-ingameinfoxml.tag.tfcseason.desc=Season.
-ingameinfoxml.tag.tfcdate.desc=Date.
-ingameinfoxml.tag.tfcday.desc=Day.
-ingameinfoxml.tag.tfcmonth.desc=Month.
-ingameinfoxml.tag.tfcyear.desc=Year.
-ingameinfoxml.tag.fmtskill.desc=%s information.
+ingameinfoxml.tag.tfcseason.desc=Temporada.
+ingameinfoxml.tag.tfcdate.desc=Data.
+ingameinfoxml.tag.tfcday.desc=Dia.
+ingameinfoxml.tag.tfcmonth.desc=Mês.
+ingameinfoxml.tag.tfcyear.desc=Ano.
+ingameinfoxml.tag.fmtskill.desc=%s informação.
 ingameinfoxml.tag.fmtskillrank.desc=Current rank for %s.
 ingameinfoxml.tag.fmtskillprogress.desc=Current progress in %s.
 
@@ -301,10 +301,10 @@ ingameinfoxml.key.toggle=Toggle Overlay
 
 # commands
 commands.ingameinfoxml.usage=/igi <reload|load|save|enable|disable|taglist|config> [filename]
-commands.ingameinfoxml.reload=Reloading...
-commands.ingameinfoxml.load=Loading %s...
-commands.ingameinfoxml.save=Saving %s...
-commands.ingameinfoxml.success=Done!
-commands.ingameinfoxml.failure=Something went wrong!
+commands.ingameinfoxml.reload=Recarregando...
+commands.ingameinfoxml.load=Carregando %s...
+commands.ingameinfoxml.save=Salvando %s...
+commands.ingameinfoxml.success=Feito!
+commands.ingameinfoxml.failure=Algo deu errado!
 commands.ingameinfoxml.enable=InGame Info XML overlay is now enabled.
 commands.ingameinfoxml.disable=InGame Info XML overlay is now disabled.
