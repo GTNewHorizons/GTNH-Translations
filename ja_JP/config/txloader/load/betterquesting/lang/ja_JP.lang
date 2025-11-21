@@ -139,7 +139,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAALA.name=ヒントとコツ
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAALA.desc=私たちのすべての知識が、今、ここに集まる。%n%nこの知識をあなたに伝えるため、多くのGregプレイヤーが命を落としました。
 
 # Quest: Automating Power On/Off
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.name=§6§l自動電源ON/OFF
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.name=§6§n自動電源ON/OFF
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=長い間起動するGTのボイラーや大型ディーゼルエンジンを設置した場合、余分な電力や蒸気は無駄になるので、燃料を節約するためにオン/オフを自動化することをお勧めします。さらに、SteamもしくはEUのバッファが大きければ大きいほど、ジェネレーターが加熱に費やす時間が短くなり、より効率的になります。そのためには、コントローラーに動作制御カバーを使用します。ケーシングはレッドストーン信号を送信します。ハンダごてと細いハンダ合金ワイヤーを使って、コントローラーブロックのレッドストーン出力を強に設定することができます。強に設定すると、ケーシングを通過することができますが、ハッチやバス、他のブロックは通過できません。アクティビティディテクタでオン/オフするのではなく、コントローラからの信号を受信したい場合は、アクティビティディテクタと一緒に使用してください。%n%n動作制御カバーを使用すると、レッドストーンを使ってマシンをオン/オフできます。これは、ソフトハンマーを使ってマシンを常に自分で無効にしたくない場合に便利です。%n %n1つの入力でマシンをオンにし、1つの入力でマシンをオフにする最善の方法は、RSラッチです。バルブにコンパレータを取り付けて、マルチブロックの鉄またはスチールタンクの蒸気レベルを測定します。蒸気レベルが低いときは、信号を反転させてボイラーをオンにして、蒸気レベルの信号が高くなったら、ボイラーをオフにします。信号の強さを下げるためにはレッドストーンダストを使います。ボイラー／タービンのウォームアップのため、ONの強さは容量の30％に設定するようにしてください。レッドストーン合金ワイヤーは、通常のレッドストーンよりも長い距離、レッドストーンのシグナルを保持します。また、アンプリファイドレッドクリスタルを使用することで、長距離の信号の強度を向上させることができます。n%n通常の蓄電(バッテリーを含む)モードでエネルギー検出カバーを使用すると、バッテリーバッファーの電力を監視し、同様の方法でジェネレーターの有効/無効を切り替えることができます。検出カバーの設定を変更するにはドライバーを使用します。デンスレッドクリスタルを使えば、一定レベルの信号しか通さないので、この手のことを自動化するのに最適です。%n%nビデオバージョンはこちらのビデオをご覧ください： [url]https://www.youtube.com/watch?v=jPfnifJEO64[/url]
 
 # Quest: Underground Fluids
@@ -148,7 +148,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.desc=地下の液体資源とは何�
 
 # Quest: Covering Up
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.name=覆い隠そう
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=このクエストでは場合によっては忘れられているか、言及されていない全てのカバーについて解説します。カバーそれぞれに専用のクエストがある場合、そこにより詳細な情報が書いてあります。カバーは正しく機能するか有用であるかに関わらず、基本的にパイプ、機械、タンク等全てのGTブロックに取り付けることができます。多くのカバーはシフト右クリックすることでGUIが開きます。数量を調整できるカバーの場合、左側をドライバーでクリックすることで数値が減り、右側をクリックすることで数値が増えます。カバーは取り付けられている面を雨から守ります。一般的にカバーはGUIを持つか持たないかに関わらずドライバーで調整でき、バールで取り外せます。%n%n§l液体関連カバー:§r%nポンプ: ツールチップ記載の速度で液体を転送します。%n%n液体調整: ポンプの機能を持つだけでなく、液体が通過する流速を調整します。x/毎秒もしくはx/tickで設定が出来ます。%n%n蒸気バルブ: ポンプより高速で輸送可能ですが、輸送できるのは蒸気だけです。IVまでしか存在せず、また過熱蒸気では機能しません。%n%nオーバーフローバルブ: タンクの容量を超えた液体を消去します。%n%n液体検出: 液体の流量もしくはタンクの容量に応じてレッドストーン信号を出力します。デフォルトでは完全に空のときに15、満杯で0です。反転モードで逆に切り替えられます。タンクや液体ハッチに有用でしょう。%n%nエンダー液体リンク: 液体を遠隔転送するエンダータンクのカバー版です。エンダータンクとは相互接続できません。%n%nドレインモジュール: 取り付けられた面を雨から守り、可能なら液体インベントリを水で満たします。役には立ちません。%n%n液体フィルター: 通過する液体をフィルタリングします。液体セルをクリックすることで設定可能です。%n%nシャッター: 有効な場合アイテム・液体をブロックします。動作制御カバー、レッドストーン信号と使いましょう。見た目ではブロックモードかどうか分かりません。パイプの間に取り付け、同じパイプの上に動作制御カバーを取り付ける使い方もあります。%n%n§lアイテム関連カバー:§r%nコンベア: アイテムを移動します。GTのブロック/機械に取り付けるか、アイテムパイプに取り付けてください。%n%nロボットアーム: 取り付けられた機械の特定のスロットからアイテムを搬出し(取り付け側)カバーが面している他の機械の特定のスロットにアイテムを搬入します(隣接側)。対応するスロットの数値はマシンごとに異なるようなので、正しく理解できるまで数値を調べ続けましょう。出力スロットが満杯の場合、搬出を行いません。出力先にはスロットを含む有効なブロックが必要です。そうでない場合、設定は保存されません。%n%nアイテム検出: アイテムの流量もしくはブロックのアイテム量に応じてレッドストーン信号を出力します。デフォルトでは完全に空で15、満杯で0です。埋まったスロットは検出しますが、スーパーチェスト/量子チェストでは正しく機能しません。アイテムバスに有効でしょう。%n%nアイテムフィルター: このアイテムはまだ調整中です。気軽に開発に参加して修正してください。%n%n§lEU関連カバー:§r%nエネルギー検出器: 取り付けられたバッテリーバッファ/タンクのEUの充電量に応じてレッドストーン信号を出力します。デフォルトでは完全に空で0、満杯で15です。内部エネルギー容量を持つブロックに取り付けてください。どういう訳か蒸気の貯蔵量も検出できます。%n%n出力通過アップグレード: ツールチップを読んでから、Bart(Tectechの制作者)にどう機能するか質問してください。彼は誰にも説明しませんでした。Tectechガイズと同様に、彼はコードこそが至高にして唯一のドキュメントだと考えているのでしょう。実際には作業が完了していない可能性があります。%n%nテスラコイル/高級テスラコイル: テスラタワーに取り付けると無線でEUを送信できます。%n%n§lその他のカバー:§r%nプレイヤー検出器: 10ブロック以内のプレイヤーを検出します。§4何らかのバグかその他の要因により、パイプ以外に取り付けると現在の所有者が反転します。§r%n%n稼働検出: レシピの進行度合い、もしくは機械の休止を検出します。デフォルトのレッドストーン信号強度は0%%=0、~95%%=14です。休止モードでは、デフォルトで休止状態が15、稼働状態が0です。%n%n動作制御: レッドストーン入力に応じて機械の稼働をON/OFFします。マレットでマシンを無効にすると、レッドストーン入力に関係なくOFFを維持します。セーフモードはマルチブロックでのみ有効です。もしマルチブロックが電力不足のまま稼働しようとすると通常は電源が切られますが、動作制御カバーは再び電源を入れてしまい、資源を無駄にし続けます。しかし、セーフモード下の場合、代わりに機械を非稼働状態にします。その際、通知が出されます。§4セーフモードは壊れている可能性がある？§r%n%nメンテナンス要求検知: 検査が必要な状況のとき、レッドストーン信号を出します。ローターはタービンのこと？%n%nレッドストーン送/受信 (内/外): これはちょっと複雑です。最初に、周波数を設定します。GUIを開くか、独自の方法として右クリックをしてください。素手では0、アイテムを持つとそのアイテムのIDになります。素手での右クリックに注意してください！率直に、GUIを使うのが良いです。また、エンダーストレージのようにプライベートモードを使うこともできます。これでマルチサーバーでの混線に泣き叫ぶこともありません。チャンネル状態=レッドストーン信号強度。%n%n送信機 (外部)は、チャンネル状態を取り付けた面に受けたレッドストーン信号強度に設定します。レッドストーン信号を受信機に転送できます。%n送信機(内部)は、チャンネル状態を取り付けたブロック自身が発するレッドストーン信号強度に設定します。§4これは常に15を発するので、あまり役に立ちません。§r%n受信機(外部)はチャンネル状態に応じたレッドストーン信号を出します。これを用いて、送信機(外部)からレッドストーン信号を転送できます。%n受信機(内部)は動作制御カバーの様に、機会が稼働するかどうかを操作できます。レッドストーン信号が0のときには稼働せず、1でもあれば稼働します。送信機(外部)によって他の場所から信号を送れます。%n受信機(内部)は他のカバーの条件として使うこともできます。%n%nIC2排熱器: 機械の処理速度を少し速くする？見た目はすっきりします。やること:コードを見て実際には何が起こるかを確認する。(誰かお願い)%n%n作業台: ブロックに作業台の機能を追加します。ほどんど飾りです。%n%n板材/プレート/ホイル: 取り付けた面からの搬出入をできなくします。ドライバーを使って通す種類を設定できます。初期設定では何も通しません。また、搬出を別の面に設定し、同時に設定が変更されないようにしてください。あなたも一度は誤って使うことになるでしょう。%n%nコンピュータモニター: 見た目を追加します。ただの装飾です。%n%nレンズ: 飾りです。%n%nAE2のケーブル外装も装飾として使えます。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=このクエストでは場合によっては忘れられているか、言及されていない全てのカバーについて解説します。カバーそれぞれに専用のクエストがある場合、そこにより詳細な情報が書いてあります。カバーは正しく機能するか有用であるかに関わらず、基本的にパイプ、機械、タンク等全てのGTブロックに取り付けることができます。多くのカバーはシフト右クリックすることでGUIが開きます。数量を調整できるカバーの場合、左側をドライバーでクリックすることで数値が減り、右側をクリックすることで数値が増えます。カバーは取り付けられている面を雨から守ります。一般的にカバーはGUIを持つか持たないかに関わらずドライバーで調整でき、バールで取り外せます。%n%n§n液体関連カバー:§r%nポンプ: ツールチップ記載の速度で液体を転送します。%n%n液体調整: ポンプの機能を持つだけでなく、液体が通過する流速を調整します。x/毎秒もしくはx/tickで設定が出来ます。%n%n蒸気バルブ: ポンプより高速で輸送可能ですが、輸送できるのは蒸気だけです。IVまでしか存在せず、また過熱蒸気では機能しません。%n%nオーバーフローバルブ: タンクの容量を超えた液体を消去します。%n%n液体検出: 液体の流量もしくはタンクの容量に応じてレッドストーン信号を出力します。デフォルトでは完全に空のときに15、満杯で0です。反転モードで逆に切り替えられます。タンクや液体ハッチに有用でしょう。%n%nエンダー液体リンク: 液体を遠隔転送するエンダータンクのカバー版です。エンダータンクとは相互接続できません。%n%nドレインモジュール: 取り付けられた面を雨から守り、可能なら液体インベントリを水で満たします。役には立ちません。%n%n液体フィルター: 通過する液体をフィルタリングします。液体セルをクリックすることで設定可能です。%n%nシャッター: 有効な場合アイテム・液体をブロックします。動作制御カバー、レッドストーン信号と使いましょう。見た目ではブロックモードかどうか分かりません。パイプの間に取り付け、同じパイプの上に動作制御カバーを取り付ける使い方もあります。%n%n§nアイテム関連カバー:§r%nコンベア: アイテムを移動します。GTのブロック/機械に取り付けるか、アイテムパイプに取り付けてください。%n%nロボットアーム: 取り付けられた機械の特定のスロットからアイテムを搬出し(取り付け側)カバーが面している他の機械の特定のスロットにアイテムを搬入します(隣接側)。対応するスロットの数値はマシンごとに異なるようなので、正しく理解できるまで数値を調べ続けましょう。出力スロットが満杯の場合、搬出を行いません。出力先にはスロットを含む有効なブロックが必要です。そうでない場合、設定は保存されません。%n%nアイテム検出: アイテムの流量もしくはブロックのアイテム量に応じてレッドストーン信号を出力します。デフォルトでは完全に空で15、満杯で0です。埋まったスロットは検出しますが、スーパーチェスト/量子チェストでは正しく機能しません。アイテムバスに有効でしょう。%n%nアイテムフィルター: このアイテムはまだ調整中です。気軽に開発に参加して修正してください。%n%n§nEU関連カバー:§r%nエネルギー検出器: 取り付けられたバッテリーバッファ/タンクのEUの充電量に応じてレッドストーン信号を出力します。デフォルトでは完全に空で0、満杯で15です。内部エネルギー容量を持つブロックに取り付けてください。どういう訳か蒸気の貯蔵量も検出できます。%n%n出力通過アップグレード: ツールチップを読んでから、Bart(Tectechの制作者)にどう機能するか質問してください。彼は誰にも説明しませんでした。Tectechガイズと同様に、彼はコードこそが至高にして唯一のドキュメントだと考えているのでしょう。実際には作業が完了していない可能性があります。%n%nテスラコイル/高級テスラコイル: テスラタワーに取り付けると無線でEUを送信できます。%n%n§nその他のカバー:§r%nプレイヤー検出器: 10ブロック以内のプレイヤーを検出します。§4何らかのバグかその他の要因により、パイプ以外に取り付けると現在の所有者が反転します。§r%n%n稼働検出: レシピの進行度合い、もしくは機械の休止を検出します。デフォルトのレッドストーン信号強度は0%%=0、~95%%=14です。休止モードでは、デフォルトで休止状態が15、稼働状態が0です。%n%n動作制御: レッドストーン入力に応じて機械の稼働をON/OFFします。マレットでマシンを無効にすると、レッドストーン入力に関係なくOFFを維持します。セーフモードはマルチブロックでのみ有効です。もしマルチブロックが電力不足のまま稼働しようとすると通常は電源が切られますが、動作制御カバーは再び電源を入れてしまい、資源を無駄にし続けます。しかし、セーフモード下の場合、代わりに機械を非稼働状態にします。その際、通知が出されます。§4セーフモードは壊れている可能性がある？§r%n%nメンテナンス要求検知: 検査が必要な状況のとき、レッドストーン信号を出します。ローターはタービンのこと？%n%nレッドストーン送/受信 (内/外): これはちょっと複雑です。最初に、周波数を設定します。GUIを開くか、独自の方法として右クリックをしてください。素手では0、アイテムを持つとそのアイテムのIDになります。素手での右クリックに注意してください！率直に、GUIを使うのが良いです。また、エンダーストレージのようにプライベートモードを使うこともできます。これでマルチサーバーでの混線に泣き叫ぶこともありません。チャンネル状態=レッドストーン信号強度。%n%n送信機 (外部)は、チャンネル状態を取り付けた面に受けたレッドストーン信号強度に設定します。レッドストーン信号を受信機に転送できます。%n送信機(内部)は、チャンネル状態を取り付けたブロック自身が発するレッドストーン信号強度に設定します。§4これは常に15を発するので、あまり役に立ちません。§r%n受信機(外部)はチャンネル状態に応じたレッドストーン信号を出します。これを用いて、送信機(外部)からレッドストーン信号を転送できます。%n受信機(内部)は動作制御カバーの様に、機会が稼働するかどうかを操作できます。レッドストーン信号が0のときには稼働せず、1でもあれば稼働します。送信機(外部)によって他の場所から信号を送れます。%n受信機(内部)は他のカバーの条件として使うこともできます。%n%nIC2排熱器: 機械の処理速度を少し速くする？見た目はすっきりします。やること:コードを見て実際には何が起こるかを確認する。(誰かお願い)%n%n作業台: ブロックに作業台の機能を追加します。ほどんど飾りです。%n%n板材/プレート/ホイル: 取り付けた面からの搬出入をできなくします。ドライバーを使って通す種類を設定できます。初期設定では何も通しません。また、搬出を別の面に設定し、同時に設定が変更されないようにしてください。あなたも一度は誤って使うことになるでしょう。%n%nコンピュータモニター: 見た目を追加します。ただの装飾です。%n%nレンズ: 飾りです。%n%nAE2のケーブル外装も装飾として使えます。
 
 # Quest: Lootbag Uptiering
 betterquesting.quest.ZM4oSqeWQRW1Y-zoE01ivg.name=報酬バッグのTier上げ
@@ -597,7 +597,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3g.name=§c§n火打石と打ち"スチ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3g.desc=バニラの火打石と打ち金のレシピは合理的ではありません。%n§7《§r火打石と打ち金§7／Flint and §r"Steel"§7》§r とあるのに、素材となるのは鉄でしたからね。%n%nGregTechはこのようなプレイヤーの疑問に応え、火打石と打ち金の素材に §7《§rスチール§7／Steel》§r を必要とするよう改変を施しました。%n%nLV電圧Tierへの到達には §7《§r硫黄§7／Sulfur》§r が必須であるため、これを鉱脈から採掘するためにネザーゲートを開きましょう。%n%nネザーゲートの開き方は書かなくても分かりますよね？%n%n§4GTNHのネザーはバニラよりも危険になっているので、注意して探索に挑んでください！§r%n%n§3ノート:%n報酬で Tinkers' Constructの §7《§3苔の玉§7／Ball of Moss》§3 を入手できます。%n同Modのツールに付与することで §7《§3自動修繕§7／Auto-Repair》§3 の改造を施すことができ、これが付与されたツールは耐久値がひとりでに回復するようになります。%n完全に耐久値を失ったツールは、手動で修理を施すまで自己修復での修繕を行えなくなるため注意してください。§r%n%n火打石と打ち金による着火は確率で失敗するように変更されています。%n一度目で火が着かなかった場合でも、根気強く繰り返してみてください。
 
 # Quest: THE NETHER
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3w.name=§c§nようこそ地獄("§lTHE NETHER§r§c§n")へ！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3w.name=§c§nようこそ地獄("§nTHE NETHER§r§c§n")へ！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB3w.desc=呪われたガスト...%n%n探鉱者に怒るピッグマン...%n%n更に危険さを極めたインファーナルのMobたち...%n%nGTNHのネザーは非常に過酷で危険です、楽しんで！%n%n火打石と打ち金による着火は確率で失敗するように改変されています。%nネザーゲートが開通しない場合でも、根気強く何回か繰り返してみてください。%nまたは、着火に別の方法を用いることもできます。%n%n序盤のうちは、ネザーの探索を複数人で行うようにしましょう。もちろん、お友達はいますよね？%n%nもしあながた一人でプレイしているのなら...護衛となるアイアンゴーレムを連れて行くことを検討してください。%n召喚してからゲートに押し込むか、あるいは召喚用のブロックを持ち込んでください。%n%n%nネザーでは"死ぬかもしれない"ではなく"必ず死ぬ"という考えを前提として行動を行うようにしましょう。%n%n失っても構わない、探索用の装備を用意して移動経路を整えるのは、初歩的ですが非常に有効的です。%n%nまた、死亡時に生成される §7《§rお墓§7／Grave》§r は付近にスケルトンをスポーンさせることに注意してください。%n%nお墓からアイテムを回収しに行くとき、インファーナルのウィザースケルトンに殺され続けることを防ぐため、死にそうな危険な場所は事前に湧き潰しを徹底しておくよう心掛けましょう。%n%n%n一部のモンスターは非常に危険であり、特に序盤において脅威となることに注意してください。%n%n一例として、タキシードを着たピッグマンのような見た目をした §7《§rヴァンパイア・ピッグマン§7／Vampire Pigman》§r と、口が縫い合わされた小柄なガストのような見た目をした §7《§r不浄のガスト§7／Unholy Ghast》§r は殆どの攻撃を無効化し、対策なしでは脅威です。%n%n前者は棒や木の剣が、後者はアンデッド特攻付きの武器のみが弱点です。
 
 # Quest: Wiremill v0.2 Alpha
@@ -1395,7 +1395,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALIg.desc=遠く離れた鉱石脈から�
 
 # Quest: Prison Gangs are Obsolete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.name=§2§n刑務所ギャングは時代遅れ
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.desc=砂利、石、黒曜石、その他石材を大量に必要としていますか？このマシンがその答えです！%n%n§l丸石:§r 2つの側面に水と溶岩を配置します。%n§l石:§r 1つの側面に水、上部に溶岩を配置します。%n§l黒曜石:§r 上記のいずれかの組み合わせに加え、マシン内にレッドストーンを設置します。%n§lネザーラック:§r 上記のいずれかの組み合わせに加え、マシン内にグロウストーンを設置します。%n§l玄武岩:§r 側面に溶岩、下部にソウルサンドを配置し、マシン内に氷塊を設置します。%n§l深層岩の丸石:§r 側面に溶岩、下部にソウルサンドを配置し、マシン内にマグマブロックを設置します。%n%nもちろん動力供給が必要です。丸石の生成に電力を使いたくない場合は、ExU方式でWIUを使用してください。%n%nレシピに応じてゴースト回路の番号を1または6に切り替える必要があります。NEIを確認してください。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALLQ.desc=砂利、石、黒曜石、その他石材を大量に必要としていますか？このマシンがその答えです！%n%n§n丸石:§r 2つの側面に水と溶岩を配置します。%n§n石:§r 1つの側面に水、上部に溶岩を配置します。%n§n黒曜石:§r 上記のいずれかの組み合わせに加え、マシン内にレッドストーンを設置します。%n§nネザーラック:§r 上記のいずれかの組み合わせに加え、マシン内にグロウストーンを設置します。%n§n玄武岩:§r 側面に溶岩、下部にソウルサンドを配置し、マシン内に氷塊を設置します。%n§n深層岩の丸石:§r 側面に溶岩、下部にソウルサンドを配置し、マシン内にマグマブロックを設置します。%n%nもちろん動力供給が必要です。丸石の生成に電力を使いたくない場合は、ExU方式でWIUを使用してください。%n%nレシピに応じてゴースト回路の番号を1または6に切り替える必要があります。NEIを確認してください。
 
 # Quest: Magnets != Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALSw.name=§2§n磁石 ≠ 魔法
@@ -1475,59 +1475,59 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAiA.name=§6§n導管の改良
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAiA.desc=EnderIOの導管自体は既に非常に優秀ですが、さらに改良を加えることが可能です。フィルターや速度アップグレードを使用することで、導管の動作制御と処理速度をさらに向上させることができます。%n%n[note]現時点ではこれらすべての改良を同時に実装することはできません。[/note]
 
 # Quest: Making Things Pretty
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAiQ.name=§6§lコンジットを素敵にする
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAiQ.name=§6§nコンジットを素敵にする
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAiQ.desc=導管はそれだけでも素晴らしいものですが、隠したいときには隠すこともできます。導管の外装には、普通のものと強化版があります。普通のものは簡素です。強化版は爆発やツールでの採掘に耐えることができます。これを撤去するにはイェタレンチを使う必要があります。%n%nまず塗装機で塗装をしましょう。絵筆のマークの場所に見た目を模したいブロックを、もう一方に外装を置きます。もちろん、塗装機には電力が必要です。
 
 # Quest: Come to the Dark Side...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAig.name=§6§lお前もダークサイドに来ないか？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAig.name=§6§nお前もダークサイドに来ないか？
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAig.desc=…クッキーもあるぞ。
 
 # Quest: Brewing Liquids
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjg.name=§6§l液体の醸造
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjg.name=§6§n液体の醸造
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjg.desc=この機械が醸造できるのは強力な燃やせる液体だけではありません。§7《§r栄養蒸留液§7／Nutrient Distillation》§rという、近々さらなる活躍をするであろうもの™も作れます。%n%n代わりのものがあるレシピにおいて、何を使うかによって完成品の量が変化することに注意してください。
 
 # Quest: Smelting All-Joy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjw.name=§6§l精錬の歓喜
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjw.name=§6§n精錬の歓喜
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjw.desc=この複数スロットの精錬炉では、クォーツガラスと高透過ガラスの全種類を作ることができます。%n%nそれはEnder IOのものであっても合金を作ることはできません。ミキサーと電気高炉を使ってください。
 
 # Quest: Ore Processing, Kind Of...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkQ.name=§6§l鉱石処理。ある種の…
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkQ.name=§6§n鉱石処理。ある種の…
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkQ.desc=粉砕機と§7《§r準自生粉砕機§7／SAG Mill》§rとの終わらない争いがあるならば、なぜどちらかを選ぶことが問題なのですか？%n%nHVの粉砕機は多くの鉱石処理ラインにおいて副産物を得るのにやはり必要です。一方、準自生粉砕機は切削盤のアップグレードを通じてさらに輝きます！準自生粉砕機は蜂や作物を使わずに鉱石を得るのに完璧な機械です。§7《§rタングステンの切削盤§7／Tungsten Grinding Head》§rを使うことで、追加の副産物を得られます。なお、これはインゴットなどの素材から複製ができるということではありません。さらに、その多くはより多くの処理を必要とせずに直接最終生産物を得ることができます。%n%n鉛、銅、錫、銀、ニッケル、レッドストーン、ルビー、ラピスラズリ、ケルタスクォーツ、孔雀石の鉱石(原石ではありません)などはとてもいいでしょう。他の鉱石も十分に良いボールを使えばより良い生産物が得られます。%n%nまた、石炭、木炭、骨、小麦、エンダーパールなどの鉱石でないものも、追加の生産物を得られます。%n%nそれでも、GTの粉砕機は後々速くなります。
 
 # Quest: Tasty...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlA.name=§6§lおいしい...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlA.name=§6§nおいしい...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlA.desc=ああ、これは...えっと...きっとこれは何かに使えるでしょう...いつか...そのうち...きっと...
 
 # Quest: Fire Water
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlQ.name=§6§l火酒
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlQ.name=§6§n火酒
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlQ.desc=飲むにはあまりにも適していません。燃焼発電機で使うと80 RF/tを生産します。
 
 # Quest: Hootch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlg.name=§6§lウイスキー
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlg.desc=The lowest tier of renewable, burnable fluid. Generates 60 RF/t, but can be automated for "green" infinite power.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlg.name=§6§nウイスキー
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAlg.desc=継続生産可能な最低ランクの燃焼可能な液体です。60RF/tの生産ですが、"グリーンな"無限のエネルギーのために自動化できます。
 
 # Quest: Simple Item Transfer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAmQ.name=§6§lSimple Item Transfer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAmQ.desc=Translocators can only transfer items over a distance of 1 block. But they're quite cheap, and a good solution to building compact machine setups. They include a free simple item filter which can be enabled on the input or output side. And they support multiple inputs and outputs! Glowstone will make it transfer faster - try investigating other upgrades.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAmQ.name=§6§nシンプルなアイテム輸送
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAmQ.desc=転送装置は1ブロックだけアイテムを輸送できます。これはとてもチープで、コンパクトに機械をくみ上げるのにいい方法でしょう。これは単純なアイテムフィルターを内包しており、搬出・搬入のどちらにも設定できます。さらに、複数からの搬出入に対応しています！グロウストーンの粉は輸送を速くします。他のアップグレードも試してみましょう。
 
 # Quest: Simple Fluid Transfer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAmg.name=§6§lSimple Fluid Transfer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAmg.desc=Just like the item translocators, the fluid ones transfer... fluids. Same restrictions apply, 1 block distance. These can also be upgraded.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAmg.name=§6§nシンプルな液体輸送
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAmg.desc=まさにアイテム転送装置のように、液体にも同様のものがあります。同様に1ブロックだけという制約も。そしてアップグレードも。
 
 # Quest: A New Alloy, Soularium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAApg.name=§5§n新たな合金 - ソウラリウム
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAApg.desc=There are some... "Darker" uses for machines. Stuff that might be considered "magic". Anyway, for that you need a new alloy: Soularium.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAApg.desc=機械には…"より暗い"使い道もあります。それは恐らく魔法と考えられるでしょう。ともかく、そのためには新たな合金、ソウラリウムが必要です。
 
 # Quest: A Soul Vessel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAqA.name=§6§lA Soul Vessel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAqA.desc=The Soul Vial is used later in HV Ender IO machines. For now though you may find it convenient to deal with....troublesome mobs. The Soul Vial is reusable. Just right-click any living entity to steal its soul. Right-click again to release it in the environment.%n%nThe possibilities swirl in your head...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAqA.name=§6§n魂の小瓶
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAqA.desc=§7《§r魂の小瓶§7／Soul Vessel》§r は後にEnder IOのHVの機械で使います。ですが今の便利な使い方としては…厄介なmobの対処でしょう。魂の小瓶は何度も使えます。生きているエンティティに対して右クリックをすると、魂を奪うことができます。再び右クリックをすることで、ワールドに解放することができます。%n%n可能性があなたの頭を駆け巡る…
 
 # Quest: Venting the Heat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAzg.name=§6§n熱よ逃げろ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAzg.desc=§7《§rIC2冷却材§7／IC2 Coolant》§r を使った原始的な金属冷却を終えたあなたは、 §7《§rIC2過熱冷却材§7／IC2 Hot Coolant》§r の使い道を見て落胆したはずです。%n%nなぜなら、現段階では §7《§r真空冷却器§7／Vacuum Freezer》§r を作れないから冷却材を使ったのに、過熱冷却材の再利用にこれが要求されているからです。%n%nご安心してください。NEIでは参照できませんが、この段階でも過熱冷却材を冷却する方法は用意されています。%n%nIC2の §7《§r排熱器§7／Heat Vent》§r を作成し、 §7《§rタンク§7／Tank》§r や §7《§r液体パイプ§7／Fluid Pipe》§r などの、液体ストレージを持つGregTechオブジェクトに貼り付けます。%n排熱器のある面に水を設置すると、液体量に応じた時間が経過したあと、IC2過熱冷却材が冷却され、IC2冷却材に戻ります。%n%n§7《§r発展型排熱器§7／Advanced Heat Vent》§r や §7《§r加速型排熱器§7／Overclocked Heat Vent》§r を使用することで、冷却に掛かる時間を短縮できますが、現段階では作成することができません。%nまた、この2つの上位の排熱器は、カバー面に水源が無くても冷却を行えます。%n%n§8が、全ての排熱器は水源があったほうが冷却速度が短くなります。この情報にはあまり意味がありませんでしたね。§r
 
 # Quest: Clay Electrolyzing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.name=§6§l粘土の電気分解
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.name=§6§n粘土の電気分解
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.desc=If you looked through NEI you may have found out that electrolyzing clay dust will give you Alumina, Silicon Dioxide, Sodium, and Lithium dust. And water, but you're probably just voiding that already, right? There are plenty of stained clay blocks found in canyon, mesa, lush desert biomes or several to a couple dozen on mountains that can be pulverized to clay dust.%n%nThere are more ways to get alumina now that you're in MV, enough that it's basically worthless by the time you get to EV.
 
 # Quest: Bio Fuels
@@ -1595,7 +1595,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9Q.name=§6§nルビーの電気分解
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9Q.desc=ルビーはクロムと少量のアルミナの優れた供給源です。ルビーが不足した場合は、レッドストーンを遠心分離することでさらに入手できます。%n%nアルミナと酸素のもう一つの良質な供給源は、赤色花崗岩の粉末です。これらはレッドストーンリリーから採取できます。IC2作物に関する詳細情報については、「漁業、農業、そして料理」タブをご覧ください。
 
 # Quest: Molten Polyethylene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9w.name=§6§l溶融ポリエチレン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9w.name=§6§n溶融ポリエチレン
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9w.desc=ポリエチレンは化学反応機内でエチレンと酸素を反応させて製造されます。溶融ポリエチレンのセル容量は144Lで、インゴット1個または板材1枚の製造に最適です。%n正確な量が必要な場合は、ホウ砂からホウ素を電解分離した後、Volumetric Flaskを使用することができます。%n%nすべての溶融セルは144Lの容量を保持しますが、やけどダメージを引き起こします。セルを保持していると徐々にダメージを受ける可能性があるため、ダメージが発生した場合は、手袋型アクセサリを再度装着してください。溶融セルは主に金属系材料や融解処理された物質から生成されます。%n※「§o液体抽出§r」という表現については、その正確な意味が不明瞭なため控えます。%n%n余剰物が残っていることにお気づきですか？ラバーカップを使用するか、必要な材料が揃っている場合は、エチレンセル12個と酸素セル84個を組み合わせて、正確に125個のポリエチレンセルを製造することができます。
 
 # Quest: Diesel Fuel
@@ -1603,7 +1603,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACKQ.name=§6§nディーゼル燃料
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACKQ.desc=MVミキサーを入手すれば、軽油と重油を混合してディーゼル燃料を製造できます。セル1個あたり480,000EUのコストで、1,885,000EUを2,880,000EUに変換できます。取得コストを考慮しない場合、これは間違いなく費用対効果の高い方法です。
 
 # Quest: RF Batteries
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACXA.name=§6§lRFバッテリー
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACXA.name=§6§nRFバッテリー
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACXA.desc=簡易蓄電器は、RFエネルギーを蓄積可能なバッテリーです。複数のブロックを接続することでバッテリー容量を拡張でき、すべてのブロックが1つのバッテリーとして統合されます。%n%nまた、GUIではなくワイヤーカッターやイェタレンチを使用して、各面の動作モードを変更することも可能です。入力/出力RFの状態を表示する便利な機能がありますが、このモードでは幅よりも高さが必要になります。%n%nこれらのバッテリーはRF機器とのインターフェースに最適です。GTワイヤーはRFに変換できますが、必ずフルアンペアのパケットを送信します。EnderIO製の機器は適切に処理しますが、Genesisなどの他の機器ではパケットの大部分が無駄になるため、RF機器で使用する際には注意が必要です。
 
 # Quest: Empty Plastic Board
@@ -1631,7 +1631,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDg.name=§6§n単結晶シリコンブ�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADDg.desc=ウェハーを製造するためには、まず単結晶シリコンブールを作成する必要があります。この工程には450秒かかり、電気高炉に太陽光級シリコンの粉と少さなヒ化ガリウム結晶が必要です。1つのブールから16枚のウェハーを製造できます。
 
 # Quest: Transistor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.name=§6§lトランジスタ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.name=§6§nトランジスタ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEQ.desc=次の段階に進むには発展型回路が必要です。高度な回路を製造するには、トランジスタが必須です。
 
 # Quest: MV Precision Laser Engraver
@@ -1643,11 +1643,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADGA.name=§6§nシリコンウェハー
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADGA.desc=シリコンウェハーを製造するには、単結晶シリコンブールを切断機にセットしてください。§7《§r集積論理回路§7／ILC》§rや§7《§rランダムアクセスメモリー§7／RAM》§r、その他のチップの製造にすぐに必要となるため、MVバージョンでの製作が最適です。%n%nポリエチレンもお持ちであれば、ウェハーを使用してダイオードをより効率的に製造することも可能です。
 
 # Quest: Good Integrated Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADGQ.name=§6§l改良型集積回路
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADGQ.name=§6§n改良型集積回路
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADGQ.desc=ところで、回路のoredict (鉱石辞書) を調べたことはありますか？そこから回路のグレードを確認できます。グレードは、原始型(ULV)、 基本型(LV)、 改良型(MV)、 発展型(HV)… の順序です。それでは、改良型集積回路の製作に取り掛かりましょう。
 
 # Quest: Integrated Circuit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADGg.name=§6§l集積回路
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADGg.name=§6§n集積回路
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADGg.desc=HV機器を製造するためには、HV回路が必要です。最初に作成可能なのはIC2シリーズの「発展型回路」です。HV回路を作るにはMV回路を製造する必要があるため、LV回路の作成から始めなければなりません。再帰的なクラフトシステムの恩恵を受けましょう！まずはLV集積論値回路から着手してください。なお、IC2シリーズの「電子回路」は使用できませんのでご注意ください。
 
 # Quest: ILC and RAM
@@ -1655,7 +1655,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADRQ.name=§6§nILCとRAM
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADRQ.desc=発展型回路の製造には、集積論理回路とランダムアクセスメモリーチップが必要です。%nこれらはILCとRAMのウェハーを切断することで入手できます。
 
 # Quest: Advanced Circuits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADRg.name=§6§l発展型回路
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADRg.name=§6§n発展型回路
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADRg.desc=ついにHV回路の登場です！これを作成するには、改良型集積回路、集積論理回路、RAM、そしてトランジスタが必要です。%n%nなお、回路の製造コストは進行に伴って徐々に低下していきますが、HV回路までは適用されません。
 
 # Quest: Methane Gas
@@ -1699,7 +1699,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADVA.name=§6§n酢酸
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADVA.desc=酢酸は酸素とエチレンから合成することが可能です。また、バイオマス、木酢液、ビネガーからも製造できます。セタン価ブーストディーゼルの製造工程において、エテノンの原料として重要な役割を果たします。
 
 # Quest: Iron (III) Chloride
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_A.name=§6§l塩化鉄(III)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_A.name=§6§n塩化鉄(III)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_A.desc=塩化鉄(III)は、まず水素と塩素から塩酸を製造した後、この塩酸と鉄粉を反応させることで合成できます。%nこの物質を使用すると基板のエッチング処理が可能です。
 
 # Quest: Sodium Persulfate
@@ -1863,7 +1863,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyA.name=§6§lPipes, Pipes Everywhere
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyA.desc=Now that you're in MV, you'll want to start automating processes. Polyethylene, Oxygen, Nitrogen, Hydrogen, Rubber, Charcoal, etc. Faster item pipes will help with transporting items quicker around your base. For now, use your spiffy new extruder to craft some brass item pipes.%n%nThe reward - restrictive item pipes - allow you to prioritize destinations. Locations on the other side of a restrictive pipe are treated as much further away than locations on the same side of a pipe. Very handy when you want overflow (or non-matching) items to go somewhere else!%n%nFor higher tiers, look up "item pipe" in NEI, or just look at the spreadsheet.
 
 # Quest: Borax Electrolyzing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-w.name=§6§lホウ砂の電気分解
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-w.name=§6§nホウ砂の電気分解
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-w.desc=Now that you have an MV Electrolyzer, you can extract Boron from Borax. This element is used later on for Borosilicate Glass and fiber, but for now you can use it to make some volumetric flasks to hold precise amounts. This is handy for recipes that may only need a tiny amount of a substance, like 1L.
 
 # Quest: All Those Chunks, All in a Row
@@ -1959,7 +1959,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_g.name=§6§lWay Three: Pyrolyse Oven
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_g.desc=By using the Pyrolyse Oven, you are able to reap the rewards of coil speed increases.%n%nYou can also side-step the need for a Fermenter. Check out NEI to see which way suits you best. The GT++ Industrial Coke Oven will allow you to do this as well.%n%n(You only have to submit one of these)
 
 # Quest: Cooling Kanthal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_w.name=§6§lカンタルの冷却
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_w.name=§6§nカンタルの冷却
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_w.desc=熱いカンタルインゴットはMV化学槽で冷やすことができます
 
 # Quest: I need a drink. And more Chrome.
@@ -1996,7 +1996,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.name=Tier 3 - HV時代
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.desc=ようやく、「本当の」力を扱えるようになりました。%nこの電圧Tierでは月へ飛び立ち、多くの希少資源を収集して、より高度な機械を作ることが目標となります。%n%n§nカバーされているMod§r%n§9GregTech§r%n§7IndustrialCraft 2§r%n§7BartWorks§r%n§7GT++§r%nEnder IO%n§9GalactiCraft§r%nRailcraft%nStorage Drawers%n§8Avaritiaddons
 
 # Quest: SMD Inductors
-betterquesting.quest.3F2OXjxZT-eHWy8E4n1NCg.name=§5§lSMDインダクタ
+betterquesting.quest.3F2OXjxZT-eHWy8E4n1NCg.name=§5§nSMDインダクタ
 betterquesting.quest.3F2OXjxZT-eHWy8E4n1NCg.desc=Now that you have Neodymium you can make the last of the SMDs, the SMD inductor. It can replace Small Coils in your circuit crafting.
 
 # Quest: Fluid Heater
@@ -2084,15 +2084,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD3g.name=§5§nエナジェティック�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD3g.desc=Energetic alloy is a new alloy from EnderIO made out of gold, conductive iron and black steel dust. Double-layer capacitors need it, as does the HV energy hatch.%n%n[note]The direct mixer recipe has 7 ingredients, so you need an EV mixer or a multiblock to use it. You have to use the other one for now.[/note]
 
 # Quest: RF Solar Panel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6A.name=§5§lRFソーラーパネル
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6A.name=§5§nRFソーラーパネル
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6A.desc=It's possible to power RF machines with a solar panel. It outputs 10 RF/t. Perfect for low use RF machines.
 
 # Quest: RF Solar Panel Tier 2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6Q.name=§5§lRFソーラーパネル Tier 2
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6Q.name=§5§nRFソーラーパネル Tier 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6Q.desc=The upgraded RF solar panel is much better. It outputs 40 RF/t.
 
 # Quest: Find Bauxite
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8w.name=§5§lボーキサイトを見つける
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8w.name=§5§nボーキサイトを見つける
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD8w.desc=The Bauxite vein contains two ores that get you Titanium, Bauxite and Ilmenite. Bauxite also contains Aluminium, as does (obviously) the Aluminium ore. You want tons of Titanium, so collect a bunch.%n%nWhen you're mining you'll surely pick up some Meteoric Iron from small ores, enough to make your rocket. But if it's not enough, or you want more, you can also mine the meteors that fall out of the sky.
 
 # Quest: Rutile
@@ -4059,7 +4059,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIw.desc=With infinity unlocked, you can
 
 # Quest: Tier 9 (UHV)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKOA.name=§4§l§nTier 9 (UHV)
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKOA.desc=...待って、ここまで来れたの？うう、まだ終わってないけど、周りを見て回ったらどう？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKOA.desc=...待って、ここまで来れたの？うう、まだ終わってないけど、周りを見て回ったらどう？%n%nUHV時代へようこそ...
 
 # Quest: Harder, Better, Faster, Stronger... Pt 1 in UHV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKOQ.name=§4§nUHVでもより硬く、より良く、より速く、より強く... パート1
@@ -4672,7 +4672,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0A.desc=§7《§r雑草§7／Weed》§r
 
 # Quest: Unknown Seeds No More
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0Q.name=未知の種とはおさらば
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0Q.desc=既に多くの §7《§r未知の種袋§7／Unknown Seeds》§r を持っているようですね。%n%n交配により出現し、 §7《§r支柱§7／Crop》§r からドロップした §7《§r種袋§7／Seeds》§r は、スキャンを行わない限り、品種名やステータス値を確認することができません。%n%n§7《§r園芸用虫めがね§7／Plant Lens》§r で確認できる情報は限られているため、GregTechの §7《§rスキャナー§7／Scanner》§r を使って解析を行い、クエストを完了してください。%n%n%nスキャン済みの §7《§r種袋§7／Seeds》§r はツールチップからステータス値を参照できる他、支柱に植えたとき、Wailaからステータス値や環境値、現在の散布物の残量を確認できるようになります。%n%nHV電圧Tierで開放される §7《§r携帯型スキャナー§7／Portable Scanner》§r を使うと、支柱に植わった状態の作物を直接スキャンできるようになります。%nこれは収穫後の種にも引き継がれます。%n%n%nIC2農業の基本は整いました！%n%n本格的な栽培や交配を開始する前に、作物ごとに存在する十個のステータス値に関する概略を頭に入れておいてください。%n%n%n§7《§rステータス§7／Stats》§r 値は作物ごとに固有の、三つの基本ステータスを表しています。%n%nこれには §7《§r成長§7／Growth》§r 、 §7《§r収得§7／Gain》§r 、 §7《§r耐性§7／Resistance》§r が該当し、一般的に、これらの頭文字を取って§lGGR§r値と呼ばれます。%n%nそれぞれ左から、成長速度、収穫物の量、雑草からの浸食のされにくさ等に関わります。%n%n栽培に使用する場合は、23/31/0が理想的な値であるとされています。%n%nまた特筆すべき点として、成長のステータス値が24を越える作物は §7《§r雑草§7／Weed》§r のような挙動を示し、周囲の支柱や成長値が24未満の作物へ雑草を伝播させます。%n%n%n§7《§r散布§7／Plants》§r 値は支柱ごとに固有のステータス値で、現在与えられている §7《§r無機肥料§7／Fertilizer》§r 、水、Weed-EXの量を表しています。%n%n前者二つは環境値と直結し、Weed-EXは雑草の発生の抑止という固有効果を持ちます。%n%n最大値は199で、各散布物は一度の使用で100の値を加算します。%nそのため、値が100未満のときでないと使用ができません。%n%n例外は §7《§r補水セル§7／Hydration Cell》§r で、水の値は上限値が200であるため、連続して使用できます。%n%n%n§7《§r環境値§7／Enviroment》§r は支柱の設置高度やバイオーム、散布物の有無よって変動する値です。%n%nこれには §7《§r栄養§7／Nutritions》§r 、 §7《§r湿度§7／Humidity》§r 、 §7《§r通気§7／Air-Quality》§r が該当し、これらの頭文字を取って、§lNHA§r値と呼ばれることがあります。%n%n全ての作物は要求環境値という内部的な値を持っており、現在環境値がこれを下回った場合、確率で枯死が発生し、消滅します。%n%nこれは特に、高Tierの作物で顕著になります。%n%nNHA値の決定要因は複雑なものですが、以下の条件を意識して畑を設置することで大抵の理想値を満たせます:%n%n-Y座標が124以上%n-バイオームが沼地%n-支柱と空の間を遮るように不透過ブロックを設置しない%n-耕地の下に土ブロックを3つ設置%n%n%nまた、要求環境値と現在環境値の差は §7《§r成長性§7／Growability》§r と呼ばれるパラメータに影響し、これが高まるほど作物の成長速度が早くなります。%n%nしたがって、より高いNHA値の農場を設置することで、効率的に運用を行えます。%n%n%n一部の作物は成熟や交配を行うために、特定の要件を満たす必要があることも覚えておいてください。%n%n§7《§r赤石小麦§7／Redwheat》§r や §7《§r鉱石ベリー§7／Oreberry》§r などは特定の光量を要求します。%n%nほとんどの鉱石系の作物は、耕地の下に鉱石や金属のブロックを設置する必要があります。%n%n%nこれらのステータス値に関して、より詳細な情報が知りたい場合、同クエストタブにある §7《§r作物のステータス§7／Crop Stats》§r や §7《§r更に詳細なステータス§7／Even More Stats》§r クエストも参照するようにしてください。%n%n%nまた、IC2農業についてのより詳細な情報を知りたい場合は、以下の公式Wikiのページも参照するようにしてください。%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops_Guide[/url]%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0Q.desc=既に多くの §7《§r未知の種袋§7／Unknown Seeds》§r を持っているようですね。%n%n交配により出現し、 §7《§r支柱§7／Crop》§r からドロップした §7《§r種袋§7／Seeds》§r は、スキャンを行わない限り、品種名やステータス値を確認することができません。%n%n§7《§r園芸用虫めがね§7／Plant Lens》§r で確認できる情報は限られているため、GregTechの §7《§rスキャナー§7／Scanner》§r を使って解析を行い、クエストを完了してください。%n%n%nスキャン済みの §7《§r種袋§7／Seeds》§r はツールチップからステータス値を参照できる他、支柱に植えたとき、Wailaからステータス値や環境値、現在の散布物の残量を確認できるようになります。%n%nHV電圧Tierで開放される §7《§r携帯型スキャナー§7／Portable Scanner》§r を使うと、支柱に植わった状態の作物を直接スキャンできるようになります。%nこれは収穫後の種にも引き継がれます。%n%n%nIC2農業の基本は整いました！%n%n本格的な栽培や交配を開始する前に、作物ごとに存在する十個のステータス値に関する概略を頭に入れておいてください。%n%n%n§7《§rステータス§7／Stats》§r 値は作物ごとに固有の、三つの基本ステータスを表しています。%n%nこれには §7《§r成長§7／Growth》§r 、 §7《§r収得§7／Gain》§r 、 §7《§r耐性§7／Resistance》§r が該当し、一般的に、これらの頭文字を取って§nGGR§r値と呼ばれます。%n%nそれぞれ左から、成長速度、収穫物の量、雑草からの浸食のされにくさ等に関わります。%n%n栽培に使用する場合は、23/31/0が理想的な値であるとされています。%n%nまた特筆すべき点として、成長のステータス値が24を越える作物は §7《§r雑草§7／Weed》§r のような挙動を示し、周囲の支柱や成長値が24未満の作物へ雑草を伝播させます。%n%n%n§7《§r散布§7／Plants》§r 値は支柱ごとに固有のステータス値で、現在与えられている §7《§r無機肥料§7／Fertilizer》§r 、水、Weed-EXの量を表しています。%n%n前者二つは環境値と直結し、Weed-EXは雑草の発生の抑止という固有効果を持ちます。%n%n最大値は199で、各散布物は一度の使用で100の値を加算します。%nそのため、値が100未満のときでないと使用ができません。%n%n例外は §7《§r補水セル§7／Hydration Cell》§r で、水の値は上限値が200であるため、連続して使用できます。%n%n%n§7《§r環境値§7／Enviroment》§r は支柱の設置高度やバイオーム、散布物の有無よって変動する値です。%n%nこれには §7《§r栄養§7／Nutritions》§r 、 §7《§r湿度§7／Humidity》§r 、 §7《§r通気§7／Air-Quality》§r が該当し、これらの頭文字を取って、§nNHA§r値と呼ばれることがあります。%n%n全ての作物は要求環境値という内部的な値を持っており、現在環境値がこれを下回った場合、確率で枯死が発生し、消滅します。%n%nこれは特に、高Tierの作物で顕著になります。%n%nNHA値の決定要因は複雑なものですが、以下の条件を意識して畑を設置することで大抵の理想値を満たせます:%n%n-Y座標が124以上%n-バイオームが沼地%n-支柱と空の間を遮るように不透過ブロックを設置しない%n-耕地の下に土ブロックを3つ設置%n%n%nまた、要求環境値と現在環境値の差は §7《§r成長性§7／Growability》§r と呼ばれるパラメータに影響し、これが高まるほど作物の成長速度が早くなります。%n%nしたがって、より高いNHA値の農場を設置することで、効率的に運用を行えます。%n%n%n一部の作物は成熟や交配を行うために、特定の要件を満たす必要があることも覚えておいてください。%n%n§7《§r赤石小麦§7／Redwheat》§r や §7《§r鉱石ベリー§7／Oreberry》§r などは特定の光量を要求します。%n%nほとんどの鉱石系の作物は、耕地の下に鉱石や金属のブロックを設置する必要があります。%n%n%nこれらのステータス値に関して、より詳細な情報が知りたい場合、同クエストタブにある §7《§r作物のステータス§7／Crop Stats》§r や §7《§r更に詳細なステータス§7／Even More Stats》§r クエストも参照するようにしてください。%n%n%nまた、IC2農業についてのより詳細な情報を知りたい場合は、以下の公式Wikiのページも参照するようにしてください。%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops_Guide[/url]%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops[/url]
 
 # Quest: Speed Up Your Plant Growth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.name=成長をちょっとだけ早くする
@@ -4904,7 +4904,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.desc=§7《§r組立機§7／Assembl
 
 # Quest: Crop Stats
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.name=作物のステータス
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=§7《§r携帯型スキャナー§7／Portable Scanner》§r は右クリックで対象ブロックをスキャンすることで様々な情報を確認できるツールであり、 §7《§r支柱§7／Crop》§r に植えられた状態の作物を直接スキャンできます。%n%n§7《§r園芸用虫めがね§7／Plant Lens》§r や §7《§r作物分析器§7／Cropnalyzer》§r と同様、作物のスキャンは §7《§r種袋§7／Seeds》§r として回収された後でも引き継がれます。%n%n携帯型スキャナーの他の機能については §7《§rマルチブロックの旅§7／Multiblock Goals》§r の §7《§r電気高炉§7／Electric Blast Furnace》§r の後にリンクされているクエストも参照してください。%n%n%n作物には三つのステータス値が存在します。%nこれらのステータス値は一般的に、Grwoth、Gain、Resistanceの頭文字をとって§lGGR§r値と呼ばれます。%n%nGGR値は二種以上の作物を交配させたとき、親株のGGR値を参照したうえで変動し、強化することが可能です。%n%n以下により詳細な情報を記しておきます:%n%n%n§7《§r成長§7／Growth》§r%n%n成長値は成長速度を表し、これが高ければ高いほどより短い時間で成熟するようになります。%n技術的には、1サイクルで加算される次の成長段階への成長度の値が増加します。%n%n24以上の成長値を持つ作物は §7《§r雑草§7／Weed》§r のように振る舞い、隣接した支柱や成長値が24未満の作物へ雑草を伝播させるため注意が必要です。%n%n§3通常、成長値は23に留めるのが理想的だとされています。§r%n%n%n一方で、雑草の伝播は以下の条件で行われるため、これらの条件を避けることで成長値が最大の作物を栽培し、効率的な農場を運営することも可能です:%n%n-Y座標が一致しており、且つ隣接した位置に支柱があると雑草を伝播させます。%n%n-何も植わっていない耕地は土->草ブロックという順番で変化し、最終的に上に草が生えます。%n%n-成長値が24以上且つ成長段階が2以上の作物へは影響を及ぼしません。%n%n-影響を受けた支柱や作物は雑草へ置き換えられます。%n%n最大値の成長値で畑を運用したいと考えている場合、公式Wikiの 「IC2 Crops」 のWeedsの項も参照してください。%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops[/url]%n%n%n§7《§r収得§7／Gain》§r%n%n収穫時にアイテムがドロップする確率、またドロップするアイテムの量へ直接影響します。%n%n§3通常、最大値の31まで上げるのが理想的だとされています。§r%n%n%n§7《§r抵抗§7／Resistance》§r%n%nこのステータス値は以下の確率に繋がります。%n%n-値が高いほど、左クリックでの収穫時、種袋がドロップする確率が上昇します。%n%n-値が高いほど、支柱の上でダッシュを行った際に耕地が踏み荒らされる確率を減少させます。%n%n-値が高いほど、環境値§7(NHA値)§rの不足による枯死が発生する確率を減少させます。%n%n-値が高いほど、突然変異が発生する確率を減少させます。%n%n-値が高いほど、雑草から浸食されにくくなります。%n§4あくまで"されにくく"なるだけであり、最大値まで上げても浸食される可能性は残ります。§r%n%n§3抵抗値は栽培目的で運用する作物の場合、メリットはほとんどありません。§r%n%n§3後述クエストで述べられている、NHA値との兼ね合いの関係上、0に留めるのが理想的だとされています。§r%n%n§3それでもバランスを取りたい場合は10程度に抑えるのが賢明でしょう。§r%n%n%nIC2農業についてのより詳細な情報を知りたい場合は、以下の公式Wikiのページも参照するようにしてください。%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops_Guide[/url]%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=§7《§r携帯型スキャナー§7／Portable Scanner》§r は右クリックで対象ブロックをスキャンすることで様々な情報を確認できるツールであり、 §7《§r支柱§7／Crop》§r に植えられた状態の作物を直接スキャンできます。%n%n§7《§r園芸用虫めがね§7／Plant Lens》§r や §7《§r作物分析器§7／Cropnalyzer》§r と同様、作物のスキャンは §7《§r種袋§7／Seeds》§r として回収された後でも引き継がれます。%n%n携帯型スキャナーの他の機能については §7《§rマルチブロックの旅§7／Multiblock Goals》§r の §7《§r電気高炉§7／Electric Blast Furnace》§r の後にリンクされているクエストも参照してください。%n%n%n作物には三つのステータス値が存在します。%nこれらのステータス値は一般的に、Grwoth、Gain、Resistanceの頭文字をとって§nGGR§r値と呼ばれます。%n%nGGR値は二種以上の作物を交配させたとき、親株のGGR値を参照したうえで変動し、強化することが可能です。%n%n以下により詳細な情報を記しておきます:%n%n%n§7《§r成長§7／Growth》§r%n%n成長値は成長速度を表し、これが高ければ高いほどより短い時間で成熟するようになります。%n技術的には、1サイクルで加算される次の成長段階への成長度の値が増加します。%n%n24以上の成長値を持つ作物は §7《§r雑草§7／Weed》§r のように振る舞い、隣接した支柱や成長値が24未満の作物へ雑草を伝播させるため注意が必要です。%n%n§3通常、成長値は23に留めるのが理想的だとされています。§r%n%n%n一方で、雑草の伝播は以下の条件で行われるため、これらの条件を避けることで成長値が最大の作物を栽培し、効率的な農場を運営することも可能です:%n%n-Y座標が一致しており、且つ隣接した位置に支柱があると雑草を伝播させます。%n%n-何も植わっていない耕地は土->草ブロックという順番で変化し、最終的に上に草が生えます。%n%n-成長値が24以上且つ成長段階が2以上の作物へは影響を及ぼしません。%n%n-影響を受けた支柱や作物は雑草へ置き換えられます。%n%n最大値の成長値で畑を運用したいと考えている場合、公式Wikiの 「IC2 Crops」 のWeedsの項も参照してください。%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops[/url]%n%n%n§7《§r収得§7／Gain》§r%n%n収穫時にアイテムがドロップする確率、またドロップするアイテムの量へ直接影響します。%n%n§3通常、最大値の31まで上げるのが理想的だとされています。§r%n%n%n§7《§r抵抗§7／Resistance》§r%n%nこのステータス値は以下の確率に繋がります。%n%n-値が高いほど、左クリックでの収穫時、種袋がドロップする確率が上昇します。%n%n-値が高いほど、支柱の上でダッシュを行った際に耕地が踏み荒らされる確率を減少させます。%n%n-値が高いほど、環境値§7(NHA値)§rの不足による枯死が発生する確率を減少させます。%n%n-値が高いほど、突然変異が発生する確率を減少させます。%n%n-値が高いほど、雑草から浸食されにくくなります。%n§4あくまで"されにくく"なるだけであり、最大値まで上げても浸食される可能性は残ります。§r%n%n§3抵抗値は栽培目的で運用する作物の場合、メリットはほとんどありません。§r%n%n§3後述クエストで述べられている、NHA値との兼ね合いの関係上、0に留めるのが理想的だとされています。§r%n%n§3それでもバランスを取りたい場合は10程度に抑えるのが賢明でしょう。§r%n%n%nIC2農業についてのより詳細な情報を知りたい場合は、以下の公式Wikiのページも参照するようにしてください。%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops_Guide[/url]%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops[/url]
 
 # Quest: Metals From the Sky
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAw.name=天空から来た金属
@@ -5048,7 +5048,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhw.desc=パンプキンパイは北ア�
 
 # Quest: Even More Stats
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.name=更に詳細なステータス
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.desc=作物には他にも七つのステータス値が存在します。%nこれはGGR値のような作物ごとに継承される固有のものではなく、周囲の環境や散布物の有無によって値が変動します。%n%nこれらのステータス値は以下の三つに大別されます。%n%n%n%n§7《§r肥料§7／Fertilizer》§r 、 §7《§r水§7／Water》§r 、Weed-EXは作物そのものではなく、 §7《§r支柱§7／Crop》§r ごとに存在しているステータス値です。%n%nこれは支柱に §7《§r無機肥料§7／Fertilizer》§r 、水、Weed-EXがどれだけ与えられているか、また、どれだけ残っているかを表しています。%n%n上限値は200§7(または199)§rです。%n%n各散布物は使用時に100の値を加算しますが、肥料とWeed-EXは上限値が199であるため、値が100未満のときでないと再使用を行えません。%n上限値が200の水はこの限りではありません。%n%n水は §7《§r旧型作物散布機§7／Crop-Matron》§r などの機械を使用して自動で散布するか、 §7《§r補水セル§7／Hydration Cell》§r を使って手動で与えることができます。%n%n%n%n栄養、補水、通気は §7《§r環境値§7／Enviroment》§r と呼ばれるカテゴリに属し、その頭文字 §7(Nutritions, Humidity, Air-Quality)§r を取って§lNHA§r値と呼ばれることもあります。%nこれらの値は周囲の環境やバイオーム、肥料/水の値によって変動し、後述する成長性へ直接影響します。%n%nバイオームの種類によって加算される値は異なりますが、沼地の加算値が一番大きいため、ここに農場を設置するのが理想的だと言えます。%n§4砂漠は湿度値を減算するため避けるべきです。§r%n%n以下に他の加算条件を記します:%n%n%n§7《§r栄養§7／Nutritions》§r は土壌の栄養度合を表す数値です。%n%n-耕地の下に土ブロックがある場合、この数に応じて加算されます(最大:3)%n%nこの土は必ず連なっている必要があり、そうでない場合は影響を及ぼしません。%n%n§3成熟に特定のブロックを要求する作物の場合、耕地の下に2ブロックの土を配置し、最下層3ブロック目に特定ブロックを設置することで、最大限のボーナスを得ることができます。§r%n%n-現在の肥料値に応じて加算されます(最大:10)%n加算値は以下の計算式で求められます:%n%n((int)Fertilizer+19)/20%n%n%n§7《§r湿度§7／Humidity》§r は土壌の湿り具合を表す数値です。%n%n-耕地が水源範囲内にあり、湿っている場合、2加算されます。%n%n-現在の水値に応じて加算されます(最大:10)%n加算値は以下の計算式で求められます:%n%n((int)Water+24)/25%n%n%n§7《§r通気§7／Air-Quality》§r は支柱周囲の通気性を表す数値です。%n%n-支柱周囲にブロックが設置されて§nいない§r場合加算されます(最大:4)%n加算値は2つの空きスペースにつき1です。%n%n-作物が設置されているY座標が79以上である場合加算され、15ブロックごとに1値が増えます(最大:4)%n%n-支柱と空の間に不透過ブロックが§n無い§r場合、2加算されます。%n§3このボーナスはガラスなどで遮られていても満たすことが可能です。§r%n%n%n作物は内部的な値として要求環境値を持っています。%n現在環境値が要求環境値を満たせていない場合、作物は確率で枯死し、消滅します。%nこれは高Tierの作物であるほど顕著になります。%n%n%n最後に、 §7《§r成長性§7／Growability》§r は作物の成長速度を加速する内部的な値です。%n%n成長性値は作物の要求環境値と現在の環境値の差によって決定します。%n%nしたがって、必要以上のNHA値を確保することでより早いサイクルで作物を収穫でき、結果的に収得する収穫物の量も多くなります。%n%n%nまた、高いGGR値を持つ作物は、要求環境値も高くなり、結果として成長性の値の低下を招きます。%n%nこれを防ぐために、栽培時に大したメリットを与えない §7《§r耐性§7／Resistance》§r の値を0にするのが理想的だとされています。%n%n%n§n総括すると、以下の条件を満たすことで効率的に作物の栽培を行えます:§r%n%n-作物のGGR値を以下の理想値に近づける:%n%n成長 : 23%n収得 : 31%n耐性 : 0%n%n§3交配の親株となる作物のステータス値をGr19~21/Ga31/Re0に設定すると、理想値に近いステータスの作物を効率的に増やすことができます。§r%n§3Grの値は親株の数に対応して変動します。2つの場合は21、3つの場合は20、4つの場合は19を使用してください。§r%n%n-無機肥料と水を散布し続ける。%n§3これは旧型作物散布機などの機械で自動化可能です。§r%n%n-Y座標が124以上の場所に支柱を設置する。%n%n-バイオームが沼地の場所に農場を設置する。%n%n-耕地の下に3ブロックの土を設置する。%n§3成熟に特定ブロックを要求されている場合、2ブロックの土を設置し、最下層に特定ブロックを配置してください。§r%n%n-支柱と空の間を不透過ブロックで遮らないようにする。%n%n%nIC2農業についてのより詳細な情報を知りたい場合は、以下の公式Wikiのページも参照するようにしてください。%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops_Guide[/url]%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.desc=作物には他にも七つのステータス値が存在します。%nこれはGGR値のような作物ごとに継承される固有のものではなく、周囲の環境や散布物の有無によって値が変動します。%n%nこれらのステータス値は以下の三つに大別されます。%n%n%n%n§7《§r肥料§7／Fertilizer》§r 、 §7《§r水§7／Water》§r 、Weed-EXは作物そのものではなく、 §7《§r支柱§7／Crop》§r ごとに存在しているステータス値です。%n%nこれは支柱に §7《§r無機肥料§7／Fertilizer》§r 、水、Weed-EXがどれだけ与えられているか、また、どれだけ残っているかを表しています。%n%n上限値は200§7(または199)§rです。%n%n各散布物は使用時に100の値を加算しますが、肥料とWeed-EXは上限値が199であるため、値が100未満のときでないと再使用を行えません。%n上限値が200の水はこの限りではありません。%n%n水は §7《§r旧型作物散布機§7／Crop-Matron》§r などの機械を使用して自動で散布するか、 §7《§r補水セル§7／Hydration Cell》§r を使って手動で与えることができます。%n%n%n%n栄養、補水、通気は §7《§r環境値§7／Enviroment》§r と呼ばれるカテゴリに属し、その頭文字 §7(Nutritions, Humidity, Air-Quality)§r を取って§nNHA§r値と呼ばれることもあります。%nこれらの値は周囲の環境やバイオーム、肥料/水の値によって変動し、後述する成長性へ直接影響します。%n%nバイオームの種類によって加算される値は異なりますが、沼地の加算値が一番大きいため、ここに農場を設置するのが理想的だと言えます。%n§4砂漠は湿度値を減算するため避けるべきです。§r%n%n以下に他の加算条件を記します:%n%n%n§7《§r栄養§7／Nutritions》§r は土壌の栄養度合を表す数値です。%n%n-耕地の下に土ブロックがある場合、この数に応じて加算されます(最大:3)%n%nこの土は必ず連なっている必要があり、そうでない場合は影響を及ぼしません。%n%n§3成熟に特定のブロックを要求する作物の場合、耕地の下に2ブロックの土を配置し、最下層3ブロック目に特定ブロックを設置することで、最大限のボーナスを得ることができます。§r%n%n-現在の肥料値に応じて加算されます(最大:10)%n加算値は以下の計算式で求められます:%n%n((int)Fertilizer+19)/20%n%n%n§7《§r湿度§7／Humidity》§r は土壌の湿り具合を表す数値です。%n%n-耕地が水源範囲内にあり、湿っている場合、2加算されます。%n%n-現在の水値に応じて加算されます(最大:10)%n加算値は以下の計算式で求められます:%n%n((int)Water+24)/25%n%n%n§7《§r通気§7／Air-Quality》§r は支柱周囲の通気性を表す数値です。%n%n-支柱周囲にブロックが設置されて§nいない§r場合加算されます(最大:4)%n加算値は2つの空きスペースにつき1です。%n%n-作物が設置されているY座標が79以上である場合加算され、15ブロックごとに1値が増えます(最大:4)%n%n-支柱と空の間に不透過ブロックが§n無い§r場合、2加算されます。%n§3このボーナスはガラスなどで遮られていても満たすことが可能です。§r%n%n%n作物は内部的な値として要求環境値を持っています。%n現在環境値が要求環境値を満たせていない場合、作物は確率で枯死し、消滅します。%nこれは高Tierの作物であるほど顕著になります。%n%n%n最後に、 §7《§r成長性§7／Growability》§r は作物の成長速度を加速する内部的な値です。%n%n成長性値は作物の要求環境値と現在の環境値の差によって決定します。%n%nしたがって、必要以上のNHA値を確保することでより早いサイクルで作物を収穫でき、結果的に収得する収穫物の量も多くなります。%n%n%nまた、高いGGR値を持つ作物は、要求環境値も高くなり、結果として成長性の値の低下を招きます。%n%nこれを防ぐために、栽培時に大したメリットを与えない §7《§r耐性§7／Resistance》§r の値を0にするのが理想的だとされています。%n%n%n§n総括すると、以下の条件を満たすことで効率的に作物の栽培を行えます:§r%n%n-作物のGGR値を以下の理想値に近づける:%n%n成長 : 23%n収得 : 31%n耐性 : 0%n%n§3交配の親株となる作物のステータス値をGr19~21/Ga31/Re0に設定すると、理想値に近いステータスの作物を効率的に増やすことができます。§r%n§3Grの値は親株の数に対応して変動します。2つの場合は21、3つの場合は20、4つの場合は19を使用してください。§r%n%n-無機肥料と水を散布し続ける。%n§3これは旧型作物散布機などの機械で自動化可能です。§r%n%n-Y座標が124以上の場所に支柱を設置する。%n%n-バイオームが沼地の場所に農場を設置する。%n%n-耕地の下に3ブロックの土を設置する。%n§3成熟に特定ブロックを要求されている場合、2ブロックの土を設置し、最下層に特定ブロックを配置してください。§r%n%n-支柱と空の間を不透過ブロックで遮らないようにする。%n%n%nIC2農業についてのより詳細な情報を知りたい場合は、以下の公式Wikiのページも参照するようにしてください。%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops_Guide[/url]%n[url]https://gtnh.miraheze.org/wiki/IC2_Crops[/url]
 
 # Quest: Min-Maxing Crops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=作物の可能性を最大限に引き出すには？
@@ -5474,7 +5474,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAClA.desc=その §7《§r鉄の盾§7／
 
 # Quest: Bow, Arrows and Quiver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClQ.name=§5§n弓、矢、そして矢筒
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAClQ.desc=わあ、初めての手作りの...§l自動装填？§r弓だ。%n矢と §7《§r矢筒§7／Quiver》§r も作っておきましょう。%n%n矢筒と矢のスタックを一緒にクラフトして、矢を装填することができます。キー設定から矢筒用のキー操作が重複していないかを確認してください。デフォルトではZキーが割り振られています。弓を持っているときに設定したキーを押すと、矢筒に入っている矢から使用するものを選択できます。%n%n報酬で貰える矢は、一見大したこと無いように見えるかもしれませんが、それぞれ特殊な効果を持っています。クッキーは"友達"と分け合ったほうが楽しいですよね。%n%nさあ、ハントの時間だ。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAClQ.desc=わあ、初めての手作りの...§n自動装填？§r弓だ。%n矢と §7《§r矢筒§7／Quiver》§r も作っておきましょう。%n%n矢筒と矢のスタックを一緒にクラフトして、矢を装填することができます。キー設定から矢筒用のキー操作が重複していないかを確認してください。デフォルトではZキーが割り振られています。弓を持っているときに設定したキーを押すと、矢筒に入っている矢から使用するものを選択できます。%n%n報酬で貰える矢は、一見大したこと無いように見えるかもしれませんが、それぞれ特殊な効果を持っています。クッキーは"友達"と分け合ったほうが楽しいですよね。%n%nさあ、ハントの時間だ。
 
 # Quest: Wet Dirt Armor?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACqw.name=泥んこ装備？
@@ -6300,7 +6300,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAUA.name=§6§nすべてを圧縮せよ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAUA.desc=マーティン(DreamMasterXXL)のお気に入りの機械です。すべてのものを圧縮しましょう！もちろん爆発物を使って。今日は盛大に爆発させましょう！%n%n注意：居住区域から離れた場所に設置することをお勧めします。汚染レベルが急激に上昇する可能性があるためです。
 
 # Quest: At the End of...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAUQ.name=§6§lその最後に…
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAUQ.name=§6§nその最後に…
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAUQ.desc=...宇宙の最後では、最終的にはすべてが凍結します。しかし、宇宙の熱的死を待つのはあまりにも時間がかかりすぎます。そこでご紹介するのが真空冷却機です。高温の物体を冷却するのに十分な性能を備えています。%n%nEBFを通過するインゴットが一定温度を超えると、冷却が必要な高温インゴットとして排出されます。%n%n最低でも16個の耐冷マシン外装が必要ですが、その他の必要数は設置環境によって異なります。
 
 # Quest: An Unexpected Bonus
@@ -6488,19 +6488,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_A.name=§6§lBetter Glass Upgrade, EV 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_A.desc=The next tier of Borosilicate glass is Titanium (4). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
 
 # Quest: IV Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_Q.name=§6§lIVガラス
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_Q.name=§6§nIVガラス
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_Q.desc=The next tier of Borosilicate glass is Tungstensteel (5). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.%n%n[note]PS: If you just want to use it to make machines, check out the Thorium Yttrium glass blocks.[/note]
 
 # Quest: LuV Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_g.name=§6§lLuVガラス
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_g.name=§6§nLuVガラス
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_g.desc=The next tier of Borosilicate glass is Rhodium-Plated Palladium (6). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
 
 # Quest: ZPM Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_w.name=§6§lZPMガラス
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_w.name=§6§nZPMガラス
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_w.desc=The next tier of Borosilicate glass is Iridium (7). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
 
 # Quest: UV Glass
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAA.name=§6§lUVガラス
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAA.name=§6§nUVガラス
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKAA.desc=The next tier of Borosilicate glass is Osmium (8). Make it to allow higher tier recipes in the Bacterial Vat, higher tier Energy Hatches in the MBF, or better Capacitors in your LSC. Or just use it for machine recipes, whatever.
 
 # Quest: Bacterial Vat
@@ -6568,11 +6568,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.name=§6§lNeutron Activator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.desc=The Neutron Activator is a unique machine that you will use for processing Naquadah, and eventually Naquadah Fuel should you choose to do so.%n%nUnlike traditional multis, instead of using a regular energy hatch, this machine relies on a Neutron Accelerator that will need to be regulated by a Sensor Hatch. §3(The Neutron Accelerator needs to be provided power just like an energy hatch)§r%n%nThe accelerator will increase its Neutron Kinetic Energy (NKE) and when the NKE is between the requested number which you can see in NEI, the machine will work and output the right products. However, if you turn on the Neutron Activator when NKE doesn't meet the requirement, it will still consume your input material but output trash. So be careful with the NKE when you run this machine.%n%nWhen all Neutron Accelerators aren't running, NKE will decrease 72keV/s.%n%nNeutron Activator will explode when NKE is over 1200MeV.%n%n§dYou can enable batch mode with wire cutters.§r%n%n[note]The more height/speed casings you have, the more inefficient the EU->eV conversion becomes, so you then need more power. The math is as follows: Multiply recipe time by 0.9 for each height above 4 and multiply eV you get from your input power by 0.95 for each height above 4.[/note]
 
 # Quest: Neutron Sensor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.name=§6§l中性子センサー
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.name=§6§n中性子センサー
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.desc=The sensor will send redstone signals according to the NKE of the Neutron Activator.%n%nIt works like a cover: enter the threshold value in eV, and it will emit a redstone signal when the NKE is at least as high as the threshold.
 
 # Quest: Neutron Accelerator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALeg.name=§6§l中性子加速器
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALeg.name=§6§n中性子加速器
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeg.desc=It is used to accelerate the NKE. You just need to connect a cable to it and it will keep consuming the energy.%n%n[note]PS: You can use a controller cover to stop it.[/note]
 
 # Quest: Oops
@@ -6684,7 +6684,7 @@ betterquesting.quest.m5N5Q9QEREyzF1B4eObk0Q.name=§6§lUMV Glass
 betterquesting.quest.m5N5Q9QEREyzF1B4eObk0Q.desc=The next tier of Borosilicate glass is Transcendent (12).
 
 # Quest: Component Assembly Line
-betterquesting.quest.n7yjRSr0R7O2agebw73FGA.name=§6§lコンポーネント組立ライン
+betterquesting.quest.n7yjRSr0R7O2agebw73FGA.name=§6§nコンポーネント組立ライン
 betterquesting.quest.n7yjRSr0R7O2agebw73FGA.desc=Check the NEI pages to see all the nice recipes this machine can handle for you. Great to craft GT components in bulk.
 
 # Quest: UEV Glass
@@ -7122,7 +7122,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.name=§6§lDiesel Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.desc=The MV Combustion Generator burns Light Fuel faster than the LV version, but you can also automate Diesel and burn that instead, since it's even more powerful. It is arguably the easiest and most efficient way to generate lots of power for automation at this stage, and it'll last you a couple more tiers if you upgrade it as you go.%n%nAdditionally, Diesel can be used as fuel for the Copterpack, a good jetpack that makes it much easier to move around, inside and outside of your base. It's heavily recommended that you make one, if you have Diesel.%n%n[note]This will also unlock new quests in the Armors and Jetpacks tab.[/note]
 
 # Quest: Fluid Regulator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.name=§6§l液体調節器
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.name=§6§n液体調節器
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.desc=Turbines require precise amounts of fluids or else they will [warn]explode[/warn]. Use the fluid regulator on the pipe attached to the input bus to control the rate of fluids into the turbine. To raise the fluid limit, look at the right side of the regulator and:%n%n1L - Right-click with an empty hand%n16L - Right-click with a screwdriver%n256L - Right-click with a screwdriver while sneaking%n%nTo lower the fluid limit, do the same while looking at the left side.%n%nUse the Large Turbine Calculator and the Turbine stats sheet on the spreadsheet to find what to set it to (after deciding on a fuel). At GTNH, we do the math for you! For this at least.%n%n[note]If you shift-right-click on it you can use the interface which is more precise.[/note]
 
 # Quest: Gas Turbine
@@ -7139,7 +7139,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHaQ.desc=§7《§rナクアドリア§7�
 
 # Quest: Large Heat Exchanger - Fermat's Last
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcQ.name=§6§n大型熱交換器 - フェルマーの最終手段
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcQ.desc=§7《§r大型熱交換器§7／Large Heat Exchanger §r(LHE)§7》§r は電力を受け付けないし、電力を出力もしない、イレギュラーなマルチブロック設備です。%n%nしかし、その目的は電力生産にあります。%n一体どういう意味かって？%n%n§7§l熱い液体でお湯を沸かすんだよ！！！§r%n%n実際のところ、ある程度GregTechを遊んでいるプレイヤーに向けて説明するなら、これは「固体燃料ではなく液体燃料のみを受け付ける §7《§r大型ボイラー§7／Large Boiler》§r 」です。%n%nしかし、事前知識を持たず、実際に運用を開始しようとすると、その複雑さに気付かされる羽目になるでしょう。%n%nLHEの主なエネルギー源は溶岩、 §7《§rIC2過熱冷却材§7／IC2 Hot Coolant》§r、  §7《§r蓄熱用溶融塩(加熱済み)／Solar Salt (Hot)》§rです。%n最も強力なのは溶融塩ですが、入手が困難です。%n%n溶岩でLHEを稼働する場合、 §7《§r燃え盛る壺§7／Everburn Urn》§r や、その他無数の設備群で容易に自動化を行えます。%n%n過熱冷却材を使用する場合...IC2の §7《§r原子炉§7／Nuclear Reactor》§r を §7《§r加圧水型原子炉§7／Fluid Nuke》§r と呼ばれる特殊な運用方法でセットアップする必要があります。%n%n蓄熱用溶融塩の加熱には§7《§rソーラータワー§7／Solar Tower》§rが必要です。%n%n%n以下はLHEの蒸気出力量と、一台を最大効率でセットアップした場合の電力効率です:%n%n§n溶岩を熱源とする場合§r%n%n蒸気の変換量%n溶岩 1mB -> 蒸気 160mB%n%n処理閾値 1,000mB/秒%n%n処理上限 2,000mB/秒%n%n最大発電効率 4,000EU/t%n%n%n§nIC2過熱冷却材を熱源とする場合§r%n%n過熱冷却材 1mB -> 蒸気 400mB%n%n処理閾値 800mB/秒%n%n処理上限 1,600mB/秒%n%n最大発電効率 8,000EU/t%n%n%n§n蓄熱用溶融塩(加熱済み)を熱源とする場合§r%n%n蓄熱用溶融塩 1mB -> 蒸気 2,000mB%n%n処理閾値 160mB/秒%n%n処理上限 320mB/秒%n%n最大発電効率 8,000EU/t%n%n%nLHEは熱源ごとに"処理閾値"を持っており、この入力速度を越えたとき、蒸気の代わりに過熱蒸気を生産するようになります。%n%n過熱蒸気は §7《§r大型高圧蒸気タービン§7／Large HP Steam Turbine》§r で処理することで、電力と通常の蒸気を取り出すことができるため、結果的に発電量が通常の原子炉や蒸気発電よりも大きくなります。%n%n%n以下はLHEの過熱蒸気出力量と、一台を最大効率でセットアップした場合の電力効率です:%n%n§n溶岩を熱源とする場合§r%n%n溶岩 1mB -> 過熱蒸気 80mB%n%n最大発電効率 12,000EU/t%n%n%n§n過熱冷却材を熱源とする場合§r%n%n過熱冷却材 1mB -> 過熱蒸気 200mB%n%n最大発電効率 24,000EU/t%n%n%n§n蓄熱用溶融塩を熱源とする場合§r%n%n蓄熱用溶融塩 1mB -> 過熱蒸気 1,000mB%n%n最大発電効率 24,000EU/t%n%n%nこのように、LHE及び加圧水型原子炉は§l非常に強力§rですが、電力を取り出すための複数基の §7《§r大型蒸気タービン§7／Large Steam Turbine》§r と、複雑なセットアップ構築を要求されます！%n%nより詳細な情報が知りたい場合、公式Wikiの 「Large Heat Exchanger」 のページを参照してください。%n[url]https://wiki.gtnewhorizons.com/wiki/Large_Heat_Exchanger[/url]%n%nまた、LHEを加圧水型原子炉で利用する場合、 「Fluid Reactor」 のページも役に立ちます。%n[url]https://wiki.gtnewhorizons.com/wiki/Fluid_Reactor[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcQ.desc=§7《§r大型熱交換器§7／Large Heat Exchanger §r(LHE)§7》§r は電力を受け付けないし、電力を出力もしない、イレギュラーなマルチブロック設備です。%n%nしかし、その目的は電力生産にあります。%n一体どういう意味かって？%n%n§7§n熱い液体でお湯を沸かすんだよ！！！§r%n%n実際のところ、ある程度GregTechを遊んでいるプレイヤーに向けて説明するなら、これは「固体燃料ではなく液体燃料のみを受け付ける §7《§r大型ボイラー§7／Large Boiler》§r 」です。%n%nしかし、事前知識を持たず、実際に運用を開始しようとすると、その複雑さに気付かされる羽目になるでしょう。%n%nLHEの主なエネルギー源は溶岩、 §7《§rIC2過熱冷却材§7／IC2 Hot Coolant》§r、  §7《§r蓄熱用溶融塩(加熱済み)／Solar Salt (Hot)》§rです。%n最も強力なのは溶融塩ですが、入手が困難です。%n%n溶岩でLHEを稼働する場合、 §7《§r燃え盛る壺§7／Everburn Urn》§r や、その他無数の設備群で容易に自動化を行えます。%n%n過熱冷却材を使用する場合...IC2の §7《§r原子炉§7／Nuclear Reactor》§r を §7《§r加圧水型原子炉§7／Fluid Nuke》§r と呼ばれる特殊な運用方法でセットアップする必要があります。%n%n蓄熱用溶融塩の加熱には§7《§rソーラータワー§7／Solar Tower》§rが必要です。%n%n%n以下はLHEの蒸気出力量と、一台を最大効率でセットアップした場合の電力効率です:%n%n§n溶岩を熱源とする場合§r%n%n蒸気の変換量%n溶岩 1mB -> 蒸気 160mB%n%n処理閾値 1,000mB/秒%n%n処理上限 2,000mB/秒%n%n最大発電効率 4,000EU/t%n%n%n§nIC2過熱冷却材を熱源とする場合§r%n%n過熱冷却材 1mB -> 蒸気 400mB%n%n処理閾値 800mB/秒%n%n処理上限 1,600mB/秒%n%n最大発電効率 8,000EU/t%n%n%n§n蓄熱用溶融塩(加熱済み)を熱源とする場合§r%n%n蓄熱用溶融塩 1mB -> 蒸気 2,000mB%n%n処理閾値 160mB/秒%n%n処理上限 320mB/秒%n%n最大発電効率 8,000EU/t%n%n%nLHEは熱源ごとに"処理閾値"を持っており、この入力速度を越えたとき、蒸気の代わりに過熱蒸気を生産するようになります。%n%n過熱蒸気は §7《§r大型高圧蒸気タービン§7／Large HP Steam Turbine》§r で処理することで、電力と通常の蒸気を取り出すことができるため、結果的に発電量が通常の原子炉や蒸気発電よりも大きくなります。%n%n%n以下はLHEの過熱蒸気出力量と、一台を最大効率でセットアップした場合の電力効率です:%n%n§n溶岩を熱源とする場合§r%n%n溶岩 1mB -> 過熱蒸気 80mB%n%n最大発電効率 12,000EU/t%n%n%n§n過熱冷却材を熱源とする場合§r%n%n過熱冷却材 1mB -> 過熱蒸気 200mB%n%n最大発電効率 24,000EU/t%n%n%n§n蓄熱用溶融塩を熱源とする場合§r%n%n蓄熱用溶融塩 1mB -> 過熱蒸気 1,000mB%n%n最大発電効率 24,000EU/t%n%n%nこのように、LHE及び加圧水型原子炉は§n非常に強力§rですが、電力を取り出すための複数基の §7《§r大型蒸気タービン§7／Large Steam Turbine》§r と、複雑なセットアップ構築を要求されます！%n%nより詳細な情報が知りたい場合、公式Wikiの 「Large Heat Exchanger」 のページを参照してください。%n[url]https://wiki.gtnewhorizons.com/wiki/Large_Heat_Exchanger[/url]%n%nまた、LHEを加圧水型原子炉で利用する場合、 「Fluid Reactor」 のページも役に立ちます。%n[url]https://wiki.gtnewhorizons.com/wiki/Fluid_Reactor[/url]
 
 # Quest: Rocket Engine EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9g.name=§a§nロッケトエンジン EV
@@ -8243,7 +8243,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYA.desc=§7《§rウラン§7／Uranium
 
 # Quest: Uranium Basic Nukes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYQ.name=基本燃料としてのウラン
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYQ.desc=トリウム原子炉のビッグ・ブラザー、 §7《§rウラン§7／Uranium》§r 核燃料の原子炉に挨拶してください！%n%nIC2の§l"通常の"§r §7《§r原子炉§7／Nuclear Reactor》§r における最高効率の構成は、1サイクルで7本の §7《§rウランの四重燃料棒§7／Quad Fuel Rod (Uranium)》§r 、つまり28本の §7《§rウランの燃料棒§7／Fuel Rod (Uranium)》§r を使用します。%n%nこれは約3スタックの §7《§rウラン238§7／Uranium 238》§r に相当し、これを §7《§rトリウム§7／Thorium》§r の鉱石副産物から安定的に供給するのは難しいです。%nそのため、 §7《§rフォボス§7／Phobos》§r などで §7《§r鉱石掘削プラント§7／Ore Drilling Plant》§r を利用して集めるのが現実的な手段となってきます。%n%nまた、ウランを燃料とする原子炉は、トリウム原子炉とは2つの点で異なる部分があります。%n%nまず、ウランはウラン238と §7《§rウラン235§7／Uranium 235》§r の複合的な核燃料であり、トリウムのように鉱石から精製した粉を直接燃料棒に詰めることはできません。%n%n後者はウランの希少な同位体であり、主にウラン238鉱石の副産物で手に入る他、粉を遠心分離することで10%%の確率で入手できます。%n%nしかし、最も容易な選択肢は、Thaumcraftを進めることです。%n§7《§rソーモノミコン§7／Thaumonomicon》§r の §7《§r電動魔具工学§7／Electro-Magic Tools》§r 項目にある §7《§rとても小さなウラン235§7／Tiny Uranium》§r の研究を完了することで、1つのウラン238から7/9個のウラン235を直接クラフトできるようになります。%n%nまた、ウランの燃料棒はトリウムよりも電力出力が大きいですが、燃焼時間は短いです。具体的には、トリウムは50,000秒、ウランは20,000秒になります。%n%n%n公式Wikiには、4,200EU/tの出力を持つ最高効率の構成が載っています。"Nuclear Reactors"ページにある"DESIGN #6: URANIUM v3"というタイトルの構成を確認してみてください。%n[url]https://gtnh.miraheze.org/wiki/Nuclear_Reactors[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYQ.desc=トリウム原子炉のビッグ・ブラザー、 §7《§rウラン§7／Uranium》§r 核燃料の原子炉に挨拶してください！%n%nIC2の§n"通常の"§r §7《§r原子炉§7／Nuclear Reactor》§r における最高効率の構成は、1サイクルで7本の §7《§rウランの四重燃料棒§7／Quad Fuel Rod (Uranium)》§r 、つまり28本の §7《§rウランの燃料棒§7／Fuel Rod (Uranium)》§r を使用します。%n%nこれは約3スタックの §7《§rウラン238§7／Uranium 238》§r に相当し、これを §7《§rトリウム§7／Thorium》§r の鉱石副産物から安定的に供給するのは難しいです。%nそのため、 §7《§rフォボス§7／Phobos》§r などで §7《§r鉱石掘削プラント§7／Ore Drilling Plant》§r を利用して集めるのが現実的な手段となってきます。%n%nまた、ウランを燃料とする原子炉は、トリウム原子炉とは2つの点で異なる部分があります。%n%nまず、ウランはウラン238と §7《§rウラン235§7／Uranium 235》§r の複合的な核燃料であり、トリウムのように鉱石から精製した粉を直接燃料棒に詰めることはできません。%n%n後者はウランの希少な同位体であり、主にウラン238鉱石の副産物で手に入る他、粉を遠心分離することで10%%の確率で入手できます。%n%nしかし、最も容易な選択肢は、Thaumcraftを進めることです。%n§7《§rソーモノミコン§7／Thaumonomicon》§r の §7《§r電動魔具工学§7／Electro-Magic Tools》§r 項目にある §7《§rとても小さなウラン235§7／Tiny Uranium》§r の研究を完了することで、1つのウラン238から7/9個のウラン235を直接クラフトできるようになります。%n%nまた、ウランの燃料棒はトリウムよりも電力出力が大きいですが、燃焼時間は短いです。具体的には、トリウムは50,000秒、ウランは20,000秒になります。%n%n%n公式Wikiには、4,200EU/tの出力を持つ最高効率の構成が載っています。"Nuclear Reactors"ページにある"DESIGN #6: URANIUM v3"というタイトルの構成を確認してみてください。%n[url]https://gtnh.miraheze.org/wiki/Nuclear_Reactors[/url]
 
 # Quest: Further IC2 Nuke Potential
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMYg.name=IC2原子炉の更なる可能性
@@ -8263,7 +8263,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMZQ.desc=このクエストは §7《§r
 
 # Quest: Nukes - Summarized
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMZg.name=原子炉 - 全ての知識を集約せよ
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMZg.desc=IC2の §7《§r原子炉§7／Nuclear Reactor》§r はほとんどの場合、 §7《§r核融合炉§7／Fusion Reactor》§r にまで達したプレイヤーにとって、無用の長物と化します。%n%n前述してきた変則的な核燃料の最高効率のEU/tについては、まだ正確な計算が行われていません。恐らく、通常の原子炉で特別なセットアップを取らずに処理しただけでは、素材生産に掛かる消費電力が生産電力を回ってしまうことでしょう。%n%nそのため、これらは §7《§r加圧水型原子炉§7／Fluid Nuke》§r で大量の熱を放散させ、 §7《§rXLサイズターボ蒸気タービン§7／XL Turbo Steam Turbine》§r を稼働させたり、 §7《§r真空冷却型原子炉§7／Vacuum Nuke》§r での運用に利用することで高効率で電力を取り出すことで真価を発揮します。%n%n後者の真空冷却型原子炉には更なる高効率の、そして、原子炉にとってのエンドコンテンツ級の核燃料が存在しています...。%n%n§7《§r"ザ・コア" セル§7／"The Core" Cell》§r です。%n%nこれは§l超強力な§r燃料棒であり、最も強力な冷却セルである §7《§r1080k Sp冷却セル§7／1080k Sp Coolant Cell》§r を使って炉心温度を制御できれば、UHV複数アンペアに達する量の電力生産を実現できます。%n%nこの構成は公式Wikiにも掲載されていますが、実際のところ、最も難易度が高いのはレッドストーン回路によるフェイルセーフ機構の構築です。%n%nこれらのセットアップはあなたの拠点を小さな太陽へと変えてしまう恐れがあるので、レッドストーン回路のスキルを十分に身に着け、努力と、労力と、そして閃きを注ぎ込んでください。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMZg.desc=IC2の §7《§r原子炉§7／Nuclear Reactor》§r はほとんどの場合、 §7《§r核融合炉§7／Fusion Reactor》§r にまで達したプレイヤーにとって、無用の長物と化します。%n%n前述してきた変則的な核燃料の最高効率のEU/tについては、まだ正確な計算が行われていません。恐らく、通常の原子炉で特別なセットアップを取らずに処理しただけでは、素材生産に掛かる消費電力が生産電力を回ってしまうことでしょう。%n%nそのため、これらは §7《§r加圧水型原子炉§7／Fluid Nuke》§r で大量の熱を放散させ、 §7《§rXLサイズターボ蒸気タービン§7／XL Turbo Steam Turbine》§r を稼働させたり、 §7《§r真空冷却型原子炉§7／Vacuum Nuke》§r での運用に利用することで高効率で電力を取り出すことで真価を発揮します。%n%n後者の真空冷却型原子炉には更なる高効率の、そして、原子炉にとってのエンドコンテンツ級の核燃料が存在しています...。%n%n§7《§r"ザ・コア" セル§7／"The Core" Cell》§r です。%n%nこれは§n超強力な§r燃料棒であり、最も強力な冷却セルである §7《§r1080k Sp冷却セル§7／1080k Sp Coolant Cell》§r を使って炉心温度を制御できれば、UHV複数アンペアに達する量の電力生産を実現できます。%n%nこの構成は公式Wikiにも掲載されていますが、実際のところ、最も難易度が高いのはレッドストーン回路によるフェイルセーフ機構の構築です。%n%nこれらのセットアップはあなたの拠点を小さな太陽へと変えてしまう恐れがあるので、レッドストーン回路のスキルを十分に身に着け、努力と、労力と、そして閃きを注ぎ込んでください。
 
 # Quest: MOX Nukes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMZw.name=MOX型原子炉
@@ -8771,15 +8771,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9Q.name=§9§n四酸化二窒素
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI9Q.desc=Another ingredient for the final rocket fuel is Nitrogen Tetroxide. Combine some Copper Dust and Nitric Acid along with an Orange Metal Catalyst in the Chemical Plant. 
 
 # Quest: Hydrazine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.name=§9§lヒドラジン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.name=§9§nヒドラジン
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWg.desc=Hydrazine is made from Ammonia and Hydrogen Peroxide.
 
 # Quest: Formaldehyde Catalyst
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWw.name=§9§lホルムアルデヒド触媒
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWw.name=§9§nホルムアルデヒド触媒
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJWw.desc=Time for the last tier of Rocket Fuel. First, make some Formaldehyde. It will require a catalyst. You can make it by mixing Iron and Vanadium, and placing the mix into a carrier.
 
 # Quest: Hydrogen Peroxide
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXA.name=§9§l過酸化水素
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXA.name=§9§n過酸化水素
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXA.desc=To make Hydrogen Peroxide you combine Oxygen (or Air), 2-Ethylanthrahydroquinone, and Anthracene in a Chemical Plant.%n%n[note]You can fully recycle the 2-Ethylanthraquinone, so don't make a bunch of it.[/note]
 
 # Quest: Tier 6 Heavy Duty Plates
@@ -8807,7 +8807,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.name=Rocket Tier 8
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVA.desc=You can travel to other solar systems with this, the T8 rocket.%n%nWhat, you visited other star systems before? There, was, uh, like, a nebula you couldn't go past to these ones. That makes sense, right?%n%nYou need to use H8N4C2O4 (Green) Rocket Fuel to fuel it.%n%n[note]In case you forgot to complete any, holding the rocket in your hand will unlock all pre-requisite quests in addition to this one.[/note]
 
 # Quest: RP-1 Rocket Fuel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=§9§lRP-1ロケット燃料
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.name=§9§nRP-1ロケット燃料
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.desc=One option to fuel your T1 and T2 rocket is RP-1 Rocket Fuel. First, you'll need either Diesel or Coal Tar. Coal Tar is the better option on the long run, since you'll need the other products of distilling it to make other rocket fuels, but for now you can use Diesel.%n%n[note]If you're using Diesel, you need 20 cells, if using Coal Tar, you need 30. Unless you use a DT, in which case it doesn't divide evenly anymore.[/note]%n%nDistill it in the Distillery to get Kerosene, then distill it again to get RP-1. You'll need a Chemical Plant for the last step.%n%nRP-1 Rocket Fuel is a T4 240 EU/t recipe, so you'll need to make the CP out of Stainless Steel and HV Machine Casings.%n%nSince there is no oxygen in space, you will also need an oxidizer. But since the Galacticraft rocket can only take one fluid we have simplified that a bit. Just combine Liquid Oxygen and RP-1 to make the fully functional RP-1 Rocket Fuel.%n%nIf you're confused about how to use/make the Chemical Plant, refer to the manual with the same name or the quest in the GT++ quest tab.%n%n[note]PS: You can also use Rocket Fuels for power in Rocket Engines, or the Rocketdyne F-1A Engine multi.[/note]
 
 # Quest: Coal Tar Distilling
@@ -8819,7 +8819,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfg.name=§4§lDense Hydrazine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfg.desc=Mix Hydrazine and Methanol in a Titanium Chemical Plant to make Dense Hydrazine for your Tier 3 and 4 Rockets.
 
 # Quest: Monomethylhydrazine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.name=§9§lモノメチルヒドラジン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.name=§9§nモノメチルヒドラジン
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfw.desc=For Tier 5 and 6 rockets you'll need to make CN3H7O3 (Purple) Rocket Fuel. %n%nTo start, make some Monomethylhydrazine.
 
 # Quest: CN3H7O3 (Purple) Rocket Fuel
@@ -8827,11 +8827,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgA.name=§5§lCN3H7O3 (Purple) Rocket F
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgA.desc=Combine Monomethylhydrazine and Nitric Acid in a Chemical Plant. Make sure to upgrade your casings to Tungstensteel.
 
 # Quest: 2-Ethylanthrahydroquinone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgg.name=§9§l2-エチルアントラヒドロキノン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgg.name=§9§n2-エチルアントラヒドロキノン
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgg.desc=To make this complicated sounding chemical, combine the similarly named 2-Ethylanthraquinone and Hydrogen along with an Orange Catalyst in the Chemical Plant.%n%n[note]You need Palladium to make the Catalyst, so keep that in mind.[/note]
 
 # Quest: 2-Ethylanthraquinone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgw.name=§9§l2-エチルアントラキノン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgw.name=§9§n2-エチルアントラキノン
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKgw.desc=Does anyone else wonder why these chemicals have numbers in the name? No? Just me? Moving on, to make it, combine Phthalic Anhydride and Ethylbenzene in the Chemical Plant to make 2-Ethylanthraquinone.%n%nBTW the other recipe that makes this is used later in the processing chain. You can loop the 2-Ethylanthraquinone so you don't have to make more if you don't want to scale up.%n%n[note]You need Palladium for the next quest.[/note]
 
 # Quest: How Do You Even Pronounce This?
@@ -8843,7 +8843,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhQ.name=§9§lPhthalic Acid, The Cool K
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhQ.desc=Make Phthalic Acid out of Naphthalene and Lithium in a Chemical Reactor.%n%nIronically, you can't make this out of Naphtha.
 
 # Quest: Naphthalene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.name=§9§lナフタレン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.name=§9§nナフタレン
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKhg.desc=To make Naphthalene, combine your Coal Tar Oil with Sulfuric Acid to get Sulfuric Coal Tar Oil, then distill it to get Naphthalene. Seems easy? It gets harder.
 
 # Quest: Serious Upgrades
@@ -11603,7 +11603,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGHQ.name=The Night's Not Dark Anymore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGHQ.desc=Hardcore darkness is a pain, but now the night will be bright. Or at least, your perception will be that it is, mobs can still spawn! Be careful, the mobs aren't any weaker.%n%nIf you want, you can make a longer-lasting potion out of the Potion of Night Vision. Also, you should probably make them in batches of 3 so you don't waste materials.
 
 # Quest: Source of Nickel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.name=§5§lニッケルの供給源
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.name=§5§nニッケルの供給源
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.desc=Your Electric Blast Furnace needs Nickel. Now that you've reached the Twilight Forest, it's time to get some. The Nickel Vein that contains it is located at Y 10-40. In MV, you'll need tons of Nickel for Cupronickel, so stock up.%n%nYou can get some Cobalt out of Cobaltite through the side processes such as washing or thermal centrifuging. To electrolyze it, you'll need an MV electrolyzer though. Or you can EBF it after your EBF is done. Remember that the Sulfur Dioxide you get is based on your muffler tier. This is probably easier than searching in the Nether for Cobalt.%n%n§3You can also find small quantities of Pentlandite ore in the Overworld if you care.
 
 # Quest: So Thirsty 
@@ -13569,7 +13569,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.name=§c§n蒸気、おいちい！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.desc=LV電圧Tierまであと少しです！%n§7《§r基本型蒸気タービン§7／Basic Steam Turbine》§r のクラフトを終え、 Tier 1 の電気時代へ到達してください！%n%n蒸気タービンは入力された §7《§r蒸気§7／Steam》§r を電力§7(EU)§rへ変換する発電機械です。%n最大効率の場合、32EU/t§7(LV1アンペア相当)§rの電力を生み出せます。%n%n%n根本となる動力源は従来通り蒸気§7(さらに遡れば、木炭やクレオソート)§rですが、今後は電力を扱い、より効率的に機械を稼働できるようになります。%n%n蒸気とは異なり、電力は §7《§rケーブル§7／Cable》§r で輸送、もとい送電を行います。%n蒸気タービンの丸が描かれた面にケーブルを接続し、電気機械側面へ繋げてください。ケーブルの接続/接続解除は §7《§rワイヤーカッター§7／Wire Cutter》§r で行います。%n%n電気機械は蒸気機械とは異なり、蒸気の排気口を必要としません。%n稼働速度は高圧の蒸気機械と同等ですが、燃料効率の点から見てより優秀だと言えます。%n%n%n後の電圧Tierへ進むにつれ、より効率の良い燃料源が開放されていきます。%n時折 §7《§r発電方法のハウ・トゥー§7／How to Generate Power》§r を確認し、他の方法も模索してみてください。
 
 # Quest: Dark Steel Tools
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjA.name=§6§lダークスチールのツール
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjA.name=§6§nダークスチールのツール
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAjA.desc=There are also tools made of dark steel. Each of them can receive upgrades. Hold shift to get the tooltip which will explain what you need in order to upgrade them.%n%nThese tools can also be enchanted like vanilla tools.%n%nThe Ender will increase wither skull and ender pearl drops. It can be upgraded to teleport the player.%n%nDark shears can be empowered, and then will shear a large area, including leaves. Handy for clearing away that giant redwood! Maybe you will find other uses for it.%n%nThe axe, once empowered, can be recharged wirelessly while in farming station.%n%nThe pick? Well, it can mine cobalt I guess if you haven't gotten a tool capable of that yet. You could keep it around to use for base decorations if your normal pick is too fast, I suppose.
 
 # Quest: And It Will Never Break
@@ -13758,7 +13758,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfg.desc=木の §7《§rクロスボウ
 
 # Quest: Wooden Crossbow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfw.name=§3§n木のクロスボウ
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfw.desc=今、より優れた長距離武器が開放されました。 §7《§rクロスボウ§7／Crossbow》§r を試すときです。%n%n§7《§rクロスボウリム§7／Crossbow Limb》§r と §7《§rクロスボウボディ§7／Crossbow Body》§r には木材を使用し、 §7《§r強化締め具§7／Tough Binding》§r には黒曜石(補強 III)を使用してください。 §7《§r弓弦§7／Bowstring》§r は普通の糸で十分です。%n%n§7《§rツール鍛冶台§7／Tool Forge》§r を使用してクロスボウを組み立てましょう。%n%n§4アップグレードについて:§r%n§3レッドストーン - 装填時間の短縮%n%nラピスラズリ - 幸運%n%n§7《§3苔の玉§7／Ball of Moss》§3 - 耐久値の自動修繕 ( §7《§3ソーモノミコン§7／Thaumonomicon》§3 のGTNHタブからアンロックする必要があります)§r%n%n§6ノート: 一部のMobは特定のツールからのダメージを必要とします。もし何かを撃っていてダメージを与えられなかった場合、§l*逃げてください*§r§6。そして、それを倒すのに最適な武器を見つけてください。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfw.desc=今、より優れた長距離武器が開放されました。 §7《§rクロスボウ§7／Crossbow》§r を試すときです。%n%n§7《§rクロスボウリム§7／Crossbow Limb》§r と §7《§rクロスボウボディ§7／Crossbow Body》§r には木材を使用し、 §7《§r強化締め具§7／Tough Binding》§r には黒曜石(補強 III)を使用してください。 §7《§r弓弦§7／Bowstring》§r は普通の糸で十分です。%n%n§7《§rツール鍛冶台§7／Tool Forge》§r を使用してクロスボウを組み立てましょう。%n%n§4アップグレードについて:§r%n§3レッドストーン - 装填時間の短縮%n%nラピスラズリ - 幸運%n%n§7《§3苔の玉§7／Ball of Moss》§3 - 耐久値の自動修繕 ( §7《§3ソーモノミコン§7／Thaumonomicon》§3 のGTNHタブからアンロックする必要があります)§r%n%n§6ノート: 一部のMobは特定のツールからのダメージを必要とします。もし何かを撃っていてダメージを与えられなかった場合、§n*逃げてください*§r§6。そして、それを倒すのに最適な武器を見つけてください。
 
 # Quest: Fiery Bowstring
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEgA.name=§2§n灼熱の弓弦
@@ -13805,7 +13805,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.name=§3§nあなたの進捗をバ�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.desc=このModpackに入っている§dServerUtilities(SU)§r§rは、ワールドデータを自動でバックアップするためのModです。%n%n'.minecraft\serverutilities\serverutilities.cfg'%nを編集することで、バックアップの保存先、頻度、ファイルの保持数を設定できます。%n%nもしバックアップからワールドを復元する必要がある場合、バックアップはインスタンス内のbackupsフォルダにあります。%n%nSUのバックアップには、JourneyMapやVisualProspecting、Thaumcraft Node Trackerのデータといったsavesフォルダ外のフォルダが含まれます。%n%n別のドライブやコンピューターにインスタンスを移動する場合は、ワールドフォルダーだけでなく、すべてのファイルを移行することをお忘れないように。
 
 # Quest: Nobody Wants an Explosion...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.name=§6§l誰も爆発なんか望んじゃいない...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.name=§6§n誰も爆発なんか望んじゃいない...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.desc=...ですよね？なのでマルチブロックを建てるときは、電気機械が雨や雪を嫌うことを覚えておいてください。機械が燃えだしてしまい、その火で爆発を引き起こす可能性があります。この爆発はほかの機械を誘爆させ、あなたの拠点全体が穴ぼこだらけになってしまうでしょう。バックアップがある理由の一つです。安全な場所に置きましょう！%n%nもし最悪の事態が発生した場合、爆発した原因を追跡するためのlogs/Explosion.logがあります。しかし、このファイルはワールド読み込み時にリセットされてしまうようです。
 
 # Quest: Not Enough Items - Now with Bookmarks and Recent History!
@@ -13906,7 +13906,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.desc=If you want to pass multiple am
 
 # Quest: E_TOO_MANY_KEYS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.name=§3§nエラー_キーが多すぎます
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=エラー: キー操作が多すぎて104キーボードには収まりません。%n%nこのModpackには多くのキー操作があります。キー操作が重複して割り当てられるのを防ぐため、デフォルトではほとんどが設定されていません。また、NEIのキーバインドはインベントリ左下の NEI Config から設定する必要があることに注意してください。%n%n以下はデフォルトで利用できるキー操作の一部です:%n%n%n§2§lBetterQuesting§r%nGRAVE - §7クエストブックを開きます%n%n§5§lDraconic Evolution§r%nV - §7持っているアイテムを視点先のブロックに配置します%n%n§3§lJourneyMap§r%nB - §7ウェイポイントを作成します§r%nCtrl+B - §7ウェイポイントマネージャーを開きます§r%nJ - §7フルスクリーンマップを開きます§r%n= - §7ズームイン(ミニマップでも機能します)§r%n- - §7ズームアウト§r%n%n§d§lShare Where I am§r%nInsert - §7他プレイヤーにも見える一時的なビームを視点先に設置します§r%nShift+Insert - §7他プレイヤーにも見える一時的なビームを§l現在位置§r§7に設置します§r%nCtrl+Insert - §7視点先の位置をチャットで共有します§r%nCtrl+Shift+Insert - §7現在位置をチャットで共有します§r%n%n§9§lWaila§r - 視点先のブロックやMobの情報を表示するModです%nNUMPAD1 - §7HUDの表示/非表示を切り替えます§r%nNUMPAD3 - §7視点先のブロックのレシピを表示します§r%nNUMPAD4 - §7視点先のブロックのクラフト用途を表示します§r%n%n%n§3非標準のキー配列を利用している場合、GTNHのJava17-25バージョンを使用することで、キーバインドに特定のキーを割り当てられるようになるかもしれません。§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=エラー: キー操作が多すぎて104キーボードには収まりません。%n%nこのModpackには多くのキー操作があります。キー操作が重複して割り当てられるのを防ぐため、デフォルトではほとんどが設定されていません。また、NEIのキーバインドはインベントリ左下の NEI Config から設定する必要があることに注意してください。%n%n以下はデフォルトで利用できるキー操作の一部です:%n%n%n§2§lBetterQuesting§r%nGRAVE - §7クエストブックを開きます%n%n§5§lDraconic Evolution§r%nV - §7持っているアイテムを視点先のブロックに配置します%n%n§3§lJourneyMap§r%nB - §7ウェイポイントを作成します§r%nCtrl+B - §7ウェイポイントマネージャーを開きます§r%nJ - §7フルスクリーンマップを開きます§r%n= - §7ズームイン(ミニマップでも機能します)§r%n- - §7ズームアウト§r%n%n§d§lShare Where I am§r%nInsert - §7他プレイヤーにも見える一時的なビームを視点先に設置します§r%nShift+Insert - §7他プレイヤーにも見える一時的なビームを§n現在位置§r§7に設置します§r%nCtrl+Insert - §7視点先の位置をチャットで共有します§r%nCtrl+Shift+Insert - §7現在位置をチャットで共有します§r%n%n§9§lWaila§r - 視点先のブロックやMobの情報を表示するModです%nNUMPAD1 - §7HUDの表示/非表示を切り替えます§r%nNUMPAD3 - §7視点先のブロックのレシピを表示します§r%nNUMPAD4 - §7視点先のブロックのクラフト用途を表示します§r%n%n%n§3非標準のキー配列を利用している場合、GTNHのJava17-25バージョンを使用することで、キーバインドに特定のキーを割り当てられるようになるかもしれません。§r
 
 # Quest: Safety First
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.name=§c§n安全第一
