@@ -581,22 +581,22 @@ commands.tree_base.invalid_cmd.list_subcommands=Invalid subcommand '%s'! Availab
 commands.tree_base.available_subcommands=Available SubCommands: %s
 
 # Backup
-cmd.timer_backup=Next backup: %s
-cmd.backup_start=Server Backup started!
-cmd.backup_stop=Server Backup stopped!
-cmd.backup_end_1=Server backup done in %s!
-cmd.backup_end_2=Server backup done in %s! (%s)
+cmd.timer_backup=Próximo backup: %s
+cmd.backup_start=Backup do Servidor iniciado!
+cmd.backup_stop=Backup do Servidor interrompido!
+cmd.backup_end_1=Backup do servidor finalizado em %s!
+cmd.backup_end_2=Backup do servidor finaliado em %s! (%s)
 cmd.backup_fail=Failed to save world! (%s)
 cmd.backup_manual_launch=%s launched a manual backup!
 cmd.backup_already_running=Backup in progress!
 cmd.backup_not_running=Backup is not running!
 cmd.backup_size=Current world size: %s, total backups folder size: %s
-serverutilities.gui.backup.title=Restore Backup (%s)
+serverutilities.gui.backup.title=Restaurar Backup (%s)
 serverutilities.gui.backup.button=Backups
-serverutilities.gui.backup.restore=Restore
+serverutilities.gui.backup.restore=Restaurar
 serverutilities.gui.backup.restore_global=Restore (with global data)
 serverutilities.gui.backup.error=An error occured while restoring backup!
-serverutilities.gui.backup.delete_confirm=Are you sure you want to §c§ldelete§r this backup?
+serverutilities.gui.backup.delete_confirm=Você tem certeza que você quer §c§ldeletar§r este backup?
 serverutilities.gui.backup.restore_confirm=Are you sure you want to §a§lrestore§r this backup?
 serverutilities.gui.backup.restore_global_confirm=Are you sure you want to §a§lrestore (global)§r this backup?
 serverutilities.gui.backup.restore_confirm_desc=This will also restore global world related data. The previous data will be moved into ".minecraft/backups_before_restore"
@@ -648,8 +648,8 @@ gui.downloading=Downloading...
 gui.infinite=Infinite
 
 ## Sides
-facing.north=North
-facing.south=South
+facing.north=Norte
+facing.south=Sul
 facing.west=West
 facing.east=East
 
