@@ -1037,7 +1037,7 @@ fog.upgrade.text.15=Позволяет Гелиотермальному прои
 fog.upgrade.text.16=Позволяет Helioflare Power Forge получить все преимущества пути улучшения Helioflux Melting Core.
 fog.upgrade.text.17=Увеличивает лимит бонуса тепла EBF до 30,000K.
 fog.upgrade.text.18=Разблокирует множитель для максимальной параллели на основе текущего тепла. Этот бонус рассчитывается по следующей формуле: Множитель = 1 + Тепло / 15000
-fog.upgrade.text.19=Improves the EBF energy reduction heat bonus from 5% to 8% and adds an energy discount based on the fill level of the internal battery. This bonus is calculated via the formula: Discount = (Current fill level / Max Capacity - 0.5)^2 * (-0.6) + 0.15, multiplied by 2/3 for modules other than the Plasma Fabricator
+fog.upgrade.text.19=Improves the EBF energy reduction heat bonus from 5%% to 8%% and adds an energy discount based on the fill level of the internal battery. This bonus is calculated via the formula: Discount = (Current fill level / Max Capacity - 0.5)^2 * (-0.6) + 0.15, multiplied by 2/3 for modules other than the Plasma Fabricator
 fog.upgrade.text.20=EBF heat bonuses are granted above 30,000K, but the heat value used in heat bonus calculations is determined by this formula: Power Forge Heat = 30000 + (Current Heat - 30000)^0.85, Melting Core Heat = 30000 + (Current Heat - 30000)^0.8
 fog.upgrade.text.21=Разблокирует множитель для максимальной параллели на основе общего количества приобретенных улучшений. Этот бонус рассчитывается по следующей формуле: Множитель = 1 + количество улучшения / 5
 fog.upgrade.text.22=Улучшает УГКГ на основе максимальной параллели. Улучшенная формула: Множитель = (1 / Тепло^0.01) / (Параллель^0.02)
@@ -1163,6 +1163,7 @@ gt.blockmachines.multimachine.FOG.recipes=Recipes Processed
 gt.blockmachines.multimachine.FOG.fuelconsumed=Потреблено единиц топлива
 gt.blockmachines.multimachine.FOG.extensions=Extensions Built
 gt.blockmachines.multimachine.FOG.shardgain=Graviton Shards gained
+gt.blockmachines.multimachine.FOG.payUpgradeCosts=Pay Upgrade Cost
 gt.blockmachines.multimachine.FOG.consumeUpgradeMats=Нажмите, чтобы использовать материалы для улучшения
 gt.blockmachines.multimachine.FOG.clickhere=Запутались? Нажмите здесь, чтобы получить общую информацию
 gt.blockmachines.multimachine.FOG.introduction=§NВведение
@@ -1214,7 +1215,15 @@ fog.cosmetics.color=Цвет
 fog.cosmetics.color.red=Красный
 fog.cosmetics.color.green=Зелёный
 fog.cosmetics.color.blue=Синий
+fog.cosmetics.color.hue=H
+fog.cosmetics.color.saturation=S
+fog.cosmetics.color.value=V
 fog.cosmetics.color.gamma=Гамма
+fog.cosmetics.color.rgb=RGB
+fog.cosmetics.color.rgb_colored=§cR§aG§9B
+fog.cosmetics.color.hsv=HSV
+fog.cosmetics.color.hsv_colored=§dH§6S§bV
+fog.cosmetics.color.hex=Hex:
 fog.cosmetics.selectcolor.tooltip.1=ЛКМ, чтобы выбрать этот цвет звезды
 fog.cosmetics.selectcolor.tooltip.2=Shift+ЛКМ, чтобы редактировать этот цвет звезды (цвет должен быть пользовательским)
 fog.cosmetics.starcolor=Пользовательский цвет звезды
@@ -1223,6 +1232,7 @@ fog.cosmetics.misc=Разное
 fog.cosmetics.spin=Вращение
 fog.cosmetics.size=Размер
 fog.cosmetics.animations=Анимации
+fog.cosmetics.animations.tooltip=May take a moment to refresh when toggled
 fog.cosmetics.cyclespeed=Скорость цикла между цветами
 fog.cosmetics.onlyintegers=Принимает целые числа
 fog.cosmetics.onlydecimals=Принимает десятичные дроби
@@ -1245,6 +1255,8 @@ fog.cosmetics.importcolors=Импорт
 fog.cosmetics.importcolors.tooltip=Импортировать цвет звезды из текста
 fog.cosmetics.exportcolors=Экспорт
 fog.cosmetics.exportcolors.tooltip=Сохранить экспортированный цвет звезды в буфер обмена
+fog.cosmetics.exportcolors.message=Copied exported Star Color to clipboard
+fog.cosmetics.exportcolors.failed=Could not copy exported Star Color to clipboard
 fog.cosmetics.importer.import=Импортировать цвет звезды
 fog.cosmetics.importer.error=Неверный цвет звезды
 fog.cosmetics.importer.valid=Действительный цвет звезды
