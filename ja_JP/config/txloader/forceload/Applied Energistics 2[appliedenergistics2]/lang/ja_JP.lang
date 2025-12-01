@@ -230,6 +230,9 @@ gui.appliedenergistics2.IOBuses=ME入力/出力バス
 gui.appliedenergistics2.Stores=貯めている
 gui.appliedenergistics2.BytesUsed=バイト使用済み
 gui.appliedenergistics2.TimeUsed=Time Used
+gui.appliedenergistics2.CraftName=Craft Name
+gui.appliedenergistics2.Remains=Remains
+gui.appliedenergistics2.Progress=Progress
 gui.appliedenergistics2.Types=タイプ
 gui.appliedenergistics2.Blank=空
 gui.appliedenergistics2.Unlinked=リンクされてません
@@ -345,6 +348,10 @@ gui.appliedenergistics2.Outputs=Outputs
 gui.appliedenergistics2.EncodedPattern=Encoded Pattern
 gui.appliedenergistics2.Deprecated=非推奨!まもなく削除されます!
 gui.appliedenergistics2.ViewCellToggleKey=Right-click to toggle
+gui.appliedenergistics2.CPUAllowMode=Accept request
+gui.appliedenergistics2.CPUAllowAll=All
+gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Only from non-player
+gui.appliedenergistics2.CPUOnlyAllowPlayer=Only from player
 
 gui.appliedenergistics2.NetworkBytesDetails=ネットワークのバイト数詳細
 gui.appliedenergistics2.Items=アイテム
@@ -399,6 +406,8 @@ gui.tooltips.appliedenergistics2.Encode=パターンの書き込み
 gui.tooltips.appliedenergistics2.EncodeDescription=Write the entered pattern to the current encoded pattern, or to available blank pattern. Hold Shift to transfer directly to your inventory. Hold Shift+Control to encode whole stack.
 
 gui.tooltips.appliedenergistics2.FuzzyMode=ファジーで比較
+gui.tooltips.appliedenergistics2.FZPercent_1=Split Damage at 1%
+gui.tooltips.appliedenergistics2.FZPercent_10=Split Damage at 10%
 gui.tooltips.appliedenergistics2.FZPercent_25=25%の耐久で分割
 gui.tooltips.appliedenergistics2.FZPercent_50=50%の耐久で分割
 gui.tooltips.appliedenergistics2.FZPercent_75=75%の耐久で分割
@@ -660,6 +669,15 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Locked by lack of
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Locked by redstone signal
 waila.appliedenergistics2.CraftingLockedUntilPulse=Waiting for redstone pulse to unlock
 waila.appliedenergistics2.CraftingLockedUntilResult=Waiting for results to unlock
+waila.appliedenergistics2.CoordinateX=X
+waila.appliedenergistics2.CoordinateY=Y
+waila.appliedenergistics2.CoordinateZ=Z
+waila.appliedenergistics2.Dimension=Dimension
+waila.appliedenergistics2.Id=id
+waila.appliedenergistics2.ConnectedTo=Connected to
+waila.appliedenergistics2.Disconnected=Disconnected
+waila.appliedenergistics2.Singularity=Singularity
+
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=§61k§r MEストレージセル
