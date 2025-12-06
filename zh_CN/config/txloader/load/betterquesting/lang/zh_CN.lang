@@ -127,7 +127,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQA.desc=如果你碰巧找到了雪原�
 
 # Quest: Loading the Chunks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.name=§9§l加载区块
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft是以区块为单位运作的 - 每个区块的范围是从基岩到天空的16x16区域。你周围的区块会被模拟，或者说被加载。如果一个区块没有被加载，在其内部任何事都不会发生 - 作物不会生长，机器不会工作。因此，当你需要外出探索时，让基地中的区块保持加载。之后即使你待在基地里，你也还是需要让区块保持加载，避免机器因加载问题而爆炸，尤其是多方块机器。%n%n你可以有多种方法保持区块加载。%n%n1）使用ServerUtilities。默认配置下，你无法加载区块。如果你在单人模式或私人服务器内游玩，可以随意修改配置。%n%n2）使用四种RC的锚。虽然你得到LV阶段以后才能制造它们。在单人模式或是私人服务器中，你可以通过作弊获取管理员世界锚，免费永久加载区块。在公共服务器上，为了防止长时间不上线玩家基地持续加载而大幅降低TPS，这些是被限制的。在我们的官方服务器中，这些锚需要消耗末影碎片、末影珍珠或是区块加载器硬币。请查看tooltip，获知它们在什么锚中分别有多长的工作时间。%n%n3）使用某种能加载自身所在区块的方块，这里就不列了。如果在公共服务器上，没有经过管理员允许就大量使用此类方块，那他可能会给你点颜色看看了。就算是某些原版方式也不行。%n%n不要使用chicken-chunks来获取类似锚的方块，它的bug非常多。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALOg.desc=Minecraft是以区块为单位运作的——每个区块的范围是从基岩到天空的16x16柱形区域。你周围的区块会被模拟，或者说被加载。如果一个区块没有被加载，在其内部任何事都不会发生——作物不会生长，机器不会工作。因此，当你外出探索时，最好让基地中的区块保持加载。在后续游玩中，为了避免机器（特别是多方块机器）不会一齐罢工，你也需要维持区块加载。%n%n有多种方法可以保持区块加载。%n%n1）ServerUtilities模组。默认配置下，你无法加载区块。如果你在单人模式或你自己的服务器内游玩，可以随意修改配置。%n%n2）使用四种Railcraft锚。虽然你得到LV阶段以后才能制造它们。在单人模式或你自己的服务器中，你可以通过作弊获取管理员世界锚，免费、永久地加载区块。在公共服务器上它们的使用受到了限制，这是为了防止长时间不上线玩家基地持续加载而大幅降低TPS。在我们的官方服务器中，这些锚需要消耗末影碎片、末影珍珠或是区块加载器硬币。请查看tooltip，获知它们在什么锚中分别有多长的工作时间。%n%n3）使用某些能加载自身所在区块的方块。在公共服务器上，如果你未经允许就大量使用此类方块，管理员大概要给你点颜色看看了。就算是原版方法也一样。%n%n不要使用chicken chunks来获取类似锚的方块，它的bug非常多。
 
 # Quest: Permanent Offhand!
 betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.name=§9§l永久的副手栏！
@@ -834,7 +834,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZw.desc=这种背包牺牲了一部分�
 
 # Quest: Pumping Water
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJjg.name=§3§l抽水
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJjg.desc=RC的蓄水槽无法满足你干渴的双唇? 或是你选择的基地生物群系湿度太低? 这个泵只需极少的可燃物消耗(如褐煤)即可产出更多的水.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJjg.desc=RC集水器无法满足你干渴的双唇？或是生物群系湿度太低？这个泵只需消耗一点可燃物（比如你的褐煤）即可产出更多的水。
 
 # Quest: Barrel Upgrades Tier 3
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALXg.name=§3§l桶升级 T3
@@ -2726,7 +2726,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALpA.desc=EV高压釜用于处理钨以�
 
 # Quest: Power of the Sun from Nuclear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.name=§a§l来自核能的太阳之力
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=你的老伙计单方块分子重组仪已经一去不回了.那么如何获取阳光化合物呢? 有几种方法,不过在EV阶段,你只有让荧石在核电中接受辐射,再将其转化为阳光化合物这一条路.%n%n将荧石燃料棒放置在IC2反应堆中的任意燃料棒旁,荧石燃料棒会缓慢充能.充能速度为每秒`(相邻燃料棒数量)*(向下取整(当前堆温/3000)+1)`.在此情况下,一根二联燃料棒等于两根燃料棒,而一根四联燃料棒等于四根燃料棒,荧石燃料棒不会产生热能,也不会使其他组件产生热能,在IC2核电模拟器中,你可以将荧石燃料棒当成反应堆隔板.%n%n正如你所见,充能速度是直接与堆温和燃料棒数量成正比的,在极端情况下,你可以在不到半分钟的时间内完全充能一根荧石燃料棒,并每10秒输出一个阳光化合物(平均来说,因为每个燃料棒的充能速度因其位置而异),但那会需要相当多的资源.还需要你用一台真空冷冻机来为冷却单元降温,并使反应堆在66000+的堆温下运行.明智地平衡你的资源和需求.不管怎样,如果你需要快速充能,这是一个在IC2核电模拟器上可行的方案:%n%nerp=bpO50cpsdtJElVqn4hObFJc0tiOE0JpEHYpqTxJHvyezjSKRjUuwgouXzNOlU4a3hFBRygM=%n%n将密封反应堆隔板替换为荧石燃料棒即可.你也可以减少隔板数量以适配更小的反应堆.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=你的老伙计单方块分子重组仪已经一去不回了。那么如何获取阳光化合物呢？有几种方法，不过在EV阶段，你只有让荧石在核电中接受辐射，再将其转化为阳光化合物这一条路。%n%n只要将荧石燃料棒放置在IC2反应堆中的任意燃料棒旁，它就会缓慢充能。充能速度为每秒（相邻燃料棒数量）*（向下取整（当前堆温/3000）+1）。在此情况下，一根二联燃料棒等于两根燃料棒，而一根四联燃料棒等于四根燃料棒。荧石燃料棒不会产生热能，也不会使其他组件产生更多热能。在IC2核电模拟器中，你可以将荧石燃料棒当成反应堆隔板。%n%n正如你所见，充能速度是直接与堆温和相邻燃料棒数量成正比的。在极端情况下，你可以在不到半分钟的时间内完全充能一根荧石燃料棒，并每10秒输出一个阳光化合物（平均值，每个燃料棒的充能速度因其位置而异），但那会需要相当多的资源来搭建。这种做法还需要你用一台真空冷冻机来为冷却单元降温，并使反应堆在66000+的堆温下运行。请明智地平衡你的资源和需求。不管怎样，如果你只想快速充能，这是一个在IC2核电模拟器上可行的方案：%n%nerp=bpO50cpsdtJElVqn4hObFJc0tiOE0JpEHYpqTxJHvyezjSKRjUuwgouXzNOlU4a3hFBRygM=%n%n将密封反应堆隔板替换为荧石燃料棒即可。你也可以减少隔板数量以适配更小的反应堆。玩得开心！
 
 # Quest: Four fluids in the one Hatch!
 betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.name=§a§l四种流体在一个仓里!
@@ -2847,19 +2847,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.desc=聚苯并咪唑（简称PBI）�
 
 # Quest: Nitration Mixture
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnA.name=§b§l硝酸混酸
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnA.desc=我们还需要硝酸混酸. 我们可以用硝酸和硫酸来制作.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnA.desc=我们还需要硝酸混酸。我们可以用硝酸和硫酸来制作。
 
 # Quest: 2-Nitrochlorobenzene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnQ.name=§b§l2-硝基氯苯
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnQ.desc=下一步是在化学反应釜中将硝酸混酸与氯苯搅拌,得到2-硝基氯苯.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnQ.desc=下一步是在HV化学反应釜中将硝酸混酸与氯苯混合，得到2-硝基氯苯。
 
 # Quest: 3,3 Dichlorobenzidine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGng.name=§b§l3,3-二氯联苯胺
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGng.desc=在EV化学反应釜中,将2-硝基氯苯与铜粉搅拌,得到3,3-二氯联苯胺.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGng.name=§b§l3,3'-二氯联苯胺
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGng.desc=在EV化学反应釜中，将2-硝基氯苯与铜粉混合，得到3,3'-二氯联苯胺。
 
 # Quest: 3,3 Diaminobenzidine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnw.name=§b§l3,3-二氨基联苯胺
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnw.desc=在IV化学反应釜中将3,3-二氯联苯胺与氨和锌搅拌,得到3,3-二氨基联苯胺.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnw.name=§b§l3,3'-二氨基联苯胺
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnw.desc=在IV化学反应釜中将3,3'-二氯联苯胺、氨和锌混合，得到3,3'-二氨基联苯胺。
 
 # Quest: Chemical Reactions at IV level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.name=§b§lIV化学反应釜
@@ -2867,11 +2867,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoA.desc=高级化学配方需要IV化�
 
 # Quest: Polybenzimidazole, Finally!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoQ.name=§b§l最后--聚苯并咪唑!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoQ.desc=3,3-二氨基联苯胺和间苯二甲酸二苯酯最终会制成熔融聚苯并咪唑. 使用板模具来获得聚苯并咪唑板.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGoQ.desc=3,3'-二氨基联苯胺和间苯二甲酸二苯酯最终会制成熔融聚苯并咪唑。使用板模具来获得聚苯并咪唑板。
 
 # Quest: Diphenyl Isophtalate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGog.name=§b§l间苯二甲酸二苯酯
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGog.desc=搅拌硫酸,邻苯二甲酸和苯酚得到间苯二甲酸二苯酯.需要IV化学反应釜.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGog.desc=混合硫酸，邻苯二甲酸和苯酚得到间苯二甲酸二苯酯。需要IV化学反应釜。
 
 # Quest: Phenol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGow.name=§b§l苯酚
@@ -2879,7 +2879,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGow.desc=你可以通过不同的方式�
 
 # Quest: Phthalic Acid
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpA.name=§b§l邻苯二甲酸
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpA.desc=要获得邻苯二甲酸,你需要在EV化学反应釜中混合邻二甲苯,重铬酸钾和氧气.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpA.desc=要获得邻苯二甲酸，你需要在EV化学反应釜中混合邻二甲苯，重铬酸钾和氧气。
 
 # Quest: Dimethylbenzene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpQ.name=§b§l邻二甲苯
@@ -2887,15 +2887,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpQ.desc=邻二甲苯可以用木焦油�
 
 # Quest: Potassium Dichromate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpg.name=§b§l重铬酸钾
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpg.desc=硝酸钾和三氧化铬在HV化学反应釜中反应可制得重铬酸钾.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpg.desc=硝酸钾和三氧化铬在HV化学反应釜中反应可制得重铬酸钾。
 
 # Quest: Potassium Nitrate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpw.name=§b§l硝酸钾
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpw.desc=硝酸钾由钾和硝酸制成.%n如果你有硝石,你也可以用它制成硝酸钾.%n%n硝酸钾只能被合成，然而硝石有多种不同的来源%n选择你想要的产线，只需一个硝酸钾粉即可完成此任务.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGpw.desc=硝酸钾由钾和硝酸制成。%n如果你有硝石，你也可以用它代替。%n%n硝酸钾只能通过合成获得，而硝石有多种不同的来源。%n选择你喜欢的一种，只需其一即可完成此任务。
 
 # Quest: Chromium Trioxide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqA.name=§b§l三氧化铬
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqA.desc=三氧化铬分两步由铬和氧制成. 你需要先制备出二氧化铬,然后才能制备出三氧化铬.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqA.desc=三氧化铬由铬和氧分两步制成。先制备二氧化铬，然后制备出三氧化铬。
 
 # Quest: Quantum Assembly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGqQ.name=§b§l量子集群
@@ -3239,7 +3239,7 @@ betterquesting.quest.CW9oIeA0ShWo7euZXUx72A.desc=将氯化钐粉与氯化钠粉�
 
 # Quest: The sane option
 betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.name=§b§l明智的选择
-betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.desc=所以你选择了明智的两步加工方案?%n%n很好的选择.%n%n开始时,你需要创建一个钛级化工厂,§n至少HV级机器外壳.§r  可以是 HV 级外壳,因为两个 HV 级能量仓可以将多方块机器超频到 EV 级.%n%n完成后,放入硼砂粉.然后在第二步中向你的钍粉中加入一些蒸馏水.%n%n然后,你就能轻松地获得钍 232 粉.
+betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.desc=所以你选择了明智的两步加工方案？%n%n很好的选择。%n%n要开始，你需要搭建一个钛化工厂，§n至少HV机器外壳。§r可以是HV机器外壳，因为两个HV能源仓可以将多方块机器超频到EV。%n%n完成后，放入硼砂粉，然后在第二步中向你的钍粉中加入一些蒸馏水。%n%n然后，你就能轻松地获得钍232粉。
 
 # Quest: Intradimensional Input buses
 betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.name=§b§l一个维度，一套输入总线
@@ -6918,7 +6918,7 @@ betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.desc=这台多方块机器是获取�
 
 # Quest: Can it!
 betterquesting.quest.gMRufFtRRRa30LE21boFNQ.name=把它装进罐子里！(Can it!)
-betterquesting.quest.gMRufFtRRRa30LE21boFNQ.desc=如果您曾经需要等待装罐机来装满锡罐,或者等待流体灌装机来制造成吨的冷却单元,那么请考虑下涡轮装罐机Pro.当您决定需要它时,这台多方块机器可以同时充当这两种机器,并具有显著的优势!
+betterquesting.quest.gMRufFtRRRa30LE21boFNQ.desc=如果您曾经需要等待装罐机来装满锡罐，或者等待流体灌装机来制造成吨的冷却单元，那么请考虑下涡轮装罐机Pro。当您决定需要它时，这台多方块机器可以同时充当这两种机器，并具有显著的加成！
 
 # Quest: High Voltage Multiblocks
 betterquesting.quest.pKSx6HEUS0WkL6qkwo742g.name=高压阶段的多方块结构
@@ -8792,7 +8792,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfA.desc=T1/T2火箭可以选择用RP-1�
 
 # Quest: Coal Tar Distilling
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.name=§9§l煤焦蒸馏
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.desc=下一级的火箭燃料是密集肼，让我们从邻苯甲酸开始制造它。%n%n有两种方法能制取邻苯二甲酸。此任务将介绍其中一种，而另一种将在IV章节中介绍。不过，我们不仅需要煤焦用于生产邻苯二甲酸，还需要它来生产蒽！%n%n想要蒸馏获得煤焦，你需要先准备一下。使用工业焦炉或热解炉，处理木炭、褐煤、煤或焦煤。%n%n由于你需要多种产物，所以使用蒸馏塔吧。除了石脑油以外，其他所有产物都可用于制造火箭燃料。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfQ.desc=下一级的火箭燃料是密集肼，让我们从邻苯二甲酸开始制造它。%n%n有两种方法能制取邻苯二甲酸。此任务将介绍其中一种，而另一种将在IV章节中介绍。不过，我们不仅需要煤焦用于生产邻苯二甲酸，还需要它来生产蒽！%n%n想要蒸馏煤焦，你需要先做一些。为此，可以使用工业焦炉或热解炉处理木炭、褐煤、煤或焦煤。%n%n由于你需要多种产物，所以使用蒸馏塔吧。除了石脑油以外，其他所有产物都可用于制造火箭燃料。
 
 # Quest: Dense Hydrazine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKfg.name=§4§l密集肼
@@ -14355,7 +14355,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACjw.desc=重力胸甲是集成了高能�
 
 # Quest: Moron's Manual to Fecund Farms
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.name=农场"智者"手册
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.desc=如果你想知道如何种植作物,你看这页就对了!拿起锄头和鹤嘴锄取得一些作物(或作物架)和种子.你也可以把一些植物和浆果直接放在作物架上.最好的初始植物是花、小麦、仙人掌和甘蔗.%n%n接着使用你的工具耕块田,并在田中央放上水源. 建议开垦许多3x1大小的田且相互之间隔离,并且能能够同时看到每块3x1田地的中心.如下所示:%n田田田土土土田田田%n土土土田田田土土土%n田田田土土土田田田%n土土土田田田土土土%n田田田土水土田田田%n土土土田田田土土土%n田田田土土土田田田%n土土土田田田土土土%n田田田土土土田田田%n现在将作物架放在3x1田地的两端,接着放些种子到作物架上,然后等一会.%n%n等作物架上的作物完全成熟后,你可以试试在中间放上双重作物架(杂交架)——在成熟作物旁的空作物架,再插上一个作物架.%n%n如果你运气够好,你可以获得一些将来可以被扫描的新型未知种子.%n%n记得,使用你的铲子把作物架上的杂草处理掉,否则它们会四处长满你的田地.%n%n使用3x1大小的田可以降低你的工作量.每5-10分钟检查一次,清除杂草,收集新种子.即使你忘记了,也只会损失一两颗种子.%n%n如果你杂交出了某些稀有种子,可以另外开辟3x3或5x5的田地,把稀有种子种在中间，旁边放上三围较高的种子,杂交改良它的属性.但你得更加留心,因为这样一旦长杂草就可能会毁了整块育种田.%n%n请注意,杂交架边的作物越多,新作物就越容易长出来,显然作物数上限为4.同时这也是繁殖同种作物的方法,IC2不像农业工艺(Agricraft)只需通过单个作物剪枝即可快速繁殖.%n%n若是杂交产生了新作物,别把它留在密集的田地里.左键作物架将其拔起,运气好的话能获得种子袋.在3x1的种子生产田种植不需要特殊照顾的三围较低的作物.留下高三围的作物种子,以备进一步杂交.%n%n杂交只会发生在周围有两个及以上成熟作物的杂交架里.你有很高的几率获得与父本母本相同的作物,余下个位数的几率,作物可能发生突变,产生新的作物.参考IC2作物分析仪任务获知更多细节.%n译者注:抗性过高会降低杂交几率,可以使用生长较快的作物自交培育出三围较高的作物,如黏性甘蔗,然后将使用低三围作物杂交出的稀有种子与高三围作物杂交,改良稀有种子的属性.%n译者再注:不要无限提升作物的生长属性,当生长值大于等于24时,作物将获得类似杂草的属性,疯狂地使临近空作物架滋生杂草,相信我,这会是一场灾难.所以讲生长属性控制在21或以下,至于为什么,涉及到杂交机制问题,这里太小写不下,简而言之,两个21属性的作物杂交产生的新作物生长属性不会超过23.收获属性可以堆到最高31,至于抗性,我至今没发现它有啥用,该长杂草照样长.另外,高三围作物要求必须保持水分充沛,否则种下后会消失,并留下空的作物架,所以你需要一台作物监管机.%n%n当杂交架与两种或两种以上近乎成熟的作物相邻时,杂交就有可能发生.%n译者三注:不推荐使用两种以上作物杂交,使用IC作物分析仪的作物计算器模式你就会发现,使用两种以上作物杂交出稀有作物的几率极低.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACzg.desc=如果你想了解如何育种，看这页就对了！先用锄头或鹤嘴锄耕作，获取一些作物——我是说作物架——和种子。一些植物和浆果可以直接放在作物架上。花、小麦、仙人掌和甘蔗是值得尝试的初始植物。%n%n用你的工具耕一片田，并在田中央放上水源。在当前阶段，建议开垦一些3x1大小的田，彼此以圆石或泥土隔离。最好保证你能一次性看到一列3x1田的中心，类似下面这种排布：%n田田田土土土田田田%n土土土田田田土土土%n田田田土土土田田田%n土土土田田田土土土%n田田田土水土田田田%n土土土田田田土土土%n田田田土土土田田田%n土土土田田田土土土%n田田田土土土田田田%n在3x1田地的两端放上作物架，再把种子种到作物架上，然后开始等待。%n%n等作物架上的作物快要完全成熟时，在田地中间放上双重作物架（杂交架）——也就是要把作物架放在作物架上。新的作物（甚至可能是新品种作物！）会从中间长出来。%n%n如果你运气够好，你可以获得一些新的未知种子，以供后续扫描。%n%n你需要用泥铲或铲子处理掉作物架上的杂草，否则它们会长满整块田。%n%n3x1大小的田既简单也不费神。只需每5-10分钟检查一次，清除杂草，并收集新种子。即使你忘记了，也只会损失一两颗种子。%n%n如果你杂交出了一颗很好的种子，可以用3x3或5x5大小的田，把这袋种子种在中间，用四周的植株与其杂交。但你得更加留心，因为一旦长杂草就可能会毁了这整块育种田。%n%n请注意，杂交架旁边的作物越多（显然，最多有4株），新作物出现得越快。这也是繁殖同种作物的方法——你不能像农业工艺（Agricraft）一样，用一株作物进行繁殖。%n%n别把杂交产生的新植株留在密不透风的杂交田里。左键将其拔起，运气好的话能获得一个种子袋。把三围较低的种子种到无需特殊照料的生产田里。留下高三围的作物种子，以备进一步杂交。%n%n杂交只会发生在周围有两株以上近成熟作物的杂交架里。你有很高的几率获得与父本/母本同种的作物。余下的情况则是发生突变，产生新品种植株。更多细节详见IC2作物分析仪任务。%n%n[note]译者注：抗性属性过高会降低杂交几率，但该长杂草照样长。生长属性过高（大于23）会使临近空作物架疯狂地滋生杂草，将生长属性控制在21以下可以保证子代生长属性不高于23。收获属性可以堆到最高31。可以使用生长较快的作物自交培育出三围较高的作物，然后将稀有种子与高三围作物杂交，改良稀有种子的属性。种植高三围作物必须保持水分充沛，否则种下后会消失，并留下空的作物架，所以你需要一台作物监管机。不推荐使用两种以上作物杂交，使用IC作物分析仪的作物计算器模式可以发现，使用两种以上作物杂交出稀有作物的几率极低。[/note]
 
 # Quest: Dark Steel Tool and Weapon Basic Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5g.name=§9§l玄钢工具和武器的基础升级
@@ -14411,7 +14411,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAERw.desc=如果你找到了足够多的�
 
 # Quest: Moron's Guide to Better Trees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.name=种树"智者"手册
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.desc=林业的树有多种属性.  当你获得一株具有某条优秀属性的树后,你可以将这条属性培育到其他树身上.用这种方法,你可以获得一棵终极之树,拥有所有你需要的属性-包括所结水果类型!要是你的科技已经发展到较高水平,还可以制造基因工业的机器辅助树苗培育.%n%n[warn]由于蝴蝶会严重影响TPS,请在室内或者地下进行你的林业树木培育工作.[/warn]%n%n请记住,当你要完成这些杂交树任务,需要提交的是"纯种"的树,"杂种"树可不行.你或许应该进行保留性杂交,直到获取了所有好属性为止.%n%n想要快速培育树苗的话,你得将它封闭起来,这样蝴蝶就跑不出去了,并且还能培育具有更好活动范围和授粉特性的蜜蜂.如果你尤有余力,还可以使用框架. 要是你能造一个蜂箱组的话,筛滤(花粉收集)会有一定帮助. 你需要蜜蜂或蝴蝶来帮助树木授粉. %n%n树具有以下属性:%n§e树苗/生育能力(S)§r: 破坏树叶获得树苗的几率. 高树苗掉率有利于制造生物质或其他用途. 巴尔杉树,有很高的树苗值,由鹅莓树和枫香树杂交培育而来.%n%n等位基因    掉落几率%n最低        1％%n较低        2.5％%n低          3.5％%n平均        5％%n高          10％%n%n[warn]成熟(M)[/warn]: 树苗长成树的速度.要是你想快速获得大量原木,这个参数很重要. 金树莓的成熟速度为最快.%n%n等位基因    长成时间%n最慢        10%n较慢        7%n慢速        5%n平均        4%n快速        3%n较快        2%n最快        ?%n%n§d高度(H)§r: 控制树木的生长高度.丛林木的高度已经很高了,但如果你想要最高的树,这里有获得黄檀树的指南.有传言说,罕见的村民拥有巨大的红杉树苗,能够伸入云端...可能有点§o太§r高大了.%n%n等位基因    高度值%n最小        25％%n较小        50％%n小          75％%n平均        100％%n大          125％%n较大        150％%n最大        175％%n巨大        BIG%n%n§b干围(G)§r: 树的宽度. 越宽的树有越多的原木与树叶,但也需要越多的树苗才能开始生长.所有树苗必须同种,且具有相同干围.西北角的树苗决定了新树的状态,而且是催生时骨粉的使用点.核桃初始就提供了2x2干围. 黄檀树的干围同样是最大的.%n%n等位基因    尺寸%n1x1%n2x2%n3x3%n4x4 %n%n产量(Y): 破坏树叶获得果实的几率. 苹果树和辣椒的产量是最高的.%n%n等位基因    掉落几率%n最低        2.5％%n较低        5％%n低          10％%n平均        20％%n高          30％%n较高        ?％%n%n§6多汁(S)§r: 在林业的发酵机中,每个树苗可产生的生物质量.你可以用蜂蜜或果汁来提高发酵机的出产. 高槿树和红花槭具有最高的多汁属性. 在NEI中无法查询被分析过的树苗以及"杂种"的树苗在发酵机中的合成配方.§r%n%n等位基因    生物质(林业)%n最低        100mB%n较低        200mB%n低          300mB%n平均        400mB%n高          600mB%n%n[warn]耐火[/warn]: 这条属性适用于原木. 只有海岸红杉和巨杉拥有耐火属性.%n%n§7特殊效果§r: 所有树都没有特殊效果.%n%n下面是关于其他参数的信息:%n%n§2生长§r: 绿心樟树是唯一的例外,它要求的不是光照而是热带环境,只能在温度90％-190％,且湿度90％-200％的生物群系种植,而生长条件更加苛刻,需要120％-190％的温度,与90％-200％湿度. 剩余所有树种,都仅需光照即可生长.%n%n[note]土壤[/note]: 所有树种都一样平均,无论这意味着什么. 可能有某种东西与下方土壤有关,但并没有后续开发.%n%n§e耐受§r: 是否可以在沙地上种植. 只有沙漠刺槐和猴面包树有沙地耐受属性. 这条属性只有两种:平原或平原+沙漠.%n%n§5结果§r: 理论上树木会结什么果.由物种决定. 树木只会结出在这条属性下同族的果实,而与树木在果实(F)属性下显示的无关.更多树(Extra-Trees)mod的树种支持所有四种类型,但没有来自林业本身的.%n%n§a果实(F)§r: 决定树木出产的水果或坚果. 每种水果/坚果有不同的增益:%n李子和樱桃李只出产100L果汁,但在流体提取机或榨汁机中有60％的几率出产覆盖物.%n木瓜可出产600L果汁,但覆盖物的产率仅为10％.%n椰子出产300L种子油,出产覆盖物的几率为25％.%n使用林业的多方块农场,可以让你免于手动破坏树叶获取水果/坚果. 将其模式设置为手动果园,然后将所有东西都摆好.%n%n§b族群§r: 告诉你在果实属性下面列出的水果/坚果所属的族群是什么: 梨果族、梅果族、坚果族或丛林.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWw.desc=林业的树有多种属性。当你获得一棵具有某条优秀属性的树后，你可以将这条属性移植到其他树身上。用这种方法，你可以获得一棵终极之树，拥有所有你需要的属性——包括所结的水果类型！要是你已经能制造基因工业（Gendustry）的机器，还可以用它们辅助树苗培育。%n%n[warn]由于蝴蝶会严重影响TPS，请在室内或者地下进行你的林业树木培育工作。[/warn]%n%n请记住，完成杂交树任务所需提交的是“纯合”的树，“杂合”的树可不行。你或许应该进行保留性杂交，直到获取了所有好属性为止。%n%n想要快速培育树苗的话，首先将其封闭起来，这样蝴蝶就跑不出去了，然后培育活动范围和授粉特性更良好的蜜蜂。还可以使用框架——如果你做得起它们的话。要是你能造一个蜂箱组，并且想更精准地进行培育，筛滤（花粉收集）会有一定帮助。树木不能主动地相互授粉，你需要蜜蜂或蝴蝶来帮助树木授粉。%n%n树具有以下属性：%n§e树苗/生育能力（S）§r：破坏树叶获得树苗的几率。高树苗值有利于将树苗用于生物质制造或其他用途。你想要的应该是巴尔杉树、醋栗树和枫香树。%n%n等位基因    掉落几率%n最低        1%%%n较低        2.5%%%n低          3.5%%%n平均        5%%%n高          10%%%n%n[warn]成熟（M）[/warn]：树苗长成树的速度。如果你打算在树木长成后马上砍伐它获取原木，这个参数很重要。金树莓的成熟速度为最快。%n%n等位基因    长成时间%n最慢        10%n较慢        7%n慢速        5%n平均        4%n快速        3%n较快        2%n最快        ?%n%n§d高度（H）§r：决定树木的高度。巨杉的数值最好，只是可能有点§o太§r高大了。%n%n等位基因    高度值%n最小        25%%%n较小        50%%%n小          75%%%n平均        100%%%n大          125%%%n较大        150%%%n最大        175%%%n巨大        BIG%n%n§b干围（G）§r：树的粗细。越粗的树有越多的原木与树叶，但也需要更多的树苗才能开始生长。必须使用同种且干围相同的树苗。西北角的树苗决定了新树的状态，催长时也应在此处施用骨粉。在这一属性上，巨杉仍然是最优的。%n%n等位基因/尺寸%n1x1%n2x2%n3x3%n4x4%n%n产量（Y）：破坏树叶获得果实的几率。苹果树和辣椒的数值最高。%n%n等位基因    掉落几率%n最低        2.5%%%n较低        5%%%n低          10%%%n平均        20%%%n高          30%%%n较高        ?%%%n%n§6多汁（S）§r：在林业的发酵机中，每个树苗可产生的生物质量。你可以用蜂蜜或果汁来提高发酵机的产率。高槿树和红花槭具有最高的多汁属性。在NEI中无法查询被分析过的树苗在发酵机中的合成配方（“杂合”树苗大概也如此）。%n%n等位基因    生物质（林业）%n最低        100mB%n较低        200mB%n低          300mB%n平均        400mB%n高          600mB%n%n[warn]耐火[/warn]：这条属性适用于原木。只有海岸红杉和巨杉拥有耐火属性。%n%n§7特殊效果§r：所有树都没有特殊效果。%n%n下面是关于其他参数的信息：%n%n§2生长§r：绿心樟树是唯一的例外，它要求的不是光照而是热带环境，只能培育于温度为90%%-190%%，且湿度为90%%-200%%的生物群系，只能在120%%-190%%的温度和90%%-200%%的湿度下生长。剩余所有树种，都仅需光照即可生长。%n%n[note]土壤[/note]：所有树种都为“平均”，无论它是什么意思。也许与下述几条参数有关，但这一参数从未被真正的使用过。%n%n§e耐受§r：是否可以在沙地上种植。只有沙漠刺槐和猴面包树可以耐受沙地。这条属性只有两种取值：平原或平原+沙漠。%n%n§5结果§r：理论上树木会结什么果。由物种决定。树木只可能结出这条属性列出的类型的果实，而与树木在果实（F）属性下显示的值无关。有些更多树（Extra Trees）模组的树种支持所有（四种）类型，但林业本体没有这样的树。%n%n§a果实（F）§r：决定树木出产的水果或坚果。每种水果/坚果有不同的长项：%n李子和樱桃李只产出100L果汁，但在流体提取机或榨汁机中有60%%的几率出产覆盖物。%n木瓜可产出600L果汁，但覆盖物的产率仅为10%%。%n椰子可产出300L种子油，但产出覆盖物的几率仅为25%%。%n使用林业的多方块农场，可以让你免于手动破坏树叶获取水果/坚果。将其模式设置为手动果园，然后将所有东西都摆好。%n%n§b族群§r：告诉你果实属性中列出的水果/坚果所属的族群是什么：梨果族、梅果族、坚果族或是丛林。
 
 # Quest: Firestone Ore/Dust
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§l火石矿/粉
@@ -14443,7 +14443,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeQ.desc=动能发电机的兼容性得�
 
 # Quest: GT6-Styled Pipes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeg.name=§2§lGT6型管道
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeg.desc=也许你在想为什么现在的管道不总是自动连接了？这是为了让管道更加的聪明. 现在在安装管道之后,你可以使用扳手来手动连接你想要的管道.你不再需要使用板或者箔来防止管道之间的连接了.如果你对准另一个管道放置管道,他们还是会自动连接的.%n%n输送温度超过一定值的流体(比如蒸汽)的管道,会对触碰它的玩家造成伤害. 所以你还是得用覆盖板把炽热的管道包住,防止自己被烫伤! 另外,如果输送的流体温度超过了管道的温度上限,管道将会被融化(一般是等离子体).%n%n手持扳手,右键管道显示的'网格'中心,可启用或禁用连接.如果已启用连接,那一个会有一个'X'. 4角的网格是控制背面的.而剩下的4个长条网格是控制其相邻侧面的.%n%n管道内置一个免费的小型扇板,减少内部流体来回流动.手持扳手Shift右键可设置禁止输入端.%n%n管道每秒会尝试转移其容量的一半两次,也就是说每秒可以转移其完整容量.%n%n大型或者巨型流体管道可以作为一种廉价的流体存储器,可在内部保存大量的流体.%n%n机器的输出端、锅炉和RC集水器/蓄水器(通过底部的阀门)无需泵即可自动输出液体.但是另外的其他储罐就需要泵或是匠魂排液口来移动液体了.%n%n你也可以在管道上放置覆盖板,例如GT橡木板或各种金属板.通常,覆盖板会阻止该方向的管道连接,但你也可以用螺丝刀来启用连接.这可以使你让管道穿过墙壁时看起来更美观. 使用撬棍移除覆盖板.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEeg.desc=也许你在想，为什么现在的管道不总是自动连接了？这是为了让管道更加“智能”。现在，你可以使用扳手将管道按你想要的方式连接，而不再需要使用板或者箔来阻止管道互相连接了。如果你对准一截管道放置管道，它们还是会自动连接的。%n%n输送温度高于特定值的流体（比如蒸汽）的管道，会对触碰它的玩家造成伤害。所以，你可能得用覆盖板把炽热的管道包住，防止自己被烫伤。另外，如果输送的流体温度超过了管道的温度上限，管道将会被融化。%n%n手持扳手，右键管道上的“网格”中心，可启用/禁用此面的连接。启用了连接的面会以“X”标识。网格的四个角可以控制背面（任意一角均可），而四条边可以控制对应的侧面。%n%n管道内置免费的扇板功能，可以抑制内部流体来回流动。手持扳手Shift右键，可禁止流体从该面输入。%n%n每秒两次，管道会尝试转移其容量之半，也就是说每秒可以转移其容量量的流体。%n%n大型或者巨型流体管道可以作为一种廉价的储罐，因为它们可以在内部保存大量的流体。%n%n机器的输出端、锅炉和RC集水器无需泵即可自动输出流体。但是其他储罐需要泵或者匠魂排液口来转移流体。%n%n管道上可以放置覆盖板，例如各种材料板或GT橡木板。通常，覆盖板会阻断该方向的管道连接，但你也可以用螺丝刀来启用连接。这可以让管道穿过墙壁时看起来更美观。移除覆盖板需要使用撬棍。
 
 # Quest: Magnalium Crossbow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfg.name=§5§l镁铝合金弩
@@ -14495,7 +14495,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3A.desc=更好的任务（Better Questi
 
 # Quest: Backup Your Stuff...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.name=§9§l备份你的存档…
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.desc=整合包加入了ServerUtilities模组用于备份你的存档。你可以在它的配置文件'.minecraft\serverutilities\serverutilities.cfg'中调整备份文件路径、备份频率、保留的备份数量等等。%n%n如果你需要从备份中还原，请到'.minecraft\backups'目录下寻找备份文件。%n%n需要注意的是，旅行地图和神秘时代节点追踪器的数据的存储位置不在存档中，因此不会被自动备份。请手动备份这些文件。%n%n神秘时代的数据备份也存在一些问题，可能导致已扫描的要素或者魔导手册的研究丢失，所以建议这部分内容也手动备份一下。文件路径为'saves\<worldname>\playerdata\<nameofplayer>.thaum'。%n%n如果你要把游戏迁移到另一个磁盘或者另一台电脑，不要忘记迁移所有的备份文件，而不只是World文件夹。%n%n[note]译者注：你可以到官方的wiki https://gtnh.miraheze.org/ 查看可添加的mod列表，同时进修你的游戏理解。wiki中有许多非常有用的信息，还有先行者的经验之谈，尤其对新手来说，不容错过。但要注意，官方的星门规则仅允许少量不影响游戏进程的mod，如果你想挑战星门规则，请在添加mod前仔细阅读规则。%n%n中文WIKI 可添加MOD：§9https://gtnh.huijiwiki.com/p/386§r[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.desc=整合包加入了ServerUtilities模组用于备份你的存档。你可以在它的配置文件“.minecraft\serverutilities\serverutilities.cfg”中调整备份文件路径、备份频率、保留的备份数量等等。%n%n如果你需要还原备份，请到“.minecraft\backups”目录下寻找备份文件。%n%n需要注意的是，旅行地图和神秘时代节点追踪器的数据的存储位置不在存档中，因此不会被自动备份。请手动备份这些文件。%n%n神秘时代的数据备份存在一些问题，可能导致已扫描的要素或者魔导手册的研究丢失，所以建议也手动备份一下这些内容。文件路径为“saves\<世界名>\playerdata\<玩家名>.thaum”。%n%n如果你要把游戏迁移到另一个磁盘或者另一台电脑，不要忘记迁移所有的备份文件，而不只是World文件夹。%n%n[note]译者注：你可以到官方的wiki https://gtnh.miraheze.org/ 查看可添加的mod列表，同时进修你的游戏理解。wiki中有许多非常有用的信息，还有先行者的经验之谈，尤其对新手来说，不容错过。但要注意，官方的星门规则仅允许少量不影响游戏进程的mod，如果你想挑战星门规则，请在添加mod前仔细阅读规则。%n%n中文WIKI 可添加MOD：§9https://gtnh.huijiwiki.com/p/386§r[/note]
 
 # Quest: Nobody Wants an Explosion...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.name=§6§l没有人想爆炸...
@@ -14559,7 +14559,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHQ.desc=有时候你只需要一个二�
 
 # Quest: Mushroom Biomes? Why Are There So Many?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKg.name=§9§l蘑菇岛？为什么有这么多蘑菇岛？
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKg.desc=GTNH整合包使用真实世界生成（Realistic World Generator，RWG）。%n%n如果你使用原版的世界生成，你将会得到不计其数的蘑菇岛。如果你遇到这个问题，你最好用RWG重新生成一个新的世界。%n%n如果你在服务器中遇到这个问题，将“level-type=rwg”添加到属性文件（server.properties）中，然后创建一个新的世界。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHKg.desc=GTNH整合包使用真实世界生成（Realistic World Generator）。%n%n如果你使用原版的世界生成，你将会得到不计其数的蘑菇岛。如果你遇到这个问题，请用真实世界生成重新生成一个新的世界。%n%n如果你在服务器中遇到这个问题，在“server.properties”文件中写入“level-type=rwg”，然后创建一个新的世界。
 
 # Quest: Moron's Manual for Massacring Monsters
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.name=§9§l怪物屠宰“智者”手册
@@ -14631,7 +14631,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZA.desc=你可以用原版的方式猎�
 
 # Quest: Numbers in the Corner?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.name=§9§l角落里的数字？
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.desc=那些角落里的一坨是什么？那是In-Game-Info（游戏内信息，IGI）。一些信息在当前很有用，而有些则会在之后的游戏进程中有用。%n%n目前，最重要的信息是判断你是否在矿脉中心区块。稍后的任务将详细讲解它的含义。%n%n如果你想隐藏IGI的信息，请在聊天框中输入“/igi disable”。如果想要再次打开，输入“/igi enable”。%n%n命令“/igi config”将打开配置界面，在这里你可以设置它的位置，字体大小等。%n%n命令“/xu_tps”将会打开Extra-Utilities的MSPT（每tick毫秒数）和TPS （每秒tick数）表。%nTPS是衡量你的服务器运行状况的指标。理想情况下TPS=20（意味着MSPT最多为50.00毫秒）。如果TPS低于15，将开始感觉到延迟。%nTPS低于10玩起来就不太爽了。%nTPS表里会显示三种类型的测量值：瞬时TPS、平均TPS以及最低TPS。每一组的数值都是以X(Y)的形式呈现的，X代表MSPT，Y代表TPS。如果你需要解决TPS问题的建议，请通过Discord与我们联系。%n%n虽然GTNH有推荐的默认设置，特别是在平衡方面，但还有许多命令和配置可以自定义您的体验。它们范围包含从辅助功能或调试工具到视觉效果定制甚至到各种作弊功能。你可以在wiki找到这些内容：[url]https://wiki.gtnewhorizons.com/wiki/Commands_and_Configurations[/url]。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZg.desc=角落里那一堆数字是什么？那是In-Game Info模组（IGI）。一些信息现在就很有用，还有些信息会在此后展现其作用。%n%n目前，最重要的信息是显示你是否位于矿脉中心区块。稍后的任务将详细讲解它的含义。%n%n如果你想隐藏IGI的信息，请在聊天框中输入“/igi disable”。输入“/igi enable”可再次启用它。%n%n“/igi config”命令会打开IGI的配置界面，你可以在此设置它的位置，字体大小等。%n%n“/xu_tps”命令可以开启/关闭Extra Utilities的MSPT（每tick毫秒数）和TPS （每秒tick数）显示。TPS是衡量你的服务器运行状况的指标。理想的TPS为20.00（即MSPT不超过50.00）。TPS低于15时你会感觉到明显延迟。TPS低于10时基本上就无法游玩了。%nMSPT/TPS显示包含三组值：瞬时值、平均值、最差值。每一组值都显示为“MSPT(TPS)”的形式。%n%n如果你想为解决TPS问题寻求建议，可以在GTNH Discord上寻求帮助。%n%n虽然GTNH有推荐的默认设置（特别是在游戏平衡方面），但还有许多命令和配置可以自定义您的体验。它们涵盖辅助功能、调试工具、视觉效果定制，甚至是各种作弊功能等等范畴。你可以在[url]https://wiki.gtnewhorizons.com/wiki/Commands_and_Configurations[/url]找到一份摘要。
 
 # Quest: Bringing the Biome to You
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJbw.name=我不去就山,让山来就我
