@@ -139,8 +139,8 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAALA.name=提示、技巧
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAALA.desc=我们所收集的一切智慧结晶，集于此处。无数格雷员工先驱的鲜血才换来这些弥足珍贵的知识。
 
 # Quest: Automating Power On/Off
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.name=§6§l自动开启/关闭电源
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=现在你的GT大型锅炉或是大型内燃引擎的启动时间很长,你可以将其自动化开关以节省燃料(多余的能量或蒸汽会被销毁).另外,蒸汽/EU的缓存越大,你的锅炉或引擎的启动频率就越低,这也可以提升效率.%n%n可以在锅炉控制器上使用机器控制覆盖板做到这一点,你可以将其放在顶部,底部,或挨着外壳 - 外壳可以传输红石信号.你可以用电烙铁加上细焊锡导线右键覆盖板,这样它就能发出强红石信号穿过相邻的机械方块了(也只能是机械方块!仓室或总线等无法传递信号),这在你想了解机器运行状态时比较有用(配合设备活跃探测覆盖板).%n%n通过机器控制覆盖板,你可以使用红石打开和关闭机器.如果你不想使用软锤来关闭机器,这会很方便.%n%n最好的方法是使用RS锁存器.一个输入将打开机器,一个输入将关闭机器.使用连接到阀门的比较器来测量多方块铁或钢储罐中的蒸汽水平.当蒸汽水平低时,反转信号以打开锅炉.当蒸汽水平很高时,关闭锅炉.可使用红石线来降低信号强度.由于锅炉/涡轮机有预热时间,尝试将开启的信号设置为容量的30％时发出,关闭信号设置为约90％时发出.%n%n红色合金丝相比普通红石可以使红石信号传递更长的距离(还能爬墙),而红石导管可以完全无损地进行信号传递,当然长距离传输信号时,增幅红晶也是不错的选择.%n%n你可以将能量探测覆盖板设置为"Normal-Electrical-Storage"(包括电池)模式,监控电池箱中的能量,并以类似的方式使用红石信号来开启/关闭发电机.使用螺丝刀更改模式.推荐使用钝化红晶进行信号阈值设置(它只允许大于或等于设定强度的红石信号通过),非常适合用于多方块机器控制.%n%n这里有视频版的教程: [url]https://www.youtube.com/watch?v=jPfnifJEO64[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.name=§6§l自动开关机器
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdg.desc=当你有了启动时间很长的GT大型锅炉或是大型内燃引擎后，你也许想自动化开启/关闭它们以节省燃料（因为多余的能量或蒸汽会被销毁）。另外，你的蒸汽/EU缓存越大，锅炉或引擎的预热时间占比就能越少，有助于提升效率。%n%n在控制器上使用机器控制覆盖板可以实现自动化开关。你可以将其放在顶部、底部，或挨着外壳——它们可用于传输红石信号。你可以用电烙铁和细焊锡导线将控制器的红石信号强度设置为“强”（右键点击）。强信号可以穿过单个机械方块，但无法穿过仓室、总线或其他方块。如果你想接收控制器发出的红石信号（配合设备活跃探测覆盖板）而非用红石信号开关它，可以用到这个技巧，%n%n利用机器控制覆盖板，你可以通过红石控制机器的开关。如果你不想频频使用软锤来手动关闭机器，这个技巧很好用。%n%n最好的方案是使用RS锁存器。其中一个输入端可以打开机器，另一个输入端可以关闭机器。用连接到阀门的比较器来检测多方块蓄水器中的蒸汽储量。反转信号，使得蒸汽储量低时发送信号启动锅炉。蒸汽储量高时则关闭锅炉。试着用较长的红石线来降低信号强度。由于锅炉/涡轮机有预热时间，可以试着在蒸汽储量为30%%时启用它们，在90%%储量时关闭它们。%n%n相比于常规的红石线，红色合金丝可以使红石信号传递更长的距离，而红石导管可以将其传至任意远。还可以用增幅红晶提升信号强度，增加传递距离。%n%n利用类似的方法，你可以将能量探测覆盖板设置为“常规”“电力缓存(含电池)”模式，监控电池箱中的能量，并据此开启/关闭发电机。可以使用螺丝刀更改模式。钝化红晶能够只让大于等于设定阈值的红石信号通过，非常适合这一场景。%n%n这里有视频版的教程：[url]https://www.youtube.com/watch?v=jPfnifJEO64[/url]
 
 # Quest: Underground Fluids
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.name=地下的流体
@@ -3536,7 +3536,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEw.desc=批量生产阳光化合物的�
 
 # Quest: Behold: The Netherite Line
 betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.name=§c§l接下来为您展现：下界合金处理线
-betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.desc=你不会真以为LuV只需要做硅岩处理吧？如果是，那你可得做好准备应对下界合金处理线了！%n%n别慌，只要你能搞懂小型加工循环和概率产出机制，这条生产线其实还算直接。任务手册也能引导你完成初期搭建。%n%n注意-你需要先获取§2§l一级净化水§r和§5§l硅岩线圈§r才能做出完整的下界合金处理线。%n%n§3本任务线将从你必须准备的三样核心物品开始，它们是开启后续流程的前提：%n%n§l- 研磨地狱岩%n- 一些远古残骸§r%n%n§3这三样物品中的至少一样、很可能是两样，都需要你前往下界获取，所以务必确保你的装备准备妥当！§r%n%n[warn]若你已自行搭建完生产线，且不想完成单个子任务，可在完成本任务后，手持以下任意一项物品即可跳过子任务：[/warn]%n%n§4§l- 1x 致密下界合金板%n​- 64x 强键合下界合金纳米颗粒%n- 16x 下界合金锭
+betterquesting.quest.AlYEP7f4T-KHgH8vicSXdg.desc=你不会真以为LuV只需要做硅岩处理吧？如果是，那你可得做好准备应对下界合金处理线了！%n%n别慌，只要你能搞懂小型加工循环和概率产出机制，这条生产线其实还算直接。还好，你有一本任务书，能引导你完成初始准备。%n%n注意-你需要先获取§2§l一级净化水§r和§5§l硅岩线圈§r才能做出完整的下界合金处理线。%n%n§3本任务线将从你必须准备的三样核心物品开始，它们是开启后续流程的前提：%n%n§l- 研磨地狱岩%n- 下界空气%n- 一些远古残骸§r%n%n§3这三样物品中的至少一样、很可能是两样，都需要你前往下界获取，所以务必确保你的装备准备妥当！§r%n%n[warn]若你已自行搭建完生产线，且不想完成单个子任务，可在完成本任务后，手持以下任意一项物品即可跳过子任务：[/warn]%n%n§4§l- 1x 致密下界合金板%n- 64x 强键合下界合金纳米颗粒%n- 16x 下界合金锭
 
 # Quest: Hellish Metal
 betterquesting.quest.JVZjTR4hRSaeaoXPvBcG9w.name=§c§l地狱金属
@@ -9440,11 +9440,11 @@ betterquesting.quest.0qhnm9tYQfmKHzWPUlb8iw.desc=要制作用于量子环的量�
 
 # Quest: Cribs
 betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.name=你这是在作弊!
-betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=随着您对"应用格雷"的研究不断深入,您找到了将 ME 接口的样板处理能力与输入总线相结合的方法,即"§l样板输入总线§r"!现在,您可以直接将样板放入样板输入总线.%n%n然而,样板输入总线有时缺乏足够的项目空间和计算能力来处理来自 ME 网络的项目.为此,您增加了额外的存储空间和虚拟编程电路槽位.您甚至可以在样板输入总线中放置透镜或模具等在配方中不消耗的物品!注意,消耗品在这个存储空间中将不会起任何作用%n%n但是,您仍然缺乏足够的技术来处理流体,那些流体对于电子元件来说相当棘手.%n%n样板输入总线与其他总线或仓室完全隔离,所以您可能在某些情况下不得不修改您的样板.%n%n[warn]样板输入镜像[/warn]允许您在不同的多方块结构中共用样板输入总线而无需真正的在结构中共用方块.§lUIV级§r%n%n[warn]样板输入总成[/warn]将会§9§o防水§r.§lUEV级§r%n(译注:即为样板输入总成可以放入带流体的处理样板)
+betterquesting.quest.4pCol8RvR3G0pS2zVqpY1Q.desc=随着你对“应用格雷”的研究不断深入，你找到了将ME接口的样板处理能力与输入总线相结合的方法，即§l样板输入总线§r！现在，你可以直接将样板放入样板输入总线。然而，样板输入总线有时缺乏足够的物品空间和计算能力，以便处理来自ME网络的物品。为此，你增加了额外的存储空间和虚拟编程电路槽位。%n%n你甚至可以在样板输入总线中放置透镜或模具等在配方中不消耗的物品！然而，会消耗的物品在这个存储空间中将不会起任何作用。%n%n但是，你仍然缺乏足够的技术来处理流体，那些流体对于电子元件来说相当棘手。%n%n样板输入总线与其他总线或仓室完全隔离，所以你可能在某些情况下不得不修改您的样板。%n%n[warn]样板输入镜像[/warn]允许你在不同的多方块结构中共用样板输入总线而无需真正的在结构中共用方块。§lUIV级§r%n%n[warn]样板输入总成[/warn]将会§9§o防水§r。§lUEV级§r%n%n[note]译注：样板输入总成可以放入带流体的处理样板。[/note]
 
 # Quest: Need More Information?
 betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.name=需要更多信息？
-betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.desc=为你准备了一个全新的工具，我的老伙计。%n%n这个小玩意有着比它普通版本更大的卡槽位置，还能显示更详细的网络存储相关信息。%n%n在GUI内点击左侧存储组件图标可以在"物品""流体"和"源质"之间切换展示相关信息。%n%n[warn]NOTE:%n|  unit  |      range   |%n|    B   |    0~2^10   |%n|   KB   | 2^10~2^20 |%n|   MB   | 2^20~2^30 |%n|   GB   | 2^30~2^40 |%n|   TB   | 2^40~2^50 |%n|   PB   | 2^50~2^60 |%n|   EB   | 2^60~2^70 |%n|   ZB   | 2^70~2^80 |%n|   YB   | 2^80~2^90 |%n|   BB   | over 2^90  |[/warn]
+betterquesting.quest.5ObFHI5BQ5Oxv0yca7morA.desc=为你准备的全新工具，我的老伙计。%n%n这个小玩意有着比它普通版本更大的卡槽位置，还能显示更详细的网络存储相关信息。%n%n在GUI内点击左侧存储组件图标可以在"物品""流体"和"源质"之间切换展示相关信息。%n%n[warn]NOTE:%n|  单位  |      范围   |%n|    B   |    0~2^10   |%n|   KB   | 2^10~2^20 |%n|   MB   | 2^20~2^30 |%n|   GB   | 2^30~2^40 |%n|   TB   | 2^40~2^50 |%n|   PB   | 2^50~2^60 |%n|   EB   | 2^60~2^70 |%n|   ZB   | 2^70~2^80 |%n|   YB   | 2^80~2^90 |%n|   BB   | 大于 2^90  |[/warn]
 
 # Quest: 16384k Fluid Component
 betterquesting.quest.5PUj-2T3QZOIq4a33qGXlA.name=16384K-ME流体存储组件
@@ -10112,7 +10112,7 @@ betterquesting.quest.cEFNSTdoRvysoNgmtDLdvg.desc=你已经掌握了跨维度物�
 
 # Quest: Level Maintainer
 betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.name=请求器
-betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.desc=ME请求器是AE2流体合成套件的又一实用功能。选择需要维持的物品或流体并设定目标数量，请求器将自动调用合成模板持续生产，直至达到预设阈值。您还可配置每批次的合成数量。%n%n[note]进行流体合成时，请放入液滴而非从NEI直接拖拽[/note]
+betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.desc=ME请求器是AE2流体合成套件的又一实用功能。选择需要维持的物品或流体并设定目标数量，请求器将自动调用合成样板持续生产，直至达到预设阈值。您还可配置每批次的合成数量。%n%n[note]进行流体合成时，请放入液滴而非从NEI直接拖拽。[/note]
 
 # Quest: 16384k Essentia Storage Cell
 betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16384k-ME源质存储元件
@@ -10140,7 +10140,7 @@ betterquesting.quest.pDcGv1OwTsueRoVXFZ6wHw.desc=在成功创造了一个能够�
 
 # Quest: Adv. Stocking Bus
 betterquesting.quest.qvZq59qRQ2C5Uzm7J7B4UA.name=进阶存储输入总线
-betterquesting.quest.qvZq59qRQ2C5Uzm7J7B4UA.desc=更好的存储输入总线!%n%n这个总线可从 ME 网络中自动拉取前16种物品,这对某些自动化来说非常有用.最小堆叠数和刷新时间可在UI中配置.%n%n[note]在主网络上使用此功能可能不是一个好主意.[/note]
+betterquesting.quest.qvZq59qRQ2C5Uzm7J7B4UA.desc=更好的存储输入总线！%n%n这个总线可从ME网络中自动拉取前16种物品，对某些自动化来说非常有用。最小堆叠数和刷新时间可在GUI中配置。%n%n[note]在主网络上使用此功能可能不是一个好主意。[/note]
 
 # Quest: 256k Essentia Storage Cell
 betterquesting.quest.s2TL3i06Tb2WvPvdt1utyg.name=256k-ME源质存储元件
@@ -10148,7 +10148,7 @@ betterquesting.quest.s2TL3i06Tb2WvPvdt1utyg.desc="它们"可以存储 524,288 �
 
 # Quest: Stocking Fluids
 betterquesting.quest.soyN9ODlQmmjrKEyKBNENA.name=存储输入仓(ME)
-betterquesting.quest.soyN9ODlQmmjrKEyKBNENA.desc=就像存储输入总线一样工作,但用于流体.%n%n[note]你只需要其中一个来完成任务.[/note]
+betterquesting.quest.soyN9ODlQmmjrKEyKBNENA.desc=就像存储输入总线一样工作，但用于流体。%n%n[note]你只需要其中一个来完成任务。[/note]
 
 # Quest: Even More Basic Cards! 
 betterquesting.quest.suQSf7Z-QICknl3I1RfymA.name=更多的基础卡！
@@ -14482,12 +14482,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.name=§9§l长夜漫漫，独身一�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1w.desc=感谢超棒的开发者们，现在更新游戏后你不再需要用命令方块重载任务书了。这意味着每次更新到新版本的GTNH后，你也会自动获得所有新任务！是不是很方便?%n%n如果出于某些原因你想要手动重载任务书，只需在聊天框输入“/bq_admin default load”即可。这需要管理员权限。%n%n这里还有一本任务书，以防你丢失了最初给你的那本。别忘了，你可以随时可以按下波浪号（~）键（如果你没有修改按键绑定）查看任务书。%n%n§3特定任务仍需要某些命令方块，但这些命令方块是管理员专用的，不涉及普通玩家，因此无法合成。
 
 # Quest: How the Heck Do I Find Ores?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.name=§2§l见鬼,我该怎么找到矿石？
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.desc=GregTech矿石生成基于矿脉。矿脉生成在固定的高度范围和水平矩形范围内。%n%n在x轴和z轴方向每3个区块就会生成一个矿脉。矿脉通常会以不同形式扩展到相邻的8个区块。但矿脉的中心点是非常规律的。它基于区块编号选取。屏幕左上角会显示区块编号。左上角的信息都来自于“InGame-Info-XML”mod，你现在只要看区块的部分，例如“区块X:3,Z:-2”%n%n3,-2是区块的地址编号。矿脉中心位于x和z轴编号满足3N+1形式的区块。所以，4,7是矿脉中心。还有10,16、-22,19等等。如果你正处于一个正确的矿脉中心区块，InGame-Info还会显示“此处为矿脉的中心区块”。%n%n另一个实用的工具是NEI的矿脉显示，你可以通过按F9三次打开它。它显示了3x3的区块范围，并用蓝色标记了中心点。%n%n矿脉生成可跟生物群系没有半毛钱关系哦。%n%n看在你一路读下来的份上，给你块铁锭吧。%n%n中文WIKI 矿脉与矿石：§1§n[url]https://gtnh.huijiwiki.com/p/231[/url]§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.name=§2§l见鬼，我该怎么找到矿石？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2A.desc=GT矿石以矿脉的形式生成。矿脉是高度一定的长方体。%n%n在x轴和z轴方向每3个区块就会生成一个矿脉。矿脉通常会延伸到相邻的8个区块，并且形状各异。但矿脉中心是非常有规律的。它基于区块坐标选取。屏幕左上角会显示区块坐标——这些信息来自于“InGame Info XML”mod。现在你要注意的是“区块坐标:  X: 3 Z: -2”这一部分。%n%n区块坐标记为3,-2。矿脉中心位于x、z坐标均为3N+1的区块。所以，区块4,7是矿脉中心，10,16、-22,19等等也是。如果你位于矿脉中心区块，InGame Info也会提醒你“你位于矿脉的中心区块”。%n%n另一个实用的工具是NEI的矿脉视图，你可以通过按三次F9打开它。它会显示3x3区块的范围，还用蓝色标记了中心点。%n%n矿脉生成跟生物群系无关。%n%n看在你一路读下来的份上，给你块铁锭吧。%n%n[note]中文WIKI 矿脉与矿石：§1§n[url]https://gtnh.huijiwiki.com/p/231[/url]§r[/note]
 
 # Quest: Digging Deeper
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2Q.name=§2§l深层发掘
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2Q.desc=你已经知道了什么是矿脉,那就一直挖到基岩,找出那里是否有矿脉.%n%n对于一种矿石,在NEI中可以找到哪些矿脉包含该矿石. 搜索并点击它就可以得到矿石的矿脉信息以及其他信息.%n%n有许许多多种类的矿石,即便只是为了获取一种材料,比如铁.所以不要死磕一种类型的矿石.%n%n贫瘠矿同样支持搜索功能,但并非所有贫瘠矿都支持.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2Q.desc=你已经了解矿脉区块是什么了，那就一直挖到基岩，搞清楚那里是否有矿脉吧。%n%n在NEI中查看某种矿石，可以得知哪些矿脉包含该矿石，以及在哪可以找到这些矿脉。在NEI里搜索矿石、点击矿石就可以了解上述（以及其他）信息了。%n%n矿石种类繁多，就算对获取单种材料（比如铁）来说也如此。所以不必局限于一种矿石。%n%n贫瘠矿也可以在NEI中搜索，但并非所有贫瘠矿都会生成。
 
 # Quest: Better Questing?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3A.name=§9§l更好的任务？
@@ -14498,12 +14498,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.name=§9§l备份你的存档…
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3Q.desc=整合包加入了ServerUtilities模组用于备份你的存档。你可以在它的配置文件“.minecraft\serverutilities\serverutilities.cfg”中调整备份文件路径、备份频率、保留的备份数量等等。%n%n如果你需要还原备份，请到“.minecraft\backups”目录下寻找备份文件。%n%n需要注意的是，旅行地图和神秘时代节点追踪器的数据的存储位置不在存档中，因此不会被自动备份。请手动备份这些文件。%n%n神秘时代的数据备份存在一些问题，可能导致已扫描的要素或者魔导手册的研究丢失，所以建议也手动备份一下这些内容。文件路径为“saves\<世界名>\playerdata\<玩家名>.thaum”。%n%n如果你要把游戏迁移到另一个磁盘或者另一台电脑，不要忘记迁移所有的备份文件，而不只是World文件夹。%n%n[note]译者注：你可以到官方的wiki https://gtnh.miraheze.org/ 查看可添加的mod列表，同时进修你的游戏理解。wiki中有许多非常有用的信息，还有先行者的经验之谈，尤其对新手来说，不容错过。但要注意，官方的星门规则仅允许少量不影响游戏进程的mod，如果你想挑战星门规则，请在添加mod前仔细阅读规则。%n%n中文WIKI 可添加MOD：§9https://gtnh.huijiwiki.com/p/386§r[/note]
 
 # Quest: Nobody Wants an Explosion...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.name=§6§l没有人想爆炸...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.desc=…是吧？因此在构建多方块时，请确保：%n%n1、不要跨区块。%n%n2、如果可以，不要依赖多方块所在区块之外的资源供应。确保你在当地供应水源。%n%n时刻注意电力机器不喜欢淋雨，否则他们就会着火。而这些火有几率引爆机器。这种爆炸还会引爆其他机器，造成连锁反应，直到你的基地变成一个大坑。这就是需要备份的原因之一。注意安全！%n%n如果最坏的情况已经发生了，可以到"logs/Explosion.log"文件里追踪是什么导致的爆炸。不过这个文件似乎会在世界加载时重置。%n%n译者注:机器六面中任何一面接触到雨,都可能会使附近着火从而引发爆炸!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.name=§6§l没有人想爆炸……
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF3w.desc=……对吧？所以，在搭建多方块机器时，请确保：%n%n1、不要跨区块。%n%n2、如果可以，不要依赖多方块机器所在区块之外的资源供应。确保就地供应水源。%n%n记住，电力机器不喜欢暴露于雨雪。雨雪会导致机器着火。而火有几率引爆机器。爆炸还会引爆其他机器，造成连锁反应，直到你的基地变成一个大坑。这就是需要备份的原因之一。注意安全！%n%n如果最坏的情况已经发生了，可以在“logs/Explosion.log”文件里追溯爆炸的起因。不过这个文件似乎会在世界加载时重置。%n%n[note]译者注：机器六面中任何一面接触到雨，都可能会使附近着火从而引发爆炸！[/note]
 
 # Quest: Not Enough Items - Now with Bookmarks and Recent History!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.name=§2§lNot enough items(NEI)-现在有书签和历史记录了!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.desc=更像Too-Many-Items(TMI)了! 以下是使用NEI的一些提示.%n%n当你打开物品栏时,可以在底部文本栏中输入搜索词. 请确保你的GUI大小设置正确,否则你将无法看到它. 双击该栏以突出显示背包及正在查看容器中的所有匹配物品.这在搜索黑曜石箱子,或者找某种看起来完全一样的矿石时非常有用!%n%n更妙的是,你可以对物品按T搜索附近的容器(键位可以自己设置),存有所找同种物品的容器会发出粒子效果.%n%n万一你忘记电路组装机放在哪里了,我们还提供了用Y来搜索世界上的机器功能.%n%n现在,我们有了一个新添加的书签功能!默认按键是A.书签会在物品栏左侧显示,你可以查看它们的合成配方或者像平常那样使用(译者注：R查看合成,U查看使用).如果想要移动书签位置,按住Shift鼠标左键拖动.你甚至可以使用Shift+A左键来标记整个配方中的所有物品或者使用Ctrl+Shift+A左键标记附带数量的配方中所有物品.%n%n按O会隐藏NEI信息,这在截图时很有用.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.name=§2§lNot enough items（NEI）现在有书签和历史记录了!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4Q.desc=物品并非不足（not enough），而是太多了！以下是关于NEI使用的几条小贴士。%n%n当你打开物品栏时，可以在底部文本栏中输入搜索词。请确保GUI大小设置妥当，否则会看不到它。双击该栏可以高亮显示背包（或者你正在翻找的其他容器）中所有匹配搜索结果的物品。这在寻找特定矿石时非常有用，因为它们长得都一个样！%n%n更妙的是，对物品按T可以在附近的容器中搜寻它，存有该物品的容器会放出粒子效果。%n%n万一你忘记进阶电路组装机放在哪里了，我们还提供了用Y键来搜索世界中（即方块形式的）机器的功能。%n%n现在，我们还有超酷的书签功能！默认按键是A，在NEI设置界面可以修改。书签显示在物品栏的左侧，你可以查看它们的合成配方，也可以把它们当做常规NEI物品使用。如果想要移动书签的位置，按住Shift+左键拖动。你甚至可以用Shift+A标记整个配方，或者使用Ctrl+Shift+A标记附带数量的配方。%n%n按O可以隐藏NEI，这在截图时很有用。
 
 # Quest: NEI is More Powerful Than You Imagine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4g.name=§2§lNEI比你想象的更强大
@@ -14566,7 +14566,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.name=§9§l怪物屠宰“智者”�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.desc=可能你还没注意,这个世界是一个真正的地狱，到处都是精英怪和Special Mobs的怪物.与原版不同,在这里玩家必须保持清醒,并注意他们正在战斗的怪物.这里有几点提示.%n%n如果精英怪有复仇属性,不要用你的高伤害弩去射它!%n%n高生命值且有再生属性的怪物很难杀.更糟的是,如果是女巫,她还能治疗自己.在这些情况下,你最好跑得远远的,或者用灵魂瓶来捕捉它然后扔进事先准备好的陷阱里.%n%n当心那些拿着钓竿的僵尸-它们会把你拉过去.不要小看穿着护甲拿着弓的僵尸-它们会射你! 译者注:看到带着护目镜的骷髅最好找掩体,它的射速带来的击退让你很难靠近它.
 
 # Quest: Moron's Manual for Effective EBFing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.name=§6§l高效工业高炉"智者"手册
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.name=§6§l高效工业高炉“智者”手册
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.desc=欢迎阅读最新的“智者”手册，高效工业高炉！这本手册解答了使用数万种GT工业高炉时会遇到的常见问题。%n%n搭建%n搭建你的工业高炉时，请保证其与任何易受污染影响的东西——比如农田——保持若干区块的距离。没有人会喜欢污染的！%n%n搭建工业高炉时，请确保其内部是中空的。有时某些东西可能会偷偷溜进去，比如神秘时代的光球！%n%n确保你的消声仓位于顶层中央。如果不能释放那些迷人的气味（污染），工业高炉就不能工作！%n%n在放置能源仓时，应尽可能减少发电机到工业高炉的距离。尤其是在LV电压时，短短的几米将会导致很大差异！通过线缆传输的每安电流都会损失一点点能量——而你得拿到尽可能多的能量！最佳方案是在每个能源仓旁边放置两台发电机，并用2A线缆相连。如果你比较穷，可以使用两个电池箱（每个电池箱内放两个电池）直供能源仓。记得让为电池箱充电的发电机维持运转。如果你制造了一个9格的电池箱，你可以一步步地用电池把它填满，以（在获得稳定能源之前）获得更长的持续运行时间。%n%n输出仓和输出总线会向与出口相邻的储罐（比如BC储罐）或储物空间（比如箱子）自动输出流体或物品。当输出仓/总线满了后，多余的产物会被吞掉，记得留个心眼！%n%n建造多个高炉时，它们可以共用机械方块、线圈、仓室、总线，节省你的开支。但不推荐共用能源仓和维护仓！（译者注：能源仓为2A输入，所以可以两台共用一个能源仓。但要确保使用双能源仓升压的高炉运行时，与其共用能源仓的高炉关闭。）
 
 # Quest: Circuit Programming
