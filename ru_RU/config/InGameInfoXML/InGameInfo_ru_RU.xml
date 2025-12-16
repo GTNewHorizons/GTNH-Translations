@@ -2,26 +2,21 @@
 <config>
     <lines at="topleft">
         <line>
-            <icon>
-                <str>minecraft:skull</str>
-                <num>3</num>
-            </icon>
-            <str> $6{username}$f, </str>
-            <str>FPS: </str>
+            <str>{pingicon}{gold}{username} {white}FPS: </str>
             <op>
-                <str>gt</str>
+                <str>ge</str>
                 <var>fps</var>
                 <num>60</num>
                 <num>45</num>
                 <num>30</num>
                 <num>15</num>
                 <num>0</num>
-                <str>$a</str>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-                <str />
+                <str>{green}</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+                <str/>
             </op>
             <var>fps</var>
         </line>
@@ -29,7 +24,7 @@
             <icon>
                 <str>minecraft:clock</str>
             </icon>
-            <str> $rГод: $3</str>
+            <str> Год: {darkaqua}</str>
             <add>
                 <round>
                     <div>
@@ -46,49 +41,51 @@
                 </round>
                 <num>1</num>
             </add>
-            <str>$r, День: $3</str>
+            <str> {white}, День: {darkaqua}</str>
             <modi>
                 <var>day</var>
                 <num>365</num>
             </modi>
-            <str>$f, Время: </str>
-            <str>$6{mctime12} $r</str>
+            <str>{white}, Время: {gold}{mctime12} </str>
             <if>
                 <var>daytime</var>
-                <str>$e(День)</str>
-                <str>$7(Ночь)</str>
+                <str>{yellow}(День)</str>
+                <str>{gray}(Ночь)</str>
             </if>
         </line>
         <line>
             <icon>
                 <str>HardcoreEnderExpansion:temple_end_portal</str>
             </icon>
-            <str> $rИзмерение: $6{dimension} ({dimensionid}), </str>
-            <str> $rЗагруженно чанков: $6{loadedchunks} </str>
+            <str> Измерение: {gold}{dimension} ({dimensionid}), {white}Загруженно чанков: {gold}{loadedchunks}</str>
         </line>
         <line>
             <icon>
                 <str>minecraft:sapling</str>
                 <num>4</num>
             </icon>
-            <str> Биом: $3{biome}$f</str>
-            <str> $6{temperature}$r°F, $6</str>
+            <str> Биом: {darkaqua}{biome} {gold}</str>
+            <round>
+                <var>localtemperature</var>
+                <num>0</num>
+            </round>
+            <str>{white}°F, {gold}</str>
             <round>
                 <div>
                     <sub>
-                        <var>temperature</var>
+                        <var>localtemperature</var>
                         <num>32</num>
                     </sub>
                     <num>1.8</num>
                 </div>
                 <num>0</num>
             </round>
-            <str>$r°C, $6</str>
+            <str>{white}°C, {gold}</str>
             <round>
                 <add>
                     <div>
                         <sub>
-                            <var>temperature</var>
+                            <var>localtemperature</var>
                             <num>32</num>
                         </sub>
                         <num>1.8</num>
@@ -97,16 +94,15 @@
                 </add>
                 <num>0</num>
             </round>
-            <str>$rK,</str>
-            <str> Влажность: $6{humidity}%$f</str>
+            <str>{white}K,</str>
+            <str> Влажность: {gold}{humidity}{white}%</str>
         </line>
         <line>
             <icon>
                 <str>minecraft:compass</str>
                 <num>0</num>
             </icon>
-            <str> Чанк X:$6 {chunkx} $fZ:$6 {chunkz}$f ($3$6 {chunkoffsetx} $f:$6 {chunkoffsetz} $f)</str>
-            <str> Y: $6{yfeeti}$f, Направление $6{finedirection}$f</str>
+            <str> Чанк X: {gold}{chunkx} {white}Z: {gold}{chunkz} {white}Off: {gold}{chunkoffsetx} {white}: {gold}{chunkoffsetz} {white}Y: {gold}{yfeeti} {white}Направление: {gold}{finedirection}</str>
         </line>
         <line>
             <icon>
@@ -121,13 +117,13 @@
                 <num>30</num>
                 <num>16</num>
                 <num>0</num>
-                <str>§5</str>
-                <str>§4</str>
-                <str>§c</str>
-                <str>§e</str>
-                <str>§a</str>
+                <str>{darkpurple}</str>
+                <str>{darkred}</str>
+                <str>{red}</str>
+                <str>{yellow}</str>
+                <str>{green}</str>
             </op>
-            <str>{tcwarptotal}$f ($6T$e{tcwarptemp}$f $6S$e{tcwarpsticky}$f $6P$e{tcwarpperm}$f)</str>
+            <str>{tcwarptotal}{white} ({gold}T{yellow}{tcwarptemp}{white} {gold}S{yellow}{tcwarpsticky}{white} {gold}P{yellow}{tcwarpperm}{white})</str>
 
         </line>
 
@@ -135,12 +131,31 @@
             <icon>
                 <str>HardcoreEnderExpansion:silverfish_blood</str>
             </icon>
-            <str> Кровь: $e{bmlp} / {bmmaxlp}$f</str>
+            <str> Кровь: {yellow}{bmlp} / {bmmaxlp}{white}</str>
         </line>
         <line>
-            <str>$0</str>
+            <str>{black}</str>
         </line>
         <line>
+            <if>
+                <equal>
+                    <var>slimes</var>
+                    <str>true</str>
+                </equal>
+                <concat>
+                    <icon>
+                            <str>textures/items/slimeball.png</str>
+                    </icon>
+                    <str> Этот чанк со {darkgreen}слизнями{white}.</str>
+                </concat>
+            </if>
+        </line>
+        <line>
+            <if>
+                <equal>
+                <var>gtnewore</var>
+                    <str>true</str>
+                </equal>
             <if>
                 <and>
                     <or>
@@ -179,13 +194,58 @@
                 <concat>
                     <icon>
                         <str>textures/items/diamond_pickaxe.png</str>
-                        <num>0</num>
-                        <num>0</num>
-                        <num>16</num>
-                        <num>16</num>
                     </icon>
-                    <str> Этот чанк с $2{underline}рудой$f !</str>
+                    <str> Этот чанк с {darkgreen}{underline}рудой{white} !</str>
                 </concat>
+            </if>
+        </if>
+        <if>
+                <equal>
+                    <var>gtnewore</var>
+                    <str>false</str>
+                </equal>
+                <if>
+                    <and>
+                        <or>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkx</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                    <or>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>-1</num>
+                        </equal>
+                        <equal>
+                            <modi>
+                                <var>chunkz</var>
+                                <num>3</num>
+                            </modi>
+                            <num>1</num>
+                        </equal>
+                    </or>
+                </and>
+                    <concat>
+                        <icon>
+                            <str>textures/items/diamond_pickaxe.png</str>
+                        </icon>
+                        <str> Этот чанк с {darkgreen}{underline}рудой{white} !</str>
+                    </concat>
+                </if>
             </if>
         </line>
         <line>
@@ -201,45 +261,34 @@
                     </equal>
                 </and>
                 <concat>
-                    <if>
-                        <and>
-                            <or>
-                                <equal>
-                                    <modi>
-                                        <var>chunkx</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>-1</num>
-                                </equal>
-                                <equal>
-                                    <modi>
-                                        <var>chunkx</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>1</num>
-                                </equal>
-                            </or>
-                            <or>
-                                <equal>
-                                    <modi>
-                                        <var>chunkz</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>-1</num>
-                                </equal>
-                                <equal>
-                                    <modi>
-                                        <var>chunkz</var>
-                                        <num>3</num>
-                                    </modi>
-                                    <num>1</num>
-                                </equal>
-                            </or>
-                        </and>
-                        <str> </str>
-                    </if>
-                    <str>Вы в $4центре$f чанка.</str>
+                        <icon>
+                                <str>tinker:textures/items/parts/obsidian_toughbind.png</str>
+                        </icon>
+                <str> Вы в {darkred}центре{white} чанка.</str>
                 </concat>
+            </if>
+        </line>
+                <line>
+            <str>{black}</str>
+        </line>
+        <line>
+            <if>
+                <str>  Nearest players:</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  1) {gold}{nearbyplayername0}{white}({nearbyplayerdistance0}м)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) {gold}{nearbyplayername1}{white}({nearbyplayerdistance1}м)</str>
+            </if>
+        </line>
+        <line>
+            <if>
+                <str>  2) {gold}{nearbyplayername2}{white}({nearbyplayerdistance2}м)</str>
             </if>
         </line>
     </lines>
@@ -257,16 +306,16 @@
                 <num>20</num>
                 <num>10</num>
                 <num>0</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
-                <str />
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
+                <str/>
             </op>
             <max>
                 <var>equippeddamageleft</var>
                 <num>0.5</num>
-                <str>{equippeddamageleft}$f / $e{equippedmaxdamage}</str>
+                <str>{equippeddamageleft} {white}/ {yellow}{equippedmaxdamage}</str>
                 <var>equippedname</var>
             </max>
         </line>
@@ -282,16 +331,16 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>helmetdamageleft</var>
                 <num>0.5</num>
-                <str>{helmetdamageleft}$f / $e{helmetmaxdamage}</str>
-                <str />
+                <str>{helmetdamageleft} {white}/ {yellow}{helmetmaxdamage}</str>
+                <str/>
             </max>
             <str> </str>
         </line>
@@ -307,16 +356,16 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>chestplatedamageleft</var>
                 <num>0.5</num>
-                <str>{chestplatedamageleft}$f / $e{chestplatemaxdamage}</str>
-                <str />
+                <str>{chestplatedamageleft} {white}/ {yellow}{chestplatemaxdamage}</str>
+                <str/>
             </max>
             <str> </str>
         </line>
@@ -332,16 +381,16 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>leggingsdamageleft</var>
                 <num>0.5</num>
-                <str>{leggingsdamageleft}$f / $e{leggingsmaxdamage}</str>
-                <str />
+                <str>{leggingsdamageleft} {white}/ {yellow}{leggingsmaxdamage}</str>
+                <str/>
             </max>
         </line>
         <line>
@@ -356,16 +405,16 @@
                 <num>50</num>
                 <num>20</num>
                 <num>10</num>
-                <str>$e</str>
-                <str>$6</str>
-                <str>$c</str>
-                <str>$4</str>
+                <str>{yellow}</str>
+                <str>{gold}</str>
+                <str>{red}</str>
+                <str>{darkred}</str>
             </op>
             <max>
                 <var>bootsdamageleft</var>
                 <num>0.5</num>
-                <str>{bootsdamageleft}$f / $e{bootsmaxdamage}</str>
-                <str />
+                <str>{bootsdamageleft} {white}/ {yellow}{bootsmaxdamage}</str>
+                <str/>
             </max>
         </line>
     </lines>
@@ -375,7 +424,7 @@
                 <var>potiondurationticks0</var>
                 <num>0.5</num>
                 <str>{potionduration0} {potionicon0}</str>
-                <str />
+                <str/>
             </max>
         </line>
         <line>
@@ -383,7 +432,7 @@
                 <var>potiondurationticks1</var>
                 <num>0.5</num>
                 <str>{potionduration1} {potionicon1}</str>
-                <str />
+                <str/>
             </max>
         </line>
         <line>
@@ -391,7 +440,7 @@
                 <var>potiondurationticks2</var>
                 <num>0.5</num>
                 <str>{potionduration2} {potionicon2}</str>
-                <str />
+                <str/>
             </max>
         </line>
         <line>
@@ -399,7 +448,7 @@
                 <var>potiondurationticks3</var>
                 <num>0.5</num>
                 <str>{potionduration3} {potionicon3}</str>
-                <str />
+                <str/>
             </max>
         </line>
         <line>
@@ -407,7 +456,7 @@
                 <var>potiondurationticks4</var>
                 <num>0.5</num>
                 <str>{potionduration4} {potionicon4}</str>
-                <str />
+                <str/>
             </max>
         </line>
         <line>
@@ -415,7 +464,7 @@
                 <var>potiondurationticks5</var>
                 <num>0.5</num>
                 <str>{potionduration5} {potionicon5}</str>
-                <str />
+                <str/>
             </max>
         </line>
         <line>
@@ -423,7 +472,7 @@
                 <var>potiondurationticks6</var>
                 <num>0.5</num>
                 <str>{potionduration6} {potionicon6}</str>
-                <str />
+                <str/>
             </max>
         </line>
         <line>
@@ -431,7 +480,7 @@
                 <var>potiondurationticks7</var>
                 <num>0.5</num>
                 <str>{potionduration7} {potionicon7}</str>
-                <str />
+                <str/>
             </max>
         </line>
         <line>
@@ -439,7 +488,7 @@
                 <var>potiondurationticks8</var>
                 <num>0.5</num>
                 <str>{potionduration8} {potionicon8}</str>
-                <str />
+                <str/>
             </max>
         </line>
     </lines>
