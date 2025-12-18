@@ -15,7 +15,7 @@ item.part_level_terminal.name=ME Level Terminal
 item.portable_fluid_cell.name=Portable Fluid Cell
 item.wireless_fluid_terminal.name=Wireless Fluid Terminal
 item.wireless_level_terminal.name=Wireless Level Terminal
-item.wireless_fluid_pattern_terminal.name=Wireless Fluid Pattern Terminal
+item.wireless_fluid_pattern_terminal.name=Wireless Pattern Terminal
 item.wireless_interface_terminal.name=Wireless Interface Terminal
 item.wireless_ultra_terminal.name=Universal Wireless Terminal
 item.wireless_ultra_terminal.CRAFTING.name=Universal Wireless Terminal - Crafting
@@ -63,7 +63,6 @@ item.fluid_storage_housing.1.name=ME Advanced Fluid Storage Housing
 item.fluid_storage_housing.2.name=ME Multi-Fluid Storage Housing
 item.fluid_storage_housing.3.name=ME Advanced Multi-Fluid Storage Housing
 
-tile.fluid_discretizer.name=Fluid Discretizer
 tile.fluid_pattern_encoder.name=Fluid Pattern Encoder
 tile.fluid_packet_decoder.name=ME Fluid Packet Decoder
 tile.fluid_interface.name=ME Dual Interface
@@ -85,7 +84,6 @@ ae2fc.waila.disable=Disable
 ae2fc.tooltip.shift_for_more=§r> Hold §3Shift§r for more information
 ae2fc.tooltip.ctrl_for_more=§r> Hold §3Ctrl§r for more information
 ae2fc.tooltip.fluid_packet_decoder.desc=The Fluid Decoder can decode Fluid packets. It has to be connected to a ME System and a place to store the liquid in otherwise it won't work.
-ae2fc.tooltip.discretizer.desc=When the ME Fluid Discretizer is attached to your ME System, it will represent the Fluids that are stored in your ME Fluid Storage Cells (Or Storage bus) as drops. They will be the item equivalent of fluids. Its just another way to show fluids, it won't actually convert your fluids to items.
 ae2fc.tooltip.fluid_buffer.desc=This is a high speed fluid IO
 ae2fc.tooltip.walrus.desc=GTNH is like a job
 ae2fc.tooltip.fluid_auto_filler=Creates fluid canning pattern with given container automatically.
@@ -221,6 +219,11 @@ ae2fc.gui.color.StateError=FFFF5555
 error.unknown=Unknown
 
 ae2fc.key.OpenTerminal=Open Wireless Universal Terminal
+ae2fc.key.OpenCraftingTerminal=Open Wireless Universal Crafting Terminal
+ae2fc.key.OpenLevelTerminal=Open Wireless Universal Level Terminal
+ae2fc.key.OpenInterfaceTerminal=Open Wireless Universal Interface Terminal
+ae2fc.key.OpenPatternTerminal=Open Wireless Universal Pattern Terminal
+ae2fc.key.OpenPatternExTerminal=Open Wireless Universal Processing Pattern Terminal
 ae2fc.key.Restock=Toggle Restock
 
 itemGroup.ae2fc=Fluid Craft For AE2
