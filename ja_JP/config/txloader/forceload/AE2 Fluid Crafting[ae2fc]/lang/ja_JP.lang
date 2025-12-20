@@ -15,7 +15,7 @@ item.part_level_terminal.name=MEレベルターミナル
 item.portable_fluid_cell.name=ポータブル液体セル
 item.wireless_fluid_terminal.name=無線液体ターミナル
 item.wireless_level_terminal.name=無線レベルターミナル
-item.wireless_fluid_pattern_terminal.name=無線液体パターンターミナル
+item.wireless_fluid_pattern_terminal.name=無線パターンターミナル
 item.wireless_interface_terminal.name=無線インターフェースターミナル
 item.wireless_ultra_terminal.name=ユニバーサル無線ターミナル
 item.wireless_ultra_terminal.CRAFTING.name=Universal Wireless Terminal - Crafting
@@ -63,7 +63,6 @@ item.fluid_storage_housing.1.name=ME発展液体ストレージ筐体
 item.fluid_storage_housing.2.name=MEマルチ液体ストレージ筐体
 item.fluid_storage_housing.3.name=ME発展型マルチ液体ストレージ筐体
 
-tile.fluid_discretizer.name=液体離散化装置
 tile.fluid_pattern_encoder.name=液体パターンエンコーダ
 tile.fluid_packet_decoder.name=ME液体パケットデコーダー
 tile.fluid_interface.name=ME複合インターフェース 
@@ -86,7 +85,6 @@ ae2fc.tooltip.shift_for_more=§3Shift§r> 押下 §rで更に情報を表示
 ae2fc.tooltip.ctrl_for_more=§3Ctrl§r> 押下 §rで更に情報を表示
 ae2fc.tooltip.fluid_packet_decoder.desc=流体デコーダーは流体パケットをデコードできます。動作させるには、MEシステムと液体を貯蔵する場所への接続が必要です。
 
-ae2fc.tooltip.discretizer.desc=ME 液体離散化装置《ME Fluid Discretizer》が ME システムに装着されると、ME 液体ストレージセル《ME Fluid Storage Cell》（または ストレージバス《Storage Bus》）に保存されている液体を液滴として表します。それらは液体に相当するアイテムになります。これは単に液体を表示する別の方法であり、実際に液体をアイテムに変換するわけではありません。
 ae2fc.tooltip.fluid_buffer.desc=これは高速液体IO
 ae2fc.tooltip.walrus.desc=GTNHは仕事のようなもの
 ae2fc.tooltip.fluid_auto_filler=指定された容器を使用して、液体缶詰パターンを自動的に作成します。
@@ -222,6 +220,11 @@ ae2fc.gui.color.StateError=FFFF5555
 error.unknown=不明
 
 ae2fc.key.OpenTerminal=Open Wireless Universal Terminal
+ae2fc.key.OpenCraftingTerminal=Open Wireless Universal Crafting Terminal
+ae2fc.key.OpenLevelTerminal=Open Wireless Universal Level Terminal
+ae2fc.key.OpenInterfaceTerminal=Open Wireless Universal Interface Terminal
+ae2fc.key.OpenPatternTerminal=Open Wireless Universal Pattern Terminal
+ae2fc.key.OpenPatternExTerminal=Open Wireless Universal Processing Pattern Terminal
 ae2fc.key.Restock=Toggle Restock
 
 itemGroup.ae2fc=AE2 Fluid Crafting
