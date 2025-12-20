@@ -63,7 +63,6 @@ item.fluid_storage_housing.1.name=빈 ME 고급 유체 저장 셀
 item.fluid_storage_housing.2.name=빈 ME 다중 유체 저장 셀
 item.fluid_storage_housing.3.name=빈 ME 고급 다중 유체 저장 셀
 
-tile.fluid_discretizer.name=유체 이산기
 tile.fluid_pattern_encoder.name=유체 패턴 인코더
 tile.fluid_packet_decoder.name=ME 유체 패킷 디코더
 tile.fluid_interface.name=ME 이중 인터페이스
@@ -85,7 +84,6 @@ ae2fc.waila.disable=비활성화
 ae2fc.tooltip.shift_for_more=§r> §3Shift§r 키를 눌러서 더 많은 정보 보기
 ae2fc.tooltip.ctrl_for_more=§r> §3Ctrl§r 키를 눌러서 더 많은 정보 보기
 ae2fc.tooltip.fluid_packet_decoder.desc=유체 디코더는 유체 패킷을 실제 유체로 변환할 수 있습니다. ME 시스템과 유체를 저장할 장소에 연결해야 합니다. 그렇지 않으면 작동하지 않습니다.
-ae2fc.tooltip.discretizer.desc=ME 유체 이산기가 ME 시스템에 연결되어있을때, ME 유체 이산기는 ME 유체 저장 셀/버스에 저장된 유체들을 드롭의 형태로 표시합니다. 각각의 드롭은 그것의 유체와 동등한 아이템입니다. 드롭은 우체를 표시하는 다른 방식이며 당신의 유체를 아이템으로 변환하지 않습니다.
 ae2fc.tooltip.fluid_buffer.desc=액체 IO의 높은 속도이다
 ae2fc.tooltip.walrus.desc=GTNH 는 일같다
 ae2fc.tooltip.fluid_auto_filler=주어진 용기를 가지고 자동으로 유체 주입 패턴을 만듭니다. 
@@ -221,6 +219,11 @@ ae2fc.gui.color.StateError=FFFF5555
 error.unknown=알 수 없음
 
 ae2fc.key.OpenTerminal=범용 무선 터미널 열기
+ae2fc.key.OpenCraftingTerminal=Open Wireless Universal Crafting Terminal
+ae2fc.key.OpenLevelTerminal=Open Wireless Universal Level Terminal
+ae2fc.key.OpenInterfaceTerminal=Open Wireless Universal Interface Terminal
+ae2fc.key.OpenPatternTerminal=Open Wireless Universal Pattern Terminal
+ae2fc.key.OpenPatternExTerminal=Open Wireless Universal Processing Pattern Terminal
 ae2fc.key.Restock=재입고 토글
 
 itemGroup.ae2fc=AE2 유체 제작
