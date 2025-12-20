@@ -63,7 +63,6 @@ item.fluid_storage_housing.1.name=Invólucro de Armazenamento Me - Fluido Avanç
 item.fluid_storage_housing.2.name=Invólucro de Armazenamento ME - Multi-Fluidos
 item.fluid_storage_housing.3.name=Invólucro de Armazenamento ME - Multi-Fluidos Avançados
 
-tile.fluid_discretizer.name=Discretizador de Fluidos
 tile.fluid_pattern_encoder.name=Codificador de Padrões de Fluidos
 tile.fluid_packet_decoder.name=Decodificador de Pacote - Fluido ME
 tile.fluid_interface.name=Interface ME Dupla
@@ -85,7 +84,6 @@ ae2fc.waila.disable=Desabilitar
 ae2fc.tooltip.shift_for_more=§r> Segure§3Shift§r para mais informações
 ae2fc.tooltip.ctrl_for_more=§r> Segure §3Ctrl§r para mais informações
 ae2fc.tooltip.fluid_packet_decoder.desc=O decodificador de Fluido pode decodificador pacotes de Fluidos. Ele deve estar conectado a um sistema ME além de um local para armazenar o líquido, ou ele não funcionará.
-ae2fc.tooltip.discretizer.desc=Quando o Discretizador de Fluido ME estiver conectado com o seu sistema ME, ele representará todos os fluidos guardados nas suas Células de Armazenamento de Fluidos ME (ou Barramento de Armazenamento) como gotas. Elas irão mostrar, em forma de item, o equivalente dos fluidos. É simplesmente outra forma de mostrar fluidos, ele não vai realmente converte os seus fluidos em itens.
 ae2fc.tooltip.fluid_buffer.desc=Isso é uma Entrada/Saída de fluidos de alta velocidade.
 ae2fc.tooltip.walrus.desc=GTNH é como um trabalho
 ae2fc.tooltip.fluid_auto_filler=Cria Padrão de cápsula de fluido com dado contêiner automaticamente.
@@ -221,6 +219,11 @@ ae2fc.gui.color.StateError=FFFF5555
 error.unknown=Desconhecido
 
 ae2fc.key.OpenTerminal=Abrir Terminal Sem Fio Universal
+ae2fc.key.OpenCraftingTerminal=Open Wireless Universal Crafting Terminal
+ae2fc.key.OpenLevelTerminal=Open Wireless Universal Level Terminal
+ae2fc.key.OpenInterfaceTerminal=Open Wireless Universal Interface Terminal
+ae2fc.key.OpenPatternTerminal=Open Wireless Universal Pattern Terminal
+ae2fc.key.OpenPatternExTerminal=Open Wireless Universal Processing Pattern Terminal
 ae2fc.key.Restock=Alternar Reabastecimento
 
 itemGroup.ae2fc=Criações de Fluidos para AE2
