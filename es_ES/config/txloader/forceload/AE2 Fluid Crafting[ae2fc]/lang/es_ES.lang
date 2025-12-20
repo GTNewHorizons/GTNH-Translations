@@ -63,7 +63,6 @@ item.fluid_storage_housing.1.name=Carcasa de Almacenamiento de Fluidos ME Avanza
 item.fluid_storage_housing.2.name=Carcasa de almacenamiento de varios fluidos ME
 item.fluid_storage_housing.3.name=Carcasa de almacenamiento de varios fluidos avanzada ME
 
-tile.fluid_discretizer.name=Discretizador de Fluidos
 tile.fluid_pattern_encoder.name=Codificador de Patrones de Fluidos
 tile.fluid_packet_decoder.name=Descodificador de Paquetes de Fluidos ME
 tile.fluid_interface.name=Interfaz Dual ME
@@ -85,7 +84,6 @@ ae2fc.waila.disable=Deshabilitar
 ae2fc.tooltip.shift_for_more=§r> Mantén §3Shift§r para más información
 ae2fc.tooltip.ctrl_for_more=§r> Mantén §3Ctrl§r para más información
 ae2fc.tooltip.fluid_packet_decoder.desc=El Descodificador de fluidos puede descodificar paquetes de fluidos. Tiene que estar conectado a un sistema ME y a un lugar donde almacenar el líquido sinó no funcionará
-ae2fc.tooltip.discretizer.desc=Cuando el Discretizador de Fluidos ME está unido a tu Sistema ME, representará los fluidos que están almacenados en tus Células de Almacenamiento de Fluidos ME (o buses de almacenamiento) como drops. Serán el item equivalente de los fluidos. Es tan solo otra forma de mostrar los fluidos, realmente no convertirá tus fluidos en items
 ae2fc.tooltip.fluid_buffer.desc=Esto es uno fluido IO de alta velocidad
 ae2fc.tooltip.walrus.desc=GTNH es como un trabajo
 ae2fc.tooltip.fluid_auto_filler=Crea un patrón de fluidos envasados con un contenedor concedido automáticamente.
@@ -221,6 +219,11 @@ ae2fc.gui.color.StateError=FFFF5555
 error.unknown=Desconocido
 
 ae2fc.key.OpenTerminal=Abrir la terminal inalámbrica universal
+ae2fc.key.OpenCraftingTerminal=Open Wireless Universal Crafting Terminal
+ae2fc.key.OpenLevelTerminal=Open Wireless Universal Level Terminal
+ae2fc.key.OpenInterfaceTerminal=Open Wireless Universal Interface Terminal
+ae2fc.key.OpenPatternTerminal=Open Wireless Universal Pattern Terminal
+ae2fc.key.OpenPatternExTerminal=Open Wireless Universal Processing Pattern Terminal
 ae2fc.key.Restock=Alternar Reabastecer
 
 itemGroup.ae2fc=Crafteo de fluidos para el AE2
