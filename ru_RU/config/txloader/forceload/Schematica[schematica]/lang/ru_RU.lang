@@ -62,26 +62,26 @@ schematica.config.highlight=Подсветить блок
 schematica.config.highlight.tooltip=Подсветить недопустимо размещенные блоки и блоки, которые необходимо разместить.
 schematica.config.highlightAir=Подсветить воздух
 schematica.config.highlightAir.tooltip=Подсветить блоки, которые должны быть воздухом.
-schematica.config.blockDelta=Block Delta
-schematica.config.blockDelta.tooltip=Delta value used for highlighting (if you experience z-fighting increase this).
-schematica.config.drawQuads=Draw Quads
-schematica.config.drawQuads.tooltip=Draw surface areas.
-schematica.config.drawLines=Draw Lines
-schematica.config.drawLines.tooltip=Draw outlines.
+schematica.config.blockDelta=Блок Дельта
+schematica.config.blockDelta.tooltip=Значение дельты, используемое для подсветки (если возникают проблемы с z-конфликтом, увеличьте это значение).
+schematica.config.drawQuads=Отрисовка квадратов
+schematica.config.drawQuads.tooltip=Отрисовка площади поверхности.
+schematica.config.drawLines=Отрисовка линий
+schematica.config.drawLines.tooltip=Отрисовка контуров.
 
 # gui - config - printer
 schematica.config.placeDelay=Задержка размещения
 schematica.config.placeDelay.tooltip=Задержка между попытками размещения (в тиках).
 schematica.config.timeout=Тайм-аут
-schematica.config.timeout.tooltip=Timeout before re-trying failed blocks.
-schematica.config.placeInstantly=Place Instantly
-schematica.config.placeInstantly.tooltip=Place all blocks that can be placed in one tick.
-schematica.config.destroyBlocks=Destroy Blocks
-schematica.config.destroyBlocks.tooltip=The printer will destroy blocks (creative mode only).
-schematica.config.destroyInstantly=Destroy Instantly
-schematica.config.destroyInstantly.tooltip=Destroy all blocks that can be destroyed in one tick.
-schematica.config.placeAdjacent=Place Only Adjacent
-schematica.config.placeAdjacent.tooltip=Place blocks only if there is an adjacent block next to them.
+schematica.config.timeout.tooltip=Тайм-аут перед повторной попыткой выполнения неудачных блоков.
+schematica.config.placeInstantly=Мгновенное размещение
+schematica.config.placeInstantly.tooltip=Размещение всех блоков, которые возможно поставить.
+schematica.config.destroyBlocks=Разрушение блоков
+schematica.config.destroyBlocks.tooltip=Принтер может разрушать блоки (только для творческого режима).
+schematica.config.destroyInstantly=Мгновенное разрушение
+schematica.config.destroyInstantly.tooltip=Разрушение всех блоков, которые возможно разрушить.
+schematica.config.placeAdjacent=Соседнее размещение
+schematica.config.placeAdjacent.tooltip=Блоки размещаются только при наличии других блоков около них.
 
 # gui - config - printer - swap slots
 schematica.config.swapSlot0=Разрешить слот 1
@@ -104,10 +104,10 @@ schematica.config.swapSlot8=Разрешить слот 9
 schematica.config.swapSlot8.tooltip=Разрешите принтеру использовать 9 слот панели быстр. доступа.
 
 # gui - config - general
-schematica.config.schematicDirectory=Schematic Directory
-schematica.config.schematicDirectory.tooltip=Schematic directory.
-schematica.config.extraAirBlocks=Дополнительные воздушные блоки
-schematica.config.extraAirBlocks.tooltip=Дополнительные блоки следует рассматривать как воздух для схематического отображения.
+schematica.config.schematicDirectory=Папка схем
+schematica.config.schematicDirectory.tooltip=Папка, в которой хранятся схемы.
+schematica.config.extraAirBlocks=Блоки воздуха
+schematica.config.extraAirBlocks.tooltip=Заданные блоки отображаются в схемах в качестве воздуха.
 
 # chat
 Schematica.chat.saveCoordinatesSuccess=Координаты успешно сохранены
@@ -131,20 +131,20 @@ schematica.key.layerDec=Предыдущий слой
 
 # commands - save
 schematica.command.save.usage=/schematicaSave <startX> <startY> <startZ> <endX> <endY> <endZ> <name>
-schematica.command.save.playersOnly=This command can only be used by players.
-schematica.command.save.started=Started saving %d chunks into %s.
-schematica.command.save.saveSucceeded=Успешно сохранен %s.
-schematica.command.save.saveFailed=There was a problem saving the schematic %s.
-schematica.command.save.quotaExceeded=You have exceeded your quota on the server. Please use /schematicaList and /schematicaRemove to remove some old schematics.
-schematica.command.save.playerSchematicDirUnavailable=There was a problem on the server and your schematic was not saved. Please contact the server administrator.
+schematica.command.save.playersOnly=Только игроки могут использовать данную команду.
+schematica.command.save.started=Сохранение %d чанка(-ов) в файл "%s"...
+schematica.command.save.saveSucceeded=Схема "%s" сохранена.
+schematica.command.save.saveFailed=Произошла ошибка при сохранении схемы "%s".
+schematica.command.save.quotaExceeded=Превышена квота сервера. Используйте /schematicaList и /schematicaRemove, чтобы удалить старые схемы.
+schematica.command.save.playerSchematicDirUnavailable=Произошла ошибка на сервере, из-за которой не удалось сохранить схему. Свяжитесь с администратором сервера.
 
 # commands - list
 schematica.command.list.usage=/schematicaList [страница]
-schematica.command.list.notAvailable=There was a problem retrieving your list of schematics.
+schematica.command.list.notAvailable=Произошла ошибка при получении списка схем.
 schematica.command.list.remove=Удалить
-schematica.command.list.download=Скачать
-schematica.command.list.header=--- Showing schematics page %d of %d ---
-schematica.command.list.noSuchPage=Нет такой страницы
+schematica.command.list.download=Загрузить
+schematica.command.list.header=--- Схемы, страница %d из %d ---
+schematica.command.list.noSuchPage=Данной страницы не существует
 schematica.command.list.noSchematics=У вас нет доступных схем.
 
 # commands - remove
