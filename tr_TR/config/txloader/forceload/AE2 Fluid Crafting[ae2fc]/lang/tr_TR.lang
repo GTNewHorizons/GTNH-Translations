@@ -63,7 +63,6 @@ item.fluid_storage_housing.1.name=ME Gelişmiş Sıvı Depolama Haznesi
 item.fluid_storage_housing.2.name=ME Çoklu-Sıvı Depolama Haznesi
 item.fluid_storage_housing.3.name=ME Gelişmiş Çoklu-Sıvı Depolama Haznesi
 
-tile.fluid_discretizer.name=Sıvı Ayrıştırıcısı
 tile.fluid_pattern_encoder.name=Sıvı Kalıp Kodlayıcısı
 tile.fluid_packet_decoder.name=ME Sıvı Paket Çözücüsü
 tile.fluid_interface.name=ME Çift Arayüz
@@ -85,7 +84,6 @@ ae2fc.waila.disable=Devre dışı bırak
 ae2fc.tooltip.shift_for_more=§r> Daha fazla bilgi için §3Shift§r'e basın
 ae2fc.tooltip.ctrl_for_more=§r> Daha fazla bilgi için §3Ctrl§r'ye basın
 ae2fc.tooltip.fluid_packet_decoder.desc=Sıvı Paket Çözücüsü sıvı paketlerini çözer. Bu aygıt bir ME sistemine bağlı olması ve aynı zamanda sıvıları depolayacak bir yere ihtiyaç duyar. Öbür türlü çalışmaz.
-ae2fc.tooltip.discretizer.desc=ME Sıvı Ayrıştırıcısı ME sisteminize bağlandığı zaman, ME Sıvı Depolama Hücrelerinizdeki (Ya da Depolama Kanalındaki) sıvıları damlacık olarak temsil eder. Bir nevi sıvılarını eşya olarak sisteme gösterir. Merak etmeyin sıvılarınız olduğu gibi kalır.
 ae2fc.tooltip.fluid_buffer.desc=Bu yüksek hızlı bir sıvı IO'sudur
 ae2fc.tooltip.walrus.desc=GTNH bir iş gibidir
 ae2fc.tooltip.fluid_auto_filler=Sıvılar için otomatik olarak bir konteynıra koymak için kalıp oluşturur.
@@ -221,6 +219,11 @@ ae2fc.gui.color.StateError=FFFF5555
 error.unknown=Bilinmiyor
 
 ae2fc.key.OpenTerminal=Kablosuz Evrensel Terminal'i Aç
+ae2fc.key.OpenCraftingTerminal=Open Wireless Universal Crafting Terminal
+ae2fc.key.OpenLevelTerminal=Open Wireless Universal Level Terminal
+ae2fc.key.OpenInterfaceTerminal=Open Wireless Universal Interface Terminal
+ae2fc.key.OpenPatternTerminal=Open Wireless Universal Pattern Terminal
+ae2fc.key.OpenPatternExTerminal=Open Wireless Universal Processing Pattern Terminal
 ae2fc.key.Restock=Yenilemeyi Düzenle
 
 itemGroup.ae2fc=AE2 için Sıvı Üretimi
