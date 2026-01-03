@@ -6950,6 +6950,10 @@ betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.desc=더 크고,더 빠르고, 더 �
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=증기 기관의 한계돌파
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=지금쯤이면 단일 블럭 증기 기계들을 꽤 많이 만드셨을 겁니다. 그러나 이 기계들로는 소량의 재료만 가공할 수 있고, 얼마 안가 많은 양의 아이템을 가공해야 할 때가 올 것입니다. 이런 상황에선 멀티블럭이 유용합니다.%n%n멀티블럭은 단일 블럭 기계보다 건설 비용이 훨씬 높지만, 증기 사용량이 적고, 레시피를 병렬로 처리할 수 있어 증기가 충분하다면 한 번의 동작으로 여러 아이템을 동시에 제작할 수 있다는 장점이 있습니다.%n%n하지만 참고해야 할 몇 가지 사항들이 있습니다.%n%n-증기 멀티블럭에는 §4§l매우 특정한§r I/O 블럭이 필요하며, 일부 퀘스트에서 사용됩니다.%n-(8 * 티어) 만큼의 아이템을 동시에 처리합니다, 여기서 티어 1은 청동으로, 티어 2는 강철로 만들어집니다(NEI의 멀티블럭 미리보기에서 티어를 확인할 수 있습니다).%n-다른 멀티블럭과 마찬가지로 작동 중 에너지(이 경우 증기)가 부족하면 처리 중인 아이템이 무효 처리되어 증발합니다.%n-티어와 병렬 처리량은 컨트롤러 블럭을 보고 있으면 WAILA에서 확인할 수 있습니다%n%n[note]이 퀘스트를 시작으로 당신은 GT++ 멀티블럭 여정의 첫 발을 내딛었습니다. 하지만 아직 너무 흥분하지는 마세요. 증기 시대에서는 일부 멀티블럭만 이용할 수 있고, 대부분은 EV 시대부터 더 좋은 멀티블럭들을 본격적으로 만들 수 있습니다.[/note]
 
+# Quest: Thermic Heating Device
+betterquesting.quest.rVvLhN6YTUKhminacygRVg.name=§9§lThermic Heating Device
+betterquesting.quest.rVvLhN6YTUKhminacygRVg.desc=The §5§lThermic Heating Device§r is the multiblock edition of the Fluid Heater, offering §6§l8§r parallels per voltage tier at over §2§l2x§r the speed and for only §3§l90%%§r of the EU cost.%n%nThis can be useful now for Bauxite and Ruthenium processing but if you choose not to use it then definitely keep it in mind for later as you will eventually want it for Growth Catalyst!
+
 # Quest: Steam Stomping!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=증기로 짓뭉개기!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.desc=포지 해머는 이미 꽤 빠르지만, 업그레이드 버전을 만들어서 더 빠르게 만들어보는 건 어떨까요? 증기 포지 해머(Steam Presser)를 사용하면 어떤 재료든 증기의 힘 앞에서 무릎을 꿇을겁니다. 이전보다 훨씬 빠르게 부숴지는 재료들을 감상하세요.%n%n[note]증기 포지 해머는 LV 티어 레시피 까지만 처리할 수 있습니다.[/note]
@@ -9756,10 +9760,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2w.desc=이 장치는 네트워크에 �
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3A.name=왜 나는 내가 가진 거름 슬러리의 양을 알아야 할까요?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3A.desc=이것들은 유체 버전입니다.
 
-# Quest: Out of Polytetrafluoroethylene? Turn on the LCR!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3Q.name=폴리테트라플루오로에틸렌이 부족하다면, LCR을 켜세요!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3Q.desc=기본적으로 이것은 유체 감지기 커버와 동일하며, 네트워크 안에 있는 것을 기반으로 감지합니다. 중앙에 셀을 클릭하여 지정하고, 비어 있는 손으로 클릭하여 비웁니다.
-
 # Quest: Essentia Level Emitter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3g.name=에센시아 레벨 방출기
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3g.desc=다른 두 가지와 마찬가지로, 이것은 에센시아를 위한 것입니다.
@@ -11825,10 +11825,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABGA.desc=눈. 그래, 눈! 나는 눈이
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABGQ.name=정말 (정말!) 어두운 마법
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABGQ.desc=바보들이야. 바보들이라니까! 그들은 아무것도 몰라! 이 책이 나를 이끌 거야, 그래. 그래, 내 소중한 책이. 이 책은 우리를 더욱 강력한 힘으로 이끌 거야!%n%n당신의 가까운 서점에서 구할 수 있으며, 때때로 크림슨 기사와 크림슨 성직자들에게서도 찾을 수 있습니다.
 
-# Quest: Secrets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.name=비밀
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.desc=느낄 수 있어요. 그래. 그래아. 우리는 거의 다가오는 더 많은 힘을 얻게 될 겁니다. 거의! 그래. 내 소중한 것. 목소리들은 저에게 힌트를 주었습니다, 믿을 수 없는 마법 에너지 원천으로 가득 찬 차원이 있다는 것을. 저는 반드시 그 곳에 가야 합니다. 반드시 가야해요! 진홍색 사람들은 그 비밀을 알고 있어요. 저는 그들을 찢어버릴 겁니다.. 그들은 저에게 말해줄 거예요!%n%n§3노트: 다음 작업에 필요한 책을 위해 많은 수의 이들을 처치할 필요가 있을 것이므로 스포너를 세팅하는 것이 좋을지도 모릅니다. 또한 그들은 재생되지 않는 사제들에 의해 소환됩니다.
-
 # Quest: Find the Key
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABGw.name=열쇠를 찾으세요
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABGw.desc=아니, 아니오! 그들이 숨겨놨어! 열쇠를 찾아야 해. 반드시 찾아야 해! 우리는 내 소중한, 그 문을 열기 위해 태블릿이 필요해.
@@ -13598,6 +13594,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxQ.desc=열 배출구는 반응기에�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.name=§2§l더 좋은 검 만들기
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.desc=이제 첫 번째 Tinkers 검을 만들 차례입니다. 먼저 검날, 가드, 도구 막대 주형을 만들어야 합니다. 용광로에서 청동을 녹이고 도구 부품을 주조하십시오. 와!!! 첫 번째 Tinkers 검이 완성됐습니다. 가드는 4가지 종류가 있고, 이것을 바꾸면 다른 검 종류을 얻을 수 있습니다. 자세한 내용은 Tinker's 책을 참조하세요.
 
+# Quest: Time To Kill (Crimson Knight)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.name=비밀
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.desc=느낄 수 있어요. 그래. 그래아. 우리는 거의 다가오는 더 많은 힘을 얻게 될 겁니다. 거의! 그래. 내 소중한 것. 목소리들은 저에게 힌트를 주었습니다, 믿을 수 없는 마법 에너지 원천으로 가득 찬 차원이 있다는 것을. 저는 반드시 그 곳에 가야 합니다. 반드시 가야해요! 진홍색 사람들은 그 비밀을 알고 있어요. 저는 그들을 찢어버릴 겁니다.. 그들은 저에게 말해줄 거예요!%n%n§3노트: 다음 작업에 필요한 책을 위해 많은 수의 이들을 처치할 필요가 있을 것이므로 스포너를 세팅하는 것이 좋을지도 모릅니다. 또한 그들은 재생되지 않는 사제들에 의해 소환됩니다.
+
 # Quest: Magical Waystones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.name=마법의 웨이스톤
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.desc=이것을 사용하면 핫바에 바인딩된 천상의 진주가 있다면 천상의 게이트웨이로 돌아갈 수 있습니다. 핫바에서 가장 왼쪽에 있는 천상의 진주를 사용하므로, 여러 개를 가지고 다니며 여행할 수 있습니다!
@@ -14088,7 +14088,7 @@ betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slot
 
 # Quest: Large Molecular Assembler
 betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.name=§9§lLarge Molecular Assembler
-betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%n[note]Super Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
+betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%n[note]High capacity Input Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
 
 # Quest: Compact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§2§l간편한 저장소
