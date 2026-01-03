@@ -34,6 +34,7 @@ gt.component.smallspring=小さな%sのバネ
 gt.component.finewire=細い%sのワイヤー
 gt.component.platedense=高密度な%sプレート
 gt.component.platesuperdense=超高密度%sプレート
+gt.component.sheetmetal=%s Sheetmetal
 
 # Crops
 gt.crop.argentia.name=アルゼンチア
@@ -826,7 +827,6 @@ GT5U.MBTT.Tiers.Turbine=タービンの合計
 GT5U.MBTT.Tiers.Glass=Glass
 GT5U.MBTT.Steam.Speed=同一圧力のシングルブロック蒸気機械と比較して速度%s倍
 GT5U.MBTT.Steam.Eff=通常の蒸気消費量の%sを使用
-GT5U.MBTT.Structure.Complex=構造が複雑すぎます！
 GT5U.MBTT.Structure.SeeStructure1=構造を見るには、本体に
 GT5U.MBTT.Structure.SeeStructure2=ホログラムプロジェクターを使用してください！
 GT5U.MBTT.Structure.MinGlassForLaser=-tierの§fガラス§7で§9Tec§1Tech§7のレーザーハッチを使用可能になります
@@ -3121,7 +3121,7 @@ GTPP.multiblock.duration=Duration
 GTPP.multiblock.multimachine.metal=金属モード。圧縮機(回路#20)、旋盤(回路#21)、電気磁化機(回路#22)として動作。
 GTPP.multiblock.multimachine.fluid=液体モード。発酵槽(回路#20)、液体抽出機(回路#21)、抽出機(回路#22)として動作。
 GTPP.multiblock.multimachine.misc=その他モード。精密レーザー刻印機(回路#20)、オートクレーブ(回路#21)、液体成型機(回路#22)として動作。
-
+GTPP.multiblock.ap.tier=Tier: %s
 
 GTPP.waila.steam.use=現在の蒸気消費量: §e%s§r L/s
 
@@ -3257,6 +3257,14 @@ GT5U.tooltip.mega_apiary.only_producer=メガ・養蜂箱でのみ生産
 
 GT5U.tooltip.electric.tier=Tier: %d
 GT5U.tooltip.electric.tier.s=Tier: %s
+
+GT5U.tooltip.typefilter.set_to=Filter set to %s
+GT5U.tooltip.typefilter.ore_prefix=Ore prefix: %s
+GT5U.tooltip.typefilter.size=Filter size: %s
+
+GT5U.die.frozen=%s froze to death
+GT5U.die.boiled=%s was boiled alive
+GT5U.die.exploded=%s exploded
 
 gt.coilheattooltip=基本熱容量 =
 gt.coilunittooltip=K (ケルビン)

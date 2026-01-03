@@ -1660,11 +1660,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADRg.desc=ついにHV回路の登場で�
 
 # Quest: Methane Gas
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.name=§6§nメタンガス
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.desc=Methane gas has a burn value of 104,000 EU per cell and can be burned in the Gas Turbine.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.desc=メタンガスはセルあたり104,000 EUの燃料として使用でき、ガスタービンで燃焼させて発電することができます。
 
 # Quest: Methanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.name=§6§nメタノール
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.desc=Methanol has a burn value of 84,000 EU per cell and can be used to make Bio Diesel and other fluids. It's also used to make certain rocket fuels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.desc=メタノールはセルあたり84,000 EUの燃料として使用でき、バイオディーゼルやその他の液体を作るために使用できます。また、特定のロケット燃料の材料としても使用できます。
 
 # Quest: Ethanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.name=§6§nエタノール
@@ -1788,7 +1788,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF9w.desc=Ever wanted to trap a wither bu
 
 # Quest: Advanced Compressor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKA.name=§6§n発展型圧縮機
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKA.desc=The MV compressor is twice as fast as the LV one but uses 4x the power.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKA.desc=MV圧縮機はLV圧縮機と比べて2倍の処理速度を誇りますが、その分、消費電力は4倍になります。
 
 # Quest: Advanced Macerator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKQ.name=§6§n発展型破砕機
@@ -1979,7 +1979,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiw.name=§6§n未精製シリコンの�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiw.desc=シリコンはブール(そしてそれに伴うウェハー、チップ、回路)の製造において不可欠な材料です。したがって、シリコンは§o極めて重要な素材§rと言えます。%n%n新しく作成した電解槽を使えば、さまざまな原料から未精製シリコン粉を入手できます。また、レッドストーンを遠心分離機で分離する方法もあります。二酸化ケイ素から入手することも可能で、マグネシウム粉を化学反応器で添加した後、電解槽でリサイクルすることで、大量のボーナス酸素も得られます。
 
 # Quest: Silicon Tetrachloride
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjA.name=§6§n四塩化シリコン
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjA.name=§6§n四塩化ケイ素
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjA.desc=未精製シリコンの粉を手に入れました。しかしながら、入手したシリコン粉末は純度が不十分です。これを精製する必要があります。合理的な方法は2つありますが、まずは最初の方法から見ていきましょう。ご心配なく、これは簡単な2段階のプロセスです。まずは化学反応器で塩素と反応させることから始めましょう。
 
 # Quest: Silicon Tetrachloride - continued
@@ -6950,6 +6950,10 @@ betterquesting.quest.qDZZLi21TrmdWXwo_KimIw.desc=Bigger, better, faster. The Lar
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.name=§c§lSTEAM-POWERED BREAKTHROUGH
 betterquesting.quest.quLxATDCQFWsrZRuh_gspA.desc=You should have quite the collection of single block Steam machines by now. While these may have gotten you through processing small amounts of materials, there will be a time when you will have to process a multitude of items. This is where Multiblocks come in.%n%nWhile these Multiblocks have a material cost that is way higher than their single block counterparts, they have certain bonuses: they use less Steam, and they can process recipes in parallel, which means that a single recipe cycle can craft multiple items at once, if the Steam provided is enough to sustain it.%n%nThey do however have some quirks that need to be taken care of:%n%n-These Multiblocks require §4§lvery specific§r I/O blocks, use only those that are part of the quest%n-They process up to 8 items, where the Basic Tier is made of Bronze and High Pressure Tier is made of Steel (checkout the Multiblock Preview in NEI which will show you different levels of tiers)%n-The Tier and amount of parallel processing can be seen via WAILA if you are looking at the Controller Block%n%n[note]With this quest, you have started your journey with Mass Processing. However, don't get too excited quite yet. While there are some Multiblocks accessible in the Steam Age, most of them only unlock in EV or later, including better versions of these Multiblocks.[/note]
 
+# Quest: Thermic Heating Device
+betterquesting.quest.rVvLhN6YTUKhminacygRVg.name=§9§lThermic Heating Device
+betterquesting.quest.rVvLhN6YTUKhminacygRVg.desc=The §5§lThermic Heating Device§r is the multiblock edition of the Fluid Heater, offering §6§l8§r parallels per voltage tier at over §2§l2x§r the speed and for only §3§l90%%§r of the EU cost.%n%nThis can be useful now for Bauxite and Ruthenium processing but if you choose not to use it then definitely keep it in mind for later as you will eventually want it for Growth Catalyst!
+
 # Quest: Steam Stomping!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.name=§c§lSteam Stomping!
 betterquesting.quest.s6AEHSKiQe2XveT_oDZbZg.desc=While the Forge Hammer is quite fast already, why not build this upscaled version and make it even faster? With the Steam Presser, you can unleash the full force of steam on whatever material you feed it. Watch blocks break apart and rods get smashed together faster than ever-at least until you gain access to more advanced technology.%n%n§3The Steam Presser can only process recipes up to LV Tier.
@@ -9750,19 +9754,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2g.desc=The ME Storage Monitor allows y
 
 # Quest: Redstone Based on Storage Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2w.name=Redstone Based on Storage Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2w.desc=This device will turn on (or off) a redstone signal based on how much of an item you specify (or energy in the network if you select the mode) you have in your network. Left-click an item into the space between the 1000 numbers to add, click again while holding nothing to remove.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2w.desc=This device will turn on (or off) a redstone signal based on how much of an item, fluid, or energy you specify you have in your network. The 'Level Type' will toggle between Item / Fluid mode and Energy mode.%n%nTo add an item, left-click your desired item into the blank space between the 1000 numbers to add, click again while holding nothing to remove. %n%nTo add a fluid, left-control-click a cell containing your desired fluid into the blank space, removable in the same fashion.
 
 # Quest: Why Do I Need to Know How Much Manure Slurry I Have?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3A.name=Why Do I Need to Know How Much Manure Slurry I Have?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3A.desc=These are the fluid versions.
 
-# Quest: Out of Polytetrafluoroethylene? Turn on the LCR!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3Q.name=Out of Polytetrafluoroethylene? Turn on the LCR!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3Q.desc=It's basically the same as a fluid detector cover, except it detects based on what's in your network. Click a cell into the center to specify, and an empty hand to clear.
-
 # Quest: Essentia Level Emitter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3g.name=Essentia Level Emitter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3g.desc=Same as the other two, but for essentia.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3g.desc=Same as the other, but for essentia.
 
 # Quest: Was I Out of Nebrisum, or Was it Terminus?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3w.name=Was I Out of Nebrisum, or Was it Terminus?
@@ -11823,11 +11823,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABGA.desc=Eyes. Yes. Eyes! I need eyes, m
 
 # Quest: Really (Really!) Dark Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABGQ.name=Really (Really!) Dark Magic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABGQ.desc=Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!%n%nAvailable in your local bookstore, and also occasionally found on Crimson Knights and Crimson Clerics.
-
-# Quest: Secrets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.name=Secrets
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt... They will tell me!%n%n§3NOTE: You might want to set up a spawner because you'll likely need to kill a lot of these guys for the book you need for the next task. Additionally, they're spawned by the Clerics, which DO NOT RESPAWN.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABGQ.desc=Fools. FOOLS I say! They know nothing! This book will guide me, yes. Yes it will, my precious. It will lead us to even more POWER!%n%nAvailable in your local bookstore, and also occasionally found on Crimson Knights and Crimson Clerics.%n%n[note]NOTE: If you plan on hunting Crimson Knights & Crimson Clerics, you might want to set up a spawner because you'll likely need to kill a lot of these guys to obtain this book.[/note]
 
 # Quest: Find the Key
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABGw.name=Find the Key
@@ -13598,6 +13594,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAxQ.desc=§7《§r排熱器§7／Heat Ve
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.name=§a§nより良い剣を作る
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB2Q.desc=最初の Tinkers' Construct の §7《§r剣§7／Sword》§r を作る時が来ました。%n%nまずは、 §7《§r刀身§7／Sword Blade》§r 、 §7《§r鍔§7／Guard》§r の一種、 §7《§r持ち手§7／Tool Rod》§r の §7《§r鋳型§7／Cast》§r を用意しましょう。%n%n§7《§r乾式製錬炉§7／Smeltery》§r で §7《§r青銅§7／Bronze》§r を溶かして、ツールパーツを鋳造してください。%n%nじゃーん...！%nはじめての"本物の"剣が完成しました！%n%n鍔には4つの種類があり、これが剣の種類を決定します。詳しくは §7《§r素材とあなた vol.2§7／Materials and You: Volume 2》§r を参照してください。
 
+# Quest: Time To Kill (Crimson Knight)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.name=Time To Kill (Crimson Knight)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABGg.desc=I can feel it. Yess. Yeeeess. We will gain more power nigh. Nigh! Yes. My precious. The voices gave me a hint, there is a dimension filled with unbelievable sources of magic energy. I must go there. I must! The crimson people know the secret. I will rip them aparrrt... They will tell me!%n%n§3NOTE: The Knights are spawned by the Clerics, but the Clerics DO NOT RESPAWN after killed.
+
 # Quest: Magical Waystones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.name=Magical Waystones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABSg.desc=This can be used to go back to a Celestial Gateway if you have a bound Celestial Pearl in your hotbar. It will use the leftmost one in your hotbar, so you can carry multiple to travel around with!
@@ -14088,7 +14088,7 @@ betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slot
 
 # Quest: Large Molecular Assembler
 betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.name=§9§lLarge Molecular Assembler
-betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%n[note]Super Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
+betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%n[note]High capacity Input Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
 
 # Quest: Compact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§a§lCompact Storage
