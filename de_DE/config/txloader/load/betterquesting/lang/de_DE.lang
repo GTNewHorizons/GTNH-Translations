@@ -235,10 +235,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIA.desc=Nachdem du eine Möglichkeit ge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.name=§a§lTinker-Zeit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=Die Holzwerkzeuge machen zwar Spaß beim Töten von Schweinen und Kühen, aber sie sind nicht lange haltbar und können nicht repariert werden. Außerdem lachen die Höllenwesen über deine Versuche, sie zu töten. Du hast herausgefunden, wie du Werkzeuge herstellen kannst, die repariert und verbessert werden können, aber dafür brauchst du auf jeden Fall eine fortgeschrittenere Handwerkstechnik.%n%n[note]Wenn du keinen Zugang zu Eichenholz hast, um deinen Teilefertiger herzustellen, kannst du ihn auf der Werkbank in die Eichenvariante umwandeln, um diese Quest abzuschließen[/note]
 
-# Quest: Zinc Gravel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§a§lZinkkies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=Du kannst es in Kiesbrocken auf der Oberfläche finden.%n%nVerwende so wenig wie möglich und hebe den Rest auf, wenn du im Dampfzeitalter einen Zerkleinerer erhältst, dann bekommst du doppelt so viel.%n%nWenn du keins finden kannst, kannst du sie beim Verkaufsautomaten kaufen.%n%nWenn du genug davon bekommst und es vollständig verarbeitest, kannst du auch Gallium für Galliumarsenid im LV bekommen.
-
 # Quest: Making Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§a§lBronzeherstellung
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.desc=Jetzt, wo du Kupfer und Zinn gefunden hast, solltest du dir etwas Bronze herstellen. Verwende deinen Mörser, um einige Kupfer- und Zinnbarren zu zermahlen, und mische sie zusammen!
@@ -1990,6 +1986,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjQ.desc=Als zweiten Schritt kombinieren
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.name=§6§lSalzig von all dem Silizium?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.desc=Wenn dich die Zutaten für die Siliziumreinigung zusalzen, habe ich gute Nachrichten für dich! Du kannst das gesamte verwendete Chlor und Natrium zurückgewinnen, indem du das Salz, das du erhalten hast, elektrolysierst!%n%n[note]Du kannst auch Zink anstelle von Natrium verwenden; die erste Reaktion dauert länger, aber das Recycling ist viel billiger.[/note]
 
+# Quest: Dislocator Inhibitor
+betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.name=§6§lDislocator Inhibitor
+betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.desc=Tired of your magnet picking up everything? Fortunately, with the advent of Dark Steel this no longer needs to be an issue.%n%nThe Dislocator Inhibitor will restrict the function of the Draconic Evolution Item Dislocator within a customizable range of up to 16 blocks. You can stop it from picking up items entirely, or configure a whitelist or blacklist of your choosing. Additionally, you can choose whether it is always active or only enabled by a redstone signal.
+
 
 ## Quest Line: Tier 3 - HV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.name=Stufe 3 - Hochspannungszeitalter (HV)
@@ -2747,10 +2747,6 @@ betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Jetzt, da du in der EV-Stufe bi
 # Quest: EV Field Generator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§8§lEV-Feldgenerator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=Mit Feldgenerator kannst du deine ersten Quanten-Kisten oder Quanten-Tanks herstellen. Aber die ersten beiden solltest du für deine T2-Rakete verwenden.%n%n[note]Beachte, dass das Rezept der Montagemaschine ressourcenschonender ist.[/note]
-
-# Quest: Supersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§8§lSupergroße Vorrichtungen
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Fassen deine Eingabe- und Ausgabevorrichtungen nicht genug für dich?%n%nWerte deine Vorrichtungen zu Supervorrichtungen auf und genieße die erhöhte Zahl an Inventarplätze!%n%n[note]Um Geschmolzenes Siliziumkarbid ohne LHS zu bekommen, kannst du Siliziumkarbidstaub in einem Mischer herstellen, ihn dann schmelzen und flüssig-extrahieren.[/note]
 
 # Quest: EXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§8§lEXTREME MIXING
@@ -6647,7 +6643,7 @@ betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.desc=A Linear Accelerator (LINAC) ca
 
 # Quest: Playing with Colors!
 betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.name=§6§lSpiel mit Farben!
-betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.desc=Multiblock machines enforce input separation based on hatch color. Inputs from Input Buses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.%n%nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.%n%n§6Now §2go §3have §4fun§5!!!
+betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.desc=Multiblock machines enforce input separation based on hatch color. Inputs from Input Buses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.%n%nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.%n%n[note]For more advanced users, note that the priority of dyed hatches is ordered exactly how the vanilla dyes are in NEI, from highest (black) to lowest (white).[/note]%n%n§6Now §2go §3have §4fun§5!!!
 
 # Quest: Decay Warehouse
 betterquesting.quest.bLz_cD33RE24mtOb2aLxXg.name=Decay Warehouse
@@ -14129,7 +14125,7 @@ betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach
 
 # Quest: Powerfail Notifications
 betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.name=§6§lPowerfail Notifications
-betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use </gt §4global_energy_join§r §1[User Joining] [User to Join]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use <§c/sp invite§r §1[Player Name]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
 
 # Quest: Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=§5§l§nAbsolute Purity
