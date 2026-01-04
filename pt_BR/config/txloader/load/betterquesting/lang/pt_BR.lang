@@ -235,10 +235,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIA.desc=Depois de encontrar uma maneira
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.name=§a§lHora-de-Consertar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=Embora usar suas ferramentas de madeira seja divertido em termos de matar porcos e vacas, elas não duram muito e não podem ser reparadas. Além disso, os monstros Infernais riem de suas tentativas de matá-los. Você descobriu como criar ferramentas que podem ser reparadas e melhoradas, mas para isso você definitivamente precisa de uma técnica de fabricação mais avançada.%n%n[note]Se você não tem acesso á madeira de carvalho, para criar o seu Construtor de Partes, você pode criar o seu na variante de carvalho, para fins de completar esta missão[/note]
 
-# Quest: Zinc Gravel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§a§lCascalho de Zinco
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=Você pode encontrar em vários pedaços de cascalho na superfície.%n%nUse o mínimo possível e guarde o resto para quando você conseguir um Macerador na era do Vapor, você receberá o dobro.%n%nSe você não conseguiu encontrar nem um cascalho, você pode comprá-las na Máquina de Vendas.%n%nSe você conseguir o suficiente e processá-lo totalmente, também poderá obter Gálio para Arsenieto de Gálio na era LV.
-
 # Quest: Making Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§a§lFazendo Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.desc=Agora que você encontrou cobre e estanho, você deve fazer um pouco de bronze. Use seu macera... OPS. quer dizer, seu pilão para moer alguns lingotes de cobre e estanho e misture-os!
@@ -1991,6 +1987,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjQ.desc=As a second step, we combine th
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.name=§6§lSalty from all the silicon?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.desc=If you are salty about the ingredients needed to purify silicon, I got good news for you! You can recover all of the chlorine and sodium you used by electrolyzing the salt you got!%n%n[note]You can also use zinc instead of sodium, the first reaction is longer but the recycling is much cheaper.[/note]
 
+# Quest: Dislocator Inhibitor
+betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.name=§6§lDislocator Inhibitor
+betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.desc=Tired of your magnet picking up everything? Fortunately, with the advent of Dark Steel this no longer needs to be an issue.%n%nThe Dislocator Inhibitor will restrict the function of the Draconic Evolution Item Dislocator within a customizable range of up to 16 blocks. You can stop it from picking up items entirely, or configure a whitelist or blacklist of your choosing. Additionally, you can choose whether it is always active or only enabled by a redstone signal.
+
 
 ## Quest Line: Tier 3 - HV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.name=Nível 3 - HV
@@ -2748,10 +2748,6 @@ betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=Now that you're in EV tier you 
 # Quest: EV Field Generator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§8§lEV Field Generator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=With Field Generators you can make your first Quantum Chests or Quantum Tanks. But the first two should be for your T2 rocket.%n%n[note]Note that the Assembler recipe is more resource efficient.[/note]
-
-# Quest: Supersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§8§lSupersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=Input and output buses not holding enough for you?%n%nUpgrade your buses to the Super bus and enjoy increased slots.%n%n[note]To get Molten Silicon Carbide without an ABS, you can make Silicon Carbide Dust in a Mixer, then smelt it and fluid extract.[/note]
 
 # Quest: EXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§8§lEXTREME MIXING
@@ -3867,7 +3863,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAErg.desc=A MK II is nice, but why not ma
 
 # Quest: I Put Fusion in Your Fusion so you Can Fusion While You Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.name=§2§l§nI Put Fusion in Your Fusion so you Can Fusion While You Fusion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.desc=To make Oganesson, you'll need to make Californium. To make that, you'll need Beryllium and Plutonium 239, all in the Fusion Reactor. After the two fusion chains, you'll have the best noble gas in the pack, which is used in several places.%n%nIn this tier, you can send it to Void Miners, to increase their ore production speed, or EBFs, to make them run faster, although the EBF option is too weak right now (changes coming soon). Later on, Oganesson will be used in other places, like the optical circuit line, or to produce Metastable Oganesson, which is needed in much larger quantities later on.%n%nOganesson replication is on the way out, and the fusion recipe has improved a lot, so there is no longer an incentive to replicate and your Fusion Reactor should keep running for Og.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsg.desc=To make Oganesson, you'll need to make Californium. To make that, you'll need Beryllium and Plutonium 239, all in the Fusion Reactor. After the two fusion chains, you'll have the best noble gas in the pack, which is used in several places.%n%nIn this tier, you can send it to Void Miners, to increase their ore production speed, or EBFs, to make them run faster, although the EBF option is too weak right now (changes coming soon). Later on, Oganesson will be used in other places, like the optical circuit line, or to produce Metastable Oganesson, which is needed in much larger quantities later on.
 
 # Quest: Time for Another Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEsw.name=§2§l§nTime for Another Reactor
@@ -4919,7 +4915,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAw.desc=You can even create metals not 
 
 # Quest: New Threads
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.name=New Threads
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.desc=Tired of killing spiders for string? Grow some flax for an easy non-biting source of string.%n%nYou can also directly place Cotton seeds on cropsticks to grow cotton that way. With some Corium in the next quest, you can get easy tanned leather.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.desc=Tired of killing spiders for string? Grow some flax for an easy non-biting source of string.%n%nWith some Corium in the next quest, you can get easy tanned leather.
 
 # Quest: The Ground is Crying
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.name=The Ground is Crying
@@ -6648,7 +6644,7 @@ betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.desc=A Linear Accelerator (LINAC) ca
 
 # Quest: Playing with Colors!
 betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.name=§6§lPlaying with Colors!
-betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.desc=Multiblock machines enforce input separation based on hatch color. Inputs from Input Buses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.%n%nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.%n%n§6Now §2go §3have §4fun§5!!!
+betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.desc=Multiblock machines enforce input separation based on hatch color. Inputs from Input Buses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.%n%nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.%n%n[note]For more advanced users, note that the priority of dyed hatches is ordered exactly how the vanilla dyes are in NEI, from highest (black) to lowest (white).[/note]%n%n§6Now §2go §3have §4fun§5!!!
 
 # Quest: Decay Warehouse
 betterquesting.quest.bLz_cD33RE24mtOb2aLxXg.name=Decay Warehouse
@@ -14129,7 +14125,7 @@ betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach
 
 # Quest: Powerfail Notifications
 betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.name=§6§lPowerfail Notifications
-betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use </gt §4global_energy_join§r §1[User Joining] [User to Join]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use <§c/sp invite§r §1[Player Name]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
 
 # Quest: Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=§5§l§nAbsolute Purity
