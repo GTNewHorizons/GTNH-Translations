@@ -235,10 +235,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIA.desc=물을 옮기는 방법을 찾�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.name=§a§lTinker-타임
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIQ.desc=돼지와 소를 죽이는 재미로는 부싯돌 도구가 재미 1티어지만, 고치지도 못하고 내구도도 약합니다. 게다가 인퍼널 몹들은 부싯돌 도구를 보고 비웃기까지 하네요... 여러분은 수리하고 업그레이드할 수 있는 도구를 만드는 방법을 발견했지만, 더 정교한 제작 기술이 필요합니다.%n%n[note]만약 참나무 외의 나무를 사용해 부품 조합대를 만들어야 한다면, 퀘스트를 완료하기 위해 조합창에 부품 조합대를 두면, 참나무 부품 조합대로 바꿔드립니다.[/note]
 
-# Quest: Zinc Gravel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.name=§a§l아연 자갈
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIg.desc=지표면상의 자갈 덩어리에서 찾을 수 있습니다.%n%n가능한 한 적게 사용하고, 나머지는 증기 티어의 분쇄기를 만들 때까지 보관하세요. 그러면 두 배의 양을 얻을 수 있습니다.%n%n만약 찾을 수 없다면, 코인 탭에서 구매할 수 있습니다.%n%n충분히 모아 완전히 가공하면, LV 티어에서 쓰이는 비소화 갈륨을 만들기 위한 갈륨을 얻을 수 있습니다.
-
 # Quest: Making Bronze
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.name=§a§l청동 만들기
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAIw.desc=이제 구리와 주석을 찾았으니, 청동을 만들어보세요. 분쇄기를 사용해ㅅ.... 가 아니라 절구를 사용해 주괴를 갈고, 그것들을 함께 섞어보세요!
@@ -1990,6 +1986,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjQ.desc=두 번째 단계로, 우리는
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.name=§6§l실리콘으로 모든 것이 짠가요?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.desc=만약 실리콘을 정제하기 위해 필요한 재료들에 대해 불만이 있다면, 좋은 소식이 있습니다! 얻게 된 염을 전해 분해하면 사용한 염소와 나트륨을 모두 회수할 수 있습니다!%n%n%n§3나트륨 대신 아연을 사용할 수도 있어요, 첫 번째 반응은 시간이 좀 더 걸리지만 재활용이 훨씬 저렴합니다.
 
+# Quest: Dislocator Inhibitor
+betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.name=§6§lDislocator Inhibitor
+betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.desc=Tired of your magnet picking up everything? Fortunately, with the advent of Dark Steel this no longer needs to be an issue.%n%nThe Dislocator Inhibitor will restrict the function of the Draconic Evolution Item Dislocator within a customizable range of up to 16 blocks. You can stop it from picking up items entirely, or configure a whitelist or blacklist of your choosing. Additionally, you can choose whether it is always active or only enabled by a redstone signal.
+
 
 ## Quest Line: Tier 3 - HV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAABQ.name=티어 3 - HV
@@ -2747,10 +2747,6 @@ betterquesting.quest.JkWQZxq_TECWjHhjywrZZA.desc=이제 EV 티어에 도달했�
 # Quest: EV Field Generator
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.name=§a§lEV 장 생성기
 betterquesting.quest.Jna1jgAySNSs8nS0YMXpLw.desc=장 생성기를 사용하면 첫 양자 상자나 양자 탱크를 만들 수 있습니다. 하지만 처음 두 개는 T2 로켓을 위해 사용해야 합니다.
-
-# Quest: Supersized Buses
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.name=§b§l극대화된 버스
-betterquesting.quest.Mt25IP2aShSSUBhZ1GGItg.desc=입력 및 출력 버스의 용량이 충분하지 않으신가요? %n%n슈퍼 버스로 버스를 업그레이드하고 슬롯 증가의 편리함을 즐겨보세요.
 
 # Quest: EXTREME MIXING
 betterquesting.quest.kQL8JceoSMSLDU_2AFjoqw.name=§a§l극한 혼합
@@ -14128,7 +14124,7 @@ betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=Getting annoyed trying to reach
 
 # Quest: Powerfail Notifications
 betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.name=§6§lPowerfail Notifications
-betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use </gt §4global_energy_join§r §1[User Joining] [User to Join]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=Congratuations on your first EBF!%n%nThroughout your GTNH gameplay you will end up creating hundreds of multiblocks, and will very likely run into a multitude of power failures at some point. %n%nFortunately, we have a dedicated system for helping you stay informed of exactly when and where these power failures occur §3(though the 'why' portion is up to you to figure out!)§r.%n%nWhen a multiblock powerfails, you will receive a notification in §5chat§r, in addition to a visible icon on §5screen§r, and an icon visible on your §5map§r. %n%n§lYou can clear these notifications by§r:%n- Clicking into the multiblock that has powerfailed%n- Deleting the notification in JourneyMap%n- Typing §4/powerfails clear§r%n%nFor those playing §2multiplayer§r, anyone who is on your §2team§r will receive the §2same notifications§r. §2§nOne person§r clearing a notification should clear it for§2 §nall players§r.%n%n[note]This feature uses the same team system as wireless EU. Use <§c/sp invite§r §1[Player Name]§r> to team up.[/note]%n%nAll of these features can be turned off in the gregtech config. If you want the on screen icon to disappear use §4§l/powerfails hide§r. For all in-game options use §4§l/powerfails help§r.
 
 # Quest: Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=절대적 순수함
