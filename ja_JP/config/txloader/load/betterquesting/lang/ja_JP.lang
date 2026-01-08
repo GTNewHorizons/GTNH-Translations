@@ -873,6 +873,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.desc=遂に最初の"電圧"時�
 betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.name=§2§lHandle Resources Like a Bo$$ #1
 betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.desc=A feat of human engineering at your disposal!%n%nThis machine allows you to filter by machine recipe type and allows you to effortlessly set up automations. To use it simply put a machine of any type into the GUI to create a filter, e.g. a Macerator will allow the machine to only accept items that can be macerated. The same machine can be used to create an inverse filter (a button in the GUI) that will allow you to exclude all items that can be processed by that machine.
 
+# Quest: Certus Quartz Tank
+betterquesting.quest.7S9hEFF5TsW3ud7wK8_wVQ.name=§2§lCertus Quartz Tank
+betterquesting.quest.7S9hEFF5TsW3ud7wK8_wVQ.desc=Finally, a cool looking tank! It can store up to §932,000 L§r, just like the Ultra Low Voltage Fluid Tank or Large Aluminium Fluid Cell, and comes with some nice QoL features:%n%n- They stack up to 64 items per slot, making it possible to store §92,048,000 L§r in a single slot!%n%n- Tanks can be placed on top of each other to form a connected tower. When filling higher tanks, the fluid will automatically flow down. You can also drain fluid from higher tanks even if the fluid is only stored in tanks below.%n%n- You can use an §lEmpty Cell§r, a §lLarge Fluid Cell§r or any other §lfluid container§r to fill or drain a tank on right click. If the fluid container in your hand is not empty, right-click will always try to fill the tank from it.%n%n[warn]§lNote: The tank keeps its contents only when right-clicked with a wrench. Breaking it with a pickaxe will void the stored fluid.§r[/warn]
+
 # Quest: Welcome to Tier 1, LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.name=§2§nTier1 - LV時代へようこそ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.desc=おお、こんにちは！電気時代に突入したみたいですね。しばらくは使うことになると思うので、蒸気機械はすぐには捨てないでくださいね。%n%n生活を楽にするために、まずは§7《§3ワイヤミル§7／Wiremill》§3と§7《§3折り曲げ機§7／Bender》§3を作ることに注力したほうがいいでしょう...機械部品を作るのに十分苦しんだと思います。%n%nそのあと、§7《§3電気磁化機§7／Polarizer》§3、§7《§3組み立て機§7／Assembler》§3、§7《§3旋盤§7／Lathe》§3、そして(ゴム用の)§7《§3化学反応器§7／Chemical Reactor》§3と§7《§3液体成型機§7／Fluid Solidifier》§3はすべて、ものをより低コストで作るのに役立ちます。%n%n蒸気機械は蒸気を50%%の効率でエネルギーに変換するが、LV蒸気タービンは85%%の効率で蒸気をエネルギーに変換するのでLV機械のほうが優れた効率です。%n%nULV機械は存在しません。
@@ -1524,7 +1528,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAzg.desc=§7《§rIC2冷却材§7／IC2 
 
 # Quest: Clay Electrolyzing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.name=§6§n粘土の電気分解
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.desc=If you looked through NEI you may have found out that electrolyzing clay dust will give you Alumina, Silicon Dioxide, Sodium, and Lithium dust. And water, but you're probably just voiding that already, right? There are plenty of stained clay blocks found in canyon, mesa, lush desert biomes or several to a couple dozen on mountains that can be pulverized to clay dust.%n%nThere are more ways to get alumina now that you're in MV, enough that it's basically worthless by the time you get to EV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-A.desc=NEIをチェック済みなら、粘土の粉末を電解することでアルミナ、二酸化ケイ素、ナトリウム、リチウムの粉が得られることに気づいたかもしれません。水も出ますが、どうせ捨てちゃっていますよね？ canyon, mesa, lush desertバイオームには色付きテラコッタがたくさんありますし、山岳バイオームにも数十個ほど生成されます。これらを粉砕すれば粘土の粉末になります。%n%nMV世代に入ったことでアルミナの入手手段はさらに増えました。EVに到達する頃には、余りすぎて価値がなくなるほど手に入っているはずです。
 
 # Quest: Bio Fuels
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC2g.name=§6§nバイオ燃料
@@ -1660,7 +1664,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADSg.desc=メタンガスはセルあた�
 
 # Quest: Methanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.name=§6§nメタノール
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.desc=メタノールはセルあたり84,000 EUの燃料として使用でき、バイオディーゼルやその他の液体を作るために使用できます。また、特定のロケット燃料の材料としても使用できます。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADSw.desc=メタノールはセルあたり84,000EUの燃料として使用でき、バイオディーゼルやその他の液体を作るために使用できます。また、特定のロケット燃料の材料としても使用できます。
 
 # Quest: Ethanol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTA.name=§6§nエタノール
@@ -1676,7 +1680,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADTg.desc=酸素は様々な方法で生�
 
 # Quest: Ethylene
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADTw.name=§6§nエチレン
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADTw.desc=エチレンを作る方法はいくつかあります。%n%n- 化学反応機でエタノールと硫酸を使用する%n- 化学乾燥機でエタノールを使用する%n- 蒸留器で様々なガス §n《木ガスなど》§n を蒸留する%n- "原油のための労働" タブを参考に原油から入手する必要があります。%n%n[note]後ほど、12個よりも遥かに多くのセルが必要になるので、覚えておいてください。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADTw.desc=エチレンを作る方法はいくつかあります。%n%n- 化学反応機でエタノールと硫酸を使用する%n- 化学乾燥機でエタノールを使用する%n- 蒸留器で様々なガス §n《木ガスなど》§n を蒸留する%n- "原油のための労働"タブを参考に原油から入手する必要があります。%n%n[note]後ほど、12個よりも遥かに多くのセルが必要になるので、覚えておいてください。[/note]
 
 # Quest: Seed Oil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADUA.name=§6§n種油
@@ -1700,7 +1704,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_A.desc=塩化鉄(III)は、まず水�
 
 # Quest: Sodium Persulfate
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_Q.name=§6§nナトリウム過硫酸塩
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_Q.desc=Sodium Persulfate can be made in the electrolyzer out of sodium bisulfate dust. Sodium bisulfate is made out of sulfuric acid and salt in the chemical reactor. You can etch your board with it.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD_Q.desc=過硫酸ナトリウムは、電解槽で硫酸水素ナトリウムの粉末から作ることができます。硫酸水素ナトリウムは、化学反応器で硫酸と塩を反応させて作りましょう。これの物質を使用すると基板のエッチング処理が可能です。
 
 # Quest: You're Gonna Hate This in MV Too #2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADfQ.name=§5§nMVでもきっと嫌いになる パート2
@@ -1792,11 +1796,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKQ.desc=MV粉砕機はLV粉砕機と比
 
 # Quest: Advanced Centrifuge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKg.name=§6§n発展型遠心分離機
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKg.desc=The MV centrifuge is twice as fast as the LV one but uses 4x the power.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKg.desc=MV遠心分離機はLV遠心分離機と比べて2倍の処理速度を誇りますが、消費電力は4倍になります。
 
 # Quest: Biomass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKw.name=§6§nバイオマス
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKw.desc=Choose the IC2 or the GregTech way to make Biomass. Water and Bio Chaff is needed.%n%nYou can also use the Pyrolyze Oven to make Biomass in a more efficient way if you make it.%n%nNote that Forestry has its own Biomass as well. It can also be turned into Fermented Biomass.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFKw.desc=バイオマスを作るために、IC2またはGregTechのいずれかの方法を選択してください。水とBio Chaffが必要になります。%n%nもし熱分解炉を作成済みであれば、より効率的にバイオマスを製造することも可能です。%n%nなお、Forestryにも独自のバイオマスが存在することに注意してください。それは発酵したバイオマスに加工することもできます。
 
 # Quest: Advanced Fluid Extractor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLA.name=§6§n発展型液体抽出機
@@ -1952,7 +1956,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_Q.desc=To produce Methanol and Ethanol
 
 # Quest: Way Three: Pyrolyse Oven
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_g.name=§6§lWay Three: Pyrolyse Oven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_g.desc=By using the Pyrolyse Oven, you are able to reap the rewards of coil speed increases.%n%nYou can also side-step the need for a Fermenter. Check out NEI to see which way suits you best. The GT++ Industrial Coke Oven will allow you to do this as well.%n%n(You only have to submit one of these)
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_g.desc=熱分解炉を使用することで、コイルの速度上昇による恩恵を受けることができます。%n%nまた、発酵槽を使用する工程を省略することも可能です。どちらの方法が最適か、NEIで確認してみてください。GT++の工業用コークス炉でも同様のことが可能です。%n%n(これらのうち1つを提出するだけでクリアとなります)
 
 # Quest: Cooling Kanthal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL_w.name=§6§nカンタルの冷却
@@ -6683,7 +6687,7 @@ betterquesting.quest.pbLvv9tvQaKGp2Y2usPMSw.desc=The next tier of Borosilicate g
 
 # Quest: A Not So Useful Scanner...
 betterquesting.quest.pd68ySXjTD6yW1MN6x6swg.name=§6§lA Not So Useful Scanner...
-betterquesting.quest.pd68ySXjTD6yW1MN6x6swg.desc=...but a very useful meter.%n%nGT EU Meter will give you basic information about electricity in your cables and machines.%n%n[note]A more advanced version is available in MV and will allow you to gather much more data, so come back to this tab later to find it.[/note]
+betterquesting.quest.pd68ySXjTD6yW1MN6x6swg.desc=……ですが、非常に便利なメーターです。%n%nGT EU Meterは、ケーブルやマシンの中を流れる電気に関する基本的な情報を教えてくれます。%n%n[note]MV時代ではより発展的なバージョンが利用可能になり、さらに多くのデータを収集できるようになります。後でこのタブに戻って確認してみてください。[/note]
 
 # Quest: Drone are not Drones!
 betterquesting.quest.prKPwVNgSgOE1NGPiEEF-g.name=§6§lDrone are not Drones!
