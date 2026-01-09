@@ -36,6 +36,10 @@ genetics.item.registry.1.name=完璧な登録簿
 genetics.item.serum.name=%sの接種液
 genetics.item.serumArray.name=%sの接種液アレイ
 
+genetics.gui.registry.title=Registry
+genetics.gui.registry.1.title=Master Registry
+genetics.gui.analyst.title=Analyst
+
 genetics.item.sequence=DNA配列
 genetics.item.sequence.0=非常に微弱
 genetics.item.sequence.1=微弱
@@ -59,6 +63,7 @@ genetics.sequence.partially=一部シーケンス解析済み (%d%%)
 
 tile.machine.name=分離機
 genetics.machine.machine.isolator=分離機
+gui.genetics.machine.machine.isolator.title=Isolator
 genetics.machine.machine.isolator.info=分離機は蜂や樹木、その他の個体からランダムな対立遺伝子を取り出し、空のシーケンス用バイアルにコピーします。この際、溶媒として用いるエタノールと、DNAを切断するための酵素が必要となります。その後、未解析の配列を増幅機で増幅し、DNAシーケンサーでシーケンス解析を行います。この過程で、個体が破壊される可能性がわずかにあります。
 genetics.machine.isolator.error.noIndividual=分離する個体がいません
 genetics.machine.isolator.error.noRoom=DNA配列用の搬出スロットが埋まっています
@@ -67,6 +72,7 @@ genetics.machine.isolator.error.noLiquid=エタノールが不足しています
 genetics.machine.isolator.error.noEnzyme=酵素がありません
 
 genetics.machine.machine.sequencer=DNAシーケンサー
+gui.genetics.machine.machine.sequencer.title=Sequencer
 genetics.machine.machine.sequencer.info=DNAシーケンサーは未解析の配列を用いて、その中にどの対立遺伝子が存在するかを決定します。このプロセスには時間がかかり、蛍光色素を使用する必要があります。
 genetics.machine.sequencer.unsequencedDNA=未解析のDNAです
 genetics.machine.sequencer.error.noSequence=DNA配列がありません
@@ -78,6 +84,7 @@ genetics.machine.sequencer.gui.sequensedBy=%sが遺伝子を解析していま�
 genetics.machine.sequencer.gui.willNotSave=ユーザーがいません。配列を保存しません。
 
 genetics.machine.machine.polymeriser=増幅機
+gui.genetics.machine.machine.polymeriser.title=Polymeriser
 genetics.machine.machine.polymeriser.info=増幅機は空の接種液に生のDNAと複製細菌を充填します。このプロセスは金塊で加速させることができます。
 genetics.machine.polymeriser.error.noItem=増幅するアイテムがありません
 genetics.machine.polymeriser.error.itemFilled=アイテムが一杯です
@@ -88,6 +95,7 @@ genetics.machine.polymeriser.replicatingWithGenes=%d種類の遺伝子を複製�
 genetics.machine.polymeriser.unfilledSerum=未充填の接種液
 
 genetics.machine.machine.inoculator=接種機
+gui.genetics.machine.machine.inoculator.title=Inoculator
 genetics.machine.machine.inoculator.info=接種機は接種液を用いて繁殖可能な個体に遺伝子を付与します。このプロセスは非常に時間がかかり、細菌ベクターが必要ですが、必ず成功します。
 genetics.machine.inoculator.error.noIndividual=接種する個体がいません
 genetics.machine.inoculator.error.noSerum=接種液がありません
@@ -105,6 +113,7 @@ genetics.machine.inoculator.inoculableIndividual=接種可能な個体
 genetics.machine.inoculator.serums=接種液のバイアルまたはアレイ
 
 genetics.machine.labMachine.genepool=遺伝子プール
+gui.genetics.machine.labMachine.genepool.title=Genepool
 genetics.machine.labMachine.genepool.info=遺伝子プールは酵素とエタノールを使って生物をDNAに分解します。この過程で遺伝情報はすべて失われ、DNAの材料となったものは消滅します。
 genetics.machine.genepool.error.noIndividual=分解する個体がいません
 genetics.machine.genepool.error.noRoom=タンクが満杯です
@@ -115,6 +124,7 @@ tile.labMachine.name=実験台
 genetics.machine.labMachine.labMachine=実験台
 
 genetics.machine.labMachine.analyser=分析機 [Genetics]
+gui.genetics.machine.labMachine.analyser.title=Analyzer
 genetics.machine.labMachine.analyser.info=分析機は繁殖可能な個体やDNA配列を分析して遺伝子を決定します。これには紫色の染料とグロウストーンから作成するDNA染色剤が必要になります。
 genetics.machine.analyser.dnaDye=DNA染色剤
 genetics.machine.analyser.unanalysedItem=未分析のアイテム
@@ -125,6 +135,7 @@ genetics.machine.analyser.error.insufficientDye=DNA染色剤が足りません
 genetics.machine.analyser.error.noItem=分析するアイテムがありません
 
 genetics.machine.labMachine.incubator=培養槽
+gui.genetics.machine.labMachine.incubator.title=Incubator
 genetics.machine.labMachine.incubator.info=培養槽は液体とアイテムを混ぜ合わせ、細菌の増殖を促す理想的な温度で保持できます。
 genetics.machine.incubator.error.noRecipe.title=レシピなし
 genetics.machine.incubator.error.noRecipe=有効なレシピがありません
@@ -132,6 +143,7 @@ genetics.machine.incubator.error.noLiquid=培養液が不足しています
 genetics.machine.incubator.error.noRoom=搬出スロットが埋まっています
 
 genetics.machine.labMachine.acclimatiser=順応機
+gui.genetics.machine.labMachine.acclimatiser.title=Acclimatiser
 genetics.machine.labMachine.acclimatiser.info=順応機は順応用アイテムを用いて個体の温度または湿度耐性を調節します。このプロセスが成功する確率はわずかです。
 genetics.machine.acclimatiser.acclimatizingItems=順応用アイテム
 genetics.machine.acclimatiser.error.noIndividual=順応させる個体がいません
@@ -140,6 +152,7 @@ genetics.machine.acclimatiser.error.invalidAcclimatizingItems=このアイテム
 
 tile.advMachine.name=接続機
 genetics.machine.advMachine.splicer=接続機
+gui.genetics.machine.advMachine.splicer.title=Splicer
 genetics.machine.advMachine.splicer.info=接続機は、個体への遺伝子導入に使用する、とてつもなく強力な機械です。このプロセスは高速ですが、途方もないエネルギーが必要になります。
 genetics.machine.splicer.error.noIndividual=遺伝子を接続させる個体がいません
 genetics.machine.splicer.error.noSerum=接種液がありません
