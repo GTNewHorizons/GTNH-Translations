@@ -873,6 +873,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.desc=Первое знакомс
 betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.name=§2§lПерерабатывай ресурсы как Bo$$ #1
 betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.desc=Достижение человеческой инженерии в твоем распоряжении!%n%nЭтот механизм позволяет фильтровать по типу рецепта и легко настраивать автоматизацию. Чтобы использовать его, просто помести любой механизм в интерфейс для создания фильтра, например, дробитель позволит механизму принимать только те предметы, которые можно дробить. Так же он может использоваться для создания обратного фильтра (кнопка в интерфейсе GUI), который позволяет исключить все предметы, которые можно обработать этим механизмом.
 
+# Quest: Certus Quartz Tank
+betterquesting.quest.7S9hEFF5TsW3ud7wK8_wVQ.name=§2§lРезервуар из истинного кварца
+betterquesting.quest.7S9hEFF5TsW3ud7wK8_wVQ.desc=Finally, a cool looking tank! It can store up to §932,000 L§r, just like the Ultra Low Voltage Fluid Tank or Large Aluminium Fluid Cell, and comes with some nice QoL features:%n%n- They stack up to 64 items per slot, making it possible to store §92,048,000 L§r in a single slot!%n%n- Tanks can be placed on top of each other to form a connected tower. When filling higher tanks, the fluid will automatically flow down. You can also drain fluid from higher tanks even if the fluid is only stored in tanks below.%n%n- You can use an §lEmpty Cell§r, a §lLarge Fluid Cell§r or any other §lfluid container§r to fill or drain a tank on right click. If the fluid container in your hand is not empty, right-click will always try to fill the tank from it.%n%n[warn]§lNote: The tank keeps its contents only when right-clicked with a wrench. Breaking it with a pickaxe will void the stored fluid.§r[/warn]
+
 # Quest: Welcome to Tier 1, LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.name=§2§lДобро пожаловать на этап 1, LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.desc=О, привет! Я смотрю ты уже начал пользоваться электричеством. Но не спеши избавляться от своих паровых механизмов, т.к. они тебе ещё пригодятся.%n%nЧтобы твоя жизнь стала проще, тебе нужно сделать проволочный и гибочный станки... первыми... тогда твои страдания с производством компонентов для механизмов закончатся.%n%nДалее за ними следуют: поляризатор, сборочная машина, токарный станок, химический реактор, жидкостный отвердитель (для резины) - всё это поможет тебе сберечь твои ресурсы.%n%nLV механизмы более энергоэффективны чем паровые, т.к. паровые механизмы используют пар с КПД всего 50%%, в то время как паровая турбина конвертирует пар в электричество с КПД 85%%.%n%nULV этапа не существует.
@@ -1541,10 +1545,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3A.desc=Раздроби получен
 # Quest: Bio Chaff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.name=§6§lОтходы
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.desc=Далее, нам надо запихать растительную массу в центрифугу, чтобы получить отходы, из которых мы будем готовить жидкую биомассу.
-
-# Quest: Way One: IC2 Fluid Canner
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3g.name=§6§lПервый способ: Жидкостный/Твердотельный наполняющий механизм из IC2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3g.desc=Первый способ, благодаря которому ты можешь получить жидкую биомассу из отходов - это Жидкостный/Твердотельный наполняющий механизм из IC2. Из одного ведра воды и 1 единицы отходов, ты получишь одно ведро жидкой биомассы.%n%n[warn]Этот способ особо не рекомендуется. Тебе стоит сосредоточиться на механизмах из GT, а не IC2. У него также немного кривое взаимодействие с обычными капсулами, так что тебе, возможно, потребуется использовать универсальные капсулы.[/warn]
 
 # Quest: Way Two: Brewery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.name=§6§lВторой способ: Варочная машина
@@ -9136,7 +9136,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG1w.desc=See the digital world.%n%nYour 
 
 # Quest: Control Units
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2A.name=Control Units
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2A.desc=So controlling! Strangely enough, this part takes an HV circuit to craft; so here's some to make your first computer parts in exchange for MV circuits in their place. Don't spend them all in one place!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2A.desc=Control Units are used for a variety of crafts, but most namely CPUs and GPUs. You will be needing quite a few of these, let's just make 16 for now.
 
 # Quest: What Did the Data Say to the CPU?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2Q.name=Что данные сказали процессору?
