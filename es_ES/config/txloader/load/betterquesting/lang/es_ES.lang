@@ -873,6 +873,10 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.desc=El primer tier de “voltaj
 betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.name=§2§l¡Maneja los Recursos Como un Jefe #1!
 betterquesting.quest.53iZp0DzRzidBo4-kUsWGg.desc= Esta máquina le permite filtrar por tipo de receta y configurar automatizaciones sin esfuerzo. Para utilizarla basta con poner una máquina de cualquier tipo en la GUI para crear un filtro, por ejemplo, un Macerador permitirá que la máquina sólo acepte artículos que puedan ser macerados. La misma máquina puede utilizarse para crear un filtro inverso (un botón en la GUI) que le permitirá excluir todos los artículos que puedan ser procesados por esa máquina.
 
+# Quest: Certus Quartz Tank
+betterquesting.quest.7S9hEFF5TsW3ud7wK8_wVQ.name=§2§lCertus Quartz Tank
+betterquesting.quest.7S9hEFF5TsW3ud7wK8_wVQ.desc=Finally, a cool looking tank! It can store up to §932,000 L§r, just like the Ultra Low Voltage Fluid Tank or Large Aluminium Fluid Cell, and comes with some nice QoL features:%n%n- They stack up to 64 items per slot, making it possible to store §92,048,000 L§r in a single slot!%n%n- Tanks can be placed on top of each other to form a connected tower. When filling higher tanks, the fluid will automatically flow down. You can also drain fluid from higher tanks even if the fluid is only stored in tanks below.%n%n- You can use an §lEmpty Cell§r, a §lLarge Fluid Cell§r or any other §lfluid container§r to fill or drain a tank on right click. If the fluid container in your hand is not empty, right-click will always try to fill the tank from it.%n%n[warn]§lNote: The tank keeps its contents only when right-clicked with a wrench. Breaking it with a pickaxe will void the stored fluid.§r[/warn]
+
 # Quest: Welcome to Tier 1, LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.name=§2§Bienvenido al Nivel 1, LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAWA.desc=¡Hola! Parece que has llegado a la era eléctrica. No vayas tan rápido a tirar tus maquinas de vapor, posiblemente quieras seguir usándolas durante un tiempo. Para hacer tu vida mas fácil, querrás enfocarte en conseguir un laminador de alamabre y una máquina dobladora primero… una vez hayas sufrido haciendo todas los componentes de las maquinas. Después de eso, el polarizador, ensamblador, torno y reactor químico + solidificador de fluidos (para la goma), todos ayudan a hacer las cosas mas baratas. Las máquinas de LV son mas energia-eficiente que sus contrapartidas de vapor porque las maquinas de vapor convierten el vapor en energía con un 50% de eficiencia, cuando la turbina de vapor inicial de LV tiene un 85% de eficiencia.
@@ -1425,7 +1429,7 @@ betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.desc=Are you tired of storing Shapes
 
 # Quest: Refined Firestone
 betterquesting.quest.njE33db1TxaiJhEBA16E4A.name=§5§lPiedrafuego Refinado§5
-betterquesting.quest.njE33db1TxaiJhEBA16E4A.desc=Cut Firestone is the basic shape for producing Refined Firestone.%nUse a Diamond Lens or Flint Lens for cutting.%nIt is then fired with lava in the EBF.%n%nLastly it is thrown into lava and charged by absorbing lava blocks around it.%nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.%n%nThis is most often used to heat up Steam Boilers very quickly or as a fuel. Additionally, it can function as a Flint and Steel.%n%n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]
+betterquesting.quest.njE33db1TxaiJhEBA16E4A.desc=Cut Firestone is the basic shape for producing Refined Firestone.%nUse a Diamond or Firestone Lens for cutting.%nIt is then fired with lava in the EBF.%n%nLastly it is thrown into lava and charged by absorbing lava blocks around it.%nIt needs 5000 lava blocks to be fully charged, so a large lava lake is required, preferably in the Nether.%n%nThis is most often used to heat up Steam Boilers very quickly or as a fuel. Additionally, it can function as a Flint and Steel.%n%n[note]If the firestone breaks, it can be repaired with lava in the EBF and recharged.[/note]
 
 # Quest: Precision Laser Engraver
 betterquesting.quest.vV8Pw_lTTSiMmWOLqkyIWg.name=§5§lGrabador Laser de precisión
@@ -1543,10 +1547,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3A.desc=Macera las bolas de plantas par
 # Quest: Bio Chaff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.name=§6§lBio Paja
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3Q.desc=La masa de plantas necesita ser centrifugada para hacer bio paja, el material base para hacer bio masa.
-
-# Quest: Way One: IC2 Fluid Canner
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3g.name=§6§lPrimera Manera: Enlatadora de Fluidos IC2
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3g.desc=La primera manera en la que obtienes bio masa de bio paja es usando el enlatadora de fluidos del IC2. Un cubo de agua y uno de bio paja proporciona un cubo de bio masa. %n%n[warn]Esta opción realmente no se recomienda. Deberías concentrarte en las maquinas de GT, no del IC2. A su vez cuenta con algunas interacciones erróneas con celdas normales, puede que también necesites usar celdas universales.[/warn]
 
 # Quest: Way Two: Brewery
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC3w.name=§6§lSegunda Forma: Cerveceria
@@ -6414,7 +6414,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.desc=This oven is the best way to ge
 
 # Quest: It's Time to Get More Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.name=§6§lHora de Obtener Mas Vapor
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.desc=As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800L of steam per tick. This is enough to run 10 basic steam turbines.%n%nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 150L of steam.%n%nTo make a large boiler you must make a 3x3x5 structure with Bronze Pipe Casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.%n%n§cWarning: Different from other boilers, Large Boilers must contain water at all times while active. If at any point the Boiler runs out of water while it is active, it will explode.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.desc=As soon as you have the ability to store energy in large quantities, it would be necessary to have a way to generate energy in large quantities. You need a large bronze boiler. But in order to make this boiler, you will need a mountain of bronze. This boiler produces 800L of steam per tick. This is enough to run 10 basic steam turbines.%n%nThe large boiler can use either water or distilled water. Water is consumed at a rate of 1L of water per 160L of steam.%n%nTo make a large boiler you must make a 3x3x5 structure with Bronze Pipe Casings in the center of the middle 3 levels. The lowest level must contain at least 1 or 2 input hatches, 1 or 2 input buses, 3 or 4 fireboxes, 1 muffler, and one maintenance hatch. The lowest level can not contain any plated bricks. All hatches, buses, and mufflers must have their back side touching a firebox. The output hatch can be placed on any of the upper 4 levels.%n%n§cWarning: Different from other boilers, Large Boilers must contain water at all times while active. If at any point the Boiler runs out of water while it is active, it will explode.
 
 # Quest: Steam is Never Enough
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEg.name=§6§lEl Vapor Nunca es Suficiente
@@ -6795,7 +6795,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=I never wanna grow up, I wanna 
 
 # Quest: Best Thing Since Sliced Bread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.name=La Mejor Cosas desde el Pan Rebanado
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=When all you have is a machine full of knives, everything starts looking like bread. You can switch between Cutting Machine and Slicing Machine modes with a screwdriver.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=When all you have is a machine full of knives, everything starts looking like bread.
 
 # Quest: ZzzZZZzzzZtt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8g.name=ZzzZZZzzzZtt
@@ -9143,7 +9143,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG1w.desc=See the digital world.%n%nYour 
 
 # Quest: Control Units
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2A.name=Unidades de Control
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2A.desc=So controlling! Strangely enough, this part takes an HV circuit to craft; so here's some to make your first computer parts in exchange for MV circuits in their place. Don't spend them all in one place!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2A.desc=Control Units are used for a variety of crafts, but most namely CPUs and GPUs. You will be needing quite a few of these, let's just make 16 for now.
 
 # Quest: What Did the Data Say to the CPU?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG2Q.name=Que Le Dijo la Informacion al CPU?
