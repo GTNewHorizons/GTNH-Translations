@@ -36,11 +36,11 @@ focus.upgrade.persistant.text=Quando o alvo desse foco morre, desaparece ou sai 
 #=========BLOCK NAMES==================
 
 tile.BlockShadowOre.name=Minério de Sombra
-tile.BlockWarpwoodLog.name=Warpwood
-tile.BlockWarpwoodSapling.name=Warpwood Sapling
-tile.BlockWarpwoodLeaves.name=Warped Leaves
+tile.BlockWarpwoodLog.name=Madeira Corrompida
+tile.BlockWarpwoodSapling.name=Muda de Madeira Corrompida
+tile.BlockWarpwoodLeaves.name=Folhas Corrompidas
 tile.BlockShadowmetal.name=Bloco de Metal Sombrio
-tile.BlockWarpwoodPlanks.name=Warpwood Planks
+tile.BlockWarpwoodPlanks.name=Tábuas de Madeira Corrompida
 
 #=========ITEM NAMES===================
 
@@ -48,7 +48,7 @@ item.ItemMaterial.name=Resource
 item.ItemMaterial.0.name=Lingote de Metal Sombrio
 item.ItemMaterial.1.name=Tecido Imbuído com Sombra
 item.ItemMaterial.2.name=Tecido Tingido de Carmesim
-item.ItemMaterial.3.name=Warped Shard
+item.ItemMaterial.3.name=Fragmento Corrompido
 item.ItemMaterial.4.name=Caco Fluxado
 
 item.ItemMaterial.5.name=Fragmento da Criação
@@ -71,7 +71,7 @@ text.sash.mode=Aumento de Velocidade:
 
 item.ItemVoidwalkerBoots.name=Botas do Viajante do Vazio
 
-item.ItemWarpedGoggles.name=Warped Goggles of Revealing
+item.ItemWarpedGoggles.name=Óculos da Descoberta Corrompidos
 item.ItemVoidmetalGoggles.name=Óculos da Descoberta de Metal Vazio
 
 item.ItemKatana.name=Fortress Blade
@@ -93,7 +93,7 @@ text.disassembler.normal=Normal
 text.disassembler.fast=Rápido
 text.disassembler.slow=Lento
 text.disassembler.off=Desligado
-text.modeToggle=Mode toggled to
+text.modeToggle=Modo alterado para
 
 item.ItemShadowmetalPick.name=Picareta de Metal Sombrio
 item.ItemShadowmetalAxe.name=Machadinha de Metal Sombrio
@@ -118,8 +118,8 @@ item.ItemFocusTime.name=Foco de Varinha: Tempo
 item.ItemFocusVisShard.name=Foco de Varinha: Fragmento de Vis
 
 item.ItemWandRod.name=Warpwood Rod/Staff Core
-item.ItemWandRod.0.name=Warpwood Rod
-item.ItemWandRod.1.name=Warpwood Staff Core
+item.ItemWandRod.0.name=Haste de Madeira Corrompida
+item.ItemWandRod.1.name=Núcleo de Cajado de Madeira Corrompida
 
 item.ItemWandCap.name=Cap
 item.ItemWandCap.0.name=Ponta de Metal Sombrio
@@ -127,7 +127,7 @@ item.ItemWandCap.1.name=Ponta de Tecido Encantando
 item.ItemWandCap.2.name=Ponta de Tecido Tingido de Carmesim
 item.ItemWandCap.3.name=Ponta de Tecido Imbuído com Sombra
 
-item.Wand.warpwood.rod=Warpwood
+item.Wand.warpwood.rod=Madeira Corrompida
 
 item.Wand.shadowmetal.cap=Sintonizada com Metal Sombrio
 item.Wand.cloth.cap=Entrelaçada com Cetim
@@ -158,22 +158,22 @@ tm.text.SHADOWMETAL.1=Em certo momento você estava trabalhando perto do seu cal
 #CAP_shadowmetal
 
 tm.name.CAP_shadowmetal=Pontas de Varinha de Metal Sombrio
-tm.tag.CAP_shadowmetal=What a drag
-tm.text.CAP_shadowmetal.1=With the discovery of Void Metal Wand Caps you wondered if you could improve their performance even further. You tested this theory by infusing the caps with some Shadowmetal, as well as the primal aspects of a primordial pearl. It proved very successful.<BR>The Shadowmetal Caps seem to be extremely efficient at channeling vis, and will grant a heavy discount of 30% for all primal aspects.<BR>The Primordial Pearl is not consumed during the crafting process.
+tm.tag.CAP_shadowmetal=Esgotante
+tm.text.CAP_shadowmetal.1=Com a descoberta de Pontas de Varinha de Metal Vazio, você se perguntou se seria possível aprimorar ainda mais o seu desempenho. Você testou essa teoria ao infundir as pontas com um pouco de Metal Sombrio e também os aspectos primários da Pérola Primordial. Isso se provou um grande sucesso.<BR>As Pontas de Metal Sombrio parecem ser extremamente eficientes na canalização de vis e concedem um desconto considerável de 30% para todos os aspectos primários.<BR>A Pérola Primordial não é consumida durante o processo de infusão.
 
 #ROD_warpwood
 
-tm.name.ROD_warpwood=Warpwood Wand Rod
+tm.name.ROD_warpwood=Haste de Varinha de Madeira Corrompida
 tm.tag.ROD_warpwood=A varinha escolhe o mago...
-tm.text.ROD_warpwood.1=Ever since you discovered Warpwood, you have wondered if it would be possible to forge this wood into a wand. The Primordial Pearl has given you the answer to the question.<BR>Since the wood is imbued with warp, you think it's only logical to use a Zombie Brain as a place to store the insanity. And, Using the power of the Primordial Pearl as the core of this rod, the power is immense.<BR>The wood is also extremely dense, making it able to store huge amounts of vis - 250 of each, that is.<BR>(Continued)
+tm.text.ROD_warpwood.1=Desde que você descobriu a Madeira Corrompida, você se pergunta se seria possível criar uma varinha com essa madeira. A Pérola Primordial te deu a resposta.<BR>Já que a madeira está imbuída com corrupção, você entende que é apenas lógico usar um Cérebro de Zumbi para armazenar a insanidade. E, usando o poder da Pérola Primordial como o núcleo dessa haste, o poder é imenso.<BR>A madeira é extremamente densa, permitindo que ela armazene enormes quantidades de vis - 250 de cada. <BR>(Continua)
 
-tm.text.ROD_warpwood.2=It would also seem that the warp stored within the rod festers off of your own, creating vis as a byproduct and quickly filling up your wand. The more warp you amass, the greater the reaction, and the faster the wand will recharge itself. Due to this process being fueled by the Primordial Pearl, the influx of vis would put any other core to shame.<BR>Seeing as it wards off all warp, The Warp Ward buff seems to negate the reaction completely.<BR><BR>§oToday my wand started whispering strangely to me. As my insane mind grows stronger, the more my wand reveals to me...
+tm.text.ROD_warpwood.2=Parece também que a corrupção armazenada no interior da haste se nutre a partir da sua própria, criando vis como um subproduto e enchendo sua varinha rapidamente. Quanto mais corrupção você possuir, maior será a reação, e mais rápido a varinha irá se recarregar. Devido a esse processo ser alimentado pela Pérola Primordial, o influxo de vis deixaria qualquer outro núcleo no chão.<BR>Visto que ele afasta toda a corrupção, o efeito de Mente Sã parece negar a reação da varinha completamente.<BR><BR>§oHoje a minha varinha começou a sussurrar de maneira estranha para mim. À medida em que a minha mente insana se fortalece, mais a minha varinha revela para mim...
 
 #ROD_warpwood_staff
 
-tm.name.ROD_warpwood_staff=Warpwood Staff Core
-tm.tag.ROD_warpwood_staff=It's not quite clear why...
-tm.text.ROD_warpwood_staff.1=After having seen the power of the Warpwood wand core, you wondered what would happen if you were to make a staff.<BR>Unlike most staves, simply adding a primal charm was not enough to bind them into a staff core. It took the use of the Primordial Pearl.<BR>The same auto recharging abilities seem to apply as well, and on top of all of that this staff core offers a huge amount of storage - 500 primal vis.
+tm.name.ROD_warpwood_staff=Núcleo de Cajado de Madeira Corrompida
+tm.tag.ROD_warpwood_staff=Não está muito claro o porquê...
+tm.text.ROD_warpwood_staff.1=Depois de ver o poder do núcleo de varinha de Madeira Corrompida, você se perguntou o que aconteceria se criasse um cajado.<BR>Diferente da maioria dos cajados, simplesmente adicionar um talismã primordial não foi suficiente para combiná-los em um núcleo. Foi necessário usar a Pérola Primordial.<BR>As mesmas habilidades de recarga parecem se aplicar também, e além de tudo isso, esse núcleo de cajado oferece uma enorme capacidade de vis - 500 de vis primário.
 
 #EVILSHARDS
 
@@ -195,9 +195,9 @@ tm.text.VOIDFORTRESS.1=Esta é uma simples melhoria dos conceitos estabelecidos 
 
 #WARPEDGOGGLES
 
-tm.name.WARPEDGOGGLES=Warped Goggles Of Revealing
+tm.name.WARPEDGOGGLES=Óculos da Descoberta Corrompidos
 tm.tag.WARPEDGOGGLES=O telltale heart
-tm.text.WARPEDGOGGLES.1=By infusing your Goggles of Revealing with Shadowmetal you have solved an everlasting problem.<BR>A thaumaturge like yourself must choose between function and protection. By using Shadowmetal to strengthen your goggles, you have gained a few extra armor points - but at a cost.<BR>It seems that one of the lenses became clouded with warp - causing you to have strange visions at times. But no problem, it could be worse, right?
+tm.text.WARPEDGOGGLES.1=Ao infundir seus Óculos da Descoberta com Metal Sombrio, você resolveu um problema persistente.<BR>Um taumaturgo como você deve escolher entre função e proteção. Ao usar Metal Sombrio para reforçar os seus óculos, você ganhou alguns pontos extras de armadura - mas a um custo.<BR>Parece que uma das lentes ficou condensada com corrupção - causando visões estranhas em certos momentos. Mas sem problema, poderia ser pior, certo?
 
 #TAINTFOCUS
 
@@ -209,47 +209,47 @@ tm.text.TAINTFOCUS.1=Depois de observar o poder destrutivo do fluxo, você penso
 
 tm.name.ELDRITCHFOCUS=Foco de Varinha: Matéria Escura
 tm.tag.ELDRITCHFOCUS=E na escuridão aprisioná-los.
-tm.text.ELDRITCHFOCUS.1=After having payed a visit to the voidscape known as the Outerlands, the race known as the Eldritch have sparked your interest. You are very intrigued by the Eldritch Guardians, and especially the orbs of dark matter that they tend to hurl at you.<BR>After having made contact with this dark matter, you have thought it might be worth it to take a shot at the Eldritch's magic.<BR>By utilizing the powers of creation, you have managed to create a focus that summons these orbs of dark matter upon command.<BR>(Continued)
-tm.text.ELDRITCHFOCUS.2=Because this focus is infused with the awakened power of The Shard of Creation, the orbs have turned out to be even stronger than the ones the guardians fire at you. They deal 5 hearts of damage, and inflict a weakness potion upon contact.<BR>However, you must take caution when using this focus. Every time you cast the focus, and summon an orb, there is a chance the orb will cause you to gain a small amount of sticky warp... But a little warp never hurt anyone right?
+tm.text.ELDRITCHFOCUS.1=Depois de visitar as terras vazias conhecidas como Terras Exteriores, a raça conhecida como Sinistros despertou o seu interesse. Você está muito intrigado pelos Guardiões Sinistros, especialmente os orbes de matéria escura que eles costumam lançar contra você.<BR>Depois de ter contato com essa matéria escura, você pensou que valeria a pena experimentar com a magia dos Sinistros.<BR>Ao utilizar os poderes da criação, você conseguiu criar um foco que invoca esses orbes de matéria escura ao seu comando.<BR>(Continua)
+tm.text.ELDRITCHFOCUS.2=Devido ao fato de esse foco ser infundido com o poder amplificado do Fragmento da Criação, os orbes se mostraram ainda mais fortes do que aqueles lançados pelos guardiões. Eles causam 5 corações de dano, e infligem o efeito de fraqueza ao contato.<BR>Porém, você deve ter cuidado ao usar esse foco. Cada vez que você usa o foco, e invoca um orbe, existe a chance dele lhe infligir um pouco de corrupção normal... Mas um pouco de corrupção não machuca ninguém certo?
 
 #KNIGHTROBES
 
-tm.name.KNIGHTROBES=Crimson Forgery
-tm.tag.KNIGHTROBES=Dance to the song of ringing steel
-tm.text.KNIGHTROBES.1=With a will, there is a way...<BR>It seems that it wasn't quite as easy to create the Crimson Knight armor as it was to create the Robes. But, you have found an answer.<BR>Crimson Plating was just the substance you needed. This strong, bloodstained metal is identical to that of Crimson Knight armor.<BR>The recipes for the plating, and the armor are transcribed on the following pages.
+tm.name.KNIGHTROBES=Falsificação Carmesim
+tm.tag.KNIGHTROBES=Dance ao som do aço ressoante
+tm.text.KNIGHTROBES.1=Quem quer, dá um jeito...<BR>Ao que parece, recriar a armadura do Cavaleiro Carmesim não foi tão simples quanto recriar o Manto. Porém, você achou uma solução.<BR>A Blindagem Carmesim é justamente a substância que você precisava. Esse metal forte e tingido de sangue é idêntico ao da armadura do Cavaleiro Carmesim.<BR>As receitas para a blindagem e para a armadura estão descritas nas próximas páginas.
 
 #PRAETORARMOR
 
-tm.name.PRAETORARMOR=Advanced Crimson Forgery
+tm.name.PRAETORARMOR=Falsificação Carmesim Avançada
 tm.tag.PRAETORARMOR=E agora, o último ato!
-tm.text.PRAETORARMOR.1=Strange whispers have been talking to you more than usual. They spoke of the Crimson Cult's leader - and you hope to be the one to defeat them. You have been having visions, and you thought that with the discoveries of Crimson-stained Cloth, and Crimson Plating, it won't be hard to replicate the praetor's suit of armor.<BR>But, you were wrong. You thought it would be easy enough, but apparently it is not. You had to use quite a bit more plating and cloth than expected, but you have managed to construct the armor. Their recipes are written on the following pages.
+tm.text.PRAETORARMOR.1=Os sussurros estranhos têm falado com você mais do que o normal. Eles falam sobre o líder do Culto Carmesim - e você espera ser o responsável por derrotá-los. Você tem tido visões, e pensou que com as descobertas do Tecido Tingido de Carmesim e da Blindagem Carmesim, não será difícil recriar a armadura do magistrado.<BR>Porém, você estava errado. Você pensou que seria fácil, mas aparentemente não é. Foi preciso usar muito mais blindagens e tecidos do que o esperado, mas você conseguiu construir a armadura. As receitas estão descritas nas próximas páginas.
 
 #WARPTREE
 
-tm.name.WARPTREE=Warpwood Tree
-tm.tag.WARPTREE=It hits back
-tm.text.WARPTREE.1=Whilst studying the magical trees in the Tainted Lands, you have noticed just how rich with magic they are. Although they are too unstable and messy for your uses, you think it would be worthwhile to create a tree that is infused with warp.<BR>The Warpwood Tree is just that, a tree imbued the fundamental aspects of warp. You don't know what you will ever use this tree for, but maybe one day it will be just what you need.
+tm.name.WARPTREE=Árvore de Madeira Corrompida
+tm.tag.WARPTREE=Ela revida
+tm.text.WARPTREE.1=Ao estudar as árvores mágicas nas Terras Maculadas, você percebeu o quão ricas em magia elas são. Embora sejam muito instáveis e sujas para os seus propósitos, você acha que valeira a pena criar uma árvore infundida com corrupção.<BR>A Árvore de Madeira Corrompida é basicamente isso, uma árvore imbuída com os aspectos fundamentais da corrupção. Você não sabe para que um dia usará essa árvore, mas talvez um dia ela seja exatamente o que você precisa.
 
 #SHADOWCLOTH
 
-tm.name.SHADOWCLOTH=Shadow-Imbued Cloth
-tm.tag.SHADOWCLOTH=I wear black 'cause I'm emo
-tm.text.SHADOWCLOTH.1=When you discovered Shadowmetal, you ran a few experiments using it. Shadow-Imbued Cloth was one of many results.<BR>Shadow-Imbued Cloth has similar properties to Enchanted Fabric though it is quite dark in colour, and has some interesting magical properties... It is soft, thin, light, and incredibly strong. You are certain that it will be of many uses.
+tm.name.SHADOWCLOTH=Tecido Imbuído com Sombra
+tm.tag.SHADOWCLOTH=Nossa farda não é azul, parceiro, é PRETA
+tm.text.SHADOWCLOTH.1=Após a descoberta do Metal Sombrio, você realizou alguns experimentos usando-o. O Tecido Imbuído com Sombra foi um dos muitos resultados.<BR>O Tecido Imbuído com Sombra possui propriedades similares ao Tecido Encantado, embora seja de cor bastante escura, e apresente algumas propriedades mágicas interessantes... Ele é macio, fino, leve e incrivelmente forte. Você está certo de que ele será muito útil.
 
 #VOIDWALKERBOOTS
 
-tm.name.VOIDWALKERBOOTS=Boots of the Voidwalker
-tm.tag.VOIDWALKERBOOTS=Otherworldly footwear
+tm.name.VOIDWALKERBOOTS=Botas do Viajante do Vazio
+tm.tag.VOIDWALKERBOOTS=Calçados de outro mundo
 tm.text.VOIDWALKERBOOTS.1=You have been searching, searching very hard for a set of boots to complete your Void Thaumaturge attire. After a long night of researching, you finally devised the perfect pair of boots to complete the set.<BR>The Boots of the Voidwalker offer outstanding protection, as well as an enormous speed boost while walking or flying. You will also be immune to fall damage while wearing the boots.
 
 #CREATIONSHARD
 
-tm.name.CREATIONSHARD=Shard of Creation
-tm.tag.CREATIONSHARD=I am not a madman
-tm.text.CREATIONSHARD.1=You have finally found it... Something to challenge the Eldritch.<BR>The Shard of Creation. This shard of condensed power is the ultimate fuel source for your magic. A fragment containing the power to create.<BR>This shard might be the key to the discovering how it all came to be, this is what you have always been looking for.<BR>§oThis shard - as soon as the infusion was complete, a sensation of pure clarity filled your twisted mind, you had a revelation, it is all clear to you now. You are not a madman, you will show them. You will show them all!
+tm.name.CREATIONSHARD=Fragmento da Criação
+tm.tag.CREATIONSHARD=Eu não sou um louco
+tm.text.CREATIONSHARD.1=Você finalmente o encontrou... Algo para desafiar o Sinistro.<BR>O Fragmento da Criação. Esse fragmento de poder concentrado é a fonte de combustível definitiva para a sua magia. Um fragmento que contém o poder para criar.<BR>Esse fragmento deve ser a chave para descobrir como tudo começou, é isso que você sempre procurou.<BR>§oEsse fragmento - assim que a infusão foi completa, uma sensação de claridade pura preencheu a sua mente distorcida, você teve uma revelação, está tudo claro agora. Você não é um maluco, você vai mostrar para eles. Você vai mostrar para todos eles!
 #CREATION
 
-tm.name.CREATION=Creation
+tm.name.CREATION=Criação
 tm.tag.CREATION=Ordo ab Chao
 tm.text.CREATION.1=The moment you touched this new shard, a substance forged of power you barely understand, you felt something. You felt as if the entire universe had shifted.<BR>Your body went stiff, and for the first time since you opened the Thaumonomicon, the voices... They stopped.<BR>You saw through what the voices have always kept hidden. You saw through the lies. Through the insanity. Through the veil between worlds. You saw... §5Creation.§0<BR>Eons ago, when the world you know was yet to exist, the formation of another universe began.
 
@@ -264,8 +264,8 @@ tm.text.CREATION.5=To protect the Pearls, they created the guardians, this ensur
 
 #THAUMICDISASSEMBLER
 
-tm.name.THAUMICDISASSEMBLER=Thaumic Disassembler
-tm.tag.THAUMICDISASSEMBLER=Wait a minute...
+tm.name.THAUMICDISASSEMBLER=Desintegrador Táumico
+tm.tag.THAUMICDISASSEMBLER=Peraí...
 tm.text.THAUMICDISASSEMBLER.1=It was rumored that in the world of modern technology, a tool existed that goes by the name "The Atomic Disassembler".<BR>This tool is said to be perfect - you can break any block at your desired speed. All it cost was a little bit of energy.<BR>You became jealous hearing about these technological advancements and honestly, you want these tech-tools.<BR>But, you are a Thaumaturge. You will NOT dabble in technology. You must create a tool that is an equal to the Atomic Disassembler using the power of Thaumaturgy.
 tm.text.THAUMICDISASSEMBLER.2=The Thaumic Disassembler is just that, you can break any block, anytime, at any speed you want. Just Shift+Right-click to change the speed. Though, when it came time to find a way to power this tool, you were stumped for quite some time. Due to the Thaumium in the matrix, the repairing proprieties of Void Metal did not apply.<BR>Finally, it dawned upon  you. All it took was a small amount of Perditio Vis to keep this tool charged.<BR>You do not need technology, for you are a Thaumaturge!
 
@@ -303,7 +303,7 @@ tm.text.CRYSTALDAGGER.1=After having discovered the Essentia Crystallizer, you'v
 
 #MACEFOCUS
 
-tm.name.MACEFOCUS=Wand Focus: Mage's Mace
+tm.name.MACEFOCUS=Foco de Varinha: Maça do Mago
 tm.tag.MACEFOCUS=Yes, just hit them with your staff
 tm.text.MACEFOCUS.1=With the discovery of foci, you've noticed that most foci are ranged. For you, this can sometimes be a problem.<BR>By infusing some sharp objects into a Block of Shadowmetal, you created a foci that acts as a mace.<BR>When equipped, this focus will grant increased attack damage to the staff or wand that you are using; Turning it into the perfect melee weapon. Nonetheless, this comes at a cost. The focus uses vis every time you hit a mob, no damage will be inflicted if your staff or wand does not have the required vis. The potency upgrade will increase the damage by one each level.
 
@@ -363,20 +363,20 @@ tm.text.VOIDSENTBLOOD.1=While you love Crimson Cult robes, they are inferior to 
 
 #THAUMIUMKATANA
 
-tm.name.THAUMIUMKATANA=Thaumium Fortress Blade
-tm.tag.THAUMIUMKATANA=Nothing will survive
+tm.name.THAUMIUMKATANA=Lâmina da Fortaleza Táumica
+tm.tag.THAUMIUMKATANA=Nada sairá vivo
 tm.text.THAUMIUMKATANA.1=Using a design similar to Thaumium Fortress Armor, you have designed a blade that will fit the set perfectly.<BR>By improving the construction process of a Thaumium Sword, you have increased the damage it will deal. This blade will also never take damage from use.<BR>Furthermore, you can charge your blade by holding down right click. Upon releasing, a strike will be delivered with increased damage based on how charged the blade is. At full charge, the blade has the potential to deal up to 2 times its attack damage. The blade will remain sheathed at your hip when it is not in use.
 
 #VOIDMETALKATANA
 
 tm.name.VOIDMETALKATANA=Void Metal Fortress Blade
-tm.tag.VOIDMETALKATANA=Void samurai
+tm.tag.VOIDMETALKATANA=Samurai do vazio
 tm.text.VOIDMETALKATANA.1=By using the same construction process as the Thaumium Fortress blade, but substituting the material for Void Metal, you have created a Fortress Blade that is even more powerful.<BR>The Void Metal Fortress Blade is not only sharper and stronger than its Thaumium counterpart, but also possesses the Greater Sapping effect which will weaken anything you hit.<BR>They do say that this much Void Metal is not healthy for ones body, but you care not.<BR>Like a Thaumium Fortress blade, this blade can be enhanced with various inscriptions.
 
 #SHADOWMETALKATANA
 
 tm.name.SHADOWMETALKATANA=Shadowmetal Fortress Blade
-tm.tag.SHADOWMETALKATANA=Chakra blades
+tm.tag.SHADOWMETALKATANA=Lâminas de chakra
 tm.text.SHADOWMETALKATANA.1=After having discovered Shadowmetal Fortress Armor, you were certain that you could make a Fortress Blade from Shadowmetal as well.<BR>The results were astounding. By following the same construction process as the Thaumium and Void Metal Fortress Blades, you have created the strongest, and sharpest Fortress Blade you have ever laid eyes upon.<BR>The blade will also inflict a slowing effect while simultaneously blurring the vision of whatever you hit.<BR>Like a Thaumium Fortress blade, this blade can be enhanced with various inscriptions.
 
 #INSCRIPTIONFIRE
