@@ -137,6 +137,8 @@ chat.appliedenergistics2.MachineHighlighted=%d сейчас подсвечен �
 chat.appliedenergistics2.MachineHighlightedNamed=%d "%d" сейчас подсвечен и находится: %d, %d, %d
 chat.appliedenergistics2.StorageHighlighted=%d содержащий %d %d сейчас подсвечен и находится: %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d содержащий %d %d находится в измерении: %d и не может быть выделен
+chat.appliedenergistics2.PatternRepeaterProvider=§5Provider§r - will provide pattern to current system from in front §5Accessor§r.
+chat.appliedenergistics2.PatternRepeaterAccessor=§5Accessor§r - will provide pattern to in front §5Provider§r.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -270,8 +272,6 @@ gui.appliedenergistics2.NoSecondOutput=Нет вторичного выхода
 gui.appliedenergistics2.OfSecondOutput=Шанс вторичного выхода: %1$d%%
 gui.appliedenergistics2.MultipleOutputs=%1$d%% вторичного, %2$d%% третичного выхода.
 gui.appliedenergistics2.SelectAmount=Выбрать количество
-gui.appliedenergistics2.IncreaseAmount=+%s
-gui.appliedenergistics2.DecreaseAmount=-%s
 gui.appliedenergistics2.CopyMode=Режим копирования
 gui.appliedenergistics2.CopyModeDesc=Контролирует, очищено ли содержимое панели конфигурации, если ячейка была убрана.
 gui.appliedenergistics2.Next=Далее
@@ -354,6 +354,8 @@ gui.appliedenergistics2.CPUAllowMode=Принять запрос
 gui.appliedenergistics2.CPUAllowAll=Все
 gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Только от не-игрока
 gui.appliedenergistics2.CPUOnlyAllowPlayer=Только от игрока
+gui.appliedenergistics2.CPUSourcePlayer=Requester
+gui.appliedenergistics2.CPUSourceMachineRequested=Machine Requested
 
 gui.appliedenergistics2.NetworkBytesDetails=Подробности о сетевых байтах
 gui.appliedenergistics2.Items=Предметы
@@ -378,6 +380,8 @@ gui.appliedenergistics2.NumberOfFluids=Количество жидкости
 gui.appliedenergistics2.ItemsPerByte=Предметов на байт:
 gui.appliedenergistics2.FluidsPerByte=Жидкости на байт:
 gui.appliedenergistics2.BytesPerType=Байтов на тип:
+gui.appliedenergistics2.SelectColor=Select a Color
+gui.appliedenergistics2.Selected=Selected
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -682,6 +686,9 @@ waila.appliedenergistics2.Id=id
 waila.appliedenergistics2.ConnectedTo=Соединено с
 waila.appliedenergistics2.Disconnected=Отключено
 waila.appliedenergistics2.Singularity=Сингулярность
+waila.appliedenergistics2.Provider=§5Provider§r
+waila.appliedenergistics2.Accessor=§5Accessor§r
+waila.appliedenergistics2.Waiting=Waiting:
 
 # Baubles Extended
 slot.Terminal=§aТерминал§7
@@ -834,6 +841,7 @@ item.appliedenergistics2.ItemPart.InterfaceTerminal.name=МЭ терминал �
 item.appliedenergistics2.ItemPart.InvertedToggleBus.name=МЭ инвертированная шина переключения
 item.appliedenergistics2.ItemPart.ToggleBus.name=МЭ шина переключения
 item.appliedenergistics2.ItemPart.CraftingMonitor.name=МЭ монитор создания
+item.appliedenergistics2.ItemPart.PatternRepeater.name=ME Pattern Repeater
 
 item.appliedenergistics2.ItemSpatialStorageCell.128Cubed.name=128³ пространственная ячейка хранения
 item.appliedenergistics2.ItemSpatialStorageCell.16Cubed.name=16³ пространственная ячейка хранения
