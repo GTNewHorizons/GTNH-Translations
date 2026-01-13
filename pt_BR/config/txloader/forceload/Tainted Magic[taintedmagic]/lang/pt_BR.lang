@@ -10,7 +10,7 @@ text.voidtouched=Toque do Vazio
 
 text.attackdamageequipped=Dano de Ataque (Quando Equipado)
 text.attackdamage=Dano de Ataque
-text.radius=Block Radius
+text.radius=Raio em Blocos
 
 text.eldritchsapping=Dreno Sinistro
 text.bloodlust=Sede de Sangue
@@ -44,7 +44,7 @@ tile.BlockWarpwoodPlanks.name=Tábuas de Madeira Corrompida
 
 #=========ITEM NAMES===================
 
-item.ItemMaterial.name=Resource
+item.ItemMaterial.name=Recurso
 item.ItemMaterial.0.name=Lingote de Metal Sombrio
 item.ItemMaterial.1.name=Tecido Imbuído com Sombra
 item.ItemMaterial.2.name=Tecido Tingido de Carmesim
@@ -74,8 +74,8 @@ item.ItemVoidwalkerBoots.name=Botas do Viajante do Vazio
 item.ItemWarpedGoggles.name=Óculos da Descoberta Corrompidos
 item.ItemVoidmetalGoggles.name=Óculos da Descoberta de Metal Vazio
 
-item.ItemKatana.name=Fortress Blade
-item.ItemKatana.0.name=Lâmina da Fortaleza Táumica
+item.ItemKatana.name=Lâmina da Fortaleza
+item.ItemKatana.0.name=Lâmina da Fortaleza de Táumio
 item.ItemKatana.1.name=Lâmina da Fortaleza de Metal Vazio
 item.ItemKatana.2.name=Lâmina da Fortaleza de Metal Sombrio
 text.katana.inscription.0=Inscrição Vulcânica
@@ -117,11 +117,11 @@ item.ItemFocusMeteorology.name=Foco de Varinha: Meteorologia
 item.ItemFocusTime.name=Foco de Varinha: Tempo
 item.ItemFocusVisShard.name=Foco de Varinha: Fragmento de Vis
 
-item.ItemWandRod.name=Warpwood Rod/Staff Core
+item.ItemWandRod.name=Haste de Madeira Corrompida/Núcleo de Cajado
 item.ItemWandRod.0.name=Haste de Madeira Corrompida
 item.ItemWandRod.1.name=Núcleo de Cajado de Madeira Corrompida
 
-item.ItemWandCap.name=Cap
+item.ItemWandCap.name=Ponta
 item.ItemWandCap.0.name=Ponta de Metal Sombrio
 item.ItemWandCap.1.name=Ponta de Tecido Encantando
 item.ItemWandCap.2.name=Ponta de Tecido Tingido de Carmesim
@@ -271,33 +271,33 @@ tm.text.THAUMICDISASSEMBLER.2=The Thaumic Disassembler is just that, you can bre
 
 #FOCUSTIME
 
-tm.name.FOCUSTIME=Wand Focus: Time
+tm.name.FOCUSTIME=Foco de Varinha: Tempo
 tm.tag.FOCUSTIME=Mou ikkai
-tm.text.FOCUSTIME.1=Using the basic principals of creation, you have created a focus to modify the world slightly.<BR>The Time focus is simple. Using the Shard of Creation to tap into the world's creational formula, you are able to shift the time from night to day and vice versa.<BR>The only problem is the immensely long cooldown time of 30 seconds.<BR>This focus will not accept upgrades from the Focal Manipulator.
+tm.text.FOCUSTIME.1=Utilizando os princípios básicos da criação, você criou um foco para modificar o mundo ligeiramente.<BR>O Foco do Tempo é simples. Ao usar o Fragmento da Criação para manipular a fórmula de criação do mundo, você consegue alternar o horário para dia ou noite.<BR>O único problema é o tempo de recarga extremamente longo de 30 segundos.<BR>Esse foco não aceitará melhorias do Manipulador Focal.
 
 #FOCUSWEATHER
 
-tm.name.FOCUSWEATHER=Wand Focus: Meteorology
-tm.tag.FOCUSWEATHER=There's a 30% chance that it's already raining.
+tm.name.FOCUSWEATHER=Foco de Varinha: Meteorologia
+tm.tag.FOCUSWEATHER=Segundo o climatempo...
 tm.text.FOCUSWEATHER.1=Using the basic principals of creation, it wasn't hard to create a focus to modify the current weather in the world.<BR>The weather focus will stop a storm if one exists, or start one if no storm is present.<BR>The only problem is the rather long cooldown of 30 seconds.<BR>This focus will not accept upgrades from the Focal Manipulator.
 
 #VOIDSASH
 
-tm.name.VOIDSASH=Voidwalker's Sash of Runic Shielding
+tm.name.VOIDSASH=Cinto do Viajante do Vazio de Escudo Rúnico
 
-tm.tag.VOIDSASH=Gotta go fast
+tm.tag.VOIDSASH=Mais rápido que uma tartaruga
 
-tm.text.VOIDSASH.1=After extensive study of Runic Shielding, you had a bizarre idea.<BR>Using Void Metal, Shadowmetal, the Primordial Pearl, a little Shadow Cloth and a fine mixture of essentia; a sash of runic shielding more powerful than you had ever believed possible was created. The Voidwalker's Sash of Runic Shielding offers §6Runic Shield +20§0 and can be equipped in the belt slot.<BR>If you are wearing the sash alongside the Boots of the Voidwalker, your speed and jump height will be increased greatly. One would Shift+Right-click with the sash to toggle this effect.
+tm.text.VOIDSASH.1=Após um intenso estudo sobre o Escudo Rúnico, você teve uma ideia bizarra.<BR>Usando Metal Vazio, Metal Sombrio, a Pérola Primordial, um pouco de Tecido Sombrio e uma boa mistura de essência: um cinto de escudo rúnico mais poderoso do que você jamais imaginou ser possível. O Cinto do Viajante do Vazio de Escudo Rúnico oferece um §6Escudo Rúnico +20§0 e pode ser equipado no compartimento de cinto.<BR>Se você usar o cinto em conjunto com as Botas do Viajante do Vazio, a sua velocidade e altura de pulo aumentarão consideravelmente. É possível clicar Shift-Direito com o cinto para alternar esse efeito.
 
 #MAGICFUNGUAR
 
-tm.name.MAGICFUNGUAR=Magic Funguar
-tm.tag.MAGICFUNGUAR=Is butter a carb?
+tm.name.MAGICFUNGUAR=Fungo Mágico
+tm.tag.MAGICFUNGUAR=A manteiga é um carboidrato?
 tm.text.MAGICFUNGUAR.1=Vis Shrooms. The bane of every Thaumaturge's existence. Every time you walk through a magical forest, you somehow end up stepping on one of these pesky mushrooms and start to feel sick.<BR>One day, you had had enough with these mushrooms. You plucked one from the ground and took it home with you.<BR>You have discovered that that after combining it with some mundane ingredients and a magical shard, the mushroom had become §oedible.§r<BR>Furthermore, when eaten, you will gain research points at random.
 
 #CRYSTALDAGGER
 
-tm.name.CRYSTALDAGGER=Crystal Blood
+tm.name.CRYSTALDAGGER=Sangue Cristalino
 tm.tag.CRYSTALDAGGER=Drip, drip, drop...
 tm.text.CRYSTALDAGGER.1=After having discovered the Essentia Crystallizer, you've managed to create a dagger that crystallizes the blood of your foes.<BR>Whenever a living creature is killed by this blade, a few drops of blood will be crystallized. It also seems that any blade that possesses the same Bloodlust effect will also crystallize any creature's blood upon death.<BR>You are certain that this is no ordinary blood, it is particularly interesting because Crimson Cult Attire seems to have similar properties.
 
@@ -309,38 +309,38 @@ tm.text.MACEFOCUS.1=With the discovery of foci, you've noticed that most foci ar
 
 #CRIMSONBLADE
 
-tm.name.CRIMSONBLADE=Crimson Blade
+tm.name.CRIMSONBLADE=Lâmina Carmesim
 tm.tag.CRIMSONBLADE=This shall be mercy
-tm.text.CRIMSONBLADE.1=This seems to be the conclusion of your studies on the Crimson Cult and Crystal Blood, you have finally done it. You created the legendary weapon known as The Crimson Blade; the blade wielded by the Cult's leader them self.<BR>This blade will inflict weakness upon anything it strikes, and it also possesses the ability to crystallize blood - just like the Crystal Dagger.
+tm.text.CRIMSONBLADE.1=Essa parece ser a conclusão dos seus estudos sobre o Culto Carmesim e Sangue Cristalino, você finalmente conseguiu. Você criou a arma lendária conhecida como a Lâmina Carmesim; a espada empunhada pelo próprio líder do Culto.<BR>Essa lâmina irá infligir fraqueza a tudo que atingir, e possui a habilidade de cristalizar sangue - assim como o Punhal de Cristal.
 
 #SHADOWFORTRESSARMOR
 
-tm.name.SHADOWFORTRESSARMOR=Shadow Fortress Armor
+tm.name.SHADOWFORTRESSARMOR=Armadura da Fortaleza Sombria
 tm.tag.SHADOWFORTRESSARMOR=If you wear robes, you are weak
-tm.text.SHADOWFORTRESSARMOR.1=After having discovered Thaumium and Void Fortress Armor, you thought to yourself that Shadowmetal would be the perfect candidate to be made into Fortress Armor.<BR>It worked perfectly. While this suit of armor did not inherit the auto-repair ability, it is drastically more protective than the Void Fortress Armor. It also seems that wearing multiple pieces of this armor will increase its protection significantly.<BR>Like normal fortress armor, this armor can be enhanced by various different faceplates and modifications.
+tm.text.SHADOWFORTRESSARMOR.1=Depois de descobrir as Armaduras da Fortaleza de Táumio e Vazio, você pensou que o Metal Sombrio seria o candidato perfeito para ser usado em uma Armadura da Fortaleza.<BR>Funcionou perfeitamente. Embora esta armadura não tenha herdado a habilidade de auto reparo, sua proteção é drasticamente maior do que a Armadura da Fortaleza do Vazio. Parece também que usar todas as peças desta armadura aumentará sua proteção significativamente.<BR>Igual a uma fortaleza normal, essa armadura pode ser aprimorada com máscaras e modificações.
 
 #CAP_cloth
 
-tm.name.CAP_cloth=Cloth Caps
-tm.tag.CAP_cloth=Remember to wrap it
-tm.text.CAP_cloth.1=With the immersive study of wandcraft, and the discovery of Enchanted Fabric, you decided to use some to cap a wand.<BR>You are not sure why it worked, seeing as it is just cloth, but it did nonetheless. Using a few pieces of fabric, and a little vis, you have forged a fairly effective and very cheap wand cap.<BR>This cap grants a 5% Vis Discount... Though, you are not quite sure why.
+tm.name.CAP_cloth=Pontas de Tecido
+tm.tag.CAP_cloth=Lembre-se de embrulhá-las
+tm.text.CAP_cloth.1=Com o estudo imersivo em confecção de varinhas, e a descoberta do Tecido Encantado, você decidiu usar um pouco para construir uma varinha<BR>.Você não tem certeza de por que funcionou, já que é apenas um pedaço de tecido, mas funcionou mesmo assim. Usando alguns pedaços de tecido, e um pouco de vis, você criou uma ponta de varinha bastante eficaz e barata.<BR>Essas pontas concedem um Desconto de 5% de Vis... Porém, você não tem certeza do porquê.
 
 #CAP_crimsoncloth
 
-tm.name.CAP_crimsoncloth=Crimson-Stained Cloth Caps
-tm.tag.CAP_crimsoncloth=I love them red
+tm.name.CAP_crimsoncloth=Pontas de Tecido Tingido de Carmesim
+tm.tag.CAP_crimsoncloth=Nossa ponta será vermelha
 tm.text.CAP_crimsoncloth.1=Using the same concept that the Cloth Caps laid down, you created very similar caps from Crimson-Stained Cloth. Though, you needed some Salis Mundus to bind it all together.<BR>It seems that the Crystal Blood from which the cloth was stained helps the caps channel vis at a far more efficient rate. The Crimson Cloth Caps seem to provide a 15% vis discount.
 
 #CAP_shadowcloth
 
-tm.name.CAP_shadowcloth=Shadow-Imbued Cloth Caps
-tm.tag.CAP_shadowcloth=On Wednesdays we wear black
+tm.name.CAP_shadowcloth=Pontas de Tecido Imbuído com Sombra
+tm.tag.CAP_shadowcloth=Às quartas-feiras, usamos preto
 tm.text.CAP_shadowcloth.1=You've created a new type of wand cap using the exact same design as the Cloth Caps, except using Shadow-Imbued Cloth. The idea was definitely a success, though you needed to use a pinch of Salis Mundus to bind it all together.<BR>The Shadow Cloth Caps are exactly the same as the Cloth Caps, but slightly more efficient. They will grant a 10% Vis Discount.
 
 #FOCUSTAINTEDBLAST
 
-tm.name.FOCUSTAINTEDBLAST=Wand Focus: Tainted Shockwave
-tm.tag.FOCUSTAINTEDBLAST=Almighty push
+tm.name.FOCUSTAINTEDBLAST=Foco de Varinha: Onda de Choque Maculada
+tm.tag.FOCUSTAINTEDBLAST=Shinra Tensei
 tm.text.FOCUSTAINTEDBLAST.1=With the study of advanced foci and taint, you felt the need for a focus that offensive, but defensive.<BR>The Wand Focus: Tainted Shockwave will gather an extremely concentrated amount of tainted energy at the tip of you wand, then eventually explode in a 15 block radius. This will certainly blast all entities far away from you. It also seems that the Enlarge upgrade in the Focal Manipulator will increase the radius.<BR>50 zombies swarming you? No problem! Whip out your wand and they will be sent flying.
 
 #PRIMALBLADE
@@ -351,7 +351,7 @@ tm.text.PRIMALBLADE.1=Using many dangerous magics, you've created the other half
 
 #BLOODLUSTUPGRADE
 
-tm.name.BLOODLUSTUPGRADE=Tier 5 Upgrade: Bloodlust
+tm.name.BLOODLUSTUPGRADE=Melhora de Nível 5: Sede de Sangue
 tm.tag.BLOODLUSTUPGRADE=Bleed me a river
 tm.text.BLOODLUSTUPGRADE.1=This upgrade can only be applied to the Mage's Mace focus, and will allow the mace to inherit Bloodlust ability, like that of the Crystal Dagger.
 
@@ -363,38 +363,38 @@ tm.text.VOIDSENTBLOOD.1=While you love Crimson Cult robes, they are inferior to 
 
 #THAUMIUMKATANA
 
-tm.name.THAUMIUMKATANA=Lâmina da Fortaleza Táumica
+tm.name.THAUMIUMKATANA=Lâmina da Fortaleza de Táumio
 tm.tag.THAUMIUMKATANA=Nada sairá vivo
 tm.text.THAUMIUMKATANA.1=Using a design similar to Thaumium Fortress Armor, you have designed a blade that will fit the set perfectly.<BR>By improving the construction process of a Thaumium Sword, you have increased the damage it will deal. This blade will also never take damage from use.<BR>Furthermore, you can charge your blade by holding down right click. Upon releasing, a strike will be delivered with increased damage based on how charged the blade is. At full charge, the blade has the potential to deal up to 2 times its attack damage. The blade will remain sheathed at your hip when it is not in use.
 
 #VOIDMETALKATANA
 
-tm.name.VOIDMETALKATANA=Void Metal Fortress Blade
+tm.name.VOIDMETALKATANA=Lâmina da Fortaleza de Metal Vazio
 tm.tag.VOIDMETALKATANA=Samurai do vazio
 tm.text.VOIDMETALKATANA.1=By using the same construction process as the Thaumium Fortress blade, but substituting the material for Void Metal, you have created a Fortress Blade that is even more powerful.<BR>The Void Metal Fortress Blade is not only sharper and stronger than its Thaumium counterpart, but also possesses the Greater Sapping effect which will weaken anything you hit.<BR>They do say that this much Void Metal is not healthy for ones body, but you care not.<BR>Like a Thaumium Fortress blade, this blade can be enhanced with various inscriptions.
 
 #SHADOWMETALKATANA
 
-tm.name.SHADOWMETALKATANA=Shadowmetal Fortress Blade
+tm.name.SHADOWMETALKATANA=Lâmina da Fortaleza de Metal Sombrio
 tm.tag.SHADOWMETALKATANA=Lâminas de chakra
-tm.text.SHADOWMETALKATANA.1=After having discovered Shadowmetal Fortress Armor, you were certain that you could make a Fortress Blade from Shadowmetal as well.<BR>The results were astounding. By following the same construction process as the Thaumium and Void Metal Fortress Blades, you have created the strongest, and sharpest Fortress Blade you have ever laid eyes upon.<BR>The blade will also inflict a slowing effect while simultaneously blurring the vision of whatever you hit.<BR>Like a Thaumium Fortress blade, this blade can be enhanced with various inscriptions.
+tm.text.SHADOWMETALKATANA.1=Depois de descobrir a Armadura da Fortaleza de Metal Sombrio, você estava certo de que poderia construir uma Lâmina da Fortaleza com Metal Sombrio também.<BR>Os resultados foram surpreendentes. Ao seguir o mesmo processo de construção usado nas Lâminas da Fortaleza de Táumio e Metal Vazio, você criou a Lâmina da Fortaleza mais forte e afiada que os seus olhos já viram.<BR>A lâmina também irá infligir um efeito de lentidão, ao mesmo que tempo que embaçará a visão de tudo que for atingido.<BR>Igual à versão de Táumio, essa espada pode ser aprimorada com inscrições.
 
 #INSCRIPTIONFIRE
 
-tm.name.INSCRIPTIONFIRE=Volcanic Inscription
-tm.tag.INSCRIPTIONFIRE=Thaumium Fortress Blade upgrade
+tm.name.INSCRIPTIONFIRE=Inscrição Vulcânica
+tm.tag.INSCRIPTIONFIRE=Melhoria para a Lâmina da Fortaleza de Taúmio
 tm.text.INSCRIPTIONFIRE.1=You have upgraded your Fortress Blade by inscribing runes upon it.<BR>This inscription will convert damage dealt into fire damage, which will bypass armor. Any target hit will be set aflame.<BR>Furthermore, when releasing a fully charged strike, an explosive fireball will be emit from your blade. One would hold down shift to cancel this effect and release a normal strike.
 
 #INSCRIPTIONTAINT
 
-tm.name.INSCRIPTIONTAINT=Tainted Inscription
-tm.tag.INSCRIPTIONTAINT=Thaumium Fortress Blade upgrade
+tm.name.INSCRIPTIONTAINT=Inscrição Maculada
+tm.tag.INSCRIPTIONTAINT=Melhoria para a Lâmina da Fortaleza de Taúmio
 tm.text.INSCRIPTIONTAINT.1=You have upgraded your Fortress Blade by inscribing runes upon it.<BR>This inscription will cause your blade to deal magic damage, bypassing armor. Anything you hit will also be inflicted with Taint Poison.<BR>Moreover, if you release a fully charged strike, a cloud of taint will be emit from your blade. One would hold down shift to cancel this effect and release a normal strike.
 
 #INSCRIPTIONUNDEAD
 
-tm.name.INSCRIPTIONUNDEAD=Undead Inscription
-tm.tag.INSCRIPTIONUNDEAD=Thaumium Fortress Blade upgrade
+tm.name.INSCRIPTIONUNDEAD=Inscrição Desmorta
+tm.tag.INSCRIPTIONUNDEAD=Melhoria para a Lâmina da Fortaleza de Taúmio
 tm.text.INSCRIPTIONUNDEAD.1=You have upgraded your Fortress Blade by inscribing runes upon it.<BR>This inscription inscribes a formula to deal withering damage, which bypasses armor. Your target will also be inflicted a withering damage over time.<BR>In addition, when releasing a fully charged strike on a target, you will be healed for 25% of damage dealt.
 
 #VOIDGOGGLES
@@ -404,6 +404,6 @@ tm.tag.VOIDGOGGLES=Who needs 20/20 vision anyway?
 tm.text.VOIDGOGGLES.1=By infusing your Warped Goggles of Revealing with Void Metal, you have created a pair of goggles that repair themselves, and have an extremely high vis discount.<BR>Sadly, they offer inferior protection to the original Warped Goggles of Revealing.<BR>Your vision might become distorted and warped while wearing these goggles, but that's okay...warp is not a bad thing, right?
 
 #FOCUSSHARD
-tm.name.FOCUSSHARD=Wand Focus: Vis Shard
+tm.name.FOCUSSHARD=Foco de Varinha: Fragmento de Vis
 tm.tag.FOCUSSHARD=Blip bloop
 tm.text.FOCUSSHARD.1=With the study of different types of shards, an incredible idea dawned upon you: what if you could animate a vis shard to be used in combat?<BR>This focus can only be cast if you are looking at an enemy. The shard will float through the air, homing in on its target, and will burst on contact.<BR>It would seem that the shard will also bounce off of solid blocks.
