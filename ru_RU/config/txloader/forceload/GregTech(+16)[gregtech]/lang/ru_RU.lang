@@ -1116,8 +1116,8 @@ GT5U.machines.powersource.power=сила
 GT5U.machines.powersource.steam=пар
 GT5U.machines.steam.amount=%1$s/%2$sЛ пара
 GT5U.machines.pump=Помпа
-GT5U.machines.separatebus.true=Input buses are separated
-GT5U.machines.separatebus.false=Input buses aren't separated
+GT5U.machines.separatebus.true=Входные люки разделены
+GT5U.machines.separatebus.false=Входные люки не разделены
 GT5U.machines.pumpareaset=Pumping area set to
 GT5U.machines.oilfluidpump=Помпа для Нефти/Жидкости
 GT5U.machines.minermulti=Мультиблочный шахтёр
@@ -1379,7 +1379,7 @@ channels.gregtech.stabilisation=Определяет тир Генератора
 channels.gregtech.time_dilation=Определяет тир Генератора поля замедления времени. Начинается с §6Грубый генератор поля замедления времени§r со значением 1 и заканчивается §6Галлифрейский генератор поля замедления времени§r со значением 9.
 channels.gregtech.gt_no_hatch=When set, disable automatic hatch placement
 channels.gregtech.field=Определяет тир T.F.F.T блока хранения жидкостей.
-channels.gregtech.component_casing=Decides the tier of component assemblyline casing. Starts at §6LV§r at value 1 and ends at §6MAX§r at value 14.
+channels.gregtech.component_casing=Определяет тир корпуса компонентной сборочной линии. Начинается с §6LV§r со значением 1 и заканчивается на §6MAX§r со значением 14.
 
 GT5U.gui.select.current=§8Состояние:
 GT5U.gui.button.liquid_filling_OFF=§7Жидкое наполнение: §4ОТКЛ.
@@ -1711,18 +1711,18 @@ GT5U.gui.circuit.timer.description=Pulses Redstone
 GT5U.gui.circuit.timer.data_description.pulses=Pulses
 GT5U.gui.circuit.timer.data_description.time=Время
 
-GT5U.gui.text.second=%s секунд
-GT5U.gui.text.second.plural=%s секунд
-GT5U.gui.text.minute=%s минут
-GT5U.gui.text.minute.plural=%s минут
-GT5U.gui.text.hour=%s часов
-GT5U.gui.text.hour.plural=%s часов
-GT5U.gui.text.day=%s дней
-GT5U.gui.text.day.plural=%s дней
+GT5U.gui.text.second=%s сек.
+GT5U.gui.text.second.plural=%s сек.
+GT5U.gui.text.minute=%s мин.
+GT5U.gui.text.minute.plural=%s мин.
+GT5U.gui.text.hour=%s ч.
+GT5U.gui.text.hour.plural=%s ч.
+GT5U.gui.text.day=%s дн.
+GT5U.gui.text.day.plural=%s дн.
 
 GT5U.gui.text.show-powerfail-layer=Показать сбои питания
-GT5U.gui.chat.powerfail=%s в %s в %s произошел сбой питания %s времени %s назад
-GT5U.gui.chat.powerfail.plural=%s в %s в %s произошел сбой питания %s времени %s назад
+GT5U.gui.chat.powerfail=%s: %s. Измерение: %s Количество сбоев:%s. Время: %s назад
+GT5U.gui.chat.powerfail.plural=%s: %s. Измерение: %s Количество сбоев:%s. Время: %s назад
 GT5U.gui.chat.powerfail.waypoint=%s (%s time, %s ago)
 GT5U.gui.chat.powerfail.waypoint.plural=%s (%s times, %s ago)
 
@@ -1730,14 +1730,14 @@ GT5U.gui.chat.powerfail.waypoint.tooltip=Механизм: %s\nМестопол�
 
 GT5U.gui.chat.powerfail.hint=§7Используйте /powerfails для получения информации
 
-GT5U.gui.chat.powerfail.login=У вас %s устранен сбой питания.
-GT5U.gui.chat.powerfail.login.plural=У вас %s не устранённых сбоев питания.
+GT5U.gui.chat.powerfail.login=У вас есть %s не устранёный сбои питания.
+GT5U.gui.chat.powerfail.login.plural=У вас есть %s не устранённых сбоев питания.
 
 GT5U.gui.chat.powerfail.cleared=Устранены все сбои в питании.
 GT5U.gui.chat.powerfail.cleared-dim=Устранены все сбои в питания в текущем измерении.
 
 GT5U.gui.chat.powerfail.list.none=No powerfails have occurred.
-GT5U.gui.chat.powerfail.list.uncleared-header=Неустраненные сбои питания:
+GT5U.gui.chat.powerfail.list.uncleared-header=Неустранённые сбои питания:
 GT5U.gui.chat.powerfail.list.entry=- %s
 GT5U.gui.chat.powerfail.list.truncated=%s additional powerfails truncated
 
