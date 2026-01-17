@@ -137,6 +137,8 @@ chat.appliedenergistics2.MachineHighlighted=%d (%d, %d, %d)'de vurgulandı.
 chat.appliedenergistics2.MachineHighlightedNamed=The %d "%d" is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageHighlighted=The %d containing %d %d is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d containing %d %d is located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.PatternRepeaterProvider=§5Provider§r - will provide pattern to current system from in front §5Accessor§r.
+chat.appliedenergistics2.PatternRepeaterAccessor=§5Accessor§r - will provide pattern to in front §5Provider§r.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -270,8 +272,6 @@ gui.appliedenergistics2.NoSecondOutput=İkincil Çıkış Yok
 gui.appliedenergistics2.OfSecondOutput=İkincil çıkış şansı: %1$d%%
 gui.appliedenergistics2.MultipleOutputs=%1$d%% ikincil, %2$d%% üçüncül çıkış
 gui.appliedenergistics2.SelectAmount=Seçim Miktarı
-gui.appliedenergistics2.IncreaseAmount=+%s
-gui.appliedenergistics2.DecreaseAmount=-%s
 gui.appliedenergistics2.CopyMode=Kopya Modu
 gui.appliedenergistics2.CopyModeDesc=Konfigürasyon panosunun içeriklerinin hücreyi çıkarınca sıfırlanmasını kontrol eder.
 gui.appliedenergistics2.Next=Sonraki
@@ -354,6 +354,8 @@ gui.appliedenergistics2.CPUAllowMode=Accept request
 gui.appliedenergistics2.CPUAllowAll=All
 gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Only from non-player
 gui.appliedenergistics2.CPUOnlyAllowPlayer=Only from player
+gui.appliedenergistics2.CPUSourcePlayer=Requester
+gui.appliedenergistics2.CPUSourceMachineRequested=Machine Requested
 
 gui.appliedenergistics2.NetworkBytesDetails=Ağ Baytları Detayları
 gui.appliedenergistics2.Items=Eşyalar
@@ -378,6 +380,8 @@ gui.appliedenergistics2.NumberOfFluids=Sıvı miktarı
 gui.appliedenergistics2.ItemsPerByte=Bayt başına eşya:
 gui.appliedenergistics2.FluidsPerByte=Bayt başına sıvı:
 gui.appliedenergistics2.BytesPerType=Tip başına bayt:
+gui.appliedenergistics2.SelectColor=Select a Color
+gui.appliedenergistics2.Selected=Selected
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -682,6 +686,9 @@ waila.appliedenergistics2.Id=id
 waila.appliedenergistics2.ConnectedTo=Connected to
 waila.appliedenergistics2.Disconnected=Disconnected
 waila.appliedenergistics2.Singularity=Singularity
+waila.appliedenergistics2.Provider=§5Provider§r
+waila.appliedenergistics2.Accessor=§5Accessor§r
+waila.appliedenergistics2.Waiting=Waiting:
 
 # Baubles Extended
 slot.Terminal=§aTerminal§7
@@ -834,6 +841,7 @@ item.appliedenergistics2.ItemPart.InterfaceTerminal.name=ME Arayüz Terminali
 item.appliedenergistics2.ItemPart.InvertedToggleBus.name=ME Ters Anahtar Veriyolu
 item.appliedenergistics2.ItemPart.ToggleBus.name=ME Anahtar Veriyolu
 item.appliedenergistics2.ItemPart.CraftingMonitor.name=ME Üretim Monitörü
+item.appliedenergistics2.ItemPart.PatternRepeater.name=ME Pattern Repeater
 
 item.appliedenergistics2.ItemSpatialStorageCell.128Cubed.name=128³ Mekansal Depolama Hücresi
 item.appliedenergistics2.ItemSpatialStorageCell.16Cubed.name=128³ Mekansal Depolama Hücresi

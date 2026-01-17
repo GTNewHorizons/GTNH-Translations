@@ -1,38 +1,38 @@
 itemGroup.storageDrawers=Storage Drawers
-itemGroup.storageDrawersSorting=Storage Drawers - Sorting
+itemGroup.storageDrawersSorting=Storage Drawers - 정렬
 
-storageDrawers.container.drawers=Drawers
-storageDrawers.container.compDrawers=Compacting Drawers
-storageDrawers.container.upgrades=Upgrades
-storageDrawers.container.controller=Drawer Controller
-storageDrawers.container.unboundSlave=Unbound Slave
-storageDrawers.container.framingTable=Framing Table
+storageDrawers.container.drawers=서랍
+storageDrawers.container.compDrawers=압축 서랍
+storageDrawers.container.upgrades=업그레이드
+storageDrawers.container.controller=서랍 컨트롤러
+storageDrawers.container.unboundSlave=연결 해제
+storageDrawers.container.framingTable=틀 제작대
 
-storagedrawers.msg.maxUpgrades=This drawer cannot accept any more upgrades.
+storagedrawers.msg.maxUpgrades=이 서랍은 더이상 업그레이드 할 수 없음.
 
 # Items
 item.storagedrawers.upgrade.name=Upgrade
-item.storagedrawers.upgradeTemplate.name=Upgrade Template
-item.storagedrawers.upgrade.iron.name=Storage Upgrade (II)
-item.storagedrawers.upgrade.gold.name=Storage Upgrade (III)
-item.storagedrawers.upgrade.obsidian.name=Storage Upgrade (IV)
-item.storagedrawers.upgrade.diamond.name=Storage Upgrade (V)
-item.storagedrawers.upgrade.emerald.name=Storage Upgrade (VI)
-item.storagedrawers.upgrade.ruby.name=Storage Upgrade (VII)
-item.storagedrawers.upgrade.tanzanite.name=Storage Upgrade (VIII)
+item.storagedrawers.upgradeTemplate.name=업그레이드 템플릿
+item.storagedrawers.upgrade.iron.name=저장공간 업그레이드 2
+item.storagedrawers.upgrade.gold.name=저장공간 업그레이드 3
+item.storagedrawers.upgrade.obsidian.name=저장공간 업그레이드 4
+item.storagedrawers.upgrade.diamond.name=저장공간 업그레이드 5
+item.storagedrawers.upgrade.emerald.name=저장공간 업그레이드 6
+item.storagedrawers.upgrade.ruby.name=저장공간 업그레이드 7
+item.storagedrawers.upgrade.tanzanite.name=저장공간 업그레이드 8
 item.storagedrawers.upgradeStatus.name=Status Upgrade
 item.storagedrawers.upgradeStatus.level1.name=Status Upgrade (I)
 item.storagedrawers.upgradeStatus.level1.description=Shows full storage
 item.storagedrawers.upgradeStatus.level2.name=Status Upgrade (II)
 item.storagedrawers.upgradeStatus.level2.description=Shows fill level
-item.storagedrawers.upgradeLock.name=Drawer Key
-item.storagedrawers.upgradeLock.description=Locks and unlocks drawers
-item.storagedrawers.upgradeVoid.name=Void Upgrade
+item.storagedrawers.upgradeLock.name=서랍 열쇠
+item.storagedrawers.upgradeLock.description=서랍을 잠그고 엽니다.
+item.storagedrawers.upgradeVoid.name=소멸 업그레이드
 item.storagedrawers.upgradeVoid.description=Destroys excess items
 item.storagedrawers.upgradeCreative.name=Creative Upgrade
-item.storagedrawers.upgradeCreative.store.name=Creative Storage Upgrade
-item.storagedrawers.upgradeCreative.store.description=Near-infinite storage
-item.storagedrawers.upgradeCreative.vend.name=Creative Vending Upgrade
+item.storagedrawers.upgradeCreative.store.name=크리에이티브 저장공간 업그레이드
+item.storagedrawers.upgradeCreative.store.description=무한에 가까운 저장소
+item.storagedrawers.upgradeCreative.vend.name=크리에이티브 공급 업그레이드
 item.storagedrawers.upgradeCreative.vend.description=Unlimited item withdrawal
 item.storagedrawers.upgradeRedstone.name=Redstone Upgrade
 item.storagedrawers.upgradeRedstone.combined.name=Redstone Upgrade
@@ -59,9 +59,9 @@ item.storagedrawers.tape.description=Seals drawers for moving
 
 # Blocks
 tile.fullDrawers1.name=Drawer
-tile.fullDrawers1.oak.name=Oak Drawer
-tile.fullDrawers1.spruce.name=Spruce Drawer
-tile.fullDrawers1.birch.name=Birch Drawer
+tile.fullDrawers1.oak.name=참나무 서랍
+tile.fullDrawers1.spruce.name=가문비나무 서랍
+tile.fullDrawers1.birch.name=자작나무 서랍
 tile.fullDrawers1.jungle.name=Jungle Drawer
 tile.fullDrawers1.acacia.name=Acacia Drawer
 tile.fullDrawers1.big_oak.name=Dark Oak Drawer
@@ -96,7 +96,7 @@ tile.halfDrawers4.spruce.name=Compact Spruce Drawers 2x2
 tile.halfDrawers4.birch.name=Compact Birch Drawers 2x2
 tile.halfDrawers4.jungle.name=Compact Jungle Drawers 2x2
 tile.halfDrawers4.acacia.name=Compact Acacia Drawers 2x2
-tile.halfDrawers4.big_oak.name=Compact Dark Oak Drawers 2x2
+tile.halfDrawers4.big_oak.name=압축된 짙은 참나무 서랍 2x2
 
 tile.fullCustom1.name=Framed Drawer
 tile.fullCustom2.name=Framed Drawers 1x2

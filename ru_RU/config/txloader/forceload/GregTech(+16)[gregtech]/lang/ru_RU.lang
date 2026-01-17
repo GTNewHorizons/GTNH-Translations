@@ -189,6 +189,7 @@ gt.interact.desc.deny_i_filter_o=Запретить ввод, фильтрова
 gt.interact.desc.deny_i_invert_o=Запретить ввод, инвертировать выход
 gt.interact.desc.any_i_filter_o=Разрешить любой ввод, фильтровать выход
 gt.interact.desc.any_i_invert_o=Разрешить любой ввод, инвертированный выход
+gt.interact.desc.unknown=НЕИЗВЕСТНО
 gt.interact.desc.mb.idle.1=Ударь киянкой для
 gt.interact.desc.mb.idle.2=(повторного) запуска механизма
 gt.interact.desc.mb.idle.3=если не запускается.
@@ -265,6 +266,8 @@ gt.interact.desc.issue=1 проблема
 gt.interact.desc.issues=%s проблемы(а)
 gt.interact.desc.issue_rotor_low=Ротор < 20%%
 gt.interact.desc.issue_rotor_dead=Ротор ≈ 0%%
+gt.interact.desc.filtering_fuild=Фильтрующая жидкость: %s - %s
+gt.interact.desc.ban_screwdriver=Не пытайтесь использовать отвёртку!
 
 # GT++ items
 item.GTPP.air_intake_hatch.name=Воздухозаборный шлюз
@@ -748,6 +751,7 @@ GT5U.maglevHarness.tooltip=Предоставляет возможность т�
 GT5U.maglevHarness.pylons=§9ВАМ НЕОБХОДИМО ПОСТРОИТЬ ДОПОЛНИТЕЛЬНЫЕ ПИЛОНЫ!
 
 GT5U.autoplace.error.no_hatch=§cSuggested to place hatch §4%s§c but none was found
+GT5U.autoplace.error.no_placeable=§cNothing found to place (use gt_hatch 1 to suggest hatches)
 GT5U.autoplace.error.no_mte.id=§cSuggested to place machine with meta ID §4%s§c but none was found
 GT5U.autoplace.error.no_mte.class_name=§cSuggested to place machine with class name §4%d§c but none was found
 GT5U.providesfullhazmatprotection=Обеспечивает полную защиту от опасных веществ.
@@ -1116,7 +1120,8 @@ GT5U.machines.powersource.power=сила
 GT5U.machines.powersource.steam=пар
 GT5U.machines.steam.amount=%1$s/%2$sЛ пара
 GT5U.machines.pump=Помпа
-GT5U.machines.separatebus=Входные люки разделены
+GT5U.machines.separatebus.true=Входные люки разделены
+GT5U.machines.separatebus.false=Входные люки не разделены
 GT5U.machines.pumpareaset=Pumping area set to
 GT5U.machines.oilfluidpump=Помпа для Нефти/Жидкости
 GT5U.machines.minermulti=Мультиблочный шахтёр
@@ -1376,8 +1381,9 @@ channels.gregtech.antenna=Определяет Корпус антенны. На
 channels.gregtech.spacetime_compression=Определяет тир Генератор поля пространственно-временного сжатия. Начинается с §6Грубый генератор поля пространственно-временного сжатия§r со значением 1 и заканчивается §6Галлифрейский генератор поля пространственно-временного сжатия§r со значением 9.
 channels.gregtech.stabilisation=Определяет тир Генератора поля стабилизации. Начинается с §6ГГрубый генератор поля стабилизации§r со значением 1 и заканчивается §6Галлифрейский генератор поля стабилизации§r со значением 9.
 channels.gregtech.time_dilation=Определяет тир Генератора поля замедления времени. Начинается с §6Грубый генератор поля замедления времени§r со значением 1 и заканчивается §6Галлифрейский генератор поля замедления времени§r со значением 9.
-channels.gregtech.gt_no_hatch=When set, disable automatic hatch placement
+channels.gregtech.gt_hatch=Enables automatic hatch placement
 channels.gregtech.field=Определяет тир T.F.F.T блока хранения жидкостей.
+channels.gregtech.component_casing=Определяет тир корпуса компонентной сборочной линии. Начинается с §6LV§r со значением 1 и заканчивается на §6MAX§r со значением 14.
 
 GT5U.gui.select.current=§8Состояние:
 GT5U.gui.button.liquid_filling_OFF=§7Жидкое наполнение: §4ОТКЛ.
@@ -1566,7 +1572,7 @@ GT5U.gui.text.ticks_between_refill=Тики между заправками
 
 
 GT5U.gui.hoverable.runningfine=Работает отлично.
-GT5U.gui.hoverable.incomplete=Незавершенная структура.
+GT5U.gui.hoverable.incomplete=Незавершённая структура.
 GT5U.gui.hoverable.powerloss=Потеря энергии.
 GT5U.gui.hoverable.norepair=Механизм слишком повреждён.
 GT5U.gui.hoverable.manualshutdown=Ручное выключение (понятно?).
@@ -1643,7 +1649,7 @@ GT5U.gui.text.wormhole_generator.max_io.large=§7Max I/O per hatch: §b%3.3e§7 
 GT5U.gui.text.status.active=Активен
 GT5U.gui.text.status.online=В сети
 GT5U.gui.text.status.disabled=Отключён
-GT5U.gui.text.status.incomplete=Незавершенная структура
+GT5U.gui.text.status.incomplete=Незавершённая структура
 GT5U.gui.text.x=X: %s
 GT5U.gui.text.y=Y: %s
 GT5U.gui.text.z=Z: %s
@@ -1709,33 +1715,33 @@ GT5U.gui.circuit.timer.description=Pulses Redstone
 GT5U.gui.circuit.timer.data_description.pulses=Pulses
 GT5U.gui.circuit.timer.data_description.time=Время
 
-GT5U.gui.text.second=%s секунд
-GT5U.gui.text.second.plural=%s секунд
-GT5U.gui.text.minute=%s минут
-GT5U.gui.text.minute.plural=%s минут
-GT5U.gui.text.hour=%s часов
-GT5U.gui.text.hour.plural=%s часов
-GT5U.gui.text.day=%s дней
-GT5U.gui.text.day.plural=%s дней
+GT5U.gui.text.second=%s сек.
+GT5U.gui.text.second.plural=%s сек.
+GT5U.gui.text.minute=%s мин.
+GT5U.gui.text.minute.plural=%s мин.
+GT5U.gui.text.hour=%s ч.
+GT5U.gui.text.hour.plural=%s ч.
+GT5U.gui.text.day=%s дн.
+GT5U.gui.text.day.plural=%s дн.
 
 GT5U.gui.text.show-powerfail-layer=Показать сбои питания
-GT5U.gui.chat.powerfail=%s в %s в %s произошел сбой питания %s времени %s назад
-GT5U.gui.chat.powerfail.plural=%s в %s в %s произошел сбой питания %s времени %s назад
-GT5U.gui.chat.powerfail.waypoint=%s (%s time, %s ago)
-GT5U.gui.chat.powerfail.waypoint.plural=%s (%s times, %s ago)
+GT5U.gui.chat.powerfail=%s: %s. Измерение: %s. Количество сбоев: %s. Время: %s назад
+GT5U.gui.chat.powerfail.plural=%s: %s. Измерение: %s. Количество сбоев: %s. Время: %s назад
+GT5U.gui.chat.powerfail.waypoint=%s (кол-во сбоев: %s, время: %s назад)
+GT5U.gui.chat.powerfail.waypoint.plural=%s (кол-во сбоев: %s, время: %s назад)
 
 GT5U.gui.chat.powerfail.waypoint.tooltip=Механизм: %s\nМестоположение: %s\nКоличество: %s\nПоследнее появление: %s\nНажмите %s, чтобы очистить
 
 GT5U.gui.chat.powerfail.hint=§7Используйте /powerfails для получения информации
 
-GT5U.gui.chat.powerfail.login=У вас %s устранен сбой питания.
-GT5U.gui.chat.powerfail.login.plural=У вас %s не устранённых сбоев питания.
+GT5U.gui.chat.powerfail.login=У вас есть %s не устранёный сбои питания.
+GT5U.gui.chat.powerfail.login.plural=У вас есть %s не устранённых сбоев питания.
 
 GT5U.gui.chat.powerfail.cleared=Устранены все сбои в питании.
 GT5U.gui.chat.powerfail.cleared-dim=Устранены все сбои в питания в текущем измерении.
 
 GT5U.gui.chat.powerfail.list.none=No powerfails have occurred.
-GT5U.gui.chat.powerfail.list.uncleared-header=Неустраненные сбои питания:
+GT5U.gui.chat.powerfail.list.uncleared-header=Неустранённые сбои питания:
 GT5U.gui.chat.powerfail.list.entry=- %s
 GT5U.gui.chat.powerfail.list.truncated=%s additional powerfails truncated
 
@@ -1835,6 +1841,7 @@ GT5U.multiblock.coilLevel=Тир нагревательной катушки
 GT5U.multiblock.preciseassemblercasing=Вольтаж ограничен тиром корпуса: %s
 GT5U.multiblock.runningMode=§eРежим работы:
 GT5U.multiblock.startup=Идёт запуск...
+GT5U.multiblock.recipesDone=Рецепты завершены
 
 # NEI recipe handlers
 GT5U.nei.heat_capacity=Теплоёмкость: %s K (%s)
@@ -2169,6 +2176,49 @@ GT5U.waila.multiblock.status.has_problem=** ЕСТЬ ПРОБЛЕМЫ **
 GT5U.waila.multiblock.status.running_fine=Работает отлично
 GT5U.waila.multiblock.status.cpu_load=Средняя загрузка ЦП ~%s нс
 GT5U.waila.multiblock.status.locked_recipe=Locked Recipe:
+
+GT5U.waila.network=Сеть: %s
+GT5U.waila.mode=Режим: %s
+GT5U.waila.coke_oven_hatch.mode.input=Ввод
+GT5U.waila.coke_oven_hatch.mode.output_item=Вывод предметов
+GT5U.waila.coke_oven_hatch.mode.output_fluid=Вывод жидкостей
+GT5U.waila.hatch.color_channel=Цветовой канал: %s
+GT5U.waila.transformer.step_down=Понижающий режим
+GT5U.waila.transformer.step_up=Повышающий режим
+GT5U.waila.transformer.input=Ввод:§r %s(%dA)
+GT5U.waila.transformer.output=Вывод:§r %s(%dA)
+GT5U.waila.boiler_solar.output=Выход солнечного бойлера:§r %d/%d Л/с
+GT5U.waila.hatch.crafting_input_slave.linked=Привязан
+GT5U.waila.hatch.crafting_input_slave.unlinked=Не привязан
+GT5U.waila.hatch.crafting_input_slave.bound_to=Привязан к %d, %d, %d
+GT5U.waila.hatch.output_bus_me.item_cache_capacity=Размер кэша предметов: %s%s%s
+GT5U.waila.hatch.output_me.fluid_cache_capacity=Размер кэша жидкостей: %s%s Л %s
+GT5U.waila.industrial_apiary.current_queen=Текущая королева: %s
+GT5U.waila.industrial_apiary.effective_production=Эффективность производства: %s
+GT5U.waila.industrial_apiary.error=Ошибка: %s
+GT5U.waila.long_distance_pipe.input=Вход трубопровода
+GT5U.waila.long_distance_pipe.output=Выход трубопровода
+GT5U.waila.long_distance_pipe.side=Сторона трубопровода
+GT5U.waila.long_distance_pipe.not_connected=Не подключено
+GT5U.waila.long_distance_pipe.connected_to.input=§aПодключён к §6входу§r
+GT5U.waila.long_distance_pipe.connected_to.input.too_close=Вход подключен слишком близко
+GT5U.waila.long_distance_pipe.connected_to.output=§aПодключён к §9выходу§r
+GT5U.waila.long_distance_pipe.connected_to.output.too_close=Выход подключен слишком близко
+GT5U.waila.black_hole_compressor.active=Активная черная дыра
+GT5U.waila.black_hole_compressor.stability=Стабильность: %s%%
+GT5U.waila.black_hole_compressor.unstable=НЕСТАБИЛЬНАЯ ЧЕРНАЯ ДЫРА
+GT5U.waila.black_hole_compressor.offline=Чёрная дыра оффлайн
+GT5U.waila.hip_compressor.heat=HIP нагрев: %s
+GT5U.waila.pcb.linked_to_bio_chamber_at=Привязан к Биокамере: §f%d, %d, %d§r
+GT5U.waila.pcb.linked_to_colling_tower_at=Привязан к Градирне: §f%d, %d, %d§r
+GT5U.waila.pcb.compat_mode=В РЕЖИМЕ СОВМЕСТИМОСТИ ИСПОЛЬЗУЙТЕ НОВЫЕ СТРУКТУРЫ ГРАДИРНИ И БИОКАМЕРЫ.
+GT5U.waila.pcb.upgrade_base.linked_to=Привязан к Заводу печатных плат: §f%d, %d, %d§r
+GT5U.waila.base.unlinked=Непривязанный
+GT5U.waila.purification_unit_base.linked_to=Привязан к водоочистной станции: §f%d, %d, %d§r
+GT5U.waila.digital_chest.count=Количество предметов: %s
+GT5U.waila.digital_chest.type=Тип предмета: %s
+GT5U.waila.digital_chest.empty=Сундук пустой
+GT5U.waila.digital_tank.empty=Резервуар пустой
 
 achievement.gettingstartedwithgt=Начало работы с GT
 achievement.gettingstartedwithgt.desc=Скрафтите деревянную кирку
@@ -2588,23 +2638,23 @@ gt.blockmachines.multimachine.foundry.chassis2.flavor=Become Eternal
 gt.blockmachines.multimachine.foundry.chassis3.flavor=Ascend Reality
 
 gt.blockmachines.multimachine.foundry.universalcollapser.flavor=Fractured Universe
-gt.blockmachines.multimachine.foundry.universalcollapser.tooltip1=- Multiplies Speed by %s2x
+gt.blockmachines.multimachine.foundry.universalcollapser.tooltip1=- Умножает скорость на %s2x
 gt.blockmachines.multimachine.foundry.universalcollapser.tooltip2=- Multiplies EU Consumption by §c4x
 gt.blockmachines.multimachine.foundry.universalcollapser.tooltip3=- Reduces Hatch Space by §620
 gt.blockmachines.multimachine.foundry.universalcollapser.tooltip4=- Multiplies Speed by an additional %s2x§7 and EU Consumption by an additional §c2x§7 when
 gt.blockmachines.multimachine.foundry.universalcollapser.tooltip5=   paired with the §bHypercooler§7 module
 
-gt.blockmachines.multimachine.foundry.efficientoc.flavor=Optimized Overclocks
+gt.blockmachines.multimachine.foundry.efficientoc.flavor=Оптимизированный разгон
 gt.blockmachines.multimachine.foundry.efficientoc.tooltip1=- Increases Overclock Factor by §d0.35
 gt.blockmachines.multimachine.foundry.efficientoc.tooltip2=- This means that each overclock provides an additional %s35%%§7 speed
 gt.blockmachines.multimachine.foundry.efficientoc.tooltip3=- Increases Overclock Factor by an additional §d0.1§7 when
-gt.blockmachines.multimachine.foundry.efficientoc.tooltip4=   paired with the §aPower Efficient Subsystems§7 module
+gt.blockmachines.multimachine.foundry.efficientoc.tooltip4=   paired with the §aProto-Volt Stabilizer§7 module
 
 gt.blockmachines.multimachine.foundry.powerefficient.flavor=Stable Current
 gt.blockmachines.multimachine.foundry.powerefficient.tooltip1=- Subtracts %s10%%§7 from Initial EU Cost
 gt.blockmachines.multimachine.foundry.powerefficient.tooltip2=- Multiplies EU cost by %s0.8x
 gt.blockmachines.multimachine.foundry.powerefficient.tooltip3=- Subtracts an additional %s50%%§7 from Initial EU Cost when
-gt.blockmachines.multimachine.foundry.powerefficient.tooltip4=   paired with the §3Efficient Overclocking System§7 module
+gt.blockmachines.multimachine.foundry.powerefficient.tooltip4=   paired with the §3Sentient Overclocker§7 module
 
 gt.blockmachines.multimachine.foundry.heliocastreinforcement.flavor=Raised Boundary
 gt.blockmachines.multimachine.foundry.heliocastreinforcement.tooltip1=- Allows for §dUIV+§7 Recipes to be processed
@@ -2622,7 +2672,7 @@ gt.blockmachines.multimachine.foundry.parallel.flavor=Greater Fate
 gt.blockmachines.multimachine.foundry.parallel.tooltip1=- Adds §612 §7Parallels per %s §7tier
 gt.blockmachines.multimachine.foundry.parallel.tooltip2=- Increases Hatch Space by §636
 gt.blockmachines.multimachine.foundry.parallel.tooltip3=- Adds an additional §66 §7Parallels per %s §7tier when
-gt.blockmachines.multimachine.foundry.parallel.tooltip4=   paired with the §cStreamlined Casters §7module
+gt.blockmachines.multimachine.foundry.parallel.tooltip4=   paired with the §cStreamlined Casting §7module
 
 gt.blockmachines.multimachine.foundry.hypercooler.flavor=Tempered Fury
 gt.blockmachines.multimachine.foundry.hypercooler.tooltip1=- Consumes §bCooling Fluid §7for §dExtra Overclocks
@@ -2632,14 +2682,14 @@ gt.blockmachines.multimachine.foundry.hypercooler.tooltip4=- §3Requires an inpu
 gt.blockmachines.multimachine.foundry.hypercooler.tooltip5=- Can use §aEternity §7at §a25 §7L/s to gain §a3 §7Maximum Overclocks when
 gt.blockmachines.multimachine.foundry.hypercooler.tooltip6=   paired with the §5Universal Collapser §7module
 
-gt.blockmachines.multimachine.foundry.streamlinedcasters.flavor=Witch Time!
+gt.blockmachines.multimachine.foundry.streamlinedcasters.flavor=Время ведьм!
 gt.blockmachines.multimachine.foundry.streamlinedcasters.tooltip1=- Increases Base Speed by %s150%%
 gt.blockmachines.multimachine.foundry.streamlinedcasters.tooltip2=- Increases Base Speed by an additional %s75%% when
-gt.blockmachines.multimachine.foundry.streamlinedcasters.tooltip3=   paired with the §eExtra Casting Basins §7module
+gt.blockmachines.multimachine.foundry.streamlinedcasters.tooltip3=   paired with the §eSuperdense Casting Basins §7module
 # Exo-Foundry GUI
 GT5U.gui.text.foundry.modules.preview=Showing Preview Modules
-GT5U.gui.text.foundry.modules.installed=Showing Installed Modules
-GT5U.gui.button.foundrymoduleselect=Toggle Module Selection Terminal
+GT5U.gui.text.foundry.modules.installed=Отображение установленных модулей
+GT5U.gui.button.foundrymoduleselect=Переключить терминал выбора модуля
 GT5U.gui.button.foundry.contributorpanel=Авторы
 
 GT5U.gui.text.foundry.projectlead=Руководитель проекта
@@ -2650,10 +2700,10 @@ GT5U.gui.text.foundry.structure=Архитектор струкутуры
 GT5U.gui.text.foundry.idea=Оригинальная идея
 GT5U.gui.text.foundry.playtest=Игровое тестирование
 
-GT5U.gui.text.foundry.pairings.activity.on=This pairing is §aactive
-GT5U.gui.text.foundry.pairings.activity.off=This pairing is §cinactive
-GT5U.gui.text.foundry.pairings.activity.bonus=When active, this pairing provides the following bonuses:
-GT5U.gui.text.foundry.pairings.optimumproduction.title=§bOptimum Production
+GT5U.gui.text.foundry.pairings.activity.on=Эта пара §aактивна
+GT5U.gui.text.foundry.pairings.activity.off=Эта пара §cнеактивна
+GT5U.gui.text.foundry.pairings.activity.bonus=При активации эта комбинация предоставляет следующие бонусы:
+GT5U.gui.text.foundry.pairings.optimumproduction.title=§bОптимальное производство
 GT5U.gui.text.foundry.pairings.optimumproduction.required=Requires §eSuperdense Casting Basins§r and §cStreamlined Casting§r Modules
 GT5U.gui.text.foundry.pairings.optimumproduction.tooltip1=%s+75%%§r Speed
 GT5U.gui.text.foundry.pairings.optimumproduction.tooltip2=%s+6§r parallels per %sVoltage§r tier
@@ -3335,6 +3385,8 @@ GT5U.tooltip.typefilter.set_to=Фильтр установлен на %s
 GT5U.tooltip.typefilter.ore_prefix=Префикс руды: %s
 GT5U.tooltip.typefilter.size=Размер фильтра: %s
 
+GT5U.tooltip.space_project_frontend.item_count=Количество предметов: %s
+
 GT5U.die.frozen=%s замерз насмерть
 GT5U.die.boiled=%s был сварен заживо
 GT5U.die.exploded=%s взорвался
@@ -3485,12 +3537,12 @@ GT5U.infodata.purification_plant.status_title=§lСтатус очистной �
 GT5U.infodata.purification_plant.linked_units=Привязанные очистные установки:
 GT5U.infodata.purification_plant.linked_units.status.online=В сети
 GT5U.infodata.purification_plant.linked_units.status.disabled=Выключен
-GT5U.infodata.purification_plant.linked_units.status.incomplete=Незавершенная структура
+GT5U.infodata.purification_plant.linked_units.status.incomplete=Незавершённая структура
 
 GT5U.infodata.pubp.catalyst_history=Catalyst insertion history for this recipe cycle
 GT5U.infodata.pubp.quark_combination=Правильно идентифицированая кварковая комбинация: %s
 
-GT5U.infodata.purification_unit_base.linked_at=Данная очистная установка привязана с Водоочистной станцией на %d, %d, %d.
+GT5U.infodata.purification_unit_base.linked_at=Данная очистная установка привязана с Водоочистной станцией: %d, %d, %d.
 GT5U.infodata.purification_unit_base.success_chance=Шанс успеха: %s
 GT5U.infodata.purification_unit_base.not_linked=Эта очистная установка не привязана к Водоочистной станции.
 
@@ -3994,7 +4046,7 @@ achievement.gt.blockmachines.voidminer1=Пустотный шахтёр I
 achievement.gt.blockmachines.voidminer1.desc=Просто посмотри рецепт в NEI
 achievement.gt.blockmachines.circuitassemblyline=Сборочная линия электросхем
 achievement.gt.blockmachines.circuitassemblyline.desc=Просто посмотри рецепт в NEI
-achievement.gt.blockmachines.multimachine.pcbcoolingtower=Башня жидкостного охлаждения
+achievement.gt.blockmachines.multimachine.pcbcoolingtower=Градирня
 achievement.gt.blockmachines.multimachine.pcbcoolingtower.desc=Просто посмотри рецепт в NEI
 achievement.gt.blockmachines.multimachine.pcbbiochamber=Биокамера
 achievement.gt.blockmachines.multimachine.pcbbiochamber.desc=Просто посмотри рецепт в NEI

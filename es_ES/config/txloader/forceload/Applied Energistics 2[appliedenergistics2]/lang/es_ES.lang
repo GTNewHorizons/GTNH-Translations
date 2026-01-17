@@ -137,6 +137,8 @@ chat.appliedenergistics2.MachineHighlighted=La %d ahora esta resaltada en %d, %d
 chat.appliedenergistics2.MachineHighlightedNamed=The %d "%d" is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageHighlighted=El %d contiene %d %d esta ahora resaltado en %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d contiene %d %d esta ubicado en la dimensión: %d y no puede ser resaltado
+chat.appliedenergistics2.PatternRepeaterProvider=§5Provider§r - will provide pattern to current system from in front §5Accessor§r.
+chat.appliedenergistics2.PatternRepeaterAccessor=§5Accessor§r - will provide pattern to in front §5Provider§r.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -270,8 +272,6 @@ gui.appliedenergistics2.NoSecondOutput=Sin salida secundaria
 gui.appliedenergistics2.OfSecondOutput=%1$d%% probabilidad de salida secundaria.
 gui.appliedenergistics2.MultipleOutputs=%1$d%% segunda, %2$d%% tercera salida.
 gui.appliedenergistics2.SelectAmount=Seleccionar cantidad
-gui.appliedenergistics2.IncreaseAmount=+%s
-gui.appliedenergistics2.DecreaseAmount=-%s
 gui.appliedenergistics2.CopyMode=Modo de copia
 gui.appliedenergistics2.CopyModeDesc=Controla si el contenido del panel de configuración se borra al eliminar la celda.
 gui.appliedenergistics2.Next=Próximo
@@ -354,6 +354,8 @@ gui.appliedenergistics2.CPUAllowMode=Accept request
 gui.appliedenergistics2.CPUAllowAll=All
 gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Only from non-player
 gui.appliedenergistics2.CPUOnlyAllowPlayer=Only from player
+gui.appliedenergistics2.CPUSourcePlayer=Requester
+gui.appliedenergistics2.CPUSourceMachineRequested=Machine Requested
 
 gui.appliedenergistics2.NetworkBytesDetails=Detalles de bytes de red
 gui.appliedenergistics2.Items=Objetos
@@ -378,6 +380,8 @@ gui.appliedenergistics2.NumberOfFluids=Numero de fluidos
 gui.appliedenergistics2.ItemsPerByte=Objetos por byte:
 gui.appliedenergistics2.FluidsPerByte=Fluidos por byte:
 gui.appliedenergistics2.BytesPerType=Bytes por tipo:
+gui.appliedenergistics2.SelectColor=Select a Color
+gui.appliedenergistics2.Selected=Selected
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -682,6 +686,9 @@ waila.appliedenergistics2.Id=id
 waila.appliedenergistics2.ConnectedTo=Connected to
 waila.appliedenergistics2.Disconnected=Disconnected
 waila.appliedenergistics2.Singularity=Singularity
+waila.appliedenergistics2.Provider=§5Provider§r
+waila.appliedenergistics2.Accessor=§5Accessor§r
+waila.appliedenergistics2.Waiting=Waiting:
 
 # Baubles Extended
 slot.Terminal=§aTerminal§7
@@ -834,6 +841,7 @@ item.appliedenergistics2.ItemPart.InterfaceTerminal.name=Terminal de Interfaces 
 item.appliedenergistics2.ItemPart.InvertedToggleBus.name=Bus Alternador Inverso ME
 item.appliedenergistics2.ItemPart.ToggleBus.name=Bus Alternador ME
 item.appliedenergistics2.ItemPart.CraftingMonitor.name=Monitor de Trabajo ME
+item.appliedenergistics2.ItemPart.PatternRepeater.name=ME Pattern Repeater
 
 item.appliedenergistics2.ItemSpatialStorageCell.128Cubed.name=Unidad de Almacenamiento Espacial de 128³ 
 item.appliedenergistics2.ItemSpatialStorageCell.16Cubed.name=Unidad de Almacenamiento Espacial de 16³

@@ -651,6 +651,17 @@ item.StargateDustAncients.name=Stargate-Crystal Dust of the Ancients
 item.StargateCrystalAncients.name=Stargate Core Crystal of the Ancients
 item.warptheory.portableshower.name=携帯シャワー
 
+achievement.item.HeavyDutyAlloyIngotT4=Rocket Plate Tier 4!
+achievement.item.HeavyDutyAlloyIngotT4.desc=On your way to the T4 Dims!
+achievement.item.HeavyDutyAlloyIngotT5=Rocket Plate Tier 5!
+achievement.item.HeavyDutyAlloyIngotT5.desc=On your way to the T5 Dims!
+achievement.item.HeavyDutyAlloyIngotT6=Rocket Plate Tier 6!
+achievement.item.HeavyDutyAlloyIngotT6.desc=On your way to the T6 Dims!
+achievement.item.HeavyDutyAlloyIngotT7=Rocket Plate Tier 7!
+achievement.item.HeavyDutyAlloyIngotT7.desc=On your way to the T7 Dims!
+achievement.item.HeavyDutyAlloyIngotT8=Rocket Plate Tier 8!
+achievement.item.HeavyDutyAlloyIngotT8.desc=On your way to the T8 Dims!
+
 tc.research_name.InfusedGoldGTNH=注入金
 tc.research_text.InfusedGoldGTNH=[AM] Infuse Gold with magic.
 tc.research_page.InfusedGoldGTNH.1=You found a way to fuse gold and thaumium to create a new metal INFUSED GOLD
@@ -1768,17 +1779,18 @@ dreamcraft.gui.quitmessage.yes=はい
 dreamcraft.gui.quitmessage.no=いいえ
 dreamcraft.gui.quitmessage.never=二度と表示しない
 
-dreamcraft.welcome.welcome=ようこそ！GregTech: New Horizons
+dreamcraft.welcome.welcome=GregTech: New Horizons %s へようこそ
 dreamcraft.welcome.questbook=クエストブックを開くショートカットがあります。キー割り当てを確認してください。
-dreamcraft.welcome.gtnh_wiki=GTNH Wikiのリンク:
+dreamcraft.welcome.gtnh_wiki=GTNH Wikiのリンク: %s
 dreamcraft.welcome.click_wiki=クリックしてWikiを開く！
 dreamcraft.welcome.report_bug=バグはGitHubでご報告ください:
 dreamcraft.welcome.click_github=クリックしてGitHubを開く！
-dreamcraft.welcome.visitdiscord=公式Discordはこちら
+dreamcraft.welcome.visitdiscord=公式Discordはこちら %s
 dreamcraft.welcome.click_discord=クリックしてDiscordを開く！
+dreamcraft.welcome.open_to_lan="LANに公開"サーバーに接続しました。このサーバーは公式にはサポートされていません。通常より多くのバグ発生が予想されます。
 
 dreamcraft.pausemenu.bug=バグを報告
 dreamcraft.pausemenu.wiki=Wikiを開く
-dreamcraft.pausemenu.sharetolan.tooltip=§cLANへの公開はGTNHではサポートされていません。§r\n代わりにマルチプレイ専用サーバーを用意してください。\nWikiで手順を確認してください。\n1台のPCでサーバーとクライアントを\n同時に稼働させることができます。
+dreamcraft.pausemenu.sharetolan.tooltip=§c"LANに公開"はGTNHではバグの原因となります。§r\n代わりにマルチプレイ専用サーバーを用意してください。\nWikiで手順を確認してください。\n1台のPCでサーバーとクライアントを\n同時に稼働させることができます。
 
-dreamcraft.gui.sharetolan.message=GTNHは"LANへの公開"からのマルチプレイをサポートしていません。§c外部接続は無効です！§r
+dreamcraft.gui.sharetolan.message=§c"LANに公開"はクエストブックのデータ破損の原因になります。§r まずはマルチプレイ専用サーバーの立ち上げを検討してください。
