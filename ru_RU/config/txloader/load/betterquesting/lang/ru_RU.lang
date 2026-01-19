@@ -9324,8 +9324,8 @@ betterquesting.quest.3wK8pIDKSOii1__bwf6Ycw.name=Улучшения
 betterquesting.quest.3wK8pIDKSOii1__bwf6Ycw.desc=You want to automate recipes involving fluids, but the crafting module only accept items? You want to see how machines are handling recipes in the request table to see if something gets stuck? You will need §lupgrades§r.%n%nYou can apply upgrades to pipes and modules, but you can't just access the upgrade menu by right-clicking the chassis with a wrench.%n%nIntroducing the Logistics Pipe Controller. This item is like a wrench for LP, except it will open the upgrades menu. It can also allow you to view statistics related to the pipe you are accessing.
 
 # Quest: Filtering by Type
-betterquesting.quest.5rc45iPDSmqLbuvcioFDEQ.name=Filtering by Type
-betterquesting.quest.5rc45iPDSmqLbuvcioFDEQ.desc=There are situations where there are a large amount of the same type of items, but the quantity of each aren't large enough to get them dedicated storage...%n%nThe Type Filter ItemSink Module can assign an item type to inventory space it is connected to. All items of the same type will be assigned to that inventory space.
+betterquesting.quest.5rc45iPDSmqLbuvcioFDEQ.name=Фильтрация по типу
+betterquesting.quest.5rc45iPDSmqLbuvcioFDEQ.desc=Бывают ситуации, когда имеется большое количество предметов одного типа, но количество каждого из них недостаточно велико, чтобы выделить для них отдельное хранилище...%n%nМодуль Type Filter ItemSink может присвоить тип предмета инвентарному пространству, к которому он подключён. Все предметы одного типа будут отнесены к этому инвентарному пространству.
 
 # Quest: Fluid Storage
 betterquesting.quest.7O4n10fJSxme0Bs0_n44xg.name=Хранение жидкостей
@@ -9344,8 +9344,8 @@ betterquesting.quest.9OtAPqTQQBaCixJITgpnFg.name=Шасси
 betterquesting.quest.9OtAPqTQQBaCixJITgpnFg.desc=Базовые трубы могут взаимодействовать с соседними блоками, но сами по себе они мало что делают.%n%nВ логистических трубах есть модули, которые наделяют трубы более сложными функциями, но базовые логистические трубы не могут их использовать.%n%nДля использования модулей существуют специальные трубы, называемые шасси.%n%nВ логистических трубах существует несколько уровней шасси. Пока что подойдёт Mk 1, вмещающий 1 модуль.%n%nТы можешь вставлять модули прямо в шасси, щёлкнув ПКМ по шасси с модулем. Но если тебе нужно извлечь модули из шасси или настроить модуль в шасси, тебе нужно щелкнуть ПКМ с гаечным ключом, чтобы получить доступ к его пользовательскому интерфейсу.
 
 # Quest: Troubleshooting...
-betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ.name=Troubleshooting...
-betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ.desc=If you find your pipe has thick red corners, then it means something is wrong. Either the network is out of power or you formed a junction with an Unrouted Transport Pipe.%n%nWhen the system gets more complicated, the chances go up that something will go wrong. Have fun troubleshooting! :)
+betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ.name=Устранение неполадок...
+betterquesting.quest.EfJnTMxuTMKc5VhvNOxrYQ.desc=Если вы обнаружили, что у вашей трубы есть толстые красные углы, это означает, что что-то не так. Либо сеть не получает питания, либо вы сформировали соединение с не направляющей транспортной трубой.%n%nКогда система становится более сложной, вероятность того, что что-то пойдет не так, увеличивается. Удачи в устранении неполадок! :)
 
 # Quest: Better Chassis
 betterquesting.quest.FFDyUcsHTpiFg7_Yjr8vGA.name=Шасси получше
@@ -9388,8 +9388,8 @@ betterquesting.quest.TBZf_HtQTQ-yckug0fs8kA.name=Погружаемся
 betterquesting.quest.TBZf_HtQTQ-yckug0fs8kA.desc=Хорошо организованная система хранения имеет решающее значение для логистической системы.%n%nБлагодаря возможности использовать модули через шасси мы можем подготовиться к использованию модулей хранения.%n%nLogistics Pipes использует модули ItemSink для назначения мест хранения.%n%nЭти модули ItemSink могут быть использованы двумя способами:%n%n1. Назначить хранилище подключенному инвентарю, содержащему не более 9 различных видов предметов, задав 9 предметов в качестве фильтра в модуле.%n%n2. Назначить подключенный инвентарь в качестве маршрута по умолчанию. Маршрут по умолчанию является местом назначения для предметов, у которых нет других подходящих мест хранения.%n%n§cПримечание: не забывай всегда проверять, есть ли в маршруте по умолчанию дополнительные места, потому что предметы, застрявшие в трубах без места назначения, в конце концов сами вылетят из труб.
 
 # Quest: Time to Request
-betterquesting.quest.VH7nGtkWRp-riK1I3cq5yw.name=Time to Request
-betterquesting.quest.VH7nGtkWRp-riK1I3cq5yw.desc=Your system now has the capability of providing items for requests, time to request items.%n%nThis Request Logistics Pipe can send out requests that, if the network has items that can fulfill the requests, send the item to the pipe.%n%nAttach an inventory to it so that when items reach the request logistics pipe, they are stored in an inventory and don't get yeeted out.
+betterquesting.quest.VH7nGtkWRp-riK1I3cq5yw.name=Пора запрашивать
+betterquesting.quest.VH7nGtkWRp-riK1I3cq5yw.desc=Ваша система теперь обладает возможностью предоставлять предметы по запросу - пора начинать запрашивать предметы.%n%nЭта логистическая труба запроса может отправлять запросы, и если в сети есть предметы, способные их выполнить, предмет будет отправлен к трубе.%n%nПодключите к ней инвентарь, чтобы когда предметы достигают логистической трубы запроса, они сохранялись в инвентаре, а не вылетали наружу.
 
 # Quest: Time to See The Process
 betterquesting.quest.VISeokU3R-efeF88FwLGLw.name=Time to See The Process
@@ -9408,16 +9408,16 @@ betterquesting.quest.ZS2_l5v3R2-gh69ESL-FNQ.name=ЭТО САМОЕ ЛУЧШЕЕ
 betterquesting.quest.ZS2_l5v3R2-gh69ESL-FNQ.desc=Тебе всё ещё нужно БОЛЬШЕ слотов для рецептов?%n%nЦена этого будет просто §lТИТАНИЧЕСКАЯ§r. Ты уверен?%n%nДа?Ну ок...%n%nтогда вот - шасси последнего уровня: Шасси Mk5. Вместо постепенного роста количества вмещаемых модулей, как на предыдущих уровнях, оно сразу удваивает количество вмещаемых модулей. Надеюсь ты уверен, что оно того стоит.
 
 # Quest: Preparin' for Requestin'
-betterquesting.quest._XiSkFhJQ8-WjqujCxBtlw.name=Preparin' for Requestin'
-betterquesting.quest._XiSkFhJQ8-WjqujCxBtlw.desc=Logistics Pipes have automation capability in place, but first, it needs to know what inventory that items inside can be used for requests.%n%nThe Provider module does this job nicely. When you open the interface of the module, there is a 3*3 grid. You can pick what items that the module can provide, or you can leave it empty as "everything in the inventory can be provided for requests".
+betterquesting.quest._XiSkFhJQ8-WjqujCxBtlw.name=Подготовка к запросам
+betterquesting.quest._XiSkFhJQ8-WjqujCxBtlw.desc=Логистические трубы уже обладают возможностями автоматизации, но сначала им нужно знать, какой инвентарь и какие предметы в нём могут использоваться для запросов.%n%nМодуль поставщика отлично справляется с этой задачей. Когда вы открываете интерфейс модуля, вы увидите сетку 3*3. Вы можете выбрать, какие предметы модуль может предоставлять, либо оставить её пустой - в этом случае "всё содержимое инвентаря может быть предоставлено по запросу".
 
 # Quest: Even Better Chassis
 betterquesting.quest.b4P0yD1LSeO7HWzj70NM8Q.name=Шасси ещё лучше
 betterquesting.quest.b4P0yD1LSeO7HWzj70NM8Q.desc=2 модуля всё ещё не достаточно? Нужно больше слотов с рецептами для механизмов?%n%nПредставляю тебе шасси Mk3. Оно вмещает 3 модуля.
 
 # Quest: It gets polymorphic
-betterquesting.quest.bQCnuxrTTBe4ubytZPfl-g.name=It gets polymorphic
-betterquesting.quest.bQCnuxrTTBe4ubytZPfl-g.desc=Sometimes people have a storage system that contains a lot of different items, or they have a large quantity of the same item.%n%nHere comes the Polymorphic ItemSink. It assigns inventory space to the kind of items already in the inventory.%n%nVery handy especially when you have a storage controller connecting to a lot of drawers.
+betterquesting.quest.bQCnuxrTTBe4ubytZPfl-g.name=Он становится полиморфным
+betterquesting.quest.bQCnuxrTTBe4ubytZPfl-g.desc=Иногда у людей есть система хранения, которая содержит много разных предметов, или у них есть большое количество одинаковых предметов.%n%nЗдесь на помощь приходит Модуль: ItemSink - полиморфный. Он распределяет место в инвентаре в зависимости от типа предметов, которые уже находятся в инвентаре.%n%nОчень удобно, особенно когда у вас есть контроллер хранения, подключённый ко множеству ящиков.
 
 # Quest: Powering Logistics
 betterquesting.quest.dSSmDusvSVSKi41Tnw51dA.name=Питание для системы логистики
@@ -11514,7 +11514,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADHg.desc=Создание окаймлё
 
 # Quest: Gold-Banded Greatwood Scepter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ.name=Окаймлённый золотом великодревесный скипетр
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ.desc=Для создания скипетра нужен стержень, сингулярный амулет, три наконечника, компоненты с боссов и немного винтов. Подойдут любые наконечники, но они должны быть одинаковыми. На скипетр нельзя повесить набалдашник, зато он вмещает на 50 процентов больше вис энергии, чем жезл из того же материала, а также имеет дополнительное снижение затрат вис энергии в 10 процентов, помимо бонусов от наконечников и экипировки.%n%nИдеально подходит для крафта вещей и дальнейшего развития!%n%n[note]Есть множество способов снизить затраты вис энергии, чтобы его хватило для создания скипетра. Если ты не можешь его сделать на данный момент, то возможно, тебе следует заняться наполнением предметов аспектами и сделать себе ботинки, с большим снижением затрат вис энергии.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADbQ.desc=Для создания скипетра нужен стержень, сингулярный амулет, три наконечника, компоненты с боссов и немного винтов. Подойдут любые наконечники, но они должны быть одинаковыми. На скипетр нельзя повесить набалдашник, зато он вмещает на 50%% больше вис энергии, чем жезл из того же материала, а также имеет дополнительное снижение затрат вис энергии в 10 процентов, помимо бонусов от наконечников и экипировки.%n%nИдеально подходит для крафта вещей и дальнейшего развития!%n%n[note]Есть множество способов снизить затраты вис энергии, чтобы его хватило для создания скипетра. Если ты не можешь его сделать на данный момент, то возможно, тебе следует заняться наполнением предметов аспектами и сделать себе ботинки, с большим снижением затрат вис энергии.[/note]
 
 # Quest: Primal Charm
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADbw.name=Сингулярный амулет
