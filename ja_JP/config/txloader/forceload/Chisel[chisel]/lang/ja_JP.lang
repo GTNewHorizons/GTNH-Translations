@@ -94,7 +94,7 @@ tile.antiBlock.gray.desc=灰色のアンチブロック
 
 #Diorite
 tile.chisel.diorite.name=閃緑岩
-tile.diorite.0.desc=地下に生成される
+tile.diorite.0.desc=地下に自然生成されます
 tile.diorite.1.desc=磨かれた閃緑岩
 tile.diorite.2.desc=閃緑岩の柱
 tile.diorite.3.desc=閃緑岩レンガ
@@ -104,7 +104,7 @@ tile.diorite.6.desc=閃緑岩タイル
 
 #Andesite
 tile.chisel.andesite.name=安山岩
-tile.andesite.0.desc=地下に生成される
+tile.andesite.0.desc=地下に自然生成されます
 tile.andesite.1.desc=磨かれた安山岩
 tile.andesite.2.desc=安山岩の柱
 tile.andesite.3.desc=安山岩レンガ
@@ -114,7 +114,7 @@ tile.andesite.6.desc=安山岩タイル
 
 #Granite
 tile.chisel.granite.name=花崗岩
-tile.granite.0.desc=地下に生成される
+tile.granite.0.desc=地下に自然生成されます
 tile.granite.1.desc=磨かれた花崗岩
 tile.granite.2.desc=花崗岩の柱
 tile.granite.3.desc=花崗岩レンガ
@@ -123,13 +123,13 @@ tile.granite.5.desc=プリズマリン風の花崗岩
 tile.granite.6.desc=花崗岩タイル
 
 #Auto Chisel
-tile.chisel.autoChisel.name=自動彫刻機
-autochisel.slot.chisel.tooltip=彫刻用ノミスロット
-autochisel.slot.target.tooltip=彫刻先スロット
-autochisel.slot.speed.tooltip=速度アップグレードスロット
-autochisel.slot.automation.tooltip=自動化アップグレードスロット
-autochisel.slot.stack.tooltip=スタックアップグレードスロット
-autochisel.slot.reversion.tooltip=巻き戻しアップグレードスロット
+tile.chisel.autoChisel.name=自動彫刻器
+autochisel.slot.chisel.tooltip=彫刻用ノミを配置
+autochisel.slot.target.tooltip=彫刻先を指定
+autochisel.slot.speed.tooltip=速度アップグレードを配置
+autochisel.slot.automation.tooltip=自動化アップグレードを配置
+autochisel.slot.stack.tooltip=スタックアップグレードを配置
+autochisel.slot.reversion.tooltip=巻き戻しアップグレードを配置
 chisel.autochisel.upgrade.disabled=無効なアップグレード
 
 #Beacon
@@ -194,8 +194,8 @@ tile.voidstonePillar.0.desc=縞模様のボイドストーンの柱
 
 #Warning
 tile.chisel.warningSign.name=警告ブロック
-tile.warningSign.0.desc=放射能注意
-tile.warningSign.1.desc=生物災害注意
+tile.warningSign.0.desc=放射線注意
+tile.warningSign.1.desc=バイオハザード
 tile.warningSign.2.desc=火気注意
 tile.warningSign.3.desc=爆発注意
 tile.warningSign.4.desc=死の危険あり
@@ -228,7 +228,7 @@ tile.voidstonePillar2.0.desc=縞模様の活性化ボイドストーンの柱
 #Arcane
 tile.chisel.arcane.name=神秘の石
 tile.arcane.0.desc=月の彫刻
-tile.arcane.1.desc=夜光の月
+tile.arcane.1.desc=夜光の月の彫刻
 tile.arcane.2.desc=磨かれたパネル
 tile.arcane.3.desc=文字の彫刻
 tile.arcane.4.desc=夜光の文字
@@ -933,7 +933,7 @@ tile.chisel.tinblock.name=錫ブロック
 tile.chisel.uraniumblock.name=ウランブロック
 tile.metalOre.0.desc=警告テープ
 tile.metalOre.1.desc=貨物箱
-tile.metalOre.2.desc=光沢
+tile.metalOre.2.desc=Thermal風
 tile.metalOre.3.desc=いにしえの工業の遺産
 tile.metalOre.4.desc=粗雑な縁取りブロック
 tile.metalOre.5.desc=ボルトを締めたプレート
@@ -950,7 +950,7 @@ tile.chisel.present.desc=可愛らしいプレゼント用チェスト
 #Brick
 tile.chisel.brickCustom.name=レンガ
 tile.brickCustom.1.desc=大きいレンガ
-tile.brickCustom.2.desc=漆喰なしレンガ
+tile.brickCustom.2.desc=モルタルなしレンガ
 tile.brickCustom.3.desc=カラフルなレンガ
 tile.brickCustom.5.desc=劣化したレンガ
 tile.brickCustom.6.desc=黄色のレンガ
@@ -1016,19 +1016,19 @@ tile.marbleSlab.15.desc=大理石タイルのハーフブロック
 #Marble Pillars (old)
 tile.chisel.marble_pillar.name=大理石の柱
 tile.marblePillarOld.0.desc=大理石の柱
-tile.marblePillarOld.1.desc=大理石の笠石
+tile.marblePillarOld.1.desc=大理石の柱頭
 tile.marblePillarOld.2.desc=大理石の土台
 tile.marblePillarOld.3.desc=短い大理石の柱
 tile.marblePillarOld.4.desc=彫刻された大理石の柱
 tile.marblePillarOld.5.desc=おしゃれな大理石の柱
 tile.marblePillarOld.6.desc=ギリシャ風大理石の柱
 tile.marblePillarOld.7.desc=シンプルな大理石の柱
-tile.marblePillarOld.8.desc=ギリシャ風大理石の笠石
-tile.marblePillarOld.9.desc=シンプルな大理石の笠石
+tile.marblePillarOld.8.desc=ギリシャ風大理石の柱頭
+tile.marblePillarOld.9.desc=シンプルな大理石の柱頭
 tile.marblePillarOld.10.desc=ギリシャ風大理石の土台
 tile.marblePillarOld.11.desc=シンプルな大理石の土台
-tile.marblePillarOld.12.desc=彫刻されたギリシャ風大理石の笠石
-tile.marblePillarOld.13.desc=彫刻されたシンプルな大理石の笠石
+tile.marblePillarOld.12.desc=彫刻されたギリシャ風大理石の柱頭
+tile.marblePillarOld.13.desc=彫刻されたシンプルな大理石の柱頭
 tile.marblePillarOld.14.desc=彫刻されたギリシャ風大理石の土台
 tile.marblePillarOld.15.desc=彫刻されたシンプルな大理石の土台
 
@@ -1038,34 +1038,34 @@ tile.marblePillar.1.desc=原初の大理石の柱
 tile.marblePillar.2.desc=簡素な大理石の柱
 tile.marblePillar.3.desc=窪みが細い大理石の柱
 tile.marblePillar.4.desc=劣化した大理石の柱
-tile.marblePillar.5.desc=装飾笠石つきギリシャ風大理石の柱
+tile.marblePillar.5.desc=装飾柱頭つきギリシャ風大理石の柱
 tile.marblePillar.6.desc=ギリシャ風大理石の柱
-tile.marblePillar.7.desc=シンプルな笠石つきギリシャ風大理石の柱
-tile.marblePillar.8.desc=装飾笠石つきシンプルな大理石の柱
-tile.marblePillar.9.desc=ギリシャ風笠石つきシンプルな大理石の柱
+tile.marblePillar.7.desc=シンプルな柱頭つきギリシャ風大理石の柱
+tile.marblePillar.8.desc=装飾柱頭つきシンプルな大理石の柱
+tile.marblePillar.9.desc=ギリシャ風柱頭つきシンプルな大理石の柱
 tile.marblePillar.10.desc=シンプルな大理石の柱
-tile.marblePillar.11.desc=装飾笠石つき窪みが太い大理石の柱
-tile.marblePillar.12.desc=ギリシャ風笠石つき窪みが太い大理石の柱
-tile.marblePillar.13.desc=シンプルな笠石つき窪みが太い大理石の柱
-tile.marblePillar.14.desc=彫刻された大理石の笠石
-tile.marblePillar.15.desc=おしゃれな大理石の笠石
+tile.marblePillar.11.desc=装飾柱頭つき窪みが太い大理石の柱
+tile.marblePillar.12.desc=ギリシャ風柱頭つき窪みが太い大理石の柱
+tile.marblePillar.13.desc=シンプルな柱頭つき窪みが太い大理石の柱
+tile.marblePillar.14.desc=彫刻された大理石の柱頭
+tile.marblePillar.15.desc=おしゃれな大理石の柱頭
 
 #Marble Slabs (old)
 tile.chisel.marble_pillar_slab.name=大理石の柱のハーフブロック
 tile.marblePillarSlabOld.0.desc=大理石の柱のハーフブロック
-tile.marblePillarSlabOld.1.desc=大理石の笠石のハーフブロック
+tile.marblePillarSlabOld.1.desc=大理石の柱頭のハーフブロック
 tile.marblePillarSlabOld.2.desc=大理石の土台のハーフブロック
 tile.marblePillarSlabOld.3.desc=短い大理石の柱のハーフブロック
 tile.marblePillarSlabOld.4.desc=彫刻された大理石の柱のハーフブロック
 tile.marblePillarSlabOld.5.desc=おしゃれな大理石の柱のハーフブロック
 tile.marblePillarSlabOld.6.desc=ギリシャ風大理石の柱のハーフブロック
 tile.marblePillarSlabOld.7.desc=シンプルな大理石の柱のハーフブロック
-tile.marblePillarSlabOld.8.desc=ギリシャ風大理石の笠石のハーフブロック
-tile.marblePillarSlabOld.9.desc=シンプルな大理石の笠石のハーフブロック
+tile.marblePillarSlabOld.8.desc=ギリシャ風大理石の柱頭のハーフブロック
+tile.marblePillarSlabOld.9.desc=シンプルな大理石の柱頭のハーフブロック
 tile.marblePillarSlabOld.10.desc=ギリシャ風大理石の土台のハーフブロック
 tile.marblePillarSlabOld.11.desc=シンプルな大理石の土台のハーフブロック
-tile.marblePillarSlabOld.12.desc=彫刻されたギリシャ風大理石の笠石のハーフブロック
-tile.marblePillarSlabOld.13.desc=彫刻されたシンプルな大理石の笠石のハーフブロック
+tile.marblePillarSlabOld.12.desc=彫刻されたギリシャ風大理石の柱頭のハーフブロック
+tile.marblePillarSlabOld.13.desc=彫刻されたシンプルな大理石の柱頭のハーフブロック
 tile.marblePillarSlabOld.14.desc=彫刻されたギリシャ風大理石の土台のハーフブロック
 tile.marblePillarSlabOld.15.desc=彫刻されたシンプルな大理石の土台のハーフブロック
 
@@ -1075,17 +1075,17 @@ tile.marblePillarSlab.1.desc=原初の大理石の柱のハーフブロック
 tile.marblePillarSlab.2.desc=簡素な大理石の柱のハーフブロック
 tile.marblePillarSlab.3.desc=窪みが細い大理石の柱のハーフブロック
 tile.marblePillarSlab.4.desc=劣化した大理石の柱のハーフブロック
-tile.marblePillarSlab.5.desc=装飾笠石つきギリシャ風大理石の柱のハーフブロック
+tile.marblePillarSlab.5.desc=装飾柱頭つきギリシャ風大理石の柱のハーフブロック
 tile.marblePillarSlab.6.desc=ギリシャ風大理石の柱のハーフブロック
-tile.marblePillarSlab.7.desc=シンプルな笠石つきギリシャ風大理石の柱のハーフブロック
-tile.marblePillarSlab.8.desc=装飾笠石つきシンプルな大理石の柱のハーフブロック
-tile.marblePillarSlab.9.desc=ギリシャ風笠石つきシンプルな大理石の柱のハーフブロック
+tile.marblePillarSlab.7.desc=シンプルな柱頭つきギリシャ風大理石の柱のハーフブロック
+tile.marblePillarSlab.8.desc=装飾柱頭つきシンプルな大理石の柱のハーフブロック
+tile.marblePillarSlab.9.desc=ギリシャ風柱頭つきシンプルな大理石の柱のハーフブロック
 tile.marblePillarSlab.10.desc=シンプルな大理石の柱のハーフブロック
-tile.marblePillarSlab.11.desc=装飾笠石つき窪みが太い大理石の柱のハーフブロック
-tile.marblePillarSlab.12.desc=ギリシャ風笠石つき窪みが太い大理石の柱のハーフブロック
-tile.marblePillarSlab.13.desc=シンプルな笠石つき窪みが太い大理石の柱のハーフブロック
-tile.marblePillarSlab.14.desc=彫刻された大理石の笠石のハーフブロック
-tile.marblePillarSlab.15.desc=おしゃれな大理石の笠石のハーフブロック
+tile.marblePillarSlab.11.desc=装飾柱頭つき窪みが太い大理石の柱のハーフブロック
+tile.marblePillarSlab.12.desc=ギリシャ風柱頭つき窪みが太い大理石の柱のハーフブロック
+tile.marblePillarSlab.13.desc=シンプルな柱頭つき窪みが太い大理石の柱のハーフブロック
+tile.marblePillarSlab.14.desc=彫刻された大理石の柱頭のハーフブロック
+tile.marblePillarSlab.15.desc=おしゃれな大理石の柱頭のハーフブロック
 
 #Marble Stairs
 #The same name goes here 8 different times since stairs take up 8 block positions.
@@ -1187,7 +1187,7 @@ tile.limestoneStairs.15.desc=粗い縁取り石灰岩パネルの階段
 
 #Factory Blocks
 tile.chisel.factoryblock.name=工場用ブロック
-tile.factory.0.desc=ボルトを締めた錆びた金属プレート
+tile.factory.0.desc=ボルト締めの錆びた金属プレート
 tile.factory.1.desc=錆びた金属プレート
 tile.factory.2.desc=非常に錆びた金属プレート
 tile.factory.3.desc=少し錆びた金属プレート
@@ -1222,8 +1222,8 @@ tile.diamond.7.desc=ビスマス結晶風ダイヤモンドブロック
 tile.diamond.8.desc=砕けたダイヤモンドブロック
 tile.diamond.9.desc=ダイヤモンドタイル
 tile.diamond.10.desc=模様入りのダイヤモンドタイル
-tile.diamond.11.desc=ゼル伝風ダイヤモンドブロック
-tile.diamond.12.desc=金の縁取りダイヤモンドブロック
+tile.diamond.11.desc=ゼルダ風のダイヤモンドブロック
+tile.diamond.12.desc=金縁取りのダイヤモンドブロック
 
 #Snakestone
 tile.chisel.snakestoneSand.name=蛇の彫刻入り砂岩
@@ -1249,7 +1249,7 @@ tile.glass.14.desc=細い格子
 tile.glass.15.desc=近代的な鉄柵
 
 tile.chisel.glass2.name=ガラス
-tile.glass2.0.desc=金網
+tile.glass2.0.desc=金網ガラス
 
 #Sandstone
 tile.chisel.sandstone.name=砂岩
@@ -1261,11 +1261,11 @@ tile.sandstone.2.desc=クリーパー入り砂岩
 
 tile.sandstone.3.desc=上部を磨いた砂岩
 tile.sandstone.4.desc=砂岩の柱
-tile.sandstone.5.desc=砂岩の笠石
+tile.sandstone.5.desc=砂岩の柱頭
 tile.sandstone.6.desc=短い砂岩の柱
 tile.sandstone.7.desc=砂岩の土台
 tile.sandstone.8.desc=滑らかな砂岩
-tile.sandstone.9.desc=滑らかな砂岩の笠石
+tile.sandstone.9.desc=滑らかな砂岩の柱頭
 tile.sandstone.10.desc=短い滑らかな砂岩の柱
 tile.sandstone.11.desc=滑らかな砂岩の土台
 tile.sandstone.12.desc=砂岩パネル
@@ -1359,12 +1359,12 @@ tile.lightstone.15.desc=ビスマス結晶風グロウストーンパネル
 tile.chisel.lapis_block.name=ラピスラズリブロック
 tile.lapis.1.desc=ラピスラズリの塊
 tile.lapis.2.desc=光沢があるラピスラズリブロック
-tile.lapis.3.desc=ゼル伝風ラピスラズリブロック
+tile.lapis.3.desc=ゼルダ風のラピスラズリブロック
 tile.lapis.4.desc=縁取りラピスラズリブロック
 tile.lapis.5.desc=ラピスラズリパネル
 tile.lapis.6.desc=磨かれたラピスラズリブロック
 tile.lapis.7.desc=滑らかなラピスラズリブロック
-tile.lapis.8.desc=金の縁取りラピスラズリブロック
+tile.lapis.8.desc=金縁取りのラピスラズリブロック
 
 #Emerald Blocks
 tile.chisel.emerald_block.name=エメラルドブロック
@@ -1372,8 +1372,8 @@ tile.emerald.1.desc=エメラルドパネル
 tile.emerald.2.desc=古典的なエメラルドパネル
 tile.emerald.3.desc=滑らかなエメラルドブロック
 tile.emerald.4.desc=エメラルドの塊
-tile.emerald.5.desc=金の縁取りエメラルドブロック
-tile.emerald.6.desc=ゼル伝風エメラルドブロック
+tile.emerald.5.desc=金縁取りのエメラルドブロック
+tile.emerald.6.desc=ゼルダ風のエメラルドブロック
 tile.emerald.7.desc=機械じみたエメラルドブロック
 tile.emerald.8.desc=渦巻き模様のエメラルドブロック
 tile.emerald.9.desc=エメラルドタイル
@@ -1485,19 +1485,19 @@ tile.ice.9.desc=模様入りの氷タイル
 tile.ice.10.desc=不揃いな氷タイル
 tile.ice.11.desc=氷パネル
 tile.ice.12.desc=重ねた氷のハーフブロック
-tile.ice.13.desc=ゼル伝風氷
+tile.ice.13.desc=ゼルダ風の氷
 tile.ice.14.desc=ビスマス結晶風氷
 tile.ice.15.desc=花の彫刻入り氷
 
 #Ice Pillars
 tile.chisel.ice_pillar.name=氷の柱
 tile.icePillar.0.desc=シンプルな氷の柱
-tile.icePillar.1.desc=ギリシャ風笠石つきシンプルな氷の柱
-tile.icePillar.2.desc=シンプルな笠石つきギリシャ風氷の柱
+tile.icePillar.1.desc=ギリシャ風柱頭つきシンプルな氷の柱
+tile.icePillar.2.desc=シンプルな柱頭つきギリシャ風氷の柱
 tile.icePillar.3.desc=ギリシャ風氷の柱
 tile.icePillar.4.desc=氷の柱
-tile.icePillar.5.desc=彫刻された氷の笠石
-tile.icePillar.6.desc=おしゃれな氷の笠石
+tile.icePillar.5.desc=彫刻された氷の柱頭
+tile.icePillar.6.desc=おしゃれな氷の柱頭
 
 #Ice Stairs
 tile.chisel.ice_stairs.name=氷の階段
@@ -1522,7 +1522,7 @@ tile.ice_stairs.9.desc=模様入りの氷タイルの階段
 tile.ice_stairs.10.desc=不揃いな氷タイルの階段
 tile.ice_stairs.11.desc=氷パネルの階段
 tile.ice_stairs.12.desc=重ねた氷のハーフブロックの階段
-tile.ice_stairs.13.desc=ゼル伝風氷の階段
+tile.ice_stairs.13.desc=ゼルダ風の氷の階段
 tile.ice_stairs.14.desc=ビスマス結晶風氷の階段
 tile.ice_stairs.15.desc=花の彫刻入り氷の階段
 
@@ -1540,19 +1540,19 @@ tile.packedice.9.desc=模様入りの氷塊タイル
 tile.packedice.10.desc=不揃いな氷塊タイル
 tile.packedice.11.desc=氷塊パネル
 tile.packedice.12.desc=重ねた氷塊のハーフブロック
-tile.packedice.13.desc=ゼル伝風氷塊
+tile.packedice.13.desc=ゼルダ風の氷塊
 tile.packedice.14.desc=ビスマス結晶風氷塊
 tile.packedice.15.desc=花の彫刻入り氷塊
 
 #Packed Ice Pillars
 tile.chisel.packedice_pillar.name=氷塊の柱
 tile.packedice_pillar.0.desc=シンプルな氷塊の柱
-tile.packedice_pillar.1.desc=ギリシャ風笠石つきシンプルな氷塊の柱
-tile.packedice_pillar.2.desc=シンプルな笠石つきギリシャ風氷塊の柱
+tile.packedice_pillar.1.desc=ギリシャ風柱頭つきシンプルな氷塊の柱
+tile.packedice_pillar.2.desc=シンプルな柱頭つきギリシャ風氷塊の柱
 tile.packedice_pillar.3.desc=ギリシャ風氷塊の柱
 tile.packedice_pillar.4.desc=氷塊の柱
-tile.packedice_pillar.5.desc=彫刻された氷塊の笠石
-tile.packedice_pillar.6.desc=おしゃれな氷塊の笠石
+tile.packedice_pillar.5.desc=彫刻された氷塊の柱頭
+tile.packedice_pillar.6.desc=おしゃれな氷塊の柱頭
 
 #Packed Ice Stairs
 tile.chisel.packedice_stairs.name=氷塊の階段
@@ -1577,7 +1577,7 @@ tile.packedice_stairs.9.desc=模様入りの氷塊タイルの階段
 tile.packedice_stairs.10.desc=不揃いな氷塊タイルの階段
 tile.packedice_stairs.11.desc=氷塊パネルの階段
 tile.packedice_stairs.12.desc=重ねた氷塊のハーフブロックの階段
-tile.packedice_stairs.13.desc=ゼル伝風氷塊の階段
+tile.packedice_stairs.13.desc=ゼルダ風の氷塊の階段
 tile.packedice_stairs.14.desc=ビスマス結晶風氷塊の階段
 tile.packedice_stairs.15.desc=花の彫刻入り氷塊の階段
 
@@ -1629,7 +1629,7 @@ tile.chisel.silverwood_planks.name=シルバーウッドの木材
 
 #Iron Fence
 tile.chisel.iron_bars.name=鉄格子
-tile.iron_bars.1.desc=上下の棒なし鉄格子
+tile.iron_bars.1.desc=上下に棒のない鉄格子
 tile.iron_bars.2.desc=金網
 tile.iron_bars.3.desc=檻用鉄格子
 tile.iron_bars.4.desc=痛そうな鉄のトゲ
@@ -1646,7 +1646,7 @@ tile.glass_pane.2.desc=縁無しガラス板
 tile.glass_pane.3.desc=薄い網戸
 tile.glass_pane.4.desc=網入りガラス板
 tile.glass_pane.12.desc=中華風ガラス板
-tile.glass_pane.13.desc=金の縁取り中華風ガラス板
+tile.glass_pane.13.desc=金縁取りの中華風ガラス板
 tile.glass_pane.14.desc=和風ガラス板
 tile.glass_pane.15.desc=おしゃれな和風ガラス板
 
@@ -1666,7 +1666,7 @@ tile.redstone_block.11.desc=モザイク模様の細かいレッドストーン�
 tile.redstone_block.12.desc=回路風レッドストーンブロック
 tile.redstone_block.13.desc=基盤風レッドストーンブロック
 tile.redstone_block.14.desc=ソウルレッドストーンブロック
-tile.redstone_block.15.desc=ゼル伝風レッドストーンブロック
+tile.redstone_block.15.desc=ゼルダ風のレッドストーンブロック
 
 #Holystone
 tile.chisel.holystone.name=神聖な石
