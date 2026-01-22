@@ -11,10 +11,10 @@ item.chisel.nomobspawnsonthisblock.desc=このブロックにはMobがスポー�
 #Item localizations
 item.chisel.chisel_iron.name=彫刻用ノミ
 
-item.chisel.chisel.desc.gui=右クリックでGUIを開く
-item.chisel.chisel.desc.lc1=左クリックでブロックを彫刻する
-item.chisel.chisel.desc.lc2=GUIに彫刻されたブロックを入れると、そのブロックに彫刻できる
-item.chisel.chisel.desc.modes=複数の彫刻モードがある
+item.chisel.chisel.desc.gui=右クリックでGUIを開きます
+item.chisel.chisel.desc.lc1=左クリックでブロックを彫刻します
+item.chisel.chisel.desc.lc2=左クリックによる彫刻は、GUIのスロットでフィルタリングが可能です
+item.chisel.chisel.desc.modes=複数の彫刻モードを持ちます
 
 item.chisel.chisel_diamond.name=ダイヤモンドの彫刻用ノミ
 item.chisel.chisel_obsidian.name=黒曜石の彫刻用ノミ
@@ -22,21 +22,21 @@ item.chisel.chisel_netherstar.name=ネザースターの彫刻用ノミ
 item.chisel.chisel_netherstar.gtnh.name=ベッドロッキウムの彫刻用ノミ
 
 item.ballMoss.name=苔玉
-item.ballMoss.desc=右クリックで投げる。着弾地点付近の丸石を苔石に変化させる
+item.ballMoss.desc=右クリックで投擲し、着弾点付近の丸石を苔むした丸石に変化させます
 item.cloudBottle.name=雲入り瓶
-item.cloudBottle.desc=右クリックで投げる。着弾地点に雲ブロックを出現させる
+item.cloudBottle.desc=右クリックで投擲し、着弾点に§8《§7雲ブロック§8／Cloud Block》§7を出現させます
 item.smashingRock.name=粉砕の小石
-item.smashingRock.desc=右クリックで投げる。着弾地点付近の丸石を砂利に、砂利を砂に変化させる
+item.smashingRock.desc=右クリックで投擲し、着弾点付近の丸石を砂利に、砂利を砂に変化させます
 item.upgrade.name=アップグレード
 item.upgrade_speed.name=速度アップグレード
 item.upgrade_automation.name=自動化アップグレード
 item.upgrade_stack.name=スタックアップグレード
 item.upgrade_reversion.name=巻き戻しアップグレード
 
-item.upgrade_speed.desc=稼働速度が上がる
-item.upgrade_automation.desc=アイテムの搬入、搬出ができるようになる
-item.upgrade_stack.desc=一度に1スタックを処理する
-item.upgrade_reversion.desc=彫刻されたブロックを元の状態に戻す
+item.upgrade_speed.desc=稼働速度を加速します
+item.upgrade_automation.desc=アイテムの搬入・搬出を可能とします
+item.upgrade_stack.desc=一度に1スタックを処理させます
+item.upgrade_reversion.desc=彫刻されたブロックを元の状態に戻すようにします
 
 #Block localizations
 
@@ -124,13 +124,13 @@ tile.granite.6.desc=花崗岩タイル
 
 #Auto Chisel
 tile.chisel.autoChisel.name=自動彫刻器
-autochisel.slot.chisel.tooltip=彫刻用ノミを配置
-autochisel.slot.target.tooltip=彫刻先を指定
+autochisel.slot.chisel.tooltip=彫刻用ノミスロット
+autochisel.slot.target.tooltip=彫刻先スロット
 autochisel.slot.speed.tooltip=速度アップグレードを配置
 autochisel.slot.automation.tooltip=自動化アップグレードを配置
 autochisel.slot.stack.tooltip=スタックアップグレードを配置
 autochisel.slot.reversion.tooltip=巻き戻しアップグレードを配置
-chisel.autochisel.upgrade.disabled=無効なアップグレード
+chisel.autochisel.upgrade.disabled=無効なアップグレードです
 
 #Beacon
 tile.chisel.beacon.name=ビーコン
@@ -2333,209 +2333,209 @@ tile.silverwood.planks.15.desc=不揃いな縦向きのシルバーウッドの�
 #Stained Glass
 white.bubble.desc=白色の泡入りガラス
 white.glass.desc=白色のガラスパネル
-white.glass.fancy.desc=白色のおしゃれなガラス
+white.glass.fancy.desc=白色のおしゃれなガラスパネル
 white.glass.noborder.desc=白色の縁無しガラス
 white.glass.forestry.desc=白色の古典的なガラス
 
 orange.bubble.desc=橙色の泡入りガラス
 orange.glass.desc=橙色のガラスパネル
-orange.glass.fancy.desc=橙色のおしゃれなガラス
+orange.glass.fancy.desc=橙色のおしゃれなガラスパネル
 orange.glass.noborder.desc=橙色の縁無しガラス
 orange.glass.forestry.desc=橙色の古典的なガラス
 
 magenta.bubble.desc=赤紫色の泡入りガラス
 magenta.glass.desc=赤紫色のガラスパネル
-magenta.glass.fancy.desc=赤紫色のおしゃれなガラス
+magenta.glass.fancy.desc=赤紫色のおしゃれなガラスパネル
 magenta.glass.noborder.desc=赤紫色の縁無しガラス
 magenta.glass.forestry.desc=赤紫色の古典的なガラス
 
 lightblue.bubble.desc=空色の泡入りガラス
 lightblue.glass.desc=空色のガラスパネル
-lightblue.glass.fancy.desc=空色のおしゃれなガラス
+lightblue.glass.fancy.desc=空色のおしゃれなガラスパネル
 lightblue.glass.noborder.desc=空色の縁無しガラス
 lightblue.glass.forestry.desc=空色の古典的なガラス
 
 yellow.bubble.desc=黄色の泡入りガラス
 yellow.glass.desc=黄色のガラスパネル
-yellow.glass.fancy.desc=黄色のおしゃれなガラス
+yellow.glass.fancy.desc=黄色のおしゃれなガラスパネル
 yellow.glass.noborder.desc=黄色の縁無しガラス
 yellow.glass.forestry.desc=黄色の古典的なガラス
 
 lime.bubble.desc=黄緑色の泡入りガラス
 lime.glass.desc=黄緑色のガラスパネル
-lime.glass.fancy.desc=黄緑色のおしゃれなガラス
+lime.glass.fancy.desc=黄緑色のおしゃれなガラスパネル
 lime.glass.noborder.desc=黄緑色の縁無しガラス
 lime.glass.forestry.desc=黄緑色の古典的なガラス
 
 pink.bubble.desc=桃色の泡入りガラス
 pink.glass.desc=桃色のガラスパネル
-pink.glass.fancy.desc=桃色のおしゃれなガラス
+pink.glass.fancy.desc=桃色のおしゃれなガラスパネル
 pink.glass.noborder.desc=桃色の縁無しガラス
 pink.glass.forestry.desc=桃色の古典的なガラス
 
 darkgray.bubble.desc=灰色の泡入りガラス
 darkgray.glass.desc=灰色のガラスパネル
-darkgray.glass.fancy.desc=灰色のおしゃれなガラス
+darkgray.glass.fancy.desc=灰色のおしゃれなガラスパネル
 darkgray.glass.noborder.desc=灰色の縁無しガラス
 darkgray.glass.forestry.desc=灰色の古典的なガラス
 
 lightgray.bubble.desc=薄灰色の泡入りガラス
 lightgray.glass.desc=薄灰色のガラスパネル
-lightgray.glass.fancy.desc=薄灰色のおしゃれなガラス
+lightgray.glass.fancy.desc=薄灰色のおしゃれなガラスパネル
 lightgray.glass.noborder.desc=薄灰色の縁無しガラス
 lightgray.glass.forestry.desc=薄灰色の古典的なガラス
 
 cyan.bubble.desc=青緑色の泡入りガラス
 cyan.glass.desc=青緑色のガラスパネル
-cyan.glass.fancy.desc=青緑色のおしゃれなガラス
+cyan.glass.fancy.desc=青緑色のおしゃれなガラスパネル
 cyan.glass.noborder.desc=青緑色の縁無しガラス
 cyan.glass.forestry.desc=青緑色の古典的なガラス
 
 purple.bubble.desc=紫色の泡入りガラス
 purple.glass.desc=紫色のガラスパネル
-purple.glass.fancy.desc=紫色のおしゃれなガラス
+purple.glass.fancy.desc=紫色のおしゃれなガラスパネル
 purple.glass.noborder.desc=紫色の縁無しガラス
 purple.glass.forestry.desc=紫色の古典的なガラス
 
 blue.bubble.desc=青色の泡入りガラス
 blue.glass.desc=青色のガラスパネル
-blue.glass.fancy.desc=青色のおしゃれなガラス
+blue.glass.fancy.desc=青色のおしゃれなガラスパネル
 blue.glass.noborder.desc=青色の縁無しガラス
 blue.glass.forestry.desc=青色の古典的なガラス
 
 brown.bubble.desc=茶色の泡入りガラス
 brown.glass.desc=茶色のガラスパネル
-brown.glass.fancy.desc=茶色のおしゃれなガラス
+brown.glass.fancy.desc=茶色のおしゃれなガラスパネル
 brown.glass.noborder.desc=茶色の縁無しガラス
 brown.glass.forestry.desc=茶色の古典的なガラス
 
 green.bubble.desc=緑色の泡入りガラス
 green.glass.desc=緑色のガラスパネル
-green.glass.fancy.desc=緑色のおしゃれなガラス
+green.glass.fancy.desc=緑色のおしゃれなガラスパネル
 green.glass.noborder.desc=緑色の縁無しガラス
 green.glass.forestry.desc=緑色の古典的なガラス
 
 red.bubble.desc=赤色の泡入りガラス
 red.glass.desc=赤色のガラスパネル
-red.glass.fancy.desc=赤色のおしゃれなガラス
+red.glass.fancy.desc=赤色のおしゃれなガラスパネル
 red.glass.noborder.desc=赤色の縁無しガラス
 red.glass.forestry.desc=赤色の古典的なガラス
 
 black.bubble.desc=黒色の泡入りガラス
 black.glass.desc=黒色のガラスパネル
-black.glass.fancy.desc=黒色のおしゃれなガラス
+black.glass.fancy.desc=黒色のおしゃれなガラスパネル
 black.glass.noborder.desc=黒色の縁無しガラス
 black.glass.forestry.desc=黒色の古典的なガラス
 
 #Stained Glass Pane
 white.pane.bubble.desc=白色の泡入りガラス
 white.pane.glass.desc=白色のガラスパネル
-white.pane.glass.fancy.desc=白色のおしゃれなガラス
+white.pane.glass.fancy.desc=白色のおしゃれなガラスパネル
 white.pane.glass.noborder.desc=白色の縁無しガラス
 white.pane.glass.quadrant.desc=白色の細かいガラス
 white.pane.glass.fancyquadrant.desc=白色のおしゃれな細かいガラス
 
 orange.pane.bubble.desc=橙色の泡入りガラス
 orange.pane.glass.desc=橙色のガラスパネル
-orange.pane.glass.fancy.desc=橙色のおしゃれなガラス
+orange.pane.glass.fancy.desc=橙色のおしゃれなガラスパネル
 orange.pane.glass.noborder.desc=橙色の縁無しガラス
 orange.pane.glass.quadrant.desc=橙色の細かいガラス
 orange.pane.glass.fancyquadrant.desc=橙色のおしゃれな細かいガラス
 
 magenta.pane.bubble.desc=赤紫色の泡入りガラス
 magenta.pane.glass.desc=赤紫色のガラスパネル
-magenta.pane.glass.fancy.desc=赤紫色のおしゃれなガラス
+magenta.pane.glass.fancy.desc=赤紫色のおしゃれなガラスパネル
 magenta.pane.glass.noborder.desc=赤紫色の縁無しガラス
 magenta.pane.glass.quadrant.desc=赤紫色の細かいガラス
 magenta.pane.glass.fancyquadrant.desc=赤紫色のおしゃれな細かいガラス
 
 lightblue.pane.bubble.desc=空色の泡入りガラス
 lightblue.pane.glass.desc=空色のガラスパネル
-lightblue.pane.glass.fancy.desc=空色のおしゃれなガラス
+lightblue.pane.glass.fancy.desc=空色のおしゃれなガラスパネル
 lightblue.pane.glass.noborder.desc=空色の縁無しガラス
 lightblue.pane.glass.quadrant.desc=空色の細かいガラス
 lightblue.pane.glass.fancyquadrant.desc=空色のおしゃれな細かいガラス
 
 yellow.pane.bubble.desc=黄色の泡入りガラス
 yellow.pane.glass.desc=黄色のガラスパネル
-yellow.pane.glass.fancy.desc=黄色のおしゃれなガラス
+yellow.pane.glass.fancy.desc=黄色のおしゃれなガラスパネル
 yellow.pane.glass.noborder.desc=黄色の縁無しガラス
 yellow.pane.glass.quadrant.desc=黄色の細かいガラス
 yellow.pane.glass.fancyquadrant.desc=黄色のおしゃれな細かいガラス
 
 lime.pane.bubble.desc=黄緑色の泡入りガラス
 lime.pane.glass.desc=黄緑色のガラスパネル
-lime.pane.glass.fancy.desc=黄緑色のおしゃれなガラス
+lime.pane.glass.fancy.desc=黄緑色のおしゃれなガラスパネル
 lime.pane.glass.noborder.desc=黄緑色の縁無しガラス
 lime.pane.glass.quadrant.desc=黄緑色の細かいガラス
 lime.pane.glass.fancyquadrant.desc=黄緑色のおしゃれな細かいガラス
 
 pink.pane.bubble.desc=桃色の泡入りガラス
 pink.pane.glass.desc=桃色のガラスパネル
-pink.pane.glass.fancy.desc=桃色のおしゃれなガラス
+pink.pane.glass.fancy.desc=桃色のおしゃれなガラスパネル
 pink.pane.glass.noborder.desc=桃色の縁無しガラス
 pink.pane.glass.quadrant.desc=桃色の細かいガラス
 pink.pane.glass.fancyquadrant.desc=桃色のおしゃれな細かいガラス
 
 darkgray.pane.bubble.desc=灰色の泡入りガラス
 darkgray.pane.glass.desc=灰色のガラスパネル
-darkgray.pane.glass.fancy.desc=灰色のおしゃれなガラス
+darkgray.pane.glass.fancy.desc=灰色のおしゃれなガラスパネル
 darkgray.pane.glass.noborder.desc=灰色の縁無しガラス
 darkgray.pane.glass.quadrant.desc=灰色の細かいガラス
 darkgray.pane.glass.fancyquadrant.desc=灰色のおしゃれな細かいガラス
 
 lightgray.pane.bubble.desc=薄灰色の泡入りガラス
 lightgray.pane.glass.desc=薄灰色のガラスパネル
-lightgray.pane.glass.fancy.desc=薄灰色のおしゃれなガラス
+lightgray.pane.glass.fancy.desc=薄灰色のおしゃれなガラスパネル
 lightgray.pane.glass.noborder.desc=薄灰色の縁無しガラス
 lightgray.pane.glass.quadrant.desc=薄灰色の細かいガラス
 lightgray.pane.glass.fancyquadrant.desc=薄灰色のおしゃれな細かいガラス
 
 cyan.pane.bubble.desc=青緑色の泡入りガラス
 cyan.pane.glass.desc=青緑色のガラスパネル
-cyan.pane.glass.fancy.desc=青緑色のおしゃれなガラス
+cyan.pane.glass.fancy.desc=青緑色のおしゃれなガラスパネル
 cyan.pane.glass.noborder.desc=青緑色の縁無しガラス
 cyan.pane.glass.quadrant.desc=青緑色の細かいガラス
 cyan.pane.glass.fancyquadrant.desc=青緑色のおしゃれな細かいガラス
 
 purple.pane.bubble.desc=紫色の泡入りガラス
 purple.pane.glass.desc=紫色のガラスパネル
-purple.pane.glass.fancy.desc=紫色のおしゃれなガラス
+purple.pane.glass.fancy.desc=紫色のおしゃれなガラスパネル
 purple.pane.glass.noborder.desc=紫色の縁無しガラス
 purple.pane.glass.quadrant.desc=紫色の細かいガラス
 purple.pane.glass.fancyquadrant.desc=紫色のおしゃれな細かいガラス
 
 blue.pane.bubble.desc=青色の泡入りガラス
 blue.pane.glass.desc=青色のガラスパネル
-blue.pane.glass.fancy.desc=青色のおしゃれなガラス
+blue.pane.glass.fancy.desc=青色のおしゃれなガラスパネル
 blue.pane.glass.noborder.desc=青色の縁無しガラス
 blue.pane.glass.quadrant.desc=青色の細かいガラス
 blue.pane.glass.fancyquadrant.desc=青色のおしゃれな細かいガラス
 
 brown.pane.bubble.desc=茶色の泡入りガラス
 brown.pane.glass.desc=茶色のガラスパネル
-brown.pane.glass.fancy.desc=茶色のおしゃれなガラス
+brown.pane.glass.fancy.desc=茶色のおしゃれなガラスパネル
 brown.pane.glass.noborder.desc=茶色の縁無しガラス
 brown.pane.glass.quadrant.desc=茶色の細かいガラス
 brown.pane.glass.fancyquadrant.desc=茶色のおしゃれな細かいガラス
 
 green.pane.bubble.desc=緑色の泡入りガラス
 green.pane.glass.desc=緑色のガラスパネル
-green.pane.glass.fancy.desc=緑色のおしゃれなガラス
+green.pane.glass.fancy.desc=緑色のおしゃれなガラスパネル
 green.pane.glass.noborder.desc=緑色の縁無しガラス
 green.pane.glass.quadrant.desc=緑色の細かいガラス
 green.pane.glass.fancyquadrant.desc=緑色のおしゃれな細かいガラス
 
 red.pane.bubble.desc=赤色の泡入りガラス
 red.pane.glass.desc=赤色のガラスパネル
-red.pane.glass.fancy.desc=赤色のおしゃれなガラス
+red.pane.glass.fancy.desc=赤色のおしゃれなガラスパネル
 red.pane.glass.noborder.desc=赤色の縁無しガラス
 red.pane.glass.quadrant.desc=赤色の細かいガラス
 red.pane.glass.fancyquadrant.desc=赤色のおしゃれな細かいガラス
 
 black.pane.bubble.desc=黒色の泡入りガラス
 black.pane.glass.desc=黒色のガラスパネル
-black.pane.glass.fancy.desc=黒色のおしゃれなガラス
+black.pane.glass.fancy.desc=黒色のおしゃれなガラスパネル
 black.pane.glass.noborder.desc=黒色の縁無しガラス
 black.pane.glass.quadrant.desc=黒色の細かいガラス
 black.pane.glass.fancyquadrant.desc=黒色のおしゃれな細かいガラス

@@ -1,4 +1,4 @@
-neicustomdiagram.api.stacksize=Stack size: %,d
+neicustomdiagram.api.stacksize=スタック数: %,d
 neicustomdiagram.api.hasnbt=NBTタグを持ちます (<Shift>で閲覧)
 neicustomdiagram.api.cycleindex=Cycle index: %,d / %,d
 neicustomdiagram.api.cycleindexwithshift=Cycle index: %,d / %,d (<Shift> to view)
@@ -10,17 +10,17 @@ neicustomdiagram.util.capacity=容量: %,d
 neicustomdiagram.util.fluidcontainercontents=Contents:
 neicustomdiagram.util.emptyfluidcontainer=Empty container:
 
-neicustomdiagram.util.gregtech5.materialinforadioactive=DANGER! RADIOACTIVE!
-neicustomdiagram.util.gregtech5.materialinfohot=危険！熱い！
-neicustomdiagram.util.gregtech5.materialinfocold=危険！冷たい！
+neicustomdiagram.util.gregtech5.materialinforadioactive=放射線に注意！
+neicustomdiagram.util.gregtech5.materialinfohot=熱に注意！
+neicustomdiagram.util.gregtech5.materialinfocold=低温に注意！
 neicustomdiagram.util.gregtech5.reverseunifieditems=Ore dictionary synonyms:
-neicustomdiagram.util.gregtech5.outputchance=Chance: %.2f%%
+neicustomdiagram.util.gregtech5.outputchance=確率: %.2f%%
 neicustomdiagram.util.gregtech5.recipecleanroom=クリーンルームが必要
 neicustomdiagram.util.gregtech5.recipelowgravity=低重力が必要
 
 neicustomdiagram.generators.debug.nbtviewer.groupname=NBT Viewer
 
-neicustomdiagram.generators.debug.ruler.groupname=Debug Ruler
+neicustomdiagram.generators.debug.ruler.groupname=デバッグ定規
 neicustomdiagram.generators.debug.ruler.slotlabel=Slot (%02d, %02d)
 
 neicustomdiagram.generators.enderstorage.chestoverview.groupname=エンダーチェストオーバービュー
@@ -47,22 +47,22 @@ neicustomdiagram.generators.enderstorage.tankoverview.nodataheader=タンクの�
 neicustomdiagram.generators.enderstorage.tankoverview.nodatasubheader=申し訳ありませんが、サーバー上の場合、タンクデータは利用できません。
 
 neicustomdiagram.generators.forge.fluidcontainers.groupname=Forge Fluid Containers
-neicustomdiagram.generators.forge.fluidcontainers.fluidlabel=Fluid
+neicustomdiagram.generators.forge.fluidcontainers.fluidlabel=液体
 neicustomdiagram.generators.forge.fluidcontainers.fluidnamelabel=Internal name: %s
-neicustomdiagram.generators.forge.fluidcontainers.blocklabel=Block
+neicustomdiagram.generators.forge.fluidcontainers.blocklabel=ブロック
 neicustomdiagram.generators.forge.fluidcontainers.gregtechitemlabel=GregTech display item
 neicustomdiagram.generators.forge.fluidcontainers.containersslot=Containers
 
 neicustomdiagram.generators.forge.oredictionary.groupname=Forge Ore Dictionary
-neicustomdiagram.generators.forge.oredictionary.orenamelabel=Ore name
+neicustomdiagram.generators.forge.oredictionary.orenamelabel=鉱石名
 
-neicustomdiagram.generators.gregtech5.circuits.groupname=GregTech Circuits
+neicustomdiagram.generators.gregtech5.circuits.groupname=GregTech電子回路
 neicustomdiagram.generators.gregtech5.circuits.tierlabel=%s tier
-neicustomdiagram.generators.gregtech5.circuits.circuitboardsslot=Circuit boards
-neicustomdiagram.generators.gregtech5.circuits.circuitlinesslot=Circuit lines
-neicustomdiagram.generators.gregtech5.circuits.individualcircuitsslot=Individual circuits
-neicustomdiagram.generators.gregtech5.circuits.circuitpartsslot=Circuit parts
-neicustomdiagram.generators.gregtech5.circuits.overviewbutton=Circuits overview
+neicustomdiagram.generators.gregtech5.circuits.circuitboardsslot=回路基板
+neicustomdiagram.generators.gregtech5.circuits.circuitlinesslot=回路ライン
+neicustomdiagram.generators.gregtech5.circuits.individualcircuitsslot=シンプル回路
+neicustomdiagram.generators.gregtech5.circuits.circuitpartsslot=回路部品
+neicustomdiagram.generators.gregtech5.circuits.overviewbutton=回路一覧を表示
 neicustomdiagram.generators.gregtech5.circuits.previouscircuitslot=Previous circuit in line
 neicustomdiagram.generators.gregtech5.circuits.currentcircuitslot=Current circuit in line
 neicustomdiagram.generators.gregtech5.circuits.nextcircuitslot=Next circuit in line
@@ -180,7 +180,7 @@ neicustomdiagram.generators.gregtech5.oreprefixes.prefixlabel=Ore prefix: %s
 
 neicustomdiagram.generators.gregtech5.oreprocessing.groupname=GregTech 鉱石処理
 neicustomdiagram.generators.gregtech5.oreprocessing.oreslot=処理する鉱石
-neicustomdiagram.generators.gregtech5.oreprocessing.raworeslot=Processed raw ore
+neicustomdiagram.generators.gregtech5.oreprocessing.raworeslot=処理する原石
 neicustomdiagram.generators.gregtech5.oreprocessing.maceratorlabel=破砕機
 neicustomdiagram.generators.gregtech5.oreprocessing.maceratorslot=粉砕機の出力
 neicustomdiagram.generators.gregtech5.oreprocessing.orewashingplantlabel=鉱石洗浄槽
