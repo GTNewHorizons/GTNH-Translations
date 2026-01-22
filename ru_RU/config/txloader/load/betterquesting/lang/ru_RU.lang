@@ -4353,7 +4353,7 @@ betterquesting.quest.6OibD9bRQwq_hBPWz-y9xQ.desc=As the materials around you ach
 
 # Quest: Ultimate Voltages Require Ultimate Lubricant™!
 betterquesting.quest.8JcG3DR5QU6_FbhIWHm05g.name=§9§l§nUltimate Voltages Require Ultimate Lubricant™!
-betterquesting.quest.8JcG3DR5QU6_FbhIWHm05g.desc=For your UIV components to work their interdimensional magic, you're going to need some dimensional border easing lubricant to not cause a universal collapse.
+betterquesting.quest.8JcG3DR5QU6_FbhIWHm05g.desc=For your UIV components to work their interdimensional magic, you're going to need some dimensional border easing lubricant to not cause a universal collapse.%n%n[note]Tip: You can use this in place of Lubricant in your Cutting Machine for faster processing![/note]
 
 # Quest: Another Type of Steel
 betterquesting.quest.8OMu4RdgQhyZqXRid6n-Wg.name=§9§l§nAnother Type of Steel
@@ -4519,10 +4519,6 @@ betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=With total mastery of the Forge
 # Quest: Convergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=§c§l§nConvergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.desc=Running your Dimensionally Transcendent Plasma Forge for an extended period [note](8 hours)[/note] allows the Multidimensional Spaces to align perfectly.%n%nWith your newly acquired technology, you can now tap into these spaces in perfect sync, enabling your plasma forges to operate at incredible speeds.%n%nThe Transdimensional Alignment Matrix allows the DTPF to run with Perfect Overclocks. To achieve this, you need a full discount, and the extra power cost is offset by using more of the same catalyst.%n%nOverall, it is more efficient and totally worth it.%n%nThis process is extremely catalyst-hungry. Ensure you're producing enough to sustain it.%n%nFor recipes without a catalyst, you must specify the catalyst in the GUI by right-clicking the Convergence button, otherwise it will default to Crude.[/note]%n%n[note]Math for the curious:%n%nTo clear up what exactly happens in the background, here's an explanation on how the extra catalyst values are calculated using an example:%n%nThe example recipe of choice is the molten neutronium recipe using prosaic catalyst, running at 64A UMV (8,589,934,592 EU/t).%nThe recipe uses 14,753L of Prosaic catalyst and 36,484,545,600 EU per recipe without OCs or the catalyst discount. With the discount, the catalyst amount gets cut in half, meaning 7,376.5L of catalyst, which are rounded to 7,376L, and due to the 64A UMV the machine is supplied with the recipe overclocks 3 times, meaning each recipe actually uses 36,484,545,600 * 2^3 = 291,876,364,800 EU.%n%nKnowing the amount of OCs and the base voltage of the recipe, the difference of the needed EU per recipe with and without perfect OC can be calculated, that being 291,876,364,800 - 36,484,545,600 = 255,391,819,200 extra EU due to imperfect OCs.%nTo get the value of needed extra catalyst, this extra EU value has to be divided by the energy density of the relevant catalyst, prosaic in this case.%n%nThe division equates to 255,391,819,200 EU / 66,768,460 EU/L = 3,825.037 L, rounded to 3,825L extra prosaic catalyst per recipe. For the final step, this value has to be multiplied by 0.5 as it's affected by the discount, meaning the total extra catalyst that gets added to the recipe is 3,825L * 0.5 = 1,912.5 L, rounded to 1,912L.%n%nTo summarize it all in a formula:%nAmount extra catalyst per recipe = (B * ((2^x) - 1))/2L%nwhere:%nB is base total EU of the recipe%nx is the number of overclocks%nL is the EU/L of the relevant catalyst [/note]
-
-# Quest: What Do I Use This Stuff On?
-betterquesting.quest._Cwgzi_VR5ChWJSIIrzUvg.name=§c§l§nWhat Do I Use This Stuff On?
-betterquesting.quest._Cwgzi_VR5ChWJSIIrzUvg.desc=White Dwarf Matter, your first main EOH material! I must be able to craft all sorts of cool endgame things with this... right?%n%n[note]Currently, besides EOH casing upgrades, White Dwarf Matter is not used anywhere on its own, often paired with Black Dwarf Matter or other later materials. Save it up for now and keep upgrading that EOH![/note]
 
 # Quest: Black Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.name=§c§l§nМатерия чёрного карлика
@@ -6687,7 +6683,7 @@ betterquesting.quest.pd68ySXjTD6yW1MN6x6swg.desc=...а скорее измери
 
 # Quest: Drone are not Drones!
 betterquesting.quest.prKPwVNgSgOE1NGPiEEF-g.name=§6§lДрон - это не Дрон!
-betterquesting.quest.prKPwVNgSgOE1NGPiEEF-g.desc=...но он может быть таким же трудолюбивым, как пчёлы. Эти новые электрические друзья - отличные помощники для мультиблочных механизмов: обслуживание, контроль, управление - они справятся со всем.%n%nДрон-станция - это недавно разработанный механизм. Ему не требуется энергия - просто вставь дрон, и он начнёт работу.%nКогда он активен, дрон автоматически сканирует пространство в поисках '§lМодуля связи с дроном§r' (заменяющего люки техобслуживания в мультиблоках) в определённом радиусе и пытается установить соединение с хост-механизмом. Если подключение успешно, ты сможешь управлять этим мультиблочным механизмом удалённо через интерфейс Центра дронов! Кроме того, можно переименовать механизм для удобства идентификации.%n%n[note]Переименовать можно либо ПКМ по Модулю связи с дроном, либо через интерфейс Центра дронов.[/note]%n%nИспользование более продвинутых дронов увеличивает радиус центрального управления, причём ограничений на количество дронов нет.%n%n[warn]Обрати внимание: дрон может выйти из строя во время работы - вероятность снижается от тира 1 к тиру 3, а дроны с антигравитацией (тир 3) никогда не выходят из строя.%nКроме того, если хост-механизм находится слишком далеко от Центра дронов, функция удалённого управления через GUI будет отключена, но кнопка включения/выключения всех механизмов и функции техобслуживания останутся доступными.[/warn]%n§6§l%nМожет быть, однажды наши дроны смогут управлять механизмами на других планетах... запуск двигателя!
+betterquesting.quest.prKPwVNgSgOE1NGPiEEF-g.desc=...но он может быть таким же трудолюбивым, как пчёлы. Эти новые электрические друзья - отличные помощники для мультиблочных механизмов: обслуживание, контроль, управление - они справятся со всем.%n%nДрон-станция - это недавно разработанный механизм. Ему не требуется энергия - просто вставь дрон, и он начнёт работу.%nКогда он активен, дрон автоматически сканирует пространство в поисках '§lМодуля связи с дроном§r' (заменяющего люки техобслуживания в мультиблоках) в определённом радиусе и пытается установить соединение с хост-механизмом. Если подключение успешно, ты сможешь управлять этим мультиблочным механизмом удалённо через интерфейс Дрон-станции! Кроме того, можно переименовать механизм для удобства идентификации.%n%n[note]Переименовать можно либо ПКМ по Модулю связи с дроном, либо через интерфейс Центра дронов.[/note]%n%nИспользование более продвинутых дронов увеличивает радиус центрального управления, причём ограничений на количество дронов нет.%n%n[warn]Обрати внимание: дрон может выйти из строя во время работы - вероятность снижается от тира 1 к тиру 3, а дроны с антигравитацией (тир 3) никогда не выходят из строя.%nКроме того, если хост-механизм находится слишком далеко от Центра дронов, функция удалённого управления через GUI будет отключена, но кнопка включения/выключения всех механизмов и функции техобслуживания останутся доступными.[/warn]%n§6§l%nМожет быть, однажды наши дроны смогут управлять механизмами на других планетах... запуск двигателя!
 
 # Quest: UIV Glass
 betterquesting.quest.qnXgpGxbRc-nHbshgUs1jA.name=§6§lUIV стекло
@@ -10051,10 +10047,6 @@ betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.desc=Улучшенный набор
 # Quest: 4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096К ячейка хранения эссенции
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.desc=Эти вмещают 8 388 608 единиц эссенции.%n%nА ещё они могут хранить до 48 типов эссенции.
-
-# Quest: Infinite Water Cell
-betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.name=Бесконечная капсула воды
-betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.desc=The ME Fluid Infinity Water Storage provides §24.5P§r water directly to your AE system, That's the equivalent of 2.25 million reservoir hatches, all conveniently packaged into one drive. %nMight come in handy...%n%n[note]Have fun making those fluid packets![/note]
 
 # Quest: Get Your Priorities Straight
 betterquesting.quest.Hbq2zJcoQbWK20-2A-kI1Q.name=Расставляем приоритеты
@@ -14073,6 +14065,10 @@ betterquesting.quest.E9atHD5uR9CC0G1qEeFDmQ.desc=Не хочешь ещё бол
 # Quest: A Portable Barrel?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.name=§2§lПортативные бочки?
 betterquesting.quest.EDtFbLVvQX2Y5mQp84W9bw.desc=EFR также добавляет возможность улучшить бочки до уже знакомых шалкеровых ящиков! Эти ящики можно переносить со всем содержимым внутри. Ты найдешь соответствующее исследование в New Horizons вкладке Таумономикона.%n%nОни бывают семи тиров, также как и сундуки и бочки увеличивая их объем по мере роста тира.%n%nТы можешь красить эти ящики через окно крафта добавив краситель, и убирать краску там же, поместив просто ящик в окно крафта. Он §nсохранит§r своё содержимое.%n%n[note]Есть несколько способов добычи панцирей шалкеров:%n1. Убийство шалкеров в Сумеречном лесу в Замке Лича и Башне Гаста..%n2. Покупка яиц призыва шалкеров за монеты во вкладке "Монеты, монеты, монеты".%n3. Сделать панцири вручную[/note]
+
+# Quest: Infinite Water Cell
+betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.name=Бесконечная капсула воды
+betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.desc=The ME Fluid Infinity Water Storage provides §24.5P§r water directly to your AE system, That's the equivalent of 2.25 million reservoir hatches, all conveniently packaged into one drive. %nMight come in handy...
 
 # Quest: Gold Barrel
 betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.name=§c§lЗолотая бочка
