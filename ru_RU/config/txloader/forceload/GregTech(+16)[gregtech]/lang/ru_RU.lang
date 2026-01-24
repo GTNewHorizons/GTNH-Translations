@@ -702,10 +702,10 @@ GTPP.algae.yellow-green_algae.name=Желто-зелёные водоросли
 GTPP.algae.tooltip.requires_light=Требуется свет: %s
 GTPP.algae.tooltip.salt_water=Солёная вода: %s
 GTPP.algae.tooltip.fresh_water=Свежая вода: %s
-GTPP.algae.tooltip.temp_tolerance=Температура: %d
+GTPP.algae.tooltip.temp_tolerance=Допустимая температура: %d
 GTPP.algae.tooltip.growth=Рост: %d
 GTPP.algae.tooltip.production=Производство: %d
-GTPP.algae.tooltip.lifespan=Модификатор срока жизни: %d
+GTPP.algae.tooltip.lifespan=Продолжительность жизни в днях: %d
 GTPP.algae.tooltip.generation=Generation: %d
 
 # Power Goggles
@@ -1188,9 +1188,9 @@ GT5U.machines.special_slot.tooltip=Слот для данных
 GT5U.machines.special_slot.tooltip.1=§7See recipes for usage
 GT5U.machines.unused_slot.tooltip=Слот для хранения
 GT5U.machines.unused_slot.tooltip.1=§7Не используется данным механизмом
-GT5U.machines.stalled_stuttering.tooltip=§4Stalled: Insufficient %1$s§4!
+GT5U.machines.stalled_stuttering.tooltip=§4Заблокировано: Недостаточно %1$s§4!
 GT5U.machines.stalled_stuttering.tooltip.1=§7Provide %1$s§7 consistently
-GT5U.machines.stalled_stuttering.tooltip.2=§7for the entire duration of
+GT5U.machines.stalled_stuttering.tooltip.2=§7на протяжении всего периода
 GT5U.machines.stalled_stuttering.tooltip.3=§7the recipe to complete it.
 GT5U.machines.stalled_stuttering.tooltip.extended=§7Progress was lost, but not
 GT5U.machines.stalled_stuttering.tooltip.extended.1=§7the recipe's output.
@@ -1747,6 +1747,26 @@ GT5U.gui.chat.powerfail.list.truncated=%s additional powerfails truncated
 
 GT5U.gui.chat.powerfail.shown=Enabled powerfail overlay rendering.
 GT5U.gui.chat.powerfail.hidden=Disabled powerfail overlay rendering.
+
+# chats
+GT5U.chat.void_miner.mode.black_list=Mode: Blacklist
+GT5U.chat.void_miner.mode.white_list=Mode: Whitelist
+GT5U.chat.machine.batch_mode.enable=Batch Mode: Enabled
+GT5U.chat.machine.batch_mode.disable=Batch Mode: Disabled
+GT5U.chat.turbine.fitting.loose=Fitting: Loose - More Flow
+GT5U.chat.turbine.fitting.tight=Fitting: Tight - More Efficiency
+GT5U.chat.machine.processing.enable=Machine Processing: Enabled
+GT5U.chat.machine.processing.disable=Machine Processing: Disabled
+GT5U.chat.machine.redstone_output_set.strong=Redstone Output at Side %s set to: Strong
+GT5U.chat.machine.redstone_output_set.weak=Redstone Output at Side %s set to: Weak
+GT5U.chat.machine.auto_input.disable=Auto-Input: Disabled
+GT5U.chat.machine.auto_input.enable=Auto-Input: Enabled
+GT5U.chat.machine.auto_output.disable=Auto-Output: Disabled
+GT5U.chat.machine.auto_output.enable=Auto-Output: Enabled
+GT5U.chat.buffer.sort_mode.enable=Sort mode: Enabled
+GT5U.chat.buffer.sort_mode.disable=Sort mode: Disabled
+GT5U.chat.worm_hole_generator.overclocks.enable=Overclocks: §aEnabled§r
+GT5U.chat.worm_hole_generator.overclocks.disable=Overclocks: §cDisabled§r
 
 # Note to translators: this translation entry is supposed to be a number indicating how many taunts you define here
 # Game will randomly display one of them
@@ -3495,9 +3515,9 @@ GT5U.infodata.extreme_diesel_engine=Экстремальный дизельны�
 GT5U.infodata.fusion_reactor_mk=Термоядерный реактор MK
 
 GT5U.infodata.large_fluid_extractor.max_parallels=Макс. параллелей: %s%d%s
-GT5U.infodata.large_fluid_extractor.heating_coil_speed_bonus=Heating Coil Speed Bonus: +%s%.0f%s %%
+GT5U.infodata.large_fluid_extractor.heating_coil_speed_bonus=Бонус нагревательной катушки к скорости: +%s%.0f%s %%
 GT5U.infodata.large_fluid_extractor.total_speed_multiplier=Множитель общей скорости: %s%.0f%s %%
-GT5U.infodata.large_fluid_extractor.total_eu_multiplier=Total EU/t Multiplier: %s%.0f%s %%
+GT5U.infodata.large_fluid_extractor.total_eu_multiplier=Общий множитель EU/t: %s%.0f%s %%
 
 GT5U.infodata.oil_drill.drilling_fluid=Буровой раствор: %s
 GT5U.infodata.oil_drill.drilling_flow=Поток бурения: %s Л/тик
@@ -3505,8 +3525,8 @@ GT5U.infodata.oil_drill.drilling_flow=Поток бурения: %s Л/тик
 GT5U.infodata.critical_info=Важнейшая информация
 GT5U.infodata.plasma_forge.ticks_run_fuel_discount=Ticks run: %s, Fuel Discount: %s (Extra catalyst use: %sL)
 GT5U.infodata.plasma_forge.convergence=Конвергенция: %s
-GT5U.infodata.plasma_forge.convergence.progress=, perfect convergence reached in %s min
-GT5U.infodata.plasma_forge.convergence.achieved=, perfect convergence achieved
+GT5U.infodata.plasma_forge.convergence.progress=, идеальная конвергенция достигнута за %s мин.
+GT5U.infodata.plasma_forge.convergence.achieved=, достигнута идеальная конвергенция
 GT5U.infodata.plasma_forge.convergence.active=Активен
 GT5U.infodata.plasma_forge.convergence.inactive=Неактивен
 
@@ -3938,8 +3958,8 @@ achievement.protomatterActivationCoil.0=Катушка активации про
 achievement.protomatterActivationCoil.0.desc=Просто посмотри рецепт в NEI
 achievement.antimatterAnnihilationMatrix.0=Матрица аннигиляции антиматерии
 achievement.antimatterAnnihilationMatrix.0.desc=Просто посмотри рецепт в NEI
-achievement.gt.blockmachines.multimachine.chambercentrifuge=Spinmatron-2737
-achievement.gt.blockmachines.multimachine.chambercentrifuge.desc=Просто посмотри рецепт в NEI
+achievement.gt.blockmachines.multimachine.spinmatron=Spinmatron-2737
+achievement.gt.blockmachines.multimachine.spinmatron.desc.desc=Pickup this item to see the recipe in NEI
 achievement.tile.super_stock_replenisher=Супер-пополнитель запасов
 achievement.tile.super_stock_replenisher.desc=Просто посмотри рецепт в NEI
 achievement.gt.metaitem.01.32027=Электропомпа (UXV)
