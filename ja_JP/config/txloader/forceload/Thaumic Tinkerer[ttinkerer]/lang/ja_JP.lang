@@ -78,8 +78,8 @@ ttmisc.noTeleport=The Celestial Gateway in the destination does not accept incom
 # ITEM NAMES
 item.darkQuartzItem.name=黒ずんだクォーツ
 item.connector.name=トランスベクター結合器
-item.gaseousLightItem.name=気化したイルミナ
-item.gaseousShadowItem.name=気化したテネブライ
+item.gaseousLightItem.name=気化したイルミナエ
+item.gaseousShadowItem.name=気化したテネブラエ
 item.gasRemover.name=消煙器
 item.spellCloth.name=魅惑的な布
 item.focusFlight.name=蜂起の杖星
@@ -215,7 +215,7 @@ item.Wand.ICHORCLOTH.rod=イコルの織り込まれたシルバーウッドの
 # RESEARCH
 ttresearch.prefix=[TT]
 ttresearch.prefix.kami=[TTKami]
-tc.research_category.TT_ENCHANTING=Enchanting
+tc.research_category.TT_ENCHANTING=エンチャント
 tc.research_category.TT_CATEGORY=Thaumic Tinkering
 
 # -- COMPUTERCRAFT PERIPHERALS
@@ -227,9 +227,9 @@ ttresearch.page.PERIPHERALS.0=Thaumic Tinkererでは、ComputerCraftの周辺機
 ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
 ttcomputer.dissipator=Dissipating
 # -- ASPECT ANALYZER
-ttresearch.name.ASPECT_ANALYZER=Aspectalyzer
-ttresearch.lore.ASPECT_ANALYZER=Computerized Scanning
-ttresearch.page.ASPECT_ANALYZER.0=You created a device that allows Computers to know what aspects an item has.<BR><BR>This block acts like a normal inventory, any items in it can be scanned by use of a Computer. Visit the peripheral documentation entry for more info.
+ttresearch.name.ASPECT_ANALYZER=アスペクタライザー
+ttresearch.lore.ASPECT_ANALYZER=調査をコンピューター処理
+ttresearch.page.ASPECT_ANALYZER.0=アイテムが持つ相をコンピューターが感知できるようにする装置を生み出した。<BR><BR>インベントリを持つ普通のブロックと同様に機能し、コンピューターを使ってその中にあるアイテムを調査できる。詳細はComputerCraft周辺機器についてのドキュメントを参照のこと。
 
 # -- SMOKEY QUARTZ
 ttresearch.name.DARK_QUARTZ=黒ずんだクォーツ
@@ -260,24 +260,24 @@ ttresearch.page.GOLEM_CONNECTOR.3=便宜上、このブロックの取り扱い�
 ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
 
 # -- GASEOUS ILLUMINAE
-ttresearch.name.GASEOUS_LIGHT=Gaseous Illuminae
-ttresearch.lore.GASEOUS_LIGHT=Bright out of sight
-ttresearch.page.GASEOUS_LIGHT.0=You have studied the intricacies of the light, and found out a way to create completely invisible light by infusing a phial with the raw light.<BR><BR>This phial contains a concentrated extract of Gaseous Illuminae, that can be released through a right click, and will spread relatively fast in the nearby area, lighting it up.
+ttresearch.name.GASEOUS_LIGHT=気化したイルミナエ
+ttresearch.lore.GASEOUS_LIGHT=あかるい視界を
+ttresearch.page.GASEOUS_LIGHT.0=光の複雑な仕組みを研究し、薬瓶に原体の光を注入することで完全に不可視の光を生み出す方法を発見した。<BR><BR>この薬瓶には気化したイルミナエの抽出物が濃縮されたものが入っており、右クリックで放出することで付近に比較的素早く拡散し、辺りを照らす。
 
 # -- GASEOUS TENEBRAE
-ttresearch.name.GASEOUS_SHADOW=Gaseous Tenebrae
-ttresearch.lore.GASEOUS_SHADOW=Hidden shadows
-ttresearch.page.GASEOUS_SHADOW.0=You have studied the intricacies of the Shadow, and found out a way to create gaseous darkness by infusing a phial with the raw shadow.<BR><BR>This phial contains a concentrated extract of Gaseous Tenebrae, that can be released through a right click, and will spread relatively fast in the nearby area, darkening it.
+ttresearch.name.GASEOUS_SHADOW=気化したテネブラエ
+ttresearch.lore.GASEOUS_SHADOW=隠された影
+ttresearch.page.GASEOUS_SHADOW.0=影の複雑な仕組みを研究し、薬瓶に原体の影を注入することで気化した暗闇を生み出す方法を発見した。<BR><BR>この薬瓶には気化したテネブラエの抽出物が濃縮されたものが入っており、右クリックで放出することで付近に比較的素早く拡散し、辺りを暗くする。
 
 # -- FUME DISSIPATOR
-ttresearch.name.GAS_REMOVER=Fume Dissipator
-ttresearch.lore.GAS_REMOVER=HAZMAT cleanup
-ttresearch.page.GAS_REMOVER.0=After knowing both the Gaseous Illuminae and Tenebrae, you are thinking it's becoming a hassle to get rid of it. With this item, by shift-right clicking on it, all the nearby gas will get dissipated.
+ttresearch.name.GAS_REMOVER=消煙器
+ttresearch.lore.GAS_REMOVER=危険物除去
+ttresearch.page.GAS_REMOVER.0=気化したイルミナエとテネブラエについて知ったのはいいものの、その光や影の除去が面倒事になりつつあると思えてきた。そこでこのアイテムを持ってShift右クリックすれば、周囲の気体はすべて消散する。
 
 # -- SPELLBINDING CLOTH
-ttresearch.name.SPELL_CLOTH=Spellbinding Cloth
-ttresearch.lore.SPELL_CLOTH=Enchanted erasor
-ttresearch.page.SPELL_CLOTH.0=By mixing some Enchanted Fabric with raw magic power, you created a cloth that can be rubbed on an item to wipe it of its enchantments by combining them in a Crafting Recipe.
+ttresearch.name.SPELL_CLOTH=呪文が織られた布
+ttresearch.lore.SPELL_CLOTH=エンチャント消しゴム
+ttresearch.page.SPELL_CLOTH.0=魔力の込められた布と魔力そのものを混ぜ合わせることにより、作業台上でアイテムをこするとそのエンチャントを拭き取れる布を生み出した。
 
 # -- DYNAMISM TABLET
 ttresearch.name.ANIMATION_TABLET=Dynamism Tablet
