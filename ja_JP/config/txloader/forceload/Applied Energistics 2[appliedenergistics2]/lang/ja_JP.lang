@@ -37,11 +37,11 @@ tile.appliedenergistics2.OreQuartzCharged.name=チャージドケルタスクォ
 tile.appliedenergistics2.BlockSecurity.name=MEセキュリティターミナル
 tile.appliedenergistics2.BlockQuartzGrowthAccelerator.name=クリスタル成長機
 tile.appliedenergistics2.BlockSkyStone.name=スカイストーン
-tile.appliedenergistics2.BlockSkyStone.Block.name=スカイストーンブロック
+tile.appliedenergistics2.BlockSkyStone.Block.name=滑らかなスカイストーン
 tile.appliedenergistics2.BlockSkyStone.Brick.name=スカイストーンレンガ
 tile.appliedenergistics2.BlockSkyStone.SmallBrick.name=スカイストーン小レンガ
 tile.appliedenergistics2.BlockSkyChest.name=スカイストーンチェスト
-tile.appliedenergistics2.BlockSkyChest.Block.name=スカイストーンブロックチェスト
+tile.appliedenergistics2.BlockSkyChest.Block.name=滑らかなスカイストーンチェスト
 tile.appliedenergistics2.BlockSkyCompass.name=隕石探知コンパス
 tile.appliedenergistics2.BlockCraftingMonitor.name=クラフティングモニター
 tile.appliedenergistics2.BlockCraftingStorage.name=§61k§r  クラフティングストレージ
@@ -73,7 +73,7 @@ tile.appliedenergistics2.ChiseledQuartzStairBlock.name=模様入りのケルタ�
 tile.appliedenergistics2.FluixStairBlock.name=フルーシュの階段
 tile.appliedenergistics2.QuartzPillarStairBlock.name=ケルタスクォーツの柱の階段
 tile.appliedenergistics2.QuartzStairBlock.name=ケルタスクォーツの階段
-tile.appliedenergistics2.SkyStoneBlockStairBlock.name=スカイストーンブロックの階段
+tile.appliedenergistics2.SkyStoneBlockStairBlock.name=滑らかなスカイストーンの階段
 tile.appliedenergistics2.SkyStoneBrickStairBlock.name=スカイストーンレンガの階段
 tile.appliedenergistics2.SkyStoneSmallBrickStairBlock.name=スカイストーン小レンガの階段
 tile.appliedenergistics2.SkyStoneStairBlock.name=スカイストーンの階段
@@ -87,14 +87,14 @@ tile.appliedenergistics2.QuartzPillarSlabBlock.name=模様入りのケルタス�
 tile.appliedenergistics2.QuartzPillarSlabBlock.double.name=Certus Quartz Pillar Slabs
 tile.appliedenergistics2.QuartzSlabBlock.name=ケルタスクォーツのハーフブロック
 tile.appliedenergistics2.QuartzSlabBlock.double.name=Certus Quartz Slabs
-tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=スカイストーンブロックのハーフブロック
-tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=Sky Stone Block Slabs
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.name=滑らかなスカイストーンのハーフブロック
+tile.appliedenergistics2.SkyStoneBlockSlabBlock.double.name=滑らかなスカイストーンのハーフブロック
 tile.appliedenergistics2.SkyStoneBrickSlabBlock.name=スカイストーンレンガのハーフブロック
-tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=Sky Stone Brick Slabs
+tile.appliedenergistics2.SkyStoneBrickSlabBlock.double.name=スカイストーンレンガのハーフブロック
 tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.name=スカイストーン小レンガのハーフブロック
-tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=Sky Stone Small Brick Slabs
+tile.appliedenergistics2.SkyStoneSmallBrickSlabBlock.double.name=スカイストーン小レンガのハーフブロック
 tile.appliedenergistics2.SkyStoneSlabBlock.name=スカイストーンのハーフブロック
-tile.appliedenergistics2.SkyStoneSlabBlock.double.name=Sky Stone Slabs
+tile.appliedenergistics2.SkyStoneSlabBlock.double.name=スカイストーンのハーフブロック
 
 # Chat Messages
 chat.appliedenergistics2.ChestCannotReadStorageCell=MEチェストがストレージセルを読み込めませんでした。
@@ -137,6 +137,8 @@ chat.appliedenergistics2.MachineHighlighted=The %d is now highlighted at %d, %d,
 chat.appliedenergistics2.MachineHighlightedNamed=The %d "%d" is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageHighlighted=The %d containing %d %d is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d containing %d %d is located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.PatternRepeaterProvider=§5Provider§r - will provide pattern to current system from in front §5Accessor§r.
+chat.appliedenergistics2.PatternRepeaterAccessor=§5Accessor§r - will provide pattern to in front §5Provider§r.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -185,7 +187,7 @@ gui.appliedenergistics2.StorageBus=ストレージバス
 gui.appliedenergistics2.EnergyDrain=受動排出
 gui.appliedenergistics2.Installed=導入済
 gui.appliedenergistics2.NetworkTool=ネットワークツール
-gui.appliedenergistics2.AdvancedNetworkTool=強化ネットワークツール
+gui.appliedenergistics2.AdvancedNetworkTool=発展型ネットワークツール
 gui.appliedenergistics2.PowerUsageRate=エネルギー使用量
 gui.appliedenergistics2.PowerInputRate=エネルギー生産量
 gui.appliedenergistics2.PortableCell=ポータブルセル
@@ -230,6 +232,9 @@ gui.appliedenergistics2.IOBuses=ME入力/出力バス
 gui.appliedenergistics2.Stores=貯めている
 gui.appliedenergistics2.BytesUsed=バイト使用済み
 gui.appliedenergistics2.TimeUsed=Time Used
+gui.appliedenergistics2.CraftName=Craft Name
+gui.appliedenergistics2.Remains=Remains
+gui.appliedenergistics2.Progress=Progress
 gui.appliedenergistics2.Types=タイプ
 gui.appliedenergistics2.Blank=空
 gui.appliedenergistics2.Unlinked=リンクされてません
@@ -243,6 +248,7 @@ gui.appliedenergistics2.MolecularAssembler=分子アセンブラー
 gui.appliedenergistics2.ProcessingPattern=加工パターン
 gui.appliedenergistics2.Crafts=クラフト
 gui.appliedenergistics2.HoldShift=Hold [LSHIFT] to show Ingredients
+gui.appliedenergistics2.PatternView=Press [%s] to view pattern
 gui.appliedenergistics2.Result=Result
 gui.appliedenergistics2.Results=Results
 gui.appliedenergistics2.Ingredients=Ingredients
@@ -340,8 +346,17 @@ gui.appliedenergistics2.HoldShiftClick_HIGHLIGHT_INTERFACE=Shiftを押しなが�
 gui.appliedenergistics2.Nothing=なし
 gui.appliedenergistics2.VoidCellTooltip=保存されている§4everything§7を削除する
 gui.appliedenergistics2.CellView=Cell View
+gui.appliedenergistics2.Inputs=Inputs
+gui.appliedenergistics2.Outputs=Outputs
+gui.appliedenergistics2.EncodedPattern=エンコード済みパターン
 gui.appliedenergistics2.Deprecated=非推奨!まもなく削除されます!
 gui.appliedenergistics2.ViewCellToggleKey=Right-click to toggle
+gui.appliedenergistics2.CPUAllowMode=Accept request
+gui.appliedenergistics2.CPUAllowAll=All
+gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Only from non-player
+gui.appliedenergistics2.CPUOnlyAllowPlayer=Only from player
+gui.appliedenergistics2.CPUSourcePlayer=Requester
+gui.appliedenergistics2.CPUSourceMachineRequested=Machine Requested
 
 gui.appliedenergistics2.NetworkBytesDetails=ネットワークのバイト数詳細
 gui.appliedenergistics2.Items=アイテム
@@ -366,6 +381,8 @@ gui.appliedenergistics2.NumberOfFluids=Number of fluids
 gui.appliedenergistics2.ItemsPerByte=Items per byte:
 gui.appliedenergistics2.FluidsPerByte=Fluids per byte:
 gui.appliedenergistics2.BytesPerType=Bytes per type:
+gui.appliedenergistics2.SelectColor=Select a Color
+gui.appliedenergistics2.Selected=Selected
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -396,6 +413,8 @@ gui.tooltips.appliedenergistics2.Encode=パターンの書き込み
 gui.tooltips.appliedenergistics2.EncodeDescription=Write the entered pattern to the current encoded pattern, or to available blank pattern. Hold Shift to transfer directly to your inventory. Hold Shift+Control to encode whole stack.
 
 gui.tooltips.appliedenergistics2.FuzzyMode=ファジーで比較
+gui.tooltips.appliedenergistics2.FZPercent_1=Split Damage at 1%
+gui.tooltips.appliedenergistics2.FZPercent_10=Split Damage at 10%
 gui.tooltips.appliedenergistics2.FZPercent_25=25%の耐久で分割
 gui.tooltips.appliedenergistics2.FZPercent_50=50%の耐久で分割
 gui.tooltips.appliedenergistics2.FZPercent_75=75%の耐久で分割
@@ -418,6 +437,7 @@ gui.tooltips.appliedenergistics2.NumberOfItems=アイテム数
 gui.tooltips.appliedenergistics2.ItemName=アイテム名
 gui.tooltips.appliedenergistics2.PowerUnits=エネルギーユニット
 gui.tooltips.appliedenergistics2.IOMode=入出力モード
+gui.tooltips.appliedenergistics2.ExtractionMode=Extraction Mode
 gui.tooltips.appliedenergistics2.CondenserOutput=MEコンデンサーの出力
 gui.tooltips.appliedenergistics2.PartitionStorage=分割ストレージ
 gui.tooltips.appliedenergistics2.Clear=消去
@@ -432,6 +452,8 @@ gui.tooltips.appliedenergistics2.Singularity=Condense Into Singularities\n%s per
 gui.tooltips.appliedenergistics2.Read=Extract Only
 gui.tooltips.appliedenergistics2.Write=Insert Only
 gui.tooltips.appliedenergistics2.ReadWrite=Bi-Directional
+gui.tooltips.appliedenergistics2.Strict=Strict - Network sees only filtered items
+gui.tooltips.appliedenergistics2.Loose=Loose - Network sees everything
 
 gui.tooltips.appliedenergistics2.AlwaysActive=Always active
 gui.tooltips.appliedenergistics2.ActiveWithoutSignal=Active without signal
@@ -464,7 +486,7 @@ gui.tooltips.appliedenergistics2.CraftOnly=Do not use stocked items, only craft 
 gui.tooltips.appliedenergistics2.CraftEither=Use stocked items, or craft items while exporting.
 gui.tooltips.appliedenergistics2.LevelType=Level Type
 gui.tooltips.appliedenergistics2.LevelType_Energy=Energy
-gui.tooltips.appliedenergistics2.LevelType_Item=Item
+gui.tooltips.appliedenergistics2.LevelType_Item_Fluid=Item / Fluid
 gui.tooltips.appliedenergistics2.InventoryTweaks=Inventory Tweaks
 gui.tooltips.appliedenergistics2.Mod=Mod
 gui.tooltips.appliedenergistics2.UsedPercent=Percentage
@@ -487,7 +509,7 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=いいえ。搬出で
 gui.tooltips.appliedenergistics2.TypeFilter=フィルター方法
 gui.tooltips.appliedenergistics2.TypeFilterShowAll=全て表示
 gui.tooltips.appliedenergistics2.TypeFilterShowItemsOnly=アイテムのみ表示
-gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=液体ドロップのみ表示
+gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=液体のみ表示
 
 gui.tooltips.appliedenergistics2.BlockPlacement=ブロック設置
 gui.tooltips.appliedenergistics2.BlockPlacementYes=ブロックはブロックとして設置される。
@@ -657,6 +679,20 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Locked by lack of
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Locked by redstone signal
 waila.appliedenergistics2.CraftingLockedUntilPulse=Waiting for redstone pulse to unlock
 waila.appliedenergistics2.CraftingLockedUntilResult=Waiting for results to unlock
+waila.appliedenergistics2.CoordinateX=X
+waila.appliedenergistics2.CoordinateY=Y
+waila.appliedenergistics2.CoordinateZ=Z
+waila.appliedenergistics2.Dimension=Dimension
+waila.appliedenergistics2.Id=id
+waila.appliedenergistics2.ConnectedTo=Connected to
+waila.appliedenergistics2.Disconnected=Disconnected
+waila.appliedenergistics2.Singularity=Singularity
+waila.appliedenergistics2.Provider=§5Provider§r
+waila.appliedenergistics2.Accessor=§5Accessor§r
+waila.appliedenergistics2.Waiting=Waiting:
+
+# Baubles Extended
+slot.Terminal=§aTerminal§7
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=§61k§r MEストレージセル
@@ -673,7 +709,7 @@ item.appliedenergistics2.ItemExtremeStorageCell.Singularity.name=MEデジタル�
 item.appliedenergistics2.ItemExtremeStorageCell.Universe.name=Artificial Universe ME Storage Cell
 item.appliedenergistics2.ItemCreativeStorageCell.name=クリエイティブMEストレージセル
 item.appliedenergistics2.ItemVoidStorageCell.name=虚無MEストレージセル
-item.appliedenergistics2.ItemEncodedPattern.name=エンコードパターン
+item.appliedenergistics2.ItemEncodedPattern.name=エンコード済みパターン
 item.appliedenergistics2.ItemEncodedUltimatePattern.name=Encoded Ultimate Pattern
 item.appliedenergistics2.ItemViewCell.name=視認セル
 item.appliedenergistics2.ItemFacade.name=ケーブル外装
@@ -692,25 +728,25 @@ item.appliedenergistics2.ItemPart.name=ME Cable and/or Bus
 item.appliedenergistics2.ItemMaterial.BlankPattern.name=空白のパターン
 item.appliedenergistics2.ItemMaterial.FormationCore.name=形成コア
 item.appliedenergistics2.ItemMaterial.AnnihilationCore.name=消滅コア
-item.appliedenergistics2.ItemMaterial.BasicCard.name=基本カード
-item.appliedenergistics2.ItemMaterial.AdvCard.name=発展カード
+item.appliedenergistics2.ItemMaterial.BasicCard.name=基本型カード
+item.appliedenergistics2.ItemMaterial.AdvCard.name=発展型カード
 
 
-item.appliedenergistics2.ItemMaterial.CardCapacity.name=容量カード
-item.appliedenergistics2.ItemMaterial.CardPatternCapacity.name=容量カード
+item.appliedenergistics2.ItemMaterial.CardCapacity.name=容量拡張カード
+item.appliedenergistics2.ItemMaterial.CardPatternCapacity.name=パターン容量拡張カード
 item.appliedenergistics2.ItemMaterial.CardFuzzy.name=ファジーカード
 item.appliedenergistics2.ItemMaterial.CardInverter.name=反転カード
 item.appliedenergistics2.ItemMaterial.CardRedstone.name=レッドストーンカード
 item.appliedenergistics2.ItemMaterial.CardSpeed.name=加速カード
 item.appliedenergistics2.ItemMaterial.CardSuperSpeed.name=超加速カード
 item.appliedenergistics2.ItemMaterial.CardOreFilter.name=鉱石辞書フィルターカード
-item.appliedenergistics2.ItemMaterial.CardPatternRefiller.name=Pattern Refiller Card
-item.appliedenergistics2.ItemMaterial.CardAdvancedBlocking.name=発展ブロッキングカード
-item.appliedenergistics2.ItemMaterial.CardLockCrafting.name=Locking Card
+item.appliedenergistics2.ItemMaterial.CardPatternRefiller.name=パターン再配置カード
+item.appliedenergistics2.ItemMaterial.CardAdvancedBlocking.name=発展型ブロッキングカード
+item.appliedenergistics2.ItemMaterial.CardLockCrafting.name=ロッキングカード
 item.appliedenergistics2.ItemMaterial.CardSticky.name=粘着カード
 item.appliedenergistics2.ItemMaterial.CardVoidOverflow.name=Overflow Void Card
 item.appliedenergistics2.ItemMaterial.CardDistribution.name=Equal Distribution Card
-item.appliedenergistics2.ItemMaterial.CardFakeCrafting.name=Fake Crafting Card
+item.appliedenergistics2.ItemMaterial.CardFakeCrafting.name=偽装クラフティングカード
 item.appliedenergistics2.ItemMaterial.CardSuperluminalSpeed.name=Superluminal Acceleration Card
 
 item.appliedenergistics2.ItemMaterial.Cell2SpatialPart.name=2³ ME空間コンポーネント
@@ -730,7 +766,7 @@ item.appliedenergistics2.ItemMaterial.CertusQuartzCrystal.name=ケルタスク�
 item.appliedenergistics2.ItemMaterial.CertusQuartzCrystalCharged.name=チャージドケルタスクォーツ
 item.appliedenergistics2.ItemMaterial.CertusQuartzDust.name=ケルタスクォーツの粉
 item.appliedenergistics2.ItemMaterial.EmptyStorageCell.name=MEストレージセル筐体
-item.appliedenergistics2.ItemMaterial.EmptyAdvancedStorageCell.name=ME発展ストレージセル筐体
+item.appliedenergistics2.ItemMaterial.EmptyAdvancedStorageCell.name=ME発展型ストレージセル筐体
 item.appliedenergistics2.ItemMaterial.EnderDust.name=エンダーパールの粉
 
 item.appliedenergistics2.ItemMaterial.Flour.name=小麦粉
@@ -752,24 +788,24 @@ item.appliedenergistics2.ItemMaterial.QESingularity.name=量子もつれ特異�
 item.appliedenergistics2.ItemMaterial.Silicon.name=シリコン
 item.appliedenergistics2.ItemMaterial.Singularity.name=特異点
 item.appliedenergistics2.ItemMaterial.Wireless.name=無線受信機
-item.appliedenergistics2.ItemMaterial.WirelessBooster.name=無線ブースター
-item.appliedenergistics2.ItemMaterial.WoodenGear.name=木製の歯車
+item.appliedenergistics2.ItemMaterial.WirelessBooster.name=無線ブースターカード
+item.appliedenergistics2.ItemMaterial.WoodenGear.name=木の歯車
 
-item.appliedenergistics2.ItemMaterial.NamePress.name=名称銘記プレス
+item.appliedenergistics2.ItemMaterial.NamePress.name=名称銘記の金型
 item.appliedenergistics2.ItemMaterial.EngProcessorPress.name=上級回路の金型
-item.appliedenergistics2.ItemMaterial.CalcProcessorPress.name=発展回路の金型
-item.appliedenergistics2.ItemMaterial.LogicProcessorPress.name=基本回路の金型
+item.appliedenergistics2.ItemMaterial.CalcProcessorPress.name=計算回路の金型
+item.appliedenergistics2.ItemMaterial.LogicProcessorPress.name=論理回路の金型
 item.appliedenergistics2.ItemMaterial.SiliconPress.name=シリコン基板の金型
 
-item.appliedenergistics2.ItemMaterial.EngProcessorPrint.name=上級回路
-item.appliedenergistics2.ItemMaterial.CalcProcessorPrint.name=発展回路
-item.appliedenergistics2.ItemMaterial.LogicProcessorPrint.name=基本回路
+item.appliedenergistics2.ItemMaterial.EngProcessorPrint.name=刻印済み上級回路
+item.appliedenergistics2.ItemMaterial.CalcProcessorPrint.name=刻印済み計算回路
+item.appliedenergistics2.ItemMaterial.LogicProcessorPrint.name=刻印済み論理回路
 item.appliedenergistics2.ItemMaterial.SiliconPrint.name=シリコン基板
 
-item.appliedenergistics2.ItemMaterial.EngProcessor.name=上級プロセッサー
-item.appliedenergistics2.ItemMaterial.CalcProcessor.name=発展プロセッサー
-item.appliedenergistics2.ItemMaterial.LogicProcessor.name=基本プロセッサー
-item.appliedenergistics2.ItemMaterial.LogicProcessorAsm.name=未完成の基本回路
+item.appliedenergistics2.ItemMaterial.EngProcessor.name=上級プロセッサ
+item.appliedenergistics2.ItemMaterial.CalcProcessor.name=計算プロセッサ
+item.appliedenergistics2.ItemMaterial.LogicProcessor.name=論理プロセッサ
+item.appliedenergistics2.ItemMaterial.LogicProcessorAsm.name=未完成の論理プロセッサ
 
 item.appliedenergistics2.ItemMaterial.SkyDust.name=スカイストーンの粉
 item.appliedenergistics2.ItemMaterial.CardCrafting.name=クラフティングカード
@@ -796,7 +832,7 @@ item.appliedenergistics2.ItemPart.Interface.name=MEインターフェース
 item.appliedenergistics2.ItemPart.LevelEmitter.name=MEレベルエミッター
 item.appliedenergistics2.ItemPart.P2PTunnel.name=P2Pトンネル
 item.appliedenergistics2.ItemPart.PatternTerminal.name=MEパターンターミナル
-item.appliedenergistics2.ItemPart.PatternTerminalEx.name=ME加工パターンターミナル
+item.appliedenergistics2.ItemPart.PatternTerminalEx.name=MEプロセッシングパターンターミナル
 item.appliedenergistics2.ItemPart.QuartzFiber.name=クォーツファイバー
 item.appliedenergistics2.ItemPart.PartCreativeEnergy.name=Creative Energy Anchor
 item.appliedenergistics2.ItemPart.StorageBus.name=MEストレージバス
@@ -806,6 +842,7 @@ item.appliedenergistics2.ItemPart.InterfaceTerminal.name=MEインターフェー
 item.appliedenergistics2.ItemPart.InvertedToggleBus.name=ME反転切替バス
 item.appliedenergistics2.ItemPart.ToggleBus.name=ME切替バス
 item.appliedenergistics2.ItemPart.CraftingMonitor.name=MEクラフティングモニター
+item.appliedenergistics2.ItemPart.PatternRepeater.name=ME Pattern Repeater
 
 item.appliedenergistics2.ItemSpatialStorageCell.128Cubed.name=128³ ME空間ストレージセル
 item.appliedenergistics2.ItemSpatialStorageCell.16Cubed.name=16³ ME空間ストレージセル
@@ -820,28 +857,28 @@ item.appliedenergistics2.ToolCertusQuartzSword.name=ケルタスクォーツの�
 item.appliedenergistics2.ToolCertusQuartzWrench.name=ケルタスクォーツのレンチ
 
 item.appliedenergistics2.ToolNetherQuartzAxe.name=ネザークォーツの斧
-item.appliedenergistics2.ToolNetherQuartzCuttingKnife.name=Nether Quartz Cutting Knife
+item.appliedenergistics2.ToolNetherQuartzCuttingKnife.name=ネザークォーツの彫刻刀
 item.appliedenergistics2.ToolNetherQuartzHoe.name=ネザークォーツのクワ
 item.appliedenergistics2.ToolNetherQuartzPickaxe.name=ネザークォーツのツルハシ
 item.appliedenergistics2.ToolNetherQuartzSpade.name=ネザークォーツのシャベル
 item.appliedenergistics2.ToolNetherQuartzSword.name=ネザークォーツの剣
 item.appliedenergistics2.ToolNetherQuartzWrench.name=ネザークォーツのレンチ
 
-item.appliedenergistics2.ItemPaintBall.name=Paint Ball
-item.appliedenergistics2.ToolPortableCell.name=Portable Cell
-item.appliedenergistics2.ToolNetworkTool.name=Network Tool
-item.appliedenergistics2.ToolAdvancedNetworkTool.name=Advanced Network Tool
-item.appliedenergistics2.ToolChargedStaff.name=Charged Staff
-item.appliedenergistics2.ToolEntropyManipulator.name=Entropy Manipulator
-item.appliedenergistics2.ToolMassCannon.name=Matter Cannon
-item.appliedenergistics2.ToolMemoryCard.name=Memory Card
-item.appliedenergistics2.ToolPriorityCard.name=Priority Card
-item.appliedenergistics2.ToolColorApplicator.name=Color Applicator
-item.appliedenergistics2.ToolWirelessTerminal.name=Wireless Terminal
-item.appliedenergistics2.ToolBiometricCard.name=Biometric Card
+item.appliedenergistics2.ItemPaintBall.name=ペイントボール
+item.appliedenergistics2.ToolPortableCell.name=ポータブルセル
+item.appliedenergistics2.ToolNetworkTool.name=ネットワークツール
+item.appliedenergistics2.ToolAdvancedNetworkTool.name=発展型ネットワークツール
+item.appliedenergistics2.ToolChargedStaff.name=チャージスタッフ
+item.appliedenergistics2.ToolEntropyManipulator.name=エントロピーマニピュレーター
+item.appliedenergistics2.ToolMassCannon.name=マターキャノン
+item.appliedenergistics2.ToolMemoryCard.name=メモリーカード
+item.appliedenergistics2.ToolPriorityCard.name=優先度カード
+item.appliedenergistics2.ToolColorApplicator.name=カラーアプリケーター
+item.appliedenergistics2.ToolWirelessTerminal.name=無線ターミナル
+item.appliedenergistics2.ToolBiometricCard.name=生体認証カード
 
-item.appliedenergistics2.ToolDebugCard.name=Dev.DebugCard
-item.appliedenergistics2.ToolReplicatorCard.name=Dev.ReplicatorCard
+item.appliedenergistics2.ToolDebugCard.name=Dev.デバックカード
+item.appliedenergistics2.ToolReplicatorCard.name=Dev.複製カード
 
 # Commands
 commands.ae2.usage=Commands provided by Applied Energistics 2 - use /ae2 list for a list, and /ae2 help _____ for help with a command.
@@ -913,11 +950,15 @@ achievement.ae2.QNB=Quantum Tunneling
 achievement.ae2.QNB.desc=Craft a Quantum Link
 
 # Stats
-stat.ae2.ItemsInserted=Items added to ME Storage
-stat.ae2.ItemsExtracted=Items extracted from ME Storage
-stat.ae2.TurnedCranks=Turned Cranks
+stat.ae2.ItemsInserted=MEストレージにアイテムを追加した回数
+stat.ae2.ItemsExtracted=MEストレージからアイテムを取り出した回数
+stat.ae2.TurnedCranks=クランクを回した回数
 
 # Keys
 key.appliedenergistics2.category=Applied Energistics 2
 key.toggle_focus.desc=Toggle search box focus
 key.search_connected_inventories.desc=Search network inventories for item
+key.control_operation.desc=Control operation
+
+# NEI
+nei.options.keys.gui.pattern_view=View Pattern

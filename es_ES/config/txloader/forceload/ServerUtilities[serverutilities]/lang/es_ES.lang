@@ -102,7 +102,7 @@ serverutilities.afk.notification_timer=Notification Timer
 serverutilities.afk.log_afk=Log AFK
 
 serverutilities.server_info=Server Info
-serverutilities.server_info.difficulty=Difficulty
+serverutilities.server_info.difficulty=Dificultad
 serverutilities.server_info.admin_quick_access=Admin Quick Access
 
 serverutilities.chat=Chat
@@ -119,7 +119,7 @@ serverutilities.login.enable_event_badges=Enable Event Badges
 serverutilities.login.motd=MOTD
 serverutilities.login.starting_items=Starting Items
 
-serverutilities.world=World
+serverutilities.world=Mundo
 serverutilities.world.blocked_claiming_dimensions=Blocked Claiming Dimensions
 serverutilities.world.chunk_claiming=Chunk Claiming
 serverutilities.world.chunk_loading=Chunk Loading
@@ -144,7 +144,7 @@ serverutilities.world.logging.block_placed=Block Placed
 serverutilities.world.logging.block_broken=Block Broken
 serverutilities.world.logging.item_clicked_in_air=Item Clicked in Air
 
-serverutilities.ranks=Ranks
+serverutilities.ranks=Rangos
 serverutilities.ranks.enabled=Enabled
 serverutilities.ranks.override_chat=Override Chat
 serverutilities.ranks.override_commands=Override Commands
@@ -339,7 +339,7 @@ sidebar_button.serverutilities.toggle.day=Set time to Day
 sidebar_button.serverutilities.toggle.day.tooltip=Sets daytime
 sidebar_button.serverutilities.toggle.night=Set time to Night
 sidebar_button.serverutilities.toggle.night.tooltip=Sets nighttime
-sidebar_button.serverutilities.heal=Heal
+sidebar_button.serverutilities.heal=Curar
 sidebar_button.serverutilities.heal.tooltip=Heals player to max health and saturation, and extinguishes if player is on fire
 sidebar_button.serverutilities.server_info=Server Info
 sidebar_button.serverutilities.claimed_chunks=Claimed Chunks
@@ -366,7 +366,7 @@ serverutilities.admin_panel.ranks.cant_remove=Default rank can't be removed!
 serverutilities.admin_panel.ranks.delete_confirm=This will permanently delete rank: %s. Are you sure?
 
 # Keys
-key.serverutilities.nbt=Edit NBT
+key.serverutilities.nbt=Editar NBT
 key.serverutilities.trash=Trash Can
 
 # Commands
@@ -409,7 +409,7 @@ commands.ranks.not_found=Rank '%s' not found!
 commands.ranks.create.usage=/ranks create <id> [parent]
 commands.ranks.create.id_invalid=Invalid rank ID: '%s'. It must be alphanumeric & lowercase!
 commands.ranks.create.id_exists=Rank '%s' already exists!
-commands.ranks.create.added=Rank %s added!
+commands.ranks.create.added=¡Rango %s añadido!
 commands.ranks.info.usage=/ranks info <rank|player>
 commands.ranks.add.usage=/ranks add <rank|player> <rank>
 commands.ranks.add.text=Added rank %s as parent for %s
@@ -439,13 +439,13 @@ commands.fly.usage=/fly
 commands.cycle_block_state.usage=/cycle_block_state
 commands.leaderboards.usage=/leaderboards [id]
 commands.mute.usage=/mute <player>
-commands.mute.muted=You are muted!
+commands.mute.muted=¡Tu estas silenciado!
 commands.unmute.usage=/unmute <player>
 commands.rec.usage=/rec
 commands.rec.recording=%s is now recording!
 commands.rec.not_recording=%s is no longer recording!
 commands.ping.integrated_server=Integrated Server
-commands.ping.unknown=Unknown
+commands.ping.unknown=Desconocido
 commands.ping.ping=Ping %s
 commands.backup.usage=/backup
 commands.backup.start.usage=/backup start <file name>
@@ -581,19 +581,19 @@ commands.tree_base.invalid_cmd.list_subcommands=Invalid subcommand '%s'! Availab
 commands.tree_base.available_subcommands=Available SubCommands: %s
 
 # Backup
-cmd.timer_backup=Next backup: %s
+cmd.timer_backup=Próxima copia de seguridad:
 cmd.backup_start=¡Se ha iniciado la copia de seguridad del servidor!
 cmd.backup_stop=Server Backup stopped!
-cmd.backup_end_1=Server backup done in %s!
+cmd.backup_end_1=¡Copia de Seguridad del Servidor hecha en %s!
 cmd.backup_end_2=Server backup done in %s! (%s)
 cmd.backup_fail=Failed to save world! (%s)
 cmd.backup_manual_launch=%s launched a manual backup!
-cmd.backup_already_running=Backup in progress!
+cmd.backup_already_running=¡Copia de seguridad en progreso!
 cmd.backup_not_running=Backup is not running!
 cmd.backup_size=Current world size: %s, total backups folder size: %s
 serverutilities.gui.backup.title=Restore Backup (%s)
-serverutilities.gui.backup.button=Backups
-serverutilities.gui.backup.restore=Restore
+serverutilities.gui.backup.button=Copias de Seguridad
+serverutilities.gui.backup.restore=Restaurar
 serverutilities.gui.backup.restore_global=Restore (with global data)
 serverutilities.gui.backup.error=An error occured while restoring backup!
 serverutilities.gui.backup.delete_confirm=Are you sure you want to §c§ldelete§r this backup?

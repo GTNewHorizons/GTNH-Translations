@@ -1,35 +1,35 @@
-ggfab.recipe.toolcast=Tool Casting Machine
+ggfab.recipe.toolcast=Machine de moulage d’outils
 
-ggfab.waila.advassline.slice=Slice #%s: %s s / %s s
-ggfab.waila.advassline.slice.small=Slice #%s: %s ticks / %s ticks
-ggfab.waila.advassline.slice.idle=Slice #%s: Idle
-ggfab.waila.advassline.slice.stuck=Slice #%s: §4STUCK
-ggfab.gui.advassline.slice.idle=Slice #%s: Idle
-ggfab.gui.advassline.slice.stuck=Slice #%s: §4STUCK
-ggfab.gui.advassline.slice.unknown=Slice #%s: ?
-ggfab.gui.advassline.shutdown=§4Last abnormal shutdown reason:
-ggfab.gui.advassline.shutdown_clear=§6Clear
-ggfab.gui.advassline.shutdown.input_busses=§4Too few input buses to support current recipe
-ggfab.gui.advassline.shutdown.recipe_null=§4Recipe is null (report to author)
-ggfab.gui.advassline.shutdown.fluid_null=§4Fluid drained failed (check your ME fluid storage)
-ggfab.gui.advassline.shutdown.structure=§4Incompatible structural change
-ggfab.gui.advassline.shutdown.energy=§4Insufficient power
-ggfab.gui.advassline.shutdown.load.energy=§4Loaded invalid electric stat
-ggfab.gui.advassline.shutdown.load.recipe=§4Incompatible recipe change
+ggfab.waila.advassline.slice=Tranche #%s : %s s / %s s
+ggfab.waila.advassline.slice.small=Tranche #%s : %s ticks / %s ticks
+ggfab.waila.advassline.slice.idle=Tranche #%s : Inactif
+ggfab.waila.advassline.slice.stuck=Tranche #%s : §4BLOQUÉ
+ggfab.gui.advassline.slice.idle=Tranche #%s : Inactif
+ggfab.gui.advassline.slice.stuck=Tranche #%s : §4BLOQUÉ
+ggfab.gui.advassline.slice.unknown=Tranche #%s : ?
+ggfab.gui.advassline.shutdown=§4Dernière raison d’arrêt anormal :
+ggfab.gui.advassline.shutdown_clear=§6Effacer
+ggfab.gui.advassline.shutdown.input_busses=§4Trop peu de bus d’entrée pour prendre en charge la recette actuelle
+ggfab.gui.advassline.shutdown.recipe_null=§4La recette est nulle (à signaler à l’auteur)
+ggfab.gui.advassline.shutdown.fluid_null=§4Échec de vidange du fluide (vérifiez votre de stockage ME de fluide)
+ggfab.gui.advassline.shutdown.structure=§4Modification structurelle incompatible
+ggfab.gui.advassline.shutdown.energy=§4Énergie insuffisante
+ggfab.gui.advassline.shutdown.load.energy=§4Statut électrique invalide chargé
+ggfab.gui.advassline.shutdown.load.recipe=§4Modification de recette incompatible
 
-ggfab.info.linked_input_bus.not_owned=§6The settings were copied from a different owner!
-ggfab.info.linked_input_bus.no_data=§6Configuration data not found!
-ggfab.info.linked_input_bus.invalid_data=§6Configuration data was found but it is invalid!
-ggfab.info.linked_input_bus.invalid_circuit=§6Configuration data was found but it contains a circuit not valid on this bus!
-ggfab.info.linked_input_bus.data_pasted=§2Pasted channel ("%s§2") and configuration circuit setting!
-ggfab.info.linked_input_bus.data_copied=§2Copied channel ("%s§2") and configuration circuit setting!
-ggfab.info.linked_input_bus.no_channel=§6No channel specified yet!
+ggfab.info.linked_input_bus.not_owned=§6Les paramètres ont été copiés depuis un autre propriétaire !
+ggfab.info.linked_input_bus.no_data=§6Données de configuration introuvables !
+ggfab.info.linked_input_bus.invalid_data=§6Les données de configuration ont été trouvées, mais sont invalides !
+ggfab.info.linked_input_bus.invalid_circuit=§6Les données de configuration ont été trouvées, mais elles contiennent un circuit non valide pour ce bus !
+ggfab.info.linked_input_bus.data_pasted=§2Canal collé (« %s§2 ») et configuration du circuit appliquée !
+ggfab.info.linked_input_bus.data_copied=§2Canal copié (« %s§2 ») et configuration du circuit enregistrée !
+ggfab.info.linked_input_bus.no_channel=§6Aucun canal spécifié pour le moment !
 
-ggfab.info.biome=Biome:
+ggfab.info.biome=Biome :
 
-ggfab.tooltip.linked_input_bus.change_freq_warn=Changing channel while this is the last one on this channel will spill all items left!
-ggfab.tooltip.linked_input_bus.private=Private channel are not shared with others.
-ggfab.tooltip.linked_input_bus.private.1=Changing channel while this is the last one on this channel will spill all items left!
+ggfab.tooltip.linked_input_bus.change_freq_warn=Changer de canal alors que celui-ci est le dernier utilisé entraînera la dispersion de tous les objets restants !
+ggfab.tooltip.linked_input_bus.private=Les canaux privés ne sont pas partagés avec les autres.
+ggfab.tooltip.linked_input_bus.private.1=Changer de canal alors que celui-ci est le dernier utilisé entraînera la dispersion de tous les objets restants !
 
-ggfab.gui.linked_input_bus.private=Private
-ggfab.gui.linked_input_bus.channel=Channel
+ggfab.gui.linked_input_bus.private=Privé
+ggfab.gui.linked_input_bus.channel=Canal

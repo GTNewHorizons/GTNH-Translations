@@ -137,6 +137,8 @@ chat.appliedenergistics2.MachineHighlighted=%d (%d, %d, %d)'de vurgulandı.
 chat.appliedenergistics2.MachineHighlightedNamed=The %d "%d" is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageHighlighted=The %d containing %d %d is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d containing %d %d is located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.PatternRepeaterProvider=§5Provider§r - will provide pattern to current system from in front §5Accessor§r.
+chat.appliedenergistics2.PatternRepeaterAccessor=§5Accessor§r - will provide pattern to in front §5Provider§r.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -230,6 +232,9 @@ gui.appliedenergistics2.IOBuses=ME İçe/Dışa Aktarım Veriyolu
 gui.appliedenergistics2.Stores=Depolar
 gui.appliedenergistics2.BytesUsed=Kullanılan Baytlar
 gui.appliedenergistics2.TimeUsed=Aşınılan Zaman
+gui.appliedenergistics2.CraftName=Craft Name
+gui.appliedenergistics2.Remains=Remains
+gui.appliedenergistics2.Progress=Progress
 gui.appliedenergistics2.Types=Tip üzerinden
 gui.appliedenergistics2.Blank=Boş
 gui.appliedenergistics2.Unlinked=Bağlı Değil
@@ -243,6 +248,7 @@ gui.appliedenergistics2.MolecularAssembler=Moleküler Montajcı
 gui.appliedenergistics2.ProcessingPattern=İşleme Kalıbı
 gui.appliedenergistics2.Crafts=Üretir
 gui.appliedenergistics2.HoldShift=Bileşenleri göstermek için [SOL SHIFT] tuşuna basılı tut
+gui.appliedenergistics2.PatternView=Press [%s] to view pattern
 gui.appliedenergistics2.Result=Sonuç
 gui.appliedenergistics2.Results=Sonuçlar
 gui.appliedenergistics2.Ingredients=Bileşenler
@@ -340,8 +346,17 @@ gui.appliedenergistics2.HoldShiftClick_HIGHLIGHT_INTERFACE=Arayüzü vurgulamak 
 gui.appliedenergistics2.Nothing=Hiçbir şey
 gui.appliedenergistics2.VoidCellTooltip=İçinde bulunan §4her şeyi§7 siler
 gui.appliedenergistics2.CellView=Hücre Görünümü
+gui.appliedenergistics2.Inputs=Inputs
+gui.appliedenergistics2.Outputs=Outputs
+gui.appliedenergistics2.EncodedPattern=Encoded Pattern
 gui.appliedenergistics2.Deprecated=Kullanımdan Kaldırıldı, yakında silinecek!
 gui.appliedenergistics2.ViewCellToggleKey=Sağ tık ile değiştir
+gui.appliedenergistics2.CPUAllowMode=Accept request
+gui.appliedenergistics2.CPUAllowAll=All
+gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Only from non-player
+gui.appliedenergistics2.CPUOnlyAllowPlayer=Only from player
+gui.appliedenergistics2.CPUSourcePlayer=Requester
+gui.appliedenergistics2.CPUSourceMachineRequested=Machine Requested
 
 gui.appliedenergistics2.NetworkBytesDetails=Ağ Baytları Detayları
 gui.appliedenergistics2.Items=Eşyalar
@@ -366,6 +381,8 @@ gui.appliedenergistics2.NumberOfFluids=Sıvı miktarı
 gui.appliedenergistics2.ItemsPerByte=Bayt başına eşya:
 gui.appliedenergistics2.FluidsPerByte=Bayt başına sıvı:
 gui.appliedenergistics2.BytesPerType=Tip başına bayt:
+gui.appliedenergistics2.SelectColor=Select a Color
+gui.appliedenergistics2.Selected=Selected
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -396,6 +413,8 @@ gui.tooltips.appliedenergistics2.Encode=Kalıbı Kodla
 gui.tooltips.appliedenergistics2.EncodeDescription=Girilmiş kalıbı zaten kodlanmış bir kalıba ya da boş bir kalıba yaz. Shift'e basılı tutarak direkt envanterine aktar. Shift+Ctrl'ye basılı tutarak tüm kümeyi kodla.
 
 gui.tooltips.appliedenergistics2.FuzzyMode=Bulanık Karşılaştırma
+gui.tooltips.appliedenergistics2.FZPercent_1=Split Damage at 1%
+gui.tooltips.appliedenergistics2.FZPercent_10=Split Damage at 10%
 gui.tooltips.appliedenergistics2.FZPercent_25=Hasarı 25%'de ayır
 gui.tooltips.appliedenergistics2.FZPercent_50=Hasarı 50%'de ayır
 gui.tooltips.appliedenergistics2.FZPercent_75=Hasarı 75%'de ayır
@@ -418,6 +437,7 @@ gui.tooltips.appliedenergistics2.NumberOfItems=Eşya Miktarı
 gui.tooltips.appliedenergistics2.ItemName=Eşya adı
 gui.tooltips.appliedenergistics2.PowerUnits=Güç Birimleri
 gui.tooltips.appliedenergistics2.IOMode=Giriş/Çıkış Modu
+gui.tooltips.appliedenergistics2.ExtractionMode=Extraction Mode
 gui.tooltips.appliedenergistics2.CondenserOutput=ME Yoğunlaştırıcısı - Çıkış
 gui.tooltips.appliedenergistics2.PartitionStorage=Depolamayı Biçimlendir
 gui.tooltips.appliedenergistics2.Clear=Temizle
@@ -432,6 +452,8 @@ gui.tooltips.appliedenergistics2.Singularity=Tekilliklere Yoğunlaştır\nEşya 
 gui.tooltips.appliedenergistics2.Read=Sadece Çıkış
 gui.tooltips.appliedenergistics2.Write=Sadece Giriş
 gui.tooltips.appliedenergistics2.ReadWrite=Çift Yönlü
+gui.tooltips.appliedenergistics2.Strict=Strict - Network sees only filtered items
+gui.tooltips.appliedenergistics2.Loose=Loose - Network sees everything
 
 gui.tooltips.appliedenergistics2.AlwaysActive=Her zaman aktif
 gui.tooltips.appliedenergistics2.ActiveWithoutSignal=Sinyal olmadan aktif
@@ -464,7 +486,7 @@ gui.tooltips.appliedenergistics2.CraftOnly=Stoklanan eşyaları kullanma, sadece
 gui.tooltips.appliedenergistics2.CraftEither=Dışa aktarırken depolanan eşyaları kullan ya da üret
 gui.tooltips.appliedenergistics2.LevelType=Seviye Tipi
 gui.tooltips.appliedenergistics2.LevelType_Energy=Enerji
-gui.tooltips.appliedenergistics2.LevelType_Item=Eşya
+gui.tooltips.appliedenergistics2.LevelType_Item_Fluid=Item / Fluid
 gui.tooltips.appliedenergistics2.InventoryTweaks=Inventory Tweaks
 gui.tooltips.appliedenergistics2.Mod=Mod
 gui.tooltips.appliedenergistics2.UsedPercent=Yüzde
@@ -657,6 +679,20 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Kızıltaş sinya
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Kızıltaş sinyali ile kilitli
 waila.appliedenergistics2.CraftingLockedUntilPulse=Açmak için kızıltaş atımı bekleniyor
 waila.appliedenergistics2.CraftingLockedUntilResult=Açmak için sonuçlar bekleniyor
+waila.appliedenergistics2.CoordinateX=X
+waila.appliedenergistics2.CoordinateY=Y
+waila.appliedenergistics2.CoordinateZ=Z
+waila.appliedenergistics2.Dimension=Dimension
+waila.appliedenergistics2.Id=id
+waila.appliedenergistics2.ConnectedTo=Connected to
+waila.appliedenergistics2.Disconnected=Disconnected
+waila.appliedenergistics2.Singularity=Singularity
+waila.appliedenergistics2.Provider=§5Provider§r
+waila.appliedenergistics2.Accessor=§5Accessor§r
+waila.appliedenergistics2.Waiting=Waiting:
+
+# Baubles Extended
+slot.Terminal=§aTerminal§7
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=§61k§r ME Depolama Hücresi
@@ -806,6 +842,7 @@ item.appliedenergistics2.ItemPart.InterfaceTerminal.name=ME Arayüz Terminali
 item.appliedenergistics2.ItemPart.InvertedToggleBus.name=ME Ters Anahtar Veriyolu
 item.appliedenergistics2.ItemPart.ToggleBus.name=ME Anahtar Veriyolu
 item.appliedenergistics2.ItemPart.CraftingMonitor.name=ME Üretim Monitörü
+item.appliedenergistics2.ItemPart.PatternRepeater.name=ME Pattern Repeater
 
 item.appliedenergistics2.ItemSpatialStorageCell.128Cubed.name=128³ Mekansal Depolama Hücresi
 item.appliedenergistics2.ItemSpatialStorageCell.16Cubed.name=128³ Mekansal Depolama Hücresi
@@ -921,3 +958,7 @@ stat.ae2.TurnedCranks=Döndürülen Kranklar
 key.appliedenergistics2.category=Applied Energistics 2
 key.toggle_focus.desc=Arama kutusu odağını değiştir
 key.search_connected_inventories.desc=Search network inventories for item
+key.control_operation.desc=Control operation
+
+# NEI
+nei.options.keys.gui.pattern_view=View Pattern

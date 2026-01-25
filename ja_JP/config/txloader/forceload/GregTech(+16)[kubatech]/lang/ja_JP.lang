@@ -2,6 +2,7 @@
 
 #RecipeMaps
 kubatech.defusioncrafter=Draconic Evolutionフュージョンクラフター
+kubatech.htgrrecipes=High Temperature Gas Reactor
 
 #NEI
 kubatech.defusioncrafter.tier=外装Tier: %s
@@ -76,6 +77,8 @@ kubatech.gui.text.status=状態
 kubatech.gui.text.operating=稼働中
 kubatech.gui.text.input=入力
 kubatech.gui.text.output=出力
+kubatech.gui.text.usage_line=消費量: %s EU/t
+kubatech.gui.text.time_line=時間: %s 秒
 kubatech.gui.text.eig.setup_mode=準備モード
 kubatech.gui.text.eig.disabled=無効
 kubatech.gui.text.eig.enabled=有効
@@ -148,6 +151,16 @@ kubatech.infodata.mia.running_mode.operating.normal=稼働モード (通常)
 kubatech.infodata.mia.running_mode.operating.swarmer=稼働モード (分蜂)
 kubatech.infodata.mia.running_mode.bee_storage=蜂の保持数 (%s/%s):
 
+#HTGR
+kubatech.infodata.htgr.stored_fuel=Stored Fuel:
+kubatech.infodata.htgr.stored_fuel_entry=§f- §b%s §fx §6%s
+kubatech.infodata.htgr.burned_fuel=Burned Fuel:
+kubatech.infodata.htgr.burned_fuel_entry=§f- §b%s §fx §6%s%% to output
+kubatech.infodata.htgr.helium_supply=Helium Supply: §6%sL
+kubatech.infodata.htgr.coolant_per_tick=Coolant per tick: §6%sL
+kubatech.infodata.htgr.water_per_tick=Water per tick: §6%sL
+kubatech.infodata.htgr.fuel_supply=Fill level %s out of %s
+
 #Waila
 kubatech.waila.eec.mob_type=モブの種類: %s
 kubatech.waila.eec.no_mob=なし
@@ -155,8 +168,8 @@ kubatech.waila.eec.ritual_mode_connected=儀式に接続済
 kubatech.waila.eec.ritual_mode_error=儀式に未接続！
 
 #Blocks
-kubablock.tea_acceptor.name=§4§l茶受容器
-kubablock.tea_storage.name=§4§l茶容量拡張器
+kubablock.tea_acceptor.name=§4§n茶受容器
+kubablock.tea_storage.name=§4§n茶容量拡張器
 
 #DEFC Casings
 defc.casing.name=フュージョン外装
@@ -171,6 +184,12 @@ kubaitem.defc_schematic_t1.tip=冥王星のダンジョンで見つかる
 kubaitem.defc_schematic_t2.name=ワイバーンコアの設計図
 kubaitem.defc_schematic_t3.name=覚醒コアの設計図
 kubaitem.defc_schematic_t4.name=カオスコアの設計図
+
+item.htgr_item.0.name=TRISO Fuel Mixture (%s)
+item.htgr_item.1.name=Incomplete BISO Fuel (%s)
+item.htgr_item.2.name=Incomplete TRISO Fuel (%s)
+item.htgr_item.3.name=TRISO Fuel (%s)
+item.htgr_item.4.name=Burned Out TRISO Fuel (%s)
 
 #Tea
 kubaitem.tea.black_tea.name=紅茶
@@ -200,16 +219,16 @@ kubaitem.teaingredient.partially_oxidized_tea_leaf.name=少し酸化させた茶
 #Legendary Tea collection
 kubaitem.teacollection=Turbo Legendary Secret Tea Collection
 kubaitem.teacollection.mmm=Mmmm Tea
-kubaitem.teacollection.black_tea.name=§6§lKubaの紅茶
-kubaitem.teacollection.butterfly_tea.name=§1§lKubaのバタフライピーティー
-kubaitem.teacollection.earl_gray_tea.name=§6§lKubaのアールグレイ
-kubaitem.teacollection.green_tea.name=§2§lKubaの緑茶
-kubaitem.teacollection.lemon_tea.name=§e§lKubaのレモンティー
-kubaitem.teacollection.milk_tea.name=§f§lKubaのミルクティー
-kubaitem.teacollection.oolong_tea.name=§e§lKubaの烏龍茶
-kubaitem.teacollection.peppermint_tea.name=§a§lKubaのペパーミントティー
-kubaitem.teacollection.pu-erh_tea.name=§4§lKubaのプーアル茶
-kubaitem.teacollection.red_tea.name=§c§lKubaのハイビスカスティー
+kubaitem.teacollection.black_tea.name=§6§nKubaの紅茶
+kubaitem.teacollection.butterfly_tea.name=§1§nKubaのバタフライピーティー
+kubaitem.teacollection.earl_gray_tea.name=§6§nKubaのアールグレイ
+kubaitem.teacollection.green_tea.name=§2§nKubaの緑茶
+kubaitem.teacollection.lemon_tea.name=§e§nKubaのレモンティー
+kubaitem.teacollection.milk_tea.name=§f§n§lKuba§rのミルクティー
+kubaitem.teacollection.oolong_tea.name=§e§nKubaの烏龍茶
+kubaitem.teacollection.peppermint_tea.name=§a§nKubaのペパーミントティー
+kubaitem.teacollection.pu-erh_tea.name=§4§nKubaのプーアル茶
+kubaitem.teacollection.red_tea.name=§c§nKubaのハイビスカスティー
 kubaitem.teacollection.white_tea.name=§e§lKubaの白茶
 kubaitem.teacollection.yellow_tea.name=§6§lKubaの黄茶
 kubaitem.teacollection.ultimate_tea.name=§6§lKubaの%s§6§l茶
@@ -243,13 +262,13 @@ achievement.teacollection.pu-erh_tea.desc=§4消化に良いが、土みたい�
 achievement.teacollection.red_tea.desc=§cなんでこんなもの飲むんだ？
 achievement.teacollection.white_tea.desc=§e最も健康的
 achievement.teacollection.yellow_tea.desc=§6より草っぽい風味の緑茶
-achievement.teacollection.ultimate_tea.desc=§4§lこれ一杯で全部飲める
+achievement.teacollection.ultimate_tea.desc=§4§nこれ一杯で全部飲める
 
 #Thaumcraft
 tc.research_category.KUBATECH=§lCamellia sinensis
-tc.research_name.KT_UltimateTea=%s§6§l茶
-tc.research_text.KT_UltimateTea=§4§l純粋な力
-KT.research.ultimatetea=全ての茶を純粋な力へと変換し%s§6§l茶を生み出す方法を発見した。
+tc.research_name.KT_UltimateTea=%s§6§n茶
+tc.research_text.KT_UltimateTea=§4§n純粋な力
+KT.research.ultimatetea=全ての茶を純粋な力へと変換し%s§6§n茶を生み出す方法を発見した。
 
 #Tooltip
 kubatech.tooltip.tea=お茶
@@ -259,3 +278,5 @@ kubatech.tooltip.tea_storage.0=お茶の保管数を%s拡張
 kubatech.tooltip.tea_ingredient.0=お茶の材料
 
 kubatech.tooltip.structure.flowers=花
+
+kubatech.tooltip.htgr_material=Material for High Temperature Gas-cooled Reactor

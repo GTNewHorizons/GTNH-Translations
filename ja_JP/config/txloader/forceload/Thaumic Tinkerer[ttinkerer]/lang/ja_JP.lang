@@ -78,8 +78,8 @@ ttmisc.noTeleport=The Celestial Gateway in the destination does not accept incom
 # ITEM NAMES
 item.darkQuartzItem.name=黒ずんだクォーツ
 item.connector.name=トランスベクター結合器
-item.gaseousLightItem.name=気化したイルミナ
-item.gaseousShadowItem.name=気化したテネブライ
+item.gaseousLightItem.name=気化したイルミナエ
+item.gaseousShadowItem.name=気化したテネブラエ
 item.gasRemover.name=消煙器
 item.spellCloth.name=魅惑的な布
 item.focusFlight.name=蜂起の杖星
@@ -215,69 +215,69 @@ item.Wand.ICHORCLOTH.rod=イコルの織り込まれたシルバーウッドの
 # RESEARCH
 ttresearch.prefix=[TT]
 ttresearch.prefix.kami=[TTKami]
-tc.research_category.TT_ENCHANTING=Enchanting
+tc.research_category.TT_ENCHANTING=エンチャント
 tc.research_category.TT_CATEGORY=Thaumic Tinkering
 
 # -- COMPUTERCRAFT PERIPHERALS
-ttresearch.name.PERIPHERALS=Computercraft Peripherals
-ttresearch.lore.PERIPHERALS=When technology meets magic
-ttresearch.page.PERIPHERALS.0=Thaumic Tinkerer allows for some of the blocks that it adds, alongside some vanilla Thaumcraft blocks, to be used as ComputerCraft peripherals.<BR><BR>For convenience sake, the method documentation for these peripherals is in an external webpage. Pressing ENTER right now will take you to it.<BR><BR>Sadly, this does not work on some systems. If that is the case, type in "vazkii.us/tt/docs.php" in your browser.
+ttresearch.name.PERIPHERALS=Computercraft周辺機器
+ttresearch.lore.PERIPHERALS=魔法と科学が出会うとき
+ttresearch.page.PERIPHERALS.0=Thaumic Tinkererでは、ComputerCraftの周辺機器としてThaumcraftの一部ブロックと共に使用するブロックを追加している。<BR><BR>便宜上、これらの機器の取り扱い方については、外部リンクでドキュメントを用意している。ここでEnterキーを押すとページが開く。<BR><BR>残念ながら、これは一部のシステムにおいて機能しない。ページが開かなかった場合は、Webブラウザで"vazkii.us/tt/docs.php"と入力すること。
 # Note: For people who localize the mod. If you have custom documentation, feel free to include in your PR a
 # link to it and the short URL (see above) you want for it on my website and I'll add it.
 ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
 ttcomputer.dissipator=Dissipating
 # -- ASPECT ANALYZER
-ttresearch.name.ASPECT_ANALYZER=Aspectalyzer
-ttresearch.lore.ASPECT_ANALYZER=Computerized Scanning
-ttresearch.page.ASPECT_ANALYZER.0=You created a device that allows Computers to know what aspects an item has.<BR><BR>This block acts like a normal inventory, any items in it can be scanned by use of a Computer. Visit the peripheral documentation entry for more info.
+ttresearch.name.ASPECT_ANALYZER=アスペクタライザー
+ttresearch.lore.ASPECT_ANALYZER=調査をコンピューター処理
+ttresearch.page.ASPECT_ANALYZER.0=アイテムが持つ相をコンピューターが感知できるようにする装置を生み出した。<BR><BR>インベントリを持つ普通のブロックと同様に機能し、コンピューターを使ってその中にあるアイテムを調査できる。詳細はComputerCraft周辺機器についてのドキュメントを参照のこと。
 
 # -- SMOKEY QUARTZ
 ttresearch.name.DARK_QUARTZ=黒ずんだクォーツ
-ttresearch.lore.DARK_QUARTZ=Shadow of the Day
-ttresearch.page.DARK_QUARTZ.0=Smokey Quartz is pretty much Quartz, but negative. All regular blocks that can be made with quartz, can also be made with smokey quartz, and they look black.<BR><BR>Smokey Quartz itself can be made with a piece of coal or charcoal for tinting, and a few pieces of regular nether quartz.
+ttresearch.lore.DARK_QUARTZ=シャドウ・オブ・ザ・デイ
+ttresearch.page.DARK_QUARTZ.0=黒ずんだクォーツはほとんどクォーツと同じだが、色が反転している。ネザークォーツで作れるブロックはすべて黒ずんだクォーツでも作ることができ、元のブロックを黒くした見た目をしている。<BR><BR>黒ずんだクォーツ自体は、色付けのための石炭または木炭ひとかけらと、いくつかのネザークォーツで作成可能である。
 
 # -- TOME OF KNOWLEDGE SHARING
-ttresearch.name.SHARE_TOME=Tome of Knowledge Sharing
-ttresearch.lore.SHARE_TOME=Published research for peer review
-ttresearch.page.SHARE_TOME.0=If one day you happen to want to share your knowledge with the rest of the world, this is the item for you.<BR><BR>By simply right clicking on this tome and handing it to someone else, they'll get all the research you've discovered so far.<BR><BR>(Note: Case there being no recipe on the right of this, the recipe is disabled and the item is creative only)
+ttresearch.name.SHARE_TOME=知識共有の書
+ttresearch.lore.SHARE_TOME=査読付き研究
+ttresearch.page.SHARE_TOME.0=もしある日突然、世界中に自らの知識を共有したくなったなら、このアイテムがぴったりだ。<BR><BR>この書を右クリックしてから他者に手渡せば、自分がこれまで発見したすべての研究を共有することができる。<BR><BR>(メモ:右ページにレシピが表示されていない場合、レシピが無効化されている。すなわちクリエイティブ専用アイテムということになる。)
 
 # -- TRANSVECTOR INTERFACE
-ttresearch.name.INTERFACE=Transvector Interface
-ttresearch.lore.INTERFACE=Extended possibilities
-ttresearch.page.INTERFACE.0=The thing is, there's only six sides to a block..." - Direwolf20<BR><BR>Myth = Busted! Your latest construct can be bound to a block in the nearby vicinity. Its sides will mimic the sides of the block selected, and it'll function as an extension. It can accept BuildCraft, TE3 and IC2 power, essentia, items, and liquids, being able to also export the latter two.<BR>[continued]
-ttresearch.page.INTERFACE.1=In order to bind an interface to another block, you need to create a special tool to do so. What you call the Transvector Binder should get the job done.<BR><BR>By simply right clicking on the interface followed by right clicking on the target, these two get bound and ready for operation. The limit is short, only 4 blocks. (Note: buildcraft pipes need to be broken and replaced to work)
-ttresearch.page.INTERFACE.2=It's also possible, by right clicking this block with any other to camouflage it as the block held. To remove to cover, simply right click on the camouflaged block with an empty hand.
+ttresearch.name.INTERFACE=トランスベクターインターフェース
+ttresearch.lore.INTERFACE=可能性の拡張
+ttresearch.page.INTERFACE.0=問題は、ブロックには6つしか面がないってこと..." - Direwolf20<BR><BR>常識は覆された！この新たな構造体は、付近にあるブロックに紐づけることができる。するとこのブロックの側面は指定したブロックの面を模倣し、拡張のように機能する。このブロックにはBuildCraft・TE3・IC2のエネルギー、エッセンシア、アイテム、液体を入力することが可能で、最後の2つに関しては出力も可能である。<BR>[続く]
+ttresearch.page.INTERFACE.1=インターフェースをブロックに紐づけるには、特別なツールを作る必要がある。トランスベクター結合器と呼ばれるものがその役割を果たすはずだ。<BR><BR>インターフェースを右クリックした後で紐づけたい対象を右クリックするとこの2つは紐づけられ、準備完了となる。ただし距離の制限はたったの4ブロックと短い。(メモ:BuildCraftのパイプを使う場合、正しく機能させるにはパイプを再設置する必要がある。)
+ttresearch.page.INTERFACE.2=また、別のブロックで右クリックすることでカモフラージュも可能である。この"カバー"を取り除きたい場合、カモフラージュしたブロックを素手で右クリックすればいい。
 
 # -- GOLEM CONNECTOR
-ttresearch.name.GOLEM_CONNECTOR=Golem Connector
-ttresearch.lore.GOLEM_CONNECTOR=No Golemic mind control involved. Honest!
-ttresearch.page.GOLEM_CONNECTOR.0=By exploring what you can do with motion, tools, and a little bit of order, you have discovered how to make those golems just a tiny bit more obedient! You discover a block, that when you place a computer by it, can read the mind of golems nearby, and 'convince' them to do as the computer asks
-ttresearch.page.GOLEM_CONNECTOR.1=In order to bind a Connector to a golem, you need to create a special tool to do so. What you call the Transvector Binder should get the job done.<BR><BR>By simply right clicking on the Connector followed by shift-right clicking on the target golem, these two get bound and ready for operation. The limit is quite long, 30 blocks away!
-ttresearch.page.GOLEM_CONNECTOR.2=It's also possible, by right clicking this block with any other to camouflage it as the block held. To remove to cover, simply right click on the camouflaged block with an empty hand.
-ttresearch.page.GOLEM_CONNECTOR.3=<BR><BR>For convenience sake, the method documentation for this block is in an external webpage. Pressing ENTER right now will take you to it.<BR><BR>Sadly, this does not work on some systems. If that is the case, type in "vazkii.us/tt/docs.php" in your browser.
+ttresearch.name.GOLEM_CONNECTOR=ゴーレム接続器
+ttresearch.lore.GOLEM_CONNECTOR=ゴーレムのマインドコントロールには関係ありません。本当だよ！
+ttresearch.page.GOLEM_CONNECTOR.0=運動、道具、それから秩序の相少しを使ってできることを模索し、ゴーレムたちをもうほんの少しだけ従順にする方法を発見した！コンピューターをこのブロックの隣に設置すると、付近にいるゴーレムの思考を読み、コンピューターが指示した通りに動くよう「説得」することができるのだ。
+ttresearch.page.GOLEM_CONNECTOR.1=接続器をゴーレムに紐づけるには、特別なツールを作る必要がある。トランスベクター結合器と呼ばれるものがその役割を果たすはずだ。<BR><BR>接続器を右クリックした後で紐づけたい対象のゴーレムを右クリックするとこの2つは紐づけられ、準備完了となる。距離の制限は30ブロックと非常に長い！
+ttresearch.page.GOLEM_CONNECTOR.2=また、別のブロックで右クリックすることでカモフラージュも可能である。この"カバー"を取り除きたい場合、カモフラージュしたブロックを素手で右クリックすればいい。
+ttresearch.page.GOLEM_CONNECTOR.3=便宜上、このブロックの取り扱い方については、外部リンクでドキュメントを用意している。ここでEnterキーを押すとページが開く。<BR><BR>残念ながら、これは一部のシステムにおいて機能しない。ページが開かなかった場合は、Webブラウザで"vazkii.us/tt/docs.php"と入力すること。
 # Note: For people who localize the mod. If you have custom documentation, feel free to include in your PR a
 # link to it and the short URL (see above) you want for it on my website and I'll add it.
 ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
 
 # -- GASEOUS ILLUMINAE
-ttresearch.name.GASEOUS_LIGHT=Gaseous Illuminae
-ttresearch.lore.GASEOUS_LIGHT=Bright out of sight
-ttresearch.page.GASEOUS_LIGHT.0=You have studied the intricacies of the light, and found out a way to create completely invisible light by infusing a phial with the raw light.<BR><BR>This phial contains a concentrated extract of Gaseous Illuminae, that can be released through a right click, and will spread relatively fast in the nearby area, lighting it up.
+ttresearch.name.GASEOUS_LIGHT=気化したイルミナエ
+ttresearch.lore.GASEOUS_LIGHT=あかるい視界を
+ttresearch.page.GASEOUS_LIGHT.0=光の複雑な仕組みを研究し、薬瓶に原体の光を注入することで完全に不可視の光を生み出す方法を発見した。<BR><BR>この薬瓶には気化したイルミナエの抽出物が濃縮されたものが入っており、右クリックで放出することで付近に比較的素早く拡散し、辺りを照らす。
 
 # -- GASEOUS TENEBRAE
-ttresearch.name.GASEOUS_SHADOW=Gaseous Tenebrae
-ttresearch.lore.GASEOUS_SHADOW=Hidden shadows
-ttresearch.page.GASEOUS_SHADOW.0=You have studied the intricacies of the Shadow, and found out a way to create gaseous darkness by infusing a phial with the raw shadow.<BR><BR>This phial contains a concentrated extract of Gaseous Tenebrae, that can be released through a right click, and will spread relatively fast in the nearby area, darkening it.
+ttresearch.name.GASEOUS_SHADOW=気化したテネブラエ
+ttresearch.lore.GASEOUS_SHADOW=隠された影
+ttresearch.page.GASEOUS_SHADOW.0=影の複雑な仕組みを研究し、薬瓶に原体の影を注入することで気化した暗闇を生み出す方法を発見した。<BR><BR>この薬瓶には気化したテネブラエの抽出物が濃縮されたものが入っており、右クリックで放出することで付近に比較的素早く拡散し、辺りを暗くする。
 
 # -- FUME DISSIPATOR
-ttresearch.name.GAS_REMOVER=Fume Dissipator
-ttresearch.lore.GAS_REMOVER=HAZMAT cleanup
-ttresearch.page.GAS_REMOVER.0=After knowing both the Gaseous Illuminae and Tenebrae, you are thinking it's becoming a hassle to get rid of it. With this item, by shift-right clicking on it, all the nearby gas will get dissipated.
+ttresearch.name.GAS_REMOVER=消煙器
+ttresearch.lore.GAS_REMOVER=危険物除去
+ttresearch.page.GAS_REMOVER.0=気化したイルミナエとテネブラエについて知ったのはいいものの、その光や影の除去が面倒事になりつつあると思えてきた。そこでこのアイテムを持ってShift右クリックすれば、周囲の気体はすべて消散する。
 
 # -- SPELLBINDING CLOTH
-ttresearch.name.SPELL_CLOTH=Spellbinding Cloth
-ttresearch.lore.SPELL_CLOTH=Enchanted erasor
-ttresearch.page.SPELL_CLOTH.0=By mixing some Enchanted Fabric with raw magic power, you created a cloth that can be rubbed on an item to wipe it of its enchantments by combining them in a Crafting Recipe.
+ttresearch.name.SPELL_CLOTH=呪文が織られた布
+ttresearch.lore.SPELL_CLOTH=エンチャント消しゴム
+ttresearch.page.SPELL_CLOTH.0=魔力の込められた布と魔力そのものを混ぜ合わせることにより、作業台上でアイテムをこするとそのエンチャントを拭き取れる布を生み出した。
 
 # -- DYNAMISM TABLET
 ttresearch.name.ANIMATION_TABLET=Dynamism Tablet
@@ -491,7 +491,7 @@ ttresearch.lore.ROD_ICHORCLOTH=That's a mouthful
 ttresearch.page.ROD_ICHORCLOTH.0=You have done it. By infusing a silverwood wand core with Ichorcloth, you managed to create the ultimate wand core.<BR><BR>This core holds an insane amount of 1000 of each type of vis. This will definitely make crafting expensive components a bit less stressful. Now the question lies, where will you get all the vis for this?
 
 # -- ICHORIUM WAND CAPS
-ttresearch.name.CAP_ICHOR=Ichorium Wand Caps
+ttresearch.name.CAP_ICHOR=イコリウムの石突
 ttresearch.lore.CAP_ICHOR=Somewhat like a Steam Sale
 ttresearch.page.CAP_ICHOR.0=You have put Ichorium to its first ever use, by devising wand caps that give you a 30% discount on everything. Now you need to actually put this to any use and create a wand that can store more vis.
 
@@ -527,12 +527,12 @@ ttresearch.lore.CAT_AMULET=Like black cats on a bad day
 ttresearch.page.CAT_AMULET.0=It didn't take you long to come to the conclusion that you hated all those times a creeper snuck up on you.<BR><BR>To that end, using the knowledge you have that creepers run away from cats, you have devised an amulet that by simply being carried on you makes all creepers run in fear of your presence. Not only that, but they'll be petrified to the point of not gathering enough stoke to explode. Great. It must be worn in your amulet slot to take effect.
 
 # -- ICHORIUM TOOLS
-ttresearch.name.ICHOR_TOOLS=Ichorium Tools
+ttresearch.name.ICHOR_TOOLS=イコリウムの道具
 ttresearch.lore.ICHOR_TOOLS=Pinacle of design
 ttresearch.page.ICHOR_TOOLS.0=You discovered how to create tools out of Ichorium. These tools are extremely powerful, even more so than diamond, furthermore, they never break.<BR><BR>For the creation of these tools, mundane sticks aren't enough, you decided to use Silverwood rods in replacement.
 
 # -- AWAKENED ICHORIUM PICKAXE
-ttresearch.name.ICHOR_PICK_GEM=Awakened Ichorium Pickaxe
+ttresearch.name.ICHOR_PICK_GEM=覚醒したイコリウムのツルハシ
 ttresearch.lore.ICHOR_PICK_GEM=Who needs a quarry?
 ttresearch.page.ICHOR_PICK_GEM.0=You awakened the real potential of an Ichorium Pickaxe. This pickaxe contains all the traits from the regular one, however, by shift right clicking on it, you can change what mode it's on.<BR><BR>On Block Mode (Green) it'll break blocks normally.<BR><BR>On Square Mode (Red) it'll break a 5x5 area around the original block broken. The area is offset, to allow for easy mining<BR><BR>On Line Mode (Blue)
 ttresearch.page.ICHOR_PICK_GEM.1=It'll break a 10 block long line starting on the original block. It can also break bedrock, taking you deeper into the the heart of the earth. You believe digging there might prove to be more fruitful.
@@ -549,7 +549,7 @@ ttresearch.lore.ICHOR_AXE_GEM=A real nice feller
 ttresearch.page.ICHOR_AXE_GEM.0=You awakened the real potential of an Ichorium Axe. This axe contains all the traits from the regular one, however, by shift right clicking on it, you can change what mode it's on.<BR><BR>On Block Mode (Green) it'll break blocks normally.<BR><BR>On Square Mode (Red) it'll break a 5x5 area around the original block broken.<BR><BR>On Tree Mode (Blue) it'll break entire trees by simply cutting down one of their blocks.<BR><BR>This axe is also extremely proficient at cutting plant life.
 
 # -- AWAKENED ICHORIUM SWORD
-ttresearch.name.ICHOR_SWORD_GEM=Awakened Ichorium Sword
+ttresearch.name.ICHOR_SWORD_GEM=覚醒したイコリウムの剣
 ttresearch.lore.ICHOR_SWORD_GEM=An elegant weapon from a more civilised age
 ttresearch.page.ICHOR_SWORD_GEM.0=You awakened the real potential of an Ichorium Sword. This sword contains all the traits from the regular one, however, by shift right clicking on it, you can change what mode it's on.<BR><BR>On Single Mode (Green) it'll attack mobs normally.<BR><BR>On Area Mode (Red) it'll attack all mobs of the same type in a 3 block radius of the attacked one.<BR><BR>On Soul Mode (Blue) it'll deal less damage than normally, but every hit will bless the attacker with a Soul Heart.<BR>[continued]
 ttresearch.page.ICHOR_SWORD_GEM.1=Soul Hearts are hearts that can only be used once. They show up as metallic hearts below your food bar, when existent. They block damage their wielder would take, but disappear in the process.

@@ -10,7 +10,7 @@ wailaplugins.config.section.plugins=グローバルプラグイン設定
 
 ## Blood Magic ##
 
-wp.hud.msg.currentLP=Current LP: 
+wp.hud.msg.currentLP=現在のLP: 
 wp.hud.msg.capacity=容量: 
 wp.hud.msg.tier=Tier: 
 wp.hud.msg.progress=進捗状況: 
@@ -37,15 +37,15 @@ wp.config.Steamcraft.valve=Show Valve
 
 ## Forestry ##
 
-wp.hud.msg.notAnalyzed=Not Analyzed
-wp.hud.msg.notOwner=Not Owned by You
-wp.hud.msg.pollen=Pollen Name: %s
-wp.hud.msg.pollinated=Pollinated With: %s
+wp.hud.msg.notAnalyzed=未分析
+wp.hud.msg.notOwner=所有権なし
+wp.hud.msg.pollen=花粉名: %s
+wp.hud.msg.pollinated=受粉対象: %s
 
 wp.hud.msg.mainbee=Current %s: %s
-wp.hud.msg.secondarybee=Breeding %s: %s
+wp.hud.msg.secondarybee=交配用の%s: %s
 wp.hud.msg.breedProgress=進捗状況: 
-wp.hud.msg.breedError=Error: %s
+wp.hud.msg.breedError=エラー: %s
 
 wp.hud.msg.effectiveProductionMul=Effective Production: %s
 wp.hud.msg.revealYield=Hold Shift for expected Jubilant yields
@@ -53,27 +53,27 @@ wp.hud.msg.yieldPerHour=per hour
 wp.hud.msg.isJubilant=Is Jubilant
 wp.hud.msg.isNotJubilant=Is not Jubilant
 
-wp.hud.msg.queen=Queen
-wp.hud.msg.princess=Princess
-wp.hud.msg.drone=Drone
+wp.hud.msg.queen=女王蜂
+wp.hud.msg.princess=王女蜂
+wp.hud.msg.drone=雄蜂
 
-wp.hud.msg.engineHeat=Heat: %s
+wp.hud.msg.engineHeat=熱: %s
 
-wp.config.Forestry.apiary=Show Apiary
-wp.config.Forestry.heat=Show Engine Heat
-wp.config.Forestry.leaves=Show Leaves
-wp.config.Forestry.power=Show Engine Power
-wp.config.Forestry.sapling=Show Sapling
+wp.config.Forestry.apiary=養蜂箱の情報を表示
+wp.config.Forestry.heat=エンジンの熱を表示
+wp.config.Forestry.leaves=葉の情報を表示
+wp.config.Forestry.power=エンジンの出力を表示
+wp.config.Forestry.sapling=苗木の情報を表示
 
 
 ## Gregtech 5U
 
 wp.config.Gregtech5U.fluidFilter=液体フィルターの情報を表示
-wp.config.Gregtech5U.transformer=Show Transformer
-wp.config.Gregtech5U.solar=Show Solar Calcification
-wp.config.Gregtech5U.machineFacing=Show Machine Facing
-wp.config.Gregtech5U.multiblock=Show Multiblock Info
-wp.config.Gregtech5U.basicmachine=Show Basicmachine Info
+wp.config.Gregtech5U.transformer=変圧器の情報を表示
+wp.config.Gregtech5U.solar=ソーラーボイラーの石灰化を表示
+wp.config.Gregtech5U.machineFacing=機械の方向を表示
+wp.config.Gregtech5U.multiblock=マルチブロックの情報を表示
+wp.config.Gregtech5U.basicmachine=機械の基本情報を表示
 
 ## IC2 Crops
 
@@ -125,35 +125,35 @@ wp.config.Railcraft.tanks=機械の液体量を表示
 
 ## RedLogic ##
 
-wp.config.RedLogic.overlay=Show Gate Overlay
-wp.config.RedLogic.data=Show Gate Data
-wp.config.RedLogic.strength=Show Wire Strength
+wp.config.RedLogic.overlay=ゲートのオーバーレイを表示
+wp.config.RedLogic.data=ゲートのデータを表示
+wp.config.RedLogic.strength=赤合金ワイヤーの信号強度を表示
 
 # Flippable
-wp.hud.msg.flipped=Flipped: %s
+wp.hud.msg.flipped=フリップ: %s
 
 # Repeater
-wp.hud.msg.delay=Delay: %d
+wp.hud.msg.delay=遅延: %d
 
 # TimedGateLogic
-wp.hud.msg.interval=Interval: %s
+wp.hud.msg.interval=間隔: %s
 
 # Timer
-wp.hud.msg.currentTime=Time: %s
+wp.hud.msg.currentTime=時間: %s
 
 # Counter
-wp.hud.msg.count=Count: %d
-wp.hud.msg.countMax=Max Count: %d
+wp.hud.msg.count=回数: %d
+wp.hud.msg.countMax=最大回数: %d
 wp.hud.msg.incrAmnt=Increment: %d
 wp.hud.msg.decrAmnt=Decrement: %d
 
 # Comparator
-wp.hud.msg.mode=Mode: %s
-wp.hud.msg.subtract=Subtract
-wp.hud.msg.compare=Compare
+wp.hud.msg.mode=モード: %s
+wp.hud.msg.subtract=減算
+wp.hud.msg.compare=比較
 
 # Red Alloy Wire
-wp.hud.msg.strength=Strength: %s
+wp.hud.msg.strength=強度: %s
 
 ## Resourceful Crops ##
 wp.config.ResourcefulCrops.showHover=Show Hovering Item

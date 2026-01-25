@@ -140,9 +140,7 @@ tooltip.bw.tier.name=Тир:
 tooltip.bw.empty.name=Пусто
 tooltip.bw.mb_via.name=%s§7 через §2BartWorks
 
-tooltip.bw.high_temp_gas_cooled_reactor.material=Материал для высокотемпературного газоохлаждаемого реактора
-
-tooltip.bw.item.circuit.tagged=a circuit
+tooltip.bw.item.circuit.tagged=электросхема
 tooltip.bw.item.circuit.tagged.imprint=Шаблон: %s
 tooltip.bw.item.circuit.tagged.sliced=Нарезанная %s
 tooltip.bw.item.circuit.imprint=Шаблон электросхемы
@@ -207,14 +205,14 @@ bw.recipe.htgr=Высокотемпературный газоохлаждаем
 nei.biovat.0.name=Нужен тир стекла: %s
 nei.biovat.1.name=Нужно точное зиверт: %s Sv
 nei.biovat.2.name=Нужно мин. зиверт: %s Sv
-nei.biovat.input.tooltip=Потребляет до 1,001x количества в зависимости от объёма выхода
+nei.biovat.input.tooltip=Расходуется до 1,001 x количество, в зависимости от объёма выхода
 nei.biovat.output.tooltip=Выдаёт до 1,001x количества в зависимости от объёма жидкости в Выходном шлюзе
 
 tile.diode.name=Кабельный диод
 tile.energydistributor.name=Распределитель энергии
 tile.acidgenerator.name=Кислотный генератор
 tile.bw.mbf.name=Мега электрическая доменная печь
-tile.bw.mvf.name=Мега вакуумный холодильник
+tile.bw.mvf.name=Мега вакуумный морозильник
 tile.biolab.name=Биолаборатория
 tile.biovat.name=Бактериальный чан
 tile.radiohatch.name=Радио шлюз
@@ -246,21 +244,11 @@ BW.infoData.BioVat.production=Производство
 BW.infoData.htr.helium_level=Уровень гелия: %sЛ / %sЛ
 BW.infoData.htr.problems=Проблемы: %s
 
-BW.infoData.htgr.mode=Режим: %s
-BW.infoData.htgr.mode.emptying=Опустошение
-BW.infoData.htgr.mode.normal=Обычный
-BW.infoData.htgr.progress=Прогресс: %sс / %sс
-BW.infoData.htgr.fuel_type=Тип топлива: %s
-BW.infoData.htgr.fuel_type.none=НЕТ
-BW.infoData.htgr.fuel_type.triso=TRISO (%s)
-BW.infoData.htgr.fuel_amount=Количество топлива: %s шт.
-BW.infoData.htgr.coolant=Хладагент: %sЛ/с
-
 BW.infoData.thtr.progress=Прогресс: %sсек / %sсек
 BW.infoData.thtr.triso_pebbles=Пеллеты TRISO: %sшт. / %sшт.
 BW.infoData.thtr.coolant=Хладагент/t: %sЛ/t
 
-BW.infoData.wind_mill.progress=Progress: %d Grindings of %d needed Grindings
+BW.infoData.wind_mill.progress=Прогресс: %d измельчает от %d нужного измельчения
 BW.infoData.wind_mill.grind_power=Мощность измельчения: %dKU/t
 
 BW.infoData.mega_vacuum_freezer.tier=Тир: %d
@@ -288,3 +276,9 @@ BW.gui.text.lesu.max=МАКС.: %s
 BW.gui.text.lesu.max_in=МАКС. ВВОД EU/t: %s
 BW.gui.text.lesu.eu_out=ВЫВОД EU/t: %s
 BW.gui.text.lesu.amp_io=ВВОД/ВЫВОД В СРЕДНЕМ/t: %s
+
+# chat
+BW.chat.thtr.cannot_change_mode=THTR mode cannot be changed while the machine is running.
+BW.chat.thtr.running_in.emptying=THTR is now running in emptying mode.
+BW.chat.thtr.running_in.normal=THTR is now running in normal Operation.
+BW.chat.diode.max_amps=Макс. амп: %s

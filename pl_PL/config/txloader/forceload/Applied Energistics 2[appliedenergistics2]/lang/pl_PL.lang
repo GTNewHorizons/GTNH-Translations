@@ -137,6 +137,8 @@ chat.appliedenergistics2.MachineHighlighted=The %d is now highlighted at %d, %d,
 chat.appliedenergistics2.MachineHighlightedNamed=The %d "%d" is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageHighlighted=The %d containing %d %d is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d containing %d %d is located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.PatternRepeaterProvider=§5Provider§r - will provide pattern to current system from in front §5Accessor§r.
+chat.appliedenergistics2.PatternRepeaterAccessor=§5Accessor§r - will provide pattern to in front §5Provider§r.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -230,6 +232,9 @@ gui.appliedenergistics2.IOBuses=Magistrala Importu/Eksportu ME
 gui.appliedenergistics2.Stores=Przechowuje
 gui.appliedenergistics2.BytesUsed=Wykorzystane bajty
 gui.appliedenergistics2.TimeUsed=Time Used
+gui.appliedenergistics2.CraftName=Craft Name
+gui.appliedenergistics2.Remains=Remains
+gui.appliedenergistics2.Progress=Progress
 gui.appliedenergistics2.Types=Typy
 gui.appliedenergistics2.Blank=Pusty
 gui.appliedenergistics2.Unlinked=Niepołączone
@@ -243,6 +248,7 @@ gui.appliedenergistics2.MolecularAssembler=Asembler Molekularny
 gui.appliedenergistics2.ProcessingPattern=Zaawansowany Wzorzec
 gui.appliedenergistics2.Crafts=Wytwarza
 gui.appliedenergistics2.HoldShift=Przytrzymaj[LSHIFT] Żeby Pokazać Składniki
+gui.appliedenergistics2.PatternView=Press [%s] to view pattern
 gui.appliedenergistics2.Result=Wynik
 gui.appliedenergistics2.Results=Wyniki
 gui.appliedenergistics2.Ingredients=Składniki
@@ -340,8 +346,17 @@ gui.appliedenergistics2.HoldShiftClick_HIGHLIGHT_INTERFACE=Przytrzymaj przycisk 
 gui.appliedenergistics2.Nothing=Nic
 gui.appliedenergistics2.VoidCellTooltip=Usuwa §4wszystko§7 zapisane na nim
 gui.appliedenergistics2.CellView=Cell View
+gui.appliedenergistics2.Inputs=Inputs
+gui.appliedenergistics2.Outputs=Outputs
+gui.appliedenergistics2.EncodedPattern=Encoded Pattern
 gui.appliedenergistics2.Deprecated=Przestarzałe, zostanie wkrótce usunięte!
 gui.appliedenergistics2.ViewCellToggleKey=Right-click to toggle
+gui.appliedenergistics2.CPUAllowMode=Accept request
+gui.appliedenergistics2.CPUAllowAll=All
+gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Only from non-player
+gui.appliedenergistics2.CPUOnlyAllowPlayer=Only from player
+gui.appliedenergistics2.CPUSourcePlayer=Requester
+gui.appliedenergistics2.CPUSourceMachineRequested=Machine Requested
 
 gui.appliedenergistics2.NetworkBytesDetails=Szczegóły Dotyczące Bajtów Sieci
 gui.appliedenergistics2.Items=Przedmioty
@@ -366,6 +381,8 @@ gui.appliedenergistics2.NumberOfFluids=Ilość Płynów
 gui.appliedenergistics2.ItemsPerByte=Przedmiotów na bajt:
 gui.appliedenergistics2.FluidsPerByte=Płynów na bajt:
 gui.appliedenergistics2.BytesPerType=Bajtów na typ:
+gui.appliedenergistics2.SelectColor=Select a Color
+gui.appliedenergistics2.Selected=Selected
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -396,6 +413,8 @@ gui.tooltips.appliedenergistics2.Encode=Koduj Wzorzec
 gui.tooltips.appliedenergistics2.EncodeDescription=Zapisanie wprowadzonego wzorca do bieżącego zakodowanego wzorca lub do dostępnego pustego wzorca. Przytrzymaj Shift, aby przenieść bezpośrednio do ekwipunku. Przytrzymaj Shift+Control, aby zakodować cały stos
 
 gui.tooltips.appliedenergistics2.FuzzyMode=Porównanie Rozmyte
+gui.tooltips.appliedenergistics2.FZPercent_1=Split Damage at 1%
+gui.tooltips.appliedenergistics2.FZPercent_10=Split Damage at 10%
 gui.tooltips.appliedenergistics2.FZPercent_25=Podział Obrażeń przy 25%
 gui.tooltips.appliedenergistics2.FZPercent_50=Podział Obrażeń przy 50%
 gui.tooltips.appliedenergistics2.FZPercent_75=Podział Obrażeń przy 75%
@@ -418,6 +437,7 @@ gui.tooltips.appliedenergistics2.NumberOfItems=Ilość przedmiotów
 gui.tooltips.appliedenergistics2.ItemName=Nazwa przedmiotu
 gui.tooltips.appliedenergistics2.PowerUnits=Jednostki Mocy
 gui.tooltips.appliedenergistics2.IOMode=Tryb Wejścia/Wyjścia
+gui.tooltips.appliedenergistics2.ExtractionMode=Extraction Mode
 gui.tooltips.appliedenergistics2.CondenserOutput=Kondensator ME - Wyjście
 gui.tooltips.appliedenergistics2.PartitionStorage=Pamięć Partycji
 gui.tooltips.appliedenergistics2.Clear=Wyczyść
@@ -432,6 +452,8 @@ gui.tooltips.appliedenergistics2.Singularity=Kondensacja do Jedności\n%s na prz
 gui.tooltips.appliedenergistics2.Read=Tylko Wejście
 gui.tooltips.appliedenergistics2.Write=Tylko Wejście
 gui.tooltips.appliedenergistics2.ReadWrite=Dwukierunkowy
+gui.tooltips.appliedenergistics2.Strict=Strict - Network sees only filtered items
+gui.tooltips.appliedenergistics2.Loose=Loose - Network sees everything
 
 gui.tooltips.appliedenergistics2.AlwaysActive=Zawsze Aktywny
 gui.tooltips.appliedenergistics2.ActiveWithoutSignal=Aktywny bez sygnału
@@ -464,7 +486,7 @@ gui.tooltips.appliedenergistics2.CraftOnly=Nie używaj przedmiotów magazynowany
 gui.tooltips.appliedenergistics2.CraftEither=Używaj przedmiotów magazynowych lub przedmiotów wytwarzanych podczas eksportu.
 gui.tooltips.appliedenergistics2.LevelType=Typ Poziomu
 gui.tooltips.appliedenergistics2.LevelType_Energy=Energia
-gui.tooltips.appliedenergistics2.LevelType_Item=Przedmiot
+gui.tooltips.appliedenergistics2.LevelType_Item_Fluid=Item / Fluid
 gui.tooltips.appliedenergistics2.InventoryTweaks=Inventory Tweaks
 gui.tooltips.appliedenergistics2.Mod=Mod
 gui.tooltips.appliedenergistics2.UsedPercent=Procent
@@ -657,6 +679,20 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Zablokowany przez
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Zablokowany przez sygnał redstone
 waila.appliedenergistics2.CraftingLockedUntilPulse=Oczekiwanie na impuls redstone do odblokowania
 waila.appliedenergistics2.CraftingLockedUntilResult=Oczekiwanie na wyniki aby odblokować
+waila.appliedenergistics2.CoordinateX=X
+waila.appliedenergistics2.CoordinateY=Y
+waila.appliedenergistics2.CoordinateZ=Z
+waila.appliedenergistics2.Dimension=Dimension
+waila.appliedenergistics2.Id=id
+waila.appliedenergistics2.ConnectedTo=Connected to
+waila.appliedenergistics2.Disconnected=Disconnected
+waila.appliedenergistics2.Singularity=Singularity
+waila.appliedenergistics2.Provider=§5Provider§r
+waila.appliedenergistics2.Accessor=§5Accessor§r
+waila.appliedenergistics2.Waiting=Waiting:
+
+# Baubles Extended
+slot.Terminal=§aTerminal§7
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=Dysk ME 1k
@@ -806,6 +842,7 @@ item.appliedenergistics2.ItemPart.InterfaceTerminal.name=Terminal Interfejsów M
 item.appliedenergistics2.ItemPart.InvertedToggleBus.name=Magistrala Przełączania Odwróconego ME
 item.appliedenergistics2.ItemPart.ToggleBus.name=Magistrala Przełączania ME
 item.appliedenergistics2.ItemPart.CraftingMonitor.name=Monitor Wytwarzania ME
+item.appliedenergistics2.ItemPart.PatternRepeater.name=ME Pattern Repeater
 
 item.appliedenergistics2.ItemSpatialStorageCell.128Cubed.name=Dysk Przestrzenny 128³
 item.appliedenergistics2.ItemSpatialStorageCell.16Cubed.name=Dysk Przestrzenny 16³
@@ -921,3 +958,7 @@ stat.ae2.TurnedCranks=Obrócone Korby
 key.appliedenergistics2.category=Applied Energistics 2
 key.toggle_focus.desc=Przełącz fokus pola wyszukiwania
 key.search_connected_inventories.desc=Search network inventories for item
+key.control_operation.desc=Control operation
+
+# NEI
+nei.options.keys.gui.pattern_view=View Pattern

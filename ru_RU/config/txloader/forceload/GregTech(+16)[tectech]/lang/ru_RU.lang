@@ -4,7 +4,7 @@ itemGroup.EM=TecTech Elemental Matter
 
 #Blocks
 tile.quantumStuff.name=Квантовая штучка
-tile.Eye of Harmony Renderer.name=Рендерер глаза гармонии
+tile.Eye of Harmony Renderer.name=Рендерер ока гармонии
 
 tile.quantumGlass.name=Квантовое стекло
 tile.quantumGlass.desc.0=Плотное, но всё ещё прозрачное
@@ -120,7 +120,7 @@ item.tm.powerpassupgradecover.desc.2=Сделайте из них гирлянд
 
 item.tm.itemAstralArrayFabricator.name=Астральный массив
 item.tm.itemAstralArrayFabricator.desc0=Параллельные измерения?!
-item.tm.itemAstralArrayFabricator.desc1=Устройство, способное усилить пространственное сжатие Ока Гармонии,
+item.tm.itemAstralArrayFabricator.desc1=Устройство, способное усилить пространственное сжатие Ока гармонии,
 item.tm.itemAstralArrayFabricator.desc2=проникая в пространство за его пределами.
 item.tm.itemAstralArrayFabricator.desc3=Позволяет реализовать параллелизм рецептов.
 
@@ -680,25 +680,25 @@ gt.blockmachines.multimachine.tm.microwave.cfgo.0=Значение таймер�
 gt.blockmachines.multimachine.tm.microwave.cfgo.1=Оставшееся время
 
 gt.blockmachines.multimachine.tm.teslaCoil.name=Башня Теслы
-gt.blockmachines.multimachine.tm.teslaCoil.hint.0=1 - Энеговоды, Конденсаторные шлюзы или Блоки основания
+gt.blockmachines.multimachine.tm.teslaCoil.hint.0=1 - Энеговоды, Конденсаторные шлюзы или Корпус основания Башни Теслы
 gt.blockmachines.multimachine.tm.teslaCoil.hint.1=2 - Титановые рамы
 gt.blockmachines.multimachine.tm.teslaCoil.desc.0=Блок-контроллер башни теслы
 gt.blockmachines.multimachine.tm.teslaCoil.desc.1=Используется для передачи энергии на крышки катушек Тесла и трансиверы Тесла
 gt.blockmachines.multimachine.tm.teslaCoil.desc.2=Может питаться плазмой гелия/азота/радона для увеличения дальности действия
 gt.blockmachines.multimachine.tm.teslaCoil.desc.3=Передаваемый вольтаж зависит от используемого тира Тесла конденсатор
 gt.blockmachines.multimachine.tm.teslaCoil.desc.4=Первичные обмотки Теслы должны быть как минимум того же тира, что и Тесла конденсатор
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.0=Настройки нижнего порога гистерезиса
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.1=Настройки верхнего порога гистерезиса
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.2=Настройки радиуса передачи Башни Теслы
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.3=Настройки радиуса работы Приемопередатчика Теслы
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.0=Нижний порог гистерезиса
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.1=Верхний порог гистерезиса
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.2=Радиус передачи
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.3=Настройки радиуса работы Приёмопередатчика Теслы
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.4=Настройки радиуса работы Тесла-МЕГАпокрытия
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.5=Настройка выходного вольтажа
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.6=Настройка текущего выхода
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.5=Выходной вольтаж
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.6=Текущий выход
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.7=Настройки времени сканирования, минут
-gt.blockmachines.multimachine.tm.teslaCoil.cfgi.8=Настройки перегрузки
+gt.blockmachines.multimachine.tm.teslaCoil.cfgi.8=Перегрузка
 gt.blockmachines.multimachine.tm.teslaCoil.cfgi.9=Пока не используется
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.0=Отображение радиуса передачи Башни Теслы
-gt.blockmachines.multimachine.tm.teslaCoil.cfgo.1=Отображение радиуса работы Приемопередатчика Теслы
+gt.blockmachines.multimachine.tm.teslaCoil.cfgo.1=Отображение радиуса работы Приёмопередатчика Теслы
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.2=Отображение радиуса работы Тесла-МЕГАпокрытия
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.3=Отображение выходного вольтажа
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.4=Отображение текущего выхода
@@ -707,6 +707,9 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgo.6=Отображение нак�
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.7=Отображение доли заполнения
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.8=Отображение времени сканирования
 gt.blockmachines.multimachine.tm.teslaCoil.cfgo.9=Отображение макс. выхода
+gt.blockmachines.multimachine.tm.teslaCoil.outputVoltage=Выходной вольтаж:
+gt.blockmachines.multimachine.tm.teslaCoil.chartButtonTooltip=Open amperage over time chart
+gt.blockmachines.multimachine.tm.teslaCoil.heatMapButtonTooltip=Открыть тепловую карту
 
 gt.blockmachines.multimachine.em.switch.type=Вычислительный сетевой коммутатор, CNS
 gt.blockmachines.multimachine.em.switch.name=Облачный QoS сетевой коммутатор
@@ -718,7 +721,7 @@ gt.blockmachines.multimachine.em.switch.desc.4=The first parameter in each group
 gt.blockmachines.multimachine.em.switch.desc.5=The second parameter in each group controls the hatch weight.
 gt.blockmachines.multimachine.em.switch.adv.name=Статичный QoS сетевой коммутатор
 gt.blockmachines.multimachine.em.switch.adv.desc.0=Версия облачного сетевого коммутатора с переменной длиной.
-gt.blockmachines.multimachine.em.switch.adv.desc.1=Потребляет §b524,288§7 EU/t за среднюю секцию во время работы.
+gt.blockmachines.multimachine.em.switch.adv.desc.1=Расходует §b524,288§7 EU/t в среднем за секцию во время работы.
 gt.blockmachines.multimachine.em.switch.adv.desc.2=Вывод вычислений настраивается путем щелчка ПКМ по выходным разъёмам с помощью отвёртки.
 gt.blockmachines.multimachine.em.switch.adv.desc.3=Выходные разъёмы должны быть частью структуры, чтобы их можно было настраивать.
 gt.blockmachines.multimachine.em.switch.adv.desc.4=Вывод вычислений для разъёма напрямую контролируется настройкой разъёма.
@@ -870,7 +873,7 @@ gt.blockmachines.multimachine.em.blackholegenerator.desc.0=Блок-контро
 gt.blockmachines.multimachine.em.blackholegenerator.desc.1=Генерация энергии из сингулярности
 
 # Eye of Harmony
-achievement.gt.blockmachines.multimachine.em.eye_of_harmony=Контроллер глаза гармонии
+achievement.gt.blockmachines.multimachine.em.eye_of_harmony=Контроллер ока гармонии
 achievement.gt.blockcasingsBA0.12=Граничный корпус бесконечной энергии пространства-времени
 gt.blockcasingsBA0.12.desc.0=Обеспечивает стабильный мост между областями пространства-времени.
 achievement.gt.blockcasingsBA0.11=Укреплённый пространственный структурный корпус
@@ -1025,30 +1028,30 @@ fog.upgrade.text.3=Умножает максимальный расход топ
 fog.upgrade.text.4=Увеличивает базовый рабочий вольтаж всех модулей на: Единицы звездного топлива/сек * 10^8 EU/t
 fog.upgrade.text.5=Разблокирует модуль Helioflux Melting Core.
 fog.upgrade.text.6=Разблокирует множитель для максимальной параллели на основе расхода топлива. Этот бонус рассчитывается по следующей формуле: Множитель = 1 + (Единицы звездного топлива/сек) / 15
-fog.upgrade.text.7=Разблокирует модуль Heliothermal Plasma Fabricator и базовый элемент -> обработка плазмы (1 шаг плазмы, T3 максимум).
-fog.upgrade.text.8=Открывает окно конфигурации для максимального размера батареи и увеличивает предел до максимального значения. Кроме того, разблокирует множитель скидки на энергию, который масштабируется в зависимости от размера батареи (ограничен 0.05 или 5%). Скидка рассчитывается следующим образом: Скидка = (1 - 1.05^(-0.05 * Максимальная ёмкость батареи)) / 20
+fog.upgrade.text.7=Разблокирует модуль Гелиотермальный производитель плазмы и базовый элемент -> обработка плазмы (1 шаг плазмы, T3 максимум).
+fog.upgrade.text.8=Открывает окно конфигурации для максимального размера батареи и увеличивает предел до максимального значения. Кроме того, разблокирует множитель скидки на энергию, который масштабируется в зависимости от размера батареи (ограничен 0.05 или 5%%). Скидка рассчитывается следующим образом: Скидка = (1 - 1.05^(-0.05 * Максимальная ёмкость батареи)) / 20
 fog.upgrade.text.9=Увеличивает максимальный расход топлива на 1 единицу звездного топлива/сек за каждое приобретенное улучшение.
 fog.upgrade.text.10=Добавляет x2 множитель к максимальной параллели.
 fog.upgrade.text.11=Разблокирует модуль Heliofusion Exoticizer и создание кварк-глюонной плазмы. На данный момент этот модуль не подвержен влиянию других множителей или бонусов от других улучшений.
 fog.upgrade.text.12=Улучшает формулу преобразования расхода топлива -> тепла. Улучшенная формула: Тепло Power Forge = log_1.12(единиц звездного топлива/сек) * 1000 + 12601, Тепло Melting Core = log1.18 (единиц звездного топлива/сек) * 1000 + 12601
 fog.upgrade.text.13=Улучшает формулу СУ: Множитель = 1 + (единицы звездного топлива/сек) / 5
 fog.upgrade.text.14=Улучшает формулу разгона с 4/2 до 4/2.3.
-fog.upgrade.text.15=Позволяет Heliothermal Plasma Fabricator обрабатывать многоступенчатую плазму. Ограничение по тиру сохраняется.
+fog.upgrade.text.15=Позволяет Гелиотермальному производителю плазмы обрабатывать многоступенчатую плазму. Ограничение по тиру сохраняется.
 fog.upgrade.text.16=Позволяет Helioflare Power Forge получить все преимущества пути улучшения Helioflux Melting Core.
 fog.upgrade.text.17=Увеличивает лимит бонуса тепла EBF до 30,000K.
 fog.upgrade.text.18=Разблокирует множитель для максимальной параллели на основе текущего тепла. Этот бонус рассчитывается по следующей формуле: Множитель = 1 + Тепло / 15000
-fog.upgrade.text.19=Improves the EBF energy reduction heat bonus from 5% to 8% and adds an energy discount based on the fill level of the internal battery. This bonus is calculated via the formula: Discount = (Current fill level / Max Capacity - 0.5)^2 * (-0.6) + 0.15, multiplied by 2/3 for modules other than the Plasma Fabricator
-fog.upgrade.text.20=EBF heat bonuses are granted above 30,000K, but the heat value used in heat bonus calculations is determined by this formula: Power Forge Heat = 30000 + (Current Heat - 30000)^0.85, Melting Core Heat = 30000 + (Current Heat - 30000)^0.8
+fog.upgrade.text.19=Улучшает снижение энергии EBF на нагрев с 5%% до 8%% и добавляет скидку на энергию основанную на уровне заполненности внутреннего аккумулятора. Этот бонус рассчитывается по формуле: Скидка = (Текущий уровень заполнения / Макс. объём - 0.5)^2 * (-0.6) + 0.15, умноженная на 2/3 для всех моделей кроме Производителя плазмы.
+fog.upgrade.text.20=Бонусы за нагрев EBF предоставляются при температуре выше 30,000K, но значение нагрева используемое в расчетах бонуса за нагрев, определяется по следующей формуле: Нагрев Power Forge = 30000 + (Текущий нагрев - 30000)^0.85, Нагрев Melting Core = 30000 + (Текущий нагрев - 30 000)^0.8
 fog.upgrade.text.21=Разблокирует множитель для максимальной параллели на основе общего количества приобретенных улучшений. Этот бонус рассчитывается по следующей формуле: Множитель = 1 + количество улучшения / 5
 fog.upgrade.text.22=Улучшает УГКГ на основе максимальной параллели. Улучшенная формула: Множитель = (1 / Тепло^0.01) / (Параллель^0.02)
 fog.upgrade.text.23=Умножает максимальный рабочий вольтаж на 4 за каждое активное кольцо, применяется после других бонусов.
-fog.upgrade.text.24=Позволяет Heliothermal Plasma Fabricator обрабатывать плазму до Т5.
-fog.upgrade.text.25=Allows the Heliofusion Exoticizer to be affected by other upgrade benefits, but those benefits are square rooted first. The overclock bonus is adjusted via the following formula: OC Factor = 2 + (Base OC Factor - 2)^2
+fog.upgrade.text.24=Позволяет Гелиотермальному производителю плазмы обрабатывать плазму до Т5.
+fog.upgrade.text.25=Позволяет Heliofusion Exoticizer получать влияние на другие преимущества улучшений, но эти преимущества сначала извлекаются из квадратного корня. Бонус разгона регулируется по следующей формуле: OC коэффициент = 2 + (Базовый OC коэффициент - 2)^2
 fog.upgrade.text.26=Позволяет построить второе кольцо и добавляет 4 слота для модулей.
-fog.upgrade.text.27=Отключает максимальный расход топлива, но расход топлива, используемый в расчётах бонусов, масштабируется по следующей формуле: Фактический РТ = Текущий макс. РТ + (Текущий РТ - Текущий макс. РТ)^0.4, где РТ - расход топлива, а макс. РТ - максимальный расход топлива без этого улучшения.
+fog.upgrade.text.27=Отключает максимальный расход топлива, но расход топлива, используемый в расчётах бонусов, масштабируется по следующей формуле: Фактический РТ = Текущий макс. РТ + (Текущий РТ - Текущий макс. РТ)^0.4, где РТ - расход топлива, а макс. РТ - макс. расход топлива без этого улучшения.
 fog.upgrade.text.28=Отключает максимальный вольтаж обработки. Вольтаж можно задать в GUI каждого модуля.
 fog.upgrade.text.29=Позволяет построить третье кольцо и добавляет 4 слота для модулей.
-fog.upgrade.text.30=Разблокирует производство Магматерии в Heliofusion Exoticizer, создание экзотических плазм в Heliothermal Plasma Fabricator и выброс и впрыск гравитонных осколоков.
+fog.upgrade.text.30=Разблокирует производство Магматерии в Heliofusion Exoticizer, создание экзотических плазм в Гелиотермальном производителе плазмы и выброс и впрыск гравитонных осколоков.
 
 fog.debug.resetbutton.text=Сброс
 fog.debug.resetbutton.tooltip=Сбрасывает все улучшения до нуля
@@ -1056,7 +1059,7 @@ fog.debug.unlockall.text=Разблокировать все улучшения
 fog.debug.gravitonshardsetter.tooltip=Установите количество доступных гравитонных осколков
 
 fog.button.fuelconfig.tooltip=Меню конфигурации топлива
-fog.button.upgradetree.tooltip=Path of Celestial Transcendence
+fog.button.upgradetree.tooltip=Путь небесного превосходства
 fog.button.furnacemode.tooltip.01=Режим доменной печи
 fog.button.furnacemode.tooltip.02=Режим печи
 fog.button.magmattermode.tooltip.01=Режим кварк-глюонная плазма
@@ -1067,11 +1070,11 @@ fog.button.battery.tooltip.02=Щелкните ПКМ, чтобы открыть
 fog.button.voltageconfig.tooltip.01=Открыть конфигурацию вольтажа
 fog.button.voltageconfig.tooltip.02=Конфигурация вольтажа заблокирована, требуется Безграничный поток (улучшение)
 fog.button.structurecheck.tooltip=Обновить статус подключения модуля
-fog.button.milestones.tooltip=Milestone Overview
+fog.button.milestones.tooltip=Обзор вехи
 fog.button.materialrequirements.tooltip=Для улучшения требуются дополнительные материалы
 fog.button.materialrequirementsmet.tooltip=Все материалы предоставлены
 fog.button.materialrequirements.tooltip.clickhere=Щелкните, чтобы открыть окно вставки материала
-fog.button.ejection.tooltip=Toggle Graviton Shard Ejection
+fog.button.ejection.tooltip=Переключить выброс гравитонных осколков
 fog.button.formatting.tooltip=Переключить форматирование чисел
 fog.button.exoticinputs.tooltip=Click to display expected inputs
 fog.button.possibleexoticinputs.tooltip=Click to display all possible inputs
@@ -1084,8 +1087,8 @@ fog.button.statistics.tooltip=Обзор статистики
 fog.text.tooltip.heat=Heat value used for checking if a recipe can run
 fog.text.tooltip.effectiveheat=Heat value used for calculating bonuses
 fog.text.tooltip.parallel=Максимальное количество параллелей
-fog.text.tooltip.speedbonus=Multiplier for base recipe time, making it shorter
-fog.text.tooltip.energydiscount=Multiplier for base energy usage, reducing it
+fog.text.tooltip.speedbonus=Множитель базового времени рецепта, делающий его короче
+fog.text.tooltip.energydiscount=Множитель базового энергопотребления, снижающий его
 fog.text.tooltip.ocdivisor=Делитель для сокращения времени рецепта при разгоне (не влияет на идеальный разгон)
 fog.text.tooltip.processingvoltage=Базовый рабочий вольтаж для рецептов
 fog.text.tooltip.factorpreview=Введите топливный коэффициент для моделирования расчетов с
@@ -1096,7 +1099,7 @@ fog.text.tooltip.voltageadjustment.1=Вольтаж = Мин(Выбранный 
 achievement.gt.blockmachines.multimachine.em.forge_of_gods=Кузница Богов
 achievement.gt.blockmachines.multimachine.em.smelting_module=Helioflare Power Forge
 achievement.gt.blockmachines.multimachine.em.molten_module=Helioflux Melting Core
-achievement.gt.blockmachines.multimachine.em.plasma_module=Heliothermal Plasma Fabricator
+achievement.gt.blockmachines.multimachine.em.plasma_module=Гелиотермальный производитель плазмы
 achievement.gt.blockmachines.multimachine.em.exotic_module=Heliofusion Exoticizer
 achievement.gt.godforgecasing.0=Укреплённый сингулярностью звездный экранирующий корпус
 achievement.gt.godforgecasing.1=Направляющий корпус из небесной материи
@@ -1107,10 +1110,10 @@ achievement.gt.godforgecasing.5=Отдалённый гравитонный мо
 achievement.gt.godforgecasing.6=Медиальный гравитонный модулятор потока
 achievement.gt.godforgecasing.7=Центральный гравитонный модулятор потока
 
-achievement.gt.blockmachines.multimachine.em.forge_of_gods.desc=BEEEEEEEEEAAAAAAM
+achievement.gt.blockmachines.multimachine.em.forge_of_gods.desc=БААААААААААААААААААМ
 achievement.gt.blockmachines.multimachine.em.smelting_module.desc=Одна печь, чтобы править всеми.
 achievement.gt.blockmachines.multimachine.em.molten_module.desc=Надеюсь, у вас хорошие жидкие отвердители!
-achievement.gt.blockmachines.multimachine.em.plasma_module.desc=Fusion? No thanks.
+achievement.gt.blockmachines.multimachine.em.plasma_module.desc=Слияние? Нет, спасибо.
 achievement.gt.blockmachines.multimachine.em.exotic_module.desc=Создаём статику с 2024 года!
 achievement.gt.godforgecasing.0.desc=Строительный блок Кузницы Богов
 achievement.gt.godforgecasing.1.desc=Строительный блок Кузницы Богов
@@ -1123,37 +1126,37 @@ achievement.gt.godforgecasing.7.desc=Строительный блок Кузн�
 
 gt.blockmachines.multimachine.FOG.parallel=Параллель
 gt.blockmachines.multimachine.FOG.batch=Размер партии
-gt.blockmachines.multimachine.FOG.fuelconsumption=Множитель расхода звёздного топлива
-gt.blockmachines.multimachine.FOG.fuelinfo.0=Множитель расхода звёздного топлива является основным определяющим фактором при расчете общего расхода звёздного топлива в секунду. Каждый тип топлива имеет различное масштабирование, которое выглядит следующим образом:
-gt.blockmachines.multimachine.FOG.fuelinfo.1=Пространственно-трансцендентный остаток: множитель*300*1.15^множитель
-gt.blockmachines.multimachine.FOG.fuelinfo.2=Смесь конденсированной сырой звёздной плазмы: множитель*2*1.08^множитель
-gt.blockmachines.multimachine.FOG.fuelinfo.3=Магнитно-гидродинамически сдержанная звездная материя: множитель/25
-gt.blockmachines.multimachine.FOG.fuelinfo.4=Этот множитель также определяет базовую теплоту мультиблока: Тепло = log_1.5(множитель)*1000+12601
+gt.blockmachines.multimachine.FOG.fuelconsumption=Коэффициент расхода звёздного топлива
+gt.blockmachines.multimachine.FOG.fuelinfo.0=Коэффициент расхода звёздного топлива является основным определяющим фактором при расчете общего расхода звёздного топлива в секунду. Каждый тип топлива имеет различное масштабирование, которое выглядит следующим образом:
+gt.blockmachines.multimachine.FOG.fuelinfo.1=Пространственно-трансцендентный остаток: коэффициент*300*1.15^коэффициент
+gt.blockmachines.multimachine.FOG.fuelinfo.2=Смесь конденсированной сырой звёздной плазмы: коэффициент*2*1.08^коэффициент
+gt.blockmachines.multimachine.FOG.fuelinfo.3=Магнитно-гидродинамически сдержанная звездная материя: коэффициент/25
+gt.blockmachines.multimachine.FOG.fuelinfo.4=Этот множитель также определяет базовый нагрев мультиблока: Тепло = log_1.5(коэффициент)*1000+12601
 gt.blockmachines.multimachine.FOG.fuelinfo.5=Улучшения могут влиять на эти формулы, изменения перечислены в описаниях соответствующих улучшенний.
 gt.blockmachines.multimachine.FOG.fueltype=Нажмите, чтобы выбрать тип топлива
 gt.blockmachines.multimachine.FOG.fuelusage=Потребление топлива
-gt.blockmachines.multimachine.FOG.plasmamultistep=Многоступенчатая плазма
-gt.blockmachines.multimachine.FOG.plasmarecipetier=Fusion Tier
+gt.blockmachines.multimachine.FOG.plasmamultistep=Многоступенчатая плазма: %s
+gt.blockmachines.multimachine.FOG.plasmarecipetier=Тир плазмы: %s
 gt.blockmachines.multimachine.FOG.storedfuel=Количество хранимого топлива:
 gt.blockmachines.multimachine.FOG.storedstartupfuel=Количество звездного топлива:
 gt.blockmachines.multimachine.FOG.batteryinfo=Установить размер батареи
 gt.blockmachines.multimachine.FOG.shardcost=Стоимость гравитонного осколка:
-gt.blockmachines.multimachine.FOG.availableshards=Доступные гравитононные осколки:
+gt.blockmachines.multimachine.FOG.availableshards=Доступные гравитонные осколки:
 gt.blockmachines.multimachine.FOG.modulestatus=Статус:
 gt.blockmachines.multimachine.FOG.modulestatus.true=Подключено
 gt.blockmachines.multimachine.FOG.modulestatus.false=Отключено
 gt.blockmachines.multimachine.FOG.voltageinfo=Вольтаж на параллель
 gt.blockmachines.multimachine.FOG.totalprogress=Общий прогресс
-gt.blockmachines.multimachine.FOG.milestoneprogress=Current Milestone Level
-gt.blockmachines.multimachine.FOG.progress=Next Milestone at
-gt.blockmachines.multimachine.FOG.milestonecomplete=Milestone Complete
-gt.blockmachines.multimachine.FOG.milestoneinfo=View Milestone Progress
+gt.blockmachines.multimachine.FOG.milestoneprogress=Текущий уровень вехи
+gt.blockmachines.multimachine.FOG.progress=Следующая веха на
+gt.blockmachines.multimachine.FOG.milestonecomplete=Веха завершена
+gt.blockmachines.multimachine.FOG.milestoneinfo=Просмотреть прогресс вехи
 gt.blockmachines.multimachine.FOG.inversionactive=Инверсия активна
 gt.blockmachines.multimachine.FOG.inversion=Инверсия
 gt.blockmachines.multimachine.FOG.expectedinputs=Expected Inputs
 gt.blockmachines.multimachine.FOG.possibleinputsqgp=Возможные входные материалы для QGP
 gt.blockmachines.multimachine.FOG.possibleinputsmagmatter=Возможные входные материалы для Магматерии
-gt.blockmachines.multimachine.FOG.inversioninfotext=Once all milestones of the Forge reach tier 7,  inversion activates. This uncaps the maximum tier of all milestones and allows to scale infinitely. The scaling of each milestone changes from exponential to linear, but the granted graviton shard amount keeps increasing. The amount of progress needed for each subsequent milestone is as much as needed for the 7th tier of each milestone. The Composition milestone is once again an exception, as that continues to scale by 1 each tier, with it's own formula for calculating progress. Each module type is given a value, ranging from 1 for the Helioflare Power Forge to 5 for the Heliofusion Exoticizer in magmatter mode, then the amount of each module present is substracted by 1 and multiplied by its value. These values are added up and divided by 5, this is the final milestone tier on top of the base 7.
+gt.blockmachines.multimachine.FOG.inversioninfotext=Как только все вехи Кузницы достигнут 7-го тира, активируется инверсия. Это снимает ограничение на максимальный тир всех вех и позволяет масштабировать до бесконечности. Масштабирование каждой вехи меняется с экспоненциального на линейное, но предоставленное количество гравитонных осколков продолжает увеличиваться. Количество прогресса, необходимое для каждой последующей вехи, равно количеству, необходимому для 7-го тира каждой вехи. Веха "Структура" является исключением, поскольку она продолжает масштабироваться на 1 на каждом тире, имея собственную формулу для расчета прогресса. Каждому типу модуля присваивается значение, начиная от 1 для Helioflare Power Forge до 5 для Heliofusion Exoticizer в режиме магматерии, затем количество каждого присутствующего модуля вычитается на 1 и умножается на его значение. Эти значения суммируются и делятся на 5, это последний тир вехи поверх базового 7.
 gt.blockmachines.multimachine.FOG.powermilestone=Заряд
 gt.blockmachines.multimachine.FOG.recipemilestone=Конверсия
 gt.blockmachines.multimachine.FOG.fuelmilestone=Катализатор
@@ -1162,7 +1165,8 @@ gt.blockmachines.multimachine.FOG.power=Расход EU
 gt.blockmachines.multimachine.FOG.recipes=Recipes Processed
 gt.blockmachines.multimachine.FOG.fuelconsumed=Потреблено единиц топлива
 gt.blockmachines.multimachine.FOG.extensions=Extensions Built
-gt.blockmachines.multimachine.FOG.shardgain=Graviton Shards gained
+gt.blockmachines.multimachine.FOG.shardgain=Получено гравитонных осколков
+gt.blockmachines.multimachine.FOG.payUpgradeCosts=Pay Upgrade Cost
 gt.blockmachines.multimachine.FOG.consumeUpgradeMats=Нажмите, чтобы использовать материалы для улучшения
 gt.blockmachines.multimachine.FOG.clickhere=Запутались? Нажмите здесь, чтобы получить общую информацию
 gt.blockmachines.multimachine.FOG.introduction=§NВведение
@@ -1171,11 +1175,11 @@ gt.blockmachines.multimachine.FOG.tableofcontents=§NСодержание:
 gt.blockmachines.multimachine.FOG.fuel=Топливо
 gt.blockmachines.multimachine.FOG.modules=Модули
 gt.blockmachines.multimachine.FOG.upgrades=Улучшения
-gt.blockmachines.multimachine.FOG.milestones=Milestones
-gt.blockmachines.multimachine.FOG.fuelinfotext=Once the structure of the Forge is built and the multiblock is formed, just simply turning it on is not sufficient to make it functional. The Forge must be supplied with a certain amount of Star Fuel (the item) to actually boot up. The amount of Star Fuel needed depends on the current fuel consumption factor, which can be set in the fuel configuration menu. By default the maximum is 5, but it can be increased later on with upgrades. Star Fuel scaling is as follows: factor*25*1.2^factor. Star Fuel can be supplied via an input bus, it gets consumed periodically and stored internally. Once there is enough Star Fuel stored in the multi, it turns on for real (allowing modules to connect) and converts the consumed Star Fuel into stored Stellar Fuel. From this point onwards, the Forge must be fueled via one of the liquid fuels (type can be selected in the fuel config menu). If there isn't enough of the selected fuel present in the input hatch, the stored fuel amount will decrease and if it reaches 0, the Forge enters the previous 'off' state where modules disconnect and it has to be supplied with Star Fuel again. The amount of internally stored Stellar Fuel (liquid) can be increased by turning on battery charging, this will cause the fuel usage to double, but half of it will be stored in the internal battery.
+gt.blockmachines.multimachine.FOG.milestones=Вехи
+gt.blockmachines.multimachine.FOG.fuelinfotext=После того, как структура кузницы построена и мультиблок сформирован, простого включения недостаточно для функционирования. Для запуска кузницы необходимо её заправить определенным количеством Звёздного топлива (это предмет). Необходимое количество Звёздного топлива зависит от текущего коэффициента расхода звёздного топлива, который можно установить в Меню конфигурации топлива. По умолчанию максимум 5, но его можно увеличить позже с помощью улучшений. Масштабирование звёздного топлива происходит следующим образом: коэффициент*25*1,2^коэффициент. Звёздное топливо может подаваться через входной люк, потребляется периодически и хранится внутри. Как только в мультиблоке накопится достаточное количество Звёздного топлива, он включится по-настоящему (позволяя модулям подключаться) и преобразует потреблённое Звёздное топливо в хранимое Звёздное топливо. С этого момента Кузница должна питаться одним из видов жидкого топлива (тип можно выбрать в меню конфигурации топлива). Если в входном шлюзе недостаточно выбранного топлива, количество хранимого топлива уменьшится, и если оно достигнет 0, кузница перейдет в предыдущее состояние «выключено», в котором модули отключаются, и её придется снова снабжать Звёздным топливом. Количество хранящегося внутри Звёздного топлива (жидкость) можно увеличить, включив зарядку аккумулятора. Это приведет к удвоению расхода топлива, но половина его будет храниться во внутреннем аккумуляторе.
 gt.blockmachines.multimachine.FOG.moduleinfotext=There are 4 types of modules that can be used in the Forge, the Helioflare Power Forge, Helioflux Melting Core, Heliothermal Plasma Fabricator and Heliofusion Exoticizer. These modules are separate multiblocks that have to be built into the Godforge structure at their designated spots. Once built, these modules have to connect to the Godforge, which happens automatically if all requirements for the respective module are met. Alternatively, there is a button to refresh their status without waiting for the timer. Each of these modules has its specialized functionality & requirements and is affected differently by certain upgrades. The first unlocked module is the §BHelioflare Power Forge§6, which simply put is a blast furnace even more powerful than the mega version. Additionally, this module has a furnace mode, turning it into a hyper powerful multi smelter. This module is unlocked by default and has 1024 base parallel. The second unlock is the §BHelioflux Melting Core§6, which also processes blast furnace recipes, but with a twist, the outputs are ejected in their molten form instead of hot/regular ingots. If an output does not have a molten form, it will output its regular form. This module has to be unlocked by an upgrade to function and has 512 base parallel. The third module is the §BHeliothermal Plasma Fabricator§6, which possesses a unique recipemap featuring direct material to plasma conversion recipes. These recipes are grouped by two properties, fusion tier and steps required, limiting which recipes can be processed before their respective upgrades are unlocked. Unlike regular fusion, these recipes produce the plasma of the input material. This module has 384 base parallel. The fourth and last module is the §BHeliofusion Exoticizer§6, a module capable of producing quark gluon plasma and later on magmatter. This module has unique automation challenges for both materials, so it is recommended to have two of these, as they have to be locked to either one of the materials. The common rule for both modes' automation challenges is as follows: the module outputs materials at the start of a recipe cycle and waits for the correct inputs to arrive before starting the actual processing of the output material. If producing quark-gluon plasma, the module outputs up to 7 different fluids/dusts with amounts between 1-64 and 1-7 respectively, and their corresponding plasmas and amounts have to be returned in order for the recipe to process. For each L of fluid, a bucket of plasma and for each dust 9 ingots worth of plasma must be returned for the recipe to work. If magmatter mode is active, the automation challenge changes. Now the module outputs 1-50L of tachyon rich temporal fluid, 51-100L of spatially enlarged fluid and one dust of a high tier material. The challenge is to return both the tachyon rich and spatially enlarged fluids, plus as much plasma of the dust's material (in ingots) as the difference between the amounts of spatially enlarged and tachyon rich fluid. Once all of these have been returned in the correct amounts, the recipe will start to process and output magmatter. This module has 64 base parallel.
-gt.blockmachines.multimachine.FOG.upgradeinfotext=Upgrades are the heart and soul of the Godforge, they unlock most of its functionality and processing power. The upgrade tree can be accessed via its button on the main gui and each upgrade node can be clicked for more information on its effects and unlock requirements. In general, each upgrade can only be unlocked if the prior one is unlocked and there are enough available graviton shards. One exception to this is the first upgrade, as that one has no prior upgrade. Some upgrades can also have extra material costs, which are denoted next to the unlock button if applicable. If an upgrade has more than 1 connected prior upgrade, then there are two options, either the upgrade requires ALL connected prior upgrades or AT LEAST ONE (indicated by the connection's color, red means ALL, blue means AT LEAST ONE). Upgrades can be refunded by simply pressing the unlock button again, but this only works if ALL connected later upgrades are not active/unlocked. The block of upgrades following the unlock of the Heliufusion Exoticizer module are special, as they are what is considered §Bthe Split§6. As the name suggests, only one path out of the three may be chosen at first, and the others will be locked. Each path has specialized buffs that are primarily targeted towards a specific module, and thus affect other module types with reduced effect (unless stated otherwise). The amount of unlockable paths depends on the amount of rings the Godforge has, which in turn are limited by later upgrades.
-gt.blockmachines.multimachine.FOG.milestoneinfotext=Milestones are essential for upgrading the Godforge, as they are the source of graviton shards, the main currency needed for unlocking upgrades. In essence, milestones are just what their name suggests, thresholds that when reached, grant graviton shards. There are four types of milestones, Charge, Conversion, Catalyst and Composition, each referring to a stat of the Godforge. Each milestone has 7 tiers, each being harder to reach than the last, but also granting more graviton shards. The first tier grants 1 graviton shard, the second 2, the third 3 etc. The §BCharge§6 milestone scales off total power consumption of all modules combined, the first tier being unlocked at 1e15 EU consumed, and each subsequent milestone scaling by 9x. The §BConversion§6 milestone scales off total recipes processed across all modules (excluding the Helioflare Power Forge's furnace mode) and its first tier is unlocked at 10M processed recipes. Following tiers scale by 4x. The §BCatalyst§6 milestone is based on the Forge's fuel consumption, counted in Stellar Fuel units (the number entered in the fuel config menu). Reaching the first tier requires 10,000 fuel units to be consumed, and each tier above scales by 3x. Last but not least, the §BComposition§6 milestone works a bit differently, as it scales off the Forge's structure. Milestone levels are granted for each unique type of module present in the structure (Heliofusion Exoticizer modules on quark-gluon and magmatter mode count as unique) and for each additional ring built. Your research suggests that something strange might happen if all milestones reach their final tier... Make sure to check back!
+gt.blockmachines.multimachine.FOG.upgradeinfotext=Улучшения - это сердце и душа Кузницы Богов, они раскрывают большую часть его функциональности и вычислительной мощности. Доступ к дереву улучшений можно получить с помощью кнопки в главном графическом интерфейсе, и на каждый узел улучшения можно нажать для получения дополнительной информации о его эффектах и ​​требованиях разблокировки. Как правило, каждое улучшение может быть разблокировано только в том случае, если предыдущее разблокировано и есть достаточно доступных гравитонных осколков. Исключением является первое улучшение, так как у него нет предыдущего улучшения. Некоторые улучшения также могут иметь дополнительные материальные затраты, которые указаны рядом с кнопкой разблокировки, если применимо. Если у улучшения есть более 1 подключенного предыдущего улучшения, то есть два варианта: либо для улучшения требуются ВСЕ подключенные предыдущие улучшения, либо КАК МИНИМУМ ОДНО (обозначается цветом соединения, красный означает ВСЕ, синий означает КАК МИНИМУМ ОДНО). Улучшения можно вернуть, просто нажав кнопку разблокировки ещё раз, но это работает только в том случае, если ВСЕ подключенные более поздние улучшения неактивны/разблокированы. Блок улучшений, следующий за разблокировкой модуля Heliufusion Exoticizer, является особенным, поскольку он считается §BРазделением§6. Как следует из названия, сначала можно выбрать только один путь из трёх, остальные будут заблокированы. Каждый путь имеет особые усиления, направленные в первую очередь на определённый модуль и, следовательно, влияющие на другие типы модулей с меньшим эффектом (если не указано иное). Количество разблокируемых путей зависит от количества колец в Кузнице Богов, которое, в свою очередь, ограничивается последующими улучшениями.
+gt.blockmachines.multimachine.FOG.milestoneinfotext=Вехи необходимы для улучшения Кузницы Богов, поскольку они являются источником гравитонных осколков - основной валюты, необходимой для разблокировки улучшений. По сути, вехи - это именно то, о чем говорит их название: пороговые значения, при достижении которых вы получаете гравитонные осколки. Существует четыре типа вех: "Заряд", "Конверсия", "Катализатор" и "Структура", каждая из которых относится к характеристике Кузницы Богов. Каждый веха состоит из 7 тиров, каждый из которых сложнее достичь, чем предыдущий, но и дает больше гравитонных осколков. Первый тир даёт 1 гравитонный осколок, второй - 2, третий - 3 и т. д. Веха §bЗаряд§6 масштабирует общее энергопотребление всех модулей вместе взятых, первый тир разблокируется при потреблении 1e15 EU, а каждая последующая веха масштабируется в 9 раз. Веха §bКонверсия§6 масштабируется от общего числа обработанных рецептов во всех модулях (за исключением режима печи Helioflare Power Forge), и его первый тир разблокируется при 10 млн обработанных рецептов. Последующие тиры увеличиваются в 4 раза. Веха §bКатализатор§6 основана на расходе топлива кузницы, который измеряется в единицах звёздного топлива (число, указанное в меню конфигурации топлива). Для достижения первого тира требуется израсходовать 10,000 единиц топлива, а каждый последующий тир увеличивает свой расход в 3 раза. И последнее, но не менее важное: веха §bСтруктура§6 работает немного по-другому, поскольку он масштабируется в зависимости от структуры Кузницы. Вехи достижений присваиваются за каждый уникальный тип модуля, присутствующего в структуре (модули Heliofusion Exoticizer в режиме кварк-глюона и магматтера считаются уникальными) и за каждое дополнительно построенное кольцо. Ваши исследования показывают, что может произойти что-то странное, если все контрольные точки достигнут своего конечного тира... Обязательно проверяйте!
 gt.blockmachines.multimachine.FOG.contributors=Авторы
 gt.blockmachines.multimachine.FOG.lead=Руководитель проекта
 gt.blockmachines.multimachine.FOG.cloud=GDCloud
@@ -1194,7 +1198,7 @@ gt.blockmachines.multimachine.FOG.thanks=Огромное спасибо эти�
 gt.blockmachines.multimachine.FOG.modulestats=Статистика модуля
 gt.blockmachines.multimachine.FOG.powerforge=Power Forge
 gt.blockmachines.multimachine.FOG.meltingcore=Melting Core
-gt.blockmachines.multimachine.FOG.plasmafab=Plasma Fabricator
+gt.blockmachines.multimachine.FOG.plasmafab=Производитель плазмы
 gt.blockmachines.multimachine.FOG.exoticizer=Exoticizer
 gt.blockmachines.multimachine.FOG.heat=Тепло
 gt.blockmachines.multimachine.FOG.effectiveheat=Эффективное тепло
@@ -1202,19 +1206,27 @@ gt.blockmachines.multimachine.FOG.speedbonus=Бонус скорости
 gt.blockmachines.multimachine.FOG.energydiscount=Скидка на энергию
 gt.blockmachines.multimachine.FOG.ocdivisor=Делитель разгона
 gt.blockmachines.multimachine.FOG.processingvoltage=Рабочий вольтаж
-gt.blockmachines.multimachine.FOG.factorpreview=Предварительный топливный множитель:
+gt.blockmachines.multimachine.FOG.factorpreview=Предварительный топливный коэффициент:
 gt.blockmachines.multimachine.FOG.clickstat=Нажмите для просмотра разбивки значений
 
 gt.blockmachines.multimachine.FOG.hint.0=1 - Классические шлюзы или Трансцендентно усиленный магнитно-удерживающий корпус
 gt.blockmachines.multimachine.FOG.hint.1=2 - Контроллеры модулей или Укреплённый сингулярностью звездный экранирующий корпус
 
 # Godforge Star Cosmetics
-fog.cosmetics.header=Star Cosmetics
+fog.cosmetics.header=Звездная косметика
 fog.cosmetics.color=Цвет
 fog.cosmetics.color.red=Красный
 fog.cosmetics.color.green=Зелёный
 fog.cosmetics.color.blue=Синий
+fog.cosmetics.color.hue=H
+fog.cosmetics.color.saturation=S
+fog.cosmetics.color.value=V
 fog.cosmetics.color.gamma=Гамма
+fog.cosmetics.color.rgb=RGB
+fog.cosmetics.color.rgb_colored=§cR§aG§9B
+fog.cosmetics.color.hsv=HSV
+fog.cosmetics.color.hsv_colored=§dH§6S§bV
+fog.cosmetics.color.hex=Hex:
 fog.cosmetics.selectcolor.tooltip.1=ЛКМ, чтобы выбрать этот цвет звезды
 fog.cosmetics.selectcolor.tooltip.2=Shift+ЛКМ, чтобы редактировать этот цвет звезды (цвет должен быть пользовательским)
 fog.cosmetics.starcolor=Пользовательский цвет звезды
@@ -1223,6 +1235,7 @@ fog.cosmetics.misc=Разное
 fog.cosmetics.spin=Вращение
 fog.cosmetics.size=Размер
 fog.cosmetics.animations=Анимации
+fog.cosmetics.animations.tooltip=Обновление может занять некоторое время при переключении
 fog.cosmetics.cyclespeed=Скорость цикла между цветами
 fog.cosmetics.onlyintegers=Принимает целые числа
 fog.cosmetics.onlydecimals=Принимает десятичные дроби
@@ -1244,7 +1257,9 @@ fog.cosmetics.deletecolors.tooltip=Удалить этот цвет звезды
 fog.cosmetics.importcolors=Импорт
 fog.cosmetics.importcolors.tooltip=Импортировать цвет звезды из текста
 fog.cosmetics.exportcolors=Экспорт
-fog.cosmetics.exportcolors.tooltip=Сохранить экспортированный цвет звезды в буфер обмена
+fog.cosmetics.exportcolors.tooltip=Скопировать экспортированный цвет звезды в буфер обмена
+fog.cosmetics.exportcolors.message=Экспортированный цвет звезды скопирован в буфер обмена.
+fog.cosmetics.exportcolors.failed=Не удалось скопировать экспортированный цвет звезды в буфер обмена
 fog.cosmetics.importer.import=Импортировать цвет звезды
 fog.cosmetics.importer.error=Неверный цвет звезды
 fog.cosmetics.importer.valid=Действительный цвет звезды
@@ -1326,11 +1341,11 @@ gt.blockmachines.machine.tt.buck.desc.0=Электронный вольтажн�
 gt.blockmachines.machine.tt.buck.desc.1=Регулируемый понижающий трансформатор
 gt.blockmachines.machine.tt.buck.desc.2=Импульсный источник питания...
 
-gt.blockmachines.machine.tt.tesla.01.name=LV Приемопередатчик Теслы
-gt.blockmachines.machine.tt.tesla.02.name=MV Приемопередатчик Теслы
-gt.blockmachines.machine.tt.tesla.03.name=HV Приемопередатчик Теслы
-gt.blockmachines.machine.tt.tesla.04.name=EV Приемопередатчик Теслы
-gt.blockmachines.machine.tt.tesla.05.name=IV Приемопередатчик Теслы
+gt.blockmachines.machine.tt.tesla.01.name=LV Приёмопередатчик Теслы
+gt.blockmachines.machine.tt.tesla.02.name=MV Приёмопередатчик Теслы
+gt.blockmachines.machine.tt.tesla.03.name=HV Приёмопередатчик Теслы
+gt.blockmachines.machine.tt.tesla.04.name=EV Приёмопередатчик Теслы
+gt.blockmachines.machine.tt.tesla.05.name=IV Приёмопередатчик Теслы
 gt.blockmachines.machine.tt.tesla.desc.0=Ваш личный Теслоприёмник
 gt.blockmachines.machine.tt.tesla.desc.1=Сила молнии для промышленных магнатов
 
@@ -1390,11 +1405,20 @@ GT5U.gui.text.waiting_for_inputs=§7Waiting for inputs
 GT5U.gui.text.computation_loss=§4Выключен из-за потери вычислительных данных.
 GT5U.gui.text.researching_item=§fИсследование: §b%s
 GT5U.gui.text.research_progress=§fВычислительной мощности: %d/%d (%s%%)
+GT5U.gui.text.at_eu_transferred=§8EU передано:
+GT5U.gui.text.at_past_5secs.header=§7Последние 5 секунд:
+GT5U.gui.text.at_past_30secs.header=§7Последние 30 секунд:
+GT5U.gui.text.at_past_min.header=§7Последняя минута:
+GT5U.gui.text.at_history.values=  %s EU/t  (%sA %s)
+GT5U.gui.text.total_line=Всего: %s EU
+GT5U.gui.text.usage_line=Используется: %s EU/t
+GT5U.gui.text.time_line=Время: %s с
+GT5U.gui.text.time_line_with_ticks=Время: %s с (%d тиков)
 
 # RecipeMaps
-gt.recipe.eyeofharmony=Глаз гармонии
+gt.recipe.eyeofharmony=Око гармонии
 gt.recipe.researchStation=Исследовательская станция
-gt.recipe.fog_plasma=Heliothermal Plasma Fabricator
+gt.recipe.fog_plasma=Гелиотермальный производитель плазмы
 gt.recipe.fog_exotic=Heliofusion Exoticizer
 gt.recipe.fog_molten=Helioflux Melting Core
 gt.recipe.upgrade_costs=Улучшения Кузницы Богов
@@ -1509,11 +1533,11 @@ tt.keyphrase.Running_interdimensional_scan=Производится межпро
 tt.keyphrase.Running_local_dimension_scan=Производится внутрипространственное сканирование
 tt.keyphrase.Overdrive_disengaged=Режим перегрузки выключен
 tt.keyphrase.Overdrive_engaged=Режим перегрузки включен
-tt.keyphrase.Hysteresis_high_set_to=Верхний порог гистерезиса установлен на
-tt.keyphrase.Hysteresis_low_set_to=Нижний порог гистерезиса установлен на
-tt.keyphrase.Tesla_radius_set_to=Радиус Башни Теслы установлен на
-tt.keyphrase.Sending_power=Sending power
-tt.keyphrase.Receiving_power=Receiving power
+tt.keyphrase.Hysteresis_high_set_to=Верхний порог гистерезиса установлен на %s%%
+tt.keyphrase.Hysteresis_low_set_to=Нижний порог гистерезиса установлен на %s%%
+tt.keyphrase.Tesla_radius_set_to=Радиус Башни Теслы установлен на %sм
+tt.keyphrase.Sending_power=Энергия отправлена!
+tt.keyphrase.Receiving_power=Энергия получена!
 tt.keyphrase.Stored_energy=Энергии накоплено
 tt.keyphrase.Stored_EU=EU хранится
 tt.keyphrase.Average_IO=Средний вход/выход
@@ -1522,6 +1546,14 @@ tt.keyphrase.Average_IO_max=Вольтаж I/O макс.
 tt.keyphrase.Amperage_IO_(max)=Ампераж I/O (макс.)
 tt.keyphrase.Side_capabilities=Дополнительные возможности
 tt.keyphrase.Ass_line_recipe=Рецепты Сборочной линии
+
+tt.cover.ender_fluid_link.fill=Ender Filling Engaged!
+tt.cover.ender_fluid_link.suck=Ender Suction Engaged!
+
+tt.block.world_accelerator.set_speed=Machine acceleration changed to x%s
+tt.block.world_accelerator.set_range=Радиус механизма изменён на %s блоков
+tt.block.world_accelerator.set_range_fail=Can't change range; Machine is in Tile Entity mode!
+tt.block.world_accelerator.set_mode=Переключился в режим: %s
 
 #OpenTurrets compatibility
 tile.turretHeadEM.name=Турель элементальной материи
@@ -1884,27 +1916,27 @@ tt.element.AntiLivermorium=Анти ливерморий
 tt.element.AntiTennessine=Анти теннессин
 tt.element.AntiOganesson=Анти оганессон
 
-tt.IUPAC.n=nil
-tt.IUPAC.u=un
-tt.IUPAC.b=bi
-tt.IUPAC.t=tri
-tt.IUPAC.q=quad
-tt.IUPAC.p=pent
-tt.IUPAC.h=hex
-tt.IUPAC.s=sept
-tt.IUPAC.o=oct
-tt.IUPAC.e=enn
-tt.IUPAC.N=Nil
-tt.IUPAC.U=Un
-tt.IUPAC.B=Bi
-tt.IUPAC.T=Tri
-tt.IUPAC.Q=Quad
-tt.IUPAC.P=Pent
-tt.IUPAC.H=Hex
-tt.IUPAC.S=Sept
-tt.IUPAC.O=Oct
-tt.IUPAC.E=Enn
-tt.IUPAC.ium=ium
+tt.IUPAC.n=ноль
+tt.IUPAC.u=ун
+tt.IUPAC.b=би
+tt.IUPAC.t=три
+tt.IUPAC.q=квадро
+tt.IUPAC.p=пента
+tt.IUPAC.h=гекса
+tt.IUPAC.s=септа
+tt.IUPAC.o=окто
+tt.IUPAC.e=нона
+tt.IUPAC.N=Ноль
+tt.IUPAC.U=Ун
+tt.IUPAC.B=Би
+tt.IUPAC.T=Три
+tt.IUPAC.Q=Квадро
+tt.IUPAC.P=Пента
+tt.IUPAC.H=Гекса
+tt.IUPAC.S=Септа
+tt.IUPAC.O=Окто
+tt.IUPAC.E=Нона
+tt.IUPAC.ium=ий
 tt.IUPAC.Anti=Анти
 tt.keyword.Weird=*
 
@@ -1918,8 +1950,8 @@ tt.chat.debug.generator=Режим лазера: %s
 
 GT5U.gui.config.general.debug=Отладка
 GT5U.gui.config.general.features=Особенности
-GT5U.gui.config.general.teslatweaks=Tesla Tweaks
-GT5U.gui.config.general.visual=Visual
+GT5U.gui.config.general.teslatweaks=Настройки Тесла
+GT5U.gui.config.general.visual=Визуальный
 
 tt.eoh.fancy_names.crude=Грубый
 tt.eoh.fancy_names.primitive=Примитивный
@@ -1950,12 +1982,12 @@ tt.godforge.casings.6.Tooltip.1=Все ближе...
 tt.godforge.casings.7.Tooltip.0=Управляет потоком гравитонов для управления гравитацией
 tt.godforge.casings.7.Tooltip.1=Гравитационный центр
 tt.godforge.casings.8.Tooltip.0=Переносит и сохраняет огромное количество тепла без потерь
-tt.godforge.casings.8.Tooltip.1=<<<Thermal<<<
-tt.godforge.casings.8.Tooltip.2=>>>Wave>>>
+tt.godforge.casings.8.Tooltip.1=<<<Тепловая<<<
+tt.godforge.casings.8.Tooltip.2=>>>Волна>>>
 tt.godforge.star_color.preset.default=По умолчанию
 tt.godforge.star_color.preset.rainbow=Радужный
-tt.godforge.star_color.preset.clouds_pick=Cloud's Pick
-tt.godforge.star_color.preset.mayas_pick=Maya's Pick
+tt.godforge.star_color.preset.clouds_pick=Выбор Cloud's
+tt.godforge.star_color.preset.mayas_pick=Выбор Maya's
 
 
 tt.eoh.stability.tooltip=§b§lУвеличивает устойчивость поля пространства-времени.
@@ -2008,7 +2040,7 @@ tt.infodata.fog.upgrades.unlocked=Всего разблокировано улу
 tt.infodata.fog.connected=Подключено модулей: %s
 
 ## Tesla Tower
-tt.infodata.tesla.energy=Tesla Energy: %s EU / %s EU
+tt.infodata.tesla.energy=Тесла энергия: %s EU / %s EU
 tt.infodata.tesla.current_output=Текущий выход: %s EU / %s EU
 
 ## Base factory pipe
@@ -2021,8 +2053,8 @@ tt.gui.tooltip.safe_void=Safe Void
 tt.gui.tooltip.power_switch=Выключатель питания
 
 tt.gui.tooltip.plasma_module.debug_window=Окно отладки
-tt.gui.tooltip.plasma_module.debug_window.multi_step=multi-step
-tt.gui.tooltip.plasma_module.debug_window.fusion_tier=fusion tier
+tt.gui.tooltip.plasma_module.debug_window.multi_step=мульти-шаг
+tt.gui.tooltip.plasma_module.debug_window.fusion_tier=тир плазмы
 tt.gui.tooltip.plasma_module.debug_window.parallel=параллель
 
 tt.gui.text.debug.eut=EUT:
@@ -2040,7 +2072,7 @@ tt.gui.text.debug_structure_writer.moving_origin=(Перемещение ист�
 tt.gui.text.hatch.uncertainty.status.ok=Статус: ОК
 tt.gui.text.hatch.uncertainty.status.ng=Status: NG
 
-tt.gui.tooltip.full_led_desc.in.id=ID: %s:%s:§bI %s
-tt.gui.tooltip.full_led_desc.out.id=ID: %s:%s:§bO %s
+tt.gui.tooltip.full_led_desc.in.id=ID: %s:%s:§bВвод %s
+tt.gui.tooltip.full_led_desc.out.id=ID: %s:%s:§bВывод %s
 tt.gui.tooltip.full_led_desc.value=Значение: %s
 tt.gui.tooltip.full_led_desc.unused=Пока не используется

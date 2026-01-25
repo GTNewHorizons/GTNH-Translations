@@ -22,7 +22,7 @@ serverutilities.unsaved_changes.title=Unsaved Changes
 serverutilities.unsaved_changes=You have unsaved changes. Do you want to save them?
 serverutilities.command_overview=Command Overview
 
-serverutilities.stat.time_afk=Time AFK
+serverutilities.stat.time_afk=Tempo AFK
 serverutilities.stat.time_afk_percent=Percentage of time spent AFK
 serverutilities.stat.time_active=Time actively playing (not AFK)
 serverutilities.stat.dph=Deaths Per Hour
@@ -160,6 +160,9 @@ serverutilities.debugging.log_chunkloading=Log Chunkloading
 serverutilities.general.clientless_mode=Clientless Mode
 serverutilities.general.replace_reload_command=Replace /reload Command
 serverutilities.general.merge_offline_mode_players=Merge Offline Mode Players
+serverutilities.general.toggle_cheats=Toggle Cheats
+serverutilities.general.enable_cheats=Enable Cheats
+serverutilities.general.disable_cheats=Disable Cheats
 
 serverutilities.teams=Teams
 serverutilities.teams.autocreate_sp=Autocreate on Singleplayer
@@ -216,7 +219,7 @@ serverutilities.notifications.restart_timer=Restart Timer
 serverutilities.notifications.restart_timer.desc=Notifies when server is about to restart
 serverutilities.notifications.cleanup=Cleanup
 serverutilities.notifications.cleanup.desc=Notifies when entity cleanup is about to start or finish
-serverutilities.notifications.player_afk=Player AFK
+serverutilities.notifications.player_afk=Jogador AFK
 serverutilities.notifications.player_afk.desc=Notifies when a player goes AFK
 
 
@@ -246,8 +249,8 @@ permission.serverutilities.spawn.warmup=/spawn Warmup Timer
 permission.serverutilities.back.warmup=/back Warmup Timer
 permission.serverutilities.rtp.warmup=/rtp Warmup Timer
 permission.serverutilities.afk.timer=AFK Timer
-permission.serverutilities.afk.timer.is_afk=%s is now AFK
-permission.serverutilities.afk.timer.isnt_afk=%s is no longer AFK
+permission.serverutilities.afk.timer.is_afk=%s está AFK
+permission.serverutilities.afk.timer.isnt_afk=%s não está mais AFK
 permission.serverutilities.chat.prefix.left.color=Chat Prefix Color
 permission.serverutilities.chat.prefix.base.color=Chat Prefix Color
 permission.serverutilities.chat.prefix.right.color=Chat Prefix Color
@@ -444,7 +447,7 @@ commands.unmute.usage=/unmute <player>
 commands.rec.usage=/rec
 commands.rec.recording=%s is now recording!
 commands.rec.not_recording=%s is no longer recording!
-commands.ping.integrated_server=Integrated Server
+commands.ping.integrated_server=Servidor Integrado
 commands.ping.unknown=Unknown
 commands.ping.ping=Ping %s
 commands.backup.usage=/backup
@@ -581,22 +584,22 @@ commands.tree_base.invalid_cmd.list_subcommands=Invalid subcommand '%s'! Availab
 commands.tree_base.available_subcommands=Available SubCommands: %s
 
 # Backup
-cmd.timer_backup=Next backup: %s
-cmd.backup_start=Server Backup started!
-cmd.backup_stop=Server Backup stopped!
-cmd.backup_end_1=Server backup done in %s!
-cmd.backup_end_2=Server backup done in %s! (%s)
+cmd.timer_backup=Próximo backup: %s
+cmd.backup_start=Backup do Servidor iniciado!
+cmd.backup_stop=Backup do Servidor interrompido!
+cmd.backup_end_1=Backup do servidor finalizado em %s!
+cmd.backup_end_2=Backup do servidor finaliado em %s! (%s)
 cmd.backup_fail=Failed to save world! (%s)
 cmd.backup_manual_launch=%s launched a manual backup!
 cmd.backup_already_running=Backup in progress!
 cmd.backup_not_running=Backup is not running!
 cmd.backup_size=Current world size: %s, total backups folder size: %s
-serverutilities.gui.backup.title=Restore Backup (%s)
+serverutilities.gui.backup.title=Restaurar Backup (%s)
 serverutilities.gui.backup.button=Backups
-serverutilities.gui.backup.restore=Restore
+serverutilities.gui.backup.restore=Restaurar
 serverutilities.gui.backup.restore_global=Restore (with global data)
 serverutilities.gui.backup.error=An error occured while restoring backup!
-serverutilities.gui.backup.delete_confirm=Are you sure you want to §c§ldelete§r this backup?
+serverutilities.gui.backup.delete_confirm=Você tem certeza que você quer §c§ldeletar§r este backup?
 serverutilities.gui.backup.restore_confirm=Are you sure you want to §a§lrestore§r this backup?
 serverutilities.gui.backup.restore_global_confirm=Are you sure you want to §a§lrestore (global)§r this backup?
 serverutilities.gui.backup.restore_confirm_desc=This will also restore global world related data. The previous data will be moved into ".minecraft/backups_before_restore"
@@ -648,8 +651,8 @@ gui.downloading=Downloading...
 gui.infinite=Infinite
 
 ## Sides
-facing.north=North
-facing.south=South
+facing.north=Norte
+facing.south=Sul
 facing.west=West
 facing.east=East
 

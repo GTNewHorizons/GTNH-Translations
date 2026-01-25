@@ -102,7 +102,14 @@ tile.projectred.expansion.machine2|11.name=Automatische Werkbank
 tile.projectred.expansion.machine2|12.name=Diamant Blockbrecher
 item.projectred.expansion.solar_panel.name=Solarpanel
 enchantment.projectred.expansion.fuel_efficiency=Treibstoffeffizienz
-
+gui.projectred.expansion.machine1|0.title=Inductive Furnace
+gui.projectred.expansion.machine1|1.title=Electrotine Generator
+gui.projectred.expansion.machine2|2.title=Block Placer
+gui.projectred.expansion.machine2|3.title=Filtered Importer
+gui.projectred.expansion.machine2|5.title=Battery Box
+gui.projectred.expansion.machine2|6.title=Charging Bench
+gui.projectred.expansion.machine2|10.title=Project Bench
+gui.projectred.expansion.machine2|11.title=Auto Crafting Bench
 
 
 
@@ -129,8 +136,8 @@ item.projectred.transportation.pipe|5.name=Routen-Erweiterungsrohr
 item.projectred.transportation.pipe|6.name=Routen-Firewall-Rohr
 item.projectred.transportation.pipe|7.name=Druckrohr
 item.projectred.transportation.pipe|8.name=Widerständiges Druckrohr
-item.projectred.transportation.pipe|9.name=Network Valve pipe
-item.projectred.transportation.pipe|10.name=Network Latency pipe
+item.projectred.transportation.pipe|9.name=Network Valve Pipe
+item.projectred.transportation.pipe|10.name=Network Latency Pipe
 
 
 
@@ -236,7 +243,7 @@ tile.projectred.exploration.stonewalls|10.name=Siberwand
 tile.projectred.exploration.stonewalls|11.name=Electrotin-Wand
 tile.projectred.exploration.lily.name=Deviating Lily
 tile.projectred.exploration.lily|0.name=Deviating Lily
-item.projectred.exploration.lilyseed.name=Deviating Lily seed
+item.projectred.exploration.lilyseed.name=Deviating Lily Seed
 item.projectred.exploration.lilyseed|0.name=Samen der Weißen Fernlilie
 item.projectred.exploration.lilyseed|1.name=Samen der Orangen Fernlilie
 item.projectred.exploration.lilyseed|2.name=Samen der Magentafarbenen Fernlilie
@@ -507,8 +514,14 @@ item.projectred.integration.gate|31.name=Datenzelle
 item.projectred.integration.gate|32.name=Segmentdisplay-Gatter
 item.projectred.integration.gate|33.name=Dec-Randomizer
 item.projectred.integration.gate|34.name=IC-Gatter
-
-
+tile.projectred.integration.icblock.name=IC Workbench/Printer
+tile.projectred.integration.icblock|0.name=IC-Werkbank
+tile.projectred.integration.icblock|1.name=IC-Drucker
+gui.projectred.integration.icblock|0.title=IC Workbench
+gui.projectred.integration.icblock|0.detail=detail
+gui.projectred.integration.icblock|0.scale=scale
+gui.projectred.integration.icblock|0.redraw=redraw
+gui.projectred.integration.icblock|1.title=IC Printer
 
 
 itemGroup.trans=Project Red: Transmission
@@ -589,6 +602,3 @@ item.projectred.fabrication.icblueprint.name=IC-Plan
 item.projectred.fabrication.icchip.name=IC Chip
 item.projectred.fabrication.icchip|0.name=IC-Chip
 item.projectred.fabrication.icchip|1.name=Kreativmodus-IC-Chip
-tile.projectred.integration.icblock.name=IC Workbench/Printer
-tile.projectred.integration.icblock|0.name=IC-Werkbank
-tile.projectred.integration.icblock|1.name=IC-Drucker

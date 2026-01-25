@@ -73,7 +73,7 @@ gtpp.recipe.rocketenginefuel=Топливо для ракетного двига
 gtpp.recipe.quantumforcesmelter=Квантовый силовой преобразователь
 gtpp.recipe.chemicaldehydrator=Дегидратор
 gtpp.recipe.vacfurnace=Вакуумная печь
-gtpp.recipe.alloyblastsmelter=Плавильная доменная печь
+gtpp.recipe.alloyblastsmelter=Сплавоплавильная доменная печь
 gtpp.recipe.lftr=Жидкостный фтористо-ториевый реактор
 gtpp.recipe.lftr.sparging=Барботирование газа ЖФТР
 gtpp.recipe.nuclearsaltprocessingplant=Завод по переработке ядерной соли
@@ -97,6 +97,8 @@ gtpp.recipe.multidehydrator=Мультиблоковый дегидратор
 gtpp.recipe.semifluidgeneratorfuels=Топливо полужидкостного генератора
 gtpp.recipe.flotationcell=Флотационная камера
 gtpp.recipe.treefarm=Симулятор роста деревьев
+gtpp.recipe.algae_pond=Пруд с водорослями
+gtpp.recipe.multiblockrockbreaker=Болдарнатор
 
 # Recipe categories
 gtpp.recipe.category.abs_non_alloy_recipes=Рецепты ABS без сплавов
@@ -137,6 +139,7 @@ gtpp.nei.tgs.info-1=Производительность дополнитель�
 gtpp.nei.tgs.info-2=за счет тира механизма
 gtpp.nei.tgs.info-3=и типа инструмента
 
+gtpp.nei.ap.tier=Тир пруда с водорослями: %s
 
 # Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=Ведро пылающего пиротеума
@@ -302,7 +305,7 @@ item.backpackDarkGreen.name=Тёмно-зелёный рюкзак
 item.backpackDarkPurple.name=Тёмно-фиолетовый рюкзак
 item.backpackTeal.name=Бирюзовый рюкзак
 item.backpackNavy.name=Тёмно-синий рюкзак
-item.backpackSilver.name=Серебрянный рюкзак
+item.backpackSilver.name=Серебряный рюкзак
 item.backpackGray.name=Серый рюкзак
 item.backpackBlack.name=Чёрный рюкзак
 item.backpackWhite.name=Белый рюкзак
@@ -327,9 +330,9 @@ item.itemLavaFilter.name=Лавовый фильтр
 item.itemLavaFilter.tooltip=Фильтрует лаву в Тепловом бойлере.
 item.itemGrindleTablet.name=Grindle
 item.itemGrindleTablet.tooltip=Используется для чтения данных с Флешек и Сфер данных.
-item.itemDragonJar.0.name=Dragon Capture Jar
+item.itemDragonJar.0.name=Банка для поимки дракона
 item.itemDragonJar.0.tooltip=Does not contain anything.
-item.itemDragonJar.1.name=Captured Dragon Jar
+item.itemDragonJar.1.name=Банка с пойманным драконом
 item.itemDragonJar.1.tooltip=Содержит %s.
 item.itemControlCore.name=Ядро управления [%s]
 item.itemControlCore.tooltip.0=Позволяет мультиблоку функционировать до %s
@@ -1630,7 +1633,7 @@ item.dustImpureYellorium.name=Неочищенная кучка йеллориу
 item.dustPureYellorium.name=Очищенная кучка йеллориумной пыли
 
 # Shards
-item.itemDrained.name=Drained Shard
+item.itemDrained.name=Осушенный осколок
 item.itemAer.name=Кристалл воздуха
 item.itemIgnis.name=Кристалл огня
 item.itemTerra.name=Кристалл земли
@@ -1868,7 +1871,7 @@ item.itemDehydratorCoil_0.name=Катушка дегидратора [EV]
 item.itemAirFilter.name=Воздушный фильтр
 item.itemAirFilter_0.name=Воздушный фильтр
 item.itemAirFilter_1.name=Воздушный фильтр
-item.itemDragonJar.name=Dragon Capture Jar
+item.itemDragonJar.name=Банка для поимки дракона
 item.CoalGas.name=Капсула угольного газа
 item.Ethylbenzene.name=Капсула этилбензола
 item.Anthracene.name=Капсула антрацена
@@ -1893,7 +1896,7 @@ item.itemGemDull.name=Тусклый драгоценный камень
 item.itemMushroomForest.name=Лесной гриб
 item.itemPlateVanadium.name=Ванадиевая пластина
 item.thekeytothecity.name=Ключ от города
-item.modularbauble.name=Modular Bauble
+item.modularbauble.name=Модульный Bauble
 item.itemDustSoularium.name=Пыль призрачного сплава
 item.itemDustSmallSoularium.name=Маленькая кучка пыли призрачного сплава
 item.itemDustTinySoularium.name=Крошечная кучка пыли призрачного сплава
@@ -2283,7 +2286,7 @@ tile.blockHellFire.name=Адский огонь
 tile.blockProjectBench.name=Проектный стол
 tile.blockTradeBench.name=Торговый верстак
 tile.blockModularity.name=Модульный верстак
-tile.blockBlackGate.name=Wither Cage
+tile.blockBlackGate.name=Клетка иссушителя
 tile.blockTankXpConverter.name=Конвертер опыта
 
 # Everglades Blocks
@@ -2304,7 +2307,7 @@ tile.Block of MeatRaw.name=Блок сырого мяса
 item.BurntLiFBeF2ThF4UF4.name=Капсула с отработанным реакторным топливом [LiFBeF2ThF4UF4]
 item.BurntLiFBeF2ZrF4UF4.name=Капсула с отработанным реакторным топливом [LiFBeF2ZrF4UF4]
 item.BurntLiFBeF2ZrF4U235.name=Капсула с отработанным реакторным топливом [LiFBeF2ZrF4U235]
-item.itemBigEgg.name= ounce Chicken Egg
+item.itemBigEgg.name= унция Куриных яиц
 item.itemPlateSodium.name=Натриевая пластина
 
 item.itemNuggetPromethium.name=Прометиевый самородок
@@ -4046,6 +4049,7 @@ gtpp.tooltip.wireless_charger.4=§aСмешанный режим§7: Может 
 gtpp.infodata.multi_block.total_time=Общее время с момента постройки: %s Недель, %s Дней,
 gtpp.infodata.multi_block.total_time.0=%s Час(ы), %s Минут(ы), %s Секунд(ы).
 gtpp.infodata.multi_block.total_time.in_ticks=Общее время в тиках: %s
+gtpp.infodata.multi_block.recipes_done=Рецепты завершены: %s
 gtpp.infodata.tesseract_generator.name=Тессеракт генератор
 gtpp.infodata.tesseract_generator.frequency=Частота: %d
 gtpp.infodata.tesseract_generator.status.active=Активен

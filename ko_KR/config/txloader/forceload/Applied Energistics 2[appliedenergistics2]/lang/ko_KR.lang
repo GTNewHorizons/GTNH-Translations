@@ -137,6 +137,8 @@ chat.appliedenergistics2.MachineHighlighted=The %d is now highlighted at %d, %d,
 chat.appliedenergistics2.MachineHighlightedNamed=The %d "%d" is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageHighlighted=The %d containing %d %d is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d containing %d %d is located in dimension: %d and cant be highlighted
+chat.appliedenergistics2.PatternRepeaterProvider=§5Provider§r - will provide pattern to current system from in front §5Accessor§r.
+chat.appliedenergistics2.PatternRepeaterAccessor=§5Accessor§r - will provide pattern to in front §5Provider§r.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=응용 에너지학 2
@@ -230,6 +232,9 @@ gui.appliedenergistics2.IOBuses=ME 반입/반출 버스
 gui.appliedenergistics2.Stores=Stores
 gui.appliedenergistics2.BytesUsed=바이트 사용 중
 gui.appliedenergistics2.TimeUsed=Time Used
+gui.appliedenergistics2.CraftName=Craft Name
+gui.appliedenergistics2.Remains=Remains
+gui.appliedenergistics2.Progress=Progress
 gui.appliedenergistics2.Types=종류들
 gui.appliedenergistics2.Blank=Blank
 gui.appliedenergistics2.Unlinked=연결되지 않음
@@ -243,6 +248,7 @@ gui.appliedenergistics2.MolecularAssembler=분자 조합기
 gui.appliedenergistics2.ProcessingPattern=패턴 제작하기
 gui.appliedenergistics2.Crafts=다음을 조합:
 gui.appliedenergistics2.HoldShift=Hold [LSHIFT] to show Ingredients
+gui.appliedenergistics2.PatternView=Press [%s] to view pattern
 gui.appliedenergistics2.Result=Result
 gui.appliedenergistics2.Results=Results
 gui.appliedenergistics2.Ingredients=Ingredients
@@ -340,8 +346,17 @@ gui.appliedenergistics2.HoldShiftClick_HIGHLIGHT_INTERFACE=Hold shift click to h
 gui.appliedenergistics2.Nothing=Nothing
 gui.appliedenergistics2.VoidCellTooltip=Deletes §4everything§7 stored on it
 gui.appliedenergistics2.CellView=Cell View
+gui.appliedenergistics2.Inputs=Inputs
+gui.appliedenergistics2.Outputs=Outputs
+gui.appliedenergistics2.EncodedPattern=Encoded Pattern
 gui.appliedenergistics2.Deprecated=Deprecated, will be removed soon!
 gui.appliedenergistics2.ViewCellToggleKey=Right-click to toggle
+gui.appliedenergistics2.CPUAllowMode=Accept request
+gui.appliedenergistics2.CPUAllowAll=All
+gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Only from non-player
+gui.appliedenergistics2.CPUOnlyAllowPlayer=Only from player
+gui.appliedenergistics2.CPUSourcePlayer=Requester
+gui.appliedenergistics2.CPUSourceMachineRequested=Machine Requested
 
 gui.appliedenergistics2.NetworkBytesDetails=Network Bytes Details
 gui.appliedenergistics2.Items=Items
@@ -366,6 +381,8 @@ gui.appliedenergistics2.NumberOfFluids=Number of fluids
 gui.appliedenergistics2.ItemsPerByte=Items per byte:
 gui.appliedenergistics2.FluidsPerByte=Fluids per byte:
 gui.appliedenergistics2.BytesPerType=Bytes per type:
+gui.appliedenergistics2.SelectColor=Select a Color
+gui.appliedenergistics2.Selected=Selected
 
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
@@ -396,6 +413,8 @@ gui.tooltips.appliedenergistics2.Encode=Encode Pattern
 gui.tooltips.appliedenergistics2.EncodeDescription=Write the entered pattern to the current encoded pattern, or to available blank pattern.
 
 gui.tooltips.appliedenergistics2.FuzzyMode=Fuzzy Comparison
+gui.tooltips.appliedenergistics2.FZPercent_1=Split Damage at 1%
+gui.tooltips.appliedenergistics2.FZPercent_10=Split Damage at 10%
 gui.tooltips.appliedenergistics2.FZPercent_25=Split Damage at 25%
 gui.tooltips.appliedenergistics2.FZPercent_50=Split Damage at 50%
 gui.tooltips.appliedenergistics2.FZPercent_75=Split Damage at 75%
@@ -418,6 +437,7 @@ gui.tooltips.appliedenergistics2.NumberOfItems=Number of items
 gui.tooltips.appliedenergistics2.ItemName=Item name
 gui.tooltips.appliedenergistics2.PowerUnits=Power Units
 gui.tooltips.appliedenergistics2.IOMode=Input/Output Mode
+gui.tooltips.appliedenergistics2.ExtractionMode=Extraction Mode
 gui.tooltips.appliedenergistics2.CondenserOutput=ME Condenser - Output
 gui.tooltips.appliedenergistics2.PartitionStorage=Partition Storage
 gui.tooltips.appliedenergistics2.Clear=Clear
@@ -432,6 +452,8 @@ gui.tooltips.appliedenergistics2.Singularity=Condense Into Singularities\n%s per
 gui.tooltips.appliedenergistics2.Read=Extract Only
 gui.tooltips.appliedenergistics2.Write=Insert Only
 gui.tooltips.appliedenergistics2.ReadWrite=Bi-Directional
+gui.tooltips.appliedenergistics2.Strict=Strict - Network sees only filtered items
+gui.tooltips.appliedenergistics2.Loose=Loose - Network sees everything
 
 gui.tooltips.appliedenergistics2.AlwaysActive=Always active
 gui.tooltips.appliedenergistics2.ActiveWithoutSignal=Active without signal
@@ -464,7 +486,7 @@ gui.tooltips.appliedenergistics2.CraftOnly=Do not use stocked items, only craft 
 gui.tooltips.appliedenergistics2.CraftEither=Use stocked items, or craft items while exporting.
 gui.tooltips.appliedenergistics2.LevelType=Level Type
 gui.tooltips.appliedenergistics2.LevelType_Energy=Energy
-gui.tooltips.appliedenergistics2.LevelType_Item=Item
+gui.tooltips.appliedenergistics2.LevelType_Item_Fluid=Item / Fluid
 gui.tooltips.appliedenergistics2.InventoryTweaks=인벤토리 트윅
 gui.tooltips.appliedenergistics2.Mod=모드
 gui.tooltips.appliedenergistics2.UsedPercent=Percentage
@@ -487,7 +509,7 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=No: Only extractable 
 gui.tooltips.appliedenergistics2.TypeFilter=Filter Types
 gui.tooltips.appliedenergistics2.TypeFilterShowAll=Show All
 gui.tooltips.appliedenergistics2.TypeFilterShowItemsOnly=Show Items only
-gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=Show Fluid Drops only
+gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=Show Fluids only
 
 gui.tooltips.appliedenergistics2.BlockPlacement=Block Placement
 gui.tooltips.appliedenergistics2.BlockPlacementYes=Blocks will be placed as block.
@@ -498,8 +520,8 @@ gui.tooltips.appliedenergistics2.SchedulingModeDefault=Export the first item unt
 gui.tooltips.appliedenergistics2.SchedulingModeRoundRobin=Export using round robin mode.
 gui.tooltips.appliedenergistics2.SchedulingModeRandom=Export items in random mode.
 
-gui.tooltips.appliedenergistics2.ItemsStored=Items Stored: %s
-gui.tooltips.appliedenergistics2.ItemCount=Items Count: %s
+gui.tooltips.appliedenergistics2.ItemsStored=Stored: %s
+gui.tooltips.appliedenergistics2.ItemCount=Count: %s
 gui.tooltips.appliedenergistics2.ItemsRequestable=Items Requestable: %s
 gui.tooltips.appliedenergistics2.P2PFrequency=Frequency: %s
 gui.tooltips.appliedenergistics2.OreFilterHint=Filter items using ore dictionary names
@@ -657,6 +679,20 @@ waila.appliedenergistics2.CraftingLockedByLackOfRedstoneSignal=Locked by lack of
 waila.appliedenergistics2.CraftingLockedByRedstoneSignal=Locked by redstone signal
 waila.appliedenergistics2.CraftingLockedUntilPulse=Waiting for redstone pulse to unlock
 waila.appliedenergistics2.CraftingLockedUntilResult=Waiting for results to unlock
+waila.appliedenergistics2.CoordinateX=X
+waila.appliedenergistics2.CoordinateY=Y
+waila.appliedenergistics2.CoordinateZ=Z
+waila.appliedenergistics2.Dimension=Dimension
+waila.appliedenergistics2.Id=id
+waila.appliedenergistics2.ConnectedTo=Connected to
+waila.appliedenergistics2.Disconnected=Disconnected
+waila.appliedenergistics2.Singularity=Singularity
+waila.appliedenergistics2.Provider=§5Provider§r
+waila.appliedenergistics2.Accessor=§5Accessor§r
+waila.appliedenergistics2.Waiting=Waiting:
+
+# Baubles Extended
+slot.Terminal=§aTerminal§7
 
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=1k ME 저장용 셀
@@ -806,6 +842,7 @@ item.appliedenergistics2.ItemPart.InterfaceTerminal.name=ME 인터페이스 터�
 item.appliedenergistics2.ItemPart.InvertedToggleBus.name=ME 반전된 토글 버스
 item.appliedenergistics2.ItemPart.ToggleBus.name=ME 토글 버스
 item.appliedenergistics2.ItemPart.CraftingMonitor.name=ME 제작 과정 모니터
+item.appliedenergistics2.ItemPart.PatternRepeater.name=ME Pattern Repeater
 
 item.appliedenergistics2.ItemSpatialStorageCell.128Cubed.name=128³ 시공 셀
 item.appliedenergistics2.ItemSpatialStorageCell.16Cubed.name=16³ 시공 셀
@@ -921,3 +958,7 @@ stat.ae2.TurnedCranks=Turned Cranks
 key.appliedenergistics2.category=응용 에너지학 2
 key.toggle_focus.desc=Toggle search box focus
 key.search_connected_inventories.desc=Search network inventories for item
+key.control_operation.desc=Control operation
+
+# NEI
+nei.options.keys.gui.pattern_view=View Pattern

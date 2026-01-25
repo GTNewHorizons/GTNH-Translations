@@ -3027,8 +3027,8 @@ botania.page.thermalily1=&o0108 Style&r
 # -- ROSA ARCANA
 botania.entry.arcanerose=ローザアルカナ
 botania.tagline.arcanerose=経験からマナを得る
-botania.page.arcanerose0=&4経験値&0は魔法のようなもの です。&1ローザアルカナ&0は、 周囲のプレイヤーから経験 値を吸収し、それを&4マナ&0に 変換します。<br>ただし、経験値オーブを直 接吸収することはできませ ん。プレイヤーが回収する 必要があります。
-botania.page.arcanerose1=&oこのカードが召喚されたとき、コインを1枚投げる&r
+botania.page.arcanerose0=&4経験値&0は魔法のようなもの です。&1ローザアルカナ&0は、 周囲のプレイヤーから経験 値を吸収し、それを&4マナ&0に 変換します。<br>また、経験値オーブやエン チャントしたアイテムから マナを合成することも可能 です。
+botania.page.arcanerose1=&oこの花が植え付けられたとき、コインを1枚投げる&r
 
 # -- MUNCHDEW
 botania.entry.munchdew=マンチデュー
@@ -3229,18 +3229,18 @@ botania.page.forestEye1=The counting only starts at 2, so, with 2 animals around
 botania.page.forestEye2=Now you see me...
 
 # -- OPEN CRATE
-botania.entry.openCrate=Open Crate
-botania.tagline.openCrate=A simple device to drop things
-botania.page.openCrate0=Sometimes devices like &1Droppers&0 or &1Dispensers&0 aren't precise or fast enough. A simple solution is to make a crate and punch a hole in the bottom.<br>Yeah, it's that simple. The &1Open Crate&0 accepts items from &1Hoppers&0 or any other means of inserting items, and obviously, drops them directly below it.
-botania.page.openCrate1=Depending on the situation, items can be inserted into the open crate with a &1Hopper&0, &1Hopperhock&0 or &1Dropper&0.<br>A little interesting effect the &1Open Crate&0 can do is that, when given a redstone signal, any items it drops are prevented from being caught by flowers like the &1Hopperhock&0, &1Rannuncarpus&0 or &1Pollidisiac&0 for around ten seconds more than usual.
-botania.page.openCrate2=A super crate box
+botania.entry.openCrate=開いた木箱
+botania.tagline.openCrate=ものを落とすシンプルな装置
+botania.page.openCrate0=&1ドロッパー&0や&1ディスペンサ ー&0のような装置では、速度 が十分でないこともあり ます。簡単な解決策として、 木箱を作って底に穴を空け るといいですよ。<br>ええ、それだけです。&1開 いた木箱&0は、&1ホッパー&0など からアイテムが搬入され ると、そのまま下に落と します。
+botania.page.openCrate1=状況に応じて、&1ホッパー&0や &1ホッパーホック&0、&1ドロッパ ー&0などを使用して搬入す るといいでしょう。<br>また、&1開いた木箱&0の面白い 効果として、レッドスト ーン入力を受け取ると、落 としたアイテムが&1ホッパー ホック&0や&1ラナンカーパス&0、 &1ポリディシアック&0などの花 に拾われるまでの時間が通 常よりも10秒伸びます。
+botania.page.openCrate2=すごい木箱
 
 # -- DRUM OF THE WILD
-botania.entry.forestDrum=Drum of the Wild
-botania.tagline.forestDrum=Harvest crops and uproot grass with mana bursts
-botania.page.forestDrum0=The &1Drum of the Wild&0 is, in layman's terms, the percussion counterpart of the &1Horn of the Wild&0. It serves the exact same purpose as the handheld horn, but is placed in world.<br>To trigger a beat and break nearby foliage, one would fire a &4Mana Burst&0 at the drum.
-botania.page.forestDrum1=It's to note that the drum does not store mana, hence, in order to trigger it, a &1Pulse Mana Spreader&0 or a &1Mana Blaster&0 is required.
-botania.page.forestDrum2=But if you close your eyes...
+botania.entry.forestDrum=野生のドラム
+botania.tagline.forestDrum=マナバーストで作物を収穫し、草を刈り取る
+botania.page.forestDrum0=&1野生のドラム&0は、簡単に言 うと&1野生の角笛&0の打楽器版 です。これは手持ちの角 笛と同じ役割を果たします が、ワールドに設置するこ とができます。<br>ビートで周囲の植物を破 壊するには、ドラムに&4マナ バースト&0を当てます。
+botania.page.forestDrum1=なお、このドラムにはマナ を貯蔵することができない ので、使用するには&1パルス 式マナ射出装置&0か&1マナブ ラスター&0が必要になります。
+botania.page.forestDrum2=目を閉じると…
 
 # -- ABSTRUSE PLATFORM
 botania.entry.platform=難解なプラットフォーム
@@ -3272,59 +3272,59 @@ botania.page.spectralPlatform0=&1おばけプラットフォーム&0は、 実�
 botania.page.spectralPlatform1=まるでパズルみたい
 
 # -- DRUM OF THE GATHERING
-botania.entry.gatherDrum=Drum of the Gathering
-botania.tagline.gatherDrum=Shear sheep and milk cows with mana bursts
-botania.page.gatherDrum0=The &1Drum of the Gathering&0 is, in short terms, a &1Drum of the Wild&0 for livestock.<br>When a &4Mana Burst&0 collides with it, it'll shear any &4Sheep&0 around with grown fleece. Any &4Cows&0, with &1Empty Buckets&0 below them will have their milk transfered to the buckets.
-botania.page.gatherDrum1=Tap your lands
+botania.entry.gatherDrum=収集のドラム
+botania.tagline.gatherDrum=マナバーストで羊毛を刈り、牛乳を搾る
+botania.page.gatherDrum0=&1収集のドラム&0は、簡単に言 うと家畜用の&1野生のドラム&0 です。<br>&4マナバースト&0が当たると、 周囲の&4羊&0の毛を刈り取りま す。&4牛&0の下に&1空のバケツ&0 がある場合、バケツが牛乳 で満たされます。
+botania.page.gatherDrum1=あなたの土地をタップする
 
 # -- CRAFTY CRATE
-botania.entry.craftCrate=Crafty Crate
-botania.tagline.craftCrate=A way to craft automatically
-botania.page.craftCrate0=As the name suggests, the &1Crafty Crate&0 is a counterpart to the &1Open Crate&0 with the ability to assemble items into other items similarly to a &1Crafting Table&0.<br>Like a &1Crafting Table&0, it has a 9 slot inventory, which can be filled with items in the pattern of a recipe.
-botania.page.craftCrate1=The items go in from left to right and top to bottom (illustration further in this entry), to that, there's a special item, named the &1Crafting Placeholder&0, which, when placed in, counts as an empty slot in the recipe. This is used to allow for recipes with gaps (eg, furnace, chest, pickaxe...) to also be doable.
-botania.page.craftCrate2=Creating the placeholder
-botania.page.craftCrate3=To finish the recipe, one of two things can be done.<br>First off, filling every of the 9 slots with either recipe components or placeholders will instantly eject the result, the placeholders and any leftovers (e.g. buckets when making cake), this is the most straightforward method.
-botania.page.craftCrate4=Right clicking the crate with a &1Wand of the Forest&0 (remember: &1Dispensers&0 can do this) will attempt at crafting with whatever is inside the crate and eject it.<br>If this fails all the items inside are simply ejected with no crafting procedure done.
-botania.page.craftCrate7=Attaching a &1Comparator&0 to the crate will have it emit a signal equal to the amount of items inside the crate, which can be an extremely valuable asset in creating mechanisms with it.
-botania.page.craftCrate5=An example of crafting a &1Diamond Pickaxe&0
-botania.page.craftCrate6=Made in Portugal
-botania.page.craftCrate8=The &1Crafty Crate&0 can also be augmented with patterns. A pattern locks specific slots in the recipe, disallowing items from going into those slots and making them count as if there were placeholders there.<br>There's only a few basic patterns, which can be applied by right clicking on the crate (this doesn't consume them).
-botania.page.craftCrate9=9 different patterns
+botania.entry.craftCrate=クラフト木箱
+botania.tagline.craftCrate=自動クラフト方法
+botania.page.craftCrate0=その名の通り、&1クラフト木 箱&0は&1開いた木箱&0と対になる アイテムであり、&1作業台&0の ようにアイテムを組み立て る機能を持ちます。<br>&1作業台&0と同様に9つのス ロットを持ち、レシピのパ ターンに従ってアイテムが 搬入されます。
+botania.page.craftCrate1=アイテムは左から右、上か ら下に配置されます（後述）。 また、&1クラフトプレース ホルダー&0という特別なア イテムを配置すると、その スロットは空きスロットと して扱われます。これは 隙間のあるレシピ（かまど、 チェスト、ツルハシなど） を作成するために使用し ます。
+botania.page.craftCrate2=プレースホルダーのクラフト
+botania.page.craftCrate3=レシピを完成させるには、 次のどちらかの方法を用い ます。<br>一つ目は、9スロットす べてを材料かプレースホル ダーで埋める方法です。全 スロットが埋まると完成 品、プレースホルダー、 副産物（ケーキ作成時のバ ケツなど）が即座に排出さ れます。これが最も単純 な方法です。
+botania.page.craftCrate4=&1森の杖&0で右クリック（&1ディ スペンサー&0でも可）すると、 木箱内のアイテムでクラ フトを試み、アイテムを排 出します。<br>クラフトに失敗した場合、 クラフトを行わずに木箱 内のすべてのアイテムを排 出します。
+botania.page.craftCrate7=木箱に&1コンパレーター&0を取 り付けると、内部のアイテ ム数に応じた信号を出力 します。これは木箱を用 いた機構を作成する際に有 用でしょう。
+botania.page.craftCrate5=&1ダイヤモンドのツルハシ&0を作成する場合の例
+botania.page.craftCrate6=ポルトガル製
+botania.page.craftCrate8=&1クラフト木箱&0にはパターン を設定することもできます。 パターンは特定のスロッ トを固定し、そこにアイテ ムが搬入されるのを防ぎま す。これにより、空のスロッ トとして扱うことができ ます。<br>基本的なパターンは数種類 あり、木箱に右クリック することで適用できます（ アイテムは消費されません）。
+botania.page.craftCrate9=9種のパターン
 
 # -- HOVERING HOURGLASS
-botania.entry.hourglass=Hovering Hourglass
-botania.tagline.hourglass=A simple timer, using the sands of time
-botania.page.hourglass0=The ability to count time is an essential one to anyone who wishes to develop any redstonic contraptions. A single timer, however, can take a up both a lot of space and be slow in general. The &1Hovering Hourglass&0 is a simple, accurate, sand based timer. As the name implies, it's a hourglass that hovers and turns by itself.
-botania.page.hourglass1=The hourglass contains an inventory, in which up to a stack of &1Sand&0, &1Red Sand&0 or &1Soul Sand&0 can be added via a right click. Right clicking again removes it. The sand will then fall from one of the chambers into another, and when is done, release a single redstone pulse and turn over, starting the process again.
-botania.page.hourglass2=The amount of time for each pulse is dependent on how much and what type of sand is in the chamber. &1Sand&0 will count for one second per block, &1Red Sand&0 ten seconds per and &1Soul Sand&0 one minute per. Sand types can't be mixed. The time for each pulse can be seen by hovering over the block with a &1Wand of the Forest&0.
-botania.page.hourglass3=Note that the sand is added all at once, so the size of the stack to be added needs to be set in the inventory.<br>Sand can't be added to the hourglass after it already has some in, trying to do so will end up removing the sand there instead. The sand in the block can be taken and added by &1Hoppers&0 or other methods.
-botania.page.hourglass4=Right clicking the block with a &1Wand of the Forest&0 locks (and unlocks) it. When locked, sand can't be added or removed, just in case someone right clicks it on accident.<br>If a &4Mana Burst&0 collides with the block, it'll stop the flow of sand and pause the timer, colliding again continues it.
-botania.page.hourglass5=The sands of time
+botania.entry.hourglass=浮かぶ砂時計
+botania.tagline.hourglass=時間の砂を使用したシンプルなタイマー
+botania.page.hourglass0=時間を計る仕組みはレッド ストーンを使った機構を作 る者にとって必要不可欠で す。ただし、通常のタイ マーでは場所を取りますし、 動作が遅くなる可能性も あります。&1浮かぶ砂時計&0は シンプルで正確な砂時計型 タイマーであり、その名の 通り浮かんでいて、自動 で回転します。
+botania.page.hourglass1=砂時計にはインベントリが あり、最大1スタックの&1砂&0 や&1赤い砂&0、&1ソウルサンド&0 を右クリックで追加できま す。再度右クリックすると 砂を取り除けます。砂は 上から下へと落ち、すべて が落ち終わるとレッドスト ーンパルスを1回発生さ せ、処理を最初から再実行 します。
+botania.page.hourglass2=パルスの間隔は砂の量と種 類によって変わります。1 個につき&1砂&0は1秒、&1赤い砂&0 は10秒、&1ソウルサンド&0は1分 になります。砂の種類を混 ぜることはできません。 パルスの間隔は&1森の杖&0を持っ てブロックを見ることで確 認できます。
+botania.page.hourglass3=砂はスタックをまとめて追 加されるため、数量は事前 にインベントリで変更し ておく必要があります。<br>既に砂が入っている状態で 砂を追加しようとすると、 代わりに既に入っている砂 が取り除かれてしまいます。 砂は&1ホッパー&0などで追加し たり回収したりすることが できます。
+botania.page.hourglass4=&1森の杖&0を持って右クリック することで砂時計をロック （またはロック解除）する ことができ、誤クリックに よる砂の追加や除去がされ なくなります。<br>&4マナバースト&0が砂時計に当 たると砂の流れが一時停止 し、再度当たると再び動き 出します。
+botania.page.hourglass5=時の砂
 
 # -- SPECTRAL RAIL
-botania.entry.ghostRail=Spectral Rail
-botania.tagline.ghostRail=Send minecarts flying
-botania.page.ghostRail0=Using a &1Spectral Platform&0 as a &1Rail&0 component gives some interesting abilities to a &1Minecart&0 that passes through it: when launched off the rail, the cart will float for a bit, it'll also be able to pass through walls.<br>This effect stops if the cart lands on a rail or collides with any variant of &1Dreamwood&0.
-botania.page.ghostRail1=Spirit Tracks, you could say
+botania.entry.ghostRail=おばけレール
+botania.tagline.ghostRail=トロッコを飛ばす
+botania.page.ghostRail0=&1おばけプラットフォーム&0を &1レール&0の部品として使用す ると、そのレールを通過す る&1トロッコ&0に不思議な効果 が付与されます。トロッコ がレールから発射されると、 少しの間浮遊し、壁を通過 するようになります。<br>この効果は、トロッコがレ ールに着地するか、&1ドリー ムウッド&0に衝突することで 終了します。
+botania.page.ghostRail1=Spirit Tracksとも言えるでしょう
 
 # -- DRUM OF THE CANOPY
-botania.entry.canopyDrum=Drum of the Canopy
-botania.tagline.canopyDrum=Destroy leaves en masse with mana bursts
-botania.page.canopyDrum0=The &1Drum of the Canopy&0 is like the &1Drum of the Wild&0 in that it is the percussion counterpart of the &1Horn of the Canopy&0. It serves the exact same purpose as the handheld horn, but is placed in world.<br>All the functionality is similar to the &1Drum of the Wild&0
-botania.page.canopyDrum1=The Pinking Drum
+botania.entry.canopyDrum=林冠のドラム
+botania.tagline.canopyDrum=マナバーストで葉を大量に破壊する
+botania.page.canopyDrum0=&1林冠のドラム&0は、&1林冠の角 笛&0の打楽器版という意味で は&1野生のドラム&0と似ていま す。これは手持ちの角笛と 同じ役割を果たしますが、 ワールドに設置することが できます。<br>他の機能は&1野生のドラム&0と 同じです。
+botania.page.canopyDrum1=ピンキングドラム
 
 # -- COCOON OF CAPRICE
-botania.entry.cocoon=Cocoon of Caprice
-botania.tagline.cocoon=Hatch your own animals
-botania.page.cocoon0=A cocoon is usually a symbol of change, of evolution.<br>Creating a &1Cocoon of Caprice&0 and placing it down will slowly evolve the rudimentary contents inside it into a &1Baby Animal&0. More often than not the animal hatched will be a farm animal, but on rare ocasions, different animals such as &1Wolves&0 or &1Horses&0 may be created.
-botania.page.cocoon1=Speculation says that giving the cocoon &1Emeralds&0 influences the outcome towards something a bit different.<br>What could come out of such experiment is anyone's guess, really.  
-botania.page.cocoon2=New World, Perfect World
+botania.entry.cocoon=カプリスの繭
+botania.tagline.cocoon=あなたの動物を孵化させよう
+botania.page.cocoon0=繭は変化や進化の象徴とさ れます。<br>&1カプリスの繭&0を作成して設 置すると、その内部にある 原始の生命がゆっくりと&1動 物の赤ちゃん&0へと進化しま す。ほとんどの場合は家畜 が孵化しますが、まれに&1オ オカミ&0や&1ウマ&0などの動物が 生まれることもあります。
+botania.page.cocoon1=推測ですが、繭に&1エメラル ド&0を与えると異なる生命が 生まれるような気がします。<br>何が生まれるかは、実際に やってみないと誰にもわか りません。
+botania.page.cocoon2=新たな世界、完璧な世界
 
 # -- MANASTORM CHARGE
-botania.entry.manaBomb=Manastorm Charge
-botania.tagline.manaBomb=Manastorm Charge go BOOM. BOOM BOOM. BOOMBOOMBOOMBOOMBOOMBOOM
-botania.page.manaBomb0=Putting together some &1TNT&0 and a &1Gaia Spirit&0 creates a &1Manastorm Charge&0, a type of explosive, per se. Ignited with a &1Mana Burst&0, the charge will create an unstable &1Manastorm Epicenter&0, which will, over time, spawn supercharged &1Mana Bursts&0, that explode on contact with other blocks.<br>Needless to say, only a maniac would unleash such a force near anything they care about.
-botania.page.manaBomb1=Prepare to face the mighty...
+botania.entry.manaBomb=マナストームチャージ
+botania.tagline.manaBomb=マナストームチャージがどかーん！ どかーんどかーん！ どどどどどどっかーん！！！
+botania.page.manaBomb0=&1TNT&0と&1ガイアスピリット&0を 組み合わせると、爆発物で ある&1マナストームチャージ&0 が作成できます。これを&1マ ナバースト&0で点火すると、 不安定な&1マナストーム源&0が 生成され、時間経過ととも に超強力な&1マナバースト&0が 発生し、他ブロックに接触 すると爆発します。<br>言うまでもありませんが、 大切なものの近くで使うの は狂人だけです。
+botania.page.manaBomb1=強大な敵に立ち向かう準備を...
 
 # -- TERU TERU BOZU
 botania.entry.teruTeruBozu=てるてる坊主
@@ -4312,16 +4312,16 @@ botania.page.pavement0=&1ポルトガル歩道&0は、細かな 道路を作成�
 botania.page.pavement1=滑りにくい
 
 # -- THAUMCRAFT INTEGRATION
-botania.entry.tcIntegration=Thaumcraft Integration
-botania.tagline.tcIntegration=Tidbits of integration with Thaumcraft
-botania.page.tcIntegration0=Often enough, the paths of &4Botany&0 and &4Thaumaturgy&0 cross together. Mixing some of the artifacts mentioned in this book as well as any from the school of &5Thaumcraft&0 can allow for combinations of these to form.
-botania.page.tcIntegration1=First and foremost, combining any of the &1Mana Metal&0 helms with a set of &1Goggles of Revealing&0 allows for a combination of both.<br>The protection and regenerability of the armor works alongside the Goggles' abilities, but the &4Vis&0 discount is lost. 
-botania.page.tcIntegration2=Helmets of Revealing (works with any Botania helm)
-botania.page.tcIntegration3=Carrying on, &4Mana&0 can also serve as an interesting type of Ink. Infusing a set of black &1Scribing Tools&0 with &4Mana&0 from a &1Mana Pool&0 allows for them to use said &4Mana&0 as their source of color.<br>Refilling these tools works similarly to a &1Mana Tablet&0, done by tossing it on top of the pool. It's to note that the tools do not come pre-filled.
-botania.page.tcIntegration4=Making the &1Botanurgist's Inkwell
-botania.page.tcIntegration5=Next off, there's a few varied resources or constructs that can work as paraphernalia for an &1Infusion Altar&0, to lower its' instability, these come in the form of &1Glimmering Flowers, Floating Flowers and any variety of Pylons&0.
-botania.page.tcIntegration6a=Perhaps insanity might not be the greatest tool in all of occasions. For those cases, a nice bath generally takes care of it. A brew might be a better format for such a task, though...
-botania.page.tcIntegration6b=The official frowny face
+botania.entry.tcIntegration=Thaumcraft連携
+botania.tagline.tcIntegration=Thaumcraft連携に関する豆知識
+botania.page.tcIntegration0=&4植物学&0と&4魔導学&0の道は交わ ることがあります。本書に 記載されているアーティファ クトの一部と、&5Thaumcraft&0 という学派に属するもので、 様々な組み合わせを作るこ とができます。
+botania.page.tcIntegration1=何よりもまず、&1マナ金属&0の ヘルメットと&1洞察の眼鏡&0を 組み合わせることで両方の 効果を持ったものが作れま す。<br>防具による防御力と再生能 力は眼鏡の能力と共存しま すが、&4Vis&0の軽減効果は失 います。
+botania.page.tcIntegration2=洞察のヘルメット (すべてのBotaniaのヘルメットに対応)
+botania.page.tcIntegration3=さらに、&4マナ&0は不思議なイ ンクとして機能します。黒 の&1筆記具&0に&1マナプール&0で&4マ ナ&0を注入すると、&4マナ&0を色 の源として使用できる&1筆記 具&0になります。<br>&4マナ&0の補充は、&4マナタブレッ ト&0と同様にプールに投げ込 むことでできます。作成時 にはインクが含まれないの でご注意ください。
+botania.page.tcIntegration4=&1植物学者のインク壺&0の作成
+botania.page.tcIntegration5=&1きらめく花&0、&1浮遊する花&0、 様々な&1パイロン&0は、&1注入の 祭壇&0の不安定性を下げるた めの装飾品としても機能し ます。
+botania.page.tcIntegration6a=もしかしたら、狂気はあら ゆる場面で最良の手段とは 言えないかもしれません。 そういうときはお風呂に入 ることで解決します。醸造 品のほうがいい選択かもし れませんが…。
+botania.page.tcIntegration6b=公式のしかめっ面
 
 # -- BUILDCRAFT INTEGRATION
 botania.entry.bcIntegration=Buildcraft連携

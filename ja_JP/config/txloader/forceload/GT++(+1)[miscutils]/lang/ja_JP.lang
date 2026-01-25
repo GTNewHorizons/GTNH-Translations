@@ -19,7 +19,7 @@ tile.fluidSludge.0.name=Stagnant Waste Water
 
 //Death Messages
 death.attack.plasmabolt=%s died by burning hot plasma.
-death.attack.plasmabolt.player=%1$s was killed by %2$s using plasma.
+death.attack.plasmabolt.player=%1$sは%2$sの使用したプラズマで焼き殺された
 death.attack.gtpp.grinder=%s was ground into nothingness by an IsaMill.
 
 //Batch mode chat message
@@ -1613,7 +1613,7 @@ item.itemDustSmallLi2BeF4.name=Small Pile of Li2BeF4 Fuel Compound Dust
 item.itemDustTinyLi2BeF4.name=Tiny Pile of Li2BeF4 Fuel Compound Dust
 item.Li2BeF4.name=Li2BeF4 Cell
 item.itemCircuitLFTR.name=§aControl Circuit
-item.itemZirconiumPellet.name=Zirconium Pellet [ZrCl₄]
+item.itemZirconiumPellet.name=ジルコニウムペレット [ZrCl₄]
 item.itemDustZrCl4.name=ZrCl4の粉
 item.itemDustSmallZrCl4.name=小さなZrCl4の粉
 item.itemDustTinyZrCl4.name=とても小さなZrCl4の粉
@@ -1634,7 +1634,7 @@ item.itemGregtechPump.tooltip.3=No Fluids Contained
 item.itemBaseEuItem.tooltip.0=§eElectric
 item.itemBaseEuItem.tooltip.1=Contains %d EU   Tier: %d
 item.itemBaseEuItem.tooltip.2=Empty. You should recycle it properly.
-item.itemBaseEuItem.tooltip.3=%d / %d EU - Voltage: %d
+item.itemBaseEuItem.tooltip.3=%d / %d EU - 電圧: %d
 item.itemDebugClearing.name=Debug Square [%d]
 item.itemDebugClearing.0.tooltip=Mode: Clear
 item.itemDebugClearing.1.tooltip=Mode: Fill
@@ -2089,7 +2089,7 @@ tile.blockWorkbenchGTAdvanced.name=Advanced Workbench
 tile.blockHeliumGenerator.name=Helium Generator
 tile.blockFirePit.name=Fire Pit
 tile.blockFishTrap.name=補強型魚用かご網
-tile.blockInfiniteFluidTank.name=Infinite Fluid Tank
+tile.blockInfiniteFluidTank.name=無限液体タンク
 tile.blockMiningExplosives.name=掘削用爆弾
 tile.blockHellFire.name=Hellish Fire
 tile.blockProjectBench.name=Project Table
@@ -2232,7 +2232,7 @@ item.itemDustSmallComancheite.name=小さなコマンカイトの粉
 
 tile.OreKoboldite.name=コボルダイト鉱石
 item.crushedKoboldite.name=粉砕したコボルダイト鉱石
-item.oreRawKoboldite.name=Raw Koboldite Ore
+item.oreRawKoboldite.name=コボルダイトの原石
 item.crushedCentrifugedKoboldite.name=遠心分離したコボルダイト鉱石
 item.crushedPurifiedKoboldite.name=洗浄したコボルダイト鉱石
 item.dustImpureKoboldite.name=汚れたコボルダイトの粉
@@ -2961,7 +2961,7 @@ item.itemIngotDragonblood.name=ドラゴンブラッドインゴット
 item.itemDustDragonblood.name=ドラゴンブラッドの粉
 item.itemDustTinyDragonblood.name=とても小さなドラゴンブラッドの粉
 item.itemDustSmallDragonblood.name=小さなドラゴンブラッドの粉
-item.itemNuggetDragonblood.name=Shard of Dragonblood
+item.itemNuggetDragonblood.name=ドラゴンブラッドの欠片
 item.itemPlateDragonblood.name=ドラゴンブラッドプレート
 item.itemPlateDoubleDragonblood.name=二重ドラゴンブラッドプレート
 item.itemCellDragonblood.name=溶融ドラゴンブラッド入りセル
@@ -3039,7 +3039,7 @@ tile.White Metal Frame Box.name=ホワイトメタル製の骨組み
 //Added 29/04/2019
 tile.OreRunite.name=ルナイト鉱石
 item.crushedRunite.name=粉砕したルナイト鉱石
-item.oreRawRunite.name=Raw Runite Ore
+item.oreRawRunite.name=ルナイトの原石
 item.crushedCentrifugedRunite.name=遠心分離したルナイト鉱石
 item.crushedPurifiedRunite.name=洗浄したルナイト鉱石
 item.dustImpureRunite.name=汚れたルナイトの粉
@@ -3047,7 +3047,7 @@ item.dustPureRunite.name=ほぼ綺麗なルナイトの粉
 
 tile.OreAncientGranite.name=古の花崗岩鉱石
 item.crushedAncientGranite.name=粉砕した古の花崗岩鉱石
-item.oreRawAncientGranite.name=Raw Ancient Granite Ore
+item.oreRawAncientGranite.name=古の花崗岩の原石
 item.crushedCentrifugedAncientGranite.name=遠心分離した古の花崗岩鉱石
 item.crushedPurifiedAncientGranite.name=洗浄した古の花崗岩鉱石
 item.dustImpureAncientGranite.name=汚れた古の花崗岩の粉
@@ -3107,15 +3107,15 @@ item.itemHeavyPlateEglinSteel.name=Heavy Eglin Steel Plate
 item.itemHeavyPlateMaragingSteel300.name=Heavy Maraging Steel 300 Plate
 item.itemHeavyPlateTalonite.name=Heavy Talonite Plate
 item.itemHeavyPlateHypogen.name=重いハイポジェンプレート
-item.itemHeavyPlateRhugnor.name=Heavy Rhugnor Plate
-item.itemHeavyPlateAdvancedNitinol.name=Heavy Advanced Nitinol Plate
+item.itemHeavyPlateRhugnor.name=重いルグナープレート
+item.itemHeavyPlateAdvancedNitinol.name=重い発展型ニチノールプレート
 item.itemHeavyPlateAstralTitanium.name=Heavy Astral Titanium Plate
 item.itemHeavyPlateCelestialTungsten.name=Heavy Celestial Tungsten Plate
-item.itemHeavyPlateWhiteMetal.name=Heavy White Metal Plate
+item.itemHeavyPlateWhiteMetal.name=重いホワイトメタルプレート
 item.itemHeavyPlateBlackMetal.name=Heavy Black Metal Plate
-item.itemHeavyPlateAncientGranite.name=Heavy Ancient Granite Plate
+item.itemHeavyPlateAncientGranite.name=重い古の花崗岩プレート
 
-item.GTPP.bauble.fireprotection.0.name=Supreme Pizza Gloves
+item.GTPP.bauble.fireprotection.0.name=最高のピザグローブ
 
 
 //Added 16/5/19
@@ -3266,15 +3266,15 @@ item.liquid_toluene.name=トルエン入りセル
 item.BasicGenericChemItem.6.name=桃色金属触媒
 
 //Added 23/03/20
-item.BasicMetaFood.0.name=Raw Human Meat
-item.BasicMetaFood.1.name=Cooked Human Meat
-item.BasicMetaFood.2.name=Raw Horse Meat
+item.BasicMetaFood.0.name=生の人肉
+item.BasicMetaFood.1.name=焼き人肉
+item.BasicMetaFood.2.name=生の馬肉
 item.BasicMetaFood.3.name=Cooked Horse Meat
-item.BasicMetaFood.4.name=Raw Wolf Meat
-item.BasicMetaFood.5.name=Cooked Wolf Meat
-item.BasicMetaFood.6.name=Raw Ocelot Meat
-item.BasicMetaFood.7.name=Cooked Ocelot Meat
-item.BasicMetaFood.8.name=Blaze Flesh
+item.BasicMetaFood.4.name=生のオオカミ肉
+item.BasicMetaFood.5.name=焼きオオカミ肉
+item.BasicMetaFood.6.name=生のヤマネコ肉
+item.BasicMetaFood.7.name=焼きヤマネコ肉
+item.BasicMetaFood.8.name=ブレイズ肉
 
 item.itemCellNaquadahFuel.name=ナクアダ燃料入りセル
 item.itemCellEnrichedNaquadahFuel.name=濃縮ナクアダ燃料入りセル
@@ -3443,7 +3443,7 @@ item.itemDustSmallAmmoniumTetrafluoroberyllate.name=小さなテトラフルオ�
 item.itemDustAmmoniumTetrafluoroberyllate.name=テトラフルオロベリリウム酸アンモニウムの粉
 
 //Added 10/12/21
-item.ImpureLiFBeF2.name=Impure LiFBeF2 Cell
+item.ImpureLiFBeF2.name=不純粋なLiFBeF2入りセル
 item.itemCellHeliumSpargedLiFBeF2UF4FP.name=ヘリウム注入されたLiFBeF2UF4FP入りセル
 item.itemCellFluorineSpargedLiFThF4.name=フッ素注入されたLiFThF4入りセル
 item.itemCellFluorineSpargedLiFBeF2ThF4.name=フッ素注入されたLiFBeF2ThF4入りセル

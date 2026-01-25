@@ -97,6 +97,8 @@ gtpp.recipe.multidehydrator=マルチブロック乾燥機
 gtpp.recipe.semifluidgeneratorfuels=半流体発電機の燃料
 gtpp.recipe.flotationcell=浮選セル
 gtpp.recipe.treefarm=樹木成長シミュレーター
+gtpp.recipe.algae_pond=Algae Pond
+gtpp.recipe.multiblockrockbreaker=Boldarnator
 
 # Recipe categories
 gtpp.recipe.category.abs_non_alloy_recipes=ABS 非合金レシピ
@@ -137,6 +139,7 @@ gtpp.nei.tgs.info-1=マシンの電力Tierと
 gtpp.nei.tgs.info-2=使用する工具によって
 gtpp.nei.tgs.info-3=出力は更に増加します
 
+gtpp.nei.ap.tier=Algae Pond Tier: %s
 
 # Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=燃え盛るパイロジウム入りバケツ
@@ -234,14 +237,14 @@ miscutils.blockcasings.name=マシン外装
 MU-metatool.01.name=ハンドポンプ
 
 # Fuel Blocks
-tile.blockCactusCharcoal.name=サボテン炭
+tile.blockCactusCharcoal.name=サボテン炭ブロック
 tile.blockCactusCharcoal.0.name=サボテン炭ブロック
 tile.blockCactusCharcoal.1.name=圧縮サボテン炭ブロック
 tile.blockCactusCharcoal.2.name=二重圧縮サボテン炭ブロック
 tile.blockCactusCharcoal.3.name=三重圧縮サボテン炭ブロック
 tile.blockCactusCharcoal.4.name=四重圧縮サボテン炭ブロック
 tile.blockCactusCharcoal.5.name=五重圧縮サボテン炭ブロック
-tile.blockCactusCoke.name=サボテンコークス
+tile.blockCactusCoke.name=サボテンコークスブロック
 tile.blockCactusCoke.0.name=サボテンコークスブロック
 tile.blockCactusCoke.1.name=圧縮サボテンコークスブロック
 tile.blockCactusCoke.2.name=二重圧縮サボテンコークスブロック
@@ -255,7 +258,7 @@ tile.blockSugarCharcoal.2.name=二重圧縮砂糖炭ブロック
 tile.blockSugarCharcoal.3.name=三重圧縮砂糖炭ブロック
 tile.blockSugarCharcoal.4.name=四重圧縮砂糖炭ブロック
 tile.blockSugarCharcoal.5.name=五重圧縮砂糖炭ブロック
-tile.blockSugarCoke.name=砂糖コークス
+tile.blockSugarCoke.name=砂糖コークスブロック
 tile.blockSugarCoke.0.name=砂糖コークスブロック
 tile.blockSugarCoke.1.name=圧縮砂糖コークスブロック
 tile.blockSugarCoke.2.name=二重圧縮砂糖コークスブロック
@@ -3929,10 +3932,10 @@ item.hydrogenchloridemix.name=塩化水素混合物
 item.SunnariumBit.name=サナリウムの欠片
 
 # Added 29/01/22
-sleep.event.okay=よく寝て気分が少しマシになった。
-sleep.event.good=よく寝て気分がだいぶマシになった。
-sleep.event.wellrested=よく寝て気分がかなりマシになった。
-sleep.event.downsides=人生のマイナス面はもはや無意味だ。
+sleep.event.okay=よく寝て気分が少しよくなった。
+sleep.event.good=よく寝て気分がだいぶよくなった。
+sleep.event.wellrested=よく寝て気分がかなりよくなった。
+sleep.event.downsides=人生における負の側面などもはや無意味だ。
 item.miscutils:magicfeather.name=魔法の羽根
 
 # Added 10/02/22
@@ -4033,7 +4036,7 @@ gtpp.tooltip.tool.turbine_efficiency=タービン効率:
 gtpp.tooltip.tool.optimal_steam_flow=最適な蒸気流量: §d%f§7L/秒
 gtpp.tooltip.tool.optimal_gas_flow=最適なガス流量(1tick毎の燃料性能):
 gtpp.tooltip.tool.optimal_plasma_flow=最適なプラズマ流量(1tick毎のプラズマ燃料性能):
-gtpp.tooltip.tool.attack_damage=攻撃ダメージ:
+gtpp.tooltip.tool.attack_damage=攻撃力:
 gtpp.tooltip.tool.mining_speed=採掘速度:
 
 gtpp.tooltip.wireless_charger.0=§8《§7ドライバー§8／Screwdriver》§7でスニーク右クリックして、持ち主をロックできます。
@@ -4046,6 +4049,7 @@ gtpp.tooltip.wireless_charger.4=§aミックスモード§7: %,dm の範囲で1�
 gtpp.infodata.multi_block.total_time=建設からの総時間: %s 週間、%s 日、
 gtpp.infodata.multi_block.total_time.0=%s 時間、%s 分、%s 秒
 gtpp.infodata.multi_block.total_time.in_ticks=合計時間(tick): %s
+gtpp.infodata.multi_block.recipes_done=Recipes Finished: %s
 gtpp.infodata.tesseract_generator.name=テッセラクト生成器
 gtpp.infodata.tesseract_generator.frequency=周波数: %d
 gtpp.infodata.tesseract_generator.status.active=有効

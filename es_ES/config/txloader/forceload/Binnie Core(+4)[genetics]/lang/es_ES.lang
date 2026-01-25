@@ -36,6 +36,10 @@ genetics.item.registry.1.name=Registro maestro
 genetics.item.serum.name=%s  Suero
 genetics.item.serumArray.name=%s Matriz de suero
 
+genetics.gui.registry.title=Registry
+genetics.gui.registry.1.title=Master Registry
+genetics.gui.analyst.title=Analyst
+
 genetics.item.sequence=Secuencia de ADN
 genetics.item.sequence.0=Muy tenue
 genetics.item.sequence.1=tenue
@@ -59,6 +63,7 @@ genetics.sequence.partially=Parcialmente secuenciado (%d%%)
 
 tile.machine.name=Isolator
 genetics.machine.machine.isolator=Aislador
+gui.genetics.machine.machine.isolator.title=Isolator
 genetics.machine.machine.isolator.info=El Aislador toma un alelo aleatorio de una abeja, árbol u otro individuo y lo copia en un vial de secuenciación vacío.  Esto requiere el uso de etanol como solvente y una enzima para fragmentar el ADN. Los sueros no secuenciados se pueden amplificar en un Polimerizador y secuenciar en un Secuenciador. Este proceso tiene una pequeña posibilidad de destruir al individuo.
 genetics.machine.isolator.error.noIndividual=No hay ningún individuo para aislar
 genetics.machine.isolator.error.noRoom=No hay espacio parar secuencias de ADN
@@ -67,6 +72,7 @@ genetics.machine.isolator.error.noLiquid=Etanol insuficiente
 genetics.machine.isolator.error.noEnzyme=No hay enzimas
 
 genetics.machine.machine.sequencer=Secuenciador 
+gui.genetics.machine.machine.sequencer.title=Sequencer
 genetics.machine.machine.sequencer.info=El secuenciador toma sueros no secuenciados y determina que alelos están presentes en ellos. Este proceso es lento y requiere  el uso de tinte fluorescente
 genetics.machine.sequencer.unsequencedDNA=ADN no secuenciado
 genetics.machine.sequencer.error.noSequence=No hay secuencia de ADN
@@ -78,6 +84,7 @@ genetics.machine.sequencer.gui.sequensedBy=Los genes serán secuenciados por: %s
 genetics.machine.sequencer.gui.willNotSave=Sin usuario. No guardara secuencias 
 
 genetics.machine.machine.polymeriser=Polimerizador 
+gui.genetics.machine.machine.polymeriser.title=Polymeriser
 genetics.machine.machine.polymeriser.info=El Polimerizador llena los sueros vacíos con ADN sin procesar y bacterias replicantes. Este proceso puede ser acelerado usando pepitas de oro.
 genetics.machine.polymeriser.error.noItem=No hay objeto para replicar
 genetics.machine.polymeriser.error.itemFilled=El objeto está lleno
@@ -88,6 +95,7 @@ genetics.machine.polymeriser.replicatingWithGenes=Replicating with %d genes
 genetics.machine.polymeriser.unfilledSerum=Unfilled Serum
 
 genetics.machine.machine.inoculator=Inoculator
+gui.genetics.machine.machine.inoculator.title=Inoculator
 genetics.machine.machine.inoculator.info=The Inoculator uses serums to add genes to breedable individuals. This process is very slow and requires a Bacteria Vector, but is always successful.  
 genetics.machine.inoculator.error.noIndividual=No Individual to Inoculate
 genetics.machine.inoculator.error.noSerum=No Serum
@@ -105,6 +113,7 @@ genetics.machine.inoculator.inoculableIndividual=Inoculable Individual
 genetics.machine.inoculator.serums=Serum Vials & Arrays
 
 genetics.machine.labMachine.genepool=Genepool
+gui.genetics.machine.labMachine.genepool.title=Genepool
 genetics.machine.labMachine.genepool.info=The Genepool uses enzymes and ethanol to break down living things into DNA. During this process, all genetic information is lost and the source of the DNA is destroyed.
 genetics.machine.genepool.error.noIndividual=No Individual
 genetics.machine.genepool.error.noRoom=Not enough room in Tank
@@ -115,6 +124,7 @@ tile.labMachine.name=Lab Stand
 genetics.machine.labMachine.labMachine=Lab Stand
 
 genetics.machine.labMachine.analyser=Analyzer
+gui.genetics.machine.labMachine.analyser.title=Analyzer
 genetics.machine.labMachine.analyser.info=The Analyzer takes breedable individuals and DNA sequencers and analyzes them to determine the genes present. This requires DNA Dye, created from purple dye and glowstone
 genetics.machine.analyser.dnaDye=DNA Dye
 genetics.machine.analyser.unanalysedItem=Unanalyzed Item
@@ -125,6 +135,7 @@ genetics.machine.analyser.error.insufficientDye=Not enough DNA dye to analyze
 genetics.machine.analyser.error.noItem=No item to analyze
 
 genetics.machine.labMachine.incubator=Incubator
+gui.genetics.machine.labMachine.incubator.title=Incubator
 genetics.machine.labMachine.incubator.info=The Incubator combines liquids and items and allows them to sit at an ideal temperature to encourage bacterial growth. 
 genetics.machine.incubator.error.noRecipe.title=No Recipe
 genetics.machine.incubator.error.noRecipe=There is no valid recipe
@@ -132,6 +143,7 @@ genetics.machine.incubator.error.noLiquid=Not enough incubation liquid
 genetics.machine.incubator.error.noRoom=No room for output
 
 genetics.machine.labMachine.acclimatiser=Acclimatiser
+gui.genetics.machine.labMachine.acclimatiser.title=Acclimatiser
 genetics.machine.labMachine.acclimatiser.info=The Acclimatiser uses acclimatizing items to adjust the temperature and humidity tolerance of individuals. This process has only a small chance to succeed.
 genetics.machine.acclimatiser.acclimatizingItems=Acclimatizing Items
 genetics.machine.acclimatiser.error.noIndividual=No Individual to Acclimatise
@@ -140,6 +152,7 @@ genetics.machine.acclimatiser.error.invalidAcclimatizingItems=Cannot Acclimatise
 
 tile.advMachine.name=Splicer
 genetics.machine.advMachine.splicer=Splicer
+gui.genetics.machine.advMachine.splicer.title=Splicer
 genetics.machine.advMachine.splicer.info=The Splicer is an incredibly powerful machine that is used to insert genes into individuals. This process is fast, but requires monumental amounts of power.
 genetics.machine.splicer.error.noIndividual=No Individual to Splice
 genetics.machine.splicer.error.noSerum=No Serum
