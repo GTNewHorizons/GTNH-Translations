@@ -992,7 +992,7 @@ gt.recipe.extruder.description=金属加工のための万能機械
 gt.recipe.fermenter=発酵槽
 gt.recipe.fermenter.description=液体を発酵させる
 gt.recipe.fluidcanner=液体缶詰機
-gt.recipe.fluidcanner.description=容器から液体を出し入れする
+gt.recipe.fluidcanner.description=§4[廃止済み - §7《§4缶詰機§7／Canning Machine》§4を使用してください]
 gt.recipe.fluidextractor=液体抽出機
 gt.recipe.fluidextractor.description=アイテムから液体を抽出する
 gt.recipe.fluidsolidifier=液体成型機
@@ -2152,6 +2152,10 @@ nei.options.tools.dump.gt5u.recipe_lockings=Recipe locking missing supports
 nei.options.tools.dump.gt5u.warn_env=You're outside of the pack. Some IDs present in the full pack might be missing in this dump.
 nei.options.tools.dump.gt5u.mode.0=未使用
 nei.options.tools.dump.gt5u.mode.1=使用済
+nei.options.inventory.search.chemicalFormulaSearchMode=Chemical Formula Search
+nei.options.inventory.search.chemicalFormulaSearchMode.0=Always
+nei.options.inventory.search.chemicalFormulaSearchMode.1=Prefix: %s
+nei.options.inventory.search.chemicalFormulaSearchMode.2=Never
 
 # Waila
 GT5U.waila.cover=カバー (%s): %s
