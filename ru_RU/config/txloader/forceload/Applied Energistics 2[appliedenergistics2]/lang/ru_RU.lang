@@ -137,6 +137,7 @@ chat.appliedenergistics2.MachineHighlighted=%d сейчас подсвечен �
 chat.appliedenergistics2.MachineHighlightedNamed=%d "%d" сейчас подсвечен и находится: %d, %d, %d
 chat.appliedenergistics2.StorageHighlighted=%d содержащий %d %d сейчас подсвечен и находится: %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d содержащий %d %d находится в измерении: %d и не может быть выделен
+chat.appliedenergistics2.PickBlockTerminalNotFound=AE2 wireless terminal not found.
 chat.appliedenergistics2.PatternRepeaterProvider=§5Provider§r - will provide pattern to current system from in front §5Accessor§r.
 chat.appliedenergistics2.PatternRepeaterAccessor=§5Accessor§r - will provide pattern to in front §5Provider§r.
 
@@ -248,7 +249,7 @@ gui.appliedenergistics2.MolecularAssembler=Молекулярный сборщи
 gui.appliedenergistics2.ProcessingPattern=Шаблон обработки (механизмы)
 gui.appliedenergistics2.Crafts=Создаёт
 gui.appliedenergistics2.HoldShift=Удерживайте [LSHIFT], чтобы показать ингредиенты
-gui.appliedenergistics2.PatternView=Press [%s] to view pattern
+gui.appliedenergistics2.PatternView=Нажмите %s, для просмотра шаблона
 gui.appliedenergistics2.Result=Результат
 gui.appliedenergistics2.Results=Результаты
 gui.appliedenergistics2.Ingredients=Ингредиенты
@@ -956,9 +957,10 @@ stat.ae2.TurnedCranks=Сломано рукояток
 
 # Keys
 key.appliedenergistics2.category=Applied Energistics 2
+key.pick_block.desc=AE2 Pick Block
 key.toggle_focus.desc=Переключить фокус на окно поиска
 key.search_connected_inventories.desc=Поиск предмета в сетевых инвентарях
 key.control_operation.desc=Управление работой
 
 # NEI
-nei.options.keys.gui.pattern_view=View Pattern
+nei.options.keys.gui.pattern_view=Просмотр шаблона
