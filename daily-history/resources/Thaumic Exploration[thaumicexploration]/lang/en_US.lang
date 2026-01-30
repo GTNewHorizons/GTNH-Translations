@@ -22,7 +22,7 @@ item.thaumicexploration:theCandle.name=The Candle
 item.thaumicexploration:enhancedHelmetRunic.name=Enhanced Runic Headpiece
 item.thaumicexploration:enhancedChestplateRunic.name=Enhanced Runic Chestpiece
 item.thaumicexploration:enhancedLeggingsRunic.name=Enhanced Runic Legpiece
-item.thaumicexploration:enhancedBootsRunic.name=Enhanced Runic Foodpiece
+item.thaumicexploration:enhancedBootsRunic.name=Enhanced Runic Footpiece
 
 item.thaumicexploration:dreamcatcher.name=Wispy Dreamcatcher
 item.thaumicexploration:ringTaint.name=Tainted Band
@@ -56,7 +56,7 @@ potion.taintWithdrawl=Taint Withdrawl
 
 ----Misc---
 soulbrazier.invalidplayer=The brazier grumbles and spits as it refuses to work for an unknown soul
-soulbrazier.nopower=The brazier spluters as it's reserves are too dry.
+soulbrazier.nopower=The brazier sputters as its reserves are too dry.
 soulbrazier.noWarp=You have no permanent warp to get rid of.
 txitems.boundJar.networkInfo=Network ID: %s
 txitems.boundJar.noNetworkInfo=No Network
@@ -184,13 +184,13 @@ te.text.TRASHJAR.2=The oblivion jar has the lowest suction of any jar, meaning t
 --Soul Brazier
 te.name.SOULBRAZIER=Soul Brazier
 te.tag.SOULBRAZIER=Warp is bad mmkay?
-te.text.SOULBRAZIER.1=Warp is a dangerous, malicious force. While in a mind, it is bad enough, released onto the world it is worse, this is why we have made a way to hold this warp safeish. It needs both vis from a node, and Mortus essentia, but it can hold the warp the player has, without too much damage to the enviroment
+te.text.SOULBRAZIER.1=Warp is a dangerous, malicious force. While in a mind, it is bad enough, released onto the world it is worse, this is why we have made a way to hold this warp safeish. It needs both vis from a node, and Mortus essentia, but it can hold the warp the player has, without too much damage to the environment
 
 
 --Taintacle Ring
 te.name.TENTACLERING=Taintacle Ring
 te.tag.TENTACLERING=Henturgy
-te.text.TENTACLERING.1=You have found a way to harness the knowledge you have gained from researching tainted lands. You have discovered a way to summon small taintacles to aid you in combat, similarily to the large taintacles you have found in your travels.<BR><BR>Wearing this ring in one of your ring slots activates this effect. Any time that you take damage and are on solid land, a small taintacle will sprout, attacking nearby foes.
+te.text.TENTACLERING.1=You have found a way to harness the knowledge you have gained from researching tainted lands. You have discovered a way to summon small taintacles to aid you in combat, similarly to the large taintacles you have found in your travels.<BR><BR>Wearing this ring in one of your ring slots activates this effect. Any time that you take damage and are on solid land, a small taintacle will sprout, attacking nearby foes.
 
 --Discount Rings
 te.name.DISCOUNTRINGS=Shard Rings
@@ -257,7 +257,7 @@ te.text.CRUCSOULS.2=The Crucible of Souls is very unstable, and has a high proba
 --Replicator
 te.name.REPLICATOR=Thaumic Replicator
 te.tag.REPLICATOR=Equivalent exchange
-te.text.REPLICATOR.1=You have been able to break down blocks and items into essentia with an alchemical furnace, now finally you have found a way to do the opposite. You have created a device that can replicate simple building blocks using essentia.<BR><BR>By right clicking the Thaumic Replicator with a block, you can set the template. Right clicking with a wand starts the replication process. Simply look at the Replicator with Goggles of Revealing to see what essentia is neccesary, and place this essentia in nearby jars like you would for an infusion.
+te.text.REPLICATOR.1=You have been able to break down blocks and items into essentia with an alchemical furnace, now finally you have found a way to do the opposite. You have created a device that can replicate simple building blocks using essentia.<BR><BR>By right clicking the Thaumic Replicator with a block, you can set the template. Right clicking with a wand starts the replication process. Simply look at the Replicator with Goggles of Revealing to see what essentia is necessary, and place this essentia in nearby jars like you would for an infusion.
 te.text.REPLICATOR.2=This essentia will then form into the block that you set as a template. This block must be removed before starting the process again. Right clicking will remove any blocks in the replicator and right clicking again will reset the template.<BR><BR>This process can also be automated by starting replication with a redstone signal and removing blocks with a hopper.
 
 --Amber Wand Core
@@ -273,7 +273,7 @@ te.text.ROD_AMBER_staff.1=A staff core crafted from amber can store 25 vis of ea
 --Transmutation Staff Core
 te.name.ROD_TRANSMUTATION_staff=Transmutative Staff Core
 te.tag.ROD_TRANSMUTATION_staff=One thing into another
-te.text.ROD_TRANSMUTATION_staff.1=A staff core crafted from a primal charm and various shards can store 175 vis of each type.<BR>Like the wand core it transmutate vis forms when over 90% capacity in a particular type.
+te.text.ROD_TRANSMUTATION_staff.1=A staff core crafted from a primal charm and various shards can store 175 vis of each type.<BR>Like the wand core it transmute vis forms when over 90% capacity in a particular type.
 
 --Necromancer's Staff Core
 te.name.ROD_NECROMANCER_staff=Necromancer's Staff Core
@@ -349,7 +349,7 @@ te.text.ROD_TRANSMUTATION.1=While experimenting with the properties of primal ch
 --Necro Wand
 te.name.ROD_NECROMANCER=Necromancer's Wand Core
 te.tag.ROD_NECROMANCER=Evil vis storage
-te.text.ROD_NECROMANCER.1=You have always found finding a node to charge your depleted wand to be a nuisance. To remedy this, you have developed a wand core that harnesses the energy of the dead more efficiently.<BR><BR>Vis orbs collected from the remains of dead monsters yeild twice the vis, charging your wand quickly. Unfortunately, the dark energies used to infuse this wand are not as receptive to other forms of vis. When draining nodes or obtaining vis from other means, approximately a fourth is lost. This wand core has storage that rivals that of silverwood, making it a formidible option when choosing which core to use.
+te.text.ROD_NECROMANCER.1=You have always found finding a node to charge your depleted wand to be a nuisance. To remedy this, you have developed a wand core that harnesses the energy of the dead more efficiently.<BR><BR>Vis orbs collected from the remains of dead monsters yield twice the vis, charging your wand quickly. Unfortunately, the dark energies used to infuse this wand are not as receptive to other forms of vis. When draining nodes or obtaining vis from other means, approximately a fourth is lost. This wand core has storage that rivals that of silverwood, making it a formidable option when choosing which core to use.
 
 --Taint Basics
 te.name.TAINTBASICS=Taint

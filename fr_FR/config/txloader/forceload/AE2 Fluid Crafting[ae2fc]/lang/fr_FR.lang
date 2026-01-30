@@ -63,7 +63,6 @@ item.fluid_storage_housing.1.name=Boîtier ME Avancé stockage Fluides
 item.fluid_storage_housing.2.name=Boîtier ME stockage Multi-Fluides
 item.fluid_storage_housing.3.name=Boîtier ME Avancé stockage Multi-Fluides
 
-tile.fluid_discretizer.name=Discrétiseur de fluide
 tile.fluid_pattern_encoder.name=Encodeur Modèles Fluides
 tile.fluid_packet_decoder.name=Décodeur ME Paquets Fluides
 tile.fluid_interface.name=Interface ME double
@@ -85,7 +84,6 @@ ae2fc.waila.disable=Désactiver
 ae2fc.tooltip.shift_for_more=§r> Tenir §3Maj§r pour plus d'information
 ae2fc.tooltip.ctrl_for_more=§r> Tenir §3Ctrl§r pour plus d'information
 ae2fc.tooltip.fluid_packet_decoder.desc=Le décodeur de fluides décode les paquets de fluides. Il doit être connecté au système ME and possèder un emplacement où stoqué le liquide, autrement il ne pourra pas fonctionner.
-ae2fc.tooltip.discretizer.desc=Quand le ME discrétiseur de fluide est relié à votre système ME, il vas représenter les fluides stoqués dans vos cellule ME de stockage de fluide (ou votre bus de stockage) en tant qu'objets. Ceux-ci sont l'équivalent inventorié du fluide. Il ne s'agit que d'une autre méthode de présenter votre inventaire de fluides, cet instrument ne vas pas réellement convertir vos fluides en objets.
 ae2fc.tooltip.fluid_buffer.desc=Ceci est une interface I/O pour fluide haute-vitesse
 ae2fc.tooltip.walrus.desc=GTNH est pratiquement un boulot
 ae2fc.tooltip.fluid_auto_filler=Crée des modèles de conserve de fluide pour un conteneur donné automatiquement.
@@ -126,7 +124,7 @@ ae2fc.tooltip.infinity_fluid=§aInfinité§r
 ae2fc.tooltip.fluid_storage.void=Where nothing is everything, and everything is nothing
 
 ae2fc.tooltip.quantum_bridge_card.desc=Allows wireless terminals to connect to a quantum bridge, allowing for unlimited range
-ae2fc.tooltip.energy_card.desc=Infinity Energy for the Wireless Terminal
+ae2fc.tooltip.energy_card.desc=Infinite Energy for the Wireless Terminal
 
 ae2fc.tooltip.cell_contents=Contient les fluides :
 ae2fc.tooltip.cell_empty=Capsule vide
@@ -210,7 +208,7 @@ ae2fc.gui.magnet.nbt=Ignore NBT Data
 ae2fc.gui.magnet.meta=Ignore Meta Data
 ae2fc.gui.magnet.ore=Use Ore Dictionary
 ae2fc.gui.magnet.whitelist=Whitelisting
-ae2fc.gui.magnet.blacklist=BlackListing
+ae2fc.gui.magnet.blacklist=Blacklisting
 
 ae2fc.gui.color.StateNone=00000000
 ae2fc.gui.color.StateIdle=FF55FF55
@@ -221,6 +219,11 @@ ae2fc.gui.color.StateError=FFFF5555
 error.unknown=Inconnu
 
 ae2fc.key.OpenTerminal=Open Wireless Universal Terminal
+ae2fc.key.OpenCraftingTerminal=Open Wireless Universal Crafting Terminal
+ae2fc.key.OpenLevelTerminal=Open Wireless Universal Level Terminal
+ae2fc.key.OpenInterfaceTerminal=Open Wireless Universal Interface Terminal
+ae2fc.key.OpenPatternTerminal=Open Wireless Universal Pattern Terminal
+ae2fc.key.OpenPatternExTerminal=Open Wireless Universal Processing Pattern Terminal
 ae2fc.key.Restock=Toggle Restock
 
 itemGroup.ae2fc=Fluid Craft For AE2

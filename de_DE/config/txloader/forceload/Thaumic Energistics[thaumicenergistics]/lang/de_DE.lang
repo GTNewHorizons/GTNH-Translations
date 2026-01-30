@@ -89,15 +89,23 @@ thaumicenergistics.tooltip.advanced.infusion.provider.normal=Normal Provider
 thaumicenergistics.tooltip.advanced.infusion.provider.advanced=Advanced Provider
 thaumicenergistics.tooltip.advanced.infusion.provider.totalbind=Total bound to %d matrices
 
-
 #GUI
 thaumicenergistics.gui.arcane.crafting.terminal.title=Arkane Konsole
 thaumicenergistics.gui.essentia.cell.title=Essentia-Zelle
+thaumicenergistics.gui.essentia.cell.workbench.title=Essentia Cell Workbench
+thaumicenergistics.gui.arcane.assembler.title=Arcane Assembler
+thaumicenergistics.gui.knowledge.inscriber.title=Knowledge Inscriber
+thaumicenergistics.gui.distillation.encoder.title=Distillation Pattern Encoder
+thaumicenergistics.gui.essentia.ImportBus.title=Essentia Import Bus
+thaumicenergistics.gui.essentia.ExportBus.title=Essentia Export Bus
+thaumicenergistics.gui.essentia.levelemitter.title=Essentia Level Emitter
+thaumicenergistics.gui.essentia.StorageBus.title=Essentia Storage Bus
+thaumicenergistics.gui.essentia.terminal.title=Essentia Terminal
+thaumicenergistics.gui.priority.title=Priority
+
 thaumicenergistics.gui.selected.amount=Menge
 thaumicenergistics.gui.selected.aspect=Aspekt
 thaumicenergistics.gui.digivis.source.name=DigiVis Source
-thaumicenergistics.gui.essentia.cell.workbench.title=Essentia Cell Workbench
-thaumicenergistics.gui.arcane.assembler.title=Arcane Assembler
 thaumicenergistics.gui.vibration.chamber.stored=Stored: %d %s
 thaumicenergistics.gui.vibration.chamber.processing=Processing: %s
 
@@ -158,7 +166,7 @@ thaumicenergistics.research_page.TEADVINFPROV.1=As you continue to optimize your
 # Research Vis Interface
 tc.research_name.thaumicenergistics.TEVISINT=Vis Relay Interface
 tc.research_text.thaumicenergistics.TEVISINT=Using Vis Digitally
-thaumicenergistics.research_page.TEVISINT.1=Having discovered the vis power network, you now pursue the means of linking your digital system to this network.<BR>After observing how vis flows through the network of §lvis relays§r, you believe you can construct a digital device to harness the vis. By utilizing the peer-to-peer capabilities of the digital network, vis can be imported, tunnelled, and used by your digital devices.<BR>Storing it however, will require more research.
+thaumicenergistics.research_page.TEVISINT.1=Having discovered the vis power network, you now pursue the means of linking your digital system to this network.<BR>After observing how vis flows through the network of §lvis relays§r, you believe you can construct a digital device to harness the vis. By utilizing the peer-to-peer capabilities of the digital network, vis can be imported, tunneled, and used by your digital devices.<BR>Storing it however, will require more research.
 thaumicenergistics.research_page.TEVISINT.2=To use the §lVis Relay Interface§r, attach it to the digital network and place a vis relay on it. The base of the relay must be against the interface.<BR>In order for a device to receive vis it must be linked with the interface. Linking other devices to the interface will require the use of a §lMemory Card§r. Each device can only be linked with one interface.<BR>Shift right-click on the interface with a memory card, then right-click on a device to create the link.<BR>Right clicking the other device with a blank memory card will remove the link.
 thaumicenergistics.research_page.TEVISINT.3=§lLinks§r<LINE>§lVis Relay Interface§r.Constructs a P2P vis tunnel.<BR>§lArcane Crafting Terminal§r. Charges the wand in the A.C.T.<BR>§lArcane Assembler§r. Fills vis storage, used for crafting.
 
@@ -206,7 +214,7 @@ thaumicenergistics.research_page.TEESSVIBCMBR.3=Opening the GUI shows how much a
 # Research Distillation Pattern Encoder
 tc.research_name.thaumicenergistics.TEDISTILLATIONPATTERNENCODER=Distillation Pattern Encoder
 tc.research_text.thaumicenergistics.TEDISTILLATIONPATTERNENCODER=Ordering More
-thaumicenergistics.research_page.TEDISTILLATIONPATTERNENCODER.1=Expanding on the principals of AE's autocrafing system, you have created a way to encode the essentia distillation process onto an §lEncoded Pattern§r.<BR>Placing an item into the Thaumometer slot will reveal what you know of the items composition. After selecting the preferred aspect, it can then be encoded onto the encoded pattern or an available blank pattern.
+thaumicenergistics.research_page.TEDISTILLATIONPATTERNENCODER.1=Expanding on the principles of AE's autocrafing system, you have created a way to encode the essentia distillation process onto an §lEncoded Pattern§r.<BR>Placing an item into the Thaumometer slot will reveal what you know of the items composition. After selecting the preferred aspect, it can then be encoded onto the encoded pattern or an available blank pattern.
 
 # Research Golem Wifi Backpack
 tc.research_name.thaumicenergistics.TEGOLEMWIFIBACKPACK=Golem Wifi Backpack
