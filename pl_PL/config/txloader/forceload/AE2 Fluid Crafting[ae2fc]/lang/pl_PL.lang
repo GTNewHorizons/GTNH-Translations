@@ -63,7 +63,6 @@ item.fluid_storage_housing.1.name=Zaawansowana Obudowa Dysku ME Płynów
 item.fluid_storage_housing.2.name=Obudowa Dysku ME Wielu Płynów
 item.fluid_storage_housing.3.name=Zaawansowana Obudowa Dysku ME Wielu Płynów
 
-tile.fluid_discretizer.name=Dyskretyzator Płynów
 tile.fluid_pattern_encoder.name=Koder Wzorców Płynów
 tile.fluid_packet_decoder.name=Dekoder Pakietów Płynów ME
 tile.fluid_interface.name=Podwójny Interfejs ME
@@ -85,7 +84,6 @@ ae2fc.waila.disable=Wyłącz
 ae2fc.tooltip.shift_for_more=§r> Przytrzymaj §3Shift§r aby uzyskać więcej informacji
 ae2fc.tooltip.ctrl_for_more=§r> Przytrzymaj §3Ctrl§r aby uzyskać więcej informacji
 ae2fc.tooltip.fluid_packet_decoder.desc=Dekoder Płynów może dekodować Pakiety Płynów. Musi być podłączony do Systemu ME i miejsca do przechowywania płynu, w przeciwnym razie nie będzie działać.
-ae2fc.tooltip.discretizer.desc=Gdy Dyskretyzator Płynów ME jest podłączony do Systemu ME, będzie reprezentował Płyny przechowywane w Dyskach ME (lub Magistrali Magazynowej) jako krople. Będą one odpowiednikiem płynów dla przedmiotów. Jest to po prostu inny sposób na pokazanie płynów, który w rzeczywistości nie konwertuje płynów na przedmioty.
 ae2fc.tooltip.fluid_buffer.desc=To jest IO płynu o dużej prędkości
 ae2fc.tooltip.walrus.desc=GTNH jest jak praca
 ae2fc.tooltip.fluid_auto_filler=Automatycznie tworzy wzorzec puszkowania płynów z danym pojemnikiem.
@@ -221,6 +219,11 @@ ae2fc.gui.color.StateError=FFFF5555
 error.unknown=Nieznany
 
 ae2fc.key.OpenTerminal=Otwórz Uniwersalny Terminal Bezprzewodowy
+ae2fc.key.OpenCraftingTerminal=Open Wireless Universal Crafting Terminal
+ae2fc.key.OpenLevelTerminal=Open Wireless Universal Level Terminal
+ae2fc.key.OpenInterfaceTerminal=Open Wireless Universal Interface Terminal
+ae2fc.key.OpenPatternTerminal=Open Wireless Universal Pattern Terminal
+ae2fc.key.OpenPatternExTerminal=Open Wireless Universal Processing Pattern Terminal
 ae2fc.key.Restock=Włącz uzupełnianie
 
 itemGroup.ae2fc=Wytwarzanie z Płynami dla AE2

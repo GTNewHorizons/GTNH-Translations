@@ -4,6 +4,7 @@ options.chunks=%s chunków
 options.entityShadows=Cienie Bytów
 options.droppedItems=%s Przedmiotów
 options.droppedItems.max=Nieograniczone
+
 sodium.option_impact.low=Niski
 sodium.option_impact.medium=Średni
 sodium.option_impact.high=Wysoki
@@ -90,11 +91,14 @@ sodium.options.default=Domyślne
 sodium.options.buttons.undo=Cofnij
 sodium.options.buttons.apply=Zastosuj
 sodium.options.buttons.donate=Postaw kawę JellySquid!
+
 options.dynamic_fov=Dynamiczne FOV
 options.dynamic_fov.tooltip=Gdy włączone, pole widzenia będzie zmieniać się bazując na prędkości gracza.
 options.framerate=%s FPS
+
 iris.shaders.toggled=Włączone shadery to %s!
 iris.shaders.disabled=Shadery wyłączone!
+
 options.iris.apply=Zastosuj
 options.iris.refresh=Odśwież
 options.iris.openShaderPackFolder=Otwórz Folder z Pakietami Shaderów
@@ -131,6 +135,7 @@ options.iris.shadowDistance.enabled=Umożliwia zmianę maksymalnej odległości 
 options.iris.shadowDistance.disabled=Obecny pakiet shaderów ustawił już odległość renderowania dla cieni i nie można jej zmienić.
 options.iris.gui.hide=Ukryj GUI
 options.iris.gui.show=Pokaż GUI
+
 options.dynamic_lights=Dynamiczne światło
 options.dynamic_lights.tooltip=Włącza dynamiczne światła. Tryby: OFF - wyłączone, FASTEST - opóźnienie 500 ms, FAST - opóźnienie 250 ms, FANCY - brak opóźnienia. Wyłączone, jeśli używane są shadery.
 options.dynamic_lights_shader_force=Dynamiczne światła – wymuszone za pomocą shaderów
@@ -153,6 +158,7 @@ options.dynamiclights.entities.title=Dynamic Lights - Entities
 options.dynamiclights.entities.info=Toggle which entity types emit dynamic light. Some entries are for mod compatibility.
 options.dynamiclights.entities.search=Search (@mod, $on, $off)
 options.dynamiclights.entity.tooltip=Toggle dynamic lighting for %s entities. Disable to improve performance if this entity type emits unwanted lights.
+
 options.angelica.search.no_results=No matching options
 options.angelica.fontconfig=Font Configuration...
 options.angelica.fontconfig.title=Font Configuration
@@ -199,9 +205,13 @@ options.angelica.sleepbeforeswap=Alternatywny ogranicznik FPS
 options.angelica.sleepbeforeswap.tooltip=Przełącza na alternatywny ogranicznik FPS, który zapewnia stabilniejsze czasy klatek w zamian za nieco większe opóźnienia. Nigdy nie wprowadzi więcej niż jednej klatki opóźnienia i będzie miało mniejszy wpływ przy większej liczbie klatek na sekundę.
 options.angelica.threadedChunkBuilding=Threaded Chunk Building
 options.angelica.threadedChunkBuilding.tooltip=If enabled, chunk meshing will be performed on multiple threads in parallel, significantly improving chunk build speed. Disable if you experience rendering issues with mods that have custom block renderers. Requires renderer reload to take effect.
+
 pack.iris.select.title=Wybierz
 pack.iris.configure.title=Skonfiguruj
 label.iris.true=Wł.
 label.iris.false=Wył.
+
 options.angelica.aggressiveChunkLoading=Aggressive Chunk Loading
 options.angelica.aggressiveChunkLoading.tooltip=Renders chunks immediately when loaded, even if neighbors aren't ready yet. Improves perceived loading speed at render distance edges. Chunks rebuild automatically when neighbors load. Useful for low render distance servers.
+options.angelica.disablef3=Disable F3 Additions
+options.angelica.disablef3.tooltip=Disables Angelica's additions to the F3 debug screen.

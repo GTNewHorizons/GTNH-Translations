@@ -4,6 +4,7 @@ options.chunks=%s 청크
 options.entityShadows=엔티티 그림자
 options.droppedItems=%s 아이템
 options.droppedItems.max=무제한
+
 sodium.option_impact.low=낮음
 sodium.option_impact.medium=중간
 sodium.option_impact.high=높음
@@ -90,11 +91,14 @@ sodium.options.default=기본값
 sodium.options.buttons.undo=되돌리기
 sodium.options.buttons.apply=적용
 sodium.options.buttons.donate=Buy coffee for JellySquid!
+
 options.dynamic_fov=Dynamic FOV
 options.dynamic_fov.tooltip=If enabled, the game's field of view will change based on the player's speed.
 options.framerate=%s FPS
+
 iris.shaders.toggled=Toggled shaders to %s!
 iris.shaders.disabled=Shaders disabled!
+
 options.iris.apply=적용
 options.iris.refresh=새로고침
 options.iris.openShaderPackFolder=셰이더 폴더 열기
@@ -131,6 +135,7 @@ options.iris.shadowDistance.enabled=Allows you to change the maximum distance fo
 options.iris.shadowDistance.disabled=Your current shader pack has already set a render distance for shadows; you cannot change it.
 options.iris.gui.hide=GUI 숨기기
 options.iris.gui.show=GUI 보이기
+
 options.dynamic_lights=동적 조명
 options.dynamic_lights.tooltip=동적 조명을 켭니다. 설정: 꺼짐, 빠르게 - 500ms, 기본 - 250ms, 화려하게 - 50ms, 실시간 - 딜레이 없음
 options.dynamic_lights_shader_force=동적 조명 - 셰이더에 적용
@@ -153,6 +158,7 @@ options.dynamiclights.entities.title=Dynamic Lights - Entities
 options.dynamiclights.entities.info=Toggle which entity types emit dynamic light. Some entries are for mod compatibility.
 options.dynamiclights.entities.search=Search (@mod, $on, $off)
 options.dynamiclights.entity.tooltip=Toggle dynamic lighting for %s entities. Disable to improve performance if this entity type emits unwanted lights.
+
 options.angelica.search.no_results=No matching options
 options.angelica.fontconfig=Font Configuration...
 options.angelica.fontconfig.title=Font Configuration
@@ -199,9 +205,13 @@ options.angelica.sleepbeforeswap=Alternate FPS Limiter
 options.angelica.sleepbeforeswap.tooltip=Switches to an alternate FPS limiter that gives more stable frametimes, in exchange for slightly more latency. Will never introduce more than one frame of latency, and has a lower impact at higher framerates.
 options.angelica.threadedChunkBuilding=Threaded Chunk Building
 options.angelica.threadedChunkBuilding.tooltip=If enabled, chunk meshing will be performed on multiple threads in parallel, significantly improving chunk build speed. Disable if you experience rendering issues with mods that have custom block renderers. Requires renderer reload to take effect.
+
 pack.iris.select.title=선택
 pack.iris.configure.title=설정
 label.iris.true=켜짐
 label.iris.false=꺼짐
+
 options.angelica.aggressiveChunkLoading=Aggressive Chunk Loading
 options.angelica.aggressiveChunkLoading.tooltip=Renders chunks immediately when loaded, even if neighbors aren't ready yet. Improves perceived loading speed at render distance edges. Chunks rebuild automatically when neighbors load. Useful for low render distance servers.
+options.angelica.disablef3=Disable F3 Additions
+options.angelica.disablef3.tooltip=Disables Angelica's additions to the F3 debug screen.
