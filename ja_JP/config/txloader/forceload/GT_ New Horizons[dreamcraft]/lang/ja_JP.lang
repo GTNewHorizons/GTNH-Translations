@@ -1802,3 +1802,20 @@ dreamcraft.pausemenu.wiki=Wikiを開く
 dreamcraft.pausemenu.sharetolan.tooltip=§c"LANに公開"はGTNHではバグの原因となります。§r\n代わりにマルチプレイ専用サーバーを用意してください。\n手順はWikiで確認できます。\n1台のPCでサーバーとクライアントを\n同時に稼働させることができます。
 
 dreamcraft.gui.sharetolan.message=§c"LANに公開"はクエストブックのデータ破損の原因になります。§r まずはマルチプレイ専用サーバーの立ち上げを検討してください。
+
+dreamcraft.command.customdrops.usage=/customdrops reload|toggleinfo
+dreamcraft.command.customfuels.usage=/customfuels reload
+dreamcraft.command.customtooltips.usage=/customtooltips reload
+dreamcraft.command.hazarditems.usage=/hazarditems save|listdamagesources|listpotions|reload [force]
+dreamcraft.command.hazarditems.damage_source_list=Valid DamageTypes are: %s
+dreamcraft.command.hazarditems.save.success=Config has been saved.
+dreamcraft.command.hazarditems.save.failure=Config could not be saved. Check your logfiles.
+dreamcraft.command.hazarditems.reload.unsafe=Config file has changed and was not saved yet. To confirm the reload, type /hazarditems reload force
+dreamcraft.command.hazarditems.potion.header=List of Loaded Potions:
+dreamcraft.command.hazarditems.potion.entry= - %s - ID %s
+dreamcraft.command.reload.success=Reload complete. New config is activated.
+dreamcraft.command.reload.failure=Reload failed. Check your log for syntax errors.
+
+dreamcraft.customdrops.log_kill=Killed entity: [%s]
+dreamcraft.customdrops.debug.on=Death-Debug is now enabled
+dreamcraft.customdrops.debug.off=Death-Debug is now disabled
