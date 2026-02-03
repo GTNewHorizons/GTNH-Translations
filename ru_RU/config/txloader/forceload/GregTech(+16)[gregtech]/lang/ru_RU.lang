@@ -1294,7 +1294,7 @@ GT5U.machines.invert_redstone.tooltip=Invert redstone
 GT5U.machines.buffer_stocking_mode.tooltip=Enable stocking mode
 GT5U.machines.buffer_stocking_mode.tooltip.extended=§7Keeps this many items in destination rather than transfer items in batches of this amount.
 GT5U.machines.buffer_stocking_mode.tooltip.extended.1=§7This mode can be server unfriendly.
-GT5U.machines.target_stack_size.tooltip=Target stack size
+GT5U.machines.target_stack_size.tooltip=Целевой размер стака
 GT5U.machines.sorting_mode.tooltip=Sort stacks
 GT5U.machines.one_stack_limit.tooltip=Limit insertion
 GT5U.machines.one_stack_limit.tooltip.extended=§7Up to 1 stack of each item can be inserted
@@ -1303,7 +1303,7 @@ GT5U.machines.allow_nbt.tooltip=Разрешить предметы с NBT
 GT5U.machines.allow_nbt.tooltip.extended=§7По умолчанию все предметы с NBT блокируются.
 GT5U.machines.ignore_nbt.tooltip=Игнорировать NBT предмета
 GT5U.machines.ignore_nbt.tooltip.extended=§7По умолчанию NBT предмета должен совпадать.
-GT5U.machines.item_distributor.distribution.tooltip=Items per side
+GT5U.machines.item_distributor.distribution.tooltip=Предметы на стороне
 GT5U.machines.stocking_bus.cannot_set_slot=§8Невозможно установить слот, пока включен режим авто-извлечения
 GT5U.machines.stocking_bus.auto_pull.tooltip.1=Нажмите для включения автоматического извлечения предметов из МЭ
 GT5U.machines.stocking_bus.auto_pull.tooltip.2=ПКМ изменить дополнительные параметры
@@ -1737,7 +1737,7 @@ GT5U.gui.chat.powerfail.waypoint.tooltip=Механизм: %s\nМестопол�
 
 GT5U.gui.chat.powerfail.hint=§7Используйте /powerfails для получения информации
 
-GT5U.gui.chat.powerfail.login=У вас есть %s не устранёный сбои питания.
+GT5U.gui.chat.powerfail.login=У вас есть %s не устраннёный сбои питания.
 GT5U.gui.chat.powerfail.login.plural=У вас есть %s не устранённых сбоев питания.
 
 GT5U.gui.chat.powerfail.cleared=Устранены все сбои в питании.
@@ -3209,10 +3209,16 @@ gt.time.tick.plural=тиков
 gt.time.second.singular=секунд
 gt.time.second.plural=секунды
 
+# Tooltips for GT Tools
+gt.softmallet.tooltip=Activates and Deactivates Machines
+gt.softmallet.tooltip.mode=Mode Cycles Between Toggle/Activate/Deactivate
+
 #Tool modes
 key.gt.tool_mode_switch=Переключить режим инструмента
 gt.wrench.mode.1=Режим линии
 gt.wrench.mode.2=Прецизионный режим
+gt.softmallet.mode.1=Activation Mode
+gt.softmallet.mode.2=Deactivation Mode
 
 # Tooltip for vajra
 gt.vajra.tooltip.flavor=Ваш дружеский мгновенный разрушитель блоков
