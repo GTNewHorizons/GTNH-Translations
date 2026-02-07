@@ -97,7 +97,6 @@ gt.crop.zomplant.name=Zomplant
 gt.tileentity.eup_in=Входной вольтаж: §a%d (%s§a)§7
 gt.tileentity.eup_out=Выходной вольтаж: §a%d (%s§a)§7
 gt.tileentity.eup_amount=Ампераж: §e%d§7
-gt.tileentity.eup_store=Ёмкость: §9%d§7 EU
 gt.tileentity.has_muffler=приглушен
 gt.tileentity.has_steam_upgrade=есть улучшение пар
 gt.tileentity.colored=Окрашенный (%s%s§7)
@@ -454,7 +453,6 @@ gtpp.material.Lutetium=Лютеций
 gtpp.material.Magic=Магический металл
 gtpp.material.Magnesium=Магний
 gtpp.material.Manganese=Марганец
-gtpp.material.ManureByproduct=Побочный продукт навоза
 gtpp.material.MaragingSteel250=Мартенситностареющая сталь 250
 gtpp.material.MaragingSteel300=Мартенситностареющая сталь 300
 gtpp.material.MaragingSteel350=Мартенситностареющая сталь 350
@@ -698,15 +696,6 @@ GTPP.algae.green_algae.name=Зелёные водоросли
 GTPP.algae.red_algae.name=Красные водоросли
 GTPP.algae.brown_algae.name=Бурые водоросли
 GTPP.algae.yellow-green_algae.name=Желто-зелёные водоросли
-
-GTPP.algae.tooltip.requires_light=Требуется свет: %s
-GTPP.algae.tooltip.salt_water=Солёная вода: %s
-GTPP.algae.tooltip.fresh_water=Свежая вода: %s
-GTPP.algae.tooltip.temp_tolerance=Допустимая температура: %d
-GTPP.algae.tooltip.growth=Рост: %d
-GTPP.algae.tooltip.production=Производство: %d
-GTPP.algae.tooltip.lifespan=Продолжительность жизни в днях: %d
-GTPP.algae.tooltip.generation=Generation: %d
 
 # Power Goggles
 GT5U.power_goggles.open_config_gui=Открыть конфигурацию энергетических очков
@@ -1047,6 +1036,8 @@ gt.recipe.unpackager=Распаковщик
 gt.recipe.unpackager.description=Раскладывает вещи из ящика
 gt.recipe.wiremill=Проволочный стан
 gt.recipe.wiremill.description=Производит провода ещё эффективнее
+gt.recipe.drawerframer=Drawer Framer
+gt.recipe.drawerframer.description=Frames drawers exactly like the Framing Table
 
 # RecipeMaps that are not listed on MachineType enum
 gt.recipe.fakeAssemblylineProcess=Сборочная линия
@@ -1128,6 +1119,12 @@ GT5U.machines.minermulti=Мультиблочный шахтёр
 GT5U.machines.muffled=Глушитель звука
 GT5U.machines.muffled.on=Глушитель звука: §aВключён§r
 GT5U.machines.muffled.off=Глушитель звука: §cОтключён§r
+GT5U.machines.MTETransformerHiAmp.descLn1=Transforms 4A to 16A
+GT5U.machines.MTETransformerHiAmp.descLn2=Toggle 2A/8A half-mode with Screwdriver
+GT5U.machines.MTETransformerHiAmp.descLn3=Accepts up to 6A (3A in half-mode) from energy network
+GT5U.machines.MTETransformerWet.descLn1=Transforms 16A to 64A
+GT5U.machines.MTETransformerWet.descLn2=Toggle 8A/32A half-mode with Screwdriver
+GT5U.machines.MTETransformerWet.descLn3=Accepts up to 20A (10A in half-mode) from energy network
 GT5U.machines.digitalchest.voidoverflow.enabled=Пустотный режим при переполнении §aВкл.§r
 GT5U.machines.digitalchest.voidoverflow.disabled=Пустотный режим при переполнении §cОткл.§r
 GT5U.machines.digitalchest.inputfilter.enabled=Входной фильтр §aВкл.§r
@@ -1585,6 +1582,7 @@ GT5U.gui.config.client=Клиент
 GT5U.gui.config.client.color_modulation=Модуляция цвета
 GT5U.gui.config.client.color_modulation.cable_insulation=Изоляция кабеля
 GT5U.gui.config.client.color_modulation.machine_metal=Металл механизма (Цвет GUI по умолчанию)
+GT5U.gui.config.client.color_modulation.gui_metal=Gui Metal (Default GUI Color)
 GT5U.gui.config.client.interface=Интерфейс
 GT5U.gui.config.client.preference=Preference
 GT5U.gui.config.client.blockoverlay=GT Tool Block Overlay
@@ -1842,6 +1840,13 @@ GT5U.hatch.fluid.filter.enable=Жидкостной выходной фильт�
 GT5U.hatch.item.filter.enable=Фильтр вывода предметов установлен на: %s
 GT5U.hatch.fluid.filter.disable=Фильтрация вывода жидкостей отключена
 GT5U.hatch.item.filter.disable=Фильтрация вывода предметов отключена
+GT5U.hatch.outputme.checkMode.true=Check Mode §cOn§r
+GT5U.hatch.outputme.checkMode.false=Check Mode §aOff§r
+GT5U.hatch.outputme.checkMode.desc=NOTE: Check Mode checks whether there is enough space for the output, resulting in more lag.
+GT5U.hatch.outputme.cacheMode.true=Cache Mode §cOn§r
+GT5U.hatch.outputme.cacheMode.false=Cache Mode §aOff§r
+GT5U.hatch.outputme.cacheMode.desc=Stores to the internal cell instead of to the ME Network.
+GT5U.hatch.outputme.cache_capacity_label=Current cache capacity: §e%s§r
 
 GT5U.bus.filterTooltip.empty=§aПеретащите предмет из NEI, чтобы установить выходной фильтр
 GT5U.bus.filterTooltip.full=§aНажмите, чтобы очистить выходной фильтр
@@ -2218,8 +2223,14 @@ GT5U.waila.boiler_solar.output=Выход солнечного бойлера:§
 GT5U.waila.hatch.crafting_input_slave.linked=Привязан
 GT5U.waila.hatch.crafting_input_slave.unlinked=Не привязан
 GT5U.waila.hatch.crafting_input_slave.bound_to=Привязан к %d, %d, %d
-GT5U.waila.hatch.output_bus_me.item_cache_capacity=Размер кэша предметов: %s%s%s
-GT5U.waila.hatch.output_me.fluid_cache_capacity=Размер кэша жидкостей: %s%s Л %s
+GT5U.waila.hatch.outputme.item_cache_capacity=Item cache capacity: §e%s§r
+GT5U.waila.hatch.outputme.fluid_cache_capacity=Fluid cache capacity: §e%s L§r
+GT5U.waila.hatch.outputme.item_cache_empty=This bus has no cached stacks
+GT5U.waila.hatch.outputme.item_cache_detail=The bus contains §6%d§r cached stack%s:
+GT5U.waila.hatch.outputme.item_cache_detail.more=§oAnd %d more...
+GT5U.waila.hatch.outputme.fluid_cache_empty=This hatch has no cached fluids
+GT5U.waila.hatch.outputme.fluid_cache_detail=The hatch contains §6%d§r cached fluid%s:
+GT5U.waila.hatch.outputme.fluid_cache_detail.more=§oAnd %d more...
 GT5U.waila.industrial_apiary.current_queen=Текущая королева: %s
 GT5U.waila.industrial_apiary.effective_production=Эффективность производства: %s
 GT5U.waila.industrial_apiary.error=Ошибка: %s
@@ -3210,15 +3221,15 @@ gt.time.second.singular=секунд
 gt.time.second.plural=секунды
 
 # Tooltips for GT Tools
-gt.softmallet.tooltip=Activates and Deactivates Machines
-gt.softmallet.tooltip.mode=Mode Cycles Between Toggle/Activate/Deactivate
+gt.softmallet.tooltip=Активирует и деактивирует механизмы
+gt.softmallet.tooltip.mode=Переключатель циклов режима между/включения/отключения
 
 #Tool modes
 key.gt.tool_mode_switch=Переключить режим инструмента
 gt.wrench.mode.1=Режим линии
 gt.wrench.mode.2=Прецизионный режим
-gt.softmallet.mode.1=Activation Mode
-gt.softmallet.mode.2=Deactivation Mode
+gt.softmallet.mode.1=Режим активации
+gt.softmallet.mode.2=Режим деактивации
 
 # Tooltip for vajra
 gt.vajra.tooltip.flavor=Ваш дружеский мгновенный разрушитель блоков
