@@ -1,35 +1,35 @@
 #Creative Tab Name
 itemGroup.TecTech=TecTech Interdimensional
-itemGroup.EM=TecTech Elemental Matter
+itemGroup.EM=TecTech 원소성 물질
 
 #Blocks
-tile.quantumStuff.name=Quantum Stuff
-tile.Eye of Harmony Renderer.name=Eye of Harmony Renderer
+tile.quantumStuff.name=양자 관련 물건들
+tile.Eye of Harmony Renderer.name=조화의 눈 렌더기
 
-tile.quantumGlass.name=Quantum Glass
-tile.quantumGlass.desc.0=Dense yet transparent
-tile.quantumGlass.desc.1=Glassy & Classy
+tile.quantumGlass.name=양자 유리
+tile.quantumGlass.desc.0=고밀도지만 투명하다
+tile.quantumGlass.desc.1=품격있는 유리
 
-tile.spatiallyTranscendentGravitationalLens.name=Spatially Transcendent Gravitational Lens Block
-tile.godforgeGlass.desc.0=Gravitational lensing taken literal
-tile.godforgeGlass.desc.1=GraviLens 9000!
+tile.spatiallyTranscendentGravitationalLens.name=공간적으로 초월한 중력 렌즈 블록
+tile.godforgeGlass.desc.0=말 그대로 중력 렌즈를 실현합니다
+tile.godforgeGlass.desc.1=중력 렌즈 9000!
 
-tile.reactorSim.name=Reactor Simulator
-tile.reactorSim.desc.0=Fission Reaction Uncertainty Resolver 9001
-tile.reactorSim.desc.1=Explodes, but not as much...
+tile.reactorSim.name=원자로 시뮬레이터
+tile.reactorSim.desc.0=핵분열 원자로 불확실성 해결기 9001
+tile.reactorSim.desc.1=폭발합니다, 하지만 그다지 강하진 않습니다
 
-gt.spacetime_compression_field_generator.name=Spacetime Compression Field Generator
-gt.time_acceleration_field_generator.name=Time Dilation Field Generator
+gt.spacetime_compression_field_generator.name=안정된 시공간 압축장 생성기
+gt.time_acceleration_field_generator.name=시간지연장 생성기
 
-tile.Forge of the Gods Renderer.name=Forge of the Gods Renderer
+tile.Forge of the Gods Renderer.name=신들의 재련소 렌더기
 
 #Items
-item.em.programmer.name=AVR programmer
-item.em.programmer.desc.0=Current PC
-item.em.programmer.desc.1=Awoken
-item.em.programmer.desc.2=Active
-item.em.programmer.desc.3=Debug
-item.em.programmer.desc.4=Delay
+item.em.programmer.name=AVR 프로그래머
+item.em.programmer.desc.0=현재 PC
+item.em.programmer.desc.1=깨어남
+item.em.programmer.desc.2=활성
+item.em.programmer.desc.3=디버그
+item.em.programmer.desc.4=딜레이
 
 item.em.debugContainer.name=Debug EM Container
 item.em.debugContainer.desc.0=Contains
@@ -1036,24 +1036,24 @@ fog.upgrade.text.11=Unlocks the Heliofusion Exoticizer module and quark gluon pl
 fog.upgrade.text.12=Improves the fuel consumption -> heat conversion formula. Improved formula: Power Forge Heat = log_1.12(Stellar Fuel Units/sec) * 1000 + 12601, Melting Core Heat = log1.18(Stellar Fuel Units/sec) * 1000 + 12601
 fog.upgrade.text.13=Improves the formula of SA to: Multiplier = 1 + (Stellar Fuel Units/sec) / 5
 fog.upgrade.text.14=Improves the OC formula from 4/2 OCs to 4/2.3 OCs.
-fog.upgrade.text.15=Allows the Heliothermal Plasma Fabricator to process multi step plasmas. Tier restriction still applies.
-fog.upgrade.text.16=Allows the Helioflare Power Forge to receive the full benefits of the Helioflux Melting Core upgrade path.
-fog.upgrade.text.17=Increases the cap of EBF heat bonuses to 30,000K.
-fog.upgrade.text.18=Unlocks a multiplier to maximum parallel based on current heat. This bonus is calculated via this formula: Multiplier = 1 + Heat / 15000
-fog.upgrade.text.19=Improves the EBF energy reduction heat bonus from 5%% to 8%% and adds an energy discount based on the fill level of the internal battery. This bonus is calculated via the formula: Discount = (Current fill level / Max Capacity - 0.5)^2 * (-0.6) + 0.15, multiplied by 2/3 for modules other than the Plasma Fabricator
-fog.upgrade.text.20=EBF heat bonuses are granted above 30,000K, but the heat value used in heat bonus calculations is determined by this formula: Power Forge Heat = 30000 + (Current Heat - 30000)^0.85, Melting Core Heat = 30000 + (Current Heat - 30000)^0.8
-fog.upgrade.text.21=Unlocks a multiplier to maximum parallel based on total amount of purchased upgrades. This bonus is calculated via this formula: Multiplier = 1 + Upgrade Amount / 5
-fog.upgrade.text.22=Improves IGCC based on current maximum parallel. Improved Formula: Multiplier = (1 / Heat^0.01) / (Parallel^0.02)
-fog.upgrade.text.23=Multiplies maximum processing voltage by 4 per active ring, applies after other bonuses.
-fog.upgrade.text.24=Allows the Heliothermal Plasma Fabricator to process up to T5 plasmas.
-fog.upgrade.text.25=Allows the Heliofusion Exoticizer to be affected by other upgrade benefits, but those benefits are square rooted first. The overclock bonus is adjusted via the following formula: OC Factor = 2 + (Base OC Factor - 2)^2
-fog.upgrade.text.26=Allows construction of the second ring and adds 4 module slots.
-fog.upgrade.text.27=Uncaps maximum fuel consumption, but fuel consumption used in bonus calculations scales according to this formula: Actual FC = Current Max FC + (Current FC - Current Max FC)^0.4, where FC refers to fuel consumption and max FC refers to the max fuel consumption without this upgrade.
-fog.upgrade.text.28=Uncaps maximum processing voltage. Voltage can be set in each module's GUI.
-fog.upgrade.text.29=Allows construction of the third ring and adds 4 module slots.
+fog.upgrade.text.15=헬리오퓨전 특이화 장치(Heliofusion Exoticizer)가 다단계 플라즈마 처리가 가능해집니다. 티어 제한은 여전히 적용됩니다.
+fog.upgrade.text.16=헬리오플레어 파워 포지(Helioflare Power Forge) 모듈이 헬리오플레어 멜팅 코어(Helioflare Melting Core) 모듈 업그레이드 경로의 모든 혜택을 받을 수 있도록 합니다.
+fog.upgrade.text.17=EBF 열 보너스 한도를 30000K로 증가시킵니다.
+fog.upgrade.text.18=현재 열에 기반하여 최대 병렬화 배수를 해제합니다. 이 보너스는 다음 공식으로 계산됩니다: 병렬화 = 1 + 현재열값 / 15000
+fog.upgrade.text.19=EBF 에너지 절감 열 보너스를 5%에서 8%로 향상시키며, 내부 배터리 충전 수준에 기반한 에너지 할인을 추가합니다. 이 보너스는 다음 공식을 통해 계산됩니다:할인률 = (현재 충전 수준 / 최대 용량 - 0.5)^2 * (-0.6) + 0.15
+fog.upgrade.text.20=EBF 열 보너스는 30,000K 이상에서 제공되지만, 열 보너스 계산에 사용되는 열 값은 아래의 공식으로 결정됩니다: 실제 열값 = 30,000 + (현재 열값 - 30,000)^0.85
+fog.upgrade.text.21=구매한 업그레이드 총량에 기반하여 최대 병렬화 배수를 해제합니다. 이 보너스는 다음 공식을 통해 계산됩니다: 병렬화 배수 = 1 + (총 업그레이드 수량 / 5)
+fog.upgrade.text.22=현재 최대 병렬화에 기반하여 개선된 중력 대류 코일(IGCC)를 개선합니다. 개선된 공식: 단축배수 = (1 / 열값^0.01) / (병렬화율^0.02)
+fog.upgrade.text.23=활성화된 링 1개당 최대 처리 전압을 4배로 증가시킵니다. 이 효과는 다른 보너스 적용 후에 추가됩니다.
+fog.upgrade.text.24=헬리오서멀 플라즈마 제조기(Heliothermal Plasma Fabricator)가 티어5 핵융합 플라즈마까지 처리할 수 있도록 허용합니다.
+fog.upgrade.text.25=헬리오퓨전 특이화 장치(Heliofusion Exoticizer)가 다른 업그레이드 혜택의 영향을 받을 수 있도록 허용하지만, 이러한 혜택은 제곱근 처리 후 적용됩니다. 오버클럭 보너스는 아래 공식을 통해 조정됩니다: 오버클럭 배수 = 2 + (기본 오버클럭 배수 - 2)^2
+fog.upgrade.text.26=두 번째 링의 건설이 가능하며, 4개의 모듈 슬롯을 추가합니다.
+fog.upgrade.text.27=최대 연료 소비량 제한을 해제하지만, 보너스 계산에 사용되는 연료 소비량은 아래 공식을 따릅니다: 실제 연료 소비량 = 현재 최대 연료 소비량 + (현재 연료 소비량 - 현재 최대 연료 소비량)^0.4
+fog.upgrade.text.28=최대 처리 전압 제한을 해제합니다. 전압은 각 모듈의 GUI에서 설정할 수 있습니다.
+fog.upgrade.text.29=세 번째 링의 건설을 허용하며, 4개의 모듈 슬롯을 추가합니다.
 fog.upgrade.text.30=Unlocks Magmatter production in the Heliofusion Exoticizer, creation of exotic plasmas in the Heliothermal Plasma Fabricator and Graviton Shard ejection & injection.
 
-fog.debug.resetbutton.text=Reset
+fog.debug.resetbutton.text=초기화
 fog.debug.resetbutton.tooltip=Resets all upgrades to zero
 fog.debug.unlockall.text=Unlock all upgrades
 fog.debug.gravitonshardsetter.tooltip=Set the amount of available graviton shards
@@ -1086,7 +1086,7 @@ fog.button.color.tooltip=Cosmetics Menu
 fog.button.statistics.tooltip=Stats Overview
 fog.text.tooltip.heat=Heat value used for checking if a recipe can run
 fog.text.tooltip.effectiveheat=Heat value used for calculating bonuses
-fog.text.tooltip.parallel=Maximum parallel amount
+fog.text.tooltip.parallel=최대 병렬 처리
 fog.text.tooltip.speedbonus=Multiplier for base recipe time, making it shorter
 fog.text.tooltip.energydiscount=Multiplier for base energy usage, reducing it
 fog.text.tooltip.ocdivisor=Divisor for recipe time reduction per overclock (does not affect perfect OCs)
@@ -1106,11 +1106,11 @@ achievement.gt.godforgecasing.1=Celestial Matter Guidance Casing
 achievement.gt.godforgecasing.2=Boundless Gravitationally Severed Structure Casing
 achievement.gt.godforgecasing.3=Transcendentally Amplified Magnetic Confinement Casing
 achievement.gt.godforgecasing.4=Stellar Energy Siphon Casing
-achievement.gt.godforgecasing.5=Remote Graviton Flow Modulator
+achievement.gt.godforgecasing.5=원격 중력자 유동 조절기
 achievement.gt.godforgecasing.6=Medial Graviton Flow Modulator
-achievement.gt.godforgecasing.7=Central Graviton Flow Modulator
+achievement.gt.godforgecasing.7=중앙 중력자 유동 조절기
 
-achievement.gt.blockmachines.multimachine.em.forge_of_gods.desc=BEEEEEEEEEAAAAAAM
+achievement.gt.blockmachines.multimachine.em.forge_of_gods.desc=비이이이이이임
 achievement.gt.blockmachines.multimachine.em.smelting_module.desc=The one furnace to rule them all.
 achievement.gt.blockmachines.multimachine.em.molten_module.desc=Hope you have good fluid solidifiers!
 achievement.gt.blockmachines.multimachine.em.plasma_module.desc=Fusion? No thanks.
@@ -1125,7 +1125,7 @@ achievement.gt.godforgecasing.6.desc=Building block of the Forge of the Gods
 achievement.gt.godforgecasing.7.desc=Building block of the Forge of the Gods
 
 gt.blockmachines.multimachine.FOG.parallel=Parallel
-gt.blockmachines.multimachine.FOG.batch=Batch Size
+gt.blockmachines.multimachine.FOG.batch=묶음 크기
 gt.blockmachines.multimachine.FOG.fuelconsumption=Stellar Fuel Consumption Factor
 gt.blockmachines.multimachine.FOG.fuelinfo.0=The Stellar Fuel Consumption Factor is the main determining factor in calculating the total stellar fuel consumption per second. Each fuel type has different scaling, which is as follows:
 gt.blockmachines.multimachine.FOG.fuelinfo.1=Dimensionally Transcendent Residue: factor*300*1.15^factor
@@ -1651,58 +1651,58 @@ tt.keyword.TauonNeutrino=Tauon neutrino
 tt.keyword.PositronNeutrino=Positron neutrino
 tt.keyword.AntimuonNeutrino=Antimuon neutrino
 tt.keyword.AntitauonNeutrino=Antitauon neutrino
-tt.keyword.QuarkUp=Up
-tt.keyword.QuarkCharm=Charm
-tt.keyword.QuarkTop=Top
-tt.keyword.QuarkDown=Down
-tt.keyword.QuarkStrange=Strange
-tt.keyword.QuarkBottom=Bottom
-tt.keyword.QuarkAntiUp=Antiup
-tt.keyword.QuarkAntiCharm=Anticharm
-tt.keyword.QuarkAntiTop=Antitop
-tt.keyword.QuarkAntiDown=Antidown
-tt.keyword.QuarkAntiStrange=Antistrange
-tt.keyword.QuarkAntiBottom=Antibottom
-tt.keyword.Higgs=Higgs
+tt.keyword.QuarkUp=위
+tt.keyword.QuarkCharm=챰
+tt.keyword.QuarkTop=탑
+tt.keyword.QuarkDown=아래
+tt.keyword.QuarkStrange=이상한
+tt.keyword.QuarkBottom=바텀
+tt.keyword.QuarkAntiUp=반 위
+tt.keyword.QuarkAntiCharm=반 챰
+tt.keyword.QuarkAntiTop=반 탑
+tt.keyword.QuarkAntiDown=반 아래
+tt.keyword.QuarkAntiStrange=반 이상한
+tt.keyword.QuarkAntiBottom=반 바텀
+tt.keyword.Higgs=힉스
 #These are Thaumcraft aspects
-tt.keyword.Air=Air
-tt.keyword.Earth=Earth
-tt.keyword.Fire=Fire
-tt.keyword.Water=Water
-tt.keyword.Order=Order
-tt.keyword.Entropy=Entropy
-tt.keyword.Chaos=Chaos
+tt.keyword.Air=공기
+tt.keyword.Earth=땅
+tt.keyword.Fire=불
+tt.keyword.Water=물
+tt.keyword.Order=질서
+tt.keyword.Entropy=엔트로피
+tt.keyword.Chaos=카오스
 
-tt.keyword.Primal=Primal
-tt.keyword.Aspect=Aspect
+tt.keyword.Primal=태초의
+tt.keyword.Aspect=위상
 
-tt.element.Neutronium=Neutronium
-tt.element.Hydrogen=Hydrogen
-tt.element.Helium=Helium
-tt.element.Lithium=Lithium
-tt.element.Beryllium=Beryllium
-tt.element.Boron=Boron
-tt.element.Carbon=Carbon
-tt.element.Nitrogen=Nitrogen
-tt.element.Oxygen=Oxygen
-tt.element.Fluorine=Fluorine
-tt.element.Neon=Neon
-tt.element.Sodium=Sodium
-tt.element.Magnesium=Magnesium
-tt.element.Aluminium=Aluminium
-tt.element.Silicon=Silicon
-tt.element.Phosphorus=Phosphorus
-tt.element.Sulfur=Sulfur
-tt.element.Chlorine=Chlorine
-tt.element.Argon=Argon
-tt.element.Potassium=Potassium
-tt.element.Calcium=Calcium
-tt.element.Scandium=Scandium
-tt.element.Titanium=Titanium
-tt.element.Vanadium=Vanadium
-tt.element.Chromium=Chromium
-tt.element.Manganese=Manganese
-tt.element.Iron=Iron
+tt.element.Neutronium=뉴트로늄
+tt.element.Hydrogen=수소
+tt.element.Helium=헬륨
+tt.element.Lithium=리튬
+tt.element.Beryllium=베릴륨
+tt.element.Boron=붕소
+tt.element.Carbon=탄소
+tt.element.Nitrogen=질소
+tt.element.Oxygen=산소
+tt.element.Fluorine=플루오린
+tt.element.Neon=네온
+tt.element.Sodium=나트륨
+tt.element.Magnesium=마그네슘
+tt.element.Aluminium=알루미늄
+tt.element.Silicon=실리콘
+tt.element.Phosphorus=인
+tt.element.Sulfur=황
+tt.element.Chlorine=염소
+tt.element.Argon=아르곤
+tt.element.Potassium=칼륨
+tt.element.Calcium=칼슘
+tt.element.Scandium=스칸듐
+tt.element.Titanium=티타늄
+tt.element.Vanadium=바나듐
+tt.element.Chromium=크로뮴
+tt.element.Manganese=망가니즈
+tt.element.Iron=철
 tt.element.Cobalt=Cobalt
 tt.element.Nickel=Nickel
 tt.element.Copper=Copper
@@ -1752,57 +1752,57 @@ tt.element.Hafnium=Hafnium
 tt.element.Tantalum=Tantalum
 tt.element.Tungsten=Tungsten
 tt.element.Rhenium=Rhenium
-tt.element.Osmium=Osmium
-tt.element.Iridium=Iridium
-tt.element.Platinum=Platinum
-tt.element.Gold=Gold
-tt.element.Mercury=Mercury
-tt.element.Thallium=Thallium
-tt.element.Lead=Lead
-tt.element.Bismuth=Bismuth
-tt.element.Polonium=Polonium
-tt.element.Astatine=Astatine
-tt.element.Radon=Radon
-tt.element.Francium=Francium
-tt.element.Radium=Radium
-tt.element.Actinium=Actinium
-tt.element.Thorium=Thorium
-tt.element.Protactinium=Protactinium
-tt.element.Uranium=Uranium
-tt.element.Neptunium=Neptunium
-tt.element.Plutonium=Plutonium
-tt.element.Americium=Americium
-tt.element.Curium=Curium
-tt.element.Berkelium=Berkelium
-tt.element.Californium=Californium
-tt.element.Einsteinium=Einsteinium
-tt.element.Fermium=Fermium
-tt.element.Mendelevium=Mendelevium
-tt.element.Nobelium=Nobelium
-tt.element.Lawrencium=Lawrencium
-tt.element.Rutherfordium=Rutherfordium
-tt.element.Dubnium=Dubnium
-tt.element.Seaborgium=Seaborgium
-tt.element.Bohrium=Bohrium
+tt.element.Osmium=오스뮴
+tt.element.Iridium=이리듐
+tt.element.Platinum=백금
+tt.element.Gold=금
+tt.element.Mercury=수은
+tt.element.Thallium=탈륨
+tt.element.Lead=납
+tt.element.Bismuth=비스무트
+tt.element.Polonium=폴로늄
+tt.element.Astatine=아스타틴
+tt.element.Radon=라돈
+tt.element.Francium=프랑슘
+tt.element.Radium=라듐
+tt.element.Actinium=악티늄
+tt.element.Thorium=토륨
+tt.element.Protactinium=프로트악티늄
+tt.element.Uranium=우라늄
+tt.element.Neptunium=넵투늄
+tt.element.Plutonium=플루토늄
+tt.element.Americium=아메리슘
+tt.element.Curium=퀴륨
+tt.element.Berkelium=버클륨
+tt.element.Californium=캘리포늄
+tt.element.Einsteinium=아인슈타이늄
+tt.element.Fermium=페르뮴
+tt.element.Mendelevium=멘델레븀
+tt.element.Nobelium=노벨륨
+tt.element.Lawrencium=로렌슘
+tt.element.Rutherfordium=러더포듐
+tt.element.Dubnium=더브늄
+tt.element.Seaborgium=시보륨
+tt.element.Bohrium=보륨
 tt.element.Hassium=Hassium
 tt.element.Meitnerium=Meitnerium
 tt.element.Darmstadtium=Darmstadtium
 tt.element.Roentgenium=Roentgenium
 tt.element.Copernicium=Copernicium
 tt.element.Nihonium=Nihonium
-tt.element.Flerovium=Flerovium
+tt.element.Flerovium=플레로븀
 tt.element.Moscovium=Moscovium
 tt.element.Livermorium=Livermorium
 tt.element.Tennessine=Tennessine
-tt.element.Oganesson=Oganesson
+tt.element.Oganesson=오가네손
 
-tt.element.AntiNeutronium=Antineutronium
-tt.element.AntiHydrogen=Antihydrogen
-tt.element.AntiHelium=Antihelium
-tt.element.AntiLithium=Antilithium
-tt.element.AntiBeryllium=Antiberyllium
-tt.element.AntiBoron=Antiboron
-tt.element.AntiCarbon=Anticarbon
+tt.element.AntiNeutronium=반중성자
+tt.element.AntiHydrogen=반수소
+tt.element.AntiHelium=반헬륨
+tt.element.AntiLithium=반리튬
+tt.element.AntiBeryllium=반베릴륨
+tt.element.AntiBoron=반붕소
+tt.element.AntiCarbon=반탄소
 tt.element.AntiNitrogen=Antinitrogen
 tt.element.AntiOxygen=Antioxygen
 tt.element.AntiFluorine=Antifluorine
@@ -1937,7 +1937,7 @@ tt.IUPAC.S=Sept
 tt.IUPAC.O=Oct
 tt.IUPAC.E=Enn
 tt.IUPAC.ium=ium
-tt.IUPAC.Anti=Anti
+tt.IUPAC.Anti=반
 tt.keyword.Weird=*
 
 tt.tooltip.mark_general=: Interdimensional
@@ -1954,24 +1954,24 @@ GT5U.gui.config.general.teslatweaks=Tesla Tweaks
 GT5U.gui.config.general.visual=Visual
 
 tt.eoh.fancy_names.crude=Crude
-tt.eoh.fancy_names.primitive=Primitive
-tt.eoh.fancy_names.stable=Stable
-tt.eoh.fancy_names.Advanced=Advanced
-tt.eoh.fancy_names.superb=Superb
-tt.eoh.fancy_names.exotic=Exotic
-tt.eoh.fancy_names.perfect=Perfect
-tt.eoh.fancy_names.tipler=Tipler
-tt.eoh.fancy_names.gallifreyan=Gallifreyan
+tt.eoh.fancy_names.primitive=원시적인
+tt.eoh.fancy_names.stable=안정된
+tt.eoh.fancy_names.Advanced=고급
+tt.eoh.fancy_names.superb=휼륭한
+tt.eoh.fancy_names.exotic=엑소틱
+tt.eoh.fancy_names.perfect=완벽한
+tt.eoh.fancy_names.tipler=티플러
+tt.eoh.fancy_names.gallifreyan=갈리프레이
 tt.eoh.fancy_names.unknown=Unknown
 
-tt.godforge.casings.Error.Tooltip=Error, report to GTNH team
-tt.godforge.casings.0.Tooltip.0=Shielded by the event horizon of a singularity
-tt.godforge.casings.0.Tooltip.1=Don't get too close...
-tt.godforge.casings.1.Tooltip.0=Designed to route stellar matter using spacetime distortion
-tt.godforge.casings.1.Tooltip.1=Reality Distortion
-tt.godforge.casings.2.Tooltip.0=Unaffected by gravitational forces
-tt.godforge.casings.2.Tooltip.1=Not even a black hole could tear it apart.
-tt.godforge.casings.3.Tooltip.0=Creates enormous magnetic fields capable of constraining entire stars
+tt.godforge.casings.Error.Tooltip=에러! GTNH 팀에 알리세요
+tt.godforge.casings.0.Tooltip.0=사건의 지평선으로 보호됨
+tt.godforge.casings.0.Tooltip.1=너무 가까이 가지 마세요...
+tt.godforge.casings.1.Tooltip.0=시공간의 왜곡을 통해 성간물질의 흐름을 유도하도록 설계되었습니다
+tt.godforge.casings.1.Tooltip.1=현실 왜곡
+tt.godforge.casings.2.Tooltip.0=중력에 영향을 받지 않음
+tt.godforge.casings.2.Tooltip.1=블랙홀조차도 찢어놓을 수 없습니다
+tt.godforge.casings.3.Tooltip.0=별 전체를 넣을 수 있을 정도로 거대한 자기장을 생성합니다
 tt.godforge.casings.3.Tooltip.1=It's super effective!
 tt.godforge.casings.4.Tooltip.0=Taps into streams of stellar matter to harness their heat energy
 tt.godforge.casings.4.Tooltip.1=Turn up the heat!
