@@ -1029,9 +1029,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACIQ.desc=あなたが考えているだ�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACIw.name=§2§n石炭が粗すぎる？精製しよう！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACIw.desc=石油をそのまま燃焼発電機に入れて発電するのは非常に非効率的です。石油1バケツあたりたったの20,000 EUにしかなりません。今こそ精製する時です。%n%n石油の精製産物は複数種類あり、プログラム回路を使って生産したいものを指定する必要があります。後々、一度に全ての精製産物を得られる蒸留塔を作れるようになりますが、それは遠い先の話です。%n%n石油の他にも蒸留可能な液体は多数あります！その中でも2種類、クレオソートからできる潤滑油と、水からできる蒸留水は、あると便利ですが生産に時間がかかります。あらかじめ生産ラインを構築しておくといいでしょう。
 
-# Quest: Light Sulfuric Fuel
+# Quest: Sulfuric Light Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACJA.name=§2§n硫化軽油
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACJA.desc=原油を蒸留することで、燃焼効率40,000 EUの硫化軽油を製造できます。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACJA.desc=原油を蒸留することで、燃焼効率40,000 EUの§7《§r硫化軽油§7／Sulfuric Light Fuel》§rを製造できます。
 
 # Quest: Light Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACJQ.name=§2§n軽油
@@ -1119,7 +1119,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACcg.desc=スポナーを持ち運んで�
 
 # Quest: Sulfuric Naphtha
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACfw.name=§2§n硫化ナフサ
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACfw.desc=石油の異なる蒸留により、ガスタービンでの燃焼効率が1セル40,000 EUの硫化ナフサを製造できます。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACfw.desc=石油の異なる蒸留により、ガスタービンでの燃焼効率が1セルあたり40,000 EUの§7《§r硫化ナフサ§7／Sulfuric Naphtha》§rを製造できます。
 
 # Quest: LPG
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACgA.name=§2§nLPG
@@ -1131,7 +1131,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACgQ.desc=§7《§r硫化ナフサ§7／S
 
 # Quest: Sulfuric Gas
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACgg.name=§2§n硫化ガス
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACgg.desc=石油の異なる蒸留により、ガスタービンでの燃焼効率が1セル25,000 EUの硫化ガスを製造できます。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACgg.desc=石油の異なる蒸留により、ガスタービンでの燃焼効率が1セルあたり25,000 EUの§7《§r硫化ガス§7／Sulfuric Gas》§rを製造できます。
 
 # Quest: Refinery Gas
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACgw.name=§2§n精製ガス
@@ -3107,7 +3107,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6g.desc=Just EBF your zirconium tetrach
 
 # Quest: We Ain't Running a Farm!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6w.name=§9§lWe Ain't Running a Farm!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6w.desc=...What's this low-purity hafnium stuff?%n%nWell, because you of course want your hafnium to be of the highest quality, you're going to have to do a little more than just EBF it with a little magnesium.%n%nGo ahead and react it with some Iodine. If you're not too sure where to get Iodine, have a look at Seaweed Ash. (hint: you'll need to look at small piles)%n%nNote that both the liquid and dust forms of iodine are optional, so you can complete the quest with one. Or none!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6w.desc=...What's this low-purity hafnium stuff?%n%nWell, because you of course want your hafnium to be of the highest quality, you're going to have to do a little more than just EBF it with a little magnesium.%n%nGo ahead and react it with some Iodine. If you're not too sure where to get Iodine, have a look at Seaweed Ash. (hint: you'll need to look at small piles)
 
 # Quest: Finally, Actual Hafnium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7A.name=§9§lFinally, Actual Hafnium
@@ -3721,7 +3721,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKVg.desc=Another rocket, another set of 
 
 # Quest: Making Tritanium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKYg.name=§b§nトリタニウムを作る
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKYg.desc=In order to make Tritanium, first you need to make Duranium.%n%nTritanium is used for the T6 rocket, Gravisuit, the T4 mining multi, and UHV circuits.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKYg.desc=In order to make Tritanium, first you need to make Duranium.%n%nTritanium is used for the T6 rocket, Gravisuit, MKIII Matter Manipulator, and UHV circuits.
 
 # Quest: Wasn't This Only Found in the Center of Neutron Stars?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbQ.name=§b§lWasn't This Only Found in the Center of Neutron Stars?
@@ -5951,6 +5951,10 @@ betterquesting.quest.Zza5BrD7TduqKby_b3wQsQ.desc=Shulker boxes in need of an upg
 betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.name=§5§lDiamond Shulker Box
 betterquesting.quest.aIt1E54yQaSOg4CMz-Xegw.desc=The portable equivalent of the Diamond Barrel, you'll need to either upgrade your wand or take advantage of the Gold to Diamond Shulker Box Upgrade.%n%nHas §n108§r slots.%n%n[note]Can be dyed![/note]
 
+# Quest: Advanced Concrete Backfiller
+betterquesting.quest.b-YCbvcNT4uEjg2pN-H6jw.name=Advanced Concrete Backfiller
+betterquesting.quest.b-YCbvcNT4uEjg2pN-H6jw.desc=The §5Advanced Concrete Backfiller§r has the same general functionality as the regular one except it boasts an impressive §364x64§r range and operates at §24x§r the speed. %n%nIt's a good idea to consider using one of these as your base continues to expand across more area. Filled space saves TPS!
+
 # Quest: Dark Steel Barrel
 betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.name=§6§lDark Steel Barrel
 betterquesting.quest.dNDuychlSiqlrMhfnEKK_w.desc=The Dark Steel barrel holds 135 items! And is also immune to explosions.
@@ -5970,6 +5974,10 @@ betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.desc=The portable equivalent of the 
 # Quest: Draconic Chest
 betterquesting.quest.njQqj1iCTK-64uA4HfSdVw.name=§6§lDraconic Chest
 betterquesting.quest.njQqj1iCTK-64uA4HfSdVw.desc=The Draconic Chest is a special upgrade of the compressed chest. In addition to a large inventory size and being able to retain it's contents, it has a crafting station and a furnace integrated directly into it. %n%nThe smelting module can be powered by EU or RF and has an internal buffer of it's own. It can smelt up to 5 items at a time.
+
+# Quest: Concrete Backfiller
+betterquesting.quest.uYT4jmFtQhOo5PoJLDyh-w.name=Concrete Backfiller
+betterquesting.quest.uYT4jmFtQhOo5PoJLDyh-w.desc=Tired of all those mob noises coming from the depths? Consider making the §5Concrete Backfiller§r. This multiblock will fill the area underneath it with concrete in a §316x16§r range; patching all caves and air spots that might be lying underneath. %n%nSimply provide it with Light Concrete and let it do the rest!
 
 
 ## Quest Line: Forestry and Multifarms
@@ -6892,7 +6900,7 @@ betterquesting.quest.RV7RYWwgRSaI4oNfhfZljw.desc=The §5L§raminated §5A§rppli
 
 # Quest: See You Lather
 betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.name=§8§lSee You Lather
-betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge number of crystal rods you'll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!%n%nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing.%n§9(Parallel = Item Pipe Casing Tier * 8)§r%n%nAdditionally, it has a 300%% speed boost on all recipes compared to the singleblock of that voltage and only consumes 80%% of the EU/t normally required
+betterquesting.quest.VJN1qfd5SjCkm7CXVd9Pag.desc=Just in time for the huge number of crystal rods you'll need to get your Applied Energistics system up and running, the Industrial Precision Lathe!%n%nThe number of recipes that can be processed in parallel by the IPL depends on the item pipe casing.%n§9(Parallel = Item Pipe Casing Tier * 8)§r%n%nAdditionally, it has 4x the speed on all recipes compared to the singleblock of that voltage and only consumes 80%% of the EU/t normally required
 
 # Quest: Steam Blender?
 betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.name=§c§nスチーム・ブレンダー？
@@ -7321,7 +7329,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.desc=4,096 Solars! Puts out 10000-32
 
 # Quest: This is Not How You Get Into Space
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.name=This is Not How You Get Into Space
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. These are specifically GT++ Rocket Fuels, and automating them for powergen in this multi will also provide you with endless fuel for your space travels.%n%nThe math regarding the Rocketdyne is complicated. Looking at the controller's tooltip helps, but the main gist of it is like this: provide Carbon Dioxide and make sure it doesn't run out, choose the EU/t you want to get, calculate the amount of fuel you need for the fuel you will use, and then provide enough Liquid Hydrogen to boost the multi, according to the EU/t value.%n%nYou will always want to have the Rocketdyne boosted, for several reasons. Assuming you have at least a buffered IV Dynamo Hatch, outputting close to the maximum on that hatch will lower the fuel efficiency, but not if it's boosted. Additionally, this multi doesn't consume fuel continuously, but with intervals of 1 second between consuming and not consuming, while generating power all the same. Boosting this consumption results in huge fuel efficiency, combined with the high fuel values of the Rocket Fuels.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. These are specifically GT++ Rocket Fuels, and automating them for powergen in this multi will also provide you with endless fuel for your space travels.%n%nThe math regarding the Rocketdyne is complicated. Looking at the controller's tooltip helps, but the main gist of it is like this: provide Carbon Dioxide and make sure it doesn't run out, choose the EU/t you want to get, calculate the amount of fuel you need for the fuel you will use, and then provide enough Liquid Hydrogen to boost the multi, according to the EU/t value.%n%nYou will always want to have the Rocketdyne boosted, for several reasons. Assuming you have at least a buffered IV Dynamo Hatch, outputting close to the maximum on that hatch will lower the fuel efficiency, but not if it's boosted. Additionally, this multi doesn't consume fuel continuously, but with intervals of 1 second between consuming and not consuming, while generating power all the same. Boosting this consumption results in huge fuel efficiency, combined with the high fuel values of the Rocket Fuels.%n%n[warn]Beware, letting the dynamo overfill can lead to an explosion! Be sure you have a place to output the energy.[/warn]
 
 # Quest: Deep Earth Heating Pump
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzg.name=Deep Earth Heating Pump
@@ -8298,10 +8306,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbw.desc=With the reactor built, it's ti
 # Quest: The Fission Finale
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcA.name=The Fission Finale
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcA.desc=Here we are, at the end of fission.%n%nAt this time, you have more than entered the fusion tiers. In fact, the last fusion setups go as deep as t2 fusion, so you might be running both fission and fusion at the same time, although the latter is generally easier and more efficient once the structure is built.%n%nOne of the ultimate goals of fission is a filled HTGR, a very expensive multi that can grant you power and breeding products. However, the Naquadah Generator that has those nuclear fuels can do much more! The Naquadah fuel line is the reason why it was created, and it can replace t3 fusion and beyond by condensing powergen even more than fusion did, and replace the turbine spam. There are endgame variants of the fuel line and the additives, and it is usually strongerthan fusion for power if done right.%n%nThose fuels aren't exactly nuclear fission, nor fusion, and more of a chemical line, so they were not included here. If interested, look at NEI to see what they have to offer.
-
-# Quest: Pebble Reactor Fuels and Outputs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcQ.name=Pebble Reactor Fuels and Outputs
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcQ.desc=Thorium, Uranium and Plutonium. There you go, quest done, onwards. I do find it kind of funny how it always goes back to these. Why is it that when there are problems, it's always you three?%n%nMaking the pebbles for any of these elements is a multi-step process. To get them, you need to throw in huge amount of the main radioactive fuel alongside some materials used to make the outer shell, namely Carbon, Silicon, and Graphite Dust.%n%nFor a full reactor, you will need thousands of stacks of each of these, much more than quest tasks could ask for. Anyways, the depleted pebbles can be centrifuged to recover most of the materials used to reach the final pebbles (Silicon, Graphite, Carbon), alongside a smaller chance at getting the main nuclear material for each kind of pebble. On top of that, you will get the breeding outputs: Lutetium from Thorium, Krypton from Uranium, Xenon from Plutonium.
 
 # Quest: Tin Plasma From T2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcg.name=Tin Plasma From T2
@@ -11150,6 +11154,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=宇宙種は勤勉種と英雄�
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=Energium
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=Are you tired of making Energium Dust by mixing Ruby and Redstone Dust? This bee offers a way to acquire it directly - how convenient is that? To breed it, you'll need to place some Hot Coolant below the hive while inside a Boneyard found in the Nether.%n%nUnlike its parents, this bee won't burn down your base—but it will set you on fire if you're not wearing your apiarist suit!
 
+# Quest: Salt
+betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.name=Salt
+betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.desc=At this point, you may have noticed that these higher-tier metal combs can't be extracted with a centrifuge. Instead, you need to pass them through a chemical reactor with some hydrochloric acid. This will leave you in a pickle. Here you are, trying to reach post-scarcity, and now you're limited by chlorine.%n%nSpeaking of pickles, hydrochloric acid is kind of like a pickle, right? After all, you make both with salt! The salt bee is perfect for this. Well, the apatite bee line can get you some salt and also some phosphorus for phosphoric acid, but you have to start on ash bees first. Meanwhile, you'll likely take care of the salt bee's pre-requisites on your way through getting all the major ores.%n%nBreed them from clay and aluminium bees on top of a block of salt.%n%nThey will produce salt combs, borax dust, slag combs, and trace lithium combs. The salt combs will require at least an MV-tier centrifuge, but at least it doesn't require processing with acid in a chemical reactor!%n%n[note]Breeder's Notes:%n%nThere are two challenges with this bee:%n%n1. The 5%% chance of mutation. You may consider trying the escritoire minigame to get a boost to this chance. If so, favor aluminium drones because you're probably on your way to the other bees derived from aluminium ancestry, and they all only have a 5%% chance anyways. They could all use a little boost.%n%n2. The humidity swing between clay and aluminium species. Clay bees want it wet, and both aluminium and salt bees want it completely arid. If you can't manipulate the climate or the tolerances of any of the bees, consider starting by plugging clay drones into a modest princess. This has a good chance to get you a clay princess that prefers a dryer climate. You can then do all your breeding exclusively in an arid biome.%n%n[/note]
+
 # Quest: Glowstone
 betterquesting.quest.NzynzD7HQrmEAf7BFd2A2w.name=Glowstone
 betterquesting.quest.NzynzD7HQrmEAf7BFd2A2w.desc=The Glowstone Princess isn't as picky as her peers. There are no breeding requirements besides the species being Gold and Redstone. Hooray!
@@ -11385,8 +11393,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4w.name=A Table to Work On
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA4w.desc=Now you need something on which to craft magical items. It probably needs to be a little magical itself. Let's see what the book says.%n%n§3I should probably take this time to read all the stuff in the Thaumonomicon I don't know about while I'm at it, instead of posting on Discord and looking stupid.
 
 # Quest: Infused Stones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q.name=Infused Stones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q.desc=This whole place here is filled with magic. No matter where you look at, it's just everywhere. You wonder what happens to regular stone if it's exposed to large amounts of magic for such a long time. Maybe it's time to go mining?%n%nThere are 3 veins. There's amber and cinnabar in each. They aren't super useful, but make sure to keep hold of some at least.%n%nEven when you find these infused stones, they won't drop the infused shards you desperately need. Rather, you have to process the raw ores themselves. The easiest way to do that is to throw these raw ores in your Forge Hammer.%n%nLater when you have a Sifter, you can sift purified ores for more shards. An autoclave can also turn shard dust into a shard. Maybe there's a magical way to do the same thing?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q.name=染み込んだ石
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5Q.desc=このあたり一帯は、魔力で満ちあふれている。どこを見渡しても魔法だらけだ。では、普通の石が長い時間、大量の魔力にさらされ続けたらどうなるのだろう？そろそろ採掘に行くべきかもしれない。%n%n鉱脈は3種類あり、いずれにも琥珀と辰砂が含まれています。とても役に立つものでもありませんが、いくらか確保しておきましょう。%n%n染み込んだ石からは、そのままでは必要な結晶片はドロップしません。原石を加工する必要があります。最も簡単なのは、§7《§鍛造機§7／Forge Hammer》§rに原石を投げ入れることです。%n%n後に§7《§rふるい機§7／Sifter》§rを入手すれば、洗浄した功績からさらに結晶片を得られます。同じことを行う魔術的な方法もあるかもしれません。
 
 # Quest: Your First Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g.name=最初の杖
@@ -11394,7 +11402,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5g.desc=この場所なら、探して�
 
 # Quest: Tome of Knowledge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w.name=Tome of Knowledge
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w.desc=All the things you've discovered so far, you need to write them down. But you're lazy, and you have a wand, so why not try a magical way to "write down" your research? You wonder if you could enchant a book with your wand, so that it will keep track of your progress... You should try that on a bookshelf!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w.desc=これまで発見したことは、すべて書き留めておく必要がある。でもあなたは面倒くさがりだし、杖も持っている。なら、研究を「書き留める」魔術的な方法を試してみてはどうだろう？杖で本に魔法をかければ、進捗を自動で記録してくれるかもしれない……。本棚で試してみよう！
 
 # Quest: Improving Your Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6A.name=Improving Your Wand
@@ -11554,7 +11562,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEUg.desc=The brewing stand is really imp
 
 # Quest: Ironwood
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg.name=樹鉄
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg.desc=Ironwood is much harder and durable than rubber. Ideal for a soft mallet. Collect some liveroot underground from some roots, macerate it and mix the powder with iron and gold to create a new magical material.%n%nYou can make some unique armor with this material.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhg.desc= §7《§r樹鉄§7／Ironwood》§r は鉄よりはるかに硬く、耐久性が高いので、ソフトマレットに最適です。根の近くの地下から§7《§生きている根§7／Liveroot》§rを採取し、これを粉砕して鉄・金とミキサーにかけることで、新しい魔法の素材になります。%n%nこの素材から特別な防具を作ることができます。
 
 # Quest: Steeleaf
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEhw.name=葉鋼
@@ -11581,8 +11589,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.name=Just Tell Me What to Scan Alrea
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtQ.desc=Don't want to guess at what has what aspect? Just want to get to work? Then scan this stuff. The first set should be scanned in order. If any of them don't work, try scanning something else first (especially the third set).%n%nWatering Can%nTorch%nCoal%nGrass Block%nTrapdoor%nChest%nGlass Block%nBleached Bone Block%nChicken%nSoul Sand%nPaper%nRotten Flesh%nWheat%nFlint%nObsidian%n%nAsh Cloud%nAny Dye%nWool%nSpider Eye%nSnowball%nMilk Bucket%nVanilla Hoe%nVanilla Pickaxe%nArrow%nVanilla Armor%nQuicksilver%nFence Gate%nIron Nugget%nGold%nZombie Brain%nEnder Pearl%nSlimeball%nTainted Anything. Try overfilling your cauldron to create flux goo to make the slimes (not in your base)%nEthereal Essence (any Aspect) from wisps OR Terra Wart%n%nObzinite Ingot%nPlatinum Metallic Powder%nFine Copper Wire%nMagnetite Dust%nThorium Dust%nA Pig%nNetherrack%nGold Armor%nBed%nLead (not the metal)%nGhast Tear%nClock%nCrystal Matrix Ingot%n%nThe last 5 aspects might only be obtainable by combining aspects or by creating a node that has them. You can combine:%n%nCognito + Ordo%nCognito + Vitium%nVacuos + Motus%nLux + Primordium%nHumanus + Iter%n%nNote that the above list is for aspects, you may need to scan things like the Nether Portal to unlock certain researches.
 
 # Quest: Warp Warnings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8g.name=Warp Warnings
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8g.desc=Thaumcraft offers considerable power from its devices and tools. But power comes with a price.... That price is represented by Warp: A corruption of the character's mind and soul, inflicting progressively more dire effects upon them.%n%nWhile the effects of warp can range from annoying to deadly, accumulating enough of it can also grant you access to greater power... at the cost of increasing madness, and attention from dark powers. At least, others may call it madness... but is it truly insanity, when the voices in your head grant useful knowledge?%n%nWarp Theory adds a bunch of new Warp Effects to the Player. Be very careful because you don't want to spawn a Wither in your base.%n%n[note]If you're still early on in your thaumcraft journey, Warp shouldn't be something that scares you away from progressing further. You'll only stumble upon dangerous warp effects once you've done a lot of research. If you still wanna play it safe, make sure to avoid research that's labeled with "§5Forbidden Knowledge§r" [/note]%n%n5 warp: Message%n10 warp: Fake Explosion%n15 warp: Coin, Pumpkin%n20 warp: Lay Eggs, Spawn Phantoms%n25 warp: Fake Creeper, Fake Rain%n30 warp: GregTech Fake Sounds, Spawn Bats%n35 warp: Blood, Fake Enderman%n40 warp: Spawn Friendly Creeper%n45 warp: Jump Boost, Nausea%n50 warp: Insomnia, Vis Drain, Strange Noise%n55 warp: Thunderstorm%n60 warp: Spawn Fire Bats%n65 warp: Blindness, Poison%n70 warp: Livestock Rain%n75 warp: Spawn Doppelganger%n80 warp: Spawn Endermen, Wither Potion%n85 warp: Wind%n90 warp: Ender Pearl%n95 warp: Blaze Fireball%n100 warp: Litmus Paper, Junk, Call from the Deep%n110 warp: Obsidian%n120 warp: Lightning%n125 warp: Inventory Swap%n130 warp: Random Teleport%n140 warp: Acceleration%n150 warp: Fake Wither, Inventory Scramble%n160 warp: Countdown Bomb%n170 warp: Mushrooms%n175 warp: Snow%n180 warp: Decay%n190 warp: Swamp%n200 warp: Spawn Wither
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8g.name=歪み警報
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG8g.desc=Thaumcraftの装置やツールは相当な力をもたらす。しかし、力には代償が付き物だ...。その代償とは、歪みである。その者の精神と魂を蝕み、次第に深刻な影響を及ぼしていく。歪みの影響は邪魔な程度のものから致命的なものまで幅広くある。%n%n歪みが蓄積していくと大いなる力にも手を出せるようになるが...代価として狂気の高まりと闇の力からの関心を招く。それは少なくとも他者から見れば狂気と言われる代物かもしれないが...頭の中の声が有益な知識を与えるなら、それは本当に"狂気"と言えるのだろうか？%n%nWarp Theoryは、プレイヤーに多数の新しい歪みの影響を追加します。十分注意してください。拠点でウィザーを出現させたくはないでしょう。%n%n[note]Thaumcraftを始めたばかりなら、歪みを恐れる必要はありません。危険な歪みの影響に遭遇するのは、多くの研究を進めた後になります。それでも安全に進めたい場合は、§7《§r禁じられた知識§7／Forbidden Knowledge》§rと表示された研究を避けてください。[/note]%n%n5 ポイント: メッセージ%n10 ポイント: 偽爆発%n15 ポイント: コイン、カボチャ%n20 ポイント: 産卵、ファントムのスポーン%n25 ポイント: 偽クリーパー、偽雨%n30 ポイント: GregTech偽サウンド、コウモリのスポーン%n35 ポイント: 血液、偽エンダーマン%n40 ポイント: 友好的なクリーパーのスポーン%n45 ポイント: ジャンプブースト、吐き気%n50 ポイント: 不眠、Vis吸収、奇妙な音%n55 ポイント: 雷雨%n60 ポイント: ファイヤーバットのスポーン%n65 ポイント: 盲目、毒%n70 ポイント: 家畜の雨%n75 ポイント: ドッペルゲンガーのスポーン%n80 ポイント: エンダーマンのスポーン、衰弱%n85 ポイント: 突風%n90 ポイント: エンダーパール%n95 ポイント: ブレイズの火球%n100 ポイント: リトマス試験紙、ゴミ、深淵からの呼び声%n110 ポイント: 黒曜石%n120 ポイント: 雷%n125 ポイント: インベントリの入れ替え%n130 ポイント: ランダムテレポート%n140 ポイント: 加速%n150 ポイント: 偽ウィザー、インベントリのシャッフル%n160 ポイント: 時限爆弾%n170 ポイント: キノコ%n175 ポイント: 雪%n180 ポイント: 消滅%n190 ポイント: 湿地%n200 ポイント: ウィザーのスポーン
 
 # Quest: The Night's Not Dark Anymore
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGHQ.name=The Night's Not Dark Anymore
@@ -11693,8 +11701,8 @@ betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.name=More Health
 betterquesting.quest.TjJv9pSOSaW1kwzoTZ9qRw.desc=No matter how much of a crack shot you become it doesn't help when your twitchy fingers shoot your crossbow before your eyes can notice the tell-tale red lines on one particular type of spider's body. Usually incredible amounts of pain follow...%n%nWith your new wand you are able to craft Red Heart Canisters. A total of ten of them can be put in their own dedicated inventory slot, increasing your maximum health by one heart per.%n%nIt might not be enough, but if it ends up making the difference between standing upright and standing horizontally in a box, you'll be thankful you made these things.
 
 # Quest: A Pechuliar Merchant
-betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.name=A Pechuliar Merchant
-betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.desc=During your travels, you've heard about a forest filled to the brim with magic. In that forest, there is a rumor about an interesting little fellow who can trade magical artifacts, including infused shards! Supposedly, they scour the world for gems and gold, but are cold to wanderers who have no valuables to their name.%n%nYou wonder if you can find this merchant and obtain their wares. If only there was a tool that could help find this... §5§o"Magical Forest"§r.%n%n[note]Note: This quest accepts meeting any type of Pech, not just Pech Foragers.[/note]
+betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.name=へんぺくりんな行商人
+betterquesting.quest.TvVeFhtYQCSmlekVCdADaQ.desc=旅の途中で、魔力に満ちた森の噂を聞いた。その森には、結晶片を含む魔法の品物を取引する、少し風変わりな小さな商人がいるのだという。世界中をめぐって宝石や金を集めているが、価値ある物を何一つ持たぬ旅人には冷たいらしい。%n%nその商人を見つけ出し、品物を手に入れることはできるだろうか。手がかりとなる場所があるとすれば…… §7《§r魔法の森§7／Magical Forest》§r である。%n%n[note]このクエストは、§7《§rペックの略奪者§7／Pech Forager》§r に限らず、どの種類のペックと遭遇しても達成されます。[/note]
 
 # Quest: Need More Sugar?
 betterquesting.quest.UAWjHTM_SAW95_Cji-9PiA.name=Need More Sugar?
@@ -11811,7 +11819,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABFg.desc=You totally should get yourself
 
 # Quest: The Dark Realm
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABFw.name=The Dark Realm
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABFw.desc=We found the way... my precious. We found it! Only need 4 tasty eyes, and some magic to open the door. The secret door, they didn't see it. Hehehe! All the time. It was there... Aaaall the time!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABFw.desc=We found the way... my precious. We found it! Only need 4 tasty eyes, and some magic to open the door. The secret door, they didn't see it. Hehehe! All the time. It was there... Aaaall the time!%n%n[note]While the Eldrich Portal is the traditional way to reach the Outer Lands, you can also reach them via Gadomancy's single use Gate of the Voidwalkers.[/note]
 
 # Quest: They See Me, They Watch Me
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABGA.name=They See Me, They Watch Me
@@ -14104,7 +14112,7 @@ betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slot
 
 # Quest: Large Molecular Assembler
 betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.name=§9§lLarge Molecular Assembler
-betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The Large Molecular Assembler is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%n[note]High capacity Input Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
+betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The §5Large Molecular Assembler§r is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%nAdditionally, you must place a §2Data Orb§r inside of the controller or else it won't function.%n%n[note]High capacity Input Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
 
 # Quest: Compact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§a§nコンパクトなストレージ
