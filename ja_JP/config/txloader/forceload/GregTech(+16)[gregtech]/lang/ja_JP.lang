@@ -94,9 +94,9 @@ gt.crop.withereed.name=ウィザーキビ
 gt.crop.zomplant.name=ゾンプラント
 
 # Tooltip info of tile-entities
-gt.tileentity.eup_in=入力電圧: §a%d (%s§a)§7
-gt.tileentity.eup_out=出力電圧: : §a%d (%s§a)§7
-gt.tileentity.eup_amount=アンペア数: §e%d§7
+gt.tileentity.eup_in=入力電圧:
+gt.tileentity.eup_out=出力電圧:
+gt.tileentity.eup_amount=アンペア数:
 gt.tileentity.has_muffler=消音中
 gt.tileentity.has_steam_upgrade=蒸気アップグレード
 gt.tileentity.colored=染色済 (%s%s§7)
@@ -683,7 +683,7 @@ GT5U.infinite_spray_can.color.White=白色
 GT5U.infinite_spray_can.color.INVALID COLOR=無効な色
 GT5U.infinite_spray_can.color.Cable Insulation=ケーブル絶縁体
 GT5U.infinite_spray_can.color.Construction Foam=建材フォーム
-GT5U.infinite_spray_can.color.Machine Metal=機械金属
+GT5U.infinite_spray_can.color.Machine Metal=機械の金属色
 
 GT5U.generic.true=有効
 GT5U.generic.false=無効
@@ -1096,6 +1096,14 @@ gt.recipe.category.alloy_smelter_molding=合金製錬炉 (成型)
 gt.recipe.category.forge_hammer_recycling=鍛造機 (リサイクル)
 gt.recipe.category.tic_part_extruding=押出機 (TiCパーツ)
 gt.recipe.category.tic_bolt_molding=TiCボルト成型
+
+GT5U.recipes.recipe_by.original=Original Recipe by: %s
+GT5U.recipes.recipe_by.modified=Modified by: %s
+GT5U.recipes.recipe_by=Original Recipe by: %s
+GT5U.recipes.not_consume=Does not get consumed in the process
+GT5U.recipes.not_consume_parallel=Considered in parallel calculation, but not get consumed
+GT5U.recipes.chance.consume=Consume Chance: %s
+GT5U.recipes.chance.output=Output Chance: %s
 
 GT5U.machines.tier=Tier
 GT5U.machines.workarea=作業範囲
@@ -1581,7 +1589,7 @@ GT5U.gui.hoverable.error=ERROR! REPORT ME!
 GT5U.gui.config.client=クライアント
 GT5U.gui.config.client.color_modulation=色の変更
 GT5U.gui.config.client.color_modulation.cable_insulation=ケーブル絶縁体
-GT5U.gui.config.client.color_modulation.machine_metal=機械金属 (デフォルトのGUI背景色)
+GT5U.gui.config.client.color_modulation.machine_metal=機械の金属色
 GT5U.gui.config.client.color_modulation.gui_metal=Gui Metal (Default GUI Color)
 GT5U.gui.config.client.interface=インタフェース
 GT5U.gui.config.client.preference=好みの設定
@@ -1914,7 +1922,7 @@ GT5U.config.colormodulation.cable_insulation=ケーブル絶縁体
 GT5U.config.colormodulation.cable_insulation.B=青色
 GT5U.config.colormodulation.cable_insulation.G=緑色
 GT5U.config.colormodulation.cable_insulation.R=赤色
-GT5U.config.colormodulation.machine_metal=機械金属 (デフォルトのGUI背景色)
+GT5U.config.colormodulation.machine_metal=機械の金属色 (デフォルトのGUI背景色)
 GT5U.config.colormodulation.machine_metal.B=青色
 GT5U.config.colormodulation.machine_metal.G=緑色
 GT5U.config.colormodulation.machine_metal.R=赤色
