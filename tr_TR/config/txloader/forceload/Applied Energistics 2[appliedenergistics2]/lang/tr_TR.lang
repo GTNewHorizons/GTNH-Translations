@@ -32,6 +32,7 @@ tile.appliedenergistics2.BlockSpatialPylon.name=Mekansal Kolon
 tile.appliedenergistics2.BlockTinyTNT.name=Minik TNT
 tile.appliedenergistics2.BlockVibrationChamber.name=Titreştirme Odası
 tile.appliedenergistics2.BlockWireless.name=ME Kablosuz Bağlantı Noktası
+tile.appliedenergistics2.BlockWireless.desc=Right click with terminal in hand to bind it
 tile.appliedenergistics2.OreQuartz.name=Certus Kuvars Cevheri
 tile.appliedenergistics2.OreQuartzCharged.name=Sarj Edilmiş Certus Kuvars Cevheri
 tile.appliedenergistics2.BlockSecurity.name=ME Güvenlik Terminali
@@ -104,6 +105,7 @@ chat.appliedenergistics2.InvalidMachine=Geçersiz Makine.
 chat.appliedenergistics2.LoadedSettings=Ayarlar başarı ile yüklendi.
 chat.appliedenergistics2.DeviceNotPowered=Aygıtın enerjisi az.
 chat.appliedenergistics2.DeviceNotWirelessTerminal=Bu aygıt bir kablosuz terminal değildir.
+chat.appliedenergistics2.DeviceSuccessLinked=§aDevice successfully linked.
 chat.appliedenergistics2.DeviceNotLinked=Aygıt bağlı değil.
 chat.appliedenergistics2.StationCanNotBeLocated=İstasyon bulunamadı.
 chat.appliedenergistics2.MachineNotPowered=Makinenin enerjisi yok.
@@ -509,11 +511,6 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItems=Ulaşılamaz Eşyaları
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsYes=Evet: Çıkarılamayan eşyalar görüntülenebilir.
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=Hayır: Sadece çıkarılabilen eşyalar görüntülenebilir.
 
-gui.tooltips.appliedenergistics2.TypeFilter=Filtre Tipleri
-gui.tooltips.appliedenergistics2.TypeFilterShowAll=Hepsini Göster
-gui.tooltips.appliedenergistics2.TypeFilterShowItemsOnly=Sadece Eşyaları Göster
-gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=Sadece Sıvı Damlalarını Göster
-
 gui.tooltips.appliedenergistics2.BlockPlacement=Blok Yerleşimi
 gui.tooltips.appliedenergistics2.BlockPlacementYes=Blok Blok olarak yerleştirilecektir.
 gui.tooltips.appliedenergistics2.BlockPlacementNo=Bloklar Eşya olarak düşecektir.
@@ -699,6 +696,7 @@ waila.appliedenergistics2.Singularity=Singularity
 waila.appliedenergistics2.Provider=§5Provider§r
 waila.appliedenergistics2.Accessor=§5Accessor§r
 waila.appliedenergistics2.Waiting=Waiting:
+waila.appliedenergistics2.IOBusSpeed=Speed: %s %s/t
 
 # Baubles Extended
 slot.Terminal=§aTerminal§7
