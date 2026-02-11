@@ -32,6 +32,7 @@ tile.appliedenergistics2.BlockSpatialPylon.name=Pilón Espacial
 tile.appliedenergistics2.BlockTinyTNT.name=TNT Chiquita
 tile.appliedenergistics2.BlockVibrationChamber.name=Cámara de Vibración
 tile.appliedenergistics2.BlockWireless.name=Punto de Acceso Inalámbrico ME
+tile.appliedenergistics2.BlockWireless.desc=Right click with terminal in hand to bind it
 tile.appliedenergistics2.OreQuartz.name=Mineral de Cuarzo de Certus
 tile.appliedenergistics2.OreQuartzCharged.name=Mineral de Cuarzo de Certus Cargado
 tile.appliedenergistics2.BlockSecurity.name=Terminal de Seguridad ME
@@ -104,6 +105,7 @@ chat.appliedenergistics2.InvalidMachine=Máquina no válida.
 chat.appliedenergistics2.LoadedSettings=Configuración cargada correctamente.
 chat.appliedenergistics2.DeviceNotPowered=El dispositivo tiene poca energía.
 chat.appliedenergistics2.DeviceNotWirelessTerminal=El dispositivo no es un terminal inalámbrico.
+chat.appliedenergistics2.DeviceSuccessLinked=§aDevice successfully linked.
 chat.appliedenergistics2.DeviceNotLinked=El dispositivo no está vinculado.
 chat.appliedenergistics2.StationCanNotBeLocated=No se puede localizar la estación.
 chat.appliedenergistics2.MachineNotPowered=La máquina no está alimentada.
@@ -509,11 +511,6 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItems=Reportar Objetos Inaces
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsYes=Sí. Los objetos que no se pueden extraer serán visibles.
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=No. Solo se mostrará los objetos que se puedan extraer.
 
-gui.tooltips.appliedenergistics2.TypeFilter=Tipos de Filtros
-gui.tooltips.appliedenergistics2.TypeFilterShowAll=Mostrar Todos
-gui.tooltips.appliedenergistics2.TypeFilterShowItemsOnly=Mostrar solo objetos
-gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=Mostrar Solo Fluidos
-
 gui.tooltips.appliedenergistics2.BlockPlacement=Colocación de Bloques
 gui.tooltips.appliedenergistics2.BlockPlacementYes=Los bloques se pondrán en forma de bloques
 gui.tooltips.appliedenergistics2.BlockPlacementNo=Los bloques se soltarán en forma de objeto
@@ -699,6 +696,7 @@ waila.appliedenergistics2.Singularity=Singularity
 waila.appliedenergistics2.Provider=§5Provider§r
 waila.appliedenergistics2.Accessor=§5Accessor§r
 waila.appliedenergistics2.Waiting=Waiting:
+waila.appliedenergistics2.IOBusSpeed=Speed: %s %s/t
 
 # Baubles Extended
 slot.Terminal=§aTerminal§7
