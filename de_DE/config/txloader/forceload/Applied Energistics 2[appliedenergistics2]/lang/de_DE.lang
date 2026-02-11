@@ -32,6 +32,7 @@ tile.appliedenergistics2.BlockSpatialPylon.name=Raumpylon
 tile.appliedenergistics2.BlockTinyTNT.name=Mini-TNT
 tile.appliedenergistics2.BlockVibrationChamber.name=Vibrationskammer
 tile.appliedenergistics2.BlockWireless.name=Drahtloser ME-Zugangspunkt
+tile.appliedenergistics2.BlockWireless.desc=Right click with terminal in hand to bind it
 tile.appliedenergistics2.OreQuartz.name=Certusquarzerz
 tile.appliedenergistics2.OreQuartzCharged.name=Geladenes Certusquarzerz
 tile.appliedenergistics2.BlockSecurity.name=ME-Sicherheitskonsole
@@ -104,6 +105,7 @@ chat.appliedenergistics2.InvalidMachine=Ungültige Maschine.
 chat.appliedenergistics2.LoadedSettings=Einstellungen erfolgreich geladen.
 chat.appliedenergistics2.DeviceNotPowered=Gerät hat zu wenig Energie
 chat.appliedenergistics2.DeviceNotWirelessTerminal=Gerät ist keine Drahtloskonsole.
+chat.appliedenergistics2.DeviceSuccessLinked=§aDevice successfully linked.
 chat.appliedenergistics2.DeviceNotLinked=Gerät ist nicht verbunden.
 chat.appliedenergistics2.StationCanNotBeLocated=Station kann nicht lokalisiert werden.
 chat.appliedenergistics2.MachineNotPowered=Maschine bekommt keine Energie.
@@ -509,11 +511,6 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItems=Melde unerreichbare Ite
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsYes=Ja: Items, die nicht extrahiert werden können, werden sichtbar.
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=Nein: Nur extrahierbare Items werden sichtbar.
 
-gui.tooltips.appliedenergistics2.TypeFilter=Filter Types
-gui.tooltips.appliedenergistics2.TypeFilterShowAll=Show All
-gui.tooltips.appliedenergistics2.TypeFilterShowItemsOnly=Show Items only
-gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=Show Fluids only
-
 gui.tooltips.appliedenergistics2.BlockPlacement=Blockplatzierung
 gui.tooltips.appliedenergistics2.BlockPlacementYes=Block wird als Block plaziert.
 gui.tooltips.appliedenergistics2.BlockPlacementNo=Block wird als Item plaziert.
@@ -622,7 +619,7 @@ gui.tooltips.appliedenergistics2.Suspend=Click to stop this CPU from sending out
 gui.tooltips.appliedenergistics2.Resume=Click to make this CPU send out crafts again
 
 gui.tooltips.appliedenergistics2.PinsSection=Pins Section
-gui.tooltips.appliedenergistics2.PinsSectionActive=Pins Section Enabled
+gui.tooltips.appliedenergistics2.PinsSectionActive=Pins Section Enabled\n[Shift + Right Click] pinned item to remove it from pins section
 gui.tooltips.appliedenergistics2.PinsSectionDisabled=Pins Section Disabled
 
 gui.tooltips.appliedenergistics2.scheduledreason.SOMETHING_STUCK=Something stuck in interface
@@ -699,6 +696,7 @@ waila.appliedenergistics2.Singularity=Singularity
 waila.appliedenergistics2.Provider=§5Provider§r
 waila.appliedenergistics2.Accessor=§5Accessor§r
 waila.appliedenergistics2.Waiting=Waiting:
+waila.appliedenergistics2.IOBusSpeed=Speed: %s %s/t
 
 # Baubles Extended
 slot.Terminal=§aTerminal§7
