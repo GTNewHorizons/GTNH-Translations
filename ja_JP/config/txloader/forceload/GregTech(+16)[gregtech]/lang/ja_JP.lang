@@ -642,11 +642,6 @@ GTPP.tooltip.decayables_chest.0=放射性物質を保持するチェスト
 GTPP.tooltip.decayables_chest.1=内部に入れたアイテムは崩壊が進みます
 GTPP.tooltip.decayables_chest.2=右クリックで設置
 
-# Butterfly Killer
-GTPP.tooltip.butterfly_killer.0=Forestryの蝶やコウモリ、その他害虫を駆除します
-GTPP.tooltip.butterfly_killer.1=ホルムアルデヒドまたはシアン化水素を使用します
-GTPP.tooltip.butterfly_killer.2=隣人に用心
-
 # Volumetric Flask Setter
 GTPP.tooltip.volumetric_flask_setter.0=かんたんフラスコ設定
 GTPP.tooltip.volumetric_flask_setter.1=§8《§7ドライバー§8／Screwdriver》§7でデフォルトの入力スロットを設定できます。
@@ -798,6 +793,7 @@ GT5U.MBTT.SpeedTiered=同一電圧の単一式機械と比較して %s 倍の速
 GT5U.MBTT.EuDiscountBase=通常の電力消費量の %s を使用します
 GT5U.MBTT.EuDiscountTiered=%s Tier毎に消費EUの %s を削減します
 GT5U.MBTT.Parallel_Multiplicative=並列処理数は %s です (%s Tier毎)
+GT5U.MBTT.StructureBy=Structure by
 
 GT5U.MBTT.Parallel.Base=並列処理数は %s です
 GT5U.MBTT.Parallel.Additional=並列処理数は %s です (%s Tier毎)
@@ -3500,6 +3496,9 @@ GT5U.infodata.hatch.crafting_input_me.bus.online=バスは§aオンライン§r�
 GT5U.infodata.hatch.crafting_input_me.bus.offline=バスは§aオフライン%s§rです
 GT5U.infodata.hatch.crafting_input_me.show_pattern.enable=§aShow on Interface Terminal
 GT5U.infodata.hatch.crafting_input_me.show_pattern.disabled=§cHide on Interface Terminal
+GT5U.infodata.hatch.crafting_input_me.optimize_pattern=Pattern Optimization
+GT5U.infodata.hatch.crafting_input_me.optimize_pattern.enable=§7Allowed
+GT5U.infodata.hatch.crafting_input_me.optimize_pattern.disabled=§7Disabled
 GT5U.infodata.hatch.internal_inventory=内部インベントリ:
 GT5U.infodata.hatch.internal_inventory.slot=スロット %d %s
 GT5U.infodata.hatch.crafting_input_slave.linked_to=このバスは座標(%d, %d, %d)のクラフト入力バッファーとリンクしています

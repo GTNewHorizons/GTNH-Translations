@@ -49,7 +49,6 @@ tile.blockCircuitProgrammer.name=回路プログラマー
 tile.blockDecayablesChest.name=鉛の格納容器
 tile.blockVolumetricFlaskSetter.name=メスフラスコ設定器
 tile.blockSuperLight.name=きらめく星
-tile.blockPestKiller.name=殺虫剤散布機
 tile.blockSuperJukebox.name=Sir Mixalot [Jukebox]
 tile.blockSuperJukebox.deprecated=§c廃止済み、電動ジュークボックスを代わりに使用してください
 
@@ -2283,7 +2282,6 @@ tile.blockFishTrap.name=補強型魚用かご網
 tile.blockInfiniteFluidTank.name=無限液体タンク
 tile.blockMiningExplosives.name=掘削用爆弾
 tile.blockHellFire.name=地獄の火
-tile.blockProjectBench.name=プロジェクトテーブル
 tile.blockTradeBench.name=交易テーブル
 tile.blockModularity.name=Modularity Bench
 tile.blockBlackGate.name=ウィザーの檻
@@ -3062,12 +3060,8 @@ item.GTPP.BattPack.09.name.name=充電用パック [MAX]
 
 # Added 13/3/19
 item.gtpp.debug.scanner.name=GT++デバッグ用スキャナー
-item.RawWaste.name=家畜排泄物入りセル
-item.ManureSlurry.name=厩肥入りセル
-item.FertileManureSlurry.name=肥沃な厩肥入りセル
 item.itemDustTinyDemicheleiteBr.name=とても小さなデミケライト(Br)の粉
 item.itemDustSmallDemicheleiteBr.name=小さなデミケライト(Br)の粉
-tile.blockPooCollector.name=農業用排水口
 tile.Block of Lithium 7.name=リチウム7ブロック
 
 # Added 14/3/19
@@ -3085,8 +3079,6 @@ item.itemBombUnf.name=投擲用爆弾 (残念)
 item.itemBombCasing.name=爆弾外装
 item.gtpp.throwable.bomb.name=投擲用爆弾
 item.itemDetCable.name=爆弾用導火線
-tile.blockPooCollector.0.name=農業用排水口
-tile.blockPooCollector.8.name=バイオ複合物収集器
 item.itemIngotBakelite.name=ベークライトインゴット
 item.itemDustBakelite.name=ベークライトの粉
 item.itemDustTinyBakelite.name=とても小さなベークライトの粉
@@ -3316,7 +3308,6 @@ item.itemDustIndalloy140.name=インダロイ140の粉
 item.itemDustLFTRFuel1.name=LFTR燃料 1の粉
 item.itemDustLFTRFuel2.name=LFTR燃料 2の粉
 item.itemDustLFTRFuel3.name=LFTR燃料 3の粉
-item.itemDustManureByproducts.name=肥料副産物の粉
 item.itemDustMixTumbaga.name=トゥンバガ混合物の粉
 item.itemDustOrganicFertilizer.name=有機肥料の粉
 item.itemDustPotassiumNitrate.name=硝酸カリウムの粉
@@ -3331,13 +3322,11 @@ item.itemDustSmallAmmoniumNitrate.name=小さな硝酸アンモニウムの粉
 item.itemDustSmallCopperIISulfate.name=小さな硫酸銅(II)の粉
 item.itemDustSmallCopperIISulfatePentahydrate.name=小さな硫酸銅(II)五水和物の粉
 item.itemDustSmallCyanoaceticAcid.name=小さなシアノ酢酸の粉
-item.itemDustSmallDirt.name=小さな乾いた土の粉
 item.itemDustSmallFormaldehydeCatalyst.name=小さなホルムアルデヒド触媒の粉
 item.itemDustSmallIndalloy140.name=小さなインダロイ140の粉
 item.itemDustSmallLFTRFuel1.name=小さなLFTR燃料 1の粉
 item.itemDustSmallLFTRFuel2.name=小さなLFTR燃料 2の粉
 item.itemDustSmallLFTRFuel3.name=小さなLFTR燃料 3の粉
-item.itemDustSmallManureByproducts.name=小さな肥料副産物の粉
 item.itemDustSmallMixTumbaga.name=小さなトゥンバガ混合物の粉
 item.itemDustSmallOrganicFertilizer.name=小さな有機肥料の粉
 item.itemDustSmallPotassiumNitrate.name=小さな硝酸カリウムの粉
@@ -3358,7 +3347,6 @@ item.itemDustTinyIndalloy140.name=とても小さなインダロイ140の粉
 item.itemDustTinyLFTRFuel1.name=とても小さなLFTR燃料 1の粉
 item.itemDustTinyLFTRFuel2.name=とても小さなLFTR燃料 2の粉
 item.itemDustTinyLFTRFuel3.name=とても小さなLFTR燃料 3の粉
-item.itemDustTinyManureByproducts.name=とても小さな肥料副産物の粉
 item.itemDustTinyMixTumbaga.name=とても小さなトゥンバガ混合物の粉
 item.itemDustTinyOrganicFertilizer.name=とても小さな有機肥料の粉
 item.itemDustTinyPotassiumNitrate.name=とても小さな硝酸カリウムの粉
@@ -3528,9 +3516,6 @@ item.GTPP.bauble.fireprotection.0.name.name=最高のピザグローブ
 # Added 16/5/19
 item.itemCellSeleniumDioxide.name=二酸化セレン入りセル
 item.itemCellSeleniousAcid.name=亜セレン酸入りセル
-
-# Added 25/7/19
-container.pestkiller=殺虫剤散布機
 
 # Added 15/8/19
 gtpp.nei.decayables=放射性崩壊チェスト
@@ -3797,8 +3782,8 @@ item.itemBasicTurbine_2.name=基本型スチール製タービン
 interaction.voidexcess.enabled=超過分消去を有効化しました
 interaction.voidexcess.disabled=超過分消去を無効化しました
 
-interaction.separateBusses.enabled=入力バスの分離を次に設定しました:
-interaction.separateBusses.disabled=入力バスの分離を無効化しました
+interaction.separateBuses.enabled=Input buses are separated
+interaction.separateBuses.disabled=Input buses are not separated
 
 # Added 29/11/21
 
