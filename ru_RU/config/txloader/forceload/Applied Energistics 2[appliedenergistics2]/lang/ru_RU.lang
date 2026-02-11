@@ -32,6 +32,7 @@ tile.appliedenergistics2.BlockSpatialPylon.name=Пространственный
 tile.appliedenergistics2.BlockTinyTNT.name=Маленький динамит
 tile.appliedenergistics2.BlockVibrationChamber.name=Вибрационная камера
 tile.appliedenergistics2.BlockWireless.name=МЭ беспроводная точка доступа
+tile.appliedenergistics2.BlockWireless.desc=Нажмите ПКМ с терминалом в руке чтобы привязать его
 tile.appliedenergistics2.OreQuartz.name=Руда истинного кварца
 tile.appliedenergistics2.OreQuartzCharged.name=Заряженная руда истинного кварца
 tile.appliedenergistics2.BlockSecurity.name=МЭ терминал безопасности
@@ -104,6 +105,7 @@ chat.appliedenergistics2.InvalidMachine=Неподходящий механиз�
 chat.appliedenergistics2.LoadedSettings=Настройки успешно загружены.
 chat.appliedenergistics2.DeviceNotPowered=Устройству недостаточно энергии.
 chat.appliedenergistics2.DeviceNotWirelessTerminal=Это не беспроводной терминал.
+chat.appliedenergistics2.DeviceSuccessLinked=§aУстройство успешно подключено.
 chat.appliedenergistics2.DeviceNotLinked=Устройство не соединено.
 chat.appliedenergistics2.StationCanNotBeLocated=Станция не найдена.
 chat.appliedenergistics2.MachineNotPowered=Устройство без питания.
@@ -509,11 +511,6 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItems=Сообщать о н�
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsYes=Да: Предметы, которые не могут быть извлечены, будут видны.
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=Нет: Только извлекаемые предметы будут видны.
 
-gui.tooltips.appliedenergistics2.TypeFilter=Фильтр типов
-gui.tooltips.appliedenergistics2.TypeFilterShowAll=Показать всё
-gui.tooltips.appliedenergistics2.TypeFilterShowItemsOnly=Показать только предметы
-gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=Показать только жидкости
-
 gui.tooltips.appliedenergistics2.BlockPlacement=Размещение блоков
 gui.tooltips.appliedenergistics2.BlockPlacementYes=Блоки будут размещаться в виде блоков.
 gui.tooltips.appliedenergistics2.BlockPlacementNo=Блоки будут выпадать в виде предметов.
@@ -622,7 +619,7 @@ gui.tooltips.appliedenergistics2.Suspend=Нажмите чтобы остано�
 gui.tooltips.appliedenergistics2.Resume=Нажмите чтобы этот ЦП отправлял крафты снова
 
 gui.tooltips.appliedenergistics2.PinsSection=Секция закрепленных предметов
-gui.tooltips.appliedenergistics2.PinsSectionActive=Секция закрепленных предметов включена
+gui.tooltips.appliedenergistics2.PinsSectionActive=Секция закреплённых предметов включена\n[Shift+ПКМ] удалить закреплённый предмет из секции закреплённых предметов
 gui.tooltips.appliedenergistics2.PinsSectionDisabled=Секция закрепленных предметов отключена
 
 gui.tooltips.appliedenergistics2.scheduledreason.SOMETHING_STUCK=Что-то застряло в интерфейсе
@@ -699,6 +696,7 @@ waila.appliedenergistics2.Singularity=Сингулярность
 waila.appliedenergistics2.Provider=§5Provider§r
 waila.appliedenergistics2.Accessor=§5Accessor§r
 waila.appliedenergistics2.Waiting=Waiting:
+waila.appliedenergistics2.IOBusSpeed=Скорость: %s %s/t
 
 # Baubles Extended
 slot.Terminal=§aТерминал§7
