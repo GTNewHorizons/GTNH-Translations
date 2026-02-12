@@ -21,10 +21,10 @@ flag.design.load=読み込み
 flag.design.load.sections=部分的に読み込み
 
 key.categories.battlegear=Mine & Blades Battlegear 2
-key.battleInv=Battle Inventory
-key.drawWeapons=Draw Weapons
-key.openSigilEditor=Open Sigil Editor
-key.special=Special
+key.battleInv=Battlegearスロットを開く
+key.drawWeapons=武器を取り出す
+key.openSigilEditor=紋章エディタを開く
+key.special=特殊効果
 
 item.battlegear2:bow.greg.name=Gregの弓
 item.battlegear2:bow.iron.name=鉄の弓
@@ -123,13 +123,13 @@ attribute.name.weapon.extendedReach=攻撃距離
 attribute.name.weapon.attackSpeed=攻撃速度
 attribute.name.weapon.backstab=盾貫通
 attribute.name.weapon.mountedBonus=搭乗時攻撃力
-attribute.shield.tooltip=Equip in offhand to use
+attribute.shield.tooltip=オフハンドに装備して使用
 attribute.shield.block.time=%s 秒間防御可
 attribute.shield.arrow.count=%s x 矢
-attribute.shield.arrow.state=Display Arrows: %s (Sneak + Right Click while holding to toggle)
+attribute.shield.arrow.state=矢を表示: %s (手に持ってスニーク右クリックで切り替え)
 attribute.quiver.arrow.empty=空
 attribute.quiver.arrow.count=矢筒の中身:
-attribute.quiver.tooltip.retrieve=Shift + right click to retrieve all arrows.
+attribute.quiver.tooltip.retrieve=Shift+右クリックで収納した矢をすべて回収する
 
 lore.base.arrow.explosive='爆発的なパワーを秘めているようだ...'
 lore.base.arrow.holy='暗黒に立ち向かう人向け'
@@ -164,9 +164,9 @@ death.attack.battlegearExtra.backstab.item=%1$sは%2$sの%3$sで背後から刺�
 death.attack.battlegearExtra.mounted=%1$sは騎乗した%2$sに貫かれた
 death.attack.battlegearExtra.mounted.item=%1$sは騎乗した%2$sに%3$sで貫かれた
 
-tool.pen=Pencil
-tool.rectangle=Rectangle
-tool.circle=Ellipse
-tool.flood=Flood
-tool.text=Text
-tool.dropper=Dropper
+tool.pen=鉛筆
+tool.rectangle=四角形
+tool.circle=円
+tool.flood=塗りつぶし
+tool.text=テキスト
+tool.dropper=スポイト
