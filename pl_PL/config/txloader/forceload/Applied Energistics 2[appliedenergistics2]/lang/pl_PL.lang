@@ -32,6 +32,7 @@ tile.appliedenergistics2.BlockSpatialPylon.name=Pylon Przestrzenny
 tile.appliedenergistics2.BlockTinyTNT.name=Malutkie TNT
 tile.appliedenergistics2.BlockVibrationChamber.name=Komora Wibracyjna
 tile.appliedenergistics2.BlockWireless.name=Bezprzewodowy Punkt Dostępowy ME
+tile.appliedenergistics2.BlockWireless.desc=Right click with terminal in hand to bind it
 tile.appliedenergistics2.OreQuartz.name=Ruda Kwarcu Certus
 tile.appliedenergistics2.OreQuartzCharged.name=Naładowana Ruda Kwarcu Certus
 tile.appliedenergistics2.BlockSecurity.name=Terminal Bezpieczeństwa ME
@@ -104,6 +105,7 @@ chat.appliedenergistics2.InvalidMachine=Nieprawidłowe Urządzenie.
 chat.appliedenergistics2.LoadedSettings=Pomyślnie załadowano ustawienia.
 chat.appliedenergistics2.DeviceNotPowered=Urządzenie ma niski poziom mocy.
 chat.appliedenergistics2.DeviceNotWirelessTerminal=Urządzenie nie jest terminalem bezprzewodowym.
+chat.appliedenergistics2.DeviceSuccessLinked=§aDevice successfully linked.
 chat.appliedenergistics2.DeviceNotLinked=Urządzenie nie jest połączone.
 chat.appliedenergistics2.StationCanNotBeLocated=Nie można zlokalizować stacji.
 chat.appliedenergistics2.MachineNotPowered=Urządzenie nie jest zasilone.
@@ -509,11 +511,6 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItems=Zgłaszanie Niedostępn
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsYes=Tak: Elementy, których nie można wyjąć, będą widoczne.
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=Nie: widoczne będą tylko przedmioty, które można wyciągnąć.
 
-gui.tooltips.appliedenergistics2.TypeFilter=Typy Filtrów
-gui.tooltips.appliedenergistics2.TypeFilterShowAll=Pokaż wszystko
-gui.tooltips.appliedenergistics2.TypeFilterShowItemsOnly=Pokaż tylko przedmioty
-gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=Pokaż Tylko Krople Płynu
-
 gui.tooltips.appliedenergistics2.BlockPlacement=Rozmieszczenie Bloków
 gui.tooltips.appliedenergistics2.BlockPlacementYes=Bloki będą umieszczane jako bloki.
 gui.tooltips.appliedenergistics2.BlockPlacementNo=Bloki będą upuszczane jako przedmioty.
@@ -527,6 +524,10 @@ gui.tooltips.appliedenergistics2.ItemsStored=Przechowywane przedmioty: %s
 gui.tooltips.appliedenergistics2.ItemCount=Liczba przedmiotów: %s
 gui.tooltips.appliedenergistics2.ItemsRequestable=Przedmioty, których można zażądać: %s
 gui.tooltips.appliedenergistics2.P2PFrequency=Częstotliwość: %s
+gui.tooltips.appliedenergistics2.ExtractFromNetworkToContainer=§e%s + Left-click§f to extract §b%s§f from network
+gui.tooltips.appliedenergistics2.InsertFromContainerToNetwork=§e%s + Right-click§f to insert §b%s§f into network
+gui.tooltips.appliedenergistics2.HoldShiftProcessStack=Hold Shift to process the entire stack
+gui.tooltips.appliedenergistics2.RegisterContainerContent=Hold §e%s§f to register as §b%s§f
 gui.tooltips.appliedenergistics2.OreFilterHint=Filtrowanie przedmiotów przy użyciu nazw słownika rud
 gui.tooltips.appliedenergistics2.OreFilter=Filtr Słownika Rud
 gui.tooltips.appliedenergistics2.SearchStringTooltip=Kliknij prawym przyciskiem myszy, aby wyczyścić pasek wyszukiwania
@@ -699,6 +700,7 @@ waila.appliedenergistics2.Singularity=Singularity
 waila.appliedenergistics2.Provider=§5Provider§r
 waila.appliedenergistics2.Accessor=§5Accessor§r
 waila.appliedenergistics2.Waiting=Waiting:
+waila.appliedenergistics2.IOBusSpeed=Speed: %s %s/t
 
 # Baubles Extended
 slot.Terminal=§aTerminal§7
@@ -968,7 +970,7 @@ key.appliedenergistics2.category=Applied Energistics 2
 key.pick_block.desc=AE2 Pick Block
 key.toggle_focus.desc=Przełącz fokus pola wyszukiwania
 key.search_connected_inventories.desc=Search network inventories for item
-key.control_operation.desc=Control operation
+key.container_interaction.desc=Container Item Interaction
 
 # NEI
 nei.options.keys.gui.pattern_view=View Pattern
