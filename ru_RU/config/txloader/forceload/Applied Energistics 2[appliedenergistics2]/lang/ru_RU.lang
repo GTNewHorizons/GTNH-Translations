@@ -524,10 +524,10 @@ gui.tooltips.appliedenergistics2.ItemsStored=Хранится: %s
 gui.tooltips.appliedenergistics2.ItemCount=Количество: %s
 gui.tooltips.appliedenergistics2.ItemsRequestable=Запрашиваемые предметы: %s
 gui.tooltips.appliedenergistics2.P2PFrequency=Частота: %s
-gui.tooltips.appliedenergistics2.ExtractFromNetworkToContainer=§e%s + Left-click§f to extract §b%s§f from network
-gui.tooltips.appliedenergistics2.InsertFromContainerToNetwork=§e%s + Right-click§f to insert §b%s§f into network
-gui.tooltips.appliedenergistics2.HoldShiftProcessStack=Hold Shift to process the entire stack
-gui.tooltips.appliedenergistics2.RegisterContainerContent=Hold §e%s§f to register as §b%s§f
+gui.tooltips.appliedenergistics2.ExtractFromNetworkToContainer=§e%s + ЛКМ§f извлечь §b%s§f из сети
+gui.tooltips.appliedenergistics2.InsertFromContainerToNetwork=§e%s + ПКМ§f вставить §b%s§f в сеть
+gui.tooltips.appliedenergistics2.HoldShiftProcessStack=Удерживайте SHIFT чтобы обработать весь стак
+gui.tooltips.appliedenergistics2.RegisterContainerContent=Удерживайте §e%s§f чтобы зарегистрировать как §b%s§f
 gui.tooltips.appliedenergistics2.OreFilterHint=Фильтрует предметы с помощью имен Ore Dictionary
 gui.tooltips.appliedenergistics2.OreFilter=Фильтр Ore Dictionary
 gui.tooltips.appliedenergistics2.SearchStringTooltip=Щелкните ПКМ, чтобы очистить строку поиска
@@ -632,6 +632,7 @@ gui.tooltips.appliedenergistics2.scheduledreason.LOCK_MODE=Режим запир
 gui.tooltips.appliedenergistics2.scheduledreason.NO_TARGET=Не могу найти цель для вставки
 gui.tooltips.appliedenergistics2.scheduledreason.NOT_ENOUGH_INGREDIENTS=Недостаточно ингредиентов
 gui.tooltips.appliedenergistics2.scheduledreason.SAME_NETWORK=Целевой интерфейс в той же сети
+gui.tooltips.appliedenergistics2.scheduledreason.UNSUPPORTED_STACK=Contains a stack not supported by this interface
 
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstitute=Переключает отображение интерфейсов с шаблонами с включённой заменой
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstituteOnDesc=Отображение всех интерфейсов
@@ -970,7 +971,7 @@ key.appliedenergistics2.category=Applied Energistics 2
 key.pick_block.desc=Выбрать AE2 блок
 key.toggle_focus.desc=Переключить фокус на окно поиска
 key.search_connected_inventories.desc=Поиск предмета в сетевых инвентарях
-key.container_interaction.desc=Container Item Interaction
+key.container_interaction.desc=Взаимодействие с хранилищем предметов
 
 # NEI
 nei.options.keys.gui.pattern_view=Просмотр шаблона

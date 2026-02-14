@@ -143,8 +143,8 @@ tooltip.bw.mb_via.name=%s§7 через §2BartWorks
 tooltip.bw.item.circuit.tagged.imprint=Шаблон: %s
 tooltip.bw.item.circuit.tagged.sliced=Нарезанная %s
 
-tooltip.item.CircuitParts.RawImprintBoard=A Raw Board needed for Circuit Imprints
-tooltip.item.CircuitParts.ImprintBoard=A Board needed for Circuit Imprints
+tooltip.item.CircuitParts.RawImprintBoard=Необработанная подложка для шаблона электросхемы
+tooltip.item.CircuitParts.ImprintBoard=Подложка необходимая для шаблона электросхемы
 
 tooltip.teslastaff.0.name=Никаких гарантий!
 tooltip.labmodule.0.name=Модуль для изменения режима работы Биолаборатории
@@ -228,11 +228,11 @@ item.BISOPelletCompound.name=Топливная смесь пеллеты BISO
 item.BurnedOutTRISOPelletBall.name=Отработанный шарик пеллеты TRISO
 item.BurnedOutTRISOPellet.name=Отработанная пеллета TRISO
 
-item.CircuitParts.Imprint.name=Circuit Imprint
-item.CircuitParts.Sliced.name=Sliced Circuit
-item.CircuitParts.RawImprintBoard.name=Raw Imprint supporting Board
-item.CircuitParts.ImprintBoard.name=Imprint supporting Board
-item.CircuitParts.Wrap.name=Wrap of %s
+item.CircuitParts.Imprint.name=Шаблон электросхемы
+item.CircuitParts.Sliced.name=Нарезанная электросхема
+item.CircuitParts.RawImprintBoard.name=Необработанная подложка шаблона
+item.CircuitParts.ImprintBoard.name=Подложка шаблона
+item.CircuitParts.Wrap.name=Комплект %s
 
 itemGroup.bartworksMetaMaterials=BartWorks' Мета материалы
 
@@ -268,7 +268,7 @@ BW.NEI.display.radhatch.2=Время: %s с
 misc.BatchModeTextOn=Включён пакетный режим (рекомендуется использовать МЭ выходной люк, излишки на выходе будут уничтожены!)
 misc.BatchModeTextOff=Отключён пакетный режим
 
-tooltip.cal.imprintedWith=Настроено на:
+tooltip.cal.imprintedWith=Настроено на: %s
 chat.cal.mode.0=Режим: Сборочная линия электросхем
 chat.cal.mode.1=Режим: Сборщик электросхем
 #Liquids
