@@ -102,7 +102,6 @@ gt.tileentity.has_steam_upgrade=есть улучшение пар
 gt.tileentity.colored=Окрашенный (%s%s§7)
 
 item.gt.advancedsensorcard.name=Карта GregTech продвинутого дистанционного датчика
-gt.blackholerenderer.name=Рендер Чёрной дыры
 gt.block.longdistancepipe.name=Труба трубопровода на дальнее расстояние
 gt.blockcasings.cyclotron_coils.name=Соленоидная сверхпроводниковая катушка
 gt.blockcasings.name=Обшивка механизма
@@ -137,12 +136,14 @@ gt.blockores.name=Руда
 gt.blockreinforced.name=Укреплённый блок
 gt.blockstones.name=Камень
 gt.blocktintedglass.name=Тонированное промышленное стекло
+gt.blackholerenderer.name=Рендер Чёрной дыры
+gt.dronerenderer.name=Drone Renderer
+gt.nanoforgerenderer.name=Nano Forge Renderer
 gt.wormholerenderer.name=Рендерер червоточины
 item.gt.comb.name=Соты
 item.gt.drop.name=Молочко
 item.gt.pollen.name=Пыльца
 item.gt.propolis.name=Прополис
-tile.gt.dronerender.name=Рендерер дронов
 
 # GT Item Descriptions
 gt.item.desc.stored_heat=Нагрев: %s
@@ -626,6 +627,21 @@ item.GTPP.air_filter.name.t2=Воздушный фильтр [Тир 2]
 GTPP.tooltip.air_filter.0=Воздушный фильтр для восстановления атмосферы.
 GTPP.tooltip.air_filter.1=%d/%d использований осталось.
 
+GT5U.tooltip.pump.0=The best way to empty Oceans!
+GT5U.tooltip.pump.1=§e%d§7 EU/operation, §f%d§7 sec per bucket, no stuttering
+GT5U.tooltip.pump.2=Maximum pumping area: §f%dx%d
+GT5U.tooltip.pump.3=Use Screwdriver to regulate pumping area
+GT5U.tooltip.pump.4=Use Soft Mallet to disable and retract the pipe
+GT5U.tooltip.pump.5=Disable the bottom pump to retract the pipe!
+GT5U.tooltip.pump.6=Use Soldering Iron to auto retract the pipe when hitting a rock
+
+GT5U.tooltip.miner.0=Digging ore instead of you
+GT5U.tooltip.miner.1=Use Screwdriver to regulate work area
+GT5U.tooltip.miner.2=Use Soft Mallet to disable and retract the pipe
+GT5U.tooltip.miner.3=§e%d§7 EU/t, §f%d§7 sec per block, no stuttering
+GT5U.tooltip.miner.4=Maximum work area: §f%dx%d
+GT5U.tooltip.miner.5=Small ore fortune bonus of §f%d
+
 # Fish trap
 GTPP.tooltip.fish_trap.0=Эта ловушка ловит рыбу быстрее, если её окружает больше блоков воды
 GTPP.tooltip.fish_trap.1=Также может быть размещен рядом с 4-мя другими рыболовными ловушками.
@@ -830,6 +846,9 @@ GT5U.MBTT.BoroGlassAny=Боросиликатное стекло (любое, с
 GT5U.MBTT.BoroGlassTiered=Боросиликатное стекло (любое)
 GT5U.MBTT.ConfigMenu=Меню конфигурации
 GT5U.MBTT.PerfectOC=Механизм не теряет эффективности при разгоне
+GT5U.MBTT.Deprecated=§4DEPRECATED - %s
+GT5U.MBTT.Deprecated.Removal=Controller will be removed in next major update!
+GT5U.MBTT.Deprecated.NEI=§4Check NEI for new Controller and conversion recipe
 GT5U.MBTT.PCB.Tier=Тир завода печатных плат
 GT5U.MBTT.PCB.Bio=Биокамера
 GT5U.MBTT.PCB.RotBio=Разворот биокамеры
@@ -1326,6 +1345,7 @@ GT5U.machines.output_bus.invalid=Неверная настройка флешк�
 GT5U.machines.dronecentre.shutdown=Вы не сможете управлять механизмом, если дрон-станция выключена!
 GT5U.machines.dronecentre.turnon=Успешно включены все механизмы!
 GT5U.machines.dronecentre.turnoff=Успешно выключены все механизмы!
+GT5U.machines.dronecentre.forceturnoff=Successfully turn off all machines in group: %s and disable all covers!
 GT5U.machines.dronecentre.noconnection=Нет действующего соединения
 GT5U.machines.dronecentre.enableRender=Рендеринг дрона вкл.
 GT5U.machines.dronecentre.disableRender=Рендеринг дрона откл.
@@ -1419,19 +1439,26 @@ GT5U.gui.button.drill_retract_pipes=§7Прерывание и втягиван�
 GT5U.gui.button.drill_retract_pipes_active=§4Невозможно прервать процедуру отмены
 GT5U.gui.button.drone_setname=Установить пользовательское имя для механизма
 GT5U.gui.button.drone_highlight=Подсветить механизм в мире
-GT5U.gui.button.drone_outofrange=§4Механизм находится слишком далеко, система управления дроном недоступна!
+GT5U.gui.button.drone_teleport=Press shift to teleport to the machine
 GT5U.gui.button.drone_open_list=Открыть список механизмов
 GT5U.gui.button.drone_poweron_all=ВКЛЮЧИТЕ ВСЕ механизмы, независимо от их удаленности
 GT5U.gui.button.drone_poweroff_all=ВЫКЛЮЧИТЕ ВСЕ механизмы, независимо от их удаленности
 GT5U.gui.button.drone_name=Сортировать по §3имени
 GT5U.gui.button.drone_distance=Сортировать по §3дистанции
-GT5U.gui.button.drone_error=Сортировать по §3статусу неисправности
-GT5U.gui.button.drone_showLocalName=Показать локализованное имя
+GT5U.gui.button.drone_status=Sort by §3shutdown status
+GT5U.gui.button.drone_searchoriname=Also search original name
+GT5U.gui.button.drone_select_group=Click here to add/remove machine
+GT5U.gui.button.drone_production=Open production panel
+GT5U.gui.button.drone_editmode=Group edit mode
+GT5U.gui.button.drone_pause.1=Auto update connection list
+GT5U.gui.button.drone_pause.2=Disable this if your machine controller cover is malfunctioning!
+GT5U.gui.button.drone_key_panel=Open connection key panel
 GT5U.gui.button.toggle_output_slot_lock=Переключить выходной слот
 GT5U.gui.button.power_panel=Открыть панель энергии
 GT5U.gui.button.turbinemenu=Open Chamber Controller
 GT5U.gui.button.machineinfo=Отображение информации о механизме
 GT5U.gui.button.max_parallel=Всегда использовать максимум
+GT5U.gui.button.compressed_bus_settings=Open Bus Settings
 
 GT5U.gui.text.rangedvalue=Радиус: %s-%s
 GT5U.gui.text.lockedvalue=Заблокировано: %s
@@ -1513,6 +1540,22 @@ GT5U.gui.text.drone_operating=§aДрон работает нормально!
 GT5U.gui.text.drone_title=Центр управления дронами
 GT5U.gui.text.drone_custom_name=Собственное имя механизма
 GT5U.gui.text.drone_search=Поиск имени механизма
+GT5U.gui.text.drone_no_connection=No any connection
+GT5U.gui.text.drone_active_production=Active production recorder
+GT5U.gui.text.drone_maxrecord=Max record：
+GT5U.gui.text.drone_production_connection=Connection
+GT5U.gui.text.drone_production_power=Power
+GT5U.gui.text.drone_production_item=Item
+GT5U.gui.text.drone_production_fluid=Fluid
+GT5U.gui.text.drone_connectionCount=Total connections: %s
+GT5U.gui.text.drone_power_total=Total EU consumed in last %s:
+GT5U.gui.text.drone_connectionList=Connected machine list
+GT5U.gui.text.drone_average=Average EU consumed in last %s
+GT5U.gui.text.drone_item_total=Total item produced in last %s:
+GT5U.gui.text.drone_fluid_total=Total fluid produced in last %s:
+GT5U.gui.text.drone_key=Set connection key
+GT5U.gui.text.drone_warning_text=§4Warning: §7This machine is under attack.
+GT5U.gui.text.drone_remote_text=Drone Centre Remote Control
 GT5U.gui.text.shutdown_duration=§4Отключён §e%s §4ч §e%s §4м §e%s §4с назад.
 GT5U.gui.text.out_of_fluid=§4Не поставлены следующие жидкости: §b%s§f x §6%s Л
 GT5U.gui.text.out_of_item=§4Не поставлены следующие предметы: §b%s§f x §6%s
@@ -1573,6 +1616,11 @@ GT5U.gui.text.invalidfluidsup=Invalid Fluid Supplied
 GT5U.gui.text.amperage=Ампераж
 GT5U.gui.text.voltagetier=Тир вольтажа
 GT5U.gui.text.ticks_between_refill=Тики между заправками
+GT5U.gui.text.stack_capacity=Stack Capacity
+GT5U.gui.text.bus_settings=Bus Settings
+GT5U.gui.text.amount_out_of=§9Amount: %,d / %,d
+GT5U.gui.text.compressed_bus_stored_items=Hold SHIFT to show all stored items
+
 
 
 GT5U.gui.hoverable.runningfine=Работает отлично.
@@ -1615,6 +1663,11 @@ GT5U.gui.config.worldgen.general=Общие
 
 GT5U.gui.text.cannot_change_when_running=Невозможно изменить конфигурацию во время работы!
 
+GT5U.gui.tooltip.drone_active_production=[Warning] This function is experimental and may reduce performance.
+GT5U.gui.tooltip.drone_maxrecord=Set max record quota. Each output from every machine consumes one quota. [Warning] Large numbers may cause performance issues!
+GT5U.gui.tooltip.drone_production_clear=Clean production info
+GT5U.gui.tooltip.drone_key=Prioritize connecting to the drone center with the same key
+
 GT5U.gui.tooltip.purification_plant.debug_mode=Переключить в режим отладки.
 GT5U.gui.text.purification_plant.hit_to_start=Ударь киянкой для запуска.
 
@@ -1653,6 +1706,7 @@ GT5U.gui.text.wormhole_generator.max_io.large=§7Max I/O per hatch: §b%3.3e§7 
 
 GT5U.gui.text.status.active=Активен
 GT5U.gui.text.status.online=В сети
+GT5U.gui.text.status.offline=Offline
 GT5U.gui.text.status.disabled=Отключён
 GT5U.gui.text.status.incomplete=Незавершённая структура
 GT5U.gui.text.x=X: %s
@@ -1753,6 +1807,8 @@ GT5U.gui.chat.powerfail.list.truncated=%s additional powerfails truncated
 GT5U.gui.chat.powerfail.shown=Enabled powerfail overlay rendering.
 GT5U.gui.chat.powerfail.hidden=Disabled powerfail overlay rendering.
 
+GT5U.gui.chat.bindcentre=Successfully bind drone centre.
+GT5U.gui.chat.drone_level_low=Upgrade to T4 drone to active the teleport function
 # chats
 GT5U.chat.void_miner.mode.black_list=Режим: Чёрный список
 GT5U.chat.void_miner.mode.white_list=Режим: Белый список
@@ -3464,6 +3520,9 @@ GT5U.tooltip.purify.1=Бросьте в котёл для получения ч�
 GT5U.tooltip.purify.2=Бросьте в котёл для получения чистой измельчённой руды
 GT5U.tooltip.nqgen=Может использоваться как заменитель топлива из обогащённого наквадаха
 
+GT5U.tooltip.drone_remote_disconnected=Shift right click an active drone centre to connect
+GT5U.tooltip.drone_remote_connected=Connected to centre: %s, %s, %s, on dim%s
+
 # info data
 GT5U.infodata.no_network=Нет сети
 GT5U.infodata.battery_buffer.stored_items=Stored Items: %s EU / %s EU
@@ -3563,6 +3622,7 @@ GT5U.infodata.oil_drill.drilling_flow=Поток бурения: %s Л/тик
 
 GT5U.infodata.critical_info=Важнейшая информация
 GT5U.infodata.plasma_forge.ticks_run_fuel_discount=Ticks run: %s, Fuel Discount: %s (Extra catalyst use: %sL)
+GT5U.infodata.plasma_forge.fuel_discount=Fuel Discount: %s
 GT5U.infodata.plasma_forge.convergence=Конвергенция: %s
 GT5U.infodata.plasma_forge.convergence.progress=, идеальная конвергенция достигнута за %s мин.
 GT5U.infodata.plasma_forge.convergence.achieved=, достигнута идеальная конвергенция
@@ -4177,6 +4237,10 @@ achievement.gt.tierdDrone1=Дрон (2-ой уровень)
 achievement.gt.tierdDrone1.desc=Просто посмотри рецепт в NEI
 achievement.gt.tierdDrone2=Дрон (3-й уровень)
 achievement.gt.tierdDrone2.desc=Просто посмотри рецепт в NEI
+achievement.gt.tierdDrone3=Drone (Level 4)
+achievement.gt.tierdDrone3.desc=Pickup this item to see the recipe in NEI
+achievement.gt.Item_Drone_Remote_Interface=Drone Centre Remote Interface
+achievement.gt.Item_Drone_Remote_Interface.desc=Pickup this item to see the recipe in NEI
 achievement.gt.blockmachines.multimachine.nanoforge=Нано кузница
 achievement.gt.blockmachines.multimachine.nanoforge.desc=Просто посмотри рецепт в NEI
 achievement.gt.metaitem.03.4010=Углеродный нанит
