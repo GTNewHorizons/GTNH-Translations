@@ -205,7 +205,7 @@ enchantment.ttinkerer:finalStrike=ファイナルストライク
 enchantment.ttinkerer:pounce=奇襲
 enchantment.ttinkerer:shatter=破砕
 enchantment.ttinkerer:shockwave=衝撃波
-enchantment.ttinkerer:valiance=バランス
+enchantment.ttinkerer:valiance=勇敢
 
 
 # WAND COMPONENTS
@@ -319,7 +319,7 @@ ttresearch.page.MAGNETS.1=2つの装置を設計した。キネティック・�
 # -- OSMOTIC ENCHANTER
 ttresearch.name.ENCHANTER=オスモティックエンチャンター
 ttresearch.lore.ENCHANTER=運の選抜
-ttresearch.page.ENCHANTER.0=努力に見合わぬ酷いエンチャントが付与されるのにうんざりしてきた。これに対し、適用したいエンチャントを選ぶことができる新たなエンチャントテーブルを生み出した。<BR><BR>この新たな装置には杖が必要であり、それぞれのエンチャントには特定の組み合わせのVisが要求される。エンチャントのコストは適用したいレベルに応じて急激に増加する。<BR><BR>エンチャントにおけるルールは通常通りで、例えばシルクタッチと幸運を組み合わせることはできない。
+ttresearch.page.ENCHANTER.0=努力に見合わぬ酷いエンチャントが付与されるのにうんざりしてきた。これに対し、適用したいエンチャントを選ぶことができる新たなエンチャントテーブルを生み出した。<BR><BR>この新たな装置には杖が必要であり、それぞれのエンチャントには特定の組み合わせのVisが要求される。エンチャントのコストは適用したいレベルの上昇に応じて急激に増加する。<BR><BR>エンチャントにおけるルールは通常通りで、例えばシルクタッチと幸運を組み合わせることはできない。
 ttresearch.page.ENCHANTER.1=アイテムに付与したいエンチャントを選択した後、インターフェース内にある赤いボタンをクリックするとエンチャントの工程が始まる。アイテムがエンチャントされている間、そのアイテムをテーブルから取り出したり、つけるエンチャントを変更することはできない。<BR><BR>エンチャントが終わるまで、テーブルは杖からゆっくりとVisを吸い出す。機能させるには、テーブルから4ブロックの範囲内に、6本の柱を建てる必要がある。この柱はテーブルと同じ高さに建てなければならない。<BR><BR>[続く]
 ttresearch.page.ENCHANTER.2=柱は2個から12個の黒曜石のトーテムを積み上げて構成し、頂上にはニトロをあしらう。エンチャンターはその柱から流れるエネルギーを得て、杖からVisを奪い組み合わせてアイテムにエンチャントを行う。<BR><BR>最後に、鉄または銅留めの杖では、エンチャントに必要となる複雑な注入を行うにはあまりにも質素で基礎レベルのものであるために、エンチャンターを機能させることができない。
 
@@ -349,60 +349,60 @@ ttresearch.lore.TTENCH_AUTO_SMELT=熱い斧でバターを切るように
 ttresearch.page.TTENCH_AUTO_SMELT.0=仮想的な炎を呼び出せるようになるエンチャントを編み出した。<BR><BR>このエンチャントはツールに適用可能である。適用すると、破壊の過程で炎を用い、木を損なうことなく軟らかくすることで、木製のものならなんでも極めて手際よく破壊することができるようになる。ただし、そのツールはその他すべてのものに対して無力になるとともに、耐久値の消費が2倍になる。
 
 # -- ENCHANTMENT: DISINTEGRATE
-ttresearch.name.TTENCH_DESINTEGRATE=Enchantment: Disintegrate
-ttresearch.lore.TTENCH_DESINTEGRATE=Spacequake alert
-ttresearch.page.TTENCH_DESINTEGRATE.0=You have formulated an enchantment that allows you to mine soft materials at incredible speeds.<BR><BR>This enchantment can be applied on tools. When done so, the wielder can break regular blocks (dirt, stone, netherrack, etc.) that the tool is good for with extreme finesse, however, the tool becomes impotent against anything else, and takes double durability damage.
+ttresearch.name.TTENCH_DESINTEGRATE=エンチャント: 崩壊
+ttresearch.lore.TTENCH_DESINTEGRATE=宇宙震動特別警報
+ttresearch.page.TTENCH_DESINTEGRATE.0=柔らかい素材を驚異的な速度で破壊できるようになるエンチャントを編み出した。<BR><BR>このエンチャントはツールに適用可能である。適用すると、そのツールが破壊適性を持つブロック(土、石、ネザーラックなど)を極めて手際よく破壊することができるようになる。ただし、そのツールはその他すべてのものに対して無力になるとともに、耐久値の消費が2倍になる。
 
 # -- ENCHANTMENT: QUICK DRAW
-ttresearch.name.TTENCH_QUICK_DRAW=Enchantment: Quick Draw
-ttresearch.lore.TTENCH_QUICK_DRAW=May the odds ever be in your favor
-ttresearch.page.TTENCH_QUICK_DRAW.0=You have formulated an enchantment that allows you to draw your bow in a quicker fashion.<BR><BR>This enchantment can be applied on bows. When done so, the bow can be fully drawn faster than normally.
+ttresearch.name.TTENCH_QUICK_DRAW=エンチャント: 高速装填
+ttresearch.lore.TTENCH_QUICK_DRAW=つねに幸あらんことを
+ttresearch.page.TTENCH_QUICK_DRAW.0=弓をより素早く引き絞れるようになるエンチャントを編み出した。<BR><BR>このエンチャントは弓に適用可能である。適用すると、弓を通常より速く引くくとができる。
 
 # -- ENCHANTMENT: VAMPIRISM
-ttresearch.name.TTENCH_VAMPIRISM=Enchantment: Vampirism
-ttresearch.lore.TTENCH_VAMPIRISM=I'll take that
-ttresearch.page.TTENCH_VAMPIRISM.0=You have formulated an enchantment that allows you to drain the health of the enemies you attack.<BR><BR>This enchantment can be applied on swords. When done so, a chunk of the damage dealt to a living thing using that sword will be given back to the wielder.
+ttresearch.name.TTENCH_VAMPIRISM=エンチャント: 吸血
+ttresearch.lore.TTENCH_VAMPIRISM=そいつは貰った
+ttresearch.page.TTENCH_VAMPIRISM.0=攻撃した敵の体力を吸収できるようになるエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用可能である。適用すると、その剣で生物に与えたダメージの一部が使用者の回復に充てられる。
 
 # -- ENCHANTMENT: DISPERSED_STRIKES
-ttresearch.name.TTENCH_DISPERSED=Enchantment: Dispersed Strikes
-ttresearch.lore.TTENCH_DISPERSED=Kill ALL the mobs
-ttresearch.page.TTENCH_DISPERSED.0=You have formulated an enchantment that allows you to fight many mobs at once.<BR><BR>This enchantment can be applied on swords. When done so, the damage to a mob on the first hit will be multiplied, but the damage on successive strikes to the same mob will be decreased.
+ttresearch.name.TTENCH_DISPERSED=エンチャント: 分散特攻
+ttresearch.lore.TTENCH_DISPERSED=そいつら全員ぶっ殺せ
+ttresearch.page.TTENCH_DISPERSED.0=同時に複数のモブと戦えるようになるエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用可能である。適用すると、初撃のダメージに倍率がかかるが、同じモブに攻撃し続けると与えるダメージが減少するようになる。
 
 # -- ENCHANTMENT: FOCUSED_STRIKES
-ttresearch.name.TTENCH_FOCUSED=Enchantment: Focused Strikes
-ttresearch.lore.TTENCH_FOCUSED=Kill ONE OF the mobs
-ttresearch.page.TTENCH_FOCUSED.0=You have formulated an enchantment that enables you to become proficient at fighting a single mob.<BR><BR>This enchantment can be applied on swords. When done so, the damage to a mob on the first hit will be decreased, but the damage on successive strikes to the same mob will be increased.
+ttresearch.name.TTENCH_FOCUSED=エンチャント: 集中特攻
+ttresearch.lore.TTENCH_FOCUSED=そん中から1体ぶっ殺せ
+ttresearch.page.TTENCH_FOCUSED.0=単体のモブとの戦闘が上達するエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用可能である。適用すると、初撃のダメージは減少するが、同じモブに攻撃し続けると与えるダメージが増加するようになる。
 
 # -- ENCHANTMENT: FINAL_STRIKE
-ttresearch.name.TTENCH_FINAL=Enchantment: Final Strike
-ttresearch.lore.TTENCH_FINAL=Go for the head!
-ttresearch.page.TTENCH_FINAL.0=You have formulated an enchantment that enables you to occasionally score critical hits.<BR><BR>This enchantment can be applied on swords. When done so, there is a chance that a hit will do triple damage.
+ttresearch.name.TTENCH_FINAL=エンチャント: ファイナルストライク
+ttresearch.lore.TTENCH_FINAL=頭を狙え！
+ttresearch.page.TTENCH_FINAL.0=時々クリティカルヒットが発生するようになるエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用可能である。適用すると、攻撃時にダメージが3倍になる可能性が生じる。
 
 # -- ENCHANTMENT: VALIANCE
-ttresearch.name.TTENCH_VALIANCE=Enchantment: Valiance
-ttresearch.lore.TTENCH_VALIANCE=Back from the edge
-ttresearch.page.TTENCH_VALIANCE.0=You have formulated an enchantment that enables you to fight better when at low health.<BR><BR>This enchantment can be applied on swords. When done so, damage done with the sword will be increased when the wielder is at low health.
+ttresearch.name.TTENCH_VALIANCE=エンチャント: 勇敢
+ttresearch.lore.TTENCH_VALIANCE=崖っぷちから戻る
+ttresearch.page.TTENCH_VALIANCE.0=低体力時に戦闘力が向上するエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用可能である。適用すると、使用者の体力が少ない場合その剣で与えるダメージが増加する。
 
 
 # -- ENCHANTMENT: TUNNEL
-ttresearch.name.TTENCH_TUNNEL=Enchantment: Tunnel
-ttresearch.lore.TTENCH_TUNNEL=Mining is boring
-ttresearch.page.TTENCH_TUNNEL.0=You have formulated an enchantment that enables you to become more efficient at digging straight lines.<BR><BR>This enchantment can be applied on tools. When done so, digging multiple blocks in a straight line will increase your digging speed.
+ttresearch.name.TTENCH_TUNNEL=エンチャント: 坑道
+ttresearch.lore.TTENCH_TUNNEL=採掘は退屈
+ttresearch.page.TTENCH_TUNNEL.0=直線をより効率的に採掘できるようになるエンチャントを編み出した。<BR><BR>このエンチャントはツールに適用可能である。適用すると、直線上にあるブロックを複数掘ったときに採掘速度が上昇する。
 
 # -- ENCHANTMENT: SHATTER
-ttresearch.name.TTENCH_SHATTER=Enchantment: Shatter
-ttresearch.lore.TTENCH_SHATTER=Who needs obsidian
-ttresearch.page.TTENCH_SHATTER.0=You have formulated an enchantment that enables you to become more efficient at destroying strong blocks.<BR><BR>This enchantment can be applied on tools. When done so, digging speed will be greatly increased on strong blocks.
+ttresearch.name.TTENCH_SHATTER=エンチャント: 破砕
+ttresearch.lore.TTENCH_SHATTER=黒曜石っている？
+ttresearch.page.TTENCH_SHATTER.0=強固なブロックをより効率的に採掘できるようになるエンチャントを編み出した。<BR><BR>このエンチャントはツールに適用可能である。適用すると、堅いブロックを掘るときに採掘速度が大きく上昇する。
 
 # -- ENCHANTMENT: SHOCKWAVE
-ttresearch.name.TTENCH_SHOCKWAVE=Enchantment: Shockwave
-ttresearch.lore.TTENCH_SHOCKWAVE=Mini Earthquakes
-ttresearch.page.TTENCH_SHOCKWAVE.0=You have formulated an enchantment that enables you to become to kill enemies while falling.<BR><BR>This enchantment can be applied on boots. When done so, whenever the wearer falls, damage will be dealt to surrounding mobs or players.<BR><BR>Unfortunately Magics of all types that make the player lighter, so to prevent damage from falling, will make the player too light to damage entities. You feel there may be ways to stop this at a later time, once you know the magic better.
+ttresearch.name.TTENCH_SHOCKWAVE=エンチャント: 衝撃波
+ttresearch.lore.TTENCH_SHOCKWAVE=ちっちゃな地震
+ttresearch.page.TTENCH_SHOCKWAVE.0=落下中に敵を倒すことができるようになるエンチャントを編み出した。<BR><BR>このエンチャントはブーツに適用可能である。適用すると、着用者が落下した際に周囲のモブやプレイヤーへダメージを与える。<BR><BR>残念ながら、プレイヤーを軽くして落下ダメージを防ぐタイプの魔法はすべて、プレイヤーが軽くなりすぎてしまうために、周囲のエンティティへダメージを与えることを不可能にしてしまう。だがこの魔法についてより深く知ることができれば、後からこの現象を止める方法が見つかるかもしれないと感じる。
 
 # -- ENCHANTMENT: POUNCE
-ttresearch.name.TTENCH_POUNCE=Enchantment: Pounce
-ttresearch.lore.TTENCH_POUNCE=Light on your feet
-ttresearch.page.TTENCH_POUNCE.0=You have formulated an enchantment that enables you to to leap on your foes.<BR><BR>This enchantment can be applied on leggings. When done so, your attacks will be more powerful while you are in the air.
+ttresearch.name.TTENCH_POUNCE=エンチャント: 奇襲
+ttresearch.lore.TTENCH_POUNCE=軽やかに
+ttresearch.page.TTENCH_POUNCE.0=敵に飛びかかれるようになるエンチャントを編み出した。<BR><BR>このエンチャントはレギンスに適用可能である。適用すると、空中にいる間の攻撃がより強力になる。
 
 
 # -- WAND FOCUS: EFREET'S FLAME
