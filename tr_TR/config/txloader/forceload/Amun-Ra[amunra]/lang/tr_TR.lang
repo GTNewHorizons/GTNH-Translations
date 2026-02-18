@@ -1,3 +1,5 @@
+itemGroup.AmunRaTab=Amun-Ra
+
 planet.starAmun=Amun
 star.starRa=Ra
 planet.osiris=Osiris
@@ -80,14 +82,10 @@ tile.aluChest.name=Alüminyum Sandık
 tile.aluChest.description=Tahta sandıkla aynı kapasiteye sahip. Çifte sandık olarak da kullanılabilir.
 tile.steelChest.name=Çelik Sandık
 tile.steelChest.description=Tahta sandığın iki katı kapasiteye sahiptir ama çifte sandık olarak kullanılamaz.
-
-
 tile.oldConcreteOre.0.name=Urbolit
 tile.oldConcrete.name=Urbolit
 tile.oldConcreteOre.oreSteel.name=Çelik-yataklı Urbolit
 tile.oldConcreteOre.oreBone.name=Fosilleşmiş Urbolit
-
-
 tile.baseBlockCrystal.0.name=Parlayan Mercan
 tile.glowCoral.name=Parlayan Mercan
 tile.obsidianbrick.name=Obsidyen Tuğla
@@ -110,19 +108,14 @@ tile.asteroidMultiOre1.0.name=Cevher
 tile.basaltMultiOre.0.name=Cevher
 tile.hardClayMultiOre.0.name=Cevher
 tile.obsidianMultiOre.0.name=Cevher
-
 tile.basePlant.0.name=Uzun Kızılçim
 tile.methaneTallGrass.name=Uzun Kızılçim
-
 tile.blockFake.0.name=Sahte Blok
-
 tile.bossSpawner.0.name=Boss Çağırıcı
-
 tile.baseFalling.0.name=Düşen Blok
 tile.basaltregolith.name=Bazalt Regoliti
 tile.obsidianGravel.name=Obsidyen Çakılı
 tile.obsidianSand.name=Obsidyen Kumu
-
 tile.baseGrass.0.name=Kızılçim
 tile.methanegrass.name=Kızılçim
 tile.vacuumRedGrass.name=Soluk Kızılçim
@@ -151,13 +144,10 @@ tile.hydroponics.harvest=Hasat Et
 tile.hydroponics.fertilize=Gübrele
 tile.hydroponics.noplant=Bitki Yok
 tile.hydroponics.plantstatus=Bitki durumu
-
-
 tile.machines1.0.name=Radyoisotop Jeneratörü
 tile.isotopeGeneratorBasic.name=Radyoisotop Jeneratörü
 tile.isotopeGeneratorAdvanced.name=Gelişmiş Radyoisotop Jeneratörü
 tile.isotopeGenerator.description=Entegre nükleer malzemenin bozunumundan çıkan ısı ile enerji üretir. Enerji üretim oranı dış sıcaklığıa bağlıdır, dışarısı ne kadar sıcak ise o kadar az üretir. Kullanılan isotopun yarı ömründen dolayı bu jeneratör tükenmez sayılabilir.
-
 
 item.baseItem.name=Kaynak
 item.baseItem.compressedGold.name=Sıkıştırılmış Altın
@@ -165,7 +155,7 @@ item.baseItem.goldFoil.name=Altın Folyo
 item.baseItem.transformer.name=Trafo
 item.baseItem.waferEnder.name=Ender Yonga Plakası
 item.baseItem.porcodonMeat.name=Porcodon Eti
-item.porcodonMeat.description=Benzin gibi kokuyor.
+
 item.baseItem.laserDiode.name=Lazer Diyot
 item.baseItem.cryoDiode.name=Kriyo Diyot
 item.baseItem.cryoCrystal.name=Çiyonit
@@ -184,7 +174,6 @@ item.baseItem.uranMesh.name=Uranyum-Lityum Örgü
 item.baseItem.shuttleTank.name=Mekik Yakıt Tankı
 item.baseItem.dockDoor.name=İskele Kapısı
 item.baseItem.dockGangway.name=İskele Geçidi
-item.schematic.schematicShuttle.name=Mekik Şeması
 item.baseItem.darkShard.name=Kara Madde Parçası
 item.baseItem.naniteCluster.name=Nanit Kümesi
 item.baseItem.naniteCluster.description=Bu nanitle inaktif ama hala daha çalışır duruyor.
@@ -192,29 +181,7 @@ item.baseItem.naniteControl.name=Nanit Kontrol Modülü
 item.baseItem.mummyDust.name=Mumya Tozu
 item.baseItem.gravityBlockDisabler.name=Yapay Yerçekimi Bozucusu
 item.baseItem.gravityBlockDisabler.description=Aktif iken Yapay Yerçekimi Jeneratörlerinin sana etki etmesini engeller.
-
-
 item.baseItem.dustMote.name=Toz
-item.battery-lithium.name=Lityum Pil
-item.battery-quantum.name=Kuantum Pil
-item.battery-ender.name=Gelişmiş Pil
-item.battery-nuclear.name=Nükleer Pil
-item.raygun.name=Işın Silahı
-item.cryogun.name=Dondurucu Işın
-entity.robotVillager.name=Robot Köylü
-entity.porcodon.name=Porkodon
-entity.sentryRobot.name=Taret
-entity.osirisBoss.name=Hortlak Firavun
-entity.alienVillagerAR.name=Gastropod Köylü
-entity.alienBug.name=Çimdikleyen Böcek
-entity.GalacticraftAmunRa.Shuttle.name=Mekik Roketi
-item.itemShuttle.name=Mekik Roketi
-item.thermalSuit.name=Termoregülasyon Zırhı Parçası
-item.thermalSuit.thermalLevel.name=Thermal Seviye: %s
-item.thermalSuit.helmet.name=Termoregülasyon Kask
-item.thermalSuit.chest.name=Termoregülasyon Goğüs Zırhı
-item.thermalSuit.boots.name=Termoregülasyon Botları
-item.thermalSuit.legs.name=Termoregülasyon Pantolon
 item.baseItem.thermalController.name=Taşınabilir Termo Regülatör
 item.baseItem.tricorder.name=Multi-Sensör
 item.baseItem.tricorder.description=Bulunduğun boyutun bilgilerini ölçüp sana gösterir.
@@ -226,6 +193,21 @@ item.baseItem.tricorder.message.daylength=Gün Uzunluğu: %s
 item.baseItem.tricorder.message.unknown=Bilimiyor
 item.baseItem.tricorder.message.unknownGas=Bilinmeyen Gaz
 item.baseItem.tricorder.message.none=Hiç
+item.schematic.schematicShuttle.name=Mekik Şeması
+item.porcodonMeat.description=Benzin gibi kokuyor.
+item.battery-lithium.name=Lityum Pil
+item.battery-quantum.name=Kuantum Pil
+item.battery-ender.name=Gelişmiş Pil
+item.battery-nuclear.name=Nükleer Pil
+item.raygun.name=Işın Silahı
+item.cryogun.name=Dondurucu Işın
+item.itemShuttle.name=Mekik Roketi
+item.thermalSuit.name=Termoregülasyon Zırhı Parçası
+item.thermalSuit.thermalLevel.name=Thermal Seviye: %s
+item.thermalSuit.helmet.name=Termoregülasyon Kask
+item.thermalSuit.chest.name=Termoregülasyon Goğüs Zırhı
+item.thermalSuit.boots.name=Termoregülasyon Botları
+item.thermalSuit.legs.name=Termoregülasyon Pantolon
 item.nanotool.name=Nanit Çoklu Alet
 item.nanotool.mode-prefix=Mod
 item.nanotool.mode.workbench=Üretim
@@ -237,6 +219,13 @@ item.nanotool.mode.shovel=Kürek
 item.nanotool.mode.wrench=İngiliz Anahtarı
 item.battery-using-item.powerlevel=Güç Kaynağı
 
+entity.robotVillager.name=Robot Köylü
+entity.porcodon.name=Porkodon
+entity.sentryRobot.name=Taret
+entity.osirisBoss.name=Hortlak Firavun
+entity.alienVillagerAR.name=Gastropod Köylü
+entity.alienBug.name=Çimdikleyen Böcek
+entity.GalacticraftAmunRa.Shuttle.name=Mekik Roketi
 
 gas.argon.name=Argon
 gas.helium.name=Helyum
@@ -250,6 +239,7 @@ profession.refinery.name=Zenginleştirme Ünitesi
 profession.ingotcompressor.name=Metal İşleme Ünitesi
 profession.circuitfabricator.name=Devre Fabrikatörü
 profession.crafter.name=Üretim Ünitesi
+
 death.attack.wrongAtmoSuffocate=%1$s ona uygun olmayan bir atmosferde boğuldu
 death.attack.fallOffMothership=%1$s uzayda bir maceraya çıktı 
 death.attack.fallOffMothershipIntoPlanet=%1$s ve %2$s birbirinden ayrılamıyor
@@ -257,7 +247,6 @@ death.attack.killedByEngine=%1$s Anageminin motorunda ızgara oldu
 death.attack.ar_laser=%1$s bir ışın silahi ile vuruldu
 death.attack.ar_heatray=%1$s buharlaştı
 death.attack.ar_coldray=%1$s donakaldı
-itemGroup.AmunRaTab=Amun-Ra
 
 gui.message.canCreateMothership.name=Burada bir Anagemi inşa edilebilir!
 gui.message.tooManyMotherships.name=Daha fazla Anagemi inşa edemezsin!
@@ -305,12 +294,6 @@ gui.checkbox.show_visual_guide=Bölgeyi Göster
 gui.checkbox.invert_force=Yukarı
 gui.message.force.strength=Güç
 gui.message.energy_usage=Enerji Kullanımı
-
-
-info.message.celestialbodysearch.none='%s'e uygun bir göksel cisim bulunamadı
-info.message.celestialbodysearch.some='s%'e uygun %s adet göksel cisim bulundu:
-
-
 gui.message.misc.generalErrorCaption=Hata
 gui.message.misc.planet=Gezegen
 gui.message.misc.star=Yıldız
@@ -323,6 +306,16 @@ gui.message.misc.yes=evet
 gui.message.misc.no=hayır
 gui.message.misc.unit.ticks=Tik
 
+gui.title.gravity=Artificial Gravity Generator
+gui.title.isotopeGeneratorBasic=Radioisotope Generator
+gui.title.isotopeGeneratorAdvanced=Advanced Radioisotope Generator
+gui.title.mothershipEngineIon=Ion Thruster
+gui.title.hydroponics=Hydroponics Unit
+gui.title.aluChest=Aluminum Chest
+gui.title.steelChest=Steel Chest
+gui.title.shuttleDock=Shuttle Dock
+
+info.message.celestialbodysearch.none='%s'e uygun bir göksel cisim bulunamadı
+info.message.celestialbodysearch.some='s%'e uygun %s adet göksel cisim bulundu:
 
 mothership.default.name=Anagemi %s
-
