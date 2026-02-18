@@ -1,3 +1,5 @@
+itemGroup.AmunRaTab=아문-라
+
 planet.starAmun=아문
 star.starRa=라
 planet.osiris=오시리스
@@ -80,14 +82,10 @@ tile.aluChest.name=알루미늄 상자
 tile.aluChest.description=나무 상자와 같은 용량을 지닙니다. 큰 상자로 합쳐질 수 있습니다.
 tile.steelChest.name=강철 상자
 tile.steelChest.description=나무 상자의 2배 용량을 지닙니다. 큰 상자로 합쳐질 수 없습니다.
-
-
 tile.oldConcreteOre.0.name=우르보라이트
 tile.oldConcrete.name=우르보라이트
 tile.oldConcreteOre.oreSteel.name=강철-우르보라이트
 tile.oldConcreteOre.oreBone.name=화석화된 우르보라이트
-
-
 tile.baseBlockCrystal.0.name=발광 산호
 tile.glowCoral.name=발광 산호
 tile.obsidianbrick.name=흑요석 벽돌
@@ -110,19 +108,14 @@ tile.asteroidMultiOre1.0.name=광석
 tile.basaltMultiOre.0.name=광석
 tile.hardClayMultiOre.0.name=광석
 tile.obsidianMultiOre.0.name=광석
-
 tile.basePlant.0.name=큰 붉은잔디
 tile.methaneTallGrass.name=큰 붉은잔디
-
 tile.blockFake.0.name=Fake Block
-
 tile.bossSpawner.0.name=보스 스포너
-
 tile.baseFalling.0.name=Falling Block
 tile.basaltregolith.name=현무암질 표토
 tile.obsidianGravel.name=흑요석 자갈
 tile.obsidianSand.name=흑요석 모래
-
 tile.baseGrass.0.name=붉은잔디
 tile.methanegrass.name=붉은잔디
 tile.vacuumRedGrass.name=창백한 붉은잔디
@@ -151,13 +144,10 @@ tile.hydroponics.harvest=수확
 tile.hydroponics.fertilize=비료 공급
 tile.hydroponics.noplant=식물 없음
 tile.hydroponics.plantstatus=식물 상태
-
-
 tile.machines1.0.name=방사성동위원소 발전기
 tile.isotopeGeneratorBasic.name=방사성동위원소 발전기
 tile.isotopeGeneratorAdvanced.name=고급 방사성동위원소 발전기
 tile.isotopeGenerator.description=합성된 방사성 물질의 붕괴로 발생한 열로부터 에너지를 생산합니다. 외부 기온에 따라 에너지의 생산량이 달라집니다. 뜨거워질수록 더 적은 에너지가 생산됩니다. 동위원소의 긴 반감기로 인해, 이 발전기는 영구적인 것으로 간주됩니다. 
-
 
 item.baseItem.name=Resource
 item.baseItem.compressedGold.name=압축된 금
@@ -165,7 +155,7 @@ item.baseItem.goldFoil.name=금 호일
 item.baseItem.transformer.name=변압기
 item.baseItem.waferEnder.name=엔더 웨이퍼
 item.baseItem.porcodonMeat.name=포코돈 고기
-item.porcodonMeat.description=가솔린 비슷한 냄새가 납니다. 
+
 item.baseItem.laserDiode.name=레이저 다이오드
 item.baseItem.cryoDiode.name=극저온 다이오드
 item.baseItem.cryoCrystal.name=치오나이트
@@ -184,7 +174,6 @@ item.baseItem.uranMesh.name=우라늄-리튬 매쉬
 item.baseItem.shuttleTank.name=왕복선 연료통
 item.baseItem.dockDoor.name=도킹 문
 item.baseItem.dockGangway.name=도킹 갱웨이
-item.schematic.schematicShuttle.name=왕복선 설계도
 item.baseItem.darkShard.name=암흑물질 조각
 item.baseItem.naniteCluster.name=나나이트 클러스터
 item.baseItem.naniteCluster.description=이 나나이트들은 멈춘것처럼 보여도, 아직 동작중입니다
@@ -192,29 +181,7 @@ item.baseItem.naniteControl.name=나나이트 제어 모듈
 item.baseItem.mummyDust.name=미라 가루
 item.baseItem.gravityBlockDisabler.name=인공중력 교란기
 item.baseItem.gravityBlockDisabler.description=작동중일때, 인공중력의 영향을 무시하게 해줍니다.
-
-
 item.baseItem.dustMote.name=가루
-item.battery-lithium.name=리튬 배터리
-item.battery-quantum.name=양자 배터리
-item.battery-ender.name=고급 배터리
-item.battery-nuclear.name=원자력 배터리
-item.raygun.name=블래스터
-item.cryogun.name=동결 광선
-entity.robotVillager.name=로봇 주민
-entity.porcodon.name=포코돈
-entity.sentryRobot.name=센트리
-entity.osirisBoss.name=언데드 파라오
-entity.alienVillagerAR.name=가스트로포드 주민
-entity.alienBug.name=핀서 벌레
-entity.GalacticraftAmunRa.Shuttle.name=우주 왕복선
-item.itemShuttle.name=우주 왕복선
-item.thermalSuit.name=온도조절 방어구 조각
-item.thermalSuit.thermalLevel.name=열 레벨: %s
-item.thermalSuit.helmet.name=온도조절 헬멧
-item.thermalSuit.chest.name=온도조절 상의
-item.thermalSuit.boots.name=온도조절 부츠
-item.thermalSuit.legs.name=온도조절 레깅스
 item.baseItem.thermalController.name=휴대용 온도조절기
 item.baseItem.tricorder.name=멀티 센서
 item.baseItem.tricorder.description=현재 위치한 차원의 특정 정보를 측량하고 표시해줍니다. 
@@ -226,6 +193,21 @@ item.baseItem.tricorder.message.daylength=낮 길이: %s
 item.baseItem.tricorder.message.unknown=알 수 없음
 item.baseItem.tricorder.message.unknownGas=알 수 없는 기체
 item.baseItem.tricorder.message.none=없음
+item.schematic.schematicShuttle.name=왕복선 설계도
+item.porcodonMeat.description=가솔린 비슷한 냄새가 납니다. 
+item.battery-lithium.name=리튬 배터리
+item.battery-quantum.name=양자 배터리
+item.battery-ender.name=고급 배터리
+item.battery-nuclear.name=원자력 배터리
+item.raygun.name=블래스터
+item.cryogun.name=동결 광선
+item.itemShuttle.name=우주 왕복선
+item.thermalSuit.name=온도조절 방어구 조각
+item.thermalSuit.thermalLevel.name=열 레벨: %s
+item.thermalSuit.helmet.name=온도조절 헬멧
+item.thermalSuit.chest.name=온도조절 상의
+item.thermalSuit.boots.name=온도조절 부츠
+item.thermalSuit.legs.name=온도조절 레깅스
 item.nanotool.name=나나이트 멀티툴
 item.nanotool.mode-prefix=모드
 item.nanotool.mode.workbench=제작
@@ -237,6 +219,13 @@ item.nanotool.mode.shovel=삽
 item.nanotool.mode.wrench=렌치
 item.battery-using-item.powerlevel=전력 소스
 
+entity.robotVillager.name=로봇 주민
+entity.porcodon.name=포코돈
+entity.sentryRobot.name=센트리
+entity.osirisBoss.name=언데드 파라오
+entity.alienVillagerAR.name=가스트로포드 주민
+entity.alienBug.name=핀서 벌레
+entity.GalacticraftAmunRa.Shuttle.name=우주 왕복선
 
 gas.argon.name=아르곤
 gas.helium.name=헬륨
@@ -250,6 +239,7 @@ profession.refinery.name=정제 유닛
 profession.ingotcompressor.name=금속 가공 유닛
 profession.circuitfabricator.name=회로 조립기
 profession.crafter.name=조합 유닛
+
 death.attack.wrongAtmoSuffocate=%1$s 이(가) 잘못된 대기 구성으로 인해 질식했습니다.
 death.attack.fallOffMothership=%1$s 은(는) 생각하는 것을 그만두었습니다.
 death.attack.fallOffMothershipIntoPlanet=%1$s 이(가) %2$s 에 충돌했습니다.
@@ -257,7 +247,6 @@ death.attack.killedByEngine=%1$s 이(가) 모선 엔진에 의해 죽었습니�
 death.attack.ar_laser=%1$s 이(가) 광선총에 맞았습니다.
 death.attack.ar_heatray=%1$s 이(가) 증발했습니다.
 death.attack.ar_coldray=%1$s 이(가) 얼어붙었습니다.
-itemGroup.AmunRaTab=아문-라
 
 gui.message.canCreateMothership.name=이곳은 모선 건설이 가능합니다!
 gui.message.tooManyMotherships.name=더이상의 모선을 생성할수 없습니다!
@@ -305,12 +294,6 @@ gui.checkbox.show_visual_guide=Show Area
 gui.checkbox.invert_force=Upwards
 gui.message.force.strength=Strength
 gui.message.energy_usage=Energy Usage
-
-
-info.message.celestialbodysearch.none=No celestial bodies matching '%s' found
-info.message.celestialbodysearch.some=Found %s celestial bodies matching '%s':
-
-
 gui.message.misc.generalErrorCaption=에러
 gui.message.misc.planet=행성
 gui.message.misc.star=별
@@ -323,6 +306,16 @@ gui.message.misc.yes=예
 gui.message.misc.no=아니오
 gui.message.misc.unit.ticks=틱
 
+gui.title.gravity=Artificial Gravity Generator
+gui.title.isotopeGeneratorBasic=Radioisotope Generator
+gui.title.isotopeGeneratorAdvanced=Advanced Radioisotope Generator
+gui.title.mothershipEngineIon=Ion Thruster
+gui.title.hydroponics=Hydroponics Unit
+gui.title.aluChest=Aluminum Chest
+gui.title.steelChest=Steel Chest
+gui.title.shuttleDock=Shuttle Dock
+
+info.message.celestialbodysearch.none=No celestial bodies matching '%s' found
+info.message.celestialbodysearch.some=Found %s celestial bodies matching '%s':
 
 mothership.default.name=모선 %s
-
