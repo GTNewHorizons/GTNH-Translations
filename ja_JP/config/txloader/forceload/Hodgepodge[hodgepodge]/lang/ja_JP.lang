@@ -26,7 +26,7 @@ commands.time.usageWithGet=/time <set|add> <value> または /time get
 
 hodgepodge.soundsmenu.refreshsounds=サウンドをリフレッシュ
 hodgepodge.bed_respawn.msg=リスポーン地点を設定しました
-hodgepodge.menu.mod_options=Mod Options...
+hodgepodge.menu.mod_options=Mod設定...
 
 bettermodlist.sort.normal=通常
 bettermodlist.sort.a_to_z=A-Z
@@ -34,36 +34,36 @@ bettermodlist.sort.z_to_a=Z-A
 bettermodlist.gui.modlistinfo1=なんてこった！何もかもが違う！
 bettermodlist.gui.modlistinfo2=新しいレイアウトの提供元 :
 
-hodgepodge.debug.advanced_tooltips.enabled=Advanced Item Tooltips: §aOn
-hodgepodge.debug.advanced_tooltips.disabled=Advanced Item Tooltips: §cOff
-hodgepodge.debug.hitboxes.enabled=Hitboxes: §aOn
-hodgepodge.debug.hitboxes.disabled=Hitboxes: §cOff
-hodgepodge.debug.pause_focus.enabled=Pause on lost focus: §aOn
-hodgepodge.debug.pause_focus.disabled=Pause on lost focus: §cOff
-hodgepodge.debug.reload_chunks.message=Reloaded all chunks.
-hodgepodge.debug.reload_pack.message=Reloaded resource packs in %s seconds.
-hodgepodge.debug.crash.count.0=F3 + C is held down. This will crash the game in 6 seconds unless released.
-hodgepodge.debug.crash.count.1=Crashing in 5...
-hodgepodge.debug.crash.count.2=Crashing in 4...
-hodgepodge.debug.crash.count.3=Crashing in 3...
-hodgepodge.debug.crash.count.4=Crashing in 2...
-hodgepodge.debug.crash.count.5=Crashing in 1...
-hodgepodge.debug.crash.count.6=Time is over, game will crash when release ANY key.
-hodgepodge.debug.crash.cancel=Crash canceled.
-hodgepodge.debug.copy_location.message=Copied location to clipboard.
+hodgepodge.debug.advanced_tooltips.enabled=高度な情報: §a表示
+hodgepodge.debug.advanced_tooltips.disabled=高度な情報: §c非表示
+hodgepodge.debug.hitboxes.enabled=当たり判定: §a表示
+hodgepodge.debug.hitboxes.disabled=当たり判定: §c非表示
+hodgepodge.debug.pause_focus.enabled=フォーカスが外れた時にポーズ: §aオン
+hodgepodge.debug.pause_focus.disabled=フォーカスが外れた時にポーズ: §cオフ
+hodgepodge.debug.reload_chunks.message=すべてのチャンクを再読み込みしました。
+hodgepodge.debug.reload_pack.message=リソースパックを%s秒で再読み込みしました。
+hodgepodge.debug.crash.count.0=F3 + Cを押下しています。解除しない場合、ゲームは6秒後にクラッシュします。
+hodgepodge.debug.crash.count.1=クラッシュまで5秒...
+hodgepodge.debug.crash.count.2=クラッシュまで4秒...
+hodgepodge.debug.crash.count.3=クラッシュまで3秒...
+hodgepodge.debug.crash.count.4=クラッシュまで2秒...
+hodgepodge.debug.crash.count.5=クラッシュまで1秒...
+hodgepodge.debug.crash.count.6=6秒経ちました。任意のキーを離すとゲームがクラッシュします。
+hodgepodge.debug.crash.cancel=クラッシュがキャンセルされました。
+hodgepodge.debug.copy_location.message=クリップボードに座標をコピーしました。
 
-hodgepodge.debug.help.message=Key bindings:
-hodgepodge.debug.help.0=F3 = Open Debug Screen
-hodgepodge.debug.help.1=Shift + F3 = Open Debug Screen and show Profiler graph
-hodgepodge.debug.help.angelica=Alt + F3 = [Angelica] Open Debug Screen and show FPS/TPS graph
-hodgepodge.debug.help.2=F3 + A = Reload chunks
-hodgepodge.debug.help.3=F3 + B = Show hitboxes
-hodgepodge.debug.help.4=F3 + C = Copy location as /cofh tpx command, or hold for 6 seconds to crash the game
-hodgepodge.debug.help.5=F3 + D = [Hodgepodge] Clear chat
-hodgepodge.debug.help.6=F3 + H = Advanced tooltips
-hodgepodge.debug.help.7=F3 + P = Pause on lost focus
-hodgepodge.debug.help.8=F3 + Q = [Hodgepodge] Show this list
-hodgepodge.debug.help.9=F3 + S/T = Reload resource packs
-hodgepodge.debug.help.etfuturum=F3 + F4 = [Et-Futurum-Requiem] Open game mode switcher
-hodgepodge.debug.help.nei.1=%s = [NEI] Open Mob Spawning Overlay
-hodgepodge.debug.help.nei.2=%s = [NEI] Open Chunk Overlay
+hodgepodge.debug.help.message=キー割り当て:
+hodgepodge.debug.help.0=F3 = デバッグ画面を開く
+hodgepodge.debug.help.1=Shift + F3 = デバック画面とプロファイラグラフを開く
+hodgepodge.debug.help.angelica=Alt + F3 = [Angelica] デバック画面とFPS/TPSグラフを開く
+hodgepodge.debug.help.2=F3 + A = チャンクを再読み込みする
+hodgepodge.debug.help.3=F3 + B = 当たり判定を表示する
+hodgepodge.debug.help.4=F3 + C = /cofh tpxコマンドと同様に座標をコピーする、または6秒間押し続けてゲームをクラッシュさせる
+hodgepodge.debug.help.5=F3 + D = [Hodgepodge] チャットを消去する
+hodgepodge.debug.help.6=F3 + H = 高度な情報
+hodgepodge.debug.help.7=F3 + P = フォーカスが外れた時にゲームを一時停止する
+hodgepodge.debug.help.8=F3 + Q = [Hodgepodge] このリストを表示する
+hodgepodge.debug.help.9=F3 + S/T = リソースパックを再読み込みする
+hodgepodge.debug.help.etfuturum=F3 + F4 = [Et-Futurum-Requiem] ゲームモードを切り替える
+hodgepodge.debug.help.nei.1=%s = [NEI] スポーンチェッカーを表示する
+hodgepodge.debug.help.nei.2=%s = [NEI] チャンクオーバーレイを表示する
