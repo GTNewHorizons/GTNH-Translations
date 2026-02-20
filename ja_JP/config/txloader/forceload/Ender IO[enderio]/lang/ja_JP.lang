@@ -47,33 +47,33 @@ enderio.itemPowerConduitEndergyEnergeticSilver.name=エナジェティックシ�
 enderio.itemPowerConduitEndergyCrystalline.name=結晶質合金製エネルギー導管
 enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=結晶質ピンクスライム製エネルギー導管
 enderio.itemPowerConduitEndergyMelodic.name=メロディー合金製エネルギー導管
-enderio.itemPowerConduitEndergyStellar.name=星合金製エネルギー導管
+enderio.itemPowerConduitEndergyStellar.name=ステラー合金製エネルギー導管
 
 item.itemRedstoneConduit.name=レッドストーン導管
 enderio.itemRedstoneConduit.name=レッドストーン導管
 enderio.itemRedstoneConduitSwitch.name=導管スイッチ
 enderio.itemRedstoneConduitInsulated.name=絶縁レッドストーン導管
 
-item.itemLiquidConduit.name=液体導管
-enderio.itemLiquidConduit.name=液体導管
-enderio.itemLiquidConduitAdvanced.name=加圧液体導管
-enderio.itemLiquidConduitEnder.name=エンダー液体導管
-enderio.itemLiquidConduitCrystallineEnder.name=結晶質合金製エンダー液体導管
-enderio.itemLiquidConduitCrystallinePinkSlimeEnder.name=結晶質ピンクスライム製エンダー液体導管
-enderio.itemLiquidConduitMelodicEnder.name=メロディー合金製エンダー液体導管
-enderio.itemLiquidConduitStellarEnder.name=星合金製エンダー液体導管
-enderio.itemLiquidConduit.lockedType=以下の液体のみを輸送可能にしました
-enderio.itemLiquidConduit.unlockedType=輸送可能な液体の設定を解除しました
-enderio.itemLiquidConduit.lockedWaila=輸送可能な液体: 
+item.itemLiquidConduit.name=流体導管
+enderio.itemLiquidConduit.name=流体導管
+enderio.itemLiquidConduitAdvanced.name=加圧流体導管
+enderio.itemLiquidConduitEnder.name=エンダー流体導管
+enderio.itemLiquidConduitCrystallineEnder.name=結晶質合金製エンダー流体導管
+enderio.itemLiquidConduitCrystallinePinkSlimeEnder.name=結晶質ピンクスライム製エンダー流体導管
+enderio.itemLiquidConduitMelodicEnder.name=メロディー合金製エンダー流体導管
+enderio.itemLiquidConduitStellarEnder.name=ステラー合金製エンダー流体導管
+enderio.itemLiquidConduit.lockedType=以下の流体のみを輸送可能にしました
+enderio.itemLiquidConduit.unlockedType=輸送可能な流体の設定を解除しました
+enderio.itemLiquidConduit.lockedWaila=輸送可能な流体: 
 
 enderio.itemLiquidConduit.tooltip.maxExtract=最大搬出量 :
 enderio.itemLiquidConduit.tooltip.maxIo=最大輸送量 :
-enderio.itemLiquidConduit.tooltip.detailed.line1=液体は重力の影響を受ける
-enderio.itemLiquidConduit.tooltip.detailed.line2=液体の粘度によって流れる速度が
+enderio.itemLiquidConduit.tooltip.detailed.line1=流体は重力の影響を受ける
+enderio.itemLiquidConduit.tooltip.detailed.line2=流体の粘度によって流れる速度が
 enderio.itemLiquidConduit.tooltip.detailed.line3=変化する
 
-enderio.itemLiquidConduitEnder.tooltip.detailed.line1=液体を瞬時に転送させる
-enderio.itemLiquidConduitEnder.tooltip.detailed.line2=複数の液体を1つの導管で
+enderio.itemLiquidConduitEnder.tooltip.detailed.line1=流体を瞬時に転送させる
+enderio.itemLiquidConduitEnder.tooltip.detailed.line2=複数の流体を1つの導管で
 enderio.itemLiquidConduitEnder.tooltip.detailed.line3=輸送できる
 
 item.itemItemConduit.name=アイテム導管
@@ -367,7 +367,7 @@ enderio.activatedCapacitor.name=二重コンデンサー
 enderio.enderCapacitor.name=八重コンデンサー
 enderio.crystallineCapacitor.name=結晶質合金製コンデンサー
 enderio.melodicCapacitor.name=メロディー合金製コンデンサー
-enderio.stellarCapacitor.name=星合金製コンデンサー
+enderio.stellarCapacitor.name=ステラー合金製コンデンサー
 enderio.silverCapacitor.name=銀製コンデンサー
 enderio.endergeticCapacitor.name=エンダージェティックコンデンサー
 enderio.endergisedCapacitor.name=エンダージャイズドコンデンサー
@@ -482,7 +482,7 @@ tile.blockHyperCube.tooltip.detailed.line2=アップグレードできる
 
 tile.blockTransceiver.name=ディメンショナルトランシーバー
 tile.blockTransceiver.tooltip.detailed.line1=ディメンションを超えて
-tile.blockTransceiver.tooltip.detailed.line2=遠方にアイテムや液体、
+tile.blockTransceiver.tooltip.detailed.line2=遠方にアイテムや流体、
 tile.blockTransceiver.tooltip.detailed.line3=電気を無線で転送できる
 
 tile.blockEnderRail.name=エンダーレール
@@ -497,7 +497,7 @@ enderio.trans.showChannels=<Shiftを押してチャンネルを表示>
 
 enderio.trans.power=電気
 enderio.trans.item=アイテム
-enderio.trans.fluid=液体
+enderio.trans.fluid=流体
 enderio.trans.rail=レール
 
 enderio.trans.receiving=受信
@@ -512,7 +512,7 @@ tile.blockPowerMonitor.tooltip.detailed.line5=EnderIOの導管で接続する
 tile.blockPowerMonitor.tooltip.detailed.line6=必要がある
 
 tile.blockVat.name=醸造桶
-tile.blockVat.tooltip.detailed.line1=EnderIOの液体の醸造に使用できる
+tile.blockVat.tooltip.detailed.line1=EnderIOの流体の醸造に使用できる
 
 tile.blockEnchanter.name=エンチャンター
 tile.blockEnchanter.tooltip.detailed.line1=経験値を消費してアイテムと
@@ -544,7 +544,7 @@ tile.blockKillerJoe.name=キラージョー
 tile.blockKillerJoe.tooltip.detailed.line1=栄養蒸留液と剣を
 tile.blockKillerJoe.tooltip.detailed.line2=供給すると近くの
 tile.blockKillerJoe.tooltip.detailed.line3=生物を攻撃する
-tile.blockKillerJoe.tooltip.detailed.line4=経験値は液体導管で
+tile.blockKillerJoe.tooltip.detailed.line4=経験値は流体導管で
 tile.blockKillerJoe.tooltip.detailed.line5=液体経験値として排出できる
 
 enderio.killerJoe.fuelTank=栄養蒸留液タンク
@@ -571,14 +571,14 @@ enderio.farm.note.noHoe=クワがありません
 enderio.farm.note.noPower=電気が足りません
 enderio.farm.gui.baseUse=使用量 :
 
-tile.blockTank.name=液体タンク
-tile.blockTank.advanced.name=加圧液体タンク
-tile.blockTank.tooltip.detailed.line1=持ち運び可能な液体タンク
-tile.blockTank.tooltip.detailed.line2=他の液体容器に中身を
+tile.blockTank.name=流体タンク
+tile.blockTank.advanced.name=加圧流体タンク
+tile.blockTank.tooltip.detailed.line1=持ち運び可能な流体タンク
+tile.blockTank.tooltip.detailed.line2=他の流体容器に中身を
 tile.blockTank.tooltip.detailed.line3=移すことができる
 enderio.tank.tank=タンク
 enderio.tooltip.none=なし
-enderio.tooltip.fluidStored=貯蔵している液体
+enderio.tooltip.fluidStored=貯蔵している流体
 
 enderio.gui.tooltip.voidslot=廃棄スロット
 enderio.gui.void.mode=廃棄モード
@@ -587,7 +587,7 @@ enderio.gui.void.mode.always=常時
 enderio.gui.void.mode.always.desc=スロットに置いたアイテムをすべて廃棄
 
 enderio.gui.void.mode.if_not_container=タンク以外
-enderio.gui.void.mode.if_not_container.desc=スロットに置いた、液体を格納できるアイテム以外をすべて廃棄
+enderio.gui.void.mode.if_not_container.desc=スロットに置いた、流体を格納できるアイテム以外をすべて廃棄
 
 enderio.gui.void.mode.never=無効
 enderio.gui.void.mode.never.desc=廃棄スロットへの配置が不可
@@ -637,7 +637,7 @@ tile.blockExperienceObelisk.tooltip.detailed.line3=排出できる
 
 tile.blockWeatherObelisk.name=天候のオベリスク
 tile.blockWeatherObelisk.tooltip.detailed.line1=現在の天候を変更する
-tile.blockWeatherObelisk.tooltip.detailed.line2=ロケット花火と以下の液体のうち
+tile.blockWeatherObelisk.tooltip.detailed.line2=ロケット花火と以下の流体のうち
 tile.blockWeatherObelisk.tooltip.detailed.line3=1種類を消費する:
 tile.blockWeatherObelisk.tooltip.detailed.line4=Liquid Sunshine: Sun
 tile.blockWeatherObelisk.tooltip.detailed.line5=Cloud Seed: Rain
@@ -822,7 +822,7 @@ item.enderio.itemConduitProbe.tooltip.detailed.line6=Shift中マウスホイー�
 
 item.itemSoulVessel.name=魂の小瓶
 enderio.item.itemSoulVessel.tooltip.health=体力 :
-enderio.item.itemSoulVessel.tooltip.fluidname=液体名 :
+enderio.item.itemSoulVessel.tooltip.fluidname=流体名:
 enderio.item.itemSoulVessel.tooltip.color=色 :
 enderio.item.itemSoulVessel.tooltip.empty=空
 item.itemSoulVessel.tooltip.detailed.line1=mobに向かって右クリックして
@@ -830,9 +830,9 @@ item.itemSoulVessel.tooltip.detailed.line2=魂を捕獲する
 item.itemSoulVessel.tooltip.detailed.line3=もう一度右クリックして解き放つ
 
 item.itemXpTransfer.name=経験の棒
-item.itemXpTransfer.tooltip.detailed.line1=液体経験値が入っている液体タンクに
+item.itemXpTransfer.tooltip.detailed.line1=液体経験値が入っている流体タンクに
 item.itemXpTransfer.tooltip.detailed.line2=右クリックして、経験値として入手する
-item.itemXpTransfer.tooltip.detailed.line3=液体タンクにShift右クリックして
+item.itemXpTransfer.tooltip.detailed.line3=流体タンクにShift+右クリックして
 item.itemXpTransfer.tooltip.detailed.line4=経験値をタンクに貯める
 
 item.itemFrankenSkull.name=Zombie Electrode
@@ -866,13 +866,13 @@ item.endSteel_pickaxe.name=エンドスチールのツルハシ
 item.endSteel_axe.name=エンドスチールの斧
 
 #Stellar
-item.stellar_helmet.name=星合金のヘルメット
-item.stellar_chestplate.name=星合金のチェスト
-item.stellar_leggings.name=星合金のレギンス
-item.stellar_boots.name=星合金のブーツ
+item.stellar_helmet.name=ステラー合金のヘルメット
+item.stellar_chestplate.name=ステラー合金のチェストプレート
+item.stellar_leggings.name=ステラー合金のレギンス
+item.stellar_boots.name=ステラー合金のブーツ
 item.stellar_sword.name=ジ・エンダー MK-Ⅳ
 item.stellar_pickaxe.name=ステラー合金のツルハシ
-item.stellar_axe.name=星合金の斧
+item.stellar_axe.name=ステラー合金の斧
 
 enderio.item.darkSteel.tooltip.lvs=レベル
 
@@ -1157,7 +1157,7 @@ enderio.gui.trans.addChannel=チャンネルを追加
 enderio.gui.trans.deleteChannel=チャンネルを削除
 enderio.gui.trans.activateChannel=チャンネルを稼働
 enderio.gui.trans.powerMode=電気モード
-enderio.gui.trans.fluidMode=液体モード
+enderio.gui.trans.fluidMode=流体モード
 enderio.gui.trans.itemMode=アイテムモード
 enderio.gui.trans.publicHeading=公開
 enderio.gui.trans.privateHeading=非公開
@@ -1272,7 +1272,7 @@ enderio.gui.soul_filter_big=大容量ソウルアイテムフィルター
 enderio.gui.enchantment_filter_normal=エンチャントアイテムフィルター
 enderio.gui.enchantment_filter_big=大容量エンチャントアイテムフィルター
 
-enderio.gui.fluid_filter=基本液体フィルター
+enderio.gui.fluid_filter=基本流体フィルター
 
 enderio.gui.redstone_filter.and=レッドストーンANDフィルター
 enderio.gui.redstone_filter.or=レッドストーンORフィルター
@@ -1361,7 +1361,7 @@ enderio.gui.conduit.gas.autoExtract=自動搬出
 enderio.gui.weather.task.clear=晴天
 enderio.gui.weather.task.rain=降雨
 enderio.gui.weather.task.storm=雷雨
-enderio.gui.weather.requiredfluid=必要な液体: %smB
+enderio.gui.weather.requiredfluid=必要な流体: %smB
 enderio.weatherObelisk.fuelTank=気圧変化剤タンク
 
 #Enchants
@@ -1407,7 +1407,7 @@ enderio.config.advanced.tooltip=これらの設定では物足りない方向け
 enderio.config.magnet=磁石の設定
 enderio.config.magnet.tooltip=どういう原理で動いているんだ？
 
-enderio.config.fluid=液体設定
+enderio.config.fluid=流体設定
 enderio.config.fluid.tooltip=純粋な液体エネルギー！
 
 enderio.config.spawner=電動スポナーの設定

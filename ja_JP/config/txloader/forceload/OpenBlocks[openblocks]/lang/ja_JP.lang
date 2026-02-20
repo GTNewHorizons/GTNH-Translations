@@ -31,7 +31,7 @@ openblocks.gui.xpbottler=経験値瓶詰器
 openblocks.gui.autoanvil=自動金床
 openblocks.gui.autoeject=アイテムの自動搬出
 openblocks.gui.autoextract=アイテムの自動搬入
-openblocks.gui.autodrink=液体の自動搬入
+openblocks.gui.autodrink=流体の自動搬入
 openblocks.gui.autoenchantmenttable=自動エンチャントテーブル
 openblocks.gui.donationstation=寄付ステーション
 openblocks.gui.itemdropper=アイテムドロッパー
@@ -197,7 +197,7 @@ tile.openblocks.ladder.description=§8《§rはしご付きトラップドア§8
 
 tile.openblocks.tank.filled.name=%s入りタンク
 tile.openblocks.tank.name=タンク
-tile.openblocks.tank.description=§4[注: GTNHにより無効化]§r §8《§rタンク§8／Tank》§r は標準的な液体タンクで、液体を保持したまま回収が可能です。\nタンクは隣接したタンク同士と接続し、液体容量を結合します。 §8《§r液体経験値§8／Liquid XP》§r を保持したタンクに対して右クリックを行うと、自身の経験値レベルとして回収できます。
+tile.openblocks.tank.description=§4[注: GTNHにより無効化]§r §8《§rタンク§8／Tank》§r は標準的な流体タンクで、流体を保持したまま回収が可能です。\nタンクは隣接したタンク同士と接続し、流体容量を結合します。 §8《§r液体経験値§8／Liquid XP》§r を保持したタンクに対して右クリックを行うと、自身の経験値レベルとして回収できます。
 
 tile.openblocks.flag.name=旗
 tile.openblocks.flag.description=§8《§r旗§8／Flag》§r はシンプルな装飾品です。洞窟の帰り道を示す目印などに利用すると便利です。\n向きを傾けたり、壁に設置することもできます。Shift+右クリックで色を変更できます。
@@ -206,10 +206,10 @@ tile.openblocks.beartrap.name=トラバサミ
 tile.openblocks.beartrap.description=§8《§rトラバサミ§8／Bear Trap》§r は効果的な罠です！\n上を通ろうとしたMobを拘束し、移動を封じます！
 
 tile.openblocks.sponge.name=スポンジ
-tile.openblocks.sponge.description=§8《§rスポンジ§8／Sponge》§r はバニラのスポンジのように機能するブロックです。\n設置すると半径3ブロックの液体源を消去します。溶岩を吸収したスポンジは燃え尽きてしまうこと、液体源が大きすぎると扱いにくいことに注意してください。
+tile.openblocks.sponge.description=§8《§rスポンジ§8／Sponge》§r はバニラのスポンジのように機能するブロックです。\n設置すると半径3ブロックの流体源を消去します。溶岩を吸収したスポンジは燃え尽きてしまうこと、流体源が大きすぎると扱いにくいことに注意してください。
 
 item.openblocks.spongeonastick.name=スポンジブラシ
-item.openblocks.spongeonastick.description=§8《§rスポンジブラシ§8／Sponge》§r は右クリックで周囲の液体源を消去できるツールです。\n単なる §8《§rスポンジ§8／Sponge》§r のアイテム版ですが、設置の手間を省き連続で使用できます。耐久値を消費すること、溶岩を消去すると使用者が燃えることに注意してください。
+item.openblocks.spongeonastick.description=§8《§rスポンジブラシ§8／Sponge》§r は右クリックで周囲の流体源を消去できるツールです。\n単なる §8《§rスポンジ§8／Sponge》§r のアイテム版ですが、設置の手間を省き連続で使用できます。耐久値を消費すること、溶岩を消去すると使用者が燃えることに注意してください。
 
 item.openblocks.epic_eraser.name=すごい消しゴム
 item.openblocks.epic_eraser.description=§4[注: 正しく動作していません]§r 全てのアイテムには歴史がある...。\n不満に思っていますか？\n§8《§rすごい消しゴム§8／Epic Eraser》§r を使えば、アイテムのNBTタグを消去し、戦利品が長年を掛けて蓄積してきた壮大な伝承の痕跡を洗い去り、証拠を気にすることなく闇市で売れるようになります。(注:GT++の §8《§rネームリムーバー§8／Name Remover》§r を使用してください)
@@ -292,7 +292,7 @@ tile.openblocks.radio.name=ラジオ
 tile.openblocks.radio.description=§4[注: 未実装]§r §8《§rラジオ§8／Radio》§r はインターネットラジオをストリーミングできる設備です！\n稼働するにはまず、ダンジョンのチェストや村人との取引から §8《§rチューニングクリスタル§8／Tuned Crystal》§r を入手します。クリスタルをラジオにセットし、レッドストーン信号で起動します。レッドストーン信号の強度に応じて音量が増減します。\n再生するラジオ局はサーバーのconfigファイルから設定します。
 
 tile.openblocks.xpshower.name=経験値シャワー
-tile.openblocks.xpshower.description=§8《§r経験値シャワー§8／XP Shower》§r は §8《§r液体経験値§8／Liquid XP》§r を経験値オーブへ変換する設備です。\n液体タンクの側面に取り付けて使用します。経験値オーブはプレイヤーや §8《§r経験値ドレイン§8／XP Drain》§r 、 §8《§rバキュームホッパー§8／Vacuum Hopper》§r で収集が行えます。
+tile.openblocks.xpshower.description=§8《§r経験値シャワー§8／XP Shower》§r は §8《§r液体経験値§8／Liquid XP》§r を経験値オーブへ変換する設備です。\n流体タンクの側面に取り付けて使用します。経験値オーブはプレイヤーや §8《§r経験値ドレイン§8／XP Drain》§r 、 §8《§rバキュームホッパー§8／Vacuum Hopper》§r で収集が行えます。
 
 tile.openblocks.scaffolding.name=木の足場
 tile.openblocks.scaffolding.description=見栄えの悪い塔を残さずに、高所で作業を行いたいと思ったことはありませんか？\n§8《§r木の足場§8／Scaffolding》§r を使いましょう！設置された足場は時間経過でアイテム化し、痕跡を残しません。

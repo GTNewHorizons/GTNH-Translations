@@ -1685,10 +1685,10 @@ item.itemDustSmallUN32Fertiliser.name=小さなUN-32肥料の粉
 item.itemDustTinyUN32Fertiliser.name=とても小さなUN-32肥料の粉
 item.itemCustomMetaCover.miscutils.GtMachineCasings=%s機械プレートカバー
 item.itemCustomMetaCover.miscutils.GtMachineCasings.name=機械プレートカバー
-item.itemGregtechPump.tooltip.0=その他通常の液体コンテナブロックからは液体を吸い取れません
+item.itemGregtechPump.tooltip.0=その他通常の流体コンテナブロックからは流体を吸い取れません
 item.itemGregtechPump.tooltip.1=右クリックでは空にできません。GUI付きタンクの内部で使用してください
-item.itemGregtechPump.tooltip.2=技術的にはただの豪華な液体セル
-item.itemGregtechPump.tooltip.3=液体はありません
+item.itemGregtechPump.tooltip.2=技術的にはただの豪華な流体セル
+item.itemGregtechPump.tooltip.3=流体はありません
 item.itemBaseEuItem.tooltip.0=§e電動
 item.itemBaseEuItem.tooltip.1=蓄電量: %s EU  Tier: %d
 item.itemBaseEuItem.tooltip.2=空です。適切にリサイクルしましょう。
@@ -2279,7 +2279,7 @@ tile.blockWorkbenchGTAdvanced.name=発展型作業台
 tile.blockHeliumGenerator.name=Helium Generator
 tile.blockFirePit.name=ファイヤーピット
 tile.blockFishTrap.name=補強型魚用かご網
-tile.blockInfiniteFluidTank.name=無限液体タンク
+tile.blockInfiniteFluidTank.name=無限流体タンク
 tile.blockMiningExplosives.name=掘削用爆弾
 tile.blockHellFire.name=地獄の火
 tile.blockTradeBench.name=交易テーブル
@@ -3930,7 +3930,7 @@ item.BasicGenericChemItem.14.name=固体酸触媒
 item.BasicGenericChemItem.15.name=インフィニティ突然変異触媒
 
 # Added 23/10/22
-miscutils.machines.QFTFluidMode=量子フォース変換装置液体出力モード
+miscutils.machines.QFTFluidMode=量子フォース変換装置流体出力モード
 
 # Added 16/11/22
 item.BasicGenericChemItem.16.name=白金族触媒
@@ -4064,7 +4064,7 @@ gtpp.infodata.solar_heater.testificate=証明書
 gtpp.infodata.energy_buffer.eu_stored=%s EUを蓄電中
 gtpp.infodata.energy_buffer.eu_capacity=%s EUを蓄電可能
 gtpp.infodata.tiered_chest.name=スーパーストレージチェスト
-gtpp.infodata.tiered_tank.name=%s液体タンク
+gtpp.infodata.tiered_tank.name=%s流体タンク
 
 # GUI
 gtpp.gui.text.time_since_built=建設からの総時間
@@ -4087,7 +4087,7 @@ gtpp.gui.text.power_sub_station.power_loss=電力減衰: %s EU/t
 gtpp.gui.text.power_sub_station.running_perfectly=動作は完璧です
 gtpp.gui.text.power_sub_station.turn_on_with_mallet=マレットで起動
 gtpp.gui.atmospheric_reconditioner.tooltip.reduction=減少量: %s/秒
-gtpp.gui.crop_harvestor.tooltip.water=水: %sL / %sL
+gtpp.gui.crop_harvestor.tooltip.water=水: %smB / %smB
 
 gtpp.gui.multiblock.progress.text=進捗: %s 秒 / %s 秒
 gtpp.gui.multiblock.eu_t_p.text=%s EU/t/実行中処理

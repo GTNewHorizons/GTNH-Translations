@@ -1,41 +1,41 @@
 # MISC
 itemGroup.ThaumicTinkerer=Thaumic Tinkerer
-ttmisc.connector.set=Location Set!
+ttmisc.connector.set=位置を設定！
 ttmisc.keyCategory=Thaumic Tinkerer
 ttmisc.connector.complete=紐づけ完了！
 ttmisc.connector.notinterf=トランスベクターブロックではありません。
-ttmisc.connector.interffail=Can't bind a Transvector Interface to another.
-ttmisc.connector.dislfail=Can't bind a Transvector Dislocator to another.
-ttmisc.connector.notpresent=The Transvector Block isn't present.
-ttmisc.connector.toofar=The Transvector Block of origin is too far away.
+ttmisc.connector.interffail=他のトランスベクターインターフェースには紐づけできません。
+ttmisc.connector.dislfail=他のトランスベクターディスロケーターには紐づけできません。
+ttmisc.connector.notpresent=トランスベクターブロックがありません。
+ttmisc.connector.toofar=起点となるトランスベクターブロックが遠すぎます。
 ttmisc.golemconnector.set=Connector Set!
 ttmisc.golemconnector.complete=紐づけ完了！
 ttmisc.golemconnector.notinterf=The connector is not linked to a Golem Connector Block
 ttmisc.golemconnector.notpresent=The Golem Connector Block isn't present.
 ttmisc.leftClick=左クリック
 ttmisc.rightClick=右クリック
-ttmisc.redstoneControl=Redstone Control
-ttmisc.animationTablet.notRotatable=You can not rotate the Tablet while it's activated.
-ttmisc.bloodSword.activateEssentiaHarvest=Activated Essentia Harvesting
-ttmisc.bloodSword.deactivateEssentiaHarvest=Deactivated Essentia Harvesting
-ttmisc.focusDislocation.tooltip=Currently Dislocating
-ttmisc.focusDislocation.tooltipExtra=Extra Contents
+ttmisc.redstoneControl=レッドストーン制御
+ttmisc.animationTablet.notRotatable=動作中のタブレットは回転できません。
+ttmisc.bloodSword.activateEssentiaHarvest=エッセンシア狩りを有効化
+ttmisc.bloodSword.deactivateEssentiaHarvest=エッセンシア狩りを無効化
+ttmisc.focusDislocation.tooltip=転移中
+ttmisc.focusDislocation.tooltipExtra=追加コストあり
 ttmisc.inactive=無効
 ttmisc.active=有効
-ttmisc.soulMould.nonAssigned=No Pattern
-ttmisc.soulMould.pattern=Current Pattern: %s
+ttmisc.soulMould.nonAssigned=パターンなし
+ttmisc.soulMould.pattern=現在のパターン: %s
 ttmisc.all=全て
 ttmisc.none=なし
 ttmisc.child=幼体
 ttmisc.adult=成体
-ttmisc.baseCost=Base Cost
+ttmisc.baseCost=基本コスト
 ttmisc.clickToRemove=クリックで削除
 ttmisc.startEnchant=エンチャントを開始
 ttmisc.full=満杯
 ttmisc.notAbsorbing=Not Absorbing
 ttmisc.absorbing=Absorbing
 ttmisc.shareTome.write=研究の書き込み完了！
-ttmisc.shareTome.notOnline=The player who this research belongs to is not online.
+ttmisc.shareTome.notOnline=この研究に紐づいたプレイヤーがオンラインではありません。
 ttmisc.shareTome.offlineshare=Offline share
 ttmisc.shareTome.sync=研究を獲得。
 ttmisc.shareTome.noAssign=空白
@@ -180,10 +180,10 @@ tile.dislocator.name=トランスベクターディスロケーター
 tile.repairer.name=神秘の修復器
 tile.aspectAnalyzer.name=アスペクタライザー
 tile.platform.name=天上のプラットフォーム
-tile.spawner.name=Tablet of Necromancy
+tile.spawner.name=死霊術のタブレット
 tile.bedrockPortal.name=岩盤ポータル
-tile.Levitational Locomotive.name=浮上式機関車
-tile.Levitational Locomotive Relay.name=浮上式機関車中継器
+tile.Levitational Locomotive.name=浮上式駆動装置
+tile.Levitational Locomotive Relay.name=浮上式駆動装置中継器
 tile.golemConnector.name=ゴーレム接続器
 tile.remotePlacer.name=遠隔設置器
 
@@ -244,7 +244,7 @@ ttresearch.page.SHARE_TOME.0=もしある日突然、世界中に自らの知識
 # -- TRANSVECTOR INTERFACE
 ttresearch.name.INTERFACE=トランスベクターインターフェース
 ttresearch.lore.INTERFACE=可能性の拡張
-ttresearch.page.INTERFACE.0="問題は、ブロックには6つしか面がないってこと..." - Direwolf20<BR><BR>常識は覆された！この新たな構造体は、付近にあるブロックに紐づけることができる。するとこのブロックの側面は指定したブロックの面を模倣し、拡張のように機能する。このブロックにはBuildCraft・TE3・IC2のエネルギー、エッセンシア、アイテム、液体を入力することが可能で、最後の2つに関しては出力も可能である。<BR>[続く]
+ttresearch.page.INTERFACE.0="問題は、ブロックには6つしか面がないってこと..." - Direwolf20<BR><BR>常識は覆された！この新たな構造体は、付近にあるブロックに紐づけることができる。するとこのブロックの側面は指定したブロックの面を模倣し、拡張のように機能する。このブロックにはBuildCraft・TE3・IC2のエネルギー、エッセンシア、アイテム、流体を入力することが可能で、最後の2つに関しては出力も可能である。<BR>[続く]
 ttresearch.page.INTERFACE.1=インターフェースをブロックに紐づけるには、特別なツールを作る必要がある。トランスベクター結合器と呼ばれるものがその役割を果たすはずだ。<BR><BR>インターフェースを右クリックした後で紐づけたい対象を右クリックするとこの2つは紐づけられ、準備完了となる。ただし距離の制限はたったの4ブロックと短い。(メモ:BuildCraftのパイプを使う場合、正しく機能させるにはパイプを再設置する必要がある。)
 ttresearch.page.INTERFACE.2=また、別のブロックで右クリックすることでカモフラージュも可能である。この"カバー"を取り除きたい場合、カモフラージュしたブロックを素手で右クリックすればいい。
 
@@ -422,53 +422,53 @@ ttresearch.page.FOCUS_ENDER_CHEST.0=魔法の鏡とポータブルホールの�
 ttresearch.page.FOCUS_ENDER_CHEST.ES=魔法の鏡とポータブルホールの杖星を組み合わせることで、エンダー次元の裂け目を作り出す杖星を構築した。これにより、エンダーチェストの中身に遠隔でアクセスすることができる。<BR>エンダーチェストにShift右クリックすると杖星がその色に設定される。または黒曜石にShift右クリックすると杖星はバニラのエンダーチェストに設定される。
 
 # -- CURSED SPIRIT'S BLADE
-ttresearch.name.BLOOD_SWORD=Cursed Spirit's Blade
-ttresearch.lore.BLOOD_SWORD=You're being unpleasant
-ttresearch.page.BLOOD_SWORD.0=You created a sword that strikes with unparalleled force. However, for this to be the case, the sword feeds on the striker's blood.<BR><BR>Upon damaging anything with this sword, the attacker will take one heart of damage. Blocking with this sword will always deal only 1.5 hearts, regardless of the original damage.<BR><BR>Furthermore, simply holding this sword gives the holder a steadfast aura, making them move faster than normal.
-ttresearch.page.BLOOD_SWORD.1=You have also discovered that the sword can reap the souls of mobs instead of normal drops. This ability is activated via a shift-right click. These souls are rich in essentia, but you suspect that they might have other uses.
+ttresearch.name.BLOOD_SWORD=呪われた魂の刃
+ttresearch.lore.BLOOD_SWORD=お前は不快だ
+ttresearch.page.BLOOD_SWORD.0=比類なき力で攻撃できる剣を生み出した。ただし、攻撃者の血を与えなければその力は発揮されないが。<BR><BR>この剣でダメージを与えたとき、攻撃者はハート1個分のダメージを受ける。またこの剣で攻撃をガードすると、元のダメージ量に関わらず常にハート1.5個分のダメージしか受けない。<BR><BR>さらに、この剣を持っているだけで所持者は揺るぎないオーラを放ち、通常よりも速く動けるようになる。
+ttresearch.page.BLOOD_SWORD.1=また、この剣はモブから通常のドロップの代わりに魂を刈り取ることができるとわかった。この能力はShift右クリックで活性化できる。この魂にはエッセンシアが豊富に含まれているが、他の使い道もあるかもしれない。
 
 # -- Mob Summoning
-ttresearch.name.SUMMON=Mob Summoning
-ttresearch.lore.SUMMON=Almost necromancy
-ttresearch.page.SUMMON.0=You are able to use the souls gained from a Cursed spirits blade in order to summon mobs. Place three pedestals around a Tablet of Necromancy. On the pedestals, place three soul aspects. Different types of soul aspects give different types of mobs. Every mob has a different composition.
-ttresearch.page.SUMMON.1=By creating Infused Soul Aspects, you are able to summon mobs without consuming Soul Aspects. Summoning using Infused Soul Aspects is much slower than normal.
+ttresearch.name.SUMMON=モブの召喚
+ttresearch.lore.SUMMON=ほぼ死霊術
+ttresearch.page.SUMMON.0=呪われた魂の刃から得られた魂はモブの召喚に使うことができる。まず死霊術のタブレットの周囲に3つの台座を設置する。その台座の上に魂のアスペクトを3つ置くのだ。魂のアスペクトの種類によって召喚されるモブの種類も変わる。すべてのモブはそれぞれ異なる組み合わせで召喚される。
+ttresearch.page.SUMMON.1=注入済みの魂のアスペクトを作ることで、魂のアスペクトを消費することなくモブの召喚を行うことができる。ただし注入済みの魂のアスペクトを使った召喚は通常よりもかなり遅い。
 
 # -- TRANSVECTOR DISLOCATOR
-ttresearch.name.DISLOCATOR=Transvector Dislocator
-ttresearch.lore.DISLOCATOR=No Blood Magic required
-ttresearch.page.DISLOCATOR.0=By studying motion, you managed to create a block that swaps two blocks in space.<BR><BR>This block acts like a Transvector Interface, where it must be bound to another location in space using a Transvector Binder, you can set the direction it's facing using a wand, and when a redstone signal is applied, the dislocator will swap the block in front of it with the block linked to using the binder. It also transports any and all entities in those areas.<BR><BR>It can be camouflaged similarly to the Transvector Interface. It has a longer range than it, 16 blocks.
+ttresearch.name.DISLOCATOR=トランスベクターディスロケーター
+ttresearch.lore.DISLOCATOR=Blood Magicいらず
+ttresearch.page.DISLOCATOR.0=動きについて研究することで、2つのブロックを入れ替えるブロックを生み出した。<BR><BR>このブロックはトランスベクターインターフェースのようにトランスベクター結合器で別の場所に紐づけて使う。向きは杖を使って変えることができる。そしてレッドストーン信号を入力すると、ディスロケーターは正面にあるブロックと結合器を使って紐づけたブロックとを入れ替える。また、その位置にいるすべてのエンティティを移動させることもできる。<BR><BR>トランスベクターインターフェースと同様、カモフラージュも可能である。ただし有効範囲はインターフェースよりも広く、16ブロックある。
 
 # -- HELMET OF REVEALING
-ttresearch.name.REVEALING_HELM=Helmet of Revealing
-ttresearch.lore.REVEALING_HELM=Low effort alternative
-ttresearch.page.REVEALING_HELM.0=As it turns out, goggles don't offer much protection from attacking zombies. You think you have a fix for that though. By strapping goggles of revealing onto a thaumium helmet, you can get the benefits of both. Well, it turns out it is a bit more complicated than that. A bit of magic is required to avoid feedback loops, and a bit of magic to keep them from slipping off, but on the whole, it more or less works.
+ttresearch.name.REVEALING_HELM=洞察のヘルメット
+ttresearch.lore.REVEALING_HELM=手抜きで作った代替品
+ttresearch.page.REVEALING_HELM.0=結局のところ、洞察の眼鏡はゾンビの攻撃に耐えうるほどの防御力も持ち合わせていない。しかしこれには改善策があると考えた。洞察の眼鏡を魔導金属のヘルメットに結び付けることで、その両方の恩恵も得られるのだ。ただし、現実はその考えよりも少し複雑だとわかった。フィードバックループを回避するための魔法と、剥離を防ぐための魔法が少し必要だ。しかし全体として見れば、だいたい機能する。
 
 # -- THAUMIC REHABILITATOR
-ttresearch.name.REPAIRER=Thaumic Restorer
-ttresearch.lore.REPAIRER=Undoing the damage you've done
-ttresearch.page.REPAIRER.0=You created a new contraption to restore broken tools. By right clicking this block with a broken tool and hooking it to essentia tubes, it'll gather essentia to repair the tool.<BR><BR>The essentia that will repair items is Instrumentum.<BR><BR>Looking at the block with goggles of revealing also shows how worn down the item in it still is. Redstone current will be emitted while an item is being repaired.
+ttresearch.name.REPAIRER=神秘の修復器
+ttresearch.lore.REPAIRER=与えた損害を元に戻す
+ttresearch.page.REPAIRER.0=壊れたツールを修復する新たな装置を生み出した。このブロックを壊れかけのツールで右クリックし、エッセンシア管を繋げることで、エッセンシアを集めてツールを修理する。<BR><BR>アイテムを修理するエッセンシアとは、Instrumentumだ。<BR><BR>洞察の眼鏡でこのブロックを見ることで、それまでに消費した耐久値を表示することもできる。また、アイテムを修理している間はレッドストーン信号を出力する。
 
 # -- WAND FOCUS: DISTORTION
-ttresearch.name.FOCUS_DEFLECT=Wand Focus: Distortion
-ttresearch.lore.FOCUS_DEFLECT=Turbulance shield
-ttresearch.page.FOCUS_DEFLECT.0=You created a focus to protect you from incoming fire.<BR><BR>This focus, when in use, will constantly drain vis from the wand it's inserted on, in order to summon a ward around the caster, making ordinary projectiles pass through them harmlessly.<BR><BR>Ordinary projectiles include arrows, snowballs or potions. It seems the ward is not strong enough to displace stronger attacks, like fireballs or wither heads.
+ttresearch.name.FOCUS_DEFLECT=歪曲の杖星
+ttresearch.lore.FOCUS_DEFLECT=乱流の盾
+ttresearch.page.FOCUS_DEFLECT.0=迫り来る攻撃から身を守るための杖星を作製した。<BR><BR>この杖星を使用すると、装着した杖からVisを吸収し、使用者の周囲に保護層を召喚する。これにより、たいていの飛び道具は使用者を通り抜け、無害になるのだ。<BR><BR>たいていの飛び道具というのは、矢、雪玉、ポーションを含む。この保護層は火球やウィザーの頭といった強力な攻撃を回避できるほど強くはないようだ。
 
 # -- LEVITATOR LOCOMOTIVE
-ttresearch.name.LEVITATOR_LOCOMOTIVE=Levitational Locomotive
-ttresearch.lore.LEVITATOR_LOCOMOTIVE=It moves to the left, it moves to the right.
-ttresearch.page.LEVITATOR_LOCOMOTIVE.0=You created a new contraption to move things back and forth. Two relays placed in a straight line will project a force beam between them. A visual effect will be shown if particles are enabled.<BR><BR> Place a Levitator inside that projected beam. The Levitator will be moved back and forth inside that beam, carrying the block on top of it.
+ttresearch.name.LEVITATOR_LOCOMOTIVE=浮上式駆動装置
+ttresearch.lore.LEVITATOR_LOCOMOTIVE=左に行ったり、右に行ったり。
+ttresearch.page.LEVITATOR_LOCOMOTIVE.0=物体を行ったり来たりさせる新たな装置を作製した。2つの中継器を直線上に設置すると、その間にビームが投射される。パーティクルの描画が有効になっていれば視覚効果で見えるはずだ。<BR><BR>その投射されたビームの中に駆動装置を設置する。すると駆動装置は上面にあるブロックとともに、そのビームの中を行ったり来たりするのだ。
 
 # -- ETHEREAL PLATFORM
-ttresearch.name.PLATFORM=Ethereal Platform
-ttresearch.lore.PLATFORM=Is it really there?
-ttresearch.page.PLATFORM.0=You devised a block that is only solid for anyone standing on top of it. This block does not have a collision box for anyone who doesn't meet that criteria, or is sneaking.<BR><BR>You can also camouflage this block as any other by simply clicking on it.<BR><BR>You think you can use this with the Arcane Levitator for some interesting effects.
+ttresearch.name.PLATFORM=天上のプラットフォーム
+ttresearch.lore.PLATFORM=本当にそこにある？
+ttresearch.page.PLATFORM.0=その上面に立っている者に対してのみ固体となるブロックを発明した。このブロックは先述の基準に合う者、またはスニークしている者に対して当たり判定を持たない。<BR><BR>このブロックに別のブロックで右クリックすることでカモフラージュすることもできる。<BR><BR>これを神秘の浮遊器と併せて使うとおもしろい効果が得られるかもしれない。
 
 # KAMI RESEARCH
 
 # -- DIMENSIONAL SHARDS
-ttresearch.name.DIMENSION_SHARDS=Dimensional Shards
-ttresearch.lore.DIMENSION_SHARDS=Rarities of the Otherworld
-ttresearch.page.DIMENSION_SHARDS.0=Similarly to the overworld, the Nether and the End also have their specific shards, these are rarely held by either Zombie Pigmen living in the Nether or Endermen living in the End. They might be useful for something later on, although you're not quite sure how.<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>
+ttresearch.name.DIMENSION_SHARDS=次元の結晶片
+ttresearch.lore.DIMENSION_SHARDS=別世界の珍品
+ttresearch.page.DIMENSION_SHARDS.0=オーバーワールドと同様、ネザーやエンドにも特有の結晶片が存在する。これらはネザーに生息するゾンビピッグマンか、エンドに生息するエンダーマンが稀に持っている。後で何かに役立つかもしれないが、どのように役立つかはよくわからない。<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>
 
 # -- ICHOR
 ttresearch.name.ICHOR=イコル
