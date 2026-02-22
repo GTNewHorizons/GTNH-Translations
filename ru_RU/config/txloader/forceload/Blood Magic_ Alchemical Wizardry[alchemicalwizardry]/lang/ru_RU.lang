@@ -281,6 +281,7 @@ text.recipe.alchemicCalcinator.reagent=%s АР
 nei.recipe.meteor.category=Ритуал вызова метеорита
 nei.recipe.meteor.cost=Стоимость вызова этого метеора в LP
 nei.recipe.meteor.tooExpensive=Недостаточно LP в Душевной сети
+nei.recipe.meteor.cost.gui=%s
 nei.recipe.meteor.radius=Радиус: %s
 nei.recipe.meteor.diameter=Диаметр: %d (2r + 1)
 nei.recipe.meteor.chance=Шанс: %s%%
@@ -503,7 +504,7 @@ tooltip.ritualdiviner.ritualtunedto=Ритуал настроен на стор�
 tooltip.ritualdiviner.waterstones=Камни воды:
 tooltip.ritualdiviner.dawnstones=Камни рассвета:
 tooltip.ritualdiviner.totalStones=Всего камней:
-tooltip.dismatler.desc=You can turn this upside down?
+tooltip.dismantler.desc=You can turn this upside down?
 tooltip.sacrificialdagger.desc1=Чувство потери крови щекочет Ваши пальцы
 tooltip.sacrificialdagger.desc2=Простого укольчика
 tooltip.sacrificialdagger.desc3=будет достаточно...
@@ -628,8 +629,8 @@ achievement.alchemicalwizardry:energyBazooka=БУМ!!!
 achievement.alchemicalwizardry:energyBazooka.desc=Create the all-powerful Energy Bazooka!!
 achievement.alchemicalwizardry:demons=Охотник на демонов
 achievement.alchemicalwizardry:demons.desc=Kill a demon summoned by the Convocation of the Damned
-achievement.alchemicalwizardry:trancsendentOrb=OVERPOWERED
-achievement.alchemicalwizardry:trancsendentOrb.desc=Pick up a Transcendent Blood Orb
+achievement.alchemicalwizardry:transcendentOrb=СВЕРХМОЩНЫЙ
+achievement.alchemicalwizardry:transcendentOrb.desc=Pick up a Transcendent Blood Orb
 
 #Buff
 bm.buff.drowning=Drowning
@@ -697,10 +698,10 @@ nei.infopage.bloodAltar.7=Upgrading the Blood Altar to Tier 4 requires 28 additi
 nei.infopage.bloodAltar.8=Upgrading the Blood Altar to Tier 5 requires 52 additional Runes in a 17×17 ring (centered on the altar, place 13 on each side) placed one block below the previous ring. Place one Beacon in each corner, one block above the Runes. The altar's structure can accommodate the maximum size beacon base for all four beacons.
 nei.infopage.bloodAltar.9=Upgrading the Blood Altar to Tier 6 requires 76 additional Runes in a 23×23 ring (centered on the altar, place 19 on each side) placed one block below the previous ring. Place seven-block tall pillars in the corners made from any material and cap them with Crystal Cluster blocks. These caps should stand one block above the Bloodstone used for Tier 4.
 # Incense
-nei.infopage.incense.1=The Incense Crucible empowers self-sacrifice. Place one near your Blood Altar for each type of incense you will use, and add them with right-click. The flames and colored smoke will fade once the incense is ready. Multiple crucibles with the same incense will burn faster, charging more quickly.
-nei.infopage.incense.2.a=Burning incense lasts for about 10 sacrifices. Your Sacrificial Knife will start to glow as the incense burns. While active, using your knife drains all but the last 10% of your health at once, greatly increasing the LP gained. This leaves you with the Soul Fray effect for a short time, preventing further sacrifices.
-nei.infopage.incense.2.b=Burning incense lasts for about 10 sacrifices. Your Sacrificial Orb will start to glow as the incense burns. While active, using your orb drains all but the last 10% of your health at once, greatly increasing the LP gained. This leaves you with the Soul Fray effect for a short time, preventing further sacrifices.
-nei.infopage.incense.3=Incense increases the LP gained compared to normal sacrifices. Each tier requires the previous, and grants the following bonus when fully charged:\n\nWood Ash: 40%\nByrrus: 80%\nLivens: 150%\nViridis: 240%\nPurpura: 350%
+nei.infopage.incense.1=Тигель для благовоний усиливает самопожертвование. Разместите по одному тигелю рядом с вашим Кровавым алтарём для каждого типа благовоний, которые вы будете использовать, и добавляйте их щелчком ПКМ. Пламя и цветной дым погаснут, как только благовония будут готовы. Несколько тигелей с одинаковыми благовониями будут гореть быстрее и заряжаться быстрее.
+nei.infopage.incense.2.a=Горящий благовоние действует примерно 10 жертвоприношений. Ваш жертвенный нож начнет светиться по мере сгорания благовоний. Во время действия эффекта использование ножа отнимает все ваше здоровье, кроме последних 10%, что значительно увеличивают получаемое количество LP. Это на короткое время оставляет вас под действием эффекта 'Душевная битва', предотвращая дальнейшие жертвоприношения.
+nei.infopage.incense.2.b=Горящий благовоние действует примерно 10 жертвоприношений. Ваш жертвенный шар начнет светиться по мере сгорания благовоний. Во время действия шара ваше здоровье, кроме последних 10%, истощается мгновенно, значительно увеличивают получаемое количество LP. Это на короткое время оставляет вас под действием эффекта 'Душевная битва' предотвращая дальнейшие жертвоприношения.
+nei.infopage.incense.3=Благовония увеличивают получаемое количество LP по сравнению с обычными жертвоприношениями. Для каждого тира требуется предыдущий, и при полной зарядке они дают следующие бонусы:\n\nДревесный прах: 40%\nByrrus: 80%\nLivens: 150%\nViridis: 240%\nPurpura: 350%
 # Sacrifices
 nei.infopage.sacrifice.1=The Dagger of Sacrifice channels the life of others into the Blood Altar. Strike a creature with the dagger while it is near the altar, and it will be slain instantly, pouring its essence into the altar's pool.
 nei.infopage.sacrifice.2=Creatures yield Life Essence according to their vitality: animals give the least, monsters give more, and villagers offer the greatest. Bosses, babies, and other players resist this magic and cannot be sacrificed.

@@ -32,6 +32,7 @@ tile.appliedenergistics2.BlockSpatialPylon.name=Pilón Espacial
 tile.appliedenergistics2.BlockTinyTNT.name=TNT Chiquita
 tile.appliedenergistics2.BlockVibrationChamber.name=Cámara de Vibración
 tile.appliedenergistics2.BlockWireless.name=Punto de Acceso Inalámbrico ME
+tile.appliedenergistics2.BlockWireless.desc=Right click with terminal in hand to bind it
 tile.appliedenergistics2.OreQuartz.name=Mineral de Cuarzo de Certus
 tile.appliedenergistics2.OreQuartzCharged.name=Mineral de Cuarzo de Certus Cargado
 tile.appliedenergistics2.BlockSecurity.name=Terminal de Seguridad ME
@@ -104,6 +105,7 @@ chat.appliedenergistics2.InvalidMachine=Máquina no válida.
 chat.appliedenergistics2.LoadedSettings=Configuración cargada correctamente.
 chat.appliedenergistics2.DeviceNotPowered=El dispositivo tiene poca energía.
 chat.appliedenergistics2.DeviceNotWirelessTerminal=El dispositivo no es un terminal inalámbrico.
+chat.appliedenergistics2.DeviceSuccessLinked=§aDevice successfully linked.
 chat.appliedenergistics2.DeviceNotLinked=El dispositivo no está vinculado.
 chat.appliedenergistics2.StationCanNotBeLocated=No se puede localizar la estación.
 chat.appliedenergistics2.MachineNotPowered=La máquina no está alimentada.
@@ -130,6 +132,8 @@ chat.appliedenergistics2.PriorityConfigured=Prioridad actualizada a %d
 chat.appliedenergistics2.DriveLockingToggled=Las celdas del disco fueron Particionadas/No-Particionadas
 chat.appliedenergistics2.ChestLockingToggled=Celda en el cofre fue Particionada/No-Particionada
 chat.appliedenergistics2.FinishCraftingRemind=La elaboración de %s × %s ha terminado en %s
+chat.appliedenergistics2.CraftComplete=§5Auto-Crafting Complete
+chat.appliedenergistics2.CraftComplete.tip=%s %s, took %s
 chat.appliedenergistics2.CraftingCantExtract=No se puede extraer la cantidad requerida de ingrediente del Almacenamiento: %d / %d | %s 
 chat.appliedenergistics2.MachineInOtherDim=%d ubicada en la dimensión: %d , no puede ser resaltada
 chat.appliedenergistics2.MachineInOtherDimNamed=%d "%s" located in dimension: %d and can't be highlighted
@@ -507,11 +511,6 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItems=Reportar Objetos Inaces
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsYes=Sí. Los objetos que no se pueden extraer serán visibles.
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=No. Solo se mostrará los objetos que se puedan extraer.
 
-gui.tooltips.appliedenergistics2.TypeFilter=Tipos de Filtros
-gui.tooltips.appliedenergistics2.TypeFilterShowAll=Mostrar Todos
-gui.tooltips.appliedenergistics2.TypeFilterShowItemsOnly=Mostrar solo objetos
-gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=Mostrar Solo Fluidos
-
 gui.tooltips.appliedenergistics2.BlockPlacement=Colocación de Bloques
 gui.tooltips.appliedenergistics2.BlockPlacementYes=Los bloques se pondrán en forma de bloques
 gui.tooltips.appliedenergistics2.BlockPlacementNo=Los bloques se soltarán en forma de objeto
@@ -525,6 +524,10 @@ gui.tooltips.appliedenergistics2.ItemsStored=Objetos almacenados: %s
 gui.tooltips.appliedenergistics2.ItemCount=Cantidad de objetos: %s
 gui.tooltips.appliedenergistics2.ItemsRequestable=Items Solicitables: %s
 gui.tooltips.appliedenergistics2.P2PFrequency=Frecuencia: %s
+gui.tooltips.appliedenergistics2.ExtractFromNetworkToContainer=§e%s + Left-click§f to extract §b%s§f from network
+gui.tooltips.appliedenergistics2.InsertFromContainerToNetwork=§e%s + Right-click§f to insert §b%s§f into network
+gui.tooltips.appliedenergistics2.HoldShiftProcessStack=Hold Shift to process the entire stack
+gui.tooltips.appliedenergistics2.RegisterContainerContent=Hold §e%s§f to register as §b%s§f
 gui.tooltips.appliedenergistics2.OreFilterHint=Filtra objetos usando diccionario de minerales
 gui.tooltips.appliedenergistics2.OreFilter=Filtro de Diccionario de Minerales
 gui.tooltips.appliedenergistics2.SearchStringTooltip=Click derecho para borar la barra de búsqueda
@@ -629,10 +632,17 @@ gui.tooltips.appliedenergistics2.scheduledreason.LOCK_MODE=Modo de bloqueo
 gui.tooltips.appliedenergistics2.scheduledreason.NO_TARGET=No se puede encontrar objetivo para insertar 
 gui.tooltips.appliedenergistics2.scheduledreason.NOT_ENOUGH_INGREDIENTS=No hay suficientes ingredientes
 gui.tooltips.appliedenergistics2.scheduledreason.SAME_NETWORK=La interfaz de destino está en la misma red
+gui.tooltips.appliedenergistics2.scheduledreason.UNSUPPORTED_STACK=Contains a stack which not supported by any target around interface
 
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstitute=Alternar vista de interfaces con patrones de sustitución habilitados 
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstituteOnDesc=Mostrando todas las interfaces
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstituteOffDesc=Mostrar solo las interfaces con patrones de sustitución habilitados
+
+gui.tooltips.appliedenergistics2.BlockDriveWarning=§4Do not move chests with AE drives\n§4It may corrupt your profile. No refunds!
+gui.tooltips.appliedenergistics2.BlockCreativeEnergyCell=§dInfinite Energy
+gui.tooltips.appliedenergistics2.PartCreativeEnergy=§dInfinite Energy
+gui.tooltips.appliedenergistics2.BlockCreativeEnergyController=§dInfinite Energy
+gui.tooltips.appliedenergistics2.PreconfiguredPriority=Preconfigured storage priority: §f%s
 
 # Units
 gui.appliedenergistics2.units.appliedenergistics=AE
@@ -691,6 +701,7 @@ waila.appliedenergistics2.Singularity=Singularity
 waila.appliedenergistics2.Provider=§5Provider§r
 waila.appliedenergistics2.Accessor=§5Accessor§r
 waila.appliedenergistics2.Waiting=Waiting:
+waila.appliedenergistics2.IOBusSpeed=Speed: %s %s/t
 
 # Baubles Extended
 slot.Terminal=§aTerminal§7
@@ -960,7 +971,7 @@ key.appliedenergistics2.category=Applied Energistics 2
 key.pick_block.desc=AE2 Pick Block
 key.toggle_focus.desc=Escribir en la caja de búsqueda
 key.search_connected_inventories.desc=Buscar objeto en la red de inventarios 
-key.control_operation.desc=Control operation
+key.container_interaction.desc=Container Item Interaction
 
 # NEI
 nei.options.keys.gui.pattern_view=View Pattern

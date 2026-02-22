@@ -11,8 +11,8 @@ item.avaricePearl.0.name=아바라이스 진주
 item.avaricePearl.1.name=Miser의 진주
 item.avaricePearl.15.name=
 item.enchantedPaper.0.name=마법부여된 종이
-item.enchantedPaper.1.name=Runic Whitelist
-item.enchantedPaper.2.name=Runic Blacklist
+item.enchantedPaper.1.name=루닉 화이트리스트
+item.enchantedPaper.2.name=루닉 블랙리스트
 item.enchantedPaper.3.name=Bound Enchanting Paper
 item.crystalBrain.0.name=크리스톨라인 뇌: 공기
 item.crystalBrain.1.name=크리스톨라인 뇌: 불
@@ -66,9 +66,9 @@ tile.blockRedcrystalRes.name=Resonating Redcrystal
 tile.blockRedcrystalMerc.name=Mercurial Redcrystal
 tile.blockRemoteComparator.name=Remote Comparator
 tile.blockVisReader.name=Vis Reader
-tile.blockHourglass.name=Hourglass
+tile.blockHourglass.name=모래시계
 tile.blockHourglassMagic.name=Magic Hourglass
-tile.blockGreedyChest.name=Greedy Chest
+tile.blockGreedyChest.name=탐욕스러운 상자
 tile.blockEagerChest.name=Eager Chest
 tile.blockTenaciousChest.name=Tenacious Chest
 tile.blockHungryMaw.name=Hungry Maw
@@ -134,17 +134,17 @@ tile.blockTranslucent.0.name=Glowing Amber
 tile.blockTranslucent.1.name=Glowing Amber Bricks
 tile.blockMetalGlow.0.name=Memory Block
 tile.blockMetalGlow.1.name=Memory Block
-tile.blockFluidMilk.name=Milk
-tile.blockFluidMushroom.name=Mushroom Soup
-tile.blockFluidVishroom.name=Vishroom Soup
+tile.blockFluidMilk.name=우유
+tile.blockFluidMushroom.name=버섯 스프
+tile.blockFluidVishroom.name=비쉬룸 수프
 tile.blockBoiler.name=Alchemical Boiler
 tile.blockMirrorAlt.0.name=Melding Mirror
 tile.blockMirrorMultiDest.0.name=Dispersing Mirror
 
 # Fluids
-fluid.fluidMilk=Milk
-fluid.fluidMushroom=Mushroom Soup
-fluid.fluidVishroom=Vishroom Soup
+fluid.fluidMilk=우유
+fluid.fluidMushroom=버섯 스프
+fluid.fluidVishroom=비쉬룸 수프
 
 # Entities
 entity.Automagy.XPOrbSuppressed.name=Forgotten Experience
@@ -175,7 +175,7 @@ Automagy.research_page.REDSTONETHEORY.3=§l  §nRedstone Inversion Torch§r<BR>T
 Automagy.research_page.REDSTONETHEORY.4=§l         §nHourglass§r<BR>The redstone hourglass is a simple but versatile device allowing you to regulate the timings of redstone signal transmissions.<BR>When activated (by right-click or redstone signal), the glass turns and sand starts to fall. A redstone pulse is emitted once the sand has settled. If the rear of a redstone comparator is next to the hourglass, it will output a signal which increases in strength as the sand falls.<BR>The hourglass outputs to its left and right sides. It accepts activation signals from any other side.<BR>Right-click the hourglass with your wand or a stick to adjust the timer's
 Automagy.research_page.REDSTONETHEORY.5=length. The timer is quite precise but unfortunately only allows adjustments in five-second increments and peaks out at 60 seconds, but you know this device is only the foundation upon which you will build better things.
 
-Automagy.research_name.MAGICHOURGLASS=Magic Hourglass
+Automagy.research_name.MAGICHOURGLASS=마법의 모래시계
 Automagy.research_text.MAGICHOURGLASS=Mystical timekeeping
 Automagy.research_page.MAGICHOURGLASS.1=The hourglass you designed is useful for delaying signals and producing redstone pulses but is lacking in some areas. Repetition, for one. Also, sometimes you want the timer to start from zero each time the hourglass is activated even if sand was already falling but this is impossible with mundane sand which must flow from where it left off.<BR>To address these flaws, you've enchanted an hourglass with the ability to turn itself over repeatedly and the ability to instantly move its sand to the top (restarting the timer). If you so choose, it can instead move the sand to the bottom, ending the timer early without emitting a signal from the
 Automagy.research_page.MAGICHOURGLASS.2=hourglass (and stopping the loop if it was set to repeat).<BR>Additionally, there are several different signal modes. §lPulse§r mode is as standard. §lConstant§r mode means a signal is sent the entire time sand is falling. §lAlternating§r mode is the same except it is sent only 50% of the time. §lNegative Pulse§r mode works as Constant mode except there is a brief period where no signal is sent when the glass turns itself over (if set to repeat). §lDisabled§r means no signal is sent at all.<BR>The hourglass's reaction to receiving a signal (on any side but its left and right) can also be changed. By default, the hourglass flips each time it receives a new signal.

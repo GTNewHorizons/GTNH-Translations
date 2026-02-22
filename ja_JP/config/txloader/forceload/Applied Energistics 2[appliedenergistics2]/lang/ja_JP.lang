@@ -32,6 +32,7 @@ tile.appliedenergistics2.BlockSpatialPylon.name=空間送信鉄塔
 tile.appliedenergistics2.BlockTinyTNT.name=極小TNT
 tile.appliedenergistics2.BlockVibrationChamber.name=振動チャンバー
 tile.appliedenergistics2.BlockWireless.name=ME無線アクセスポイント
+tile.appliedenergistics2.BlockWireless.desc=Right click with terminal in hand to bind it
 tile.appliedenergistics2.OreQuartz.name=ケルタスクォーツ鉱石
 tile.appliedenergistics2.OreQuartzCharged.name=チャージドケルタスクォーツ鉱石
 tile.appliedenergistics2.BlockSecurity.name=MEセキュリティターミナル
@@ -104,6 +105,7 @@ chat.appliedenergistics2.InvalidMachine=無効な機械です。
 chat.appliedenergistics2.LoadedSettings=設定のロードに成功。
 chat.appliedenergistics2.DeviceNotPowered=デバイスの電気が不足しています。
 chat.appliedenergistics2.DeviceNotWirelessTerminal=デバイスは無線端末ではありません。
+chat.appliedenergistics2.DeviceSuccessLinked=§aDevice successfully linked.
 chat.appliedenergistics2.DeviceNotLinked=デバイスはリンクされていません。
 chat.appliedenergistics2.StationCanNotBeLocated=ステーションに到達できません。
 chat.appliedenergistics2.MachineNotPowered=機械に電気が足りません。
@@ -130,6 +132,8 @@ chat.appliedenergistics2.PriorityConfigured=Updated priority to %d
 chat.appliedenergistics2.DriveLockingToggled=Cells in drive were partitioned/unpartitioned
 chat.appliedenergistics2.ChestLockingToggled=Cell in chest was partitioned/unpartitioned
 chat.appliedenergistics2.FinishCraftingRemind=Crafting of %s * %s finished in %s.
+chat.appliedenergistics2.CraftComplete=§5Auto-Crafting Complete
+chat.appliedenergistics2.CraftComplete.tip=%s %s, took %s
 chat.appliedenergistics2.CraftingCantExtract=Can't extract ingredient: %d / %d | %s
 chat.appliedenergistics2.MachineInOtherDim=%d located in dimension: %d and can't be highlighted
 chat.appliedenergistics2.MachineInOtherDimNamed=%d "%s" located in dimension: %d and can't be highlighted
@@ -149,7 +153,7 @@ itemGroup.appliedenergistics2.facades=Applied Energistics 2 (ケーブル外装)
 gui.appliedenergistics2.CraftingTerminal=クラフトターミナル
 gui.appliedenergistics2.METunnel=ME
 gui.appliedenergistics2.ItemTunnel=アイテム
-gui.appliedenergistics2.FluidTunnel=液体
+gui.appliedenergistics2.FluidTunnel=流体
 gui.appliedenergistics2.RedstoneTunnel=レッドストーン
 gui.appliedenergistics2.EUTunnel=EU
 gui.appliedenergistics2.RFTunnel=RF
@@ -304,10 +308,10 @@ gui.appliedenergistics2.NoCraftingTreeReceived=クラフトツリーなし
 gui.appliedenergistics2.CraftingStepLimitExceeded=クラフティングステップが制限を超えた
 gui.appliedenergistics2.CraftingSizeLimitExceeded=Crafting size limit exceeded
 gui.appliedenergistics2.RequestedItem=要求アイテム
-gui.appliedenergistics2.SimulationIncomplete=シュミレーションが不完全
+gui.appliedenergistics2.SimulationIncomplete=シミュレーションが不完全
 gui.appliedenergistics2.Bytes=ストレージ
 gui.appliedenergistics2.Set=セットする
-gui.appliedenergistics2.Simulation=シュミレーション
+gui.appliedenergistics2.Simulation=シミュレーション
 gui.appliedenergistics2.CoProcessors=Coプロセッサー
 gui.appliedenergistics2.CraftingCPU=クラフティングCPU
 gui.appliedenergistics2.NoCraftingCPUs=利用可能なCPUがありません
@@ -361,11 +365,11 @@ gui.appliedenergistics2.CPUSourceMachineRequested=Machine Requested
 
 gui.appliedenergistics2.NetworkBytesDetails=ネットワークのバイト数詳細
 gui.appliedenergistics2.Items=アイテム
-gui.appliedenergistics2.Fluids=液体
+gui.appliedenergistics2.Fluids=流体
 gui.appliedenergistics2.Essentias=エッセンシア
 gui.appliedenergistics2.NetworkCellStatus=Cell status
 gui.appliedenergistics2.NetworkItemCellCount=ネットワーク内アイテムセル数
-gui.appliedenergistics2.NetworkFluidCellCount=ネットワーク内液体セル数
+gui.appliedenergistics2.NetworkFluidCellCount=ネットワーク内流体セル数
 gui.appliedenergistics2.NetworkEssentiaCellCount=ネットワーク内エッセンシアセル数
 gui.appliedenergistics2.TypesInfo=タイプ
 gui.appliedenergistics2.BytesInfo=バイト
@@ -507,11 +511,6 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItems=Report Inaccessible Ite
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsYes=はい。搬出できないアイテムでも見えます。
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=いいえ。搬出できるアイテムしか見えません。
 
-gui.tooltips.appliedenergistics2.TypeFilter=フィルター方法
-gui.tooltips.appliedenergistics2.TypeFilterShowAll=全て表示
-gui.tooltips.appliedenergistics2.TypeFilterShowItemsOnly=アイテムのみ表示
-gui.tooltips.appliedenergistics2.TypeFilterShowFluidsOnly=液体のみ表示
-
 gui.tooltips.appliedenergistics2.BlockPlacement=ブロック設置
 gui.tooltips.appliedenergistics2.BlockPlacementYes=ブロックはブロックとして設置される。
 gui.tooltips.appliedenergistics2.BlockPlacementNo=ブロックはアイテムとしてドロップする。
@@ -525,6 +524,10 @@ gui.tooltips.appliedenergistics2.ItemsStored=アイテム保持: %s
 gui.tooltips.appliedenergistics2.ItemCount=アイテム数: %s
 gui.tooltips.appliedenergistics2.ItemsRequestable=アイテム要求可能: %s
 gui.tooltips.appliedenergistics2.P2PFrequency=周波数: %s
+gui.tooltips.appliedenergistics2.ExtractFromNetworkToContainer=§e%s + Left-click§f to extract §b%s§f from network
+gui.tooltips.appliedenergistics2.InsertFromContainerToNetwork=§e%s + Right-click§f to insert §b%s§f into network
+gui.tooltips.appliedenergistics2.HoldShiftProcessStack=Hold Shift to process the entire stack
+gui.tooltips.appliedenergistics2.RegisterContainerContent=Hold §e%s§f to register as §b%s§f
 gui.tooltips.appliedenergistics2.OreFilterHint=鉱石辞書名を使用してアイテムを分別する
 gui.tooltips.appliedenergistics2.OreFilter=鉱石辞書フィルター
 gui.tooltips.appliedenergistics2.SearchStringTooltip=右クリックで検索バーをクリア
@@ -561,9 +564,9 @@ gui.tooltips.appliedenergistics2.InsertionModeOnlyEmpty=空のスロットのみ
 gui.tooltips.appliedenergistics2.InsertionModeOnlyEmptyDesc=最初から最後の順で、スタックを統合しない
 
 gui.tooltips.appliedenergistics2.SidelessModeSided=側面モード
-gui.tooltips.appliedenergistics2.SidelessModeSidedDesc=それぞれの液体は特定の1面からしかアクセスできない
+gui.tooltips.appliedenergistics2.SidelessModeSidedDesc=それぞれの流体は特定の1面からしかアクセスできない
 gui.tooltips.appliedenergistics2.SidelessModeSideless=全面モード
-gui.tooltips.appliedenergistics2.SidelessModeSidelessDesc=全ての液体が全ての面からアクセスできる
+gui.tooltips.appliedenergistics2.SidelessModeSidelessDesc=全ての流体が全ての面からアクセスできる
 
 gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefault=Default Blocking Mode
 gui.tooltips.appliedenergistics2.AdvancedBlockingModeDefaultDesc=Blocking interfaces follow normal blocking rules (ignore circuits, etc.)
@@ -620,7 +623,7 @@ gui.tooltips.appliedenergistics2.Suspend=Click to stop this CPU from sending out
 gui.tooltips.appliedenergistics2.Resume=Click to make this CPU send out crafts again
 
 gui.tooltips.appliedenergistics2.PinsSection=Pins Section
-gui.tooltips.appliedenergistics2.PinsSectionActive=Pins Section Enabled
+gui.tooltips.appliedenergistics2.PinsSectionActive=Pins Section Enabled\n[Shift + Right Click] pinned item to remove it from pins section
 gui.tooltips.appliedenergistics2.PinsSectionDisabled=Pins Section Disabled
 
 gui.tooltips.appliedenergistics2.scheduledreason.SOMETHING_STUCK=Something stuck in interface
@@ -629,10 +632,17 @@ gui.tooltips.appliedenergistics2.scheduledreason.LOCK_MODE=Lock Mode
 gui.tooltips.appliedenergistics2.scheduledreason.NO_TARGET=Can't find target to push
 gui.tooltips.appliedenergistics2.scheduledreason.NOT_ENOUGH_INGREDIENTS=Not enough ingredients
 gui.tooltips.appliedenergistics2.scheduledreason.SAME_NETWORK=Target interface in same network
+gui.tooltips.appliedenergistics2.scheduledreason.UNSUPPORTED_STACK=Contains a stack which not supported by any target around interface
 
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstitute=Toggles showing interfaces with patterns with substitutions enabled
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstituteOnDesc=Showing all interfaces
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstituteOffDesc=Showing only interfaces with patterns with substitutions enabled
+
+gui.tooltips.appliedenergistics2.BlockDriveWarning=§4Do not move chests with AE drives\n§4It may corrupt your profile. No refunds!
+gui.tooltips.appliedenergistics2.BlockCreativeEnergyCell=§dInfinite Energy
+gui.tooltips.appliedenergistics2.PartCreativeEnergy=§dInfinite Energy
+gui.tooltips.appliedenergistics2.BlockCreativeEnergyController=§dInfinite Energy
+gui.tooltips.appliedenergistics2.PreconfiguredPriority=Preconfigured storage priority: §f%s
 
 # Units
 gui.appliedenergistics2.units.appliedenergistics=AE
@@ -691,6 +701,7 @@ waila.appliedenergistics2.Singularity=Singularity
 waila.appliedenergistics2.Provider=§5Provider§r
 waila.appliedenergistics2.Accessor=§5Accessor§r
 waila.appliedenergistics2.Waiting=Waiting:
+waila.appliedenergistics2.IOBusSpeed=Speed: %s %s/t
 
 # Baubles Extended
 slot.Terminal=§aTerminal§7
@@ -960,7 +971,7 @@ key.appliedenergistics2.category=Applied Energistics 2
 key.pick_block.desc=AE2 Pick Block
 key.toggle_focus.desc=Toggle search box focus
 key.search_connected_inventories.desc=Search network inventories for item
-key.control_operation.desc=Control operation
+key.container_interaction.desc=Container Item Interaction
 
 # NEI
 nei.options.keys.gui.pattern_view=View Pattern

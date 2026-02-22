@@ -1,3 +1,5 @@
+itemGroup.AmunRaTab=Amun-Ra
+
 planet.starAmun=Amun
 star.starRa=Ra
 planet.osiris=Osiris
@@ -80,14 +82,10 @@ tile.aluChest.name=Aluminiumtruhe
 tile.aluChest.description=Gleiche Kapazität wie eine Holztruhe. Kann zu einer großen Truhe kombiniert werden.
 tile.steelChest.name=Stahltruhe
 tile.steelChest.description=Doppelt so hohe Kapazität wie eine Holztruhe, aber kann zu keiner großen Truhe kombiniert werden.
-
-
 tile.oldConcreteOre.0.name=Urbolite
 tile.oldConcrete.name=Urbolith
 tile.oldConcreteOre.oreSteel.name=Strahltragender Urbolith
 tile.oldConcreteOre.oreBone.name=Fossiltragender Urbolith
-
-
 tile.baseBlockCrystal.0.name=Glowing Coral
 tile.glowCoral.name=Glühende Koralle
 tile.obsidianbrick.name=Obsidianziegel
@@ -110,19 +108,14 @@ tile.asteroidMultiOre1.0.name=Ore
 tile.basaltMultiOre.0.name=Ore
 tile.hardClayMultiOre.0.name=Ore
 tile.obsidianMultiOre.0.name=Ore
-
 tile.basePlant.0.name=Tall Redgrass
 tile.methaneTallGrass.name=Hohes Rotgras
-
 tile.blockFake.0.name=Fake Block
-
 tile.bossSpawner.0.name=Boss Spawner
-
 tile.baseFalling.0.name=Falling Block
 tile.basaltregolith.name=Basaltregolith
 tile.obsidianGravel.name=Obsidiankies
 tile.obsidianSand.name=Obsidiansand
-
 tile.baseGrass.0.name=Redgrass
 tile.methanegrass.name=Rotgras
 tile.vacuumRedGrass.name=Blasses Rotgras
@@ -151,13 +144,10 @@ tile.hydroponics.harvest=Ernten
 tile.hydroponics.fertilize=Düngen
 tile.hydroponics.noplant=Keine Pflanze
 tile.hydroponics.plantstatus=Pflanzenstatus
-
-
 tile.machines1.0.name=Radioisotope Generator
 tile.isotopeGeneratorBasic.name=Radioisotopengenerator
 tile.isotopeGeneratorAdvanced.name=Verbesserter Radioisotopengenerator
 tile.isotopeGenerator.description=Erzeugt elektrische Energie aus der Wärme, die beim Zerfall des enthaltenen radioaktiven Materials entsteht. Der Energieertrag hängt dabei von der Außentemperatur ab, je wärmer es ist, desto weniger Energie wird produziert. Durch die hohe Halbwertszeit des verwendeten Isotops kann dieser Generator als unerschöpflich betrachtet werden.
-
 
 item.baseItem.name=Resource
 item.baseItem.compressedGold.name=Gepresstes Gold
@@ -165,7 +155,7 @@ item.baseItem.goldFoil.name=Goldfolie
 item.baseItem.transformer.name=Transformator
 item.baseItem.waferEnder.name=Ender Wafer
 item.baseItem.porcodonMeat.name=Porcodonfleisch
-item.porcodonMeat.description=Riecht nach Benzin.
+
 item.baseItem.laserDiode.name=Laserdiode
 item.baseItem.cryoDiode.name=Kältediode
 item.baseItem.cryoCrystal.name=Chionit
@@ -184,7 +174,6 @@ item.baseItem.uranMesh.name=Uran-Lithium-Geflecht
 item.baseItem.shuttleTank.name=Shuttle-Treibstofftank
 item.baseItem.dockDoor.name=Docktür
 item.baseItem.dockGangway.name=Dock-Gangway
-item.schematic.schematicShuttle.name=Shuttle-Bauplan
 item.baseItem.darkShard.name=Dunkle-Materie-Splitter
 item.baseItem.naniteCluster.name=Nanitencluster
 item.baseItem.naniteCluster.description=Diese Naniten wirken inaktiv, aber funktionsfähig
@@ -192,29 +181,7 @@ item.baseItem.naniteControl.name=Nanitenkontrollmodul
 item.baseItem.mummyDust.name=Mumienpulver
 item.baseItem.gravityBlockDisabler.name=Gravitationsdisruptor
 item.baseItem.gravityBlockDisabler.description=Wenn aktiv, negiert die Effekte von Gravitationsgeneratoren für den Nutzer.
-
-
 item.baseItem.dustMote.name=Staub
-item.battery-lithium.name=Lithiumbatterie
-item.battery-quantum.name=Quantumbatterie
-item.battery-ender.name=Verbesserte Batterie
-item.battery-nuclear.name=Atombatterie
-item.raygun.name=Blaster
-item.cryogun.name=Kältestrahl
-entity.robotVillager.name=Roboter-Dorfbewohner
-entity.porcodon.name=Porcodon
-entity.sentryRobot.name=Sentry
-entity.osirisBoss.name=Untoter Pharaoh
-entity.alienVillagerAR.name=Alien-Dorfbewohner
-entity.alienBug.name=Pincer Bug
-entity.GalacticraftAmunRa.Shuttle.name=Shuttle Rocket
-item.itemShuttle.name=Shuttlerakete
-item.thermalSuit.name=Thermoregulation Armor Piece
-item.thermalSuit.thermalLevel.name=Temperaturniveau: %s
-item.thermalSuit.helmet.name=Wärmeregulierungshelm
-item.thermalSuit.chest.name=Wärmeregulierungsbrustpanzer
-item.thermalSuit.boots.name=Wärmeregulierungsstiefel
-item.thermalSuit.legs.name=Wärmeregulierungsbeinschutz
 item.baseItem.thermalController.name=Tragbarer Wärmeregulator
 item.baseItem.tricorder.name=Multi-Sensor
 item.baseItem.tricorder.description=Misst und zeigt diverse Daten der aktuellen Dimension an.
@@ -226,6 +193,21 @@ item.baseItem.tricorder.message.daylength=Tageslänge: %s
 item.baseItem.tricorder.message.unknown=Unbekannt
 item.baseItem.tricorder.message.unknownGas=Unbekanntes Gas
 item.baseItem.tricorder.message.none=n/a
+item.schematic.schematicShuttle.name=Shuttle-Bauplan
+item.porcodonMeat.description=Riecht nach Benzin.
+item.battery-lithium.name=Lithiumbatterie
+item.battery-quantum.name=Quantumbatterie
+item.battery-ender.name=Verbesserte Batterie
+item.battery-nuclear.name=Atombatterie
+item.raygun.name=Blaster
+item.cryogun.name=Kältestrahl
+item.itemShuttle.name=Shuttlerakete
+item.thermalSuit.name=Thermoregulation Armor Piece
+item.thermalSuit.thermalLevel.name=Temperaturniveau: %s
+item.thermalSuit.helmet.name=Wärmeregulierungshelm
+item.thermalSuit.chest.name=Wärmeregulierungsbrustpanzer
+item.thermalSuit.boots.name=Wärmeregulierungsstiefel
+item.thermalSuit.legs.name=Wärmeregulierungsbeinschutz
 item.nanotool.name=Naniten-Multiwerkzeug
 item.nanotool.mode-prefix=Modus
 item.nanotool.mode.workbench=Werkbank
@@ -237,6 +219,13 @@ item.nanotool.mode.shovel=Schaufel
 item.nanotool.mode.wrench=Schraubenschlüssel
 item.battery-using-item.powerlevel=Energiequelle
 
+entity.robotVillager.name=Roboter-Dorfbewohner
+entity.porcodon.name=Porcodon
+entity.sentryRobot.name=Sentry
+entity.osirisBoss.name=Untoter Pharaoh
+entity.alienVillagerAR.name=Alien-Dorfbewohner
+entity.alienBug.name=Pincer Bug
+entity.GalacticraftAmunRa.Shuttle.name=Shuttle Rocket
 
 gas.argon.name=Argon
 gas.helium.name=Helium
@@ -250,6 +239,7 @@ profession.refinery.name=Raffinierer
 profession.ingotcompressor.name=Metallverarbeiter
 profession.circuitfabricator.name=Schaltkreisfabrikator
 profession.crafter.name=Crafter
+
 death.attack.wrongAtmoSuffocate=%1$s erstickte in ungeeigneter Atmosphäre
 death.attack.fallOffMothership=%1$s ging im Weltraum verloren
 death.attack.fallOffMothershipIntoPlanet=%1$s stürzte in %2$s
@@ -257,7 +247,6 @@ death.attack.killedByEngine=%1$s wurde von einem Mutterschiffstriebwerk getötet
 death.attack.ar_laser=%1$s wurde von einer Strahlenwaffe getroffen
 death.attack.ar_heatray=%1$s wurde vaporisiert
 death.attack.ar_coldray=%1$s wurde gefroren
-itemGroup.AmunRaTab=Amun-Ra
 
 gui.message.canCreateMothership.name=Ein Mutterschiff kann hier gebaut werden!
 gui.message.tooManyMotherships.name=Du kannst keine Mutterschiffe mehr bauen!
@@ -305,12 +294,6 @@ gui.checkbox.show_visual_guide=Gebiet zeigen
 gui.checkbox.invert_force=Nach oben
 gui.message.force.strength=Stärke
 gui.message.energy_usage=Energieverbrauch
-
-
-info.message.celestialbodysearch.none=Keine Himmelskörper gefunden, auf die '%s' zutrifft
-info.message.celestialbodysearch.some=Es wurden %s Himmelskörper zu '%s' gefunden:
-
-
 gui.message.misc.generalErrorCaption=Error
 gui.message.misc.planet=Planet
 gui.message.misc.star=Stern
@@ -323,6 +306,16 @@ gui.message.misc.yes=ja
 gui.message.misc.no=nein
 gui.message.misc.unit.ticks=Ticks
 
+gui.title.gravity=Artificial Gravity Generator
+gui.title.isotopeGeneratorBasic=Radioisotope Generator
+gui.title.isotopeGeneratorAdvanced=Advanced Radioisotope Generator
+gui.title.mothershipEngineIon=Ion Thruster
+gui.title.hydroponics=Hydroponics Unit
+gui.title.aluChest=Aluminum Chest
+gui.title.steelChest=Steel Chest
+gui.title.shuttleDock=Shuttle Dock
+
+info.message.celestialbodysearch.none=Keine Himmelskörper gefunden, auf die '%s' zutrifft
+info.message.celestialbodysearch.some=Es wurden %s Himmelskörper zu '%s' gefunden:
 
 mothership.default.name=Mutterschiff %s
-

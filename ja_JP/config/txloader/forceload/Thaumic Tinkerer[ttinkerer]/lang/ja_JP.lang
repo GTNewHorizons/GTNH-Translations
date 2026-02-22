@@ -1,41 +1,41 @@
 # MISC
 itemGroup.ThaumicTinkerer=Thaumic Tinkerer
-ttmisc.connector.set=Location Set!
+ttmisc.connector.set=位置を設定！
 ttmisc.keyCategory=Thaumic Tinkerer
 ttmisc.connector.complete=紐づけ完了！
 ttmisc.connector.notinterf=トランスベクターブロックではありません。
-ttmisc.connector.interffail=Can't bind a Transvector Interface to another.
-ttmisc.connector.dislfail=Can't bind a Transvector Dislocator to another.
-ttmisc.connector.notpresent=The Transvector Block isn't present.
-ttmisc.connector.toofar=The Transvector Block of origin is too far away.
+ttmisc.connector.interffail=他のトランスベクターインターフェースには紐づけできません。
+ttmisc.connector.dislfail=他のトランスベクターディスロケーターには紐づけできません。
+ttmisc.connector.notpresent=トランスベクターブロックがありません。
+ttmisc.connector.toofar=起点となるトランスベクターブロックが遠すぎます。
 ttmisc.golemconnector.set=Connector Set!
 ttmisc.golemconnector.complete=紐づけ完了！
 ttmisc.golemconnector.notinterf=The connector is not linked to a Golem Connector Block
 ttmisc.golemconnector.notpresent=The Golem Connector Block isn't present.
 ttmisc.leftClick=左クリック
 ttmisc.rightClick=右クリック
-ttmisc.redstoneControl=Redstone Control
-ttmisc.animationTablet.notRotatable=You can not rotate the Tablet while it's activated.
-ttmisc.bloodSword.activateEssentiaHarvest=Activated Essentia Harvesting
-ttmisc.bloodSword.deactivateEssentiaHarvest=Deactivated Essentia Harvesting
-ttmisc.focusDislocation.tooltip=Currently Dislocating
-ttmisc.focusDislocation.tooltipExtra=Extra Contents
+ttmisc.redstoneControl=レッドストーン制御
+ttmisc.animationTablet.notRotatable=動作中のタブレットは回転できません。
+ttmisc.bloodSword.activateEssentiaHarvest=エッセンシア狩りを有効化
+ttmisc.bloodSword.deactivateEssentiaHarvest=エッセンシア狩りを無効化
+ttmisc.focusDislocation.tooltip=転移中
+ttmisc.focusDislocation.tooltipExtra=追加コストあり
 ttmisc.inactive=無効
 ttmisc.active=有効
-ttmisc.soulMould.nonAssigned=No Pattern
-ttmisc.soulMould.pattern=Current Pattern: %s
+ttmisc.soulMould.nonAssigned=パターンなし
+ttmisc.soulMould.pattern=現在のパターン: %s
 ttmisc.all=全て
 ttmisc.none=なし
 ttmisc.child=幼体
 ttmisc.adult=成体
-ttmisc.baseCost=Base Cost
+ttmisc.baseCost=基本コスト
 ttmisc.clickToRemove=クリックで削除
 ttmisc.startEnchant=エンチャントを開始
 ttmisc.full=満杯
 ttmisc.notAbsorbing=Not Absorbing
 ttmisc.absorbing=Absorbing
 ttmisc.shareTome.write=研究の書き込み完了！
-ttmisc.shareTome.notOnline=The player who this research belongs to is not online.
+ttmisc.shareTome.notOnline=この研究に紐づいたプレイヤーがオンラインではありません。
 ttmisc.shareTome.offlineshare=Offline share
 ttmisc.shareTome.sync=研究を獲得。
 ttmisc.shareTome.noAssign=空白
@@ -58,8 +58,8 @@ ttmisc.mode.sword.2=魂吸収
 ttmisc.experience=経験値
 ttmisc.light0=Light Enabled
 ttmisc.light1=Light Disabled
-ttmisc.awakenedArmor0=Armor Piece Enabled
-ttmisc.awakenedArmor1=Armor Piece Disabled
+ttmisc.awakenedArmor0=装備の能力を有効化
+ttmisc.awakenedArmor1=装備の能力を無効化
 ttmisc.disableAllArmor=KAMI装備を無効化
 ttmisc.enableAllArmor=KAMI装備を有効化
 ttmisc.differentDim=Different Dimension
@@ -180,10 +180,10 @@ tile.dislocator.name=トランスベクターディスロケーター
 tile.repairer.name=神秘の修復器
 tile.aspectAnalyzer.name=アスペクタライザー
 tile.platform.name=天上のプラットフォーム
-tile.spawner.name=Tablet of Necromancy
+tile.spawner.name=死霊術のタブレット
 tile.bedrockPortal.name=岩盤ポータル
-tile.Levitational Locomotive.name=浮上式機関車
-tile.Levitational Locomotive Relay.name=浮上式機関車中継器
+tile.Levitational Locomotive.name=浮上式駆動装置
+tile.Levitational Locomotive Relay.name=浮上式駆動装置中継器
 tile.golemConnector.name=ゴーレム接続器
 tile.remotePlacer.name=遠隔設置器
 
@@ -205,7 +205,7 @@ enchantment.ttinkerer:finalStrike=ファイナルストライク
 enchantment.ttinkerer:pounce=奇襲
 enchantment.ttinkerer:shatter=破砕
 enchantment.ttinkerer:shockwave=衝撃波
-enchantment.ttinkerer:valiance=バランス
+enchantment.ttinkerer:valiance=勇敢
 
 
 # WAND COMPONENTS
@@ -244,7 +244,7 @@ ttresearch.page.SHARE_TOME.0=もしある日突然、世界中に自らの知識
 # -- TRANSVECTOR INTERFACE
 ttresearch.name.INTERFACE=トランスベクターインターフェース
 ttresearch.lore.INTERFACE=可能性の拡張
-ttresearch.page.INTERFACE.0=問題は、ブロックには6つしか面がないってこと..." - Direwolf20<BR><BR>常識は覆された！この新たな構造体は、付近にあるブロックに紐づけることができる。するとこのブロックの側面は指定したブロックの面を模倣し、拡張のように機能する。このブロックにはBuildCraft・TE3・IC2のエネルギー、エッセンシア、アイテム、液体を入力することが可能で、最後の2つに関しては出力も可能である。<BR>[続く]
+ttresearch.page.INTERFACE.0="問題は、ブロックには6つしか面がないってこと..." - Direwolf20<BR><BR>常識は覆された！この新たな構造体は、付近にあるブロックに紐づけることができる。するとこのブロックの側面は指定したブロックの面を模倣し、拡張のように機能する。このブロックにはBuildCraft・TE3・IC2のエネルギー、エッセンシア、アイテム、流体を入力することが可能で、最後の2つに関しては出力も可能である。<BR>[続く]
 ttresearch.page.INTERFACE.1=インターフェースをブロックに紐づけるには、特別なツールを作る必要がある。トランスベクター結合器と呼ばれるものがその役割を果たすはずだ。<BR><BR>インターフェースを右クリックした後で紐づけたい対象を右クリックするとこの2つは紐づけられ、準備完了となる。ただし距離の制限はたったの4ブロックと短い。(メモ:BuildCraftのパイプを使う場合、正しく機能させるにはパイプを再設置する必要がある。)
 ttresearch.page.INTERFACE.2=また、別のブロックで右クリックすることでカモフラージュも可能である。この"カバー"を取り除きたい場合、カモフラージュしたブロックを素手で右クリックすればいい。
 
@@ -297,292 +297,292 @@ ttresearch.page.FOCUS_DISLOCATION.1=Vis消費はブロックを取得した際�
 
 # -- TALISMAN OF REMEDIUM
 ttresearch.name.CLEANSING_TALISMAN=レメディウムのタリスマン
-ttresearch.lore.CLEANSING_TALISMAN=Better than milk
-ttresearch.page.CLEANSING_TALISMAN.0=You have studied life and the body and found that through the application of magic you can protect yourself from harmful outside influences by redirecting these effects to a construct. This talisman will dispel most harmful effects on the holder and keep them on itself, taking damage. It will removed some effects stemming from warp, at an extreme durability cost.<BR><BR>To enable or disable this ability, one would shift-right click on it. As expected, it only works whilst enabled. It must be worn in your amulet slot to take effect.
+ttresearch.lore.CLEANSING_TALISMAN=ミルクより良いもの
+ttresearch.page.CLEANSING_TALISMAN.0=生命と肉体について研究した末、魔法を応用して有害な外部からの影響をある構造体へと向けることで身を守る方法を発見した。このタリスマンは所有者にかかったデバフのほとんどを打ち消し、耐久値を消費してそのデバフを保持する。歪みにより生じた効果の一部を取り除くこともできるが、耐久値を大幅に消費する、。<BR><BR>この能力を有効化または無効化するには、手に持ってShift右クリックすればいい。当然ながら、有効化している間のみ機能する。また、効果を発動するにはBaublesのお守りスロットに装備していなければならない。
 
 # -- HYPERENERGETIC NITOR
-ttresearch.name.BRIGHT_NITOR=Hyperenergetic Nitor
-ttresearch.lore.BRIGHT_NITOR=Lighting the path
-ttresearch.page.BRIGHT_NITOR.0=You managed to create a light that will shine even if it's being carried by a player by energizing the everburning flame that is Nitor with powerful energetic aspects such as Potentia and Lux.<BR><BR>The light casted by this will shine closely behind the carrier, it seems to leave a longer trail in the Nether, due to the heat.
+ttresearch.name.BRIGHT_NITOR=活性化したニトロ
+ttresearch.lore.BRIGHT_NITOR=道を照らして
+ttresearch.page.BRIGHT_NITOR.0=永久に燃え続ける炎であるニトロをPotentiaやLuxといった力に満ちた相で活性化することで、プレイヤーが持ち運んでいる時でも輝きを放つ光源を生み出すことに成功した。<BR><BR>これによって召喚された光源は所有者のすぐ後ろを照らす。ネザーにおいては、その熱のためこの痕跡が長く留まるようである。
 
 # -- WAND FOCUS: TELEKINESIS
-ttresearch.name.FOCUS_TELEKINESIS=Wand Focus: Telekinesis
-ttresearch.lore.FOCUS_TELEKINESIS=Beats gravity bubbles any day
-ttresearch.page.FOCUS_TELEKINESIS.0=You created a wand focus that kinetically moves objects laying on the floor. This focus will move any nearby items to where you're pointing at. Sneaking will bring the items towards you instead.
+ttresearch.name.FOCUS_TELEKINESIS=テレキネシスの杖星
+ttresearch.lore.FOCUS_TELEKINESIS=いつか重力圏を打ち破る
+ttresearch.page.FOCUS_TELEKINESIS.0=床に置かれた物体を動的に移動させる杖星を生み出した。この杖星は付近のアイテムを使用者が指し示した点へと動かす。スニークしながら使用すると、代わりにアイテムを自分の方へと持ってくる。
 
 # -- KINETIC ATTRACTION
-ttresearch.name.MAGNETS=Kinetic Attraction
-ttresearch.lore.MAGNETS=How do they work?
-ttresearch.page.MAGNETS.0=Working with the telekinesis focus, you managed to apply this knowledge to create a device to attract items or living beings, like a magnet.<BR><BR>These two blocks have two states, north (red) and south (blue), in north mode it'll push items, or entities away; in south mode it'll pull them in.<BR><BR>The range of the attraction depends on the redstone signal applied to it. A lever next to it will allow for 7.5 blocks, while a current from farther away will make it shorter. In general, the attraction is equal to half the redstone signal's strength in blocks, in every direction.
-ttresearch.page.MAGNETS.1=You designed two devices. The Kinetic and Corporeal Attractors, these, respectively affect items and living beings.<BR><BR>The Corporeal Attractor involves some more complex mechanisms, to which you can access by right clicking it with a casting wand. Using a Soul Mould, you can right click on a mob to save it as a pattern, which you can set in the attractor's interface, as a filter, along with settings for child or adult animals, if available.
+ttresearch.name.MAGNETS=運動学的引力
+ttresearch.lore.MAGNETS=どういう原理？
+ttresearch.page.MAGNETS.0=テレキネシスの杖星について研究を続け、この知識を応用してアイテムや生物を引き付ける磁石のような装置を生み出すことに成功した。<BR><BR>この2つのブロックはN(赤色)とS(青色)の2種類の状態をとり得る。Nモードではアイテムまたはエンティティを遠くへと押し出し、Sモードでは引き付けるのだ。<BR><BR>引き付けの範囲はこのブロックに入力されているレッドストーン信号の強度に依存する。例えばレバーを隣に置いてオンにすると引き付ける距離は7.5ブロックになるが、レバーをもっと遠くに置けばその距離は短くなる。基本的に、この引き付け距離はブロックに入力されるレッドストーン信号強度の半分に等しく、これが全方位に適用される。
+ttresearch.page.MAGNETS.1=2つの装置を設計した。キネティック・アトラクターとコーポラル・アトラクターはそれぞれ、アイテムと生物に対して効果を発揮する。<BR><BR>コーポラル・アトラクターにはより複雑な機構が備わっており、杖で右クリックすることでアクセス可能である。ソウルモールドでモブを右クリックしパターンとして保存することで、アトラクターのインターフェース内でフィルターとして使用することができる。加えて、設定可能であれば動物の幼体または成体を設定することもできる。
 
 # -- OSMOTIC ENCHANTER
-ttresearch.name.ENCHANTER=Osmotic Enchanter
-ttresearch.lore.ENCHANTER=Picking your luck
-ttresearch.page.ENCHANTER.0=You grew tired of getting terrible enchantments for your efforts. To that, you created a new enchantment table that allows you to pick what enchantments you want to apply to an item.<BR><BR>This new contraption requires a wand, each enchantment requires a specific combination of vis from that wand. The price of the enchantment is exponentially proportional to the level you want to apply.<BR><BR>Regular enchantment rules apply, for example, you can't combine Silk Touch with Fortune.
-ttresearch.page.ENCHANTER.1=After you selected the enchantments you want on an item, clicking the red button in the interface will start the enchanting progress. As the item is being enchanted, you can't take it out of the table, nor can you change the enchantments you are putting on it.<BR><BR>The table will slowly drain vis from the wand, until it's done. For this to work, there needs to be 6 pillars in the nearby vicinity (4 blocks), these pillars need to be at the same level of the table.<BR><BR>[continued]
-ttresearch.page.ENCHANTER.2=The pillars need to be made of two to twelve Obsidian Totem blocks stacked on top of each other, with a piece of Nitor on top of them. The enchanter will get flux energy from them, grabbing vis from the wand and combining them to enchant the item.<BR><BR>Lastly, the enchanter will cease to function with iron or copper capped wands, due to them being too rustic and basic for the complex infusions required.
+ttresearch.name.ENCHANTER=オスモティックエンチャンター
+ttresearch.lore.ENCHANTER=運の選抜
+ttresearch.page.ENCHANTER.0=努力に見合わぬ酷いエンチャントが付与されるのにうんざりしてきた。これに対し、適用したいエンチャントを選ぶことができる新たなエンチャントテーブルを生み出した。<BR><BR>この新たな装置には杖が必要であり、それぞれのエンチャントには特定の組み合わせのVisが要求される。エンチャントのコストは適用したいレベルの上昇に応じて急激に増加する。<BR><BR>エンチャントにおけるルールは通常通りで、例えばシルクタッチと幸運を組み合わせることはできない。
+ttresearch.page.ENCHANTER.1=アイテムに付与したいエンチャントを選択した後、インターフェース内にある赤いボタンをクリックするとエンチャントの工程が始まる。アイテムがエンチャントされている間、そのアイテムをテーブルから取り出したり、つけるエンチャントを変更することはできない。<BR><BR>エンチャントが終わるまで、テーブルは杖からゆっくりとVisを吸い出す。機能させるには、テーブルから4ブロックの範囲内に、6本の柱を建てる必要がある。この柱はテーブルと同じ高さに建てなければならない。<BR><BR>[続く]
+ttresearch.page.ENCHANTER.2=柱は2個から12個の黒曜石のトーテムを積み上げて構成し、頂上にはニトロをあしらう。エンチャンターはその柱から流れるエネルギーを得て、杖からVisを奪い組み合わせてアイテムにエンチャントを行う。<BR><BR>最後に、鉄または銅留めの杖では、エンチャントに必要となる複雑な注入を行うにはあまりにも質素で基礎レベルのものであるために、エンチャンターを機能させることができない。
 
 # -- TALISMAN OF WITHHOLD
-ttresearch.name.XP_TALISMAN=Talisman of Withhold
-ttresearch.lore.XP_TALISMAN=I'll take your 'time'
-ttresearch.page.XP_TALISMAN.0=After knowing that Zombie Brains have the ability to store experience, you have created a talisman that mimics that behaviour, not to a perfect extent though.<BR><BR>To switch the ability to store experience, you need to shift-right-click on the talisman. When the talisman is enabled, it'll absorb any nearby experience orbs, those can be transformed back into usable experience by right clicking with a glass bottle in your inventory, turning that bottle into a Bottle o' Enchanting. It must be worn in your amulet slot to take effect.
+ttresearch.name.XP_TALISMAN=抑制のタリスマン
+ttresearch.lore.XP_TALISMAN='時間'を頂こう
+ttresearch.page.XP_TALISMAN.0=ゾンビの脳みそに経験値を貯蓄する能力があると知った後、完璧というほどではないものの、その振る舞いを模倣するタリスマンを生み出した。<BR><BR>経験値を貯蔵する能力を切り替えるには、このタリスマンをShift右クリックする必要がある。タリスマンが有効になると、付近の経験値オーブを吸収する。吸収した経験値は、インベントリ内にガラス瓶がある状態で右クリックすることでエンチャントの瓶に変換され、利用可能な形へと戻すことができる。また、このタリスマンの効果を発揮させるにはお守りスロットに装着しなければならない。
 
 # -- ESSENTIA FUNNEL
-ttresearch.name.FUNNEL=Essentia Funnel
-ttresearch.lore.FUNNEL=Even transfer
-ttresearch.page.FUNNEL.0=You grew tired of managing your jars with phials, to that, you created this new mechanism to transfer the contents of one into another.<BR><BR>By placing this block above a hopper, and right clicking it with a filled jar, if the hopper is pointing into a jar that's either empty or of the same aspect, the contents of the jar will be transferred over.
+ttresearch.name.FUNNEL=エッセンシア漏斗
+ttresearch.lore.FUNNEL=せやかて移動
+ttresearch.page.FUNNEL.0=保護瓶の中身を薬瓶を介してやりとりするのにはうんざりだ。これに対し、内容物を一方からもう一方へ移すための新たな機構を生み出した。<BR><BR>このブロックをホッパーの上に設置し、中身の入った保護瓶で右クリックすることで、輸送先の保護瓶の中身が空か同じ相であればその内容物を輸送することができる。
 
 # -- ENCHANTMENT: ASCENT BOOST
-ttresearch.name.TTENCH_ASCENT_BOOST=Enchantment: Ascent Boost
-ttresearch.lore.TTENCH_ASCENT_BOOST=Jump good.
-ttresearch.page.TTENCH_ASCENT_BOOST.0=You have formulated an enchantment that allows you to jump higher than you normally can.<BR><BR>This enchantment can be applied on leg armor. When done so, the wearer will be able to jump a lot higher than normal.
+ttresearch.name.TTENCH_ASCENT_BOOST=エンチャント: 跳躍力上昇
+ttresearch.lore.TTENCH_ASCENT_BOOST=こころぴょんぴょん
+ttresearch.page.TTENCH_ASCENT_BOOST.0=通常より高くジャンプできるようになるエンチャントを編み出した。<BR><BR>このエンチャントはレギンスに適用可能である。適用すると、着用者のジャンプが通常より大幅に高くなる。
 
 # -- ENCHANTMENT: SLOW FALL
-ttresearch.name.TTENCH_SLOW_FALL=Enchantment: Slow Fall
-ttresearch.lore.TTENCH_SLOW_FALL=Falling with style
-ttresearch.page.TTENCH_SLOW_FALL.0=You have formulated an enchantment that allows you to fall slowly.<BR><BR>This enchantment can be applied on foot armor. When done so, the wearer will fall at a slower rate, this will also reduce, if not negating the fall damage.<BR><BR>Pressing Shift will temporarily disable this effect allowing you to fall normally.
+ttresearch.name.TTENCH_SLOW_FALL=エンチャント: 低速落下
+ttresearch.lore.TTENCH_SLOW_FALL=落ちてるだけだ、かっこつけてな
+ttresearch.page.TTENCH_SLOW_FALL.0=ゆっくりと落下できるようになるエンチャントを編み出した。<BR><BR>このエンチャントはブーツに適用可能である。適用すると、着用者が低速で落下するようになり、落下ダメージも軽減する。<BR><BR>Shiftを押すとこの効果が一時的に無効化され、通常通り落下できる。
 
 # -- ENCHANTMENT: FLAMING TOUCH
-ttresearch.name.TTENCH_AUTO_SMELT=Enchantment: Flaming Touch
-ttresearch.lore.TTENCH_AUTO_SMELT=Like a hot axe through butter
-ttresearch.page.TTENCH_AUTO_SMELT.0=You have formulated an enchantment that allows you to summon imaginary flames.<BR><BR>This enchantment can be applied on tools. When done so, the wielder can break anything wooden with extreme finesse, by use of a flame that softens the wood through the breaking process, but never destroying or damaging it. However, the tool becomes impotent against anything else, and takes double durability damage.
+ttresearch.name.TTENCH_AUTO_SMELT=エンチャント: 火焔の接触
+ttresearch.lore.TTENCH_AUTO_SMELT=熱い斧でバターを切るように
+ttresearch.page.TTENCH_AUTO_SMELT.0=仮想的な炎を呼び出せるようになるエンチャントを編み出した。<BR><BR>このエンチャントはツールに適用可能である。適用すると、破壊の過程で炎を用い、木を損なうことなく軟らかくすることで、木製のものならなんでも極めて手際よく破壊することができるようになる。ただし、そのツールはその他すべてのものに対して無力になるとともに、耐久値の消費が2倍になる。
 
 # -- ENCHANTMENT: DISINTEGRATE
-ttresearch.name.TTENCH_DESINTEGRATE=Enchantment: Disintegrate
-ttresearch.lore.TTENCH_DESINTEGRATE=Spacequake alert
-ttresearch.page.TTENCH_DESINTEGRATE.0=You have formulated an enchantment that allows you to mine soft materials at incredible speeds.<BR><BR>This enchantment can be applied on tools. When done so, the wielder can break regular blocks (dirt, stone, netherrack, etc.) that the tool is good for with extreme finesse, however, the tool becomes impotent against anything else, and takes double durability damage.
+ttresearch.name.TTENCH_DESINTEGRATE=エンチャント: 崩壊
+ttresearch.lore.TTENCH_DESINTEGRATE=宇宙震動特別警報
+ttresearch.page.TTENCH_DESINTEGRATE.0=柔らかい素材を驚異的な速度で破壊できるようになるエンチャントを編み出した。<BR><BR>このエンチャントはツールに適用可能である。適用すると、そのツールが破壊適性を持つブロック(土、石、ネザーラックなど)を極めて手際よく破壊することができるようになる。ただし、そのツールはその他すべてのものに対して無力になるとともに、耐久値の消費が2倍になる。
 
 # -- ENCHANTMENT: QUICK DRAW
-ttresearch.name.TTENCH_QUICK_DRAW=Enchantment: Quick Draw
-ttresearch.lore.TTENCH_QUICK_DRAW=May the odds ever be in your favor
-ttresearch.page.TTENCH_QUICK_DRAW.0=You have formulated an enchantment that allows you to draw your bow in a quicker fashion.<BR><BR>This enchantment can be applied on bows. When done so, the bow can be fully drawn faster than normally.
+ttresearch.name.TTENCH_QUICK_DRAW=エンチャント: 高速装填
+ttresearch.lore.TTENCH_QUICK_DRAW=つねに幸あらんことを
+ttresearch.page.TTENCH_QUICK_DRAW.0=弓をより素早く引き絞れるようになるエンチャントを編み出した。<BR><BR>このエンチャントは弓に適用可能である。適用すると、弓を通常より速く引くくとができる。
 
 # -- ENCHANTMENT: VAMPIRISM
-ttresearch.name.TTENCH_VAMPIRISM=Enchantment: Vampirism
-ttresearch.lore.TTENCH_VAMPIRISM=I'll take that
-ttresearch.page.TTENCH_VAMPIRISM.0=You have formulated an enchantment that allows you to drain the health of the enemies you attack.<BR><BR>This enchantment can be applied on swords. When done so, a chunk of the damage dealt to a living thing using that sword will be given back to the wielder.
+ttresearch.name.TTENCH_VAMPIRISM=エンチャント: 吸血
+ttresearch.lore.TTENCH_VAMPIRISM=そいつは貰った
+ttresearch.page.TTENCH_VAMPIRISM.0=攻撃した敵の体力を吸収できるようになるエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用可能である。適用すると、その剣で生物に与えたダメージの一部が使用者の回復に充てられる。
 
 # -- ENCHANTMENT: DISPERSED_STRIKES
-ttresearch.name.TTENCH_DISPERSED=Enchantment: Dispersed Strikes
-ttresearch.lore.TTENCH_DISPERSED=Kill ALL the mobs
-ttresearch.page.TTENCH_DISPERSED.0=You have formulated an enchantment that allows you to fight many mobs at once.<BR><BR>This enchantment can be applied on swords. When done so, the damage to a mob on the first hit will be multiplied, but the damage on successive strikes to the same mob will be decreased.
+ttresearch.name.TTENCH_DISPERSED=エンチャント: 分散特攻
+ttresearch.lore.TTENCH_DISPERSED=そいつら全員ぶっ殺せ
+ttresearch.page.TTENCH_DISPERSED.0=同時に複数のモブと戦えるようになるエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用可能である。適用すると、初撃のダメージに倍率がかかるが、同じモブに攻撃し続けると与えるダメージが減少するようになる。
 
 # -- ENCHANTMENT: FOCUSED_STRIKES
-ttresearch.name.TTENCH_FOCUSED=Enchantment: Focused Strikes
-ttresearch.lore.TTENCH_FOCUSED=Kill ONE OF the mobs
-ttresearch.page.TTENCH_FOCUSED.0=You have formulated an enchantment that enables you to become proficient at fighting a single mob.<BR><BR>This enchantment can be applied on swords. When done so, the damage to a mob on the first hit will be decreased, but the damage on successive strikes to the same mob will be increased.
+ttresearch.name.TTENCH_FOCUSED=エンチャント: 集中特攻
+ttresearch.lore.TTENCH_FOCUSED=そん中から1体ぶっ殺せ
+ttresearch.page.TTENCH_FOCUSED.0=単体のモブとの戦闘が上達するエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用可能である。適用すると、初撃のダメージは減少するが、同じモブに攻撃し続けると与えるダメージが増加するようになる。
 
 # -- ENCHANTMENT: FINAL_STRIKE
-ttresearch.name.TTENCH_FINAL=Enchantment: Final Strike
-ttresearch.lore.TTENCH_FINAL=Go for the head!
-ttresearch.page.TTENCH_FINAL.0=You have formulated an enchantment that enables you to occasionally score critical hits.<BR><BR>This enchantment can be applied on swords. When done so, there is a chance that a hit will do triple damage.
+ttresearch.name.TTENCH_FINAL=エンチャント: ファイナルストライク
+ttresearch.lore.TTENCH_FINAL=頭を狙え！
+ttresearch.page.TTENCH_FINAL.0=時々クリティカルヒットが発生するようになるエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用可能である。適用すると、攻撃時にダメージが3倍になる可能性が生じる。
 
 # -- ENCHANTMENT: VALIANCE
-ttresearch.name.TTENCH_VALIANCE=Enchantment: Valiance
-ttresearch.lore.TTENCH_VALIANCE=Back from the edge
-ttresearch.page.TTENCH_VALIANCE.0=You have formulated an enchantment that enables you to fight better when at low health.<BR><BR>This enchantment can be applied on swords. When done so, damage done with the sword will be increased when the wielder is at low health.
+ttresearch.name.TTENCH_VALIANCE=エンチャント: 勇敢
+ttresearch.lore.TTENCH_VALIANCE=崖っぷちから戻る
+ttresearch.page.TTENCH_VALIANCE.0=低体力時に戦闘力が向上するエンチャントを編み出した。<BR><BR>このエンチャントは剣に適用可能である。適用すると、使用者の体力が少ない場合その剣で与えるダメージが増加する。
 
 
 # -- ENCHANTMENT: TUNNEL
-ttresearch.name.TTENCH_TUNNEL=Enchantment: Tunnel
-ttresearch.lore.TTENCH_TUNNEL=Mining is boring
-ttresearch.page.TTENCH_TUNNEL.0=You have formulated an enchantment that enables you to become more efficient at digging straight lines.<BR><BR>This enchantment can be applied on tools. When done so, digging multiple blocks in a straight line will increase your digging speed.
+ttresearch.name.TTENCH_TUNNEL=エンチャント: 坑道
+ttresearch.lore.TTENCH_TUNNEL=採掘は退屈
+ttresearch.page.TTENCH_TUNNEL.0=直線をより効率的に採掘できるようになるエンチャントを編み出した。<BR><BR>このエンチャントはツールに適用可能である。適用すると、直線上にあるブロックを複数掘ったときに採掘速度が上昇する。
 
 # -- ENCHANTMENT: SHATTER
-ttresearch.name.TTENCH_SHATTER=Enchantment: Shatter
-ttresearch.lore.TTENCH_SHATTER=Who needs obsidian
-ttresearch.page.TTENCH_SHATTER.0=You have formulated an enchantment that enables you to become more efficient at destroying strong blocks.<BR><BR>This enchantment can be applied on tools. When done so, digging speed will be greatly increased on strong blocks.
+ttresearch.name.TTENCH_SHATTER=エンチャント: 破砕
+ttresearch.lore.TTENCH_SHATTER=黒曜石っている？
+ttresearch.page.TTENCH_SHATTER.0=強固なブロックをより効率的に採掘できるようになるエンチャントを編み出した。<BR><BR>このエンチャントはツールに適用可能である。適用すると、堅いブロックを掘るときに採掘速度が大きく上昇する。
 
 # -- ENCHANTMENT: SHOCKWAVE
-ttresearch.name.TTENCH_SHOCKWAVE=Enchantment: Shockwave
-ttresearch.lore.TTENCH_SHOCKWAVE=Mini Earthquakes
-ttresearch.page.TTENCH_SHOCKWAVE.0=You have formulated an enchantment that enables you to become to kill enemies while falling.<BR><BR>This enchantment can be applied on boots. When done so, whenever the wearer falls, damage will be dealt to surrounding mobs or players.<BR><BR>Unfortunately Magics of all types that make the player lighter, so to prevent damage from falling, will make the player too light to damage entities. You feel there may be ways to stop this at a later time, once you know the magic better.
+ttresearch.name.TTENCH_SHOCKWAVE=エンチャント: 衝撃波
+ttresearch.lore.TTENCH_SHOCKWAVE=ちっちゃな地震
+ttresearch.page.TTENCH_SHOCKWAVE.0=落下中に敵を倒すことができるようになるエンチャントを編み出した。<BR><BR>このエンチャントはブーツに適用可能である。適用すると、着用者が落下した際に周囲のモブやプレイヤーへダメージを与える。<BR><BR>残念ながら、プレイヤーを軽くして落下ダメージを防ぐタイプの魔法はすべて、プレイヤーが軽くなりすぎてしまうために、周囲のエンティティへダメージを与えることを不可能にしてしまう。だがこの魔法についてより深く知ることができれば、後からこの現象を止める方法が見つかるかもしれないと感じる。
 
 # -- ENCHANTMENT: POUNCE
-ttresearch.name.TTENCH_POUNCE=Enchantment: Pounce
-ttresearch.lore.TTENCH_POUNCE=Light on your feet
-ttresearch.page.TTENCH_POUNCE.0=You have formulated an enchantment that enables you to to leap on your foes.<BR><BR>This enchantment can be applied on leggings. When done so, your attacks will be more powerful while you are in the air.
+ttresearch.name.TTENCH_POUNCE=エンチャント: 奇襲
+ttresearch.lore.TTENCH_POUNCE=軽やかに
+ttresearch.page.TTENCH_POUNCE.0=敵に飛びかかれるようになるエンチャントを編み出した。<BR><BR>このエンチャントはレギンスに適用可能である。適用すると、空中にいる間の攻撃がより強力になる。
 
 
 # -- WAND FOCUS: EFREET'S FLAME
-ttresearch.name.FOCUS_SMELT=Wand Focus: Efreet's Flame
-ttresearch.lore.FOCUS_SMELT=All burned up
-ttresearch.page.FOCUS_SMELT.0=By combining the flame and excavation foci, you made one that has features from both.<BR><BR>This focus will smelt any blocks in the world that the caster is pointing at, akin to the excavation focus' beam. Only blocks that smelt into other blocks in a mundane furnace will be smelted.
+ttresearch.name.FOCUS_SMELT=イフリートの炎の杖星
+ttresearch.lore.FOCUS_SMELT=全て燃えてしまえ
+ttresearch.page.FOCUS_SMELT.0=炎の杖星と採掘の杖星を組み合わせることで、その両方の要素を持つ杖星を作った。<BR><BR>この杖星は採掘の杖星に似たビームで、使用者の視線の先にあるブロックを精錬する。対象は通常のかまどで精錬可能なブロックのみである。
 
 # -- WAND FOCUS: MENDING
-ttresearch.name.FOCUS_HEAL=Wand Focus: Mending
-ttresearch.lore.FOCUS_HEAL=Healers never die
-ttresearch.page.FOCUS_HEAL.0=You know Pech carry powerful foci that can induce diseases, with that, you devised a way to use them to your benefits.<BR><BR>This focus will slowly mend the caster's wounds as they're using it, using vis from the wand in the process.
+ttresearch.name.FOCUS_HEAL=修繕の杖星
+ttresearch.lore.FOCUS_HEAL=ヒーラーは絶対に死なない
+ttresearch.page.FOCUS_HEAL.0=ペックが病を引き起こす強力な杖星を持っているのは知っての通りだが、それを使って己に利益をもたらす方法を発明した。<BR><BR>この杖星は杖のVisを利用して、使用者の傷をゆっくりと治す。
 
 # -- WAND FOCUS: ENDER RIFT
-ttresearch.name.FOCUS_ENDER_CHEST=Wand Focus: Ender Rift
-ttresearch.lore.FOCUS_ENDER_CHEST=A 'pocket' to the fourth dimension
-ttresearch.page.FOCUS_ENDER_CHEST.0=By combining a Hand Mirror with a portable hole, you managed to construct a focus that tears a rift in the ender, allowing you to access the contents of your Ender Chest remotely.
-ttresearch.page.FOCUS_ENDER_CHEST.ES=By combining a Hand Mirror with a portable hole, you managed to construct a focus that tears a rift in the ender, allowing you to access the contents of your Ender Chests remotely. <BR> Shift right click on an ender chest to set the focus to that colour, or shift right click on a block of obsidian to set the focus to the vanilla ender storage.
+ttresearch.name.FOCUS_ENDER_CHEST=次元の裂目の杖星
+ttresearch.lore.FOCUS_ENDER_CHEST=四次元ポケット
+ttresearch.page.FOCUS_ENDER_CHEST.0=魔法の鏡とポータブルホールの杖星を組み合わせることで、エンダー次元の裂け目を作り出す杖星を構築した。これにより、エンダーチェストの中身に遠隔でアクセスすることができる。
+ttresearch.page.FOCUS_ENDER_CHEST.ES=魔法の鏡とポータブルホールの杖星を組み合わせることで、エンダー次元の裂け目を作り出す杖星を構築した。これにより、エンダーチェストの中身に遠隔でアクセスすることができる。<BR>エンダーチェストにShift右クリックすると杖星がその色に設定される。または黒曜石にShift右クリックすると杖星はバニラのエンダーチェストに設定される。
 
 # -- CURSED SPIRIT'S BLADE
-ttresearch.name.BLOOD_SWORD=Cursed Spirit's Blade
-ttresearch.lore.BLOOD_SWORD=You're being unpleasant
-ttresearch.page.BLOOD_SWORD.0=You created a sword that strikes with unparalleled force. However, for this to be the case, the sword feeds on the striker's blood.<BR><BR>Upon damaging anything with this sword, the attacker will take one heart of damage. Blocking with this sword will always deal only 1.5 hearts, regardless of the original damage.<BR><BR>Furthermore, simply holding this sword gives the holder a steadfast aura, making them move faster than normal.
-ttresearch.page.BLOOD_SWORD.1=You have also discovered that the sword can reap the souls of mobs instead of normal drops. This ability is activated via a shift-right click. These souls are rich in essentia, but you suspect that they might have other uses.
+ttresearch.name.BLOOD_SWORD=呪われた魂の刃
+ttresearch.lore.BLOOD_SWORD=お前は不快だ
+ttresearch.page.BLOOD_SWORD.0=比類なき力で攻撃できる剣を生み出した。ただし、攻撃者の血を与えなければその力は発揮されないが。<BR><BR>この剣でダメージを与えたとき、攻撃者はハート1個分のダメージを受ける。またこの剣で攻撃をガードすると、元のダメージ量に関わらず常にハート1.5個分のダメージしか受けない。<BR><BR>さらに、この剣を持っているだけで所持者は揺るぎないオーラを放ち、通常よりも速く動けるようになる。
+ttresearch.page.BLOOD_SWORD.1=また、この剣はモブから通常のドロップの代わりに魂を刈り取ることができるとわかった。この能力はShift右クリックで活性化できる。この魂にはエッセンシアが豊富に含まれているが、他の使い道もあるかもしれない。
 
 # -- Mob Summoning
-ttresearch.name.SUMMON=Mob Summoning
-ttresearch.lore.SUMMON=Almost necromancy
-ttresearch.page.SUMMON.0=You are able to use the souls gained from a Cursed spirits blade in order to summon mobs. Place three pedestals around a Tablet of Necromancy. On the pedestals, place three soul aspects. Different types of soul aspects give different types of mobs. Every mob has a different composition.
-ttresearch.page.SUMMON.1=By creating Infused Soul Aspects, you are able to summon mobs without consuming Soul Aspects. Summoning using Infused Soul Aspects is much slower than normal.
+ttresearch.name.SUMMON=モブの召喚
+ttresearch.lore.SUMMON=ほぼ死霊術
+ttresearch.page.SUMMON.0=呪われた魂の刃から得られた魂はモブの召喚に使うことができる。まず死霊術のタブレットの周囲に3つの台座を設置する。その台座の上に魂のアスペクトを3つ置くのだ。魂のアスペクトの種類によって召喚されるモブの種類も変わる。すべてのモブはそれぞれ異なる組み合わせで召喚される。
+ttresearch.page.SUMMON.1=注入済みの魂のアスペクトを作ることで、魂のアスペクトを消費することなくモブの召喚を行うことができる。ただし注入済みの魂のアスペクトを使った召喚は通常よりもかなり遅い。
 
 # -- TRANSVECTOR DISLOCATOR
-ttresearch.name.DISLOCATOR=Transvector Dislocator
-ttresearch.lore.DISLOCATOR=No Blood Magic required
-ttresearch.page.DISLOCATOR.0=By studying motion, you managed to create a block that swaps two blocks in space.<BR><BR>This block acts like a Transvector Interface, where it must be bound to another location in space using a Transvector Binder, you can set the direction it's facing using a wand, and when a redstone signal is applied, the dislocator will swap the block in front of it with the block linked to using the binder. It also transports any and all entities in those areas.<BR><BR>It can be camouflaged similarly to the Transvector Interface. It has a longer range than it, 16 blocks.
+ttresearch.name.DISLOCATOR=トランスベクターディスロケーター
+ttresearch.lore.DISLOCATOR=Blood Magicいらず
+ttresearch.page.DISLOCATOR.0=動きについて研究することで、2つのブロックを入れ替えるブロックを生み出した。<BR><BR>このブロックはトランスベクターインターフェースのようにトランスベクター結合器で別の場所に紐づけて使う。向きは杖を使って変えることができる。そしてレッドストーン信号を入力すると、ディスロケーターは正面にあるブロックと結合器を使って紐づけたブロックとを入れ替える。また、その位置にいるすべてのエンティティを移動させることもできる。<BR><BR>トランスベクターインターフェースと同様、カモフラージュも可能である。ただし有効範囲はインターフェースよりも広く、16ブロックある。
 
 # -- HELMET OF REVEALING
-ttresearch.name.REVEALING_HELM=Helmet of Revealing
-ttresearch.lore.REVEALING_HELM=Low effort alternative
-ttresearch.page.REVEALING_HELM.0=As it turns out, goggles don't offer much protection from attacking zombies. You think you have a fix for that though. By strapping goggles of revealing onto a thaumium helmet, you can get the benefits of both. Well, it turns out it is a bit more complicated than that. A bit of magic is required to avoid feedback loops, and a bit of magic to keep them from slipping off, but on the whole, it more or less works.
+ttresearch.name.REVEALING_HELM=洞察のヘルメット
+ttresearch.lore.REVEALING_HELM=手抜きで作った代替品
+ttresearch.page.REVEALING_HELM.0=結局のところ、洞察の眼鏡はゾンビの攻撃に耐えうるほどの防御力も持ち合わせていない。しかしこれには改善策があると考えた。洞察の眼鏡を魔導金属のヘルメットに結び付けることで、その両方の恩恵も得られるのだ。ただし、現実はその考えよりも少し複雑だとわかった。フィードバックループを回避するための魔法と、剥離を防ぐための魔法が少し必要だ。しかし全体として見れば、だいたい機能する。
 
 # -- THAUMIC REHABILITATOR
-ttresearch.name.REPAIRER=Thaumic Restorer
-ttresearch.lore.REPAIRER=Undoing the damage you've done
-ttresearch.page.REPAIRER.0=You created a new contraption to restore broken tools. By right clicking this block with a broken tool and hooking it to essentia tubes, it'll gather essentia to repair the tool.<BR><BR>The essentia that will repair items is Instrumentum.<BR><BR>Looking at the block with goggles of revealing also shows how worn down the item in it still is. Redstone current will be emitted while an item is being repaired.
+ttresearch.name.REPAIRER=神秘の修復器
+ttresearch.lore.REPAIRER=与えた損害を元に戻す
+ttresearch.page.REPAIRER.0=壊れたツールを修復する新たな装置を生み出した。このブロックを壊れかけのツールで右クリックし、エッセンシア管を繋げることで、エッセンシアを集めてツールを修理する。<BR><BR>アイテムを修理するエッセンシアとは、Instrumentumだ。<BR><BR>洞察の眼鏡でこのブロックを見ることで、それまでに消費した耐久値を表示することもできる。また、アイテムを修理している間はレッドストーン信号を出力する。
 
 # -- WAND FOCUS: DISTORTION
-ttresearch.name.FOCUS_DEFLECT=Wand Focus: Distortion
-ttresearch.lore.FOCUS_DEFLECT=Turbulance shield
-ttresearch.page.FOCUS_DEFLECT.0=You created a focus to protect you from incoming fire.<BR><BR>This focus, when in use, will constantly drain vis from the wand it's inserted on, in order to summon a ward around the caster, making ordinary projectiles pass through them harmlessly.<BR><BR>Ordinary projectiles include arrows, snowballs or potions. It seems the ward is not strong enough to displace stronger attacks, like fireballs or wither heads.
+ttresearch.name.FOCUS_DEFLECT=歪曲の杖星
+ttresearch.lore.FOCUS_DEFLECT=乱流の盾
+ttresearch.page.FOCUS_DEFLECT.0=迫り来る攻撃から身を守るための杖星を作製した。<BR><BR>この杖星を使用すると、装着した杖からVisを吸収し、使用者の周囲に保護層を召喚する。これにより、たいていの飛び道具は使用者を通り抜け、無害になるのだ。<BR><BR>たいていの飛び道具というのは、矢、雪玉、ポーションを含む。この保護層は火球やウィザーの頭といった強力な攻撃を回避できるほど強くはないようだ。
 
 # -- LEVITATOR LOCOMOTIVE
-ttresearch.name.LEVITATOR_LOCOMOTIVE=Levitational Locomotive
-ttresearch.lore.LEVITATOR_LOCOMOTIVE=It moves to the left, it moves to the right.
-ttresearch.page.LEVITATOR_LOCOMOTIVE.0=You created a new contraption to move things back and forth. Two relays placed in a straight line will project a force beam between them. A visual effect will be shown if particles are enabled.<BR><BR> Place a Levitator inside that projected beam. The Levitator will be moved back and forth inside that beam, carrying the block on top of it.
+ttresearch.name.LEVITATOR_LOCOMOTIVE=浮上式駆動装置
+ttresearch.lore.LEVITATOR_LOCOMOTIVE=左に行ったり、右に行ったり。
+ttresearch.page.LEVITATOR_LOCOMOTIVE.0=物体を行ったり来たりさせる新たな装置を作製した。2つの中継器を直線上に設置すると、その間にビームが投射される。パーティクルの描画が有効になっていれば視覚効果で見えるはずだ。<BR><BR>その投射されたビームの中に駆動装置を設置する。すると駆動装置は上面にあるブロックとともに、そのビームの中を行ったり来たりするのだ。
 
 # -- ETHEREAL PLATFORM
-ttresearch.name.PLATFORM=Ethereal Platform
-ttresearch.lore.PLATFORM=Is it really there?
-ttresearch.page.PLATFORM.0=You devised a block that is only solid for anyone standing on top of it. This block does not have a collision box for anyone who doesn't meet that criteria, or is sneaking.<BR><BR>You can also camouflage this block as any other by simply clicking on it.<BR><BR>You think you can use this with the Arcane Levitator for some interesting effects.
+ttresearch.name.PLATFORM=天上のプラットフォーム
+ttresearch.lore.PLATFORM=本当にそこにある？
+ttresearch.page.PLATFORM.0=その上面に立っている者に対してのみ固体となるブロックを発明した。このブロックは先述の基準に合う者、またはスニークしている者に対して当たり判定を持たない。<BR><BR>このブロックに別のブロックで右クリックすることでカモフラージュすることもできる。<BR><BR>これを神秘の浮遊器と併せて使うとおもしろい効果が得られるかもしれない。
 
 # KAMI RESEARCH
 
 # -- DIMENSIONAL SHARDS
-ttresearch.name.DIMENSION_SHARDS=Dimensional Shards
-ttresearch.lore.DIMENSION_SHARDS=Rarities of the Otherworld
-ttresearch.page.DIMENSION_SHARDS.0=Similarly to the overworld, the Nether and the End also have their specific shards, these are rarely held by either Zombie Pigmen living in the Nether or Endermen living in the End. They might be useful for something later on, although you're not quite sure how.<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>
+ttresearch.name.DIMENSION_SHARDS=次元の結晶片
+ttresearch.lore.DIMENSION_SHARDS=別世界の珍品
+ttresearch.page.DIMENSION_SHARDS.0=オーバーワールドと同様、ネザーやエンドにも特有の結晶片が存在する。これらはネザーに生息するゾンビピッグマンか、エンドに生息するエンダーマンが稀に持っている。後で何かに役立つかもしれないが、どのように役立つかはよくわからない。<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>
 
 # -- ICHOR
 ttresearch.name.ICHOR=イコル
-ttresearch.lore.ICHOR=Blood of the Gods
-ttresearch.page.ICHOR.0=Through extensive study in all subjects of thaumaturgy you have discovered a substance that is what you consider to be the next step in your endeavours.<BR><BR>This extremely powerful substance, which you call "Ichor" contains the raw awakened power of a nether star. You are sure you will be able to put it to use for countless devices in the future.
+ttresearch.lore.ICHOR=神々の血
+ttresearch.page.ICHOR.0=魔導学の全ての項目を広範に研究することで、この努力を注ぐ次のステップになると考えられる物質を発見した。<BR><BR>この究極的に強力な物質("イコル"と呼ぶこととする)にはネザースターの純粋な、覚醒した力が含まれている。これは将来、数えきれないほどの装置に利用できるという確信がある。
 
 # -- ICHORCLOTH
-ttresearch.name.ICHOR_CLOTH=Ichorcloth
-ttresearch.lore.ICHOR_CLOTH=Hope you brought a strong needle
-ttresearch.page.ICHOR_CLOTH.0=You found a way of infusing Magical Fabric with your latest discovery, Ichor. Funnily enough, this process does not require the typical infusion procedure, as the Ichor easily absorbs the diamond and blends with the fabric.<BR><BR>However, to do this, you require not only the best wand you ever designed to be fully charged, but you must also be wearing a full set of thaumaturge's robes, in order to convey enough energy for the creation.<BR><BR>You think it's time you start designing a new wand.
+ttresearch.name.ICHOR_CLOTH=イコルの布
+ttresearch.lore.ICHOR_CLOTH=丈夫な針を持ってきてくれたらいいんだけど
+ttresearch.page.ICHOR_CLOTH.0=魔力の込められた布に最新の研究成果であるイコルを注入する方法を発見した。面白いことに、イコルは容易にダイヤモンドを吸収し布と調和するため、この工程には典型的な注入の手順は必要ない。<BR><BR>しかし、この創造に十分なエネルギーを伝達するため、これまでに設計してきた中で最高の杖を満充填するだけでなく、魔導師のローブを全身装備する必要がある。<BR><BR>新たな杖を設計し始める時かもしれない。
 
 # -- ICHORIUM
 ttresearch.name.ICHORIUM=イコリウム
-ttresearch.lore.ICHORIUM=A metal harder than diamond
-ttresearch.page.ICHORIUM.0=More endeavours with Ichor reveal its property to blend with most mundane materials. Most of the blends result in absolutely nothing, however, you have managed to blend it with diamonds and fabric in the past, and this time, with thaumium.<BR><BR>This metal is extremely strong and resilient, to a point where mundane materials could never get. You haven't found any uses for it yet, but you know it shouldn't take you too long.
+ttresearch.lore.ICHORIUM=ダイヤモンドより硬い金属
+ttresearch.page.ICHORIUM.0=イコルについてのさらなる研究努力により、イコルがほとんどのありふれた素材と調和する能力を持っていることが明らかとなった。過去にはダイヤモンドと布に調和させたが、今回は魔導金属にだ。<BR><BR>この金属は極めて強固かつ強靭であり、ありふれた素材の追随を許さないほどの到達点にある。その使い道はまだ見つかっていないが、程なく見つかるだろう。
 
 # -- ICHORCLOTH STRAPPED SILVERWOOD WAND CORE
 ttresearch.name.ROD_ICHORCLOTH=イコルの織り込まれたシルバーウッドの杖身
-ttresearch.lore.ROD_ICHORCLOTH=That's a mouthful
-ttresearch.page.ROD_ICHORCLOTH.0=You have done it. By infusing a silverwood wand core with Ichorcloth, you managed to create the ultimate wand core.<BR><BR>This core holds an insane amount of 1000 of each type of vis. This will definitely make crafting expensive components a bit less stressful. Now the question lies, where will you get all the vis for this?
+ttresearch.lore.ROD_ICHORCLOTH=長くて言いづらい
+ttresearch.page.ROD_ICHORCLOTH.0=成し遂げた。シルバーウッドの杖身にイコルの布を注入することで、究極の杖身を創り出すことに成功したのだ。<BR><BR>この杖身は各Visをなんと1000も保持する。高価な素材のクラフトにおけるストレスを軽減すること間違いなしだ。さて、疑問がある。これを満たすVisはどこから得る？
 
 # -- ICHORIUM WAND CAPS
 ttresearch.name.CAP_ICHOR=イコリウムの石突
-ttresearch.lore.CAP_ICHOR=Somewhat like a Steam Sale
-ttresearch.page.CAP_ICHOR.0=You have put Ichorium to its first ever use, by devising wand caps that give you a 30% discount on everything. Now you need to actually put this to any use and create a wand that can store more vis.
+ttresearch.lore.CAP_ICHOR=Steamセールみたいなもの
+ttresearch.page.CAP_ICHOR.0=イコリウムを初めて使い、すべてのことに対して30%のVis軽減をもたらす石突を発明した。さて、これを実際に何かに活用し、より多くのVisを保持できる杖を作製する必要がある。
 
 # -- ICHORCLOTH ARMOR
-ttresearch.name.ICHORCLOTH_ARMOR=Ichorcloth Robes
-ttresearch.lore.ICHORCLOTH_ARMOR=Unbeatable, unbreakable, unpossible
-ttresearch.page.ICHORCLOTH_ARMOR.0=You have found how to weave Ichorcloth into clothing.<BR><BR>These new clothes are about as effective as mundane diamond armor, when it comes to protecting the wearer from damage. However, this cloth is completely unbreakable and will never sustain as much as a scratch.
+ttresearch.name.ICHORCLOTH_ARMOR=イコルの布のローブ
+ttresearch.lore.ICHORCLOTH_ARMOR=不落、不壊、不可能
+ttresearch.page.ICHORCLOTH_ARMOR.0=イコルの布を編んで衣服にする方法を発見した。<BR><BR>この新たなローブは、着用者をダメージから守ることに関しては、普通のダイヤモンド防具と同等の性能を持つ。しかし、このローブは完全に破壊不能であり、かすり傷ひとつ負うことはない。
 
 # -- COWL OF THE ABYSSAL DEPTHS
-ttresearch.name.ICHORCLOTH_HELM_GEM=Cowl of the Abyssal Depths
-ttresearch.lore.ICHORCLOTH_HELM_GEM=Just friendly crustaceans
-ttresearch.page.ICHORCLOTH_HELM_GEM.0=You found a way of upgrading the Ichorcloth Cowl into a more powerful form.<BR><BR>First and foremost, the cowl doubles as goggles of revealing.<BR>Second, the wearer is granted unlimited underwater breath as well as crystal clear underwater vision.<BR>Lastly, if one wearing this cowl finds themselves without a full belly, the effects of health restoration will still apply, as if that was the case. Pressing U will toggle this armors effects.
+ttresearch.name.ICHORCLOTH_HELM_GEM=奈落の底のカウル
+ttresearch.lore.ICHORCLOTH_HELM_GEM=フレンドリーな甲殻類
+ttresearch.page.ICHORCLOTH_HELM_GEM.0=イコルの布のカウルをより強力な形態へとアップグレードする方法を発見した。<BR><BR>まず第一に、このカウルは洞察の眼鏡と同様の機能を有する。<BR>第二に、着用者は無制限の水中呼吸が可能になると同時に、水中での視界が鮮明になる。<BR>最後に、このカウルの着用者が満腹状態でない場合でも、あたかも満腹状態であるかのように体力回復効果が持続する。Uキーを押すとこの防具の効果を切り替えられる。
 
 # -- ROBES OF THE STRATOSPHERE
-ttresearch.name.ICHORCLOTH_CHEST_GEM=Robes of the Stratosphere
-ttresearch.lore.ICHORCLOTH_CHEST_GEM=Guys can wear these too
-ttresearch.page.ICHORCLOTH_CHEST_GEM.0=You found a way of upgrading the Ichorcloth Robes into a more powerful form.<BR><BR>Starting off, by simply wearing these robes, the wearer is blessed with the power of eternal flight (wings that don't burn after 5 minutes included), as well as having all fall damage negated.<BR>The robes also passively protect the wearer from any incoming simple projectiles, akin to the focus of Distortion. Pressing U will toggle this armors effects.
+ttresearch.name.ICHORCLOTH_CHEST_GEM=成層圏のローブ
+ttresearch.lore.ICHORCLOTH_CHEST_GEM=男性も着用可能
+ttresearch.page.ICHORCLOTH_CHEST_GEM.0=イコルの布のローブをより強力な形態へとアップグレードする方法を発見した。<BR><BR>はじめに、このローブを着ると、着用者は永続的な飛行能力(5分経っても燃え尽きない羽を含む)を付与され、同時に全ての落下ダメージを無効化する。<BR>またこのローブは、歪曲の杖星と似た飛び道具からの防御をパッシブで行う。Uキーを押すとこの防具の効果を切り替えられる。
 
 # -- LEGGINGS OF THE BURNING MANTLE
-ttresearch.name.ICHORCLOTH_LEGS_GEM=Leggings of the Burning Mantle
-ttresearch.lore.ICHORCLOTH_LEGS_GEM=A warm feeling
-ttresearch.page.ICHORCLOTH_LEGS_GEM.0=You found a way of upgrading the Ichorcloth Leggings into a more powerful form.<BR><BR>These leggings are infused with the soul of fire.<BR>For one, they cast a light around the holder, brighter even than that of Hyperenergetic Nitor. This light also expands to where the wearer is looking, akin to a flashlight, and prevails given the creator's existence in a much extended range.<BR>Furthermore, these leggings not only provide fire resistance, but they convert any incoming fire damage into healing. Pressing U will toggle this armors effects.
-ttresearch.page.ICHORCLOTH_LEGS_GEM.1=In case you find yourself wanting to be in the darkness for whatever reason, Shift-right clicking with these leggings will toggle on or off the light feature.
+ttresearch.name.ICHORCLOTH_LEGS_GEM=燃え盛る地殻のレギンス
+ttresearch.lore.ICHORCLOTH_LEGS_GEM=温かい気持ち
+ttresearch.page.ICHORCLOTH_LEGS_GEM.0=イコルの布のレギンスをより強力な形態へとアップグレードする方法を発見した。<BR><BR>このレギンスには炎の魂が注入されている。<BR>一例を挙げると、着用者の周囲に活性化したニトロよりも明るい明かりを召喚する。この光は懐中電灯のように着用者が見ている場所へと延長する。光源がより広範囲に存在することを考慮すれば、活性化したニトロに勝っている。<BR>さらに、このレギンス火炎耐性を提供するだけでなく、火ダメージを変換して体力回復を行うことができる。Uキーを押すとこの防具の効果を切り替えられる。
+ttresearch.page.ICHORCLOTH_LEGS_GEM.1=何らかの理由で暗闇の中にいたい場合、レギンスを持ってShift右クリックすることで明かりの機能を切り替えることができる。
 
 # -- BOOTS OF THE HORIZONTAL SHIELD
-ttresearch.name.ICHORCLOTH_BOOTS_GEM=Boots of the Horizontal Shield
-ttresearch.lore.ICHORCLOTH_BOOTS_GEM=Recommended by 9/10 Landstriders
-ttresearch.page.ICHORCLOTH_BOOTS_GEM.0=You found a way of upgrading the Ichorcloth Boots into a more powerful form.<BR><BR>These boots allow for extremely smooth movement, akin to the Boots of the Traveller. The wearer's speed, jump height and jump reach all become magnified by wearing the boots, making movement a breeze. One can also walk on 1 high blocks as if they are slabs, this can be suppressed by sneaking.<BR>Wearing the boots also induces a constant Haste II effect, turns any dirt below them into grass and negates all fall damage. Pressing U will toggle this armors effects.
+ttresearch.name.ICHORCLOTH_BOOTS_GEM=地平面のブーツ
+ttresearch.lore.ICHORCLOTH_BOOTS_GEM=10匹中9匹のランドストライダーがおすすめしています
+ttresearch.page.ICHORCLOTH_BOOTS_GEM.0=イコルの布のブーツをより強力な形態へとアップグレードする方法を発見した。<BR><BR>このブーツは旅人の靴のように、極限まで滑らかな動きを可能にする。このブーツを履くことで着用者の移動速度、ジャンプの高さ、ジャンプ距離すべてが増幅され、移動が非常に楽になる。また1ブロックの高さをハーフブロックのように歩いて上ることが可能になる。この機能はスニークすることで抑制可能である。<BR>さらにこのブーツを履くと常に採掘速度上昇IIの効果が発生し、下にある土を草へと変え、すべての落下ダメージを無効化する。Uキーを押すとこの防具の効果を切り替えられる。
 
 # -- FELINE AMULET
-ttresearch.name.CAT_AMULET=Feline Amulet
-ttresearch.lore.CAT_AMULET=Like black cats on a bad day
-ttresearch.page.CAT_AMULET.0=It didn't take you long to come to the conclusion that you hated all those times a creeper snuck up on you.<BR><BR>To that end, using the knowledge you have that creepers run away from cats, you have devised an amulet that by simply being carried on you makes all creepers run in fear of your presence. Not only that, but they'll be petrified to the point of not gathering enough stoke to explode. Great. It must be worn in your amulet slot to take effect.
+ttresearch.name.CAT_AMULET=フェリンの魔除け
+ttresearch.lore.CAT_AMULET=不運な日の黒猫のよう
+ttresearch.page.CAT_AMULET.0=クリーパーに忍び寄られる瞬間は常に嫌悪の対象であるという結論に至るまで、そう時間はかからなかった。<BR><BR>そこで、クリーパーはネコから逃げるという知識を利用し、持ち歩いているだけですべてのクリーパーが恐怖に逃げていくようになる魔除けを発明した。それだけでなく、クリーパーは爆発に必要な燃料も集められずに身動きできなくなるのだ。素晴らしい。ただし、この効果を発揮させるにはお守りスロットに装着しなければならない。
 
 # -- ICHORIUM TOOLS
 ttresearch.name.ICHOR_TOOLS=イコリウムの道具
-ttresearch.lore.ICHOR_TOOLS=Pinnacle of design
-ttresearch.page.ICHOR_TOOLS.0=You discovered how to create tools out of Ichorium. These tools are extremely powerful, even more so than diamond, furthermore, they never break.<BR><BR>For the creation of these tools, mundane sticks aren't enough, you decided to use Silverwood rods in replacement.
+ttresearch.lore.ICHOR_TOOLS=デザインの最高峰
+ttresearch.page.ICHOR_TOOLS.0=イコリウムでツールを作製する方法を発見した。これらのツールはダイヤモンドと比べても極めて強力であり、さらに決して壊れることがない。<BR><BR>これらのツールを作るには、ただの棒では不十分だ。代わりとしてシルバーウッドの杖身を使うこととした。
 
 # -- AWAKENED ICHORIUM PICKAXE
 ttresearch.name.ICHOR_PICK_GEM=覚醒したイコリウムのツルハシ
-ttresearch.lore.ICHOR_PICK_GEM=Who needs a quarry?
-ttresearch.page.ICHOR_PICK_GEM.0=You awakened the real potential of an Ichorium Pickaxe. This pickaxe contains all the traits from the regular one, however, by shift right clicking on it, you can change what mode it's on.<BR><BR>On Block Mode (Green) it'll break blocks normally.<BR><BR>On Square Mode (Red) it'll break a 5x5 area around the original block broken. The area is offset, to allow for easy mining<BR><BR>On Line Mode (Blue)
-ttresearch.page.ICHOR_PICK_GEM.1=It'll break a 10 block long line starting on the original block. It can also break bedrock, taking you deeper into the the heart of the earth. You believe digging there might prove to be more fruitful.
+ttresearch.lore.ICHOR_PICK_GEM=クァーリーなんて必要？
+ttresearch.page.ICHOR_PICK_GEM.0=イコリウムのツルハシに秘められた真の潜在能力を覚醒させた。このツルハシは元のツルハシが持っていた特性をすべて持っている。さらに、手に持ってShift右クリックすることでモードを変更することができる。<BR><BR>単一破壊モード(緑)では普通にブロックを破壊する。<BR><BR>平方破壊モード(赤)では最初に破壊したブロックの周囲5x5の範囲を破壊する。採掘が容易になるよう、この範囲は1ブロック上にずれている。<BR><BR>直線破壊モード(青)では
+ttresearch.page.ICHOR_PICK_GEM.1=最初に破壊したブロックから10ブロックを直線的に破壊する。また、このツルハシは岩盤を破壊することが可能で、使用者を地面の中心深くへと誘う。そこを掘ることでより多くの収穫が得られるかもしれないと考えられる。
 
 
 # -- AWAKENED ICHORIUM SHOVEL
-ttresearch.name.ICHOR_SHOVEL_GEM=Awakened Ichorium Shovel
-ttresearch.lore.ICHOR_SHOVEL_GEM=Gravel no more!
-ttresearch.page.ICHOR_SHOVEL_GEM.0=You awakened the real potential of an Ichorium Shovel. This shovel contains all the traits from the regular one, however, by shift right clicking on it, you can change what mode it's on.<BR><BR>On Block Mode (Green) it'll break blocks normally.<BR><BR>On Square Mode (Red) it'll break a 5x5 area around the original block broken.<BR><BR>On Column Mode (Blue) it'll break a column of the same type of block as the one originally broken, 8 blocks above and below.
+ttresearch.name.ICHOR_SHOVEL_GEM=覚醒したイコリウムのシャベル
+ttresearch.lore.ICHOR_SHOVEL_GEM=砂利はもういい！
+ttresearch.page.ICHOR_SHOVEL_GEM.0=イコリウムのシャベルに秘められた真の潜在能力を覚醒させた。このシャベルは元のシャベルが持っていた特性をすべて持っている。さらに、手に持ってShift右クリックすることでモードを変更することができる。<BR><BR>単一破壊モード(緑)では普通にブロックを破壊する。<BR><BR>平方破壊モード(赤)では最初に破壊したブロックの周囲5x5の範囲を破壊する。<BR><BR>縦列破壊モード(青)では上下8ブロックの範囲内にある、最初に破壊したブロックと同種のブロックを破壊する。
 
 # -- AWAKENED ICHORIUM AXE
-ttresearch.name.ICHOR_AXE_GEM=Awakened Ichorium Axe
-ttresearch.lore.ICHOR_AXE_GEM=A real nice feller
-ttresearch.page.ICHOR_AXE_GEM.0=You awakened the real potential of an Ichorium Axe. This axe contains all the traits from the regular one, however, by shift right clicking on it, you can change what mode it's on.<BR><BR>On Block Mode (Green) it'll break blocks normally.<BR><BR>On Square Mode (Red) it'll break a 5x5 area around the original block broken.<BR><BR>On Tree Mode (Blue) it'll break entire trees by simply cutting down one of their blocks.<BR><BR>This axe is also extremely proficient at cutting plant life.
+ttresearch.name.ICHOR_AXE_GEM=覚醒したイコリウムの斧
+ttresearch.lore.ICHOR_AXE_GEM=マジでいい奴
+ttresearch.page.ICHOR_AXE_GEM.0=イコリウムの斧に秘められた真の潜在能力を覚醒させた。この斧は元の斧が持っていた特性をすべて持っている。さらに、手に持ってShift右クリックすることでモードを変更することができる。<BR><BR>単一破壊モード(緑)では普通にブロックを破壊する。<BR><BR>平方破壊モード(赤)では最初に破壊したブロックの周囲5x5の範囲を破壊する。<BR><BR>一括伐採モード(青)では木の一部を破壊するとその樹木全体を破壊する。<BR><BR>また、この斧は植物を刈るのに極めて適している。
 
 # -- AWAKENED ICHORIUM SWORD
 ttresearch.name.ICHOR_SWORD_GEM=覚醒したイコリウムの剣
-ttresearch.lore.ICHOR_SWORD_GEM=An elegant weapon from a more civilized age
-ttresearch.page.ICHOR_SWORD_GEM.0=You awakened the real potential of an Ichorium Sword. This sword contains all the traits from the regular one, however, by shift right clicking on it, you can change what mode it's on.<BR><BR>On Single Mode (Green) it'll attack mobs normally.<BR><BR>On Area Mode (Red) it'll attack all mobs of the same type in a 3 block radius of the attacked one.<BR><BR>On Soul Mode (Blue) it'll deal less damage than normally, but every hit will bless the attacker with a Soul Heart.<BR>[continued]
-ttresearch.page.ICHOR_SWORD_GEM.1=Soul Hearts are hearts that can only be used once. They show up as metallic hearts below your food bar, when existent. They block damage their wielder would take, but disappear in the process.
+ttresearch.lore.ICHOR_SWORD_GEM=より文明化された時代からの優雅なる武器
+ttresearch.page.ICHOR_SWORD_GEM.0=イコリウムの剣に秘められた真の潜在能力を覚醒させた。この剣は元の剣が持っていた特性をすべて持っている。さらに、手に持ってShift右クリックすることでモードを変更することができる。<BR><BR>単体攻撃モード(緑)では普通にモブを攻撃する。<BR><BR>範囲攻撃モード(赤)では最初に攻撃したモブの周囲3ブロック以内にいる同種のモブ全員を攻撃する。<BR><BR>魂吸収モード(青)では通常よりダメージが下がるが、攻撃が当たるたびに攻撃者にソウルハートの祝福を与える。<BR>[続く]
+ttresearch.page.ICHOR_SWORD_GEM.1=ソウルハートは使い切りのハートである。存在するときには、空腹度ゲージの上にメタリックなハートとして表示される。ソウルハートは所持者のダメージを引き受けるが、その過程で消失する。
 
 # -- BOTTOMLESS POUCH
-ttresearch.name.ICHOR_POUCH=Bottomless Pouch
-ttresearch.lore.ICHOR_POUCH=Try not to tear it
-ttresearch.page.ICHOR_POUCH.0=By infusing a Focus Pouch with items such as the Portable Hole focus, you’ve enhanced it to store not just foci, but any kind of items with an impressively spacious interior.<BR><BR>This upgraded pouch can hold the contents of more than four chests, all while functioning as a regular Focus Pouch, allowing any foci inside to be equipped to a wand as usual. You can kiss your inventory problems goodbye.
+ttresearch.name.ICHOR_POUCH=底の無いポーチ
+ttresearch.lore.ICHOR_POUCH=引き裂いたりしないように
+ttresearch.page.ICHOR_POUCH.0=杖星袋にポータブルホールの杖星といったアイテムを注入することで、杖星だけでなくどんな種類のアイテムも保持できるように、そして中を驚くほど広くなるように改良した。<BR><BR>このアップグレードしたポーチは、内部の杖星を杖に装着することができる通常の杖星袋として機能する一方で、チェスト4個分以上の内容物を保持することができる。インベントリ問題にさよならのキスを。
 
 # -- BLACK HOLE RING
-ttresearch.name.BLOCK_TALISMAN=Black Hole Ring
-ttresearch.lore.BLOCK_TALISMAN=More pascal than your mind can take
-ttresearch.page.BLOCK_TALISMAN.0=This ring can be set to condense any block, by right clicking with it in world in the type of block you want to have it be set to, when enabled via right click will absorb any excess (over 1 stack) of that block in your inventory, and make sure at least one stack stays there. The contents can be stored in any inventory by right clicking it, or placed in world as if they were normal blocks.<BR><BR>It can store over 2 billion of the same block. Guess cobblestone clogging the space isn't an issue. If the ring is empty, it can be shift right clicked into another block to change its binding.
+ttresearch.name.BLOCK_TALISMAN=ブラックホールの指輪
+ttresearch.lore.BLOCK_TALISMAN=心が耐えられないほどのパスカル
+ttresearch.page.BLOCK_TALISMAN.0=この指輪でワールド上のブロックを右クリックすることで、そのブロックを濃縮するように設定できる。右クリックで有効化すると、インベントリ内にある指定したブロックが1スタックを超えたぶん吸収され、さらに最低でも1スタックは手元に残る。内容物は、インベントリを持つブロックに指輪でShift右クリックして移したり、通常のブロックと同様にワールド上に設置したりできる。<BR><BR>この指輪は同種のブロックを20億個以上貯蔵できる。これまでスロットを埋めてきた丸石でも問題にはならないだろう。指輪が空ならば、他のブロックをShift右クリックすることで紐づける対象を変えることができる。
 
 # -- WORLDSHAPER'S LOOKING GLASS
-ttresearch.name.PLACEMENT_MIRROR=Worldshaper's Looking Glass
-ttresearch.lore.PLACEMENT_MIRROR=Cosmic constructor
-ttresearch.page.PLACEMENT_MIRROR.0=Through studying the world, you constructed a glass that allows you place a large array of blocks in the world using the power of your mind.<BR><BR>To set a block to place, one would shift-right click this glass in that block. Shift-right clicking the item in the air changes the amount of blocks it'll place.<BR><BR>When placing blocks in the world, a phantom visualization of how the blocks will appear is shown. On right click, the blocks will be consumed and placed, either from the inventory, or any Black Hole Rings that contain the required block.
+ttresearch.name.PLACEMENT_MIRROR=創造者の鏡
+ttresearch.lore.PLACEMENT_MIRROR=宇宙の構築者
+ttresearch.page.PLACEMENT_MIRROR.0=世界についての研究を通し、精神力を用いてブロックを一括で設置する鏡を構築した。<BR><BR>設置するブロックを設定するには、この鏡で対象のブロックをShift右クリックする。空中でShift右クリックすると設置するブロック数が変わる。<BR><BR>ワールド内でブロックを設置するとき、どのようにブロックが現れるかが影によって可視化される。そのまま右クリックすると、インベントリまたはブラックホールの指輪の内容物からブロックを消費し、設置を行う。
 
 # -- WAND FOCUS: SHADOWBEAM
-ttresearch.name.FOCUS_SHADOWBEAM=Wand Focus: Shadowbeam
-ttresearch.lore.FOCUS_SHADOWBEAM=Watch the recoil
-ttresearch.page.FOCUS_SHADOWBEAM.0=You created a focus that shoots a beam of energy, damaging anything in its path while it's being fired.<BR><BR>The beam has a decent range and will reflect off any blocks it hits as if they were mirrors.
+ttresearch.name.FOCUS_SHADOWBEAM=シャドウビームの杖星
+ttresearch.lore.FOCUS_SHADOWBEAM=リコイルをよく見て
+ttresearch.page.FOCUS_SHADOWBEAM.0=エネルギーのビームを撃つ杖星を作製した。このビームを発射している間、経路上にある全てにダメージを与える。<BR><BR>ビームにはかなりの射程があり、ブロックに当たると鏡で反射したように跳ね返る。
 
 # -- WAND FOCUS: EXPERIENCE DRAIN
-ttresearch.name.FOCUS_XP_DRAIN=Wand Focus: Experience Drain
-ttresearch.lore.FOCUS_XP_DRAIN=Environmentally friendly Vis
-ttresearch.page.FOCUS_XP_DRAIN.0=After creating a wand that can have an insane amount of vis, you got to the conclusion that you need an alternate source of vis.<BR><BR>To that end, you created a focus that draws from your Experience pool, turning it into vis at a fast, but not very efficient rate.
+ttresearch.name.FOCUS_XP_DRAIN=経験値吸収の杖星
+ttresearch.lore.FOCUS_XP_DRAIN=環境にやさしいVis
+ttresearch.page.FOCUS_XP_DRAIN.0=驚異的な量のVisを保持する杖を作製した後、Visの代替源が必要であるという結論に至った。<BR><BR>そのために、自分の経験値プールから経験値を引き出し、高速でVisへと変換する杖星を作製した。ただし、この変換レートはあまり効率的ではない。
 
 # -- PROTOCLAY
-ttresearch.name.PROTOCLAY=Protoclay
-ttresearch.lore.PROTOCLAY=Stolen from the Creation
-ttresearch.page.PROTOCLAY.0=You grew tired of having to constantly swap your tools.<BR><BR>This mixture will, by melding with the Ichorium, switch any Awakened Ichorium tools being held by the one used for the block being pointed at, case one tries to break it with the wrong tool.<BR><BR>As an example, trying to break a dirt block with an Awakened Ichorium Pickaxe while a Shovel is present elsewhere in the inventory will swap the two, and allow for fast disposal of the dirt block.
+ttresearch.name.PROTOCLAY=プロトクレイ
+ttresearch.lore.PROTOCLAY=創造物から盗まれたもの
+ttresearch.page.PROTOCLAY.0=ツールを持ち替えなければならないことにはうんざりだ。<BR><BR>イコリウムで融合させたこの混合物は、適性のないツールでブロックを破壊しようとした際に、対応する覚醒したイコリウムツールへと切り替えを行う。<BR><BR>例として、インベントリ内に覚醒したイコリウムのシャベルがある状態で覚醒したイコリウムのツルハシを持って土を破壊しようとすると、ツルハシとシャベルを入れ替え、土を素早く破壊できるようにする。
 
 # -- CELESTIAL GATEWAY
 ttresearch.name.WARP_GATE=Celestial Gateway

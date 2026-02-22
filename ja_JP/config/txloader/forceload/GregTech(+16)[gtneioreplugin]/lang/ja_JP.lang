@@ -2,7 +2,7 @@
 gtnop.gui.veinStat.name=鉱脈の情報
 gtnop.gui.asteroidStat.name=小惑星の情報
 gtnop.gui.smallOreStat.name=小さな鉱石の情報
-gtnop.gui.undergroundFluid.name=地下の液体資源の情報
+gtnop.gui.undergroundFluid.name=地下の流体資源の情報
 gtnop.gui.ieVeinStat.name=IE鉱脈の情報
 gtnop.gui.bedrockOreStat.name=岩盤鉱石の情報
 
@@ -18,6 +18,9 @@ gtnop.gui.nei.restrictBiome=バイオーム制限
 gtnop.gui.nei.dimension=ディメンション
 gtnop.gui.nei.chance=確率
 gtnop.gui.nei.fluidAmount=量
+
+gtnop.gui.nei.chance.value=%s%%
+gtnop.gui.nei.fluidAmount.value=%s-%s
 
 gtnop.gui.nei.asteroidPrimary=主生成1
 gtnop.gui.nei.asteroidSecondary=主生成2
@@ -36,7 +39,6 @@ gtnop.gui.nei.vein=鉱脈
 gtnop.gui.nei.oreOthers=その他の鉱石
 gtnop.nei.genPosition=位置
 gtnop.nei.genPositionInfo=各チャンクの中心
-
 
 # world names
 gtnop.world.Overworld=オーバーワールド
@@ -100,10 +102,8 @@ gtnop.tier.10=T10: %s
 # biome names
 gtnop.biome.none.name=なし
 
-
 # ore names extra
 gtnop.ore.null.name=なし
-
 
 # vein types
 gtnop.ore.vein.name=鉱脈

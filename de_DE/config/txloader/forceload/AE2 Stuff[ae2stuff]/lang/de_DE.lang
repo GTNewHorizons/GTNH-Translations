@@ -19,7 +19,8 @@ ae2stuff.waila.wireless.notconnected=Nicht Verbunden
 ae2stuff.waila.wireless.channels=Kanäle: %s
 ae2stuff.waila.wireless.power=Verwendete Leistung: %s AE/t
 ae2stuff.waila.wireless.name=Name: %s
-
+ae2stuff.waila.wireless.channel.used=Linked to %s %s %s | %s channels used
+ae2stuff.waila.wireless.sneak.info=§c[Sneak]§r to see full connections list
 ae2stuff.gui.lock.on=Geschützt - Kann mit Automatisierung nicht entfernt werden
 ae2stuff.gui.lock.off=Nicht geschützt - Kann mit Automatisierung entfernt werden
 ae2stuff.gui.lock.note=Wenn der mittlere Slot leer ist und keine Arbeit im Gange ist
@@ -61,8 +62,11 @@ ae2stuff.visualiser.set=Modus auf %s geändert
 ae2stuff.visualiser.mode.full=Alles anzeigen
 ae2stuff.visualiser.mode.nodes=Knoten anzeigen
 ae2stuff.visualiser.mode.channels=Kanäle anzeigen
-ae2stuff.visualiser.mode.nonum=Kanäle und Knoten anzeigen
+ae2stuff.visualiser.mode.no_num=Show Channels and Nodes
+ae2stuff.visualiser.mode.nodes_one_channel=Show Nodes and one Channel
+ae2stuff.visualiser.mode.one_channel=Show one Channel
 ae2stuff.visualiser.mode.p2p=Zeige P2P Links
+ae2stuff.visualiser.mode.proxy=Show Crafting Input Proxy Links
 
 itemGroup.bdew.ae2stuff=AE2 Zeug
 ae2stuff.key.mode=Mode Switch

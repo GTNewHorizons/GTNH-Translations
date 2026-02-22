@@ -55,7 +55,7 @@ item.gendustry.protein.can.name=タンパク質入りの缶
 
 # ==== UPGRADES ====
 
-item.gendustry.apiary.upgrade.name=Upgrade
+item.gendustry.apiary.upgrade.name=アップグレード
 gendustry.upgrades.prod.name=生産アップグレード
 gendustry.upgrades.life.name=寿命アップグレード
 gendustry.upgrades.flowering.name=開花アップグレード
@@ -80,16 +80,16 @@ gendustry.upgrades.scrubber.name=花粉除去アップグレード
 
 # ==== GUI AND TOOLTIPS ====
 
-gendustry.label.mutagen_producer.title=Mutagen Producer
-gendustry.label.mutatron.title=Mutatron
-gendustry.label.mutatron_adv.title=Advanced Mutatron
-gendustry.label.apiary.title=Industrial Apiary
-gendustry.label.imprinter.title=Genetic Imprinter
-gendustry.label.sampler.title=Genetic Sampler
-gendustry.label.extractor.title=DNA Extractor
-gendustry.label.liquifier.title=Protein Liquifier
-gendustry.label.replicator.title=Genetic Replicator
-gendustry.label.transposer.title=Genetic Transposer
+gendustry.label.mutagen_producer.title=変異原生成機
+gendustry.label.mutatron.title=ミュータトロン
+gendustry.label.mutatron_adv.title=発展型ミュータトロン
+gendustry.label.apiary.title=産業用養蜂箱
+gendustry.label.imprinter.title=遺伝子組替機
+gendustry.label.sampler.title=遺伝子抽出機
+gendustry.label.extractor.title=DNA抽出機
+gendustry.label.liquifier.title=タンパク質溶解槽
+gendustry.label.replicator.title=遺伝子複製機
+gendustry.label.transposer.title=遺伝子コピー機
 
 gendustry.label.template.crafting=Genetic Samples can be added to a Template. Combine them in any crafting table. Multiple samples can be added at once.
 
@@ -107,7 +107,7 @@ gendustry.label.energy=Energy Required: %s %s/t
 gendustry.label.lifespan=寿命修飾子: %s
 gendustry.label.flowering=開花確率: %s
 gendustry.label.production=生産修飾子: %s
-gendustry.label.territory=受粉範囲: %s
+gendustry.label.territory=活動範囲: %s
 
 gendustry.label.erase=Place in furance to erase genetic content
 gendustry.label.recipes=Click to see recipes
@@ -126,7 +126,7 @@ gendustry.label.mod.flowering=開花と受粉
 gendustry.label.mod.geneticDecay=遺伝子的崩壊
 gendustry.label.mod.mutation=突然変異確率
 gendustry.label.mod.production=生産
-gendustry.label.mod.territory=なわばり
+gendustry.label.mod.territory=* 活動範囲
 gendustry.label.mod.sieve=花粉収集
 gendustry.label.mod.temperature=温度
 gendustry.label.mod.humidity=湿度
@@ -162,41 +162,41 @@ gendustry.cover.error.none=No Error
 
 # ==== CHROMOSOMES (should match forestry) ====
 
-gendustry.chromosome.FLOWER_PROVIDER=Flowers
-gendustry.chromosome.GIRTH=Girth
-gendustry.chromosome.SPEED=Speed
-gendustry.chromosome.YIELD=Yield
-gendustry.chromosome.HEIGHT=Height
-gendustry.chromosome.GROWTH=Growth
-gendustry.chromosome.FLOWERING=Flowering
-gendustry.chromosome.METABOLISM=Metabolism
-gendustry.chromosome.LIFESPAN=Lifespan
-gendustry.chromosome.TERRITORY=Territory
-gendustry.chromosome.FERTILITY=Fertility
-gendustry.chromosome.SIZE=Size
-gendustry.chromosome.HUMIDITY=Humidity
-gendustry.chromosome.SPECIES=Species
-gendustry.chromosome.FIRE_RESIST=Fire resist
-gendustry.chromosome.TEMPERATURE_TOLERANCE=Temperature tolerance
-gendustry.chromosome.HUMIDITY_TOLERANCE=Humidity tolerance
-gendustry.chromosome.PLANT=Plant
-gendustry.chromosome.EFFECT=Effect
-gendustry.chromosome.CAVE_DWELLING=Cave dwelling
-gendustry.chromosome.MATURATION=Maturation
-gendustry.chromosome.NOCTURNAL=Ignores Day/Night
-gendustry.chromosome.TOLERANT_FLYER=Tolerant flyer
-gendustry.chromosome.FRUITS=Fruits
-gendustry.chromosome.SAPPINESS=Sappiness
+gendustry.chromosome.FLOWER_PROVIDER=花
+gendustry.chromosome.GIRTH=太さ
+gendustry.chromosome.SPEED=生産速度
+gendustry.chromosome.YIELD=果実収穫量
+gendustry.chromosome.HEIGHT=高さ
+gendustry.chromosome.GROWTH=必要環境
+gendustry.chromosome.FLOWERING=受粉速度
+gendustry.chromosome.METABOLISM=代謝
+gendustry.chromosome.LIFESPAN=寿命
+gendustry.chromosome.TERRITORY=活動範囲
+gendustry.chromosome.FERTILITY=繁殖力
+gendustry.chromosome.SIZE=大きさ
+gendustry.chromosome.HUMIDITY=  湿度
+gendustry.chromosome.SPECIES=種
+gendustry.chromosome.FIRE_RESIST=耐火性
+gendustry.chromosome.TEMPERATURE_TOLERANCE=温度耐性
+gendustry.chromosome.HUMIDITY_TOLERANCE=湿度耐性
+gendustry.chromosome.PLANT=最適環境
+gendustry.chromosome.EFFECT=効果
+gendustry.chromosome.CAVE_DWELLING=洞窟耐性
+gendustry.chromosome.MATURATION=成長速度
+gendustry.chromosome.NOCTURNAL=夜行性
+gendustry.chromosome.TOLERANT_FLYER=雨耐性
+gendustry.chromosome.FRUITS=果物
+gendustry.chromosome.SAPPINESS=樹液量
 
 // Botany
 
-gendustry.chromosome.PRIMARY=Primary
-gendustry.chromosome.SECONDARY=Secondary
-gendustry.chromosome.PH_TOLERANCE=pH tolerance
-gendustry.chromosome.STEM=Stem
+gendustry.chromosome.PRIMARY=主色
+gendustry.chromosome.SECONDARY=第2色
+gendustry.chromosome.PH_TOLERANCE=pH耐性
+gendustry.chromosome.STEM=茎
 
-gendustry.allele.false=False
-gendustry.allele.true=True
+gendustry.allele.false=なし
+gendustry.allele.true=あり
 
 # ==== BC TRIGGERS ====
 
@@ -249,7 +249,7 @@ gendustry.bees.species.derpious.description=A curious specimen, seems to be most
 
 # ==== COMBS ====
 
-item.gendustry.HoneyComb.name=Colored Comb
+item.gendustry.HoneyComb.name=色付きの巣板
 gendustry.honeycomb.black.name=黒色の巣板
 gendustry.honeycomb.red.name=赤色の巣板
 gendustry.honeycomb.green.name=緑色の巣板
@@ -267,23 +267,23 @@ gendustry.honeycomb.magenta.name=赤紫色の巣板
 gendustry.honeycomb.orange.name=橙色の巣板
 gendustry.honeycomb.white.name=白色の巣板
 
-item.gendustry.HoneyDrop.name=Colored Honey Drop
-gendustry.honeydrop.black.name=Black Colored Honey Drop
-gendustry.honeydrop.red.name=Red Colored Honey Drop
-gendustry.honeydrop.green.name=Green Colored Honey Drop
-gendustry.honeydrop.brown.name=Brown Colored Honey Drop
-gendustry.honeydrop.blue.name=Blue Colored Honey Drop
-gendustry.honeydrop.purple.name=Purple Colored Honey Drop
-gendustry.honeydrop.cyan.name=Cyan Colored Honey Drop
-gendustry.honeydrop.silver.name=Light Gray Colored Honey Drop
-gendustry.honeydrop.gray.name=Gray Colored Honey Drop
-gendustry.honeydrop.pink.name=Pink Colored Honey Drop
-gendustry.honeydrop.lime.name=Lime Colored Honey Drop
-gendustry.honeydrop.yellow.name=Yellow Colored Honey Drop
-gendustry.honeydrop.lightblue.name=Light Blue Colored Honey Drop
-gendustry.honeydrop.magenta.name=Magenta Colored Honey Drop
-gendustry.honeydrop.orange.name=Orange Colored Honey Drop
-gendustry.honeydrop.white.name=White Colored Honey Drop
+item.gendustry.HoneyDrop.name=色付きのハチミツの滴
+gendustry.honeydrop.black.name=黒色のハチミツの滴
+gendustry.honeydrop.red.name=赤色のハチミツの滴
+gendustry.honeydrop.green.name=緑色のハチミツの滴
+gendustry.honeydrop.brown.name=茶色のハチミツの滴
+gendustry.honeydrop.blue.name=青色のハチミツの滴
+gendustry.honeydrop.purple.name=紫色のハチミツの滴
+gendustry.honeydrop.cyan.name=青緑色のハチミツの滴
+gendustry.honeydrop.silver.name=薄灰色のハチミツの滴
+gendustry.honeydrop.gray.name=灰色のハチミツの滴
+gendustry.honeydrop.pink.name=桃色のハチミツの滴
+gendustry.honeydrop.lime.name=黄緑色のハチミツの滴
+gendustry.honeydrop.yellow.name=黄色のハチミツの滴
+gendustry.honeydrop.lightblue.name=空色のハチミツの滴
+gendustry.honeydrop.magenta.name=赤紫色のハチミツの滴
+gendustry.honeydrop.orange.name=橙色のハチミツの滴
+gendustry.honeydrop.white.name=白色のハチミツの滴
 
 itemGroup.bdew.gendustry=Gendustry
 itemGroup.bdew.templates=Gendustry (遺伝子テンプレート)
@@ -297,3 +297,105 @@ for.gendustry.errorstate.disabled.help=The machine is disabled by it's configura
 
 #this will be moved to bdlib at some point
 bdlib.label.empty=Empty
+
+# ==== TOOLTIPS ====
+
+item.gendustry.GeneSample.forestry.speedFast.tooltip=速度: 1.2 (全体の生産効率 1.07倍)
+item.gendustry.GeneSample.forestry.speedFaster.tooltip=速度: 1.4 (全体の生産効率 1.13倍)
+item.gendustry.GeneSample.forestry.speedFastest.tooltip=速度: 1.7 (全体の生産効率 1.22倍)
+item.gendustry.GeneSample.forestry.speedNormal.tooltip=速度: 1.0 (全体の生産効率 1.0倍)
+item.gendustry.GeneSample.forestry.speedSlow.tooltip=速度: 0.8 (全体の生産効率 0.92倍)
+item.gendustry.GeneSample.forestry.speedSlower.tooltip=速度: 0.6 (全体の生産効率 0.83倍)
+item.gendustry.GeneSample.forestry.speedSlowest.tooltip=速度: 0.3 (全体の生産効率 0.64倍)
+item.gendustry.GeneSample.magicbees.speedBlinding.tooltip=速度: 2.0 (全体の生産効率 1.29倍)
+
+item.gendustry.GeneSample.forestry.lifespanElongated.tooltip=Base Bee Ticks: 45 (31:10.0 after beekeeping mode)
+item.gendustry.GeneSample.forestry.lifespanLong.tooltip=Base Bee Ticks: 50 (34:22.5 after beekeeping mode)
+item.gendustry.GeneSample.forestry.lifespanLonger.tooltip=Base Bee Ticks: 60 (41:15.0 after beekeeping mode)
+item.gendustry.GeneSample.forestry.lifespanLongest.tooltip=Base Bee Ticks: 70 (48:07.5 after beekeeping mode)
+item.gendustry.GeneSample.forestry.lifespanNormal.tooltip=Base Bee Ticks: 40 (27:30.0 after beekeeping mode)
+item.gendustry.GeneSample.forestry.lifespanShort.tooltip=Base Bee Ticks: 30 (20:37.5 after beekeeping mode)
+item.gendustry.GeneSample.forestry.lifespanShortened.tooltip=Base Bee Ticks: 35 (24:17.5 after beekeeping mode)
+item.gendustry.GeneSample.forestry.lifespanShorter.tooltip=Base Bee Ticks: 20 (13:45.0 after beekeeping mode)
+item.gendustry.GeneSample.forestry.lifespanShortest.tooltip=Base Bee Ticks: 10 (6:52.5 after beekeeping mode)
+item.gendustry.GeneSample.gregtech.lifeEon.tooltip=Base Bee Ticks: 600 (6:52:30.0 after beekeeping mode)
+
+item.gendustry.GeneSample.forestry.territoryAverage.tooltip=Flower Search / Effect: 9x6x9\nFlower Spread / Pollination: 27x18x27
+item.gendustry.GeneSample.forestry.territoryLarge.tooltip=Flower Search / Effect: 11x8x11\nFlower Spread / Pollination: 33x24x33
+item.gendustry.GeneSample.forestry.territoryLarger.tooltip=Flower Search / Effect: 13x12x13\nFlower Spread / Pollination: 39x36x39
+item.gendustry.GeneSample.forestry.territoryLargest.tooltip=Flower Search / Effect: 15x13x15\nFlower Spread / Pollination: 45x39x45
+
+item.gendustry.GeneSample.extrabees.effect.acid.tooltip=土を砂に変える
+item.gendustry.GeneSample.extrabees.effect.birthday.tooltip=花火をスポーンさせる(色は蜂の色による)
+item.gendustry.GeneSample.extrabees.effect.blindness.tooltip=プレイヤーに盲目を付与する
+item.gendustry.GeneSample.extrabees.effect.bonemeal_fruit.tooltip=Forestry/Extra Treesの果実の成長を促進する
+item.gendustry.GeneSample.extrabees.effect.bonemeal_mushroom.tooltip=キノコの成長を促進する
+item.gendustry.GeneSample.extrabees.effect.bonemeal_sapling.tooltip=樹木の成長を促進する
+item.gendustry.GeneSample.extrabees.effect.ectoplasm.tooltip=RandomThingsのエクトプラズムをスポーンさせる
+item.gendustry.GeneSample.extrabees.effect.fireworks.tooltip=花火をスポーンさせる(色は蜂の色による)
+item.gendustry.GeneSample.extrabees.effect.gravity.tooltip=プレイヤーに跳躍力上昇を付与する
+item.gendustry.GeneSample.extrabees.effect.hunger.tooltip=プレイヤーの満腹度と隠し満腹度を0にする
+item.gendustry.GeneSample.extrabees.effect.lightning.tooltip=半分本物の雷をスポーンさせる\n(エンティティへのダメージや着火は引き起こすが\n雷を用いた発電機の稼動には使えない)
+item.gendustry.GeneSample.extrabees.effect.meteor.tooltip=ファイヤーチャージをスポーンさせる
+item.gendustry.GeneSample.extrabees.effect.power.tooltip=RF受容体に 5 RFを付与する
+item.gendustry.GeneSample.extrabees.effect.radioactive.tooltip=迅速にダメージを与える
+item.gendustry.GeneSample.extrabees.effect.slow.tooltip=プレイヤーに移動速度低下を付与する
+item.gendustry.GeneSample.extrabees.effect.spawn_creeper.tooltip=暗所にクリーパーをスポーンさせる\n(同名の別効果との混同に注意)
+item.gendustry.GeneSample.extrabees.effect.spawn_skeleton.tooltip=暗所にスケルトンをスポーンさせる
+item.gendustry.GeneSample.extrabees.effect.spawn_zombie.tooltip=暗所にゾンビと怒れるゾンビをスポーンさせる
+item.gendustry.GeneSample.extrabees.effect.teleport.tooltip=モブ/プレイヤーをランダムに短距離テレポートさせる
+item.gendustry.GeneSample.extrabees.effect.water.tooltip=非常に長い間隔で付近のランダムなタンクに水を100mB付与する
+item.gendustry.GeneSample.extrabees.effect.wither.tooltip=ダメージを与えない衰弱を付与する
+item.gendustry.GeneSample.forestry.effectAggressive.tooltip=ダメージを与える(同様の効果の中では最も遅い)
+item.gendustry.GeneSample.forestry.effectBeatific.tooltip=プレイヤーに再生能力を付与する
+item.gendustry.GeneSample.forestry.effectCreeper.tooltip=プレイヤーを中心とする偽のクリーパーによる爆発を起こす。\nブロック破壊は起こさないが、\n防具を貫通するダメージを大量に与える。\n(同名の別効果との混同に注意)
+item.gendustry.GeneSample.forestry.effectDrunkard.tooltip=プレイヤーに吐き気を付与する
+item.gendustry.GeneSample.forestry.effectExploration.tooltip=プレイヤーに経験値を付与する
+item.gendustry.GeneSample.forestry.effectFertile.tooltip=活動範囲内の植物にランダムティックを与える\n(IC2作物には効果がない)
+item.gendustry.GeneSample.forestry.effectFestiveEaster.tooltip=形状・色・追加効果が付いていないロケット花火をスポーンさせる
+item.gendustry.GeneSample.forestry.effectGlacial.tooltip=水を氷に変える
+item.gendustry.GeneSample.forestry.effectHeroic.tooltip=モンスターを攻撃する
+item.gendustry.GeneSample.forestry.effectIgnition.tooltip=プレイヤーを着火する
+item.gendustry.GeneSample.forestry.effectMiasmic.tooltip=プレイヤーに毒を付与する
+item.gendustry.GeneSample.forestry.effectMisanthropic.tooltip=大ダメージを与える
+item.gendustry.GeneSample.forestry.effectMycophilic.tooltip=草と空に面した土を菌糸に変える。\nバニラのキノコを成長させる(成長促進ではなく直接巨大なキノコを呼び出す)。\nウシをムーシュルームに変える。
+item.gendustry.GeneSample.forestry.effectNone.tooltip=何もしない
+item.gendustry.GeneSample.forestry.effectRadioactive.tooltip=ダメージを与え(不安定よりは遅い)、中心にあるブロック、\nまたはForestry養蜂箱以外の活動範囲内にあるブロックを\n破壊する。Extra BeesやMagic Beesの養蜂箱は\n破壊される可能性がある。
+item.gendustry.GeneSample.forestry.effectReanimation.tooltip=そのドロップ品が存在するとき、スケルトン、ブレイズ、ゾンビをスポーンさせる
+item.gendustry.GeneSample.forestry.effectRepulsion.tooltip=モブにプレイヤーを避けるAIを追加する
+item.gendustry.GeneSample.forestry.effectResurrection.tooltip=そのドロップ品が存在するとき、\nクリーパー、エンダーマン、クモ、洞窟グモ、ガスト、エンダードラゴンをスポーンさせる
+item.gendustry.GeneSample.forestry.effectSnowing.tooltip=雪のエフェクトを発生させる
+item.gendustry.GeneSample.gregtech.effectTreetwister.tooltip=特定の条件下で苗木をバーナードCの苗木に変える。\n1) 苗木が十分に魔術的であること\n(トワイライトオーク上のダンジョンから入手できる変化の木の苗木で十分だろう)\n2) 魔術的活性の高いディメンションであること\n(Spectre、Bedrock、Last Millenium、Pocket Planeで試そう)
+item.gendustry.GeneSample.magicbees.effectAMWisp.tooltip=GTNHでは何もしない(Ars Magica導入時\nWispまたはHecatesをスポーンさせる)
+item.gendustry.GeneSample.magicbees.effectAblaze.tooltip=ブレイズをスポーンさせる
+item.gendustry.GeneSample.magicbees.effectBatty.tooltip=コウモリとファイヤーバットをスポーンさせる
+item.gendustry.GeneSample.magicbees.effectBovine.tooltip=ウシをスポーンさせる
+item.gendustry.GeneSample.magicbees.effectBrainy.tooltip=怒れるゾンビをスポーンさせる
+item.gendustry.GeneSample.magicbees.effectCanine.tooltip=オオカミをスポーンさせる
+item.gendustry.GeneSample.magicbees.effectCatty.tooltip=ヤマネコをスポーンさせる
+item.gendustry.GeneSample.magicbees.effectChicken.tooltip=ニワトリをスポーンさせる
+item.gendustry.GeneSample.magicbees.effectCrumbling.tooltip=石 -> 丸石 -> 苔むした丸石、\n石レンガ -> ひび割れた石レンガ -> 苔むした石レンガ、\n砂利 -> 砂、\n丸石の塀 -> 苔むした丸石の塀へと変える
+item.gendustry.GeneSample.magicbees.effectCurative.tooltip=プレイヤーのポーション効果を治療する
+item.gendustry.GeneSample.magicbees.effectDigSpeed.tooltip=プレイヤーに採掘速度上昇を付与する\n残念ながら穴を掘ってくれるわけではない
+item.gendustry.GeneSample.magicbees.effectDreaming.tooltip=石をリビングロックに、原木をリビングウッドに変える
+item.gendustry.GeneSample.magicbees.effectGhastly.tooltip=ガストをスポーンさせる
+item.gendustry.GeneSample.magicbees.effectHorse.tooltip=ウマをスポーンさせる
+item.gendustry.GeneSample.magicbees.effectInvisibility.tooltip=プレイヤーに透明化を付与する
+item.gendustry.GeneSample.magicbees.effectManaDrain.tooltip=GTNHでは何もしない(Ars Magica導入時Mana CreeperまたはMana Vorticeをスポーンさせる)
+item.gendustry.GeneSample.magicbees.effectMoveSpeed.tooltip=プレイヤーに俊敏を付与する
+item.gendustry.GeneSample.magicbees.effectNodeEmpower.tooltip=瓶詰めのオーラ節を含むオーラ節にランダムな相を付与する
+item.gendustry.GeneSample.magicbees.effectNodePurifying.tooltip=瓶詰めのオーラ節を含むオーラ節から純粋以外の特性を取り除き、\n通常節を純粋節に変化させる
+item.gendustry.GeneSample.magicbees.effectNodeRavening.tooltip=瓶詰めのオーラ節を含むオーラ節から飢餓以外の特性を取り除き、\n通常節を飢餓節に変化させる
+item.gendustry.GeneSample.magicbees.effectNodeRepair.tooltip=瓶詰めのオーラ節を含むオーラ節を衰微 -> 幽々 -> 通常 -> 光輝とアップグレードする
+item.gendustry.GeneSample.magicbees.effectNodeTainting.tooltip=瓶詰めのオーラ節を含むオーラ節から汚染以外の特性を取り除き、\n通常節を汚染節に変化させる
+item.gendustry.GeneSample.magicbees.effectPorcine.tooltip=ブタをスポーンさせる
+item.gendustry.GeneSample.magicbees.effectSheep.tooltip=ヒツジをスポーンさせる
+item.gendustry.GeneSample.magicbees.effectSlowSpeed.tooltip=プレイヤーに移動速度低下を付与する\nすみません、機械や蜂を加速したりはしません
+item.gendustry.GeneSample.magicbees.effectSpidery.tooltip=クモをスポーンさせる(洞窟グモはスポーンさせない)
+item.gendustry.GeneSample.magicbees.effectTEBasalz.tooltip=GTNHでは何もしない(Thermal Foundation導入時Basalzをスポーンさせる)
+item.gendustry.GeneSample.magicbees.effectTEBlitz.tooltip=GTNHでは何もしない(Thermal Foundation導入時Blitzをスポーンさせる)
+item.gendustry.GeneSample.magicbees.effectTEBlizzy.tooltip=GTNHでは何もしない(Thermal Foundation導入時Blizzをスポーンさせる)
+item.gendustry.GeneSample.magicbees.effectTransmuting.tooltip=砂漠では砂を砂岩に、\nそれらが自然生成される場所では\n石を深成岩または大理石に変える\nメモ: 鉱石掘削プラントによる採掘時、丸石での埋め立てが有効な場合、\n深成岩/大理石鉱石はその石材の丸石に置換される
+item.gendustry.GeneSample.magicbees.effectVisRecharge.tooltip=励起していないオーラ節の回復していない相を充填する
+item.gendustry.GeneSample.magicbees.effectWispy.tooltip=1-47種類の相からランダムに抽選されたエッセンシアを持つウィスプをスポーンさせる\n(機能しない模様、電動スポナーをお試しください)
+item.gendustry.GeneSample.magicbees.effectWithering.tooltip=プレイヤーに衰弱を付与する

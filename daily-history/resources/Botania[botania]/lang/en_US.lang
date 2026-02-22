@@ -18,7 +18,7 @@ botaniamisc.statusUnknown=Unknown Status
 botaniamisc.color=%s Tinted
 botaniamisc.manaUsage=Mana Usage
 botaniamisc.shiftToRead=Shift-right click to read more
-botaniamisc.clickToRecipe=Shift click to see recipe
+botaniamisc.clickToSeeRecipe=Shift click to see recipe
 botaniamisc.clickToIndex=Shift click for index
 botaniamisc.flareColor=%s Rounds
 botaniamisc.outputtingPower=Sparing Mana to Items
@@ -417,7 +417,7 @@ botania.versioning.flavour43=That's impossible, a Botania Update doesn't break d
 botania.versioning.flavour44=Look at the update, now back at me, now back at the update. There's a download button there, moron.
 botania.versioning.flavour45=No, you can't have fries with your Botania Update.
 botania.versioning.flavour46=You were expecting Botania to be up to date, but it was me, Dio!
-botania.versioning.flavour47=Rumour says if you move the truck there's a Botania Update below it.
+botania.versioning.flavour47=Rumor says if you move the truck there's a Botania Update below it.
 botania.versioning.flavour48=I wonder when Bevo's updating his pack...
 botania.versioning.flavour49=1 Botania Update on the wall, 1 Botania Update on the wall.
 botania.versioning.flavour50=You notice Botania has updated. It fills you with determination.
@@ -434,7 +434,7 @@ botania.versioning.flavour60=Botania Updates. They do what they must, because th
 botania.versioning.flavour61=Update me! Update me! Update me Seymore!
 botania.versioning.flavour62=Nine out of ten doctors recommend you update Botania.
 botania.versioning.flavour63=The update bacons at midnight.
-botania.versioning.flavour64=A new Botania Update is out. And it's name is JOHN CENA! DOO DOO DOO DOO
+botania.versioning.flavour64=A new Botania Update is out. And its name is JOHN CENA! DOO DOO DOO DOO
 botania.versioning.outdated=You are running Botania build %s, the latest is build %s.
 botania.versioning.updateMessage=["Click for... [",{"text":"Download","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click this to automatically download the latest version","color":"green"}},"clickEvent":{"action":"run_command","value":"/botania-download-latest %version%"}},"] [",{"text":"Website","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click this to go to the mod's website","color":"green"}},"clickEvent":{"action":"open_url","value":"http://botaniamod.net/downloads.php"}},"] [",{"text":"Changelog","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click this to go to the version's Changelog","color":"green"}},"clickEvent":{"action":"open_url","value":"http://botaniamod.net/changelog.php#%version%"}},"]"]
 botania.versioning.startingDownload=[{"text":"Starting download of %s. Please do not remove your hard disk. Enjoying ","color":"aqua"},{"text":"Botania","color":"green"},{"text":"? Consider supporting ","color":"aqua"},{"text":"Vazkii","color":"light_purple"},{"text":" on [","color":"aqua"},{"text":"Patreon","color":"gold","hoverEvent":{"action":"show_text","value":{"text":"Click this to go to Vazkii's Patreon","color":"light_purple"}},"clickEvent":{"action":"open_url","value":"http://www.patreon.com/Vazkii"}},{"text":"]!","color":"aqua"}]
@@ -2628,7 +2628,7 @@ botania.page.pool7=A total space biscuit
 # -- SPARKS
 botania.entry.sparks=Sparks
 botania.tagline.sparks=Simple and fast short-range Mana transporters
-botania.page.sparks0=&1Sparks&0 are interesting entities. Created from a combination of raw energy and &4Mana&0, they have the ability to be placed on top of a few specific &4Mana&0 containing or accepting blocks, mainly, &1Mana Pools&0.<br>Some blocks have the ability to harness &4Mana&0 from &1Sparks&0, but the uses for them seem limited to a few blocks right now.
+botania.page.sparks0=&1Sparks&0 are interesting entities. Created from a combination of raw energy and &4Mana&0, they have the ability to be placed on top of a few specific &4Mana&0 containing or accepting blocks, mainly &1Mana Pools&0.<br>Some blocks have the ability to harness &4Mana&0 from &1Sparks&0, but the uses for them seem limited to a few blocks right now.
 botania.page.sparks1=Placing a &1Spark&0 on top of a &1Mana Pool&0 and another on top of a block that can accept it will allow for the latter to remotely access the reservoirs of the &1Mana Pool&0 when needed, given it's not too far away.<br>To remove a &1Spark&0 simply shift-right click it with a &1Wand of the Forest&0. Regular right clicking shows which other &1Sparks&0 it can transfer to.
 botania.page.sparks3=In the case that one might think that &1Sparks&0 are too obstrusive in their looks, one can use &1Phantom Ink&0 to turn the target &1Spark&0 highly translucent. This does not consume the ink.
 botania.page.sparks2=&oholds up spork&r
@@ -2669,7 +2669,7 @@ botania.page.lens1=The basic lens, it doesn't do anything.
 botania.page.lens2=&4Dyeing&0 lenses!
 botania.page.lens3=&1Rainbow Lens&0 all the way
 botania.page.lens4=But lenses are not only for fancy colors. One can upgrade them with all sorts of materials to create new lens which can do all sorts of effects on the &4Mana Bursts&0.<br>It's to take in mind that, if using a normal &1Mana Spreader&0, there needs to be a &4Mana&0 receiving block at the end for the burst to fire. A &1Pulse Mana Spreader&0 is recommended for some lenses.
-botania.page.lens5=Sometimes, though, having a single &1Mana Lens&0 in a spreader just isn't enough sometimes. By combining two lenses with a &1Slimeball&0 in a crafting table, it's possible to unite them into one, and keep the effects of both.<br>The first lens used determines the visuals (texture and color). It's to note that some combinations will not work, nor will two lenses of the same type.
+botania.page.lens5=Sometimes, though, having a single &1Mana Lens&0 in a spreader just isn't enough sometimes. By combining two lenses with a &1Slimeball&0 in a crafting table, it's possible to merge them into one, and keep the effects of both.<br>The first lens used determines the visuals (texture and color). It's to note that some combinations will not work, nor will two lenses of the same type.
 botania.page.lens6=The &1Velocity Lens&0 will drastically increase the speed at which a &4Mana Burst&0 travels, but not only does the beam start to lose its &4Mana&0 a lot faster, it can also carry a bit less.
 botania.page.lens7=Velocity Lens
 botania.page.lens8=The &1Potency Lens&0 will double the amount of &4Mana&0 a &4Mana Burst&0 can carry, however, the beam becomes slower and after it starts to lose mana it does so at a lot faster rate.
@@ -2844,7 +2844,7 @@ botania.page.tigerseye1=&oRisin' up to the challenge of our rivals&r.
 # -- ORECHID
 botania.entry.orechid=Orechid
 botania.tagline.orechid=Creates ores from stone
-botania.page.orechid0=While going mining is all good, a renewable, sedentary, means of getting ore is due. The &1Orechid&0 will use &4Mana&0 to generate &4ores&0 in nearby &1Stone&0 blocks.<br>The ores it generates are random, but seem to be biased towards more common ores rather than rarer ones.
+botania.page.orechid0=While going mining is all good, a renewable, sedentary means of getting ore is due. The &1Orechid&0 will use &4Mana&0 to generate &4ores&0 in nearby &1Stone&0 blocks.<br>The ores it generates are random, but seem to be biased towards more common ores rather than rarer ones.
 botania.page.orechid1=&oNot dragon poop&r.
 
 # -- ORECHID IGNEM
@@ -3086,9 +3086,9 @@ botania.page.dandelifeon_w=Warning: This feature is experimental.<br>It may, and
 botania.page.dandelifeon0=The &1Dandelifeon&0 is a flower not recommended for those faint of heart.<br>While it's possibly the strongest available generating flower within the botanist's toolbelt, it's also one of the less straightforward to put to work.
 botania.page.dandelifeon1=This flower makes use of a cellular automata known as &4Conway's Game of Life&0. The area for this procedure is a 25x25 square centered around the &1Dandelifeon&0 itself.<br>While the flower has a redstone signal, twice every second it'll step the game once.
 botania.page.dandelifeon2=The game is executed with the concept of &4Cells&0. The 25x25 area can be seen as a grid of 25 by 25 cells<br>Cells may be live or dead, live if the block in that position is a &1Cellular Block&0 (read on) or dead if it's anything else. &4Neighbours&0 are the eight blocks in the same plane around any one cell.
-botania.page.dandelifeon3=Every step of the game, the following transitions might happen: &41)&0 Any live cell with fewer than two or more than three live neighbours dies. &42)&0 Any live cell with exactly two or three live neigbours lives on. &43)&0 Any dead cell with exactly three live neigbours becomes a live cell.
+botania.page.dandelifeon3=Every step of the game, the following transitions might happen: &41)&0 Any live cell with fewer than two or more than three live neighbours dies. &42)&0 Any live cell with exactly two or three live neighbors lives on. &43)&0 Any dead cell with exactly three live neighbors becomes a live cell.
 botania.page.dandelifeon4=All of the transitions happen at the same time.<br>Aside from those, a few additional rules not present in a typical simulation of &4Conway's Game of Life&0 are also present in the &1Dandelifeon&0 procedures, listed in the following pages.
-botania.page.dandelifeon5=All cells have an age, starting at zero. Whenever a cell lives on, by having two or three neighbours, its age inreases by one. Whenever a dead cell becomes a live cell, the age of the new live cell is equal to the age of the oldest neighbour, plus one. Any cells older than sixty generations will die during the next step.
+botania.page.dandelifeon5=All cells have an age, starting at zero. Whenever a cell lives on, by having two or three neighbours, its age increases by one. Whenever a dead cell becomes a live cell, the age of the new live cell is equal to the age of the oldest neighbour, plus one. Any cells older than sixty generations will die during the next step.
 botania.page.dandelifeon6=Second off, the 3x3 zone centered around the &1Dandelifeon&0 itself is not habitable by cells. Any live cells that would exist in that area are turned into &4Mana&0 instead. The older the cell that would be created, the more &4Mana&0 it makes. Age zero cells produce no &4Mana&0.
 botania.page.dandelifeon10=Whenever any live cells are absorbed by the 3x3 zone in the center, all other cells in the board die.<br>A few other restrictions apply to cells, such as having two different &1Dandelifeon&0 flowers affect the same cell will kill it. Lastly, any cell will die if moved by any other means than the &1Dandelifeon&0 itself.
 botania.page.dandelifeon7=&1Cellular Blocks&0 are crafted with &1Cactus&0, &1Carrots&0 and &1Potatoes&0, and are extremely fragile, they may not be picked once placed down or moved by &1Pistons&0 and may not be created (through having 3 live neighbours on a dead cell) on any block that isn't air.<br>If not within the range of a &1Dandelifeon&0 they work as normal building blocks.
@@ -3231,7 +3231,7 @@ botania.page.forestEye2=Now you see me...
 # -- OPEN CRATE
 botania.entry.openCrate=Open Crate
 botania.tagline.openCrate=A simple device to drop things
-botania.page.openCrate0=Sometimes devices like &1Droppers&0 or &1Dispensers&0 aren't precise or fast enough. A simple solution is to make a crate and punch a hole in the bottom.<br>Yeah, it's that simple. The &1Open Crate&0 accepts items from &1Hoppers&0 or any other means of inserting items, and obviously, drops them directly below it.
+botania.page.openCrate0=Sometimes devices like &1Droppers&0 or &1Dispensers&0 aren't precise or fast enough. A simple solution is to make a crate and punch a hole in the bottom.<br>Yeah, it's that simple. The &1Open Crate&0 accepts items from &1Hoppers&0 or any other means of inserting items, and obviously drops them directly below it.
 botania.page.openCrate1=Depending on the situation, items can be inserted into the open crate with a &1Hopper&0, &1Hopperhock&0 or &1Dropper&0.<br>A little interesting effect the &1Open Crate&0 can do is that, when given a redstone signal, any items it drops are prevented from being caught by flowers like the &1Hopperhock&0, &1Rannuncarpus&0 or &1Pollidisiac&0 for around ten seconds more than usual.
 botania.page.openCrate2=A super crate box
 
@@ -3644,7 +3644,7 @@ botania.page.slimeBottle1=JUMPYDOLL
 botania.entry.exchangeRod=Rod of the Shifting Crust
 botania.tagline.exchangeRod=A rod to change blocks
 botania.page.exchangeRod0=&1Rod of the Shifting Crust&0 is a magical device with the ability to swap blocks in the world at very fast speeds. In order to achieve this, one must first select a block to swap with, this is done by shift-right clicking that block in the world.<br>After this block is selected, left clicking any other block in the world will swap it for that block, assuming it's present in the user's inventory.
-botania.page.exchangeRod1=Right clicking on a block in the world will start a larger transformation, which will swap all highlighted blocks into the one selected. Obviously, these blocks do come from the user's inventory as well. Only proper, full size blocks can be used for this swap, so no flowers, torches or other shenenigans of the sort. Using this power does, naturally, require &4Mana&0 from the user's inventory.
+botania.page.exchangeRod1=Right clicking on a block in the world will start a larger transformation, which will swap all highlighted blocks into the one selected. Obviously, these blocks do come from the user's inventory as well. Only proper, full size blocks can be used for this swap, so no flowers, torches or other shenanigans of the sort. Using this power does, naturally, require &4Mana&0 from the user's inventory.
 botania.page.exchangeRod2=Other rods or devices can be used to extend the power of the &1Rod of the Shifting Crust&0.<br>For example, having a &1Rod of the Lands&0 in one's inventory provides the &1Rod of the Shifting Crust&0 with an endless supply of &1Dirt&0, assuming the &4Mana&0 cost for the &1Rod of the Lands&0' dirt conjuration is fulfilled.
 botania.page.exchangeRod3=Bootlegged equal trade
 
@@ -3688,7 +3688,7 @@ botania.page.enderEyeBlock1=MY BRAND
 botania.entry.pistonRelay=Force Relay
 botania.tagline.pistonRelay=Remote piston extension
 botania.page.pistonRelay0=It seems that infusing &1Pistons&0 with &4Mana&0 results in some interesting adverse effects.<br>This block tears the fabric of space, relaying any piston force applied to it to the block it's bound to.<br>To bind it to a block, right click it with a &1Wand of the Forest&0, and right click on the block you want to bind it to.
-botania.page.pistonRelay1=To break the block, shift-right click it with a &1Wand of the Forest&0, any other means will destroy it.<br>Furthermore, this block is highly unstable, and may create uncanny effects, care is to be taken. It is also resistant to glue, both in pulling and pushing. This allows for a "frame" like setup.
+botania.page.pistonRelay1=To break the block, shift-right click it with a &1Wand of the Forest&0, any other means will destroy it.<br>Furthermore, this block is highly unstable and may create uncanny effects; care is to be taken when working with it. It is resistant to glue, both in pulling and pushing, which allows for a "frame" like setup.
 botania.page.pistonRelay2=Infusing a &1Piston&0 with &4Mana&0.
 
 # -- HAND OF ENDER
@@ -4334,7 +4334,7 @@ botania.tagline.banners=Lots of new banner patterns
 botania.page.banners0=In the presence of the &1Banners&0 from the future, &1Botania&0 adds &415&0 new icons to them, which can be mixed and matched with the original patterns and icons.<br>The following items can be used alongside a dye in the crafting grid to add an icon to a &1Banner&0: &1All Iron Tools&0, &1Spark Augments&0, &1Raw Fish&0, &1Livingwood and Dreamwood Twigs&0, &1Lexica Botania&0, &1Terrasteel&0 and the &1Tiny Potato&0.
 botania.page.banners1=Showcase of the various banners
 
-# -- PREVNTING DECAY
+# -- PREVENTING DECAY
 botania.entry.preventingDecay=Preventing Decay
 botania.tagline.preventingDecay=Preventing passive flowers' decay
 botania.page.preventingDecay0=no

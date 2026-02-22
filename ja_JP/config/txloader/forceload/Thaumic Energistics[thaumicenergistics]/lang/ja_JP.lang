@@ -68,6 +68,7 @@ thaumicenergistics.item.cell.microscope.name=細胞顕微鏡
 #Tooltips
 thaumicenergistics.tooltip.itemstack.details=§eCTRL§fを押して詳細を表示します
 thaumicenergistics.tooltip.essentia.cell.contains=保持中のエッセンシア
+thaumicenergistics.tooltip.essentia.cell.creative=全種類のエッセンシアを無限に供給する
 thaumicenergistics.tooltip.essentia.cell.bytes=バイト使用済み
 thaumicenergistics.tooltip.essentia.cell.types=種類のエッセンシアを保持
 thaumicenergistics.tooltip.button.void=超過分の消去
@@ -90,24 +91,17 @@ thaumicenergistics.tooltip.advanced.infusion.provider.advanced=発展型プロ�
 thaumicenergistics.tooltip.advanced.infusion.provider.totalbind=合計 %d 個のマトリクスに紐付け中
 
 #GUI
-thaumicenergistics.gui.arcane.crafting.terminal.title=神秘のターミナル
-thaumicenergistics.gui.essentia.cell.title=エッセンシアセル
-thaumicenergistics.gui.essentia.cell.workbench.title=エッセンシアセルワークベンチ
 thaumicenergistics.gui.arcane.assembler.title=神秘の組立室
 thaumicenergistics.gui.knowledge.inscriber.title=知識の刻印機
 thaumicenergistics.gui.distillation.encoder.title=蒸留パターンエンコーダー
-thaumicenergistics.gui.essentia.ImportBus.title=エッセンシア入力バス
-thaumicenergistics.gui.essentia.ExportBus.title=エッセンシア出力バス
-thaumicenergistics.gui.essentia.levelemitter.title=エッセンシアレベルエミッター
-thaumicenergistics.gui.essentia.StorageBus.title=エッセンシアストレージバス
-thaumicenergistics.gui.essentia.terminal.title=エッセンシアターミナル
-thaumicenergistics.gui.priority.title=優先度
 
 thaumicenergistics.gui.selected.amount=量
 thaumicenergistics.gui.selected.aspect=相
 thaumicenergistics.gui.digivis.source.name=デジタルVis源
 thaumicenergistics.gui.vibration.chamber.stored=保持中: %d %s
 thaumicenergistics.gui.vibration.chamber.processing=処理中: %s
+
+thaumicenergistics.gui.essentia=エッセンシア
 
 #Research Tab
 tc.research_category.thaumicenergistics=魔導分子工学 - Thaumic Energistics
@@ -127,7 +121,7 @@ thaumicenergistics.research_page.TECORES.2=§l拡散コア§r<BR>蒸留された
 tc.research_name.thaumicenergistics.TESTORAGE=デジセンシア保存
 tc.research_text.thaumicenergistics.TESTORAGE=これで本当にエッセンシアが貯蔵できるのか？
 thaumicenergistics.research_page.TESTORAGE.1=既存のデジタル保存媒体に対する調査から、デジタル化されたエッセンシアは実際に保存可能であるという結論に至った。<BR>§lケルタスクォーツ§rに天上のエッセンスを注入することで、エッセンシアを貯蔵する能力を獲得する。貯蔵されたエッセンシアはデジタル形式でありながらその活性を保つ。<BR>エッセンスの濃度が高ければ高いほど多くのエッセンシアを蓄えることができる一方、アイテム用ストレージと同様に、ケルタスクォーツ自体の容量には不変の限界が存在するようだ。
-thaumicenergistics.research_page.TESTORAGE.2=§lコンポーネント§r<BR>エッセンシアをデジタル形式で貯蔵する。セル筐体を使ってネットワークに接続することで初めて機能する。<BR>§lセル筐体§r<BR>ストレージコンポーネントを接続・保護する。<BR>§lエッセンシアセルワークベンチ§r<BR>セルを分割し、貯蔵するエッセンシアの種類を指定する。
+thaumicenergistics.research_page.TESTORAGE.2=§lコンポーネント§r<BR>エッセンシアをデジタル形式で貯蔵する。セル筐体を使ってネットワークに接続することで初めて機能する。<BR>§lセル筐体§r<BR>ストレージコンポーネントを接続・保護する。
 
 # Research IO
 tc.research_name.thaumicenergistics.TEIO=デジセンシア輸送
@@ -139,14 +133,6 @@ thaumicenergistics.research_page.TEIO.2=§lストレージバス§r<BR>インポ
 tc.research_name.thaumicenergistics.TEARCANETERM=神秘のクラフトターミナル
 tc.research_text.thaumicenergistics.TEARCANETERM=§o科学と§r魔法を使ったクラフト
 thaumicenergistics.research_page.TEARCANETERM.1=根源相を用いて§lターミナル§rに§l神秘の作業台§rを結合させることで、神秘のクラフト能力をターミナルに吹き込むことが可能であることを発見した。<BR>ターミナルはMEネットワーク内のアイテムにアクセスする能力を保持し、より高速かつ大量のクラフトを可能にする。さらにVis消費軽減が必要な際に素早く用意できるよう、防具の保持・入れ替え機能も有する。
-
-# Research Essentia terminal
-tc.research_name.thaumicenergistics.TEESSTERM=エッセンシアのモニタリング
-tc.research_text.thaumicenergistics.TEESSTERM=どのくらい持っているか、知っておこう。
-thaumicenergistics.research_page.TEESSTERM.1=§lエッセンシアターミナル§rはネットワーク内に保存されたエッセンシアの搬入出に便利だ。<BR>スロットにエッセンシアの入った瓶や薬瓶を配置するとそれを空にし、空の瓶や薬瓶を配置すると選択した相のエッセンシアを充填する。選択した相に応じてラベルを指定または消去することも可能だ。
-thaumicenergistics.research_page.TEESSTERM.2=表示されている相をアイテムでクリックすることでエッセンシアを直接充填・搬入・設定することもでき、一度に大量のエッセンシアを扱わなければならない際に役立つ。<BR>複数のアイテムを持って先述のように相を直接クリックした場合、そのアイテムはインベントリに戻ってくる。
-thaumicenergistics.research_page.TEESSTERM.3=§lエッセンシアレベルエミッター§r はネットワーク内にあるエッセンシアが設定量を上回る、または下回るとレッドストーン信号を出力する。
-thaumicenergistics.research_page.TEESSTERM.4=§lエッセンシアストレージモニター§rと§lエッセンシア変換モニター§rを使えば、ネットワーク内の1種類のエッセンシア量が一目でわかるようになる。変換モニターはネットワーク内のエッセンシアを搬入出することも可能だ。<BR>モニターをレンチで右クリックするとロック/ロック解除する。<BR>ロック解除されたモニターをラベル付きまたはエッセンシア入り瓶、もしくは薬瓶で右クリックすると表示する相を設定でき、素手で右クリックすると解除できる。<BR>ロック済みの変換モニターを瓶や薬瓶で右クリックするとエッセンシアを充填し、Shift右クリックすると瓶や薬瓶を空にする。<BR>Shift右ダブルクリックでインベントリ内にある全てのエッセンシア入りアイテムを空にする。
 
 # Research Essentia Provider
 tc.research_name.thaumicenergistics.TEESSPROV=エッセンシアプロバイダー
@@ -224,7 +210,7 @@ thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.2=ネットワークとの�
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.3=§nケーブル外装§r<BR>バックパックに外装を使用することで様々に見た目を変更することができる。使用可能ブロック: 魔導金属ブロック(デフォルト)、グレートウッドの原木、レンガ、干草の俵、獣脂ブロック、肉ブロック、石、鉄ブロック、金ブロック、ダイヤモンドブロック。<BR>バックパックを装着しているゴーレムを外装で右クリックすると変更が適用される。
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREGATHER=§nゴーレムコア: 収集§r<IMG>thaumicenergistics:textures/gui/states.png:16:0:16:16:1.0</IMG>§l収集コア§rを装着したゴーレムは、収集したアイテムをネットワークに直接搬入できるようになる。 搬入できるアイテムの最大数は、ゴーレム固有の運搬数によって決まる。
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREFILL=§nゴーレムコア: 充填§r<IMG>thaumicenergistics:textures/gui/states.png:32:0:16:16:1.0</IMG>§l充填コア§rを装着したゴーレムは、ネットワークからアイテムを搬出できるようになる。 搬出できるアイテムの最大数は、ゴーレムのGUIで指定した個数とゴーレム固有の運搬数によって決まる。
-thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.CORELIQUID=§nゴーレムコア: 水汲§r<IMG>thaumicenergistics:textures/gui/states.png:48:0:16:16:1.0</IMG>§l水汲コア§rを装着したゴーレムは、ネットワークから液体を搬出できるようになる。 搬出できる液体の最大量は、ゴーレム固有の運搬数によって決まる。<LINE>特記事項: MEネットワークに液体を保存するには、Extra Cells 2のような他Modの機能が必要になる。
+thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.CORELIQUID=§nゴーレムコア: 水汲§r<IMG>thaumicenergistics:textures/gui/states.png:48:0:16:16:1.0</IMG>§l水汲コア§rを装着したゴーレムは、ネットワークから流体を搬出できるようになる。 搬出できる流体の最大量は、ゴーレム固有の運搬数によって決まる。<LINE>特記事項: MEネットワークに流体を保存するには、Extra Cells 2のような他Modの機能が必要になる。
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.COREALCHEMY=§nゴーレムコア: 錬金§r<IMG>thaumicenergistics:textures/gui/states.png:64:0:16:16:1.0</IMG>§l錬金コア§rを装着したゴーレムは、ネットワークからエッセンシアを搬入出できるようになる。 搬入出できるエッセンシアの最大量は、ゴーレム固有の運搬数によって決まる。<BR>ゴーレムを錬金かまどといったエッセンシア源に紐づけて設置すると、集めたエッセンシアをネットワークに搬入する。<BR>ゴーレムを瓶などのエッセンシア用コンテナを充填するように設定すると、ネットワークからエッセンシアを搬出する。
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.UPGRADEORDER=§n秩序のアップグレードの効果§r<IMG>thaumcraft:textures/items/golem_upgrade_order.png:0:0:255:255:0.0625</IMG>秩序のアップグレードを装着したゴーレムは、通信一回あたりの搬入出数が増加する。
 thaumicenergistics.research_page.TEGOLEMWIFIBACKPACK.ADVANCEDGOLEM=§n高度なゴーレム§r<IMG>thaumcraft:textures/items/brain.png:0:0:255:255:0.0625</IMG>高度なゴーレムは、通信一回あたりの搬入出数が元の2倍になる。

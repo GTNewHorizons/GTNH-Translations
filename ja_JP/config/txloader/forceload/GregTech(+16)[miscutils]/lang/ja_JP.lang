@@ -49,7 +49,6 @@ tile.blockCircuitProgrammer.name=回路プログラマー
 tile.blockDecayablesChest.name=鉛の格納容器
 tile.blockVolumetricFlaskSetter.name=メスフラスコ設定器
 tile.blockSuperLight.name=きらめく星
-tile.blockPestKiller.name=殺虫剤散布機
 tile.blockSuperJukebox.name=Sir Mixalot [Jukebox]
 tile.blockSuperJukebox.deprecated=§c廃止済み、電動ジュークボックスを代わりに使用してください
 
@@ -87,7 +86,7 @@ gtpp.recipe.fluidchemicaleactor=化学プラント
 gtpp.recipe.RTGgenerators=RTG
 gtpp.recipe.thermalgeneratorfuel=熱ボイラー
 gtpp.recipe.solartower=ソーラータワー
-gtpp.recipe.cyclotron=COMET - 小型サイクトロトン
+gtpp.recipe.cyclotron=COMET - 小型サイクロトロン
 gtpp.recipe.fishpond=珠海 - フィッシングポート
 gtpp.recipe.cryogenicfreezer=極低温冷却装置
 gtpp.recipe.multicentrifuge=マルチブロック遠心分離機
@@ -97,7 +96,7 @@ gtpp.recipe.multidehydrator=マルチブロック乾燥機
 gtpp.recipe.semifluidgeneratorfuels=半流体発電機の燃料
 gtpp.recipe.flotationcell=浮選セル
 gtpp.recipe.treefarm=樹木成長シミュレーター
-gtpp.recipe.algae_pond=Algae Pond
+gtpp.recipe.algae_pond=藻類養殖場
 gtpp.recipe.multiblockrockbreaker=Boldarnator
 
 # Recipe categories
@@ -139,7 +138,7 @@ gtpp.nei.tgs.info-1=マシンの電力Tierと
 gtpp.nei.tgs.info-2=使用する工具によって
 gtpp.nei.tgs.info-3=出力は更に増加します
 
-gtpp.nei.ap.tier=Algae Pond Tier: %s
+gtpp.nei.ap.tier=藻類養殖場のTier: %s
 
 # Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=燃え盛るパイロジウム入りバケツ
@@ -1686,10 +1685,10 @@ item.itemDustSmallUN32Fertiliser.name=小さなUN-32肥料の粉
 item.itemDustTinyUN32Fertiliser.name=とても小さなUN-32肥料の粉
 item.itemCustomMetaCover.miscutils.GtMachineCasings=%s機械プレートカバー
 item.itemCustomMetaCover.miscutils.GtMachineCasings.name=機械プレートカバー
-item.itemGregtechPump.tooltip.0=その他通常の液体コンテナブロックからは液体を吸い取れません
+item.itemGregtechPump.tooltip.0=その他通常の流体コンテナブロックからは流体を吸い取れません
 item.itemGregtechPump.tooltip.1=右クリックでは空にできません。GUI付きタンクの内部で使用してください
-item.itemGregtechPump.tooltip.2=技術的にはただの豪華な液体セル
-item.itemGregtechPump.tooltip.3=液体はありません
+item.itemGregtechPump.tooltip.2=技術的にはただの豪華な流体セル
+item.itemGregtechPump.tooltip.3=流体はありません
 item.itemBaseEuItem.tooltip.0=§e電動
 item.itemBaseEuItem.tooltip.1=蓄電量: %s EU  Tier: %d
 item.itemBaseEuItem.tooltip.2=空です。適切にリサイクルしましょう。
@@ -2280,10 +2279,9 @@ tile.blockWorkbenchGTAdvanced.name=発展型作業台
 tile.blockHeliumGenerator.name=Helium Generator
 tile.blockFirePit.name=ファイヤーピット
 tile.blockFishTrap.name=補強型魚用かご網
-tile.blockInfiniteFluidTank.name=無限液体タンク
+tile.blockInfiniteFluidTank.name=無限流体タンク
 tile.blockMiningExplosives.name=掘削用爆弾
 tile.blockHellFire.name=地獄の火
-tile.blockProjectBench.name=プロジェクトテーブル
 tile.blockTradeBench.name=交易テーブル
 tile.blockModularity.name=Modularity Bench
 tile.blockBlackGate.name=ウィザーの檻
@@ -2371,7 +2369,7 @@ entity.miscutils.sickBlaze.name=感染したジーロット
 # Added 15/9/18
 item.ZirconiumTetrafluoride.name=四フッ化ジルコニウム入りセル
 item.Formaldehyde.name=ホルムアルデヒド入りセル
-item.RocketFuelMixA.name=H8N4C2O4ロッケト燃料入りセル
+item.RocketFuelMixA.name=H8N4C2O4ロケット燃料入りセル
 item.RocketFuelMixB.name=RP-1ロケット燃料入りセル
 item.RocketFuelMixC.name=CN3H7O3ロケット燃料入りセル
 item.RocketFuelMixD.name=高密度ヒドラジンロケット燃料入りセル
@@ -3062,12 +3060,8 @@ item.GTPP.BattPack.09.name.name=充電用パック [MAX]
 
 # Added 13/3/19
 item.gtpp.debug.scanner.name=GT++デバッグ用スキャナー
-item.RawWaste.name=家畜排泄物入りセル
-item.ManureSlurry.name=厩肥入りセル
-item.FertileManureSlurry.name=肥沃な厩肥入りセル
 item.itemDustTinyDemicheleiteBr.name=とても小さなデミケライト(Br)の粉
 item.itemDustSmallDemicheleiteBr.name=小さなデミケライト(Br)の粉
-tile.blockPooCollector.name=農業用排水口
 tile.Block of Lithium 7.name=リチウム7ブロック
 
 # Added 14/3/19
@@ -3085,8 +3079,6 @@ item.itemBombUnf.name=投擲用爆弾 (残念)
 item.itemBombCasing.name=爆弾外装
 item.gtpp.throwable.bomb.name=投擲用爆弾
 item.itemDetCable.name=爆弾用導火線
-tile.blockPooCollector.0.name=農業用排水口
-tile.blockPooCollector.8.name=バイオ複合物収集器
 item.itemIngotBakelite.name=ベークライトインゴット
 item.itemDustBakelite.name=ベークライトの粉
 item.itemDustTinyBakelite.name=とても小さなベークライトの粉
@@ -3316,7 +3308,6 @@ item.itemDustIndalloy140.name=インダロイ140の粉
 item.itemDustLFTRFuel1.name=LFTR燃料 1の粉
 item.itemDustLFTRFuel2.name=LFTR燃料 2の粉
 item.itemDustLFTRFuel3.name=LFTR燃料 3の粉
-item.itemDustManureByproducts.name=肥料副産物の粉
 item.itemDustMixTumbaga.name=トゥンバガ混合物の粉
 item.itemDustOrganicFertilizer.name=有機肥料の粉
 item.itemDustPotassiumNitrate.name=硝酸カリウムの粉
@@ -3331,13 +3322,11 @@ item.itemDustSmallAmmoniumNitrate.name=小さな硝酸アンモニウムの粉
 item.itemDustSmallCopperIISulfate.name=小さな硫酸銅(II)の粉
 item.itemDustSmallCopperIISulfatePentahydrate.name=小さな硫酸銅(II)五水和物の粉
 item.itemDustSmallCyanoaceticAcid.name=小さなシアノ酢酸の粉
-item.itemDustSmallDirt.name=小さな乾いた土の粉
 item.itemDustSmallFormaldehydeCatalyst.name=小さなホルムアルデヒド触媒の粉
 item.itemDustSmallIndalloy140.name=小さなインダロイ140の粉
 item.itemDustSmallLFTRFuel1.name=小さなLFTR燃料 1の粉
 item.itemDustSmallLFTRFuel2.name=小さなLFTR燃料 2の粉
 item.itemDustSmallLFTRFuel3.name=小さなLFTR燃料 3の粉
-item.itemDustSmallManureByproducts.name=小さな肥料副産物の粉
 item.itemDustSmallMixTumbaga.name=小さなトゥンバガ混合物の粉
 item.itemDustSmallOrganicFertilizer.name=小さな有機肥料の粉
 item.itemDustSmallPotassiumNitrate.name=小さな硝酸カリウムの粉
@@ -3358,7 +3347,6 @@ item.itemDustTinyIndalloy140.name=とても小さなインダロイ140の粉
 item.itemDustTinyLFTRFuel1.name=とても小さなLFTR燃料 1の粉
 item.itemDustTinyLFTRFuel2.name=とても小さなLFTR燃料 2の粉
 item.itemDustTinyLFTRFuel3.name=とても小さなLFTR燃料 3の粉
-item.itemDustTinyManureByproducts.name=とても小さな肥料副産物の粉
 item.itemDustTinyMixTumbaga.name=とても小さなトゥンバガ混合物の粉
 item.itemDustTinyOrganicFertilizer.name=とても小さな有機肥料の粉
 item.itemDustTinyPotassiumNitrate.name=とても小さな硝酸カリウムの粉
@@ -3528,9 +3516,6 @@ item.GTPP.bauble.fireprotection.0.name.name=最高のピザグローブ
 # Added 16/5/19
 item.itemCellSeleniumDioxide.name=二酸化セレン入りセル
 item.itemCellSeleniousAcid.name=亜セレン酸入りセル
-
-# Added 25/7/19
-container.pestkiller=殺虫剤散布機
 
 # Added 15/8/19
 gtpp.nei.decayables=放射性崩壊チェスト
@@ -3797,8 +3782,8 @@ item.itemBasicTurbine_2.name=基本型スチール製タービン
 interaction.voidexcess.enabled=超過分消去を有効化しました
 interaction.voidexcess.disabled=超過分消去を無効化しました
 
-interaction.separateBusses.enabled=入力バスの分離を次に設定しました:
-interaction.separateBusses.disabled=入力バスの分離を無効化しました
+interaction.separateBuses.enabled=入力バスの分離モードを有効にしました
+interaction.separateBuses.disabled=入力バスの分離モードを無効にしました
 
 # Added 29/11/21
 
@@ -3945,7 +3930,7 @@ item.BasicGenericChemItem.14.name=固体酸触媒
 item.BasicGenericChemItem.15.name=インフィニティ突然変異触媒
 
 # Added 23/10/22
-miscutils.machines.QFTFluidMode=量子フォース変換装置液体出力モード
+miscutils.machines.QFTFluidMode=量子フォース変換装置流体出力モード
 
 # Added 16/11/22
 item.BasicGenericChemItem.16.name=白金族触媒
@@ -3966,7 +3951,7 @@ item.ItemCustomSpawnEgg.name=スポーン %s
 item.itemSimpleFiremaker.message.0=ファイヤーピットに火を灯した。
 item.itemSimpleFiremaker.message.1=なぜか自分に火をつけてしまった...
 item.itemSimpleFiremaker.message.2=火を起こした！
-item.itemSimpleFiremaker.message.3=試みが失敗に終わった。
+item.itemSimpleFiremaker.message.3=試みは失敗に終わった。
 
 # Added 17/07/23
 item.BasicGenericChemItem.29.name=澄明水触媒
@@ -4079,7 +4064,7 @@ gtpp.infodata.solar_heater.testificate=証明書
 gtpp.infodata.energy_buffer.eu_stored=%s EUを蓄電中
 gtpp.infodata.energy_buffer.eu_capacity=%s EUを蓄電可能
 gtpp.infodata.tiered_chest.name=スーパーストレージチェスト
-gtpp.infodata.tiered_tank.name=%s液体タンク
+gtpp.infodata.tiered_tank.name=%s流体タンク
 
 # GUI
 gtpp.gui.text.time_since_built=建設からの総時間
@@ -4102,7 +4087,7 @@ gtpp.gui.text.power_sub_station.power_loss=電力減衰: %s EU/t
 gtpp.gui.text.power_sub_station.running_perfectly=動作は完璧です
 gtpp.gui.text.power_sub_station.turn_on_with_mallet=マレットで起動
 gtpp.gui.atmospheric_reconditioner.tooltip.reduction=減少量: %s/秒
-gtpp.gui.crop_harvestor.tooltip.water=水: %sL / %sL
+gtpp.gui.crop_harvestor.tooltip.water=水: %smB / %smB
 
 gtpp.gui.multiblock.progress.text=進捗: %s 秒 / %s 秒
 gtpp.gui.multiblock.eu_t_p.text=%s EU/t/実行中処理
