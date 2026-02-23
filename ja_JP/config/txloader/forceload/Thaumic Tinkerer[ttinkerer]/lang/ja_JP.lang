@@ -64,16 +64,16 @@ ttmisc.disableAllArmor=KAMI装備を無効化
 ttmisc.enableAllArmor=KAMI装備を有効化
 ttmisc.differentDim=Different Dimension
 ttmisc.distance=距離
-ttmisc.lockedGate=Allow incoming teleports
-ttmisc.destination=Unnamed Destination
-ttmisc.entrancePoint=Entrance Point
-ttmisc.numberKeys=Use the number keys to quickly jump between destinations.
-ttmisc.spaceToReset=Press SPACE to return to Entrance Point.
-ttmisc.destinationInd=(Destination %s)
+ttmisc.lockedGate=外部からのテレポートを許可
+ttmisc.destination=無名の目的地
+ttmisc.entrancePoint=入口
+ttmisc.numberKeys=数字キーを使用すると地点間を素早くジャンプできます。
+ttmisc.spaceToReset=スペースを押すと入口に戻ります。
+ttmisc.destinationInd=(目的地 %s)
 ttmisc.clickToTeleport=Shift+左クリックでテレポート
-ttmisc.destinations=Destinations:
-ttmisc.noDest=There's no Celestial Gateway in the destination.
-ttmisc.noTeleport=The Celestial Gateway in the destination does not accept incoming teleports.
+ttmisc.destinations=目的地:
+ttmisc.noDest=その目的地には天界の門がありません。
+ttmisc.noTeleport=その目的地にある天界の門は外部からのテレポートを許可していません。
 
 # ITEM NAMES
 item.darkQuartzItem.name=黒ずんだクォーツ
@@ -101,14 +101,14 @@ item.mobAspect.name=魂のアスペクト
 item.mobAspect.condensed.name=凝縮した魂のアスペクト
 item.mobAspect.infused.name=注入済みの魂のアスペクト
 item.infusedSeeds.name=注入された種
-item.infusedPotion.name=Potion
+item.infusedPotion.name=ポーション
 item.infusedPotion.Aer.name=エアのポーション
 item.infusedPotion.Ignis.name=イグニスのポーション
 item.infusedPotion.Terra.name=テラのポーション
 item.infusedPotion.Aqua.name=アクアのポーション
 item.infusedGrain.name=吹き込まれた穀物
 # KAMI ITEM NAMES
-item.kamiResource.name=Kami Resource
+item.kamiResource.name=KAMI素材
 item.ichor.name=イコル
 item.ichorCloth.name=イコルの布
 item.ichorium.name=イコリウム
@@ -141,7 +141,7 @@ item.focusShadowbeam.name=シャドウビームの杖星
 item.focusXPDrain.name=経験値吸収の杖星
 item.protoclay.name=プロトクレイ
 item.skyPearl.name=天界の真珠
-item.focusRecall.name=天界の回想の杖星
+item.focusRecall.name=天界の召還の杖星
 
 # BLOCK NAMES
 tile.darkQuartz.name=黒ずんだクォーツブロック
@@ -153,17 +153,17 @@ tile.travelSlab.name=旅路の敷石のハーフブロック
 tile.travelSlabFull.name=旅路の敷石のハーフブロック
 tile.travelStairs.name=旅路の敷石の階段
 tile.wardSlab.name=保護の敷石のハーフブロック
-tile.wardSlabFull.name=Paving Slab of Warding
+tile.wardSlabFull.name=保護の敷石のハーフブロック
 tile.infusedFarmland.name=注入された耕地
-tile.gaseousLight.name=Gaseous Light
-tile.gaseousShadow.name=Gaseous Shadow
+tile.gaseousLight.name=気化した光
+tile.gaseousShadow.name=気化した影
 tile.infusedGrainBlock.name=Imbued Grain
 tile.nitorGas.name=Nitor Gas
 
 # Fire
 tile.fireWater.name=アクアの吹き込まれた炎
-tile.fireOrder.name=オードの吹き込まれた炎
-tile.fireChaos.name=パーディシオの吹き込まれた炎
+tile.fireOrder.name=オルドの吹き込まれた炎
+tile.fireChaos.name=ペルディティオの吹き込まれた炎
 tile.fireFire.name=イグニスの吹き込まれた炎
 tile.fireEarth.name=テラの吹き込まれた炎
 tile.fireAir.name=エアの吹き込まれた炎
@@ -585,40 +585,40 @@ ttresearch.lore.PROTOCLAY=創造物から盗まれたもの
 ttresearch.page.PROTOCLAY.0=ツールを持ち替えなければならないことにはうんざりだ。<BR><BR>イコリウムで融合させたこの混合物は、適性のないツールでブロックを破壊しようとした際に、対応する覚醒したイコリウムツールへと切り替えを行う。<BR><BR>例として、インベントリ内に覚醒したイコリウムのシャベルがある状態で覚醒したイコリウムのツルハシを持って土を破壊しようとすると、ツルハシとシャベルを入れ替え、土を素早く破壊できるようにする。
 
 # -- CELESTIAL GATEWAY
-ttresearch.name.WARP_GATE=Celestial Gateway
-ttresearch.lore.WARP_GATE=Nexus of destinations
-ttresearch.page.WARP_GATE.0=You devised a complex mechanism that allows to displace your own position in the world. This block, when containing Celestial Pearls (see next page), will allow for teleportation to various spots in the world.<BR><BR>A grand total of 10 spots can be set. You can prevent other Gateways from connecting to this one by toggling it in the block's GUI (accessible by right click).<BR><BR>To acccess the list of possible destinations, sneak above the block.
-ttresearch.page.WARP_GATE.1=In order for locations to be set in the Gateway, they must be marked with Celestial Pearls. These items can be shift-right clicked into a Celestial Gateway to mark its location (note, shift-right click on air to clear the location).<BR><BR>Placing the pearls inside a Celestial Gateway opens access to teleport to the one it's bound to. This teleport is one way, and two pearls must be used for a 2 way transport.<BR><BR>Naming these pearls with use of an Anvil will make the names appear in the Gateway's GUI, for easy labeling.
+ttresearch.name.WARP_GATE=天界の門
+ttresearch.lore.WARP_GATE=目的地の連結
+ttresearch.page.WARP_GATE.0=自分自身の転移を可能にする複雑な機構を発明した。このブロックが天界の真珠(次頁を参照)を保持している時、ワールド内の様々な場所へとテレポートすることができる。<BR><BR>合計で10もの地点を設定することができる。ある天界の門に対する接続を防ぎたい場合、GUI内で切り替える(右クリックでアクセス可能)。<BR><BR>利用可能な目的地の一覧にアクセスするには、ブロックの上でスニークすればいい。
+ttresearch.page.WARP_GATE.1=天界の門に位置を設定するには、天界の真珠でマークする必要がある。真珠で天界の門にShift右クリックすると位置をマークできる(空中にShift右クリックすると位置を消去できる)。<BR><BR>天界の真珠を天界の門の内部に配置することで、紐づけた門へのテレポート経路が開通する。このテレポートは一方通行であり、双方向へのテレポートを行うには2つの真珠が必要となる。<BR><BR>この真珠に金床で名前をつけることで、天界の門のGUIで名前が表示されるようになり、テレポート地点を簡易的にラベリングできる。
 
 # -- WAND FOCUS: RECALL
-ttresearch.name.FOCUS_RECALL=Wand Focus: Celestial Recall
-ttresearch.lore.FOCUS_RECALL=Home is where the Hearthstone is
-ttresearch.page.FOCUS_RECALL.0=While using Celestial Gateways for teleportation is all well and good, you decided to take it a step further and create a focus that allows you to do just that, but from anywhere.<BR><BR>This focus, in the presence of a properly bound Celestial Pearl in the caster's hotbar, will, after a short cast time, teleport the caster to that position, just as if they had used a Celestial Gateway. Of course, this comes at a vis cost.
+ttresearch.name.FOCUS_RECALL=天界の召還の杖星
+ttresearch.lore.FOCUS_RECALL=帰るべきところはハースストーンがあるところ
+ttresearch.page.FOCUS_RECALL.0=天界の門を使ったテレポートは無論良いものだが、さらなる一歩を踏み出し、それに留まらず何処からでもテレポートが可能になる杖星を作製することにした。<BR><BR>この杖星は、使用者のホットバーに紐づけられた天界の真珠が存在する場合、短時間の発動時間の後、天界の門を使うのと同じように使用者をその位置にテレポートさせる。もちろん、これにはVis消費が伴う。
 
 # -- FIRE
-ttresearch.name.FIRE_IGNIS=Elemental Fire: Ignis
-ttresearch.lore.FIRE_IGNIS=Fire infused with.....more fire!
-ttresearch.page.FIRE_IGNIS.0=You have managed to enhance the destructive powers of hyperenergetic nitor. By letting this fire loose on the surface of the world, you can transmute blocks into their equivalent forms in the nether.
+ttresearch.name.FIRE_IGNIS=属性の炎: イグニス
+ttresearch.lore.FIRE_IGNIS=炎にもっと......炎を注入！
+ttresearch.page.FIRE_IGNIS.0=活性化したニトロの破壊的な力を増幅させることに成功した。地表にこの炎を放つことで、ブロックがネザーにおける同一価値の形態へと変化する。
 
-ttresearch.name.FIRE_AQUA=Elemental Fire: Aqua
-ttresearch.lore.FIRE_AQUA=Water plus Fire. This should end well.
-ttresearch.page.FIRE_AQUA.0=You have managed to totally invert the destructive power of fire. This fire, when let loose in the nether, will turn it into your own personal winter wonderland.
+ttresearch.name.FIRE_AQUA=属性の炎: アクア
+ttresearch.lore.FIRE_AQUA=水たす炎。めでたしめでたし。
+ttresearch.page.FIRE_AQUA.0=活性化したニトロの破壊的な力を丸ごと反転させることに成功した。ネザーにこの炎を放つと、ネザーを自分だけの素敵な銀世界へと変える。
 
-ttresearch.name.FIRE_AER=Elemental Fire: Aer
-ttresearch.lore.FIRE_AER=Suspension of disbelief is a useful skill
-ttresearch.page.FIRE_AER.0=Everyone likes desserts, right? Well, this fire, when let loose on the world, turns everything into a desert. That is almost like a dessert. Good enough?
+ttresearch.name.FIRE_AER=属性の炎: エア
+ttresearch.lore.FIRE_AER=不信の停止は便利な能力
+ttresearch.page.FIRE_AER.0=デザートは皆が好きなものだ、だろう？さて、ワールド上にこの炎を放つと、万物をデザート、つまり砂漠へと変える。だいたいデザートみたいなものだ。それでいいだろう？
 
-ttresearch.name.FIRE_TERRA=Elemental Fire: Terra
-ttresearch.lore.FIRE_TERRA=Enough dirt to ... do whatever one does with dirt
-ttresearch.page.FIRE_TERRA.0=This fire will turn a wide variety of blocks into dirt. Just about the least useful thing ever. Seriously. This is just about the least useful item ever.
+ttresearch.name.FIRE_TERRA=属性の炎: テラ
+ttresearch.lore.FIRE_TERRA=十分な土だね...土に関することをやるなら
+ttresearch.page.FIRE_TERRA.0=この炎は幅広い種類のブロックを土に変える。史上最も役に立たないものだ。マジで。これは史上最も役に立たないものだ。
 
-ttresearch.name.FIRE_ORDO=Elemental Fire: Ordo
-ttresearch.lore.FIRE_ORDO=The fire of order
-ttresearch.page.FIRE_ORDO.0=This fire of order is currently being reworked and does nothing.
+ttresearch.name.FIRE_ORDO=属性の炎: オルド
+ttresearch.lore.FIRE_ORDO=秩序の炎
+ttresearch.page.FIRE_ORDO.0=この秩序の炎は現在リワーク中であり、何も起こさない。
 
-ttresearch.name.FIRE_PERDITIO=Elemental Fire: Perditio
-ttresearch.lore.FIRE_PERDITIO=Cleanup time
-ttresearch.page.FIRE_PERDITIO.0=This fire acts like an antidote of sorts. If your elemental fires have gotten out of your control, you can set loose this specially designed flame. It will rip the magic out of elemental fire, returning it to a mundane form.
+ttresearch.name.FIRE_PERDITIO=属性の炎: ペルディティオ
+ttresearch.lore.FIRE_PERDITIO=掃除の時間
+ttresearch.page.FIRE_PERDITIO.0=この炎はある種の解毒剤のように機能する。属性の炎の制御ができなくなったら、この特別に設計された炎を放つ。この炎は属性の炎を取り除き、ただの炎へと戻す。
 
 ttresearch.name.INFUSED_POTIONS=Infused Crops
 ttresearch.lore.INFUSED_POTIONS=Who said bees? No one said bees.
@@ -632,15 +632,15 @@ ttresearch.page.INFUSED_POTIONS.5=Some plants will create special grain, which c
 # -- WAILA
 ttwaila.nothing=Nothing
 ttwaila.currentTool=Current Tool: %s
-ttwaila.leftClick=Left Click
-ttwaila.rightClick=Right Click
+ttwaila.leftClick=左クリック
+ttwaila.rightClick=右クリック
 ttwaila.redstone=Redstone Activated
 ttwaila.autonomous=Autonomous
 ttwaila.connected=Connected to: %s
-ttwaila.repairing=Repairing: %s
-ttwaila.finishedRepairing=Finished repairing: %s
-ttwaila.allowIncoming=Allows incoming teleports
-ttwaila.disallowIncoming=Doesn't allow incoming teleports
+ttwaila.repairing=修復中: %s
+ttwaila.finishedRepairing=修復完了: %s
+ttwaila.allowIncoming=外部からのテレポート: 有効
+ttwaila.disallowIncoming=外部からのテレポート: 無効
 ttwaila.pushingMode=Mode: Pushing
 ttwaila.pullingMode=Mode: Pulling
 ttwaila.pushing=Pushing

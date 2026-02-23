@@ -166,6 +166,7 @@ gt.item.desc.device_at=デバイスの座標:
 gt.item.desc.state=状態: %s
 gt.item.desc.breeder_tip=Bathe with neutrons in a hot reactor
 gt.item.desc.progress=進捗状況: %s/%s
+gt.item.desc.progress.bare=%ss/%ss
 gt.item.desc.haz_rad=放射能注意
 gt.item.desc.turbine_eff=タービン効率 (緩め): %s
 gt.item.desc.steam_rate=最適な蒸気流量 (緩め): %s mB/t
@@ -1112,6 +1113,7 @@ gt.recipe.purificationplantdegasifier=脱気処理
 gt.recipe.purificationplantquarkextractor=バリオン対処理
 gt.recipe.quantumcomputer=QC部品
 gt.recipe.cal-imprinting=Circuit Assembly Line Imprinting
+gt.recipe.beamcrafter=Beam Crafter
 gt.recipe.foundry_modules=Foundry Module Components
 
 # Recipe categories
@@ -1155,6 +1157,9 @@ GT5U.machines.minermulti=マルチブロック採掘機
 GT5U.machines.muffled=消音
 GT5U.machines.muffled.on=消音: §a有効§r
 GT5U.machines.muffled.off=消音: §c無効§r
+GT5U.machines.overdrive=Overdrive mode
+GT5U.machines.overdrive.on=Overdrive mode: §aEnabled§r
+GT5U.machines.overdrive.off=Overdrive mode: §cDisabled§r
 GT5U.machines.MTETransformerHiAmp.descLn1=Transforms 4A to 16A
 GT5U.machines.MTETransformerHiAmp.descLn2=Toggle 2A/8A half-mode with Screwdriver
 GT5U.machines.MTETransformerHiAmp.descLn3=Accepts up to 6A (3A in half-mode) from energy network
@@ -1247,6 +1252,8 @@ GT5U.GTPP_MULTI_STEAM_FURNACE.mode.1=溶鉱
 GT5U.GTPP_MULTI_STEAM_FURNACE.mode.2=燻製
 GT5U.INDUSTRIAL_ELECTROMAGNETIC_SEPARATOR.mode.0=電磁分離機
 GT5U.INDUSTRIAL_ELECTROMAGNETIC_SEPARATOR.mode.1=磁化機
+GT5U.MULTI_LHC.mode.0=Accelerator
+GT5U.MULTI_LHC.mode.1=Collider
 GT5U.BLACKHOLE.mode.0=圧縮機
 GT5U.BLACKHOLE.mode.1=ニュートロニウム圧縮機
 GT5U.GTPP_MULTI_INDUSTRIAL_DEHYDRATOR.mode.0=真空精錬機
@@ -1369,6 +1376,7 @@ GT5U.machines.betterjukebox.shuffle.tooltip=シャッフルモード (ランダ�
 GT5U.machines.betterjukebox.headphonesbound=ヘッドホンをジュークボックスに紐づけた
 GT5U.machines.betterjukebox.headphonesunbound=電動ジュークボックスをShift右クリックでヘッドホンを紐づけ
 GT5U.machines.computation_hatch.computation=計算回数
+GT5U.machines.computation_hatch.computation.amount=Computation: §e%s
 GT5U.machines.laser_hatch.amperage=アンペア数
 GT5U.machines.hatch_output.lockfluid.label=流体の指定
 GT5U.machines.hatch_output.lockfluid.empty=なし
@@ -1391,6 +1399,9 @@ GT5U.machines.antimatter_forge.disableRender=反物質フォージの描画を�
 GT5U.machines.coke_oven_hatch.mode.input=モード: アイテム入力
 GT5U.machines.coke_oven_hatch.mode.output=モード: アイテム出力
 GT5U.machines.coke_oven_hatch.mode.output_fluid=モード: 流体出力
+GT5U.machines.large_boiler.gui=Produces %s
+GT5U.machines.large_boiler.gui.steam=Steam
+GT5U.machines.large_boiler.gui.shsteam=Superheated Steam
 
 
 GT5U.recipe_filter.empty_representation_slot.tooltip=§7クリックで機械にフィルターを設定します
@@ -1452,7 +1463,7 @@ GT5U.gui.button.drill_retract_pipes=§8《§7採掘パイプ§8／Mining Pupe》
 GT5U.gui.button.drill_retract_pipes_active=§8《§4採掘パイプ§8／Mining Pupe》§4の格納が行えません
 GT5U.gui.button.drone_setname=機械にカスタムネームを設定します
 GT5U.gui.button.drone_highlight=ワールド内で機械をハイライトします
-GT5U.gui.button.drone_teleport=Press shift to teleport to the machine
+GT5U.gui.button.drone_teleport=Right click to teleport to the machine
 GT5U.gui.button.drone_open_list=機械リストを表示します
 GT5U.gui.button.drone_poweron_all=選択したグループ内の全機械の電源をオンにします
 GT5U.gui.button.drone_poweroff_all=選択したグループ内の全機械の電源をオンにします(Shiftで動作制御カバーを無効化します)
@@ -1555,6 +1566,7 @@ GT5U.gui.text.drone_title=ドローン制御センター
 GT5U.gui.text.drone_custom_name=機械名をカスタマイズ
 GT5U.gui.text.drone_search=機械名を検索
 GT5U.gui.text.drone_no_connection=No any connection
+GT5U.gui.text.drone_no_data=No data
 GT5U.gui.text.drone_active_production=Active production recorder
 GT5U.gui.text.drone_maxrecord=Max record：
 GT5U.gui.text.drone_production_connection=Connection
@@ -1661,6 +1673,12 @@ GT5U.gui.text.nac.bar.label.cosmics=Cosmics Circuits
 GT5U.gui.text.nac.bar.label.temporals=Temporally Transcendent Circuits
 GT5U.gui.text.nac.bar.label.specials=High-Grade Specialty Circuits
 
+GT5U.gui.text.nac.module.boardprocessor.flush_tank_auto=Flush automatically at
+GT5U.gui.text.nac.module.boardprocessor.impurity=Impurity
+
+GT5U.gui.text.nac.module.status.connected=Connected to Main Complex
+GT5U.gui.text.nac.module.status.disconnected=Disconnected from Main Complex
+
 # NAC Info Panel
 GT5U.gui.text.nac.nameplate=Nanochip Assembly Complex
 GT5U.gui.text.nac.info.open=Open Info Panel
@@ -1701,6 +1719,7 @@ GT5U.gui.text.nac.info.calibration.special.header=Special Circuits (Pico and Qua
 GT5U.gui.text.nac.info.calibration.special.effect1=§3Tier 1§r - §21%% threshold§r - -20%% Recipe Time on Special Circuits in the Assembly Matrix
 GT5U.gui.text.nac.info.calibration.special.effect2=§3Tier 2§r - §25%% threshold§r - -20%% Recipe Time on Special Circuits in the Assembly Matrix (total 40%%)
 GT5U.gui.text.nac.info.calibration.special.effect3=§3Tier 3§r - §220%% threshold§r - -10%% Recipe Time on Special Circuits in the Assembly Matrix (total 50%%)
+
 # NAC Module Tooltip Keys
 GT5U.tooltip.nac.interface.machine_info=%s, %s
 GT5U.tooltip.nac.interface.delete_stored=Delete Stored Circuit Components
@@ -1775,6 +1794,7 @@ GT5U.tooltip.nac.module.etching_array.action=Etches your Chip %s
 GT5U.tooltip.nac.module.etching_array.body.1=In a fully calibrated Crystal NAC, the laser source hatch provides bonuses based on its attributes:
 GT5U.tooltip.nac.module.etching_array.body.2=Divides §bEU Cost§7 by each §fAmperage Interval§7 over 256A
 GT5U.tooltip.nac.module.etching_array.body.3=Divides §aRecipe Duration§7 by §f(Hatch Tier - 9)
+GT5U.tooltip.nac.module.etching_array.installed=Installed Laser
 GT5U.tooltip.nac.module.optical_organizer.name=Optical Organizer
 GT5U.tooltip.nac.module.optical_organizer.flavor.1=Does mixing water together even make sense???
 GT5U.tooltip.nac.module.optical_organizer.action=Optimizes your Optical %s
@@ -1803,6 +1823,12 @@ GT5U.tooltip.nac.module.superconductor_splitter.body.1=Requires 1000 L/s of Supe
 GT5U.tooltip.nac.module.wire_tracer.name=Wire Tracer
 GT5U.tooltip.nac.module.wire_tracer.flavor.1=Maybe tracing out this mess of wires creates a pretty picture in the mind of the computer
 GT5U.tooltip.nac.module.wire_tracer.action=Traces your Wire %s
+GT5U.tooltip.nac.module.boardprocessor.immersion_fluid=Immersion Fluid
+GT5U.tooltip.nac.module.boardprocessor.empty=Empty
+GT5U.tooltip.nac.module.boardprocessor.impurity=Impurity
+GT5U.tooltip.nac.module.boardprocessor.flush_tank=Flush Tank
+GT5U.tooltip.nac.module.boardprocessor.edit_flush_tank=Edit auto-flush settings
+
 
 GT5U.tooltip.nac.hatch.splitter.body.1=Can be installed in a §eSplitter§7 module for the §aNanochip Assembly Complex
 GT5U.tooltip.nac.hatch.splitter.body.2=Allows for Redstone Input for rule control
@@ -1965,6 +1991,7 @@ GT5U.gui.tooltip.hatch.crafting_input_me.export=Return all internally stored ite
 GT5U.gui.text.fluid_limiter.threshold=§8Percent threshold
 GT5U.gui.text.volumetric_flask.capacity=Capacity
 GT5U.gui.text.volumetric_flask.confirm=Confirm
+GT5U.gui.tooltip.hatch.crafting_pattern_provider.1=Holds patterns for the Large Molecular Assembler (LMA)
 
 GT5U.gui.text.wireless_maintenance_detector.extra.no_issues=§8No Issues
 GT5U.gui.text.wireless_maintenance_detector.extra.ge1_issues=§8>= 1 Issue
@@ -2091,6 +2118,94 @@ GT5U.gui.chat.powerfail.list.truncated=%s additional powerfails truncated
 GT5U.gui.chat.powerfail.shown=パワーフェイルのオーバーレイ表示を有効化。
 GT5U.gui.chat.powerfail.hidden=パワーフェイルのオーバーレイ表示を無効化。
 
+GT5U.gui.text.BeamlineHatch.blacklist=Blacklist Selection
+GT5U.gui.text.BeamlineHatch.emptylist=No list to choose from
+
+# LHC and beamcrafting
+
+GT5U.gui.text.LHC.beamenergykeV=Current Beam Energy %seV
+GT5U.gui.text.LHC.beamrate=Current Beam Rate
+GT5U.gui.text.LHC.powercost=Current Power Draw: %s EU/t
+GT5U.gui.text.LHC.status=Status: %s
+GT5U.gui.text.LHC.off=Off
+GT5U.gui.text.LHC.acceleratormode=Accelerating beam...
+GT5U.gui.text.LHC.collidermode=Colliding beam...
+GT5U.gui.text.LHC.completedcycles=Completed Cycles
+
+gt.blockmachines.multimachine.beamcrafting.beamcrafter.machinetype=Beam Crafter, Beam Assembler
+gt.blockmachines.multimachine.beamcrafting.beamcrafter.tooltip1=Collides two beams of particles into target materials to modify
+gt.blockmachines.multimachine.beamcrafting.beamcrafter.tooltip2=their subatomic structure
+gt.blockmachines.multimachine.beamcrafting.beamcrafter.tooltip3=The Input Beams can be supplied to either Beamline Input Hatch
+gt.blockmachines.multimachine.beamcrafting.beamcrafter.tooltip4=Recipes will not start unless both beams have sufficiently high
+gt.blockmachines.multimachine.beamcrafting.beamcrafter.tooltip5=§eBeam Energies§7
+gt.blockmachines.multimachine.beamcrafting.beamcrafter.tooltip6=Processing speed is determined purely by the Input §cBeam Rates§7
+gt.blockmachines.multimachine.beamcrafting.beamcrafter.tooltip7=Each particle §cAmount§7 provided corresponds to one tick of progress
+gt.blockmachines.multimachine.beamcrafting.beamcrafter.tooltip8=Once the required §cAmount§7 of a specific §bPart§6icle§7 have been input,
+gt.blockmachines.multimachine.beamcrafting.beamcrafter.tooltip9=excess particles of that type are voided
+
+gt.blockmachines.multimachine.beamcrafting.beammirror.machinetype=Beam Mirror
+gt.blockmachines.multimachine.beamcrafting.beammirror.tooltip1=Takes in particle beams and sends them back out
+gt.blockmachines.multimachine.beamcrafting.beammirror.tooltip2=§6That's literally it.
+
+gt.blockmachines.multimachine.beamcrafting.beamsplitter.machinetype=Beam Splitter
+gt.blockmachines.multimachine.beamcrafting.beamsplitter.machinetypefake=Bean Splitter
+gt.blockmachines.multimachine.beamcrafting.beamsplitter.tooltip1=Select which particles to blacklist in the output hatches
+gt.blockmachines.multimachine.beamcrafting.beamsplitter.tooltip2=Input particles will be split evenly among all valid output hatches
+
+gt.blockmachines.multimachine.beamcrafting.beamstabilizer.machinetype=Beam Stabilizer
+gt.blockmachines.multimachine.beamcrafting.beamstabilizer.tooltip1=Accepts and stores up to 100000 §aParticles§7 from
+gt.blockmachines.multimachine.beamcrafting.beamstabilizer.tooltip2=potentially intermittent high §cRate§7 particle beam packets
+gt.blockmachines.multimachine.beamcrafting.beamstabilizer.tooltip3=and re-releases those particles as a stable beam at a
+gt.blockmachines.multimachine.beamcrafting.beamstabilizer.tooltip4=§cRate§7 of your choosing
+gt.blockmachines.multimachine.beamcrafting.beamstabilizer.tooltip5=If a particle beam with a different §aParticle§7, §6Energy§7 or
+gt.blockmachines.multimachine.beamcrafting.beamstabilizer.tooltip6=§bFocus§7 is sent to the machine during operation, it is
+gt.blockmachines.multimachine.beamcrafting.beamstabilizer.tooltip7=ignored UNLESS there are no currently stored §aParticles
+
+gt.blockmachines.multimachine.beamcrafting.LHC.machinetype=Particle Accelerator, Particle Collider, LHC
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip1=Accelerates particles to high energies and then collides them to generate new particles
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip2=Electrically neutral particles are unaffected
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip3=Set the §etarget beam energy§7 (up to 2TeV) and the §9maximum number of cycles§7
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip4=Cycles every second
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip5=§f§nAccelerator mode§7
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip6=Accelerates the beam in the smaller LHC ring
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip7=Accelerator mode increases the §6Beam Energy§7 by §bEnergy Hatch Voltage§7 * §f10eV§7, until the
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip8=§eTarget Beam Energy§7 is reached, or the §9maximum number of cycles§7 is reached
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip9=If the §eTarget Beam Energy§7 is reached, multiply the current §cBeam Rate§7 by §f1.1§7
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip10=§aPower§7 cost starts at §f1A§7 of §fUV§7 per §cBeam Rate§7 and increases quadratically
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip11=with the §dnumber of completed cycles§7
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip12=§aP§7 = §f(1A UV)§7 * §cR§7 * §dN§7^2
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip13=Automatically switches to Collider mode when the §9maximum number of cycles§7 is reached
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip14=§f§nCollider mode§7
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip15=Splits the beam into §ftwo§7 beams that go in opposite directions in the larger LHC ring, which
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip16=then collide to generate new particles
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip17=The §3Collision Energy§7 is two times the §6Beam Energy§7
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip18=If the §3Collision Energy§7 exceeds the rest mass of a particle, that particle will start
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip19=appearing in the outputs
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip20=A particle output can only appear in the modules that correspond to the forces that
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip21=interact with that particle
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip22=For example, Neutrinos cannot appear in the Strong force module, §fALICE§7, since they do
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip23=not interact via the strong force
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip24=§fFiltered Beamline Output Hatches§7 will allow you to see the list of possible outputs, and
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip25=filter them
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip26=There are four LHC modules, marked by the letter on top of the module:
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip27=§bE - Electromagnetism§7 - Charged Matter Sensor (§bCMS§7)
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip28=§2W - Weak Interaction§7 - Advanced Total Lepton Assimilation Snare (§2ATLAS§7)
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip29=§fS - Strong Force§7 - Absolute Lattice Integrated Chromodynamic Encapsulator (§fALICE§7)
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip30=§5G - Gravity§7 - Localized Horizon Curvature Binder (§5LHCb§7)
+
+gt.blockmachines.multimachine.beamcrafting.ttcontroller=Front Center
+gt.blockmachines.multimachine.beamcrafting.ttehatch=Energy Hatch
+gt.blockmachines.multimachine.beamcrafting.ttcasing=Collider Casing
+gt.blockmachines.multimachine.beamcrafting.ttshieldacccasing=Shielded Accelerator Casing
+gt.blockmachines.multimachine.beamcrafting.ttshieldaccglass=Shielded Accelerator Glass
+gt.blockmachines.multimachine.beamcrafting.ttanyglass=Any Tiered Glass
+gt.blockmachines.multimachine.beamcrafting.ttanycasing=Any Collider Casing
+gt.blockmachines.multimachine.beamcrafting.ttanyneonite=Neonite (Any, optional)
+gt.blockmachines.multimachine.beamcrafting.ttbeaminhatch=Beamline Input Hatch
+gt.blockmachines.multimachine.beamcrafting.ttbeamouthatch=Beamline Output Hatch
+gt.blockmachines.multimachine.beamcrafting.ttbeamouthatchfiltered=Filtered Beamline Output Hatch
+gt.blockmachines.multimachine.beamcrafting.ttbeamouthatchfiltered.description1=Allows blacklisting of specific particle types in the Large Hadron Collider
+gt.blockmachines.multimachine.beamcrafting.ttbeamouthatchfiltered.description2=Right click to open the GUI and change selections
 GT5U.gui.text.contributors.panel.open=Open Contributor List
 GT5U.gui.text.contributors.header=Contributors
 GT5U.gui.text.contributors.projectlead=Project Lead
@@ -2122,6 +2237,50 @@ GT5U.chat.buffer.sort_mode.disable=Sort mode: Disabled
 GT5U.chat.worm_hole_generator.overclocks.enable=Overclocks: §aEnabled§r
 GT5U.chat.worm_hole_generator.overclocks.disable=Overclocks: §cDisabled§r
 
+GT5U.gui.text.toolbox.title=Field Engineer's Toolbox
+GT5U.gui.text.toolbox.slot_title.wrench=Wrench
+GT5U.gui.text.toolbox.slot_title.wire_cutter=Wire Cutter
+GT5U.gui.text.toolbox.slot_title.screwdriver=Screwdriver
+GT5U.gui.text.toolbox.slot_title.soft_mallet=Soft Mallet
+GT5U.gui.text.toolbox.slot_title.battery=Battery
+GT5U.gui.text.toolbox.slot_title.hard_hammer=Hard Hammer
+GT5U.gui.text.toolbox.slot_title.crowbar=Crowbar
+GT5U.gui.text.toolbox.slot_title.soldering_iron=Soldering Iron
+GT5U.gui.text.toolbox.slot_title.generic=Generic
+
+GT5U.gui.text.toolbox.tooltip.base=§2%s Slot§r\n§o%s§r
+GT5U.gui.text.toolbox.tooltip.wrench=Connect pipes, break pipes, rotate stuff
+GT5U.gui.text.toolbox.tooltip.wire_cutter=Connect and break wires
+GT5U.gui.text.toolbox.tooltip.screwdriver=Configure machines and covers
+GT5U.gui.text.toolbox.tooltip.soft_mallet=Enable and disable machines
+GT5U.gui.text.toolbox.tooltip.battery=Add battery to charge all electric tools inside\nOnly works when toolbox is closed\nBattery can receive wireless charge
+GT5U.gui.text.toolbox.tooltip.hard_hammer=Toggle auto input/output
+GT5U.gui.text.toolbox.tooltip.crowbar=Remove covers when sneaking
+GT5U.gui.text.toolbox.tooltip.soldering_iron=Needs soldering wire, will pull from toolbox
+GT5U.gui.text.toolbox.tooltip.generic=Holds whatever you want
+GT5U.gui.text.toolbox.tooltip.no_charge_while_open=§l§cNOTE: §rCharging disabled while open
+
+GT5U.gui.text.toolbox.radial.title=Select Active Tool
+GT5U.gui.text.toolbox.radial.unselect=Deselect Tool
+
+GT5U.gui.text.toolbox.error.no_tools=§eToolbox has no tools! Right click to open and add tools.
+
+GT5U.item.toolbox.tooltip.select_tool=%s: Select active tool
+GT5U.item.toolbox.tooltip.deselect_tool=Sneak-%s: Deselect active tool
+GT5U.item.toolbox.tooltip.open_toolbox=%s: Open toolbox
+
+GT5U.item.toolbox.byline.closed=Your stalwart ally for an epic\n §oengineering journey.
+# The tool-specific bylines are pretty much all jokes. Accuracy in translation isn't important.
+GT5U.item.toolbox.byline.wrench=The solution? Use a machine. And if\n §othat don't work? Use more machine.
+# Translator note: A horrible English pun. "Wire" -> "Why are". Don't feel obligated to preserve it ;)
+GT5U.item.toolbox.byline.wire_cutter=WIRE you reading this? Cut it out.\n §oThere's work to do!
+GT5U.item.toolbox.byline.screwdriver=Contains 0% vodka and 0% orange juice.
+GT5U.item.toolbox.byline.soft_mallet=Wait, isn't this just a clown hammer?
+GT5U.item.toolbox.byline.hard_hammer=This performs the Forge Hammer recipe\n §oon anything you mine with it!
+GT5U.item.toolbox.byline.crowbar=You thought I was going to put a Half-Life\n §oreference here, didn't you?
+GT5U.item.toolbox.byline.soldering_iron=Put some fine soldering alloy wire\n §oin the generic slots!
+GT5U.item.toolbox.byline.format=§o"%s"§r -§cQuerns§r
+
 # Note to translators: this translation entry is supposed to be a number indicating how many taunts you define here
 # Game will randomly display one of them
 GT5U.item.programmed_circuit.no_screwdriver.count=3
@@ -2149,6 +2308,123 @@ GT5U.item.pipe.gas_proof.no=なし
 GT5U.item.pipe.amount=パイプ数
 GT5U.item.pipe.empty=空
 GT5U.item.pipe.swap=パイプの交換:
+
+# Modular Armor
+
+item.itemHelmetMech.name=Mechanical Helmet
+item.itemChestplateMech.name=Mechanical Chestplate
+item.itemLeggingsMech.name=Mechanical Leggings
+item.itemBootsMech.name=Mechanical Boots
+
+GT5U.armor.part.name.Light=Light Mechanical Armor Frame
+GT5U.armor.part.name.Medium=Medium Mechanical Armor Frame
+GT5U.armor.part.name.Heavy=Heavy Mechanical Armor Frame
+GT5U.armor.part.name.Nimble=Nimble Mechanical Armor Frame
+GT5U.armor.part.name.Adaptive=Adaptive Mechanical Armor Frame
+GT5U.armor.part.name.Tough=Tough Mechanical Armor Frame
+GT5U.armor.part.name.Lightning=Lightning Mechanical Armor Frame
+GT5U.armor.part.name.Morphic=Morphic Mechanical Armor Frame
+GT5U.armor.part.name.Bulwark=Bulwark Mechanical Armor Frame
+GT5U.armor.part.name.Infinity=Infinitely Adaptive Armor Frame
+
+GT5U.armor.part.name.Nano=Armor Core (Energy)
+GT5U.armor.part.name.Quantum=Armor Core (Nano)
+GT5U.armor.part.name.Living=Armor Core (Living)
+GT5U.armor.part.name.Singularity=Armor Core (Singularity)
+
+GT5U.armor.part.tooltip.Nano=Basic core for Mechanical Armor
+GT5U.armor.part.tooltip.Quantum=Advanced core for Mechanical Armor
+GT5U.armor.part.tooltip.Living=Supreme core for Mechanical Armor
+GT5U.armor.part.tooltip.Singularity=Perfected core for Mechanical Armor
+
+GT5U.armor.part.name.NightVision=Augment: Optical Brightness Adjuster
+GT5U.armor.part.name.CreativeFlight=Augment: Gravitational Control Module
+GT5U.armor.part.name.Jetpack=Augment: Electric Jetpack
+GT5U.armor.part.name.JetpackPerfectHover=Augment: Adaptive Jetpack Stabilizers
+GT5U.armor.part.name.FireImmunity=Augment: Heat Dispersion System
+GT5U.armor.part.name.StepAssist=Augment: Elevation Calibrators
+GT5U.armor.part.name.GogglesOfRevealing=Augment: Integrated Revealing Lens
+GT5U.armor.part.name.InertiaCanceling=Augment: Inertial Dampeners
+GT5U.armor.part.name.Hazmat=Augment: Protective Lining
+GT5U.armor.part.name.Apiarist=Augment: Bee Pacifier
+GT5U.armor.part.name.SwimSpeed=Augment: Aquatic Jets
+GT5U.armor.part.name.KnockbackResistance=Augment: Shock Absorbers
+GT5U.armor.part.name.SpeedBoost=Augment: Sprint Boosters
+GT5U.armor.part.name.JumpBoost=Augment: Pneumatic Jump Assist
+GT5U.armor.part.name.FallProtection=Augment: Landing Gear
+GT5U.armor.part.name.SpaceSuit=Augment: Astronaut's Equipment
+GT5U.armor.part.name.ForceField=Augment: Energy Grid Defense
+GT5U.armor.part.name.OmniMovement=Augment: Rotational Movement Adjusters
+GT5U.armor.part.name.WaterBreathing=Augment: Rebreather
+
+GT5U.armor.part.tooltip.NightVision=Allows user to see clearly at night and in the dark
+GT5U.armor.part.tooltip.CreativeFlight=Grants the user creative flight
+GT5U.armor.part.tooltip.Jetpack=Allows user to jet upwards and hover in midair
+GT5U.armor.part.tooltip.JetpackPerfectHover=Prevents user from slowly descending while in hover mode
+GT5U.armor.part.tooltip.FireImmunity=Renders user entirely immune to fire and lava
+GT5U.armor.part.tooltip.StepAssist=Allows user to walk up a single block effortlessly
+GT5U.armor.part.tooltip.GogglesOfRevealing=Allows user to see elements of the arcane, such as aura nodes
+GT5U.armor.part.tooltip.InertiaCanceling=Prevents momentum from acting on the user while flying
+GT5U.armor.part.tooltip.Hazmat=Grants the user hazmat protection. Must be applied to all four armor pieces
+GT5U.armor.part.tooltip.Apiarist=Prevents negative bee effects, as if the user were wearing Apiarist's armor
+GT5U.armor.part.tooltip.SwimSpeed=Improves the user's speed in water
+GT5U.armor.part.tooltip.KnockbackResistance=Protects the user from knockback effects
+GT5U.armor.part.tooltip.SpeedBoost=Allows the user to move faster. Can be applied multiple times
+GT5U.armor.part.tooltip.JumpBoost=Allows the user to jump higher
+GT5U.armor.part.tooltip.FallProtection=Converts the user's fall damage into EU usage
+GT5U.armor.part.tooltip.SpaceSuit=Adds Spacesuit capability. Must be applied to all four armor pieces
+GT5U.armor.part.tooltip.ForceField=Allows user to deploy a powerful forcefield which will block any damage for huge amounts of eu
+GT5U.armor.part.tooltip.OmniMovement=Allows user to move at increased speed in all directions
+GT5U.armor.part.tooltip.WaterBreathing=Restore's the user's air if they run out underwater
+
+GT5U.armor.behavior.NightVision=Night Vision
+GT5U.armor.behavior.GogglesOfRevealing=Thaumic Sight
+GT5U.armor.behavior.CreativeFlight=Gravity Manipulation
+GT5U.armor.behavior.Jetpack=Jetpack
+GT5U.armor.behavior.JetpackHover=Jetpack Hover
+GT5U.armor.behavior.JetpackPerfectHover=Jetpack Stabilization
+GT5U.armor.behavior.FireImmunity=Fire Immunity
+GT5U.armor.behavior.StepAssist=Step Assist
+GT5U.armor.behavior.InertiaCanceling=Inertia Canceling
+GT5U.armor.behavior.OmniMovement=Omni Movement
+GT5U.armor.behavior.HazmatProtection=Hazmat Armor
+GT5U.armor.behavior.Apiarist=Apiarist Protection
+GT5U.armor.behavior.SwimSpeed=Enhanced Swimming
+GT5U.armor.behavior.KnockbackResistance=Knockback Resistance
+GT5U.armor.behavior.SpeedBoost=Speed Boost
+GT5U.armor.behavior.JumpBoost=Jump Boost
+GT5U.armor.behavior.FallProtection=Fall Protection
+GT5U.armor.behavior.SpaceSuit=Space Suit
+GT5U.armor.behavior.InfiniteEnergy=Infinite Energy
+GT5U.armor.behavior.ForceField=Force Field
+GT5U.armor.behavior.WaterBreathing=Water Breathing
+GT5U.armor.behavior.Teleporter=Personal Teleporter
+
+GT5U.armor.message.enabled=%s Enabled
+GT5U.armor.message.disabled=%s Disabled
+GT5U.armor.message.installed=%s Installed
+
+GT5U.armor.tooltip.hold_shift=Hold Shift for more info
+GT5U.armor.tooltip.energycoreminimum=Minimum Energy Core Tier: %s
+GT5U.armor.tooltip.energycore=Energy Core Tier: %s
+GT5U.armor.tooltip.chargetier=Charge Tier: %s
+GT5U.armor.tooltip.maxenergy=Maximum Energy: %s
+GT5U.armor.tooltip.applicable=Applicable To:
+GT5U.armor.tooltip.effects=Adds Effect:
+GT5U.armor.tooltip.requires=Requires Effect:
+GT5U.armor.tooltip.incompatible=Incompatible With:
+GT5U.armor.tooltip.stackable= (Stackable)
+GT5U.armor.tooltip.category=Category: %s
+GT5U.armor.tooltip.slots=Armor Slots:
+GT5U.armor.tooltip.armorvalue=Protection: %s
+GT5U.armor.tooltip.protection=§6Protection§r
+GT5U.armor.tooltip.movement=§aMovement§r
+GT5U.armor.tooltip.utility=§dUtility§r
+GT5U.armor.tooltip.prismatic=§6Pri§asma§dtic§r
+GT5U.armor.tooltip.maxstack=Max Installed: %d
+
+GT5U.item.toolbox.name_template=%s (%s)
+GT5U.item.toolbox.name_template.mode=%s (%s, %s)
 
 gt.behaviour.paintspray.infinite.gui.header=色の選択
 gt.behaviour.paintspray.infinite.gui.lock_error=§eスプレー缶は§cロックされています§e！ §bスニーク + ホイールクリックでロックを解除します。
@@ -2193,6 +2469,8 @@ GT5U.hatch.fluid.filter.enable=流体出力フィルターを次に設定: %s
 GT5U.hatch.item.filter.enable=アイテム出力フィルターを次に設定: %s
 GT5U.hatch.fluid.filter.disable=流体出力フィルターを無効化
 GT5U.hatch.item.filter.disable=アイテム出力フィルターを無効化
+GT5U.hatch.filter.none=Filter Empty
+GT5U.hatch.filter.tooltip.0=§6Left-Click§8 to remove
 GT5U.hatch.outputme.checkMode.true=Check Mode §cOn§r
 GT5U.hatch.outputme.checkMode.false=Check Mode §aOff§r
 GT5U.hatch.outputme.checkMode.desc=NOTE: Check Mode checks whether there is enough space for the output, resulting in more lag.
@@ -2537,6 +2815,8 @@ GT5U.waila.energy.use=現在の電力消費量: §e%s§r EU/t (%s)
 GT5U.waila.energy.use_with_amperage=現在の電力消費量: §e%s§r EU/t (%sA %s)
 GT5U.waila.energy.produce=現在の発電量: §a%s§r EU/t (%s)
 GT5U.waila.energy.produce_with_amperage=現在の発電量: §a%s§r EU/t (%sA %s)
+GT5U.waila.energy.produce_steam=Currently produces: §a%s§r L/s of %s
+GT5U.waila.energy.steam_to_eu=Converts to: §a%s§r EU/t (%s) at 100%% fuel efficiency
 GT5U.waila.stocking_bus.auto_pull.enabled=MEネットワークからの自動プル: 有効
 GT5U.waila.stocking_bus.auto_pull.disabled=MEネットワークからの自動プル: 無効
 GT5U.waila.stocking_bus.min_stack_size=最小スタック数: %s
@@ -3585,6 +3865,17 @@ gt.time.tick.plural=tick
 gt.time.second.singular=秒
 gt.time.second.plural=秒
 
+#Armor keybinds
+key.gt.toggle_night_vision=Toggle Night Vision
+key.gt.toggle_jetpack_hover=Toggle Jetpack Hover
+key.gt.toggle_jetpack=Toggle Jetpack Engine
+key.gt.toggle_goggles_of_revealing=Toggle Goggles of Revealing
+key.gt.toggle_inertiacanceling=Toggle Inertia Canceling
+key.gt.toggle_omnimovement=Toggle Omni Movement
+key.gt.speed_increase=Increase Speed
+key.gt.speed_decrease=Decrease Speed
+key.gt.force_field=Toggle Force Field
+
 # Tooltips for GT Tools
 gt.softmallet.tooltip=Activates and Deactivates Machines
 gt.softmallet.tooltip.mode=Mode Cycles Between Toggle/Activate/Deactivate
@@ -3996,9 +4287,20 @@ GT5U.infodata.wormhole_generator.hatch.front=前面
 GT5U.infodata.purification_plant.status_button=Status
 GT5U.infodata.purification_plant.status_title=§lPurification Unit Status
 GT5U.infodata.purification_plant.linked_units=Linked Purification Units:
-GT5U.infodata.purification_plant.linked_units.status.online=Online
+GT5U.infodata.purification_plant.linked_units.status.active=Active
+GT5U.infodata.purification_plant.linked_units.status.idle=Idle
 GT5U.infodata.purification_plant.linked_units.status.disabled=Disabled
 GT5U.infodata.purification_plant.linked_units.status.incomplete=マルチブロック構造が不完全です
+
+GT5U.gui.purification.tier= §3Water grade: §r%s
+GT5U.gui.multimachine.purificationunitclarifier=Clarifier
+GT5U.gui.multimachine.purificationunitozonation=Ozonation
+GT5U.gui.multimachine.purificationunitflocculator=Flocculation
+GT5U.gui.multimachine.purificationunitphadjustment=PH Neutralization
+GT5U.gui.multimachine.purificationunitplasmaheater=Temperature Fluctuation
+GT5U.gui.multimachine.purificationunituvtreatment=Laser Purification
+GT5U.gui.multimachine.purificationunitdegasifier=Residual Degasser
+GT5U.gui.multimachine.purificationunitextractor=Baryonic Perfection
 
 GT5U.infodata.pubp.catalyst_history=Catalyst insertion history for this recipe cycle
 GT5U.infodata.pubp.quark_combination=Quark Combination correctly identified: %s
