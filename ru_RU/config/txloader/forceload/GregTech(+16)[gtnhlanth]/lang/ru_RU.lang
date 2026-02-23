@@ -15,6 +15,9 @@ GT5U.gui.text.gtnhlanth.inscoolant=Недостаточно хладагента
 GT5U.gui.text.gtnhlanth.noaccel=Тип частиц не может быть ускорен!
 GT5U.gui.text.gtnhlanth.low_input_eut=Входной EU/t слишком мал для создания фотонов!
 GT5U.gui.text.gtnhlanth.scerror=Математическая ошибка, неверный рецепт?
+GT5U.gui.text.gtnhlanth.inputinterrupt=Input Beam must not be interrupted or changed!
+GT5U.gui.text.gtnhlanth.wrongparticle=Incorrect Particle!
+GT5U.gui.text.gtnhlanth.toolowenergy=Below Required Energy!
 
 # NEI
 value.disstank=Соотношение: %s:1
@@ -151,8 +154,6 @@ beamline.coolusage=Расходуется хладагента
 
 beamline.out_pre=Мультиблочный выход установки для литографии
 
-beamline.particleinput=Входная информация о частицах:
-
 beamline.pipe.desc.0=Транспорт для частиц
 beamline.pipe.desc.1=Сигнал не пересекается и не изгибается
 
@@ -160,12 +161,37 @@ tile.recipe.tc=Приёмник элементарных частиц
 tile.recipe.sc=Источник элементарных частиц
 
 item.particle.name=Частица
-particle.electron=Электрон
 particle.photon=Фотон
-particle.alpha=Альфа частица
-particle.neutron=Нейтрон
+particle.zboson=Z Boson
+particle.wboson=W Boson
+particle.higgs=Higgs Boson
+particle.graviton=Graviton
+particle.electron=Электрон
+particle.muon=Muon
+particle.tau=Tau
+particle.electron_neutrino=Electron Neutrino
+particle.muon_neutrino=Muon Neutrino
+particle.tau_neutrino=Tau Neutrino
 particle.proton=Протон
+particle.neutron=Нейтрон
+particle.lambda=lambda
+particle.omega=Omega
+particle.eta=Eta
+particle.jpsi=J/Psi
+particle.upsilon=Upsilon
+particle.alpha=Альфа частица
+particle.Electron=Electron
+particle.Photon=Photon
+particle.Alpha=Alpha
+particle.Neutron=Neutron
+particle.Proton=Proton
+particle.Positron=Positron
 GT5U.gui.text.dissolution_ratio=§7Неверное соотношение исходных жидкостей
+
+beamcrafting.energy_A=min Energy 1
+beamcrafting.energy_B=min Energy 2
+beamcrafting.amount_A=Amount 1
+beamcrafting.amount_B=Amount 2
 
 tooltip.gtnhlanth.particle.rest_mass=Масса покоя: %f MeV
 tooltip.gtnhlanth.particle.charge=Заряд: %s e
