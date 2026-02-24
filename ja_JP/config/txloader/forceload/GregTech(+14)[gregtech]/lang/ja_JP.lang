@@ -609,10 +609,10 @@ GTPP.tooltip.air_filter.0=An Air filter for Atmospheric Reconditioning.
 GTPP.tooltip.air_filter.1=%d/%d uses left.
 
 # Fish trap
-GTPP.tooltip.fish_trap.0=This trap catches fish faster if surrounded by more water blocks
-GTPP.tooltip.fish_trap.1=Can also be placed beside up to 4 other fish traps
-GTPP.tooltip.fish_trap.2=Requires at least two faces touching water
-GTPP.tooltip.fish_trap.3=1/1000 chance to produce triple loot.
+GTPP.tooltip.fish_trap.0=水と接する面が多いほど動作効率と漁獲量が向上します
+GTPP.tooltip.fish_trap.1=他のかご網を最大4個隣接させられます
+GTPP.tooltip.fish_trap.2=最低2面は水に接している必要があります
+GTPP.tooltip.fish_trap.3=1/1000の確率で釣果が3倍になります
 
 # Circuit Table
 GTPP.tooltip.circuit_table.0=Easy Circuit Configuration
@@ -634,7 +634,7 @@ GTPP.tooltip.volumetric_flask_setter.0=Easy Flask Configuration
 GTPP.tooltip.volumetric_flask_setter.1=Configure default input slot with a screwdriver
 
 # Tin Foil Hat
-GTPP.tooltip.tin_foil_hat=DoomSquirter's protection against cosmic radiation!\nGeneral paranoia makes the wearer unable to collect xp\nMovement speed is also reduced, to keep you safe\nThis hat may also have other strange powers
+GTPP.tooltip.tin_foil_hat=DoomSquirterの宇宙線防護装備！\n強い被害妄想により、着用者は経験値を獲得できなくなります\n安全確保のため、移動速度も低下します\nこの帽子は他にも、奇妙な力を宿しているかもしれません
 
 GTPP.tooltip.bad_tooltip_id=Bad Tooltip ID - %d
 
@@ -727,15 +727,15 @@ GT5U.power_goggles_config.text_good_tooltip=Affects Text and Power Chart color w
 GT5U.autoplace.error.no_hatch=§cSuggested to place hatch §4%s§c but none was found
 GT5U.autoplace.error.no_mte.id=§cSuggested to place machine with meta ID §4%s§c but none was found
 GT5U.autoplace.error.no_mte.class_name=§cSuggested to place machine with class name §4%d§c but none was found
-GT5U.providesfullhazmatprotection=Provides full hazmat protection.
-GT5U.providesCBRNprotection=Provides CBRN protection.
-GT5U.providesextremetemperatureprotection=Provides thermal protection.
-GT5U.providesbiologicalhazmatprotection=Provides biological hazard protection.
-GT5U.providesfrosthazmatprotection=Provides frost protection.
-GT5U.providesheathazmatprotection=Provides heat protection.
-GT5U.providesradiohazmatprotection=Provides radiation protection.
-GT5U.provideselectricalhazmatprotection=Provides electrical protection.
-GT5U.providesgashazmatprotection=Provides gas protection.
+GT5U.providesfullhazmatprotection=有害物質耐性を提供します
+GT5U.providesCBRNprotection=CBRN耐性を提供します
+GT5U.providesextremetemperatureprotection=熱変化耐性を提供します
+GT5U.providesbiologicalhazmatprotection=生物学的危険物耐性を提供します
+GT5U.providesfrosthazmatprotection=耐寒性を提供します
+GT5U.providesheathazmatprotection=耐熱性を提供します
+GT5U.providesradiohazmatprotection=放射線耐性を提供します
+GT5U.provideselectricalhazmatprotection=絶縁性を提供します
+GT5U.providesgashazmatprotection=ガス耐性を提供します
 
 # Multiblock Tooltip Builder Keywords
 # Context can be found in the class gregtech.api.util.MultiblockTooltipBuilder
