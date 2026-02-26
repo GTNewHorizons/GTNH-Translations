@@ -62,7 +62,7 @@ gui.SC2:transferStacksShort=S
 gui.SC2:changeTransferCartArea=Überträgt aus einem Teil der Lore
 gui.SC2:unknownAreaMessage=Unbekannte Option
 gui.SC2:cartAreaAll=Alle Slots
-gui.SC2:cartAreaEngine=Motoren
+gui.SC2:cartAreaEngine=Motor
 gui.SC2:cartAreaRailer=Schienenleger
 gui.SC2:cartAreaStorage=Truhenslots
 gui.SC2:cartAreaTorches=Fackeln
@@ -75,7 +75,7 @@ gui.SC2:cartAreaSaplings=Setzlinge
 gui.SC2:cartAreaFirework=Feuerwerk
 gui.SC2:cartAreaBuckets=Eimer (für Melkmaschine)
 gui.SC2:cartAreaCakes=Kuchen
-gui.SC2:cartAreaCropsticks=Cropsticks
+gui.SC2:cartAreaCropsticks=Erntestäbe
 
 
 
@@ -310,12 +310,12 @@ item.SC2:cake_server.name=Kuchenservierer
 item.SC2:creative_incinerator.name=Kreativmüllverbrenner
 item.SC2:creative_supplies.name=Kreativversorger
 item.SC2:color_randomizer.name=Farben-Zufallsgenerator
-item.SC2:crop_exotic.name=Crop: Exotic
-item.SC2:train_connector.name=Train Connector
-item.SC2:electric_engine_lv.name=Electric Engine LV
-item.SC2:electric_engine_mv.name=Electric Engine MV
-item.SC2:electric_engine_hv.name=Electric Engine HV
-item.SC2:crop_ic2.name=Crop: IC2
+item.SC2:crop_exotic.name=Feldfrucht: Exotisch
+item.SC2:train_connector.name=Zugverbinder
+item.SC2:electric_engine_lv.name=Elektromotor LV
+item.SC2:electric_engine_mv.name=Elektromotor MV
+item.SC2:electric_engine_hv.name=Elektromotor HV
+item.SC2:crop_ic2.name=Feldfrucht: IC2
 
 
 # Components
@@ -419,7 +419,7 @@ tile.SC2:BlockDistributor.name=Externer Verteiler
 tile.SC2:BlockLiquidManager.name=Flüssigkeitsmanager
 
 # Storage
-tile.SC2:BlockMetalStorage.name=Resource Block
+tile.SC2:BlockMetalStorage.name=Ressourcenblock
 item.SC2:BlockStorage0.name=Verstärkter Metallblock
 item.SC2:BlockStorage1.name=Galgadorblock
 item.SC2:BlockStorage2.name=Verbesserter Galgadorblock
@@ -448,7 +448,7 @@ item.SC2:solar_panel_upgrade.name=Upgrade: Sonnenkollektor
 item.SC2:thermal_engine_upgrade.name=Upgrade: Wärmekraftmotor
 
 # Detector Units
-tile.SC2:BlockDetector.name=Detector
+tile.SC2:BlockDetector.name=Detektor
 item.SC2:BlockDetector0.name=Detektorenmanager
 item.SC2:BlockDetector1.name=Detektoreneinheit
 item.SC2:BlockDetector2.name=Detektorenstation
@@ -605,8 +605,8 @@ modules.addons.SC2:recipeChangeLimit10=Shiftklick, um die Anzahl um 10 zu änder
 modules.addons.SC2:recipeChangeLimit64=Strg-klick, um die Anzahl um 64 zu ändern.
 modules.addons.SC2:shieldToggle=[%1->Aktiviert|Deaktiviert] Schild
 modules.addons.SC2:buttonRandomize=Zufällige Farbe Generieren
-modules.addons.SC2:toggleHarvestmode=Toggle Harvestmode
-modules.addons.SC2:harvestmode=Harvestmode: [%1->ASAP|Optimal]
+modules.addons.SC2:toggleHarvestmode=Erntemodus umschalten
+modules.addons.SC2:harvestmode=Erntemodus: [%1->Schnell|Optimal]
 
 # Engines
 modules.engines.SC2:creativePowerLevel=Energielevel: [%1]
@@ -620,9 +620,9 @@ modules.engines.SC2:thermalEngineTitle=Verbrennungsmotor
 modules.engines.SC2:thermalPowered=Angetrieben
 modules.engines.SC2:outOfWater=Kein Wasser
 modules.engines.SC2:outOfLava=Keine Lava
-modules.engines.SC2:electricEngineTitle=Electric Engine
-modules.engines.SC2:chargeLevel=Charge: [%1]
-modules.engines.SC2:outOfCharge=Out of Charge
+modules.engines.SC2:electricEngineTitle=Elektromotor
+modules.engines.SC2:chargeLevel=Ladung: [%1]
+modules.engines.SC2:outOfCharge=Keine Ladung
 # need beta 3 for these ones to show up (remove this note)
 modules.engines.SC2:engineDisabledMessage=Deaktiviert
 modules.engines.SC2:enginePriorityMessage=[%1->Hohe|Mittlere|Niedrige] Priorität
@@ -698,7 +698,7 @@ modules.attachments.SC2:controlSystemReset=Tripmeter zurücksetzen
 # need beta 3 for these ones to show up (remove this note)
 # Ghast Invaders
 arcade.SC2:ghastInvaders=Ghast Invaders
-arcade.SC2:ghastLives=Extraleben
+arcade.SC2:ghastLives=Extra-Leben
 arcade.SC2:highScore=Highscore: [%1]
 arcade.SC2:score=Punktezahl: [%1]
 arcade.SC2:instructionShoot=Schießen

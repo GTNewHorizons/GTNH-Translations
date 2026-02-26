@@ -55,7 +55,7 @@ ttmisc.mode.axe.2=Baum-Modus
 ttmisc.mode.sword.0=Einzel-Modus
 ttmisc.mode.sword.1=Bereichs-Modus
 ttmisc.mode.sword.2=Seelen-Modus
-ttmisc.experience=Experience
+ttmisc.experience=Erfahrung
 ttmisc.light0=Licht aktiviert
 ttmisc.light1=Licht deaktiviert
 ttmisc.awakenedArmor0=Rüstungsteil aktiviert
@@ -76,10 +76,10 @@ ttmisc.noDest=Es gibt kein Himmelstor am Zielort.
 ttmisc.noTeleport=Das Himmelstor am Zielort erlaubt keine Teleports zu ihm.
 
 # ITEM NAMES
-item.darkQuartzItem.name=Smokey Quartz
+item.darkQuartzItem.name=Rauchiger Quarz
 item.connector.name=Transvektoren-Binder
-item.gaseousLightItem.name=Gaseous Illuminae
-item.gaseousShadowItem.name=Gaseous Tenebrae
+item.gaseousLightItem.name=Gasförmige Illuminae
+item.gaseousShadowItem.name=Gasförmige Tenebrae
 item.gasRemover.name=Dampf-Dissipator
 item.spellCloth.name=Entzauberungstuch
 item.focusFlight.name=Stabfokus: Aufsteigen
@@ -149,12 +149,12 @@ tile.darkQuartzChiseled.name=Gemeißelter Rauchiger Quarzblock
 tile.darkQuartzPillar.name=Rauchige Quarzsäule
 tile.darkQuartzSlab.name=Rauchige Quarzstufe
 tile.forcefield.name=Kraftfeld
-tile.travelSlab.name=Paving Slab of Travel
-tile.travelSlabFull.name=Paving Slab of Travel
-tile.travelStairs.name=Paving Stair of Travel
-tile.wardSlab.name=Paving Slab of Warding
+tile.travelSlab.name=Pflasterstufe des Reisens
+tile.travelSlabFull.name=Pflasterstufe des Reisens
+tile.travelStairs.name=Pflastertreppe des Reisens
+tile.wardSlab.name=Pflasterstufe des Bannes
 tile.wardSlabFull.name=Paving Slab of Warding
-tile.infusedFarmland.name=Infused Farmland
+tile.infusedFarmland.name=Infudiertes Ackerland
 tile.gaseousLight.name=Gaseous Light
 tile.gaseousShadow.name=Gaseous Shadow
 tile.infusedGrainBlock.name=Imbued Grain
@@ -181,11 +181,11 @@ tile.repairer.name=Thaumischer Restaurierer
 tile.aspectAnalyzer.name=Aspektanalysierer
 tile.platform.name=Ätherische Plattform
 tile.spawner.name=Nekromantentafel
-tile.bedrockPortal.name=Bedrock Portal
+tile.bedrockPortal.name=Bedrockportal
 tile.Levitational Locomotive.name=Levitationslokomotive
 tile.Levitational Locomotive Relay.name=Levitationslokomotivrelais
 tile.golemConnector.name=Golemkonnektor
-tile.remotePlacer.name=Remote Placer
+tile.remotePlacer.name=Fernplatzierer
 
 # KAMI BLOCK NAMES
 tile.warpGate.name=Himmelstor
@@ -225,7 +225,7 @@ ttresearch.page.PERIPHERALS.0=Thaumic Tinkerer erlaubt einigen Blöcken, die es 
 # Note: For people who localize the mod. If you have custom documentation, feel free to include in your PR a
 # link to it and the short URL (see above) you want for it on my website and I'll add it.
 ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
-ttcomputer.dissipator=Dissipating
+ttcomputer.dissipator=Auflösen
 # -- ASPECT ANALYZER
 ttresearch.name.ASPECT_ANALYZER=Aspektanalysierer
 ttresearch.lore.ASPECT_ANALYZER=Computerisiertes Scannen
@@ -276,7 +276,7 @@ ttresearch.page.GAS_REMOVER.0=Nachdem du Gasförmige Illuminae und Tenebrae kenn
 
 # -- SPELLBINDING CLOTH
 ttresearch.name.SPELL_CLOTH=Entzauberungstuch
-ttresearch.lore.SPELL_CLOTH=Der traurige Palmtop-Thaumaturge
+ttresearch.lore.SPELL_CLOTH=Verzauberter Radierer
 ttresearch.page.SPELL_CLOTH.0=Durch das Mischen von Verzaubertem Stoff mit roher magischer Energie hast du ein Tuch kreiert, das an einem Item gerieben werden kann, um dieses von seinen Verzauberungen zu befreien. Kombiniere dazu beides in einem Crafting-Feld.
 
 # -- DYNAMISM TABLET
@@ -355,7 +355,7 @@ ttresearch.page.TTENCH_DESINTEGRATE.0=Du hast eine Verzauberung formuliert, die 
 
 # -- ENCHANTMENT: QUICK DRAW
 ttresearch.name.TTENCH_QUICK_DRAW=Verzauberung: Schnelles Spannen
-ttresearch.lore.TTENCH_QUICK_DRAW=Mögen die Seltsamen auf ewig zu deinen Gunsten sein
+ttresearch.lore.TTENCH_QUICK_DRAW=Mögen die Chancen immer zu deinen Gunsten stehen.
 ttresearch.page.TTENCH_QUICK_DRAW.0=Du hast eine Verzauberung formuliert, die es dir erlaubt, deinen Bogen auf schnellere Art zu spannen.<BR><BR>Diese Verzauberung kann auf Bögen gelegt werden. Wenn getan, kann der Bogen schneller voll gespannt werden als normal.
 
 # -- ENCHANTMENT: VAMPIRISM
@@ -381,7 +381,7 @@ ttresearch.page.TTENCH_FINAL.0=Du hast eine Verzauberung formuliert, die dich ge
 # -- ENCHANTMENT: VALIANCE
 ttresearch.name.TTENCH_VALIANCE=Verzauberung: Tapferkeit
 ttresearch.lore.TTENCH_VALIANCE=Mit dem Rücken zur Wand
-ttresearch.page.TTENCH_VALIANCE.0=Du hast eine Verzauberung formuliert, die dich besser kämpfen lässt, wenn du verletzt bist.<BR><BR>Diese Verzauberung kann auf Schwerter gelegt werden. Wenn getan, wird der Schaden mit dem Schwert erhöht, wenn der Träger nur noch wenig Lebenskraft hat.
+ttresearch.page.TTENCH_VALIANCE.0=Du hast einen Zauber entwickelt, der es dir ermöglicht, besser zu kämpfen, wenn deine Gesundheit niedrig ist. <BR><BR>Dieser Zauber kann auf Schwerter angewendet werden. Wenn dies geschieht, wird der mit dem Schwert verursachte Schaden erhöht, wenn die Gesundheit des Trägers niedrig ist.
 
 
 # -- ENCHANTMENT: TUNNEL
@@ -397,7 +397,7 @@ ttresearch.page.TTENCH_SHATTER.0=Du hast eine Verzauberung formuliert, die dich 
 # -- ENCHANTMENT: SHOCKWAVE
 ttresearch.name.TTENCH_SHOCKWAVE=Verzauberung: Schockwelle
 ttresearch.lore.TTENCH_SHOCKWAVE=Mini-Erdebeben
-ttresearch.page.TTENCH_SHOCKWAVE.0=Du hast eine Verzauberung formuliert, die dir das Töten von Monstern im Fall erleichtert.<BR><BR>Diese Verzauberung kann auf Stiefel gelegt werden. Wenn getan, wird, wenn der Träger fällt, allen Monstern und Spielern in der Umgebung Schaden zugefügt.<BR><BR>Leider macht jegliche Art von Magie, die den Spieler leichter macht, zum Beipiel, um Fallschaden zu verhindern, den Spieler zu leicht, um Schaden zu verursachen. Du glaubst, dass es später Wege geben könnte, um dies zu verhindern, sobald du dich mehr mit der Magie auseinandersetzt.
+ttresearch.page.TTENCH_SHOCKWAVE.0=Du hast einen Zauber entwickelt, der es dir ermöglicht, beim Fallen Feinde zu töten. <BR><BR>Dieser Zauber kann auf Stiefel angewendet werden. Wenn dies geschieht, wird bei jedem Sturz des Trägers Schaden an umgebenden Mobs oder Spielern verursacht. <BR><BR>Leider machen alle Arten von Magie, die den Spieler leichter machen, um Schaden durch Stürze zu verhindern, den Spieler zu leicht, um Entitäten Schaden zuzufügen. Du hast das Gefühl, dass es Möglichkeiten gibt, dies zu einem späteren Zeitpunkt zu verhindern, sobald du die Magie besser kennst.
 
 # -- ENCHANTMENT: POUNCE
 ttresearch.name.TTENCH_POUNCE=Verzauberung: Niederstoßen
@@ -550,14 +550,14 @@ ttresearch.page.ICHOR_AXE_GEM.0=Du hast das wahre Potential einer Ichoriumaxt er
 
 # -- AWAKENED ICHORIUM SWORD
 ttresearch.name.ICHOR_SWORD_GEM=Erwecktes Ichoriumschwert
-ttresearch.lore.ICHOR_SWORD_GEM=Mom's Messer
+ttresearch.lore.ICHOR_SWORD_GEM=Eine elegante Waffe aus einer zivilisierteren Zeit
 ttresearch.page.ICHOR_SWORD_GEM.0=Du hast das wahre Potential eines Ichoriumschwerts erweckt. Dieses Schwert enthält alle Eigenschaften des regulären, jedoch kannst du mit einem Shift-Rechtsklick den Modus ändern, in dem es sich befindet.<BR><BR>Im Einzel-Modus (Grün) wird es Monster normal attackieren.<BR><BR>Im Bereichs-Modus (Rot) wird es alle Monster des selben Typs in einem 3-Block-Radius um das attackierte herum angreifen.<BR><BR>Im Seelen-Modus (Blau) wird es weniger Schaden verursachen als gewöhnlich, aber jeder Schlag wird dem Angreifer ein Seelenherz verleihen.<BR>[fortgesetzt]
 ttresearch.page.ICHOR_SWORD_GEM.1=Seelenherzen sind Herzen, die nur einmal verwendet werden können. Die werden als metallische Herzen unterhalb deiner Nahrungsanzeige stehen, wenn existent. Die blockieren Schaden, den der Träger erhalten würde, aber verschwinden in diesem Prozess.
 
 # -- BOTTOMLESS POUCH
 ttresearch.name.ICHOR_POUCH=Bodenloser Beutel
 ttresearch.lore.ICHOR_POUCH=Haha, he said bottom
-ttresearch.page.ICHOR_POUCH.0=Indem du einen Fokusbeutel mit Items wie dem Tragbaren Loch versetzt hast, hast du es nicht nur geschafft, ihm zu ermöglichen, anderes als Foki zu halten, sondern auch, seine Speichergröße massiv zu erweitern.<BR><BR>Dieser Beutel kann nicht nur mehr halten als vier Truhen, er dient auch immer noch als gewöhnlicher Fokusbeutel, was es Foki in ihm ermöglicht, sich wie gewohnt auf den Stab aufzusetzen. Sag deinen Inventarproblemen Auf Wiedersehen.
+ttresearch.page.ICHOR_POUCH.0=Indem du einen Fokusbeutel mit Gegenständen wie dem tragbaren Loch-Fokus füllst, kannst du ihn so aufwerten, dass er nicht nur Foki, sondern alle Arten von Gegenständen aufnehmen kann, dank seines beeindruckend geräumigen Innenraums. <BR><BR>Dieser verbesserte Beutel kann den Inhalt von mehr als vier Truhen aufnehmen und funktioniert gleichzeitig wie ein normaler Fokusbeutel, sodass alle darin enthaltenen Foki wie gewohnt an einem Zauberstab angebracht werden können. Damit gehören deine Inventarprobleme der Vergangenheit an.
 
 # -- BLACK HOLE RING
 ttresearch.name.BLOCK_TALISMAN=Schwarzloch-Ring
@@ -592,38 +592,38 @@ ttresearch.page.WARP_GATE.1=Um Zielorte eines Tores einzustellen, müssen sie mi
 
 # -- WAND FOCUS: RECALL
 ttresearch.name.FOCUS_RECALL=Stabfokus: Himmelsrückruf
-ttresearch.lore.FOCUS_RECALL=Home is where the Hearthstone is
+ttresearch.lore.FOCUS_RECALL=Zuhause ist dort, wo der Herd steht
 ttresearch.page.FOCUS_RECALL.0=Himmelstore für Teleportation zu nutzen, ist schön und gut, aber du hast dich entschieden, einen Schritt weiter zu gehen und einen Fokus zu kreieren, der genau das kann, nur von überall.<BR><BR>Dieser Fokus wird, wenn sich eine gebundene Himmelsperle in der Hotbar befindet, den Nutzer, nach kurzer Zauberzeit, zu jener Position teleportieren, als hätte er ein Himmelstor verwendet. Selbstverständlich benötigt das Teleportieren Vis aus deinem Stab.
 
 # -- FIRE
-ttresearch.name.FIRE_IGNIS=Elemental Fire: Ignis
-ttresearch.lore.FIRE_IGNIS=Fire infused with.....more fire!
-ttresearch.page.FIRE_IGNIS.0=You have managed to enhance the destructive powers of hyperenergetic nitor. By letting this fire loose on the surface of the world, you can transmute blocks into their equivalent forms in the nether.
+ttresearch.name.FIRE_IGNIS=Elementares Feuer: Ignis
+ttresearch.lore.FIRE_IGNIS=Feuer, durchdrungen von ... noch mehr Feuer!
+ttresearch.page.FIRE_IGNIS.0=Du hast es geschafft, die zerstörerischen Kräfte von hyperenergetischem Nitor zu verstärken. Indem du dieses Feuer auf der Oberfläche der Welt entfesselst, kannst du Blöcke in ihre entsprechenden Formen im Nether umwandeln.
 
-ttresearch.name.FIRE_AQUA=Elemental Fire: Aqua
-ttresearch.lore.FIRE_AQUA=Water plus Fire. This should end well.
-ttresearch.page.FIRE_AQUA.0=You have managed to totally invert the destructive power of fire. This fire, when let loose in the nether, will turn it into your own personal winter wonderland.
+ttresearch.name.FIRE_AQUA=Elemetares Feuer: Aqua
+ttresearch.lore.FIRE_AQUA=Wasser plus Feuer. Das sollte gut enden.
+ttresearch.page.FIRE_AQUA.0=Du hast es geschafft, die zerstörerische Kraft des Feuers vollständig umzukehren. Dieses Feuer wird, wenn es im Nether entfesselt wird, diese in dein ganz persönliches Winterwunderland verwandeln.
 
-ttresearch.name.FIRE_AER=Elemental Fire: Aer
-ttresearch.lore.FIRE_AER=Suspension of disbelief is a useful skill
-ttresearch.page.FIRE_AER.0=Everyone likes desserts, right? Well, this fire, when let loose on the world, turns everything into a desert. That is almost like a dessert. Good enough?
+ttresearch.name.FIRE_AER=Elementares Feuer: Aer
+ttresearch.lore.FIRE_AER=Bereitschaft, sich auf die Fiktion einzulassen
+ttresearch.page.FIRE_AER.0=Jeder mag Sandkuchen, richtig? Nun, wenn dieses Feuer erst einmal wütet, verwandelt es die ganze Welt in eine riesige Portion Sand. Das ist doch quasi wie Kuchen, nur... trockener. Reicht euch das?
 
-ttresearch.name.FIRE_TERRA=Elemental Fire: Terra
-ttresearch.lore.FIRE_TERRA=Enough dirt to ... do whatever one does with dirt
-ttresearch.page.FIRE_TERRA.0=This fire will turn a wide variety of blocks into dirt. Just about the least useful thing ever. Seriously. This is just about the least useful item ever.
+ttresearch.name.FIRE_TERRA=Elementares Feuer: Terra
+ttresearch.lore.FIRE_TERRA=Genug Erde, um ... das zu tun, was man mit Erde so tut.
+ttresearch.page.FIRE_TERRA.0=Dieses Feuer verwandelt eine Vielzahl von Blöcken in Erde. Das ist so ziemlich das Unnützte, was es gibt. Im Ernst. Das ist so ziemlich der unnützte Gegenstand, den es gibt.
 
-ttresearch.name.FIRE_ORDO=Elemental Fire: Ordo
-ttresearch.lore.FIRE_ORDO=The fire of order
-ttresearch.page.FIRE_ORDO.0=This fire of order is currently being reworked and does nothing.
+ttresearch.name.FIRE_ORDO=Elementares Feuer: Ordo
+ttresearch.lore.FIRE_ORDO=Das Feuer der Ordnung
+ttresearch.page.FIRE_ORDO.0=Dieses Feuer der Ordnung wird derzeit überarbeitet und hat keine Funktion.
 
-ttresearch.name.FIRE_PERDITIO=Elemental Fire: Perditio
-ttresearch.lore.FIRE_PERDITIO=Cleanup time
-ttresearch.page.FIRE_PERDITIO.0=This fire acts like an antidote of sorts. If your elemental fires have gotten out of your control, you can set loose this specially designed flame. It will rip the magic out of elemental fire, returning it to a mundane form.
+ttresearch.name.FIRE_PERDITIO=Elementares Feuer: Perditio
+ttresearch.lore.FIRE_PERDITIO=Aufräumzeit
+ttresearch.page.FIRE_PERDITIO.0=Dieses Feuer wirkt wie eine Art Gegenmittel. Wenn deine Elementarfeuer außer Kontrolle geraten sind, kannst du diese speziell entwickelte Flamme entfesseln. Sie entreißt dem Elementarfeuer seine Magie und verwandelt es wieder in eine gewöhnliche Form.
 
-ttresearch.name.INFUSED_POTIONS=Infused Crops
-ttresearch.lore.INFUSED_POTIONS=Who said bees? No one said bees.
-ttresearch.page.INFUSED_POTIONS.0=You are able to create a new form of plant by infusing mundane seeds with magical shards. These seeds can create a wide variety of items. Each aspect can create a different type of item.
-ttresearch.page.INFUSED_POTIONS.1=You can only craft primal seeds, all others must be bred. When a fully-grown crop is harvested, it will deposit magical residue into the soil. If a crop is grown in soil containing high magical residue of an appropriate aspect, the two aspects will combine to form a seed of a different aspect.
+ttresearch.name.INFUSED_POTIONS=Infundierte Feldfrüchte
+ttresearch.lore.INFUSED_POTIONS=Wer hat Bienen gesagt? Niemand hat Bienen gesagt.
+ttresearch.page.INFUSED_POTIONS.0=Du kannst eine neue Pflanzenform erschaffen, indem du gewöhnliche Samen mit magischen Splittern versetzt. Diese Samen können eine Vielzahl von Gegenständen hervorbringen. Jeder Aspekt kann eine andere Art von Gegenstand hervorbringen.
+ttresearch.page.INFUSED_POTIONS.1=Du kannst nur Ur-Samen herstellen, alle anderen müssen gezüchtet werden. Wenn eine voll ausgewachsene Pflanze geerntet wird, hinterlässt sie magische Rückstände im Boden. Wenn eine Pflanze in Erde mit einem hohen Gehalt an magischen Rückständen eines bestimmten Aspekts angebaut wird, verbinden sich die beiden Aspekte zu einem Samen mit einem anderen Aspekt.
 ttresearch.page.INFUSED_POTIONS.2=Aspect Tendencies can also be bred into crops to increase certain traits. Terra will increase the magical residue left on the soil. Ignis will aid in the creation of new aspects. Ordo will increase the bounty from a plant. Perditio will increase the seeds dropped. Aer will allow a plant to receive other types of tendencies easier. A single plant can only have a maximum of 50 aspect tendencies.
 ttresearch.page.INFUSED_POTIONS.3=There are two ways to give crops primal tendencies. Crops will occasionally absorb primal tendencies if planted next to plants of the appropriate aspect. However, plants can't receive more than 5 points in a single aspect in this manner.
 ttresearch.page.INFUSED_POTIONS.4=Crops will also drain tendencies from nearby crops. A crop will drain points from an adjacent crop with an equal or greater number of points.

@@ -1,7 +1,7 @@
-achievement.openblocks.droppedBrick=Zoinks!
+achievement.openblocks.droppedBrick=Huch!
 achievement.openblocks.droppedBrick.desc=Sorry, das ist einfach so passiert...
 stat.openblocks.bricksDropped=Fallen gelassene Ziegel
-achievement.openblocks.stackOverflow=Stack Overflow
+achievement.openblocks.stackOverflow=Stapelüberlauf
 achievement.openblocks.stackOverflow.desc=Es ist voller Sterne!
 
 openblocks.keybind.category=OpenBlocks
@@ -15,13 +15,13 @@ enchantment.openblocks.laststand=Letzte Rettung
 enchantment.openblocks.flimflam=Blödsinn
 
 openblocks.gui.blocks=Blöcke
-openblocks.gui.items=Items
+openblocks.gui.items=Gegenstände
 openblocks.gui.misc=Verschiedenes
-openblocks.gui.changelogs=Changelogs
+openblocks.gui.changelogs=Änderungsprotokolle
 
 openblocks.gui.features=Features
-openblocks.gui.bugfixes=Bugfixes
-openblocks.gui.tweaks=Tweaks
+openblocks.gui.bugfixes=Fehlerbehebungen
+openblocks.gui.tweaks=Optimierungen
 
 openblocks.gui.luggage=Reisegepäck
 openblocks.gui.sprinkler=Rasensprenger
@@ -41,7 +41,7 @@ openblocks.gui.drawingtable=Zeichentisch
 openblocks.gui.digitalfuse=Digitalzünder
 openblocks.gui.xp_outputs=XP-Abgabe
 openblocks.gui.item_outputs=Itemabgabe
-openblocks.gui.max_level=Max. Level: %d
+openblocks.gui.max_level=Max. Stufe: %d
 openblocks.gui.save_folder=Sichere Ordner
 
 openblocks.gui.welcome.title=Willkommen!
@@ -169,11 +169,11 @@ openblocks.misc.command.flim_flam_failed=Der Blödsinn hat nicht funktioniert!
 openblocks.misc.command.luck_added=Glück von Spieler %s geändert, aktuell: %d
 openblocks.misc.command.luck_current=Glück von Spieler %s: %d
 
-openblocks.misc.map.scale=Scale: 1:%d
-openblocks.misc.map.scale.center_x=Center X: %d
-openblocks.misc.map.scale.center_z=Center Z: %d
+openblocks.misc.map.scale=Skala: 1:%d
+openblocks.misc.map.scale.center_x=Mitte X: %d
+openblocks.misc.map.scale.center_z=Mitte Z: %d
 
-openblocks.misc.hidden_lore=§a§oHold ALT to see history§r
+openblocks.misc.hidden_lore=§a§oALT gedrückt halten, um den Verlauf anzuzeigen§r
 openblocks.flim_flammed=Etwas seltsames geschieht um dich herum...
 
 openblocks.turtle.magnet=Magnet
@@ -195,7 +195,7 @@ tile.openblocks.builder_guide.description=Die verbesserte Form der Bau-Hilfe zei
 tile.openblocks.ladder.name=Strickleiter
 tile.openblocks.ladder.description=Die Strickleiter löst das nervige Problem, über eine Falltür an der Spitze einer Leiter springen zu müssen. Die Strickleiter funktioniert zeitgleich wie eine Falltür und wie eine Leiter.
 
-tile.openblocks.tank.filled.name=%s Tank
+tile.openblocks.tank.filled.name=%s-Tank
 tile.openblocks.tank.name=Tank
 tile.openblocks.tank.description=Tanks können Flüssigkeiten halten. Wenn du Tanks nebeneinander platzierst, werden sie ihre Flüssigkeit untereinander aufteilen. Du kannst Flüssigkeiten mit Eimern in Tanks füllen. Wenn der Tank Flüssige XP enthält, kannst du mit einer leeren Hand rechtsklicken, um dir ein wenig dieser XP zu geben. Wenn abgebaut, behalten Tanks ihren Inhalt.
 
@@ -211,8 +211,8 @@ tile.openblocks.sponge.description=Der Schwamm ist ein Ersatz für den Vanilla-S
 item.openblocks.spongeonastick.name=Schwamm
 item.openblocks.spongeonastick.description=Der Schwamm am Stiel ist ein Werkzeug zum Enfernen von Flüssigkeiten. Funktioniert wie der Schwamm, ist aber mobil und wird mit der Zeit aufgebraucht.
 
-item.openblocks.epic_eraser.name=Epic Eraser
-item.openblocks.epic_eraser.description=Every item has its own history...\n\nDon't you hate it?\nWith this item you can scrub all traces of epic lore your loot has collected over the years and then sell it on black market without worrying about evidence.
+item.openblocks.epic_eraser.name=Epischer Radierer
+item.openblocks.epic_eraser.description=Jeder Gegenstand hat seine eigene Geschichte...\n\nFindest du das nicht auch nervig?\nMit diesem Gegenstand kannst du alle Spuren epischer Überlieferungen, die dein Loot im Laufe der Jahre gesammelt hat, auslöschen und sie dann auf dem Schwarzmarkt verkaufen, ohne dir Gedanken über Beweise machen zu müssen.
 
 tile.openblocks.cannon.name=Item-Kanone
 tile.openblocks.cannon.description=Wenn ein Redstone-Signal anliegt, wird die Item-Kannone Items, die es in einem benachbarten Inventar findet, schießen. Benutze den 'Zeiger', um die Kannone auszurichten.
@@ -264,7 +264,7 @@ tile.openblocks.blockbreaker.description=Wenn er ein Redstone-Signal bekommt, br
 
 tile.openblocks.projector.name=Höhenkartenprojektor
 tile.openblocks.projector.description=Ich überlasse es boq, das hier zu schreiben!
-tile.openblocks.projector.working.name=Height Map Projector
+tile.openblocks.projector.working.name=Höhenkartenprojektor
 
 tile.openblocks.autoenchantmenttable.name=Auto-Zaubertisch
 tile.openblocks.autoenchantmenttable.description=Der Auto-Zaubertisch funktioniert ähnlich wie der Vanilla-Zaubertisch, außer dass er mit flüssigen XP arbeitet. Benutze die Tabs auf der rechten Seite des Interfaces, um auszuwählen, von wo Items und XP genommen werden sollen. Genau wie beim Vanilla-Zaubertisch brauchst du Bücherregale, wenn du mit höhere Leveln verzaubern willst.
@@ -311,7 +311,7 @@ item.openblocks.slimalyzer.name=Schleimalysierer
 item.openblocks.slimalyzer.description=Renne mit einem Schleimalysierer in deiner Hand herum, und er wird jedes Mal aufleuchten, wenn du dich in einem Schleime spawnenden Chunk befindest.
 
 item.openblocks.hangglider.name=Hängegleiter
-item.openblocks.hangglider.invalid_dimension=It seems the glider doesn't work, perhaps the atmosphere is too thin?
+item.openblocks.hangglider.invalid_dimension=Es scheint, als würde der Gleiter nicht funktionieren, vielleicht ist die Atmosphäre zu dünn?
 item.openblocks.hangglider.description=Der Hängegleiter ist selbsterklärend. Halte ihn in deiner Hand und klicke, um ihn auf deinem Rücken zu platzieren. Jetzt spring!\nDrücke Shift um während des Gleitens deine Geschwindigkeit zu erhöhen, doch pass auf, du wirst schneller sinken!\n\nDein Hängegleiter ist außerdem mit einem Variometer zur akustischen Indikation vertikaler Luftbewegungen ausgerüstet. Drücke V und bleibe für immer oben (oder bis die Sonne untergeht)!
 
 item.openblocks.generic.name=Item
@@ -342,11 +342,11 @@ item.openblocks.crane_backpack.description="Magnet" in der Minecraftwelt ist ein
 item.openblocks.crane_control.name=Krankontrolle
 item.openblocks.crane_control.description=Dise drahtlose Hi-Tech-Fernbedienung wird für die Steuerung des Kranrucksacks verwendet.\n\nRechtsklick zum Anheben, Shift-Rechtsklick zum Absenken, Linksklick zum Aufheben/Fallenlassen.\nEine blinkende Leuchte signalisiert, das etwas unter dem Magneten ist.
 
-item.openblocks.wrench.name=Big Metal Bar
-item.openblocks.wrench.description=This is extremely sophisticated tool used to perform transformations of objects with octahedral symmetry.\n\n\nOr just big, dumb piece of metal you can use to rotate cubes and stuff.\n\nSo yeah, it's yet another wrench. I'm just trying to be original here, ok?
+item.openblocks.wrench.name=Große Metallstange
+item.openblocks.wrench.description=Dies ist ein äußerst hochentwickeltes Werkzeug, mit dem Objekte mit oktaedrischer Symmetrie transformiert werden können. \n\n\nOder einfach nur ein großes, dummes Stück Metall, mit dem man Würfel und andere Dinge drehen kann. \n\nAlso ja, es ist wieder einmal ein Schraubenschlüssel. Ich versuche nur, originell zu sein, okay?
 
 item.openblocks.stencil.name=Schablone
-item.openblocks.imaginary.name=Magic Crayon/Pencil
+item.openblocks.imaginary.name=Magischer Buntstift/Bleisstift
 item.openblocks.crayon.name=Magischer Buntstift
 item.openblocks.pencil.name=Magischer Bleistift
 item.openblocks.glasses.pencil.name=Bleistiftbrille
@@ -359,7 +359,7 @@ item.openblocks.beam.name=Balken
 item.openblocks.line.name=Leine
 item.openblocks.miracle_magnet.name=§5Mirakelmagnet§r
 item.openblocks.info_book.name=Welteroberung mit OpenBlocks
-item.openblocks.filledbucket.name=XP Bucket
+item.openblocks.filledbucket.name=XP-Eimer
 item.openblocks.xpbucket.name=XP-Eimer
 item.openblocks.height_map.name=Höhenkarte
 item.openblocks.empty_map.name=Leere Karte
@@ -370,7 +370,7 @@ item.openblocks.assistant_base.name=Assistenzbasis
 item.openblocks.sketching_pencil.name=Skizzierstift
 item.openblocks.tasty_clay.name=Leckerer Lehm
 item.openblocks.golden_eye.name=Goldenes Auge
-item.openblocks.genericUnstackable.name=Pointer
+item.openblocks.genericUnstackable.name=Zeiger
 item.openblocks.pointer.name=Zeiger
 item.openblocks.tuned_crystal.name=Wellenkristall
 item.openblocks.pedometer.name=Pedometer

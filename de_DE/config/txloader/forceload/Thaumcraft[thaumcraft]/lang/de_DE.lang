@@ -46,7 +46,7 @@ entity.Thaumcraft.ShockOrb.name=Shockierender Orb
 entity.Thaumcraft.GolemOrb.name=Energie-Orb
 entity.Thaumcraft.BottleTaint.name=Abgefüllter Schmutz
 entity.Thaumcraft.Firebat.name=Flammfledermaus
-entity.Thaumcraft.Wisp.name=Wisp
+entity.Thaumcraft.Wisp.name=Hauch
 entity.Thaumcraft.Alumentum.name=Alumentum
 entity.Thaumcraft.GiantBrainyZombie.name=Tobender Zombie
 entity.Thaumcraft.BrainyZombie.name=Wütender Zombie
@@ -517,7 +517,7 @@ item.ItemRingRunic.3.name=Revitalisierender Ring des Schutzes
 item.ItemGirdleRunic.0.name=Gürtel des Runenschildes
 item.ItemGirdleRunic.1.name=Kinetischer Gürtel des Schutzes
 item.runic.charge=Runenschutz
-item.warping=Warping
+item.warping=Warpen
 item.ItemBaubleBlanks.0.name=Gewöhnliches Amulett
 item.ItemBaubleBlanks.1.name=Gewöhnlicher Ring
 item.ItemBaubleBlanks.2.name=Gewöhnlicher Gürtel
@@ -560,7 +560,7 @@ item.ItemHelmetVoidRobe.name=Leerthaumaturgenhaube
 item.ItemChestplateVoidRobe.name=Leerthaumaturgenrobe
 item.ItemLeggingsVoidRobe.name=Leerthaumaturgenhose
 item.ItemSanitySoap.name=Säubernde Seife
-item.ItemSanityChecker.name=Sanity Checker
+item.ItemSanityChecker.name=Vernunftprüfer
 item.ItemHelmetCultistRobe.name=Karmesinkulthaube
 item.ItemChestplateCultistRobe.name=Karmesinkultrobe
 item.ItemLeggingsCultistRobe.name=Karmesinkulthose
@@ -645,7 +645,7 @@ golemblurb.8.text=Wünschst du, dass ich dieses Item auf einen Block benutze ode
 golemblurb.10.text=Weise mir den Weg, Meister, und ich werde alles sortiert halten.
 golemthreat.0.text=Welcher Golemaufstand? Ich weiß gar nichts über einen Golemaufstand.
 golemthreat.1.text=Lass mich raten, du möchtest, dass ich etwas trage?
-golemthreat.2.text=Mwah ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
+golemthreat.2.text=Muha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha ha!
 golemthreat.3.text=Keine Sorge; ich schmiede definitiv keine Pläne.
 golemthreat.4.text=Warum machst du nicht mal ein Nickerchen? Du siehst müde aus. Sehr, sehr müde.
 golemthreat.5.text=Ph'nglui mglw'nafh Cthulhu R'lyeh wgah'nagl fhtagn!
@@ -1047,7 +1047,7 @@ tc.research_text.ROD_reed=Luftiger Visspeicher
 tc.research_page.ROD_reed.1=Ein Stabkern aus Zuckerrohr besitzt eine etwas größere Kapazität als ein Kern aus Großholz. Was ihn Großholzkernen überlegen macht, ist, dass sich das §6Aer§0-Vis auch ohne eine Nodie langsam wieder auflädt, wenn es unter 10% gefallen ist.
 #
 tc.research_name.ROD_greatwood_staff=Magische Langstäbe
-tc.research_text.ROD_greatwood_staff=Wizards staves have knobs on the end
+tc.research_text.ROD_greatwood_staff=Zaubererstäbe haben Knöpfe am Ende.
 tc.research_page.ROD_greatwood_staff.1=Stäbe sind das Handwerkszeug von jedem Thaumaturgen, aber manchmal sind die einfach nicht befriedigend. Magische Langstäbe sind an sich nur größere Stäbe, die mehr Vis speichern können.<BR>Weil sie größer und auch stabiler als normale Stäbe sind, können sie im Notfall sogar als Waffe eingesetzt werden.<BR>Leider macht sie das unbrauchbar für die komplizierten Vorgänge und die gute Kontrolle, die Arkane Werkbänke oder ähnliche Geräte erfordern.
 tc.research_page.ROD_greatwood_staff.2=Ein Langstab aus Großholz hat mehr als das doppelte Speicherpotential eines normalen Großholzstabes, er kann bis zu 125 Vis jedes Typs speichern.<BR>Anmerkung: Du musst trotz allem Kappen auf den Langstab setzen, damit er funktioniert, genau wie bei normalen Stäben.
 #
@@ -1097,7 +1097,7 @@ tc.research_text.FOCUSSHOCK=Donner und Blitz
 tc.research_page.FOCUSSHOCK.1=Dieser Fokus bündelt elementare Energie in Blitze, die du auf deine Gegner schleudern kannst.
 #
 tc.research_name.FOCUSEXCAVATION=Stabfokus: Graben
-tc.research_text.FOCUSEXCAVATION=Terra Terror
+tc.research_text.FOCUSEXCAVATION=Terra-Terror
 tc.research_page.FOCUSEXCAVATION.1=Dieser Fokus verwandelt deinen Zauberstab in ein Werkzeug, mit dem es ein leichtes ist, große Mengen an Erde und Stein zu bewegen.<BR>Richte ihn einfach auf die Stelle, die du umgraben möchtest und die Magie erledigt den Rest. Feste Materialien benötigen mehr Zeit für den Abbau, alles andere als Erde, Stein oder Ähnliches wird wesentlich länger dauern.
 #
 tc.research_name.FOCUSTRADE=Stabfokus: Blocktausch
@@ -1125,7 +1125,7 @@ tc.research_text.FOCUSPOUCH=Angenehmer Behälter für deine Foki
 tc.research_page.FOCUSPOUCH.1=Nachdem du eine ansehnliche Sammlung an Foki zusammengetragen hast, ist es recht lästig, sie alle immer mit dir zu tragen. Diese Tasche löst das Problem.<BR>Immer, wenn du den Fokus an deinem Zauberstab wechselst, versucht der Stab zunächst, den Fokus in der Tasche abzulegen. Ebenso kannst du mit der Tasche rechtsklicken, um Foki manuell abzulegen.<BR>Er kann ebenfalls in deinem Gürtel-Slot getragen werden.
 #
 tc.research_name.BOOTSTRAVELLER=Stiefel des Reisenden
-tc.research_text.BOOTSTRAVELLER=These boots were made for walking
+tc.research_text.BOOTSTRAVELLER=Diese Stiefel wurden zum Laufen gemacht.
 tc.research_page.BOOTSTRAVELLER.1=Dieses Paar verzauberter Schuhe ist voll mit Magie, um den Weg eines jeden Reisenden zu erleichtern.<BR>Sie erlauben dir, dich schneller zu bewegen und höher und weiter zu springen als je zuvor.<BR>Außerdem erlauben sie dir, wie ein Fisch durch das Wasser zu pflügen. Wie ein ungeschickter, langsamer Fisch, aber immerhin ein Fisch...
 #
 tc.research_name.PHIAL=Glasphiole
@@ -1283,7 +1283,7 @@ tc.research_name.GOLEMIRON=Eisengolems
 tc.research_text.GOLEMIRON=Wie Dorfgolems, nur kleiner... und besser
 tc.research_page.GOLEMIRON.1=Eisengolems sind extrem robust und stark, fähig, gewaltige Lasten zu tragen. Ihr Gewicht jedoch verursacht, dass sie sich ziemlich langsam bewegen und im Wasser sinken.<BR>§l§nEisengolem-Attribute§r<BR>§lHaltbarkeit:§r Hoch<BR>§lStärke:§r Hoch<BR>§lSelbstreparatur:§r Sehr langsam<BR>§lTragelimit:§r 32<BR>§lGeschwindigkeit:§r Sehr langsam<BR>§lUpgrades:§r 1
 #
-tc.research_name.GOLEMTHAUMIUM=Thaumium Golems
+tc.research_name.GOLEMTHAUMIUM=Thaumiumgolems
 tc.research_text.GOLEMTHAUMIUM=Mystische Helfer
 tc.research_page.GOLEMTHAUMIUM.1=Thaumiumgolems haben etwas bessere Attribute als Eisengolems und sind fähig, zwei Upgrades zu tragen. Auch sind sie äußerst resistent gegen magischen Schaden. Sie sind so schwer, dass sie im Wasser sinken<BR>§l§nThaumiumgolem-Attribute§r<BR>§lHaltbarkeit:§r Sehr hoch<BR>§lSärke:§r Hoch<BR>§lSelbstreparatur:§r Langsam<BR>§lTragelimit:§r 32<BR>§lGeschwindigkeit:§r Langsam<BR>§lUpgrades:§r 2
 #
@@ -1718,7 +1718,7 @@ tc.research_name.SANESOAP=Säubernde Seife
 tc.research_text.SANESOAP=Werde deine schmutzigen Gedanken los
 tc.research_page.SANESOAP.1=Den Körper zu reinigen ist leicht, aber sobald Warp zur wahren Plage wird, brauchst du etwas, das ebenso den Geist reinigen kann.<BR>Diese Seife reinigt Fleisch, aber die Wirkung, die sie auf deine Psyche hat, ist, was sie wirklich besonders macht. Wenn verwendet, hat hat sie eine geringe Chance, nicht-permanenten Warp zu reduzieren; außerdem wird sie allen temporären Warp entfernen.<BR>Wenn du sie verwendest, während du unter dem Effekt der Warpbanns oder in dieser Reinigenden Flüssigkeit stehst, sind deine Chancen höher.
 #
-tc.research_name.SANITYCHECK=Sanity Check
+tc.research_name.SANITYCHECK=Vernunftprüfer
 tc.research_text.SANITYCHECK=Introspektion für Mutige
 tc.research_page.SANITYCHECK.1=In deinem Kopf hat sich in letzter Zeit ziemlich viel verändert. Wahrscheinlich ist es am Besten, da hineinzuschauen und sicherzugehen, dass noch alles in Ordnung ist.<BR>Dieses Werkzeug ermöglicht dir, die Effekte von Warp auf deinen Körper und Geist zu prüfen, sowie, wie stark sie wirken.<BR>Natürlich kannst du es dir nicht erlauben, ein Werkzeug wie dieses in falsche Hände fallen zu lassen, also hast du große Anstrengungen unternommen, die dargebotenen Informationen zu verschlüsseln. Vielleicht bist du dabei etwas zu weit gegangen - es fällt dir nun selbst schwer, sie zu entschlüsseln.
 #
@@ -1775,7 +1775,7 @@ tc.research_text.FLUXSCRUB=Ein Segen für den chaotischen Thaumaturgen
 tc.research_page.FLUXSCRUB.1=Selbst der fähigste Thaumaturge hinterlässt manchmal Chaos in Form von Flux. Flux ist ein Ärgernis, mit dem jeder klarzukommen hat, aber diese Maschine entfernt die involvierte Plackerei.<BR>Der Fluxschrubber wird, wenn mit Aer-Vis versorgt, langsam alle Formen von Flux in einem 16-Block-Radius um ihn herum entfernen. Darüber hinaus ist er fähig, eine kleine Portion der Magie, aus welcher Flux besteht, in Form von Praecantatio-Essentia zurückzugewinnen.<BR>Sein interner Speicher ist sehr klein, und er wird auch dann weiterarbeiten, wenn dieser voll ist, also muss er geleert werden, wenn du wünschst, all die Essentia zurückzugewinnen.
 #
 tc.research_name.ENTEROUTER=Die Fernen Lande
-tc.research_text.ENTEROUTER=We are not in Kansas anymore
+tc.research_text.ENTEROUTER=Wir sind nicht mehr in Kansas.
 tc.research_page.ENTEROUTER.1=Du bist dir nicht ganz sicher, was du erwartet hast, als du durch den Oculus gewandert bist, aber dieses seltsame Bauwerk aus bröckeligem Stein und verschlungenen Wegen war es nicht.<BR>Irgendetwas stimmt hier nicht - diese Konstruktion wurde nicht für igendeinen praktischen Zweck, den du erkennen kannst, erdacht... es sei denn, der Zweck ist, ein tödliches Labyrinth zu sein.<BR>Es wimmelt von seltsamen Energien und deine Magie scheint sich an diesem unnatürlichen Ort ungewöhnlich zu verhalten. Selbst andere Bewohner, auf die du triffst, scheinen hier fehl am Platz zu sein.
 #
 tc.research_name.OUTERREV=Erkenntnisse in den Fernen Landen

@@ -24,7 +24,7 @@ tile.oc.hologram2.name=Hologrammprojektor (Stufe 2)
 tile.oc.keyboard.name=Tastatur
 tile.oc.microcontroller.name=Mikrocontroller
 tile.oc.motionSensor.name=Bewegungsmelder
-tile.oc.netSplitter.name=Net Splitter
+tile.oc.netSplitter.name=Netzwerk-Splitter
 tile.oc.powerConverter.name=Leistungswandler
 tile.oc.powerDistributor.name=Stromverteiler
 tile.oc.print.name=3D-Druck
@@ -33,21 +33,21 @@ tile.oc.raid.name=Raid
 tile.oc.redstone.name=Redstone-I/O
 tile.oc.relay.name=Relais
 tile.oc.robot.name=Roboter
-Robot.name=Robot
+Robot.name=Roboter
 tile.oc.robotAfterimage.name=Roboter
 tile.oc.screen1.name=Bildschirm (Stufe 1)
 tile.oc.screen2.name=Bildschirm (Stufe 2)
 tile.oc.screen3.name=Bildschirm (Stufe 3)
 tile.oc.rack.name=Serverschrank
 tile.oc.switch.name=Switch
-tile.oc.transposer.name=Transposer
+tile.oc.transposer.name=Transponieren
 tile.oc.waypoint.name=Wegpunkt
 
 # Items
 item.oc.AbstractBusCard.name=Abstrakter-Bus-Karte
 item.oc.Acid.name=Grog
 item.oc.ALU.name=Arithmetisch-logische Einheit (ALU)
-item.oc.multi.name=Computer Part
+item.oc.multi.name=Computer-Teil
 item.oc.Analyzer.name=Messgerät
 item.oc.APU0.name=Beschleunigter Prozessor (APU) (Stufe 1)
 item.oc.APU1.name=Beschleunigter Prozessor (APU) (Stufe 2)
@@ -171,11 +171,11 @@ item.oc.DroneCase3.name=Drohnengehäuse (Kreativ)
 item.oc.MicrocontrollerCase3.name=Mikrocontroller-Gehäuse (Kreativ)
 item.oc.Server3.name=Server (Kreativ)
 item.oc.TabletCase3.name=Tablet-Gehäuse (Kreativ)
-item.oc.UpgradeBeekeeper.name=Beekeeper Upgrade
-item.oc.UpgradeRITEG.name=RITEG Upgrade
-item.oc.UpgradeConfigurator.name=Configurator Upgrade
-item.oc.TpsCard.name=TPS card
-item.oc.ItemUpgradeAE.name=ME Upgrade
+item.oc.UpgradeBeekeeper.name=Imker-Upgrade
+item.oc.UpgradeRITEG.name=RITEG-Upgrade
+item.oc.UpgradeConfigurator.name=Konfigurator-Upgrade
+item.oc.TpsCard.name=TPS-Karte
+item.oc.ItemUpgradeAE.name=ME-Upgrade
 
 # Entities
 entity.oc.Drone.name=Drohne
@@ -247,8 +247,8 @@ oc:gui.Rack.None=Keine
 oc:gui.Rack.Right=Rechts
 oc:gui.Rack.Enabled=Aktiv
 oc:gui.Rack.Disabled=Inaktiv
-oc:gui.Rack.RelayModeTooltip=Relay Mode
-oc:gui.Rack.OrientationTooltip=Note: If facing the front[nl]of the Rack, the right[nl]side of the Rack is to[nl]your left.
+oc:gui.Rack.RelayModeTooltip=Relais-Modus
+oc:gui.Rack.OrientationTooltip=Hinweis: Wenn du vor[nl]dem Rack stehst, ist die rechte[nl]Seite des Racks zu[nl]deiner Linken.
 oc:gui.Rack.Top=Oben
 oc:gui.Switch.PacketsPerCycle=Pakete / Zyklus
 oc:gui.Switch.QueueSize=Puffergröße
@@ -257,7 +257,7 @@ oc:gui.Terminal.InvalidKey=Ungültiger Schlüssel, vermutlich wurde eine andere 
 oc:gui.Terminal.OutOfRange=Kein Signal.
 
 # Containers
-oc:container.AccessPoint=Access Point
+oc:container.AccessPoint=Zugangspunkt
 oc:container.Adapter=Adapter
 oc:container.Case=Computer
 oc:container.Charger=Ladestation
@@ -341,11 +341,11 @@ oc:tooltip.MotionSensor=Kann Bewegungen sich in der Nähe befindender Lebewesen 
 oc:tooltip.Nanomachines=Kontrolleinheit und eine Menge Nanomaschinen zur Einnahme, sofern du dich traust.
 oc:tooltip.NetworkCard=Erlaubt es Computern, die über mehrere Blöcke miteinander verbunden sind (z.B. Kabel), mittels Netzwerknachrichten zu kommunizieren.
 oc:tooltip.PowerAcceptor=Energiewandelgeschwindigkeit: §f%s/t§7
-oc:tooltip.PowerConverter.BuildCraft=§fBuildCraft MJ§7: §a%s:%s§7
-oc:tooltip.PowerConverter.Factorization=§fFactorization Charge§7: §a%s:%s§7
-oc:tooltip.PowerConverter.IndustrialCraft2=§fIndustrialCraft² EU§7: §a%s:%s§7
-oc:tooltip.PowerConverter.Mekanism=§fMekanism Joules§7: §a%s:%s§7
-oc:tooltip.PowerConverter.ThermalExpansion=§fThermal Expansion RF§7: §a%s:%s§7
+oc:tooltip.PowerConverter.BuildCraft=§fBuildCraft-MJ§7: §a%s:%s§7
+oc:tooltip.PowerConverter.Factorization=§fFaktorisierungs-Ladung§7: §a%s:%s§7
+oc:tooltip.PowerConverter.IndustrialCraft2=§fIndustrialCraft²-EU§7: §a%s:%s§7
+oc:tooltip.PowerConverter.Mekanism=§fMekanism-Joules§7: §a%s:%s§7
+oc:tooltip.PowerConverter.ThermalExpansion=§fThermal-Expansion-RF§7: §a%s:%s§7
 oc:tooltip.PowerConverter.ResonantEngine=§fResonant Engine Coulombs§7: §a%s:%s§7
 oc:tooltip.PowerConverter=Wandelt Strom anderer Mods in den internen Energietyp um. Umwandlungsverhältnisse:
 oc:tooltip.PowerDistributor=Verteilt Energie zwischen mehreren Netzwerken. Nützlich, um Energie mit einem Wandler auf mehrere Subnetze, die voneinander getrennt sein sollen, zu verteilen.
@@ -407,12 +407,12 @@ oc:tooltip.UpgradeSolarGenerator=Kann verwendet werden, um unterwegs Energie aus
 oc:tooltip.UpgradeTank=Dieses Upgrade gibt Robotern einen internen Tank. Ohne ein solches Upgrade können Roboter keine Flüssigkeiten verwahren.
 oc:tooltip.UpgradeTankController=Dieses Upgrade erlaubt es dem Roboter, präziser mit externen Tanks zu interagieren, und erlaubt es ihm, Flüssigkeiten in und aus sich im Inventar befindlichen Tank-Gegenständen zu pumpen.
 oc:tooltip.UpgradeTractorBeam=Stattet den Roboter mit unglaublich fortschrittlicher Technologie - Kosename: "Gegenstandsmagnet" - aus. Erlaubt es dem Roboter, Gegenstände, innerhalb von 3 Blöcken um sich herum, einzusammeln.
-oc:tooltip.UpgradeTrading=Allows robots and drones to trade with villagers. 
+oc:tooltip.UpgradeTrading=Ermöglicht Robotern und Drohnen den Handel mit Dorfbewohnern.
 oc:tooltip.Waypoint=Ein Orientierungpunkt für Geräte mit einem Navigations-Upgrade.
 oc:tooltip.WirelessNetworkCard=Erlaubt das drahtlose Senden von Netzwerknachrichten, zusätzlich zu normalen. Drahtlose Nachrichten werden nur gesendet, wenn eine §fSignalstärke§7 festgelegt wurde!
 oc:tooltip.WorldSensorCard=Erlaubt es, Informationen über die Welt auszulesen, wie etwa Gravitation und ob die Atmosphäre atembar ist. Verwendung von Messergebnissen auf eigene Gefahr. Der Hersteller übernimmt keinerlei Garantie.
 oc:tooltip.Wrench=Eine Mischung aus Schraubenzieher und Schraubenschlüssel, einfach zu benutzen, aber schwer zu meistern.
-oc:tooltip.UpgradeRITEG=Pocket nuke for your microcontrollers and tablets. Generates energy at %s%% of the speed of a Stirling Engine.
+oc:tooltip.UpgradeRITEG=Taschenatomkraftwerk für Ihre Mikrocontroller und Tablets. Erzeugt Energie mit %s%% der Geschwindigkeit eines Stirlingmotors.
 
 
 #Achievements
@@ -467,9 +467,9 @@ achievement.oc.powerDistributor.desc=ElektroVZ ist so 2010.
 achievement.oc.rack=Multifunktionsschrank
 achievement.oc.rack.desc=Wird unter Anderem in Kantinen genutzt, um gebrauchte Tabletts zu sammeln.
 achievement.oc.raid=Suche Team
-achievement.oc.raid.desc=Heroic plzkthx.
+achievement.oc.raid.desc=Heroischer plzkthx.
 achievement.oc.ram=Random Access Memories
-achievement.oc.ram.desc=Congratulations, you're Doin' It Right.
+achievement.oc.ram.desc=Herzlichen Glückwunsch, du machst es richtig.
 achievement.oc.redstoneCard=Kontakt
 achievement.oc.redstoneCard.desc=Zeit für analoge Signale.
 achievement.oc.redstoneIO=Außenseiter
@@ -500,8 +500,8 @@ death.attack.oc.nanomachinesHungry.3=%s wurde verdaut.
 
 # NEI Integration
 nei.options.inventory.oredict=OreDictionary-Namen anzeigen
-nei.options.inventory.oredict.true=True
-nei.options.inventory.oredict.false=False
+nei.options.inventory.oredict.true=Wahr
+nei.options.inventory.oredict.false=Falsch
 nei.usage.oc.Manual=Handbuch öffnen
 
 # Waila Integration
