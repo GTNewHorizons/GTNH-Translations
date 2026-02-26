@@ -18,7 +18,7 @@ botaniamisc.statusUnknown=Estado desconocido
 botaniamisc.color=Teñido de %s 
 botaniamisc.manaUsage=Uso de maná
 botaniamisc.shiftToRead=Shift + clic derecho para leer más
-botaniamisc.clickToRecipe=Shift click to see recipe
+botaniamisc.clickToSeeRecipe=Shift click to see recipe
 botaniamisc.clickToIndex=Shift + clic para volver al índice
 botaniamisc.flareColor=%s rondas
 botaniamisc.outputtingPower=Transfiriendo maná a objetos
@@ -434,7 +434,7 @@ botania.versioning.flavour60=Botania Updates. They do what they must, because th
 botania.versioning.flavour61=Update me! Update me! Update me Seymore!
 botania.versioning.flavour62=Nueve de cada diez doctores recomienda que actualices Botania.
 botania.versioning.flavour63=The update bacons at midnight.
-botania.versioning.flavour64=A new Botania Update is out. And it's name is JOHN CENA! DOO DOO DOO DOO
+botania.versioning.flavour64=A new Botania Update is out. And its name is JOHN CENA! DOO DOO DOO DOO
 botania.versioning.outdated=Estás jugando con la versión %s de Botania, la última versión es la %s. 
 botania.versioning.updateMessage=["Clic para... [",{"text":"Descarga","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Haz clic aquí para descargar la última versión de Botania","color":"green"}},"clickEvent":{"action":"run_command","value":"/botania-download-latest %version%"}},"] [",{"text":"Website","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Haz clic aquí para ir a la página del mod","color":"green"}},"clickEvent":{"action":"open_url","value":"http://vazkii.us/mod/Botania/downloads.php"}},"] [",{"text":"Changelog","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Haz clic aquí para ir al registro de cambios","color":"green"}},"clickEvent":{"action":"open_url","value":"http://vazkii.us/mod/Botania/changelog.php#%version%"}},"]"]
 botania.versioning.startingDownload=[{"text":"Comenzando la descarga de %s. Por favor no retires tu disco duro. Disfrutando de ","color":"aqua"},{"text":"Botania","color":"green"},{"text":"? Quizás puedes apoyar a ","color":"aqua"},{"text":"Vazkii","color":"light_purple"},{"text":" en [","color":"aqua"},{"text":"Patreon","color":"gold","hoverEvent":{"action":"show_text","value":{"text":"Haz clic aquí para ir al Patreon de Vazkii","color":"light_purple"}},"clickEvent":{"action":"open_url","value":"http://www.patreon.com/Vazkii"}},{"text":"]!","color":"aqua"}]
@@ -1716,6 +1716,9 @@ botania.potion.clear=Absolución
 # GUI TEXT
 botania.gui.lexicon.header=Lexica Botania, %s edición tabla de contenidos
 botania.gui.lexicon.wip=(Esta entrada es Trabajo en Curso. No está en su forma final)
+
+botania.gui.flowerBag.title=Flower Pouch
+botania.gui.shroomBag.title=Mushroom Pouch
 
 # MUSIC DISCS
 item.record.botania:gaia1.desc=Kain Vinosec - Endure Emptiness
@@ -3086,9 +3089,9 @@ botania.page.dandelifeon_w=Warning: This feature is experimental.<br>It may, and
 botania.page.dandelifeon0=The &1Dandelifeon&0 is a flower not recommended for those faint of heart.<br>While it's possibly the strongest available generating flower within the botanist's toolbelt, it's also one of the less straightforward to put to work.
 botania.page.dandelifeon1=This flower makes use of a cellular automata known as &4Conway's Game of Life&0. The area for this procedure is a 25x25 square centered around the &1Dandelifeon&0 itself.<br>While the flower has a redstone signal, twice every second it'll step the game once.
 botania.page.dandelifeon2=The game is executed with the concept of &4Cells&0. The 25x25 area can be seen as a grid of 25 by 25 cells<br>Cells may be live or dead, live if the block in that position is a &1Cellular Block&0 (read on) or dead if it's anything else. &4Neighbours&0 are the eight blocks in the same plane around any one cell.
-botania.page.dandelifeon3=Every step of the game, the following transitions might happen: &41)&0 Any live cell with fewer than two or more than three live neighbours dies. &42)&0 Any live cell with exactly two or three live neigbours lives on. &43)&0 Any dead cell with exactly three live neigbours becomes a live cell.
+botania.page.dandelifeon3=Every step of the game, the following transitions might happen: &41)&0 Any live cell with fewer than two or more than three live neighbours dies. &42)&0 Any live cell with exactly two or three live neighbors lives on. &43)&0 Any dead cell with exactly three live neighbors becomes a live cell.
 botania.page.dandelifeon4=All of the transitions happen at the same time.<br>Aside from those, a few additional rules not present in a typical simulation of &4Conway's Game of Life&0 are also present in the &1Dandelifeon&0 procedures, listed in the following pages.
-botania.page.dandelifeon5=All cells have an age, starting at zero. Whenever a cell lives on, by having two or three neighbours, its age inreases by one. Whenever a dead cell becomes a live cell, the age of the new live cell is equal to the age of the oldest neighbour, plus one. Any cells older than sixty generations will die during the next step.
+botania.page.dandelifeon5=All cells have an age, starting at zero. Whenever a cell lives on, by having two or three neighbours, its age increases by one. Whenever a dead cell becomes a live cell, the age of the new live cell is equal to the age of the oldest neighbour, plus one. Any cells older than sixty generations will die during the next step.
 botania.page.dandelifeon6=Second off, the 3x3 zone centered around the &1Dandelifeon&0 itself is not habitable by cells. Any live cells that would exist in that area are turned into &4Mana&0 instead. The older the cell that would be created, the more &4Mana&0 it makes. Age zero cells produce no &4Mana&0.
 botania.page.dandelifeon10=Whenever any live cells are absorbed by the 3x3 zone in the center, all other cells in the board die.<br>A few other restrictions apply to cells, such as having two different &1Dandelifeon&0 flowers affect the same cell will kill it. Lastly, any cell will die if moved by any other means than the &1Dandelifeon&0 itself.
 botania.page.dandelifeon7=&1Cellular Blocks&0 are crafted with &1Cactus&0, &1Carrots&0 and &1Potatoes&0, and are extremely fragile, they may not be picked once placed down or moved by &1Pistons&0 and may not be created (through having 3 live neighbours on a dead cell) on any block that isn't air.<br>If not within the range of a &1Dandelifeon&0 they work as normal building blocks.
@@ -4334,7 +4337,7 @@ botania.tagline.banners=Lots of new banner patterns
 botania.page.banners0=In the presence of the &1Banners&0 from the future, &1Botania&0 adds &415&0 new icons to them, which can be mixed and matched with the original patterns and icons.<br>The following items can be used alongside a dye in the crafting grid to add an icon to a &1Banner&0: &1All Iron Tools&0, &1Spark Augments&0, &1Raw Fish&0, &1Livingwood and Dreamwood Twigs&0, &1Lexica Botania&0, &1Terrasteel&0 and the &1Tiny Potato&0.
 botania.page.banners1=Showcase of the various banners
 
-# -- PREVNTING DECAY
+# -- PREVENTING DECAY
 botania.entry.preventingDecay=Preventing Decay
 botania.tagline.preventingDecay=Preventing passive flowers' decay
 botania.page.preventingDecay0=no
