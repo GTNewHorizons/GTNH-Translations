@@ -19,7 +19,7 @@ item.enderio.itemEnderface.name=Endergesicht
 
 #Conduits
 enderio.blockConduitBundle=Leitungsbündel
-tile.blockConduitFacade.name=Conduit Facade
+tile.blockConduitFacade.name=Leitungsverkleidung
 enderio.blockConduitFacade=Leitungsverkleidung
 item.enderio.itemConduitFacade.name=Leitungsverkleidung
 item.enderio.itemConduitFacade.hardened.name=Verstärkte Leitungsvekleidung
@@ -30,12 +30,12 @@ item.enderio.itemConduitFacade.tooltip.detailed.line3=Versteckt, wenn ein Schrau
 item.enderio.itemConduitFacade.tooltip.detailed.line4=ausgerüstet ist
 item.enderio.itemConduitFacade.hardened.tooltip=Gehärtet: Widersteht Brechen und Explosionen.
 
-item.itemPowerConduit.name=Energy Conduit
+item.itemPowerConduit.name=Energieleitung
 enderio.itemPowerConduit.name=Energieleitung
 enderio.itemPowerConduitEnhanced.name=Verbesserte Energieleitung
 enderio.itemPowerConduitEnder.name=Ender-Energieleitung
 
-item.itemPowerConduitEndergy.name=Energy Conduit
+item.itemPowerConduitEndergy.name=Energieleitung
 enderio.itemPowerConduitEndergyCrude.name=Lehm-Energieleitung
 enderio.itemPowerConduitEndergyIron.name=Eisen-Energieleitung
 enderio.itemPowerConduitEndergyAluminum.name=Aluminium-Energieleitung
@@ -49,12 +49,12 @@ enderio.itemPowerConduitEndergyCrystallinePinkSlime.name=Kristalliner Rosa Schle
 enderio.itemPowerConduitEndergyMelodic.name=Melodische Energieleitung
 enderio.itemPowerConduitEndergyStellar.name=Hervorragende Energieleitung
 
-item.itemRedstoneConduit.name=Redstone Conduit
+item.itemRedstoneConduit.name=Redstone-Leitung
 enderio.itemRedstoneConduit.name=Redstone-Leitung
 enderio.itemRedstoneConduitSwitch.name=Leitungsschalter
 enderio.itemRedstoneConduitInsulated.name=Isolierte Redstone-Leitung
 
-item.itemLiquidConduit.name=Fluid Conduit
+item.itemLiquidConduit.name=Flüssigkeitsleitung
 enderio.itemLiquidConduit.name=Flüssigkeitsleitung
 enderio.itemLiquidConduitAdvanced.name=Flüssigkeitsdruckleitung
 enderio.itemLiquidConduitEnder.name=Ender-Flüssigkeitsleitung
@@ -76,21 +76,21 @@ enderio.itemLiquidConduitEnder.tooltip.detailed.line1=Sofortiger Flüssigkeitste
 enderio.itemLiquidConduitEnder.tooltip.detailed.line2=Ermöglicht es, verschiedene Flüssigkeiten
 enderio.itemLiquidConduitEnder.tooltip.detailed.line3=durch die selbe Leitung zu transportieren
 
-item.itemItemConduit.name=Item Conduit
+item.itemItemConduit.name=Item-Leitung
 enderio.itemItemConduit.name=Item-Leitung
 
-item.itemBasicFilterUpgrade.name=Item Filter
+item.itemBasicFilterUpgrade.name=Item-Filter
 enderio.filterUpgradeBasic.name=Einfacher Item-Filter
 enderio.filterUpgradeAdvanced.name=Erweiterter Item-Filter
-item.itemBigFilterUpgrade.name=Big Item Filter
-enderio.filterUpgradeBig.name=Großer Item Filter
-enderio.filterUpgradeBigAdvanced.name=Großer fortschrittlicher Item Filter
+item.itemBigFilterUpgrade.name=Großer Item-Filter
+enderio.filterUpgradeBig.name=Großer Item-Filter
+enderio.filterUpgradeBigAdvanced.name=Großer Erweiterter Item-Filter
 enderio.itemConduitFilterUpgrade=Upgrade für Item-Leitungen
 enderio.itemConduitFilterUpgrade.configured=Konfiguriert
 enderio.itemConduitFilterUpgrade.clearConfigMethod=Platziere in Fertigungsgitter zum Löschen
 enderio.itemConduitFilterUpgrade.clearConfigWarning=Dies löscht alle gespeicherten Filtereinstellungen
 
-item.itemExistingItemFilter.name=Existierende Items-Filter
+item.itemExistingItemFilter.name=Existierender Item-Filter
 item.itemExistingItemFilter.tooltip.basic.line1=Upgrade für Item-Leitungen
 item.itemExistingItemFilter.tooltip.detailed.line1=Wählt nur Items, die bereits
 item.itemExistingItemFilter.tooltip.detailed.line2=im Inventar sind.
@@ -127,7 +127,7 @@ item.itemExtractSpeedDowngrade.tooltip.basic.line1=Downgrade für Item-Leitungen
 item.itemExtractSpeedDowngrade.tooltip.detailed.line1=Reduziert Geschwindigkeit auf 1
 item.itemExtractSpeedDowngrade.tooltip.detailed.line2=Item pro Extraktion
 
-item.itemFunctionUpgrade.name=Remote Awareness Upgrade
+item.itemFunctionUpgrade.name=Fernsteuerungs-Upgrade
 item.itemInventoryPanelUpgrade.name=Fernsteuerungs-Upgrade
 item.itemInventoryPanelUpgrade.tooltip.basic.line1=Inventar-Panelbedienbarkeit
 item.itemInventoryPanelUpgrade.tooltip.detailed.line1=Funktions-Upgrade für Item-Leitungen
@@ -143,12 +143,12 @@ enderio.itemGasConduit.tooltip.maxExtract=Maximale Entnahme
 enderio.itemGasConduit.tooltip.maxIo=Max IO:
 enderio.itemGasConduit.tooltip.detailed.line1=Transportiert Mekanism-kompatible Gase
 
-item.itemMEConduit.name=ME Conduit
+item.itemMEConduit.name=ME-Leitung
 enderio.itemMEConduit.name=ME-Leitung
 enderio.itemMEConduitDense.name=Dichte ME-Leitung
 enderio.itemMEConduit.channelsUsed={0,number} von {1,number} Kanälen
 
-item.itemOCConduit.name=Network Conduit (OC)
+item.itemOCConduit.name=Netzwerkleitung (OC)
 enderio.itemOCConduit.name=Netzwerkleitung (OC)
 
 #Entity
@@ -156,14 +156,14 @@ entity.witherSkeleton.name=Witherskelett
 
 #Materials
 enderio.itemMaterial.name=Materialien
-item.itemMaterial.name=Materials
+item.itemMaterial.name=Materialien
 enderio.silicon.name=Silizium
 enderio.conduitBinder.name=Leitungsbinder
 enderio.binderComposite.name=Bindegemisch
 enderio.phasedIronNugget.name=Pulsierender Eisennugget
 tile.blockDarkIronBars.name=Dunkelstahlgitter
-tile.blockSoulariumBars.name=Soularium Bars
-tile.blockEndSteelBars.name=End Steel Bars
+tile.blockSoulariumBars.name=Soulariumbarren
+tile.blockEndSteelBars.name=End-Stahlbarren
 tile.blockEndermanSkull.name=Enderman-Schädel
 tile.blockEndermanSkull.base.name=Enderman-Kopf
 tile.blockEndermanSkull.reanimated.name=Reanimierter Enderman-Kopf
@@ -198,9 +198,9 @@ fluid.rocket_fuel=Treibstoff
 tile.fluid.rocket_fuel.name=Treibstoff
 item.bucketRocket_fuel.name=Eimer mit Treibstoff
 
-fluid.liquid_sunshine=Liquid Sunshine
-tile.fluid.liquid_sunshine.name=Liquid Sunshine
-item.bucketLiquid_sunshine.name=Liquid Sunshine Bucket
+fluid.liquid_sunshine=Flüssiger Sonnenschein
+tile.fluid.liquid_sunshine.name=Flüssiger Sonnenschein
+item.bucketLiquid_sunshine.name=Flüssiger-Sonnenschein-Eimer
 
 fluid.cloud_seed=Wolkensamen
 tile.fluid.cloud_seed.name=Wolkensamen
@@ -216,7 +216,7 @@ item.bucketEnder_distillation.name=Tau der leereeimer
 
 fluid.vapor_of_levity=Dampf der Leichtigkeit
 tile.fluid.vapor_of_levity.name=Dampf der Leichtigkeit
-item.bucketVapor_of_levity.name=Vapor of Levity Bucket
+item.bucketVapor_of_levity.name=Dampf-der-Leichtigkeit-Eimer
 
 fluid.eio.xpjuice=Flüssige XP
 tile.fluid.eio.xpjuice.name=Flüssige XP
@@ -233,33 +233,33 @@ enderio.gas.gasTick=Gas/t
 
 #Materials
 enderio.itemMachinePart.name=Maschinenteile
-item.itemMachinePart.name=Machine Parts
+item.itemMachinePart.name=Maschinenteile
 enderio.machineChassi.name=Maschinenhülle
 enderio.basicGear.name=Basiszahnrad
-enderio.soulMachineChassi.name=Soul Machine Chassis
-enderio.endSteelMachineChassi.name=End Steel Chassis
+enderio.soulMachineChassi.name=Seelenmaschine-Hülle
+enderio.endSteelMachineChassi.name=End-Stahlhülle
 enderio.pulsatingCrystal.name=Pulsierender Kristall
 enderio.vibrantCrystal.name=Dynamischer Kristall
 enderio.enderCrystal.name=Enderkristall
 enderio.attractorCrystal.name=Anziehender Kristall
 enderio.weatherCrystal.name=Wetterkristall
 
-item.itemGrindingBall.name=Grinding Ball
+item.itemGrindingBall.name=Mahlkugel
 enderio.darkGrindingBall.name=Dunkelstahlkugel
-enderio.electricalGrindingBall.name=Electrical Steel Ball
-enderio.energeticGrindingBall.name=Energetic Alloy Ball
-enderio.vibrantGrindingBall.name=Vibrant Alloy Ball
-enderio.redstoneGrindingBall.name=Redstone Alloy Ball
-enderio.conductiveGrindingBall.name=Conductive Iron Ball
-enderio.pulsatingGrindingBall.name=Pulsating Iron Ball
-enderio.soulariumGrindingBall.name=Soularium Ball
-enderio.endSteelGrindingBall.name=End Steel Ball
+enderio.electricalGrindingBall.name=Ball aus Elektrischem Stahl
+enderio.energeticGrindingBall.name=Ball aus Energetisierter Ligierung
+enderio.vibrantGrindingBall.name=Ball aus Vibrant-Legierung
+enderio.redstoneGrindingBall.name=Ball aus Redstone-Legierung
+enderio.conductiveGrindingBall.name=Ball aus Leitendem Eisen
+enderio.pulsatingGrindingBall.name=Ball aus Pulsierendem Eisen
+enderio.soulariumGrindingBall.name=Ball aus Soularium
+enderio.endSteelGrindingBall.name=Ball aus End-Stahl
 
 enderio.darkGrindingBall.tooltip.detailed.line1=SAG-Mahlkugel
 enderio.darkGrindingBall.tooltip.detailed.line2=Haupt-Output
 enderio.darkGrindingBall.tooltip.detailed.line3=Bonus-Output
 enderio.darkGrindingBall.tooltip.detailed.line4=Energiereduktion
-enderio.darkSteelRod.name=Dark Steel Rod
+enderio.darkSteelRod.name=Dunkelstahl-Stange
 
 tile.blockReinforcedObsidian.name=Verstärktes Obsidian
 tile.blockReinforcedObsidian.tooltip.common.line1=Wither-fest
@@ -278,10 +278,10 @@ enderio.itemPowderIngot=Pulver & Barren
 
 #Alloys
 enderio.itemAlloy.name=Legierung
-item.itemAlloy.name=Alloy
+item.itemAlloy.name=Legierung
 enderio.electricalSteel.name=Elektrischer Stahl
 enderio.energeticAlloy.name=Energetisierte Legierung
-enderio.phasedGold.name=Dynamische Legierung
+enderio.phasedGold.name=Vibrant-Legierung
 enderio.redstoneAlloy.name=Redstone-Legierung
 enderio.conductiveIron.name=Leitendes Eisen
 enderio.phasedIron.name=Pulsierendes Eisen
@@ -291,20 +291,20 @@ enderio.soularium.name=Soularium
 enderio.endSteel.name=End-Stahl
 enderio.endSteelNugget.name=End-Stahl-Nugget
 
-item.itemAlloyEndergy.name=Alloy
+item.itemAlloyEndergy.name=Legierung
 enderio.crudeSteel.name=Lehmzusammensetzung
 enderio.crystallineAlloy.name=Kristallin-Legierung
 enderio.melodicAlloy.name=Melodische Legierung
-enderio.stellarAlloy.name=Hervorragende Legierung
+enderio.stellarAlloy.name=Sternlegierung
 enderio.crystallinePinkSlime.name=Kristalliner Rosa Schleim
 enderio.energeticSilver.name=Energetisches Silber
 enderio.vividAlloy.name=Lebendige Legierung
 
-item.itemGrindingBallEndergy.name=Grinding Ball
+item.itemGrindingBallEndergy.name=Mahlkugel
 enderio.crudeSteelGrindingBall.name=Mahlwerkkugel aus Lehmzusammensetzung
 enderio.crystallineAlloyGrindingBall.name=Mahlwerkkugel aus Kristallin-Legierung
 enderio.melodicAlloyGrindingBall.name=Mahlwerkkugel aus Melodischer Legierung
-enderio.stellarAlloyGrindingBall.name=Mahlwerkkugel aus Hervorragender Legierung
+enderio.stellarAlloyGrindingBall.name=Mahlwerkkugel aus Sternlegierung
 enderio.crystallinePinkSlimeGrindingBall.name=Mahlwerkkugel aus Kristallinem Rosa Schleim
 enderio.energeticSilverGrindingBall.name=Mahlwerkkugel aus Energetischem Silber
 enderio.vividAlloyGrindingBall.name=Mahlwerkkugel aus Lebendiger Legierung
@@ -318,11 +318,11 @@ enderio.precientPowder.name=Körner der Voraussicht
 #Balls
 enderio.electricalSteel_ball.name=Ball aus Elektrischem Stahl
 enderio.energeticAlloy_ball.name=Ball aus Energetisierter Ligierung
-enderio.phasedGold_ball.name=Ball aus Dynamischer Legierung
+enderio.phasedGold_ball.name=Ball aus Vibrant-Legierung
 enderio.redstoneAlloy_ball.name=Ball aus Redstone-Legierung
 enderio.conductiveIron_ball.name=Ball aus Leitendem Eisen
 enderio.phasedIron_ball.name=Ball aus Pulsierendem Eisen
-enderio.vibrantNugget_ball.name=Ball aus Dynamischen Nuggets
+enderio.vibrantNugget_ball.name=Ball aus Vibrant-Nuggets
 enderio.darkSteel_ball.name=Ball aus Dunkelstahl
 enderio.soularium_ball.name=Ball aus Soularium
 enderio.endSteel_ball.name=Ball aus End-Stahl
@@ -337,19 +337,19 @@ tile.enderio.phasedIron.name=Block aus Pulsierendem Eisen
 tile.enderio.vibrantNugget.name=Block aus Dynamischen Nuggets
 tile.enderio.darkSteel.name=Dunkelstahlblock
 tile.enderio.soularium.name=Soularium-Block
-tile.enderio.endSteel.name=End Steel Block
+tile.enderio.endSteel.name=End-Stahlblock
 
-tile.blockIngotStorageEndergy.name=Alloy Block
-tile.enderio.crudeSteel.name=Clay Compound Block
-tile.enderio.crystallineAlloy.name=Crystalline Alloy Block
-tile.enderio.melodicAlloy.name=Melodic Alloy Block
-tile.enderio.stellarAlloy.name=Stellar Alloy Block
-tile.enderio.crystallinePinkSlime.name=Crystalline Pink Slime Block
-tile.enderio.energeticSilver.name=Energetic Silver Block
-tile.enderio.vividAlloy.name=Vivid Alloy Block
+tile.blockIngotStorageEndergy.name=Block aus Legierung
+tile.enderio.crudeSteel.name=Block aus Lehmzusammensetzung
+tile.enderio.crystallineAlloy.name=Block aus Kristallin-Legierung
+tile.enderio.melodicAlloy.name=Block aus Melodische Legierung
+tile.enderio.stellarAlloy.name=Block aus Sternlegierung
+tile.enderio.crystallinePinkSlime.name=Block aus Kristalliner Rosa Schleim
+tile.enderio.energeticSilver.name=Energetischer Silberblock
+tile.enderio.vividAlloy.name=Block aus Lebendige Legierung
 
 #Powder / Ingot
-item.itemPowderIngot.name=Powder
+item.itemPowderIngot.name=Pulver
 enderio.powderCoal.name=Kohlepulver
 enderio.powderIron.name=Eisenpulver
 enderio.powderGold.name=Goldpulver
@@ -361,7 +361,7 @@ enderio.ingotEnderiumBase.name=Enderium-Basis
 
 #Capacitors
 enderio.itemBasicCapacitor.name=Kondensator
-item.itemBasicCapacitor.name=Capacitor
+item.itemBasicCapacitor.name=Kondensator
 enderio.basicCapacitor.name=Basiskondensator
 enderio.activatedCapacitor.name=Doppelschichtkondensator
 enderio.enderCapacitor.name=Oktadischer Kondensator
@@ -401,7 +401,7 @@ tile.blockAlloySmelter.tooltip.detailed.line5=Geschw. und Energiespeicher erhöh
 
 tile.blockSolarPanel.name=Photovoltaikzelle
 tile.blockSolarPanel.advanced.name=Fortgeschrittene Photovoltaikzelle
-tile.blockSolarPanel.vibrant.name=Vibrant Photovoltaic Cell
+tile.blockSolarPanel.vibrant.name=Vibrant-Photovoltaikzelle
 tile.blockSolarPanel.tooltip.common.line1=Solarenergie!
 tile.blockSolarPanel.tooltip.detailed.line1=Produziert Energie am Tag
 tile.blockSolarPanel.tooltip.detailed.line2=Braucht klare Sicht
@@ -410,7 +410,7 @@ enderio.maxSolorProduction=Max.-Output
 enderio.tooltip.efficiency=Effizienz
 enderio.tooltip.sunlightBlocked=Himmel verdeckt!
 
-tile.blockElectricLight.name=Powered Light
+tile.blockElectricLight.name=Energiebetriebenes Licht
 item.itemElectricLight.name=Energiebetriebenes Licht
 item.itemElectricLight.tooltip.detailed.line1=Beleuchtet einen großen Bereich, wenn mit
 item.itemElectricLight.tooltip.detailed.line2=Energie und einem Redstone-Signal versorgt
@@ -428,7 +428,7 @@ item.itemLightInverted.name=Licht (Invertiert)
 item.itemLightInverted.tooltip.detailed.line1=Verbreitet Licht, kann mit einem
 item.itemLightInverted.tooltip.detailed.line2=Redstone-Signal deaktiviert werden
 
-tile.blockLightNode.name=Light Node
+tile.blockLightNode.name=Lichtknoten
 
 item.itemWirelessLight.name=Drahtlosgespeistes Licht
 item.itemWirelessLight.tooltip.detailed.line1=Erleuchtet ein Gebiet, wenn mit
@@ -442,7 +442,7 @@ item.itemWirelessLightInverted.tooltip.detailed.line3=Schalte mit einem Redstone
 item.itemWirelessLightInverted.tooltip.detailed.line4=Kann Energie von Drahtlos-Ladegeräten empfangen.
 
 
-tile.blockCapBank.name=Capacitor Bank
+tile.blockCapBank.name=Kondensatorbank
 tile.blockCapBank.creative.name=Kreative Kondensatorbank
 tile.blockCapBank.simple.name=Basis-Kondensatorbank
 tile.blockCapBank.activated.name=Kondensatorbank
@@ -457,12 +457,12 @@ tile.blockCapBank.tooltipPrefix=Enthält
 enderio.capbank.maxIO=Max. I/O
 enderio.capbank.maxIn=Max. Input
 enderio.capbank.maxOut=Max. Output
-enderio.capbank.change=I/O
-enderio.capbank.iodisplay.stable=I/O
+enderio.capbank.change=E/A
+enderio.capbank.iodisplay.stable=E/A
 enderio.capbank.iodisplay.gain=Ein
 enderio.capbank.iodisplay.loss=Aus
 enderio.capbank.iodisplay.input=Input
-enderio.capbank.iodisplay.output=Output
+enderio.capbank.iodisplay.output=Ouput
 
 tile.blockWirelessCharger.name=Drahtlos-Ladegerät
 tile.blockWirelessCharger.tooltip.detailed.line1=Lädt Items in Inventaren
@@ -637,13 +637,13 @@ tile.blockExperienceObelisk.tooltip.detailed.line3=anliegende Tanks abgeben.
 
 tile.blockWeatherObelisk.name=Wetterobelisk
 tile.blockWeatherObelisk.tooltip.detailed.line1=Ändere das derzeitige Wetter
-tile.blockWeatherObelisk.tooltip.detailed.line2=Benötigt eine Menge an Energie
-tile.blockWeatherObelisk.tooltip.detailed.line3=und ein Katalysator-Item
-tile.blockWeatherObelisk.tooltip.detailed.line4=Liquid Sunshine: Sun
-tile.blockWeatherObelisk.tooltip.detailed.line5=Cloud Seed: Rain
-tile.blockWeatherObelisk.tooltip.detailed.line6=Concentrated Cloud Seed: Thunder
+tile.blockWeatherObelisk.tooltip.detailed.line2=Benötigt eine Feuerwerksrakete und 1000 L
+tile.blockWeatherObelisk.tooltip.detailed.line3=einer der folgenden Flüssigkeiten:
+tile.blockWeatherObelisk.tooltip.detailed.line4=Flüssiger Sonnenschein: Sonne
+tile.blockWeatherObelisk.tooltip.detailed.line5=Wolkensamen: Regen
+tile.blockWeatherObelisk.tooltip.detailed.line6=Konzentrierter Wolkensamen: Donner
 
-tile.blockBuffer.name=Buffer
+tile.blockBuffer.name=Puffer
 tile.blockBuffer.item.name=Item-Puffer
 tile.blockBuffer.power.name=Energiepuffer
 tile.blockBuffer.omni.name=Omnipuffer
@@ -718,8 +718,8 @@ tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line2=Kann in der Färb
 tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line3=unsichtbar wenn mit Ziemlich Klaren Glas
 tile.blockDarkSteelPressurePlate.silent.tooltip.detailed.line4=bemalt.
 
-tile.blockDarkSteelAnvil.name=Dark Steel Anvil
-tile.blockDarkSteelAnvil.intact.name=Dunkelstahlamboss
+tile.blockDarkSteelAnvil.name=Dunkelstahl-Amboss
+tile.blockDarkSteelAnvil.intact.name=Dunkelstahl-Amboss
 tile.blockDarkSteelAnvil.slightlyDamaged.name=Leicht beschädigter Dunkelstahlamboss
 tile.blockDarkSteelAnvil.veryDamaged.name=Stark beschädikter Dunkelstahlamboss
 tile.blockDarkSteelAnvil.tooltip.common.line1=Beschädigungsresistent
@@ -745,7 +745,7 @@ tile.blockTelePad.name=Telepad-Block
 tile.blockTelePad.tooltip.detailed.line1=Nutzt Energie, um alles mögliche zu anderen
 tile.blockTelePad.tooltip.detailed.line2=Orten und Dimensionen zu teleportieren.
 tile.blockTelePad.tooltip.detailed.line3=Muss in einem 3x1x3 Multiblock platziert werden.
-enderio.gui.telepad.teleport=Teleport!
+enderio.gui.telepad.teleport=Teleportieren!
 
 item.itemTravelStaff.name=Stab des Reisens
 item.itemTravelStaff.tooltip.detailed.line1=Wenn gehalten, werden Reiseanker und EnderIO-
@@ -754,7 +754,7 @@ item.itemTravelStaff.tooltip.detailed.line3=<r-click> aktiviert werden
 item.itemTravelStaff.tooltip.detailed.line4=<shift><r-click> wird den Spieler eine
 item.itemTravelStaff.tooltip.detailed.line5=kurze Distanz teleportieren
 enderio.itemTravelStaff.notEnoughPower=Nicht genügend Energie
-enderio.travelStaffKeybind.isDisabled=Travel Staff Blink Keybind Disabled!
+enderio.travelStaffKeybind.isDisabled=Reisestab-Sprung Tastenkombination deaktiviert!
 
 item.itemTeleportStaff.name=Stab der Teleportation
 item.itemTeleportStaff.tooltip.detailed.line1=Rechtsklick, um zu teleportieren, wohin auch immer du schaust
@@ -777,13 +777,13 @@ enderio.itemCoordSelector.chat.setDimension=Festgelegte Dimension: %s%s
 #Painter
 tile.blockPainter.name=Färbemaschine
 enderio.blockPainter.paintedWith=Bemalt mit:
-enderio.blockPainter.paintedWith.none=§onothing§r
+enderio.blockPainter.paintedWith.none=§onichts§r
 tile.blockPaintedFence.name=Bemalter Zaun
 tile.blockPaintedFenceGate.name=Bemaltes Tor
 tile.blockPaintedWall.name=Bemalte Wand
 tile.blockPaintedStair.name=Bemalte Treppe
 tile.blockPaintedSlab.name=Bemalte Stufe
-tile.blockPaintedSlabDouble.name=Painted Slab
+tile.blockPaintedSlabDouble.name=Bemalte Stufe
 tile.blockPaintedDoubleSlab.name=Bemalte Stufe
 tile.blockPaintedGlowstone.name=Bemaltes Glowstone
 tile.blockPaintedCarpet.name=Bemalter Teppich
@@ -835,7 +835,7 @@ item.itemXpTransfer.tooltip.detailed.line2=Flüssig-XP, um Level zu erlangen
 item.itemXpTransfer.tooltip.detailed.line3=Shift-Rechts-Klick um Level in den
 item.itemXpTransfer.tooltip.detailed.line4=Tank zu befördern
 
-item.itemFrankenSkull.name=Zombie Electrode
+item.itemFrankenSkull.name=Zombieelektrode
 skullZombieElectrode.name=Zombieelektrode
 skullZombieController.name=Z-Logik-Controller
 skullZombieFrankenstien.name=Frank'N'Zombie
@@ -906,13 +906,13 @@ enderio.item.stellar_sword.tooltip.line1=Erhöht Schädel- und Enderperlen-Drops
 enderio.item.stellar_sword.tooltip.line2=Endermen können sich nach einem Treffer nicht mehr teleportieren.
 enderio.item.stellar_sword.tooltip.line3=+2 Schaden, wenn aktiviert
 
-enderio.item.darkSteel_armor.tooltip.line1=Schutz auf Diamant-Level,
+enderio.item.darkSteel_armor.tooltip.line1=Schutz auf Diamant-Level
 enderio.item.darkSteel_armor.tooltip.line2=wenn mit Energie versorgt
 
-enderio.item.endSteel_armor.tooltip.line1=Diamond+ level protection
-enderio.item.endSteel_armor.tooltip.line2=when powered
+enderio.item.endSteel_armor.tooltip.line1=Schutz auf Diamant-Level+
+enderio.item.endSteel_armor.tooltip.line2=wenn mit Energie versorgt
 
-enderio.item.stellar_armor.tooltip.line1=Schutz auf Diamant-Level+,
+enderio.item.stellar_armor.tooltip.line1=Schutz auf Diamant-Level+
 enderio.item.stellar_armor.tooltip.line2=wenn mit Energie versorgt
 
 enderio.item.darkSteel_boots.tooltip.line1=Fallschaden negiert,
@@ -969,12 +969,12 @@ enderio.darksteel.upgrade.sound.enabled=Schalldetektor Aktiv
 enderio.darksteel.upgrade.sound.disabled=Schalldetektor Inaktiv
 
 enderio.darksteel.upgrade.gogglesOfRevealing.name=Brille der Enthüllung
-enderio.darksteel.upgrade.gogglesOfRevealing.tooltip.detailed.line1=Vis Discount: 5%
+enderio.darksteel.upgrade.gogglesOfRevealing.tooltip.detailed.line1=Vis-Rabatt: 5%
 enderio.darksteel.upgrade.gogglesOfRevealing.enabled=Magie wird enthüllt
 enderio.darksteel.upgrade.gogglesOfRevealing.disabled=Magie ist versteckt
 
-enderio.darksteel.upgrade.trackmansGoggles.name=Trackman's Goggles
-enderio.darksteel.upgrade.trackmansGoggles.tooltip.detailed.line1=Show infrastructure and anchor auras
+enderio.darksteel.upgrade.trackmansGoggles.name=Schienenwartbrille
+enderio.darksteel.upgrade.trackmansGoggles.tooltip.detailed.line1=Infrastruktur und Anker-Auren anzeigen
 
 enderio.darksteel.upgrade.naturalistEye.name=Auge des Arboristen
 enderio.darksteel.upgrade.naturalistEye.tooltip.detailed.line1=Zeigt bestäubte Blätter
@@ -1096,14 +1096,14 @@ enderio.gui.machine.percraft=Pro Fertigung
 enderio.gui.machine.side=Seite: %s
 enderio.gui.machine.side.north=Nord
 enderio.gui.machine.side.south=Süd
-enderio.gui.machine.side.west=West
+enderio.gui.machine.side.west=Westen
 enderio.gui.machine.side.east=Ost
 enderio.gui.machine.side.up=Oben
 enderio.gui.machine.side.down=Unten
-enderio.gui.machine.weather.control=Control Mode
-enderio.gui.machine.weather.redstone=Launch on Redstone Signal
-enderio.gui.machine.weather.manual=Launch Manually
-enderio.gui.machine.weather.run=Launch
+enderio.gui.machine.weather.control=Steuerungsmodus
+enderio.gui.machine.weather.redstone=Start bei Redstone-Signal
+enderio.gui.machine.weather.manual=Manuell starten
+enderio.gui.machine.weather.run=Starten
 
 
 #Power Monitor
@@ -1236,62 +1236,62 @@ enderio.gui.item_filter.close2=Zurück zum vorherigen Inventar
 
 enderio.gui.item_filter.whitelist=Whitelist
 enderio.gui.item_filter.blacklist=Blacklist
-enderio.gui.item_filter.match_meta=Match Metadata
-enderio.gui.item_filter.ignore_meta=Ignore Metadata
-enderio.gui.item_filter.sticky_enabled=Sticky Mode Enabled
-enderio.gui.item_filter.sticky_enabled2=Selected items will only be sent to this or other sticky outputs
-enderio.gui.item_filter.sticky_disabled=Sticky Mode Disabled
-enderio.gui.item_filter.ore_dic_enabled=Ore Dictionary Enabled
-enderio.gui.item_filter.ore_dic_disabled=Ore Dictionary Disabled
-enderio.gui.item_filter.match_nbt=Match NBT
-enderio.gui.item_filter.ignore_nbt=Ignore NBT
+enderio.gui.item_filter.match_meta=Metadaten abgleichen
+enderio.gui.item_filter.ignore_meta=Metadaten ignorieren
+enderio.gui.item_filter.sticky_enabled=Sticky-Modus Aktiviert
+enderio.gui.item_filter.sticky_enabled2=Ausgewählte Elemente werden nur an diese oder andere Sticky-Ausgaben gesendet.
+enderio.gui.item_filter.sticky_disabled=Sticky-Modus Deaktiviert
+enderio.gui.item_filter.ore_dic_enabled=Ore-Dictionary Aktiviert
+enderio.gui.item_filter.ore_dic_disabled=Ore-Dictionary Deaktiviert
+enderio.gui.item_filter.match_nbt=NBT-Daten abgleichen
+enderio.gui.item_filter.ignore_nbt=Ignoriere NBT-Daten
 
 enderio.gui.existing.item_filter.snapshot=Snapshot
-enderio.gui.existing.item_filter.merge=Merge
-enderio.gui.existing.item_filter.clear=Clear
-enderio.gui.existing.item_filter.show=Show
-enderio.gui.existing.item_filter.snapshot2=Optional: If no snapshot is set, the inventory content will be used as filter
-enderio.gui.existing.item_filter.merge2=Merge the current snapshot with a new one
-enderio.gui.existing.item_filter.clear2=Clear the snapshot
-enderio.gui.existing.item_filter.show2=Show the current snapshot
-enderio.item.item_existing_item_filter.filter_not_updated=Filter not updated
-enderio.item.item_existing_item_filter.filter_updated=Filter updated
+enderio.gui.existing.item_filter.merge=Zusammenführen
+enderio.gui.existing.item_filter.clear=Leeren
+enderio.gui.existing.item_filter.show=Anzeigen
+enderio.gui.existing.item_filter.snapshot2=Optional: Wenn kein Snapshot festgelegt ist, wird der Inventarinhalt als Filter verwendet.
+enderio.gui.existing.item_filter.merge2=Den aktuellen Snapshot mit einem neuen zusammenführen
+enderio.gui.existing.item_filter.clear2=Den Schnappschuss löschen
+enderio.gui.existing.item_filter.show2=Aktuellen Snapshot anzeigen
+enderio.item.item_existing_item_filter.filter_not_updated=Filter nicht aktualisiert
+enderio.item.item_existing_item_filter.filter_updated=Filter aktualisiert
 
-enderio.gui.basic_item_filter=Basic Item Filter
-enderio.gui.advanced_item_filter=Advanced Item Filter
-enderio.gui.limited_item_filter=Limited Item Filter
-enderio.gui.big_item_filter=Big Item Filter
+enderio.gui.basic_item_filter=Einfacher Item-Filter
+enderio.gui.advanced_item_filter=Erweiterter Item-Filter
+enderio.gui.limited_item_filter=Limitierter Item Filter
+enderio.gui.big_item_filter=Großer Item-Filter
 # Note big_advanced_item_filter doesn't have enough space for the full name
 enderio.gui.big_advanced_item_filter=Filter
-enderio.gui.existing_item_filter=Existing Item Filter
-enderio.gui.mod_item_filter=Mod Item Filter
-enderio.gui.power_item_filter=Power Item Filter
-enderio.gui.species_item_filter=Species Item Filter
-enderio.gui.soul_filter_normal=Soul Item Filter
-enderio.gui.soul_filter_big=Big Soul Item Filter
-enderio.gui.enchantment_filter_normal=Enchantment Item Filter
-enderio.gui.enchantment_filter_big=Big Enchantment Item Filter
+enderio.gui.existing_item_filter=Existierender Item-Filter
+enderio.gui.mod_item_filter=Mod-Item-Filter
+enderio.gui.power_item_filter=Energie-Item-Filter
+enderio.gui.species_item_filter=Spezies-Item-Filter
+enderio.gui.soul_filter_normal=Seelen-Item-Filter
+enderio.gui.soul_filter_big=Großer Seelen-Item-Filter
+enderio.gui.enchantment_filter_normal=Verzauberung-Item-Filter
+enderio.gui.enchantment_filter_big=Großer Verzauberung-Item-Filter
 
-enderio.gui.fluid_filter=Basic Fluid Filter
+enderio.gui.fluid_filter=Einfacher Flüssigkeit-Filter
 
-enderio.gui.redstone_filter.and=Redstone UND Filter
-enderio.gui.redstone_filter.or=Redstone ODER Filter
-enderio.gui.redstone_filter.nor=Redstone WEDERNOCH Filter
-enderio.gui.redstone_filter.nand=Redstone NAND Filter
-enderio.gui.redstone_filter.xor=Redstone XOR Filter
-enderio.gui.redstone_filter.xnor=Redstone XNOR Filter
-enderio.gui.redstone_filter.counting=Redstone Counting Filter
-enderio.gui.redstone_filter.timer=Redstone Timer Filter
+enderio.gui.redstone_filter.and=Redstone AND-Filter
+enderio.gui.redstone_filter.or=Redstone OR-Filter
+enderio.gui.redstone_filter.nor=Redstone NOR-Filter
+enderio.gui.redstone_filter.nand=Redstone NAND-Filter
+enderio.gui.redstone_filter.xor=Redstone XOR-Filter
+enderio.gui.redstone_filter.xnor=Redstone XNOR-Filter
+enderio.gui.redstone_filter.counting=Redstone Zählfilter
+enderio.gui.redstone_filter.timer=Redstone Timer-Filter
 
-enderio.gui.mod.item_filter.delete=Delete
-enderio.gui.mod.item_filter.slot=Input Slot
+enderio.gui.mod.item_filter.delete=Löschen
+enderio.gui.mod.item_filter.slot=Input-Slot
 
-enderio.gui.power.item_filter.compare=Comparison Mode
-enderio.gui.power.item_filter.percent=Power Percentage
+enderio.gui.power.item_filter.compare=Vergleichmodus
+enderio.gui.power.item_filter.percent=Energieprozentsatz
 
-enderio.gui.redstone_filter.signal_color=Redstone Signal Color
-enderio.gui.redstone_filter.input_signal=Input Signal
-enderio.gui.redstone_filter.count=Count
+enderio.gui.redstone_filter.signal_color=Redstone-Signalfarbe
+enderio.gui.redstone_filter.input_signal=Input-Signal
+enderio.gui.redstone_filter.count=Anzahl
 enderio.gui.redstone_filter.time=Zeit
 
 #conduits
@@ -1314,17 +1314,17 @@ enderio.gui.conduit.item.channel=Kanal
 enderio.gui.conduit.item.ignoreMetaData=Ignoriere Metadaten
 enderio.gui.conduit.item.matchMetaData=Stimme Metadaten ab
 enderio.gui.conduit.item.whitelist=Whitelist
-enderio.gui.conduit.item.whitelist.tooltip.0=If item list is empty, no item
-enderio.gui.conduit.item.whitelist.tooltip.1=will be allowed to pass
+enderio.gui.conduit.item.whitelist.tooltip.0=Wenn die Itemliste leer ist, kein Item
+enderio.gui.conduit.item.whitelist.tooltip.1=wird passieren dürfen
 enderio.gui.conduit.item.blacklist=Blacklist
-enderio.gui.conduit.item.blacklist.tooltip.0=If item list is empty, all items
-enderio.gui.conduit.item.blacklist.tooltip.1=will be allowed to pass
+enderio.gui.conduit.item.blacklist.tooltip.0=Wenn die Itemliste leer ist, kein Item
+enderio.gui.conduit.item.blacklist.tooltip.1=wird passieren dürfen
 enderio.gui.conduit.item.stickyEnabled=Sticky Mode Aktiviert|Ausgewählte Items werden nur|zu diesem oder anderen|Outputs mit Sticky Mode transportiert.
-enderio.gui.conduit.item.stickyDisbaled=Sticky Mode Deaktiviert
+enderio.gui.conduit.item.stickyDisbaled=Sticky-Modus Deaktiviert
 enderio.gui.conduit.item.ignoreNBT=Ignoriere NBT-Daten
-enderio.gui.conduit.item.matchNBT=Stimme NBT-Daten ab
-enderio.gui.conduit.item.oreDicEnabled=Ore Dictionary Aktiviert
-enderio.gui.conduit.item.oreDicDisabled=Ore Dictionary Deaktiviert
+enderio.gui.conduit.item.matchNBT=NBT-Daten abgleichen
+enderio.gui.conduit.item.oreDicEnabled=Ore-Dictionary Aktiviert
+enderio.gui.conduit.item.oreDicDisabled=Ore-Dictionary Deaktiviert
 enderio.gui.conduit.item.selfFeedEnabled=Selbstfüttern Aktiviert
 enderio.gui.conduit.item.selfFeedDisabled=Selbstfüttern Deaktiviert
 enderio.gui.conduit.item.roundRobinEnabled=Round-Robin Aktiviert
@@ -1336,9 +1336,9 @@ enderio.gui.conduit.item.fuzzy.fuzzy_25=Ungenauer Abgleich für 25% Schaden
 enderio.gui.conduit.item.fuzzy.fuzzy_50=Ungenauer Abgleich für 50% Schaden
 enderio.gui.conduit.item.fuzzy.fuzzy_75=Ungenauer Abgleich für 75% Schaden
 enderio.gui.conduit.item.fuzzy.fuzzy_99=Ungenauer Abgleich für alle Schadenswerte
-enderio.gui.conduit.item.fuzzy.tooltip.0=Can work without items in the filter
-enderio.gui.conduit.item.fuzzy.tooltip.1=In this case its logic can be
-enderio.gui.conduit.item.fuzzy.tooltip.2=controlled by %s button
+enderio.gui.conduit.item.fuzzy.tooltip.0=Kann ohne Elemente im Filter funktionieren
+enderio.gui.conduit.item.fuzzy.tooltip.1=In diesem Fall kann die Logik
+enderio.gui.conduit.item.fuzzy.tooltip.2=über die %s Taste gesteuert werden
 
 enderio.gui.conduit.item.filterupgrade=Item-Filter einsetzen
 enderio.gui.conduit.item.speedupgrade=Leitungsgeschwindigkeits-Upgrade oder -Downgrade einsetzen
@@ -1361,8 +1361,8 @@ enderio.gui.conduit.gas.autoExtract=Auto-Extraktion
 enderio.gui.weather.task.clear=Klares Wetter
 enderio.gui.weather.task.rain=Regnerisches Wetter
 enderio.gui.weather.task.storm=Gewitter
-enderio.gui.weather.requiredfluid=Required Fluid: %s L
-enderio.weatherObelisk.fuelTank=Barometric Flux Tank
+enderio.gui.weather.requiredfluid=Benötigte Flüssigkeit: %s L
+enderio.weatherObelisk.fuelTank=Barometrischer Flux-Tank
 
 #Enchants
 enchantment.enderio.soulBound=Seelengebunden
@@ -1418,7 +1418,7 @@ enderio.category.darksteelarmor=Dunkelstahlrüstung
 enderio.category.tools=EnderIO - Werkzeuge
 enderio.keybind.glidertoggle=Gleiterschaltung
 enderio.keybind.gogglesofrevealing=Brille der Enthüllung
-enderio.keybind.trackmansgoggles=Trackman's Goggles
+enderio.keybind.trackmansgoggles=Schienenwartbrille
 enderio.keybind.nightvision=Nachtsicht
 enderio.keybind.soundlocator=Schalldetektor
 enderio.keybind.speed=Schnelligkeit
@@ -1426,7 +1426,7 @@ enderio.keybind.jump=Sprung
 enderio.keybind.stepassist=Stufenhilfe
 enderio.keybind.yetawrenchmode=Yeta-Schraubenschlüsselmodus
 enderio.keybind.magnet=Schalte Elektromagneten
-enderio.keybind.staffoftravelingtp=Travel Staff Blink
+enderio.keybind.staffoftravelingtp=Reisestab-Sprung
 enderio.nei.alloysmelter=Legierungsschmelze
 enderio.nei.enchanter=Verzauberer
 enderio.nei.sagmill=SAG-Mahlwerk
@@ -1435,7 +1435,7 @@ enderio.nei.slicensplice=Slice'N'Splice
 enderio.nei.soulbinder=Seelenbinder
 enderio.nei.vat=bottich
 enderio.tooltip.burntime=Brenndauer:
-enderio.tooltip.oredict=Ore Dictionary:
+enderio.tooltip.oredict=Ore-Dictionary:
 enderio.tooltip.meta=Meta:
 enderio.tooltip.uid=UID:
 enderio.tooltip.anvilupgrades=Amboss-Upgrades:

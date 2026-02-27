@@ -7176,7 +7176,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTg.desc=Der MV-Verbrennungsgenerator ve
 
 # Quest: Fluid Regulator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.name=§6§lDurchflussmengenregler
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.desc=Turbinen benötigen präzise Mengen an Flüssigkeiten, sonst [warn]explodieren[/warn] sie. Verwende den Durchflussmengenregler an der Rohrleitung / Rohr, die mit dem Input-Bus verbunden ist, um die Zufuhrrate der Flüssigkeiten in die Turbine zu steuern. Um das Flüssigkeitslimit zu erhöhen, sieh auf die rechte Seite des Reglers und:%n%n1L – Rechtsklick mit leerer Hand%n16L – Rechtsklick mit einem Schraubendreher%n256L – Rechtsklick mit einem Schraubendreher im kriechen%n%nUm das Flüssigkeitslimit zu senken, mach dasselbe, während du auf die linke Seite schaust.%n%nNutze den großen Turbinen-Rechner und das Turbinen-Statistikblatt in der Tabelle, um herauszufinden, welcher Wert eingestellt werden muss (nachdem du dich für einen Treibstoff entschieden hast). In GTNH übernehmen wir die Rechnerei für dich! Zumindest hierfür.%n%n[note]Wenn du mit gedrückter Shift-Taste rechtsklickst, kannst du das Interface öffnen, das noch präzisere Einstellungen erlaubt.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZQ.desc=Turbinen benötigen präzise Flüssigkeitsmengen, und um diese zu regulieren, benötigst du einen Flüssigkeitsregler. Verwende den Flüssigkeitsregler an der Rohrleitung, die an dem Input-Bus angeschlossen ist, um die Flüssigkeitszufuhr zur Turbine zu steuern. Um das Flüssigkeitslimit zu erhöhen, sieh auf die rechte Seite des Reglers und:%n%n1L – Rechtsklick mit leerer Hand%n16L – Rechtsklick mit einem Schraubendreher%n256L – Rechtsklick mit einem Schraubendreher im kriechen%n%nUm das Flüssigkeitslimit zu senken, mach dasselbe, während du auf die linke Seite schaust.%n%nNutze den großen Turbinen-Rechner und das Turbinen-Statistikblatt in der Tabelle, um herauszufinden, welcher Wert eingestellt werden muss (nachdem du dich für einen Treibstoff entschieden hast). In GTNH übernehmen wir die Rechnerei für dich! Zumindest hierfür.%n%n[note]Wenn du mit gedrückter Shift-Taste rechtsklickst, kannst du das Interface öffnen, das noch präzisere Einstellungen erlaubt.[/note]
 
 # Quest: Gas Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHZg.name=§6§lGasturbine
@@ -7472,7 +7472,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALkg.desc=2.300.000 EU/t für 3,5s pro Li
 
 # Quest: Naquadah Based Fuel MkIII
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALkw.name=Naquadah-basierter Brennstoff Mk III
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALkw.desc=9.511.000 EU/t, 4s pro Liter. Bereite dich darauf vor, viel davon herzustellen, da alle nachfolgenden Stufen von Naquadah Brennstoff ab Mk III beginnen.%n%nDas alternative Rezept kann den logistischen Aufwand erleichtern, aber die Beschaffung von Chromatischem Glas könnte sich bis später als problematisch erweisen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALkw.desc=9.511.000 EU/t, 4s pro Liter. Bereite dich darauf vor, viel davon herzustellen, da alle nachfolgenden Stufen von Naquadah-Brennstoff ab Mk III beginnen, bis du das UXV MKIV-Rezept freischaltest.%n%nDas alternative Rezept kann den logistischen Aufwand erleichtern, aber die Beschaffung von Chromatischem Glas könnte sich bis später als problematisch erweisen.
 
 # Quest: Naquadah Based Fuel MkIV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALlA.name=Naquadah-basierter Brennstoff Mk IV
@@ -9724,8 +9724,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLw.name=Rezeptvorlagen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFLw.desc=Speichere hier Vorlagen für Autocrafting. Sie kommen in Molekularassembler und ME-Schnittstellen.
 
 # Quest: Pattern Terminal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMA.name=Vorlagen-Konsole
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMA.desc=Eine spezialisierte Version der ME-Fertigungskonsole, die entwickelt wurde, um leere Vorlagen in kodierte Vorlagen umzuwandeln.%n%nSie ermöglicht das Durchsuchen des Netzwerkinhalts wie bei anderen Konsolen, enthält aber auch einen Bereich zum Entwerfen von Vorlagen. Es gibt zwei Modi für die Vorlagenkodierung: Verarbeitungs-Vorlagen und Herstellungsvorlagen. Verarbeitungsvorlagen sind für Maschinen gedacht, die keine Standard-Verarbeitungsrezepte verwenden – wie Öfen oder andere Maschinen. Um zwischen den Modi zu wählen, klicke auf die Schaltfläche rechts neben der Schnittstelle: Wenn sie eine Standard-Werkbank anzeigt, erstellt sie Verarbeitungsvorlagen, und wenn sie einen Ofen anzeigt, erstellt sie Herstellungsvorlagen.%n%nFür Verarbeitungsvorlagen („Craften...“) gib die Eingabematerialien in einem Standard 3x3-Verarbeitungsraster an, und die Ausgabematerialien werden automatisch bestimmt.%n%nFür Herstellungsvorlagen („Erzeugen...“) gib die Eingabematerialien und Ausgabematerialien, einschließlich der Menge, an, indem du Gegenstandsstapel in die Schnittstelle legst. Wenn eine Verarbeitungsoperation nicht garantiert erfolgreich ist (wie Nebenprodukte von einigen Maschinen), funktioniert sie nicht korrekt als Verarbeitungsvorlage.%n%nBeim Entwerfen von Herstellungsvorlagen kannst du auf die Ausgabe klicken, um einen hergestellten Gegenstand zu entnehmen, solange du die zum Herstellen des Gegenstands erforderlichen Materialien hast.%n%n[warn]Seie vorsichtig, wenn du versehentlich die Erzlex-Substitution aktivierst, sie wird selten verwendet und du wirst sie zu 99%% der Zeit deaktiviert lassen.[/warn]%n%n[note]Funktioniert genau gleich mit Gegenständen und Flüssigkeiten[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMA.name=Schablonenkonsole
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMA.desc=Eine spezialisierte Version der ME-Fertigungskonsole, die entwickelt wurde, um leere Vorlagen in kodierte Vorlagen umzuwandeln.%n%nSie ermöglicht das Durchsuchen des Netzwerkinhalts wie bei anderen Konsolen, enthält aber auch einen Bereich zum Entwerfen von Vorlagen. Es gibt zwei Modi für die Vorlagenkodierung: Verarbeitungs-Vorlagen und Herstellungsvorlagen. Verarbeitungsvorlagen sind für Maschinen gedacht, die keine Standard-Verarbeitungsrezepte verwenden – wie Öfen oder andere Maschinen. Um zwischen den Modi zu wählen, klicke auf die Schaltfläche rechts neben der Schnittstelle: Wenn sie eine Standard-Werkbank anzeigt, erstellt sie Verarbeitungsvorlagen, und wenn sie einen Ofen anzeigt, erstellt sie Herstellungsvorlagen.%n%nFür Verarbeitungsvorlagen („Craften...“) gib die Eingabematerialien in einem Standard 3x3-Verarbeitungsraster an, und die Ausgabematerialien werden automatisch bestimmt.%n%nFür Herstellungsvorlagen („Erzeugen...“) gib die Eingabematerialien und Ausgabematerialien, einschließlich der Menge, an, indem du Gegenstandsstapel in die Schnittstelle legst. Wenn eine Verarbeitungsoperation nicht garantiert erfolgreich ist (wie Nebenprodukte von einigen Maschinen), funktioniert sie nicht korrekt als Verarbeitungsvorlage.%n%nBeim Entwerfen von Herstellungsvorlagen kannst du auf die Ausgabe klicken, um einen hergestellten Gegenstand zu entnehmen, solange du die zum Herstellen des Gegenstands erforderlichen Materialien hast.%n%n[warn]Seie vorsichtig, wenn du versehentlich die Erzlex-Substitution aktivierst, sie wird selten verwendet und du wirst sie zu 99%% der Zeit deaktiviert lassen.[/warn]%n%n[note]Funktioniert genau gleich mit Items, Flüssigkeiten und Essentia.[/note]
 
 # Quest: ME in Your Cleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.name=ME in deinem Reinraum
@@ -9756,19 +9756,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWQ.name=ME-Steuerung
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWQ.desc=Das Herzstück deines ME-Netzwerks. Du kannst hier ebenfalls Energie einspeisen, um dein Netzwerk mit Strom zu versorgen, aber wahrscheinlich möchtest du alle verfügbaren Plätze für Netzwerke reservieren. Ohne diese Option bist du auf 8 Kanäle beschränkt.%n%nDies ist ein Multiblock, der auf bis zu 7x7x7 erweitert werden kann und maximal 2 benachbarte Blöcke in einer Achse haben darf, sonst wird er deaktiviert. Was auch immer das bedeutet, probier es einfach aus, OK? Du kannst nur einen pro Netzwerk haben.%n%nÜber Kanäle:%nIm Allgemeinen verwendet jedes Gerät einen Kanal, sofern nicht anders angegeben. Wenn du nicht genug hast, funktioniert dieses Gerät nicht. Wenn du nicht festellen kannst, was deine Netzwerkprobleme verursacht, schaue dir die Linien auf den ME-Kabeln an oder verwende einen Netzwerk-Visualisierer.
 
 # Quest: Diffusion and Coalescence
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0A.name=Diffusion and Coalescence
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0A.desc=The Diffusion and Coalescence cores are basic components needed to make the Thaumic Energistics devices. They're made out of the Formation and Annihilation ones.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0A.name=Diffusion und Koaleszenz
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0A.desc=Die Diffusions- und Koaleszenzkerne sind grundlegende Komponenten, die für die Herstellung der thaumischen Energietechnikgeräte benötigt werden. Sie werden aus den Formations- und Vernichtungskernen hergestellt.
 
 # Quest: Exporting Essentia From the Network
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0Q.name=Exporting Essentia From the Network
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0Q.desc=Does exactly what it says. But you probably won't need it much, if at all.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0Q.name=Essentia aus dem Netzwerk exportieren
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0Q.desc=Tut genau das, was es verspricht. Aber wahrscheinlich wirst du es kaum oder gar nicht brauchen.
 
 # Quest: Pulling Essentia Into the Network
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0g.name=Pulling Essentia Into the Network
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0g.desc=Attach to either Alembics or the output of the Advanced Alchemical Furnace. If that doesn't work, have them pipe to a jar and import from there. You can finally get rid of your shifty-eyed golems.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0g.name=Essentia ins Netzwerk importieren
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0g.desc=Befestige sie entweder an Destillierkolben oder am Ausgang des fortgeschrittenen alchemistischen Ofens. Wenn das nicht funktioniert, lasse sie in ein Gefäß leiten und importiere von dort. Endlich kannst du deine zwielichtigen Golems loswerden.
 
 # Quest: Centi-vis in your network
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0w.name=Centi-vis in your network
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0w.name=Centi-vis in deinem Netzwerk
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ0w.desc=You can use this device to either transfer the contents (CV) of a Vis Relay to another vis relay, an Arcane Assembler, or an Arcane Crafting Terminal. Either way, place the relay on the device (and send some CV to it), and use the memory card to link to the second device. If you send it to another Vis Relay Interface, you'll obviously need another Vis Relay on the other side.
 
 # Quest: Storing Essentia in Jars? Why, again?
@@ -9912,11 +9912,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJqA.name=256k-Verarbeitungsspeicher
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJqA.desc=Komponente der Verarbeitungs-CPU, die 262.144 Byte Speicher für die Verarbeitung bereitstellt.
 
 # Quest: 1024k Crafting Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJqQ.name=1.024k-Verarbeitungsspeicher
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJqQ.name=1024k-Verarbeitungsspeicher
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJqQ.desc=Komponente der Verarbeitungs-CPU, die 1.048.576 Byte Speicher für die Verarbeitung bereitstellt.
 
 # Quest: 4096k Crafting Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJqg.name=4.096k-Verarbeitungsspeicher
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJqg.name=4096k-Verarbeitungsspeicher
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJqg.desc=Komponente der Verarbeitungs-CPU, die 4.194.304 Bytes Speicher für die Verarbeitung bereitstellt.
 
 # Quest: 16384k Crafting Storage
@@ -9933,131 +9933,131 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrQ.desc=Der Hauptprozessor, der für di
 
 # Quest: 1k Fluid Component
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrg.name=1k-Flüssigkeits-Speichereinheit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrg.desc=Sie funktionieren genauso wie die für Gegenstände, können aber Flüssigkeiten aufnehmen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrg.desc=Sie funktionieren genauso wie die für Items, können aber Flüssigkeiten aufnehmen.
 
 # Quest: 4k Fluid Component
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrw.name=4k-Flüssigkeits-Speichereinheit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrw.desc=Same as 1k.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJrw.desc=Gleich wie 1k.
 
 # Quest: 16k Fluid Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsA.name=16k Fluid Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsA.desc=Same as 1k.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsA.name=16k-Flüssigkeits-Speichereinheit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsA.desc=Gleich wie 1k.
 
 # Quest: 64k Fluid Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsQ.name=64k Fluid Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsQ.desc=Same as 1k.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsQ.name=64k-Flüssigkeits-Speichereinheit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsQ.desc=Gleich wie 1k.
 
 # Quest: 1k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.name=1k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.desc=Unlike the item version, these can only hold one type of fluid each. They can hold a little over 2 ML. There is also another variant that can hold five different fluids, but it requires tungstensteel. You'll be able to view your stored fluid in the terminal.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.name=1k-Flüssigkeitspeicherzelle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsg.desc=Im Gegensatz zur Item-Version können diese nur jeweils eine Art von Flüssigkeit aufnehmen. Sie fassen etwas mehr als 2 ML. Es gibt auch eine andere Variante, die fünf verschiedene Flüssigkeiten aufnehmen kann, für die jedoch Wolframstahl erforderlich ist. Du kannst deine gespeicherte Flüssigkeit im Terminal einsehen.
 
 # Quest: 4k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsw.name=4k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsw.desc=These hold over 8 ML of a single fluid.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsw.name=4k-Flüssigkeitspeicherzelle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJsw.desc=Diese fassen über 8 ML einer einzelnen Flüssigkeit.
 
 # Quest: 16k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtA.name=16k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtA.desc=These hold over 32 ML of a single fluid. Enough to match a Super Tank IV!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtA.name=16k-Flüssigkeitspeicherzelle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtA.desc=Diese fassen über 32 ML einer einzigen Flüssigkeit. Genug, um es mit einem Super-Tank IV aufzunehmen!
 
 # Quest: 64k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtQ.name=64k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtQ.desc=These hold over 128 ML of a single fluid.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtQ.name=64k-Flüssigkeitspeicherzelle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtQ.desc=Diese fassen über 128 ML einer einzigen Flüssigkeit.
 
 # Quest: Housing for Advanced Components
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.name=Housing for Advanced Components
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.desc=You need to use this for the higher-tiered Cells.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.name=Gehäuse für fortschrittliche Komponenten
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJtw.desc=Das musst du für die höherstufigen Zellen verwenden.
 
 # Quest: 256k Fluid Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuQ.name=256k Fluid Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuQ.desc=Same as 1k.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuQ.name=256k-Flüssigkeits-Speichereinheit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuQ.desc=Gleich wie 1k.
 
 # Quest: 1024k Fluid Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJug.name=1024k Fluid Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJug.desc=Same as 1k.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJug.name=1024k-Flüssigkeits-Speichereinheit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJug.desc=Gleich wie 1k.
 
 # Quest: 4096k Fluid Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuw.name=4096k Fluid Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuw.desc=And another one.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuw.name=4096k-Flüssigkeits-Speichereinheit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJuw.desc=Und noch einer.
 
 # Quest: 256k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvA.name=256k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvA.desc=These hold 512 ML of a single fluid. They hold a bit more than a Quantum Tank III.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvA.name=256k-Flüssigkeitspeicherzelle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvA.desc=Diese fassen 512 ML einer einzigen Flüssigkeit. Sie fassen etwas mehr als ein Quanten-Tank III
 
 # Quest: 1024k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvQ.name=1024k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvQ.desc=These hold over 2 GL of a single fluid. A little more than a Quantum Tank V.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvQ.name=1024k-Flüssigkeitspeicherzelle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvQ.desc=Diese fassen über 2 GL einer einzigen Flüssigkeit. Etwas mehr als ein Quanten-Tank V.
 
 # Quest: 4096k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvg.name=4096k Fluid Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvg.desc=It holds over 8GL.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvg.name=4096k-Flüssigkeitspeicherzelle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvg.desc=Es fasst über 8 GL.
 
 # Quest: AE Essentia Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvw.name=AE Essentia Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvw.desc=The main processor for 1K, 4K, 16k, and 64k essentia cells.%n%nUse your AE network to store all that nasty essentia! Remember, you need to do the research first.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvw.name=AE-Essentia-Speicher
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvw.desc=Der Hauptprozessor für 1K-, 4K-, 16K- und 64K-Essentia-Zellen.%n%nNutze dein AE-Netzwerk, um all diese unangenehme Essentia zu speichern! Denk daran, dass du zuerst die Forschung durchführen musst.
 
 # Quest: Essentia Storage Housing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwA.name=Essentia Storage Housing
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwA.desc=This is the essentia version, for storing essentia in your network.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwA.name=Essentia-Speichergehäuse
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwA.desc=Dies ist die Essentia-Version zum Speichern von Essentia in deinem Netzwerk.
 
 # Quest: 1k Essentia Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwQ.name=1k Essentia Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwQ.desc=They work the same as the item one, but hold essentia.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwQ.name=1k-Essentia-Speichereinheit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwQ.desc=Sie funktionieren genauso wie die für Items, können aber Essentia aufnehmen.
 
 # Quest: 4k Essentia Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwg.name=4k Essentia Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwg.desc=Same as 1k.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwg.name=4k-Essentia-Speichereinheit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwg.desc=Gleich wie 1k.
 
 # Quest: 16k Essentia Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJww.name=16k Essentia Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJww.desc=Same as 1k.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJww.name=16k-Essentia-Speichereinheit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJww.desc=Gleich wie 1k.
 
 # Quest: 64k Essentia Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxA.name=64k Essentia Component
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxA.desc=Same as 1k.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxA.name=64k-Essentia-Speichereinheit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxA.desc=Gleich wie 1k.
 
 # Quest: 1k Essentia Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxQ.name=1k Essentia Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxQ.desc=Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you'll need 69 of them. You'll want to make the essentia terminal to see what you have. They consume the same amount of AE as the item ones.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxQ.name=1k-Essentia-Speicherzelle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxQ.desc=Im Gegensatz zur Item-Version können diese jeweils nur 12 Arten von Essentia aufnehmen. Diese Stufe fasst 2.048 Einheiten, wenn du sie mit einer einzigen Art von Essentia füllst. Wenn du sie mit 12 verschiedenen Arten von Essentia füllst, kannst du etwa 168 Einheiten von jeder haben. Wenn du für jede Art von Essentia eine haben möchtest, benötigst du 69 davon. Du solltest das Essentia-Terminal herstellen, um zu sehen, was du hast. Sie verbrauchen die gleiche Menge an AE wie die Item-Terminals.
 
 # Quest: 4k Essentia Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxg.name=4k Essentia Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxg.desc=These hold 8,192 units of essentia.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxg.name=4k-Essentia-Speicherzelle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxg.desc=Diese fassen 8.192 Einheiten Essentia.
 
 # Quest: 16k Essentia Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxw.name=16k Essentia Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxw.desc=These hold 32,768 units of essentia.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxw.name=16k-Essentia-Speicherzelle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxw.desc=Diese fassen 32.768 Einheiten Essentia.
 
 # Quest: 64k Essentia Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyA.name=64k Essentia Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyA.desc=These hold 131,072 units of essentia.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyA.name=64k-Essentia-Speicherzelle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyA.desc=Diese fassen 131.072 Einheiten Essentia.
 
 # Quest: AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyQ.name=AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyQ.desc=The main processor for 2^3, 16^3, and 128^3 spatial storage cells.%n%nHave you ever wanted to pack up and move your entire base, but thought it was too much of a pain? Wish you could just teleport the whole thing? Well now you, uh, still can't, because GT blocks DO NOT PLAY WELL with being teleported by AE spatial stuff. Like, world corruption level bad. But you could make a teleporter I guess?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyQ.name=AE-Raumspeicher
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyQ.desc=Der Hauptprozessor für 2^3, 16^3 und 128^3 Raumspeicherzellen.%n%nWolltest du schon immer mal deine gesamte Basis zusammenpacken und umziehen, hast es aber für zu mühsam gehalten? Wünschst du dir, du könntest einfach alles teleportieren? Nun, das geht immer noch nicht, weil GT-Blöcke sich GAR NICHT GUT mit der Teleportation durch AE-Raumtechnologie vertragen. Das führt zu einer Weltzerstörung auf höchstem Niveau. Aber du könntest einen Teleporter bauen, denke ich?
 
 # Quest: AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyg.name=AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyg.desc=The main part of 2^3 spatial cells.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyg.name=AE-Raumspeicher
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyg.desc=Der wichtigste Teil von 2^3 Raumzellen.
 
 # Quest: AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyw.name=AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyw.desc=The main part of 16^3 spatial cells.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyw.name=AE-Raumspeicher
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJyw.desc=Der wichtigste Teil von 16^3 Raumzellen.
 
 # Quest: AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzA.name=AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzA.desc=The main part of 128^3 spatial cells.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzA.name=AE-Raumspeicher
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzA.desc=Der wichtigste Teil von 128^3 Raumzellen.
 
 # Quest: AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzQ.name=AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzQ.desc=Contains up to a 2^3 area inside it. This is 8 blocks, so if you just want to teleport yourself, you don't need to make the later ones.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzQ.name=AE-Raumspeicher
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzQ.desc=Enthält ein Volumen von bis zu 2^3. Das sind 8 Blöcke. Wenn du dich also nur selbst teleportieren möchtest, brauchst du die späteren Blöcke nicht zu erstellen.
 
 # Quest: AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzg.name=AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzg.desc=Contains up to a 16^3 area inside it. This is 4096 blocks.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzg.name=AE-Raumspeicher
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzg.desc=Enthält ein Volumen von bis zu 16^3. Das sind 4096 Blöcke.
 
 # Quest: AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzw.name=AE Spatial Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzw.desc=Contains up to a 128^3 area inside it. This is 2,097,152 blocks. Teleport a village to the Moon to make them suffer!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzw.name=AE-Raumspeicher
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJzw.desc=Enthält ein Volumen von bis zu 128^3. Das sind 2.097.152 Blöcke. Teleportiere ein Dorf auf den Mond, um es leiden zu lassen!
 
 # Quest: Short Guide - A Basic AE2 System
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKwQ.name=Short Guide - A Basic AE2 System
@@ -10152,7 +10152,7 @@ betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.name=Level Maintainer
 betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.desc=The ME Level Maintainer is another cool addition of AE2FC. Choose an item or fluid and an amount to maintain, and the Level Maintainer will attempt to call patterns to keep crafting the item until it reaches the threshold you configured. You can also configure the crafting batch size.%n%n[note]For fluid crafts, put in a fluid drop and don't drag from NEI.[/note]
 
 # Quest: 16384k Essentia Storage Cell
-betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16.384k-Essentia-Speicherzelle
+betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16384k-Essentia-Speicherzelle
 betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.desc=Diese fast 33.554.432 Einheiten Essentia.%n%nUnd kann 60 Typen fassen.
 
 # Quest: Going Superluminal
@@ -10200,7 +10200,7 @@ betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.name=Wireless HUBs
 betterquesting.quest.tM8pT_W3RCqZNDAovERxFg.desc=The Wireless Connector also has a HUB upgrade! These Wireless HUBs can be linked to many wireless connectors at once so you won't need to spam a chunk of 1:1 connectors into one spot. Keep in mind there is still a 32 channel limitation.%n%n[note]Great for placing on controller faces![/note]
 
 # Quest: 1024k Essentia Storage Cell
-betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.name=1.024k-Essentia-Speicherzelle
+betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.name=1024k-Essentia-Speicherzelle
 betterquesting.quest.tUJaqz9uSwajByFi4gNHzQ.desc=Diese fast 2.097.152 Einheiten Essentia.%n%nUnd kann 36 Typen fassen.
 
 # Quest: Essentia Quantum Storage
