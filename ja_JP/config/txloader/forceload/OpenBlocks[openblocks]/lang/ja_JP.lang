@@ -89,7 +89,7 @@ openblocks.misc.pointed_cannon=アイテムキャノンの発射先を  %s, %s, 
 openblocks.misc.change_mode=%s モードに変更しました
 openblocks.misc.change_size=サイズを %sx%sx%s に変更しました
 openblocks.misc.change_box_size=サイズを (%d,%d,%d):(%d,%d,%d) に変更しました
-openblocks.misc.change_area_size=Changing size to (%d,%d):(%d,%d)
+openblocks.misc.change_area_size=サイズを (%d,%d):(%d,%d) に変更しました
 openblocks.misc.total_blocks=総ブロック数:%d
 openblocks.misc.get_witched="魔女になれ！"
 openblocks.misc.page=ページ %d / %d
@@ -188,7 +188,7 @@ tile.openblocks.heal.name=ヒーラー
 tile.openblocks.heal.description=§8《§rヒーラー§8／Healer》§r はクリエイティブモードでのみ利用できるブロックです。\n上に立ったプレイヤーの体力と満腹度を回復します。
 
 tile.openblocks.guide.name=建築ガイド
-tile.openblocks.guide.description=§8《§r建築ガイド§8／Building Guide》§r は様々な幾何学形状の設置ガイドを表示する設備で、建築の設計図として機能します。\nレッドストーン信号で有効化し、指定した寸法・形状のゴーストブロックを表示します。\nブロック上底面のボタンから形状を、側面のボタンから寸法を設定します。染料を使用してゴーストブロックの色を設定できます。
+tile.openblocks.guide.description=§8《§r建築ガイド§8／Building Guide》§r はゴーストブロックを投影して建築を容易にします。レッドストーン信号で投影を有効化し、素手で各面にあるボタンを右クリックして設定ができます。上面では形状の指定と回転を行います。側面にはそれぞれ、各方向(上下左右)に対応するボタンがあり、+/-で各方向への長さの調整、➤で反転が可能です。\n染料を使用するとゴーストブロックの色を変更できます。
 
 tile.openblocks.builder_guide.name=拡張型建築ガイド
 tile.openblocks.builder_guide.description=§8《§r拡張型建築ガイド§8／Enhanced Building Guide》§r は様々な追加機能を備えた建築ガイドの強化版です。\n特筆すべき機能として、有効化中に任意のブロックで右クリックすることで、ゴーストブロックの位置へ自動配置が行えます！\nクリエイティブモードの場合、黒曜石を上面に設置すると一瞬でブロックの配置が行えるようになります。
