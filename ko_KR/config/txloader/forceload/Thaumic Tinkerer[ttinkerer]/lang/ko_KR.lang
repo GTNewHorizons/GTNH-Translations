@@ -1,13 +1,13 @@
 # MISC
-itemGroup.ThaumicTinkerer=Thaumic Tinkerer
+itemGroup.ThaumicTinkerer=사우믹 팅커러
 ttmisc.connector.set=위치가 지정되었습니다.
-ttmisc.keyCategory=Thaumic Tinkerer
+ttmisc.keyCategory=사우믹 팅커러
 ttmisc.connector.complete=연결되었습니다.
 ttmisc.connector.notinterf=트랜스벡터 블럭이 아닙니다.
 ttmisc.connector.interffail=접속장치끼리는 연결할 수 없습니다.
 ttmisc.connector.dislfail=전이장치끼리는 연결할 수 없습니다.
 ttmisc.connector.notpresent=트랜스벡터 블럭이 존재하지 않습니다.
-ttmisc.connector.toofar=트랜스벡터블럭이 너무 멀리 떨어져있습니다.
+ttmisc.connector.toofar=트랜스벡터 블럭이 너무 멀리 떨어져있습니다.
 ttmisc.golemconnector.set=연결장치가 지정되었습니다.
 ttmisc.golemconnector.complete=연결되었습니다.
 ttmisc.golemconnector.notinterf=연결장치가 골렘 연결 블럭에 연결되어있지 않습니다.
@@ -19,7 +19,7 @@ ttmisc.animationTablet.notRotatable=태블릿이 작동중일 땐 회전시킬 �
 ttmisc.bloodSword.activateEssentiaHarvest=에센시아 채집 활성화
 ttmisc.bloodSword.deactivateEssentiaHarvest=에센시아 채집 비활성화
 ttmisc.focusDislocation.tooltip=현재 전이중
-ttmisc.focusDislocation.tooltipExtra=추가 코스트
+ttmisc.focusDislocation.tooltipExtra=추가 컨텐츠
 ttmisc.inactive=비활성화
 ttmisc.active=활성화
 ttmisc.soulMould.nonAssigned=지정된 패턴 없음
@@ -84,7 +84,7 @@ item.gasRemover.name=기체 제거기
 item.spellCloth.name=주문구속 천
 item.focusFlight.name=완드 포커스: 상승
 item.focusDislocation.name=완드 포커스: 전이
-item.cleansingTalisman.name=치료의 부적
+item.cleansingTalisman.name=치유의 부적
 item.brightNitor.name=초활성 나이터
 item.focusTelekinesis.name=완드 포커스: 텔레키네시스
 item.soulMould.name=영혼 틀
@@ -101,7 +101,7 @@ item.mobAspect.name=영혼 위상
 item.mobAspect.condensed.name=응축된 영혼 위상
 item.mobAspect.infused.name=농축된 영혼 위상
 item.infusedSeeds.name=주입된 씨앗
-item.infusedPotion.name=Potion
+item.infusedPotion.name=포션
 item.infusedPotion.Aer.name=Potion of Aer
 item.infusedPotion.Ignis.name=Potion of Ignis
 item.infusedPotion.Terra.name=Potion of Terra
@@ -148,17 +148,17 @@ tile.darkQuartz.name=잿빛 석영 블럭
 tile.darkQuartzChiseled.name=조각된 잿빛 석영 블럭
 tile.darkQuartzPillar.name=잿빛 석영 블럭 기둥
 tile.darkQuartzSlab.name=잿빛 석영 반블럭
-tile.forcefield.name=Forcefield
-tile.travelSlab.name=Paving Slab of Travel
-tile.travelSlabFull.name=Paving Slab of Travel
-tile.travelStairs.name=Paving Stair of Travel
+tile.forcefield.name=포스필드
+tile.travelSlab.name=여행석 반블록
+tile.travelSlabFull.name=여행석 반블록
+tile.travelStairs.name=여행석 계단
 tile.wardSlab.name=Paving Slab of Warding
 tile.wardSlabFull.name=Paving Slab of Warding
 tile.infusedFarmland.name=Infused Farmland
 tile.gaseousLight.name=Gaseous Light
 tile.gaseousShadow.name=Gaseous Shadow
 tile.infusedGrainBlock.name=Imbued Grain
-tile.nitorGas.name=Nitor Gas
+tile.nitorGas.name=나이터 가스
 
 # Fire
 tile.fireWater.name=Aqua Imbued Fire
@@ -168,7 +168,7 @@ tile.fireFire.name=Ignis Imbued Fire
 tile.fireEarth.name=Terra Imbued Fire
 tile.fireAir.name=Aer Imbued Fire
 
-tile.darkQuartzSlabFull.name=Smokey Quartz Slab
+tile.darkQuartzSlabFull.name=잿빛 석영 반블럭
 tile.darkQuartzStairs.name=잿빛 석영 계단
 tile.interface.name=트랜스벡터 접속장치
 tile.animationTablet.name=동력 태블릿
@@ -181,7 +181,7 @@ tile.repairer.name=사우믹 재구성장치
 tile.aspectAnalyzer.name=위상 분석장치
 tile.platform.name=반투과성 플랫폼
 tile.spawner.name=강령술 석판
-tile.bedrockPortal.name=Bedrock Portal
+tile.bedrockPortal.name=배드락 포탈
 tile.Levitational Locomotive.name=부양 추진체
 tile.Levitational Locomotive Relay.name=부양 추진체 중계기
 tile.golemConnector.name=골렘 연결장치
@@ -276,7 +276,7 @@ ttresearch.page.GAS_REMOVER.0=기체 광채와 기체 암흑은 한 번 뿌리�
 
 # -- SPELLBINDING CLOTH
 ttresearch.name.SPELL_CLOTH=주문구속 천
-ttresearch.lore.SPELL_CLOTH=손 안의 슬픈 마법사
+ttresearch.lore.SPELL_CLOTH=마법의 지우개
 ttresearch.page.SPELL_CLOTH.0=마법이 깃든 천과 다른 마법 에너지를 섞어서 만든 이 천은 다른 도구와 함께 조합될 경우 그 도구의 모든 인챈트를 제거합니다.
 
 # -- DYNAMISM TABLET
@@ -297,7 +297,7 @@ ttresearch.page.FOCUS_DISLOCATION.1=비스 소모량은 옮기는 블럭의 종�
 
 # -- TALISMAN OF REMEDIUM
 ttresearch.name.CLEANSING_TALISMAN=치료의 부적
-ttresearch.lore.CLEANSING_TALISMAN=미츠카케의 선물
+ttresearch.lore.CLEANSING_TALISMAN=미즈카게의 선물
 ttresearch.page.CLEANSING_TALISMAN.0=신체와 생명에 대한 연구 결과, 그 자신이 대신 피해를 받아내는 것으로 소지자를 외부의 해로운 효과들로부터 지켜주는 마법 도구를 개발하게 되었습니다. 이 부적은 소지자에게 가해진 대부분의 해로운 효과들을 자신이 대신 받아냅니다.<BR><BR>이 효과는 Shift 우클릭으로 활성화/비활성화가 가능합니다.
 
 # -- HYPERENERGETIC NITOR
@@ -396,8 +396,8 @@ ttresearch.page.TTENCH_SHATTER.0=부수려는 블럭이 단단할 수록 더 강
 
 # -- ENCHANTMENT: SHOCKWAVE
 ttresearch.name.TTENCH_SHOCKWAVE=인챈트: 충격파
-ttresearch.lore.TTENCH_SHOCKWAVE=작은 지진
-ttresearch.page.TTENCH_SHOCKWAVE.0=낙하할 때의 충격으로 적들을 공격할 수 있게 해 주는 새로운 인챈트 공식을 고안하였습니다.<BR><BR>이 인챈트는 발 방어구에 적용이 가능합니다. 충격파가 적용된 방어구의 착용자가 낙하할 경우, 낙하지점 주변의 몬스터들에게도 데미지를 가합니다.<BR><BR>하지만, 낙하데미지를 무효화 해 주는 다른 인챈트, 혹은 도구들을 갖고 있을 경우엔 몬스터들에게 데미지를 가하기에 너무 가벼워질 수 있습니다. 나중에, 이 인챈트에 대해 더 알게 된다면, 이 문제를 해결할 수 있을지도 모릅니다.
+ttresearch.lore.TTENCH_SHOCKWAVE=소규모 지진
+ttresearch.page.TTENCH_SHOCKWAVE.0=낙하할 때의 충격으로 적들을 공격할 수 있게 해 주는 새로운 인챈트 공식을 고안하였습니다.<BR><BR>이 인챈트는 발 방어구에 적용이 가능합니다. 충격파가 적용된 방어구의 착용자가 낙하할 경우, 낙하지점 주변의 몬스터들에게도 데미지를 가합니다.<BR><BR>하지만 낙하데미지를 무효화 해 주는 다른 인챈트 혹은 도구들을 갖고 있을 경우엔 몬스터들에게 데미지를 가하기엔 너무 가벼워질 수 있습니다. 나중에 이 인챈트에 대해 더 알게 된다면, 이 문제를 해결할 수 있을지도 모릅니다.
 
 # -- ENCHANTMENT: POUNCE
 ttresearch.name.TTENCH_POUNCE=인챈트: 덮치기
@@ -417,7 +417,7 @@ ttresearch.page.FOCUS_HEAL.0=흔히 펙들이 갖고 있는 각종 질병을 걸
 
 # -- WAND FOCUS: ENDER RIFT
 ttresearch.name.FOCUS_ENDER_CHEST=완드 포커스: 아공간 엔더
-ttresearch.lore.FOCUS_ENDER_CHEST=4차원 주머니
+ttresearch.lore.FOCUS_ENDER_CHEST=사차원 주머니
 ttresearch.page.FOCUS_ENDER_CHEST.0=손거울과 포터블 홀을 조합해서 엔더 상자를 어디에서나 열어볼 수 있도록 해 주는 포커스를 만들었습니다.
 ttresearch.page.FOCUS_ENDER_CHEST.ES=손거울과 포터블 홀을 조합해서 엔더 상자를 어디에서나 열어볼 수 있도록 해 주는 포커스를 만들었습니다. <BR>포커스를 연결하고자 하는 색의 엔더 상자에 Shift 우클릭해서 연결시킬 수 있습니다. CodeChickenBone의 Ender Storage모드에서 추가하는 상자가 아닌 마인크래프트 기본 엔더 상자에 연결하기 위해서는 흑요석에 Shift 우클릭을 해 주세요.
 
@@ -435,7 +435,7 @@ ttresearch.page.SUMMON.1=농축된 영혼 위상을 사용하면 영혼 위상�
 
 # -- TRANSVECTOR DISLOCATOR
 ttresearch.name.DISLOCATOR=트랜스벡터 전이장치
-ttresearch.lore.DISLOCATOR=선혈의 마술은 이제 그만
+ttresearch.lore.DISLOCATOR=블러드 매직은 이제 그만
 ttresearch.page.DISLOCATOR.0=움직임에 대한 연구를 통해 두 개의 블럭의 위치를 바꿔치기 할 수 있는 장치를 만들어냈습니다.<BR><BR>이 장치는 접속장치와 마찬가지로 트랜스벡터 연결기를 통해 다른 곳과 연결이 되어야 합니다. 완드를 이용해서 작동 방향을 설정할 수 있으며, 레드스톤 신호를 줄 경우 작동방향 앞의 블럭과 연결기를 통해 연결되어있는 블럭을 바꿔치기 합니다. 또한 이 장치는 작동방향의 모든 엔티티들도 이동시킵니다.<BR><BR>이 장치는 접속장치와 같은 방법으로 위장시킬 수 있으며, 최대 16블럭 떨어진 곳 까지 연결이 가능합니다.
 
 # -- HELMET OF REVEALING
@@ -620,7 +620,7 @@ ttresearch.name.FIRE_PERDITIO=Elemental Fire: Perditio
 ttresearch.lore.FIRE_PERDITIO=Cleanup time
 ttresearch.page.FIRE_PERDITIO.0=This fire acts like an antidote of sorts. If your elemental fires have gotten out of your control, you can set loose this specially designed flame. It will rip the magic out of elemental fire, returning it to a mundane form.
 
-ttresearch.name.INFUSED_POTIONS=Infused Crops
+ttresearch.name.INFUSED_POTIONS=주입된 작물
 ttresearch.lore.INFUSED_POTIONS=Who said bees? No one said bees.
 ttresearch.page.INFUSED_POTIONS.0=You are able to create a new form of plant by infusing mundane seeds with magical shards. These seeds can create a wide variety of items. Each aspect can create a different type of item.
 ttresearch.page.INFUSED_POTIONS.1=You can only craft primal seeds, all others must be bred. When a fully-grown crop is harvested, it will deposit magical residue into the soil. If a crop is grown in soil containing high magical residue of an appropriate aspect, the two aspects will combine to form a seed of a different aspect.
@@ -632,8 +632,8 @@ ttresearch.page.INFUSED_POTIONS.5=Some plants will create special grain, which c
 # -- WAILA
 ttwaila.nothing=Nothing
 ttwaila.currentTool=Current Tool: %s
-ttwaila.leftClick=Left Click
-ttwaila.rightClick=Right Click
+ttwaila.leftClick=좌클릭
+ttwaila.rightClick=우클릭
 ttwaila.redstone=Redstone Activated
 ttwaila.autonomous=Autonomous
 ttwaila.connected=Connected to: %s

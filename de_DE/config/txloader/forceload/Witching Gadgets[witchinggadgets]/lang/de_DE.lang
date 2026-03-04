@@ -17,7 +17,7 @@ tile.WG_WoodenDevice.spinningWheel.name=Spinnrad
 tile.WG_WoodenDevice.loom.name=Webstuhl
 tile.WG_WoodenDevice.snowGen.name=Arkane Schneeballmaschine
 tile.WG_WoodenDevice.iceGen.name=Arkaner Eismaschine
-tile.WG_WoodenDevice.cobbleGen.name=Arkaner Stein Extrudierer
+tile.WG_WoodenDevice.cobbleGen.name=Thaumischer Steinextruder
 tile.WG_WoodenDevice.armorStand.name=Rüstungsständer
 tile.WG_WoodenDevice.cuttingTable.name=Schneidetisch
 tile.WG_WoodenDevice.saunaStove.name=Arkaner Saunaofen
@@ -56,7 +56,7 @@ item.WG_Material.calculator.name=Arkanes Rechenbrett
 item.WG_Material.cuttingTools.name=Werkzeuge des Edelsteinbearbeiters
 item.WG_Material.photoPlate.name=Ikonografische Platte
 item.WG_Material.developedPhoto.name=Entwickelter Ikonograph
-item.WG_Material.clusterAluminum.name=Nativer Aluminumklumpen
+item.WG_Material.clusterAluminum.name=Nativer Aluminiumklumpen
 item.WG_Material.clusterCobalt.name=Nativer Kobaltklumpen
 item.WG_Material.clusterArdite.name=Nativer Arditklumpen
 item.WG_Material.clusterNickel.name=Nativer Nickelklumpen
@@ -151,7 +151,7 @@ itemGroup.witchinggadgets=Witching Gadgets
 # -- Enchant --
 enchantment.wg.gemstonePotency=Brillianz
 enchantment.wg.gemstoneBrittle=Spröde
-enchantment.wg.invisibleGear=Durchsichtigkeit
+enchantment.wg.invisibleGear=Transparenz
 enchantment.wg.unveiling=Enthüllung
 enchantment.wg.stealth=Tarnung
 enchantment.wg.backstab=Hinterhältigkeit
@@ -166,10 +166,10 @@ wg.chat.notyourbag=§7Dieser Beutel gehört§r %1$s! §7Du darfst ihn nicht öff
 wg.chat.bagunlocked=§7Der Beutel wurde entriegelt, andere können ihn nun öffnen.§r
 wg.chat.baglocked=§7Der Beutel wurde vertriegelt, andere können ihn nicht öffnen.§r
 
-wg.gui.textCurNest=Current Nest:
-wg.gui.buttonSetNest=Set new nest
-wg.gui.buttonMigrate=Return to nest
-wg.gui.noFeathersToMigrate=You don't have the Items required to return to your nest
+wg.gui.textCurNest=Aktuelles Nest:
+wg.gui.buttonSetNest=Neues Nest setzen
+wg.gui.buttonMigrate=Zurück zum Nest
+wg.gui.noFeathersToMigrate=Du hast nicht die erforderlichen Items, um zu deinem Nest zurückzukehren.
 
 wg.desc.noGlide=Gleiten abgeschaltet
 wg.desc.glide=Gliding enabled
@@ -204,17 +204,17 @@ wg.desc.filteredItems=Akzeptierte Gegenstände:
 
 wg.desc.active=Aktiv
 
-wg.desc.primal=Primal alignment
+wg.desc.primal=Primäre Ausrichtung
 
-wg.desc.infusionStabilizer=May work as an Infusion Stabilizer
+wg.desc.infusionStabilizer=Kann als Infusionsstabilisator dienen
 
-wg.gui.search=Search
-wg.chat.nodeContents.primal=Primal Aspects within this node: §eAer: %1$s§f, §2Terra: %2$s§f, §cIgnis: %3$s§f, §3Aqua: %4$s§f, §7Ordo: %5$s§f, §8Perditio: %6$s
-wg.chat.infusionWarning.pedestalHeight=Infusion pedestal at %1$s, %2$s, %3$s must not be higher than the Infusion Matrix
-wg.chat.infusionWarning.pedestalPos=Pedestal at %1$s, %2$s, %3$s must not be more than 8 blocks horizontally from the matrix
-wg.chat.infusionWarning.noPartnerItem=Pedestal at %1$s, %2$s, %3$s should have an item to match its partner
-wg.chat.infusionWarning.noPartnerPedestal=Pedestal at %1$s, %2$s, %3$s lacks a symmetrical partner
-wg.chat.infusionWarning.noPartnerStabilizer=Stabilizer at %1$s, %2$s, %3$s lacks a symmetrical partner
+wg.gui.search=Suchen
+wg.chat.nodeContents.primal=Primäre Aspekte innerhalb dieses Knotens: §eAer: %1$s§f, §2Terra: %2$s§f, §cIgnis: %3$s§f, §3Aqua: %4$s§f, §7Ordo: %5$s§f, §8Perditio: %6$s
+wg.chat.infusionWarning.pedestalHeight=Infusionspodest bei %1$s, %2$s, %3$s darf nicht höher sein als die Infusionsmatrix.
+wg.chat.infusionWarning.pedestalPos=Podest bei %1$s, %2$s, %3$s darf nicht mehr als 8 Blöcke horizontal von der Matrix entfernt sein.
+wg.chat.infusionWarning.noPartnerItem=Podest bei %1$s, %2$s, %3$s sollte ein Item haben, das zu seinem Partner passt.
+wg.chat.infusionWarning.noPartnerPedestal=Podest bei %1$s, %2$s, %3$s fehlt ein symmetrischer Partner
+wg.chat.infusionWarning.noPartnerStabilizer=Stabilisator bei %1$s, %2$s, %3$s fehlt ein symmetrischer Partner
 wg.chat.infusionInfo.stabilityTotal=Total Stability booster: %1$s
 wg.chat.infusionInfo.instability=Total Instability of this Infusion: %1$s
 wg.chat.infusionInfo.essentiaMod=This Infusion Enchantment will consume %1$s times the amount of essentia displayed in the Thaumonomicon:
@@ -245,8 +245,8 @@ tc.research_category.WITCHGADG=Witching Gadgets
 #
 
 #WGPOTIONS
-witchinggadgets_research_name.WGPOTIONS=Status Effects
-witchinggadgets_research_text.WGPOTIONS=[WG] Milk is not always an option! 
+witchinggadgets_research_name.WGPOTIONS=Statuseffekte
+witchinggadgets_research_text.WGPOTIONS=[WG] Milch ist nicht immer eine Option!
 witchinggadgets_research_page.WGPOTIONS.1=When delving into the arcane, you may come about certain afflictions. This is a list of the known ones:<BR><IMG>witchinggadgets:textures/gui/potioneffects.png:18:198:18:18:1</IMG>§nKnockback resistance:§r  Grants the afflicted a chance to resist knockback, with a chance of 33% per level.<IMG>witchinggadgets:textures/gui/potioneffects.png:36:198:18:18:1</IMG>§nDissolving:§r  The afflicted is covered in a fluid akin to 'Liquid Death', damaging them over time. If they succumb to it, they drop crystalized aspects.
 witchinggadgets_research_page.WGPOTIONS.2=<IMG>witchinggadgets:textures/gui/potioneffects.png:54:198:18:18:1</IMG>§nCinder Coat:§r  The afflicted is coated in magical cinder, which heightens the potency of flames. All fire damage is multiplied based on the strength of the effect.
 #
@@ -255,7 +255,7 @@ witchinggadgets_research_text.ETHEREALWALL=[WG] Hidden in plain sight
 witchinggadgets_research_page.ETHEREALWALL.1=Refining the enchantments on arcane stone just a bit more has led to an interesting discovery. Simply applying a redstone signal to this new type of stone will make it §onon-corporeal§r, allowing you to pass through it.<BR>This also affects any other Etheral Wall connected to the powered block.<BR>Furthermore, you can disguise this stone to the appearance of most common blocks. Simply click it with a block in hand it and this one will take its texture. Sneak and click it with an empty hand to remove the disguise.
 witchinggadgets_research_page.ETHEREALWALL.2=Furthermore, you can disguise this stone to the appearance of most common blocks. Simply click it with a block in hand it and this one will take its texture. Sneak and click it with an empty hand to remove the disguise. (It will only accept the texture of normally rendered blocks. Vanilla transparency works, Thaumcraft's Amber doesn't because it's coloured transparency, directional textures like wooden logs and quartz pillars are not fully supported)
 #
-witchinggadgets_research_name.STONEEXTRUDER=Thaumic Stone Extruder
+witchinggadgets_research_name.STONEEXTRUDER=Thaumischer Steinextruder
 witchinggadgets_research_text.STONEEXTRUDER=[WG] One can never have enough stone
 witchinggadgets_research_page.STONEEXTRUDER.1=Even those that are not skilled in the arts of Thaumaturgy are aware of how flowing lava will solidify into cobblestone when cooled by water. Those skilled in the magical arts don't want to waste their time on the tedious digging of these stones and have therefore created an automated way.<BR>This machine will create cobblestone, break it and place it either on the ground or into a connected inventory. Work will be halted if the inventory is full or a redstone signal is applied. You can use a wand to rotate it.
 #
@@ -293,7 +293,7 @@ witchinggadgets_research_page.LABELLIB.1=While managing and archiving the differ
 
 witchinggadgets_research_page.ENCHFABRIC.r1=<IMG>witchinggadgets:textures/gui/research/weavingRecipes2.png:0:0:255:255:0.5</IMG>
 #
-witchinggadgets_research_name.BAGOFTRICKS=Bag of Tricks
+witchinggadgets_research_name.BAGOFTRICKS=Trick-Beutel
 witchinggadgets_research_text.BAGOFTRICKS=[WG] Did I hear an echo in there?
 witchinggadgets_research_page.BAGOFTRICKS.1=Further advancements in magical weaving have led you to the discovery of the §lCloth of Spacious Folds§r. A most interesting weave, which seems to contain more room in its folds than visible from the outside. Crafting a bag from this provides you with space for storage to easily carry on your person.<BR>The fabric also turns out to be very protective of its contents, and it will harm any but the owner, should they try to access the bag. §oThis behaviour can be toggled by the owner by sneak+rightlick.§r
 witchinggadgets_research_page.BAGOFTRICKS.r1=<IMG>witchinggadgets:textures/gui/research/weavingRecipes1.png:0:0:255:255:0.5</IMG>§lCloth of Spacious Folds§r

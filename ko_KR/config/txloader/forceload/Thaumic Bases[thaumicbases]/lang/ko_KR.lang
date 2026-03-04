@@ -4,7 +4,7 @@ tc.research_category.THAUMICBASES=사우밍 베이스
 enchantment.elderKnowledge=지혜의 장로
 enchantment.eldritchBane=엘드리치 베인
 enchantment.magicTouch=마법에 걸린
-enchantment.tainted=Tainted
+enchantment.tainted=테인트
 enchantment.vaporising=기화
 tb.rec.enchantments.magictouched=Magic Touched가 인첸드된 무기를 사용하면 살해된 생물에게서 더 많은 위상 구체가 떨어집니다.
 tb.rec.enchantments.vaporising=증발 마법이 부여된 무기는 해당 무기로 죽인 생물의 결정화된 에센시아를 떨어뜨릴 확률이 있습니다.
@@ -12,7 +12,7 @@ tb.rec.enchantments.vaporising=증발 마법이 부여된 무기는 해당 무�
 #blocks
 tile.quicksilverBlock.name=수은 블록
 tile.quicksilverBrick.name=수은 벽돌
-tile.crystalBlock.name=Crystal Block
+tile.crystalBlock.name=크리스탈 블럭
 tile.crystalBlockfire.name=파이어 크리스발 블록
 tile.crystalBlockwater.name=워터 크리스탈 블록
 tile.crystalBlockearth.name=어스 크리스탈 블록
@@ -36,7 +36,7 @@ tile.sweed.name=잡초 작물
 tile.lazullia.name=라줄리아 작물
 tile.rainbowCactus.name=무지개 선인장
 tile.redlonStem.name=레드론 줄기
-tile.ashroom.name=태초 버섯
+tile.ashroom.name=태초의 버섯
 tile.flaxium.name=플럭시움
 tile.glieonia.name=글리오니아 작물
 tile.briar.name=찔레
@@ -44,7 +44,7 @@ tile.tobacco.name=담배 작물
 tile.voidPlant.name=공허 작물
 tile.spike.name=Spikes
 tile.spikeiron.name=쇠못
-tile.spikethaumic.name=사우믹못
+tile.spikethaumic.name=사우믹 못
 tile.spikevoid.name=공허못
 tile.goldenOakSapling.name=황금 참나무 묘목
 tile.goldenOakLeaves.name=황금 참나무 잎
@@ -62,7 +62,7 @@ tile.TBoldLapis.name=고대 청금석 블록
 tile.TBoldBricks.name=고대 벽돌
 tile.nodeManipulator.name=노드 조작기
 
-tile.tb.slab..name=Slab
+tile.tb.slab..name=반블럭
 tile.tb.slab.tile.TBoldLapis.name=고대 청금석 반 블록
 tile.tb.slab.tile.TBoldIron.name=고대 철 반 블록
 tile.tb.slab.tile.TBoldGold.name=고대 금 반 블록
@@ -72,7 +72,7 @@ tile.tb.slab.tile.TBoldBricks.name=고대 벽돌 반 블록
 tile.tb.slab.tile.TBoldCobblestoneMossy.name=고대 이끼낀 조약돌 반 블록
 tile.tb.slab.tile.eldritchArk.name=Gold Etched Obsidian Slab
 
-tile.tb.crystalslab..name=Crystal Slab
+tile.tb.crystalslab..name=크리스탈 반블럭
 tile.tb.crystalslab.air.name=Air Crystal Slab
 tile.tb.crystalslab.water.name=Water Crystal Slab
 tile.tb.crystalslab.fire.name=Fire Crystal Slab
@@ -84,11 +84,11 @@ tile.tb.crystalslab.tainted.name=Tainted Crystal Slab
 
 tile.thaumicRelocator.name=Thaumic Relocator
 tile.tb.voidblock.name=Void Metal Block
-tile.thaumicAnvil.name=Thaumium Anvil
+tile.thaumicAnvil.name=사우뮴 모루
 tile.thaumicAnvil.intact.name=사우뮴 모루
 tile.thaumicAnvil.slightlyDamaged.name=Slightly Damaged Thaumium Anvil
 tile.thaumicAnvil.veryDamaged.name=Very Damaged Thaumium Anvil
-tile.voidAnvil.name=Void Metal Anvil
+tile.voidAnvil.name=공허합금 모루
 tile.voidAnvil.intact.name=공허합금 모루
 tile.voidAnvil.slightlyDamaged.name=Slightly Damaged Void Metal Anvil
 tile.voidAnvil.veryDamaged.name=Very Damaged Void Metal Anvil
@@ -263,16 +263,16 @@ tc.research_name.TB.Pyrofluid=Incendium
 tc.research_text.TB.Pyrofluid=Just a quick nether trip
 tb.rec.pyrofluid.page.0=Sometimes a thaumaturge just wants some of that nether essence, the Blaze Powder. However, it is hot and dangerous in the nether, and some thaumaturges might not want to go there. You have discovered a way to get blaze powder without venturing to the nether - infusing a bucket of lava with some Ignis and Praecantatio creates a liquid, that has lost it's ability to spread. It will slowly crystallise while in the world. Once fully crystallised it can then be harvested by bare hands, dropping a random amount of blaze powder. Note, that the liquid is still as dangerous as lava, and you should not swim in it...
 
-tc.research_name.ROD_tbthaumium=Thaumic Wand Rod
+tc.research_name.ROD_tbthaumium=사우믹 완드 막대
 tc.research_text.ROD_tbthaumium=Where magic meets more magic!
 tb.rec.thaumRod.page.0=For a long time thaumaturges haven't though about using thaumium as their wand rod. But you are not just another thaumaturge. You have applied your knowledge to create a wand rod out of Thaumic Metal, otherwise known as Thaumium. However, thaumium seems to be way too inert. An addition of Salis Mundus solves the problem just fine! The wand is pretty nice, holding up to 80 aspects of each type. You might have seen a lightning or two occasionally appearing at the surface of your wand for a mere second, but that is just your imagination, is it?..
 
-tc.research_name.ROD_tbvoid=Void Wand Rod
+tc.research_name.ROD_tbvoid=공허 완드 막대
 tc.research_text.ROD_tbvoid=A dangerous path
 tb.rec.voidRod.page.0=Well, after your journey to the abyssal depths of insanity you have discovered a way to make a very strange metal. You have another strange idea - what if you create a wand rod out of that void metal? You might need to add additional things to it, like make it taint proof by using the tainted Cluster Blocks. The result is a wand, pulsating with power. This might be the most power you could get without adventuring into the darkness once more. Also, it seems to slowly accumulate aspects inside of itself - you wonder what of the components gave you that?..
 
 tc.research_name.TB.Plax=Plax
-tc.research_text.TB.Plax=Magical strings
+tc.research_text.TB.Plax=마법의 실
 tb.rec.plax.page.0=Sometimes a thaumaturge just needs to get him some string - for magical candles or for magical clothes - it does not matter that much what for. And sometimes a thaumaturge just does not want to fight spiders for endless nights or shear sheep for wool to process later. You have applied the knowledge of plants and nature you've just learned to solve the problem for you. The result is a strange crop, named Plax, which will grow on farmland in 8 stages and once fully grown will produce 3 string! It functions just like a regular wheat crop - it also needs light and will only grow on farmland.
 
 tc.research_name.TB.BasicPlants=Thaumic Nature
@@ -302,7 +302,7 @@ tc.research_name.TB.Lucrite=Lucrite
 tc.research_text.TB.Lucrite=Greed is good?
 tb.rec.lucrite.page.0=You have researched the Metalleat further and discovered, that you can create a similar crop by infusing a carrot with Lucrum. The result is a very strange crop. It functions just like the Metalleat, but takes twice as much time to grow. It is also very magic dependant - without strong enough source of magic beneath the soil it grows in it refuses to grow. Those Salis Mundus blocks seem to be just as perfect as possible. It will also accept bonemeal with much slower rate, taking 7 bonemeal to grow. However, should you let it grow and it will grow some Golden Nuggets on it's branches. Since it is a carrot it is also possible to obtain one from the crop.
 
-tc.research_name.TB.Aurelia=Aurelia
+tc.research_name.TB.Aurelia=아우렐리아
 tc.research_text.TB.Aurelia=An elder plant
 tb.rec.aurelia.page.0=Upon your thaumaturgic researches there has always been one aspect, that is extremely annoying to get - Auram. That one has extreme potential in crafting usages, but to get it you either need to break down aura nodes, which is not good, or venture to the depths of the nether to kill wisps, which is no good as well. You, however, using your plant knowledge have discovered a way of getting that aspect without doing any of other ways.
 tb.rec.aurelia.page.1=This plant when exposed to the moonlight will open up it's petals to let the moonlight come in - it seems like the plant feeds of moonlight. However, due to the air of the very world it is only possible during full moon. The plant will occasionally loose it's petals, and they can be gathered from the ground near the flower. Those petals are extremely rich on Auram essentia. However, the plant will only feed from the moon if it has a direct view over it.
@@ -366,10 +366,10 @@ tc.research_text.TB.Tobacco.Sanity=Just what the doctor ordered
 tb.rec.satobacco.page.0=Well, most thaumaturges use different smoking herbs to 'relax'. You do not need that kind of relaxation, no. They are fools, who will soon loose their magic if they continue doing so! However, your mind might need some relaxation from that warp. Sure, just a regular tobacco does the trick, but you can do it better, can you?.. You have created a perfect tobacco, which calms down your nerves and removes temporary warp.
 
 tc.research_name.TB.SilverwoodPipe=Silverwood Smoking Pipe
-tc.research_text.TB.SilverwoodPipe=Purified smoke
+tc.research_text.TB.SilverwoodPipe=정화된 연기
 tb.rec.silverPipe.page.0=Most tobaccos what you have managed to create are safe. Not all of them though. You think, that the only solution here is to get a better pipe. Silverwood can be just perfect for that. It is however not as mundane as the greatwood is and requires much more complex processes than just arcane crafting. The silverwood smoking pipe is a better pipe - it negates most of negative effects on your tobaccos, and once that have no negatives will instead have additional positive effects.
 
-tc.research_name.TB.VoidSeed=Void Seeds
+tc.research_name.TB.VoidSeed=공허의 씨앗
 tc.research_text.TB.VoidSeed=This time for real
 tb.rec.voidSeed.page.0=Those Void Seeds are created by infusing a regular seed with a bunch of Alienis and Tenebrae. However, the seed itself looses the ability to grow - you are over-infusing it. However, it might be possible to bring the seed back to life using the knowledge of plants you've just learned! By infusing a void seed with all kinds of plant life you have managed to return the ability to grow to the poor seed. 
 
@@ -389,7 +389,7 @@ tc.research_name.TB.BloodyRobes=Bloody Thaumaturge's Robes
 tc.research_text.TB.BloodyRobes=Red roses bloom
 tb.rec.bloodyRobes.page.0=You are not quite sure that it is a good idea, but you have found out, that the Bloody Enchanted Fabric does not looses it's properties, and, therefore can be used as an armor material. Strangely enough even though the Fabric had a tiny amount of blood the robes are shining red. Maybe the magic is somehow involved? Anyway you for some reason feel a little bit more powerfull in this bloody robes than in your Thaumaturge's robes. Other thaumaturges have been wondering what are those new shiny robes made of, but you have managed to keep your bloody secret...
 
-tc.research_name.TB.Foci.Drain=Wand Focus: Liquid Drain
+tc.research_name.TB.Foci.Drain=완드 포커스: 액체 흡수
 tc.research_text.TB.Foci.Drain=Parish thee water!
 tb.rec.drainFoci.page.0=Sometimes a Thaumaturge wants to live under the sea, §m next to his pineapple §r in his beautifull water dome. However, building underwater is a huge pain... Until now. This wand foci will resolve the problem! It will destroy blocks of water the thaumaturge is looking at, without making all nearby water blocks flow! In other ways, it is perfect in creating tunnels! However, magic can only harness the water so long, and the water will eventually return to it's normal flowing state. It will also do so should a block be placed next to the not-flowing water block.
 tb.rec.drainFoci.page.1=<LINE>§l       Aquatic Upgrade §r<LINE>Available at level 3, this upgrade will make destroyed water drop Water Crystallized Essentia in 40% cases. With a 10% chance the essence will get poisoned due to magic pollution, otherwise known as flux, resulting in a Venenum aspect.
@@ -401,8 +401,8 @@ tb.rec.expFoci.page.0=The only ways of enchanting for a regular thaumaturge is e
 tb.rec.expFoci.page.1=<LINE>§l     Decomposing Upgrade §r<LINE>Available at levels 3 and 5, this upgrade will allow a thaumaturge to instantly decompose any living entity into experience, based on the creature's current HP. The aspect cost is also based on the creature's HP. Note, that the absorbed creature will still drop the regular drops and experience. <BR>§lLevel II§r decreases the cost for consuming creatures to half.<BR>§lConflicts with the §6Vaporizing§0§l upgrade!§r
 tb.rec.expFoci.page.2=<LINE>§l      Vaporizing Upgrade §r<LINE>Available at levels 3 and 5, this upgrade will make consumed blocks also drop some Crystallized Essentia based on the block's aspects. Drop chance is 50%. Some very essentia-rich blocks will not drop it. <BR>§lLevel II§r increases the chance of obtaining a Crystallized Essentia to 100%<BR>§lConflicts with the §6Decomposing§0§l upgrade!§r
 
-tc.research_name.TB.Foci.Flux=Wand Focus: Flux Scrubber
-tc.research_text.TB.Foci.Flux=A magical broom
+tc.research_name.TB.Foci.Flux=완드 포커스: 플럭스 제거
+tc.research_text.TB.Foci.Flux=마법의 빗자루!
 tb.rec.fluxFoci.page.0=Flux scrubbers are good, but they need to be more... controlled. You wonder if you can stick one on top of your wand... Well, it is not that simple, but definitely possible! This foci will remove the flux blocks a thaumaturge is looking at. yes, it is as simple as that.
 tb.rec.fluxFoci.page.1=<LINE>§l       Warping Upgrade §r<LINE>Available at level 3, this upgrade will warp the mind of the user of the foci, therefore adding some temporary warp every time a flux block is removed.<BR>§lConflicts with the §6Crystallization§0§l upgrade!§r
 tb.rec.fluxFoci.page.2=<LINE>§l       Calming Upgrade §r<LINE>Available at level 5 if the §6Warping§0 upgrade is present, this upgrade negates the effect of the §6Warping§0 upgrade. It will calm the mind of the user of the foci, therefore removing some temporary warp, and some regular warp on occasion every time a flux block is removed.<BR>§lConflicts with the §6Crystallization§0§l upgrade!§r
@@ -534,7 +534,7 @@ tc.research_name.TB.MagicTouch=Magic Touch
 tc.research_text.TB.MagicTouch=Touch them with magic
 tc.research_name.TB.Vaporising=Vaporising
 tc.research_text.TB.Vaporising=Portable Crystalliser
-tc.research_name.TB.Tainted=Tainted
+tc.research_name.TB.Tainted=테인트
 tc.research_text.TB.Tainted=Blight on these lands!
 
 #Messages
@@ -576,7 +576,7 @@ tile.tb.brazier.name=Brazier of Warding
 
 #Items
 item.tb.revolver.name=Thaumaturge's Revolver
-item.tb.bracelet.name=Bracelet
+item.tb.bracelet.name=팔찌
 item.tb.bracelet.iron=Iron Bracelet
 item.tb.bracelet.gold=Gold Bracelet
 item.tb.bracelet.greatwood=Greatwood Bracelet
@@ -606,12 +606,12 @@ revolverUpgrade.SPEED.name=Speed
 revolverUpgrade.EFFICIENCY.name=Efficiency
 revolverUpgrade.ELDRITCH.name=Eldritch
 revolverUpgrade.VOID.name=Void
-revolverUpgrade.KNOWLEDGE.name=Knowledge
+revolverUpgrade.KNOWLEDGE.name=지식
 revolverUpgrade.HEAVY.name=Heavy
 
 #Researches
-tc.research_name.TB.Revolver=Thaumaturge's Arsenal
-tc.research_text.TB.Revolver=The hunt begins
+tc.research_name.TB.Revolver=마도학자의 무기고
+tc.research_text.TB.Revolver=수렵의 시간이다!
 tb.rec.revolver.page.0=Thaumic weapons are good. Especially those where you do not have to get close to your enemies. Thaumaturgy however does not seem to offer much of those. Sure, there is a bow of bone, but... it is a bow. Even though it is enhanced with magic it still requires the wielder to pull the string. One might say - there are wand foci! Sure there are, and they are all great... But are they really weapons? They are put on top of wands and they use the energy of the wand. Well what if the Thaumaturge prefers his sceptres over wands? He... needs to craft another wand, just for those foci? Really? Some foci are also known for not working under certain conditions... Better to say in certain places...
 tb.rec.revolver.page.1=You have been engineering for a while now - this is what you have came with. A pretty strange contraption that is not all that big and is comfort to hold in hand. You have named your contraption "The Revolver". No, you have no idea why.<BR>The device is able to shoot very small yet extremely fast projectiles which deal devastating damage to anything they come in contact with. Due to your weapon having a magical nature those projectiles are also magical - they are created out of raw Telum essentia, stored in a jar inside of the revolver. One point of aspect is enough for just two shots. To open the revolver sneak and left-click anywhere. Sneaking also allows you to aim more precise. Right-click to shoot of course, that should be obvious.
 tb.rec.revolver.page.2=The revolver is also much more potent than it looks - you are sure, that there are TONS of ways to improve it's construction by performing further infusions over it. You still need to discover them though. Some of the improvements might conflict with each other and therefore can't be installed together. It is also worth noticing that most improvements can be applied over and over again, but the stability of the infusion will suffer great penalties for each new level. The aspect cost will also increase for each level of improvement by the amount it originally cost.
@@ -736,7 +736,7 @@ tc.research_name.TB.Bracelet.Quartz=Quartz Bracelets
 tc.research_text.TB.Bracelet.Quartz=Just what you've ordered
 tb.rec.bracelet.quartz.page.0=You have created a bracelet that shares the same functionality as the quartz wand core - it will slowly regenerate ordo vis inside it.
 
-tc.research_name.TB.Bracelet.Bone=Bone Bracelets
+tc.research_name.TB.Bracelet.Bone=뼈 팔찌
 tc.research_text.TB.Bracelet.Bone=The undead bracelet!
 tb.rec.bracelet.bone.page.0=You have created a bracelet that shares the same functionality as the bone wand core - it will slowly regenerate perditio vis inside it.
 
@@ -748,4 +748,4 @@ tb.rec.bracelet.primal.page.0=Using your knowledge of the Staff core of the Prim
 
 #Chat notifications
 tb.txt.linkStarted=Link Started
-tb.txt.linkEstablished=Link Established
+tb.txt.linkEstablished=성공적으로 연결되었습니다.

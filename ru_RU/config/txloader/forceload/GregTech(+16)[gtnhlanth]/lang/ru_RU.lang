@@ -15,6 +15,8 @@ GT5U.gui.text.gtnhlanth.inscoolant=Недостаточно хладагента
 GT5U.gui.text.gtnhlanth.noaccel=Тип частиц не может быть ускорен!
 GT5U.gui.text.gtnhlanth.low_input_eut=Входной EU/t слишком мал для создания фотонов!
 GT5U.gui.text.gtnhlanth.scerror=Математическая ошибка, неверный рецепт?
+GT5U.gui.text.gtnhlanth.wrongparticle=Неверная частица!
+GT5U.gui.text.gtnhlanth.toolowenergy=Энергия ниже требуемого уровня!
 
 # NEI
 value.disstank=Соотношение: %s:1
@@ -151,8 +153,6 @@ beamline.coolusage=Расходуется хладагента
 
 beamline.out_pre=Мультиблочный выход установки для литографии
 
-beamline.particleinput=Входная информация о частицах:
-
 beamline.pipe.desc.0=Транспорт для частиц
 beamline.pipe.desc.1=Сигнал не пересекается и не изгибается
 
@@ -160,11 +160,12 @@ tile.recipe.tc=Приёмник элементарных частиц
 tile.recipe.sc=Источник элементарных частиц
 
 item.particle.name=Частица
-particle.electron=Электрон
-particle.photon=Фотон
-particle.alpha=Альфа частица
-particle.neutron=Нейтрон
-particle.proton=Протон
+particle.Electron=Электрон
+particle.Photon=Фотон
+particle.Alpha=Альфа частица
+particle.Neutron=Нейтрон
+particle.Proton=Протон
+particle.Positron=Позитрон
 GT5U.gui.text.dissolution_ratio=§7Неверное соотношение исходных жидкостей
 
 tooltip.gtnhlanth.particle.rest_mass=Масса покоя: %f MeV
