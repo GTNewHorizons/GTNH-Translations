@@ -175,16 +175,13 @@ class ClientWrapper:
 
     @retry_after_429()
     async def _update_file(self, file_id: int, paratranz_file: ParatranzFile) -> None:
-        try:
-            res = await self.client.post(
-                url=f"projects/{self.project_id}/files/{file_id}",
-                files={"file": paratranz_file.file_to_be_uploaded},
-            )
+        res = await self.client.post(
+            url=f"projects/{self.project_id}/files/{file_id}",
+            files={"file": paratranz_file.file_to_be_uploaded},
+        )
+        if res.status_code != 413:
             self._log_res(f"update_file[file_id={file_id}]", res)
             return
-        except HTTPStatusError as e:
-            if e.response.status_code != 413:
-                raise e
 
         logger.warning(
             "update_file[file_id={}] failed with 413 Payload Too Large; falling back to per-string updates",
