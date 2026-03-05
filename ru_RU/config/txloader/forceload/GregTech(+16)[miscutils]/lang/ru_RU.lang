@@ -4017,9 +4017,9 @@ gtpp.tooltip.tool.mining_speed=Скорость добычи:
 
 gtpp.tooltip.wireless_charger.0=Можно заблокировать владельца ЛКМ+Shift отвёрткой
 gtpp.tooltip.wireless_charger.1=Используйте отвёртку для смены режима.
-gtpp.tooltip.wireless_charger.2=§aДальний режим§7: Может обеспечивать питание 1A для одного игрока на расстоянии до %,dм.
-gtpp.tooltip.wireless_charger.3=§aЛокальный режим§7: Может подавать 2A каждому игроку в пределах %,dм.
-gtpp.tooltip.wireless_charger.4=§aСмешанный режим§7: Может подавать 1A на расстоянии до %,dм и более 1A в пределах %,dм.
+gtpp.tooltip.wireless_charger.2=§aДальний режим§7: Может обеспечивать питание 1A для одного игрока на расстоянии до %s м.
+gtpp.tooltip.wireless_charger.3=§aЛокальный режим§7: Может подавать 2A каждому игроку в пределах %s м.
+gtpp.tooltip.wireless_charger.4=§aСмешанный режим§7: Может подавать 1A на расстоянии до %s м и более 1A в пределах %s м.
 
 #gtpp info data
 gtpp.infodata.tesseract_generator.name=Тессеракт генератор
@@ -4054,14 +4054,14 @@ gtpp.infodata.tiered_chest.name=Super Storage Chest
 gtpp.infodata.tiered_tank.name=%s Fluid Tank
 gtpp.tiered_tank.desc.capacity=Stores %s of fluid
 gtpp.tiered_tank.desc.portable=A portable tank.
-gtpp.tiered_tank.desc.fluid=Fluid: %s %s L
-gtpp.tiered_tank.tooltip.contains=Contains Fluid: 
-gtpp.tiered_tank.tooltip.amount=Fluid Amount: %s L
-gtpp.infodata.tiered_tank.name=%s Жидкостный резервуар
-gtpp.tiered_tank.infodata.amount=%s L
-gtpp.tiered_tank.infodata.capacity=%s L
-GT5U.infodata.digital_tank.stored_fluid=Stored Fluid
-GT5U.infodata.digital_tank.stored_fluid.empty=Empty
+gtpp.tiered_tank.desc.fluid=Жидкость: %s %s Л
+gtpp.tiered_tank.tooltip.contains=Содержит жидкость: 
+gtpp.tiered_tank.tooltip.amount=Количество жидкости: %s Л
+gtpp.infodata.tiered_tank.name=%s Резервуар
+gtpp.tiered_tank.infodata.amount=%s Л
+gtpp.tiered_tank.infodata.capacity=%s Л
+GT5U.infodata.digital_tank.stored_fluid=Хранящаяся жидкость
+GT5U.infodata.digital_tank.stored_fluid.empty=Пусто
 
 # GUI
 gtpp.gui.text.time_since_built=Общее время с момента постройки
@@ -4101,5 +4101,5 @@ gtpp.chat.wireless_charger.mode.mixed=Смешанный
 gtpp.chat.wireless_charger.range=Дальность
 gtpp.chat.wireless_charger.lock=Locked to owner
 gtpp.chat.wireless_charger.unlock=Разблокировано
-gtpp.chat.wireless_charger.enter=Вы вошли в радиус зарядки. [%,dм - %s]
-gtpp.chat.wireless_charger.leave=Вы покинули радиус зарядки. [%,dm - %s]
+gtpp.chat.wireless_charger.enter=Вы вошли в радиус зарядки. [%s м - %s]
+gtpp.chat.wireless_charger.leave=Вы покинули радиус зарядки. [%s м - %s]
