@@ -1179,7 +1179,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADRA.desc=Die Diode benötigt Galliumarse
 
 # Quest: Handle Tiny Piles Like a K1ng
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADRw.name=§2§lWinzige Haufen handhaben
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADRw.desc=Magst du es auch nicht, all diese winzigen Haufen manuell zu komprimieren? Dann zeige ich dir, wie du das automatisieren kannst. Eine Kombination aus Typfilter, Truhenpuffer (oder Superpuffer im HV) und Verpacker erspart dir diese lästige Arbeit. Der Truhenpuffer kann bis zu 9 Stapel winziger Häufchen aufnehmen und der Superpuffer sogar 256 Stapel winziger Stäube – mehr als genug. Du kannst seinen Modus mit einem Schraubendreher an der Ausgabeseite einstellen. Stelle ihn auf 9, damit er jeweils 9 winzige Häufchen exportiert, die dann vom Verpacker zu normalen Stäuben komprimiert werden. Superpuffer können Lag-Quellen sein, also achte darauf, sie möglichst leer zu halten. Wenn du einen Multiblock-Verpacker verwendest, stelle sicher, dass du den Puffer von Vorratsmodus auf Übertragungsgrößenmodus umstellst.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADRw.desc=Magst du es auch nicht, all diese winzigen Haufen manuell zu komprimieren? Dann zeige ich dir, wie du das automatisieren kannst. Eine Kombination aus Typfilter, Truhenpuffer (oder Superpuffer im HV) und Verpacker erspart dir diese lästige Arbeit. Der Truhenpuffer kann bis zu 9 Stapel winziger Häufchen aufnehmen und der Superpuffer sogar 256 Stapel winziger Stäube – mehr als genug. Du kannst seinen Modus mit einem Schraubendreher an der Ausgabeseite einstellen. Stelle ihn auf 9, damit er jeweils 9 winzige Häufchen exportiert, die dann vom Verpacker zu normalen Stäuben komprimiert %n%n[note]Wenn du sie freischaltest, können Superspuffer zu Verzögerungen führen, also pass auf, dass sie möglichst leer bleiben. Wenn du einen Multiblock-Verpacker benutzt, stell den Puffer unbedingt vom Vorratsmodus auf den Übertragungsgrößenmodus um.[/note]
 
 # Quest: Butane and Propane
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADSA.name=§a§lButan und Propan
@@ -2870,7 +2870,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnQ.name=§9§l2-Nitrochlorbenzol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnQ.desc=Der nächste Schritt ist, die Nitriermischung mit deinem Chlorbenzol in dem HV-Chemischen Reaktor zu mischen, um 2-Nitrochlorbenzol zu erhalten.
 
 # Quest: 3,3 Dichlorobenzidine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGng.name=§9§l3,3-Dichlorbenzidin
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGng.name=§9§l3,3-Dichlorobenzidin
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGng.desc=Das Mischen von 2-Nitrochlorbenzol mit Kupferstaub ergibt 3,3-Dichlorbenzidin in einem EV-Chemischen Reaktor.
 
 # Quest: 3,3 Diaminobenzidine
@@ -4715,8 +4715,8 @@ betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for th
 
 
 ## Quest Line: Fishing, Farming, Cooking
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAACg.name=Angeln, Ackerbau, Kochen
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAACg.desc=Fange es, züchte es, esse es!
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAACg.name=Sich selbst ernähren
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAACg.desc=Keine Sorge. Papa-G wird das reparieren.
 
 # Quest: Weeds II
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0A.name=Weeds II
@@ -4728,7 +4728,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0Q.desc=You have a lot of unknown seeds
 
 # Quest: Speed Up Your Plant Growth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.name=Beschleunige Dein Pflanzenwachstum
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.desc=Um den Wachstumsprozess etwas zu beschleunigen, kannst du einen Dünger verwenden. Du wirst jedoch feststellen, dass Knochenmehl nicht mehr funktioniert. Ein bisschen Asche, Apatit oder Calcit, gemischt mit etwas Wasser in einem Chemischen Reaktor, wird dir den Dünger geben, den du benötigst. Von Hand anwenden.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0g.desc=Düngemittel sind eine wichtige Ressource für Produktion und Konsum. Sie haben zwei wesentliche Eigenschaften:
 
 # Quest: Potatoes, Carrots, Pumpkins and Melons
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC0w.name=Potatoes, Carrots, Pumpkins and Melons
@@ -4739,8 +4739,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1A.name=Weeds
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1A.desc=Weeds will show up from time to time on empty or double crop sticks. They will spread from there and take over all your precious crops, so harvest the weed with your weed trowel before you start desiring to reload the last backup. Later you can make some Weed-EX to prevent them from appearing (until it runs out).
 
 # Quest: Flower Power
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.name=Kraft der Blumen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.desc=Farbstoffe auf Anbaustäben anbauen? Versuche, ein paar Blumen zu pflanzen. Wenn du Rosen und Löwenzahn kreuzt, bekommst du vielleicht eine neue Blume und neue Farbstoffe mit anderen Farben.%n%nDu wirst 4 Minecraft-Blumen pflanzen müssen, um sie auf einen Anbaustab zu bekommen. Sie wachsen auch nicht, wenn sie nicht in hellem Licht stehen.%n%nUm Rosensamen zu bekommen, platziere Mohn. Ehrlich gesagt gibt es aber auch mehrere Blumen, die du verwenden kannst.%n%n[note]Wenn du diese tatsächlich für Farbstoff haben willst, stelle stattdessen den Regenbogenkaktus her.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.name=Florist werden
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC1Q.desc=Zeit, deinen inneren Floristen zu wecken, diese Blumen schön zu arrangieren, und sie werden dir helfen, nützlichere Spezies zu züchten!
 
 # Quest: Hunger No More
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWA.name=Kein Hunger Mehr
@@ -4823,8 +4823,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-w.name=Falscher Jägermeister
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-w.desc=Jägermeister ist eines der gängigen Getränke in Deutschland. Warum schnappst du dir nicht eine Flasche? Dieser hier scheint allerdings eine billige Fälschung zu sein...
 
 # Quest: Time for a Spade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.name=Zeit für einen Spaten
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.desc=Dieser Gegenstand ist eine kombinierte Unkrautkelle, Hacke und Schaufel. Wenn du der Typ bist, der versehentlich Dinge tut, benutze dies nur bei Bedarf, da es einfach ist, alles zu vermasseln und es zu benutzen, um deine Pflanzen zu ernten/zerstören, wenn du eigentlich nur ein Unkraut loswerden wolltest.%n%nDu kannst es verwenden, um Samen von Pflanzen zu erhalten, wenn sie §9unreif§r sind, indem du §6Rechtsklick§r mit sehr geringer Rate verwendest. Die Verwendung von [warn]Linksklick[/warn] bei §9unreifen§r Pflanzen wird zu nichts führen.%n%nWenn sie §areif§r ist, verwende §6Linksklick§r, um eine höhere Chance zu haben, dass ein Samen fällt. Die Verwendung von [warn]Rechtsklick[/warn] bei §areifen§r Pflanzen wird zu geringeren Samen-Drops führen, als wenn du sie normal schlägst.%n%nBedenke, dass je höher die Stufe/Werte der Pflanze, desto geringer die Chancen. Und zwar um einiges.%n%n[note]Die Formel ist 1+tanh((-1)(X+5((-Wi/2)+Wa+Er)/21)/12); X=0 bis 16, wobei Wi, Wa, Er jeweils die Widerstands-, Wachstums- und Ertragswerte der Pflanze sind und X die Stufe ist. Frag mich nicht, ob das für L/R-Klick ist, frag Bart oder schau dir den Code an.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.name=Handwerkszeug 1 - Weniger dreckige Hände
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE9g.desc=Das ist ein Ding, das Spaten, Hacke und Schaufel in einem ist. Mit dem einfachen Spaten kannst du ganz einfach Unkraut von deinen Stöcken entfernen, Erde umgraben und vielleicht sogar Bonus-Samen bekommen, indem du einfach die Pflanzen erntest (Rechtsklick), ohne sie kaputt zu machen. Jeder Widerstandspunkt erhöht die Chance, beim Ernten mit dem einfachen Spaten einen Samen zu bekommen, wie folgt:
 
 # Quest: Juice
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPg.name=Saft
@@ -4884,7 +4884,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFBA.desc=Riesenwespen können im Nether 
 
 # Quest: Hops, the Source of Beer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.name=Hopfen, die Quelle des Bieres
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.desc=Wenn du keinen reinen Alkohol, sondern Bier willst, besorge dir etwas Hopfen, indem du IC2-Pflanzen kreuzt.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFCA.desc=Wenn du keinen reinen Alkohol, sondern Bier willst, dann baue Nutzpflanzen an!
 
 # Quest: Really OP Food
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyw.name=Ziemliches OP Essen
@@ -4907,16 +4907,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBQ.name=Analyze Your Crops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBQ.desc=The cropnalyzer is a powered tool used to analyze IC2 crop seedbags. Charge it by placing it in an MV machine; it is recommended to also place an MV battery in it to keep it fully charged. To fully analyze a seed bag, you will need to put it through the cropnalyzer four times. If the crop is already planted, it is better to analyze it with the portable scanner instead of breaking it just to scan it - you have a chance of losing the seed every time you break it.%n%nThe cropnalyzer also has a feature called the IC2 Crop Calculator, where you can find the mix of outputs of breeding together any crops. To access the calculator, hit the IC2 side inventory key while holding the cropnalyzer. You can select any crops available and discover what plants have decent percentages of a result. And no, you can't do the reverse, search for the crops.zip on discord for that (it doesn't have micadia though).%n%nYou can choose up to four crops to breed together. Then click "process" and the bottom row will show the possible crossbreeding outputs, and their weights. You can use the + and - gui buttons to scroll through the row(s) of crops. You can also use a button in the GUI to sort the rows by tier or weight. You can invert the sorting by hitting the sorting button while holding shift.%n%nWhen trying to get a specific crop, you generally want to maximize its percentage. Do this by breeding 2-4 of the same plant together (more is faster). There is no advantage to crossing plant types, it just reduces the %% chance of getting what you want, contrary to what you might think.%n%nUse the crops guide at [url]https://wiki.gtnewhorizons.com/wiki/IC2_Crops_List[/url] for more details.%n%nA large field of stickreeds has a good chance at making lots of valuable crosses. This is because it's decently high tier (they randomly mutate to tiers nearby mostly), and it's really fast, so you can get it to a high stat fast, which you should probably do first. Mutations are random, you can get transformium from stickreed, so keep that in mind. You do tend to get similar crops, so if you want metals, get the metal crops for example. Go to the wiki or spreadsheet (not up to date) to see the attributes that govern similarity.
 
 # Quest: Crop Automation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=Feldfrucht Automatisierung
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.name=Babys erste Ernte-Automat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBg.desc=Der Pflanzenverwalter ist eine LV-Maschine, die Pflanzen in einem 11x5x11-Bereich überwacht und automatisch Dünger, Weed-EX und Wasser nach Bedarf anwendet. Wasser kann direkt hineingepumpt oder IC2-Universal Wasser-Zellen verwendet werden, normale Zellen werden nicht zurückgegeben, wenn sie verwendet werden.%n%nDer Pflanzenverwalter ist NICHT regensicher, aber du kannst ihn problemlos mit einem Wasserquellenblock abdecken!%n%nAckerboden benötigt immer noch einen nahegelegenen Wasserblock, um hydriert zu werden, da der Verwalter nur die Pflanze, nicht den Boden, bewässert. Versuche, ein Seerosenblatt darauf zu legen, damit es nicht nervig ist, darauf zu laufen, oder verwende stattdessen Gartenerde.
 
 # Quest: Weed Ex
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.name=Weed-Ex
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX wird verwendet, um das Wachstum von Unkraut auf leeren Pflanzenblöcken auf Kosten von etwas Weed-EX zu verhindern. Der Schaden an der Qualität der Pflanze ist illusorisch und nicht echt. Wir haben Leute, die sich den Code angesehen haben, wir versichern es dir. Es sei denn, es zählt als Unkraut (Venomilia Wa 8+, jede andere Pflanze Wa 24+), dann verliert es vielleicht 1 Wert. Vielleicht. Und du kannst ihn auch einfach wieder erhöhen. Und es tritt vielleicht nicht einmal dann in Kraft, wenn du nicht zu viel anwendest, wie es ein Pflanzenautomat nicht tun wird.%n%nVerwendung:%nHalte Weed-Ex und rechts-klicke auf eine Pflanze, um es anzuwenden. Es kann auch in einem Pflanzenverwalter platziert werden, um es automatisch auf deine Pflanzen anzuwenden.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBw.desc=Weed-EX wird verwendet, um das Wachstum von Unkraut auf leeren Pflanzenblöcken auf Kosten von etwas Weed-EX zu verhindern. %n%nEs kann auch in einem Pflanzenverwalter platziert werden, um es automatisch auf deine Pflanzen anzuwenden.
 
 # Quest: Reed and Resin
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.name=Schilf und Harz
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.desc=Eines der ersten nützlichen Gewächse, die du bekommen wirst, ist Stiel-Schilf. Es wächst schnell und kann Klebriges Harz und Zuckerrohr (vor voller Reife ernten) produzieren. Es eignet sich auch hervorragend zum Kreuzen mit anderen Gewächsen, um deren Werte zu erhöhen. Eine der besten Strategien ist es, diese auf etwa 20/31/10 zu bringen und dann von dort aus weiter zu züchten. Die meisten Leute werden 23/31/10 sagen, aber 24+ verhalten sich wie Unkraut, also ist es besser, etwas Spielraum zu haben.%n%nIch tausche dir etwas Dünger für 2 Stapel von jedem.%n%n[note]PS, du brauchst keine Kautschukbäume mehr, wenn du diese bekommen kannst.[/note]%n%n[note]Du wirst jedoch einen Grundlegenden Scanner benötigen, um deine Stiel-Schilf-Samen zu scannen, sobald du sie hast, obwohl jeder Satz von Werten funktionieren wird. Siehe die Quest in LV, und beachte, dass sie MV-Schaltkreise benötigt.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.name=Klebriger Zuckerrohr
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQA.desc=Zuckerrohr ist schon ziemlich nützlich, aber sein enger Verwandter, der Klebrige Zuckerrohr, ist noch viel besser! Weil er klebriges Harz macht, wird er fast überall für die Herstellung von Gummi in allen möglichen elektronischen Geräten verwendet.
 
 # Quest: Metals From the Earth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQQ.name=Metals From the Earth
@@ -4927,20 +4927,20 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQg.name=Water, Water, Everywhere
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQg.desc=Even though you have to plant crops near the water, they don't actually get any hydration unless you apply water manually. Make a hydration cell and use it on your crops to increase their growth speed.%n%nYou can recycle empty cells in an extractor.
 
 # Quest: Feeling a Little Like a Noob...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.name=Das Gefühl, ein Kleiner Anfänger zu sein...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.desc=So könntest du für mich ein paar Essenzbeeren anbauen, damit ich hochleveln kann? Du kannst die pflanzen, die du von den Büschen bekommst, oder einige züchten.%n%nAls Belohnung gebe ich dir einen albernen Samen, den ein Freund von mir sich ausgedacht hat. Er wird dich definitiv auf Trab halten.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.name=Fühlst du dich ein bisschen wie ein Neuling?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGQw.desc=Du solltest ein paar Essenzbeeren anbauen, um im Level aufzusteigen!
 
 # Quest: Put the Petal to the Metal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.name=Trete aufs Pedal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.desc=... mit dem Biodiesel, den du aus Canola herstellst!%n%nDu kannst versuchen, ihn aus Löwenzahn, Kakao, Kartoffeln oder Zitronen zu gewinnen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.name=Trete aufs Pedal...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.desc=... mit dem Biodiesel, den du aus Canola herstellst!%n%nAuch wenn manche Canola immer noch nur als den kleinen Bruder des Goldfischs sehen, findest du vielleicht was Besseres hinter seiner öligen Fassade.
 
 # Quest: Better Than Milk
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.name=Besser Als Milch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.desc=Ich habe mich in letzter Zeit nicht gut gefühlt. Würdest du mir etwas Terrawart anbauen? Sie sind besser als Milch, da sie nur negative Effekte entfernen und bis zu 64 stapelbar sind. Wirklich toll, wenn man gegen diesen höllischen Alchemisten kämpft!%n%nSie haben auch Auram x8-, Praecantatio x4- und Victus x4-Essenz an sich, sehr nützlich für den angehenden Thaumaturgen. Und du kannst sie bekommen, indem du einen Schneeblock unter deine Netherwarzen platzierst und wartest, anstatt zu mutieren, um sie zu erhalten.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.name=Warzen!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.desc=Mir geht's in letzter Zeit nicht so gut. Könntest du mir ein paar Terra-Warzen anbauen? Die sind besser als Milch, weil sie nur negative Effekte wegmachen und bis zu 64 mal stapelbar sind. Echt praktisch, wenn man gegen diesen Alchemisten-Infernal kämpft! Oder Super-Tanks bewegt.%n
 
 # Quest: Sweet Tooth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.name=Naschkatzen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.desc=Zuckerrohr oder Schilf kommen mit deinem Zuckerbedarf nicht hinterher? Zuckerrüben geben 8 Zucker pro Rübe. Kartoffeln oder Karotten sollten dir leicht Zuckerrüben geben.%n%nHmm, jetzt will ich Süßigkeiten. Gib mir etwas Zucker aus deinen Rüben. Ich werde etwas mit dir teilen.%n%n[note]Elektrolysiere den Zucker zu Sauerstoff für eine einfache Quelle.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.desc=Zuckerrohr kommt mit deinem Zuckerbedarf nicht hinterher? Zuckerrüben geben 8 Zucker pro Rübe.%n%nHmm, jetzt will ich Süßigkeiten. Gib mir etwas Zucker aus deinen Rüben. Ich werde etwas mit dir teilen.%n%n[note]Elektrolysiere den Zucker zu Sauerstoff für eine einfache Quelle.[/note]
 
 # Quest: More Useful IC2 Crops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRw.name=More Useful IC2 Crops
@@ -4948,15 +4948,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRw.desc=Once you get into crops, consid
 
 # Quest: More Red, Less Wheat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.name=Mehr Rot, Weniger Weizen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.desc=Wenn du Pflanzen für eine Ausgangspflanze züchtest, versuche, Pflanzen zu bekommen, die in der Stufe nahe an der Ausgangspflanze liegen und ähnliche Attribute wie die Ausgangspflanze haben.%n%nZum Beispiel hat Rotweizen die Attribute "Rot", "Weizen" und "Redstone" und ist Stufe 6. Netherwarze hat "Rot" und ist Stufe 5. Verwende den Feldfrüchteanalyser im Pflanzen-Vorhersagemodus, um zu sehen, wie viele Punkte Rotweizen hat, wenn du zwei Netherwarzen verwendest.%n%nDu wirst auch sicherstellen wollen, dass das Lichtlevel zwischen 5-10 liegt, damit diese spezielle Kreuzung stattfinden kann. Ehrlich gesagt, ist es die schlechteste, was die Bedingungen angeht.%n%nAber wirklich, sobald du MV erreichst, ist es besser, eine Leuchtstein-Pflanze zu machen und sie für Redstone zu zentrifugieren. Oder eine Redstoneblock-Pflanze. Oder es einfach abzubauen, ehrlich gesagt. Rotweizen == Totes Weizen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.desc=Einfach, locker, Redstone-Girl.
 
 # Quest: Turning Dirt into proper Soil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.name=Turning Dirt into proper Soil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAQ.desc=With an Assembler and some Seed Oil, you can turn Dirt and Sand into Garden Soil. This optimal Soil does not require nearby water, and Crops won't break when you fall on or run near it.%n%nHowever, unlike watered Farmland, it doesn't contribute to the humidity stat or speed up IC2 crops, so it's not useful for min-maxing.%n%nThe same goes for Enchanted Earth, the Lamp of Growth, Sprinklers, etc.
 
 # Quest: Crop Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.name=Pflanzenwerte
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=Mit dem Tragbaren Scanner kannst du die Werte und Umweltinformationen der Pflanze erhalten, während sie sich noch im Boden befindet, indem du rechts-klickst. Sie bleibt auch gescannt, nachdem du den Samen bekommen hast. Suche nach der Tragebaren Scanner-Quest nach dem EHO in Multiblock-Ziele. Zu diesen Werten:%n%n§aWachstum§r:%nWie schnell sie wächst, wobei höher = schneller ist. Konkret erhöht es die Wachstumspunkte, die deine Pflanze pro Wachstums-Tick erhält. Wenn es 24+ erreicht, verhält sich deine Pflanze wie ein Unkraut, weshalb die meisten Leute sagen, du sollst bei 23 oder weniger bleiben. Sie wird jedoch nur unter bestimmten Bedingungen andere Pflanzen überwuchern.%n%n1) Ist in einer Himmelsrichtung auf der gleichen Y-Ebene. 2) Wirkt sich nur auf Erde/Gras oder Pflanzstäbe oder Pflanzen aus 3) Wenn dort eine Pflanze ist, die §oauch§r ein Unkraut ist, und sie einen Reifegrad > 1 hat, wird es §osie nicht beeinflussen§r 4) Wenn es die Pflanze beeinflusst, wird sie durch ein normales Unkraut ersetzt%n%n§9Ertrag§r:%nBeeinflusst die Chancen, wie viele Drops du bekommst, und ob du überhaupt welche bekommst. 31 ist auf jeden Fall das Beste.%n%n§eWiderstand§r:%nDieser Wert ist für ein paar Eigenschaften der Pflanzen verantwortlich: Chancen, einen Samen zu bekommen, wenn man die Pflanze schlägt, Widerstand deiner Pflanze gegen Vertrampeln (darauf springen), verringert die Chance, dass die Pflanze aufgrund von fehlenden Umweltwerten stirbt, und Widerstand der Pflanze gegen Unkrautausbreitung. Er verringert auch die Mutationschance, wenn er steigt (anscheinend). Strebe für eine Balance etwa 10 an.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.name=Handwerkszeug 5 - Elektronisches Scannen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=Mit dem tragbaren Scanner kannst du die Werte der Nutzpflnze und Umweltinfos checken, indem du mit der rechten Maustaste draufklickst. Er bleibt auch nach dem Sammeln der Samen gescannt. Such nach der Quest für den tragbaren Scanner nach dem EBF in den Multiblock-Zielen.
 
 # Quest: Metals From the Sky
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAw.name=Metals From the Sky
@@ -4964,19 +4964,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAw.desc=You can even create metals not 
 
 # Quest: New Threads
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.name=Neue Fäden
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.desc=Hast du es satt, Spinnen für Fäden zu töten? Baue etwas Lein an, um eine einfache, nicht beißende Quelle für Fäden zu haben.%n%nMit etwas Corium in der nächsten Quest kannst du leicht Gegerbtes Leder erhalten.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.desc=Hast du es satt, Spinnen für Fäden zu töten? Zieh einfach etwas Flachs an, um eine einfache Quelle für nicht beißende Fäden zu haben, füge etwas Baumwolle hinzu, verwebe beides und schon hast du fast gegerbtes Leder! Jetzt brauchst du nur noch etwas Corium...
 
 # Quest: The Ground is Crying
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.name=Der Boden Weint
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.desc=Du benötigst eine alternative Quelle für Chlor? Züchte einige Tränenranken, um Ghasttränen für die Herstellung von Salzwasser zu erhalten.%n%n;-;%n%nNetherwarzen sollten Tränenranken ergeben.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBg.desc=Du benötigst eine alternative Quelle für Chlor? Züchte einige Tränenranken, um Ghasttränen für die Herstellung von Salzwasser zu erhalten.%n%n;-;
 
 # Quest: Blazes Too Hard to Kill?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.name=Lohen Zu Schwer zu Töten?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.desc=Dann züchte etwas Lohen-Schilf, um dir die Mühe zu ersparen.%n%nTränenranken sollten leicht Lohen-Schilf ergeben.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBw.desc=Dann züchte etwas Lohen-Schilf, um dir die Mühe zu ersparen.
 
 # Quest: A Girl's Best Friend
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.name=Eines Mädchens Bester Freund
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.desc=Musst du eine Frau beeindrucken? Wie wäre es, wenn du Diamanten auf Schilf anbaust?!?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.name=Ein Antrag?!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCA.desc=Musst du eine Frau oder einen Mann beeindrucken? Wie wäre es, wenn du Diamanten auf Schilf anbaust...
 
 # Quest: Why Does My Plant Bawk Like a Chicken?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCQ.name=Warum Gackert Meine Pflanze Wie Ein Huhn?
@@ -4987,8 +4987,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCg.name=Vegan, But Still Want to Eat Me
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCg.desc=Instead of killing animals, just mutate some crazy GMOs into making animal products for you. Science!
 
 # Quest: Magic Metal Berry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.name=Magische Metall-Beere
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.desc=... ist offensichtlich der Name meiner Cover-Band. Aber auch eine großartige Pflanze für Thaumium oder Void-Metalle. Benötigt einen Block aus Eisen oder Thaumium, um Thaumium zu erhalten, und einen Void-Metall-Block, um Void-Metall zu erhalten. Wie andere Erzbeeren wächst sie nur bei schwachem Licht. Jede Erzbeere sollte eine gute Chance haben, dies zu ergeben.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.name=Leere-Metall-Beere
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHCw.desc=Wie kleine schwarze Löcher.%n%nVersuch nicht, sie zu essen, sonst wirst du nie wieder satt.
 
 # Quest: Other Magic Flowers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDA.name=Other Magic Flowers
@@ -4999,20 +4999,20 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.name=Stonelillies
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDQ.desc=Stone lillies allow you to get dusts without having to look for granites, basalt, or marble. A great renewable way to get calcite, fluorine, or bulk aluminium (and a tiny bit of uranium).%n%nThese require the original block directly beneath them to grow properly.%n%nThere is also a Grey stonelilly for stone dust (who needs more of that??) and a Yellow stonelilly for sand or Endstone dust. Handy for the clever chemist!
 
 # Quest: Growing some Glowstone
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=Etwas Leuchtstein Anbauen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.desc=Es gibt ein paar verschiedene Leuchtstein-Pflanzen – Leuchtblume, Leuchtende Erdkoralle und Leuchtpilze. Netherwarzen sind eine großartige Quelle dafür.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.name=Positiv strahlend
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDg.desc=Es gibt verschiedene Möglichkeiten, dieses wundersame Material namens Leuchtsteinstaub herzustellen. Such dir einfach eine aus. %n%nEgal, für welche Methode du dich entscheidest, durch die Massenzentrifugierung von Leuchtsteinstaub kannst du passiv eine Reihe nützlicher Materialien herstellen.
 
 # Quest: Leaves of Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDw.name=Leaves of Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHDw.desc=Well, steel leaves anyways. Instead of grinding Twilight Forest for steel leaves, grow a crop in peace.
 
 # Quest: Plants That Make Their Own Fertilizer?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.name=Pflanze Die Ihren Eigenen Dünger Produzieren?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.desc=Hier geht's los! Diese Pflanze wird Düngemittel-Zutaten für dich herstellen.%n%nDie besten Pflanzen für die Kreuzung, um Fertilia zu erhalten, sind Zompflanz, Venomilia, Trollpflanz oder Spinnenbiss. Pass aber auf die Venomilia auf; sie ist nicht nur giftig, sondern verhält sich ab Wuchs 8+ auch wie ein Unkraut!%n%nVerwende den IC2-Dünger und das Apatit, das sie abwirft, um Forestry-Dünger herzustellen, wenn du die Multifarm verwendest.%n%n[note]Übrigens ist dies die seltenste Pflanze mit einer Chance von 0,76 % selbst bei Zompflanz, erwarte also, dass es etwa 3 Ewigkeiten dauern wird.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.name=Deckfrüchte? Wer braucht die schon?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEA.desc=Diese Pflanze kann ihren eigenen Dünger machen! Zusammen mit anderen Nebenprodukten ist sie damit eine der besten Pflanzen, um frühzeitig mit dem Aufbau von Werten zu beginnen. Sobald du unendlich viel Dünger hast, wird das Züchten für Werte viel einfacher.
 
 # Quest: Renewable Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.name=Erneuerbares Öl
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.desc=Öl aus Pflanzen? Macht genauso viel Sinn wie Öl aus Bienen!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.name=Erneuerbares Öl - Keine Diagenese nötig
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.desc=Öl aus Pflanzen? Macht genauso viel Sinn wie Öl aus Bienen!%n%nWenn du vor dem MV-Züchter nach passivem Öl suchst, gibt es noch eine andere Pflanze, die helfen kann, aber sie ist §oviel§r langsamer.
 
 # Quest: Kitchenware 2.0
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLA.name=Küchengeschirr 2.0
@@ -5031,19 +5031,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.name=Kein Huhn Wird Entkommen!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHQQ.desc=Magst du Pasteten? Ich auf jeden Fall! Es gibt viele Sorten, die du herstellen kannst. Die Chicken Pot Pie ist eine der einfachsten. Einfach ein Hühnchen, eine Kartoffel, eine Karotte und etwas Teig. Die Obstkuchen sind etwas simpler, stellen daher nicht ganz so viel Sättigung wieder her, eignen sich aber hervorragend, um den Magen zu füllen, während du auf die besten Gerichte wartest, bis ihre Wirkung nachlässt.
 
 # Quest: You Can't Tell Them Apart Either?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.name=Du Kannst Sie Auch Nicht auseinanderhalten?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.desc=Viele Pflanzen sehen gleich aus. Eines Tages wirst du in der Lage sein, eine Maschine zu benutzen, um sie zu unterscheiden + mehr, aber im Moment kannst du eine einfache Pflanzenlinse herstellen, um zumindest die Arten zu identifizieren.%n%nNachdem du sie benutzt hast, kannst du Folgendes erkennen:%nSpezies%nPflanzen-Stufe%nOb sie wachsen kann (einige Pflanzen haben spezielle Anforderungen)%nOb du sie ernten kannst%nWachstumsstadium und Fortschritt zum nächsten
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.name=Handwerkszeug 2 - Mendelsche Identifikation
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.desc=Wenn du neue Nutzpflanzen züchtest, wirst du auf hunderte verschiedene Spezies stoßen! Jede Spezies hat eine einzigartige Textur, die ein erfahrener Feldarbeiter unterscheiden kann, aber dieses Werkzeug macht dir die Sache viel schneller klar. %n%nNach der Verwendung kannst du Folgendes erkennen:%n- Spezies%n- Statistiken%n- Pflanzenstufe%n- Ob sie wachsen kann (viele Pflanzen haben spezielle Anforderungen)%n- Ob du sie ernten kannst%n- Wachstumsstadium und Fortschritt zur nächsten Stufe
 
 # Quest: Coal...From Withereed?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.name=Kohle...Von Wither-Schilf?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.desc=Wither-Schilf ist eine Quelle für Kohle und, was noch wichtiger ist, eine gute Zuchtsorte für höhere Stufen.%n%nDu wirst Kohleblöcke darunter brauchen, damit sie vollständig reift.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.name=Wither-Schädel im einfachen Stil
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.desc=Wither-Schilf ist eine seltene Spezies, die Kohle macht, aber manchmal auch voll geformte Wither-Schädel!
 
 # Quest: Son of Odin One-Eye
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.name=Sohn von Odin Einäugig
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.desc=Die Ernte der Gott des Donners-Pflanze ermöglicht es dir, dein Thorium-Erz aus dem Nether auf das Vierfache zu steigern. Sie gibt dir auch Uran, das du für Reactoria-Pflanzen verwenden kannst.
 
 # Quest: Just Cover Your Privates When You Walk By
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.name=Bedeck Nur Deine Genitalien, Wenn Du Vorbeigehst
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.name=Reactoria
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.desc=Reactoria-Pflanzen lassen Reactoria-Blätter fallen, die dein Pechblende-Erz vervierfachen.
 
 # Quest: Ironwood is Better Than Normal Wood
@@ -5055,16 +5055,16 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.name=Veganes Leder?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.desc=Wenn du deine Kühe und Pferde für Milch und ...Kleber... behalten willst, kannst du stattdessen Corium verwenden, um Leder herzustellen.
 
 # Quest: Gunpowder? More Like Dirtpowder!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.name=Schwarzpulver? Eher Schmutzpulver!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.desc=Creepergras kann deinen Schwarzpulverbedarf decken, ohne dass du dich mit lästigen Explosionen auseinandersetzen musst. Es hat auch ziemlich viele Eigenschaften, was es zu einer guten Quelle für zufällige Pflanzen macht.%n%nCorium kann sich zu Creepergras züchten.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.name=Explosives Wachstum
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.desc=Creepergras kann deinen Schwarzpulverbedarf decken, ohne dass du dich mit lästigen Explosionen auseinandersetzen musst.
 
 # Quest: Milk of the Earth-Mother
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.name=Milch der Mutter Erde
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.desc=Milchwarzen bedeutet, dass du alle deine Kühe loswerden kannst. Ist das nicht schön?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.name=Pflanzliche Milch
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.desc=Hafermilch? Nö.
 
 # Quest: Better Put On That Rubber Suit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.name=Zieh Dir Besser Den Gummianzug An
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.desc=Trollpflanze! Was macht sie? Sie trollt dich!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.desc=Trollpflanze! Was macht sie? Sie trollt dich!%n%n%nUnd gibt dir Krebs.
 
 # Quest: Who the Hell is Bob?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.name=Wer zur Hölle ist Bob?
@@ -5080,19 +5080,19 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2A.desc=Metal oreberries are a great so
 
 # Quest: Deep Blue Sea of Sapphires
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.name=Tiefblaues Meer aus Saphiren
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.desc=Saphire sind ziemlich einfach aus Kupfer-Erzbeeren zu bekommen. Du wirst einen Saphir-Block darunter benötigen, damit sie reif werden. Sie sind eine gute Quelle für Aluminium und Sauerstoff in LV.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.desc=Du brauchst einen Saphirblock unter diesen Schönheiten, damit sie reifen können. Sie können eine gute Quelle für Aluminium und Sauerstoff im späten LV sein, sobald du deinen ersten EBF bekommen hast, aber es gibt bessere Optionen...
 
 # Quest: Red Touch Yellow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.name=Rot Berührt Gelb
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.desc=Granate sind tatsächlich wertvoller als Saphire. Sie sind eine frühe Quelle für Chrom und Mangan, die du für HV-Maschinen benötigst. Du kannst auch Pyrop-, Almandin- und Spessartin-Staub mit Salpetersäure zentrifugieren, um eine Vielzahl von zusätzlichen passiven Ressourcen zu erhalten. Um die Reife zu erreichen, benötigst du einen Block Granat (egal welcher Art) unter dieser Pflanze. Du kannst Granate vom HV-Zerkleinerer und Spessartin-Erz erhalten, oder du kannst einen Implosionskompressor verwenden, um Granat-Sand in Kristalle zu verwandeln, um daraus Blöcke zu machen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.desc=Granate sind tatsächlich wertvoller als Saphire. Sie sind eine frühe Quelle für Chrom und Mangan, die du für HV-Maschinen benötigst. Du kannst auch Pyrop-, Almandin- und Spessartin-Staub mit Salpetersäure zentrifugieren, um eine Vielzahl von zusätzlichen passiven Ressourcen zu erhalten. Um die Reife zu erreichen, benötigst du einen Block Granat (egal welcher Art) unter dieser Pflanze. Du kannst Granate vom HV-Zerkleinerer und Spessartin-Erz erhalten, oder du kannst einen Implosionskompressor verwenden, um Granat-Sand in Kristalle zu verwandeln, um daraus Blöcke zu machen.%n%nUm alle Produkte von Garnydiania zu verarbeiten, könnten diese Dampf-Multiblock-Maschinen echt nützlich sein!
 
 # Quest: Moss
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.name=Moos
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.desc=Hast du die Suche nach Moos im Dämmerwald aufgegeben? Du kannst ganz einfach eine Pflanze anbauen, die dir die verschiedenen Moose liefert – perfekt für deine Tinker-Werkzeuge. Fang am besten mit einem Seerosenblatt an.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.name=Kletterpflanzen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.desc=Hier sind ein paar Pflanzen, die deine Solarpunk-Basis aufpeppen oder dir helfen, auf ein Baumhaus zu klettern.
 
 # Quest: Wax On, Wax Off
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.name=Wachs Drauf, Wachs Runter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.desc=Du kannst  Minecraft-Baumsetzlinge nehmen und sie direkt auf Anbaustäbe setzen. Das gibt dir einen „Bonsai“-Baum. Bonsai-Bäume geben dir die gleichen Erträge wie ein normaler Baum, aber ohne die verschwendete CPU-Leistung, die es kostet, all die Baumblöcke zu platzieren, nur um sie dann wieder abzuhacken.%n%nDas kann einen erheblichen Overhead auf einem Server verursachen. Wenn du also nett sein willst, züchte ein paar Bonsai-Bäume für deine Pyrolyseöfen. Sie bringen auch eine Menge Ertrag und sind schnell, besonders wenn ihre Stats hoch sind, es gibt also keinen Grund, es nicht zu tun, wenn du sie automatisieren kannst.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.name=Die Kunst des Bonsai
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.desc=Du hast rausgefunden, dass du Miniaturversionen der passenden Bäume machen kannst, indem du einfach Setzlinge auf Pflanzen-Stöcke pflanzt! Wie süß!%n%nBonsai-Bäume geben dir genau wie normale Bäume Drops, aber ohne die verschwendete Server-Verarbeitungszeit, die entsteht, wenn man alle Baumblöcke platziert, nur um sie dann wieder zu fällen. Das kann eine erhebliche Belastung für einen Server sein. Wenn du also nett zu deinem Host sein willst, züchte ein paar Bonsai-Bäume.
 
 # Quest: Pumpkin Pie
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJhw.name=Kürbiskuchen
@@ -5103,15 +5103,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.name=Noch Mehr Werte
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0Q.desc=Jetzt gibt es noch sieben weitere Werte, um die du dich kümmern musst.%n%n§7Dünger§r, §9Wasser§r und [warn]Weed-EX[/warn] beziehen sich darauf, wie viel davon auf dem Anbaustab vorhanden ist, nicht auf der Pflanze selbst. Es geht nur darum, wie viel davon angewendet wurde und wie viel davon übrig ist.%n%n§2Nährstoffe§r, §1Feuchtigkeit§r und §6Luftqualität§r beziehen sich auf die Umgebung. Sie werden auch durch die Werte für Dünger und Wasser beeinflusst.%n%nNährstoffe und Feuchtigkeit hängen größtenteils vom richtigen Biom ab, wobei Sumpf- und Regenwald-Biome (heiß + feucht) die besten sind. Aber du kannst auch zusätzliche Werte erhalten, wenn du die richtigen Vorkehrungen triffst.%n%n§2Nährstoffe§r:%n3 mögliche freie Punkte von Erde unter dem Ackerlandblock, 2 für Pflanzen, die einen bestimmten Block benötigen. Sorge also optimalerweise immer dafür, dass der benötigte Block in der Spalte ganz unten ist, da er die Kette überprüft und nicht eine bestimmte Höhe. Beispiel: Anbaustab -> Ackerland -> Erde -> Erzblock -> Erde. Es wird nur 1 Erde registriert, die unter dem Erzblock wird ignoriert.%n%n5-10 mögliche Punkte durch Düngung deiner Pflanzen. Du kannst Dünger auf eine Pflanze auftragen, um ihren Nährstoffwert zu erhöhen. Der Dünger hat eine Obergrenze von 199, was 10 Nährstoffpunkte ergibt. Er kann aber nur erneut aufgetragen werden, wenn die Pflanze unter 100 Düngerpunkte fällt. Bei Pflanzen mit hohen Werten kann man also bedenkenlos von 100 Düngerpunkten ausgehen und Tests machen, da dies eine gegebene Konstante ist, im Gegensatz zu den Werten 199->100. Du kannst Knochenmehl, IC2-Dünger und Forestry-Dünger von Hand auf eine Pflanze auftragen. Die Forestry manuelle Obstgarten-Multifarm und der Pflanzenautomat machen dies automatisch, wenn sie mit Dünger versorgt werden (die Multifarm benötigt auch Dünger, um Pflanzen zu ernten).%n%n§1Feuchtigkeit§r:%n2 freie Punkte durch die Verwendung von Erde als Ackerland, da Ackerland, wenn es durch Wasser hydriert wird (dunkler wird), 2 Feuchtigkeitspunkte gewinnt. Deshalb sind andere Blöcke dafür nicht gut, da sie diesen Bonus nicht geben.%n%n10 mögliche Punkte durch die Hydratation deiner Pflanze. Ähnlich wie bei der Düngung kann Wasser bis zu 200 Punkte auf die Pflanze aufgetragen werden, was 10 Feuchtigkeitspunkte entspricht. Im Gegensatz zu Dünger muss der Wert aber nicht unter 100 fallen. Wasser kann immer wieder aufgetragen werden, sodass der Wert konstant bei 200 Punkten bleibt. Du kannst Wasser manuell mit IC2-Hydrationszellen auf deine Pflanze auftragen oder deine Forestry manuelle Obstgarten-Multifarm und der Pflanzenautomat es automatisch tun lassen. Die Multifarm benötigt jedoch auch Wasser, um Pflanzen zu ernten.%n%n§6Luftqualität§r:%n4 potenzielle freie Punkte durch leeren Raum um die Pflanze. Eine Pflanze überprüft leere Räume, um Bonus-Luftqualitätspunkte zu berechnen. Sie gibt bis zu 4 Punkte, 1 Punkt für jeweils 2 leere Räume. Dabei werden nur volle Blöcke oder Anbaustäbe gezählt. Wenn du Wert auf die Optik legst, musst du diesen Bonus wahrscheinlich opfern.%n%n4 freie Punkte durch die Höhe deiner Farm. Du erhältst 1 freien Punkt alle 15 Blöcke, beginnend bei Y79.%n79 - 1 Punkt%n94 - 2 Punkte%n109 - 3 Punkte%n124 - 4 Punkte%n%n2 freie Punkte, wenn keine undurchsichtigen Blöcke über der Pflanze sind. Du kannst Glas darüber platzieren und den Bonus nicht verlieren, da es ein transparenter Block ist. Du kannst kein dunkles Glas, mehrere Wasserschichten oder gasförmige Tenebrae verwenden, um dies zu umgehen, wenn deine Pflanze es dunkel mag. Es sei denn, du lässt sie nur nachts wachsen, schätze ich.%n%n§aWachstumsfähigkeit§r:%nDeine Pflanze benötigt ein bestimmtes Niveau an NHA. Versuche, dieses zu erreichen oder zu übertreffen, da die Pflanze sonst entweder nicht wächst oder sogar stirbt (verschwindet). Jede Pflanze ist anders, und höhere Stufen (und Werte) benötigen mehr. Im Allgemeinen ist es jedoch einfach, dies zu erfüllen, solange du in einem guten Biom bist.%n%nDie Wachstumsfähigkeit wird durch die Differenz zwischen dem, was die Pflanze an Umweltbedingungen benötigt, und dem, was sie tatsächlich hat, bestimmt. Wenn du mehr hast, als du benötigst, wächst sie schneller. Deshalb willst du keinen maximalen Resistenzwert, da höhere Werte sie verlangsamen.
 
 # Quest: Min-Maxing Crops
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=Min-Maxen von Pflanzen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.desc=Züchte Stiel-Schilf, bis es ungefähr 20/31/10 hat, und erschaffe dann damit andere Pflanzen, da sie diese Werte erben. Es ist auch gut, sie mit den Pflanzen zu kreuzen, die du dabei erhältst, um deren Werte zu steigern.%n%nSchlage dein Lager in einem Sumpf-/Dschungel-Biom um Y130 auf oder nutze Methoden zur Biomanpassung, um eins zu erstellen. Dies ist viel schneller beim Züchten von Pflanzen, nicht nur beim Anbauen für Erträge.%n%nBenutze immer Multifarmen. Du kannst sie zusammen mit den Erntemaschinen verwenden, wenn du superschnelle Pflanzen hast. Oder benutze einfach mehr Farmen. Oder füge mehr Getriebe hinzu.%n%nDunkles Glas ist gut für Erzbeeren-Pflanzen.%n%nUm Unkraut zu vermeiden, baue deine Multifarm in einem Schachbrettmuster nach oben und unten. Es mag dumm aussehen, aber es gibt kein Unkraut, Wachstum 23->31, und +2 Luftqualität!%n%nVerwende Fertilia, um mehr Dünger herzustellen.%n%nDu kannst Mob-Farmen durch Pflanzen ersetzen, wenn dir die anderen Erträge egal sind. Höllische Mobs lassen jedoch spezielle Sachen fallen.%n%nVerwende WBs im TE-Modus, um Pflanzen zu beschleunigen, wenn du es brauchst. Dies ist hauptsächlich nützlich für die Züchtung, das Steigern der Werte und für die Urbeeren-Pflanze.%n%nWenn du in der Stufe aufsteigst, kannst du mit den Maschinen und UUM 31/31/0 Pflanzen erschaffen. Es liegt an dir, ob sich das lohnt.%n%nBeschäftige dich mit Bienen, wenn du Materialien über der EV-Stufe haben willst.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=Deine Nutzpflanzen verbessern
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.desc=Ein wichtiger Teil von CropsNH ist es, die Werte deiner Nutzpflanzen zu verbessern. Das kann immer passieren, wenn eine neue Nutzpflanze wächst – egal ob durch Selbstvermehrung oder Kreuzung...
 
 # Quest: Barley Time
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpQ.name=Gerstenzeit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKpQ.desc=Es ist Zeit, Gerste zu pflanzen, um Brot zu machen. Wenn du keinen Weizen findest, ist Gerste eine gute alternative Quelle, um Mehl herzustellen.
 
 # Quest: Genetically Modifying Your Plants
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.name=Genetisches Modifizieren Deiner Pflanzen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.name=Synthetisierer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqQ.desc=Um das zu tun, sind drei Maschinen entscheidend. Du wirst massenhaft Energie und buchstäblich genauso viel UUM benötigen.%n%nAlle drei können nur mit Pflanzen bis zu einer bestimmten Stufe arbeiten, die durch die Stufe der Maschine, die du hergestellt hast, und die Pflanze, mit der du arbeitest, bestimmt wird. Im Grunde ist es (Pflanzenstufe+2)/2, aufgerundet. Eine LV-Maschine kann also mit S1-Pflanzen arbeiten, eine MV-Maschine jedoch mit S3.%n%n[note]LV=S1, MV=S3, HV=S5, EV=S7, IV=S9, LuV=S11, ZPM=S13, UV=S15, UHV=S17.[/note]%n%nZuerst kommt der Pflanzengen-Extraktor:%nEr benötigt einen vorhandenen Pflanzen-Samenbeutel, eine leere §2Datenkugel§r (siehe EV-Quests) und §61A§r während des Betriebs. Verwende einen Schaltkreis, um festzulegen, welcher Wert auf die Datenkugel kopiert werden soll. Du wirst wahrscheinlich entweder 23-31-0 oder 31-31-0 für maximale Geschwindigkeit und Ertrag verwenden wollen, da du mit diesen nicht züchten wirst. Denke daran, die richtigen Vorsichtsmaßnahmen zu treffen, wenn du über 23 gehst, da sie versuchen werden, alles um sie herum zu verunkrauten. Es gibt eine beträchtliche Anzahl von Pflanzen, also wirst du wahrscheinlich auch eine Menge Kugeln benötigen, es sei denn, du möchtest sie wiederverwenden. [warn]Denke daran, eine Sicherung deiner Datenkugel oder deines Samenbeutels zu erstellen![/warn]%n%nAls Nächstes kommt der Pflanzen-Synthetisierer:%nEr benötigt §24 Datenkugeln§r, eine für jeden der Typen aus dem Pflanzengen-Extraktor, §51000L UUM pro Pflanzenstufe/2§r (dies wird nicht gerundet) und §616A§r während des Betriebs. Er wird einen neuen Pflanzen-Samenbeutel mit den gewünschten Werten erstellen.%n%nZuletzt ist der Pflanzenreplikator:%nEr benötigt einen vorhandenen Pflanzen-Samenbeutel, §51000L UUM pro Pflanzenstufe§r und §66A§r während des Betriebs. Nachdem er fertig ist, gibt er dir zwei der gleichen Samenbeutel zurück, indem er ihn dupliziert. Das verbraucht doppelt so viel UUM, aber weniger Energie. Es liegt an dir, ob sich das lohnt.
 
 # Quest: Cooking for Blockheads
@@ -5173,7 +5173,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACiw.desc=Dein erstes elektrisches Jetpac
 
 # Quest: Fueled Jetpack
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.name=Betanktes Jetpack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.desc=Dieses Jetpack verwendet IC2-Biogas und kann bis zu Y-245 fliegen. Mit der IC2-Modus-Wechseltaste kannst du zwischen Schwebe- und Normalmodus wechseln.%n%nDein Jetpack kann im IC2-Füllmaschine mit Biogas im Wert von 30 Eimern/Zellen (neu) betankt werden.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACjA.desc=Dieses Jetpack verwendet IC2-Biogas und kann bis zu Y-245 fliegen. Mit der IC2-Modus-Wechseltaste kannst du zwischen Schwebe- und Normalmodus wechseln.%n%nEin leeres Jetpack kann in einem Flüssigkeitstank mit Biogas betankt werden.
 
 # Quest: Advanced Electric Jetpack
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACjQ.name=Fortgeschrittenes Elektrisches Jetpack
@@ -6504,7 +6504,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGCQ.name=§6§lZeit, Nach Erz Zu Bohren!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGCQ.desc=Erzbohrer sind schön und gut, aber es wird ein Punkt kommen, an dem du MEEEEEHR Erze haben willst. Dieser Multiblock wird dir dabei helfen. Er wird dir Erze auch vorzerkleinern und dir einen kleinen Bonus an Zerkleinerten Erzen geben.%n%nHöhere Energiestufen bohren schneller. Du musst den Energieanschluss entsprechend der Energiestufe aufrüsten. Du benötigst außerdem einen Energieanschluss, eine Einfüllöffnung und einen Ausgabevorrichtung – mindestens MV, aber du kannst wählen.%n%nSpäter kannst du die Erzbohranlage aufrüsten, sodass sie aus einem größeren Radius als 48 Blöcken extrahiert. Wenn du nicht so weit entfernt abbauen möchtest, passe die Reichweite mit einem Schraubendreher an. Jede Stufe der Steuerung gewährt auch 1 Bonusglück für Kleine Erze, beginnend bei 4. Ab Stufe 3 solltest du den Reichtum auf mehrere komprimierte Kisten verteilen!%n%nDie Multiblock-Bohrer wurden aufgerüstet, sodass sie das Gebiet, in dem sie graben, chunkloaden. Sie werden sich jedoch NICHT selbst chunkloaden. Sie graben im Chunk, in dem sie sich befinden §orunter§r, wie gewohnt, und graben dann Chunk für Chunk in anderen Chunks innerhalb ihrer Reichweite §ohoch§r.%n%nDu benötigst Bergbaurohre in der Steuerung und Bohrflüssigkeit in der Einfüllöffnung. Du kannst Bergbaurohre auch in eine Eingabevorrichtung einspeisen.%n%nDu musst viel Bohrflüssigkeit herstellen. 64 ist eine winzige Menge, um damit zu beginnen! Plane, Tausende von Eimern herzustellen – vielleicht vor Ort oder über Langstrecken-Flüssigkeitsrohre eingespeist.%n%nDies sind GT-Maschinen, denke also daran, sie (und ihre Stromquellen!) auf jeder Seite vor Regen (und Meteoren!) zu schützen. Und setze einen Wegpunkt mit JourneyMap, damit du nicht vergisst, wo du sie platziert hast!
 
 # Quest: Thermal Boiler - Lava you long time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6w.name=Heizkessel - Flüssige Steine zu Energie
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6w.name=§6§lHeizkessel - Flüssige Steine zu Energie
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH6w.desc=Wenn du Energie aus Lava und Nebenprodukte gewinnen möchtest, ist der Heizkessel die perfekte Lösung. Er verarbeitet Lava extrem schnell zu Dampf und liefert mit einem Lavafilter auch einige zentrifugierte Lava-Nebenprodukte. Eine großartige Quelle für Kupfer, Silber, Gold, Zinn, Tantal und Wolframit, mit besseren Erträgen als die normale Lavaverarbeitung in einer Zentrifuge.%n%nNoch bessere Effizienz erzielst du in Kombination mit einem Großen Wärmetauscher. Der Große Wärmetauscher verwandelt normale Vanilla-Lava in Pahoehoe-Lava, die dann im Heizkessel Dampf und Nebenprodukte liefert. Win/Win/Win!
 
 # Quest: Electrum Flux Coil Upgrade
@@ -6528,7 +6528,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFQ.name=§6§lHeiß Heiß Heiß!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFQ.desc=Sobald du deinen Vakuumfroster gebaut hast, musst du ständig Heiße Barren herumtragen (angenommen, du automatisierst das nicht). Deine alten Handschuhe fallen auseinander und nehmen beide Hände in Anspruch. Ich glaube, es gibt eine Möglichkeit, sie zusammenzukleben, damit du heiße Gegenstände mit nur einer Hand tragen kannst. Gib mir ein paar Teile und ich mache das für dich.
 
 # Quest: Playing With the Big Boys, Chemically
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.name=Mit den Großen spielen – chemisch gesehen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.name=§6§lMit den Großen mitspielen, chemisch gesehen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.desc=Diese Anlage verarbeitet bestimmte chemische Rezepte, die du später benötigen wirst, wie zum Beispiel Raketentreibstoffe. Denk daran, dass Rezepte nur hergestellt werden können, nachdem die erforderliche Chemieanlagen-Stufe erreicht wurde.%n%nSie wird eine ganze Lore voller Ressourcen brauchen, also fang an zu minen!%n%nIn einigen Rezepten werden Katalysatoren benötigt, platziere sie in das Katalysatorgehäuse. Sie verbrauchen Haltbarkeit, auch bei solchen, bei denen es nicht so aussieht.%n%n[note]Siliziumkarbid kannst du im Mixer herstellen, du brauchst den LHS nicht.[/note]%n%nGültige feste Gehäuse (bestimmen die Verarbeitungs-Stufe für Rezepte):%n1 Starkes Bronze-Maschinengehäuse%n2 Solides Stahlmaschinengehäuse%n3 Robustes Aluminium-Maschinengehäuse%n4 Sauberes Edelstahl-Maschinengehäuse%n5 Stabiles Titan-Maschinengehäuse%n6 Robustes Wolframstahl-Maschinengehäuse%n7 Kraftvolles Laurenium-Maschinengehäuse%n8 Widerstandsfähiges Botmium-Maschinengehäuse%n%nGültige Maschinengehäuse (bestimmen die maximale Öffnungs-/Vorrichtungs-Stufe):%nLV – UHV-Maschinengehäuse, UHV schaltet jede Öffnung/Vorrichtung frei.%n%nGültige Rohrummantelungen(+2 Parallelen, -20 % Chance auf Haltbarkeitsverbrauch des Katalysators pro Rohrummantelungen, beginnend bei 2 Parallelen und 100 % Chance beim ersten):%nBronze%nStahl%nTitanium%nWolframstahl%n%nAlle Spulen von Kupfernickel bis Ewigkeit sind gültig. Jede einzelne erhöht die Geschwindigkeit um +50 %, beginnend bei 50 % Geschwindigkeit für Kupfernickel.%n%n[note]Zusätzlich: Wenn du mindestens Erwachtes Drakonium-Spulen und Wolframstahl-Rohrummantelungen hast, wird überhaupt kein Katalysator verbraucht![/note]
 
 # Quest: Better Glass Upgrade, EV Glass
@@ -6572,11 +6572,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcA.name=§6§lHöhere Präzision
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKcA.desc=Du kannst die Präzisen Gehäuse verbessern, um mehr Rezepte im Präzisionsmodus freizuschalten und mehr Parallelen im normalen Modus zu erhalten.%n%n[note]Um Orundum herzustellen, sehe dir das Rezept für die Orundumplatten an.[/note]
 
 # Quest: What Even is This?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.name=Was ist das überhaupt?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.name=§6§lWas ist das überhaupt?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.desc=Neben seiner Funktion als Dehydrator-Multi ist es auch ein Vakuumofen, für den es keinen Singleblock gibt. Er soll zusammen mit dem IsaMill-Mahlmaschinen-Multi und dem Flotationszellen-Regulator-Multi für die Erzzerkleinerung verwendet werden – eine fortgeschrittene Methode der Erzverarbeitung, die viel Infrastruktur benötigt, aber viele neue Ausgaben für jedes unterstützte Erz liefert.%n%n[note]Dieser Multi ist jetzt LuV! [/note]
 
 # Quest: Do I Really Need to Make This?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.name=Muss ich das wirklich bauen?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.name=§6§lMuss ich das wirklich bauen?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.desc=Oh Moment, ja – du brauchst das jetzt tatsächlich! Das sollte eigentlich eine rhetorische Frage sein!%n%nDas Hauptding, das du wahrscheinlich daraus bekommst, ist die Quantenanomalie.%n%n[note] Dieser Multi ist LuV. Aber du brauchst es erst ab UHV. [/note]
 
 # Quest: TFFT
@@ -6640,23 +6640,23 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALqQ.name=§6§lDu Bist Nicht Bereit... A
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALqQ.desc=Eine Schmelze von Grund auf neu zu bauen kann sehr mühsam und zeitaufwändig sein. Wie wäre es, sich eine von den Einheimischen zu leihen? Sie werden sie sicherlich gerne mit einem unfreundlichen Abenteurer teilen, der gerade ihren gemauerten Bahnhof demontiert hat.%n%nDie Dorfbewohner sind so dumm, dass sie all ihre Verbrannten Ziegel verbraucht haben, ohne einige Schlüsselkomponenten wie Hähne oder Abflüsse hinzuzufügen. Du musst immer noch selbst einige Schmelzen-Ziegel herstellen ...%n%nAbsolut nutzloser Tipp: Wenn du den Bau lange genug aufschiebst, kannst du Verbrannte Ziegelblöcke mit einem Schmiedehammer oder Extrahierer in Verbrannte Ziegelgegenstände zerlegen.%n%n[note]Leider bedeutet dieser Weg, dass wir euch keine Questbelohnungen geben werden, da du diesen wichtigen Multiblock bereits kostenlos erhältst. Aktiviere das Kontrollkästchen, um deine Zustimmung zu signalisieren.[/note]
 
 # Quest: Focusing Science and Mystery
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2A.name=Fokus auf Wissenschaft und Geheimnisse
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2A.name=§6§lFokus auf Wissenschaft und Mysterium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2A.desc=Dieser Mechanismus ist völlig optional und niemals für das Herstellen erforderlich. Er wird jedoch stark empfohlen, wenn die Anzahl der Parallelen hoch ist und wenn die einzigartigen Gegenstände hergestellt werden, die höhere Stufen freischalten. "Fokussieren" bedeutet im Allgemeinen, die Chancen der Ausgaben in einem QKT-Rezept zu erhöhen, und dies kann auf zwei Arten geschehen, möglicherweise beide gleichzeitig. Jede Methode verwendet ein neues Plasma, die beide in einem S4-Fusionsreaktor hergestellt werden, indem andere Plasmen als Eingaben verwendet werden, einschließlich eines S3-Plasmas für jedes. Diese Plasmen sind Neptunium und Fermium und können zusammen oder einzeln verwendet werden.%n%nWenn Neptunium-Plasma vorhanden ist, kann das aktuelle Rezept eine der Ausgaben fokussieren. Die spezifische Ausgabe wird mit einem Schaltkreis in der Eingabevorrichtung ausgewählt (dies ist das Einzige, was Schaltkreise für diesen Multi tun), wobei Schaltkreis 1 für die 1. im NEI sichtbare Ausgabe, Schaltkreis 2 für die 2. Ausgabe usw. steht. Es liegt am Spieler, welche Ausgabe er von allen vorhandenen am meisten wünscht, und die Tatsache, dass jedes Rezept mehrere Ausgaben hat, ist diesem Mechanismus zu verdanken.%n%nWenn eine Ausgabe erfolgreich mit Neptunium fokussiert wird, erhöht sich ihre Chance, indem die Chance aller anderen Ausgaben reduziert wird. Die Logik für diese Änderung ist wie folgt:%n%n-> Ohne Fokussierung beträgt die Chance jeder Ausgabe 100 / Anzahl der Ausgaben;%n-> Wenn die Gehäusestufe der Rezeptstufe entspricht, wird die Chance aller anderen Ausgaben halbiert und die Summe dieser Hälften zur fokussierten Ausgabe addiert (zum Beispiel wird aus 20/20/20/20/20 60/10/10/10/10);%n-> Wenn die Gehäusestufe +1 über der Rezeptstufe liegt, halbiere die Chance der anderen Ausgaben erneut (zum Beispiel wird aus 60/10/10/10/10 80/5/5/5/5);%n-> Wenn die Gehäusestufe +2 oder +3 über der Rezeptstufe liegt, setze die fokussierte Ausgabe auf 100% und den Rest auf 0%.%n%nIm Allgemeinen erhöht diese Art der Fokussierung nicht die Gesamtmenge der Ausgaben, abgesehen von den neuen Gegenständen, die mit diesem Multi hinzugefügt werden und in kleineren Mengen herauskommen. Stattdessen ermöglicht sie dem Spieler, weniger nützliche Ausgaben durch nützlichere zu ersetzen, und diese Wahl liegt ganz bei ihm, ebenso wie die Wahl der Fokussierung überhaupt.%n%nWenn Fermium-Plasma vorhanden ist, werden alle Ausgabe-Chancen des aktuellen Rezepts erhöht, es sei denn, die Chance für eine davon beträgt 100%, in welchem Fall diese Chance unverändert bleibt. Dies geschieht, weil der Boost zunimmt, wenn die Ausgabe-Chance vor der Fermium-Fokussierung kleiner ist, und der maximale Boost wird erreicht, wenn die Chance 0% beträgt, was bei hochstufiger Nep-Fokussierung der Fall ist.%n%nWenn eine Ausgabe erfolgreich mit Fermium fokussiert wird, erhöht sich ihre Chance basierend darauf, wie weit sie von 100% Chance entfernt ist. Dies gilt für alle Ausgaben gleichzeitig, und die Logik für diese Änderung ist wie folgt:%n%n-> Wenn die Gehäusestufe der Rezeptstufe entspricht, wird jede Ausgabe um 1/4 der "Fehler"-Chance erhöht (zum Beispiel hat eine Ausgabe mit 50% Chance eine 50%ige Fehlerchance, wird also um 12,5% erhöht und beträgt 62,5%)%n-> Wenn die Gehäusestufe +1 über der Rezeptstufe liegt, wird jede Ausgabe um 1/3 der "Fehler"-Chance erhöht%n-> Wenn die Gehäusestufe +2 oder +3 über der Rezeptstufe liegt, wird jede Ausgabe um 1/2 der "Fehler"-Chance erhöht%n%nMit den beiden Plasmen kombiniert und einer +2 oder +3 über der Rezeptstufe hätte ein Rezept mit 5 Ausgaben normalerweise 20/20/20/20/20 Chancen, aber es wird zu 100/50/50/50/50.%n%nViele Late-Game-Multis haben Parallelen, was bedeutet, dass sie das Rezept jedes Mal, wenn die Rezeptzeit abgelaufen ist, mehrmals gleichzeitig abschließen, anstatt nur einmal, aber sie benötigen dafür zusätzliche EU. Dies macht Energie zur größten Einschränkung für diese Multiblöcke, und dasselbe passiert mit dem QKT, da die Rezept-Eingaben im Allgemeinen sehr günstig und einfach sind. Mehr Energie in die Maschine zu werfen, bedeutet im Allgemeinen mehr Ausgaben.%n%nAngesichts dessen wird ein Spieler, der einen schnelleren QKT will, mehr Katalysatoren herstellen, um mehr Parallelen freizuschalten, aber jede hinzugefügte Parallele addiert sich zu den anderen, bis zu einer Obergrenze von 64. Fokussierung hingegen ändert die Ausgabe-Chancen, was effektiv die Anzahl der Ausgaben pro Zyklus multipliziert. In Bezug auf die Geschwindigkeit läuft ein Rezept mit 4 Ausgaben und 64 Parallelen mit der Geschwindigkeit von 256 Parallelen für die fokussierte Ausgabe, wenn sie mit Nep auf maximal 100% fokussiert ist, da sie ursprünglich 25% betrug.%n%nDies ist eine Menge gesparter EU für hochstufige, Hoch-Parallelen-QKTs, also ist dies der Hauptgrund für die Fokussierung, und beide Plasmen sind hier nützlich. Der Plasmverbrauch ist jedoch unabhängig von Parallelen nicht gleich, er skaliert stattdessen mit der Quadratwurzel der Anzahl der korrekten Katalysatoren für das Rezept, das heißt, der Anzahl der Parallelen.%n%nDies gilt auch für die 3 neuen Gegenstände, die zue Verbesserung der Gehäusestufen benötigt werden. Da ihre Ausgabemenge viel kleiner ist als üblich, könnten sie einen weiteren Boost erhalten, wenn Fokussierung verwendet wird, um den Plasma-Mechanismus beim Verbessern des Multi zu fördern.
 
 # Quest: Catalyzing Miracles
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2Q.name=Wunder Katalysieren
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2Q.name=§6§lWunder Katalysieren
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2Q.desc=Der QKT verwendet die Art von Katalysator, die auch die Chemieanlage verwendet. Doch wie die Anlagen mit Erwachten Drakonium-Spulen oder höher, verbraucht er die Haltbarkeit des Katalysators nach Abschluss des Rezepts nicht, sondern verhält sich eher wie ein realer Katalysator, der nach Gebrauch regeneriert wird. Dies macht die hier verwendeten Katalysatoren teurer in der Herstellung, wie es beim Unendlich-Mutationen-Katalysator für Mutiertes Lebendes Lötmittel der Fall war, der nur mit jenen Spulen verwendet werden soll, die ihn ewig halten lassen.%n%nDa es keinen Haltbarkeitsverlust gibt, scheint es, als ob nur ein Katalysator hergestellt werden muss. Dafür gibt es jedoch zwei Gründe, warum dies nicht stimmt: Erstens verwendet jedes QKT-Rezept einen anderen Katalysator; zweitens überprüft der QKT Parallelen, indem er die Anzahl der Katalysatoren, die er in seinem Massenkatalysatorgehäuse für das betreffende Rezept hat, zählt (Grenze von 2.147.483.647). Dieses System bewirkt, dass die Herstellung eines Katalysators des richtigen Typs erforderlich ist, um ein Rezept freizuschalten, aber das Herstellen von mehr ist völlig optional und ändert nur die Geschwindigkeit, mit der der Multi herstellt, vorausgesetzt, er erhält genügend EU.%n%nJeder Katalysator benötigt einige der Materialien, die er im QKT freischaltet, das heißt, die ursprüngliche Verarbeitungslinie muss verwendet werden, um den Katalysator herzustellen, der es dem Spieler ermöglicht, sie im QKT zu überspringen. Dies gilt für jedes Rezept und wiederum für jede Linie, die übersprungen werden kann.%n%nUm die allgemeine Verarbeitungsgeschwindigkeit zu verbessern, hast du eine Option: mehr Parallelen mit Katalysatoren zu erhalten. Die andere, kompliziertere Methode ist, die Chancen auf eine erfolgreiche Ausgabe zu erhöhen, indem dem System mehr Energie zugeführt wird, aber auf eine besondere Weise: Anstatt direkte EU zu verwenden, funktioniert die Erzeugung eines leistungsstarken Plasmas, um die QKT-Verarbeitung zu verbessern.%n%nWenn die richtigen Plasmen hinzugefügt werden, funktioniert die Verstärkung, aber es ist auch möglich, die Struktur selbst aufzurüsten, um Chemie-Skips durchzuführen, die mit dem Basis-QKT nicht möglich sind. Diese Verbesserungen basieren auf fortschrittlicheren und leistungsstärkeren Materialien, hauptsächlich in der Materialprogression von DTPS-Rezepten. Diese vorhandenen Materialien reichen jedoch nicht aus, da die Quantenstabilisierung mit diesen "fremden" Substanzen nicht aufrechterhalten werden kann. Glücklicherweise kann der QKT selbst die Gegenstände produzieren, die zum Bau der aufgerüsteten Gehäuse benötigt werden, und diese Gegenstände sind Ausgaben einiger der im Multi durchgeführten Skips. Es beginnt damit, dass die viel einfachere Produktion bereits vorhandener Materialien ermöglicht wird, aber dabei werden völlig neue Materialien freigeschaltet, die nützlich sind, um die Struktur selbst zu verbessern.%n%nEs gibt drei neue Gegenstände und vier Stufen in der Struktur. Die erste Stufe kann ohne sie gebaut werden, aber jede neue Stufe benötigt einen neuen Gegenstand, der in der vorherigen Stufe hergestellt wurde. Diese Ausgaben stehen im Zusammenhang mit dem Rezept, in dem sie erhalten werden können, und sie besitzen einzigartige Eigenschaften, die im wirklichen Leben nur theoretisch sind.%n%nDer erste Gegenstand, den du herstellen musst, ist der Hyperstabile Selbstheilende Klebstoff. Um dieses Material herzustellen, fahre mit dem Klebstoff/Löt-Rezept fort, indem du den Adhäsionspromotor-Katalysator verwendest. Stelle außerdem diese anderen Katalysatoren her, um zu beweisen, dass du gut auf deine QKT-Reise vorbereitet bist.
 
 # Quest: Tier 2 Shielding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2g.name=Stufe 2-Abschirmung
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2g.name=§6§lStufe-2-Abschirmung
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2g.desc=Erwäge, die Fokussierungsfähigkeiten deines QKT zu verbessern, indem du deine §3Neutronenabschirmkern§rgehäuse durch §3Kosmisches Gewebe-Abschirmkern§rgehäuse ersetzt. Wie die Manipulatoren der Stufe 2 erfordern diese auch §3Hyperstabilen Selbstheilenden Klebstoff§r.
 
 # Quest: Tier 3 Shielding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2w.name=Stufe 3-Abschirmung
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2w.name=§6§lStufe-3-Abschirmung
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2w.desc=Erwäge, die Fokussierungsfähigkeiten deines QKTs noch weiter zu verbessern, indem du die §3Kosmischen Gewebe-Abschirmkern§rgehäuse durch §3Unendlichkeits-Infundierte-Abschirmkern§rgehäuse ersetzt. Wie die Manipulatoren der Stufe 3 benötigen diese ebenfalls §3Supraleiter-Seltenerd-Komposit§r.
 
 # Quest: Tier 4 Shielding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.name=Stufe 4-Abschirmung
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.name=§6§lStufe-4-Abschirmung
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.desc=Ziehe in Betracht, die Fokussierungsfähigkeit deines QKTs in ihre endgültige Form zu bringen, indem du die §3Unendlichkeits-Infundierte-Abschirmkern§rgehäuse durch §3Raumzeit-Biegekern§rgehäuse ersetzt. Wie die Manipulatoren der Stufe 4 benötigen auch diese §3Schwarzkörper-Naquadria-Suprafeststoff§r.
 
 # Quest: Your New Friend
@@ -6664,7 +6664,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEQ.name=§6§lDein Neuer Freund
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEQ.desc=Es ist mühsam, alle Werkzeuge im Inventar mit sich herumzutragen. Du kannst GT-Werkzeuge und Lötkolben in den IC2-Werkzeugkasten legen, um Platz im Inventar zu sparen.%n%nDu kannst ihn auch für Wartungsarbeiten verwenden, ohne Werkzeuge herauszunehmen. Halte einfach den Werkzeugkasten und klicke mit der rechten Maustaste auf die Wartungsluke. Wer braucht jetzt Klebeband? Du. Es wird benötigt, um die Wartung später zu automatisieren.
 
 # Quest: Too much Indium?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.name=Zu viel Indium?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.name=§6§lZu viel Indium?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.desc=Der Mahlprozess ist eine alternative Methode zur Herstellung von Indium, ausgelegt für LuV und höher. Er entsorgt Aluminium und Galenit nicht grundlos, und du kannst Indium effizient aus Sphalerit gewinnen. Im Gegenzug fallen jedoch Maschinenkosten und Infrastrukturbedarf für die Verarbeitung an.
 
 # Quest: Infinity Coil Upgrade
@@ -6672,7 +6672,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.name=§6§lUnendlichkeits-Spulen-Ver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=Schmelzen mit der Wildheit des Universums selbst.%n%nDieses unglaubliche Material schien unmöglich in Spulenblockform zu manipulieren, obwohl seine Eigenschaften dies wünschenswert machten. Es ist selbst bei extremen Temperaturen unglaublich stabil, aber dies machte es auch unfähig, sich für Spulen zusammenzupacken.%n%nDie Situation änderte sich jedoch, als du daran dachtest, etwas Intelligenteres zu verwenden. Durch die Integration eines Wetware- oder besseren UHV-Schaltkreises wurde die Unendlichkeits-Spule Realität, gesteuert von den stets wachsamen Augen der Schaltkreise, die du monatelang erstellt hast. Von nun an werden diese Augen über deine Multiblöcke wachen.%n%nBietet 11701K Wärme. Du kannst deinen EHO verbessern, obwohl es zu diesem Zeitpunkt wahrscheinlicher ist, dass es für deine MHOs oder deine DTPS ist.
 
 # Quest: Algae Pond
-betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.name=Algenteich
+betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.name=§6§lAlgenteich
 betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.desc=Nachhaltigkeit. Sie ist nicht Kern des Modpacks... aber sie könnte es sein!%n%nWenn du schon immer viele Chemikalien aus einer einzigen Quelle erzeugen wolltest, hast du wahrscheinlich an Öl oder Benzol gedacht. Es gibt jedoch auch die Algenfarm. Sie ist im Grunde ein Teich, braucht also keinen Strom, um zu funktionieren. Da sie auch keinen normalen Rezepten folgt, findest du keine NEI-Rezeptseite für die Algen. Der Multi produziert sie einfach nach einem festen Zeitplan.%n%nDie Stufe des Multis wird durch die Gehäuse in der untersten Schicht des Multis bestimmt, die alle übereinstimmen müssen, um die Stufe festzulegen. Jede Stufe von ULV (beginnend bei 50s pro Charge) bis IV (was 25s pro Charge ist) reduziert die Zeit, die zur Produktion von Algen benötigt wird, um etwa 5 Sekunden, und darüber hinaus halbiert jede Stufe die Geschwindigkeit. Zufällig kann die Produktionsgeschwindigkeit auch die benötigte Zeit verdoppeln oder verdreifachen, dies geschieht jedoch relativ selten.%n%nJede Stufenerhöhung erhöht auch die Menge an Algen, die du in einem einzigen Zyklus erhältst, sowie die Art der produzierten Algen. Jeder Zyklus liefert eine exakte Menge sowie eine Bonusmenge in 10 % der Fälle. Die Algenfarm akzeptiert auch Kompost, den du aus den Algen selbst herstellen kannst, um die Stufe des Multis um eins zu erhöhen. Dies mag am Anfang teuer sein, wird aber in den meisten Fällen dringend empfohlen. Du kannst normale Algen und Grünalgen ab ULV erhalten, Braunalgen erscheinen ab HV, Goldbraune Algen ab EV und Rotalgen ab IV, obwohl in den meisten Fällen, in denen sie erscheinen, dies in sehr kleinen Mengen geschieht.%n%nWeitere Informationen zu den genauen Ausgabemengen und Zeitpunkten findest du im Wiki: [url]https://wiki.gtnewhorizons.com/wiki/Algae_Farm[/url]%n%nDie Algen können für verschiedene Chemikalien wie Methan, Ammoniak, Schwefelsäure, Natriumcarbonat, Ethylen, Lithiumchlorid und sogar einige stromerzeugende Flüssigkeiten verwendet werden. Dafür benötigst du typischerweise eine Chemieanlage. In der IV-Stufe kannst du auch Grünalgen mit Leuchtstein kombinieren, um Leuchtende Korallen zu erhalten und daraus Sunnarium herzustellen. Wenn du neugierig auf alle Verarbeitungsketten bist, suche diese in NEI: Quests, die diese abdecken, sind in Vorbereitung, möglicherweise mit weiteren Rezepten, die keine Chemieanlage benötigen.
 
 # Quest: Tier 2 Manipulating
@@ -6846,7 +6846,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=Wenn du nur eine Maschine volle
 
 # Quest: ZzzZZZzzzZtt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8g.name=§9§lZzzZZZzzzZtt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8g.desc=Brauchst du jede Menge Sauerstoff oder Wasserstoff – oder willst du einfach nur Materialien zerlegen, um massenhaft Aluminium zu bekommen?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8g.desc=Brauchst du viel Sauerstoff oder Wasserstoff? Oder willst du einfach nur Materialien zerlegen, um tonnenweise Aluminium zu gewinnen? Beides sind perfekte Aufgaben für diesen Multiblock.%n%Der §5§lIndustrielle Elektrolyseur§r ist viel effektiver als seine Einzelblock-Variante. Er bietet §6§l4§r Parallelen pro Spannungsebene, eine §2§l2,8-§rfache Geschwindigkeitssteigerung und einen §3§l10 %§r-igen EU-Rabatt auf alle Rezepte. Klingt für mich nach einem guten Deal!
 
 # Quest: Frozen Stiff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8w.name=§9§lStarr gefroren
@@ -8964,7 +8964,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.name=Weltraumpumpen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL3Q.desc=Irgendwann hast du dich vielleicht gefragt: Es gibt diese riesigen Gasplaneten im Sonnensystem – könnte es eine Möglichkeit geben, sie zu „ernten“? Tatsächlich gibt es eine. Durch den Bau des Multiblocks „Planetarer Gassauger“ bist du in der Lage, aus dem unendlichen Gasvorrat von Jupiter, Saturn, Uranus und Neptun zu pumpen. Du musst lediglich eine Raumstation um einen Gasplaneten herum bauen, um nah genug an das Gas heranzukommen, ohne hineinzufallen.%n%nVerschiedene Gase können durch Pumpen in unterschiedlichen Tiefen extrahiert werden, was durch einen Programmierten Schaltkreis gesteuert wird. Du musst (64 * Tiefe) Bergbau-Rohre bereitstellen, um die ausgewählte Tiefe zu erreichen.%n%nWährend des Betriebs benötigt der Multiblock h*4^(S+2) EU/t, wobei S die Stufe der Raumstation und h die Tiefe ist.%n%nEine Übersicht darüber, was und wo du pumpen kannst, findest du im Kapitel „Tipps und Tricks“.
 
 # Quest: How the Eff Do I Charge This Sh*t?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.name=Wie zum Teufel lade ich diesen Schei* auf?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.name=Wie lade ich dieses Ding auf?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALIA.desc=Angesichts der vielen Leute, die danach fragen, und der Inkompatibilität, die es mit §oso§r vielen Methoden hat, hier ist eine Quest, die dir sagt, was funktionieren §owird§r.%n%n[note]Du musst nur eine herstellen.[/note]%n%nBedenke auch, dass die Energiespeicher-Einheiten EU aufnehmen können, wenn du nur aufladen möchtest, anders als die Solaranlagen (auch die Solar-Wind-Einheiten funktionieren aus irgendeinem Grund nicht). Die Einheiten höherer Stufen laden schneller (fortgeschrittene Solaranlagen richten sich einfach nach der Sonne aus, um tagsüber 100%% Leistung zu erhalten, anstatt nur um die Mittagszeit, aber Hybride sind tatsächlich schneller. Außerdem lassen Hybride das Spiel nicht mehr abstürzen, nur indem man sie platziert!)
 
 # Quest: steve@mothership:~$
@@ -9865,7 +9865,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8w.desc=Der Arkane Assembler ist wie ei
 
 # Quest: Miscellaneous AE Items
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9A.name=Weitere AE-Gegenstände
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9A.desc=There are several AE items that aren't particularly useful, but probably deserve mention, so here they are:%n%n§lCertus Tanks§r: They hold 32B and are portable and easy to make.%n%n§lView Cell§r: Format in a Cell Workbench to filter what you see in a terminal (when they're installed in it)%n%n§lCertus/Nether Quartz Cutting Knive§rs: Right-click to open interface and choose a name. The press can be used in the Inscriber to name stuff without using an anvil. You can also rename p2p tunnels and interfaces in world with the knife.%n%n§lME Block Container§r: Holds only one type of item, but the amount of a 64k drive. Can place the item in world, or replace in a 1x1 or 3x3 area. Blocks replaced will be dumped in world. This will be horizontal or vertical depending on which side of a block you select. Shift-right-click air to change mode, right-click a block to activate mode.%n%n§lCharged Quartz Fixture§r: Emits light at the same level as a torch, but fancier.%n%n§lLight Detecting Fixture§r: Emits redstone signal based on light. Since it only starts at 7, it's not as useful as the Light Sensor.%n%n§lME Upgrade (Tier 1/2/3)§r: If you're an OC person, there are 3 upgrades you can make to add access to your network from robots and drones.%nT1: 0.5 access point range%nT2: Normal access point range%nT3: Unlimited range, any dim%n%n§lEntropy Manipulator§r: Changes grass/dirt/dried dirt into each other, or starts fires. Or melts ice. Useless.%n%n§lMatter Cannon§r: Shoots Matter Balls made in the Matter Condenser. Put it in an ME Chest or Drive and put items in a Terminal to fill. Decent I guess? But it destroys blocks every time you use it, so... Well, I guess you could use it with Paint Balls?%n%n§lColor Applicator§r: Use dye items or Paint Balls (more efficient) to dye stuff. You can dye cables, or anything Forge-compatible, like wool or glass. Place items inside like the Matter Cannon. You can cycle through the colors by holding shift and right-clicking, or scrolling the mouse wheel. If you use snow balls, you can remove paint instead. You can also use it in a dispenser.%n%n§6§lWalrus§r: It's a walrus, what were you expecting?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9A.desc=Es gibt ein paar AE-Gegenstände, die nicht besonders nützlich sind, aber vielleicht trotzdem erwähnenswert sind. Hier sind sie:%n%n§lCertus-Tanks§r: Sie fassen 32B, sind tragbar und einfach herzustellen.%n%n§lAnzeigezelle§r: Formatiert in einer Zellen-Werkbank, um die Anzeige in einem Terminal zu filtern (wenn sie darin installiert sind).%n%n§lCertus/Nether-Quarz-Schneidemesser§rs: Mit Rechtsklick öffnet sich die Benutzeroberfläche, in der du einen Namen auswählen kannst. Die Presse kann in der Gravurmaschine verwendet werden, um Gegenstände ohne Amboss zu benennen. Mit dem Messer kannst du auch P2P-Tunnel und Schnittstellen in der Welt umbenennen.%n%n§lME-Blockcontainer§r: Fasst nur einen Gegenstandstyp, aber die Menge eines 64k-Laufwerks. Kann den Gegenstand in der Welt platzieren oder in einem 1x1- oder 3x3-Bereich ersetzen. Ersetzte Blöcke werden in der Welt abgelegt. Dies geschieht horizontal oder vertikal, je nachdem, welche Seite eines Blocks du auswählst. Drücke UMSCHALT und klick mit der rechten Maustaste in die Luft, um den Modus zu ändern, und klick mit der rechten Maustaste auf einen Block, um den Modus zu aktivieren.%n%n§lGeladene Quarzvorrichtung§r: Strahlt Licht in derselben Stärke wie eine Fackel aus, sieht aber schicker aus.%n%n§lLichtdetektierende Vorrichtung§r: Sendet ein Redstone-Signal basierend auf Licht aus. Da es erst bei 7 startet, ist es nicht so nützlich wie der Lichtsensor.%n%n§lME-Verbesserung (Stufe 1/2/3)§r: Wenn du ein OC-Typ bist, gibt es 3 Verbesserungen, mit denen du den Zugriff auf dein Netzwerk von Robotern und Drohnen aus erweitern kannst.%nT1: 0,5 Access-Point-Reichweite%nT2: Normale Access-Point-Reichweite%nT3: Unbegrenzte Reichweite, jede Dimension%n%n§lEntropie-Manipulator§r: Verwandelt Gras/Erde/getrocknete Erde ineinander oder entfacht Feuer. Oder schmilzt Eis. Nutzlos.%n%n§lMateriekanone§r: Schießt Materieballen ab, die im Materiekonkondensator hergestellt wurden. Leg sie in eine ME-Truhe oder einen Laufwerk und leg Gegenstände in ein Terminal, um sie zu füllen. Ganz okay, denke ich? Aber es zerstört jedes Mal Blöcke, wenn du es benutzt, also ... Naja, du könntest es vielleicht mit Farbkugeln verwenden?%n%n§lFarbauftraggerät§r: Benutze Farbstoffe oder Farbkugeln (effizienter), um Sachen zu färben. Du kannst Kabel oder alles, was mit Forge kompatibel ist, wie Wolle oder Glas, färben. Leg die Gegenstände wie bei der Materiekanone hinein. Du kannst durch die Farben blättern, indem du UMSCHALT gedrückt hältst und mit der rechten Maustaste klickst oder mit dem Mausrad scrollst. Wenn du Schneebälle verwendest, kannst du stattdessen Farbe entfernen. Du kannst es auch in einem Spender verwenden.%n%n§6§lWalross§r: Es ist ein Walross, was hast du denn erwartet?
 
 # Quest: Magical Minions
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ9Q.name=Magische Helfer
@@ -10274,98 +10274,98 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB_w.desc=Mit dieser coolen Maschine kann
 
 # Quest: Genetic Transposer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACAA.name=Genetischer Transposer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAA.desc=DNA samples of species and/or traits are pretty valuable. You always should keep at least one of each gene sample you get your hand on in a chest somewhere safe. By using this machine, you are able to copy any gene sample, for the cost of an empty serum vial and some labware.%n%n[note]You don't actually need to keep all of them if you don't intend to use them of course.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAA.desc=DNA-Proben von Spezies und/oder Merkmalen sind echt wertvoll. Du solltest immer mindestens eine Probe von jedem Gen, das du in die Finger bekommst, an einem sicheren Ort aufbewahren. Mit diesem Gerät kannst du jede Genprobe kopieren, und das kostet dich nur ein leeres Serumfläschchen und ein paar Laborutensilien.%n%n[note] Du musst natürlich nicht alle aufbewahren, wenn du nicht vorhast, sie zu verwenden.[/note]
 
 # Quest: Advanced Mutatron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAQ.name=Advanced Mutatron
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAQ.desc=A more advanced version of the mutatron. It uses more energy to mutate a drone with a princess, and you can select which mutation you want to have. This machine is a must-have for high-tier bees.%n%n[note]You'll need neutronium bees to make this.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAQ.name=Erweitertes Mutatron
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAQ.desc=Eine verbesserte Version des Mutatron. Es braucht mehr Energie, um eine Drohne mit einer Prinzessin zu mutieren, und du kannst auswählen, welche Mutation du haben willst. Diese Maschine ist ein Muss für hochwertige Bienen.%n%n[note]Du brauchst Neutronium-Bienen, um sie herzustellen.[/note]
 
 # Quest: Blank Gene Samples
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAg.name=Blank Gene Samples
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAg.desc=To get the various traits from a bee, you need a lot of power, labware and an empty gene sample. You don't need a lot of those, as you can just throw them in a furnace to remove remaining DNA of traits you don't need or want.%n%nIn the meantime you can start working with the Genetics mod, since we all know Gendustry is too easy... Genetics is used for bees, trees, and Botany flowers so it gets its own quest tab. Gendustry is really good for bees, but will require top tier equipment.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAg.name=Leere Genproben
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAg.desc=Um die verschiedenen Merkmale einer Biene zu bekommen, brauchst du viel Power, Laborgeräte und eine leere Genprobe. Davon brauchst du nicht viele, weil du sie einfach in einen Ofen werfen kannst, um die restliche DNA von Merkmalen zu entfernen, die du nicht brauchst oder willst.%n%nIn der Zwischenzeit kannst du mit dem Genetics-Mod loslegen, weil wir alle wissen, dass Gendustry zu einfach ist... Genetics wird für Bienen, Bäume und Botanikblumen verwendet, daher hat sie einen eigenen Quest-Tab. Gendustry eignet sich super für Bienen, erfordert aber hochwertige Ausrüstung.
 
 # Quest: Genetic Template
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAw.name=Genetic Template
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACAw.desc=Templates are used to combine multiple gene samples into one large batch. It can be used to apply multiple traits at once, but you can also replicate a bee from liquid DNA and protein, if you manage to fill all 13 traits in one template. These templates can also be copied, just like the small samples.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAw.name=Genetische Vorlage
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACAw.desc=Mit Vorlagen kannst du mehrere Genproben zu einem großen Stapel zusammenfassen. Damit kannst du mehrere Merkmale auf einmal anwenden, aber auch eine Biene aus flüssiger DNA und Protein nachbauen, wenn du alle 13 Merkmale in einer Vorlage ausfüllst. Diese Vorlagen kannst du auch kopieren, genau wie die kleinen Proben.
 
 # Quest: A Rather Cruel Disposal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBA.name=A Rather Cruel Disposal
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBA.desc=You'll probably end up with a lot of excess drones while doing bees. (Or saplings if you do trees). Instead of throwing them away, you could also turn them into... something useful.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBA.name=Eine ziemlich brutale Beseitigung
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBA.desc=Wenn du dich mit Bienen beschäftigst, wirst du wahrscheinlich viele überschüssige Drohnen haben (oder Setzlinge, wenn du dich mit Bäumen beschäftigst). Anstatt sie wegzuwerfen, könntest du sie auch in etwas Nützliches verwandeln.
 
 # Quest: Arnie's Blender
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBQ.name=Arnie's Blender
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBQ.desc=They say breakfast is the most important meal of the day. This machine turns raw meat into liquid protein, which is used to create bees from scratch. Which has §oabsolutely nothing§r to do with breakfast.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBQ.name=Arnies Mixer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBQ.desc=Man sagt, das Frühstück sei die wichtigste Mahlzeit des Tages. Diese Maschine verwandelt rohes Fleisch in flüssiges Protein, das zur Herstellung von Bienen von Grund auf verwendet wird. Was §oabsolut nichts§r mit Frühstück zu tun hat.
 
 # Quest: And There Shall be Light
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBg.name=And There Shall be Light
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBg.desc=Out of princesses to inject traits to? Too lazy to find hives and get more bees? Not a problem. With this nifty little device, you can use a ton of power, liquid DNA and protein to create any bee you wish to have. The only drawback is: All bees will be ignoble, which means they will die after a random amount of cycles after 90.%n%nOf course, there's an upgrade for the industrial apiary to deal with that
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBg.name=Und es werde Licht
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBg.desc=Keine Prinzessinnen mehr, denen du Eigenschaften einpflanzen kannst? Zu faul, um Bienenstöcke zu suchen und mehr Bienen zu holen? Kein Problem. Mit diesem coolen kleinen Gerät kannst du mit viel Energie, flüssiger DNA und Proteinen jede Biene erschaffen, die du willst. Der einzige Haken ist: Alle Bienen werden unedle Bienen sein, was bedeutet, dass sie nach einer zufälligen Anzahl von Zyklen nach 90 sterben werden%n%nNatürlich gibt es ein Upgrade für die industrielle Imkerei, um das zu beheben.
 
 # Quest: Only the Best: Temperature
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBw.name=Only the Best: Temperature
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACBw.desc=On your way to awesome bees, you have to collect only the best traits available.%n%n[note]None is for testing jubilant state, while 3 is what you'll have on most of the time. You can hit all temp requirements with 3 if you work in a normal temp area. You can go up to 5 if you use the acclimatiser and want nether bees working in an icy area for some reason.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBw.name=Nur das Beste: Temperatur
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACBw.desc=Auf deinem Weg zu fantastischen Bienen musst du nur die besten verfügbaren Eigenschaften sammeln.%n%n[note] Keine ist zum Testen des Jubilant-Zustands gedacht, während 3 das ist, was du die meiste Zeit haben wirst. Mit 3 kannst du alle Temperaturanforderungen erfüllen, wenn du in einem Bereich mit normalen Temperaturen arbeitest. Du kannst bis zu 5 gehen, wenn du den Akklimatisierer verwendest und aus irgendeinem Grund Bienen in einem eisigen Gebiet arbeiten lassen möchtest.[/note]
 
 # Quest: Only the Best: Humidity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCA.name=Only the Best: Humidity
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCA.desc=On your way to awesome bees, you have to collect only the best traits available.%n%n[note]None is for testing jubilant state, while 2 is what you'll have on most of the time. 3+ don't do anything as the range doesn't go that high.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCA.name=Nur das Beste: Feuchtigkeit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCA.desc=Auf deinem Weg zu fantastischen Bienen musst du nur die besten verfügbaren Eigenschaften sammeln.%n%n[note]Keine dient zum Testen des Jubilant-Zustands, während 2 das ist, was du die meiste Zeit haben wirst. 3+ bewirken nichts, da der Bereich nicht so hoch ist.[/note]
 
 # Quest: Only the Best: Fertility
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCQ.name=Only the Best: Fertility
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCQ.desc=On your way to awesome bees, you have to collect only the best traits available. Bees bees everywhere!%n%n[note]F4 is great while breeding bees, but F1 is what you want to use when producing stuff.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCQ.name=Nur das Beste: Fruchtbarkeit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCQ.desc=Auf deinem Weg zu großartigen Bienen musst du nur die besten verfügbaren Eigenschaften sammeln. Überall Bienen!%n%n[note]F4 eignet sich hervorragend für die Zucht von Bienen, aber F1 ist das, was du für die Produktion verwenden solltest.[/note]
 
 # Quest: Highend species: Draconic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCg.name=Highend species: Draconic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCg.desc=On your way to awesome bees, you have to collect only the best traits available.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCg.name=Premium-Spezies: Drakonisch
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCg.desc=Auf deinem Weg zu großartigen Bienen musst du nur die besten verfügbaren Eigenschaften sammeln.
 
 # Quest: Highend species: Doctoral
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCw.name=Highend species: Doctoral
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACCw.desc=On your way to awesome bees, you have to collect only the best traits available.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCw.name=Premium-Spezies: Doktoranden
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACCw.desc=Auf deinem Weg zu großartigen Bienen musst du nur die besten verfügbaren Eigenschaften sammeln.
 
 # Quest: Only the Best: Speed Blinding
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACDA.name=Only the Best: Speed Blinding
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDA.desc=On your way to awesome bees, you have to collect only the best traits available. Buzz buzz buzz, working hard and really buzzing!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDA.desc=Auf deinem Weg zu großartigen Bienen musst du nur die besten verfügbaren Eigenschaften sammeln. Summen, summen, summen, hart arbeiten und richtig gut drauf sein!
 
 # Quest: Highend species: Silicon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDQ.name=Highend species: Silicon
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDQ.desc=On your way to awesome bees, you have to collect only the best traits available.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDQ.name=Premium-Spezies: Silizium
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDQ.desc=Auf deinem Weg zu großartigen Bienen musst du nur die besten verfügbaren Eigenschaften sammeln.
 
 # Quest: Only the Best: Rain
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDg.name=Only the Best: Rain
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDg.desc=On your way to awesome bees, you have to collect only the best traits available. Beekeeping in the rain! Make sure to keep your GT machines covered!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDg.name=Nur das Beste: Regen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDg.desc=Auf deinem Weg zu großartigen Bienen musst du nur die besten verfügbaren Eigenschaften sammeln. Bienenzucht im Regen! Pass auf, dass deine GT-Maschinen gut abgedeckt sind!
 
 # Quest: Only the Best: Day and Night
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDw.name=Only the Best: Day and Night
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACDw.desc=On your way to awesome bees, you have to collect only the best traits available. Bee working day and night, all night and all day long!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDw.name=Nur das Beste: Tag und Nacht
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACDw.desc=Auf deinem Weg zu großartigen Bienen musst du nur die besten verfügbaren Eigenschaften sammeln. Bienen arbeiten Tag und Nacht, die ganze Nacht und den ganzen Tag lang!
 
 # Quest: Only the Best: Cave
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.name=Only the Best: Cave
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.desc=On your way to awesome bees, you have to collect only the best traits available. Bees with Cave can work in housing that is covered - by more housing!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.name=Nur das Beste: Höhle
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACEA.desc=Auf deinem Weg zu großartigen Bienen musst du nur die besten verfügbaren Eigenschaften sammeln. Bienen mit Höhle können in Behausungen arbeiten, die von weiteren Behausungen überdacht sind!
 
 # Quest: Go Find Some Tropical Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.name=Go Find Some Tropical Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.desc=Next you'll need to find some tropical bees. The hives can be found in Jungle biomes. Be careful as these bees are very aggressive and can poison you. Collect the silky combs and extract some silk wisp from those in order to make some Apiarist's clothes. Try to get pristine bees. If you're having trouble finding them, you can use Nature's Compass to search for a specific biome.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.name=Such ein paar Tropische Bienen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4A.desc=Als Nächstes musst du ein paar tropische Bienen finden. Die Bienenstöcke findest du in Dschungel-Biomen. Sei vorsichtig, denn diese Bienen sind echt aggressiv und können dich vergiften. Sammle die seidigen Waben und extrahiere daraus etwas Seidenfaden, um Kleidung für Imker herzustellen. Versuch, unberührte Bienen zu finden. Wenn du Probleme hast, sie zu finden, kannst du den Naturkompass verwenden, um nach einem bestimmten Biom zu suchen.
 
 # Quest: Silky Combs and Propoli
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.name=Silky Combs and Propoli
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.desc=Collect silky combs and extract some silk wisp out of it in order to make some Apiarist's clothes.%n%nThis can take a very long time, so parallelize!%n%nUse a GregTech or Forestry Centrifuge to get Silky Propoli. For higher tier (and useful) combs you need a GT centrifuge.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.name=Seidige Waben und Propolis
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4Q.desc=Sammle seidige Waben und hol ein bisschen Seidenfasern raus, um Imkerkleidung zu machen. Das kann echt lange dauern, also mach mehrere Sachen gleichzeitig! Benutz eine GregTech- oder Forestry-Zentrifuge, um seidige Propolis zu kriegen. Für bessere (und nützliche) Waben brauchst du eine GT-Zentrifuge.
 
 # Quest: Woven Silk
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.name=Woven Silk
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.desc=Centrifuge your silky propoli to get some silk wisp at a chance of 60 percent. Put 9 silk wisp in the Forestry carpenter or GregTech assembler to get woven silk.%n%nThis fine fabric can be used for crafting Apiarist's Clothes or to upgrade a Forestry Backpacks to 45 slots.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.name=Seidengewebe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD4w.desc=Zentrifugier dein seidiges Propolis, um mit einer Chance von 60 Prozent Seidenfäden zu bekommen. Leg 9 Seidenfäden in die Forestry-Schreinerei oder GregTech-Montagemaschine, um gewebte Seide zu machen. Dieser feine Stoff kann zum Herstellen von Imkerkleidung oder zum Aufrüsten eines Forestry-Rucksacks auf 45 Plätze benutzt werden.
 
 # Quest: Apiarist's Cloth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.name=Apiarist's Cloth
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.name=Imkerstoff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD5A.desc=If you have collected 24 woven silk you can make a complete Apiarist's suit to be protected from bee stings and other bad bee effects. You can also use the suit parts to upgrade your EnderIO Dark Steel Armor to have the same effect.
 
 # Quest: A Chest for Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVw.name=A Chest for Bees
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVw.desc=A chest for bees only. It can hold up to 125 different bees in one chest.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVw.name=Eine Truhe für Bienen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEVw.desc=Eine Truhe nur für Bienen. In einer Truhe können bis zu 125 verschiedene Bienen untergebracht werden.
 
 # Quest: Frames
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWA.name=Frames
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWA.desc=Untreated frames are the simplest frames. They do not work in bee houses, only in apiaries or alvearies. You will need them to craft bee houses.%n%nThey increase the bee's performance. Each untreated frame will double a bee's productivity.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWA.name=Rahmen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWA.desc=Unbehandelte Rahmen sind die einfachsten Rahmen. Du kannst sie nicht in Bienenhäusern verwenden, sondern nur in Bienenstöcken oder Bienenkästen. Du brauchst sie, um Bienenhäuser zu bauen.%n%nSie steigern die Leistung der Bienen. Jeder unbehandelte Rahmen verdoppelt die Produktivität einer Biene.
 
 # Quest: Impregnated Frames
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ.name=Impregnated Frames
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ.name=Imprägniertes Rahmen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWQ.desc=Impregnated Frames are even better than untreated Frames.%nEach frame doubles the bee's productivity. It has a longer durability than the untreated frame, but a shorter one compared to the proven frame.
 
 # Quest: Production Frames
@@ -10373,11 +10373,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWg.name=Production Frames
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEWg.desc=You can make proven frames or purchase them from a villager. If you can't find a beekeeper, there are a couple of different options to get one. Rescue a zombie villager, add doors to a village to get them to make kids, or perhaps use a cupid's bow and arrow...%n%nAbout magic frames:%nThey're the core of magically endowed frames. They also have a special ability - no maximum production chance. Normal frames are ineffective to get above 16x production (4 frames) but with magic frames you can keep going - just watch out, above 16x you'll be working your bees so hard they have a chance to degenerate into ignoble ones. This can happen any bee tick, not just when they die. Frames to lower genetic decay will lower the chances of this happening.%n%nOf course, with very long lifespans, high production genes, swarmers, and tons of frames, you may think this is worth it.%n%nNote that normal products have a cap of 200%% produced, and specialties 100%%.
 
 # Quest: Alvearies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.name=Alvearies
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.name=Bienenstöcke
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEYw.desc=The alveary is an advanced variant of the apiary. The alveary allows for combs to be produced faster due to its natural speed increase to production (as well as the ability to add up to six frames via the Extra Bees frame housings) and due to its ability to be modified by other blocks.%n%nIt is possible to adjust the internal temperature of the alveary using the alveary heater or alveary fan in order to accommodate bees that require hotter or colder climates.%n%nCertain bees will not produce their specialty items unless they are Jubilant. This requires matching their preferred Temperature/Humidity, without any genetic modifiers. Some bees also need a block of something beneath them as well.%n%nIt is also possible to use mutators to increase chances of mutation, alveary lighting and alveary rain shield to allow bees without the nocturnal and tolerant flyer traits to work during the night and rain, respectively, and the swarmer to use excess royal jelly to create princesses that last for a limited number of generations.%n%n[note]If you're mutating bees that need a specific block in it, you need to place the required block under the middle bottom, and have the one directly above be a normal alveary block.[/note]
 
 # Quest: Humid and Warm?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5w.name=Humid and Warm?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5w.name=Feucht und warm?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5w.desc=Stop guessing what the humidity and temperature are for your biome. Use the habitat locator to get a reading on your current climate.
 
 # Quest: Put the Drones in a Jar and Shake it Up
@@ -10385,11 +10385,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6A.name=Put the Drones in a Jar and Sha
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6A.desc=Once you get good effects from your bees, instead of just trashing the excess drones, you can put them in collector's jars to get the effects anywhere in your base.%n%nHealing? XP? Poison?%n%nThe collector's jars can even be piped or connected to a conveyor so that drones last a long time.%n%n[note]PS: Using the regen effect of Imperial bees while doing Blood Magic may be useful.[/note]
 
 # Quest: Death to Bees!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.name=Death to Bees!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.name=Tod den Bienen!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6Q.desc=These frames will let you kill your bees faster. It's to breed the next generation sooner, right? Not because you don't like them?
 
 # Quest: Keep Them Around
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.name=Keep Them Around
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.name=Halte sie in der Nähe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF6g.desc=These frames will keep your bees buzzing for longer. If you care, that is.
 
 # Quest: Are the Bees Buzzing, or Screaming?
@@ -10449,20 +10449,20 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAILg.name=X-Men, or Should I Say X-Bee?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILg.desc=The Mutator can vastly accelerate genetic mutations, even allowing those ultra rare bees to be bred. Items inserted into the Mutator control how much mutation it causes.%n%nSoul Sand - 50 percent increase%nEnder Pearl - 100 percent increase%nEye of Ender - 300 percent increase
 
 # Quest: Genepool
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.name=Genepool
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.desc=Another important resource is Raw DNA. This can be obtained from any breedable organism such as bees, trees or flowers, and is created in the Genepool. The Genepool requires both Ethanol and Enzyme to digest the DNA, and will destroy the organism. Note this gives raw DNA, and does not preserve any genes or alleles present.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.name=Genpool
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.desc=Eine weitere wichtige Ressource ist Roh-DNA. Die kann man von jedem züchtbaren Organismus wie Bienen, Bäumen oder Blumen bekommen und wird im Genpool hergestellt. Der Genpool braucht sowohl Ethanol als auch Enzyme, um die DNA zu verdauen, und zerstört dabei den Organismus. Achtung: Dabei entsteht Roh-DNA, wobei keine vorhandenen Gene oder Allele erhalten bleiben.
 
 # Quest: Isolator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMA.name=Isolator
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMA.desc=The Isolator acts in a similar way to the Genepool, but does not completely destroy genes. It instead allows the isolation of a single gene from an organism, without destroying it. The exact gene is random, and is written into a Blank Sequence. Until the sequence is analyzed in an Analyzer, it will be unknown what the gene is. It doesn't however need to be analyzed before being sent to the Sequencer.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMA.desc=Der Isolator funktioniert ähnlich wie der Genpool, zerstört aber die Gene nicht komplett. Stattdessen kann man damit ein einzelnes Gen aus einem Organismus isolieren, ohne es kaputt zu machen. Welches Gen das genau ist, ist Zufall und wird in eine leere Sequenz geschrieben. Bis die Sequenz in einem Analysator analysiert wird, weiß man nicht, um welches Gen es sich handelt. Es muss aber nicht analysiert werden, bevor es an den Sequenzer geschickt wird.
 
 # Quest: Sequencer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMQ.name=Sequencer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMQ.desc=After obtaining a DNA Sequence with the gene that you wish, it must be placed in the Sequencer. This uses Fluorescent Dye to determine the correct sequence, and when completed logs the discovery. The important thing here is that the discovery goes to the person who placed the machine.%n%nGenes are sequenced faster if the sequence has been placed in a Polymeriser first to increase the strength.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMQ.name=Sequenzer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMQ.desc=Nachdem du eine DNA-Sequenz mit dem gewünschten Gen bekommen hast, musst du sie in den Sequenzer stecken. Der benutzt einen fluoreszierenden Farbstoff, um die richtige Sequenz zu bestimmen, und wenn er fertig ist, speichert er die Entdeckung. Wichtig ist, dass die Entdeckung der Person gehört, die die Maschine eingesetzt hat.%n%nGene werden schneller sequenziert, wenn die Sequenz vorher in einen Polymerisator gesteckt wurde, um sie zu verstärken.
 
 # Quest: Polymeriser
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.name=Polymeriser
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.desc=Serums and sequences can be placed in a Polymeriser to increase their strength and amount of DNA held within. Serums need to be polymerised at least once before being used in the inoculator. To polymerise, both Raw DNA and Polymerising Bacteria are required. Raw DNA is obtained from the Genepool, and Polymerising Bacteria is made from incubating bacteria with bone meal. Gold nuggets can be used as a catalyst to speed up the process.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.name=Polymerisator
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.desc=Seren und Sequenzen kannst du in einen Polymerisator stecken, um ihre Stärke und die Menge an DNA darin zu erhöhen. Seren müssen mindestens einmal polymerisiert werden, bevor du sie im Inokulator verwenden kannst. Für die Polymerisation brauchst du sowohl Roh-DNA als auch polymerisierende Bakterien. Roh-DNA bekommst du aus dem Genpool, und polymerisierende Bakterien werden durch Inkubation von Bakterien mit Knochenmehl hergestellt. Goldnuggets können als Katalysator verwendet werden, um den Prozess zu beschleunigen.
 
 # Quest: Gene Database
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMw.name=Gene Database
@@ -10485,20 +10485,20 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOA.name=Tools for the Geneticist
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOA.desc=You'll need various tools and supplies before you start manipulating genetic material.
 
 # Quest: Figuring Out Butterflies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOg.name=Figuring Out Butterflies
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOg.desc=Butterflies don't do much, but this analyzer will give you details on their abilities.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOg.name=Schmetterlinge verstehen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOg.desc=Schmetterlinge machen nicht viel, aber dieser Analysator zeigt dir, welche Fähigkeiten sie haben.
 
 # Quest: Bee More Knowledgeable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.name=Bee More Knowledgeable
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.desc=This database keeps track of everything bee.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.name=Sammle mehr Wissens-Nektar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPA.desc=Diese Datenbank behält den Überblick über alles, was mit Bienen zu tun hat.
 
 # Quest: Fluttering Facts
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.name=Fluttering Facts
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.desc=This database tracks all your knowledge of butterflies.%n%nBTW, see the BBB tab for the Botany stuff.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.name=Flatternde Fakten
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIPQ.desc=Diese Datenbank sammelt alles, was du über Schmetterlinge weißt.%n%nÜbrigens, schau mal auf die Registerkarte „BBB” für Botanik-Zeug.
 
 # Quest: Keep Calm and Bee On
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzw.name=Keep Calm and Bee On
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzw.desc=This frame will let your bees last longer, and also increase the territory to help with tree breeding.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIzw.desc=Mit diesem Rahmen halten deine Bienen länger und du kannst das Gebiet vergrößern, was die Baumzucht unterstützt.
 
 # Quest: Ghetto Biome Changing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJcA.name=Ghetto Biome Changing
