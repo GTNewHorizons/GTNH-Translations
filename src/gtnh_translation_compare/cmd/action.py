@@ -2,6 +2,7 @@ import asyncio
 import datetime
 import glob
 import os
+import shutil
 from pathlib import Path
 import subprocess
 from typing import Sequence, TypeAlias, Callable, Optional
@@ -201,6 +202,9 @@ class Action:
 
         paths_to_commit: list[str] = []
         modpack = ModPack(Path(modpack_path))
+
+        clear_folder(repo_path / subdirectory)
+
         for lang_file in modpack.lang_files(Language.en_US):
             relpath = get_relpath(lang_file.get_en_us_relpath())
             write_file(os.path.abspath(relpath), lang_file.content)
@@ -445,6 +449,14 @@ def write_file(filepath: str, content: str) -> None:
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, "w") as fp:
         fp.write(content)
+
+def clear_folder(filepath: str) -> None:
+  path = Path(filepath)
+  for item in path.iterdir():
+    if item.is_file() or item.is_symlink():
+      item.unlink()
+    elif item.is_dir():
+      shutil.rmtree(item)
 
 def is_mod_lang_file(name: str) -> bool:
     return any(
