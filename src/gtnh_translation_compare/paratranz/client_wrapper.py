@@ -175,6 +175,9 @@ class ClientWrapper:
 
     @retry_after_429()
     async def _update_file(self, file_id: int, paratranz_file: ParatranzFile) -> None:
+        old_strings = await self.get_strings(file_id)
+        self._preserve_existing_manual_translations(old_strings, paratranz_file)
+
         res = await self.client.post(
             url=f"projects/{self.project_id}/files/{file_id}",
             files={"file": paratranz_file.file_to_be_uploaded},
@@ -187,10 +190,15 @@ class ClientWrapper:
             "update_file[file_id={}] failed with 413 Payload Too Large; falling back to per-string updates",
             file_id,
         )
-        await self._update_file_by_strings(file_id, paratranz_file)
+        await self._update_file_by_strings(file_id, paratranz_file, old_strings)
 
-    async def _update_file_by_strings(self, file_id: int, paratranz_file: ParatranzFile) -> None:
-        old_strings = await self.get_strings(file_id)
+    async def _update_file_by_strings(
+        self,
+        file_id: int,
+        paratranz_file: ParatranzFile,
+        old_strings: Optional[List[StringItem]] = None,
+    ) -> None:
+        old_strings = old_strings if old_strings is not None else await self.get_strings(file_id)
         sync_plan = self._prepare_string_sync_plan(old_strings, paratranz_file)
 
         if len(sync_plan.removed_ids) > 0:
@@ -214,7 +222,6 @@ class ClientWrapper:
             len(sync_plan.added_strings),
             len(sync_plan.updated_strings),
         )
-
     @staticmethod
     def _prepare_string_sync_plan(
         old_strings: List[StringItem],
@@ -265,6 +272,21 @@ class ClientWrapper:
             added_strings=added_strings,
             updated_strings=updated_strings,
         )
+
+    @staticmethod
+    def _preserve_existing_manual_translations(
+        old_strings: List[StringItem],
+        paratranz_file: ParatranzFile,
+    ) -> None:
+        old_strings_map: dict[str, StringItem] = {s.key: s for s in old_strings}
+        for s in paratranz_file.string_items:
+            old_string = old_strings_map.get(s.key)
+            if old_string is None:
+                continue
+            if old_string.original == s.original and not s.translation:
+                # Keep manual translation if source text did not change.
+                s.translation = old_string.translation
+                s.stage = 1
 
     @staticmethod
     def _is_string_changed(old_string: StringItem, new_string: StringItem) -> bool:
