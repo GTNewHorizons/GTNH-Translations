@@ -1,6 +1,6 @@
 import asyncio
 import os
-from typing import Optional, List, Sequence, cast, Callable
+from typing import Optional, List, Sequence, cast, Callable, NamedTuple
 
 from asyncache import cached  # type: ignore[import]
 from cachetools import LRUCache  # type: ignore[import]
@@ -55,6 +55,11 @@ class AllFilesCache(BaseModel):
 
 
 class ClientWrapper:
+    class StringSyncPlan(NamedTuple):
+        removed_ids: List[int]
+        added_strings: List[StringItem]
+        updated_strings: List[StringItem]
+
     def __init__(self, client: AsyncClient, project_id: int, cache_dir: str) -> None:
         self.client = client
         self.project_id = project_id
@@ -171,21 +176,126 @@ class ClientWrapper:
     @retry_after_429()
     async def _update_file(self, file_id: int, paratranz_file: ParatranzFile) -> None:
         old_strings = await self.get_strings(file_id)
-        old_strings_map: dict[str, StringItem] = {s.key: s for s in old_strings}
-        for s in paratranz_file.string_items:
-            if s.key in old_strings_map and old_strings_map[s.key].original == s.original:
-                # If the translation attribute is not empty, meaning that it is in non-automation
-                # and is manually assigned, then that value prevails
-                if not s.translation:
-                    old_translation = old_strings_map[s.key].translation
-                    s.translation = old_translation
-                    s.stage = 1
+        self._preserve_existing_manual_translations(old_strings, paratranz_file)
 
         res = await self.client.post(
             url=f"projects/{self.project_id}/files/{file_id}",
             files={"file": paratranz_file.file_to_be_uploaded},
         )
-        self._log_res(f"update_file[file_id={file_id}]", res)
+        if res.status_code != 413:
+            self._log_res(f"update_file[file_id={file_id}]", res)
+            return
+
+        logger.warning(
+            "update_file[file_id={}] failed with 413 Payload Too Large; falling back to per-string updates",
+            file_id,
+        )
+        await self._update_file_by_strings(file_id, paratranz_file, old_strings)
+
+    async def _update_file_by_strings(
+        self,
+        file_id: int,
+        paratranz_file: ParatranzFile,
+        old_strings: Optional[List[StringItem]] = None,
+    ) -> None:
+        old_strings = old_strings if old_strings is not None else await self.get_strings(file_id)
+        sync_plan = self._prepare_string_sync_plan(old_strings, paratranz_file)
+
+        if len(sync_plan.removed_ids) > 0:
+            await self.delete_strings(sync_plan.removed_ids)
+        if len(sync_plan.added_strings) > 0:
+            await self.create_strings(file_id, sync_plan.added_strings)
+        if len(sync_plan.updated_strings) > 0:
+            await self.upload_strings(sync_plan.updated_strings)
+
+        if (
+            len(sync_plan.removed_ids) == 0
+            and len(sync_plan.added_strings) == 0
+            and len(sync_plan.updated_strings) == 0
+        ):
+            logger.info("[update_file]no changed strings: file_id={}", file_id)
+            return
+        logger.info(
+            "[update_file]string sync finished: file_id={}, removed={}, added={}, updated={}",
+            file_id,
+            len(sync_plan.removed_ids),
+            len(sync_plan.added_strings),
+            len(sync_plan.updated_strings),
+        )
+    @staticmethod
+    def _prepare_string_sync_plan(
+        old_strings: List[StringItem],
+        paratranz_file: ParatranzFile,
+    ) -> "ClientWrapper.StringSyncPlan":
+        old_strings_map: dict[str, StringItem] = {s.key: s for s in old_strings}
+        new_strings_map: dict[str, StringItem] = {s.key: s for s in paratranz_file.string_items}
+        new_keys = {s.key for s in paratranz_file.string_items}
+        old_keys = set(old_strings_map.keys())
+
+        removed_ids: List[int] = []
+        for removed_key in old_keys - new_keys:
+            removed_id = old_strings_map[removed_key].id
+            if removed_id is not None:
+                removed_ids.append(removed_id)
+
+        added_strings: List[StringItem] = []
+        for added_key in new_keys - old_keys:
+            new_string = new_strings_map[added_key]
+            added_strings.append(
+                StringItem(
+                    key=new_string.key,
+                    original=new_string.original,
+                    translation=new_string.translation,
+                    context=new_string.context,
+                    stage=new_string.stage,
+                )
+            )
+
+        updated_strings: List[StringItem] = []
+        for s in paratranz_file.string_items:
+            if s.key not in old_strings_map:
+                continue
+            old_string = old_strings_map[s.key]
+            if old_string.original == s.original:
+                # If the translation attribute is not empty, meaning that it is in non-automation
+                # and is manually assigned, then that value prevails
+                if not s.translation:
+                    s.translation = old_string.translation
+                    s.stage = 1
+            s.id = old_string.id
+
+            if ClientWrapper._is_string_changed(old_string, s):
+                updated_strings.append(s)
+
+        return ClientWrapper.StringSyncPlan(
+            removed_ids=removed_ids,
+            added_strings=added_strings,
+            updated_strings=updated_strings,
+        )
+
+    @staticmethod
+    def _preserve_existing_manual_translations(
+        old_strings: List[StringItem],
+        paratranz_file: ParatranzFile,
+    ) -> None:
+        old_strings_map: dict[str, StringItem] = {s.key: s for s in old_strings}
+        for s in paratranz_file.string_items:
+            old_string = old_strings_map.get(s.key)
+            if old_string is None:
+                continue
+            if old_string.original == s.original and not s.translation:
+                # Keep manual translation if source text did not change.
+                s.translation = old_string.translation
+                s.stage = 1
+
+    @staticmethod
+    def _is_string_changed(old_string: StringItem, new_string: StringItem) -> bool:
+        return (
+            old_string.original != new_string.original
+            or old_string.translation != new_string.translation
+            or old_string.context != new_string.context
+            or old_string.stage != new_string.stage
+        )
 
     @retry_after_429()
     async def _save_file_extra(self, file_id: int, paratranz_file: ParatranzFile) -> None:
@@ -206,6 +316,36 @@ class ClientWrapper:
         await asyncio.gather(*tasks)
         logger.info("[upload_strings]finished_all: strings_count={}", len(strings))
 
+    async def create_strings(self, file_id: int, strings: list[StringItem]) -> None:
+        async def create(_sem: asyncio.Semaphore, string: StringItem) -> None:
+            async with _sem:
+                await self._create_string(file_id, string)
+
+        sem = asyncio.Semaphore(10)
+        tasks = [create(sem, string) for string in strings]
+        await asyncio.gather(*tasks)
+        logger.info("[create_strings]finished_all: strings_count={}", len(strings))
+
+    async def delete_strings(self, string_ids: list[int]) -> None:
+        async def delete(_sem: asyncio.Semaphore, string_id: int) -> None:
+            async with _sem:
+                await self._delete_string(string_id)
+
+        sem = asyncio.Semaphore(10)
+        tasks = [delete(sem, string_id) for string_id in string_ids]
+        await asyncio.gather(*tasks)
+        logger.info("[delete_strings]finished_all: strings_count={}", len(string_ids))
+
+    @retry_after_429()
+    async def _create_string(self, file_id: int, string: StringItem) -> None:
+        payload = string.model_dump(exclude={"id"}, exclude_none=True)
+        payload["file"] = file_id
+        res = await self.client.post(
+            url=f"projects/{self.project_id}/strings",
+            json=payload,
+        )
+        self._log_res(f"create_strings[file_id={file_id}, key={string.key}]", res)
+
     @retry_after_429()
     async def _upload_string(self, string: StringItem) -> None:
         res = await self.client.put(
@@ -213,6 +353,13 @@ class ClientWrapper:
             json=string.model_dump()
         )
         self._log_res(f"upload_strings[string_id={string.id}]", res)
+
+    @retry_after_429()
+    async def _delete_string(self, string_id: int) -> None:
+        res = await self.client.delete(
+            url=f"projects/{self.project_id}/strings/{string_id}",
+        )
+        self._log_res(f"delete_strings[string_id={string_id}]", res)
 
     @staticmethod
     def _log_res(request_name: str, res: Response) -> None:
