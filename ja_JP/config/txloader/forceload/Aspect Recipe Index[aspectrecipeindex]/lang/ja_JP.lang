@@ -1,26 +1,26 @@
-aspectrecipeindex.items_containing_aspect.title=Items Containing Aspect
-aspectrecipeindex.items_containing_aspect.still_load=Still loading... (%s/%s)
-aspectrecipeindex.items_containing_aspect.aspect_list=Aspects
-aspectrecipeindex.aspect_combination.title=Aspect Combination
-aspectrecipeindex.alchemy.title=Alchemy
-aspectrecipeindex.infusion.title=Arcane Infusion
-aspectrecipeindex.shaped_arcane_crafting.title=Shaped Arcane Crafting
-aspectrecipeindex.wand_crafting.title=Wand Crafting
-aspectrecipeindex.shapeless_arcane_crafting.title=Shapeless Arcane Crafting
+aspectrecipeindex.items_containing_aspect.title=相を含むアイテム
+aspectrecipeindex.items_containing_aspect.still_load=読み込み中... (%s/%s)
+aspectrecipeindex.items_containing_aspect.aspect_list=相
+aspectrecipeindex.aspect_combination.title=相の組み合わせ
+aspectrecipeindex.alchemy.title=錬金術
+aspectrecipeindex.infusion.title=神秘の祭壇
+aspectrecipeindex.shaped_arcane_crafting.title=神秘の作業台 (定形レシピ)
+aspectrecipeindex.wand_crafting.title=杖のクラフト
+aspectrecipeindex.shapeless_arcane_crafting.title=神秘の作業台 (不定形レシピ)
 
-aspectrecipeindex.research.missing=You haven't completed the research required to craft this item
-aspectrecipeindex.research.researchName=Research
-aspectrecipeindex.research.researchName_rod=Rod Research
-aspectrecipeindex.research.researchName_cap=Cap Research
-aspectrecipeindex.research.prerequisites.parents=Parent research
-aspectrecipeindex.research.prerequisites.parentsHidden=Parent hidden research
-aspectrecipeindex.research.prerequisites.item=Scan item
-aspectrecipeindex.research.prerequisites.entity=Scan entity
-aspectrecipeindex.research.prerequisites.aspect=Scan aspect
-aspectrecipeindex.research.prerequisites.kill=Kill and Scan
-aspectrecipeindex.research.prerequisites.allresearched=You have done all the required research
+aspectrecipeindex.research.missing=このアイテムのクラフトに必要な研究を完了していません
+aspectrecipeindex.research.researchName=研究
+aspectrecipeindex.research.researchName_rod=杖身の研究
+aspectrecipeindex.research.researchName_cap=石突の研究
+aspectrecipeindex.research.prerequisites.parents=前提研究
+aspectrecipeindex.research.prerequisites.parentsHidden=非表示の前提研究
+aspectrecipeindex.research.prerequisites.item=アイテムの調査
+aspectrecipeindex.research.prerequisites.entity=エンティティの調査
+aspectrecipeindex.research.prerequisites.aspect=相の調査
+aspectrecipeindex.research.prerequisites.kill=討伐と調査
+aspectrecipeindex.research.prerequisites.allresearched=必要な研究はすべて完了しています
 
-aspectrecipeindex.gui.nei.seeAll=See All
+aspectrecipeindex.gui.nei.seeAll=すべて見る
 aspectrecipeindex.gui.textColor=404040
 aspectrecipeindex.gui.instabilityColorOff=FFFFFF
 aspectrecipeindex.gui.instabilityColor0=0000AA
@@ -32,16 +32,17 @@ aspectrecipeindex.gui.instabilityColor5=AA0000
 aspectrecipeindex.gui.researchNameColor=000000
 aspectrecipeindex.gui.loadingTextColor=00CC00
 
-aspectrecipeindex.config.general=General
+aspectrecipeindex.config.general=一般
 
-aspectrecipeindex.config.general.showLockedRecipes=Show locked recipes
-aspectrecipeindex.config.general.showLockedRecipes.tooltip=Show recipes even if the research is not completed
-aspectrecipeindex.config.general.showInstabilityNumber=Show number of instability
-aspectrecipeindex.config.general.showInstabilityNumber.tooltip=Show the number of instability for infusion recipes
-aspectrecipeindex.config.general.showResearchKey=Show research key
-aspectrecipeindex.config.general.showUndiscoveredAspects=Show names and recipes of undiscovered aspects in NEI
+aspectrecipeindex.config.general.showLockedRecipes=未解禁のレシピを表示
+aspectrecipeindex.config.general.showLockedRecipes.tooltip=研究が完了していない場合でもレシピを表示します
+aspectrecipeindex.config.general.showInstabilityNumber=不安定度を表示
+aspectrecipeindex.config.general.showInstabilityNumber.tooltip=注入の不安定さを数値で表示します
+aspectrecipeindex.config.general.showResearchKey=研究のキーを表示
+aspectrecipeindex.config.general.showUndiscoveredAspectNames=Show names of undiscovered aspects when hovered in NEI
+aspectrecipeindex.config.general.showUndiscoveredAspectRecipes=Show combination recipes of undiscovered aspects in NEI
 
-aspectrecipeindex.aspect.undiscovered=%s (Undiscovered)
+aspectrecipeindex.aspect.undiscovered=%s (未発見)
 
-tc.research_name.CAP_iron=Basic Thaumaturgy
-tc.research_name.ROD_wood=Basic Thaumaturgy
+tc.research_name.CAP_iron=基本的な魔導学
+tc.research_name.ROD_wood=基本的な魔導学
