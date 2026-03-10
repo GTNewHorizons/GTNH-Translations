@@ -1273,15 +1273,15 @@ GT5U.machines.industrialapiary.upgradeslot.tooltip=Слот улучшения
 GT5U.machines.industrialapiary.autoqueen.tooltip=Автоматически помещать матку после размножения во входной слот
 GT5U.machines.industrialapiary.autoqueen.tooltip.1=§7Не требует улучшение "Автоматизация"
 GT5U.machines.industrialapiary.autoqueen.tooltip.2=§7§oЭта опция игнорируется, если установлено улучшение "Автоматизация"
-GT5U.machines.advdebugstructurewriter.tooltip=Сканирует блоки вокруг
-GT5U.machines.advdebugstructurewriter.tooltip.1=Печатает код не-ТЕ структуры мультиблоков
-GT5U.machines.advdebugstructurewriter.tooltip.2=ABC axes aligned to machine front
-GT5U.machines.advdebugstructurewriter.printed=Printed structure to console
-GT5U.machines.advdebugstructurewriter.gui.origin=Оригинал
-GT5U.machines.advdebugstructurewriter.gui.size=Размер структуры
-GT5U.machines.advdebugstructurewriter.gui.print.tooltip=Print Structure
-GT5U.machines.advdebugstructurewriter.gui.highlight.tooltip=Show Bounding Box
-GT5U.machines.advdebugstructurewriter.gui.transpose.tooltip=Transpose
+GT5U.machines.debugstructurewriter.tooltip=Scans Blocks Around
+GT5U.machines.debugstructurewriter.tooltip.1=Prints Multiblock NonTE structure check code
+GT5U.machines.debugstructurewriter.tooltip.2=ABC axes aligned to machine front
+GT5U.machines.debugstructurewriter.printed=Printed structure to console
+GT5U.machines.debugstructurewriter.gui.origin=Origin
+GT5U.machines.debugstructurewriter.gui.size=Structure Size
+GT5U.machines.debugstructurewriter.gui.print.tooltip=Print Structure
+GT5U.machines.debugstructurewriter.gui.highlight.tooltip=Show Bounding Box
+GT5U.machines.debugstructurewriter.gui.transpose.tooltip=Transpose
 GT5U.machines.nei_transfer.steam.tooltip=%s steam recipes
 GT5U.machines.nei_transfer.voltage.tooltip=Рецепты доступные на %s
 GT5U.machines.emit_energy.tooltip=Emit energy to output side
@@ -1339,6 +1339,7 @@ GT5U.machines.betterjukebox.shuffle.tooltip=Режим случайного во
 GT5U.machines.betterjukebox.headphonesbound=Наушники привязаны к проигрывателю
 GT5U.machines.betterjukebox.headphonesunbound=Shift+клик на электрическом проигрывателе для привязки наушников
 GT5U.machines.computation_hatch.computation=Вычисление
+GT5U.machines.computation_hatch.computation.amount=Computation: §e%s
 GT5U.machines.laser_hatch.amperage=Ампераж
 GT5U.machines.hatch_output.lockfluid.label=Закреплено
 GT5U.machines.hatch_output.lockfluid.empty=Нет
@@ -2105,10 +2106,37 @@ GT5U.chat.machine.auto_input.disable=Авто-ввод: Отключён
 GT5U.chat.machine.auto_input.enable=Авто-ввод: Включён
 GT5U.chat.machine.auto_output.disable=Авто-вывод: Отключён
 GT5U.chat.machine.auto_output.enable=Авто-вывод: Включён
+GT5U.chat.machine.no_free_side=No free side!
 GT5U.chat.buffer.sort_mode.enable=Сортировка: Включёна
 GT5U.chat.buffer.sort_mode.disable=Сортировка: Отключена
+GT5U.chat.buffer.not_regulate=Do not regulate Item Stack Size
+GT5U.chat.buffer.regulate=Regulate Item Stack Size to: %s
 GT5U.chat.worm_hole_generator.overclocks.enable=Разгон: §aВключён§r
 GT5U.chat.worm_hole_generator.overclocks.disable=Разгон: §cОтключён§r
+GT5U.chat.connected=Connected
+GT5U.chat.disconnected=Disconnected
+GT5U.chat.pipe.input.enable=Input enabled
+GT5U.chat.pipe.input.disable=Input disabled
+
+GT5U.chat.hatch.output.fluid_steam_item=Outputs misc. Fluids, Steam and Items
+GT5U.chat.hatch.output.steam_item=Outputs Steam and Items
+GT5U.chat.hatch.output.steam_fluid=Outputs Steam and misc. Fluids
+GT5U.chat.hatch.output.steam=Outputs Steam
+GT5U.chat.hatch.output.fluid_item=Outputs misc. Fluids and Items
+GT5U.chat.hatch.output.item=Outputs only Items
+GT5U.chat.hatch.output.fluid=Outputs only misc. Fluids
+GT5U.chat.hatch.output.nothing=Outputs nothing
+GT5U.chat.hatch.output.in_brackets.none=Currently none, will be locked to the next that is put in (or use fluid cell to lock)
+GT5U.chat.hatch.output.items_and_specific_fluid=Outputs items and 1 specific Fluid (%s)
+GT5U.chat.hatch.output.specific_fluid=Outputs 1 specific Fluid (%s)
+GT5U.chat.hatch.output.fluid.already_locked=Hatch is locked to a different fluid. To change the locking, empty it and made it locked to the next fluid with a screwdriver. Currently locked to %s
+GT5U.chat.hatch.output.fluid.locked_to=Successfully locked Fluid to %s
+
+GT5U.chat.wet_transformer.half_mode.enable=Transformer is now running at 8A:32A in/out ratio.
+GT5U.chat.wet_transformer.half_mode.disable=Transformer is now running at 16A:64A in/out ratio.
+
+GT5U.chat.soldering_iron.not_enough=Not enough soldering material!
+GT5U.chat.ore.set_ore_natural_flag=Set ore natural flag to %s
 
 # Note to translators: this translation entry is supposed to be a number indicating how many taunts you define here
 # Game will randomly display one of them
@@ -2126,7 +2154,7 @@ GT5U.item.cable.max_voltage=Макс. вольтаж
 GT5U.item.cable.max_amperage=Макс. ампераж
 GT5U.item.cable.loss=Потеря на блок/ампер
 GT5U.item.cable.eu_volt=EU-Вольт
-GT5U.item.cable.swapped=Cable swapped:
+GT5U.item.cable.swapped.s=Cable swapped: %s
 GT5U.item.tank.locked_to=Content locked to %s
 
 GT5U.item.pipe.capacity=Ёмкость
@@ -2136,7 +2164,7 @@ GT5U.item.pipe.gas_proof.yes=Да
 GT5U.item.pipe.gas_proof.no=Нет
 GT5U.item.pipe.amount=Количество труб
 GT5U.item.pipe.empty=Пусто
-GT5U.item.pipe.swap=Pipe Swapped:
+GT5U.item.pipe.swap.s=Pipe swapped: %s
 
 gt.behaviour.paintspray.infinite.gui.header=Выберите цвет
 gt.behaviour.paintspray.infinite.gui.lock_error=§eБаллончик §cзаблокирован§e! §bShift+средняя копка мыши разблокировать.
@@ -2999,6 +3027,11 @@ achievement.gt.blockcasings5.12=Гипогеновая катушка
 achievement.gt.blockcasings5.12.desc=Просто посмотри рецепт в NEI
 achievement.gt.blockcasings5.13=Вечная катушка
 achievement.gt.blockcasings5.13.desc=Просто посмотри рецепт в NEI
+
+# Magical Maintenance Hatch
+gt.blockmachines.magical.maintenance.desc.0=For magically maintaining Multiblocks with Centi-Vis.
+gt.blockmachines.magical.maintenance.desc.1=Consumes §b25 §7Primal Vis of each type to fix maintenance issues.
+gt.blockmachines.magical.maintenance.desc.2=§eAer§7, §aTerra§7, §cIgnis§7, §9Aqua§7, §fOrdo§7, §8Perditio
 
 # Exo-Foundry
 gt.blockmachines.multimachine.foundry.basemodule=When used in the Exo-Foundry:
