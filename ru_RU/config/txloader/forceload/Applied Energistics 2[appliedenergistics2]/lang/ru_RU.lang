@@ -132,8 +132,8 @@ chat.appliedenergistics2.PriorityConfigured=Приоритет обновлен 
 chat.appliedenergistics2.DriveLockingToggled=Ячейки в накопителе были размечены/не размечены
 chat.appliedenergistics2.ChestLockingToggled=Ячейка в сундуке была размечена/не размечена
 chat.appliedenergistics2.FinishCraftingRemind=Крафт %s * %s завершён за %s.
-chat.appliedenergistics2.CraftComplete=§5Auto-Crafting Complete
-chat.appliedenergistics2.CraftComplete.tip=%s %s, took %s
+chat.appliedenergistics2.CraftComplete=§5Автоматическое создание завершено
+chat.appliedenergistics2.CraftComplete.tip=%s %s, взял %s
 chat.appliedenergistics2.CraftingCantExtract=Невозможно извлечь ингредиент: %d / %d | %s
 chat.appliedenergistics2.MachineInOtherDim=%d расположен в измерении: %d и не может быть подсвечен
 chat.appliedenergistics2.MachineInOtherDimNamed=%d "%s" расположен в измерении: %d и не может быть подсвечен
@@ -142,8 +142,8 @@ chat.appliedenergistics2.MachineHighlightedNamed=%d "%d" сейчас подсв
 chat.appliedenergistics2.StorageHighlighted=%d содержащий %d %d сейчас подсвечен и находится: %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d содержащий %d %d находится в измерении: %d и не может быть выделен
 chat.appliedenergistics2.PickBlockTerminalNotFound=Не найден AE2 беспроводной терминал
-chat.appliedenergistics2.PatternRepeaterProvider=§5Provider§r - will provide pattern to current system from in front §5Accessor§r.
-chat.appliedenergistics2.PatternRepeaterAccessor=§5Accessor§r - will provide pattern to in front §5Provider§r.
+chat.appliedenergistics2.PatternRepeaterProvider=§5Поставщик§r - будет предоставлять шаблон для текущей системы спереди §5Приёмнику§r.
+chat.appliedenergistics2.PatternRepeaterAccessor=§5Приёмник§r - предоставит шаблон спереди §5Поставщику§r.
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -364,8 +364,8 @@ gui.appliedenergistics2.CPUAllowMode=Принять запрос
 gui.appliedenergistics2.CPUAllowAll=Все
 gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Только от не-игрока
 gui.appliedenergistics2.CPUOnlyAllowPlayer=Только от игрока
-gui.appliedenergistics2.CPUSourcePlayer=Requester
-gui.appliedenergistics2.CPUSourceMachineRequested=Machine Requested
+gui.appliedenergistics2.CPUSourcePlayer=Инициатор запроса
+gui.appliedenergistics2.CPUSourceMachineRequested=Запрошен механизм
 
 gui.appliedenergistics2.NetworkBytesDetails=Подробности о сетевых байтах
 gui.appliedenergistics2.Items=Предметы
@@ -610,7 +610,7 @@ gui.tooltips.appliedenergistics2.ToFollow=Нажмите для отслежив
 gui.tooltips.appliedenergistics2.ToUnfollow=Нажмите чтобы отписаться от этого крафта\nСейчас вы отслеживаете этот крафт и получите сообщение в чате о его завершении
 
 gui.tooltips.appliedenergistics2.StringOrder=Сортировка
-gui.tooltips.appliedenergistics2.StringOrderNatural=По-умолчанию
+gui.tooltips.appliedenergistics2.StringOrderNatural=По умолчанию
 gui.tooltips.appliedenergistics2.StringOrderAlphanum=Естественный порядок
 gui.tooltips.appliedenergistics2.CellRestrictionLabel=Ограничение ячейки
 gui.tooltips.appliedenergistics2.CellRestrictionHint=Настройка ограничения ячеек
@@ -702,9 +702,9 @@ waila.appliedenergistics2.Id=id
 waila.appliedenergistics2.ConnectedTo=Соединено с
 waila.appliedenergistics2.Disconnected=Отключено
 waila.appliedenergistics2.Singularity=Сингулярность
-waila.appliedenergistics2.Provider=§5Provider§r
-waila.appliedenergistics2.Accessor=§5Accessor§r
-waila.appliedenergistics2.Waiting=Waiting:
+waila.appliedenergistics2.Provider=§5Поставщик§r
+waila.appliedenergistics2.Accessor=§5Приёмник§r
+waila.appliedenergistics2.Waiting=Ожидает:
 waila.appliedenergistics2.IOBusSpeed=Скорость: %s %s/t
 
 # Baubles Extended
@@ -727,7 +727,7 @@ item.appliedenergistics2.ItemCreativeStorageCell.name=Творческая МЭ 
 item.appliedenergistics2.ItemVoidStorageCell.name=МЭ пустотная ячейка хранения
 item.appliedenergistics2.ItemEncodedPattern.name=Закодированный шаблон
 item.appliedenergistics2.ItemEncodedUltimatePattern.name=Продвинутый закодированный шаблон
-item.appliedenergistics2.ItemTunnelPattern.name=Tunnel Pattern
+item.appliedenergistics2.ItemTunnelPattern.name=Туннельный шаблон
 item.appliedenergistics2.ItemViewCell.name=Ячейка представления
 item.appliedenergistics2.ItemFacade.name=Кабельный фасад
 
@@ -831,10 +831,10 @@ item.appliedenergistics2.ItemPart.FormationPlane.name=МЭ плоскость ф
 item.appliedenergistics2.ItemPart.AnnihilationPlane.name=МЭ плоскость уничтожения
 item.appliedenergistics2.ItemPart.IdentityAnnihilationPlane.name=МЭ идентифицирующая плоскость уничтожения
 item.appliedenergistics2.ItemPart.CableAnchor.name=Кабельный якорь
-item.appliedenergistics2.ItemPart.CableCovered.name=МЭ закрытый кабель
+item.appliedenergistics2.ItemPart.CableCovered.name=МЭ покрытый кабель
 item.appliedenergistics2.ItemPart.CableGlass.name=МЭ стеклянный кабель
 item.appliedenergistics2.ItemPart.CableSmart.name=МЭ умный кабель
-item.appliedenergistics2.ItemPart.CableDense.name=МЭ плотный кабель
+item.appliedenergistics2.ItemPart.CableDense.name=МЭ плотный умный кабель
 item.appliedenergistics2.ItemPart.CableDenseCovered.name=МЭ покрытый плотный кабель
 item.appliedenergistics2.ItemPart.StorageMonitor.name=МЭ монитор хранения
 item.appliedenergistics2.ItemPart.ConversionMonitor.name=МЭ монитор преобразования
