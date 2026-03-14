@@ -161,77 +161,77 @@ cropsnh_tooltip.cropBreeder.1=Needs %1$s of §aenriched fertilizer§7 per §ctie
 cropsnh_tooltip.cropBreeder.2=Needs %1$s of §aenriched fertilizer§7 per §cstat point§7 of the output seed
 cropsnh_tooltip.cropBreeder.3=The stats of the output seed will be the average of the parents
 cropsnh_tooltip.cropBreeder.4=%1$s%% success chance
-cropsnh_nei.cropBreeder.tooltip.fluidCost=コスト = (1,000L * 子株のTier)  + (500L * (成長値 + 収量値 + 耐性値))
+cropsnh_nei.cropBreeder.tooltip.fluidCost=コスト = 子株のTier * %1$s  + (成長値 + 収量値 + 耐性値) + %2$s
 cropsnh_nei.cropBreeder.tooltip.outputStats=子株のステータスは親株の平均になります
 cropsnh_nei.cropBreeder.tooltip.successChance=成功率は機械のTierに依存します
-cropsnh_tooltip.cropBreeder.name.1=Basic Crop Breeder
-cropsnh_tooltip.cropBreeder.name.2=Advanced Crop Breeder
-cropsnh_tooltip.cropBreeder.name.3=Advanced Crop Breeder II
-cropsnh_tooltip.cropBreeder.name.4=Advanced Crop Breeder III
-cropsnh_tooltip.cropBreeder.name.5=Advanced Crop Breeder IV
-cropsnh_tooltip.cropBreeder.name.6=Elite Crop Breeder
-cropsnh_tooltip.cropBreeder.name.7=Elite Crop Breeder II
-cropsnh_tooltip.cropBreeder.name.8=Ultimate Crop Breeder
-cropsnh_tooltip.cropBreeder.name.9=Epic Crop Breeder
-cropsnh_tooltip.cropBreeder.name.10=Epic Crop Breeder II
-cropsnh_tooltip.cropBreeder.name.11=Epic Crop Breeder III
-cropsnh_tooltip.cropBreeder.name.12=Epic Crop Breeder IV
+cropsnh_tooltip.cropBreeder.name.1=基本型作物交配機
+cropsnh_tooltip.cropBreeder.name.2=発展型作物交配機
+cropsnh_tooltip.cropBreeder.name.3=発展型作物交配機 II
+cropsnh_tooltip.cropBreeder.name.4=発展型作物交配機 III
+cropsnh_tooltip.cropBreeder.name.5=発展型作物交配機 IV
+cropsnh_tooltip.cropBreeder.name.6=精鋭型作物交配機
+cropsnh_tooltip.cropBreeder.name.7=精鋭型作物交配機 II
+cropsnh_tooltip.cropBreeder.name.8=究極型作物交配機
+cropsnh_tooltip.cropBreeder.name.9=伝説型作物交配機
+cropsnh_tooltip.cropBreeder.name.10=伝説型作物交配機 II
+cropsnh_tooltip.cropBreeder.name.11=伝説型作物交配機 III
+cropsnh_tooltip.cropBreeder.name.12=伝説型作物交配機 IV
 
 # Crop Gene Extractor
 cropsnh.recipes.cropGeneExtractor=作物遺伝子抽出機
-cropsnh_tooltip.cropGeneExtractor.0=It can extract Crop Genes
-cropsnh_tooltip.cropGeneExtractor.1=Use a programmed circuit to determine which gene to extract
-cropsnh_tooltip.cropGeneExtractor.2=1 for Specimen, 2 for Growth, 3 for Gain, 4 for Resistance
+cropsnh_tooltip.cropGeneExtractor.0=種から遺伝子情報を抽出します
+cropsnh_tooltip.cropGeneExtractor.1=§8《§7プログラム回路§8／Programmed Circuit》§7の値を使用して、抽出する遺伝子情報を選択します
+cropsnh_tooltip.cropGeneExtractor.2=#1で作物の品種を、#2で成長(§2Gr§7)を、#3で収得(§6Ga§7)を、#4で耐性(§3Re§7)を抽出します
 cropsnh_nei.cropGeneExtractor.tooltip.scanSpecimen=種のスキャンデータ
 cropsnh_nei.cropGeneExtractor.tooltip.scanGrowth=成長値のスキャンデータ
 cropsnh_nei.cropGeneExtractor.tooltip.scanGain=収量値のスキャンデータ
 cropsnh_nei.cropGeneExtractor.tooltip.scanResistance=耐性値のスキャンデータ
-cropsnh_tooltip.cropGeneExtractor.name.4=Crop Gene Extractor
-cropsnh_tooltip.cropGeneExtractor.name.5=Advanced Crop Gene Extractor
-cropsnh_tooltip.cropGeneExtractor.name.6=Elite Crop Gene Extractor
-cropsnh_tooltip.cropGeneExtractor.name.7=Elite Crop Gene Extractor II
-cropsnh_tooltip.cropGeneExtractor.name.8=Ultimate Crop Gene Extractor
-cropsnh_tooltip.cropGeneExtractor.name.9=Epic Crop Gene Extractor
-cropsnh_tooltip.cropGeneExtractor.name.10=Epic Crop Gene Extractor II
-cropsnh_tooltip.cropGeneExtractor.name.11=Epic Crop Gene Extractor III
-cropsnh_tooltip.cropGeneExtractor.name.12=Epic Crop Gene Extractor IV
+cropsnh_tooltip.cropGeneExtractor.name.4=作物遺伝子抽出機
+cropsnh_tooltip.cropGeneExtractor.name.5=発展型作物遺伝子抽出機
+cropsnh_tooltip.cropGeneExtractor.name.6=精鋭型作物遺伝子抽出機
+cropsnh_tooltip.cropGeneExtractor.name.7=精鋭型作物遺伝子抽出機 II
+cropsnh_tooltip.cropGeneExtractor.name.8=究極型作物遺伝子抽出機
+cropsnh_tooltip.cropGeneExtractor.name.9=伝説型作物遺伝子抽出機
+cropsnh_tooltip.cropGeneExtractor.name.10=伝説型作物遺伝子抽出機 II
+cropsnh_tooltip.cropGeneExtractor.name.11=伝説型作物遺伝子抽出機 III
+cropsnh_tooltip.cropGeneExtractor.name.12=伝説型作物遺伝子抽出機 IV
 
 # Crop Synthesizer
 cropsnh.recipes.cropSynthesizer=作物合成機
-cropsnh_tooltip.cropSynthesizer.0=It can make Crops from Data Orbs
-cropsnh_tooltip.cropSynthesizer.1=Needs %1$s of §dUUM§7 per §ctier§7 of the output seed
-cropsnh_tooltip.cropSynthesizer.2=Needs %1$s of §dUUM§7 per §cstat point§7 of the output seed
-cropsnh_tooltip.cropSynthesizer.3=Takes in %1$s amps
-cropsnh_nei.cropSynthesizer.tooltip.fluidCost=コスト = 作物のTier * 750L * (成長値 + 収量値 + 耐性値) * 100L
+cropsnh_tooltip.cropSynthesizer.0=§8《§7データオーブ§8／Data Orb》§7の情報から作物を合成します
+cropsnh_tooltip.cropSynthesizer.1=作物の§cTier§7が1段階上がるごとに§dUUM§7の必要量が %1$s 増加します
+cropsnh_tooltip.cropSynthesizer.2=作物の§cステータス値§7 1ポイント ごとに§dUUM§7の必要量が %1$s 増加します
+cropsnh_tooltip.cropSynthesizer.3=%1$s アンペアを入力可能です
+cropsnh_nei.cropSynthesizer.tooltip.fluidCost=コスト = 作物のTier * %1$s * (成長値 + 収量値 + 耐性値) * %2$s
 cropsnh_nei.cropSynthesizer.tooltip.output=ステータスはデータオーブに保存された値を参照します
-cropsnh_tooltip.cropSynthesizer.name.4=Crop Synthesizer
-cropsnh_tooltip.cropSynthesizer.name.5=Advanced Crop Synthesizer
-cropsnh_tooltip.cropSynthesizer.name.6=Elite Crop Synthesizer
-cropsnh_tooltip.cropSynthesizer.name.7=Elite Crop Synthesizer II
-cropsnh_tooltip.cropSynthesizer.name.8=Ultimate Crop Synthesizer
-cropsnh_tooltip.cropSynthesizer.name.9=Epic Crop Synthesizer
-cropsnh_tooltip.cropSynthesizer.name.10=Epic Crop Synthesizer II
-cropsnh_tooltip.cropSynthesizer.name.11=Epic Crop Synthesizer III
-cropsnh_tooltip.cropSynthesizer.name.12=Epic Crop Synthesizer IV
+cropsnh_tooltip.cropSynthesizer.name.4=作物合成機
+cropsnh_tooltip.cropSynthesizer.name.5=発展型作物合成機
+cropsnh_tooltip.cropSynthesizer.name.6=精鋭型作物合成機
+cropsnh_tooltip.cropSynthesizer.name.7=精鋭型作物合成機 II
+cropsnh_tooltip.cropSynthesizer.name.8=究極型作物合成機
+cropsnh_tooltip.cropSynthesizer.name.9=伝説型作物合成機
+cropsnh_tooltip.cropSynthesizer.name.10=伝説型作物合成機 II
+cropsnh_tooltip.cropSynthesizer.name.11=伝説型作物合成機 III
+cropsnh_tooltip.cropSynthesizer.name.12=伝説型作物合成機 IV
 
 # Seed Generator
 cropsnh.recipes.seedGenerator=種子増殖機
-cropsnh_tooltip.seedGenerator.0=Generates more seeds from an existing seeds
-cropsnh_tooltip.seedGenerator.1=Needs %1$s of §aenriched fertilizer§7 per §cstat point§7 on the seed
-cropsnh_tooltip.seedGenerator.2=Not all crops can be replicated in this machine
-cropsnh_nei.seedGenerator.tooltip.fluidCost=コスト = 100L * (成長値 + 収量値 + 耐性値)
-cropsnh_tooltip.seedGenerator.name.1=Basic Seed Generator
-cropsnh_tooltip.seedGenerator.name.2=Advanced Seed Generator
-cropsnh_tooltip.seedGenerator.name.3=Advanced Seed Generator II
-cropsnh_tooltip.seedGenerator.name.4=Advanced Seed Generator III
-cropsnh_tooltip.seedGenerator.name.5=Advanced Seed Generator IV
-cropsnh_tooltip.seedGenerator.name.6=Elite Seed Generator
-cropsnh_tooltip.seedGenerator.name.7=Elite Seed Generator II
-cropsnh_tooltip.seedGenerator.name.8=Ultimate Seed Replicator
-cropsnh_tooltip.seedGenerator.name.9=Epic Seed Replicator
-cropsnh_tooltip.seedGenerator.name.10=Epic Seed Replicator II
-cropsnh_tooltip.seedGenerator.name.11=Epic Seed Replicator III
-cropsnh_tooltip.seedGenerator.name.12=Epic Seed Replicator IV
+cropsnh_tooltip.seedGenerator.0=既存の種からさらに多くの種を増殖させます
+cropsnh_tooltip.seedGenerator.1=作物の§cステータス値§7 1ポイント ごとに§8《§d濃縮肥料§8／Enriched Fertilizer》§7の必要量が %1$s 増加します
+cropsnh_tooltip.seedGenerator.2=この機械では複製できない作物もあります
+cropsnh_nei.seedGenerator.tooltip.fluidCost=コスト = %1$s * (成長値 + 収量値 + 耐性値)
+cropsnh_tooltip.seedGenerator.name.1=基本型種子増殖機
+cropsnh_tooltip.seedGenerator.name.2=発展型種子増殖機
+cropsnh_tooltip.seedGenerator.name.3=発展型種子増殖機 II
+cropsnh_tooltip.seedGenerator.name.4=発展型種子増殖機 III
+cropsnh_tooltip.seedGenerator.name.5=発展型種子増殖機 IV
+cropsnh_tooltip.seedGenerator.name.6=精鋭型種子増殖機
+cropsnh_tooltip.seedGenerator.name.7=精鋭型種子増殖機 II
+cropsnh_tooltip.seedGenerator.name.8=究極型種子複製機
+cropsnh_tooltip.seedGenerator.name.9=伝説型種子複製機
+cropsnh_tooltip.seedGenerator.name.10=伝説型種子複製機 II
+cropsnh_tooltip.seedGenerator.name.11=伝説型種子複製機 III
+cropsnh_tooltip.seedGenerator.name.12=伝説型種子複製機 IV
 
 # Crop Manager
 cropsnh_tooltip.cropManager.description=広範囲の作物を自動的に収穫・管理します
@@ -255,26 +255,26 @@ cropsnh_tooltip.cropManager.harvest.1=収穫を無効化
 cropsnh_tooltip.cropManager.water=水: %1$s%3$s / %2$s%3$s
 cropsnh_tooltip.cropManager.weedEX=Weed-EX: %1$s%3$s / %2$s%3$s
 cropsnh_tooltip.cropManager.liquidFertilizer=液体肥料: %1$s%3$s / %2$s%3$s
-cropsnh_tooltip.cropManager.name.1=Basic Crop Manager
-cropsnh_tooltip.cropManager.name.2=Advanced Crop Manager
-cropsnh_tooltip.cropManager.name.3=Advanced Crop Manager II
-cropsnh_tooltip.cropManager.name.4=Advanced Crop Manager III
-cropsnh_tooltip.cropManager.name.5=Advanced Crop Manager IV
-cropsnh_tooltip.cropManager.name.6=Elite Crop Manager
-cropsnh_tooltip.cropManager.name.7=Elite Crop Manager II
-cropsnh_tooltip.cropManager.name.8=Ultimate Crop Manager
-cropsnh_tooltip.cropManager.name.9=Epic Crop Manager
-cropsnh_tooltip.cropManager.name.10=Epic Crop Manager II
-cropsnh_tooltip.cropManager.name.11=Epic Crop Manager III
-cropsnh_tooltip.cropManager.name.12=Epic Crop Manager IV
+cropsnh_tooltip.cropManager.name.1=基本型作物管理機
+cropsnh_tooltip.cropManager.name.2=発展型作物管理機
+cropsnh_tooltip.cropManager.name.3=発展型作物管理機 II
+cropsnh_tooltip.cropManager.name.4=発展型作物管理機 III
+cropsnh_tooltip.cropManager.name.5=発展型作物管理機 IV
+cropsnh_tooltip.cropManager.name.6=精鋭型作物管理機
+cropsnh_tooltip.cropManager.name.7=精鋭型作物管理機 II
+cropsnh_tooltip.cropManager.name.8=究極型作物管理機
+cropsnh_tooltip.cropManager.name.9=伝説型作物管理機
+cropsnh_tooltip.cropManager.name.10=伝説型作物管理機 II
+cropsnh_tooltip.cropManager.name.11=伝説型作物管理機 III
+cropsnh_tooltip.cropManager.name.12=伝説型作物管理機 IV
 
 # Industrial Farm Controller
-cropsnh_tooltip.industrialFarm.name=Industrial Farm
-cropsnh_tooltip.industrialFarm.machineType=Industrial Crop Cultivator, IF
-cropsnh_tooltip.industrialFarm.0=Grows crops at an industrial scale
-cropsnh_tooltip.industrialFarm.1=The §blength§7 of the machine depends on the §ctier§7 of the §fseed bed§7
-cropsnh_tooltip.industrialFarm.2=The §ctier§7 of the §fupgrades§7 must match the §ctier§7 of the §fseed bed§7
-cropsnh_tooltip.industrialFarm.3=Harvest bonus grows by §c20%§7 per §ctier§7 of §fseed bed§7
+cropsnh_tooltip.industrialFarm.name=工業用大型農場
+cropsnh_tooltip.industrialFarm.machineType=工業用作物栽培機, IF
+cropsnh_tooltip.industrialFarm.0=工業規模で作物を栽培
+cropsnh_tooltip.industrialFarm.1=機械の§b奥行§7は§8《§f苗床§8／Seed Bed》§7の§cTier§7に依存します
+cropsnh_tooltip.industrialFarm.2=§fアップグレード§7の§cTier§7は§8《§f苗床§8／Seed Bed》§7の§cTier§7と一致させる必要があります
+cropsnh_tooltip.industrialFarm.3=§8《§f苗床§8／Seed Bed》§7の§cTier§7が上がるごとに収穫量ボーナスが§c20%§7増加します
 cropsnh_tooltip.industrialFarm.structure.hatch=Any casing with hint number 1
 cropsnh_tooltip.industrialFarm.structure.seedBed=Seed Bed
 cropsnh_tooltip.industrialFarm.structure.upgrades.name=Upgrades (tiered)
@@ -302,7 +302,7 @@ GT5U.gui.text.cropsnh.industrialFarm.blockUnderMismatch.input=機械内に存在
 GT5U.gui.text.cropsnh.industrialFarm.blockUnderMismatch.farm=現在のブロックはこの種の生育に必要なブロックと一致していません
 GT5U.gui.text.cropsnh.industrialFarm.seedBedTierTooLow=この種を栽培するには苗床のTierが足りません
 GT5U.gui.text.cropsnh.industrialFarm.seedsFull=種の容量が上限に達しました
-GT5U.gui.text.cropsnh.industrialFarm.seedOverflow=種の保有数が現在の容量を超過しています！
+GT5U.gui.text.cropsnh.industrialFarm.seedOverflow=種の保有数が現在の容量を超過しています
 GT5U.gui.text.cropsnh.industrialFarm.cannotGrow=この種は現在の環境では育ちません
 
 # Industrial Farm Scanner Tooltips
@@ -310,8 +310,8 @@ cropsnh_tooltip.industrialFarm.scanner.0=Tier: §e%1$s§r
 cropsnh_tooltip.industrialFarm.scanner.1=容量: §e%1$s§r
 cropsnh_tooltip.industrialFarm.scanner.2=収穫ボーナス: §e%1$s§r%%
 cropsnh_tooltip.industrialFarm.scanner.3=成長速度ボーナス: §e%1$s§r%%
-cropsnh_tooltip.industrialFarm.scanner.4=水の使用量: §e%1$d§rL/§e%2$s§rt
-cropsnh_tooltip.industrialFarm.scanner.5=肥料の使用量: §e%1$s§rL/§e%2$s§rt
+cropsnh_tooltip.industrialFarm.scanner.4=水の使用量: §e%1$s§r/§e%2$s§rt
+cropsnh_tooltip.industrialFarm.scanner.5=肥料の使用量: §e%1$s§r/§e%2$s§rt
 cropsnh_tooltip.industrialFarm.scanner.6=栄養素スコア: §e%1$s§r (最大§e%2$s§r)
 
 # Seed Bed

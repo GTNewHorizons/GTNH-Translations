@@ -1,3 +1,5 @@
+itemGroup.AmunRaTab=Amun-Ra
+
 planet.starAmun=アメン
 star.starRa=ラー
 planet.osiris=オシリス
@@ -80,14 +82,10 @@ tile.aluChest.name=アルミニウムチェスト
 tile.aluChest.description=木製のチェストと同じ容量です。ダブルチェストにすることもできます。
 tile.steelChest.name=スチールチェスト
 tile.steelChest.description=木製のチェストの2倍の容量がありますが、ダブルチェストにすることはできません。
-
-
 tile.oldConcreteOre.0.name=アーボライト
 tile.oldConcrete.name=アーボライト
 tile.oldConcreteOre.oreSteel.name=スチールアーボライト
 tile.oldConcreteOre.oreBone.name=化石アーボライト
-
-
 tile.baseBlockCrystal.0.name=発光サンゴ
 tile.glowCoral.name=発光サンゴ
 tile.obsidianbrick.name=黒曜石レンガ
@@ -110,19 +108,14 @@ tile.asteroidMultiOre1.0.name=鉱石
 tile.basaltMultiOre.0.name=鉱石
 tile.hardClayMultiOre.0.name=鉱石
 tile.obsidianMultiOre.0.name=鉱石
-
 tile.basePlant.0.name=背の高い赤草
 tile.methaneTallGrass.name=背の高い赤草
-
 tile.blockFake.0.name=偽装ブロック
-
 tile.bossSpawner.0.name=ボススポナー
-
 tile.baseFalling.0.name=落下ブロック
 tile.basaltregolith.name=玄武岩の表土
 tile.obsidianGravel.name=黒曜石の砂利
 tile.obsidianSand.name=黒曜石の砂
-
 tile.baseGrass.0.name=赤草
 tile.methanegrass.name=赤草
 tile.vacuumRedGrass.name=淡い赤草
@@ -151,13 +144,10 @@ tile.hydroponics.harvest=収穫する
 tile.hydroponics.fertilize=肥料を与える
 tile.hydroponics.noplant=植物なし
 tile.hydroponics.plantstatus=植物の状態
-
-
 tile.machines1.0.name=放射性同位体発電機
 tile.isotopeGeneratorBasic.name=放射性同位体発電機
 tile.isotopeGeneratorAdvanced.name=発展型放射性同位体発電機
 tile.isotopeGenerator.description=核物質の崩壊によって生成される熱から電力を生成します。発電量は外気温に依存し、気温が高いほど少なくなります。使用される同位体の半減期が長いため、この発電機は無尽蔵であると考えられます。
-
 
 item.baseItem.name=素材
 item.baseItem.compressedGold.name=圧縮金
@@ -165,7 +155,7 @@ item.baseItem.goldFoil.name=金のホイル
 item.baseItem.transformer.name=変成器
 item.baseItem.waferEnder.name=エンダーウェハー
 item.baseItem.porcodonMeat.name=ポルコドンの肉
-item.porcodonMeat.description=ガソリンっぽい匂いがする
+
 item.baseItem.laserDiode.name=レーザーダイオード
 item.baseItem.cryoDiode.name=クリオダイオード
 item.baseItem.cryoCrystal.name=チオナイト
@@ -184,7 +174,6 @@ item.baseItem.uranMesh.name=ウラン-リチウムメッシュ
 item.baseItem.shuttleTank.name=シャトルの燃料タンク
 item.baseItem.dockDoor.name=ドックのドア
 item.baseItem.dockGangway.name=ドックのギャングウェイ
-item.schematic.schematicShuttle.name=シャトルの設計図
 item.baseItem.darkShard.name=ダークマターの破片
 item.baseItem.naniteCluster.name=ナナイトの塊
 item.baseItem.naniteCluster.description=これらのナノマシンは不活性のように見えるが、未だ稼働中だ。
@@ -192,29 +181,7 @@ item.baseItem.naniteControl.name=ナナイト制御モジュール
 item.baseItem.mummyDust.name=ミイラの粉
 item.baseItem.gravityBlockDisabler.name=人工重力阻害装置
 item.baseItem.gravityBlockDisabler.description=起動すると、人工重力発生装置の影響を防ぐことができます。
-
-
 item.baseItem.dustMote.name=粉
-item.battery-lithium.name=旧型リチウム蓄電池
-item.battery-quantum.name=量子電池
-item.battery-ender.name=発展型電池
-item.battery-nuclear.name=原子力電池
-item.raygun.name=ブラスター
-item.cryogun.name=フリーズレイ
-entity.robotVillager.name=ロボ村人
-entity.porcodon.name=ポルコドン
-entity.sentryRobot.name=セントリー
-entity.osirisBoss.name=不死のファラオ
-entity.alienVillagerAR.name=腹足村人
-entity.alienBug.name=ハサミムシ
-entity.GalacticraftAmunRa.Shuttle.name=シャトルロケット
-item.itemShuttle.name=シャトルロケット
-item.thermalSuit.name=対応調節防護服の素材
-item.thermalSuit.thermalLevel.name=熱レベル: %s
-item.thermalSuit.helmet.name=体温調節ヘルメット
-item.thermalSuit.chest.name=体温調節チェストプレート
-item.thermalSuit.boots.name=体温調節ブーツ
-item.thermalSuit.legs.name=体温調節レギンス
 item.baseItem.thermalController.name=携帯熱調節器
 item.baseItem.tricorder.name=マルチセンサー
 item.baseItem.tricorder.description=現在のディメンションの情報を測定して表示できます。
@@ -226,6 +193,21 @@ item.baseItem.tricorder.message.daylength=一日の長さ: %s
 item.baseItem.tricorder.message.unknown=不明
 item.baseItem.tricorder.message.unknownGas=不明な気体
 item.baseItem.tricorder.message.none=なし
+item.schematic.schematicShuttle.name=シャトルの設計図
+item.porcodonMeat.description=ガソリンっぽい匂いがする
+item.battery-lithium.name=旧型リチウム蓄電池
+item.battery-quantum.name=量子電池
+item.battery-ender.name=発展型電池
+item.battery-nuclear.name=原子力電池
+item.raygun.name=ブラスター
+item.cryogun.name=フリーズレイ
+item.itemShuttle.name=シャトルロケット
+item.thermalSuit.name=対応調節防護服の素材
+item.thermalSuit.thermalLevel.name=熱レベル: %s
+item.thermalSuit.helmet.name=体温調節ヘルメット
+item.thermalSuit.chest.name=体温調節チェストプレート
+item.thermalSuit.boots.name=体温調節ブーツ
+item.thermalSuit.legs.name=体温調節レギンス
 item.nanotool.name=ナナイトマルチツール
 item.nanotool.mode-prefix=モード
 item.nanotool.mode.workbench=クラフト
@@ -237,6 +219,15 @@ item.nanotool.mode.shovel=シャベル
 item.nanotool.mode.wrench=レンチ
 item.battery-using-item.powerlevel=電源
 
+schematic.shuttle.name=Shuttle Rocket
+
+entity.robotVillager.name=ロボ村人
+entity.porcodon.name=ポルコドン
+entity.sentryRobot.name=セントリー
+entity.osirisBoss.name=不死のファラオ
+entity.alienVillagerAR.name=腹足村人
+entity.alienBug.name=ハサミムシ
+entity.GalacticraftAmunRa.Shuttle.name=シャトルロケット
 
 gas.argon.name=アルゴン
 gas.helium.name=ヘリウム
@@ -250,6 +241,7 @@ profession.refinery.name=精製ユニット
 profession.ingotcompressor.name=金属加工ユニット
 profession.circuitfabricator.name=回路製造機
 profession.crafter.name=クラフトユニット
+
 death.attack.wrongAtmoSuffocate=%1$sは不適切な大気の中で窒息した
 death.attack.fallOffMothership=%1$sは宇宙で失われてしまった
 death.attack.fallOffMothershipIntoPlanet=%1$sは%2$sに衝突してしまった
@@ -257,7 +249,6 @@ death.attack.killedByEngine=%1$sは母船のエンジンによって殺されて
 death.attack.ar_laser=%1$sは光線銃で撃たれた
 death.attack.ar_heatray=%1$sは蒸発してしまった
 death.attack.ar_coldray=%1$sは凍ってしまった
-itemGroup.AmunRaTab=Amun-Ra
 
 gui.message.canCreateMothership.name=ここに母船を建造できます！
 gui.message.tooManyMotherships.name=これ以上母船を作成できません！
@@ -305,12 +296,6 @@ gui.checkbox.show_visual_guide=エリアを表示
 gui.checkbox.invert_force=上向き
 gui.message.force.strength=強さ
 gui.message.energy_usage=エネルギー使用量
-
-
-info.message.celestialbodysearch.none=「%s」に一致する天体は見つかりませんでした
-info.message.celestialbodysearch.some=%s個の「%s」に一致する天体が見つかりました:
-
-
 gui.message.misc.generalErrorCaption=エラー
 gui.message.misc.planet=惑星
 gui.message.misc.star=星
@@ -323,6 +308,16 @@ gui.message.misc.yes=はい
 gui.message.misc.no=いいえ
 gui.message.misc.unit.ticks=ティック
 
+gui.title.gravity=Artificial Gravity Generator
+gui.title.isotopeGeneratorBasic=Radioisotope Generator
+gui.title.isotopeGeneratorAdvanced=Advanced Radioisotope Generator
+gui.title.mothershipEngineIon=Ion Thruster
+gui.title.hydroponics=Hydroponics Unit
+gui.title.aluChest=Aluminum Chest
+gui.title.steelChest=Steel Chest
+gui.title.shuttleDock=Shuttle Dock
+
+info.message.celestialbodysearch.none=「%s」に一致する天体は見つかりませんでした
+info.message.celestialbodysearch.some=%s個の「%s」に一致する天体が見つかりました:
 
 mothership.default.name=母船 %s
-

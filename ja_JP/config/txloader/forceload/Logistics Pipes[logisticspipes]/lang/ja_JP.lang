@@ -357,7 +357,7 @@ LogisticsPipes Pipe Block.name=LogisticsPipes パイプブロック
 lp.chat.slotnotfound=内部スロットが見つかりませんでした。申し訳ありませんが再度お試しください。
 lp.chat.permissiondenied=アクセス拒否
 lp.chat.connectedtopipe=パイプに接続
-lp.chat.satelliteid.set=Satellite ID set to %d
+lp.chat.satelliteid.set=加工補佐IDを %d に設定しました
 lp.misc.noenergy=エネルギーなし
 lp.hud.config.chassie.enabled=物流制御パイプを有効化
 lp.hud.config.chassie.disabled=物流制御パイプを無効化
@@ -374,7 +374,7 @@ lp.hud.config.satellite.disabled=加工補佐パイプを無効化
 
 # GUI
 
-gui.logisticspipes.inventory.title=Inventory
+gui.logisticspipes.inventory.title=インベントリ
 gui.itemsink.Yes=有効
 gui.itemsink.No=無効
 gui.itemsink.Defaultroute=デフォルトルート
@@ -441,12 +441,12 @@ gui.powerjunction.PowerLevel=%s LP
 gui.powerjunction.MaxStorage=/ %s LP
 
 gui.requesttable.RequestItems=Request items
-gui.requesttable.Sort=Sort:
-gui.requesttable.Popup=Popup
+gui.requesttable.Sort=並べ替え:
+gui.requesttable.Popup=ポップアップ
 
 gui.sortmode.id=ID
-gui.sortmode.size=SIZE
-gui.sortmode.name=NAME
+gui.sortmode.size=数量
+gui.sortmode.name=名前
 
 gui.module.requestedItems=Requested items
 gui.module.ModuleExtractor=Extract orientation
