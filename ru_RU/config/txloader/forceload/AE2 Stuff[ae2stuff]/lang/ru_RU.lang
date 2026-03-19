@@ -4,6 +4,10 @@ tile.ae2stuff.Inscriber.name=Продвинутый высекатель
 tile.ae2stuff.Wireless.name=Беспроводной соединитель
 tile.ae2stuff.WirelessHub.name=Беспроводной хаб
 
+gui.ae2stuff.Encoder.title=Pattern Encoder
+gui.ae2stuff.Grower.title=Crystal Growth Chamber
+gui.ae2stuff.Inscriber.title=Advanced Inscriber
+
 item.ae2stuff.WirelessKit.name=Набор для настройки беспроводного соединителя
 item.ae2stuff.AdvWirelessKit.name=Улучшенный набор для настройки беспроводного соединителя
 item.ae2stuff.Visualiser.name=Устройство визуализации Сети
@@ -43,14 +47,15 @@ ae2stuff.wireless.advtool.binding.notempty=Данный беспроводной
 ae2stuff.wireless.advtool.connector.next=Следующий соединитель в очереди: %s,%s,%s
 ae2stuff.wireless.advtool.extra=§oShift+ПКМ для смены режима очереди и привязки
 ae2stuff.wireless.advtool.noconnectors=Соединитель в очереди не найден. Попробуйте перевести инструмент в режим очереди и добавить соединители
-ae2stuff.wireless.advtool.pop=Убрано %s,%s,%s из очереди
 ae2stuff.wireless.advtool.hub.queued=%s слотов хаба добавлены в очередь
 ae2stuff.wireless.advtool.queueing.clear=Очередь была очищена
 ae2stuff.wireless.tooltips.advtool.queueing.clear=Shift+%s+ПКМ чтобы очистить очередь
+ae2stuff.wireless.tooltips.advtool.location=§6%s %s %s
 ae2stuff.wireless.tooltips.advtool.hubqols.binding=%s+ПКМ чтобы подключиться ко всем свободным слотам хаба
 ae2stuff.wireless.tooltips.advtool.hubqols.queueing=%s+ПКМ чтобы добавить все свободные слоты хаба в очередь
 ae2stuff.wireless.tool.connected=Подключено к %s,%s,%s
 ae2stuff.wireless.tool.failed=Соединение не состоялось
+ae2stuff.wireless.tool.failed.detail=§cConnection failed: §f%s
 ae2stuff.wireless.tool.dimension=Соединители не могут находиться в разных измерениях
 ae2stuff.wireless.tool.noexist=Привязанного соединителя больше не существует
 ae2stuff.wireless.tool.security.player=Ошибка безопасности - Вы не можете изменять физическую конфигурацию сети
