@@ -14,15 +14,15 @@ item.ae2stuff.Visualiser.name=ネットワーク可視化ツール
 
 ae2stuff.error.not_connected=ネットワークに接続されていません
 
-ae2stuff.waila.sleep.true=オフライン
-ae2stuff.waila.sleep.false=稼動中
+ae2stuff.waila.sleep.true=§eスリープ中
+ae2stuff.waila.sleep.false=§a稼動中
 ae2stuff.waila.power=%s / %s AE
 
-ae2stuff.waila.wireless.connected=%s,%s,%s と接続中
+ae2stuff.waila.wireless.connected=§6%s %s %s §rと接続中
 ae2stuff.waila.wireless.notconnected=未接続
-ae2stuff.waila.wireless.channels=チャンネル: %s
-ae2stuff.waila.wireless.power=消費電力: %s AE/t
-ae2stuff.waila.wireless.name=名前: %s
+ae2stuff.waila.wireless.channels=チャンネル: §6%s
+ae2stuff.waila.wireless.power=消費電力: §6%s§r AE/t
+ae2stuff.waila.wireless.name=名前: §6%s
 ae2stuff.waila.wireless.channel.used=Linked to %s %s %s | %s channels used
 ae2stuff.waila.wireless.sneak.info=§c[Sneak]§r to see full connections list
 ae2stuff.gui.lock.on=ロック - 中身を維持します
@@ -32,7 +32,7 @@ ae2stuff.gui.lock.note=素材が無くなるまでクラフトします
 ae2stuff.gui.recipes=レシピ
 
 ae2stuff.wireless.tool.empty=無線コネクタと接続するのに使います
-ae2stuff.wireless.tool.bound1=接続 %s,%s,%s
+ae2stuff.wireless.tool.bound1=§a接続 %s %s %s
 ae2stuff.wireless.tool.bound2=接続する為に、他の無線コネクタをクリックします
 ae2stuff.wireless.advtool.queueing=§aQueuing Mode
 ae2stuff.wireless.advtool.binding=§aBinding Mode
@@ -53,17 +53,17 @@ ae2stuff.wireless.tooltips.advtool.queueing.clear=§fSneak + %s + R-click§7 to 
 ae2stuff.wireless.tooltips.advtool.location=§6%s %s %s
 ae2stuff.wireless.tooltips.advtool.hubqols.binding=§f%s + R-click§7 to connect to all free hub slots
 ae2stuff.wireless.tooltips.advtool.hubqols.queueing=§f%s + R-click§7 to add all free hub slots to queue
-ae2stuff.wireless.tool.connected=%s,%s,%s と接続中
-ae2stuff.wireless.tool.failed=接続に失敗しました
+ae2stuff.wireless.tool.connected=§a%s %s %s と接続中
+ae2stuff.wireless.tool.failed=§c接続に失敗しました
 ae2stuff.wireless.tool.failed.detail=§cConnection failed: §f%s
-ae2stuff.wireless.tool.dimension=コネクタ同士は同じディメンションである必要があります
-ae2stuff.wireless.tool.noexist=接続先のコネクタが存在しません
-ae2stuff.wireless.tool.security.player=セキュリティ違反 - あなたはこのネットワークを変更することはできません
+ae2stuff.wireless.tool.dimension=§cコネクタ同士は同じディメンションに存在する必要があります
+ae2stuff.wireless.tool.noexist=§c接続先のコネクタが存在しません
+ae2stuff.wireless.tool.security.player=§cセキュリティ違反 - あなたはこのネットワークを変更することはできません
 ae2stuff.wireless.tool.targethubfull=§cTarget Hub is Full
 
-ae2stuff.visualiser.bound=%s,%s,%s のネットワークを視覚化
-ae2stuff.visualiser.mode=モード:
-ae2stuff.visualiser.set=モード切替 %s
+ae2stuff.visualiser.bound=§a%s %s %s のネットワークを可視化
+ae2stuff.visualiser.mode=モード: §6%s
+ae2stuff.visualiser.set=モード切替 §6%s
 ae2stuff.visualiser.mode.full=全て表示
 ae2stuff.visualiser.mode.nodes=ノードを表示
 ae2stuff.visualiser.mode.channels=チャンネル図を表示
