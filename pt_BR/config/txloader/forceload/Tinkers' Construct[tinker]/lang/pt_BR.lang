@@ -13,9 +13,11 @@ crafters.PartBuilder=Construtor de Partes
 crafters.PatternShaper=Mesa de Estênceis
 crafters.CraftingStation=Estação de Trabalho
 inventory.PatternChest=Baú de Moldes
+inventory.PartChest=Part Chest
 crafters.Smeltery=Oficina de Fundição
 crafters.Frypan=Frigideira
 inventory.knapsack=Mochila
+toolstation.partholder=Part Chest
 
 nei.options.keys.gui.tinkers_belt=Toggle Travellers Belt
 
@@ -23,6 +25,7 @@ tile.ToolStation.name=Tool Station
 ToolStation.Crafter.name=Estação de Ferramenta
 ToolStation.Parts.name=Construtor de Partes
 ToolStation.PatternChest.name=Baú de Moldes
+ToolStation.PartChest.name=Part Chest
 ToolStation.PatternShaper.name=Mesa de Estênceis
 ToolStation.CastingTable.name=Mesa de Fundição
 tile.FurnaceSlab.name=Laje de Fornalha
@@ -186,34 +189,6 @@ item.InfiTool.Cutlass.name=Cutelo
 item.InfiTool.Shortbow.name=Arco Curto
 item.InfiTool.Arrow.name=Flecha
 item.InfiTool.Mattock.name=Alvião
-
-infitool.pickaxe=Picareta
-infitool.shovel=Pá
-infitool.hatchet=Machadinha
-infitool.broadsword=Espada
-infitool.longsword=Espada Longa
-infitool.rapier=Florete
-infitool.fryingpan=Frigideira
-infitool.battlesign=Placa de Batalha
-infitool.dagger=Punhal
-infitool.chisel=Cinzel
-infitool.scythe=Foice
-infitool.lumberaxe=Machado
-infitool.cleaver=Decepador
-infitool.excavator=Escavador
-infitool.hammer=Martelo
-infitool.battleaxe=Machado de Batalha
-infitool.cutlass=Cutelo
-infitool.arrow=Flecha
-infitool.mattock=Alvião
-infitool.shortbow=Arco Curto
-infitool.longbow=Arco Longo
-infitool.crossbow=Besta
-infitool.arrowammo=Flechas
-infitool.boltammo=Setas
-infitool.shuriken=Shuriken
-infitool.throwingknife=Faca de Arremesso
-infitool.javelin=Lança
 
 item.tconstruct.PotionLauncher.name=Lançador de Poção
 
@@ -952,12 +927,24 @@ gui.toolstation21=Munição:
 gui.toolstation22=Chance de quebra: 
 gui.toolstation23=Ataque Máximo: 
 
+gui.partcrafter.durability=Durability: %s
+gui.partcrafter.mininglevel=Mining Level: %s
+gui.partcrafter.miningspeed=Mining Speed: %s
+gui.partcrafter.attack=Attack: %s
+gui.partcrafter.handlemodifier=Handle Modifier: %s
+gui.partcrafter.drawspeed=Draw Speed: %s s
+gui.partcrafter.arrowspeed=Arrow Speed: %s
+gui.partcrafter.arrow=Arrow
+gui.partcrafter.bolt=Bolt
+gui.partcrafter.weight=Weight: %s
+gui.partcrafter.breakchance=Break Chance: %s %%
+
 gui.mining1=Pedra
 gui.mining2=Ferro
-gui.mining3=Redstone
+gui.mining3=§4Redstone§r
 gui.mining4=Obsidiana
 gui.mining5=Cobalto
-gui.mining6=Manyullyn
+gui.mining6=§5Manyullyn§r
 
 gui.toolstation.pickaxe.desc=A Picareta é uma ferramenta de mineração precisa. É eficaz em pedra e minérios.\n\nPartes Necessárias:\n- Cabeça de Picareta\n-Conector de Ferramenta\n- Cabo
 gui.toolstation.shovel.desc=A Pá é uma ferramenta de cavar precisa. É eficaz em terra, areia, e neve.\n\nPartes Necessárias:\n- Cabeça de Pá\n- Cabo
@@ -1049,6 +1036,7 @@ tool.boltammo=Setas
 tool.shuriken=Shuriken
 tool.throwingknife=Faca de Arremesso
 tool.javelin=Lança
+tool.boneana=Bonæna
 
 # Customization of default tool names based on tool and material
 #tool.shovel.wood=Wooden Shovel
