@@ -13,9 +13,11 @@ crafters.PartBuilder=部品作成台
 crafters.PatternShaper=木型作成台
 crafters.CraftingStation=改良型作業台
 inventory.PatternChest=パターンチェスト
+inventory.PartChest=Part Chest
 crafters.Smeltery=乾式製錬炉
 crafters.Frypan=フライパン
 inventory.knapsack=ナップザック
+toolstation.partholder=Part Chest
 
 nei.options.keys.gui.tinkers_belt=旅人のベルトの切り替え
 
@@ -23,6 +25,7 @@ tile.ToolStation.name=ツール組立台
 ToolStation.Crafter.name=ツール組立台
 ToolStation.Parts.name=部品作成台
 ToolStation.PatternChest.name=パターンチェスト
+ToolStation.PartChest.name=Part Chest
 ToolStation.PatternShaper.name=木型作成台
 ToolStation.CastingTable.name=鋳造台
 tile.FurnaceSlab.name=かまどのハーフブロック
@@ -186,34 +189,6 @@ item.InfiTool.Cutlass.name=カトラス
 item.InfiTool.Shortbow.name=ショートボウ
 item.InfiTool.Arrow.name=矢
 item.InfiTool.Mattock.name=マトック
-
-infitool.pickaxe=ツルハシ
-infitool.shovel=シャベル
-infitool.hatchet=ハチェット
-infitool.broadsword=ブロードソード
-infitool.longsword=ロングソード
-infitool.rapier=レイピア
-infitool.fryingpan=フライパン
-infitool.battlesign=バトルサイン
-infitool.dagger=ダガー
-infitool.chisel=ノミ
-infitool.scythe=大鎌
-infitool.lumberaxe=ランバーアックス
-infitool.cleaver=クリーバー
-infitool.excavator=エクスカベーター
-infitool.hammer=ハンマー
-infitool.battleaxe=バトルアックス
-infitool.cutlass=カトラス
-infitool.arrow=矢
-infitool.mattock=マトック
-infitool.shortbow=ショートボウ
-infitool.longbow=ロングボウ
-infitool.crossbow=クロスボウ
-infitool.arrowammo=矢
-infitool.boltammo=ボルト
-infitool.shuriken=手裏剣
-infitool.throwingknife=投げナイフ
-infitool.javelin=ジャベリン
 
 item.tconstruct.PotionLauncher.name=ポーションランチャー
 
@@ -952,6 +927,18 @@ gui.toolstation21=弾数:
 gui.toolstation22=破壊率: 
 gui.toolstation23=最大攻撃力: 
 
+gui.partcrafter.durability=Durability: %s
+gui.partcrafter.mininglevel=Mining Level: %s
+gui.partcrafter.miningspeed=Mining Speed: %s
+gui.partcrafter.attack=Attack: %s
+gui.partcrafter.handlemodifier=Handle Modifier: %s
+gui.partcrafter.drawspeed=Draw Speed: %s s
+gui.partcrafter.arrowspeed=Arrow Speed: %s
+gui.partcrafter.arrow=Arrow
+gui.partcrafter.bolt=Bolt
+gui.partcrafter.weight=Weight: %s
+gui.partcrafter.breakchance=Break Chance: %s %%
+
 gui.mining1=石
 gui.mining2=鉄
 gui.mining3=レッドストーン
@@ -1049,6 +1036,7 @@ tool.boltammo=ボルト
 tool.shuriken=手裏剣
 tool.throwingknife=投げナイフ
 tool.javelin=ジャベリン
+tool.boneana=Bonæna
 
 # Customization of default tool names based on tool and material
 #tool.shovel.wood=Wooden Shovel
