@@ -13,9 +13,11 @@ crafters.PartBuilder=Конструктор деталей
 crafters.PatternShaper=Стол для вырезки схем
 crafters.CraftingStation=Верстак инженера
 inventory.PatternChest=Сундук для схем
+inventory.PartChest=Part Chest
 crafters.Smeltery=Плавильня
 crafters.Frypan=Сковорода
 inventory.knapsack=Ранец
+toolstation.partholder=Part Chest
 
 nei.options.keys.gui.tinkers_belt=Переключить пояс путешественника
 
@@ -23,6 +25,7 @@ tile.ToolStation.name=Инженерная станция
 ToolStation.Crafter.name=Инженерная станция
 ToolStation.Parts.name=Конструктор деталей
 ToolStation.PatternChest.name=Сундук для схем
+ToolStation.PartChest.name=Part Chest
 ToolStation.PatternShaper.name=Стол для вырезки схем
 ToolStation.CastingTable.name=Литейный стол
 tile.FurnaceSlab.name=Печь-плита
@@ -923,6 +926,18 @@ gui.toolstation20=Защита:
 gui.toolstation21=Боеприпасы: 
 gui.toolstation22=Шанс поломки: 
 gui.toolstation23=Макс. урон: 
+
+gui.partcrafter.durability=Durability: %s
+gui.partcrafter.mininglevel=Mining Level: %s
+gui.partcrafter.miningspeed=Mining Speed: %s
+gui.partcrafter.attack=Attack: %s
+gui.partcrafter.handlemodifier=Handle Modifier: %s
+gui.partcrafter.drawspeed=Draw Speed: %s s
+gui.partcrafter.arrowspeed=Arrow Speed: %s
+gui.partcrafter.arrow=Arrow
+gui.partcrafter.bolt=Bolt
+gui.partcrafter.weight=Weight: %s
+gui.partcrafter.breakchance=Break Chance: %s %%
 
 gui.mining1=Камень
 gui.mining2=Железо
