@@ -13,9 +13,11 @@ crafters.PartBuilder=Part Builder
 crafters.PatternShaper=Stencil Table
 crafters.CraftingStation=Crafting Station
 inventory.PatternChest=Pattern Chest
+inventory.PartChest=Part Chest
 crafters.Smeltery=Smeltery
 crafters.Frypan=Frying Pan
 inventory.knapsack=Knapsack
+toolstation.partholder=Part Chest
 
 nei.options.keys.gui.tinkers_belt=Toggle Travellers Belt
 
@@ -23,6 +25,7 @@ tile.ToolStation.name=Tool Station
 ToolStation.Crafter.name=Tool Station
 ToolStation.Parts.name=Part Builder
 ToolStation.PatternChest.name=Pattern Chest
+ToolStation.PartChest.name=Part Chest
 ToolStation.PatternShaper.name=Stencil Table
 ToolStation.CastingTable.name=Casting Table
 tile.FurnaceSlab.name=Slab Furnace
@@ -924,12 +927,24 @@ gui.toolstation21=Ammo:
 gui.toolstation22=Break Chance: 
 gui.toolstation23=Max. Attack: 
 
-gui.mining1=Stone
-gui.mining2=Iron
-gui.mining3=Redstone
-gui.mining4=Obsidian
-gui.mining5=Cobalt
-gui.mining6=Manyullyn
+gui.partcrafter.durability=Durability: %s
+gui.partcrafter.mininglevel=Mining Level: %s
+gui.partcrafter.miningspeed=Mining Speed: %s
+gui.partcrafter.attack=Attack: %s
+gui.partcrafter.handlemodifier=Handle Modifier: %s
+gui.partcrafter.drawspeed=Draw Speed: %s s
+gui.partcrafter.arrowspeed=Arrow Speed: %s
+gui.partcrafter.arrow=Arrow
+gui.partcrafter.bolt=Bolt
+gui.partcrafter.weight=Weight: %s
+gui.partcrafter.breakchance=Break Chance: %s %%
+
+gui.mining1=§7Stone§r
+gui.mining2=§fIron§r
+gui.mining3=§4Redstone§r
+gui.mining4=§dObsidian§r
+gui.mining5=§9Cobalt§r
+gui.mining6=§5Manyullyn§r
 
 gui.toolstation.pickaxe.desc=The Pickaxe is a precise mining tool. It is effective on stone and ores.\n\nRequired parts:\n- Pickaxe Head\n- Tool Binding\n- Handle
 gui.toolstation.shovel.desc=The Shovel is a precise digging tool. It is effective on dirt, sand, and snow.\n\nRequired parts:\n- Shovel Head\n- Handle
