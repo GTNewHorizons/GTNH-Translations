@@ -22,10 +22,6 @@ death.attack.plasmabolt=%sはプラズマによって焼け死んだ。
 death.attack.plasmabolt.player=%1$sは%2$sにプラズマで焼き殺された。
 death.attack.gtpp.grinder=%sはイサミルによってこなみじんになって死んだ。
 
-# Batch mode chat message
-misc.BatchModeTextOn=バッチモード有効(ME出力バスの使用推奨、超過分の出力は消去されます！)
-misc.BatchModeTextOff=バッチモード無効
-
 # Alternative Materials
 item.itemPlateBatteryAlloy.name=バッテリー合金プレート
 item.itemIngotBatteryAlloy.name=バッテリー合金インゴット
@@ -274,9 +270,6 @@ MU-metaitem.01.0.name=MU-metaitem.01.0.name
 # Cells
 item.SulfurDioxide.name=高品質二酸化硫黄入りセル
 item.mobessence.name=モブエッセンス入りセル
-item.Fertiliser.name=液体肥料入りセル
-item.UN32Fertiliser.name=UN-32肥料入りセル
-item.UN18Fertiliser.name=UN-18肥料入りセル
 item.RaisinJuice.name=レーズンジュース入りセル
 item.BerylliumHydroxide.name=水酸化ベリリウム入りセル
 item.AmmoniumBifluoride.name=二フッ化アンモニウム入りセル
@@ -1677,12 +1670,6 @@ item.itemDustTinyZrCl4.name=とても小さなZrCl4の粉
 item.itemDustCookedZrCl4.name=焙焼したZrCl4の粉
 item.itemDustSmallCookedZrCl4.name=小さな焙焼したZrCl4の粉
 item.itemDustTinyCookedZrCl4.name=とても小さな焙焼したZrCl4の粉
-item.itemDustUN18Fertiliser.name=UN-18肥料の粉
-item.itemDustSmallUN18Fertiliser.name=小さなUN-18肥料の粉
-item.itemDustTinyUN18Fertiliser.name=とても小さなUN-18肥料の粉
-item.itemDustUN32Fertiliser.name=UN-32肥料の粉
-item.itemDustSmallUN32Fertiliser.name=小さなUN-32肥料の粉
-item.itemDustTinyUN32Fertiliser.name=とても小さなUN-32肥料の粉
 item.itemCustomMetaCover.miscutils.GtMachineCasings=%s機械プレートカバー
 item.itemCustomMetaCover.miscutils.GtMachineCasings.name=機械プレートカバー
 item.itemGregtechPump.tooltip.0=その他通常の流体コンテナブロックからは流体を吸い取れません
@@ -4060,7 +4047,17 @@ gtpp.infodata.solar_heater.testificate=証明書
 gtpp.infodata.energy_buffer.eu_stored=%s EUを蓄電中
 gtpp.infodata.energy_buffer.eu_capacity=%s EUを蓄電可能
 gtpp.infodata.tiered_chest.name=スーパーストレージチェスト
+gtpp.infodata.tiered_tank.name=%s Fluid Tank
+gtpp.tiered_tank.desc.capacity=Stores %s of fluid
+gtpp.tiered_tank.desc.portable=A portable tank.
+gtpp.tiered_tank.desc.fluid=Fluid: %s %s L
+gtpp.tiered_tank.tooltip.contains=Contains Fluid: 
+gtpp.tiered_tank.tooltip.amount=Fluid Amount: %s L
 gtpp.infodata.tiered_tank.name=%s流体タンク
+gtpp.tiered_tank.infodata.amount=%s L
+gtpp.tiered_tank.infodata.capacity=%s L
+GT5U.infodata.digital_tank.stored_fluid=Stored Fluid
+GT5U.infodata.digital_tank.stored_fluid.empty=Empty
 
 # GUI
 gtpp.gui.text.time_since_built=建設からの総時間
