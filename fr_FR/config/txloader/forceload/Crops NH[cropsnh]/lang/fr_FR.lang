@@ -70,7 +70,7 @@ item.cropsnh:materialLeaf.starWart.name=Star Wart
 item.cropsnh:materialLeaf.hops.name=Hops
 item.cropsnh:materialLeaf.hempStem.name=Hemp Stem
 # Environmental Module Items
-item.cropsnh:environmentalModule.blank=Environmental Module (%1$s)
+item.cropsnh:environmentalModule.blank=Blank Environmental Module
 item.cropsnh:environmentalModule.template=Environmental Module (%1$s)
 
 # Blocks
@@ -103,7 +103,7 @@ cropsnh_tooltip.stats=Stats
 cropsnh_tooltip.growth=Growth
 cropsnh_tooltip.gain=Gain
 cropsnh_tooltip.resistance=Resistance
-cropsnh_tooltip.min_seed_bed_tier=Minimum seed bed tier: %1$s
+cropsnh_tooltip.min_seed_bed_tier=Minimum Seed Bed tier: %1$s
 cropsnh_tooltip.soil=Soil
 cropsnh_tooltip.fertilizer=Fertilizer
 cropsnh_tooltip.water=Water
@@ -241,7 +241,7 @@ cropsnh_tooltip.cropManager.tooltip.1=Consumes %1$s EU per harvest
 cropsnh_tooltip.cropManager.tooltip.2=Consumes %1$s EU per secondary operation
 cropsnh_tooltip.cropManager.tooltip.3=Can harvest %s block levels above and below itself
 cropsnh_tooltip.cropManager.tooltip.4=Range: %1$sx%2$sx%1$s blocks
-cropsnh_tooltip.cropManager.tooltip.5=Has %1$s%% chance for extra drops
+cropsnh_tooltip.cropManager.tooltip.5=Has %1$s chance for extra drops
 cropsnh_tooltip.cropManager.tooltip.6=Holds %1$s of Water
 cropsnh_tooltip.cropManager.tooltip.7=Holds %1$s of Fertilizer
 cropsnh_tooltip.cropManager.tooltip.8=Holds %1$s of Weed-EX
@@ -273,17 +273,17 @@ cropsnh_tooltip.cropManager.name.12=Epic Crop Manager IV
 cropsnh_tooltip.industrialFarm.name=Industrial Farm
 cropsnh_tooltip.industrialFarm.machineType=Industrial Crop Cultivator, IF
 cropsnh_tooltip.industrialFarm.0=Grows crops at an industrial scale
-cropsnh_tooltip.industrialFarm.1=The §blength§7 of the machine depends on the §ctier§7 of the §fseed bed§7
-cropsnh_tooltip.industrialFarm.2=The §ctier§7 of the §fupgrades§7 must match the §ctier§7 of the §fseed bed§7
-cropsnh_tooltip.industrialFarm.3=Harvest bonus grows by §c20%§7 per §ctier§7 of §fseed bed§7
+# separator
+cropsnh_tooltip.industrialFarm.1=The §blength§7 of the machine depends on the §ctier§7 of the §fSeed bed§7
+cropsnh_tooltip.industrialFarm.2=The §ctier§7 of the §fupgrades§7 must match the §ctier§7 of the §fSeed bed§7
 cropsnh_tooltip.industrialFarm.structure.hatch=Any casing with hint number 1
 cropsnh_tooltip.industrialFarm.structure.seedBed=Seed Bed
 cropsnh_tooltip.industrialFarm.structure.upgrades.name=Upgrades (tiered)
 cropsnh_tooltip.industrialFarm.structure.upgrades.info=Any wooden frame boxes
 
 # Industrial Farm block tooltips
-cropsnh_tooltip.upgradeTierMustMatchSeedBed=The tier of this upgrade must match that of the seedbed
-cropsnh_tooltip.upgradeCountLimited=You can only use a maximum of %1$d of these upgrades
+cropsnh_tooltip.upgradeTierMustMatchSeedBed=The §ctier§7 of this upgrade must match that of the §fSeed Bed§7
+cropsnh_tooltip.upgradeCountLimited=You can only use a maximum of §6%1$s§7 of these upgrades
 
 # Industrial Farm UI
 cropsnh_tooltip.industrialFarm.capacity=Max capacity: %1$d
@@ -301,7 +301,7 @@ cropsnh_tooltip.industrialFarm.mode.output=Output
 GT5U.gui.text.cropsnh.industrialFarm.blockUnderNotFound=Failed to insert new seeds as the block that goes below the soil is missing
 GT5U.gui.text.cropsnh.industrialFarm.blockUnderMismatch.input=Failed to insert new seeds as the blocks stored in this machine aren't compatible
 GT5U.gui.text.cropsnh.industrialFarm.blockUnderMismatch.farm=The current block does not match the blocks required for this seed to grow
-GT5U.gui.text.cropsnh.industrialFarm.seedBedTierTooLow=The current tier of seed bed is too low for this seed
+GT5U.gui.text.cropsnh.industrialFarm.seedBedTierTooLow=The current tier of Seed Bed is too low for this seed
 GT5U.gui.text.cropsnh.industrialFarm.seedsFull=Seed capacity reached
 GT5U.gui.text.cropsnh.industrialFarm.seedOverflow=Seed Storage exceeds current capacity
 GT5U.gui.text.cropsnh.industrialFarm.cannotGrow=This seed cannot grow in the current environment
@@ -317,11 +317,13 @@ cropsnh_tooltip.industrialFarm.scanner.6=Nutrient Score: §e%1$s§r out of §e%2
 
 # Seed Bed
 cropsnh_tooltip.seedBed.name=Seed Bed (%1$s)
-cropsnh_tooltip.seedBed.0=Determines the tier of the industrial farm
-cropsnh_tooltip.seedBed.1=Seed Capacity: %1$d
+cropsnh_tooltip.seedBed.0=Determines the §ctier§7 of the Industrial Farm
+cropsnh_tooltip.seedBed.1=Seed Capacity: %1$s
 cropsnh_tooltip.seedBed.2=Requires %1$s of water per cycle
-cropsnh_tooltip.seedBed.3.single=Farm must have exactly %1$d middle slice
-cropsnh_tooltip.seedBed.3.plural=Farm must have exactly %1$d middle slices
+cropsnh_tooltip.seedBed.3=Increases number of drops by %1$s
+cropsnh_tooltip.seedBed.3.adv=Increases number of drops by %1$s (additive)
+cropsnh_tooltip.seedBed.4.single=Farm must have exactly %1$s middle slice
+cropsnh_tooltip.seedBed.4.plural=Farm must have exactly %1$s middle slices
 cropsnh.seedBed.2.name=Seed Bed (MV)
 cropsnh.seedBed.3.name=Seed Bed (HV)
 cropsnh.seedBed.4.name=Seed Bed (EV)
@@ -336,7 +338,9 @@ cropsnh.seedBed.12.name=Seed Bed (UMV)
 cropsnh.seedBed.13.name=Seed Bed (UXV)
 
 # OC Growth Accel Unit
-cropsnh_tooltip.overclockedGrowthAccelerationUnit=Enables overclocking on the Industrial Farm
+cropsnh_tooltip.overclockedGrowthAccelerationUnit.0=Allows §foverclocking§7 of the Industrial Farm
+cropsnh_tooltip.overclockedGrowthAccelerationUnit.1=Each overclock §bdoubles§7 production without affecting recipe time
+cropsnh_tooltip.overclockedGrowthAccelerationUnit.2=Won't work if a §fGrowth Acceleration Unit§7 is also present
 cropsnh.overclockedGrowthAccelerationUnit.7.name=Overclocked Growth Acceleration Unit (ZPM)
 cropsnh.overclockedGrowthAccelerationUnit.8.name=Overclocked Growth Acceleration Unit (UV)
 cropsnh.overclockedGrowthAccelerationUnit.9.name=Overclocked Growth Acceleration Unit (UHV)
@@ -346,11 +350,12 @@ cropsnh.overclockedGrowthAccelerationUnit.12.name=Overclocked Growth Acceleratio
 cropsnh.overclockedGrowthAccelerationUnit.13.name=Overclocked Growth Acceleration Unit (UXV)
 
 # Growth Accel Unit
-cropsnh_tooltip.growthAccelerationUnit.0=Increases the speed at which crops grow inside the Industrial Farm
-cropsnh_tooltip.growthAccelerationUnit.1=Increases growth speed by %1$.0f%%
-cropsnh_tooltip.growthAccelerationUnit.1.adv=Increases growth speed by %1$.0f%% per upgrade (additive)
-cropsnh_tooltip.growthAccelerationUnit.2=Increases power usage by %1$.0f%%
-cropsnh_tooltip.growthAccelerationUnit.2.adv=Increases power usage by %1$.0f%% per upgrade (additive)
+cropsnh_tooltip.growthAccelerationUnit.0=Increases the growth speed of crops inside an Industrial Farm
+cropsnh_tooltip.growthAccelerationUnit.1=Increases growth speed by %1$s
+cropsnh_tooltip.growthAccelerationUnit.1.adv=Increases growth speed by %1$s per upgrade (additive)
+cropsnh_tooltip.growthAccelerationUnit.2=Increases power usage by %1$s
+cropsnh_tooltip.growthAccelerationUnit.2.adv=Increases power usage by %1$s per upgrade (additive)
+cropsnh_tooltip.growthAccelerationUnit.3=Won't work if an §fOverclocked Growth Acceleration Unit§7 is also present
 cropsnh.growthAccelerationUnit.2.name=Growth Acceleration Unit (MV)
 cropsnh.growthAccelerationUnit.3.name=Growth Acceleration Unit (HV)
 cropsnh.growthAccelerationUnit.4.name=Growth Acceleration Unit (EV)
@@ -365,14 +370,14 @@ cropsnh.growthAccelerationUnit.12.name=Growth Acceleration Unit (UMV)
 cropsnh.growthAccelerationUnit.13.name=Growth Acceleration Unit (UXV)
 
 # Fertilizer Unit
-cropsnh_tooltip.fertilizerUnit.0=Allows the Industrial Farm to consume fertilizer in order to boost production
-cropsnh_tooltip.fertilizerUnit.1=Requires %1$s of fertilizer per cycle
-cropsnh_tooltip.fertilizerUnit.2=Increases growth speed by %1$.0f%%
-cropsnh_tooltip.fertilizerUnit.2.adv=Increases growth speed by %1$.0f%% (multiplicative)
-cropsnh_tooltip.fertilizerUnit.3=Increases number of drops by %1$1.2f%%
-cropsnh_tooltip.fertilizerUnit.3.adv=Increases number of drops by %1$1.2f%% (additive)
-cropsnh_tooltip.fertilizerUnit.4=Increases power usage by %1$.0f%%
-cropsnh_tooltip.fertilizerUnit.4.adv=Increases power usage by %1$.0f%% (additive)
+cropsnh_tooltip.fertilizerUnit.0=Allows the Industrial Farm to consume §fFertilizer§7 in order to boost production
+cropsnh_tooltip.fertilizerUnit.1=Requires %1$s of Fertilizer per cycle
+cropsnh_tooltip.fertilizerUnit.2=Increases growth speed by %1$s
+cropsnh_tooltip.fertilizerUnit.2.adv=Increases growth speed by %1$s (multiplicative)
+cropsnh_tooltip.fertilizerUnit.3=Increases number of drops by %1$s
+cropsnh_tooltip.fertilizerUnit.3.adv=Increases number of drops by %1$s (additive)
+cropsnh_tooltip.fertilizerUnit.4=Increases power usage by %1$s
+cropsnh_tooltip.fertilizerUnit.4.adv=Increases power usage by %1$s (additive)
 cropsnh.fertilizerUnit.2.name=Fertilization Unit (MV)
 cropsnh.fertilizerUnit.3.name=Fertilization Unit (HV)
 cropsnh.fertilizerUnit.4.name=Fertilization Unit (EV)
@@ -387,10 +392,10 @@ cropsnh.fertilizerUnit.12.name=Fertilization Unit (UMV)
 cropsnh.fertilizerUnit.13.name=Fertilization Unit (UXV)
 
 # Environmental Unit
-cropsnh_tooltip.environmentalEnhancementUnit.0=Allows the use of environmental modules in the Industrial Farm
-cropsnh_tooltip.environmentalEnhancementUnit.1=Modules are inserted in the farm's controller
-cropsnh_tooltip.environmentalEnhancementUnit.2=Increases power usage by %1$.0f%%
-cropsnh_tooltip.environmentalEnhancementUnit.2.adv=Increases power usage by %1$.0f%% (additive)
+cropsnh_tooltip.environmentalEnhancementUnit.0=Allows the use of §fEnvironmental Modules§7 in the Industrial Farm
+cropsnh_tooltip.environmentalEnhancementUnit.1=Modules are inserted in the farm's §fcontroller§7
+cropsnh_tooltip.environmentalEnhancementUnit.2=Increases power usage by %1$s
+cropsnh_tooltip.environmentalEnhancementUnit.2.adv=Increases power usage by %1$s (additive)
 cropsnh.environmentalEnhancementUnit.2.name=Environmental Enhancement Unit (MV)
 cropsnh.environmentalEnhancementUnit.3.name=Environmental Enhancement Unit (HV)
 cropsnh.environmentalEnhancementUnit.4.name=Environmental Enhancement Unit (EV)
@@ -405,11 +410,11 @@ cropsnh.environmentalEnhancementUnit.12.name=Environmental Enhancement Unit (UMV
 cropsnh.environmentalEnhancementUnit.13.name=Environmental Enhancement Unit (UXV)
 
 # Advanced Harvesting Unit
-cropsnh_tooltip.advancedHarvestingUnit.0=Increases the output from the industrial farm
-cropsnh_tooltip.advancedHarvestingUnit.1=Increases amount of drops by %1$.0f%% per upgrade
-cropsnh_tooltip.advancedHarvestingUnit.1.adv=Increases amount of drops by %1$.0f%% per upgrade (multiplicative)
-cropsnh_tooltip.advancedHarvestingUnit.2=Increases power usage by %1$.0f%% per upgrade
-cropsnh_tooltip.advancedHarvestingUnit.2.adv=Increases power usage by %1$.0f%% per upgrade (additive)
+cropsnh_tooltip.advancedHarvestingUnit.0=Increases the output from the Industrial Farm
+cropsnh_tooltip.advancedHarvestingUnit.1=Increases amount of drops by %1$s per upgrade
+cropsnh_tooltip.advancedHarvestingUnit.1.adv=Increases amount of drops by %1$s per upgrade (multiplicative)
+cropsnh_tooltip.advancedHarvestingUnit.2=Increases power usage by %1$s per upgrade
+cropsnh_tooltip.advancedHarvestingUnit.2.adv=Increases power usage by %1$s per upgrade (additive)
 cropsnh.advancedHarvestingUnit.2.name=Advanced Harvesting Unit (MV)
 cropsnh.advancedHarvestingUnit.3.name=Advanced Harvesting Unit (HV)
 cropsnh.advancedHarvestingUnit.4.name=Advanced Harvesting Unit (EV)
