@@ -374,16 +374,15 @@ lp.hud.config.satellite.disabled=Disabled Satellite.
 
 # GUI
 
+gui.logisticspipes.inventory.title=Inventory
 gui.itemsink.Yes=Yes
 gui.itemsink.No=No
-gui.itemsink.Inventory=Inventory
 gui.itemsink.Defaultroute=Default route
 gui.itemsink.IgnoreData=Ignore Data
 gui.itemsink.IgnoreNBT=Ignore NBT
 gui.itemsink.import=Import
 
 gui.crafting.Inputs=Inputs
-gui.crafting.Inventory=Inventory
 gui.crafting.Import=Import
 gui.crafting.Open=Open
 gui.crafting.Output=Output
@@ -423,7 +422,6 @@ gui.fluidsuppliermk2.refill_if_depleted.tip.zero=§7Setting to §e0§7 disables 
 gui.fluidsuppliermk2.TargetInv=Fluid to keep stocked
 
 gui.fluidsupplier.TargetInv=Fluids to keep stocked
-gui.fluidsupplier.Inventory=Inventory
 gui.fluidsupplier.Partialrequests=Partial requests
 gui.fluidsupplier.Yes=Yes
 gui.fluidsupplier.No=No
@@ -437,6 +435,38 @@ gui.invsyscon.Resistance=Resistance
 
 gui.powerjunction.LogisticsPowerJunction=Logistics Power Junction
 gui.powerjunction.StoredEnergy=Stored Energy
+gui.powerjunction.ConversionEnergyRF=10 RF = 5 LP
+gui.powerjunction.ConversionEnergyEU=1 EU = 2 LP
+gui.powerjunction.PowerLevel=%s LP
+gui.powerjunction.MaxStorage=/ %s LP
+
+gui.requesttable.RequestItems=Request items
+gui.requesttable.Sort=Sort:
+gui.requesttable.Popup=Popup
+
+gui.sortmode.id=ID
+gui.sortmode.size=SIZE
+gui.sortmode.name=NAME
+
+gui.module.requestedItems=Requested items
+gui.module.ModuleExtractor=Extract orientation
+gui.module.ModuleTerminus=Terminated items
+gui.module.ModuleAdvancedExtractor=Item list
+gui.module.ModuleProvider=Items to provide (or empty for all)
+gui.module.ModuleProvider.ExcessInventory=Excess Inventory:
+gui.module.ModuleElectricManager.ExcessInventory=Electric Items
+gui.module.ModuleThaumicAspectSink=Aspect Reader
+gui.module.ModuleThaumicAspectSink.sunk=Sunk Aspects
+gui.module.ModuleEnchantmentSink=Requested Enchanted items
+gui.module.ModuleCCBasedQuickSort=Timeout Timer
+gui.module.ModuleCCBasedQuickSort.ticks=%s ticks
+
+gui.hudglasses.ChassiePipe=HUD Chassie Pipe
+gui.hudglasses.CraftingPipe=HUD Crafting Pipe
+gui.hudglasses.InvSysConPipe=HUD InvSysCon Pipe
+gui.hudglasses.PowerJunction=HUD Power Junction
+gui.hudglasses.ProviderPipe=HUD Provider Pipe
+gui.hudglasses.SatellitePipe=HUD Satellite Pipe
 
 gui.powerprovider.LogisticsMJPowerProvider=Logistics MJ Power Provider
 gui.powerprovider.LogisticsEUPowerProvider=Logistics EU Power Provider
@@ -444,7 +474,6 @@ gui.powerprovider.LogisticsRFPowerProvider=Logistics RF Power Provider
 gui.powerprovider.StoredEnergy=Stored Energy
 
 gui.providerpipe.TargetInv=Items to provide (or empty for all)
-gui.providerpipe.Inventory=Inventory
 gui.providerpipe.Mode=Mode
 gui.providerpipe.Exclude=Exclude
 gui.providerpipe.Include=Include
@@ -470,7 +499,6 @@ gui.securitystation.excludeIDs=Excluded ComputerCraft IDs
 gui.securitystation.pipeRemove=Allow automated Pipe remove
 gui.securitystation.Player=Player
 gui.securitystation.SecurityCards=Security Cards
-gui.securitystation.Inventory=Inventory
 gui.securitystation.popup.ccAccess.Remove=Remove
 gui.securitystation.popup.ccAccess.Add=Add
 gui.securitystation.popup.player.Close=Close
@@ -483,15 +511,12 @@ gui.securitystation.popup.player.RemovePipes=Remove Pipes
 
 gui.supplierpipe.TargetInv=Items to keep stocked
 gui.supplierpipe.TargetInvPattern=Items to keep in the specified slots
-gui.supplierpipe.Inventory=Inventory
 gui.supplierpipe.RequestMode=Request Mode
 
 gui.upgrademanager.Upgrades=Upgrades
-gui.upgrademanager.Inventory=Inventory
 gui.upgrademanager.SneakyUpgrades=Sneaky Upgrades
 
 gui.pipecontroller.upgrade=Upgrades
-gui.pipecontroller.inventory=Inventory
 gui.pipecontroller.sneakyUpgrades=Sneaky Upgrades
 gui.pipecontroller.security=Security
 gui.pipecontroller.Session=Session
@@ -505,6 +530,7 @@ gui.networkstatistics.amount=Track amount
 gui.networkstatistics.crafting=View active crafting tasks
 gui.networkstatistics.gettasks=Acquire tasks
 gui.networkstatistics.add.alreadytracked=This item type is already tracked
+gui.networkstatistics.ItemDisplay=Page %s / %s
 
 gui.settings.pipenewrenderer=Use New Renderer
 gui.settings.pipevborenderer=Use VBO Renderer (experimental)

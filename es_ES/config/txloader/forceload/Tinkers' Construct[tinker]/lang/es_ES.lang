@@ -13,9 +13,11 @@ crafters.PartBuilder=Constructor de Partes
 crafters.PatternShaper=Mesa de Plantillas
 crafters.CraftingStation=Estación de Elaboración
 inventory.PatternChest=Cofre de Patrones
+inventory.PartChest=Part Chest
 crafters.Smeltery=Fundidora
 crafters.Frypan=Sartén
 inventory.knapsack=Mochila
+toolstation.partholder=Part Chest
 
 nei.options.keys.gui.tinkers_belt=(Des)activar Cinturón del Viajero
 
@@ -23,6 +25,7 @@ tile.ToolStation.name=Tool Station
 ToolStation.Crafter.name=Estación de Herramientas
 ToolStation.Parts.name=Constructor de Partes
 ToolStation.PatternChest.name=Cofre de Patrones
+ToolStation.PartChest.name=Part Chest
 ToolStation.PatternShaper.name=Mesa de Plantillas
 ToolStation.CastingTable.name=Mesa de Fundición
 tile.FurnaceSlab.name=Horno de Losas
@@ -186,34 +189,6 @@ item.InfiTool.Cutlass.name=Sable
 item.InfiTool.Shortbow.name=Arco Corto
 item.InfiTool.Arrow.name=Flecha
 item.InfiTool.Mattock.name=Zapapico
-
-infitool.pickaxe=Pico
-infitool.shovel=Pala
-infitool.hatchet=Macheta
-infitool.broadsword=Espada Ancha
-infitool.longsword=Espada Larga
-infitool.rapier=Estoque
-infitool.fryingpan=Sartén
-infitool.battlesign=Cartel de Batalla
-infitool.dagger=Daga
-infitool.chisel=Cincel
-infitool.scythe=Guadaña
-infitool.lumberaxe=Hacha
-infitool.cleaver=Jifero
-infitool.excavator=Excavadora
-infitool.hammer=Martillo
-infitool.battleaxe=Hacha de Armas
-infitool.cutlass=Sable
-infitool.arrow=Flecha
-infitool.mattock=Zapapico
-infitool.shortbow=Arco Corto
-infitool.longbow=Arco Largo
-infitool.crossbow=Ballesta
-infitool.arrowammo=Flechas
-infitool.boltammo=Virotes
-infitool.shuriken=Shuriken
-infitool.throwingknife=Cuchillo
-infitool.javelin=Javalina
 
 item.tconstruct.PotionLauncher.name=Lanza-Pociones
 
@@ -952,12 +927,24 @@ gui.toolstation21=Ammo:
 gui.toolstation22=Break Chance: 
 gui.toolstation23=Max. Attack: 
 
-gui.mining1=Stone
+gui.partcrafter.durability=Durability: %s
+gui.partcrafter.mininglevel=Mining Level: %s
+gui.partcrafter.miningspeed=Mining Speed: %s
+gui.partcrafter.attack=Attack: %s
+gui.partcrafter.handlemodifier=Handle Modifier: %s
+gui.partcrafter.drawspeed=Draw Speed: %s s
+gui.partcrafter.arrowspeed=Arrow Speed: %s
+gui.partcrafter.arrow=Arrow
+gui.partcrafter.bolt=Bolt
+gui.partcrafter.weight=Weight: %s
+gui.partcrafter.breakchance=Break Chance: %s %%
+
+gui.mining1=§7Stone§r
 gui.mining2=Hierro
-gui.mining3=Redstone
-gui.mining4=Obsidian
-gui.mining5=Cobalt
-gui.mining6=Manyullyn
+gui.mining3=§4Redstone§r
+gui.mining4=§dObsidian§r
+gui.mining5=§9Cobalt§r
+gui.mining6=§5Manyullyn§r
 
 gui.toolstation.pickaxe.desc=The Pickaxe is a precise mining tool. It is effective on stone and ores.\n\nRequired parts:\n- Pickaxe Head\n- Tool Binding\n- Handle
 gui.toolstation.shovel.desc=The Shovel is a precise digging tool. It is effective on dirt, sand, and snow.\n\nRequired parts:\n- Shovel Head\n- Handle
@@ -1049,6 +1036,7 @@ tool.boltammo=Bolts
 tool.shuriken=Shuriken
 tool.throwingknife=Throwing Knife
 tool.javelin=Javelin
+tool.boneana=Bonæna
 
 # Customization of default tool names based on tool and material
 #tool.shovel.wood=Wooden Shovel

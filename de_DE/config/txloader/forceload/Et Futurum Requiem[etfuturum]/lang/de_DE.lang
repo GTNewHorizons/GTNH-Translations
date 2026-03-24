@@ -39,7 +39,7 @@ container.enchant.level.many=%d Enchantment Levels
 container.enchant.clue=%s . . . ?
 container.etfuturum.blast_furnace=Blast Furnace
 container.etfuturum.smoker=Smoker
-container.etfuturum.barrel=Barrel
+container.etfuturum.barrel=Fass
 container.etfuturum.shulker_box=Shulker Box
 container.etfuturum.chest_boat=Boat with Chest
 
@@ -335,6 +335,7 @@ entity.etfuturum.shulker.name=Shulker
 entity.etfuturum.shulker_candy.name=Shulker Bullet
 entity.etfuturum.chest_boat.name=Boat with Chest
 entity.etfuturum.new_boat.name=Boat
+entity.etfuturum.new_boat_seat.name=Boat
 
 entity.etfuturum.stray.name=Stray
 entity.etfuturum.husk.name=Husk
@@ -406,7 +407,7 @@ item.etfuturum.bamboo_chest_raft.name=Bamboo Raft with Chest
 item.etfuturum.shulker_shell.name=Shulker Shell
 item.etfuturum.amethyst_shard.name=Amethyst Shard
 item.etfuturum.honeycomb.name=Honeycomb
-item.etfuturum.honey_bottle.name=Honey bottle
+item.etfuturum.honey_bottle.name=Honey Bottle
 item.etfuturum.bamboo.name=Bamboo
 item.etfuturum.glow_berries.name=Glow Berries
 
@@ -628,7 +629,7 @@ tile.etfuturum.raw_gold_block.name=Raw Gold Block
 tile.etfuturum.end_gateway.name=End Gateway
 tile.etfuturum.end_portal.name=End Portal
 tile.etfuturum.smooth_basalt.name=Smooth Basalt
-tile.etfuturum.calcite.name=Calcite
+tile.etfuturum.calcite.name=Kalzit
 tile.etfuturum.amethyst_block.name=Amethyst Block
 tile.etfuturum.budding_amethyst.name=Budding Amethyst
 tile.etfuturum.small_amethyst_bud.name=Small Amethyst Bud
@@ -670,7 +671,7 @@ tile.etfuturum.honeycomb_block.name=Honeycomb Block
 
 tile.etfuturum.glow_lichen.name=Glow Lichen
 
-tile.etfuturum.barrel.name=Barrel
+tile.etfuturum.barrel.name=Fass
 tile.etfuturum.blast_furnace.name=Blast Furnace
 tile.etfuturum.smoker.name=Smoker
 tile.etfuturum.stonecutter.name=Stonecutter
@@ -1720,15 +1721,15 @@ efr.elytra.betterfps.warn3=§cElytra flight has been disabled.
 
 # Mod support blocks
 
-tile.etfuturum.iron_barrel.name=Iron Barrel
-tile.etfuturum.gold_barrel.name=Gold Barrel
-tile.etfuturum.diamond_barrel.name=Diamond Barrel
-tile.etfuturum.copper_barrel.name=Copper Barrel
-tile.etfuturum.silver_barrel.name=Silver Barrel
-tile.etfuturum.obsidian_barrel.name=Obsidian Barrel
-tile.etfuturum.netherite_barrel.name=Netherite Barrel
-tile.etfuturum.steel_barrel.name=Steel Barrel
-tile.etfuturum.darksteel_barrel.name=Dark Steel Barrel
+tile.etfuturum.iron_barrel.name=Eisenfass
+tile.etfuturum.gold_barrel.name=Goldfass
+tile.etfuturum.diamond_barrel.name=Diamantfass
+tile.etfuturum.copper_barrel.name=Kupferfass
+tile.etfuturum.silver_barrel.name=Silberfass
+tile.etfuturum.obsidian_barrel.name=Obsidianfass
+tile.etfuturum.netherite_barrel.name=Netheritfass
+tile.etfuturum.steel_barrel.name=Stahlfass
+tile.etfuturum.darksteel_barrel.name=Dunkelstahlfass
 
 
 tile.etfuturum.iron_shulker_box.name=Iron Shulker Box
@@ -1970,17 +1971,17 @@ item.shulker_copper_iron_upgrade.name=Copper to Iron Shulker Box Upgrade
 item.shulker_copper_silver_upgrade.name=Copper to Silver Shulker Box Upgrade
 item.shulker_silver_gold_upgrade.name=Silver to Gold Shulker Box Upgrade
 
-item.barrel_vanilla_iron_upgrade.name=Vanilla to Iron Barrel Upgrade
-item.barrel_vanilla_copper_upgrade.name=Vanilla to Copper Barrel Upgrade
-item.barrel_iron_gold_upgrade.name=Iron to Gold Barrel Upgrade
-item.barrel_gold_diamond_upgrade.name=Gold to Diamond Barrel Upgrade
-item.barrel_diamond_obsidian_upgrade.name=Diamond to Obsidian Barrel Upgrade
-item.barrel_copper_iron_upgrade.name=Copper to Iron Barrel Upgrade
-item.barrel_copper_silver_upgrade.name=Copper to Silver Barrel Upgrade
-item.barrel_silver_gold_upgrade.name=Silver to Gold Barrel Upgrade
-item.barrel_steel_gold_upgrade.name=Steel to Gold Barrel Upgrade
-item.barrel_obsidian_netherite_upgrade.name=Obsidian to Netherite Barrel Upgrade
-item.barrel_obsidian_darksteel_upgrade.name=Obsidian to Dark Steel Barrel Upgrade
+item.barrel_vanilla_iron_upgrade.name=Vanilla- zu Eisenfass-Verbesserung
+item.barrel_vanilla_copper_upgrade.name=Vanilla- zu Kupferfass-Verbesserung
+item.barrel_iron_gold_upgrade.name=Eisen- zu Goldfass-Verbesserung
+item.barrel_gold_diamond_upgrade.name=Gold- zu Diamantfass-Verbesserung
+item.barrel_diamond_obsidian_upgrade.name=Diamant- zu Obsidianfass-Verbesserung
+item.barrel_copper_iron_upgrade.name=Kupfer- zu Eisenfass-Verbesserung
+item.barrel_copper_silver_upgrade.name=Kupfer- zu Silberfass-Verbesserung
+item.barrel_silver_gold_upgrade.name=Silber- zu Goldfass-Verbesserung
+item.barrel_steel_gold_upgrade.name=Stahl- zu Goldfass-Verbesserung
+item.barrel_obsidian_netherite_upgrade.name=Obsidian- zu Neheritfass-Verbesserung
+item.barrel_obsidian_darksteel_upgrade.name=Obdisidian- zu Dunkelstahlfass-Verbesserung
 
 item.etfuturum.raw_aluminum.name=Raw Aluminum
 item.etfuturum.raw_tin.name=Raw Tin

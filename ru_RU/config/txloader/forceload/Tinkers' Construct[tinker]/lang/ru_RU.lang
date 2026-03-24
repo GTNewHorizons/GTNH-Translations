@@ -1,10 +1,10 @@
-itemGroup.TConstructTools=TConstruct Инструменты
-itemGroup.TConstructMaterials=TConstruct Материалы
-itemGroup.TConstructBlocks=TConstruct Блоки
-itemGroup.TConstructParts=TConstruct Детали инструментов
-itemGroup.TConstructEquipables=TConstruct Оборудование
-itemGroup.TConstructWeaponry=TConstruct Вооружение
-itemGroup.TConstructGadgets=TConstruct Гаджеты
+itemGroup.TConstructTools=TConstruct: Инструменты
+itemGroup.TConstructMaterials=TConstruct: Материалы
+itemGroup.TConstructBlocks=TConstruct: Блоки
+itemGroup.TConstructParts=TConstruct: Детали инструментов
+itemGroup.TConstructEquipables=TConstruct: Оборудование
+itemGroup.TConstructWeaponry=TConstruct: Вооружение
+itemGroup.TConstructGadgets=TConstruct: Гаджеты
 
 crafters.ToolStation=Инженерная станция
 crafters.ToolForge=Инженерная кузня
@@ -13,9 +13,11 @@ crafters.PartBuilder=Конструктор деталей
 crafters.PatternShaper=Стол для вырезки схем
 crafters.CraftingStation=Верстак инженера
 inventory.PatternChest=Сундук для схем
+inventory.PartChest=Part Chest
 crafters.Smeltery=Плавильня
 crafters.Frypan=Сковорода
 inventory.knapsack=Ранец
+toolstation.partholder=Part Chest
 
 nei.options.keys.gui.tinkers_belt=Переключить пояс путешественника
 
@@ -23,6 +25,7 @@ tile.ToolStation.name=Инженерная станция
 ToolStation.Crafter.name=Инженерная станция
 ToolStation.Parts.name=Конструктор деталей
 ToolStation.PatternChest.name=Сундук для схем
+ToolStation.PartChest.name=Part Chest
 ToolStation.PatternShaper.name=Стол для вырезки схем
 ToolStation.CastingTable.name=Литейный стол
 tile.FurnaceSlab.name=Печь-плита
@@ -924,12 +927,24 @@ gui.toolstation21=Боеприпасы:
 gui.toolstation22=Шанс поломки: 
 gui.toolstation23=Макс. урон: 
 
-gui.mining1=Камень
-gui.mining2=Железо
-gui.mining3=Красный камень
-gui.mining4=Обсидиан
-gui.mining5=Кобальт
-gui.mining6=Мануллин
+gui.partcrafter.durability=Прочность: %s
+gui.partcrafter.mininglevel=Уровень добычи: %s
+gui.partcrafter.miningspeed=Скорость добычи: %s
+gui.partcrafter.attack=Урон: %s
+gui.partcrafter.handlemodifier=Модификатор ручки: %s
+gui.partcrafter.drawspeed=Скорость натяжения: %s с
+gui.partcrafter.arrowspeed=Скорость стрелы: %s
+gui.partcrafter.arrow=Стрела
+gui.partcrafter.bolt=Болт
+gui.partcrafter.weight=Вес: %s
+gui.partcrafter.breakchance=Шанс поломки: %s %%
+
+gui.mining1=§7Камень§r
+gui.mining2=§fЖелезо§r
+gui.mining3=§4Красный камень§r
+gui.mining4=§dОбсидиан§r
+gui.mining5=§9Кобальт§r
+gui.mining6=§5Мануллин§r
 
 gui.toolstation.pickaxe.desc=Кирка - это инструмент для точной добычи. Она эффективна для добычи камня и руд.\n\nТребуются части:\n- Обух кирки\n- Крепление\n- Ручка
 gui.toolstation.shovel.desc=Лопата - это инструмент для точного копания. Она эффективна для добычи земли, песка и снега.\n\nТребуются части:\n- Штык лопаты\n- Ручка

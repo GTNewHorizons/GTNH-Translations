@@ -50,18 +50,18 @@ item.em.constructable.desc.2=just Use on a multiblock controller.
 item.em.constructable.desc.3=(Sneak Use in creative to build)
 item.em.constructable.desc.4=Quantity affects tier/mode/type
 
-item.em.EuMeterGT.name=GT EU meter
-item.em.EuMeterGT.desc.0=Measures basic EU related stuff
-item.em.EuMeterGT.desc.1=Just right click on blocks.
+item.em.EuMeterGT.name=GT-EU計測器
+item.em.EuMeterGT.desc.0=基本的なEU関連の情報を計測する
+item.em.EuMeterGT.desc.1=タイルに対し右クリックして使用します
 
 item.em.frontRotate.name=Front Rotation Scrench
 item.em.frontRotate.desc.0=Triggers Front Rotation Interface
 item.em.frontRotate.desc.1=Rotates only the front panel,
 item.em.frontRotate.desc.2=which allows structure rotation.
 
-item.em.parametrizerMemoryCard.name=Parametrizer Memory Card
-item.em.parametrizerMemoryCard.name.paste=Parametrizer Memory Card (Paste Mode)
-item.em.parametrizerMemoryCard.name.copy=Parametrizer Memory Card (Copy Mode)
+item.em.parametrizerMemoryCard.name=パラメータ－用メモリーカード
+item.em.parametrizerMemoryCard.name.paste=パラメータ－用メモリーカード (ペーストモード)
+item.em.parametrizerMemoryCard.name.copy=パラメータ－用メモリーカード (コピーモード)
 item.em.parametrizerMemoryCard.desc.0=Stores Parameters
 item.em.parametrizerMemoryCard.desc.1=Use on Multiblock Controller to configure it
 item.em.parametrizerMemoryCard.desc.2=Use on Multiblock Controller to store parameters
@@ -496,9 +496,9 @@ gt.blockmachines.emout.tier.13.name=エレメンタル出力ハッチ (UXV)
 gt.blockmachines.emout.desc=Elemental Output for Multiblocks
 
 #TODO change tier.05 to tier.04
-gt.blockmachines.hatch.param.tier.05.name=Parametrizer
-gt.blockmachines.hatch.param.tier.07.name=Parametrizer X
-gt.blockmachines.hatch.param.tier.10.name=Parametrizer tXt
+gt.blockmachines.hatch.param.tier.05.name=パラメトライザー
+gt.blockmachines.hatch.param.tier.07.name=パラメトライザーX
+gt.blockmachines.hatch.param.tier.10.name=パラメトライザーtXt
 gt.blockmachines.hatch.param.desc.0=For parametrization of Multiblocks
 gt.blockmachines.hatch.param.desc.1=E=mine*craft
 
@@ -530,7 +530,7 @@ gt.blockmachines.hatch.dataoutass.desc.2=Must be painted to work
 gt.blockmachines.hatch.rack.tier.08.name=Computer Rack
 gt.blockmachines.hatch.rack.desc.0=4 Slot Rack
 gt.blockmachines.hatch.rack.desc.1=Holds Computer Components
-gt.blockmachines.hatch.holder.tier.09.name=Object Holder
+gt.blockmachines.hatch.holder.tier.09.name=オブジェクトホルダー
 gt.blockmachines.hatch.holder.desc.0=For Research Station
 gt.blockmachines.hatch.holder.desc.1=Advanced Holding Mechanism!
 gt.blockmachines.hatch.capacitor.tier.03.name=Capacitor Hatch
@@ -567,7 +567,7 @@ gt.blockhintTT.desc.4=空気が"設置"されていないことを確認して�
 gt.blockhintTT.15.name=ヒント Error
 gt.blockhintTT.desc.5=ERROR, なにを期待していた？
 
-gt.blockcasingsTT.0.name=High Power Casing
+gt.blockcasingsTT.0.name=高出力外装
 gt.blockcasingsTT.0.desc.0=Well suited for high power applications.
 gt.blockcasingsTT.0.desc.1=The power levels are rising!
 gt.blockcasingsTT.1.name=コンピューター用外装
@@ -637,7 +637,7 @@ gt.blockcasingsBA0.8.desc.1=Who wouldn't want a 32k epoxy multi?
 
 #Multiblocks
 gt.blockmachines.multimachine.em.transformer.name=Active Transformer
-gt.blockmachines.multimachine.em.transformer.hint=1 - Energy IO Hatches or High Power Casing
+gt.blockmachines.multimachine.em.transformer.hint=1 - エネルギーハッチ/ダイナモハッチ/高出力外装
 gt.blockmachines.multimachine.em.transformer.desc.0=Controller block of the Active Transformer
 gt.blockmachines.multimachine.em.transformer.desc.1=あらゆる変圧に対応
 gt.blockmachines.multimachine.em.transformer.desc.2=Only 0.004% power loss, HAYO!
@@ -650,7 +650,7 @@ gt.blockmachines.multimachine.tm.microwave.desc.0=指向性マイクロ波兵器
 gt.blockmachines.multimachine.tm.microwave.desc.1=Starts a timer when enabled
 gt.blockmachines.multimachine.tm.microwave.desc.2=While the timer is running anything inside the machine will take damage
 gt.blockmachines.multimachine.tm.microwave.desc.3=The machine will also collect any items inside of it
-gt.blockmachines.multimachine.tm.microwave.desc.4=Can be configured with a Parametrizer
+gt.blockmachines.multimachine.tm.microwave.desc.4=パラメトライザーで設定ができます
 gt.blockmachines.multimachine.tm.microwave.desc.5=(Do not insert a Wither)
 gt.blockmachines.multimachine.tm.microwave.cfgi.0=Power setting
 gt.blockmachines.multimachine.tm.microwave.cfgi.1=Timer setting
@@ -689,83 +689,83 @@ gt.blockmachines.multimachine.em.switch.name=Network Switch With QoS
 gt.blockmachines.multimachine.em.switch.hint=1 - Classic/Data Hatches or Computer casing
 gt.blockmachines.multimachine.em.switch.desc.0=Controller block of the Network Switch With QoS
 gt.blockmachines.multimachine.em.switch.desc.1=Used to route and distribute computation
-gt.blockmachines.multimachine.em.switch.desc.2=Needs a Parametrizer to be configured
+gt.blockmachines.multimachine.em.switch.desc.2=設定にはパラメトライザーが必要です
 
 
-gt.blockmachines.multimachine.em.computer.name=Quantum Computer
-gt.blockmachines.multimachine.em.computer.hint.0=1 - Classic/Data Hatches or Computer casing
-gt.blockmachines.multimachine.em.computer.hint.1=2 - Rack Hatches or Advanced computer casing
+gt.blockmachines.multimachine.em.computer.name=量子コンピューター
+gt.blockmachines.multimachine.em.computer.hint.0=1 - 基本的なハッチ/データハッチ/コンピューター用外装
+gt.blockmachines.multimachine.em.computer.hint.1=2 - ラックハッチ/コンピューター用外装
 gt.blockmachines.multimachine.em.computer.desc=You need it to process the number above
 gt.blockmachines.multimachine.em.computer.cfgi.0=Overclock ratio
 gt.blockmachines.multimachine.em.computer.cfgi.1=Overvoltage ratio
 gt.blockmachines.multimachine.em.computer.cfgo.0=Current max. heat
 gt.blockmachines.multimachine.em.computer.cfgo.1=Produced computation
-gt.blockmachines.multimachine.em.computer.desc.0=Controller block of the Quantum Computer
-gt.blockmachines.multimachine.em.computer.desc.1=Used to generate computation (and heat)
+gt.blockmachines.multimachine.em.computer.desc.0=量子コンピューターの本体ブロック
+gt.blockmachines.multimachine.em.computer.desc.1=計算を生み出すのに使用(おまけの熱と共に)
 
-gt.blockmachines.multimachine.em.databank.name=Data Bank
-gt.blockmachines.multimachine.em.databank.hint.0=1 - Classic Hatches or high power casing
+gt.blockmachines.multimachine.em.databank.name=データバンク
+gt.blockmachines.multimachine.em.databank.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.databank.hint.1=2 - データアクセスハッチ/データバンクマスターコネクター/コンピューター用外装
-gt.blockmachines.multimachine.em.databank.desc.0=Controller block of the Data Bank
-gt.blockmachines.multimachine.em.databank.desc.1=Used to supply Assembling Lines with more Data Sticks
-gt.blockmachines.multimachine.em.databank.desc.2=and give multiple Assembling Lines access to the same Data Stick
+gt.blockmachines.multimachine.em.databank.desc.0=データバンクの本体ブロック
+gt.blockmachines.multimachine.em.databank.desc.1=組立ラインが追加でデータスティックを使えるようにするために使う
+gt.blockmachines.multimachine.em.databank.desc.2=複数の組立ラインが同じデータスティックにアクセスできるようにするために使う
 
-gt.blockmachines.multimachine.em.junction.name=Matter Junction
-gt.blockmachines.multimachine.em.junction.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.junction.name=物質分岐装置
+gt.blockmachines.multimachine.em.junction.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.junction.hint.1=2 - エレメンタルハッチ/分子外装
-gt.blockmachines.multimachine.em.junction.desc.0=Controller block of the Matter Junction
-gt.blockmachines.multimachine.em.junction.desc.1=Used to route and distribute elemental matter
-gt.blockmachines.multimachine.em.junction.desc.2=Needs a Parametrizer to be configured
+gt.blockmachines.multimachine.em.junction.desc.0=物質分岐装置の本体ブロック
+gt.blockmachines.multimachine.em.junction.desc.1=元素物質を送り分配するために使う
+gt.blockmachines.multimachine.em.junction.desc.2=設定にはパラメトライザーが必要です
 
-gt.blockmachines.multimachine.em.mattertoem.name=Matter Quantizer
-gt.blockmachines.multimachine.em.mattertoem.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.mattertoem.name=物質量子化装置
+gt.blockmachines.multimachine.em.mattertoem.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.mattertoem.hint.1=2 - エレメンタル出力ハッチ
-gt.blockmachines.multimachine.em.mattertoem.hint.2=3 - Elemental Overflow Hatches or Molecular Casing
-gt.blockmachines.multimachine.em.mattertoem.desc.0=Controller block of the Matter Quantizer
-gt.blockmachines.multimachine.em.mattertoem.desc.1=Transforms items into their elemental form
+gt.blockmachines.multimachine.em.mattertoem.hint.2=3 - エレメンタルオーバーフローハッチ/分子外装
+gt.blockmachines.multimachine.em.mattertoem.desc.0=物質量子化装置の本体ブロック
+gt.blockmachines.multimachine.em.mattertoem.desc.1=アイテムを元素単体に変換する
 
-gt.blockmachines.multimachine.em.emtomatter.name=Matter Dequantizer
-gt.blockmachines.multimachine.em.emtomatter.hint.0=1 - Classic Hatches or High Power Casing"
+gt.blockmachines.multimachine.em.emtomatter.name=物質逆量子化装置
+gt.blockmachines.multimachine.em.emtomatter.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.emtomatter.hint.1=2 - エレメンタル入力ハッチ
-gt.blockmachines.multimachine.em.emtomatter.hint.2=3 - Elemental Overflow Hatches or Molecular Casing
-gt.blockmachines.multimachine.em.emtomatter.desc.0=Controller block of the Matter Dequantizer
-gt.blockmachines.multimachine.em.emtomatter.desc.1=Transforms elemental matter back into items
+gt.blockmachines.multimachine.em.emtomatter.hint.2=3 - エレメンタルオーバーフローハッチ/分子外装
+gt.blockmachines.multimachine.em.emtomatter.desc.0=物質逆量子化装置の本体ブロック
+gt.blockmachines.multimachine.em.emtomatter.desc.1=元素単体をアイテムに変換する
 
-gt.blockmachines.multimachine.em.emtoessentia.name=Essentia Dequantizer
-gt.blockmachines.multimachine.em.emtoessentia.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.emtoessentia.name=エッセンシア逆量子化装置
+gt.blockmachines.multimachine.em.emtoessentia.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.emtoessentia.hint.1=2 - エレメンタル入力ハッチ
-gt.blockmachines.multimachine.em.emtoessentia.hint.2=3 - Elemental Overflow Hatches or Elemental Casing
-gt.blockmachines.multimachine.em.emtoessentia.hint.3=General - Some sort of Essentia Storage
-gt.blockmachines.multimachine.em.emtoessentia.desc.0=Controller block of the Essentia Dequantizer
-gt.blockmachines.multimachine.em.emtoessentia.desc.1=Transforms elemental matter back into essentia
+gt.blockmachines.multimachine.em.emtoessentia.hint.2=3 - エレメンタルオーバーフローハッチ/元素外装
+gt.blockmachines.multimachine.em.emtoessentia.hint.3=一般 - エッセンシアストレージ
+gt.blockmachines.multimachine.em.emtoessentia.desc.0=エッセンシア逆量子化装置の本体ブロック
+gt.blockmachines.multimachine.em.emtoessentia.desc.1=元素単体をエッセンシアに変換する
 
-gt.blockmachines.multimachine.em.essentiatoem.name=Essentia Quantizer
-gt.blockmachines.multimachine.em.essentiatoem.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.essentiatoem.name=エッセンシア量子化装置
+gt.blockmachines.multimachine.em.essentiatoem.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.essentiatoem.hint.1=2 - エレメンタル出力ハッチ
-gt.blockmachines.multimachine.em.essentiatoem.hint.2=3 - Elemental Overflow Hatches or Elemental Casing
-gt.blockmachines.multimachine.em.essentiatoem.hint.3=General - Some sort of Essentia Storage
-gt.blockmachines.multimachine.em.essentiatoem.desc.0=Controller block of the Essentia Quantizer
-gt.blockmachines.multimachine.em.essentiatoem.desc.1=Transforms essentia into their elemental form
+gt.blockmachines.multimachine.em.essentiatoem.hint.2=3 - エレメンタルオーバーフローハッチ/元素外装
+gt.blockmachines.multimachine.em.essentiatoem.hint.3=一般 - エッセンシアストレージ
+gt.blockmachines.multimachine.em.essentiatoem.desc.0=エッセンシア量子化装置の本体ブロック
+gt.blockmachines.multimachine.em.essentiatoem.desc.1=エッセンシアを元素単体に変換する
 
-gt.blockmachines.multimachine.em.scanner.name=Elemental Scanner
-gt.blockmachines.multimachine.em.scanner.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.scanner.name=元素スキャナー
+gt.blockmachines.multimachine.em.scanner.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.scanner.hint.1=2 - エレメンタル入力ハッチ/分子外装
 gt.blockmachines.multimachine.em.scanner.hint.2=3 - エレメンタル出力ハッチ/分子外装
-gt.blockmachines.multimachine.em.scanner.hint.3=4 - Elemental Overflow Hatches or Molecular Casing
-gt.blockmachines.multimachine.em.scanner.desc.0=Controller block of the Elemental Scanner
+gt.blockmachines.multimachine.em.scanner.hint.3=4 - エレメンタルオーバーフローハッチ/分子外装
+gt.blockmachines.multimachine.em.scanner.desc.0=元素スキャナーの本体ブロック
 
 gt.blockmachines.multimachine.em.research.name=総合型研究装置
-gt.blockmachines.multimachine.em.research.hint.0=1 - Classic/Data Hatches or Computer casing
-gt.blockmachines.multimachine.em.research.hint.1=2 - Holder Hatch
-gt.blockmachines.multimachine.em.research.desc.0=Controller block of the Research Station
-gt.blockmachines.multimachine.em.research.desc.1=Used to scan Data Sticks for Assembling Line Recipes
-gt.blockmachines.multimachine.em.research.desc.2=Needs to be fed with computation to work
-gt.blockmachines.multimachine.em.research.desc.3=Does not consume the item until the Data Stick is written
-gt.blockmachines.multimachine.em.research.mode.Assembly_line=Mode: Research Station
-gt.blockmachines.multimachine.em.research.mode.Scanner=Mode: Scanner
+gt.blockmachines.multimachine.em.research.hint.0=1 - 基本的なハッチ/データハッチ/コンピューター用外装
+gt.blockmachines.multimachine.em.research.hint.1=2 - ホルダーハッチ
+gt.blockmachines.multimachine.em.research.desc.0=総合型研究装置の本体ブロック
+gt.blockmachines.multimachine.em.research.desc.1=組立ラインのレシピ用にデータスティックをスキャンすることに使う
+gt.blockmachines.multimachine.em.research.desc.2=動作には計算回数の供給が必要です
+gt.blockmachines.multimachine.em.research.desc.3=データスティックに書き込みが終わるまではアイテムは消費されません
+gt.blockmachines.multimachine.em.research.mode.Assembly_line=モード: 総合型研究装置
+gt.blockmachines.multimachine.em.research.mode.Scanner=モード: スキャナー
 
 gt.blockmachines.multimachine.em.collider.name=Matter Collider
-gt.blockmachines.multimachine.em.collider.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.collider.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.collider.hint.1=2 - エレメンタル入力ハッチ/分子外装
 gt.blockmachines.multimachine.em.collider.hint.2=3 - エレメンタル出力ハッチ/分子外装
 gt.blockmachines.multimachine.em.collider.hint.3=4 - Elemental Overflow Hatches or Molecular Casing
@@ -780,39 +780,39 @@ gt.blockmachines.multimachine.em.collider.mode.2=Mode: Undefined
 gt.blockmachines.multimachine.em.collider.mode.3=Currently Slaves...
 gt.blockmachines.multimachine.em.collider.Structure.AdditionalCollider=Needs another Matter Collider that is mirrored to this one
 
-gt.blockmachines.multimachine.em.infuser.name=Energy Infuser
-gt.blockmachines.multimachine.em.infuser.hint=1 - Classic Hatches or High Power Casing
-gt.blockmachines.multimachine.em.infuser.desc.0=Controller block of the Energy Infuser
-gt.blockmachines.multimachine.em.infuser.desc.1=Can be used to charge items (lossless)
-gt.blockmachines.multimachine.em.infuser.desc.2=Can be fed with UU-Matter to repair items
-gt.blockmachines.multimachine.em.infuser.desc.3=Stocking Bus is not supported
-gt.blockmachines.multimachine.em.infuser.Structure.HighPowerCasing=Layer 1 and 5
-gt.blockmachines.multimachine.em.infuser.Structure.MolecularCoil=Layer 2 and 4
-gt.blockmachines.multimachine.em.infuser.Structure.MolecularCasing=Layer 3
+gt.blockmachines.multimachine.em.infuser.name=エネルギー注入器
+gt.blockmachines.multimachine.em.infuser.hint=1 - 基本的なハッチ/高出力外装
+gt.blockmachines.multimachine.em.infuser.desc.0=エネルギー注入器の本体ブロック
+gt.blockmachines.multimachine.em.infuser.desc.1=損失無しでアイテムの充電ができます
+gt.blockmachines.multimachine.em.infuser.desc.2=UU-マターを供給することでアイテムの修理ができます
+gt.blockmachines.multimachine.em.infuser.desc.3=ストッキングバスには対応していません
+gt.blockmachines.multimachine.em.infuser.Structure.HighPowerCasing=第1,5層
+gt.blockmachines.multimachine.em.infuser.Structure.MolecularCoil=第2,4層
+gt.blockmachines.multimachine.em.infuser.Structure.MolecularCasing=第3層
 
 
 gt.blockmachines.multimachine.em.processing.name=Quantum Processing Machine
-gt.blockmachines.multimachine.em.processing.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.processing.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.processing.hint.1=2 - エレメンタルハッチ/分子外装
 gt.blockmachines.multimachine.em.processing.desc.0=Controller block of the Quantum Processing machine
 
 gt.blockmachines.multimachine.em.crafter.name=マターアセンブラー
-gt.blockmachines.multimachine.em.crafter.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.crafter.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.crafter.hint.1=2 - エレメンタルハッチ/分子外装
 gt.blockmachines.multimachine.em.crafter.desc.0=マターアセンブラーの本体ブロック
 
 gt.blockmachines.multimachine.em.stabilizer.name=Elemental Stabilizer
-gt.blockmachines.multimachine.em.stabilizer.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.stabilizer.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.stabilizer.hint.1=2 - エレメンタルハッチ/分子外装
 gt.blockmachines.multimachine.em.stabilizer.desc.0=Controller block of the Elemental Stabilizer
 
 gt.blockmachines.multimachine.em.wormhole.name=Wormhole
-gt.blockmachines.multimachine.em.wormhole.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.wormhole.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.wormhole.hint.1=2 - エレメンタルハッチ/分子外装
 gt.blockmachines.multimachine.em.wormhole.desc.0=Controller block of the Wormhole
 
 gt.blockmachines.multimachine.em.decay.name=Decay Generator
-gt.blockmachines.multimachine.em.decay.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.decay.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.decay.hint.1=2 - エレメンタルハッチ/分子外装
 gt.blockmachines.multimachine.em.decay.desc.0=Controller block of the Decay Generator
 gt.blockmachines.multimachine.em.decay.desc.1=Decays elemental matter to generate power
@@ -820,12 +820,12 @@ gt.blockmachines.multimachine.em.decay.desc.1=Decays elemental matter to generat
 gt.blockmachines.multimachine.em.decay.conf=Ampere divider
 
 gt.blockmachines.multimachine.em.annihilation.name=Annihilation Generator
-gt.blockmachines.multimachine.em.annihilation.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.annihilation.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.annihilation.hint.1=2 - エレメンタルハッチ/分子外装
 gt.blockmachines.multimachine.em.annihilation.desc.0=Controller block of the Annihilation Generator
 
 gt.blockmachines.multimachine.em.blackholegenerator.name=Black Hole Generator
-gt.blockmachines.multimachine.em.blackholegenerator.hint.0=1 - Classic Hatches or High Power Casing
+gt.blockmachines.multimachine.em.blackholegenerator.hint.0=1 - 基本的なハッチ/高出力外装
 gt.blockmachines.multimachine.em.blackholegenerator.hint.1=2 - エレメンタルハッチ/分子外装
 gt.blockmachines.multimachine.em.blackholegenerator.desc.0=Controller block of the Black Hole Generator
 gt.blockmachines.multimachine.em.blackholegenerator.desc.1=Uses a black hole to generate power
@@ -1190,10 +1190,10 @@ tt.keyword.at=at
 tt.keyword.Structure.StructureTooComplex=構造が複雑すぎます！
 # Any X
 tt.keyword.Structure.AnyComputerCasing=任意のコンピューター用外装
-tt.keyword.Structure.AnyHighPowerCasing=Any High Power Casing
-tt.keyword.Structure.AnyHighPowerCasing1D=Any High Power Casing with 1 dot
-tt.keyword.Structure.AnyHighPowerCasing2D=Any High Power Casing with 2 dots
-tt.keyword.Structure.AnyHighPowerCasingFront=Any High Power Casing on the front side
+tt.keyword.Structure.AnyHighPowerCasing=任意の高出力外装
+tt.keyword.Structure.AnyHighPowerCasing1D=任意の高出力外装 (1ドット)
+tt.keyword.Structure.AnyHighPowerCasing2D=任意の高出力外装 (2ドット)
+tt.keyword.Structure.AnyHighPowerCasingFront=任意の高出力外装 (正面)
 tt.keyword.Structure.AnyTeslaBaseCasingOuter=Any outer Tesla Base Casing
 tt.keyword.Structure.AnyComputerCasingFirstOrLastSlice=Any Computer Casing on the first or last slice
 tt.keyword.Structure.AnyComputerCasingBackMain=Any Computer Casing on the backside of the main body
@@ -1243,7 +1243,7 @@ tt.keyword.Efficiency=Efficiency
 tt.keyword.PowerPass=PowerPass
 #Button that vents EM
 tt.keyword.SafeVoid=SafeVoid
-tt.keyword.Parametrizer=Parametrizer
+tt.keyword.Parametrizer=パラメトライザー
 tt.keyword.Value=Value
 tt.keyword.Input=Input
 tt.keyword.input=input
@@ -1278,12 +1278,12 @@ tt.keyphrase.Hysteresis_low_set_to=Hysteresis low set to
 tt.keyphrase.Tesla_radius_set_to=Tesla radius set to
 tt.keyphrase.Sending_power=Sending power
 tt.keyphrase.Receiving_power=Receiving power
-tt.keyphrase.Stored_energy=Stored energy
-tt.keyphrase.Stored_EU=Stored EU
-tt.keyphrase.Average_IO=Average I/O
-tt.keyphrase.Average_IO_(max)=Voltage I/O (max)
-tt.keyphrase.Average_IO_max=Voltage I/O max
-tt.keyphrase.Amperage_IO_(max)=Amperage I/O (max)
+tt.keyphrase.Stored_energy=エネルギー容量
+tt.keyphrase.Stored_EU=蓄電量
+tt.keyphrase.Average_IO=平均入/出力量
+tt.keyphrase.Average_IO_(max)=電圧入/出力量 (最大)
+tt.keyphrase.Average_IO_max=電圧入/出力量 (最大)
+tt.keyphrase.Amperage_IO_(max)=アンペア入/出力量 (最大)
 tt.keyphrase.Side_capabilities=Side capabilities
 tt.keyphrase.Ass_line_recipe=組立ラインのレシピ
 

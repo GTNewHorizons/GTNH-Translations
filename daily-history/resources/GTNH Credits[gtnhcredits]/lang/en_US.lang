@@ -1,0 +1,43 @@
+gui.main_menu.button.credits=Credits
+gui.credits.title=Credits
+gui.credits.button.back=Back
+gui.credits.filter.hint=Filter
+
+credits.category.team=Core Team
+credits.category.team.detail=The core team is responsible for the overall direction, maintenance and release of GT New Horizons.\nTheir work spans design, coordination, infrastructure and long-term vision for the pack.
+
+credits.category.dev=Developers
+credits.category.dev.detail=Developers design and implement the mods, scripts, configs and tooling that make GT New Horizons possible.\nThis includes everything from new gameplay systems to build pipeline improvements.
+
+credits.category.contrib=Contributors
+credits.category.contrib.detail=Contributors have submitted fixes, content or improvements that found their way into the pack. Every contribution matters.
+
+credits.category.support=Supporters
+credits.category.support.detail=Supporters have helped keep the project going through donations, hosting, moderation and other forms of community support. We are grateful for their generosity and dedication.
+
+credits.category.thanks=Special Thanks
+credits.category.thanks.detail=Special thanks to everyone who reported bugs, wrote documentation, created guides or supported the project in ways big and small.\nGT New Horizons would not exist without its community.
+
+credits.category.loremipsum=Lorem ipsum
+credits.category.loremipsum.detail=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.\nNam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.\nItaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.\nUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+
+credits.person.role.gtnhcreator=GTNH Creator
+credits.person.role.dev=Developer
+credits.person.role.contributor=Contributor
+
+# Test category: id "Key Test" -> sanitized key_test
+credits.category.key_test=Key Test (translated)
+credits.category.key_test.detail=This category verifies key sanitization.\nCategory id "Key Test" maps to translation key credits.category.key_test.\nRoles: "Test-Role" -> testrole (translated), "Core.Mod" -> coremod (translated), "No.Trans Role" -> notrans_role (no entry, fallback shows the raw string).
+
+credits.person.role.testrole=Test Role (translated)
+credits.person.role.coremod=Core Mod (translated)
+# "No.Trans Role" -> notrans_role: intentionally no entry to exercise fallback
+
+# "No-Trans Cat" -> no_trans_cat: intentionally no entries to exercise full fallback
+
+# Test category: id "Indexed Detail" -> sanitized indexed_detail
+# Indexes are defined out of order here (0, 10, 2) to verify natural sort renders them 0, 2, 10.
+# \n within a paragraph = line break only (no empty-line gap between lines of the same paragraph).
+credits.category.indexed_detail.detail.0=Paragraph zero, first line.\nParagraph zero, second line (line break, no gap above).
+credits.category.indexed_detail.detail.2=Paragraph two (natural sort: renders after 0, before 10).
+credits.category.indexed_detail.detail.10=Paragraph ten (natural sort: renders last despite "10" > "2" lexicographically).

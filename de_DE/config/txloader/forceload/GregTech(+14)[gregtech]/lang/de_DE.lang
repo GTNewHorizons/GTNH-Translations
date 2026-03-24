@@ -1,13 +1,13 @@
 # Creative ItemGroup Tab
-itemGroup.GregTech.GTPP_BLOCKS=GT++ Blocks
-itemGroup.GregTech.GTPP_MACHINES=GT++ Machines
-itemGroup.GregTech.GTPP_MISC=GT++ Misc
-itemGroup.GregTech.GTPP_OTHER=GT++ Other
-itemGroup.GregTech.GTPP_OTHER_2=GT++ Other II
-itemGroup.GregTech.GTPP_TOOLS=GT++ Tools
-itemGroup.GregTech.Main=Main
-itemGroup.GregTech.Materials=Materials
-itemGroup.GregTech.Ores=Ores
+itemGroup.GregTech.GTPP_BLOCKS=GT++ Blöcke
+itemGroup.GregTech.GTPP_MACHINES=GT++ Maschinen
+itemGroup.GregTech.GTPP_MISC=GT++ Verschiedenes
+itemGroup.GregTech.GTPP_OTHER=GT++ Sonstiges
+itemGroup.GregTech.GTPP_OTHER_2=GT++ Sonstiges II
+itemGroup.GregTech.GTPP_TOOLS=GT++ Werkzeuge
+itemGroup.GregTech.Main=Haupt
+itemGroup.GregTech.Materials=Materialien
+itemGroup.GregTech.Ores=Erze
 
 # Components
 gt.component.dust=%s Dust
@@ -102,7 +102,7 @@ gt.tileentity.has_steam_upgrade=has Steam Upgrade
 gt.tileentity.steamtanks=%d Steam Tank Upgrades
 gt.tileentity.colored=Colored (%s%s§7)
 
-item.gt.advancedsensorcard.name=GregTech Advanced Sensor Card
+item.gt.advancedsensorcard.name=GregTech Erweiterte Sensorkarte
 gt.blackholerenderer.name=Black Hole Renderer
 gt.block.longdistancepipe.name=Long Distance Pipeline Pipe
 gt.blockcasings.cyclotron_coils.name=Solenoid Superconductor Coil
@@ -724,7 +724,7 @@ GT5U.power_goggles_config.text_ok_tooltip=Affects Text color when EU change is 0
 GT5U.power_goggles_config.text_good=Good Text RGB
 GT5U.power_goggles_config.text_good_tooltip=Affects Text and Power Chart color when EU change is positive
 
-GT5U.autoplace.error.no_hatch=§cSuggested to place hatch §4%s§c but none was found
+GT5U.autoplace.error.no_hatch=§cVorgeschlagen, Öffnung §4%s§c zu platzieren, aber keine gefunden
 GT5U.autoplace.error.no_mte.id=§cSuggested to place machine with meta ID §4%s§c but none was found
 GT5U.autoplace.error.no_mte.class_name=§cSuggested to place machine with class name §4%d§c but none was found
 GT5U.providesfullhazmatprotection=Provides full hazmat protection.
@@ -739,15 +739,15 @@ GT5U.providesgashazmatprotection=Provides gas protection.
 
 # Multiblock Tooltip Builder Keywords
 # Context can be found in the class gregtech.api.util.MultiblockTooltipBuilder
-GT5U.MBTT.MachineType=Machine Type
+GT5U.MBTT.MachineType=Maschinentyp
 GT5U.MBTT.Parallels=Processes up to %d recipes at once
-GT5U.MBTT.Dimensions=Dimensions
-GT5U.MBTT.Hollow=(Hollow)
-GT5U.MBTT.Structure=Structure
+GT5U.MBTT.Dimensions=Dimensionen
+GT5U.MBTT.Hollow=(Hohl)
+GT5U.MBTT.Structure=Struktur
 GT5U.MBTT.Controller=Controller
 GT5U.MBTT.Minimum=(minimum)
-GT5U.MBTT.Tiered=(tiered)
-GT5U.MBTT.MaintenanceHatch=Maintenance Hatch
+GT5U.MBTT.Tiered=(gestuft)
+GT5U.MBTT.MaintenanceHatch=Wartungsluke
 GT5U.MBTT.MufflerHatch=Muffler Hatch
 GT5U.MBTT.EnergyHatch=Energy Hatch
 GT5U.MBTT.DynamoHatch=Dynamo Hatch
