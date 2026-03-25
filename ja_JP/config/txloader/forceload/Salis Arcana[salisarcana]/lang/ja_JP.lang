@@ -169,7 +169,7 @@ salisarcana:error_missing_research.infusion=この注入を始めるための研
 salisarcana:error_missing_research.crucible=るつぼでこのクラフトをするための研究が不足しています！このアイテムをクラフトするには研究"%s"(%s内)が必要です！
 salisarcana:error_missing_research.gui=前提研究の不足
 
-salisarcana:duplicate_research.extra_page=§l[Salis Arcana]§r<BR>加えて、ソーモノミコン内で完了済みの研究にカーソルを合わせたとき、新しいボタンが見えるようになる。<BR>このボタンをShiftクリックすると、神と筆記具のインク、相を消費し、完了済みの研究メモを生成する。
+salisarcana:duplicate_research.extra_page=§l[Salis Arcana]§r<BR>加えて、ソーモノミコン内で完了済みの研究にカーソルを合わせたとき、新しいボタンが見えるようになる。<BR>このボタンをShiftクリックすると、紙と筆記具のインク、相を消費し、完了済みの研究メモを生成する。
 salisarcana:duplicate_research.text="%s"を複製
 salisarcana:duplicate_research.prompt=Shiftクリックでこの研究の複製を取得
 salisarcana:duplicate_research.success=複製した研究メモがインベントリに追加された
@@ -228,7 +228,13 @@ salisarcana:wand_rod.special.AMBER_staff=§55秒毎にすべての相§d 1 vis§
 salisarcana:wand_rod.special.BREAD=§6自我があり、フランス語を操り、とってもおしゃべり！
 salisarcana:wand_rod.special.TRANSMUTATION=§5Vis容量の§d90%§5を上回る相をVis容量の§d90%§5を下回る他の相に変換して即座に充填。
 salisarcana:wand_rod.special.TRANSMUTATION_staff=§5Vis容量の§d90%§5を上回る相をVis容量の§d90%§5を下回る他の相に変換して即座に充填。
-salisarcana:wand_rod.special.NECROMANCER_staff=§5モブからの相オーブから充填されるVisが4倍になり、その他あらゆる手段での充填に25%の損失が発生。
+salisarcana:wand_rod.special.NECROMANCER_staff.1=§5倒したモブからの相オーブによるVis回収量が4倍になり、
+salisarcana:wand_rod.special.NECROMANCER_staff.2=  §5その他すべての手段によるVis回収量が25%減少
+salisarcana:wand_rod.special.NECROMANCER_staff.3=§5上級杖で攻撃した時、相手に5秒間の§8衰弱 I §5を付与
+salisarcana:wand_rod.special.NECROMANCER_staff.4=  §5(杖による直接攻撃と近距離魔法攻撃にのみ適用)
+salisarcana:wand_cap.special.SOJOURNER.1=§5手に持っているとき、プレイヤーの周囲8ブロック以内に存在する
+salisarcana:wand_cap.special.SOJOURNER.2=  §5オーラ節から§d根源相のVis§5を吸収 (節に損傷を与えない)
+salisarcana:wand_cap.special.MECHANIST=§5通常の2倍の速度でオーラ節からVisを吸収
 
 salisarcana:wand_cap.special.manasteel=§5Vis回復に使用される§bBotaniaマナ吸収量§5を25%軽減。
 salisarcana:wand_cap.special.elementium=§5Vis回復に使用される§bBotaniaマナ吸収量§5を25%軽減。
@@ -262,3 +268,11 @@ salisarcana:wand_rod.special.witchwood.2=  §5回復には1 visあたり§9140 A
 salisarcana:wand_rod.special.witchwood_staff.1=§52秒毎にすべての相§d 1 vis§5を回復 (最大 §d100% vis§5)
 salisarcana:wand_rod.special.witchwood_staff.2=  §5回復には1 visあたり§9100 Ars Magica 2 マナ§5を消費。
 salisarcana:wand_cap.special.vinteum=§5ウィッチウッドの杖身によるVis自然回復時の§9Ars Magica マナ§5の消費を約半分に軽減。
+
+salisarcana:wand_rod.special.alfheimSpiritual_staff.1=§52秒毎にすべての相§d 1 vis§5を回復 (最大 §d100% vis§5)
+salisarcana:wand_rod.special.alfheimSpiritual_staff.2=  §5回復には§bBotaniaマナ§5を消費。
+salisarcana:wand_rod.special.alfheimSpiritual_staff.3=§5エレメンチウムの石突と組み合わせたとき、防具の§bマナ消費軽減率§5によって
+salisarcana:wand_rod.special.alfheimSpiritual_staff.4=  §5Vis回復時の§bマナ消費量§5を軽減
+
+salisarcana:wand_rod.special.tbthaumium=§52.5秒毎に上限未満のランダムな相§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+salisarcana:wand_rod.special.tbvoid=§52.5秒毎に上限未満のランダムな相§d 1 vis§5を自然回復 (最大 §d10% vis§5)
