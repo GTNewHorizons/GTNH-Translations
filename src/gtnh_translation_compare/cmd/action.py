@@ -208,7 +208,8 @@ class Action:
         for lang_file in modpack.lang_files(Language.en_US):
             relpath = get_relpath(lang_file.get_en_us_relpath())
             write_file(os.path.abspath(relpath), lang_file.content)
-            paths_to_commit.append(relpath)
+
+        paths_to_commit.append(repo_path / subdirectory)
 
         qb_lang_file_url = (
             f"https://raw.githubusercontent.com"
