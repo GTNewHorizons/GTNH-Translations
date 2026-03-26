@@ -203,7 +203,7 @@ class Action:
         modpack = ModPack(Path(modpack_path))
         base_path = repo_path / subdirectory
 
-        clear_folder(str(base_path))
+        clear_folder(str(base_path), ["GregTech.lang"])
 
         for lang_file in modpack.lang_files(Language.en_US):
             relpath = get_relpath(lang_file.get_en_us_relpath())
@@ -453,13 +453,15 @@ def write_file(filepath: str, content: str) -> None:
     with open(filepath, "w") as fp:
         fp.write(content)
 
-def clear_folder(filepath: str) -> None:
-  path = Path(filepath)
-  for item in path.iterdir():
-    if item.is_file() or item.is_symlink():
-      item.unlink()
-    elif item.is_dir():
-      shutil.rmtree(item)
+def clear_folder(filepath: str, ignore_files_in_root: list[str]) -> None:
+    path = Path(filepath)
+    for item in path.iterdir():
+      if item.is_file() or item.is_symlink():
+        if item.name in ignore_files_in_root:
+          continue
+        item.unlink()
+      elif item.is_dir():
+        shutil.rmtree(item)
 
 def is_mod_lang_file(name: str) -> bool:
     return any(
