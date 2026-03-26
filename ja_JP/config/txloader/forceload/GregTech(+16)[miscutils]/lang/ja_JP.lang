@@ -4013,9 +4013,9 @@ gtpp.tooltip.tool.mining_speed=採掘速度:
 
 gtpp.tooltip.wireless_charger.0=§8《§7ドライバー§8／Screwdriver》§7でスニーク右クリックして、持ち主をロックできます
 gtpp.tooltip.wireless_charger.1=§8《§7ドライバー§8／Screwdriver》§7で動作モードを切り替えます
-gtpp.tooltip.wireless_charger.2=§a遠距離モード§7: 最大 %,dm の範囲で各プレーヤーに1アンペアの電力を供給できます
-gtpp.tooltip.wireless_charger.3=§a近距離モード§7: %,dm 以内で各プレーヤーに2アンペアの電力を供給できます
-gtpp.tooltip.wireless_charger.4=§aミックスモード§7: %,dm の範囲で1アンペアの電力を、%,dm 以内でさらにもう1アンペアの電力を供給できます
+gtpp.tooltip.wireless_charger.2=§a遠距離モード§7: 最大 %s m の範囲で各プレーヤーに1アンペアの電力を供給できます
+gtpp.tooltip.wireless_charger.3=§a近距離モード§7: %s m 以内で各プレーヤーに2アンペアの電力を供給できます
+gtpp.tooltip.wireless_charger.4=§aミックスモード§7: %s m の範囲で1アンペアの電力を、%s m 以内でさらにもう1アンペアの電力を供給できます
 
 #gtpp info data
 gtpp.infodata.tesseract_generator.name=テッセラクト生成器
@@ -4048,16 +4048,16 @@ gtpp.infodata.energy_buffer.eu_stored=%s EUを蓄電中
 gtpp.infodata.energy_buffer.eu_capacity=%s EUを蓄電可能
 gtpp.infodata.tiered_chest.name=スーパーストレージチェスト
 gtpp.infodata.tiered_tank.name=%s Fluid Tank
-gtpp.tiered_tank.desc.capacity=Stores %s of fluid
-gtpp.tiered_tank.desc.portable=A portable tank.
-gtpp.tiered_tank.desc.fluid=Fluid: %s %s L
-gtpp.tiered_tank.tooltip.contains=Contains Fluid: 
-gtpp.tiered_tank.tooltip.amount=Fluid Amount: %s L
-gtpp.infodata.tiered_tank.name=%s流体タンク
+gtpp.tiered_tank.desc.capacity=%s の流体を保管できます
+gtpp.tiered_tank.desc.portable=中身を保持したまま回収可能です
+gtpp.tiered_tank.desc.fluid=流体: %s %s L
+gtpp.tiered_tank.tooltip.contains=次の流体を保持: 
+gtpp.tiered_tank.tooltip.amount=流体量: %s L
+gtpp.infodata.tiered_tank.name=%sタンク
 gtpp.tiered_tank.infodata.amount=%s L
 gtpp.tiered_tank.infodata.capacity=%s L
-GT5U.infodata.digital_tank.stored_fluid=Stored Fluid
-GT5U.infodata.digital_tank.stored_fluid.empty=Empty
+GT5U.infodata.digital_tank.stored_fluid=貯蔵中の流体
+GT5U.infodata.digital_tank.stored_fluid.empty=空
 
 # GUI
 gtpp.gui.text.time_since_built=建設からの総時間
@@ -4097,5 +4097,5 @@ gtpp.chat.wireless_charger.mode.mixed=ミックス
 gtpp.chat.wireless_charger.range=範囲
 gtpp.chat.wireless_charger.lock=持ち主をロック
 gtpp.chat.wireless_charger.unlock=ロック解除
-gtpp.chat.wireless_charger.enter=充電範囲に入りました。[%,dm - %s]
-gtpp.chat.wireless_charger.leave=充電範囲を離れました。[%,dm - %s]
+gtpp.chat.wireless_charger.enter=充電範囲に入りました。[%s m - %s]
+gtpp.chat.wireless_charger.leave=充電範囲を離れました。[%s m - %s]
