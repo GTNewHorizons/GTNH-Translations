@@ -1,5 +1,6 @@
 import asyncio
 import os
+import re
 from typing import Optional, List, Sequence, cast, Callable, NamedTuple
 
 from asyncache import cached  # type: ignore[import]
@@ -20,9 +21,8 @@ def retry_after_429() -> Callable[[WrappedFn], WrappedFn]:
 
     def before_sleep(retry_state: RetryCallState) -> None:
         logger.warning(
-            f"received a 429 response, "
-            f"waiting {wait_seconds} seconds before retrying "
-            f"for the { {2: '2nd', 3: '3rd'}.get(retry_state.attempt_number + 1)} time"
+            f"received a 429 response, waiting {wait_seconds}s before retry "
+            f"(attempt {retry_state.attempt_number + 1})"
         )
 
     return retry(
@@ -37,7 +37,6 @@ class AllFilesCache(BaseModel):
     etag: str
     all_files: List[File]
 
-    # noinspection PyBroadException
     @classmethod
     def read(cls, path: str) -> Optional["AllFilesCache"]:
         try:
@@ -66,6 +65,12 @@ class ClientWrapper:
         self.cache_dir = cache_dir
         os.makedirs(self.cache_dir, exist_ok=True)
 
+    @staticmethod
+    def _sanitize_key(key: str) -> str:
+        key = key.strip()
+        key = re.sub(r"\|\s+", "|", key)
+        return key
+
     @cached(cache=LRUCache(maxsize=1))  # type: ignore[misc]
     @retry_after_429()
     async def get_all_files(self) -> List[File]:
@@ -74,24 +79,25 @@ class ClientWrapper:
         headers = {}
         if all_files_cache:
             headers["If-None-Match"] = all_files_cache.etag
+
         res = await self.client.get(url=f"projects/{self.project_id}/files", headers=headers)
+
         if res.status_code == 304:
-            logger.info("get_all_files: cache hit")
             return cast(AllFilesCache, all_files_cache).all_files
-        else:
-            logger.info("get_all_files: cache miss")
-            AllFilesCache.write(
-                path=os.path.join(self.cache_dir, "all_files_cache.json"),
-                etag=res.headers["ETag"],
-                all_files=res.json(),
-            )
+
+        AllFilesCache.write(
+            path=cache_json_path,
+            etag=res.headers["ETag"],
+            all_files=res.json(),
+        )
+
         self._log_res("get_files", res)
         return [File.model_validate(f) for f in res.json()]
 
     @retry_after_429()
     async def get_file(self, file_id: int) -> File:
         res = await self.client.get(url=f"projects/{self.project_id}/files/{file_id}")
-        self._log_res(f"get_file[file_id={file_id}]", res)
+        self._log_res(f"get_file[{file_id}]", res)
         return File.model_validate(res.json())
 
     @retry_after_429()
@@ -101,50 +107,41 @@ class ClientWrapper:
         file_id: int,
         page: int = 1,
         page_size: int = 800,
-        page_count: Optional[int] = None,
     ) -> StringPage:
         async with sem:
-            logger.info("[get_strings]started: file_id={}, page={}, page_count={}", file_id, page, page_count or "?")
             res = await self.client.get(
                 url=f"projects/{self.project_id}/strings",
-                params={
-                    "file": file_id,
-                    "page": page,
-                    "pageSize": page_size,
-                },
+                params={"file": file_id, "page": page, "pageSize": page_size},
             )
-            self._log_res(f"get_strings[file_id={file_id}, page={page}]", res)
-            logger.info("[get_strings]finished: file_id={}, page={}, page_count={}", file_id, page, page_count or "?")
+            self._log_res(f"get_strings[{file_id}:{page}]", res)
         return StringPage.model_validate(res.json())
 
     async def get_strings(self, file_id: int) -> List[StringItem]:
-        # concurrency number
         sem = asyncio.Semaphore(10)
 
-        strings: List[StringItem] = list()
-
-        string_page = await self._get_strings_by_page(sem, file_id)
-        page_count = string_page.page_count
-        strings.extend(string_page.results)
+        first = await self._get_strings_by_page(sem, file_id)
+        strings = first.results
+        page_count = first.page_count
 
         tasks = [
-            self._get_strings_by_page(
-                sem,
-                file_id,
-                page=page,
-                page_count=page_count,
-            )
-            for page in range(2, page_count + 1)
+            self._get_strings_by_page(sem, file_id, page=p)
+            for p in range(2, page_count + 1)
         ]
+        pages = await asyncio.gather(*tasks)
 
-        tasks_result: Sequence[StringPage] = await asyncio.gather(*tasks)
-        logger.info("[get_strings]finished_all: file_id={}, page_count={}", file_id, page_count)
-        for string_page in tasks_result:
-            strings.extend(string_page.results)
+        for p in pages:
+            strings.extend(p.results)
+
+        # нормализация ВСЕХ ключей
+        for s in strings:
+            s.key = self._sanitize_key(s.key)
 
         return strings
 
     async def upload_file(self, paratranz_file: ParatranzFile) -> None:
+        for s in paratranz_file.string_items:
+            s.key = self._sanitize_key(s.key)
+
         file_id = await self._find_file_id_by_file(paratranz_file.file_name)
 
         if file_id is None:
@@ -158,7 +155,6 @@ class ClientWrapper:
         files = await self.get_all_files()
         for f in files:
             if f.name == filename:
-                assert isinstance(f.id, int)
                 return f.id
         return None
 
@@ -170,7 +166,7 @@ class ClientWrapper:
             data={"path": path},
             files={"file": paratranz_file.file_to_be_uploaded},
         )
-        self._log_res(f"create_file[path={path}]", res)
+        self._log_res("create_file", res)
         return File.model_validate(res.json()["file"]).id
 
     @retry_after_429()
@@ -182,119 +178,70 @@ class ClientWrapper:
             url=f"projects/{self.project_id}/files/{file_id}",
             files={"file": paratranz_file.file_to_be_uploaded},
         )
+
         if res.status_code != 413:
-            self._log_res(f"update_file[file_id={file_id}]", res)
+            self._log_res("update_file", res)
             return
 
-        logger.warning(
-            "update_file[file_id={}] failed with 413 Payload Too Large; falling back to per-string updates",
-            file_id,
-        )
         await self._update_file_by_strings(file_id, paratranz_file, old_strings)
 
     async def _update_file_by_strings(
         self,
         file_id: int,
         paratranz_file: ParatranzFile,
-        old_strings: Optional[List[StringItem]] = None,
+        old_strings: List[StringItem],
     ) -> None:
-        old_strings = old_strings if old_strings is not None else await self.get_strings(file_id)
-        sync_plan = self._prepare_string_sync_plan(old_strings, paratranz_file)
+        plan = self._prepare_string_sync_plan(old_strings, paratranz_file)
 
-        if len(sync_plan.removed_ids) > 0:
-            await self.delete_strings(sync_plan.removed_ids)
-        if len(sync_plan.added_strings) > 0:
-            await self.create_strings(file_id, sync_plan.added_strings)
-        if len(sync_plan.updated_strings) > 0:
-            await self.upload_strings(sync_plan.updated_strings)
+        if plan.removed_ids:
+            await self.delete_strings(plan.removed_ids)
+        if plan.added_strings:
+            await self.create_strings(file_id, plan.added_strings)
+        if plan.updated_strings:
+            await self.upload_strings(plan.updated_strings)
 
-        if (
-            len(sync_plan.removed_ids) == 0
-            and len(sync_plan.added_strings) == 0
-            and len(sync_plan.updated_strings) == 0
-        ):
-            logger.info("[update_file]no changed strings: file_id={}", file_id)
-            return
-        logger.info(
-            "[update_file]string sync finished: file_id={}, removed={}, added={}, updated={}",
-            file_id,
-            len(sync_plan.removed_ids),
-            len(sync_plan.added_strings),
-            len(sync_plan.updated_strings),
-        )
     @staticmethod
     def _prepare_string_sync_plan(
         old_strings: List[StringItem],
         paratranz_file: ParatranzFile,
     ) -> "ClientWrapper.StringSyncPlan":
-        old_strings_map: dict[str, StringItem] = {s.key: s for s in old_strings}
-        new_strings_map: dict[str, StringItem] = {s.key: s for s in paratranz_file.string_items}
-        new_keys = {s.key for s in paratranz_file.string_items}
-        old_keys = set(old_strings_map.keys())
 
-        removed_ids: List[int] = []
-        for removed_key in old_keys - new_keys:
-            removed_id = old_strings_map[removed_key].id
-            if removed_id is not None:
-                removed_ids.append(removed_id)
+        def norm(s: StringItem) -> str:
+            return ClientWrapper._sanitize_key(s.key)
 
-        added_strings: List[StringItem] = []
-        for added_key in new_keys - old_keys:
-            new_string = new_strings_map[added_key]
-            added_strings.append(
-                StringItem(
-                    key=new_string.key,
-                    original=new_string.original,
-                    translation=new_string.translation,
-                    context=new_string.context,
-                    stage=new_string.stage,
-                )
-            )
+        old_map = {norm(s): s for s in old_strings}
+        new_map = {norm(s): s for s in paratranz_file.string_items}
 
-        updated_strings: List[StringItem] = []
-        for s in paratranz_file.string_items:
-            if s.key not in old_strings_map:
-                continue
-            old_string = old_strings_map[s.key]
-            if old_string.original == s.original:
-                # If the translation attribute is not empty, meaning that it is in non-automation
-                # and is manually assigned, then that value prevails
-                if not s.translation:
-                    s.translation = old_string.translation
-                    s.stage = 1
-            s.id = old_string.id
+        old_keys = set(old_map.keys())
+        new_keys = set(new_map.keys())
 
-            if ClientWrapper._is_string_changed(old_string, s):
-                updated_strings.append(s)
+        removed_ids = [
+            old_map[k].id for k in (old_keys - new_keys) if old_map[k].id is not None
+        ]
+
+        added_strings = [new_map[k] for k in (new_keys - old_keys)]
+
+        updated_strings = []
+        for k in new_keys & old_keys:
+            new = new_map[k]
+            old = old_map[k]
+
+            new.id = old.id
+
+            if old.original == new.original and not new.translation:
+                new.translation = old.translation
+                new.stage = 1
+
+            if (
+                old.original != new.original
+                or old.translation != new.translation
+                or old.context != new.context
+                or old.stage != new.stage
+            ):
+                updated_strings.append(new)
 
         return ClientWrapper.StringSyncPlan(
-            removed_ids=removed_ids,
-            added_strings=added_strings,
-            updated_strings=updated_strings,
-        )
-
-    @staticmethod
-    def _preserve_existing_manual_translations(
-        old_strings: List[StringItem],
-        paratranz_file: ParatranzFile,
-    ) -> None:
-        old_strings_map: dict[str, StringItem] = {s.key: s for s in old_strings}
-        for s in paratranz_file.string_items:
-            old_string = old_strings_map.get(s.key)
-            if old_string is None:
-                continue
-            if old_string.original == s.original and not s.translation:
-                # Keep manual translation if source text did not change.
-                s.translation = old_string.translation
-                s.stage = 1
-
-    @staticmethod
-    def _is_string_changed(old_string: StringItem, new_string: StringItem) -> bool:
-        return (
-            old_string.original != new_string.original
-            or old_string.translation != new_string.translation
-            or old_string.context != new_string.context
-            or old_string.stage != new_string.stage
+            removed_ids, added_strings, updated_strings
         )
 
     @retry_after_429()
@@ -303,69 +250,62 @@ class ClientWrapper:
             url=f"projects/{self.project_id}/files/{file_id}",
             json={"extra": paratranz_file.file_extra.model_dump()},
         )
-        self._log_res(f"save_file_extra[file_id={file_id}]", res)
+        self._log_res("save_file_extra", res)
 
     async def upload_strings(self, strings: list[StringItem]) -> None:
-        async def upload(_sem: asyncio.Semaphore, string: StringItem) -> None:
-            async with _sem:
-                await self._upload_string(string)
-
-        # concurrency number
         sem = asyncio.Semaphore(10)
-        tasks = [upload(sem, string) for string in strings]
-        await asyncio.gather(*tasks)
-        logger.info("[upload_strings]finished_all: strings_count={}", len(strings))
+
+        async def run(s: StringItem):
+            async with sem:
+                await self._upload_string(s)
+
+        await asyncio.gather(*(run(s) for s in strings))
 
     async def create_strings(self, file_id: int, strings: list[StringItem]) -> None:
-        async def create(_sem: asyncio.Semaphore, string: StringItem) -> None:
-            async with _sem:
-                await self._create_string(file_id, string)
-
         sem = asyncio.Semaphore(10)
-        tasks = [create(sem, string) for string in strings]
-        await asyncio.gather(*tasks)
-        logger.info("[create_strings]finished_all: strings_count={}", len(strings))
 
-    async def delete_strings(self, string_ids: list[int]) -> None:
-        async def delete(_sem: asyncio.Semaphore, string_id: int) -> None:
-            async with _sem:
-                await self._delete_string(string_id)
+        async def run(s: StringItem):
+            async with sem:
+                await self._create_string(file_id, s)
 
+        await asyncio.gather(*(run(s) for s in strings))
+
+    async def delete_strings(self, ids: list[int]) -> None:
         sem = asyncio.Semaphore(10)
-        tasks = [delete(sem, string_id) for string_id in string_ids]
-        await asyncio.gather(*tasks)
-        logger.info("[delete_strings]finished_all: strings_count={}", len(string_ids))
+
+        async def run(i: int):
+            async with sem:
+                await self._delete_string(i)
+
+        await asyncio.gather(*(run(i) for i in ids))
 
     @retry_after_429()
     async def _create_string(self, file_id: int, string: StringItem) -> None:
         payload = string.model_dump(exclude={"id"}, exclude_none=True)
         payload["file"] = file_id
+
         res = await self.client.post(
             url=f"projects/{self.project_id}/strings",
             json=payload,
         )
-        self._log_res(f"create_strings[file_id={file_id}, key={string.key}]", res)
+
+        self._log_res("create_string", res)
 
     @retry_after_429()
     async def _upload_string(self, string: StringItem) -> None:
         res = await self.client.put(
             url=f"projects/{self.project_id}/strings/{string.id}",
-            json=string.model_dump()
+            json=string.model_dump(),
         )
-        self._log_res(f"upload_strings[string_id={string.id}]", res)
+        self._log_res("upload_string", res)
 
     @retry_after_429()
     async def _delete_string(self, string_id: int) -> None:
         res = await self.client.delete(
             url=f"projects/{self.project_id}/strings/{string_id}",
         )
-        self._log_res(f"delete_strings[string_id={string_id}]", res)
+        self._log_res("delete_string", res)
 
     @staticmethod
-    def _log_res(request_name: str, res: Response) -> None:
-        try:
-            res.raise_for_status()
-        except HTTPStatusError as e:
-            logger.error("{}: {}", request_name, res)
-            raise e
-        logger.debug("{}: {}", request_name, res)
+    def _log_res(name: str, res: Response) -> None:
+        res.raise_for_status()
