@@ -172,7 +172,6 @@ class ClientWrapper:
     @retry_after_429()
     async def _update_file(self, file_id: int, paratranz_file: ParatranzFile) -> None:
         old_strings = await self.get_strings(file_id)
-        self._preserve_existing_manual_translations(old_strings, paratranz_file)
 
         res = await self.client.post(
             url=f"projects/{self.project_id}/files/{file_id}",
