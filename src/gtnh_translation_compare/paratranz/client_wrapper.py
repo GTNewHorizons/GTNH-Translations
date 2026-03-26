@@ -132,7 +132,7 @@ class ClientWrapper:
         for p in pages:
             strings.extend(p.results)
 
-        # нормализация ВСЕХ ключей
+        # normalization of ALL keys
         for s in strings:
             s.key = self._sanitize_key(s.key)
 
