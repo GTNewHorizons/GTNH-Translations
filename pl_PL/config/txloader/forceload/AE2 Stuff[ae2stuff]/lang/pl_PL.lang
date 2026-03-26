@@ -2,7 +2,12 @@ tile.ae2stuff.Encoder.name=Koder Wzorców
 tile.ae2stuff.Grower.name=Komora Wzrostu Kryształów
 tile.ae2stuff.Inscriber.name=Zaawansowany Inskryber
 tile.ae2stuff.Wireless.name=Łącznik Bezprzewodowy
+tile.ae2stuff.Wireless.colorTip=Can be colored
 tile.ae2stuff.WirelessHub.name=Koncentrator Bezprzewodowy
+
+gui.ae2stuff.Encoder.title=Pattern Encoder
+gui.ae2stuff.Grower.title=Crystal Growth Chamber
+gui.ae2stuff.Inscriber.title=Advanced Inscriber
 
 item.ae2stuff.WirelessKit.name=Zestaw do Konfiguracji Bezprzewodowej
 item.ae2stuff.AdvWirelessKit.name=Zaawansowany Zestaw Do Konfiguracji Sieci Bezprzewodowej
@@ -43,14 +48,15 @@ ae2stuff.wireless.advtool.binding.notempty=Aktywne bezprzewodowe łączniki w ko
 ae2stuff.wireless.advtool.connector.next=Następny łącznik w kolejce: %s,%s,%s
 ae2stuff.wireless.advtool.extra=§o Kucnij+PPM żeby zmienić tryb pomiędzy trybem kolejki a połączenia
 ae2stuff.wireless.advtool.noconnectors=Nie znaleziono łącznika w kolejce. Spróbuj przełączyć narzędzie na tryb kolejki, następnie spróbuj dodać łącznik
-ae2stuff.wireless.advtool.pop=Usunięto %s,%s,%s z kolejki
 ae2stuff.wireless.advtool.hub.queued=Do kolejki dodano %s gniazd koncentratora
 ae2stuff.wireless.advtool.queueing.clear=Kolejka została wyczyszczona
 ae2stuff.wireless.tooltips.advtool.queueing.clear=( {Przycisk skradania} + %s + PPM ) Aby wyczyścić kolejkę
+ae2stuff.wireless.tooltips.advtool.location=§6%s %s %s
 ae2stuff.wireless.tooltips.advtool.hubqols.binding=( %s + PPM ) aby połączyć się ze wszystkimi wolnymi gniazdami koncentratora
 ae2stuff.wireless.tooltips.advtool.hubqols.queueing=( %s + PPM ) aby dodać do kolejki wszystkie wolne miejsca w koncentratorze
 ae2stuff.wireless.tool.connected=Połączony z %s,%s,%s
 ae2stuff.wireless.tool.failed=Połączenie nie powiodło się
+ae2stuff.wireless.tool.failed.detail=§cConnection failed: §f%s
 ae2stuff.wireless.tool.dimension=Oba łączniki muszą być w tym samym wymiarze
 ae2stuff.wireless.tool.noexist=Powiązany łącznik nie istnieje
 ae2stuff.wireless.tool.security.player=Naruszenie zabezpieczeń - nie możesz modyfikować tej sieci
@@ -70,3 +76,5 @@ ae2stuff.visualiser.mode.proxy=Show Crafting Input Proxy Links
 
 itemGroup.bdew.ae2stuff=AE2 Stuff
 ae2stuff.key.mode=Zmień Tryb
+
+ae2stuff.config.client=Client

@@ -2,7 +2,12 @@ tile.ae2stuff.Encoder.name=Codificador de Padrão
 tile.ae2stuff.Grower.name=Câmara de Crescimento de Cristais
 tile.ae2stuff.Inscriber.name=Inscritor Avançado 
 tile.ae2stuff.Wireless.name=Conector Sem Fio
+tile.ae2stuff.Wireless.colorTip=Can be colored
 tile.ae2stuff.WirelessHub.name=Hub Sem Fio
+
+gui.ae2stuff.Encoder.title=Pattern Encoder
+gui.ae2stuff.Grower.title=Crystal Growth Chamber
+gui.ae2stuff.Inscriber.title=Advanced Inscriber
 
 item.ae2stuff.WirelessKit.name=Kit de Configuração Sem Fio
 item.ae2stuff.AdvWirelessKit.name=Kit de Configuração Sem Fio Avançado
@@ -43,14 +48,15 @@ ae2stuff.wireless.advtool.binding.notempty=Atuais conectores sem fio na lista pa
 ae2stuff.wireless.advtool.connector.next=Próximo conector na lista: %s,%s,%s
 ae2stuff.wireless.advtool.extra=§oShift-clique direita para mudar entre os modos de lista e conexão
 ae2stuff.wireless.advtool.noconnectors=Nenhum conector achado na lista. Tente colocar a ferramenta no modo de lista e adicionar alguns
-ae2stuff.wireless.advtool.pop=Removido %s,%s,%s da lista
 ae2stuff.wireless.advtool.hub.queued=%s slots de hub adicionadas à fila
 ae2stuff.wireless.advtool.queueing.clear=Fila foi limpa
 ae2stuff.wireless.tooltips.advtool.queueing.clear=Agachar + %s + Botão direito para limpar a fila
+ae2stuff.wireless.tooltips.advtool.location=§6%s %s %s
 ae2stuff.wireless.tooltips.advtool.hubqols.binding=%s + Botão direito para conectar a todos os slots de hub livres
 ae2stuff.wireless.tooltips.advtool.hubqols.queueing=%s + Botão direito para adicionar todos os slots de hub livres à fila
 ae2stuff.wireless.tool.connected=Conectado a %s,%s,%s
 ae2stuff.wireless.tool.failed=Conexão falhou 
+ae2stuff.wireless.tool.failed.detail=§cConnection failed: §f%s
 ae2stuff.wireless.tool.dimension=Ambos conectores devem estar na mesma dimensão
 ae2stuff.wireless.tool.noexist=Conector vinculado não existe
 ae2stuff.wireless.tool.security.player=Violação de segurança - você não tem permissão para modificar essa rede
@@ -70,3 +76,5 @@ ae2stuff.visualiser.mode.proxy=Show Crafting Input Proxy Links
 
 itemGroup.bdew.ae2stuff=AE2 Stuff
 ae2stuff.key.mode=Troca de Modo
+
+ae2stuff.config.client=Client

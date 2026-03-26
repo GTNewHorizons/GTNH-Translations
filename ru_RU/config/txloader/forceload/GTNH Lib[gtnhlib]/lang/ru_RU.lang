@@ -1,5 +1,14 @@
-#Moved from WAWLA
-#Villager Professions
+# Test block names
+tile.model_test.name=Тестовый блок
+tile.model_test_tint.name=Test Block (Tint)
+tile.model_test_tint_mul.name=Test Block (Tint Mul)
+
+# Configuration
+fml.configgui.tooltip.default=[по умолчанию: %s]
+fml.configgui.tooltip.defaultNumeric=[range: %2$s ~ %3$s, default: %1$s]
+
+# Moved from WAWLA
+# Villager Professions
 description.villager.profession.farmer=Фермер
 description.villager.profession.librarian=Библиотекарь
 description.villager.profession.priest=Priest
@@ -7,7 +16,7 @@ description.villager.profession.blacksmith=Blacksmith
 description.villager.profession.butcher=Мясник
 description.villager.profession.zombie=Zombie
 description.villager.profession.witch=Witch
-description.villager.profession.misingno=Default
+description.villager.profession.misingno=По умолчанию
 description.villager.profession.openblocks.king-ish=The King(ish)
 description.villager.profession.tinker.villagertools=Tinkerer
 description.villager.profession.extvil.Miller=Miller
@@ -84,7 +93,7 @@ description.villager.profession.rftools.rftoolsvillager=RFTools Engineer
 description.villager.profession.forbidden.heretic=Heretic
 description.villager.profession.agricraft.villager=Agricraft Farmer
 
-# Resource Pack Updater
+# Resource Pack Update Notifier
 gtnhlib.chat.rpupdater.update_available=§3New update available for §f%s: v%s §7(you have v%s)§3.
 gtnhlib.chat.rpupdater.click_here=§6Click here
 gtnhlib.chat.rpupdater.open_release= §3to open the release page.
