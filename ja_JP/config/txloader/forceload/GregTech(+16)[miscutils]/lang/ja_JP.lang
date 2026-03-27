@@ -22,10 +22,6 @@ death.attack.plasmabolt=%sはプラズマによって焼け死んだ。
 death.attack.plasmabolt.player=%1$sは%2$sにプラズマで焼き殺された。
 death.attack.gtpp.grinder=%sはイサミルによってこなみじんになって死んだ。
 
-# Batch mode chat message
-misc.BatchModeTextOn=バッチモード有効(ME出力バスの使用推奨、超過分の出力は消去されます！)
-misc.BatchModeTextOff=バッチモード無効
-
 # Alternative Materials
 item.itemPlateBatteryAlloy.name=バッテリー合金プレート
 item.itemIngotBatteryAlloy.name=バッテリー合金インゴット
@@ -97,7 +93,7 @@ gtpp.recipe.semifluidgeneratorfuels=半流体発電機の燃料
 gtpp.recipe.flotationcell=浮選セル
 gtpp.recipe.treefarm=樹木成長シミュレーター
 gtpp.recipe.algae_pond=藻類養殖場
-gtpp.recipe.multiblockrockbreaker=Boldarnator
+gtpp.recipe.multiblockrockbreaker=ボルダネイター
 
 # Recipe categories
 gtpp.recipe.category.abs_non_alloy_recipes=ABS 非合金レシピ
@@ -274,9 +270,6 @@ MU-metaitem.01.0.name=MU-metaitem.01.0.name
 # Cells
 item.SulfurDioxide.name=高品質二酸化硫黄入りセル
 item.mobessence.name=モブエッセンス入りセル
-item.Fertiliser.name=液体肥料入りセル
-item.UN32Fertiliser.name=UN-32肥料入りセル
-item.UN18Fertiliser.name=UN-18肥料入りセル
 item.RaisinJuice.name=レーズンジュース入りセル
 item.BerylliumHydroxide.name=水酸化ベリリウム入りセル
 item.AmmoniumBifluoride.name=二フッ化アンモニウム入りセル
@@ -1677,12 +1670,6 @@ item.itemDustTinyZrCl4.name=とても小さなZrCl4の粉
 item.itemDustCookedZrCl4.name=焙焼したZrCl4の粉
 item.itemDustSmallCookedZrCl4.name=小さな焙焼したZrCl4の粉
 item.itemDustTinyCookedZrCl4.name=とても小さな焙焼したZrCl4の粉
-item.itemDustUN18Fertiliser.name=UN-18肥料の粉
-item.itemDustSmallUN18Fertiliser.name=小さなUN-18肥料の粉
-item.itemDustTinyUN18Fertiliser.name=とても小さなUN-18肥料の粉
-item.itemDustUN32Fertiliser.name=UN-32肥料の粉
-item.itemDustSmallUN32Fertiliser.name=小さなUN-32肥料の粉
-item.itemDustTinyUN32Fertiliser.name=とても小さなUN-32肥料の粉
 item.itemCustomMetaCover.miscutils.GtMachineCasings=%s機械プレートカバー
 item.itemCustomMetaCover.miscutils.GtMachineCasings.name=機械プレートカバー
 item.itemGregtechPump.tooltip.0=その他通常の流体コンテナブロックからは流体を吸い取れません
@@ -4026,9 +4013,9 @@ gtpp.tooltip.tool.mining_speed=採掘速度:
 
 gtpp.tooltip.wireless_charger.0=§8《§7ドライバー§8／Screwdriver》§7でスニーク右クリックして、持ち主をロックできます
 gtpp.tooltip.wireless_charger.1=§8《§7ドライバー§8／Screwdriver》§7で動作モードを切り替えます
-gtpp.tooltip.wireless_charger.2=§a遠距離モード§7: 最大 %,dm の範囲で各プレーヤーに1アンペアの電力を供給できます
-gtpp.tooltip.wireless_charger.3=§a近距離モード§7: %,dm 以内で各プレーヤーに2アンペアの電力を供給できます
-gtpp.tooltip.wireless_charger.4=§aミックスモード§7: %,dm の範囲で1アンペアの電力を、%,dm 以内でさらにもう1アンペアの電力を供給できます
+gtpp.tooltip.wireless_charger.2=§a遠距離モード§7: 最大 %s m の範囲で各プレーヤーに1アンペアの電力を供給できます
+gtpp.tooltip.wireless_charger.3=§a近距離モード§7: %s m 以内で各プレーヤーに2アンペアの電力を供給できます
+gtpp.tooltip.wireless_charger.4=§aミックスモード§7: %s m の範囲で1アンペアの電力を、%s m 以内でさらにもう1アンペアの電力を供給できます
 
 #gtpp info data
 gtpp.infodata.tesseract_generator.name=テッセラクト生成器
@@ -4060,7 +4047,17 @@ gtpp.infodata.solar_heater.testificate=証明書
 gtpp.infodata.energy_buffer.eu_stored=%s EUを蓄電中
 gtpp.infodata.energy_buffer.eu_capacity=%s EUを蓄電可能
 gtpp.infodata.tiered_chest.name=スーパーストレージチェスト
-gtpp.infodata.tiered_tank.name=%s流体タンク
+gtpp.infodata.tiered_tank.name=%s Fluid Tank
+gtpp.tiered_tank.desc.capacity=%s の流体を保管できます
+gtpp.tiered_tank.desc.portable=中身を保持したまま回収可能です
+gtpp.tiered_tank.desc.fluid=流体: %s %s L
+gtpp.tiered_tank.tooltip.contains=次の流体を保持: 
+gtpp.tiered_tank.tooltip.amount=流体量: %s L
+gtpp.infodata.tiered_tank.name=%sタンク
+gtpp.tiered_tank.infodata.amount=%s L
+gtpp.tiered_tank.infodata.capacity=%s L
+GT5U.infodata.digital_tank.stored_fluid=貯蔵中の流体
+GT5U.infodata.digital_tank.stored_fluid.empty=空
 
 # GUI
 gtpp.gui.text.time_since_built=建設からの総時間
@@ -4100,5 +4097,5 @@ gtpp.chat.wireless_charger.mode.mixed=ミックス
 gtpp.chat.wireless_charger.range=範囲
 gtpp.chat.wireless_charger.lock=持ち主をロック
 gtpp.chat.wireless_charger.unlock=ロック解除
-gtpp.chat.wireless_charger.enter=充電範囲に入りました。[%,dm - %s]
-gtpp.chat.wireless_charger.leave=充電範囲を離れました。[%,dm - %s]
+gtpp.chat.wireless_charger.enter=充電範囲に入りました。[%s m - %s]
+gtpp.chat.wireless_charger.leave=充電範囲を離れました。[%s m - %s]

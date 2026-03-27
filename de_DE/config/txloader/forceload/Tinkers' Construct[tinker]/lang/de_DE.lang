@@ -13,16 +13,19 @@ crafters.PartBuilder=Werkzeugteilbauer
 crafters.PatternShaper=Schablonenstanzer
 crafters.CraftingStation=Werkstation
 inventory.PatternChest=Schablonenkiste
+inventory.PartChest=Part Chest
 crafters.Smeltery=Schmelzerei
 crafters.Frypan=Bratpfanne
 inventory.knapsack=Rucksack
+toolstation.partholder=Part Chest
 
 nei.options.keys.gui.tinkers_belt=Toggle Travellers Belt
 
-tile.ToolStation.name=Tool Station
+tile.ToolStation.name=Werkzeugstation
 ToolStation.Crafter.name=Werkzeugstation
 ToolStation.Parts.name=Basteltisch
 ToolStation.PatternChest.name=Schablonenkiste
+ToolStation.PartChest.name=Part Chest
 ToolStation.PatternShaper.name=Schablonenstanzer
 ToolStation.CastingTable.name=Gusstisch
 tile.FurnaceSlab.name=Stufenofen
@@ -30,7 +33,7 @@ tile.FurnaceSlab.name=Stufenofen
 tile.ToolForge.name=Werkzeugesse
 tile.TinkerTable.name=Tinker Tisch
 tile.Armor.DryingRack.name=Trockenregal
-tile.TConstruct.Soil.name=Soil
+tile.TConstruct.Soil.name=Boden
 CraftedSoil.Slime.name=Schleimiger Matsch
 CraftedSoil.Grout.name=Mörtel
 CraftedSoil.BlueSlime.name=Schleimiger Matsch (Blau)
@@ -41,7 +44,7 @@ tile.slime.channel.name=Schleimkanal
 tile.slime.pad.name=Sprungfläche
 tile.blood.channel.name=Blutkanal
 
-tile.tconstruct.stoneore.name=Ore
+tile.tconstruct.stoneore.name=Erz
 MetalOre.NetherSlag.name=Netherstein-Schlacke
 MetalOre.Cobalt.name=Cobalterz
 MetalOre.Ardite.name=Arditerz
@@ -50,8 +53,8 @@ MetalOre.Tin.name=Zinnerz
 MetalOre.Aluminum.name=Aluminiumerz
 MetalOre.Slag.name=Schlacke
 
-tile.ore.berries.one.name=Oreberry Bush
-tile.ore.berries.two.name=Oreberry Bush
+tile.ore.berries.one.name=Erzbeerenbusch
+tile.ore.berries.two.name=Erzbeerenbusch
 block.oreberry.iron.name=Eisenbeerenbusch
 block.oreberry.gold.name=Goldbeerenbusch
 block.oreberry.copper.name=Kupferbeerenbusch
@@ -59,7 +62,7 @@ block.oreberry.tin.name=Zinnbeerenbusch
 block.oreberry.aluminum.name=Aluminiumbeerenbusch
 block.oreberry.essence.name=Essenzbeerenbusch
 
-tile.tconstruct.gravelore.name=Gravel Ore
+tile.tconstruct.gravelore.name=Kieserz
 block.ore.gravel.iron.name=Eisenkies
 block.ore.gravel.gold.name=Goldkies
 block.ore.gravel.copper.name=Kupferkies
@@ -67,7 +70,7 @@ block.ore.gravel.tin.name=Zinnkies
 block.ore.gravel.aluminum.name=Aluminiumkies
 block.ore.gravel.cobalt.name=Kobaltkies
 
-tile.SpeedBlock.name=Brownstone
+tile.SpeedBlock.name=Braunstein
 block.brownstone.rough.name=Rauer Braunstein
 block.brownstone.rough.road.name=Raue Braunsteinstraße
 block.brownstone.smooth.name=Braunstein
@@ -76,7 +79,7 @@ block.brownstone.smooth.road.name=Braunsteinstraße
 block.brownstone.smooth.fancy.name=Schicker Braunstein
 block.brownstone.smooth.chiseled.name=Ziselierter Braustein
 
-tile.SpeedSlab.name=Brownstone Slab
+tile.SpeedSlab.name=Braunsteinstufe
 block.brownstone.rough.slab.name=Raue Braunsteinstufe
 block.brownstone.rough.road.slab.name=Braunsteintraßenstufe
 block.brownstone.smooth.slab.name=Braunsteinstufe
@@ -85,8 +88,8 @@ block.brownstone.smooth.road.slab.name=Braunsteinstraßenstufe
 block.brownstone.smooth.fancy.slab.name=Schicke Braunsteinstufe
 block.brownstone.smooth.chiseled.slab.name=Ziselierte Braunsteinstufe
 
-tile.Decoration.Brick.name=Brick
-tile.Decoration.BrickMetal.name=Metal Brick
+tile.Decoration.Brick.name=Ziegel
+tile.Decoration.BrickMetal.name=Metalziegel
 block.brick.obsidian.name=Obsidianziegel
 block.brick.sandstone.name=Sandsteinziegel
 block.brick.netherrack.name=Nethersteinziegel
@@ -106,7 +109,7 @@ block.brick.ardite.name=Arditeziegel
 block.brick.cobalt.name=Kobaltziegel
 block.brick.manyullyn.name=Manyullynziegel
 
-tile.Decoration.BrickFancy.name=Fancy Brick
+tile.Decoration.BrickFancy.name=Schicker Ziegel
 block.fancybrick.obsidian.name=Schicke Obsidianziegel
 block.fancybrick.sandstone.name=Schicke Sandsteinziegel
 block.fancybrick.netherrack.name=Schicke Nethersteinziegel
@@ -152,7 +155,7 @@ tile.liquid.glue.name=Klebstoff
 
 tile.Frypan.name=Bratpfanne
 
-item.oreberry.name=Oreberry
+item.oreberry.name=Erzbeere
 item.oreberry.iron.name=Eisenbeere
 item.oreberry.gold.name=Goldbeere
 item.oreberry.copper.name=Kupferbeere
@@ -165,7 +168,7 @@ item.tconstruct.titleicon.name=Erschaffe
 
 tile.tconstruct.meatblock.name=Knochenschinken
 
-item.InfiTool.name=Tool / Weapon
+item.InfiTool.name=Werkzeug / Waffe
 item.InfiTool.Pickaxe.name=Spitzhacke
 item.InfiTool.Shovel.name=Schaufel
 item.InfiTool.Axe.name=Beil
@@ -187,39 +190,11 @@ item.InfiTool.Shortbow.name=Kurzbogen
 item.InfiTool.Arrow.name=Pfeil
 item.InfiTool.Mattock.name=Breithacke
 
-infitool.pickaxe=Spitzhacke
-infitool.shovel=Schaufel
-infitool.hatchet=Kriegsbeil
-infitool.broadsword=Breitschwert
-infitool.longsword=Langschwert
-infitool.rapier=Rapier
-infitool.fryingpan=Bratpfanne
-infitool.battlesign=Kampfschild
-infitool.dagger=Dolch
-infitool.chisel=Meißel
-infitool.scythe=Sense
-infitool.lumberaxe=Holzfälleraxt
-infitool.cleaver=Hackmesser
-infitool.excavator=Exkavator
-infitool.hammer=Hammer
-infitool.battleaxe=Streitaxt
-infitool.cutlass=Entermesser
-infitool.arrow=Pfeil
-infitool.mattock=Breithacke
-infitool.shortbow=Kurzbogen
-infitool.longbow=Langbogen
-infitool.crossbow=Armbrust
-infitool.arrowammo=Pfeile
-infitool.boltammo=Bolzen
-infitool.shuriken=Wurfsterne
-infitool.throwingknife=Wurfmesser
-infitool.javelin=Wurfspeer
-
 item.tconstruct.PotionLauncher.name=Trankwerfer
 
 item.tool.randomarrow=Zufälliges Band
 
-item.tconstruct.Pattern.name=Pattern
+item.tconstruct.Pattern.name=Vorlage
 item.tconstruct.Pattern.blank_pattern.name=Leere Schablone
 item.tconstruct.Pattern.rod.name=Werkzeuggriffsschablone
 item.tconstruct.Pattern.pickaxe.name=Spitzhackenkopfschablone
@@ -288,11 +263,11 @@ item.tconstruct.MetalPattern.bowlimb.name=Bogensehnengussform
 item.tconstruct.GearPattern.name=Zahnradgussform
 
 item.tconstruct.ClayPattern.name=Clay Cast
-item.tconstruct.ClayPattern.rod.name=Tool Rod Clay Cast
-item.tconstruct.ClayPattern.pickaxe.name=Pickaxe Head Clay Cast
-item.tconstruct.ClayPattern.shovel.name=Shovel Head Clay Cast
-item.tconstruct.ClayPattern.axe.name=Axe Head Clay Cast
-item.tconstruct.ClayPattern.swordblade.name=Sword Blade Clay Cast
+item.tconstruct.ClayPattern.rod.name=Werkzeuggriff-Lehmgussform
+item.tconstruct.ClayPattern.pickaxe.name=Spitzhackenkopf-Lehmgussform
+item.tconstruct.ClayPattern.shovel.name=Schaufelkopf-Lehmgussform
+item.tconstruct.ClayPattern.axe.name=Axtkopf-Lehmgussform
+item.tconstruct.ClayPattern.swordblade.name=Schwertklingen-Lehmgussform
 item.tconstruct.ClayPattern.largeguard.name=Wide Guard Clay Cast
 item.tconstruct.ClayPattern.mediumguard.name=Hand Guard Clay Cast
 item.tconstruct.ClayPattern.crossbar.name=Crossbar Clay Cast
@@ -439,10 +414,10 @@ StorageMetals.Ender.name=Block Soliden Enders
 
 tile.decoration.stonetorch.name=Fackel
 tile.decoration.stoneladder.name=Leiter
-tile.CraftingSlab.name=Crafting Station
+tile.CraftingSlab.name=Werkstation
 tile.CraftingStation.name=Werkstation
 
-tile.GlassBlock.name=Glass
+tile.GlassBlock.name=Glas
 block.glass.pure.name=Klares Glas
 block.glass.soul.name=Seelenglas
 block.glass.soul.pure.name=Klares Seelenglas
@@ -610,7 +585,7 @@ tile.fluid.molten.mithril.name=Geschmolzenes Manaangereichertes Metall
 tile.fluid.molten.enderium.name=Geschmolzenes Enderium
 tile.fluid.ender.name=Verflüssigtes Ender
 tile.liquid.slime.name=Verflüssigter Schleim
-tile.molten.quartz.name=Molten Nether Quartz
+tile.molten.quartz.name=Geschmolzenes Netherquarz
 
 LiquidMetal.Iron.name=Geschmolzenes Eisen
 LiquidMetal.Gold.name=Geschmolzenes Gold
@@ -663,7 +638,7 @@ entity.TConstruct.EdibleSlime.name=Blauschleim
 entity.TConstruct.KingSlime.name=Königsschleim
 entity.TConstruct.Gardeslime.name=Guardeschleim
 entity.TConstruct.MiniGardy.name=Guardeschleim
-entity.TConstruct.Crystal.name=Crystal
+entity.TConstruct.Crystal.name=Kristall
 
 tconstruct.keybindings=Tinkers Construct
 key.tarmor=Rüstungs-GUI
@@ -742,8 +717,8 @@ item.tconstruct.SignHead.name=Sign Head
 item.tconstruct.SwordBlade.name=Sword Blade
 item.tconstruct.ToolRod.name=Tool Rod
 item.tconstruct.ToolShard.name=Shard
-item.tconstruct.ToughBinding.name=Tough Binding
-item.tconstruct.ToughRod.name=Tough Rod
+item.tconstruct.ToughBinding.name=Robuste Bindung
+item.tconstruct.ToughRod.name=Robuster Griff
 
 # Now with translations of specific material and part combinations:
 #toolpart.ToolRod.wood=Wooden Tool Rod
@@ -772,7 +747,7 @@ fluid.lead.molten=Geschmolzenes Blei
 fluid.silver.molten=Geschmolzenes Silber
 fluid.platinum.molten=Molten Shiny
 fluid.invar.molten=Geschmolzenes Invar
-fluid.electrum.molten=Molten Electrum
+fluid.electrum.molten=Geschmolzenes Elektrum
 fluid.lumium.molten=Geschmolzenes Lumium
 fluid.signalum.molten=Geschmolzenes Signalum
 fluid.mithril.molten=Geschmolzenes Manaangereichertes Metall
@@ -781,7 +756,7 @@ fluid.ender=Flüssiges Ender
 fluid.slime.blue=Flüssiger Blauschleim
 fluid.pigiron.molten=Schweineisen
 fluid.glue=Klebstoff
-fluid.quartz.molten=Molten Nether Quartz
+fluid.quartz.molten=Geschmolzenes Netherquarz
 
 
 tconstruct.achievementPage.name=TConstruct
@@ -903,13 +878,13 @@ tconstruct.nei.castingbasin=Gießbecken
 tconstruct.nei.castingtable=Gießbecken
 tconstruct.nei.dryingrack=Trockengestell
 tconstruct.nei.melting=Smeltery Melting
-tconstruct.nei.dryingrack.duration=%d ticks (%d secs)
+tconstruct.nei.dryingrack.duration=%d Ticks (%d sek.)
 
 gui.smeltery.fuel=Brennstoff
 gui.smeltery.emerald=Smaragde:
 gui.smeltery.glass.block=Blöcke:
 gui.smeltery.glass.pannel=Bleche:
-gui.smeltery.metal.ingot=Barren:
+gui.smeltery.metal.ingot=Barren: 
 gui.smeltery.metal.nugget=Nuggets:
 gui.smeltery.molten.check=Geschmolzenes,Geschmolzener
 gui.landmine=Landmine
@@ -952,12 +927,24 @@ gui.toolstation21=Munition:
 gui.toolstation22=Bruchchance:
 gui.toolstation23=Max. Angriff:
 
+gui.partcrafter.durability=Durability: %s
+gui.partcrafter.mininglevel=Mining Level: %s
+gui.partcrafter.miningspeed=Mining Speed: %s
+gui.partcrafter.attack=Attack: %s
+gui.partcrafter.handlemodifier=Handle Modifier: %s
+gui.partcrafter.drawspeed=Draw Speed: %s s
+gui.partcrafter.arrowspeed=Arrow Speed: %s
+gui.partcrafter.arrow=Arrow
+gui.partcrafter.bolt=Bolt
+gui.partcrafter.weight=Weight: %s
+gui.partcrafter.breakchance=Break Chance: %s %%
+
 gui.mining1=Stein
 gui.mining2=Eisen
-gui.mining3=Redstone
-gui.mining4=Obsidian
+gui.mining3=§4Redstone§r
+gui.mining4=§dObsidian§r
 gui.mining5=Kobalt
-gui.mining6=Manyullyn
+gui.mining6=§5Manyullyn§r
 
 gui.toolstation.pickaxe.desc=Die Spitzhacke ist ein präzises Mining-Tool. Es ist wirksam bei Stein und Erze.\n\nBenötigte Teile:\n- Spitzhackenkopf\n- Werkzeugbindung\n- Schaft
 gui.toolstation.shovel.desc=Die Schaufel ist eine präzises Grabwerkzeug. Es ist wirksam auf Erde, Sand und Schnee.\n\nBenötigte Teile:\n- Schaufelkopf\n- Schaft
@@ -1014,7 +1001,7 @@ material.steel=Stahl
 material.stone=Stein
 material.stone.ability=Steinbund
 material.thaumium=Thaumium
-material.thaumium.ability=Thaumic
+material.thaumium.ability=Thaumisch
 material.wood=Holz
 material.wood.display=Hölzern
 
@@ -1038,7 +1025,7 @@ tool.chisel=Meißel
 tool.lumberaxe=Holzfälleraxt
 tool.cleaver=Spalter
 tool.scythe=Sense
-tool.excavator=Excavator
+tool.excavator=Exkavator
 tool.hammer=Hammer
 tool.battleaxe=Streitaxt
 tool.shortbow=Kurzbogen
@@ -1049,6 +1036,7 @@ tool.boltammo=Bolzen
 tool.shuriken=Wurfsterne
 tool.throwingknife=Wurfmesser
 tool.javelin=Wurfspeer
+tool.boneana=Bonæna
 
 # Customization of default tool names based on tool and material
 #tool.shovel.wood=Wooden Shovel
@@ -1073,7 +1061,7 @@ manual.page.material8=Steingebundenes Level
 manual.page.material9=Zersplitterungs Level
 
 manual.page.material.attack=Standardangriff
-manual.page.material.durability=Haldbarkeit
+manual.page.material.durability=Haltbarkeit
 manual.page.material.handle=Griff Modifikator
 manual.page.material.level=Abbau Level
 manual.page.material.material=Material
@@ -1088,7 +1076,7 @@ manual.page.modifier3=Tinker Tisch
 manual.page.casting1=Zutaten
 manual.page.tool1=Crafting Teile
 
-item.tconstruct.glassArrows.name=Glass Arrows
+item.tconstruct.glassArrows.name=Glaspfeile
 tool.glassarrows=Glaspfeile
 tool.glassarrows.lore=Gecraftet von einem legendären Glasmacher
 tool.boneana.lore=Es klang wie eine gute Idee, damals
@@ -1107,14 +1095,14 @@ armor.travelvest.ability=Fähigkeit: Schnell schwimmen
 armor.travelwings.ability=Fähigkeit: Hoch springen
 armor.travelboots.ability=Fähigkeit: Hoch steigen
 
-item.TConstruct.slimesling.name=Slimesling
-item.TConstruct.slime_boots.name=Slime Boots
-gadgets.slimesling.tooltip1=Aim at a block behind you to get thrown into the air.
-gadgets.slimesling.tooltip2=Shoot for the moon!
-gadgets.slimesling.tooltip3=Must be on the ground to use.
-gadgets.slime_boots.tooltip1=Boooounce!
-gadgets.slime_boots.tooltip2=Hold
-gadgets.slime_boots.tooltip3= to stop bouncing.
+item.TConstruct.slimesling.name=Schleimschleuder
+item.TConstruct.slime_boots.name=Schleimschuhe
+gadgets.slimesling.tooltip1=Ziele auf einen Block hinter dir, um in die Luft geschleudert zu werden.
+gadgets.slimesling.tooltip2=Ziele hoch!
+gadgets.slimesling.tooltip3=Muss auf dem Boden stehen, um benutzt werden zu können.
+gadgets.slime_boots.tooltip1=Hopp!
+gadgets.slime_boots.tooltip2=Halte
+gadgets.slime_boots.tooltip3=um nicht mehr zu springen.
 
 tool.reinforced=Verstärkt
 tool.unbreakable=Unzerbrechlich
@@ -1138,12 +1126,12 @@ modifier.toolstation.Lapis=Lapis
 modifier.toolstation.Lava=Lava
 modifier.toolstation.LeadBoots=Bleischuhe
 modifier.toolstation.ModAntiSpider=Nemesis der Gliederfüßer
-modifier.toolstation.Moss=Moss
+modifier.toolstation.Moss=Moos
 modifier.toolstation.Necrotic=Nekrotisch
 modifier.toolstation.NightVision=Nachtsicht
 modifier.toolstation.PerfectDodge=Perfektes Auszuweichen
 modifier.toolstation.Quadruple-Jump=Vierfachsprung
-modifier.toolstation.Quartz=Quartz
+modifier.toolstation.Quartz=Quarz
 modifier.toolstation.Redstone=Redstone
 modifier.toolstation.ReinforcedI=Verstärkung I
 modifier.toolstation.ReinforcedII=Verstärkung II
@@ -1165,8 +1153,8 @@ modifier.toolstation.Triple-Jump=Dreifachsprung
 modifier.toolstation.ThaumicVision=Thaumische Visionen
 modifier.toolstation.WaterWalk=Auf Wasser laufen
 
-modifier.tooltip.Main=Tool Modifier:
-modifier.tooltip.Creative=§5§kC§d§kr§9§ke§3§ka§b§kt§a§ki§2§kv§e§ke
+modifier.tooltip.Main=Werkzeugmodifikator:
+modifier.tooltip.Creative=§5§kK§d§kr§9§ke§3§ka§b§kt§a§ki§2§kv
 modifier.tooltip.Auto-Smelt=Auto-Schmelzen
 modifier.tooltip.BaneofArthropods=Nemesis der Gliederfüßer
 modifier.tooltip.Beheading=Köpfen
@@ -1190,19 +1178,19 @@ modifier.tooltip.Triple-Jump=Dreifachsprung
 modifier.tooltip.ThaumicVision=Thaumische Visionen
 modifier.tooltip.Water-Walking=Auf Wasser laufen
 
-tile.LavaTank.name=Seared Tank
+tile.LavaTank.name=Versengter Tank
 option.tcon.searedtank=Verbrannter Tank
 option.tcon.castingchannel=Gießkanal
 option.tcon.basin=Gießbecken
 option.tcon.table=Gießtisch
 option.tcon.smeltery=Schmelzerei Status
 
-fluid.molten.unstableIngots=Molten Unstable Ingots
-fluid.molten.bedrockiumIngots=Molten Bedrockium Ingots
+fluid.molten.unstableIngots=Geschmolzene Instabile Barren
+fluid.molten.bedrockiumIngots=Geschmolzene Bedrockiumbarren
 
 #mobsinfo compat
 tconstruct.mobsinfocompat.tinkers_construct_beheading=Each level of beheading on your weapon gives additional %.2f%%
 tconstruct.mobsinfocompat.tinkers_construct_beheading_1=If you are using a Cleaver, it gives another %.2f%%
 
 #Baubles compat (Baubles Expanded already has the relevant localizations)
-baubletype.any=Equippable in a §aRing§7 slot
+baubletype.any=Ausrüstbar im &aRing&7-Platz

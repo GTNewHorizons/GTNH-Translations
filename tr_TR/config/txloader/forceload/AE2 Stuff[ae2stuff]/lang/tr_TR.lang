@@ -2,7 +2,12 @@ tile.ae2stuff.Encoder.name=Kalıp Kodlayıcısı
 tile.ae2stuff.Grower.name=Kristal Yetiştirme Odası
 tile.ae2stuff.Inscriber.name=Gelişmiş Yontucu 
 tile.ae2stuff.Wireless.name=Kablosuz Bağlayıcı
+tile.ae2stuff.Wireless.colorTip=Can be colored
 tile.ae2stuff.WirelessHub.name=Kablosuz Merkezi
+
+gui.ae2stuff.Encoder.title=Pattern Encoder
+gui.ae2stuff.Grower.title=Crystal Growth Chamber
+gui.ae2stuff.Inscriber.title=Advanced Inscriber
 
 item.ae2stuff.WirelessKit.name=Kablosuz Kurulum Kiti
 item.ae2stuff.AdvWirelessKit.name=Gelişmiş Kablosuz Kurulum Kiti
@@ -43,14 +48,15 @@ ae2stuff.wireless.advtool.binding.notempty=Kuyrukta bağlanmayı bekleyen mevcut
 ae2stuff.wireless.advtool.connector.next=Kuyruktaki bir sonraki bağlayıcı: %s, %s, %s
 ae2stuff.wireless.advtool.extra=§oKuyruk ve bağlama modları arasında geçiş yapmak için çömelirken sağ tıklayın
 ae2stuff.wireless.advtool.noconnectors=Kuyrukta bağlayıcı bulunamadı. Aleti kuyruk moduna almayı ve birkaç tane eklemeyi deneyin.
-ae2stuff.wireless.advtool.pop=%s, %s, %s kuyruktan kaldırıldı
 ae2stuff.wireless.advtool.hub.queued=%s merkez yuvası kuyruğa eklendi
 ae2stuff.wireless.advtool.queueing.clear=Kuyruk temizlendi
 ae2stuff.wireless.tooltips.advtool.queueing.clear=Kuyruğu temizlemek için Shift + %s + Sağ tıklayın
+ae2stuff.wireless.tooltips.advtool.location=§6%s %s %s
 ae2stuff.wireless.tooltips.advtool.hubqols.binding=Tüm boş merkez yuvalarına bağlamak için %s + Sağ tıklayın
 ae2stuff.wireless.tooltips.advtool.hubqols.queueing=Tüm boş merkez yuvalarını kuyruğa eklemek için %s + Sağ tıklayın
 ae2stuff.wireless.tool.connected=%s,%s,%s e bağlı
 ae2stuff.wireless.tool.failed=Bağlantı Başarısız
+ae2stuff.wireless.tool.failed.detail=§cConnection failed: §f%s
 ae2stuff.wireless.tool.dimension=İki bağlantı da aynı boyut içinde olmalı
 ae2stuff.wireless.tool.noexist=Bağlı olan Bağlayıcı yok
 ae2stuff.wireless.tool.security.player=Güvenlik İhlali - Bu sistemi düzenleyemezsiniz
@@ -70,3 +76,5 @@ ae2stuff.visualiser.mode.proxy=Show Crafting Input Proxy Links
 
 itemGroup.bdew.ae2stuff=AE2 Şeysileri 
 ae2stuff.key.mode=Mod Değiştir
+
+ae2stuff.config.client=Client

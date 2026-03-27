@@ -13,9 +13,11 @@ crafters.PartBuilder=부품 조합대
 crafters.PatternShaper=문양 제작 탁자
 crafters.CraftingStation=조합소
 inventory.PatternChest=문양 상자
+inventory.PartChest=Part Chest
 crafters.Smeltery=제련소
 crafters.Frypan=프라이팬
 inventory.knapsack=배낭
+toolstation.partholder=Part Chest
 
 nei.options.keys.gui.tinkers_belt=여행자의 벨트 전환
 
@@ -23,6 +25,7 @@ tile.ToolStation.name=도구 조립대
 ToolStation.Crafter.name=도구 조립대
 ToolStation.Parts.name=부품 조합대
 ToolStation.PatternChest.name=문양 상자
+ToolStation.PartChest.name=Part Chest
 ToolStation.PatternShaper.name=문양 제작 탁자
 ToolStation.CastingTable.name=주조 탁자
 tile.FurnaceSlab.name=반 블럭 화로
@@ -923,6 +926,18 @@ gui.toolstation20=보호:
 gui.toolstation21=갯수:
 gui.toolstation22=부러질 확률:
 gui.toolstation23=최대 공격력:
+
+gui.partcrafter.durability=Durability: %s
+gui.partcrafter.mininglevel=Mining Level: %s
+gui.partcrafter.miningspeed=Mining Speed: %s
+gui.partcrafter.attack=Attack: %s
+gui.partcrafter.handlemodifier=Handle Modifier: %s
+gui.partcrafter.drawspeed=Draw Speed: %s s
+gui.partcrafter.arrowspeed=Arrow Speed: %s
+gui.partcrafter.arrow=Arrow
+gui.partcrafter.bolt=Bolt
+gui.partcrafter.weight=Weight: %s
+gui.partcrafter.breakchance=Break Chance: %s %%
 
 gui.mining1=돌, 석탄
 gui.mining2=철, 청금석
