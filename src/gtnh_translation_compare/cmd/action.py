@@ -2,6 +2,7 @@ import asyncio
 import datetime
 import glob
 import os
+import shutil
 from pathlib import Path
 import subprocess
 from typing import Sequence, TypeAlias, Callable, Optional
@@ -199,12 +200,14 @@ class Action:
         def get_relpath(path):
             return repo_path / subdirectory / path
 
-        paths_to_commit: list[str] = []
         modpack = ModPack(Path(modpack_path))
+        base_path = repo_path / subdirectory
+
+        clear_folder(str(base_path), ["GregTech.lang"])
+
         for lang_file in modpack.lang_files(Language.en_US):
             relpath = get_relpath(lang_file.get_en_us_relpath())
             write_file(os.path.abspath(relpath), lang_file.content)
-            paths_to_commit.append(relpath)
 
         qb_lang_file_url = (
             f"https://raw.githubusercontent.com"
@@ -215,14 +218,14 @@ class Action:
             raise ValueError(f"Failed to get quest book file from {qb_lang_file_url}")
         relpath = get_relpath(settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH)
         write_file(os.path.abspath(relpath), res.text)
-        paths_to_commit.append(relpath)
 
         git_commit(
-            repo_path,
-            paths_to_commit,
+            str(repo_path),
+            [str(base_path)],
             settings.GIT_AUTHOR,
             f"Daily modpack {str(datetime.date.today())}",
             allow_empty=True,
+            use_git_add_all=True,
         )
 
     def save_daily_modpack_history(
@@ -424,8 +427,12 @@ def git_commit(
     author: Optional[str],
     message: str,
     allow_empty: bool = False,
+    use_git_add_all: bool = False,
 ) -> None:
-    porcelain.add(git_root, paths)  # type: ignore[no-untyped-call]
+    if use_git_add_all:
+        subprocess.run(['git', '-C', git_root, 'add', '-A'] + paths, check=True)
+    else:
+        porcelain.add(git_root, paths)  # type: ignore[no-untyped-call]
     staged = porcelain.status(git_root).staged  # type: ignore[no-untyped-call]
     if not allow_empty and len(staged['add']) == 0 and len(staged['delete']) == 0 and len(staged['modify']) == 0:
         logger.info("No changes to commit")
@@ -445,6 +452,16 @@ def write_file(filepath: str, content: str) -> None:
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     with open(filepath, "w") as fp:
         fp.write(content)
+
+def clear_folder(filepath: str, ignore_files_in_root: list[str]) -> None:
+    path = Path(filepath)
+    for item in path.iterdir():
+      if item.is_file() or item.is_symlink():
+        if item.name in ignore_files_in_root:
+          continue
+        item.unlink()
+      elif item.is_dir():
+        shutil.rmtree(item)
 
 def is_mod_lang_file(name: str) -> bool:
     return any(

@@ -3827,6 +3827,10 @@ betterquesting.quest.JhZaTiUfTH2AfBcHulTMVA.desc=§5§lPrismarine§r is an ancie
 betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.name=§b§lPrismatic Gas
 betterquesting.quest.Oh_EQhvBQUqHeVcUyifCXQ.desc=The §2Prismatic Crystal§r will then be processed in a §5§lVacuum Furnace§r with §2Boron Plasma§r in order to successfully convert it to the highly sought after §3Prismatic Gas§r.
 
+# Quest: Wormhole Generator
+betterquesting.quest.RnhqUVMfRVm8Ug3yM1mYKQ.name=§b§lWurmloch-Generator
+betterquesting.quest.RnhqUVMfRVm8Ug3yM1mYKQ.desc=The §5§lMiniature Wormhole Generator§r uses Quantum Entangled Singularities to transmit power over any distance, including across dimensions.%n%nTo use it, you must link two generators together using AE2 Entangled Singularities by placing one in each controller. Once linked, both wormholes must be started by placing a full (non-entangled) AE2 Singularity into an input bus on each machine. The wormhole will continue running as long as power is being transferred between them. If power transfer stops, the link will shut down and must be restarted using another Singularity on both ends.%n%nPower is transferred through Laser Source Hatches and Laser Target Hatches. Each wormhole can support up to 4 laser hatches. These must be placed in the center block of one of the side faces, excluding the controller side. Hatch pairs link based on relative position between the two wormholes, not cardinal direction. For example, a Source Hatch placed on the top of the sending side must connect to a Target Hatch placed on the bottom of the receiving wormhole.%n%nAdditionally, unlike AE2 P2P tunnels, this does not come with a 5%% power loss but rather a much more manageable 0.5%% loss. %n%n[note]The glass and input hatch must be tiered accordingly with the tier of the laser hatches. But remember, there is no amperage limit on this machine, so use whatever makes it cheapest for you.[/note]
+
 # Quest: Naquarite Universal Insulator Foil
 betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.name=§b§lNaquarite Universal Insulator Foil
 betterquesting.quest.fVoSLYPcSmKd-gLhBJHK9A.desc=Finally, you can combine the §2Radiation-Proof Composite Sheet§r with §2Netherite Foil§r and §2Manyullyn§r in the §5§lForming Press§r to create §3Naquarite Universal Insulator Foil§r. This incredibly strong foil can be used to bind ingredients to all of your future coils due to it's unrivaled radiation and heat resistance. 
@@ -4374,7 +4378,7 @@ betterquesting.quest.qirJLnNZT6Wmb7oQJ1IOLg.desc=You might be saying, "So I've j
 
 # Quest: UEV Superconductors
 betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.name=§5§l§nUEV Superconductors
-betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.desc=UEV superconductors, another great infinity sink. You can make the celestial tungsten and advanced nitinol in a laser engraver directly, but this is quite slow. Perhaps consider using the celestial tungsten plasma line?
+betterquesting.quest.s6BLu9oMS86AXyR1FQ1imA.desc=UEV Superconductors, another great Infinity sink. You can make the Celestial Tungsten and Advanced Nitinol in a laser engraver directly, but this is quite slow. Perhaps consider using the Celestial Tungsten plasma line?
 
 # Quest: UEV Field Generator
 betterquesting.quest.uUtOQgjtTCS5AWZPWG0qUQ.name=§5§l§nUEV Field Generator
@@ -4518,6 +4522,10 @@ betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=After seeing how slow Shirabon 
 betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.name=Tier 12 - UMV
 betterquesting.questline.l37V2WvbSHGZQ5oMgAfBuw.desc=Maybe take a break every now and then...
 
+# Quest: T4: Advanced
+betterquesting.quest.-fvTafFJRo67bYWh46USSw.name=§c§l§nT4: Fortgeschritten
+betterquesting.quest.-fvTafFJRo67bYWh46USSw.desc=The §3Advanced§r Spacetime Compression Field Generator allows for up to §lT4§r recipes which produce §l1152L§r of Black Dwarf Matter per successful batch.%n%nThe §3Advanced§r Time Dilation Field Generator grants a §287.5%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c27.75%%§r.%n%nThe §3Advanced§r Stabilisation Field Generator will boost the success chance of the EoH by §215%%§r, but will decrease the yield by §c15%%§r and increase the power cost by §c25%%§r.
+
 # Quest: Finally, Universium!
 betterquesting.quest.21tDEYptRuOgSJym30Watg.name=§c§l§nFinally, Universium!
 betterquesting.quest.21tDEYptRuOgSJym30Watg.desc=You've finally solved it. Who knew that leaving dead stars long enough would cause your artificial solar system to implode and lead to a Big Bang?%n%nIf only you could tap into that much mass right before it started expanding again, you could literally hold the entire universe in the palm of your hand.%n%nThis is your third and final material from the EOH.%n%n[note]It's mainly used for UXV crafts, but your first few should go in the Eternity loop. The quest for it is located in the Endgame Goals tab.%n%nCongrats! You can now craft Magnetohydrodynamically Constrained Star Matter (MHDCSM).[/note]
@@ -4525,6 +4533,10 @@ betterquesting.quest.21tDEYptRuOgSJym30Watg.desc=You've finally solved it. Who k
 # Quest: Wireless Multi-Amp Hatches
 betterquesting.quest.2TXAUm6oQ0OhtMK79tC5cw.name=§c§l§nWireless Multi-Amp Hatches
 betterquesting.quest.2TXAUm6oQ0OhtMK79tC5cw.desc=With Shirabon now acquired, you can create 4A, 16A and 64A wireless energy hatches. These are particularly useful for machines which can use multi-amp, but do not need extreme amounts of power warranting a laser hatch.%n%n[note]These used to be needed in large quantities, being the best energy hatch to use on a Processing Array. May they rest in peace.[/note]
+
+# Quest: Magnetohydrodynamically Constrained Star Matter
+betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.name=§c§l§nMagnetohydrodynamically Constrained Star Matter
+betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.desc=Or MHDCSM for short.%n%nThis is your primary material for UXV components. It's tricky to make and extremely expensive, as all endgame materials should be.%n%nInstead of solidifying it directly, you need to coat Eternity parts with it.%n%nHave fun!
 
 # Quest: Guzzling Massive Amounts of Gas
 betterquesting.quest.5vAyoCzxQkSRpjzlDNwtrw.name=§c§l§nGuzzling Massive Amounts of Gas
@@ -4550,6 +4562,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=Der finale Schaltkreis im Spiel
 betterquesting.quest.DVLahVNUQ-CvjYwmvkUn-Q.name=§c§l§nWhite Dwarf Matter
 betterquesting.quest.DVLahVNUQ-CvjYwmvkUn-Q.desc=Who knew that creating artificial solar systems would finally allow you to extract the core of a freshly dead star?%n%nWith your current crude casings, you can only accelerate the life of an artificial solar system to observe white dwarfs.%n%nPerhaps this matter will help you push the process even further.%n%n[note]This is one of the three EOH materials. Use it to upgrade your casings up to T4.[/note]
 
+# Quest: T6: Exotic
+betterquesting.quest.HFpuUdRKS--dsQzGEvjW2w.name=§c§l§nT6: Exotisch
+betterquesting.quest.HFpuUdRKS--dsQzGEvjW2w.desc=The §eExotic§r§r Spacetime Compression Field Generator allows for up to §lT6§r recipes which produce §l18432L§r of Black Dwarf Matter per successful batch.%n%nThe §eExotic§r Time Dilation Field Generator grants a §296.875%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c46.25%%§r.%n%nThe §eExotic§r Stabilisation Field Generator will boost the success chance of the EoH by §225%%§r, but will decrease the yield by §c25%%§r and increase the power cost by §c15%%§r.
+
+# Quest: T3: Stable
+betterquesting.quest.Hgj4aBbmQUCkp325rL-McQ.name=§c§l§nT3: Stabil
+betterquesting.quest.Hgj4aBbmQUCkp325rL-McQ.desc=The §9Stable§r Spacetime Compression Field Generator allows for up to §lT3§r recipes which produce §l18432L§r of White Dwarf Matter per successful batch.%n%nThe §9Stable§r Time Dilation Field Generator grants a §275%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c18.5%%§r.%n%nThe §9Stable§r Stabilisation Field Generator will boost the success chance of the EoH by §210%%§r, but will decrease the yield by §c10%%§r and increase the power cost by §c30%%§r.
+
 # Quest: Yet Another Space Elevator Upgrade
 betterquesting.quest.MiGXZ65sRwiAdpsCrVB0Eg.name=§c§l§nYet Another Space Elevator Upgrade
 betterquesting.quest.MiGXZ65sRwiAdpsCrVB0Eg.desc=This bad boi can handle 18 modules at once.
@@ -4570,13 +4590,25 @@ betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=With total mastery of the Forge
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=§c§l§nConvergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.desc=Running your Dimensionally Transcendent Plasma Forge for an extended period [note](8 hours)[/note] allows the Multidimensional Spaces to align perfectly.%n%nWith your newly acquired technology, you can now tap into these spaces in perfect sync, enabling your plasma forges to operate at incredible speeds.%n%nThe Transdimensional Alignment Matrix allows the DTPF to run with Perfect Overclocks. To achieve this, you need a full discount, and the extra power cost is offset by using more of the same catalyst.%n%nOverall, it is more efficient and totally worth it.%n%nThis process is extremely catalyst-hungry. Ensure you're producing enough to sustain it.%n%nFor recipes without a catalyst, you must specify the catalyst in the GUI by right-clicking the Convergence button, otherwise it will default to Crude.[/note]%n%n[note]Math for the curious:%n%nTo clear up what exactly happens in the background, here's an explanation on how the extra catalyst values are calculated using an example:%n%nThe example recipe of choice is the molten neutronium recipe using prosaic catalyst, running at 64A UMV (8,589,934,592 EU/t).%nThe recipe uses 14,753L of Prosaic catalyst and 36,484,545,600 EU per recipe without OCs or the catalyst discount. With the discount, the catalyst amount gets cut in half, meaning 7,376.5L of catalyst, which are rounded to 7,376L, and due to the 64A UMV the machine is supplied with the recipe overclocks 3 times, meaning each recipe actually uses 36,484,545,600 * 2^3 = 291,876,364,800 EU.%n%nKnowing the amount of OCs and the base voltage of the recipe, the difference of the needed EU per recipe with and without perfect OC can be calculated, that being 291,876,364,800 - 36,484,545,600 = 255,391,819,200 extra EU due to imperfect OCs.%nTo get the value of needed extra catalyst, this extra EU value has to be divided by the energy density of the relevant catalyst, prosaic in this case.%n%nThe division equates to 255,391,819,200 EU / 66,768,460 EU/L = 3,825.037 L, rounded to 3,825L extra prosaic catalyst per recipe. For the final step, this value has to be multiplied by 0.5 as it's affected by the discount, meaning the total extra catalyst that gets added to the recipe is 3,825L * 0.5 = 1,912.5 L, rounded to 1,912L.%n%nTo summarize it all in a formula:%nAmount extra catalyst per recipe = (B * ((2^x) - 1))/2L%nwhere:%nB is base total EU of the recipe%nx is the number of overclocks%nL is the EU/L of the relevant catalyst [/note]
 
+# Quest: T7: Perfect
+betterquesting.quest.bKW2YJfES6yvbes8JQRb0g.name=§c§l§nT7: Perfekt
+betterquesting.quest.bKW2YJfES6yvbes8JQRb0g.desc=The §6Perfect§r Spacetime Compression Field Generator allows for up to §lT7§r recipes which produce §l1152L§r of §5Universium§r per successful batch.%n%nThe §6Perfect§r Time Dilation Field Generator grants a §298.4375%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c55.5%%§r.%n%nThe §6Perfect§r Stabilisation Field Generator will boost the success chance of the EoH by §230%%§r, but will decrease the yield by §c30%%§r and increase the power cost by §c10%%§r.
+
 # Quest: Black Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.name=§c§l§nBlack Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.desc=Reinforcing your casings with matter from white dwarfs was a good idea.%n%nYou can now accelerate a solar system until a black dwarf forms. This material will likely be key to observing and understanding what happens next.%n%nThis is the second of your three EOH materials. Use it to upgrade your casings to T7.%n%n[note]The EOH becomes power positive once all the casings are Tier 7.[/note]
 
+# Quest: T2: Primitive
+betterquesting.quest.cO67NYK2QsyDlcvFGkk43A.name=§c§l§nT2: Primitiv
+betterquesting.quest.cO67NYK2QsyDlcvFGkk43A.desc=The §dPrimitive§r Spacetime Compresion Field Generator allows for up to §lT2§r recipes which produce §l4608L§r of White Dwarf Matter per successful batch.%n%nThe §dPrimitive§r Time Dilation Field Generator grants a §250%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c9.25%%§r.%n%nThe §dPrimitive§r Stabilisation Field Generator will boost the success chance of the EoH by §25%%§r, but will decrease the yield by §c5%%§r and increase the power cost by §c35%%§r.
+
 # Quest: Stellar Catalyst
 betterquesting.quest.fj2VzJf2Rgev7uY-h3CkJQ.name=§c§l§nStellar Catalyst
 betterquesting.quest.fj2VzJf2Rgev7uY-h3CkJQ.desc=Your attempts to improve your dimensional catalyst have been futile so far, but with the Raw Stellar Plasma from your Eye of Harmony, you can finally create a stable and more powerful catalyst.%n%nYou will need some higher-tier plasmas to help maintain its stability as well.%n%n[warn]Handle with care. We are not responsible for your base turning into supermassive black holes. /s[/warn]
+
+# Quest: T9: Gallifreyan
+betterquesting.quest.g5CfYPLATaiRyVInsqn9_w.name=§c§l§nT9: Gallifreyanisch
+betterquesting.quest.g5CfYPLATaiRyVInsqn9_w.desc=Der §cG§6a§el§al§bi§9f§dr§ce§6y§ea§an§ci§9s§ec§6h§be§r Raumzeitkompressions-Feldgenerator erlaubt bis zu §lT10§r§r-Rezepte, die §l18432 l§r Universium pro erfolgreiche Charge produzieren. %n%nDer §cG§6a§el§al§bi§9f§dr§ce§6y§ea§an§ci§9s§ec§6h§be§r Zeitdilatations-Feldgenerator gewährt eine Zeitverkürzung von §299,609375%%§r für jedes im EoH ausgeführte Rezept, verringert jedoch die Erfolgswahrscheinlichkeit um §c74%%§r.%n%nDer §cG§6a§el§al§bi§9f§dr§ce§6y§ea§an§ci§9s§ec§6h§be§r Stabilisierungsfeldgenerator erhöht die Erfolgschance des EoH um §240%%§r, verringert aber die Ausbeute um §c40%%§r.%n%n[note]Wenn du ein T10-EoH mit positiver Energiebilanz betreiben möchtest, ist die beste Konfiguration T9/T8/T9 (unter Verwendung von Tipler-Zeitdilatations-Feldgeneratoren)
 
 # Quest: Saving on SpaceTime
 betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.name=§c§l§nSaving on SpaceTime
@@ -4584,7 +4616,7 @@ betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.desc=SpaceTime is quite a challenge,
 
 # Quest: Subspace Cooling
 betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.name=§c§l§nSubspace Cooling
-betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=Cooling exotic ingots proves to be a much bigger challenge than smelting them.%n%nFortunately, reinforcing some of the casings with your new materials allows you to inject exotic coolants that capture extreme heat in miniature tears of spacetime, helping to cool your ingots a bit faster.%n%nWith Subspace Cooling, you can enable the Vacuum Freezer to achieve Perfect Overclocks… at a cost.%n%nTier 1 will consume SpaceTime in liquid form at [warn]7500 L/s[/warn] and allow for 1 Perfect Overclock.%n%n[note]This cost is very high but static, remaining the same for each recipe being run. So, be selective about cooling your ingots.%n%nThe faster the recipes, the more efficient the cost, so find your optimal balance.[/note]%n%nThe Infinity Cooled Casings replace the frost proof casings, so you don't need to worry about damaging your setups.
+betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=Cooling exotic ingots proves to be a much bigger challenge than smelting them.%n%nFortunately, reinforcing some of the casings with your new materials allows you to inject exotic coolants that capture extreme heat in miniature tears of spacetime, helping to cool your ingots a bit faster.%n%nWith Subspace Cooling, you can enable the Vacuum Freezer to achieve Perfect Overclocks… at a cost.%n%nTier 1 will consume SpaceTime in liquid form at [warn]75 L/s[/warn] and allow for 1 Perfect Overclock.%n%n[note]This cost is very high but static, remaining the same for each recipe being run. So, be selective about cooling your ingots.%n%nThe faster the recipes, the more efficient the cost, so find your optimal balance.[/note]%n%nThe Infinity Cooled Casings replace the frost proof casings, so you don't need to worry about damaging your setups.
 
 # Quest: Tier 12 (UMV)
 betterquesting.quest.jlXvqqgIQ_Crha2tW0gEQg.name=§c§l§nTier 12 (UMV)
@@ -4596,15 +4628,23 @@ betterquesting.quest.k0ryGOkkSBOgYUcVY-J4rw.desc=Like its predecessor it can run
 
 # Quest: An Eye at the End of Time
 betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.name=§c§l§nAn Eye at the End of Time
-betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%nIntroducing the final multiblock in the game, and by far the most expensive.%nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.%n%nIt has 3 different tiered casings with 9 tiers each:%n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run and decreases the processing time by 3%% per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by 50%% per tier, while decreasing the chance of a recipe succeeding by 9.25%% per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by 5%% per tier, while decreasing the output of a recipe by 5%% per tier.%n%nLower tier Stabilization Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualizing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]%n%n[note]Well... it explains mostly everything. The Eye of Harmony has an inbuilt pity system to make sure you don't lose your mind. Here's a quick rundown on how it operates:%n%n(All chances are decimals here)%nThere is a counter C that starts at the current recipe success chance P. If a recipe fails, (1-P)*P is added to C. If C reaches >= 1, the next roll is guaranteed to succeed and C resets to P. %nIf a recipe succeeds before C reaches >= 1, it resets in a similar manner.%nIf you switch recipes, C will be reset to P of the new recipe, even if the next roll would be a guarantee.%nThe guarantee can be canceled out by overflow penalties as they apply after the pity does. However, they do not reset C, so the guarantee is shifted to the next recipe cycle.%nIf parallels are > 1, pity doesn't apply.[/note]
+betterquesting.quest.kazCPEWoSmiZhR4bkHlEBQ.desc=So you have made yourself an Eternal DTPF or hopefully a few, and now it is time for the push to the next tier, UXV.%n%nIntroducing the final multiblock in the game, and by far the most expensive.%nIt introduces 4 new materials: Raw Stellar Plasma, White and Black Dwarf Matter and finally Universium.%n%nIt has 3 different tiered casings with 9 tiers each:%n%nSpacetime Compression Field Generator:%n- Determines the tier of the planet block that can be run and decreases the processing time by 3%% per tier.%n%nTime Dilation Field Generator:%n- Decreases recipe time by 50%% per tier, while decreasing the chance of a recipe succeeding by 9.25%% per tier.%n%nStabilisation Field Generator:%n- Increases the chance of a recipe succeeding by 5%% per tier, while decreasing the output of a recipe by 5%% per tier.%n%nLower tier Stabilization Field Generators have a power output penalty.%n%nFinding the best setup of different casing tiers might be a hard task, so a calculator visualizing all the drops and setups has been created: [url]https://docs.google.com/spreadsheets/d/1qyRWipeWpHQM4tbacb3TvO-QjvleV7-0uzMZWW3r6ew/edit?gid=589078529#gid=589078529[/url]%n%n[note]Be sure to read the tooltip of the Eye of Harmony controller, it explains everything in detail! Depending on your GUI scale it might have multiple pages.[/note]%n%n[note]Well... it explains mostly everything. The Eye of Harmony has an inbuilt pity system to make sure you don't lose your mind. Here's a quick rundown on how it operates:%n%n(All chances are decimals here)%nThere is a counter C that starts at the current recipe success chance P. If a recipe fails, (1-P)*P is added to C. If C reaches >= 1, the next roll is guaranteed to succeed and C resets to P. %nIf a recipe succeeds before C reaches >= 1, it resets in a similar manner.%nIf you switch recipes, C will be reset to P of the new recipe, even if the next roll would be a guarantee.%nThe guarantee can be canceled out by overflow penalties as they apply after the pity does. However, they do not reset C, so the guarantee is shifted to the next recipe cycle.%nIf parallels are > 1, pity doesn't apply.[/note]
 
 # Quest: Storing Computation in the Cloud
 betterquesting.quest.lBuQcNYjQ8-YsMFqW6U1tQ.name=§c§l§nStoring Computation in the Cloud
 betterquesting.quest.lBuQcNYjQ8-YsMFqW6U1tQ.desc=Wireless Computation is similar to Wireless Data, Cloud Computation Server Hatches send computation to Cloud Computation Client Hatches, which other multiblocks can use.%n%nPlace down a Server Hatch on a Quantum Computer, screwdriver the controller to enable Wireless Mode, then after placing down a Client Hatch, you have to set how much computation it should request from the Server Hatch.%n%n[note]These Cloud Computation Hatches are N:M (Many:Many)[/note]
 
+# Quest: T8: Tipler
+betterquesting.quest.lU1caedNR6G6fdJqbivacw.name=§c§l§nT8: Tipler
+betterquesting.quest.lU1caedNR6G6fdJqbivacw.desc=The §4Tipler§r Spacetime Compression Field Generator allows for up to §lT8§r recipes which produce §l4608L§r of Universium per successful batch.%n%nThe §4Tipler§r Time Dilation Field Generator grants a §299.21875%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c64.75%%§r.%n%nThe §4Tipler§r Stabilisation Field Generator will boost the success chance of the EoH by §235%%§r, but will decrease the yield by §c35%%§r and increase the power cost by §c5%%§r.
+
 # Quest: Shirabon
 betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.name=§c§l§nShirabon
 betterquesting.quest.o8_pX-OSRJKBGzDsGujvNw.desc=A helper material needed in some UMV and UXV components. Have fun making millions.%n%n[note]This is extremely slow to make and to process.[/note]
+
+# Quest: Spacetime Splitting
+betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.name=§c§l§nRaumzeit-Spaltung
+betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.desc=Raumzeit... trennt sich?? Was für eine verrückte Welt, in der wir leben.%n%nDu wirst im weiteren Verlauf des Spiels für kommende Fertigungen reichlich von beidem brauchen, also sorg dafür, dass du eine Infrastruktur aufbaust, die den Bedarf bewältigen kann. Glücklicherweise wirst du irgendwann DTPF- und QFT-Rezepte nutzen können, um den Prozess erheblich zu beschleunigen, aber vorerst sollte das Spinmatron die Produktion problemlos bewältigen können.
 
 # Quest: UMV Field Generator
 betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.name=§c§l§nUMV Field Generator
@@ -4626,14 +4666,18 @@ betterquesting.quest.uXczmEsfT2uRCSnx8Vm4RQ.desc=Created by all tiers of the Eye
 betterquesting.quest.v5GltE2BTW-Me_rEqy5uFg.name=§c§l§nAre you Ready?
 betterquesting.quest.v5GltE2BTW-Me_rEqy5uFg.desc=From now on, you'll be dealing with extremely slow recipes.%n%nConsider finishing up your QFTs and upgrading or replacing your old infrastructure to save on TPS.%n%nYou should definitely upgrade your power generation and infrastructure to handle millions of recipes.%n%nThe Eye of Harmony will be consuming most of your power before it starts generating more than it uses.%n%nMay Colen have mercy on your soul.%n%n[note]Welcome to the waiting lounge.[/note]
 
+# Quest: T5: Superb
+betterquesting.quest.va9yzhTSSUWxgareXVIaXQ.name=§c§l§nT5: Hervorragend
+betterquesting.quest.va9yzhTSSUWxgareXVIaXQ.desc=The §aSuperb§r Spacetime Compression Field Generator allows for up to §lT5§r recipes which produce §l4608L§r of Black Dwarf Matter per successful batch.%n%nThe §aSuperb§r Time Dilation Field Generator grants a §293.75%%§r time reduction for any recipe ran in the EoH, but reduces the likelihood of success by §c37%%§r.%n%nThe §aSuperb§r Stabilisation Field Generator will boost the success chance of the EoH by §220%%§r, but will decrease the yield by §c20%%§r and increase the power cost by §c20%%§r.
+
+# Quest: Eternity
+betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.name=§c§l§nEternity
+betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for the improved Magnetohydrodynamically Constrained Star Matter recipe. You'll also need it to make MHDCSM parts.%n%nKickstarting the loop is expensive and RNG-based. You need 20,736 L of Universium for the first 5 attempts and a catalyst.%n%nThe QFT recipe has a 25%% chance of yielding Eternity per attempt. You should probably boost the QFT with plasmas and focus on producing Eternity.%n%n[note]Did you know the QFT has a fluid mode? It could be useful for extracting molten Shirabon. Just right-click the controller with a §ascrewdriver§r.[/note]%n%n[note]Building a full beacon out of Eternity Blocks might be a bit extravagant, don't you think?[/note]
+
 
 ## Quest Line: Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=Endgame-Ziele
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=Sammlung von Endgame-Zielen, viel Glück und danke, dass du so weit gespielt hast.
-
-# Quest: Magnetohydrodynamically Constrained Star Matter
-betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.name=§4§l§nMagnetohydrodynamically Constrained Star Matter
-betterquesting.quest.52Yelo6KSLGumzXo-_F5DQ.desc=Or MHDCSM for short.%n%nThis is your primary material for UXV components. It's tricky to make and extremely expensive, as all endgame materials should be.%n%nInstead of solidifying it directly, you need to coat Eternity parts with it.%n%nHave fun!
 
 # Quest: Tier 13 (UXV)
 betterquesting.quest.7wI7VuLKRe6lqAJpuYKKJg.name=§4§l§nTier 13 (UXV)
@@ -4677,7 +4721,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4A.desc=Möge Dreammaster Gnade mit dei
 
 # Quest: Fabricating Solar Systems... in Parallel
 betterquesting.quest.IGVryoMbRu28q08v4uwSuw.name=§4§l§nFabricating Solar Systems... in Parallel
-betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/15j30mNnFIWBhwpJGuDrKTfiHBXNEEqyvB_r7ztFWlyQ[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
+betterquesting.quest.IGVryoMbRu28q08v4uwSuw.desc=As you've noticed, UXV components are extremely expensive compared to the amount of Universium you can currently produce.%n%nThe Astral Array Fabricator allows you to run EOH recipes in parallel. You can review the math in the second page of the tooltip.%n%nFor a direct answer, you can use this spreadsheet: [url]https://docs.google.com/spreadsheets/d/1qyRWipeWpHQM4tbacb3TvO-QjvleV7-0uzMZWW3r6ew/edit?gid=589078529#gid=589078529[/url]%n%n[warn]Be aware that the EOH will use Raw Stellar Plasma instead of Hydrogen and Helium if you use Astral Arrays.[/warn]%n%n[note]Make sure you are generating enough power.[/note]
 
 # Quest: See You Next Time!
 betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.name=§6§l§nSee You Next Time!
@@ -4692,6 +4736,10 @@ betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.desc=A single stargate pair wasn't e
 # Quest: Assembling on Space Steroids
 betterquesting.quest.UVG21mYSQJex90gQWdkpIw.name=§4§l§nAssembling on Space Steroids
 betterquesting.quest.UVG21mYSQJex90gQWdkpIw.desc=Has 64 parallels and consumes ~30b EU/t per module, expensive to run but absolutely worth it.
+
+# Quest: Humongous Hatch
+betterquesting.quest.Uj0PvsNCQw-aWaEOvlFpow.name=§4§l§nGigantische Öffnung
+betterquesting.quest.Uj0PvsNCQw-aWaEOvlFpow.desc=At last... salvation from the egregious EoH hatch input limitations!%n%nThis will reduce the waiting time between cycles to a fraction of what it was before. 
 
 # Quest: Rule of Threes
 betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.name=§4§l§nRule of Threes
@@ -4708,10 +4756,6 @@ betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.desc=Now that you have your hands on
 # Quest: Your Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=§4§l§nYour Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.desc=You want to rush this as soon as possible.%n%nEvery L of Universium matters.
-
-# Quest: Eternity
-betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.name=§4§l§nEternity
-betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=Definitely consider this for the improved Magnetohydrodynamically Constrained Star Matter recipe. You'll also need it to make MHDCSM parts.%n%nKickstarting the loop is expensive and RNG-based. You need 20,736 L of Universium for the first 5 attempts and a catalyst.%n%nThe QFT recipe has a 25%% chance of yielding Eternity per attempt. You should probably boost the QFT with plasmas and focus on producing Eternity.%n%n[note]Did you know the QFT has a fluid mode? It could be useful for extracting molten Shirabon. Just right-click the controller with a §ascrewdriver§r.[/note]%n%n[note]Building a full beacon out of Eternity Blocks might be a bit extravagant, don't you think?[/note]
 
 
 ## Quest Line: Feeding Yourself
@@ -4910,7 +4954,7 @@ betterquesting.questline.GbGDSZsbQUekpRKT9ZPdjw.desc=And remember crawlers: Kill
 # Quest: Mutation Titration
 betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.name=Mutation Titration
 betterquesting.quest.0P-0LIDsRa-0r0SDSfZTUg.desc=Before going any further you really should craft a lot,[note] and I mean a lot[/note], of crop sticks. Hope you like chopping trees and crafting saws! §o§oYou should've seen the old recipe...%n%n§o§rEach of the adjacent quest groupings represent a different category of crops found within the mod. I would recommend you look first at the quests focusing on [warn]Improving Your Crops[/warn] and [warn]Controlled Breeding[/warn].
-%n%nWhile not every crop will produce a useful harvest, they very well may deterministically breed into a useful crop.%n%n%n[note]Be free farmhand~![/note]
+%n%nWhile not every crop will produce a useful harvest, they very well may deterministically breed into a useful crop.%n%nCertain crops need more than just two parents to breed. For those crops, simply surround a single double cropstick with all 3-4 crops needed and continue as normal.%n%n[note]Be free farmhand~![/note]
 
 # Quest: Vanilla Agriculture
 betterquesting.quest.0pG3BaWpTQWJLWKudvCdcw.name=Vanilla Agriculture
@@ -4975,7 +5019,7 @@ betterquesting.quest.82cQe4FcTTS5D8SuprUeaw.desc=Hast du heute schon dein Gemüs
 betterquesting.quest.8VW6FtZZRf6SAviHhNftWg.name=Samen-Generator
 betterquesting.quest.8VW6FtZZRf6SAviHhNftWg.desc=Der Samen-Generator ist eine neue Ein-Block-Maschine, mit der Spieler vorhandene Samen klonen können (mit einigen sehr seltenen Ausnahmen). Du benötigst einen Samen zum Klonen, einen Katalysator-Gegenstand (abhängig vom Material, das der Samen produziert) und 100 Liter angereicherten Dünger pro Attribut: Ein 31/31/31-Samen benötigt also 9,3KL Dünger pro Samen.%n
 %n
-%nYou only need one of the machines for this quest.
+%n§oYou only need one of the machines for this quest.
 
 # Quest: Not The Pipes
 betterquesting.quest.8XwasO5LQDW-ynx3pu2Zeg.name=Not The Pipes
@@ -4983,7 +5027,7 @@ betterquesting.quest.8XwasO5LQDW-ynx3pu2Zeg.desc=Stop using this for your pipes 
 
 # Quest: Primordial "Berries"
 betterquesting.quest.8vumBDgBToW6ngAzW1qF2Q.name=Primordial "Berries"
-betterquesting.quest.8vumBDgBToW6ngAzW1qF2Q.desc=You'll need a block of Ichorium to grow these bad boys so, don't expect them to ease your pathway to thaumic mastery. %nThey will also require an Industrial Farm to grow.
+betterquesting.quest.8vumBDgBToW6ngAzW1qF2Q.desc=These bad boys are the most advanced species you can imagine. They will require extensive technological investment to breed, and take extremely long to produce their harvest.%n%nThey will require an Industrial Farm to grow.
 
 # Quest: Jack, is that you?
 betterquesting.quest.9IaKfZelRA2GaWVUgFvJQg.name=Jack, bist du es?
@@ -5162,8 +5206,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.desc=Ein wichtiger Teil von CropsNH 
 %n
 %n§eResistance§r:
 
-%n- A resistance of 10 will guarantee a seed drop with a spade
-. 20 and 30 will drop 2 or 3 seeds, respectively. A resistance of 31 will guarantee a seed drop without a spade.
+%n- A resistance of 10 will guarantee a seed drop with a reinforced spade
+. 20 and 30 will drop 2 or 3 seeds, respectively. A resistance of 31 will guarantee a seed drop even without a spade.
 %n
 %n- If the Growth stat is greater than 23, resistance will help prevent weeds from spreading. 
 A resistance of 31 will stop the crop from spreading weeds entirely.
@@ -5178,7 +5222,7 @@ betterquesting.quest.BuV2ZuQvRIOJeRNH4xtvoA.desc=Pyrolusium leaves will 4x your 
 
 # Quest: Soul Sand Lilies
 betterquesting.quest.Bx86-2AfQKadFFMHdh3now.name=Soul Sand Lilies
-betterquesting.quest.Bx86-2AfQKadFFMHdh3now.desc=Oh hey, don't void that stuff, centrifuge it into something useful? (◕‿↼)
+betterquesting.quest.Bx86-2AfQKadFFMHdh3now.desc=Oh hey, don't void that stuff, centrifuge it into something useful? (◕‿↼)%n%n%nSeriously though, as soon as you can use these and some enriched fertilizer to breed Oil Berries in the MV Crop Breeder.
 
 # Quest: Lucky!
 betterquesting.quest.E3P20_dFSUiPdVSkma2iTA.name=Lucky!
@@ -5246,7 +5290,7 @@ betterquesting.quest.JcFOAl5pTtKNnMY61dFV_w.desc=Weeds will show up from time to
 # Quest: Plant Diseases
 betterquesting.quest.JgfP8eDqS-mDGcjgk-m3Dg.name=Plant Diseases
 betterquesting.quest.JgfP8eDqS-mDGcjgk-m3Dg.desc=Plant Cure is used to cure sickly crops. Crops will get sick in two scenarios:%n%n1. A weed has grown and overtaken the crop.%n2. A crop does not reach minimum environmental requirements.%n
-%nYou must spray the cure manually, however as a side effect it will apply a minimal amount of fertilizer so that crops will not immediately become sickly again.
+%nYou must spray the cure manually, it will apply a minimal amount of fertilizer so that crops don't immediately become sickly again.
 
 # Quest: Iridine
 betterquesting.quest.KPORP3a2Q6K6jrjXhgoksA.name=Iridine
@@ -5305,7 +5349,15 @@ betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.name=Crop Nutrients
 betterquesting.quest.R7QRLmaJRHuxmNcGpjX0hQ.desc=The speed at which a crop grows is based on its Nutrient Score. There are a number of different ways to obtain Nutrient Points for your crops, but to keep your crops from getting sick try to make sure they are always receiving at least a couple of the below bonuses:%n%n§l- +10 Points§r can be gained from having water in your crop sticks
 %n§l- +10 Points§r can be gained from having fertilizer in your crop sticks.
 %n§l- +2 Points§r can be gained from allowing the crop to see the sky.
-%n       - Crops in the Industrial Farm will always have this bonus.%n§l- +28 Points§r can be gained from preferred biome tags%n       - [warn]If no preferred tags are found[/warn], high humidity will §rgive up to §l+14 Points.§r %n       - See more on this in the Environmental Preferences quest.%n%nAll crops have a base Nutrient Score of 5.
+%n       - Crops in the Industrial Farm will always have this bonus.%n§l- +28 Points§r can be gained from preferred biome tags%n       - [warn]If no preferred tags are found[/warn], high humidity will §rgive up to §l+14 Points.§r %n       - See more on this in the Environmental Preferences quest.%n%nAll crops have a base Nutrient Score of 5.%n%n%nCrop tier determines the Nutrient Score requirements for growth. %nThe following cutoffs apply:%n
+%n§lTier 4 §r- Last tier where crops can be planted anywhere
+%n
+%n§lTier 5 §r- Last tier where crops can be planted anywhere as long as they can see the sky
+%n
+%n§lTier 11 §r- Last tier where crop can be anywhere as long as crops are in an 80%%+ biome
+%n
+%n§lTier 12 §r- Last tier where crops can be anywhere as long as crops are in a 80%%+ biome and can see the sky
+%n
 
 # Quest: Dark Oak Bonsai
 betterquesting.quest.RNs9o33VRcSIxlGcQnApfA.name=Dunkeleichebonsai
@@ -5320,7 +5372,7 @@ betterquesting.quest.Sel7hC1hT9ij2KcPa2g5ow.name=Breeding With Technology
 betterquesting.quest.Sel7hC1hT9ij2KcPa2g5ow.desc=The Crop Breeder is a new single-block machine that allows players to breed new crops deterministically. It will consume two seeds (the parents), some enriched fertilizer and a catalyst item for material-based plants.%n
 %nThe fertilizer cost is 1000L per tier of the offspring crop + 500L for each start point the new seed will have (it uses the average of the parents).%nSo a 31/31/31 tier 5 offspring would cost 51KL to breed. Ididine, osmianth and stargtatium are all IV recipes, 
 Titania is EV, and Bauxia is MV.%n%nBred crops will always have stats that are the average of their parents; breeding two maxed-out crops will always give a maxed-out offspring.%n
-%n§lSuccess chance starts at 50%% and increases by 10%% for every tier past%nMV, meaning that at ZPM, it’s guaranteed. A failed breed will void the %nparent seeds used.%n%n%n§rYou only need one of the machines for this quest.
+%n§lSuccess chance starts at 50%% and increases by 10%% for every tier past%nMV, meaning that at ZPM, it’s guaranteed. A failed breed will void the %nparent seeds used.%n%n§rAs a final note: when two crops share breeding requirements (ie Tearstalks and Evil Ore) reorder the seeds such that there is no conflicting (repeating) patterns between the two so you can breed the crop you want.%n%n§r§oYou only need one of the machines for this quest.
 
 # Quest: Jungle Bonsai
 betterquesting.quest.SkvqyNIlQDmTBfLCsmDepQ.name=Dschungelbonsai
@@ -5510,7 +5562,10 @@ betterquesting.quest.mmNIDjClTYyKnhgdVsLiJg.desc=Fruits are a key part of a bala
 
 # Quest: Multiblock Farming
 betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.name=Multiblock Farming
-betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.desc=Now this... this is how you show those §e§nB**keepers§r what's what. %n%nThe Industrial Farm (IF) is a long term, scalable, solution to Crop production. At its most basic, it will grow, harvest, and hydrate your crops, but with several upgrades and tier based size scaling, it is not a simple machine to make use of. The IF has three modes:%n%n1. Input - Pulls seeds and undersoil blocks into the machine from an Input Bus.%n2. Farm - Simulates the growth of the seeds and pushes products into an Output Bus.%n3. Output - Exports the seeds and undersoil blocks from the machine into an Output Bus.%n%nYou can cycle through them in the machine menu by clicking on the mode button.%n%nTo start, you should construct the most basic IF possible. Once you've done that, place your seeds (and any relevant underblocks) into the InputBus. §lThe seeds%nand blocks must be placed simultaneously for the Input mode to work%ncorrectly.§r§r%n%nOnce you've input your seeds (and underblocks) you can begin the simulation of harvests in Farm mode.%n%nWhen you wish to switch out seeds, enter Output mode before re-inserting the new seeds via the Input mode.%n%n%n%nThe last point worth getting into is that the size of the machine is locked to the tier. An MV IF will require MV seedbeds and therefore can only be one seedbed deep. This also means you can only insert one upgrade block (replacing the wooden frame). Each subsequent tier increases the length of the machine and the number of seeds each bed can take to incredible proportions, as well as how many upgrades you can apply.%n%n%nThe following quests will detail the many different upgrades available for the IF.
+betterquesting.quest.nkcwXV0yRH-6xPEEeBWcDA.desc=Now this... this is how you show those §e§nB**keepers§r what's what. %n%nThe Industrial Farm (IF) is a long term, scalable, solution to Crop production. At its most basic, it will grow, harvest, and hydrate your crops, but with several upgrades and tier based size scaling, it is not a simple machine to make use of. The IF has three modes:%n%n1. Input - Pulls seeds and undersoil blocks into the machine from an Input Bus.%n2. Farm - Simulates the growth of the seeds and pushes products into an Output Bus.%n3. Output - Exports the seeds and undersoil blocks from the machine into an Output Bus.%n%nYou can cycle through them in the machine menu by clicking on the mode button.%n%nTo start, you should construct the most basic IF possible. Once you've done that, place your seeds (and any relevant underblocks) into the InputBus. §lThe seeds %nand blocks must be placed simultaneously for the Input mode to work%ncorrectly.§r§r%n%nOnce you've input your seeds (and underblocks) you can begin the simulation of harvests in Farm mode.%n%nWhen you wish to switch out seeds, enter Output mode before re-inserting the new seeds via the Input mode.%n%n%nThe size of your IF is locked to the tier of seedbeds. An MV IF will require MV seedbeds and therefore can only be one seedbed deep. This also means you can only insert one upgrade block (replacing the wooden frame). Each subsequent tier increases the length of the machine and the number of seeds each bed can take to incredible proportions, as well as how many upgrades you can apply.%n%nWhen simulating crop growth, seeds in the IF are simulated as though they were growing in the following environment:%nThey have sky access (§l+2 Nutrient Points§r)§r
+%nThey have 200 water (§l+10 Nutrient Points§r)
+§r%nThey have 20 fertilizer (§l+2 Nutrient Points§r)§r or 200 when using the fertilizing unit (§l+10 Nutrient Points§r)
+%nThe biome at the location of the controller controls the biome tags and humidity, along with the biome tags added by the env modules (§lup to +28 Nutrient Points§r)
 
 # Quest: Fish Oil Supplement
 betterquesting.quest.oIWPaHKuRByUsrrO-ug2Mw.name=Fish Oil Supplement
@@ -5574,9 +5629,7 @@ betterquesting.quest.uU7RWnAOTOigmH6eYivwog.desc=Etwas leicht beschafftes Kupfer
 
 # Quest: The Overclocked Growth Acceleration Unit
 betterquesting.quest.vOZpJncURaq1H0pUzFNblw.name=The Overclocked Growth Acceleration Unit
-betterquesting.quest.vOZpJncURaq1H0pUzFNblw.desc=The Overclocked Growth Acceleration Unit allows for the overclocking of the Industrial Farm as with other Multiblocks. Only one is allowed per Industrial Farm.%n
-%n
-%nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.
+betterquesting.quest.vOZpJncURaq1H0pUzFNblw.desc=The Overclocked Growth Acceleration Unit allows for the overclocking of the Industrial Farm as with other Multiblocks. Only one is allowed per Industrial Farm.%n%nThe Overclocked Growth Acceleration Unit will not work if a Growth Acceleration Unit is installed.%n%nAs with all upgrades, the tier of the upgrade must match the tier of the seedbed.
 
 # Quest: Cobalt Berries
 betterquesting.quest.vS-gZqlCSJiI6rVi0KTzxw.name=Kobalt-Beeren
@@ -7052,8 +7105,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.name=§6§lWas ist das überhaupt?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyA.desc=Neben seiner Funktion als Dehydrator-Multi ist es auch ein Vakuumofen, für den es keinen Singleblock gibt. Er soll zusammen mit dem IsaMill-Mahlmaschinen-Multi und dem Flotationszellen-Regulator-Multi für die Erzzerkleinerung verwendet werden – eine fortgeschrittene Methode der Erzverarbeitung, die viel Infrastruktur benötigt, aber viele neue Ausgaben für jedes unterstützte Erz liefert.%n%n[note]Dieser Multi ist jetzt LuV! [/note]
 
 # Quest: Do I Really Need to Make This?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.name=§6§lMuss ich das wirklich bauen?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.desc=Oh Moment, ja – du brauchst das jetzt tatsächlich! Das sollte eigentlich eine rhetorische Frage sein!%n%nDas Hauptding, das du wahrscheinlich daraus bekommst, ist die Quantenanomalie.%n%n[note] Dieser Multi ist LuV. Aber du brauchst es erst ab UHV. [/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.name=§6§lDo I Really Need to Make This?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyQ.desc=Oh wait, yes, you actually need this now! That was supposed to be a rhetorical question!%n%nThe main thing you will probably get out of it is the Quantum Anomaly.%n%n[note]This multi is LuV. But you don't need it until UHV.[/note]
 
 # Quest: TFFT
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKzQ.name=§6§lTFFT
@@ -7134,10 +7187,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM2w.desc=Erwäge, die Fokussierungsfähi
 # Quest: Tier 4 Shielding
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.name=§6§lStufe-4-Abschirmung
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM3A.desc=Ziehe in Betracht, die Fokussierungsfähigkeit deines QKTs in ihre endgültige Form zu bringen, indem du die §3Unendlichkeits-Infundierte-Abschirmkern§rgehäuse durch §3Raumzeit-Biegekern§rgehäuse ersetzt. Wie die Manipulatoren der Stufe 4 benötigen auch diese §3Schwarzkörper-Naquadria-Suprafeststoff§r.
-
-# Quest: Your New Friend
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEQ.name=§6§lYour New Friend
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMEQ.desc=It's painful to carry all the tools in your inventory. You can put GT tools and soldering into IC2 Toolbox to save space for inventory.%n%nYou can also use it to do maintenance, without taking out tools. Just hold toolbox and right-click the Maintenance Hatch. Now who needs duct tape? You. It is needed to automate maintenance later.
 
 # Quest: Too much Indium?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.name=§6§lZu viel Indium?
@@ -7823,7 +7872,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9w.name=§8§lKinetische Wasserkraft EV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK9w.desc=Dies ist die EV-Version, sie funktioniert genauso.
 
 # Quest: Who Needs UV Solars When You Have Magic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.name=Who Needs UV Solars When You Have Magic
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.name=§5§l§nWho Needs UV Solars When You Have Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJA.desc=16,777,216 Solars!!! This single block can produce a maximum of 600m EU/t when in aqua form, that's balanced right... right?
 
 # Quest: Kinetic Wind Power LuV
@@ -7843,7 +7892,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.name=§d§lVierfach Komprimierte Sol
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK_w.desc=4.096-Solarpanele! Gibt 10.000 - 32.768 EU/t aus.
 
 # Quest: This is Not How You Get Into Space
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.name=This is Not How You Get Into Space
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.name=§9§lThis is Not How You Get Into Space
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKyg.desc=This produces power out of Rocket Fuels. To see how to make them, look at the Space Race tab. These are specifically GT++ Rocket Fuels, and automating them for powergen in this multi will also provide you with endless fuel for your space travels.%n%nThe math regarding the Rocketdyne is complicated. Looking at the controller's tooltip helps, but the main gist of it is like this: provide Carbon Dioxide and make sure it doesn't run out, choose the EU/t you want to get, calculate the amount of fuel you need for the fuel you will use, and then provide enough Liquid Hydrogen to boost the multi, according to the EU/t value.%n%nYou will always want to have the Rocketdyne boosted, for several reasons. Assuming you have at least a buffered IV Dynamo Hatch, outputting close to the maximum on that hatch will lower the fuel efficiency, but not if it's boosted. Additionally, this multi doesn't consume fuel continuously, but with intervals of 1 second between consuming and not consuming, while generating power all the same. Boosting this consumption results in huge fuel efficiency, combined with the high fuel values of the Rocket Fuels.%n%n[warn]Beware, letting the dynamo overfill can lead to an explosion! Be sure you have a place to output the energy.[/warn]
 
 # Quest: Deep Earth Heating Pump
@@ -7979,7 +8028,7 @@ betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.name=§2§l§nTurbinengehäuse
 betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.desc=Ab UV schaltest du die Fähigkeit frei, Turbinen automatisch mit Rotoren nachzufüllen.%n%nXL-Turbinen tun dies standardmäßig viel früher...
 
 # Quest: Balance is Everything
-betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=Balance is Everything
+betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=§9§l§nBalance is Everything
 betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=You already transcended dimensions, but as your power demands spike to absurd levels, maybe it's time to transcend matter!%n%nUsing the unbreakable stability of Proto-Halkonite, harnessing the power of [warn]Chaos[/warn] becomes a reality. The  Semi-Stable Antimatter Stabilization Sequencer introduces the concept of Semi-Stable Antimatter, created from Protomatter.%n%nBut it's a cruel mistress... fail to manage it, and antimatter could void itself into nothingness.%n%nThe Semi-Stable Antimatter is produced in 1 second cycles, the amount generated is based on the total of antimatter currently stocked in it's 16 Antimatter Hatches and consumes equal amounts of Proto Matter.%n%nEach cycle, the base production of antimatter per hatch is:%n(1/16)*(§3Antimatter§r)^(0.5 + §6§nC§r).%nThen each hatch will pull a random number from a normal distribution of 0.2 + §b§nA§r and a variance of 1, multiplying the base production with it, meaning the total antimatter change may be negative.%n%nThis causes an imbalance between the hatches. To properly automate the antimatter production, it's vital to always re-balance the amount of antimatter in the hatches. At the end of each cycle, the lowest amount of antimatter present in hatches is recorded, and any hatch that contains more than the lowest amount loses half the difference!%n%nProper use of stabilization fluids can significantly reduce energy usage and boost production:%n%nIt consumes 10,000,000 + (§3Antimatter§r * 1000)^(1.5 - §2§nM§r) EU/t passively%nMagnetic Stabilization Fluids can mitigate the passive instability and have its §2exponent§r reduced:%nMolten Purified Tengam Exponent = §2§n0.1§r%nTachyon-Rich Fluid Exponent = §2§n0.2§r%nMolten MagMatter = §2§n0.3§r%n%nFor each cycle, the SSASS uses (§3Antimatter§r * 10000)^(1.5 - §5§nG§r) EU%nBy regulating the gravity containment of the forge, this §5exponent§r can also be reduced:%nMolten Spacetime Exponent = §5§n0.05§r%nSpatially Enlarged Fluid Exponent = §5§n0.10§r%nMolten Eternity Exponent = §5§n0.15§r%n%nBy containing the antimatter more compactly, it is possible to generate larger gains per cycle. Containment Stabilization fluids alter the §6exponent§r in the production formula:%nMolten Shirabon Exponent = §6§n0.05§r%nMolten MHDCSM Exponent = §6§n0.10§r%n%nBy inserting fluids with high energy potential, it's possible to alter antimatter's flow in chaos, making their randomness more favorable. Activation Stabilization Fluids alter the §baverage§r of the gaussian distribution, lowering the risks of negative changes in antimatter and favoring better gains.%nDepleted Naquadah Fuel Mk V average = §b§n0.05§r%nDepleted Naquadah Fuel Mk VI average = §b§n0.10§r
 
 # Quest: Naquadah Based Fuel MkVI
@@ -8003,7 +8052,7 @@ betterquesting.quest.Ng5Ldnf3TZCefB4Mr3u-rQ.name=Zzzinnkk...
 betterquesting.quest.Ng5Ldnf3TZCefB4Mr3u-rQ.desc=Weißt du, wie viel Zink in deinem Körper ist? Sehr wenig, aber es ist wichtig. Stelle dir nun vor, es wäre alles Plasma!%n%nDies ist ein sehr schnelles Rezept, ähnlich wie Niob-Plasma. Der einzige Haken ist, dass es Tritium (nicht Trinium) verwendet, ein seltenes Wasserstoffisotop, das du aus Deuterium gewinnen kannst, einem weniger seltenen Isotop. Du kannst es direkt vom Neptun pumpen, durch den Weltraumlift oder einfach durch Zentrifugieren des Deuteriums, das du bereits für Helium-Plasma automatisiert hast.
 
 # Quest: "Semi-Stable" doing a lot of work in here
-betterquesting.quest.OEBBeZOSSRGu80s3RPeiVA.name="Semi-Stable" doing a lot of work in here
+betterquesting.quest.OEBBeZOSSRGu80s3RPeiVA.name=§9§l§n"Semi-Stable" doing a lot of work in here
 betterquesting.quest.OEBBeZOSSRGu80s3RPeiVA.desc=A cell of antimatter! Contained in a cell made of matter! Surely this is safe.%n%nAntimatter is exactly what you may imagine, the opposite of matter, for every atom in the universe, an "anti atom" exists, and when both meet...%n%nThey annihilate themselves, releasing a lot of energy!%n%nBut how could you capture this energy?
 
 # Quest: AMERICA!!!!!!!!!
@@ -8019,7 +8068,7 @@ betterquesting.quest.X_rOgp6GRKiyGzwRV_p7GA.name=Niobisierung
 betterquesting.quest.X_rOgp6GRKiyGzwRV_p7GA.desc=Erinnerst du dich an Niob-Titan? Diesmal ist es nur Niob! Nur ein Scherz, Titan kommt in einer speziellen Form...%n%nSowohl dieses als auch das Zink-Plasma-Rezept sind sehr schnell, sodass du nicht mehr als einen Reaktor benötigst, es sei denn, dein Maßstab ist sehr groß. Rüste später bei Bedarf auf, verwende vorerst einen Mk2 oder sogar Mk3.
 
 # Quest: Harnessing Chaos
-betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.name=Harnessing Chaos
+betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.name=§9§l§nHarnessing Chaos
 betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.desc=You've mastered antimatter production, but raw antimatter alone won't run your machines. To turn that potential into unparalleled power, it's time to [warn]harness the chaos[/warn] itself!%n%n[quest]Introducing the Shielded Lagrangian Annihilation Matrix![/quest]%n%nThe SLAM creates raw energy by reacting the Semi-Stable Antimatter with normal matter in a controlled environment.%n%nEvery cycle, the generator will react all antimatter and matter in hatches instantly, converting it all into energy directly. The EU output is based on the equal amounts of antimatter and matter annihilated. Therefore, imbalance between the amounts will waste your precious energy.%n%nDepending on the matter used to annihilate, the antimatter amount gets an exponent applied to it, directly increasing the amount of energy produced from 1L of antimatter - this means the more you annihilate in one go, the more efficient it is!%n%nThe maximum EU for a cycle is limited by the capacity of all laser source hatches on the structure (limited to 64), even on wireless mode.%n%n[note]It can't output more than 9.22e18 EU in a cycle, or just below 43 16M UXV Laser Sources (If you're crazy enough for it)%n[/note]%n%nThe Formula and the exponents for each of the possible matters are:%n%nGenerated EU = (§3Antimatter§r^§6exponent§r) * 1,000,000,000,000%n%nMolten Copper - §61.00§r%nMolten Superconductor Base UIV - §61.02§r%nMolten Superconductor Base UMV - §61.03§r
 
 # Quest: Welcome to the Plasma Chain
@@ -12173,7 +12222,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALRg.desc=This device will allow automati
 
 # Quest: Growing Auram
 betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.name=Growing Auram
-betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.desc=One Essentia you might have a hard time gathering is Auram. Maybe you've gotten some from Ethereal Essence, which is dropped by the flying balls of light that rarely show up in the Nether, or some from Nodes. But that is hardly a good supply. The Aurelia plant can resolve this.%n%nWhen a full moon is visible overhead, Aurelia flowers will open up their petals presumably to feed off of the light. Significant for you is that they will occasionally shed these petals, which can be collected off the ground as a dense source of Auram Essentia.%n%nYou should make sure the ground near the flower is level and clear, so you'll be able to collect the petals later. The flower itself is simply planted on grass, not farmland, so no need to have a water source nearby either.%n%n[note]Terra Wart is also a growable source of Auram Essentia. It has a quest in the Fishing, Farming, Cooking quest tab.[/note]
+betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.desc=One Essentia you might have a hard time gathering is Auram. Maybe you've gotten some from Ethereal Essence, which is dropped by the flying balls of light that rarely show up in the Nether, or some from Nodes. But that is hardly a good supply. The Aurelia plant can resolve this.%n%nWhen a full moon is visible overhead, Aurelia flowers will open up their petals presumably to feed off of the light. Significant for you is that they will occasionally shed these petals, which can be collected off the ground as a dense source of Auram Essentia.%n%nYou should make sure the ground near the flower is level and clear, so you'll be able to collect the petals later. The flower itself is simply planted on grass, not farmland, so no need to have a water source nearby either.%n%n[note]Gaia Wart is also a growable source of Auram Essentia. It has a quest in the Green Revolution quest tab.[/note]
 
 # Quest: Thauminite Helmet
 betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.name=Thauminite Helmet
@@ -12221,7 +12270,7 @@ betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.desc=You're starting to get tired of
 
 # Quest: Pushing Back the Taint
 betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.name=Pushing Back the Taint
-betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.desc=So how do you actually destroy tainted land?%n%nThese Ethereal Blooms will remove Tainted Lands within a small area around themselves, which in turn kills off any Fibrous Tendrils. They cannot cleanse Tainted Nodes, nor will they necessarily return tainted biomes back to what they were before, but they will provide a barrier.%n%nThe Shimmerleaf they are made from have a recipe in an LV Assembling Machine if you're having a hard time finding them around Silverwood trees. There is also an IC2 crop version of them.
+betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.desc=So how do you actually destroy tainted land?%n%nThese Ethereal Blooms will remove Tainted Lands within a small area around themselves, which in turn kills off any Fibrous Tendrils. They cannot cleanse Tainted Nodes, nor will they necessarily return tainted biomes back to what they were before, but they will provide a barrier.%n%nThe Shimmerleaf they are made from have a recipe in an LV Assembling Machine if you're having a hard time finding them around Silverwood trees. There is also a CropsNH version of them.
 
 # Quest: Adding More Functions
 betterquesting.quest.ad_fPxg-ThqyyuppTrG1gQ.name=Adding More Functions
@@ -12780,7 +12829,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaA.desc=Wand Focus: Efreet's Flame shoo
 
 # Quest: Pocket Dolly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaQ.name=Pocket Dolly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaQ.desc=Wand Focus: Dislocation is a very useful focus that allows its user to take and place nearly any block, even Tile Entities and one that usually can't be moved, like Mob Spawners, planted IC2 Crops, and more.%n%n[warn]Please use responsibly, and don't move things you shouldn't, like door halves, or some multiblock parts, unless you like the idea of world corruption destroying your world. That said, if you're in SP and make a backup, do whatever you want, just know the risks.[/warn]%n%nIt uses:%n5 Ordo + 5 Perditio + 1 Terra to take any mundane block.%n25 Ordo + 25 Perditio + 5 Terra to take any block with a tile entity (such as a Chest).%n100 Ordo + 100 Perditio + 20 Terra to take a Mob Spawner.%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFaQ.desc=Wand Focus: Dislocation is a very useful focus that allows its user to take and place nearly any block, even Tile Entities and one that usually can't be moved, like Mob Spawners, planted crops, and more.%n%n[warn]Please use responsibly, and don't move things you shouldn't, like door halves, or some multiblock parts, unless you like the idea of world corruption destroying your world. That said, if you're in SP and make a backup, do whatever you want, just know the risks.[/warn]%n%nIt uses:%n5 Ordo + 5 Perditio + 1 Terra to take any mundane block.%n25 Ordo + 25 Perditio + 5 Terra to take any block with a tile entity (such as a Chest).%n100 Ordo + 100 Perditio + 20 Terra to take a Mob Spawner.%n%n[note]This focus accepts the following upgrade in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level
 
 # Quest: Medic!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFag.name=Medic!
@@ -12973,7 +13022,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwA.desc=Some flowers eat bees. Some eat
 
 # Quest: Experienced Botanist
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwQ.name=Experienced Botanist
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwQ.desc=The rosa arcana transmutes experience into mana. A player standing near it will have their experience drained for this purpose. This process is unfortunately not very practical to automate, as the experience can only be extracted directly from a player, and not from orbs on the ground or any method of storage. It might be wise to place it somewhere you spend a lot of time.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwQ.desc=The Rosa Arcana transmutes experience into mana. A player standing near it will have their experience drained for this purpose. This process is unfortunately not very practical to automate, as the experience can only be extracted directly from a player or from orbs on the ground. It might be wise to place it somewhere you spend a lot of time.
 
 # Quest: Mmmmmm, Slimy!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMwg.name=Mmmmmm, Slimy!
@@ -12997,7 +13046,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxg.desc=...there is no way a bee should
 
 # Quest: Mana Fountain
 betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.name=Mana Fountain
-betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.desc=The Mana Fountain allows for quick and seamless automation of Mana Pool recipes.%n%nYou can assemble the multiblock as specified in the Lexica Botania / NEI. After it's assembled, right clicking it using the Wand of the Forest will show you whether it's complete and the amount of internally stored mana.%n%nYou can send the controller mana directly by either using a spreader or a spark much like a Mana Pool. Technically you don't have to use the Mana Pool in the center of the multiblock for it to function, but it is placed conveniently so that you can (plus, it doesn't hurt to have an extra buffer).%n%nItems are allowed to input from any side of the controller, but can only output from the bottom. For early automation, it's recommended to just use hoppers. Once you uinlock AE2 however you can simply place an interface underneath the controller with the appropriate patterns and it should push and pull items automatically.%n%n[warn]You cannot craft Alchemy or Conjuration recipes using this multiblock, those are separate multiblocks that you will unlock with more advanced robot arm technology.[/warn]%n%n[note]This structure can absolutely wall-share. It has the perfect design to be able to share 4 different Mana Fountains between the center pool.[/note]
+betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.desc=The Mana Fountain allows for quick and seamless automation of Mana Pool recipes.%n%nYou can assemble the multiblock as specified in the Lexica Botania / NEI. After it's assembled, right clicking it using the Wand of the Forest will show you whether it's complete and the amount of internally stored mana.%n%nYou can send the controller mana directly by either using a spreader or a spark much like a Mana Pool. Technically you don't have to use the Mana Pool in the center of the multiblock for it to function, but it is placed conveniently so that you can (plus, it doesn't hurt to have an extra buffer).%n%nItems are allowed to input from any side of the controller, but can only output from the bottom. For early automation, it's recommended to just use hoppers. Once you unlock AE2 however you can simply place an interface underneath the controller with the appropriate patterns and it should push and pull items automatically.%n%n[warn]You cannot craft Alchemy or Conjuration recipes using this multiblock, those are separate multiblocks that you will unlock with more advanced robot arm technology.[/warn]%n%n[note]This structure can absolutely wall-share. It has the perfect design to be able to share 4 different Mana Fountains between the center pool.[/note]
 
 # Quest: Asgardandelion
 betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.name=Asgardandelion
@@ -14522,7 +14571,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.name=§6§lFaster Crops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.desc=Welcome to my ted talk, today we talk about the §6§lExtreme Industrial Greenhouse.§r%nIt is the most advanced and §l§nLAG FREE§r crop farm that will allow you to supply the amount of tea you need.%nThe machine starts at §5EV§r, but to farm IC2 crops you will need at least §dLuV§r power.%nTo see the structure, place the controller on the ground and use a structure hologram to build.%nThe glass tier limits the energy tier until [note]UV[/note]. With [note]UV[/note] glass you can have an energy tier as high as you want.%nShift-click with screwdriver to change crop type (IC2/normal), sadly you can't farm both in one machine.%nThere are 3 modes to manage your crops (change with screwdriver):%n%n§lSetup mode (input):§r%nIn this mode you can plant your crops in the machine.%nJust put them in the input bus and enable the machine with a soft mallet.%nAdditionally, you need to insert block that is required for IC2 crop to grow (if any)%nWhen the bus is empty, just disable it and change the mode.%nKeep in mind that there is limited space of slots for your crops depending on the voltage.%nWith normal crops you start with 1 slot and that multiplies by 2 every tier past §5EV§r, every slot can take 64 crops of the same type.%nWith IC2 crops you start with 4 slots and that multiplies by 4 every tier past §dLuV§r, every slot can take only 1 crop.%n%n§lSetup mode (output):§r%nThis mode allows you to move your Greenhouse or upgrade your crops.%nWhen the machine is running in this mode it will output all planted crops in the output bus.%n%n§lNormal operation:§r%nWith normal crops it is a straightforward process. Base processing time is 5 seconds, at the end of operation all crops are grown and the outputs are added to the output bus. Additionally the time is lower every tier past §5EV§r §o(The time is divided by the number of tiers past §6HV§r§o, minimum 1 second. WOW)§r%n%nIC2 crops on the other hand, are not that easy. They are normally simulated, but accelerated 32 times. Process time is 5 seconds. You can check the progress of the growing process with a tricorder.%n%nIf you want to grow your crops even faster, then you can use a fertilizer (up to §l400%% more drops§r!). Machine will take fertilizer from the input buses on start of the operation and will be applied to that operation only. Each fertilizer gives +200%% per crop in normal mode or +10%% in IC2 mode. The bonus is applied evenly on crops. Examples:%nNormal mode, 3 wheat seeds, 1 tea seeds, you insert 1 fertilizer, you will get +150%% wheat drops and +50%% tea drops.%nIC2 mode, 16 melon seed bags, you insert 64 fertilizer, you will get +40%% drops.%n%nAdditionally, all your crops need water to grow. Every single crop drinks 1000L per operation. So for example if you have planted 576 tea seeds at [note]UV[/note] voltage you will need 576000 L per second.%n%n§lLast notes:§r%nThe animation can't be disabled.%nThe lamps can be inverted.%nThe dirt must be tilled.%nIf you encounter any issue or have any suggestion please open an issue on GitHub and ping §l@kuba6000§r.%nThis MB was created to farm tea because I wanted to.
 
 # Quest: UV Power Per Turbine
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=UV Power Per Turbine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.name=§b§lUV Power Per Turbine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXQ.desc=Once you progress enough in ZPM to make ZPM Dynamo Hatches, you can increase each turbine's output to 524,288 EU/t. At this number, you'll be a lot less limited by the turbine material, and it's possible to increase the total power output of one Fusion Reactor considerably. You can cover the total Helium Plasma output from one reactor with 3 Plasma Turbines, if you choose the right materials:%n%nLarge High Durability Compound Steel 235%% 473,759 EU/t%nLarge Atomic Separation Catalyst 206%% 409,663 EU/t%nLarge Adamantium 206%% 413,280 EU/t%nLarge Draconium 175%% 220,500 EU/t (durable)%nLarge Neutronium 165%% 249,480 EU/t (very durable)%n%nThe power output and final efficiency can vary a lot, based on which turbines you're using. Some of them, like Ichorium and Neutronium, last basically forever, while others will need to be replaced from time to time but offer higher efficiency. If you want to get more power per turbine, to reach closer to the dynamo's limit, you can increase the flow of plasma to the turbine, but be careful! You can't go beyond the dynamo's limit, and you will also lose efficiency as you increase the flow amount. More concrete values for efficiency loss can be found in the Plasma Turbine quest in the LuV page.%n%nMake a normal or buffered ZPM dynamo to complete the quest.%n%n[note]Also, check out the XL Plasma Turbine.[/note]
 
 # Quest: High Temperature Gas-cooled Reactor
@@ -14530,11 +14579,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.name=§6§lHigh Temperature Gas-cool
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMbg.desc=Have you heard of gas-cooled reactors? Have you heard of Pebble Bed reactors? Well now you have both!%n%nThe High Temperature Gas-cooled Reactor (HTGR) uses specially prepared fuel pellets to heat coolant gas (helium) that's pumped in a closed loop through the reactor and heat exchangers. The reactor requires a constant supply of helium gas and power in order to power the pump that keeps the coolant loop working.%n%nThis reactor allows breeding of rare resources (§5Indium§r,§9Osmium§r), fissile materials (§aU235§r,§cPu239§r,§4Pu241§r), can supply you with §dLutetium§r and also unlocks alternative recipes for §dEuropium§r and §7Americium§r via the elusive §2Promethium§r.%n%nThe disadvantage of this reactor is it's expensive nature. Pebble reactors work by stuffing the reactor full of pebbles, none of which require rare resources but rather a large amount of common ones. Even though a lot can be recycled, you still need to keep the reactor filled to get decent speed. As a reward for this upkeep cost, you get a decent production for many different outputs.%n[note]%nNotes:%n%nHTGR has an internal buffer for fuel and gets faster the more fuel you put inside according to the formula §6eff=1-(1-x)^3§r%n%nThis multi consumes 0.2A IV when operating and this amount increases when lacking helium gas. %nThe amount of Helium gas increases with the amount of helium gas stored.%n%nReactor speeds up immensely when supplied with either/both IC2 Coolant or Water, if the amount of supplied fluid is not full the bonus speed is applied linearly.%n%nBy typing HTGR in NEI, you can see all the items that are related to this multiblock.%n%nFor exact numbers visit HTGR-Controller-Tooltip.as/always%n[/note]
 
 # Quest: Two Million Turbines
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.name=Two Million Turbines
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.name=§2§l§nTwo Million Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMcw.desc=Hopefully, not more than a handful. The objective here is for each of them to output close to 2 million EU/t.%n%nHow can you get there? Look at the UV Dynamo Hatch's recipe and you have your new objective. When you arrive there, each turbine that is equipped with that impressive block will be able to output up to 2,097,152 EU/t, which again opens you up to new turbine opportunities. Some good choices at this point are as follows:%n%nLarge Cosmic Neutronium 225%% 1,360,800 EU/t%nLarge Ichorium 225%% 1,360,800 EU/t (very durable)%nLarge Awakened Draconium 195%% 491,400 EU/t%nLarge Trinium 185%% 1,451,840 EU/t%n%nAt this point, you might consider building more t1 Fusion Reactors to process other materials. Even if you stop the reactor you're using to generate this plasma, the EU cost of restarting it is less than 1 bucket of plasma, so it's probably not that big of a deal.%n%nMake a normal or buffered UV dynamo to complete the quest.%n%n[note]At this point, you really should be looking into the XL turbine chain, from XL supercritical to dense to normal steam.[/note]
 
 # Quest: Infinite Turbines
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.name=Infinite Turbines
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.name=§4§l§nInfinite Turbines
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not available for you, either because you don't have the material itself or because the Dynamo Hatch in the turbine cannot handle the power output from plasma. It will be a different story in UHV, when you can once again quadruple the max output of each turbine, and also unlock Infinity as an option for turbines.%n%nHuge Infinity 300%% 6,451,200 EU/t%nHuge Infinity Catalyst 231%% 1,236,480 EU/t%n%nYes, that's basically it. You can use any material from the previous turbine quests, but when you make the t8 rocket and can mine Infinity Catalyst, these are the two options. Obviously, Infinity is much better, but also much more expensive. If you stick with fusion, you will need several of those to push through the endgame. Remember that you can input plasma beyond the optimal flow, and get more out of each turbine at the cost of fuel efficiency.%n%nMake a normal or buffered UHV dynamo to complete the quest.
 
 # Quest: Gas Planets
@@ -14619,7 +14668,7 @@ betterquesting.quest.PjAewUoJTnilPpIT-Ce0tA.desc=The Diamond barrel has 108 slot
 
 # Quest: Large Molecular Assembler
 betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.name=§9§lLarge Molecular Assembler
-betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The §5Large Molecular Assembler§r is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside input buses attached to the machine in order to be recognized. Will not require an output bus.%n%nAdditionally, you must place a §2Data Orb§r inside of the controller or else it won't function.%n%n[note]High capacity Input Buses are highly recommended![/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
+betterquesting.quest.Q10xj-OrTE67wsWuTNCAAQ.desc=The §5Large Molecular Assembler§r is exactly how it sounds; a very quick molecular assembler with a much bigger inventory for crafting patterns. %n%nThis can handle up to 1024 crafts per second at the maximum energy usage making it up to 100x faster than a molecular assembler. Check out the Wiki for specifics: [url]https://wiki.gtnewhorizons.com/wiki/Large_Molecular_Assembler[/url]%n%nThe LMA controller hooks up directly to your main network in order to function, and all recipes must be placed inside either an input bus or a Crafting Pattern Provider bus in order to be recognized. Will not require an output bus.%n%nAdditionally, you must place a §2Data Orb§r inside of the controller or else it won't function.%n%n[note]It's recommended you use a Crafting Pattern Provider bus since it has more pattern slots and gets recognized by an interface terminal unlike a regular input bus.[/note]%n%n[warn]This machine can absolutely wall-share, but be careful about the placement of your input bus or all machines may not be used.[/warn]
 
 # Quest: Compact Storage
 betterquesting.quest.QNsm_wc0QO2g9C6_-vj2fA.name=§a§lCompact Storage
@@ -14636,6 +14685,10 @@ betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.desc=While being significantly more 
 # Quest: The future is here!
 betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§c§lThe future is here!
 betterquesting.quest.V9BupH47RI6RWX6vff5dpw.desc=EFR adds with it vanilla Barrels (not to be confused with JABBA barrels). These are essentially like chests, but they can be placed next to each other and opened with a block above them. And you can upgrade them! Great for those compact machine setups.
+
+# Quest: A Toolbox For All Your Tools
+betterquesting.quest.VAZfRG1BQt6JwqRQ_PNP0g.name=Ein Werkzeugkasten für alle deine Werkzeuge
+betterquesting.quest.VAZfRG1BQt6JwqRQ_PNP0g.desc=Mit dem Wachstum deiner Fabrik wirst du deine Werkzeuge zum Bauen, Konfigurieren und Abbauen von Maschinen benötigen. Es ist hilfreich, einen Werkzeugkasten herzustellen, in dem du deine Werkzeuge aufbewahren kannst.%n%nDer Werkzeugkasten des Feldingenieurs ermöglicht es dir, ein Werkzeug zum Bauen und Konfigurieren zu verwenden, ohne es aus dem Kasten nehmen zu müssen. Klicke mit der rechten Maustaste, um den Werkzeugkasten zu öffnen und Werkzeuge hineinzulegen. Drücke dann die Tastenkombination für „Block auswählen“ (Standard: mittlere Maustaste), um ein Radialmenü zu öffnen und ein Werkzeug auszuwählen. Du kannst den Werkzeugkasten dann so verwenden, als wäre er genau dieses Werkzeug. Wenn du „Block auswählen“ drückst, während du auf einen Block schaust, wird automatisch das passende Werkzeug für die Aufgabe ausgewählt, ohne dass das Radialmenü erscheint. Drücke bei gedrückter Tastenkombination „Schleichen“ auf „Block auswählen“, um ein Werkzeug schnell abzuwählen.%n%nSpäter kannst du die Werkzeugkiste mit einer Batterie aufrüsten. Dadurch kann die Werkzeugkiste Elektrowerkzeuge aufladen und es wird die Möglichkeit freigeschaltet, dass Maschinen und kabellose Ladegeräte die gesamte Werkzeugkiste aufladen können.%n%nWerkzeugkisten können mit den darin enthaltenen Werkzeugen auch Wartungsluke reparieren. Wähle das ausgerüstete Werkzeug (falls vorhanden) ab und klicke dann mit der Werkzeugkiste per Rechtsklick auf die Wartungsluke. Alle darin enthaltenen Werkzeuge werden auf die Wartungsluke angewendet und beheben eventuelle Probleme.%n%nDer Werkzeugkasten benötigt Polyethylen, eine Flüssigkeit, die du wahrscheinlich noch nie hergestellt hast. Es liegt an dir, herauszufinden, wie du sie bekommst. Hier ein Tipp: Die schwarzen Ölquellen, die man überall auf der Welt findet, könnten der Schlüssel sein...
 
 # Quest: The Quest for Holy Water
 betterquesting.quest.WPoaCPPwTBSyn2dmh5DcBA.name=§5§l§nThe Quest for Holy Water
