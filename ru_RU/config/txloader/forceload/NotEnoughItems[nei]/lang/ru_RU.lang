@@ -302,6 +302,9 @@ nei.options.inventory.guirecipe.handlerInfo.tip=Используйте shift+d �
 nei.options.inventory.guirecipe.handlerInfo.true=Включено
 nei.options.inventory.guirecipe.handlerInfo.false=Отключено
 nei.options.inventory.guirecipe.maxHeight=Макс. высота
+nei.options.inventory.guirecipe.chance=Show Change
+nei.options.inventory.guirecipe.chance.true=Yes
+nei.options.inventory.guirecipe.chance.false=No
 nei.options.inventory.showItemQuantityWidget=Показывать виджет количества предметов
 nei.options.inventory.showItemQuantityWidget.true=Да
 nei.options.inventory.showItemQuantityWidget.false=Нет
@@ -519,6 +522,8 @@ nei.options.tools.dump.itempanel.mode.2=Json
 nei.options.tools.dump.itempanel.mode.3=PNG
 nei.options.tools.dump.itempanel.icon.dumped=Иконки панели предметов сохранены в %s
 nei.options.tools.dump.itempanel.icon.cancelled=Выгрузка отменена
+nei.options.tools.dump.itempanel.icon.warning.1=§cWARNING§r: You are about to dump %s items at %sx%s resolution
+nei.options.tools.dump.itempanel.icon.warning.2=Hold %s while clicking this button to proceed
 nei.options.tools.dump.handlers=Обработчики NEI
 nei.options.tools.dump.handlers.dumped=обработчики были сохранены в %s
 nei.options.tools.dump.handlers.mode.0=CSV
@@ -555,6 +560,10 @@ nei.recipe.shapeless=Бесформенный крафт
 nei.recipe.furnace=Плавка
 nei.recipe.fuel=Топливо
 nei.recipe.fuel.smeltCount=Плавит %s предметов
+nei.recipe.chance=Chance: %s%%
+nei.recipe.chance.nc=NC
+nei.recipe.chance.ncp=NC(P)
+
 # Deprecated
 nei.recipe.fuel.required=Требуется %s
 # Deprecated
