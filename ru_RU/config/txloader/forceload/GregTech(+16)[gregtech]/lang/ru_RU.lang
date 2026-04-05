@@ -827,20 +827,9 @@ item.GTPP.air_filter.name.t2=Воздушный фильтр [Тир 2]
 GTPP.tooltip.air_filter.0=Воздушный фильтр для восстановления атмосферы.
 GTPP.tooltip.air_filter.1=%d/%d использований осталось.
 
-GT5U.tooltip.pump.0=Лучший способ опустошить океаны!
-GT5U.tooltip.pump.1=§e%d§7 EU/операция, §f%d§7 секунды на ведро
-GT5U.tooltip.pump.2=Макс. площадь выкачивания: §f%dx%d
-GT5U.tooltip.pump.3=Используйте отвёртку, чтобы отрегулировать область выкачивания
-GT5U.tooltip.pump.4=Используйте киянку для отключения и втянуть трубу
-GT5U.tooltip.pump.5=Отключите нижний насос, чтобы втягивать трубу!
-GT5U.tooltip.pump.6=Используйте паяльник для авто. втягивания трубы при ударе о камень
+GT5U.tooltip.pump=The best way to empty Oceans!\n§e%s§7 EU/operation, §f%s§7 sec per bucket, no stuttering\nMaximum pumping area: §f%sx%s\nUse Screwdriver to regulate pumping area\nUse Soft Mallet to disable and retract the pipe\nDisable the bottom pump to retract the pipe!\nUse Soldering Iron to auto retract the pipe when hitting a rock
 
-GT5U.tooltip.miner.0=Копаем руду вместо тебя
-GT5U.tooltip.miner.1=Используйте отвёртку, чтобы регулировать рабочую область
-GT5U.tooltip.miner.2=Используйте киянку для отключения и втянуть трубу
-GT5U.tooltip.miner.3=§e%d§7 EU/t, §f%d§7 сек за блок
-GT5U.tooltip.miner.4=Максимальная рабочая площадь: §f%dx%d
-GT5U.tooltip.miner.5=Бонус удачи §f%d к маленьким рудам
+GT5U.tooltip.miner=Digging ore instead of you\nUse Screwdriver to regulate work area\nUse Soft Mallet to disable and retract the pipe\n§e%s§7 EU/t, §f%s§7 sec per block, no stuttering\nMaximum work area: §f%sx%s\nSmall ore fortune bonus of §f%s
 
 # Fish trap
 GTPP.tooltip.fish_trap.0=Эта ловушка ловит рыбу быстрее, если её окружает больше блоков воды
@@ -3475,9 +3464,9 @@ gt.item.fluid_filter.name=Модуль фильтра жидкости
 gt.item.fluid_filter.tooltip=Настройте контейнер для жидкости так, чтобы он принимал только один тип жидкости
 
 ## Item Filters
-gt.item.item_filter.export.name=Фильтрующий конвейерный модуль (Экспорт)
+gt.item.item_filter.export.name=Конвейерный модуль с фильтром (Экспорт)
 gt.item.item_filter.export.tooltip=ПКМ с предметом в руке для настройки фильтра (Поддерживает только экспорт)
-gt.item.item_filter.import.name=Фильтрующий конвейерный модуль (Импорт)
+gt.item.item_filter.import.name=Конвейерный модуль с фильтром (Импорт)
 gt.item.item_filter.import.tooltip=ПКМ с предметом в руке для настройки фильтра (Поддерживает только импорт)
 
 ## Fluid Limiter Cover
@@ -5715,6 +5704,12 @@ fluid.uuamplifier=Катализатор материи
 fluid.wet.concrete=Жидкий бетон
 fluidHotWater=Горячая вода
 
+fluid.oil=Oil
+fluid.tile.fluidBlockSludge=fluidBlockSludge
+fluid.sludge=sludge
+fluid.oilgc=oilgc
+fluid.fuelgc=fuelgc
+
 # Space projects
 gt.solar.system.overworld=Земля
 gt.solar.system.sol=Солнце
@@ -5895,7 +5890,7 @@ GTPP.nanohealer.tooltip.2=Расходует
 GTPP.nanohealer.tooltip.3= EU за операцию
 GTPP.nanohealer.tooltip.4=Может восстанавливать HP, Голод и Насыщение.
 GTPP.nanohealer.tooltip.5=Не предотвращает смерть.
-GTPP.nanohealer.tooltip.6=Shift+RMB для переключения уведомлений.
+GTPP.nanohealer.tooltip.6=Shift+ПКМ для переключения уведомлений.
 GTPP.nanohealer.hidden=Скрывать инфо?
 
 # 10/4/19
