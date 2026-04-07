@@ -96,26 +96,30 @@ mm.gui.set_block=Set Block
 mm.gui.set_block_to_replace_with=Set Block To Replace With
 mm.gui.set_cable=Set Cable
 
-# InfoMessage
+# InfoMessage, only accept %s in this section
 
 mm.info.error.out_of_eu=Matter Manipulator ran out of EU.
 mm.info.error.could_not_place=Could not place %s remaining blocks.
 mm.info.finished_placing=Finished placing blocks.
 mm.info.warning.could_not_find=Could not find item, %d block(s) will be skipped temporarily:
+mm.info.warning.of_item=  %s x %s
 mm.info.placed_remaining=Placed %s blocks (%s remaining)
-mm.info.warning=Warning at block %d, %d, %d%s: %s
-mm.info.error=Error at block %d, %d, %d%s: %s
-mm.info.error.could_not_move_block=Could not move block X=%d, Y=%d, Z=%d: %s
-mm.info.error.could_not_move_protected_block=Could not move protected block X=%d, Y=%d, Z=%d: %s
-mm.info.error.could_not_move_invulnerable_block=Could not move invulnerable source block X=%d, Y=%d, Z=%d: %s
-mm.info.error.could_not_move_blocked_block=Destination was blocked for source block X=%d, Y=%d, Z=%d: %s
+mm.info.warning.only_message=Warning at block %s, %s, %s: %s
+mm.info.warning.with_block=Warning at block %s, %s, %s (%s): %s
+mm.info.error.only_message=Error at block %s, %s, %s: %s
+mm.info.error.with_block=Error at block %s, %s, %s (%s): %s
+mm.info.error.could_not_move_block.new=Could not move block X=%s, Y=%s, Z=%s: %s
+mm.info.error.could_not_move_protected_block.new=Could not move protected block X=%s, Y=%s, Z=%s: %s
+mm.info.error.could_not_move_invulnerable_block.new=Could not move invulnerable source block X=%s, Y=%s, Z=%s: %s
+mm.info.error.could_not_move_blocked_block.new=Destination was blocked for source block X=%s, Y=%s, Z=%s: %s
 mm.info.process_move=Moved %s blocks (%s remaining)
 mm.info.finished_move=Finished moving blocks.
 mm.info.warning.protected_area=Tried to break/place a block in a protected area!
 mm.info.warning.not_find_container_for_fluid=Could not find a container for fluid (it was voided): 
+mm.info.warning.of_fluid=  %sL of %s
 mm.info.error.could_not_push_items_to_uplink=Could not push items to uplink: 
-mm.info.error.could_not_push_fluids_to_uplink=Could not push fluids to uplink: 
-mm.info.error.could_not_request_items_from_uplink=Could not request items from uplink: 
+mm.info.error.could_not_push_fluids_to_uplink=Could not push fluids to uplink: %s
+mm.info.error.could_not_request_items_from_uplink=Could not request items from uplink: %s
 mm.info.added=Added %s to %s
 mm.info.set=Set %s to: %s
 mm.info.set_block_to_replace_with=Set block to replace with to: %s
@@ -143,6 +147,63 @@ mm.info.intrinsic_properties=Intrinsic Properties:
 mm.info.none=None
 mm.info.error.error_setting_property=Error setting property: %s
 mm.info.error.move_overlapping=Cannot move when the cut and paste regions overlap.
+mm.info.warning.could_not_extract_item=Could not extract item: %s
+mm.info.warning.could_not_find_item=Could not find %s
+mm.info.warning.could_not_find_cladding=Could not find cladding: %s
+mm.info.warning.inventory_was_the_wrong_size=Inventory was the wrong size (expected %s, was %s)
+mm.info.warning.could_not_extract_item_in_slot=Could not extract item in slot %s: %s
+mm.info.warning.invalid_item_for_slot=Invalid item for slot %s: %s
+mm.info.warning.could_not_gather_item_for_inventory=Could not gather item for inventory: %s
+mm.info.warning.could_not_find_upgrade=Could not find upgrade: %s x %s
+mm.info.error.invalid_location=Invalid location (%s) for part (%s)
+mm.info.error.could_not_set_direction_to=Could not set direction to '%s'
+mm.info.error.was_not_allowed_to_put_cover_on=Was not allowed to put cover on %s side: %s
+mm.info.error.could_not_find_cover=Could not find cover: %s
+mm.info.error.could_not_apply_property=Could not apply property %s: %s
+mm.info.error.qc_rack_is_too_hot=QC Rack is too hot to extract or insert items
+mm.info.error.cannot_extract_while_qc_on=Cannot extract or insert items from/into QC Rack while the QC is on
+mm.info.error.too_many_upgrades=Tried to install too many upgrades: voiding the rest (this is a bug, please report it)
+mm.info.error.could_not_place_blocks=Could not place blocks due to a crash. Check the logs for more info.
+mm.info.missing=%s%s: %s%s%s (%s%s%s missing)
+
+mm.direction.down=Down
+mm.direction.east=East
+mm.direction.north=North
+mm.direction.south=South
+mm.direction.center=Center
+mm.direction.unknown=Unknow
+mm.direction.up=Up
+mm.direction.west=West
+
+mm.enum.copyable.property.facing=facing
+mm.enum.copyable.property.forward=forward
+mm.enum.copyable.property.up=up
+mm.enum.copyable.property.left=left
+mm.enum.copyable.property.top=top
+mm.enum.copyable.property.rotation=rotation
+mm.enum.copyable.property.mode=mode
+mm.enum.copyable.property.text=text
+mm.enum.copyable.property.orientation=orientation
+mm.enum.copyable.property.delay=delay
+mm.enum.copyable.property.inverted=inverted
+mm.enum.copyable.property.color=color
+mm.enum.copyable.property.rotation_state=rotation_state
+
+mm.enum.uplink_status.ok=Ok
+mm.enum.uplink_status.no_plasma=Insufficient plasma
+mm.enum.uplink_status.ae_offline=Could not connect to the ME system
+mm.enum.uplink_status.no_hatch=Missing ME hatch
+
+mm.enum.what.corners=corners
+mm.enum.what.edges=edges
+mm.enum.what.faces=faces
+mm.enum.what.volumes=volumes
+mm.enum.what.all=all blocks
+
+mm.chat.item.details.imprint=Imprint: %s
+mm.chat.item.details.imprint.none=None
+mm.chat.item.details.cache_capacity=Cache Capacity: %s
+mm.chat.item.details.hub=Hub
 
 # Transform
 mm.transform.info=Flip: %s\nUp: %s\nForward: %s
