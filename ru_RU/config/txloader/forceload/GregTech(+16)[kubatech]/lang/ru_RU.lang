@@ -160,6 +160,7 @@ kubatech.infodata.htgr.helium_supply=Поставка гелия: §6%sЛ
 kubatech.infodata.htgr.coolant_per_tick=Хладагента за тик: §6%sЛ
 kubatech.infodata.htgr.water_per_tick=Воды за тик: §6%sЛ
 kubatech.infodata.htgr.fuel_supply=Уровень заполнения %s из %s
+kubatech.infodata.htgr.fuel_properties=Properties: %s, %s, %s
 
 #Waila
 kubatech.waila.eec.mob_type=Вид существа: %s
@@ -185,11 +186,11 @@ kubaitem.defc_schematic_t2.name=Схема: ядро виверны
 kubaitem.defc_schematic_t3.name=Схема: пробуждённое ядро
 kubaitem.defc_schematic_t4.name=Схема: ядро хаоса
 
-item.htgr_item.0.name=TRISO топливная смесь (%s)
-item.htgr_item.1.name=Незавершённое BISO топливо (%s)
-item.htgr_item.2.name=Незавершённое TRISO топливо (%s)
-item.htgr_item.3.name=TRISO топливо (%s)
-item.htgr_item.4.name=Сгоревшее TRISO топливо (%s)
+item.htgr_item.triso_mixture.name=TRISO Fuel Mixture (%s)
+item.htgr_item.incomplete_biso_fuel.name=Incomplete BISO Fuel (%s)
+item.htgr_item.incomplete_triso_fuel.name=Incomplete TRISO Fuel (%s)
+item.htgr_item.triso_fuel.name=TRISO Fuel (%s)
+item.htgr_item.burned.name=Burned Out TRISO Fuel (%s)
 
 #Tea
 kubaitem.tea.black_tea.name=Черный чай
