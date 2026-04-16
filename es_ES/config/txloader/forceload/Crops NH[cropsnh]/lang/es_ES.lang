@@ -99,25 +99,23 @@ death.attack.cropsnh:heartAttack=%1$s drank too much coffee
 death.attack.cropsnh:heartAttack.player=%1$s had a heart attack whilst fighting %2$s
 
 # Tooltips
-cropsnh_tooltip.isSick=Is sick, can't grow!
+cropsnh_tooltip.isSick=§cIs sick, can't grow!§r
 cropsnh_tooltip.unidentified=Unidentified
 cropsnh_tooltip.seed=Seed
-cropsnh_tooltip.stats=Stats
+cropsnh_tooltip.stats=Stats -- Growth: %1$s  Gain: %2$s  Resistance: %3$s
 cropsnh_tooltip.growth=Growth
 cropsnh_tooltip.gain=Gain
 cropsnh_tooltip.resistance=Resistance
 cropsnh_tooltip.min_seed_bed_tier=Minimum Seed Bed tier: %1$s
-cropsnh_tooltip.soil=Soil
-cropsnh_tooltip.fertilizer=Fertilizer
-cropsnh_tooltip.water=Water
-cropsnh_tooltip.weedEx=Weed-EX
-cropsnh_tooltip.weeds=Weeds -- BLAZE IT
+cropsnh_tooltip.soil=Soil -- Fertilizer: %1$s  Water: %2$s  Weed-EX: %3$s
+cropsnh_tooltip.weeds=Weeds -- §cBLAZE IT§r
+cropsnh_tooltip.failedReq=§c%1$s§r
 cropsnh_tooltip.plantLens=Use this to inspect crops
 cropsnh_tooltip.handRake=Use this to remove weeds from crops
 cropsnh_tooltip.spade=Use this to remove weeds and get seeds when harvesting
 cropsnh_tooltip.reinforcedSpade=Use this to remove weeds and get more seeds when harvesting
 cropsnh_tooltip.empty=Nothing planted
-cropsnh_tooltip.progress=Progress
+cropsnh_tooltip.progress=Progress: %1$s%%
 cropsnh_tooltip.none=none
 cropsnh_tooltip.NaNCertificate=Challenge Accepted!
 cropsnh_tooltip.mustUseSeedSynthesizerToReplicate=This seed can only be replicated using the synthesizer
@@ -716,8 +714,8 @@ cropsnh_growthReq.lockout.machineOnly=Can only be harvested in the Industrial Fa
 cropsnh_growthReq.lockout.machineOnly.nei=Only harvestable in the I. Farm
 cropsnh_growthReq.lockout.migrated=Invalid Soil! Break to get seed!
 # Light Growth Requirements
-cropsnh_growthReq.minLight.format=Needs a light Level of %1$d or higher
-cropsnh_growthReq.maxLight.format=Needs a light Level of %1$d or lower
+cropsnh_growthReq.minLight.format=Needs a light Level of %1$s or higher
+cropsnh_growthReq.maxLight.format=Needs a light Level of %1$s or lower
 # Vanilla Stone Lily Growth Requirements
 cropsnh_growthReq.blockUnder.stone=Needs a block of stone under it to grow
 cropsnh_growthReq.blockUnder.sand=Needs a block of sand or sandstone under it to grow
