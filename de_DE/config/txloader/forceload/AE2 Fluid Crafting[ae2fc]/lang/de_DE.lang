@@ -77,7 +77,6 @@ tile.fluid_auto_filler.name=ME-Flüssigkeits-Autobefüller
 tile.certus_quartz_tank.name=Certusquarz-Tank - %s
 tile.certus_quartz_tank_empty.name=Certusquarz-Tank
 
-ae2fc.waila.speed=Schnelligkeit
 ae2fc.waila.enable=Aktivieren
 ae2fc.waila.disable=Deaktivieren
 
@@ -120,14 +119,11 @@ ae2fc.tooltip.ultra_terminal.tips=Tooltips:
 ae2fc.tooltip.ultra_terminal.tips.desc=1. Du kannst es in den Baubles-Slot legen und mit einem Hotkey öffnen. 2. Halte im Interface-Modus §3UMSCHALT§7 gedrückt, um die Schaltfläche zum Umbenennen des Interfaces umzuschalten. 3. Wenn du dich im Herstellplan-Bildschirm befindest, halte §3UMSCHALT§7 gedrückt und klicke auf die Schaltfläche „Abbrechen“, um fehlende Items automatisch zum NEI-Lesezeichen hinzuzufügen.
 ae2fc.tooltip.ultra_terminal.restock.on=Wieder auffüllen aktiviert
 ae2fc.tooltip.ultra_terminal.restock.off=Wieder auffüllen deaktivert
-ae2fc.tooltip.infinity_fluid=§aUnendlichkeit§r
 ae2fc.tooltip.fluid_storage.void=Wo nichts alles ist und alles nichts ist
 
 ae2fc.tooltip.quantum_bridge_card.desc=Lässt kabellose Konsolen mit einer Quantenbrücke verbinden, was eine unbegrenzte Reichweite ermöglicht.
 ae2fc.tooltip.energy_card.desc=Unendlich Energie für die Kabellose Konsole
 
-ae2fc.tooltip.cell_contents=Enthält Flüssigkeit:
-ae2fc.tooltip.cell_empty=Zelle ist leer
 ae2fc.tooltip.cell_portable=Klicke mit der rechten Maustaste, um die Benutzeroberfläche zu öffnen. Es funktioniert wie ein Rucksack, muss jedoch vor der Verwendung aufgeladen werden.
 ae2fc.tooltip.fluid_terminal=Äh, also brauchen wir EC2 nicht mehr?
 ae2fc.tooltip.level_terminal=Äh...
@@ -157,14 +153,17 @@ ae2fc.tooltip.prio.hint=Aktiviert
 ae2fc.tooltip.submit=Übermitteln
 ae2fc.tooltip.enable=Aktiviert
 ae2fc.tooltip.disable=Deaktiviert
-ae2fc.tooltip.edit=Bearbeiten
+ae2fc.tooltip.rename=Rename
 ae2fc.tooltip.view=Anzeigen
 ae2fc.tooltip.fill_pattern=Automatisches Ausfüllen von leeren Vorlagen erlauben
 ae2fc.tooltip.not_fill_pattern=Automatisches Ausfüllen von leeren Vorlagen erlauben
 ae2fc.tooltip.fill_pattern.hint=Aktiviert
 ae2fc.tooltip.not_fill_pattern.hint=Deaktiviert
-ae2fc.tooltip.open_configuration=Konfiguration öffnen
+ae2fc.tooltip.open_gui=Open GUI
 ae2fc.tooltip.block_highlight=Block hervorheben
+ae2fc.tooltip.level_terminal.hint_rename=§6SHIFT§8 - §7Rename
+ae2fc.tooltip.level_terminal.hint_open_gui=§6CTRL§8 - §7Open GUI
+ae2fc.tooltip.level_terminal.hint_other_dimension=§eCannot perform any action: target is in another dimension
 
 ae2fc.tooltip.magnet_card.off=Magnetkarte
 ae2fc.tooltip.magnet_card.off.hint=Aus
@@ -179,8 +178,6 @@ ae2fc.tooltip.restock.on.hint=Aktivieren
 ae2fc.tooltip.restock.off=Wieder auffüllen umschalten
 ae2fc.tooltip.restock.off.hint=Deaktivieren
 
-ae2fc.gui.part_fluid_pattern_terminal=Flüssigkeitsvorlagenkonsole
-ae2fc.gui.part_fluid_pattern_terminal_ex=Flüssigkeiten-Fertigungsvorlagen-Konsole
 ae2fc.gui.part_level_terminal=Mengenkonsole
 ae2fc.gui.fluid_pattern_encoder=Flüssigkeits-Vorlagenkodierer
 ae2fc.gui.fluid_packet_decoder=ME-Flüssigkeitspacket-Dekodierer
@@ -196,11 +193,6 @@ ae2fc.gui.fluid_interface.4=W
 ae2fc.gui.fluid_interface.5=E
 ae2fc.gui.oc_pattern_editor=OC-Vorlageneditor
 ae2fc.gui.button.set=Setzen
-ae2fc.gui.part_fluid_level_emitter=ME-Füllstandsender
-ae2fc.gui.part_fluid_import=ME-Flüssigkeits-Importbus
-ae2fc.gui.part_fluid_export=ME-Flüssigkeits-Exportbus
-ae2fc.gui.part_fluid_terminal=ME-Flüssigkeitskonsole
-ae2fc.gui.part_fluid_storage_bus=ME-Flüssigkeits-Speicherbus
 ae2fc.gui.fluid_auto_filler=ME-Flüssigkeits-Autobefüller
 
 ae2fc.gui.magnet=Magnetfilter
