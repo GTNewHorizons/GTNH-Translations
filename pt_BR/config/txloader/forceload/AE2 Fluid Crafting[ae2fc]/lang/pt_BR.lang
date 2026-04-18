@@ -77,7 +77,6 @@ tile.fluid_auto_filler.name=Auto Preenchedor de Fluidos ME
 tile.certus_quartz_tank.name=Tanque de Quartzo Certus - %s
 tile.certus_quartz_tank_empty.name=Tanque de Quartzo Certus
 
-ae2fc.waila.speed=Velocidade
 ae2fc.waila.enable=Habilitar
 ae2fc.waila.disable=Desabilitar
 
@@ -120,14 +119,11 @@ ae2fc.tooltip.ultra_terminal.tips=Dicas:
 ae2fc.tooltip.ultra_terminal.tips.desc=1.Você pode botar no espaço do baubles e usar o atalho para abrir.\n2.Segurar §3Shift§7 no modo interface muda o botão de renomear interface.\n3.Quando estiver na tela de Padrão de Processamento,\nsegurar §3Shift§7 no botão de cancelar favorizará os itens que faltam da receita ao NEI.
 ae2fc.tooltip.ultra_terminal.restock.on=Reabastecimento ativado
 ae2fc.tooltip.ultra_terminal.restock.off=Reabastecer desativado
-ae2fc.tooltip.infinity_fluid=§aInfinito§r
 ae2fc.tooltip.fluid_storage.void=Onde nada é tudo, e tudo é nada
 
 ae2fc.tooltip.quantum_bridge_card.desc=Permite terminais sem fio conectarem com uma ponte quântica, permitindo alcance indefinido
 ae2fc.tooltip.energy_card.desc=Energia Infinita para o Terminal Sem Fio
 
-ae2fc.tooltip.cell_contents=Contém o Fluido:
-ae2fc.tooltip.cell_empty=A Célula está vazia
 ae2fc.tooltip.cell_portable=Clique com o botão direito para abrir sua interface. Ela funciona como uma mochila, mas você precisa carregá-la antes de usar.
 ae2fc.tooltip.fluid_terminal=Uh, então não iremos mais precisar do EC2 mais? 
 ae2fc.tooltip.level_terminal=uh...
@@ -157,14 +153,17 @@ ae2fc.tooltip.prio.hint=Ativado
 ae2fc.tooltip.submit=Enviar
 ae2fc.tooltip.enable=Ativado
 ae2fc.tooltip.disable=Desativado
-ae2fc.tooltip.edit=Editar
+ae2fc.tooltip.rename=Rename
 ae2fc.tooltip.view=Visualizar
 ae2fc.tooltip.fill_pattern=Preencher Padrões vazios automaticamente
 ae2fc.tooltip.not_fill_pattern=Preencher Padrões vazios automaticamente
 ae2fc.tooltip.fill_pattern.hint=Ativado
 ae2fc.tooltip.not_fill_pattern.hint=Desativado
-ae2fc.tooltip.open_configuration=Abrir configuração
+ae2fc.tooltip.open_gui=Open GUI
 ae2fc.tooltip.block_highlight=Destacar Bloco
+ae2fc.tooltip.level_terminal.hint_rename=§6SHIFT§8 - §7Rename
+ae2fc.tooltip.level_terminal.hint_open_gui=§6CTRL§8 - §7Open GUI
+ae2fc.tooltip.level_terminal.hint_other_dimension=§eCannot perform any action: target is in another dimension
 
 ae2fc.tooltip.magnet_card.off=Cartão Magnético
 ae2fc.tooltip.magnet_card.off.hint=Desligado
@@ -179,8 +178,6 @@ ae2fc.tooltip.restock.on.hint=Habilitar
 ae2fc.tooltip.restock.off=Alternar Reabastecimento
 ae2fc.tooltip.restock.off.hint=Desabilitar
 
-ae2fc.gui.part_fluid_pattern_terminal=Terminal - Padrões de Fluidos
-ae2fc.gui.part_fluid_pattern_terminal_ex=Terminal - Padrões de Processamentos de Fluidos
 ae2fc.gui.part_level_terminal=Terminal - Níveis
 ae2fc.gui.fluid_pattern_encoder=Codificador - Padrões de Fluidos
 ae2fc.gui.fluid_packet_decoder=Decodificador - Pacotes de Fluido ME
@@ -196,11 +193,6 @@ ae2fc.gui.fluid_interface.4=L
 ae2fc.gui.fluid_interface.5=O
 ae2fc.gui.oc_pattern_editor=Editor de Padrões do OC
 ae2fc.gui.button.set=Definir
-ae2fc.gui.part_fluid_level_emitter=Emissor de Nível ME - Fluidos
-ae2fc.gui.part_fluid_import=Barramento de Importações ME-  Fluidos
-ae2fc.gui.part_fluid_export=Barramento ME - Exportação de Fluidos
-ae2fc.gui.part_fluid_terminal=Terminal ME- Fluidos
-ae2fc.gui.part_fluid_storage_bus=Barramento ME - Armazenamento de Fluidos
 ae2fc.gui.fluid_auto_filler=Auto Preenchedor de Fluidos ME
 
 ae2fc.gui.magnet=Filtro do Imã
