@@ -77,7 +77,6 @@ tile.fluid_auto_filler.name=ME Otomatik Sıvı Doldurucusu
 tile.certus_quartz_tank.name=Certus Kuvars Tankı - %s
 tile.certus_quartz_tank_empty.name=Certus Kuvars Tankı
 
-ae2fc.waila.speed=Hız
 ae2fc.waila.enable=Aktifleştir
 ae2fc.waila.disable=Devre dışı bırak
 
@@ -120,14 +119,11 @@ ae2fc.tooltip.ultra_terminal.tips=Cihaz Püf Noktaları:
 ae2fc.tooltip.ultra_terminal.tips.desc=1. Boncuk yuvasına koyup atadığın tuş ile açabilirsin.\n2. Arayüz modunda §3Shift§7'e basılı tutarak arayüzlerin adını değiştirebilirsin.\n3. Üretim planı ekranında: \nİptal tuşuna §3Shift§7 ile tıklarsan eksik malzemeleri NEI yer işaretinize ekleyebilirsin.
 ae2fc.tooltip.ultra_terminal.restock.on=Yenileme aktif
 ae2fc.tooltip.ultra_terminal.restock.off=Yenileme devre dışı
-ae2fc.tooltip.infinity_fluid=§aSonsuzluk§r
 ae2fc.tooltip.fluid_storage.void=Hiçbir şeyin her şey olduğu ve her şeyin hiçbir şey olduğu yer
 
 ae2fc.tooltip.quantum_bridge_card.desc=Kablosuz terminallerin kuantum köprüsüne bağlanmasına izin vererek sınırsız menzil sağlar
 ae2fc.tooltip.energy_card.desc=Kablosuz Terminal için sonsuz enerji
 
-ae2fc.tooltip.cell_contents=İçindeki Sıvılar:
-ae2fc.tooltip.cell_empty=Hücre boş.
 ae2fc.tooltip.cell_portable=Sağ tıklayarak arayüzü açabilirsin. Çanta gibi çalışır ama kullanmadan önce şarj olması lazım.
 ae2fc.tooltip.fluid_terminal=ığh Artık EC2'ye ihtiyacımız olmaz galiba?
 ae2fc.tooltip.level_terminal=ığh...
@@ -157,14 +153,17 @@ ae2fc.tooltip.prio.hint=Etkin
 ae2fc.tooltip.submit=Gönder
 ae2fc.tooltip.enable=Etkin
 ae2fc.tooltip.disable=Devre Dışı
-ae2fc.tooltip.edit=Düzenle
+ae2fc.tooltip.rename=Rename
 ae2fc.tooltip.view=Görüntüle
 ae2fc.tooltip.fill_pattern=Boş kalıpların dolmasına izin ver
 ae2fc.tooltip.not_fill_pattern=Boş kalıpların dolmasına izin ver
 ae2fc.tooltip.fill_pattern.hint=Etkin
 ae2fc.tooltip.not_fill_pattern.hint=Devre Dışı
-ae2fc.tooltip.open_configuration=Konfigürasyonu aç
+ae2fc.tooltip.open_gui=Open GUI
 ae2fc.tooltip.block_highlight=Bloğu İşaretle
+ae2fc.tooltip.level_terminal.hint_rename=§6SHIFT§8 - §7Rename
+ae2fc.tooltip.level_terminal.hint_open_gui=§6CTRL§8 - §7Open GUI
+ae2fc.tooltip.level_terminal.hint_other_dimension=§eCannot perform any action: target is in another dimension
 
 ae2fc.tooltip.magnet_card.off=Mıknatıs Kartı
 ae2fc.tooltip.magnet_card.off.hint=Kapalı
@@ -179,8 +178,6 @@ ae2fc.tooltip.restock.on.hint=Etkinleştir
 ae2fc.tooltip.restock.off=Yenilemeyi Düzenle
 ae2fc.tooltip.restock.off.hint=Devre Dışı Bırak
 
-ae2fc.gui.part_fluid_pattern_terminal=Sıvı Kalıp Terminali
-ae2fc.gui.part_fluid_pattern_terminal_ex=Sıvı İşleme Kalıp Terminali
 ae2fc.gui.part_level_terminal=Seviye Terminali
 ae2fc.gui.fluid_pattern_encoder=Sıvı Kalıp Kodlayıcısı
 ae2fc.gui.fluid_packet_decoder=ME Sıvı Paket Çözücüsü
@@ -196,11 +193,6 @@ ae2fc.gui.fluid_interface.4=B
 ae2fc.gui.fluid_interface.5=D
 ae2fc.gui.oc_pattern_editor=OC Kalıp Kodlayıcısı
 ae2fc.gui.button.set=Ayarla
-ae2fc.gui.part_fluid_level_emitter=ME Sıvı Seviye Vericisi
-ae2fc.gui.part_fluid_import=ME Sıvı İçe Aktarım Kanalı
-ae2fc.gui.part_fluid_export=ME Sıvı Dışa Aktarım Kanalı
-ae2fc.gui.part_fluid_terminal=ME Sıvı Terminali
-ae2fc.gui.part_fluid_storage_bus=ME Sıvı Depolama Kanalı
 ae2fc.gui.fluid_auto_filler=ME Otomatik Sıvı Doldurucusu
 
 ae2fc.gui.magnet=Mıknatıs Filtresi
