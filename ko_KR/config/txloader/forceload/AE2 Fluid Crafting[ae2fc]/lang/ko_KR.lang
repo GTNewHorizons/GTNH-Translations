@@ -77,7 +77,6 @@ tile.fluid_auto_filler.name=ME 유체 자동 충전기
 tile.certus_quartz_tank.name=세투스 석영 탱크 - %s
 tile.certus_quartz_tank_empty.name=세투스 석영 탱크
 
-ae2fc.waila.speed=속도
 ae2fc.waila.enable=활성화
 ae2fc.waila.disable=비활성화
 
@@ -120,14 +119,11 @@ ae2fc.tooltip.ultra_terminal.tips=툴팁:
 ae2fc.tooltip.ultra_terminal.tips.desc=1. 보석 슬롯에 넣고 단축키를 사용해서 열 수 있습니다.\n2. 인터페이스 모드에서 §3Shift§7 키를 누른 채로 인터페이스 이름 변경 버튼을 토글합니다.\n3. 제작 계획 화면에 있을 때.\n§3Shift§7 키를 누른 채로 취소 버튼을 클릭하면 부족한 아이템이 자동으로 NEI 북마크에 추가됩니다.
 ae2fc.tooltip.ultra_terminal.restock.on=재입고 활성화
 ae2fc.tooltip.ultra_terminal.restock.off=재입고 비활성화
-ae2fc.tooltip.infinity_fluid=§aInfinity§r
 ae2fc.tooltip.fluid_storage.void=무(無)가 곧 전부이고, 전부가 곧 무(無)인 곳
 
 ae2fc.tooltip.quantum_bridge_card.desc=무선 터미널들이 무한한 거리에서 이용할 수 있도록 양자 다리에 연결되게 합니다. 
 ae2fc.tooltip.energy_card.desc=무선 터미널을 위한 무한한 에너지
 
-ae2fc.tooltip.cell_contents=담긴 유체:
-ae2fc.tooltip.cell_empty=셀이 비어있음
 ae2fc.tooltip.cell_portable=오른쪽 클릭을 하여 GUI를 열 수 있습니다. 배낭과 비슷하게 작동하지만 사용하기 전에 충전해야합니다. 
 ae2fc.tooltip.fluid_terminal=어... 그래서 이제 EC2는 더 이상 필요 없는거죠?
 ae2fc.tooltip.level_terminal=어...
@@ -157,14 +153,17 @@ ae2fc.tooltip.prio.hint=활성화
 ae2fc.tooltip.submit=제출
 ae2fc.tooltip.enable=활성화
 ae2fc.tooltip.disable=비활성화
-ae2fc.tooltip.edit=수정
+ae2fc.tooltip.rename=Rename
 ae2fc.tooltip.view=보기
 ae2fc.tooltip.fill_pattern=빈 패턴이 자동으로 채워지도록 허용
 ae2fc.tooltip.not_fill_pattern=빈 패턴이 자동으로 채워지도록 허용
 ae2fc.tooltip.fill_pattern.hint=활성화
 ae2fc.tooltip.not_fill_pattern.hint=비활성화
-ae2fc.tooltip.open_configuration=설정 열기
+ae2fc.tooltip.open_gui=Open GUI
 ae2fc.tooltip.block_highlight=블록을 강조
+ae2fc.tooltip.level_terminal.hint_rename=§6SHIFT§8 - §7Rename
+ae2fc.tooltip.level_terminal.hint_open_gui=§6CTRL§8 - §7Open GUI
+ae2fc.tooltip.level_terminal.hint_other_dimension=§eCannot perform any action: target is in another dimension
 
 ae2fc.tooltip.magnet_card.off=자석 카드
 ae2fc.tooltip.magnet_card.off.hint=꺼짐
@@ -179,8 +178,6 @@ ae2fc.tooltip.restock.on.hint=활성화
 ae2fc.tooltip.restock.off=재입고 토글
 ae2fc.tooltip.restock.off.hint=비활성화
 
-ae2fc.gui.part_fluid_pattern_terminal=유체 패턴 터미널
-ae2fc.gui.part_fluid_pattern_terminal_ex=액체 정제 패턴 터미널
 ae2fc.gui.part_level_terminal=레벨 터미널
 ae2fc.gui.fluid_pattern_encoder=액체 패턴 인코더
 ae2fc.gui.fluid_packet_decoder=ME 유체 패킷 디코더
@@ -196,11 +193,6 @@ ae2fc.gui.fluid_interface.4=W
 ae2fc.gui.fluid_interface.5=E
 ae2fc.gui.oc_pattern_editor=OC 패턴 편집기
 ae2fc.gui.button.set=설정
-ae2fc.gui.part_fluid_level_emitter=ME 유체 레벨 측정기
-ae2fc.gui.part_fluid_import=ME 유체 입력 버스
-ae2fc.gui.part_fluid_export=ME 유체 출력 버스
-ae2fc.gui.part_fluid_terminal=ME 유체 터미널
-ae2fc.gui.part_fluid_storage_bus=ME 유체 저장소 버스
 ae2fc.gui.fluid_auto_filler=ME 유체 자동 충전기
 
 ae2fc.gui.magnet=자석 필터
