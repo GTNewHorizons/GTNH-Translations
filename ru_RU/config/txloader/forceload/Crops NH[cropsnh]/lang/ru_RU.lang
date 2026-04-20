@@ -2,14 +2,14 @@
 itemGroup.cropsnh=Crops NH
 
 # Generic Items
-item.cropsnh:cropSticksItem.name=Crop Sticks
+item.cropsnh:cropSticksItem.name=Жёрдочки
 item.cropsnh:plantLens.name=Лупа садовода
 item.cropsnh:spade.name=Лопатка садовода
-item.cropsnh:reinforcedSpade.name=Reinforced Spade
+item.cropsnh:reinforcedSpade.name=Усиленная лопатка садовода
 item.cropsnh:plantCure.name=Plant Cure
-item.cropsnh:weedEX.name=Weed-EX
+item.cropsnh:weedEX.name=Средство от сорняков
 item.cropsnh:fertilizer.name=Удобрение
-item.cropsnh:poisonPowder.name=Poison Powder
+item.cropsnh:poisonPowder.name=Токсичная пыль
 item.cropsnh:hempHurd.name=Chipped Hemp Hurds
 item.cropsnh:sulfurDopedPlumbiliaResidue.name=Sulfur-Doped Plumbilia Residue
 item.cropsnh:sulfurDopedGalvaniaResidue.name=Sulfur-Doped Galvania Residue
@@ -33,7 +33,7 @@ item.cropsnh:coffeeDark.name=Тёмный кофе
 item.cropsnh:coffee.name=Кофе
 
 # Crop Produce Items
-item.cropsnh:gaiaWart.name=Gaia Wart
+item.cropsnh:gaiaWart.name=Земляной нарост
 item.cropsnh:goldfish.name=Золотая рыбка
 item.cropsnh:berry.huckle.name=Huckleberry
 item.cropsnh:berry.sugarbeet.name=Сахарная свёкла
@@ -77,7 +77,7 @@ item.cropsnh:environmentalModule.blank=Blank Environmental Module
 item.cropsnh:environmentalModule.template=Environmental Module (%1$s)
 
 # Blocks
-tile.cropsnh:cropSticks.name=Crop Sticks
+tile.cropsnh:cropSticks.name=Жёрдочки
 cropsnh.casings1.0.name=Bricked Agricultural Casing
 
 # Fluids
@@ -95,19 +95,19 @@ fluid.cropsnh:jagi=Настоящий Егермейстер
 fluid.cropsnh:njagi=Поддельный Егермейстер
 
 # Damage
-death.attack.cropsnh:heartAttack=%1$s drank too much coffee
-death.attack.cropsnh:heartAttack.player=%1$s had a heart attack whilst fighting %2$s
+death.attack.cropsnh:heartAttack=%1$s выпил слишком много кофе
+death.attack.cropsnh:heartAttack.player=%1$s перенес сердечный приступ во время боя с %2$s
 
 # Tooltips
-cropsnh_tooltip.isSick=§cIs sick, can't grow!§r
-cropsnh_tooltip.unidentified=Unidentified
-cropsnh_tooltip.seed=Seed
-cropsnh_tooltip.stats=Статистика
-cropsnh_tooltip.growth=Growth
-cropsnh_tooltip.gain=Gain
-cropsnh_tooltip.resistance=Resistance
+cropsnh_tooltip.isSick=§cБолен, не может расти!§r
+cropsnh_tooltip.unidentified=Неопознанный
+cropsnh_tooltip.seed=Семена
+cropsnh_tooltip.stats=Статистика -- Рост: %1$s  Урожайность: %2$s  Устойчивость: %3$s
+cropsnh_tooltip.growth=Рост
+cropsnh_tooltip.gain=Урожайность
+cropsnh_tooltip.resistance=Устойчивость
 cropsnh_tooltip.min_seed_bed_tier=Minimum Seed Bed tier: %1$s
-cropsnh_tooltip.soil=Soil -- Fertilizer: %1$s  Water: %2$s  Weed-EX: %3$s
+cropsnh_tooltip.soil=Почва -- Удобрение: %1$s  Вода: %2$s  Хим. защита: %3$s
 cropsnh_tooltip.weeds=Weeds -- §cBLAZE IT§r
 cropsnh_tooltip.failedReq=§c%1$s§r
 cropsnh_tooltip.plantLens=Use this to inspect crops
@@ -245,7 +245,7 @@ cropsnh_tooltip.cropManager.tooltip.0=Hydration, fertilisation and weed-ex can b
 cropsnh_tooltip.cropManager.tooltip.1=Consumes %1$s EU per harvest
 cropsnh_tooltip.cropManager.tooltip.2=Consumes %1$s EU per secondary operation
 cropsnh_tooltip.cropManager.tooltip.3=Can harvest %s block levels above and below itself
-cropsnh_tooltip.cropManager.tooltip.4=Range: %1$sx%2$sx%1$s blocks
+cropsnh_tooltip.cropManager.tooltip.4=Радиус: %1$sx%2$sx%1$s блоков
 cropsnh_tooltip.cropManager.tooltip.5=Has %1$s chance for extra drops
 cropsnh_tooltip.cropManager.tooltip.6=Holds %1$s of Water
 cropsnh_tooltip.cropManager.tooltip.7=Holds %1$s of Fertilizer
@@ -356,8 +356,8 @@ cropsnh.overclockedGrowthAccelerationUnit.13.name=Overclocked Growth Acceleratio
 
 # Growth Accel Unit
 cropsnh_tooltip.growthAccelerationUnit.0=Increases the growth speed of crops inside an Industrial Farm
-cropsnh_tooltip.growthAccelerationUnit.1=Increases growth speed by %1$s
-cropsnh_tooltip.growthAccelerationUnit.1.adv=Increases growth speed by %1$s per upgrade (additive)
+cropsnh_tooltip.growthAccelerationUnit.1=Увеличивает скорость роста на %1$s
+cropsnh_tooltip.growthAccelerationUnit.1.adv=Увеличивает скорость роста на %1$s за каждое улучшение (аддитивный)
 cropsnh_tooltip.growthAccelerationUnit.2=Увеличивает энергопотребление на %1$s
 cropsnh_tooltip.growthAccelerationUnit.2.adv=Увеличивает энергопотребление на %1$s за каждое улучшение (аддитивный)
 cropsnh_tooltip.growthAccelerationUnit.3=Won't work if an §fOverclocked Growth Acceleration Unit§7 is also present
@@ -377,8 +377,8 @@ cropsnh.growthAccelerationUnit.13.name=Growth Acceleration Unit (UXV)
 # Fertilizer Unit
 cropsnh_tooltip.fertilizerUnit.0=Allows the Industrial Farm to consume §fFertilizer§7 in order to boost production
 cropsnh_tooltip.fertilizerUnit.1=Requires %1$s of Fertilizer per cycle
-cropsnh_tooltip.fertilizerUnit.2=Increases growth speed by %1$s
-cropsnh_tooltip.fertilizerUnit.2.adv=Increases growth speed by %1$s (multiplicative)
+cropsnh_tooltip.fertilizerUnit.2=Увеличивает скорость роста на %1$s
+cropsnh_tooltip.fertilizerUnit.2.adv=Увеличивает скорость роста на %1$s (мультипликативно)
 cropsnh_tooltip.fertilizerUnit.3=Increases number of drops by %1$s
 cropsnh_tooltip.fertilizerUnit.3.adv=Increases number of drops by %1$s (additive)
 cropsnh_tooltip.fertilizerUnit.4=Увеличивает энергопотребление на %1$s
@@ -527,6 +527,7 @@ nei.options.tools.dump.cropsnh.weedEXFluids=WeedEX
 # Generic Seeds
 cropsnh_genericSeeds.unknown=Unknown
 cropsnh_genericSeeds.invalid=Invalid
+cropsnh_genericSeeds.any=Any Crops NH
 cropsnh_genericSeeds.format=%1$s Seeds
 
 # Crop Names
