@@ -627,8 +627,8 @@ focus.upgrade.nightshade.name=밤초롱꽃
 focus.upgrade.nightshade.text=보통 펙의 저주 포커스는 몇 가지 제한된 디버프 중 하나만 부여합니다. 이 업그레이드를 적용하면 그 모든 디버프를 한 번에 부여하게 됩니다.
 focus.upgrade.silktouch.name=섬세한 손길
 focus.upgrade.silktouch.text=동명의 마법 부여처럼, 이 업그레이드는 채집한 블록을 일반적인 드롭 아이템 대신 원형 그대로 획득할 수 있게 해줍니다.
-focus.upgrade.seeker.name=Seeker
-focus.upgrade.seeker.text=This upgrade makes the orbs created by the primal focus seek out the nearest living target and not wander all over the place. This makes them a lot more stable which also means they won't do anything unusual beyond exploding.
+focus.upgrade.seeker.name=구도자
+focus.upgrade.seeker.text=이 업그레이드는 태초의 힘 포커스가 생성한 오브들이 여기저기 떠다니지 않고 가장 가까운 생명체를 추적하도록 만듭니다. 이로 인해 오브들이 훨씬 더 안정적으로 작동하며, 그 결과로 폭발하는 것 외에는 특별히 이상한 행동을 하지 않게 됩니다.
 focus.upgrade.dowsing.name=수맥 채굴
 focus.upgrade.dowsing.text=이 업그레이드는 채굴 포커스가 일반 광석 대신 순수한 광석 덩어리를 채굴할 작은 확률을 부여합니다. 순수한 광석 덩어리를 제련할 시 두 배의 주괴를 얻을 수 있습니다.
 #
@@ -664,7 +664,7 @@ recipe.type.infusionenchantment=인퓨전 인챈트
 recipe.type.construct=마법 구조물
 wandtable.text1=비스 요구량
 wandtable.text2=경험치 요구량
-wandtable.text3=Start Upgrade
+wandtable.text3=시작 업그레이드
 #
 # Other
 itemGroup.thaumcraft=Thaumcraft
@@ -713,10 +713,10 @@ tc.addaspectdiscovery=%n을(를) 발견했습니다!
 tc.addclue=새로운 연구에 대한 단서를 발견했습니다!
 tc.addcluefail=발견한 단서를 기록할 곳이 없습니다...
 tc.addaspectpool=%n을(를) %s포인트 획득하였습니다.
-tc.addwarp=§5뒤틀림 수치가 영구적으로 증가하였습니다!§0
+tc.addwarp=§5뒤틀림 수치가 지속적으로 증가하였습니다!§0
 tc.addwarptemp=§5뒤틀림 수치가 일시적으로 증가하였습니다!§0
 tc.addwarpsticky=§5뒤틀림 수치가 증가하였습니다!§0
-tc.removewarp=§5You have lost permanent Warp!§0
+tc.removewarp=뒤틀림 수치가 지속적으로 감소하였습니다!
 tc.removewarpsticky=§5뒤틀림 수치가 감소하였습니다!§0
 tc.removewarptemp=§5뒤틀림 수치가 일시적으로 감소하였습니다!§0
 tc.forbidden=§l§5금지된 지식 (%n)§0
@@ -758,7 +758,7 @@ tc.primalcharm.3=부드럽게 웅웅거리는 소리가 납니다
 tc.primalcharm.4=잠깐, 지금 일곱 번 째 색으로 빛나지 않았어?
 tc.primalcharm.trigger=태초의 부적에서 이상한 에너지가 느껴집니다. 에너지는 얼마 못가 사라졌지만, 그 강렬한 인상은 쉽게 잊을 수 없을 듯 합니다
 tc.break.fly=무언가가 비행을 방해합니다.
-tc.boss.enrage=is enraged by your powerful blows.
+tc.boss.enrage=당신의 강력한 공격에 격분한다.
 #
 # Aspects
 tc.aspect.primal=태초의 위상
@@ -1740,8 +1740,8 @@ tc.research_name.ESSENTIACRYSTAL=에센시아 결정화
 tc.research_text.ESSENTIACRYSTAL=범용성? 간편성?
 tc.research_page.ESSENTIACRYSTAL.1=드디어 액체 상태의 에센시아를 간단한 마법 공식으로 결정화하는 방법을 알아냈습니다!<BR>에센시아 결정화 장치는 주변의 에센시아 튜브에서 에센시아를 끌어와 천천히 결정화된 에센시아의 파편으로 바꿉니다. 결정화된 에센시아는 매우 안정적이고 취급이 용이합니다.<BR>에센시아 결정화기는 결정화된 에센시아를 전방의 인벤토리나 월드로 배출합니다. 이 장치는 레드스톤 신호로 비활성화 할 수 있습니다.<BR>비스 중계기를 통해 Terra 비스를 공급할 경우 빠른 정제 속도를 기대할 수 있습니다.
 #
-tc.research_name.BANNERS=Banners 
-tc.research_text.BANNERS=Caution: For decorative purposes only
+tc.research_name.BANNERS=배너
+tc.research_text.BANNERS=주의: 장식용으로만 쓸 것
 tc.research_page.BANNERS.1=Sometimes a thaumaturge doesn't need to create something that shakes the very foundations of reality - sometimes he just wants something pleasing to the eye.<BR>You have developed a simple enchantment that allows you to apply thaumaturgical symbols to banners. You do so by simply clicking with a phial of essentia on a banner you crafted and the symbol will be emblazoned on it. Shift-clicking on the banner will remove the symbol.
 #
 tc.research_name.BOTTLETAINT=병에 담긴 테인트
@@ -1749,21 +1749,21 @@ tc.research_text.BOTTLETAINT=왜 이런 일을 하려 합니까?
 tc.research_page.BOTTLETAINT.1=테인트를 정화하는 것도 한 방법이지만, 그것을 퍼뜨리는 것도 고려해 본 적 있으신가요?<BR>집중하여 테인트의 에센스를 모아 병에 담음으로써, 그것을 어딘가에 떨어뜨려 테인트로 오염된 한 부분을 만드는 것은 간단한 일입니다. 왜 이런 일을 하려는지는 당신에게 달려 있습니다.
 #
 tc.research_name.FOCALMANIPULATION=초점 조작
-tc.research_text.FOCALMANIPULATION=Wand foci remade
+tc.research_text.FOCALMANIPULATION=완드 포커스 재창조
 tc.research_page.FOCALMANIPULATION.1=Wand foci are capable of amazing feats, but they aren't very flexible. A single focus is seldom capable of performing more than a single function.<BR>You have discovered a way to upgrade basic foci to alter the way they manipulate magic. You simply need to place a focus in a Focal Manipulator and choose the upgrade you wish to apply to it. You also need to provide it with vis from relays and spend experience points to get the process started, but after that it is a simple matter of waiting.<BR>Each focus can be upgraded up to five times, 
 tc.research_page.FOCALMANIPULATION.2=but each rank is doubles the cost.<BR>While some upgrades can be applied multiple times or at any rank, many foci have upgrades that can only be applied at certain ranks or only if certain requisite upgrades had been taken at lower ranks. Experimentation is encouraged.<BR>Upgrades are permanent - you are not aware of any method to remove unwanted upgrades so care must be taken when choosing them.  
 #
 tc.research_name.VAMPBAT=티어 5 업그레이드: 흡혈 박쥐
-tc.research_text.VAMPBAT=Vicious little bloodsuckers  
+tc.research_text.VAMPBAT=성질 더러운 꼬마 흡혈귀들
 #
 tc.research_name.PRIMPEARL=태초의 진주
-tc.research_text.PRIMPEARL=What came before
-tc.research_page.PRIMPEARL.1=For the first time you find yourself with a puzzle that you do not think can be solved.<BR>This object contains pure primal aspects, but they possess properties unlike what you consider normal, everyday primal aspects. You have a few theories why this could be:<BR>Firstly this "pearl" could be the remnants of primal matter that was created at the dawn of reality - elementary magic that existed before it mingled and merged into compound aspects.<BR>Alternatively it could be primal matter from a place that does not conform to the known rules of
-tc.research_page.PRIMPEARL.2=magic as you have come to understand it. You are not sure which explanation is more worrying.<BR>Either way, the pearl is a potent artifact containing vast magical power and nearly unlimited potential.<BR>It is time you start putting it to use.
+tc.research_text.PRIMPEARL=태초에 무엇이 있었는가
+tc.research_page.PRIMPEARL.1=처음으로, 스스로 해결할 수 없을지도 모른다고 느껴지는 수수께끼와 마주했습니다.<BR>이 물체는 순수한 태초적인 속성들을 담고 있지만, 그것들은 당신이 알고 있는 일반적인 태초의 속성과는 다른 성질을 지니고 있습니다. 이에 대해 몇 가지 가설을 정립했고 다음이 그것입니다:<BR>첫째, 이 “진주”는 현실의 태초에 생성된 태초 물질의 잔해일 수 있습니다. 즉, 복합 속성으로 뒤섞이고 융합되기 이전에 존재하던 가장 기초적인 마력일지도 모릅니다.<BR>
+tc.research_page.PRIMPEARL.2=또는, 당신이 이해해온 마법의 규칙이 통하지 않는 어떤 장소에서 온 태초의 물질일 가능성도 있습니다. 어느 쪽 설명이 더 불길한지는 판단하기 어렵습니다.<BR>어찌 되었든, 이 진주는 방대한 마력을 품고 있으며 거의 무한한 잠재력을 지닌 강력한 유물입니다.<BR>그리고 이제 그것을 활용할 때가 되었습니다.
 #
-tc.research_name.PRIMNODE=Primordial Node Manipulation 
-tc.research_text.PRIMNODE=Just rub them together and see what happens
-tc.research_page.PRIMNODE.1=You have developed a bit of a wild theory that might be worth exploring. Why not bring a primordial pearl into contact with an aura node?<BR>Sure, bringing two such sources of raw magical energy into contact with each other might be catastrophic, but their interaction could also be highly... interesting.<BR>While anyone can do this, you are sure that completing this research has slightly improved your chances of getting a good result. Very slightly.
+tc.research_name.PRIMNODE=태초의 노드 조작
+tc.research_text.PRIMNODE=그냥 서로 비벼 봐, 어떻게 되는지 보자고.
+tc.research_page.PRIMNODE.1=조금 엉뚱하지만 탐구해볼 만한 이론을 떠올렸습니다. 태초의 진주를 오라 노드와 접촉시켜 보면 어떨까요?<BR>물론, 이런 원초적인 마력의 원천 두 개를 서로 접촉시키는 건 재앙을 낳을 수도 있습니다. 하지만 그 상호작용은 또한 상당히… 흥미로울 수도 있습니다.<BR>누구나 이 시도를 할 수는 있겠지만, 이 연구를 완료한 덕분에 좋은 결과를 얻을 확률이 조금은 올라갔다고 확신합니다. 아주 조금이지만요.
 #
 tc.research_name.ADVALCHEMYFURNACE=고급 연금 화로
 tc.research_text.ADVALCHEMYFURNACE=에센시아 제작 간략화
@@ -1775,19 +1775,19 @@ tc.research_text.FLUXSCRUB=A boon for the messy thaumaturge
 tc.research_page.FLUXSCRUB.1=Even the most skilled thaumaturge occasionally leaves a mess in the form of flux. It is a nuisance everyone has to deal with, but this machine removes the drudgery involved.<BR>The flux scrubber, when powered with aer vis, will slowly remove any form of flux within 16 blocks of where it is placed. What is more, it is able to reclaim a small portion of the magic that makes up the flux in the form of praecantatio essentia.<BR>It's internal buffer is very small and it will continue operating even when full, so it must be emptied if you wish to reclaim all the essentia.
 #
 tc.research_name.ENTEROUTER=이계
-tc.research_text.ENTEROUTER=We are not in Kansas anymore
+tc.research_text.ENTEROUTER=낯설고 위험하고 신비로운 곳
 tc.research_page.ENTEROUTER.1=You are not quite sure what you were expecting when you stepped through the Oculus, but this strange structure of crumbling stone and twisted passageways was not it.<BR>Something is not quite right here - this structure was not designed for any practical purpose you can discern... unless that purpose was for it to be a deadly maze.<BR>Strange energies abound and your magic seems to act strangely in this alien environment. Even the other denizens you encounter seem out of place here.
 #
-tc.research_name.OUTERREV=Revelations in the Outer Lands 
-tc.research_text.OUTERREV=Things are not what they seem
+tc.research_name.OUTERREV=이계의 계시
+tc.research_text.OUTERREV=보이는 것이 전부는 아니다
 tc.research_page.OUTERREV.1=Your suspicions have been confirmed. This is not the home of the race you have come to call the Eldritch. This place is something else entirely and you do not believe it exists in what you understand as being "reality" - it is as much a mental construct as a physical one, but what mind can contain this?<BR>You have been able to decipher only a small number of the symbols, but you are sure this place is a trap - a place to test visitors and weed out the weak. For what purpose you are not sure.
 #
 tc.research_name.SINSTONE=불길한 천연자석
-tc.research_text.SINSTONE=Do you dare follow it?
+tc.research_text.SINSTONE=따라올 배짱은 되나?
 tc.research_page.SINSTONE.1=You have made an interesting discovery during your study of nodes. Different kinds of nodes emit varying types of radiant energy, but none are quite as distinct as that of Sinister nodes.<BR>The energy emitted by Sinister nodes is quite unique and simple to track. By infusing a piece of flint you think you can create a simple scrying device that will light up whenever it is pointed towards such a node.<BR>The range is limited, but it is a worthwhile invention since you have often found Sinister nodes in the most interesting of places.
 #
-tc.research_name.PRIMALCRUSHER=Primal Crusher 
-tc.research_text.PRIMALCRUSHER=Breaking all the things
+tc.research_name.PRIMALCRUSHER=태초의 분쇄자
+tc.research_text.PRIMALCRUSHER=모든 것을 부숴버려
 tc.research_page.PRIMALCRUSHER.1=The theory behind infusion crafting is simple - infuse a single object with essentia and the properties of other objects. There are limits however, but it seems with the discovery of the primordial pearl these limits are becoming less and less.<BR>As an experiment you tried infusing the properties of completely different objects into the pearl with suprising success. The Primal Crusher is the first practical application of this discovery.<BR>By combining a Shovel of the Earthmover and a Pickaxe of the Core with their void metal counterparts you created a
 tc.research_page.PRIMALCRUSHER.2=tool of unrivaled destructive capabilities that has most of the features of its component pieces.<BR>The Primal Crusher can mine through earth and stone with equal ease and does so in a 3x3 area. Like the Pickaxe of the Core it occasionally mines native clusters instead of raw ore.<BR>It repairs itself over time, has high enchantability and serves as a relatively good weapon in a pinch.<BR>Unfortunately it seems purely destructive in nature and has lost the construction and detection abilities of its parent tools.
 
