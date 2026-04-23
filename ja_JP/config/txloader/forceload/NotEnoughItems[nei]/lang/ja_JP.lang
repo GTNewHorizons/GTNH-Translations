@@ -64,7 +64,7 @@ nei.itempanel.fill_crafting_grid=クラフト枠へ補充
 nei.itempanel.fill_crafting_grid_quantity=指定した個数をクラフト枠へ補充
 nei.itempanel.open_crafting=このアイテムを作るためのレシピ
 nei.itempanel.open_usage=このアイテムを使うレシピ
-nei.itempanel.infinite_item=Give Infinite Item
+nei.itempanel.infinite_item=無限個のアイテムを与える
 nei.itempanel.copy_name=アイテム名をコピー
 nei.itempanel.copy_oredict=アイテムの鉱石辞書をコピー
 nei.itempanel.copy_id=アイテムIDをコピー
@@ -142,8 +142,8 @@ nei.chat.chunkoverlay.2=チャンクオーバーレイ: チャンク枠を表示
 nei.chat.chunkoverlay.3=チャンクオーバーレイ: GregTech鉱脈チャンクを表示
 nei.chat.moboverlay.0=スポーンチェッカーオーバーレイ: §c非表示
 nei.chat.moboverlay.1=スポーンチェッカーオーバーレイ: §2表示
-nei.chat.item_link.text=<%s> §6Click to add bookmark: %s
-nei.chat.bookmark_added.text=Bookmark added!
+nei.chat.item_link.text=<%s> §6クリックしてブックマークに追加: %s
+nei.chat.bookmark_added.text=ブックマークに追加されました！
 
 nei.chat.recipeid.many_params=Too many parameters! Usage: %s
 nei.chat.recipeid.not_found=File %s not found!
@@ -202,7 +202,7 @@ nei.options.keys.gui.itemzoom_hold=アイテムズームを表示 (ホールド)
 nei.options.keys.gui.itemzoom_zoom_in=アイテムズームイン
 nei.options.keys.gui.itemzoom_zoom_out=アイテムズームアウト
 nei.options.keys.gui.favorite=お気に入りに追加
-nei.options.keys.gui.favorite_item=Toggle Favorite
+nei.options.keys.gui.favorite_item=お気に入りを切り替える
 nei.options.keys.world=ワールド
 nei.options.keys.world.chunkoverlay=チャンク境界のオーバーレイ
 nei.options.keys.world.moboverlay=スポーンチェッカーオーバーレイ
@@ -552,7 +552,7 @@ nei.debug.RecipeHandler.reset=Reset
 
 nei.recipe.page=ページ %s/%s
 nei.recipe.tooltip=レシピ
-nei.recipe.tab.view_all.tooltip=View all categories
+nei.recipe.tab.view_all.tooltip=すべての項目を表示
 nei.recipe.shaped=作業台 (定形レシピ)
 nei.recipe.shapeless=作業台 (不定形レシピ)
 nei.recipe.furnace=製錬
@@ -563,7 +563,7 @@ nei.recipe.badge.nc=NC
 nei.recipe.badge.nc.tooltip=このアイテムは消費されません
 
 nei.recipe.badge.ncp=NC(P)
-nei.recipe.badge.ncp.tooltip=Considered in parallel calculation, but not get consumed
+nei.recipe.badge.ncp.tooltip=並列処理レシピの計算対象になりますが、消費はされません
 
 nei.recipe.badge.chance.consume=消費される確率: %s
 nei.recipe.badge.chance.output=出力確率: %s
@@ -598,7 +598,7 @@ nei.recipe.overlay.bookmarkRecipeAndCount=レシピと個数を保存
 nei.recipe.favorite=お気に入り
 nei.recipe.favorite.bookmark_recipe=レシピツリーを保存
 nei.recipe.favorite.change_result_index=出力を変更
-nei.recipe.favorite.toggle=Toggle Favorite
+nei.recipe.favorite.toggle=お気に入りを切り替える
 
 nei.recipe.information=Information
 
