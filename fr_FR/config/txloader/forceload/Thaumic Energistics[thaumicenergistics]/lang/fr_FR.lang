@@ -108,12 +108,12 @@ tc.research_category.thaumicenergistics=Energistics
 
 # Research basics
 tc.research_name.thaumicenergistics.TERESEARCH=Thaumic Energistics
-tc.research_text.thaumicenergistics.TERESEARCH=Thaumaturgy Enters the Digital Age.
+tc.research_text.thaumicenergistics.TERESEARCH=Thaumaturgy Enters the Digital Age
 thaumicenergistics.research_page.TERESEARCH.1=As both a scientist and an arcane scholar, you have postulated that it must be possible to combine technology and magic in a stable and productive way.<BR>You will need to study the principles of matter-energy conversion in detail to accomplish this. It is likely there are aspects of Thaumaturgy that can accomplish this, as well as technology capable of doing the same.<BR>This will require extensive study, but you are sure that it will be a worthwhile investment of your time.
 
 # Research conversion cores
 tc.research_name.thaumicenergistics.TECORES=Digi-sentia
-tc.research_text.thaumicenergistics.TECORES=Digital Essentia.
+tc.research_text.thaumicenergistics.TECORES=Digital Essentia
 thaumicenergistics.research_page.TECORES.1=Having discovered how to distill essentia, it occurs to you that you may be able store it digitally.<BR>Examining the §lFormation Core§r and §lAnnihilation Core§r you realize that with some minor modifications they could serve as a means to convert essentia to and from a digital format.<BR>However, due to the corrosive nature of certain types of essentia, a layer of quicksilver around the circuitry is required to prevent decay.
 thaumicenergistics.research_page.TECORES.2=§lDiffusion Core§r<BR>The relatively high volatility and immense energy in distilled essentia requires that it first be diffused then digitized. A buffer chamber of some kind will likely be required to hold the diffused essentia.<LINE>§lCoalescence Core§r<BR>Compresses and binds re-materialized essentia diffusion back into its raw form. A buffer chamber will also likely be needed.
 
@@ -131,23 +131,24 @@ thaumicenergistics.research_page.TEIO.2=§lStorage Bus§r<BR>Combining the impor
 
 # Research Arcane crafting terminal
 tc.research_name.thaumicenergistics.TEARCANETERM=Arcane Crafting Terminal
-tc.research_text.thaumicenergistics.TEARCANETERM=Crafting with magic §oand technology.§r
+tc.research_text.thaumicenergistics.TEARCANETERM=Crafting with magic §oand technology§r
 thaumicenergistics.research_page.TEARCANETERM.1=You have discovered that using primal aspects to bind a §lTerminal§r to an §lArcane Worktable§r allows you to imbue the terminal with the worktable's ability to craft arcane items.<BR>The terminal retains its ability to access items on the ME network allowing faster and more plentiful crafting, as well as store and swap a set of armor for when you need a quick vis discount.
 
 # Research Essentia Provider
 tc.research_name.thaumicenergistics.TEESSPROV=Essentia Provider
-tc.research_text.thaumicenergistics.TEESSPROV=Ask and you shall receive.
+tc.research_text.thaumicenergistics.TEESSPROV=Ask and you shall receive
 thaumicenergistics.research_page.TEESSPROV.1=While import and export buses are useful for an array of jobs, they lack the flexibility to interface with complex alchemical constructs. To overcome this limitation you have created a device that will allow these constructs to request any essentia directly from the network.<BR>Using the §lEssentia Provider§r should prove to be a simple task. Simply connect it to both the network and construct, and it will do the rest.<BR>Like an essentia buffer it has a small amount of suction(8).
 
 # Research Infusion Provider
 tc.research_name.thaumicenergistics.TEINFPROV=Infusion Provider
-tc.research_text.thaumicenergistics.TEINFPROV=Infusion made easier.
-thaumicenergistics.research_page.TEINFPROV.1=By researching the process of essentia infusion, you have discovered a method for instantaneous conversion between digi-sentia and essentia that can be used for infusion.<BR>By placing the §lInfusion Provider§r near a thaumic device, the device can draw essentia directly from the network as if it were a warded jar.<BR>This could prove to be very useful for the infusion altar.
+tc.research_text.thaumicenergistics.TEINFPROV=Infusion made easier
+thaumicenergistics.research_page.TEINFPROV.1=By researching the process of essentia infusion, you have discovered a method for instantaneous conversion between digi-sentia and essentia.<BR>By placing an §lInfusion Provider§r near a thaumic device, the device can draw essentia directly from the network as if it were a warded jar. If the provider attempts to draw essentia of an aspect that is not present on your network, it will attempt to craft a batch of 32 if a pattern and crafting CPU are available.<BR>This could prove to be very useful for the Infusion Altar.
+
 
 # Research Advanced Infusion Provider
 tc.research_name.thaumicenergistics.TEADVINFPROV=Advanced Infusion Provider
-tc.research_text.thaumicenergistics.TEADVINFPROV=Easiest Infusion.
-thaumicenergistics.research_page.TEADVINFPROV.1=As you continue to optimize your ME network autocrafting, you've been stumped by infusion recipes countless times.<BR>Now you have a new idea, why not leave the task of preparing essentia to your ME network?<BR>So you've developed a new infusion provider that incorporates the functionality of the Interceptor and automatically orders the missing essentia. It can also bind multiple infusion matrices in 25*25*11 area. All you need to do is just put it down among those matrices, that's it. Right-click allows him to search the area for matrix and rebind it.
+tc.research_text.thaumicenergistics.TEADVINFPROV=Easiest Infusion
+thaumicenergistics.research_page.TEADVINFPROV.1=As you continue to optimize your ME network autocrafting, you've been vexed by the slow speed of infusion recipes countless times.<BR>The §lAdvanced Infusion Provider§r will instantly inject all required essentia into active infusions and automatically order the exact amount of any essentia that is missing. It can bind to any number of infusion matrices up to 12 blocks away horizontally (on both axes) and 5 blocks away vertically.
 
 # Research Vis Interface
 tc.research_name.thaumicenergistics.TEVISINT=Vis Relay Interface
