@@ -1678,6 +1678,7 @@ GT5U.MBTT.ConfigMenu=設定メニュー
 GT5U.MBTT.PerfectOC=オーバークロックによる効率低下が発生しません
 GT5U.MBTT.Deprecated=§4DEPRECATED - %s
 GT5U.MBTT.Deprecated.Removal=Controller will be removed in next major update!
+GT5U.MBTT.Deprecated.RemovalMachine=Machine will be removed in next major update!
 GT5U.MBTT.Deprecated.NEI=§4Check NEI for new Controller and conversion recipe
 GT5U.MBTT.PCB.Tier=PCBファクトリー Tier
 GT5U.MBTT.PCB.Bio=バイオチャンバー
@@ -2838,12 +2839,12 @@ gt.circuitcomponent.plate.processed.rhugnor=Stripped Rhugnor Plate
 gt.circuitcomponent.plate.processed.metastableoganesson=Stripped Metastable Oganesson Plate
 gt.circuitcomponent.plate.processed.hexanite=Stripped Hexanite Plate
 
-GT5U.gui.hoverable.runningfine=Running Fine.
-GT5U.gui.hoverable.incomplete=Structure incomplete.
-GT5U.gui.hoverable.powerloss=Lost Power.
-GT5U.gui.hoverable.norepair=Machine too damaged.
-GT5U.gui.hoverable.manualshutdown=Manual shutdown (get it?).
-GT5U.gui.hoverable.error=ERROR! REPORT ME!
+GT5U.gui.hoverable.runningfine=動作は良好です。
+GT5U.gui.hoverable.incomplete=構造体が未完成です。
+GT5U.gui.hoverable.powerloss=エネルギーが不足しました。
+GT5U.gui.hoverable.norepair=機械の損傷が多すぎます。
+GT5U.gui.hoverable.manualshutdown=手動シャットダウン。
+GT5U.gui.hoverable.error=エラー！報告してください！
 
 GT5U.gui.config.client=クライアント
 GT5U.gui.config.client.color_modulation=色の変更
@@ -3306,7 +3307,12 @@ GT5U.item.cable.max_voltage=最大電圧
 GT5U.item.cable.max_amperage=最大アンペア数
 GT5U.item.cable.loss=1ブロック・アンペア毎の減衰量
 GT5U.item.cable.loss.eu_volt=%s EU-Volt
+GT5U.item.cable.connected=Connected
+GT5U.item.cable.disconnected=Disconnected
 GT5U.item.cable.swapped.s=ケーブルを換装しました: %s
+GT5U.item.cable.multi.infinite_loop=Error: cable traversal limit exceeded. This is probably a bug, please report it.
+GT5U.item.cable.multi.success=Found %d cables, connected %d cables and %d blocks.
+
 GT5U.item.tank.locked_to=次の流体でロックされています: %s
 
 GT5U.item.pipe.capacity=輸送量
@@ -4935,6 +4941,10 @@ gt.item.circuit.chip.bio_cpu.tooltip=バイオCPU
 gt.item.circuit.chip.optical.name=生の露出光チップ
 gt.item.circuit.chip.optical.tooltip=生の光学的なチップ
 
+## Basic Electronic Circuit
+gt.item.circuit.basic_electronic.name=Basic Electronic Circuit
+gt.item.circuit.basic_electronic.tooltip=A Basic Circuit
+
 ## NAND Chip
 gt.item.nand_chip.name=NANDチップ
 gt.item.nand_chip.tooltip=非常に簡素な電子回路
@@ -4950,6 +4960,10 @@ gt.item.circuit.integrated_processor.tooltip=良い電子回路
 ## Good Integrated Circuit
 gt.item.circuit.good_integrated.name=改良型集積回路
 gt.item.circuit.good_integrated.tooltip=良い電子回路
+
+## Advanced Integrated Circuit
+gt.item.circuit.advanced_integrated.name=Advanced Integrated Circuit
+gt.item.circuit.advanced_integrated.tooltip=An Advanced Circuit
 
 ## Nano Circuits
 gt.item.circuit.nano_processor.name=ナノプロセッサー
@@ -5018,6 +5032,12 @@ gt.item.circuit_board.bio_ultra.name=伝説型遺伝工学回路基板
 gt.item.circuit_board.bio_ultra.tooltip=遺伝的に変異した回路基板
 gt.item.circuit_board.optical.name=光学型回路基板
 gt.item.circuit_board.optical.tooltip=光学的な注入処理を施された回路基板
+gt.item.circuit_board.exotic.name=Exotic Circuit Board
+gt.item.circuit_board.exotic.tooltip=Exotic Matter Infused Board
+gt.item.circuit_board.cosmic.name=Cosmic Circuit Board
+gt.item.circuit_board.cosmic.tooltip=Cosmos Infused Board
+gt.item.circuit_board.transcendent.name=Temporally Transcendent Circuit Board
+gt.item.circuit_board.transcendent.tooltip=Temporally Warped Board
 
 ## Optical Circuits
 gt.item.circuit.optical_processor.name=オプティカルプロセッサー
@@ -6749,6 +6769,7 @@ GT5U.tooltip.volumetric_flask.set_volume=空中に向けて右クリックして
 
 GT5U.tooltip.purify.1=大釜に投げ入れて粉をきれいにできます
 GT5U.tooltip.purify.2=大釜に投げ入れて粉砕した鉱石をきれいにできます
+GT5U.tooltip.flour.cauldron=Throw into Cauldron with Water to make Dough
 GT5U.tooltip.nqgen=濃縮ナクアダ燃料の代わりとして使えます
 
 # Scanner info
