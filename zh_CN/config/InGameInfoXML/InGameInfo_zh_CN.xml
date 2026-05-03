@@ -61,6 +61,35 @@
         </line>
         <line>
             <icon>
+                <str>witchery:mooncharm</str>
+            </icon>
+            <str> 月相: </str>
+            <op>
+                <str>eq</str>
+                <modi>
+                    <var>day</var>
+                    <num>8</num>
+                </modi>
+                <num>0</num>
+                <num>1</num>
+                <num>2</num>
+                <num>3</num>
+                <num>4</num>
+                <num>5</num>
+                <num>6</num>
+                <num>7</num>
+                <str>{yellow}满月 (1/4)</str>
+                <str>{yellow}亏凸月 (2/4)</str>
+                <str>{yellow}下弦月 (3/4)</str>
+                <str>{yellow}残月 (4/4)</str>
+                <str>{gray}新月 (1/4)</str>
+                <str>{gray}峨眉月 (2/4)</str>
+                <str>{gray}上弦月 (3/4)</str>
+                <str>{gray}盈凸月 (4/4)</str>
+            </op>
+        </line>
+        <line>
+            <icon>
                 <str>HardcoreEnderExpansion:temple_end_portal</str>
             </icon>
             <str> 世界：{gold} </str>
@@ -817,7 +846,7 @@
                 <greater>
                     <round>
                         <sub>
-                            <var>bmlp</var>
+                            <var>bmlpNum</var>
                             <div>
                                 <num>1000000000</num><num>2</num>
                             </div>
@@ -831,7 +860,7 @@
                         <div>
                             <round>
                                 <sub>
-                                    <var>bmlp</var>
+                                    <var>bmlpNum</var>
                                     <div>
                                         <num>1000000000</num><num>2</num>
                                     </div>
@@ -849,7 +878,7 @@
                 <greater>
                     <round>
                         <sub>
-                            <var>bmlp</var>
+                            <var>bmlpNum</var>
                             <div>
                                 <num>1000000000</num><num>2</num>
                             </div>
@@ -867,7 +896,7 @@
                                         <sub>
                                                 <round>
                                                     <sub>
-                                                        <var>bmlp</var>
+                                                        <var>bmlpNum</var>
                                                         <div>
                                                             <num>1000000</num><num>2</num>
                                                         </div>
@@ -876,7 +905,7 @@
                                                 </round>
                                                 <round>
                                                     <sub>
-                                                        <var>bmlp</var>
+                                                        <var>bmlpNum</var>
                                                         <div>
                                                             <num>1000000000</num><num>2</num>
                                                         </div>
@@ -905,7 +934,7 @@
                                                 <sub>
                                                         <round>
                                                             <sub>
-                                                                <var>bmlp</var>
+                                                                <var>bmlpNum</var>
                                                                 <div>
                                                                     <num>1000000</num><num>2</num>
                                                                 </div>
@@ -913,8 +942,8 @@
                                                             <num>-6</num>
                                                         </round>
                                                         <sub>
-                                                            <var>bmlp</var>
-                                                            <modi><var>bmlp</var><num>1000000000</num></modi>
+                                                            <var>bmlpNum</var>
+                                                            <modi><var>bmlpNum</var><num>1000000000</num></modi>
                                                         </sub>
                                                 </sub>
                                                 <num>1000000</num>
@@ -938,7 +967,7 @@
                         <sub>
                                 <round>
                                     <sub>
-                                        <var>bmlp</var>
+                                        <var>bmlpNum</var>
                                         <div>
                                             <num>1000000</num><num>2</num>
                                         </div>
@@ -947,7 +976,7 @@
                                 </round>
                                 <round>
                                     <sub>
-                                        <var>bmlp</var>
+                                        <var>bmlpNum</var>
                                         <div>
                                             <num>1000000000</num><num>2</num>
                                         </div>
@@ -965,7 +994,7 @@
                 <greater>
                     <round>
                         <sub>
-                            <var>bmlp</var>
+                            <var>bmlpNum</var>
                             <div>
                                 <num>1000000</num><num>2</num>
                             </div>
@@ -983,7 +1012,7 @@
                                         <sub>
                                                 <round>
                                                     <sub>
-                                                        <var>bmlp</var>
+                                                        <var>bmlpNum</var>
                                                         <div>
                                                             <num>1000</num><num>2</num>
                                                         </div>
@@ -992,7 +1021,7 @@
                                                 </round>
                                                 <round>
                                                     <sub>
-                                                        <var>bmlp</var>
+                                                        <var>bmlpNum</var>
                                                         <div>
                                                             <num>1000000</num><num>2</num>
                                                         </div>
@@ -1021,7 +1050,7 @@
                                                 <sub>
                                                         <round>
                                                             <sub>
-                                                                <var>bmlp</var>
+                                                                <var>bmlpNum</var>
                                                                 <div>
                                                                     <num>1000</num><num>2</num>
                                                                 </div>
@@ -1029,8 +1058,8 @@
                                                             <num>-3</num>
                                                         </round>
                                                         <sub>
-                                                            <var>bmlp</var>
-                                                            <modi><var>bmlp</var><num>1000000</num></modi>
+                                                            <var>bmlpNum</var>
+                                                            <modi><var>bmlpNum</var><num>1000000</num></modi>
                                                         </sub>
                                                 </sub>
                                                 <num>1000</num>
@@ -1054,7 +1083,7 @@
                         <sub>
                                 <round>
                                     <sub>
-                                        <var>bmlp</var>
+                                        <var>bmlpNum</var>
                                         <div>
                                             <num>1000</num><num>2</num>
                                         </div>
@@ -1063,7 +1092,7 @@
                                 </round>
                                 <round>
                                     <sub>
-                                        <var>bmlp</var>
+                                        <var>bmlpNum</var>
                                         <div>
                                             <num>1000000</num><num>2</num>
                                         </div>
@@ -1081,7 +1110,7 @@
                 <greater>
                     <round>
                         <sub>
-                            <var>bmlp</var>
+                            <var>bmlpNum</var>
                             <div>
                                 <num>1000</num><num>2</num>
                             </div>
@@ -1097,10 +1126,10 @@
                                 <sub>
                                     <div>
                                         <sub>
-                                                <var>bmlp</var>
+                                                <var>bmlpNum</var>
                                                 <round>
                                                     <sub>
-                                                        <var>bmlp</var>
+                                                        <var>bmlpNum</var>
                                                         <div>
                                                             <num>1000</num><num>2</num>
                                                         </div>
@@ -1127,10 +1156,10 @@
                                         <sub>
                                             <div>
                                                 <sub>
-                                                        <var>bmlp</var>
+                                                        <var>bmlpNum</var>
                                                         <round>
                                                             <sub>
-                                                                <var>bmlp</var>
+                                                                <var>bmlpNum</var>
                                                                 <div>
                                                                     <num>1000</num><num>2</num>
                                                                 </div>
@@ -1159,7 +1188,7 @@
                         <sub>
                                 <round>
                                     <sub>
-                                        <var>bmlp</var>
+                                        <var>bmlpNum</var>
                                         <div>
                                             <num>1</num><num>2</num>
                                         </div>
@@ -1168,7 +1197,7 @@
                                 </round>
                                 <round>
                                     <sub>
-                                        <var>bmlp</var>
+                                        <var>bmlpNum</var>
                                         <div>
                                             <num>1000</num><num>2</num>
                                         </div>
@@ -1189,7 +1218,7 @@
                 <greater>
                     <round>
                         <sub>
-                            <var>bmmaxlp</var>
+                            <var>bmmaxlpNum</var>
                             <div>
                                 <num>1000000000</num><num>2</num>
                             </div>
@@ -1203,7 +1232,7 @@
                         <div>
                             <round>
                                 <sub>
-                                    <var>bmmaxlp</var>
+                                    <var>bmmaxlpNum</var>
                                     <div>
                                         <num>1000000000</num><num>2</num>
                                     </div>
@@ -1221,7 +1250,7 @@
                 <greater>
                     <round>
                         <sub>
-                            <var>bmmaxlp</var>
+                            <var>bmmaxlpNum</var>
                             <div>
                                 <num>1000000000</num><num>2</num>
                             </div>
@@ -1239,7 +1268,7 @@
                                         <sub>
                                                 <round>
                                                     <sub>
-                                                        <var>bmmaxlp</var>
+                                                        <var>bmmaxlpNum</var>
                                                         <div>
                                                             <num>1000000</num><num>2</num>
                                                         </div>
@@ -1248,7 +1277,7 @@
                                                 </round>
                                                 <round>
                                                     <sub>
-                                                        <var>bmmaxlp</var>
+                                                        <var>bmmaxlpNum</var>
                                                         <div>
                                                             <num>1000000000</num><num>2</num>
                                                         </div>
@@ -1277,7 +1306,7 @@
                                                 <sub>
                                                         <round>
                                                             <sub>
-                                                                <var>bmmaxlp</var>
+                                                                <var>bmmaxlpNum</var>
                                                                 <div>
                                                                     <num>1000000</num><num>2</num>
                                                                 </div>
@@ -1285,8 +1314,8 @@
                                                             <num>-6</num>
                                                         </round>
                                                         <sub>
-                                                            <var>bmmaxlp</var>
-                                                            <modi><var>bmmaxlp</var><num>1000000000</num></modi>
+                                                            <var>bmmaxlpNum</var>
+                                                            <modi><var>bmmaxlpNum</var><num>1000000000</num></modi>
                                                         </sub>
                                                 </sub>
                                                 <num>1000000</num>
@@ -1310,7 +1339,7 @@
                         <sub>
                                 <round>
                                     <sub>
-                                        <var>bmmaxlp</var>
+                                        <var>bmmaxlpNum</var>
                                         <div>
                                             <num>1000000</num><num>2</num>
                                         </div>
@@ -1319,7 +1348,7 @@
                                 </round>
                                 <round>
                                     <sub>
-                                        <var>bmmaxlp</var>
+                                        <var>bmmaxlpNum</var>
                                         <div>
                                             <num>1000000000</num><num>2</num>
                                         </div>
@@ -1337,7 +1366,7 @@
                 <greater>
                     <round>
                         <sub>
-                            <var>bmmaxlp</var>
+                            <var>bmmaxlpNum</var>
                             <div>
                                 <num>1000000</num><num>2</num>
                             </div>
@@ -1355,7 +1384,7 @@
                                         <sub>
                                                 <round>
                                                     <sub>
-                                                        <var>bmmaxlp</var>
+                                                        <var>bmmaxlpNum</var>
                                                         <div>
                                                             <num>1000</num><num>2</num>
                                                         </div>
@@ -1364,7 +1393,7 @@
                                                 </round>
                                                 <round>
                                                     <sub>
-                                                        <var>bmmaxlp</var>
+                                                        <var>bmmaxlpNum</var>
                                                         <div>
                                                             <num>1000000</num><num>2</num>
                                                         </div>
@@ -1393,7 +1422,7 @@
                                                 <sub>
                                                         <round>
                                                             <sub>
-                                                                <var>bmmaxlp</var>
+                                                                <var>bmmaxlpNum</var>
                                                                 <div>
                                                                     <num>1000</num><num>2</num>
                                                                 </div>
@@ -1401,8 +1430,8 @@
                                                             <num>-3</num>
                                                         </round>
                                                         <sub>
-                                                            <var>bmmaxlp</var>
-                                                            <modi><var>bmmaxlp</var><num>1000000</num></modi>
+                                                            <var>bmmaxlpNum</var>
+                                                            <modi><var>bmmaxlpNum</var><num>1000000</num></modi>
                                                         </sub>
                                                 </sub>
                                                 <num>1000</num>
@@ -1426,7 +1455,7 @@
                         <sub>
                                 <round>
                                     <sub>
-                                        <var>bmmaxlp</var>
+                                        <var>bmmaxlpNum</var>
                                         <div>
                                             <num>1000</num><num>2</num>
                                         </div>
@@ -1435,7 +1464,7 @@
                                 </round>
                                 <round>
                                     <sub>
-                                        <var>bmmaxlp</var>
+                                        <var>bmmaxlpNum</var>
                                         <div>
                                             <num>1000000</num><num>2</num>
                                         </div>
@@ -1453,7 +1482,7 @@
                 <greater>
                     <round>
                         <sub>
-                            <var>bmmaxlp</var>
+                            <var>bmmaxlpNum</var>
                             <div>
                                 <num>1000</num><num>2</num>
                             </div>
@@ -1469,10 +1498,10 @@
                                 <sub>
                                     <div>
                                         <sub>
-                                                <var>bmmaxlp</var>
+                                                <var>bmmaxlpNum</var>
                                                 <round>
                                                     <sub>
-                                                        <var>bmmaxlp</var>
+                                                        <var>bmmaxlpNum</var>
                                                         <div>
                                                             <num>1000</num><num>2</num>
                                                         </div>
@@ -1499,10 +1528,10 @@
                                         <sub>
                                             <div>
                                                 <sub>
-                                                        <var>bmmaxlp</var>
+                                                        <var>bmmaxlpNum</var>
                                                         <round>
                                                             <sub>
-                                                                <var>bmmaxlp</var>
+                                                                <var>bmmaxlpNum</var>
                                                                 <div>
                                                                     <num>1000</num><num>2</num>
                                                                 </div>
@@ -1531,7 +1560,7 @@
                         <sub>
                                 <round>
                                     <sub>
-                                        <var>bmmaxlp</var>
+                                        <var>bmmaxlpNum</var>
                                         <div>
                                             <num>1</num><num>2</num>
                                         </div>
@@ -1540,7 +1569,7 @@
                                 </round>
                                 <round>
                                     <sub>
-                                        <var>bmmaxlp</var>
+                                        <var>bmmaxlpNum</var>
                                         <div>
                                             <num>1000</num><num>2</num>
                                         </div>
