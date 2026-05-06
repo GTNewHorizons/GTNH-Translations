@@ -24,10 +24,7 @@ class Mod:
                 if isinstance(mod_info, dict):
                     mod_list = mod_list.get("modList")
                 first_mod_name = mod_list[0].get("name")
-                if len(mod_list) == 1:
-                    return replace_illegal_characters(first_mod_name)
-                else:
-                    return replace_illegal_characters(f"{first_mod_name}(+{len(mod_list) - 1})")
+                return replace_illegal_characters(first_mod_name)
         except KeyError:
             return "__no-modinfo"
 

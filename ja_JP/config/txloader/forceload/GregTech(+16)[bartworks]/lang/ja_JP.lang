@@ -1,3 +1,7 @@
+# Components
+gt.oreprefix.bolted_material_casing=ボルト締め%s製外装
+gt.oreprefix.rebolted_material_casing=二重ボルト締め%s製外装
+
 itemGroup.GT2C=BartWorks (GT2互換)
 item.GT_Rockcutter_Item_LV.name=ロックカッター (LV)
 item.GT_Rockcutter_Item_MV.name=ロックカッター (MV)
@@ -232,7 +236,7 @@ item.CircuitParts.Imprint.name=Circuit Imprint
 item.CircuitParts.Sliced.name=Sliced Circuit
 item.CircuitParts.RawImprintBoard.name=Raw Imprint supporting Board
 item.CircuitParts.ImprintBoard.name=Imprint supporting Board
-item.CircuitParts.Wrap.name=Wrap of %s
+item.CircuitParts.Wrap.name=梱包された%s
 
 itemGroup.bartworksMetaMaterials=BartWorks (メタ素材)
 
@@ -265,12 +269,12 @@ BW.NEI.display.radhatch.0=放射線量: %s Sv
 BW.NEI.display.radhatch.1=質量: %s kg
 BW.NEI.display.radhatch.2=時間: %s 秒
 
-misc.BatchModeTextOn=バッチレシピ
-misc.BatchModeTextOff=バッチレシピを使用しない
-
 tooltip.cal.imprintedWith=刻印されたもの: %s
 chat.cal.mode.0=モード: 電子回路組立ライン
 chat.cal.mode.1=モード: 電子回路組立機
+
+chat.proxy.reverse.false=§aRegular§r Recipe Order
+chat.proxy.reverse.true=§dReversed§r Recipe Order
 #Liquids
 
 # gui

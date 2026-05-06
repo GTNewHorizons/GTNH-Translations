@@ -1,7 +1,7 @@
 ggfab.recipe.toolcast=Werkzeug Gussmaschine
 
-ggfab.info.advassline.0=Advanced Assembly Line Help
-ggfab.info.advassline.1=This is advanced assembly line from §6GigaGram§rFab.
+ggfab.info.advassline.0=Hilfe für Fortgeschrittene Komponenten-Montagelinie
+ggfab.info.advassline.1=Dies ist eine Fortgeschrittene Komponenten-Montagelinie vom §6GigaGram§r-Fab.
 ggfab.info.advassline.2=It supports item pipelining. That is, it will mimic a real assembly line by consuming ingredients one by one instead of all at start. In effect, it offers a parallelism up to however many item input this recipe requires.
 ggfab.info.advassline.3=You can think of an advanced assembly line as a collection of assembly slices. Each assembly slice is capably of processing each step independent of other slices.
 ggfab.info.advassline.4=It will start processing once the input bus contents align with any stored data stick. The first slice will consume the input in Bus #1. After (recipe time/number of inputs) time, the first slice's work is concluded and will start the second slice. At the same time, first slice will look for input in input bus #1. If there are still enough input there slice #1 will start working again.
@@ -16,26 +16,26 @@ ggfab.waila.advassline.slice.stuck=Slice #%s: §4STUCK
 ggfab.gui.advassline.slice.idle=Slice #%s: Idle
 ggfab.gui.advassline.slice.stuck=Slice #%s: §4STUCK
 ggfab.gui.advassline.slice.unknown=Slice #%s: ?
-ggfab.gui.advassline.shutdown=§4Last abnormal shutdown reason:
-ggfab.gui.advassline.shutdown_clear=§6Clear
-ggfab.gui.advassline.shutdown.input_busses=§4Too few input busses to support current recipe
-ggfab.gui.advassline.shutdown.recipe_null=§4Recipe is null (report to author)
-ggfab.gui.advassline.shutdown.fluid_null=§4Fluid drained failed (check your ME fluid storage)
-ggfab.gui.advassline.shutdown.structure=§4Incompatible structural change
-ggfab.gui.advassline.shutdown.energy=§4Insufficient power
+ggfab.gui.advassline.shutdown=§4Letzter Grund für den abnormales Abschalten:
+ggfab.gui.advassline.shutdown_clear=§6Geleert
+ggfab.gui.advassline.shutdown.input_busses=§4Zu wenige Input-Busse, um das aktuelle Rezept zu unterstützen
+ggfab.gui.advassline.shutdown.recipe_null=§4Das Rezept ist nicht vorhanden (dem Autor melden)
+ggfab.gui.advassline.shutdown.fluid_null=§4Flüssigkeitsablauf fehlgeschlagen (überprüfe deinen ME-Flüssigkeitsspeicher)
+ggfab.gui.advassline.shutdown.structure=§4Inkompatible strukturelle Änderung
+ggfab.gui.advassline.shutdown.energy=§4Zu wenig Strom
 ggfab.gui.advassline.shutdown.load.energy=§4Loaded invalid electric stat
-ggfab.gui.advassline.shutdown.load.recipe=§4Incompatible recipe change
+ggfab.gui.advassline.shutdown.load.recipe=§4Inkompatible Rezeptänderung
 
-ggfab.info.linked_input_bus.not_owned=§6The settings were copied from a different owner!
-ggfab.info.linked_input_bus.no_data=§6Configuration data not found!
-ggfab.info.linked_input_bus.invalid_data=§6Configuration data was found but it is invalid!
+ggfab.info.linked_input_bus.not_owned=§6Die Einstellungen wurden von einem anderen Besitzer kopiert!
+ggfab.info.linked_input_bus.no_data=§6Konfigurationsdaten nicht gefunden!
+ggfab.info.linked_input_bus.invalid_data=§6Konfigurationsdaten gefunden, aber sind ungültig!
 ggfab.info.linked_input_bus.invalid_circuit=§6Configuration data was found but it contains a circuit not valid on this bus!
 ggfab.info.linked_input_bus.data_pasted=§2Pasted channel ("%s§2") and configuration circuit setting!
 ggfab.info.linked_input_bus.data_copied=§2Copied channel ("%s§2") and configuration circuit setting!
-ggfab.info.linked_input_bus.no_channel=§6No channel specified yet!
+ggfab.info.linked_input_bus.no_channel=§6Es wurde noch kein Kanal angegeben!
 
 ggfab.info.biome=Biom:
 
-ggfab.tooltip.linked_input_bus.change_freq_warn=Changing channel while this is the last one on this channel will spill all items left!
+ggfab.tooltip.linked_input_bus.change_freq_warn=Wenn du den Kanal wechselst, während dieser der letzte auf diesem Kanal ist, werden alle verbleibenden Gegenstände ausgeworfen!
 ggfab.tooltip.linked_input_bus.private=Private Kanäle werden nicht mit anderen geteilt.
-ggfab.tooltip.linked_input_bus.private.1=Changing channel while this is the last one on this channel will spill all items left!
+ggfab.tooltip.linked_input_bus.private.1=Wenn du den Kanal wechselst, während dieser der letzte auf diesem Kanal ist, werden alle verbleibenden Gegenstände ausgeworfen!

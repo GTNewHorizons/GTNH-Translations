@@ -1,37 +1,37 @@
-tile.air.name=Air
-tile.personalSpacePortal.name=Personal Dimension Portal
-tile.personalSpacePortalLegacy.name=Legacy Personal Dimension Portal (UW Migration)
+tile.air.name=空気
+tile.personalSpacePortal.name=パーソナルディメンションポータル
+tile.personalSpacePortalLegacy.name=レガシー・パーソナルディメンションポータ (UW移行用)
 
 chat.overworldPersonalDimension=Personal dimensions can only be created from the overworld
-chat.personalWorld.created=Personal dimension successfully created!
-chat.personalWorld.updated=Personal dimension successfully updated!
-chat.personalWorld.relinked=Portal successfully relinked in dimension %d
+chat.personalWorld.created=パーソナルディメンションの生成が完了しました！
+chat.personalWorld.updated=パーソナルディメンションの更新が完了しました！
+chat.personalWorld.relinked=ディメンション %d への接続が問題なく完了しました
 chat.personalWorld.relinked.error=Portal was not relinked, it would cause losing access to the dimension.
 chat.personalWorld.proximity=Too close to another portal.
 chat.personalWorld.denied=Settings not changed: access denied.
 chat.personalWorld.badLayers=Settings not changed: using forbidden block layers.
 
-gui.personalWorld.voidWorld=Void world
-gui.personalWorld.biome=Biome name
-gui.personalWorld.presets=Presets
-gui.personalWorld.layers=Layers
+gui.personalWorld.voidWorld=虚空世界
+gui.personalWorld.biome=バイオーム
+gui.personalWorld.presets=プリセット
+gui.personalWorld.layers=地面の層
 
-gui.personalWorld.skyColor=Sky color
-gui.personalWorld.skyColor.red=Red: 
-gui.personalWorld.skyColor.green=Green: 
-gui.personalWorld.skyColor.blue=Blue: 
-gui.personalWorld.starBrightness=Star brightness
+gui.personalWorld.skyColor=空の色
+gui.personalWorld.skyColor.red=赤: 
+gui.personalWorld.skyColor.green=緑: 
+gui.personalWorld.skyColor.blue=青: 
+gui.personalWorld.starBrightness=星の明るさ
 
-gui.personalWorld.vegetation=Foliage
-gui.personalWorld.trees=Trees
-gui.personalWorld.weather=Weather
-gui.personalWorld.clouds=Clouds
+gui.personalWorld.vegetation=草の有無
+gui.personalWorld.trees=木の生成
+gui.personalWorld.weather=雨の有無
+gui.personalWorld.clouds=雲の有無
 
 gui.personalWorld.invalidSyntax=Invalid syntax
 gui.personalWorld.notAllowed=Not allowed by the server's configuration
 
-gui.personalWorld.skyType.VANILLA=Vanilla sky
-gui.personalWorld.skyType.BARNADA_C=Barnada C sky
+gui.personalWorld.skyType.VANILLA=バニラの空
+gui.personalWorld.skyType.BARNADA_C=バーナードCの空
 gui.personalWorld.skyType.GARDEN_OF_GLASS=Garden of Glass sky
 
 commands.pspace.usage=/pspace (give-portal player DIM [X] [Y] [Z])|(tpx player DIM [X Y Z])|(ls)|(where player)|(allow-worldgen-change DIM)

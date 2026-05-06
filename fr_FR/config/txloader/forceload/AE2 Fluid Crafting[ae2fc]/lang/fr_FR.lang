@@ -77,7 +77,6 @@ tile.fluid_auto_filler.name=Remplisseur ME auto Fluides
 tile.certus_quartz_tank.name=Réservoir Quartz Certus - %s
 tile.certus_quartz_tank_empty.name=Réservoir Quartz Certus
 
-ae2fc.waila.speed=Vitesse
 ae2fc.waila.enable=Activer
 ae2fc.waila.disable=Désactiver
 
@@ -120,14 +119,11 @@ ae2fc.tooltip.ultra_terminal.tips=Conseils :
 ae2fc.tooltip.ultra_terminal.tips.desc=1. Vous pouvez le mettre dans l'emplacement des Babioles et utiliser le raccourci clavier pour l'ouvrir.\n2. En mode interface, maintenez §3Maj§7 pour faire basculer le bouton de renommage de l'interface.\n3. Lorsque vous êtes dans l'écran de crafts, maintenez §3Maj§7 pour cliquer sur le bouton d'annulation.\nMaintenir §3Maj§7 pour cliquer sur le bouton d'annulation marquera automatiquement les objets manquants sur NEI.
 ae2fc.tooltip.ultra_terminal.restock.on=Restock activated
 ae2fc.tooltip.ultra_terminal.restock.off=Restock deactivated
-ae2fc.tooltip.infinity_fluid=§aInfinité§r
 ae2fc.tooltip.fluid_storage.void=Where nothing is everything, and everything is nothing
 
 ae2fc.tooltip.quantum_bridge_card.desc=Allows wireless terminals to connect to a quantum bridge, allowing for unlimited range
 ae2fc.tooltip.energy_card.desc=Infinite Energy for the Wireless Terminal
 
-ae2fc.tooltip.cell_contents=Contient les fluides :
-ae2fc.tooltip.cell_empty=Capsule vide
 ae2fc.tooltip.cell_portable=Clic-droit pour ouvrir son écran. Ça fonctionne comme un sac-à-dos, mais vous devez le charger avant de l'utiliser.
 ae2fc.tooltip.fluid_terminal=euh on a plus besoin d'EC2 ?
 ae2fc.tooltip.level_terminal=euh...
@@ -157,14 +153,17 @@ ae2fc.tooltip.prio.hint=Activé
 ae2fc.tooltip.submit=Soumettre
 ae2fc.tooltip.enable=Activé
 ae2fc.tooltip.disable=Désactivé
-ae2fc.tooltip.edit=Éditer
+ae2fc.tooltip.rename=Rename
 ae2fc.tooltip.view=Voir
 ae2fc.tooltip.fill_pattern=Allow auto fill blank pattern
 ae2fc.tooltip.not_fill_pattern=Allow auto fill blank pattern
 ae2fc.tooltip.fill_pattern.hint=Activé
 ae2fc.tooltip.not_fill_pattern.hint=Désactivé
-ae2fc.tooltip.open_configuration=Ouvrir la configuration
+ae2fc.tooltip.open_gui=Open GUI
 ae2fc.tooltip.block_highlight=Mettre le bloc en évidence
+ae2fc.tooltip.level_terminal.hint_rename=§6SHIFT§8 - §7Rename
+ae2fc.tooltip.level_terminal.hint_open_gui=§6CTRL§8 - §7Open GUI
+ae2fc.tooltip.level_terminal.hint_other_dimension=§eCannot perform any action: target is in another dimension
 
 ae2fc.tooltip.magnet_card.off=Magnet Card
 ae2fc.tooltip.magnet_card.off.hint=Off
@@ -179,8 +178,6 @@ ae2fc.tooltip.restock.on.hint=Enable
 ae2fc.tooltip.restock.off=Toggle Restock
 ae2fc.tooltip.restock.off.hint=Disable
 
-ae2fc.gui.part_fluid_pattern_terminal=Fluid Pattern Terminal
-ae2fc.gui.part_fluid_pattern_terminal_ex=Fluid Processing Pattern Terminal
 ae2fc.gui.part_level_terminal=Terminal des niveaux
 ae2fc.gui.fluid_pattern_encoder=Fluid Pattern Encoder
 ae2fc.gui.fluid_packet_decoder=ME Fluid Packet Decoder
@@ -196,11 +193,6 @@ ae2fc.gui.fluid_interface.4=O
 ae2fc.gui.fluid_interface.5=E
 ae2fc.gui.oc_pattern_editor=OC Pattern Editor
 ae2fc.gui.button.set=Régler
-ae2fc.gui.part_fluid_level_emitter=ME Fluid Level Emitter
-ae2fc.gui.part_fluid_import=Bus ME d'import de Fluides
-ae2fc.gui.part_fluid_export=Bus ME d'export de Fluides
-ae2fc.gui.part_fluid_terminal=ME Fluid Terminal
-ae2fc.gui.part_fluid_storage_bus=Bus de stockage ME de fluide
 ae2fc.gui.fluid_auto_filler=ME Fluid Auto Filler
 
 ae2fc.gui.magnet=Magnet Filter
