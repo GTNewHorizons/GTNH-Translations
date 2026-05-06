@@ -15,6 +15,8 @@ chat.warptheory.deadlywarp=종이에 불이 붙었습니다
 chat.warptheory.permanentwarp=영구적인 뒤틀림
 chat.warptheory.normalwarp=일반 뒤틀림
 chat.warptheory.tempwarp=일시적인 뒤틀림
+chat.warptheory.potionwarning.1=§c§l§nWARNING§r§c: drinking this potion will reset §lALL warp, research, scanned items, and discovered aspects§r§c!
+chat.warptheory.potionwarning.2=§cContinue drinking for §l10 seconds§r§c if you are absolutely certain you want to reset everything.
 
 # << Item names >>
 item.warptheory.cleanserminor.name=불순한 눈물
@@ -22,6 +24,7 @@ item.warptheory.cleanser.name=순수한 눈물
 item.warptheory.amulet.name=Purification Talisman
 item.warptheory.something.name=무언가의 덩어리
 item.warptheory.paper.name=아케인 리트머스 종이
+item.warptheory.oblivionpotion.name=Potion of Blissful Oblivion
 
 # << entity names >>
 entity.WarpTheory.taintSheepSafe.name=테인트 양
@@ -37,6 +40,7 @@ tooltip.warptheory.amulet=Purges Warp
 tooltip.warptheory.something=아마 먹을 수 있을 것 같습니다...
 tooltip.warptheory.paper=뒤틀림에 반응합니다
 tooltip.warptheory.portableshower=Showers off your filth
+tooltip.warptheory.oblivionpotion=§c§l§nThe ultimate contingency plan§r
 
 # << portable shower >>
 tc.research_name.warptheory.portableshower=Portable Shower
@@ -67,6 +71,12 @@ research.warptheory.amulet=You've discovered a process by which the purifying pr
 tc.research_name.warptheory.paper=아케인 리트머스 종이
 tc.research_text.warptheory.paper=Almost scientific
 research.warptheory.paper=You've decided that you'll need something somewhat more accurate than counting the strange events that happen around you to gauge the buildup of negative magical energy in your body.<BR>By imbuing some paper with Salis Mundus and the essence of water, you've created a means to get a read on just how much danger you've been exposing yourself to.
+
+# << Oblivion Potion >>
+tc.research_name.warptheory.oblivionpotion=Potion of Blissful Oblivion
+tc.research_text.warptheory.oblivionpotion=Uncork in case of emergency
+research.warptheory.oblivionpotion.1=Knowledge may be power, but some say that ignorance is bliss. Should you find yourself at a true dead end, your mind burdened beyond recovery by warp, you have devised a final contingency: the Potion of Blissful Oblivion.<BR>Upon drinking this concoction, your warp is purged entirely. Yet such peace comes at a terrible cost: your knowledge of all research, every object scanned with the thaumometer, and every aspect you have discovered will be lost.
+research.warptheory.oblivionpotion.2=This loss is absolute and irreversible. You will be forced to begin your pursuit of knowledge from the very beginning. Though more refined methods of cleansing the mind may exist, this potion remains a desperate, but reliable, last resort.
 
 # << chat warp effects >>
 chat.warptheory.bats=The sounds of wingbeats fill the air...
