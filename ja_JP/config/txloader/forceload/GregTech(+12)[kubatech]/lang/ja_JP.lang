@@ -4,26 +4,26 @@
 kubatech.defusioncrafter=Draconic Evolutionフュージョンクラフター
 
 #NEI
-kubatech.defusioncrafter.tier=Tier Casing: %s
-kubatech.mobhandler.eec_chance=§5Chance to drop in EEC: %.2f%%
-kubatech.mobhandler.eec_disabled=§5Does not drop in EEC
+kubatech.defusioncrafter.tier=外装Tier: %s
+kubatech.mobhandler.eec_chance=§5EECでドロップする確率: %.2f%%
+kubatech.mobhandler.eec_disabled=§5EECでドロップしない
 
 #Commands
-kubatech.commandhandler.invalid=§cInvalid use ! The proper use of this command is /%s
-kubatech.commandhandler.cant_find=§cCan't find command option %s
-kubatech.commandhandler.generic_help=§cYou can also use "/kubatech help" to get possible commands
-kubatech.commandhandler.usage=<option>
-kubatech.command.help.possible_commands=Possible commands: 
-kubatech.command.help.usage=- Shows all possible commands
-kubatech.command.config.invalid_option=§cInvalid option ! Possible options: reload
-kubatech.command.config.success=§aConfig reloaded successfully !
-kubatech.command.config.usage=<option>
+kubatech.commandhandler.invalid=§c使い方が間違っています！正しい使い方は"/%s"です
+kubatech.commandhandler.cant_find=§c%s というコマンドは見つかりませんでした
+kubatech.commandhandler.generic_help=§c"/kubatech help" を実行して利用可能なコマンドの一覧を表示します
+kubatech.commandhandler.usage=<設定>
+kubatech.command.help.possible_commands=利用可能なコマンド: 
+kubatech.command.help.usage=- すべての利用可能なコマンドを表示
+kubatech.command.config.invalid_option=§c無効な設定項目です！使用できる項目は次の通りです: reload
+kubatech.command.config.success=§a設定の再読み込みに成功しました！
+kubatech.command.config.usage=<設定>
 
-kubatech.command.tea.invalid_option=§cInvalid usage !
-kubatech.command.tea.player_not_found=§cPlayer not found !
-kubatech.command.tea.success_get=Player %s has %d Tea
-kubatech.command.tea.success_set=Player %s now has %d Tea
-kubatech.command.tea.success_add=Player %s now has %d Tea
+kubatech.command.tea.invalid_option=§c使い方が間違っています！
+kubatech.command.tea.player_not_found=§cプレイヤーが見つかりません！
+kubatech.command.tea.success_get=プレイヤー %s は%d個のお茶を持っています
+kubatech.command.tea.success_set=プレイヤー %s のお茶の所持数は現在%d個です
+kubatech.command.tea.success_add=プレイヤー %s のお茶の所持数は現在%d個です
 kubatech.command.tea.usage=<username> get/set/add (<amount>)
 
 #GUI
@@ -38,64 +38,64 @@ GT5U.gui.text.EIG_missingwater=No water!
 GT5U.gui.text.EIG_ic2glass=Insufficient glass tier!
 
 #Blocks
-kubablock.tea_acceptor.name=§4§lTea Acceptor
-kubablock.tea_storage.name=§4§lTea Storage Extender
+kubablock.tea_acceptor.name=§4§n茶受容器
+kubablock.tea_storage.name=§4§n茶容量拡張器
 
 #DEFC Casings
 defc.casing.tip=Draconic Evolutionフュージョンクラフターの外装、Tier %d
 
 #Items
-kubaitem.fromcollection=This item is from
-kubaitem.notyours=It looks like that item is not yours
+kubaitem.fromcollection=以下のコレクションからのアイテム
+kubaitem.notyours=そのアイテムは自分のものではないようだ
 kubaitem.defc_schematic_t1.name=ドラコニックコアの設計図
-kubaitem.defc_schematic_t1.tip=This Schematic can be found in Pluto Dungeons
+kubaitem.defc_schematic_t1.tip=冥王星のダンジョンで見つかる
 kubaitem.defc_schematic_t2.name=ワイバーンコアの設計図
 kubaitem.defc_schematic_t3.name=覚醒コアの設計図
 kubaitem.defc_schematic_t4.name=カオスコアの設計図
 
 #Tea
-kubaitem.tea.black_tea.name=Black Tea
-kubaitem.tea.earl_gray_tea.name=Earl Gray Tea
-kubaitem.tea.green_tea.name=Green Tea
-kubaitem.tea.lemon_tea.name=Lemon Tea
+kubaitem.tea.black_tea.name=紅茶
+kubaitem.tea.earl_gray_tea.name=アールグレイ
+kubaitem.tea.green_tea.name=緑茶
+kubaitem.tea.lemon_tea.name=レモンティー
 kubaitem.tea.milk_tea.name=ミルクティー
-kubaitem.tea.oolong_tea.name=Oolong Tea
-kubaitem.tea.peppermint_tea.name=Peppermint Tea
-kubaitem.tea.pu-erh_tea.name=Pu-erh Tea
-kubaitem.tea.white_tea.name=White Tea
-kubaitem.tea.yellow_tea.name=Yellow Tea
-kubaitem.teaingredient.black_tea_leaf.name=Black Tea Leaf
-kubaitem.teaingredient.green_tea_leaf.name=Green Tea Leaf
-kubaitem.teaingredient.oolong_tea_leaf.name=Oolong Tea Leaf
-kubaitem.teaingredient.pu-erh_tea_leaf.name=Pu-erh Tea Leaf
-kubaitem.teaingredient.white_tea_leaf.name=White Tea Leaf
-kubaitem.teaingredient.yellow_tea_leaf.name=Yellow Tea Leaf
-kubaitem.teaingredient.tea_leaf_dehydrated.name=Dehydrated Tea Leaf
-kubaitem.teaingredient.steamed_tea_leaf.name=Steamed Tea Leaf
-kubaitem.teaingredient.rolled_tea_leaf.name=Rolled Tea Leaf
-kubaitem.teaingredient.oxidized_tea_leaf.name=Oxidized Tea Leaf
-kubaitem.teaingredient.fermented_tea_leaf.name=Fermented Tea Leaf
-kubaitem.teaingredient.bruised_tea_leaf.name=Bruised Tea Leaf
-kubaitem.teaingredient.partially_oxidized_tea_leaf.name=Partially Oxidized Tea Leaf
+kubaitem.tea.oolong_tea.name=烏龍茶
+kubaitem.tea.peppermint_tea.name=ペパーミントティー
+kubaitem.tea.pu-erh_tea.name=プーアル茶
+kubaitem.tea.white_tea.name=白茶
+kubaitem.tea.yellow_tea.name=黄茶
+kubaitem.teaingredient.black_tea_leaf.name=紅茶の茶葉
+kubaitem.teaingredient.green_tea_leaf.name=緑茶の茶葉
+kubaitem.teaingredient.oolong_tea_leaf.name=烏龍茶の茶葉
+kubaitem.teaingredient.pu-erh_tea_leaf.name=プーアル茶の茶葉
+kubaitem.teaingredient.white_tea_leaf.name=白茶の茶葉
+kubaitem.teaingredient.yellow_tea_leaf.name=黄茶の茶葉
+kubaitem.teaingredient.tea_leaf_dehydrated.name=乾燥させた茶葉
+kubaitem.teaingredient.steamed_tea_leaf.name=蒸らした茶葉
+kubaitem.teaingredient.rolled_tea_leaf.name=巻いた茶葉
+kubaitem.teaingredient.oxidized_tea_leaf.name=酸化させた茶葉
+kubaitem.teaingredient.fermented_tea_leaf.name=発酵させた茶葉
+kubaitem.teaingredient.bruised_tea_leaf.name=傷ついた茶葉
+kubaitem.teaingredient.partially_oxidized_tea_leaf.name=少し酸化させた茶葉
 
 #Legendary Tea collection
 kubaitem.teacollection=超強力な伝説級の秘伝のお茶コレクション
-kubaitem.teacollection.mmm=Mmmm Tea
-kubaitem.teacollection.black_tea.name=§6§lKuba's Black Tea
-kubaitem.teacollection.butterfly_tea.name=§1§lKuba's Butterfly Pea Tea
-kubaitem.teacollection.earl_gray_tea.name=§6§lKuba's Earl Gray Tea
-kubaitem.teacollection.green_tea.name=§2§lKuba's Green Tea
-kubaitem.teacollection.lemon_tea.name=§e§lKuba's Lemon Tea
+kubaitem.teacollection.mmm=お茶
+kubaitem.teacollection.black_tea.name=§6§nKubaの紅茶
+kubaitem.teacollection.butterfly_tea.name=§1§nKubaのバタフライピーティー
+kubaitem.teacollection.earl_gray_tea.name=§6§nKubaのアールグレイ
+kubaitem.teacollection.green_tea.name=§2§nKubaの緑茶
+kubaitem.teacollection.lemon_tea.name=§e§nKubaのレモンティー
 kubaitem.teacollection.milk_tea.name=§f§n§lKuba§rのミルクティー
-kubaitem.teacollection.oolong_tea.name=§e§lKuba's Oolong Tea
-kubaitem.teacollection.peppermint_tea.name=§a§lKuba's Peppermint Tea
-kubaitem.teacollection.pu-erh_tea.name=§4§lKuba's Pu-erh Tea
-kubaitem.teacollection.red_tea.name=§c§lKuba's Hibiscus Tea
-kubaitem.teacollection.white_tea.name=§e§lKuba's White Tea
-kubaitem.teacollection.yellow_tea.name=§6§lKuba's Yellow Tea
-kubaitem.teacollection.ultimate_tea.name=§6§lKuba's %s §6§lTea
+kubaitem.teacollection.oolong_tea.name=§e§nKubaの烏龍茶
+kubaitem.teacollection.peppermint_tea.name=§a§nKubaのペパーミントティー
+kubaitem.teacollection.pu-erh_tea.name=§4§nKubaのプーアル茶
+kubaitem.teacollection.red_tea.name=§c§nKubaのハイビスカスティー
+kubaitem.teacollection.white_tea.name=§e§lKubaの白茶
+kubaitem.teacollection.yellow_tea.name=§6§lKubaの黄茶
+kubaitem.teacollection.ultimate_tea.name=§6§lKubaの%s§6§l茶
 
-kubaitem.tea_acceptor_research_note.name=Tea Acceptor Research Note
+kubaitem.tea_acceptor_research_note.name=茶受容器の研究ノート
 
 #Achievements
 achievement.teacollection.black_tea=§6§lKuba's Black Tea

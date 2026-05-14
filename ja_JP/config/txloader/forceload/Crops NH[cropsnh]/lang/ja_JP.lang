@@ -187,7 +187,7 @@ cropsnh.recipes.cropGeneExtractor=作物遺伝子抽出機
 cropsnh_tooltip.cropGeneExtractor.0=種から遺伝子情報を抽出する
 cropsnh_tooltip.cropGeneExtractor.1=§8《§7ﾌﾟﾛｸﾞﾗﾑ回路§8／Programmed Circuit》§7の値で抽出する遺伝子情報を指定
 cropsnh_tooltip.cropGeneExtractor.2=#1で作物の品種を、#2で成長(§2Gr§7)を、#3で収得(§6Ga§7)を、#4で耐性(§3Re§7)を抽出
-cropsnh_nei.cropGeneExtractor.tooltip.scanSpecimen=種のスキャンデータ
+cropsnh_nei.cropGeneExtractor.tooltip.scanSpecimen=作物種のスキャンデータ
 cropsnh_nei.cropGeneExtractor.tooltip.scanGrowth=成長値のスキャンデータ
 cropsnh_nei.cropGeneExtractor.tooltip.scanGain=収量値のスキャンデータ
 cropsnh_nei.cropGeneExtractor.tooltip.scanResistance=耐性値のスキャンデータ
@@ -205,7 +205,7 @@ cropsnh_tooltip.cropGeneExtractor.name.12=伝説型作物遺伝子抽出機 IV
 cropsnh.recipes.cropSynthesizer=作物合成機
 cropsnh_tooltip.cropSynthesizer.0=§8《§7データオーブ§8／Data Orb》§7の情報から作物を合成する
 cropsnh_tooltip.cropSynthesizer.1=作物の§cTier§7が1段階上がるごとに§dUUM§7の必要量が %1$s 増加
-cropsnh_tooltip.cropSynthesizer.2=作物の§cｽﾃｰﾀｽ値§7 1ﾎﾟｲﾝﾄ ごとに§dUUM§7の必要量が %1$s 増加
+cropsnh_tooltip.cropSynthesizer.2=子株の§cｽﾃｰﾀｽ値§7 1ﾎﾟｲﾝﾄ ごとに§dUUM§7の必要量が %1$s 増加
 cropsnh_tooltip.cropSynthesizer.3=%1$s アンペア入力可能
 cropsnh_nei.cropSynthesizer.tooltip.fluidCost=コスト = 作物のTier * %1$s * (成長値 + 収量値 + 耐性値) * %2$s
 cropsnh_nei.cropSynthesizer.tooltip.output=ステータスはデータオーブに保存された値を参照します
@@ -712,7 +712,7 @@ cropsnh_crops.waterLily=スイレン
 cropsnh_breedingReq.lockout.machineOnly=作物交配機が必要
 cropsnh_breedingReq.lockout.worldOnly=支柱の使用が必要
 # Lockout Growth Requirements
-cropsnh_growthReq.lockout.machineOnly=§8《§7工業用大型農場§8／Industrial Farm》§7でのみ収穫可能
+cropsnh_growthReq.lockout.machineOnly=《工業用大型農場／Industrial Farm》でのみ収穫可能
 cropsnh_growthReq.lockout.machineOnly.nei=§8《§7工業用大型農場§8／Industrial Farm》§7でのみ収穫可能
 cropsnh_growthReq.lockout.migrated=無効な土壌です！破壊して種を確保してください！
 # Light Growth Requirements

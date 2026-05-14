@@ -236,7 +236,7 @@ gt.blockmachines.input_bus_crafting_slave.desc=Proxy for Crafting Input Buffer/B
 gt.blockmachines.input_bus_me.desc=Machine Type: §eSIB§r\nNext-gen item input for Multiblocks\nHatch Tier: %s\nRetrieves directly from ME\nKeeps 16 item types in stock\nChange ME connection behavior by right-clicking with wire cutter.\nConfiguration data can be copy/pasted using a data stick.
 gt.blockmachines.input_bus_me.autopull.desc=Machine Type: §eASIB§r\nAdvanced item input for Multiblocks\nHatch Tier: %s\nRetrieves directly from ME\nKeeps 16 item types in stock\nAuto-Pull from ME mode will automatically stock the first\n16 items in the ME system, updated every 5 seconds.\nToggle by right-clicking with screwdriver, or use the GUI.\nUse the GUI to limit the minimum stack size for Auto-Pulling,\nadjust the slot refresh timer and enable fast recipe checks.\nWARNING: Fast recipe checks can be laggy. Use with caution.\nChange ME connection behavior by right-clicking with wire cutter.\nConfiguration data can be copy/pasted using a data stick.
 gt.blockmachines.input_bus_lens.desc=Holds a lens for UV laser focusing.
-gt.blockmachines.input_bus_steam.desc=Item Input for Steam Multiblocks\nShift + right click with screwdriver to toggle automatic item shuffling\nCapacity: 4 stacks\nDoes not work with non-steam multiblocks
+gt.blockmachines.input_bus_steam.desc=蒸気式マルチブロックへアイテムを入力する\n自動搬出機能なし\n容量: 4 スタック\n蒸気式マルチブロック以外では使用不可
 gt.blockmachines.input_bus_super.desc=Item Input for Multiblocks\n%s Slots
 gt.blockmachines.input_bus_turbine.desc=An automation port for Large Turbines\nWill attempt once per 1200 ticks to fill the turbine slot of it's parent turbine\nYou may adjust this with a screwdriver\nHold shift to adjust in finer amounts\nHold control to adjust direction\nLeft Click with Screwdriver to reset\nThis module assumes the entire turbine is in the same Chunk
 gt.blockmachines.input_bus_linked.desc=%s slot input bus linked together wirelessly\nLink does not cross world boundary\nLeft/right click with data stick to copy/paste configuration\nAdded by §6GigaGram§rFab
@@ -244,7 +244,7 @@ gt.blockmachines.input_bus_debug.desc=§7Stocks Items internally\n§7Configure I
 gt.blockmachines.output_bus.desc=Item Output for Multiblocks\nCapacity: %s stacks\nLeft click with data stick to save filter config\nRight click with data stick to load filter config
 gt.blockmachines.output_bus.singular.desc=Item Output for Multiblocks\nCapacity: %s stack\nLeft click with data stick to save filter config\nRight click with data stick to load filter config
 gt.blockmachines.output_bus_me.desc=Item Output for Multiblocks\nStores directly into ME\nCan cache 1600 items by default\nChange cache size by inserting a storage cell\nChange ME connection behavior by right-clicking with wire cutter\nPartition the inserted Storage Cell to filter accepted outputs
-gt.blockmachines.output_bus_steam.desc=Item Output for Steam Multiblocks\nDoes not automatically export items\nCapacity: 4 stacks\nDoes not work with non-steam multiblocks
+gt.blockmachines.output_bus_steam.desc=蒸気式マルチブロックからアイテムを出力する\n自動搬出機能なし\n容量: 4 スタック\n蒸気式マルチブロック以外では使用不可
 gt.blockmachines.output_bus_void.desc=Voids items from Multiblocks\nMust be configured to work
 gt.blockmachines.output_bus_super.desc=Item Output for Multiblocks\n%s Slots\nLeft click with data stick to save filter config\nRight click with data stick to load filter config
 gt.blockmachines.muffler.desc=Outputs the Pollution (Might cause ... things)\nDO NOT OBSTRUCT THE OUTPUT!\nReduces Pollution to %s%%
@@ -1256,7 +1256,7 @@ gtpp.material.Laurenium=Laurenium
 gtpp.material.Lautarite=Lautarite
 gtpp.material.Lead=Lead
 gtpp.material.Lepersonnite=Lepersonnite
-gtpp.material.Li2CO3CaO2H2Compound=Li2CO3 + CaO2H2 Compound
+gtpp.material.Li2CO3CaO2H2Compound=Li2CO3 + Ca(OH)2複合体
 gtpp.material.Lithium=Lithium
 gtpp.material.LithiumCarbonate=Lithium Carbonate
 gtpp.material.LithiumHydroperoxide=Lithium Hydroperoxide
@@ -1858,6 +1858,10 @@ gt.casing.chemical-resistant=Able to resist the most extreme chemical conditions
 gt.casing.hawking-focus=Controls the outward flow of Hawking Radiation to stabilize a black hole.
 gt.casings.advanced-filter=Less than five 0.1μm particles per m^3
 
+gt.blockcasings.bec.0.tooltip=§b§lPrevents observation. Just don't look at it too hard.
+gt.blockcasings.bec.1.tooltip=§b§lPulsar-proof!
+gt.blockcasings.bec.2.tooltip=§b§lVacuum decay not included.
+
 # Machine types
 gt.recipe.alloysmelter=合金製錬炉
 gt.recipe.alloysmelter.description=ハイテクな合金の製錬機械
@@ -1947,8 +1951,8 @@ gt.recipe.replicator=複製機
 gt.recipe.replicator.description=マターから元素を生成する
 gt.recipe.rockbreaker=削岩機
 gt.recipe.rockbreaker.description=§b水§7と§c溶岩§7を側面に隣接させるか、§c溶岩§7を周囲に設置しソウルサンドを下に設置する必要がある
-gt.recipe.rockbreaker.fakeitem.side=IT'S FREE! Place Lava on Side
-gt.recipe.rockbreaker.fakeitem.top=IT'S FREE! Place Lava on Top
+gt.recipe.rockbreaker.fakeitem.side=アイテムは必要ありません！水と溶岩を隣接させてください
+gt.recipe.rockbreaker.fakeitem.top=アイテムは必要ありません！溶岩を上面に設置してください
 gt.recipe.scanner=スキャナー
 gt.recipe.scanner.description=作物や素材をスキャンする
 gt.recipe.sifter=ふるい機
@@ -2010,6 +2014,8 @@ gt.recipe.cal-imprinting=Circuit Assembly Line Imprinting
 gt.recipe.beamcrafter=Beam Crafter
 gt.recipe.large_hadron_collider=Large Hadron Collider
 gt.recipe.foundry_modules=Foundry Module Components
+gt.recipe.create-condensate=Condensate Entanglement
+gt.recipe.assemble-condensate=Condensate Assembling
 
 # Recipe categories
 gt.recipe.category.arc_furnace_recycling=アーク炉 (リサイクル)
@@ -2248,6 +2254,8 @@ GT5U.machines.stocking_bus.auto_pull.tooltip.2=右クリックして詳細設定
 GT5U.machines.stocking_bus.min_stack_size=最小スタックサイズ
 GT5U.machines.stocking_bus.refresh_time=スロット更新時間 (tick)
 GT5U.machines.stocking_bus.force_check=Recipe Check on change
+GT5U.machines.stocking_bus.manual_slot.tooltip.1=Manual Input Slot
+GT5U.machines.stocking_bus.manual_slot.tooltip.2=Used for direct item insertion; not part of the ME stocked slots.
 GT5U.machines.stocking_bus.auto_pull_toggle.enabled=Automatic Item Pull Enabled
 GT5U.machines.stocking_bus.auto_pull_toggle.disabled=Automatic Item Pull Disabled
 GT5U.machines.stocking_hatch.auto_pull.tooltip.1=クリックしてMEネットワークからの自動流体プルモードを設定します。
@@ -2259,6 +2267,8 @@ GT5U.machines.stocking_bus.saved=Saved Config to Data Stick
 GT5U.machines.stocking_bus.loaded=Loaded Config From Data Stick
 GT5U.machines.output_bus.saved=Saved Config to Data Stick
 GT5U.machines.output_bus.loaded=Loaded Config From Data Stick
+GT5U.machines.controller_hatch.saved=Saved Config to Data Stick
+GT5U.machines.controller_hatch.loaded=Loaded Config From Data Stick
 GT5U.machines.output_bus.invalid=Invalid Data Stick config
 GT5U.machines.dronecentre.shutdown=You cannot control machine when drone centre shut down!
 GT5U.machines.dronecentre.turnon=次のグループ内の全機械を正常にオンにしました: %s
@@ -2495,6 +2505,7 @@ GT5U.gui.text.computation_loss=§4Shut down due to computation loss.
 GT5U.gui.text.toxic_residue=§fToxic Residue: §c%s §f/ %s (%s%%)
 GT5U.gui.text.residue_change=§fResidue Change: §c+%s§f/§a-%s §f(%s)
 GT5U.gui.text.missing_item=§7Missing required item: §b%s§f
+GT5U.gui.text.no_condensate=§4Insufficient condensate: §b%s§f x §6%s
 GT5U.gui.text.ph_sensor=pH threshold
 GT5U.gui.text.critical_ph_value=pH exceeded critical value.
 GT5U.gui.text.heat_sensor=Heat threshold
@@ -2550,11 +2561,14 @@ GT5U.gui.text.invalidfluidsup=Invalid Fluid Supplied
 GT5U.gui.text.amperage=Amperage
 GT5U.gui.text.voltagetier=Voltage Tier
 GT5U.gui.text.ticks_between_refill=Ticks Between Refills
+GT5U.gui.text.no_bec_assembler=Condensate Observation Array Offline
+GT5U.gui.text.not_enough_parallels=Insufficient Parallels (Min Parallels Too Low)
+GT5U.gui.text.bec_clogged=More Than 3 Condensates Present
 GT5U.gui.text.stack_capacity=Stack Capacity
 GT5U.gui.text.bus_settings=Bus Settings
 GT5U.gui.text.amount_out_of=§9Amount: %,d / %,d
 GT5U.gui.text.compressed_bus_stored_items=Hold SHIFT to show all stored items
-
+GT5U.gui.text.nil=None
 
 # NAC Keys
 GT5U.gui.text.nac.missing_water=Insufficient Water Supplied
@@ -2858,6 +2872,9 @@ gt.circuitcomponent.plate.processed.rhugnor=Stripped Rhugnor Plate
 gt.circuitcomponent.plate.processed.metastableoganesson=Stripped Metastable Oganesson Plate
 gt.circuitcomponent.plate.processed.hexanite=Stripped Hexanite Plate
 
+# NAC Machines
+gt.blockmachines.vacuum.pipe.name=Vacuum Conveyor Pipe
+
 GT5U.gui.hoverable.runningfine=Running Fine.
 GT5U.gui.hoverable.incomplete=Structure incomplete.
 GT5U.gui.hoverable.powerloss=Lost Power.
@@ -3100,7 +3117,7 @@ gt.blockmachines.multimachine.beamcrafting.LHC.tooltip5=§f§nAccelerator mode§
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip6=Accelerates the beam in the smaller LHC ring
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip7=Accelerator mode increases the §6Beam Energy§7 by §bEU Consumed in cycle§7 * §f0.1eV§7, until the
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip8=§eTarget Beam Energy§7 is reached, or the §9maximum number of cycles§7 is reached
-gt.blockmachines.multimachine.beamcrafting.LHC.tooltip9=If the §eTarget Beam Energy§7 is reached, multiply the current §cBeam Rate§7 by §f1.1§7
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip9=If the §eTarget Beam Energy§7 is reached, multiply the current §cBeam Rate§7 by §f1.3§7
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip10=§aPower§7 cost starts at §f1A§7 of §fUV§7 per §cBeam Rate§7 and increases quadratically
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip11=with the §dnumber of completed cycles§7
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip12=§aP§7 = §f(1A UV)§7 * §cR§7 * §dN§7^2
@@ -7275,11 +7292,38 @@ item.gt.depletedRodNaquadria.name=Fuel Rod (Depleted Naquadria)
 item.gt.depletedRodNaquadria2.name=Dual Fuel Rod (Depleted Naquadria)
 item.gt.depletedRodNaquadria4.name=Quad Fuel Rod (Depleted Naquadria)
 
+# Condensate Fluid and Cells
+fluid.prepared_quantium=Prepared Quantium Bose-Einstein Condensate
+fluid.entangled_quantium=Entangled Quantium Bose-Einstein Condensate
+abbrev.entangled_quantium=Quantium
+fluid.prepared_infinity=Prepared Infinity Bose-Einstein Condensate
+fluid.entangled_infinity=Entangled Infinity Bose-Einstein Condensate
+abbrev.entangled_infinity=Infinity
+
+item.gt.cell.prepared_quantium.name=Prepared Quantium Bose-Einstein Condensate Cell
+item.gt.cell.entangled_quantium.name=Entangled Quantium Bose-Einstein Condensate Cell
+item.gt.cell.prepared_infinity.name=Prepared Infinity Bose-Einstein Condensate Cell
+item.gt.cell.entangled_infinity.name=Entangled Infinity Bose-Einstein Condensate Cell
+
 # Entities
 entity.gregtech.PowderBarrelPrimed.name=Lit Powder Barrel
 
 #mui1
 mui.button.close=x
+
+# BEC Material System
+prefix.plate.name=%s Plate
+prefix.foil.name=%s Foil
+prefix.stickLong.name=Long %s Rod
+prefix.stick.name=%s Rod
+prefix.bolt.name=%s Bolt
+prefix.ring.name=%s Ring
+prefix.wireFine.name=Fire %s Wire
+prefix.lens.name=%s Lens
+
+material.ThermalCont1.name=UHV-Q-624 Thermal Containment
+
+#override.plateTest2.name=Test 2 Overrided Plate
 
 # Thaumcraft Aspects
 tc.aspect.custom1.name=Aequalitas
@@ -7489,13 +7533,13 @@ achievement.gtplusplus.blockcasings.6.0=Fusion Machine Casing MK IV
 achievement.gtplusplus.blockcasings.6.0.desc=Pickup this item to see the recipe in NEI
 achievement.gt.blockmachines.multimachine.defusioncrafter=Draconic Evolution Fusion Crafter
 achievement.gt.blockmachines.multimachine.defusioncrafter.desc=Pickup this item to see the recipe in NEI
-achievement.kubaitem.defc_schematic_t1=Draconic Core Schematic
+achievement.kubaitem.defc_schematic_t1=ドラコニックコアの設計図
 achievement.kubaitem.defc_schematic_t1.desc=Pickup this item to see the recipe in NEI
-achievement.kubaitem.defc_schematic_t2=Wyvern Core Schematic
+achievement.kubaitem.defc_schematic_t2=ワイバーンコアの設計図
 achievement.kubaitem.defc_schematic_t2.desc=Pickup this item to see the recipe in NEI
-achievement.kubaitem.defc_schematic_t3=Awakened Core Schematic
+achievement.kubaitem.defc_schematic_t3=覚醒コアの設計図
 achievement.kubaitem.defc_schematic_t3.desc=Pickup this item to see the recipe in NEI
-achievement.kubaitem.defc_schematic_t4=Chaotic Core Schematic
+achievement.kubaitem.defc_schematic_t4=カオスコアの設計図
 achievement.kubaitem.defc_schematic_t4.desc=Pickup this item to see the recipe in NEI
 achievement.gt.blockmachines.debug.tt.certain=Uncertainty Resolution
 achievement.gt.blockmachines.debug.tt.certain.desc=Pickup this item to see the recipe in NEI
@@ -7571,7 +7615,7 @@ achievement.tile.kekztech_tfftstoragefield_block.10=T.F.F.T Storage Field Block 
 achievement.tile.kekztech_tfftstoragefield_block.10.desc=Pickup this item to see the recipe in NEI
 achievement.gt.blockmachines.multimachine.extremeapiary=Industrial Apicultural Acclimatiser and Drone Domestication Station
 achievement.gt.blockmachines.multimachine.extremeapiary.desc=Pickup this item to see the recipe in NEI
-achievement.kubablock.tea_acceptor=§4§lTea Acceptor
+achievement.kubablock.tea_acceptor=§4§n茶受容器
 achievement.kubablock.tea_acceptor.desc=Pickup this item to see the recipe in NEI
 achievement.gt.blockmachines.ggfab.machine.adv_assline=Advanced Assembly Line
 achievement.gt.blockmachines.ggfab.machine.adv_assline.desc=Pickup this item to see the recipe in NEI
@@ -7819,6 +7863,10 @@ gt.blockcasings.cyclotron_coils.8.name=UEV Solenoid Superconductor Coil
 gt.blockcasings.cyclotron_coils.9.name=UIV Solenoid Superconductor Coil
 gt.blockcasings.cyclotron_coils.10.name=UMV Solenoid Superconductor Coil
 
+gt.blockcasings.bec.0.name=Coherence-preserving Plasma Conduit
+gt.blockcasings.bec.1.name=Electromagnetically-isolated Casing
+gt.blockcasings.bec.2.name=Fine-structure Constant Manipulator
+
 gt.blockglass1.0.name=Chemical Grade Glass
 gt.blockglass1.1.name=Electron-Permeable Neutronium Coated Glass
 gt.blockglass1.2.name=Omni-Purpose Infinity Fused Glass
@@ -7828,7 +7876,7 @@ gt.blockglass1.5.name=Nanite Shielding Glass
 gt.blockglass1.6.name=Chamber Grate
 gt.blockglass1.7.name=Exo-Foundry Containment Glass
 gt.blockglass1.8.name=Nanochip Complex Glass
-
+gt.blockglass1.9.name=Electromagnetic Waveguide
 gt.blocktintedglass.0.name=Tinted Industrial Glass (White)
 gt.blocktintedglass.1.name=Tinted Industrial Glass (Light Gray)
 gt.blocktintedglass.2.name=Tinted Industrial Glass (Gray)
@@ -8108,3 +8156,81 @@ gt.item.gravitational_lens.name=Gravitational Lens
 gt.item.gravitational_lens.tooltip=Portable gravitational well
 gt.item.planck_manifold.name=Planck-Scale Manifold
 gt.item.planck_manifold.tooltip=The smallest there can be
+
+# BEC Machines
+gt.blockmachines.hatch.bec.name=Bose-Einstein Condensate Hatch
+gt.blockmachines.hatch.nanite-detector.name=Nanite Detector Hatch
+gt.blockmachines.hatch.io-node-controller.name=Teleportation Node Controller Hatch
+gt.blockmachines.hatch.condensate-detector.name=Bose-Einstein Condensate Detector Hatch
+
+gt.blockmachines.multi.bec.generator.name=Bose-Einstein Condensate Entanglement Apparatus
+gt.blockmachines.multi.bec.storage.name=Bose-Einstein Condensate Containment Field
+gt.blockmachines.multi.bec.assembler.name=Bose-Einstein Condensate Observation Array
+gt.blockmachines.multi.bec.io-node.name=Observation Array Teleportation Node
+gt.blockmachines.multi.bec.diode.name=Bose-Einstein Condensate Maxwell Gate
+
+gt.blockmachines.pipe.bec.name=Bose-Einstein Condensate Conduit
+gt.blockmachines.pipe.bec.block.name=Bose-Einstein Condensate Conduit Casing
+
+# BEC UI
+GT5U.gui.text.nanite_threshold=Nanite Tier
+GT5U.gui.text.provided_nanite=§7Provided Nanite: %s§f
+GT5U.gui.text.nanite_desc=§b%s§7 x §6%s§7
+GT5U.gui.text.required_nanite=§7Required Nanite: %s
+GT5U.gui.text.required_condensate=§7Required Condensate:
+GT5U.gui.text.remaining_condensate=  §7%s §6%sL / %sL§f
+GT5U.gui.text.ionode_status=§7Status: %s
+GT5U.gui.text.ionode_status.Idle=Idle
+GT5U.gui.text.ionode_status.Unpowered=§cUnpowered
+GT5U.gui.text.ionode_status.AssemblerOffline=§cObservation Array Offline
+GT5U.gui.text.ionode_status.NaniteTierTooLow=§eInsufficient Nanite Tier
+GT5U.gui.text.ionode_status.PausedImmediate=Paused (Immediate)
+GT5U.gui.text.ionode_status.PausedStep=Paused (Step)
+GT5U.gui.text.ionode_status.Crafting=Crafting
+GT5U.gui.text.condensate_threshold=Condensate Amount
+GT5U.gui.text.entanglement-duration=Entanglement Duration: %s ticks
+GT5U.gui.text.bec-quota-required=Quota Required: %s
+GT5U.gui.text.pause-immediately=Pause Immediately
+GT5U.gui.text.pause-next-step=Pause Next Step
+GT5U.gui.text.providing-nanites=Providing Nanites:
+GT5U.gui.text.available-condensate=Available Condensate:
+GT5U.gui.text.bec-stored-condensate=Stored Condensate:
+
+# BEC Structure Hints
+GT5U.gui.text.bec-generator-input-hatch-pos=Any %s in the first slice
+GT5U.gui.text.bec-generator-bec-hatch-pos=The center casing in the last slice
+
+# BEC Settings
+GT5U.gui.text.bec-parameters=Parameters
+GT5U.gui.text.bec-filter=Filter
+GT5U.gui.text.bec-operation=Operation
+GT5U.gui.text.bec-threshold=Threshold
+GT5U.gui.text.bec-current=Current:
+GT5U.gui.text.bec-mode=Mode
+GT5U.gui.text.bec-field-strength=Field Strength
+GT5U.gui.text.bec-stored=Stored:
+GT5U.gui.text.bec-min-parallels=Min Parallels
+GT5U.gui.text.bec-max-parallels=Max Parallels
+GT5U.gui.text.bec-speed-divisor=Speed Divisor
+
+# Misc BEC Tooltips
+gt.tooltip.nanite-tier=Nanite Tier: %s
+gt.tooltip.max-nanite=Max Nanite Tier: %s
+GT5U.gui.text.pause-immediately.tooltip=The I/O Node will stop processing when it receives a redstone signal
+GT5U.gui.text.pause-next-step.tooltip=The I/O Node will stop upon transitioning into a new input step when it receives a redstone signal
+
+# BEC Chat Messages
+GT5U.chat.bec-saved-link-data=Saved Link Data to the Data Stick
+GT5U.chat.bec-connected-assembler=Successfully connected to the Observation Array
+GT5U.chat.bec-no-connect-assembler=Could not connect to the Observation Array
+
+# BEC Waila
+GT5U.chat.bec-processing-speed=Processing Speed: x%s
+GT5U.chat.bec-slowdowns=Slowdowns: %s
+
+# BEC Structure
+GT5U.chat.bec-storage-controller-pos=Outer wall of center pillar, second layer from the bottom
+
+# Test Factory Machines
+gt.blockmachines.pipe.test.name=Test Factory Pipe
+gt.blockmachines.hatch.test.name=Test Factory Hatch
