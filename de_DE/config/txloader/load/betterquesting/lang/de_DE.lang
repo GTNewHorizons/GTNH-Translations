@@ -144,7 +144,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ-w.desc=Vielleicht fragst du dich, was 
 
 # Quest: Covering Up
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.name=Verbergen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=Diese Quest behandelt alle Abdeckungen, falls du es vergessen haben solltest oder sie nicht erwähnt wurde. Wenn sie ihre eigene Quest haben, gucke dort für mehr Informationen. Du kannst sie an praktisch jeden GT-Block, Rohr, Maschine, Tank, etc. anbringen. Auch wenn das nicht bedeutet, dass es funktioniert oder sinnvoll ist. Shift-rechts-klicken öffnet das GUI von Vielen. Für die Abdeckungen, bei welchen die Menge eingestellt werden kann, senkt das Klicken mit dem Schraubendreher links die Menge und erhöht diese rechts. Alle Abdeckungen schützen Maschinen vor Regen. Allgemein kannst du Abdeckungen mit einem Schraubendreher einstellen, ob mit oder ohne GUI. Du kannst sie auch wieder mit einem Brecheisen entfernen, falls du es vergessen hast.%n%n§lFlüssigkeitsbezogene Abdeckungen:§r%nPumpe: Transportiert Flüssigkeiten mit der im Tooltipp spezifizierten Geschwindigkeit.%n%nDurchflussmengenregler: Reguliert die Rate, in welcher Flüssigkeiten passieren können, und dient als Pumpe. Funktioniert x/s oder x/t.%n%nDampfventil: Transportiert mehr, funktioniert aber nur mit Dampf. Geht nur bis IV. Funktioniert nicht mit Überhitztem Dampf.%n%nÜberlauf: Entsorgt alles über der spezifizierten Menge im Tank.%n%nFlüssigkeitssensor: Gibt ein Redstonesignal (RS) basierend auf der Füllmenge des Tanks aus. Standardmäßig, leer=15, voll=0. Benutze den invertierten Modus, um es umzukehren. Nützlich an Tanks und Öffnungen.%n%nEnder-Flüssigkeits-Link: Abdeckungsversion vom Ender-Tank um Flüssigkeiten umher zu teleportieren. Verbindet sich aber nicht mit Ender-Tanks.%n%nAbflussmodul: Schützt vor Regen an dieser Seite und füllt, wenn möglich, bei Regen den Tank mit Wasser. Außer.%n%nFlüssigkeitsfilter: Filtert die passierenden Flüssigkeiten. Klicke mit einer Zelle um die Flüssigkeit einzustellen.%n%nVerschluss: Blockiert Gegenstände/Flüssigkeiten, wenn es aktiv ist. Verwende es mit einer Maschinensteuerung (MS) und RS. Trennt nicht visuell. Du kannst es zwischen Rohre platzieren und eine MS an die selbe Leitung platzieren.%n%n§lGegenstandbezogene Abdeckungen:§r%nFörderband: Verschickt Gegenstände. Benutze eine Gegenstand-Leitung im Importmodus oder einen GT-Block/Maschine.%n%nRoboterarm: Sendet von einem beliebigen Platz der Maschine (Intern) zu einem anderen beliebigen Platz in einem nebenliegenden Block. Gehe durch die Nummern bis es funktioniert, es scheint von Maschine zu Maschine unterschiedlich zu sein. Wenn der Platz der anderen Maschine voll ist, stoppt das Versenden. Es benötigt einen validen Block mit Inventarplatz, um zu senden oder die Einstellungen werden nicht gespeichert.%n%nGegenstandssensor: Gibt ein RS basierend auf dem Füllstand des Blocks aus. Standardmäßig, leer=0, voll=15. Erkennt volle Plätze, funktioniert also nicht richtig mit Super/Quanten-Truhen. Wahrscheinlich geeigneter für Busse.%n%nGegenstandsfilter: Dies ist work-in-progress und noch nicht fertig. Helfe gerne mit.%n%n§lEU-bezogene Abdeckungen:§r%nEnergiesensor: Gibt ein RS basierend auf die EU-Ladungsmenge aus. Standardmäßig, leer=0, voll=15. Stelle sicher, dass Batterien beachtet werden. Kann auch Dampf messen, aus irgendeinem Grund.%n%nEnergie-Weitergabe Verbesserung: Lese den Tooltipp, dann frage Bart wie es funktioniert, er hat es nicht für wichtig erachtet es uns zu sagen. Er wird dir wahrscheinlich einfach sagen der Code sei die beste Dokumentation, so wie die Tectech-Typen. Kann auch einfach noch nicht fertig sein.%n%nTeslaspule/Teslaspule Rich Edition: Nutze den Teslaturm um EU kabellos zu verschicken.%n%n§lAndere Abdeckungen:§r%nSpielersensor: Erkennt Spieler. Auf ungefähr 10 Blöcke Reichweite. [warn]Zur Zeit ist der Besitzer bei Nicht-Rohren invertiert, wegen eines Bugs.[/warn]%n%nAktivitätssensor: Erkennt entweder Rezeptfortschritt oder Leerlauf. 0%%=0 RS, ~95%%=14 standardmäßig. Im Leerlaufmodus, Leerlauf = 15, arbeiten = 0, standardmäßig.%n%nMaschinensteuerung: Aktiviert und deaktiviert Maschinen basierend des RS. Deaktiviere Maschine lässt die Maschine unabhängig vom RS deaktiviert. Sicherer Modus funktioniert nur an Maschinenblöcken (MB). Wenn ein MB keine Energie mehr hat, geht er normalerweise aus, aber die MS schaltet ihn wieder an. Du wirst außerdem benachrichtigt. [warn]Sicherer Modus ist zurzeit nicht funktional?[/warn]%n%nBenötigt Wartung: Gibt ein RS aus, wenn eine spezifizierte Bedingung erfüllt wird. Rotor=Turbine?%n%nRedstone-Sender (RSe)/Empfänger (RE) (In/Out): Okay, diese Dinger sind verwirrend, höre also gut zu. Als Erstes stellst du die Frequenz ein, entweder per GUI oder den originellen Weg: Rechts-klicke es mit einem Gegenstand. Leere Hand = 0, andere Gegenstände = ihre Gegenstands-ID. Passe auf es nicht aus Versehen wieder auf 0 zurückzusetzen. Im Ernst, benutze einfach das GUI. Du kannst es privat einstellen oder nicht, es ist das selbe wie bei EnderStorage, damit du nicht über den gesamten Server RS versendest. Kanalstatus = RS-Level.%n%nRSe(O) stellt den Kanalstatus basierend auf dem RS von außerhalb an dieser Seite ein. Du kannst dein RS von dort zu dem RE(O) teleportieren.%nRSe(I) stellt den Kanalstatus basierend auf dem Redstonelevel ein, welches die Maschine ansonsten versenden würde. [warn]Sendet immer 15, ist also nutzlos.[/warn]%nRE(O) gibt ein Redstonelevel basierend auf dem Kanalstatus aus. Du kannst das RS vom RSe(O) hierher teleportieren.%nRE(I) kontrolliert, ob eine Maschine arbeiten kann basierend auf den Kanalstatus, was auch eine MS-Abdeckung macht. Wenn es 0 RS hat, bleibt es aus. Bei mindestens 1, geht es an. Du kannst ein Signal von woanders mit dem RSe(O) senden.%nRE(I) kann auch in Kombination mit anderen Abdeckungen benutzt werden dessen Status bedingt sind.%n%nIC2 Warmluftauslass: Beschleunigt die Maschine ein bisschen? Sieht gut aus. TODO: Kann bitte jemand im Code gucken, was es wirklich tut.%n%nWerkbank: Fügt eine Werkbank dem Block hinzu, welche du benutzen kannst. Hauptsächlich kosmetisch.%n%nBretter/Platten/Folien: Blockiert Eingang und Ausgang an dieser Seite. Benutze einen Schraubendreher, um Dinge einzustellen, die passieren dürfen. Blockiert alles standardmäßig. Stelle den Ausgang zu einer anderen Seite, um zu vermeiden die Einstellungen zu ändern. Du wirst es bestimmt mindestens einmal aus Versehe 'benutzen'.%n%nComputermonitor: Fügt einen visuelles Aussehen hinzu. Nur-kosmetische Abdeckung.%n%nLinse: nur-kosmetische Abdeckung.%n%nDu kannst auch AE2-Fassaden als kosmetische Abdeckungen verwenden.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=Diese Quest behandelt alle Abdeckungen, falls du es vergessen haben solltest oder sie nicht erwähnt wurde. Wenn sie ihre eigene Quest haben, gucke dort für mehr Informationen. Du kannst sie an praktisch jeden GT-Block, Rohr, Maschine, Tank, etc. anbringen. Auch wenn das nicht bedeutet, dass es funktioniert oder sinnvoll ist. Shift-rechts-klicken öffnet das GUI von Vielen. Für die Abdeckungen, bei welchen die Menge eingestellt werden kann, senkt das Klicken mit dem Schraubendreher links die Menge und erhöht diese rechts. Alle Abdeckungen schützen Maschinen vor Regen. Allgemein kannst du Abdeckungen mit einem Schraubendreher einstellen, ob mit oder ohne GUI. Du kannst sie auch wieder mit einem Brecheisen entfernen, falls du es vergessen hast.%n%n§lFlüssigkeitsbezogene Abdeckungen:§r%nPumpe: Transportiert Flüssigkeiten mit der im Tooltipp spezifizierten Geschwindigkeit.%n%nDurchflussmengenregler: Reguliert die Rate, in welcher Flüssigkeiten passieren können, und dient als Pumpe. Funktioniert x/s oder x/t.%n%nDampfventil: Transportiert mehr, funktioniert aber nur mit Dampf. Geht nur bis IV. Funktioniert nicht mit Überhitztem Dampf.%n%nÜberlauf: Entsorgt alles über der spezifizierten Menge im Tank.%n%nFlüssigkeitssensor: Gibt ein Redstonesignal (RS) basierend auf der Füllmenge des Tanks aus. Standardmäßig, leer=15, voll=0. Benutze den invertierten Modus, um es umzukehren. Nützlich an Tanks und Öffnungen.%n%nEnder-Flüssigkeits-Link: Abdeckungsversion vom Ender-Tank um Flüssigkeiten umher zu teleportieren. Verbindet sich aber nicht mit Ender-Tanks.%n%nAbflussmodul: Schützt vor Regen an dieser Seite und füllt, wenn möglich, bei Regen den Tank mit Wasser. Außer.%n%nFlüssigkeitsfilter: Filtert die passierenden Flüssigkeiten. Klicke mit einer Zelle um die Flüssigkeit einzustellen.%n%nVerschluss: Blockiert Gegenstände/Flüssigkeiten, wenn es aktiv ist. Verwende es mit einer Maschinensteuerung (MS) und RS. Trennt nicht visuell. Du kannst es zwischen Rohre platzieren und eine MS an die selbe Leitung platzieren.%n%n§lGegenstandbezogene Abdeckungen:§r%nFörderband: Verschickt Gegenstände. Benutze eine Gegenstand-Leitung im Importmodus oder einen GT-Block/Maschine.%n%nRoboterarm: Sendet von einem beliebigen Platz der Maschine (Intern) zu einem anderen beliebigen Platz in einem nebenliegenden Block. Gehe durch die Nummern bis es funktioniert, es scheint von Maschine zu Maschine unterschiedlich zu sein. Wenn der Platz der anderen Maschine voll ist, stoppt das Versenden. Es benötigt einen validen Block mit Inventarplatz, um zu senden oder die Einstellungen werden nicht gespeichert.%n%nGegenstandssensor: Gibt ein RS basierend auf dem Füllstand des Blocks aus. Standardmäßig, leer=0, voll=15. Erkennt volle Plätze, funktioniert also nicht richtig mit Super/Quanten-Truhen. Wahrscheinlich geeigneter für Busse.%n%nFilter-Förderband: Filtert bis zu einer Gegenstandsart (Whitelist/Blacklist) und funktioniert wie ein Förderband-Modul. Es ist auf entweder Import oder Export festgelegt.%n%n§lEU-bezogene Abdeckungen:§r%nEnergiesensor: Gibt ein RS basierend auf die EU-Ladungsmenge aus. Standardmäßig, leer=0, voll=15. Stelle sicher, dass Batterien beachtet werden. Kann auch Dampf messen, aus irgendeinem Grund.%n%nEnergie-Weitergabe Verbesserung: Lese den Tooltipp, dann frage Bart wie es funktioniert, er hat es nicht für wichtig erachtet es uns zu sagen. Er wird dir wahrscheinlich einfach sagen der Code sei die beste Dokumentation, so wie die Tectech-Typen. Kann auch einfach noch nicht fertig sein.%n%nTeslaspule/Teslaspule Rich Edition: Nutze den Teslaturm um EU kabellos zu verschicken.%n%n§lAndere Abdeckungen:§r%nSpielersensor: Erkennt Spieler. Auf ungefähr 10 Blöcke Reichweite. [warn]Zur Zeit ist der Besitzer bei Nicht-Rohren invertiert, wegen eines Bugs.[/warn]%n%nAktivitätssensor: Erkennt entweder Rezeptfortschritt oder Leerlauf. 0%%=0 RS, ~95%%=14 standardmäßig. Im Leerlaufmodus, Leerlauf = 15, arbeiten = 0, standardmäßig.%n%nMaschinensteuerung: Aktiviert und deaktiviert Maschinen basierend des RS. Deaktiviere Maschine lässt die Maschine unabhängig vom RS deaktiviert. Sicherer Modus funktioniert nur an Maschinenblöcken (MB). Wenn ein MB keine Energie mehr hat, geht er normalerweise aus, aber die MS schaltet ihn wieder an. Du wirst außerdem benachrichtigt. [warn]Sicherer Modus ist zurzeit nicht funktional?[/warn]%n%nBenötigt Wartung: Gibt ein RS aus, wenn eine spezifizierte Bedingung erfüllt wird. Rotor=Turbine?%n%nRedstone-Sender (RSe)/Empfänger (RE) (In/Out): Okay, diese Dinger sind verwirrend, höre also gut zu. Als Erstes stellst du die Frequenz ein, entweder per GUI oder den originellen Weg: Rechts-klicke es mit einem Gegenstand. Leere Hand = 0, andere Gegenstände = ihre Gegenstands-ID. Passe auf es nicht aus Versehen wieder auf 0 zurückzusetzen. Im Ernst, benutze einfach das GUI. Du kannst es privat einstellen oder nicht, es ist das selbe wie bei EnderStorage, damit du nicht über den gesamten Server RS versendest. Kanalstatus = RS-Level.%n%nRSe(O) stellt den Kanalstatus basierend auf dem RS von außerhalb an dieser Seite ein. Du kannst dein RS von dort zu dem RE(O) teleportieren.%nRSe(I) stellt den Kanalstatus basierend auf dem Redstonelevel ein, welches die Maschine ansonsten versenden würde. [warn]Sendet immer 15, ist also nutzlos.[/warn]%nRE(O) gibt ein Redstonelevel basierend auf dem Kanalstatus aus. Du kannst das RS vom RSe(O) hierher teleportieren.%nRE(I) kontrolliert, ob eine Maschine arbeiten kann basierend auf den Kanalstatus, was auch eine MS-Abdeckung macht. Wenn es 0 RS hat, bleibt es aus. Bei mindestens 1, geht es an. Du kannst ein Signal von woanders mit dem RSe(O) senden.%nRE(I) kann auch in Kombination mit anderen Abdeckungen benutzt werden dessen Status bedingt sind.%n%nIC2 Warmluftauslass: Beschleunigt die Maschine ein bisschen? Sieht gut aus. TODO: Kann bitte jemand im Code gucken, was es wirklich tut.%n%nWerkbank: Fügt eine Werkbank dem Block hinzu, welche du benutzen kannst. Hauptsächlich kosmetisch.%n%nBretter/Platten/Folien: Blockiert Eingang und Ausgang an dieser Seite. Benutze einen Schraubendreher, um Dinge einzustellen, die passieren dürfen. Blockiert alles standardmäßig. Stelle den Ausgang zu einer anderen Seite, um zu vermeiden die Einstellungen zu ändern. Du wirst es bestimmt mindestens einmal aus Versehe 'benutzen'.%n%nComputermonitor: Fügt einen visuelles Aussehen hinzu. Nur-kosmetische Abdeckung.%n%nLinse: nur-kosmetische Abdeckung.%n%nDu kannst auch AE2-Fassaden als kosmetische Abdeckungen verwenden.
 
 # Quest: Lootbag Uptiering
 betterquesting.quest.ZM4oSqeWQRW1Y-zoE01ivg.name=Lootbag Uptiering
@@ -398,10 +398,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSA.desc=In diesem Paket musst du zuerst
 # Quest: Options For Finding Zinc
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.name=§a§lOptionen Zink zu finden
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSg.desc=Der primäre Weg, früh an Zink zu kommen, sind kleine Brocken von Zinkkieserz, die an der Oberfläche gefunden werden können.%n%nFalls du Schwierigkeiten hast, Zinkkies aufgrund eines unglücklichen Welt-Seeds zu finden oder auf einem alten Server spielst, stehen dir alternative Wege zur Verfügung, um es zu erhalten:%n%n1. Suche nach Kleinem Zinkerz in der Oberwelt%n2. Verwende das Rezept mit EP-Eimern an einer Werkbank%n3. Kaufe das Zinkkieserz im Verkaufsautomat (Wird später in diesem Reiter freigeschaltet!)%n%n[note]Sobald du LV erreichst, kannst du Zink durch die Verarbeitung verschiedener Erze wie Antimon, Sphalerit, Tetraedrit und Zinn erhalten. Du wirst auch in der Lage sein, das Kieserz für die doppelte Ausbeute zu zermahlen, also spare, was du kannst, bis dahin![/note]
-
-# Quest: How to Open Your Wooden Doors?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.name=§a§lWie kann man Holztüren öffnen?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.desc=Holztüren machen dein Haus sicherer. Lass uns ein paar hölzerne Druckplatten und Knöpfe herstellen, um diese Türen zu öffnen und anschließend, automatisch sich schließen zu lassen. %n%nDie Türen öffnen sich, wenn sie ein Redstone-Signal empfangen, und schließen sich wieder, wenn das Signal schwindet. Wenn du die Platten auf beiden Seiten einer Tür platzierst, öffnet sie sich, wenn du darauf trittst. Doppeltüren öffnen sich immer zusammen, so dass du theoretisch nur eine Druckplatte benötigst. %n%nFür diese Aufgabe musst du Eiche verwenden. Kaufe einige Setzlinge im Verkaufsautomaten, wenn du keine Eichen in der Nähe hast.%n%n Beachte, dass auch Wesen, darunter Mobs und NPCs oder Gegenstände, das Redstone-Signal der Druckplatte auslösen können, wenn sie sich auf der Druckplatte befinden.%n%nAuch mit Knöpfe können die Türen, ähnlich wie bei Druckplatten, geöffnet werden. Jedoch bleiben die Türen nur für etwa 2 Sekunden lang offen, da der Knopf nur ein 2 Sekündliches Redstone-Signal  aus sendet.%n%nHebel senden, wie Knöpfe ein Redstone-Signal aus, mit dem man die Türen öffnen kann. Jedoch bleibt das Redstone-Signal solange bestehen bis der Hebel wieder umgeschaltet wird.
 
 # Quest: Got a Flat Tire?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJYg.name=§a§lHast du eine Reifenpanne?
@@ -792,6 +788,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIXA.desc=Nur der verrückteste Narr wür
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHA.name=§c§lWie genau geht die Eisentür auf?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHA.desc=Deine Eisentüren machen deine Maschinenhalle oder dein Haus sicherer. Sie lassen sich nicht von Hand öffnen.%n%nJetzt lass uns Druckplatten und Knöpfe basteln, um diese schweren Eisentüren zu öffnen.
 
+# Quest: How to Open Your Wooden Doors?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.name=§a§lWie kann man Holztüren öffnen?
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHQ.desc=Holztüren machen dein Haus sicherer. Lass uns ein paar hölzerne Druckplatten und Knöpfe herstellen, um diese Türen zu öffnen und anschließend, automatisch sich schließen zu lassen. %n%nDie Türen öffnen sich, wenn sie ein Redstone-Signal empfangen, und schließen sich wieder, wenn das Signal schwindet. Wenn du die Platten auf beiden Seiten einer Tür platzierst, öffnet sie sich, wenn du darauf trittst. Doppeltüren öffnen sich immer zusammen, so dass du theoretisch nur eine Druckplatte benötigst. %n%nFür diese Aufgabe musst du Eiche verwenden. Kaufe einige Setzlinge im Verkaufsautomaten, wenn du keine Eichen in der Nähe hast.%n%n Beachte, dass auch Wesen, darunter Mobs und NPCs oder Gegenstände, das Redstone-Signal der Druckplatte auslösen können, wenn sie sich auf der Druckplatte befinden.%n%nAuch mit Knöpfe können die Türen, ähnlich wie bei Druckplatten, geöffnet werden. Jedoch bleiben die Türen nur für etwa 2 Sekunden lang offen, da der Knopf nur ein 2 Sekündliches Redstone-Signal  aus sendet.%n%nHebel senden, wie Knöpfe ein Redstone-Signal aus, mit dem man die Türen öffnen kann. Jedoch bleibt das Redstone-Signal solange bestehen bis der Hebel wieder umgeschaltet wird.
+
 # Quest: Tame an Ocelot to Get a Friend
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKg.name=§c§lVon Wildkatze zu Katzenfreund
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJKg.desc=§3§lSobald du das nötige Material hast, musst du einen Ozelot finden, um ihn zu zähmen.%n%nOzelots findest du in Dschungelbiomen.%n%nFalls du Probleme hast, einen Ozelot zu finden, kannst du ihn auch mit einem Spawn-Ei beschwören.%n%nDu kannst einen Ozelot zähmen, indem du ihm rohen Fisch gibst. Füge also rohen Fisch deinem Inventar hinzu und wähle ihn in der Schnellauswahl aus.%n%nWie im normalen Minecraft verwandelt sich ein gezähmter Ozelot in eine Katze. Die Katze vertreibt Creeper.%n%n§3TIPP: Sorge dafür, dass du in einem großen Bereich bist, wenn du versuchst, den Ozelot zu zähmen, damit er genug Platz zum Bewegen hat. In einem zu kleinen Raum kannst du ihn nicht zähmen.%n%nAls Nächstes, während du den rohen Fisch hältst, bleib ruhig stehen. Bewegst du dich, erschreckst du den Ozelot. Wenn du ganz still bist, wird der Ozelot irgendwann den Fisch in deiner Hand bemerken und zu dir herübergehen.
@@ -835,6 +835,10 @@ betterquesting.quest.XuZpnhWZRou46kensglZ6g.desc=This Tome can store multiple do
 # Quest: Better Make that Two!
 betterquesting.quest.fRHWhPgpRyyvSRZpL1Pkbw.name=§c§lBetter Make that Two!
 betterquesting.quest.fRHWhPgpRyyvSRZpL1Pkbw.desc=You may need a second anvil! %n%nOne would have been for the Forge Hammer and another for general repairing or renaming!
+
+# Quest: Underground Geodes
+betterquesting.quest.w00gbWZ4QG60V0neazNERw.name=Underground Geodes
+betterquesting.quest.w00gbWZ4QG60V0neazNERw.desc=You can find amethyst blocks, crystals, and calcite blocks in underground geodes. %n%nDuring the Steam Age, calcite blocks become incredibly useful because you can put them into a Forge Hammer to obtain valuable calcite dust, which is used for crafting the Bricked Blast Furnace. They can usually be found between Y-levels 5 and 46.%n%nAmethyst can also be mined and used as a source of silicon dioxide. One amethyst block drops 9 amethyst dust, making it a great option for obtaining silicon dioxide.%n[note]%nYou can use an Ore Finder with calcite dust inserted into it to locate calcite deposits more easily.%n[/note]
 
 
 ## Quest Line: Tier 1 - LV
@@ -2726,7 +2730,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALpA.desc=Der EV-Autoklav wird benötigt,
 
 # Quest: Power of the Sun from Nuclear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.name=§8§lDie Kraft der Sonne aus Kernen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=Dein guter alter Ein-Block-Molekular-Transformer ist weg. Also, wie bekommt man Sunnarium? Nun, es gibt ein paar Wege, aber auf der EV-Stufe musst du Leuchtstein bestrahlen und in Sunnarium umwandeln.%n%nDer Leuchtstein-Stab lädt sich langsam auf, wenn du ihn neben einen beliebigen Brennstab in deinem IC2-Reaktor legst. Die genaue Ladegeschwindigkeit beträgt (Anzahl benachbarter Stäbe) * (abrunden(Hüllentemperatur/3000) + 1) pro Sekunde. Ein Doppel-Stab zählt für diesen Zweck als 2 Stäbe und ein Vierfach-Brennstab als 4 Stäbe. Der Leuchtstein-Stab gibt weder Wärme ab, noch lässt er andere Komponenten mehr Wärme abgeben. Du kannst diesen Stab im IC2 Reactor Planner als Reaktorbeschichtung behandeln.%n%nWie du siehst, ist die Geschwindigkeit direkt proportional zur Hüllentemperatur und den benachbarten Stäben. Im Extremfall kannst du einen Leuchtstein-Stab in weniger als einer halben Minute vollständig aufladen und alle 10 Sekunden ein Sunnarium ausgeben (im Durchschnitt, da die Zellen aufgrund unterschiedlicher Positionen nicht mit der gleichen Geschwindigkeit geladen werden), aber das erfordert einen sehr beträchtlichen Ressourcenaufwand. Es beinhaltet auch einen Vakuum-Froster zur Kühlung der Kühlzellen und den Betrieb des Reaktors bei über 66000 Hüllentemperatur. Wäge deinen Bedarf und deine Ressourcensituation weise ab. Wenn du ihn einfach nur SCHNELL aufladen willst, dann ist hier eine mögliche Zeichenkette für den IC2 Reactor Planner:%n%nerp=bpO50cpsdtJElVqn4hObFJc0tiOE0JpEHYpqTxJHvyezjSKRjUuwgouXzNOlU4a3hFBRygM=%n%nErsetze die Reaktorschutzverkleidung durch echte Leuchtstein-Stäbe, und du solltest startklar sein. Du kannst auch weniger Reaktorkammern verwenden, indem du weniger Verkleidungen benutzt. Viel Spaß!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMAg.desc=Dein guter alter Ein-Block-Molekularassembler ist weg. Also, wie bekommst du Sunnarium? Nun, es gibt ein paar Wege, aber auf der EV-Stufe musst du Leuchtstein bestrahlen und in Sunnarium umwandeln.%n%nDer Leuchtstein-Stab lädt sich langsam auf, wenn du ihn neben einen beliebigen Brennstab in deinem IC2-Reaktor legst. Die genaue Ladegeschwindigkeit beträgt (Anzahl benachbarter Stäbe) * (abrunden(Hüllentemperatur/3000) + 1) pro Sekunde. Ein Doppel-Stab zählt für diesen Zweck als 2 Stäbe und ein Vierfach-Brennstab als 4 Stäbe. Der Leuchtstein-Stab gibt weder Wärme ab, noch lässt er andere Komponenten mehr Wärme abgeben. Du kannst diesen Stab im IC2-Reaktorplaner wie Reaktorbeschichtung behandeln.%n%nWie du siehst, ist die Geschwindigkeit direkt proportional zur Hüllentemperatur und den benachbarten Stäben. Im Extremfall kannst du einen Leuchtstein-Stab in weniger als einer halben Minute vollständig aufladen und alle 10 Sekunden ein Sunnarium ausgeben (im Durchschnitt, da die Zellen aufgrund unterschiedlicher Positionen nicht mit der gleichen Geschwindigkeit geladen werden), aber das erfordert einen sehr beträchtlichen Menge an Ressourcen. Es beinhaltet auch einen Vakuumfroster zur Kühlung der Kühlzellen und den Betrieb des Reaktors bei 66.000+ Hüllentemperatur. Wäge deinen Bedarf und deine Ressourcensituation weise ab.%n%nDie Wiki hat gute Ratschläge für die Reaktorplanung (bisher nur englisch): [url]https://wiki.gtnewhorizons.com/wiki/Nuclear_Reactors[/url]%n%nErsetze die Reaktorschutzverkleidung durch echte Leuchtstein-Stäbe, und du solltest startklar sein. Du kannst auch weniger Reaktorkammern verwenden, indem du weniger Verkleidungen benutzt. Viel Spaß!
 
 # Quest: Niobium-Titanium
 betterquesting.quest.EYcEN-yhRDyXfOGtQjWyLg.name=§8§lNiobium-Titanium
@@ -4501,7 +4505,7 @@ betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=After seeing how slow Shirabon 
 
 # Quest: Do I Really Need These?
 betterquesting.quest.yySGZ5RzSZm38ElTS1kL7g.name=§9§l§nDo I Really Need These?
-betterquesting.quest.yySGZ5RzSZm38ElTS1kL7g.desc=Yes actually.%n%nOnce upon a time these were optional and commonly skipped by players, but now you will need at least 20 of them to use in the Nanochip Assembly Matrix if you want to craft any Pico Circuits. %n%nAs for upgrading your CoAL to use them... that's your choice.
+betterquesting.quest.yySGZ5RzSZm38ElTS1kL7g.desc=Yes, actually, but not until UMV.%n%nOnce upon a time these were optional and commonly skipped by players, but now you will need at least 20 of them for use in the Nanochip Assembly Matrix if you want to craft any Quantum Circuits later on.%n%nAs for upgrading your CoAL to use them in UIV... that's your choice.
 
 
 ## Quest Line: Tier 12 - UMV
@@ -5061,7 +5065,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRA.desc=... mit dem Biodiesel, den du a
 
 # Quest: Warts!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.name=Warzen!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.desc=Mir geht's in letzter Zeit nicht so gut. Könntest du mir ein paar Terra-Warzen anbauen? Die sind besser als Milch, weil sie nur negative Effekte wegmachen und bis zu 64 mal stapelbar sind. Echt praktisch, wenn man gegen diesen Alchemisten-Infernal kämpft! Oder Super-Tanks bewegt.%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRQ.desc=Mir geht's in letzter Zeit nicht so gut. Könntest du mir ein paar Terra-Warzen anbauen? Die sind besser als Milch, weil sie nur negative Effekte wegmachen und ein Stapel 64 Gegenstände fasst. Echt praktisch, wenn man gegen diesen höllischen Alchemisten kämpft! Oder Super-Tanks bewegt.%n%nSie haben auch sehr seltenes Essentia in sich, also sehr hilfreich für einen anstrebenden Thaumaturgen.%n%n[note]Um Gaia-Warzen in der Hand halten zu können, wirst du etwas Schnee auf deine Netherwarzen rechts-klicken müssen, bis sie sich verwandeln[/note]
 
 # Quest: Sweet Tooth
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.name=Naschkatzen
@@ -5069,11 +5073,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGRg.desc=Zuckerrohr kommt mit deinem Zuc
 
 # Quest: More Red, Less Wheat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.name=Mehr Rot, Weniger Weizen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.desc=Einfach, locker, Redstone-Girl.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyQ.desc=Einfaches, Simples, Redstone.%n%n[note]Redstone-Fackeln sind perfekt, um die Lichtstärke genau richtig zu bekommen.[/note]
 
 # Quest: Tools Of The Trade 5 - Electronic Scanning
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.name=Handwerkszeug 5 - Elektronisches Scannen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=Mit dem tragbaren Scanner kannst du die Werte der Nutzpflanze und Umweltinfos checken, indem du mit der rechten Maustaste draufklickst. Er bleibt auch nach dem Sammeln der Samen gescannt. Such nach der Quest für den tragbaren Scanner nach dem EBF in den Multiblock-Zielen. Vor allem wird dir direkt angezeigt, wie hoch der aktuelle Nährstoffwert deiner Pflanzen ist.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHAg.desc=Der Tragbare Scanner ist die direkte Verbesserung der Planzenlinse.%n%nGenau wie die Linse kann der Scanner dir alle Informationen über eine auf einem Anbaustab wachsende Pflanze verraten, aber entgegen der Pflanzenlinse kann es auch den exakten Nährstoffwert, der durch den Anbaustab gegeben wird, anzeigen.%n%n[note]Der Tragbare Scanner ist nicht nur für Ackerpflanzen, er kann dir viele Informationen über praktisch alles zeigen! Gucke dir die Tragbare Scanner-Quest nach dem der EHO-Quest im Multiblockziele-Reiter für mehr Informationen an!
 
 # Quest: New Threads
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHBQ.name=Neue Fäden
@@ -5113,7 +5117,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHEQ.desc=Öl aus Pflanzen? Macht genauso
 
 # Quest: Tools of the Trade 2 - Mendelian Identification
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.name=Handwerkszeug 2 - Mendelsche Identifikation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.desc=Wenn du neue Nutzpflanzen züchtest, wirst du auf hunderte verschiedene Spezies stoßen! Jede Spezies hat eine einzigartige Textur, die ein erfahrener Feldarbeiter unterscheiden kann, aber dieses Werkzeug macht dir die Sache viel schneller klar. %n%nNach der Verwendung kannst du Folgendes erkennen:%n- Spezies%n- Statistiken%n- Pflanzenstufe%n- Ob sie wachsen kann (viele Pflanzen haben spezielle Anforderungen)%n- Ob du sie ernten kannst%n- Wachstumsstadium und Fortschritt zur nächsten Stufe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHgA.desc=Wenn du neue Nutzpflanzen züchtest, wirst du auf hunderte verschiedene Spezies stoßen! Jede Spezies hat eine einzigartige Textur, die ein erfahrener Feldarbeiter unterscheiden kann, aber dieses Werkzeug macht dir die Sache viel schneller klar. %n%nNach der Verwendung kannst du Folgendes erkennen:%n- Spezies%n- Statistiken%n- Pflanzenstufe%n- Ob sie wachsen kann (viele Pflanzen haben spezielle Anforderungen)%n- Ob du sie ernten kannst%n- Wachstumsfortschritt
 
 # Quest: Wither Skulls Easy Style
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHhw.name=Wither-Schädel im einfachen Stil
@@ -5125,7 +5129,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiA.desc=Die Ernte der Gott des Donners-
 
 # Quest: Reactoria
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.name=Reactoria
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.desc=Reactoria-Pflanzen lassen Reactoria-Blätter fallen, die dein Pechblende-Erz vervierfachen.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiQ.desc=Eine großartige Quelle an Uran und Pechblende.%n%nReactoria-Pflanzen lassen Reactoria-Blätter fallen, die dein Pechblende-Erz vervierfachen.
 
 # Quest: Vegan Leather?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHiw.name=Veganes Leder?
@@ -5137,15 +5141,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjA.desc=Creepergras kann deinen Schwarz
 
 # Quest: Plant Based Milk
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.name=Pflanzliche Milch
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.desc=Hafermilch? Nö.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.desc=Hafermilch? Nö.%nSojamilch? Nö.%n%nWarzenmilch. Sag deinen Kühe auf Wiedersehen.
 
 # Quest: Better Put On That Rubber Suit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.name=Zieh Dir Besser Den Gummianzug An
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.desc=Trollpflanze! Was macht sie? Sie trollt dich!%n%n%nUnd gibt dir Krebs.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.desc=Trollpflanze! Was macht sie? Sie trollt dich!%n%n%nUnd gibt dir Krebs. 'tschuldige!
 
 # Quest: Who the Hell is Bob?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.name=Wer zur Hölle ist Bob?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.desc=Willst du Smaragde für den Handel oder andere Zwecke? Dies ist die Quelle.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.desc=Willst du ein paar Smaragde für den Handel oder andere Zwecke? Das ist die Quelle.
 
 # Quest: Deep Blue Sea of Sapphires
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.name=Tiefblaues Meer aus Saphiren
@@ -5153,18 +5157,18 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2Q.desc=Du brauchst einen Saphirblock u
 
 # Quest: Red Touch Yellow
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.name=Rot Berührt Gelb
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.desc=Granate sind tatsächlich wertvoller als Saphire. Sie sind eine frühe Quelle für Chrom und Mangan, die du für HV-Maschinen benötigst. Du kannst auch Pyrop-, Almandin- und Spessartin-Staub mit Salpetersäure zentrifugieren, um eine Vielzahl von zusätzlichen passiven Ressourcen zu erhalten. Um die Reife zu erreichen, benötigst du einen Block Granat (egal welcher Art) unter dieser Pflanze. Du kannst Granate vom HV-Zerkleinerer und Spessartin-Erz erhalten, oder du kannst einen Implosionskompressor verwenden, um Granat-Sand in Kristalle zu verwandeln, um daraus Blöcke zu machen.%n%nUm alle Produkte von Garnydiania zu verarbeiten, könnten diese Dampf-Multiblock-Maschinen echt nützlich sein!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI2g.desc=Granate sind tatsächlich wertvoller als Saphire. Sie sind eine frühe Quelle für Chrom und Mangan, die du für HV-Maschinen benötigst. Du kannst auch Pyrop-, Almandin- und Spessartin-Staub mit Salpetersäure zentrifugieren, um eine Vielzahl von zusätzlichen passiven Ressourcen zu erhalten. Um die Reife zu erreichen, benötigst du einen Block Granat (egal welcher Art) unter dieser Pflanze. Du kannst Granate vom HV-Zerkleinerer und Spessartin-Erz erhalten, oder du kannst einen Implosionskompressor verwenden, um Granat-Sand in Kristalle zu verwandeln, um daraus Blöcke zu machen.%n%nUm alle Produkte von Garnydiania zu verarbeiten, könnten diese Dampf-Multiblock-Maschinen echt nützlich sein! Obwohl, um ehrlich zu sein, wird es wahrscheinlich noch viel länger dauert, bis du das Meiste aus dieser Pflanze mit den nötigen Chemikalien machen kannst.
 
 # Quest: Creeping Climbers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.name=Kletterpflanzen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.desc=Hier sind ein paar Pflanzen, die deine Solarpunk-Basis aufpeppen oder dir helfen, auf ein Baumhaus zu klettern.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAA.desc=Hier sind ein paar Pflanzen, die deine Solarpunk-Basis aufpeppen oder dir helfen, auf ein Baumhaus zu klettern.%n%nKeine Tausend-Blockreise zum nächsten Gemäßigten Regenwald nötig!
 
 # Quest: The Art of Bonsai
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.name=Die Kunst des Bonsai
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJZQ.desc=Du hast rausgefunden, dass du Miniaturversionen der passenden Bäume machen kannst, indem du einfach Setzlinge auf Pflanzen-Stöcke pflanzt! Wie süß!%n%nBonsai-Bäume geben dir genau wie normale Bäume Drops, aber ohne die verschwendete Server-Verarbeitungszeit, die entsteht, wenn man alle Baumblöcke platziert, nur um sie dann wieder zu fällen. Das kann eine erhebliche Belastung für einen Server sein. Wenn du also nett zu deinem Host sein willst, züchte ein paar Bonsai-Bäume.
 
 # Quest: Crop Stats
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=Deine Nutzpflanzen verbessern
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.name=Nutzpflanzenwerte
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0g.desc=Ein wichtiger Teil von CropsNH ist es, die Werte deiner Nutzpflanzen zu verbessern. Das kann immer passieren, wenn eine neue Nutzpflanze wächst – egal ob durch Selbstvermehrung oder Kreuzung...
 
 # Quest: Argentia
@@ -6207,127 +6211,127 @@ betterquesting.quest.5zyyh2tXQ8On53B0VtAHZw.name=§c§lBarrel Upgrades
 betterquesting.quest.5zyyh2tXQ8On53B0VtAHZw.desc=Better Barrels have tiers which increase the amount of upgrades a barrel can hold. They are mainly used to increase their storage capacity, although there are a few upgrades which give the barrels extra functionality.%n%nBarrels can only be upgraded one tier at a time, so be prepared to make lots of lower tier structural upgrades if you plan to continue using Better Barrels for your storage needs!
 
 # Quest: Building Made Easy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.name=Bauen Einfach Gemacht
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.name=§c§lBauen einfach gemacht
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.desc=Blöcke von Hand zu setzen kann mühsam sein. Wäre es nicht schön, Blöcke zu setzen wie „Noch 9 hier“?%n%nNun, gute Nachrichten. Besorge dir ein paar der verschiedenen Baublöcke, und ich werde dich mit etwas Schönem belohnen.%n%nDu könntest es (oder die bessere Version) auch einfach selbst mit Instabilen Barren herstellen.%n%nDu kannst auch zu den verschiedenen anderen Zaubaustäben aufrüsten.
 
 # Quest: Base Too Big? I've Got a Fix For You!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADuA.name=Basis Zu Groß? Ich Habe eine Lösung!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADuA.name=§2§lBasis zu groß? Ich habe da eine Lösung!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADuA.desc=Eine Basis auseinanderzuhalten, um Verschmutzung oder Explosionen zu verhindern, kann dich wirklich auslaugen. Warum also nicht etwas Beton herstellen, um dich schneller fortzubewegen?%n%nSammle etwas Marmor und zentrifugiere ihn zu Calcit. Mische dann in deinem Mischer etwas Beton. Gib ihn anschließend mit einer Blockform in eine Gießmaschine aus, um Betonblöcke herzustellen.%n%nAuf diesen Blöcken wirst du dich schneller bewegen. Sie können sogar in Ziegel umgewandelt werden, um unerwünschtes Spawnen zu verhindern! Hinweis: 10 Eimer nasse Mischung werden zu genau 160 Blöcken. Diese Blöcke können auch zu verschiedenen Varianten gemeißelt werden.
 
 # Quest: Chisel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.name=Ein Besserer Meißel
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.desc=Wenn du deine Basis dekorieren willst, brauchst du einen besseren Meißel.%n%nNormal: 256%nObsidian: 512%nDiamant: 2560%nBedrockium: 32767%n%nSie werden offensichtlich schwerer herzustellen, je länger sie halten.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.name=§a§lMeißel
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjw.desc=Chisel ist eine der Haupt-Baumods dieses Packs. Es fügt hunderte neue Blöcke hinzu, welche dir helfen deine Basis schön zu machen!%n%nDie Mod fügt außerdem verschiedene Varianten für einige minecraft-originalen Blöcke hinzu. Stelle einen Meißel her und gucke sie dir an!
 
 # Quest: The Right Tool for the Job
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkA.name=Das Richtige Werkzeug für die Arbeit
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkA.name=§a§lDas richtige Werkzeug für die Aufgabe
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkA.desc=Tinker's Construct hat seine eigene Meißel-Variante, um Tinker-Blöcke in verschiedene Typen umzuwandeln. Sie hat nicht viele Verwendungszwecke, aber wenn du in NEI nachsiehst, kannst du sehen, was möglich ist.
 
 # Quest: Tinker's Blocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkQ.name=Tinker's Blöcke
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkQ.name=§a§lTinkers-Blöcke
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkQ.desc=Tinker's Construct bietet ein paar nützliche Blöcke aus dem Schmelzofen. Rauer Braunstein wird aus Zinn und Kies hergestellt und ergibt einen Block, der dich etwas schneller bewegen lässt. Bruchstein kann in Verbrannten Stein umgewandelt werden, der in den Wänden des Schmelzofens verwendet werden kann, um diesen zu vergrößern, ohne Lehm verwenden zu müssen.
 
 # Quest: Some Handy Uses
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.name=Einige Nützliche Anwendungen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.desc=Der T'Con-Meißel hat nicht viele Verwendungszwecke, aber hier sind ein paar interessante. Nutze NEI, um weitere Optionen für mehr Dekorationen zu sehen. Du kannst diese Blöcke auch zu Stufen verarbeiten, wenn du etwas haben möchtest, auf dem keine Monster spawnen können.%n%nBraunstein-Straßen sind etwas schneller als Rauer Braunstein.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.name=§a§lEinige nützliche Anwendungen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkg.desc=Der Tinkers-Meißel hat nicht viele Verwendungszwecke, aber hier sind ein paar interessante. Nutze NEI, um weitere Optionen für mehr Dekorationen zu sehen. Du kannst diese Blöcke auch zu Stufen verarbeiten, wenn du etwas haben möchtest, auf dem keine Monster spawnen können.%n%nDu kannst auch den Meißel in der Welt auf Tinker/u0027-Blöcken verwenden, um die sie in unterschiedliche Varianten zu ändern - pass aber auf, manchmal kannst du Veränderungen nicht mehr rückgängig machen!%n%n[note]Braunstein-Straßen sind etwas schneller als Rauer Braunstein.[/note]%n%n[note]Den Meißel auf Verbrannten Stein zu verwenden, verwandelt diesen in Verbrannte Ziegel.[/note]
 
 # Quest: Chisel All the Things
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkw.name=Meißle Alle Dinge
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkw.name=§2§lMeißle alles
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHkw.desc=Wenn du aus irgendeinem Grund eine große Anzahl von Gegenständen meißeln musst, ist der Automeißel das Richtige für dich.
 
 # Quest: Chisel as Fast as You Can
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlA.name=Meißle so Schnell wie Du Kannst
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlA.name=§2§lMeißle so schnell du kannst
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlA.desc=Der Automeißel ist ziemlich langsam. Stelle einige Upgrades her, um ihn schneller zu machen.
 
 # Quest: My Ancient Enemy
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlQ.name=Mein Antiker Feind
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlQ.name=§a§lMein antiker Feind
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlQ.desc=Die eine Schwachstelle von Chisel sind Treppen. Es wäre schön, mehr Vielfalt zu haben, aber später werde ich dir zeigen, wie du aus jedem Block eine individuelle Treppe herstellen kannst.%n%nDu kannst auch in NEI nach „Treppe“ suchen, um Treppen aus anderen Mods zu finden.
 
 # Quest: Basic Blocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlg.name=Grundlegende Blöcke
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlg.name=§a§lGrundlegende Blöcke
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlg.desc=Chisel bietet eine große Vielfalt an Blöcken. Die Suche nach „Chisel“ in NEI liefert Seiten über Seiten. Hier ist eine kleine Auswahl.
 
 # Quest: Fun Party Blocks
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlw.name=Spaßige Party Blöcke
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlw.name=§a§lSpaßige Partyblöcke
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHlw.desc=Es gibt auch ein paar echt abgefahrene Blöcke.
 
 # Quest: Concrete and GT Stones
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmA.name=Beton und GT-Steine
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmA.name=§a§lBeton und GT-Steine
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmA.desc=Chisel kann auch Beton und GT-Steine in neue, interessante Blöcke umwandeln. Einige der GT-Steinblöcke verhindern sogar, dass Mobs auf ihnen spawnen. Beton lässt dich schneller laufen.
 
 # Quest: Basic Builder's Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.name=Grundlegender Zaubaustab
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.name=§a§lGrundlegender Zaubaustab
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmQ.desc=Der einzige Vorteil des Stein-Zaubaustabs ist, dass er günstig ist. Er bietet nicht viele spezielle Modi und hält auch nicht lange. Aber du kannst eine Menge davon herstellen!%n%nUm ihn zu benutzen, mache einen Rechtsklick auf einen Block, während du mehr von diesem Block in deinem Inventar hast. Ein Umriss wird dir zeigen, was er tun wird.
 
 # Quest: Low-Tier Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.name=Niedrigstufige Stäbe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.name=§c§lSchwacher Zauberstab
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmg.desc=Der Eisen-Zaubaustab wird länger halten als der Stein-Stab und hat ein paar Modi.
 
 # Quest: Mid-Tier Wand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.name=Mittelstufiger Stab
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.name=§6§lMittelguter Zauberstab
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHmw.desc=Die nächste Stufe des Stabs ist der Diamant-Zaubaustab. Er hat alle möglichen lustigen Modi. Sei einfach vorsichtig bei der Verwendung, es wäre schade, versehentlich eine Menge Blöcke zu platzieren!
 
 # Quest: Botany
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.name=Botany
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.name=§a§lBotany
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoA.desc=Die Botany-Mod bietet mehr Farben für Blöcke und Glas, sowie einfache Kachelmuster oder komplexere Muster mit einem Fliesenbearbeiter. Fürs Erste werden wir eine Eisenkelle herstellen.%n%nDiese Mod wird eine Menge Schmetterlinge erzeugen. Sorge also dafür, dass du im Untergrund oder unter Glas gärtnerst. Die Schmetterlinge breiten sich aus und infizieren Blätter in deiner Umgebung, wodurch sich noch mehr Schmetterlinge bilden, was Lag verursacht.
 
 # Quest: Finding Flowers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoQ.name=Blumen finden
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoQ.name=§a§lBlumen finden
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHoQ.desc=Zuerst musst du ein paar Blumen finden. Nimm dann deine Kelle und verwende sie auf einigen Erdblöcken, um sie zu Boden zu machen. Platziere anschließend deine Blumen auf dem Boden, um sie in Botany-Blumen zu verwandeln.%n%nWenn du die MV-Stufe erreicht hast, schaue im Reiter „Alles über Bienen" nach Informationen über Genetik.
 
 # Quest: Powder Power
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHow.name=Die Kraft der Pulver
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHow.name=§a§lDie Kraft der Pulver
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHow.desc=Botany verwendet verschiedene Pulver, um die Bodeneigenschaften zu verbessern.%n%nPh-Wert erhöhen - Asche-Pulver, Zellstoff-Pulver%nPh-Wert senken - Mulch-Pulver, Schwefel-Pulver%nNährstoffe erhöhen - Dünger-Pulver, Kompost-Pulver
 
 # Quest: Killing Weeds and Growing Flowers
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpA.name=Unkraut Beseitigen und Blumen Anpflanzen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpA.name=§a§lUnkraut beseitigen und Blumen anpflanzen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpA.desc=Niemand mag Unkraut. Unkrautvernichter hält das Unkraut von deinem Boden fern.%n%nKnochenmehl kann auf Keimlingsblumen angewendet werden, um sie schneller reifen zu lassen.
 
 # Quest: Like Having a County Extension Office in Your Hand
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpQ.name=Wie ein Landwirtschaftliches Beratungsbüro in Deiner Hand
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpQ.name=§6§lWie ein landwirtschaftliches Beratungsbüro in deiner Hand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpQ.desc=Das Bodenmessgerät wird dir die Bodenwerte mitteilen - wie trocken, wie viele Nährstoffe usw. Du kannst den Boden mit den verschiedenen Pulvern verbessern, damit er den Anforderungen deiner Blume entspricht.
 
 # Quest: 80 New Colors to Play With
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpg.name=80 Neue Farben zum Verwenden
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpg.name=§a§l80 neue Farben zum Herumspielen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpg.desc=Wenn du eine Vanilleblume pflanzt, ist sie bereits reif. Schneide sie mit einer Schere, um einen Keimling zu erhalten, den du neu pflanzen kannst, um mehr zu erhalten. Zerstöre die Blume, um eine reife Blume zu erhalten. Verwandle die Blume mit einer Werkbank in Pigment.%n%nUm Kreuzungen zu erhalten, pflanze Blumen neben leeren Erdböden. Halte Ausschau nach Unkraut. Schließlich wird ein kleiner Keimling anfangen zu wachsen.%n%nDenke daran, dies unterirdisch oder in einem Gehege zu tun, sonst wird dein TPS es bereuen.
 
 # Quest: Glass of Many Colors
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpw.name=Glas in Vielen Farben
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpw.name=§a§lGlas in vielen Farben
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHpw.desc=Die Pigmente färben eine erstaunliche Vielfalt von Glas. Nur eine Warnung - im Gegensatz zu normalem Glas ist dieses Glas nicht feuerfest.
 
 # Quest: Ceramics
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqA.name=Keramik
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqA.name=§a§lKeramik
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqA.desc=Mit etwas Ton und Pigmenten kannst du Pigmentierten Ton herstellen. Lege den Pigmentierten Ton in einen Ofen, um grundlegende Keramikblöcke zu erhalten. Diese Blöcke sind großartig, wenn du einen Bereich mit schönen, gleichmäßigen Farben haben möchtest.
 
 # Quest: Mortar and Tiles
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqQ.name=Mörtel und Fliesen
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqQ.name=§a§lMörtel und Fliesen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqQ.desc=Um Keramikfliesenmuster herzustellen, musst du deine Blöcke in Fliesen umwandeln. Stelle zuerst Mörtel her und verwende dann den Mörtel mit deinen Blöcken in einem 3-Block- + 1-Mörtel-Muster in der Werkbank, um Keramikfliesen zu erhalten.
 
 # Quest: Tile Patterns
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqg.name=Fliesenmuster
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqg.name=§a§lFliesenmuster
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqg.desc=Jetzt, wo du Fliesen hast, kannst du einfache Fliesenmuster herstellen. Ein 2x2-Muster aus rot/gelb und gelb/rot ergibt ein einfaches Schachbrettmuster. Wenn du das Schachbrettmuster erneut in einem 2x2-Muster verwendest, erhältst du ein Schachbrettmuster mit kleineren Fliesen. Verwende die Wiki-Seite von Binnie's Botany, um weitere Muster zu finden, die du nur mit Fliesen herstellen kannst.
 
 # Quest: Tileworker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqw.name=Fliesenbearbeiter
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqw.name=§2§lFliesenleger
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHqw.desc=Der Fliesenbearbeiter kann die einfarbigen Keramikblöcke nehmen und sie in hübsche gemusterte Blöcke umwandeln.%n%nUnd entgegen dem Namen verwendest du hier Keramikblöcke, nicht Fliesen.
 
 # Quest: Glassworker
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrQ.name=Glasbearbeiter
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrQ.name=§2§lGlasarbeiter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrQ.desc=Möchtest du individuelle Glasformen und -konfigurationen? Ein Glasbearbeiter kann einige einzigartige Muster für deine Fenster bereitstellen. Du musst einige Glasfassungen herstellen, um das Glas zusammenzuhalten.
 
 # Quest: Mo' Hammers Mo' Problems
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.name=Meine Hämmer meine Probleme
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.name=§2§lMein Hammer meine Probleme
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrg.desc=Ja, in der Tat, es ist Zeit für einen weiteren Hammertyp. Der Meister-Schreinerei-Hammer ermöglicht es dir, die Blöcke von den verschiedenen Bearbeitern zu drehen.%n%nSchleiche, um die Blöcke vertikal zu drehen.%n%nWarum ist der Hammer der unteren Stufe der Meister-Hammer? Wer weiß das schon??
 
 # Quest: Panels to Cover Your...Everything
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrw.name=Platten um Dein... Alles Abzudecken
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrw.name=§2§lPlatten um dein... alles abzudecken
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHrw.desc=Der Plattenbearbeiter wird Holzfußbodenstücke für dich herstellen.
 
 # Quest: Fancy Woods
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.name=Schicke Hölzer
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.name=§2§lSchicke Hölzer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsA.desc=Mit dem Holzbearbeiter kannst du ausgefallene Holzblockarten herstellen. Du kannst Holzbretter von Vanilla, Forestry und Extra Trees verwenden.
 
 # Quest: Look Mom, No Torches!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.name=Schau Mama, Keine Fackeln!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.name=§a§lGuck Mama, keine Fackeln!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHsQ.desc=Keine Lust mehr auf eine Basis, die nur mit Fackeln ausgeleuchtet ist? Diese Reihe von Quests wird die verschiedenen Optionen durchgehen, die verfügbar sind, um deine wunderschöne Basis zu beleuchten.%n%nZuerst kommen die Railcraft-Laternen. Diese gibt es in Stein- und Metallvarianten. Die Steinvarianten brauchen nicht viel zum Herstellen. Ein Plus-/Minuspunkt für diese Laternen ist, dass sie feste Blöcke sind - du kannst nicht durch sie hindurchgehen, aber sie fallen auch nicht, wenn die umliegenden Blöcke entfernt werden. Suche nach "Laterne" in NEI für mehr Varianten. Sie sind jetzt etwas nervig herzustellen, aber wenn du NEI überprüfst, kannst du sie später ziemlich einfach mit Montierern herstellen.
 
 # Quest: Second Saw
@@ -7476,7 +7480,7 @@ betterquesting.quest.d5Fxz8ClQQCXy9GN_m9BrA.desc=How much oil do you need? Or ma
 
 # Quest: An End To Deforestation
 betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.name=§9§lAn End To Deforestation
-betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.desc=This multiblock is the perfect solution to high-speed tree farming. Do you need wood for charcoal or benzene power? Nuts for seed oil? Leaf blocks for decoration? Look no further!%n%nThe Tree Growth Simulator can farm almost any tree in the game, and produces all the items you would get by chopping it down normally. All this in a compact 3x3x3 cube, without any lag from growing a real tree.%n%nFirst, place any sapling in the controller slot of the multiblock. Then, insert tools appropriate to the part of the tree you want to harvest in an input bus. Give the machine power, turn it on, and be ready to get flooded by the outputs.%n%nDifferent tools are required to gather different parts of the tree:%n - Saw for logs%n - Branch Cutter for saplings%n - Shears for leaves%n - Knife for fruit%nBetter versions of the tools (Chainsaw, Grafter, ...) will increase the yield! Check the tooltip of the controller block for details.%n%nYou can even use multiple different tools together, and the machine will harvest several different products at the same time!%n%nNote that the tools used will slowly lose durability, so for long-term operation you might want to set up some automatic replacement.%n%n[note]While this machine only requires IV, it is quite expensive to make early in the tier. You will need 16 ZPM circuits and some fancy alloys.[/note]
+betterquesting.quest.fLH_QDPRR6mgCK0PL5iWmA.desc=This multiblock is the perfect solution to high-speed tree farming. Do you need wood for charcoal or benzene power? Nuts for seed oil? Leaf blocks for decoration? Look no further!%n%nThe Tree Growth Simulator can farm almost any tree in the game, and produces all the items you would get by chopping it down normally. It does all this in a compact area, without any lag from growing a real tree.%n%nFirst, place any sapling in the controller slot of the multiblock. Then, insert tools appropriate for the part of the tree you want to harvest in an input bus. Give the machine power, turn it on, and be ready to get flooded by the outputs.%n%nDifferent tools are required to gather different parts of the tree:%n - Saw for logs%n - Branch Cutter for saplings%n - Shears for leaves%n - Knife for fruit%nBetter versions of the tools (Chainsaw, Grafter, ...) will increase the yield! Check the tooltip of the controller block for details.%n%nYou can even use multiple different tools together, and the machine will harvest several different products at the same time!%n%nNote that the tools used will slowly lose durability, so for long-term operation you might want to set up an automatic replacement system.%n%n[note]You can optionally use grass in place of the dirt blocks during construction.[/note]%n%n[warn]While this machine only requires IV, it is quite expensive to make early in the tier. You will need 16 ZPM circuits and some fancy alloys.[/warn]
 
 # Quest: Can It!
 betterquesting.quest.gMRufFtRRRa30LE21boFNQ.name=§5§lCan It!
@@ -10292,10 +10296,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2g.desc=Mit dem ME-Speicher-Monitor kan
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2w.name=Redstone basierend auf Speicherlevel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2w.desc=Dieses Gerät schaltet ein Redstone-Signal ein (oder aus), je nachdem, wie viel von einem Gegenstand, einer Flüssigkeit oder Energie du in deinem Netzwerk angegeben hast. Der „Level-Typ“ wechselt zwischen dem Modus „Gegenstand/Flüssigkeit“ und dem Modus „Energie“.%n%nUm einen Gegenstand hinzuzufügen, klicke mit der linken Maustaste auf den gewünschten Gegenstand in den leeren Bereich zwischen den 1000 Zahlen, die hinzugefügt werden sollen. Klicke erneut, während du nichts hältst, um ihn zu entfernen. %n%nUm eine Flüssigkeit hinzuzufügen, klicke mit der linken Maustaste bei gedrückter Strg-Taste auf eine Zelle, die die gewünschte Flüssigkeit enthält, in den leeren Bereich. Das Entfernen erfolgt auf die gleiche Weise.
 
-# Quest: Why Do I Need to Know How Much Manure Slurry I Have?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3A.name=Warum muss ich wissen, wie viel Gülle ich habe?
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ3A.desc=Dies sind die Flüssigkeits-Versionen.
-
 # Quest: Beam Me Up, Scotty
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4Q.name=Beam mich auch, Scotty
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ4Q.desc=Wenn du damit Dinge teleportieren willst, brauchst du ein Laufwerk im SIOP und mindestens 6 angeschlossene Pylonen. Die Pylonen müssen die X-, Y- und Z-Dimensionen anzeigen, wobei du 1 mehr brauchst, als du denkst. Wenn die Effizienz unter 100 % sinkt, steigen die AE-Kosten enorm an, also füge mehr Pylonen hinzu, um dem entgegenzuwirken. Nachdem du das SIOP mit einem Redstone-Signal aktiviert hast, werden die Blöcke in die räumliche E/A-Dimension verschoben und das Laufwerk bewegt sich zum Ausgang, sodass du es an einen anderen Ort senden kannst. Dies ist sehr wichtig, wenn du es als Teleporter verwenden möchtest. Andernfalls kannst du dort stecken bleiben. Dein Netzwerk muss in der Lage sein, die gesamte für die Teleportation erforderliche Energie auf einmal zu speichern, daher benötigst du mindestens eine Energiezelle. Du kannst nur eine Pylon-Konfiguration pro Controller haben, daher solltest du in Betracht ziehen, sie in einem Subnetzwerk zu platzieren.%n%nWenn du 2 in der X- und Z-Dimension und 3 in der Y-Dimension verwendest, erhältst du einen 1x2x1-Teleporter, mit dem du dich selbst teleportieren kannst. Du benötigst einen SIOP-Port auf jeder Seite zum Senden und Empfangen. Aber du musst trotzdem eine Redstone-Vorrichtung entwerfen, um sie richtig zu aktivieren!%n%nLies dies, wenn du mehr über räumliche E/A im Allgemeinen und größere Setups erfahren möchtest: [url]https://old.reddit.com/r/feedthebeast/comments/3c2b2r/a_treatise_on_nocheat_smp_ae2_spatial_io/[/url] Sieh dir auch dies an, wenn du einen ausgefallenen Teleporter sehen möchtest: [url]https://old.reddit.com/r/feedthebeast/comments/2mhrf8/ae2_spatial_transporters/[/url]%n%n[warn]Raumzellen funktionieren nach ihrer Verwendung nur in den ursprünglich verwendeten XYZ-Dimensionen und können nicht formatiert oder umgestaltet werden. Teste sie zuerst im Kreativmodus![/warn]%n%n[warn]Rechne damit, dass deine Welt nach der Verwendung für eine Sekunde laggt, gib AE die Schuld dafür.[/warn]
@@ -10927,7 +10927,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIKw.desc=These basic upgrades to the Alv
 
 # Quest: Busy Bees Buzzing Boldly
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.name=Fleißige Bienen Brummen Bestimmt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.desc=These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.%n%nRain Shield - Can work through the rain%nLighting - Can work day and night%nAlveary Heater - Increases temperature a flat 20%% each (needs power)%nAlveary Fan - Decreases temperature a flat 20%% each (needs power)%nAlveary Hygroregulator[sic] - Has two modes, water and lava%nLava - Temp+10%%, Humidity-20%%%nWater - Temp-10%%, Humidity+20%%%n%nUnfortunately, there's no way to make them like caves with a block.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILA.desc=These upgrades can significantly increase your production rate by keeping your bees from stopping production due to the environment.%n%nRain Shield - Can work through the rain%nLighting - Can work day and night%nAlveary Heater - Increases temperature a flat 30%% each (needs power)%nAlveary Fan - Decreases temperature a flat 20%% each (needs power)%nAlveary Hygroregulator[sic] - Has two modes, water and lava%nLava - Temp+10%%, Humidity-20%%%nWater - Temp-10%%, Humidity+20%%%n%nUnfortunately, there's no way to make them like caves with a block.
 
 # Quest: A Stim a Day Keeps the Doctor Awake
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILQ.name=Ein Stim pro Tag hält den Arzt wach
@@ -11244,7 +11244,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6Q.desc=Ancient bees are the first step
 
 # Quest: Ocean
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.name=Ocean
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.desc=The Ocean bee can be hard to breed since some servers use a worldgen that prevents ocean biomes from appearing. You might have luck trying in a Twilight Forest lake - you'll know you are in the right biome if you see Water Creepers! If you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Vending Machine. Breed them from Diligent and Water.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6g.desc=The Ocean bee is bred from Diligent and Water in an ocean-type biome. Note that this doesn't mean literally an ocean. It is any biome that has the OCEAN tag. The stock terrain generator does not generate oceans in The Overworld, but there are a few biomes that carry the tag.%n%nSkipping The Overworld, you might have luck trying in a Twilight Forest lake - you'll know you are in the right biome if you see Water Creepers!%n%nYou can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a "dumps" directory in the root folder of the modpack with a biome.csv file inside of it. Try anything that has OCEAN tagged to it. You can feed these biomes into a Nature's Compass and see if there are any nearby.%n%nSome examples: Shield, Tropics, Twilight Lake, and Lush Swamp.%n%nIf you have trouble locating an appropriate spot, you can also purchase Ocean bees from the Vending Machine. Breed them from Diligent and Water.%n%n[note]You get more than one princess per purchase, so it's a useful way to get a few extra pristine princesses.[/note]
 
 # Quest: Resinous
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6w.name=Resinous
@@ -11252,7 +11252,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI6w.desc=Well at least you can get a cou
 
 # Quest: Miry
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7A.name=Miry
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7A.desc=Miry bees aren't too useful yet. They'll open up the Boggy branch for you. You'll need to find a biome with Warm/Damp to breed them. Use your Nature's Compass and Habitat Locator to find them. An easy one to find is Rainforest. Breed them from Marshy and Noble.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7A.desc=Miry bees aren't too useful yet. They'll open up the Boggy branch for you. You'll need to find a biome with Warm/Damp to cause their mutation. Use your Nature's Compass and Habitat Locator to find them. An easy one to find is Rainforest. Breed them from Marshy and Noble.
 
 # Quest: Elastic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7Q.name=Elastic
@@ -11496,7 +11496,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIoA.desc=Achtung. Diese Bienen hassen ni
 
 # Quest: Arcane
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.name=Arkanbiene
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.desc=Enchanting drops from Arcane bees are used to create Aromatic Lumps for use in the Swarmer. It has a higher chance of success than normal Royal Jelly. These bees are the other bedrock of the Magic Bees branch. Breed them from Esoteric and Mysterious.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.desc=Enchanting drops from Arcane bees are used to create Aromatic Lumps for use in the Swarmer. It has a higher chance of success than normal Royal Jelly. These bees are the other bedrock of the Magic Bees branch. Breed them from Esoteric and Mysterious.%n%n[note]Thaumaturge's Notes:%n%nIf you are playing with disabled Thaumcraft research, and instead pay for research with aspects, then review descendants of this line. You can cross with Monastic bees, working your way to Pupil, and then on to Savant. Savant queens will produce lore fragments that you can combine into knowledge shards. That will help you stock up on aspects that you can put towards all the Praecantatio the alternate research mode requires.%n%nIt doesn't get its own quest progression because that's a pretty niche use. On the other hand, those ... academic bees also produce Paper Combs that can be centrifuged into paper.%n[/note]
 
 # Quest: Eldritch
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpQ.name=Eldritch
@@ -11564,7 +11564,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAItA.desc=Not much to say about this bee.
 
 # Quest: Spirit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAItQ.name=Spirit
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAItQ.desc=The Spirit bee is the first bee to give you Soul Combs, necessary for Soulful Wax, used in many magical frames. Breed them from Ethereal and Aware.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAItQ.desc=The Spirit bee is the first bee to give you Soul Combs, necessary for Soulful Wax, used in many magical frames. Breed them from Aware and either Ethereal or Attuned.
 
 # Quest: Soul
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAItg.name=Soul
@@ -11580,11 +11580,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuA.desc=Ordered bees require Ordered Cr
 
 # Quest: Vis
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuQ.name=Vis
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuQ.desc=Vis bees lead to some of the most powerful bees in the whole pack. They require a node within 75m of the bee housing. Make sure the lunar phase matches the requirements. Breed them from Ethereal and Infernal.%n%n[note]Astronomer's Notes: The waxing and waning phases happen on alternating days. The moon starts its next phase at sunrise and will keep to the same phase all day and all night. You want to prepare the day before, get to bed to start the next day, and immediately get to work. Also, congratulations if you just learned that the moon in Minecraft has phases!%n%nBreeder's Notes: Just because this bee only mutates around specific lunar phases doesn't mean you can't work on them in other phases. To get the mutations to show up at all, yes, you need correct lunar phases. However, you will need a spare Infernal or Ethereal princess to get started, and you can prep that any day. Also, once the Vis species trait shows up in some drones and/or a princess, it's just regular cross-breeding to get a pure princess and pure drone. That can be done any day too.%n%nYou do not need to breed at night to trigger the mutation.%n%nThe Ethereal and Infernal bees are a rough combination. Since you'll need a new princess for this bee, consider using a pristine princess that isn't aggressive and is closer to your Ethereal bees' climate. If you get lucky, you may breed out the aggression and produce hybrid Infernals that don't need to live in an oven to function. You will probably need your apiarist suit if the bred queen gets a dominant Infernal trait for a few cycles.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuQ.desc=Vis bees lead to some of the most powerful bees in the whole pack. They require a node within 75m of the bee housing. Make sure the lunar phase matches the requirements. Breed them from Ethereal and Infernal.%n%n[note]Astronomer's Notes: The waxing and waning phases happen on alternating days. The moon starts its next phase at sunrise and will keep to the same phase all day and all night. You want to prepare the day before, get to bed to start the next day, and immediately get to work. Also, congratulations if you just learned that the moon in Minecraft has phases!%n%nBreeder's Notes: Just because this bee only mutates around specific lunar phases doesn't mean you can't work on them in other phases. To get the mutations to show up at all, yes, you need correct lunar phases. However, you will need a spare Infernal or Ethereal princess to get started, and you can prep that any day. Also, once the Vis species trait shows up in some drones and/or a princess, it's just regular cross-breeding to get a pure princess and pure drone. That can be done any day too.%n%nDespite the focus on moon phases, you do not need to breed at night to trigger the mutation.%n%nThe Ethereal and Infernal bees are a rough combination. Since you'll need a new princess for this bee, consider using a pristine princess that isn't aggressive and is closer to your Ethereal bees' climate. If you get lucky, you may breed out the aggression and produce hybrid Infernals that don't need to live in an oven to function. You will probably need your apiarist suit if the bred queen gets a dominant Infernal trait for a few cycles.[/note]
 
 # Quest: Rejuvenating
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.name=Rejuvenating
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.desc=Rejuvenating bees must be bred within 25m of a node. They will slowly charge the nearest node. Breed them from Vis and Attuned.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.desc=Rejuvenating bees must be bred within 25m of a node. They will slowly charge the nearest node. Breed them from Vis and Attuned.%n
 
 # Quest: Empowering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuw.name=Empowering
@@ -11620,11 +11620,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIwg.desc=Tired of all the effort it take
 
 # Quest: Heroic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIww.name=Heroic
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIww.desc=This one takes a little luck. You'll have to find Steadfast bees in a dungeon chest. Their useful effect is causing damage to hostile mobs. Breed them from Steadfast and Valiant.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIww.desc=This one takes a little luck. You'll have to find Steadfast drones in chests classified as dungeon chests. Note that doesn't mean the chests have to be in a dungeon! You could find one in the middle of some Thaumcraft obsidian pillars right on the surface of The Overworld. %n%nHeroic bees have the pleasant effect of causing damage to hostile mobs. Breed them from Steadfast and Valiant.%n%n[note]Breeder's Notes:%n%nSpecifically, you'll only ever find Steadfast drones in the chests. §nNo princesses.§r You'll have to convert a princess if you want to make a stock of them. Heroic is the only thing you can use them for, but you'll have a better time of it if you have more than a handful of drones. So if you play your cards well and use a high-fertility starter princess, you could take one or two Steadfast drones and multiply them into something safer before trying this mutation.[/note]
 
 # Quest: Nameless
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxA.name=Namenlos
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxA.desc=Oblivion bees can be purchased with coins, or found in the End. Nameless is required to get Draconic bees. Nameless are also where you can get Amnesiac Wax. Breed them from Oblivion and Ethereal.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxA.desc=Nameless bees are required to get Draconic bees. They are also where you can get Amnesiac Wax. Breed them from Oblivion and Ethereal. Oblivion bees can be purchased with coins, or found in The End.%n%n[note]Breeder's Notes:%n%nThe Oblivion bees are going to be the main problem here if you haven't reached The End yet. You can try to cross-breed without that access, but you're stuck when the mating pair creates an Oblivion Queen that needs End pollinators.[/note]
 
 # Quest: Abandoned
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIxQ.name=Verlassen
@@ -11681,6 +11681,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=Breed an industrious with a her
 # Quest: Energium
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=Energium
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=Are you tired of making Energium Dust by mixing Ruby and Redstone Dust? This bee offers a way to acquire it directly - how convenient is that? To breed it, you'll need to place some Hot Coolant below the hive while inside a Boneyard found in the Nether.%n%nUnlike its parents, this bee won't burn down your base—but it will set you on fire if you're not wearing your apiarist suit!
+
+# Quest: Attuned
+betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.name=Attuned
+betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.desc=You're now getting into Magic Bees, and one of its mundane bee species is the Attuned species. These are scooped out of Deep Hives that you can find in the Overworld. These hives are a pain to find, so you should consider just buying hives with coins until you get a princess and a drone. However, if you are a real masochist or completionist try-hard, then here's some information about where they spawn:%n%n* From Y=1 to Y=25%n* In stone, surrounded on 5 sides. Not just vanilla stone.%n* In biomes tagged with one or more of:%n   * MOUNTAINS: Actual mountains may not count. It's the biome type that counts.%n      * Example: Canyon.%n   * HILLS: Again, actual hills don't count.%n      * Example: Snowy Coniferous Forest.%n   * MAGICAL: Unlike the others, they do have some ethereal aspect.%n      * Examples: Magical Forest is obvious, but also Cherry Blossom Grove counts.%n* Surrounded by a small redstone vein. This often fills any open space around them.%n%nThey also like to just kind of show up whatever-what-the-heck in other biomes. Our beekeeping intern found a Deep Hive in a Lush Desert:%n%nLush Desert [HOT, DRY, SAVANNA, LUSH, SANDY]%n%nYou can dump the biome data in NEI by clicking on the NEI options button (the wrench), then the Tools button, then the Data Dumps button, and finally the Dump button in the biomes category. This creates a "dumps" directory in the root folder of the modpack with a biome.csv inside of it. Any listed biome that has the tags of HILLS, MOUNTAINS, and/or MAGICAL can generate Deep Hives. You can feed these biomes into a Nature's Compass and see if there are any nearby.%n%nProspector's Scanners will pick up the little ore pockets for these (traces, small samples). If you had one of those end-game ones with a display, it would come up as a few red pixels. Larger ones are probably just regular ore veins. The ore finding wand doesn't do a good job from the surface. Chasing lava veins and tunnels helps. Ore veins filled with redstone will saturate either tool.%n%nOf course, just buying hives is the low-effort way.%n%n[note]Beekeeper's Notes:%n%nIf you get real bad luck and wind up with an ignoble princess, then just get a bunch of drones out of it and convert some other pristine princess afterwards. However, using base princesses will compel the bees to turn into the Common species. There are two choices:%n%n1. Use an Alveary with an Alveary Stabilizer to block mutations.%n2. Create a princess that doesn't line up with the Attuned species' breeding possibilities before starting.[/note]
 
 # Quest: Salt
 betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.name=Salt
@@ -12208,6 +12212,10 @@ betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.desc=One Essentia you might have a h
 betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.name=Thauminite Helmet
 betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.desc=If you improve your Thaumium to Thauminite, you can make this very stylish helmet! Also comes with a very useful 5%% vis discount while equipped.%n%nMaybe this new material is useful for wands too?
 
+# Quest: The Burden of Knowledge
+betterquesting.quest.EL2z-VAzS9eVmQFpNnwimg.name=The Burden of Knowledge
+betterquesting.quest.EL2z-VAzS9eVmQFpNnwimg.desc=Have you made too many mistakes and researched yourself into a corner by getting too much warp with no way to get rid of it? Do you wish you could just start everything over? The [warn]Potion of Blissful Oblivion[/warn] is the solution you are looking for.%n%nAt the cost of your knowledge of [warn]all research, all discovered aspects, all knowledge points in the Research Table, and everything scanned with a Thaumometer[/warn], all of your warp will be removed. It won't do anything about warp from armor, so you might still get minor warp events if you're wearing any warpy armor. Be absolutely certain you know what you are doing before you drink this.%n%nKeep in mind that there are better alternatives for dealing with warp (which you can see in the Adept Thaumaturgy tab). This is just the cheapest one.%n%n[note]It's also a rather decent source of Strontio.[/note]
+
 # Quest: Comparing at a Distance
 betterquesting.quest.HF-prjNuRP-RUOYzn170cQ.name=Comparing at a Distance
 betterquesting.quest.HF-prjNuRP-RUOYzn170cQ.desc=Comparators are wonderfully useful devices, but their need to be directly next to whatever they are comparing is quite limiting. If you could do so remotely that would free you from one major constraint.%n%nRemote Comparators allow you to do just that. Sneak-right-click with a crystalline eye to bind the block you want to watch, and place the eye in a remote comparator to start monitoring the block remotely.%n%nGiven the extra distance, though the range of the remote comparator is quite limited, you should expect the §otiniest§r amount of signal lag compared to a direct comparator. You're doubtful that is ever going to be a limiting factor, though.
@@ -12219,6 +12227,10 @@ betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=Now that you have started using
 # Quest: Growing Glowstone the Magical Way
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=Growing Glowstone the Magical Way
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=There are many plants that can provide you with Glowstone Dust. But the best one might just be Glieonia. This magical plant, once matured, can be harvested for two Glowstone Dust directly.
+
+# Quest: TimeWood Tree
+betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.name=TimeWood Tree
+betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.desc=The Timewood Clock is a special block that can be obtained in The Twilight Forest. It can be used to accelerate vanilla crops in a 16 block radius, making farms significantly faster and more efficient.%n%nTo get one, you must explore inside the massive Twilight Forest trees and search the loot chests hidden within them. There is a small chance to find a Tree of Time sapling. The clock generates hidden inside the tree after it grows.%n[warn]%nAfter growing the tree, you will need a Silk Touch tool to obtain the Timewood Clock itself.[/warn]%n[note]%nIf you break it without Silk Touch, it will instead drop several vanilla gold clocks.%n[/note]
 
 # Quest: Shadow Metal
 betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.name=Shadow Metal
@@ -12781,7 +12793,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXA.desc=Wand Focus: Fire is a basic wan
 
 # Quest: Diggy Diggy Hole
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXQ.name=Diggy Diggy Hole
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXQ.desc=The Wand Focus: Excavation emits a green beam of light that will mine blocks of any hardness (except for unbreakable blocks like Bedrock) from a distance.%n%nThis focus is also required to operate the Arcane Bore. Upgrading foci to be used in the Bore with §5Enlarge§r is highly recommended, as it increases the radius by 1 per level.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases block breaking speed every level%n§5Treasure§r: Acts like vanilla Fortune, but does not apply to GT ores%n§5Enlarge§r (even levels): Breaks an extra adjacent block per level%n§5Dowsing§r (level 3): May drop Thaumcraft Native Ores from ores, but does not apply to GT ores%n§5Silk Touch§r (level 5): Acts like vanilla Silk Touch
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXQ.desc=The Wand Focus: Excavation emits a green beam of light that will mine blocks of any hardness (except for unbreakable blocks like Bedrock) from a distance.%n%nThis focus is also required to operate the Arcane Bore. Upgrading foci to be used in the Bore with §5Enlarge§r is highly recommended, as it increases the radius by 1 per level.%n%n[note]This focus accepts the following upgrades in the Focal Manipulator:[/note]%n§5Frugal§r: Lowers vis cost to cast by 10%% per level%n§5Potency§r: Increases block breaking speed every level%n§5Treasure§r: Acts like vanilla Fortune%n§5Enlarge§r (even levels): Breaks an extra adjacent block per level%n§5Dowsing§r (level 3): May drop Thaumcraft Native Ores from ores, but does not apply to GT ores%n§5Silk Touch§r (level 5): Acts like vanilla Silk Touch
 
 # Quest: Bzzap!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFXg.name=Bzzap!
