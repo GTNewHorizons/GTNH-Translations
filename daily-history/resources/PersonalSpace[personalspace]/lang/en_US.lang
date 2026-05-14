@@ -34,8 +34,60 @@ gui.personalWorld.skyType.VANILLA=Vanilla sky
 gui.personalWorld.skyType.BARNADA_C=Barnada C sky
 gui.personalWorld.skyType.GARDEN_OF_GLASS=Garden of Glass sky
 
-commands.pspace.usage=/pspace (give-portal player DIM [X] [Y] [Z])|(tpx player DIM [X Y Z])|(ls)|(where player)|(allow-worldgen-change DIM)
+gui.personalWorld.boundary=Boundary
+gui.personalWorld.boundary.a=Boundary A
+gui.personalWorld.boundary.b=Boundary B
+gui.personalWorld.boundary.a.short=A
+gui.personalWorld.boundary.b.short=B
+gui.personalWorld.boundary.chunks=Boundary Chunks X x Z (0-20)
+
+gui.personalWorld.boundary.none=None
+gui.personalWorld.boundary.none.short=-
+gui.personalWorld.boundary.unknown.short=?
+gui.personalWorld.boundary.metaValue=meta=%d
+gui.personalWorld.boundary.allowedValue=allowed=%s
+gui.personalWorld.boundary.allowed=Allowed: %s
+gui.personalWorld.boundary.invalidMeta=Invalid meta
+gui.personalWorld.boundary.blockNotAllowed.a=Boundary A block not allowed
+gui.personalWorld.boundary.blockNotAllowed.b=Boundary B block not allowed
+gui.personalWorld.boundary.range=0-20
+
+gui.personalWorld.gap=Gap Chunks (0-5)
+gui.personalWorld.gap.a=Gap A
+gui.personalWorld.gap.b=Gap B
+gui.personalWorld.gap.c=Gap C
+gui.personalWorld.gap.a.short=A
+gui.personalWorld.gap.b.short=B
+gui.personalWorld.gap.c.short=C
+gui.personalWorld.gap.widthRange=0-5
+gui.personalWorld.gap.preset.ROAD=Road
+gui.personalWorld.gap.preset.SOLID=Solid
+gui.personalWorld.gap.blockNotAllowed.a=Gap A block not allowed
+gui.personalWorld.gap.blockNotAllowed.b=Gap B block not allowed
+gui.personalWorld.gap.blockNotAllowed.c=Gap C block not allowed
+
+gui.personalWorld.center.enable=Center Marker
+gui.personalWorld.center.block=Center Block
+gui.personalWorld.center.block.short=C
+gui.personalWorld.center.blockNotAllowed=Center block not allowed
+gui.personalWorld.center.dir.SE=SE (X+ Z+)
+gui.personalWorld.center.dir.SW=SW (X- Z+)
+gui.personalWorld.center.dir.NE=NE (X+ Z-)
+gui.personalWorld.center.dir.NW=NW (X- Z-)
+
+gui.personalWorld.button.plus=+
+gui.personalWorld.button.minus=-
+gui.personalWorld.multiply=x
+
+gui.personalWorld.moreSettings=More Settings
+gui.personalWorld.moreSettings.tooltip=More Settings
+gui.personalWorld.backToMain=Back
+gui.personalWorld.backToMain.tooltip=Back to Main
+
+commands.pspace.usage=/pspace (give-portal player DIM [X] [Y] [Z])|(tpx player DIM [X Y Z])|(ls)|(where player)|(allow-worldgen-change DIM)|(reload-config)
 commands.pspace.badDimension=The specified dimension doesn't exist
 commands.pspace.where=Player %s is in dimension %d
 commands.pspace.tpx=Player %s was teleported to %d: %d, %d, %d
 commands.pspace.allow-worldgen-change=Player %s unlocked worldgen settings for dimension %d
+commands.pspace.reload-config.success=Configuration reloaded and synced to all clients.
+commands.pspace.reload-config.fail=Failed to reload configuration: config file not found.
