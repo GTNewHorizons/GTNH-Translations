@@ -10,8 +10,8 @@ itemGroup.GregTech.Materials=Материалы
 itemGroup.GregTech.Ores=Руды
 
 # Components
-gt.oreprefix.block_of_material=Block of %s
-gt.oreprefix.centrifuged_material=Centrifuged %s
+gt.oreprefix.block_of_material=Блок %s
+gt.oreprefix.centrifuged_material=Центрифугированная %s
 gt.oreprefix.centrifuged_material_crystals=Centrifuged %s Crystals
 gt.oreprefix.centrifuged_material_ore=Centrifuged %s Ore
 gt.oreprefix.chipped_material=Chipped %s
@@ -45,8 +45,8 @@ gt.oreprefix.material=%s
 gt.oreprefix.material_bar=%s Bar
 gt.oreprefix.material_bolt=%s Bolt
 gt.oreprefix.material_buzzsaw_blade=%s Buzzsaw Blade
-gt.oreprefix.material_casing=%s Casing
-gt.oreprefix.material_cell=%s Cell
+gt.oreprefix.material_casing=Оболочка %s
+gt.oreprefix.material_cell=Капсула %s
 gt.oreprefix.material_chainsaw_tip=%s Chainsaw Tip
 gt.oreprefix.material_chip=%s Chip
 gt.oreprefix.material_crystal=%s Crystal
@@ -2932,7 +2932,7 @@ GT5U.gui.tooltip.hatch.crafting_input_me.place_manual_items=Place manual items
 GT5U.gui.tooltip.hatch.crafting_input_me.export=Вернуть все сохранённые внутри предметы обработано в AE
 GT5U.gui.text.fluid_limiter.threshold=§8Процентный порог
 GT5U.gui.text.volumetric_flask.capacity=Ёмкость
-GT5U.gui.text.volumetric_flask.confirm=Подтвердить
+GT5U.gui.text.volumetric_flask.max_capacity=Max Capacity of %s
 GT5U.gui.tooltip.hatch.crafting_pattern_provider.1=Pattern Storage for §eLarge Molecular Assembler (LMA)§r
 GT5U.gui.tooltip.hatch.crafting_pattern_provider.2=Вместимость: %,d шаблонов
 
@@ -3074,8 +3074,8 @@ GT5U.gui.text.LHC.off=Откл.
 GT5U.gui.text.LHC.acceleratormode=Accelerating beam...
 GT5U.gui.text.LHC.collidermode=Colliding beam...
 GT5U.gui.text.LHC.completedcycles=Completed Cycles
-GT5U.gui.text.LHC.targetbeamenergyeV=Target Beam Energy (eV):
-GT5U.gui.text.LHC.maxaccelerationcycles=Max Acceleration Cycles:
+GT5U.gui.text.LHC.targetbeamenergyeV=Target Beam Energy (eV)
+GT5U.gui.text.LHC.maxaccelerationcycles=Max Acceleration Cycles
 GT5U.gui.text.beamcrafter.guiheadercrafting=Current Particles Required
 GT5U.gui.text.beamcrafter.guiheaderbuffer=Current Particle Buffer
 
@@ -7806,6 +7806,7 @@ gt.blockcasings12.11.name=Алхимический инертный корпус
 gt.blockcasings12.12.name=Алхимический иммунный корпус из ихора
 gt.blockcasings12.13.name=Корпус миксера
 gt.blockcasings12.14.name=Формовочное ядро
+gt.blockcasings12.15.name=Algae Casing
 
 gt.blockcasings13.0.name=Кабельный корпус
 gt.blockcasings13.1.name=Графитовый корпус модератора
