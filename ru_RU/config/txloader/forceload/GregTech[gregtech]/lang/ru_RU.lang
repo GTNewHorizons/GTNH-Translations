@@ -2363,6 +2363,10 @@ GT5U.gui.button.chunk_loading_on=§7Загрузка чанков: §aВКЛ.
 GT5U.gui.button.chunk_loading_off=§7Загрузка чанков: §4ОТКЛ.
 GT5U.gui.button.ore_drill_radius_1=§7Текущий радиус: §a%s
 GT5U.gui.button.ore_drill_radius_2=§7ЛКМ для увеличения, ПКМ для уменьшения
+GT5U.gui.button.oil_drill_radius_1=§7Current Radius: §a%s blocks
+GT5U.gui.button.oil_drill_radius_2=§7Left-click to increment, right-click to decrement
+GT5U.gui.button.work_area_preview_on=§7Hide working area
+GT5U.gui.button.work_area_preview_off=§7Show working area
 GT5U.gui.button.ore_drill_cobblestone_on=§7Заменить на булыжник: §aВКЛ.
 GT5U.gui.button.ore_drill_cobblestone_off=§7Заменить на булыжник: §4ОТКЛ.
 GT5U.gui.button.drill_retract_pipes=§7Прерывание и втягивание буровых труб
@@ -2569,6 +2573,11 @@ GT5U.gui.text.bus_settings=Настройки люка
 GT5U.gui.text.amount_out_of=§9Количество: %,d / %,d
 GT5U.gui.text.compressed_bus_stored_items=Удерживайте SHIFT, чтобы отобразить все хранимые предметы
 GT5U.gui.text.nil=None
+GT5U.gui.text.turbine_title=Turbines
+
+GT5U.gui.text.hatch.output.cycle=Click to cycle modes
+GT5U.gui.text.hatch.output.filter.none.0=None
+GT5U.gui.text.hatch.output.filter.none.1=Will be locked to the next fluid that is put in (or use fluid cell to lock)
 
 # NAC Keys
 GT5U.gui.text.nac.missing_water=Недостаточное водоснабжение
@@ -3499,6 +3508,7 @@ GT5U.nei.purified_water.grade_3.2=Возвращается в количеств
 GT5U.nei.purified_water.grade_4.0=+%s pH/стак
 GT5U.nei.purified_water.grade_4.1=%s pH/1000Л
 GT5U.nei.cauldron.consumed=Расходуется за операцию
+GT5U.nei.cauldron.anystack=Works with any stack size
 GT5U.nei.foundry_module.chassis_tier=Chassis must match Foundry Tier!
 
 
@@ -7016,6 +7026,12 @@ GT5U.gui.multimachine.purificationunitplasmaheater=Температурное к
 GT5U.gui.multimachine.purificationunituvtreatment=Лазерная очистка
 GT5U.gui.multimachine.purificationunitdegasifier=Остаточная дегазация
 GT5U.gui.multimachine.purificationunitextractor=Барионное совершенство
+
+# spinmatron
+GT5U.gui.multimachine.spinmatron.mode=Mode: %s
+GT5U.gui.multimachine.spinmatron.speed=Speed: %s
+GT5U.gui.multimachine.spinmatron.rotational_power=Rotational Power: %s
+GT5U.gui.multimachine.spinmatron.parallels=Parallels: %s
 
 GT5U.infodata.pubp.catalyst_history=Catalyst insertion history for this recipe cycle
 GT5U.infodata.pubp.quark_combination=Правильно идентифицированая кварковая комбинация: %s
