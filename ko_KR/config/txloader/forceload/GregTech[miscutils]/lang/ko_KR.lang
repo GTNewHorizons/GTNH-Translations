@@ -1,57 +1,54 @@
-//Creative Tabs
-itemGroup.MiscUtilBlockTab=[GT++] 블록들
-itemGroup.MiscUtilMiscTab=[GT++] 아이템
-itemGroup.MiscUtilCombatTab=[GT++] 전투
-itemGroup.MiscUtilToolsTab=[GT++] 도구
-itemGroup.MiscUtilMachineTab=[GT++] 기계들
-itemGroup.MiscUtilOtherTab=[GT++] 아이템 2
-itemGroup.MiscUtilBOP=[GT++] 바이옴 오 플렌티 추가품
+# Creative Tabs
+itemGroup.MiscUtilBlockTab=[GT++] Blocks
+itemGroup.MiscUtilMiscTab=[GT++] Items
+itemGroup.MiscUtilCombatTab=[GT++] Combat
+itemGroup.MiscUtilToolsTab=[GT++] Tools
+itemGroup.MiscUtilMachineTab=[GT++] Machines
+itemGroup.MiscUtilOtherTab=[GT++] Items II
+itemGroup.MiscUtilBOP=[GT++] Biomes O'Plenty Additions
 
-//Debug
-item.AAA_Broken.name=[존재하지 않는 아이템] 깃허브에 신고하세요. 꼭이요.
+# Debug
+item.AAA_Broken.name=[Non-existent Item] Report This Recipe On Github, Please.
 item.itemBedLocator_Base.name=Bed Locator [NBT Test]
 item.itemBaseItemWithCharge.name=Base Chargeable Item
 item.miscutils_itemDebugShapeSpawner.name=[Debug] Shapes
 
-//Fluids
+# Fluids
 tile.fluidSludge.name=Stagnant Waste Water
 tile.fluidSludge.0.name=Stagnant Waste Water
 
-//Death Messages
-death.attack.plasmabolt=%s 이(가) 뜨겁게 불타는 플라즈마에 의해 죽었습니다.
-death.attack.plasmabolt.player=%1$s 이(가) 뜨겁게 불타는 플라즈마를 사용한 %2$s 에게 살해당했습니다.
-death.attack.gtpp.grinder=%s 이(가) IsaMill에 의해 무(無)로 분쇄되었습니다.
+# Death Messages
+death.attack.plasmabolt=%s died by burning hot plasma.
+death.attack.plasmabolt.player=%1$s was killed by %2$s using plasma.
+death.attack.gtpp.grinder=%s was ground into nothingness by an IsaMill.
 
-//Batch mode chat message
-misc.BatchModeTextOn=레시피를 묶어서 생산합니다. (ME 출력 버스가 권장됩니다. 출력 버스를 초과하는 출력은 사라질 것입니다.)
-misc.BatchModeTextOff=제작법을 묶어서 생산하지 않습니다.
-
-//Alternative Materials
-item.itemPlateBatteryAlloy.name=배터리 합금판
-item.itemIngotBatteryAlloy.name=배터리 합금 주괴
+# Alternative Materials
+item.itemPlateBatteryAlloy.name=Plate of Battery Alloy
+item.itemIngotBatteryAlloy.name=Ingot of Battery Alloy
 item.itemStickyRubber.name=Gumlet of Sticky Rubber
 
-//Unused Fuel rods
-item.itemFuelRod_Empty.name=빈 연료봉
-item.itemFuelRod_Thorium.name=토륨 연료봉
-item.itemFuelRod_Uranium.name=우라늄 연료봉
-item.itemFuelRod_Plutonium.name=플루토늄 연료봉
+# Unused Fuel rods
+item.itemFuelRod_Empty.name=Empty Fuel Rod
+item.itemFuelRod_Thorium.name=Thorium Fuel Rod
+item.itemFuelRod_Uranium.name=Uranium Fuel Rod
+item.itemFuelRod_Plutonium.name=Plutonium Fuel Rod
 
-//Entities
-entity.constructStaballoy.name=스타바로이 골렘
+# Entities
+item.BasicMetaSpawnEgg.name=Spawn Staballoy Construct
+entity.constructStaballoy.name=Staballoy Construct
 entity.sickBlaze.name=Infected Zealot
 
-//Tile Entities
-tile.blockToolBuilder.name=그레그테크 도구 제조기
-tile.blockEggBox.name=계란 상자
-tile.blockCircuitProgrammer.name=회로 프로그래머
-tile.blockDecayablesChest.name=납으로 차폐된 상자
+# Tile Entities
+tile.blockToolBuilder.name=GregTech Tool Constructor
+tile.blockEggBox.name=Egg Box
+tile.blockCircuitProgrammer.name=Circuit Programmer
+tile.blockDecayablesChest.name=Lead Lined Box
 tile.blockVolumetricFlaskSetter.name=Volumetric Flask Configurator
 tile.blockSuperLight.name=Shining Star
-tile.blockPestKiller.name=Pest Killer
 tile.blockSuperJukebox.name=Sir Mixalot [Jukebox]
+tile.blockSuperJukebox.deprecated=§cDEPRECATED, Use the Electric Jukeboxes instead
 
-//Tools
+# Tools
 item.itemBufferCore.name=Energy Core
 item.itemStaballoyPickaxe.name=Tunnel Digger
 item.itemStaballoyAxe.name=Tree Feller
@@ -60,12 +57,12 @@ item.itemSandstoneHammer.name=Cobblestone Breaker
 # Tooltips
 GTPP.machines.chisel_slot.tooltip=Target Slot
 GTPP.machines.chisel_slot.tooltip.1=§7Put chiseled item to specify output
-GTPP.core.GT_Tooltip=Added by: §2Alkalus §7- §c[GT++]
-GTPP.core.GT_Tooltip_Builder=§2Alkalus §7- §c[GT++]
-GTPP.core.GT_Tooltip_Radioactive=§7Warning: §aRadioactive! §6 Avoid direct handling without hazmat protection.
+GTPP.core.GT_Tooltip=Added by: %s §7- §c[GT++]
+GTPP.core.GT_Tooltip_Builder=%s §7- §c[GT++]
+GTPP.core.GT_Tooltip_Radioactive=§7Warning: §aRadioactive! §6 Avoid direct handling without hazmat protection. | Level: %s
 
 # RecipeMaps
-gtpp.recipe.cokeoven=코크스 오븐
+gtpp.recipe.cokeoven=Coke Oven
 gtpp.recipe.matterfab2=Matter Fabricator
 gtpp.recipe.rocketenginefuel=Rocket Engine Fuel
 gtpp.recipe.quantumforcesmelter=Quantum Force Transformer
@@ -73,6 +70,7 @@ gtpp.recipe.chemicaldehydrator=Dehydrator
 gtpp.recipe.vacfurnace=Vacuum Furnace
 gtpp.recipe.alloyblastsmelter=Alloy Blast Smelter
 gtpp.recipe.lftr=Liquid Fluoride Thorium Reactor
+gtpp.recipe.lftr.sparging=LFTR Gas Sparging
 gtpp.recipe.nuclearsaltprocessingplant=Nuclear Salt Processing Plant
 gtpp.recipe.oremill=Milling
 gtpp.recipe.fissionfuel=Nuclear Fuel Processing
@@ -94,6 +92,8 @@ gtpp.recipe.multidehydrator=Multiblock Dehydrator
 gtpp.recipe.semifluidgeneratorfuels=Semifluid Generator Fuels
 gtpp.recipe.flotationcell=Flotation Cell
 gtpp.recipe.treefarm=Tree Growth Simulator
+gtpp.recipe.algae_pond=Algae Pond
+gtpp.recipe.multiblockrockbreaker=Boldarnator
 
 # Recipe categories
 gtpp.recipe.category.abs_non_alloy_recipes=ABS Non-Alloy Recipes
@@ -106,7 +106,7 @@ gtpp.nei.milling.not_consumed=Does not always get consumed in the process
 gtpp.nei.chemplant.tier.1=Bronze
 gtpp.nei.chemplant.tier.2=Steel
 gtpp.nei.chemplant.tier.3=Aluminium
-gtpp.nei.chemplant.tier.4=스테인리스강
+gtpp.nei.chemplant.tier.4=Stainless Steel
 gtpp.nei.chemplant.tier.5=Titanium
 gtpp.nei.chemplant.tier.6=Tungsten Steel
 gtpp.nei.chemplant.tier.7=Laurenium
@@ -119,6 +119,8 @@ gtpp.nei.tgs.1=The sapling is not consumed.
 gtpp.nei.tgs.2=If %s is provided,
 gtpp.nei.tgs.3=Saplings are made instead.
 gtpp.nei.tgs.sapling=Outputted if %s is provided
+gtpp.nei.chemical_plant.not_consumed=Does not always get consumed in the process
+gtpp.nei.chemical_plant.higher_tier_casing=Higher tier pipe casings allow this item to last longer
 
 gtpp.nei.tgs.tooltip.sapling=Place in machine controller slot
 gtpp.nei.tgs.tooltip.saw=Place in an input bus to harvest logs
@@ -134,23 +136,24 @@ gtpp.nei.tgs.info-1=Output is further boosted
 gtpp.nei.tgs.info-2=by machine energy tier
 gtpp.nei.tgs.info-3=and tool type
 
+gtpp.nei.ap.tier=Algae Pond Tier: %s
 
-//Thermal Foundation Stuff
+# Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=Blazing Pyrotheum Bucket
 item.MiscUtils.bucket.bucketCryotheum.name=Gelid Cryotheum Bucket
 item.MiscUtils.bucket.bucketEnder.name=Resonant Ender Bucket
-item.MiscUtils.material.dustPyrotheum.name=파이로시움 가루
-item.MiscUtils.material.dustCryotheum.name=크라이오시움 가루
+item.MiscUtils.material.dustPyrotheum.name=Pyrotheum Dust
+item.MiscUtils.material.dustCryotheum.name=Cryotheum Dust
 item.MiscUtils.material.rodBlizz.name=Blizz Rod
-item.MiscUtils.material.dustBlizz.name=블리즈 가루
+item.MiscUtils.material.dustBlizz.name=Blizz Powder
 
-//------------- 'miscutils' is Case Sensitive Here, unsure why
+# ------------- 'miscutils' is Case Sensitive Here, unsure why
 tile.miscutils.fluid.pyrotheum.name=Blazing Pyrotheum
 tile.miscutils.fluid.cryotheum.name=Gelid Cryotheum
 tile.miscutils.fluid.ender.name=Resonant Ender
-//--------------
+# --------------
 
-//Forestry Stuff
+# Forestry Stuff
 item.frameAccelerated.name=Accelerated Frame
 item.frameVoid.name=Void Frame
 item.frameMutagenic.name=Mutagenic Frame
@@ -166,7 +169,7 @@ item.frameSlowing.name=Slowing Frame
 item.frameStabilizing.name=Stabilizing Frame
 item.frameUseless.name=Useless Frame
 
-//IC2 stuff
+# IC2 stuff
 item.itemEnergeticRotorBlade.name=Energetic Alloy Rotor Blade
 item.itemTungstenSteelRotorBlade.name=TungstenSteel Rotor Blade
 item.itemVibrantRotorBlade.name=Vibrant Alloy Rotor Blade
@@ -179,15 +182,29 @@ item.itemMagnaliumRotorBlade.name=Magnalium Rotor Blade
 item.itemUltimetRotorBlade.name=Ultimet Blade
 item.itemMagnaliumShaft.name=Magnalium Shaft
 item.itemUltimetShaft.name=Ultimet Shaft
+ic2.itemArmorHazmatChestplateEx.name=Advanced Hazmat Suit
+ic2.itemArmorHazmatHelmetEx.name=Advanced Hazmat Helmet
+ic2.itemArmorHazmatLeggingsEx.name=Advanced Hazmat Leggings
+ic2.itemArmorRubBootsEx.name=Advanced Hazmat Boots
+ic2.itemEnergeticRotor.name=Kinetic Gearbox Rotor (Energetic Alloy)
+ic2.itemIridiumRotor.name=Kinetic Gearbox Rotor (Iridium)
+ic2.itemTungstenSteelRotor.name=Kinetic Gearbox Rotor (TungstenSteel)
+ic2.itemVibrantRotor.name=Kinetic Gearbox Rotor (Vibrant Alloy)
 
 
-//Misc Items
+# Misc Items
 item.itemPLACEHOLDER_Circuit.name=Quark Manipulator (UV)
 item.itemPlateEnrichedSoularium.name=Enriched Soularium Plate
 item.itemHeliumBlob.name=Mysterious Hydrogen Substance
 item.itemAlkalusDisk.name=Alkalus Disk
+item.dummyResearch.name=Dummy Research
+item.item.empty.name=Empty
+item.itemGenericToken.name=BitCoin
+item.MiscUtils.bucket.name=Bucket
+item.MiscUtils.material.name=Material
 
-//Misc Blocks
+# Misc Blocks
+tile.blockCompressedObsidian.name=Compressed Obsidian
 tile.blockCompressedObsidian.0.name=Compressed Obsidian (9)
 tile.blockCompressedObsidian.1.name=Double Compressed Obsidian (81)
 tile.blockCompressedObsidian.2.name=Triple Compressed Obsidian (729)
@@ -199,20 +216,62 @@ tile.blockCompressedObsidian.7.name=Double Compressed Glowstone (81)
 tile.blockCompressedObsidian.8.name=Triple Compressed Glowstone (729)
 tile.blockCompressedObsidian.9.name=Quadruple Compressed Glowstone (6561)
 tile.blockCompressedObsidian.10.name=Quintuple Compressed Glowstone (59049)
+tile.blockCompressedObsidian.11.name=Compressed Netherrack
+tile.blockCompressedObsidian.12.name=Double Compressed Netherrack
+tile.blockCompressedObsidian.13.name=Triple Compressed Netherrack
 tile.blockNet.name=Net
+gtplusplus.blockcasings.2.name=Machine Casing
+gtplusplus.blockcasings.3.name=Machine Casing
+gtplusplus.blockcasings.4.name=Machine Casing
+gtplusplus.blockcasings.5.name=Machine Casing
+gtplusplus.blockcasings.6.name=Machine Casing
+gtplusplus.blockcasings.pipesgears.name=Machine Casing
+gtplusplus.blockspecialcasings.1.name=Machine Casing
+gtplusplus.blockspecialcasings.2.name=Machine Casing
+gtplusplus.blockspecialcasings.3.name=Machine Casing
+gtplusplus.blocktieredcasings.1.name=Machine Casing
+miscutils.blockcasings.name=Machine Casing
+MU-metatool.01.name=Hand Pump
+
+# Fuel Blocks
+tile.blockCactusCharcoal.name=Cactus Charcoal
+tile.blockCactusCharcoal.0.name=Cactus Charcoal
+tile.blockCactusCharcoal.1.name=Compressed Cactus Charcoal
+tile.blockCactusCharcoal.2.name=Double Compressed Cactus Charcoal
+tile.blockCactusCharcoal.3.name=Triple Compressed Cactus Charcoal
+tile.blockCactusCharcoal.4.name=Quadruple Compressed Cactus Charcoal
+tile.blockCactusCharcoal.5.name=Quintuple Compressed Cactus Charcoal
+tile.blockCactusCoke.name=Cactus Coke
+tile.blockCactusCoke.0.name=Cactus Coke
+tile.blockCactusCoke.1.name=Compressed Cactus Coke
+tile.blockCactusCoke.2.name=Double Compressed Cactus Coke
+tile.blockCactusCoke.3.name=Triple Compressed Cactus Coke
+tile.blockCactusCoke.4.name=Quadruple Compressed Cactus Coke
+tile.blockCactusCoke.5.name=Quintuple Compressed Cactus Coke
+tile.blockSugarCharcoal.name=Sugar Charcoal
+tile.blockSugarCharcoal.0.name=Sugar Charcoal
+tile.blockSugarCharcoal.1.name=Compressed Sugar Charcoal
+tile.blockSugarCharcoal.2.name=Double Compressed Sugar Charcoal
+tile.blockSugarCharcoal.3.name=Triple Compressed Sugar Charcoal
+tile.blockSugarCharcoal.4.name=Quadruple Compressed Sugar Charcoal
+tile.blockSugarCharcoal.5.name=Quintuple Compressed Sugar Charcoal
+tile.blockSugarCoke.name=Sugar Coke
+tile.blockSugarCoke.0.name=Sugar Coke
+tile.blockSugarCoke.1.name=Compressed Sugar Coke
+tile.blockSugarCoke.2.name=Double Compressed Sugar Coke
+tile.blockSugarCoke.3.name=Triple Compressed Sugar Coke
+tile.blockSugarCoke.4.name=Quadruple Compressed Sugar Coke
+tile.blockSugarCoke.5.name=Quintuple Compressed Sugar Coke
 
 
-//GT++ Items
+# GT++ Items
 
-//Meta Tool
+# Meta Tool
 MU-metaitem.01.0.name=MU-metaitem.01.0.name
 
-//Cells
+# Cells
 item.SulfurDioxide.name=High Quality Sulfur Dioxide Cell
 item.mobessence.name=Mob Essence Cell
-item.Fertiliser.name=Fertiliser Cell
-item.UN32Fertiliser.name=UN-32 Fertiliser Cell
-item.UN18Fertiliser.name=UN-18 Fertiliser Cell
 item.RaisinJuice.name=Raisin Juice Cell
 item.BerylliumHydroxide.name=Beryllium Hydroxide Cell
 item.AmmoniumBifluoride.name=Ammonium Bifluoride Cell
@@ -220,11 +279,11 @@ item.Hydroxide.name=Hydroxide Cell
 item.Ammonium.name=Ammonium Cell
 item.AmmoniumTetrafluoroberyllate.name=Ammonium Tetrafluoroberyllate Cell
 
-//Resources
+# Resources
 item.itemCoalCoke.name=Coking Coal
 item.itemHydrogenBlob.name=Mysterious Hydrogen Blob
 
-//Normal Items
+# Normal Items
 item.itemSimpleFiremaker.name=Basic Firemaker
 item.itemFiber.name=Plant Fiber
 item.itemRope.name=Rope
@@ -276,14 +335,7 @@ item.itemControlCore.tooltip.2=Lower tiers may be used to underclock, which is u
 item.thekeytothecity.tooltip.0=You feel like you're on top of the world.
 item.thekeytothecity.tooltip.1=Wear it around your neck like an amulet.
 
-//Conversion Dusts
-item.dustNeptunium238.name=넵투늄-238 가루
-item.dustRadium226.name=라듐-226 가루
-item.itemDustDecayedRadium226.name=Decayed Radium 226 Dust
-item.itemDustSmallDecayedRadium226.name=Small Decayed Radium 226 Dust
-item.itemDustTinyDecayedRadium226.name=Tiny Decayed Radium 226 Dust
-
-//Material Items
+# Material Items
 item.itemDustGadolinium.name=Gadolinium Dust
 item.itemDustSmallGadolinium.name=Small Pile of Gadolinium Dust
 item.itemDustTinyGadolinium.name=Tiny Pile of Gadolinium Dust
@@ -1574,7 +1626,7 @@ item.crushedPurifiedYellorium.name=Purified Crushed Yellorium Ore
 item.dustImpureYellorium.name=Impure Yellorium Dust
 item.dustPureYellorium.name=Purified Yellorium Dust
 
-//Shards
+# Shards
 item.itemDrained.name=Drained Shard
 item.itemAer.name=Aer Shard
 item.itemIgnis.name=Ignis Shard
@@ -1586,7 +1638,7 @@ item.itemDustInfusedEarth.name=Infused Earth Dust
 item.itemDustInfusedWater.name=Infused Water Dust
 
 
-//Misc Material Items
+# Misc Material Items
 item.itemDustLithiumCarbonate.name=Lithium Carbonate Dust
 item.itemDustSmallLithiumCarbonate.name=Small Pile of Lithium Carbonate Dust
 item.itemDustTinyLithiumCarbonate.name=Tiny Pile of Lithium Carbonate Dust
@@ -1620,26 +1672,21 @@ item.itemDustTinyZrCl4.name=Tiny Pile of ZrCl4 Dust
 item.itemDustCookedZrCl4.name=Cooked ZrCl4 Dust
 item.itemDustSmallCookedZrCl4.name=Small Pile of Cooked ZrCl4 Dust
 item.itemDustTinyCookedZrCl4.name=Tiny Pile of Cooked ZrCl4 Dust
-item.itemDustUN18Fertiliser.name=UN-18 Fertiliser Dust
-item.itemDustSmallUN18Fertiliser.name=Small Pile of UN-18 Fertiliser Dust
-item.itemDustTinyUN18Fertiliser.name=Tiny Pile of UN-18 Fertiliser Dust
-item.itemDustUN32Fertiliser.name=UN-32 Fertiliser Dust
-item.itemDustSmallUN32Fertiliser.name=Small Pile of UN-32 Fertiliser Dust
-item.itemDustTinyUN32Fertiliser.name=Tiny Pile of UN-32 Fertiliser Dust
 item.itemCustomMetaCover.miscutils.GtMachineCasings=%s Machine Plate Cover
+item.itemCustomMetaCover.miscutils.GtMachineCasings.name=Machine Plate Cover
 item.itemGregtechPump.tooltip.0=Cannot drain any other standard fluid container block
 item.itemGregtechPump.tooltip.1=Cannot be emptied via RMB, use inside a tank with GUI
 item.itemGregtechPump.tooltip.2=This is technically just a fancy fluid cell
 item.itemGregtechPump.tooltip.3=No Fluids Contained
 item.itemBaseEuItem.tooltip.0=§eElectric
-item.itemBaseEuItem.tooltip.1=Contains %d EU   Tier: %d
+item.itemBaseEuItem.tooltip.1=Contains %s EU   Tier: %d
 item.itemBaseEuItem.tooltip.2=Empty. You should recycle it properly.
-item.itemBaseEuItem.tooltip.3=%d / %d EU - Voltage: %d
+item.itemBaseEuItem.tooltip.3=%s / %s EU - Voltage: %d
 item.itemDebugClearing.name=Debug Square [%d]
 item.itemDebugClearing.0.tooltip=Mode: Clear
 item.itemDebugClearing.1.tooltip=Mode: Fill
 
-//Multitools
+# Multitools
 item.AluminiumMultipick.name=Aluminium Multipick
 item.AluminiumMultispade.name=Aluminium Multispade
 item.BerylliumMultispade.name=Beryllium Multispade
@@ -1719,8 +1766,8 @@ item.SteelMultispade.name=Steel Multispade
 item.TinAlloyMultispade.name=Tin Alloy Multispade
 item.UltimetMultipick.name=Ultimet Multipick
 item.UltimetMultispade.name=Ultimet Multispade
-item.WroughtIronMultipick.name=Wrought Iron Multipick
-item.WroughtIronMultispade.name=Wrought Iron Multispade
+item.CastIronMultipick.name=Cast Iron Multipick
+item.CastIronMultispade.name=Cast Iron Multispade
 item.SterlingSilverMultipick.name=Sterling Silver Multipick
 item.SterlingSilverMultispade.name=Sterling Silver Multispade
 item.RoseGoldMultipick.name=Rose Gold Multipick
@@ -1792,23 +1839,24 @@ item.TantalumCarbideMultipick.name=Tantalum Carbide Multipick
 item.TantalumCarbideMultispade.name=Tantalum Carbide Multispade
 
 
-//Items that Don't fit into another category
+# Items that Don't fit into another category
 
-//Plates
+# Plates
 item.itemPlateClay.name=Clay Plate
 item.itemPlateDoubleClay.name=Double Clay Plate
 item.itemPlateLithium.name=Lithium Plate
 item.itemPlateDoubleEuropium.name=Double Europium Plate
 
-//Gears
-item.itemSmallGearWroughtIron.name=Small Wrought Iron Gear
+# Gears
+item.itemSmallGearCastIron.name=Small Cast Iron Gear
 
-//Misc
+# Misc
 item.itemFoilUranium235.name=Uranium 235 Foil
 
 item.itemBoilerChassis_0.name=Advanced Boiler Chassis [Tier 1]
 item.itemDehydratorCoilWire_0.name=Coil Wire [EV]
 item.itemDehydratorCoil_0.name=Dehydrator Coil [EV]
+item.itemAirFilter.name=Air Filter
 item.itemAirFilter_0.name=Air Filter
 item.itemAirFilter_1.name=Air Filter
 item.itemDragonJar.name=Dragon Capture Jar
@@ -1889,28 +1937,22 @@ item.SlowBuildingRing.name=§eSlow Building Ring§7
 item.SlowBuildingRing.tooltip.0=§aWorn as a Ring within Baubles. Prevents you from sprinting.§7
 item.SlowBuildingRing.tooltip.1=§aMovement speed reduced to crouch speed.§7
 item.SlowBuildingRing.tooltip.2=§aPress shift while worn to toggle crouch on/off.§7
-item.itemBufferCore1.name=Energy Core [ULV].
-item.itemBufferCore2.name=Energy Core [LV].
-item.itemBufferCore3.name=Energy Core [MV].
-item.itemBufferCore4.name=Energy Core [HV].
-item.itemBufferCore5.name=Energy Core [EV].
-item.itemBufferCore6.name=Energy Core [IV].
-item.itemBufferCore7.name=Energy Core [LuV].
-item.itemBufferCore8.name=Energy Core [ZPM].
-item.itemBufferCore9.name=Energy Core [UV].
-item.itemBufferCore10.name=Energy Core [MAX].
+item.itemBufferCore1.name=Energy Core [ULV]
+item.itemBufferCore2.name=Energy Core [LV]
+item.itemBufferCore3.name=Energy Core [MV]
+item.itemBufferCore4.name=Energy Core [HV]
+item.itemBufferCore5.name=Energy Core [EV]
+item.itemBufferCore6.name=Energy Core [IV]
+item.itemBufferCore7.name=Energy Core [LuV]
+item.itemBufferCore8.name=Energy Core [ZPM]
+item.itemBufferCore9.name=Energy Core [UV]
+item.itemBufferCore10.name=Energy Core [UHV]
 item.itembookgt.name=§oThermal Boiler Manual
 
-// Everglade Items
+# Everglade Items
 item.everglades.trigger.name=§6Alkalus Disk [§cActivated§6]
 
-
-
-
-
-
-
-//Blocks
+# Blocks
 tile.blockRainforestOakLog.name=Rainforest Oak
 tile.blockRainforestOakLeaves.name=Oak Leaves
 tile.blockRainforestOakSapling.name=Rainforest Oak Sapling
@@ -1918,11 +1960,11 @@ tile.blockPineLogLog.name=Pine Log
 tile.blockPineLeaves.name=Pine Leaves
 tile.blockPineSapling.name=Pine Sapling
 
-//TC Stuff
+# TC Stuff
 tile.blockFastAlchemyFurnace.0.name=Broken
 tile.blockFastArcaneAlembic.1.name=Broken
 
-//Frame Boxes
+# Frame Boxes
 tile.Block of Selenium.name=Block of Selenium
 tile.Selenium Frame Box.name=Selenium Frame Box
 tile.Block of Bromine.name=Block of Bromine
@@ -2047,7 +2089,144 @@ tile.Trinium Naquadah Carbonite Frame Box.name=Trinium Naquadah Carbonite Frame 
 tile.Block of Quantum.name=Block of Quantum
 tile.Quantum Frame Box.name=Quantum Frame Box
 
-//Ores
+block.AbyssalAlloy.frame.name=Abyssal Alloy Frame Box
+block.AbyssalAlloy.standard.name=Block of Abyssal Alloy
+block.AdvancedNitinol.standard.name=Block of Advanced Nitinol
+block.AncientGranite.standard.name=Block of Ancient Granite
+block.Arcanite.frame.name=Arcanite Frame Box
+block.Arcanite.standard.name=Block of Arcanite
+block.ArceusAlloy2B.frame.name=Arceus Alloy 2B Frame Box
+block.ArceusAlloy2B.standard.name=Block of Arceus Alloy 2B
+block.AstralTitanium.frame.name=Astral Titanium Frame Box
+block.AstralTitanium.standard.name=Block of Astral Titanium
+block.BabbitAlloy.standard.name=Block of Babbit Alloy
+block.BlackMetal.frame.name=Black Metal Frame Box
+block.BlackMetal.standard.name=Block of Black Metal
+block.BlackTitanium.standard.name=Block of Black Titanium
+block.BloodSteel.frame.name=Blood Steel Frame Box
+block.BloodSteel.standard.name=Block of Blood Steel
+block.Botmium.frame.name=Botmium Frame Box
+block.Botmium.standard.name=Block of Botmium
+block.CelestialTungsten.frame.name=Celestial Tungsten Frame Box
+block.CelestialTungsten.standard.name=Block of Celestial Tungsten
+block.ChromaticGlass.frame.name=Chromatic Glass Frame Box
+block.ChromaticGlass.standard.name=Block of Chromatic Glass
+block.CinobiteA243.frame.name=Cinobite A243 Frame Box
+block.CinobiteA243.standard.name=Block of Cinobite A243
+block.Curium.standard.name=Block of Curium
+block.Dragonblood.frame.name=Dragonblood Frame Box
+block.Dragonblood.standard.name=Block of Dragonblood
+block.EglinSteel.frame.name=Eglin Steel Frame Box
+block.EglinSteel.standard.name=Block of Eglin Steel
+block.EnergyCrystal.frame.name=Energy Crystal Frame Box
+block.EnergyCrystal.standard.name=Block of Energy Crystal
+block.Fermium.standard.name=Block of Fermium
+block.Germanium.frame.name=Germanium Frame Box
+block.Germanium.standard.name=Block of Germanium
+block.Grisium.frame.name=Grisium Frame Box
+block.Grisium.standard.name=Block of Grisium
+block.HastelloyC276.frame.name=Hastelloy-C276 Frame Box
+block.HastelloyC276.standard.name=Block of Hastelloy-C276
+block.HastelloyN.frame.name=Hastelloy-N Frame Box
+block.HastelloyN.standard.name=Block of Hastelloy-N
+block.HastelloyW.frame.name=Hastelloy-W Frame Box
+block.HastelloyW.standard.name=Block of Hastelloy-W
+block.HastelloyX.frame.name=Hastelloy-X Frame Box
+block.HastelloyX.standard.name=Block of Hastelloy-X
+block.HeLiCoPtEr.frame.name=HeLiCoPtEr Frame Box
+block.HeLiCoPtEr.standard.name=Block of HeLiCoPtEr
+block.HS188A.frame.name=HS188-A Frame Box
+block.HS188A.standard.name=Block of HS188-A
+block.Hypogen.frame.name=Hypogen Frame Box
+block.Hypogen.standard.name=Block of Hypogen
+block.Incoloy020.frame.name=Incoloy-020 Frame Box
+block.Incoloy020.standard.name=Block of Incoloy-020
+block.IncoloyDS.frame.name=Incoloy-DS Frame Box
+block.IncoloyDS.standard.name=Block of Incoloy-DS
+block.IncoloyMA956.frame.name=Incoloy-MA956 Frame Box
+block.IncoloyMA956.standard.name=Block of Incoloy-MA956
+block.Inconel625.frame.name=Inconel-625 Frame Box
+block.Inconel625.standard.name=Block of Inconel-625
+block.Inconel690.frame.name=Inconel-690 Frame Box
+block.Inconel690.standard.name=Block of Inconel-690
+block.Inconel792.frame.name=Inconel-792 Frame Box
+block.Inconel792.standard.name=Block of Inconel-792
+block.Indalloy140.standard.name=Block of Indalloy 140
+block.Iodine.frame.name=Iodine Frame Box
+block.Iodine.standard.name=Block of Iodine
+block.LafiumCompound.frame.name=Lafium Compound Frame Box
+block.LafiumCompound.standard.name=Block of Lafium Compound
+block.Laurenium.frame.name=Laurenium Frame Box
+block.Laurenium.standard.name=Block of Laurenium
+block.Lithium7.standard.name=Block of Lithium 7
+block.MaragingSteel250.frame.name=Maraging Steel 250 Frame Box
+block.MaragingSteel250.standard.name=Block of Maraging Steel 250
+block.MaragingSteel300.frame.name=Maraging Steel 300 Frame Box
+block.MaragingSteel300.standard.name=Block of Maraging Steel 300
+block.MaragingSteel350.frame.name=Maraging Steel 350 Frame Box
+block.MaragingSteel350.standard.name=Block of Maraging Steel 350
+block.Neptunium.standard.name=Block of Neptunium
+block.NiobiumCarbide.frame.name=Niobium Carbide Frame Box
+block.NiobiumCarbide.standard.name=Block of Niobium Carbide
+block.Nitinol60.frame.name=Nitinol 60 Frame Box
+block.Nitinol60.standard.name=Block of Nitinol 60
+block.Octiron.frame.name=Octiron Frame Box
+block.Octiron.standard.name=Block of Octiron
+block.Pikyonium64B.frame.name=Pikyonium 64B Frame Box
+block.Pikyonium64B.standard.name=Block of Pikyonium 64B
+block.Plutonium238.standard.name=Block of Plutonium-238
+block.Polonium.standard.name=Block of Polonium
+block.Potin.frame.name=Potin Frame Box
+block.Potin.standard.name=Block of Potin
+block.Protactinium.standard.name=Block of Protactinium
+block.Quantum.frame.name=Quantum Frame Box
+block.Quantum.standard.name=Block of Quantum
+block.Radium.standard.name=Block of Radium
+block.Rhenium.frame.name=Rhenium Frame Box
+block.Rhenium.standard.name=Block of Rhenium
+block.Rhugnor.standard.name=Block of Rhugnor
+block.Runite.standard.name=Block of Runite
+block.Selenium.frame.name=Selenium Frame Box
+block.Selenium.standard.name=Block of Selenium
+block.SiliconCarbide.frame.name=Silicon Carbide Frame Box
+block.SiliconCarbide.standard.name=Block of Silicon Carbide
+block.Staballoy.frame.name=Staballoy Frame Box
+block.Staballoy.standard.name=Block of Staballoy
+block.Stellite.frame.name=Stellite Frame Box
+block.Stellite.standard.name=Block of Stellite
+block.Talonite.frame.name=Talonite Frame Box
+block.Talonite.standard.name=Block of Talonite
+block.Tantalloy60.frame.name=Tantalloy-60 Frame Box
+block.Tantalloy60.standard.name=Block of Tantalloy-60
+block.Tantalloy61.frame.name=Tantalloy-61 Frame Box
+block.Tantalloy61.standard.name=Block of Tantalloy-61
+block.TantalumCarbide.frame.name=Tantalum Carbide Frame Box
+block.TantalumCarbide.standard.name=Block of Tantalum Carbide
+block.Thallium.frame.name=Thallium Frame Box
+block.Thallium.standard.name=Block of Thallium
+block.Titansteel.frame.name=Titansteel Frame Box
+block.Titansteel.standard.name=Block of Titansteel
+block.TriniumNaquadahAlloy.standard.name=Block of Trinium Naquadah Alloy
+block.TriniumNaquadahCarbonite.frame.name=Trinium Naquadah Carbonite Frame Box
+block.TriniumNaquadahCarbonite.standard.name=Block of Trinium Naquadah Carbonite
+block.TriniumTitaniumAlloy.frame.name=Trinium Titanium Alloy Frame Box
+block.TriniumTitaniumAlloy.standard.name=Block of Trinium Titanium Alloy
+block.Tumbaga.frame.name=Tumbaga Frame Box
+block.Tumbaga.standard.name=Block of Tumbaga
+block.TungstenTitaniumCarbide.frame.name=Tungsten Titanium Carbide Frame Box
+block.TungstenTitaniumCarbide.standard.name=Block of Tungsten Titanium Carbide
+block.Uranium232.standard.name=Block of Uranium 232
+block.Uranium233.standard.name=Block of Uranium 233
+block.WatertightSteel.frame.name=Watertight Steel Frame Box
+block.WatertightSteel.standard.name=Block of Watertight Steel
+block.WhiteMetal.frame.name=White Metal Frame Box
+block.WhiteMetal.standard.name=Block of White Metal
+block.Zeron100.frame.name=Zeron-100 Frame Box
+block.Zeron100.standard.name=Block of Zeron-100
+block.ZirconiumCarbide.frame.name=Zirconium Carbide Frame Box
+block.ZirconiumCarbide.standard.name=Block of Zirconium Carbide
+
+# Ores
 tile.OreFluoriteF.name=Fluorite (F) Ore
 tile.OreCrocoite.name=Crocoite Ore
 tile.OreGeikielite.name=Geikielite Ore
@@ -2081,7 +2260,7 @@ tile.OreFluorcaphite.name=Fluorcaphite Ore
 tile.OreFlorencite.name=Florencite Ore
 tile.OreCryoliteF.name=Cryolite (F) Ore
 
-//Misc
+# Misc
 tile.blockMFEffect.name=Special
 tile.fluidBlockSludge.name=Sludge
 tile.blockWorkbenchGT.name=Workbench
@@ -2092,13 +2271,12 @@ tile.blockFishTrap.name=Fish Catcher
 tile.blockInfiniteFluidTank.name=Infinite Fluid Tank
 tile.blockMiningExplosives.name=Mining Explosives
 tile.blockHellFire.name=Hellish Fire
-tile.blockProjectBench.name=Project Table
 tile.blockTradeBench.name=Trade Bench
 tile.blockModularity.name=Modularity Bench
 tile.blockBlackGate.name=Wither Cage
 tile.blockTankXpConverter.name=Experience Converter
 
-//Everglades Blocks
+# Everglades Blocks
 tile.blockDarkWorldPortal.name=A Glimpse of the Future
 tile.blockDarkWorldGround.name=Unstable Earth
 tile.blockDarkWorldGround2.name=Polluted Soil
@@ -2106,13 +2284,13 @@ tile.blockDarkWorldGround2.2.name=Highly Polluted Soil
 tile.blockDarkWorldPortalFrame.name=Containment Frame
 
 
-//Added 1/4/18
+# Added 1/4/18
 tile.blockMiningPipeFake.name=Strengthened Mining Pipe
 tile.blockMiningHeadFake.name=Bedrock Drill
 item.itemPlateMeatRaw.name=Fleshy Panel
 tile.Block of MeatRaw.name=Block of Raw Meat
 
-//Added 26/5/18
+# Added 26/5/18
 item.BurntLiFBeF2ThF4UF4.name=Cell of Used Reactor Fuel [LiFBeF2ThF4UF4]
 item.BurntLiFBeF2ZrF4UF4.name=Cell of Used Reactor Fuel [LiFBeF2ZrF4UF4]
 item.BurntLiFBeF2ZrF4U235.name=Cell of Used Reactor Fuel [LiFBeF2ZrF4U235]
@@ -2138,7 +2316,7 @@ entity.toxinBall.name=Toxin globule
 entity.plasmaBolt.name=Plasma
 entity.bigChickenFriendly.name=Giant Chicken
 
-//Added 26/6/18
+# Added 26/6/18
 tile.OreTrinium.name=Trinium Ore
 item.crushedTrinium.name=Crushed Trinium Ore
 item.crushedCentrifugedTrinium.name=Centrifuged Crushed Trinium Ore
@@ -2146,7 +2324,7 @@ item.crushedPurifiedTrinium.name=Purified Crushed Trinium Ore
 item.dustImpureTrinium.name=Impure Trinium Dust
 item.dustPureTrinium.name=Purified Trinium Dust
 
-//Added 1/7/18
+# Added 1/7/18
 entity.WiseVillager.name=Wise Villager
 tile.blockMobSpawnerEx.0.name=Monster Spawner
 tile.blockMobSpawnerEx.1.name=Monster Spawner
@@ -2169,15 +2347,15 @@ description.villager.profession.miscutils.technician=GT Technician
 description.villager.profession.miscutils.trader=Ore Trader
 description.villager.profession.miscutils.aboriginal=Native Australian
 
-//Added 23/8/18
+# Added 23/8/18
 item.itemHatTinFoil.name=Tin Foil Hat
 
-//Added 13/9/18
+# Added 13/9/18
 entity.Aboriginal.name=Native
 entity.miscutils.constructStaballoy.name=Staballoy Construct
 entity.miscutils.sickBlaze.name=Infected Zealot
 
-//Added 15/9/18
+# Added 15/9/18
 item.ZirconiumTetrafluoride.name=Zirconium Tetrafluoride Cell
 item.Formaldehyde.name=Formaldehyde Cell
 item.RocketFuelMixA.name=H8N4C2O4 Rocket Fuel Cell
@@ -2193,9 +2371,9 @@ item.AmmoniumNitrateSlurry.name=Ammonium Nitrate Slurry Cell
 item.Kerosene.name=Kerosene Cell
 item.LiquidOxygen.name=Liquid Oxygen Cell [LOX]
 
-//Added 8/1/19
+# Added 8/1/19
 
-//Ores
+# Ores
 
 tile.OreIrarsite.name=Irarsite Ore
 item.crushedIrarsite.name=Crushed Irarsite Ore
@@ -2285,16 +2463,16 @@ item.itemDustLautarite.name=Lautarite Dust
 item.itemDustTinyLautarite.name=Tiny Pile of Lautarite Dust
 item.itemDustSmallLautarite.name=Small Pile of Lautarite Dust
 
-tile.OreBariteRd.name=Barite (Rd) Ore
-item.crushedBariteRd.name=Crushed Barite (Rd) Ore
-item.oreRawBariteRd.name=Raw Barite (Rd) Ore
-item.crushedCentrifugedBariteRd.name=Centrifuged Crushed Barite (Rd) Ore
-item.crushedPurifiedBariteRd.name=Purified Crushed Barite (Rd) Ore
-item.dustImpureBariteRd.name=Impure Barite (Rd) Dust
-item.dustPureBariteRd.name=Purified Barite (Rd) Dust
-item.itemDustBariteRd.name=Barite (Rd) Dust
-item.itemDustTinyBariteRd.name=Tiny Pile of Barite (Rd) Dust
-item.itemDustSmallBariteRd.name=Small Pile of Barite (Rd) Dust
+tile.OreBariteRa.name=Barite (Ra) Ore
+item.crushedBariteRa.name=Crushed Barite (Ra) Ore
+item.oreRawBariteRa.name=Raw Barite (Ra) Ore
+item.crushedCentrifugedBariteRa.name=Centrifuged Crushed Barite (Ra) Ore
+item.crushedPurifiedBariteRa.name=Purified Crushed Barite (Ra) Ore
+item.dustImpureBariteRa.name=Impure Barite (Ra) Dust
+item.dustPureBariteRa.name=Purified Barite (Ra) Dust
+item.itemDustBariteRa.name=Barite (Ra) Dust
+item.itemDustTinyBariteRa.name=Tiny Pile of Barite (Ra) Dust
+item.itemDustSmallBariteRa.name=Small Pile of Barite (Ra) Dust
 
 tile.OreHoneaite.name=Honeaite Ore
 item.crushedHoneaite.name=Crushed Honeaite Ore
@@ -2350,7 +2528,7 @@ item.dustPureDemicheleiteBr.name=Purified Demicheleite (Br) Dust
 item.itemDustDemicheleiteBr.name=Demicheleite (Br) Dust
 
 
-//Materials
+# Materials
 
 item.itemIngotTitansteel.name=Titansteel Ingot
 item.itemHotIngotTitansteel.name=Hot Titansteel Ingot
@@ -2672,52 +2850,37 @@ item.itemCellAbyssalAlloy.name=Abyssal Alloy Cell
 tile.Block of Abyssal Alloy.name=Block of Abyssal Alloy
 tile.Abyssal Alloy Frame Box.name=Abyssal Alloy Frame Box
 
+# Radioactive
+item.dustNeptunium238.name=Neptunium 238 Dust
+item.dustNeptunium239.name=Neptunium 239 Dust
+item.dustRadium226.name=Radium 226 Dust
+item.itemDustDecayedRadium226.name=Decayed Radium 226 Dust
+item.itemDustSmallDecayedRadium226.name=Small Decayed Radium 226 Dust
+item.itemDustTinyDecayedRadium226.name=Tiny Decayed Radium 226 Dust
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//Radioactive
-item.dustTechnetium99M.name=Technetium 99M Dust
-item.dustTechnetium99.name=Technetium 99 Dust
-item.dustMolybdenum99.name=Molybdenum 99 Dust
-
-//Bags
+# Bags
 item.item.MysticBag.name=Mystic Pouch
 item.item.Eatotron9000.name=Eatotronic 9000
 item.item.ToolBox.name=Workers Toolbox
 
-//Cells
+# Cells
 item.Bromine.name=Bromine Cell
 item.Krypton.name=Krypton Cell
 item.cryotheum.name=Cryotheum Cell
 item.pyrotheum.name=Pyrotheum Cell
 item.GeneticMutagen.name=Mutagen Cell
 
-//Ingots
+# Ingots
 item.itemHotIngotIncoloy020.name=Hot Incoloy-020 Ingot
 item.itemHotIngotIncoloyDS.name=Hot Incoloy-DS Ingot
 item.itemHotIngotTalonite.name=Hot Talonite Ingot
 item.itemHotIngotHastelloyX.name=Hot Hastelloy-X Ingot
 item.itemHotIngotHastelloyW.name=Hot Hastelloy-W Carbide Ingot
 
-//Railcraft Fix
+# Railcraft Fix
 item.railcraft.part.plate.lead.name=Lead Plate
 
-//Ions
+# Ions
 item.particle.ion.Hydrogen.name=Hydrogen Ion
 item.particle.ion.Helium.name=Helium Ion
 item.particle.ion.Lithium.name=Lithium Ion
@@ -2864,7 +3027,7 @@ item.particle.base.Pion.name=Pion
 item.particle.base.ETA Meson.name=ETA Meson
 item.particle.base.Unknown.name=Unknown Particle
 
-//Added 12/1/19
+# Added 12/1/19
 
 tile.playerDoorGlass.name=Glass Auto-Door
 tile.playerDoorCactus.name=Cactus Auto-Door
@@ -2872,25 +3035,25 @@ tile.playerDoorIce.name=Ice Auto-Door
 tile.playerDoorIron.name=Iron Auto-Door
 tile.playerDoorWood.name=Wooden Auto-Door
 
-//Added 4/2/19
+# Added 4/2/19
 
 item.GTPP.BattPack.06.name=Charge Pack [LuV]
+item.GTPP.BattPack.06.name.name=Charge Pack [LuV]
 item.GTPP.BattPack.07.name=Charge Pack [ZPM]
+item.GTPP.BattPack.07.name.name=Charge Pack [ZPM]
 item.GTPP.BattPack.08.name=Charge Pack [UV]
-item.GTPP.BattPack.09.name=Charge Pack [MAX]
+item.GTPP.BattPack.08.name.name=Charge Pack [UV]
+item.GTPP.BattPack.09.name=Charge Pack [UHV]
+item.GTPP.BattPack.09.name.name=Charge Pack [UHV]
 
 
-//Added 13/3/19
+# Added 13/3/19
 item.gtpp.debug.scanner.name=GT++ Debug Scanner
-item.RawWaste.name=Cell of Animal Waste
-item.ManureSlurry.name=Cell of Manure Slurry
-item.FertileManureSlurry.name=Cell of Fertile Slurry
 item.itemDustTinyDemicheleiteBr.name=Tiny Pile of Demicheleite (Br)
 item.itemDustSmallDemicheleiteBr.name=Small Pile of Demicheleite (Br)
-tile.blockPooCollector.name=Agricultural Sewer
 tile.Block of Lithium 7.name=Block of Lithium 7
 
-//Added 14/3/19
+# Added 14/3/19
 item.blood.name=Cell of Blood
 item.aniline.name=Aniline Cell
 item.cadaverine.name=Cadaverine Cell
@@ -2905,8 +3068,6 @@ item.itemBombUnf.name=Throwable Bomb (unf)
 item.itemBombCasing.name=Bomb Casing
 item.gtpp.throwable.bomb.name=Throwable Bomb
 item.itemDetCable.name=Bomb Fuse
-tile.blockPooCollector.0.name=Agricultural Sewer
-tile.blockPooCollector.8.name=Biocomposite Collector
 item.itemIngotBakelite.name=Bakelite Ingot
 item.itemDustBakelite.name=Bakelite Dust
 item.itemDustTinyBakelite.name=Tiny Pile of Bakelite Dust
@@ -2925,18 +3086,9 @@ item.itemPlateNylon.name=Nylon Plate
 item.itemPlateDoubleNylon.name=Double Nylon Plate
 item.itemCellNylon.name=Nylon Cell
 tile.Block of Nylon.name=Block of Nylon
-item.itemIngotTeflon.name=Teflon Ingot
-item.itemDustTeflon.name=Teflon Dust
-item.itemDustTinyTeflon.name=Tiny Pile of Teflon Dust
-item.itemDustSmallTeflon.name=Small Pile of Teflon Dust
-item.itemNuggetTeflon.name=Teflon Nugget
-item.itemPlateTeflon.name=Teflon Plate
-item.itemPlateDoubleTeflon.name=Double Teflon Plate
-item.itemCellTeflon.name=Teflon Cell
-tile.Block of Teflon.name=Block of Teflon
 
-//Added 17/4/19
-//Spelling Corrections
+# Added 17/4/19
+# Spelling Corrections
 item.particle.ion.Aluminium.name=Aluminium Ion
 item.particle.ion.Caesium.name=Caesium Ion
 
@@ -2965,6 +3117,13 @@ item.itemNuggetDragonblood.name=Shard of Dragonblood
 item.itemPlateDragonblood.name=Dragon Metal Plate
 item.itemPlateDoubleDragonblood.name=Double Dragon Metal Plate
 item.itemCellDragonblood.name=Dragonblood Cell
+item.itemBoltDragonblood.name=Dragonblood Bolt
+item.itemHotIngotDragonblood.name=Hot Dragonblood Ingot
+item.itemRingDragonblood.name=Dragonblood Ring
+item.itemRodDragonblood.name=Dragonblood Rod
+item.itemRodLongDragonblood.name=Long Dragonblood Rod
+item.itemRotorDragonblood.name=Dragonblood Rotor
+item.itemScrewDragonblood.name=Dragonblood Screw
 tile.Block of Dragonblood.name=Block of Dragon Metal
 
 item.itemIngotBlackTitanium.name=Black Titanium Ingot
@@ -3036,7 +3195,7 @@ item.itemCellWhiteMetal.name=White Metal Cell
 tile.Block of White Metal.name=Block of White Metal
 tile.White Metal Frame Box.name=White Metal Frame Box
 
-//Added 29/04/2019
+# Added 29/04/2019
 tile.OreRunite.name=Runite Ore
 item.crushedRunite.name=Crushed Runite Ore
 item.oreRawRunite.name=Raw Runite Ore
@@ -3063,16 +3222,240 @@ item.itemPlateDoubleRhugnor.name=Double Rhugnor Plate
 item.itemCellRhugnor.name=Rhugnor Cell
 tile.Block of Rhugnor.name=Block of Rhugnor
 
+item.itemCellAceticAnhydride.name=Acetic Anhydride Cell
+item.itemCellChloroaceticAcid.name=Chloroacetic Acid Cell
+item.itemCellChloroaceticMixture.name=Chloroacetic Mixture Cell
+item.itemCellCyanoacrylatePolymer.name=Cyanoacrylate Polymer Cell
+item.itemCellDichloroaceticAcid.name=Dichloroacetic Acid Cell
+item.itemCellEthylCyanoacetate.name=Ethyl Cyanoacetate Cell
+item.itemCellEthylCyanoacrylateSuperGlue.name=Ethyl Cyanoacrylate (Super Glue) Cell
+item.itemCellFluorinatedUraniumHexafluorideFUF6.name=Fluorinated Uranium Hexafluoride (F-UF6) Cell
+item.itemCellFluorineSpargedTBSalt.name=Fluorine Sparged TB Salt Cell
+item.itemCellFluorineSpargedTSalt.name=Fluorine Sparged T Salt Cell
+item.itemCellForce.name=Force Cell
+item.itemCellHeliumSpargedUSalt.name=Helium Sparged U Salt Cell
+item.itemCellHydrogenChlorideMix.name=Hydrogen Chloride Mix Cell
+item.itemCellIndalloy140.name=Indalloy 140 Cell
+item.itemCellLFTRFuel1.name=LFTR Fuel 1 Cell
+item.itemCellLFTRFuel2.name=LFTR Fuel 2 Cell
+item.itemCellLFTRFuel3.name=LFTR Fuel 3 Cell
+item.itemCellLFTRFuelBase.name=LFTR Fuel Base Cell
+item.itemCellLithiumTetrafluoroberyllateLFTB.name=Lithium Tetrafluoroberyllate (LFTB) Cell
+item.itemCellMutatedLivingSolder.name=Mutated Living Solder Cell
+item.itemCellPhosphorousUraniumHexafluoridePUF6.name=Phosphorous Uranium Hexafluoride (P-UF6) Cell
+item.itemCellSolarSaltCold.name=Solar Salt (Cold) Cell
+item.itemCellSolarSaltHot.name=Solar Salt (Hot) Cell
+item.itemCellSolidAcidCatalystMixture.name=Solid Acid Catalyst Mixture Cell
+item.itemCellStableMoltenSaltBase.name=Stable Molten Salt Base Cell
+item.itemCellThoriumBerylliumDepletedMoltenSaltTBSalt.name=Thorium-Beryllium Depleted Molten Salt (TB Salt) Cell
+item.itemCellThoriumDepletedMoltenSaltTSalt.name=Thorium Depleted Molten Salt (T Salt) Cell
+item.itemCellTrichloroaceticAcid.name=Trichloroacetic Acid Cell
+item.itemCellUraniumDepletedMoltenSaltUSalt.name=Uranium Depleted Molten Salt (U Salt) Cell
+
+item.itemCellPlasmaAdvancedNitinol.name=Advanced Nitinol Plasma Cell
+item.itemCellPlasmaAstralTitanium.name=Astral Titanium Plasma Cell
+item.itemCellPlasmaBromine.name=Bromine Plasma Cell
+item.itemCellPlasmaCalifornium.name=Californium Plasma Cell
+item.itemCellPlasmaCelestialTungsten.name=Celestial Tungsten Plasma Cell
+item.itemCellPlasmaChromaticGlass.name=Chromatic Glass Plasma Cell
+item.itemCellPlasmaCurium.name=Curium Plasma Cell
+item.itemCellPlasmaDragonblood.name=Dragonblood Plasma Cell
+item.itemCellPlasmaFermium.name=Fermium Plasma Cell
+item.itemCellPlasmaForce.name=Force Plasma Cell
+item.itemCellPlasmaGermanium.name=Germanium Plasma Cell
+item.itemCellPlasmaHafnium.name=Hafnium Plasma Cell
+item.itemCellPlasmaHypogen.name=Hypogen Plasma Cell
+item.itemCellPlasmaIodine.name=Iodine Plasma Cell
+item.itemCellPlasmaKrypton.name=Krypton Plasma Cell
+item.itemCellPlasmaNeon.name=Neon Plasma Cell
+item.itemCellPlasmaNeptunium.name=Neptunium Plasma Cell
+item.itemCellPlasmaPlutonium238.name=Plutonium-238 Plasma Cell
+item.itemCellPlasmaPolonium.name=Polonium Plasma Cell
+item.itemCellPlasmaProtactinium.name=Protactinium Plasma Cell
+item.itemCellPlasmaRadium.name=Radium Plasma Cell
+item.itemCellPlasmaRhenium.name=Rhenium Plasma Cell
+item.itemCellPlasmaRhodium.name=Rhodium Plasma Cell
+item.itemCellPlasmaRhugnor.name=Rhugnor Plasma Cell
+item.itemCellPlasmaRunite.name=Runite Plasma Cell
+item.itemCellPlasmaRuthenium.name=Ruthenium Plasma Cell
+item.itemCellPlasmaSelenium.name=Selenium Plasma Cell
+item.itemCellPlasmaTechnetium.name=Technetium Plasma Cell
+item.itemCellPlasmaThallium.name=Thallium Plasma Cell
+item.itemCellPlasmaThorium232.name=Thorium 232 Plasma Cell
+item.itemCellPlasmaUranium232.name=Uranium 232 Plasma Cell
+item.itemCellPlasmaUranium233.name=Uranium 233 Plasma Cell
+item.itemCellPlasmaXenon.name=Xenon Plasma Cell
+item.itemCellPlasmaZirconium.name=Zirconium Plasma Cell
+
+item.itemDustAmmoniumNitrate.name=Ammonium Nitrate Dust
+item.itemDustCopperIISulfate.name=Copper(II) Sulfate Dust
+item.itemDustCopperIISulfatePentahydrate.name=Copper(II) Sulfate Pentahydrate Dust
+item.itemDustCyanoaceticAcid.name=Cyanoacetic Acid Dust
+item.itemDustDirt.name=Dried Earth Dust
+item.itemDustFormaldehydeCatalyst.name=Formaldehyde Catalyst Dust
+item.itemDustIndalloy140.name=Indalloy 140 Dust
+item.itemDustLFTRFuel1.name=LFTR Fuel 1 Dust
+item.itemDustLFTRFuel2.name=LFTR Fuel 2 Dust
+item.itemDustLFTRFuel3.name=LFTR Fuel 3 Dust
+item.itemDustMixTumbaga.name=Tumbaga Mix Dust
+item.itemDustOrganicFertilizer.name=Organic Fertilizer Dust
+item.itemDustPotassiumNitrate.name=Potassium Nitrate Dust
+item.itemDustSodiumCyanide.name=Sodium Cyanide Dust
+item.itemDustSodiumFluoride.name=Sodium Fluoride Dust
+item.itemDustSodiumNitrate.name=Sodium Nitrate Dust
+item.itemDustStrontiumHydroxide.name=Strontium Hydroxide Dust
+item.itemDustStrontiumOxide.name=Strontium Oxide Dust
+item.itemDustWood'sGlass.name=Wood's Glass Dust
+
+item.itemDustSmallAmmoniumNitrate.name=Small Pile of Ammonium Nitrate Dust
+item.itemDustSmallCopperIISulfate.name=Small Pile of Copper(II) Sulfate Dust
+item.itemDustSmallCopperIISulfatePentahydrate.name=Small Pile of Copper(II) Sulfate Pentahydrate Dust
+item.itemDustSmallCyanoaceticAcid.name=Small Pile of Cyanoacetic Acid Dust
+item.itemDustSmallFormaldehydeCatalyst.name=Small Pile of Formaldehyde Catalyst Dust
+item.itemDustSmallIndalloy140.name=Small Pile of Indalloy 140 Dust
+item.itemDustSmallLFTRFuel1.name=Small Pile of LFTR Fuel 1 Dust
+item.itemDustSmallLFTRFuel2.name=Small Pile of LFTR Fuel 2 Dust
+item.itemDustSmallLFTRFuel3.name=Small Pile of LFTR Fuel 3 Dust
+item.itemDustSmallMixTumbaga.name=Small Pile of Tumbaga Mix Dust
+item.itemDustSmallOrganicFertilizer.name=Small Pile of Organic Fertilizer Dust
+item.itemDustSmallPotassiumNitrate.name=Small Pile of Potassium Nitrate Dust
+item.itemDustSmallSodiumCyanide.name=Small Pile of Sodium Cyanide Dust
+item.itemDustSmallSodiumFluoride.name=Small Pile of Sodium Fluoride Dust
+item.itemDustSmallSodiumNitrate.name=Small Pile of Sodium Nitrate Dust
+item.itemDustSmallStrontiumHydroxide.name=Small Pile of Strontium Hydroxide Dust
+item.itemDustSmallStrontiumOxide.name=Small Pile of Strontium Oxide Dust
+item.itemDustSmallWood'sGlass.name=Small Pile of Wood's Glass Dust
+
+item.itemDustTinyAmmoniumNitrate.name=Tiny Pile of Ammonium Nitrate Dust
+item.itemDustTinyCopperIISulfate.name=Tiny Pile of Copper(II) Sulfate Dust
+item.itemDustTinyCopperIISulfatePentahydrate.name=Tiny Pile of Copper(II) Sulfate Pentahydrate Dust
+item.itemDustTinyCyanoaceticAcid.name=Tiny Pile of Cyanoacetic Acid Dust
+item.itemDustTinyDirt.name=Tiny Pile of Dried Earth Dust
+item.itemDustTinyFormaldehydeCatalyst.name=Tiny Pile of Formaldehyde Catalyst Dust
+item.itemDustTinyIndalloy140.name=Tiny Pile of Indalloy 140 Dust
+item.itemDustTinyLFTRFuel1.name=Tiny Pile of LFTR Fuel 1 Dust
+item.itemDustTinyLFTRFuel2.name=Tiny Pile of LFTR Fuel 2 Dust
+item.itemDustTinyLFTRFuel3.name=Tiny Pile of LFTR Fuel 3 Dust
+item.itemDustTinyMixTumbaga.name=Tiny Pile of Tumbaga Mix Dust
+item.itemDustTinyOrganicFertilizer.name=Tiny Pile of Organic Fertilizer Dust
+item.itemDustTinyPotassiumNitrate.name=Tiny Pile of Potassium Nitrate Dust
+item.itemDustTinySodiumCyanide.name=Tiny Pile of Sodium Cyanide Dust
+item.itemDustTinySodiumFluoride.name=Tiny Pile of Sodium Fluoride Dust
+item.itemDustTinySodiumNitrate.name=Tiny Pile of Sodium Nitrate Dust
+item.itemDustTinyStrontiumHydroxide.name=Tiny Pile of Strontium Hydroxide Dust
+item.itemDustTinyStrontiumOxide.name=Tiny Pile of Strontium Oxide Dust
+item.itemDustTinyWood'sGlass.name=Tiny Pile of Wood's Glass Dust
+
+item.itemFineWireChromaticGlass.name=Fine Chromatic Glass Wire
+item.itemFineWireHypogen.name=Fine Hypogen Wire
+
+item.itemFoilAdvancedNitinol.name=Advanced Nitinol Foil
+item.itemFoilArceusAlloy2B.name=Arceus Alloy 2B Foil
+item.itemFoilAstralTitanium.name=Astral Titanium Foil
+item.itemFoilBlackTitanium.name=Black Titanium Foil
+item.itemFoilBotmium.name=Botmium Foil
+item.itemFoilCelestialTungsten.name=Celestial Tungsten Foil
+item.itemFoilChromaticGlass.name=Chromatic Glass Foil
+item.itemFoilCinobiteA243.name=Cinobite A243 Foil
+item.itemFoilHypogen.name=Hypogen Foil
+item.itemFoilLafiumCompound.name=Lafium Compound Foil
+item.itemFoilLaurenium.name=Laurenium Foil
+item.itemFoilNitinol60.name=Nitinol 60 Foil
+item.itemFoilPikyonium64B.name=Pikyonium 64B Foil
+item.itemFoilQuantum.name=Quantum Foil
+item.itemFoilRhugnor.name=Rhugnor Foil
+item.itemFoilTitansteel.name=Titansteel Foil
+item.itemFoilWhiteMetal.name=White Metal Foil
+
+item.itemGearDragonblood.name=Dragonblood Gear
+item.itemGearRhugnor.name=Rhugnor Gear
+
+item.itemIngotIndalloy140.name=Indalloy 140 Ingot
+
+item.itemNuggetIndalloy140.name=Indalloy 140 Nugget
+
+item.itemPlateDenseAbyssalAlloy.name=Dense Abyssal Alloy Plate
+item.itemPlateDenseArcanite.name=Dense Arcanite Plate
+item.itemPlateDenseArceusAlloy2B.name=Dense Arceus Alloy 2B Plate
+item.itemPlateDenseAstralTitanium.name=Dense Astral Titanium Plate
+item.itemPlateDenseBlackMetal.name=Dense Black Metal Plate
+item.itemPlateDenseBloodSteel.name=Dense Blood Steel Plate
+item.itemPlateDenseBotmium.name=Dense Botmium Plate
+item.itemPlateDenseCelestialTungsten.name=Dense Celestial Tungsten Plate
+item.itemPlateDenseChromaticGlass.name=Dense Chromatic Glass Plate
+item.itemPlateDenseCinobiteA243.name=Dense Cinobite A243 Plate
+item.itemPlateDenseDragonblood.name=Dense Dragonblood Plate
+item.itemPlateDenseEglinSteel.name=Dense Eglin Steel Plate
+item.itemPlateDenseEnergyCrystal.name=Dense Energy Crystal Plate
+item.itemPlateDenseGermanium.name=Dense Germanium Plate
+item.itemPlateDenseGrisium.name=Dense Grisium Plate
+item.itemPlateDenseHastelloyC276.name=Dense Hastelloy-C276 Plate
+item.itemPlateDenseHastelloyN.name=Dense Hastelloy-N Plate
+item.itemPlateDenseHastelloyW.name=Dense Hastelloy-W Plate
+item.itemPlateDenseHastelloyX.name=Dense Hastelloy-X Plate
+item.itemPlateDenseHeLiCoPtEr.name=Dense HeLiCoPtEr Plate
+item.itemPlateDenseHS188A.name=Dense HS188-A Plate
+item.itemPlateDenseHypogen.name=Dense Hypogen Plate
+item.itemPlateDenseIncoloy020.name=Dense Incoloy-020 Plate
+item.itemPlateDenseIncoloyDS.name=Dense Incoloy-DS Plate
+item.itemPlateDenseIncoloyMA956.name=Dense Incoloy-MA956 Plate
+item.itemPlateDenseInconel625.name=Dense Inconel-625 Plate
+item.itemPlateDenseInconel690.name=Dense Inconel-690 Plate
+item.itemPlateDenseInconel792.name=Dense Inconel-792 Plate
+item.itemPlateDenseIodine.name=Dense Iodine Plate
+item.itemPlateDenseLafiumCompound.name=Dense Lafium Compound Plate
+item.itemPlateDenseLaurenium.name=Dense Laurenium Plate
+item.itemPlateDenseMaragingSteel250.name=Dense Maraging Steel 250 Plate
+item.itemPlateDenseMaragingSteel300.name=Dense Maraging Steel 300 Plate
+item.itemPlateDenseMaragingSteel350.name=Dense Maraging Steel 350 Plate
+item.itemPlateDenseNiobiumCarbide.name=Dense Niobium Carbide Plate
+item.itemPlateDenseNitinol60.name=Dense Nitinol 60 Plate
+item.itemPlateDenseOctiron.name=Dense Octiron Plate
+item.itemPlateDensePikyonium64B.name=Dense Pikyonium 64B Plate
+item.itemPlateDensePotin.name=Dense Potin Plate
+item.itemPlateDenseQuantum.name=Dense Quantum Plate
+item.itemPlateDenseRhenium.name=Dense Rhenium Plate
+item.itemPlateDenseSelenium.name=Dense Selenium Plate
+item.itemPlateDenseSiliconCarbide.name=Dense Silicon Carbide Plate
+item.itemPlateDenseStaballoy.name=Dense Staballoy Plate
+item.itemPlateDenseStellite.name=Dense Stellite Plate
+item.itemPlateDenseTalonite.name=Dense Talonite Plate
+item.itemPlateDenseTantalloy60.name=Dense Tantalloy-60 Plate
+item.itemPlateDenseTantalloy61.name=Dense Tantalloy-61 Plate
+item.itemPlateDenseTantalumCarbide.name=Dense Tantalum Carbide Plate
+item.itemPlateDenseThallium.name=Dense Thallium Plate
+item.itemPlateDenseTitansteel.name=Dense Titansteel Plate
+item.itemPlateDenseTriniumNaquadahCarbonite.name=Dense Trinium Naquadah Carbonite Plate
+item.itemPlateDenseTriniumTitaniumAlloy.name=Dense Trinium Titanium Alloy Plate
+item.itemPlateDenseTumbaga.name=Dense Tumbaga Plate
+item.itemPlateDenseTungstenTitaniumCarbide.name=Dense Tungsten Titanium Carbide Plate
+item.itemPlateDenseWatertightSteel.name=Dense Watertight Steel Plate
+item.itemPlateDenseWhiteMetal.name=Dense White Metal Plate
+item.itemPlateDenseZeron100.name=Dense Zeron-100 Plate
+item.itemPlateDenseZirconiumCarbide.name=Dense Zirconium Carbide Plate
+
+item.itemPlateDoubleGermanium.name=Double Germanium Plate
+item.itemPlateDoubleIndalloy140.name=Double Indalloy 140 Plate
+
+item.itemPlateIndalloy140.name=Indalloy 140 Plate
+
+item.itemRodLongGermanium.name=Long Germanium Rod
 
 
 
-//Added 13/5/19
+
+# Added 13/5/19
 
 item.GTPP.BattPack.01.name=Charge Pack [LV]
+item.GTPP.BattPack.01.name.name=Charge Pack [LV]
 item.GTPP.BattPack.02.name=Charge Pack [MV]
+item.GTPP.BattPack.02.name.name=Charge Pack [MV]
 item.GTPP.BattPack.03.name=Charge Pack [HV]
+item.GTPP.BattPack.03.name.name=Charge Pack [HV]
 item.GTPP.BattPack.04.name=Charge Pack [EV]
+item.GTPP.BattPack.04.name.name=Charge Pack [EV]
 item.GTPP.BattPack.05.name=Charge Pack [IV]
+item.GTPP.BattPack.05.name.name=Charge Pack [IV]
 item.IndustrialDiamondExquisite.name=Exquisite Industrial Diamond
 
 item.itemSpringCelestialTungsten.name=Celestial Tungsten Spring
@@ -3115,17 +3498,15 @@ item.itemHeavyPlateWhiteMetal.name=Heavy White Metal Plate
 item.itemHeavyPlateBlackMetal.name=Heavy Black Metal Plate
 item.itemHeavyPlateAncientGranite.name=Heavy Ancient Granite Plate
 
-item.GTPP.bauble.fireprotection.0.name=오도기합 오븐 장갑
+item.GTPP.bauble.fireprotection.0.name=Supreme Pizza Gloves
+item.GTPP.bauble.fireprotection.0.name.name=Supreme Pizza Gloves
 
 
-//Added 16/5/19
+# Added 16/5/19
 item.itemCellSeleniumDioxide.name=Selenium Dioxide Cell
 item.itemCellSeleniousAcid.name=Selenious Acid Cell
 
-//Added 25/7/19
-container.pestkiller=Pest Killer
-
-//Added 15/8/19
+# Added 15/8/19
 gtpp.nei.decayables=Decayables Chest
 entity.batKing.name=Bat King
 item.itemCellCarbyne.name=Carbyne Cell
@@ -3138,8 +3519,8 @@ item.LiquidHydrogen.name=Liquid Hydrogen Cell [LOH]
 
 
 
-//Added 24/8/19
-//Debug Labels
+# Added 24/8/19
+# Debug Labels
 tile.blockDoorAlloy.name=Reinforced Door
 tile.blockInhibitorObelisk.name=Inhibitor Obelisk
 tile.Battlesign.name=Battlesign
@@ -3151,7 +3532,7 @@ tile.pipeBlock.name=Pipe
 item.null.name=Null Item report it on github
 
 
-//Added 24/8/19
+# Added 24/8/19
 tile.OreGreenockite.name=Greenockite Ore
 item.crushedGreenockite.name=Crushed Greenockite Ore
 item.oreRawGreenockite.name=Raw Greenockite Ore
@@ -3196,13 +3577,14 @@ item.itemDustRareEarthIII.name=Rare Earth (III) Dust
 item.itemDustTinyRareEarthIII.name=Tiny Pile of Rare Earth (III) Dust
 item.itemDustSmallRareEarthIII.name=Small Pile of Rare Earth (III) Dust
 
-//Added 16/10/19
+# Added 16/10/19
 item.BioRecipeSelector.name=Programmed Bio Circuit
 item.FermentationBase.name=Cell of Fermentation Base
 item.ureamix.name=Cell of Urea Mix
 item.liquidresin.name=Cell of Liquid Resin
 item.propionicacid.name=Propionic Acid Cell
 item.aceticacid.name=Acetic Acid Cell
+item.BasicAgrichemItem.name=Agrichemical Item
 item.BasicAgrichemItem.0.name=Algae Biomass
 item.BasicAgrichemItem.1.name=Green Algae Biomass
 item.BasicAgrichemItem.2.name=Brown Algae Biomass
@@ -3226,16 +3608,16 @@ item.BasicAgrichemItem.19.name=Sodium Hydroxide
 item.BasicAgrichemItem.20.name=Sodium Carbonate
 item.BasicAgrichemItem.21.name=Lithium Chloride
 
-//Added 24/10/19
+# Added 24/10/19
 item.butanol.name=Butanol Cell
 
-//Try Fix IC2 Garbage vv
+# Try Fix IC2 Garbage vv
 fluidHotWater=Heated Water
 fluidHotWater.name=Heated Water
-//Try Fix IC2 Garbage ^^
+# Try Fix IC2 Garbage ^^
 
 
-//Added 11/12/19
+# Added 11/12/19
 item.itemHotIngotTitanium.name=Hot Titanium Ingot
 item.OilHeavy.name=Heavy Oil Cell
 item.UnsymmetricalDimethylhydrazine.name=Unsymmetrical Dimethylhydrazine Cell
@@ -3248,11 +3630,12 @@ item.CarbonMonoxide.name=Carbon Monoxide Cell
 item.itemCellCarbonMonoxide.name=Carbon Monoxide Cell
 item.acetone.name=Acetone Cell
 item.saltwater.name=Salt Water Cell
-item.BasicAgrichemItem.22.name=주조용 금형(펠릿)
+item.BasicAgrichemItem.22.name=Extruder Shape (Pellet)
 item.BasicAgrichemItem.23.name=Clean Aluminium Mix
 
-//Added 12/12/19
+# Added 12/12/19
 
+item.BasicGenericChemItem.name=Metal Catalyst
 item.BasicGenericChemItem.0.name=Red Metal Catalyst
 item.BasicGenericChemItem.1.name=Yellow Metal Catalyst
 item.BasicGenericChemItem.2.name=Blue Metal Catalyst
@@ -3262,10 +3645,11 @@ item.BasicGenericChemItem.5.name=Brown Metal Catalyst
 item.MudRedSlurry.name=Cell of Red Mud Slurry
 item.liquid_toluene.name=Toluene Cell
 
-//Added 17/01/20
+# Added 17/01/20
 item.BasicGenericChemItem.6.name=Pink Metal Catalyst
 
-//Added 23/03/20
+# Added 23/03/20
+item.BasicMetaFood.name=Meat
 item.BasicMetaFood.0.name=Raw Human Meat
 item.BasicMetaFood.1.name=Cooked Human Meat
 item.BasicMetaFood.2.name=Raw Horse Meat
@@ -3276,9 +3660,6 @@ item.BasicMetaFood.6.name=Raw Ocelot Meat
 item.BasicMetaFood.7.name=Cooked Ocelot Meat
 item.BasicMetaFood.8.name=Blaze Flesh
 
-item.itemCellNaquadahFuel.name=Naquadah Fuel Cell
-item.itemCellEnrichedNaquadahFuel.name=Enriched Naquadah Fuel Cell
-item.itemCellNaquadriaFuel.name=Naquadria Fuel Cell
 item.boricacid.name=Boric Acid Cell
 item.hydrochloricacid.name=Hydrochloric Acid Cell
 
@@ -3291,7 +3672,7 @@ item.BasicAlgaeItem.4.name=Breedable Algae
 item.BasicAlgaeItem.5.name=Breedable Algae
 item.BasicAlgaeItem.6.name=Breedable Algae
 
-//Added 30/03/20
+# Added 30/03/20
 item.milledChalcopyrite.name=Milled Chalcopyrite
 item.milledSphalerite.name=Milled Sphalerite
 item.milledNickel.name=Milled Nickel
@@ -3305,7 +3686,7 @@ item.FrothPentlanditeflotation.name=Pentlandite Flotation Froth Cell
 item.BasicGenericChemItem.7.name=Alumina Milling Ball
 item.BasicGenericChemItem.8.name=Soapstone Milling Ball
 
-//Added 31/03/20
+# Added 31/03/20
 item.BasicGenericChemItem.9.name=Sodium Ethoxide Dust
 item.BasicGenericChemItem.10.name=Sodium Ethyl Xanthate Dust
 item.BasicGenericChemItem.11.name=Potassium Ethyl Xanthate Dust
@@ -3316,7 +3697,7 @@ item.BasicAgrichemItem.24.name=Pinecone
 item.BasicAgrichemItem.25.name=Crushed Pine Materials
 item.pineoil.name=Pine Oil Cell
 
-//Added 11/4/20
+# Added 11/4/20
 item.milledRedstone.name=Milled Redstone
 item.milledSpessartine.name=Milled Spessartine
 item.milledGrossular.name=Milled Grossular
@@ -3328,10 +3709,10 @@ item.FrothGrossularflotation.name=Grossular Flotation Froth Cell
 item.FrothAlmandineflotation.name=Almandine Flotation Froth Cell
 item.FrothPyropeflotation.name=Pyrope Flotation Froth Cell
 
-//Added 13/04/20
+# Added 13/04/20
 item.T3RecipeSelector.name=Programmed Breakthrough Circuit
 
-//Added 03/05/20
+# Added 03/05/20
 entity.miscutils.batKing.name=Spectral Bat
 entity.miscutils.bigChickenFriendly.name=Giant Chicken
 entity.miscutils.AusDingo.name=Dingo
@@ -3340,10 +3721,10 @@ entity.miscutils.AusSpider.name=Forest Spider
 entity.miscutils.AusOctopus.name=Octopus
 container.EggBox=Egg Hatching Box
 
-//Added 24/05/20
+# Added 24/05/20
 container.VolumetricFlaskSetter=Volumetric Flask Configurator
 
-//Added 26/05/20
+# Added 26/05/20
 item.itemIngotLaurenium.name=Laurenium Ingot
 item.itemHotIngotLaurenium.name=Hot Laurenium Ingot
 item.itemDustLaurenium.name=Laurenium Dust
@@ -3381,7 +3762,7 @@ item.itemCellBotmium.name=Botmium Cell
 tile.Block of Botmium.name=Block of Botmium
 tile.Botmium Frame Box.name=Botmium Frame Box
 
-//Added 29/05/20
+# Added 29/05/20
 item.itemBasicTurbine.name=Basic Turbine
 item.itemBasicTurbine_0.name=Basic Iron Turbine
 item.itemBasicTurbine_1.name=Basic Bronze Turbine
@@ -3390,10 +3771,10 @@ item.itemBasicTurbine_2.name=Basic Steel Turbine
 interaction.voidexcess.enabled=Void Excess Enabled
 interaction.voidexcess.disabled=Void Excess Disabled
 
-interaction.separateBusses.enabled=Input busses are separated
-interaction.separateBusses.disabled=Input busses are not separated
+interaction.separateBuses.enabled=Input buses are separated
+interaction.separateBuses.disabled=Input buses are not separated
 
-//Added 29/11/21
+# Added 29/11/21
 
 item.BasicNuclearChemItem.0.name=Uranium Residue Mix
 item.BasicNuclearChemItem.1.name=Plutonium Residue Mix
@@ -3409,19 +3790,19 @@ item.itemCellLiFBeF2ZrF4UF4.name=LFTR Fuel II Cell
 item.itemCellLiFBeF2ThF4UF4.name=LFTR Fuel III Cell
 item.Li2BeF2UF4.name=Burnt Li2BeF2UF4 Cell
 
-//Added 6/12/21
+# Added 6/12/21
 item.itemCellLiFBeF2UF4FP.name=LiFBeF2UF4FP Cell
 item.itemCellUF6F2.name=UF6F2 Cell
 item.itemCellLiFBeF2ThF4.name=LiFBeF2ThF4 Cell
 item.itemCellUF6F2FP.name=UF6F2FP Cell
-item.dustProtactinium233.name=프로트악티늄-233 가루
+item.dustProtactinium233.name=Protactinium-233 Dust
 item.itemCellLiFThF4.name=LiFThF4 Cell
 item.NuclearWaste.name=Nuclear Waste Cell
 item.itemCellLiFBeF2UF4.name=LiFBeF2UF4 Cell
 item.itemCellSodiumFluoride.name=Sodium Fluoride Cell
 item.itemCellLiFBeF2.name=LiFBeF2 Cell
 
-//Added 7/12/21
+# Added 7/12/21
 item.itemCellDysprosium.name=Dysprosium Cell
 item.itemCellThorium.name=Thorium Cell
 item.itemCellTellurium.name=Tellurium Cell
@@ -3442,7 +3823,7 @@ item.itemDustTinyAmmoniumTetrafluoroberyllate.name=Tiny Ammonium Tetrafluorobery
 item.itemDustSmallAmmoniumTetrafluoroberyllate.name=Small Ammonium Tetrafluoroberyllate Dust
 item.itemDustAmmoniumTetrafluoroberyllate.name=Ammonium Tetrafluoroberyllate Dust
 
-//Added 10/12/21
+# Added 10/12/21
 item.ImpureLiFBeF2.name=Impure LiFBeF2 Cell
 item.itemCellHeliumSpargedLiFBeF2UF4FP.name=Helium Sparged LiFBeF2UF4FP Cell
 item.itemCellFluorineSpargedLiFThF4.name=Fluorine Sparged LiFThF4 Cell
@@ -3464,7 +3845,7 @@ item.itemRotorHS188A.name=HS-188A Rotor
 item.itemGearHS188A.name=HS-188A Gear
 item.itemCellHS188A.name=HS-188A Cell
 
-//Added 12/12/21
+# Added 12/12/21
 item.itemIngotErbium.name=Erbium Ingot
 item.itemHotIngotErbium.name=Hot Erbium Ingot
 item.itemDustErbium.name=Erbium Dust
@@ -3515,31 +3896,32 @@ item.itemGearPraseodymium.name=Praseodymium Gear
 item.itemCellPraseodymium.name=Praseodymium Cell
 item.milledMonazite.name=Milled Monazite
 item.FrothMonaziteflotation.name=Monazite Flotation Froth Cell
+item.milledNetherrack.name=Milled Netherrack
 
-//Added 18/12/21
+# Added 18/12/21
 item.BasicGenericChemItem.13.name=Formaldehyde Catalyst
 item.hydrogenchloridemix.name=Hydrogen Chlorine Mix
 
-//Added 19/01/22
+# Added 19/01/22
 item.SunnariumBit.name=Sunnarium Bit
 
-//Added 29/01/22
+# Added 29/01/22
 sleep.event.okay=You slept well and now feel a little better.
 sleep.event.good=You slept well and now feel much better.
 sleep.event.wellrested=You feel really well rested.
-sleep.event.downsides=The downsides of life no longer effect you.
+sleep.event.downsides=The downsides of life no longer affect you.
 item.miscutils:magicfeather.name=Magical Feather
 
-//Added 10/02/22
+# Added 10/02/22
 item.BasicGenericChemItem.14.name=Solid-Acid Catalyst
 
-//Added 30/05/22
+# Added 30/05/22
 item.BasicGenericChemItem.15.name=Infinite Mutation Catalyst
 
-//Added 23/10/22
+# Added 23/10/22
 miscutils.machines.QFTFluidMode=Quantum Force Transformer Fluid Output Mode
 
-//Added 16/11/22
+# Added 16/11/22
 item.BasicGenericChemItem.16.name=Platinum Group Catalyst
 item.BasicGenericChemItem.17.name=Plastic Polymer Catalyst
 item.BasicGenericChemItem.18.name=Rubber Polymer Catalyst
@@ -3558,15 +3940,337 @@ item.ItemCustomSpawnEgg.name=Spawn %s
 item.itemSimpleFiremaker.message.0=You light the fire pit.
 item.itemSimpleFiremaker.message.1=You somehow managed to set yourself on fire...
 item.itemSimpleFiremaker.message.2=You created a fire!
-item.itemSimpleFiremaker.message.3=Your attemp does nothing.
+item.itemSimpleFiremaker.message.3=Your attempt does nothing.
 
-//Added 17/07/23
-item.BasicGenericChemItem.29.name=Limpid Water Catalyst
-item.BasicGenericChemItem.30.name=Flawless Water Catalyst
-
-//Added 18/07/23
-item.BasicGenericChemItem.31.name=Particle Acceleration Catalyst
-item.BasicGenericChemItem.32.name=Synchrotron-Capable Catalyst
-
-//Added 19/09/23
+# Added 19/09/23
 item.BasicGenericChemItem.33.name=Algagenic Growth Promoter Catalyst
+
+# Added 13/03/25
+item.BasicGenericChemItem.34.name=Hellish Force Catalyst
+item.BasicGenericChemItem.35.name=Crystal Colorization Catalyst
+
+# Added 13/03/26
+item.BasicGenericChemItem.36.name=Chlorination Catalyst
+
+# config gui
+gtpp.gui.config.general=General
+gtpp.gui.config.general.debug=Debug
+gtpp.gui.config.general.machines=Machines
+gtpp.gui.config.general.gregtech=GregTech
+gtpp.gui.config.general.pollution=Pollution
+gtpp.gui.config.general.features=Features
+gtpp.gui.config.general.visual=Visual
+gtpp.gui.config.general.worldgen=Worldgen
+gtpp.gui.config.asm=ASM Configuration
+gtpp.gui.config.asm.debug=Debug
+gtpp.gui.config.asm.general=General
+
+# item tooltips
+gtpp.tooltip.ingot.very_hot=§7Warning: §cVery hot! §7Avoid direct handling..
+gtpp.tooltip.tickable.decay_seconds=%d§7 seconds until decay
+gtpp.tooltip.ion_particles.state_not_set=A %s Ion with an §eUnknown§7 charge state
+gtpp.tooltip.ion_particles.charge_positive=A %s Ion with a §aPositive§7 charge state of %d
+gtpp.tooltip.ion_particles.charge_negative=A %s Ion with a §cNegative§7 charge state of %d
+gtpp.tooltip.base_particles.type=Type: %s
+gtpp.tooltip.base_particles.type.quark=Quark
+gtpp.tooltip.base_particles.type.lepton=Lepton
+gtpp.tooltip.base_particles.type.boson=Boson
+gtpp.tooltip.base_particles.type.baryon=Baryon
+gtpp.tooltip.base_particles.type.meson=Meson
+gtpp.tooltip.base_particles.type.unknown=Unknown
+gtpp.tooltip.integrated_circuit.configuration=Configuration == %d\nRight click to reconfigure\nNeeds a screwdriver or circuit programming tool
+gtpp.tooltip.scrubber_turbine.early_tier=An early tier Turbine for Atmospheric Reconditioning.
+gtpp.tooltip.scrubber_turbine.uses_left=%d/%d uses left.
+gtpp.tooltip.buffer_core.key_crafting_component=A key crafting component for %s Appliances
+gtpp.tooltip.magic_feather.0=Does not need to be the item held in your hand to work
+gtpp.tooltip.magic_feather.1=Needs to be within beacon range
+gtpp.tooltip.magic_feather.2=Range is beacon level * 10 + 10
+gtpp.tooltip.book.author=Author: %s
+gtpp.tooltip.book.pages.s=Pages: %s
+gtpp.tooltip.book.pages.d=Pages: %d
+gtpp.tooltip.meta_casing.energy_storage=Energy Storage: %s
+gtpp.tooltip.cover_item.connection.allow=Allows Connections: true
+gtpp.tooltip.cover_item.connection.deny=Allows Connections: false
+gtpp.tooltip.cover_item.change_state=Shift Rmb to change state before applying
+gtpp.tooltip.dark_world_portal.frame.0=Use this to access the Toxic Everglades.
+gtpp.tooltip.dark_world_portal.frame.1=Assembled in the same shape as the Nether Portal.
+gtpp.tooltip.dark_world_portal.0=Place this if you are too lazy to create the portal structure, slacker.
+gtpp.tooltip.dark_world.ground=Will burn very quickly if it happens to catch fire.
+gtpp.tooltip.dark_world.polluted_dirt=Maybe you can do something with this?
+gtpp.tooltip.dark_world.polluted_dirt.1=This smells worse than a bean fart...
+gtpp.tooltip.alkalus_disk.0=Shines the way towards the far away Everglades.
+gtpp.tooltip.alkalus_disk.1=This item produces such a temperature, that you'd hate to use it incorrectly.
+gtpp.tooltip.tool.durability=Durability:
+gtpp.tooltip.tool.turbine_efficiency=Turbine Efficiency:
+gtpp.tooltip.tool.optimal_steam_flow=Optimal Steam Flow: §d%f§7L/sec
+gtpp.tooltip.tool.optimal_gas_flow=Optimal Gas flow(EU burnvalue per tick):
+gtpp.tooltip.tool.optimal_plasma_flow=Optimal Plasma flow(Plasma energyvalue per tick):
+gtpp.tooltip.tool.attack_damage=Attack Damage:
+gtpp.tooltip.tool.mining_speed=Mining Speed:
+
+gtpp.tooltip.wireless_charger.0=Can be locked to the owner by sneaking with a screwdriver.
+gtpp.tooltip.wireless_charger.1=Use screwdriver to change mode.
+gtpp.tooltip.wireless_charger.2=§aLong-Range Mode§7: Can supply 1A of power to each player up to %s m away.
+gtpp.tooltip.wireless_charger.3=§aLocal Mode§7: Can supply 2A to each player within %s m.
+gtpp.tooltip.wireless_charger.4=§aMixed Mode§7: Can supply 1A up to %s m away and more 1A within %s m.
+
+#gtpp info data
+gtpp.infodata.tesseract_generator.name=Tesseract Generator
+gtpp.infodata.tesseract_generator.frequency=Frequency: %d
+gtpp.infodata.tesseract_generator.status.active=Active
+gtpp.infodata.tesseract_generator.status.inactive=Inactive
+gtpp.infodata.rtg.running_at=RTG - Running at tier %d
+gtpp.infodata.rtg.active=Active: %b
+gtpp.infodata.rtg.output=Current Output: %s EU/t
+gtpp.infodata.rtg.remaining.days=Days of Fuel remaining: %s
+gtpp.infodata.rtg.remaining.hours=Hours of Fuel remaining: %s
+gtpp.infodata.rtg.remaining.ticks=Ticks of %dv remaining: %d
+gtpp.infodata.atmospheric_reconditioner.maximum_pollution_removed=Maximum pollution removed per second: %d
+gtpp.infodata.atmospheric_reconditioner.air_sides=Air Sides: %d
+gtpp.infodata.pollution_creator.pollution=Current Pollution: %d
+gtpp.infodata.pollution_creator.pollution.avg=Average/10 minutes: %d
+gtpp.infodata.pollution_detector.pollution.avg=Average/10 Sec: %d
+gtpp.infodata.pollution_detector.redstone_level=Emit Redstone at pollution level: %d
+gtpp.infodata.adv_fusion.name=Fusion Reactor MK %s
+gtpp.infodata.adv_fusion.eu_required=EU Required: %dEU/t
+gtpp.infodata.adv_fusion.stored_eu=Stored EU: %d / %d
+gtpp.infodata.adv_fusion.plasma_output=Plasma Output: %dL/t
+gtpp.infodata.multi.steam.tier=Machine Tier: %s
+gtpp.infodata.multi.steam.parallel=Parallel: %s
+gtpp.infodata.abs.mega.parallels=Parallels: %s
+gtpp.infodata.abs.mega.speed_bonus=Speed Bonus: %s
+gtpp.infodata.abs.mega.energy_discount=Energy Discount: %s
+gtpp.infodata.solar_heater.testificate=Testificate
+gtpp.infodata.energy_buffer.eu_stored=%s EU stored
+gtpp.infodata.energy_buffer.eu_capacity=%s EU capacity
+gtpp.infodata.tiered_chest.name=Super Storage Chest
+gtpp.tiered_tank.desc.capacity=Stores %s of fluid
+gtpp.tiered_tank.desc.portable=A portable tank.
+gtpp.tiered_tank.desc.fluid=Fluid: %s %s L
+gtpp.tiered_tank.tooltip.contains=Contains Fluid: %s
+gtpp.tiered_tank.tooltip.amount=Fluid Amount: %s L
+gtpp.infodata.tiered_tank.name=%s Tank
+gtpp.tiered_tank.infodata.amount=%s L
+gtpp.tiered_tank.infodata.capacity=%s L
+GT5U.infodata.digital_tank.stored_fluid=Stored Fluid
+GT5U.infodata.digital_tank.stored_fluid.empty=Empty
+
+# GUI
+gtpp.gui.text.time_since_built=Total Time Since Built
+gtpp.gui.text.stock=Stock
+gtpp.gui.text.active=Active
+gtpp.gui.text.in=In
+gtpp.gui.text.out=Out
+gtpp.gui.text.on=On
+gtpp.gui.text.off=Off
+gtpp.gui.text.time.week=%s Weeks,
+gtpp.gui.text.time.days=%s Days,
+gtpp.gui.text.time.hours=%s Hours,
+gtpp.gui.text.time.minutes=%s Minutes,
+gtpp.gui.text.time.seconds=%s Seconds
+
+gtpp.gui.text.power_sub_station.stored=Stored:
+gtpp.gui.text.power_sub_station.avg_in=Avg In: %s EU
+gtpp.gui.text.power_sub_station.avg_out=Avg Out: %s EU
+gtpp.gui.text.power_sub_station.power_loss=Powerloss: %s EU per tick
+gtpp.gui.text.power_sub_station.running_perfectly=Running perfectly
+gtpp.gui.text.power_sub_station.turn_on_with_mallet=Turn on with Mallet
+gtpp.gui.atmospheric_reconditioner.tooltip.reduction=Reduction: %s/s
+
+gtpp.gui.multiblock.progress.text=Progress: %s s / %s s
+gtpp.gui.multiblock.eu_t_p.text=%s EU/t/parallel
+gtpp.gui.multiblock.duration.text=Duration: %s ticks
+gtpp.gui.multiblock.max_voltage.txt=%s EU/t(*2A) Tier: %s
+gtpp.gui.multiblock.pollution.txt=Pollution: %s/sec
+
+gtpp.chat.wireless_charger.mode_change=Now in %s %s.
+gtpp.chat.wireless_charger.mode_info=Current: %s %s
+gtpp.chat.wireless_charger.mode_info_player=Players with access:
+gtpp.chat.wireless_charger.mode=Mode
+gtpp.chat.wireless_charger.mode.long=Long-Range
+gtpp.chat.wireless_charger.mode.local=Local
+gtpp.chat.wireless_charger.mode.mixed=Mixed
+gtpp.chat.wireless_charger.range=Range
+gtpp.chat.wireless_charger.lock=Locked to owner
+gtpp.chat.wireless_charger.unlock=Unlocked
+gtpp.chat.wireless_charger.enter=You have entered charging range. [%s m - %s]
+gtpp.chat.wireless_charger.leave=You have left charging range. [%s m - %s]
+
+gtpp.book.modular_baubles.name=How to: Modular Baubles
+gtpp.book.modular_baubles.page00=Concept: This idea came from wanting flexibility.\nFirst step, Build a Modularity table to begin customisation of your Bauble.\n After this has been constructed, you can now combine the upgrades listed within this book to improve the baubles level/100.
+gtpp.book.modular_baubles.page01=Defence:\nCan be upgraded by combining metal plates with the bauble.\n | +1 | Aluminium\n | +2 | Stainless Steel\n | +3 | Tungsten\n | +4 | Tungsten Steel\n | +5 | Naquadah
+gtpp.book.nuclear_chemistry_ffpp.name=Nuclear Chemistry [FFPP]
+gtpp.book.nuclear_chemistry_ffpp.page00=Fission Fuel Processing Plant\nSize: 3x9x3 [LxHxW]\nController: Center, Bottom\n4x Input Hatch\n2x Output Hatch\n1x Output Bus\n1x ZPM+ Muffler\n1x Maintenance Hatch\n1x Energy Hatch
+gtpp.book.nuclear_chemistry_ffpp.page01=[1] 7x Hastelloy-X or I/O\n[2] 5x Incoloy-DS Fluid Containment\n[3] 4x Reactor Shield Casing\n[4] 17x Hastelloy-N Sealant Case\nMultiblock Construction\nConvention is [LxHxW]\n
+gtpp.book.nuclear_chemistry_ffpp.page02=Layer 1/2:\n[1][1][1]\n[1][1][1]\n[1][1][1]\nLayer 3/5/6\n[ ][4][ ]\n[4][2][4]\n[ ][4][ ]
+gtpp.book.nuclear_chemistry_ffpp.page03=Layer 4\n[ ][3][ ]\n[3][2][3]\n[ ][3][ ]\nLayer 7/8/9\n[ ][ ][ ]\n[ ][3][ ]\n[ ][ ][ ]
+gtpp.book.nuclear_chemistry_ffpp.page04=Fission Fuel\nProcessing Plant----------------------\nThis structure is used to produce the Molten Salts required to run a Liquid Fluorine Thorium Reactor [LFTR].
+gtpp.book.power_storage_v064.name=Power Storage & You [Version 0.64]
+gtpp.book.power_storage_v064.page00=So, when it comes to power storage you really have three separate options:\nBattery Buffers,\nEnergy Buffers,\nThe Power Sub-Station
+gtpp.book.power_storage_v064.page01=Battery Buffer\nIs rather portable. Allowing you to throw set one up and insert batteries where ever you may need.\nThey output 1A for each battery stored inside, up to a maximum of 16A.
+gtpp.book.power_storage_v064.page02=Energy Buffer\nIs a more optimal choice for storage in your base. Once placed down, they cannot be moved without losing all stored power.\nEnergy Buffers can output 4A from the output side, however accept 16A as input.
+gtpp.book.power_storage_v064.page03=The Power Sub-Station \nIs used for storing Insane amounts of power later game.\nConsumes 2% of the average voltage of all energy type hatches every tick.
+gtpp.book.power_storage_v064.page04=Allows Insertion/Removal of power from the rear face of the controller, swap with a screwdriver.\nVariable Height Structure, between 4-16Y. Inserted Redox Cells dictate max energy tier of structure.
+gtpp.book.power_storage_v064.page05=Redox Cells cannot be placed into the Top or Bottom layer and only take up 3xhx3 internally.\nDifferent Tier cells CANNOT be mixed together.
+gtpp.book.power_storage_v064.page06=All Hatches Must be HV at a Minimum, this minimum tier is in place to stop people abusing ULV/LV hatches to lower the avg/t.\nCurrently the GUI will NOT display anything at all until the structure forms, this is a known bug.
+gtpp.book.power_storage_v064.page07=Valid Hatches:\nEnergy Hatch,\nDynamo Hatch,\nCharging Bus,\nDischarging Bus,\nDynamo Buffer,\nMulti-Amp Dynamo Hatch.\nStructure MUST contain at least one energy input and one energy output hatch.
+gtpp.book.thermal_boiler.name=Thermal Boiler Manual
+gtpp.book.thermal_boiler.page00=This Book explains how to set up and run your Thermal Boiler. We are not responsible for any Damage done by this Book itself nor its content.
+gtpp.book.thermal_boiler.page01=First you need to craft the following things for a Thermal Boiler to Function: The Main Boiler Block, 20 Thermal Containment Casings, two Input Hatches, two Output Hatches, a bunch of different Tools and a Maintenance Hatch.
+gtpp.book.thermal_boiler.page02=To begin the building, lay out the first 3x3 layer of Machine Casings on the ground (with a Hatch in the Middle), then place the Boiler Block facing outward in the middle of one of the 3m wide Sides.
+gtpp.book.thermal_boiler.page03=Now grab 3 other Hatches and place them on the remaining three 3m wide Sides also facing outwards. And now the four corners of the Machine need also a Machine Casing. There should only be a Hole left in the middle of the Cube.
+gtpp.book.thermal_boiler.page04=So, now place a 3x3 of Machine Casings on top, at the 3rd Layer with the last Hatch in the middle facing outwards as well.
+gtpp.book.thermal_boiler.page05=When accessing the Boiler Block, it should now stop telling you, that the structure is incomplete (bottom Line of that Screen). Now go with a bunch of different Tools (Metal Hammer, Rubber Hammer, Screwdriver, Wrench, Soldering Iron and Crowbar)
+gtpp.book.thermal_boiler.page06=to the Maintenance Hatch and access it. After that you grab the 6 Tools and rightclick the Slot with each of them in your Hand in the Maintenance GUI. Note that you need Soldering Tin/Lead in your Inventory to use the Soldering Iron.
+gtpp.book.thermal_boiler.page07=The Main Block should now tell you that you need to use the Rubber Hammer on it to (re)activate the Machine. The Rubber Hammer can enable and disable Machines. The Machine disables itself after something important broke.
+gtpp.book.thermal_boiler.page08=If you want to use Lava with this Device, then you should add a Lava Filter to extract additional Resources from the Lava. If the Filter breaks, the Machine won't explode like a Turbine would. If you use molten Salt, then you won't need a Filter.
+gtpp.book.thermal_boiler.page09=You will get Obsidian when processing Lava, however if a Filter is used, you will get sometimes an Ingot instead of a Block of Obsidian. When using molten Salt, you will get the Salt back.
+gtpp.book.thermal_boiler.page10=So, now for the Maintenance. After a few Hours of running nonstop, your Boiler will get small Problems, which don't prevent it from running, these Problems just decrease Efficiency. Every Problem listed on the Screen does -10% Efficiency.
+gtpp.book.thermal_boiler.page11=To fix these Problems, just go to the Maintenance Hatch and click with the problem corresponding Tool on the Slot to repair. If all six possible runtime Problems happen, the Machine will auto-shutdown no matter what. No Explosion, it's just stopping.
+gtpp.book.thermal_boiler.page12=The Thermal Boiler will produce 800 Liters of Steam per tick for about 5 or 6 Liters of Water per tick at reaching 100% Efficiency. In case of Lava it consumes 1666 Liters every Second.
+gtpp.book.thermal_boiler.page13=A Thermal Boiler is worth about 33 small Thermal Generators, and as the Boilers get much less Efficient, when not having enough Fuel, you should consider making a large Nether Pump for Lava, or a good Nuclear Reactor for molten Salt.
+gtpp.book.thermal_boiler.page14=Input and Output Slots are fully optional, you can place multiple ones of them or even none on the Machine. A Machine without Input couldn't process any Recipes, while a Machine without Output just voids all outputted Items and Liquids.
+gtpp.book.thermal_boiler.page15=It might be useful to use the Screwdriver on the Output Hatches to determine what is outputted where.
+
+miscutils.blockcasings.0.name=Centrifuge Casing
+miscutils.blockcasings.1.name=Structural Coke Oven Casing
+miscutils.blockcasings.2.name=Heat Resistant Coke Oven Casing
+miscutils.blockcasings.3.name=Heat Proof Coke Oven Casing
+miscutils.blockcasings.4.name=Metalworking Machine Casing
+miscutils.blockcasings.5.name=Electrolyzer Casing
+miscutils.blockcasings.6.name=Wire Factory Casing
+miscutils.blockcasings.7.name=Maceration Stack Casing
+miscutils.blockcasings.8.name=Matter Generation Coil
+miscutils.blockcasings.9.name=Matter Fabricator Casing
+miscutils.blockcasings.10.name=Iron Plated Bricks
+miscutils.blockcasings.11.name=Multitank Exterior Casing
+miscutils.blockcasings.12.name=Hastelloy-N Reactor Casing
+miscutils.blockcasings.13.name=Reactor Shield Casing
+miscutils.blockcasings.14.name=Blast Smelter Heat Containment Coil
+miscutils.blockcasings.15.name=Blast Smelter Casing Block
+
+gtplusplus.blockcasings.2.0.name=Thermal Processing Casing
+gtplusplus.blockcasings.2.1.name=Hastelloy-N Sealant Block
+gtplusplus.blockcasings.2.2.name=Hastelloy-X Structural Block
+gtplusplus.blockcasings.2.3.name=Incoloy-DS Fluid Containment Block
+gtplusplus.blockcasings.2.4.name=Wash Plant Casing
+gtplusplus.blockcasings.2.5.name=Industrial Sieve Casing
+gtplusplus.blockcasings.2.6.name=Large Sieve Grate
+gtplusplus.blockcasings.2.7.name=Vanadium Redox Power Cell (EV)
+gtplusplus.blockcasings.2.8.name=Sub-Station External Casing
+gtplusplus.blockcasings.2.9.name=Cyclotron Coil
+gtplusplus.blockcasings.2.10.name=Cyclotron Outer Casing
+gtplusplus.blockcasings.2.11.name=Thermal Containment Casing
+gtplusplus.blockcasings.2.12.name=Bulk Production Frame
+gtplusplus.blockcasings.2.13.name=Cutting Factory Frame
+gtplusplus.blockcasings.2.15.name=Sterile Farm Casing
+
+gtplusplus.blockcasings.3.0.name=Aquatic Casing
+gtplusplus.blockcasings.3.1.name=Inconel Reinforced Casing
+gtplusplus.blockcasings.3.2.name=Multi-Use Casing
+gtplusplus.blockcasings.3.3.name=Trinium Plated Casing
+gtplusplus.blockcasings.3.4.name=Vanadium Redox Power Cell (IV)
+gtplusplus.blockcasings.3.5.name=Vanadium Redox Power Cell (LuV)
+gtplusplus.blockcasings.3.6.name=Vanadium Redox Power Cell (ZPM)
+gtplusplus.blockcasings.3.7.name=Vanadium Redox Power Cell (UV)
+gtplusplus.blockcasings.3.8.name=Vanadium Redox Power Cell (UHV)
+gtplusplus.blockcasings.3.9.name=Supply Depot Casing
+gtplusplus.blockcasings.3.10.name=Advanced Cryogenic Casing
+gtplusplus.blockcasings.3.11.name=Volcanus Casing
+gtplusplus.blockcasings.3.12.name=Fusion Machine Casing MK III
+gtplusplus.blockcasings.3.13.name=Advanced Fusion Coil
+gtplusplus.blockcasings.3.14.name=Unnamed
+gtplusplus.blockcasings.3.15.name=Containment Casing
+
+gtplusplus.blockcasings.4.3.name=Tempered Arc Furnace Casing
+gtplusplus.blockcasings.4.4.name=Quantum Force Transformer Coil Casings
+gtplusplus.blockcasings.4.10.name=Vacuum Casing
+gtplusplus.blockcasings.4.11.name=Turbodyne Casing
+
+gtplusplus.blockcasings.5.0.name=IsaMill Exterior Casing
+gtplusplus.blockcasings.5.1.name=IsaMill Piping
+gtplusplus.blockcasings.5.2.name=IsaMill Gearbox
+gtplusplus.blockcasings.5.3.name=Elemental Confinement Shell
+gtplusplus.blockcasings.5.4.name=Sparge Tower Exterior Casing
+gtplusplus.blockcasings.5.5.name=Sturdy Printer Casing
+gtplusplus.blockcasings.5.6.name=Forge Casing
+gtplusplus.blockcasings.5.7.name=Neutron Pulse Manipulator
+gtplusplus.blockcasings.5.8.name=Cosmic Fabric Manipulator
+gtplusplus.blockcasings.5.9.name=Infinity Infused Manipulator
+gtplusplus.blockcasings.5.10.name=SpaceTime Continuum Ripper
+gtplusplus.blockcasings.5.11.name=Neutron Shielding Core
+gtplusplus.blockcasings.5.12.name=Cosmic Fabric Shielding Core
+gtplusplus.blockcasings.5.13.name=Infinity Infused Shielding Core
+gtplusplus.blockcasings.5.14.name=SpaceTime Bending Core
+gtplusplus.blockcasings.5.15.name=Force Field Glass
+
+gtplusplus.blockcasings.6.0.name=Fusion Machine Casing MK IV
+gtplusplus.blockcasings.6.1.name=Advanced Fusion Coil II
+
+gtplusplus.blockcasings.pipesgears.0.name=Eglin Steel Gear Box Casing
+gtplusplus.blockcasings.pipesgears.1.name=Inconel-792 Gear Box Casing
+gtplusplus.blockcasings.pipesgears.2.name=Incoloy MA956 Gear Box Casing
+gtplusplus.blockcasings.pipesgears.3.name=Nitinol-60 Gear Box Casing
+gtplusplus.blockcasings.pipesgears.4.name=Zeron-100 Gear Box Casing
+gtplusplus.blockcasings.pipesgears.5.name=Pikyonium Gear Box Casing
+gtplusplus.blockcasings.pipesgears.6.name=Titansteel Gear Box Casing
+gtplusplus.blockcasings.pipesgears.7.name=Abyssal Gear Box Casing
+gtplusplus.blockcasings.pipesgears.8.name=Babbit Alloy Pipe Casing
+gtplusplus.blockcasings.pipesgears.9.name=Inconel-690 Pipe Casing
+gtplusplus.blockcasings.pipesgears.10.name=Stellite Pipe Casing
+gtplusplus.blockcasings.pipesgears.11.name=Nitinol-60 Pipe Casing
+gtplusplus.blockcasings.pipesgears.12.name=Lafium Pipe Casing
+gtplusplus.blockcasings.pipesgears.13.name=Cinobite Pipe Casing
+gtplusplus.blockcasings.pipesgears.14.name=Titansteel Pipe Casing
+gtplusplus.blockcasings.pipesgears.15.name=Abyssal Pipe Casing
+
+gtplusplus.blockspecialcasings.1.0.name=Turbine Shaft
+gtplusplus.blockspecialcasings.1.1.name=Reinforced Steam Turbine Casing
+gtplusplus.blockspecialcasings.1.2.name=Reinforced HP Steam Turbine Casing
+gtplusplus.blockspecialcasings.1.3.name=Reinforced Gas Turbine Casing
+gtplusplus.blockspecialcasings.1.4.name=Reinforced Plasma Turbine Casing
+gtplusplus.blockspecialcasings.1.5.name=Tesla Containment Casing
+gtplusplus.blockspecialcasings.1.6.name=Structural Solar Casing
+gtplusplus.blockspecialcasings.1.7.name=Salt Containment Casing
+gtplusplus.blockspecialcasings.1.8.name=Thermally Insulated Casing
+gtplusplus.blockspecialcasings.1.9.name=Flotation Cell Casings
+gtplusplus.blockspecialcasings.1.10.name=Reinforced Engine Casing
+gtplusplus.blockspecialcasings.1.11.name=Molecular Containment Casing
+gtplusplus.blockspecialcasings.1.12.name=High Voltage Current Capacitor
+gtplusplus.blockspecialcasings.1.13.name=Particle Containment Casing
+gtplusplus.blockspecialcasings.1.14.name=Reinforced Heat Exchanger Casing
+gtplusplus.blockspecialcasings.1.15.name=Reinforced SC Turbine Casing
+
+gtplusplus.blockspecialcasings.2.0.name=Strong Bronze Machine Casing
+gtplusplus.blockspecialcasings.2.1.name=Sturdy Aluminium Machine Casing
+gtplusplus.blockspecialcasings.2.2.name=Vigorous Laurenium Machine Casing
+gtplusplus.blockspecialcasings.2.3.name=Rugged Botmium Machine Casing
+
+gtplusplus.blockspecialcasings.3.0.name=Resonance Chamber I
+gtplusplus.blockspecialcasings.3.1.name=Resonance Chamber II
+gtplusplus.blockspecialcasings.3.2.name=Resonance Chamber III
+gtplusplus.blockspecialcasings.3.3.name=Resonance Chamber IV
+gtplusplus.blockspecialcasings.3.4.name=Modulator I
+gtplusplus.blockspecialcasings.3.5.name=Modulator II
+gtplusplus.blockspecialcasings.3.6.name=Modulator III
+gtplusplus.blockspecialcasings.3.7.name=Modulator IV
+
+gtplusplus.blocktieredcasings.1.0.name=Integral Encasement I
+gtplusplus.blocktieredcasings.1.1.name=Integral Encasement II
+gtplusplus.blocktieredcasings.1.2.name=Integral Encasement III
+gtplusplus.blocktieredcasings.1.3.name=Integral Encasement IV
+gtplusplus.blocktieredcasings.1.4.name=Integral Encasement V
+gtpp.tooltip.frame.void=No more cheaty frames for GTNH players.
+gtpp.tooltip.frame.accelerated=Longevity for bees isn't very common, especially if they're working harder.
+gtpp.tooltip.frame.mutagenic=Evolution of the fittest, finest and fastest.
+gtpp.tooltip.frame.busy=Your bee will work harder and longer than you expected.
+gtpp.tooltip.frame.decaying=Who really needs stable genetics?
+gtpp.tooltip.frame.slowing=The journey is its own reward.
+gtpp.tooltip.frame.stabilizing=If you wish your bees to keep their form.
+gtpp.tooltip.frame.arborists=Who need Bees when you can have Trees?
+
+gtplusplus.blocktieredcasings.1.5.name=Integral Framework I
+gtplusplus.blocktieredcasings.1.6.name=Integral Framework II
+gtplusplus.blocktieredcasings.1.7.name=Integral Framework III
+gtplusplus.blocktieredcasings.1.8.name=Integral Framework IV
+gtplusplus.blocktieredcasings.1.9.name=Integral Framework V
