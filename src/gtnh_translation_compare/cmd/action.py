@@ -129,7 +129,7 @@ class Action:
         subdirectory: Path,
     ) -> list[str]:
         # Existing projects use resource folder on PT
-        path_converter_: ParatranzToLocalPathConverter = lambda path: Path('config/txloader/forceload') / os.path.relpath(path, Path('resources'))
+        path_converter_: ParatranzToLocalPathConverter = lambda path: Path('config/txloader/load') / os.path.relpath(path, Path('resources'))
 
         return await self.__paratranz_to_translation(
                 is_mod_lang_file,
