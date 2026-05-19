@@ -310,6 +310,8 @@ GT5U.gui.text.cropsnh.industrialFarm.seedBedTierTooLow=The current tier of Seed 
 GT5U.gui.text.cropsnh.industrialFarm.seedsFull=Seed capacity reached
 GT5U.gui.text.cropsnh.industrialFarm.seedOverflow=Seed Storage exceeds current capacity
 GT5U.gui.text.cropsnh.industrialFarm.cannotGrow=This seed cannot grow in the current environment
+GT5U.gui.text.cropsnh.industrialFarm.notEnoughWater=Not enough water
+GT5U.gui.text.cropsnh.industrialFarm.notEnoughEnrichedFertilizer=Not enough Enriched Fertilizer
 
 # Industrial Farm Scanner Tooltips
 cropsnh_tooltip.industrialFarm.scanner.0=Tier: §e%1$s§r
@@ -318,6 +320,7 @@ cropsnh_tooltip.industrialFarm.scanner.2=Harvest Bonus: §e%1$s§r%%
 cropsnh_tooltip.industrialFarm.scanner.3=Growth Speed Bonus: §e%1$s§r%%
 cropsnh_tooltip.industrialFarm.scanner.4=Water Usage: §e%1$s§r/§e%2$s§rt
 cropsnh_tooltip.industrialFarm.scanner.5=Fertilizer Usage: §e%1$s§r/§e%2$s§rt
+cropsnh_tooltip.industrialFarm.scanner.5.enriched=Enriched Fertilizer Usage: §e%1$s§r/§e%2$s§rt
 cropsnh_tooltip.industrialFarm.scanner.6=Nutrient Score: §e%1$s§r out of §e%2$s§r
 
 # Seed Bed
@@ -325,10 +328,11 @@ cropsnh_tooltip.seedBed.name=Seed Bed (%1$s)
 cropsnh_tooltip.seedBed.0=Determines the §ctier§7 of the Industrial Farm
 cropsnh_tooltip.seedBed.1=Seed Capacity: %1$s
 cropsnh_tooltip.seedBed.2=Requires %1$s of water per cycle
-cropsnh_tooltip.seedBed.3=Increases number of drops by %1$s
-cropsnh_tooltip.seedBed.3.adv=Increases number of drops by %1$s (additive)
-cropsnh_tooltip.seedBed.4.single=Farm must have exactly %1$s middle slice
-cropsnh_tooltip.seedBed.4.plural=Farm must have exactly %1$s middle slices
+cropsnh_tooltip.seedBed.3=Optionally uses %1$s of fertilizer per cycle
+cropsnh_tooltip.seedBed.4=Increases number of drops by %1$s
+cropsnh_tooltip.seedBed.4.adv=Increases number of drops by %1$s (additive)
+cropsnh_tooltip.seedBed.5.single=Farm must have exactly %1$s middle slice
+cropsnh_tooltip.seedBed.5.plural=Farm must have exactly %1$s middle slices
 cropsnh.seedBed.2.name=Seed Bed (MV)
 cropsnh.seedBed.3.name=Seed Bed (HV)
 cropsnh.seedBed.4.name=Seed Bed (EV)
@@ -344,8 +348,9 @@ cropsnh.seedBed.13.name=Seed Bed (UXV)
 
 # OC Growth Accel Unit
 cropsnh_tooltip.overclockedGrowthAccelerationUnit.0=Allows §foverclocking§7 of the Industrial Farm
-cropsnh_tooltip.overclockedGrowthAccelerationUnit.1=Each overclock §bdoubles§7 production without affecting recipe time
+cropsnh_tooltip.overclockedGrowthAccelerationUnit.1=Each overclock §bdoubles§7 production and input consumption without affecting recipe time
 cropsnh_tooltip.overclockedGrowthAccelerationUnit.2=Won't work if a §fGrowth Acceleration Unit§7 is also present
+cropsnh_tooltip.overclockedGrowthAccelerationUnit.3=Allows for the use of a single TecTech Multi-Amp Energy Hatch instead of multiple regular energy hatches
 cropsnh.overclockedGrowthAccelerationUnit.7.name=Overclocked Growth Acceleration Unit (ZPM)
 cropsnh.overclockedGrowthAccelerationUnit.8.name=Overclocked Growth Acceleration Unit (UV)
 cropsnh.overclockedGrowthAccelerationUnit.9.name=Overclocked Growth Acceleration Unit (UHV)
@@ -375,14 +380,16 @@ cropsnh.growthAccelerationUnit.12.name=Growth Acceleration Unit (UMV)
 cropsnh.growthAccelerationUnit.13.name=Growth Acceleration Unit (UXV)
 
 # Fertilizer Unit
-cropsnh_tooltip.fertilizerUnit.0=Allows the Industrial Farm to consume §fFertilizer§7 in order to boost production
-cropsnh_tooltip.fertilizerUnit.1=Requires %1$s of Fertilizer per cycle
-cropsnh_tooltip.fertilizerUnit.2=Increases growth speed by %1$s
-cropsnh_tooltip.fertilizerUnit.2.adv=Increases growth speed by %1$s (multiplicative)
-cropsnh_tooltip.fertilizerUnit.3=Increases number of drops by %1$s
-cropsnh_tooltip.fertilizerUnit.3.adv=Increases number of drops by %1$s (additive)
-cropsnh_tooltip.fertilizerUnit.4=Increases power usage by %1$s
-cropsnh_tooltip.fertilizerUnit.4.adv=Increases power usage by %1$s (additive)
+cropsnh_tooltip.fertilizerUnit.0=Allows the Industrial Farm to consume §fEnriched Fertilizer§7 in order to boost production
+cropsnh_tooltip.fertilizerUnit.1=Requires %1$s of §fEnriched Fertilizer§7 per cycle
+cropsnh_tooltip.fertilizerUnit.2=§cYou cannot use regular Fertilizer when this unit is installed§7
+cropsnh_tooltip.fertilizerUnit.3=§cIgnores the potency bonus of Enriched Fertilizer§7
+cropsnh_tooltip.fertilizerUnit.4=Increases growth speed by %1$s
+cropsnh_tooltip.fertilizerUnit.4.adv=Increases growth speed by %1$s (multiplicative)
+cropsnh_tooltip.fertilizerUnit.5=Increases number of drops by %1$s
+cropsnh_tooltip.fertilizerUnit.5.adv=Increases number of drops by %1$s (additive)
+cropsnh_tooltip.fertilizerUnit.6=Increases power usage by %1$s
+cropsnh_tooltip.fertilizerUnit.6.adv=Increases power usage by %1$s (additive)
 cropsnh.fertilizerUnit.2.name=Fertilization Unit (MV)
 cropsnh.fertilizerUnit.3.name=Fertilization Unit (HV)
 cropsnh.fertilizerUnit.4.name=Fertilization Unit (EV)
@@ -437,7 +444,8 @@ cropsnh.advancedHarvestingUnit.13.name=Advanced Harvesting Unit (UXV)
 
 # MTE Machine Type Flavour Text
 # multi tooltips
-cropsnh_tooltip.MBTT.multiAmpsWithUpgrade=Supports TecTech Multi-Amp Hatches when using an Overclocked Growth Accelerator Upgrade!
+cropsnh_tooltip.MBTT.multiAmpsWithUpgrade.0=Supports a single TecTech Multi-Amp Energy Hatch when using an Overclocked Growth Acceleration Unit!
+cropsnh_tooltip.MBTT.multiAmpsWithUpgrade.1=You cannot use regular hatches when using a Multi-Amp Energy Hatch
 # Crop Produce Flavour Text
 cropsnh_tooltip.berry.huckle.1=Huckle-dae-Duckle-dae-Doo
 cropsnh_tooltip.berry.huckle.2=A sweet treat!
