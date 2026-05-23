@@ -84,28 +84,28 @@ vendingmachine.coin.technician=技術者コイン
 vendingmachine.coin.witch=魔術師コイン
 
 # Config
-vendingmachine.config.title.main=Vending Machine Settings
-vendingmachine.config.title.main.tooltip=Configuration settings for vending machine.
+vendingmachine.config.title.main=Vending Machine設定
+vendingmachine.config.title.main.tooltip=Vending Machine用の設定項目
 
-vendingmachine.config.title.main_settings=Main Settings
-vendingmachine.config.title.main_settings.tooltip=Global settings for the vending machine
-vendingmachine.config.title.gui_settings=GUI Settings
-vendingmachine.config.title.gui_settings.tooltip=Settings for the GUI display
-vendingmachine.config.title.team_settings=Team Settings
-vendingmachine.config.title.team_settings.tooltip=Settings for the teams
-vendingmachine.config.title.music_settings=Music Settings
-vendingmachine.config.title.music_settings.tooltip=Settings for the music
-vendingmachine.config.title.dev_settings=Developer Settings
-vendingmachine.config.title.dev_setting.tooltips=Settings for the developers
+vendingmachine.config.title.main_settings=メイン設定
+vendingmachine.config.title.main_settings.tooltip=Vending Machine用のグローバル設定
+vendingmachine.config.title.gui_settings=GUI設定
+vendingmachine.config.title.gui_settings.tooltip=GUIに関する設定
+vendingmachine.config.title.team_settings=チーム設定
+vendingmachine.config.title.team_settings.tooltip=チームに関する設定
+vendingmachine.config.title.music_settings=音楽設定
+vendingmachine.config.title.music_settings.tooltip=音楽に関する設定
+vendingmachine.config.title.dev_settings=開発用設定
+vendingmachine.config.title.dev_setting.tooltips=開発者向けの設定
 
-vendingmachine.config.main.data_refresh=Refresh frequency
-vendingmachine.config.main.data_refresh.tooltip=How often the vending machine refreshes its data, in number of ticks
-vendingmachine.config.main.restock=Restock notifications
-vendingmachine.config.main.restock.tooltip=Enable restock notifications\nDisabling on server will disable notifications for everyone
-vendingmachine.config.main.restock_check=Restock frequency check
-vendingmachine.config.main.restock_check.tooltip=How often the server checks for restocked trades, in number of ticks
-vendingmachine.config.main.eject_frequency=Dispence frequency 
-vendingmachine.config.main.eject_frequency.tooltip=How often items items are ejected, in number of ticks
+vendingmachine.config.main.data_refresh=更新頻度
+vendingmachine.config.main.data_refresh.tooltip=自動販売機の更新頻度、tickで表す
+vendingmachine.config.main.restock=補充通知
+vendingmachine.config.main.restock.tooltip=補充通知を有効にする\nサーバー側で無効にすると全員の通知が無効になる
+vendingmachine.config.main.restock_check=補充の更新確認頻度
+vendingmachine.config.main.restock_check.tooltip=サーバーがトレードの補充を確認する頻度、tickで表す
+vendingmachine.config.main.eject_frequency=排出頻度
+vendingmachine.config.main.eject_frequency.tooltip=アイテムの排出頻度、tickで表す
 vendingmachine.config.main.dispense_frequency=Dispence amount
 vendingmachine.config.main.dispense_frequency.tooltip=How many items are dispensed from the queue at once
 
