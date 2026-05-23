@@ -6464,6 +6464,26 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHwg.desc=Die Sägebank kann die meisten 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOQ.name=Den Überblick über Deine Funde behalten (Blumen)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIOQ.desc=Dieses praktische Gerät speichert die Blumen, die du bisher entdeckt hast, und ihre Eigenschaften.
 
+# Quest: Making Sense of Spaghetti
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.name=Kabelsalat, Aber Nachvollziehbar
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.desc=Niemand mag eine unordentliche Basis. Du kannst eine Sprühdose herstellen und sie später mit Chemischen Farbfarbstoff füllen, die aus Schwefelsäure hergestellt wird, um deine Teppiche, Kabel, Drähte und Maschinen farblich zu koordinieren. Aber vorerst bekommst du ein paar Gratisartikel.
+%nThe paint brush, painter, and spray cans can be used to color machines, wires, cables, pipes, wool, stained glass, and more!
+%n
+%nColored pipes, wires, and cables can only connect to uncolored cables/pipes/wires, or those of the same color.
+%n
+%nInput buses and hatches can also be colored, and multiblock machines will enforce input separation based on their colors. Inputs of the same color can only see each other, and un-colored inputs work with any color. While outbut buses and hatches can be colored as well, doing so will have no effect on where the machine sends outputs.
+%n
+%nAny painted block can be painted over with another color, but to remove the color entirely you need to break the block while sneaking or use a can of solvent.
+%n
+%nThe paint brush is the cheapest to make paint for, only requiring one piece of colored dye. 
+%nThe painter requires distilled water and a chemical bath to create paint for. 
+%nThe spray can uses chemical dye, which requires an MV chemical reactor to make.
+%nThe color applicator uses paint balls and can store all 16 colors at once.
+%n
+%n[note]Sneaking while using a spray can or paint brush will color an entire line of blocks![/note]
+%n
+%n[note]The priority of colored hatches is the same as the order of vanilla dyes in NEI, from highest (black) to lowest (white).[/note]
+
 # Quest: Carpenter's Blocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.name=Tischler Blöcke
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcA.desc=Noch ein weiteres benutzerdefiniertes Blocksystem! Tischler Blöcke werden leer hergestellt und in der Welt platziert, und dann werden einfache Blocktexturen auf sie angewendet. Die Blöcke dürfen keine Tile Entities sein, daher funktionieren Botany-Blöcke nicht korrekt mit ihnen, aber GT-Steine wie Roter Granit und jeder Gefärbte Ton- oder Vanille-Glasblock funktionieren. Einige Chisel-Glastypen funktionieren, und Ztones-Blöcke und Getöntes Glas funktionieren ebenfalls.%n%nDas Garagentor benötigt einen Block oben, um "herunterzuhängen", kann aber praktisch jede Länge haben. Ein Redstone-Signal auf einem beliebigen Block neben den Garagentorblöcken öffnet oder schließt das Tor. Das Öffnen/Schließen wird sich über mehrere vertikale Tore ausbreiten, sodass du nicht-quadratische Tore einrichten kannst. Schleichen und Rechtsklicken mit einer leeren Hand ändert die Polarität des Tors.%n%nDie Druckplatten sind nur für Spieler aktivierbar, was sie ideal für Türen zu deiner Basis macht.%n%nDie Bodenluken können durch das seitliche Anklicken eines Block platziert werden. Sie können praktisch sein, um dich vor Tiegel-...Nebenprodukten zu schützen.%n%nEs sind viel mehr Blockformen möglich, schau in NEI nach "Tischler", um die Optionen zu sehen.%n%nDer Meißel ermöglicht es dir, Blöcke zu meißeln, während sie an einem Tischler Block befestigt sind.%n%nDer Hammer ermöglicht verschiedene Funktionen.%n%nHammer auf Tür - ändert den Türformtyp%nSchleichhammer auf Tür - Ändert von Eisen- zu Holzverhalten%nSchleichhammer auf Hebel - Ändert die Polarität (welche Richtung an/aus ist)
@@ -6514,7 +6534,7 @@ betterquesting.quest.VFVruPLHQAeDthuV-s7HGQ.desc=Beton. Äh, sorry, Hanfbeton! E
 
 # Quest: Gotta Go Fast!
 betterquesting.quest.Whl2BVaRSlaTf-ky0Ih96A.name=§6§lGotta Go Fast!
-betterquesting.quest.Whl2BVaRSlaTf-ky0Ih96A.desc=Yet another block you can use to get around your base much more efficiently. Unlike concrete, you don't have to fill your floor with these to get their full benefit.%n%nYou can also stack the speed boost from both boosters and concrete for an even bigger speed boost!%n%n[note]Place your boosters 20 blocks apart - or 36 blocks if you're using concrete - for optimal boosting.[/note]
+betterquesting.quest.Whl2BVaRSlaTf-ky0Ih96A.desc=Yet another block you can use to get around your base much more efficiently. Unlike concrete, you don't have to fill your floor with these to get their full benefit.%n%nYou can also stack the speed boost from both boosters and concrete for an even bigger speed boost!%n%n[note]Place your boosters 18 blocks apart - or 33 blocks if you're using concrete - for optimal boosting.[/note]
 
 # Quest: Gold Shulker Box
 betterquesting.quest.YFUK2QflT1G3_WC8XBp2Wg.name=§3§lGold Shulker Box
@@ -7240,7 +7260,15 @@ betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.desc=A Linear Accelerator (LINAC) ca
 
 # Quest: Playing with Colors!
 betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.name=§6§lSpiel mit Farben!
-betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.desc=Multiblock machines enforce input separation based on hatch color. Inputs from Input Buses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.%n%nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.%n%n[note]For more advanced users, note that the priority of dyed hatches is ordered exactly how the vanilla dyes are in NEI, from highest (black) to lowest (white).[/note]%n%n§6Now §2go §3have §4fun§5!!!
+betterquesting.quest.Z_jn8qzFQr6FWHzmt2i3Aw.desc=Multiblock machines enforce input separation based on hatch color. Inputs from Input Buses and Input Hatches will only interact if they share the same color. Un-dyed inputs act as wildcards compatible with any color.
+%n
+%nColor can be applied using a Spray Can and removed with a Spray Can Solvent. An Infinite Spray Can becomes available later in progression.
+%n
+%n[note]There are a few other items which paint inputs. Check out [quest]Making Sense of Spaghetti[/quest] in the §lBuilding Better Bases§l§r tab for a complete list.[/note]
+%n
+%n[note]For more advanced users, note that the priority of dyed hatches is ordered exactly how the vanilla dyes are in NEI, from highest (black) to lowest (white).[/note]
+%n
+%n§6Now §2go §3have §4fun§5!!!
 
 # Quest: Don't ask how this works
 betterquesting.quest._xupoCqbT52qN_3zQonWNg.name=§6§lDon't ask how this works
@@ -10342,10 +10370,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ1w.desc=Alle Konsolen werden daraus her
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2A.name=Einfachere AL-Automatisierung
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2A.desc=Im Gegensatz zu normalen Schablonenkonsolen verfügt die Fertigungsschablonenkonsole nicht über einen Herstellungsmodus. Stattdessen stehen dir viel mehr Slots für Input und Output zur Verfügung, die du auch untereinander tauschen kannst. Ideal für Montagelinien-Schablonen.%n%n[note]Wenn du einen Gegenstand für die Verwendung in einer bestimmten Schablone umbennen musst, kannst du mit STRG + Mittlere Maustaste den Namen des Gegestands direkt von der Konsole aus festlegen. Sehr praktisch für einige Formpress- und Montagelinien-Rezepte![/note]
 
-# Quest: Making Patterns Quick
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2Q.name=Schablonen schnell erstellen
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2Q.desc=Mit dem Schablonenkodierer kannst du die Umschalt-Klick-Funktion von NEI nutzen, um eine Herstellungsschablone zu erstellen, auch wenn du nicht über die entsprechenden Gegenstände verfügst.%n%nDu kannst jedoch auch die Gegenstände aus NEI ziehen, um dasselbe zu erreichen, was allerdings viel langsamer ist, da du jede Komponente einzeln suchen musst. Für die Bearbeitung von Schablonen ist dies jedoch weitaus weniger nützlich, da es sich immer um 64 Gegenstände handelt.
-
 # Quest: Visualizing How Much Your Stuff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2g.name=Visuelle Darstellung der Menge deiner Sachen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ2g.desc=Mit dem ME-Speicher-Monitor kannst du sehen, wie viel du von einem Gegenstand hast. Du kannst zum Beispiel sehen, ob dir die Schaltkreise ausgehen und du mehr herstellen solltest, oder wie lange ein Herstellungsprozess dauert. Es gibt mehrere Möglichkeiten, sie zu verwenden.%n%nRechtsklick mit Gegenstand: Zeigt den aktuellen Stand dieses Gegenstands an, sofern er nicht gesperrt ist.%nRechtsklick mit leerer Hand: Setzt die Anzeige zurück, sofern sie nicht gesperrt ist.%nRechtsklick mit AE2-Schraubenschlüssel oder Netzwerk-Werkzeug: Schaltet die Sperre um.%n%nDer ME-Umwandlungsmonitor ist die verbesserte Version des ME-Speichermonitors. Er bietet zusätzlich die Möglichkeit, Gegenstände direkt aus dem ME-Netzwerk zu entnehmen oder darin zu speichern. Er verfügt über die normalen Interaktionen und noch mehr.%n%nUmschalt-Rechtsklick mit Gegenstand: Versucht, den Gegenstandsstapel in das Netzwerk einzufügen. Dies funktioniert auch, wenn es sich nicht um den angezeigten Gegenstand handelt!%nUmschalt-Doppelklick mit der rechten Maustaste: Versucht, alle Gegenstandsstapel des angezeigten Typs in das Netzwerk einzufügen.%nRechtsklick (im gesperrten Zustand): Versucht, einen Stack des angezeigten Gegenstands herauszunehmen.
@@ -10629,10 +10653,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALPQ.desc=ME-Busse sind eine Kombination 
 # Quest: Starting Your AE2 Journey
 betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.name=Starting Your AE2 Journey
 betterquesting.quest.BKJ_IdnHR6ideLC6NnyyPg.desc=§nApplied Energistics 2 is an integral part of GTNH gameplay. %n§r%nAE2 is the primary networking and logistics management mod in GTNH for Items, Fluids, and Crafting. You will use it starting from EV and onward for most automations you perform. Given the sheer density of this modpack there are a variety of unique tools and features added specifically to aid in your adventure. Most of these tools are covered in this quest tab.%n%nThere is a lot to learn, but don't feel overburdened! Your abilities will continue to grow the more time you spend with it. There are a wide variety of helpful resources to take advantage of in addition to this book when it comes to learning:%n%n§21. The Wiki: §r[url]https://wiki.gtnewhorizons.com/wiki/Applied_Energistics_2[/url]%n%n- The Wiki has a lot of great starter information on what various systems do. They also have a lot of machine specific automation tutorials so be sure to check the Wiki if you're struggling or want a point of reference.%n%n§22. The Discord: §r[url]https://discord.gg/gtnh[/url]%n%n- The Discord is full of experienced AE2ers', check out #ae2-help to find plenty of people who will take time to help you figure something out.%n%n§23. Video Tutorials: §r[url]https://www.youtube.com/watch?v=LUYVmIAEC-I[/url]%n%n- There are a lot of great GTNH content creators who make high quality video tutorials for this. Here is a link to AE2 Fundamentals by IX. There's an advanced version as well.
-
-# Quest: Advanced Wireless Setup Kit
-betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.name=Advanced Wireless Setup Kit
-betterquesting.quest.CbUsVtoETCy-CB3AlgHRjg.desc=The Advanced Wireless Setup Kit is a must have for heavy wireless users. Instead of being a 1:1 back and forth it allows you to enter a "queuing mode" and a "binding mode" where you can select multiple targets at one time to bind in a row.%n%nWhen binding to connectors, the kit will bind connectors in the exact order that they were queued in. %n%nTo clear a queue and reset the kit, just shapelessly craft it into itself in your inventory.
 
 # Quest: 4096k Essentia Storage Cell
 betterquesting.quest.G5g_5_24RS6sqhmjFEbf8A.name=4096k-Essentia-Speicherzelle
@@ -14547,10 +14567,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIGA.desc=Indeed you will be crying over 
 # Quest: Key to Your Heart
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.name=§c§lSchlüssel zu deinem Herzen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIJw.desc=Fässer lassen sich standardmäßig auf einen bestimmten Gegenstand festlegen, selbst wenn sie leer sind. Für Lagerkästen hingegen benötigst du den Lagerkastenschlüssel, um deren Inhaltstypen festzulegen.%n%nUnterschiedliche Schlüssel können verwendet werden, um die Gegenstands-Symbole und -Marker zu zeigen/verstecken, und deine Fässer von den diebischen Händen anderer zu bewahren.
-
-# Quest: Making Sense of Spaghetti
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.name=Kabelsalat, Aber Nachvollziehbar
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWg.desc=Niemand mag eine unordentliche Basis. Du kannst eine Sprühdose herstellen und sie später mit Chemischen Farbfarbstoff füllen, die aus Schwefelsäure hergestellt wird, um deine Teppiche, Kabel, Drähte und Maschinen farblich zu koordinieren. Aber vorerst bekommst du ein paar Gratisartikel.
 
 # Quest: Don't Put a Finger in That Socket
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.name=§6§lDon't Put a Finger in That Socket
