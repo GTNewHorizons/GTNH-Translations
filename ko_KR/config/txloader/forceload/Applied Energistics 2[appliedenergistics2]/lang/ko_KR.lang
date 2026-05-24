@@ -16,6 +16,7 @@ tile.appliedenergistics2.BlockGrinder.name=석영 맷돌
 tile.appliedenergistics2.BlockMatrixFrame.name=행렬 프레임
 tile.appliedenergistics2.BlockIOPort.name=ME IO 포트
 tile.appliedenergistics2.BlockInscriber.name=회로 인쇄기
+tile.appliedenergistics2.BlockAdvancedInscriber.name=Advanced Inscriber
 tile.appliedenergistics2.BlockInterface.name=ME 인터페이스
 tile.appliedenergistics2.BlockQuantumLinkChamber.name=ME 양자 연결기
 tile.appliedenergistics2.BlockQuantumRing.name=ME 양자 고리
@@ -32,7 +33,7 @@ tile.appliedenergistics2.BlockSpatialPylon.name=시공 지시탑
 tile.appliedenergistics2.BlockTinyTNT.name=소형 TNT
 tile.appliedenergistics2.BlockVibrationChamber.name=공명실
 tile.appliedenergistics2.BlockWireless.name=ME 무선 액세스 포인트
-tile.appliedenergistics2.BlockWireless.desc=Right click with terminal in hand to bind it
+tile.appliedenergistics2.BlockWireless.desc=Right-click with a terminal in hand to bind it
 tile.appliedenergistics2.OreQuartz.name=세투스 석영 광석
 tile.appliedenergistics2.OreQuartzCharged.name=충전된 세투스 석영 광석
 tile.appliedenergistics2.BlockSecurity.name=ME 보안 단말기
@@ -71,6 +72,9 @@ tile.appliedenergistics2.BlockSingularityCraftingStorage.name=Singularity Crafti
 tile.appliedenergistics2.BlockPaint.name=Paint
 tile.appliedenergistics2.BlockSpatialLinkChamber.name=Spatial Link Chamber
 tile.appliedenergistics2.BlockSpatialNetworkRelay.name=Spatial Network Relay
+tile.appliedenergistics2.BlockWirelessConnector.name=Wireless Connector
+tile.appliedenergistics2.BlockWirelessHub.name=Wireless Hub
+tile.appliedenergistics2.BlockCrystalGrowthChamber.name=Crystal Growth Chamber
 
 # Stairs
 tile.appliedenergistics2.ChiseledQuartzStairBlock.name=조각된 세투스 석영 계단
@@ -110,11 +114,11 @@ chat.appliedenergistics2.DeviceNotPowered=기기의 전력이 부족합니다.
 chat.appliedenergistics2.DeviceNotWirelessTerminal=이 기기는 무선 터미널이 아닙니다.
 chat.appliedenergistics2.DeviceSuccessLinked=§aDevice successfully linked.
 chat.appliedenergistics2.DeviceNotLinked=이 기기는 연결되지 않았습니다.
-chat.appliedenergistics2.StationCanNotBeLocated=Station can not be located.
+chat.appliedenergistics2.StationCanNotBeLocated=Station cannot be located.
 chat.appliedenergistics2.MachineNotPowered=기기가 전력을 받고 있지 않습니다.
 chat.appliedenergistics2.CommunicationError=네트워크와 소통하는 데 문제가 발생했습니다.
 chat.appliedenergistics2.SavedSettings=설정을 성공적으로 저장했습니다.
-chat.appliedenergistics2.AmmoDepleted=Ammo Depleted.
+chat.appliedenergistics2.AmmoDepleted=Ammo depleted.
 chat.appliedenergistics2.isNowLocked=모니터가 잠겨있습니다
 chat.appliedenergistics2.isNowUnlocked=모니터의 잠금이 해제되어있습니다
 chat.appliedenergistics2.TunnelNotConnected=터널이 연결되어있지 않습니다
@@ -145,8 +149,13 @@ chat.appliedenergistics2.MachineHighlightedNamed=The %d "%d" is now highlighted 
 chat.appliedenergistics2.StorageHighlighted=The %d containing %d %d is now highlighted at %d, %d, %d
 chat.appliedenergistics2.StorageInOtherDim=%d containing %d %d is located in dimension: %d and can't be highlighted
 chat.appliedenergistics2.PickBlockTerminalNotFound=AE2 wireless terminal not found.
-chat.appliedenergistics2.PatternRepeaterProvider=§5Provider§r - will provide pattern to current system from in front §5Accessor§r.
-chat.appliedenergistics2.PatternRepeaterAccessor=§5Accessor§r - will provide pattern to in front §5Provider§r.
+chat.appliedenergistics2.PatternRepeaterProvider=§5Provider§r - provides the pattern to the current system from the §5Accessor§r in front.
+chat.appliedenergistics2.PatternRepeaterAccessor=§5Accessor§r - provides the pattern to the §5Provider§r in front.
+chat.appliedenergistics2.WirelessHighlighted=%d §e"%d§e"§r is now highlighted at %d, %d, %d
+chat.appliedenergistics2.WirelessInOtherDim=%d §e"%d§e"§r located in dimension: %d and can't be highlighted
+chat.appliedenergistics2.WirelessHighlighterPrefix=Wireless
+chat.appliedenergistics2.WirelessHighlighterNetworkPrefix=Wireless of network §e"%s§e"§r -
+chat.appliedenergistics2.WirelessHighlighterColorPrefix=Wireless color §e"%s§e"§r of network §e"%s§e"§r -
 
 # Creative Tabs
 itemGroup.appliedenergistics2=응용 에너지학 2
@@ -210,8 +219,8 @@ gui.appliedenergistics2.ReshuffleReportExtracted=Extracted:
 gui.appliedenergistics2.ReshuffleReportInjected=Injected:
 gui.appliedenergistics2.ReshuffleReportLabelTypes=Types:
 gui.appliedenergistics2.ReshuffleReportLabelStacks=Items:
-gui.appliedenergistics2.ReshuffleReportSectionCantExtract=-- Cant extract --
-gui.appliedenergistics2.ReshuffleReportSectionCantInject=-- Cant inject --
+gui.appliedenergistics2.ReshuffleReportSectionCantExtract=-- Can't extract --
+gui.appliedenergistics2.ReshuffleReportSectionCantInject=-- Can't inject --
 gui.appliedenergistics2.ReshuffleReportNetChanged=! Net change:
 gui.appliedenergistics2.ReshuffleReportIntegrityOk=No net change — storage intact
 
@@ -247,6 +256,10 @@ gui.appliedenergistics2.StoredPower=전력 저장량
 gui.appliedenergistics2.MaxPower=최대 전력량
 gui.appliedenergistics2.QuartzCuttingKnife=석영 조각도
 gui.appliedenergistics2.Inscriber=회로 인쇄기
+gui.appliedenergistics2.AdvancedInscriber=Advanced Inscriber
+gui.appliedenergistics2.AdvancedInscriberLockOn=Locked - Can't be removed with automation
+gui.appliedenergistics2.AdvancedInscriberLockOff=Unlocked - Can be removed with automation
+gui.appliedenergistics2.AdvancedInscriberLockNote=If no process is ongoing and middle slot is empty
 gui.appliedenergistics2.Wireless=무선 엑세스 포인트
 gui.appliedenergistics2.WirelessTerminal=무선 터미널
 gui.appliedenergistics2.NoPermissions=아무 권한이 선택되지 않음
@@ -341,7 +354,7 @@ gui.appliedenergistics2.inWorldPurificationCertus=물 웅덩이에다 1개의 �
 gui.appliedenergistics2.inWorldPurificationNether=물 웅덩이에다 1개의 네더 석영 씨앗을 드롭하고 모래를 놓고 기다리세요.; 만들어지는 속도를 가속하시려면 결정 성장 촉진기를 넣으세요.
 gui.appliedenergistics2.inWorldPurificationFluix=Drop a 액정 씨앗 made from 액정 가루 and Sand into a puddle of water; to make the process faster add Crystal Growth Accelerators.
 gui.appliedenergistics2.inWorldSingularity=폭발 범위내에 특이점과 엔더가루를 각각1개씩 놓고 폭발을 일으켜서 만드시오
-gui.appliedenergistics2.ChargedQuartz=Charged Certus Quartz is crafted by inserting an uncharged Certus Quartz Crystal into the Charger, and powering it.
+gui.appliedenergistics2.ChargedQuartz=Charged Certus Quartz is crafted by inserting an uncharged Certus Quartz Crystal into the Charger and powering it.
 gui.appliedenergistics2.ChargedQuartzFind=Charged Certus Quartz can be found in world semi rarely, it appears similar to normal Certus Quartz, except it sparkles.
 gui.appliedenergistics2.NoSecondOutput=No Secondary Output
 gui.appliedenergistics2.OfSecondOutput=%1$d%% Chance for second output.
@@ -370,7 +383,7 @@ gui.appliedenergistics2.ToCraftRequests=단계
 gui.appliedenergistics2.CraftingPlan=제작 계획
 gui.appliedenergistics2.Automatic=자동
 gui.appliedenergistics2.Start=시작
-gui.appliedenergistics2.StartWithFollow=Start With Follow
+gui.appliedenergistics2.StartWithFollow=Start with follow
 gui.appliedenergistics2.Merge=Merge
 gui.appliedenergistics2.Missing=부족
 gui.appliedenergistics2.NoCraftingTreeReceived=No crafting tree received
@@ -394,7 +407,7 @@ gui.appliedenergistics2.TransparentFacadesHint=Controls visibility of facades wh
 gui.appliedenergistics2.CPUs=CPU
 gui.appliedenergistics2.NoCraftingJobs=Inactive
 gui.appliedenergistics2.FacadeCrafting=덮개 제작
-gui.appliedenergistics2.inWorldCraftingPresses=Crafting Presses are found in the center of meteorites which can be found in around the world, they can be located by using a meteorite compass.
+gui.appliedenergistics2.inWorldCraftingPresses=Crafting Presses are found in the center of meteorites around the world. They can be located by using a meteorite compass.
 gui.appliedenergistics2.Included=Included
 gui.appliedenergistics2.Excluded=Excluded
 gui.appliedenergistics2.Partitioned=Partitioned
@@ -416,7 +429,7 @@ gui.appliedenergistics2.PriorityCardTooltipModeDec=Mode: Apply and decrement pri
 gui.appliedenergistics2.Sticky=끈끈한
 gui.appliedenergistics2.Contains=Contains Item
 gui.appliedenergistics2.HoldShiftForTooltip=툴팁을 보시려면 쉬프트를 눌러 주십시오
-gui.appliedenergistics2.HoldShiftClick_HIGHLIGHT_INTERFACE=Hold shift click to highlight interface
+gui.appliedenergistics2.HoldShiftClick_HIGHLIGHT_INTERFACE=Hold Shift and click to highlight interface
 gui.appliedenergistics2.Accepts=Accepts:
 gui.appliedenergistics2.Nothing=Nothing
 gui.appliedenergistics2.VoidCellTooltip=Deletes §4everything§7 stored on it
@@ -433,8 +446,8 @@ gui.appliedenergistics2.Deprecated=Deprecated, will be removed soon!
 gui.appliedenergistics2.ViewCellToggleKey=Right-click to toggle
 gui.appliedenergistics2.CPUAllowMode=Accept request
 gui.appliedenergistics2.CPUAllowAll=All
-gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Only from non-player
-gui.appliedenergistics2.CPUOnlyAllowPlayer=Only from player
+gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Only from non-players
+gui.appliedenergistics2.CPUOnlyAllowPlayer=Only from players
 gui.appliedenergistics2.CPUSourcePlayer=Requester
 gui.appliedenergistics2.CPUSourceMachineRequested=Machine Requested
 
@@ -470,6 +483,21 @@ gui.appliedenergistics2.ControlButtonValuesDesc2=Negative buttons are mirrored
 gui.appliedenergistics2.SelectColor=Select a Color
 gui.appliedenergistics2.Selected=Selected
 
+gui.appliedenergistics2.GuiWirelessKitColor=C: %s
+gui.appliedenergistics2.GuiWirelessKitNetwork=N: %s
+gui.appliedenergistics2.GuiWirelessKitSelfPos=S: %s
+gui.appliedenergistics2.GuiWirelessKitTargetPos=T: %s
+gui.appliedenergistics2.GuiWirelessKitChannelsUsage=Channels Usage: %s
+gui.appliedenergistics2.GuiWirelessKitUsageTooltip=Wireless Usage
+gui.appliedenergistics2.GuiWirelessKitUsedSlots=Used Slots: %s / %s
+gui.appliedenergistics2.GuiWirelessKitChannels=Channels: %s
+gui.appliedenergistics2.GuiWirelessKitNameFieldDesc=Rename a connector in the world or a group in the GUI
+
+gui.appliedenergistics2.GuiDimensionalCoord=§cX: %s§r,§aY: %s§r,§9Z: %s§r,§5DIM: %s
+gui.appliedenergistics2.GuiDimensionalCoordShort=§c%s§r, §a%s§r, §9%s§r, §5%s
+gui.appliedenergistics2.GuiDimensionalCoordNoDim=§cX: %s§r,§aY: %s§r,§9Z: %s
+gui.appliedenergistics2.GuiDimensionalCoordShortNoDim=§c%s§r, §a%s§r, §9%s
+
 # GUI Colors - ARGB
 gui.color.appliedenergistics2.SearchboxFocused=6E000000
 gui.color.appliedenergistics2.SearchboxUnfocused=00000000
@@ -490,8 +518,8 @@ gui.tooltips.appliedenergistics2.Substitutions=Ore-Dict Substitutions
 gui.tooltips.appliedenergistics2.SubstitutionsDescEnabled=Allow substitutions of input components.
 gui.tooltips.appliedenergistics2.SubstitutionsDescDisabled=Prevent substitutions of input components.
 gui.tooltips.appliedenergistics2.BeSubstitutions=Use as substitution
-gui.tooltips.appliedenergistics2.BeSubstitutionsDescEnabled=Allow crafting as substitutions of input components.
-gui.tooltips.appliedenergistics2.BeSubstitutionsDescDisabled=Prevent crafting as substitutions of input components. If all patterns available for an ingredient are disabled to be substitutions, crafting simulator will treat them as if they're enabled to be substitutions.
+gui.tooltips.appliedenergistics2.BeSubstitutionsDescEnabled=Allow crafting patterns to be used as substitutions for input components.
+gui.tooltips.appliedenergistics2.BeSubstitutionsDescDisabled=Prevent crafting patterns from being used as substitutions for input components. If all patterns available for an ingredient are disabled as substitutions, the crafting simulator will treat them as if substitutions are enabled.
 
 gui.tooltips.appliedenergistics2.PatternSlotConfigTitle=Switch Terminal Mode
 gui.tooltips.appliedenergistics2.PatternSlotConfigInfo=Switch slot pattern mode between (16 -> 4) and (4 -> 16)
@@ -522,7 +550,7 @@ gui.tooltips.appliedenergistics2.OperationMode=Operation Mode
 gui.tooltips.appliedenergistics2.NumberOfItems=Number of items
 gui.tooltips.appliedenergistics2.ItemName=Item name
 gui.tooltips.appliedenergistics2.CPUName=CPU Name
-gui.tooltips.appliedenergistics2.NumberOfStorageMemory=Number of Storage memory
+gui.tooltips.appliedenergistics2.NumberOfStorageMemory=Amount of storage memory
 gui.tooltips.appliedenergistics2.NumberOfCoProcessors=Number of Co-Processors
 gui.tooltips.appliedenergistics2.CPUCrafting=Crafting Progress
 gui.tooltips.appliedenergistics2.Automation=Automation
@@ -559,8 +587,8 @@ gui.tooltips.appliedenergistics2.SearchMode_NEIAuto=NEI Syncronized Auto
 gui.tooltips.appliedenergistics2.SearchMode_NEIStandard=NEI Syncronized Standard
 gui.tooltips.appliedenergistics2.SearchMode=Search Box Mode
 
-gui.tooltips.appliedenergistics2.PartitionStorageHint=Configures Partition based on currently stored items.
-gui.tooltips.appliedenergistics2.NextPartitionStorageHint=Click to get next item in the storage.
+gui.tooltips.appliedenergistics2.PartitionStorageHint=Configures partitioning based on currently stored items.
+gui.tooltips.appliedenergistics2.NextPartitionStorageHint=Click to get the next item in storage.
 gui.tooltips.appliedenergistics2.ClearSettings=Clear Config/Settings
 gui.tooltips.appliedenergistics2.Craftable=Craftable
 gui.tooltips.appliedenergistics2.MoveWhenEmpty=Move to output when cell is empty or network was emptied.
@@ -570,7 +598,7 @@ gui.tooltips.appliedenergistics2.Disabled=Disabled
 gui.tooltips.appliedenergistics2.Enable=Enabled
 gui.tooltips.appliedenergistics2.Blocking=Do not push crafing items if inventory contains items.
 gui.tooltips.appliedenergistics2.NonBlocking=Ignore the contents of the target inventory.
-gui.tooltips.appliedenergistics2.SmartBlocking=Allow insert same recipe.
+gui.tooltips.appliedenergistics2.SmartBlocking=Allows inserting the same recipe.
 gui.tooltips.appliedenergistics2.NonSmartBlocking=Regular blocking mode behavior.
 gui.tooltips.appliedenergistics2.Craft=Crafting Behavior
 gui.tooltips.appliedenergistics2.CraftOnly=Do not use stocked items, only craft items while exporting.
@@ -599,11 +627,11 @@ gui.tooltips.appliedenergistics2.ReportInaccessibleItemsYes=Yes: Items that cann
 gui.tooltips.appliedenergistics2.ReportInaccessibleItemsNo=No: Only extractable items will be visible.
 
 gui.tooltips.appliedenergistics2.BlockPlacement=Block Placement
-gui.tooltips.appliedenergistics2.BlockPlacementYes=Blocks will be placed as block.
-gui.tooltips.appliedenergistics2.BlockPlacementNo=Blocks will be dropped as item.
+gui.tooltips.appliedenergistics2.BlockPlacementYes=Blocks will be placed as blocks.
+gui.tooltips.appliedenergistics2.BlockPlacementNo=Blocks will be dropped as items.
 
 gui.tooltips.appliedenergistics2.SchedulingMode=Scheduling Mode
-gui.tooltips.appliedenergistics2.SchedulingModeDefault=Export the first item until the network is empty, then try the next ones.
+gui.tooltips.appliedenergistics2.SchedulingModeDefault=Export the first item until the network is empty, then try the next one.
 gui.tooltips.appliedenergistics2.SchedulingModeRoundRobin=Export using round robin mode.
 gui.tooltips.appliedenergistics2.SchedulingModeRandom=Export items in random mode.
 
@@ -619,16 +647,16 @@ gui.tooltips.appliedenergistics2.ChangeAmount=§6MMB§8 - §7Change Amount
 gui.tooltips.appliedenergistics2.RenameItem=§6CTRL + MMB§8 - §7Rename Item
 gui.tooltips.appliedenergistics2.OreFilterHint=Filter items using ore dictionary names
 gui.tooltips.appliedenergistics2.OreFilter=Ore Dictionary Filter
-gui.tooltips.appliedenergistics2.SearchStringTooltip=Right click to clear the search bar
+gui.tooltips.appliedenergistics2.SearchStringTooltip=Right-click to clear the search bar
 gui.tooltips.appliedenergistics2.SaveSearchString=Save Search String
 gui.tooltips.appliedenergistics2.SaveSearchStringYes=Yes
 gui.tooltips.appliedenergistics2.SaveSearchStringNo=No
 gui.tooltips.appliedenergistics2.DoublePattern=Double pattern
-gui.tooltips.appliedenergistics2.DoublePatternHint=Double stack sizes of pattern inputs and output(s) if it can. x8 when shift is held. Right click to divide instead. Click the middle mouse button to customize the multiplier.
+gui.tooltips.appliedenergistics2.DoublePatternHint=Double stack sizes of pattern inputs and output(s) where possible. 8x when shift is held. Right-click to divide instead. Click the middle mouse button to customize the multiplier.
 gui.tooltips.appliedenergistics2.DoublePatterns=Double patterns
-gui.tooltips.appliedenergistics2.DoublePatternsHint=Double stack sizes of pattern inputs and output(s) if it can. x8 when shift is held. Right click to divide instead.
+gui.tooltips.appliedenergistics2.DoublePatternsHint=Double stack sizes of pattern inputs and output(s) where possible. 8x when shift is held. Right-click to divide instead.
 gui.tooltips.appliedenergistics2.CraftingStatus=제작 상황
-gui.tooltips.appliedenergistics2.CraftingStatusDesc=Opens crafting status window
+gui.tooltips.appliedenergistics2.CraftingStatusDesc=Opens the crafting status window
 gui.tooltips.appliedenergistics2.ToggleMolecularAssemblers=Toggles showing crafting interfaces only
 gui.tooltips.appliedenergistics2.ToggleMolecularAssemblersDescOff=Showing all interfaces
 gui.tooltips.appliedenergistics2.ToggleMolecularAssemblersDescOn=Showing only interfaces on molecular assemblers
@@ -676,9 +704,9 @@ gui.tooltips.appliedenergistics2.OptimizePatternsNoReq=§cThis option is unavail
 
 gui.tooltips.appliedenergistics2.InsertionModeDefault=Default Insertion Mode
 gui.tooltips.appliedenergistics2.InsertionModeDefaultDesc=First to last, merge stacks as necessary
-gui.tooltips.appliedenergistics2.InsertionModePreferEmpty=Insertion prefer empty slots
+gui.tooltips.appliedenergistics2.InsertionModePreferEmpty=Prefer empty slots
 gui.tooltips.appliedenergistics2.InsertionModePreferEmptyDesc=Same as default, but try empty slots first
-gui.tooltips.appliedenergistics2.InsertionModeOnlyEmpty=Insert to empty slots only
+gui.tooltips.appliedenergistics2.InsertionModeOnlyEmpty=Insert into empty slots only
 gui.tooltips.appliedenergistics2.InsertionModeOnlyEmptyDesc=First to last, does not merge stacks
 
 gui.tooltips.appliedenergistics2.SidelessModeSided=Sided Mode
@@ -719,28 +747,56 @@ gui.tooltips.appliedenergistics2.PriorityCardMode_Dec=Apply priority to targets 
 
 gui.tooltips.appliedenergistics2.MultiplyPattern=Multiply
 gui.tooltips.appliedenergistics2.DividePattern=Divide
-gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=If it's positive, it's multiplying by that number. If it's negative, it's dividing by that number. It will not work if it is not divisible.
-gui.tooltips.appliedenergistics2.ToFollow=Click to follow this craft and receive message when it is complete\nYou are not following this crafting job right now
-gui.tooltips.appliedenergistics2.ToUnfollow=Click to stop following this craft\nYou are following this crafting job and will receive chat message when it's complete
+gui.tooltips.appliedenergistics2.MultiplyOrDividePatternHint=Positive values multiply by that number. Negative values divide by that number. It will not work if the pattern is not divisible.
+gui.tooltips.appliedenergistics2.ToFollow=Click to follow this craft and receive a message when it is complete\nYou are not following this crafting job right now
+gui.tooltips.appliedenergistics2.ToUnfollow=Click to stop following this craft\nYou are following this crafting job and will receive a chat message when it's complete
 
 gui.tooltips.appliedenergistics2.StringOrder=Sorting
 gui.tooltips.appliedenergistics2.StringOrderNatural=Default
 gui.tooltips.appliedenergistics2.StringOrderAlphanum=Natural Order
 gui.tooltips.appliedenergistics2.CellRestrictionLabel=Cell Restriction
-gui.tooltips.appliedenergistics2.CellRestrictionHint=Setup Cell Restriction
+gui.tooltips.appliedenergistics2.CellRestrictionHint=Set up cell restriction
 
 gui.tooltips.appliedenergistics2.SearchGotoNext=Find next
 gui.tooltips.appliedenergistics2.SearchGotoPrev=Find prev
 gui.tooltips.appliedenergistics2.ControlButtonValues=Control button values
 gui.tooltips.appliedenergistics2.ControlButtonValuesHint=Configures the value of corresponding buttons.
 
-gui.tooltips.appliedenergistics2.CPUAllowMode=Crafting requests limitation
+gui.tooltips.appliedenergistics2.CPUAllowMode=Crafting request limit
 gui.tooltips.appliedenergistics2.CPUAllowAllDesc=Allow all crafting requests
-gui.tooltips.appliedenergistics2.CPUOnlyAllowPlayerDesc=Only allow crafting requests from player
-gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Only allow crafting requests from non-player
+gui.tooltips.appliedenergistics2.CPUOnlyAllowPlayerDesc=Only allow crafting requests from players
+gui.tooltips.appliedenergistics2.CPUOnlyAllowNonPlayerDesc=Only allow crafting requests from non-players
 
 gui.tooltips.appliedenergistics2.Suspend=Click to stop this CPU from sending out crafts
 gui.tooltips.appliedenergistics2.Resume=Click to make this CPU send out crafts again
+
+gui.tooltips.appliedenergistics2.WirelessToolGroupBySingleName=Single
+gui.tooltips.appliedenergistics2.WirelessToolGroupBySingleDesc=Each wireless device is a separate unit
+gui.tooltips.appliedenergistics2.WirelessToolGroupByNetworkName=Network
+gui.tooltips.appliedenergistics2.WirelessToolGroupByNetworkDesc=All wireless devices in a network are one unit
+gui.tooltips.appliedenergistics2.WirelessToolGroupByColorName=Color
+gui.tooltips.appliedenergistics2.WirelessToolGroupByColorDesc=Wireless devices with the same color in the same network are one unit
+gui.tooltips.appliedenergistics2.WirelessToolHideBoundedYesName=Hide bound
+gui.tooltips.appliedenergistics2.WirelessToolHideBoundedYesDesc=Hide connected connectors and hubs without free slots
+gui.tooltips.appliedenergistics2.WirelessToolHideBoundedNoName=Show bound
+gui.tooltips.appliedenergistics2.WirelessToolHideBoundedNoDesc=Show connected connectors and hubs without free slots
+
+gui.tooltips.appliedenergistics2.WirelessKitPinButtonName=Pin
+gui.tooltips.appliedenergistics2.WirelessKitPinButtonDesc=Keep this unit in the current row
+gui.tooltips.appliedenergistics2.WirelessKitMadChameleonRecolorName=Mad Chameleon
+gui.tooltips.appliedenergistics2.WirelessKitMadChameleonRecolorDesc=Recolor to a color that cannot connect to neighboring wireless devices
+gui.tooltips.appliedenergistics2.WirelessKitaAE2StuffName=AE2Stuff converter
+gui.tooltips.appliedenergistics2.WirelessKitAE2StuffDesc=Replace AE2Stuff connectors in networks with AE2 connections
+gui.tooltips.appliedenergistics2.WirelessKitIncludeConnectorsName=Include connectors
+gui.tooltips.appliedenergistics2.WirelessKitIncludeConnectorsDesc=Include connectors in manipulations
+gui.tooltips.appliedenergistics2.WirelessKitIncludeHubsName=Include hubs
+gui.tooltips.appliedenergistics2.WirelessKitIncludeHubsDesc=Include hubs in manipulations
+gui.tooltips.appliedenergistics2.WirelessKitDeleteName=Delete Network
+gui.tooltips.appliedenergistics2.WirelessKitDeleteDesc=Remove network from list
+gui.tooltips.appliedenergistics2.WirelessKitBindName=Bind
+gui.tooltips.appliedenergistics2.WirelessKitBindDesc=Bind wireless devices in the 2nd row to wireless devices in the 3rd row
+gui.tooltips.appliedenergistics2.WirelessKitUnbindName=Unbind
+gui.tooltips.appliedenergistics2.WirelessKitUnbindDesc=Break connections for wireless devices in the 2nd row
 
 gui.tooltips.appliedenergistics2.PinsSection=Pins section
 gui.tooltips.appliedenergistics2.PinsSectionActive=§6LMB§8 - §7Add player row\n§6RMB§8 - §7Remove player row\n§6CTRL + LMB§8 - §7Add crafting row\n§6CTRL + RMB§8 - §7Remove crafting row\n§6SHIFT + RMB§8 - §7Unpin§r
@@ -749,10 +805,10 @@ gui.tooltips.appliedenergistics2.PinsSectionHint=Hold §6ALT§7 for keybinds
 gui.tooltips.appliedenergistics2.scheduledreason.SOMETHING_STUCK=§eTarget is full or can't accept the ingredients
 gui.tooltips.appliedenergistics2.scheduledreason.BLOCKING_MODE=§eBlocking Mode
 gui.tooltips.appliedenergistics2.scheduledreason.LOCK_MODE=§eLock Mode
-gui.tooltips.appliedenergistics2.scheduledreason.NO_TARGET=§cCan't find target to push
+gui.tooltips.appliedenergistics2.scheduledreason.NO_TARGET=§cCan't find a target to push to
 gui.tooltips.appliedenergistics2.scheduledreason.NOT_ENOUGH_INGREDIENTS=§eNot enough ingredients
-gui.tooltips.appliedenergistics2.scheduledreason.SAME_NETWORK=§cTarget interface in same network
-gui.tooltips.appliedenergistics2.scheduledreason.UNSUPPORTED_STACK=§cContains a stack which not supported by any target around interface
+gui.tooltips.appliedenergistics2.scheduledreason.SAME_NETWORK=§cTarget interface is in the same network
+gui.tooltips.appliedenergistics2.scheduledreason.UNSUPPORTED_STACK=§cContains a stack that is not supported by any target around the interface
 
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstitute=Toggles showing interfaces with patterns with substitutions enabled
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstituteOnDesc=Showing all interfaces
@@ -826,6 +882,15 @@ waila.appliedenergistics2.IOBusSpeed=Speed: %s %s/t
 # Baubles Extended
 slot.Terminal=§aTerminal§7
 
+waila.appliedenergistics2.wireless.connected=Connected to %s
+waila.appliedenergistics2.wireless.connected.multiple=Connected to %s Wireless (shift for details)
+waila.appliedenergistics2.wireless.connected.detailsTitle=Connected Wireless:
+waila.appliedenergistics2.wireless.connected.details= %s
+waila.appliedenergistics2.wireless.notconnected=Not Connected
+waila.appliedenergistics2.wireless.channels=Channels: %s
+waila.appliedenergistics2.wireless.power=Power Used: %s AE/t
+waila.appliedenergistics2.wireless.name=Name: %s
+
 # Items
 item.appliedenergistics2.ItemBasicStorageCell.1k.name=1k ME 저장용 셀
 item.appliedenergistics2.ItemBasicStorageCell.4k.name=4k ME 저장용 셀
@@ -872,7 +937,7 @@ item.appliedenergistics2.ItemMaterial.CardInverter.name=Inverter Card
 item.appliedenergistics2.ItemMaterial.CardRedstone.name=레드스톤 카드
 item.appliedenergistics2.ItemMaterial.CardSpeed.name=Acceleration Card
 item.appliedenergistics2.ItemMaterial.CardSuperSpeed.name=Hyper-Acceleration Card
-item.appliedenergistics2.ItemMaterial.CardOreFilter.name=Oredictionary Filter Card
+item.appliedenergistics2.ItemMaterial.CardOreFilter.name=Ore Dictionary Filter Card
 item.appliedenergistics2.ItemMaterial.CardPatternRefiller.name=Pattern Refiller Card
 item.appliedenergistics2.ItemMaterial.CardAdvancedBlocking.name=Advanced Blocking Card
 item.appliedenergistics2.ItemMaterial.CardLockCrafting.name=Locking Card
@@ -1012,6 +1077,83 @@ item.appliedenergistics2.ToolBiometricCard.name=바이오메트릭 카드
 
 item.appliedenergistics2.ToolDebugCard.name=Dev.DebugCard
 item.appliedenergistics2.ToolReplicatorCard.name=Dev.ReplicatorCard
+item.appliedenergistics2.ToolNetworkVisualiser.name=Network Visualization Tool
+item.appliedenergistics2.ToolWirelessKit.name=Wireless Kit
+
+item.appliedenergistics2.ToolNetworkVisualiser.bound=§eVisualizing network at %s
+item.appliedenergistics2.ToolNetworkVisualiser.mode=Mode:
+item.appliedenergistics2.ToolNetworkVisualiser.set=Mode changed to %s
+item.appliedenergistics2.ToolNetworkVisualiser.mode.full=§eShow Everything
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nodes=§eShow Nodes
+item.appliedenergistics2.ToolNetworkVisualiser.mode.channels=§eShow Channels
+item.appliedenergistics2.ToolNetworkVisualiser.mode.nonum=§eShow Channels and Nodes
+item.appliedenergistics2.ToolNetworkVisualiser.mode.p2p=§eShow P2P Links
+item.appliedenergistics2.ToolNetworkVisualiser.mode.proxy=§eShow Crafting Input Proxy Links
+
+item.appliedenergistics2.WirelessMessages.BoundAdvancedFilled=§cTarget already in queue
+item.appliedenergistics2.WirelessMessages.Disconnected=Wireless %s disconnected %s
+item.appliedenergistics2.WirelessMessages.Failed=§cConnection failed
+item.appliedenergistics2.WirelessMessages.Connected=§aConnected to %s
+item.appliedenergistics2.WirelessMessages.TargetHubFull=§cTarget hub is full
+item.appliedenergistics2.WirelessMessages.SourceHubFull=§cHub at %s §cis full
+item.appliedenergistics2.WirelessMessages.HubToHub=§cHub-to-hub connections are not allowed
+item.appliedenergistics2.WirelessMessages.ModeToggle=Tab + R-click to toggle mode
+item.appliedenergistics2.WirelessMessages.Security=Security violation - you are not allowed to modify this network
+item.appliedenergistics2.WirelessMessages.DimensionMismatch=Both connectors must be in the same dimension
+item.appliedenergistics2.WirelessMessages.InvalidTarget=§cInvalid target - must be Wireless Connector or Wireless Hub
+item.appliedenergistics2.WirelessMessages.Cleared=§aList of §e%s mode cleared
+item.appliedenergistics2.WirelessMessages.Mode=Mode: %s
+item.appliedenergistics2.WirelessMessages.SetMode=Mode changed to %s
+
+item.appliedenergistics2.WirelessMessages.Simple=§eSimple
+item.appliedenergistics2.WirelessMessages.SimpleEmpty=Click Wireless Connector to bind
+item.appliedenergistics2.WirelessMessages.SimpleBound=§aBound to %s
+item.appliedenergistics2.WirelessMessages.SimpleBounded=Click other Wireless Connector to connect
+
+item.appliedenergistics2.WirelessMessages.Advanced=§eAdvanced
+item.appliedenergistics2.WirelessMessages.AdvancedActivated=%s §aactivated
+item.appliedenergistics2.WirelessMessages.AdvancedNext=§9Next connector in queue: %s
+item.appliedenergistics2.WirelessMessages.AdvancedHowToggle=Sneak + R-click to toggle advanced modes
+item.appliedenergistics2.WirelessMessages.AdvancedNoConnectors=No connectors found in queue. Try putting the tool into queueing mode and adding some
+
+item.appliedenergistics2.WirelessMessages.AdvancedQueueing=§aQueuing Mode
+item.appliedenergistics2.WirelessMessages.AdvancedQueueEmpty=§9Click Wireless Connectors to add to binding queue
+item.appliedenergistics2.WirelessMessages.AdvancedQueueNotEmpty=§9Current wireless connectors in queue:
+item.appliedenergistics2.WirelessMessages.AdvancedQueueingLineNotEmpty=§9Switch to Binding Line mode to perform the connection
+item.appliedenergistics2.WirelessMessages.AdvancedQueued=§aAdded connector at %s §ato queue
+item.appliedenergistics2.WirelessMessages.AdvancedQueueingHubQol=Ctrl + R-click to add all free hub slots to queue
+item.appliedenergistics2.WirelessMessages.AdvancedQueueingHub=§a%s hub slots added to queue
+item.appliedenergistics2.WirelessMessages.AdvancedQueueingTargetHubFull=All free slots of target hub already queued
+
+item.appliedenergistics2.WirelessMessages.AdvancedBinding=§aBinding Mode
+item.appliedenergistics2.WirelessMessages.AdvancedBindingEmpty=§9Switch to Queuing Mode to add connectors to queue
+item.appliedenergistics2.WirelessMessages.AdvancedBindingNotEmpty=§9Current wireless connectors in queue to be bound:
+item.appliedenergistics2.WirelessMessages.AdvancedBindingHubQol=Ctrl + R-click to connect to all free hub slots
+item.appliedenergistics2.WirelessMessages.AdvancedBindingHub=%s hub slots added to queue
+
+item.appliedenergistics2.WirelessMessages.AdvancedQueueingLine=§aQueuing Line
+item.appliedenergistics2.WirelessMessages.AdvancedBindingLine=§aBinding Line
+item.appliedenergistics2.WirelessMessages.AdvancedLineNotLine=It's not a line
+item.appliedenergistics2.WirelessMessages.AdvancedLineReset=Points have been reset
+item.appliedenergistics2.WirelessMessages.AdvancedLine1stAdded=§a1st point %s §aadded
+item.appliedenergistics2.WirelessMessages.AdvancedLine2ndAdded=§a2nd point %s §aadded
+item.appliedenergistics2.WirelessMessages.AdvancedLine1st=§91st point %s
+item.appliedenergistics2.WirelessMessages.AdvancedLine2nd=§92nd point %s
+item.appliedenergistics2.WirelessMessages.AdvancedLineEmpty1st=§9Click Wireless Connectors to select 1st point
+item.appliedenergistics2.WirelessMessages.AdvancedLineEmpty2nd=§9Click Wireless Connectors to select 2nd point
+
+item.appliedenergistics2.WirelessMessages.Super=§eSuper
+item.appliedenergistics2.WirelessMessages.SuperBound=§aNetwork at %s §aadded to the list
+item.appliedenergistics2.WirelessMessages.SuperBoundFailed=§cNetwork already in list
+item.appliedenergistics2.WirelessMessages.SuperClear=Shift + Ctrl + R-click to clear current tool mode
+item.appliedenergistics2.WirelessMessages.SuperNetworkList=Network list:
+item.appliedenergistics2.WirelessMessages.Network=Network %sat %s
+item.appliedenergistics2.WirelessMessages.SuperNetworkListEmpty=There are no networks in the list
+
+item.appliedenergistics2.WirelessMessages.rowBindSuccess=§aSuccessfully connected %s §ato %s
+item.appliedenergistics2.WirelessMessages.rowBindInvalidSource=§cInvalid source %s
+item.appliedenergistics2.WirelessMessages.rowBindInvalidTarget=§cInvalid target %s
+item.appliedenergistics2.WirelessMessages.rowBindFailed=§cCannot connect %s §cto %s
 
 # Commands
 commands.ae2.usage=Commands provided by Applied Energistics 2 - use /ae2 list for a list, and /ae2 help _____ for help with a command.
@@ -1091,7 +1233,7 @@ stat.ae2.TurnedCranks=Turned Cranks
 key.appliedenergistics2.category=응용 에너지학 2
 key.pick_block.desc=AE2 Pick Block
 key.toggle_focus.desc=Toggle search box focus
-key.search_connected_inventories.desc=Search network inventories for item
+key.search_connected_inventories.desc=Search network inventories for an item
 key.container_interaction.desc=Container Item Interaction
 
 # NEI
