@@ -1,0 +1,254 @@
+#Tab Name
+nc.itemgroup.tab=Nuclear Control 2
+
+#Internal Items
+item.ItemToolThermometer.name=Termômetro
+item.ItemPanelMemoryCard.name=Cartão de Memória do Painel Informações
+item.ItemToolDigitalThermometer.name=Termômetro Digital
+item.ItemRemoteSensorKit.name=Kit de Sensor Remoto
+item.ItemEnergySensorKit.name=Kit de Sensor de Energia
+item.ItemCounterSensorKit.name=Kit de Sensor de Contador
+item.ItemLiquidSensorKit.name=Kit de Sensor de Líquido
+item.ItemSensorLocationCard.name=Cartão do Local do Sensor do Reator
+item.ItemEnergySensorLocationCard.name=Cartão do Local do Sensor de Energia
+item.itemCounterSensorLocationCard.name=Cartão do Local do Sensor de Contador
+item.ItemLiquidSensorLocationCard.name=Cartão do Local do Sensor de Líquido
+item.ItemEnergyArrayLocationCard.name=Cartão do Local dos Sensores de Energia
+item.itemRangeUpgrade.name=Upgrade de Alcance
+item.ItemColorUpgrade.name=Upgrade de Cor
+item.ItemWebUpgrade.name=Upgrade de Internet
+item.ItemTimeCard.name=Cartão de Hora
+item.ItemTextCard.name=Cartão de Texto
+item.ItemGeneratorSensorKit.name=Kit de Sensor de Gerador
+item.ItemGeneratorSensorLocationCard.name=Cartão do Local do Sensor de Gerador
+item.ItemLiquidArrayLocationCard.name=Cartão do Local dos Sensores de Líquido
+item.Item55ReactorCard.name=5x5 Reactor Sensor Location Card
+item.remoteMonitor.name=Painel de Informações Portátil
+
+#Integration Items
+item.RFreactorKit.name=Remote RF Reactor Kit
+item.RFreactorCard.name=RF Reactor Sensor Location Card
+item.AppengCard.name=Cartão do Applied Energistics
+item.AppengKit.name=Applied Energistics Monitor Kit
+item.RFenergyCard.name=RF Energy Sensor Location Card
+item.ItemVanillaMachineCard.name=Vanilla Machine Card
+item.ItemInventoryScannerCard.name=Inventory Tracking Card
+item.ItemVanilliaKit.name=Vanilla Kit
+item.MekRFenergyCard.name=Mekanism Energy Card
+
+#Internal Blocks
+tile.blockThermalMonitor.name=Monitor de Temperatura
+tile.blockIndustrialAlarm.name=Alarme Industrial
+tile.blockHowlerAlarm.name=Alarme Vibrador
+tile.blockRemoteThermo.name=Monitor de Temperatura Remoto
+tile.blockInfoPanel.name=Painel de Informação Industrial
+tile.blockInfoPanelExtender.name=Extendedor do Painel de Informação
+tile.blockAdvancedInfoPanel.name=Painel de Informação Avançado
+tile.blockAdvancedInfoPanelExtender.name=Extendedor do Painel Avançado
+tile.blockAdvancedInfoPanel.RotateRight=Rotate to the right
+tile.blockAdvancedInfoPanel.RotateLeft=Rotate to the left
+tile.blockAdvancedInfoPanel.Colors=Change Colors
+tile.blockAdvancedInfoPanel.Labels=Labels
+tile.blockAdvancedInfoPanel.Power=normal/inverted redstone and on/off
+tile.blockAdvancedInfoPanel.Slope=Change slope settings
+tile.blockAdvancedInfoPanel.Settings=Settings
+tile.blockAdvancedInfoPanel.Transparency=Switch transparency
+tile.blockAdvancedInfoPanel.LineConfig=Open line configuration
+tile.blockAdvancedInfoPanel.Save=Save
+tile.blockAdvancedInfoPanel.Reset=Reset
+tile.blockAdvancedInfoPanel.Cancel=Cancel
+tile.nclight0.name=Lâmpada Branca
+tile.nclight1.name=Lâmpada Branca
+tile.nclight2.name=Orange Lamp
+tile.nclight3.name=Orange Lamp
+tile.blockEnergyCounter.name=Contador de Energia
+tile.blockAverageCounter.name=Contador da Média
+tile.blockRangeTrigger.name=Gatilho de Alcance
+
+gui.tile.blockThermalMonitor.name.title=Thermal Monitor
+gui.tile.blockIndustrialAlarm.name.title=Industrial Alarm
+gui.tile.blockHowlerAlarm.name.title=Howler Alarm
+gui.tile.blockRemoteThermo.name.title=Remote Thermal Monitor
+gui.tile.blockInfoPanel.name.title=Industrial Information Panel
+gui.tile.blockEnergyCounter.name.title=Energy Counter
+gui.tile.blockAverageCounter.name.title=Average Counter
+gui.tile.blockRangeTrigger.name.title=Range Trigger
+gui.tile.blockAdvancedInfoPanel.name.title=Advanced Information Panel
+
+#Integration Blocks
+tile.blockBRPart.name=Reactor Monitor
+tile.NetworkLink.name=ME Network Monitor
+
+#Original Screen Messages
+msg.nc.HowlerAlarmSoundRange=Alcance do Som: %s
+msg.nc.HowlerAlarmSound=Som
+msg.nc.ThermalMonitorSave=Salvar Configuração
+msg.nc.ThermalMonitorSignalAt=Sinal a %s de Temp
+msg.nc.Thermo=Temperatura da carcaça: %s
+msg.nc.ThermoDigital=Temperatura da carcaça: %s (Água Evapora em: %s / Derrete em: %s)
+msg.nc.SensorKit=Sensor Remoto Montado, Cartão de Local do Sensor Recebido
+
+msg.nc.InfoPanelOutOfRange=Fora do Alcance
+msg.nc.InfoPanelInvalidCard=Cartão Inválido
+msg.nc.InfoPanelNoTarget=Alvo não Encontrado
+
+msg.nc.InfoPanelOn=On
+msg.nc.InfoPanelOff=Off
+msg.nc.InfoPanelHeat=Temp: %s
+msg.nc.InfoPanelMaxHeat=Temp Max: %s
+msg.nc.InfoPanelMelting=Derretimento: %s
+msg.nc.InfoPanelOutput=Saída: %sEU/t
+msg.nc.InfoPanelOutputMJ=Saída: %sMJ/t
+msg.nc.InfoPanelOutputSteam=Saída: %smB/t
+msg.nc.InfoPanelTimeRemaining=Restando: %s
+
+msg.nc.InfoPanelEnergyCounter=Energia: %sEU
+msg.nc.InfoPanelEnergyCounterMJ=Energia: %sMJ
+
+msg.nc.InfoPanelEnergy=Armazenado: %s
+msg.nc.InfoPanelEnergyFree=Livre: %s
+msg.nc.InfoPanelEnergyStorage=Capacidade: %s
+msg.nc.InfoPanelEnergyPercentage=Porcentagem: %s%%
+
+msg.nc.cbInfoPanelLiquidName=Nome
+msg.nc.cbInfoPanelLiquidAmount=Armazenado
+msg.nc.cbInfoPanelLiquidCapacity=Capacidade
+msg.nc.cbInfoPanelLiquidFree=Livre
+msg.nc.cbInfoPanelLiquidPercentage=Porcentagem
+
+msg.nc.InfoPanelLiquidName=Nome: %s
+msg.nc.InfoPanelLiquidAmount=Armazenado: %s
+msg.nc.InfoPanelLiquidCapacity=Capacidade: %s
+msg.nc.InfoPanelLiquidFree=Livre: %s
+msg.nc.InfoPanelLiquidPercentage=Porcentagem: %s%%
+
+msg.nc.InfoPanelNotFoundN=#%d Não Encontrado
+msg.nc.InfoPanelOutOfRangeN=#%d Fora de Alcance
+msg.nc.InfoPanelEnergyN=#%d Armazenado: %s
+msg.nc.InfoPanelEnergyFreeN=#%d Livre: %s
+msg.nc.InfoPanelEnergyStorageN=#%d Capacidade: %s
+msg.nc.InfoPanelEnergyPercentageN=#%d Porcentagem: %s%%
+msg.nc.InfoPanelLiquidNameN=#%d Nome: %s
+msg.nc.InfoPanelLiquidN=#%d Armazenado: %s
+msg.nc.InfoPanelLiquidFreeN=#%d Livre: %s
+msg.nc.InfoPanelLiquidCapacityN=#%d Capacidade: %s
+msg.nc.InfoPanelLiquidPercentageN=#%d Porcentagem: %s%%
+
+msg.nc.InfoPanelTime=Hora: %s
+
+msg.nc.cbInfoPanelOnOff=Estado On/Off
+msg.nc.cbInfoPanelHeat=Temp
+msg.nc.cbInfoPanelMaxHeat=MTemp Max
+msg.nc.cbInfoPanelMelting=Temp de Derretimento
+msg.nc.cbInfoPanelOutput=Saída (EU/t)
+msg.nc.cbInfoPanelTimeRemaining=Tempo Para Terminar o Ciclo
+msg.nc.cb24h=Modo 24h
+
+msg.nc.cbInfoPanelEnergyCurrent=Energia
+msg.nc.cbInfoPanelEnergyStorage=Capacidade
+msg.nc.cbInfoPanelEnergyFree=Livre
+msg.nc.cbInfoPanelEnergyEach=Cada Informação dos Cartões
+msg.nc.cbInfoPanelEnergyTotal=Sumário
+msg.nc.cbInfoPanelEnergyPercentage=Porcentagem
+msg.nc.EnergyCardQuantity=Quantidade de Cartões: %d
+msg.nc.AverageCounterPeriod=Período: %ssec
+
+msg.nc.LiquidCardQuantity=Quantidade de cartões: %d
+
+msg.nc.cbInfoPanelLiquidEach=Cada Informação dos Cartões
+msg.nc.cbInfoPanelLiquidTotal=Sumário
+
+msg.nc.Reset=Resetar
+msg.nc.ScreenColor=Cor da Tela
+msg.nc.TextColor=Cor do Texto
+msg.nc.None=N/A
+nc.msg.notValid=This Card may not be compatible
+nc.msg.notValid2=with the Remote Monitor
+nc.msg.notValid3=Try reopening the GUI
+
+
+# Advanced Info Panel Settings messages
+# Settings labels for Vanilla Machine Card (Furnace/Brewing Stand)
+msg.nc.Vanilla.setting.activityStatus=Activity Status (Brewing/Burning)
+msg.nc.Vanilla.setting.activeTime=Active Time (Brew/Burn)
+msg.nc.Vanilla.setting.slot1Contents=Slot 1 Contents (Potion/Input)
+msg.nc.Vanilla.setting.slot2Contents=Slot 2 Contents (Potion/Fuel)
+msg.nc.Vanilla.setting.slot3Contents=Slot 3 Contents (Potion/Output)
+
+
+#Vanilla Intergration Messages
+msg.nc.Vanilla.Display=%s / %s Slots Used
+msg.nc.Vanilla.Name=Block Name
+msg.nc.Vanilla.StorageLVL=Storage Level
+msg.nc.Vanilla.brewstand=Brew Time: %s
+msg.nc.Vanilla.potionType1=1st Potion Type: %s
+msg.nc.Vanilla.potionType2=2nd Potion Type: %s
+msg.nc.Vanilla.potionType3=3rd Potion Type: %s
+msg.nc.Vanilla.Time=Active Time
+msg.nc.Vanilla.brewing=Brewing
+msg.nc.Vanilla.notBrewing=Not Brewing
+msg.nc.Vanilla.dispBrewUse=Show Output Type #%s
+msg.nc.Vanilla.dispBrew=Show Block Brewing
+msg.nc.Vanilla.dispBrewTime=Display Brew Time
+msg.nc.Vanilla.cooking=Cooking: %sx - %s
+msg.nc.Vanilla.fuel=Fuel: %sx - %s
+msg.nc.Vanilla.output=Output: %sx - %s
+msg.nc.Vanilla.burnTime=Burn Time: %s
+
+
+#Big Reactor Messages
+msg.nc.InfoPanelRF.Temp=Core Temp.: %s C
+msg.nc.InfoPanelRF.EnergyStored=Energy: %s RF
+msg.nc.InfoPanelRF.CreatedEnergy=Output Energy: %s RF/t
+msg.nc.InfoPanelRF.SteamOutput=Output Steam: %s mB/t
+msg.nc.InfoPanelRF.Percentage=Storage Buffer is %s%% Full
+msg.nc.InfoPanelRF.Output=Output (RF/t)
+msg.nc.InfoPanelRF.TempPROPER=Core Temperature
+msg.nc.InfoPanelRF.CoolantTank=Coolant Tank: %s x%smB
+msg.nc.InfoPanelRF.OutputTank=Output Tank: %s x%smB
+
+#5x5 Reactor Messages
+msg.nc.InfoPanel55.Output=Output: %s Hu/s
+msg.nc.InfoPanel55.Temp=Core Temperature: %s%%
+msg.nc.InfoPanel55.tankin=Tank In: %s / 10000 mB
+msg.nc.InfoPanel55.tankout=Tank Out: %s / 10000 mB
+msg.nc.InfoPanel55.Out=Output (Hu/s)
+msg.nc.InfoPanel55.BufferIn=Coolant Storage Tank
+msg.nc.InfoPanel55.BufferOut=Hot Coolant Buffer Tank
+
+#AE INTERGRATION
+msg.null.craft=Nothing
+msg.nc.InfoPanelAE.CraftItemMake=Currently Crafting: %s
+msg.nc.InfoPanelAE.CraftAMT=Crafting Amount: %s
+msg.nc.InfoPanelAE.Bytes=Bytes Used/Total
+msg.nc.InfoPanelAE.Items=Items Used/Total
+msg.nc.InfoPanelAE.CraftItem=Current Item Crafting
+msg.nc.InfoPanelAE.CraftStack=Number of Items Crafting
+msg.nc.InfoPanelAE.DisplayBytes=%s / %s Bytes
+msg.nc.InfoPanelAE.DisplayItem=%s / %s Item types
+
+#WAILA Integration
+msg.nc.waila.getHeatLevel=Heat Maximum Set: 
+msg.nc.waila.ColorBackground=Background color: 
+msg.nc.waila.ColorText=Text color: 
+msg.nc.waila.Web=Web Upgrade is installed
+msg.nc.waila.Color=Color Upgrade is installed
+msg.nc.waila.ColorBlack=Black
+msg.nc.waila.ColorRed=Red
+msg.nc.waila.ColorGreen=Green
+msg.nc.waila.ColorBrown=Brown
+msg.nc.waila.ColorDarkBlue=Dark Blue
+msg.nc.waila.ColorPurple=Purple
+msg.nc.waila.ColorLightBlue=Light Blue
+msg.nc.waila.ColorWhite=White
+msg.nc.waila.ColorPink=Pink
+msg.nc.waila.ColorLimeGreen=Lime Green
+msg.nc.waila.ColorYellow=Yellow
+msg.nc.waila.ColorBlue=Blue
+msg.nc.waila.ColorMagenta=Magenta
+msg.nc.waila.ColorOrange=Orange
+msg.nc.waila.getSoundNames=Sound: 
+msg.nc.waila.getRange=Range: 
+msg.nc.waila.getEnergyCount=Energy Count: 
+msg.nc.waila.getEnergyAverage=Energy Average: 
+msg.nc.waila.getPeriod=Over period of: 
