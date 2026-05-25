@@ -1,0 +1,70 @@
+itemGroup.LootGames=Ganimet Oyunları
+
+tile.chessGame.name=Satranç
+tile.lightGame.name=Işık Oyunu
+tile.dungeonBrick.name=Zindan bloğu
+tile.dungeonBrick_0.name=Zindan Duvar
+tile.dungeonBrick_1.name=Zindan Tavanı
+tile.dungeonBrick_2.name=Zindan Zemini
+tile.dungeonBrick_3.name=Çatlak Zindan Duvar
+tile.dungeonBrick_4.name=Çatlak Zindan Tavanı
+tile.dungeonBrick_5.name=Çatlak Zindan Zemini
+tile.dungeonBrick_6.name=Korumalı Zindan Zemini
+tile.dungeonLight.name=Zindan Lambası
+tile.dungeonLight_0.name=Zindan Lambası
+tile.dungeonLight_1.name=Kırık Zindan Lambası
+
+tile.lootgames.board_border.name=Pano Kenarlığı
+tile.lootgames.gol_activator.name=Işık Oyunu
+tile.lootgames.gol_master.name=Işık Oyunu
+tile.lootgames.ms_activator.name=Mayın Tarlası
+tile.lootgames.ms_master.name=Mayın Tarlası
+tile.lootgames.smart_subordinate.name=Akıllı Ast
+tile.lootgames.puzzle_master.name=Bulmaca Uzmanı
+tile.lootgames.sdk_activator.name=Sudoku
+tile.lootgames.sdk_master.name=Sudoku
+
+item.lootgames.dungeon_block.tooltip=Bu blokta yaratıkların doğması mümkün değil.
+
+msg.lootgames.stage_complete=Yapı çabalarınızı kabul ediyor gibi görünüyor...
+msg.lootgames.puzzle_master.turned_off=Bu yapı yüksek güçler tarafından devre dışı bırakılmış gibi görünüyor...
+msg.lootgames.win=Yapı memnun edildi ve seni ödüllendiriyor!
+msg.lootgames.lose=Yapı sizin başarısızlığından rahatsız olmuş gibi görünüyor.
+msg.lootgames.attempt_left=Geriye %d denemeniz kaldı.
+msg.lootgames.field.not_enough_space=İnşaat yavaşça sızlanıyor. Sanki bunun için yer yok: %dx%dx%d
+msg.lootgames.ms.bomb_touched=Abo... Bir PATLAMA gibi görünüyor. KAÇ!
+msg.lootgames.ms.new_attempt=Yapı sakinleşti. Tekrar oynamayı deneyebilirsiniz.
+msg.lootgames.ms.reveal_on_hidden=Gizli alanın etrafındaki komşuları açığa çıkaramazsınız.
+msg.lootgames.ms.reveal_invalid_mark_count=Alanın komşularını gösteremezsiniz, çünkü işaretli komşular alanın sayısından farklıdır.
+msg.lootgames.gol.start=Hadi oyunu oynayalım! Ortadaki bloğa tıklayın!
+msg.lootgames.gol.click_center=Oyunu başlatmak için ortaya tıklayın!
+msg.lootgames.gol.rules=Sadece renkleri tekrarlamanız gerekiyor.
+msg.lootgames.gol.not_ready=Yapının şu anda yanıt için hazır olmadığını düşünüyorsunuz.
+msg.lootgames.gol.wrong_block=Görünüşe göre yanlış rengi seçmişsiniz...
+msg.lootgames.gol.reward_level_info=Ulaşılan mevcut ödül seviyesi: %d (En iyi: %d)
+msg.lootgames.sdk.start=Let's start! Right-click to increase, shift + right-click to decrease, double left-click to end the game.
+msg.lootgames.sdk.check_end=Are you sure want to end the game?
+msg.lootgames.sdk.remaining=Remaining: %d
+
+lootgames.achievement_page.name=Ganimet Oyunları
+achievement.lootgames.find_dungeon=Gömülü sırlar
+achievement.lootgames.find_dungeon.desc=Gizemli bir mini oyun zindanı bulun
+achievement.lootgames.win_game=Kıymetlimizzz!
+achievement.lootgames.win_game.desc=Bir mini oyun kazanın ve tonlarca ganimet elde edin
+achievement.lootgames.lose_game=Bir dahaki sefer şansın yaver gider!
+achievement.lootgames.lose_game.desc=Bir mini oyunda başarısız oldunuz (gerçekten mi?) (Başarısız oldunuz gibi..?)
+achievement.lootgames.gol.start=Işıkları açın!
+achievement.lootgames.gol.start.desc=Işık Oyunu oynama şansını yakalayın
+achievement.lootgames.gol.beat_level_3=Neredeyse Beyinlerini aldım
+achievement.lootgames.gol.beat_level_3.desc=Seviye 3'te bir Işık Oyununu geçin (Seviye 4'te hala başarısız oldunuz, bu yüzden... daha çok deneyin!)
+achievement.lootgames.gol.beat_level_4=Destansı anı
+achievement.lootgames.gol.beat_level_4.desc=Seviye 4'te bir Işık Oyununu Geçin
+achievement.lootgames.ms.start=Daha fazla bayrağa ihtiyacımız var!
+achievement.lootgames.ms.start.desc=Mayın Tarlası oynama şansı yakalayın
+achievement.lootgames.ms.beat_level_4=Kötü avcı yoktur.
+achievement.lootgames.ms.beat_level_4.desc=Seviye 4'te bir Mayın Tarlası'nı yenin
+
+lootgames.command.usage=Mevcut alt komutları görmek için '/lootgames help' kullanın
+lootgames.command.reloadconfigs.success=Ayarlar yeniden yüklendi
+lootgames.command.reloadconfigs.usage=%s - LootGames'in tüm ayarlarını yeniden yükler
+lootgames.command.help.usage=%s - Yardım menüsünü gösterir

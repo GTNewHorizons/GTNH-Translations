@@ -1,0 +1,74 @@
+#Items
+item.wirelessCraftingTerminal.name=Kablosuz Üretim Terminali
+item.infinityBoosterCard.name=Sonsuz Güçlendirici Kart
+item.magnetCard.name=Mıknatıs Kartı
+itemGroup.ae2wct=§9AE2 Kablosuz Üretim Terminali
+
+#Tooltips
+gui.tooltips.ae2wct.PressShift=Bilgi için Shift'e basın
+gui.tooltips.ae2wct.OnlyWorks=Sadece Kablosuz Üretim Terminali slotunda çalışır!
+gui.tooltips.ae2wct.TitleDesc=Açıklama
+gui.tooltips.ae2wct.InfinityBoosterDesc=Kablosuz Üretim Terminalinin her mesafede ve boyutta kullanılmasını sağlar.
+gui.tooltips.ae2wct.MagnetDesc=Toplanan eşyaları AE sistemine otomatik olarak aktaran bir mıknatıs.
+gui.tooltips.ae2wct.MagnetDesc2=Filtreyi kurmak için sağ tıklayın
+gui.tooltips.ae2wct.LinkStatus=Bağlantı Durumu
+gui.tooltips.ae2wct.Installed=Kurulu
+gui.tooltips.ae2wct.NotInstalled=Kurulu Değil
+gui.tooltips.ae2wct.Active=Aktif
+gui.tooltips.ae2wct.Inactive=İnaktif
+gui.tooltips.ae2wct.Status=Durum
+gui.tooltips.ae2wct.EmptyTrash=Çopü Boşalt
+gui.tooltips.ae2wct.EmptyTrashDesc=Çop slotundakileri sil
+gui.tooltips.ae2wct.MagnetFilterTitle=Mıknatıs Filtresi
+gui.tooltips.ae2wct.FilterMode=Filtre Modu
+gui.tooltips.ae2wct.Whitelisting=Beyaz Listeleniyor
+gui.tooltips.ae2wct.Blacklisting=Kara Listeleniyor
+gui.tooltips.ae2wct.MagnetActiveDesc1=Envantere extra eklenen eşyalar
+gui.tooltips.ae2wct.MagnetActiveDesc2=Yerde bırakılan ekstra eşyalar
+gui.tooltips.ae2wct.Not=Değil
+gui.tooltips.ae2wct.Using=Kullanıyor
+gui.tooltips.ae2wct.Ignore=Yoksay
+gui.tooltips.ae2wct.Ignoring=Yoksayılıyor
+gui.tooltips.ae2wct.NBTData=NBT Verisi
+gui.tooltips.ae2wct.MetaData=Meta Verisi
+gui.tooltips.ae2wct.OreDict=Ore Dictionary
+gui.tooltips.ae2wct.FilteredItems=Filtrelenen Eşyalar
+gui.tooltips.ae2wct.OrPress=veya bas
+gui.tooltips.ae2wct.Press=Bas
+gui.tooltips.ae2wct.ToSwitchMode=mıknatıs moduna geçmek için
+
+#Labels
+gui.labels.ae2wct.WirelessTermLabel=Kablosuz Term
+
+#Config Descriptions
+config.ae2wct.MaxPowerDesc=Kablosuz terminalin tutabileceği AE birimi cinsinden Maksimum Güç
+config.ae2wct.InfinityBoosterCfgDesc=Sonsuz Menzil Güçlendirici Yükseltmesini Etkinleştir
+config.ae2wct.EasyModeDesc=Kolay Modu Etkinleştirin (Daha Kolay Tarifler+Sonsuzluk Güçlendirici Tarifi)
+config.ae2wct.BoosterDropChance=Wither'ın Infinity Booster Card düşürme şansı (%-100=her zaman düşer)
+config.ae2wct.DisableBoosterDrop=Zor modda Etkin Güçlendirici Kartı düşer (true=etkin)
+config.ae2wct.MineTweakerOverride=MineTweaker Geçersiz Kılmayı Etkinleştir (true=tüm tarifleri devre dışı bırakır)
+config.ae2wct.DoVersionCheck=Güncellemeleri kontrol et
+config.ae2wct.NewVersionAvailable=Wireless Crafting Terminal'ın yeni bir güncellemesi var
+config.ae2wct.ClickString=["Buraya tıklayarak yükleme sayfasına git [",{"text":"Download","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Click this to download the latest version","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
+config.ae2wct.SaveSearchString=Terminal arama stringini oturumlar arasında olduğu gibi bırak
+
+#Achievements
+achievement.wctAchievement=WiFi Üzerinden Dijital Üretim!
+achievement.wctAchievement.desc=Kablosuz Üretim Terminali Üret!
+achievement.boosterAchievement=Boyutlar Arası Üretim Çantası!
+achievement.boosterAchievement.desc=Sonsuz Güçlendirici Kartı Elde Et!
+achievement.magnetAchievement=Dijital Fakir!
+achievement.magnetAchievement.desc=Mıknatıs Kartı Üret!
+
+#Chat Messages
+chatmessages.ae2wct.NoNetworkPower=Sistemde enerji yok!
+chatmessages.ae2wct.MagnetMode1=Mıknatıs Kartı İnaktif Edildi
+chatmessages.ae2wct.MagnetMode2=Mıknatıs Kartı Aktif - AE2 sisteminde saklanamayan eşyalar envantere koyulacak
+chatmessages.ae2wct.MagnetMode3=Mıknatıs Kartı Aktif - AE2 sisteminde saklanamayan eşyalar yerde bırakılacak
+chatmessages.ae2wct.InitializeMagnet=Tuş atamasını kullanmadan önce mıknatıs kartına eğilip sağ tıklamanız lazım!
+
+#Keybindings
+ae2wct.OpenTerminal=Kablosuz Üretim Terminali'ni aç
+ae2wct.OpenMagnetFilter=Mıknatıs Kartı Filtre GUI'ını Aç
+ae2wct.SwitchMagnetMode=Mıknatıs Kartını Aktif/İnaktif Et
+key.categories.ae2wct=Kablosuz Üretim Terminali
