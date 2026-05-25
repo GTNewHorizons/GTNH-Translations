@@ -1,0 +1,301 @@
+fluid.binnie.dna.raw=Сырая ДНК
+fluid.binnie.bacteria=Бактерия
+fluid.binnie.growthMedium=Питательная среда
+fluid.binnie.bacteriaPoly=Полимеризированная бактерия
+fluid.binnie.bacteriaVector=Бактерия Вектор
+
+genetics.item.fieldKit.name=Полевая лаборатория
+genetics.item.fieldKit.tooltip.noPaper=Отсутствует бумага
+genetics.item.fieldKit.tooltip.sheetsOfPaper=%d бумаги
+genetics.item.fieldKit.tooltip.sheetOfPaper=%d бумага
+
+item.misc.name=Предмет
+genetics.item.casingIron.name=Укреплённый корпус
+genetics.item.dnaDye.name=Краситель ДНК
+genetics.item.dyeFluor.name=Флюорофор
+genetics.item.enzyme.name=Фермент
+genetics.item.growthMedium.name=Питательная среда
+genetics.item.sequencerEmpty.name=Пустая последовательность
+item.serum.name=Колба без сыворотки
+genetics.item.serumEmpty.name=Колба без сыворотки
+item.serumArray.name=Массив без сыворотки
+genetics.item.genomeEmpty.name=Массив без сыворотки
+genetics.item.cylinderEmpty.name=Пустой баллон
+genetics.item.integratedCircuit.name=Интегральная печатная плата
+genetics.item.integratedCPU.name=Интегральный процессор
+genetics.item.casingCircuit.name=Интегральный корпус
+item.analyst.name=Аналитик
+genetics.item.analyst.name=Аналитик
+item.database.name=Генная база данных
+genetics.item.database.0.name=Генная база данных
+genetics.item.database.1.name=Генная база данных мастера
+item.registry.name=Картотека
+genetics.item.registry.0.name=Картотека
+item.masterRegistry.name=Картотека
+genetics.item.registry.1.name=Картотека мастера
+genetics.item.serum.name=Сыворотка (%s)
+genetics.item.serumArray.name=Массив (%s)
+
+genetics.gui.registry.title=Картотека
+genetics.gui.registry.1.title=Картотека мастера
+genetics.gui.analyst.title=Аналитик
+
+genetics.item.sequence=Сыворотка ДНК
+genetics.item.sequence.0=Очень слабо
+genetics.item.sequence.1=Слабо
+genetics.item.sequence.2=Слабовато
+genetics.item.sequence.3=Средне
+genetics.item.sequence.4=Сильно
+genetics.item.sequence.5=Очень сильно
+
+genetics.gene.charge.empty=Пусто
+genetics.gene.charge.one=1 заряд
+genetics.gene.charge.many=%d зарядов
+genetics.gene.more=%d генов. Удерживайте shift для подробностей
+
+item.sequence.name=Сыворотка ДНК
+genetics.sequence.corrupted=Разрушенная секвенция
+genetics.sequence.descriptor=Секвенцированая ДНК - %s
+genetics.sequence.unknown=<Неизвестно>
+genetics.sequence.unsequenced=Не секвенцировано
+genetics.sequence.fully=Полностью секвенцировано
+genetics.sequence.partially=Частично секвенцировано (%d%%)
+
+tile.machine.name=Изолятор
+genetics.machine.machine.isolator=Изолятор
+gui.genetics.machine.machine.isolator.title=Изолятор
+genetics.machine.machine.isolator.info=Изолятор извлекает случайный ген от пчелы, дерева или другого организма и копирует его в пустой пузырек сыворотки (empty sequence vial). Требуется Этанол для растворения и Фермент для извлечения ДНК. Полученная сыворотка с геном затем может быть усилена в Полимеризаторе и исследована в Секвенсоре.
+genetics.machine.isolator.error.noIndividual=Нет образцов для изоляции
+genetics.machine.isolator.error.noRoom=Нет места для ДНК секвенции
+genetics.machine.isolator.error.noVials=Нет пустых флаконов
+genetics.machine.isolator.error.noLiquid=Недостаточно этанола
+genetics.machine.isolator.error.noEnzyme=Нет энзима
+
+genetics.machine.machine.sequencer=Секвенсор
+gui.genetics.machine.machine.sequencer.title=Секвенсор
+genetics.machine.machine.sequencer.info=Секвенсор предназначен для анализа новых генов, извлечённых из организмов. Секвенсор принимает неисследованную сыворотку и определяет, какие гены присутствуют в ней. В результате ген попадает в общую генетическую базу данных. Процесс занимает много времени и требует использования Флюорофора (жёлтый+оранжевый+светопыль)
+genetics.machine.sequencer.unsequencedDNA=Неиследованная ДНК
+genetics.machine.sequencer.error.noSequence=Нет генов для анализа
+genetics.machine.sequencer.error.noOwner.title=Нет владельца
+genetics.machine.sequencer.error.noOwner=Замените этот блок машины
+genetics.machine.sequencer.error.noSpace=Нет места для пустых последовательностей
+genetics.machine.sequencer.error.noDye=Недостаточно краски
+genetics.machine.sequencer.gui.sequensedBy=Гены будут проанализированы игроком %s
+genetics.machine.sequencer.gui.willNotSave=Потеря владелец. Гены не будут извлечены
+
+genetics.machine.machine.polymeriser=Полимеризатор
+gui.genetics.machine.machine.polymeriser.title=Полимеризатор
+genetics.machine.machine.polymeriser.info=Полимеризатор усиливает (концентрирует) сыворотку с геном с помощью Сырой ДНК и Полимеризованной бактерии. Эта операция обязательна перед использованием сыворотки в Инокуляторе или Секвенсоре и Сплайсере. Процесс может быть ускорен с помощью золотых самородков.
+genetics.machine.polymeriser.error.noItem=Нет образца для репликации
+genetics.machine.polymeriser.error.itemFilled=Предмет заполнен
+genetics.machine.polymeriser.error.noLiquid=Недостаточно Бактерии
+genetics.machine.polymeriser.error.noDNA=Недостаточно ДНК
+genetics.machine.polymeriser.replicatingWithGene=Репликация с одним геном
+genetics.machine.polymeriser.replicatingWithGenes=Репликация с %d генами
+genetics.machine.polymeriser.unfilledSerum=Незаполненная сыворотка
+
+genetics.machine.machine.inoculator=Инокулятор
+gui.genetics.machine.machine.inoculator.title=Инокулятор
+genetics.machine.machine.inoculator.info=Инокулятор использует сыворотку для прививки новых генов. Процесс продолжителен и требует Бактерию Вектор, но на 100% успешен.
+genetics.machine.inoculator.error.noIndividual=Нет образцов для инокуляции
+genetics.machine.inoculator.error.noSerum=Нет сыворотки
+genetics.machine.inoculator.error.noLiquid=Не хватает жидкости
+genetics.machine.inoculator.error.emptySerum.title=Пустая сыворотка
+genetics.machine.inoculator.error.emptySerum=Пустая сыворотка
+genetics.machine.inoculator.error.invalidSerum.title=Некорректная сыворотка
+genetics.machine.inoculator.error.invalidSerum.0=Сыворотка не содержит генов
+genetics.machine.inoculator.error.invalidSerum.1=Сыворотка не подходит для этого образца
+genetics.machine.inoculator.error.defunctSerum.title=Недействующая сыворотка
+genetics.machine.inoculator.error.defunctSerum=Образец уже обладает этим геном
+genetics.machine.inoculator.inoculatingWithGene=Инокуляция с одним геном
+genetics.machine.inoculator.inoculatingWithGenes=Инокуляция с %d генами
+genetics.machine.inoculator.inoculableIndividual=Образец для инокуляции
+genetics.machine.inoculator.serums=Сывороточные флаконы и массивы
+
+genetics.machine.labMachine.genepool=Экстрактор ДНК
+gui.genetics.machine.labMachine.genepool.title=Экстрактор ДНК
+genetics.machine.labMachine.genepool.info=Растворяет организмы с помощью Этанола и Фермента в Жидкую ДНК, которая нужна для работы некоторых генетических машин. Вся генетическая информация теряется и организм-источник ДНК разрушается.
+genetics.machine.genepool.error.noIndividual=Нет образца
+genetics.machine.genepool.error.noRoom=Нет свободного места в баке
+genetics.machine.genepool.error.noEthanol=Не хватает этанола
+genetics.machine.genepool.error.insufficientEnzyme=Недостаточно Энзима
+
+tile.labMachine.name=Лабораторная тумба
+genetics.machine.labMachine.labMachine=Лабораторная тумба
+
+genetics.machine.labMachine.analyser=Анализатор
+gui.genetics.machine.labMachine.analyser.title=Анализатор
+genetics.machine.labMachine.analyser.info=Анализатор принимает организмы или сыворотку и анализирует их гены. Процесс требует Краситель для ДНК. Краситель для ДНК сделан из фиолетового красителя и светящейся пыли.
+genetics.machine.analyser.dnaDye=ДНК краситель
+genetics.machine.analyser.unanalysedItem=Неанализированный образец
+genetics.machine.analyser.error.alreadyAnalysed.title=Уже анализировано
+genetics.machine.analyser.error.alreadyAnalysed=Образец уже был анализирован ранее
+genetics.machine.analyser.error.insufficientDye.title=Недостаточно красителя
+genetics.machine.analyser.error.insufficientDye=Не хватает ДНК красителя для анализа
+genetics.machine.analyser.error.noItem=Нет образца для анализа
+
+genetics.machine.labMachine.incubator=Инкубатор
+gui.genetics.machine.labMachine.incubator.title=Инкубатор
+genetics.machine.labMachine.incubator.info=В инкубаторе производятся большинство жидкостей и веществ мода "Генетика" по разным рецептам из жидких и твёрдых веществ. Рецепты: 1. Вода + Питательная Среда
+genetics.machine.incubator.error.noRecipe.title=Нет рецепта
+genetics.machine.incubator.error.noRecipe=Это некорректный рецепт
+genetics.machine.incubator.error.noLiquid=Не хватает инкубационной жидкости
+genetics.machine.incubator.error.noRoom=Нет места в баке
+
+genetics.machine.labMachine.acclimatiser=Акклиматизатор
+gui.genetics.machine.labMachine.acclimatiser.title=Акклиматизатор
+genetics.machine.labMachine.acclimatiser.info=Акклиматизатор изменяет гены, отвечающие за акклиматизацию. Диапазоны сухо-влажно и горячо-холодно могут быть расширены до максимальных. Требует катализаторы. Осушение - песок, увлажнение - вода, потепление - лава или огненный порошок, похолодание - лёд или снежок. Кислотность почвы - мульча или зола.
+genetics.machine.acclimatiser.acclimatizingItems=Катализаторы
+genetics.machine.acclimatiser.error.noIndividual=Нет образцов для акклиматизации
+genetics.machine.acclimatiser.error.noAcclimatizingItems=Отсутствуют катализаторы
+genetics.machine.acclimatiser.error.invalidAcclimatizingItems=Невозможно акклиматизировать образец с этими катализаторами
+
+tile.advMachine.name=Сплайсер
+genetics.machine.advMachine.splicer=Сплайсер
+gui.genetics.machine.advMachine.splicer.title=Сплайсер
+genetics.machine.advMachine.splicer.info=Сплайсер аналогичен инокулятору, но гораздо быстрее и требует огромную мощность.
+genetics.machine.splicer.error.noIndividual=Нет образца для сращивания
+genetics.machine.splicer.error.noSerum=Нет сыворотки
+genetics.machine.splicer.error.emptySerum.title=Нет сыворотки
+genetics.machine.splicer.error.emptySerum=Пустая сыворотка
+genetics.machine.splicer.error.invalidSerum.title=Некорректная сыворотка
+genetics.machine.splicer.error.invalidSerum.0=Сыворотка не содержит каких-либо генов
+genetics.machine.splicer.error.invalidSerum.1=Потерян тип сыворотки
+genetics.machine.splicer.error.defunctSerum.title=Недействующая сыворотка
+genetics.machine.splicer.error.defunctSerum=Образец уже имеет необходимые гены
+genetics.machine.splicer.splicableIndividual=Образец
+genetics.machine.splicer.serums=Сывороточные флаконы или массивы
+genetics.machine.splicer.splicingIn.0=Соединения в %d/%d генах
+genetics.machine.splicer.splicingIn.1=Соединения в %d/%d гене
+genetics.machine.splicer.splicingIn.2=Соединения в %d генах
+genetics.machine.splicer.splicingIn.3=Соединения в %d гене
+
+genetics.gui.geneBank=Генный банк
+genetics.gui.geneBank.info=Инфо
+genetics.gui.geneBank.stats=Статистика
+genetics.gui.geneBank.ranking=Ранжирование
+genetics.gui.geneBank.project=Полный проект генома
+genetics.gui.geneBank.sequencedGenes=Секвенцировано %d/%d генов
+genetics.gui.geneBank.sequencedGenes.short=%d/%d генов
+
+genetics.gui.analyst.info=Добавьте пчелу, саженец, цветок или бабочку в верхний левый слот. ДНК-краситель требуется, если образец ещё не анализирован. Краситель также может конвертировать ванильные образцы в используемые в генетике.
+genetics.gui.analyst.registry=Картотека
+genetics.gui.analyst.page.hours=%s ч.
+genetics.gui.analyst.page.minutes=%s мин.
+genetics.gui.analyst.page.seconds=%s сек.
+genetics.gui.analyst.chromosome.active=Активно: %s
+genetics.gui.analyst.chromosome.inactive=Неактивно: %s
+genetics.gui.analyst.karyogram=Кариограмма
+genetics.gui.analyst.specimen=Проба
+
+genetics.gui.analyst.appearance=Внешний вид
+genetics.gui.analyst.appearance.primaryColor=Первичный цвет лепестков
+genetics.gui.analyst.appearance.secondColor=Вторичный цвет лепестков
+genetics.gui.analyst.appearance.stemColor=Цвет стебля
+
+genetics.gui.analyst.behaviour=Поведение
+genetics.gui.analyst.behaviour.effect=Эффект: %s
+genetics.gui.analyst.behaviour.pollinatesNearby=Опыление
+genetics.gui.analyst.behaviour.withinBlocks=%d блоков
+genetics.gui.analyst.behaviour.everyTime=Каждые %s
+genetics.gui.analyst.behaviour.territory=Территория: %dx%dx%d
+genetics.gui.analyst.behaviour.metabolism=Метаболизм: %s
+
+genetics.gui.analyst.biology=Биология
+genetics.gui.analyst.biology.allDay=Активны и днем, и ночью
+genetics.gui.analyst.biology.night=Активны ночью
+genetics.gui.analyst.biology.day=Активны днем
+genetics.gui.analyst.biology.notRain=Не могут работать под дождем
+genetics.gui.analyst.biology.rain=Могут работать под дождем
+genetics.gui.analyst.biology.underground=Могут работать под землей
+genetics.gui.analyst.biology.notUnderground=Не могут работать под землей
+genetics.gui.analyst.biology.flammable=Боится огня
+genetics.gui.analyst.biology.nonflammable=Огнестойкая
+genetics.gui.analyst.biology.sappiness=Созревание: %s
+genetics.gui.analyst.biology.fertility.drones=%d дронов в улье
+genetics.gui.analyst.biology.fertility.drone=1 дрон в улье
+genetics.gui.analyst.biology.fertility.moths=Оставляет %d гусениц перед смертью
+genetics.gui.analyst.biology.fertility.moth=Оставляет 1 гусеницу перед смертью
+genetics.gui.analyst.biology.fertility.leaves=1 саженец на %d блоков листвы
+genetics.gui.analyst.biology.fertility.leaf=1 саженец на 1 блок листвы
+genetics.gui.analyst.biology.caterpillarGestation=Плодовитость
+genetics.gui.analyst.biology.flightSpeed=Скорость полета
+genetics.gui.analyst.biology.blocksPerSec=%d блоков/сек
+genetics.gui.analyst.biology.mothSpawn.perLeaf=Бабочки появляются каждые\n%s на блок листвы
+genetics.gui.analyst.biology.mothSpawn=Бабочки появляются каждые\n%s
+genetics.gui.analyst.biology.plantTypes=Типы растений
+genetics.gui.analyst.biology.averageLifespan=Средняя жизнь
+genetics.gui.analyst.biology.pollination=Опыление
+genetics.gui.analyst.biology.seedDispersal=Разведение семян
+genetics.gui.analyst.biology.perLifetime=%d в жизненный цикл
+genetics.gui.analyst.biology.mcDays=%s игровых дней
+
+genetics.gui.analyst.climate=Климат
+genetics.gui.analyst.climate.biomes=Биомы
+genetics.gui.analyst.climate.humidity=Влажность
+genetics.gui.analyst.climate.temperature=Температура
+
+genetics.gui.analyst.soil=Почва
+genetics.gui.analyst.soil.moistureTolerance=Влажность
+genetics.gui.analyst.soil.pHTolerance=Кислотность pH
+genetics.gui.analyst.soil.recommendedSoil=Рекомендованная почва
+genetics.gui.analyst.soil.otherSoils=Остальные почвы
+
+genetics.gui.analyst.genome.active=Активный геном
+genetics.gui.analyst.genome.inactive=Неактивный геном
+
+genetics.gui.analyst.growth=Рост
+genetics.gui.analyst.growth.mature=Созревание саженцев в
+genetics.gui.analyst.growth.height=Высота: %s
+genetics.gui.analyst.growth.girth=Толщина: %s
+genetics.gui.analyst.growth.conditions=Условия роста
+
+genetics.gui.analyst.mutations=Мутации
+genetics.gui.analyst.mutations.habitat=Естественная среда обитания
+genetics.gui.analyst.mutations.habitat.any=Может быть найдена в любом улье
+genetics.gui.analyst.mutations.habitat.villagers=Может быть куплена у жителя
+genetics.gui.analyst.mutations.habitat.chest=Может быть найдена в сундуках
+genetics.gui.analyst.mutations.resultantMutations=Мутации для получения
+genetics.gui.analyst.mutations.furtherMutations=Дальнейшие мутации
+genetics.gui.analyst.mutations.chance=Шанс %d%%
+genetics.gui.analyst.mutations.chance.current=(текущий %d%%)
+genetics.gui.analyst.mutations.unknownMutation=Неизвестная мутация
+genetics.gui.analyst.mutations.unknown=НЕИЗВЕСТНО
+
+genetics.gui.analyst.description=Описание
+genetics.gui.analyst.description.unknown=<Неизвестно>
+genetics.gui.analyst.description.discoveredBy=Найдено %s
+genetics.gui.analyst.description.complexity=Генетическая сложность: %s
+
+genetics.gui.analyst.produce=Продукция
+genetics.gui.analyst.produce.rate=Шанс: %s
+genetics.gui.analyst.produce.natural=Естественная продукция
+genetics.gui.analyst.produce.speciality=Специальная продукция
+genetics.gui.analyst.produce.refined=Дополнительная продукция
+genetics.gui.analyst.produce.centrifuge=В центрифуге:
+genetics.gui.analyst.produce.squeezes=В соковыжимателе:
+genetics.gui.analyst.produce.everyTime=Каждые %s
+
+genetics.gui.analyst.fruit=Фрукты
+genetics.gui.analyst.fruit.yield=Количество: %s
+genetics.gui.analyst.fruit.natural=Фрукты
+genetics.gui.analyst.fruit.speciality=Специальные фрукты
+genetics.gui.analyst.fruit.refined=Дополнительные фрукты
+genetics.gui.analyst.fruit.possible=Возможные фрукты
+genetics.gui.analyst.fruit.none=Дерево не производит\nфруктов или орехов
+
+genetics.gui.analyst.wood=Дерево
+genetics.gui.analyst.wood.fireproof=Огнестойкое
+genetics.gui.analyst.wood.flammable=Боится огня
+genetics.gui.analyst.wood.logs=Древесина
+genetics.gui.analyst.wood.products=Дополнительные продукты
+genetics.gui.analyst.wood.noFruits=Дерево не производит\nфруктов или орехов
+
+genetics.nei.tip.loss=Потеря:
+genetics.nei.tip.noConsume=Не употреблять
+genetics.nei.tip.effect=Эффект: %s
+genetics.nei.tip.temperature=Температура
+genetics.nei.tip.humidity=Влажность
+genetics.nei.tip.processSpeed=%dx Скорость обработки
+genetics.nei.tip.rf=%dx Скорость обработки
+genetics.nei.tip.databaseDesc=Откройте базу данных и возьмите пустую сыворотку. Нажмите сыворотку на секвенцированный ген, чтобы применить.

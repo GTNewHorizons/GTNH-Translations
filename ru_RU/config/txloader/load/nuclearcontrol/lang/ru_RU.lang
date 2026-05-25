@@ -1,0 +1,254 @@
+#Tab Name
+nc.itemgroup.tab=Nuclear Control 2
+
+#Internal Items
+item.ItemToolThermometer.name=Термометр
+item.ItemPanelMemoryCard.name=Карта памяти информационной панели
+item.ItemToolDigitalThermometer.name=Цифровой термометр
+item.ItemRemoteSensorKit.name=Набор с дистанционным датчиком
+item.ItemEnergySensorKit.name=Набор для энергетического хранилища
+item.ItemCounterSensorKit.name=Набор для счётчика энергии
+item.ItemLiquidSensorKit.name=Набор для жидкостного хранилища
+item.ItemSensorLocationCard.name=Карта-датчик расположения реактора
+item.ItemEnergySensorLocationCard.name=Карта-датчик расположения энергии
+item.itemCounterSensorLocationCard.name=Карта-датчик расположения счётчика
+item.ItemLiquidSensorLocationCard.name=Карта-датчик расположения жидкости
+item.ItemEnergyArrayLocationCard.name=Карта-датчик расположения массива с энергией
+item.itemRangeUpgrade.name=Улучшение "Усиление сигнала"
+item.ItemColorUpgrade.name=Улучшение "Цветность"
+item.ItemWebUpgrade.name=Улучшение "Сеть"
+item.ItemTimeCard.name=Карта со временем
+item.ItemTextCard.name=Текстовая карта
+item.ItemGeneratorSensorKit.name=Набор для генератора
+item.ItemGeneratorSensorLocationCard.name=Карта-датчик расположения генератора
+item.ItemLiquidArrayLocationCard.name=Карта-датчик расположения массива жидкости
+item.Item55ReactorCard.name=Карта-датчик расположения 5x5 реактора
+item.remoteMonitor.name=Переносная информационная панель
+
+#Integration Items
+item.RFreactorKit.name=Набор для дистанционного RF-реактора
+item.RFreactorCard.name=Карта-датчик расположения RF-реактора
+item.AppengCard.name=Карта для Applied Energistics
+item.AppengKit.name=Набор с датчиком для Applied Energistics
+item.RFenergyCard.name=Карта-датчик расположения RF энергии
+item.ItemVanillaMachineCard.name=Карта-датчик 'ванильных' механизмов
+item.ItemInventoryScannerCard.name=Карта-датчик для инвентаря
+item.ItemVanilliaKit.name=Набор с датчиком для 'ванили'
+item.MekRFenergyCard.name=Карта-датчик энергии Mekanism.
+
+#Internal Blocks
+tile.blockThermalMonitor.name=Датчик температуры
+tile.blockIndustrialAlarm.name=Промышленная сирена
+tile.blockHowlerAlarm.name=Сирена "Ревун"
+tile.blockRemoteThermo.name=Дистанционный датчик температуры
+tile.blockInfoPanel.name=Промышленная информационная панель
+tile.blockInfoPanelExtender.name=Расширитель информационной панели
+tile.blockAdvancedInfoPanel.name=Продвинутая информационная панель
+tile.blockAdvancedInfoPanelExtender.name=Расширитель продвинутой информационной панели
+tile.blockAdvancedInfoPanel.RotateRight=Повернуть вправо
+tile.blockAdvancedInfoPanel.RotateLeft=Повернуть влево
+tile.blockAdvancedInfoPanel.Colors=Изменить цвета
+tile.blockAdvancedInfoPanel.Labels=Метки
+tile.blockAdvancedInfoPanel.Power=обычный/инвертированный редстоун и включение/выключение
+tile.blockAdvancedInfoPanel.Slope=Изменить настройки уклона
+tile.blockAdvancedInfoPanel.Settings=Настройки
+tile.blockAdvancedInfoPanel.Transparency=Переключить прозрачность
+tile.blockAdvancedInfoPanel.LineConfig=Конфигурация открытой линии
+tile.blockAdvancedInfoPanel.Save=Сохранить
+tile.blockAdvancedInfoPanel.Reset=Сбросить
+tile.blockAdvancedInfoPanel.Cancel=Отменить
+tile.nclight0.name=Белый светильник
+tile.nclight1.name=Белый светильник
+tile.nclight2.name=Оранжевый светильник
+tile.nclight3.name=Оранжевый светильник
+tile.blockEnergyCounter.name=Энергосчётчик
+tile.blockAverageCounter.name=Стационарный энергосчётчик
+tile.blockRangeTrigger.name=Дистанционный триггер
+
+gui.tile.blockThermalMonitor.name.title=Датчик температуры
+gui.tile.blockIndustrialAlarm.name.title=Промышленная сирена
+gui.tile.blockHowlerAlarm.name.title=Сирена "Ревун"
+gui.tile.blockRemoteThermo.name.title=Дистанционный датчик температуры
+gui.tile.blockInfoPanel.name.title=Промышленная информационная панель
+gui.tile.blockEnergyCounter.name.title=Энергосчётчик
+gui.tile.blockAverageCounter.name.title=Стационарный энергосчётчик
+gui.tile.blockRangeTrigger.name.title=Дистанционный триггер
+gui.tile.blockAdvancedInfoPanel.name.title=Продвинутая информационная панель
+
+#Integration Blocks
+tile.blockBRPart.name=Реакторный монитор
+tile.NetworkLink.name=Монитор МЭ-сети
+
+#Original Screen Messages
+msg.nc.HowlerAlarmSoundRange=Дальность звука: %s
+msg.nc.HowlerAlarmSound=Звук
+msg.nc.ThermalMonitorSave=Сохранить настройки
+msg.nc.ThermalMonitorSignalAt=Сигнал на %s тепла
+msg.nc.Thermo=Темп. корпуса: %s
+msg.nc.ThermoDigital=Темп. корпуса: %s (Вода испаряется при: %s / плавится: %s)
+msg.nc.SensorKit=Дистанционный датчик установлен, карта-датчик получена
+
+msg.nc.InfoPanelOutOfRange=Вне радиуса
+msg.nc.InfoPanelInvalidCard=Недействительная карта
+msg.nc.InfoPanelNoTarget=Цель не найдена
+
+msg.nc.InfoPanelOn=Вкл.
+msg.nc.InfoPanelOff=Откл.
+msg.nc.InfoPanelHeat=Т: %s
+msg.nc.InfoPanelMaxHeat=Макс. нагрев: %s
+msg.nc.InfoPanelMelting=Плавление: %s
+msg.nc.InfoPanelOutput=Выход: %sEU/t
+msg.nc.InfoPanelOutputMJ=Выход: %sMJ/т
+msg.nc.InfoPanelOutputSteam=Выход: %smB/t
+msg.nc.InfoPanelTimeRemaining=Осталось: %s
+
+msg.nc.InfoPanelEnergyCounter=Энергия: %sEU
+msg.nc.InfoPanelEnergyCounterMJ=Энергия: %s RF
+
+msg.nc.InfoPanelEnergy=Энергия: %s
+msg.nc.InfoPanelEnergyFree=Свободно: %s
+msg.nc.InfoPanelEnergyStorage=Хранится: %s
+msg.nc.InfoPanelEnergyPercentage=Заполнено: %s%%
+
+msg.nc.cbInfoPanelLiquidName=Название жидкости
+msg.nc.cbInfoPanelLiquidAmount=Количество
+msg.nc.cbInfoPanelLiquidCapacity=Ёмкость
+msg.nc.cbInfoPanelLiquidFree=Свободно
+msg.nc.cbInfoPanelLiquidPercentage=Процент заполнения
+
+msg.nc.InfoPanelLiquidName=Название: %s
+msg.nc.InfoPanelLiquidAmount=Количество: %s
+msg.nc.InfoPanelLiquidCapacity=Ёмкость: %s
+msg.nc.InfoPanelLiquidFree=Свободно: %s
+msg.nc.InfoPanelLiquidPercentage=Заполнено: %s%%
+
+msg.nc.InfoPanelNotFoundN=#%d Не найдено
+msg.nc.InfoPanelOutOfRangeN=#%d Вне радиуса
+msg.nc.InfoPanelEnergyN=#%d Энергия: %s
+msg.nc.InfoPanelEnergyFreeN=#%d Свободно: %s
+msg.nc.InfoPanelEnergyStorageN=#%d Хранилище: %s
+msg.nc.InfoPanelEnergyPercentageN=#%d Заполнено: %s%%
+msg.nc.InfoPanelLiquidNameN=#%d Название: %s
+msg.nc.InfoPanelLiquidN=#%d Количество: %s
+msg.nc.InfoPanelLiquidFreeN=#%d Свободно: %s
+msg.nc.InfoPanelLiquidCapacityN=#%d Ёмкость: %s
+msg.nc.InfoPanelLiquidPercentageN=#%d Заполнено: %s%%
+
+msg.nc.InfoPanelTime=Время: %s
+
+msg.nc.cbInfoPanelOnOff=Вкл./Откл. Состояние
+msg.nc.cbInfoPanelHeat=Уровень нагрева
+msg.nc.cbInfoPanelMaxHeat=Макс. нагрев
+msg.nc.cbInfoPanelMelting=Температура плавления
+msg.nc.cbInfoPanelOutput=Выход (EU/t)
+msg.nc.cbInfoPanelTimeRemaining=Время до окончания цикла
+msg.nc.cb24h=24-часовой режим
+
+msg.nc.cbInfoPanelEnergyCurrent=Энергия
+msg.nc.cbInfoPanelEnergyStorage=Хранилище
+msg.nc.cbInfoPanelEnergyFree=Свободно
+msg.nc.cbInfoPanelEnergyEach=Информация по каждой карте
+msg.nc.cbInfoPanelEnergyTotal=Суммарно
+msg.nc.cbInfoPanelEnergyPercentage=Процент заполнения
+msg.nc.EnergyCardQuantity=Количество карт: %d
+msg.nc.AverageCounterPeriod=Период: %sсек.
+
+msg.nc.LiquidCardQuantity=Количество карт: %d
+
+msg.nc.cbInfoPanelLiquidEach=Информация по каждой карте
+msg.nc.cbInfoPanelLiquidTotal=Суммарно
+
+msg.nc.Reset=Сброс
+msg.nc.ScreenColor=Цветной экран
+msg.nc.TextColor=Цветной текст
+msg.nc.None=N/A
+nc.msg.notValid=Эта карта не может быть совместима
+nc.msg.notValid2=с дистанционным датчиком
+nc.msg.notValid3=Попробуйте открыть интерфейс заново
+
+
+# Advanced Info Panel Settings messages
+# Settings labels for Vanilla Machine Card (Furnace/Brewing Stand)
+msg.nc.Vanilla.setting.activityStatus=Статус активности (Зельеварение/Жарка)
+msg.nc.Vanilla.setting.activeTime=Активное время (Зельеварение/Жарка)
+msg.nc.Vanilla.setting.slot1Contents=Содержимое слота 1 (зелье/вход)
+msg.nc.Vanilla.setting.slot2Contents=Содержимое слота 2 (зелье/топливо)
+msg.nc.Vanilla.setting.slot3Contents=Содержимое слота 3 (зелье/выход)
+
+
+#Vanilla Intergration Messages
+msg.nc.Vanilla.Display=%s / %s слотов использовано
+msg.nc.Vanilla.Name=Имя блока
+msg.nc.Vanilla.StorageLVL=Уровень хранилища
+msg.nc.Vanilla.brewstand=Время заваривания: %s
+msg.nc.Vanilla.potionType1=1-й тип зелья: %s
+msg.nc.Vanilla.potionType2=2-й тип зелья: %s
+msg.nc.Vanilla.potionType3=3-й тип зелья: %s
+msg.nc.Vanilla.Time=Активное время
+msg.nc.Vanilla.brewing=Жарится
+msg.nc.Vanilla.notBrewing=Не жарится
+msg.nc.Vanilla.dispBrewUse=Показать тип выхода #%s
+msg.nc.Vanilla.dispBrew=Показать жарящийся блок
+msg.nc.Vanilla.dispBrewTime=Показать время жарки
+msg.nc.Vanilla.cooking=Готовится: %sx - %s
+msg.nc.Vanilla.fuel=Топливо: %sx - %s
+msg.nc.Vanilla.output=Выход: %sx - %s
+msg.nc.Vanilla.burnTime=Время горения: %s
+
+
+#Big Reactor Messages
+msg.nc.InfoPanelRF.Temp=Темп. ядра: %s C
+msg.nc.InfoPanelRF.EnergyStored=Энергия: %s RF
+msg.nc.InfoPanelRF.CreatedEnergy=Выходная энергия: %s RF/т
+msg.nc.InfoPanelRF.SteamOutput=Выход пара: %s mB/t
+msg.nc.InfoPanelRF.Percentage=Энергохранилище заполнено на %s%%
+msg.nc.InfoPanelRF.Output=Выход (RF/т)
+msg.nc.InfoPanelRF.TempPROPER=Температура ядра
+msg.nc.InfoPanelRF.CoolantTank=Бак-охладитель: %s x%smB
+msg.nc.InfoPanelRF.OutputTank=Выходной бак: %s x%smB
+
+#5x5 Reactor Messages
+msg.nc.InfoPanel55.Output=Выход: %s Hu/с
+msg.nc.InfoPanel55.Temp=Температура ядра: %s%%
+msg.nc.InfoPanel55.tankin=Внутренний резервуар: %s / 10000 мВ
+msg.nc.InfoPanel55.tankout=Внешний резервуар: %s / 10000 мВ
+msg.nc.InfoPanel55.Out=Выход (Hu/с)
+msg.nc.InfoPanel55.BufferIn=Резервуар хладагента
+msg.nc.InfoPanel55.BufferOut=Резервуар горячего хладагента
+
+#AE INTERGRATION
+msg.null.craft=Ничего
+msg.nc.InfoPanelAE.CraftItemMake=В настоящее время создаётся: %s
+msg.nc.InfoPanelAE.CraftAMT=Количество крафта: %s
+msg.nc.InfoPanelAE.Bytes=Использовано Байт/Всего
+msg.nc.InfoPanelAE.Items=Используемые Предметы/Всего
+msg.nc.InfoPanelAE.CraftItem=Текущее создание предмета
+msg.nc.InfoPanelAE.CraftStack=Количество предметов для крафта
+msg.nc.InfoPanelAE.DisplayBytes=%s / %s Байты
+msg.nc.InfoPanelAE.DisplayItem=%s / %s Типы предметов
+
+#WAILA Integration
+msg.nc.waila.getHeatLevel=Максимальная температура: 
+msg.nc.waila.ColorBackground=Фоновый цвет: 
+msg.nc.waila.ColorText=Цвет текста: 
+msg.nc.waila.Web=Улучшение "Сеть" установлено
+msg.nc.waila.Color=Улучшение "Цветность" установлено
+msg.nc.waila.ColorBlack=Чёрный
+msg.nc.waila.ColorRed=Красный
+msg.nc.waila.ColorGreen=Зелёный
+msg.nc.waila.ColorBrown=Коричневый
+msg.nc.waila.ColorDarkBlue=Тёмно-синий
+msg.nc.waila.ColorPurple=Фиолетовый
+msg.nc.waila.ColorLightBlue=Голубой
+msg.nc.waila.ColorWhite=Белый
+msg.nc.waila.ColorPink=Розовый
+msg.nc.waila.ColorLimeGreen=Лаймовый
+msg.nc.waila.ColorYellow=Жёлтый
+msg.nc.waila.ColorBlue=Синий
+msg.nc.waila.ColorMagenta=Пурпурный
+msg.nc.waila.ColorOrange=Оранжевый
+msg.nc.waila.getSoundNames=Звук: 
+msg.nc.waila.getRange=Дальность: 
+msg.nc.waila.getEnergyCount=Энергосчётчик: 
+msg.nc.waila.getEnergyAverage=Средняя энергия: 
+msg.nc.waila.getPeriod=За период: 

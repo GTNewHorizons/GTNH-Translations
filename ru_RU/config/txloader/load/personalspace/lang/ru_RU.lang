@@ -1,0 +1,93 @@
+tile.air.name=Воздух
+tile.personalSpacePortal.name=Портал персонального измерения
+tile.personalSpacePortalLegacy.name=Устаревший портал персонального измерения (миграция из UW)
+
+chat.overworldPersonalDimension=Персональные измерения могут быть созданы только в обычном мире
+chat.personalWorld.created=Персональное измерение успешно создано!
+chat.personalWorld.updated=Персональное измерение успешно обновлено!
+chat.personalWorld.relinked=Портал успешно переподключен в измерении %d
+chat.personalWorld.relinked.error=Портал не был переподключён, это приведет к потере доступа к измерению.
+chat.personalWorld.proximity=Слишком близко к другому порталу.
+chat.personalWorld.denied=Настройки не изменены: доступ запрещён.
+chat.personalWorld.badLayers=Настройки не изменены: используются запрещённые слои блоков.
+
+gui.personalWorld.voidWorld=Пустой мир
+gui.personalWorld.biome=Имя биома
+gui.personalWorld.presets=Предустановки
+gui.personalWorld.layers=Слои
+
+gui.personalWorld.skyColor=Цвет неба
+gui.personalWorld.skyColor.red=Красный: 
+gui.personalWorld.skyColor.green=Зелёный: 
+gui.personalWorld.skyColor.blue=Синий: 
+gui.personalWorld.starBrightness=Яркость звёзд
+
+gui.personalWorld.vegetation=Листва
+gui.personalWorld.trees=Деревья
+gui.personalWorld.weather=Погоду
+gui.personalWorld.clouds=Облака
+
+gui.personalWorld.invalidSyntax=Недопустимый синтаксис
+gui.personalWorld.notAllowed=Не разрешено конфигурацией сервера
+
+gui.personalWorld.skyType.VANILLA=Ванильное небо
+gui.personalWorld.skyType.BARNADA_C=Неба барнады С
+gui.personalWorld.skyType.GARDEN_OF_GLASS=Небесный сад из стекла.
+
+gui.personalWorld.boundary=Граница
+gui.personalWorld.boundary.a=Граница A
+gui.personalWorld.boundary.b=Граница B
+gui.personalWorld.boundary.a.short=A
+gui.personalWorld.boundary.b.short=B
+gui.personalWorld.boundary.chunks=Boundary Chunks X x Z (0-20)
+
+gui.personalWorld.boundary.none=None
+gui.personalWorld.boundary.none.short=-
+gui.personalWorld.boundary.unknown.short=?
+gui.personalWorld.boundary.metaValue=meta=%d
+gui.personalWorld.boundary.allowedValue=allowed=%s
+gui.personalWorld.boundary.allowed=Allowed: %s
+gui.personalWorld.boundary.invalidMeta=Invalid meta
+gui.personalWorld.boundary.blockNotAllowed.a=Boundary A block not allowed
+gui.personalWorld.boundary.blockNotAllowed.b=Boundary B block not allowed
+gui.personalWorld.boundary.range=0-20
+
+gui.personalWorld.gap=Gap Chunks (0-5)
+gui.personalWorld.gap.a=Gap A
+gui.personalWorld.gap.b=Gap B
+gui.personalWorld.gap.c=Gap C
+gui.personalWorld.gap.a.short=A
+gui.personalWorld.gap.b.short=B
+gui.personalWorld.gap.c.short=C
+gui.personalWorld.gap.widthRange=0-5
+gui.personalWorld.gap.preset.ROAD=Road
+gui.personalWorld.gap.preset.SOLID=Solid
+gui.personalWorld.gap.blockNotAllowed.a=Gap A block not allowed
+gui.personalWorld.gap.blockNotAllowed.b=Gap B block not allowed
+gui.personalWorld.gap.blockNotAllowed.c=Gap C block not allowed
+
+gui.personalWorld.center.enable=Center Marker
+gui.personalWorld.center.block=Центральный блок
+gui.personalWorld.center.block.short=C
+gui.personalWorld.center.blockNotAllowed=Center block not allowed
+gui.personalWorld.center.dir.SE=SE (X+ Z+)
+gui.personalWorld.center.dir.SW=SW (X- Z+)
+gui.personalWorld.center.dir.NE=NE (X+ Z-)
+gui.personalWorld.center.dir.NW=NW (X- Z-)
+
+gui.personalWorld.button.plus=+
+gui.personalWorld.button.minus=-
+gui.personalWorld.multiply=x
+
+gui.personalWorld.moreSettings=More Settings
+gui.personalWorld.moreSettings.tooltip=More Settings
+gui.personalWorld.backToMain=Back
+gui.personalWorld.backToMain.tooltip=Back to Main
+
+commands.pspace.usage=/pspace (give-portal player DIM [X] [Y] [Z])|(tpx player DIM [X Y Z])|(ls)|(where player)|(allow-worldgen-change DIM)
+commands.pspace.badDimension=Указанное измерение не существует
+commands.pspace.where=Игрок %s находится в измерении %d
+commands.pspace.tpx=Игрок %s был телепортирован в %d: %d, %d, %d
+commands.pspace.allow-worldgen-change=Игрок %s разблокировал настройки генерации мира для измерения %d
+commands.pspace.reload-config.success=Configuration reloaded and synced to all clients.
+commands.pspace.reload-config.fail=Failed to reload configuration: config file not found.
