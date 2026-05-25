@@ -1,0 +1,161 @@
+# Galacticraft Asteroids Language File = UNITED STATES ENGLISH
+
+# GENERAL ITEMS
+item.itemTier3Rocket.name=Tier 3のロケット
+item.itemTier3Rocket.t3Rocket.name=Tier 3のロケット
+item.itemAstroMiner.name=天体掘削機
+item.heavyNoseCone.name=重装甲ノーズコーン
+item.compressedTitanium.name=圧縮チタン
+item.ingotTitanium.name=チタンインゴット
+item.shardTitanium.name=チタンの破片
+item.shardIron.name=鉄の破片
+item.rocketFinsT2.name=重装甲ロケット尾翼
+item.engineT2.name=重装甲ロケットエンジン
+item.itemBasicAsteroids.name=Resource
+item.reinforcedPlateT3.name=重装甲プレート
+item.grapple.name=グラップル
+item.atmosphericValve.name=大気圧バルブ
+item.thermalCloth.name=熱調整繊維
+item.beamCore.name=ビームコア
+item.orionDrive.name=オリオン・ドライブ
+item.tier3.desc=Tier 3
+
+# TOOLS
+item.titanium_pickaxe.name=チタンのツルハシ
+item.titanium_axe.name=チタンの斧
+item.titanium_hoe.name=チタンのクワ
+item.titanium_shovel.name=チタンのシャベル
+item.titanium_sword.name=チタンの剣
+
+# ARMOR
+item.thermalPadding.name=Thermal Padding Piece
+item.thermalHelm.name=熱調整ヘルメット
+item.thermalChestplate.name=熱調整チェストピース
+item.thermalLeggings.name=熱調整レギンス
+item.thermalBoots.name=熱調整ブーツ
+item.titanium_helmet.name=チタンのヘルメット
+item.titanium_chestplate.name=チタンのチェストプレート
+item.titanium_leggings.name=チタンのレギンス
+item.titanium_boots.name=チタンのブーツ
+
+# CANISTERS ETC
+item.methaneCanisterPartial.name=メタンガスボンベ
+item.methaneCanister.name=充填済みのメタンガスボンベ
+item.canister.gas.name=Gas                  #short name for Methane Gas contents level
+item.canisterPartialLOX.name=液体酸素ボンベ
+item.canister.LOX.partial.name=液体酸素ボンベ
+item.canister.LOX.full.name=充填済みの液体酸素ボンベ
+item.canister.LOX.name=LOX                  #short name for Liquid Oxygen contents level
+item.canisterPartialLN2.name=液体窒素ボンベ
+item.canister.liquidNitrogen.partial.name=液体窒素ボンベ
+item.canister.liquidNitrogen.full.name=充填済みの液体窒素ボンベ
+item.canister.liquidNitrogen.name=Liquid    #short name for Liquid Nitrogen contents level
+item.canister.liquidArgon.partial.name=液体アルゴンボンベ
+item.canister.liquidArgon.full.name=充填済みの液体アルゴンボンベ
+item.canister.liquidArgon.name=Liquid       #short name for Liquid Argon contents level
+item.emptyGasCanister.name=空のガスボンベ
+
+# FLUIDS AND GASES
+fluid.methane=メタン
+fluid.oxygen=酸素
+fluid.nitrogen=窒素
+fluid.hydrogen=水素
+fluid.carbondioxide=二酸化炭素
+fluid.helium=ヘリウム
+fluid.argon=アルゴン
+fluid.atmosphericgases=大気ガス
+fluid.liquidmethane=液体メタン
+fluid.liquidoxygen=液体酸素
+fluid.liquidnitrogen=液体窒素
+fluid.liquidargon=液体アルゴン
+fluid.fuel=燃料
+
+# BLOCKS
+tile.asteroidsBlock.0.name=Asteroid Rock/Ore
+tile.asteroidsBlock.asteroid0.name=アステロイドの石
+tile.asteroidsBlock.asteroid1.name=アステロイドの石
+tile.asteroidsBlock.asteroid2.name=アステロイドの石
+tile.asteroidsBlock.oreIron.name=鉄鉱石
+tile.asteroidsBlock.oreIlmenite.name=イルメナイト鉱石
+tile.asteroidsBlock.oreAluminum.name=アルミニウム鉱石
+tile.beamReflector.name=エネルギービーム反射機
+tile.beamReceiver.name=エネルギービーム受信機
+tile.telepadFake.name=短距離用テレパッド
+tile.telepadShort.name=短距離用テレパッド
+tile.walkway.name=歩道
+tile.walkwayWire.name=歩道
+tile.walkwayOxygenPipe.name=歩道
+tile.treasureT3.name=Tier 3 宝箱
+tile.denseIce.name=高密度氷
+tile.minerBaseFull.name=天体掘削機ベース
+tile.minerBase.name=天体掘削機ベース
+
+# GUI
+planet.asteroids=小惑星帯
+
+	# Dollar sign ($) will split text onto a new line
+	# Do not remove %s or %d, since that will be replaced in-game
+gui.telepad.desc.0=This is the Telepad's$unique address
+gui.telepad.desc.1=Address of another Telepad.$Entities will be sent there.
+gui.message.address.name=Address
+gui.message.destAddress.name=Target Address
+gui.message.invalidAddress.name=Invalid Unique Address
+gui.message.invalidTargetAddress.name=Invalid Target Address
+gui.message.receivingActive.name=Receiving Active
+gui.message.telepadTooFar.name=Target too far! (Max %d)
+gui.message.telepadWrongDim.name=Target is in wrong dimension!
+gui.message.telepadNotFound.name=Telepad Not Found!
+gui.message.sendingActive.name=Sending Active
+gui.message.range.name=Range: %dm
+gui.message.notEnoughEnergy.name=Not Enough Energy!
+gui.message.targetNoEnergy.name=Target doesn't have enough Energy!
+gui.message.grapple.fail=I'll need some string if I want to throw that Grapple hook!
+gui.message.astroMiner.fail=This base already has an Astro Miner!
+gui.message.astroMiner1.fail=The docking area is blocked by:
+gui.message.astroMiner1A.fail=The Astro Miner's route is blocked by:
+gui.message.astroMiner2.fail=That would be one Astro Miner too many!
+gui.message.astroMiner3.fail=The Astro Miner's base was removed!
+gui.message.astroMiner4.fail=The Astro Miner is low on energy and cannot get back to base!
+gui.message.astroMiner5.fail=The Astro Miner's route into its base seems to be blocked!
+gui.message.astroMiner6.fail=The Astro Miner has finished mining the area, and will now stop!
+gui.message.astroMiner7.fail=There's nothing for an Astro Miner to mine on a space station!
+gui.message.astroMiner8.fail=A second Astro Miner was detected at the same base, the first will now freeze.
+gui.button.recall.name=Recall
+gui.miner.outOfRange=Out of range
+gui.miner.offline=オフライン
+gui.miner.stuck=Stuck at:
+gui.miner.docked=Docked
+gui.miner.travelling=Traveling
+gui.miner.mining=Mining
+gui.miner.returning=Returning
+gui.miner.docking=Docking
+gui.miner.mined=Mined
+
+tile.treasureT3.description=Tier 3 Treasure Chests are currently unused.
+tile.walkway.description=Walkways are used for decorative purposes, used for connecting blocks while maintaining a space theme.
+tile.walkwayAluminumWire.description=Aluminum Wire Walkways are used for running wire underneath a fully walkable surface.
+tile.walkwayOxygenPipe.description=Oxygen Pipe Walkways are used for running pipes underneath a fully walkable surface.
+tile.beamReflector.description=Beam Reflectors are used to redirect energy beams from source to destination. Can be right-clicked to cycle through targets.
+tile.beamReceiver.description=Beam Receivers are connected to energy machine input and output, to transfer energy using beams.
+tile.telepadShort.description=Short Range Telepads are used to transfer players and other living creatures short distances (250 Blocks) when linked to other telepads.
+tile.minerBase.description=The Astro Miner Base is the docking point for an Astro Miner.  It's big ... try making a 2 x 2 x 2 cube with these.
+
+# SCHEMATICS
+schematic.astroMiner.name=天体掘削機
+
+# ENTITIES
+entity.GalacticraftMars.SmallAsteroidGC.name=小さな小惑星
+entity.GalacticraftMars.GrappleHookGC.name=グラップリングフック
+entity.GalacticraftMars.Tier3RocketGC.name=Tier 3のロケット
+entity.GalacticraftMars.EntryPodAsteroids.name=着陸船
+entity.GalacticraftMars.AstroMiner.name=天体掘削機
+
+# CONTAINERS
+container.shortRangeTelepad.name=短距離用テレパッド
+container.entryPod.name=Entry Pod
+
+# CONFIG GUI
+gc.configgui.dimensionIDAsteroids=Asteroids Dimension ID
+gc.configgui.idSchematicRocketT3=Tier 3 Rocket Schematic ID
+gc.configgui.disableGalacticraftHelium=Disable Helium gas registration
+gc.configgui.astroMinersMax=Maximum number of Astro Miners per player
