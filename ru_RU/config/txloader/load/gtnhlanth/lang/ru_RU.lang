@@ -33,15 +33,15 @@ gtnhlanth.tt.tc.info9=Can process up to the durability of all §aMask's§7 in th
 gtnhlanth.tt.tc.focusinputbus=Входной люк фокусировки
 gtnhlanth.tt.tc.beamlineinputhatch=Входной шлюз установки для литографии
 
-GT5U.gui.text.gtnhlanth.nocoolant=В механизме отсутствует хладагент!
-GT5U.gui.text.gtnhlanth.inscoolant=Недостаточно хладагента в механизме!
-GT5U.gui.text.gtnhlanth.noaccel=Тип частиц не может быть ускорен!
-GT5U.gui.text.gtnhlanth.low_input_eut=Входной EU/t слишком мал для создания фотонов!
-GT5U.gui.text.gtnhlanth.scerror=Математическая ошибка, неверный рецепт?
-GT5U.gui.text.gtnhlanth.inputinterrupt=Входной луч нельзя прерывать или изменять!
+GT5U.gui.text.shutdown_reason.gtnhlanth.nocoolant=No coolant present in machine!
+GT5U.gui.text.shutdown_reason.gtnhlanth.inscoolant=Insufficient coolant in machine!
+GT5U.gui.text.shutdown_reason.gtnhlanth.noaccel=Particle type can't be accelerated!
+GT5U.gui.text.shutdown_reason.gtnhlanth.low_input_eut=Input EU/t too low to produce photons!
+GT5U.gui.text.shutdown_reason.gtnhlanth.scerror=Math error, broken recipe?
+GT5U.gui.text.shutdown_reason.gtnhlanth.inputinterrupt=Input Beam must not be interrupted or changed!
 GT5U.gui.text.recipe_result.gtnhlanth.wrongparticle=Incorrect Particle!
 GT5U.gui.text.recipe_result.gtnhlanth.toolowenergy=Below Required Energy!
-GT5U.gui.text.gtnhlanth.noparticle=Частица отсутствует (скорость равна 0)!
+GT5U.gui.text.shutdown_reason.gtnhlanth.noparticle=Particle absent (rate is 0)!
 
 # NEI
 value.disstank=Соотношение: %s:1
@@ -181,7 +181,7 @@ beamline.out_pre=Мультиблочный выход установки для
 beamline.pipe.desc.0=Транспорт для частиц
 beamline.pipe.desc.1=Сигнал не пересекается и не изгибается
 
-gt.blockmachines.beamline_pipe.name=Beamline Pipe
+gt.blockmachines.beamline_pipe.name=Труба установки для литографии
 
 tile.recipe.tc=Приёмник элементарных частиц
 tile.recipe.sc=Источник элементарных частиц
