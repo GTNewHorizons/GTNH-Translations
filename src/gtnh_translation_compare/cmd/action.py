@@ -62,6 +62,8 @@ class Action:
         for f in all_files:
             if filter_(f.name):
                 translation_file = await self.converter.to_translation_file(f)
+                if translation_file is None:
+                    continue
                 if after_to_translation_file_callback is not None:
                     after_to_translation_file_callback(translation_file)
                 translation_files.append(translation_file)

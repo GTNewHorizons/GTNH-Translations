@@ -1,5 +1,5 @@
 from io import StringIO
-from typing import List, Tuple, Dict
+from typing import List, Tuple, Dict, Optional
 
 from loguru import logger
 
@@ -24,19 +24,24 @@ class Converter:
         self.cache = cache
         self.target_lang = target_lang
 
-    async def to_translation_file(self, paratranz_file: File) -> "TranslationFile":
+    async def to_translation_file(self, paratranz_file: File) -> "Optional[TranslationFile]":
         cached = self.cache.get(paratranz_file)
         if cached:
             logger.info("cache hit: {}", paratranz_file.name)
             return cached
         translation_file = await self._to_translation_file(paratranz_file)
+        if translation_file is None:
+            return None
         self.cache.set(paratranz_file, translation_file)
         logger.info("cache miss: {}", paratranz_file.name)
         return translation_file
 
-    async def _to_translation_file(self, paratranz_file: File) -> "TranslationFile":
+    async def _to_translation_file(self, paratranz_file: File) -> "Optional[TranslationFile]":
         paratranz_file = await self.client.get_file(paratranz_file.id)
         file_extra_dict = paratranz_file.extra
+        if file_extra_dict is None:
+            logger.warning("skipping file with no extra metadata (uploaded manually?): {}", paratranz_file.name)
+            return None
         file_extra = FileExtra.model_validate(file_extra_dict)
         content = file_extra.original
         string_items = await self.client.get_strings(paratranz_file.id)
