@@ -40,6 +40,7 @@ class Converter:
         paratranz_file = await self.client.get_file(paratranz_file.id)
         file_extra_dict = paratranz_file.extra
         if file_extra_dict is None:
+            print(f"::warning::skipping ParaTranz file with no extra metadata (uploaded manually?): {paratranz_file.name}")
             logger.warning("skipping file with no extra metadata (uploaded manually?): {}", paratranz_file.name)
             return None
         file_extra = FileExtra.model_validate(file_extra_dict)
