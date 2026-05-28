@@ -1,0 +1,24 @@
+applecore.commands.hunger.usage=/hunger [jugador] <value>
+applecore.commands.hunger.set.hunger.to=Establecer el hambre de %s a %d
+
+applecore.cfg.client=Cliente
+applecore.cfg.server=Servidor
+applecore.cfg.general=General
+applecore.cfg.exhaustion.sync.threshold=Sincronizar Umbral de Exhauscion
+applecore.cfg.show.food.values.in.tooltip=Mostrar Valores Nutricionales en las Tooltips
+applecore.cfg.show.food.values.in.tooltip.always=Siempre Mostrar Valores Nutricionales en las Tooltips
+applecore.cfg.show.saturation.hud.overlay=Mostrar Saturación en el HUD
+applecore.cfg.show.food.values.hud.overlay=Mostrar Valores Nutricionales en el HUD
+applecore.cfg.show.food.exhaustion.hud.underlay=Mostrar Exhausción de Comida en el HUD
+applecore.cfg.show.food.stats.in.debug.overlay=Mostrar Datos de Comida en el Overlay de Depuración
+
+applecore.cfg.client.tooltip=Estos ajustes son solo para el lado cliente
+applecore.cfg.server.tooltip=Estos ajustes son solo para el lado servidor
+applecore.cfg.general.tooltip=Estos ajustes son tanto para cliente como para servidor
+applecore.cfg.exhaustion.sync.threshold.tooltip=La máxima diferencia entre los valores de exhausción del cliente y el servidor permitida antes de que se sincronice del servidor al cliente. Aumentar este valor reduce el número de paquetes enviados, pero causará tirones en los valores de exhausción del cliente
+applecore.cfg.show.food.values.in.tooltip.tooltip=Si es true, se muestra el hambre y saturación recuperados por la comida en su tooltip mientras se mantiene pulsado SHIFT
+applecore.cfg.show.food.values.in.tooltip.always.tooltip=Si es true, se muestra el hambre y saturación recuperados por la comida en su tooltip automáticamente (sin tener que pulsar SHIFT)
+applecore.cfg.show.saturation.hud.overlay.tooltip=Si es true, muestra tu saturación actual sobre la barra de hambre
+applecore.cfg.show.food.values.hud.overlay.tooltip=Si es true, muestra la cantidad de hambre recuperada por la comida que tienes en tu mano. También muestra saturación si está habilitado.
+applecore.cfg.show.food.exhaustion.hud.underlay.tooltip=Si es true, muestra la exhausción como una barra de progreso tras la barra de hambre
+applecore.cfg.show.food.stats.in.debug.overlay.tooltip=Si es true, añade una línea al overlay de depuración (F3) con información sobre hambre, saturación, y exhausción
