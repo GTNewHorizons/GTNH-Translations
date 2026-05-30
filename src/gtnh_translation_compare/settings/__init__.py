@@ -9,15 +9,15 @@ TARGET_LANG = Language.from_str(os.environ.get("TARGET_LANG", "zh_CN"))
 GTNH_REPO = os.environ.get("GTNH_REPO", "GTNewHorizons/GT-New-Horizons-Modpack")
 DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH = os.environ.get(
     "DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH",
-    "config/txloader/load/betterquesting/lang/template.lang",
+    "config/txloader/forceload/betterquesting/lang/template.lang",
 )
 DEFAULT_QUESTS_LANG_EN_US_REL_PATH = os.environ.get(
     "DEFAULT_QUESTS_LANG_EN_US_REL_PATH",
-    "config/txloader/load/betterquesting/lang/en_US.lang",
+    "config/txloader/forceload/betterquesting/lang/en_US.lang",
 )
 DEFAULT_QUESTS_LANG_TARGET_REL_PATH = os.environ.get(
     "DEFAULT_QUESTS_LANG_TARGET_REL_PATH",
-    f"config/txloader/load/betterquesting/lang/{TARGET_LANG.value}.lang",
+    f"config/txloader/forceload/betterquesting/lang/{TARGET_LANG.value}.lang",
 )
 GT_LANG_EN_US_REL_PATH = "GregTech_US.lang"
 GT_LANG_TARGET_REL_PATH = "GregTech.lang"
