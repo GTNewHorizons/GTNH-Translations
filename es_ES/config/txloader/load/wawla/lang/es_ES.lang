@@ -1,0 +1,333 @@
+#Vanilla Tool Tips
+tooltip.wawla.heldItem=Objeto en Mano
+tooltip.wawla.feet=Pies
+tooltip.wawla.leggings=Perneras
+tooltip.wawla.chestplate=Pechera
+tooltip.wawla.helmet=Yelmo
+tooltip.wawla.item=Objeto
+tooltip.wawla.owner=Dueño
+tooltip.wawla.jumpStrength=Fuerza de Salto
+tooltip.wawla.speed=Velocidad
+tooltip.wawla.canHarvest=Minable
+tooltip.wawla.toolType=Herramienta Correcta
+tooltip.wawla.yes=Sí
+tooltip.wawla.no=No
+tooltip.wawla.burnTime=Tiempo de Cocción
+tooltip.wawla.seconds=Segundos Restantes
+tooltip.wawla.input=Input
+tooltip.wawla.output=Output
+tooltip.wawla.fuel=Combustible
+tooltip.wawla.levels=Niveles
+tooltip.wawla.primary=Primer Efecto
+tooltip.wawla.secondary=Segundo Efecto
+tooltip.wawla.shiftEnch=Manten la tecla de Agacharse para ver la Descripción de los Encantamientos
+tooltip.wawla.blockLevel=Nivel Requerido
+tooltip.wawla.amount=Cantidad
+tooltip.wawla.lightLevel=Nivel de Luz
+tooltip.wawla.sit=Sentado
+tooltip.wawla.birth=Enfriamiento
+tooltip.wawla.age=Crecimiento
+tooltip.wawla.tooltype.shovel=Pala
+tooltip.wawla.tooltype.pickaxe=Pico
+tooltip.wawla.tooltype.axe=Hacha
+tooltip.wawla.armorprot=Protección
+tooltip.wawla.armor=Puntos de Armadura
+tooltip.wawla.progress=Progreso
+tooltip.wawla.missingEnch=No se tiene ninguna descripción para este encantamiento.
+tooltip.wawla.tnt.fuse=Tiempo de Mecha
+tooltip.wawla.profession=Profesión
+tooltip.wawla.unknownplayer=Jugador Desconocido
+tooltip.wawla.sleepable=Utilizable para Dormir
+tooltip.wawla.hardness=Dureza
+tooltip.wawla.resistance=Resistencia contra Explosiones
+tooltip.wawla.enchPower=Poder de Encantamiento
+
+#Fixed/Missing Strings
+tile.null.name=Bloque sin nombre, repórtalo al autor del mod.
+entity.ItemFrame.name=Marco para Objetos
+
+#Vanilla Module Options
+option.wawla.showEquipment=¿Equipamiento de Entidades?
+option.wawla.furnace.output=¿Output del Horno?
+option.wawla.showHead=¿Nombres de las Cabezas de Jugador?
+option.wawla.horse.showJump=¿Fuerza de Salto de Caballos?
+option.wawla.furnace.fuel=¿Combustible del Horno?
+option.wawla.harvest.showHarvest=¿Minabilidad?
+option.wawla.harvest.showTool=¿Herramienta Correcta?
+option.wawla.harvest.showTier=¿Nivel correcto?
+option.wawla.furnace.input=¿Input del Horno?
+option.wawla.furnace.burntime=¿Tiempo de Cocción del Horno?
+option.wawla.horse.showSpeed=¿Velocidad de Caballos?
+option.wawla.showEnchDesc=¿Descripción de Encantamientos?
+option.wawla.beacon.showLevels=¿Nivel del Faro?
+option.wawla.beacon.showPrimary=¿Primer Efecto del Faro?
+option.wawla.beacon.showSecondary=¿Segundo Efecto del Faro?
+option.wawla.light.lightLevel=¿Nivel de Luz?
+option.wawla.light.showDay=¿Nivel de Luz Solar?
+option.wawla.light.monsterSpawn=¿Nivel de Luz de Monstruos?
+option.wawla.pets.showOwner=¿Dueño de la Mascota?
+option.wawla.pets.cooldown=¿Enfriamiento tras tener crías?
+option.wawla.pets.age=¿Tiempo hasta crecer?
+option.wawla.pets.sitting=¿Sentado?
+option.wawla.showMobArmor=¿Mostrar Armadura del Mob?
+option.wawla.harvest.showProgress=Mostrar Progresión en el Minado
+option.wawla.tnt.fuse=Mostrar Tiempo de Mecha
+option.wawla.showProfession=Mostrar Profesión de Aldeanos
+option.wawla.bed.sleepable=¿Estado de la Cama?
+option.wawla.info.showHardness=¿Mostrar Dureza?
+option.wawla.info.showResistance=¿Mostrar Resistencia Contra Explosiones?
+
+#Vanilla Enchantment Descriptions
+description.enchantment.protect.all=Reduce el daño recibido de muchas fuentes distintas de daño. Se acumula con otros encantamientos, como Resistencia contra el Fuego y Caída de Pluma, aunque hay un límite de cuánto daño será reducido. Se puede aplicar a todos los tipos de armadura.
+description.enchantment.protect.fire=Reduce el daño recibido de fuentes de fuego, como el fuego en sí, los blazes y la lava. También reduce el tiempo que tarda en apagarse el portador cuando se prende en llamas. Se puede aplicar a todos los tipos de armadura.
+description.enchantment.protect.fall=Reduce el daño recibido al caer y al usar perlas de ender. Solo se puede aplicar a botas.
+description.enchantment.protect.explosion=Reduce el daño recibido de explosiones, como dinamita y creepers, así como el empuje aplicado por ellas. Se puede aplicar a todos los tipos de armadura.
+description.enchantment.protect.projectile=Reduce el daño recibido de proyectiles, como flechas y cargas ígneas. Se puede aplicar a todos los tipos de armadura.
+description.enchantment.oxygen=Mejora la visión bajo el agua, y el tiempo que se puede contener la respiración en 15s por nivel, así como el intervalo entre daño de asfixia en 1s por nivel. Solo se puede aplicar a cascos.
+description.enchantment.waterWorker=Aumenta la velocidad de minado cuando se está bajo el agua. Solo se puede aplicar a cascos.
+description.enchantment.thorns=Otorga una probabilidad del 15% por nivel de hacer entre medio y dos corazones de daño a los mobs que dañan a quien lo lleva puesto. Se puece aplicar a todos los tipos de armadura.
+description.enchantment.damage.all=Aumenta el daño en 1.25 por nivel. Se puede aplicar a muchas herramientas, y principalmente a espadas.
+description.enchantment.damage.undead=Aumenta el daño contra los no muertos en 2.5 por nivel. Se puede aplicar a muchas herramientas, y principalmente a espadas.
+description.enchantment.damage.arthropods=Aumenta el daño contra los "arácnidos" (como Arañas y Lepismas) en 2.5 por nivel. Se puede aplicar a muchas herramientas, y principalmente a espadas.
+description.enchantment.knockback=Aumenta la distancia a la que se empujan los mobs al ser golpeados. Solo se puede aplicar a espadas.
+description.enchantment.fire=Inflama a los mobs golpeados, inflingiendo 3 puntos de daño de fuego más otros 4 por nivel a partir del segundo. Solo se puede aplicar a espadas.
+description.enchantment.lootBonus=Aumenta el botín obtenido de matar mobs. Cada nivel aumenta la cantidad de botín maxima en 1, y la probabilidad de botines raros en 0.5% (el primer nivel aumenta esta probabilidad en 3%). Solo se puede aplicar a espadas.
+description.enchantment.digging=Aumenta la velocidad de minar bloques en un 30%/69%/120%/186%/271% (según el nivel), pero solo si la herramienta es la correcta para el bloque. Se puede aplicar a picos, palas, hachas y cizallas.
+description.enchantment.untouching=Permite obtener algunos bloques que no se pueden obtener normalmente, como el hielo, la hierba y la glowstone. Se puede aplicar a picos, palas, hachas y cizallas.
+description.enchantment.durability=Aumenta la durabilidad media de una herramienta o armadura. Se puede aplicar a casi todo lo que tenga durabilidad, incluyendo mecheros, cañas de pescar, y armaduras y herramientas de todo tipo.
+description.enchantment.lootBonusDigger=Otorga una probabilidad de conseguir más objetos de determinados bloques. Se puede aplicar a picos, palas, y hachas.
+description.enchantment.arrowDamage=Aumenta el daño hecho por arcos en 25% por 1 más el nivel, redondeado al medio corazón más cercano. Solo se puede aplicar a arcos.
+description.enchantment.arrowKnockback=Aumenta la distancia a al que se empujan los mobs al ser disparados. Solo se puede aplicar a arcos.
+description.enchantment.arrowFire=Inflama las flechas disparadas, y los mobs y jugadores golpeados con ellas, y prende la mecha de bloques de dinamita. Solo se puede aplicar a arcos.
+description.enchantment.arrowInfinite=Evita que se consuman flechas al disparar. Solo se puede aplicar a arcos.
+description.enchantment.lootBonusFishing=Aumenta la probabilidad de conseguir tesoros al pescar en 1% por nivel. Solo se puede aplicar a cañas de pescar.
+description.enchantment.fishingSpeed=Reduce el tiempo que requiere un pez para morder el anzuelo en 5s por nivel, y aumenta la probabilidad de obtener basura y tesoro en 1% por nivel.
+
+#Jewelrycraft Tooltips
+tooltip.wawla.jewelry.molten=Fundido
+tooltip.wawla.jewelry.unmelted=Sin Fundir
+tooltip.wawla.jewelry.melttime=Tiempo para Fundir
+tooltip.wawla.jewelry.cooling=Enfriándose
+
+#Jewelrycraft Options
+option.wawla.jewelrycraft.showMoltenAmount=Cantidades Fundidas
+option.wawla.jewelrycraft.showMetalAmount=Cantidades por Fundir
+option.wawla.jewelrycraft.showMeltTime=Tiempo de Fundición
+option.wawla.jewelrycraft.showCooling=Tiempo de Enfriado
+
+#Tinkers Construct Tooltips
+tooltip.wawla.tinkers.dryness=Sequedad
+
+#Tinkers Construct Options
+option.wawla.tinkers.hideLandmine=¿Ocultar minas terrestres?
+option.wawla.tinkers.showDryerTime=¿Progreso de la Repisa de Secado?
+option.wawla.tinkers.showDryerItem=¿Objeto de la Repisa de Secado?
+option.wawla.tinkers.showFurnace=¿Contenidos del horno de losas?
+option.wawla.tinkers.showBurnTime=¿Tiempo de Cocción?
+
+#AquaCulture Enchantment Descriptions
+description.enchantment.aquacultureAppealing=Este encantamiento proporciona más tiempo para atrapar peces.
+description.enchantment.aquacultureBarbedHook=Este encantamiento aumenta las probabilidades de atrapar peces.
+description.enchantment.aquacultureDoubleHook=Este encantamiento permite obtener más de un solo pez o pieza de botín.
+description.enchantment.aquacultureHeavyLine=Este encantamiento permite atrapar peces más grandes y pesados.
+description.enchantment.aquacultureLongCast=Este encantamiento permite lanzar más lejos el anzuelo.
+description.enchantment.aquacultureMagnetic=Este encantamiento aumenta las probabilidades de atrapar peces.
+description.enchantment.aquacultureShortCast=Este encantamiento permite lanzar más cerca el anzuelo.
+
+#Pixelmon Tooltips
+tooltip.wawla.pixelmon.male=macho
+tooltip.wawla.pixelmon.female=hembra
+tooltip.wawla.pixelmon.ability=Habilidad
+tooltip.wawla.pixelmon.happiness=Felicidad
+tooltip.wawla.pixelmon.helditem=Objeto Equipado
+tooltip.wawla.pixelmon.none=Ninguno
+tooltip.wawla.pixelmon.attack=Ataque
+tooltip.wawla.pixelmon.defence=Defensa
+tooltip.wawla.pixelmon.health=PS
+tooltip.wawla.pixelmon.spattack=Ataque Especial
+tooltip.wawla.pixelmon.spdefence=Defensa Especial
+tooltip.wawla.pixelmon.speed=Velocidad
+tooltip.wawla.pixelmon.iv=IV
+tooltip.wawla.pixelmon.ev=EV
+tooltip.wawla.pixelmon.growth=Crecimiento
+tooltip.wawla.pixelmon.product=Producto
+tooltip.wawla.pixelmon.nature=Naturaleza
+tooltip.wawla.pixelmon.size=Tamaño
+
+#Pixelmon Fixed Strings
+entity.pixelmon.Pixelmon.name=Pixelmon
+
+#Pixelmon Options
+option.wawla.pixelmon.showFriendship=¿Felicidad?
+option.wawla.pixelmon.showApricornProduct=¿Tipo de Bonguri?
+option.wawla.pixelmon.showApricornGrowth=¿Crecimiento de Bonguri?
+option.wawla.pixelmon.showAbility=¿Habilidades?
+option.wawla.pixelmon.showHeldItem=¿Objeto Equipado?
+option.wawla.pixelmon.showNature=¿Naturaleza?
+option.wawla.pixelmon.showSize=¿Tamaño?
+option.wawla.pixelmon.showIV=¿Mostrar IVs?
+option.wawla.pixelmon.showEV=¿Mostrar EVs?
+
+#Thaumcraft Tooltips
+tooltip.wawla.thaumcraft.aspect=Aspecto
+tooltip.wawla.thaumcraft.linked=Enlazado
+tooltip.wawla.thaumcraft.dimension=Dimensión
+tooltip.wawla.thaumcraft.experience=Experiencia
+
+#Thaumcraft Options
+option.wawla.thaumcraft.jarAspect=¿Aspectos en Tarros?
+option.wawla.thaumcraft.jarAmount=¿Cantidades en Tarros?
+option.wawla.thaumcraft.mirrorLink=¿Enlace del Espejo?
+option.wawla.thaumcraft.mirrorDim=¿Dimensión del Espejo?
+option.wawla.thaumcraft.jarEXP=¿Experiencia en Tarros?
+option.wawla.thaumcraft.wandItem=¿Objeto a Recargar?
+option.wawla.thaumcraft.wandCharge=¿Carga de Varitas?
+option.wawla.thaumcraft.pedestalItem=¿Objetos en Pedestales?
+option.wawla.thaumcraft.deconAspect=¿Aspectos para Deconstruir?
+
+#Artifice Enchantment Descriptions
+description.enchantment.artifice.invisible=Un encantamiento de armaduras que las vuelve invisibles al ser equipadas.
+description.enchantment.artifice.soulstealing=Un encantamiento de armas que hace que los mobs suelten más puntos de experiencia. Niveles más altos aumentan aún más la experiencia obtenida.
+description.enchantment.artifice.resistance=Un encantamiento de armaduras que da protección contra el daño mágico y el daño de wither. Niveles más altos protegen aún mejor.
+
+#Thaumcraft Enchantment Descriptions
+description.enchantment.repair=Hace que los objetos se reparen lentamente por sí mismos. Hay dos niveles, y el segundo recupera durabilidad más rápidamente. Se puede aplicar a armas, Focos de Varita y otras herramientas, pero a cizallas no.
+description.enchantment.haste=Aumenta la velocidad de movimiento. A mayor nivel, mayor velocidad.
+description.enchantment.potency=Aumenta la fuerza de los hechizos lanzados. A mayor nivel, mayor fuerza. Solo se puede aplicar a Focos de Varita, y los efectos puecen variar de Foco a Foco.
+description.enchantment.frugal=Reduce cuánto vis se consume al usar Focos de Varita según el nivel. A mayor nivel, mayor reducción. Solo se puede aplicar a Focos de Varita.
+description.enchantment.wandfortune=Es parecido al encantamiento de fortuna, potencialmente aumentando la cantidad de objetos obtenidos al minar ciertos bloques. Solo se puede aplicar a Focos de Varita.
+
+#Thaumic Tinkerer Enchantment Descriptions
+description.enchantment.ttinkerer:slowFall=Reduce la velocidad y el daño de caída, pero no hasta el punto de negarlo completamente. Solo se puede aplicar a botas.
+description.enchantment.ttinkerer:ascentBoost=Aumenta la altura de salto. Solo se puede aplicar a perneras.
+description.enchantment.ttinkerer:pounce=Hace que los ataques mientras se está en el aire sean más fuertes. Solo se puede aplicar a perneras.
+description.enchantment.ttinkerer:shockwave=Hace que dañes a las entidades cercanas cuando aterrices en el suelo. Objetos que reducen el daño de caída que recibes hacen que este encantamiento haga menos daño.
+description.enchantment.ttinkerer:autoSmelt=Hace que la herramienta encantada rompa bloques de madera más rápido, a cambio de gastar el doble de durabilidad al minar otros tipos de bloque.
+description.enchantment.ttinkerer:tunnel=Hace que la herramienta encantada rompa bloques más rápido cuando se minan varios en línea recta.
+description.enchantment.ttinkerer:shatter=Hace que la herramienta encantada rompa bloques fuertes más rápido.
+description.enchantment.ttinkerer:desintegrate=Hace que la herramienta encantada rompa más rápido los bloques básicos, como tierra o piedra, que sean apropiados para ella. El resto de bloques usarán el doble de durabilidad.
+description.enchantment.ttinkerer:vampirism=Hace que parte del daño causado cure al atacante. Solo se puede aplicar a espadas.
+description.enchantment.ttinkerer:dispersedStrike=Hace que los espadazos tengan un segundo ataque con daño reducido tras ellos. Solo se puede aplicar a espadas.
+description.enchantment.ttinkerer:focusedStrike=Aumenta el daño que hace cada ataque consecutivo contra un mob dado, a cambio de reducir el daño del primero. Solo se puede aplicar a espadas.
+description.enchantment.ttinkerer:finalStrike=Da una probabilidad de triplicar el daño causado. Solo se puede aplicar a espadas.
+description.enchantment.ttinkerer:valiance=Aumenta el daño realizado cuando se tiene poca vida. Solo se puede aplicar a espadas.
+description.enchantment.ttinkerer:quickDraw=Reduce el tiempo necesario para tensar la cuerda de los arcos. Solo se puede aplicar a arcos.
+
+#Ars Magica 2 Enchantment Descriptions
+description.enchantment.magicresist=Reduce el daño recibido de fuentes mágicas.
+description.enchantment.soulbound=Cuando mueras, este objeto se mantendrá en tu inventario.
+
+#Red Power 2 Enchantment Descriptions
+description.enchantment.vorpal=Aumenta la probabilidad de que los mobs te suelten sus cabezas al morir.
+description.enchantment.disjunction=Aumenta el daño hecho a Endermans y Wither Skeletons.
+
+#Special Mobs Enchantment Descriptions
+description.enchantment.SpecialMobs.painBow=Hace que los arcos hagan daño extra que evita la protección. Cada nivel aumenta el daño en medio corazón.
+description.enchantment.SpecialMobs.painSword=Hace que las espadas hagan daño extra que evita la protección. Cada nivel aumenta el daño en medio corazón.
+description.enchantment.SpecialMobs.plagueBow=Hace que los arcos apliquen un efecto negativo aleatorio a los enemigos, a saber: lentitud, náusea, ceguera, hambre, debilidad y veneno.
+description.enchantment.SpecialMobs.plagueSword=Hace que las espadas apliquen efectos negativos aleatorios a quienes golpean. Los efectos posibles son: lentitud, náusea, ceguera, hambre, debilidad y veneno.
+description.enchantment.SpecialMobs.poisonBow=Hace que los arcos envenenen a los enemigos. Cada nivel aumenta el nivel de veneno aplicado.
+description.enchantment.SpecialMobs.poisonSword=Hace que las espadas envenenen a los enemigos. Cada nivel aumenta el nivel de veneno aplicado.
+
+#Natural Absorption Enchantment Descriptions
+description.enchantment.NaturalAbsorption.absorb=Encantamiento para armaduras que aumenta la absorción máxima de quienes las llevan puestas.
+
+#Simple Flight Enchantment Descriptions
+description.enchantment.fly_longer=Aumenta el número total de aleteos en dispositivos de Vuelo Simples.
+description.enchantment.fly_faster=Reduce el tiempo entre aleteos de dispositivos de Vuelo Simples. Inútil en Jet Packs y Planeadores Jet
+
+#More Swords Mod Enchantment Descriptions
+description.msm.unused=Nota: Este objeto/bloque se ha añadido para facilitar la compatibilidad con otros mods. Ahora mismo no hacen nada y no son parte "normal" de este mod. No se van a añadir menas o herramientas—esto es ÚNICAMENTE para la compatibilidad entre mods.
+description.enchantment.msm.ignite=Inflama a los mobs golpeados, haciendo daño igual al nivel.
+description.enchantment.msm.spark=Hace 3 de daño de fuego a los mobs que están en 2.4 bloques del objetivo. Ni el jugador como el objetivo serán inflamados.
+description.enchantment.msm.feast=Restaura entre 0 y 3 de durabilidad, multiplicado por el nivel, cuando se usa.
+description.enchantment.msm.vitality=Consume 256 de durabilidad cuando se usa, a cambio de dar al usuario varios bufos, incluyendo regeneración, vida instantánea y corazones extra.
+description.enchantment.msm.venomAspect=Envenena al mob objetivo durante tantos segundos como el nivel de encantamiento. Cabe notar que muchos mobs vanilla, como las arañas, zombies y esqueletos, son inmunes al veneno.
+description.enchantment.msm.absorb=Otorga una probabilidad del 5% de restaurar entre 0 y 2 puntos de hambre.
+description.enchantment.msm.keenEdge=Añade 1 al daño de la espada por nivel.
+description.enchantment.msm.scorn=Duplica el daño de la espada cuando se usa fuera del Overworld.
+description.enchantment.msm.enderPulse=Teletransporta al jugador hacia donde se está mirando. Tiene 18 bloques de rango por nivel, y gasta 50 de durabilidad, además de aplicar 1 de daño de caída al jugador.
+description.enchantment.msm.enderAura=Se dispara un 15% de las veces que se golpea al jugador. Cuando lo hace, el jugador será teletransportado a un mob aleatorio, posiblemente hostil, que esté a menos de 30 bloques, si es que hay alguno.
+description.enchantment.msm.greed=Este encantamiento otorga una probabilidad del 7% de soltar de 1 a 3 puntos extra de experiencia.
+description.enchantment.msm.wisdom=Este encantamiento está actualmente roto. Culpa mía :/
+description.enchantment.msm.frozenAspect=Este encantamiento ralentiza a los mobs durante 3 segundos por nivel.
+description.enchantment.msm.frostWave=Este encantamiento ralentiza a los mobs en un radio de 2.5 bloques del objetivo durante 1.5 segundos.
+description.enchantment.msm.ascension=Este encantamiento lanza a los mobs objetivo por los aires. Golpea al mob antes de que toque el suelo para aumentar exponencialmente el efecto de lanzamiento.
+description.enchantment.msm.descension=Este encantamiento hace que el jugador caiga a un ritmo mucho más lento de lo normal. Para activar el efecto, mantén pulsado Shift.
+description.enchantment.msm.shadows=Este encantamiento cegará al mob objetivo durante 1.5 segundos. También hay un 12% de probabilidad de infligir Wither durante un segundo.
+description.enchantment.msm.decay=Este encantamiento inflige Wither al mob objetivo durante algo menos de 4 segundos.
+description.enchantment.msm.stealth=Este encantamiento hace que el jugador se vuelva invisible cuando se active. A diferencia de la poción de invisibilidad, este efecto no emite partículas y no tiene límite de tiempo ni duración. Para activarlo o desactivarlo basta con hacer clic derecho con la espada. Cabe destacar que las espadas y armaduras seguirán siendo visibles mientras este efecto esté activado.
+description.enchantment.msm.extinction=Este encantamiento mata a todos los mobs del mapa que sean instancia del mob objetivo. Se puede usar en barcos para matar a todos los barcos del mundo y se puede usar para manejar entidades del mundo. Este efecto no afecta a los jugadores.
+
+#Railcraft Enchantments
+description.enchantment.railcraft.crowbar.destruction=Este encantamiento es exclusivo para palancas. Deconstruye bloques en una zona amplia.
+description.enchantment.railcraft.crowbar.implosion=Este encantamiento es exclusivo para palancas. Aumenta el daño infligido a Creepers.
+description.enchantment.railcraft.crowbar.wrecking=Este encantamiento es exclusivo para palancas. Aumenta el daño (funciona igual que Filo).
+
+#OpenBlocks Enchantments
+description.enchantment.openblocks.explosive=Al recibir daño, la Pólvora se consumirá para crear una explosión que daña a mobs y bloques.
+description.enchantment.openblocks.flimflam=Inflige "Mala suerte" a todo lo que ataque al jugador.
+description.enchantment.openblocks.laststand=Cuando el usuario está a medio corazón, en lugar de morir por el siguiente golpe, utiliza los niveles de XP para absorber el daño.
+
+#Forbidden Magic Enchantments
+description.enchantment.cluster=Un Pico Camaleón con el encantamiento Núcleo Ígneo tiene una probabilidad de soltar racimos al extraer ciertos minerales. Los racimos son mucho más puros que el mineral en bruto y se pueden fundir por el resultado de fundición normal del mineral. Los niveles más altos de Núcleo Ígneo aumentan la probabilidad de obtener racimos.
+description.enchantment.consuming=Los Adoquines, la Dirt, la Grava o el Netherrack picados por una herramienta con Consumición se destruirán en lugar de caer al suelo.
+description.enchantment.corrupting=El encantamiento Corromper te permite recoger Fragmentos del Nether sin tener que estar en el Nether. Un pico encantado con Corromper corromperá aleatoriamente los fragmentos elementales recogidos y los convertirá en fragmentos del Nether. Los fragmentos sólo parecen susceptibles mientras están encerrados en piedra infundida, por lo que corromper un grupo de fragmentos no tendrá ningún efecto.
+description.enchantment.educational=Has creado un encantamiento para infundir en un arma la esencia misma del conocimiento y el aprendizaje. Al martillar ese aprendizaje en la cabeza de los monstruos, estos soltarán más experiencia de lo normal, dependiendo del nivel del encantamiento.
+description.enchantment.greedy=Cada vez que un arma Capitalista mata a una criatura hostil, existe la probabilidad de que suelte un Fragmento de Esmeralda. Si un arma Capitalista se usa para matar a un aldeano, este dejará caer una de sus esmeraldas.
+description.enchantment.impact=Una Herramienta Camaleón con el encantamiento Impacto mina un área de 3 x 3 bloques en lugar de una sola, lo que agiliza la minería exploratoria y facilita el aplanamiento de áreas.
+description.enchantment.voidtouched=El encantamiento Tocado por el Vacío otorga a la Herramienta Camaleón la misma cualidad regeneradora que las Herramientas de Vacío.
+description.enchantment.wrath=El encantamiento Ira aumenta el poder ofensivo de un arma, pero sigue siendo compatible con Filo, Perdición de los Artrópodos y Golpeo.
+
+#BiblioCraft Enchantments
+description.Eternal Compass=Cuando el jugador muera, este aparecerá con una Brújula Eterna que lo llevará de vuelta a su punto de muerte.
+description.Reading=Al mirar los objetos en los bloques de BiblioCraft en el mundo, se mostrará su texto flotante.
+
+#Witching Gadgets Enchantments
+description.enchantment.wg.backstab=Los objetos encantados con Puñalada infligen un 20% de daño adicional por nivel al atacar por la espalda, más otro 40% cuando el objetivo no es consciente de tu presencia.
+description.enchantment.wg.gemstoneBrittle=Infundir fragilidad a una gema tallada con witchery.
+description.enchantment.wg.gemstonePotency=Infunde una gema cortada de witchery para hacerla más potente.
+description.enchantment.wg.invisibleGear=El primer nivel de este encantamiento hará que tu equipo sea translúcido cuando tú mismo seas invisible, el segundo nivel lo hará permanentemente invisible.
+description.enchantment.wg.rideProtect=Moverse es muy difícil cuando hay alguien subido a tu espalda. Encantar tu casco con este hechizo de repulsión debería solucionar ese problema. Quienquiera que intente saltar sobre ti saldrá herido y despedido.
+description.enchantment.wg.soulbound=Cuando el jugador muera, el objeto/herramienta/armadura se mantendrá en el inventario y no caerá al suelo.
+description.enchantment.wg.stealth=Al aplicar este encantamiento a tus botas o grebas, tendrás una probabilidad de pasar desapercibido mientras estés agachado. La probabilidad aumenta un 10% con cada nivel, pero disminuye un 10% si estás a la vista del objetivo en cuestión. Si te descubren, todos los enemigos en un radio de 5 bloques serán alertados.
+description.enchantment.wg.unveiling=Este encantamiento puede aplicarse a las Gafas de Revelación o a otro accesorio para la cabeza de la misma función. Mientras lleves el objeto encantado, podrás ver a las criaturas con el potenciador de invisibilidad. Además, el encantamiento Traslucidez deja de tener efecto cuando lo usan otras personas y los usuarios del manto espectral se muestran con mayor claridad.
+
+#Thaumic Exploration Enchantments
+description.enchantment.binding=En el nivel I, ralentiza a los mobs golpeados durante unos segundos. En el nivel II, evita que los Endermen se teletransporten y que los Creepers exploten durante unos segundos.
+description.enchantment.disarm=Los enemigos atacados tienen una probabilidad de soltar sus armas, no funciona con otros jugadores. Nota: El encantamiento Espinas del Vanilla también lo activa.
+description.enchantment.nightVision=Consigues un efecto de poción de Visión Nocturna permanente mientras sujetes un objeto con este encantamiento.
+
+#EnderIO Enchantments
+description.enchantment.autosmelt=Cualquier bloque picado por un objeto encantado con este encantamiento se fundirá al instante como si lo procesara un horno.
+description.enchantment.xpboost=Este encantamiento aumenta en un porcentaje la cantidad de experiencia que se obtiene al matar mobs o jugadores o al romper bloques.
+description.enchantment.enderio.soulBound=Cuando el jugador muera, el objeto/herramienta/armadura se mantendrá en el inventario y no caerá al suelo.
+
+#EnderZoo Enchantments
+description.enchantment.enderzoo.witherArrow=Inflige Wither al golpear durante 5 segundos.
+description.enchantment.enderzoo.witherWeapon=Inflige Wither al golpear durante 5 segundos.
+
+#BattleGear Enchantments
+description.enchantment.bash.weightless=Reduce la resistencia perdida por embestida con escudo.
+description.enchantment.bash.power=Aumenta la fuerza de empuje de la embestida con escudo (repele más al oponente).
+description.enchantment.bash.damage=Añade daño a una embestida con escudo.
+description.enchantment.shield.usage=Reduce la resistencia perdida al bloquear con escudo.
+description.enchantment.shield.recover=Aumenta la tasa de recuperación de resistencia al sujetar el escudo, pero no al bloquear.
+description.enchantment.bow.loot=Añade una probabilidad de aumentar el botín al matar con un arco.
+description.enchantment.bow.charge=Menor tiempo de carga del arco, sin afectar al ángulo de visión.
+
+#Thaumic Bases Enchantments
+description.enchantment.elderKnowledge=Probabilidad de recibir conocimiento de mobs caídos.
+description.enchantment.eldritchBane=Inflige más daño a las criaturas Eldritch.
+description.enchantment.magicTouch=Consigue más Orbes de Aspecto de los enemigos muertos.
+description.enchantment.tainted=Inflige veneno contaminante a los enemigos atacados.
+description.enchantment.vaporising=Consigues Esencia Cristalizada de mobs muertos.
+
+#Misc. Enchantments
+description.enchant.cofh.holding=Aumenta el número de ranuras (8-9 por nivel) de una caja fuerte o mochila.
+description.enchant.cofh.multishot=Hace que los arcos disparen varias flechas con un coste de 1 flecha.
+description.enchantment.draconicevolution.reaperEnchant=Al matar a un mob, existe la probabilidad de que suelte una Alma de Mob correspondiente. Esta probabilidad adicional se acumula con la probabilidad nativa de soltar un alma de las distintas armas de Draconic Evolution.
+description.enchantment.damage.endermen=Inflige más daño a los mobs Ender e impide que se teletransporten.
+description.enchantment.damage.radioactivity=Añade radiactividad a tu arma o armadura haciendo que los mobs o los jugadores sufran.
+description.gadomancy.enchantment.revealer=Un encantamiento para tu casco. Cuando se usa, hace visibles los nodos, como las Gafas de Revelación de Thaumcraft.
+description.enchantment.projectred.expansion.fuel_efficiency=Mayor eficiencia de combustible para tu jetpack.

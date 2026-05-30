@@ -1820,7 +1820,7 @@ GT5U.fusion.plasma=Выход плазмы
 
 GT5U.tpm.parallelwindow=Открыть окно конфигурации параллели
 
-GT5U.EBF.heat=Температура в печи
+GT5U.EBF.heat.s=Heat capacity: §a%s §rK
 GT5U.coil.None=Нет
 GT5U.coil.ULV=Нет
 GT5U.coil.LV=Мельхиор
@@ -2663,11 +2663,11 @@ GT5U.gui.text.compressed_bus_stored_items=Удерживайте SHIFT, чтоб
 GT5U.gui.text.button.pyrotheum.enabled=Pyrotheum Heating: §2Enabled
 GT5U.gui.text.button.pyrotheum.disabled=Pyrotheum Heating: §4Disabled
 
-GT5U.gui.text.nil=None
+GT5U.gui.text.nil=Нет
 GT5U.gui.text.turbine_title=Турбины
 
 GT5U.gui.text.hatch.output.cycle=Click to cycle modes
-GT5U.gui.text.hatch.output.filter.none.0=None
+GT5U.gui.text.hatch.output.filter.none.0=Нет
 GT5U.gui.text.hatch.output.filter.none.1=Will be locked to the next fluid that is put in (or use fluid cell to lock)
 
 GT5U.gui.text.button.cryotheum.enabled=Cryotheum Cooling: §2Enabled
@@ -3580,12 +3580,12 @@ GT5U.armor.tooltip.energycoreminimum=Minimum Energy Core Tier: %s
 GT5U.armor.tooltip.energycore=Energy Core Tier: %s
 GT5U.armor.tooltip.chargetier=Charge Tier: %s
 GT5U.armor.tooltip.maxenergy=Maximum Energy: %s
-GT5U.armor.tooltip.applicable=Applicable To:
-GT5U.armor.tooltip.effects=Adds Effect:
-GT5U.armor.tooltip.requires=Requires Effect:
+GT5U.armor.tooltip.applicable=Применимо к:
+GT5U.armor.tooltip.effects=Добавляет эффект:
+GT5U.armor.tooltip.requires=Требуется эффект:
 GT5U.armor.tooltip.incompatible=Incompatible With:
 GT5U.armor.tooltip.stackable= (Stackable)
-GT5U.armor.tooltip.category=Category: %s
+GT5U.armor.tooltip.category=Категория: %s
 GT5U.armor.tooltip.slots=Armor Slots:
 GT5U.armor.tooltip.armorvalue=Protection: %s
 GT5U.armor.tooltip.protection=§6Protection§r
@@ -5483,6 +5483,8 @@ gt.item.apiary_upgrade.unlight.tooltip=Улучшение "Ночь" для пр
 ## Special items
 gt.item.nuclear_star.name=Ядерная звезда
 gt.item.nuclear_star.tooltip=По полномочию Greg, Я приказываю этой звезде быть очень горячей.
+gt.item.pseudo_star.name=Псевдозвезда
+gt.item.pseudo_star.tooltip=Миниатюрная черная дыра-звезда. Некоторые могут назвать ее квазизвездой.
 gt.item.cover.metrics_transmitter.name=Модуль передатчик метрики
 gt.item.cover.metrics_transmitter.tooltip=Выведение информационных панелей на новый уровень!\nСоздает расширенную сенсорную карту GregTech при подключении\nРаботает в разных измерениях или если механизм разобрана\nУдаление этой крышки уничтожит связанную карту\nАвтор: §cQuerns
 
@@ -5707,6 +5709,7 @@ GT5U.waila.mebf.pyrotheum=Current Pyrotheum Drain: §c%s§r/s
 
 GT5U.waila.mvf.speedboost=Current Speed Modifier: §a%s
 GT5U.waila.mvf.cryotheum=Current Cryotheum Drain: §3%s§r/s
+GT5U.waila.mvf.subspace=Current Subspace Cooling: §d%s§r/s of §a%s
 
 achievement.gettingstartedwithgt=Начало работы с GT
 achievement.gettingstartedwithgt.desc=Скрафтите деревянную кирку
