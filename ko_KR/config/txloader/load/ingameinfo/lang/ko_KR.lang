@@ -19,11 +19,11 @@ ingameinfoxml.config.fileInterval=File Tag Interval
 ingameinfoxml.config.fileInterval.tooltip=The interval between file reads for the 'file' tag (in seconds).
 
 # gui - config - alignment
-ingameinfoxml.config.topleft=Top Left
+ingameinfoxml.config.topleft=좌측 상단
 ingameinfoxml.config.topleft.tooltip=Offsets for the top left side of the screen (X<space>Y).
-ingameinfoxml.config.topcenter=Top Center
+ingameinfoxml.config.topcenter=중앙 상단
 ingameinfoxml.config.topcenter.tooltip=Offsets for the top center side of the screen (X<space>Y).
-ingameinfoxml.config.topright=Top Right
+ingameinfoxml.config.topright=우측 상단
 ingameinfoxml.config.topright.tooltip=Offsets for the top right side of the screen (X<space>Y).
 ingameinfoxml.config.middleleft=Middle Left
 ingameinfoxml.config.middleleft.tooltip=Offsets for the middle left side of the screen (X<space>Y).
@@ -31,11 +31,11 @@ ingameinfoxml.config.middlecenter=Middle Center
 ingameinfoxml.config.middlecenter.tooltip=Offsets for the middle center side of the screen (X<space>Y).
 ingameinfoxml.config.middleright=Middle Right
 ingameinfoxml.config.middleright.tooltip=Offsets for the middle right side of the screen (X<space>Y).
-ingameinfoxml.config.bottomleft=Bottom Left
+ingameinfoxml.config.bottomleft=좌측 하단
 ingameinfoxml.config.bottomleft.tooltip=Offsets for the bottom left side of the screen (X<space>Y).
-ingameinfoxml.config.bottomcenter=Bottom Center
+ingameinfoxml.config.bottomcenter=중앙 하단
 ingameinfoxml.config.bottomcenter.tooltip=Offsets for the bottom center side of the screen (X<space>Y).
-ingameinfoxml.config.bottomright=Bottom Right
+ingameinfoxml.config.bottomright=우측 하단
 ingameinfoxml.config.bottomright.tooltip=Offsets for the bottom right side of the screen (X<space>Y).
 
 # gui - tag list
@@ -239,16 +239,16 @@ ingameinfoxml.tag.rltime24.desc=Real time (24 hour format).
 ingameinfoxml.tag.rltime12.desc=Real time (12 hour format).
 
 # gui - tag list - world
-ingameinfoxml.tag.worldname.desc=World name.
-ingameinfoxml.tag.worldsize.desc=World size.
+ingameinfoxml.tag.worldname.desc=월드 이름.
+ingameinfoxml.tag.worldsize.desc=월드 크기.
 ingameinfoxml.tag.worldsizemb.desc=World size in MiB.
 ingameinfoxml.tag.seed.desc=World seed.
 ingameinfoxml.tag.difficulty.desc=World difficulty name.
 ingameinfoxml.tag.difficultyid.desc=World difficulty id.
-ingameinfoxml.tag.dimension.desc=Dimension name.
-ingameinfoxml.tag.dimensionid.desc=Dimension id.
-ingameinfoxml.tag.biome.desc=Biome name.
-ingameinfoxml.tag.biomeid.desc=Biome id.
+ingameinfoxml.tag.dimension.desc=차원 이름.
+ingameinfoxml.tag.dimensionid.desc=차원 id.
+ingameinfoxml.tag.biome.desc=바이옴 이름.
+ingameinfoxml.tag.biomeid.desc=바이옴 id.
 ingameinfoxml.tag.daytime.desc=§etrue§r if it's daytime, §efalse§r otherwise.
 ingameinfoxml.tag.raining.desc=§etrue§r if it's raining, §efalse§r otherwise.
 ingameinfoxml.tag.thundering.desc=§etrue§r if it's thundering, §efalse§r otherwise.
@@ -256,9 +256,9 @@ ingameinfoxml.tag.snowing.desc=§etrue§r if it's snowing, §efalse§r otherwise
 ingameinfoxml.tag.nextrain.desc=Time until the next rain.
 ingameinfoxml.tag.slimes.desc=§etrue§r if the current chunk is a slime chunk, §efalse§r otherwise.
 ingameinfoxml.tag.hardcore.desc=§etrue§r if the world is in hardcore mode, §efalse§r otherwise.
-ingameinfoxml.tag.temperature.desc=Biome temperature.
+ingameinfoxml.tag.temperature.desc=바이옴 기온.
 ingameinfoxml.tag.localtemperature.desc=Biome temperature at your current position.
-ingameinfoxml.tag.humidity.desc=Biome humidity.
+ingameinfoxml.tag.humidity.desc=바이옴 습도.
 
 # gui - tag list - integration - blood magic
 ingameinfoxml.tag.bmlp.desc=Current §4Essence§r.
@@ -297,14 +297,14 @@ ingameinfoxml.tag.gtnewore.desc=§etrue§r if using equispaced ore generation, �
 
 # keys
 ingameinfoxml.key.category=InGame Info XML
-ingameinfoxml.key.toggle=Toggle Overlay
+ingameinfoxml.key.toggle=오버레이 전환
 
 # commands
 commands.ingameinfoxml.usage=/igi <reload|load|save|enable|disable|taglist|config> [filename]
 commands.ingameinfoxml.reload=Reloading...
 commands.ingameinfoxml.load=Loading %s...
 commands.ingameinfoxml.save=Saving %s...
-commands.ingameinfoxml.success=Done!
-commands.ingameinfoxml.failure=Something went wrong!
-commands.ingameinfoxml.enable=InGame Info XML overlay is now enabled.
-commands.ingameinfoxml.disable=InGame Info XML overlay is now disabled.
+commands.ingameinfoxml.success=완료!
+commands.ingameinfoxml.failure=문제가 발생했습니다!
+commands.ingameinfoxml.enable=InGame Info XML 오버레이가 활성화되었습니다.
+commands.ingameinfoxml.disable=InGame Info XML 오버레이가 비활성화 되었습니다.
