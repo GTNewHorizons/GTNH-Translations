@@ -43,7 +43,12 @@ class Converter:
             print(f"::warning::skipping ParaTranz file with no extra metadata (uploaded manually?): {paratranz_file.name}")
             logger.warning("skipping file with no extra metadata (uploaded manually?): {}", paratranz_file.name)
             return None
-        file_extra = FileExtra.model_validate(file_extra_dict)
+        try:
+            file_extra = FileExtra.model_validate(file_extra_dict)
+        except Exception as e:
+            print(f"::warning::skipping ParaTranz file with invalid extra metadata: {paratranz_file.name} ({e})")
+            logger.warning("skipping file with invalid extra metadata: {} ({})", paratranz_file.name, e)
+            return None
         content = file_extra.original
         string_items = await self.client.get_strings(paratranz_file.id)
         string_items_map = {item.key: item for item in string_items}
