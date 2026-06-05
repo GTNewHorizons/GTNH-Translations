@@ -15,8 +15,8 @@ chat.warptheory.deadlywarp=紙に火がついた
 chat.warptheory.permanentwarp=永続的な歪み
 chat.warptheory.normalwarp=通常の歪み
 chat.warptheory.tempwarp=一時的な歪み
-chat.warptheory.potionwarning.1=§c§l§nWARNING§r§c: drinking this potion will reset §lALL warp, research, scanned items, and discovered aspects§r§c!
-chat.warptheory.potionwarning.2=§cContinue drinking for §l10 seconds§r§c if you are absolutely certain you want to reset everything.
+chat.warptheory.potionwarning.1=§c§l§n警告§r§c: このポーションを飲むと、§nすべての歪み、研究、調査したアイテム、発見した相§r§cがリセットされます！
+chat.warptheory.potionwarning.2=§c本当にすべてをリセットしたい場合、このポーションを§n10秒間§r§c飲み続けてください。
 
 # << Item names >>
 item.warptheory.cleanserminor.name=不純な涙
@@ -24,7 +24,7 @@ item.warptheory.cleanser.name=純粋な涙
 item.warptheory.amulet.name=浄化のタリスマン
 item.warptheory.something.name=何かの塊
 item.warptheory.paper.name=神秘のリトマス試験紙
-item.warptheory.oblivionpotion.name=Potion of Blissful Oblivion
+item.warptheory.oblivionpotion.name=至高の忘却のポーション
 
 # << entity names >>
 entity.WarpTheory.taintSheepSafe.name=汚染されたヒツジ
@@ -40,7 +40,7 @@ tooltip.warptheory.amulet=歪みを除去
 tooltip.warptheory.something=おそらく食用...
 tooltip.warptheory.paper=歪みに反応
 tooltip.warptheory.portableshower=汚れを洗い流す
-tooltip.warptheory.oblivionpotion=§c§l§nThe ultimate contingency plan§r
+tooltip.warptheory.oblivionpotion=§c§l§n究極のコンティンジェンシープラン§r
 
 # << portable shower >>
 tc.research_name.warptheory.portableshower=携帯シャワー
@@ -73,10 +73,10 @@ tc.research_text.warptheory.paper=ほとんど科学的
 research.warptheory.paper=体内に蓄積された負の魔力量を測定するには、周囲で発生する奇怪な現象を数えるよりも正確な方法が必要だと判断した。<BR>サリス・ムンドゥスと水のエッセンスを紙に付与することで、自身がどれほどの危険に身をさらしているのかを測定する手段を生み出した。
 
 # << Oblivion Potion >>
-tc.research_name.warptheory.oblivionpotion=Potion of Blissful Oblivion
-tc.research_text.warptheory.oblivionpotion=Uncork in case of emergency
-research.warptheory.oblivionpotion.1=Knowledge may be power, but some say that ignorance is bliss. Should you find yourself at a true dead end, your mind burdened beyond recovery by warp, you have devised a final contingency: the Potion of Blissful Oblivion.<BR>Upon drinking this concoction, your warp is purged entirely. Yet such peace comes at a terrible cost: your knowledge of all research, every object scanned with the thaumometer, and every aspect you have discovered will be lost.
-research.warptheory.oblivionpotion.2=This loss is absolute and irreversible. You will be forced to begin your pursuit of knowledge from the very beginning. Though more refined methods of cleansing the mind may exist, this potion remains a desperate, but reliable, last resort.
+tc.research_name.warptheory.oblivionpotion=至高の忘却のポーション
+tc.research_text.warptheory.oblivionpotion=緊急時に引き抜いてください
+research.warptheory.oblivionpotion.1=知識は力となり得るが、知らぬが仏と言う者もいる。本当に行き詰まり、歪みによって心が回復不能なほど重く圧迫されていると感じたとき、最終手段を思いついた。それが至高の忘却のポーションだ。<BR>この調合薬を飲むと、歪みから完全に解放される。しかし、その平和は重大な代償をもって実現される。研究に関する知識、ソーモメーターで調査した対象、発見した相のすべてを失うことになるのだ。
+research.warptheory.oblivionpotion.2=この損失は絶対的かつ不可逆的だ。知識を追及する営みを完全に最初からやり直すことを余儀なくされる。精神を浄化するのにもっといい方法はあるだろうが、このポーションは、手段としてはやむを得ないものの、信頼できる最後の手段だ。
 
 # << chat warp effects >>
 chat.warptheory.bats=羽ばたく音が宙を満たした...
