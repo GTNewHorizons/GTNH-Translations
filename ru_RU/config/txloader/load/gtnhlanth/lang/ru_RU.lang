@@ -12,12 +12,12 @@ gtnhlanth.tt.hintNumber=Блок подсказки под №%s
 
 # Digester
 gtnhlanth.tt.digester.machinetype=Дигестер
-gtnhlanth.tt.digester.info1=Input ores and fluid, output water
+gtnhlanth.tt.digester.info1=Ввод руды и жидкости, вывод вода
 
 # Dissolution Tank
 gtnhlanth.tt.disstank.machinetype=Реактор-разбавитель
-gtnhlanth.tt.disstank.info1=Input Water and Fluid, output Fluid
-gtnhlanth.tt.disstank.info2=Fluids must be input in the exact ratio as listed in NEI
+gtnhlanth.tt.disstank.info1=Ввод вода и жидкость, вывод жидкость
+gtnhlanth.tt.disstank.info2=Жидкости должны вводиться в точном соотношении, указанном в NEI
 
 # Source Chamber
 gtnhlanth.tt.sc.machinetype=Particle Source
@@ -49,52 +49,52 @@ gtnhlanth.tt.linac.info10=§2Output Beam Focus§f = §2Input Beam Focus§f * §e
 gtnhlanth.tt.linac.info11=where §eMachine Focus§f = min(90, max(5, (-0.9 * (Length-1) * 1.1^(0.2 * §bCoolant Temperature§f) + 110)))
 
 # Synchrotron
-gtnhlanth.tt.synch.machinetype=Particle Accelerator
-gtnhlanth.tt.synch.info1=Accelerates particle beams until they produce a photon beam from the relativistic Larmor effect
-gtnhlanth.tt.synch.info2=Electrically neutral §5particles§7 and beams with less than 25 §2Focus§7 are therefore unaffected
-gtnhlanth.tt.synch.info3=Requires §f32,000 %s/s§7 of §bcoolant§7 to run, returns as §chot coolant
+gtnhlanth.tt.synch.machinetype=Ускоритель частиц
+gtnhlanth.tt.synch.info1=Ускоряет пучки частиц до тех пор, пока они не начнут производить пучок фотонов в результате релятивистского эффекта Лармора
+gtnhlanth.tt.synch.info2=Поэтому §5электрически§7 нейтральные частицы и пучки с §2фокусом§7 менее 25 остаются неизменными
+gtnhlanth.tt.synch.info3=Для работы требуется §f32.000 %s/с§7 §bхладогента§7, и возвращается в виде §cгорячего хладагент
 gtnhlanth.tt.synch.info4=Increasing power increases the §6Output Beam Rate
 gtnhlanth.tt.synch.info5=Preserve §2Beam Focus§7 more effectively with lower temperature §bcoolant
 gtnhlanth.tt.synch.info6=Increasing the tier of the §dAntenna Casings§7 improves the efficiency of the machine
 gtnhlanth.tt.synch.info7=The §9energies§7 in the following formulae must all be in keV
-gtnhlanth.tt.synch.info8=§9Output Beam Energy§f = §eIR§7 * §ePower Scale Factor
-gtnhlanth.tt.synch.info9=where §eIR§7 = (§9Input Beam Energy§f)^(1.13 * (§dAntenna Tier§f)^(4/9)) / 40,000,000
-gtnhlanth.tt.synch.info10=and §ePower Scale Factor§f = 1 - 0.15^(§3Total EU/t Provided§f / (30,384 * (§dAntenna Tier§f)^2.5))
-gtnhlanth.tt.synch.info11=§2Output Beam Focus§f = (§2Input Beam Focus§f + §eMachine Focus§f)/2.5§7 if §2Input Beam Focus§f > §eMachine Focus
-gtnhlanth.tt.synch.info12=§2Output Beam Focus§f = §2Input Beam Focus§f * §eMachine Focus§f/100§7 if §2Input Beam Focus§f <= §eMachine Focus
-gtnhlanth.tt.synch.info13=where §eMachine Focus§f = max(10, min(90, 1.5^(12 - §bCoolant Temperature§f/40)))
-gtnhlanth.tt.synch.info14=§6Output Beam Rate§f = floor(2.5^(§dAntenna Tier§f) * sqrt(§3Total EU/t Provided§f) * §6Input Beam Rate§f/15,000)
+gtnhlanth.tt.synch.info8=§9Энергия выходного пучка§7§f = §cIR§7 * §eкоэффициент масштабирования мощности
+gtnhlanth.tt.synch.info9=где §cIR = (§9энергия входного пучка§f) ^(1.13*(§dтир антенны§f)^(4/9))/40.000.000
+gtnhlanth.tt.synch.info10=и §eкоэффициент масштабирования мощности§f = 1 - 0.15^(§3общая мощность EU/t§f / (30.384 * (§dтир антенны§f)^(5/2)))
+gtnhlanth.tt.synch.info11=§2Фокус входного пучка§f = (§2Фокус входного пучка§f + §eФокус механизма§f)/2.5§7, если §2Фокус входного пучка§f > §eФокус механизма
+gtnhlanth.tt.synch.info12=§2Фокус выходного пучка§f = §2Фокус входного пучка§f * §eФокус механизма§f/100§7, если §2Фокус входного пучка§f <= §eФокус механизма§f
+gtnhlanth.tt.synch.info13=где §eФокус механизма§f = макс. (10, мин. (90, 1.5^(12 - §bТемпература хладагента§f/40)))
+gtnhlanth.tt.synch.info14=§6Скорость выходного пучка§f = округление(2.5^(§dтир антенны§f) * sqrt(§3Общий подаваемый EU/t)§f * §6Скорость входного пучка§f/15.000)
 
 # Target Chamber
-gtnhlanth.tt.tc.machinetype=Collision Chamber
-gtnhlanth.tt.tc.info1=Engraves wafers with a photon beam and distinct §dMasks§7 or templates
+gtnhlanth.tt.tc.machinetype=Камера столкновений
+gtnhlanth.tt.tc.info1=Гравирует вафли с помощью §dпучка частиц§7 и §aмаски§7
 gtnhlanth.tt.tc.info2=Engraving recipes all have their own suitable §9Beam Energy§7 range,
 gtnhlanth.tt.tc.info3=minimum §2Beam Focus§7, minimum §6Beam Rate§7, and minimum §3EU/t Requirement
 gtnhlanth.tt.tc.info4=§dMasks§7 also have limited durability, degrading by 1 with each engraving
 gtnhlanth.tt.tc.info5=Processing speed is determined solely by the §6Beam Rate§7, not the §3EU/t Provided
 gtnhlanth.tt.tc.info6=§fRecipe Duration = 5 seconds * §6Required Beam Rate§f / §6Input Beam Rate
-gtnhlanth.tt.tc.info7=Can process the entire durability of all §dMasks§7 of one type in a single tick
+gtnhlanth.tt.tc.info7=Может обрабатывать до одной прочности §aМаски§7 одного типа за тик игры
 
 # Beam Coolant
-gtnhlanth.tt.coolant.oxygen=§bLiquid Oxygen§f: 90 K
-gtnhlanth.tt.coolant.nitrogen=§bLiquid Nitrogen§f: 77 K
-gtnhlanth.tt.coolant.coolant=§bCoolant§f: 60 K
-gtnhlanth.tt.coolant.Scoolant=§bSuper Coolant§f: 1 K
+gtnhlanth.tt.coolant.oxygen=§bЖидкий кислород§f: 90 K
+gtnhlanth.tt.coolant.nitrogen=§bЖидкий азот§f: 77 K
+gtnhlanth.tt.coolant.coolant=§bХладагент§f: 60 K
+gtnhlanth.tt.coolant.Scoolant=§bПромышленный хладагент§f: 1 K
 
 # Beam Hatches
 gtnhlanth.tt.hatch.beaminput=Beam Input Hatch
 gtnhlanth.tt.hatch.beamoutput=Beam Output Hatch
 gtnhlanth.tt.hatch.focus=Focus Input Bus
 
-GT5U.gui.text.shutdown_reason.gtnhlanth.nocoolant=No coolant present in machine!
-GT5U.gui.text.shutdown_reason.gtnhlanth.inscoolant=Insufficient coolant in machine!
-GT5U.gui.text.shutdown_reason.gtnhlanth.noaccel=Particle type can't be accelerated!
-GT5U.gui.text.shutdown_reason.gtnhlanth.low_input_eut=Input EU/t too low to produce photons!
-GT5U.gui.text.shutdown_reason.gtnhlanth.scerror=Math error, broken recipe?
-GT5U.gui.text.shutdown_reason.gtnhlanth.inputinterrupt=Input Beam must not be interrupted or changed!
-GT5U.gui.text.recipe_result.dissolution_ratio=§7Wrong fluid input ratio!
-GT5U.gui.text.recipe_result.gtnhlanth.wrongparticle=Incorrect Particle!
-GT5U.gui.text.recipe_result.gtnhlanth.toolowenergy=Below Required Energy!
+GT5U.gui.text.shutdown_reason.gtnhlanth.nocoolant=В механизме отсутствует хладагент!
+GT5U.gui.text.shutdown_reason.gtnhlanth.inscoolant=В механизме недостаточно хладагента!
+GT5U.gui.text.shutdown_reason.gtnhlanth.noaccel=Частицы данного типа не могут быть ускорены!
+GT5U.gui.text.shutdown_reason.gtnhlanth.low_input_eut=Входной вольтаж EU/t слишком низкий для образования фотонов!
+GT5U.gui.text.shutdown_reason.gtnhlanth.scerror=Математическая ошибка, неверный рецепт?
+GT5U.gui.text.shutdown_reason.gtnhlanth.inputinterrupt=Входной луч нельзя прерывать или изменять!
+GT5U.gui.text.recipe_result.dissolution_ratio=§7Неправильное соотношение подачи жидкости!
+GT5U.gui.text.recipe_result.gtnhlanth.wrongparticle=Неверная частица!
+GT5U.gui.text.recipe_result.gtnhlanth.toolowenergy=Энергия ниже требуемого уровня!
 GT5U.gui.text.shutdown_reason.gtnhlanth.noparticle=Particle absent (rate is 0)!
 
 # NEI
