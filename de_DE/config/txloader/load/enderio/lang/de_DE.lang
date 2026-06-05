@@ -373,9 +373,14 @@ enderio.endergeticCapacitor.name=Energetischer Kondensator
 enderio.endergisedCapacitor.name=Energetisierter Kondensator
 enderio.totemicCapacitor.name=Totemischer Kondensator
 
+enderio.machine.tooltip.upgrade.name=Machine Upgrade
 enderio.machine.tooltip.upgrade=Maschinen-Upgrade
-enderio.machine.tooltip.upgrade.tooltip.detailed.line1=Erhöht Energiespeicher sowie
-enderio.machine.tooltip.upgrade.tooltip.detailed.line2=Geschw./Reichweite von Maschinen
+enderio.machine.tooltip.upgrade.tier=Tier: 
+enderio.machine.tooltip.upgrade.energyreceived=Max Energy Received: 
+enderio.machine.tooltip.upgrade.energyextracted=Max Energy Extracted: 
+enderio.machine.tooltip.upgrade.farmstation=Farming station radius: 
+enderio.machine.tooltip.upgrade.energystorage=Max energy storage: 
+enderio.machine.tooltip.upgrade.range=Range upgrade:
 enderio.machine.tooltip.clearConfig=Dies löscht alle gespeicherten Informationen!
 
 #Machines
@@ -1191,6 +1196,13 @@ enderio.stirlingGenerator.burnRate=Brennrate:
 enderio.stirlingGenerator.upgradeslot=Upgrade-Slot
 enderio.stirlingGenerator.upgrades={0} gibt eine Effizienz von {2}{1,number,#.#}x{3}
 enderio.stirlingGenerator.remaining={0,number,percent}|{1,choice,0#|0<{1}m }{2,number}s|{3,number,#,###} RF verbleibend
+
+# Block buffers
+enderio.gui.blockBuffer.name=Buffer 
+enderio.gui.blockBuffer.item.name=Item Buffer
+enderio.gui.blockBuffer.power.name=Power Buffer
+enderio.gui.blockBuffer.omni.name=Omni Buffer
+enderio.gui.blockBuffer.creative.name=Creative Buffer
 
 #Travel Blocks
 enderio.gui.travelAccessable.privateBlock1=Nur
