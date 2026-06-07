@@ -164,10 +164,12 @@ cropsnh.recipes.cropBreeder=Crop Breeder
 cropsnh_tooltip.cropBreeder.0=Breeds crops deterministically
 cropsnh_tooltip.cropBreeder.1=Needs %1$s of §aenriched fertilizer§7 per §ctier§7 of the output seed
 cropsnh_tooltip.cropBreeder.2=Needs %1$s of §aenriched fertilizer§7 per §cstat point§7 of the output seed
-cropsnh_tooltip.cropBreeder.3=The stats of the output seed will be the average of the parents
+cropsnh_tooltip.cropBreeder.3=The stats of the output seed will be the average of the parents'
 cropsnh_tooltip.cropBreeder.4=%1$s%% success chance
+cropsnh_tooltip.cropBreeder.5=Stores %1$s of fluid
+cropsnh_tooltip.cropBreeder.mv_warn=§cCannot breed high-stat seeds§7
 cropsnh_nei.cropBreeder.tooltip.fluidCost=cost = OutputTier * %1$s + (growth + gain + resistance) * %2$s
-cropsnh_nei.cropBreeder.tooltip.outputStats=The resulting stats will be an average of the parents
+cropsnh_nei.cropBreeder.tooltip.outputStats=The resulting stats will be an average of the parents'
 cropsnh_nei.cropBreeder.tooltip.successChance=Success chance depends on the tier of the machine
 cropsnh_tooltip.cropBreeder.name.1=Basic Crop Breeder
 cropsnh_tooltip.cropBreeder.name.2=Advanced Crop Breeder
@@ -224,6 +226,8 @@ cropsnh.recipes.seedGenerator=Seed Generator
 cropsnh_tooltip.seedGenerator.0=Generates more seeds from an existing seed
 cropsnh_tooltip.seedGenerator.1=Needs %1$s of §aenriched fertilizer§7 per §cstat point§7 on the seed
 cropsnh_tooltip.seedGenerator.2=Not all crops can be replicated in this machine
+cropsnh_tooltip.seedGenerator.3=Stores %1$s of fluid
+cropsnh_tooltip.seedGenerator.mv_warn=§cCannot replicate high-stat seeds§7
 cropsnh_nei.seedGenerator.tooltip.fluidCost=cost = %1$s * (growth + gain + resistance)
 cropsnh_tooltip.seedGenerator.name.1=Basic Seed Generator
 cropsnh_tooltip.seedGenerator.name.2=Advanced Seed Generator
