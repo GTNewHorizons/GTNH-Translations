@@ -89,6 +89,7 @@ kubatech.gui.text.eig.disabled=Отключено
 kubatech.gui.text.eig.enabled=Включено
 kubatech.gui.text.eig.ic2_mode=IC2 режим
 kubatech.gui.text.eig.no_humidity_mode=No Humidity mode
+kubatech.gui.text.eig.inventory_full_warning=Seed inventory is full!
 kubatech.gui.text.mia.primary_mode=Основной режим
 kubatech.gui.text.mia.normal=Обычный
 kubatech.gui.text.mia.swarmer=Роение
@@ -102,6 +103,7 @@ kubatech.gui.tooltip.contributors.structure=Структура спроекти�
 
 kubatech.gui.tooltip.dynamic_inventory.identical_slots=Имеется %d одинаковых слотов
 kubatech.gui.tooltip.dynamic_inventory.empty_slot=Пустой слот
+kubatech.gui.tooltip.dynamic_inventory.eig.seed_count=Seeds: %d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=Оставшиеся виды семян: %d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=Remaining seed capacity: %d
 
@@ -181,6 +183,12 @@ kubatech.infodata.htgr.coolant_per_tick=Хладагента за тик: §6%s�
 kubatech.infodata.htgr.water_per_tick=Воды за тик: §6%sЛ
 kubatech.infodata.htgr.fuel_supply=Уровень заполнения %s из %s
 kubatech.infodata.htgr.fuel_properties=Свойства: %s, %s, %s
+
+kubatech.MBTT.CoolantInputHatch=Input Hatch (Coolant)
+kubatech.MBTT.HeliumInputHatch=Input Hatch (Helium)
+kubatech.MBTT.WaterInputHatch=Input Hatch (Water)
+kubatech.MBTT.CoolantOutputHatch=Output Hatch (Coolant)
+kubatech.MBTT.SteamOutputHatch=Output Hatch (Steam)
 
 #Waila
 kubatech.waila.eec.mob_type=Вид существа: %s
