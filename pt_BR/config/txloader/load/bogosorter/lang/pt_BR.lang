@@ -13,6 +13,7 @@ key.bogosorter.move_single=Move Single
 key.bogosorter.move_single_empty=Move Single To Empty Slot
 key.bogosorter.throw_all_same=Throw All Same
 key.bogosorter.throw_all=Throw All
+key.ae2_terminal_search=Search AE2 Terminal From Hovered Item
 
 bogosort.gui.title=Sort Config
 bogosort.gui.tab.general.name=General
@@ -45,6 +46,10 @@ bogosort.gui.usageticker_arrow=Enable Usage Ticker Arrows
 
 
 bogosort.command.config_relaod.success=Reloaded sorting config
+
+bogosorter.command.tooltip.usage=/bogosorter tooltip <on|off>
+bogosorter.command.tooltip.enabled=Bogo tooltip querying is now enabled.
+bogosorter.command.tooltip.disabled=Bogo tooltip querying is now disabled.
 
 bogosort.message.dropoff.items_moved=%s items moved to %s containers of %s checked in total.
 bogosort.message.dropoff.quota_reached_times= (Quota reached %s times)
@@ -138,3 +143,12 @@ bogosorter.config.autorefill.damage_threshold=Auto-refill damage threshold
 bogosorter.config.preventSplit=Prevent Split for Unstackable Items
 bogosorter.config.button.color=Sort button color
 bogosorter.config.button.enable=Enable sort button
+bogosorter.config.ae2=AE2 Integration
+bogosorter.config.ae2.amount_tooltips=AE2 amount tooltips
+bogosorter.config.ae2.thaumic_essentia=Thaumic essentia amount tooltips
+bogosorter.config.ae2.terminal_search=AE2 terminal hover search
+bogosorter.config.ae2.debug_logging=AE2 integration debug logging
+
+bogosorter.tooltip.amount_in_system=Amount in System: %s
+bogosorter.tooltip.amount_out_of_range=Amount in System: Out of Range!
+bogosorter.tooltip.amount_checking=Amount in System: Checking...
