@@ -89,6 +89,7 @@ kubatech.gui.text.eig.disabled=無効
 kubatech.gui.text.eig.enabled=有効
 kubatech.gui.text.eig.ic2_mode=IC2モード
 kubatech.gui.text.eig.no_humidity_mode=除湿モード
+kubatech.gui.text.eig.inventory_full_warning=Seed inventory is full!
 kubatech.gui.text.mia.primary_mode=第一モード
 kubatech.gui.text.mia.normal=通常
 kubatech.gui.text.mia.swarmer=分蜂
@@ -102,6 +103,7 @@ kubatech.gui.tooltip.contributors.structure=構造考案者: %s
 
 kubatech.gui.tooltip.dynamic_inventory.identical_slots=%d個の同一スロットがあります
 kubatech.gui.tooltip.dynamic_inventory.empty_slot=空のスロット
+kubatech.gui.tooltip.dynamic_inventory.eig.seed_count=Seeds: %d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=残りの種の種類: %d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=残りの種の容量: %d
 
@@ -181,6 +183,12 @@ kubatech.infodata.htgr.coolant_per_tick=冷却材/t: %sL
 kubatech.infodata.htgr.water_per_tick=水/t: §6%sL
 kubatech.infodata.htgr.fuel_supply=Fill level %s out of %s
 kubatech.infodata.htgr.fuel_properties=プロパティ: %s, %s, %s
+
+kubatech.MBTT.CoolantInputHatch=Input Hatch (Coolant)
+kubatech.MBTT.HeliumInputHatch=Input Hatch (Helium)
+kubatech.MBTT.WaterInputHatch=Input Hatch (Water)
+kubatech.MBTT.CoolantOutputHatch=Output Hatch (Coolant)
+kubatech.MBTT.SteamOutputHatch=Output Hatch (Steam)
 
 #Waila
 kubatech.waila.eec.mob_type=モブの種類: %s
