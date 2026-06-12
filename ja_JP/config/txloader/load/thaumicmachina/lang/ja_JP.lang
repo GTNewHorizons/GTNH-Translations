@@ -5,6 +5,26 @@ tile.nodeTransmodifier.name=Node Transmodifier
 item.nodeAugmentation.name=Node Augmentation
 item.wandAugmentationCore.name=杖増強コア
 
+# Augments
+tm.tooltip.augments_installed=Augmentations installed:
+tm.tooltip.augmented=Augmented
+tm.tooltip.hold_control=Hold [CTRL]
+tm.augmentation.charge_buffer=Charge Buffer
+tm.augmentation.contact_discharge=Contact Discharge
+tm.augmentation.taint_capping=Taint Capping
+tm.augmentation.tainted_core=Tainted Core
+tm.augmentation.vis_channel=Vis Channel
+
+# Commands
+tm.command.thaumicmachina.usage=/thaumicmachina <help|wandaugmentation> ...
+tm.command.thaumicmachina.hint_alias=You can also use /tm in place of /thaumimachina.
+tm.command.thaumicmachina.command_list=Commands:
+tm.command.thaumicmachina.wandaugmentation.usage=/thaumicmachina wandaugmentation <add|remove|reset> <augmentation name>
+tm.command.thaumicmachina.error.no_wand_held=Player must be holding their wand in their hand.
+tm.command.thaumicmachina.error.unknown_augment=That augmentation does not exist
+tm.command.thaumicmachina.error.is_present=The held wand already has that augmentation installed.
+tm.command.thaumicmachina.error.is_absent=The held wand does not have that augmentation installed.
+
 # Creative tab
 itemGroup.thaumicMachina=Thaumic Machina
 
