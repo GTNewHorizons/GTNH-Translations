@@ -1,6 +1,5 @@
 itemGroup.LootGames=Loot Games
 
-tile.chessGame.name=Schach
 tile.lightGame.name=Lichterspiel
 tile.dungeonBrick.name=Dungeon-Block
 tile.dungeonBrick_0.name=Dungeon-Wand
@@ -32,10 +31,12 @@ msg.lootgames.win=Die Struktur ist zufrieden und belohnt dich!
 msg.lootgames.lose=Die Struktur scheint sich über dein Versagen zu ärgern.
 msg.lootgames.attempt_left=Du hast %d Versuche übrig.
 msg.lootgames.field.not_enough_space=Das Bauwerk ächzt mit schleppender Stimme. Scheint, als gäbe es keinen Platz dafür: %dx%dx%d
+msg.lootgames.ms.board_too_large_to_solve=The board size is too large to solve. Generating random board instead.
 msg.lootgames.ms.bomb_touched=Hoppla... Das sieht nach einer Explosion aus. Lauf!
 msg.lootgames.ms.new_attempt=Die Struktur hat sich beruhigt. Du kannst es jetzt wieder versuchen.
 msg.lootgames.ms.reveal_on_hidden=Du kannst die Nachbarn eines versteckten Feldes nicht aufdecken.
 msg.lootgames.ms.reveal_invalid_mark_count=Du kannst die Nachbarn eines Feldes nicht aufdecken, da sich die markierten Nachbarn von dessen Nummer unterscheiden.
+msg.lootgames.ms.solver_error=ERROR: Ran into an issue while making the board solvable. Check logs for details.
 msg.lootgames.gol.start=Lass uns das Spiel spielen! Klick auf den mittleren Block!
 msg.lootgames.gol.click_center=Klick auf die Mitte, um das Spiel zu starten!
 msg.lootgames.gol.rules=Du musst nur die Farben wiederholen.
@@ -44,6 +45,9 @@ msg.lootgames.gol.wrong_block=Es sieht so aus, als hättest du die falsche Farbe
 msg.lootgames.gol.reward_level_info=Aktuell erreichte Belohnungsstufe: %d (Bestwert: %d)
 msg.lootgames.sdk.start=Los geht’s! Rechtsklick zum Erhöhen, Umschalt + Rechtsklick zum Verringern, Doppelklick mit der linken Maustaste zum Beenden des Spiels.
 msg.lootgames.sdk.check_end=Willst du das Spiel wirklich beenden?
+msg.lootgames.sdk.submit_reminder=The structure awaits your answer... Sneak+double-left-click a cell to present your solution.
+msg.lootgames.sdk.not_filled=The structure senses the solution is incomplete...
+msg.lootgames.sdk.wrong=The structure is displeased with your answer. Your entries fade as if they never were...
 msg.lootgames.sdk.remaining=Verbleibend: %s
 
 lootgames.achievement_page.name=Loot Games
