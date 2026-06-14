@@ -1,6 +1,5 @@
 itemGroup.LootGames=Ganimet Oyunları
 
-tile.chessGame.name=Satranç
 tile.lightGame.name=Işık Oyunu
 tile.dungeonBrick.name=Zindan bloğu
 tile.dungeonBrick_0.name=Zindan Duvar
@@ -32,18 +31,23 @@ msg.lootgames.win=Yapı memnun edildi ve seni ödüllendiriyor!
 msg.lootgames.lose=Yapı sizin başarısızlığından rahatsız olmuş gibi görünüyor.
 msg.lootgames.attempt_left=Geriye %d denemeniz kaldı.
 msg.lootgames.field.not_enough_space=İnşaat yavaşça sızlanıyor. Sanki bunun için yer yok: %dx%dx%d
+msg.lootgames.ms.board_too_large_to_solve=The board size is too large to solve. Generating random board instead.
 msg.lootgames.ms.bomb_touched=Abo... Bir PATLAMA gibi görünüyor. KAÇ!
 msg.lootgames.ms.new_attempt=Yapı sakinleşti. Tekrar oynamayı deneyebilirsiniz.
 msg.lootgames.ms.reveal_on_hidden=Gizli alanın etrafındaki komşuları açığa çıkaramazsınız.
 msg.lootgames.ms.reveal_invalid_mark_count=Alanın komşularını gösteremezsiniz, çünkü işaretli komşular alanın sayısından farklıdır.
+msg.lootgames.ms.solver_error=ERROR: Ran into an issue while making the board solvable. Check logs for details.
 msg.lootgames.gol.start=Hadi oyunu oynayalım! Ortadaki bloğa tıklayın!
 msg.lootgames.gol.click_center=Oyunu başlatmak için ortaya tıklayın!
 msg.lootgames.gol.rules=Sadece renkleri tekrarlamanız gerekiyor.
 msg.lootgames.gol.not_ready=Yapının şu anda yanıt için hazır olmadığını düşünüyorsunuz.
 msg.lootgames.gol.wrong_block=Görünüşe göre yanlış rengi seçmişsiniz...
 msg.lootgames.gol.reward_level_info=Ulaşılan mevcut ödül seviyesi: %d (En iyi: %d)
-msg.lootgames.sdk.start=Let's start! Right-click to increase, shift + right-click to decrease, double left-click to end the game.
-msg.lootgames.sdk.check_end=Are you sure want to end the game?
+msg.lootgames.sdk.start=The structure presents you its ancient puzzle. Right-click to increase, shift+right-click to decrease, left-click cell sectors to toggle notes, sneak+double-left-click to present your solution.
+msg.lootgames.sdk.check_end=The structure turns its gaze upon your work... Present it once more to confirm.
+msg.lootgames.sdk.submit_reminder=The structure awaits your answer... Sneak+double-left-click a cell to present your solution.
+msg.lootgames.sdk.not_filled=The structure senses the solution is incomplete...
+msg.lootgames.sdk.wrong=The structure is displeased with your answer. Your entries fade as if they never were...
 msg.lootgames.sdk.remaining=Remaining: %d
 
 lootgames.achievement_page.name=Ganimet Oyunları
