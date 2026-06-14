@@ -1,6 +1,5 @@
 itemGroup.LootGames=Loot Games
 
-tile.chessGame.name=Échecs
 tile.lightGame.name=Jeu de Lumière
 tile.dungeonBrick.name=Dungeon Block
 tile.dungeonBrick_0.name=Mur de Donjon
@@ -32,18 +31,23 @@ msg.lootgames.win=The structure is pleased and rewards you!
 msg.lootgames.lose=The structure seems to be offended by your failure.
 msg.lootgames.attempt_left=Vous avez %d essais restants.
 msg.lootgames.field.not_enough_space=The construction whines drawlingly. Seems like there's no place for it: %dx%dx%d
+msg.lootgames.ms.board_too_large_to_solve=The board size is too large to solve. Generating random board instead.
 msg.lootgames.ms.bomb_touched=Oups... Il semble que ce soit un BOUM. Courrez !
 msg.lootgames.ms.new_attempt=La structure s'est calmée. Vous pouvez réessayer de jouer à nouveau.
 msg.lootgames.ms.reveal_on_hidden=You can't reveal neighbours around hidden field.
 msg.lootgames.ms.reveal_invalid_mark_count=You can't reveal field's neighbours, because flagged neighbours differ from its number.
+msg.lootgames.ms.solver_error=ERROR: Ran into an issue while making the board solvable. Check logs for details.
 msg.lootgames.gol.start=Let's play the game! Click on the center block!
 msg.lootgames.gol.click_center=Click the center to start the game!
 msg.lootgames.gol.rules=You just need to repeat the colors.
 msg.lootgames.gol.not_ready=You feel that the structure is not ready for reply now.
 msg.lootgames.gol.wrong_block=It appears you chose the wrong color...
 msg.lootgames.gol.reward_level_info=Current reward level reached: %d (Best: %d)
-msg.lootgames.sdk.start=Let's start! Right-click to increase, shift + right-click to decrease, double left-click to end the game.
-msg.lootgames.sdk.check_end=Are you sure want to end the game?
+msg.lootgames.sdk.start=The structure presents you its ancient puzzle. Right-click to increase, shift+right-click to decrease, left-click cell sectors to toggle notes, sneak+double-left-click to present your solution.
+msg.lootgames.sdk.check_end=The structure turns its gaze upon your work... Present it once more to confirm.
+msg.lootgames.sdk.submit_reminder=The structure awaits your answer... Sneak+double-left-click a cell to present your solution.
+msg.lootgames.sdk.not_filled=The structure senses the solution is incomplete...
+msg.lootgames.sdk.wrong=The structure is displeased with your answer. Your entries fade as if they never were...
 msg.lootgames.sdk.remaining=Remaining: %d
 
 lootgames.achievement_page.name=Loot Games
