@@ -1,6 +1,5 @@
 itemGroup.LootGames=전리품 게임
 
-tile.chessGame.name=체스
 tile.lightGame.name=빛의 게임
 tile.dungeonBrick.name=던전 블록
 tile.dungeonBrick_0.name=던전 벽
@@ -32,10 +31,12 @@ msg.lootgames.win=구조물이 만족하여 당신에게 보상을 줍니다!
 msg.lootgames.lose=구조물이 당신의 실패에 분노한 듯 합니다.
 msg.lootgames.attempt_left=당신은 %d 번의 기회가 남았습니다.
 msg.lootgames.field.not_enough_space=구조물이 느리게 흐느낍니다. 더는 공간이 없는 듯 하네요: %dx%dx%d
+msg.lootgames.ms.board_too_large_to_solve=The board size is too large to solve. Generating random board instead.
 msg.lootgames.ms.bomb_touched=이런... 구조물이 터질 것 같습니다. 도망치세요!
 msg.lootgames.ms.new_attempt=구조물이 진정된 듯 합니다. 다시 퍼즐을 풀 수 있습니다.
 msg.lootgames.ms.reveal_on_hidden=주변의 감춰진 영역들을 밝혀낼 수 없습니다.
 msg.lootgames.ms.reveal_invalid_mark_count=깃발 표시가 된 주변 영역들이 숫자와 달라, 주변의 영역들을 밝혀낼 수 없습니다.
+msg.lootgames.ms.solver_error=ERROR: Ran into an issue while making the board solvable. Check logs for details.
 msg.lootgames.gol.start=게임을 시작해 봅시다! 중앙의 블록을 클릭하세요!
 msg.lootgames.gol.click_center=중앙의 블록을 클릭하여 게임을 시작하세요!
 msg.lootgames.gol.rules=당신은 색깔들을 따라하기만 하면 됩니다.
@@ -44,6 +45,9 @@ msg.lootgames.gol.wrong_block=잘못된 색깔을 고른 듯 합니다...
 msg.lootgames.gol.reward_level_info=현재 도달한 보상 레벨: %d (최고 기록: %d)
 msg.lootgames.sdk.start=시작해보죠! 오른쪽 클릭으로 증가시키고, SHIFT+ 오른쪽 클릭으로 감소시키고, 왼쪽 더블클릭으로 게임을 종료하세요.
 msg.lootgames.sdk.check_end=게임을 종료하시겠습니까?
+msg.lootgames.sdk.submit_reminder=The structure awaits your answer... Sneak+double-left-click a cell to present your solution.
+msg.lootgames.sdk.not_filled=The structure senses the solution is incomplete...
+msg.lootgames.sdk.wrong=The structure is displeased with your answer. Your entries fade as if they never were...
 msg.lootgames.sdk.remaining=%d 개 남음
 
 lootgames.achievement_page.name=전리품 게임
