@@ -55,15 +55,15 @@ tooltip.computronics.gate.trigger.tape_drive_rewinding=Tape Drive Rewinding
 tooltip.computronics.gate.trigger.tape_drive_forwarding=Tape Drive Forwarding
 
 tooltip.computronics.waila.base.bus=§aバスID§f: %s
-tooltip.computronics.waila.relay.bound=Bound
-tooltip.computronics.waila.relay.notbound=Not Bound
+tooltip.computronics.waila.relay.bound=接続済み
+tooltip.computronics.waila.relay.notbound=未接続
 tooltip.computronics.waila.lamp.red=赤: %s
 tooltip.computronics.waila.lamp.green=緑: %s
 tooltip.computronics.waila.lamp.blue=青: %s
 
-tooltip.computronics.tape.tapeinserted=Tape inserted
-tooltip.computronics.tape.labeltapeinserted=Tape "%s" inserted
-tooltip.computronics.tape.notapeinserted=テープ未挿入
+tooltip.computronics.tape.tapeinserted=テープが挿入されています
+tooltip.computronics.tape.labeltapeinserted=テープ "%s" が挿入されています
+tooltip.computronics.tape.notapeinserted=テープは挿入されていません
 
 tooltip.computronics.tape.state=状態: %s
 tooltip.computronics.tape.state.stopped=停止中
@@ -135,7 +135,7 @@ death.attack.computronics.sting.4=%1$sはエピペンを忘れた
 death.attack.computronics.sting.5=%1$sは暗殺計画の犠牲者となった。蜂によって。
 death.attack.computronics.sting.self=%1$sは"蜂"の巣にされた
 
-computronics.flowers.sea=Sea
+computronics.flowers.sea=海
 computronics.bees.species.scummy=苛性
 computronics.bees.species.scummy.description=灯油、プロピレングリコール、人工甘味料、硫酸、ラム酒、アセトン、赤色2号、スカム、車軸用グリス、バッテリー液、それと/あるいはペパロニ|バーにいる見知らぬ人々
 
@@ -143,21 +143,21 @@ chat.computronics.cipher.locked=暗号ブロックはロックされています
 chat.computronics.colorful_upgrade.color=§6色§f: %s
 chat.computronics.lamp.binary.on=RedNet mode set to Binary
 chat.computronics.lamp.binary.off=RedNet mode set to Normal
-chat.computronics.relay.notBound=Relay is currently not bound to any locomotive!
-chat.computronics.relay.unbound=Relay successfully unbound from locomotive!
-chat.computronics.sensor.bound=Relay successfully bound to locomotive!
-chat.computronics.sensor.noRelay=There is no relay at the specified coordinates!
-chat.computronics.sensor.noRelayDetected=Could not detect relay at the specified coordinates!
-chat.computronics.sensor.tooFarAway=Relay and locomotive are too far away from each other!
-chat.computronics.sensor.wrongLoco=Sensor can only be attached to electric locomotives!
-chat.computronics.sensor.wrongDim=Relay and locomotive are in different dimensions!
+chat.computronics.relay.notBound=中継器はどの機関車にも接続していません！
+chat.computronics.relay.unbound=中継器が機関車から正常に切り離されました！
+chat.computronics.sensor.bound=中継器が機関車に正常に接続されました！
+chat.computronics.sensor.noRelay=指定された座標には中継器がありません！
+chat.computronics.sensor.noRelayDetected=指定された座標で中継器を検出できません！
+chat.computronics.sensor.tooFarAway=中継器と機関車が離れすぎています！
+chat.computronics.sensor.wrongLoco=センサーは電気機関車のみに取り付けられます！
+chat.computronics.sensor.wrongDim=中継器と機関車は別のディメンションに存在します！
 
-achievement.computronics.gotTape=Music for everyone
-achievement.computronics.gotTape.desc=Certainly better than Duct Tape
-achievement.computronics.gotStarTape=Over the Rainbow
-achievement.computronics.gotStarTape.desc=To your left.
-achievement.computronics.gotIGTape=First part of your spaceship
-achievement.computronics.gotIGTape.desc=Not that you can build one
+achievement.computronics.gotTape=みんなの音楽
+achievement.computronics.gotTape.desc=ダクトテープよりずっといい！
+achievement.computronics.gotStarTape=虹の彼方に
+achievement.computronics.gotStarTape.desc=左の方に
+achievement.computronics.gotIGTape=宇宙船最初のパーツ
+achievement.computronics.gotIGTape.desc=まあ、作れるわけじゃないけれど
 achievement.computronics.droppedIGTape=MH370
 achievement.computronics.droppedIGTape.desc=どこ行ったんだ！？
 achievement.computronics.gotLoco=電気革命
