@@ -1800,7 +1800,7 @@ GT5U.MBTT.CokeOvenHatch=コークス炉用ハッチ
 GT5U.MBTT.CryotheumHatch=クリオジウム冷却ハッチ
 
 GT5U.cracker.io_side=入/出力ハッチは左右それぞれに設置する必要があります！
-GT5U.gui.text.structure_error.cracker_missing_middle_input_hatch=Missing Input Hatch for cracking fluid
+GT5U.gui.text.structure_error.cracker_missing_middle_input_hatch=分解する流体用の入力ハッチがありません
 
 GT5U.turbine.running.true=タービン稼働中
 GT5U.turbine.running.false=タービン停止
@@ -2781,7 +2781,7 @@ GT5U.gui.text.nac.info.calibration.wetware.header=ウエットウエア回路
 GT5U.gui.text.nac.info.calibration.wetware.effect1=§3Tier 1§r - §220%% Threshold§r - 0.8x EU Multiplier to all Modules
 GT5U.gui.text.nac.info.calibration.wetware.effect2=§3Tier 2§r - §240%% Threshold§r - 0.8x Recipe Time on Wetware Circuits in the Assembly Matrix
 GT5U.gui.text.nac.info.calibration.wetware.effect3=§3Tier 3§r - §260%% Threshold§r - Growth Catalyst Medium is not consumed in the Biological Coordinator
-GT5U.gui.text.nac.info.calibration.bioware.header=Bioware Circuits
+GT5U.gui.text.nac.info.calibration.bioware.header=バイオウエア回路
 GT5U.gui.text.nac.info.calibration.bioware.effect1=§3Tier 1§r - §220%% Threshold§r - 0.8x EU Multiplier to all Modules
 GT5U.gui.text.nac.info.calibration.bioware.effect2=§3Tier 2§r - §240%% Threshold§r - 0.8x Recipe Time on Bioware Circuits in the Assembly Matrix
 GT5U.gui.text.nac.info.calibration.bioware.effect3=§3Tier 3§r - §260%% Threshold§r - All Catalyst Medium is not consumed in the Biological Coordinator
@@ -3116,7 +3116,7 @@ GT5U.gui.text.wormhole_generator.max_io.large=§7ハッチ毎の最大入出力:
 
 GT5U.gui.text.status.active=有効
 GT5U.gui.text.status.online=オンライン
-GT5U.gui.text.status.offline=Offline
+GT5U.gui.text.status.offline=オフライン
 GT5U.gui.text.status.disabled=無効
 GT5U.gui.text.status.incomplete=マルチブロック構造が不完全です
 GT5U.gui.text.x=X:
@@ -3708,7 +3708,7 @@ GT5U.hatch.filter.none=フィルターなし
 GT5U.hatch.filter.tooltip.0=§6左クリック§8で削除
 GT5U.hatch.outputme.checkMode.true=チェックモード: §cオン§r
 GT5U.hatch.outputme.checkMode.false=チェックモード: §cオフ§r
-GT5U.hatch.outputme.checkMode.desc=注意: チェックモードでは出力に十分な容量があるか確認するため、ラグを引き起こします
+GT5U.hatch.outputme.checkMode.desc=NOTE: Simulates insertion into the internal cell during recipe checks, limiting parallel by cell space. (requires a cell to work, increases recipe calculation cost)
 GT5U.hatch.outputme.cacheMode.true=キャッシュモード: §cオン§r
 GT5U.hatch.outputme.cacheMode.false=キャッシュモード: §aオフ§r
 GT5U.hatch.outputme.cacheMode.desc=MEネットワークの代わりに内部に配置したセルへアイテムを収納します。
@@ -8808,3 +8808,80 @@ GT5U.chat.bec-storage-controller-pos=Outer wall of center pillar, second layer f
 # Test Factory Machines
 gt.blockmachines.pipe.test.name=Test Factory Pipe
 gt.blockmachines.hatch.test.name=Test Factory Hatch
+
+# Basic Generators - Shared
+gt.blockmachines.basicgenerator.fuel_efficiency=Fuel Efficiency: %s%%
+
+# Basic Generators - Combustion
+gt.blockmachines.basicgenerator.diesel.tier.01.name=Basic Combustion Generator
+gt.blockmachines.basicgenerator.diesel.tier.02.name=Advanced Combustion Generator
+gt.blockmachines.basicgenerator.diesel.tier.03.name=Turbo Combustion Generator
+gt.blockmachines.basicgenerator.diesel.tooltip=Requires liquid Fuel\nCauses %d Pollution per second
+
+# Basic Generators - Gas Turbine
+gt.blockmachines.basicgenerator.gasturbine.tier.01.name=Basic Gas Turbine
+gt.blockmachines.basicgenerator.gasturbine.tier.02.name=Advanced Gas Turbine
+gt.blockmachines.basicgenerator.gasturbine.tier.03.name=Turbo Gas Turbine
+gt.blockmachines.basicgenerator.gasturbine.tier.04.name=Turbo Gas Turbine II
+gt.blockmachines.basicgenerator.gasturbine.tier.05.name=Turbo Gas Turbine III
+gt.blockmachines.basicgenerator.gasturbine.tooltip=Requires flammable Gasses\nCauses %d Pollution per second
+
+# Basic Generators - Steam Turbine
+gt.blockmachines.basicgenerator.steamturbine.tier.01.name=Basic Steam Turbine
+gt.blockmachines.basicgenerator.steamturbine.tier.02.name=Advanced Steam Turbine
+gt.blockmachines.basicgenerator.steamturbine.tier.03.name=Turbo Steam Turbine
+gt.blockmachines.basicgenerator.steamturbine.tooltip=Converts Steam into EU\nBase rate: 2L of Steam -> 1 EU\nFuel Efficiency: %s%%\nConsumes up to %sL of Steam per second
+
+# Basic Generators - Naquadah Reactor
+gt.blockmachines.basicgenerator.naquadah.tier.04.name=Naquadah Reactor Mark I
+gt.blockmachines.basicgenerator.naquadah.tier.04.tooltip=Requires Enriched Naquadah Bolts
+gt.blockmachines.basicgenerator.naquadah.tier.05.name=Naquadah Reactor Mark II
+gt.blockmachines.basicgenerator.naquadah.tier.05.tooltip=Requires Enriched Naquadah Rods
+gt.blockmachines.basicgenerator.naquadah.tier.06.name=Naquadah Reactor Mark III
+gt.blockmachines.basicgenerator.naquadah.tier.06.tooltip=Requires Enriched Naquadah Long Rods
+gt.blockmachines.basicgenerator.naquadah.tier.07.name=Naquadah Reactor Mark IV
+gt.blockmachines.basicgenerator.naquadah.tier.07.tooltip=Requires Naquadria Bolts
+gt.blockmachines.basicgenerator.naquadah.tier.08.name=Naquadah Reactor Mark V
+gt.blockmachines.basicgenerator.naquadah.tier.08.tooltip=Requires Naquadria Rods
+
+# Basic Generators - Plasma Generator
+gt.blockmachines.basicgenerator.plasmagenerator.tier.05.name=Plasma Generator Mark I
+gt.blockmachines.basicgenerator.plasmagenerator.tier.06.name=Plasma Generator Mark II
+gt.blockmachines.basicgenerator.plasmagenerator.tier.07.name=Plasma Generator Mark III
+gt.blockmachines.basicgenerator.plasmagenerator.tier.08.name=Plasma Generator Mark IV
+gt.blockmachines.basicgenerator.plasmagenerator.tier.09.name=Ultimate Pocket Sun
+gt.blockmachines.basicgenerator.plasmagenerator.tooltip=Plasma into energy
+
+# Basic Generators - Magic Energy Converter
+gt.blockmachines.basicgenerator.magicenergyconverter.tier.01.name=Novice Magic Energy Converter
+gt.blockmachines.basicgenerator.magicenergyconverter.tier.02.name=Adept Magic Energy Converter
+gt.blockmachines.basicgenerator.magicenergyconverter.tier.03.name=Master Magic Energy Converter
+gt.blockmachines.basicgenerator.magicenergyconverter.tooltip=Put your strange stuff in here
+
+# Basic Generators - Magic Energy Absorber
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.01.name=Novice Magic Energy Absorber
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.02.name=Adept Magic Energy Absorber
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.03.name=Master Magic Energy Absorber
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.04.name=Grandmaster Magic Energy Absorber
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip=§nFeasts on §d§nmagic§7§n close to it:\n- %s\n- %sEU per §dEnder Crystal§7 in range\n§r \n§nLookup range (Use Screwdriver to change):\nDefault: §a%s\nMax: §a%s\n§r \n§nFuels on §d§nenchantments§7§n input:\n- Item: %sEU per §denchant§7 weight × level / max\n- Book: 10000EU per §denchant§7 weight × level / max\n§r \nEfficiency: §a%s%%
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.dragon_egg.shared=A §7 §dDragon Egg§7 atop
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.dragon_egg.exclusive=An §e§nEXCLUSIVE§r§7 §dDragon Egg§7 atop
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.thaumcraft=- %sCV/t from an §dEnergised Node§7\n- %sEU per §dEssentia§7 Aspect-Value from containers in range
+
+# Basic Generators - Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.00.name=1-volt Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.01.name=Basic Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.02.name=Advanced Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.03.name=Advanced Solar Panel II
+gt.blockmachines.basicgenerator.solarpanel.04.name=Advanced Solar Panel III
+gt.blockmachines.basicgenerator.solarpanel.05.name=Advanced Solar Panel IV
+gt.blockmachines.basicgenerator.solarpanel.06.name=Elite Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.07.name=Elite Solar Panel II
+gt.blockmachines.basicgenerator.solarpanel.08.name=Ultimate Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.tooltip=Generates EU From Solar Power\nDoes not generate power when raining\nCleans itself automatically\nDoes not explode in rain!
+
+# Basic Generators - Lightning Rod
+gt.blockmachines.basicgenerator.lightningrod.03.name=Lightning Rod
+gt.blockmachines.basicgenerator.lightningrod.04.name=Lightning Rod II
+gt.blockmachines.basicgenerator.lightningrod.05.name=Lightning Rod III
+gt.blockmachines.basicgenerator.lightningrod.tooltip=Generates EU From Lightning Bolts
