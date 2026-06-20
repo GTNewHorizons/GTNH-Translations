@@ -1919,6 +1919,7 @@ gt.recipe.compressor=圧縮機
 gt.recipe.compressor.description=コンプレッス・O・マティック C77
 gt.recipe.cuttingsaw=切断機
 gt.recipe.cuttingsaw.description=スライスしてダイスする
+gt.recipe.fakecuttingsaw=切断機
 gt.recipe.distillery=蒸留機
 gt.recipe.distillery.description=液体から適切な部分のみを抽出する
 gt.recipe.furnace=かまど
@@ -2449,10 +2450,10 @@ GT5U.gui.text.per_second=§f1秒あたりの生産量:
 GT5U.gui.text.per_minute=§f1分あたりの生産量:
 GT5U.gui.text.per_hour=§f1時間あたりの生産量:
 GT5U.gui.text.per_day=§f1日あたりの生産量:
-GT5U.gui.text.progress_recipe=§fProgress: %ss / %ss (%s%%)
-GT5U.gui.text.progress_detail=§fProgress: %s%% §7(§f%ss§7/§f%ss§7)§r
+GT5U.gui.text.progress_recipe=§f進捗状況: %ss / %ss (%s%%)
+GT5U.gui.text.progress_detail=§f進捗状況: %s%% §7(§f%ss§7/§f%ss§7)§r
 GT5U.gui.text.rate_short=(§7%s/s§f)
-GT5U.gui.text.rate_short_slow=(§7%ss/each§f)
+GT5U.gui.text.rate_short_slow=(§71個あたり%ss§f)
 GT5U.gui.text.rate_large_suffix=§f[§7%s§f]
 GT5U.gui.text.item_amount_display=§b%s§f x §6%s§f
 GT5U.gui.text.fluid_amount_display=§b%s§f x §6%sL§f
@@ -3706,6 +3707,7 @@ GT5U.hatch.fluid.filter.disable=流体出力フィルターを無効化
 GT5U.hatch.item.filter.disable=アイテム出力フィルターを無効化
 GT5U.hatch.filter.none=フィルターなし
 GT5U.hatch.filter.tooltip.0=§6左クリック§8で削除
+GT5U.hatch.outputme.filter.format=%s: %s:
 GT5U.hatch.outputme.checkMode.true=チェックモード: §cオン§r
 GT5U.hatch.outputme.checkMode.false=チェックモード: §cオフ§r
 GT5U.hatch.outputme.checkMode.desc=NOTE: Simulates insertion into the internal cell during recipe checks, limiting parallel by cell space. (requires a cell to work, increases recipe calculation cost)
@@ -3721,6 +3723,7 @@ GT5U.hatch.chisel.configure.grid=Configure Templates
 GT5U.bus.filterTooltip.empty=§aNEIからアイテムをドラッグして出力フィルターを設定
 GT5U.bus.filterTooltip.full=§aクリックして出力フィルターを消去
 
+GT5U.multiblock.heat=§cHeat: §f%sK
 GT5U.multiblock.pollution=汚染を次のレベルに削減します
 GT5U.multiblock.energy=蓄電量
 GT5U.multiblock.Progress=進捗
@@ -8810,78 +8813,78 @@ gt.blockmachines.pipe.test.name=Test Factory Pipe
 gt.blockmachines.hatch.test.name=Test Factory Hatch
 
 # Basic Generators - Shared
-gt.blockmachines.basicgenerator.fuel_efficiency=Fuel Efficiency: %s%%
+gt.blockmachines.basicgenerator.fuel_efficiency=燃料効率: %s%%
 
 # Basic Generators - Combustion
-gt.blockmachines.basicgenerator.diesel.tier.01.name=Basic Combustion Generator
-gt.blockmachines.basicgenerator.diesel.tier.02.name=Advanced Combustion Generator
-gt.blockmachines.basicgenerator.diesel.tier.03.name=Turbo Combustion Generator
-gt.blockmachines.basicgenerator.diesel.tooltip=Requires liquid Fuel\nCauses %d Pollution per second
+gt.blockmachines.basicgenerator.diesel.tier.01.name=基本型燃焼発電機
+gt.blockmachines.basicgenerator.diesel.tier.02.name=発展型燃焼発電機
+gt.blockmachines.basicgenerator.diesel.tier.03.name=高速型燃焼発電機
+gt.blockmachines.basicgenerator.diesel.tooltip=液体燃料が必要\n毎秒 %d の汚染を排出
 
 # Basic Generators - Gas Turbine
-gt.blockmachines.basicgenerator.gasturbine.tier.01.name=Basic Gas Turbine
-gt.blockmachines.basicgenerator.gasturbine.tier.02.name=Advanced Gas Turbine
-gt.blockmachines.basicgenerator.gasturbine.tier.03.name=Turbo Gas Turbine
-gt.blockmachines.basicgenerator.gasturbine.tier.04.name=Turbo Gas Turbine II
-gt.blockmachines.basicgenerator.gasturbine.tier.05.name=Turbo Gas Turbine III
-gt.blockmachines.basicgenerator.gasturbine.tooltip=Requires flammable Gasses\nCauses %d Pollution per second
+gt.blockmachines.basicgenerator.gasturbine.tier.01.name=基本型ガスタービン
+gt.blockmachines.basicgenerator.gasturbine.tier.02.name=発展型ガスタービン
+gt.blockmachines.basicgenerator.gasturbine.tier.03.name=高速型ガスタービン
+gt.blockmachines.basicgenerator.gasturbine.tier.04.name=高速型ガスタービン II
+gt.blockmachines.basicgenerator.gasturbine.tier.05.name=高速型ガスタービン III
+gt.blockmachines.basicgenerator.gasturbine.tooltip=可燃性ガスが必要\n毎秒 %d の汚染を排出
 
 # Basic Generators - Steam Turbine
-gt.blockmachines.basicgenerator.steamturbine.tier.01.name=Basic Steam Turbine
-gt.blockmachines.basicgenerator.steamturbine.tier.02.name=Advanced Steam Turbine
-gt.blockmachines.basicgenerator.steamturbine.tier.03.name=Turbo Steam Turbine
-gt.blockmachines.basicgenerator.steamturbine.tooltip=Converts Steam into EU\nBase rate: 2L of Steam -> 1 EU\nFuel Efficiency: %s%%\nConsumes up to %sL of Steam per second
+gt.blockmachines.basicgenerator.steamturbine.tier.01.name=基本型蒸気タービン
+gt.blockmachines.basicgenerator.steamturbine.tier.02.name=発展型蒸気タービン
+gt.blockmachines.basicgenerator.steamturbine.tier.03.name=高速型蒸気タービン
+gt.blockmachines.basicgenerator.steamturbine.tooltip=蒸気をEUに変換\n基本変換レート: 蒸気 2L -> 1 EU\n燃料効率: %s%%\n最大で毎秒 %sL の蒸気を消費
 
 # Basic Generators - Naquadah Reactor
-gt.blockmachines.basicgenerator.naquadah.tier.04.name=Naquadah Reactor Mark I
-gt.blockmachines.basicgenerator.naquadah.tier.04.tooltip=Requires Enriched Naquadah Bolts
-gt.blockmachines.basicgenerator.naquadah.tier.05.name=Naquadah Reactor Mark II
-gt.blockmachines.basicgenerator.naquadah.tier.05.tooltip=Requires Enriched Naquadah Rods
-gt.blockmachines.basicgenerator.naquadah.tier.06.name=Naquadah Reactor Mark III
-gt.blockmachines.basicgenerator.naquadah.tier.06.tooltip=Requires Enriched Naquadah Long Rods
-gt.blockmachines.basicgenerator.naquadah.tier.07.name=Naquadah Reactor Mark IV
-gt.blockmachines.basicgenerator.naquadah.tier.07.tooltip=Requires Naquadria Bolts
-gt.blockmachines.basicgenerator.naquadah.tier.08.name=Naquadah Reactor Mark V
-gt.blockmachines.basicgenerator.naquadah.tier.08.tooltip=Requires Naquadria Rods
+gt.blockmachines.basicgenerator.naquadah.tier.04.name=ナクアダリアクター Mark I
+gt.blockmachines.basicgenerator.naquadah.tier.04.tooltip=§8《§7濃縮ナクアダのボルト§8／Enriched Naquadah Bolt》§7が必要
+gt.blockmachines.basicgenerator.naquadah.tier.05.name=ナクアダリアクター Mark II
+gt.blockmachines.basicgenerator.naquadah.tier.05.tooltip=§8《§7濃縮ナクアダの棒§8／Enriched Naquadah Rod》§7が必要
+gt.blockmachines.basicgenerator.naquadah.tier.06.name=ナクアダリアクター Mark III
+gt.blockmachines.basicgenerator.naquadah.tier.06.tooltip=§8《§7長い濃縮ナクアダの棒§8／Enriched Naquadah Long Rod》§7が必要
+gt.blockmachines.basicgenerator.naquadah.tier.07.name=ナクアダリアクター Mark IV
+gt.blockmachines.basicgenerator.naquadah.tier.07.tooltip=§8《§7ナクアドリアのボルト§8／ Naquadria Bolt》§7が必要
+gt.blockmachines.basicgenerator.naquadah.tier.08.name=ナクアダリアクター Mark V
+gt.blockmachines.basicgenerator.naquadah.tier.08.tooltip=§8《§7ナクアドリアの棒§8／ Naquadria Rod》§7が必要
 
 # Basic Generators - Plasma Generator
-gt.blockmachines.basicgenerator.plasmagenerator.tier.05.name=Plasma Generator Mark I
-gt.blockmachines.basicgenerator.plasmagenerator.tier.06.name=Plasma Generator Mark II
-gt.blockmachines.basicgenerator.plasmagenerator.tier.07.name=Plasma Generator Mark III
-gt.blockmachines.basicgenerator.plasmagenerator.tier.08.name=Plasma Generator Mark IV
-gt.blockmachines.basicgenerator.plasmagenerator.tier.09.name=Ultimate Pocket Sun
-gt.blockmachines.basicgenerator.plasmagenerator.tooltip=Plasma into energy
+gt.blockmachines.basicgenerator.plasmagenerator.tier.05.name=プラズマ発電機 Mark I
+gt.blockmachines.basicgenerator.plasmagenerator.tier.06.name=プラズマ発電機 Mark II
+gt.blockmachines.basicgenerator.plasmagenerator.tier.07.name=プラズマ発電機 Mark III
+gt.blockmachines.basicgenerator.plasmagenerator.tier.08.name=プラズマ発電機 Mark IV
+gt.blockmachines.basicgenerator.plasmagenerator.tier.09.name=究極携帯型太陽
+gt.blockmachines.basicgenerator.plasmagenerator.tooltip=プラズマをエネルギーに
 
 # Basic Generators - Magic Energy Converter
-gt.blockmachines.basicgenerator.magicenergyconverter.tier.01.name=Novice Magic Energy Converter
-gt.blockmachines.basicgenerator.magicenergyconverter.tier.02.name=Adept Magic Energy Converter
-gt.blockmachines.basicgenerator.magicenergyconverter.tier.03.name=Master Magic Energy Converter
-gt.blockmachines.basicgenerator.magicenergyconverter.tooltip=Put your strange stuff in here
+gt.blockmachines.basicgenerator.magicenergyconverter.tier.01.name=初歩的な魔力エネルギー変換器
+gt.blockmachines.basicgenerator.magicenergyconverter.tier.02.name=熟練の魔力エネルギー変換器
+gt.blockmachines.basicgenerator.magicenergyconverter.tier.03.name=達人の魔力エネルギー変換器
+gt.blockmachines.basicgenerator.magicenergyconverter.tooltip=不思議なものを入れてみよう
 
 # Basic Generators - Magic Energy Absorber
-gt.blockmachines.basicgenerator.magicenergyabsorber.tier.01.name=Novice Magic Energy Absorber
-gt.blockmachines.basicgenerator.magicenergyabsorber.tier.02.name=Adept Magic Energy Absorber
-gt.blockmachines.basicgenerator.magicenergyabsorber.tier.03.name=Master Magic Energy Absorber
-gt.blockmachines.basicgenerator.magicenergyabsorber.tier.04.name=Grandmaster Magic Energy Absorber
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.01.name=初歩的な魔力エネルギー吸収器
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.02.name=熟練の魔力エネルギー吸収器
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.03.name=達人の魔力エネルギー吸収器
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.04.name=大魔導士の魔力エネルギー吸収器
 gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip=§nFeasts on §d§nmagic§7§n close to it:\n- %s\n- %sEU per §dEnder Crystal§7 in range\n§r \n§nLookup range (Use Screwdriver to change):\nDefault: §a%s\nMax: §a%s\n§r \n§nFuels on §d§nenchantments§7§n input:\n- Item: %sEU per §denchant§7 weight × level / max\n- Book: 10000EU per §denchant§7 weight × level / max\n§r \nEfficiency: §a%s%%
 gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.dragon_egg.shared=A §7 §dDragon Egg§7 atop
 gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.dragon_egg.exclusive=An §e§nEXCLUSIVE§r§7 §dDragon Egg§7 atop
 gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.thaumcraft=- %sCV/t from an §dEnergised Node§7\n- %sEU per §dEssentia§7 Aspect-Value from containers in range
 
 # Basic Generators - Solar Panel
-gt.blockmachines.basicgenerator.solarpanel.00.name=1-volt Solar Panel
-gt.blockmachines.basicgenerator.solarpanel.01.name=Basic Solar Panel
-gt.blockmachines.basicgenerator.solarpanel.02.name=Advanced Solar Panel
-gt.blockmachines.basicgenerator.solarpanel.03.name=Advanced Solar Panel II
-gt.blockmachines.basicgenerator.solarpanel.04.name=Advanced Solar Panel III
-gt.blockmachines.basicgenerator.solarpanel.05.name=Advanced Solar Panel IV
-gt.blockmachines.basicgenerator.solarpanel.06.name=Elite Solar Panel
-gt.blockmachines.basicgenerator.solarpanel.07.name=Elite Solar Panel II
-gt.blockmachines.basicgenerator.solarpanel.08.name=Ultimate Solar Panel
-gt.blockmachines.basicgenerator.solarpanel.tooltip=Generates EU From Solar Power\nDoes not generate power when raining\nCleans itself automatically\nDoes not explode in rain!
+gt.blockmachines.basicgenerator.solarpanel.00.name=1ボルトソーラーパネル
+gt.blockmachines.basicgenerator.solarpanel.01.name=基本型ソーラーパネル
+gt.blockmachines.basicgenerator.solarpanel.02.name=発展型ソーラーパネル
+gt.blockmachines.basicgenerator.solarpanel.03.name=発展型ソーラーパネル II
+gt.blockmachines.basicgenerator.solarpanel.04.name=発展型ソーラーパネル III
+gt.blockmachines.basicgenerator.solarpanel.05.name=発展型ソーラーパネル IV
+gt.blockmachines.basicgenerator.solarpanel.06.name=精鋭型ソーラーパネル
+gt.blockmachines.basicgenerator.solarpanel.07.name=精鋭型ソーラーパネル II
+gt.blockmachines.basicgenerator.solarpanel.08.name=究極型ソーラーパネル
+gt.blockmachines.basicgenerator.solarpanel.tooltip=太陽光の力で発電\n雨天時は発電しない\n自動清掃機能付き\n雨で爆発しません！
 
 # Basic Generators - Lightning Rod
-gt.blockmachines.basicgenerator.lightningrod.03.name=Lightning Rod
-gt.blockmachines.basicgenerator.lightningrod.04.name=Lightning Rod II
-gt.blockmachines.basicgenerator.lightningrod.05.name=Lightning Rod III
-gt.blockmachines.basicgenerator.lightningrod.tooltip=Generates EU From Lightning Bolts
+gt.blockmachines.basicgenerator.lightningrod.03.name=雷発電機
+gt.blockmachines.basicgenerator.lightningrod.04.name=雷発電機 II
+gt.blockmachines.basicgenerator.lightningrod.05.name=雷発電機 III
+gt.blockmachines.basicgenerator.lightningrod.tooltip=雷で発電
