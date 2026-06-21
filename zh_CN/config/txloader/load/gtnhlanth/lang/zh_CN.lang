@@ -1,0 +1,270 @@
+# RecipeMaps
+gtnhlanth.recipe.digester=煮解池
+gtnhlanth.recipe.disstank=溶解罐
+gtnhlanth.recipe.tc=高能束流聚焦对撞靶室
+gtnhlanth.recipe.sc=高能粒子辐射激发源室
+
+gtnhlanth.tt.beaminfo=使用§b便携式扫描仪§7右键来获取多方块输入输出信息
+gtnhlanth.tt.blueprint=请参考§9Structure§2Lib§7全息投影，构建主体结构
+gtnhlanth.tt.pc=§6部分消耗：§7在工作中损耗耐久
+
+gtnhlanth.tt.hintNumber=提示方块[%s]
+
+# Digester
+gtnhlanth.tt.digester.machinetype=煮解池
+gtnhlanth.tt.digester.info1=输入矿石和流体，输出水
+
+# Dissolution Tank
+gtnhlanth.tt.disstank.machinetype=溶解罐
+gtnhlanth.tt.disstank.info1=输入水与流体，输出流体
+gtnhlanth.tt.disstank.info2=流体必须按照在NEI中列出的精确比例输入
+
+# Source Chamber
+gtnhlanth.tt.sc.machinetype=粒子源
+gtnhlanth.tt.sc.info1=使用特定的§d粒子源材料§7产生粒子束流
+gtnhlanth.tt.sc.info2=NEI显示§d粒子源材料§7列表及属性
+gtnhlanth.tt.sc.info3=所有配方持续时间均为1秒，产出1个束流包
+gtnhlanth.tt.sc.info4=在§3需求EU/t§7之上，提高输入功率会能量渐进地接近§d最大材料能量
+gtnhlanth.tt.sc.info5=粒子束流具有§5类型§7、§9能量§7、§2聚焦§7和§6通量
+gtnhlanth.tt.sc.info6=§5类型§7决定电荷、静质量和§9最大粒子能量
+gtnhlanth.tt.sc.info7=§9能量§7代表粒子束流携带的能量，单位为电子伏特（eV）
+gtnhlanth.tt.sc.info8=§2聚焦§7代表粒子束流的宽度
+gtnhlanth.tt.sc.info9=§6通量§7代表粒子束流中每包的粒子数量
+gtnhlanth.tt.sc.info10=§9输出束流能量§f = min(§9最大粒子能量§7, §eaeV§f)
+gtnhlanth.tt.sc.info11=其中 §eaeV§f = §d最大材料能量§f * (1 - 1.001^(§9-能量比率§f × (§3提供的 EU/t§f - §3需求的 EU/t§f)))
+gtnhlanth.tt.sc.input=§c需要1个输入总线或1个输入仓
+
+# Linear Accelerator
+gtnhlanth.tt.linac.machinetype=粒子加速器，LINAC
+gtnhlanth.tt.linac.info1=通过电场加速粒子束，使其获得更高能量
+gtnhlanth.tt.linac.info2=因此电中性§5粒子§7不受影响
+gtnhlanth.tt.linac.info3=运行需要消耗§f长度 * 1,000 %s/s§7的§b冷却剂§7，并返回§c热冷却剂
+gtnhlanth.tt.linac.info4=增加结构长度/能量输入会提升§9输出束流能量§7，但会降低§2输出束流聚焦
+gtnhlanth.tt.linac.info5=使用温度更低的§b冷却液§7能降低§2束流聚焦§7的损耗
+gtnhlanth.tt.linac.info6=§9输出束流能量§f = max(§eV§f， 50) * 10^§eIE
+gtnhlanth.tt.linac.info7=其中 §eV§f = 0.25 * (长度 - 1) * cbrt(§3输入电压§f)
+gtnhlanth.tt.linac.info8=且 §eIE§f = 1 + min(§9输入束流能量§f, 7500) / §9最大粒子能量
+gtnhlanth.tt.linac.info9=若 §2输入束流聚焦§f > §e机器聚焦度§f，则 §2输出束流聚焦§f = (§2输入束流聚焦§f + §e机器聚焦度§f) / 2
+gtnhlanth.tt.linac.info10=若 §2输入束流聚焦§f ≤ §e机器聚焦度§f，则 §2输出束流聚焦§f = §2输入束流聚焦§f * §e机器聚焦度§f / 100
+gtnhlanth.tt.linac.info11=其中§e机器聚焦度§f = min(90, max(5, (-0.9 * (长度-1) * 1.1^(0.2 * §b冷却剂温度§f) + 110)))
+
+# Synchrotron
+gtnhlanth.tt.synch.machinetype=粒子加速器
+gtnhlanth.tt.synch.info1=加速粒子束流，以使其通过相对论性拉莫尔效应产生光子束流
+gtnhlanth.tt.synch.info2=因此电中性§5粒子§7和§2聚焦§7低于25的束流不受影响
+gtnhlanth.tt.synch.info3=运行需要消耗§f 32,000 %s/s §7的§b冷却剂§7，并返回§c热冷却剂
+gtnhlanth.tt.synch.info4=提升功率可提升§6输出束流通量
+gtnhlanth.tt.synch.info5=使用温度更低的§b冷却液§7能降低§2束流聚焦§7的损耗
+gtnhlanth.tt.synch.info6=升级§d天线机械方块§7的等级以提升机器性能
+gtnhlanth.tt.synch.info7=以下公式中的所有§9能量§7单位必须为千电子伏特（keV）
+gtnhlanth.tt.synch.info8=§9输出束流能量§f = §eIR §f* §e功率系数
+gtnhlanth.tt.synch.info9=其中 §eIR §f = (§9输入束流能量§f)^(1.13 * (§d天线等级§f)^(4/9)) / 40,000,000
+gtnhlanth.tt.synch.info10=且 §e功率系数§f = 1 - 0.15^(§3总输入EU/t§f / (30,384 * (§d天线等级§f)^2.5))
+gtnhlanth.tt.synch.info11=若 §2输入束流聚焦§f > §e机器聚焦§7，则 §2输出束流聚焦§f = (§2输入束流聚焦§f + §e机器聚焦§f) / 2.5
+gtnhlanth.tt.synch.info12=若 §2输入束流聚焦§f ≤ §e机器聚焦度§f，则 §2输出束流聚焦§f = §2输入束流聚焦§f * §e机器聚焦度§f / 100
+gtnhlanth.tt.synch.info13=其中 §e机器聚焦§f = max(10, min(90, 1.5^(12 - §b冷却剂温度§f/40)))
+gtnhlanth.tt.synch.info14=§6输出束流通量§f = floor( 2.5^(§d天线等级§f) * sqrt(§3总输入EU/t§f) * §6输入束流通量§f / 15,000)
+
+# Target Chamber
+gtnhlanth.tt.tc.machinetype=对撞靶室
+gtnhlanth.tt.tc.info1=使用光子束和特定§d掩模§7或模板在晶圆上刻印电路
+gtnhlanth.tt.tc.info2=刻印配方具有其需求的§9束流能量§7范围，
+gtnhlanth.tt.tc.info3=最低§2束流聚焦§7、最低§6束流通量§7以及最低§3EU/t需求
+gtnhlanth.tt.tc.info4=§d掩膜§7的耐久度有限，每次刻印减少1点
+gtnhlanth.tt.tc.info5=处理速度仅由§6束流通量§7决定，无关§3提供的EU/t
+gtnhlanth.tt.tc.info6=§f处理时间 = 5 秒 * §6所需最低通量§f / §6输入束流通量
+gtnhlanth.tt.tc.info7=每tick最多可处理的总量，取决于所有同种§d掩模§7的耐久度之和
+
+# Beam Coolant
+gtnhlanth.tt.coolant.oxygen=§b液氧§f：90K
+gtnhlanth.tt.coolant.nitrogen=§b液氮§f：77K
+gtnhlanth.tt.coolant.coolant=§b冷却液§f：60K
+gtnhlanth.tt.coolant.Scoolant=§b超级冷却液§f：1K
+
+# Beam Hatches
+gtnhlanth.tt.hatch.beaminput=束流输入仓
+gtnhlanth.tt.hatch.beamoutput=束流输出仓
+gtnhlanth.tt.hatch.focus=聚焦输入总线
+
+GT5U.gui.text.shutdown_reason.gtnhlanth.nocoolant=机器内没有冷却液！
+GT5U.gui.text.shutdown_reason.gtnhlanth.inscoolant=机器内冷却液不足！
+GT5U.gui.text.shutdown_reason.gtnhlanth.noaccel=该类型粒子无法被加速!
+GT5U.gui.text.shutdown_reason.gtnhlanth.low_input_eut=输入EU/t太低了，无法产生光子！
+GT5U.gui.text.shutdown_reason.gtnhlanth.scerror=数学错误，配方损坏？
+GT5U.gui.text.shutdown_reason.gtnhlanth.inputinterrupt=输入束流不得中断或改变！
+GT5U.gui.text.recipe_result.dissolution_ratio=§7流体输入比例错误！
+GT5U.gui.text.recipe_result.gtnhlanth.wrongparticle=不正确的粒子!
+GT5U.gui.text.recipe_result.gtnhlanth.toolowenergy=低于所需能量！
+GT5U.gui.text.shutdown_reason.gtnhlanth.noparticle=粒子缺失（通量为0）！
+
+# NEI
+value.disstank=比例: %s:1
+
+DissolutionTank.hint.0=提示方块[1]：洁净不锈钢机械方块
+DissolutionTank.hint.1=24x 钛强化硼玻璃方块
+DissolutionTank.hint.2=9x隔热机械方块
+DissolutionTank.hint.3=输入总线、输出总线、输入仓、输出仓
+DissolutionTank.hint.4=能源仓、维护仓
+
+Digester.hint.0=提示方块[1]：强化钨钢机械方块
+Digester.hint.1=9x洁净不锈钢机械方块
+Digester.hint.2=16x隔热机械方块
+Digester.hint.3=16x线圈方块
+Digester.hint.4=输入总线、输出总线、输入仓、输出仓
+Digester.hint.5=能源仓、维护仓
+
+SourceChamber.hint.0=56x 加速器屏蔽机械方块
+SourceChamber.hint.1=52x 加速器屏蔽玻璃
+SourceChamber.hint.2=16x 电极机械方块
+SourceChamber.hint.3=提示方块[1]：输入总线
+SourceChamber.hint.4=提示方块[2]：输出总线
+SourceChamber.hint.5=提示方块[3]：维护仓、能源仓
+SourceChamber.hint.6=提示方块[4]：束流输出仓
+
+LINAC.hint.0=325-1285x 加速器屏蔽机械方块
+LINAC.hint.1=148-852x 冷却剂转运机械方块
+LINAC.hint.2=127-703x 加速器屏蔽玻璃
+LINAC.hint.3=56-312x 超导线圈方块
+LINAC.hint.4=156-732x 电极机械方块
+LINAC.hint.5=47x 格栅机械方块
+LINAC.hint.6=48x 任意等级玻璃（LuV+）
+LINAC.hint.7=提示方块[1]：能源仓,维护仓
+LINAC.hint.8=提示方块[2]：输入仓,输出仓
+LINAC.hint.9=提示方块[3]：束流输入仓
+LINAC.hint.10=提示方块[4]：束流输出仓
+
+Synchrotron.hint.0=676x 加速器屏蔽机械方块
+Synchrotron.hint.1=90x 超导线圈方块
+Synchrotron.hint.2=64x 铌质腔体机械方块
+Synchrotron.hint.3=28x 冷却剂转运机械方块
+Synchrotron.hint.4=16x 任意等级玻璃（LuV+）
+Synchrotron.hint.5=4x 天线机械方块
+Synchrotron.hint.6=提示方块[1]：束流输入仓
+Synchrotron.hint.7=提示方块[2]：束流输出仓
+Synchrotron.hint.8=提示方块[3]：维护仓
+Synchrotron.hint.9=提示方块[4]：输入仓
+Synchrotron.hint.10=提示方块[5]：输出仓
+Synchrotron.hint.11=提示方块[6]：能源仓
+
+TargetChamber.hint.0=28x 加速器屏蔽机械方块
+TargetChamber.hint.1=34x 加速器屏蔽玻璃
+TargetChamber.hint.2=16x 任意等级玻璃
+TargetChamber.hint.3=29x 格栅机械方块
+TargetChamber.hint.4=4x 核心操纵机械方块
+TargetChamber.hint.5=4x 靶仓插槽
+TargetChamber.hint.6=1x 焦点物品支架
+TargetChamber.hint.7=1x 靶点物品支架
+TargetChamber.hint.8=提示方块[1]：聚焦输入总线
+TargetChamber.hint.9=提示方块[2]：能源仓、维护仓
+TargetChamber.hint.10=提示方块[3]：输入总线
+TargetChamber.hint.11=提示方块[4]：输出总线
+TargetChamber.hint.12=提示方块[5]：束流输入仓
+
+
+fluid.Antimony Pentafluoride Solution=五氟化锑溶液
+fluid.Hafnium Tetrachloride Solution=四氯化铪溶液
+fluid.Zirconium Tetrachloride Solution=四氯化锆溶液
+fluid.Iodine=熔融碘
+fluid.Muddy Monazite Rare Earth Solution=独居石稀土浊溶液
+fluid.Diluted Monazite Rare Earth Mud=稀释独居石稀土泥浆
+fluid.Diluted Monazite Sulfate=稀释硫酸独居石溶液
+fluid.Nitrogenated Monazite Rare Earth Concentrate=浓缩氮化独居石稀土溶液
+fluid.Nitric Monazite Leached Concentrate=浓缩硝酸独居石浸出溶液
+fluid.Ammonium Nitrate Solution=硝酸铵溶液
+fluid.Seaweed Concentrate=浓缩海藻溶液
+fluid.Potassium Permanganate Solution=高锰酸钾溶液
+fluid.Seaweed Byproducts=海藻副产
+fluid.Nitric-Leached Monazite Mixture=硝酸独居石浸出混合物
+fluid.Muddy Bastnasite Rare Earth Solution=氟碳镧铈稀土浊溶液
+fluid.Sodiumfluorosilicate=氟硅酸钠
+fluid.Steam-Cracked Bastnasite Mud=蒸汽裂化氟碳镧铈泥浆
+fluid.Conditioned Bastnasite Mud=调制氟碳镧铈泥浆
+fluid.Diluted Bastnasite Mud=稀释氟碳镧铈泥浆
+fluid.Filtered Bastnasite Mud=过滤氟碳镧铈泥浆
+fluid.Nitrogenated Bastnasite Rarer Earth Oxides=氮化氟碳镧铈罕土氧化物
+fluid.Bastnasite Rarer Earth Oxide Suspension=氟碳镧铈罕土氧化物悬浊液
+fluid.Calcium Fluoride=氟化钙
+fluid.Tetrahydrofuran=四氢呋喃
+"fluid.1,4-Butanediol"=1,4-丁二醇
+"fluid.Acidicised 1,4-Butanediol"=酸化1,4-丁二醇
+fluid.Polytetrahydrofuran=聚四氢呋喃
+fluid.Tungstophosphoric Acid=磷钨酸
+fluid.Toluene Diisocyanate=甲苯二异氰酸酯
+fluid.Dinitrotoluene=二硝基甲苯
+fluid.Diaminotoluene=二氨基甲苯
+fluid.Toluene Tetramethyl Diisocyanate=甲苯四甲基二异氰酸酯
+fluid.Diluted Acetone=稀释丙酮
+
+tile.casing.shielded_accelerator_glass.name=加速器屏蔽玻璃
+casing.electrode.name=电极机械方块
+casing.coolant_delivery.name=冷却剂转运机械方块
+casing.antenna_t1.name=天线机械方块（T1）
+casing.antenna_t2.name=天线机械方块（T2）
+casing.niobium_cavity.name=铌质腔体机械方块
+casing.focus_manipulator.name=焦点调节器
+casing.focus_holder.name=焦点物品支架
+casing.target_receptacle.name=靶仓插槽
+casing.target_holder.name=靶点物品支架
+casing.shielded_accelerator.name=加速器屏蔽机械方块
+
+item.capillary_exchange.name=毛细管热交换器
+item.mm_lattice.name=μ合金格栅
+item.iron_quartz_plate.name=铁石英板
+item.mask_substrate.name=掩膜基板
+item.etched_mask1.name=刻蚀掩膜
+item.substrate_precursor.name=基板前驱体
+item.masked_mask_substrate.name=处理过的掩膜基板
+
+
+beamline.info=机器信息
+beamline.in_pre=多方块束流输入
+beamline.out_pre=多方块束流输出
+beamline.particle=粒子
+beamline.energy=能量
+beamline.focus=聚焦
+beamline.amount=数量
+beamline.rate=通量
+beamline.materialenergy=最大材料能量
+beamline.particleenergy=最大粒子能量
+beamline.energyratio=能量效率
+beamline.temperature=温度
+beamline.coolusage=冷却剂使用量
+
+gt.blockmachines.beamline_pipe.name=束流管
+beamline.pipe.desc.0=粒子传输管道
+beamline.pipe.desc.1=束流不可交叉或转弯
+
+
+tile.recipe.tc=高能束流聚焦对撞靶室
+tile.recipe.sc=高能粒子辐射激发源室
+
+item.particle.name=粒子
+particle.photon=光子
+particle.zboson=Z玻色子
+particle.wboson=W玻色子
+particle.higgs=希格斯玻色子
+particle.graviton=引力子
+particle.electron=电子
+particle.muon=μ子
+particle.tau=τ子
+particle.electron_neutrino=电子中微子
+particle.muon_neutrino=μ子中微子
+particle.tau_neutrino=τ子中微子
+particle.proton=质子
+particle.neutron=中子
+particle.lambda=λ粒子
+particle.omega=Ω粒子
+particle.eta=η介子
+particle.jpsi=J/ψ介子
+particle.upsilon=Y粒子
+particle.alpha=α粒子
+
+beamcrafting.energy_A=最小能量 1
+beamcrafting.energy_B=最小能量 2
+beamcrafting.amount_A=数量 1
+beamcrafting.amount_B=数量 2
+
+tooltip.gtnhlanth.particle.rest_mass=静止质量：%f MeV
+tooltip.gtnhlanth.particle.charge=电荷：%s e
+tooltip.gtnhlanth.photomask.desc_spectrum=适用于电磁波谱的%s段及更低频段
+tooltip.gtnhlanth.photomask.max_uses=最大使用次数：%d
