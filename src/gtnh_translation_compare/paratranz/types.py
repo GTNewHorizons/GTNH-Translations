@@ -59,6 +59,12 @@ class FileExtra(BaseModel):
                     data["target_relpath"] = data[legacy_key]
                     data.pop(legacy_key)
                     logger.warning(f"FileExtra.{legacy_key} is deprecated, use FileExtra.target_relpath instead")
+            if "enUsRelpath" in data:
+                data["en_us_relpath"] = data["enUsRelpath"]
+                logger.warning(f"Compatibility for enUsRelpath")
+            if "targetRelpath" in data:
+                data["target_relpath"] = data["targetRelpath"]
+                logger.warning(f"Compatibility for targetRelpath")
         return data
 
 
