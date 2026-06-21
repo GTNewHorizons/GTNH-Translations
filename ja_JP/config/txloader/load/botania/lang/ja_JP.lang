@@ -1525,7 +1525,7 @@ item.botania:elementiumShovel.name=エレメンチウムのシャベル
 item.botania:elementiumAxe.name=エレメンチウムの斧
 item.botania:elementiumSword.name=エレメンチウムの剣
 item.botania:elementiumShears.name=エレメンチウムのハサミ
-item.botania:openBucket.name=推定バケツ
+item.botania:openBucket.name=外挿バケツ
 item.botania:spawnerMover.name=生命凝集器
 item.botania:pixieRing.name=大妖精の指輪
 item.botania:superTravelBelt.name=大旅行家の肩帯
@@ -2087,7 +2087,7 @@ item.missileRod.name=不安定な貯水池の杖
 item.monocle.name=マナ視のモノクル
 item.obedienceStick.name=花を従える棒
 item.odinRing.name=オーディンの指輪
-item.openBucket.name=推定バケツ
+item.openBucket.name=外挿バケツ
 item.overgrowthSeed.name=過成長の種
 item.pestleAndMortar.name=乳棒と乳鉢
 item.petal.name=神秘的な花びら
@@ -3360,14 +3360,14 @@ botania.page.manaBlaster2=&1Mana Lenses&0 also function with the blaster. To att
 botania.page.manaBlaster3=We need more dakka
 
 # -- PASTURE SEEDS
-botania.entry.grassSeeds=Pasture Seeds
-botania.tagline.grassSeeds=Seeds to create Grass, Podzol and Mycelium
-botania.page.grassSeeds0=Watching grass spread is seldom a fun activity. By infusing some &1Tall Grass&0 with &4Mana&0, it's possible to create &1Pasture Seeds&0, which will grow grass in any barren area, via a simple right click on dirt.<br>Other types of foliage can also be grown, such a &1Podzol&0 or &1Mycellium&0 with alternate seeds.
-botania.page.grassSeeds1=&1Pasture Seeds&0 for grass
-botania.page.grassSeeds2=&1Boreal Seeds&0 for podzol
-botania.page.grassSeeds3=&1Infestation Spores&0 for mycelium
-botania.page.grassSeeds4=An additional six types of &1Pasture Seeds&0 can be created, for alternative grass types with various textures.<br>These spread to dirt like normal and can sustain any plant a block of grass can. Similarly, they may only be picked up with &4Silk Touch&0. However, they do not decay back into dirt if there's a block above them.
-botania.page.grassSeeds5=The alternate &1Pasture Seeds&0
+botania.entry.grassSeeds=牧草の種
+botania.tagline.grassSeeds=草、ポドゾル、菌糸を作るための種
+botania.page.grassSeeds0=草が広がっていくのを眺めるのはあまり楽しくありません。&7《&1背の高い草&7／Tall Grass》&0に&4マナ&0を注入することで&7《&1背の高い草&7／Pasture Seeds》&0を作成できます。これを土に右クリックすることで、どんな不毛な土地でも草を生やすことができます。<br>また、&7《&1ポドゾル&7／Podzol》&0や&7《&1菌糸&7／Mycellium》&0などの植物も専用の種を使うことで生やすことができます。
+botania.page.grassSeeds1=&7《&1牧草の種&7／Pasture Seeds》&0で草を
+botania.page.grassSeeds2=&7《&1大麦の種&7／Boreal Seeds》&0でポドゾルを
+botania.page.grassSeeds3=&7《&1感染の胞子&7／Infestation Spores》&0で菌糸を
+botania.page.grassSeeds4=さらに、&7《&1牧草の種&7／Pasture Seeds》&0は6種類あり、それぞれ見た目の異なる草が生えます。<br>これらは、通常の草と同様に土に広がり、草ブロックに生やすことができるあらゆる植物を生やせます。また、これらは&4シルクタッチ&0のついた道具でのみ回収できます。ただし、上にブロックが置かれても土に戻りません。
+botania.page.grassSeeds5=&7《&1牧草の種&7／Pasture Seeds》&0の別パターン
 
 # -- ROD OF THE LANDS
 botania.entry.dirtRod=大地の杖
@@ -3416,10 +3416,10 @@ botania.page.terrasteelArmor3=&1テラスチールのレギンス&0
 botania.page.terrasteelArmor4=&1テラスチールのブーツ&0
 
 # -- TERRA BLADE
-botania.entry.terraSword=Terra Blade
-botania.tagline.terraSword=A sword that fires a beam that damages mobs
-botania.page.terraSword0=The &1Terra Blade&0, crafted from &1Terrasteel Ingots&0, is a sword infused with natural strength. Not only does it par with a &1Diamond Sword&0 in terms of strength and it uses &4Mana&0 from the inventory like &1Manasteel Tools&0, but when swung, there's a chance for it to create a beam that will deal as much damage as a melee hit.
-botania.page.terraSword1=No Broken Hero Sword
+botania.entry.terraSword=テラブレード
+botania.tagline.terraSword=ビームを放つ剣
+botania.page.terraSword0=&7《&1テラブレード&7／Terra Blade》&0は、&7《&1テラスチールインゴット&7／Terrasteel Ingot》&0から作られる自然の力を宿した剣です。この剣は&7《&1ダイヤモンドの剣&7／Diamond Sword》&0と同等の攻撃力を持ち、&7《&1マナスチールの道具&7／Manasteel Tools》&0のようにインベントリ内の&4マナ&0を消費します。さらに、振り下ろすと近接攻撃と同等の攻撃力のビームを放つことがあります。
+botania.page.terraSword1=壊れた英雄の剣はない
 
 # -- TERRA SHATTERER
 botania.entry.terraPick=Terra Shatterer
@@ -3432,36 +3432,36 @@ botania.page.terraPick4=Lastly, the tool takes damage for every single block bro
 botania.page.terraPick5=WE'RE MINING IN THE DATABASE WOW WOW
 
 # -- ROD OF THE SEAS
-botania.entry.waterRod=Rod of the Seas
-botania.tagline.waterRod=A rod to create water
-botania.page.waterRod0=Similarly to its land counterpart, the &1Rod of the Seas&0 will, at the cost of some &4Mana&0, place down a &1Water&0 block wherever it's used on. Furthermore, it can also be used to refill a &1Petal Apothecary&0.
-botania.page.waterRod1=Keep the Earth clean, it isn't Uranus
+botania.entry.waterRod=海の杖
+botania.tagline.waterRod=水を生み出す杖
+botania.page.waterRod0=&7《&1海の杖&7／Rod of the Seas》&0は、大地の杖と同様に&4マナ&0を消費して使用した場所に&7《&1水&7／Water》&0ブロックを設置します。さらに、&7《&1花びらの調合台&7／Petal Apothecary》&0への水の供給にも使えます。
+botania.page.waterRod1=星は清潔に、天王星（Uranus）じゃないんだから
 
 # -- ELEMENTIUM EQUIPMENT
-botania.entry.elfGear=Elementium Equipment
-botania.tagline.elfGear=Manasteel equivalent gear with special properties
-botania.page.elfGear0=Similarly to other metals, as expected, &1Elementium&0 can, too, be shaped into tools and armor.<br>These pieces of equipment have a decent resistance to damage, about half of that of diamond, as well as the ability to drain &4Mana&0 to prevent damage.
-botania.page.elfGear1=Each of the tools come with their own ability or power of sorts which makes them unique. The armor allows the wearer to, when hit, have a chance to spawn a &1Pixie&0 that goes after the attacker, dealing decent damage.<br>The more pieces of &1Elementium Armor&0 equipped, the higher the chance.
-botania.page.elfGear2=Starting off, the &1Elementium Pickaxe&0 will destroy any &1Cobblestone&0, &1Dirt&0, &1Netherrack&0 and other mundane materials, leaving behind only the ores and fine resources.<br>Combining the &1Elementium Pickaxe&0 with a &1Terra Shatterer&0 in a crafting square allows for the latter to also get this power. This can't be undone.
-botania.page.elfGear3=I can fit a shower in my pocket, screw cobble
-botania.page.elfGear4=The &1Elementium Shovel&0 will, case the block dug is affected by gravity (&1Gravel&0, &1Sand&0, etc), dig all the blocks of that material above and/or below it, no more gravel falling while mining.
-botania.page.elfGear5=Putting Things on Top of Other Things
-botania.page.elfGear6=The &1Elementium Axe&0 doubles as a weapon, if used to strike the finishing blow to a &4Zombie&0, &4Skeleton&0, &4Creeper&0 or even another &4Player&0, it has a chance to decapitate them, leaving their severed head or skull behind.  
-botania.page.elfGear7=Off with their heads
-botania.page.elfGear8=The &1Elementium Shears&0 hold the ability to, when held back like a bow, shear any nearby sheep with speed within a large area of effect centered on the holder.
-botania.page.elfGear9=Nui? She's h-arm-less
-botania.page.elfGear10=Lastly, the &1Elementium Sword&0 will increase the chance of a &4Pixie&0 spawning when hit (this holds true when no &1Elementium Armor&0 is worn) and increases the strength of any &4Pixies&0 spawned.
-botania.page.elfGear11=The Lambent Light
-botania.page.elfGear12=Fortuna on the Sixteenth Night
-botania.page.elfGear13=When the Seagulls Cry Breakdown
-botania.page.elfGear14=Good People Die
-botania.page.elfGear15=The out of Infinity
+botania.entry.elfGear=エレメンチウム装備
+botania.tagline.elfGear=マナスチールと同等の性能の特殊効果付き装備
+botania.page.elfGear0=予想通りだと思いますが、&7《&1エレメンチウム&7／Elementium》&0も他の金属と同様に道具や防具に加工できます。<br>これらの装備はダイヤモンドの半分程度のダメージ耐性を持ち、&4マナ&0を消費することでダメージを防ぎます。
+botania.page.elfGear1=各道具には独自の能力や特性が備わっており、それが道具の個性を形作っています。防具を着けているときに攻撃を受けると、攻撃者に反撃を行う&7《&1ピクシー&7／Pixie》&0が出現することがあります。<br>&7《&1エレメンチウム防具&7／Elementium Armor》&0の装備箇所が多いほど確率が上がります。
+botania.page.elfGear2=まず、&7《&1エレメンチウムのツルハシ&7／Elementium Pickaxe》&0は&7《&1丸石&7／Cobblestone》&0や&7《&1土&7／Dirt》&0、&7《&1ネザーラック&7／Netherrack》&0などのありふれた素材をすべて破壊し、鉱石や貴重な素材のみを残します。<br>&7《&1テラシャッタラー&7／Terra Shatterer》&0に&7《&1エレメンチウムのツルハシ&7／Elementium Pickaxe》&0をクラフトで組み合わせると、この特殊能力を与えることができます。もとに戻すことはできません。
+botania.page.elfGear3=ポケットにシャワーが入るんだ、丸石なんてどうでもいい
+botania.page.elfGear4=&7《&1エレメンチウムのシャベル&7／Elementium Shovel》&0は、重力の影響を受けるブロック（&7《&1砂利&7／Gravel》&0、&7《&1砂&7／Sand》&0など）を採掘した場合、上下につながる同じブロックを一括で採掘します。これにより、採掘中に砂利が降ってくることがなくなります。
+botania.page.elfGear5=物のうえに、物を置く
+botania.page.elfGear6=&7《&1エレメンチウムの斧&7／Elementium Axe》&0は武器として使えるだけでなく、&7《&1ゾンビ&7／Zombie》&0や&7《&1スケルトン&7／Skeleton》&0、&7《&1クリーパー&7／Creeper》&0、他の&7《&1プレイヤー&7／Player》&0にとどめを刺したとき、頭や頭蓋骨を落とさせることがあります。
+botania.page.elfGear7=首をはねよ
+botania.page.elfGear8=&7《&1エレメンチウムのハサミ&7／Elementium Shears》&0は、弓を引き絞るように長押しすることで周囲の羊から高速で毛を刈る能力を持っています。
+botania.page.elfGear9=縫？ 腕がないなら害もないよ
+botania.page.elfGear10=最後に、&7《&1エレメンチウムの剣&7／Elementium Sword》&0は攻撃したときに&7《&1ピクシー&7／Pixie》&0が出現確率を高め（&7《&1エレメンチウム防具&7／Elementium Armor》&0を装備していなくても有効）、出現した&7《&1ピクシー&7／Pixie》&0の攻撃力を上昇させる効果があります。
+botania.page.elfGear11=ランベントライト
+botania.page.elfGear12=十六夜のフォルトゥーナ
+botania.page.elfGear13=うみねこのなく頃に散
+botania.page.elfGear14=善人シボウデス
+botania.page.elfGear15=Ever17 -the out of infinity-
 
 # -- EXTRAPOLATED BUCKET
-botania.entry.openBucket=Extrapolated Bucket
-botania.tagline.openBucket=A bucket that destroys anything that comes inside
-botania.page.openBucket0=By creating a bucket out of &1Elementium&0 one seems to notice an interesting feature. The liquids acquired by it simply vanish into the ether, never to be seen again. This seems like a great clean up tool.
-botania.page.openBucket1=A Souvenir from Lewis
+botania.entry.openBucket=外挿バケツ
+botania.tagline.openBucket=入ったものをすべて破棄するバケツ
+botania.page.openBucket0=&7《&1エレメンチウム&7／Elementium》&0でバケツを作成すると、不思議な特性を持つことに気づくでしょう。これにより回収された液体はエーテルの彼方へと消え去り、二度と目にすることはありません。とても便利な清掃道具ですね。
+botania.page.openBucket1=ルイスからのお土産
 
 # -- ROD OF THE BIFROST
 botania.entry.rainbowRod=Rod of the Bifrost
@@ -3514,16 +3514,16 @@ botania.page.virus1=No ponies here
 botania.page.virus2=None here either
 
 # -- ROD OF THE HIGHLANDS
-botania.entry.skyDirtRod=Rod of the Highlands
-botania.tagline.skyDirtRod=A rod to create dirt, in the sky
-botania.page.skyDirtRod0=While the &1Rod of the Lands&0 is all well and good, being able to place &1Dirt&0 without something to hold it would be great.<br>The &1Rod of the Highlands&0 does just that, while maintaining the original power of the &1Rod of the Lands&0, it can also place &1Dirt&0 in mid air, for an increased &4Mana&0 cost.
-botania.page.skyDirtRod1=Dirty Stick mk2
+botania.entry.skyDirtRod=高地の杖
+botania.tagline.skyDirtRod=空中に土を生み出す杖
+botania.page.skyDirtRod0=&7《&1大地の杖&7／Rod of the Lands》&0はたしかに便利ですが、何もないところに&7《&1土&7／Dirt》&0を設置できたらより便利だと思います。<br>&7《&1高地の杖&7／Rod of the Highlands》&0は、まさにそれを実現するアイテムです。&7《&1大地の杖&7／Rod of the Lands》&0と同じ機能を持ちながら、空中にも&7《&1土&7／Dirt》&0を設置できます。その場合、&4マナ&0コストが増加します。
+botania.page.skyDirtRod1=よごれた棒 mk2
 
 # -- VITREOUS PICKAXE
 botania.entry.glassPick=ガラス質のツルハシ
 botania.tagline.glassPick=ガラス専用のシルクタッチ付きツルハシ
-botania.page.glassPick0=Placing down &1Glass&0 and having to break it again can be a heartbreaking experience. Luckily, by creating a &1Vitreous Pickaxe&0, one can gather the &1Glass&0 back by mining it with the pick, it's like cheap &4Silk Touch&0 for glass!
-botania.page.glassPick1=Trapped inside with food
+botania.page.glassPick0=一度設置してしまった&7《&1ガラス&7／Glass》&0を壊さないといけない状況は、胸が痛むような思いになります。幸運なことに&7《&1ガラス質のツルハシ&7／Vitreous Pickaxe》&0を使うことで簡単に&7《&1ガラス&7／Glass》&0を回収できます。これはガラス専用の安価な&4シルクタッチ&0みたいなものです。
+botania.page.glassPick1=食べ物と一緒に閉じ込められた
 
 # -- ROD OF DIVINING
 botania.entry.diviningRod=Rod of the Plentiful Mantle
