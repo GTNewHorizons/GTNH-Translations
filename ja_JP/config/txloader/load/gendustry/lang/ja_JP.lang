@@ -91,29 +91,29 @@ gendustry.label.liquifier.title=タンパク質溶解槽
 gendustry.label.replicator.title=遺伝子複製機
 gendustry.label.transposer.title=遺伝子コピー機
 
-gendustry.label.template.crafting=Genetic Samples can be added to a Template. Combine them in any crafting table. Multiple samples can be added at once.
+gendustry.label.template.crafting=遺伝子サンプルは、任意の作業台でテンプレートと組み合わせることで、テンプレートに追加できる。一度に複数のサンプルを追加できる、
 
-gendustry.label.charges=Charges: %s
+gendustry.label.charges=残りチャージ回数: %s
 gendustry.label.select=選択:
-gendustry.label.status=Status: %s
+gendustry.label.status=状態: %s
 gendustry.label.control=Control: %s
 
-gendustry.label.breeding=Breeding
-gendustry.label.working=Working
-gendustry.label.maxinstall=Maximum Installed:
+gendustry.label.breeding=交配中
+gendustry.label.working=仕事中
+gendustry.label.maxinstall=最大数:
 gendustry.label.temperature=気温: %s
 gendustry.label.humidity=湿度: %s
-gendustry.label.energy=Energy Required: %s %s/t
+gendustry.label.energy=要求電力: %s %s/t
 gendustry.label.lifespan=寿命修飾子: %s
 gendustry.label.flowering=開花確率: %s
 gendustry.label.production=生産修飾子: %s
 gendustry.label.territory=活動範囲: %s
 
-gendustry.label.erase=Place in furance to erase genetic content
-gendustry.label.recipes=Click to see recipes
-gendustry.label.consume=Consume chance: %s%%
-gendustry.label.mutatron.death=Death chance (ignoble): %s%%
-gendustry.label.mutatron.degrade=Degrade chance (pristine): %s%%
+gendustry.label.erase=かまどに入れて遺伝子情報を消去できる
+gendustry.label.recipes=クリックでレシピを表示
+gendustry.label.consume=消費される確率: %s%%
+gendustry.label.mutatron.death=死亡率 (遺伝子汚染): %s%%
+gendustry.label.mutatron.degrade=劣化率 (純系): %s%%
 
 gendustry.label.mod.automated=自動化
 gendustry.label.mod.biome=バイオームのオーバーライド: %s
@@ -142,7 +142,7 @@ gendustry.label.template.rootButterflies=蝶に追加できる
 gendustry.label.template.rootFlowers=花に追加できる
 gendustry.label.template.blank=遺伝子サンプルを追加できます
 gendustry.label.template.missing=足りない
-gendustry.label.template.chromosomes=%s/%s Chromosomes
+gendustry.label.template.chromosomes=%s/%s 染色体
 
 gendustry.rsmode.always=常にオン
 gendustry.rsmode.never=無効
@@ -153,12 +153,12 @@ gendustry.label.items=%s 個
 
 gendustry.label.shift=<SHIFTキーを押して情報を見る>
 
-gendustry.cover.label=Cover: %s
+gendustry.cover.label=カバー: %s
 
-gendustry.cover.error.message=Will emit redstone signal if %s is detected
-gendustry.cover.error.hint=(Click cover with empty hand to change)
-gendustry.cover.error.any=Any Error
-gendustry.cover.error.none=No Error
+gendustry.cover.error.message=%sが検出された場合、レッドストーン信号を出力する
+gendustry.cover.error.hint=(素手で右クリックして変更)
+gendustry.cover.error.any=任意のエラー
+gendustry.cover.error.none=エラーなし
 
 # ==== CHROMOSOMES (should match forestry) ====
 
@@ -213,18 +213,18 @@ gendustry.givetemplate.success=Given genetic template %s to %s
 
 gendustry.givesample.usage=/givesample <species> <chromosome> <allele>
 gendustry.givesample.error.root=Species root not found: %s
-gendustry.givesample.error.allele=Allele not found: %s
-gendustry.givesample.error.chromosome=Chromosome not found: %s
-gendustry.givesample.error.invalid=Invalid allele for requested chromosome
+gendustry.givesample.error.allele=対立遺伝子が見つかりません: %s
+gendustry.givesample.error.chromosome=染色体が見つかりません: %s
+gendustry.givesample.error.invalid=要求された染色体に対して無効な対立遺伝子です
 gendustry.givesample.success=Given sample (Species=%s, Chromosome=%s, Allele=%s) to %s
 
 # ==== MUTATION REQUIREMENTS ====
-gendustry.req.temperature=Requires temperature: %s
-gendustry.req.humidity=Requires humidity: %s
-gendustry.req.biome=Requires biome: %s
-gendustry.req.block=Requires block: %s
+gendustry.req.temperature=気温が必要: %s
+gendustry.req.humidity=湿度が必要: %s
+gendustry.req.biome=バイオームが必要: %s
+gendustry.req.block=ブロックが必要: %s
 
-gendustry.req.message=Special Requirements
+gendustry.req.message=特別要件
 
 # ==== BEE SPECIES ====
 gendustry.bees.species.black=黒色
@@ -288,15 +288,15 @@ gendustry.honeydrop.white.name=白色のハチミツの滴
 itemGroup.bdew.gendustry=Gendustry
 itemGroup.bdew.templates=Gendustry (遺伝子テンプレート)
 itemGroup.bdew.samples=Gendustry (遺伝子サンプル)
-itemGroup.bdew.hives=Custom Beehives
+itemGroup.bdew.hives=カスタム蜂巣
 
-gendustry.errorstate.ok=No error
+gendustry.errorstate.ok=エラーなし
 
-for.gendustry.errorstate.disabled.description=Disabled
-for.gendustry.errorstate.disabled.help=The machine is disabled by it's configuration
+for.gendustry.errorstate.disabled.description=無効
+for.gendustry.errorstate.disabled.help=この機械は設定により停止しています。
 
 #this will be moved to bdlib at some point
-bdlib.label.empty=Empty
+bdlib.label.empty=空
 
 # ==== TOOLTIPS ====
 
@@ -309,21 +309,21 @@ item.gendustry.GeneSample.forestry.speedSlower.tooltip=速度: 0.6 (全体の生
 item.gendustry.GeneSample.forestry.speedSlowest.tooltip=速度: 0.3 (全体の生産効率 0.64倍)
 item.gendustry.GeneSample.magicbees.speedBlinding.tooltip=速度: 2.0 (全体の生産効率 1.29倍)
 
-item.gendustry.GeneSample.forestry.lifespanElongated.tooltip=Base Bee Ticks: 45 (31:10.0 after beekeeping mode)
-item.gendustry.GeneSample.forestry.lifespanLong.tooltip=Base Bee Ticks: 50 (34:22.5 after beekeeping mode)
-item.gendustry.GeneSample.forestry.lifespanLonger.tooltip=Base Bee Ticks: 60 (41:15.0 after beekeeping mode)
-item.gendustry.GeneSample.forestry.lifespanLongest.tooltip=Base Bee Ticks: 70 (48:07.5 after beekeeping mode)
-item.gendustry.GeneSample.forestry.lifespanNormal.tooltip=Base Bee Ticks: 40 (27:30.0 after beekeeping mode)
-item.gendustry.GeneSample.forestry.lifespanShort.tooltip=Base Bee Ticks: 30 (20:37.5 after beekeeping mode)
-item.gendustry.GeneSample.forestry.lifespanShortened.tooltip=Base Bee Ticks: 35 (24:17.5 after beekeeping mode)
-item.gendustry.GeneSample.forestry.lifespanShorter.tooltip=Base Bee Ticks: 20 (13:45.0 after beekeeping mode)
-item.gendustry.GeneSample.forestry.lifespanShortest.tooltip=Base Bee Ticks: 10 (6:52.5 after beekeeping mode)
-item.gendustry.GeneSample.gregtech.lifeEon.tooltip=Base Bee Ticks: 600 (6:52:30.0 after beekeeping mode)
+item.gendustry.GeneSample.forestry.lifespanElongated.tooltip=基礎仕事回数: 45 (養蜂モード後31分10.0秒)
+item.gendustry.GeneSample.forestry.lifespanLong.tooltip=基礎仕事回数: 50 (養蜂モード後34分22.5秒)
+item.gendustry.GeneSample.forestry.lifespanLonger.tooltip=基礎仕事回数: 60 (養蜂モード後41分15.0秒)
+item.gendustry.GeneSample.forestry.lifespanLongest.tooltip=基礎仕事回数: 70 (養蜂モード後48分7.5秒)
+item.gendustry.GeneSample.forestry.lifespanNormal.tooltip=基礎仕事回数: 40 (養蜂モード後27分30.0秒)
+item.gendustry.GeneSample.forestry.lifespanShort.tooltip=基礎仕事回数: 30 (養蜂モード後20分37.5秒)
+item.gendustry.GeneSample.forestry.lifespanShortened.tooltip=基礎仕事回数: 35 (養蜂モード後24分17.5秒)
+item.gendustry.GeneSample.forestry.lifespanShorter.tooltip=基礎仕事回数: 20 (養蜂モード後13分45.0秒)
+item.gendustry.GeneSample.forestry.lifespanShortest.tooltip=基礎仕事回数: 10 (養蜂モード後6分52.5秒)
+item.gendustry.GeneSample.gregtech.lifeEon.tooltip=基礎仕事回数: 600 (養蜂モード後6時間53分30.0秒)
 
-item.gendustry.GeneSample.forestry.territoryAverage.tooltip=Flower Search / Effect: 9x6x9\nFlower Spread / Pollination: 27x18x27
-item.gendustry.GeneSample.forestry.territoryLarge.tooltip=Flower Search / Effect: 11x8x11\nFlower Spread / Pollination: 33x24x33
-item.gendustry.GeneSample.forestry.territoryLarger.tooltip=Flower Search / Effect: 13x12x13\nFlower Spread / Pollination: 39x36x39
-item.gendustry.GeneSample.forestry.territoryLargest.tooltip=Flower Search / Effect: 15x13x15\nFlower Spread / Pollination: 45x39x45
+item.gendustry.GeneSample.forestry.territoryAverage.tooltip=花の探索 / 効果: 9x6x9\n花の拡散 / 受粉: 27x18x27
+item.gendustry.GeneSample.forestry.territoryLarge.tooltip=花の探索 / 効果: 11x8x11\n花の拡散 / 受粉: 33x24x33
+item.gendustry.GeneSample.forestry.territoryLarger.tooltip=花の探索 / 効果: 13x12x13\n花の拡散 / 受粉: 39x36x39
+item.gendustry.GeneSample.forestry.territoryLargest.tooltip=花の探索 / 効果: 15x13x15\n花の拡散 / 受粉: 45x39x45
 
 item.gendustry.GeneSample.extrabees.effect.acid.tooltip=土を砂に変える
 item.gendustry.GeneSample.extrabees.effect.birthday.tooltip=花火をスポーンさせる(色は蜂の色による)

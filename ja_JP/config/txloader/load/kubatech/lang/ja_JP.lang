@@ -151,23 +151,23 @@ kubatech.infodata.eec.weapon.looting_level=武器の幸運レベル: §e%d
 kubatech.infodata.eec.total_damage=合計攻撃ダメージ: §e%f
 
 ## Extreme Industrial Greenhouse
-kubatech.infodata.eig.running_mode.setup_mode.input=準備モード (入力)
-kubatech.infodata.eig.running_mode.setup_mode.output=準備モード (出力)
+kubatech.infodata.eig.running_mode.setup_mode.input=動作モード: §a準備モード (入力)§r
+kubatech.infodata.eig.running_mode.setup_mode.output=動作モード: §a準備モード (出力)§r
 kubatech.infodata.eig.uses.water=1回の稼働につき%dLの水を使用
 kubatech.infodata.eig.uses.weedex=毎秒%dLのWeed-EX 9000を使用
-kubatech.infodata.eig.max_slots=最大スロット数:
-kubatech.infodata.eig.used_slots=使用中のスロット数:
+kubatech.infodata.eig.max_slots=最大スロット数: §a%d§r
+kubatech.infodata.eig.used_slots=使用中のスロット数: %s
 kubatech.infodata.bucket.humidity=湿度:
 kubatech.infodata.bucket.humidity.on=オン
 kubatech.infodata.bucket.humidity.off=オフ
-kubatech.infodata.eig.too_many_types=種の種類が多すぎて稼働できません！
-kubatech.infodata.eig.too_many_seeds=種の数が多すぎて稼働できません！
+kubatech.infodata.eig.too_many_types=§4種の種類が多すぎて稼働できません！§r
+kubatech.infodata.eig.too_many_seeds=§4種の数が多すぎて稼働できません！§r
 
 ## Mega Industrial Apiary
-kubatech.infodata.mia.running_mode.input=入力モード
-kubatech.infodata.mia.running_mode.output=出力モード
-kubatech.infodata.mia.running_mode.operating.normal=稼働モード (通常)
-kubatech.infodata.mia.running_mode.operating.swarmer=稼働モード (分蜂)
+kubatech.infodata.mia.running_mode.input=動作モード: §6入力モード§r
+kubatech.infodata.mia.running_mode.output=動作モード: §6出力モード§r
+kubatech.infodata.mia.running_mode.operating.normal=動作モード: §6稼働モード (通常)§r
+kubatech.infodata.mia.running_mode.operating.swarmer=動作モード: §6稼働モード (分蜂)§r
 kubatech.infodata.mia.running_mode.bee_storage=蜂の保持数 (%s/%s):
 kubatech.infodata.mia.inventory_full=No more slots for bees!
 kubatech.gui.text.mia.inventory_full_warning=No more bee slots available!
@@ -175,15 +175,15 @@ kubatech.gui.text.mia.locked_while_running=Bee inventory locked while machine is
 kubatech.infodata.mia.gui_locked_while_running=Cannot modify bee inventory via GUI while running
 
 #HTGR
-kubatech.infodata.htgr.stored_fuel=貯蔵中の燃料:
+kubatech.infodata.htgr.stored_fuel=§f貯蔵中の燃料:
 kubatech.infodata.htgr.stored_fuel_entry=§f- §b%s §fx §6%s (%s, %s, %s)
-kubatech.infodata.htgr.burned_fuel=燃焼中の燃料:
+kubatech.infodata.htgr.burned_fuel=§f燃焼中の燃料:
 kubatech.infodata.htgr.burned_fuel_entry=§f- §b%s §fx §6%s%%の出力
-kubatech.infodata.htgr.helium_supply=ヘリウムの供給: §6%sL
-kubatech.infodata.htgr.coolant_per_tick=冷却材/t: %sL
-kubatech.infodata.htgr.water_per_tick=水/t: §6%sL
+kubatech.infodata.htgr.helium_supply=§fヘリウムの供給: §6%sL
+kubatech.infodata.htgr.coolant_per_tick=§f冷却材/t: %sL
+kubatech.infodata.htgr.water_per_tick=§f水/t: §6%sL
 kubatech.infodata.htgr.fuel_supply=§fFill level %s out of %s
-kubatech.infodata.htgr.fuel_properties=プロパティ: %s, %s, %s
+kubatech.infodata.htgr.fuel_properties=§fプロパティ: %s, %s, %s
 
 kubatech.MBTT.CoolantInputHatch=入力ハッチ (冷却材用)
 kubatech.MBTT.HeliumInputHatch=入力ハッチ (ヘリウム用)

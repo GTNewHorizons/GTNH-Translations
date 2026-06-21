@@ -28,7 +28,7 @@ item.titanium_shovel.name=チタンのシャベル
 item.titanium_sword.name=チタンの剣
 
 # ARMOR
-item.thermalPadding.name=Thermal Padding Piece
+item.thermalPadding.name=熱調整パッド
 item.thermalHelm.name=熱調整ヘルメット
 item.thermalChestplate.name=熱調整チェストピース
 item.thermalLeggings.name=熱調整レギンス
@@ -71,10 +71,10 @@ fluid.liquidargon=液体アルゴン
 fluid.fuel=燃料
 
 # BLOCKS
-tile.asteroidsBlock.0.name=Asteroid Rock/Ore
-tile.asteroidsBlock.asteroid0.name=アステロイドの石
-tile.asteroidsBlock.asteroid1.name=アステロイドの石
-tile.asteroidsBlock.asteroid2.name=アステロイドの石
+tile.asteroidsBlock.0.name=小惑星の石/鉱石
+tile.asteroidsBlock.asteroid0.name=小惑星の石
+tile.asteroidsBlock.asteroid1.name=小惑星の石
+tile.asteroidsBlock.asteroid2.name=小惑星の石
 tile.asteroidsBlock.oreIron.name=鉄鉱石
 tile.asteroidsBlock.oreIlmenite.name=イルメナイト鉱石
 tile.asteroidsBlock.oreAluminum.name=アルミニウム鉱石
@@ -104,12 +104,12 @@ gui.message.invalidTargetAddress.name=Invalid Target Address
 gui.message.receivingActive.name=Receiving Active
 gui.message.telepadTooFar.name=Target too far! (Max %d)
 gui.message.telepadWrongDim.name=Target is in wrong dimension!
-gui.message.telepadNotFound.name=Telepad Not Found!
+gui.message.telepadNotFound.name=テレパッドが見つかりません！
 gui.message.sendingActive.name=Sending Active
-gui.message.range.name=Range: %dm
-gui.message.notEnoughEnergy.name=Not Enough Energy!
-gui.message.targetNoEnergy.name=Target doesn't have enough Energy!
-gui.message.grapple.fail=I'll need some string if I want to throw that Grapple hook!
+gui.message.range.name=範囲: %dm
+gui.message.notEnoughEnergy.name=電力が足りません！
+gui.message.targetNoEnergy.name=ターゲットの電力が足りません！
+gui.message.grapple.fail=グラップリングフックの使用には糸が必要です！
 gui.message.astroMiner.fail=This base already has an Astro Miner!
 gui.message.astroMiner1.fail=The docking area is blocked by:
 gui.message.astroMiner1A.fail=The Astro Miner's route is blocked by:
@@ -121,7 +121,7 @@ gui.message.astroMiner6.fail=The Astro Miner has finished mining the area, and w
 gui.message.astroMiner7.fail=There's nothing for an Astro Miner to mine on a space station!
 gui.message.astroMiner8.fail=A second Astro Miner was detected at the same base, the first will now freeze.
 gui.button.recall.name=Recall
-gui.miner.outOfRange=Out of range
+gui.miner.outOfRange=範囲外
 gui.miner.offline=オフライン
 gui.miner.stuck=Stuck at:
 gui.miner.docked=Docked
@@ -152,10 +152,10 @@ entity.GalacticraftMars.AstroMiner.name=天体掘削機
 
 # CONTAINERS
 container.shortRangeTelepad.name=短距離用テレパッド
-container.entryPod.name=Entry Pod
+container.entryPod.name=着陸船
 
 # CONFIG GUI
-gc.configgui.dimensionIDAsteroids=Asteroids Dimension ID
-gc.configgui.idSchematicRocketT3=Tier 3 Rocket Schematic ID
-gc.configgui.disableGalacticraftHelium=Disable Helium gas registration
-gc.configgui.astroMinersMax=Maximum number of Astro Miners per player
+gc.configgui.dimensionIDAsteroids=小惑星帯のディメンションID
+gc.configgui.idSchematicRocketT3=Tier 3のロケットの設計図のID
+gc.configgui.disableGalacticraftHelium=ヘリウムガスの登録の無効化
+gc.configgui.astroMinersMax=プレイヤー1人あたりの天体採掘機の最大数
