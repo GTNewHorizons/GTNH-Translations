@@ -2,7 +2,6 @@ import asyncio
 import datetime
 import glob
 import os
-import re
 import shutil
 from pathlib import Path
 import subprocess
@@ -134,8 +133,7 @@ class Action:
         # Existing projects use resource folder on PT
         def path_converter_(path: str) -> Path:
             rel = Path(os.path.relpath(path, Path('resources')))
-            domain = re.sub(r'^.*\[([^\]]+)\]$', r'\1', rel.parts[0])
-            return Path('config/txloader/load') / domain / Path(*rel.parts[1:])
+            return Path('config/txloader/load') / rel
 
         return await self.__paratranz_to_translation(
                 is_mod_lang_file,
