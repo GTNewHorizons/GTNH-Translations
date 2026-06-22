@@ -22,7 +22,7 @@ def get_line_break_symbol(dflt_setting: Optional[str], context: Optional[str]) -
   if dflt_setting is None:
     default_symbol = LINE_BREAK_CONTEXT_NOOP
   else:
-    default_symbol = dflt_setting
+    default_symbol = "\\n"
   if context is None: return default_symbol
   sp_ctx: list[str] = re.split(r'\r?\n', context)
   for ctx_line in sp_ctx:
