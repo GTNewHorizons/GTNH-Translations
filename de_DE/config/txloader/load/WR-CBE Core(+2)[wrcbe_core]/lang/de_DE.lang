@@ -1,0 +1,97 @@
+death.attack.bolt=%1$s wurde duch einen REther-Blitz getötet.
+item.wrcbe_core:obsidianStick.name=Obsidianstock
+item.wrcbe_core:stoneBowl.name=Steinschüssel
+item.wrcbe_core:retherPearl.name=REtherperle
+item.wrcbe_core:wirelessTransceiver.name=Kabelloser Sender-Empfänger
+item.wrcbe_core:blazeTransceiver.name=Lohen-Sender-Empfänger
+item.wrcbe_core:recieverDish.name=Empfangsschüssel
+item.wrcbe_core:blazeRecieverDish.name=Lohen-Empfangsschüssel
+
+wrcbe_core.button.simple=Einfach
+wrcbe_core.button.advanced=Fortgeschritten
+wrcbe_core.button.set=Einstellen
+wrcbe_core.button.colour=Phasenverschiebung
+wrcbe_core.button.setname=Namen einstellen
+wrcbe_core.button.remname=Entfernen
+wrcbe_core.label.value=Wert
+wrcbe_core.label.name=Frequenzname
+wrcbe_core.label.colour=Spektrum
+wrcbe_core.label.freq=Frequenz
+
+wrcbe_core.command.usage=WR-CBE REther Verwaltung. Nutzung: freq [Parameter...]
+wrcbe_core.command.usage1=Parameter: %s
+wrcbe_core.command.usage2=Nutze /freq help [Parameter] für weitere Informationen
+
+wrcbe_core.param.invalidno=Ungültige Anzahl an Parametern
+wrcbe_core.param.invalid=Ungültiger Parameter
+wrcbe_core.param.missing=Kein derartiger Parameter.
+wrcbe_core.param.invalidfreq=Ungültige Frequenz
+wrcbe_core.param.invalidfreqrange=Ungüliter Frequenzbereich
+
+wrcbe_core.param.get.usage=Nutzung: freq get [public | shared | private]
+wrcbe_core.param.get.usage1=z.B. freq get public. Gibt den öffentlichen Frequenzbereich zurück
+wrcbe_core.param.get.usage2=z.B. freq get shared. Gibt den geteilten Frequenzbereich zurück
+wrcbe_core.param.get.usage3=z.B. freq get private. Gibt die Anzahl an privaten Frequenzen, die jeder Spieler haben kann, zurück
+wrcbe_core.param.get.public=Frequenzen 1-%d sind öffentlich
+wrcbe_core.param.get.shared=Frequenzen %d-%d sind geteilt
+wrcbe_core.param.get.shared0=Es gibt keine geteilten Frequenzen
+wrcbe_core.param.get.private=Alle Spieler dürfen %d private Frequenzen haben
+
+wrcbe_core.param.private.usage=Nutzung: freq private [Parameter...]
+wrcbe_core.param.private.usage1=z.B. freq private [Spielername | all]. Gibt die privaten Frequenzen von [Spielername] zurück
+wrcbe_core.param.private.usage2=z.B. freq private [Spielername] [Frequenz]. Setzt [Spielername] als Besitzer von [Frequenz]
+wrcbe_core.param.private.usage3=z.B. freq private [Frequenz]. Gibt den Besitzer von [Frequenz] zurück
+wrcbe_core.param.private.usage4=z.B. freq private clear [Frequenz | Spielername | all]. Entfernt den Besitzer von [Frequenz]
+wrcbe_core.param.private.none=Es gibt keine privaten Frequenzen
+wrcbe_core.param.private.list=Folgende Frequenzen sind privat: %s
+wrcbe_core.param.private.ispublic=%d ist öffentlich
+wrcbe_core.param.private.publicanyway=%d ist sowieso öffentlich
+wrcbe_core.param.private.notprivate=%d ist nicht privat
+wrcbe_core.param.private.noneowned=%s besitzt keine Frequenzen
+wrcbe_core.param.private.nowshared=%d ist nun geteilt
+wrcbe_core.param.private.nowshared2=Folgende Frequenzen sind nun geteilt: %s
+wrcbe_core.param.private.ownedby=%d ist im Besitz von %s
+wrcbe_core.param.private.owns=%s besitzt folgende Frequenzen: %s
+wrcbe_core.param.private.notshared=%d ist nicht im geteilten Bereich
+wrcbe_core.param.private.nowownedby=%d ist nun im Besitz von %s
+wrcbe_core.param.private.limit=%s besitzt bereits %d Frequenzen
+
+wrcbe_core.param.scan.usage=Nutzung: freq scan [Spielername]
+wrcbe_core.param.scan.usage1=Berichtet die Frequenzen, auf denen [Spielername] senden kann und die dieser besitzt
+wrcbe_core.param.scan.usage2=z.B. freq scan codechicken
+wrcbe_core.param.scan.usage3=z.B. freq scan
+wrcbe_core.param.scan.list=%s kann hier senden: %s
+wrcbe_core.param.scan.onlypublic=%s kann nur auf öffentlichen Frequenzen senden
+
+wrcbe_core.param.set.usage=Nutzung: freq set [public | shared | private] [value]
+wrcbe_core.param.set.usage1=z.B. freq set public. Veröffentlicht Frequenzen 1 bis [Wert]
+wrcbe_core.param.set.usage2=z.B. freq set shared. Setzt Frequenzen [öffentlich+1] bis [Wert] als geteilt
+wrcbe_core.param.set.usage3=z.B. freq set private. Gibt jedem Spieler [Wert] private Frequenzen
+wrcbe_core.param.set.invalidnum=Ungültige Nummer
+wrcbe_core.param.set.invalidqty=Ungültige Anzahl
+wrcbe_core.param.set.nowpublic=%s: Frequenzen 1-%d sind nun öffentlich
+wrcbe_core.param.set.sharedpublic=%s: Der geteilte Frequenzbereich wurde veröffentlicht
+wrcbe_core.param.set.nowshared=%s: Frequenzen %d-%d sind nun geteilt
+wrcbe_core.param.set.sharedremoved=%s: Der geteilte Frequenzbereich wurde entfernt
+wrcbe_core.param.set.privateno=%s: Alle Spieler dürfen nun %d private Frequenzen nutzen
+
+wrcbe_core.param.jam.usage=Nutzung: freq jam [Spielername] [Frequenzbereich | all | default]
+wrcbe_core.param.jam.usage1=Blockiert [Spielername] von [Frequenzbereich]
+wrcbe_core.param.jam.usage2=z.B. freq %s codechicken 100-250
+wrcbe_core.param.jam.usage3=z.B. freq %s codechicken all
+wrcbe_core.param.jam.usage4=z.B. freq %s codechicken default
+wrcbe_core.param.jam.usage5=z.B. freq %s 100-250
+wrcbe_core.param.jam.usage6=z.B. freq %s codechicken 500
+wrcbe_core.param.jam.noplayer=Kein solcher Spieler
+wrcbe_core.param.jam.errpublic=Du kannst jemanden nicht auf öffentlichen Frequenzen blockieren
+wrcbe_core.param.jam.jammed=Du wurdest auf Frequenz %d blockiert
+wrcbe_core.param.jam.jammed2=Du wurdest auf den Frequenzen %s blockiert
+wrcbe_core.param.jam.opjammed=%s: %s wurde von auf Frequenz %d blockiert
+wrcbe_core.param.jam.opjammed2=%s: %s wurde auf Frequenzen %s blockiert
+
+wrcbe_core.param.open.usage=Nutzung: freq open [Spielername] [Frequenzbereich | all | default]
+wrcbe_core.param.open.usage1=Hebt Blockade von [Spielername] in [Frequenzbereich] auf
+wrcbe_core.param.open.jammed=Dir wurde Frequenz %d gegeben
+wrcbe_core.param.open.jammed2=Dir wurden Frequenzen %s gegeben
+wrcbe_core.param.open.opjammed=%s: %s wurde Frequenz %d gegeben
+wrcbe_core.param.open.opjammed2=%s: %s wurden Frequenzen %s gegeben

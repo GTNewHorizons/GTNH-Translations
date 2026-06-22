@@ -1,0 +1,166 @@
+tile.computronics.ironNoteBlock.name=Eiserner Notenblock
+tile.computronics.tapeDrive.name=Kassettenspieler
+tile.computronics.camera.name=Kamera
+tile.computronics.chatBox.name=Chat-Box
+tile.computronics.chatBox.creative.name=Kreative Chat-Box
+tile.computronics.sorter.name=Sortierer
+tile.computronics.cipher.name=Chiffrierblock
+tile.computronics.cipher_advanced.name=Asymmetrischer Chiffrierblock
+tile.computronics.radar.name=Radarblock
+tile.computronics.colorfulLamp.name=Farbenfrohe Lampe
+tile.computronics.locomotiveRelay.name=Digitales Lokomotivenrelais
+tile.computronics.digitalControllerBox.name=Digitale Signalsteuerbox
+tile.computronics.digitalReceiverBox.name=Digitale Signalempfängerbox
+tile.computronics.detector.name=Detektor - Digital
+tile.computronics.ticketMachine.name=Ticketautomat
+gui.tile.computronics.ticketMachine.title=Ticketautomat
+tile.computronics.audiocable.name=Tonkabel
+tile.computronics.speaker.name=Lautsprecher
+tile.computronics.speechBox.name=Sprechbox
+
+tooltip.computronics.chatBox.creative=Die NSA für zu Hause!
+tooltip.computronics.cipher.advanced=Für die Starchaser!
+tooltip.computronics.sensor.bound=Gebunden an [%1$s,%2$s,%3$s]
+tooltip.computronics.sensor.desc1=Rechtsklicke schleichend auf ein\nLokomotivenrelais, um ihn an dieses zu binden
+tooltip.computronics.sensor.desc2=Linksklicke schleichend auf eine\nElektrische Lokomotive, um ihn anzubringen
+tooltip.computronics.tape.length=Länge: %s Minuten
+tooltip.computronics.tape.balanced=Welch ein ausgewogener Preis!
+tooltip.computronics.tape.unnamed=Unbenanntes Band
+tooltip.computronics.tape.none=Kein Band
+tooltip.computronics.tape.ig=Der Standard-CDVR für\nSchiffe von GregTech Intergalactical
+tooltip.computronics.ticket.print=Ticket Drucken
+tooltip.computronics.ticket.printLocked=§cManuelles Drucken deaktiviert
+tooltip.computronics.ticket.locked=Ist gesperrt von\n {owner}.\n Nur der Eigentümer oder\n ein Op kann ihn warten.
+tooltip.computronics.ticket.notmaintenance=Shift-rechtsklicke\n diesen Automaten mit\n nichts in der Hand, um\n ihn zu warten.
+tooltip.computronics.ticket.notowner=Du bist nicht der\n Eigentümer des Automats.\n Sie gehört\n {owner}.
+tooltip.computronics.ticket.unlocked=Klicken um zu sperren.\n Wenn gesperrt, kann er\n nur von Dir oder einem Op\n gewartet werden
+
+tooltip.computronics.gate.action.computer_start=Computer starten
+tooltip.computronics.gate.action.computer_stop=Computer stoppen
+tooltip.computronics.gate.action.tape_drive_start=Kassettenspieler starten
+tooltip.computronics.gate.action.tape_drive_stop=Kassettenspieler stoppen
+tooltip.computronics.gate.action.tape_drive_rewind=Kassettenspieler zurückspulen
+tooltip.computronics.gate.action.tape_drive_forward=Kassettenspieler vorspulen
+tooltip.computronics.gate.action.lamp_color_set=Lampenfarbe einstellen
+tooltip.computronics.gate.action.lamp_color_reset=Lampenfarbe zurücksetzen
+tooltip.computronics.gate.action.lamp_color.red=Rot: %s
+tooltip.computronics.gate.action.lamp_color.green=Grün: %s
+tooltip.computronics.gate.action.lamp_color.blue=Blau: %s
+
+tooltip.computronics.gate.trigger.computer_running=Computer angeschaltet
+tooltip.computronics.gate.trigger.computer_stopped=Computer ausgeschaltet
+tooltip.computronics.gate.trigger.tape_drive_playing=Kassettenspieler läuft
+tooltip.computronics.gate.trigger.tape_drive_stopped=Kassettenspieler gestoppt
+tooltip.computronics.gate.trigger.tape_drive_rewinding=Kassettenspieler spult zurück
+tooltip.computronics.gate.trigger.tape_drive_forwarding=Kassettenspieler spult vor
+
+tooltip.computronics.waila.base.bus=§aBus ID§f: %s
+tooltip.computronics.waila.relay.bound=Gebunden
+tooltip.computronics.waila.relay.notbound=Nicht Gebunden
+tooltip.computronics.waila.lamp.red=Rot: %s
+tooltip.computronics.waila.lamp.green=Grün: %s
+tooltip.computronics.waila.lamp.blue=Blau: %s
+
+tooltip.computronics.tape.tapeinserted=Enthält Kassette
+tooltip.computronics.tape.labeltapeinserted=Enthält Kassette "%s"
+tooltip.computronics.tape.notapeinserted=Enthält keine Kassette
+
+tooltip.computronics.tape.state=Status: %s
+tooltip.computronics.tape.state.stopped=Gestoppt
+tooltip.computronics.tape.state.playing=Laufend
+tooltip.computronics.tape.state.rewinding=Zurückspulend
+tooltip.computronics.tape.state.forwarding=Vorspulend
+
+tooltip.computronics.manual.oc.tab.blocks=Computronics: Blöcke
+tooltip.computronics.manual.oc.tab.items=Computronics: Gegenstände
+
+tooltip.computronics.manual.tis3d.tab.items=Computronics: Gegenstände
+tooltip.computronics.manual.tis3d.port.flamingo=Pinker Flamingo
+
+option.computronics.enableOCAddress=Komponentenaddresse
+option.computronics.enableTape=Enthaltene Kassette
+option.computronics.enableTapeName=Kassettenname
+option.computronics.enableDriveState=Kassettenspielerstatus
+option.computronics.enableRelayBound=Relaisbindung
+option.computronics.enableLampColor=Lampenfarbe
+
+item.computronics.reelChromoxide.name=Chromdioxidbandspur
+item.computronics.drone_upgrade_docking.name=Dronen-Docking-Upgrade
+item.computronics.dockingStation.name=Dronen-Dockingstation
+item.computronics.portableTapeDrive.name=Tragbarer Kassettenspieler
+item.computronics.robot_upgrade_camera.name=Kamera-Upgrade
+item.computronics.robot_upgrade_chatbox.name=Chat-Upgrade
+item.computronics.robot_upgrade_radar.name=Radar-Upgrade
+item.computronics.card_beep.name=Piepende Karte
+item.computronics.card_noise.name=Lärmende Karte
+item.computronics.card_sound.name=Soundkarte
+item.computronics.card_fx.name=Partikeleffektkarte
+item.computronics.card_spoof.name=Spoofing-Karte
+item.computronics.card_spoof.tip=Funktioniert wie eine Netzwerkkarte, aber erlaubt es, die Sendeaddresse festzulegen
+item.computronics.card_boom.name=Selbstzerstörungskarte
+item.computronics.card_boom.tip=Jeder vernünftige Bösewicht braucht so etwas.
+item.computronics.robot_upgrade_colorful.name=Das Bunte Upgrade
+item.computronics.robot_upgrade_colorful.tip=Bunt, bunt, bunt, sind alle meine Kleider...
+item.computronics.rack_board_light.name=Serverschrank-Lichtpult
+item.computronics.rack_board_light.tip=Fast so sperrig wie ihr Name
+item.computronics.rack_board_boom.name=Server-Selbstzerstörer
+item.computronics.rack_board_boom.tip=Lass uns den Mond anzünden!
+item.computronics.rack_board_capacitor.name=Serverschrankkondensator
+item.computronics.rack_board_capacitor.tip=So viel Strom, wie du nur essen könntest.
+item.computronics.rack_board_switch.name=Serverschrank-Schaltpult
+item.computronics.rack_board_switch.tip=Nicht wirklich ein Pult, hat aber immerhin Schalter.
+item.computronics.robot_upgrade_speech.name=Sprech-Upgrade
+item.computronics.robot_upgrade_Speech.tip=Verwandelt Roboter in Nachrichtensprecher.
+item.computronics.magical_memory.name=Wundersamer Speicher (Kreativ)
+item.computronics.magical_memory.tip=So viele Erinnerungen!
+item.computronics.for.combAcid.name=Kaustische Wabe
+item.computronics.for.dropAcid.name=Kaustischer Tropfen
+item.computronics.relaySensor.name=Digitaler Relaissensor
+item.computronics.part_tape_track.name=Bandspur
+item.computronics.tape.ig.name=Intergalaktischer CDVR
+item.computronics.tape.name=Kasettenband
+item.computronics.module_colorful.name=Das Bunte Modul
+item.computronics.module_tape_reader.name=Kassettenlesemodul
+item.computronics.module_boom.name=Selbstzerstörungsmodul
+
+itemGroup.tabComputronics=Computronics
+
+entity.computronics.itemTape.name=Intergalaktischer CDVR
+entity.computronics.swarm.name=Schwarm
+
+death.attack.computronics.sting.1=%1$s fand die Ursache von Apiphobie
+death.attack.computronics.sting.2=%1$s konnte den Bienen doch nicht entkommen
+death.attack.computronics.sting.3=%1$s entdeckte, dass Bienen sehr wohl aggressiv sein können
+death.attack.computronics.sting.4=%1$s erlag einem anaphylaktischen Schock
+death.attack.computronics.sting.5=%1$s wurde Opfer eines Bienenattentats
+death.attack.computronics.sting.self=%1$s wurde vom eigenen Schwarm betrogen
+
+computronics.flowers.sea=Meer
+computronics.bees.species.scummy=Schmierig
+computronics.bees.species.scummy.description=Kerosin, Propylenglykol, künstliche Süßstoffe, Schwefelsäure, Rum, Aceton, roter Farbstoff Nr. 2, Schmiere, Achsenfett, Batteriesäure und/oder Peperoni|Seltsame Leute in einem Riegel
+
+chat.computronics.cipher.locked=Dieser Chiffrierblock ist versperrt! Du darfst nicht darauf zugreifen.
+chat.computronics.colorful_upgrade.color=§6Farbe§f: %s
+chat.computronics.lamp.binary.on=RedNet wird nun binär verarbeitet
+chat.computronics.lamp.binary.off=RedNet wird nun gewöhnlich verarbeitet
+chat.computronics.relay.notBound=Relais ist momentan mit keiner Lokomotive verbunden!
+chat.computronics.relay.unbound=Relais wurde erfolgreich von der Lokomotive entbunden!
+chat.computronics.sensor.bound=Relais wurde erfolgreich mit der Lokomotive verbunden!
+chat.computronics.sensor.noRelay=Es gibt kein Relais an diesen Koordinaten!
+chat.computronics.sensor.noRelayDetected=Relais an diesen Koordinaten konnte nicht erkannt werden!
+chat.computronics.sensor.tooFarAway=Relais und Lokomotive sind zu weit voneinander entfernt!
+chat.computronics.sensor.wrongLoco=Sensor kann nur an Elektrische Lokomotiven angebracht werden!
+chat.computronics.sensor.wrongDim=Relais und Lokomotive sind in unterschiedlichen Dimensionen!
+
+achievement.computronics.gotTape=Musik für alle
+achievement.computronics.gotTape.desc=Mit Sicherheit besser als Klebeband
+achievement.computronics.gotStarTape=Jenseits des Regenbogens
+achievement.computronics.gotStarTape.desc=Du kannst auch gute Musik spielen
+achievement.computronics.gotIGTape=Erster Teil deines Raumschiffs
+achievement.computronics.gotIGTape.desc=Nicht, dass du eines bauen könntest
+achievement.computronics.droppedIGTape=MH370
+achievement.computronics.droppedIGTape.desc=Einfach verschwunden!?
+achievement.computronics.gotLoco=Elektrische Revolution
+achievement.computronics.gotLoco.desc=So beginnt es.
+achievement.computronics.gotRelay=Digitale Revolution
+achievement.computronics.gotRelay.desc=010010000100100101001100010001100100010100100001
