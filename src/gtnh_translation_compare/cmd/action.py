@@ -138,12 +138,13 @@ class Action:
             if provided.parts and provided.parts[0] == "config":
                 logger.info(f"Skip normalizing path for {path}")
             elif provided.parts and provided.parts[0] == "resources":
-                for i in range(len(provided.parts)):
-                    result = re.sub(r"\(\+\d+\)", "", provided.parts[i])
-                    if result != provided.parts[i]:
-                        logger.warning(f"Trimmed path for {provided.parts[i]}")
-                        provided.parts[i] = result
-                provided = cfg / "txloader" / "load" / Path(*provided.parts[1:])
+                parts = list(provided.parts)
+                for i in range(len(parts)):
+                    result = re.sub(r"\(\+\d+\)", "", parts[i])
+                    if result != parts[i]:
+                        logger.warning(f"Trimmed path for {parts[i]}")
+                        parts[i] = result
+                provided = cfg / "txloader" / "load" / Path(*parts[1:])
             else:
                 logger.warning(f"Unknown path {path}")
                 provided = cfg / "txloader" / "load" / provided
