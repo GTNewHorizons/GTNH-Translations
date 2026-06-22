@@ -1,0 +1,24 @@
+applecore.commands.hunger.usage=/hunger [игрок] <значение>
+applecore.commands.hunger.set.hunger.to=Голод игрока %s изменён на %d\n
+
+applecore.cfg.client=Клиент
+applecore.cfg.server=Сервер
+applecore.cfg.general=Общие
+applecore.cfg.exhaustion.sync.threshold=Синхронизировать уровень истощения
+applecore.cfg.show.food.values.in.tooltip=Показать пищевую ценность во всплывающей подсказке
+applecore.cfg.show.food.values.in.tooltip.always=Всегда показывать пищевую ценность продуктов во всплывающей подсказке
+applecore.cfg.show.saturation.hud.overlay=Показать насыщенность наложением HUD
+applecore.cfg.show.food.values.hud.overlay=Показать пищевую ценность наложением HUD
+applecore.cfg.show.food.exhaustion.hud.underlay=Показать пищевое истощение на дисплее HUD в нижней части экрана
+applecore.cfg.show.food.stats.in.debug.overlay=Показать статистику питания в режиме отладочного наложения
+
+applecore.cfg.client.tooltip=Эти параметры конфигурации доступны только на стороне клиента
+applecore.cfg.server.tooltip=Эти параметры конфигурации доступны только на стороне севера
+applecore.cfg.general.tooltip=Эти параметры конфигурации предназначены как для сервера, так и для клиента
+applecore.cfg.exhaustion.sync.threshold.tooltip=Максимальная разница между значением истощения сервера и значением клиента до того, как это значение будет синхронизировано с сервера на клиент. Увеличение этого значения приведет к отправке меньшего количества пакетов, но приведет к тому, что значения истощения клиента будут выглядеть более изменчивыми
+applecore.cfg.show.food.values.in.tooltip.tooltip=Если значение равно true, во всплывающей подсказке отображаются значения голода и насыщения при удерживании SHIFT
+applecore.cfg.show.food.values.in.tooltip.always.tooltip=Если значение равно true, во всплывающей подсказке автоматически отображаются значения голода и насыщения пищей (без необходимости удерживать SHIFT)
+applecore.cfg.show.saturation.hud.overlay.tooltip=Если значение равно true, отображается ваш текущий уровень насыщения, отображенный на панели "чувство голода"
+applecore.cfg.show.food.values.hud.overlay.tooltip=Если значение равно true, отображается чувство голода (и насыщения, если параметр "Показать насыщенность наложением HUD" имеет значение true), которое было бы восстановлено с помощью пищи, которую вы в данный момент держите в руках
+applecore.cfg.show.food.exhaustion.hud.underlay.tooltip=Если значение равно true, то за полосами голода отображается индикатор вашего пищевого истощения
+applecore.cfg.show.food.stats.in.debug.overlay.tooltip=Если значение равно true, добавляется строка, показывающая уровень вашего голода, насыщения и истощения в оверлее отладки F3

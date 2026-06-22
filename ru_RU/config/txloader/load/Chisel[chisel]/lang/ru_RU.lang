@@ -1,0 +1,2815 @@
+#Key localizations
+
+#Stat localizations
+stat.blockChiseled=Блоков обработано
+
+#Entity localizations
+entity.chisel.snowman.name=Снеговик
+
+item.chisel.nomobspawnsonthisblock.desc=Монстры не могут появляться на этом блоке
+
+#Item localizations
+item.chisel.chisel_iron.name=Стамеска
+
+item.chisel.chisel.desc.gui=ПКМ, чтобы открыть интерфейс
+item.chisel.chisel.desc.lc1=ЛКМ, чтобы менять блоки прямо в мире
+item.chisel.chisel.desc.lc2=Может ориентироваться на блок в инвентаре
+item.chisel.chisel.desc.modes=Обладает разными режимами для обработки.
+
+item.chisel.chisel_diamond.name=Алмазная стамеска
+item.chisel.chisel_obsidian.name=Обсидиановая стамеска
+item.chisel.chisel_netherstar.name=Стамеска из адских звёзд
+item.chisel.chisel_netherstar.gtnh.name=Бедрокиевая стамеска
+
+item.ballMoss.name=Шарик мха
+item.ballMoss.desc=ПКМ, чтобы кинуть. Превратить булыжник в замшелый булыжник при столкновении.
+item.cloudBottle.name=Облако в бутылке
+item.cloudBottle.desc=ПКМ, чтобы кинуть. Создать облака при столкновении.
+item.smashingRock.name=Сокрушительный камень
+item.smashingRock.desc=ПКМ, чтобы кинуть. Превратить булыжник в гравий, гравий в песок и т.д. при столкновении.
+item.upgrade.name=Улучшение
+item.upgrade_speed.name=Улучшение "Скорость"
+item.upgrade_automation.name=Улучшение "Автоматизация"
+item.upgrade_stack.name=Улучшение "Складывание"
+item.upgrade_reversion.name=Улучшение "Реверсия"
+
+item.upgrade_speed.desc=Увеличивает скорость работы стамески
+item.upgrade_automation.desc=Позволяет предметам входить и выходить из авто-стамески
+item.upgrade_stack.desc=Позволяет стамеске обрабатывать целый стак предметов
+item.upgrade_reversion.desc=Возвращает основной слот к первоначальной форме
+
+#Block localizations
+
+#Chisel 2
+
+#Nation
+tile.chisel.nation.name=Империалистический блок
+tile.chisel.rebel.name=Повстанческий блок
+tile.nation.0.desc=Замаскированный
+tile.nation.1.desc=Замаскированный (Спрятанный)
+tile.nation.2.desc=Болтовое покрытие
+tile.nation.3.desc=Белая предупреждающая лента
+tile.nation.4.desc=Соединённая предупреждающая лента
+
+#Shingles
+tile.chisel.shingles.name=Черепица
+tile.shingles.0.desc=Красная диагональ
+tile.shingles.1.desc=Красные малые квадраты
+tile.shingles.2.desc=Красные большие квадраты
+tile.shingles.3.desc=Чёрная диагональ
+tile.shingles.4.desc=Чёрные малые квадраты
+tile.shingles.5.desc=Чёрные большие квадраты
+
+#Valentines
+tile.chisel.valentines.name=Блок Валентина
+tile.valentines.0.desc=Кирпичи Валентина
+tile.valentines.1.desc=Если оно говорит, я не буду его трогать
+tile.valentines.2.desc=
+tile.valentines.3.desc=
+tile.valentines.4.desc=
+tile.valentines.5.desc=
+tile.valentines.6.desc=
+tile.valentines.7.desc=
+tile.valentines.8.desc=
+tile.valentines.9.desc=
+
+#AntiBlocks
+tile.chisel.antiBlock.name=Анти-блок
+tile.antiBlock.black.desc=Чёрный анти-блок
+tile.antiBlock.blue.desc=Синий анти-блок
+tile.antiBlock.brown.desc=Коричневый анти-блок
+tile.antiBlock.cyan.desc=Бирюзовый анти-блок
+tile.antiBlock.green.desc=Зелёный анти-блок
+tile.antiBlock.light_blue.desc=Голубой анти-блок
+tile.antiBlock.silver.desc=Светло-серый анти-блок
+tile.antiBlock.lime.desc=Лаймовый анти-блок
+tile.antiBlock.magenta.desc=Пурпурный анти-блок
+tile.antiBlock.orange.desc=Оранжевый анти-блок
+tile.antiBlock.pink.desc=Розовый анти-блок
+tile.antiBlock.purple.desc=Фиолетовый анти-блок
+tile.antiBlock.red.desc=Красный анти-блок
+tile.antiBlock.white.desc=Белый анти-блок
+tile.antiBlock.yellow.desc=Жёлтый анти-блок
+tile.antiBlock.gray.desc=Серый анти-блок
+
+#Diorite
+tile.chisel.diorite.name=Диорит
+tile.diorite.0.desc=Генерируется в Вашем мире
+tile.diorite.1.desc=Гладкий диорит
+tile.diorite.2.desc=Колонна из диорита
+tile.diorite.3.desc=Диоритовые кирпичи
+tile.diorite.4.desc=Декоративный диорит
+tile.diorite.5.desc=Призматический диорит
+tile.diorite.6.desc=Диоритовые маленькие плитки
+
+#Andesite
+tile.chisel.andesite.name=Андезит
+tile.andesite.0.desc=Генерируется в Вашем мире
+tile.andesite.1.desc=Гладкий андезит
+tile.andesite.2.desc=Колонна из андезита
+tile.andesite.3.desc=Андезитовые кирпичи
+tile.andesite.4.desc=Декоративный андезит
+tile.andesite.5.desc=Призматический андезит
+tile.andesite.6.desc=Андезитовые маленькие плитки
+
+#Granite
+tile.chisel.granite.name=Гранит
+tile.granite.0.desc=Генерируется в Вашем мире
+tile.granite.1.desc=Гладкий гранит
+tile.granite.2.desc=Колонна из гранита
+tile.granite.3.desc=Гранитовые кирпичи
+tile.granite.4.desc=Декоративный гранит
+tile.granite.5.desc=Призматический гранит
+tile.granite.6.desc=Гранитовые маленькие плитки
+
+#Auto Chisel
+tile.chisel.autoChisel.name=Автоматическая стамеска
+autochisel.slot.chisel.tooltip=Слот стамески
+autochisel.slot.target.tooltip=Слот блока
+autochisel.slot.speed.tooltip=Улучшение скорость
+autochisel.slot.automation.tooltip=Улучшение Автоматизация
+autochisel.slot.stack.tooltip=Улучшение складывание
+autochisel.slot.reversion.tooltip=Улучшение Реверсия
+chisel.autochisel.upgrade.disabled=Улучшения отключены
+
+#Beacon
+tile.chisel.beacon.name=Маяк
+tile.beacon.black.desc=Маяк с чёрным лучом
+tile.beacon.blue.desc=Маяк с синем лучом
+tile.beacon.brown.desc=Маяк с коричневым лучом
+tile.beacon.cyan.desc=Маяк с бирюзовым лучом
+tile.beacon.green.desc=Маяк с зелёным лучом
+tile.beacon.lightBlue.desc=Маяк с голубым лучом
+tile.beacon.silver.desc=Маяк со светло-серым лучом
+tile.beacon.lime.desc=Маяк с лаймовым лучом
+tile.beacon.magenta.desc=Маяк с пурпурным лучом
+tile.beacon.orange.desc=Маяк с оранжевым лучом
+tile.beacon.pink.desc=Маяк с розовым лучом
+tile.beacon.purple.desc=Маяк с фиолетовым лучом
+tile.beacon.red.desc=Маяк с красным лучом
+tile.beacon.white.desc=Маяк с белым лучом
+tile.beacon.yellow.desc=Маяк с жёлтым лучом
+tile.beacon.gray.desc=Маяк с серым лучом
+
+#Leaves
+tile.chisel.leaves.name=Листва
+tile.leaves.6.desc=Мёртвая листва
+tile.leaves.7.desc=Красивая листва
+tile.leaves.8.desc=Розовые лепестки
+tile.leaves.9.desc=Красная роза
+tile.leaves.10.desc=Белая роза
+tile.leaves.11.desc=Рождественские шары
+tile.leaves.12.desc=Рождественские огни
+
+#Void Stone Blocks
+tile.chisel.voidstone.name=Пустотный камень
+tile.voidstone.0.desc=Необработанный пустотный камень
+tile.voidstone.1.desc=Большие плитки пустотного камня
+tile.voidstone.2.desc=Гладкий пустотный камень
+tile.voidstone.3.desc=Черепной пустотный камень
+tile.voidstone.4.desc=Рунический пустотный камень
+tile.voidstone.5.desc=Огранённый металлом пустотный камень
+tile.voidstone.6.desc=Глазной пустотный камень
+tile.voidstone.7.desc=Скошенный пустотный камень
+tile.chisel.voidstoneRunic.name=Рунический пустотный камень
+tile.voidstoneRunic.orange.desc=Пустотный камень - Оранжевая руна
+tile.voidstoneRunic.magenta.desc=Пустотный камень - Пурпурная руна
+tile.voidstoneRunic.lightblue.desc=Пустотный камень - Голубая руна
+tile.voidstoneRunic.yellow.desc=Пустотный камень - Жёлтая руна
+tile.voidstoneRunic.lime.desc=Пустотный камень - Лаймовая руна
+tile.voidstoneRunic.pink.desc=Пустотный камень - Розовая руна
+tile.voidstoneRunic.gray.desc=Пустотный камень - Серая руна
+tile.voidstoneRunic.lightgray.desc=Пустотный камень - Светло-серая руна
+tile.voidstoneRunic.cyan.desc=Пустотный камень - Бирюзовая руна
+tile.voidstoneRunic.purple.desc=Пустотный камень - Фиолетовая руна
+tile.voidstoneRunic.blue.desc=Пустотный камень - Синяя руна
+tile.voidstoneRunic.brown.desc=Пустотный камень - Коричневая руна
+tile.voidstoneRunic.green.desc=Пустотный камень - Зелёная руна
+tile.voidstoneRunic.red.desc=Пустотный камень - Красная руна
+tile.voidstoneRunic.black.desc=Пустотный камень - Чёрная руна
+
+#Void Stone Pillars
+tile.chisel.voidstonePillar.name=Колонна из пустотного камня
+tile.voidstonePillar.0.desc=Полосатая колонна из пустотного камня
+
+#Warning
+tile.chisel.warningSign.name=Предупреждающая табличка
+tile.warningSign.0.desc=Радиация
+tile.warningSign.1.desc=Биологическая опасность
+tile.warningSign.2.desc=Огонь
+tile.warningSign.3.desc=Взрывчатка
+tile.warningSign.4.desc=Смерть
+tile.warningSign.5.desc=Падающие объекты
+tile.warningSign.6.desc=Опасность проваливания
+tile.warningSign.7.desc=Высокое напряжение
+tile.warningSign.8.desc=Общее предупреждение
+tile.warningSign.9.desc=Опасные химикаты
+tile.warningSign.10.desc=В стадии строительства
+tile.warningSign.11.desc=Громкие звуки
+tile.warningSign.12.desc=Вход запрещён
+tile.warningSign.13.desc=В ходе криогенной заморозки
+tile.warningSign.14.desc=Необходим кислород
+
+#Energised Void Stone Blocks
+tile.chisel.voidstone2.name=Заряженный пустотный камень
+tile.voidstone2.0.desc=Необработанный заряженный пустотный камень
+tile.voidstone2.1.desc=Большие плитки заряженного пустотного камня
+tile.voidstone2.2.desc=Гладкий заряженный пустотный камень
+tile.voidstone2.3.desc=Черепной заряженный пустотный камень
+tile.voidstone2.4.desc=Рунический заряженный пустотный камень
+tile.voidstone2.5.desc=Огранённый металлом заряженный пустотный камень
+tile.voidstone2.6.desc=Глазной заряженный пустотный камень
+tile.voidstone2.7.desc=Скошенный пустотный камень
+
+#Void Stone Pillars
+tile.chisel.voidstonePillar2.name=Колонна из заряженного пустотного камня
+tile.voidstonePillar2.0.desc=Полосатая колонна из заряженного пустотного камня
+
+#Arcane
+tile.chisel.arcane.name=Магический каменный блок
+tile.arcane.0.desc=Выгравированная Луна
+tile.arcane.1.desc=Светящаяся Луна
+tile.arcane.2.desc=Скошенная плитка
+tile.arcane.3.desc=Выгравированные символы
+tile.arcane.4.desc=Светящиеся символы
+tile.arcane.5.desc=Кирпичи
+tile.arcane.6.desc=Временной канал
+tile.arcane.7.desc=Мозгииии
+tile.arcane.8.desc=Пространственный канал
+tile.arcane.9.desc=Неприятные геоглифы Наски
+tile.arcane.10.desc=Изысканная эмблема тауматурга
+tile.arcane.11.desc=Потрескавшийся камень жуткого свечения
+
+#Thaumium
+tile.chisel.thaumium.name=Таумический блок
+tile.thaumium.0.desc=Декоративный шаблон
+tile.thaumium.1.desc=Изображения тотемов
+tile.thaumium.2.desc=Кирпичи
+tile.thaumium.3.desc=Маленькие плитки
+tile.thaumium.4.desc=Решётка
+tile.thaumium.5.desc=Огранённые доски
+
+#Tallow
+tile.chisel.tallow.name=Блок жира
+tile.tallow.0.desc=Гладкий блок жира
+tile.tallow.1.desc=Оживлённый блок жира
+
+#Blood Rune
+tile.chisel.bloodRune.name=Кровавая руна
+tile.bloodRune.0.desc=Обработанная кровавая руна
+tile.bloodRune.1.desc=Кирпичи из кровавой руны
+tile.bloodRune.2.desc=Резная кровавая руна
+tile.bloodRune.3.desc=Лучеобразная резная кровавая руна
+tile.bloodRune.4.desc=Классическая панель из кровавой руны
+tile.bloodRune.5.desc=Плитки из кровавой руны
+
+#Futura
+tile.chisel.futura.name=Футура-блок
+tile.chisel.futuraCircuit.name=Футура-контур
+tile.chisel.fakeController.name=МЭ контроллер?
+tile.futura.0.desc=Светящийся экран с металлическими гранями
+tile.futura.1.desc=Светящийся экран с бирюзовыми гранями
+tile.futura.2.desc=Прикладные лабиринтовые неоновые полосы
+tile.futura.3.desc=Радужный поп-тарт
+tile.futura.4.desc=Фиолетовые прикладные лабиринтовые неоновые полосы
+tile.futura.5.desc=Psychedelic Poptart Rainbow.v02
+tile.futuraCircuit.black.desc=Чёрный
+tile.futuraCircuit.blue.desc=Синий
+tile.futuraCircuit.brown.desc=Коричневый
+tile.futuraCircuit.cyan.desc=Бирюзовый
+tile.futuraCircuit.green.desc=Зелёный
+tile.futuraCircuit.light_blue.desc=Голубой
+tile.futuraCircuit.silver.desc=Светло-серый
+tile.futuraCircuit.lime.desc=Лаймовый
+tile.futuraCircuit.magenta.desc=Пурпурный
+tile.futuraCircuit.orange.desc=Оранжевый
+tile.futuraCircuit.pink.desc=Розовый
+tile.futuraCircuit.purple.desc=Фиолетовый
+tile.futuraCircuit.red.desc=Красный
+tile.futuraCircuit.white.desc=Белый
+tile.futuraCircuit.yellow.desc=Жёлтый
+tile.futuraCircuit.gray.desc=Серый
+
+#Waterstone
+tile.chisel.waterstone.name=Водный камень
+tile.waterstone.0.desc=Кирпичи из водного камня
+tile.waterstone.1.desc=Чёрный водный камень
+tile.waterstone.2.desc=Плитки из водного камня
+tile.waterstone.3.desc=Хаотические кирпичи из водного камня
+tile.waterstone.4.desc=Жуткая вода в плитках
+tile.waterstone.5.desc=Водная панель
+tile.waterstone.6.desc=Декоративная водная панель
+
+#Hex Plating
+tile.chisel.hexPlating.name=Хекс-покрытие
+tile.hexPlating.black.desc=Чёрное покрытие
+tile.hexPlating.blue.desc=Синее покрытие
+tile.hexPlating.brown.desc=Коричневое покрытие
+tile.hexPlating.cyan.desc=Бирюзовое покрытие
+tile.hexPlating.green.desc=Зелёное покрытие
+tile.hexPlating.light_blue.desc=Голубое покрытие
+tile.hexPlating.silver.desc=Светло-серое покрытие
+tile.hexPlating.lime.desc=Лаймовое покрытие
+tile.hexPlating.magenta.desc=Пурпурное покрытие
+tile.hexPlating.orange.desc=Оранжевое покрытие
+tile.hexPlating.pink.desc=Розовое покрытие
+tile.hexPlating.purple.desc=Фиолетовое покрытие
+tile.hexPlating.red.desc=Красное покрытие
+tile.hexPlating.white.desc=Белое покрытие
+tile.hexPlating.yellow.desc=Жёлтое покрытие
+tile.hexPlating.gray.desc=Серое покрытие
+
+#Hex Large Plating
+tile.chisel.hexLargePlating.name=Большое хекс-покрытие
+
+#Grimstone
+tile.chisel.grimstone.name=Мрачный камень
+tile.grimstone.0.desc=Мрачный камень
+tile.grimstone.1.desc=Гладкий мрачный камень
+tile.grimstone.2.desc=Таинственный символ мрачного камня
+tile.grimstone.3.desc=Резной мрачный камень
+tile.grimstone.4.desc=Блоки из мрачного камня
+tile.grimstone.5.desc=Грубые кирпичи из мрачного камня
+tile.grimstone.6.desc=Кирпичи из мрачного камня
+tile.grimstone.7.desc=Большие кирпичи из мрачного камня
+tile.grimstone.8.desc=Платформа из мрачного камня
+tile.grimstone.9.desc=Плитки платформы из мрачного камня
+tile.grimstone.10.desc=Красивая конструкция из мрачного камня
+tile.grimstone.11.desc=Красивые плитки из мрачного камня
+tile.grimstone.12.desc=Гладкая пластина из мрачного камня
+tile.grimstone.13.desc=Пластина из мрачного камня
+tile.grimstone.14.desc=Чешуйчатый мрачный камень
+
+#Hardened Clay (Terracotta)
+tile.chisel.hardened_clay.name=Керамика
+tile.chisel.hardened_clay2.name=Керамика
+tile.hardened_clay.0.desc=Плетёные керамические кирпичи
+tile.hardened_clay.1.desc=Потрескавшиеся керамические кирпичи
+tile.hardened_clay.2.desc=Маленькая керамическая кирпичная плитка
+tile.hardened_clay.3.desc=Маленькие керамические кирпичи
+tile.hardened_clay.4.desc=Выровненные керамические кирпичи
+tile.hardened_clay.5.desc=Детализированные керамические кирпичи
+tile.hardened_clay.6.desc=Широкие керамические кирпичи
+tile.hardened_clay.7.desc=Хаотические маленькие керамические кирпичи
+tile.hardened_clay.8.desc=Маленькие неупорядоченные керамические кирпичи
+tile.hardened_clay.9.desc=Декоративная керамика
+tile.hardened_clay.10.desc=Потрескавшаяся керамика
+tile.hardened_clay.11.desc=Осевшая керамическая панель
+tile.hardened_clay.12.desc=Красивый керамический кирпич
+tile.hardened_clay.13.desc=Красивая керамическая плитка
+tile.hardened_clay.14.desc=Слоёная керамика
+tile.hardened_clay.15.desc=Керамическая мозаика
+tile.hardened_clay.16.desc=Маленькая декоративная керамика
+tile.hardened_clay.17.desc=Керамическая большая плитка
+tile.hardened_clay.18.desc=Керамическая колонна
+tile.hardened_clay.19.desc=Призматическая керамика
+tile.hardened_clay.20.desc=Керамические кирпичи в красивом расположении
+tile.hardened_clay.21.desc=Керамическая панель
+tile.hardened_clay.22.desc=Маленькие керамические блоки
+tile.hardened_clay.23.desc=Маленькая керамическая плитка
+tile.hardened_clay.24.desc=Лучеобразная резная керамика
+tile.hardened_clay.25.desc=Выгравированный керамический блок
+
+#Hardened Clay (Black Terracotta)
+tile.chisel.hardened_clay_black.name=Чёрная керамика
+tile.chisel.hardened_clay_black2.name=Чёрная керамика
+tile.hardened_clay_black.0.desc=Плетёные чёрные керамические кирпичи
+tile.hardened_clay_black.1.desc=Потрескавшиеся чёрные керамические кирпичи
+tile.hardened_clay_black.2.desc=Маленькая чёрная керамическая кирпичная плитка
+tile.hardened_clay_black.3.desc=Маленькие чёрные керамические кирпичи
+tile.hardened_clay_black.4.desc=Выровненные чёрные керамические кирпичи
+tile.hardened_clay_black.5.desc=Детализированные чёрные керамические кирпичи
+tile.hardened_clay_black.6.desc=Широкие чёрные керамические кирпичи
+tile.hardened_clay_black.7.desc=Хаотические маленькие чёрные керамические кирпичи
+tile.hardened_clay_black.8.desc=Маленькие неупорядоченные чёрные керамические кирпичи
+tile.hardened_clay_black.9.desc=Декоративная чёрная керамика
+tile.hardened_clay_black.10.desc=Потрескавшаяся чёрная керамика
+tile.hardened_clay_black.11.desc=Осевшая чёрная керамическая панель
+tile.hardened_clay_black.12.desc=Красивый чёрный керамический кирпич
+tile.hardened_clay_black.13.desc=Красивая чёрная керамическая плитка
+tile.hardened_clay_black.14.desc=Слоёная чёрная керамика
+tile.hardened_clay_black.15.desc=Чёрная керамическая мозаика
+tile.hardened_clay_black.16.desc=Маленькая декоративная чёрная керамика
+tile.hardened_clay_black.17.desc=Чёрная керамическая большая плитка
+tile.hardened_clay_black.18.desc=Чёрная керамическая колонна
+tile.hardened_clay_black.19.desc=Призматическая чёрная керамика
+tile.hardened_clay_black.20.desc=Чёрные керамические кирпичи в красивом расположении
+tile.hardened_clay_black.21.desc=Чёрная керамическая панель
+tile.hardened_clay_black.22.desc=Маленькие чёрные керамические блоки
+tile.hardened_clay_black.23.desc=Маленькая чёрная керамическая плитка
+tile.hardened_clay_black.24.desc=Лучеобразная резная чёрная керамика
+tile.hardened_clay_black.25.desc=Выгравированный чёрный керамический блок
+
+#Hardened Clay (Blue Terracotta)
+tile.chisel.hardened_clay_blue.name=Синяя керамика
+tile.chisel.hardened_clay_blue2.name=Синяя керамика
+tile.hardened_clay_blue.0.desc=Плетёные синие керамические кирпичи
+tile.hardened_clay_blue.1.desc=Потрескавшиеся синие керамические кирпичи
+tile.hardened_clay_blue.2.desc=Маленькая синяя керамическая кирпичная плитка
+tile.hardened_clay_blue.3.desc=Маленькие синие керамические кирпичи
+tile.hardened_clay_blue.4.desc=Выровненные синие керамические кирпичи
+tile.hardened_clay_blue.5.desc=Детализированные синие керамические кирпичи
+tile.hardened_clay_blue.6.desc=Широкие синие керамические кирпичи
+tile.hardened_clay_blue.7.desc=Хаотические маленькие синие керамические кирпичи
+tile.hardened_clay_blue.8.desc=Маленькие неупорядоченные синие керамические кирпичи
+tile.hardened_clay_blue.9.desc=Декоративная синяя керамика
+tile.hardened_clay_blue.10.desc=Потрескавшаяся синяя керамика
+tile.hardened_clay_blue.11.desc=Осевшая синяя керамическая панель
+tile.hardened_clay_blue.12.desc=Красивый синий керамический кирпич
+tile.hardened_clay_blue.13.desc=Красивая синяя керамическая плитка
+tile.hardened_clay_blue.14.desc=Слоёная синяя керамика
+tile.hardened_clay_blue.15.desc=Синяя керамическая мозаика
+tile.hardened_clay_blue.16.desc=Маленькая декоративная синяя керамика
+tile.hardened_clay_blue.17.desc=Синяя керамическая большая плитка
+tile.hardened_clay_blue.18.desc=Синяя керамическая колонна
+tile.hardened_clay_blue.19.desc=Призматическая синяя керамика
+tile.hardened_clay_blue.20.desc=Синие керамические кирпичи в красивом расположении
+tile.hardened_clay_blue.21.desc=Синяя керамическая панель
+tile.hardened_clay_blue.22.desc=Маленькие синие керамические блоки
+tile.hardened_clay_blue.23.desc=Маленькая синяя керамическая плитка
+tile.hardened_clay_blue.24.desc=Лучеобразная резная синяя керамика
+tile.hardened_clay_blue.25.desc=Выгравированный синий керамический блок
+
+#Hardened Clay (Brown Terracotta)
+tile.chisel.hardened_clay_brown.name=Коричневая керамика
+tile.chisel.hardened_clay_brown2.name=Коричневая керамика
+tile.hardened_clay_brown.0.desc=Плетёные коричневые керамические кирпичи
+tile.hardened_clay_brown.1.desc=Потрескавшиеся коричневые керамические кирпичи
+tile.hardened_clay_brown.2.desc=Маленькая коричневая керамическая кирпичная плитка
+tile.hardened_clay_brown.3.desc=Маленькие коричневые керамические кирпичи
+tile.hardened_clay_brown.4.desc=Выровненные коричневые керамические кирпичи
+tile.hardened_clay_brown.5.desc=Детализированные коричневые керамические кирпичи
+tile.hardened_clay_brown.6.desc=Широкие коричневые керамические кирпичи
+tile.hardened_clay_brown.7.desc=Хаотические маленькие коричневые керамические кирпичи
+tile.hardened_clay_brown.8.desc=Маленькие неупорядоченные коричневые керамические кирпичи
+tile.hardened_clay_brown.9.desc=Декоративная коричневая керамика
+tile.hardened_clay_brown.10.desc=Потрескавшаяся коричневая керамика
+tile.hardened_clay_brown.11.desc=Осевшая коричневая керамическая панель
+tile.hardened_clay_brown.12.desc=Красивый коричневый керамический кирпич
+tile.hardened_clay_brown.13.desc=Красивая коричневая керамическая плитка
+tile.hardened_clay_brown.14.desc=Слоёная коричневая керамика
+tile.hardened_clay_brown.15.desc=Коричневая керамическая мозаика
+tile.hardened_clay_brown.16.desc=Маленькая декоративная коричневая керамика
+tile.hardened_clay_brown.17.desc=Коричневая керамическая большая плитка
+tile.hardened_clay_brown.18.desc=Коричневая керамическая колонна
+tile.hardened_clay_brown.19.desc=Призматическая коричневая керамика
+tile.hardened_clay_brown.20.desc=Коричневые керамические кирпичи в красивом расположении
+tile.hardened_clay_brown.21.desc=Коричневая керамическая панель
+tile.hardened_clay_brown.22.desc=Маленькие коричневые керамические блоки
+tile.hardened_clay_brown.23.desc=Маленькая коричневая керамическая плитка
+tile.hardened_clay_brown.24.desc=Лучеобразная резная коричневая керамика
+tile.hardened_clay_brown.25.desc=Выгравированный коричневый керамический блок
+
+#Hardened Clay (Cyan Terracotta)
+tile.chisel.hardened_clay_cyan.name=Бирюзовая керамика
+tile.chisel.hardened_clay_cyan2.name=Бирюзовая керамика
+tile.hardened_clay_cyan.0.desc=Плетёные бирюзовые керамические кирпичи
+tile.hardened_clay_cyan.1.desc=Потрескавшиеся бирюзовые керамические кирпичи
+tile.hardened_clay_cyan.2.desc=Маленькая бирюзовая керамическая кирпичная плитка
+tile.hardened_clay_cyan.3.desc=Маленькие бирюзовые керамические кирпичи
+tile.hardened_clay_cyan.4.desc=Выровненные бирюзовые керамические кирпичи
+tile.hardened_clay_cyan.5.desc=Детализированные бирюзовые керамические кирпичи
+tile.hardened_clay_cyan.6.desc=Широкие бирюзовые керамические кирпичи
+tile.hardened_clay_cyan.7.desc=Хаотические маленькие бирюзовые керамические кирпичи
+tile.hardened_clay_cyan.8.desc=Маленькие неупорядоченные бирюзовые керамические кирпичи
+tile.hardened_clay_cyan.9.desc=Декоративная бирюзовая керамика
+tile.hardened_clay_cyan.10.desc=Потрескавшаяся бирюзовая керамика
+tile.hardened_clay_cyan.11.desc=Осевшая бирюзовая керамическая панель
+tile.hardened_clay_cyan.12.desc=Красивый бирюзовый керамический кирпич
+tile.hardened_clay_cyan.13.desc=Красивая бирюзовая керамическая плитка
+tile.hardened_clay_cyan.14.desc=Слоёная бирюзовая керамика
+tile.hardened_clay_cyan.15.desc=Бирюзовая керамическая мозаика
+tile.hardened_clay_cyan.16.desc=Маленькая декоративная бирюзовая керамика
+tile.hardened_clay_cyan.17.desc=Бирюзовая керамическая большая плитка
+tile.hardened_clay_cyan.18.desc=Бирюзовая керамическая колонна
+tile.hardened_clay_cyan.19.desc=Призматическая бирюзовая керамика
+tile.hardened_clay_cyan.20.desc=Бирюзовые керамические кирпичи в красивом расположении
+tile.hardened_clay_cyan.21.desc=Бирюзовая керамическая панель
+tile.hardened_clay_cyan.22.desc=Маленькие бирюзовые керамические блоки
+tile.hardened_clay_cyan.23.desc=Маленькая бирюзовая керамическая плитка
+tile.hardened_clay_cyan.24.desc=Лучеобразная резная бирюзовая керамика
+tile.hardened_clay_cyan.25.desc=Выгравированный бирюзовый керамический блок
+
+#Hardened Clay (Gray Terracotta)
+tile.chisel.hardened_clay_gray.name=Серая керамика
+tile.chisel.hardened_clay_gray2.name=Серая керамика
+tile.hardened_clay_gray.0.desc=Плетёные серые керамические кирпичи
+tile.hardened_clay_gray.1.desc=Потрескавшиеся серые керамические кирпичи
+tile.hardened_clay_gray.2.desc=Маленькая серая керамическая кирпичная плитка
+tile.hardened_clay_gray.3.desc=Маленькие серые керамические кирпичи
+tile.hardened_clay_gray.4.desc=Выровненные серые керамические кирпичи
+tile.hardened_clay_gray.5.desc=Детализированные серые керамические кирпичи
+tile.hardened_clay_gray.6.desc=Широкие серые керамические кирпичи
+tile.hardened_clay_gray.7.desc=Хаотические маленькие серые керамические кирпичи
+tile.hardened_clay_gray.8.desc=Маленькие неупорядоченные серые керамические кирпичи
+tile.hardened_clay_gray.9.desc=Декоративная серая керамика
+tile.hardened_clay_gray.10.desc=Потрескавшаяся серая керамика
+tile.hardened_clay_gray.11.desc=Осевшая серая керамическая панель
+tile.hardened_clay_gray.12.desc=Красивый серый керамический кирпич
+tile.hardened_clay_gray.13.desc=Красивая серая керамическая плитка
+tile.hardened_clay_gray.14.desc=Слоёная серая керамика
+tile.hardened_clay_gray.15.desc=Серая керамическая мозаика
+tile.hardened_clay_gray.16.desc=Маленькая декоративная серая керамика
+tile.hardened_clay_gray.17.desc=Серая керамическая большая плитка
+tile.hardened_clay_gray.18.desc=Серая керамическая колонна
+tile.hardened_clay_gray.19.desc=Призматическая серая керамика
+tile.hardened_clay_gray.20.desc=Серые керамические кирпичи в красивом расположении
+tile.hardened_clay_gray.21.desc=Серая керамическая панель
+tile.hardened_clay_gray.22.desc=Маленькие серые керамические блоки
+tile.hardened_clay_gray.23.desc=Маленькая серая керамическая плитка
+tile.hardened_clay_gray.24.desc=Лучеобразная резная серая керамика
+tile.hardened_clay_gray.25.desc=Выгравированный серый керамический блок
+
+#Hardened Clay (Green Terracotta)
+tile.chisel.hardened_clay_green.name=Зелёная керамика
+tile.chisel.hardened_clay_green2.name=Зелёная керамика
+tile.hardened_clay_green.0.desc=Плетёные зелёные керамические кирпичи
+tile.hardened_clay_green.1.desc=Потрескавшиеся зелёные керамические кирпичи
+tile.hardened_clay_green.2.desc=Маленькая зелёная керамическая кирпичная плитка
+tile.hardened_clay_green.3.desc=Маленькие зелёные керамические кирпичи
+tile.hardened_clay_green.4.desc=Выровненные зелёные керамические кирпичи
+tile.hardened_clay_green.5.desc=Детализированные зелёные керамические кирпичи
+tile.hardened_clay_green.6.desc=Широкие зелёные керамические кирпичи
+tile.hardened_clay_green.7.desc=Хаотические маленькие зелёные керамические кирпичи
+tile.hardened_clay_green.8.desc=Маленькие неупорядоченные зелёные керамические кирпичи
+tile.hardened_clay_green.9.desc=Декоративная зелёная керамика
+tile.hardened_clay_green.10.desc=Потрескавшаяся зелёная керамика
+tile.hardened_clay_green.11.desc=Осевшая зелёная керамическая панель
+tile.hardened_clay_green.12.desc=Красивый зелёный керамический кирпич
+tile.hardened_clay_green.13.desc=Красивая зелёная керамическая плитка
+tile.hardened_clay_green.14.desc=Слоёная зелёная керамика
+tile.hardened_clay_green.15.desc=Зелёная керамическая мозаика
+tile.hardened_clay_green.16.desc=Маленькая декоративная зелёная керамика
+tile.hardened_clay_green.17.desc=Зелёная керамическая большая плитка
+tile.hardened_clay_green.18.desc=Зелёная керамическая колонна
+tile.hardened_clay_green.19.desc=Призматическая зелёная керамика
+tile.hardened_clay_green.20.desc=Зелёные керамические кирпичи в красивом расположении
+tile.hardened_clay_green.21.desc=Зелёная керамическая панель
+tile.hardened_clay_green.22.desc=Маленькие зелёные керамические блоки
+tile.hardened_clay_green.23.desc=Маленькая зелёная керамическая плитка
+tile.hardened_clay_green.24.desc=Лучеобразная резная зелёная керамика
+tile.hardened_clay_green.25.desc=Выгравированный зелёный керамический блок
+
+#Hardened Clay (Light Blue Terracotta)
+tile.chisel.hardened_clay_lightblue.name=Голубая керамика
+tile.chisel.hardened_clay_lightblue2.name=Голубая керамика
+tile.hardened_clay_lightblue.0.desc=Плетёные голубые керамические кирпичи
+tile.hardened_clay_lightblue.1.desc=Потрескавшиеся голубые керамические кирпичи
+tile.hardened_clay_lightblue.2.desc=Маленькая голубая керамическая кирпичная плитка
+tile.hardened_clay_lightblue.3.desc=Маленькие голубые керамические кирпичи
+tile.hardened_clay_lightblue.4.desc=Выровненные голубые керамические кирпичи
+tile.hardened_clay_lightblue.5.desc=Детализированные голубые керамические кирпичи
+tile.hardened_clay_lightblue.6.desc=Широкие голубые керамические кирпичи
+tile.hardened_clay_lightblue.7.desc=Хаотические маленькие голубые керамические кирпичи
+tile.hardened_clay_lightblue.8.desc=Маленькие неупорядоченные голубые керамические кирпичи
+tile.hardened_clay_lightblue.9.desc=Декоративная голубая керамика
+tile.hardened_clay_lightblue.10.desc=Потрескавшаяся голубая керамика
+tile.hardened_clay_lightblue.11.desc=Осевшая голубая керамическая панель
+tile.hardened_clay_lightblue.12.desc=Красивый голубой керамический кирпич
+tile.hardened_clay_lightblue.13.desc=Красивая голубая керамическая плитка
+tile.hardened_clay_lightblue.14.desc=Слоёная голубая керамика
+tile.hardened_clay_lightblue.15.desc=Голубая керамическая мозаика
+tile.hardened_clay_lightblue.16.desc=Маленькая декоративная голубая керамика
+tile.hardened_clay_lightblue.17.desc=Голубая керамическая большая плитка
+tile.hardened_clay_lightblue.18.desc=Голубая керамическая колонна
+tile.hardened_clay_lightblue.19.desc=Призматическая голубая керамика
+tile.hardened_clay_lightblue.20.desc=Голубые керамические кирпичи в красивом расположении
+tile.hardened_clay_lightblue.21.desc=Голубая керамическая панель
+tile.hardened_clay_lightblue.22.desc=Маленькие голубые керамические блоки
+tile.hardened_clay_lightblue.23.desc=Маленькая голубая керамическая плитка
+tile.hardened_clay_lightblue.24.desc=Лучеобразная резная голубая керамика
+tile.hardened_clay_lightblue.25.desc=Выгравированный голубой керамический блок
+
+#Hardened Clay (Light Gray Terracotta)
+tile.chisel.hardened_clay_lightgray.name=Светло-серая керамика
+tile.chisel.hardened_clay_lightgray2.name=Светло-серая керамика
+tile.hardened_clay_lightgray.0.desc=Плетёные светло-серые керамические кирпичи
+tile.hardened_clay_lightgray.1.desc=Потрескавшиеся светло-серые керамические кирпичи
+tile.hardened_clay_lightgray.2.desc=Маленькая светло-серая керамическая кирпичная плитка
+tile.hardened_clay_lightgray.3.desc=Маленькие светло-серые керамические кирпичи
+tile.hardened_clay_lightgray.4.desc=Выровненные светло-серые керамические кирпичи
+tile.hardened_clay_lightgray.5.desc=Детализированные светло-серые керамические кирпичи
+tile.hardened_clay_lightgray.6.desc=Широкие светло-серые керамические кирпичи
+tile.hardened_clay_lightgray.7.desc=Хаотические маленькие светло-серые керамические кирпичи
+tile.hardened_clay_lightgray.8.desc=Маленькие неупорядоченные светло-серые керамические кирпичи
+tile.hardened_clay_lightgray.9.desc=Декоративная светло-серая керамика
+tile.hardened_clay_lightgray.10.desc=Потрескавшаяся светло-серая керамика
+tile.hardened_clay_lightgray.11.desc=Осевшая светло-серая керамическая панель
+tile.hardened_clay_lightgray.12.desc=Красивый светло-серый керамический кирпич
+tile.hardened_clay_lightgray.13.desc=Красивая светло-серая керамическая плитка
+tile.hardened_clay_lightgray.14.desc=Слоёная светло-серая керамика
+tile.hardened_clay_lightgray.15.desc=Светло-серая керамическая мозаика
+tile.hardened_clay_lightgray.16.desc=Маленькая декоративная светло-серая керамика
+tile.hardened_clay_lightgray.17.desc=Светло-серая керамическая большая плитка
+tile.hardened_clay_lightgray.18.desc=Светло-серая керамическая колонна
+tile.hardened_clay_lightgray.19.desc=Призматическая светло-серая керамика
+tile.hardened_clay_lightgray.20.desc=Светло-серые керамические кирпичи в красивом расположении
+tile.hardened_clay_lightgray.21.desc=Светло-серая керамическая панель
+tile.hardened_clay_lightgray.22.desc=Маленькие светло-серые керамические блоки
+tile.hardened_clay_lightgray.23.desc=Маленькая светло-серая керамическая плитка
+tile.hardened_clay_lightgray.24.desc=Лучеобразная резная светло-серая керамика
+tile.hardened_clay_lightgray.25.desc=Выгравированный светло-серый керамический блок
+
+#Hardened Clay (Lime Terracotta)
+tile.chisel.hardened_clay_lime.name=Лаймовая керамика
+tile.chisel.hardened_clay_lime2.name=Лаймовая керамика
+tile.hardened_clay_lime.0.desc=Плетёные лаймовые керамические кирпичи
+tile.hardened_clay_lime.1.desc=Потрескавшиеся лаймовые керамические кирпичи
+tile.hardened_clay_lime.2.desc=Маленькая лаймовая керамическая кирпичная плитка
+tile.hardened_clay_lime.3.desc=Маленькие лаймовые керамические кирпичи
+tile.hardened_clay_lime.4.desc=Выровненные лаймовые керамические кирпичи
+tile.hardened_clay_lime.5.desc=Детализированные лаймовые керамические кирпичи
+tile.hardened_clay_lime.6.desc=Широкие лаймовые керамические кирпичи
+tile.hardened_clay_lime.7.desc=Хаотические маленькие лаймовые керамические кирпичи
+tile.hardened_clay_lime.8.desc=Маленькие неупорядоченные лаймовые керамические кирпичи
+tile.hardened_clay_lime.9.desc=Декоративная лаймовая керамика
+tile.hardened_clay_lime.10.desc=Потрескавшаяся лаймовая керамика
+tile.hardened_clay_lime.11.desc=Осевшая лаймовая керамическая панель
+tile.hardened_clay_lime.12.desc=Красивый лаймовый керамический кирпич
+tile.hardened_clay_lime.13.desc=Красивая лаймовая керамическая плитка
+tile.hardened_clay_lime.14.desc=Слоёная лаймовая керамика
+tile.hardened_clay_lime.15.desc=Лаймовая керамическая мозаика
+tile.hardened_clay_lime.16.desc=Маленькая декоративная лаймовая керамика
+tile.hardened_clay_lime.17.desc=Лаймовая керамическая большая плитка
+tile.hardened_clay_lime.18.desc=Лаймовая керамическая колонна
+tile.hardened_clay_lime.19.desc=Призматическая лаймовая керамика
+tile.hardened_clay_lime.20.desc=Лаймовые керамические кирпичи в красивом расположении
+tile.hardened_clay_lime.21.desc=Лаймовая керамическая панель
+tile.hardened_clay_lime.22.desc=Маленькие лаймовые керамические блоки
+tile.hardened_clay_lime.23.desc=Маленькая лаймовая керамическая плитка
+tile.hardened_clay_lime.24.desc=Лучеобразная резная лаймовая керамика
+tile.hardened_clay_lime.25.desc=Выгравированный лаймовый керамический блок
+
+#Hardened Clay (Magenta Terracotta)
+tile.chisel.hardened_clay_magenta.name=Пурпурная керамика
+tile.chisel.hardened_clay_magenta2.name=Пурпурная керамика
+tile.hardened_clay_magenta.0.desc=Плетёные пурпурные керамические кирпичи
+tile.hardened_clay_magenta.1.desc=Потрескавшиеся пурпурные керамические кирпичи
+tile.hardened_clay_magenta.2.desc=Маленькая пурпурная керамическая кирпичная плитка
+tile.hardened_clay_magenta.3.desc=Маленькие пурпурные керамические кирпичи
+tile.hardened_clay_magenta.4.desc=Выровненные пурпурные керамические кирпичи
+tile.hardened_clay_magenta.5.desc=Детализированные пурпурные керамические кирпичи
+tile.hardened_clay_magenta.6.desc=Широкие пурпурные керамические кирпичи
+tile.hardened_clay_magenta.7.desc=Хаотические маленькие пурпурные керамические кирпичи
+tile.hardened_clay_magenta.8.desc=Маленькие неупорядоченные пурпурные керамические кирпичи
+tile.hardened_clay_magenta.9.desc=Декоративная пурпурная керамика
+tile.hardened_clay_magenta.10.desc=Потрескавшаяся пурпурная керамика
+tile.hardened_clay_magenta.11.desc=Осевшая пурпурная керамическая панель
+tile.hardened_clay_magenta.12.desc=Красивый пурпурный керамический кирпич
+tile.hardened_clay_magenta.13.desc=Красивая пурпурная керамическая плитка
+tile.hardened_clay_magenta.14.desc=Слоёная пурпурная керамика
+tile.hardened_clay_magenta.15.desc=Пурпурная керамическая мозаика
+tile.hardened_clay_magenta.16.desc=Маленькая декоративная пурпурная керамика
+tile.hardened_clay_magenta.17.desc=Пурпурная керамическая большая плитка
+tile.hardened_clay_magenta.18.desc=Пурпурная керамическая колонна
+tile.hardened_clay_magenta.19.desc=Призматическая пурпурная керамика
+tile.hardened_clay_magenta.20.desc=Пурпурные керамические кирпичи в красивом расположении
+tile.hardened_clay_magenta.21.desc=Пурпурная керамическая панель
+tile.hardened_clay_magenta.22.desc=Маленькие пурпурные керамические блоки
+tile.hardened_clay_magenta.23.desc=Маленькая пурпурная керамическая плитка
+tile.hardened_clay_magenta.24.desc=Лучеобразная резная пурпурная керамика
+tile.hardened_clay_magenta.25.desc=Выгравированный пурпурный керамический блок
+
+#Hardened Clay (Orange Terracotta)
+tile.chisel.hardened_clay_orange.name=Оранжевая керамика
+tile.chisel.hardened_clay_orange2.name=Оранжевая керамика
+tile.hardened_clay_orange.0.desc=Плетёные оранжевые керамические кирпичи
+tile.hardened_clay_orange.1.desc=Потрескавшиеся оранжевые керамические кирпичи
+tile.hardened_clay_orange.2.desc=Маленькая оранжевая керамическая кирпичная плитка
+tile.hardened_clay_orange.3.desc=Маленькие оранжевые керамические кирпичи
+tile.hardened_clay_orange.4.desc=Выровненные оранжевые керамические кирпичи
+tile.hardened_clay_orange.5.desc=Детализированные оранжевые керамические кирпичи
+tile.hardened_clay_orange.6.desc=Широкие оранжевые керамические кирпичи
+tile.hardened_clay_orange.7.desc=Хаотические маленькие оранжевые керамические кирпичи
+tile.hardened_clay_orange.8.desc=Маленькие неупорядоченные оранжевые керамические кирпичи
+tile.hardened_clay_orange.9.desc=Декоративная оранжевая керамика
+tile.hardened_clay_orange.10.desc=Потрескавшаяся оранжевая керамика
+tile.hardened_clay_orange.11.desc=Осевшая оранжевая керамическая панель
+tile.hardened_clay_orange.12.desc=Красивый оранжевый керамический кирпич
+tile.hardened_clay_orange.13.desc=Красивая оранжевая керамическая плитка
+tile.hardened_clay_orange.14.desc=Слоёная оранжевая керамика
+tile.hardened_clay_orange.15.desc=Оранжевая керамическая мозаика
+tile.hardened_clay_orange.16.desc=Маленькая декоративная оранжевая керамика
+tile.hardened_clay_orange.17.desc=Оранжевая керамическая большая плитка
+tile.hardened_clay_orange.18.desc=Оранжевая керамическая колонна
+tile.hardened_clay_orange.19.desc=Призматическая оранжевая керамика
+tile.hardened_clay_orange.20.desc=Оранжевые керамические кирпичи в красивом расположении
+tile.hardened_clay_orange.21.desc=Оранжевая керамическая панель
+tile.hardened_clay_orange.22.desc=Маленькие оранжевые керамические блоки
+tile.hardened_clay_orange.23.desc=Маленькая оранжевая керамическая плитка
+tile.hardened_clay_orange.24.desc=Лучеобразная резная оранжевая керамика
+tile.hardened_clay_orange.25.desc=Выгравированный оранжевый керамический блок
+
+#Hardened Clay (Pink Terracotta)
+tile.chisel.hardened_clay_pink.name=Розовая керамика
+tile.chisel.hardened_clay_pink2.name=Розовая керамика
+tile.hardened_clay_pink.0.desc=Плетёные розовые керамические кирпичи
+tile.hardened_clay_pink.1.desc=Потрескавшиеся розовые керамические кирпичи
+tile.hardened_clay_pink.2.desc=Маленькая розовая керамическая кирпичная плитка
+tile.hardened_clay_pink.3.desc=Маленькие розовые керамические кирпичи
+tile.hardened_clay_pink.4.desc=Выровненные розовые керамические кирпичи
+tile.hardened_clay_pink.5.desc=Детализированные розовые керамические кирпичи
+tile.hardened_clay_pink.6.desc=Широкие розовые керамические кирпичи
+tile.hardened_clay_pink.7.desc=Хаотические маленькие розовые керамические кирпичи
+tile.hardened_clay_pink.8.desc=Маленькие неупорядоченные розовые керамические кирпичи
+tile.hardened_clay_pink.9.desc=Декоративная розовая керамика
+tile.hardened_clay_pink.10.desc=Потрескавшаяся розовая керамика
+tile.hardened_clay_pink.11.desc=Осевшая розовая керамическая панель
+tile.hardened_clay_pink.12.desc=Красивый розовый керамический кирпич
+tile.hardened_clay_pink.13.desc=Красивая розовая керамическая плитка
+tile.hardened_clay_pink.14.desc=Слоёная розовая керамика
+tile.hardened_clay_pink.15.desc=Розовая керамическая мозаика
+tile.hardened_clay_pink.16.desc=Маленькая декоративная розовая керамика
+tile.hardened_clay_pink.17.desc=Розовая керамическая большая плитка
+tile.hardened_clay_pink.18.desc=Розовая керамическая колонна
+tile.hardened_clay_pink.19.desc=Призматическая розовая керамика
+tile.hardened_clay_pink.20.desc=Розовые керамические кирпичи в красивом расположении
+tile.hardened_clay_pink.21.desc=Розовая керамическая панель
+tile.hardened_clay_pink.22.desc=Маленькие розовые керамические блоки
+tile.hardened_clay_pink.23.desc=Маленькая розовая керамическая плитка
+tile.hardened_clay_pink.24.desc=Лучеобразная резная розовая керамика
+tile.hardened_clay_pink.25.desc=Выгравированный розовый керамический блок
+
+#Hardened Clay (Purple Terracotta)
+tile.chisel.hardened_clay_purple.name=Фиолетовая керамика
+tile.chisel.hardened_clay_purple2.name=Фиолетовая керамика
+tile.hardened_clay_purple.0.desc=Плетёные фиолетовые керамические кирпичи
+tile.hardened_clay_purple.1.desc=Потрескавшиеся фиолетовые керамические кирпичи
+tile.hardened_clay_purple.2.desc=Маленькая фиолетовая керамическая кирпичная плитка
+tile.hardened_clay_purple.3.desc=Маленькие фиолетовые керамические кирпичи
+tile.hardened_clay_purple.4.desc=Выровненные фиолетовые керамические кирпичи
+tile.hardened_clay_purple.5.desc=Детализированные фиолетовые керамические кирпичи
+tile.hardened_clay_purple.6.desc=Широкие фиолетовые керамические кирпичи
+tile.hardened_clay_purple.7.desc=Хаотические маленькие фиолетовые керамические кирпичи
+tile.hardened_clay_purple.8.desc=Маленькие неупорядоченные фиолетовые керамические кирпичи
+tile.hardened_clay_purple.9.desc=Декоративная фиолетовая керамика
+tile.hardened_clay_purple.10.desc=Потрескавшаяся фиолетовая керамика
+tile.hardened_clay_purple.11.desc=Осевшая фиолетовая керамическая панель
+tile.hardened_clay_purple.12.desc=Красивый фиолетовый керамический кирпич
+tile.hardened_clay_purple.13.desc=Красивая фиолетовая керамическая плитка
+tile.hardened_clay_purple.14.desc=Слоёная фиолетовая керамика
+tile.hardened_clay_purple.15.desc=Фиолетовая керамическая мозаика
+tile.hardened_clay_purple.16.desc=Маленькая декоративная фиолетовая керамика
+tile.hardened_clay_purple.17.desc=Фиолетовая керамическая большая плитка
+tile.hardened_clay_purple.18.desc=Фиолетовая керамическая колонна
+tile.hardened_clay_purple.19.desc=Призматическая фиолетовая керамика
+tile.hardened_clay_purple.20.desc=Фиолетовые керамические кирпичи в красивом расположении
+tile.hardened_clay_purple.21.desc=Фиолетовая керамическая панель
+tile.hardened_clay_purple.22.desc=Маленькие фиолетовые керамические блоки
+tile.hardened_clay_purple.23.desc=Маленькая фиолетовая керамическая плитка
+tile.hardened_clay_purple.24.desc=Лучеобразная резная фиолетовая керамика
+tile.hardened_clay_purple.25.desc=Выгравированный фиолетовый керамический блок
+
+#Hardened Clay (Red Terracotta)
+tile.chisel.hardened_clay_red.name=Красная керамика
+tile.chisel.hardened_clay_red2.name=Красная керамика
+tile.hardened_clay_red.0.desc=Плетёные красные керамические кирпичи
+tile.hardened_clay_red.1.desc=Потрескавшиеся красные керамические кирпичи
+tile.hardened_clay_red.2.desc=Маленькая красная керамическая кирпичная плитка
+tile.hardened_clay_red.3.desc=Маленькие красные керамические кирпичи
+tile.hardened_clay_red.4.desc=Выровненные красные керамические кирпичи
+tile.hardened_clay_red.5.desc=Детализированные красные керамические кирпичи
+tile.hardened_clay_red.6.desc=Широкие красные керамические кирпичи
+tile.hardened_clay_red.7.desc=Хаотические маленькие красные керамические кирпичи
+tile.hardened_clay_red.8.desc=Маленькие неупорядоченные красные керамические кирпичи
+tile.hardened_clay_red.9.desc=Декоративная красная керамика
+tile.hardened_clay_red.10.desc=Потрескавшаяся красная керамика
+tile.hardened_clay_red.11.desc=Осевшая красная керамическая панель
+tile.hardened_clay_red.12.desc=Красивый красный керамический кирпич
+tile.hardened_clay_red.13.desc=Красивая красная керамическая плитка
+tile.hardened_clay_red.14.desc=Слоёная красная керамика
+tile.hardened_clay_red.15.desc=Красная керамическая мозаика
+tile.hardened_clay_red.16.desc=Маленькая декоративная красная керамика
+tile.hardened_clay_red.17.desc=Красная керамическая большая плитка
+tile.hardened_clay_red.18.desc=Красная керамическая колонна
+tile.hardened_clay_red.19.desc=Призматическая красная керамика
+tile.hardened_clay_red.20.desc=Красные керамические кирпичи в красивом расположении
+tile.hardened_clay_red.21.desc=Красная керамическая панель
+tile.hardened_clay_red.22.desc=Маленькие красные керамические блоки
+tile.hardened_clay_red.23.desc=Маленькая красная керамическая плитка
+tile.hardened_clay_red.24.desc=Лучеобразная резная красная керамика
+tile.hardened_clay_red.25.desc=Выгравированный красный керамический блок
+
+#Hardened Clay (White Terracotta)
+tile.chisel.hardened_clay_white.name=Белая керамика
+tile.chisel.hardened_clay_white2.name=Белая керамика
+tile.hardened_clay_white.0.desc=Плетёные белые керамические кирпичи
+tile.hardened_clay_white.1.desc=Потрескавшиеся белые керамические кирпичи
+tile.hardened_clay_white.2.desc=Маленькая белая керамическая кирпичная плитка
+tile.hardened_clay_white.3.desc=Маленькие белые керамические кирпичи
+tile.hardened_clay_white.4.desc=Выровненные белые керамические кирпичи
+tile.hardened_clay_white.5.desc=Детализированные белые керамические кирпичи
+tile.hardened_clay_white.6.desc=Широкие белые керамические кирпичи
+tile.hardened_clay_white.7.desc=Хаотические маленькие белые керамические кирпичи
+tile.hardened_clay_white.8.desc=Маленькие неупорядоченные белые керамические кирпичи
+tile.hardened_clay_white.9.desc=Декоративная белая керамика
+tile.hardened_clay_white.10.desc=Потрескавшаяся белая керамика
+tile.hardened_clay_white.11.desc=Осевшая белая керамическая панель
+tile.hardened_clay_white.12.desc=Красивый белый керамический кирпич
+tile.hardened_clay_white.13.desc=Красивая белая керамическая плитка
+tile.hardened_clay_white.14.desc=Слоёная белая керамика
+tile.hardened_clay_white.15.desc=Белая керамическая мозаика
+tile.hardened_clay_white.16.desc=Маленькая декоративная белая керамика
+tile.hardened_clay_white.17.desc=Белая керамическая большая плитка
+tile.hardened_clay_white.18.desc=Белая керамическая колонна
+tile.hardened_clay_white.19.desc=Призматическая белая керамика
+tile.hardened_clay_white.20.desc=Белые керамические кирпичи в красивом расположении
+tile.hardened_clay_white.21.desc=Белая керамическая панель
+tile.hardened_clay_white.22.desc=Маленькие белые керамические блоки
+tile.hardened_clay_white.23.desc=Маленькая белая керамическая плитка
+tile.hardened_clay_white.24.desc=Лучеобразная резная белая керамика
+tile.hardened_clay_white.25.desc=Выгравированный белый керамический блок
+
+#Hardened Clay (Yellow Terracotta)
+tile.chisel.hardened_clay_yellow.name=Жёлтая керамика
+tile.chisel.hardened_clay_yellow2.name=Жёлтая керамика
+tile.hardened_clay_yellow.0.desc=Плетёные жёлтые керамические кирпичи
+tile.hardened_clay_yellow.1.desc=Потрескавшиеся жёлтые керамические кирпичи
+tile.hardened_clay_yellow.2.desc=Маленькая жёлтая керамическая кирпичная плитка
+tile.hardened_clay_yellow.3.desc=Маленькие жёлтые керамические кирпичи
+tile.hardened_clay_yellow.4.desc=Выровненные жёлтые керамические кирпичи
+tile.hardened_clay_yellow.5.desc=Детализированные жёлтые керамические кирпичи
+tile.hardened_clay_yellow.6.desc=Широкие жёлтые керамические кирпичи
+tile.hardened_clay_yellow.7.desc=Хаотические маленькие жёлтые керамические кирпичи
+tile.hardened_clay_yellow.8.desc=Маленькие неупорядоченные жёлтые керамические кирпичи
+tile.hardened_clay_yellow.9.desc=Декоративная жёлтая керамика
+tile.hardened_clay_yellow.10.desc=Потрескавшаяся жёлтая керамика
+tile.hardened_clay_yellow.11.desc=Осевшая жёлтая керамическая панель
+tile.hardened_clay_yellow.12.desc=Красивый жёлтый керамический кирпич
+tile.hardened_clay_yellow.13.desc=Красивая жёлтая керамическая плитка
+tile.hardened_clay_yellow.14.desc=Слоёная жёлтая керамика
+tile.hardened_clay_yellow.15.desc=Жёлтая керамическая мозаика
+tile.hardened_clay_yellow.16.desc=Маленькая декоративная жёлтая керамика
+tile.hardened_clay_yellow.17.desc=Жёлтая керамическая большая плитка
+tile.hardened_clay_yellow.18.desc=Жёлтая керамическая колонна
+tile.hardened_clay_yellow.19.desc=Призматическая жёлтая керамика
+tile.hardened_clay_yellow.20.desc=Жёлтые керамические кирпичи в красивом расположении
+tile.hardened_clay_yellow.21.desc=Жёлтая керамическая панель
+tile.hardened_clay_yellow.22.desc=Маленькие жёлтые керамические блоки
+tile.hardened_clay_yellow.23.desc=Маленькая жёлтая керамическая плитка
+tile.hardened_clay_yellow.24.desc=Лучеобразная резная жёлтая керамика
+tile.hardened_clay_yellow.25.desc=Выгравированный жёлтый керамический блок
+
+#Technical Block
+tile.chisel.technical.name=Технический блок
+tile.chisel.technical2.name=Прозрачный технический блок
+tile.chisel.technical3.name=Промышленный технический блок
+tile.chisel.technical4.name=Технический блок
+tile.technical.0.desc=Строительные леса
+tile.technical.1.desc=Панели с запрещающей лентой
+tile.technical.2.desc=Старинная реликвия из земли Онетеуфов
+tile.technical.3.desc=Трубопровод (Большие трубы)
+tile.technical.4.desc=Вентилятор (Быстрый)
+tile.technical.5.desc=Трубопровод (Маленькие трубы)
+tile.technical.6.desc=Вентилятор (Откл.)
+tile.technical.7.desc=Отверстия
+tile.technical.8.desc=Светящиеся отверстия
+tile.technical.9.desc=Изоляция
+tile.technical.10.desc=Шестерни и маховики
+tile.technical.11.desc=Провода
+tile.technical.12.desc=Ржавая панель
+tile.technical.13.desc=Решётка
+tile.technical.14.desc=Вентилятор (Неисправный)
+tile.technical.15.desc=Ржавая решётка
+tile.technical3.0.desc=Я большой фанат этого огромного вентилятора!
+tile.technical3.1.desc=Промышленная бронепластина
+tile.technical4.0.desc=Проржавевшие куски металла
+tile.technical4.1.desc=Ржавые куски металла
+tile.technical4.2.desc=Прочный
+tile.technical4.3.desc=Батарея MegaCell™
+tile.technical4.4.desc=Термическое вытяжное покрытие
+tile.technical4.5.desc=Самодельная обшивка
+tile.technical4.6.desc=Мечта о трубе
+tile.technical4.7.desc=Изношенный бетон
+tile.technical4.8.desc=Шлакоблок
+tile.technical4.9.desc=Шлакоблок (Полированный)
+tile.technical4.10.desc=Шлаковый кирпич
+tile.technical4.11.desc=Картонная коробка
+tile.technical4.12.desc=Сложенный картон
+tile.technical4.13.desc=Картонные отходы
+tile.technical4.16.desc=Стример? (Я слишком молод для этого.)
+
+#End Stone
+tile.chisel.end_Stone.name=Эндерняк
+tile.end_Stone.0.desc=Кирпичи из эндерняка
+tile.end_Stone.1.desc=Хаотические кирпичи из эндерняка
+tile.end_Stone.2.desc=Клетчатая плитка
+tile.end_Stone.3.desc=Контур Эндера
+tile.end_Stone.4.desc=Красивый кирпич
+tile.end_Stone.5.desc=Колонна из эндерняка
+tile.end_Stone.6.desc=Гравированный эндерняк
+tile.end_Stone.7.desc=Призматический эндерняк
+tile.end_Stone.8.desc=Кусок эндерняка
+tile.end_Stone.9.desc=Обрамленный кусок эндерняка
+tile.end_Stone.10.desc=Мистический блок эндерняка
+tile.end_Stone.11.desc=Обрамленный эндерняк
+tile.end_Stone.12.desc=Изысканный эндерняк
+tile.end_Stone.13.desc=Большая плитка из эндерняка
+
+#Purpur
+tile.chisel.purpur.name=Фиолетовый блок
+tile.purpur.0.desc=Плитка среднего размера
+tile.purpur.1.desc=Колонна
+tile.purpur.2.desc=Не Шалкер
+tile.purpur.3.desc=Маленькие плитки
+tile.purpur.4.desc=Сломанные маленькие плитки
+tile.purpur.5.desc=Призматический пурпур
+tile.purpur.6.desc=Грубые кирпичи
+tile.purpur.7.desc=Трещиноватая поверхность
+tile.purpur.8.desc=Мистический блок пурпура
+tile.purpur.9.desc=Пурпурная большая плитка
+tile.purpur.10.desc=Изысканный пурпур
+
+#Metal Blocks
+tile.chisel.aluminumblock.name=Алюминиевый блок
+tile.chisel.bronzeblock.name=Бронзовый блок
+tile.chisel.copperblock.name=Медный блок
+tile.chisel.gold2.name=Золотой блок
+tile.chisel.iron2.name=Железный блок
+tile.chisel.leadblock.name=Свинцовый блок
+tile.chisel.silverblock.name=Серебряный блок
+tile.chisel.steelblock.name=Стальной блок
+tile.chisel.tinblock.name=Оловянный блок
+tile.chisel.uraniumblock.name=Урановый блок
+tile.metalOre.0.desc=Предупреждающие полосы
+tile.metalOre.1.desc=Ящик доставки
+tile.metalOre.2.desc=Тепловой
+tile.metalOre.3.desc=Старая реликвия из древних земель
+tile.metalOre.4.desc=Хорошо огранённый блок
+tile.metalOre.5.desc=Красивое болтовое покрытие
+
+#Stairs
+tile.chisel.aluminum_stairs.0.name=Алюминиевые ступеньки
+tile.chisel.aluminum_stairs.1.name=Алюминиевые ступеньки
+tile.chisel.aluminum_stairs.2.name=Алюминиевые ступеньки
+
+#Present Chest
+tile.chisel.present.name=Подарок
+tile.chisel.present.desc=Красивенький подарочный сундук
+
+#Brick
+tile.chisel.brickCustom.name=Блок кирпича
+tile.brickCustom.1.desc=Большие кирпичи
+tile.brickCustom.2.desc=Кирпичи без цемента
+tile.brickCustom.3.desc=Различные кирпичи
+tile.brickCustom.5.desc=Старые кирпичи
+tile.brickCustom.6.desc=Жёлтые кирпичи
+
+#Chisel 1
+
+#Cobblestone Blocks
+tile.chisel.cobblestone.name=Булыжник
+tile.cobblestone.0.desc=Выровненные булыжниковые кирпичи
+tile.cobblestone.1.desc=Детализированные булыжниковые кирпичи
+tile.cobblestone.2.desc=Маленькие булыжниковые кирпичи
+tile.cobblestone.3.desc=Большие булыжниковые плитки
+tile.cobblestone.4.desc=Маленькие булыжниковые плитки
+tile.cobblestone.5.desc=Французские булыжниковые плитки
+tile.cobblestone.6.desc=Французские булыжниковые плитки
+tile.cobblestone.7.desc=Жуткие булыжниковые плитки
+tile.cobblestone.8.desc=Повреждённые булыжниковые плитки
+tile.cobblestone.9.desc=Огромные булыжниковые плитки
+tile.cobblestone.10.desc=Булыжник с жуткой панелью
+tile.cobblestone.11.desc=Булыжник с выемкой
+tile.cobblestone.12.desc=Булыжник с панелью
+tile.cobblestone.13.desc=Булыжник со светлой панелью
+tile.cobblestone.14.desc=Булыжник с тёмной панелью
+
+#Marble Blocks
+tile.chisel.marble.name=Мрамор
+tile.marble.0.desc=Необработанный мрамор
+tile.marble.1.desc=Мраморный кирпич
+tile.marble.2.desc=Классическая мраморная панель
+tile.marble.3.desc=Декоративная мраморная панель
+tile.marble.4.desc=Мраморная панель
+tile.marble.5.desc=Мраморный блок
+tile.marble.6.desc=Тёмный жуткий мрамор
+tile.marble.7.desc=Светлый жуткий мрамор
+tile.marble.8.desc=Резной мрамор
+tile.marble.9.desc=Лучеобразный резной мрамор
+tile.marble.10.desc=Мрамор с выемкой
+tile.marble.11.desc=Мрамор с большой выемкой
+tile.marble.12.desc=Мраморные плитки
+tile.marble.13.desc=Обработанные мраморные плитки
+tile.marble.14.desc=Красивые мраморные плитки
+tile.marble.15.desc=Мраморные блоки
+
+#Marble Slabs
+tile.chisel.marble_slab.name=Мраморная плита
+tile.marbleSlab.0.desc=Необработанная мраморная плита
+tile.marbleSlab.1.desc=Плита из мраморного кирпича
+tile.marbleSlab.2.desc=Плита из классической мраморной панели
+tile.marbleSlab.3.desc=Плита из декоративной мраморной панели
+tile.marbleSlab.4.desc=Плита из мраморной панели
+tile.marbleSlab.5.desc=Плита из мраморного блока
+tile.marbleSlab.6.desc=Плита из тёмного жуткого мрамора
+tile.marbleSlab.7.desc=Плита из светлого жуткого мрамора
+tile.marbleSlab.8.desc=Плита из резного мрамора
+tile.marbleSlab.9.desc=Плита из лучеобразного резного мрамора
+tile.marbleSlab.10.desc=Плита из мрамора с выемкой
+tile.marbleSlab.11.desc=Плита из мрамора с большой выемкой
+tile.marbleSlab.12.desc=Плита из плиточного мрамора
+tile.marbleSlab.13.desc=Плита из обработанного плиточного мрамора
+tile.marbleSlab.14.desc=Плита из красивого плиточного мрамора
+tile.marbleSlab.15.desc=Плита из мраморных блоков
+
+#Marble Pillars (old)
+tile.chisel.marble_pillar.name=Мраморная колонна
+tile.marblePillarOld.0.desc=Мраморная колонна
+tile.marblePillarOld.1.desc=Капитель мраморной колонны
+tile.marblePillarOld.2.desc=Основание мраморной колонны
+tile.marblePillarOld.3.desc=Маленькая мраморная колонна
+tile.marblePillarOld.4.desc=Резная мраморная колонна
+tile.marblePillarOld.5.desc=Декоративная мраморная колонна
+tile.marblePillarOld.6.desc=Греческая мраморная колонна
+tile.marblePillarOld.7.desc=Обычная мраморная колонна
+tile.marblePillarOld.8.desc=Капитель греческой мраморной колонны
+tile.marblePillarOld.9.desc=Капитель обычной мраморной колонны
+tile.marblePillarOld.10.desc=Основание греческой мраморной колонны
+tile.marblePillarOld.11.desc=Основание обычной мраморной колонны
+tile.marblePillarOld.12.desc=Капитель декоративной греческой мраморной колонны
+tile.marblePillarOld.13.desc=Капитель декоративной обычной мраморной колонны
+tile.marblePillarOld.14.desc=Основание декоративной греческой мраморной колонны
+tile.marblePillarOld.15.desc=Основание декоративной обычной мраморной колонны
+
+#Marble Pillars (current)
+tile.marblePillar.0.desc=Мраморная колонна
+tile.marblePillar.1.desc=Оригинальная мраморная колонна
+tile.marblePillar.2.desc=Упрощённая мраморная колонна
+tile.marblePillar.3.desc=Выпуклая мраморная колонна
+tile.marblePillar.4.desc=Необработанный мраморная колонна
+tile.marblePillar.5.desc=Греческая мраморная колонна с декоративной капителью
+tile.marblePillar.6.desc=Греческая мраморная колонна
+tile.marblePillar.7.desc=Греческая мраморная колонна с обычной капителью
+tile.marblePillar.8.desc=Обычная мраморная колонна с декоративной капителью
+tile.marblePillar.9.desc=Обычная мраморная колонна с греческой капителью
+tile.marblePillar.10.desc=Обычная мраморная колонна
+tile.marblePillar.11.desc=Широкая мраморная колонна с декоративной капителью
+tile.marblePillar.12.desc=Широкая мраморная колонна с греческой капителью
+tile.marblePillar.13.desc=Широкая мраморная колонна с обычной капителью
+tile.marblePillar.14.desc=Резная капитель колонны
+tile.marblePillar.15.desc=Декоративная капитель колонны
+
+#Marble Slabs (old)
+tile.chisel.marble_pillar_slab.name=Плита из мраморной колонны
+tile.marblePillarSlabOld.0.desc=Плита из мраморной колонны
+tile.marblePillarSlabOld.1.desc=Плита из капители мраморной колонны
+tile.marblePillarSlabOld.2.desc=Плита из основания мраморной колонны
+tile.marblePillarSlabOld.3.desc=Плита из маленькой мраморной колонны
+tile.marblePillarSlabOld.4.desc=Плита из резной мраморной колонны
+tile.marblePillarSlabOld.5.desc=Плита из декоративной мраморной колонны
+tile.marblePillarSlabOld.6.desc=Плита из греческой мраморной колонны
+tile.marblePillarSlabOld.7.desc=Плита из обычной мраморной колонны
+tile.marblePillarSlabOld.8.desc=Плита из греческой капители мраморной колонны
+tile.marblePillarSlabOld.9.desc=Плита из обычной капители мраморной колонны
+tile.marblePillarSlabOld.10.desc=Плита из основания греческой мраморной колонны
+tile.marblePillarSlabOld.11.desc=Плита из основания обычной мраморной колонны
+tile.marblePillarSlabOld.12.desc=Плита из декоративной капители греческой мраморной колонны
+tile.marblePillarSlabOld.13.desc=Плита из декоративной капители обычной мраморной колонны
+tile.marblePillarSlabOld.14.desc=Плита из декоративного основания греческой мраморной колонны
+tile.marblePillarSlabOld.15.desc=Плита из декоративного основания обычной мраморной колонны
+
+#Marble Slabs (current)
+tile.marblePillarSlab.0.desc=Плита из мраморной колонны
+tile.marblePillarSlab.1.desc=Плита из оригинальной мраморной колонны
+tile.marblePillarSlab.2.desc=Плита из упрощённой мраморной колонны
+tile.marblePillarSlab.3.desc=Плита из выпуклой мраморной колонны
+tile.marblePillarSlab.4.desc=Плита из необработанной мраморной колонны
+tile.marblePillarSlab.5.desc=Плита из греческой мраморной колонны с декоративной капителью
+tile.marblePillarSlab.6.desc=Плита из греческой мраморной колонны
+tile.marblePillarSlab.7.desc=Плита из греческой мраморной колонны с обычной капителью
+tile.marblePillarSlab.8.desc=Плита из обычной мраморной колонны с декоративной капителью
+tile.marblePillarSlab.9.desc=Плита из обычной мраморной колонны с греческой капителью
+tile.marblePillarSlab.10.desc=Плита из обычной мраморной колонны
+tile.marblePillarSlab.11.desc=Плита из широкой мраморной колонны с декоративной капителью
+tile.marblePillarSlab.12.desc=Плита из широкой мраморной колонны с греческой капителью
+tile.marblePillarSlab.13.desc=Плита из широкой мраморной колонны с обычной капителью
+tile.marblePillarSlab.14.desc=Плита из резной капители колонны
+tile.marblePillarSlab.15.desc=Плита из декоративной капители колонны
+
+#Marble Stairs
+#The same name goes here 8 different times since stairs take up 8 block positions.
+#Sorry!  It was the only way!
+tile.chisel.marble_stairs.0.name=Мраморные ступеньки
+tile.chisel.marble_stairs.1.name=Мраморные ступеньки
+tile.chisel.marble_stairs.2.name=Мраморные ступеньки
+tile.chisel.marble_stairs.3.name=Мраморные ступеньки
+tile.chisel.marble_stairs.4.name=Мраморные ступеньки
+tile.chisel.marble_stairs.5.name=Мраморные ступеньки
+tile.chisel.marble_stairs.6.name=Мраморные ступеньки
+tile.chisel.marble_stairs.7.name=Мраморные ступеньки
+
+#These are bugged.... so sad :,(
+tile.marbleStairs.0.desc=Ступеньки из необработанного мрамора
+tile.marbleStairs.1.desc=Ступеньки из мраморного кирпича
+tile.marbleStairs.2.desc=Ступеньки из классической мраморной панели
+tile.marbleStairs.3.desc=Ступеньки из декоративной мраморной панели
+tile.marbleStairs.4.desc=Ступеньки из мраморной панели
+tile.marbleStairs.5.desc=Ступеньки из мраморного блока
+tile.marbleStairs.6.desc=Ступеньки из тёмного жуткого мрамора
+tile.marbleStairs.7.desc=Ступеньки из светлого жуткого мрамора
+tile.marbleStairs.8.desc=Ступеньки из резного мрамора
+tile.marbleStairs.9.desc=Ступеньки из лучеобразного резного мрамора
+tile.marbleStairs.10.desc=Ступеньки из мрамора с выемкой
+tile.marbleStairs.11.desc=Ступеньки из мрамора с большой выемкой
+tile.marbleStairs.12.desc=Ступеньки из плиточного мрамора
+tile.marbleStairs.13.desc=Ступеньки из обработанного плиточного мрамора
+tile.marbleStairs.14.desc=Ступеньки из красивого плиточного мрамора
+tile.marbleStairs.15.desc=Ступеньки из мраморных блоков
+
+#Limestone
+tile.chisel.limestone.name=Известняк
+tile.limestone.0.desc=Известняк
+tile.limestone.1.desc=Маленькие известняковые плитки
+tile.limestone.2.desc=Французские известняковые плитки
+tile.limestone.3.desc=Французские известняковые плитки
+tile.limestone.4.desc=Жуткие известняковые плитки
+tile.limestone.5.desc=Маленький известняковый кирпич
+tile.limestone.6.desc=Повреждённые известняковые плитки
+tile.limestone.7.desc=Гладкий известняк
+tile.limestone.8.desc=Известняк с декоративной панелью
+tile.limestone.9.desc=Известняк с декоративной панелью
+tile.limestone.10.desc=Известняк с жуткой панелью
+tile.limestone.11.desc=Известняк с выемкой
+tile.limestone.12.desc=Известняк с панелью
+tile.limestone.13.desc=Большие известняковые плитки
+tile.limestone.14.desc=Известняк со светлой панелью
+tile.limestone.15.desc=Известняк с тёмной панелью
+
+#Limestone Slabs
+tile.chisel.limestone_slab.name=Известняковая плита
+tile.limestoneSlab.0.desc=Известняковая плита
+tile.limestoneSlab.1.desc=Маленькая известняковая плиточная плита
+tile.limestoneSlab.2.desc=Французская известняковая плиточная плита
+tile.limestoneSlab.3.desc=Французская известняковая плиточная плита
+tile.limestoneSlab.4.desc=Жуткая известняковая плиточная плита
+tile.limestoneSlab.5.desc=Плита из маленького известнякового кирпича
+tile.limestoneSlab.6.desc=Повреждённая известняковая плиточная плита
+tile.limestoneSlab.7.desc=Гладкая известняковая плита
+tile.limestoneSlab.8.desc=Известняковая плита с декоративной панелью
+tile.limestoneSlab.9.desc=Известняковая плита с декоративной панелью
+tile.limestoneSlab.10.desc=Известняковая плита с жуткой панелью
+tile.limestoneSlab.11.desc=Известняковая плита с выемкой
+tile.limestoneSlab.12.desc=Известняковая плита с панелью
+tile.limestoneSlab.13.desc=Плита из больших известняковых плиток
+tile.limestoneSlab.14.desc=Известняковая плита со светлой панелью
+tile.limestoneSlab.15.desc=Известняковая плита с тёмной панелью
+
+#Limestone Stairs
+#The same name goes here 8 different times since stairs take up 8 block positions.
+#Sorry!  It was the only way!
+tile.chisel.limestone_stairs.0.name=Известняковые ступеньки
+tile.chisel.limestone_stairs.1.name=Известняковые ступеньки
+tile.chisel.limestone_stairs.2.name=Известняковые ступеньки
+tile.chisel.limestone_stairs.3.name=Известняковые ступеньки
+tile.chisel.limestone_stairs.4.name=Известняковые ступеньки
+tile.chisel.limestone_stairs.5.name=Известняковые ступеньки
+tile.chisel.limestone_stairs.6.name=Известняковые ступеньки
+tile.chisel.limestone_stairs.7.name=Известняковые ступеньки
+
+#These are bugged.... so sad :,(
+tile.limestoneStairs.0.desc=Известняковые ступеньки
+tile.limestoneStairs.1.desc=Маленькие известняковые плиточные ступеньки
+tile.limestoneStairs.2.desc=Французские известняковые плиточные ступеньки
+tile.limestoneStairs.3.desc=Французские известняковые плиточные ступеньки
+tile.limestoneStairs.4.desc=Жуткие известняковые плиточные ступеньки
+tile.limestoneStairs.5.desc=Ступеньки из маленького известнякового кирпича
+tile.limestoneStairs.6.desc=Повреждённые известняковые плиточные ступеньки
+tile.limestoneStairs.7.desc=Гладкие известняковые ступеньки
+tile.limestoneStairs.8.desc=Известняковые ступеньки с декоративной панелью
+tile.limestoneStairs.9.desc=Известняковые ступеньки с декоративной панелью
+tile.limestoneStairs.10.desc=Известняковые ступеньки с жуткой панелью
+tile.limestoneStairs.11.desc=Известняковые ступеньки с выемкой
+tile.limestoneStairs.12.desc=Известняковые ступеньки с панелью
+tile.limestoneStairs.13.desc=Большие известняковые плиточные ступеньки
+tile.limestoneStairs.14.desc=Известняковые ступеньки со светлой панелью
+tile.limestoneStairs.15.desc=Известняковые ступеньки с тёмной панелью
+
+#Factory Blocks
+tile.chisel.factoryblock.name=Фабричный блок
+tile.factory.0.desc=Ржавая металлическая пластина с точечным покрытием
+tile.factory.1.desc=Ржавая металлическая пластина
+tile.factory.2.desc=Очень ржавая металлическая пластина
+tile.factory.3.desc=Металлическая пластина с небольшой ржавчиной
+tile.factory.4.desc=Каркас
+tile.factory.5.desc=Каркас с фиолетовым оттенком
+tile.factory.6.desc=Жёлтый-чёрный блок опасности
+tile.factory.7.desc=Оранжевый-белый блок опасности
+tile.factory.8.desc=Красивый контурный блок
+tile.factory.9.desc=Красивая металлическая коробка
+tile.factory.10.desc=Красивый контурный блок с золотой обшивкой
+tile.factory.11.desc=Ржавый фиолетовый блок с золотой обшивкой
+tile.factory.12.desc=Блестящий металлический строительный блок
+tile.factory.13.desc=Изношенная металлическая стена с отверстиями для вентиляции
+tile.factory.14.desc=Ржавые металлические пластины
+tile.factory.15.desc=Изношенная металлическая колонна
+
+tile.chisel.factoryblock2.name=Фабричный блок
+tile.factory2.0.desc=Неоновое синие покрытие
+tile.factory2.1.desc=Вертикальная вентиляция
+tile.factory2.2.desc=Металлическое синее контурное покрытие
+tile.factory2.3.desc=Синий каркас
+
+#Diamond blocks
+tile.chisel.diamond_block.name=Алмазный блок
+tile.diamond.1.desc=Рельефный алмазный блок
+tile.diamond.2.desc=Алмазный блок с панелью
+tile.diamond.3.desc=Алмазные ячейки
+tile.diamond.4.desc=Алмазы в фиолетовом обсидиане
+tile.diamond.5.desc=Алмазы в обсидиане
+tile.diamond.6.desc=Простой алмазный блок
+tile.diamond.7.desc=Висмут
+tile.diamond.8.desc=Измельчённый алмаз
+tile.diamond.9.desc=Маленькие алмазные блоки
+tile.diamond.10.desc=Маленькие декоративные алмазные блоки
+tile.diamond.11.desc=Алмазный блок Зельда
+tile.diamond.12.desc=Алмазный блок с декоративным слоем
+
+#Snakestone
+tile.chisel.snakestoneSand.name=Песочный змеиный камень
+tile.chisel.snakestoneStone.name=Каменный змеиный камень
+tile.chisel.obsidianSnakestone.name=Обсидиановый змеиный камень
+
+#Glass blocks
+tile.chisel.glass.name=Стекло
+tile.glass.1.desc=Пузырчатое стекло
+tile.glass.2.desc=Китайское стекло
+tile.glass.3.desc=Японское(?) стекло
+tile.glass.4.desc=Стекло подземелья
+tile.glass.5.desc=Светлое стекло
+tile.glass.6.desc=Безграничное стекло
+tile.glass.7.desc=Стекло отделанное сталью
+tile.glass.8.desc=Экран
+tile.glass.9.desc=Сланцевое стекло
+tile.glass.10.desc=Стекло со стальной рамкой
+tile.glass.11.desc=Стекло с каменной рамкой
+tile.glass.12.desc=Стекло с прожилками
+tile.glass.13.desc=Стекло с толстой сеткой
+tile.glass.14.desc=Стекло с тонкой сеткой
+tile.glass.15.desc=Современный железный забор
+
+tile.chisel.glass2.name=Стекло
+tile.glass2.0.desc=Асимметричное освинцованное стекло
+
+#Sandstone
+tile.chisel.sandstone.name=Песчаник
+tile.chisel.sandstone2.name=Песчаник
+
+tile.sandstone.0.desc=Песчаниковые глифы
+tile.sandstone.1.desc=Песчаниковый булыжник
+tile.sandstone.2.desc=Песчаниковый крипер
+
+tile.sandstone.3.desc=Блеклый песчаник
+tile.sandstone.4.desc=Песчаная колонна
+tile.sandstone.5.desc=Капитель песчаной колонны
+tile.sandstone.6.desc=Маленькая песчаная колонна
+tile.sandstone.7.desc=Основание песчаной колонны
+tile.sandstone.8.desc=Гладкий и плоский песчаник
+tile.sandstone.9.desc=Капитель гладкой песчаной колонны
+tile.sandstone.10.desc=Маленькая гладкая песчаная колонна
+tile.sandstone.11.desc=Основание гладкой песчаной колонны
+tile.sandstone.12.desc=Песчаный блок
+tile.sandstone.13.desc=Маленькие песчаные блоки
+tile.sandstone.14.desc=Песчаная мозаика
+tile.sandstone.15.desc=Ячеистые песчаные плитки
+tile.sandstone.16.desc=Песчаниковые кирпичи
+tile.sandstone.17.desc=
+
+#Sandstone scribbles
+tile.chisel.sandstone_scribbles.name=Песчаник с каракулями
+tile.sandstoneScribbles.desc=Песчаник с каракулями
+
+#Concrete
+tile.chisel.concrete.name=Бетон
+tile.concrete.0.desc=Бетон
+tile.concrete.1.desc=Бетонный блок
+tile.concrete.2.desc=Бетонная двойная плита
+tile.concrete.3.desc=Маленькие бетонные блоки
+tile.concrete.4.desc=Выветрившийся бетон
+tile.concrete.5.desc=Выветрившийся бетонный блок
+tile.concrete.6.desc=Выветрившийся бетонная двойная плита
+tile.concrete.7.desc=Маленькие выветрившиеся блоки
+tile.concrete.8.desc=Частично выветрившийся бетон
+tile.concrete.9.desc=Частично выветрившийся бетонный блок
+tile.concrete.10.desc=Асфальт
+
+#Concrete Slabs
+tile.chisel.concrete_slab.name=Бетонная плита
+tile.concreteSlab.0.desc=Бетонная плита
+tile.concreteSlab.1.desc=Плита из бетонного блока
+tile.concreteSlab.2.desc=Бетонная двойная плита
+tile.concreteSlab.3.desc=Плита из небольшого бетонного блока
+tile.concreteSlab.4.desc=Выветрившийся бетонный блок
+tile.concreteSlab.5.desc=Плита из выветренного бетонного блока
+tile.concreteSlab.6.desc=Выветрившийся бетонная двойная плита
+tile.concreteSlab.7.desc=Плита из небольшого выветренного блока
+tile.concreteSlab.8.desc=Плита из частично выветренного бетона 
+tile.concreteSlab.9.desc=Плита из частично выветренного бетонного блока
+tile.concreteSlab.10.desc=Асфальт
+
+#Concrete Stairs
+#The same name goes here 8 different times since stairs take up 8 block positions.
+#Sorry!  It was the only way! Maybe one day it will be fixed...
+tile.chisel.concrete_stairs.0.name=Бетонные ступеньки
+tile.chisel.concrete_stairs.1.name=Бетонные ступеньки
+tile.chisel.concrete_stairs.2.name=Бетонные ступеньки
+tile.chisel.concrete_stairs.3.name=Бетонные ступеньки
+tile.chisel.concrete_stairs.4.name=Бетонные ступеньки
+tile.chisel.concrete_stairs.5.name=Бетонные ступеньки
+tile.chisel.concrete_stairs.6.name=Бетонные ступеньки
+tile.chisel.concrete_stairs.7.name=Бетонные ступеньки
+
+tile.concreteStairs.0.desc=Бетонные ступеньки
+tile.concreteStairs.1.desc=Ступеньки из бетонных блоков
+tile.concreteStairs.2.desc=Ступеньки из бетонной двойной плиты
+tile.concreteStairs.3.desc=Ступени из маленьких бетонных блоков
+tile.concreteStairs.4.desc=Ступеньки из выветренного бетона
+tile.concreteStairs.5.desc=Ступеньки из выветренного бетонного блока
+tile.concreteStairs.6.desc=Ступеньки из выветренной бетонной двойной плиты
+tile.concreteStairs.7.desc=Ступеньки из небольшого выветренного блока
+tile.concreteStairs.8.desc=Ступеньки из частично выветренного бетона 
+tile.concreteStairs.9.desc=Ступеньки из частично выветренного бетонного блока
+tile.concreteStairs.10.desc=Асфальтовые ступеньки
+
+# Road Line
+tile.chisel.road_line.name=Дорожные линии
+tile.roadLine.0.desc=Белые
+tile.roadLine.1.desc=Жёлтые
+tile.roadLine.2.desc=Двойные белые
+tile.roadLine.3.desc=Двойные жёлтые
+tile.roadLine.4.desc=Предупреждающая лента
+
+#Iron Blocks
+tile.chisel.iron_block.name=Железный блок
+tile.iron.0.desc=Ржавый блок
+tile.iron.1.desc=Большие железные слитки
+tile.iron.2.desc=Маленькие железные слитки
+tile.iron.3.desc=Железные шестерни
+tile.iron.4.desc=Железные кирпичи
+tile.iron.5.desc=Железные пластины
+tile.iron.6.desc=Железные пластины с заклёпками
+tile.iron.7.desc=Спрессованные железные монеты аверсом сверху
+tile.iron.8.desc=Спрессованные железные монеты аверсом снизу
+tile.iron.9.desc=Тёмный железный ящик
+tile.iron.10.desc=Светлый железный ящик
+tile.iron.11.desc=Железный блок с лунной декорацией
+tile.iron.12.desc=Железная Луна в фиолетовом обсидиане
+tile.iron.13.desc=Железная Луна в обсидиане
+tile.iron.14.desc=Железные разрезы
+tile.iron.15.desc=Простой железный блок
+
+#Gold Blocks
+tile.chisel.gold_block.name=Золотой блок
+tile.gold.1.desc=Большие золотые слитки
+tile.gold.2.desc=Маленькие золотые слитки
+tile.gold.3.desc=Золотые кирпичи
+tile.gold.4.desc=Золотая вагонетка
+tile.gold.5.desc=Спрессованные золотые монеты аверсом сверху
+tile.gold.6.desc=Спрессованные золотые монеты аверсом снизу
+tile.gold.7.desc=Тёмный золотой ящик
+tile.gold.8.desc=Светлый золотой ящик
+tile.gold.9.desc=Золотые пластины
+tile.gold.10.desc=Золотые пластины с заклёпками
+tile.gold.11.desc=Золотой блок со звёздной декорацией
+tile.gold.12.desc=Золотая звезда в фиолетовом обсидиане
+tile.gold.13.desc=Золотая звезда в обсидиане
+tile.gold.14.desc=Простой золотой блок
+
+#Glowstone
+tile.chisel.glowstone.name=Светящийся камень
+tile.lightstone.1.desc=Булыжниковый светящийся блок
+tile.lightstone.2.desc=Проржавевшие светящиеся блоки
+tile.lightstone.3.desc=Светящиеся блоки со стеклом
+tile.lightstone.4.desc=Неоновый светящийся камень
+tile.lightstone.5.desc=Декоративные светящиеся блоки
+tile.lightstone.6.desc=Каменистый светящийся камень
+tile.lightstone.7.desc=Светящийся камень, похожий на сланец
+tile.lightstone.8.desc=Светящиеся плитки
+tile.lightstone.9.desc=Красивый светящийся светильник
+tile.lightstone.10.desc=Разрушенный светящийся блок
+tile.lightstone.11.desc=Природный светящийся заросший блок
+tile.lightstone.12.desc=Светящиеся слои
+tile.lightstone.13.desc=Проржавевшие светящиеся плитки
+tile.lightstone.14.desc=Светящийся висмут
+tile.lightstone.15.desc=Панель из светящегося висмута
+
+#Lapis blocks
+tile.chisel.lapis_block.name=Лазуритовый блок
+tile.lapis.1.desc=Плотный лазуритовый блок
+tile.lapis.2.desc=Тёмный лазуритовый блок
+tile.lapis.3.desc=Лазуритовый блок Зельда
+tile.lapis.4.desc=Декоративный лазуритовый блок
+tile.lapis.5.desc=Лазуритовая плитка
+tile.lapis.6.desc=Лазуритовая панель
+tile.lapis.7.desc=Гладкий лазурит
+tile.lapis.8.desc=Лазурит с декоративным слоем
+
+#Emerald Blocks
+tile.chisel.emerald_block.name=Изумрудный блок
+tile.emerald.1.desc=Изумрудная панель
+tile.emerald.2.desc=Классическая изумрудная панель
+tile.emerald.3.desc=Гладкий изумруд
+tile.emerald.4.desc=Изумрудный кусок
+tile.emerald.5.desc=Изумруд с декоративным слоем
+tile.emerald.6.desc=Изумрудный блок Зельда
+tile.emerald.7.desc=Изумрудная ячейка
+tile.emerald.8.desc=Изумрудный висмут
+tile.emerald.9.desc=Маленькие изумрудные блоки
+tile.emerald.10.desc=Маленькие декоративные изумрудные блоки
+tile.emerald.11.desc=Декоративные изумрудные блоки
+
+#Nether Brick
+tile.chisel.nether_brick.name=Адский кирпич
+tile.netherBrick.1.desc=Синий адский кирпич
+tile.netherBrick.2.desc=Забрызганный адский кирпич
+tile.netherBrick.3.desc=Адский кирпич сделанный из внутренностей
+tile.netherBrick.4.desc=Тёмный адский кирпич, сделанный из внутренностей
+tile.netherBrick.5.desc=Маленький адский кирпич, сделанный из внутренностей
+tile.netherBrick.6.desc=Синий адский кирпич с лавой
+tile.netherBrick.7.desc=Коричневый адский кирпич
+tile.netherBrick.8.desc=Обсидиановый адский кирпич
+tile.netherBrick.9.desc=Каменный адский кирпич
+tile.netherBrick.10.desc=Адский кирпич сделанный из мяса
+tile.netherBrick.11.desc=Красный адский кирпич, сделанный из мяса
+tile.netherBrick.12.desc=Маленький адский кирпич, сделанный из мяса
+tile.netherBrick.13.desc=Маленький красный адский кирпич, сделанный из мяса
+tile.netherBrick.14.desc=Красный адский кирпич
+tile.netherBrick.15.desc=Маленький красный адский кирпич
+
+#Netherrack
+tile.chisel.netherrack.name=Адский камень
+tile.hellrock.1.desc=Гравий Нижнего мира с кровью
+tile.hellrock.2.desc=Адский камень с кровью
+tile.hellrock.3.desc=Тёмный адский камень с кровью
+tile.hellrock.4.desc=Синий адский камень
+tile.hellrock.5.desc=Адский камень из синего сланца
+tile.hellrock.6.desc=Классический адский камень
+tile.hellrock.7.desc=Забрызганный адский камень
+tile.hellrock.8.desc=Адский камень, сделанный из внутренностей
+tile.hellrock.9.desc=Тёмный адский камень, сделанный из внутренностей
+tile.hellrock.10.desc=Адский камень, сделанный из мяса
+tile.hellrock.11.desc=Красный адский камень, сделанный из мяса
+tile.hellrock.12.desc=Адский камень, сделанный из маленьких кусков мяса
+tile.hellrock.13.desc=Тёмный красный адский камень
+tile.hellrock.14.desc=Адский камень с текучей лавой
+
+#Mossy Stone
+tile.chisel.mossy_cobblestone.name=Замшелый булыжник
+tile.stoneMoss.1.desc=Выровненные замшелые булыжниковые кирпичи
+tile.stoneMoss.2.desc=Детализированные замшелые булыжниковые кирпичи
+tile.stoneMoss.3.desc=Маленькие замшелые булыжниковые кирпичи
+tile.stoneMoss.4.desc=Большие замшелые булыжниковые плитки
+tile.stoneMoss.5.desc=Маленькие замшелые булыжниковые плитки
+tile.stoneMoss.6.desc=Французские замшелые булыжниковые плитки
+tile.stoneMoss.7.desc=Французские замшелые булыжниковые плитки
+tile.stoneMoss.8.desc=Жуткие замшелые булыжниковые плитки
+tile.stoneMoss.9.desc=Повреждённые замшелые булыжниковые плитки
+tile.stoneMoss.10.desc=Огромные замшелые булыжниковые плитки
+tile.stoneMoss.11.desc=Замшелый булыжник с жуткой панелью
+tile.stoneMoss.12.desc=Замшелый булыжник с выемкой
+tile.stoneMoss.13.desc=Замшелый булыжник с панелью
+tile.stoneMoss.14.desc=Замшелый булыжник со светлой панелью
+tile.stoneMoss.15.desc=Замшелый булыжник с тёмной панелью
+
+#Stone Bricks
+tile.chisel.stonebricksmooth.name=Каменный кирпич
+tile.stonebricksmooth.0.desc=Современная обычная кирпичная кладка
+tile.stonebricksmooth.1.desc=Современная кислая кирпичная кладка
+tile.stonebricksmooth.2.desc=Современная мафическая кирпичная кладка
+tile.stonebricksmooth.3.desc=Современная смешанная кирпичная кладка
+tile.stonebricksmooth.4.desc=Маленькие каменные кирпичи
+tile.stonebricksmooth.5.desc=Широкие каменные кирпичи
+tile.stonebricksmooth.6.desc=Маленькие неупорядоченные каменные кирпичи
+tile.stonebricksmooth.7.desc=Неупорядоченные каменные кирпичи
+tile.stonebricksmooth.8.desc=Неупорядоченные каменные панели
+tile.stonebricksmooth.9.desc=Каменный кирпич в красивом расположении
+tile.stonebricksmooth.10.desc=Плитки декоративного каменного кирпича
+tile.stonebricksmooth.11.desc=Большие плитки декоративного каменного кирпича
+tile.stonebricksmooth.12.desc=Каменная панель
+tile.stonebricksmooth.13.desc=Осевшая каменная панель
+tile.stonebricksmooth.14.desc=Декоративная каменная панель
+tile.stonebricksmooth.15.desc=Ядовитый каменный кирпич
+
+#Dirt
+tile.chisel.dirt.name=Земля
+tile.dirt.0.desc=Беспорядочные земляные кирпичи
+tile.dirt.1.desc=Земляные кирпичи, похожи на адские кирпичи
+tile.dirt.2.desc=Земляные кирпичи
+tile.dirt.3.desc=Булыжниковая земля
+tile.dirt.4.desc=Усиленная булыжниковая земля
+tile.dirt.5.desc=Усиленная земля
+tile.dirt.6.desc=Счастливая земля
+tile.dirt.7.desc=Большие земляные кирпичи
+tile.dirt.8.desc=Большие земляные кирпичи с землёй наверху
+tile.dirt.9.desc=Горизонтальная земля
+tile.dirt.10.desc=Вертикальная земля
+tile.dirt.11.desc=Земляные слои
+tile.dirt.12.desc=Разрушенная земля
+tile.dirt.13.desc=Перемешанная земля
+tile.dirt.14.desc=Вспаханная земля
+tile.dirt.15.desc=Большая земляная плитка
+
+#Ice
+tile.chisel.ice.name=Лёд
+tile.ice.1.desc=Необработанный ледяной блок
+tile.ice.2.desc=Булыжниковый лёд
+tile.ice.3.desc=Большие необработанные ледяные кирпичи
+tile.ice.4.desc=Большие ледяные кирпичи
+tile.ice.5.desc=Маленькие ледяные кирпичи
+tile.ice.6.desc=Красивая стеклянная стена
+tile.ice.7.desc=Большие ледяные плитки
+tile.ice.8.desc=Красивые ледяные плитки
+tile.ice.9.desc=Осевшие ледяные плитки
+tile.ice.10.desc=Нарушенные ледяные плитки
+tile.ice.11.desc=Ледяная панель
+tile.ice.12.desc=Ледяная плита
+tile.ice.13.desc=Ледяной блок Зельда
+tile.ice.14.desc=Блок ледяного висмута
+tile.ice.15.desc=Блок ледяного яда
+
+#Ice Pillars
+tile.chisel.ice_pillar.name=Ледяная колонна
+tile.icePillar.0.desc=Обычная ледяная колонна с обычной капителью
+tile.icePillar.1.desc=Обычная ледяная колонна с греческой капителью
+tile.icePillar.2.desc=Греческая ледяная колонна с обычной капителью
+tile.icePillar.3.desc=Греческая ледяная колонна с греческой капителью
+tile.icePillar.4.desc=Резная капитель ледяной колонны
+tile.icePillar.5.desc=Декоративная капитель ледяной колонны
+tile.icePillar.6.desc=Расписанная ледяная колонна
+
+#Ice Stairs
+tile.chisel.ice_stairs.name=Ледяные ступеньки
+tile.chisel.ice_stairs.0.name=Ледяные ступеньки
+tile.chisel.ice_stairs.1.name=Ледяные ступеньки
+tile.chisel.ice_stairs.2.name=Ледяные ступеньки
+tile.chisel.ice_stairs.3.name=Ледяные ступеньки
+tile.chisel.ice_stairs.4.name=Ледяные ступеньки
+tile.chisel.ice_stairs.5.name=Ледяные ступеньки
+tile.chisel.ice_stairs.6.name=Ледяные ступеньки
+tile.chisel.ice_stairs.7.name=Ледяные ступеньки
+tile.ice_stairs.0.desc=Ледяные ступеньки
+tile.ice_stairs.1.desc=Необработанные ледяные ступеньки
+tile.ice_stairs.2.desc=Булыжниковые ледяные ступеньки
+tile.ice_stairs.3.desc=Ступеньки из большого необработанного ледяного кирпича
+tile.ice_stairs.4.desc=Ступеньки из большого ледяного кирпича
+tile.ice_stairs.5.desc=Ступеньки из маленького ледяного кирпича
+tile.ice_stairs.6.desc=Ступеньки из красивой ледяной стены
+tile.ice_stairs.7.desc=Ступеньки из большой ледяной плитки
+tile.ice_stairs.8.desc=Ступеньки из красивой ледяной плитки
+tile.ice_stairs.9.desc=Ступеньки из осевшей ледяной плитки
+tile.ice_stairs.10.desc=Ступеньки из нарушенной ледяной плитки
+tile.ice_stairs.11.desc=Ступеньки из ледяной панели
+tile.ice_stairs.12.desc=Ступеньки из ледяной плиты
+tile.ice_stairs.13.desc=Ступеньки из льда Зельда
+tile.ice_stairs.14.desc=Ступеньки из ледяного висмута
+tile.ice_stairs.15.desc=Ступеньки из ледяного яда
+
+#Packed Ice
+tile.chisel.packedice.name=Плотный лёд
+tile.packedice.1.desc=Грубый блок плотного льда
+tile.packedice.2.desc=Булыжниковый плотный лёд
+tile.packedice.3.desc=Большие грубые кирпичи плотного льда
+tile.packedice.4.desc=Большие кирпичи плотного льда
+tile.packedice.5.desc=Маленькие кирпичи плотного льда
+tile.packedice.6.desc=Красивая стеклянная стена
+tile.packedice.7.desc=Большие плитки плотного льда
+tile.packedice.8.desc=Красивые плитки плотного льда
+tile.packedice.9.desc=Осевшие плитки плотного льда
+tile.packedice.10.desc=Неупорядоченные плитки плотного льда
+tile.packedice.11.desc=Панель из плотного льда
+tile.packedice.12.desc=Двойная плита из плотного льда
+tile.packedice.13.desc=Блок из плотного льда Зельда
+tile.packedice.14.desc=Висмутовый блок из плотного льда
+tile.packedice.15.desc=Ядовитый блок из плотного льда
+
+#Packed Ice Pillars
+tile.chisel.packedice_pillar.name=Колонна из плотного льда
+tile.packedice_pillar.0.desc=Обычная колонна из плотного льда с обычной капителью
+tile.packedice_pillar.1.desc=Обычная колонна из плотного льда с греческой капителью
+tile.packedice_pillar.2.desc=Греческая колонна из плотного льда с обычной капителью
+tile.packedice_pillar.3.desc=Греческая колонна из плотного льда с греческой капителью
+tile.packedice_pillar.4.desc=Резная капитель колонны из плотного льда
+tile.packedice_pillar.5.desc=Декоративная капитель колонны из плотного льда
+tile.packedice_pillar.6.desc=Расписанная колонна из плотного льда
+
+#Packed Ice Stairs
+tile.chisel.packedice_stairs.name=Ступеньки из плотного льда
+tile.chisel.packedice_stairs.0.name=Ступеньки из плотного льда
+tile.chisel.packedice_stairs.1.name=Ступеньки из плотного льда
+tile.chisel.packedice_stairs.2.name=Ступеньки из плотного льда
+tile.chisel.packedice_stairs.3.name=Ступеньки из плотного льда
+tile.chisel.packedice_stairs.4.name=Ступеньки из плотного льда
+tile.chisel.packedice_stairs.5.name=Ступеньки из плотного льда
+tile.chisel.packedice_stairs.6.name=Ступеньки из плотного льда
+tile.chisel.packedice_stairs.7.name=Ступеньки из плотного льда
+tile.packedice_stairs.0.desc=Ступеньки из плотного льда
+tile.packedice_stairs.1.desc=Ступеньки из грубого плотного льда
+tile.packedice_stairs.2.desc=Ступеньки из булыжникового плотного льда
+tile.packedice_stairs.3.desc=Ступеньки из больших грубых кирпичей плотного льда
+tile.packedice_stairs.4.desc=Ступеньки из больших кирпичей плотного льда
+tile.packedice_stairs.5.desc=Ступеньки из маленьких кирпичей плотного льда
+tile.packedice_stairs.6.desc=Ступеньки из красивой стеклянной стены
+tile.packedice_stairs.7.desc=Ступеньки из больших плиток плотного льда
+tile.packedice_stairs.8.desc=Ступеньки из красивых плиток плотного льда
+tile.packedice_stairs.9.desc=Ступеньки из осевших плиток плотного льда
+tile.packedice_stairs.10.desc=Ступеньки из неупорядоченных плиток плотного льда
+tile.packedice_stairs.11.desc=Ступеньки из панели плотного льда
+tile.packedice_stairs.12.desc=Ступеньки из двойной плиты плотного льда
+tile.packedice_stairs.13.desc=Ступеньки из блока плотного льда Зельда
+tile.packedice_stairs.14.desc=Ступеньки из висмутового блока плотного льда
+tile.packedice_stairs.15.desc=Ступеньки из ядовитого блока плотного льда
+
+#Obsidian
+tile.chisel.obsidian.name=Обсидиан
+tile.obsidian.1.desc=Большая обсидиановая колонна
+tile.obsidian.2.desc=Обсидиановая колонна
+tile.obsidian.3.desc=Резной обсидиан
+tile.obsidian.4.desc=Блестящая обсидиановая панель
+tile.obsidian.5.desc=Обсидиановая панель
+tile.obsidian.6.desc=Природные обсидиановые куски
+tile.obsidian.7.desc=Природные обсидиановая поросль
+tile.obsidian.8.desc=Обсидиановый кристалл
+tile.obsidian.9.desc=Обсидиановая панель с картой
+tile.obsidian.10.desc=Обсидиановая панель с картой региона
+tile.obsidian.11.desc=Яркая обсидиановая панель
+tile.obsidian.12.desc=Обсидиановые блоки
+tile.obsidian.13.desc=Обсидиановые плитки
+tile.obsidian.14.desc=Светлые обсидиановые блоки с греческой декорацией
+tile.obsidian.15.desc=Маленькие обсидиановые блоки в дубовом ящике
+
+#Wood
+tile.chisel.oak_planks.name=Дубовая древесина
+tile.chisel.birch_planks.name=Берёзовая древесина
+tile.chisel.spruce_planks.name=Еловая древесина
+tile.chisel.jungle_planks.name=Тропическая древесина
+tile.chisel.dark_oak_planks.name=Древесина тёмного дуба
+tile.chisel.acacia_planks.name=Древесина акации
+
+#BOP Wood
+tile.chisel.sacredoak_planks.name=Доски из священного дуба
+tile.chisel.cherry_planks.name=Доски из вишнёвого дерева
+tile.chisel.dark_planks.name=Доски из тёмного дерева
+tile.chisel.fir_planks.name=Пихтовые доски
+tile.chisel.ethereal_planks.name=Доски из эфирной древесины
+tile.chisel.magic_planks.name=Доски из магической древесины
+tile.chisel.mangrove_planks.name=Доски из мангрового дерева
+tile.chisel.palm_planks.name=Доски из пальмы
+tile.chisel.redwood_planks.name=Доски из красного дерева
+tile.chisel.willow_planks.name=Доски из ивы
+tile.chisel.pine_planks.name=Сосновые доски
+tile.chisel.hellbark_planks.name=Доски из адского дерева
+tile.chisel.jacaranda_planks.name=Доски из жакаранды
+tile.chisel.mahogany_planks.name=Доски из махагониевой древесины
+
+#Thaumcraft Wood
+tile.chisel.greatwood_planks.name=Доски из великого дерева
+tile.chisel.silverwood_planks.name=Доски из серебряного дерева
+
+#Iron Fence
+tile.chisel.iron_bars.name=Железные прутья
+tile.iron_bars.1.desc=Железные прутья без рамки
+tile.iron_bars.2.desc=Угрожающие железные прутья
+tile.iron_bars.3.desc=Прутья железной клетки
+tile.iron_bars.4.desc=Угрожающие железные шипы
+tile.iron_bars.5.desc=Толстая железная решётка
+tile.iron_bars.6.desc=Тонкая железная решётка
+tile.iron_bars.7.desc=Декоративная ограда из железной панели
+tile.iron_bars.8.desc=Вертикальные железные прутья
+tile.iron_bars.9.desc=Железные шипы
+
+#Glass Panes
+tile.chisel.glass_pane.name=Стеклянная панель
+tile.glass_pane.1.desc=Пузырчатая стеклянная панель
+tile.glass_pane.2.desc=Безграничная стеклянная панель
+tile.glass_pane.3.desc=Панель экрана
+tile.glass_pane.4.desc=Стеклянная панель с прожилками
+tile.glass_pane.12.desc=Китайская стеклянная панель
+tile.glass_pane.13.desc=Китайская стеклянная панель с золотой рамкой
+tile.glass_pane.14.desc=Японская стеклянная панель
+tile.glass_pane.15.desc=Декоративная японская стеклянная панель
+
+#Redstone block
+tile.chisel.redstone_block.name=Красный блок
+tile.redstone_block.1.desc=Гладкий красный камень
+tile.redstone_block.2.desc=Большой красный блок
+tile.redstone_block.3.desc=Маленький красный блок
+tile.redstone_block.4.desc=Красные кирпичи
+tile.redstone_block.5.desc=Маленькие красные кирпичи
+tile.redstone_block.6.desc=Хаотические красные кирпичи
+tile.redstone_block.7.desc=Резной красный камень
+tile.redstone_block.8.desc=Красное греческое украшение
+tile.redstone_block.9.desc=Декоративные красные плитки
+tile.redstone_block.10.desc=Красная колонна
+tile.redstone_block.11.desc=Красные плитки
+tile.redstone_block.12.desc=Красная схема
+tile.redstone_block.13.desc=Красная схема Супаплекс
+tile.redstone_block.14.desc=Красные черепа
+tile.redstone_block.15.desc=Красный блок Зельда
+
+#Holystone
+tile.chisel.holystone.name=Пемза
+tile.holystone.0.desc=Пемза
+tile.holystone.1.desc=Гладкая пемза
+tile.holystone.2.desc=Таинственный символ пемзы
+tile.holystone.3.desc=Резная пемза
+tile.holystone.4.desc=Блоки из пемзы
+tile.holystone.5.desc=Грубые кирпичи из пемзы
+tile.holystone.6.desc=Кирпичи из пемзы
+tile.holystone.7.desc=Большие кирпичи из пемзы
+tile.holystone.8.desc=Платформа из пемзы
+tile.holystone.9.desc=Плитки платформы из пемзы
+tile.holystone.10.desc=Красивая конструкция из пемзы
+tile.holystone.11.desc=Красивые плитки из пемзы
+tile.holystone.12.desc=Гладкая пластина из пемзы
+tile.holystone.13.desc=Пластина из пемзы
+
+#Lavastone
+tile.chisel.lavastone.name=Лавовый камень
+tile.lavastone.0.desc=Лавовый камень
+tile.lavastone.1.desc=Чёрный лавовый камень
+tile.lavastone.2.desc=Плитки из лавового камня
+tile.lavastone.3.desc=Хаотические кирпичи из лавового камня
+tile.lavastone.4.desc=Жуткая лава в плитках
+tile.lavastone.5.desc=Лавовая панель
+tile.lavastone.6.desc=Декоративная лавовая панель
+tile.lavastone.7.desc=Тёмный лавовый камень
+
+#Carpet
+tile.chisel.carpet_block.name=Ковёр
+tile.carpet_block.0.desc=Белый ковровый блок
+tile.carpet_block.1.desc=Оранжевый ковровый блок
+tile.carpet_block.2.desc=Пурпурный ковровый блок
+tile.carpet_block.3.desc=Голубой ковровый блок
+tile.carpet_block.4.desc=Жёлтый ковровый блок
+tile.carpet_block.5.desc=Светло-зелёный ковровый блок
+tile.carpet_block.6.desc=Розовый ковровый блок
+tile.carpet_block.7.desc=Серый ковровый блок
+tile.carpet_block.8.desc=Светло-Серый ковровый блок
+tile.carpet_block.9.desc=Бирюзовый ковровый блок
+tile.carpet_block.10.desc=Фиолетовый ковровый блок
+tile.carpet_block.11.desc=Синий ковровый блок
+tile.carpet_block.12.desc=Коричневый ковровый блок
+tile.carpet_block.13.desc=Зелёный ковровый блок
+tile.carpet_block.14.desc=Красный ковровый блок
+tile.carpet_block.15.desc=Чёрный ковровый блок
+
+#Carpet floor
+tile.chisel.carpet.name=Напольный ковёр
+tile.carpet.0.desc=Белый ковёр
+tile.carpet.1.desc=Оранжевый ковёр
+tile.carpet.2.desc=Пурпурный ковёр
+tile.carpet.3.desc=Голубой ковёр
+tile.carpet.4.desc=Жёлтый ковёр
+tile.carpet.5.desc=Светло-зелёный ковёр
+tile.carpet.6.desc=Розовый ковёр
+tile.carpet.7.desc=Серый ковёр
+tile.carpet.8.desc=Светло-серый ковёр
+tile.carpet.9.desc=Бирюзовый ковёр
+tile.carpet.10.desc=Фиолетовый ковёр
+tile.carpet.11.desc=Синий ковёр
+tile.carpet.12.desc=Коричневый ковёр
+tile.carpet.13.desc=Зелёный ковёр
+tile.carpet.14.desc=Красный ковёр
+tile.carpet.15.desc=Чёрный ковёр
+
+#Bookshelf
+tile.chisel.bookshelf.name=Книжный шкаф
+tile.bookshelf.1.desc=Книжный шкаф с разноцветными книгами
+tile.bookshelf.2.desc=Книжный шкаф некроманта новичка
+tile.bookshelf.3.desc=Книжный шкаф некроманта
+tile.bookshelf.4.desc=Книжный шкаф с красными большими книгами
+tile.bookshelf.5.desc=Заброшенный книжный шкаф
+tile.bookshelf.6.desc=Книжный шкаф запасливого человека
+tile.bookshelf.7.desc=Книжный шкаф, заполненный до краев скучными пастельными книгами
+tile.bookshelf.8.desc=Книжный шкаф историка
+
+#Tyrian
+tile.chisel.tyrian.name=Тириан
+tile.tyrian.0.desc=Футуристический бронированный блок
+tile.tyrian.1.desc=Бледный футуристический бронированный блок
+tile.tyrian.2.desc=Фиолетовый футуристический бронированный блок
+tile.tyrian.3.desc=Тусклый фиолетовый футуристический бронированный блок
+tile.tyrian.4.desc=Ржавый футуристический бронированный блок
+tile.tyrian.5.desc=Улучшенный футуристический бронированный блок
+tile.tyrian.6.desc=Футуристический бронированный блок with many seams
+tile.tyrian.7.desc=Блок футуристической платформы
+tile.tyrian.8.desc=Футуристические бронированные плитки
+tile.tyrian.9.desc=Диагональный футуристический бронированный блок
+tile.tyrian.10.desc=Футуристический бронированный блок с выемкой
+tile.tyrian.11.desc=Синий футуристический бронированный блок
+tile.tyrian.12.desc=Чёрный футуристический бронированный блок
+tile.tyrian.13.desc=Чёрные футуристические бронированные плитки
+tile.tyrian.14.desc=Чёрный футуристический бронированный блок с отверстием
+tile.tyrian.15.desc=Футуристический бронированный блок с блестящими металлическими кусками
+
+#Temple
+tile.chisel.templeblock.name=Храмовый блок
+tile.templeblock.0.desc=Храмовый булыжник
+tile.templeblock.1.desc=Декоративный храмовый блок
+tile.templeblock.2.desc=Храмовая пластина
+tile.templeblock.3.desc=Потрескавшаяся храмовая пластина
+tile.templeblock.4.desc=Храмовые кирпичи
+tile.templeblock.5.desc=Большие храмовые кирпичи
+tile.templeblock.6.desc=Изношенные храмовые кирпичи
+tile.templeblock.7.desc=Беспорядочные храмовые кирпичи
+tile.templeblock.8.desc=Храмовый столб
+tile.templeblock.9.desc=Храмовый стенд
+tile.templeblock.10.desc=Храмовый мозаичный стенд
+tile.templeblock.11.desc=Храмовый жуткий стенд
+tile.templeblock.12.desc=Храмовые плитки
+tile.templeblock.13.desc=Маленькие храмовые плитки
+tile.templeblock.14.desc=Светлые храмовые плитки
+tile.templeblock.15.desc=Маленькие светлые храмовые плитки
+
+#Temple Mossy
+tile.chisel.mossy_templeblock.name=Замшелый храмовый блок
+tile.mossy_templeblock.0.desc=Замшелый храмовый булыжник
+tile.mossy_templeblock.1.desc=Декоративный замшелый храмовый блок
+tile.mossy_templeblock.2.desc=Замшелая храмовая пластина
+tile.mossy_templeblock.3.desc=Потрескавшаяся замшелая храмовая пластина
+tile.mossy_templeblock.4.desc=Замшелые храмовые кирпичи
+tile.mossy_templeblock.5.desc=Большие замшелые храмовые кирпичи
+tile.mossy_templeblock.6.desc=Изношенные замшелые храмовые кирпичи
+tile.mossy_templeblock.7.desc=Беспорядочные замшелые храмовые кирпичи
+tile.mossy_templeblock.8.desc=Замшелый храмовый столб
+tile.mossy_templeblock.9.desc=Замшелый храмовый стенд
+tile.mossy_templeblock.10.desc=Замшелый храмовый мозаичный стенд
+tile.mossy_templeblock.11.desc=Замшелый храмовый жуткий стенд
+tile.mossy_templeblock.12.desc=Замшелые храмовые плитки
+tile.mossy_templeblock.13.desc=Маленькие замшелые храмовые плитки
+tile.mossy_templeblock.14.desc=Светлые замшелые храмовые плитки
+tile.mossy_templeblock.15.desc=Маленькие светлые замшелые храмовые плитки
+
+#Cloud
+tile.chisel.cloud.name=Облако
+tile.cloud.0.desc=Облачный блок
+tile.cloud.1.desc=Большие облачные кирпичи
+tile.cloud.2.desc=Маленькие облачные кирпичи
+tile.cloud.3.desc=Маленькие вертикальные облачные кирпичи
+tile.cloud.4.desc=Сетчатые облачные кирпичи
+
+#Stained glass T.T
+tile.chisel.stained_glass_white.name=Окрашенное стекло
+tile.chisel.stained_glass_orange.name=Окрашенное стекло
+tile.chisel.stained_glass_magenta.name=Окрашенное стекло
+tile.chisel.stained_glass_lightblue.name=Окрашенное стекло
+tile.chisel.stained_glass_yellow.name=Окрашенное стекло
+tile.chisel.stained_glass_lime.name=Окрашенное стекло
+tile.chisel.stained_glass_pink.name=Окрашенное стекло
+tile.chisel.stained_glass_gray.name=Окрашенное стекло
+tile.chisel.stained_glass_lightgray.name=Окрашенное стекло
+tile.chisel.stained_glass_cyan.name=Окрашенное стекло
+tile.chisel.stained_glass_purple.name=Окрашенное стекло
+tile.chisel.stained_glass_blue.name=Окрашенное стекло
+tile.chisel.stained_glass_brown.name=Окрашенное стекло
+tile.chisel.stained_glass_green.name=Окрашенное стекло
+tile.chisel.stained_glass_red.name=Окрашенное стекло
+tile.chisel.stained_glass_black.name=Окрашенное стекло
+tile.chisel.stained_glass_forestry.name=Окрашенное стекло
+
+#Stained GlassPane T.T
+tile.chisel.stained_glass_pane_white.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_orange.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_magenta.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_lightBlue.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_yellow.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_lime.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_pink.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_gray.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_lightgray.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_cyan.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_purple.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_blue.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_brown.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_green.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_red.name=Окрашенная стеклянная панель
+tile.chisel.stained_glass_pane_black.name=Окрашенная стеклянная панель
+
+#Fantasy block
+tile.chisel.fantasyblock.name=Царский фантастический блок
+tile.fantasyblock.0.desc=Царский фантастический кирпич
+tile.fantasyblock.1.desc=Тусклый царский фантастический кирпич
+tile.fantasyblock.2.desc=Изношенный царский фантастический кирпич
+tile.fantasyblock.3.desc=Повреждённые царские фантастические кирпичи
+tile.fantasyblock.4.desc=Царское фантастическое украшение
+tile.fantasyblock.5.desc=Блок царского фантастического украшения
+tile.fantasyblock.6.desc=Царская фантастическая колонна
+tile.fantasyblock.7.desc=Колонна из царского фантастического украшения
+tile.fantasyblock.8.desc=Царское фантастическое золотое змеиное украшение
+tile.fantasyblock.9.desc=Царское фантастическое золотое шумовое украшение
+tile.fantasyblock.10.desc=Царское фантастическое золотое гравированное украшение
+tile.fantasyblock.11.desc=Царское фантастическое золотое цепное украшение
+tile.fantasyblock.12.desc=Пластина из царского фантастического украшения
+tile.fantasyblock.13.desc=Царский фантастический блок
+tile.fantasyblock.14.desc=Беспорядочные царские фантастические кирпичи
+tile.fantasyblock.15.desc=Изношенные царские фантастические кирпичи
+
+#Fantasy block 2
+tile.chisel.fantasyblock2.name=Фантастический блок
+tile.fantasyblock2.0.desc=Фантастический кирпич
+tile.fantasyblock2.1.desc=Тусклый фантастический кирпич
+tile.fantasyblock2.2.desc=Изношенный фантастический кирпич
+tile.fantasyblock2.3.desc=Повреждённые фантастические кирпичи
+tile.fantasyblock2.4.desc=Фантастическое украшение
+tile.fantasyblock2.5.desc=Блок фантастического украшения
+tile.fantasyblock2.6.desc=Фантастическая колонна
+tile.fantasyblock2.7.desc=Колонна из фантастического украшения
+tile.fantasyblock2.8.desc=Фантастическое золотое змеиное украшение
+tile.fantasyblock2.9.desc=Фантастическое золотое шумовое украшение
+tile.fantasyblock2.10.desc=Фантастическое золотое гравированное украшение
+tile.fantasyblock2.11.desc=Фантастическое золотое цепное украшение
+tile.fantasyblock2.12.desc=Пластина из фантастического украшения
+tile.fantasyblock2.13.desc=Фантастический блок
+tile.fantasyblock2.14.desc=Беспорядочные фантастические кирпичи
+tile.fantasyblock2.15.desc=Изношенные фантастические кирпичи
+
+#Paperwall
+tile.chisel.paperwall.name=Бумажная стена
+tile.chisel.paperwall_block.name=Блок бумажной стены
+tile.paperwall.0.desc=Коробочная бумажная стена
+tile.paperwall.1.desc=Разделённая бумажная стена
+tile.paperwall.2.desc=Скрещенная бумажная стена
+tile.paperwall.3.desc=Бумажная стена с шестью секциями
+tile.paperwall.4.desc=Вертикальная бумажная стена
+tile.paperwall.5.desc=Горизонтальная бумажная стена
+tile.paperwall.6.desc=Украшенная цветами бумажная стена
+tile.paperwall.7.desc=Обычная бумажная стена
+tile.paperwall.8.desc=Двереобразная бумажная стена
+
+#Woolen Clay
+tile.chisel.woolen_clay.name=Шерстяная глина
+tile.woolenClay.0.desc=Белая шерстяная глина
+tile.woolenClay.1.desc=Оранжевая шерстяная глина
+tile.woolenClay.2.desc=Пурпурная шерстяная глина
+tile.woolenClay.3.desc=Голубая шерстяная глина
+tile.woolenClay.4.desc=Жёлтая шерстяная глина
+tile.woolenClay.5.desc=Лаймовая шерстяная глина
+tile.woolenClay.6.desc=Розовая шерстяная глина
+tile.woolenClay.7.desc=Серая шерстяная глина
+tile.woolenClay.8.desc=Светло-серая шерстяная глина
+tile.woolenClay.9.desc=Бирюзовая шерстяная глина
+tile.woolenClay.10.desc=Фиолетовая шерстяная глина
+tile.woolenClay.11.desc=Синяя шерстяная глина
+tile.woolenClay.12.desc=Коричневая шерстяная глина
+tile.woolenClay.13.desc=Зелёная шерстяная глина
+tile.woolenClay.14.desc=Красная шерстяная глина
+tile.woolenClay.15.desc=Чёрная шерстяная глина
+
+#Colored Sand
+tile.chisel.colored_sand.name=Цветной песок
+tile.coloredSand.0.desc=Белый цветной песок
+tile.coloredSand.1.desc=Оранжевый цветной песок
+tile.coloredSand.2.desc=Пурпурный цветной песок
+tile.coloredSand.3.desc=Голубой цветной песок
+tile.coloredSand.4.desc=Жёлтый цветной песок
+tile.coloredSand.5.desc=Лаймовый цветной песок
+tile.coloredSand.6.desc=Розовый цветной песок
+tile.coloredSand.7.desc=Серый цветной песок
+tile.coloredSand.8.desc=Светло-серый цветной песок
+tile.coloredSand.9.desc=Бирюзовый цветной песок
+tile.coloredSand.10.desc=Фиолетовый цветной песок
+tile.coloredSand.11.desc=Синий цветной песок
+tile.coloredSand.12.desc=Коричневый цветной песок
+tile.coloredSand.13.desc=Зелёный цветной песок
+tile.coloredSand.14.desc=Красный цветной песок
+tile.coloredSand.15.desc=Чёрный цветной песок
+
+#Laboratory Block
+tile.chisel.laboratoryblock.name=Лабораторный блок
+tile.laboratory.0.desc=Настенная панель
+tile.laboratory.1.desc=Точечная панель
+tile.laboratory.2.desc=Эмалированная стена
+tile.laboratory.3.desc=Эмалированная круглая стена
+tile.laboratory.4.desc=Эмалированные настенные вентиляторы
+tile.laboratory.5.desc=Большая эмалированная плитка
+tile.laboratory.6.desc=Маленькие эмалированные плитки
+tile.laboratory.7.desc=Лабораторный пол
+tile.laboratory.8.desc=Клетчатый пол
+tile.laboratory.9.desc=Чистая панель
+tile.laboratory.10.desc=Нечёткая панель
+tile.laboratory.11.desc=Большая стальная плитка
+tile.laboratory.12.desc=Маленькие стальные плитки
+tile.laboratory.13.desc=Консоль направления (Правая)
+tile.laboratory.14.desc=Консоль направления (Левая)
+tile.laboratory.15.desc=Информационная консоль
+
+#Planks (They go in order of creative tab appearance if that helps)
+#Oak
+tile.oak.planks.1.desc=Гладкие дубовые доски
+tile.oak.planks.2.desc=Короткие дубовые доски
+tile.oak.planks.6.desc=Изысканная композиция из дубовых досок
+tile.oak.planks.8.desc=Дубовая панель
+tile.oak.planks.9.desc=Дубовая двойная плита
+tile.oak.planks.10.desc=Дубовый ящик
+tile.oak.planks.11.desc=Изысканный дубовый ящик
+tile.oak.planks.13.desc=Большие длинные дубовые доски
+tile.oak.planks.3.desc=Вертикальные дубовые доски
+tile.oak.planks.4.desc=Вертикальные неровные дубовые доски
+tile.oak.planks.5.desc=Дубовый паркет
+tile.oak.planks.7.desc=Жалюзи из дубовой доски
+tile.oak.planks.12.desc=Дубовые строительные леса
+tile.oak.planks.14.desc=Беспорядочные дубовые доски
+tile.oak.planks.15.desc=Беспорядочные вертикальные дубовые доски
+
+#Spruce
+tile.spruce.planks.1.desc=Гладкие еловые доски
+tile.spruce.planks.2.desc=Короткие еловые доски
+tile.spruce.planks.6.desc=Изысканная композиция из еловых досок
+tile.spruce.planks.8.desc=Еловая панель
+tile.spruce.planks.9.desc=Еловая двойная плита
+tile.spruce.planks.10.desc=Еловый ящик
+tile.spruce.planks.11.desc=Изысканный еловый ящик
+tile.spruce.planks.13.desc=Большие длинные еловые доски
+tile.spruce.planks.3.desc=Вертикальные еловые доски
+tile.spruce.planks.4.desc=Вертикальные неровные еловые доски
+tile.spruce.planks.5.desc=Еловый паркет
+tile.spruce.planks.7.desc=Жалюзи из еловой доски
+tile.spruce.planks.12.desc=Еловые строительные леса
+tile.spruce.planks.14.desc=Беспорядочные еловые доски
+tile.spruce.planks.15.desc=Беспорядочные вертикальные еловые доски
+
+#Birch
+tile.birch.planks.1.desc=Гладкие берёзовые доски
+tile.birch.planks.2.desc=Короткие берёзовые доски
+tile.birch.planks.6.desc=Изысканная композиция из берёзовых досок
+tile.birch.planks.8.desc=Берёзовая панель
+tile.birch.planks.9.desc=Берёзовая двойная плита
+tile.birch.planks.10.desc=Берёзовый ящик
+tile.birch.planks.11.desc=Изысканный берёзовый ящик
+tile.birch.planks.13.desc=Большие длинные берёзовые доски
+tile.birch.planks.3.desc=Вертикальные берёзовые доски
+tile.birch.planks.4.desc=Вертикальные неровные берёзовые доски
+tile.birch.planks.5.desc=Берёзовый паркет
+tile.birch.planks.7.desc=Жалюзи из берёзовой доски
+tile.birch.planks.12.desc=Берёзовые строительные леса
+tile.birch.planks.14.desc=Беспорядочные берёзовые доски
+tile.birch.planks.15.desc=Беспорядочные вертикальные берёзовые доски
+
+#Jungle
+tile.jungle.planks.1.desc=Гладкие тропические доски
+tile.jungle.planks.2.desc=Короткие тропические доски
+tile.jungle.planks.6.desc=Изысканная композиция из тропических досок
+tile.jungle.planks.8.desc=Тропическая панель
+tile.jungle.planks.9.desc=Тропическая двойная плита
+tile.jungle.planks.10.desc=Ящик из тропической древесины
+tile.jungle.planks.11.desc=Изысканный ящик из тропической древесины
+tile.jungle.planks.13.desc=Большие длинные тропические доски
+tile.jungle.planks.3.desc=Вертикальные тропические доски
+tile.jungle.planks.4.desc=Вертикальные неровные тропические доски
+tile.jungle.planks.5.desc=Паркет из тропической древесины
+tile.jungle.planks.7.desc=Жалюзи из тропической доски
+tile.jungle.planks.12.desc=Строительные леса из тропического дерева
+tile.jungle.planks.14.desc=Беспорядочные тропические доски
+tile.jungle.planks.15.desc=Беспорядочные вертикальные тропические доски
+
+#Acacia
+tile.acacia.planks.1.desc=Гладкие доски из акации
+tile.acacia.planks.2.desc=Короткие доски из акации
+tile.acacia.planks.6.desc=Изысканная композиция досок акации
+tile.acacia.planks.8.desc=Панель из акации
+tile.acacia.planks.9.desc=Двойная плита из акации
+tile.acacia.planks.10.desc=Ящик из акации
+tile.acacia.planks.11.desc=Изысканный ящик из акации
+tile.acacia.planks.13.desc=Большие длинные доски из акации
+tile.acacia.planks.3.desc=Вертикальные доски из акации
+tile.acacia.planks.4.desc=Вертикальные неровные доски из акации
+tile.acacia.planks.5.desc=Паркет из древесины акации
+tile.acacia.planks.7.desc=Жалюзи из доски акации
+tile.acacia.planks.12.desc=Строительные леса из акации
+tile.acacia.planks.14.desc=Беспорядочные доски акации
+tile.acacia.planks.15.desc=Беспорядочные вертикальные доски акации
+
+#Dark Oak
+tile.dark-oak.planks.1.desc=Гладкие доски из тёмного дуба
+tile.dark-oak.planks.2.desc=Короткие доски из тёмного дуба
+tile.dark-oak.planks.6.desc=Изысканная композиция из досок тёмного дуба
+tile.dark-oak.planks.8.desc=Панель из тёмного дуба
+tile.dark-oak.planks.9.desc=Двойная плита из тёмного дуба
+tile.dark-oak.planks.10.desc=Ящик из древесины тёмного дуба
+tile.dark-oak.planks.11.desc=Изысканный ящик из древесины тёмного дуба
+tile.dark-oak.planks.13.desc=Большие длинные доски из тёмного дуба
+tile.dark-oak.planks.3.desc=Вертикальные доски из тёмного дуба
+tile.dark-oak.planks.4.desc=Вертикальные неровные доски из тёмного дуба
+tile.dark-oak.planks.5.desc=Паркет из древесины тёмного дуба
+tile.dark-oak.planks.7.desc=Жалюзи из доски тёмного дуба
+tile.dark-oak.planks.12.desc=Строительные леса из тёмного дуба
+tile.dark-oak.planks.14.desc=Беспорядочные доски из тёмного дуба
+tile.dark-oak.planks.15.desc=Беспорядочные вертикальные доски из тёмного дуба
+
+#Sacred Oak
+tile.sacredoak.planks.1.desc=Гладкие доски из священного дуба
+tile.sacredoak.planks.2.desc=Короткие доски из священного дуба
+tile.sacredoak.planks.6.desc=Изысканная композиция досок из священного дуба
+tile.sacredoak.planks.8.desc=Панель из священного дуба
+tile.sacredoak.planks.9.desc=Двойная плита из священного дуба
+tile.sacredoak.planks.10.desc=Ящик из священного дуба
+tile.sacredoak.planks.11.desc=Изысканный ящик из священного дуба
+tile.sacredoak.planks.13.desc=Большие длинные доски из священного дуба
+tile.sacredoak.planks.3.desc=Вертикальные доски из священного дуба
+tile.sacredoak.planks.4.desc=Вертикальные неровные доски из священного дуба
+tile.sacredoak.planks.5.desc=Паркет из священного дуба
+tile.sacredoak.planks.7.desc=Жалюзи из досок из священного дуба
+tile.sacredoak.planks.12.desc=Строительные леса из священного дуба
+tile.sacredoak.planks.14.desc=Беспорядочные доски из священного дуба
+tile.sacredoak.planks.15.desc=Беспорядочные вертикальные доски из священного дуба
+
+#Cherry
+tile.cherry.planks.1.desc=Гладкие доски из вишнёвого дерева
+tile.cherry.planks.2.desc=Короткие доски из вишнёвого дерева
+tile.cherry.planks.6.desc=Изысканная композиция досок из вишнёвого дерева
+tile.cherry.planks.8.desc=Панель из вишнёвого дерева
+tile.cherry.planks.9.desc=Двойная плита из вишнёвого дерева
+tile.cherry.planks.10.desc=Ящик из вишнёвого дерева
+tile.cherry.planks.11.desc=Изысканный ящик из вишнёвого дерева
+tile.cherry.planks.13.desc=Большие длинные доски из вишнёвого дерева
+tile.cherry.planks.3.desc=Вертикальные доски из вишнёвого дерева
+tile.cherry.planks.4.desc=Вертикальные неровные доски из вишнёвого дерева
+tile.cherry.planks.5.desc=Паркет из вишнёвого дерева
+tile.cherry.planks.7.desc=Жалюзи из досок из вишнёвого дерева
+tile.cherry.planks.12.desc=Строительные леса из вишнёвого дерева
+tile.cherry.planks.14.desc=Беспорядочные доски из вишнёвого дерева
+tile.cherry.planks.15.desc=Беспорядочные вертикальные доски из вишнёвого дерева
+
+#Dark
+tile.dark.planks.1.desc=Гладкие доски из тёмного дерева
+tile.dark.planks.2.desc=Короткие доски из тёмного дерева
+tile.dark.planks.6.desc=Изысканная композиция досок из тёмного дерева
+tile.dark.planks.8.desc=Панель из тёмного дерева
+tile.dark.planks.9.desc=Двойная плита из тёмного дерева
+tile.dark.planks.10.desc=Ящик из тёмного дерева
+tile.dark.planks.11.desc=Изысканный ящик из тёмного дерева
+tile.dark.planks.13.desc=Большие длинные доски из тёмного дерева
+tile.dark.planks.3.desc=Вертикальные доски из тёмного дерева
+tile.dark.planks.4.desc=Вертикальные неровные доски из тёмного дерева
+tile.dark.planks.5.desc=Паркет из тёмного дерева
+tile.dark.planks.7.desc=Жалюзи из досок из тёмного дерева
+tile.dark.planks.12.desc=Строительные леса из тёмного дерева
+tile.dark.planks.14.desc=Беспорядочные доски из тёмного дерева
+tile.dark.planks.15.desc=Беспорядочные вертикальные доски из тёмного дерева
+
+#Fir
+tile.fir.planks.1.desc=Гладкие пихтовые доски
+tile.fir.planks.2.desc=Короткие пихтовые доски
+tile.fir.planks.6.desc=Изысканная композиция пихтовых досок
+tile.fir.planks.8.desc=Панель из пихты
+tile.fir.planks.9.desc=Двойная плита из пихты
+tile.fir.planks.10.desc=Ящик из пихты
+tile.fir.planks.11.desc=Изысканный ящик из пихты
+tile.fir.planks.13.desc=Большие длинные пихтовые доски
+tile.fir.planks.3.desc=Вертикальные пихтовые доски
+tile.fir.planks.4.desc=Вертикальные неровные пихтовые доски
+tile.fir.planks.5.desc=Паркет из пихты
+tile.fir.planks.7.desc=Жалюзи из пихтовых досок
+tile.fir.planks.12.desc=Строительные леса из пихты
+tile.fir.planks.14.desc=Беспорядочные пихтовые доски
+tile.fir.planks.15.desc=Беспорядочные вертикальные пихтовые доски
+
+#Ethereal
+tile.ethereal.planks.1.desc=Гладкие доски из эфирной древесины
+tile.ethereal.planks.2.desc=Короткие доски из эфирной древесины
+tile.ethereal.planks.6.desc=Изысканная композиция из досок из эфирной древесины
+tile.ethereal.planks.8.desc=Панель из эфирной древесины
+tile.ethereal.planks.9.desc=Двойная плита из эфирной древесины
+tile.ethereal.planks.10.desc=Ящик из эфирной древесины
+tile.ethereal.planks.11.desc=Изысканный ящик из эфирной древесины
+tile.ethereal.planks.13.desc=Большие длинные доски из эфирной древесины
+tile.ethereal.planks.3.desc=Вертикальные доски из эфирной древесины
+tile.ethereal.planks.4.desc=Вертикальные неровные доски из эфирной древесины
+tile.ethereal.planks.5.desc=Паркет из эфирной древесины
+tile.ethereal.planks.7.desc=Жалюзи из досок из эфирной древесины
+tile.ethereal.planks.12.desc=Строительные леса из эфирной древесины
+tile.ethereal.planks.14.desc=Беспорядочные доски из эфирной древесины
+tile.ethereal.planks.15.desc=Беспорядочные вертикальные доски из эфирной древесины
+
+#Magic
+tile.magic.planks.1.desc=Гладкие доски из магической древесины
+tile.magic.planks.2.desc=Короткие доски из магической древесины
+tile.magic.planks.6.desc=Изысканная композиция из досок из магической древесины
+tile.magic.planks.8.desc=Панель из магической древесины
+tile.magic.planks.9.desc=Двойная плита из магической древесины
+tile.magic.planks.10.desc=Ящик из магической древесины
+tile.magic.planks.11.desc=Изысканный ящик из магической древесины
+tile.magic.planks.13.desc=Большие длинные доски из магической древесины
+tile.magic.planks.3.desc=Вертикальные доски из магической древесины
+tile.magic.planks.4.desc=Вертикальные неровные доски из магической древесины
+tile.magic.planks.5.desc=Паркет из магической древесины
+tile.magic.planks.7.desc=Жалюзи из досок из магической древесины
+tile.magic.planks.12.desc=Строительные леса из магической древесины
+tile.magic.planks.14.desc=Беспорядочные доски из магической древесины
+tile.magic.planks.15.desc=Беспорядочные вертикальные доски из магической древесины
+
+#Mangrove
+tile.mangrove.planks.1.desc=Гладкие доски из мангрового дерева
+tile.mangrove.planks.2.desc=Короткие доски из мангрового дерева
+tile.mangrove.planks.6.desc=Изысканная композиция из досок из мангрового дерева
+tile.mangrove.planks.8.desc=Панель из мангрового дерева
+tile.mangrove.planks.9.desc=Двойная плита из мангрового дерева
+tile.mangrove.planks.10.desc=Ящик из мангрового дерева
+tile.mangrove.planks.11.desc=Изысканный ящик из мангрового дерева
+tile.mangrove.planks.13.desc=Большие длинные доски из мангрового дерева
+tile.mangrove.planks.3.desc=Вертикальные доски из мангрового дерева
+tile.mangrove.planks.4.desc=Вертикальные неровные доски из мангрового дерева
+tile.mangrove.planks.5.desc=Паркет из мангрового дерева
+tile.mangrove.planks.7.desc=Жалюзи из досок из мангрового дерева
+tile.mangrove.planks.12.desc=Строительные леса из мангрового дерева
+tile.mangrove.planks.14.desc=Беспорядочные доски из мангрового дерева
+tile.mangrove.planks.15.desc=Беспорядочные вертикальные доски из мангрового дерева
+
+#Palm
+tile.palm.planks.1.desc=Гладкие доски из пальмы
+tile.palm.planks.2.desc=Короткие доски из пальмы
+tile.palm.planks.6.desc=Изысканная композиция из досок из пальмы
+tile.palm.planks.8.desc=Панель из пальмы
+tile.palm.planks.9.desc=Двойная плита из пальмы
+tile.palm.planks.10.desc=Ящик из пальмы
+tile.palm.planks.11.desc=Изысканный ящик из пальмы
+tile.palm.planks.13.desc=Большие длинные доски из пальмы
+tile.palm.planks.3.desc=Вертикальные доски из пальмы
+tile.palm.planks.4.desc=Вертикальные неровные доски из пальмы
+tile.palm.planks.5.desc=Паркет из пальмы
+tile.palm.planks.7.desc=Жалюзи из досок из пальмы
+tile.palm.planks.12.desc=Строительные леса из пальмы
+tile.palm.planks.14.desc=Беспорядочные доски из пальмы
+tile.palm.planks.15.desc=Беспорядочные вертикальные доски из пальмы
+
+#Redwood
+tile.redwood.planks.1.desc=Гладкие доски из красного дерева
+tile.redwood.planks.2.desc=Короткие доски из красного дерева
+tile.redwood.planks.6.desc=Изысканная композиция из досок из красного дерева
+tile.redwood.planks.8.desc=Панель из красного дерева
+tile.redwood.planks.9.desc=Двойная плита из красного дерева
+tile.redwood.planks.10.desc=Ящик из красного дерева
+tile.redwood.planks.11.desc=Изысканный ящик из красного дерева
+tile.redwood.planks.13.desc=Большие длинные доски из красного дерева
+tile.redwood.planks.3.desc=Вертикальные доски из красного дерева
+tile.redwood.planks.4.desc=Вертикальные неровные доски из красного дерева
+tile.redwood.planks.5.desc=Паркет из красного дерева
+tile.redwood.planks.7.desc=Жалюзи из досок из красного дерева
+tile.redwood.planks.12.desc=Строительные леса из красного дерева
+tile.redwood.planks.14.desc=Беспорядочные доски из красного дерева
+tile.redwood.planks.15.desc=Беспорядочные вертикальные доски из красного дерева
+
+#Willow
+tile.willow.planks.1.desc=Гладкие доски из ивы
+tile.willow.planks.2.desc=Короткие доски из ивы
+tile.willow.planks.6.desc=Изысканная композиция из досок из ивы
+tile.willow.planks.8.desc=Панель из ивы
+tile.willow.planks.9.desc=Двойная плита из ивы
+tile.willow.planks.10.desc=Ящик из ивы
+tile.willow.planks.11.desc=Изысканный ящик из ивы
+tile.willow.planks.13.desc=Большие длинные доски из ивы
+tile.willow.planks.3.desc=Вертикальные доски из ивы
+tile.willow.planks.4.desc=Вертикальные неровные доски из ивы
+tile.willow.planks.5.desc=Паркет из ивы
+tile.willow.planks.7.desc=Жалюзи из досок из ивы
+tile.willow.planks.12.desc=Строительные леса из ивы
+tile.willow.planks.14.desc=Беспорядочные доски из ивы
+tile.willow.planks.15.desc=Беспорядочные вертикальные доски из ивы
+
+#Pine
+tile.pine.planks.1.desc=Гладкие сосновые доски
+tile.pine.planks.2.desc=Короткие сосновые доски
+tile.pine.planks.6.desc=Изысканная композиция из сосновых досок
+tile.pine.planks.8.desc=Панель из сосны
+tile.pine.planks.9.desc=Двойная плита из сосны
+tile.pine.planks.10.desc=Ящик из сосны
+tile.pine.planks.11.desc=Изысканный ящик из сосны
+tile.pine.planks.13.desc=Большие длинные сосновые доски
+tile.pine.planks.3.desc=Вертикальные сосновые доски
+tile.pine.planks.4.desc=Вертикальные неровные сосновые доски
+tile.pine.planks.5.desc=Паркет из сосны
+tile.pine.planks.7.desc=Жалюзи из сосновых досок
+tile.pine.planks.12.desc=Строительные леса из сосны
+tile.pine.planks.14.desc=Беспорядочные сосновые доски
+tile.pine.planks.15.desc=Беспорядочные вертикальные сосновые доски
+
+#Hellbark
+tile.hellbark.planks.1.desc=Гладкие доски из адского дерева
+tile.hellbark.planks.2.desc=Короткие доски из адского дерева
+tile.hellbark.planks.6.desc=Изысканная композиция из досок из адского дерева
+tile.hellbark.planks.8.desc=Панель из адского дерева
+tile.hellbark.planks.9.desc=Двойная плита из адского дерева
+tile.hellbark.planks.10.desc=Ящик из адского дерева
+tile.hellbark.planks.11.desc=Изысканный ящик из адского дерева
+tile.hellbark.planks.13.desc=Большие длинные доски из адского дерева
+tile.hellbark.planks.3.desc=Вертикальные доски из адского дерева
+tile.hellbark.planks.4.desc=Вертикальные неровные доски из адского дерева
+tile.hellbark.planks.5.desc=Паркет из адского дерева
+tile.hellbark.planks.7.desc=Жалюзи из досок из адского дерева
+tile.hellbark.planks.12.desc=Строительные леса из адского дерева
+tile.hellbark.planks.14.desc=Беспорядочные доски из адского дерева
+tile.hellbark.planks.15.desc=Беспорядочные вертикальные доски из адского дерева
+
+#Jacaranda
+tile.jacaranda.planks.1.desc=Гладкие доски из жакаранды
+tile.jacaranda.planks.2.desc=Короткие доски из жакаранды
+tile.jacaranda.planks.6.desc=Изысканная композиция из досок из жакаранды
+tile.jacaranda.planks.8.desc=Панель из жакаранды
+tile.jacaranda.planks.9.desc=Двойная плита из жакаранды
+tile.jacaranda.planks.10.desc=Ящик из жакаранды
+tile.jacaranda.planks.11.desc=Изысканный ящик из жакаранды
+tile.jacaranda.planks.13.desc=Большие длинные доски из жакаранды
+tile.jacaranda.planks.3.desc=Вертикальные доски из жакаранды
+tile.jacaranda.planks.4.desc=Вертикальные неровные доски из жакаранды
+tile.jacaranda.planks.5.desc=Паркет из жакаранды
+tile.jacaranda.planks.7.desc=Жалюзи из досок из жакаранды
+tile.jacaranda.planks.12.desc=Строительные леса из жакаранды
+tile.jacaranda.planks.14.desc=Беспорядочные доски из жакаранды
+tile.jacaranda.planks.15.desc=Беспорядочные вертикальные доски из жакаранды
+
+#Mahogany
+tile.mahogany.planks.1.desc=Гладкие доски из махагониевой древесины
+tile.mahogany.planks.2.desc=Короткие доски из махагониевой древесины
+tile.mahogany.planks.6.desc=Изысканная композиция из досок из махагониевой древесины
+tile.mahogany.planks.8.desc=Панель из махагониевой древесины
+tile.mahogany.planks.9.desc=Двойная плита из махагониевой древесины
+tile.mahogany.planks.10.desc=Ящик из махагониевой древесины
+tile.mahogany.planks.11.desc=Изысканный ящик из махагониевой древесины
+tile.mahogany.planks.13.desc=Большие длинные доски из махагониевой древесины
+tile.mahogany.planks.3.desc=Вертикальные доски из махагониевой древесины
+tile.mahogany.planks.4.desc=Вертикальные неровные доски из махагониевой древесины
+tile.mahogany.planks.5.desc=Паркет из махагониевой древесины
+tile.mahogany.planks.7.desc=Жалюзи из досок из махагониевой древесины
+tile.mahogany.planks.12.desc=Строительные леса из махагониевой древесины
+tile.mahogany.planks.14.desc=Беспорядочные доски из махагониевой древесины
+tile.mahogany.planks.15.desc=Беспорядочные вертикальные доски из махагониевой древесины
+
+#Greatwood
+tile.greatwood.planks.1.desc=Гладкие доски из великого дерева
+tile.greatwood.planks.2.desc=Короткие доски из великого дерева
+tile.greatwood.planks.6.desc=Изысканная композиция из досок великого дерева
+tile.greatwood.planks.8.desc=Панель из великого дерева
+tile.greatwood.planks.9.desc=Двойная плита из великого дерева
+tile.greatwood.planks.10.desc=Ящик из великого дерева
+tile.greatwood.planks.11.desc=Изысканный ящик из великого дерева
+tile.greatwood.planks.13.desc=Большие длинные доски из великого дерева
+tile.greatwood.planks.3.desc=Вертикальные доски из великого дерева
+tile.greatwood.planks.4.desc=Вертикальные неровные доски из великого дерева
+tile.greatwood.planks.5.desc=Паркет из великого дерева
+tile.greatwood.planks.7.desc=Жалюзи из досок великого дерева
+tile.greatwood.planks.12.desc=Строительные леса из великого дерева
+tile.greatwood.planks.14.desc=Беспорядочные доски из великого дерева
+tile.greatwood.planks.15.desc=Беспорядочные вертикальные доски из великого дерева
+
+#Silverwood
+tile.silverwood.planks.1.desc=Гладкие доски из серебряного дерева
+tile.silverwood.planks.2.desc=Короткие доски из серебряного дерева
+tile.silverwood.planks.6.desc=Изысканная композиция из досок серебряного дерева
+tile.silverwood.planks.8.desc=Панель из серебряного дерева
+tile.silverwood.planks.9.desc=Двойная плита из серебряного дерева
+tile.silverwood.planks.10.desc=Ящик из серебряного дерева
+tile.silverwood.planks.11.desc=Изысканный ящик из серебряного дерева
+tile.silverwood.planks.13.desc=Большие длинные доски из серебряного дерева
+tile.silverwood.planks.3.desc=Вертикальные доски из серебряного дерева
+tile.silverwood.planks.4.desc=Вертикальные неровные доски из серебряного дерева
+tile.silverwood.planks.5.desc=Паркет из серебряного дерева
+tile.silverwood.planks.7.desc=Жалюзи из досок серебряного дерева
+tile.silverwood.planks.12.desc=Строительные леса из серебряного дерева
+tile.silverwood.planks.14.desc=Беспорядочные доски из серебряного дерева
+tile.silverwood.planks.15.desc=Беспорядочные вертикальные доски из серебряного дерева
+
+#Stained Glass
+white.bubble.desc=Белое пузырчатое стекло
+white.glass.desc=Белая стеклянная панель
+white.glass.fancy.desc=Белая красивая стеклянная панель
+white.glass.noborder.desc=Белое безграничное стекло
+white.glass.forestry.desc=Белое стекло из Forestry
+
+orange.bubble.desc=Оранжевое пузырчатое стекло
+orange.glass.desc=Оранжевая стеклянная панель
+orange.glass.fancy.desc=Оранжевая красивая стеклянная панель
+orange.glass.noborder.desc=Оранжевое безграничное стекло
+orange.glass.forestry.desc=Оранжевое стекло из Forestry
+
+magenta.bubble.desc=Пурпурное пузырчатое стекло
+magenta.glass.desc=Пурпурная стеклянная панель
+magenta.glass.fancy.desc=Пурпурная красивая стеклянная панель
+magenta.glass.noborder.desc=Пурпурное безграничное стекло
+magenta.glass.forestry.desc=Пурпурное стекло из Forestry
+
+lightblue.bubble.desc=Голубое пузырчатое стекло
+lightblue.glass.desc=Голубая стеклянная панель
+lightblue.glass.fancy.desc=Голубая красивая стеклянная панель
+lightblue.glass.noborder.desc=Голубое безграничное стекло
+lightblue.glass.forestry.desc=Голубое стекло из Forestry
+
+yellow.bubble.desc=Жёлтое пузырчатое стекло
+yellow.glass.desc=Жёлтая стеклянная панель
+yellow.glass.fancy.desc=Жёлтая красивая стеклянная панель
+yellow.glass.noborder.desc=Жёлтое безграничное стекло
+yellow.glass.forestry.desc=Жёлтое стекло из Forestry
+
+lime.bubble.desc=Лаймовое пузырчатое стекло
+lime.glass.desc=Лаймовая стеклянная панель
+lime.glass.fancy.desc=Лаймовая красивая стеклянная панель
+lime.glass.noborder.desc=Лаймовое безграничное стекло
+lime.glass.forestry.desc=Лаймовое стекло из Forestry
+
+pink.bubble.desc=Розовое пузырчатое стекло
+pink.glass.desc=Розовая стеклянная панель
+pink.glass.fancy.desc=Розовая красивая стеклянная панель
+pink.glass.noborder.desc=Розовое безграничное стекло
+pink.glass.forestry.desc=Розовое стекло из Forestry
+
+darkgray.bubble.desc=Серое пузырчатое стекло
+darkgray.glass.desc=Серая стеклянная панель
+darkgray.glass.fancy.desc=Серая красивая стеклянная панель
+darkgray.glass.noborder.desc=Серое безграничное стекло
+darkgray.glass.forestry.desc=Серое стекло из Forestry
+
+lightgray.bubble.desc=Светло-серое пузырчатое стекло
+lightgray.glass.desc=Светло-серая стеклянная панель
+lightgray.glass.fancy.desc=Светло-серая красивая стеклянная панель
+lightgray.glass.noborder.desc=Светло-серое безграничное стекло
+lightgray.glass.forestry.desc=Светло-серое стекло из Forestry
+
+cyan.bubble.desc=Бирюзовое пузырчатое стекло
+cyan.glass.desc=Бирюзовая стеклянная панель
+cyan.glass.fancy.desc=Бирюзовая красивая стеклянная панель
+cyan.glass.noborder.desc=Бирюзовое безграничное стекло
+cyan.glass.forestry.desc=Бирюзовое стекло из Forestry
+
+purple.bubble.desc=Фиолетовое пузырчатое стекло
+purple.glass.desc=Фиолетовая стеклянная панель
+purple.glass.fancy.desc=Фиолетовая красивая стеклянная панель
+purple.glass.noborder.desc=Фиолетовое безграничное стекло
+purple.glass.forestry.desc=Фиолетовое стекло из Forestry
+
+blue.bubble.desc=Синее пузырчатое стекло
+blue.glass.desc=Синяя стеклянная панель
+blue.glass.fancy.desc=Синяя красивая стеклянная панель
+blue.glass.noborder.desc=Синее безграничное стекло
+blue.glass.forestry.desc=Синее стекло из Forestry
+
+brown.bubble.desc=Коричневое пузырчатое стекло
+brown.glass.desc=Коричневая стеклянная панель
+brown.glass.fancy.desc=Коричневая красивая стеклянная панель
+brown.glass.noborder.desc=Коричневое безграничное стекло
+brown.glass.forestry.desc=Коричневое стекло из Forestry
+
+green.bubble.desc=Зелёное пузырчатое стекло
+green.glass.desc=Зелёная стеклянная панель
+green.glass.fancy.desc=Зелёная красивая стеклянная панель
+green.glass.noborder.desc=Зелёное безграничное стекло
+green.glass.forestry.desc=Зелёное стекло из Forestry
+
+red.bubble.desc=Красное пузырчатое стекло
+red.glass.desc=Красная стеклянная панель
+red.glass.fancy.desc=Красная красивая стеклянная панель
+red.glass.noborder.desc=Красное безграничное стекло
+red.glass.forestry.desc=Красное стекло из Forestry
+
+black.bubble.desc=Чёрное пузырчатое стекло
+black.glass.desc=Чёрная стеклянная панель
+black.glass.fancy.desc=Чёрная красивая стеклянная панель
+black.glass.noborder.desc=Чёрное безграничное стекло
+black.glass.forestry.desc=Чёрное стекло из Forestry
+
+#Stained Glass Pane
+white.pane.bubble.desc=Белое пузырчатое стекло
+white.pane.glass.desc=Белая стеклянная панель
+white.pane.glass.fancy.desc=Белая красивая стеклянная панель
+white.pane.glass.noborder.desc=Белое безграничное стекло
+white.pane.glass.quadrant.desc=Белая четверть стекла
+white.pane.glass.fancyquadrant.desc=Белая красивая четверть стекла
+
+orange.pane.bubble.desc=Оранжевое пузырчатое стекло
+orange.pane.glass.desc=Оранжевая стеклянная панель
+orange.pane.glass.fancy.desc=Оранжевая красивая стеклянная панель
+orange.pane.glass.noborder.desc=Оранжевое безграничное стекло
+orange.pane.glass.quadrant.desc=Оранжевая четверть стекла
+orange.pane.glass.fancyquadrant.desc=Оранжевая красивая четверть стекла
+
+magenta.pane.bubble.desc=Пурпурное пузырчатое стекло
+magenta.pane.glass.desc=Пурпурная стеклянная панель
+magenta.pane.glass.fancy.desc=Пурпурная красивая стеклянная панель
+magenta.pane.glass.noborder.desc=Пурпурное безграничное стекло
+magenta.pane.glass.quadrant.desc=Пурпурная четверть стекла
+magenta.pane.glass.fancyquadrant.desc=Пурпурная красивая четверть стекла
+
+lightblue.pane.bubble.desc=Голубое пузырчатое стекло
+lightblue.pane.glass.desc=Голубая стеклянная панель
+lightblue.pane.glass.fancy.desc=Голубая красивая стеклянная панель
+lightblue.pane.glass.noborder.desc=Голубое безграничное стекло
+lightblue.pane.glass.quadrant.desc=Голубая четверть стекла
+lightblue.pane.glass.fancyquadrant.desc=Голубая красивая четверть стекла
+
+yellow.pane.bubble.desc=Жёлтое пузырчатое стекло
+yellow.pane.glass.desc=Жёлтая стеклянная панель
+yellow.pane.glass.fancy.desc=Жёлтая красивая стеклянная панель
+yellow.pane.glass.noborder.desc=Жёлтое безграничное стекло
+yellow.pane.glass.quadrant.desc=Жёлтая четверть стекла
+yellow.pane.glass.fancyquadrant.desc=Жёлтая красивая четверть стекла
+
+lime.pane.bubble.desc=Лаймовое пузырчатое стекло
+lime.pane.glass.desc=Лаймовая стеклянная панель
+lime.pane.glass.fancy.desc=Лаймовая красивая стеклянная панель
+lime.pane.glass.noborder.desc=Лаймовое безграничное стекло
+lime.pane.glass.quadrant.desc=Лаймовая четверть стекла
+lime.pane.glass.fancyquadrant.desc=Лаймовая красивая четверть стекла
+
+pink.pane.bubble.desc=Розовое пузырчатое стекло
+pink.pane.glass.desc=Розовая стеклянная панель
+pink.pane.glass.fancy.desc=Розовая красивая стеклянная панель
+pink.pane.glass.noborder.desc=Розовое безграничное стекло
+pink.pane.glass.quadrant.desc=Розовая четверть стекла
+pink.pane.glass.fancyquadrant.desc=Розовая красивая четверть стекла
+
+darkgray.pane.bubble.desc=Серое пузырчатое стекло
+darkgray.pane.glass.desc=Серая стеклянная панель
+darkgray.pane.glass.fancy.desc=Серая красивая стеклянная панель
+darkgray.pane.glass.noborder.desc=Серое безграничное стекло
+darkgray.pane.glass.quadrant.desc=Серая четверть стекла
+darkgray.pane.glass.fancyquadrant.desc=Серая красивая четверть стекла
+
+lightgray.pane.bubble.desc=Светло-серое пузырчатое стекло
+lightgray.pane.glass.desc=Светло-серая стеклянная панель
+lightgray.pane.glass.fancy.desc=Светло-серая красивая стеклянная панель
+lightgray.pane.glass.noborder.desc=Светло-серое безграничное стекло
+lightgray.pane.glass.quadrant.desc=Светло-серая четверть стекла
+lightgray.pane.glass.fancyquadrant.desc=Светло-серая красивая четверть стекла
+
+cyan.pane.bubble.desc=Бирюзовое пузырчатое стекло
+cyan.pane.glass.desc=Бирюзовая стеклянная панель
+cyan.pane.glass.fancy.desc=Бирюзовая красивая стеклянная панель
+cyan.pane.glass.noborder.desc=Бирюзовое безграничное стекло
+cyan.pane.glass.quadrant.desc=Бирюзовая четверть стекла
+cyan.pane.glass.fancyquadrant.desc=Бирюзовая красивая четверть стекла
+
+purple.pane.bubble.desc=Фиолетовое пузырчатое стекло
+purple.pane.glass.desc=Фиолетовая стеклянная панель
+purple.pane.glass.fancy.desc=Фиолетовая красивая стеклянная панель
+purple.pane.glass.noborder.desc=Фиолетовое безграничное стекло
+purple.pane.glass.quadrant.desc=Фиолетовая четверть стекла
+purple.pane.glass.fancyquadrant.desc=Фиолетовая красивая четверть стекла
+
+blue.pane.bubble.desc=Синее пузырчатое стекло
+blue.pane.glass.desc=Синяя стеклянная панель
+blue.pane.glass.fancy.desc=Синяя красивая стеклянная панель
+blue.pane.glass.noborder.desc=Синее безграничное стекло
+blue.pane.glass.quadrant.desc=Синяя четверть стекла
+blue.pane.glass.fancyquadrant.desc=Синяя красивая четверть стекла
+
+brown.pane.bubble.desc=Коричневое пузырчатое стекло
+brown.pane.glass.desc=Коричневая стеклянная панель
+brown.pane.glass.fancy.desc=Коричневая красивая стеклянная панель
+brown.pane.glass.noborder.desc=Коричневое безграничное стекло
+brown.pane.glass.quadrant.desc=Коричневая четверть стекла
+brown.pane.glass.fancyquadrant.desc=Коричневая красивая четверть стекла
+
+green.pane.bubble.desc=Зелёное пузырчатое стекло
+green.pane.glass.desc=Зелёная стеклянная панель
+green.pane.glass.fancy.desc=Зелёная красивая стеклянная панель
+green.pane.glass.noborder.desc=Зелёное безграничное стекло
+green.pane.glass.quadrant.desc=Зелёная четверть стекла
+green.pane.glass.fancyquadrant.desc=Зелёная красивая четверть стекла
+
+red.pane.bubble.desc=Красное пузырчатое стекло
+red.pane.glass.desc=Красная стеклянная панель
+red.pane.glass.fancy.desc=Красная красивая стеклянная панель
+red.pane.glass.noborder.desc=Красное безграничное стекло
+red.pane.glass.quadrant.desc=Красная четверть стекла
+red.pane.glass.fancyquadrant.desc=Красная красивая четверть стекла
+
+black.pane.bubble.desc=Чёрное пузырчатое стекло
+black.pane.glass.desc=Чёрная стеклянная панель
+black.pane.glass.fancy.desc=Чёрная красивая стеклянная панель
+black.pane.glass.noborder.desc=Чёрное безграничное стекло
+black.pane.glass.quadrant.desc=Чёрная четверть стекла
+black.pane.glass.fancyquadrant.desc=Чёрная красивая четверть стекла
+
+#Creative Tab localizations
+itemGroup.tabOtherChiselBlocks=Chisel: Остальные блоки
+itemGroup.tabStoneChiselBlocks=Chisel: Каменные блоки
+itemGroup.tabWoodChiselBlocks=Chisel: Деревянные блоки
+itemGroup.tabMetalChiselBlocks=Chisel: Металлические блоки
+itemGroup.tabModdedChiselBlocks=Chisel: Блоки модификаций
+itemGroup.tabStairChiselBlocks=Chisel: Ступеньки
+itemGroup.tabChisel=Chisel: Предметы
+
+#Container
+container.chisel=Стамеска
+container.chisel.title=Обработка блоков
+container.chisel.titleShort=Обработка
+container.chisel.mode=Режим:
+container.chisel.mode.single=Одиночный
+container.chisel.mode.panel=Панель
+container.chisel.mode.column=Колонна
+container.chisel.mode.row=Ряд
+
+#cubits
+tile.chisel.cubit.name=Кубиты
+tile.cubit.0.desc=Кубит (0)
+tile.cubit.1.desc=Кубит (1)
+tile.cubit.2.desc=Кубит (2)
+tile.cubit.3.desc=Кубит (3)
+tile.cubit.4.desc=Кубит (4)
+tile.cubit.5.desc=Кубит (5)
+tile.cubit.6.desc=Кубит (6)
+tile.cubit.7.desc=Кубит (7)
+tile.cubit.8.desc=Кубит (8)
+tile.cubit.9.desc=Кубит (9)
+tile.cubit.10.desc=Кубит (10)
+tile.cubit.11.desc=Кубит (11)
+tile.cubit.12.desc=Кубит (12)
+tile.cubit.13.desc=Кубит (13)
+tile.cubit.14.desc=Кубит (14)
+tile.cubit.15.desc=Кубит (15)
+
+#Hempcrete
+tile.chisel.hempcrete.name=Костробетон
+tile.hempcrete.0.desc=Белый
+tile.hempcrete.1.desc=Оранжевый
+tile.hempcrete.2.desc=Пурпурный
+tile.hempcrete.3.desc=Голубой
+tile.hempcrete.4.desc=Жёлтый
+tile.hempcrete.5.desc=Светло-зелёный
+tile.hempcrete.6.desc=Розовый
+tile.hempcrete.7.desc=Серый
+tile.hempcrete.8.desc=Светло-серый
+tile.hempcrete.9.desc=Бирюзовый
+tile.hempcrete.10.desc=Фиолетовый
+tile.hempcrete.11.desc=Синий
+tile.hempcrete.12.desc=Коричневый
+tile.hempcrete.13.desc=Зелёный
+tile.hempcrete.14.desc=Красный
+tile.hempcrete.15.desc=Чёрный
+
+#hempcreteSand
+tile.chisel.hempcretesand.name=Порошок костробетона
+tile.hempcretesand.0.desc=Белый
+tile.hempcretesand.1.desc=Оранжевый
+tile.hempcretesand.2.desc=Пурпурный
+tile.hempcretesand.3.desc=Голубой
+tile.hempcretesand.4.desc=Жёлтый
+tile.hempcretesand.5.desc=Светло-зелёный
+tile.hempcretesand.6.desc=Розовый
+tile.hempcretesand.7.desc=Серый
+tile.hempcretesand.8.desc=Светло-серый
+tile.hempcretesand.9.desc=Бирюзовый
+tile.hempcretesand.10.desc=Фиолетовый
+tile.hempcretesand.11.desc=Синий
+tile.hempcretesand.12.desc=Коричневый
+tile.hempcretesand.13.desc=Зелёный
+tile.hempcretesand.14.desc=Красный
+tile.hempcretesand.15.desc=Чёрный
+
+#Sveltsone
+tile.chisel.sveltstone.name=Блок свелстоуна
+tile.sveltstone.0.desc=Серебрнный песок
+tile.sveltstone.1.desc=Песчаная дюна
+tile.sveltstone.2.desc=Темно-серый
+tile.sveltstone.3.desc=Флинт
+tile.sveltstone.4.desc=Серо-коричневый
+tile.sveltstone.5.desc=Табачно-коричневый
+tile.sveltstone.6.desc=Боулдер
+tile.sveltstone.7.desc=Оливковая дымка
+tile.sveltstone.8.desc=Бледные устрицы
+tile.sveltstone.9.desc=Болиголов
+tile.sveltstone.10.desc=Стрелковый зелёный
+tile.sveltstone.11.desc=Эверглейд
+tile.sveltstone.12.desc=Балтийское море
+tile.sveltstone.13.desc=космическое пространство
+tile.sveltstone.14.desc=Оружейный металл
+tile.sveltstone.15.desc=Маттерхорн
+
+#NUCRETE
+tile.chisel.nucrete.name=Структурный бетон
+tile.nucrete.0.desc=Тёмные бетонные перегородки
+tile.nucrete.1.desc=Тёмная бетонная панель
+tile.nucrete.2.desc=Тёмная бетонная панель 2
+tile.nucrete.3.desc=Гладкий тёмный бетон
+tile.nucrete.4.desc=Тёмная бетонная плитка
+tile.nucrete.5.desc=Тёмная бетонная полоса
+tile.nucrete.6.desc=Тёмная бетонная предупреждающая лента
+tile.nucrete.7.desc=Тёмная бетонная плитка
+tile.nucrete.8.desc=Воздушные блоки из светлого бетона
+tile.nucrete.9.desc=Светлая бетонная панель
+tile.nucrete.10.desc=Светлая бетонная панель 2
+tile.nucrete.11.desc=Гладкий светлый бетон
+tile.nucrete.12.desc=Светлая бетонная плитка
+tile.nucrete.13.desc=Светлая бетонная полоса
+tile.nucrete.14.desc=Светлая бетонная предупреждающая лента
+tile.nucrete.15.desc=Светлая бетонная плитка
+
+#Neonite
+tile.chisel.neonite.name=Неонит
+tile.neonite.0.desc=Атомный мандарин
+tile.neonite.1.desc=Манго с шафраном
+tile.neonite.2.desc=Золотое свечение
+tile.neonite.3.desc=Оазис
+tile.neonite.4.desc=Пикси Грин
+tile.neonite.5.desc=Свежий зелёный
+tile.neonite.6.desc=Зелёные джунгли
+tile.neonite.7.desc=Маринер
+tile.neonite.8.desc=Конгресс-Блю
+tile.neonite.9.desc=Глубокий сапфир
+tile.neonite.10.desc=Глубокая бухта
+tile.neonite.11.desc=Метеорит
+tile.neonite.12.desc=Эминенс
+tile.neonite.13.desc=Теплый фиолетовый
+tile.neonite.14.desc=Малиново-розовый
+tile.neonite.15.desc=Арбузно-розовый
+
+#Glotek
+tile.chisel.glotek.name=ГлоТек
+tile.glotek.0.desc=Керамика
+tile.glotek.1.desc=Сэндвисп
+tile.glotek.2.desc=Пасхальный зеленый
+tile.glotek.3.desc=Драконий зеленый
+tile.glotek.4.desc=Зелёный чай
+tile.glotek.5.desc=Зелёная Дымка
+tile.glotek.6.desc=Бензин
+tile.glotek.7.desc=Каталина Блю
+tile.glotek.8.desc=Синий драгоценный камень
+tile.glotek.9.desc=Королевский пурпур
+tile.glotek.10.desc=Темно-пурпурный
+tile.glotek.11.desc=Кизиловая роза
+tile.glotek.12.desc=Клюква
+tile.glotek.13.desc=Бринк розовый
+tile.glotek.14.desc=Тёмный лосось
+tile.glotek.15.desc=Соберите Золото
+
+#Froglight
+tile.chisel.froglight.name=Лягушачий свет
+tile.froglight.0.desc=Алюминий
+tile.froglight.1.desc=Титан
+tile.froglight.2.desc=Вольфрамовая сталь
+tile.froglight.3.desc=Осмий
+tile.froglight.4.desc=Флюсованный
+tile.froglight.5.desc=Уран
+tile.froglight.6.desc=Гирисиум
+tile.froglight.7.desc=Орундум
+tile.froglight.8.desc=Окровавленный
+tile.froglight.9.desc=Ихор
+
+#Lanterns
+tile.chisel.lantern.name=Фонарь
+tile.lantern.0.desc=Обычный
+tile.lantern.1.desc=Светящийся
+tile.lantern.2.desc=С редстоун сигналом
+tile.lantern.3.desc=Душевный
+tile.lantern.4.desc=Проклятый
+tile.lantern.5.desc=Эндер
+
+#Sheetmetal
+tile.chisel.sheetmetal.name=Блок листового металла
+tile.sheetmetal.0.desc=Возведённая стена
+tile.sheetmetal.1.desc=Сайдинг
+tile.sheetmetal.2.desc=Панели
+tile.sheetmetal.3.desc=Покрытие
+tile.sheetmetal.4.desc=Выступающая
+tile.sheetmetal.5.desc=Возведённая стена (Rusty)
+tile.sheetmetal.6.desc=Сайдинг (Rusty)
+tile.sheetmetal.7.desc=Панели (Rusty)
+tile.sheetmetal.8.desc=Покрытие (Rusty)
+tile.sheetmetal.9.desc=Выступающая (Rusty)
+
+#Moss
+tile.chisel.moss.name=Мох
+tile.moss.0.desc=Пышный
+tile.moss.1.desc=Тусклый
+tile.moss.2.desc=Тёмный
+tile.moss.3.desc=Сухой
+tile.moss.4.desc=Золотой
+tile.moss.5.desc=Обогащенный
+tile.moss.6.desc=Мутировавший
+tile.moss.7.desc=Выжженный
+tile.moss.8.desc=Яркий
+tile.moss.9.desc=Торфяной
+tile.moss.10.desc=Розовый сфагнум
+
+#Metals2
+tile.chisel.cobaltblock.name=Кобальтовый блок
+tile.chisel.invarblock.name=Инваровый блок
+tile.chisel.electrumblock.name=Блок электрума
+tile.chisel.nickelblock.name=Никелевый блок
+tile.chisel.platinumblock.name=Платиновый блок
+tile.chisel.wroughtironblock.name=Блок кованого железа
+tile.chisel.stainlesssteelblock.name=Блок нержавеющей стали
+tile.chisel.titaniumblock.name=Титановый блок
+tile.chisel.tungstensteelblock.name=Блок вольфрамовой стали
+tile.chisel.rppblock.name=Блок родированного палладия
+tile.chisel.iridiumblock.name=Иридиевые блок
+tile.chisel.osmiumblock.name=Осмиевый блок
+tile.numetalOre.0.desc=Огранённый
+tile.numetalOre.1.desc=Заклёпочный корпус
+tile.numetalOre.2.desc=Предупреждающие полосы
+tile.numetalOre.3.desc=Ящик доставки
+tile.numetalOre.4.desc=Машинный блок
+tile.numetalOre.5.desc=Строительные леса
+tile.numetalOre.6.desc=Thermal
+
+
+tile.newmetalOre.0.desc=Машинный блок
+tile.newmetalOre.1.desc=По современному огранённый
+tile.newetalOre.2.desc=Заклёпочный корпус
+tile.newetalOre.3.desc=Предупреждающие полосы
+tile.newetalOre.4.desc=Ящик доставки
+tile.newetalOre.5.desc=Огранённый
+tile.newetalOre.6.desc=Строительные леса
+tile.newetalOre.7.desc=Thermal
+
+
+tile.chisel.amber.name=Янтарный блок
+tile.chisel.bloodBrick.name=Кровавый кирпич
