@@ -35,7 +35,7 @@ jobs:
     outputs:
       found_update: ${{ steps.sync-from-paratranz.outputs.found_update }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with:
           ref: master
       - name: Get project ID
@@ -71,7 +71,7 @@ jobs:
     needs: sync-from-paratranz
     if: ${{ needs.sync-from-paratranz.outputs.found_update == 'true' }}
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with:
           ref: master
       - name: Get current date
@@ -94,7 +94,7 @@ jobs:
         run: python .github/scripts/pack.py ${{ inputs.target_lang }}
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: GTNH-${{ inputs.target_lang }}-Translation-Daily-${{ steps.date.outputs.today }}
           path: ./temp/
