@@ -23,7 +23,7 @@ def line_break_subst(context: Optional[str], translation: str) -> str:
     norm_to_entry = ctx_line[len(LINE_BREAK_CONTEXT_PREFIX):]
     if norm_to_entry == LINE_BREAK_CONTEXT_NOOP: return translation
     if norm_to_entry not in LINE_BREAK_CONTEXT_DECODE_MAP:
-      logger.warn(f"Not recognized for line break: {norm_to_entry}")
+      logger.warning(f"Not recognized for line break: {norm_to_entry}")
       return translation
     norm_to = LINE_BREAK_CONTEXT_DECODE_MAP[norm_to_entry]
     return re.sub(r'\r?\n', norm_to, translation)
