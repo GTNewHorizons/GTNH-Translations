@@ -1,0 +1,74 @@
+#Items
+item.wirelessCraftingTerminal.name=Беспроводной терминал создания
+item.infinityBoosterCard.name=Бесконечная карта усиления
+item.magnetCard.name=Магнитная карта
+itemGroup.ae2wct=§9AE2 Wireless Crafting Terminal
+
+#Tooltips
+gui.tooltips.ae2wct.PressShift=Удерживайте Shift для информации
+gui.tooltips.ae2wct.OnlyWorks=Работает только, когда в слоте беспроводного терминала создания!
+gui.tooltips.ae2wct.TitleDesc=Описание
+gui.tooltips.ae2wct.InfinityBoosterDesc=Позволяет использовать привязанный беспроводной терминал создания на любом растоянии и через разные измерения.
+gui.tooltips.ae2wct.MagnetDesc=Магнит, который автомагически вставляет предметы в АЕ систему.
+gui.tooltips.ae2wct.MagnetDesc2=ПКМ, чтобы установить фильтр
+gui.tooltips.ae2wct.LinkStatus=Статус привязки
+gui.tooltips.ae2wct.Installed=Установлено
+gui.tooltips.ae2wct.NotInstalled=Не установлено
+gui.tooltips.ae2wct.Active=Активен
+gui.tooltips.ae2wct.Inactive=Неактивен
+gui.tooltips.ae2wct.Status=Статус
+gui.tooltips.ae2wct.EmptyTrash=Опустошить мусорку
+gui.tooltips.ae2wct.EmptyTrashDesc=Удалить содержимое слота для мусора
+gui.tooltips.ae2wct.MagnetFilterTitle=Фильтр магнита
+gui.tooltips.ae2wct.FilterMode=Режим фильтра
+gui.tooltips.ae2wct.Whitelisting=Белый список
+gui.tooltips.ae2wct.Blacklisting=Чёрный список
+gui.tooltips.ae2wct.MagnetActiveDesc1=Лишние предметы добавлены в инвентарь
+gui.tooltips.ae2wct.MagnetActiveDesc2=Лишние предметы оставлены на земле
+gui.tooltips.ae2wct.Not=Нет
+gui.tooltips.ae2wct.Using=Используя
+gui.tooltips.ae2wct.Ignore=Игнорировать
+gui.tooltips.ae2wct.Ignoring=Игнорируя
+gui.tooltips.ae2wct.NBTData=NBT данные
+gui.tooltips.ae2wct.MetaData=Метаданные
+gui.tooltips.ae2wct.OreDict=Словарь руд
+gui.tooltips.ae2wct.FilteredItems=Отфильтрованные предметы
+gui.tooltips.ae2wct.OrPress=или нажмите
+gui.tooltips.ae2wct.Press=Нажмите
+gui.tooltips.ae2wct.ToSwitchMode=чтобы переключить режим магнита
+
+#Labels
+gui.labels.ae2wct.WirelessTermLabel=Беспроводной терминал
+
+#Config Descriptions
+config.ae2wct.MaxPowerDesc=Максимальное количество энергии в единицах AE, которое может хранить беспроводной терминал
+config.ae2wct.InfinityBoosterCfgDesc=Включить улучшение бесконечного усилителя дальности
+config.ae2wct.EasyModeDesc=Включить лёгкий режим (легче рецепты+рецепт бесконечного усилителя)
+config.ae2wct.BoosterDropChance=Шанс, что из визера выпадет бесконечная карта усиления (в %-100=всегда выпадет)
+config.ae2wct.DisableBoosterDrop=Включить выпадение карты усиления в сложном режиме (true=включено)
+config.ae2wct.MineTweakerOverride=Включить переопределение MineTweaker (true=отключает все рецепты)
+config.ae2wct.DoVersionCheck=Проверка обновлений
+config.ae2wct.NewVersionAvailable=Доступна новая версия Wireless Crafting Terminal!
+config.ae2wct.ClickString=["Нажмите здесь, чтобы перейти на страницу загрузки [",{"text":"Скачать","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Нажмите это, чтобы скачать последнюю версию","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
+config.ae2wct.SaveSearchString=Сохранять строку поиска терминала между сеансами
+
+#Achievements
+achievement.wctAchievement=Цифровое создание через WiFi
+achievement.wctAchievement.desc=Создать беспроводной терминал создания
+achievement.boosterAchievement=Межпространственный мешок создания
+achievement.boosterAchievement.desc=Получите бесконечную карту усиления
+achievement.magnetAchievement=Цифровой пылесос
+achievement.magnetAchievement.desc=Создать магнитную карту
+
+#Chat Messages
+chatmessages.ae2wct.NoNetworkPower=В системе нет энергии!
+chatmessages.ae2wct.MagnetMode1=Магнитная карта деактивирована
+chatmessages.ae2wct.MagnetMode2=Магнитная карта активирована - предметы, не хранящиеся в АЕ системе, будут помещены в инвентарь
+chatmessages.ae2wct.MagnetMode3=Магнитная карта активирована - предметы, не хранящиеся в АЕ системе, останутся на земле
+chatmessages.ae2wct.InitializeMagnet=Прежде чем использовать привязанную клавишу, вы должны сначала щелкнуть ПКМ, держа магнитную карту в руке!
+
+#Keybindings
+ae2wct.OpenTerminal=Открыть беспроводной терминал создания
+ae2wct.OpenMagnetFilter=Открыть интерфейс фильтра магнитной карты
+ae2wct.SwitchMagnetMode=Активировать/деактивировать магнитную карту
+key.categories.ae2wct=Wireless Crafting Terminal

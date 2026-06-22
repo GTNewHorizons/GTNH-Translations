@@ -1,0 +1,79 @@
+openmodslib.command.no_enough_args=Недостаточно аргументов
+openmodslib.command.unknown_modid=Неизвестный id модификации
+openmodslib.command.unknown_value=Неизвестное значение конфигурации
+openmodslib.command.saved=Конфигурация сохранена в %s
+openmodslib.command.not_multiple=Это свойство не принимает множественные значения
+openmodslib.command.online_change=Свойство конфигурации сохранено. Используется новое значение.
+openmodslib.command.offline_change=Свойство конфигурации сохранено. Новое значение применится после рестарта
+openmodslib.command.cancelled=Изменение конфигурации отменено!
+openmodslib.command.unknown_error=Неизвестная ошибка во время изменения свойства конфигурации: %s
+openmodslib.command.invalid_command=Неизвестная команда '%s'
+openmodslib.command.invalid_type=Нельзя изменить значение с %s на %s
+openmodslib.command.invalid_class_name=Неверное название класса %s
+openmodslib.command.unknown_error_details=Неизвестная ошибка. Пожалуйста проверьте журнал для подробной информации.
+openmodslib.command.class_source=Класс '%s' загружен из '%s'
+openmodslib.command.api_class=Информация об API: name
+openmodslib.command.class_provider=Класс предоставленный файлом %s (моды: %s)
+
+openmodslib.command.calc_set=Значение %s установлено на %s
+openmodslib.command.calc_no_type=Укажите новый тип калькулятора
+openmodslib.command.calc_no_name=Пожалуйста, укажите название калькулятора
+openmodslib.command.calc_invalid_name=Неверное имя калькулятора
+openmodslib.command.calc_invalid_type=Неверный тип калькулятора. Разрешенные типы: %s
+openmodslib.command.calc_invalid_mode=Неверный режим калькулятора. Разрешенные режимы: %s
+openmodslib.command.calc_no_key=Пожалуйста, укажите название объекта размещения
+openmodslib.command.calc_no_value=Укажите новое значение свойства
+openmodslib.command.calc_invalid_key=Неверное имя свойства
+openmodslib.command.calc_cant_set=Не удалось установить свойство
+openmodslib.command.calc_function_defined=Определенная функция %s
+openmodslib.command.calc_error=Не удалось выполнить: '%s'
+openmodslib.command.calc_syntax_error_path=Не удалось проанализировать команду '%s': 
+openmodslib.command.calc_runtime_error_path=Не удалось выполнить команду '%s': 
+openmodslib.command.calc_stack_underflow=Переполнение стека калькулятора
+openmodslib.command.calc_after_push=Вставлен калькулятор, размер стака: %s
+openmodslib.command.calc_after_pop=Вытащенный калькулятор, размер стака: %s
+openmodslib.command.calc_stack_size=Размеры Стака: %s
+openmodslib.command.calc_extra_args=В команде остались необработанные аргументы: %s
+openmodslib.command.calc_invalid_number='%s' недопустимый номер
+openmodslib.command.no_subcommand=Не удалось найти подкоманду: %s
+openmodslib.command.no_subcommands=Команда не имеет подкоманд
+openmodslib.command.not_enough_arguments=Недостаточно аргументов.
+openmodslib.command.calc_executed_count=Выполнено %d команд
+openmodslib.command.calc_not_child=Путь %s не является дочерним для %s
+openmodslib.command.calc_not_file=Путь %s не является допустимым файлом
+
+openmodslib.key.category=OpenMods
+openmodslib.key.calc=Открыть калькулятор
+
+openmodslib.color.black=Чёрный
+openmodslib.color.red=Красный
+openmodslib.color.green=Зелёный
+openmodslib.color.brown=Коричневый
+openmodslib.color.blue=Синий
+openmodslib.color.purple=Фиолетовый
+openmodslib.color.cyan=Бирюзовый
+openmodslib.color.lightGray=Светло-серый
+openmodslib.color.gray=Серый
+openmodslib.color.pink=Розовый
+openmodslib.color.lime=Лаймовый
+openmodslib.color.yellow=Жёлтый
+openmodslib.color.lightBlue=Голубой
+openmodslib.color.magenta=Пурпурный
+openmodslib.color.orange=Оранжевый
+openmodslib.color.white=Белый
+
+openmodslib.gui.watch_video=Посмотреть видео
+
+openmodslib.locale.book.scale.pageNumber=0.5
+openmodslib.locale.book.scale.sectionTitle=2.0
+openmodslib.locale.book.scale.pageTitle=1.0
+openmodslib.locale.book.scale.pageContent=0.5
+
+openmodslib.locale.book.lineSpace.titledPage=2
+openmodslib.locale.book.lineSpace.recipePage=4
+
+openmodslib.config.features=Включить/отключить функции
+openmodslib.config.features.blocks=Включить/отключить блоки
+openmodslib.config.features.items=Включить/отключить предметы
+openmodslib.config.config=Специальная конфигурация мода
+openmodslib.config.update_warning=§c§lПримечание:§r чтобы изменить конфигурацию во время выполнения, используйте команды §l/om_config_s§r или §l/om_config_m§r

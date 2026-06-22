@@ -1,0 +1,146 @@
+
+# << creative tab name >>
+itemGroup.warptheory.tab=Warp Theory
+
+# << chat item effects >>
+chat.warptheory.purgeminor=Вы чувствуете себя немного лучше
+chat.warptheory.purge=У вас плохое предчувствие по этому поводу...
+chat.warptheory.purgefail=Ничего особенного не происходит
+chat.warptheory.purgefailed=Похоже, это не сработало
+chat.warptheory.addwarp=Такое ощущение, будто в вас проскользнуло что-то странное...
+chat.warptheory.minorwarp=Нет реакции
+chat.warptheory.averagewarp=Бумага приобретает неприятный цвет
+chat.warptheory.majorwarp=Бумага рассыпается в пыль
+chat.warptheory.deadlywarp=Бумага загорается
+chat.warptheory.permanentwarp=Постоянное искажение
+chat.warptheory.normalwarp=Нормальное искажение
+chat.warptheory.tempwarp=Временное искажение
+chat.warptheory.potionwarning.1=§c§l§nВНИМАНИЕ§r§c: употребление этого зелья сбросит §lВСЕ искажения, исследования, отсканированные предметы и открытые аспекты§r§c!
+chat.warptheory.potionwarning.2=§cПродолжайте пить в течение §l10 секунд§r§c, если вы абсолютно уверены, что хотите сбросить всё.
+
+# << Item names >>
+item.warptheory.cleanserminor.name=Нечистая слеза
+item.warptheory.cleanser.name=Чистая слеза
+item.warptheory.amulet.name=Талисман очищения
+item.warptheory.something.name=Кусок мяса
+item.warptheory.paper.name=Магическая лакмусовая бумажка
+item.warptheory.oblivionpotion.name=Зелье блаженного забвения
+
+# << entity names >>
+entity.WarpTheory.taintSheepSafe.name=Заражённая овца
+entity.WarpTheory.creeperFake.name=Поддельный крипер
+entity.WarpTheory.creeperPassive.name=Пассивный крипер
+entity.WarpTheory.doppelganger.name=Двойник
+entity.WarpTheory.phantom.name=Фантом
+
+# << tooltips >>
+tooltip.warptheory.cleanserminor=Чего-то не хватает...
+tooltip.warptheory.cleanser=Хрустящий
+tooltip.warptheory.amulet=Очищает искажение
+tooltip.warptheory.something=Возможно, съедобно...
+tooltip.warptheory.paper=Реагирует на искажение
+tooltip.warptheory.portableshower=Смывай с себя грязь
+tooltip.warptheory.oblivionpotion=§c§l§nПлан действий на крайний случай§r
+
+# << portable shower >>
+tc.research_name.warptheory.portableshower=Портативный душ
+tc.research_text.warptheory.portableshower=Более приземленный способ очистить свой разум
+research.warptheory.portableshower=Вы поняли, что даже в своей любимой броне всё ещё чувствуете себя не в своей тарелке. После долгих размышлений и поисков решения, во время работы над вашим спа вас вдруг осенило: "Почему бы просто не купаться постоянно, чтобы всегда чувствовать свежесть?". Итак, вы создали этот простой амулет, который создаёт волшебную воду для спа, используя природную эссенцию и немного вис из окружающей среды.
+
+# << hunk of something >>
+tc.research_name.warptheory.something=Кусок мяса
+tc.research_text.warptheory.something=Определенно не приятное
+research.warptheory.warpsomething=Совершенно случайно вы поняли, что многие простые виды мяса можно превратить во что-то другое, если на них воздействовать сверхъестественной энергией. Наверное... не стоит слишком внимательно смотреть на результат.
+
+# << Impure tear >>
+tc.research_name.warptheory.cleanserminor=Нечистая слеза
+tc.research_text.warptheory.cleanserminor=Магическое лекарство
+research.warptheory.warpcleanserminor=Вы достаточно долго имеете дело с искажением, пора попытаться найти способ избавиться от него. Вы решаете попробовать смешать несколько найденных предметов очищающего типа.<BR>Вам это удалось, но эффект работает только тогда, когда у вас их достаточно, поэтому избавиться от всего этого невозможно. Но, по крайней мере, вы можете избежать худших последствий, в отличие от Боба, который взорвал свою базу. Бедный Боб. (Чтобы он работал, вам нужно 50+ деформации, и он удаляет 5 искажений)<BR>Вы подозреваете, что если бы у вас были материалы получше, вы могли бы сделать лучшую версию.
+
+# << pure tear >>
+tc.research_name.warptheory.cleanser=Чистая слеза
+tc.research_text.warptheory.cleanser=Магическая медицина
+research.warptheory.warpcleanser=Объединив целебные свойства Слёз Гаста, магическую энергию Salis Mundus и стабилизирующие свойства кристаллов, вы открыли способ очистки тела от негативной магической энергии.<BR>Однако не без недостатков, поскольку вся эта энергия должна куда-то идти.
+
+# << purification talisman >>
+tc.research_name.warptheory.amulet=Талисман очищения
+tc.research_text.warptheory.amulet=Больше, чем просто талисман на удачу
+research.warptheory.amulet=Вы открыли процесс, с помощью которого очищающие свойства Чистых слез можно направлять с течением времени без необходимого расстройства желудка, которое они вызывают.<BR>Просто поместив две слезы в амулет и наполнив его определенной магией создаётся аксессуар, который непрерывно выкачивает негативную магическую энергию в окружающую среду.
+
+# << litmus paper >>
+tc.research_name.warptheory.paper=Магическая лакмусовая бумажка
+tc.research_text.warptheory.paper=Почти научный
+research.warptheory.paper=Вы решили, что вам нужно что-то более точное, чем подсчёт странных событий, происходящих вокруг вас, чтобы измерить накопление негативной магической энергии в вашем теле.<BR>Пропитав бумагу Salis Mundus и сущность воды, вы создали средство, позволяющее узнать, какой опасности вы подвергаете себя.
+
+# << Oblivion Potion >>
+tc.research_name.warptheory.oblivionpotion=Зелье блаженного забвения
+tc.research_text.warptheory.oblivionpotion=Откупорить в случае чрезвычайной ситуации
+research.warptheory.oblivionpotion.1=Знание - это сила, но некоторые говорят, что неведение - блаженство. Если вы окажетесь в настоящем тупике, а ваш разум будет отягощен искажением сверх меры, у вас есть последний запасной вариант: Зелье блаженного забвения.<BR>Выпив этот состав, вы полностью очиститесь от искажения. Однако такой покой достигается страшной ценой: вы потеряете все свои знания об исследованиях, каждый объект, отсканированный таумометром, и каждый аспект, который вы открыли.
+research.warptheory.oblivionpotion.2=Эта потеря абсолютна и необратима. Вы будете вынуждены начать свой путь познания с самого начала. Хотя могут существовать более изощренные методы очищения разума, это зелье остается отчаянным, но надежным последним средством.
+
+# << chat warp effects >>
+chat.warptheory.bats=Звуки взмахов крыльев наполняют воздух...
+chat.warptheory.blink=Вы внезапно чувствуете дезориентацию...
+chat.warptheory.poison=Ваши вены загораются...
+chat.warptheory.nausea=Вас тошнит...
+chat.warptheory.jump=Вы чувствуете себя намного легче...
+chat.warptheory.blind=Все темнеет...
+chat.warptheory.biomeDecay=Вы чувствуете себя намного старше...
+chat.warptheory.ears=Ваши уши начинают звенеть...
+chat.warptheory.biomeSwamp=Вы чувствуете себя обновленным...
+chat.warptheory.tongue=Ваш язык немеет...
+chat.warptheory.friend=Вы чувствуете себя немного одиноко...
+chat.warptheory.livestock=Вы чувствуете себя немного голодным...
+chat.warptheory.wind=Поднимается странный ветер...
+chat.warptheory.chests=Холод пробежал по спине...
+chat.warptheory.blood=Вы чувствуете какой-то интуитивный запах...
+chat.warptheory.acceleration=Что-то кажется быстрее...
+chat.warptheory.lightning=У тебя волосы встают дыбом...
+chat.warptheory.fall=Внезапно вы почувствуете головокружение...
+chat.warptheory.rain=Вы слышите гул вдалеке...
+chat.warptheory.wither=Вас охватывает страх...
+
+# << GTNH new warp effects >>
+chat.warptheory.blazefireball=Вы чувствуете жгучую боль в горле
+chat.warptheory.coin=Вы заметили у своих ног что-то блестящее!
+chat.warptheory.countdownbomb.10=10
+chat.warptheory.countdownbomb.9=9
+chat.warptheory.countdownbomb.8=8
+chat.warptheory.countdownbomb.7=7
+chat.warptheory.countdownbomb.6=6
+chat.warptheory.countdownbomb.5=5
+chat.warptheory.countdownbomb.4=4
+chat.warptheory.countdownbomb.3=3
+chat.warptheory.countdownbomb.2=2
+chat.warptheory.countdownbomb.1=1
+chat.warptheory.countdownbomb.0=БУМ!
+chat.warptheory.doppelganger=Вы чувствуете себя вне себя...
+chat.warptheory.doppelganger.name=%s Двойник
+chat.warptheory.doppelganger.heal=Вы чувствуете, что ваш двойник помогает вам
+chat.warptheory.doppelganger.hurt=Вы чувствуете, как ваш двойник кричит
+chat.warptheory.doppelganger.die=Вы чувствуете, как ваш двойник исчезает
+chat.warptheory.enderpearl=Вы кашляете что-то странное
+chat.warptheory.endermen=Они здесь! Бегать!
+chat.warptheory.firebats=Звуки взмахов крыльев наполняют воздух...
+chat.warptheory.insomnia=Вы чувствуете себя бодрствующим
+chat.warptheory.insomnia.wakeup=Ты не можешь заснуть!
+chat.warptheory.junk=Эй, бесплатные штучки!
+chat.warptheory.litmuspaper=Голос шепчет вам на ухо: "Выглядишь так, будто тебе это нужно"
+chat.warptheory.message.0=Вы слышите завывание ветра...
+chat.warptheory.message.1=Вы на мгновение забыли, что делали
+chat.warptheory.message.2=Вы чувствуете себя утомленным
+chat.warptheory.message.3=Вы на мгновение вздрагиваете
+chat.warptheory.message.4=У вас плохое предчувствие по этому поводу...
+chat.warptheory.message.5=Вы чувствуете смутную нервозность
+chat.warptheory.message.6=Вы думали, что увидели что-то краем глаза
+chat.warptheory.message.7=Тёмные видения наполняют ваш разум
+chat.warptheory.message.8=Возможно, пришло время прекратить играть и сделать перерыв?
+chat.warptheory.biomeMushrooms=Земляной запах спор и плесени наполняет ваши ноздри...
+chat.warptheory.obsidian=Ваши мысли затвердевают
+chat.warptheory.pumpkin=Вы чувствуете себя жутко...
+chat.warptheory.biomeSnow=Ваше дыхание конденсируется в холодном воздухе...
+chat.warptheory.wanddrain=Ваша палочка немного теплая...
+chat.warptheory.witherpotion=Вы чувствуете себя совершенно ужасно...
+
+# << Research stuff >>
+tc.research_category.WT_Category=Warp Theory

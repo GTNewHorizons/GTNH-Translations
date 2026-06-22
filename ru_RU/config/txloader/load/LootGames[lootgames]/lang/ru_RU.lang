@@ -1,0 +1,74 @@
+itemGroup.LootGames=Loot Games
+
+tile.lightGame.name=Игра света
+tile.dungeonBrick.name=Блок подземелья
+tile.dungeonBrick_0.name=Стена подземелья
+tile.dungeonBrick_1.name=Потолок подземелья
+tile.dungeonBrick_2.name=Пол подземелья
+tile.dungeonBrick_3.name=Потрескавшаяся стена подземелья
+tile.dungeonBrick_4.name=Потрескавшийся потолок подземелья
+tile.dungeonBrick_5.name=Потрескавшийся пол подземелья
+tile.dungeonBrick_6.name=Защищённый пол подземелья
+tile.dungeonLight.name=Лампа подземелья
+tile.dungeonLight_0.name=Лампа подземелья
+tile.dungeonLight_1.name=Сломанная лампа подземелья
+
+tile.lootgames.board_border.name=Граница доски
+tile.lootgames.gol_activator.name=Игра света
+tile.lootgames.gol_master.name=Игра света
+tile.lootgames.ms_activator.name=Сапёр
+tile.lootgames.ms_master.name=Сапёр
+tile.lootgames.smart_subordinate.name=Умный подчинённый
+tile.lootgames.puzzle_master.name=Мастер головоломок
+tile.lootgames.sdk_activator.name=Судоку
+tile.lootgames.sdk_master.name=Судоку
+
+item.lootgames.dungeon_block.tooltip=Существа не могут спауниться на этом блоке.
+
+msg.lootgames.stage_complete=Кажется, структура признаёт ваши старания...
+msg.lootgames.puzzle_master.turned_off=Кажется, структура отключена высшими силами...
+msg.lootgames.win=Структура довольна, и поэтому она вознаграждает вас!
+msg.lootgames.lose=Кажется, структура оскорбилась вашим провалом.
+msg.lootgames.attempt_left=У вас осталось %d попыток.
+msg.lootgames.field.not_enough_space=Структура протяжно скулит. Кажется, ей не хватает места: %dx%dx%d
+msg.lootgames.ms.board_too_large_to_solve=The board size is too large to solve. Generating random board instead.
+msg.lootgames.ms.bomb_touched=Упс... Сейчас будет БУМ. Бегите!
+msg.lootgames.ms.new_attempt=Структура успокоилась. Вы можете попытаться сыграть вновь.
+msg.lootgames.ms.reveal_on_hidden=Вы не можете открыть соседей вокруг неизвестного поля.
+msg.lootgames.ms.reveal_invalid_mark_count=Вы не можете открыть соседей этого поля, потому что их количество разнится с цифрой на нём.
+msg.lootgames.ms.solver_error=ERROR: Ran into an issue while making the board solvable. Check logs for details.
+msg.lootgames.gol.start=Давайте сыграем в игру? Нажмите на центральный блок!
+msg.lootgames.gol.click_center=Нажмите на центр, чтобы начать игру!
+msg.lootgames.gol.rules=Вам просто нужно повторить цвета.
+msg.lootgames.gol.not_ready=Вы чувствуете, что структура ещё не готова принимать ваш ответ.
+msg.lootgames.gol.wrong_block=Похоже, вы коснулись не того цвета...
+msg.lootgames.gol.reward_level_info=Текущий достигнутый уровень награды: %d (Лучший: %d)
+msg.lootgames.sdk.start=Давай начнем! ПКМ чтобы увеличить, Shift + ПКМ чтобы уменьшить, 2x ЛКМ чтобы закончить игру.
+msg.lootgames.sdk.check_end=The structure turns its gaze upon your work... Present it once more to confirm.
+msg.lootgames.sdk.submit_reminder=The structure awaits your answer... Sneak+double-left-click a cell to present your solution.
+msg.lootgames.sdk.not_filled=The structure senses the solution is incomplete...
+msg.lootgames.sdk.wrong=The structure is displeased with your answer. Your entries fade as if they never were...
+msg.lootgames.sdk.remaining=Осталось: %d
+
+lootgames.achievement_page.name=Loot Games
+achievement.lootgames.find_dungeon=Зарытые секреты
+achievement.lootgames.find_dungeon.desc=Найдите загадочное подземелье с мини-игрой
+achievement.lootgames.win_game=Моя прелесть!
+achievement.lootgames.win_game.desc=Выиграйте мини-игру и получите кучу награды
+achievement.lootgames.lose_game=Повезёт в следующий раз
+achievement.lootgames.lose_game.desc=Вы не выиграли ни одного уровня в мини-игре? (Вы... вы серьёзно?)
+achievement.lootgames.gol.start=Зажгите свет!
+achievement.lootgames.gol.start.desc=Получите шанс сыграть в Игру света
+achievement.lootgames.gol.beat_level_3=Почти понял в чём суть
+achievement.lootgames.gol.beat_level_3.desc=Пройдите Игру света на 3-ем уровне (Вы всё ещё не прошли 4-ый уровень, так что... старайтесь усерднее!)
+achievement.lootgames.gol.beat_level_4=Бесподобная память
+achievement.lootgames.gol.beat_level_4.desc=Пройдите 4-ый уровень Игры света
+achievement.lootgames.ms.start=Нужно больше флагов!
+achievement.lootgames.ms.start.desc=Получите шанс сыграть в Сапёра
+achievement.lootgames.ms.beat_level_4=Плохих сапёров не бывает
+achievement.lootgames.ms.beat_level_4.desc=Пройдите 4-ый уровень Сапёра
+
+lootgames.command.usage=Используйте '/lootgames help', чтобы увидеть доступные подкоманды
+lootgames.command.reloadconfigs.success=Конфигурации были перезагружены
+lootgames.command.reloadconfigs.usage=%s - Перезагружает все конфигурации LootGames
+lootgames.command.help.usage=%s - Показывает меню помощи

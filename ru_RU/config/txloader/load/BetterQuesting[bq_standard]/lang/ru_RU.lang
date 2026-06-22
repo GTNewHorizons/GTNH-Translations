@@ -1,0 +1,71 @@
+bq_standard.task.retrieval=Задача поиска
+bq_standard.task.optional_retrieval=Необязательное задание
+bq_standard.task.crafting=Задание на создание
+bq_standard.task.hunt=Задание охота на мобов
+bq_standard.task.scoreboard=Задание на табло
+bq_standard.task.location=Расположение Задания
+bq_standard.task.fluid=Задача на жидкость
+bq_standard.task.meeting=Задание на встречу
+bq_standard.task.xp=Задание на опыт
+bq_standard.task.block_break=Задача сломать блок
+bq_standard.task.checkbox=Задание с флажком
+bq_standard.task.advancement=Задание на продвижение
+bq_standard.task.tame=Задание на приручение
+bq_standard.task.interact_item=Задание на взаимодействие предметом
+bq_standard.task.interact_entity=Задача взаимодействия с сущностью
+bq_standard.task.trigger=Задача запуска критерия
+
+bq_standard.reward.choice=Награда на выбор
+bq_standard.reward.item=Награды
+bq_standard.reward.scoreboard=Награда за табло
+bq_standard.reward.command=Награда за команду
+bq_standard.reward.xp=Награда за опыт
+bq_standard.reward.recipe=Разблокировать рецепты
+bq_standard.reward.questcompletion=Награда за выполнение задания
+
+bq_standard.trade_unlock=Связанные обмены торгового автомата
+
+bq_standard.title.edit_hunt=Редактировать задачу охоты
+bq_standard.title.edit_meeting=Редактировать задачу встречи
+bq_standard.title.edit_loot_groups=Редактировать группы лута
+bq_standard.title.edit_loot_entries=Редактировать записи о луте
+bq_standard.title.edit_retrieval=Изменить задачу поиска
+bq_standard.title.edit_crafting=Редактировать задачу по крафту
+bq_standard.title.edit_scoreboard=Редактировать задание на табло
+bq_standard.title.edit_advancement=Редактировать задачу продвижения
+bq_standard.title.edit_tame=Редактировать задание приручить
+
+bq_standard.btn.select_mob=Выберите Моба
+bq_standard.btn.add_remove_drops=Добавить/Убрать дроп
+bq_standard.btn.edit_items=Добавление/удаление предмета
+bq_standard.btn.consume=Будет использовано: %s
+
+bq_standard.gui.amount=Количество
+bq_standard.gui.kill=Убить %s
+bq_standard.gui.location=Местоположение: %s
+bq_standard.gui.distance=Расстояние: %s
+bq_standard.gui.dimension=Измерение: %s
+bq_standard.gui.biome=Биом: %s
+bq_standard.gui.structure=Структура: %s
+bq_standard.gui.found=Найден!
+bq_standard.gui.undiscovered=Неоткрытый
+bq_standard.gui.condition=Состояние: %s
+bq_standard.gui.meet=Соответствует %s
+bq_standard.gui.weight=Вес
+bq_standard.gui.experience=Опыт
+bq_standard.gui.tame=Приручить %s
+bq_standard.gui.questcompletion=Квест завершён
+
+bq_standard.importer.dummy.name=Импортер пустышка
+bq_standard.importer.dummy.desc=Ничего не делает, только выдает исключение UnsupportedOperationException.
+bq_standard.importer.hqm_bag.name=Импортер пакетов HQM
+bq_standard.importer.hqm_bag.desc=Импортирует пакеты наград HQM, экспортированные в формате JSON.
+bq_standard.importer.hqm_quest.name=Импортер HQM квестов
+bq_standard.importer.hqm_quest.desc=Импортирует линии квестов HQM, экспортированные в формате json. Из-за странной природы индексации квестов HQM после экспорта, могут возникать ошибки между квестами с дублирующимися именами или условными разблокировали.
+
+item.bq_standard.loot_chest.name=Сундук с добычей
+
+bq_standard.tooltip.fixed_loot=Набор лута: %s
+bq_standard.tooltip.fixed_loot_size=Содержит %s предметов
+bq_standard.tooltip.loot_table=Таблица лута: %s
+bq_standard.tooltip.loot_chest=Редкость: %s
