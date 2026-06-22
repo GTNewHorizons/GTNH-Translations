@@ -1,0 +1,418 @@
+#Vanilla Tool Tips
+tooltip.wawla.heldItem=Tutulan Eşya
+tooltip.wawla.feet=Ayak
+tooltip.wawla.leggings=Pantalon
+tooltip.wawla.chestplate=Göğüslük
+tooltip.wawla.helmet=Kask
+tooltip.wawla.item=Eşya
+tooltip.wawla.owner=Sahip
+tooltip.wawla.jumpStrength=Sıçrama Gücü
+tooltip.wawla.speed=Hız
+tooltip.wawla.canHarvest=Toplanabilir
+tooltip.wawla.toolType=Doğru Alet
+tooltip.wawla.yes=Evet
+tooltip.wawla.no=Hayır 
+tooltip.wawla.burnTime=Yanma Süresi
+tooltip.wawla.seconds=Kalan Saniye
+tooltip.wawla.input=Giriş
+tooltip.wawla.output=Çıkış
+tooltip.wawla.fuel=Yakıt
+tooltip.wawla.levels=Seviye 
+tooltip.wawla.primary=İlk etki
+tooltip.wawla.secondary=İkinci Etki
+tooltip.wawla.shiftEnch=Büyü Açıklaması için Eğilme tuşunu basılı tutunuz
+tooltip.wawla.blockLevel=Gereken Kademe
+tooltip.wawla.amount=Miktar
+tooltip.wawla.lightLevel=Işık Seviyesi
+tooltip.wawla.sit=Oturuyor
+tooltip.wawla.birth=Bekleme Süresi
+tooltip.wawla.age=Yetişkinlik
+tooltip.wawla.tooltype.shovel=Kürek
+tooltip.wawla.tooltype.pickaxe=Kazma
+tooltip.wawla.tooltype.axe=Balta
+tooltip.wawla.armorprot=Koruma
+tooltip.wawla.armor=Zırh Puanı
+tooltip.wawla.progress=İlerleme
+tooltip.wawla.missingEnch=Bu büyü için hiç bir açıklama bulunamadı.
+tooltip.wawla.tnt.fuse=Patlama Süresi
+tooltip.wawla.profession=Meslek
+tooltip.wawla.unknownplayer=Bilinmeyen Oyuncu
+tooltip.wawla.sleepable=Uyunabilir
+tooltip.wawla.hardness=Sertlik
+tooltip.wawla.resistance=Patlama Direnci
+tooltip.wawla.enchPower=Büyü Gücü
+
+#Fixed/Missing Strings
+tile.null.name=İsimsiz Blok, mod geliştiricisine bildirin.
+entity.ItemFrame.name=Eşya Çerçevesi
+
+#Vanilla Module Options
+option.wawla.showEquipment=Varlık Ekipmanı?
+option.wawla.furnace.output=Fırın Çıktısı?
+option.wawla.showHead=Oyuncu Kafası İsimleri?
+option.wawla.horse.showJump=At Zıplama Gücü?
+option.wawla.furnace.fuel=Fırın Yakıtı?
+option.wawla.harvest.showHarvest=Toplanabilirlik?
+option.wawla.harvest.showTool=Uygun Alet?
+option.wawla.harvest.showTier=Uygun Kademe?
+option.wawla.furnace.input=Fırın Girdisi?
+option.wawla.furnace.burntime=Fırın Yanma Süresi?
+option.wawla.horse.showSpeed=Atın Hızı?
+option.wawla.showEnchDesc=Büyü Açıklamaları?
+option.wawla.beacon.showLevels=Fenerin Seviyesi?
+option.wawla.beacon.showPrimary=Ana Fener Etkisi?
+option.wawla.beacon.showSecondary=İkincil Fener Etkisi?
+option.wawla.light.lightLevel=Işık Seviyesi?
+option.wawla.light.showDay=Gün Işığı Seviyesi?
+option.wawla.light.monsterSpawn=Canavar Işık Seviyesi?
+option.wawla.pets.showOwner=Evcil Hayvan Sahibi?
+option.wawla.pets.cooldown=Doğum Bekleme Süresi?
+option.wawla.pets.age=Bebek Yaşı?
+option.wawla.pets.sitting=Oturuyor?
+option.wawla.showMobArmor=Canavar Zırh Değerini Göster?
+option.wawla.harvest.showProgress=Blok Kırılma İlerlemesini Göster
+option.wawla.tnt.fuse=Patlama Zamanını Göster
+option.wawla.showProfession=Köylü Mesleğini Göster
+option.wawla.bed.sleepable=Yatak Durumu?
+option.wawla.info.showHardness=Blok Sertliğini Göster?
+option.wawla.info.showResistance=Patlama Direncini Göster?
+
+#Vanilla Enchantment Descriptions
+description.enchantment.protect.all=Bu büyü, birçok hasar kaynağından giyen kişiye verilen hasarı azaltır. Ateş Direnci ve Tüy Düşüşü gibi büyülerle katlanır ancak hasarın ne kadar azaltılacağı konusunda bir sınıra ulaşmak mümkündür. Bu büyü tüm zırh türlerine uygulanabilir.
+description.enchantment.protect.fire=Bu büyü ateş, Alaz ve lav gibi ateş kaynaklarından alınan hasarı azaltır. Bu büyü ayrıca giyenin ateşte kalacağı toplam süreyi de azaltır. Bu büyü tüm zırh türlerine uygulanabilir.
+description.enchantment.protect.fall=Bu büyü düşme sonucu alınan hasarı azaltır, ayrıca ender incileri kullanırken alınan hasarı da azaltır. Bu büyü sadece botlar için geçerlidir.
+description.enchantment.protect.explosion=Bu büyü, tnt veya creeperlar gibi patlamalardan alınan hasarı azaltır. Bu büyü ayrıca patlamalardan kaynaklanan geri tepmeyi de azaltır. Bu büyü tüm zırh türlerine uygulanabilir.
+description.enchantment.protect.projectile=Bu büyü, oklar ve ateş bombaları gibi uzak menzillerden alınan hasarı azaltır. Bu büyü tüm zırh türlerine uygulanabilir.
+description.enchantment.oxygen=Bu büyü, su altındayken kullanıcının görüşünü iyileştirir. Bu büyü ayrıca kullanıcının toplam havasını seviye başına 15 saniye artırır. Boğulma hasarı arasındaki süre de seviye başına bir saniye artar. Bu büyü yalnızca kasklara uygulanabilir.
+description.enchantment.waterWorker=Bu büyü, takan kişinin su altındayken blok kırma hızını artırır. Bu büyü yalnızca kasklara uygulanabilir.
+description.enchantment.thorns=Bu büyü, kullanıcısına yarım kalpten iki kalbe kadar zarar veren canavarlara seviye başına 15% hasar verme şansına sahiptir. Bu büyü tüm zırh türlerine uygulanabilir.
+description.enchantment.damage.all=Bu büyü eşyanın hasarını seviye başına 1.25 hasar arttırır. Bu büyü birçok alet türüne uygulanabilir ancak birincil eşya kılıçtır.
+description.enchantment.damage.undead=Bu büyü iskeletler, zombiler ve wither gibi yaşayan ölü canavarlara verilen hasarı seviye başına 2,5 hasar artırır. Bu büyü birçok alete uygulanabilir ancak birincil eşya kılıçtır.
+description.enchantment.damage.arthropods=Bu büyü Örümcekler, Mağara Örümcekleri, Gümüşbalıkları ve Endermitler gibi "örümcek" tabanlı canavarlara verilen hasarı seviye başına 2,5 hasar artırır. Bu büyü birçok alete uygulanabilir ancak kılıçlar birincil öğedir.
+description.enchantment.knockback=Bu büyü, vurulan yaratıkların oyuncudan uzaklaşmasına neden olur. Bu büyü sadece kılıçlara uygulanabilir.
+description.enchantment.fire=Bu büyü, isabet ettiği canavarların yanmasına neden olur. Canavar 3 puanlık yangın hasarı alır ve sonraki her seviye için ilave 4 puanlık yangın hasarı alır. Bu büyü sadece kılıçlara uygulanabilir.
+description.enchantment.lootBonus=Bu büyü yaratıkların daha fazla ganimet düşürmesine neden olur. Düşen maksimum ganimet miktarı seviye başına 1 artar. Nadir eşya düşürme şansı 3% ve sonraki her seviye için ek olarak 0%,5% artar. Bu büyü sadece kılıçlara uygulanabilir.
+description.enchantment.digging=Bu büyü blokların 0%/69%/120%/186%/271% oranında daha hızlı kırılmasına neden olur. Etkinin uygulanabilmesi için aletin doğru blok üzerinde kullanılması gerekir. Bu büyü kazmalara, küreklere, baltalara ve makaslara uygulanabilir.
+description.enchantment.untouching=Bu büyü normalde elde edilemeyen blokların elde edilebilmesini sağlar. Örneğin: buz, çimen ve cevher blokları edinmede. Bu büyü kazmalara, küreklere, baltalara ve makaslara uygulanabilir.
+description.enchantment.durability=Bu büyü bir aletin veya zırh parçasının ortalama dayanıklılığını artırır. Bu büyü, dayanıklılığı olduğu sürece oyundaki hemen hemen her eşyaya uygulanabilir. Örneğin: çakmaktaşı ve çelik, oltalar, tüm zırh türleri ve aletler olabilir.
+description.enchantment.lootBonusDigger=Bu büyü belirli bloklara iki kat daha fazla eşya düşürme şansı verir. Her seviye şans miktarını artırır. Bir şansın başarılı olma olasılığı azalır ancak eşya düşme ihtimali artar. 2/3/4 kat fazla düşürme için 33%/25%/20% başarı olasılığı. Karpuz gibi birden fazla eşya düşüren bloklar için düşürülebilecek maksimum eşya miktarı seviye başına 1 artırılır. Çakıldan çakmaktaşı elde etme şansı da artırılarak 14%/25%/100% çakmaktaşı düşürme şansı sunulur. Bu büyü kazma, kürek ve baltalara uygulanabilir.
+description.enchantment.arrowDamage=Bu büyü, bir yayın verdiği hasarı her seviye + 1 ile çarparak 25% oranında artırır. Hasar en yakın yarım kalbe yuvarlanır. Bu büyü sadece yaylar içindir.
+description.enchantment.arrowKnockback=Bu büyü, yaratıkların vurulduklarında oyuncudan uzaklaşmasına neden olur. Bu büyü yaylar içindir.
+description.enchantment.arrowFire=Bu büyü fırlatılan okların alev almasına neden olur. Vurulan yaratıklar da yanar. Bu ateş sadece yaratıkları, oyuncuları ve tnt bloklarını etkiler. Bu büyü sadece yaylar içindir.
+description.enchantment.arrowInfinite=Bu büyü, okların tükenmesini önler. Bu büyü, oyuncunun envanterinde en az bir ok olmasını gerektirir. Bu büyü sadece yaylar içindir.
+description.enchantment.lootBonusFishing=Bu büyü, oyuncuların balık tutarken hazine elde etme olasılığını seviye başına 1% artırır. Bu büyü sadece oltalar içindir.
+description.enchantment.fishingSpeed=Bu büyü, bir balığın kancayı ısırması için geçen süreyi seviye başına 5 saniye azaltır. Bu aynı zamanda çöp ve hazine elde etme şansını seviye başına 1% artırır.
+
+#Villager Professions
+description.villager.profession.farmer=Çiftçi
+description.villager.profession.librarian=Kütüphaneci
+description.villager.profession.priest=Rahip
+description.villager.profession.blacksmith=Demirci
+description.villager.profession.butcher=Kasap
+description.villager.profession.zombie=Zombi
+description.villager.profession.witch=Cadı
+description.villager.profession.misingno=Varsayılan
+description.villager.profession.openblocks.king-ish=Kral(ımsı)
+description.villager.profession.tinker.villagertools=Tamirci
+description.villager.profession.extvil.Miller=Değirmenci
+description.villager.profession.extvil.Fisher=Balıkçı
+description.villager.profession.extvil.Baker=Fırıncı
+description.villager.profession.extvil.Miner=Madenci
+description.villager.profession.extvil.Scientist=Bilim Adamı 
+description.villager.profession.extvillom.Tanner=Deri Işçisi
+description.villager.profession.forestry.beekeeper=Arı Bakıcısı
+description.villager.profession.forestry.lumberjack=Oduncu
+description.villager.profession.mystcraft.archivist=Arşivci
+description.villager.profession.bcaddons.Engineer=Mühendis
+description.villager.profession.thaumcraft.wizard=Sihirbaz
+description.villager.profession.thaumcraft.moneychanger=Tüccar
+description.villager.profession.compactmachines.villager=Kompakt Makinist
+description.villager.profession.railcraft.trackman=Demiryolu İşçisi
+description.villager.profession.pneumaticcraft.VillagerMechanic=Tamirci
+description.villager.profession.witchery.apothecary=Eczacı
+description.villager.profession.minefactoryreloaded.zoologist=Zoolog
+description.villager.profession.is_mtc.card_master=Kart Ustası
+description.villager.profession.gravestone.undertaker=Cenazeci
+description.villager.profession.gcewing_sg.tokra=Tok'ra
+description.villager.profession.steamcraft.villager=Buhar zanaatkarı
+description.villager.profession.fantastic.fantastic_fisherman=Fantastik Balıkçı
+description.villager.profession.defeatedcrow.villager_cafe=Kafe
+description.villager.profession.defeatedcrow.villager_yome=Yome
+description.villager.profession.grccellar.brewer=Biracı
+description.villager.profession.peripheralsplusplus.CCVillager=Bilgisayar Teknisyeni
+description.villager.profession.evilcraft.werewolfVillager=Kurt Adam
+description.villager.profession.redgear_brewcraft.villagerwitch=Cadı
+description.villager.profession.redgear_brewcraft.villagerwarlock=Sihirbaz
+description.villager.profession.fossil.Archaeologist=Arkeolog
+description.villager.profession.pennyarcade.CoinMerchant=Madeni Para Satıcısı
+description.villager.profession.psychedelicraft.villagerDealer=Torbacı
+description.villager.profession.jukeboxreloaded.villager=Plak Satıcısı
+description.villager.profession.minecraft.etymologist=Etimolog
+description.villager.profession.tofucraft.tofucook=Tofu Şefi
+description.villager.profession.jewelrycraft.jeweler=Kuyumcu
+description.villager.profession.taverns.barwench=Barmaid
+description.villager.profession.taverns.village_shepherdess=Çoban Kızı
+description.villager.profession.taverns.village_hostler=At Bakıcısı
+description.villager.profession.taverns.village_baker=Fırıncı
+description.villager.profession.tynkyn.jx_villager_chef=Şef
+description.villager.profession.tynkyn.jx_villager_recycle=Geri-dönüşüm 
+description.villager.profession.tynkyn.jx_villager_botanist=Botanikçi
+description.villager.profession.lozmod.villager_beedle=Beedle
+description.villager.profession.lozmod.villager_beedle_special=Beedle
+description.villager.profession.minecraft.farmer=Çiftçi
+description.villager.profession.savemoney.insurer=Sigortacı
+description.villager.profession.gvcguns.gvcVillager=Silah Tüccarı
+description.villager.profession.actuallyadditions.jamVillager=Jam Köylüsü
+description.villager.profession.jewelrycraft2.jeweler=kuyumcu
+description.villager.profession.pokecube_adventures.cubesalesman=Satıcı
+description.villager.profession.terraarts.YE3TE2y=YE3TE2y
+description.villager.profession.xw.smithy3=Smithy
+description.villager.profession.xw.hunter_v1=Avcı
+description.villager.profession.diversity.warrior=Savaşçı
+description.villager.profession.diversity.priest=Rahip
+description.villager.profession.diversity.butcher=Kasap
+description.villager.profession.diversity.chief=Şef
+description.villager.profession.diversity.breeder=Besici
+description.villager.profession.diversity.guru=Bilge
+description.villager.profession.diversity.farmer=Çiftçi
+description.villager.profession.jbrobot.jbvillagerblock=Bloklar
+description.villager.profession.jbrobot.jbvillageritem=Eşyalar
+description.villager.profession.jbrobot.jbvillagermodel=Modeller
+description.villager.profession.jbrobot.jbvillagermotion=Hareket
+description.villager.profession.jbrobot.jbvillagercarving=Oymacı
+description.villager.profession.wa.villager=Köylü
+description.villager.profession.wa.swordsmith=Kılıç Ustası
+description.villager.profession.wa.teaMaster=Çay Uzmanı
+description.villager.profession.wa.priest=Rahip
+description.villager.profession.rftools.rftoolsvillager=RFTools Mühendisi
+description.villager.profession.forbidden.heretic=Kafir
+description.villager.profession.agricraft.villager=Agricraft Çiftçisi
+
+#Jewelrycraft Tooltips
+tooltip.wawla.jewelry.molten=Eriyik
+tooltip.wawla.jewelry.unmelted=Erimemiş
+tooltip.wawla.jewelry.melttime=Erime Süresi
+tooltip.wawla.jewelry.cooling=Soğutma
+
+#Jewelrycraft Options
+option.wawla.jewelrycraft.showMoltenAmount=Eriyik Miktarları
+option.wawla.jewelrycraft.showMetalAmount=Erimemiş Miktarları
+option.wawla.jewelrycraft.showMeltTime=Erime Süresi
+option.wawla.jewelrycraft.showCooling=Soğuma Süresi
+
+#Tinkers Construct Tooltips
+tooltip.wawla.tinkers.dryness=Kuruluk
+
+#Tinkers Construct Options
+option.wawla.tinkers.hideLandmine=Mayınları sakla?
+option.wawla.tinkers.showDryerTime=Kurutma Askısı İlerlemesi?
+option.wawla.tinkers.showDryerItem=Kurutma rafı eşyasi?
+option.wawla.tinkers.showFurnace=Basamak fırını İçerikleri?
+option.wawla.tinkers.showBurnTime=Yanma Süresi?
+
+#AquaCulture Enchantment Descriptions
+description.enchantment.aquacultureAppealing=Bu büyü oyuncuya balık tutması için daha çok zaman kazandırır.
+description.enchantment.aquacultureBarbedHook=Bu büyü, oyuncuya daha iyi balık yakalama şansı verir.
+description.enchantment.aquacultureDoubleHook=Bu büyü, oyuncuya birden çok balık veya hazine tutma şansı verir.
+description.enchantment.aquacultureHeavyLine=Bu büyü, oyuncunun daha büyük ve daha ağır balıklar yakalamasını sağlar.
+description.enchantment.aquacultureLongCast=Bu büyü, oltanın kancasının (bobber) daha uzun süre atılmasını sağlar.
+description.enchantment.aquacultureMagnetic=Bu büyü oyuncuya daha fazla balık yakalama şansı verir.
+description.enchantment.aquacultureShortCast=Bu büyü, oltanın kancasının (bobber) daha kısa süre atılmasını sağlar.
+
+#Pixelmon Tooltips
+tooltip.wawla.pixelmon.male=erkek
+tooltip.wawla.pixelmon.female=dişi
+tooltip.wawla.pixelmon.ability=Yetenek
+tooltip.wawla.pixelmon.happiness=Mutluluk
+tooltip.wawla.pixelmon.helditem=Tutulan Eşya
+tooltip.wawla.pixelmon.none=Hiç
+tooltip.wawla.pixelmon.attack=Saldırı
+tooltip.wawla.pixelmon.defence=Savunma
+tooltip.wawla.pixelmon.health=SP
+tooltip.wawla.pixelmon.spattack=Özel Saldırı
+tooltip.wawla.pixelmon.spdefence=Özel Savunma
+tooltip.wawla.pixelmon.speed=Hız
+tooltip.wawla.pixelmon.iv=IV
+tooltip.wawla.pixelmon.ev=EV
+tooltip.wawla.pixelmon.growth=Büyüme
+tooltip.wawla.pixelmon.product=Ürün
+tooltip.wawla.pixelmon.nature=Doğa
+tooltip.wawla.pixelmon.size=Boyut
+
+#Pixelmon Fixed Strings
+entity.pixelmon.Pixelmon.name=Pixelmon
+
+#Pixelmon Options
+option.wawla.pixelmon.showFriendship=Mutluluk?
+option.wawla.pixelmon.showApricornProduct=Apricorn Türü?
+option.wawla.pixelmon.showApricornGrowth=Apricorn Büyümesi?
+option.wawla.pixelmon.showAbility=Yetenekler?
+option.wawla.pixelmon.showHeldItem=Tutulan Eşya?
+option.wawla.pixelmon.showNature=Doğalar?
+option.wawla.pixelmon.showSize=Boyut?
+option.wawla.pixelmon.showIV=IV'leri göster?
+option.wawla.pixelmon.showEV=EV'leri Göster?
+
+#Thaumcraft Tooltips
+tooltip.wawla.thaumcraft.aspect=Aspekt
+tooltip.wawla.thaumcraft.linked=Bağlantılı
+tooltip.wawla.thaumcraft.dimension=Boyut
+tooltip.wawla.thaumcraft.experience=Tecrübe
+
+#Thaumcraft Options
+option.wawla.thaumcraft.jarAspect=Kavanozdaki Aspektler?
+option.wawla.thaumcraft.jarAmount=Kavanozdaki Miktar?
+option.wawla.thaumcraft.mirrorLink=Ayna Bağlantısı?
+option.wawla.thaumcraft.mirrorDim=Ayna Boyutu?
+option.wawla.thaumcraft.jarEXP=Kavanozdaki Tecrübe?
+option.wawla.thaumcraft.wandItem=Şarj Edilebilir Eşya?
+option.wawla.thaumcraft.wandCharge=Asa Şarjı?
+option.wawla.thaumcraft.pedestalItem=Kaide Eşyası?
+option.wawla.thaumcraft.deconAspect=Parçalama Aspekti?
+
+#Artifice Enchantment Descriptions
+description.enchantment.artifice.invisible=Kuşanılan zırh parçasının görünmez yapan bir zırh büyüsü.
+description.enchantment.artifice.soulstealing=Canavarların ek tecrübe puanı düşürmesine neden olan bir silah büyüsü. Daha yüksek seviyeler exp miktarının artmasına neden olur.
+description.enchantment.artifice.resistance=Büyülü hasara ve wither hasarına karşı koruma sağlayan bir zırh büyüsü. Daha yüksek seviyeler daha iyi direnç sunar.
+
+#Thaumcraft Enchantment Descriptions
+description.enchantment.repair=Eşyaların zaman içinde dayanıklılığını onarmasına neden olur. Bu büyünün iki kademesi vardır, ikinci kademe dayanıklılığı daha hızlı bir şekilde onarır. Bu büyü silahlarda, Asa Odaklarında ve  diğer aletlerde (makaslar hariç) kullanılabilir.
+description.enchantment.haste=Daha yüksek hareket hızı sağlar. Bu büyü, her biri verilen hız artışını artıran üç kademeye sahiptir.
+description.enchantment.potency=Bir büyünün gücünü artırır. Bu, her biri yapılan büyünün gücünü artıran üç kademeli bir büyüdür. Bu büyü yalnızca Asa Odakları için geçerlidir ve hangi Odakların kullanıldığına bağlı olarak farklı bir etkiye sahip olabilir.
+description.enchantment.frugal=Bir Asa Odağı kullanıldığında tüketilen vis miktarını azaltır. Bu üçüncü kademe bir büyüdür, her kademe daha fazla azaltma sağlar. Bu büyü yalnızca Asa Odakları için geçerlidir.
+description.enchantment.wandfortune=Bu büyü, servet büyüsüsüne çok benzer ve eşya düşüren blokların daha yüksek verim almasını sağlar. Bu efsun, her biri ekstra verim şansını artıran üç kademeye sahiptir. Bu büyü yalnızca Asa Odakları için geçerlidir.
+
+#Thaumic Tinkerer Enchantment Descriptions
+description.enchantment.ttinkerer:slowFall=Bu büyü, giyen kişinin daha yavaş bir hızda düşmesini sağlar ve düşme hasarını azaltır ancak ortadan kaldırmaz. Bu büyü botlara uygulanabilir.
+description.enchantment.ttinkerer:ascentBoost=Bu büyü, kullanıcının normalden çok daha yükseğe zıplamasını sağlar. Bu büyü pantolonlara uygulanabilir.
+description.enchantment.ttinkerer:pounce=Bu büyü, oyuncuların havadayken saldırılarını daha güçlü hale getirecektir. Bu büyü sadece pantolonlara uygulanabilir.
+description.enchantment.ttinkerer:shockwave=Bu büyü, düştüğünüzde yakındaki varlıklara hasar vermenizi sağlar. Bu etki, düşme hasarınızı azaltan eşyalar tarafından zayıflatılır.
+description.enchantment.ttinkerer:autoSmelt=Bu büyü bir alete uygulandığında, aletin ahşap blokları daha kolay kırmasını sağlar. Bu etki, aletin diğer bloklara karşı iki kat dayanıklılık kazanmasını sağlayacaktır.
+description.enchantment.ttinkerer:tunnel=Bu büyü bir alete uygulandığında, blokları düz bir hat üzerinde kırarken kazma hızını artırır.
+description.enchantment.ttinkerer:shatter=Bir alete uygulandığında, bu alet güçlü blokları kırarken daha büyük bir kazma hızına sahip olacaktır.
+description.enchantment.ttinkerer:desintegrate=Aletlere uygulandığında, bu alet, aletin uygun olduğu toprak veya taş gibi temel blokları kıracaktır. Aletin normalde kırmayacağı bloklar iki kat dayanıklılık hasarına neden olur.
+description.enchantment.ttinkerer:vampirism=Bu büyü sadece kılıçlara uygulanabilir. Bu etki verilen hasarın bir kısmının kullanıcıyı iyileştirmek için kullanılmasına neden olur.
+description.enchantment.ttinkerer:dispersedStrike=Bu büyü yalnızca kılıçlara uygulanabilir. Bu etki, bir kılıç darbesinin art arda gelmesine neden olur. Ardışık vuruşlar daha az hasar verir.
+description.enchantment.ttinkerer:focusedStrike=Bu etki yalnızca kılıçlara uygulanabilir. Bu etki, ilk vuruşun verdiği hasarın azalmasına neden olur, ancak aynı mob'a art arda yapılan vuruşlar artar.
+description.enchantment.ttinkerer:finalStrike=Bu büyü sadece kılıçlara uygulanabilir. Hasar verildiğinde, bu etki hasarı üç katına çıkarma şansı verir.
+description.enchantment.ttinkerer:valiance=Bu büyü sadece kılıçlara uygulanabilir. Bu etki, sahibinin canı azaldığında verilen hasarı artıracaktır.
+description.enchantment.ttinkerer:quickDraw=Bu büyü yaylar için tasarlanmıştır, uygulandığında yayı tamamen çekme süresi daha hızlıdır.
+
+#Ars Magica 2 Enchantment Descriptions
+description.enchantment.magicresist=Sihirli kaynaklardan alınan hasar miktarını azaltır.
+description.enchantment.soulbound= Öldüğün zaman, bu eşya doğduğunda envanterinde tutulacak ve yere düşmeyecektir.
+
+#Red Power 2 Enchantment Descriptions
+description.enchantment.vorpal=Bir mobun öldüğünde kafasını düşürme şansını artırır.
+description.enchantment.disjunction=Enderman ve Wither İskeletlere verilen hasarı artırır.
+
+#Special Mobs Enchantment Descriptions
+description.enchantment.SpecialMobs.painBow=Korumayı atlatacak ek hasar veren yay tabanlı bir büyü. Her seviye ilave yarım kalp hasar verir.
+description.enchantment.SpecialMobs.painSword=Korumayı atlatacak ek hasar veren kılıç tabanlı bir büyü. Her seviye ilave yarım kalp hasar verir.
+description.enchantment.SpecialMobs.plagueBow=Hasar gören canavara rastgele bir olumsuz etki veren yay tabanlı bir büyü. Olası etkileri yavaşlık, mide bulantısı, körlük, açlık, zayıflık ve zehirdir.
+description.enchantment.SpecialMobs.plagueSword=Hasar gören canavara rastgele bir olumsuz etki veren kılıç tabanlı bir büyü. Olası etkileri yavaşlık, mide bulantısı, körlük, açlık, zayıflık ve zehirdir.
+description.enchantment.SpecialMobs.poisonBow=Hasar gören canavara zehir veren yay tabanlı bir büyü. Her seviye, uygulanan zehir etkisinin gücünü artırır.
+description.enchantment.SpecialMobs.poisonSword=Hasar gören canavara zehir veren kılıç tabanlı bir büyü. Her seviye, uygulanan zehir etkisinin gücünü artırır.
+
+#Natural Absorption Enchantment Descriptions
+description.enchantment.NaturalAbsorption.absorb=Zırh için bir büyü. Takılan zırh parçası, oyuncunun maksimum emilim miktarını artıracaktır.
+
+#Simple Flight Enchantment Descriptions
+description.enchantment.fly_longer=Basit Uçuş cihazlarındaki toplam kanat miktarını artırır.
+description.enchantment.fly_faster=Basit Uçuş cihazlarında kanatlar arasındaki süreyi azaltır. Jet Paketlerinde ve Jet Planörlerde işe yaramaz.
+
+#More Swords Mod Enchantment Descriptions
+description.msm.unused=Not: Bu eşya/blok diğer modlarla uyumluluğu sağlamaya yardımcı olmak için eklenmiştir. Şu andan itibaren bu hiçbir şey yapmaz ve bu modun sıradan bir parçası değildir. Yeni cevherler veya araçlar eklenmeyecektir, bu SADECE mod uyumluluğu içindir.
+description.enchantment.msm.ignite=Bu büyü, hasar gören canavalara ateşe vererek büyü seviyesine eşit hasar verir.
+description.enchantment.msm.spark=Bu büyü, hasar gören canavarları ateşe vererek büyü seviyesine eşit hasar verir.
+description.enchantment.msm.feast=Bu büyü kullanıldığında 0-3 arası dayanıklılığı geri kazandırır. Geri yüklenen miktar büyü seviyesi ile çarpılır.
+description.enchantment.msm.vitality=Bu büyü kullanıldığında 256 dayanıklılık tüketir ve karşılığında kullanıcıya yenilenme, anlık sağlık ve ekstra kalp gibi çeşitli güçlendirmeler verir.
+description.enchantment.msm.venomAspect=Bu büyü hedef canavarları zehirler. Etki, büyünün seviyesine eşdeğer saniye boyunca sürecektir. Örümcekler, zombiler ve iskeletler gibi birçok vanilya canavarın zehirlenemediğini ve bu etkinin işe yaramaz hale geldiğini belirtmek gerek.
+description.enchantment.msm.absorb=Bu büyü kullanıldığında 5% olasılık ile 0-2 arası açlığı doldurur.
+description.enchantment.msm.keenEdge=Bu büyü kılıcın hasarını, büyü etkisinin her seviyesi için 1 artırır.
+description.enchantment.msm.scorn=Bu büyü, dünya dışındaki boyutlarda kullanıldığında kılıcın verdiği hasarı 2 katına çıkarır.
+description.enchantment.msm.enderPulse=Bu büyü kullanıldığında oyuncuyu baktığı yere ışınlatır. Bu büyü seviye başına 18 blokluk bir menzile sahiptir. Bu büyü her kullanıldığında eşyaya 50 birim hasar verir. Oyuncu ayrıca düşme hasarı olarak 1 hasar alacaktır.
+description.enchantment.msm.enderAura=Bu büyü, oyuncu hasar aldığında 15% oranında etkinleşme şansına sahiptir. Etkinleştirildiğinde oyuncu 30 blok içinde rastgele bir canavara ışınlanır. Bu canavarlar her zaman dost olmayabilir. Eğer hiçbir canavar bulunamazsa, etki iptal edilir.
+description.enchantment.msm.greed=Bu büyü 7% şansla 1-3 arası ayretten Tecrübe puanı düşürür.
+description.enchantment.msm.wisdom=Bu büyü şu anlık bozuktur. Üzgünüm :/
+description.enchantment.msm.frozenAspect=Bu büyü canavarları seviye başına 3 saniye olacak şekilde yavaşlatacak.
+description.enchantment.msm.frostWave=Bu büyü, hedef canavarın 2,5 blok ötesindeki canavarları 1,5 saniyeliğine yavaşlatır.
+description.enchantment.msm.ascension=Bu büyü, hedeflenen canavarları havaya doğru itecektir. Etkinin fırlatma özelliğini katlanarak artırmak için canavara yere çarpmadan önce vurun.
+description.enchantment.msm.descension=Bu büyü, oyuncunun normalden çok daha yavaş bir hızda düşmesine neden olur. Etkiyi etkinleştirmek için shift tuşuna basılı tutun.
+description.enchantment.msm.shadows=Bu büyü hedef mobu 1,5 saniye boyunca kör eder ayrıca wither etkisinin bir saniyeliğine uygulanması için 12%'lik bir şans vardır.
+description.enchantment.msm.decay=Bu büyü, hedef canavar'a 4 saniyenin biraz altında bir süre boyunca wither etkisi uygular.
+description.enchantment.msm.stealth=Bu büyü etkinleştirildiğinde oyuncunun görünmez olmasına neden olur. Görünmezlik iksirinden farklı olarak bu büyü parçacık yaymaz ve zaman sınırı veya süresi yoktur. Bunu açmak veya kapatmak için kılıçla sağ tıklamanız yeterlidir. Bu efekt etkinken kılıçların ve zırhların hala görünür olacağını belirtmek gerekir.
+description.enchantment.msm.extinction=Bu büyü, haritadaki hedef canavarın bir örneği olan tüm canavarları öldürecektir. Bu, dünyadaki tüm tekneleri öldürmek için teknelerde kullanılabilir ve dünyadaki varlıkları yönetmek için kullanılabilir. Bu büyü oyuncuları hedef almaz.
+
+#Railcraft Enchantments
+description.enchantment.railcraft.crowbar.destruction=Bu büyü sadece levyeler içindir. Geniş bir alandaki blokları kırar.
+description.enchantment.railcraft.crowbar.implosion=Bu büyü sadece levyeler içindir. Creeperlara verilen hasarı artırır.
+description.enchantment.railcraft.crowbar.wrecking=Bu büyü sadece levyeler içindir. Hasarı artırır (Keskinlik ile aynı şekilde çalışır).
+
+#OpenBlocks Enchantments
+description.enchantment.openblocks.explosive=Hasar alırken Barut tüketilerek canavarlara ve bloklara zarar veren bir patlama yaratır.
+description.enchantment.openblocks.flimflam=Oyuncuya saldıran her şeye "kötü şans" getirir.
+description.enchantment.openblocks.laststand=Kullanıcı yarım kalbe ulaştığında, bir sonraki darbede ölmek yerine XP seviyelerini hasar emmek için kullanır.
+
+#Forbidden Magic Enchantments
+description.enchantment.cluster=Ateşli Çekirdek büyüsüne sahip bir Bukalemun Kazması, belirli cevherleri çıkarırken küme düşürme şansına sahiptir. Kümeler ham cevherden çok daha saftır ve cevherin normal eritme sonucu kadar eritilebilir. Daha yüksek Ateşli Çekirdek seviyeleri küme düşürme şansını artırır.
+description.enchantment.consuming=Bir tüketim aleti tarafından çıkarılan tüm Kırıktaş, Toprak, Çakıl veya Nether taşı yere düşmek yerine yok edilir.
+description.enchantment.corrupting=Yozlaşma büyüsü, Nether'de olmanıza gerek kalmadan Nether Parçaları toplamanızı sağlar. Yozlaşma ile büyülenmiş bir kazma, toplanan element parçalarını rastgele bozarak onları Nether parçalarına dönüştürür. Parçalar yalnızca aşılanmış taşla kaplandıklarında duyarlı görünürler, bu nedenle bir parça kümesini bozmanın hiçbir etkisi olmayacaktır.
+description.enchantment.educational=Bir silaha bilgi ve öğrenmenin özünü aşılamak için bir büyü yarattınız. Canavarların kafalarına bu tür bir öğrenme aşılamak, büyü seviyesine bağlı olarak normalden daha fazla deneyim düşürmelerine neden olur.
+description.enchantment.greedy=Kapitalist bir silah düşman bir yaratığı her öldürdüğünde, Zümrüt Parçacığı düşürme şansı vardır. Bir Kapitalist silahı bir köylüyü öldürmek için kullanılırsa, bunun yerine köylünün zümrütlerinden birini düşürür.
+description.enchantment.impact=Etki büyüsüne sahip bir Bukalemun Aleti, tek bir blok yerine 3 x 3 blokluk bir alanı kazarak keşif madenciliğini daha hızlı ve alanları düzleştirmeyi çok daha kolay hale getirir.
+description.enchantment.voidtouched=Boşluğadokunuş büyüsü Bukalemun Alet'e Boşluk Aletler ile aynı yenileyici niteliği verir.
+description.enchantment.wrath=Gazap büyüsü bir silahın saldırı gücünü artırır ancak yine de Keskinlik, Eklembacaklıların Felaketi ve Darbe ile uyumludur.
+
+#BiblioCraft Enchantments
+description.Eternal Compass=Oyuncu öldüğünde, onu ölüm noktasına geri götürecek bir Ebedi Pusula ile ortaya çıkacaktır.
+description.Reading=Dünyadaki BiblioCraft bloklarındaki öğelere bakarken üzerine gelinen metin görüntülenecektir.
+
+#Witching Gadgets Enchantments
+description.enchantment.wg.backstab=Sırttan Bıçaklama ile büyülenmiş eşyalar, arkadan saldırırken seviye başına ek 20% hasar verir, ayrıca hedef sizin farkında olmadığında 40% daha hasar verir.
+description.enchantment.wg.gemstoneBrittle= Cadısal kesim ile bir mücevhere kırılganlık yükleyin.
+description.enchantment.wg.gemstonePotency=Daha güçlü hale getirmek için cadılıkla kesilmiş bir mücevheri yükleyin.
+description.enchantment.wg.invisibleGear=Bu büyünün ilk seviyesi, siz görünmez olduğunuzda teçhizatınızı yarı saydam hale getirecek, ikinci seviye ise kalıcı olarak görünmez kılacaktır.
+description.enchantment.wg.rideProtect=Biri sırtınızdayken etrafta dolaşmak inanılmaz derecede zordur. Kaskınızı bu itme büyüsüyle büyülemek bu sorunu çözecektir. Üzerinize atlamaya çalışan herkes savrulacak ve hasar görecektir.
+description.enchantment.wg.soulbound=Oyuncu öldüğünde eşya/alet/zırh envanterde tutulacak ve yere düşmeyecektir.
+description.enchantment.wg.stealth=Bu büyüyü botlarınıza veya pantolonunuza uyguladığınızda, eğilirken fark edilmeme şansınız artar. Bu şans her seviyede 10% artar ancak söz konusu hedefin görüş alanındaysanız 10% azalır. Keşfedilmeniz durumunda, 5 blok yarıçapındaki tüm düşmanlar bilgilendirilecektir.
+description.enchantment.wg.unveiling=Bu büyü Hakikat Gözlüğüne veya aynı işlevdeki diğer kasklara eklenir. Bu büyülü eşyayı takarken, görünmezlik güçlendirmesine sahip yaratıkları görebileceksiniz. Dahası, Saydamlık büyüsü başkaları tarafından kullanıldığında etkisiz hale getirilir ve spektral manto kullanıcıları daha net gösterilir.
+
+#Thaumic Exploration Enchantments
+description.enchantment.binding=Seviye 1'de vurulan düşmanları birkaç saniyeliğine yavaşlatır. Seviye 2'de Endermenlerin ışınlanmasını ve Creeperların patlamasını birkaç saniyeliğine önler.
+description.enchantment.disarm=Saldırıya uğrayan düşmanların silahlarını düşürme şansı vardır, diğer oyuncular üzerinde çalışmaz. Not: Vanilla'daki Dikenler büyüsü de bunu tetikler.
+description.enchantment.nightVision=Bu büyülü bir eşyayı tutarken kalıcı bir Gece Görüşü iksiri etkisi kazanırsınız.
+
+#EnderIO Enchantments
+description.enchantment.autosmelt=Bununla büyülenmiş bir eşya tarafından kazılan herhangi bir blok, sanki bir Fırın tarafından işleniyormuş gibi anında ısıtılır.
+description.enchantment.xpboost=Bu büyü, canavarları veya oyuncuları öldürerek ya da blokları kırarak düşen Tecrübe miktarını belirli bir yüzde oranında artırır.
+description.enchantment.enderio.soulBound=Oyuncu öldüğünde eşya/alet/zırh envanterde tutulacak ve yere düşmeyecektir.
+
+#EnderZoo Enchantments
+description.enchantment.enderzoo.witherArrow=Vurduğunda 5 saniyeliğine Wither etkisi uygular.
+description.enchantment.enderzoo.witherWeapon=Vurduğunda 5 saniyeliğine Wither etkisi uygular.
+
+#BattleGear Enchantments
+description.enchantment.bash.weightless=Kalkan darbesi başına stamina kaybını azaltır.
+description.enchantment.bash.power=Kalkan vuruşundaki itme kuvvetini artırır (rakibi daha fazla iter).
+description.enchantment.bash.damage=Kalkan darbesine hasar ekler.
+description.enchantment.shield.usage=Kalkan bloğunda kaybedilen dayanıklılığı azaltır.
+description.enchantment.shield.recover=Kalkanı tutarken dayanıklılık toparlama oranını artırır ancak engellerken değil.
+description.enchantment.bow.loot=Yay ile öldürmede ganimeti artırma şansı ekler.
+description.enchantment.bow.charge=FOV'u etkilemeden yay için daha düşük şarj süresi.
+
+#Thaumic Bases Enchantments
+description.enchantment.elderKnowledge=Ölmüş yaratıklardan bilgi alabilme şansı.
+description.enchantment.eldritchBane=Eldritch yaratıklarına daha fazla hasar ver.
+description.enchantment.magicTouch=Öldürülmüş düşmanlardan daha çok Aspekt Küresi elde et.
+description.enchantment.tainted=Saldırıya uğrayan düşmanlara zehir bulaştır.
+description.enchantment.vaporising=Öldürülen canavarların Kristalize Esansını kazan
+
+#Misc. Enchantments
+description.enchant.cofh.holding=Dayanıklı kutu veya omuz çantasının sahip olduğu envanteri (seviye başına 8-9) arttırır. 
+description.enchant.cofh.multishot=Yayların tek bir ok harcayarak birden fazla vurmasını sağlar.
+description.enchantment.draconicevolution.reaperEnchant=Bir canavarı öldürmenin o canavara ait ruhunu düşürme şansı vardır. Bu bonus: şans, çeşitli Draconic Evolution silahlarının bir ruhunu düşürmesi için doğal şansla katlanır.
+description.enchantment.damage.endermen=Ender Canavarlarına daha çok hasar vurur ve onların ışınlanmasını önler.
+description.enchantment.damage.radioactivity=Silahınıza veya zırhınıza radyoaktivite ekleyerek canavarların veya oyuncuların acı çekmesine neden olun.
+description.gadomancy.enchantment.revealer=Kaskın için bir büyü. Kullanıldığında tıpkı Thaumcraft'taki Hakikat Gözlüğü gibi Aura Düğümlerini açığa çıkarır.
+description.enchantment.projectred.expansion.fuel_efficiency=Jetpackin için daha iyi yakıt verimliliği
