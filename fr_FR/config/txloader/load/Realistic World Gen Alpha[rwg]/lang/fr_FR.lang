@@ -1,0 +1,15 @@
+generator.RWG=Realistic Alpha
+rwg.buginfo.line1=Un bug dans la version de RWG incluse dans GTNH 2.2.0.0 a entraîné une génération du monde différente des versions précédentes.
+rwg.buginfo.line2=Le bug a depuis été corrigé, rétablissant la génération future au style d'avant la 2.2.0.0.
+rwg.buginfo.line3=Malheureusement, la version utilisée lors de la création de ce monde ne peut pas être détectée automatiquement.
+rwg.buginfo.line4=Pour permettre aux joueurs des deux versions de continuer à jouer sur leur monde sans créer de nouvelles frontières de chunks discontinues,
+rwg.buginfo.line5=Cette version de RWG prend en charge les deux, mais vous devez choisir lequel utiliser lors de la mise à niveau des mondes.
+rwg.buginfo.perlin= est la version utilisée dans toutes les versions sauf la 2.2.0.0
+rwg.buginfo.opensimplex= est la version utilisée en 2.2.0.0
+
+rwg.noise.current_type=Le type de bruit actuel est %s
+rwg.noise.unchanged=Type de bruit inchangé.
+rwg.noise.was_set_to.unknown=Le type de bruit a été défini sur UNKNOWN ; le bruit de Perlin sera donc utilisé par défaut.
+rwg.noise.was_set_to.generic=Le type de bruit a été défini sur %s
+rwg.noise.instant_new_chunks=Tous les nouveaux chunks seront instantanément générés avec l’algorithme sélectionné.
+rwg.noise.needs_restart=Le monde doit être rechargé (redémarrage du serveur ou reconnexion en solo) pour que les changements prennent effet.
