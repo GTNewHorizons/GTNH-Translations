@@ -6666,7 +6666,7 @@ Shift+右键会将剩余模块扔在地上
     S:gt.blockmachines.industrialcokeoven.controller.tier.single.tooltip.15543=机器类型：§e焦炉，ICO§r
 将原木和煤处理成木炭与焦煤
 使用隔热焦炉机械方块时：基础并行§68§7，每增加一层额外加§616§7并行
-用配绝热焦炉机械方块时：基础并行§632§7，每增加一层额外加§632§7并行
+使用绝热焦炉机械方块时：基础并行§632§7，每增加一层额外加§632§7并行
 功率系数：每级§f加热线圈§7-§b2%§7（乘算）
 最多可增加15层，使用永恒线圈可解锁无限层数
 无尽线圈及以上等级允许使用单个多A能源仓
@@ -10859,18 +10859,8 @@ T4 - 虚空金属砧
    使用子信道§6item_pipe§r§7设定§6物品管道方块等级
    §7§m------------------------------
 §f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
-    S:gt.blockmachines.multimachine.mass_solidifier.name=大规模固化机
-    S:gt.blockmachines.multimachine.mass_solidifier.tooltip=机器类型：§e流体固化机§r
-并行：每§f电压§7等级增加§610§7
-运行速度：最高可提升至§a300%§7
-以速度提升的两倍速率衰减
-功率系数：§b80%§7
-§f玻璃§7等级限制了能源仓等级，§5§nUEV§7玻璃解锁所有等级
-可使用§e固化仓§7在同一仓室中容纳流体和模具
-§9相当Ⱄⱁⰾⰻⰴ，不是吗？
-§7§m-----------------------------------------
-按住§l[LSHIFT]§r§7以显示结构指导
-添加者：§a§9Omda§cCZ§r§7
+    S:gt.blockmachines.multimachine.mass_solidifier.name=Mass Solidifier
+    S:gt.blockmachines.multimachine.mass_solidifier.tooltip=Machine Type: §eFluid Solidifier§r\n§610§7 Parallels per §fVoltage§7 Tier\nSpeeds up to a maximum of §a300%§7\nDecays at double the rate that it speeds up at\n§b80%§7 EU Usage\nEnergy Hatch limited by §fGlass§7 Tier, §5§nUEV§7-tier unlocks all\nCan use §eSolidifier Hatches§7 to hold fluids and molds in the same hatch\n§9Pretty Ⱄⱁⰾⰻⰴ, isn't it\n§7§m-----------------------------------------\nHold §l[LSHIFT]§r§7 to display structure guidelines\nAdded by: §a§9Omda§cCZ§r§7
     S:gt.blockmachines.multimachine.mass_solidifier.tooltip_secondary=§f尺寸：§65§7x§66§7x§69§7（§6宽§7x§6高§7x§6长§7）
 §f结构：
    §f控制器：  §7正面底中
