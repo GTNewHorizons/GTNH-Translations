@@ -138,7 +138,7 @@ class Action:
             if provided.parts and provided.parts[0] == "config":
                 logger.info(f"Skip normalizing path for {path}")
             elif provided.parts and provided.parts[0] == "resources":
-                for i in range(provided.parts):
+                for i in range(len(provided.parts)):
                     result = re.sub(r"\(\+\d+\)", "", provided.parts[i])
                     if result != provided.parts[i]:
                         logger.warning(f"Trimmed path for {provided.parts[i]}")
