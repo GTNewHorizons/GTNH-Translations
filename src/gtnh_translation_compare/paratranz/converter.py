@@ -15,6 +15,7 @@ from gtnh_translation_compare.paratranz.types import (
     Property,
     StringItem,
 )
+from gtnh_translation_compare.utils.line_break_subst import line_break_subst
 from gtnh_translation_compare.utils.unicode import to_unicode
 
 
@@ -73,7 +74,7 @@ class Converter:
             translation = string_item.translation
             if translation:
                 buffer.write(content[left : p.start])
-                buffer.write(translation)
+                buffer.write(line_break_subst(string_item.context, translation))
             else:
                 buffer.write(content[left : p.end])
             left = p.end
