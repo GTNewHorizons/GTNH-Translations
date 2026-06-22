@@ -132,8 +132,16 @@ class Action:
     ) -> list[str]:
         # Existing projects use resource folder on PT
         def path_converter_(path: str) -> Path:
-            rel = Path(os.path.relpath(path, Path('resources')))
-            return Path('config/txloader/load') / rel
+            cfg = Path("config")
+            provided = Path(path)
+            if provided.parts and provided.parts[0] == "config":
+                logger.info(f"Skip normalizing path for {path}")
+            elif provided.parts and provided.parts[0] == "resources":
+                provided = cfg / "txloader" / "load" / Path(*provided.parts[1:])
+            else:
+                logger.warn(f"Unknown path {path}")
+                provided = cfg / "txloader" / "load" / provided
+            return provided
 
         return await self.__paratranz_to_translation(
                 is_mod_lang_file,

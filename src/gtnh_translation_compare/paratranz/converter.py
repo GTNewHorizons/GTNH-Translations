@@ -74,7 +74,7 @@ class Converter:
             translation = string_item.translation
             if translation:
                 buffer.write(content[left : p.start])
-                buffer.write(line_break_subst(string_item.context, translation))
+                buffer.write(line_break_subst(paratranz_file, string_item.context, translation))
             else:
                 buffer.write(content[left : p.end])
             left = p.end
