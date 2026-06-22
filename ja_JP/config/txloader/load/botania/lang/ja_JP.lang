@@ -184,7 +184,7 @@ botania.nei.pureDaisy=ピュアデイジー
 botania.nei.lexica=Botania魔法辞典
 nei.options.keys.gui.botania_corporea_request=コーポレアの要求
 
-botania.nei.anySeed=Any Seed
+botania.nei.anySeed=任意の種
 
 botania.nei.lexicaSeparator=追加情報:
 botania.nei.lexicaNoInfo=（この項目には追加情報がありません。ごめんね！）
@@ -3227,11 +3227,11 @@ botania.page.incense3=Incense is wincense
 botania.page.incense4=I can incense it
 
 # -- EYE OF THE ANCIENTS
-botania.entry.forestEye=Eye of the Ancients
-botania.tagline.forestEye=Animal detector
-botania.page.forestEye0=As the Ancients who used to watch over the world always looked for the living beings on it, this block, the &1Eye of the Ancients&0, will do just that.<br>By attaching a &1Comparator&0 next to it, it'll send out a redstone signal equivalent to the amount of animals it can find.
-botania.page.forestEye1=The counting only starts at 2, so, with 2 animals around, it'd output a signal of strength 1, with 3 animals, of strength 2 and so on.<br>Lastly, the time has worn down the sight of the Ancients, so this block can only see animals in about 6 blocks in any direction.
-botania.page.forestEye2=Now you see me...
+botania.entry.forestEye=古代人の目
+botania.tagline.forestEye=動物検知装置
+botania.page.forestEye0=かつてこの世界を見守っていた古代人たちが常に生命体を見ていたように、この&7《&1古代人の目&7／Eye of the Ancients》&0というブロックも同じ役割を果たします。<br>このブロックに&7《&1コンパレーター&7／Comparator》&0を取り付けると、見つけた動物の数に応じたレッドストーン信号を出力します。
+botania.page.forestEye1=カウントは2から開始されるので、動物が2匹の場合は強度1の信号を、3匹の場合は強度2の信号を出力します。<br>最後に、長い年月により古代人の痕跡は風化してしまっており、このブロックは周囲約6ブロックまでの動物しか見ることができません。
+botania.page.forestEye2=今は見えていますね...
 
 # -- OPEN CRATE
 botania.entry.openCrate=開いた木箱
@@ -3352,12 +3352,12 @@ botania.page.felPumpkin1=ウォーロックが再び弱体化されます
 
 # - MYSTICAL INSTRUMENTS
 # -- MANA BLASTER
-botania.entry.manaBlaster=Mana Blaster
-botania.tagline.manaBlaster=Portable Mana Spreader, with lenses!
-botania.page.manaBlaster0=The &1Mana Blaster&0 is like a portable &1Mana Spreader&0, while shaped like a pistol for easy handling, it's not exactly a firearm, as much as it is just a portable spreader.<br>By utilizing &4Mana&0 from &4Mana carrying items&0 in the holder's inventory, it can shoot a mana burst wherever one is looking.
-botania.page.manaBlaster1=This burst is a bit different from the one fired from speaders, as it's faster, but carries only three quarters of the mana a spreader burst would. There's also a short cooldown period after firing the blaster until another burst can be shot.
-botania.page.manaBlaster2=&1Mana Lenses&0 also function with the blaster. To attach one to it, put them side by side on a crafting table, to remove it, simply place the &1Mana Blaster&0 back on the crafting grid.<br>If the shooter has a &1Haste&0 effect present on their person, the speed at which they can fire the blaster also increases. 
-botania.page.manaBlaster3=We need more dakka
+botania.entry.manaBlaster=マナブラスター
+botania.tagline.manaBlaster=携帯型マナ射出装置、レンズ付き！
+botania.page.manaBlaster0=&7《&1マナブラスター&7／Mana Blaster》&0は、携帯型の&7《&1Mana Spreader&7／Mana Spreader》&0のようなものです。扱いやすいようにピストル型をしていますが、厳密には銃器ではなく、単に携帯型の射出装置に過ぎません。<br>インベントリ内の&4マナ運搬アイテム&0から&4マナ&0を供給することで、見ている方向にマナバーストを発射します。
+botania.page.manaBlaster1=このバーストは射出装置から発射されるものとは異なり、速度は速いものの、マナ量は3/4程度しかありません。また、一度発射してから次に発射するまでには短いクールダウン時間が必要です。
+botania.page.manaBlaster2=&7《&1マナブラスター&7／Mana Blaster》&0には&7《&1マナレンズ&7／Mana Lens》&0を取り付けることもできます。取り付けるにはブラスターとレンズを一緒にクラフトし、取り外すにはブラスターを再びクラフトします。<br>&7《&1採掘速度上昇&7／Haste》&0の効果を受けている場合、ブラスターを発射する速度も上がります。
+botania.page.manaBlaster3=もっと火力が必要だ
 
 # -- PASTURE SEEDS
 botania.entry.grassSeeds=牧草の種
@@ -3490,13 +3490,13 @@ botania.page.fireRod2=This rod can be given to a &1Livingwood Avatar&0. When don
 botania.page.fireRod1=Through the fire and the flames
 
 # -- VINE BALLS
-botania.entry.vineBall=Vine Balls
-botania.tagline.vineBall=Throwable vines you can climb like ladders
-botania.page.vineBall0=&1Ladders&0 can't stand up on their own, they require something on their back, whereas &1Vines&0 don't. Normally, though, &1Vines&0 aren't strong enough for someone to climb them when they're freestanding.<br>By combining a few &1Vines&0, it's possible to create a ball that can be thrown, to create a climbable ladder of strong &1Vines&0 where it hits.
-botania.page.vineBall1=It's also possible, by combining some materials such as &1Livingwood&0 or a &1Rune of Air&0 to create a slingshot that lets these &1Vine Balls&0 be shot while completely ignoring the force of gravity.
-botania.page.vineBall2=This would be in Vineacraft...
-botania.page.vineBall3=...if that actually existed.
-botania.page.vineBall4=Oh, and you can make &1Moss Stone&0 too
+botania.entry.vineBall=ツタ玉
+botania.tagline.vineBall=はしご代わりになる投擲可能なツタ
+botania.page.vineBall0=&7《&1はしご&7／Ladder》&0は自立できず背後にブロックが必要ですが、&7《&1ツタ&7／Vine》&0なら不要です。ただし、自立している状態の&7《&1ツタ&7／Vine》&0は人が登れるほどの強度はありません。<br>いくつかの&7《&1ツタ&7／Vine》&0を組み合わせることで投げられる玉にすることができ、当たった場所に強力な&7《&1ツタ&7／Vine》&0でできたはしごを設置します。
+botania.page.vineBall1=&7《&1リビングウッド&7／Livingwood》&0や&7《&1風のルーン&7／Rune of Air》&0などを組み合わせることで、重力を無視して&7《&1ツタ玉&7／Vine Ball》&0を発射できるパチンコを作成できます。
+botania.page.vineBall2=これはVineacraftの話です
+botania.page.vineBall3=そんなものがあれば、ですが
+botania.page.vineBall4=ちなみに&7《&1苔むした丸石&7／Mossy Cobblestone》&0も作れます
 
 # -- SHARD OF LAPUTA
 botania.entry.laputaShard=Shard of Laputa
@@ -3679,9 +3679,9 @@ botania.page.sextant2=You sketch a circle, filling you with determination
 
 # - ENDER ARTEFACTS
 # -- EXTRACTING ENDER AIR
-botania.entry.enderAir=Extracting Ender Air
-botania.tagline.enderAir=Throwable bottles that create End Stone
-botania.page.enderAir0=The air present in the void of the &1End&0 seems to have some mutating properties. Right clicking with an empty &1Glass Bottle&0 while in the &1End&0 will capture some of that air, which can then later be tossed similarly to a splash potion, turning nearby &1Stone&0 on the landing point into &1End Stone&0. 
+botania.entry.enderAir=エンドの空気の抽出
+botania.tagline.enderAir=エンドストーンを作成する投擲可能な瓶
+botania.page.enderAir0=&7《&1エンド&7／End》&0の虚空を満たす空気には、何らかの変異特性があるようです。空の&7《&1ガラス瓶&7／Glass Bottle》&0を持って&7《&1エンド&7／End》&0で右クリックをすると、空気を回収できます。それをスプラッシュポーションのように投げると、着弾地点周囲の&7《&1石&7／Stone》&0を&7《&1エンドストーン&7／End Stone》&0に変異させます。
 
 # -- ENDER OVERSEER
 botania.entry.enderEyeBlock=Ender Overseer
@@ -3938,22 +3938,22 @@ botania.page.knockbackBelt0=By harnessing the forces of tectonic movement, the &
 botania.page.knockbackBelt1=I'm the man who can't be moved
 
 # -- SNOWFLAKE PENDANT
-botania.entry.icePendant=Snowflake Pendant
-botania.tagline.icePendant=Walk on water, by making ice
-botania.page.icePendant0=The &1Snowflake Pendant&0 is a &4Bauble&0 that resonates freezing energy, while it's worn, any nearby still &1Water&0 blocks at foot level will be converted into &1Ice&0.<br>The &1Ice&0 will melt shortly afterward the wearer leaves the area. Lastly, this charm will not freeze any blocks if the wearer is sneaking or fully submerged.  
-botania.page.icePendant1=Do you want to build a snowman?
+botania.entry.icePendant=雪片のペンダント
+botania.tagline.icePendant=氷を作って水を歩く
+botania.page.icePendant0=&7《&1雪片のペンダント&7／Snowflake Pendant》&0は&4アクセサリー&0の一種で、装備している間、足元の&7《&1水&7／Water》&0源を&7《&1氷&7／Ice》&0に変えます。<br>この氷は、装備者が離れると溶け始めます。最後に、装備者がスニークしている間や水中にいる間は凍らせません。
+botania.page.icePendant1=雪だるまつくろう
 
 # -- PYROCLAST PENDANT
-botania.entry.lavaPendant=Pyroclast Pendant
-botania.tagline.lavaPendant=Fire resistance, somewhat
-botania.page.lavaPendant0=The &1Pyroclast Pendant&0 is a &4Bauble&0 that absorbs low heat, while it's worn, if the wearer is caught on fire and is not directly standing on &1Fire&0, &1Lava&0 or anything else that can induce burning, they'll be extinguished.
-botania.page.lavaPendant1=Hanako could have used one of these
+botania.entry.lavaPendant=火砕のペンダント
+botania.tagline.lavaPendant=多少の耐火性
+botania.page.lavaPendant0=&7《&1火砕のペンダント&7／Pyroclast Pendant》&0は&4アクセサリー&0の一種で、熱をわずかに吸収する機能を持っています。装備している間、装備者が燃えてしまっても&7《&1火&7／Fire》&0や&7《&1溶岩&7／Lava》&0などの炎上の原因になるものに触れていなければ、自動的に消火します。
+botania.page.lavaPendant1=華子もこれを持っていれば...
 
 # -- GOLDEN LAUREL CROWN
-botania.entry.goldenLaurel=Golden Laurel Crown
-botania.tagline.goldenLaurel=Immunity to death, once
-botania.page.goldenLaurel0=One of the uses for &1Gaia Spririts&0 is to, grant a layer of immortality to one that uses them, while wearing a &1Golden Laurel Crown&0, if the wearer were to die, the crown will shatter, regenerating all of their health and giving them a short period of invincibility.
-botania.page.goldenLaurel1=Given the theme, probably Viridi
+botania.entry.goldenLaurel=黄金の月桂冠
+botania.tagline.goldenLaurel=使い捨ての不死
+botania.page.goldenLaurel0=&7《&1ガイアの魂&7／Gaia Spirits》&0の用途の一つに&7《&1黄金の月桂冠&7／Golden Laurel Crown》&0に使用することで、装備者に一層の不死を与えるというものがあります。装備者が死亡した場合、冠は砕け散り、体力は全回復し、短時間の無敵状態が与えられます。
+botania.page.goldenLaurel1=テーマからして、おそらくナチュレ
 
 # -- RING OF CHORDATA
 botania.entry.waterRing=Ring of Chordata
@@ -4291,7 +4291,7 @@ botania.page.stoneAlchemy3=レンガ
 botania.page.stoneAlchemy4=模様入りの石
 
 # -- BLAZE LIGHT
-botania.entry.blazeBlock=Blaze Light
+botania.entry.blazeBlock=ブレイズライト
 botania.tagline.blazeBlock=ブレイズの圧縮ブロックと再生可能な黒曜石
 botania.page.blazeBlock0=ブレイズの素材を粉砕して押しつぶすと、実用的な装飾用光源ブロックが作成できます。粗雑な作りではありますが、確かに光源として機能します。<br>当然のことではありますが、&7《&1石炭ブロック&7／Block of Coal》&0と同様に&7《&1ブレイズライト&7／Blaze Light》&0もかまどなどの燃料を使う装置で燃料として使用できます。&7《&1ピュアデイジー&7／Pure Daisy》&0の隣に置くと、不思議なことに&7《&1黒曜石&7／Obsidian》&0に変化します。
 botania.page.blazeBlock1=0x1a4
