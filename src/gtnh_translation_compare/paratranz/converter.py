@@ -15,6 +15,7 @@ from gtnh_translation_compare.paratranz.types import (
     Property,
     StringItem,
 )
+from gtnh_translation_compare.utils.line_break_subst import line_break_subst
 from gtnh_translation_compare.utils.unicode import to_unicode
 
 
@@ -39,11 +40,19 @@ class Converter:
     async def _to_translation_file(self, paratranz_file: File) -> "Optional[TranslationFile]":
         paratranz_file = await self.client.get_file(paratranz_file.id)
         file_extra_dict = paratranz_file.extra
-        if file_extra_dict is None:
+        if file_extra_dict is None or not isinstance(file_extra_dict, dict):
             print(f"::warning::skipping ParaTranz file with no extra metadata (uploaded manually?): {paratranz_file.name}")
             logger.warning("skipping file with no extra metadata (uploaded manually?): {}", paratranz_file.name)
             return None
         try:
+            # compatibility with zh_CN
+            if "targetRelpath" not in file_extra_dict and "target_relpath" not in file_extra_dict:
+                logger.warning(f"Determining target_relpath from file path {paratranz_file.name}")
+                file_extra_dict["target_relpath"] = paratranz_file.name.replace(".json", "")
+                en_us_path = file_extra_dict["target_relpath"]
+                for lang in Language.values_except_en_us():
+                    en_us_path = en_us_path.replace(lang, "en_US")
+                file_extra_dict["en_us_relpath"] = en_us_path
             file_extra = FileExtra.model_validate(file_extra_dict)
         except Exception as e:
             print(f"::warning::skipping ParaTranz file with invalid extra metadata: {paratranz_file.name} ({e})")
@@ -65,7 +74,7 @@ class Converter:
             translation = string_item.translation
             if translation:
                 buffer.write(content[left : p.start])
-                buffer.write(translation)
+                buffer.write(line_break_subst(string_item.context, translation))
             else:
                 buffer.write(content[left : p.end])
             left = p.end
