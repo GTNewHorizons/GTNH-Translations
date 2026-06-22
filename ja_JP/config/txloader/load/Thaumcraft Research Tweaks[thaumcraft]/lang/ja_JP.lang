@@ -1,0 +1,20 @@
+# Patch to explain how to batch craft
+tc.research_page.RESEARCHER1.1=より効率的に研究を進める方法を発見した。<BR>マス目に書き込んだ相を削除すると、25%の確率で研究ポイントが還元される。<BR>また、合成相の上にカーソルを置くと、合成するのに必要な相を確認することができる。<BR>さらに、相を合成するときにCtrlを押すと、一度に最大10回合成することができるようになった。
+tc.research_page.RESEARCHER2.1=さらに効率的に研究を進めることができるようになった。<BR>マス目に書き込んだ相を削除すると、50%の確率で研究ポイントが還元される。<BR>また、相を書き込むとき、10%の確率で研究ポイントを消費しないようになった。<BR>さらに、合成相をShiftを押しながらクリックすることで、必要な研究ポイントを消費して、その相を合成することができるようになった。もちろんCtrlでの一括合成にも対応している。
+tc.research_page.RESEARCHDUPE.1=研究成果を簡単に複製することができるようになった。<BR>研究テーブルに複製ボタンが表示されていることだろう。研究の完了時や、研究成果を研究テーブルに入れたときにこれをクリックすると、紙やインク、必要な研究ポイントを消費して、研究成果の複製ができる。<BR>複数回複製する場合、回数が多くなるほど複製コストが高くなる。
+
+# Patch to show new UI, explain about combining and researching using aspect drag & drop or right click while dragging
+tc.research_page.RESEARCH.6=<IMG>thaumcraft:textures/research/table/research-table-tutorial-schematic.png:0:0:256:227:.45</IMG>§l3番§rの場所には、全ての根源相(と調査で発見した相)の研究ポイントとその所持数が表示されている。初めてワールドに入ったプレイヤーには、最低限の知識として根源相の研究ポイントが少し与えられているようだ。
+tc.research_page.RESEARCH.7=ソーモメーターでの調査をかなり進めていた場合は、多くの相が表示されていることだろう。<BR>研究テーブルでは、複数の相を組み合わせて新たな相を発見することができる。相をもう一つの相にドラッグするか、ドラッグ中に相の上で右クリックすることで、相の合成を試みることができる。合成が成功した場合、画面右下に合成した相の情報が表示され、§l3番§rの場所にも追加される。<BR>合成に使用した相は、合成の成功、失敗に関わらず消費されてしまう。
+tc.research_page.RESEARCH.8=§l       §n(3) 一次研究§r<IMG>thaumcraft:textures/research/table/research-table-tutorial-filled.png:0:0:256:200:.50</IMG>研究をするためには、紙と筆記具を用意する必要がある。<BR>ソーモノミコンを開くと、現在持っている全ての知識と、研究することができる項目が表示されていることだろう。
+tc.research_page.RESEARCH.9=点滅している四角形や円形の項目は、それが一次研究であることを示している。<BR>タイトルが(奇妙なルーン文字ではなく)読めることができる項目は、クリックすることができる。インベントリの紙と筆記具のインクを消費し、研究メモを入手できるだろう。これを研究テーブルの§l2番§rのスロットに入れることで研究を開始することができる。<BR>研究メモを入れると、§l4番§rの場所に六角形のマス目と相のアイコンが記されている1枚の紙が表示される。「？」マークは、該当する相がまだ発見されていないことを示し、研究する前にこの相を発見する必要がある。<LINE>
+tc.research_page.RESEARCH.10=研究の完了条件は、表示されている全ての相を繋ぎ合わせることだ。持っている研究ポイントをマス目にドラッグしたり、ドラッグ中にマス目の上で右クリックすることで相を書き込むことができ、相が隣接する相の構成要素に含まれている場合、相が接続される。<IMG>thaumcraft:textures/misc/research3.png:0:0:150:80:.65</IMG>相を配置すると研究ポイントが1つ消費される。誤配置した相はクリックで削除することができるが、研究ポイントは回復しない。
+
+# Hint button on the table
+researchtable.usagehint.header=使い方
+researchtable.usagehint.description=相をドラッグアンドドロップかドラッグ中に右クリックして書き込み、合成をする
+researchtable.usagehint.research_expertise=Ctrlを押したまま相を合成すると、一度に最大10回合成できる。「熟練した研究」の合成にも対応している。
+
+# In case notes get corrupted
+tc.research.notes.corrupted.line.1=メモが壊れています！
+tc.research.notes.corrupted.line.2=一からやり直してください。
