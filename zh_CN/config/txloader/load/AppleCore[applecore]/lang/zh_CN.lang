@@ -1,0 +1,24 @@
+applecore.commands.hunger.usage=/hunger [玩家] <饥饿值>
+applecore.commands.hunger.set.hunger.to=将 %s 的饥饿值设置为 %d
+
+applecore.cfg.client=客户端
+applecore.cfg.server=服务端
+applecore.cfg.general=通用
+applecore.cfg.exhaustion.sync.threshold=同步消耗度阈值
+applecore.cfg.show.food.values.in.tooltip=在tooltip中显示食物参数值
+applecore.cfg.show.food.values.in.tooltip.always=总是在tooltip中显示食物参数值
+applecore.cfg.show.saturation.hud.overlay=显示饱和度HUD叠加层
+applecore.cfg.show.food.values.hud.overlay=显示食物参数值HUD叠加层
+applecore.cfg.show.food.exhaustion.hud.underlay=显示食物消耗度HUD叠加层
+applecore.cfg.show.food.stats.in.debug.overlay=在Debug界面显示食物数据
+
+applecore.cfg.client.tooltip=这些config设置仅对客户端生效
+applecore.cfg.server.tooltip=这些config设置仅对服务端生效
+applecore.cfg.general.tooltip=这些config设置同时对客户端与服务端生效
+applecore.cfg.exhaustion.sync.threshold.tooltip=在同步前，服务端与客户端之间消耗度的最大差值。提高该值会减少数据包的发送量，但会导致客户端的消耗度变化显得更不连贯
+applecore.cfg.show.food.values.in.tooltip.tooltip=设为true时，按住SHIFT会在食物的tooltip中显示其饥饿值与饱和度
+applecore.cfg.show.food.values.in.tooltip.always.tooltip=设为true时，始终在食物的tooltip中显示其饥饿值与饱和度(无需按住SHIFT)
+applecore.cfg.show.saturation.hud.overlay.tooltip=设为true时，在饥饿条上覆盖显示你当前的饱和度
+applecore.cfg.show.food.values.hud.overlay.tooltip=设为true时，显示你当前持有的食物所能恢复的饥饿值（当“显示饱和度HUD叠加层”设为true时，同时显示饱和度）
+applecore.cfg.show.food.exhaustion.hud.underlay.tooltip=设为true时，在饥饿条后方以进度条形式显示你的食物消耗度
+applecore.cfg.show.food.stats.in.debug.overlay.tooltip=设为true时，在F3的调试屏幕中添加一行，用于显示你的饥饿值、饱和度,以及消耗度
