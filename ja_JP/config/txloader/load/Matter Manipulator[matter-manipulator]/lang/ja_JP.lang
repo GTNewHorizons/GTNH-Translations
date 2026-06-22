@@ -1,0 +1,305 @@
+
+tile.air.name=空気
+
+item.itemMatterManipulator0.name=試製マターマニピュレーター
+item.itemMatterManipulator1.name=マターマニピュレーター MKI
+item.itemMatterManipulator2.name=マターマニピュレーター MKII
+item.itemMatterManipulator3.name=マターマニピュレーター MKIII
+
+item.metaitem.0.name=マターマニピュレーター図面
+item.metaitem.1.name=試製マターマニピュレーターパワーコア
+item.metaitem.2.name=試製マターマニピュレーター'コンピューター'コア
+item.metaitem.3.name=試製マターマニピュレーターテレポーターコア
+item.metaitem.4.name=試製マターマニピュレーターフレーム
+item.metaitem.5.name=試製マターマニピュレーターレンズアセンブリ
+item.metaitem.6.name=マターマニピュレーターパワーコア MKI
+item.metaitem.7.name=マターマニピュレーターコンピューターコア MKI
+item.metaitem.8.name=マターマニピュレーターテレポーターコア MKI
+item.metaitem.9.name=マターマニピュレーターフレーム MKI
+item.metaitem.10.name=マターマニピュレーターレンズアセンブリ MKI
+item.metaitem.11.name=マターマニピュレーターパワーコア MKII
+item.metaitem.12.name=マターマニピュレーターコンピューターコア MKII
+item.metaitem.13.name=マターマニピュレーターテレポーターコア MKII
+item.metaitem.14.name=マターマニピュレーターフレーム MKII
+item.metaitem.15.name=マターマニピュレーターレンズアセンブリ MKII
+item.metaitem.16.name=マターマニピュレーターパワーコア MKIII
+item.metaitem.17.name=マターマニピュレーターコンピューターコア MKIII
+item.metaitem.18.name=マターマニピュレーターテレポーターコア MKIII
+item.metaitem.19.name=マターマニピュレーターフレーム MKIII
+item.metaitem.20.name=マターマニピュレーターレンズアセンブリ MKIII
+item.metaitem.21.name=マターマニピュレーターMEダウンリンク
+item.metaitem.22.name=マターマニュピュレータークアンタムダウンリンク
+item.metaitem.23.name=未加工のマニピュレーターアップグレード
+item.metaitem.24.name=エネルギー転送マニピュレーターアップグレード
+item.metaitem.24.desc=マターマニピュレーター MKIIIに、クアンタムアップリンク上のレーザーハッチや複数アンペアハッチから電力を供給できるようにする
+item.metaitem.25.name=掘削マニピュレーターアップグレード
+item.metaitem.25.desc=試製マターマニピュレーターがブロックを除去できるようにする
+item.metaitem.26.name=補助テレポーターマニピュレーターアップグレード
+item.metaitem.26.desc=マニピュレーターの設置速度を2倍にする
+item.metaitem.27.name=適応型ワイヤーハーネスマニピュレーターアップグレード
+item.metaitem.27.desc=マニピュレーターのエネルギー使用量を50%削減する
+
+mm.upgrade.hint=これらのマニピュレーターとクラフトしてアップグレードする
+
+mm.tooltip.voltage=%s / %s EU - 電圧: %s
+mm.tooltip.installed_upgrades=導入されているアップグレード:
+
+mm.structure.hatch-info=Any %s Casing
+mm.structure.hatch-dots=(ドット %s)
+
+# GUI
+mm.gui.set_mode=モード設定
+mm.gui.set_remove_mode=除去モード設定
+mm.gui.remove_none=除去しない
+mm.gui.remove_replaceable=置き換え可能なブロックを除去
+mm.gui.remove_all=全て除去
+mm.gui.geometry=図形
+mm.gui.moving=移動
+mm.gui.copying=コピー
+mm.gui.exchanging=交換
+mm.gui.cables=ケーブル
+mm.gui.select_blocks=ブロックを選択
+mm.gui.set_corners=頂点のブロック
+mm.gui.set_edges=辺のブロック
+mm.gui.set_faces=表面のブロック
+mm.gui.set_volumes=内部のブロック
+mm.gui.set_all=全てのブロック
+mm.gui.clear_all=全て消去
+mm.gui.set_shape=形状の設定
+mm.gui.line=直線
+mm.gui.cube=直方体
+mm.gui.sphere=球
+mm.gui.cylinder=円柱
+mm.gui.move_coords=座標の移動
+mm.gui.move_coord_a=座標Aの移動
+mm.gui.move_all=全て移動
+mm.gui.move_coord_b=座標Bの移動
+mm.gui.move_here=ここに移動
+mm.gui.mark_copy=コピー元の指定
+mm.gui.edit_stack=繰り返しの設定
+mm.gui.reset=リセット
+mm.gui.mark=指定
+mm.gui.planning=コピー図面
+mm.gui.cancel_auto_plans=図面の自動クラフトのキャンセル
+mm.gui.plan_all_auto=発注 (全て/自動)
+mm.gui.plan_all_manual=発注 (全て/手動)
+mm.gui.clear_manual_plans=図面の消去
+mm.gui.plan_missing_manual=発注 (不足分/手動)
+mm.gui.plan_missing_auto=発注 (不足分/自動)
+mm.gui.edit_transform=座標変換の設定
+mm.gui.mark_cut=切り取りの指定
+mm.gui.mark_paste=貼り付けの指定
+mm.gui.edit_replace_whitelist=置き換えのホワイトリストの設定
+mm.gui.clear=消去
+mm.gui.add_block=ブロックの追加
+mm.gui.set_block=ブロックの指定
+mm.gui.set_block_to_replace_with=置き換え先のブロックの指定
+mm.gui.set_cable=ケーブルの指定
+mm.gui.advanced_options=高度な設定
+mm.gui.wireless_link_hub=外部のハブに接続: %s
+mm.gui.smart_copy=スマートコピー
+mm.gui.smart_copy.cribs_to_proxies=クラフト入力プロキシの自動設定: %s
+mm.gui.smart_copy.interfaces_to_p2p=P2Pインターフェースの自動設定: %s
+mm.gui.smart_copy.on=オン
+mm.gui.smart_copy.off=オフ
+
+# InfoMessage, only accept %s in this section
+
+mm.info.error.out_of_eu=マターマニピュレーターはエネルギー不足です。
+mm.info.error.could_not_place=残り%sブロックを配置できませんでした。
+mm.info.finished_placing=ブロックの設置が完了しました。
+mm.info.warning.could_not_find=アイテムが見つかりません、%dブロックは一時的にスキップされます。
+mm.info.warning.of_item=  %s x %s
+mm.info.placed_remaining=%sブロック設置しました (残り%s)
+mm.info.warning.only_message=ブロックで警告 %s, %s, %s: %s
+mm.info.warning.with_block=ブロックで警告 %s, %s, %s (%s): %s
+mm.info.error.only_message=ブロックでエラー %s, %s, %s: %s
+mm.info.error.with_block=ブロックでエラー %s, %s, %s (%s): %s
+mm.info.error.could_not_move_block.new=ブロックを移動できません X=%s, Y=%s, Z=%s: %s
+mm.info.error.could_not_move_protected_block.new=保護されているブロックを移動できません X=%s, Y=%s, Z=%s: %s
+mm.info.error.could_not_move_invulnerable_block.new=ブロックが移動不可能です X=%s, Y=%s, Z=%s: %s
+mm.info.error.could_not_move_blocked_block.new=ブロックの移動先が塞がれています X=%s, Y=%s, Z=%s: %s
+mm.info.process_move=%sブロック移動しました (残り%s)
+mm.info.finished_move=ブロックの移動が完了しました。
+mm.info.warning.protected_area=保護されているエリアでブロックを破壊/設置しようとしています！
+mm.info.warning.not_find_container_for_fluid=液体の保管先が見つかりませんでした (液体は消去されました): 
+mm.info.warning.of_fluid=%smBの%s
+mm.info.error.could_not_push_items_to_uplink=アップリンクにアイテムを送信できませんでした: 
+mm.info.error.could_not_push_fluids_to_uplink=アップリンクに液体を送信できませんでした: %s
+mm.info.error.could_not_request_items_from_uplink=アップリンクにアイテムを要求できませんでした: %s
+mm.info.added=%2$sに%1$sを追加しました
+mm.info.set=%sに指定しました: %s
+mm.info.set_block_to_replace_with=置き換え先のブロックに指定しました: %s
+mm.info.added_block_to_exchange_whitelist=置き換えのホワイトリストに追加しました: %s
+mm.info.set_exchange_whitelist_to_only_contain=置き換えのホワイトリストを以下のもののみに指定しました: %s
+mm.info.set_cable=ケーブルを指定しました: %s
+mm.info.error.cannot_mark_copy=範囲を指定できません: コピー元の座標が無効です
+mm.info.error.cannot_mark_paste=範囲を指定できません: 貼り付け先の座標が無効です
+mm.info.new_virtual_me_pattern=新しい仮想MEパターン'%s'をアップリンクに送信しました。
+mm.info.error.craft_failed=図面%sのクラフトが失敗しました。
+mm.info.craft_finished='%s'が完了しました。
+mm.info.cleared_all_plans_and_pending_jobs=全ての図面を消去し、クラフトをキャンセルしました。
+mm.info.cleared_your_manual_plans=あなたの全ての図面を消去しました。
+mm.info.cleared_your_plans_and_craft=あなたの全ての図面を消去し、クラフトをキャンセルしました。
+mm.info.submitted_job=図面'%s'を発注しました。
+mm.info.error.must_have_copy_region=コピー元の座標を指定する必要があります。
+mm.info.error.must_have_paste_region=不足しているアイテムを検知するために、貼り付け先の座標を指定する必要があります。
+mm.info.required_items=必要なアイテム:
+mm.info.not_need_creating_pattern=必要なアイテムが全て存在するため、パターンを作成しませんでした。
+mm.info.error.not_connected=マニピュレーターはアップリンクに接続していません: 仮想パターンを作成できません。
+mm.info.error.must_look_at_block=このコマンドを使用するには、ブロックを見ている必要があります。
+mm.info.error.property_not_found=Property not found.
+mm.info.properties=Properties:
+mm.info.intrinsic_properties=Intrinsic Properties:
+mm.info.none=なし
+mm.info.error.error_setting_property=Error setting property: %s
+mm.info.error.move_overlapping=移動先と移動元が重なっているため、移動させることができません。
+mm.info.warning.could_not_extract_item=アイテムを抽出できません: %s
+mm.info.warning.could_not_find_item=%sが見つかりません
+mm.info.warning.could_not_find_cladding=被覆が見つかりません: %s
+mm.info.warning.inventory_was_the_wrong_size=インベントリのサイズが間違っていました (%sと想定されてましたが、実際は%sでした)
+mm.info.warning.could_not_extract_item_in_slot=スロット%sのアイテムが抽出できません: %s
+mm.info.warning.invalid_item_for_slot=スロット%sは不正なアイテムです: %s
+mm.info.warning.could_not_gather_item_for_inventory=インベントリにアイテムを追加できませんでした: %s
+mm.info.warning.could_not_find_upgrade=アップグレードが見つかりません: %s x %s
+mm.info.error.invalid_location=(%2$s)の位置が無効です(%1$s)
+mm.info.error.could_not_set_direction_to=座標を'%s'に設定できません
+mm.info.error.was_not_allowed_to_put_cover_on=%s面にカバーを設置できません: %s
+mm.info.error.could_not_find_cover=カバーが見つかりません: %s
+mm.info.error.could_not_apply_property=Could not apply property %s: %s
+mm.info.error.qc_rack_is_too_hot=QCラックはアイテムを出し入れするには熱すぎます
+mm.info.error.cannot_extract_while_qc_on=QCが稼働しているとき、アイテムの出し入れはできません
+mm.info.error.too_many_upgrades=アップグレードを過剰に導入しようとしました: 過剰分は消去しました (これはバグです、報告してください)
+mm.info.error.could_not_place_blocks=クラッシュしたため、ブロックを設置できませんでした。詳細はログを参照してください。
+mm.info.missing=%s%s: %s%s%s (%s%s%s missing)
+
+mm.direction.down=下
+mm.direction.east=東
+mm.direction.north=北
+mm.direction.south=南
+mm.direction.center=中央
+mm.direction.unknown=不明
+mm.direction.up=上
+mm.direction.west=西
+
+mm.enum.copyable.property.facing=方向
+mm.enum.copyable.property.forward=前
+mm.enum.copyable.property.up=上
+mm.enum.copyable.property.left=左
+mm.enum.copyable.property.top=上面
+mm.enum.copyable.property.rotation=回転
+mm.enum.copyable.property.mode=モード
+mm.enum.copyable.property.text=テキスト
+mm.enum.copyable.property.orientation=方向
+mm.enum.copyable.property.delay=遅延
+mm.enum.copyable.property.inverted=反転
+mm.enum.copyable.property.color=色
+mm.enum.copyable.property.rotation_state=回転状態
+
+mm.enum.uplink_status.ok=Ok
+mm.enum.uplink_status.no_plasma=プラズマ不足
+mm.enum.uplink_status.ae_offline=MEネットワークに接続できません
+mm.enum.uplink_status.no_hatch=MEハッチがありません
+
+mm.enum.what.corners=頂点
+mm.enum.what.edges=辺
+mm.enum.what.faces=表面
+mm.enum.what.volumes=内部
+mm.enum.what.all=全てのブロック
+
+mm.chat.item.details.imprint=Imprint: %s
+mm.chat.item.details.imprint.none=なし
+mm.chat.item.details.cache_capacity=キャッシュ容量: %s
+mm.chat.item.details.hub=ハブ
+
+# Transform
+mm.transform.info=反転: %s\n上面: %s\n前面: %s
+mm.transform.button.rotate_x-=回転 X-
+mm.transform.button.rotate_x+=回転 X+
+mm.transform.button.rotate_y-=回転 Y-
+mm.transform.button.rotate_y+=回転 Y+
+mm.transform.button.rotate_z-=回転 Z-
+mm.transform.button.rotate_z+=回転 Z+
+mm.transform.button.flip_x=反転 X
+mm.transform.button.flip_y=反転 Y
+mm.transform.button.flip_z=反転 Z
+mm.transform.button.reset=リセット
+mm.transform.header.copy=コピー元
+mm.transform.header.copy_a=コピー (A)
+mm.transform.header.copy_b=コピー (B)
+mm.transform.header.paste=貼り付け
+mm.transform.header.stacking=繰り返し
+
+# Keybindings
+key.mm=Matter Manipulator
+key.mm-ctrl=コントロール
+key.mm-cut=切り取りの指定
+key.mm-copy=コピー元の指定
+key.mm-paste=貼り付けの指定
+key.mm-reset=座標のリセット
+
+# Config
+interaction=交流
+rendering=描画
+debug=デバッグ
+building=建築
+
+# NEI
+mm.recipe.upgrades=マニピュレータアップグレード
+
+# tooltip
+mm.tooltip.none=なし
+mm.tooltip.hold_shift=Shiftを押して詳細を表示します
+mm.tooltip.me_conn.can_interact=MEネットワークに接続しています。(現在やり取りが可能)
+mm.tooltip.me_conn.cannot_interact=MEネットワークに接続しています。(現在やり取りが不可能)
+mm.tooltip.me_conn.no_conn=MEネットワークに接続していません。
+mm.tooltip.uplink_conn.can_interact=アップリンクに接続しています。(現在やり取りが可能)
+mm.tooltip.uplink_conn.cannot_interact=アップリンクに接続しています。(現在やり取りが不可能)
+mm.tooltip.uplink_conn.address=アップリンクのアドレス: %s
+mm.tooltip.uplink_conn.no_conn=アップリンクに接続していません。
+mm.tooltip.pending_action=実行中の作業: %s
+mm.tooltip.pending_action.moving_coords=座標の移動
+mm.tooltip.pending_action.geom_selecting_block=設置するブロックの選択
+mm.tooltip.pending_action.mark_copy_a=コピー元の1番目の座標の指定
+mm.tooltip.pending_action.mark_copy_b=コピー元の2番目の座標の指定
+mm.tooltip.pending_action.mark_cut_a=切り取り元の1番目の座標の指定
+mm.tooltip.pending_action.mark_cut_b=切り取り元の2番目の座標の指定
+mm.tooltip.pending_action.mark_paste=貼り付け先の指定
+mm.tooltip.pending_action.exch_add_replace=置き換えのホワイトリストへのブロックの追加
+mm.tooltip.pending_action.exch_set_replace=置き換えのホワイトリストのブロックの指定
+mm.tooltip.pending_action.exch_set_target=置き換え先のブロックの指定
+mm.tooltip.pending_action.pick_cable=ケーブルの指定
+mm.tooltip.pending_action.mark_array=繰り返しの範囲の指定
+mm.tooltip.mode=モード: %s
+mm.tooltip.mode.geometry=図形
+mm.tooltip.mode.moving=移動
+mm.tooltip.mode.copying=コピー
+mm.tooltip.mode.exchanging=交換
+mm.tooltip.mode.cables=ケーブル
+mm.tooltip.removing=除去対象: %s
+mm.tooltip.removing.all=全てのブロック
+mm.tooltip.removing.replaceable=置き換え可能なブロック
+mm.tooltip.removing.none=なし
+mm.tooltip.shape=形状: %s
+mm.tooltip.shape.line=直線
+mm.tooltip.shape.cube=直方体
+mm.tooltip.shape.sphere=球
+mm.tooltip.shape.cylinder=円柱
+mm.tooltip.coord_a=座標A: %s
+mm.tooltip.coord_b=座標B: %s
+mm.tooltip.corner_block=頂点のブロック: %s
+mm.tooltip.edge_block=辺のブロック: %s
+mm.tooltip.face_block=表面のブロック: %s
+mm.tooltip.volume_block=内部のブロック: %s
+mm.tooltip.copying.copy_a=コピー元の座標A: %s
+mm.tooltip.copying.copy_b=コピー元の座標B: %s
+mm.tooltip.copying.stack=繰り返し: %s
+mm.tooltip.copying.wireless_link=無線リンク: %s
+mm.tooltip.copying.auto_proxy_cribs=クラフト入力プロキシの自動設定: %s
+mm.tooltip.copying.auto_p2p_interfaces=P2Pインターフェースの自動設定: %s
+mm.tooltip.paste=貼り付け先の座標: %s
+mm.tooltip.moving.cut_a=切り取り元の座標A: %s
+mm.tooltip.moving.cut_b=切り取り元の座標B: %s
+mm.tooltip.exchanging.removable=除去可能なブロック: %s
+mm.tooltip.exchanging.replacing=置き換え先のブロック: %s
+mm.tooltip.cable=ケーブル: %s

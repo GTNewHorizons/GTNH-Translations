@@ -1,0 +1,351 @@
+#This file is a translation file for KubaTech
+
+#RecipeMaps
+kubatech.defusioncrafter=Draconic Evolutionフュージョンクラフター
+kubatech.htgrrecipes=高温ガス炉
+
+#NEI
+kubatech.defusioncrafter.tier=外装Tier: %s
+kubatech.mobhandler.eec_chance=§5EECでドロップする確率: %.2f%%
+kubatech.mobhandler.eec_disabled=§5EECでドロップしない
+
+#Commands
+kubatech.commandhandler.invalid=§c使い方が間違っています！正しい使い方は"/%s"です
+kubatech.commandhandler.cant_find=§c%s というコマンドは見つかりませんでした
+kubatech.commandhandler.generic_help=§c"/kubatech help" を実行して利用可能なコマンドの一覧を表示します
+kubatech.commandhandler.usage=<設定>
+kubatech.command.help.possible_commands=利用可能なコマンド: 
+kubatech.command.help.usage=- すべての利用可能なコマンドを表示
+kubatech.command.config.invalid_option=§c無効な設定項目です！使用できる項目は次の通りです: reload
+kubatech.command.config.success=§a設定の再読み込みに成功しました！
+kubatech.command.config.usage=<設定>
+
+kubatech.command.tea.invalid_option=§c使い方が間違っています！
+kubatech.command.tea.player_not_found=§cプレイヤーが見つかりません！
+kubatech.command.tea.success_get=プレイヤー %s は%d個のお茶を持っています
+kubatech.command.tea.success_set=プレイヤー %s のお茶の所持数は現在%d個です
+kubatech.command.tea.success_add=プレイヤー %s のお茶の所持数は現在%d個です
+kubatech.command.tea.usage=<ユーザー名> get/set/add (<量>)
+
+#GUI
+GT5U.gui.text.recipe_result.EEC_nospawner=電動スポナーがありません！
+GT5U.gui.text.recipe_result.EEC_invalidspawner=無効なスポナーです！
+GT5U.gui.text.recipe_result.EEC_peaceful=指定のモブはピースフルモードではスポーンしません！
+GT5U.gui.text.recipe_result.MegaApiary_slotoverflow=蜂が多すぎます！
+GT5U.gui.text.MegaApiary_noflowers=花がありません！
+GT5U.gui.text.recipe_result.EIG_slotoverflow=種の種類が多すぎます！
+GT5U.gui.text.recipe_result.EIG_seedOverflow=種が多すぎます！
+GT5U.gui.text.recipe_result.EIG_missingwater=水がありません！
+GT5U.gui.text.EIG_ic2glass=ガラスTierが不十分です！
+
+GT5U.gui.text.recipe_result.arc_shutdown=Arc Furnace is shutting down!
+GT5U.gui.text.recipe_result.arc_ignition=Arc Furnace is starting up!
+GT5U.gui.text.recipe_result.no_electrode=電極が挿入されていません！
+GT5U.gui.text.shutdown_reason.electrode_changed=Electrode changed while running!
+
+## General
+kubatech.gui.text.configuration=設定
+
+kubatech.gui.text.tea_ultimate.status=状態
+kubatech.gui.text.tea_ultimate.tea=お茶
+kubatech.gui.text.tea_ultimate.tea_limit=お茶の最大値
+kubatech.gui.text.tea_ultimate.exchange=交換
+kubatech.gui.text.tea_ultimate.exchange.cost=コスト: お茶 %s個
+kubatech.gui.text.tea_ultimate.benefits=効果
+kubatech.gui.tooltip.tea_ultimate.tea_acceptor_research_note=茶受容器の研究ノート
+
+kubatech.gui.text.tea_acceptor.name=茶受容器
+kubatech.gui.text.tea_acceptor.tea=[お茶]
+kubatech.gui.text.tea_acceptor.not_owner=これはあなたのブロックではありません
+kubatech.gui.text.tea_acceptor.in=入力: %s/t
+kubatech.gui.text.tea_acceptor.in.tooltip=直近5秒の平均入力
+
+kubatech.gui.text.eec.preserve_weapon_on=武器の保存: オン
+kubatech.gui.text.eec.preserve_weapon_off=武器の保存: オフ
+kubatech.gui.text.eec.preserve_weapon_warning=GUIの武器を使用しません。
+kubatech.gui.text.eec.cycle_weapons_on=武器入れ替え: オン
+kubatech.gui.text.eec.cycle_weapons_off=武器入れ替え: オフ
+kubatech.gui.text.eec.cycle_weapons.info=§f武器の保存§rが有効な場合、スペースがあれば壊れかけの武器をGUIから出力バスへ移動させます。
+kubatech.gui.text.eec.void_all_damaged_on=ダメージ付き・エンチャント付きアイテムの消去: オン
+kubatech.gui.text.eec.void_all_damaged_off=ダメージ付き・エンチャント付きアイテムの消去: オフ
+kubatech.gui.text.eec.void_all_damaged.warning=インファーナルのドロップとSticky Swordのような特殊ドロップには影響しません！GUIスロット内の武器が消滅することはありません。
+kubatech.gui.text.eec.infernal_drop_on=インファーナルのスポーン: オン
+kubatech.gui.text.eec.infernal_drop_off=インファーナルのスポーン: オフ
+kubatech.gui.text.eec.infernal_drop_always=常時インファーナルのモブには効果がありません！
+kubatech.gui.text.eec.ritual_mode_on=儀式モード: オン
+kubatech.gui.text.eec.ritual_mode_off=儀式モード: オフ
+kubatech.gui.text.eec.ritual_mode_connected=儀式に接続しました。
+kubatech.gui.text.eec.ritual_mode_error=儀式に接続できません！
+
+kubatech.gui.text.inventory=インベントリ
+kubatech.gui.text.status=状態
+kubatech.gui.text.operating=稼働中
+kubatech.gui.text.input=入力
+kubatech.gui.text.output=出力
+kubatech.gui.text.usage_line=消費量: %s EU/t
+kubatech.gui.text.time_line=時間: %s 秒
+kubatech.gui.text.eig.setup_mode=準備モード
+kubatech.gui.text.eig.disabled=無効
+kubatech.gui.text.eig.enabled=有効
+kubatech.gui.text.eig.ic2_mode=IC2モード
+kubatech.gui.text.eig.no_humidity_mode=除湿モード
+kubatech.gui.text.eig.inventory_full_warning=Seed inventory is full!
+kubatech.gui.text.mia.primary_mode=第一モード
+kubatech.gui.text.mia.normal=通常
+kubatech.gui.text.mia.swarmer=分蜂
+kubatech.gui.text.mia.secondary_mode=第二モード
+kubatech.gui.text.mia.show_bee_inventory=Show Bee Inventory
+kubatech.gui.text.mia.show_machine_status=Show Machine Status
+
+kubatech.gui.tooltip.contributors.added=制作者: %s
+kubatech.gui.tooltip.contributors.design=デザイン: %s
+kubatech.gui.tooltip.contributors.structure=構造考案者: %s
+
+kubatech.gui.tooltip.dynamic_inventory.identical_slots=%d個の同一スロットがあります
+kubatech.gui.tooltip.dynamic_inventory.empty_slot=空のスロット
+kubatech.gui.tooltip.dynamic_inventory.eig.seed_count=Seeds: %d
+kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=残りの種の種類: %d
+kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=残りの種の容量: %d
+
+kubatech.gui.text.electrode_detector=§8しきい値
+kubatech.gui.text.electrode_detector.durability=§8耐久値
+kubatech.gui.text.electrode_detector.percentage=§8耐久値パーセンテージ
+
+#Chat Messages
+kubatech.chat.forbidden_while_running=稼働中にはモード変更できません！
+kubatech.chat.mode.generic=Now running in mode: %s
+
+kubatech.chat.eec.ritual_mode_enabled=儀式モード有効
+kubatech.chat.eec.ritual_mode_disabled=儀式モード無効
+kubatech.chat.eec.ritual_mode_connected=儀式への接続に成功しました
+kubatech.chat.eec.ritual_mode_error=儀式に接続できません！
+kubatech.chat.eec.infernal_drops_enabled=インファーナルがスポーンする可能性があります
+kubatech.chat.eec.infernal_drops_disabled=インファーナルのスポーンを防止します
+
+# info data
+## general
+kubatech.infodata.running_mode=動作モード:
+kubatech.infodata.running_mode.fmt=Running in mode: §a%s§r
+
+## Extreme Entity Crusher
+kubatech.infodata.eec.current_mob=現在のモブ: §e%s
+kubatech.infodata.eec.current_mob.none=現在のモブ: §eなし
+kubatech.infodata.eec.animations.enabled=アニメーション: §e有効
+kubatech.infodata.eec.animations.disabled=アニメーション: §e無効
+kubatech.infodata.eec.produce_infernal_drops.allowed=インファーナルのドロップ生産: §eあり
+kubatech.infodata.eec.produce_infernal_drops.not_allowed=インファーナルのドロップ生産: §eなし
+kubatech.infodata.eec.void_damaged.yes=ダメージ付き・エンチャント付きアイテムの消去: §eあり
+kubatech.infodata.eec.void_damaged.no=ダメージ付き・エンチャント付きアイテムの消去: §eなし
+kubatech.infodata.eec.in_ritual_mode.yes=儀式モード: §e有効
+kubatech.infodata.eec.in_ritual_mode.no=儀式モード: §e無効
+kubatech.infodata.eec.connected_to_ritual.yes=儀式との接続: §aあり
+kubatech.infodata.eec.connected_to_ritual.no=儀式との接続: §aなし
+kubatech.infodata.eec.cycle_weapons.yes=武器切り替え: §eあり
+kubatech.infodata.eec.cycle_weapons.no=武器切り替え: §eなし
+kubatech.infodata.eec.weapon_preservation.yes=武器の保存: §eあり
+kubatech.infodata.eec.weapon_preservation.no=武器の保存: §eなし
+kubatech.infodata.eec.inserted_weapon.yes=配置された武器: §eあり
+kubatech.infodata.eec.inserted_weapon.no=配置された武器: §eなし
+kubatech.infodata.eec.weapon.damage=武器の攻撃ダメージ: §e%f
+kubatech.infodata.eec.weapon.looting_level=武器の幸運レベル: §e%d
+kubatech.infodata.eec.total_damage=合計攻撃ダメージ: §e%f
+
+## Extreme Industrial Greenhouse
+kubatech.infodata.eig.running_mode.setup_mode.input=動作モード: §a準備モード (入力)§r
+kubatech.infodata.eig.running_mode.setup_mode.output=動作モード: §a準備モード (出力)§r
+kubatech.infodata.eig.uses.water=1回の稼働につき%dLの水を使用
+kubatech.infodata.eig.uses.weedex=毎秒%dLのWeed-EX 9000を使用
+kubatech.infodata.eig.max_slots=最大スロット数: §a%d§r
+kubatech.infodata.eig.used_slots=使用中のスロット数: %s
+kubatech.infodata.bucket.humidity=湿度:
+kubatech.infodata.bucket.humidity.on=オン
+kubatech.infodata.bucket.humidity.off=オフ
+kubatech.infodata.eig.too_many_types=§4種の種類が多すぎて稼働できません！§r
+kubatech.infodata.eig.too_many_seeds=§4種の数が多すぎて稼働できません！§r
+
+## Mega Industrial Apiary
+kubatech.infodata.mia.running_mode.input=動作モード: §6入力モード§r
+kubatech.infodata.mia.running_mode.output=動作モード: §6出力モード§r
+kubatech.infodata.mia.running_mode.operating.normal=動作モード: §6稼働モード (通常)§r
+kubatech.infodata.mia.running_mode.operating.swarmer=動作モード: §6稼働モード (分蜂)§r
+kubatech.infodata.mia.running_mode.bee_storage=蜂の保持数 (%s/%s):
+kubatech.infodata.mia.inventory_full=No more slots for bees!
+kubatech.gui.text.mia.inventory_full_warning=No more bee slots available!
+kubatech.gui.text.mia.locked_while_running=Bee inventory locked while machine is running
+kubatech.infodata.mia.gui_locked_while_running=Cannot modify bee inventory via GUI while running
+
+#HTGR
+kubatech.infodata.htgr.stored_fuel=§f貯蔵中の燃料:
+kubatech.infodata.htgr.stored_fuel_entry=§f- §b%s §fx §6%s (%s, %s, %s)
+kubatech.infodata.htgr.burned_fuel=§f燃焼中の燃料:
+kubatech.infodata.htgr.burned_fuel_entry=§f- §b%s §fx §6%s%%の出力
+kubatech.infodata.htgr.helium_supply=§fヘリウムの供給: §6%sL
+kubatech.infodata.htgr.coolant_per_tick=§f冷却材/t: %sL
+kubatech.infodata.htgr.water_per_tick=§f水/t: §6%sL
+kubatech.infodata.htgr.fuel_supply=§fFill level %s out of %s
+kubatech.infodata.htgr.fuel_properties=§fプロパティ: %s, %s, %s
+
+kubatech.MBTT.CoolantInputHatch=入力ハッチ (冷却材用)
+kubatech.MBTT.HeliumInputHatch=入力ハッチ (ヘリウム用)
+kubatech.MBTT.WaterInputHatch=入力ハッチ (水用)
+kubatech.MBTT.CoolantOutputHatch=出力ハッチ (冷却材用)
+kubatech.MBTT.SteamOutputHatch=出力ハッチ (蒸気用)
+
+#Waila
+kubatech.waila.eec.mob_type=モブの種類: %s
+kubatech.waila.eec.no_mob=なし
+kubatech.waila.eec.ritual_mode_connected=儀式に接続済
+kubatech.waila.eec.ritual_mode_error=儀式に未接続！
+
+#Blocks
+kubablock.tea_acceptor.name=§4§n茶受容器
+kubablock.tea_storage.name=§4§n茶容量拡張器
+
+#DEFC Casings
+defc.casing.name=フュージョン外装
+defc.casing.tip=Draconic Evolutionフュージョンクラフターの外装、Tier %d
+
+#Items
+item.kubaitems.name=茶 / 茶葉
+kubaitem.fromcollection=以下のコレクションからのアイテム
+kubaitem.notyours=そのアイテムは自分のものではないようだ
+kubaitem.defc_schematic_t1.name=ドラコニックコアの設計図
+kubaitem.defc_schematic_t1.tip=冥王星のダンジョンで見つかる
+kubaitem.defc_schematic_t2.name=ワイバーンコアの設計図
+kubaitem.defc_schematic_t3.name=覚醒コアの設計図
+kubaitem.defc_schematic_t4.name=カオスコアの設計図
+
+item.htgr_item.triso_mixture.name=TRISO型燃料混合物 (%s)
+item.htgr_item.incomplete_biso_fuel.name=不完全なBISO燃料 (%s)
+item.htgr_item.incomplete_triso_fuel.name=不完全なTRISO型燃料 (%s)
+item.htgr_item.triso_fuel.name=TRISO型燃料 (%s)
+item.htgr_item.burned.name=使用済みTRISO型燃料 (%s)
+
+item.arc_furnace_electrode.GraphiteElectrode.name=黒鉛製電極
+item.arc_furnace_electrode.TantalumElectrode.name=タンタル製電極
+item.arc_furnace_electrode.MolybdenumElectrode.name=モリブデン製電極
+item.arc_furnace_electrode.TungstenElectrode.name=タングステン製電極
+item.arc_furnace_electrode.TungstenSteelElectrode.name=タングステンスチール製電極
+item.arc_furnace_electrode.GrapheneElectrode.name=グラフェン製電極
+item.arc_furnace_electrode.YBCOElectrode.name=YBCO製電極
+item.arc_furnace_electrode.NetheriteElectrode.name=ネザライト製電極
+item.arc_furnace_electrode.TritaniumElectrode.name=トリタニウム製電極
+item.arc_furnace_electrode.InfinityElectrode.name=インフィニティ製電極
+item.arc_furnace_electrode.HypogenElectrode.name=ハイポジェン製電極
+item.arc_furnace_electrode.NeutroniumNaniteElectrode.name=ニュートロニウムのナナイト製電極
+item.arc_furnace_electrode.TranscendentNaniteElectrode.name=超越金属のナナイト製電極
+item.arc_furnace_electrode.UniversiumNaniteElectrode.name=ユニバーシウムのナナイト製電極
+
+item.arc_furnace_electrode.tip.durability=耐久値: %s/%s
+item.arc_furnace_electrode.tip.speed=速度: %s
+item.arc_furnace_electrode.tip.parallel_limit=並列処理数: %s
+item.arc_furnace_electrode.tip.parallel_limit_none=なし
+item.arc_furnace_electrode.tip.oc=OC: %s%s
+item.arc_furnace_electrode.tip.amperage_per_parallel=Amps/Parallel: %s
+item.arc_furnace_electrode.tip.startup_surge=Surge Power: %s
+item.arc_furnace_electrode.tip.startup_amperage=Startup Amperage: %s A (%sx 64A hatches)
+
+item.arc_furnace_electrode.tip.special_effect.GraphiteElectrode=§6§lBread and Butter§r§6: No startup surge penalty
+item.arc_furnace_electrode.tip.special_effect.GrapheneElectrode=§6§lBread and Butter§r§6: No startup surge penalty
+item.arc_furnace_electrode.tip.special_effect.YBCOElectrode=§6§lRapid Oxidation§r§6: Every OC increases durability usage by 100%
+item.arc_furnace_electrode.tip.special_effect.NetheriteElectrode=§6§lHot Restart§r§6: There is no shutdown cooldown. If machine is off for less than 4 seconds, skip startup entirely
+item.arc_furnace_electrode.tip.special_effect.InfinityElectrode=§6§lTo Infinity!§r§6: Every successful processing doubles the amount of parallels, until power failure or machine shutdown (power usage is equal to the amount of parallels regardless of provided items)
+item.arc_furnace_electrode.tip.special_effect.NeutroniumNaniteElectrode=§6§lNanite Repair§r§6: Providing electrode material dust in the input bus gives a 70% chance per recipe to repair itself
+item.arc_furnace_electrode.tip.special_effect.TranscendentNaniteElectrode=§6§lNanite Maintenance§r§6: Providing electrode material dust in the input bus gives a 90% chance per recipe to repair itself
+item.arc_furnace_electrode.tip.special_effect.UniversiumNaniteElectrode=§6§lNanite Recovery§r§6: Providing electrode material dust in the input bus fully repairs the electrode
+
+#Tea
+kubaitem.tea.black_tea.name=紅茶
+kubaitem.tea.earl_gray_tea.name=アールグレイ
+kubaitem.tea.green_tea.name=緑茶
+kubaitem.tea.lemon_tea.name=レモンティー
+kubaitem.tea.milk_tea.name=ミルクティー
+kubaitem.tea.oolong_tea.name=烏龍茶
+kubaitem.tea.peppermint_tea.name=ペパーミントティー
+kubaitem.tea.pu-erh_tea.name=プーアル茶
+kubaitem.tea.white_tea.name=白茶
+kubaitem.tea.yellow_tea.name=黄茶
+kubaitem.teaingredient.black_tea_leaf.name=紅茶の茶葉
+kubaitem.teaingredient.green_tea_leaf.name=緑茶の茶葉
+kubaitem.teaingredient.oolong_tea_leaf.name=烏龍茶の茶葉
+kubaitem.teaingredient.pu-erh_tea_leaf.name=プーアル茶の茶葉
+kubaitem.teaingredient.white_tea_leaf.name=白茶の茶葉
+kubaitem.teaingredient.yellow_tea_leaf.name=黄茶の茶葉
+kubaitem.teaingredient.tea_leaf_dehydrated.name=乾燥させた茶葉
+kubaitem.teaingredient.steamed_tea_leaf.name=蒸らした茶葉
+kubaitem.teaingredient.rolled_tea_leaf.name=巻いた茶葉
+kubaitem.teaingredient.oxidized_tea_leaf.name=酸化させた茶葉
+kubaitem.teaingredient.fermented_tea_leaf.name=発酵させた茶葉
+kubaitem.teaingredient.bruised_tea_leaf.name=傷ついた茶葉
+kubaitem.teaingredient.partially_oxidized_tea_leaf.name=少し酸化させた茶葉
+
+#Legendary Tea collection
+kubaitem.teacollection=超強力な伝説級の秘伝のお茶コレクション
+kubaitem.teacollection.mmm=お茶
+kubaitem.teacollection.black_tea.name=§6§nKubaの紅茶
+kubaitem.teacollection.butterfly_tea.name=§1§nKubaのバタフライピーティー
+kubaitem.teacollection.earl_gray_tea.name=§6§nKubaのアールグレイ
+kubaitem.teacollection.green_tea.name=§2§nKubaの緑茶
+kubaitem.teacollection.lemon_tea.name=§e§nKubaのレモンティー
+kubaitem.teacollection.milk_tea.name=§f§n§lKuba§rのミルクティー
+kubaitem.teacollection.oolong_tea.name=§e§nKubaの烏龍茶
+kubaitem.teacollection.peppermint_tea.name=§a§nKubaのペパーミントティー
+kubaitem.teacollection.pu-erh_tea.name=§4§nKubaのプーアル茶
+kubaitem.teacollection.red_tea.name=§c§nKubaのハイビスカスティー
+kubaitem.teacollection.white_tea.name=§e§lKubaの白茶
+kubaitem.teacollection.yellow_tea.name=§6§lKubaの黄茶
+kubaitem.teacollection.ultimate_tea.name=§6§lKubaの%s§6§l茶
+
+kubaitem.tea_acceptor_research_note.name=茶受容器の研究ノート
+
+#Achievements
+achievement.teacollection.black_tea=§6§lKubaの紅茶
+achievement.teacollection.butterfly_tea=§1§lKubaのバタフライピーティー
+achievement.teacollection.earl_gray_tea=§6§lKubaのアールグレイ
+achievement.teacollection.green_tea=§2§lKubaの緑茶
+achievement.teacollection.lemon_tea=§e§nKubaのレモンティー
+achievement.teacollection.milk_tea=§f§lKubaのミルクティー
+achievement.teacollection.oolong_tea=§e§lKubaの烏龍茶
+achievement.teacollection.peppermint_tea=§a§lKubaのペパーミントティー
+achievement.teacollection.pu-erh_tea=§4§lKubaのプーアル茶
+achievement.teacollection.red_tea=§c§lKubaのハイビスカスティー
+achievement.teacollection.white_tea=§e§lKubaの白茶
+achievement.teacollection.yellow_tea=§6§lKubaの黄茶
+achievement.teacollection.ultimate_tea=§4§l§k??????
+
+achievement.teacollection.black_tea.desc=§6最も一般的で人気のあるお茶
+achievement.teacollection.butterfly_tea.desc=§1お茶ですらない
+achievement.teacollection.earl_gray_tea.desc=§6真の英国人へ
+achievement.teacollection.green_tea.desc=§2基本的
+achievement.teacollection.lemon_tea.desc=§e紅茶にレモン、何を期待してたの？
+achievement.teacollection.milk_tea.desc=§f紅茶に牛乳、お気に入り
+achievement.teacollection.oolong_tea.desc=§e對於真正的鑑賞家
+achievement.teacollection.peppermint_tea.desc=§a腹痛に良い
+achievement.teacollection.pu-erh_tea.desc=§4消化に良いが、土みたいな味
+achievement.teacollection.red_tea.desc=§cなんでこんなもの飲むんだ？
+achievement.teacollection.white_tea.desc=§e最も健康的
+achievement.teacollection.yellow_tea.desc=§6より草っぽい風味の緑茶
+achievement.teacollection.ultimate_tea.desc=§4§nこれ一杯で全部飲める
+
+#Thaumcraft
+tc.research_category.KUBATECH=§lCamellia sinensis
+tc.research_name.KT_UltimateTea=%s§6§n茶
+tc.research_text.KT_UltimateTea=§4§n純粋な力
+KT.research.ultimatetea=全ての茶を純粋な力へと変換し%s§6§l茶§rを生み出す方法を発見した。
+
+#Tooltip
+kubatech.tooltip.tea=お茶
+kubatech.tooltip.tea_acceptor.0=アイテムのお茶を受け取り、自分のネットワークへ追加します
+kubatech.tooltip.tea_acceptor.1=1tickあたり最大10スタック受け取り可能です
+kubatech.tooltip.tea_storage.0=お茶の保管数を%s拡張
+kubatech.tooltip.tea_ingredient.0=お茶の材料
+
+kubatech.tooltip.structure.flowers=花
+
+kubatech.tooltip.htgr_material=高温ガス冷却炉
+defc.casing.7.name=ナクアダ合金製フュージョン外装
+defc.casing.8.name=血塗られたイコリウムのフュージョン外装
+defc.casing.9.name=ドラコニウムフュージョン外装
+defc.casing.10.name=ワイバーンフュージョン外装
+defc.casing.11.name=覚醒ドラコニウムフュージョン外装
+defc.casing.12.name=カオスフュージョン外装
