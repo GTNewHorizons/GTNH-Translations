@@ -1,0 +1,1247 @@
+chat.railcraft.api.error=Hata: Geçersiz API, daha fazla bilgi için lütfen hata kayıt dosyanızı kontrol edin.
+
+command.railcraft.aliases=Aliases: %s
+command.railcraft.help=Daha fazla bilgi için '%s' yazınız.
+command.railcraft.list=Kullanılabilir Yan-Komutlar:
+command.railcraft.permlevel=Yetki Seviyesi: %s
+command.railcraft.noperms=Bu komutu kullanmak için gerekli olan yetkiye sahip değilsiniz.
+
+command.railcraft.railcraft.help=Railcraft için çeşitli komutlar
+command.railcraft.railcraft.format=Format: /%s <sub-command>
+
+command.railcraft.railcraft.admin.desc=- %s : Yönetici Aletleri
+command.railcraft.railcraft.admin.help=Yönetici Aletleri
+command.railcraft.railcraft.admin.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.desc=- %s : Görevleri Sıfırla
+command.railcraft.railcraft.admin.kill.help=Bir şeyleri öldürmek için aletler.
+command.railcraft.railcraft.admin.kill.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.animals.desc=- %s : Hayvanları Öldür
+command.railcraft.railcraft.admin.kill.animals.help=Dünyadaki tüm hayvanları öldürür.
+command.railcraft.railcraft.admin.kill.animals.format=Format: /%s
+
+command.railcraft.railcraft.admin.kill.minecarts.desc=- %s : Maden Arabalarını Öldür
+command.railcraft.railcraft.admin.kill.minecarts.help=Dünyadaki tüm vagonlar yok olur.
+command.railcraft.railcraft.admin.kill.minecarts.format=Format: /%s
+
+command.railcraft.railcraft.debug.desc=- %s : Debug Aletleri
+command.railcraft.railcraft.debug.help=Sorunları Çözmek için Aletler.
+command.railcraft.railcraft.debug.format=Format: /%s
+
+command.railcraft.railcraft.debug.tile.desc=- %s : Yapı Debug Aletleri
+command.railcraft.railcraft.debug.tile.help=Railcraft blokları için hata ayıklama aletleri.
+command.railcraft.railcraft.debug.tile.format=Format: /%s x y z
+
+command.railcraft.railcraft.debug.tile.controller.desc=- %s : Kontrolcü Debug Aletleri
+command.railcraft.railcraft.debug.tile.controller.help=Kontrol blokları için hata ayıklama aletleri.
+command.railcraft.railcraft.debug.tile.controller.format=Format: /%s x y z
+
+command.railcraft.railcraft.debug.tile.receiver.desc=- %s : Alıcı Debug Aletleri
+command.railcraft.railcraft.debug.tile.receiver.help=Alıcı cihaz için hata ayıklama aletleri.
+command.railcraft.railcraft.debug.tile.receiver.format=Format: /%s x y z
+
+death.railcraft.bore.1=%s ilerleminin yoluna çıktı
+death.railcraft.bore.2=%s Sondajı durdurmaya çalıştı
+death.railcraft.bore.3=%s Sondaj tarafından ezildi
+death.railcraft.bore.4=%s John Henry'den daha iyi yapabileceğini sandı
+death.railcraft.bore.5=%s kaya ve sert bir yer arasında sıkıştı
+death.railcraft.bore.6=%s ilerlemenin yanlış tarafındaydı
+
+death.railcraft.crusher.1=%s Büyük makinelerin yakınında ayağı takıldı
+death.railcraft.crusher.2=%s Superman değilmiş, herkes gibi eziliverdi
+death.railcraft.crusher.3=%s uçurumdan aşağı bakarken, ayağı kaydı
+death.railcraft.crusher.4=%s yeni eşyalara ihtiyacı olacak.
+death.railcraft.crusher.5=% "Adımınıza Dikkat Ediniz" tabelalarını görmezden geldi
+death.railcraft.crusher.6=%s 'ın Kanlı Jelibonu ,İndirimde! 
+death.railcraft.crusher.7=%s pestile dönüştü
+death.railcraft.crusher.8=%s önce kılavuzu okumalıydı
+
+death.railcraft.steam.1=%s Pişirildi, Sulu Sulu
+death.railcraft.steam.2=% İddia ettiğinin aksine, yüksek sıcaklıklara dayanamıyormuş
+death.railcraft.steam.3=%s Buhar'ın ne kadar acı verici olabileceğini öğrendi
+death.railcraft.steam.4=%s Endüstriyel bir kaza yaşadı
+death.railcraft.steam.5=%s yüksek ihtimalle oraya adım atmamalıydı
+death.railcraft.steam.6=%s en iyi sauna'nın Buhar banyosu olduğunu öğrendi
+
+death.railcraft.track.electric.1=%s elektrikli kablonun üstüne işedi
+death.railcraft.track.electric.2=%s "Yüksek Gerilim"in ne anlama geldiğini öğrendi
+death.railcraft.track.electric.3=%s elektriksel bir aydınlanma yaşadı
+death.railcraft.track.electric.4=%s elektrik rayına ayağı takıldı
+death.railcraft.track.electric.5=%s Şok edici bir buluş yaptı
+death.railcraft.track.electric.6=%s elektirik hakkında bir şey öğrendi, ACITIYOR!
+
+death.railcraft.train.1=%s 'e tren çarptı
+death.railcraft.train.2=%s tren raylarında oynuyordu
+death.railcraft.train.3=%s tren ile karşıdan karşıya geçme oynadı; tren kazandı
+death.railcraft.train.4=%s Yanlış treni yakaladı
+death.railcraft.train.5=%s Sırat köprüsüne tek gidişlik bilet aldı
+death.railcraft.train.6=%s tulumunu giymeliydi
+
+enchantment.railcraft.crowbar.destruction=Yok et
+enchantment.railcraft.crowbar.implosion=Patlat
+enchantment.railcraft.crowbar.wrecking=Çak
+
+entity.Railcraft.cart.anchor.admin.name=Yönetici Çapalı Vagon
+entity.Railcraft.cart.anchor.name=Çapalı Vagon
+entity.Railcraft.cart.anchor.personal.name=Personel Çapalı Vagon
+entity.Railcraft.cart.basic.name=Vagon
+entity.Railcraft.cart.bore.name=Tünel Sondajı
+entity.Railcraft.cart.cargo.name=Kargo Vagonu
+entity.Railcraft.cart.chest.name=Sandık Vagonu
+entity.Railcraft.cart.energy.batbox.name=Batbox Vagonu
+entity.Railcraft.cart.energy.cesu.name=CESU Vagonu
+entity.Railcraft.cart.energy.mfe.name=MFE Vagonu
+entity.Railcraft.cart.energy.mfsu.name=MFSU Vagonu
+entity.Railcraft.cart.furnace.name=Fırın Vagonu
+entity.Railcraft.cart.gift.name=Hediye Kartı
+entity.Railcraft.cart.loco.electric.name=Elektrikli Lokomotif
+entity.Railcraft.cart.loco.steam.solid.name=Buharlı Lokomotif
+entity.Railcraft.cart.loco.creative.name=Ebedi Lokomotif
+entity.Railcraft.cart.pumpkin.name=Balkabağı Vagonu
+entity.Railcraft.cart.redstone.flux.name=Redstone Flux Vagonu
+entity.Railcraft.cart.tank.name=Tank Vagonu
+entity.Railcraft.cart.tnt.name=TNT Vagonu
+entity.Railcraft.cart.tnt.wood.name=Tahta TNT Vagonu
+entity.Railcraft.cart.track.layer.name=Ray Yerleştirici Vagon
+entity.Railcraft.cart.track.relayer.name=Ray Değiştirici Vagon
+entity.Railcraft.cart.track.remover.name=Ray Kaldırıcı Vagon
+entity.Railcraft.cart.undercutter.name=Zemin-Kesici Vagon
+entity.Railcraft.cart.work.name=İş Vagonu
+
+fluid.creosote=Kreozot Yağı
+fluid.steam=Buhar
+
+item.nomobspawnsonthisblock.tip=Yaratıklar bu Bloğun üzerinde Doğamaz
+
+item.minecartChest.name=Sandık Vagonu
+item.minecartFurnace.name=Fırın Vagonu
+item.minecartTnt.name=TNT Vagonu
+item.minecartHopper.name=Huni Vagonu
+
+item.railcraft.armor.goggles.name=Raycı'nın Gözlükleri
+item.railcraft.armor.overalls.name=Mühendis'in Tulumu
+item.railcraft.armor.overalls.tip=Ray-işleri'nin Risklerine\n Karşı Koruma
+item.railcraft.armor.steel.boots.name=Çelik Botlar
+item.railcraft.armor.steel.helmet.name=Çelik Kask
+item.railcraft.armor.steel.legs.name=Çelik Pantalon
+item.railcraft.armor.steel.plate.name=Çelik Göğüslük
+
+item.railcraft.backpack.apothecary.t1.name=Eczacı'nın Sırt Çantası
+item.railcraft.backpack.apothecary.t2.name=Dokumacı Eczacı'nın Sırt Çantası
+item.railcraft.backpack.iceman.t1.name=Buz adam'ın Sırt Çantası
+item.railcraft.backpack.iceman.t2.name=Dokuma Buz Adam'ın Sırt Çantası
+item.railcraft.backpack.tip=Railcraft Inc, Tarafından Tasarlanmıştır.
+item.railcraft.backpack.trackman.t1.name=Raycı'nın Sırt Çantası
+item.railcraft.backpack.trackman.t2.name=Dokuma Raycı'nın Sırt Çantası
+
+item.railcraft.borehead.diamond.name=Elmas Sondaj Başı
+item.railcraft.borehead.iron.name=Demir Sondaj Başı
+item.railcraft.borehead.steel.name=Çelik Sondaj Başı
+
+item.railcraft.cart.anchor.admin.name=Yönetici Çapa Vagonu
+item.railcraft.cart.anchor.name=Çapalı Vagon
+item.railcraft.cart.anchor.personal.name=Personel Çapalı Vagon
+item.railcraft.cart.basic.name=Vagon
+item.railcraft.cart.bore.name=Tünel Sondajı
+item.railcraft.cart.cargo.name=Kargo Vagonu
+item.railcraft.cart.chest.name=Sandık Vagonu
+item.railcraft.cart.energy.batbox.name=Batbox Vagonu
+item.railcraft.cart.energy.cesu.name=CESU Vagonu
+item.railcraft.cart.energy.mfe.name=MFE Vagonu
+item.railcraft.cart.energy.mfsu.name=MFSU Vagonu
+item.railcraft.cart.furnace.name=Fırın Vagonu
+item.railcraft.cart.gift.name=Hediye Kartı
+item.railcraft.cart.gift.tip=Mutlu Yıllar
+item.railcraft.cart.loco.electric.name=Elektrikli Lokomotif
+item.railcraft.cart.loco.steam.solid.name=Buharlı Lokomotif
+item.railcraft.cart.loco.creative.name=Ebedi Lokomotif
+item.railcraft.cart.loco.creative.tip=§o§9 Sadece Yöneticiler İçin
+item.railcraft.cart.pumpkin.name=Balkabağı Vagonu
+item.railcraft.cart.pumpkin.tip=Şaka mı Şeker mi
+item.railcraft.cart.redstone.flux.name=Redstone Flux Vagonu
+item.railcraft.cart.tank.name=Tank Vagonu
+item.railcraft.cart.tnt.name=TNT Vagonu
+item.railcraft.cart.tnt.wood.name=Tahta TNT Vagonu
+item.railcraft.cart.track.layer.name=Ray Yerleştirici Vagon
+item.railcraft.cart.track.layer.tip=İlerledikçe önüne ray yerleştirir
+item.railcraft.cart.track.relayer.name=Ray Değiştirici Vagon
+item.railcraft.cart.track.relayer.tip=Üzerinden geçtiği rayları \nyenisi ile değiştirir
+item.railcraft.cart.track.remover.name=Ray Kaldırıcı Vagon
+item.railcraft.cart.track.remover.tip=Üzerinden geçtiği rayları kaldırır
+item.railcraft.cart.undercutter.name=Zemin-Kesici Vagon
+item.railcraft.cart.undercutter.tip=Üstünden geçtiği rayların\naltındaki blokları değiştirir
+item.railcraft.cart.work.name=İş Vagonu
+
+item.railcraft.dust.charcoal.name=Odun Kömürü Tozu
+item.railcraft.dust.obsidian.name=Obsidyen Tozu
+item.railcraft.dust.saltpeter.name=Güherçile
+item.railcraft.dust.sulfur.name=Sülfür
+
+item.railcraft.emblem.name=Simge
+
+item.railcraft.firestone.cracked.name=Çatlak Alevtaşı
+item.railcraft.firestone.cracked.tip.charged=Isı sızdırıyor,\nEğer dikkatli olursan...\nHala kullanılabilir
+item.railcraft.firestone.cracked.tip.empty=Hasarlı ama\neğer şarj edebilrsen\nhala iş görebilir...
+item.railcraft.firestone.cut.name=Kesilmiş Alevtaşı
+item.railcraft.firestone.cut.tip=Hala Kontrolsüz\nbir öfke sızdırıyor...
+item.railcraft.firestone.raw.name=Ham Alevtaşı
+item.railcraft.firestone.raw.tip=Elindeki bu acele hissi,\netrafındaki havada\nbile hissedebiliyorsun...
+item.railcraft.firestone.refined.name=İşlenmiş Alevtaşı
+item.railcraft.firestone.refined.tip.charged=Enerji ile dolu,\nşiddetli bir sıcaklık için\nsadece gayret etmelisin...
+item.railcraft.firestone.refined.tip.empty=Enerjisi kontrol altında,\neğer şarj edebilrsen\nhala iş görebilir...
+
+item.railcraft.fluid.creosote.bottle.name=Kreozot Şişesi
+item.railcraft.fluid.creosote.bucket.name=Kreozot Kovası
+item.railcraft.fluid.creosote.can.name=Kreozot Bidonu
+item.railcraft.fluid.creosote.cell.name=Kreozot Hücresi
+item.railcraft.fluid.creosote.refactory.name=Creosote Kapsülü
+item.railcraft.fluid.creosote.wax.name=Creosote Kapsülü
+item.railcraft.fluid.steam.bottle.name=Buhar Şişesi
+
+item.railcraft.fuel.coke.name=Kok Kömürü
+
+item.railcraft.ingot.copper.name=Bakır Külçe
+item.railcraft.ingot.lead.name=Kurşun Külçe
+item.railcraft.ingot.steel.name=Çelik Külçe
+item.railcraft.ingot.tin.name=Kalay Külçe
+
+item.railcraft.nugget.copper.name=Bakır Parçası
+item.railcraft.nugget.iron.name=Demir Parçası
+item.railcraft.nugget.lead.name=Kurşun Parçası
+item.railcraft.nugget.steel.name=Çelik Parçası
+item.railcraft.nugget.tin.name=Kalay Parçası
+
+item.railcraft.part.bleached.clay.name=Yıkanmış Kil
+item.railcraft.part.circuit.name=Devre
+item.railcraft.part.circuit.controller.name=Kontrol Devresi
+item.railcraft.part.circuit.receiver.name=Alıcı Devre
+item.railcraft.part.circuit.signal.name=Siynal Devresi
+item.railcraft.part.gear.name=Dişli
+item.railcraft.part.gear.bushing.name=Kalay Dişli Burçu
+item.railcraft.part.gear.gold.plate.name=Altın-Plaka Dişli
+item.railcraft.part.gear.iron.name=Demir Dişli
+item.railcraft.part.gear.steel.name=Çelik Dişli
+item.railcraft.part.plate.copper.name=Bakır Plaka
+item.railcraft.part.plate.iron.name=Demir Plaka
+item.railcraft.part.plate.lead.name=Kurşun Plaka
+item.railcraft.part.plate.steel.name=Çelik Plaka
+item.railcraft.part.plate.tin.name=Kalay Plaka
+item.railcraft.part.rail.name=Demiryolu
+item.railcraft.part.rail.advanced.name=Gelişmiş Ray
+item.railcraft.part.rail.electric.name=Elektrikli Ray
+item.railcraft.part.rail.reinforced.name=Güçlendirilmiş Ray
+item.railcraft.part.rail.speed.name=H.S. Rayı
+item.railcraft.part.rail.standard.name=Normal Ray
+item.railcraft.part.rail.wood.name=Tahta Ray
+item.railcraft.part.railbed.name=Ray Yatağı
+item.railcraft.part.railbed.stone.name=Taş Ray Yatağı
+item.railcraft.part.railbed.wood.name=Tahta Ray Yatağı
+item.railcraft.part.rebar.name=İnşaat Demiri
+item.railcraft.part.signal.lamp.name=Sinyal Lambası
+item.railcraft.part.tie.name=Bağlama Tahtası
+item.railcraft.part.tie.stone.name=Taş Bağlantısı
+item.railcraft.part.tie.wood.name=Tahta Bağlantısı
+item.railcraft.part.turbine.blade.name=Türbin Bıçağı
+item.railcraft.part.turbine.disk.name=Türbin Diski
+item.railcraft.part.turbine.rotor.name=Türbin Pervanesi
+
+item.railcraft.routing.table.name=Yönlendirme Masası
+item.railcraft.routing.ticket.gold.name=Altın Demir yolu Bileti
+item.railcraft.routing.ticket.name=Demir yolu Bileti
+
+item.railcraft.tool.crowbar.magic.name=Thaumium Levye
+item.railcraft.tool.crowbar.name=Levye
+item.railcraft.tool.crowbar.reinforced.name=Güçlendirilmiş Levye
+item.railcraft.tool.crowbar.tip=§oeğilirken kartları birbirine bağlamak için sağ tıkla
+item.railcraft.tool.crowbar.void.name=Hiçlik Metali Levye
+item.railcraft.tool.electric.meter.name=Elektrik Ölçer
+item.railcraft.tool.magnifying.glass.name=Büyüteç
+item.railcraft.tool.notepad.action.copy=%s 'dan ayarlar kopyalandı
+item.railcraft.tool.notepad.action.copy.fail=Geçersiz Hedef. Bir şey kopyalanmadı.
+item.railcraft.tool.notepad.action.empty=Yapıştırıcak bir şey yok. Shift-click ile bir hedef kopyalayınız.
+item.railcraft.tool.notepad.action.paste=Ayarlar %s 'a Yapıştırıldı
+item.railcraft.tool.notepad.action.paste.fail=Geçersiz Hedef. Bir şey Yapıştırılamadı.
+item.railcraft.tool.notepad.name=Raycı'nın Not Defteri
+item.railcraft.tool.notepad.tip.contents=İçerikler: @s
+item.railcraft.tool.notepad.tip.contents.filter.items=§2Eşya Filtreleri
+item.railcraft.tool.notepad.tip.contents.filter.fluid=§bSıvı Filtreleri
+item.railcraft.tool.notepad.tip.contents.filter.cart=§eVagon Filtreleri
+item.railcraft.tool.notepad.tip.contents.empty=§4Boş
+item.railcraft.tool.notepad.tip.mode.all=Tümü
+item.railcraft.tool.notepad.tip.mode.cart.filter=Vagon Filtresi
+item.railcraft.tool.notepad.tip.mode.loader.filters=Eşya/Sıvı Filtreleri
+item.railcraft.tool.notepad.tip.mode=Yapıştırma Modu: @s
+item.railcraft.tool.notepad.tip=§oYapıştırmak için sağ tık, kopyalamak için shift sağ tık, \n§oSıfırlamak için havaya sağ tık yapınız
+item.railcraft.tool.signal.label.name=Sinyal Etiketi
+item.railcraft.tool.signal.label.tip=§9- Örs'de adı değiştirilebilir -\n§obir sinyal veya sinyal kutusuna\n§oisim vermek için eğilirken sağ tıkla
+item.railcraft.tool.signal.tuner.name=Sinyal Ayarlayıcı
+item.railcraft.tool.signal.tuner.tip=Kontrol Birimlerini Alıcılara Bağlar
+item.railcraft.tool.steel.axe.name=Çelik Balta
+item.railcraft.tool.steel.hoe.name=Çelik Çapa
+item.railcraft.tool.steel.pickaxe.name=Çelik Kazma
+item.railcraft.tool.steel.shears.name=Çelik Makas
+item.railcraft.tool.steel.shovel.name=Çelik Kürek
+item.railcraft.tool.steel.sword.name=Çelik Kılıç
+item.railcraft.tool.surveyor.name=Sinyal Bloğu İzleyici
+item.railcraft.tool.surveyor.tip=Sinyalleri , Sinyal Bloklarına Bağlar
+item.railcraft.tool.whistle.tuner.name=Islık Ayarlayıcı
+
+
+item.railcraft.upgrade.lapotron.name=Lapotron Yükleyici Yükseltmesi
+
+item.synthetic=Sentetik
+
+railcraft.color.black=Siyah
+railcraft.color.blue=Mavi
+railcraft.color.brown=Kahverengi
+railcraft.color.cyan=Camgöbeği 
+railcraft.color.gray=Gri 
+railcraft.color.green=Yeşil 
+railcraft.color.light.blue=Açık Mavi
+railcraft.color.light.gray=Açık Gri 
+railcraft.color.lime=Açık Yeşil
+railcraft.color.magenta=Magenta
+railcraft.color.orange=Turuncu
+railcraft.color.pink=Pembe
+railcraft.color.purple=Mor
+railcraft.color.red=Kırmızı
+railcraft.color.white=Beyaz
+railcraft.color.yellow=Sarı
+
+railcraft.gates.action.pause=Duraklat
+railcraft.gates.action.sendcart=Vagonu Gönder
+
+railcraft.gates.trigger.aspect.green=Yeşil Aspekt
+railcraft.gates.trigger.aspect.off=Kapalı Aspekt
+railcraft.gates.trigger.aspect.red.blink=Kırmızı Parıltılı Aspekt
+railcraft.gates.trigger.aspect.red=Kırmızı Aspekt
+railcraft.gates.trigger.aspect.yellow.blink=Sarı Parıltılı Aspekt
+railcraft.gates.trigger.aspect.yellow=Sarı Aspekt
+railcraft.gates.trigger.cart=Vagon Var
+railcraft.gates.trigger.engine.blue=Motor Aşaması
+railcraft.gates.trigger.engine.green=Motor Aşaması
+railcraft.gates.trigger.engine.orange=Motor Aşaması
+railcraft.gates.trigger.engine.red=Motor Aşaması
+railcraft.gates.trigger.engine.yellow=Motor Aşaması
+railcraft.gates.trigger.fuel=Düşük Yakıt
+railcraft.gates.trigger.maintenance=Bakım Gerekli
+railcraft.gates.trigger.temp.cold=Soğuk
+railcraft.gates.trigger.temp.hot=Sıcak
+railcraft.gates.trigger.temp.warm=Ilık
+railcraft.gates.trigger.work=İş var
+
+railcraft.gui.anchor.fuel.remaining=@.2f saat
+railcraft.gui.anchor.fuel=Ender İncileri
+railcraft.gui.anchor.pair.fail.alignment=%1$s ekseni ile uyuşmuyor %2$s
+railcraft.gui.anchor.pair.fail.distance=%1$s eşleştiremiyecek kadar uzakta %2$s
+railcraft.gui.anchor.pair.fail.dimension=%1$s hedeften farklı bir boyutta
+railcraft.gui.anchor.pair.fail.invalid=Bu %s ile eşleştirmek için geçerli bir hedef değil
+railcraft.gui.anchor.pair.fail.unloaded=Hedef %s ile eşleştirilmeye çalışırken içi boşaltıldı
+railcraft.gui.anchor.pair.cancel=%s eşleştirmesi iptal edildi
+railcraft.gui.anchor.pair.start=%s eşleştirilmesi başlatıldı
+railcraft.gui.anchor.pair.success=%s Başarıyla eşleştirildi
+
+railcraft.gui.aspect.blink.red.name=Parıltılı Kırmızı
+railcraft.gui.aspect.blink.yellow.name=Parıltılı Sarı
+railcraft.gui.aspect.green.name=Yeşil
+railcraft.gui.aspect.off.name=Kapalı
+railcraft.gui.aspect.red.name=Kırmızı
+railcraft.gui.aspect.yellow.name=Sarı
+
+railcraft.gui.aura.disable=@s Aura Kapalı
+railcraft.gui.aura.enable=@s Aura Açık
+
+railcraft.gui.blast.furnace=Geliştirilmiş Kok Fırını
+
+railcraft.gui.bore.ballast=Çakıl
+railcraft.gui.bore.fuel=Yakıt
+railcraft.gui.bore.head=Baş
+railcraft.gui.bore.track=Ray
+
+railcraft.gui.box.aspect.action=Aspekt ile Kızıltaş Sinyali Yayar
+railcraft.gui.box.capacitor.duration=@d saniyeliğine Kızıltaş Sinyali Yayar
+railcraft.gui.box.capacitor.immediate=Yükselen Sınır
+railcraft.gui.box.capacitor.immediate.tip=Sinyal alındığı an zamanlayıcıyı başlat.
+railcraft.gui.box.capacitor.delayed=Azalan Sınır
+railcraft.gui.box.capacitor.delayed.tip=Sinyal alınmayı bıraktığı an zamanlayıcıyı başlat.
+railcraft.gui.box.controller.aspect.default=Varsayılan Aspekt:
+railcraft.gui.box.controller.aspect.redstone=Kızıltaş Aspekti:
+
+railcraft.gui.cart.tnt.fuse=Fitil
+railcraft.gui.cart.track.relayer.pattern=Kalıp
+railcraft.gui.cart.track.relayer.stock=Stok
+railcraft.gui.cart.undercutter.pattern=Kalıplar
+railcraft.gui.cart.undercutter.sides=Kenarlar
+railcraft.gui.cart.undercutter.stock=Stok
+railcraft.gui.cart.undercutter.under=Altında
+
+railcraft.gui.coke.oven=Kok Fırını
+
+railcraft.gui.detector.item.analog=Analog
+railcraft.gui.detector.item.anything=Herhangi
+railcraft.gui.detector.item.at_least=En Az
+railcraft.gui.detector.item.at_most=En Fazla
+railcraft.gui.detector.item.empty=Boş
+railcraft.gui.detector.item.exactly=Tam olarak
+railcraft.gui.detector.item.filtered=Filtrelenmiş
+railcraft.gui.detector.item.full=Dolu
+railcraft.gui.detector.item.greater_than=Daha Fazla
+railcraft.gui.detector.item.less_than=Daha Az
+railcraft.gui.detector.item.not_empty=Boş Değil
+railcraft.gui.detector.loco.primary=Birincil Renk
+railcraft.gui.detector.loco.secondary=İkincil Renk
+railcraft.gui.detector.tank.tip.analog=Tankın Doluluğuna Bağlı Olarak\nAnalog Kızıltaş Sinyali Yayar
+railcraft.gui.detector.tank.tip.empty=Boş Tankları Eşleştir
+railcraft.gui.detector.tank.tip.full=Dolu Tankları Eşleştir
+railcraft.gui.detector.tank.tip.half=Yarısından fazlası dolu olan tankları eşleştir
+railcraft.gui.detector.tank.tip.less.than.full=Tam dolu olmayan tankları eşleştir
+railcraft.gui.detector.tank.tip.less.than.half=Yarısından daha az dolu olan tankları eşleştir
+railcraft.gui.detector.tank.tip.less.than.most=3/4'den az dolu olan tankları eşleştir
+railcraft.gui.detector.tank.tip.less.than.quarter=Çeyreğinden az dolu olan tankları eşleştir
+railcraft.gui.detector.tank.tip.most=3/4'den fazla dolu olanları eşleştir
+railcraft.gui.detector.tank.tip.not.empty=Boş olmayan tüm tankları eşleştir
+railcraft.gui.detector.tank.tip.quarter=Çeyreğinden fazlası dolu olan tankları eşleştir
+railcraft.gui.detector.tank.tip.void=Herhangi bir miktarı eşleştir
+railcraft.gui.detector.train.size=Tren Büyüklüğü = @d
+railcraft.gui.detector.villager.any=Herhangi
+railcraft.gui.detector.villager.equals=Eşittir
+railcraft.gui.detector.villager.none=Hiç
+railcraft.gui.detector.villager.not=Negatif
+
+railcraft.gui.electric.meter.charge=Şarj: @.2fc | Draw: @.2fc/t | Loss: @.2fc/t
+
+railcraft.gui.energy.loader.empty=Boş Tutunuz
+railcraft.gui.energy.loader.fill=Tamamını Doldur
+railcraft.gui.energy.unloader.wait=İçi Boş Olana Kadar Bekle
+railcraft.gui.energy.cart.power.label=Power Level:
+
+railcraft.gui.engrave.entercode=Şifreyi Giriniz:
+railcraft.gui.engrave.getmore1=Aşağıdaki Bağlantılara Bakınız
+railcraft.gui.engrave.getmore2=daha fazla bulmak için şifreleri açın!
+railcraft.gui.engrave.openunlock=Simgeleri Aç
+railcraft.gui.engrave.unlock.exists=Çoğalt!
+railcraft.gui.engrave.unlock.fail=Başarısız!
+railcraft.gui.engrave.unlock.success=Başarılı!
+railcraft.gui.engrave.unlock=Aç!
+railcraft.gui.engrave=Oy
+
+railcraft.gui.feed.station.feed=Besle
+
+railcraft.gui.filter=Filtre
+railcraft.gui.filters.carts=Vagonlar
+railcraft.gui.filters=Filtreler
+
+railcraft.gui.goggles.aura.anchor=Çapa
+railcraft.gui.goggles.aura.none=Hiç
+railcraft.gui.goggles.aura.signalling=Sinyalleşiyor
+railcraft.gui.goggles.aura.surveying=İnceliyor
+railcraft.gui.goggles.aura.tracking=Takip Ediyor
+railcraft.gui.goggles.aura.tuning=Ayarlıyor
+railcraft.gui.goggles.mode=Şu anki Aura: @s
+railcraft.gui.goggles.tip=Aura değiştirmek için Hotbar'ı Kullan
+
+railcraft.gui.help=Yardım
+
+railcraft.gui.ic2.energy.rate=Enerji Miktarı: @d EU
+
+railcraft.gui.item.loader.all.tip=Tüm eşleşen eşyaları taşı
+railcraft.gui.item.loader.all=Tümü
+railcraft.gui.item.loader.buffer=Tampon
+railcraft.gui.item.loader.complete.tip=Tamamlandığı Zaman Kızıltaş Sinyali Yayar
+railcraft.gui.item.loader.complete=Tamamlandı
+railcraft.gui.item.loader.excess.tip=Eşyaları Filtre'de tut\nGerisini Taşı
+railcraft.gui.item.loader.excess=Fazlalık
+railcraft.gui.item.loader.immediate.tip=Hiç bir eşya yer değiştirmediyse\n Kızıltaş Sinyali Yay
+railcraft.gui.item.loader.immediate=Hemen
+railcraft.gui.item.loader.manual.tip=Asla Kızıltaş sinyali yayma
+railcraft.gui.item.loader.manual=Kılavuz
+railcraft.gui.item.loader.partial.tip=Eğer hiç bir eşya hareket etmediyse\nve vagon boş değilse Kızıltaş sinyali yay
+railcraft.gui.item.loader.partial=Kısmi
+railcraft.gui.item.loader.stock.tip=Varış noktası filtre ile\neşleşene kadar eşyaları taşı
+railcraft.gui.item.loader.stock=Stok
+railcraft.gui.item.loader.transfer.tip=Filtrede olan kadar\neşya taşı
+railcraft.gui.item.loader.transfer=Aktar
+railcraft.gui.item.loader.match_metadata.tip=Metaveriyle Eşleştir
+railcraft.gui.item.loader.ignore_metadata.tip=Metaveriyi Yok Say
+railcraft.gui.item.loader.match_nbt.tip=NBT Verisiyle Eşleştir
+railcraft.gui.item.loader.ignore_nbt.tip=NBT Verisini Yok Say
+
+railcraft.gui.link.broken=Bağlantı Bozuldu
+railcraft.gui.link.created=Bağlantı Oluşturuldu
+railcraft.gui.link.failed=Bağlantı Başarısız Oldu
+railcraft.gui.link.started=Bağlantı Başladı
+
+railcraft.gui.liquid.capacity=Kapasite
+railcraft.gui.liquid.loader.empty.tip=Boş Vagonları Tut
+railcraft.gui.liquid.loader.empty=Boş Tut
+railcraft.gui.liquid.loader.fill.tip=Vagonlar dolana kadar tutun
+railcraft.gui.liquid.loader.fill=Zorla Doldur
+railcraft.gui.liquid.loader.immediate.tip=Hiç bir sıvı hareket etmediyse \nKızıltaş sinyali yay
+railcraft.gui.liquid.loader.immediate=Acil
+railcraft.gui.liquid.loader.manual.tip=Asla Kızıltaş sinyali yayma
+railcraft.gui.liquid.loader.manual=Kılavuz
+railcraft.gui.liquid.unloader.empty.tip=Vagonlar elinizde\ntamamiyle boş olana kadar tutun
+railcraft.gui.liquid.unloader.empty=Boş
+railcraft.gui.liquid.unloader.immediate.tip=Hiç bir sıvı hareket etmediyse \nKızıltaş sinyali yay
+railcraft.gui.liquid.unloader.immediate=Acil
+railcraft.gui.liquid.unloader.manual.tip=Asla Kızıltaş sinyali yayma
+railcraft.gui.liquid.unloader.manual=Kılavuz
+
+railcraft.gui.locomotive.mode.idle=Boşta
+railcraft.gui.locomotive.mode.running=Çalışıyor
+railcraft.gui.locomotive.mode.shutdown=Kapat
+railcraft.gui.locomotive.electric.tip.button.mode.running=Lokomotif'in hareket etmesini sağlar.
+railcraft.gui.locomotive.electric.tip.button.mode.shutdown=Lokomotifi Durdurur.
+railcraft.gui.locomotive.steam.tip.button.mode.idle=Lokomotif'in yakıt kullanımını azaltır, \nama sıcaklığını korur.\nTren bir ray tarafından durduruluyor ise,\nSanki boştaymış gibi davranır.
+railcraft.gui.locomotive.steam.tip.button.mode.running=Lokomotif'in hareket etmesini sağlar.
+railcraft.gui.locomotive.steam.tip.button.mode.shutdown=Lokomotif'i kapatır.\nTüm hareket sonra erer ve\nsoğutma süreci başlar.\nBu biraz sürebilir.
+railcraft.gui.locomotive.tip.button.locked=Bu Vagonun Kilitlidir, Anahtar\n{owner}.\nSadece vagonun sahibi veya\noperatör tarafından verilen biletleri kabul eder.
+railcraft.gui.locomotive.tip.button.private=Bu Vagonun Sahibi\n{owner}.\nSadece vagonun sahibi veya\noperatör tarafından kontrol edilebilir.
+railcraft.gui.locomotive.tip.button.unlocked=Lokomotifi kilitlemek için tıklayınız.\nKilitlendiği zaman, Sadece\nsizin veya bir operatör tarafından\noluşturulan biletleri kabul edecektir.
+railcraft.gui.locomotive.tip.item.emblem=§oSimge:§r @s
+railcraft.gui.locomotive.tip.item.model.default=Varsayılan Model
+railcraft.gui.locomotive.tip.item.model=§oModel:§r @s
+railcraft.gui.locomotive.tip.item.owner=§oSahibi:§r @s
+railcraft.gui.locomotive.tip.item.primary=§oBirincil Renk:§r @s
+railcraft.gui.locomotive.tip.item.secondary=§oİkincil Renk:§r @s
+railcraft.gui.locomotive.tip.item.whistle=§oDüdük Ses Aralığı:§r @s
+railcraft.gui.locomotive.tip.slot.ticket=Bilet'i Yerleştiriniz
+
+railcraft.gui.mag.glass.aspect=Sinyal aspekti %s
+railcraft.gui.mag.glass.aspect.dual=Sinyal Aspekt'i en fazla %1$s ve en az %2$s 
+railcraft.gui.mag.glass.placedby=%1$s Tarafından Yerleştirildi %2$s
+
+railcraft.gui.rolling.machine.tip.craft=§e§o-Üretmek için tıklayın
+
+railcraft.gui.routing.logic.blank=Boş Masa
+railcraft.gui.routing.logic.insufficient.operands=Yetersiz İşleme
+railcraft.gui.routing.logic.malformed.syntax=Hatalı Syntax
+railcraft.gui.routing.logic.regex.invalid=Geçersiz Regex Kalıbı
+railcraft.gui.routing.logic.regex.unsupported=Desteklenmeyen Regex
+railcraft.gui.routing.logic.unrecognized.keyword=Tanınmayan Şifre
+railcraft.gui.routing.slot.label=Yönlendirme Masası
+railcraft.gui.routing.table.editor=En son @s tarafından değiştirildi
+railcraft.gui.routing.table.manual.numPages=11
+railcraft.gui.routing.table.manual.page1=The Routing Table when placed in a Routing Detector or Switch will define a set of rules that are used to match against any passing Locomotive. These rules are define using a simple logic syntax that allows you to create rules as simple or complex as you like. The syntax is a Prefix Notation script, the Operators are followed by the Operands. Only one keyword is allowed per line. If no Operator is specified, OR is assumed. Routing Tables can be copied by placing two or more in a crafting grid.
+railcraft.gui.routing.table.manual.page2=Operatör Seçenekleri:\nVE - İki İşlem, ikiside olmalı.\nYADA - İki İşlem,en az bir tane.\nDEĞİL - İşlemi Tersine Çevir 
+railcraft.gui.routing.table.manual.page3=Gerekli Durum:\n   Dize=<string>\n      Eğer ki Lokomotif'in hedefi\n      bu dize ile başlıyor ise,\n      Durum Pozitifdir.\n      "Dize=null" Herhangi bir\n      Hedefi Olmayan Vagonlar ile Eşleşicektir.\n   Owner=<username>\n      Lokomotif bu kişiye ait ise\n      Durum Pozitiftir.
+railcraft.gui.routing.table.manual.page4=Gerekli Durum:\n   Ad=<entityname>\n      Eğer Vagonun İsmi ile\n      Eşleşiyorsa Durum Pozitifdir.\n      "Ad=null" Özel Bir İsmi\n       Olmayan Vagonları Eşeştirir.\n   Tip=<modid:itemname>\n     Vagonun Eşya İsmi ile\n     Eşleşiyor ise Pozitifdir.
+railcraft.gui.routing.table.manual.page5=Gerekli Durum:\n   Şoför=<username>\n      Eğer Tren Bu Kişi Tarafından\n      Kontrol Ediliyorsa Pozitifdir.\n   Kontrol Ediliyor=<true/false>\n      Tren Bir Oyuncu Tarafından\n      Kontrol Ediliyorsa Pozitifdir.
+railcraft.gui.routing.table.manual.page6=Gerekli Durum:\n   Renk=<primary>,<secondary>\n      Lokomotifin Renkleri \n      Uyuşuyor İse Pozitifdir.\n      Herhangi bir Joker Kartı Kabul Eder.\n      Renkler: Siyah, Kırmızı, Yeşil, Kahverengi, Mavi,\n      Mor, Camgöbeği, Açık Gri, Gri, Pembe, Açık Yeşil,\n      Sarı, Açık Mavi, Eflatun, Turuncu, Beyaz\n   Yakıt İhtiyacı=<true/false>\n      Lokomotif Eğer Yetersiz Yakıt veya Su \n      Olursa otomatikmen yönlendirilir.
+railcraft.gui.routing.table.manual.page7=Gerekli Durum:\n   Kızıltaş Sinyali=<true/false>\n      Yönlendirme Masası,\n      Kızıltaş Sinyali Alıyor ise Pozitifdir.
+railcraft.gui.routing.table.manual.page8=Gerekli Durum:\n   Lokomotif=<string>\n      Lokomotif Geçerli Bir Malzemeye Sahip İse Pozitifdir.\n      Geçerli Malzemeler: Elektrik, Buhar, Hiçbiri.\n      Sadece Eğer Bir Lokomotif Yoksa ,Hiçbiri Seçeneği Kullanmak Pozitifdir.
+railcraft.gui.routing.table.manual.page9=Örnek Komut:\n   Dest=Uzakdiyarlar\n   Color=Siyah, Kırmızı\n   AND\n   NOT\n   Owner=RichardG\n   Dest=Gizli Üs/Okyanus Girişi
+railcraft.gui.routing.table.manual.page10=Sonuç:\n   Bir Önceki Komut, \n   Girilen Bilgilere Göre\n   Hedefi "Uzakdiyarlar" ,\n   veya Kırmızı Ve Siyaha Boyalı ,\n   veya "Gizli Üs/Okyanus Girişi" \n   Olan Bir Lokomotif Atayacaktır,\n    RichardG'ye ait olmadığı sürece.
+railcraft.gui.routing.table.manual.page11=Sürekli İfadeler:\n   Bazı Durumlar, \n   Sürekli İfadeleri Destekler\n   Regex Kullanabilmek İçin, '=' dan önce  '?'  Ekleyin.\n   Kurallar Standart Java Kalıplarıdır..\nDesteklenen Durumlar:\n  Dest, Ad\nÖrneğin:\n   Dest?=.*Tepe
+railcraft.gui.routing.table.manual.title=Yönlendirme Kılavuzu
+railcraft.gui.routing.table.name=Ad
+railcraft.gui.routing.ticket.line1=Bu geçerli bir bilet
+railcraft.gui.routing.ticket.line2=Sonraki Durak Hakkında:
+railcraft.gui.routing.ticket.manual.title=Altın Bilet Hakkında
+railcraft.gui.routing.ticket.manual=Altın Bilet, Herhagi Bir Ortak Tren Veya Tren Sahibinin Verdiği Biletle, Trene Binmek için Kullanılabilir. Eğer Kağıt İle                       Birleştirilirse Tek Kullanımlık Biletler Oluşturulabilir.
+railcraft.gui.routing.ticket.tip.blank=Boş Bilet
+railcraft.gui.routing.ticket.tip.dest=Sonraki Durak:
+railcraft.gui.routing.ticket.tip.issuer=İhraççı:
+railcraft.gui.routing.ticket.title=Altın Bilet
+railcraft.gui.routing.tip.slot=Yönlendirme Masasını Yerleştiriniz
+railcraft.gui.routing.track.slot.label=Bilet
+railcraft.gui.routing.track.tip.slot=Altın Bileti Yerleştiriniz
+railcraft.gui.routing.type.private.tip={owner} \nSadece Bu Kişiye Ait Olan\nLokomotifleri\nYönlendirir
+railcraft.gui.routing.type.private=Kişisel Ray
+railcraft.gui.routing.type.public.tip=Herhangi bir Lokomotifi yönlendirir.
+railcraft.gui.routing.type.public=Ortak Ray
+
+railcraft.gui.steam.boiler=§7 Buhar Kazanı
+railcraft.gui.steam.oven=Buhar Fırını
+
+railcraft.gui.surveyor.abandon=Sinyal Bloğu Araması İptal Edildi
+railcraft.gui.surveyor.begin=Sinyal Bloğu Aranmaya Başlanıyor
+railcraft.gui.surveyor.invalid=Geçersiz Sinyal Bloğu
+railcraft.gui.surveyor.lost=İlk Sinyale Artık Ulaşılamıyor, Arama İptal Ediliyor
+railcraft.gui.surveyor.success=Başarıyla Sinyal Bloğu Belirlendi
+railcraft.gui.surveyor.track=%s yakınında ray bulunamadı
+railcraft.gui.surveyor.unloaded=İlk Sinyal Yüklü bir Yığın İçerisinde Değil
+railcraft.gui.surveyor.wrong=Geçersiz Sinyal Bloğu
+
+railcraft.gui.switch.motor.action=Aspekt ile Değiştir
+railcraft.gui.switch.motor.redstone=Kızıltaş Sinyallerini Görmezden Gel
+
+railcraft.gui.tank.iron=Demir Tank
+railcraft.gui.tank.steel=Çelik Tank
+railcraft.gui.tank.water=Su Tankı
+
+railcraft.gui.ticks=tick
+
+railcraft.gui.tip.button.lock.locked=Bu Cihaz {owner}. Kişisine Ait\nSadece Sahibi\nVeya Bir Operatör\nKullanabilir.
+railcraft.gui.tip.button.lock.notowner=Bu Cihazın \nSahibi Sen Değilsin.\n{owner}\nKişisine Ait.
+railcraft.gui.tip.button.lock.unlocked=Kilitlemek İçin Tıkla,\nKilitlendiği Zaman\nSadece Sen Veya\nBir Operatör Tarafından Kontrol Edilebilir.
+
+railcraft.gui.track.embarking.radius=Yarıçap
+railcraft.gui.track.mode.change=Mod @s olarak değiştirildi
+railcraft.gui.track.coupler.mode.auto.coupler=Oto-Bağdaştırıcı
+railcraft.gui.track.coupler.mode.coupler=Bağdaştırıcı
+railcraft.gui.track.coupler.mode.decoupler=Ayırıcı
+railcraft.gui.track.locking.mode.boarding.train=Tren Binişi
+railcraft.gui.track.locking.mode.boarding=Biniş
+railcraft.gui.track.locking.mode.holding.train=Tren Beklemede
+railcraft.gui.track.locking.mode.holding=Bekliyor
+railcraft.gui.track.locking.mode.lockdown.train=Tren Kilitlendi
+railcraft.gui.track.locking.mode.lockdown=Kilitle
+railcraft.gui.track.priming.fuse=Fitil = @d ticks
+railcraft.gui.track.launcher.force=Zorla = @d
+
+railcraft.gui.trade.station.dice.tip=Rasgele Ticaret
+
+railcraft.gui.tuner.abandon.chunk=Kontrolcü yüklü bir yığın içerisinde değil, eşleşme iptal ediliyor
+railcraft.gui.tuner.abandon.gone=Kontrolcü yok edildi, eşleşme iptal ediliyor
+railcraft.gui.tuner.abandon.player=Kontrolcü eşleşmesi iptal edildi
+railcraft.gui.tuner.start=Alıcıyla %s eşleşmesi başladı
+railcraft.gui.tuner.stop=Alıcıyla %s eşleşmesi durduruldu
+railcraft.gui.tuner.success=%1$s Başarıyla %2$s ile eşleştirildi
+
+railcraft.gui.turbine.output=Çıkış: @d%%
+railcraft.gui.turbine.rotor=Rotor:
+railcraft.gui.turbine=Buhar Türbini
+
+railcraft.gui.update.message=Railcraft @s mevcut <http://railcraft.info> 
+
+railcraft.keybind.aura.anchor=Çapa Aura
+railcraft.keybind.aura.surveying=İnceleyeci Aura
+railcraft.keybind.aura.tuning=Ayarlayıcı Aura
+
+railcraft.keybind.loco.faster=Lokomotif Hızlan
+railcraft.keybind.loco.mode=Lokomotif Modu
+railcraft.keybind.loco.slower=Lokomotif Yavaşla
+railcraft.keybind.loco.whistle=Lokomotif Düdük
+
+railcraft.locomotive.model.electric.default.name=Standart Elektrik
+railcraft.locomotive.model.steam.magic.default.name=Standart Büyü
+railcraft.locomotive.model.steam.solid.default.name=Standart Katı
+
+railcraft.multiblock.state.invalid.entity=Varlık yolun üstünde: %s
+railcraft.multiblock.state.invalid.pattern=Kalıp uyuşmuyor: %s
+railcraft.multiblock.state.unknown.unloaded=Yapının bir kısmı yüklü değil: %s
+railcraft.multiblock.state.valid=Yapı Düzgün
+
+tc.research_category.RAILCRAFT=Traheremagy
+thaumcraft.research.RC_Crowbar.name=Thaumium Levye
+thaumcraft.research.RC_Crowbar.page.1=Çelik yerine Thamium kullanarak ve biraz da dua edip, büyüye çok daha hassas bir levye üretmenin yolunu buldun.
+thaumcraft.research.RC_Crowbar.text=[RC] Sanırım bunu düşürdün...
+thaumcraft.research.RC_Crowbar_Void.name=Hiçlik Metali Levye
+thaumcraft.research.RC_Crowbar_Void.page.1=İşleri ileri bir adım daha atarak, Nihai Levye'yi üretmek için Esrarengiz malzemeler ustalığını kullandın.
+thaumcraft.research.RC_Crowbar_Void.text=[RC] Gordon gurur duyardı...
+
+tile.activatorRail.name=Aktifleyici Ray
+tile.detectorRail.name=Dedektör Ray
+tile.goldenRail.name=Güçlendirici Ray
+tile.rail.name=Ray
+
+tile.railcraft.anvil.name=Çelik Örs
+tile.railcraft.anvil.intact.name=Çelik Örs
+tile.railcraft.anvil.slightlyDamaged.name=Az Hasarlı Çelik Örs
+tile.railcraft.anvil.veryDamaged.name=Çok Hasarlı Çelik Örs
+
+tile.railcraft.brick.abyssal.name=Abyssal Blok
+tile.railcraft.brick.abyssal.block.name=Abyssal Blok
+tile.railcraft.brick.abyssal.brick.name=Abyssal Tuğla
+tile.railcraft.brick.abyssal.cobble.name=Abyssal Kırıktaş
+tile.railcraft.brick.abyssal.etched.name=Kazınmış Abyssal Taş
+tile.railcraft.brick.abyssal.fitted.name=Döşeli Abyysal Taş
+tile.railcraft.brick.abyssal.ornate.name=Süslü Abyssal Taş
+
+tile.railcraft.brick.bleachedbone.name=Beyazlatılmış Kemik Blok
+tile.railcraft.brick.bleachedbone.block.name=Beyazlatılmış Kemik Blok
+tile.railcraft.brick.bleachedbone.brick.name=Beyazlatılmış Kemik Tuğla
+tile.railcraft.brick.bleachedbone.cobble.name=Beyazlatılmış Kemik Kırıktaşı
+tile.railcraft.brick.bleachedbone.etched.name=Kazınmık Beyazlatılmış Kemik Taş
+tile.railcraft.brick.bleachedbone.fitted.name=Döşeli Beyazlatılmış Kemik Taş
+tile.railcraft.brick.bleachedbone.ornate.name=Süslü Beyazlatılmış Kemik Taş
+
+tile.railcraft.brick.bloodstained.name=Kan Lekeli Blok
+tile.railcraft.brick.bloodstained.block.name=Kan Lekeli Blok
+tile.railcraft.brick.bloodstained.brick.name=Kan Lekeli Tuğla
+tile.railcraft.brick.bloodstained.cobble.name=Kan Lekeli Kırıktaş
+tile.railcraft.brick.bloodstained.etched.name=Kazınmış Kan Lekeli Taş
+tile.railcraft.brick.bloodstained.fitted.name=Döşeli Kan Lekeli Taş
+tile.railcraft.brick.bloodstained.ornate.name=Süslü Kan Lekeli Taş
+
+tile.railcraft.brick.frostbound.name=Ayaz Bağlı Blok
+tile.railcraft.brick.frostbound.block.name=Ayaz Bağlı Blok
+tile.railcraft.brick.frostbound.brick.name=Ayaz Bağlı Tuğla
+tile.railcraft.brick.frostbound.cobble.name=Ayaz Bağlı Kırıktaş
+tile.railcraft.brick.frostbound.etched.name=Kazınmış Ayaz Bağlı Taş
+tile.railcraft.brick.frostbound.fitted.name=Döşeli Ayaz Bağlı Taş
+tile.railcraft.brick.frostbound.ornate.name=Süslü Ayaz Bağlı Taş
+
+tile.railcraft.brick.infernal.name=Şeytani Blok
+tile.railcraft.brick.infernal.block.name=Şeytani Blok
+tile.railcraft.brick.infernal.brick.name=Şeytani Tuğla
+tile.railcraft.brick.infernal.cobble.name=Şeytani Kırıktaş
+tile.railcraft.brick.infernal.etched.name=Kazınmış Şeytani Taş
+tile.railcraft.brick.infernal.fitted.name=Döşeli Şeytani Taş
+tile.railcraft.brick.infernal.ornate.name=Süslü Şeytani Taş
+
+tile.railcraft.brick.nether.name=Nether Blok
+tile.railcraft.brick.nether.block.name=Nether Blok
+tile.railcraft.brick.nether.cobble.name=Nether Kırıktaş
+tile.railcraft.brick.nether.etched.name=Kazınmış Nether Taş
+tile.railcraft.brick.nether.fitted.name=Döşeli Nether Taş
+tile.railcraft.brick.nether.ornate.name=Süslü Nether Taş
+
+tile.railcraft.brick.quarried.name=Ocaktaşı
+tile.railcraft.brick.quarried.block.name=Ocaktaşı
+tile.railcraft.brick.quarried.brick.name=Ocaktaşı Tuğla
+tile.railcraft.brick.quarried.cobble.name=Ocaktaşı Kırıktaş
+tile.railcraft.brick.quarried.etched.name=Kazınmış Ocaktaş
+tile.railcraft.brick.quarried.fitted.name=Döşeli Ocaktaş
+tile.railcraft.brick.quarried.ornate.name=Süslü Ocaktaş
+
+tile.railcraft.brick.sandy.name=Kumlu Blok
+tile.railcraft.brick.sandy.block.name=Kumlu Blok
+tile.railcraft.brick.sandy.brick.name=Kumlu Tuğla
+tile.railcraft.brick.sandy.cobble.name=Kumlu Kırıktaş
+tile.railcraft.brick.sandy.etched.name=Kazınmış Kumlu Taş
+tile.railcraft.brick.sandy.fitted.name=Döşeli Kumlu Taş
+tile.railcraft.brick.sandy.ornate.name=Süslü Kumlu Taş
+
+tile.railcraft.cube.name=Blok
+tile.railcraft.cube.brick.infernal.name=Şeytani Tuğla (Yıpranmış)
+tile.railcraft.cube.brick.sandy.name=Kumlu Tuğla (Yıpranmış)
+tile.railcraft.cube.coke.name=Kok Kömürü Bloğu
+tile.railcraft.cube.coke.tip=32.000 Yakıt Ünitesi
+tile.railcraft.cube.concrete.name=Beton Blok
+tile.railcraft.cube.copper.name=Bakır Bloğu
+tile.railcraft.cube.creosote.name=Kreozot Tahta Blok
+tile.railcraft.cube.crushed.obsidian.name=Öğütülmüş Obsidyen
+tile.railcraft.cube.crushed.obsidian.tip=Canavarların Doğmasını Engeller
+tile.railcraft.cube.lead.name=Kurşun Bloğu
+tile.railcraft.cube.steel.name=Çelik Bloğu
+tile.railcraft.cube.stone.abyssal.name=Abyssal Taş
+tile.railcraft.cube.stone.quarried.name=Ocaktaşı
+tile.railcraft.cube.tin.name=Kalay Bloğu
+
+tile.railcraft.detector.name=Dedektör
+tile.railcraft.detector.advanced.name=Dedektör - Gelişmiş
+tile.railcraft.detector.age.name=Dedektör - Yaş
+tile.railcraft.detector.animal.name=Dedektör - Hayvan
+tile.railcraft.detector.any.name=Dedektör - Herhangi
+tile.railcraft.detector.cart.name=Dedektör - Vagon
+tile.railcraft.detector.empty.name=Dedektör - Boş
+tile.railcraft.detector.energy.name=Dedektör - Enerji
+tile.railcraft.detector.explosive.name=Dedektör - Patlayıcı
+tile.railcraft.detector.item.name=Dedektör - Eşya
+tile.railcraft.detector.locomotive.name=Dedektör - Lokomotif
+tile.railcraft.detector.mob.name=Dedektör - Canavar
+tile.railcraft.detector.player.name=Dedektör - Oyuncu
+tile.railcraft.detector.powered.name=Dedektör - Güç
+tile.railcraft.detector.routing.name=Dedektör - Yönlendirme
+tile.railcraft.detector.sheep.name=Dedektör - Koyun
+tile.railcraft.detector.tank.name=Dedektör - Tank
+tile.railcraft.detector.train.name=Dedektör - Tren
+tile.railcraft.detector.villager.name=Dedektör - Köylü
+
+tile.railcraft.firestone.recharge.name=Alevtaşı Şarj oluyor
+
+tile.railcraft.fluid.creosote.name=Kreozot
+tile.railcraft.fluid.steam.name=Buhar
+
+tile.railcraft.frame.name=Tel Destek Çerçevesi
+tile.railcraft.frame.tip=Raylara Manevralı Tel koymak için kullan
+
+tile.railcraft.glass.name=Güçlendirilmiş Cam
+
+tile.railcraft.machine.alpha.name=Makine
+tile.railcraft.machine.alpha.anchor.admin.name=Yönetici Çapası
+tile.railcraft.machine.alpha.anchor.passive.name=Pasif Çapa
+tile.railcraft.machine.alpha.anchor.personal.name=Kişisel Çapa
+tile.railcraft.machine.alpha.anchor.world.name=Dünya Çapası
+tile.railcraft.machine.alpha.blast.furnace.name=Geliştirilmiş Kok Fırını
+tile.railcraft.machine.alpha.blast.furnace.tip=Çoklu-Blok 3x4x3 (İçi boş)
+tile.railcraft.machine.alpha.coke.oven.name=Kok Fırın Tuğlası
+tile.railcraft.machine.alpha.coke.oven.tip=Çoklu-Blok: 3x3x3 (İçi Boş)
+tile.railcraft.machine.alpha.feed.station.name=Besleme İstasyonu
+tile.railcraft.machine.alpha.rock.crusher.name=Kaya Öğütücüsü
+tile.railcraft.machine.alpha.rock.crusher.tip=Çoklu-Blok: 3x2x2
+tile.railcraft.machine.alpha.rolling.machine.name=Sarma Makinesi
+tile.railcraft.machine.alpha.smoker.name=Duman Bacası
+tile.railcraft.machine.alpha.steam.oven.name=Buhar Fırını
+tile.railcraft.machine.alpha.steam.oven.tip=Çoklu-Blok: 2x2x2
+tile.railcraft.machine.alpha.steam.trap.auto.name=Otomatik Buhar Tuzağı
+tile.railcraft.machine.alpha.steam.trap.name=Manuel Buhar Tuzağı
+tile.railcraft.machine.alpha.tank.water.name=Su Toplama Tankı
+tile.railcraft.machine.alpha.tank.water.tip=Çoklu-Blok: 3x3x3 (İçi Boş)
+tile.railcraft.machine.alpha.trade.station.name=Ticaret İstasyonu
+tile.railcraft.machine.alpha.turbine.name=Buhar Türbini Yuvası
+tile.railcraft.machine.alpha.turbine.tip=Çoklu-Blok: 3x2x2\nBuhardan Elektirik Üretir\nAşağısından Su Çıkışı Verir\nÇalışması için Türbin Rotoru Gereklidir
+
+tile.railcraft.machine.beta.name=Makine
+tile.railcraft.machine.beta.anchor.sentinel.name=Yığın Bekçisi
+tile.railcraft.machine.beta.boiler.firebox.liquid.name=Sıvı Yakıtlı Kazanbloğu
+tile.railcraft.machine.beta.boiler.firebox.liquid.tip=Çoklu-Blok: Değişken Boyut, En alt Katman\n Büyüklükler: 1x1, 2x2, 3x3
+tile.railcraft.machine.beta.boiler.firebox.solid.name=Katı Yakıtlı Kazanbloğu
+tile.railcraft.machine.beta.boiler.firebox.solid.tip=Çoklu-Blok: Değişken Boyut, En alt Katman\n Büyüklükler: 1x1, 2x2, 3x3
+tile.railcraft.machine.beta.boiler.tank.pressure.high.name=Yüksek Basınçlı Kazan Tankı
+tile.railcraft.machine.beta.boiler.tank.pressure.high.tip=Çoklu-Blok: Değişken Boyut, Kazanbloğu Üstü\nBüyüklükler: 1x1x1, 2x2x2, 2x3x2,\n3x2x3, 3x3x3, 3x4x3\nTick Başına Maksimum 40L Buhar Üretir
+tile.railcraft.machine.beta.boiler.tank.pressure.low.name=Düşük Basınçlı Kazan Tankı
+tile.railcraft.machine.beta.boiler.tank.pressure.low.tip=Çoklu-Blok: Değişken Boyut, Kazanbloğu Üstü\nBüyüklükler: 1x1x1, 2x2x2, 2x3x2,\n3x2x3, 3x3x3, 3x4x3\nTick Başına Maksimum 10L Buhar Üretir
+tile.railcraft.machine.beta.chest.metals.name=Metal Sandığı
+tile.railcraft.machine.beta.chest.metals.tip=Metalleri Blok Hallerine Dönüştürür
+tile.railcraft.machine.beta.chest.void.name=Hiçlik Sandığı
+tile.railcraft.machine.beta.chest.void.tip=Eşyaları Yok Eder
+tile.railcraft.machine.beta.engine.steam.high.name=İndisturiyel Buhar Motoru
+tile.railcraft.machine.beta.engine.steam.high.tip=80 RF/t Üretir\n Tick Başına 40L Buhar Kullanır
+tile.railcraft.machine.beta.engine.steam.hobby.name=Amatör'ün Buhar Motoru
+tile.railcraft.machine.beta.engine.steam.hobby.tip=20 RF/t Üretir\n Tick Başına 10L Buhar Kullanır
+tile.railcraft.machine.beta.engine.steam.low.name=Ticari Buhar Motoru
+tile.railcraft.machine.beta.engine.steam.low.tip=40 RF/t Üretir\n Tick Başına 20L Buhar Kullanır
+tile.railcraft.machine.beta.tank.iron.gauge.name=Demir Tank Camı
+tile.railcraft.machine.beta.tank.iron.gauge.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.iron.valve.name=Demir Tank Vanası
+tile.railcraft.machine.beta.tank.iron.valve.tip=Çoklu-Blok:En altdan 2 katmandan \nsıvı çıkışı yapar.
+tile.railcraft.machine.beta.tank.iron.wall.name=Demir Tank Duvarı
+tile.railcraft.machine.beta.tank.iron.wall.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.steel.gauge.name=Çelik Tank Göstergesi
+tile.railcraft.machine.beta.tank.steel.gauge.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.beta.tank.steel.valve.name=Çelik Tank Vanası
+tile.railcraft.machine.beta.tank.steel.valve.tip=Çoklu-Blok:En altdan 2 katmandan \nsıvı çıkışı yapar.
+tile.railcraft.machine.beta.tank.steel.wall.name=Çelik Tank Duvarı
+tile.railcraft.machine.beta.tank.steel.wall.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+
+tile.railcraft.machine.delta.name=Elektrik Manevra Teli
+tile.railcraft.machine.delta.wire.name=Elektrik Manevra Teli
+tile.railcraft.machine.delta.wire.tip=Elektrik Raylarının Altına Tel Destek Çerçevesi kullanarak  \n Aralarındaki Boşlukları Kapatın.
+
+tile.railcraft.machine.epsilon.name=Makine
+tile.railcraft.machine.epsilon.admin.steam.producer.name=Yönetici Buhar Üreticisi
+tile.railcraft.machine.epsilon.admin.steam.producer.tip=Sonsuz Miktarda Buhar Üretir
+tile.railcraft.machine.epsilon.electric.feeder.admin.name=Yönetici Besleyici Unitesi
+tile.railcraft.machine.epsilon.electric.feeder.admin.tip=Sınırsız Railcraft Enerjisi Sağlar
+tile.railcraft.machine.epsilon.electric.feeder.name=Elektrik Besleyici Ünite
+tile.railcraft.machine.epsilon.electric.feeder.tip=IC2 ve Gregtech\n Elektriğini Railcraft Şarjına Dönüştürür
+tile.railcraft.machine.epsilon.engraving.bench.name=Oyma Masası
+tile.railcraft.machine.epsilon.flux.transformer.name=Yüklenmiş Dönüştürücü
+tile.railcraft.machine.epsilon.flux.transformer.tip=Çoklu-Blok: 2x2x2\nRedstone Flux enerjisini Railcraft Enerjisine dönüştürür.\n80% Verimlilik
+tile.railcraft.machine.epsilon.force.track.emitter.name=Ray Vericisini Zorla
+tile.railcraft.machine.epsilon.force.track.emitter.tip=Enerji-Tabanlı Ray Oluşturur
+
+tile.railcraft.machine.gamma.name=Makine
+tile.railcraft.machine.gamma.dispenser.cart.name=Vagon Dağıtıcısı
+tile.railcraft.machine.gamma.dispenser.cart.tip=Vagonları Raylara Yerleştirir.\n§o§9- Yönü Değiştirmek için Levye ile Vur -\n§o§c- Vagon Yerleştirmesi İçin Kızıltaş Sinyali Ver -
+tile.railcraft.machine.gamma.dispenser.train.name=Tren Dağıtıcısı
+tile.railcraft.machine.gamma.dispenser.train.tip=Raylara, Bağlantılı Olan Trenler Koyar\n§o§9- Yönü Değiştirmek için Levye ile Vur -\n§o§c- Tren Koyması İçin Kızıltaş Sinyali Ver -
+tile.railcraft.machine.gamma.loader.energy.name=Enerji Yükleyici
+tile.railcraft.machine.gamma.loader.energy.tip=IC2 Enerji Vagonlarına Enerji Aktarır\n§o§9- Yönünü Değiştirmek İçin Levye ile Vurun -\n§o§c- Sadece IC2 ve GregTech enerjisi kabul eder
+tile.railcraft.machine.gamma.loader.rf.name=RF Yükleyici
+tile.railcraft.machine.gamma.loader.rf.tip=RF Enerji Vagonlarına Enerji Aktarır\n§o§9- Yönünü Değiştirmek İçin Levye ile Vurun -\n§o§c- Sadece RF enerjisi kabul eder
+tile.railcraft.machine.gamma.loader.item.advanced.name=Gelişmiş Eşya Yükleyici
+tile.railcraft.machine.gamma.loader.item.advanced.tip=Vagonlara Eşya Yükler\n§o§9- Yönünü Değiştirmek İçin Levye ile Vurun -
+tile.railcraft.machine.gamma.loader.item.name=Eşya Yükleyici
+tile.railcraft.machine.gamma.loader.item.tip=Eşyaları Vagonlara Yükler\n§o§c- Rayın Üstüne Yerleştirin -
+tile.railcraft.machine.gamma.loader.liquid.name=Sıvı Yükleyici
+tile.railcraft.machine.gamma.loader.liquid.tip=Sıvıları Vagonlara Taşır\n§o§c- Rayın 1-2 Blok Üstüne Yerleştirin -
+tile.railcraft.machine.gamma.unloader.energy.name=Enerji Boşaltıcı
+tile.railcraft.machine.gamma.unloader.energy.tip=IC2 Enerji Vagonlarından Enerjiyi Dışarı Aktarır\n§o§9- Yönünü Değiştirmek İçin Levye ile Vurun -\n§o§c- Sadece IC2 enerjisi kabul eder
+tile.railcraft.machine.gamma.unloader.rf.name=RF Boşaltıcı
+tile.railcraft.machine.gamma.unloader.rf.tip=RF Enerji Vagonlarından Enerjiyi Dışarı Aktarır\n§o§9- Yönünü Değiştirmek İçin Levye ile Vurun -\n§o§c- Sadece RF enerjisi kabul eder
+tile.railcraft.machine.gamma.unloader.item.advanced.name=Gelişmiş Eşya Boşaltıcı
+tile.railcraft.machine.gamma.unloader.item.advanced.tip=Vagonlardan Eşyaları Boşaltır\n§o§9- Yönünü Değiştirmek İçin Levye ile Vurun -
+tile.railcraft.machine.gamma.unloader.item.name=Eşya Boşaltıcı
+tile.railcraft.machine.gamma.unloader.item.tip=Eşyaları Vagonlardan Boşaltır\n§o§c- Rayın Üstüne Yerleştirin -
+tile.railcraft.machine.gamma.unloader.liquid.name=Sıvı Boşaltıcı
+tile.railcraft.machine.gamma.unloader.liquid.tip=Sıvıları Vagonlardan Boşaltır\n§o§c- Rayın Altına Yerleştirin -
+
+railcraft.gui.tank.aluminium=Alüminyum Tank
+railcraft.gui.tank.stainless=Paslanmaz Çelik Tank
+railcraft.gui.tank.titanium=Titanyum Tank
+railcraft.gui.tank.tungstensteel=Tungsten Çeliği Tank
+railcraft.gui.tank.palladium=Paladyum Tank
+
+tile.railcraft.machine.zeta.name=Tank
+tile.railcraft.machine.zeta.tank.aluminium.gauge.name=Alüminyum Tank Göstergesi
+tile.railcraft.machine.zeta.tank.aluminium.gauge.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.aluminium.valve.name=Alüminyum Tank Vanası
+tile.railcraft.machine.zeta.tank.aluminium.valve.tip=Çoklu-Blok:En altdan 2 katmandan \nsıvı çıkışı yapar
+tile.railcraft.machine.zeta.tank.aluminium.wall.name=Alüminyum Tank Duvar
+tile.railcraft.machine.zeta.tank.aluminium.wall.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.stainless.gauge.name=Paslanmaz Çelik Tank Göstergesi
+tile.railcraft.machine.zeta.tank.stainless.gauge.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.stainless.valve.name=Paslanmaz Çelik Tank Vanası
+tile.railcraft.machine.zeta.tank.stainless.valve.tip=Çoklu-Blok:En altdan 2 katmandan \nsıvı çıkışı yapar.
+tile.railcraft.machine.zeta.tank.stainless.wall.name=Paslanmaz Çelik Tank Duvar
+tile.railcraft.machine.zeta.tank.stainless.wall.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.titanium.gauge.name=TitanyumTank Göstergesi
+tile.railcraft.machine.zeta.tank.titanium.gauge.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.titanium.valve.name=Titanyum Tank Göstergesi
+tile.railcraft.machine.zeta.tank.titanium.valve.tip=Çoklu-Blok:En altdan 2 katmandan \nsıvı çıkışı yapar.
+tile.railcraft.machine.zeta.tank.titanium.wall.name=Titanyum Tank Duvar
+tile.railcraft.machine.zeta.tank.titanium.wall.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.tungstensteel.gauge.name=Tungsten Çeliği Tank Göstergesi
+tile.railcraft.machine.zeta.tank.tungstensteel.gauge.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.tungstensteel.valve.name=Tungsten Çeliği Tank Vanası
+tile.railcraft.machine.zeta.tank.tungstensteel.valve.tip=Çoklu-Blok:En altdan 2 katmandan \nsıvı çıkışı yapar.
+tile.railcraft.machine.zeta.tank.tungstensteel.wall.name=Tungsten Çeliği Tank Duvar
+tile.railcraft.machine.zeta.tank.tungstensteel.wall.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.palladium.gauge.name=Paladyum Tank Göstergesi
+tile.railcraft.machine.zeta.tank.palladium.gauge.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.zeta.tank.palladium.valve.name=Paladyum Tank Vanası
+tile.railcraft.machine.zeta.tank.palladium.valve.tip=Çoklu-Blok:En altdan 2 katmandan \nsıvı çıkışı yapar.
+tile.railcraft.machine.zeta.tank.palladium.wall.name=Paladyum Tank Duvar
+tile.railcraft.machine.zeta.tank.palladium.wall.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+
+railcraft.gui.tank.iridium=İridyum Tank
+railcraft.gui.tank.osmium=Osmiyum Tank
+railcraft.gui.tank.neutronium=Nötronyum Tank
+
+tile.railcraft.machine.eta.name=Tank
+tile.railcraft.machine.eta.tank.iridium.gauge.name=İridyum Tank Göstergesi
+tile.railcraft.machine.eta.tank.iridium.gauge.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.iridium.valve.name=İridyum Tank Göstergesi
+tile.railcraft.machine.eta.tank.iridium.valve.tip=Çoklu-Blok:En altdan 2 katmandan \nsıvı çıkışı yapar.
+tile.railcraft.machine.eta.tank.iridium.wall.name=İridyum Tank Duvar
+tile.railcraft.machine.eta.tank.iridium.wall.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.osmium.gauge.name=Osmiyum Tank Göstergesi
+tile.railcraft.machine.eta.tank.osmium.gauge.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.osmium.valve.name=Osmiyum Tank Vanası
+tile.railcraft.machine.eta.tank.osmium.valve.tip=Çoklu-Blok:En altdan 2 katmandan \nsıvı çıkışı yapar.
+tile.railcraft.machine.eta.tank.osmium.wall.name=Osmiyum Tank Duvar
+tile.railcraft.machine.eta.tank.osmium.wall.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.neutronium.gauge.name=Nötronyum Tank Göstergesi
+tile.railcraft.machine.eta.tank.neutronium.gauge.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+tile.railcraft.machine.eta.tank.neutronium.valve.name=Nötronyum Tank Vanası
+tile.railcraft.machine.eta.tank.neutronium.valve.tip=Çoklu-Blok:En altdan 2 katmandan \nsıvı çıkışı yapar.
+tile.railcraft.machine.eta.tank.neutronium.wall.name=Nötronyum Tank Duvar
+tile.railcraft.machine.eta.tank.neutronium.wall.tip=Çoklu-Blok: Değişken Boyut, İçi Boş\n Yükseklik: 4, 5, 6, 7, 8\n    Genişlik: 3, 5, 7, 9
+
+tile.railcraft.ore.name=Cevher
+tile.railcraft.ore.dark.diamond.name=Kara Elmas Cevheri
+tile.railcraft.ore.dark.emerald.name=Kara Zümrüt Cevheri
+tile.railcraft.ore.dark.lapis.name=Kara Lapis Lazuli Cevheri
+tile.railcraft.ore.firestone.name=Alevtaşı Cevheri
+tile.railcraft.ore.firestone.tip.name=Tenin dışında her şeyi yakıyor,\nelinde tuttukça etrafındaki \nhavanın değiştiğini hissedebiliyorsun...
+tile.railcraft.ore.poor.copper.name=Çorak Bakır Cevheri
+tile.railcraft.ore.poor.gold.name=Çorak Altın Cevheri
+tile.railcraft.ore.poor.iron.name=Çorak Demir Cevheri
+tile.railcraft.ore.poor.lead.name=Çorak Kurşun Cevheri
+tile.railcraft.ore.poor.tin.name=Çorak Kalay Cevheri
+tile.railcraft.ore.saltpeter.name=Çorak Güherçile Cevheri
+tile.railcraft.ore.sulfur.name=Sülfür Cevheri
+
+tile.railcraft.post.emblem.name=Simge Sütunu
+tile.railcraft.post.metal.name=Metal Sütun
+tile.railcraft.post.metal.black.name=Siyah Metal Sütun
+tile.railcraft.post.metal.blue.name=Mavi Metal Sütun
+tile.railcraft.post.metal.brown.name=Kahverengi Metal Sütun
+tile.railcraft.post.metal.cyan.name=Camgöbeği Metal Sütun
+tile.railcraft.post.metal.gray.name=Gri Metal Sütun
+tile.railcraft.post.metal.green.name=Yeşil Metal Sütun
+tile.railcraft.post.metal.light.blue.name=Açık Mavi Metal Sütun
+tile.railcraft.post.metal.light.gray.name=Açık Gri Metal Sütun
+tile.railcraft.post.metal.lime.name=Açık Yeşil Metal Sütun
+tile.railcraft.post.metal.magenta.name=Eflatun Metal Sütun
+tile.railcraft.post.metal.unpainted.name=Metal Sütun
+tile.railcraft.post.metal.orange.name=Turuncu Metal Sütun
+tile.railcraft.post.metal.pink.name=Pembe Metal Sütun
+tile.railcraft.post.metal.platform.name=Metal Platform
+tile.railcraft.post.metal.platform.black.name=Siyah Metal Platform
+tile.railcraft.post.metal.platform.blue.name=Mavi Metal Platform
+tile.railcraft.post.metal.platform.brown.name=Kahverengi Metal Platform
+tile.railcraft.post.metal.platform.cyan.name=Camgöbeği Metal Platform
+tile.railcraft.post.metal.platform.gray.name=Gri Metal Platform
+tile.railcraft.post.metal.platform.green.name=Yeşil Metal Platform
+tile.railcraft.post.metal.platform.light.blue.name=Açık Mavi Metal Platform
+tile.railcraft.post.metal.platform.light.gray.name=Açık Gri Metal Platform
+tile.railcraft.post.metal.platform.lime.name=Açık Yeşil Metal Platform
+tile.railcraft.post.metal.platform.magenta.name=Eflatun Metal Platform
+tile.railcraft.post.metal.platform.unpainted.name=Metal Platform
+tile.railcraft.post.metal.platform.orange.name=Turuncu Metal Platform
+tile.railcraft.post.metal.platform.pink.name=Pembe Metal Platform
+tile.railcraft.post.metal.platform.purple.name=Mor Metal Platform
+tile.railcraft.post.metal.platform.red.name=Kırmızı Metal Platform
+tile.railcraft.post.metal.platform.white.name=Beyaz Metal Platform
+tile.railcraft.post.metal.platform.yellow.name=Sarı Metal Platform
+tile.railcraft.post.metal.purple.name=Mor Metal Platform
+tile.railcraft.post.metal.red.name=Kırmızı Metal Platform
+tile.railcraft.post.metal.white.name=Beyaz Metal Platform
+tile.railcraft.post.metal.yellow.name=Sarı Metal Platform
+tile.railcraft.post.stone.name=Taş Direk
+tile.railcraft.post.stone.platform.name=Taş Platform
+tile.railcraft.post.name=Tahta Direk
+tile.railcraft.post.wood.name=Tahta Direk
+tile.railcraft.post.wood.platform.name=Tahta Platform
+
+tile.railcraft.residual.heat.name=Artık Sıcaklık
+
+tile.railcraft.signal.name=Sinyal
+tile.railcraft.signal.block.signal.dual.name=Çift-Başlı Sinyal Bloğu
+tile.railcraft.signal.block.signal.dual.tip=Sinyal Blokların'daki Vagonları Tespit Eder\nBağlı Kontrollerin Aspekti Görünür\n§o§9Sinyal Bağlantıları:\n§o§9- 1x Sinyal Blokları\n§o§9- 1x Kontrolör\n§o§9- 1x Alıcı\n§o§cAlakalı Araçlar:\n§o§c- Sinyal Ayarlayıcı\n§o§c- Sinyal Bloğu İzleyici
+tile.railcraft.signal.block.signal.name=Sinyal Bloğu
+tile.railcraft.signal.block.signal.tip=Sinyal Blokların'daki Vagonları Tespit Eder\n§o§9Sinyal Bağlantıları:\n§o§9- 1x Sinyal Bloğu\n§o§9- 1x Kontrolör\n§o§cAlakalı Araçlar:\n§o§c- Sinyal Bloğu İzleyici
+tile.railcraft.signal.box.analog.name=Analog Sinyal Kontrolör Kutusu
+tile.railcraft.signal.box.analog.tip=Alıcılara Sinyal Gönderir\n§o§9Sinyal Bağlantıları: 1x Kontrolör\n§o§9Bitişik Bağlantıları: Yok\n§o§9Kızıltaş Bağlantıları: Dinle\n§o§cAlakalı Araçlar:\n§o§c- Sinyal Ayarlayıcı
+tile.railcraft.signal.box.block.relay.name=Sinyal Bloğu Dağıtma Kutusu
+tile.railcraft.signal.box.block.relay.tip=Zincirleme Sinyal Bloğu Oluşturur\n§o§9Sinyal Bağlantıları: 2x Sinyal Bloğu\n§o§9Bitişik Bağlantıları: Yay\n§o§9Kızıltaş Bağlantıları: Yay\n§o§cAlakalı Araçlar:\n§o§c- Sinyal Bloğu İzleyici
+tile.railcraft.signal.box.capacitor.name=Sinyal Kapasitör Kutusu
+tile.railcraft.signal.box.capacitor.tip=Alıcılara Sinyal Gönderir\n§o§9Sinyal Bağlanıtları: Yok\n§o§9Bitişik Bağlantıları: Dinle, Yay\n§o§9Kızıltaş Bağlantıları: Tekrarlamayı Dinle, Yay
+tile.railcraft.signal.box.controller.name=Sinyal Kontrolör Kutusu
+tile.railcraft.signal.box.controller.tip=Alıcılara Sinyal Gönderir\n§o§9Sinyal Bağlantıları: 1x Kontrolcü\n§o§9ABitişik Bağlantıları: Dinle\n§o§9Kızıltaş Bağlantıları: Dinle\n§o§cAlakalı Araçlar:\n§o§c- Sinyal Ayarlayıcı
+tile.railcraft.signal.box.interlock.name=Sinyal İnterlok Kutu
+tile.railcraft.signal.box.interlock.tip=Sadece Bir Adet Aspekt Sinyalinin Geçmesine İzin Verir\n§o§9Sinyal Bağlantıları:\n§o§9- 1x Kontrolcü\n§o§9- 1x Alıcı\n§o§9Bitişik Bağlantılar:\n§o§9- İnterlok\n§o§9- Dinle (Çıkışı Sınırla)\n§o§cAlakalı Araçlar:\n§o§c- Sinyal Ayarlayıcı
+tile.railcraft.signal.box.receiver.name=Sinyal Alıcı Kutusu
+tile.railcraft.signal.box.receiver.tip=Kontrolcü Sinyallerini Dinler\n§o§9Sinyal Bağlantıları: 1x Alıcı\n§o§9Bitişik Bağlantıları: Yay\n§o§9Kızıltaş Bağlantıları: Yay\n§o§cAlakalı Araçlar:\n§o§c- Sinyal Ayarlayıcı
+tile.railcraft.signal.box.sequencer.name=Sinyal Sıralayacı Kutusu
+tile.railcraft.signal.box.sequencer.tip=Bitişik Bloklar Arasında Döngüye Alır\n§o§9Bitişik Bağlantılar:\n§o§9- Sıralayacı\n§o§9- Dinle (Saati)\n§o§9- Yay\n§o§9Kızıltaş Bağlantıları:\n§o§9- Tekrarı Dinle (Saati)\n§o§9- Yay
+tile.railcraft.signal.distant.dual.name=Çift-Başlı Uzak Sinyal
+tile.railcraft.signal.distant.dual.tip=Bağlantılı Kontrolcülerdeki aspektleri görüntüler\n§o§9Sinyal Bağlantıları: 2x Alıcı\n§o§cAlakalı Araçlar:\n§o§c- Sinyal Ayarlayıcı
+tile.railcraft.signal.distant.name=Uzak Sinyal
+tile.railcraft.signal.distant.tip=Bağlantılı Kontrolcünün aspektini gösterir\n§o§9Sinyal Bağlantıları: 1x Alıcı\n§o§cAlakalı Araçlar:\n§o§c- Sinyal Ayarlayıcı
+tile.railcraft.signal.switch.lever.name=Anahtar Şalter
+tile.railcraft.signal.switch.lever.tip=Bitişik Anahtar İzlerini Kontrol Eder\n§o§9Manuel İşlem
+tile.railcraft.signal.switch.motor.name=Anahtar Motoru
+tile.railcraft.signal.switch.motor.tip=Controls adjacent Switch Tracks\n§o§9Aerial Linkages: 1x Receiver\n§o§9Redstone Linkage: Listen\n§o§cRelevant Tools:\n§o§c- Signal Tuner
+tile.railcraft.signal.switch.routing.name=Yönlendirici Anahtar Motoru
+tile.railcraft.signal.switch.routing.tip=Controls adjacent Switch Tracks\n§o§9Scripted Logic Operation\n§o§cRelevant Tools:\n§o§c- Routing Table
+
+tile.railcraft.slab.name=Basamak
+tile.railcraft.slab.abyssal.block.name=Abyssal Blok Basamağı
+tile.railcraft.slab.abyssal.brick.name=Abyssal Tuğla Basamağı
+tile.railcraft.slab.abyssal.cobble.name=Abyssal Kırıktaş Basamağı
+tile.railcraft.slab.abyssal.fitted.name=Döşeli Abyssal Taş Basamağı
+tile.railcraft.slab.bleachedbone.block.name=Beyazlatılmış Kemik Blok Basamağı
+tile.railcraft.slab.bleachedbone.brick.name=Beyazlatılmış Kemik Tuğla Basamağı
+tile.railcraft.slab.bleachedbone.cobble.name=Beyazlatılmış Kemik Kırıktaş Basamağı
+tile.railcraft.slab.bleachedbone.fitted.name=Döşeli Beyazlatılmış Kemik Taş Basamağı
+tile.railcraft.slab.bloodstained.block.name=Kan Lekeli Blok Basamağı
+tile.railcraft.slab.bloodstained.brick.name=Kan Lekeli Tuğla Basamağı
+tile.railcraft.slab.bloodstained.cobble.name=Kan Lekeli Kırıktaş Basamağı
+tile.railcraft.slab.bloodstained.fitted.name=Döşeli Kan Lekeli Taş Basamağı
+tile.railcraft.slab.concrete.name=Beton Basamak
+tile.railcraft.slab.copper.name=Bakır Basamak
+tile.railcraft.slab.creosote.name=Kreozot Blok Basamak
+tile.railcraft.slab.diamond.name=Elmas Basamak
+tile.railcraft.slab.frostbound.block.name=Ayaz Bağlı Blok Basamak
+tile.railcraft.slab.frostbound.brick.name=Ayaz  Bağlı Tuğla Basamak
+tile.railcraft.slab.frostbound.cobble.name=Ayaz Bağlı Kırıktaş Basamak
+tile.railcraft.slab.frostbound.fitted.name=Döşeli Ayaz Bağlı Taş Basamak
+tile.railcraft.slab.gold.name=Altın Basamak
+tile.railcraft.slab.ice.name=Buz Basamak
+tile.railcraft.slab.infernal.block.name=Şeytani Blok Basamak
+tile.railcraft.slab.infernal.brick.name=Şeytani Tuğla Basamak
+tile.railcraft.slab.infernal.cobble.name=Şeytani Kırıktaş Basamak
+tile.railcraft.slab.infernal.fitted.name=Döşeli Şeytani Taş Basamak
+tile.railcraft.slab.iron.name=Demir Basamak
+tile.railcraft.slab.lead.name=Kurşun Basamak
+tile.railcraft.slab.nether.block.name=Nether Blok Basamak
+tile.railcraft.slab.nether.cobble.name=Nether Kırıktaş Basamak
+tile.railcraft.slab.nether.fitted.name=Döşeli Nether Taş Basamak
+tile.railcraft.slab.obsidian.name=Obsidyen Basamak
+tile.railcraft.slab.packed.ice.name=Sert Buz Basamak
+tile.railcraft.slab.quarried.block.name=Ocaktaşı Basamak
+tile.railcraft.slab.quarried.brick.name=Ocaktaşı Tuğla Basamak
+tile.railcraft.slab.quarried.cobble.name=Ocaktaşı Kırıktaş Basamak
+tile.railcraft.slab.quarried.fitted.name=Döşeli Ocaktaşı Taş Basamak
+tile.railcraft.slab.sandy.block.name=Kumlu Blok Basamak
+tile.railcraft.slab.sandy.brick.name=Kumlu Tuğla Basamak
+tile.railcraft.slab.sandy.cobble.name=Kumlu Kırıktaş Basamak
+tile.railcraft.slab.sandy.fitted.name=Döşeli Kumlu Taş Basamak
+tile.railcraft.slab.snow.name=Kar Basamak
+tile.railcraft.slab.steel.name=Çelik Basamak
+tile.railcraft.slab.tin.name=Kalay Basamak
+
+tile.railcraft.stair.name=Merdiven
+tile.railcraft.stair.abyssal.block.name=Abyssal Blok Merdiven
+tile.railcraft.stair.abyssal.brick.name=Abyssal Tuğla Merdiven
+tile.railcraft.stair.abyssal.cobble.name=Abyssal Kırıktaş Merdiven
+tile.railcraft.stair.abyssal.fitted.name=Döşeli Abyssal Taş Merdiven
+tile.railcraft.stair.bleachedbone.block.name=Beyazlatılmış Kemik Blok Merdiven
+tile.railcraft.stair.bleachedbone.brick.name=Beyazlatılmış Kemik Tuğla Merdiven
+tile.railcraft.stair.bleachedbone.cobble.name=Beyazlatılmış Kemik Kırıktaş Merdiven
+tile.railcraft.stair.bleachedbone.fitted.name=Döşeli Beyazlatılmış Kemik Taş Merdiven
+tile.railcraft.stair.bloodstained.block.name=Kan Lekeli Blok Merdiven
+tile.railcraft.stair.bloodstained.brick.name=Kan Lekeli Tuğla Merdiven
+tile.railcraft.stair.bloodstained.cobble.name=Kan Lekeli Kırıktaş Merdiven
+tile.railcraft.stair.bloodstained.fitted.name=Döşeli Kan Lekeli Taş Merdiven
+tile.railcraft.stair.concrete.name=Beton Merdiven
+tile.railcraft.stair.copper.name=Bakır Merdiven
+tile.railcraft.stair.creosote.name=Kreozot Blok Merdiven
+tile.railcraft.stair.diamond.name=Elmas Merdiven
+tile.railcraft.stair.frostbound.block.name=Ayaz Bağlı Blok Merdiven
+tile.railcraft.stair.frostbound.brick.name=Ayaz Bağlı Tuğla Merdiven
+tile.railcraft.stair.frostbound.cobble.name=Ayaz Bağlı Kırıktaş Merdiven
+tile.railcraft.stair.frostbound.fitted.name=Döşeli Ayaz Bağlı Taş Merdiven
+tile.railcraft.stair.gold.name=Altın Merdiven
+tile.railcraft.stair.ice.name=Buz Merdiven
+tile.railcraft.stair.infernal.block.name=Şeytani Blok Merdiven
+tile.railcraft.stair.infernal.brick.name=Şeytani Tuğla Merdiven
+tile.railcraft.stair.infernal.cobble.name=Şeytani Kırıktaş Merdiven
+tile.railcraft.stair.infernal.fitted.name=Döşeli Şeytani Taş Merdiven
+tile.railcraft.stair.iron.name=Demir Merdiven
+tile.railcraft.stair.lead.name=Kurşun Merdiven
+tile.railcraft.stair.nether.block.name=Nether Blok Merdiven
+tile.railcraft.stair.nether.cobble.name=Nether Kırıktaş Merdiven
+tile.railcraft.stair.nether.fitted.name=Döşeli Nether Taş Merdiven
+tile.railcraft.stair.obsidian.name=Obsidyen Merdiven
+tile.railcraft.stair.packed.ice.name=Sert Buz Merdiven
+tile.railcraft.stair.quarried.block.name=Ocaktaşı Merdiven
+tile.railcraft.stair.quarried.brick.name=Ocaktaşı Tuğla Merdiven
+tile.railcraft.stair.quarried.cobble.name=Ocaktaşı Kırıktaş Merdiven
+tile.railcraft.stair.quarried.fitted.name=Döşeli Ocaktaşı Taş Merdiven
+tile.railcraft.stair.sandy.block.name=Kumlu Blok Merdiven
+tile.railcraft.stair.sandy.brick.name=Kumlu Tuğla Merdiven
+tile.railcraft.stair.sandy.cobble.name=Kumlu Kırıktaş Merdiven
+tile.railcraft.stair.sandy.fitted.name=Döşeli Kumlu Taş Merdiven
+tile.railcraft.stair.snow.name=Kar Merdiven
+tile.railcraft.stair.steel.name=Çelik Merdiven
+tile.railcraft.stair.tin.name=Kalay Merdiven
+
+tile.railcraft.lantern.metal.name=Fener
+tile.railcraft.lantern.metal.copper.name=Bakır Fener
+tile.railcraft.lantern.metal.gold.name=Altın Fener
+tile.railcraft.lantern.metal.iron.name=Demir Fener
+tile.railcraft.lantern.metal.lead.name=Kurşun Fener
+tile.railcraft.lantern.metal.steel.name=Çelik Fener
+tile.railcraft.lantern.metal.tin.name=Kalay Fener
+
+tile.railcraft.lantern.stone.name=Taş Fener
+tile.railcraft.lantern.stone.abyssal.name=Abyssal Taş Fener
+tile.railcraft.lantern.stone.bleachedbone.name=Beyazlatılmış Kemik Taş Fener
+tile.railcraft.lantern.stone.bloodstained.name=Kan Lekeli Taş Fener
+tile.railcraft.lantern.stone.frostbound.name=Ayaz Bağlı Taş Fener
+tile.railcraft.lantern.stone.infernal.name=Şeytani Taş Fener
+tile.railcraft.lantern.stone.nether.name=Nether Taş Fener
+tile.railcraft.lantern.stone.quarried.name=Ocaktaşı Fener
+tile.railcraft.lantern.stone.sandstone.name=Kumtaşı Fener
+tile.railcraft.lantern.stone.sandy.name=Kumlu Taş Fener
+tile.railcraft.lantern.stone.stone.name=Taş Fener
+
+tile.railcraft.track.name=Ray
+tile.railcraft.track.boarding.name=Biniş Rayı
+tile.railcraft.track.boarding.tip=Kilitli Ray İle Değiştirildi
+tile.railcraft.track.boarding.train.name=Tren Biniş Rayı
+tile.railcraft.track.boarding.train.tip=Kilitli Ray İle Değiştirildi
+tile.railcraft.track.buffer.stop.name=Tamponlu Durak Rayı
+tile.railcraft.track.buffer.stop.tip=End of the Line\n§o§9- Hit with Crowbar to change direction -
+tile.railcraft.track.control.name=Kontrol Rayı
+tile.railcraft.track.control.tip=Küçük bir çok yönlü destek uygular\n§o§9- Yön değiştirmek için Levye ile vurun -\n§o§c- Yön değiştirmek için Kızıltaş uygulayın -
+tile.railcraft.track.coupler.name=Bağdaştırıcı Ray
+tile.railcraft.track.coupler.tip=Couples/Decouples passing Carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.decoupler.name=Bağ Kaldırıcı Ray
+tile.railcraft.track.detector.direction.name=Yönlü Dedektör Ray
+tile.railcraft.track.detector.direction.tip=Emits Redstone when a cart passes\n in the indicated direction\n§o§9- Hit with Crowbar to change direction -
+tile.railcraft.track.disembarking.name=Disembarking Track
+tile.railcraft.track.disembarking.tip=Dismounts riding Entities in direction of arrow\n§o§9- Hit with Crowbar to change direction -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.disposal.name=Disposal Track
+tile.railcraft.track.disposal.tip=Suspended track\n Dismounts riding Entities
+tile.railcraft.track.electric.name=Elektrikli Ray
+tile.railcraft.track.electric.tip=§9Tehlike: Yüksek Gerilim\n §rElektrikle Çalışır\n Elektrikli Lokomotifle Kullanın\n Güç Vermek İçin Elektrikli Besleme Üniteleri Kullanın\n Boşlukları Kapatmak İçin Manevra Teli Kullanın
+tile.railcraft.track.electric.junction.name=Elektrikli Bağlantı Rayı
+tile.railcraft.track.electric.junction.tip=§9Tehlike: Yüksek Gerilim\n §rElektrikle Çalışır\n Elektrikli Lokomotifle Kullanın\n Güç Vermek İçin Elektrikli Besleme Üniteleri Kullanın\n Boşlukları Kapatmak İçin Manevra Teli Kullanın
+tile.railcraft.track.electric.switch.name=Elektrikli Anahtar Rayı
+tile.railcraft.track.electric.switch.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.electric.wye.name=Electric Wye Track
+tile.railcraft.track.electric.wye.tip=§9Danger: High Voltage\n §rPowered by Electricity\n Use with Electric Locomotive\n Use Electric Feeder Units to power\n Use Shunting Wire to bridge gaps\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.elevator.name=Elevator Track
+tile.railcraft.track.elevator.tip=Allows vertical Minecart movement\n§o§c- Apply Redstone at top to go up -
+tile.railcraft.track.embarking.name=Embarking Track
+tile.railcraft.track.embarking.tip=Loads entities into Carts\n§o§9- Hit with Crowbar to change range -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.force.name=Force Track
+tile.railcraft.track.gated.name=Gated Track
+tile.railcraft.track.gated.oneway.name=Gated One-Way Track
+tile.railcraft.track.gated.oneway.tip=Its a one-way gate\n§o§c- Apply Redstone to open -
+tile.railcraft.track.gated.tip=Its a gate\n§o§c- Apply Redstone to open -
+tile.railcraft.track.holding.name=Holding Track
+tile.railcraft.track.holding.tip=Kilitli Ray İle Değiştirildi
+tile.railcraft.track.holding.train.name=Train Holding Track
+tile.railcraft.track.holding.train.tip=Kilitli Ray İle Değiştirildi
+tile.railcraft.track.junction.name=Junction Track
+tile.railcraft.track.launcher.name=Launcher Track
+tile.railcraft.track.launcher.tip=Makes carts fly\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.limiter.name=Sınırlayıcı Ray
+tile.railcraft.track.limiter.tip=Adjusts the speed\n of passing Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.lockdown.name=Kilitlenmiş Ray
+tile.railcraft.track.lockdown.tip=Kilitli Ray İle Değiştirildi
+tile.railcraft.track.lockdown.train.name=Train Lockdown Track
+tile.railcraft.track.lockdown.train.tip=Kilitli Ray İle Değiştirildi
+tile.railcraft.track.locking.name=Kilitlenen Ray
+tile.railcraft.track.locking.tip=Stops and holds carts\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.locomotive.name=Lokomotif Rayı
+tile.railcraft.track.locomotive.tip=Starts/Stops Locomotives\n§o§9- Hit with Crowbar to change mode -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.oneway.name=Tek Yönlü Ray
+tile.railcraft.track.oneway.tip=Carts can only pass\n in the direction of the arrow\n§o§9- Hit with Crowbar to change direction -
+tile.railcraft.track.priming.name=Priming Track
+tile.railcraft.track.priming.tip=Ignites TNT Carts\n Adjustable Fuse\n§o§9- Hit with Crowbar to change fuse -\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.reinforced.boost.name=Reinforced Booster Track
+tile.railcraft.track.reinforced.boost.tip=125% of the speed of normal track\n Explosion resistant\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.reinforced.junction.name=Reinforced Junction Track
+tile.railcraft.track.reinforced.junction.tip=125% of the speed of normal track\n Explosion resistant
+tile.railcraft.track.reinforced.name=Reinforced Track
+tile.railcraft.track.reinforced.tip=125% of the speed of normal track\n Explosion resistant
+tile.railcraft.track.reinforced.switch.name=Reinforced Switch Track
+tile.railcraft.track.reinforced.switch.tip=125% of the speed of normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.reinforced.wye.name=Reinforced Wye Track
+tile.railcraft.track.reinforced.wye.tip=125% of the speed of normal track\n Explosion resistant\n§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.routing.name=Routing Track
+tile.railcraft.track.routing.tip=Sets a passing Locomotive's Ticket\n§o§9- Hit with Crowbar to change ticket -
+tile.railcraft.track.slow.boost.name=Wooden Booster Track
+tile.railcraft.track.slow.junction.name=Wooden Junction Track
+tile.railcraft.track.slow.junction.tip=Normal pist hızının %30'u
+tile.railcraft.track.slow.name=Tahta Ray
+tile.railcraft.track.slow.tip=Normal pist hızının %30'u
+tile.railcraft.track.slow.switch.name=Wooden Switch Track
+tile.railcraft.track.slow.switch.tip=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.slow.wye.name=Wooden Wye Track
+tile.railcraft.track.slow.wye.tip=30% of the speed of normal track\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.speed.boost.name=H.S. Booster Track
+tile.railcraft.track.speed.boost.tip=§9Dangerous\n §rMore than twice as fast as normal track\n Maintains High Speed\n§o§c- Apply Redstone to boost -
+tile.railcraft.track.speed.name=H.S. Track
+tile.railcraft.track.speed.tip=§9Dangerous\n §rMore than twice as fast as normal track\n Requires Boosters/Transitions to reach speed\n Cannot make corners at High Speed
+tile.railcraft.track.speed.switch.name=H.S. Switch Track
+tile.railcraft.track.speed.switch.tip=§9Dangerous\n Do not attempt to diverge at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.speed.transition.name=H.S. Transition Track
+tile.railcraft.track.speed.transition.tip=§9Dangerous\n §rMore than twice as fast as normal track\n Transitions to/from High Speed\n§o§c- Apply Redstone to boost -
+tile.railcraft.track.speed.wye.name=H.S. Wye Track
+tile.railcraft.track.speed.wye.tip=§9Dangerous\n Do not attempt to traverse at High Speed\n §o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.suspended.name=Suspended Track
+tile.railcraft.track.suspended.tip=Does not require support below\n Can cross gaps
+tile.railcraft.track.switch.name=Switch Track
+tile.railcraft.track.switch.tip=§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.whistle.name=Whistle Track
+tile.railcraft.track.whistle.tip=Passing Locomotives\n will blow their Whistle\n§o§c- Apply Redstone to enable -
+tile.railcraft.track.wye.name=Wye Track
+tile.railcraft.track.wye.tip=§o§c- Requires Switch Motor/Lever to switch -
+tile.railcraft.track.autolococoupler.name=Otomatik Lokomotif Bağdaştırıcısı
+tile.railcraft.track.autolococoupler.tip=Sets Passing Locomotives To\nLink With First Cart They \nCollide With And Then Automatically\nSwitch To Shunting Speed.\n§o§c- Apply Redstone to enable -
+
+tile.railcraft.wall.alpha.name=Duvar
+tile.railcraft.wall.beta.name=Duvar
+tile.railcraft.wall.abyssal.brick.name=Abyssal Tuğla Duvar
+tile.railcraft.wall.bleachedbone.brick.name=Beyazlatılmış Kemik Tuğla Duvar
+tile.railcraft.wall.bloodstained.brick.name=Kan Lekeli Tuğla Duvar
+tile.railcraft.wall.brick.name=Tuğla Duvar
+tile.railcraft.wall.concrete.name=Beton Duvar
+tile.railcraft.wall.diamond.name=Elmas Duvar
+tile.railcraft.wall.frost.bound.brick.name=Ayaz Bağlı Tuğla Duvar
+tile.railcraft.wall.gold.name=Altın Duvar
+tile.railcraft.wall.ice.name=Buz Duvar
+tile.railcraft.wall.infernal.brick.name=Şeytani Tuğla Duvar
+tile.railcraft.wall.iron.name=Demir Duvar
+tile.railcraft.wall.nether.brick.name=Nether Tuğla Duvar
+tile.railcraft.wall.obsidian.name=Obsidyen Duvar
+tile.railcraft.wall.quarried.brick.name=Ocaktaşı Tuğla Duvar
+tile.railcraft.wall.quartz.chiseled.name=Yontulmuş Kuvars Duvar
+tile.railcraft.wall.quartz.name=Kuvars Duvar
+tile.railcraft.wall.sandstone.chiseled.name=Yontulmuş Kumtaşı Duvar
+tile.railcraft.wall.sandstone.name=Kumtaşı Duvar
+tile.railcraft.wall.sandstone.smooth.name=Düzgün Kumtaşı Duvar
+tile.railcraft.wall.sandy.brick.name=Kumlu Tuğla Duvar
+tile.railcraft.wall.snow.name=Kar Duvar
+tile.railcraft.wall.stone.brick.chiseled.name=Yontulmuş Taş Tuğla Duvar
+tile.railcraft.wall.stone.brick.cracked.name=Çatlak Taş Tuğla Duvar
+tile.railcraft.wall.stone.brick.mossy.name=Yosunlu Taş Tuğla Duvar
+tile.railcraft.wall.stone.brick.name=Taş Tuğla Duvar
+
+tile.railcraft.worldlogic.name=Güherçile Cevher Doğurucu
+
+tooltip.wawla.tooltype.crowbar=Levye
+
+tile.railcraft.default.name=Track

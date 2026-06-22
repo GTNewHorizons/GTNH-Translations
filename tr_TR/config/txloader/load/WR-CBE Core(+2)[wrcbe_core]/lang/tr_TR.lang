@@ -1,0 +1,97 @@
+death.attack.bolt=%1$s REther yıldırımı tarafından vuruldu.
+item.wrcbe_core:obsidianStick.name=Obsidyen Çubuk
+item.wrcbe_core:stoneBowl.name=Taş Tas
+item.wrcbe_core:retherPearl.name=REther İncisi
+item.wrcbe_core:wirelessTransceiver.name=Kablosuz Alıcı
+item.wrcbe_core:blazeTransceiver.name=Alaz Alıcı
+item.wrcbe_core:recieverDish.name=Alıcı Tabak
+item.wrcbe_core:blazeRecieverDish.name=Alaz Alıcı Tabak
+
+wrcbe_core.button.simple=Basit
+wrcbe_core.button.advanced=Gelişmiş
+wrcbe_core.button.set=Ayarlamak
+wrcbe_core.button.colour=Faz Kayması
+wrcbe_core.button.setname=İsmi Ayarlamak
+wrcbe_core.button.remname=Kaldırmak
+wrcbe_core.label.value=Değer
+wrcbe_core.label.name=Frekans Adı
+wrcbe_core.label.colour=Spektrum
+wrcbe_core.label.freq=Frekans
+
+wrcbe_core.command.usage=WR-CBE REther yönetimi, kullanımı: freq [parametreler...]
+wrcbe_core.command.usage1=Parametreler: %s
+wrcbe_core.command.usage2=Daha çok bilgi için /freq help [parametre]
+
+wrcbe_core.param.invalidno=Geçersiz parametre kayıtları
+wrcbe_core.param.invalid=Geçersiz parametre
+wrcbe_core.param.missing=Böyle bir parametre yok
+wrcbe_core.param.invalidfreq=Geçersiz frekans
+wrcbe_core.param.invalidfreqrange=Geçersiz frekans uzaklığı
+
+wrcbe_core.param.get.usage=Kullanımı: freq get [pub | shared | private]
+wrcbe_core.param.get.usage1=Genel frekans aralığını gösterir: freq get public
+wrcbe_core.param.get.usage2=Paylaşılan frekans aralığını gösterir: freq get shared
+wrcbe_core.param.get.usage3=Her oyuncunun sahip olabileceği özel frekans sayısını gösterir: freq get private
+wrcbe_core.param.get.public=Frekansı 1-%d halka açık
+wrcbe_core.param.get.shared=Frekans %d-%d paylaşılandır
+wrcbe_core.param.get.shared0=Paylaşılan frekans yok
+wrcbe_core.param.get.private=Tüm oyuncular %d sayıda özel frekans açabilir.
+
+wrcbe_core.param.private.usage=Kullanımı: freq private [parametreler]
+wrcbe_core.param.private.usage1=[Kullanıcı adı] tarafından sahiplenen özel frekansı gösterir: freq [ kullanıcı adı | hepsi ] 
+wrcbe_core.param.private.usage2=[Frekans]'ının sahibini [kullanıcı-adı] olarak kaydeder: freq private [kullanıcı-adı] [frekans]
+wrcbe_core.param.private.usage3=[Frekans] sahibini gösterir: freq private [frekans]
+wrcbe_core.param.private.usage4=[Frekans]'ın sahibini siler: freq private clear [frekans | kullanıcı adı | hepsi]
+wrcbe_core.param.private.none=Özel frekans yok
+wrcbe_core.param.private.list=Yandaki frekanslar özeldir: %s
+wrcbe_core.param.private.ispublic=Bu frekans halka açık: %d
+wrcbe_core.param.private.publicanyway=Bu frekans da halka açık %d
+wrcbe_core.param.private.notprivate=Bu frekans özel değil %d
+wrcbe_core.param.private.noneowned=Bu kişi hiçbir frekansa sahip değil %s
+wrcbe_core.param.private.nowshared=%d artık paylaşılıyor.
+wrcbe_core.param.private.nowshared2=Sağdaki frekanslar paylaşılıyor: %s
+wrcbe_core.param.private.ownedby=%d frekansı %s tarafından sahipli
+wrcbe_core.param.private.owns=%s şu frekanslara sahip: %s
+wrcbe_core.param.private.notshared=%d bu frekans paylaşılan menzilde değil.
+wrcbe_core.param.private.nowownedby=%d bu frekans artık bu kişi tarafından sahipli %s
+wrcbe_core.param.private.limit=%s bu kişi zaten bu frekanslara sahip %d
+
+wrcbe_core.param.scan.usage=Kullanımı: freq scan [kullanıcı adı]
+wrcbe_core.param.scan.usage1=[kullanıcı adı]'nın yayın yapabileceği ve sahip olduğu frekansları bildirir.
+wrcbe_core.param.scan.usage2=Örnek: freq scan kriyos
+wrcbe_core.param.scan.usage3=Örnek: freq scan
+wrcbe_core.param.scan.list=%s kişisi şurada yayın yapabilir: %s
+wrcbe_core.param.scan.onlypublic=%s kişisi sadece halka açık yerlerde yayın yapabilir
+
+wrcbe_core.param.set.usage=Kullanımı: freq set [pub | shared | private] [değer]
+wrcbe_core.param.set.usage1=Örnek: freq set public. Frekans 1'i [değer]'e halka açık olarak ayarlar.
+wrcbe_core.param.set.usage2=Örnek: freq set shared. [public+1] frekanslarını paylaşılan olarak [değer] olarak ayarlar
+wrcbe_core.param.set.usage3=Örn: freq set private. Her oyuncuya [değer] özel frekanslar verir
+wrcbe_core.param.set.invalidnum=Geçersiz Sayı
+wrcbe_core.param.set.invalidqty=Geçersiz Miktar
+wrcbe_core.param.set.nowpublic=%s: 1-%d frekansları artık herkese açık
+wrcbe_core.param.set.sharedpublic=%s: Paylaşılan frekans aralığı halka açıldı
+wrcbe_core.param.set.nowshared=%s: %d-%d frekansları artık paylaşılıyor
+wrcbe_core.param.set.sharedremoved=%s: Paylaşılan frekans aralığı kaldırıldı
+wrcbe_core.param.set.privateno=%s: Tüm oyuncular artık %d özel frekanslara izinli
+
+wrcbe_core.param.jam.usage=Kullanımı: freq jam [kullanıcı adı] [frekans mesafesi] [all | default]
+wrcbe_core.param.jam.usage1=Jam [kullanıcı adı]'dan [frekans menzili]
+wrcbe_core.param.jam.usage2=Örn: freq %s kriyos 100-250
+wrcbe_core.param.jam.usage3=Örn: freq %s kriyos all
+wrcbe_core.param.jam.usage4=Örn: freq %s kriyos default
+wrcbe_core.param.jam.usage5=Örn: freq %s 100-250
+wrcbe_core.param.jam.usage6=Örn: freq %s kriyos 500
+wrcbe_core.param.jam.noplayer=Böyle bir Kullanıcı bulunamadı
+wrcbe_core.param.jam.errpublic=Halka açık frekanslardan birisini engelleyemezsin.
+wrcbe_core.param.jam.jammed=%d adlı frekanstan engellendiniz.
+wrcbe_core.param.jam.jammed2=%s frekanslarından engellendiniz.
+wrcbe_core.param.jam.opjammed=%s: %s, %d frekansından engellendi
+wrcbe_core.param.jam.opjammed2=%s: %s, %s frekanslarından engellendi
+
+wrcbe_core.param.open.usage=Kullanımı: freq open [kullanıcı adı] [frekans menzili] [all | default]
+wrcbe_core.param.open.usage1=Unjam [kullanıcı adı]'ndan [frekans menzili]
+wrcbe_core.param.open.jammed=Size %d frekansı verildi
+wrcbe_core.param.open.jammed2=Size %s frekansları verildi
+wrcbe_core.param.open.opjammed=%s: %s'ye %d frekansı verildi
+wrcbe_core.param.open.opjammed2=%s: %s'ye %s frekansları verildi

@@ -1,0 +1,65 @@
+#Item Localization
+item.duplicator.name=Yönetici Çoğaltıcı
+item.labeler.name=Fabrika Etiketleyici
+
+tile.cable_rf.name=RF Düğümü
+tile.cable_ae.name=Enerjistik Bağlayıcı
+
+
+
+
+gui.sfm.RfInputLong=RF Girdisi
+gui.sfm.RfInputShort=RF Girdisi
+
+gui.sfm.RfOutputLong=RF Çıktısı
+gui.sfm.RfOutputShort=RF Çıktısı
+
+gui.sfm.TypeRf=RF Depolama
+gui.sfm.TypeRfInput=RF Sağlayıcı
+gui.sfm.TypeRfOutput=RF Alıcı
+gui.sfm.NoRfError=RF Depolama Seçili Değil
+
+gui.sfm.CopyCommand=Kopyala [Komutu Buraya Bırak]
+
+gui.sfm.RfConditionShort=RF Durumu
+gui.sfm.RfConditionLong=RF Durumu
+gui.sfm.RfConditionMenu=RF Seviyesi
+gui.sfm.RfConditionInfo=Metin kutusunda tetikleme seviyesini ayarlayın ve yukarıda veya aşağıda tetikleyin
+gui.sfm.RfConditionError=Geçersiz tetikleme seviyesi
+gui.sfm.Below=Düşük tetikleme
+
+gui.sfm.DelayOutput=Gecikmeli Çıktı
+gui.sfm.DelayTrigger=Gecikmeli Tetikleyici
+gui.sfm.DelayInfo=Gecikmeyi saniye cinsinden ayarlayın, tetik ateşlenmeden önceki tik sayısı (minimum 5 tik)
+gui.sfm.DelayError=Gecikme çok düşük.
+gui.sfm.DelayRestart=Yeniden Başlat
+gui.sfm.DelayIgnore=Yoksay
+
+stevesaddons.waila.labelled=Etiket: %s
+stevesaddons.idsucompat.isEmpty=Boş
+stevesaddons.idsucompat.contains=İçerir: %s
+
+stevesaddons.chat.cleared=Etiket temizlendi
+stevesaddons.chat.saved=Etiket "%s" olarak ayarlandı
+
+stevesaddons.command.notFound=Komut bulunamadı
+stevesaddons.command.noPermission=Bu komutu kullanmak için yetkiniz yok.
+stevesaddons.command.loadFailed=Yükleme başarısız
+stevesaddons.command.loadSuccess=Yönetici şuradan yüklendi: %s
+stevesaddons.command.nothingToSave=Çoğaltıcı boş
+stevesaddons.command.saveFailed=Kaydetme başarısız
+stevesaddons.command.noDuplicator=Komut yalnızca bir Yönetici Çoğaltıcı'ya uygulanabilir
+stevesaddons.command.savedTo=Yönetici kaydedildi: %s
+stevesaddons.command.copiedToClip=Panoya yüklenen Pastebin bağlantısı
+
+stevesaddons.command.info.help.start=Mevcut komutlar şunlardır:
+stevesaddons.command.help.syntax=/stevesaddons help [komut]
+stevesaddons.command.info.help=Mevcut tüm komutlarla ilgili yardım için.
+stevesaddons.command.info.load=Verilen dosya adını tutulan bir Çoğaltıcıya yükleyin.
+stevesaddons.command.load.syntax=/stevesaddons load <dosya adı>
+stevesaddons.command.info.save=Tutulan Çoğaltıcıyı isteğe bağlı adla bir dosyaya kaydeder (varsayılan olarak oyuncunun adı + koordinatlar)
+stevesaddons.command.save.syntax=/stevesaddons save [dosya adı]
+stevesaddons.command.info.pastebin=Pastebin ve tutulan bir Çoğaltıcı arasında veri koyun veya alın.
+stevesaddons.command.pastebin.syntax=/stevesaddons pastebin {put | get <yapıştır>}
+stevesaddons.command.info.clear=Tutulan bir Çoğaltıcıyı temizler
+stevesaddons.command.clear.syntax=/stevesaddons clear
