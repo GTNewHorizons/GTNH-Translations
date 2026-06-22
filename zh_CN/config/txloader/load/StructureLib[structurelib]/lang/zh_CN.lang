@@ -38,9 +38,7 @@ item.structurelib.constructableTrigger.gui.set=替换
 item.structurelib.constructableTrigger.gui.unset=移除
 item.structurelib.constructableTrigger.gui.wipe=§4清空
 item.structurelib.constructableTrigger.gui.channels.from=§rMod：§9§o%s
-item.structurelib.constructableTrigger.gui.info=许多多方块结构支持一定程度的变化。可以使用子信道来指定变体。
-子信道的键由小写字符组成，值取正整数。最常使用的一些子信道可通过输入提示自动补全。
-你还可以从NEI中拖拽并放置物品来设置对应的子信道值。这些物品均有“§o对应子信道值X（子信道：Y）§r”的tooltip。
+item.structurelib.constructableTrigger.gui.info=许多多方块结构支持一定程度的变化。可以使用子信道来指定变体。\n子信道的键由小写字符组成，值取正整数。最常使用的一些子信道可通过输入提示自动补全。\n你还可以从NEI中拖拽并放置物品来设置对应的子信道值。这些物品均有“§o对应子信道值X（子信道：Y）§r”的tooltip。
 
 channels.structurelib.show_errors=设置的话，将突出显示多方块结构中一定是错误的部分
 
@@ -186,8 +184,7 @@ structurelib.config.client.hologram.removeColliding=移除冲突全息图
 structurelib.config.client.hologram.removeColliding.tooltip=已存在的全息图与新全息图冲突时，会删除旧全息图.
 
 structurelib.config.registries=排序注册表
-structurelib.config.registries.tooltip=排序注册表是StructureLib内部跟踪某些功能的方式。每个单独的元素可以根据用户的命令进行重新排序、禁用或启用。必要时，变更将同步到服务器。
-这个图形界面也可以通过在游戏中使用多方块机器全息投影仪对着空气Shift+右键点击来访问。
+structurelib.config.registries.tooltip=排序注册表是StructureLib内部跟踪某些功能的方式。每个单独的元素可以根据用户的命令进行重新排序、禁用或启用。必要时，变更将同步到服务器。\n这个图形界面也可以通过在游戏中使用多方块机器全息投影仪对着空气Shift+右键点击来访问。
 structurelib.config.registries.stackextractors=物品提取器
 structurelib.config.registries.stackextractors.tooltip=控制生存模式自动放置时启用的存储空间（从物品栏中的物品中打开）
 structurelib.config.registries.inventoryproviders=存储空间提供者

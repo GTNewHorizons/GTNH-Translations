@@ -12,28 +12,23 @@ tc4tweaks.config.client.addTooltip=添加tooltip
 tc4tweaks.config.client.addTooltip.tooltip=如果为false,则不添加tooltip.
 tc4tweaks.config.client.browser_scale=扩展魔导手册的GUI
 tc4tweaks.config.client.browser_scale.scale=当前的魔导手册GUI大小
-tc4tweaks.config.client.browser_scale.scale.tooltip=调整书的GUI大小.如果推测魔导手册的GUI比例为true,则会被软件覆盖.
-[范围:1.0~4.0]
+tc4tweaks.config.client.browser_scale.scale.tooltip=调整书的GUI大小.如果推测魔导手册的GUI比例为true,则会被软件覆盖.\n[范围:1.0~4.0]
 tc4tweaks.config.client.browser_scale.infer=推测魔导手册的GUI大小
 tc4tweaks.config.client.browser_scale.infer.tooltip=根据窗口大小自动调整图书界面的大小.手动设置的browserScale值将不再起作用.
 tc4tweaks.config.client.browser_scale.considerSearchArea=自动调整大小时考虑搜索结果区域
 tc4tweaks.config.client.browser_scale.considerSearchArea.tooltip=在退出browserScale时,即使搜索结果区域未禁用,也会将其考虑在内.
 tc4tweaks.config.client.browser_scale.minimum=最小推测比例
-tc4tweaks.config.client.browser_scale.minimum.tooltip=最小推测比例.不能大于inferBrowserScaleUpperBound的值. 
-[范围:1.0~16.0]
+tc4tweaks.config.client.browser_scale.minimum.tooltip=最小推测比例.不能大于inferBrowserScaleUpperBound的值. \n[范围:1.0~16.0]
 tc4tweaks.config.client.browser_scale.maximum=最大推测比例
-tc4tweaks.config.client.browser_scale.maximum.tooltip=最大推测缩放比例.不能小于inferBrowserScaleLowerBound的值.这个值不宜过大,因为巨大的浏览器渲染出来的图像质量会非常差.
-[范围:1.0~16.0]
+tc4tweaks.config.client.browser_scale.maximum.tooltip=最大推测缩放比例.不能小于inferBrowserScaleLowerBound的值.这个值不宜过大,因为巨大的浏览器渲染出来的图像质量会非常差.\n[范围:1.0~16.0]
 tc4tweaks.config.client.inverted=反转滚轮
 tc4tweaks.config.client.inverted.tooltip=如果你觉得滚动不直观,可以翻转它
 tc4tweaks.config.client.limitBookSearchToCategory=将魔导手册搜索限制为当前类别
 tc4tweaks.config.client.limitBookSearchToCategory.tooltip=图书引导搜索是否只搜索当前标签页.
 tc4tweaks.config.client.limitOversizedNodeRender=最大节点渲染尺寸
-tc4tweaks.config.client.limitOversizedNodeRender.tooltip=渲染节点大小的上限.这纯粹是一种视觉效果,不会影响节点的实际大小.设置像10000.0这样的值将有效关闭此功能,即不限制渲染大小. 
-[范围:0.5~1.0E10]
+tc4tweaks.config.client.limitOversizedNodeRender.tooltip=渲染节点大小的上限.这纯粹是一种视觉效果,不会影响节点的实际大小.设置像10000.0这样的值将有效关闭此功能,即不限制渲染大小. \n[范围:0.5~1.0E10]
 tc4tweaks.config.client.updateInterval=奥术工作台GUI更新间隔
-tc4tweaks.config.client.updateInterval.tooltip=奥术工作台应该多久更新一次显示的制作结果.单位为游戏刻. 
-[范围:0~40]
+tc4tweaks.config.client.updateInterval.tooltip=奥术工作台应该多久更新一次显示的制作结果.单位为游戏刻. \n[范围:0~40]
 tc4tweaks.config.client.categoryOrder=重新排序研究标签栏
 tc4tweaks.config.client.categoryOrder.tooltip=制定研究标签栏的完整排序顺序。若为空则表示禁用该功能。未在此处列出的任何其他研究标签栏都将按原始顺序添加到末尾。可以使用NEI来导出所有研究标签栏。默认为包含所有原版神秘标签栏的列表，即不变。
 tc4tweaks.config.client.addClearButton=添加清空通知按钮
@@ -49,8 +44,7 @@ tc4tweaks.config.general.tooltip=可改变游戏机制的配置
 tc4tweaks.config.general.alternativeAddStack=选择安瓿放置位置
 tc4tweaks.config.general.alternativeAddStack.tooltip=启用后，使用药瓶时将通过优先选择部分堆叠和当前槽位的替代规则，将新堆叠物品添加至当前玩家物品栏。
 tc4tweaks.config.general.arcaneCraftingHistorySize=奥数工作台历史大小
-tc4tweaks.config.general.arcaneCraftingHistorySize.tooltip=奥术工作台缓存的最大容量.0将有效关闭缓存.建议至少保持1的大小,以确保批量(shift)制作不会导致服务器卡顿。 
-[范围:0~256]
+tc4tweaks.config.general.arcaneCraftingHistorySize.tooltip=奥术工作台缓存的最大容量.0将有效关闭缓存.建议至少保持1的大小,以确保批量(shift)制作不会导致服务器卡顿。 \n[范围:0~256]
 tc4tweaks.config.general.checkWorkbenchRecipes=检查工作台配方
 tc4tweaks.config.general.checkWorkbenchRecipes.tooltip=为false时,奥数工作台将不执行原版合成配方.如果客户端的奥数工作台GUI设置为false,而服务器上没有,那么奥数工作台GUI的行为会略显笨拙,但不会有任何问题.详细解释请参见curseforge模组页面。
 tc4tweaks.config.general.decantMaxBlocks=移液最大方块数

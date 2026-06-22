@@ -20,7 +20,7 @@ LINE_BREAK_CONTEXT_DECODE_MAP = {
 
 def get_line_break_symbol(dflt_setting: Optional[str], context: Optional[str]) -> str:
   if dflt_setting is None:
-    default_symbol = "\\n"
+    default_symbol = LINE_BREAK_CONTEXT_NOOP
   else:
     default_symbol = dflt_setting
   if context is None: return default_symbol
@@ -37,9 +37,9 @@ def get_line_break_symbol(dflt_setting: Optional[str], context: Optional[str]) -
 
 
 def line_break_subst(file: File, context: Optional[str], translation: str) -> str:
+  dflt_sym = None
   if file.name == settings.GT_LANG_TARGET_REL_PATH + ".json":
-    sym = "<BR>"
-  else:
-    sym = get_line_break_symbol(None, context)
+    dflt_sym = "<BR>"
+  sym = get_line_break_symbol(dflt_sym, context)
   if sym == LINE_BREAK_CONTEXT_NOOP: return translation
-  return re.sub(r'\r?\n', sym, translation)
+  return re.sub(r'\r?\n', lambda m: sym, translation)
