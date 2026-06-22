@@ -37,9 +37,9 @@ def get_line_break_symbol(dflt_setting: Optional[str], context: Optional[str]) -
 
 
 def line_break_subst(file: File, context: Optional[str], translation: str) -> str:
-  file_setting = None
   if file.name == settings.GT_LANG_TARGET_REL_PATH + ".json":
-    file_setting = "<BR>"
-  sym = get_line_break_symbol(file_setting, context)
+    sym = "<BR>"
+  else:
+    sym = get_line_break_symbol(None, context)
   if sym == LINE_BREAK_CONTEXT_NOOP: return translation
   return re.sub(r'\r?\n', sym, translation)
