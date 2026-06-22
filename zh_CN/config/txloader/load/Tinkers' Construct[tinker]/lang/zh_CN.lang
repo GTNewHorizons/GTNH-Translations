@@ -947,195 +947,32 @@ gui.mining4=§d黑曜石§r
 gui.mining5=§9钴§r
 gui.mining6=§5玛玉灵§r
 
-gui.toolstation.pickaxe.desc=镐子是标准的挖矿工具。它对石头以及矿物有效。
+gui.toolstation.pickaxe.desc=镐子是标准的挖矿工具。它对石头以及矿物有效。\n\n需求部件：\n- 镐头\n- 绑定结\n- 手柄
+gui.toolstation.shovel.desc=铲子是标准的挖掘工具。它对泥土、沙子和雪有效。\n\n需求部件：\n- 铲头\n- 手柄
+gui.toolstation.hatchet.desc=手斧是基础的伐木工具。它对木头和树叶有效。\n\n需求部件：\n- 斧刃\n- 手柄
+gui.toolstation.mattock.desc=鹤嘴锄是种多功能的农用工具。它对木头、泥土和植物有效。\n\n特殊能力：锄地\n\n需求部件：\n- 斧刃\n- 铲头\n- 手柄
+gui.toolstation.broadsword.desc=大剑是一种防卫武器。格挡可使受到的伤害减半。\n\n特殊能力：格挡\n伤害：适中\n耐久：高\n\n需求部件：\n- 剑刃\n- 宽护手\n- 手柄
+gui.toolstation.longsword.desc=长剑是一种攻击型武器。通常用于全速切入战斗。\n\n自然能力：\n- 冲锋强化\n特殊能力：冲刺\n\n伤害：适中\n耐久：适中
+gui.toolstation.rapier.desc=西洋剑是一种特制武器，依靠快速的刺击来打败对手。\n\n自然能力：\n- 穿甲\n- 闪速打击\n- 冲锋强化\n特殊能力：\n- 后退\n\n伤害：低\n耐久：低
+gui.toolstation.dagger.desc=匕首是一种可投掷的短刀。\n\n特殊能力：\n- 投掷\n\n伤害：低\n耐久：适中\n\n需求部件：\n- 刀刃\n- 十字柄\n- 手柄
+gui.toolstation.fryingpan.desc=煎锅是一种重型武器，它的沉重攻击足以使敌人晕眩。\n\n特殊能力：格挡\n自然能力：重击\nShift右击：放置煎锅\n伤害：低\n耐久：高\n\n需求部件：\n- 盘\n- 手柄
+gui.toolstation.battlesign.desc=战斗牌子标志着武器技术的一大进步，特别是在僵尸猪人遍地的时候。\n\n特殊能力：\n伤害反弹\n\n自然能力：铭刻\n\n伤害：低\n耐久：平均
+gui.toolstation.chisel.desc=凿子是种用于雕刻方块的辅助工具。\n\n合成栏：\n- 雕刻物品\n特殊能力：凿刻\n耐久：平均\n\n需求部件：\n- 凿头\n- 手柄
+gui.toolstation.hammer.desc=锤子是一种宽大的挖矿工具。它能采集大范围内的方块，还能有效对付亡灵生物。\n\n自然能力：\n范围效果\n- （3x3）\n- 亡灵杀手\n\n耐久：高
+gui.toolstation.lumberaxe.desc=伐木斧是一种宽大的伐木工具。它能砍倒整颗树木或采集大范围内的木头。\n\n自然能力：\n范围效果\n- 砍倒树木\n- （3x3x3）\n\n耐久：平均
+gui.toolstation.excavator.desc=开掘铲是一种宽大的挖掘工具。它能挖掘大范围内的泥土和雪。\n\n自然能力：\n- 范围效果\n- （3x3）\n\n耐久：平均
+gui.toolstation.scythe.desc=镰刀是一种宽大的收割工具。它对在大范围内收割作物和攻击敌人都很有效。\n\n自然能力：\n范围效果\n- （3x3x3）\n\n耐久：平均\n伤害：低、范围伤害
+gui.toolstation.cleaver.desc=劈刀是一种重型防卫武器。打击力度高，但很难挥动。\n\n特殊能力：格挡\n自然能力：\n- 斩首\n\n伤害：高\n耐久：平均
+gui.toolstation.battleaxe.desc=战斧是一种重型攻击型武器。它能砍伐小型树木或将敌人击飞。\n\n特殊能力：格挡\n自然能力：\n- 击退\n- 范围效果\n- （1x9）\n\n伤害：平均\n耐久：平均
 
-需求部件：
-- 镐头
-- 绑定结
-- 手柄
-gui.toolstation.shovel.desc=铲子是标准的挖掘工具。它对泥土、沙子和雪有效。
-
-需求部件：
-- 铲头
-- 手柄
-gui.toolstation.hatchet.desc=手斧是基础的伐木工具。它对木头和树叶有效。
-
-需求部件：
-- 斧刃
-- 手柄
-gui.toolstation.mattock.desc=鹤嘴锄是种多功能的农用工具。它对木头、泥土和植物有效。
-
-特殊能力：锄地
-
-需求部件：
-- 斧刃
-- 铲头
-- 手柄
-gui.toolstation.broadsword.desc=大剑是一种防卫武器。格挡可使受到的伤害减半。
-
-特殊能力：格挡
-伤害：适中
-耐久：高
-
-需求部件：
-- 剑刃
-- 宽护手
-- 手柄
-gui.toolstation.longsword.desc=长剑是一种攻击型武器。通常用于全速切入战斗。
-
-自然能力：
-- 冲锋强化
-特殊能力：冲刺
-
-伤害：适中
-耐久：适中
-gui.toolstation.rapier.desc=西洋剑是一种特制武器，依靠快速的刺击来打败对手。
-
-自然能力：
-- 穿甲
-- 闪速打击
-- 冲锋强化
-特殊能力：
-- 后退
-
-伤害：低
-耐久：低
-gui.toolstation.dagger.desc=匕首是一种可投掷的短刀。
-
-特殊能力：
-- 投掷
-
-伤害：低
-耐久：适中
-
-需求部件：
-- 刀刃
-- 十字柄
-- 手柄
-gui.toolstation.fryingpan.desc=煎锅是一种重型武器，它的沉重攻击足以使敌人晕眩。
-
-特殊能力：格挡
-自然能力：重击
-Shift右击：放置煎锅
-伤害：低
-耐久：高
-
-需求部件：
-- 盘
-- 手柄
-gui.toolstation.battlesign.desc=战斗牌子标志着武器技术的一大进步，特别是在僵尸猪人遍地的时候。
-
-特殊能力：
-伤害反弹
-
-自然能力：铭刻
-
-伤害：低
-耐久：平均
-gui.toolstation.chisel.desc=凿子是种用于雕刻方块的辅助工具。
-
-合成栏：
-- 雕刻物品
-特殊能力：凿刻
-耐久：平均
-
-需求部件：
-- 凿头
-- 手柄
-gui.toolstation.hammer.desc=锤子是一种宽大的挖矿工具。它能采集大范围内的方块，还能有效对付亡灵生物。
-
-自然能力：
-范围效果
-- （3x3）
-- 亡灵杀手
-
-耐久：高
-gui.toolstation.lumberaxe.desc=伐木斧是一种宽大的伐木工具。它能砍倒整颗树木或采集大范围内的木头。
-
-自然能力：
-范围效果
-- 砍倒树木
-- （3x3x3）
-
-耐久：平均
-gui.toolstation.excavator.desc=开掘铲是一种宽大的挖掘工具。它能挖掘大范围内的泥土和雪。
-
-自然能力：
-- 范围效果
-- （3x3）
-
-耐久：平均
-gui.toolstation.scythe.desc=镰刀是一种宽大的收割工具。它对在大范围内收割作物和攻击敌人都很有效。
-
-自然能力：
-范围效果
-- （3x3x3）
-
-耐久：平均
-伤害：低、范围伤害
-gui.toolstation.cleaver.desc=劈刀是一种重型防卫武器。打击力度高，但很难挥动。
-
-特殊能力：格挡
-自然能力：
-- 斩首
-
-伤害：高
-耐久：平均
-gui.toolstation.battleaxe.desc=战斧是一种重型攻击型武器。它能砍伐小型树木或将敌人击飞。
-
-特殊能力：格挡
-自然能力：
-- 击退
-- 范围效果
-- （1x9）
-
-伤害：平均
-耐久：平均
-
-gui.toolstation.shortbow.desc=短弓是一种远程武器。可向敌人快速精准地射出箭矢。
-
-拉弓速度：快
-
-需求部件：
-- 弓臂
-- 弓弦
-- 弓臂
-gui.toolstation.longbow.desc=长弓是一种远程武器。其射程比短弓更远且可以发射更重的箭矢，但使用较轻的箭矢时表现不佳。
-
- 需求部件：
-- 弓臂
-- 弓弦
-- 弓臂
-- 大板
-gui.toolstation.arrowammo.desc=箭矢是一种弹射物，通常由弓发射。
-
-需求部件：
-- 箭头
-- 箭杆
-- 箭羽
-gui.toolstation.crossbow.desc=十字弓是一种精准的远程武器。它可装载弩箭，并在扣下扳机时发射。
-
-自然能力：
-- 根据材料硬度减少装弹时间
-gui.toolstation.boltammo.desc=弩箭是一种弹射物，由十字弓发射。
-
-需求部件：
-- 弩箭核心
-- 箭羽
-
-使用浇铸台将金属浇铸在手柄上以获得弩箭核心。
-gui.toolstation.throwingknife.desc=中程投掷武器。按住瞄准，松开发射。
-
-伤害：中等
-备弹量：中等
-gui.toolstation.shuriken.desc=短程投掷武器。能够立刻掷出。
-
-伤害：低
-备弹量：高
-gui.toolstation.javelin.desc=近战远程混合武器。强力的近战武器，极强的远程武器。
-
-伤害：高
-备弹量：低
+gui.toolstation.shortbow.desc=短弓是一种远程武器。可向敌人快速精准地射出箭矢。\n\n拉弓速度：快\n\n需求部件：\n- 弓臂\n- 弓弦\n- 弓臂
+gui.toolstation.longbow.desc=长弓是一种远程武器。其射程比短弓更远且可以发射更重的箭矢，但使用较轻的箭矢时表现不佳。\n\n 需求部件：\n- 弓臂\n- 弓弦\n- 弓臂\n- 大板
+gui.toolstation.arrowammo.desc=箭矢是一种弹射物，通常由弓发射。\n\n需求部件：\n- 箭头\n- 箭杆\n- 箭羽
+gui.toolstation.crossbow.desc=十字弓是一种精准的远程武器。它可装载弩箭，并在扣下扳机时发射。\n\n自然能力：\n- 根据材料硬度减少装弹时间
+gui.toolstation.boltammo.desc=弩箭是一种弹射物，由十字弓发射。\n\n需求部件：\n- 弩箭核心\n- 箭羽\n\n使用浇铸台将金属浇铸在手柄上以获得弩箭核心。
+gui.toolstation.throwingknife.desc=中程投掷武器。按住瞄准，松开发射。\n\n伤害：中等\n备弹量：中等
+gui.toolstation.shuriken.desc=短程投掷武器。能够立刻掷出。\n\n伤害：低\n备弹量：高
+gui.toolstation.javelin.desc=近战远程混合武器。强力的近战武器，极强的远程武器。\n\n伤害：高\n备弹量：低
 
 material.alumite=耐酸铝
 material.ardite=阿迪特

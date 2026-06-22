@@ -75,13 +75,9 @@ sodium.options.enable_memory_tracing.name=启用内存跟踪
 sodium.options.enable_memory_tracing.tooltip=调试功能。如果启用，堆栈跟踪将与内存分配一起收集，有助于在检测到内存泄漏时改进诊断信息。
 sodium.options.performance_impact_string=性能影响： %s
 sodium.options.use_persistent_mapping.name=持久映射
-sodium.options.use_persistent_mapping.tooltip=如果启用，少量内存将被持久映射为区块上传的暂存缓冲区，以加速区块更新和实体渲染。
-
-需要OpenGL 4.4或ARB_buffer_storage拓展。
+sodium.options.use_persistent_mapping.tooltip=如果启用，少量内存将被持久映射为区块上传的暂存缓冲区，以加速区块更新和实体渲染。\n\n需要OpenGL 4.4或ARB_buffer_storage拓展。
 sodium.options.chunk_memory_allocator.name=区块内存分配器
-sodium.options.chunk_memory_allocator.tooltip=择用于区块渲染的内存分配器。
-- 异步：最快的选项，适用于大多数现代图形驱动程序。
-- 交换：较旧的图形驱动程序的兼容选项。可能会显著增加内存使用量。
+sodium.options.chunk_memory_allocator.tooltip=择用于区块渲染的内存分配器。\n- 异步：最快的选项，适用于大多数现代图形驱动程序。\n- 交换：较旧的图形驱动程序的兼容选项。可能会显著增加内存使用量。
 sodium.options.chunk_memory_allocator.async=异步
 sodium.options.chunk_memory_allocator.swap=交换
 sodium.options.chunk_update_threads.name=区块更新线程

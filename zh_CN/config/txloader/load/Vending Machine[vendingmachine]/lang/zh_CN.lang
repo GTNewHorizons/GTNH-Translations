@@ -108,8 +108,7 @@ vendingmachine.config.title.dev_setting.tooltips=设置开发者选项
 vendingmachine.config.main.data_refresh=刷新频率
 vendingmachine.config.main.data_refresh.tooltip=自动售货机刷新数据的频率（以游戏刻数为单位）
 vendingmachine.config.main.restock=补货通知
-vendingmachine.config.main.restock.tooltip=启用补货通知
-若在服务器上禁用，将禁用所有人的通知
+vendingmachine.config.main.restock.tooltip=启用补货通知\n若在服务器上禁用，将禁用所有人的通知
 vendingmachine.config.main.restock_check=补货检查频率
 vendingmachine.config.main.restock_check.tooltip=服务器检查已补货交易的频率（以游戏刻数为单位）
 vendingmachine.config.main.eject_frequency=弹出频率
@@ -118,24 +117,19 @@ vendingmachine.config.main.dispense_frequency=弹出数量
 vendingmachine.config.main.dispense_frequency.tooltip=队列中一次最多弹出多少个物品
 
 vendingmachine.config.gui.trade_display=交易展示格式
-vendingmachine.config.gui.trade_display.tooltip=默认交易显示格式
-区分大小写
+vendingmachine.config.gui.trade_display.tooltip=默认交易显示格式\n区分大小写
 vendingmachine.config.gui.sort_mode=排序模式
-vendingmachine.config.gui.sort_mode.tooltip=默认排序模式
-区分大小写
+vendingmachine.config.gui.sort_mode.tooltip=默认排序模式\n区分大小写
 vendingmachine.config.gui.wallet_mode=钱包模式
-vendingmachine.config.gui.wallet_mode.tooltip=默认钱包模式
-区分大小写
+vendingmachine.config.gui.wallet_mode.tooltip=默认钱包模式\n区分大小写
 
 vendingmachine.config.team.allow_in_teams=使用团队钱包
 vendingmachine.config.team.allow_in_teams.tooltip=允许在单人团队中使用团队钱包
 vendingmachine.config.team.cooldown_increase=交易冷却限制
-vendingmachine.config.team.cooldown_increase.tooltip=团队中的每位玩家使冷却交易限制增加 1
-数值为 -1 则不设上限
+vendingmachine.config.team.cooldown_increase.tooltip=团队中的每位玩家使冷却交易限制增加 1\n数值为 -1 则不设上限
 
 vendingmachine.config.music.track=音乐曲目
-vendingmachine.config.music.track.tooltip=自动售货机播放的音乐曲目
-区分大小写
+vendingmachine.config.music.track.tooltip=自动售货机播放的音乐曲目\n区分大小写
 vendingmachine.config.music.volume=音乐音量
 vendingmachine.config.music.volume.tooltip=自动售货机音乐音量
 
