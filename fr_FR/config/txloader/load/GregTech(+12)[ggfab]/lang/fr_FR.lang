@@ -1,0 +1,41 @@
+ggfab.recipe.toolcast=Machine de moulage d’outils
+
+ggfab.info.advassline.0=Advanced Assembly Line Help
+ggfab.info.advassline.1=This is advanced assembly line from §6GigaGram§rFab.
+ggfab.info.advassline.2=It supports item pipelining. That is, it will mimic a real assembly line by consuming ingredients one by one instead of all at start. In effect, it offers a parallelism up to however many item input this recipe requires.
+ggfab.info.advassline.3=You can think of an advanced assembly line as a collection of assembly slices. Each assembly slice is capably of processing each step independent of other slices.
+ggfab.info.advassline.4=It will start processing once the input bus contents align with any stored data stick. The first slice will consume the input in Bus #1. After (recipe time/number of inputs) time, the first slice's work is concluded and will start the second slice. At the same time, first slice will look for input in input bus #1. If there are still enough input there slice #1 will start working again.
+ggfab.info.advassline.5=The terminal slice (the n-th slice, where n is number of item input in recipe) will put the recipe output in output bus when it has concluded his work. Whenever a non-terminal slice finished its work, it will try to pass the work onto next slice. If the next slice cannot find the materials in its input bus, the just-finished slice will remain in §4STUCK§r state and hang the assembly line. To help locate these §4STUCK§r assembly lines, the controller's front face will have its status light turned orange.
+ggfab.info.advassline.6=The EU/t cost of this machine is number of slices active multiplied by the original recipe EU/t. §4STUCK§r slices do not consume power. It will use the worst energy supplying hatch's input voltage for recipe tier calculation and normal imperfect overclock.
+ggfab.info.advassline.7=With exotic energy hatches, it can overclock beyond usual voltage tier, but will consume even more power than usual imperfect overclock. Every §2laser overclock§r will add %s to power exponent.
+ggfab.info.advassline.8=1 §2laser overclock§r will have 50%% recipe time and use %s%% power. 2 §2laser overclock§r will have 25%% recipe time and use %s%% (%s * %s) power. Will not overclock beyond 1 tick. Machine first tries to parallelize, then normal imperfect overclock, then §2laser overclock§r.
+ggfab.waila.advassline.slice=Tranche #%s : %s s / %s s
+ggfab.waila.advassline.slice.small=Tranche #%s : %s ticks / %s ticks
+ggfab.waila.advassline.slice.idle=Tranche #%s : Inactif
+ggfab.waila.advassline.slice.stuck=Tranche #%s : §4BLOQUÉ
+ggfab.gui.advassline.slice.idle=Tranche #%s : Inactif
+ggfab.gui.advassline.slice.stuck=Tranche #%s : §4BLOQUÉ
+ggfab.gui.advassline.slice.unknown=Tranche #%s : ?
+ggfab.gui.advassline.shutdown=§4Dernière raison d’arrêt anormal :
+ggfab.gui.advassline.shutdown_clear=§6Effacer
+ggfab.gui.advassline.shutdown.input_busses=§4Too few input busses to support current recipe
+ggfab.gui.advassline.shutdown.recipe_null=§4La recette est nulle (à signaler à l’auteur)
+ggfab.gui.advassline.shutdown.fluid_null=§4Échec de vidange du fluide (vérifiez votre de stockage ME de fluide)
+ggfab.gui.advassline.shutdown.structure=§4Modification structurelle incompatible
+ggfab.gui.advassline.shutdown.energy=§4Énergie insuffisante
+ggfab.gui.advassline.shutdown.load.energy=§4Statut électrique invalide chargé
+ggfab.gui.advassline.shutdown.load.recipe=§4Modification de recette incompatible
+
+ggfab.info.linked_input_bus.not_owned=§6Les paramètres ont été copiés depuis un autre propriétaire !
+ggfab.info.linked_input_bus.no_data=§6Données de configuration introuvables !
+ggfab.info.linked_input_bus.invalid_data=§6Les données de configuration ont été trouvées, mais sont invalides !
+ggfab.info.linked_input_bus.invalid_circuit=§6Les données de configuration ont été trouvées, mais elles contiennent un circuit non valide pour ce bus !
+ggfab.info.linked_input_bus.data_pasted=§2Canal collé (« %s§2 ») et configuration du circuit appliquée !
+ggfab.info.linked_input_bus.data_copied=§2Canal copié (« %s§2 ») et configuration du circuit enregistrée !
+ggfab.info.linked_input_bus.no_channel=§6Aucun canal spécifié pour le moment !
+
+ggfab.info.biome=Biome :
+
+ggfab.tooltip.linked_input_bus.change_freq_warn=Changer de canal alors que celui-ci est le dernier utilisé entraînera la dispersion de tous les objets restants !
+ggfab.tooltip.linked_input_bus.private=Les canaux privés ne sont pas partagés avec les autres.
+ggfab.tooltip.linked_input_bus.private.1=Changer de canal alors que celui-ci est le dernier utilisé entraînera la dispersion de tous les objets restants !

@@ -1,0 +1,74 @@
+#Items
+item.wirelessCraftingTerminal.name=Terminal de fabrication sans-fil
+item.infinityBoosterCard.name=Carte Booster Infini
+item.magnetCard.name=Carte magnétique
+itemGroup.ae2wct=§9Terminal AE2 de fabrication sans-fil
+
+#Tooltips
+gui.tooltips.ae2wct.PressShift=Maintenez Majuscule pour plus d'info
+gui.tooltips.ae2wct.OnlyWorks=Fonctionne uniquement dans l'emplacement du terminal de fabrication sans-fil !
+gui.tooltips.ae2wct.TitleDesc=Description
+gui.tooltips.ae2wct.InfinityBoosterDesc=Permet à un terminal de fabrication sans-fil AE2 d'être utilisé peut importe la distance et à travers les dimensions
+gui.tooltips.ae2wct.MagnetDesc=Un aimant qui insère automatiquement des objets dans le réseau AE.
+gui.tooltips.ae2wct.MagnetDesc2=Clic-droit pour mettre un filtre
+gui.tooltips.ae2wct.LinkStatus=Statut de la connection
+gui.tooltips.ae2wct.Installed=Installé
+gui.tooltips.ae2wct.NotInstalled=Non installé
+gui.tooltips.ae2wct.Active=Actif
+gui.tooltips.ae2wct.Inactive=Inactif
+gui.tooltips.ae2wct.Status=Statut
+gui.tooltips.ae2wct.EmptyTrash=Vider la poubelle
+gui.tooltips.ae2wct.EmptyTrashDesc=Supprimer le contenu de l'emplacement poubelle
+gui.tooltips.ae2wct.MagnetFilterTitle=Filtre de l'aimant
+gui.tooltips.ae2wct.FilterMode=Mode de filtrage
+gui.tooltips.ae2wct.Whitelisting=Liste blanche
+gui.tooltips.ae2wct.Blacklisting=Liste noire
+gui.tooltips.ae2wct.MagnetActiveDesc1=Objets additionnels ajoutés à l'inventaire
+gui.tooltips.ae2wct.MagnetActiveDesc2=Objets additionnels laissés au sol
+gui.tooltips.ae2wct.Not=Non
+gui.tooltips.ae2wct.Using=Utilisant
+gui.tooltips.ae2wct.Ignore=Ignorer
+gui.tooltips.ae2wct.Ignoring=Ignorant
+gui.tooltips.ae2wct.NBTData=NBT Data
+gui.tooltips.ae2wct.MetaData=Meta Data
+gui.tooltips.ae2wct.OreDict=Dictionnaire Ore
+gui.tooltips.ae2wct.FilteredItems=Objets Filtrés
+gui.tooltips.ae2wct.OrPress=ou pressez
+gui.tooltips.ae2wct.Press=Appuyez
+gui.tooltips.ae2wct.ToSwitchMode=pour changer le mode de l'aimant
+
+#Labels
+gui.labels.ae2wct.WirelessTermLabel=Terminal sans-fil
+
+#Config Descriptions
+config.ae2wct.MaxPowerDesc=Puissance maximale (en unités AE) pouvant être contenue dans le terminal sans-fil
+config.ae2wct.InfinityBoosterCfgDesc=Activer le Booster de Portée Infinie
+config.ae2wct.EasyModeDesc=Activer le Mode Facile (Recette plus simples et recette pour le Booster Infini)
+config.ae2wct.BoosterDropChance=Chances que le Wither puisse faire tombé une Carte Booster Infini (si %-100 = toujours tombé)
+config.ae2wct.DisableBoosterDrop=Active les drop de Carte Booster en mode dificile (vrai = activé)
+config.ae2wct.MineTweakerOverride=Activer le Forçage de MineTweaker (vrai = désactive toute les recettes)
+config.ae2wct.DoVersionCheck=Vérifier les mises à jour
+config.ae2wct.NewVersionAvailable=Une nouvelle version de Wireless Crafting Terminal est disponible !
+config.ae2wct.ClickString=["Cliquez ici pour aller à la page de téléchargement [",{"text":"Télécharger","color":"green","hoverEvent":{"action":"show_text","value":{"text":"Cliquez ici pour télécharger la dernière version","color":"green"}},"clickEvent":{"action":"open_url","value":"http://minecraft.curseforge.com/projects/wireless-crafting-terminal"}},"]"]
+config.ae2wct.SaveSearchString=Fait persévérer les chaînes de texte dans les terminaux entre chaque sessions
+
+#Achievements
+achievement.wctAchievement=Fabrication Digitale par WiFi
+achievement.wctAchievement.desc=Fabriquez un terminal de fabrication sans-fil
+achievement.boosterAchievement=Sac de Fabrication Interdimensionnel
+achievement.boosterAchievement.desc=Obtiens une Carte Booster Infini
+achievement.magnetAchievement=Aspirateur Digital
+achievement.magnetAchievement.desc=Fabriquez une carte magnétique
+
+#Chat Messages
+chatmessages.ae2wct.NoNetworkPower=Le réseau n'a plus d'énergie !
+chatmessages.ae2wct.MagnetMode1=Carte magnétique désactivée
+chatmessages.ae2wct.MagnetMode2=Carte magnétique activée - Les objects non stockés dans le réseau AE seront placés dans l'inventaire
+chatmessages.ae2wct.MagnetMode3=Carte magnétique activée - Les objets non stockés dans le réseau AE seront laissés par terre
+chatmessages.ae2wct.InitializeMagnet=Vous devez d'abord clic-droit avec la carte magnétique en main avant d'utiliser le raccourci !
+
+#Keybindings
+ae2wct.OpenTerminal=Ouvrir le terminal de fabrication sans-fil
+ae2wct.OpenMagnetFilter=Ouvrir le GUI du filtre de la carte magnétique
+ae2wct.SwitchMagnetMode=Activer/Désactiver la carte magnétique
+key.categories.ae2wct=Terminal de fabrication sans-fil
