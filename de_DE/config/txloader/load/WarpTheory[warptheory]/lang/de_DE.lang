@@ -1,0 +1,146 @@
+
+# << creative tab name >>
+itemGroup.warptheory.tab=Warp-Theorie
+
+# << chat item effects >>
+chat.warptheory.purgeminor=Du fühlst dich ein wenig besser
+chat.warptheory.purge=Du hast ein schlechtes Gefühl dabei...
+chat.warptheory.purgefail=Es passiert nichts Besonderes.
+chat.warptheory.purgefailed=Es scheint nicht funktioniert zu haben.
+chat.warptheory.addwarp=Es fühlt sich an, als ob etwas Seltsames in dich geschlüpft ist...
+chat.warptheory.minorwarp=Es gibt keine Reaktion.
+chat.warptheory.averagewarp=Das Papier nimmt eine kränkliche Farbe an.
+chat.warptheory.majorwarp=Das Papier zerfällt zu Staub.
+chat.warptheory.deadlywarp=Das Papier fängt Feuer.
+chat.warptheory.permanentwarp=Permanenter Warp
+chat.warptheory.normalwarp=Normaler Warp
+chat.warptheory.tempwarp=Temporärer Warp
+chat.warptheory.potionwarning.1=§c§l§nWARNING§r§c: drinking this potion will reset §lALL warp, research, scanned items, and discovered aspects§r§c!
+chat.warptheory.potionwarning.2=§cContinue drinking for §l10 seconds§r§c if you are absolutely certain you want to reset everything.
+
+# << Item names >>
+item.warptheory.cleanserminor.name=Unreine Träne
+item.warptheory.cleanser.name=Reine Träne
+item.warptheory.amulet.name=Reinigungstalisman
+item.warptheory.something.name=Klumpen von Etwas
+item.warptheory.paper.name=Arkane Lackmuspapier
+item.warptheory.oblivionpotion.name=Potion of Blissful Oblivion
+
+# << entity names >>
+entity.WarpTheory.taintSheepSafe.name=Besudelte Schafe
+entity.WarpTheory.creeperFake.name=Falscher Creeper
+entity.WarpTheory.creeperPassive.name=Passiver Creeper
+entity.WarpTheory.doppelganger.name=Doppelgänger
+entity.WarpTheory.phantom.name=Phantom
+
+# << tooltips >>
+tooltip.warptheory.cleanserminor=Es fehlt etwas...
+tooltip.warptheory.cleanser=Knusprig
+tooltip.warptheory.amulet=Beseitigt Warp
+tooltip.warptheory.something=Wahrscheinlich essbar...
+tooltip.warptheory.paper=Reagiert auf Warp
+tooltip.warptheory.portableshower=Wäscht deinen Schmutz ab
+tooltip.warptheory.oblivionpotion=§c§l§nThe ultimate contingency plan§r
+
+# << portable shower >>
+tc.research_name.warptheory.portableshower=Tragbare Dusche
+tc.research_text.warptheory.portableshower=Eine einfachere Methode, um deinen Geist zu reinigen
+research.warptheory.portableshower=Du hast gemerkt, dass du dich immer noch verrückt fühlst, wenn du deine Lieblingsrüstung trägst. Also hast du lange und intensiv über eine Lösung dafür nachgedacht ... Als du an deinem Spa herumgebastelt hast, kam dir plötzlich die Erleuchtung: „Warum sollte ich nicht einfach permanent baden, um mich die ganze Zeit frisch zu fühlen?“ Und so hast du dieses einfache Amulett geschaffen, das dir mit natürlichen Essenzen und etwas Vis aus der Umgebung arkanes Spa-Wasser braut.
+
+# << hunk of something >>
+tc.research_name.warptheory.something=Klumpen von Etwas
+tc.research_text.warptheory.something=Definitiv nichts Angenehmes.
+research.warptheory.warpsomething=Durch Zufall hast du bemerkt, dass viele einfache Fleischsorten in etwas anderes umgewandelt werden können, wenn sie eldritch Energie ausgesetzt sind. Es ist... wahrscheinlich keine gute Idee, das Ergebnis zu genau zu betrachten.
+
+# << Impure tear >>
+tc.research_name.warptheory.cleanserminor=Unreine Träne
+tc.research_text.warptheory.cleanserminor=Magisch angehauchte Medizin
+research.warptheory.warpcleanserminor=Du hast lange genug mit Verzerrung zu tun gehabt; es ist an der Zeit, einen Weg zu finden, sie loszuwerden. Du entscheidest dich, einige reinigende Gegenstände, die du gefunden hast, miteinander zu mischen.<BR>Du hattest Erfolg, aber die Wirkung tritt nur ein, wenn du eine angemessene Menge davon hast, also kannst du nicht alles loswerden. Aber zumindest kannst du die schlimmsten Auswirkungen vermeiden, im Gegensatz zu Bob, der einen Wither beschworen hat und seine Basis in die Luft gesprengt hat. Armer Bob. (Du benötigst 50+ Verzerrung, damit es funktioniert, und es entfernt 5 Verzerrung.)<BR>Du vermutest, dass du mit besseren Materialien eine bessere Version herstellen könntest.
+
+# << pure tear >>
+tc.research_name.warptheory.cleanser=Reine Träne
+tc.research_text.warptheory.cleanser=Magische Medizin
+research.warptheory.warpcleanser=Durch die Kombination der heilenden Eigenschaften von Ghast-Tränen, der magischen Energie von Salis Mundus und den stabilisierenden Eigenschaften von Kristallen hast du ein Mittel zur Beseitigung negativer magischer Energie aus dem Körper entdeckt.<BR>Der Prozess ist jedoch nicht ohne Nachteile, da all diese Energie irgendwohin muss.
+
+# << purification talisman >>
+tc.research_name.warptheory.amulet=Reinigungstalisman
+tc.research_text.warptheory.amulet=Mehr als ein einfacher Glücksbringer
+research.warptheory.amulet=Du hast einen Prozess entdeckt, durch den die reinigenden Eigenschaften von Reinen Tränen über die Zeit kanalisiert werden können, ohne die erforderliche Verdauungsstörung, die sie verursachen.<BR>Indem du einfach zwei Tränen in ein Amulett setzt und es mit bestimmter Magie durchdringst, entsteht ein Accessoire, das kontinuierlich negative magische Energie in die Umgebung abführt.
+
+# << litmus paper >>
+tc.research_name.warptheory.paper=Arkane Lackmuspapier
+tc.research_text.warptheory.paper=Fast wissenschaftlich
+research.warptheory.paper=Du hast beschlossen, dass du etwas genaueres benötigst als das Zählen der seltsamen Ereignisse, die um dich herum geschehen, um den Aufbau negativer magischer Energie in deinem Körper zu messen.<BR>Indem du etwas Papier mit Salis Mundus und der Essenz des Wassers durchdringst, hast du ein Mittel geschaffen, um zu ermitteln, wie viel Gefahr du dir tatsächlich ausgesetzt hast.
+
+# << Oblivion Potion >>
+tc.research_name.warptheory.oblivionpotion=Potion of Blissful Oblivion
+tc.research_text.warptheory.oblivionpotion=Uncork in case of emergency
+research.warptheory.oblivionpotion.1=Knowledge may be power, but some say that ignorance is bliss. Should you find yourself at a true dead end, your mind burdened beyond recovery by warp, you have devised a final contingency: the Potion of Blissful Oblivion.<BR>Upon drinking this concoction, your warp is purged entirely. Yet such peace comes at a terrible cost: your knowledge of all research, every object scanned with the thaumometer, and every aspect you have discovered will be lost.
+research.warptheory.oblivionpotion.2=This loss is absolute and irreversible. You will be forced to begin your pursuit of knowledge from the very beginning. Though more refined methods of cleansing the mind may exist, this potion remains a desperate, but reliable, last resort.
+
+# << chat warp effects >>
+chat.warptheory.bats=Die Geräusche von Flügelschlägen erfüllen die Luft...
+chat.warptheory.blink=Plötzlich fühlst du dich desorientiert...
+chat.warptheory.poison=Deine Venen fangen Feuer...
+chat.warptheory.nausea=Dir ist übel...
+chat.warptheory.jump=Du fühlst dich viel leichter...
+chat.warptheory.blind=Alles wird dunkel...
+chat.warptheory.biomeDecay=Du fühlst dich viel älter...
+chat.warptheory.ears=Deine Ohren beginnen zu klingeln...
+chat.warptheory.biomeSwamp=Du fühlst dich revitalisiert...
+chat.warptheory.tongue=Deine Zunge wird taub...
+chat.warptheory.friend=Du fühlst dich ein wenig einsam...
+chat.warptheory.livestock=Du fühlst dich ein wenig hungrig...
+chat.warptheory.wind=Ein seltsamer Wind kommt auf...
+chat.warptheory.chests=Ein Schauer läuft dir über den Rücken...
+chat.warptheory.blood=Du riechst etwas Viszerales...
+chat.warptheory.acceleration=Etwas scheint schneller zu sein...
+chat.warptheory.lightning=Dein Haar stellt sich auf...
+chat.warptheory.fall=Du bekommst ein plötzliches Gefühl von Schwindel...
+chat.warptheory.rain=Du hörst ein Grollen in der Ferne...
+chat.warptheory.wither=Du fühlst dich von Angst überwältigt...
+
+# << GTNH new warp effects >>
+chat.warptheory.blazefireball=Du spürst einen stechenden Schmerz in deinem Hals.
+chat.warptheory.coin=Du entdeckst etwas Glänzendes zu deinen Füßen!
+chat.warptheory.countdownbomb.10=10
+chat.warptheory.countdownbomb.9=9
+chat.warptheory.countdownbomb.8=8
+chat.warptheory.countdownbomb.7=7
+chat.warptheory.countdownbomb.6=6
+chat.warptheory.countdownbomb.5=5
+chat.warptheory.countdownbomb.4=4
+chat.warptheory.countdownbomb.3=3
+chat.warptheory.countdownbomb.2=2
+chat.warptheory.countdownbomb.1=1
+chat.warptheory.countdownbomb.0=BOOM!
+chat.warptheory.doppelganger=Du fühlst dich neben dir...
+chat.warptheory.doppelganger.name=%s's Doppelgänger
+chat.warptheory.doppelganger.heal=Du spürst, wie dein Doppelgänger dir hilft.
+chat.warptheory.doppelganger.hurt=Du hörst deinen Doppelgänger aufschreien.
+chat.warptheory.doppelganger.die=Du spürst, wie dein Doppelgänger verblasst.
+chat.warptheory.enderpearl=Du hustest etwas Seltsames hoch.
+chat.warptheory.endermen=Sie sind hier! Lauf!
+chat.warptheory.firebats=Die Geräusche von Flügelschlägen erfüllen die Luft...
+chat.warptheory.insomnia=Du fühlst dich hellwach
+chat.warptheory.insomnia.wakeup=Du kannst nicht einschlafen!
+chat.warptheory.junk=Hey, kostenlose Sachen!
+chat.warptheory.litmuspaper=Eine Stimme flüstert dir ins Ohr: „Du siehst aus, als könntest du das gebrauchen“.
+chat.warptheory.message.0=Du hörst den Wind heulen...
+chat.warptheory.message.1=Du hast für einen Moment vergessen, was du gerade getan hast
+chat.warptheory.message.2=Du fühlst dich erschöpft
+chat.warptheory.message.3=Du zitterst einen Moment lang
+chat.warptheory.message.4=Sie haben ein schlechtes Gefühl dabei...
+chat.warptheory.message.5=Sie fühlen sich leicht nervös
+chat.warptheory.message.6=Du dachtest, du hättest etwas aus dem Augenwinkel gesehen
+chat.warptheory.message.7=Dunkle Visionen füllen deinen Geist
+chat.warptheory.message.8=Vielleicht ist es an der Zeit, mit dem Spielen aufzuhören und eine Pause einzulegen?
+chat.warptheory.biomeMushrooms=Der erdige Geruch von Sporen und Schimmelpilzen erfüllt Ihre Nasenlöcher...
+chat.warptheory.obsidian=Ihre Gedanken verfestigen sich
+chat.warptheory.pumpkin=Du fühlst dich unheimlich...
+chat.warptheory.biomeSnow=Dein Atem kondensiert in der eisigen Luft...
+chat.warptheory.wanddrain=Dein Zauberstab fühlt sich warm an...
+chat.warptheory.witherpotion=Du fühlst dich absolut schrecklich...
+
+# << Research stuff >>
+tc.research_category.WT_Category=Warp-Theorie

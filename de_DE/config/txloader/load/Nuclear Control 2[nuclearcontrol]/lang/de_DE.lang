@@ -1,0 +1,254 @@
+#Tab Name
+nc.itemgroup.tab=Nuclear Control 2
+
+#Internal Items
+item.ItemToolThermometer.name=Thermometer
+item.ItemPanelMemoryCard.name=Information Panel Memory Card
+item.ItemToolDigitalThermometer.name=Digitales Thermometer
+item.ItemRemoteSensorKit.name=Fernsensor-Bausatz
+item.ItemEnergySensorKit.name=Energiesensor-Bausatz
+item.ItemCounterSensorKit.name=Zählsensor-Bausatz
+item.ItemLiquidSensorKit.name=Flüssigkeitssensor-Bausatz
+item.ItemSensorLocationCard.name=Reaktorsensor-Ortungskarte
+item.ItemEnergySensorLocationCard.name=Energiesensor-Ortungskarte
+item.itemCounterSensorLocationCard.name=Zählsensor-Ortungskarte
+item.ItemLiquidSensorLocationCard.name=Flüssigkeitssensor-Ortungskarte
+item.ItemEnergyArrayLocationCard.name=Energiebereichs-Ortungskarte
+item.itemRangeUpgrade.name=Reichweitenupgrade
+item.ItemColorUpgrade.name=Farbupgrade
+item.ItemWebUpgrade.name=Netzupgrade
+item.ItemTimeCard.name=Zeitkarte
+item.ItemTextCard.name=Textkarte
+item.ItemGeneratorSensorKit.name=Generatorensensor-Bausatz
+item.ItemGeneratorSensorLocationCard.name=Generatoren-Ortungskarte
+item.ItemLiquidArrayLocationCard.name=Flüssigkeitsbesreichs-Ortungskarte
+item.Item55ReactorCard.name=5x5 Reactor Sensor Location Card
+item.remoteMonitor.name=Portable Information Panel
+
+#Integration Items
+item.RFreactorKit.name=Remote RF Reactor Kit
+item.RFreactorCard.name=RF Reactor Sensor Location Card
+item.AppengCard.name=Applied Energistics Card
+item.AppengKit.name=Applied Energistics Monitor Kit
+item.RFenergyCard.name=RF Energy Sensor Location Card
+item.ItemVanillaMachineCard.name=Vanilla Machine Card
+item.ItemInventoryScannerCard.name=Inventory Tracking Card
+item.ItemVanilliaKit.name=Vanilla Kit
+item.MekRFenergyCard.name=Mekanism Energy Card
+
+#Internal Blocks
+tile.blockThermalMonitor.name=Thermalmonitor
+tile.blockIndustrialAlarm.name=Industriealarm
+tile.blockHowlerAlarm.name=Heulalarm
+tile.blockRemoteThermo.name=Fern-Thermalmonitor
+tile.blockInfoPanel.name=Industrielle Informationstafel
+tile.blockInfoPanelExtender.name=Informationstafelerweiterung
+tile.blockAdvancedInfoPanel.name=Fortgeschrittene Informationstafel
+tile.blockAdvancedInfoPanelExtender.name=Fortgeschrittene Tafelerweiterung
+tile.blockAdvancedInfoPanel.RotateRight=Rotate to the right
+tile.blockAdvancedInfoPanel.RotateLeft=Rotate to the left
+tile.blockAdvancedInfoPanel.Colors=Change Colors
+tile.blockAdvancedInfoPanel.Labels=Labels
+tile.blockAdvancedInfoPanel.Power=normal/inverted redstone and on/off
+tile.blockAdvancedInfoPanel.Slope=Change slope settings
+tile.blockAdvancedInfoPanel.Settings=Settings
+tile.blockAdvancedInfoPanel.Transparency=Switch transparency
+tile.blockAdvancedInfoPanel.LineConfig=Open line configuration
+tile.blockAdvancedInfoPanel.Save=Save
+tile.blockAdvancedInfoPanel.Reset=Reset
+tile.blockAdvancedInfoPanel.Cancel=Cancel
+tile.nclight0.name=White Lamp
+tile.nclight1.name=White Lamp
+tile.nclight2.name=Orange Lamp
+tile.nclight3.name=Orange Lamp
+tile.blockEnergyCounter.name=Energiezähler
+tile.blockAverageCounter.name=Durchschnittszähler
+tile.blockRangeTrigger.name=Reichweitentrigger
+
+gui.tile.blockThermalMonitor.name.title=Thermal Monitor
+gui.tile.blockIndustrialAlarm.name.title=Industrial Alarm
+gui.tile.blockHowlerAlarm.name.title=Howler Alarm
+gui.tile.blockRemoteThermo.name.title=Remote Thermal Monitor
+gui.tile.blockInfoPanel.name.title=Industrial Information Panel
+gui.tile.blockEnergyCounter.name.title=Energy Counter
+gui.tile.blockAverageCounter.name.title=Average Counter
+gui.tile.blockRangeTrigger.name.title=Range Trigger
+gui.tile.blockAdvancedInfoPanel.name.title=Advanced Information Panel
+
+#Integration Blocks
+tile.blockBRPart.name=Reactor Monitor
+tile.NetworkLink.name=ME Network Monitor
+
+#Original Screen Messages
+msg.nc.HowlerAlarmSoundRange=Tonreichweite: %s
+msg.nc.HowlerAlarmSound=Ton
+msg.nc.ThermalMonitorSave=Speicher Einstellung
+msg.nc.ThermalMonitorSignalAt=Signal bei %s Hitze
+msg.nc.Thermo=Hüllenhitze: %s
+msg.nc.ThermoDigital=Hüllenhitze: %s (Wasser verdampft: %s / Schmelze: %s)
+msg.nc.SensorKit=Fernsensor befestigt, Sensor-Ortskarte empfangen
+
+msg.nc.InfoPanelOutOfRange=Außer Reichweite
+msg.nc.InfoPanelInvalidCard=Ungültige Karte
+msg.nc.InfoPanelNoTarget=Ziel nicht gefunden
+
+msg.nc.InfoPanelOn=An
+msg.nc.InfoPanelOff=Aus
+msg.nc.InfoPanelHeat=T: %s
+msg.nc.InfoPanelMaxHeat=MaxHitze: %s
+msg.nc.InfoPanelMelting=Schmelze: %s
+msg.nc.InfoPanelOutput=Leistung: %sEU/t
+msg.nc.InfoPanelOutputMJ=Leistung: %sMJ/t
+msg.nc.InfoPanelOutputSteam=Leistung: %smB/t
+msg.nc.InfoPanelTimeRemaining=Verbleibend: %s
+
+msg.nc.InfoPanelEnergyCounter=Energie: %sEU
+msg.nc.InfoPanelEnergyCounterMJ=Energie: %sMJ
+
+msg.nc.InfoPanelEnergy=Energie: %s
+msg.nc.InfoPanelEnergyFree=Frei: %s
+msg.nc.InfoPanelEnergyStorage=Speicher: %s
+msg.nc.InfoPanelEnergyPercentage=Gefüllt: %s%%
+
+msg.nc.cbInfoPanelLiquidName=Flüssigkeitsname
+msg.nc.cbInfoPanelLiquidAmount=Menge
+msg.nc.cbInfoPanelLiquidCapacity=Kapazität
+msg.nc.cbInfoPanelLiquidFree=Frei
+msg.nc.cbInfoPanelLiquidPercentage=Füllstand
+
+msg.nc.InfoPanelLiquidName=Name: %s
+msg.nc.InfoPanelLiquidAmount=Menge: %s
+msg.nc.InfoPanelLiquidCapacity=Kapazität: %s
+msg.nc.InfoPanelLiquidFree=Frei: %s
+msg.nc.InfoPanelLiquidPercentage=Gefüllt: %s%%
+
+msg.nc.InfoPanelNotFoundN=#%d Nicht gefunden
+msg.nc.InfoPanelOutOfRangeN=#%d Außer Reichweite
+msg.nc.InfoPanelEnergyN=#%d Energie: %s
+msg.nc.InfoPanelEnergyFreeN=#%d Frei: %s
+msg.nc.InfoPanelEnergyStorageN=#%d Speicher: %s
+msg.nc.InfoPanelEnergyPercentageN=#%d Gefüllt: %s%%
+msg.nc.InfoPanelLiquidNameN=#%d Name: %s
+msg.nc.InfoPanelLiquidN=#%d Menge: %s
+msg.nc.InfoPanelLiquidFreeN=#%d Frei: %s
+msg.nc.InfoPanelLiquidCapacityN=#%d Kapazität: %s
+msg.nc.InfoPanelLiquidPercentageN=#%d Gefüllt: %s%%
+
+msg.nc.InfoPanelTime=Zeit: %s
+
+msg.nc.cbInfoPanelOnOff=An/Aus Status
+msg.nc.cbInfoPanelHeat=Hitzelevel
+msg.nc.cbInfoPanelMaxHeat=Maximale Hitze
+msg.nc.cbInfoPanelMelting=Schmelztemp
+msg.nc.cbInfoPanelOutput=Leistung (EU/t)
+msg.nc.cbInfoPanelTimeRemaining=Zeit bis Durchlaufende
+msg.nc.cb24h=24h-Modus
+
+msg.nc.cbInfoPanelEnergyCurrent=Energie
+msg.nc.cbInfoPanelEnergyStorage=Speicher
+msg.nc.cbInfoPanelEnergyFree=Frei
+msg.nc.cbInfoPanelEnergyEach=Info jeder Karte
+msg.nc.cbInfoPanelEnergyTotal=Zusammenfassung
+msg.nc.cbInfoPanelEnergyPercentage=Füllstand
+msg.nc.EnergyCardQuantity=Kartenanzahl: %d
+msg.nc.AverageCounterPeriod=Periode: %ssec
+
+msg.nc.LiquidCardQuantity=Kartenanzahl: %d
+
+msg.nc.cbInfoPanelLiquidEach=Info jeder Karte
+msg.nc.cbInfoPanelLiquidTotal=Zusammenfassung
+
+msg.nc.Reset=Reset
+msg.nc.ScreenColor=Bildschirmfarbe
+msg.nc.TextColor=Textfarbe
+msg.nc.None=N/A
+nc.msg.notValid=This Card may not be compatible
+nc.msg.notValid2=with the Remote Monitor
+nc.msg.notValid3=Try reopening the GUI
+
+
+# Advanced Info Panel Settings messages
+# Settings labels for Vanilla Machine Card (Furnace/Brewing Stand)
+msg.nc.Vanilla.setting.activityStatus=Activity Status (Brewing/Burning)
+msg.nc.Vanilla.setting.activeTime=Active Time (Brew/Burn)
+msg.nc.Vanilla.setting.slot1Contents=Slot 1 Contents (Potion/Input)
+msg.nc.Vanilla.setting.slot2Contents=Slot 2 Contents (Potion/Fuel)
+msg.nc.Vanilla.setting.slot3Contents=Slot 3 Contents (Potion/Output)
+
+
+#Vanilla Intergration Messages
+msg.nc.Vanilla.Display=%s / %s Slots Used
+msg.nc.Vanilla.Name=Block Name
+msg.nc.Vanilla.StorageLVL=Storage Level
+msg.nc.Vanilla.brewstand=Brew Time: %s
+msg.nc.Vanilla.potionType1=1st Potion Type: %s
+msg.nc.Vanilla.potionType2=2nd Potion Type: %s
+msg.nc.Vanilla.potionType3=3rd Potion Type: %s
+msg.nc.Vanilla.Time=Active Time
+msg.nc.Vanilla.brewing=Brewing
+msg.nc.Vanilla.notBrewing=Not Brewing
+msg.nc.Vanilla.dispBrewUse=Show Output Type #%s
+msg.nc.Vanilla.dispBrew=Show Block Brewing
+msg.nc.Vanilla.dispBrewTime=Display Brew Time
+msg.nc.Vanilla.cooking=Cooking: %sx - %s
+msg.nc.Vanilla.fuel=Fuel: %sx - %s
+msg.nc.Vanilla.output=Output: %sx - %s
+msg.nc.Vanilla.burnTime=Burn Time: %s
+
+
+#Big Reactor Messages
+msg.nc.InfoPanelRF.Temp=Core Temp.: %s C
+msg.nc.InfoPanelRF.EnergyStored=Energy: %s RF
+msg.nc.InfoPanelRF.CreatedEnergy=Output Energy: %s RF/t
+msg.nc.InfoPanelRF.SteamOutput=Output Steam: %s mB/t
+msg.nc.InfoPanelRF.Percentage=Storage Buffer is %s%% Full
+msg.nc.InfoPanelRF.Output=Output (RF/t)
+msg.nc.InfoPanelRF.TempPROPER=Core Temperature
+msg.nc.InfoPanelRF.CoolantTank=Coolant Tank: %s x%smB
+msg.nc.InfoPanelRF.OutputTank=Output Tank: %s x%smB
+
+#5x5 Reactor Messages
+msg.nc.InfoPanel55.Output=Output: %s Hu/s
+msg.nc.InfoPanel55.Temp=Core Temperature: %s%%
+msg.nc.InfoPanel55.tankin=Tank In: %s / 10000 mB
+msg.nc.InfoPanel55.tankout=Tank Out: %s / 10000 mB
+msg.nc.InfoPanel55.Out=Output (Hu/s)
+msg.nc.InfoPanel55.BufferIn=Coolant Storage Tank
+msg.nc.InfoPanel55.BufferOut=Hot Coolant Buffer Tank
+
+#AE INTERGRATION
+msg.null.craft=Nothing
+msg.nc.InfoPanelAE.CraftItemMake=Currently Crafting: %s
+msg.nc.InfoPanelAE.CraftAMT=Crafting Amount: %s
+msg.nc.InfoPanelAE.Bytes=Bytes Used/Total
+msg.nc.InfoPanelAE.Items=Items Used/Total
+msg.nc.InfoPanelAE.CraftItem=Current Item Crafting
+msg.nc.InfoPanelAE.CraftStack=Number of Items Crafting
+msg.nc.InfoPanelAE.DisplayBytes=%s / %s Bytes
+msg.nc.InfoPanelAE.DisplayItem=%s / %s Item types
+
+#WAILA Integration
+msg.nc.waila.getHeatLevel=Heat Maximum Set: 
+msg.nc.waila.ColorBackground=Background color: 
+msg.nc.waila.ColorText=Text color: 
+msg.nc.waila.Web=Web Upgrade is installed
+msg.nc.waila.Color=Color Upgrade is installed
+msg.nc.waila.ColorBlack=Black
+msg.nc.waila.ColorRed=Red
+msg.nc.waila.ColorGreen=Green
+msg.nc.waila.ColorBrown=Brown
+msg.nc.waila.ColorDarkBlue=Dark Blue
+msg.nc.waila.ColorPurple=Purple
+msg.nc.waila.ColorLightBlue=Light Blue
+msg.nc.waila.ColorWhite=White
+msg.nc.waila.ColorPink=Pink
+msg.nc.waila.ColorLimeGreen=Lime Green
+msg.nc.waila.ColorYellow=Yellow
+msg.nc.waila.ColorBlue=Blue
+msg.nc.waila.ColorMagenta=Magenta
+msg.nc.waila.ColorOrange=Orange
+msg.nc.waila.getSoundNames=Sound: 
+msg.nc.waila.getRange=Range: 
+msg.nc.waila.getEnergyCount=Energy Count: 
+msg.nc.waila.getEnergyAverage=Energy Average: 
+msg.nc.waila.getPeriod=Over period of: 

@@ -1,0 +1,2815 @@
+#Key localizations
+
+#Stat localizations
+stat.blockChiseled=Gemeißelte Blöcke
+
+#Entity localizations
+entity.chisel.snowman.name=Schneegolem
+
+item.chisel.nomobspawnsonthisblock.desc=Mobs können auf diesem Block nicht spawnen.
+
+#Item localizations
+item.chisel.chisel_iron.name=Meißel
+
+item.chisel.chisel.desc.gui=Rechtsklick, um die GUI zu öffnen
+item.chisel.chisel.desc.lc1=Linksklick, um einen Block in der Welt zu meißeln
+item.chisel.chisel.desc.lc2=Kann auf einen Block zielen, indem man ihn im Inventar lässt
+item.chisel.chisel.desc.modes=Verfügt über mehrere Modi zum Meißeln.
+
+item.chisel.chisel_diamond.name=Diamantmeißel
+item.chisel.chisel_obsidian.name=Obsidianmeißel
+item.chisel.chisel_netherstar.name=Nethersternmeißel
+item.chisel.chisel_netherstar.gtnh.name=Bedrockiummeißel
+
+item.ballMoss.name=Moosball
+item.ballMoss.desc=Rechtsklick, um ihn zu werfen. Verwandelt Bruchstein in bemoosten Bruchstein.
+item.cloudBottle.name=Wolke in der Flasche
+item.cloudBottle.desc=Rechtsklick, um sie zu werfen. An der Aufschlagstelle erscheint eine Wolke.
+item.smashingRock.name=Zertrümmerfelsen
+item.smashingRock.desc=Rechtsklick, um ihn zu werfen. Beim Aufschlag verwandelt er Bruchstein in Kies und Kies in Sand.
+item.upgrade.name=Verbesserung
+item.upgrade_speed.name=Geschwindigkeits-Upgrade
+item.upgrade_automation.name=Automatisierungs-Upgrade
+item.upgrade_stack.name=Stapel-Upgrade
+item.upgrade_reversion.name=Umkehr-Upgrade
+
+item.upgrade_speed.desc=Erhöht die Arbeitsgeschwindigkeit
+item.upgrade_automation.desc=Ermöglicht es, den automatischen Meißel automatisch zu bestücken
+item.upgrade_stack.desc=Ermöglicht es, komplette Stapel zu verarbeiten
+item.upgrade_reversion.desc=Verwandelt das Material wieder in sein Original
+
+#Block localizations
+
+#Chisel 2
+
+#Nation
+tile.chisel.nation.name=Imperialer Block
+tile.chisel.rebel.name=Rebellischer Block
+tile.nation.0.desc=Getarnt
+tile.nation.1.desc=Getarnt (Abseits)
+tile.nation.2.desc=Verschraubte Platte
+tile.nation.3.desc=Weißes Warnband
+tile.nation.4.desc=Mehrfaches Warnband
+
+#Shingles
+tile.chisel.shingles.name=Schindeln
+tile.shingles.0.desc=Rote Diagonale
+tile.shingles.1.desc=Rote kleine Vierecke
+tile.shingles.2.desc=Rote große Vierecke
+tile.shingles.3.desc=Schwarze Diagonale
+tile.shingles.4.desc=Schwarze kleine Vierecke
+tile.shingles.5.desc=Schwarze große Vierecke
+
+#Valentines
+tile.chisel.valentines.name=Valentinsblock
+tile.valentines.0.desc=Valentinsziegel
+tile.valentines.1.desc=Wenn es spricht, würde ich es nicht berühren!
+tile.valentines.2.desc=
+tile.valentines.3.desc=
+tile.valentines.4.desc=
+tile.valentines.5.desc=
+tile.valentines.6.desc=
+tile.valentines.7.desc=
+tile.valentines.8.desc=
+tile.valentines.9.desc=
+
+#AntiBlocks
+tile.chisel.antiBlock.name=Antiblock
+tile.antiBlock.black.desc=Schwarzer Antiblock
+tile.antiBlock.blue.desc=Blauer Antiblock
+tile.antiBlock.brown.desc=Brauner Antiblock
+tile.antiBlock.cyan.desc=Türkiser Antiblock
+tile.antiBlock.green.desc=Grüner Antiblock
+tile.antiBlock.light_blue.desc=Hellblauer Antiblock
+tile.antiBlock.silver.desc=Hellgrauer Antiblock
+tile.antiBlock.lime.desc=Hellgrüner Antiblock
+tile.antiBlock.magenta.desc=Lila Antiblock
+tile.antiBlock.orange.desc=Oranger Antiblock
+tile.antiBlock.pink.desc=Rosan Antiblock
+tile.antiBlock.purple.desc=Violetter Antiblock
+tile.antiBlock.red.desc=Roter Antiblock
+tile.antiBlock.white.desc=Weißer Antiblock
+tile.antiBlock.yellow.desc=Gelber Antiblock
+tile.antiBlock.gray.desc=Grauer Antiblock
+
+#Diorite
+tile.chisel.diorite.name=Diorit
+tile.diorite.0.desc=Wird in der Welt erstellt
+tile.diorite.1.desc=Polierter Diorit
+tile.diorite.2.desc=Dioritsäule
+tile.diorite.3.desc=Dioritziegel
+tile.diorite.4.desc=Gemeißelter Diorit
+tile.diorite.5.desc=Prismatischer Diorit
+tile.diorite.6.desc=Kleine Dioritkacheln
+
+#Andesite
+tile.chisel.andesite.name=Andesit
+tile.andesite.0.desc=Wird in der Welt erstellt
+tile.andesite.1.desc=Polierter Andesit
+tile.andesite.2.desc=Andesitsäule
+tile.andesite.3.desc=Andesitziegel
+tile.andesite.4.desc=Gemeißelter Andesit
+tile.andesite.5.desc=Prismatischer Andesit
+tile.andesite.6.desc=Kleine Andesitkacheln
+
+#Granite
+tile.chisel.granite.name=Granit
+tile.granite.0.desc=Wird in der Welt erstellt
+tile.granite.1.desc=Polierter Granit
+tile.granite.2.desc=Granitsäule
+tile.granite.3.desc=Granitziegel
+tile.granite.4.desc=Gemeißelter Granit
+tile.granite.5.desc=Prismatischer Granit
+tile.granite.6.desc=Kleine Granitkacheln
+
+#Auto Chisel
+tile.chisel.autoChisel.name=Automatischer Meißel
+autochisel.slot.chisel.tooltip=Meißel-Slot
+autochisel.slot.target.tooltip=Ausgabe-Slot
+autochisel.slot.speed.tooltip=Geschwindigkeits-Upgrade
+autochisel.slot.automation.tooltip=Automatisierungs-Upgrade
+autochisel.slot.stack.tooltip=Stapel-Upgrade
+autochisel.slot.reversion.tooltip=Umkehr-Upgrade
+chisel.autochisel.upgrade.disabled=Verbesserungen deaktiviert
+
+#Beacon
+tile.chisel.beacon.name=Leuchtfeuer
+tile.beacon.black.desc=Schwarz leuchtendes Leuchtfeuer
+tile.beacon.blue.desc=Blau leuchtendes Leuchtfeuer
+tile.beacon.brown.desc=Braun leuchtendes Leuchtfeuer
+tile.beacon.cyan.desc=Türkis leuchtendes Leuchtfeuer
+tile.beacon.green.desc=Grün leuchtendes Leuchtfeuer
+tile.beacon.lightBlue.desc=Light Blue Beamed Beacon
+tile.beacon.silver.desc=Hellgrau leuchtendes Leuchtfeuer
+tile.beacon.lime.desc=Hellgrün leuchtendes Leuchtfeuer
+tile.beacon.magenta.desc=Lila leuchtendes Leuchtfeuer
+tile.beacon.orange.desc=Orange leuchtendes Leuchtfeuer
+tile.beacon.pink.desc=Rosa leuchtendes Leuchtfeuer
+tile.beacon.purple.desc=Violett leuchtendes Leuchtfeuer
+tile.beacon.red.desc=Rot leuchtendes Leuchtfeuer
+tile.beacon.white.desc=Regenbogen-Leuchtfeuer
+tile.beacon.yellow.desc=Gelb leuchtendes Leuchtfeuer
+tile.beacon.gray.desc=Grau leuchtendes Leuchtfeuer
+
+#Leaves
+tile.chisel.leaves.name=Blätter
+tile.leaves.6.desc=Tote Blätter
+tile.leaves.7.desc=Fantasievolle Blätter
+tile.leaves.8.desc=Rosa Blütenblätter
+tile.leaves.9.desc=Rote Rose
+tile.leaves.10.desc=Weiße Rose
+tile.leaves.11.desc=Weihnachtsbaumkugeln
+tile.leaves.12.desc=Weihnachtslichter
+
+#Void Stone Blocks
+tile.chisel.voidstone.name=Leerenstein
+tile.voidstone.0.desc=Roher Leerenstein
+tile.voidstone.1.desc=Große Leerensteinteile
+tile.voidstone.2.desc=Glatter Leerenstein
+tile.voidstone.3.desc=Verzierter Leerenstein
+tile.voidstone.4.desc=Leerenstein mit Rune
+tile.voidstone.5.desc=Leerenstein mit rotem Metallrand
+tile.voidstone.6.desc=Leerenstein mit Auge
+tile.voidstone.7.desc=Umrandeter Leerenstein
+tile.chisel.voidstoneRunic.name=Leerenstein mit Rune
+tile.voidstoneRunic.orange.desc=Leerenstein - Orange Rune
+tile.voidstoneRunic.magenta.desc=Leerenstein - Lila Rune
+tile.voidstoneRunic.lightblue.desc=Leerenstein - Hellblaue Rune
+tile.voidstoneRunic.yellow.desc=Leerenstein - Gelbe Rune
+tile.voidstoneRunic.lime.desc=Leerenstein - Hellgrüne Rune
+tile.voidstoneRunic.pink.desc=Leerenstein - Rosa Rune
+tile.voidstoneRunic.gray.desc=Leerenstein - Graue Rune
+tile.voidstoneRunic.lightgray.desc=Leerenstein - Hellgraue Rune
+tile.voidstoneRunic.cyan.desc=Leerenstein - Türkiese Rune
+tile.voidstoneRunic.purple.desc=Leerenstein - Violette Rune
+tile.voidstoneRunic.blue.desc=Leerenstein - Blaue Rune
+tile.voidstoneRunic.brown.desc=Leerenstein - Braune Rune
+tile.voidstoneRunic.green.desc=Leerenstein - Grüne Rune
+tile.voidstoneRunic.red.desc=Leerenstein - Rote Rune
+tile.voidstoneRunic.black.desc=Leerenstein - Schwarze Rune
+
+#Void Stone Pillars
+tile.chisel.voidstonePillar.name=Leerensteinsäule
+tile.voidstonePillar.0.desc=Gestreifte Leerensteinsäule
+
+#Warning
+tile.chisel.warningSign.name=Warnschild
+tile.warningSign.0.desc=Radioaktivität
+tile.warningSign.1.desc=Biogefahr
+tile.warningSign.2.desc=Feuer
+tile.warningSign.3.desc=Explosion
+tile.warningSign.4.desc=Tot
+tile.warningSign.5.desc=Fallende Objekte
+tile.warningSign.6.desc=Sturzgefahr
+tile.warningSign.7.desc=Hochspannung
+tile.warningSign.8.desc=Allgemeine Warnung
+tile.warningSign.9.desc=Gefährliche Chemikalien
+tile.warningSign.10.desc=Bauarbeiten
+tile.warningSign.11.desc=Lärm
+tile.warningSign.12.desc=Kein Zugang
+tile.warningSign.13.desc=Schockfrosten läuft
+tile.warningSign.14.desc=Kein Sauerstoff
+
+#Energised Void Stone Blocks
+tile.chisel.voidstone2.name=Energetisierter Leerenstein
+tile.voidstone2.0.desc=Roher energetisierter Leerenstein
+tile.voidstone2.1.desc=Energetisierter Leerenstein mit Großen Teilen
+tile.voidstone2.2.desc=Glatter energetisierter Leerenstein
+tile.voidstone2.3.desc=Verzierter energetisierter Leerenstein
+tile.voidstone2.4.desc=Energetisierter Leerenstein mit Runen
+tile.voidstone2.5.desc=Energetisierter Leerenstein mit rotem Metallrand
+tile.voidstone2.6.desc=Energetisierter Leerenstein mit Auge
+tile.voidstone2.7.desc=Umrandeter Leerenstein
+
+#Void Stone Pillars
+tile.chisel.voidstonePillar2.name=Energetisierte Leerensteinsäule
+tile.voidstonePillar2.0.desc=Gestreifte energetisierte Leerensteinsäule
+
+#Arcane
+tile.chisel.arcane.name=Arkaner Steinblock
+tile.arcane.0.desc=Eingravierter Mond
+tile.arcane.1.desc=Leuchtender Mond
+tile.arcane.2.desc=Umrandete Teile
+tile.arcane.3.desc=Eingravierte Symbole
+tile.arcane.4.desc=Leuchtende Symbole
+tile.arcane.5.desc=Arkaner Ziegel
+tile.arcane.6.desc=Zeitlichleitung
+tile.arcane.7.desc=Geeehirne
+tile.arcane.8.desc=Höllischer Arkane
+tile.arcane.9.desc=Fiese Nazca-Linien
+tile.arcane.10.desc=Feines Thaumaturgenwappen
+tile.arcane.11.desc=Gebrochener Stein mit Eldritch-Glühen
+
+#Thaumium
+tile.chisel.thaumium.name=Thaumiumblock
+tile.thaumium.0.desc=Gemeißeltes Muster
+tile.thaumium.1.desc=Tote Gesicheter
+tile.thaumium.2.desc=Ziegel
+tile.thaumium.3.desc=Kleine Kacheln
+tile.thaumium.4.desc=Gitter
+tile.thaumium.5.desc=Begrenzte Bretter
+
+#Tallow
+tile.chisel.tallow.name=Talgblock
+tile.tallow.0.desc=Glatter Talgblock
+tile.tallow.1.desc=Beseelter Talgblock
+
+#Blood Rune
+tile.chisel.bloodRune.name=Blutige Rune
+tile.bloodRune.0.desc=Angeordnete blutige Rune
+tile.bloodRune.1.desc=Blutiger Runenziegel
+tile.bloodRune.2.desc=Geschnitzte blutige Rune
+tile.bloodRune.3.desc=Rundgeschnitzte blutige Rune
+tile.bloodRune.4.desc=Normale blutige Runeteile
+tile.bloodRune.5.desc=Blutige Runenteile
+
+#Futura
+tile.chisel.futura.name=Zukunftsblock
+tile.chisel.futuraCircuit.name=Zukunftskreis
+tile.chisel.fakeController.name=ME-Controller?
+tile.futura.0.desc=Leuchtender Bildschirm mit metallischem Rahmen
+tile.futura.1.desc=Leuchtender Bildschirm mit türkisem Rahmen
+tile.futura.2.desc=Angewandte labyrinthischen Neonlinien
+tile.futura.3.desc=Irrsinniger Regenbogen
+tile.futura.4.desc=Violette angewandte labyrinthische Neonlinien
+tile.futura.5.desc=Psychedelic Poptart Rainbow.v02
+tile.futuraCircuit.black.desc=Schwarz
+tile.futuraCircuit.blue.desc=Blau
+tile.futuraCircuit.brown.desc=Braun
+tile.futuraCircuit.cyan.desc=Türkis
+tile.futuraCircuit.green.desc=Grün
+tile.futuraCircuit.light_blue.desc=Hellblau
+tile.futuraCircuit.silver.desc=Hellgrau
+tile.futuraCircuit.lime.desc=Hellgrün
+tile.futuraCircuit.magenta.desc=Lila
+tile.futuraCircuit.orange.desc=Orange
+tile.futuraCircuit.pink.desc=Rosa
+tile.futuraCircuit.purple.desc=Violett
+tile.futuraCircuit.red.desc=Rot
+tile.futuraCircuit.white.desc=Weiß
+tile.futuraCircuit.yellow.desc=Gelb
+tile.futuraCircuit.gray.desc=Grau
+
+#Waterstone
+tile.chisel.waterstone.name=Wasserstein
+tile.waterstone.0.desc=Wassersteinziegel
+tile.waterstone.1.desc=Schwarer Wasserstein
+tile.waterstone.2.desc=Wassersteinteile
+tile.waterstone.3.desc=Chaotische Wassersteinziegel
+tile.waterstone.4.desc=Wasserziegel mit Creeper in der Mitte
+tile.waterstone.5.desc=Wassertafel
+tile.waterstone.6.desc=Gemeißelte Wassertafel
+
+#Hex Plating
+tile.chisel.hexPlating.name=Sechsfache Teilung
+tile.hexPlating.black.desc=Schwarze Teilung
+tile.hexPlating.blue.desc=Blaue Teilung
+tile.hexPlating.brown.desc=Braune Teilung
+tile.hexPlating.cyan.desc=Türkise Teilung
+tile.hexPlating.green.desc=Grüne Teilung
+tile.hexPlating.light_blue.desc=Hellblaue Teilung
+tile.hexPlating.silver.desc=Hellgraue Teilung
+tile.hexPlating.lime.desc=Hellgrüne Teilung
+tile.hexPlating.magenta.desc=Lila Teilung
+tile.hexPlating.orange.desc=Orange Teilung
+tile.hexPlating.pink.desc=Rosa Teilung
+tile.hexPlating.purple.desc=Violette Teilung
+tile.hexPlating.red.desc=Rote Teilung
+tile.hexPlating.white.desc=Weiße Teilung
+tile.hexPlating.yellow.desc=Gelbe Teilung
+tile.hexPlating.gray.desc=Graue Teilung
+
+#Hex Large Plating
+tile.chisel.hexLargePlating.name=Große sechsfache Teilung
+
+#Grimstone
+tile.chisel.grimstone.name=Grimmstein
+tile.grimstone.0.desc=Grimmstein
+tile.grimstone.1.desc=Glatter Grimstone
+tile.grimstone.2.desc=Mystisches Grimstonesymbol
+tile.grimstone.3.desc=Gemeißelter Grimstone
+tile.grimstone.4.desc=Grimstoneblock
+tile.grimstone.5.desc=Rauer Grimstoneblock
+tile.grimstone.6.desc=Grimstoneziegel
+tile.grimstone.7.desc=Große Grimstoneziegel
+tile.grimstone.8.desc=Grimstone-Plattform
+tile.grimstone.9.desc=Grimstone-Plattformteile
+tile.grimstone.10.desc=Fantastische Grimstonekonstruktion
+tile.grimstone.11.desc=Fantastische Grimstonefliesen
+tile.grimstone.12.desc=Glatte Grimstoneplatte
+tile.grimstone.13.desc=Grimstoneplatte
+tile.grimstone.14.desc=Brüchiger Grimstone
+
+#Hardened Clay (Terracotta)
+tile.chisel.hardened_clay.name=Terracotta
+tile.chisel.hardened_clay2.name=Terracotta
+tile.hardened_clay.0.desc=Braid Terracotta Bricks
+tile.hardened_clay.1.desc=Cracked Terracotta Bricks
+tile.hardened_clay.2.desc=Small Terracotta Brick Tiles
+tile.hardened_clay.3.desc=Small Terracotta Bricks
+tile.hardened_clay.4.desc=Aligned Terracotta Bricks
+tile.hardened_clay.5.desc=Detailed Terracotta Bricks
+tile.hardened_clay.6.desc=Wide Terracotta Bricks
+tile.hardened_clay.7.desc=Chaotic Small Terracotta Bricks
+tile.hardened_clay.8.desc=Small Disordered Terracotta Bricks
+tile.hardened_clay.9.desc=Ornate Terracotta
+tile.hardened_clay.10.desc=Cracked Terracotta
+tile.hardened_clay.11.desc=Sunken Terracotta Panel
+tile.hardened_clay.12.desc=Fancy Terracotta Bricks
+tile.hardened_clay.13.desc=Fancy Terracotta Tiles
+tile.hardened_clay.14.desc=Terracotta Layers
+tile.hardened_clay.15.desc=Terracotta Mosaic
+tile.hardened_clay.16.desc=Small Ornate Terracotta
+tile.hardened_clay.17.desc=Terracotta Large Tile
+tile.hardened_clay.18.desc=Terracotta Pillar
+tile.hardened_clay.19.desc=Prismatic Terracotta
+tile.hardened_clay.20.desc=Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay.21.desc=Terracotta Panel
+tile.hardened_clay.22.desc=Small Terracotta Blocks
+tile.hardened_clay.23.desc=Small Terracotta Tiles
+tile.hardened_clay.24.desc=Radial Carved Terracotta
+tile.hardened_clay.25.desc=Engraved Terracotta Block
+
+#Hardened Clay (Black Terracotta)
+tile.chisel.hardened_clay_black.name=Black Terracotta
+tile.chisel.hardened_clay_black2.name=Black Terracotta
+tile.hardened_clay_black.0.desc=Braid Black Terracotta Bricks
+tile.hardened_clay_black.1.desc=Cracked Black Terracotta Bricks
+tile.hardened_clay_black.2.desc=Small Black Terracotta Brick Tiles
+tile.hardened_clay_black.3.desc=Small Black Terracotta Bricks
+tile.hardened_clay_black.4.desc=Aligned Black Terracotta Bricks
+tile.hardened_clay_black.5.desc=Detailed Black Terracotta Bricks
+tile.hardened_clay_black.6.desc=Wide Black Terracotta Bricks
+tile.hardened_clay_black.7.desc=Chaotic Small Black Terracotta Bricks
+tile.hardened_clay_black.8.desc=Small Disordered Black Terracotta Bricks
+tile.hardened_clay_black.9.desc=Ornate Black Terracotta
+tile.hardened_clay_black.10.desc=Cracked Black Terracotta
+tile.hardened_clay_black.11.desc=Sunken Black Terracotta Panel
+tile.hardened_clay_black.12.desc=Fancy Black Terracotta Bricks
+tile.hardened_clay_black.13.desc=Fancy Black Terracotta Tiles
+tile.hardened_clay_black.14.desc=Black Terracotta Layers
+tile.hardened_clay_black.15.desc=Black Terracotta Mosaic
+tile.hardened_clay_black.16.desc=Small Ornate Black Terracotta
+tile.hardened_clay_black.17.desc=Black Terracotta Large Tile
+tile.hardened_clay_black.18.desc=Black Terracotta Pillar
+tile.hardened_clay_black.19.desc=Prismatic Black Terracotta
+tile.hardened_clay_black.20.desc=Black Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_black.21.desc=Black Terracotta Panel
+tile.hardened_clay_black.22.desc=Small Black Terracotta Blocks
+tile.hardened_clay_black.23.desc=Small Black Terracotta Tiles
+tile.hardened_clay_black.24.desc=Radial Carved Black Terracotta
+tile.hardened_clay_black.25.desc=Engraved Black Terracotta Block
+
+#Hardened Clay (Blue Terracotta)
+tile.chisel.hardened_clay_blue.name=Blue Terracotta
+tile.chisel.hardened_clay_blue2.name=Blue Terracotta
+tile.hardened_clay_blue.0.desc=Braid Blue Terracotta Bricks
+tile.hardened_clay_blue.1.desc=Cracked Blue Terracotta Bricks
+tile.hardened_clay_blue.2.desc=Small Blue Terracotta Brick Tiles
+tile.hardened_clay_blue.3.desc=Small Blue Terracotta Bricks
+tile.hardened_clay_blue.4.desc=Aligned Blue Terracotta Bricks
+tile.hardened_clay_blue.5.desc=Detailed Blue Terracotta Bricks
+tile.hardened_clay_blue.6.desc=Wide Blue Terracotta Bricks
+tile.hardened_clay_blue.7.desc=Chaotic Small Blue Terracotta Bricks
+tile.hardened_clay_blue.8.desc=Small Disordered Blue Terracotta Bricks
+tile.hardened_clay_blue.9.desc=Ornate Blue Terracotta
+tile.hardened_clay_blue.10.desc=Cracked Blue Terracotta
+tile.hardened_clay_blue.11.desc=Sunken Blue Terracotta Panel
+tile.hardened_clay_blue.12.desc=Fancy Blue Terracotta Bricks
+tile.hardened_clay_blue.13.desc=Fancy Blue Terracotta Tiles
+tile.hardened_clay_blue.14.desc=Blue Terracotta Layers
+tile.hardened_clay_blue.15.desc=Blue Terracotta Mosaic
+tile.hardened_clay_blue.16.desc=Small Ornate Blue Terracotta
+tile.hardened_clay_blue.17.desc=Blue Terracotta Large Tile
+tile.hardened_clay_blue.18.desc=Blue Terracotta Pillar
+tile.hardened_clay_blue.19.desc=Prismatic Blue Terracotta
+tile.hardened_clay_blue.20.desc=Blue Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_blue.21.desc=Blue Terracotta Panel
+tile.hardened_clay_blue.22.desc=Small Blue Terracotta Blocks
+tile.hardened_clay_blue.23.desc=Small Blue Terracotta Tiles
+tile.hardened_clay_blue.24.desc=Radial Carved Blue Terracotta
+tile.hardened_clay_blue.25.desc=Engraved Blue Terracotta Block
+
+#Hardened Clay (Brown Terracotta)
+tile.chisel.hardened_clay_brown.name=Brown Terracotta
+tile.chisel.hardened_clay_brown2.name=Brown Terracotta
+tile.hardened_clay_brown.0.desc=Braid Brown Terracotta Bricks
+tile.hardened_clay_brown.1.desc=Cracked Brown Terracotta Bricks
+tile.hardened_clay_brown.2.desc=Small Brown Terracotta Brick Tiles
+tile.hardened_clay_brown.3.desc=Small Brown Terracotta Bricks
+tile.hardened_clay_brown.4.desc=Aligned Brown Terracotta Bricks
+tile.hardened_clay_brown.5.desc=Detailed Brown Terracotta Bricks
+tile.hardened_clay_brown.6.desc=Wide Brown Terracotta Bricks
+tile.hardened_clay_brown.7.desc=Chaotic Small Brown Terracotta Bricks
+tile.hardened_clay_brown.8.desc=Small Disordered Brown Terracotta Bricks
+tile.hardened_clay_brown.9.desc=Ornate Brown Terracotta
+tile.hardened_clay_brown.10.desc=Cracked Brown Terracotta
+tile.hardened_clay_brown.11.desc=Sunken Brown Terracotta Panel
+tile.hardened_clay_brown.12.desc=Fancy Brown Terracotta Bricks
+tile.hardened_clay_brown.13.desc=Fancy Brown Terracotta Tiles
+tile.hardened_clay_brown.14.desc=Brown Terracotta Layers
+tile.hardened_clay_brown.15.desc=Brown Terracotta Mosaic
+tile.hardened_clay_brown.16.desc=Small Ornate Brown Terracotta
+tile.hardened_clay_brown.17.desc=Brown Terracotta Large Tile
+tile.hardened_clay_brown.18.desc=Brown Terracotta Pillar
+tile.hardened_clay_brown.19.desc=Prismatic Brown Terracotta
+tile.hardened_clay_brown.20.desc=Brown Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_brown.21.desc=Brown Terracotta Panel
+tile.hardened_clay_brown.22.desc=Small Brown Terracotta Blocks
+tile.hardened_clay_brown.23.desc=Small Brown Terracotta Tiles
+tile.hardened_clay_brown.24.desc=Radial Carved Brown Terracotta
+tile.hardened_clay_brown.25.desc=Engraved Brown Terracotta Block
+
+#Hardened Clay (Cyan Terracotta)
+tile.chisel.hardened_clay_cyan.name=Cyan Terracotta
+tile.chisel.hardened_clay_cyan2.name=Cyan Terracotta
+tile.hardened_clay_cyan.0.desc=Braid Cyan Terracotta Bricks
+tile.hardened_clay_cyan.1.desc=Cracked Cyan Terracotta Bricks
+tile.hardened_clay_cyan.2.desc=Small Cyan Terracotta Brick Tiles
+tile.hardened_clay_cyan.3.desc=Small Cyan Terracotta Bricks
+tile.hardened_clay_cyan.4.desc=Aligned Cyan Terracotta Bricks
+tile.hardened_clay_cyan.5.desc=Detailed Cyan Terracotta Bricks
+tile.hardened_clay_cyan.6.desc=Wide Cyan Terracotta Bricks
+tile.hardened_clay_cyan.7.desc=Chaotic Small Cyan Terracotta Bricks
+tile.hardened_clay_cyan.8.desc=Small Disordered Cyan Terracotta Bricks
+tile.hardened_clay_cyan.9.desc=Ornate Cyan Terracotta
+tile.hardened_clay_cyan.10.desc=Cracked Cyan Terracotta
+tile.hardened_clay_cyan.11.desc=Sunken Cyan Terracotta Panel
+tile.hardened_clay_cyan.12.desc=Fancy Cyan Terracotta Bricks
+tile.hardened_clay_cyan.13.desc=Fancy Cyan Terracotta Tiles
+tile.hardened_clay_cyan.14.desc=Cyan Terracotta Layers
+tile.hardened_clay_cyan.15.desc=Cyan Terracotta Mosaic
+tile.hardened_clay_cyan.16.desc=Small Ornate Cyan Terracotta
+tile.hardened_clay_cyan.17.desc=Cyan Terracotta Large Tile
+tile.hardened_clay_cyan.18.desc=Cyan Terracotta Pillar
+tile.hardened_clay_cyan.19.desc=Prismatic Cyan Terracotta
+tile.hardened_clay_cyan.20.desc=Cyan Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_cyan.21.desc=Cyan Terracotta Panel
+tile.hardened_clay_cyan.22.desc=Small Cyan Terracotta Blocks
+tile.hardened_clay_cyan.23.desc=Small Cyan Terracotta Tiles
+tile.hardened_clay_cyan.24.desc=Radial Carved Cyan Terracotta
+tile.hardened_clay_cyan.25.desc=Engraved Cyan Terracotta Block
+
+#Hardened Clay (Gray Terracotta)
+tile.chisel.hardened_clay_gray.name=Gray Terracotta
+tile.chisel.hardened_clay_gray2.name=Gray Terracotta
+tile.hardened_clay_gray.0.desc=Braid Gray Terracotta Bricks
+tile.hardened_clay_gray.1.desc=Cracked Gray Terracotta Bricks
+tile.hardened_clay_gray.2.desc=Small Gray Terracotta Brick Tiles
+tile.hardened_clay_gray.3.desc=Small Gray Terracotta Bricks
+tile.hardened_clay_gray.4.desc=Aligned Gray Terracotta Bricks
+tile.hardened_clay_gray.5.desc=Detailed Gray Terracotta Bricks
+tile.hardened_clay_gray.6.desc=Wide Gray Terracotta Bricks
+tile.hardened_clay_gray.7.desc=Chaotic Small Gray Terracotta Bricks
+tile.hardened_clay_gray.8.desc=Small Disordered Gray Terracotta Bricks
+tile.hardened_clay_gray.9.desc=Ornate Gray Terracotta
+tile.hardened_clay_gray.10.desc=Cracked Gray Terracotta
+tile.hardened_clay_gray.11.desc=Sunken Gray Terracotta Panel
+tile.hardened_clay_gray.12.desc=Fancy Gray Terracotta Bricks
+tile.hardened_clay_gray.13.desc=Fancy Gray Terracotta Tiles
+tile.hardened_clay_gray.14.desc=Gray Terracotta Layers
+tile.hardened_clay_gray.15.desc=Gray Terracotta Mosaic
+tile.hardened_clay_gray.16.desc=Small Ornate Gray Terracotta
+tile.hardened_clay_gray.17.desc=Gray Terracotta Large Tile
+tile.hardened_clay_gray.18.desc=Gray Terracotta Pillar
+tile.hardened_clay_gray.19.desc=Prismatic Gray Terracotta
+tile.hardened_clay_gray.20.desc=Gray Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_gray.21.desc=Gray Terracotta Panel
+tile.hardened_clay_gray.22.desc=Small Gray Terracotta Blocks
+tile.hardened_clay_gray.23.desc=Small Gray Terracotta Tiles
+tile.hardened_clay_gray.24.desc=Radial Carved Gray Terracotta
+tile.hardened_clay_gray.25.desc=Engraved Gray Terracotta Block
+
+#Hardened Clay (Green Terracotta)
+tile.chisel.hardened_clay_green.name=Green Terracotta
+tile.chisel.hardened_clay_green2.name=Green Terracotta
+tile.hardened_clay_green.0.desc=Braid Green Terracotta Bricks
+tile.hardened_clay_green.1.desc=Cracked Green Terracotta Bricks
+tile.hardened_clay_green.2.desc=Small Green Terracotta Brick Tiles
+tile.hardened_clay_green.3.desc=Small Green Terracotta Bricks
+tile.hardened_clay_green.4.desc=Aligned Green Terracotta Bricks
+tile.hardened_clay_green.5.desc=Detailed Green Terracotta Bricks
+tile.hardened_clay_green.6.desc=Wide Green Terracotta Bricks
+tile.hardened_clay_green.7.desc=Chaotic Small Green Terracotta Bricks
+tile.hardened_clay_green.8.desc=Small Disordered Green Terracotta Bricks
+tile.hardened_clay_green.9.desc=Ornate Green Terracotta
+tile.hardened_clay_green.10.desc=Cracked Green Terracotta
+tile.hardened_clay_green.11.desc=Sunken Green Terracotta Panel
+tile.hardened_clay_green.12.desc=Fancy Green Terracotta Bricks
+tile.hardened_clay_green.13.desc=Fancy Green Terracotta Tiles
+tile.hardened_clay_green.14.desc=Green Terracotta Layers
+tile.hardened_clay_green.15.desc=Green Terracotta Mosaic
+tile.hardened_clay_green.16.desc=Small Ornate Green Terracotta
+tile.hardened_clay_green.17.desc=Green Terracotta Large Tile
+tile.hardened_clay_green.18.desc=Green Terracotta Pillar
+tile.hardened_clay_green.19.desc=Prismatic Green Terracotta
+tile.hardened_clay_green.20.desc=Green Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_green.21.desc=Green Terracotta Panel
+tile.hardened_clay_green.22.desc=Small Green Terracotta Blocks
+tile.hardened_clay_green.23.desc=Small Green Terracotta Tiles
+tile.hardened_clay_green.24.desc=Radial Carved Green Terracotta
+tile.hardened_clay_green.25.desc=Engraved Green Terracotta Block
+
+#Hardened Clay (Light Blue Terracotta)
+tile.chisel.hardened_clay_lightblue.name=Light Blue Terracotta
+tile.chisel.hardened_clay_lightblue2.name=Light Blue Terracotta
+tile.hardened_clay_lightblue.0.desc=Braid Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.1.desc=Cracked Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.2.desc=Small Light Blue Terracotta Brick Tiles
+tile.hardened_clay_lightblue.3.desc=Small Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.4.desc=Aligned Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.5.desc=Detailed Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.6.desc=Wide Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.7.desc=Chaotic Small Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.8.desc=Small Disordered Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.9.desc=Ornate Light Blue Terracotta
+tile.hardened_clay_lightblue.10.desc=Cracked Light Blue Terracotta
+tile.hardened_clay_lightblue.11.desc=Sunken Light Blue Terracotta Panel
+tile.hardened_clay_lightblue.12.desc=Fancy Light Blue Terracotta Bricks
+tile.hardened_clay_lightblue.13.desc=Fancy Light Blue Terracotta Tiles
+tile.hardened_clay_lightblue.14.desc=Light Blue Terracotta Layers
+tile.hardened_clay_lightblue.15.desc=Light Blue Terracotta Mosaic
+tile.hardened_clay_lightblue.16.desc=Small Ornate Light Blue Terracotta
+tile.hardened_clay_lightblue.17.desc=Light Blue Terracotta Large Tile
+tile.hardened_clay_lightblue.18.desc=Light Blue Terracotta Pillar
+tile.hardened_clay_lightblue.19.desc=Prismatic Light Blue Terracotta
+tile.hardened_clay_lightblue.20.desc=Light Blue Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_lightblue.21.desc=Light Blue Terracotta Panel
+tile.hardened_clay_lightblue.22.desc=Small Light Blue Terracotta Blocks
+tile.hardened_clay_lightblue.23.desc=Small Light Blue Terracotta Tiles
+tile.hardened_clay_lightblue.24.desc=Radial Carved Light Blue Terracotta
+tile.hardened_clay_lightblue.25.desc=Engraved Light Blue Terracotta Block
+
+#Hardened Clay (Light Gray Terracotta)
+tile.chisel.hardened_clay_lightgray.name=Light Gray Terracotta
+tile.chisel.hardened_clay_lightgray2.name=Light Gray Terracotta
+tile.hardened_clay_lightgray.0.desc=Braid Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.1.desc=Cracked Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.2.desc=Small Light Gray Terracotta Brick Tiles
+tile.hardened_clay_lightgray.3.desc=Small Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.4.desc=Aligned Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.5.desc=Detailed Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.6.desc=Wide Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.7.desc=Chaotic Small Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.8.desc=Small Disordered Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.9.desc=Ornate Light Gray Terracotta
+tile.hardened_clay_lightgray.10.desc=Cracked Light Gray Terracotta
+tile.hardened_clay_lightgray.11.desc=Sunken Light Gray Terracotta Panel
+tile.hardened_clay_lightgray.12.desc=Fancy Light Gray Terracotta Bricks
+tile.hardened_clay_lightgray.13.desc=Fancy Light Gray Terracotta Tiles
+tile.hardened_clay_lightgray.14.desc=Light Gray Terracotta Layers
+tile.hardened_clay_lightgray.15.desc=Light Gray Terracotta Mosaic
+tile.hardened_clay_lightgray.16.desc=Small Ornate Light Gray Terracotta
+tile.hardened_clay_lightgray.17.desc=Light Gray Terracotta Large Tile
+tile.hardened_clay_lightgray.18.desc=Light Gray Terracotta Pillar
+tile.hardened_clay_lightgray.19.desc=Prismatic Light Gray Terracotta
+tile.hardened_clay_lightgray.20.desc=Light Gray Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_lightgray.21.desc=Light Gray Terracotta Panel
+tile.hardened_clay_lightgray.22.desc=Small Light Gray Terracotta Blocks
+tile.hardened_clay_lightgray.23.desc=Small Light Gray Terracotta Tiles
+tile.hardened_clay_lightgray.24.desc=Radial Carved Light Gray Terracotta
+tile.hardened_clay_lightgray.25.desc=Engraved Light Gray Terracotta Block
+
+#Hardened Clay (Lime Terracotta)
+tile.chisel.hardened_clay_lime.name=Lime Terracotta
+tile.chisel.hardened_clay_lime2.name=Lime Terracotta
+tile.hardened_clay_lime.0.desc=Braid Lime Terracotta Bricks
+tile.hardened_clay_lime.1.desc=Cracked Lime Terracotta Bricks
+tile.hardened_clay_lime.2.desc=Small Lime Terracotta Brick Tiles
+tile.hardened_clay_lime.3.desc=Small Lime Terracotta Bricks
+tile.hardened_clay_lime.4.desc=Aligned Lime Terracotta Bricks
+tile.hardened_clay_lime.5.desc=Detailed Lime Terracotta Bricks
+tile.hardened_clay_lime.6.desc=Wide Lime Terracotta Bricks
+tile.hardened_clay_lime.7.desc=Chaotic Small Lime Terracotta Bricks
+tile.hardened_clay_lime.8.desc=Small Disordered Lime Terracotta Bricks
+tile.hardened_clay_lime.9.desc=Ornate Lime Terracotta
+tile.hardened_clay_lime.10.desc=Cracked Lime Terracotta
+tile.hardened_clay_lime.11.desc=Sunken Lime Terracotta Panel
+tile.hardened_clay_lime.12.desc=Fancy Lime Terracotta Bricks
+tile.hardened_clay_lime.13.desc=Fancy Lime Terracotta Tiles
+tile.hardened_clay_lime.14.desc=Lime Terracotta Layers
+tile.hardened_clay_lime.15.desc=Lime Terracotta Mosaic
+tile.hardened_clay_lime.16.desc=Small Ornate Lime Terracotta
+tile.hardened_clay_lime.17.desc=Lime Terracotta Large Tile
+tile.hardened_clay_lime.18.desc=Lime Terracotta Pillar
+tile.hardened_clay_lime.19.desc=Prismatic Lime Terracotta
+tile.hardened_clay_lime.20.desc=Lime Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_lime.21.desc=Lime Terracotta Panel
+tile.hardened_clay_lime.22.desc=Small Lime Terracotta Blocks
+tile.hardened_clay_lime.23.desc=Small Lime Terracotta Tiles
+tile.hardened_clay_lime.24.desc=Radial Carved Lime Terracotta
+tile.hardened_clay_lime.25.desc=Engraved Lime Terracotta Block
+
+#Hardened Clay (Magenta Terracotta)
+tile.chisel.hardened_clay_magenta.name=Magenta Terracotta
+tile.chisel.hardened_clay_magenta2.name=Magenta Terracotta
+tile.hardened_clay_magenta.0.desc=Braid Magenta Terracotta Bricks
+tile.hardened_clay_magenta.1.desc=Cracked Magenta Terracotta Bricks
+tile.hardened_clay_magenta.2.desc=Small Magenta Terracotta Brick Tiles
+tile.hardened_clay_magenta.3.desc=Small Magenta Terracotta Bricks
+tile.hardened_clay_magenta.4.desc=Aligned Magenta Terracotta Bricks
+tile.hardened_clay_magenta.5.desc=Detailed Magenta Terracotta Bricks
+tile.hardened_clay_magenta.6.desc=Wide Magenta Terracotta Bricks
+tile.hardened_clay_magenta.7.desc=Chaotic Small Magenta Terracotta Bricks
+tile.hardened_clay_magenta.8.desc=Small Disordered Magenta Terracotta Bricks
+tile.hardened_clay_magenta.9.desc=Ornate Magenta Terracotta
+tile.hardened_clay_magenta.10.desc=Cracked Magenta Terracotta
+tile.hardened_clay_magenta.11.desc=Sunken Magenta Terracotta Panel
+tile.hardened_clay_magenta.12.desc=Fancy Magenta Terracotta Bricks
+tile.hardened_clay_magenta.13.desc=Fancy Magenta Terracotta Tiles
+tile.hardened_clay_magenta.14.desc=Magenta Terracotta Layers
+tile.hardened_clay_magenta.15.desc=Magenta Terracotta Mosaic
+tile.hardened_clay_magenta.16.desc=Small Ornate Magenta Terracotta
+tile.hardened_clay_magenta.17.desc=Magenta Terracotta Large Tile
+tile.hardened_clay_magenta.18.desc=Magenta Terracotta Pillar
+tile.hardened_clay_magenta.19.desc=Prismatic Magenta Terracotta
+tile.hardened_clay_magenta.20.desc=Magenta Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_magenta.21.desc=Magenta Terracotta Panel
+tile.hardened_clay_magenta.22.desc=Small Magenta Terracotta Blocks
+tile.hardened_clay_magenta.23.desc=Small Magenta Terracotta Tiles
+tile.hardened_clay_magenta.24.desc=Radial Carved Magenta Terracotta
+tile.hardened_clay_magenta.25.desc=Engraved Magenta Terracotta Block
+
+#Hardened Clay (Orange Terracotta)
+tile.chisel.hardened_clay_orange.name=Orange Terracotta
+tile.chisel.hardened_clay_orange2.name=Orange Terracotta
+tile.hardened_clay_orange.0.desc=Braid Orange Terracotta Bricks
+tile.hardened_clay_orange.1.desc=Cracked Orange Terracotta Bricks
+tile.hardened_clay_orange.2.desc=Small Orange Terracotta Brick Tiles
+tile.hardened_clay_orange.3.desc=Small Orange Terracotta Bricks
+tile.hardened_clay_orange.4.desc=Aligned Orange Terracotta Bricks
+tile.hardened_clay_orange.5.desc=Detailed Orange Terracotta Bricks
+tile.hardened_clay_orange.6.desc=Wide Orange Terracotta Bricks
+tile.hardened_clay_orange.7.desc=Chaotic Small Orange Terracotta Bricks
+tile.hardened_clay_orange.8.desc=Small Disordered Orange Terracotta Bricks
+tile.hardened_clay_orange.9.desc=Ornate Orange Terracotta
+tile.hardened_clay_orange.10.desc=Cracked Orange Terracotta
+tile.hardened_clay_orange.11.desc=Sunken Orange Terracotta Panel
+tile.hardened_clay_orange.12.desc=Fancy Orange Terracotta Bricks
+tile.hardened_clay_orange.13.desc=Fancy Orange Terracotta Tiles
+tile.hardened_clay_orange.14.desc=Orange Terracotta Layers
+tile.hardened_clay_orange.15.desc=Orange Terracotta Mosaic
+tile.hardened_clay_orange.16.desc=Small Ornate Orange Terracotta
+tile.hardened_clay_orange.17.desc=Orange Terracotta Large Tile
+tile.hardened_clay_orange.18.desc=Orange Terracotta Pillar
+tile.hardened_clay_orange.19.desc=Prismatic Orange Terracotta
+tile.hardened_clay_orange.20.desc=Orange Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_orange.21.desc=Orange Terracotta Panel
+tile.hardened_clay_orange.22.desc=Small Orange Terracotta Blocks
+tile.hardened_clay_orange.23.desc=Small Orange Terracotta Tiles
+tile.hardened_clay_orange.24.desc=Radial Carved Orange Terracotta
+tile.hardened_clay_orange.25.desc=Engraved Orange Terracotta Block
+
+#Hardened Clay (Pink Terracotta)
+tile.chisel.hardened_clay_pink.name=Pink Terracotta
+tile.chisel.hardened_clay_pink2.name=Pink Terracotta
+tile.hardened_clay_pink.0.desc=Braid Pink Terracotta Bricks
+tile.hardened_clay_pink.1.desc=Cracked Pink Terracotta Bricks
+tile.hardened_clay_pink.2.desc=Small Pink Terracotta Brick Tiles
+tile.hardened_clay_pink.3.desc=Small Pink Terracotta Bricks
+tile.hardened_clay_pink.4.desc=Aligned Pink Terracotta Bricks
+tile.hardened_clay_pink.5.desc=Detailed Pink Terracotta Bricks
+tile.hardened_clay_pink.6.desc=Wide Pink Terracotta Bricks
+tile.hardened_clay_pink.7.desc=Chaotic Small Pink Terracotta Bricks
+tile.hardened_clay_pink.8.desc=Small Disordered Pink Terracotta Bricks
+tile.hardened_clay_pink.9.desc=Ornate Pink Terracotta
+tile.hardened_clay_pink.10.desc=Cracked Pink Terracotta
+tile.hardened_clay_pink.11.desc=Sunken Pink Terracotta Panel
+tile.hardened_clay_pink.12.desc=Fancy Pink Terracotta Bricks
+tile.hardened_clay_pink.13.desc=Fancy Pink Terracotta Tiles
+tile.hardened_clay_pink.14.desc=Pink Terracotta Layers
+tile.hardened_clay_pink.15.desc=Pink Terracotta Mosaic
+tile.hardened_clay_pink.16.desc=Small Ornate Pink Terracotta
+tile.hardened_clay_pink.17.desc=Pink Terracotta Large Tile
+tile.hardened_clay_pink.18.desc=Pink Terracotta Pillar
+tile.hardened_clay_pink.19.desc=Prismatic Pink Terracotta
+tile.hardened_clay_pink.20.desc=Pink Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_pink.21.desc=Pink Terracotta Panel
+tile.hardened_clay_pink.22.desc=Small Pink Terracotta Blocks
+tile.hardened_clay_pink.23.desc=Small Pink Terracotta Tiles
+tile.hardened_clay_pink.24.desc=Radial Carved Pink Terracotta
+tile.hardened_clay_pink.25.desc=Engraved Pink Terracotta Block
+
+#Hardened Clay (Purple Terracotta)
+tile.chisel.hardened_clay_purple.name=Purple Terracotta
+tile.chisel.hardened_clay_purple2.name=Purple Terracotta
+tile.hardened_clay_purple.0.desc=Braid Purple Terracotta Bricks
+tile.hardened_clay_purple.1.desc=Cracked Purple Terracotta Bricks
+tile.hardened_clay_purple.2.desc=Small Purple Terracotta Brick Tiles
+tile.hardened_clay_purple.3.desc=Small Purple Terracotta Bricks
+tile.hardened_clay_purple.4.desc=Aligned Purple Terracotta Bricks
+tile.hardened_clay_purple.5.desc=Detailed Purple Terracotta Bricks
+tile.hardened_clay_purple.6.desc=Wide Purple Terracotta Bricks
+tile.hardened_clay_purple.7.desc=Chaotic Small Purple Terracotta Bricks
+tile.hardened_clay_purple.8.desc=Small Disordered Purple Terracotta Bricks
+tile.hardened_clay_purple.9.desc=Ornate Purple Terracotta
+tile.hardened_clay_purple.10.desc=Cracked Purple Terracotta
+tile.hardened_clay_purple.11.desc=Sunken Purple Terracotta Panel
+tile.hardened_clay_purple.12.desc=Fancy Purple Terracotta Bricks
+tile.hardened_clay_purple.13.desc=Fancy Purple Terracotta Tiles
+tile.hardened_clay_purple.14.desc=Purple Terracotta Layers
+tile.hardened_clay_purple.15.desc=Purple Terracotta Mosaic
+tile.hardened_clay_purple.16.desc=Small Ornate Purple Terracotta
+tile.hardened_clay_purple.17.desc=Purple Terracotta Large Tile
+tile.hardened_clay_purple.18.desc=Purple Terracotta Pillar
+tile.hardened_clay_purple.19.desc=Prismatic Purple Terracotta
+tile.hardened_clay_purple.20.desc=Purple Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_purple.21.desc=Purple Terracotta Panel
+tile.hardened_clay_purple.22.desc=Small Purple Terracotta Blocks
+tile.hardened_clay_purple.23.desc=Small Purple Terracotta Tiles
+tile.hardened_clay_purple.24.desc=Radial Carved Purple Terracotta
+tile.hardened_clay_purple.25.desc=Engraved Purple Terracotta Block
+
+#Hardened Clay (Red Terracotta)
+tile.chisel.hardened_clay_red.name=Red Terracotta
+tile.chisel.hardened_clay_red2.name=Red Terracotta
+tile.hardened_clay_red.0.desc=Braid Red Terracotta Bricks
+tile.hardened_clay_red.1.desc=Cracked Red Terracotta Bricks
+tile.hardened_clay_red.2.desc=Small Red Terracotta Brick Tiles
+tile.hardened_clay_red.3.desc=Small Red Terracotta Bricks
+tile.hardened_clay_red.4.desc=Aligned Red Terracotta Bricks
+tile.hardened_clay_red.5.desc=Detailed Red Terracotta Bricks
+tile.hardened_clay_red.6.desc=Wide Red Terracotta Bricks
+tile.hardened_clay_red.7.desc=Chaotic Small Red Terracotta Bricks
+tile.hardened_clay_red.8.desc=Small Disordered Red Terracotta Bricks
+tile.hardened_clay_red.9.desc=Ornate Red Terracotta
+tile.hardened_clay_red.10.desc=Cracked Red Terracotta
+tile.hardened_clay_red.11.desc=Sunken Red Terracotta Panel
+tile.hardened_clay_red.12.desc=Fancy Red Terracotta Bricks
+tile.hardened_clay_red.13.desc=Fancy Red Terracotta Tiles
+tile.hardened_clay_red.14.desc=Red Terracotta Layers
+tile.hardened_clay_red.15.desc=Red Terracotta Mosaic
+tile.hardened_clay_red.16.desc=Small Ornate Red Terracotta
+tile.hardened_clay_red.17.desc=Red Terracotta Large Tile
+tile.hardened_clay_red.18.desc=Red Terracotta Pillar
+tile.hardened_clay_red.19.desc=Prismatic Red Terracotta
+tile.hardened_clay_red.20.desc=Red Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_red.21.desc=Red Terracotta Panel
+tile.hardened_clay_red.22.desc=Small Red Terracotta Blocks
+tile.hardened_clay_red.23.desc=Small Red Terracotta Tiles
+tile.hardened_clay_red.24.desc=Radial Carved Red Terracotta
+tile.hardened_clay_red.25.desc=Engraved Red Terracotta Block
+
+#Hardened Clay (White Terracotta)
+tile.chisel.hardened_clay_white.name=White Terracotta
+tile.chisel.hardened_clay_white2.name=White Terracotta
+tile.hardened_clay_white.0.desc=Braid White Terracotta Bricks
+tile.hardened_clay_white.1.desc=Cracked White Terracotta Bricks
+tile.hardened_clay_white.2.desc=Small White Terracotta Brick Tiles
+tile.hardened_clay_white.3.desc=Small White Terracotta Bricks
+tile.hardened_clay_white.4.desc=Aligned White Terracotta Bricks
+tile.hardened_clay_white.5.desc=Detailed White Terracotta Bricks
+tile.hardened_clay_white.6.desc=Wide White Terracotta Bricks
+tile.hardened_clay_white.7.desc=Chaotic Small White Terracotta Bricks
+tile.hardened_clay_white.8.desc=Small Disordered White Terracotta Bricks
+tile.hardened_clay_white.9.desc=Ornate White Terracotta
+tile.hardened_clay_white.10.desc=Cracked White Terracotta
+tile.hardened_clay_white.11.desc=Sunken White Terracotta Panel
+tile.hardened_clay_white.12.desc=Fancy White Terracotta Bricks
+tile.hardened_clay_white.13.desc=Fancy White Terracotta Tiles
+tile.hardened_clay_white.14.desc=White Terracotta Layers
+tile.hardened_clay_white.15.desc=White Terracotta Mosaic
+tile.hardened_clay_white.16.desc=Small Ornate White Terracotta
+tile.hardened_clay_white.17.desc=White Terracotta Large Tile
+tile.hardened_clay_white.18.desc=White Terracotta Pillar
+tile.hardened_clay_white.19.desc=Prismatic White Terracotta
+tile.hardened_clay_white.20.desc=White Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_white.21.desc=White Terracotta Panel
+tile.hardened_clay_white.22.desc=Small White Terracotta Blocks
+tile.hardened_clay_white.23.desc=Small White Terracotta Tiles
+tile.hardened_clay_white.24.desc=Radial Carved White Terracotta
+tile.hardened_clay_white.25.desc=Engraved White Terracotta Block
+
+#Hardened Clay (Yellow Terracotta)
+tile.chisel.hardened_clay_yellow.name=Yellow Terracotta
+tile.chisel.hardened_clay_yellow2.name=Yellow Terracotta
+tile.hardened_clay_yellow.0.desc=Braid Yellow Terracotta Bricks
+tile.hardened_clay_yellow.1.desc=Cracked Yellow Terracotta Bricks
+tile.hardened_clay_yellow.2.desc=Small Yellow Terracotta Brick Tiles
+tile.hardened_clay_yellow.3.desc=Small Yellow Terracotta Bricks
+tile.hardened_clay_yellow.4.desc=Aligned Yellow Terracotta Bricks
+tile.hardened_clay_yellow.5.desc=Detailed Yellow Terracotta Bricks
+tile.hardened_clay_yellow.6.desc=Wide Yellow Terracotta Bricks
+tile.hardened_clay_yellow.7.desc=Chaotic Small Yellow Terracotta Bricks
+tile.hardened_clay_yellow.8.desc=Small Disordered Yellow Terracotta Bricks
+tile.hardened_clay_yellow.9.desc=Ornate Yellow Terracotta
+tile.hardened_clay_yellow.10.desc=Cracked Yellow Terracotta
+tile.hardened_clay_yellow.11.desc=Sunken Yellow Terracotta Panel
+tile.hardened_clay_yellow.12.desc=Fancy Yellow Terracotta Bricks
+tile.hardened_clay_yellow.13.desc=Fancy Yellow Terracotta Tiles
+tile.hardened_clay_yellow.14.desc=Yellow Terracotta Layers
+tile.hardened_clay_yellow.15.desc=Yellow Terracotta Mosaic
+tile.hardened_clay_yellow.16.desc=Small Ornate Yellow Terracotta
+tile.hardened_clay_yellow.17.desc=Yellow Terracotta Large Tile
+tile.hardened_clay_yellow.18.desc=Yellow Terracotta Pillar
+tile.hardened_clay_yellow.19.desc=Prismatic Yellow Terracotta
+tile.hardened_clay_yellow.20.desc=Yellow Terracotta Bricks in a Fancy Arrangement
+tile.hardened_clay_yellow.21.desc=Yellow Terracotta Panel
+tile.hardened_clay_yellow.22.desc=Small Yellow Terracotta Blocks
+tile.hardened_clay_yellow.23.desc=Small Yellow Terracotta Tiles
+tile.hardened_clay_yellow.24.desc=Radial Carved Yellow Terracotta
+tile.hardened_clay_yellow.25.desc=Engraved Yellow Terracotta Block
+
+#Technical Block
+tile.chisel.technical.name=Technischer Block
+tile.chisel.technical2.name=Transparenter technischer Block
+tile.chisel.technical3.name=Industrieller technischer Block
+tile.chisel.technical4.name=Technischer Block
+tile.technical.0.desc=Gerüst
+tile.technical.1.desc=Platten mit Warnband
+tile.technical.2.desc=Eine altes Relikt aus dem Land der Oneteufy
+tile.technical.3.desc=Untergrundrohr (groß)
+tile.technical.4.desc=Lüfter (Schnell)
+tile.technical.5.desc=Untergrundrohr (klein)
+tile.technical.6.desc=Lüfter (Aus)
+tile.technical.7.desc=Schlitze
+tile.technical.8.desc=Leuchtende Schlitze
+tile.technical.9.desc=Isolierung
+tile.technical.10.desc=Zahnräder und Schwungräder
+tile.technical.11.desc=Kabel
+tile.technical.12.desc=Rostige Tafel
+tile.technical.13.desc=Gitter
+tile.technical.14.desc=Lüfter (Fehlfunktion)
+tile.technical.15.desc=Rostiges Gitter
+tile.technical3.0.desc=Ich bin ein großer Fan von dieser massiven Lüfter!
+tile.technical3.1.desc=Industrielles Rüstungsteil
+tile.technical4.0.desc=Korrodierte Metallteile
+tile.technical4.1.desc=Verrostete Metallteile
+tile.technical4.2.desc=Robust
+tile.technical4.3.desc=MegaCell™-Batterie
+tile.technical4.4.desc=Thermal Exhaust-Platten
+tile.technical4.5.desc=Behelfsmäßige Platten
+tile.technical4.6.desc=Rohrtraum
+tile.technical4.7.desc=Abgenutzter Beton
+tile.technical4.8.desc=Cinder Block
+tile.technical4.9.desc=Cinder Block (Polished)
+tile.technical4.10.desc=Cinder Brick
+tile.technical4.11.desc=Cardboard Box
+tile.technical4.12.desc=Folded Cardboard
+tile.technical4.13.desc=Cardboard Scrap
+tile.technical4.16.desc=Bandlaufwerk? (Dafür bin ich zu jung)
+
+#End Stone
+tile.chisel.end_Stone.name=Endstein
+tile.end_Stone.0.desc=Endsteinziegel
+tile.end_Stone.1.desc=Chaotische Endsteinziegel
+tile.end_Stone.2.desc=Karierte Fliesen
+tile.end_Stone.3.desc=Ender-Schaltkreis
+tile.end_Stone.4.desc=Fantasievolle Ziegel
+tile.end_Stone.5.desc=Endsteinsäule
+tile.end_Stone.6.desc=Verätzter Endstein
+tile.end_Stone.7.desc=Prismatischer Endstein
+tile.end_Stone.8.desc=Endsteinbrocken
+tile.end_Stone.9.desc=Eingerahmter Endsteinbrocken
+tile.end_Stone.10.desc=Arkaner Endsteinblock
+tile.end_Stone.11.desc=Eingerahmter Endstein
+tile.end_Stone.12.desc=Endstein-Ornament
+tile.end_Stone.13.desc=Große Endsteinfliesen
+
+#Purpur
+tile.chisel.purpur.name=Purpurblock
+tile.purpur.0.desc=Mittelgroße Fliesen
+tile.purpur.1.desc=Säule
+tile.purpur.2.desc=Kein Shulker
+tile.purpur.3.desc=Kleine Fliesen
+tile.purpur.4.desc=Kaputte kleine Fliesen
+tile.purpur.5.desc=Prismatischer Purpur
+tile.purpur.6.desc=Grobe Ziegel
+tile.purpur.7.desc=Gebrochene Oberfläche
+tile.purpur.8.desc=Arkaner Purpurblock
+tile.purpur.9.desc=Große Purpurfliesen
+tile.purpur.10.desc=Purpur-Ornament
+
+#Metal Blocks
+tile.chisel.aluminumblock.name=Aluminiumblock
+tile.chisel.bronzeblock.name=Bronzeblock
+tile.chisel.copperblock.name=Kupferblock
+tile.chisel.gold2.name=Goldblock
+tile.chisel.iron2.name=Eisenblock
+tile.chisel.leadblock.name=Bleiblock
+tile.chisel.silverblock.name=Silberblock
+tile.chisel.steelblock.name=Stahlblock
+tile.chisel.tinblock.name=Zinnblock
+tile.chisel.uraniumblock.name=Uranblock
+tile.metalOre.0.desc=Vorsicht-Streifen
+tile.metalOre.1.desc=Transportkiste
+tile.metalOre.2.desc=Wärne
+tile.metalOre.3.desc=Eine altes Relikt aus dem Land der Oneteufy
+tile.metalOre.4.desc=Unerhört eingefaßter Block
+tile.metalOre.5.desc=Fantasievoll verschraubte Teile
+
+#Stairs
+tile.chisel.aluminum_stairs.0.name=Aluminium-Treppen
+tile.chisel.aluminum_stairs.1.name=Aluminium-Treppen
+tile.chisel.aluminum_stairs.2.name=Aluminium-Treppen
+
+#Present Chest
+tile.chisel.present.name=Geschenk
+tile.chisel.present.desc=Eine lustige Geschenkbox
+
+#Brick
+tile.chisel.brickCustom.name=Ziegelblock
+tile.brickCustom.1.desc=Große Ziegel
+tile.brickCustom.2.desc=Gemauerte Ziegel
+tile.brickCustom.3.desc=Verschiedene Ziegel
+tile.brickCustom.5.desc=Alte Ziegel
+tile.brickCustom.6.desc=Gelbe Ziegel
+
+#Chisel 1
+
+#Cobblestone Blocks
+tile.chisel.cobblestone.name=Bruchstein
+tile.cobblestone.0.desc=Ausgerichtete Bruchsteinziegel
+tile.cobblestone.1.desc=Detaillierte Bruchsteinziegel
+tile.cobblestone.2.desc=Kleine Bruchsteinziegel
+tile.cobblestone.3.desc=Große Bruchsteinfliesen
+tile.cobblestone.4.desc=Kleine Bruchsteinfliesen
+tile.cobblestone.5.desc=Französische Bruchsteinfliesen
+tile.cobblestone.6.desc=Französische Bruchsteinfliesen
+tile.cobblestone.7.desc=Creeper-Bruchsteinfliesen
+tile.cobblestone.8.desc=Beschädigte Bruchsteinfliesen
+tile.cobblestone.9.desc=Riesige Bruchsteinfliesen
+tile.cobblestone.10.desc=Bruchstein mit Creeper-Tafel
+tile.cobblestone.11.desc=Bruchstein mit Delle
+tile.cobblestone.12.desc=Bruchstein mit Tafel
+tile.cobblestone.13.desc=Bruchstein mit leuchtender Tafel
+tile.cobblestone.14.desc=Bruchstein mit dunkler Tafel
+
+#Marble Blocks
+tile.chisel.marble.name=Marmor
+tile.marble.0.desc=Roher Marmor
+tile.marble.1.desc=Marmorziegel
+tile.marble.2.desc=Klassiche Marmortafel
+tile.marble.3.desc=Gemeißelte Marmortafel
+tile.marble.4.desc=Marmortafel
+tile.marble.5.desc=Marmorblock
+tile.marble.6.desc=Dunkler Creeper-Marmor
+tile.marble.7.desc=Leuchtender Creeper-Marmor
+tile.marble.8.desc=Geschnitzter Marmor
+tile.marble.9.desc=Rund geschnitzter Marmor
+tile.marble.10.desc=Marmor mit Dellen
+tile.marble.11.desc=Marmor mit großen Dellen
+tile.marble.12.desc=Marmorfliesen
+tile.marble.13.desc=Angeordnete Marmorfliesen
+tile.marble.14.desc=Fantasievolle Marmorfliesen
+tile.marble.15.desc=Marmorblöcke
+
+#Marble Slabs
+tile.chisel.marble_slab.name=Marmorstufe
+tile.marbleSlab.0.desc=Rohe Marmorstufe
+tile.marbleSlab.1.desc=Stufe mit Marmorziegeln
+tile.marbleSlab.2.desc=Klassische Marmorstufe
+tile.marbleSlab.3.desc=Gemeißelte Marmorstufe
+tile.marbleSlab.4.desc=Stufe mit Marmorfliesen
+tile.marbleSlab.5.desc=Marmorblockstufe
+tile.marbleSlab.6.desc=Marmorstufe mit dunklem Creeper
+tile.marbleSlab.7.desc=Marmorstufe mit leuchtendem Creeper
+tile.marbleSlab.8.desc=Geschnitzte Marmorstufe
+tile.marbleSlab.9.desc=Rund geschnitzte Marmorstufe
+tile.marbleSlab.10.desc=Marmorstufe mit Dellen
+tile.marbleSlab.11.desc=Marmorstufe mit großen Dellen
+tile.marbleSlab.12.desc=Marmorstufe mit Fliesen
+tile.marbleSlab.13.desc=Angeordnete Marmorfliesenstufe
+tile.marbleSlab.14.desc=Fantasievolle Marmorfliesenstufe
+tile.marbleSlab.15.desc=Stufe mit Marmorblöcken
+
+#Marble Pillars (old)
+tile.chisel.marble_pillar.name=Marmorsäule
+tile.marblePillarOld.0.desc=Marmorsäule
+tile.marblePillarOld.1.desc=Marmorsäulen-Schlussstein
+tile.marblePillarOld.2.desc=Marmorsäulen-Basis
+tile.marblePillarOld.3.desc=Schmale Marmorsäule
+tile.marblePillarOld.4.desc=Verzierte Marmorsäule
+tile.marblePillarOld.5.desc=Dekorative Marmorsäule
+tile.marblePillarOld.6.desc=Griechische Marmorsäule
+tile.marblePillarOld.7.desc=Glatte Marmorsäule
+tile.marblePillarOld.8.desc=Griechischer Marmorsäulen-Schlussstein
+tile.marblePillarOld.9.desc=Glatter Marmorsäulen-Schlussstein
+tile.marblePillarOld.10.desc=Griechische Marmorsäulen-Basis
+tile.marblePillarOld.11.desc=Glatte Marmorsäulen-Basis
+tile.marblePillarOld.12.desc=Griechischer gemeißelter Marmorsäulen-Schlussstein
+tile.marblePillarOld.13.desc=Glatter gemeißelter Marmorsäulen-Schlussstein
+tile.marblePillarOld.14.desc=Griechische gemeißelte Marmorsäulen-Basis
+tile.marblePillarOld.15.desc=Glatte gemeißelte Marmorsäulen-Basis
+
+#Marble Pillars (current)
+tile.marblePillar.0.desc=Marmorsäule
+tile.marblePillar.1.desc=Originale Marmorsäule
+tile.marblePillar.2.desc=Einfache Marmorsäule
+tile.marblePillar.3.desc=Gewölbte Marmorsäule
+tile.marblePillar.4.desc=Raue Marmorsäule
+tile.marblePillar.5.desc=Griechische Marmorsäule mit gemeißeltem Schlussstein
+tile.marblePillar.6.desc=Griechisch Marmorsäule
+tile.marblePillar.7.desc=Griechisch Marmorsäule mit glattem Schlussstein
+tile.marblePillar.8.desc=Glatte Marmorsäule mit gemeißeltem Schlussstein
+tile.marblePillar.9.desc=Glatte Marmorsäule mit griechischem Schlussstein
+tile.marblePillar.10.desc=Glatte Marmorsäule
+tile.marblePillar.11.desc=Breite Marmorsäule mit gemeißeltem Schlussstein
+tile.marblePillar.12.desc=Breite Marmorsäule mit griechischem Schlussstein
+tile.marblePillar.13.desc=Breite Marmorsäule mit glattem Schlussstein
+tile.marblePillar.14.desc=Verzierter Säulenschlussstein
+tile.marblePillar.15.desc=Dekorativer Säulenschlussstein
+
+#Marble Slabs (old)
+tile.chisel.marble_pillar_slab.name=Marmorsäulenstufe
+tile.marblePillarSlabOld.0.desc=Marmorsäulenstufe
+tile.marblePillarSlabOld.1.desc=Marmorsäulen-Schlusssteinstufe
+tile.marblePillarSlabOld.2.desc=Marmorsäulen-Basisstufe
+tile.marblePillarSlabOld.3.desc=Schmale Marmorsäulenstufe
+tile.marblePillarSlabOld.4.desc=Verzierte Marmorsäulenstufe
+tile.marblePillarSlabOld.5.desc=Dekorative Marmorsäulenstufe
+tile.marblePillarSlabOld.6.desc=Griechische Marmorsäulenstufe
+tile.marblePillarSlabOld.7.desc=Glatte Marmorsäulenstufe
+tile.marblePillarSlabOld.8.desc=Griechische Marmorsäulen-Schlusssteinstufe
+tile.marblePillarSlabOld.9.desc=Glatte Marmorsäulen-Schlusssteinstufe
+tile.marblePillarSlabOld.10.desc=Griechische Marmorsäulen-Basisstufe
+tile.marblePillarSlabOld.11.desc=Glatte Marmorsäulen-Basisstufe
+tile.marblePillarSlabOld.12.desc=Griechische Marmorsäule mit gemeißelter Schlusssteinstufe
+tile.marblePillarSlabOld.13.desc=Glatte Marmorsäule mit gemeißelter Schlusssteinstufe
+tile.marblePillarSlabOld.14.desc=Griechische Marmorsäule mit gemeißelter Basisstufe
+tile.marblePillarSlabOld.15.desc=Glatte Marmorsäule mit gemeißelter Basisstufe
+
+#Marble Slabs (current)
+tile.marblePillarSlab.0.desc=Marmorsäulenstufe
+tile.marblePillarSlab.1.desc=Originale Marmorsäulenstufe
+tile.marblePillarSlab.2.desc=Einfache Marmorsäulenstufe
+tile.marblePillarSlab.3.desc=Gewölbte Marmorsäulenstufe
+tile.marblePillarSlab.4.desc=Raue Marmorsäulenstufe
+tile.marblePillarSlab.5.desc=Griechische Marmorsäulenstufe mit gemeißeltem Schlussstein
+tile.marblePillarSlab.6.desc=Griechische Marmorsäulenstufe
+tile.marblePillarSlab.7.desc=Griechische Marmorsäulenstufe mit glattem Schlussstein
+tile.marblePillarSlab.8.desc=Glatte Marmorsäulenstufe mit gemeißeltem Schlussstein
+tile.marblePillarSlab.9.desc=Glatte Marmorsäulenstufe mit griechischem Schlussstein
+tile.marblePillarSlab.10.desc=Glatte Marmorsäulenstufe
+tile.marblePillarSlab.11.desc=Breite Marmorsäulenstufe mit gemeißeltem Schlussstein
+tile.marblePillarSlab.12.desc=Breite Marmorsäulenstufe mit griechischem Schlussstein
+tile.marblePillarSlab.13.desc=Breite Marmorsäulenstufe mit glattem Schlussstein
+tile.marblePillarSlab.14.desc=Verzierte Säulenschlusssteinstufe
+tile.marblePillarSlab.15.desc=Dekorative Säulenschlusssteinstufe
+
+#Marble Stairs
+#The same name goes here 8 different times since stairs take up 8 block positions.
+#Sorry!  It was the only way!
+tile.chisel.marble_stairs.0.name=Marmortreppe
+tile.chisel.marble_stairs.1.name=Marmortreppe
+tile.chisel.marble_stairs.2.name=Marmortreppe
+tile.chisel.marble_stairs.3.name=Marmortreppe
+tile.chisel.marble_stairs.4.name=Marmortreppe
+tile.chisel.marble_stairs.5.name=Marmortreppe
+tile.chisel.marble_stairs.6.name=Marmortreppe
+tile.chisel.marble_stairs.7.name=Marmortreppe
+
+#These are bugged.... so sad :,(
+tile.marbleStairs.0.desc=Rohe Marmortreppe
+tile.marbleStairs.1.desc=Marmorziegeltreppe
+tile.marbleStairs.2.desc=Klassische Marmorfliesentreppe
+tile.marbleStairs.3.desc=Gemeißelte Marmorfliesentreppe
+tile.marbleStairs.4.desc=Marmorfliesentreppe
+tile.marbleStairs.5.desc=Marmorblocktreppe
+tile.marbleStairs.6.desc=Dunkle Creeper-Marmortreppe
+tile.marbleStairs.7.desc=Leuchtende Creeper-Marmortreppe
+tile.marbleStairs.8.desc=Geschnitzte Marmortreppe
+tile.marbleStairs.9.desc=Rund geschnitzte Marmortreppe
+tile.marbleStairs.10.desc=Marmortreppe mit Delle
+tile.marbleStairs.11.desc=Marmortreppe mit großer Delle
+tile.marbleStairs.12.desc=Marmorfliesentreppe
+tile.marbleStairs.13.desc=Angeordnete Marmorfliesentreppe
+tile.marbleStairs.14.desc=Fantasievolle Marmorfliesentreppe
+tile.marbleStairs.15.desc=Marmorblocktreppe
+
+#Limestone
+tile.chisel.limestone.name=Kalkstein
+tile.limestone.0.desc=Hellgrüner Stein
+tile.limestone.1.desc=Schmale hellgrüne Steinfliesen
+tile.limestone.2.desc=Französische hellgrüne Steinfliesen
+tile.limestone.3.desc=Französische hellgrüne Steinfliesen
+tile.limestone.4.desc=Hellgrüne Steinfliesen mit Creeper
+tile.limestone.5.desc=Schmale hellgrüne Steinziegel
+tile.limestone.6.desc=Zerbrochene hellgrüne Steinfliesen
+tile.limestone.7.desc=Glatter hellgrüner Stein
+tile.limestone.8.desc=Hellgrüner Stein mit gemeißelten Fliesen
+tile.limestone.9.desc=Hellgrüner Stein mit gravierten gemeißelten Fliesen
+tile.limestone.10.desc=Hellgrüner Stein mit Creeper-Fliesen
+tile.limestone.11.desc=Hellgrüner Stein mit Delle
+tile.limestone.12.desc=Hellgrüner Stein mit Fliesen
+tile.limestone.13.desc=Große hellgrüne Steinfliesen
+tile.limestone.14.desc=Hellgrüner Stein mit leuchtenden Fliesen
+tile.limestone.15.desc=Hellgrüner Stein mit Dunklen Fliesen
+
+#Limestone Slabs
+tile.chisel.limestone_slab.name=Hellgrüne Steinstufe
+tile.limestoneSlab.0.desc=Hellgrüne Steinstufe
+tile.limestoneSlab.1.desc=Schmale hellgrüne Steinfliesenstufe
+tile.limestoneSlab.2.desc=Französische hellgrüne Steinfliesenstufe
+tile.limestoneSlab.3.desc=Französische hellgrüne Steinfliesenstufe
+tile.limestoneSlab.4.desc=Hellgrüne Steinfliesenstufe mit Creeper
+tile.limestoneSlab.5.desc=Schmale hellgrüne Steinziegelstufe
+tile.limestoneSlab.6.desc=Zerbrochene hellgrüne Steinfliessenstufe
+tile.limestoneSlab.7.desc=Glatte hellgrüne Steinstufe
+tile.limestoneSlab.8.desc=Hellgrüne Steinstufe mit Fliesen
+tile.limestoneSlab.9.desc=Hellgrüne Steinstufe mit gemeißelten Fliesen
+tile.limestoneSlab.10.desc=Hellgrüne Steinstufe mit Creeper Fliese
+tile.limestoneSlab.11.desc=Hellgrüne Steinstufe mit Delle
+tile.limestoneSlab.12.desc=Hellgrüne Steinstufe mit Fliesen
+tile.limestoneSlab.13.desc=Große hellgrüne Steinfliesenstufe
+tile.limestoneSlab.14.desc=Hellgrüne Steinstufe mit leuchtenden Fliesen
+tile.limestoneSlab.15.desc=Hellgrüne Steinstufe mit dunklen Fliesen
+
+#Limestone Stairs
+#The same name goes here 8 different times since stairs take up 8 block positions.
+#Sorry!  It was the only way!
+tile.chisel.limestone_stairs.0.name=Hellgrüne Steintreppe
+tile.chisel.limestone_stairs.1.name=Hellgrüne Steintreppe
+tile.chisel.limestone_stairs.2.name=Hellgrüne Steintreppe
+tile.chisel.limestone_stairs.3.name=Hellgrüne Steintreppe
+tile.chisel.limestone_stairs.4.name=Hellgrüne Steintreppe
+tile.chisel.limestone_stairs.5.name=Hellgrüne Steintreppe
+tile.chisel.limestone_stairs.6.name=Hellgrüne Steintreppe
+tile.chisel.limestone_stairs.7.name=Hellgrüne Steintreppe
+
+#These are bugged.... so sad :,(
+tile.limestoneStairs.0.desc=Hellgrüne Steintreppe
+tile.limestoneStairs.1.desc=Schmale hellgrüne Steinfliesentreppe
+tile.limestoneStairs.2.desc=Französische hellgrüne Steinfliesentreppe
+tile.limestoneStairs.3.desc=Französische hellgrüne Steinfliesentreppe
+tile.limestoneStairs.4.desc=Hellgrüne Steinfliesentreppe mit Creeper
+tile.limestoneStairs.5.desc=Schmale hellgrüne Steinziegeltreppe
+tile.limestoneStairs.6.desc=Zerbrochene hellgrüne Steinfliesentreppe
+tile.limestoneStairs.7.desc=Glatte hellgrüne Steintreppe
+tile.limestoneStairs.8.desc=Hellgrüne Steintreppe mit gemeißelten Fliesen
+tile.limestoneStairs.9.desc=Hellgrüne Steintreppe mit gemeißelten Fliesen
+tile.limestoneStairs.10.desc=Hellgrüne Steintreppe mit Creeper-Fliesen
+tile.limestoneStairs.11.desc=Hellgrüne Steintreppe mit Delle
+tile.limestoneStairs.12.desc=Hellgrüne Steintreppe mit Fliesen
+tile.limestoneStairs.13.desc=Große hellgrüne Steinfliesentreppe
+tile.limestoneStairs.14.desc=Hellgrüne Steintreppe mit leuchtenden Fliesen
+tile.limestoneStairs.15.desc=Hellgrüne Steintreppe mit dunklen Fliesen
+
+#Factory Blocks
+tile.chisel.factoryblock.name=Fabrikblock
+tile.factory.0.desc=Rostige Metallplatte mit Nieten
+tile.factory.1.desc=Rostige Metallplatte
+tile.factory.2.desc=Sehr rostige Metallplatte
+tile.factory.3.desc=Eine Metallplatte mit ein wenig Rost
+tile.factory.4.desc=Drahtgitter
+tile.factory.5.desc=Drahtgitter mit lila Schatten
+tile.factory.6.desc=Gelb-Schwarzer Gefahrenblock
+tile.factory.7.desc=Orange-Weißer Gefahrenblock
+tile.factory.8.desc=Fantasievoller Schaltungsblock
+tile.factory.9.desc=Fantasievolle Metallbox
+tile.factory.10.desc=Vergoldeter fantasievoller Schaltungsblock
+tile.factory.11.desc=Vergoldeter rostiger violetter Block
+tile.factory.12.desc=Silberner Metallbaukasten-Block
+tile.factory.13.desc=Abgenutzte Metallwand mit Lüftungsöffnungen
+tile.factory.14.desc=Rostige Metallplatte
+tile.factory.15.desc=Abgenutzte Metallsäule
+
+tile.chisel.factoryblock2.name=Fabrikblock
+tile.factory2.0.desc=Neonblaue Teile
+tile.factory2.1.desc=Vertikale Entlüftung
+tile.factory2.2.desc=Metallblaue Schaltkreise
+tile.factory2.3.desc=Blaues Drahtgitter
+
+#Diamond blocks
+tile.chisel.diamond_block.name=Diamantblock
+tile.diamond.1.desc=Geprägter Diamantblock
+tile.diamond.2.desc=Diamantblock mit Fliesen
+tile.diamond.3.desc=Diamantzellen
+tile.diamond.4.desc=Diamant mit violettem Obsidian
+tile.diamond.5.desc=Diamant mit Obsidian
+tile.diamond.6.desc=Einfacher Diamantblock
+tile.diamond.7.desc=Bismuth-Diamantblock
+tile.diamond.8.desc=Zerbrochener Diamant
+tile.diamond.9.desc=Schmaler Diamantblock
+tile.diamond.10.desc=Schmaler gemeißelter Diamantblock
+tile.diamond.11.desc=Zelda Diamantblock
+tile.diamond.12.desc=Diamantblock mit gemeißelten Teilen
+
+#Snakestone
+tile.chisel.snakestoneSand.name=Sandschlangenstein
+tile.chisel.snakestoneStone.name=Steinschlangenstein
+tile.chisel.obsidianSnakestone.name=Obsidianschlangenstein
+
+#Glass blocks
+tile.chisel.glass.name=Glas
+tile.glass.1.desc=Blasenglas
+tile.glass.2.desc=Chinesisches Glas
+tile.glass.3.desc=Japanisches(?) Glas
+tile.glass.4.desc=Verliesglas
+tile.glass.5.desc=Lichtglas
+tile.glass.6.desc=Randloses Glas
+tile.glass.7.desc=Gemeißeltes Stahlglas
+tile.glass.8.desc=Bildschirm
+tile.glass.9.desc=Glasschiefer
+tile.glass.10.desc=Stahlrahmenglas
+tile.glass.11.desc=Steinrahmenglas
+tile.glass.12.desc=Streifenglas
+tile.glass.13.desc=Dickes Glasgitter
+tile.glass.14.desc=Dünnes Glasgitter
+tile.glass.15.desc=Moderner Eisenzaun
+
+tile.chisel.glass2.name=Glas
+tile.glass2.0.desc=Asymmetrisches Bleiglas
+
+#Sandstone
+tile.chisel.sandstone.name=Sandstein
+tile.chisel.sandstone2.name=Sandstein
+
+tile.sandstone.0.desc=Sandstein mit Glyphen
+tile.sandstone.1.desc=Sandpflaster
+tile.sandstone.2.desc=Sandstein mit Creeper
+
+tile.sandstone.3.desc=Verblasster Sandstein
+tile.sandstone.4.desc=Sandsteinsäule
+tile.sandstone.5.desc=Sandsteinsäulen-Schlussstein
+tile.sandstone.6.desc=Schmale Sandsteinsäule
+tile.sandstone.7.desc=Sandsteinsäulen-Basis
+tile.sandstone.8.desc=Glatter & flacher Sandstein
+tile.sandstone.9.desc=Glatter Sandsteinsäulen-Schlussstein
+tile.sandstone.10.desc=Schmale glatte Sandsteinsäule
+tile.sandstone.11.desc=Glatte Sandsteinsäulen-Basis
+tile.sandstone.12.desc=Sandsteinblock
+tile.sandstone.13.desc=Schmaler Sandsteinblock
+tile.sandstone.14.desc=Sandsteinmosaik
+tile.sandstone.15.desc=Gestapelte Sandsteinfliesen
+tile.sandstone.16.desc=Sandsteinziegel
+tile.sandstone.17.desc=
+
+#Sandstone scribbles
+tile.chisel.sandstone_scribbles.name=Sandstein mit Gekritzel
+tile.sandstoneScribbles.desc=Sandstein mit Gekritzel
+
+#Concrete
+tile.chisel.concrete.name=Beton
+tile.concrete.0.desc=Beton
+tile.concrete.1.desc=Betonblock
+tile.concrete.2.desc=Betondoppelstufe
+tile.concrete.3.desc=Schmaler Beton
+tile.concrete.4.desc=Verwitterter Beton
+tile.concrete.5.desc=Verwitterter Betonblock
+tile.concrete.6.desc=Verwitterte Betondoppelstufe
+tile.concrete.7.desc=Schmaler verwitterter Betonblock
+tile.concrete.8.desc=Teilweise verwitterter Beton
+tile.concrete.9.desc=Teilweise verwitterter Betonblock
+tile.concrete.10.desc=Asphalt
+
+#Concrete Slabs
+tile.chisel.concrete_slab.name=Concrete Slab
+tile.concreteSlab.0.desc=Concrete Slab
+tile.concreteSlab.1.desc=Concrete Block Slab
+tile.concreteSlab.2.desc=Concrete Double Slab
+tile.concreteSlab.3.desc=Small Concrete Block Slab
+tile.concreteSlab.4.desc=Weathered Concrete Slab
+tile.concreteSlab.5.desc=Weathered Concrete Block Slab
+tile.concreteSlab.6.desc=Weathered Concrete Double Slab
+tile.concreteSlab.7.desc=Small Weathered Block Slab
+tile.concreteSlab.8.desc=Partly Weathered Concrete Slab
+tile.concreteSlab.9.desc=Partly Weathered Concrete Block Slab
+tile.concreteSlab.10.desc=Asphalt
+
+#Concrete Stairs
+#The same name goes here 8 different times since stairs take up 8 block positions.
+#Sorry!  It was the only way! Maybe one day it will be fixed...
+tile.chisel.concrete_stairs.0.name=Concrete Stairs
+tile.chisel.concrete_stairs.1.name=Concrete Stairs
+tile.chisel.concrete_stairs.2.name=Concrete Stairs
+tile.chisel.concrete_stairs.3.name=Concrete Stairs
+tile.chisel.concrete_stairs.4.name=Concrete Stairs
+tile.chisel.concrete_stairs.5.name=Concrete Stairs
+tile.chisel.concrete_stairs.6.name=Concrete Stairs
+tile.chisel.concrete_stairs.7.name=Concrete Stairs
+
+tile.concreteStairs.0.desc=Concrete Stairs
+tile.concreteStairs.1.desc=Concrete Block Stairs
+tile.concreteStairs.2.desc=Concrete Double Slab Stairs
+tile.concreteStairs.3.desc=Small Concrete Block Stairs
+tile.concreteStairs.4.desc=Weathered Concrete Stairs
+tile.concreteStairs.5.desc=Weathered Concrete Block Stairs
+tile.concreteStairs.6.desc=Weathered Concrete Double Slab Stairs
+tile.concreteStairs.7.desc=Small Weathered Block Stairs
+tile.concreteStairs.8.desc=Partly Weathered Concrete Stairs
+tile.concreteStairs.9.desc=Partly Weathered Concrete Block Stairs
+tile.concreteStairs.10.desc=Asphalt Stairs
+
+# Road Line
+tile.chisel.road_line.name=Straßenlinien
+tile.roadLine.0.desc=Weiß
+tile.roadLine.1.desc=Gelb
+tile.roadLine.2.desc=Doppelt Weiß
+tile.roadLine.3.desc=Doppelt Gelb
+tile.roadLine.4.desc=Absperrband
+
+#Iron Blocks
+tile.chisel.iron_block.name=Eisenblock
+tile.iron.0.desc=Rusted Block
+tile.iron.1.desc=Großer Eisenbarren
+tile.iron.2.desc=Schmaler Eisenbarren
+tile.iron.3.desc=Eisenzahnrad
+tile.iron.4.desc=Eisenziegel
+tile.iron.5.desc=Eisenplatten
+tile.iron.6.desc=Eisenplatten mit Nieten
+tile.iron.7.desc=Eisenmünzen nach oben gestapelt
+tile.iron.8.desc=Eisenmünzen nach unten gestapelt
+tile.iron.9.desc=Dunkle Eisenkiste
+tile.iron.10.desc=Leuchtende Eisenkiste
+tile.iron.11.desc=Eisenblock mit Monddekoration
+tile.iron.12.desc=Eisenblock mit violettem Obsidian
+tile.iron.13.desc=Eisenblock mit Obsidian
+tile.iron.14.desc=Eisenlüfter
+tile.iron.15.desc=Einfacher Eisenblock
+
+#Gold Blocks
+tile.chisel.gold_block.name=Goldblock
+tile.gold.1.desc=Großer Goldbarren
+tile.gold.2.desc=Schmaler Goldbarren
+tile.gold.3.desc=Goldene Ziegel
+tile.gold.4.desc=Goldener Wagen
+tile.gold.5.desc=Goldmünzen nach oben gestapelt
+tile.gold.6.desc=Goldmünzen nach unten gestapelt
+tile.gold.7.desc=Dunkle Goldkiste
+tile.gold.8.desc=Leuchtende Goldkiste
+tile.gold.9.desc=Goldplatten
+tile.gold.10.desc=Goldplatten mit Nieten
+tile.gold.11.desc=Goldblock mit Sternen
+tile.gold.12.desc=Goldener Stern mit violettem Obsidian
+tile.gold.13.desc=Goldener Stern mit Obsidian
+tile.gold.14.desc=Einfacher Goldblock
+
+#Glowstone
+tile.chisel.glowstone.name=Leuchtstein
+tile.lightstone.1.desc=Glowstone mit Kopfsteinpflaster
+tile.lightstone.2.desc=Korrodierter Glowstone
+tile.lightstone.3.desc=Glowstone mit Glas
+tile.lightstone.4.desc=Neon-Glowstone
+tile.lightstone.5.desc=Gemeißelter Glowstone
+tile.lightstone.6.desc=Felsiger Glowstone
+tile.lightstone.7.desc=Schieferförmiger Glowstone
+tile.lightstone.8.desc=Glowstone Fliessen
+tile.lightstone.9.desc=Fantasievolle Glowstonelaterne
+tile.lightstone.10.desc=Zerfallener Glowstone
+tile.lightstone.11.desc=Glowstone für organisches Wachstum
+tile.lightstone.12.desc=Glowstoneebenen
+tile.lightstone.13.desc=Korrodierte Glowstone Fliessen
+tile.lightstone.14.desc=Glowstone-Bismuth
+tile.lightstone.15.desc=Glowstone-Bismuthplatte
+
+#Lapis blocks
+tile.chisel.lapis_block.name=Lapislazuliblock
+tile.lapis.1.desc=Klobiger Lapislazuliblock
+tile.lapis.2.desc=Dunkler Lapislazuliblock
+tile.lapis.3.desc=Zelda-Lapislazuliblock
+tile.lapis.4.desc=Gemeißelter Lapislazuliblock
+tile.lapis.5.desc=Lapislazuliteile
+tile.lapis.6.desc=Lapislazuliplatten
+tile.lapis.7.desc=Glatter Lapislazuli
+tile.lapis.8.desc=Lapislazuliblock mit gemeißelten Ebenen
+
+#Emerald Blocks
+tile.chisel.emerald_block.name=Smaragdblock
+tile.emerald.1.desc=Smaragdplatte
+tile.emerald.2.desc=Klassische Smaragdplatte
+tile.emerald.3.desc=Glatter Smaragd
+tile.emerald.4.desc=Klobiger Smaragd
+tile.emerald.5.desc=Smaragd mit gemeißelten Ebenen
+tile.emerald.6.desc=Zelda-Smaragdblock
+tile.emerald.7.desc=Smaragdzelle
+tile.emerald.8.desc=Smaragd-Bismuth
+tile.emerald.9.desc=Schmaler Smaragdblock
+tile.emerald.10.desc=Schmaler gemeißelter Smaragdblock
+tile.emerald.11.desc=Gemeißelter Smaragdblock
+
+#Nether Brick
+tile.chisel.nether_brick.name=Netherziegel
+tile.netherBrick.1.desc=Blaue Netherziegel
+tile.netherBrick.2.desc=Verschmutzte Netherziegel
+tile.netherBrick.3.desc=Gutgemachte Netherziegel
+tile.netherBrick.4.desc=Gutgemachte dunkle Netherziegel
+tile.netherBrick.5.desc=Schmale gutgemachte Netherziegel
+tile.netherBrick.6.desc=Blaue Netherziegel mit Lava
+tile.netherBrick.7.desc=Braune Netherziegel
+tile.netherBrick.8.desc=Obsidian-Netherziegel
+tile.netherBrick.9.desc=Stein-Netherziegel
+tile.netherBrick.10.desc=Netherziegel aus Fleisch
+tile.netherBrick.11.desc=Rote Netherziegel aus Fleisch
+tile.netherBrick.12.desc=Schmale Netherziegel aus Fleisch
+tile.netherBrick.13.desc=Schmale rote Netherziegel aus Fleisch
+tile.netherBrick.14.desc=Rote Netherziegel
+tile.netherBrick.15.desc=Schmale rote Netherziegel
+
+#Netherrack
+tile.chisel.netherrack.name=Netherstein
+tile.hellrock.1.desc=Netherkies mit Blut
+tile.hellrock.2.desc=Netherstein mit Blut
+tile.hellrock.3.desc=Dunkler Netherstein mit Blut
+tile.hellrock.4.desc=Blauer Netherstein
+tile.hellrock.5.desc=Schieferblauer Netherstein
+tile.hellrock.6.desc=Klassischer Netherstein
+tile.hellrock.7.desc=Verschmutzter Netherstein
+tile.hellrock.8.desc=Gutgemachter Netherstein
+tile.hellrock.9.desc=Gutgemachter dunkler Netherstein
+tile.hellrock.10.desc=Netherstein aus Fleisch
+tile.hellrock.11.desc=Roter Netherstein aus Fleisch
+tile.hellrock.12.desc=Netherstein aus kleineren Fleischstücken hergestellt
+tile.hellrock.13.desc=Dunkelroter Netherstein
+tile.hellrock.14.desc=Netherstein mit fließender Lava
+
+#Mossy Stone
+tile.chisel.mossy_cobblestone.name=Bemooster Bruchstein
+tile.stoneMoss.1.desc=Ausgerichtete bemooste Bruchsteinziegel
+tile.stoneMoss.2.desc=Detaillierte bemooste Bruchsteinziegel
+tile.stoneMoss.3.desc=Schmale bemooste Bruchsteinziegel
+tile.stoneMoss.4.desc=Große bemooste Bruchsteinteile
+tile.stoneMoss.5.desc=Schmale bemooste Bruchsteinteile
+tile.stoneMoss.6.desc=Französische bemooste Bruchsteinteile
+tile.stoneMoss.7.desc=Französische bemooste Bruchsteinteile
+tile.stoneMoss.8.desc=Bemooste Bruchsteinteile mit Creeper
+tile.stoneMoss.9.desc=Zerbrochene bemooste Bruchsteinteile
+tile.stoneMoss.10.desc=Große bemooste Bruchsteinteile
+tile.stoneMoss.11.desc=Bemooster Bruchstein mit Creeper-Fliesen
+tile.stoneMoss.12.desc=Bemooster Bruchstein mit Delle
+tile.stoneMoss.13.desc=Bemooster Bruchstein mit Fliesen
+tile.stoneMoss.14.desc=Bemooster Bruchstein mit leuchtenden Fliesen
+tile.stoneMoss.15.desc=Bemooster Bruchstein mit dunklen Fliesen
+
+#Stone Bricks
+tile.chisel.stonebricksmooth.name=Steinziegel
+tile.stonebricksmooth.0.desc=Modernes neutrales Mauerwerk
+tile.stonebricksmooth.1.desc=Modernes felsisches Mauerwerk
+tile.stonebricksmooth.2.desc=Modernes mafisches Mauerwerk
+tile.stonebricksmooth.3.desc=Modernes Mischmauerwerk
+tile.stonebricksmooth.4.desc=Schmale Steinziegel
+tile.stonebricksmooth.5.desc=Breite Steinziegel
+tile.stonebricksmooth.6.desc=Kleine ungeordnete Steinziegel
+tile.stonebricksmooth.7.desc=Ungeordnete Steinziegel
+tile.stonebricksmooth.8.desc=Ungeordnete Steinplatten
+tile.stonebricksmooth.9.desc=Steinziegel in einer fantasievollen Anordnung
+tile.stonebricksmooth.10.desc=Gemeißelte Steinziegelfliesen
+tile.stonebricksmooth.11.desc=Große gemeißelte Steinziegelfliesen
+tile.stonebricksmooth.12.desc=Steinplatten
+tile.stonebricksmooth.13.desc=Verfallene Steinplatten
+tile.stonebricksmooth.14.desc=Gemeißelte Steinplatten
+tile.stonebricksmooth.15.desc=Giftige Steinziegel
+
+#Dirt
+tile.chisel.dirt.name=Erde
+tile.dirt.0.desc=Erdziegel in Unordnung
+tile.dirt.1.desc=Erdziegel in Netherziegelimitat
+tile.dirt.2.desc=Erdziegel
+tile.dirt.3.desc=Pflaster-Erde
+tile.dirt.4.desc=Verstärkte Pflaster-Erde
+tile.dirt.5.desc=Verstärkte Erde
+tile.dirt.6.desc=Glückliche Erde
+tile.dirt.7.desc=Große Erdziegel
+tile.dirt.8.desc=Große Erdziegel oben auf Erde
+tile.dirt.9.desc=Horizontale Erde
+tile.dirt.10.desc=Vertikale Erde
+tile.dirt.11.desc=Erdschichten
+tile.dirt.12.desc=Zerbröckelnde Erde
+tile.dirt.13.desc=Jumbled Dirt
+tile.dirt.14.desc=Tilled Dirt
+tile.dirt.15.desc=Large Dirt Tile
+
+#Ice
+tile.chisel.ice.name=Eis
+tile.ice.1.desc=Rauer Eisblock
+tile.ice.2.desc=Pflastereis
+tile.ice.3.desc=Große rohe Einziegel
+tile.ice.4.desc=Große Eisziegel
+tile.ice.5.desc=Schmale Eisziegel
+tile.ice.6.desc=Fantasievolle Glaswand
+tile.ice.7.desc=Große Eisfliesen
+tile.ice.8.desc=Fantasievolle Eisfliesen
+tile.ice.9.desc=Eingefallene Eisfliesen
+tile.ice.10.desc=Ungeordnete Eisfliesen
+tile.ice.11.desc=Eisplatten
+tile.ice.12.desc=Dunkle Eisstufe
+tile.ice.13.desc=Zelda-Eisblock
+tile.ice.14.desc=Bismuth-Eisblock
+tile.ice.15.desc=Giftiger Eisblock
+
+#Ice Pillars
+tile.chisel.ice_pillar.name=Eissäule
+tile.icePillar.0.desc=Glatte Eissäule mit glattem Schlussstein
+tile.icePillar.1.desc=Glatte Eissäule mit griechischem Schlussstein
+tile.icePillar.2.desc=Griechische Eissäule mit glattem Schlussstein
+tile.icePillar.3.desc=Griechische Eissäule mit griechischem Schlussstein
+tile.icePillar.4.desc=Geschnitzte Eissäule mit Schlussstein
+tile.icePillar.5.desc=Verzierte Eissäule mit Schlussstein
+tile.icePillar.6.desc=Gravierte Eissäule
+
+#Ice Stairs
+tile.chisel.ice_stairs.name=Eistreppe
+tile.chisel.ice_stairs.0.name=Eistreppe
+tile.chisel.ice_stairs.1.name=Eistreppe
+tile.chisel.ice_stairs.2.name=Eistreppe
+tile.chisel.ice_stairs.3.name=Eistreppe
+tile.chisel.ice_stairs.4.name=Eistreppe
+tile.chisel.ice_stairs.5.name=Eistreppe
+tile.chisel.ice_stairs.6.name=Eistreppe
+tile.chisel.ice_stairs.7.name=Eistreppe
+tile.ice_stairs.0.desc=Eistreppe
+tile.ice_stairs.1.desc=Raue Eistreppe
+tile.ice_stairs.2.desc=Pflaster-Eistreppe
+tile.ice_stairs.3.desc=Große raue Eisziegeltreppe
+tile.ice_stairs.4.desc=Große Eisziegeltreppe
+tile.ice_stairs.5.desc=Schmale Eisziegeltreppe
+tile.ice_stairs.6.desc=Fantasievolle Eiswandtreppen
+tile.ice_stairs.7.desc=Große Eisfliessentreppe
+tile.ice_stairs.8.desc=Fantasievolle Eisfliessentreppe
+tile.ice_stairs.9.desc=Verfallene Eisfliessentreppe
+tile.ice_stairs.10.desc=Ungeordnete Eisfliessentreppe
+tile.ice_stairs.11.desc=Eisplattentreppe
+tile.ice_stairs.12.desc=Eisdoppelstufentreppe
+tile.ice_stairs.13.desc=Zelda Eistreppe
+tile.ice_stairs.14.desc=Bismuth eistreppe
+tile.ice_stairs.15.desc=Giftige Eistreppe
+
+#Packed Ice
+tile.chisel.packedice.name=Packeis
+tile.packedice.1.desc=Raues Packeis
+tile.packedice.2.desc=Pflaster-Packeis
+tile.packedice.3.desc=Große raue Packeisziegel
+tile.packedice.4.desc=Große Packeisziegel
+tile.packedice.5.desc=Schmale Packeisziegel
+tile.packedice.6.desc=Fantasievolle Eiswand
+tile.packedice.7.desc=Große Packeisfliessen
+tile.packedice.8.desc=Fantasievolle Packeisfliessen
+tile.packedice.9.desc=Verfallene Packeisfliessen
+tile.packedice.10.desc=Ungeordnete Packeisfliessen
+tile.packedice.11.desc=Packeisplatten
+tile.packedice.12.desc=Packeisdoppelstufe
+tile.packedice.13.desc=Zelda-Packeisblock
+tile.packedice.14.desc=Bismuth-Packeisblock
+tile.packedice.15.desc=Giftiger Packeisblock
+
+#Packed Ice Pillars
+tile.chisel.packedice_pillar.name=Packeissäule
+tile.packedice_pillar.0.desc=Glatte Packeissäule mit glattem Schlussstein
+tile.packedice_pillar.1.desc=Glatte Packeissäule mit griechischem Schlussstein
+tile.packedice_pillar.2.desc=Griechische Packeissäule mit glattem Schlussstein
+tile.packedice_pillar.3.desc=Griechische Packeissäule mit griechischem Schlussstein
+tile.packedice_pillar.4.desc=Geschnitzte Packeissäule mit Schlussstein
+tile.packedice_pillar.5.desc=Verzierte Packeissäule mit Schlussstein
+tile.packedice_pillar.6.desc=Gravierte Packeissäule
+
+#Packed Ice Stairs
+tile.chisel.packedice_stairs.name=Packeistreppe
+tile.chisel.packedice_stairs.0.name=Packeistreppe
+tile.chisel.packedice_stairs.1.name=Packeistreppe
+tile.chisel.packedice_stairs.2.name=Packeistreppe
+tile.chisel.packedice_stairs.3.name=Packeistreppe
+tile.chisel.packedice_stairs.4.name=Packeistreppe
+tile.chisel.packedice_stairs.5.name=Packeistreppe
+tile.chisel.packedice_stairs.6.name=Packeistreppe
+tile.chisel.packedice_stairs.7.name=Packeistreppe
+tile.packedice_stairs.0.desc=Packeistreppe
+tile.packedice_stairs.1.desc=Raue Packeistreppe
+tile.packedice_stairs.2.desc=Pflaster-Packeistreppe
+tile.packedice_stairs.3.desc=Große raue Packeisziegeltreppe
+tile.packedice_stairs.4.desc=Große Packeisziegeltreppe
+tile.packedice_stairs.5.desc=Schmale Packeisziegeltreppe
+tile.packedice_stairs.6.desc=Fantasievolle Packeiswandtreppe
+tile.packedice_stairs.7.desc=Große Packeisfliessentreppe
+tile.packedice_stairs.8.desc=Fantasievolle Packeisfliessentreppe
+tile.packedice_stairs.9.desc=Verfallene Packeisfliessentreppe
+tile.packedice_stairs.10.desc=Ungeordnete Packeisfliessentreppe
+tile.packedice_stairs.11.desc=Packeisplattentreppe
+tile.packedice_stairs.12.desc=Packeisdoppelstufentreppe
+tile.packedice_stairs.13.desc=Zelda-Packeistreppe
+tile.packedice_stairs.14.desc=Bismuth-Packeistreppe
+tile.packedice_stairs.15.desc=Giftige Packeistreppe
+
+#Obsidian
+tile.chisel.obsidian.name=Obsidian
+tile.obsidian.1.desc=Große Obsidiansäule
+tile.obsidian.2.desc=Obsidiansäule
+tile.obsidian.3.desc=Gemeißelter Obsidian
+tile.obsidian.4.desc=Silberne Obsidianplatte
+tile.obsidian.5.desc=Obsidianplatte
+tile.obsidian.6.desc=Organisch aussehende Obsidianbrocken
+tile.obsidian.7.desc=Organisch aussehendes Obsidianwachstum
+tile.obsidian.8.desc=Obsidiankristall
+tile.obsidian.9.desc=Obsidianplatte mit Karte
+tile.obsidian.10.desc=Obsidianplatte mit regionaler Karte
+tile.obsidian.11.desc=Helle Obsidiantafel
+tile.obsidian.12.desc=Obsidianblock
+tile.obsidian.13.desc=Obsidianfliesen
+tile.obsidian.14.desc=Leuchtender Obsidian mit griechischem Dekor
+tile.obsidian.15.desc=Schmaler Obsidian innerhalb einer Eichenholzkiste
+
+#Wood
+tile.chisel.oak_planks.name=Eichenholzbretter
+tile.chisel.birch_planks.name=Birkenholzbretter
+tile.chisel.spruce_planks.name=Fichtenholzbretter
+tile.chisel.jungle_planks.name=Tropenholzbretter
+tile.chisel.dark_oak_planks.name=Schwarzeichenholzbretter
+tile.chisel.acacia_planks.name=Akazienholzbretter
+
+#BOP Wood
+tile.chisel.sacredoak_planks.name=Sacred Oak Wood Planks
+tile.chisel.cherry_planks.name=Cherry Wood Planks
+tile.chisel.dark_planks.name=Dark Wood Planks
+tile.chisel.fir_planks.name=Fir Wood Planks
+tile.chisel.ethereal_planks.name=Ethereal Wood Planks
+tile.chisel.magic_planks.name=Magic Wood Planks
+tile.chisel.mangrove_planks.name=Mangrove Wood Planks
+tile.chisel.palm_planks.name=Palm Wood Planks
+tile.chisel.redwood_planks.name=Redwood Wood Planks
+tile.chisel.willow_planks.name=Willow Wood Planks
+tile.chisel.pine_planks.name=Pine Wood Planks
+tile.chisel.hellbark_planks.name=Hellbark Wood Planks
+tile.chisel.jacaranda_planks.name=Jacaranda Wood Planks
+tile.chisel.mahogany_planks.name=Mahogany Wood Planks
+
+#Thaumcraft Wood
+tile.chisel.greatwood_planks.name=Greatwood Wood Planks
+tile.chisel.silverwood_planks.name=Silverwood Wood Planks
+
+#Iron Fence
+tile.chisel.iron_bars.name=Eisengitter
+tile.iron_bars.1.desc=Eisengitter ohne Rahmen
+tile.iron_bars.2.desc=Bedrohliches Eisengitter
+tile.iron_bars.3.desc=Eisenbarrenkäfig
+tile.iron_bars.4.desc=Bedrohliche Eisenspitzen
+tile.iron_bars.5.desc=Dicke Eisengitter
+tile.iron_bars.6.desc=Dünnes Eisengitter
+tile.iron_bars.7.desc=Gemeißelter Eisenplattenzaun
+tile.iron_bars.8.desc=Vertikales Eisengitter
+tile.iron_bars.9.desc=Eisenspitzen
+
+#Glass Panes
+tile.chisel.glass_pane.name=Glasscheibe
+tile.glass_pane.1.desc=Blasige Glasscheibe
+tile.glass_pane.2.desc=Randlose Glasscheibe
+tile.glass_pane.3.desc=Bildschirmscheibe
+tile.glass_pane.4.desc=Streifige Glasscheibe
+tile.glass_pane.12.desc=Chinesische Glasscheibe
+tile.glass_pane.13.desc=Chinesische Glasscheibe mit goldenem Rahmen
+tile.glass_pane.14.desc=Japanische Glasscheibe
+tile.glass_pane.15.desc=Gemeißelte japanische Glasscheibe
+
+#Redstone block
+tile.chisel.redstone_block.name=Redstoneblock
+tile.redstone_block.1.desc=Glatter Redstone
+tile.redstone_block.2.desc=Großer Redstoneblock
+tile.redstone_block.3.desc=Schmaler Redstoneblock
+tile.redstone_block.4.desc=Redstoneziegel
+tile.redstone_block.5.desc=Schmale Redstoneziegel
+tile.redstone_block.6.desc=Chaotische Redstoneziegel
+tile.redstone_block.7.desc=Gemeißelter Redstone
+tile.redstone_block.8.desc=Redstone mit griechischem Dekor
+tile.redstone_block.9.desc=Gemeißelte Redstonefliessen
+tile.redstone_block.10.desc=Redstonesäule
+tile.redstone_block.11.desc=Redstonefliesen
+tile.redstone_block.12.desc=Redstoneschaltung
+tile.redstone_block.13.desc=Redstone Supaplex-Schaltung
+tile.redstone_block.14.desc=Redstoneschädel
+tile.redstone_block.15.desc=Zelda-Redstoneblock
+
+#Holystone
+tile.chisel.holystone.name=Hühnergott
+tile.holystone.0.desc=Hühnergott
+tile.holystone.1.desc=Glatter Hühnergott
+tile.holystone.2.desc=Geheimnisvoller Hühnergott mit Symbol
+tile.holystone.3.desc=Gemeißelter Hühnergott
+tile.holystone.4.desc=Hühnergottblöcke
+tile.holystone.5.desc=Rauer Hühnergottblöcke
+tile.holystone.6.desc=Hühnergottziegel
+tile.holystone.7.desc=Große Hühnergottziegel
+tile.holystone.8.desc=Hühnergottplatte
+tile.holystone.9.desc=Hühnergottplattenteile
+tile.holystone.10.desc=Fantasievolle Hühnergottkonstruktion
+tile.holystone.11.desc=Fantasievolle Hühnergottfliesen
+tile.holystone.12.desc=Glatte Hühnergottplatte
+tile.holystone.13.desc=Hühnergottplatte
+
+#Lavastone
+tile.chisel.lavastone.name=Lavastein
+tile.lavastone.0.desc=Lavastein
+tile.lavastone.1.desc=Schwarzer Lavastein
+tile.lavastone.2.desc=Lavasteinfliesen
+tile.lavastone.3.desc=Chaotische Lavasteinziegel
+tile.lavastone.4.desc=Lava-Creeper in Fliesen
+tile.lavastone.5.desc=Lavaplatten
+tile.lavastone.6.desc=Gemeißelte Lavaplatten
+tile.lavastone.7.desc=Dunkler Lavastein
+
+#Carpet
+tile.chisel.carpet_block.name=Teppich
+tile.carpet_block.0.desc=Weißer Teppich
+tile.carpet_block.1.desc=Oranger Teppich
+tile.carpet_block.2.desc=Lila Teppich
+tile.carpet_block.3.desc=Hellblauer Teppich
+tile.carpet_block.4.desc=Gelber Teppich
+tile.carpet_block.5.desc=Hellgrüner Teppich
+tile.carpet_block.6.desc=Rosa Teppich
+tile.carpet_block.7.desc=Grauer Teppich
+tile.carpet_block.8.desc=Hellgrauer Teppich
+tile.carpet_block.9.desc=Türkiser Teppich
+tile.carpet_block.10.desc=Violetter Teppich
+tile.carpet_block.11.desc=Blauer Teppich
+tile.carpet_block.12.desc=Brauner Teppich
+tile.carpet_block.13.desc=Grüner Teppich
+tile.carpet_block.14.desc=Roter Teppich
+tile.carpet_block.15.desc=Schwarzer Teppich
+
+#Carpet floor
+tile.chisel.carpet.name=Teppichboden
+tile.carpet.0.desc=Weißer Teppich
+tile.carpet.1.desc=Oranger Teppich
+tile.carpet.2.desc=Lila Teppich
+tile.carpet.3.desc=Hellblauer Teppich
+tile.carpet.4.desc=Gelber Teppich
+tile.carpet.5.desc=Hellgrüner Teppich
+tile.carpet.6.desc=Rosa Teppich
+tile.carpet.7.desc=Grauer Teppich
+tile.carpet.8.desc=Hellgrauer Teppich
+tile.carpet.9.desc=Türkiser Teppich
+tile.carpet.10.desc=Violetter Teppich
+tile.carpet.11.desc=Blauer Teppich
+tile.carpet.12.desc=Brauner Teppich
+tile.carpet.13.desc=Grüner Teppich
+tile.carpet.14.desc=Roter Teppich
+tile.carpet.15.desc=Schwarzer Teppich
+
+#Bookshelf
+tile.chisel.bookshelf.name=Bücherregal
+tile.bookshelf.1.desc=Bücherregal mit Regenbogen-Büchern
+tile.bookshelf.2.desc=Bücherregal des Nekromantenlehrlings
+tile.bookshelf.3.desc=Bücherregal des Nekromanten
+tile.bookshelf.4.desc=Bücherregal mit roten Wälzern
+tile.bookshelf.5.desc=Verlassenes Bücherregal
+tile.bookshelf.6.desc=Bücherregal des Hamsterers
+tile.bookshelf.7.desc=Bücherregal bis zum Rand mit langweiligen Bastelüchern gefüllt
+tile.bookshelf.8.desc=Bücherregal des Historikers
+
+#Tyrian
+tile.chisel.tyrian.name=Tyrian
+tile.tyrian.0.desc=Futuristisches Rüstungsteil
+tile.tyrian.1.desc=Düsteres futuristisches Rüstungsteil
+tile.tyrian.2.desc=Violettes futuristisches Rüstungsteil
+tile.tyrian.3.desc=Verblasstes violettes futuristisches Rüstungsteil
+tile.tyrian.4.desc=Verrostetes futuristisches Rüstungsteil
+tile.tyrian.5.desc=Aufwändiges futuristisches Rüstungsteil
+tile.tyrian.6.desc=Futuristisches Rüstungsteil mit vielen Nähten
+tile.tyrian.7.desc=Futuristische Plattform
+tile.tyrian.8.desc=Futuristische Rüstungteilfliesen
+tile.tyrian.9.desc=Diagonales futuristisches Rüstungsteil
+tile.tyrian.10.desc=Futuristisches Rüstungsteil mit Delle
+tile.tyrian.11.desc=Blaues futuristisches Rüstungsteil
+tile.tyrian.12.desc=Schwarzes futuristisches Rüstungsteil
+tile.tyrian.13.desc=Schwarzes futuristisches Rüstungteilfliesen
+tile.tyrian.14.desc=Schwarzes futuristisches Rüstungsteil mit Öffnung
+tile.tyrian.15.desc=Silbernes futuristisches Rüstungsteil
+
+#Temple
+tile.chisel.templeblock.name=Tempelblock
+tile.templeblock.0.desc=Tempelbruchstein
+tile.templeblock.1.desc=Gemeißelter Tempelblock
+tile.templeblock.2.desc=Tempelplatte
+tile.templeblock.3.desc=Zerbrochene Tempelplatte
+tile.templeblock.4.desc=Tempelziegel
+tile.templeblock.5.desc=Großer Tempelziegel
+tile.templeblock.6.desc=Verschlissene Tempelziegel
+tile.templeblock.7.desc=Tempelziegel in Auflösung
+tile.templeblock.8.desc=Tempelspalte
+tile.templeblock.9.desc=Tempelständer
+tile.templeblock.10.desc=Tempel-Mosaikständer
+tile.templeblock.11.desc=Tempel-Creeperständer
+tile.templeblock.12.desc=Tempelfliesen
+tile.templeblock.13.desc=Schmale Tempelfliesen
+tile.templeblock.14.desc=Leuchtende Tempelfliesen
+tile.templeblock.15.desc=Schmale leuchtende Tempelfliesen
+
+#Temple Mossy
+tile.chisel.mossy_templeblock.name=Bemosster Tempelblock
+tile.mossy_templeblock.0.desc=Moosiger Tempelbruchstein
+tile.mossy_templeblock.1.desc=Gemeißelter bemooster Tempelblock
+tile.mossy_templeblock.2.desc=Bemooste Tempelplatte
+tile.mossy_templeblock.3.desc=Zerbrochen bemooste Tempelplatte
+tile.mossy_templeblock.4.desc=Bemooste Tempelziegel
+tile.mossy_templeblock.5.desc=Großer bemooste Tempelziegel
+tile.mossy_templeblock.6.desc=Verschlissene bemooste Tempelziegel
+tile.mossy_templeblock.7.desc=Bemooste Tempelziegel in Auflösung
+tile.mossy_templeblock.8.desc=Bemooste Tempelspalte
+tile.mossy_templeblock.9.desc=Bemooster Tempelständer
+tile.mossy_templeblock.10.desc=Bemoooster Tempel-Mosaikständer
+tile.mossy_templeblock.11.desc=Bemooster Tempel-Creeperständer
+tile.mossy_templeblock.12.desc=Bemooste Tempelfliesen
+tile.mossy_templeblock.13.desc=Schmale bemooste Tempelfliesen
+tile.mossy_templeblock.14.desc=Leuchtende bemooste Tempelfliesen
+tile.mossy_templeblock.15.desc=Schmale leuchtende bemooste Tempelfliesen
+
+#Cloud
+tile.chisel.cloud.name=Wolken
+tile.cloud.0.desc=Wolkenblock
+tile.cloud.1.desc=Große Wolkenziegel
+tile.cloud.2.desc=Kleine Wolkenziegel
+tile.cloud.3.desc=Schmale vertikale Wolkenziegel
+tile.cloud.4.desc=Gerasterte Wolkeziegel
+
+#Stained glass T.T
+tile.chisel.stained_glass_white.name=Weißes Glas
+tile.chisel.stained_glass_orange.name=Oranges Glas
+tile.chisel.stained_glass_magenta.name=Magenta Glas
+tile.chisel.stained_glass_lightblue.name=Hellblaues Glas
+tile.chisel.stained_glass_yellow.name=Gelbes Glas
+tile.chisel.stained_glass_lime.name=Hellgrünes Glas
+tile.chisel.stained_glass_pink.name=Rosa Glas
+tile.chisel.stained_glass_gray.name=Graues Glas
+tile.chisel.stained_glass_lightgray.name=Hellgraues Glas
+tile.chisel.stained_glass_cyan.name=Türkises Glas
+tile.chisel.stained_glass_purple.name=Lila Glas
+tile.chisel.stained_glass_blue.name=Blaues Glas
+tile.chisel.stained_glass_brown.name=Braunes Glas
+tile.chisel.stained_glass_green.name=Graues Glas
+tile.chisel.stained_glass_red.name=Rotes Glas
+tile.chisel.stained_glass_black.name=Schwarzes Glas
+tile.chisel.stained_glass_forestry.name=Buntglas
+
+#Stained GlassPane T.T
+tile.chisel.stained_glass_pane_white.name=Weiße Glasscheibe
+tile.chisel.stained_glass_pane_orange.name=Orange Glasscheibe
+tile.chisel.stained_glass_pane_magenta.name=Magenta Glasscheibe
+tile.chisel.stained_glass_pane_lightBlue.name=Hellblaue Glasscheibe
+tile.chisel.stained_glass_pane_yellow.name=Gelbe Glasscheibe
+tile.chisel.stained_glass_pane_lime.name=Hellgrün Glasscheibe
+tile.chisel.stained_glass_pane_pink.name=Rosa Glasscheibe
+tile.chisel.stained_glass_pane_gray.name=Graue Glasscheibe
+tile.chisel.stained_glass_pane_lightgray.name=Hellgraue Glasscheibe
+tile.chisel.stained_glass_pane_cyan.name=Türkise Glasscheibe
+tile.chisel.stained_glass_pane_purple.name=Lila Glasscheibe
+tile.chisel.stained_glass_pane_blue.name=Blaue Glasscheibe
+tile.chisel.stained_glass_pane_brown.name=Braune Glasscheibe
+tile.chisel.stained_glass_pane_green.name=Grüne Glasscheibe
+tile.chisel.stained_glass_pane_red.name=Rote Glasscheibe
+tile.chisel.stained_glass_pane_black.name=Schwarze Glasscheibe
+
+#Fantasy block
+tile.chisel.fantasyblock.name=Purpurner Fantasieblock
+tile.fantasyblock.0.desc=Purpurner Fantasieziegel
+tile.fantasyblock.1.desc=Purpurner verblassender Fantasieziegel
+tile.fantasyblock.2.desc=Purpurner verschlissener Fantasieziegel
+tile.fantasyblock.3.desc=Purpurner beschädigter Fantasieziegel
+tile.fantasyblock.4.desc=Purpurner Fantasieblock mit Dekoration
+tile.fantasyblock.5.desc=Purpurner fantastischer Dekorationsblock
+tile.fantasyblock.6.desc=Purpurner Fantasiesäule
+tile.fantasyblock.7.desc=Purpurner Fantasiesäule mit Dekoration
+tile.fantasyblock.8.desc=Purpurner fantastische goldene Schlangendekoration
+tile.fantasyblock.9.desc=Purpurner fantastische goldene Rauschendekoration
+tile.fantasyblock.10.desc=Purpurner fantastische goldene Gavierung
+tile.fantasyblock.11.desc=Purpurner fantastische goldene Kettendekoration
+tile.fantasyblock.12.desc=Purpurner fantastische dekorative Platte
+tile.fantasyblock.13.desc=Purpurner Fantasieblock
+tile.fantasyblock.14.desc=Purpurner Fantasieziegel in Auflösung
+tile.fantasyblock.15.desc=Purpurner verschlissener Fantasieziegel in Auflösung
+
+#Fantasy block 2
+tile.chisel.fantasyblock2.name=Purpurner Fantasieblock
+tile.fantasyblock2.0.desc=Purpurner Fantasieziegel
+tile.fantasyblock2.1.desc=Purpurner verblassender Fantasieziegel
+tile.fantasyblock2.2.desc=Purpurner verschlissener Fantasieziegel
+tile.fantasyblock2.3.desc=Purpurner beschädigter Fantasieziegel
+tile.fantasyblock2.4.desc=Purpurner Fantasieblock mit Dekoration
+tile.fantasyblock2.5.desc=Purpurner fantastischer Dekorationsblock
+tile.fantasyblock2.6.desc=Purpurner Fantasiesäule
+tile.fantasyblock2.7.desc=Purpurner Fantasiesäule mit Dekoration
+tile.fantasyblock2.8.desc=Purpurner fantastische goldene Schlangendekoration
+tile.fantasyblock2.9.desc=Purpurner fantastische goldene Rauschendekoration
+tile.fantasyblock2.10.desc=Purpurner fantastische goldene Gavierung
+tile.fantasyblock2.11.desc=Purpurner fantastische goldene Kettendekoration
+tile.fantasyblock2.12.desc=Purpurner fantastische dekorative Platte
+tile.fantasyblock2.13.desc=Purpurner Fantasieblock
+tile.fantasyblock2.14.desc=Purpurner Fantasieziegel in Auflösung
+tile.fantasyblock2.15.desc=Purpurner verschlissener Fantasieziegel in Auflösung
+
+#Paperwall
+tile.chisel.paperwall.name=Papierwand
+tile.chisel.paperwall_block.name=Papierwandblock
+tile.paperwall.0.desc=Verpackte Papierwand
+tile.paperwall.1.desc=Mittig gestriche Papierwand
+tile.paperwall.2.desc=Gekreuzte Papierwand
+tile.paperwall.3.desc=Sechsfach unterteilte Papierwand
+tile.paperwall.4.desc=Vertikal gestrichene Papierwand
+tile.paperwall.5.desc=Horizontal gestrichene Papierwand
+tile.paperwall.6.desc=Blumen geschmückte Papierwand
+tile.paperwall.7.desc=Glatte Papierwand
+tile.paperwall.8.desc=Türgeformte Papierwand
+
+#Woolen Clay
+tile.chisel.woolen_clay.name=Lehmige Wolle
+tile.woolenClay.0.desc=Weiße lehmige Wolle
+tile.woolenClay.1.desc=Orange lehmige Wolle
+tile.woolenClay.2.desc=Lila lehmige Wolle
+tile.woolenClay.3.desc=Hellblaue lehmige Wolle
+tile.woolenClay.4.desc=Gelbe lehmige Wolle
+tile.woolenClay.5.desc=Hellgrüne lehmige Wolle
+tile.woolenClay.6.desc=Rosa lehmige Wolle
+tile.woolenClay.7.desc=Graue lehmige Wolle
+tile.woolenClay.8.desc=Hellgraue lehmige Wolle
+tile.woolenClay.9.desc=Türkise lehmige Wolle
+tile.woolenClay.10.desc=Violette lehmige Wolle
+tile.woolenClay.11.desc=Blaue lehmige Wolle
+tile.woolenClay.12.desc=Braune lehmige Wolle
+tile.woolenClay.13.desc=Grüne lehmige Wolle
+tile.woolenClay.14.desc=Rote lehmige Wolle
+tile.woolenClay.15.desc=Schwarze lehmige Wolle
+
+#Colored Sand
+tile.chisel.colored_sand.name=Gefärbter Sand
+tile.coloredSand.0.desc=Weiß gefärbter Sand
+tile.coloredSand.1.desc=Orange gefärbter Sand
+tile.coloredSand.2.desc=Lila gefärbter Sand
+tile.coloredSand.3.desc=Hellblau gefärbter Sand
+tile.coloredSand.4.desc=Gelb gefärbter Sand
+tile.coloredSand.5.desc=Hellgrün gefärbter Sand
+tile.coloredSand.6.desc=Rosa gefärbter Sand
+tile.coloredSand.7.desc=Grau gefärbter Sand
+tile.coloredSand.8.desc=Hellgrau gefärbter Sand
+tile.coloredSand.9.desc=Türkis gefärbter Sand
+tile.coloredSand.10.desc=Violett gefärbter Sand
+tile.coloredSand.11.desc=Blau gefärbter Sand
+tile.coloredSand.12.desc=Braun gefärbter Sand
+tile.coloredSand.13.desc=Grün gefärbter Sand
+tile.coloredSand.14.desc=Rot gefärbter Sand
+tile.coloredSand.15.desc=Schwarz gefärbter Sand
+
+#Laboratory Block
+tile.chisel.laboratoryblock.name=Laborblock
+tile.laboratory.0.desc=Wandplatte
+tile.laboratory.1.desc=Gepunktete Platte
+tile.laboratory.2.desc=Emaillierte Wand
+tile.laboratory.3.desc=Emaillierte runde Wand
+tile.laboratory.4.desc=Emaillierter Wandlüfter
+tile.laboratory.5.desc=Große emaillierte Fliesen
+tile.laboratory.6.desc=Kleine emaillierte Fliesen
+tile.laboratory.7.desc=Laborboden
+tile.laboratory.8.desc=Schachbrettboden
+tile.laboratory.9.desc=Leere Platte
+tile.laboratory.10.desc=Unscharfe Platte
+tile.laboratory.11.desc=Große Stahlfliesen
+tile.laboratory.12.desc=Kleine Stahlfliesen
+tile.laboratory.13.desc=Gerichtete Konsole (Rechts)
+tile.laboratory.14.desc=Gerichtete Konsole (Links)
+tile.laboratory.15.desc=Informationskonsole
+
+#Planks (They go in order of creative tab appearance if that helps)
+#Oak
+tile.oak.planks.1.desc=Glatte Eichenholzbretter
+tile.oak.planks.2.desc=Kurze Eichenholzbretter
+tile.oak.planks.6.desc=Fantasievolle Eichenholzbretteranordnung
+tile.oak.planks.8.desc=Eichenholzplatte
+tile.oak.planks.9.desc=Eichenholzdoppelstufe
+tile.oak.planks.10.desc=Eichenholztruhe
+tile.oak.planks.11.desc=Fantasievolle Eichenholztruhe
+tile.oak.planks.13.desc=Große lange Eichenholzbretter
+tile.oak.planks.3.desc=Vertikale Eichenholzbretter
+tile.oak.planks.4.desc=Vertikale unebene Eichenholzbretter
+tile.oak.planks.5.desc=Eichenholzparkett
+tile.oak.planks.7.desc=Eichenholz-Rollos
+tile.oak.planks.12.desc=Eichenholzgerüst
+tile.oak.planks.14.desc=Eichenholzbretter in Auflösung
+tile.oak.planks.15.desc=Vertikale Eichenholzbretter in Auflösung
+
+#Spruce
+tile.spruce.planks.1.desc=Glatte Fichtenholzbretter
+tile.spruce.planks.2.desc=Kurze Fichtenholzbretter
+tile.spruce.planks.6.desc=Fantasievolle Fichtenholzbretteranordnung
+tile.spruce.planks.8.desc=Fichtenholzplatte
+tile.spruce.planks.9.desc=Fichtenholzdoppelstufe
+tile.spruce.planks.10.desc=Fichtenholztruhe
+tile.spruce.planks.11.desc=Fantasievolle Fichtenholztruhe
+tile.spruce.planks.13.desc=Große lange Fichtenholzbretter
+tile.spruce.planks.3.desc=Vertikale Fichtenholzbretter
+tile.spruce.planks.4.desc=Vertikale unebene Fichtenholzbretter
+tile.spruce.planks.5.desc=Fichtenholzparkett
+tile.spruce.planks.7.desc=Fichtenholz-Rollos
+tile.spruce.planks.12.desc=Fichtenholzgerüst
+tile.spruce.planks.14.desc=Fichtenholzbretter in Auflösung
+tile.spruce.planks.15.desc=Vertikale Fichtenholzbretter in Auflösung
+
+#Birch
+tile.birch.planks.1.desc=Glatte Birkenholzbretter
+tile.birch.planks.2.desc=Kurze Birkenholzbretter
+tile.birch.planks.6.desc=Fantasievolle Birkenholzbretteranordnung
+tile.birch.planks.8.desc=Birkenholzplatte
+tile.birch.planks.9.desc=Birkenholzdoppelstufe
+tile.birch.planks.10.desc=Birkenholztruhe
+tile.birch.planks.11.desc=Fantasievolle Birkenholztruhe
+tile.birch.planks.13.desc=Große lange Birkenholzbretter
+tile.birch.planks.3.desc=Vertikale Birkenholzbretter
+tile.birch.planks.4.desc=Vertikale unebene Birkenholzbretter
+tile.birch.planks.5.desc=Birkenholzparkett
+tile.birch.planks.7.desc=Birkenholz-Rollos
+tile.birch.planks.12.desc=Birkenholzgerüst
+tile.birch.planks.14.desc=Birkenholzbretter in Auflösung
+tile.birch.planks.15.desc=Vertikale Birkenholzbretter in Auflösung
+
+#Jungle
+tile.jungle.planks.1.desc=Glatte Tropenholzbretter
+tile.jungle.planks.2.desc=Kurze Tropenholzbretter
+tile.jungle.planks.6.desc=Fantasievolle Tropenholzbretteranordnung
+tile.jungle.planks.8.desc=Tropenholzplatte
+tile.jungle.planks.9.desc=Tropenholzdoppelstufe
+tile.jungle.planks.10.desc=Tropenholztruhe
+tile.jungle.planks.11.desc=Fantasievolle Tropenholztruhe
+tile.jungle.planks.13.desc=Große lange Tropenholzbretter
+tile.jungle.planks.3.desc=Vertikale Tropenholzbretter
+tile.jungle.planks.4.desc=Vertikale unebene Tropenholzbretter
+tile.jungle.planks.5.desc=Tropenholzparkett
+tile.jungle.planks.7.desc=Tropenholz-Rollos
+tile.jungle.planks.12.desc=Tropenholzgerüst
+tile.jungle.planks.14.desc=Tropenholzbretter in Auflösung
+tile.jungle.planks.15.desc=Vertikale Tropenholzbretter in Auflösung
+
+#Acacia
+tile.acacia.planks.1.desc=Glatte Akazienholzplanken
+tile.acacia.planks.2.desc=Kurze Akazienholzplanken
+tile.acacia.planks.6.desc=Fantasievolle Akazienholzbretteranordnung
+tile.acacia.planks.8.desc=Akazienholzplatte
+tile.acacia.planks.9.desc=Akazienholzdoppelstufe
+tile.acacia.planks.10.desc=Akazienholztruhe
+tile.acacia.planks.11.desc=Fantasievolle Akazienholztruhe
+tile.acacia.planks.13.desc=Große lange Akazienholzplanken
+tile.acacia.planks.3.desc=Vertikale Akazienholzplanken
+tile.acacia.planks.4.desc=Vertikale unebene Akazienholzplanken
+tile.acacia.planks.5.desc=Akazienholzparkett
+tile.acacia.planks.7.desc=Akazienholz-Rollos
+tile.acacia.planks.12.desc=Akazienholzgerüst
+tile.acacia.planks.14.desc=Akazienholzplanken in Auflösung
+tile.acacia.planks.15.desc=Vertikale Akazienholzplanken in Auflösung
+
+#Dark Oak
+tile.dark-oak.planks.1.desc=Glatte Schwarzeichenholzbretter
+tile.dark-oak.planks.2.desc=Kurze Schwarzeichenholzbretter
+tile.dark-oak.planks.6.desc=Fantasievolle Schwarzeichenholzbretteranordnung
+tile.dark-oak.planks.8.desc=Schwarzeichenholzplatte
+tile.dark-oak.planks.9.desc=Schwarzeichenholzdoppelstufe
+tile.dark-oak.planks.10.desc=Schwarzeichenholztruhe
+tile.dark-oak.planks.11.desc=Fantasievolle Schwarzeichenholztruhe
+tile.dark-oak.planks.13.desc=Große lange Schwarzeichenholzbretter
+tile.dark-oak.planks.3.desc=Vertikale Schwarzeichenholzbretter
+tile.dark-oak.planks.4.desc=Vertikale unebene Schwarzeichenholzbretter
+tile.dark-oak.planks.5.desc=Schwarzeichenholzparkett
+tile.dark-oak.planks.7.desc=Schwarzeichenholz-Rollos
+tile.dark-oak.planks.12.desc=Schwarzeichenholzgerüst
+tile.dark-oak.planks.14.desc=Schwarzeichenholzbretter in Auflösung
+tile.dark-oak.planks.15.desc=Vertikale Schwarzeichenholzbretter in Auflösung
+
+#Sacred Oak
+tile.sacredoak.planks.1.desc=Smooth Sacred Oak Wood Planks
+tile.sacredoak.planks.2.desc=Short Sacred Oak Wood Planks
+tile.sacredoak.planks.6.desc=Fancy Sacred Oak Wood Plank Arrangement
+tile.sacredoak.planks.8.desc=Sacred Oak Wood Panel
+tile.sacredoak.planks.9.desc=Sacred Oak Wood Double Slab
+tile.sacredoak.planks.10.desc=Sacred Oak Wood Crate
+tile.sacredoak.planks.11.desc=Fancy Sacred Oak Wood Crate
+tile.sacredoak.planks.13.desc=Large Long Sacred Oak Wood Planks
+tile.sacredoak.planks.3.desc=Vertical Sacred Oak Wood Planks
+tile.sacredoak.planks.4.desc=Vertical Uneven Sacred Oak Wood Planks
+tile.sacredoak.planks.5.desc=Sacred Oak Wood Parquet
+tile.sacredoak.planks.7.desc=Sacred Oak Wood Plank Blinds
+tile.sacredoak.planks.12.desc=Sacred Oak Wood Scaffold
+tile.sacredoak.planks.14.desc=Sacred Oak Wood Planks in Disarray
+tile.sacredoak.planks.15.desc=Vertical Sacred Oak Wood Planks in Disarray
+
+#Cherry
+tile.cherry.planks.1.desc=Smooth Cherry Wood Planks
+tile.cherry.planks.2.desc=Short Cherry Wood Planks
+tile.cherry.planks.6.desc=Fancy Cherry Wood Plank Arrangement
+tile.cherry.planks.8.desc=Cherry Wood Panel
+tile.cherry.planks.9.desc=Cherry Wood Double Slab
+tile.cherry.planks.10.desc=Cherry Wood Crate
+tile.cherry.planks.11.desc=Fancy Cherry Wood Crate
+tile.cherry.planks.13.desc=Large Long Cherry Wood Planks
+tile.cherry.planks.3.desc=Vertical Cherry Wood Planks
+tile.cherry.planks.4.desc=Vertical Uneven Cherry Wood Planks
+tile.cherry.planks.5.desc=Kirschholzparkett
+tile.cherry.planks.7.desc=Kirschholz-Rollos
+tile.cherry.planks.12.desc=Kirschholzgerüst
+tile.cherry.planks.14.desc=Kirschholzplanken in Unordnung
+tile.cherry.planks.15.desc=Vertical Cherry Wood Planks in Disarray
+
+#Dark
+tile.dark.planks.1.desc=Smooth Dark Wood Planks
+tile.dark.planks.2.desc=Short Dark Wood Planks
+tile.dark.planks.6.desc=Fancy Dark Wood Plank Arrangement
+tile.dark.planks.8.desc=Dark Wood Panel
+tile.dark.planks.9.desc=Dark Wood Double Slab
+tile.dark.planks.10.desc=Dark Wood Crate
+tile.dark.planks.11.desc=Fancy Dark Wood Crate
+tile.dark.planks.13.desc=Large Long Dark Wood Planks
+tile.dark.planks.3.desc=Vertical Dark Wood Planks
+tile.dark.planks.4.desc=Vertical Uneven Dark Wood Planks
+tile.dark.planks.5.desc=Dark Wood Parquet
+tile.dark.planks.7.desc=Dark Wood Plank Blinds
+tile.dark.planks.12.desc=Dark Wood Scaffold
+tile.dark.planks.14.desc=Dark Wood Planks in Disarray
+tile.dark.planks.15.desc=Vertical Dark Wood Planks in Disarray
+
+#Fir
+tile.fir.planks.1.desc=Smooth Fir Wood Planks
+tile.fir.planks.2.desc=Short Fir Wood Planks
+tile.fir.planks.6.desc=Fancy Fir Wood Plank Arrangement
+tile.fir.planks.8.desc=Fir Wood Panel
+tile.fir.planks.9.desc=Fir Wood Double Slab
+tile.fir.planks.10.desc=Fir Wood Crate
+tile.fir.planks.11.desc=Fancy Fir Wood Crate
+tile.fir.planks.13.desc=Large Long Fir Wood Planks
+tile.fir.planks.3.desc=Vertical Fir Wood Planks
+tile.fir.planks.4.desc=Vertical Uneven Fir Wood Planks
+tile.fir.planks.5.desc=Fir Wood Parquet
+tile.fir.planks.7.desc=Fir Wood Plank Blinds
+tile.fir.planks.12.desc=Fir Wood Scaffold
+tile.fir.planks.14.desc=Fir Wood Planks in Disarray
+tile.fir.planks.15.desc=Vertical Fir Wood Planks in Disarray
+
+#Ethereal
+tile.ethereal.planks.1.desc=Smooth Ethereal Wood Planks
+tile.ethereal.planks.2.desc=Short Ethereal Wood Planks
+tile.ethereal.planks.6.desc=Fancy Ethereal Wood Plank Arrangement
+tile.ethereal.planks.8.desc=Ethereal Wood Panel
+tile.ethereal.planks.9.desc=Ethereal Wood Double Slab
+tile.ethereal.planks.10.desc=Ethereal Wood Crate
+tile.ethereal.planks.11.desc=Fancy Ethereal Wood Crate
+tile.ethereal.planks.13.desc=Large Long Ethereal Wood Planks
+tile.ethereal.planks.3.desc=Vertical Ethereal Wood Planks
+tile.ethereal.planks.4.desc=Vertical Uneven Ethereal Wood Planks
+tile.ethereal.planks.5.desc=Ethereal Wood Parquet
+tile.ethereal.planks.7.desc=Ethereal Wood Plank Blinds
+tile.ethereal.planks.12.desc=Ethereal Wood Scaffold
+tile.ethereal.planks.14.desc=Ethereal Wood Planks in Disarray
+tile.ethereal.planks.15.desc=Vertical Ethereal Wood Planks in Disarray
+
+#Magic
+tile.magic.planks.1.desc=Smooth Magic Wood Planks
+tile.magic.planks.2.desc=Short Magic Wood Planks
+tile.magic.planks.6.desc=Fancy Magic Wood Plank Arrangement
+tile.magic.planks.8.desc=Magic Wood Panel
+tile.magic.planks.9.desc=Magic Wood Double Slab
+tile.magic.planks.10.desc=Magic Wood Crate
+tile.magic.planks.11.desc=Fancy Magic Wood Crate
+tile.magic.planks.13.desc=Large Long Magic Wood Planks
+tile.magic.planks.3.desc=Vertical Magic Wood Planks
+tile.magic.planks.4.desc=Vertical Uneven Magic Wood Planks
+tile.magic.planks.5.desc=Magic Wood Parquet
+tile.magic.planks.7.desc=Magic Wood Plank Blinds
+tile.magic.planks.12.desc=Magic Wood Scaffold
+tile.magic.planks.14.desc=Magic Wood Planks in Disarray
+tile.magic.planks.15.desc=Vertical Magic Wood Planks in Disarray
+
+#Mangrove
+tile.mangrove.planks.1.desc=Smooth Mangrove Wood Planks
+tile.mangrove.planks.2.desc=Short Mangrove Wood Planks
+tile.mangrove.planks.6.desc=Fancy Mangrove Wood Plank Arrangement
+tile.mangrove.planks.8.desc=Mangrove Wood Panel
+tile.mangrove.planks.9.desc=Mangrove Wood Double Slab
+tile.mangrove.planks.10.desc=Mangrove Wood Crate
+tile.mangrove.planks.11.desc=Fancy Mangrove Wood Crate
+tile.mangrove.planks.13.desc=Large Long Mangrove Wood Planks
+tile.mangrove.planks.3.desc=Vertical Mangrove Wood Planks
+tile.mangrove.planks.4.desc=Vertical Uneven Mangrove Wood Planks
+tile.mangrove.planks.5.desc=Mangrove Wood Parquet
+tile.mangrove.planks.7.desc=Mangrove Wood Plank Blinds
+tile.mangrove.planks.12.desc=Mangrove Wood Scaffold
+tile.mangrove.planks.14.desc=Mangrove Wood Planks in Disarray
+tile.mangrove.planks.15.desc=Vertical Mangrove Wood Planks in Disarray
+
+#Palm
+tile.palm.planks.1.desc=Smooth Palm Wood Planks
+tile.palm.planks.2.desc=Short Palm Wood Planks
+tile.palm.planks.6.desc=Fancy Palm Wood Plank Arrangement
+tile.palm.planks.8.desc=Palm Wood Panel
+tile.palm.planks.9.desc=Palm Wood Double Slab
+tile.palm.planks.10.desc=Palm Wood Crate
+tile.palm.planks.11.desc=Fancy Palm Wood Crate
+tile.palm.planks.13.desc=Large Long Palm Wood Planks
+tile.palm.planks.3.desc=Vertical Palm Wood Planks
+tile.palm.planks.4.desc=Vertical Uneven Palm Wood Planks
+tile.palm.planks.5.desc=Palm Wood Parquet
+tile.palm.planks.7.desc=Palm Wood Plank Blinds
+tile.palm.planks.12.desc=Palm Wood Scaffold
+tile.palm.planks.14.desc=Palm Wood Planks in Disarray
+tile.palm.planks.15.desc=Vertical Palm Wood Planks in Disarray
+
+#Redwood
+tile.redwood.planks.1.desc=Smooth Redwood Wood Planks
+tile.redwood.planks.2.desc=Short Redwood Wood Planks
+tile.redwood.planks.6.desc=Fancy Redwood Wood Plank Arrangement
+tile.redwood.planks.8.desc=Redwood Wood Panel
+tile.redwood.planks.9.desc=Redwood Wood Double Slab
+tile.redwood.planks.10.desc=Redwood Wood Crate
+tile.redwood.planks.11.desc=Fancy Redwood Wood Crate
+tile.redwood.planks.13.desc=Large Long Redwood Wood Planks
+tile.redwood.planks.3.desc=Vertical Redwood Wood Planks
+tile.redwood.planks.4.desc=Vertical Uneven Redwood Wood Planks
+tile.redwood.planks.5.desc=Redwood Wood Parquet
+tile.redwood.planks.7.desc=Redwood Wood Plank Blinds
+tile.redwood.planks.12.desc=Redwood Wood Scaffold
+tile.redwood.planks.14.desc=Redwood Wood Planks in Disarray
+tile.redwood.planks.15.desc=Vertical Redwood Wood Planks in Disarray
+
+#Willow
+tile.willow.planks.1.desc=Smooth Willow Wood Planks
+tile.willow.planks.2.desc=Short Willow Wood Planks
+tile.willow.planks.6.desc=Fancy Willow Wood Plank Arrangement
+tile.willow.planks.8.desc=Willow Wood Panel
+tile.willow.planks.9.desc=Willow Wood Double Slab
+tile.willow.planks.10.desc=Willow Wood Crate
+tile.willow.planks.11.desc=Fancy Willow Wood Crate
+tile.willow.planks.13.desc=Large Long Willow Wood Planks
+tile.willow.planks.3.desc=Vertical Willow Wood Planks
+tile.willow.planks.4.desc=Vertical Uneven Willow Wood Planks
+tile.willow.planks.5.desc=Willow Wood Parquet
+tile.willow.planks.7.desc=Willow Wood Plank Blinds
+tile.willow.planks.12.desc=Willow Wood Scaffold
+tile.willow.planks.14.desc=Willow Wood Planks in Disarray
+tile.willow.planks.15.desc=Vertical Willow Wood Planks in Disarray
+
+#Pine
+tile.pine.planks.1.desc=Smooth Pine Wood Planks
+tile.pine.planks.2.desc=Short Pine Wood Planks
+tile.pine.planks.6.desc=Fancy Pine Wood Plank Arrangement
+tile.pine.planks.8.desc=Pine Wood Panel
+tile.pine.planks.9.desc=Pine Wood Double Slab
+tile.pine.planks.10.desc=Pine Wood Crate
+tile.pine.planks.11.desc=Fancy Pine Wood Crate
+tile.pine.planks.13.desc=Large Long Pine Wood Planks
+tile.pine.planks.3.desc=Vertical Pine Wood Planks
+tile.pine.planks.4.desc=Vertical Uneven Pine Wood Planks
+tile.pine.planks.5.desc=Pine Wood Parquet
+tile.pine.planks.7.desc=Pine Wood Plank Blinds
+tile.pine.planks.12.desc=Pine Wood Scaffold
+tile.pine.planks.14.desc=Pine Wood Planks in Disarray
+tile.pine.planks.15.desc=Vertical Pine Wood Planks in Disarray
+
+#Hellbark
+tile.hellbark.planks.1.desc=Smooth Hellbark Wood Planks
+tile.hellbark.planks.2.desc=Short Hellbark Wood Planks
+tile.hellbark.planks.6.desc=Fancy Hellbark Wood Plank Arrangement
+tile.hellbark.planks.8.desc=Hellbark Wood Panel
+tile.hellbark.planks.9.desc=Hellbark Wood Double Slab
+tile.hellbark.planks.10.desc=Hellbark Wood Crate
+tile.hellbark.planks.11.desc=Fancy Hellbark Wood Crate
+tile.hellbark.planks.13.desc=Large Long Hellbark Wood Planks
+tile.hellbark.planks.3.desc=Vertical Hellbark Wood Planks
+tile.hellbark.planks.4.desc=Vertical Uneven Hellbark Wood Planks
+tile.hellbark.planks.5.desc=Hellbark Wood Parquet
+tile.hellbark.planks.7.desc=Hellbark Wood Plank Blinds
+tile.hellbark.planks.12.desc=Hellbark Wood Scaffold
+tile.hellbark.planks.14.desc=Hellbark Wood Planks in Disarray
+tile.hellbark.planks.15.desc=Vertical Hellbark Wood Planks in Disarray
+
+#Jacaranda
+tile.jacaranda.planks.1.desc=Smooth Jacaranda Wood Planks
+tile.jacaranda.planks.2.desc=Short Jacaranda Wood Planks
+tile.jacaranda.planks.6.desc=Fancy Jacaranda Wood Plank Arrangement
+tile.jacaranda.planks.8.desc=Jacaranda Wood Panel
+tile.jacaranda.planks.9.desc=Jacaranda Wood Double Slab
+tile.jacaranda.planks.10.desc=Jacaranda Wood Crate
+tile.jacaranda.planks.11.desc=Fancy Jacaranda Wood Crate
+tile.jacaranda.planks.13.desc=Large Long Jacaranda Wood Planks
+tile.jacaranda.planks.3.desc=Vertical Jacaranda Wood Planks
+tile.jacaranda.planks.4.desc=Vertical Uneven Jacaranda Wood Planks
+tile.jacaranda.planks.5.desc=Jacaranda Wood Parquet
+tile.jacaranda.planks.7.desc=Jacaranda Wood Plank Blinds
+tile.jacaranda.planks.12.desc=Jacaranda Wood Scaffold
+tile.jacaranda.planks.14.desc=Jacaranda Wood Planks in Disarray
+tile.jacaranda.planks.15.desc=Vertical Jacaranda Wood Planks in Disarray
+
+#Mahogany
+tile.mahogany.planks.1.desc=Smooth Mahogany Wood Planks
+tile.mahogany.planks.2.desc=Short Mahogany Wood Planks
+tile.mahogany.planks.6.desc=Fancy Mahogany Wood Plank Arrangement
+tile.mahogany.planks.8.desc=Mahogany Wood Panel
+tile.mahogany.planks.9.desc=Mahogany Wood Double Slab
+tile.mahogany.planks.10.desc=Mahogany Wood Crate
+tile.mahogany.planks.11.desc=Fancy Mahogany Wood Crate
+tile.mahogany.planks.13.desc=Large Long Mahogany Wood Planks
+tile.mahogany.planks.3.desc=Vertical Mahogany Wood Planks
+tile.mahogany.planks.4.desc=Vertical Uneven Mahogany Wood Planks
+tile.mahogany.planks.5.desc=Mahogany Wood Parquet
+tile.mahogany.planks.7.desc=Mahogany Wood Plank Blinds
+tile.mahogany.planks.12.desc=Mahogany Wood Scaffold
+tile.mahogany.planks.14.desc=Mahogany Wood Planks in Disarray
+tile.mahogany.planks.15.desc=Vertical Mahogany Wood Planks in Disarray
+
+#Greatwood
+tile.greatwood.planks.1.desc=Smooth Greatwood Wood Planks
+tile.greatwood.planks.2.desc=Short Greatwood Wood Planks
+tile.greatwood.planks.6.desc=Fancy Greatwood Wood Plank Arrangement
+tile.greatwood.planks.8.desc=Greatwood Wood Panel
+tile.greatwood.planks.9.desc=Greatwood Wood Double Slab
+tile.greatwood.planks.10.desc=Greatwood Wood Crate
+tile.greatwood.planks.11.desc=Fancy Greatwood Wood Crate
+tile.greatwood.planks.13.desc=Large Long Greatwood Wood Planks
+tile.greatwood.planks.3.desc=Vertical Greatwood Wood Planks
+tile.greatwood.planks.4.desc=Vertical Uneven Greatwood Wood Planks
+tile.greatwood.planks.5.desc=Greatwood Wood Parquet
+tile.greatwood.planks.7.desc=Greatwood Wood Plank Blinds
+tile.greatwood.planks.12.desc=Greatwood Wood Scaffold
+tile.greatwood.planks.14.desc=Greatwood Wood Planks in Disarray
+tile.greatwood.planks.15.desc=Vertical Greatwood Wood Planks in Disarray
+
+#Silverwood
+tile.silverwood.planks.1.desc=Smooth Silverwood Wood Planks
+tile.silverwood.planks.2.desc=Short Silverwood Wood Planks
+tile.silverwood.planks.6.desc=Fancy Silverwood Wood Plank Arrangement
+tile.silverwood.planks.8.desc=Silverwood Wood Panel
+tile.silverwood.planks.9.desc=Silverwood Wood Double Slab
+tile.silverwood.planks.10.desc=Silverwood Wood Crate
+tile.silverwood.planks.11.desc=Fancy Silverwood Wood Crate
+tile.silverwood.planks.13.desc=Large Long Silverwood Wood Planks
+tile.silverwood.planks.3.desc=Vertical Silverwood Wood Planks
+tile.silverwood.planks.4.desc=Vertical Uneven Silverwood Wood Planks
+tile.silverwood.planks.5.desc=Silverwood Wood Parquet
+tile.silverwood.planks.7.desc=Silverwood Wood Plank Blinds
+tile.silverwood.planks.12.desc=Silverwood Wood Scaffold
+tile.silverwood.planks.14.desc=Silverwood Wood Planks in Disarray
+tile.silverwood.planks.15.desc=Vertical Silverwood Wood Planks in Disarray
+
+#Stained Glass
+white.bubble.desc=Weißes Blasenglas
+white.glass.desc=Weiße Glasscheibe
+white.glass.fancy.desc=Weiße fantasievolle Glasscheibe
+white.glass.noborder.desc=Weißes randloses Glas
+white.glass.forestry.desc=Weißes Forestry-Glas
+
+orange.bubble.desc=Oranges Blasenglas
+orange.glass.desc=Orange Glasscheibe
+orange.glass.fancy.desc=Orange fantasievolle Glasscheibe
+orange.glass.noborder.desc=Oranges randloses Glas
+orange.glass.forestry.desc=Oranges Forestry-Glas
+
+magenta.bubble.desc=Lila Blasenglas
+magenta.glass.desc=Lila Glasscheibe
+magenta.glass.fancy.desc=Lila fantasievolle Glasscheibe
+magenta.glass.noborder.desc=Lila randloses Glas
+magenta.glass.forestry.desc=Lila Forestry-Glas
+
+lightblue.bubble.desc=Hellblaues Blasenglas
+lightblue.glass.desc=Hellblaue Glasscheibe
+lightblue.glass.fancy.desc=Hellblaue fantasievolle Glasscheibe
+lightblue.glass.noborder.desc=Hellblaues randloses Glas
+lightblue.glass.forestry.desc=Hellblaues Forestry-Glas
+
+yellow.bubble.desc=Gelbes Blasenglas
+yellow.glass.desc=Gelbe Glasscheibe
+yellow.glass.fancy.desc=Gelbe fantasievolle Glasscheibe
+yellow.glass.noborder.desc=Gelbes randloses Glas
+yellow.glass.forestry.desc=Gelbes Forestry-Glas
+
+lime.bubble.desc=Hellgrünes Blasenglas
+lime.glass.desc=Hellgrüne Glasscheibe
+lime.glass.fancy.desc=Hellgrüne fantasievolle Glasscheibe
+lime.glass.noborder.desc=Hellgrünes randloses Glas
+lime.glass.forestry.desc=Hellgrünes Forestry-Glas
+
+pink.bubble.desc=Rosa Blasenglas
+pink.glass.desc=Rosa Glasscheibe
+pink.glass.fancy.desc=Rosa fantasievolle Glasscheibe
+pink.glass.noborder.desc=Rosa randloses Glas
+pink.glass.forestry.desc=Rosa Forestry-Glas
+
+darkgray.bubble.desc=Graues Blasenglas
+darkgray.glass.desc=Graue Glasscheibe
+darkgray.glass.fancy.desc=Graue fantasievolle Glasscheibe
+darkgray.glass.noborder.desc=Graues randloses Glas
+darkgray.glass.forestry.desc=Graues Forestry-Glas
+
+lightgray.bubble.desc=Hellgraues Blasenglas
+lightgray.glass.desc=Hellgraue Glasscheibe
+lightgray.glass.fancy.desc=Hellgraue fantasievolle Glasscheibe
+lightgray.glass.noborder.desc=Hellgraues randloses Glas
+lightgray.glass.forestry.desc=Hellgraues Forestry-Glas
+
+cyan.bubble.desc=Türkises Blasenglas
+cyan.glass.desc=Türkise Glasscheibe
+cyan.glass.fancy.desc=Türkise fantasievolle Glasscheibe
+cyan.glass.noborder.desc=Türkises randloses Glas
+cyan.glass.forestry.desc=Türkises Forestry-Glas
+
+purple.bubble.desc=Violettes Blasenglas
+purple.glass.desc=Violette Glasscheibe
+purple.glass.fancy.desc=Violette fantasievolle Glasscheibe
+purple.glass.noborder.desc=Violettes randloses Glas
+purple.glass.forestry.desc=Violettes Forestry-Glas
+
+blue.bubble.desc=Blaues Blasenglas
+blue.glass.desc=Blaue Glasscheibe
+blue.glass.fancy.desc=Blaue fantasievolle Glasscheibe
+blue.glass.noborder.desc=Blaues randloses Glas
+blue.glass.forestry.desc=Blaues Forestry-Glas
+
+brown.bubble.desc=Braunes Blasenglas
+brown.glass.desc=Braune Glasscheibe
+brown.glass.fancy.desc=Braune fantasievolle Glasscheibe
+brown.glass.noborder.desc=Braunes randloses Glas
+brown.glass.forestry.desc=Braunes Forestry-Glas
+
+green.bubble.desc=Grünes Blasenglas
+green.glass.desc=Grüne Glasscheibe
+green.glass.fancy.desc=Grüne fantasievolle Glasscheibe
+green.glass.noborder.desc=Grünes randloses Glas
+green.glass.forestry.desc=Grünes Forestry-Glas
+
+red.bubble.desc=Rotes Blasenglas
+red.glass.desc=Rote Glasscheibe
+red.glass.fancy.desc=Rote fantasievolle Glasscheibe
+red.glass.noborder.desc=Rotes randloses Glas
+red.glass.forestry.desc=Rotes Forestry-Glas
+
+black.bubble.desc=Schwarzes Blasenglas
+black.glass.desc=Schwarze Glasscheibe
+black.glass.fancy.desc=Schwarze fantasievolle Glasscheibe
+black.glass.noborder.desc=Schwarzes randloses Glas
+black.glass.forestry.desc=Schwarzes Forestry-Glas
+
+#Stained Glass Pane
+white.pane.bubble.desc=Weißes Blasenglas
+white.pane.glass.desc=Weiße Glasscheibe
+white.pane.glass.fancy.desc=Weiße fantasievolle Glasscheibe
+white.pane.glass.noborder.desc=Weißes randloses Glas
+white.pane.glass.quadrant.desc=Weißes quadratisches Glas
+white.pane.glass.fancyquadrant.desc=Weißes fantasievolles quadratisches Glas
+
+orange.pane.bubble.desc=Oranges Blasenglas
+orange.pane.glass.desc=Orange Glasscheibe
+orange.pane.glass.fancy.desc=Orange fantasievolle Glasscheibe
+orange.pane.glass.noborder.desc=Oranges randloses Glas
+orange.pane.glass.quadrant.desc=Oranges quadratisches Glas
+orange.pane.glass.fancyquadrant.desc=Oranges fantasievolles quadratisches Glas
+
+magenta.pane.bubble.desc=Lila Blasenglas
+magenta.pane.glass.desc=Lila Glasscheibe
+magenta.pane.glass.fancy.desc=Lila Fantasievolle Glasscheibe
+magenta.pane.glass.noborder.desc=Lila randloses Glas
+magenta.pane.glass.quadrant.desc=Lila quadratisches Glas
+magenta.pane.glass.fancyquadrant.desc=Lila fantasievolles quadratisches Glas
+
+lightblue.pane.bubble.desc=Hellblaues Blasenglas
+lightblue.pane.glass.desc=Hellblaue Glasscheibe
+lightblue.pane.glass.fancy.desc=Hellblaue fantasievolle Glasscheibe
+lightblue.pane.glass.noborder.desc=Hellblaues randloses Glas
+lightblue.pane.glass.quadrant.desc=Hellblaues quadratisches Glas
+lightblue.pane.glass.fancyquadrant.desc=Hellblaues fantasievolles quadratisches Glas
+
+yellow.pane.bubble.desc=Gelbes Blasenglas
+yellow.pane.glass.desc=Gelbe Glasscheibe
+yellow.pane.glass.fancy.desc=Gelbe fantasievolle Glasscheibe
+yellow.pane.glass.noborder.desc=Gelbes randloses Glas
+yellow.pane.glass.quadrant.desc=Gelbes quadratisches Glas
+yellow.pane.glass.fancyquadrant.desc=Gelbes fantasievolles quadratisches Glas
+
+lime.pane.bubble.desc=Hellgrünes Blasenglas
+lime.pane.glass.desc=Hellgrüne Glasscheibe
+lime.pane.glass.fancy.desc=Hellgrüne fantasievolle Glasscheibe
+lime.pane.glass.noborder.desc=Hellgrünes randloses Glas
+lime.pane.glass.quadrant.desc=Hellgrünes quadratisches Glas
+lime.pane.glass.fancyquadrant.desc=Hellgrünes fantasievolles quadratisches Glas
+
+pink.pane.bubble.desc=Rosa Blasenglas
+pink.pane.glass.desc=Rosa Glasscheibe
+pink.pane.glass.fancy.desc=Rosa fantasievolle Glasscheibe
+pink.pane.glass.noborder.desc=Rosa randloses Glas
+pink.pane.glass.quadrant.desc=Rosa quadratisches Glas
+pink.pane.glass.fancyquadrant.desc=Rosa fantasievolles quadratisches Glas
+
+darkgray.pane.bubble.desc=Graues Blasenglas
+darkgray.pane.glass.desc=Graue Glasscheibe
+darkgray.pane.glass.fancy.desc=Graue fantasievolle Glasscheibe
+darkgray.pane.glass.noborder.desc=Graues randloses Glas
+darkgray.pane.glass.quadrant.desc=Graues quadratisches Glas
+darkgray.pane.glass.fancyquadrant.desc=Graues fantasievolles quadratisches Glas
+
+lightgray.pane.bubble.desc=Hellgraues Blasenglas
+lightgray.pane.glass.desc=Hellgraue Glasscheibe
+lightgray.pane.glass.fancy.desc=Hellgraue fantasievolle Glasscheibe
+lightgray.pane.glass.noborder.desc=Hellgraues randloses Glas
+lightgray.pane.glass.quadrant.desc=Hellgraues quadratisches Glas
+lightgray.pane.glass.fancyquadrant.desc=Hellgraues fantasievolles quadratisches Glas
+
+cyan.pane.bubble.desc=Türkises Blasenglas
+cyan.pane.glass.desc=Türkise Glasscheibe
+cyan.pane.glass.fancy.desc=Türkise fantasievolle Glasscheibe
+cyan.pane.glass.noborder.desc=Türkises randloses Glas
+cyan.pane.glass.quadrant.desc=Türkises quadratisches Glas
+cyan.pane.glass.fancyquadrant.desc=Türkises fantasievolles quadratisches Glas
+
+purple.pane.bubble.desc=Violettes Blasenglas
+purple.pane.glass.desc=Violette Glasscheibe
+purple.pane.glass.fancy.desc=Violette fantasievolle Glasscheibe
+purple.pane.glass.noborder.desc=Violettes randloses Glas
+purple.pane.glass.quadrant.desc=Violettes quadratisches Glas
+purple.pane.glass.fancyquadrant.desc=Violettes fantasievolles quadratisches Glas
+
+blue.pane.bubble.desc=Blaues Blasenglas
+blue.pane.glass.desc=Blaue Glasscheibe
+blue.pane.glass.fancy.desc=Blaue fantasievolle Glasscheibe
+blue.pane.glass.noborder.desc=Blaues randloses Glas
+blue.pane.glass.quadrant.desc=Blaues quadratisches Glas
+blue.pane.glass.fancyquadrant.desc=Blaues fantasievolles quadratisches Glas
+
+brown.pane.bubble.desc=Braunes Blasenglas
+brown.pane.glass.desc=Braune Glasscheibe
+brown.pane.glass.fancy.desc=Braune fantasievolle Glasscheibe
+brown.pane.glass.noborder.desc=Braunes randloses Glas
+brown.pane.glass.quadrant.desc=Braunes quadratisches Glas
+brown.pane.glass.fancyquadrant.desc=Braunes fantasievolles quadratisches Glas
+
+green.pane.bubble.desc=Grünes Blasenglas
+green.pane.glass.desc=Grüne Glasscheibe
+green.pane.glass.fancy.desc=Grüne fantasievolle Glasscheibe
+green.pane.glass.noborder.desc=Grünes randloses Glas
+green.pane.glass.quadrant.desc=Grünes quadratisches Glas
+green.pane.glass.fancyquadrant.desc=Grünes fantasievolles quadratisches Glas
+
+red.pane.bubble.desc=Rotes Blasenglas
+red.pane.glass.desc=Rote Glasscheibe
+red.pane.glass.fancy.desc=Rote fantasievolle Glasscheibe
+red.pane.glass.noborder.desc=Rotes randloses Glas
+red.pane.glass.quadrant.desc=Rotes quadratisches Glas
+red.pane.glass.fancyquadrant.desc=Rotes fantasievolles quadratisches Glas
+
+black.pane.bubble.desc=Schwarzes Blasenglas
+black.pane.glass.desc=Schwarze Glasscheibe
+black.pane.glass.fancy.desc=Schwarze fantasievolle Glasscheibe
+black.pane.glass.noborder.desc=Schwarzes randloses Glas
+black.pane.glass.quadrant.desc=Schwarzes quadratisches Glas
+black.pane.glass.fancyquadrant.desc=Schwarzes fantasievolles quadratisches Glas
+
+#Creative Tab localizations
+itemGroup.tabOtherChiselBlocks=Andere gemeißelte Blöcke
+itemGroup.tabStoneChiselBlocks=Gemeißelte Steinblöcke
+itemGroup.tabWoodChiselBlocks=Gemeißelte Holzblöcke
+itemGroup.tabMetalChiselBlocks=Gemeißelte Metallblöcke
+itemGroup.tabModdedChiselBlocks=Gemeißelte Mod-Blöcke
+itemGroup.tabStairChiselBlocks=Gemeißelte Treppen
+itemGroup.tabChisel=Gemeißelte Gegenstände
+
+#Container
+container.chisel=Meißel
+container.chisel.title=Gemeißelter Block
+container.chisel.titleShort=Meißeln
+container.chisel.mode=Modus:
+container.chisel.mode.single=Einzel
+container.chisel.mode.panel=Feld
+container.chisel.mode.column=Spalte
+container.chisel.mode.row=Zeile
+
+#cubits
+tile.chisel.cubit.name=Cubits
+tile.cubit.0.desc=Cubit(0)
+tile.cubit.1.desc=Cubit(1)
+tile.cubit.2.desc=Cubit(2)
+tile.cubit.3.desc=Cubit(3)
+tile.cubit.4.desc=Cubit(4)
+tile.cubit.5.desc=Cubit(5)
+tile.cubit.6.desc=Cubit(6)
+tile.cubit.7.desc=Cubit(7)
+tile.cubit.8.desc=Cubit(8)
+tile.cubit.9.desc=Cubit(9)
+tile.cubit.10.desc=Cubit(10)
+tile.cubit.11.desc=Cubit(11)
+tile.cubit.12.desc=Cubit(12)
+tile.cubit.13.desc=Cubit(13)
+tile.cubit.14.desc=Cubit(14)
+tile.cubit.15.desc=Cubit(15)
+
+#Hempcrete
+tile.chisel.hempcrete.name=Hanfbeton
+tile.hempcrete.0.desc=Weiß
+tile.hempcrete.1.desc=Orange
+tile.hempcrete.2.desc=Magenta
+tile.hempcrete.3.desc=Hellblau
+tile.hempcrete.4.desc=Gelb
+tile.hempcrete.5.desc=Hellgrüne
+tile.hempcrete.6.desc=Pink
+tile.hempcrete.7.desc=Grau
+tile.hempcrete.8.desc=Hellgrau
+tile.hempcrete.9.desc=Türkis
+tile.hempcrete.10.desc=Lila
+tile.hempcrete.11.desc=Blau
+tile.hempcrete.12.desc=Braun
+tile.hempcrete.13.desc=Grün
+tile.hempcrete.14.desc=Rot
+tile.hempcrete.15.desc=Schwarz
+
+#hempcreteSand
+tile.chisel.hempcretesand.name=Hanfbeton Pulver
+tile.hempcretesand.0.desc=Weiß
+tile.hempcretesand.1.desc=Orange
+tile.hempcretesand.2.desc=Lila
+tile.hempcretesand.3.desc=Hellblau
+tile.hempcretesand.4.desc=Gelb
+tile.hempcretesand.5.desc=Hellgrün
+tile.hempcretesand.6.desc=Rosa
+tile.hempcretesand.7.desc=Grau
+tile.hempcretesand.8.desc=Hellgrau
+tile.hempcretesand.9.desc=Türkis
+tile.hempcretesand.10.desc=Violett
+tile.hempcretesand.11.desc=Blau
+tile.hempcretesand.12.desc=Braun
+tile.hempcretesand.13.desc=Grün
+tile.hempcretesand.14.desc=Rot
+tile.hempcretesand.15.desc=Schwarz
+
+#Sveltsone
+tile.chisel.sveltstone.name=Svelstone block
+tile.sveltstone.0.desc=Silbersand
+tile.sveltstone.1.desc=Sanddüne
+tile.sveltstone.2.desc=Braungrau
+tile.sveltstone.3.desc=Feuerstein
+tile.sveltstone.4.desc=Taupe
+tile.sveltstone.5.desc=Tabakbraun
+tile.sveltstone.6.desc=Brocken
+tile.sveltstone.7.desc=Olive Haze
+tile.sveltstone.8.desc=Pale Oister
+tile.sveltstone.9.desc=Hemlock
+tile.sveltstone.10.desc=Rifle Green
+tile.sveltstone.11.desc=Everglade
+tile.sveltstone.12.desc=Baltic Sea
+tile.sveltstone.13.desc=Weltraum
+tile.sveltstone.14.desc=Gunmetal
+tile.sveltstone.15.desc=Matterhorn
+
+#NUCRETE
+tile.chisel.nucrete.name=Struktureler Beton
+tile.nucrete.0.desc=Dark Concrete Breezeblocks
+tile.nucrete.1.desc=Dunkle Betonplatte
+tile.nucrete.2.desc=Dunkle Betonplatte 2
+tile.nucrete.3.desc=Dark Smooth Concrete
+tile.nucrete.4.desc=Dunkle Betonkacheln
+tile.nucrete.5.desc=Dark Concrete Strip
+tile.nucrete.6.desc=Dark Concrete Caution Tape
+tile.nucrete.7.desc=Dark Concrete Tiles
+tile.nucrete.8.desc=Light Concrete Breezeblocks
+tile.nucrete.9.desc=Light Concrete Panel
+tile.nucrete.10.desc=Light Concrete Panel 2
+tile.nucrete.11.desc=Light Smooth Concrete
+tile.nucrete.12.desc=Light Concrete Tiles
+tile.nucrete.13.desc=Leichtbeton-Streifen
+tile.nucrete.14.desc=Leichtbeton-Absperrband
+tile.nucrete.15.desc=Leichtbeton-Kacheln
+
+#Neonite
+tile.chisel.neonite.name=Neonit
+tile.neonite.0.desc=Atomic Tangerine
+tile.neonite.1.desc=Saffron Mango
+tile.neonite.2.desc=Golden Glow
+tile.neonite.3.desc=Oasis
+tile.neonite.4.desc=Pixie Green
+tile.neonite.5.desc=Fresh Green
+tile.neonite.6.desc=Jungle Green
+tile.neonite.7.desc=Mariner
+tile.neonite.8.desc=Congress Blue
+tile.neonite.9.desc=Deep Sapphire
+tile.neonite.10.desc=Deep Cove
+tile.neonite.11.desc=Meteorite
+tile.neonite.12.desc=Eminence
+tile.neonite.13.desc=Warm Purple
+tile.neonite.14.desc=Himbeerrosa
+tile.neonite.15.desc=Wassermelonenrosa
+
+#Glotek
+tile.chisel.glotek.name=GloTek
+tile.glotek.0.desc=Keramik
+tile.glotek.1.desc=Sandwisp
+tile.glotek.2.desc=Easter Green
+tile.glotek.3.desc=Dragon Green
+tile.glotek.4.desc=Tealish Green
+tile.glotek.5.desc=Green Haze
+tile.glotek.6.desc=Petrol
+tile.glotek.7.desc=Catalina Blue
+tile.glotek.8.desc=Blue Gem
+tile.glotek.9.desc=Royal Purple
+tile.glotek.10.desc=Dark Magenta
+tile.glotek.11.desc=Dogwood Rose
+tile.glotek.12.desc=Cranberry
+tile.glotek.13.desc=Brink Pink
+tile.glotek.14.desc=Dark Salmon
+tile.glotek.15.desc=Harvest Gold
+
+#Froglight
+tile.chisel.froglight.name=Froglight
+tile.froglight.0.desc=Aluminium
+tile.froglight.1.desc=Titan
+tile.froglight.2.desc=Wolframstahl
+tile.froglight.3.desc=Osmium
+tile.froglight.4.desc=Fluxiert
+tile.froglight.5.desc=Uran
+tile.froglight.6.desc=Girisium
+tile.froglight.7.desc=Orundum
+tile.froglight.8.desc=Blutbefleckt
+tile.froglight.9.desc=Ichor
+
+#Lanterns
+tile.chisel.lantern.name=Lantern
+tile.lantern.0.desc=Simple
+tile.lantern.1.desc=Glow
+tile.lantern.2.desc=Redstone
+tile.lantern.3.desc=Soul
+tile.lantern.4.desc=Cursed
+tile.lantern.5.desc=Ender
+
+#Sheetmetal
+tile.chisel.sheetmetal.name=Sheetmetal
+tile.sheetmetal.0.desc=Walling
+tile.sheetmetal.1.desc=Siding
+tile.sheetmetal.2.desc=Paneling
+tile.sheetmetal.3.desc=Plating
+tile.sheetmetal.4.desc=Treading
+tile.sheetmetal.5.desc=Walling (Rusty)
+tile.sheetmetal.6.desc=Siding (Rusty)
+tile.sheetmetal.7.desc=Paneling (Rusty)
+tile.sheetmetal.8.desc=Plating (Rusty)
+tile.sheetmetal.9.desc=Treading (Rusty)
+
+#Moss
+tile.chisel.moss.name=Moss
+tile.moss.0.desc=Lush
+tile.moss.1.desc=Pale
+tile.moss.2.desc=Dark
+tile.moss.3.desc=Dry
+tile.moss.4.desc=Golden
+tile.moss.5.desc=Infused
+tile.moss.6.desc=Mutated
+tile.moss.7.desc=Scorched
+tile.moss.8.desc=Vivid
+tile.moss.9.desc=Peaty
+tile.moss.10.desc=Pink Sphagnum
+
+#Metals2
+tile.chisel.cobaltblock.name=Block of Cobalt
+tile.chisel.invarblock.name=Block of Invar
+tile.chisel.electrumblock.name=Block of Electrum
+tile.chisel.nickelblock.name=Block of Nickel
+tile.chisel.platinumblock.name=Block of Platinum
+tile.chisel.wroughtironblock.name=Block of Wrought Iron
+tile.chisel.stainlesssteelblock.name=Block of Stainless Steel
+tile.chisel.titaniumblock.name=Block of Titanium
+tile.chisel.tungstensteelblock.name=Block of Tungstensteel
+tile.chisel.rppblock.name=Block of Rhodium-Plated Palladium
+tile.chisel.iridiumblock.name=Block of Iridium
+tile.chisel.osmiumblock.name=Block of Osmium
+tile.numetalOre.0.desc=Egregious
+tile.numetalOre.1.desc=Bolted Casing
+tile.numetalOre.2.desc=Caution Stripes
+tile.numetalOre.3.desc=Shipping Crate
+tile.numetalOre.4.desc=Machinery
+tile.numetalOre.5.desc=Scaffolding
+tile.numetalOre.6.desc=Thermal
+
+
+tile.newmetalOre.0.desc=Machinery
+tile.newmetalOre.1.desc=Egregiously Modern
+tile.newetalOre.2.desc=Bolted Casing
+tile.newetalOre.3.desc=Caution Stripes
+tile.newetalOre.4.desc=Shipping Crate
+tile.newetalOre.5.desc=Egregious
+tile.newetalOre.6.desc=Scaffolding
+tile.newetalOre.7.desc=Thermal
+
+
+tile.chisel.amber.name=Block aus Bernstein
+tile.chisel.bloodBrick.name=Bloodstone Brick
