@@ -4,6 +4,7 @@ import glob
 import os
 import shutil
 from pathlib import Path
+import re
 import subprocess
 from typing import Sequence, TypeAlias, Callable, Optional
 
@@ -137,9 +138,14 @@ class Action:
             if provided.parts and provided.parts[0] == "config":
                 logger.info(f"Skip normalizing path for {path}")
             elif provided.parts and provided.parts[0] == "resources":
+                for i in range(provided.parts):
+                    result = re.sub(r"\(\+\d+\)", "", provided.parts[i])
+                    if result != provided.parts[i]:
+                        logger.warning(f"Trimmed path for {provided.parts[i]}")
+                        provided.parts[i] = result
                 provided = cfg / "txloader" / "load" / Path(*provided.parts[1:])
             else:
-                logger.warn(f"Unknown path {path}")
+                logger.warning(f"Unknown path {path}")
                 provided = cfg / "txloader" / "load" / provided
             return provided
 
