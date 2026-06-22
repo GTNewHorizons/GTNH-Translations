@@ -1,0 +1,41 @@
+ggfab.recipe.toolcast=툴 주조 기계
+
+ggfab.info.advassline.0=고급 조립 라인 도움말
+ggfab.info.advassline.1=이것은 §6GigaGram§rFab의 고급 조립 라인입니다.
+ggfab.info.advassline.2=아이템 파이프라인을 지원합니다. 즉, 처음에 모든 재료를 소비하는 대신 하나씩 재료를 소비하여 실제 조립 라인을 모방합니다. 실제로 이 조합법에 필요한 아이템 입력 수만큼 병렬성을 제공합니다.
+ggfab.info.advassline.3=고급 조립 라인은 조립 슬라이스의 집합으로 생각할 수 있습니다. 각 조립 슬라이스는 다른 슬라이스와 독립적으로 각 단계를 처리할 수 있습니다.
+ggfab.info.advassline.4=입력 버스 내용이 저장된 데이터 스틱과 일치하면 처리 과정이 시작됩니다. 첫 번째 슬라이스는 버스 #1의 입력을 소비합니다. (조합법 시간/입력 수) 시간이 경과하면 첫 번째 슬라이스의 작업이 완료되고 두 번째 슬라이스가 시작됩니다. 동시에 첫 번째 슬라이스는 입력 버스 #1의 입력을 검색합니다. 해당 버스에 여전히 충분한 입력이 있다면 슬라이스 #1은 다시 작업을 시작합니다.
+ggfab.info.advassline.5=종단 슬라이스(조합법에 입력된 항목 수 n번째 슬라이스)는 작업을 완료하면 조합법 출력을 출력 버스에 전송합니다. 비종단 슬라이스가 작업을 완료하면 다음 슬라이스로 작업을 전달하려고 시도합니다. 다음 슬라이스가 입력 버스에서 재료를 찾을 수 없는 경우, 방금 완료된 슬라이스는 §4고정된§r 상태로 남아 조립 라인을 중단시킵니다. 이러한 §4고정된§r 조립 라인을 식별하기 위해 컨트롤러의 전면 패널에는 상태 표시등이 오렌지색으로 점등됩니다.
+ggfab.info.advassline.6=이 기계의 EU/t 비용은 활성화된 슬라이스 수에 원본 조합법의 EU/t를 곱한 값입니다. §4고정된§r 슬라이스는 전력을 소비하지 않습니다. 조합법 티어 계산 및 일반적인 불완전 오버클럭을 위해 가장 낮은 에너지 공급 해치의 입력 전압을 사용합니다.
+ggfab.info.advassline.7=엑소틱 에너지 해치를 통해 일반적인 전압 티어를 초월해 오버클럭이 가능하지만, 일반적인 불완전한 오버클럭보다 더 많은 전력을 소비합니다. 각 §2레이저 오버클럭§r은 전력 지수에 %s를 추가합니다.
+ggfab.info.advassline.8=1 §2레이저 오버클럭§r는 50%의 조합법 시간을 갖으며 %s%%의 전력을 사용합니다. 2 §2레이저 오버클럭§r는 25%의 조합법 시간을 갖으며 %s%% (%s * %s)의 전력을 사용합니다. 1틱을 초과하여 오버클럭하지 않습니다. 기계는 먼저 병렬 처리를 시도한 후 일반적인 불완전한 오버클럭을 시도하며, 마지막으로 §2레이저 오버클럭§r를 시도합니다.
+ggfab.waila.advassline.slice=조각 #%s: %s 초 / %s 초
+ggfab.waila.advassline.slice.small=조각 #%s: %s 틱 / %s 틱
+ggfab.waila.advassline.slice.idle=Slice #%s: Idle
+ggfab.waila.advassline.slice.stuck=Slice #%s: §4STUCK
+ggfab.gui.advassline.slice.idle=Slice #%s: Idle
+ggfab.gui.advassline.slice.stuck=Slice #%s: §4STUCK
+ggfab.gui.advassline.slice.unknown=Slice #%s: ?
+ggfab.gui.advassline.shutdown=§4Last abnormal shutdown reason:
+ggfab.gui.advassline.shutdown_clear=§6Clear
+ggfab.gui.advassline.shutdown.input_busses=§4Too few input busses to support current recipe
+ggfab.gui.advassline.shutdown.recipe_null=§4Recipe is null (report to author)
+ggfab.gui.advassline.shutdown.fluid_null=§4Fluid drained failed (check your ME fluid storage)
+ggfab.gui.advassline.shutdown.structure=§4Incompatible structural change
+ggfab.gui.advassline.shutdown.energy=§4Insufficient power
+ggfab.gui.advassline.shutdown.load.energy=§4Loaded invalid electric stat
+ggfab.gui.advassline.shutdown.load.recipe=§4Incompatible recipe change
+
+ggfab.info.linked_input_bus.not_owned=§6The settings were copied from a different owner!
+ggfab.info.linked_input_bus.no_data=§6Configuration data not found!
+ggfab.info.linked_input_bus.invalid_data=§6Configuration data was found but it is invalid!
+ggfab.info.linked_input_bus.invalid_circuit=§6Configuration data was found but it contains a circuit not valid on this bus!
+ggfab.info.linked_input_bus.data_pasted=§2Pasted channel ("%s§2") and configuration circuit setting!
+ggfab.info.linked_input_bus.data_copied=§2Copied channel ("%s§2") and configuration circuit setting!
+ggfab.info.linked_input_bus.no_channel=§6No channel specified yet!
+
+ggfab.info.biome=Biome:
+
+ggfab.tooltip.linked_input_bus.change_freq_warn=Changing channel while this is the last one on this channel will spill all items left!
+ggfab.tooltip.linked_input_bus.private=Private channel are not shared with others.
+ggfab.tooltip.linked_input_bus.private.1=Changing channel while this is the last one on this channel will spill all items left!
