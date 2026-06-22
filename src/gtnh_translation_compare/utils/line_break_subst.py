@@ -6,8 +6,8 @@ from loguru import logger
 LINE_BREAK_CONTEXT_PREFIX = "@gtnh-line-break-form="
 LINE_BREAK_CONTEXT_NOOP = "LF"
 LINE_BREAK_CONTEXT_DECODE_MAP = {
-  "<BR>-UP": "<BR>",
-  "<BR>": "<br>",
+  "<br>-UP": "<BR>",
+  "<br>": "<br>",
   "[br]": "[br]",
   "\\\\n": "\\\\n",
   "\\n": "\\n",
