@@ -1,13 +1,13 @@
 modularui2.test=Test Text\n2. Line
 modularui2.tooltip.shift=§bShiftで詳細表示
-modularui2.increment.tooltip=§7Click to increase the number by §6%d§7\nHold shift[§6%d§7], ctrl[§6%d§7] or shift+ctrl[§6%d§7]
-modularui2.decrement.tooltip=§7Click to decrease the number by §6%d§7\nHold shift[§6%d§7], ctrl[§6%d§7] or shift+ctrl[§6%d§7]
+modularui2.increment.tooltip=クリックで数値を §6%d§7 加算する\nShift[§6%d§7], Ctrl[§6%d§7], Shift+Ctrl[§6%d§7]
+modularui2.decrement.tooltip=クリックで数値を §6%d§7 減算する\nShift[§6%d§7], Ctrl[§6%d§7], Shift+Ctrl[§6%d§7]
 modularui2.amount=§9量: %,d
 modularui2.fluid.capacity=§9容量: %s %s
 modularui2.fluid.empty=空
 modularui2.fluid.amount=§9量: %s/%s %s
 modularui2.fluid.phantom.amount=§9量: %s%s
-modularui2.fluid.phantom.control=§7Scroll wheel up increases amount, down decreases.\n§7Shift[§6x10§7],Ctrl[§ex100§7],Alt[§ax1000§7]\n§7Right click increases amount, left click decreases.\n§7Shift + left click to clear.
+modularui2.fluid.phantom.control=§7上にスクロールして量を加算、下にスクロールして減算する\n§7Shift[§6x10§7],Ctrl[§ex100§7],Alt[§ax1000§7]\n§7右クリックで加算、左クリックで減算する\n§7Shift+左クリックで削除する
 modularui2.fluid.phantom.clear=§8左クリックで削除
 modularui2.fluid.registry=§7レジストリ: %s
 modularui2.fluid.unique_registry=§7ユニークレジストリキー: %s
@@ -15,11 +15,11 @@ modularui2.fluid.temperature=§c温度: %,d K
 modularui2.fluid.state=§a状態: %s
 modularui2.fluid.gas=気体
 modularui2.fluid.liquid=液体
-modularui2.item.phantom.control=§7Scroll wheel up increases amount, down decreases.\n§7Shift[§6x4§7],Ctrl[§ex16§7],Alt[§ax64§7]\n§7Right click increases amount, left click decreases.\n§7Shift + left click to clear.
+modularui2.item.phantom.control=§7上にスクロールして量を加算、下にスクロールして減算する\n§7Shift[§6x4§7],Ctrl[§ex16§7],Alt[§ax64§7]\n§7右クリックで加算、左クリックで減算する\n§7Shift+左クリックで削除する
 
-modularui2.fluid.click_to_fill=流体容器で§b左クリック§7して内部タンクを§b充填する§7  (Shiftクリックするとスタック単位で使用)
-modularui2.fluid.click_combined=流体容器で§b左クリック§7/§c右クリック§7して内部タンクを§b充填する§7 / §c空にする§7 (Shiftクリックするとスタック単位で使用)
-modularui2.fluid.click_to_empty=流体容器で§c右クリック§7して内部タンクを§c空にする§7  (Shiftクリックするとスタック単位で使用)
+modularui2.fluid.click_to_fill=流体容器で§b左クリック§7して内部タンクを§b充填する§7\n§c右クリック§7で1アイテムずつ使用する
+modularui2.fluid.click_combined=流体容器で§b左クリック§7して内部タンクを§b充填する§7 / §c空にする§7\n§c右クリック§7で1アイテムずつ使用する
+modularui2.fluid.click_to_empty=流体容器で§c左クリック§7して内部タンクを§c空にする§7\n§c右クリック§7で1アイテムずつ使用する
 
 # Debug Screen
 modularui2.debug.mouse_pos=§7Mouse Pos: §3%d§7, §3%d
