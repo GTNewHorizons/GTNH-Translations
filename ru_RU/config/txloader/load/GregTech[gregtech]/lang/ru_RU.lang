@@ -925,6 +925,7 @@ gt.blockcasings10.name=Обшивка механизма
 gt.blockcasings11.name=Обшивка механизма
 gt.blockcasingsNH.name=Обшивка механизма
 gt.blockconcretes.name=Бетон
+gt.blockpad=Pad
 gt.blockfencemetal=Забор
 gt.blockframes.name=Каркас
 gt.blockgem1.name=Блок
@@ -3547,7 +3548,7 @@ GT5U.armor.part.name.Tough=Tough Mechanical Armor Frame
 GT5U.armor.part.name.Lightning=Lightning Mechanical Armor Frame
 GT5U.armor.part.name.Morphic=Morphic Mechanical Armor Frame
 GT5U.armor.part.name.Bulwark=Bulwark Mechanical Armor Frame
-GT5U.armor.part.name.Infinity=Infinitely Adaptive Armor Frame
+GT5U.armor.part.name.Infinity=Infinitely Adaptive Mechanical Armor Frame
 
 GT5U.armor.part.name.Nano=Ядро брони (Нано)
 GT5U.armor.part.name.Quantum=Ядро брони (Квантум)
@@ -4297,6 +4298,10 @@ gt.item.paper.magic.page.name=Зачарованная страница
 gt.item.paper.magic.pages.name=Зачарованные страницы
 gt.item.paper.punch_card.empty.name=Перфокарта
 gt.item.paper.punch_card.encoded.name=Перфорированная карта
+
+# Pads
+gt.blockpad.0.name=Bounce Pad
+gt.blockpad.1.name=Sticky Pad
 
 ## Book
 gt.item.book.written.01.name=Книга
@@ -5648,6 +5653,7 @@ GT5U.nei.display.steam_variant.bronze=Бронза
 GT5U.nei.display.steam_variant.steel=Сталь
 GT5U.nei.display.duration.seconds=Время: %s секунд
 GT5U.nei.display.duration.ticks=Время: %s тиков
+GT5U.nei.display.discount.energy=Energy discount: %s%%
 GT5U.nei.display.total=Всего: %s EU
 GT5U.nei.display.total.steam=Время: %s Л пара
 GT5U.nei.display.usage=Используется: %s EU/t %s
@@ -7659,6 +7665,8 @@ abbrev.entangled_celestialtungsten=Небесный вольфрам
 abbrev.entangled_chromaticglass=Хроматическое стекло
 abbrev.entangled_cosmicsolder=Космический припой
 abbrev.entangled_dimshiftedsuperfluid=Пространственно сдвинутая сверхжидкость
+abbrev.entangled_phononmedium=Lossless Phonon Transfer Medium
+abbrev.entangled_quarkgluonplasma=Degenerate Quark Gluon Plasma
 abbrev.entangled_eternity=Вечность
 abbrev.entangled_hypogen=Гипоген
 abbrev.entangled_infinity=Бесконечность
@@ -7677,6 +7685,8 @@ fluid.entangled_celestialtungsten=Запутанный конденсат Боз
 fluid.entangled_chromaticglass=Запутанный конденсат Бозе-Эйнштейна из хроматического стекла
 fluid.entangled_cosmicsolder=Запутанный конденсат Бозе-Эйнштейна из космического припоя
 fluid.entangled_dimshiftedsuperfluid=Запутанный конденсат Бозе-Эйнштейна из пространственно сдвинутой сверхжидкости
+fluid.entangled_phononmedium=Entangled Lossless Phonon Transfer Medium Bose-Einstein Condensate
+fluid.entangled_quarkgluonplasma=Entangled Degenerate Quark Gluon Plasma Bose-Einstein Condensate
 fluid.entangled_eternity=Запутанный конденсат Бозе-Эйнштейна из вечности
 fluid.entangled_hypogen=Запутанный конденсат Бозе-Эйнштейна из гипогена
 fluid.entangled_infinity=Запутанный конденсат Бозе-Эйнштейна из бесконечности
@@ -7695,6 +7705,8 @@ item.gt.cell.entangled_celestialtungsten.name=Капсула с запутанн
 item.gt.cell.entangled_chromaticglass.name=Капсула с запутанным конденсатом Бозе-Эйнштейна из хроматического стекла
 item.gt.cell.entangled_cosmicsolder.name=Капсула с запутанным конденсатом Бозе-Эйнштейна из космического припоя
 item.gt.cell.entangled_dimshiftedsuperfluid.name=Капсула с запутанным конденсатом Бозе-Эйнштейна из пространственно сдвинутой сверхжидкости
+item.gt.cell.entangled_phononmedium.name=Entangled Lossless Phonon Transfer Medium Bose-Einstein Condensate Cell
+item.gt.cell.entangled_quarkgluonplasma.name=Entangled Degenerate Quark Gluon Plasma Bose-Einstein Condensate Cell
 item.gt.cell.entangled_eternity.name=Капсула с запутанным конденсатом Бозе-Эйнштейна из вечности
 item.gt.cell.entangled_hypogen.name=Капсула с запутанным конденсатом Бозе-Эйнштейна из гипогена
 item.gt.cell.entangled_infinity.name=Капсула с запутанным конденсатом Бозе-Эйнштейна из бесконечности
@@ -8417,6 +8429,7 @@ gt.blockglass1.6.name=Решётка камеры
 gt.blockglass1.7.name=Защитное стекло экзо-литейного завода
 gt.blockglass1.8.name=Стекло наночипового комплекса
 gt.blockglass1.9.name=Электромагнитный волновод
+gt.blockglass1.10.name=Reinforced Glass
 gt.blocktintedglass.0.name=Тонированное промышленное стекло (Белое)
 gt.blocktintedglass.1.name=Тонированное промышленное стекло (Светло-серое)
 gt.blocktintedglass.2.name=Тонированное промышленное стекло (Серое)
@@ -8476,6 +8489,7 @@ gt.blockreinforced.9.name=Титановый укреплённый блок
 gt.blockreinforced.10.name=Наквадаховый укреплённый блок
 gt.blockreinforced.11.name=Нейтрониевый укреплённый блок
 gt.blockreinforced.12.name=Необработанный блок портала в глубокую тьму
+gt.blockreinforced.13.name=Reinforced Block
 
 # BlockStones
 gt.blockstones.0.name=Мрамор
@@ -8783,7 +8797,6 @@ GT5U.gui.text.bec-generator-input-hatch-pos=Any %s in the first slice
 GT5U.gui.text.bec-generator-bec-hatch-pos=The center Casing in the last slice
 
 # BEC Settings
-GT5U.gui.text.bec-parameters=Параметры
 GT5U.gui.text.bec-filter=Фильтр
 GT5U.gui.text.bec-operation=Operation
 GT5U.gui.text.bec-threshold=Порог
