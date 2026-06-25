@@ -159,6 +159,7 @@ tooltip.labparts.8.name=このプラスミドセルの中身:
 tooltip.tile.waterpump.0.name=燃料で稼働中
 tooltip.tile.waterpump.1.name=mB/秒 の水を生成します。毎秒 §5%d§7 の汚染を排出します
 tooltip.tile.waterpump.2.name=設置して使用します
+tooltip.tile.waterpump.fmt=Produces %s L/s Water when fueled. Causes %s Pollution per second.
 
 tooltip.tile.mbf.1.name=汚染/秒
 tooltip.tile.windmill.0.name=運動エネルギーで動く原始的な§8《§7破砕機§8／Macerator》§7です;§f寸法: §67§7x§612§7x§67§7 (§6幅,W§7x§6高さ,H§7x§6奥行,L§7);§f構造: ;§f1段目: 7x7 レンガ、角には置かない。本体は正面中央;§f2-5段目: 5x5 テラコッタ、角には置かない、中空。ドアを1つ設置できる。ディスペンサーを1つ以上設置;§f6段目: 5x5 木材、角にも設置、中空;§f7段目: 7x7 木材、角には置かない、中空;§f8段目: 7x7 木材、角には置かない、中空。正面中央に原始的な動力シャフトボックス;§f9段目: 7x7 木材、角には置かない、中空;§f10段目: 5x5 木材、角にも設置、中空;§f11段目: 3x3 木材、角にも設置、中空;§f12段目: 1x1 木材;§7稼働には原始的な動力シャフトボックス内にローターが必要です。;§7アイテムはディスペンサー内に出力されます。;§7処理速度は風速に依存して加速されます。(IC2の風車に似ています。)
@@ -184,6 +185,11 @@ tooltip.tile.radhatch.7.name=s
 tooltip.tile.radhatch.8.name=m
 tooltip.tile.radhatch.9.name=h
 tooltip.tile.radhatch.10.name=残り時間: %s s / %s s
+tooltip.tile.radhatch.2.fmt=Material: %s
+tooltip.tile.radhatch.2.empty=Material: Empty
+tooltip.tile.radhatch.3.fmt=Sievert: %s
+tooltip.tile.radhatch.4.fmt=Mass: %s
+tooltip.tile.radhatch.5.fmt=Time (in t/s/m/h) to decay (1kg): %st/%ss/%sm/%sh
 tooltip.tile.acidgen.0.name=酸性液体発電機
 tooltip.tile.acidgen.1.name=潜在的な化学エネルギーから電力を生み出す
 
@@ -242,8 +248,10 @@ solarsystem.Ross128System=ロス128星系
 itemGroup.bw.MetaItems.0=BartWorks (電子回路系アイテム)
 
 # info data
-BW.infoData.BioVat.expectedProduction.s=Expected Production: §a %s §r%%
-BW.infoData.BioVat.production.s=Production: §a %s §r%%
+BW.infoData.BioVat.expectedProduction=Expected Production
+BW.infoData.BioVat.production=Production
+BW.infoData.BioVat.expectedProduction.fmt=Expected Production: §a%s§r %%
+BW.infoData.BioVat.production.fmt=Production: §a%s§r %%
 
 BW.infoData.htr.helium_level=ヘリウム量: %smB / %smB
 BW.infoData.htr.problems=問題: %s

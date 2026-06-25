@@ -342,6 +342,7 @@ ig.nei.elevatorpump.name=宇宙ポンプモジュール
 ig.nei.elevatorpump.planettype=惑星
 ig.nei.elevatorpump.gastype=気体
 ig.nei.elevatorpump.amount=量
+ig.nei.elevatorpump.eut=EU/t
 ig.nei.elevatorpump.see_all=すべて見る
 ig.nei.spaceproject.name=宇宙プロジェクト
 ig.nei.spaceproject.stages=ステージ:
@@ -460,3 +461,16 @@ gt.blockcasingsSEMotor.1.name=宇宙エレベーター用モーター MK-II
 gt.blockcasingsSEMotor.2.name=宇宙エレベーター用モーター MK-III
 gt.blockcasingsSEMotor.3.name=宇宙エレベーター用モーター MK-IV
 gt.blockcasingsSEMotor.4.name=宇宙エレベーター用モーター MK-V
+
+# info data
+ig.infodata.hdr.operational_data=§5Operational Data:§r
+ig.infodata.maintenance.ok=Maintenance Status: §aWorking perfectly§r
+ig.infodata.maintenance.problems=Maintenance Status: §cHas problems§r
+ig.infodata.dyson_swarm.modules.fmt=Modules: §e%s§r
+ig.infodata.dyson_swarm.power_factor.fmt=Power Factor: %s
+ig.infodata.dyson_swarm.theoretical_output.fmt=Theoretical Output: §e%s§r EU/t
+ig.infodata.dyson_swarm.current_output.fmt=Current Output: §e%s§r EU/t
+ig.infodata.dyson_swarm.computation.fmt=Computation required: §e%s§r/t
+ig.infodata.gas_siphon.depth.fmt=Depth: §e%s§r
+ig.infodata.gas_siphon.fluid.fmt=Fluid: §e%s§rL/s §9%s§r
+ig.infodata.gas_siphon.eu_required.fmt=EU/t required: §e%s§r EU/t
