@@ -196,7 +196,7 @@ gt.blockmachines.multimachine.ig.siphon.type=ポンプ、PGS
 gt.blockmachines.multimachine.ig.siphon.desc1=ガス惑星を周回する宇宙ステーション上で建設してください
 gt.blockmachines.multimachine.ig.siphon.desc2=汲み上げたい深度に設定したプログラム回路が必要です (1 - 4)
 gt.blockmachines.multimachine.ig.siphon.desc3=採掘パイプが64個必要です
-gt.blockmachines.multimachine.ig.siphon.desc4=EU/t: d*4^(t+2)、tは宇宙ステーションのTier、dは深度です
+gt.blockmachines.multimachine.ig.siphon.desc4=消費電力は惑星のTierと深度に依存します。詳細はNEIを確認してください。
 gt.blockmachines.multimachine.ig.siphon.desc5=設置されているチャンクを読み込めます (はんだごてで切り替え)
 gt.blockmachines.multimachine.ig.siphon.lore0=宇宙採掘を次のレベルへ！
 gt.blockmachines.multimachine.ig.siphon.lore1=吸い取りの時間だ！
@@ -463,9 +463,9 @@ gt.blockcasingsSEMotor.3.name=宇宙エレベーター用モーター MK-IV
 gt.blockcasingsSEMotor.4.name=宇宙エレベーター用モーター MK-V
 
 # info data
-ig.infodata.hdr.operational_data=§5Operational Data:§r
-ig.infodata.maintenance.ok=Maintenance Status: §aWorking perfectly§r
-ig.infodata.maintenance.problems=Maintenance Status: §cHas problems§r
+ig.infodata.hdr.operational_data=§5動作データ:§r
+ig.infodata.maintenance.ok=メンテナンス状況: §a完璧に稼動中§r
+ig.infodata.maintenance.problems=メンテナンス状況: §c問題あり§r
 ig.infodata.dyson_swarm.modules.fmt=Modules: §e%s§r
 ig.infodata.dyson_swarm.power_factor.fmt=Power Factor: %s
 ig.infodata.dyson_swarm.theoretical_output.fmt=Theoretical Output: §e%s§r EU/t
