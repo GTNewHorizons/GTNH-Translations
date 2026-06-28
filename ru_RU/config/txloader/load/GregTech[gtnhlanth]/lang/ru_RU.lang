@@ -44,8 +44,8 @@ gtnhlanth.tt.linac.info5=Preserve §2Beam Focus§7 more effectively with lower t
 gtnhlanth.tt.linac.info6=§9Output Beam Energy§f = max(§eV§f, 50) * 10^§eIE
 gtnhlanth.tt.linac.info7=where §eV§f = 0.25 * (Length - 1) * cbrt(§3EU/t Provided§f)
 gtnhlanth.tt.linac.info8=and §eIE§f = 1 + min(§9Input Beam Energy§f, 7500) / §9Max Particle Energy
-gtnhlanth.tt.linac.info9=§2Output Beam Focus§f = (§2Input Beam Focus§f + §eMachine Focus§f)/2§7 if §2Input Beam Focus§f > §eMachine Focus
-gtnhlanth.tt.linac.info10=§2Output Beam Focus§f = §2Input Beam Focus§f * §eMachine Focus§f/100§7 if §2Input Beam Focus§f <= §eMachine Focus
+gtnhlanth.tt.linac.info9=§2Фокус входного пучка§f = (§2Фокус входного пучка§f + §eФокус механизма§f)/2.5§7, если §2Фокус входного пучка§f > §eФокус механизма
+gtnhlanth.tt.linac.info10=§2Фокус выходного пучка§f = §2Фокус входного пучка§f * §eФокус механизма§f/100§7, если §2Фокус входного пучка§f <= §eФокус механизма§f
 gtnhlanth.tt.linac.info11=where §eMachine Focus§f = min(90, max(5, (-0.9 * (Length-1) * 1.1^(0.2 * §bCoolant Temperature§f) + 110)))
 
 # Synchrotron
@@ -237,7 +237,7 @@ beamline.energyratio=Соотношение энергии
 beamline.temperature=Температура
 beamline.temperature.fmt=Temperature: §4%s§r K
 beamline.coolusage=Расходуется хладагента
-beamline.coolusage.fmt=Coolant Usage: §b%s§r kL/s
+beamline.coolusage.fmt=Расходуется хладагента: §b%s§r kЛ/с
 
 beamline.out_pre=Мультиблочный выход установки для литографии
 beamline.out_pre.hdr=§lMultiblock Beamline Output: §r
