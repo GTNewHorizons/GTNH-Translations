@@ -72,6 +72,7 @@ tile.appliedenergistics2.BlockSingularityCraftingStorage.name=特異点クラフ
 tile.appliedenergistics2.BlockPaint.name=Paint
 tile.appliedenergistics2.BlockSpatialLinkChamber.name=空間リンクチャンバー
 tile.appliedenergistics2.BlockSpatialNetworkRelay.name=空間ネットワーク中継器
+tile.appliedenergistics2.BlockSuperMEReplenisher.name=Super ME Replenisher
 tile.appliedenergistics2.BlockWirelessConnector.name=無線コネクタ
 tile.appliedenergistics2.BlockWirelessHub.name=無線ハブ
 tile.appliedenergistics2.BlockCrystalGrowthChamber.name=クリスタル成長チャンバー
@@ -251,6 +252,14 @@ gui.appliedenergistics2.ReshuffleReportTextColorNegative=§4
 gui.appliedenergistics2.ReshuffleReportTextColorNeutral=§8
 gui.appliedenergistics2.ReshuffleReportTextColorWarning=§6
 
+gui.appliedenergistics2.SuperMEReplenisherBytesTotal=Bytes total: §6%s
+gui.appliedenergistics2.SuperMEReplenisherBytesUnlimited=Unlimited
+gui.appliedenergistics2.SuperMEReplenisherBytesUsed=Bytes used: §c%s
+gui.appliedenergistics2.SuperMEReplenisherTickRate=Tick Rate
+gui.appliedenergistics2.SuperMEReplenisherThreshold=Threshold
+gui.appliedenergistics2.SuperMEReplenisherTarget=Target: §5%s
+gui.appliedenergistics2.SuperMEReplenisherStored=Stored: §5%s
+
 gui.appliedenergistics2.Efficiency=効率
 gui.appliedenergistics2.RequiredPower=要求電力
 gui.appliedenergistics2.StoredPower=蓄電量
@@ -339,6 +348,7 @@ gui.appliedenergistics2.MolecularAssembler=分子アセンブラー
 gui.appliedenergistics2.ProcessingPattern=加工パターン
 gui.appliedenergistics2.Crafts=クラフト
 gui.appliedenergistics2.HoldShift=Hold [LSHIFT] to show ingredients
+gui.appliedenergistics2.HoldControl=Hold [CONTROL] to multiply/divide pattern
 gui.appliedenergistics2.PatternView=Press [%s] to view pattern
 gui.appliedenergistics2.Result=Result
 gui.appliedenergistics2.Results=Results
@@ -516,7 +526,7 @@ gui.appliedenergistics2.GuiDimensionalCoordShortNoDim=§c%s§r, §a%s§r, §9%s
 gui.appliedenergistics2.itemMEStackPacketDesc1=Leftover after inject in system operation
 gui.appliedenergistics2.itemMEStackPacketDesc2=Make sure you have free space and then put this item in ME Terminal
 
-gui.appliedenergistics2.WirelessManagerToolTips=Network\n§6LClick§7 - Select\n §6+ WirelessExtraAction§7 - Rename\n §6+ Sneak§7 - Remove
+gui.appliedenergistics2.WirelessManagerToolTips=Network\n§6LClick§7 - Select\n §6+ %s§7 - Rename\n §6+ Sneak§7 - Remove
 gui.appliedenergistics2.HoldCtrlForContents=Hold Ctrl for cell contents
 
 # GUI Tooltips
@@ -829,6 +839,7 @@ gui.tooltips.appliedenergistics2.BlockCreativeEnergyCell=§d無限のエネル�
 gui.tooltips.appliedenergistics2.PartCreativeEnergy=§d無限のエネルギー
 gui.tooltips.appliedenergistics2.BlockCreativeEnergyController=§d無限のエネルギー
 gui.tooltips.appliedenergistics2.PreconfiguredPriority=Preconfigured storage priority: §f%s
+gui.tooltips.appliedenergistics2.BlockSuperMEReplenisher=Only for network usage!\nEverything injected will be cached\nThen flashed in local network on Tick Rate!
 
 # Units
 gui.appliedenergistics2.units.appliedenergistics=AE
@@ -1113,7 +1124,7 @@ item.appliedenergistics2.WirelessMessages.Connected=§aConnected to %s
 item.appliedenergistics2.WirelessMessages.TargetHubFull=§cTarget hub is full
 item.appliedenergistics2.WirelessMessages.SourceHubFull=§cHub at %s §cis full
 item.appliedenergistics2.WirelessMessages.HubToHub=§cHub-to-hub connections are not allowed
-item.appliedenergistics2.WirelessMessages.ModeToggle="Wireless Mode Switch" + R-click to toggle mode
+item.appliedenergistics2.WirelessMessages.ModeToggle=§6%s§r + R-click to toggle mode
 item.appliedenergistics2.WirelessMessages.Security=Security violation - you are not allowed to modify this network
 item.appliedenergistics2.WirelessMessages.DimensionMismatch=Both connectors must be in the same dimension
 item.appliedenergistics2.WirelessMessages.InvalidTarget=§cInvalid target - must be Wireless Connector or Wireless Hub
@@ -1127,6 +1138,7 @@ item.appliedenergistics2.WirelessMessages.SimpleBound=§aBound to %s
 item.appliedenergistics2.WirelessMessages.SimpleBounded=Click another Wireless Connector to connect
 
 item.appliedenergistics2.WirelessMessages.Advanced=§eAdvanced
+item.appliedenergistics2.WirelessMessages.AdvancedLine=§eAdvanced Line
 item.appliedenergistics2.WirelessMessages.AdvancedActivated=%s §aactivated
 item.appliedenergistics2.WirelessMessages.AdvancedNext=§9Next connector in queue: %s
 item.appliedenergistics2.WirelessMessages.AdvancedHowToggle=Sneak + R-click to toggle advanced modes
