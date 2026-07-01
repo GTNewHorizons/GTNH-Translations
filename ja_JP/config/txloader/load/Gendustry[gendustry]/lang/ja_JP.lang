@@ -209,14 +209,14 @@ gendustry.trigger.working=Machine Working
 
 # ==== COMMANDS ====
 gendustry.givetemplate.usage=/givetemplate <uid>
-gendustry.givetemplate.success=Given genetic template %s to %s
+gendustry.givetemplate.success=%s の遺伝子テンプレートを %s に与えました
 
-gendustry.givesample.usage=/givesample <species> <chromosome> <allele>
-gendustry.givesample.error.root=Species root not found: %s
+gendustry.givesample.usage=/givesample <種> <染色体> <対立遺伝子>
+gendustry.givesample.error.root=種のルートが見つかりません: %s
 gendustry.givesample.error.allele=対立遺伝子が見つかりません: %s
 gendustry.givesample.error.chromosome=染色体が見つかりません: %s
 gendustry.givesample.error.invalid=要求された染色体に対して無効な対立遺伝子です
-gendustry.givesample.success=Given sample (Species=%s, Chromosome=%s, Allele=%s) to %s
+gendustry.givesample.success=サンプル (種=%s, 染色体=%s, 対立遺伝子=%s)を %s に与えました
 
 # ==== MUTATION REQUIREMENTS ====
 gendustry.req.temperature=気温が必要: %s

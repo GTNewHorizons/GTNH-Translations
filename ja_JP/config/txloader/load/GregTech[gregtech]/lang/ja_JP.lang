@@ -3103,8 +3103,8 @@ GT5U.gui.tooltip.hatch.crafting_input_me.place_manual_items=Place manual items
 GT5U.gui.tooltip.hatch.crafting_input_me.export=Return all internally stored items back to AE
 GT5U.gui.text.fluid_limiter.threshold=§8しきい値(パーセント表記)
 GT5U.gui.text.volumetric_flask.capacity=容量
-GT5U.gui.text.volumetric_flask.max_capacity=Max Capacity of %s
-GT5U.gui.text.volumetric_flask.confirm=Confirm
+GT5U.gui.text.volumetric_flask.max_capacity=最大容量: %s
+GT5U.gui.text.volumetric_flask.confirm=確認
 GT5U.gui.tooltip.hatch.crafting_pattern_provider=Pattern Storage for §eLarge Molecular Assembler (LMA)§r\nCapacity: %d Patterns
 
 GT5U.gui.text.wireless_maintenance_detector.extra.no_issues=§8No Issues
@@ -4774,6 +4774,8 @@ gt.item.cover.redstone_receiver.name=レッドストーン受信器
 gt.item.cover.redstone_receiver.tooltip=レッドストーン信号を無線で伝える
 gt.item.cover.wireless_controller.name=無線動作制御カバー
 gt.item.cover.wireless_controller.tooltip=無線で機械を起動/停止させる\n発展型無線カバーにのみ接続可能
+gt.item.cover.advanced_wireless_controller.name=Advanced Wireless Machine Controller Cover
+gt.item.cover.advanced_wireless_controller.tooltip=Turns Machines ON/OFF wirelessly\nIncludes Logic Gates\nCan only connect with advanced wireless covers
 
 ### Maintenance Cover
 gt.item.cover.needs_maintenance.name=メンテナンス要求検知カバー
