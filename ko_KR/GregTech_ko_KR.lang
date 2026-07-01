@@ -402,8 +402,8 @@ languagefile {
     S:Material.benzene=벤젠
     S:Material.beryllium=베릴륨
     S:Material.beryllium.ChemicalFormula=Be
-    S:Material.berylliumfluoride=Beryllium Fluoride
-    S:Material.berylliumhydroxide=Beryllium Hydroxide
+    S:Material.berylliumfluoride=플루오린화 베릴륨
+    S:Material.berylliumhydroxide=수산화 베릴륨
     S:Material.bio=바이오
     S:Material.biocatalyzedpropulsionfluid=Biocatalyzed Propulsion Fluid
     S:Material.biodiesel=바이오 디젤
@@ -429,11 +429,11 @@ languagefile {
     S:Material.blackplutonium=검은 플루토늄
     S:Material.blacksteel=검은 스틸
     S:Material.blacksteel.ChemicalFormula=Ni(AuAgCu₃)(Fe₅C)₃
-    S:Material.blacktitanium=Black Titanium
+    S:Material.blacktitanium=검은 티타늄
     S:Material.blaze=블레이즈
     S:Material.blizz=블리즈
     S:Material.bloodinfusediron=혈액 주입된 철
-    S:Material.bloodsteel=Blood Steel
+    S:Material.bloodsteel=블러드 스틸
     S:Material.bloodstone=피석
     S:Material.bluealloy=파란 합금
     S:Material.bluesteel=파란 강철
@@ -452,7 +452,7 @@ languagefile {
     S:Material.borontrioxide.ChemicalFormula=B₂O₃
     S:Material.borosilicateglass=붕규산 유리
     S:Material.botaniadragonstone=드래곤스톤
-    S:Material.botmium=Botmium
+    S:Material.botmium=보트뮴
     S:Material.brass=황동
     S:Material.brass.ChemicalFormula=ZnCu₃
     S:Material.brick=벽돌
@@ -715,7 +715,7 @@ languagefile {
     S:Material.electrotine=일렉트로틴
     S:Material.electrum=일렉트럼
     S:Material.electrumflux=플럭스 일렉트럼
-    S:Material.electrumflux.ChemicalFormula=The formula is too long...
+    S:Material.electrumflux.ChemicalFormula=화학식이 너무 깁니다...
     S:Material.elite=엘리트
     S:Material.elvenelementium=엘븐 엘레멘티움
     S:Material.emerald=에메랄드
@@ -731,7 +731,7 @@ languagefile {
     S:Material.energeticalloy=활동성 합금
     S:Material.energeticsilver=활동성 은
     S:Material.energized=전류가 흐르는
-    S:Material.energycrystal=Energy Crystal
+    S:Material.energycrystal=에너지 수정
     S:Material.enhancedgalgadorian=강화된 갈가도리안
     S:Material.enriched-naquadah-richsolution=농축 나콰다 함유 용액
     S:Material.enriched-naquadah-richsolution.ChemicalFormula=~Nq⁺~
@@ -766,7 +766,7 @@ languagefile {
     S:Material.ethenone=에테논
     S:Material.ether=에테르
     S:Material.ether.ChemicalFormula=CH₃CH₂OCH₂CH₃
-    S:Material.ethylcyanoacetate=Ethyl Cyanoacetate
+    S:Material.ethylcyanoacetate=에틸 사이아노아세테이트
     S:Material.ethylcyanoacrylatesuperglue=Ethyl Cyanoacrylate (Super Glue)
     S:Material.ethylene=에틸렌
     S:Material.ethyleneglycol=에틸렌글리콜
@@ -797,9 +797,9 @@ languagefile {
     S:Material.extremelyunstablenaquadah.ChemicalFormula=Nq☆
     S:Material.fayalite=파얄라이트
     S:Material.ferberite=페르베라이트
-    S:Material.fermentedbacterialsludge=Fermented Bacterial Sludge
+    S:Material.fermentedbacterialsludge=발효된 박테리아 슬러지
     S:Material.fermentedbiomass=발효된 바이오매스
-    S:Material.fermium=Fermium
+    S:Material.fermium=페르뮴
     S:Material.ferritemixture=페라이트 혼합물
     S:Material.ferrocene=페로세인
     S:Material.ferrocene.ChemicalFormula=Fe(C₅H₅)₂
@@ -1874,7 +1874,7 @@ languagefile {
     S:Material.strontiumhydroxide=Strontium Hydroxide
     S:Material.strontiumoxide=Strontium Oxide
     S:Material.styrene=스티렌
-    S:Material.styrenebutadienerubber=스티렌-부타디엔 고무
+    S:Material.styrenebutadienerubber=스티렌-부타디엔 고무(SBR)
     S:Material.sugar=설탕
     S:Material.sulfur=황
     S:Material.sulfur.ChemicalFormula=S
@@ -2307,7 +2307,7 @@ languagefile {
     S:comb.neptune=해왕성 벌집
     S:comb.nether_shard=네더 샤드 벌집
     S:comb.nether_star=네더의 별 벌집
-    S:comb.netherite=Netherite Comb
+    S:comb.netherite=네더라이트 벌집
     S:comb.neutronium=뉴트로늄 벌집
     S:comb.nickel=니켈 벌집
     S:comb.nitrogen=질소 벌집
@@ -4152,7 +4152,7 @@ languagefile {
     S:gt.blockmachines.multimachine.chemicalreactor.tooltip_secondary=§fDimensions: §63§7x§63§7x§63§7 (§6W§7x§6H§7x§6L§7) \n§fStructure: \n   §fController: §7Front center\n§6   8x§7 - §622x §r§7Chemically Inert Machine Casing\n§f   PTFE Pipe Machine Casing: §7Center\n§f   Heating Coil: §7Adjacent to the PTFE Pipe Machine Casing\n§f   Energy Hatch: §7Any casing\n§f   Maintenance Hatch: §7Any casing\n§f   Input Bus: §7Any casing\n§f   Input Hatch: §7Any casing\n§f   Output Bus: §7Any casing\n§f   Output Hatch: §7Any casing\n   You can have multiple hatches/buses\n   §7§m------------------------------\n§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
     S:gt.blockmachines.multimachine.cleanroom.name=클린룸 컨트롤러
     S:gt.blockmachines.multimachine.cleanroom.tooltip=Machine Type: §eCleanroom§r\nConsumes 40 EU/t when first turned on, and 4 EU/t once at 100% efficiency\nCan accept 2A from an LV energy hatch\nWill overclock and gain efficiency faster starting from HV\n§7§m-----------------------------------------\n§cWarning:\nBelow 100% efficiency machines inside have a chance to void outputs!\nEach maintenance issue reduces maximum efficiency by 10%\nGenerating any pollution inside causes the cleanroom to shut down\n§7§m-----------------------------------------\nHold §l[LSHIFT]§r§7 to display structure guidelines
-    S:gt.blockmachines.multimachine.cleanroom.tooltip_secondary=§fDimensions: §63-15§7x§64-15§7x§63-15§7 (§6W§7x§6H§7x§6L§7) §c(Hollow)\n§fStructure: \n   §fController: §7Top center\n     If width or length is even, it can be in either of the two middle positions\n§f   Filter Machine Casing: §7Top layer, except for edges\n§f   Plascrete Blocks: §7Edges of top layer, all walls and floor. Minimum §620§7.\n§f   Energy Hatch: §7Any Plascrete Block. Exactly one\n§f   Maintenance Hatch: §7Any Plascrete Block. Exactly one\n   \n   Up to §630%§7 of plascrete blocks can be replaced by other valid blocks\n   Try some of the following:\n   - Any §8EV+§7 tier glass\n   - Machine hulls or diodes for item and power transfer\n   - Reinforced Doors (§oIC2§r§7). Keep closed, no gaps allowed or efficiency will drop!\n   - Elevators (§oOpenBlocks§r§7) or Travel Anchors (§oEnderIO§r§7)\n   See §8config/GregTech/MachineStats.cfg§7 for more valid blocks\n   §eAll non-plascrete blocks now share the same limit. Feel free to mix and match!\n   §7§m------------------------------\n§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
+    S:gt.blockmachines.multimachine.cleanroom.tooltip_secondary=§f크기: §63-15§7x§64-15§7x§63-15§7 (§6가로§7x§6높이§7x§6세로§7) §c(빈 공간)\n§f구조: \n   §f컨트롤러: §7최상층 중앙\n     가로 또는 세로 길이가 짝수인 경우, 두 중간 위치 중 하나에 설치 가능\n§f   필터 기계 케이싱(Filter Machine Casing): §7최상층, 모서리 제외\n§f   플라스크리트 블록(Plascrete Blocks): §7최상층 모서리, 모든 벽면 및 바닥. 최소 §620개§7.\n§f   에너지 해치: §7플라스크리트 블록 위치. 정확히 1개\n§f   유지보수 해치: §7플라스크리트 블록 위치. 정확히 1개\n   \n   플라스크리트 블록의 최대 §630%§7까지 다른 유효한 블록으로 대체 가능\n   다음 중 일부를 시도해 보세요:\n   - 모든 §8EV+§7 등급 유리\n   - 아이템 및 전력 전송을 위한 기계 외피(Machine Hull) 또는 다이오드\n   - 강화문(Reinforced Door) (§oIC2§r§7). 닫힌 상태 유지, 틈새 없어야 함. 그렇지 않으면 효율 저하!\n   - 엘리베이터(Elevator) (§oOpenBlocks§r§7) 또는 이동 닻(Travel Anchor) (§oEnderIO§r§7)\n   더 많은 유효 블록은 §8config/GregTech/MachineStats.cfg§7 참조\n   §e이제 모든 비 플라스크리트 블록이 동일한 제한을 공유합니다. 자유롭게 혼합하여 사용하세요!\n   §7§m------------------------------\n§f구조를 보려면 컨트롤러에 §9구조§1 라이브러리 §r§f홀로그램 프로젝터를 사용하세요!
     S:gt.blockmachines.multimachine.cokeoven.name=코크스 오븐
     S:gt.blockmachines.multimachine.cokeoven.tooltip=Machine Type: §eCoke Oven§r\nTurns coal into coke and produces creosote oil\n§510 §7Pollution per second\n§7§m-----------------------------------------\nHold §l[LSHIFT]§r§7 to display structure guidelines\nAdded by: §a§l§6§bJ§du§fl§di§ba§6§r§7
     S:gt.blockmachines.multimachine.cokeoven.tooltip_secondary=§fDimensions: §63§7x§63§7x§63§7 (§6W§7x§6H§7x§6L§7) §c(Hollow)\n§fStructure: \n   §fController: §7Front center\n§6   0x§7 - §626x §r§7Coke Oven Casing\n   §fCoke Oven Hatch: §7Any Coke Oven Casing\n   §7§m------------------------------\n§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
@@ -4403,7 +4403,7 @@ languagefile {
     S:gt.blockmachines.multimachine.pcbcoolingtower.tooltip_secondary=§fDimensions: §65§7x§610§7x§65§7 (§6W§7x§6H§7x§6L§7) \n§fStructure: \n   Tier 1\n   §fController: §7Front bottom center\n§6   19x §r§7Reinforced Photolithographic Framework Casing\n§6   20x §r§7Tungstensteel Pipe Casing\n§6   40x §r§7Damascus Steel Frame Box\n§6   68x §r§7Radiant Naquadah Alloy Casing\n§6   12x §r§7Extreme Engine Intake Casing\n§f   Input Hatch: §7Coolant Hatch\n   Tier 2\n   §fController: §7Front bottom center\n§6   39x §r§7Reinforced Photolithographic Framework Casing\n§6   40x §r§7Americium Steel Frame Box\n§6   20x §r§7Tungstensteel Pipe Casing\n§6   48x §r§7Infinity Cooled Casing\n§6   8x §r§7Superconducting Coil Block\n§f   Input Hatch: §7Coolant Hatch\n   §7§m------------------------------\n   §7Does not require maintenance or power.\n   §7§m------------------------------\n§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
     S:gt.blockmachines.multimachine.pcbfactory.name= PCB 팩토리
     S:gt.blockmachines.multimachine.pcbfactory.tooltip=Machine Type: §eCircuit Board Fabricator§r\nTier of the machine determines the available recipes\nEach tier and upgrade requires additional structures\nPower consumption is multiplied by Sqrt(structures)\nTier 2 and 3 allow parallel by using extra nanites\nNanites have to be placed in a Nanite Containment Bus\nThe formula for parallels is the §6amount of nanites^0.75§7, rounded up\nMaximum parallel is §6256§7\nRecipes require a cooling upgrade to be overclocked\nLiquid Cooling uses §910 L/s§7 of §9distilled water§7 and enables default overclocks\nThermosink uses §b10 L/s§7 of §bSuper Coolant§7 and enables §dperfect overclocks\nTrace size can be changed to modify the material usage and machine speed\nConfigure Trace Size in UI\n§aSupports TecTech Multi-Amp and Laser Hatches!\n§7§m-----------------------------------------\nHold §l[LSHIFT]§r§7 to display structure guidelines\nAdded by: §a§9§lBlue§b§lWeabo§r§7
-    S:gt.blockmachines.multimachine.pcbfactory.tooltip_secondary=§fDimensions: §630§7x§638§7x§613§7 (§6W§7x§6H§7x§6L§7) \n§fStructure: \n   §fController: §7Front bottom center\n§f   Maintenance Hatch: §7§61\n§f   Energy Hatch: §7§61§7-§62§7 or §61§7 TT energy hatch\n§f   Input Bus: §7§60§7+\n§f   Output Bus: §7§60§7+\n§f   Input Hatch: §7§60§7+\n   §fNanite Containment Bus: §60§7+\n   §fCoolant Hatch (Input Hatch): §61§7 Center of the Liquid Cooling/Thermosink\n   §9Base Multi (Tier §51§9):\n   §640§7 Damascus Steel Frame Box\n   §69§7 Vibrant Alloy Frame Box\n   §625§7 Any Tiered Glass\n   §677§7 Basic Photolithography Framework Casing\n   §612§7 Grate Machine Casing\n   §625§7 Plascrete Block\n   §9Tier §52§9 (Adds to Tier §51§9):\n   §634§7 Duranium Frame Box\n   §6158§7 Reinforced Photolithography Framework Casing\n   §9Tier §53§9:\n   §6292§7 Radiation Proof Photolithography Framework Casing\n   §676§7 Radiant Naquadah Alloy Casing\n   §9Biochamber Upgrade\n   §668§7 Clean Stainless Steel Machine Casing\n   §640§7 Damascus Steel Frame Box\n   §672§7 Any Tiered Glass\n   §9Liquid Cooling Tower (Tier §51§9):\n   §640§7 Damascus Steel Frame Box\n   §668§7 Radiant Naquadah Alloy Casing\n   §612§7 Extreme Engine Intake Casing\n   §620§7 Tungstensteel Pipe Casing\n   §621§7 Reinforced Photolithography Framework Casing\n   §9Thermosink Radiator(Tier §52§9):\n   §640§7 Americium Frame Box\n   §641§7 Reinforced Photolithography Framework Casing\n   §68§7 Superconducting Coil Block\n   §620§7 Tungstensteel Pipe Casing\n   §648§7 Infinity Cooled Casing\n   \n   Uses sub channel §6glass§r§7 for §6Glass Tier\n   §7§m------------------------------\n§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
+    S:gt.blockmachines.multimachine.pcbfactory.tooltip_secondary=§f크기: §630§7x§638§7x§613§7 (§6가로§7x§6높이§7x§6길이§7) \n§f구조: \n   §f컨트롤러: §7앞면 하단 중앙\n§f   유지보수 해치: §7§61개\n§f   에너지 해치: §7§61§7-§62개§7 또는 §61개§7 TT 에너지 해치\n§f   입력 버스: §7§60개§7+\n§f   출력 버스: §7§60개§7+\n§f   입력 해치: §7§60개§7+\n   §f나노입자 격리 버스(Nanite Containment Bus): §60개§7+\n   §f냉각수 해치 (입력 해치): §61개§7 액체 냉각/열싱크 중앙\n   §9기본 멀티 (단계 §51§9):\n   §640개§7 다마스쿠스 강철 프레임 상자\n   §69개§7 선명 합금 프레임 상자\n   §625개§7 모든 등급의 유리\n   §677개§7 기본 포토리소그래피 프레임워크 케이싱\n   §612개§7 격자 기계 케이싱\n   §625개§7 플라스크리트 블록\n   §9단계 §52§9 (단계 §51§9에 추가):\n   §634개§7 듀라늄 프레임 상자\n   §6158개§7 강화 포토리소그래피 프레임워크 케이싱\n   §9단계 §53§9:\n   §6292개§7 방사선 차폐 포토리소그래피 프레임워크 케이싱\n   §676개§7 복사 나콰다 합금 케이싱\n   §9바이오챔버 업그레이드\n   §668개§7 깨끗한 스테인리스강 기계 케이싱\n   §640개§7 다마스쿠스 강철 프레임 상자\n   §672개§7 모든 등급의 유리\n   §9액체 냉각탑 (단계 §51§9):\n   §640개§7 다마스쿠스 강철 프레임 상자\n   §668개§7 복사 나콰다 합금 케이싱\n   §612개§7 극한 엔진 흡기 케이싱\n   §620개§7 텅스텐강 파이프 케이싱\n   §621개§7 강화 포토리소그래피 프레임워크 케이싱\n   §9열싱크 라디에이터(단계 §52§9):\n   §640개§7 아메리슘 프레임 상자\n   §641개§7 강화 포토리소그래피 프레임워크 케이싱\n   §68개§7 초전도 코일 블록\n   §620개§7 텅스텐강 파이프 케이싱\n   §648개§7 무한 냉각 케이싱\n   \n   §6유리 등급§r§7을 위해 §6유리§r§7 하위 채널 사용\n   §7§m------------------------------\n§f구조를 보려면 컨트롤러에 §9구조 라이브러리(Structure§1Lib) §r§f홀로그램 프로젝터를 사용하세요!
     S:gt.blockmachines.multimachine.plasmaforge.name=차원을 초월한 플라스마 포지
     S:gt.blockmachines.multimachine.plasmaforge.tooltip=Machine Type: §ePlasma Forge, DTPF§r\nTranscending Dimensional Boundaries.\nTakes §c8§7 hours of continuous run time to fully breach dimensional\nboundaries and achieve maximum efficiency, reducing fuel consumption by up to §c50%\nWhen no recipe is running, fuel discount decays x§c100§7 as fast as it builds up, draining\nthe total amount of stored runtime\n§7§m-----------------------------------------\nMultidimensional spaces can be perfectly aligned and synchronized in this state, \nallowing §6Dimensional Convergence §7to occur. To reach the required stability threshold,\na §bTransdimensional Alignment Matrix §7must be placed in the controller\nWhen §6Convergence §7is active, it allows the forge to perform §cPerfect Overclocks§7,\nbut the extra power cost is instead added in form of increased catalyst amounts\nThis machine can run recipes regardless of tier, if given enough energy\n§aSupports TecTech Multi-Amp and Laser Hatches!\n§7§m-----------------------------------------\nHold §l[LSHIFT]§r§7 to display structure guidelines\nAdded by: §a§4§l§o§nC§6§l§o§no§a§l§o§nl§3§l§o§ne§5§l§o§nn§r§7
     S:gt.blockmachines.multimachine.plasmaforge.tooltip_secondary=§fDimensions: §633§7x§624§7x§633§7 (§6W§7x§6H§7x§6L§7) \n§fStructure: \n   §fController: §7Middle of the structure, 3rd layer\n   §62,112§7 Heating coils required\n   §6120§7 Dimensional bridge blocks required.\n   §61,270§7 Dimensional injection casings required\n   §62,121§7 Dimensionally transcendent casings required\n   \n   Requires §61§7-§62§7 energy hatches or §61§7 TT energy hatch\n   Requires §60§7-§67§7 input hatches\n   Requires §60§7-§62§7 output hatches\n   Requires §60§7-§66§7 input buses\n   Requires §60§7-§61§7 output buses\n   \n   Uses sub channel §6coil§r§7 for §6Heating Coils Tier\n   §7§m------------------------------\n§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
@@ -4468,7 +4468,7 @@ languagefile {
     S:gt.blockmachines.multimachine.vacuumfreezer.name=진공 냉각기
     S:gt.blockmachines.multimachine.vacuumfreezer.tooltip=Machine Type: §eVacuum Freezer, VF§r\nCools hot ingots and cells\n§7§m-----------------------------------------\nHold §l[LSHIFT]§r§7 to display structure guidelines
     S:gt.blockmachines.multimachine.vacuumfreezer.tooltip_secondary=§fDimensions: §63§7x§63§7x§63§7 (§6W§7x§6H§7x§6L§7) §c(Hollow)\n§fStructure: \n   §fController: §7Front center\n§6   16x§7 - §624x §r§7Frost Proof Machine Casing\n§f   Energy Hatch: §7Any casing\n§f   Maintenance Hatch: §7Any casing\n§f   Input Hatch: §7Any casing\n§f   Output Hatch: §7Any casing\n§f   Input Bus: §7Any casing\n§f   Output Bus: §7Any casing\n   §7§m------------------------------\n§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
-    S:gt.blockmachines.multimachine.vendingmachine.tooltip=Machine Type: §eVending Machine§r\nWho even restocks this...\n§7§m-----------------------------------------\nHold §l[LSHIFT]§r§7 to display structure guidelines\nAdded by: §aAuthor: §b§lCube§9§lFury§r§7
+    S:gt.blockmachines.multimachine.vendingmachine.tooltip=기계 유형: §e자판기(Vending Machine)§r\n누가 이걸 보충하는 거지...\n§7§m-----------------------------------------\n§l[LSHIFT]§r§7를 누르고 있으면 구조 가이드라인이 표시됩니다\n추가: §a제작자: §b§lCube§9§lFury§r§7
     S:gt.blockmachines.multimachine.vendingmachine.tooltip_secondary=§fDimensions: §62§7x§63§7x§61§7 (§6W§7x§6H§7x§6L§7) \n§fStructure: \n   §fController: §7Middle\n§f   Tin Item Pipe Casings: §7Everything except the controller\n§f   ME Vending Uplink Hatch: §7Any Pipe Casing, Optional\n   Cannot be flipped onto its side\n   §7§m------------------------------\n§fTo see the structure, use a§9 Structure§1Lib §r§fHologram Projector on the Controller!
     S:gt.blockmachines.multimachine.wormhole.name=소형 웜홀 생성기
     S:gt.blockmachines.multimachine.wormhole.tooltip=Machine Type: §eWormhole Generator, MWG§r\nTransfers EU between two wormhole generators\nWormholes are linked by placing an AE2 Entangled Singularity in each controller slot\nThe transfer rate is limited by the wormhole size, and the wormhole size is governed by the transfer rate\nIf the transfer rate is completely stable, the transfer efficiency is 99.5%\nEU will only be transferred if there is space in the laser source hatch\nEach laser target must have a laser source on the §oother§7 controller, on the §oopposite§7 side\nConsumes an AE2 Singularity from an input bus each time the wormhole is kick-started\nRight click the controller with a screwdriver to disable overclocking\nEnergy Hatch limited by §fGlass§7 Tier\n§aSupports TecTech Multi-Amp and Laser Hatches!\n§7§m-----------------------------------------\nHold §l[LSHIFT]§r§7 to display structure guidelines\nAdded by: §a§9Recursive Pineapple§7, Rendering by: §fBucketBrigade§r§7
