@@ -1,143 +1,143 @@
 # Items
-item.vendingmachine.placeholder.name=Placeholder Item
+item.vendingmachine.placeholder.name=Placeholder 아이템
 
 # Blocks
 gt.blockmachines.multimachine.vendingmachine.name=자판기
 gt.blockmachines.multimachine.vendingmachine.name.gui=자판기
 casing.0.name=자판기 케이싱
 
-hatch.vendinguplink.me.name=ME Vending Uplink Hatch
+hatch.vendinguplink.me.name=ME 자판기 업링크 해치
 
 # Structure
-structure.vendingmachine.hint.1=Hint 1 Dot: Tin Item Pipe Casing, ME Vending Uplink Hatch
+structure.vendingmachine.hint.1=힌트 1 점: 주석 아이템 파이프 케이싱, ME 자판기 업링크 해치
 
 # Tooltips
-vendingmachine.vendinguplink.me.no_cached_stacks=No stacks pending ME network insertion
-vendingmachine.vendinguplink.me.contains_cached_stacks=%s%d%s stacks pending ME network insertion:
-vendingmachine.vendinguplink.me.and_more_stacks=%sAnd %d more...
+vendingmachine.vendinguplink.me.no_cached_stacks=ME 네트워크에 삽입 대기 중인 스택이 없습니다.
+vendingmachine.vendinguplink.me.contains_cached_stacks=%s%d%s개의 스택이 ME 네트워크 삽입 대기 중:
+vendingmachine.vendinguplink.me.and_more_stacks=%s그리고 %d개 더...
 
 # Gui
-vendingmachine.gui.requirementHeader=Requirements:
-vendingmachine.gui.requirement.unknown=Unknown Requiremente
-vendingmachine.gui.requirement.betterquesting=Quest
-vendingmachine.gui.requirement.betterquesting.missing=Missing Quest
-vendingmachine.gui.item_eject=Eject Items
-vendingmachine.gui.coin_eject=Eject All Coins from Wallet
-vendingmachine.gui.single_coin_type_eject_hint=Shift-Click to Extract Coins from Wallet
-vendingmachine.gui.search=Search
-vendingmachine.gui.required_inputs=Requires:
-vendingmachine.gui.nc_inputs=Requires (Not Consumed):
+vendingmachine.gui.requirementHeader=요구 사항:
+vendingmachine.gui.requirement.unknown=알 수 없는 요구사항
+vendingmachine.gui.requirement.betterquesting=퀘스트
+vendingmachine.gui.requirement.betterquesting.missing=누락된 퀘스트
+vendingmachine.gui.item_eject=아이템 꺼내기
+vendingmachine.gui.coin_eject=지갑에서 모든 코인 꺼내기
+vendingmachine.gui.single_coin_type_eject_hint=Shift+클릭으로 지갑에서 코인 추출
+vendingmachine.gui.search=검색
+vendingmachine.gui.required_inputs=요구 사항:
+vendingmachine.gui.nc_inputs=요구 사항 (소모되지 않음):
 vendingmachine.gui.alternative_oredict=Accepts Oredict:
-vendingmachine.gui.shared_trades_tooltip=Shares cooldown with %s other trade(s)
+vendingmachine.gui.shared_trades_tooltip=%s개의 다른 거래와 재사용 대기시간을 공유합니다
 vendingmachine.gui.cooldown_remaining_tooltip=%s/%s회 거래 남음
-vendingmachine.gui.cooldown_started_tooltip=Trade limit will reset in %s
-vendingmachine.gui.cooldown_idle_tooltip=Trade limit will reset %s after a trade is made
-vendingmachine.gui.trades_scale_tooltip=Limit scales with online team members
-vendingmachine.gui.trade_hint=Shift-Click to Purchase
-vendingmachine.gui.favourite_hint=Ctrl-Click to Toggle as Favourite
-vendingmachine.gui.display_mode=Display:
-vendingmachine.gui.display_mode_tile=Tiles
-vendingmachine.gui.display_mode_list=List
-vendingmachine.gui.display_sort=Sort:
-vendingmachine.gui.display_sort_smart=Smart
-vendingmachine.gui.display_sort_alphabet=Alphabetical Order
-vendingmachine.gui.display_wallet_personal=Personal Wallet
-vendingmachine.gui.display_wallet_team=Team Wallet
-vendingmachine.gui.display_track=Music:
-vendingmachine.gui.display_track_none=None
+vendingmachine.gui.cooldown_started_tooltip=거래 한도가 %s 후에 초기화됩니다
+vendingmachine.gui.cooldown_idle_tooltip=거래 완료 후 %s에 거래 한도가 초기화됩니다.
+vendingmachine.gui.trades_scale_tooltip=제한은 온라인 팀원 수에 따라 증가합니다
+vendingmachine.gui.trade_hint=Shift + 클릭하여 구매
+vendingmachine.gui.favourite_hint=Ctrl + 클릭으로 즐겨찾기 전환
+vendingmachine.gui.display_mode=표시:
+vendingmachine.gui.display_mode_tile=타일
+vendingmachine.gui.display_mode_list=목록
+vendingmachine.gui.display_sort=정렬:
+vendingmachine.gui.display_sort_smart=자동
+vendingmachine.gui.display_sort_alphabet=알파벳 순서
+vendingmachine.gui.display_wallet_personal=개인 지갑
+vendingmachine.gui.display_wallet_team=팀 지갑
+vendingmachine.gui.display_track=음악:
+vendingmachine.gui.display_track_none=없음
 vendingmachine.gui.display_track_lunch_break=Lunch Break by Sol IX
 vendingmachine.gui.cooldown_display.second=s
 vendingmachine.gui.cooldown_display.minute=m
 vendingmachine.gui.cooldown_display.hour=h
 vendingmachine.gui.cooldown_display.day=d
-vendingmachine.gui.in=IN
-vendingmachine.gui.out=OUT
-vendingmachine.gui.volume.tooltip_volume_display=Volume: %s%%
-vendingmachine.gui.volume.tooltip_open_panel=Shift-click to adjust
-vendingmachine.gui.volume.title=Music Volume
+vendingmachine.gui.in=입력
+vendingmachine.gui.out=출력
+vendingmachine.gui.volume.tooltip_volume_display=볼륨: %s%%
+vendingmachine.gui.volume.tooltip_open_panel=Shift + 클릭하여 조정
+vendingmachine.gui.volume.title=음악 볼륨
 vendingmachine.gui.volume.percent=%s%%
-vendingmachine.gui.error.incomplete_structure=Incomplete Structure.
-vendingmachine.gui.error.player_using=Someone is using the vending machine at the moment.
+vendingmachine.gui.error.incomplete_structure=구조물 미완성.
+vendingmachine.gui.error.player_using=누군가 지금 자판기를 사용하고 있습니다.
 
 # Chat
-vendingmachine.chat.trade_restock=Vending Machine Restocked: %s
+vendingmachine.chat.trade_restock=자판기 재입고 완료: %s
 
 # Categories
-vendingmachine.category.favourites=Favourites
-vendingmachine.category.unknown=Unknown Category
-vendingmachine.category.all=All Items
-vendingmachine.category.components=Components
-vendingmachine.category.raw=Raw Materials
-vendingmachine.category.farming=Farming
-vendingmachine.category.chemistry=Chemistry
-vendingmachine.category.magic=Magic
-vendingmachine.category.bees=Bees
-vendingmachine.category.misc=Miscellaneous
+vendingmachine.category.favourites=즐겨찾기
+vendingmachine.category.unknown=알 수 없는 카테고리
+vendingmachine.category.all=모든 아이템
+vendingmachine.category.components=구성 요소
+vendingmachine.category.raw=원자재
+vendingmachine.category.farming=농업
+vendingmachine.category.chemistry=화학
+vendingmachine.category.magic=마법
+vendingmachine.category.bees=벌
+vendingmachine.category.misc=기타
 
 # Coins
-vendingmachine.coin.adventure=Explorer Coin
-vendingmachine.coin.bees=Beekeeper Coin
-vendingmachine.coin.blood=Vampire Coin
-vendingmachine.coin.chemist=Chemist Coin
-vendingmachine.coin.cook=Cook Coin
-vendingmachine.coin.darkWizard=Dark Wizard Coin
-vendingmachine.coin.farmer=Farmer Coin
-vendingmachine.coin.flower=Gardener Coin
-vendingmachine.coin.forestry=Forest Ranger Coin
-vendingmachine.coin.smith=Blacksmith Coin
-vendingmachine.coin.space=Space Invaders Coin
-vendingmachine.coin.survivor=Survivor Coin
-vendingmachine.coin.technician=Technician Coin
-vendingmachine.coin.witch=Spirit Coin
+vendingmachine.coin.adventure=탐험가 코인
+vendingmachine.coin.bees=양봉가 코인
+vendingmachine.coin.blood=흡혈귀 코인
+vendingmachine.coin.chemist=화학자 코인
+vendingmachine.coin.cook=요리 코인
+vendingmachine.coin.darkWizard=흑마법사 코인
+vendingmachine.coin.farmer=농부 코인
+vendingmachine.coin.flower=정원사 코인
+vendingmachine.coin.forestry=산림 관리 코인
+vendingmachine.coin.smith=대장장이 코인
+vendingmachine.coin.space=우주 침략자 코인
+vendingmachine.coin.survivor=생존자 코인
+vendingmachine.coin.technician=기술자 코인
+vendingmachine.coin.witch=정령 코인
 
 # Config
 vendingmachine.config.title.main=자판기 설정
-vendingmachine.config.title.main.tooltip=Configuration settings for vending machine.
+vendingmachine.config.title.main.tooltip=자판기 설정 구성
 
-vendingmachine.config.title.main_settings=Main Settings
-vendingmachine.config.title.main_settings.tooltip=Global settings for the vending machine
-vendingmachine.config.title.gui_settings=GUI Settings
-vendingmachine.config.title.gui_settings.tooltip=Settings for the GUI display
-vendingmachine.config.title.team_settings=Team Settings
-vendingmachine.config.title.team_settings.tooltip=Settings for the teams
-vendingmachine.config.title.music_settings=Music Settings
-vendingmachine.config.title.music_settings.tooltip=Settings for the music
-vendingmachine.config.title.dev_settings=Developer Settings
-vendingmachine.config.title.dev_setting.tooltips=Settings for the developers
+vendingmachine.config.title.main_settings=메인 설정
+vendingmachine.config.title.main_settings.tooltip=자판기의 글로벌 설정
+vendingmachine.config.title.gui_settings=GUI 설정
+vendingmachine.config.title.gui_settings.tooltip=GUI 디스플레이 설정
+vendingmachine.config.title.team_settings=팀 설정
+vendingmachine.config.title.team_settings.tooltip=팀을 위한 설정
+vendingmachine.config.title.music_settings=음악 설정
+vendingmachine.config.title.music_settings.tooltip=음악 설정
+vendingmachine.config.title.dev_settings=개발자 설정
+vendingmachine.config.title.dev_setting.tooltips=개발자를 위한 설정
 
-vendingmachine.config.main.data_refresh=Refresh frequency
-vendingmachine.config.main.data_refresh.tooltip=How often the vending machine refreshes its data, in number of ticks
-vendingmachine.config.main.restock=Restock notifications
-vendingmachine.config.main.restock.tooltip=Enable restock notifications\nDisabling on server will disable notifications for everyone
-vendingmachine.config.main.restock_check=Restock frequency check
-vendingmachine.config.main.restock_check.tooltip=How often the server checks for restocked trades, in number of ticks
+vendingmachine.config.main.data_refresh=새로고침 빈도
+vendingmachine.config.main.data_refresh.tooltip=자판기가 데이터를 갱신하는 주기(틱 단위)
+vendingmachine.config.main.restock=재입고 알림
+vendingmachine.config.main.restock.tooltip=재입고 알림 활성화\n서버에서 비활성화하면 모든 사용자의 알림이 비활성화됩니다
+vendingmachine.config.main.restock_check=재입고 빈도 확인
+vendingmachine.config.main.restock_check.tooltip=서버가 재입고된 거래를 확인하는 주기(틱 단위)
 vendingmachine.config.main.eject_frequency=Dispence frequency 
-vendingmachine.config.main.eject_frequency.tooltip=How often items items are ejected, in number of ticks
+vendingmachine.config.main.eject_frequency.tooltip=아이템이 몇 틱마다 배출되는지(틱 단위)
 vendingmachine.config.main.dispense_frequency=Dispence amount
 vendingmachine.config.main.dispense_frequency.tooltip=How many items are dispensed from the queue at once
 
-vendingmachine.config.gui.trade_display=Trade display format
-vendingmachine.config.gui.trade_display.tooltip=Default trade display format\nCase sensitive
-vendingmachine.config.gui.sort_mode=Sort mode
-vendingmachine.config.gui.sort_mode.tooltip=Default sort mode\nCase sensitive
-vendingmachine.config.gui.show_coins=Show coins
-vendingmachine.config.gui.show_coins.tooltip=Show currently owned coins in vending machine
-vendingmachine.config.gui.wallet_mode=Wallet mode
-vendingmachine.config.gui.wallet_mode.tooltip=Default wallet mode\nCase sensitive
+vendingmachine.config.gui.trade_display=거래 표시 형식
+vendingmachine.config.gui.trade_display.tooltip=기본 거래 표시 형식\n대소문자 구분
+vendingmachine.config.gui.sort_mode=정렬 모드
+vendingmachine.config.gui.sort_mode.tooltip=기본 정렬 모드\n대소문자 구분
+vendingmachine.config.gui.show_coins=코인을 표시
+vendingmachine.config.gui.show_coins.tooltip=자판기에서 현재 보유 중인 코인을 표시합니다
+vendingmachine.config.gui.wallet_mode=지갑 모드
+vendingmachine.config.gui.wallet_mode.tooltip=기본 지갑 모드\n대소문자 구분
 
-vendingmachine.config.team.allow_in_teams=Use team wallet
-vendingmachine.config.team.allow_in_teams.tooltip=Allow using the team wallet in solo teams
-vendingmachine.config.team.cooldown_increase=Cooldown trade limit
-vendingmachine.config.team.cooldown_increase.tooltip=Each player on a team increases the cooldown trade limit by 1\nValue of -1 keeps this uncapped
+vendingmachine.config.team.allow_in_teams=팀 지갑 사용
+vendingmachine.config.team.allow_in_teams.tooltip=싱글 팀에서 팀 지갑 사용 허용
+vendingmachine.config.team.cooldown_increase=거래 쿨타임 제한
+vendingmachine.config.team.cooldown_increase.tooltip=각 플레이어가 팀의 쿨다운 교환 제한을 1씩 증가시킵니다.\n-1 값을 설정하면 상한이 없습니다.
 
-vendingmachine.config.music.track=Music track
-vendingmachine.config.music.track.tooltip=Music track to play in the vending machine\nCase sensitive
-vendingmachine.config.music.volume=Music volume
-vendingmachine.config.music.volume.tooltip=Volume of the vending machine music
+vendingmachine.config.music.track=음악 트랙
+vendingmachine.config.music.track.tooltip=자판기에서 재생할 음악 트랙\n대소문자 구분
+vendingmachine.config.music.volume=음악 볼륨
+vendingmachine.config.music.volume.tooltip=자판기 음악의 볼륨
 
-vendingmachine.config.dev.subdirectory=Subdirectory
-vendingmachine.config.dev.subdirectory.tooltip=Subdirectory for vending machine data in world save
-vendingmachine.config.dev.folder=Database trade folder
-vendingmachine.config.dev.folder.tooltip=Folder where trade database file is located
-vendingmachine.config.dev.database=Database force rewrite
-vendingmachine.config.dev.database.tooltip=Force rewrite database on load, for add/remove trades or change of format
+vendingmachine.config.dev.subdirectory=하위 디렉터리
+vendingmachine.config.dev.subdirectory.tooltip=월드 저장의 자판기 데이터 하위 디렉토리
+vendingmachine.config.dev.folder=데이터베이스 거래 폴더
+vendingmachine.config.dev.folder.tooltip=거래 데이터베이스 파일이 위치한 폴더
+vendingmachine.config.dev.database=데이터베이스 강제 재작성
+vendingmachine.config.dev.database.tooltip=로드 시 데이터베이스를 강제로 다시 작성하여 거래 추가/제거 또는 형식 변경을 적용합니다.
