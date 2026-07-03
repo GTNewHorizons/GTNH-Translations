@@ -1601,8 +1601,6 @@ GT5U.MBTT.Structure=Структура
 GT5U.MBTT.Controller=Контроллер
 GT5U.MBTT.Minimum=(минимум)
 GT5U.MBTT.Tiered=(тировый)
-GT5U.MBTT.MaintenanceHatch=Люк техобслуживания
-GT5U.MBTT.MufflerHatch=Выхлопная система
 GT5U.MBTT.EnergyHatch=Энерговвод
 GT5U.MBTT.DynamoHatch=Энерговывод
 GT5U.MBTT.MultiampEnergyHatch=Мультиамперный энерговвод
@@ -1614,12 +1612,17 @@ GT5U.MBTT.BeamlineOutputHatch=Выходной шлюз установки дл�
 GT5U.MBTT.FocusInputBus=Входной люк фокусировки
 GT5U.MBTT.ExoticEnergyHatch=Лазер/Мультиамперный энерговвод
 GT5U.MBTT.ExoticEnergyDynamo=Лазер/Мультиамперный энерговывод
+GT5U.MBTT.MaintenanceHatch=Люк техобслуживания
+GT5U.MBTT.MufflerHatch=Выхлопная система
 GT5U.MBTT.InputBus=Входной люк
 GT5U.MBTT.InputHatch=Входной шлюз
+GT5U.MBTT.InputAny=Input Bus/Hatch
 GT5U.MBTT.OutputBus=Выходной люк
 GT5U.MBTT.OutputHatch=Выходной шлюз
-GT5U.MBTT.TecTechMultiAmp=Поддерживает TecTech Мультиамперные энерговводы!
-GT5U.MBTT.TecTechHatch=Поддерживает TecTech Мультиамперные энерговводы и лазеры!
+GT5U.MBTT.OutputAny=Output Bus/Hatch
+GT5U.MBTT.SupportMultiAmp=Supports Multi-Amp Hatches!
+GT5U.MBTT.SupportLaser=Supports Laser Hatches!
+GT5U.MBTT.SupportAny=Supports Multi-Amp and Laser Hatches!
 GT5U.MBTT.Param=Параметрайзер
 GT5U.MBTT.Uncertainty=Решитель неопределенности
 GT5U.MBTT.InputData=Входной разъём для данных
@@ -1659,6 +1662,14 @@ GT5U.MBTT.Speed.Absolute=Speed is %s times %s Tier
 GT5U.MBTT.EuDiscount.Base=EU потребление: %s
 GT5U.MBTT.EuDiscount.Additional=Используется %s EU за %s тир
 GT5U.MBTT.SteamDiscount.Base=Используется пара: %s
+GT5U.MBTT.Tiers.Basic=§9Basic §b(T1)
+GT5U.MBTT.Tiers.HighPressure=§9High-Pressure §b(T2)
+GT5U.MBTT.Tiers.Extended=§9Extended Structure
+GT5U.MBTT.Tiers.One=§bTier 1
+GT5U.MBTT.Tiers.Two=§bTier 2
+GT5U.MBTT.Tiers.Three=§bTier 3
+GT5U.MBTT.Tiers.Four=§bTier 4
+GT5U.MBTT.Tiers.Five=§bTier 5
 GT5U.MBTT.Tiers.Voltage=Вольтаж
 GT5U.MBTT.Tiers.Machine=Механизм
 GT5U.MBTT.Tiers.Coil=Нагревательная катушка
@@ -1672,14 +1683,22 @@ GT5U.MBTT.Tiers.Glass=Стекло
 GT5U.MBTT.Tiers.ComponentAssemblyLineCasing=Корпус компонентной сборочной линии
 GT5U.MBTT.Steam.Speed=На %s быстрее, чем при использовании одноблочных паровых машин того же давления
 GT5U.MBTT.Steam.Eff=Расход пара составляет %s от обычно требуемого расхода
-GT5U.MBTT.Structure.SeeStructure1=Чтобы увидеть структуру, используйте
-GT5U.MBTT.Structure.SeeStructure2=голограммный проект на контроллере!
+GT5U.MBTT.Structure.Base=§9Base Structure
+GT5U.MBTT.Structure.Slice=§9Each Additional §bSlice
+GT5U.MBTT.Structure.Layer=§9Each Additional §bLayer
+GT5U.MBTT.Structure.Projector=§fUse the Multiblock Structure §9Hologram §1Projector§f to visualize/build the structure!
 GT5U.MBTT.Structure.MinGlassForLaser=-тировое §fстекло§7 требуется для §9Tec§1Tech§7 лазеров
 GT5U.MBTT.Structure.GlassEnergyLimit=Энерговвод ограничен тиром §fстекла§7
 GT5U.MBTT.Structure.GlassEnergyLimitTier=-тир разблокирует всё
+GT5U.MBTT.Structure.DynamoLimit=§cDynamo cannot be greater than 4A
+GT5U.MBTT.Structure.Rain=§cDon't forget to protect the machine from rain and/or meteors!
+GT5U.MBTT.Structure.WaterCost=The water is a one-time-cost to prime the machine, insert with a hatch
+GT5U.MBTT.Structure.WaterFree=The water is spawned for free once formed
 GT5U.MBTT.Structure.NoTierSkips=Этот механизм может выполнять только те рецепты, которые соответствуют ее среднему тиру энерговвода
 GT5U.MBTT.Structure.MaxTierSkips=Этот механизм может выполнять рецепты на %d тиров выше своего среднего тира энерговвода
 GT5U.MBTT.Structure.UnlimitedTierSkips=Этот механизм может выполнять рецепты независимо от тира, если ей дать достаточно энергии
+GT5U.MBTT.Structure.DataStick.Waterline=Link to the §bWater Purification Plant§7 with a §aData Stick
+GT5U.MBTT.Structure.DataStick.PCB=Link to the §bPCB Factory§7 with a §aData Stick
 gt.mbtt.structure.front_center=Спереди в центре
 gt.mbtt.structure.back_center=Сзади посередине
 GT5U.MBTT.HatchInfo=Любой %s
@@ -1796,6 +1815,7 @@ gt.multiblock.NeutralizationEngine.decay_boost.4=Every §fminute§7, §dRobot Ar
 gt.multiblock.NeutralizationEngine.structure_tiers=Structure has §f3 Tiers§7, §fTier §7determines §9Base Decay §7and §3Capacity§7:
 gt.multiblock.NeutralizationEngine.tier_info=§fT%d§7 : §f%s§7 : §9%d§7 : §3%s
 
+GT5U.MBTT.masterchannel=Projector stack size determines §b%s
 GT5U.MBTT.subchannel=Использует подканал §6%s§r§7 для §6%s
 
 GT5U.MBTT.CokeOvenHatch=Люк коксовой печи
@@ -2389,6 +2409,17 @@ channels.gregtech.time_dilation=Определяет тир Генератора
 channels.gregtech.gt_hatch=Enables automatic hatch placement
 channels.gregtech.field=Определяет тир T.F.F.T блока хранения жидкостей.
 channels.gregtech.component_casing=Определяет тир корпуса компонентной сборочной линии. Начинается с §6LV§r со значением 1 и заканчивается на §6MAX§r со значением 14.
+channels.gregtech.super_chest=Decides the tier of Super/Quantum Chest. Starts at §6Super Chest I§r at value 1 and ends at §6Quantum Chest V§r at value 10.
+
+channels.gregtech.master.structuretier=Structure Tier
+channels.gregtech.master.casingtier=Casing Tier
+channels.gregtech.master.coiltier=Coil Tier
+channels.gregtech.master.windingtier=Primary Winding Tier
+channels.gregtech.master.size=Total Size
+channels.gregtech.master.length=Length
+channels.gregtech.master.height=Height
+channels.gregtech.master.modules=Number of Modules
+channels.gregtech.master.rings=Number of Rings
 
 GT5U.gui.select.current=§8Состояние:
 GT5U.gui.button.liquid_filling=Liquid Filling
@@ -2609,7 +2640,7 @@ GT5U.gui.text.structure_error.energy_hatch_tier_too_low=Energy hatch tier too lo
 GT5U.gui.text.structure_error.hatch_tier_too_low=%s tier too low (minimum: %s)
 GT5U.gui.text.structure_error.hatch_tier_too_high=%s tier too high (maximum: %s)
 GT5U.gui.text.structure_error.energy_hatch_exceed_glass=Energy hatch tier cannot exceed glass tier
-GT5U.gui.text.structure_error.one_tt_or_two_energy=Either 1 TecTech energy hatch or 2 normal energy hatches are allowed.
+GT5U.gui.text.structure_error.one_tt_or_two_energy=Either 1 exotic energy hatch or 2 normal energy hatches are allowed.
 GT5U.gui.text.structure_error.pss_dynamo=Bad dynamo hatch tier
 GT5U.gui.text.structure_error.pss_energy=Bad energy hatch tier
 GT5U.gui.text.structure_error.pss_cell=Cell tier must match
@@ -2636,7 +2667,6 @@ GT5U.gui.text.structure_error.manual_transformer_dynamo=Dynamo hatches must be o
 GT5U.gui.text.structure_error.solar_factory_precise=Casing not precise enough
 GT5U.gui.text.structure_error.synchrotron_antenna=Antenna tier not detected
 GT5U.gui.text.structure_error.tfft_too_many_hatch=Too many hatches
-GT5U.gui.text.structure_error.sofc_missing_input_hatches=Missing Input Hatches: requires 1 for Fuel and 1 for Oxygen, found %s
 GT5U.gui.text.structure_error.htgr_missing_helium_hatch=Missing Input Hatch for Helium
 GT5U.gui.text.pulse_mode=Импульсный режим
 GT5U.gui.text.recipe_result.no_wafer=No wafer was found
@@ -2836,9 +2866,10 @@ GT5U.tooltip.nac.interface.structure_base_vci=§fВход вакуумного �
 GT5U.tooltip.nac.interface.structure_base_vco=§fВыход вакуумного конвейера:§7 %s
 GT5U.tooltip.nac.interface.structure_base_casing=Любой основной корпус
 GT5U.tooltip.nac.interface.structure_control_room_base_casing=Любой корпус наночипового интерфейса сети диспетчерской
-GT5U.tooltip.nac.interface.structure_outer_ring_base_casing=Любая платформа интересной сети на внешнем кольце
 GT5U.tooltip.nac.interface.structure.module_controller=Центральная часть платформы информационной сети
-GT5U.tooltip.nac.interface.structure.module_description=§fКоличество материалов§r §cНЕ§r §fвключая платформу интерфейсной сети§r
+GT5U.tooltip.nac.interface.structure.module_hatches=Any base mesh casing
+GT5U.tooltip.nac.interface.structure.module_cost=Base mesh casing count not included
+GT5U.tooltip.nac.interface.structure.module_power=Receives power from the NAC control room
 
 GT5U.tooltip.nac.main.machine_type=NAC, Комплекс сборки наночипов
 GT5U.tooltip.nac.main.action=Использует компоненты электросхем (%s) для создания электросхем с невообразимой скоростью
@@ -5052,7 +5083,7 @@ gt.item.plank_cover.ebony.name=Ebony Plank Cover
 gt.item.plank_cover.mahagony.name=Mahagony Plank Cover
 gt.item.plank_cover.balsa.name=Balsa Plank Cover
 gt.item.plank_cover.willow.name=Willow Plank Cover
-gt.item.plank_cover.walnut.name=Walnut Plank Cover
+gt.item.plank_cover.walnut.name=Доска из орехового дерева
 gt.item.plank_cover.greenheart.name=Greenheart Plank Cover
 gt.item.plank_cover.cherry.name=Cherry Plank Cover
 gt.item.plank_cover.mahoe.name=Mahoe Plank Cover
@@ -8860,9 +8891,31 @@ GT5U.gui.text.providing-nanites=Providing Nanites:
 GT5U.gui.text.available-condensate=Available Condensate:
 GT5U.gui.text.bec-stored-condensate=Stored Condensate:
 
-# BEC Structure Hints
-GT5U.gui.text.bec-generator-input-hatch-pos=Any %s in the first slice
-GT5U.gui.text.bec-generator-bec-hatch-pos=The center Casing in the last slice
+# BEC I/O Node Structure Hints
+GT5U.tooltip.bec-ionode.controller-pos=Front center, 12th layer
+GT5U.tooltip.bec-ionode.hatch-pos=Any electromagnetically-isolated casing
+GT5U.tooltip.bec-ionode.los-hatch-pos=Back center casing
+
+# BEC Generator Structure Hints
+GT5U.tooltip.bec-generator.controller-pos=Front center, 10th layer
+GT5U.tooltip.bec-generator.hatch-pos=Any electromagnetically-isolated casing around controller
+GT5U.tooltip.bec-generator.bec-hatch-pos=Back center casing
+
+# BEC Storage Structure Hints
+GT5U.tooltip.bec-storage.controller-pos=Bottom front of central pillar, 3rd layer
+GT5U.tooltip.bec-storage.hatch-pos=Any electromagnetically-isolated casing
+GT5U.tooltip.bec-storage.bec-hatch-pos=Any center side casing
+
+# BEC Diode Structure Hints
+GT5U.tooltip.bec-diode.controller-pos=Front center, 6th layer
+GT5U.tooltip.bec-diode.hatch-pos=Any electromagnetically-isolated casing
+GT5U.tooltip.bec-diode.bec-hatch-pos=Center left casing (input), center right casing (output)
+
+# BEC Assembler Structure Hints
+GT5U.tooltip.bec-assembler.controller-pos=Front center, 16th layer
+GT5U.tooltip.bec-assembler.hatch-pos=Any electromagnetically-isolated casing
+GT5U.tooltip.bec-assembler.bec-hatch-pos=Center left or right casing
+GT5U.tooltip.bec-assembler.los-hatch-pos=Center side casing of each ring
 
 # BEC Settings
 GT5U.gui.text.bec-filter=Фильтр
@@ -8890,9 +8943,6 @@ GT5U.chat.bec-no-connect-assembler=Could not connect to the Observation Array
 # BEC Waila
 GT5U.chat.bec-processing-speed=Processing Speed: x%s
 GT5U.chat.bec-slowdowns=Slowdowns: %s
-
-# BEC Structure
-GT5U.chat.bec-storage-controller-pos=Outer wall of center pillar, second layer from the bottom
 
 # Test Factory Machines
 gt.blockmachines.pipe.test.name=Test Factory Pipe

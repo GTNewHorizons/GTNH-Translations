@@ -84,6 +84,7 @@ gtnhlanth.tt.coolant.Scoolant=§bПромышленный хладагент§f:
 # Beam Hatches
 gtnhlanth.tt.hatch.beaminput=Beam Input Hatch
 gtnhlanth.tt.hatch.beamoutput=Beam Output Hatch
+gtnhlanth.tt.hatch.beamoutputfiltered=Filtered Beam Output Hatch
 gtnhlanth.tt.hatch.focus=Входной люк фокусировки
 
 GT5U.gui.text.shutdown_reason.gtnhlanth.nocoolant=В механизме отсутствует хладагент!
@@ -99,67 +100,6 @@ GT5U.gui.text.shutdown_reason.gtnhlanth.noparticle=Частица отсутст
 
 # NEI
 value.disstank=Соотношение: %s:1
-
-DissolutionTank.hint.0=Подсказка №1: Чистый корпус из нержавеющей стали
-DissolutionTank.hint.1=24x Укреплённое боросиликатное стекло из титана
-DissolutionTank.hint.2=9х Жаропрочный корпус
-DissolutionTank.hint.3=Входной люк, Выходной люк, Входной шлюз, Выходной шлюз
-DissolutionTank.hint.4=Энерговвод, Люк техобслуживания
-
-Digester.hint.0=Подсказка №1: Прочный корпус из вольфрамовой стали
-Digester.hint.1=9x Чистый корпус из нержавеющей стали
-Digester.hint.2=16х Жаропрочных корпусов
-Digester.hint.3=16x Блок катушек
-Digester.hint.4=Входной люк, Выходной люк, Входной шлюз, Выходной шлюз
-Digester.hint.5=Энерговвод, Люк техобслуживания
-
-SourceChamber.hint.0=56x Экранированный корпус ускорителя
-SourceChamber.hint.1=52x Экранированное стекло ускорителя
-SourceChamber.hint.2=16x Электродный корпус
-SourceChamber.hint.3=Подсказка №1: Входной люк
-SourceChamber.hint.4=Подсказка №2: Выходной люк
-SourceChamber.hint.5=Подсказка №3: Люк техобслуживания, Энерговвод
-SourceChamber.hint.6=Подсказка №4: Выходной шлюз установки для литографии
-
-LINAC.hint.0=325-1285x Экранированный корпус ускорителя
-LINAC.hint.1=148-852x Корпус подачи хладагента
-LINAC.hint.2=127-703x Экранированное стекло ускорителя
-LINAC.hint.3=56-312x Блок сверхпроводящей катушки
-LINAC.hint.4=156-732x Электродный корпус
-LINAC.hint.5=47x Вентиляционный корпус
-LINAC.hint.6=48x Стекло любого тира (LuV+)
-LINAC.hint.7=Подсказка №1: Энерговвод, Люк техобслуживания
-LINAC.hint.8=Подсказка №2: Входной шлюз, Выходной шлюз
-LINAC.hint.9=Подсказка №3: Входной шлюз установки для литографии
-LINAC.hint.10=Подсказка №4: Выходной шлюз установки для литографии
-
-Synchrotron.hint.0=676x Экранированный корпус ускорителя
-Synchrotron.hint.1=90x Блок сверхпроводящей катушки
-Synchrotron.hint.2=64x Ниобиевый полый корпус
-Synchrotron.hint.3=28x Корпус подачи хладагента
-Synchrotron.hint.4=16x Стекло любого тира (LuV+)
-Synchrotron.hint.5=4x Корпус антенны
-Synchrotron.hint.6=Подсказка №1: Входной шлюз установки для литографии
-Synchrotron.hint.7=Подсказка №2: Выходной шлюз установки для литографии
-Synchrotron.hint.8=Подсказка №3: Люк техобслуживания
-Synchrotron.hint.9=Подсказка №4: Входной шлюз
-Synchrotron.hint.10=Подсказка №5: Выходной шлюз
-Synchrotron.hint.11=Подсказка №6: Энерговвод
-
-TargetChamber.hint.0=28x Экранированный корпус ускорителя
-TargetChamber.hint.1=34x Экранированное стекло ускорителя
-TargetChamber.hint.2=16x Стекло любого тира
-TargetChamber.hint.3=29x Вентиляционный корпус
-TargetChamber.hint.4=4x Корпус фокуса манипулятора
-TargetChamber.hint.5=4x Корпус целевого приёмника
-TargetChamber.hint.6=1x Держатель фокуса
-TargetChamber.hint.7=1x Приёмник образцов
-TargetChamber.hint.8=Подсказка №1: Входной люк фокусировки
-TargetChamber.hint.9=Подсказка №2: Энерговвод, Люк техобслуживания
-TargetChamber.hint.10=Подсказка №1: Входной люк
-TargetChamber.hint.11=Подсказка №4: Выходной люк
-TargetChamber.hint.12=Подсказка №5: Входной шлюз установки для литографии
-
 
 fluid.Antimony Pentafluoride Solution=Раствор пентафторида сурьмы
 fluid.Hafnium Tetrachloride Solution=Раствор тетрахлорида гафния
