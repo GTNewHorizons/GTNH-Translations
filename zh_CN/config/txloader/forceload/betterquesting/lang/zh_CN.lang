@@ -1275,7 +1275,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF2w.desc=等等，什么？你想从矿�
 
 # Quest: Biomes Everywhere, But Not the One You Want?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5g.name=§2§l生物群系无处不在，却偏偏找不到你想要的那个？
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5g.desc=厌倦了在地图上到处找竹林或热带雨林？急需黏土粉，需要找到峡谷或平顶山生物群系？生物群系指南针将引导你找到其搜索范围内你所需的生物群系。%n%n译者注：服务器慎用！%n%n指南针菜单栏有以下功能：%n* 当模式为“排序方式： 名字”时，你可以用名字或者部分名字来筛选列表。搜索是不分大小写的。%n* 你可以按关键词以及其组合搜索。例如：“名字： bamboo, 气候： 温暖， 基础高度： -1.8, 标签： forest”。%n所有可用的关键词：%n名字，%n气候 ［地狱/炎热/温暖/正常/寒冷/酷寒］，%n基础高度 | bh （小数，可以是负的），%n高度偏差 | hv （小数），%n降水量 | rain （小数），%n温度 | temp （小数），%n湿度 ［湿润/正常/干燥］，%n标签。%n%n需要注意的几点：%n* 其他维度的生物群系也会显示在列表里，但只需要注意本维度的生物群系即可。%n* 通常，整个列表包括了不会被“真实世界生成模组”生成的生物群系，比如Sunflower Plains。%n* 半径（Radius）10000意思是在范围内找不到该生物群系。这种情况下，在初始搜索后，其菜单将仅显示半径为10k的生物群落。使用 Shift+右键 再次查看整个列表。 %n* 你可以换个地方重新尝试搜索 - 搜索范围是半径10k。%n* 各种mod添加的人造生物群系也会在列表中显示，如果你只想找Natural自己的群系，可以移除它们。%n* 在同一类别下有许多不同“版本”的生物群系，所以如果你想要为热带蜂寻找热带生物群系，实际上有许多选择。%n* 对于那些不介意搜索时界面卡住的人，可以在配置中修改半径。HUD显示位置也可以在配置中修改。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5g.desc=厌倦了满地图寻找竹林或热带雨林？急需黏土粉，需要找到峡谷或平顶山生物群系？生物群系指南针会指引你前往所寻找的生物群系，只要它在探测范围内。%n%n指南针菜单栏有以下功能：%n* 当排序方式为“名字”时，你可以用名字或名字的一部分进行筛选。搜索不区分大小写。%n* 你可以按关键词以及其组合搜索。例如：“名字: bamboo, 气候: 温暖, 基础高度: -1.8, 标签: forest”（译者注：使用半角冒号和逗号）。%n所有可用的关键词：%n名字，%n气候 ［地狱/炎热/温暖/正常/寒冷/酷寒］，%n基础高度 | bh （小数，可以是负的），%n高度偏差 | hv （小数），%n降水量 | rain （小数），%n温度 | temp （小数），%n湿度 ［湿润/正常/干燥］，%n标签。%n%n需要注意的几点：%n* 其他维度的生物群系也会显示在列表里，除非你就在对应的维度，否则无需搜索那些。%n* 通常，整个列表包括了不会由“真实世界生成”模组生成的生物群系，比如Sunflower Plains。%n* 半径显示为10000，代表在范围内找不到该生物群系。这种情况下，在初始搜索后，菜单将仅显示半径10k范围内的生物群系。使用 Shift+右键 即可再次查看完整列表。 %n* 你可以换个地方重新尝试搜索 - 搜索范围以你当前位置为中心，半径是10k。%n* 人工创建的生物群系也会在列表中显示，如果你只想找天然生成的生物群系，请先移除它们。%n* 在同一类别下有许多不同“版本”的生物群系，所以如果你想要为热带蜂寻找一个热带生物群系，实际上有许多选择。%n* 如果你不介意搜索时的卡顿，可以在配置中更改搜索半径。HUD显示位置也可以在配置中修改。
 
 # Quest: Portable Tanks Too Small?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7w.name=§2§l便携储罐太小了？
@@ -4574,7 +4574,7 @@ betterquesting.quest.6rzcSbH2QY2cpChT2zLC_g.desc=倒数第二个能源仓。%n%n
 
 # Quest: Zepto Power IC
 betterquesting.quest.7oSbFvGZQfydqvXrYqLACA.name=§c§l§n仄米功率IC
-betterquesting.quest.7oSbFvGZQfydqvXrYqLACA.desc=§5§f你需要用仄米功率IC来制造UXV变压器、UMV能源/动力仓以及量子电路。%n%n这些晶圆需要使用时空粉、熔融创律合金和灿茶合金在高能粒子束对撞合成室中制作。或许你该再升级一下你的大型强子对撞机。%n%n[note]你需要一台UMV激光蚀刻机，或者一台超频的多方块机器来切割晶圆。%n%n都到这份上了，谁还再用没超频的多方块机器呢？[/note]
+betterquesting.quest.7oSbFvGZQfydqvXrYqLACA.desc=§5§f你需要用仄米功率IC来制造UXV变压器、UMV能源/动力仓以及量子电路。%n%n这些晶圆需要使用时空粉、熔融创律合金和灿茶合金在束流合成器中制作。或许你该再升级一下你的大型强子对撞机。%n%n[note]你需要一台UMV激光蚀刻机，或者一台超频的多方块机器来切割晶圆。%n%n都到这份上了，谁还再用没超频的多方块机器呢？[/note]
 
 # Quest: You Are Worthy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMoQ.name=§c§l§n珍惜你自己
@@ -5017,7 +5017,7 @@ betterquesting.quest.1b0GPUIOTL2vkERs7LqFtg.desc=当你能够在化学浸洗机�
 
 # Quest: Aluminium Berries
 betterquesting.quest.1rhK6oRBQ-qc6YJxPn4CuQ.name=铝之浆果
-betterquesting.quest.1rhK6oRBQ-qc6YJxPn4CuQ.desc=或许它能让你停止铲平整座粘土山的陶瓦。
+betterquesting.quest.1rhK6oRBQ-qc6YJxPn4CuQ.desc=或许它能让你停止铲平整座黏土山的陶瓦。
 
 # Quest: Passive Production
 betterquesting.quest.20MjFyzJQhWPEPkK0EZDeA.name=被动生产
@@ -6902,7 +6902,7 @@ betterquesting.quest.7p2Sqx7dR8mfVCNUYEUIuQ.desc=使用真空冷冻机可以制�
 
 # Quest: Collision Course
 betterquesting.quest.9Pc7p99ASnybsIbWmmg0LQ.name=§6§l撞击轨道
-betterquesting.quest.9Pc7p99ASnybsIbWmmg0LQ.desc=最后，要实际获得一些IC，请在§9高能束流聚焦对撞靶室§r中使用你的光子。%n%n请注意，束流靶腔配方中列出的 EU/t 值只是一个最小值，因为配方时间完全由你提供给多方块的光子数量决定。%n%n更具体地说，你可以通过将配方所需数量除以输入粒子束的数量，然后乘以 5 秒来获得配方时间。
+betterquesting.quest.9Pc7p99ASnybsIbWmmg0LQ.desc=最后，要实际获得一些IC，请在§9束流靶室§r中使用你的光子。%n%n请注意，束流靶腔配方中列出的 EU/t 值只是一个最小值，因为配方时间完全由你提供给多方块的光子数量决定。%n%n更具体地说，你可以通过将配方所需数量除以输入粒子束的数量，然后乘以 5 秒来获得配方时间。
 
 # Quest: Multiblock Tanks... Railcraft Tanks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALQ.name=§6§l多方块储罐...RC蓄水器
@@ -7258,7 +7258,7 @@ betterquesting.quest.Mf1D7e-LTaW3rbBRYmxBAQ.desc=在取得重大进展后，您�
 
 # Quest: A Beginner's Guide to Particle Physics
 betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.name=§6§l粒子物理学新手指南
-betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.desc=如果你已经搭建了高能粒子辐射激发源室，你可能已经注意到粒子并不像GT++中那样以物品的形式产生。%n%n相对地，与现实生活类似，它们是通过束流管在多方块机器之间传输的。%n%n传输的每条粒子流，或者说“束流”，有四个属性：%n- §6粒子§r：束流携带的粒子类型%n- §4能量§r：粒子的能量大小%n- §9聚焦§r：束流的聚焦程度，上限为100%n- §d数量§r：又作通量，即束流中粒子数量的量度%n%n注意，你可以通过对多方块机器的控制器使用三录仪来查看其束流输入/输出信息。%n%n对于你感兴趣的配方，也就是真正能生产物品的配方，它们会有输入束流能量的允许阈值、最小聚焦值和决定配方时间的数量值（更多信息请见高能束流聚焦对撞靶室的任务）。%n不妨找些对撞靶室的配方作为例子浏览一下。%n%n给你一颗光子，挂在你的墙上炫耀吧！%n%n[note]中文wiki 束流蚀刻线：  §1§n[url]https://gtnh.huijiwiki.com/p/78645[/url]§r[/note]
+betterquesting.quest.NGG2rHQ4T4SInwXT8XTGSg.desc=如果你已经搭建了束流源室，你可能已经注意到粒子并不像GT++中那样以物品的形式产生。%n%n相对地，与现实生活类似，它们是通过束流管在多方块机器之间传输的。%n%n传输的每条粒子流，或者说“束流”，有四个属性：%n- §6粒子§r：束流携带的粒子类型%n- §4能量§r：粒子的能量大小%n- §9聚焦§r：束流的聚焦程度，上限为100%n- §d数量§r：又作通量，即束流中粒子数量的量度%n%n注意，你可以通过对多方块机器的控制器使用三录仪来查看其束流输入/输出信息。%n%n对于你感兴趣的配方，也就是真正能生产物品的配方，它们会有输入束流能量的允许阈值、最小聚焦值和决定配方时间的数量值（更多信息请见束流靶室的任务）。%n不妨找些对撞靶室的配方作为例子浏览一下。%n%n给你一颗光子，挂在你的墙上炫耀吧！%n%n[note]中文wiki 束流蚀刻线：  §1§n[url]https://gtnh.huijiwiki.com/p/78645[/url]§r[/note]
 
 # Quest: Producing Solar Panels in BULK!!
 betterquesting.quest.NVgXYF-TQvqYnLn1NLM6pw.name=§6§l批发太阳能板！！
@@ -7270,7 +7270,7 @@ betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.desc=要实际产生用于光刻的�
 
 # Quest: Stern-Gerlach, Perhaps?
 betterquesting.quest.RLJR8nFySzSaZLeCRsabDg.name=§6§l斯特恩-盖拉赫实验，或许？
-betterquesting.quest.RLJR8nFySzSaZLeCRsabDg.desc=高能粒子分流器可以有序分流粒子束流。大型强子对撞机（LHC）输出的粒子是随机的，而这台机器可以让你用过滤式束流输出仓把不同粒子分到不同的通路里。同时，它会把每种粒子的数量除以有效输出位置的总数。%n%n[note]举个例子：假设你设了一个质子输出通道，两个电子输出通道。混合输入束流里每种粒子各有 100 个，那么最终会分出三束——一束质子束流（数量 100），以及两束电子束流（每束数量 50）。[/note]
+betterquesting.quest.RLJR8nFySzSaZLeCRsabDg.desc=束流分流器可以有序分流粒子束流。大型强子对撞机（LHC）输出的粒子是随机的，而这台机器可以让你用过滤式束流输出仓把不同粒子分到不同的通路里。同时，它会把每种粒子的数量除以有效输出位置的总数。%n%n[note]举个例子：假设你设了一个质子输出通道，两个电子输出通道。混合输入束流里每种粒子各有 100 个，那么最终会分出三束——一束质子束流（数量 100），以及两束电子束流（每束数量 50）。[/note]
 
 # Quest: Hundreds of Thousands of eV
 betterquesting.quest.Y1kiJC_kRGKkW7h3qOPI8A.name=§6§l成百上千的eV
@@ -7298,11 +7298,11 @@ betterquesting.quest.eur7SqfIT8GEE_NxscJj8Q.desc=很好！你已经制造了化�
 
 # Quest: A Little More Sigma (Squared)
 betterquesting.quest.gkKzmpgkQguIfPwKqFB5Xg.name=§6§l再多几个标准差（平方）
-betterquesting.quest.gkKzmpgkQguIfPwKqFB5Xg.desc=最终，你的 LHC 会开始产出越来越稀有的粒子。你可能会发现它们以单个粒子群的形式大量爆发——单批群里的数量极大，但出现频率不高。高能粒子稳定器能捕获这些大粒子群，然后随时间把它们重新分配成一系列数量较小的连续粒子群。%n%n[warn]这对于确保那些消耗束流的机器能稳定地检查配方特别有用。[/warn]
+betterquesting.quest.gkKzmpgkQguIfPwKqFB5Xg.desc=最终，你的 LHC 会开始产出越来越稀有的粒子。你可能会发现它们以单个粒子群的形式大量爆发——单批群里的数量极大，但出现频率不高。束流稳定器能捕获这些大粒子群，然后随时间把它们重新分配成一系列数量较小的连续粒子群。%n%n[warn]这对于确保那些消耗束流的机器能稳定地检查配方特别有用。[/warn]
 
 # Quest: No More (IC) Engraving
 betterquesting.quest.isBmh7T0Sr63O2m5N4pCIQ.name=§6§l丢掉（IC）蚀刻吧
-betterquesting.quest.isBmh7T0Sr63O2m5N4pCIQ.desc=既然你已经达到了ZPM，你就得采用普通激光蚀刻之外的方法来满足你的光刻需求了。%n%n当然，我们马上就要大干一场，需要一整套粒子加速器装置来产生用于蚀刻更高级IC的超相干超高能光束。%n%n首先，你需要一个§6高能粒子辐射激发源室§r来产生电子（当然，能量极低）。在NEI 上查看可用的配方，你会需要那个带有手绘图标的配方的。
+betterquesting.quest.isBmh7T0Sr63O2m5N4pCIQ.desc=既然你已经达到了ZPM，你就得采用普通激光蚀刻之外的方法来满足你的光刻需求了。%n%n当然，我们马上就要大干一场，需要一整套粒子加速器装置来产生用于蚀刻更高级IC的超相干超高能光束。%n%n首先，你需要一个§6束流源室§r来产生电子（当然，能量极低）。在NEI 上查看可用的配方，你会需要那个带有手绘图标的配方的。
 
 # Quest: Digging Deep for Water
 betterquesting.quest.jreOZVXRQa2sGXViV7-3Gg.name=§6§l深层取水
@@ -7314,7 +7314,7 @@ betterquesting.quest.m5N5Q9QEREyzF1B4eObk0Q.desc=下一阶硼玻璃需要超时�
 
 # Quest: Filtered Beamline Output Hatch
 betterquesting.quest.mqv5zPKRTdmfDUQH_-b1-A.name=§6§l过滤式束流输出仓
-betterquesting.quest.mqv5zPKRTdmfDUQH_-b1-A.desc=过滤式束流输出仓允许你屏蔽大型强子对撞机或高能粒子分流器的输出中不希望出现的粒子。
+betterquesting.quest.mqv5zPKRTdmfDUQH_-b1-A.desc=过滤式束流输出仓允许你屏蔽大型强子对撞机或束流分流器的输出中不希望出现的粒子。
 
 # Quest: Component Assembly Line
 betterquesting.quest.n7yjRSr0R7O2agebw73FGA.name=§6§l部件装配线
@@ -9019,8 +9019,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMgg.name=最危险的核反应堆
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMgg.desc=你有勇气造一台强冷核电吗？如果有的话，你有勇气让它在高温下燃烧MOX燃料吗？%n%n是的，这是可以做到的，而且非常强大。但是，由于MOX核反应堆的输出会随着堆温的提高而持续提升，越接近临界点收益越高，这就导致其风险成倍提升。这类自动化也比其余任何核反应堆都要复杂，而且几乎没有任何获取最高收益的教程。以下是一些你可能需要的链接：%n%n[url]https://www.youtube.com/watch?v=BmwZZ7Z_n-g[/url]%n%n强冷核电自动化的教程视频。包括43,600 EU/t 的铀堆，108,895 EU/t 的99%%热量MOX堆，以及 4,979,200 EU/t 的核心堆。%n%n[url]https://discord.com/channels/181078474394566657/1341554447981219880[/url]%n%n上述视频在#tips-and-tricks板块的帖子，包含更进一步的细节和讨论。%n%n[url]https://www.youtube.com/watch?v=N4iO1HlFvVQ[/url]%n%n另一个强冷核电设置的视频。
 
 # Quest: Duranium and the Beam Crafter
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMgw.name=铿铀与高能粒子束对撞合成室
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMgw.desc=在此前的任务中，铿铀作为制造三钛的一种材料而被引入。虽说这确实是其一大用途，不过它的作用远不止于此。它的另一个重要配方在§b高能粒子束对撞合成室§r中，几率产出量子反常。%n%n首先，§b高能粒子束对撞合成室§r是什么？这是一台类似核聚变反应堆的多方块机器，不过仅用于合成新材料。它消耗能量，将单个粒子与其他粒子加速碰撞，或与流体相互碰撞，以生成新材料。它的大部分配方都没什么用，不过也可以合成量子反常。你可以在"多方块结构"中的"合成新玩法：粒子束流！"任务中查看更多详细信息。铿铀可以在这台机器中用于制造量子反常——这是一个概率合成，不过量子反常有一个特性：使用它转化方块时，它不会被消耗。因此，你只需要生产出一个量子反常即可。%n%n这是必需的吗？嗯……是的。当你到达游戏的某个阶段后，可能会发现自己需要一种新的合金焊料，名为突变活性焊料。想要合成这种焊料，你需要一座博特姆合金化工厂，而博特姆合金需要用到高级镍钛诺。而高级镍钛诺，是需要用到量子反常进行转化的方块之一。鉴于铿铀是合成量子反常的唯一流体选择，所以也变成了必需品，不过是ZPM之后的几个阶段。%n%n另外，还有其他配方会用到量子反常，比如大型元素复制机。它是一台非常强大的复制机，它的速度和它支持的配方，可以极大地提升你的自动化水平；但是请注意，这里的量子反常会被消耗，所以如果你只有一个的话，别用在这里。不过，后面还会有更多需要消耗量子反常的配方，比如量子操纵仪的外壳，届时必须实现自动生产量子反常。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMgw.name=铿铀与束流合成器
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMgw.desc=在此前的任务中，铿铀作为制造三钛的一种材料而被引入。虽说这确实是其一大用途，不过它的作用远不止于此。它的另一个重要配方在§b束流合成器§r中，几率产出量子反常。%n%n首先，§b束流合成器§r是什么？这是一台类似核聚变反应堆的多方块机器，不过仅用于合成新材料。它消耗能量，将单个粒子与其他粒子加速碰撞，或与流体相互碰撞，以生成新材料。它的大部分配方都没什么用，不过也可以合成量子反常。你可以在"多方块结构"中的"合成新玩法：粒子束流！"任务中查看更多详细信息。铿铀可以在这台机器中用于制造量子反常——这是一个概率合成，不过量子反常有一个特性：使用它转化方块时，它不会被消耗。因此，你只需要生产出一个量子反常即可。%n%n这是必需的吗？嗯……是的。当你到达游戏的某个阶段后，可能会发现自己需要一种新的合金焊料，名为突变活性焊料。想要合成这种焊料，你需要一座博特姆合金化工厂，而博特姆合金需要用到高级镍钛诺。而高级镍钛诺，是需要用到量子反常进行转化的方块之一。鉴于铿铀是合成量子反常的唯一流体选择，所以也变成了必需品，不过是ZPM之后的几个阶段。%n%n另外，还有其他配方会用到量子反常，比如大型元素复制机。它是一台非常强大的复制机，它的速度和它支持的配方，可以极大地提升你的自动化水平；但是请注意，这里的量子反常会被消耗，所以如果你只有一个的话，别用在这里。不过，后面还会有更多需要消耗量子反常的配方，比如量子操纵仪的外壳，届时必须实现自动生产量子反常。
 
 # Quest: Reactors are Expensive!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMhQ.name=反应堆很贵！
@@ -11799,7 +11799,7 @@ betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.desc=你现在开始将接触魔法�
 
 # Quest: Salt
 betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.name=盐
-betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.desc=此时，你可能已经注意到，这些更高级的金属蜂巢无法用离心机提取。取而代之的是，你需要将它们与一些盐酸一起放入化学反应釜。这将使你陷入困境。现在，你正试图实现后稀缺时代，却受到氯的限制。%n%n说到困境/泡菜(pickle)，盐酸和泡菜其实有点相似，对吧？毕竟，两者都是用盐来制作的！盐蜂就非常适合这个。嗯，磷灰石蜂杂交线可以为你提供一些盐，同时还能为磷酸提供一些磷，但你必须先从灰烬蜂开始。与此同时，在获取所有主要矿石蜜蜂的过程中，你可能顺便就达成了盐蜂的前置。%n%n在盐块上用粘土蜂和铝蜂来杂交出它。%n%n它会产出盐蜂窝，硼砂，碎石蜂窝和少量锂蜂窝。盐蜂窝需要最低MV等级的离心机，但至少它不需要用酸在化学反应釜里处理！%n%n[note]育种员笔记：%n%n培育这种蜜蜂有两大挑战：%n%n1. 5%%的变异几率。你可以考虑尝试写字台小游戏来提高这个几率。如果这样做，请优先选择铝雄蜂，因为你很可能正在推进其他铝蜂杂交出的蜜蜂，而它们无论如何都只有5%%的变异几率。它们或许都需要一点小小的提升。%n%n2. 黏土蜂和铝蜂之间的湿度摇摆。黏土蜂需要湿润的环境，而铝蜂和盐蜂则需要环境完全干燥。如果你无法控制气候或任何蜂种的耐受性，可以考虑先给黏土蜂配上一只温和公主蜂。这样很有可能为你带来一只喜欢干燥气候的黏土公主蜂。然后，你就可以完全在干旱的生物群落中进行育种了。%n%n[/note]
+betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.desc=此时，你可能已经注意到，这些更高级的金属蜂巢无法用离心机提取。取而代之的是，你需要将它们与一些盐酸一起放入化学反应釜。这将使你陷入困境。现在，你正试图实现后稀缺时代，却受到氯的限制。%n%n说到困境/泡菜(pickle)，盐酸和泡菜其实有点相似，对吧？毕竟，两者都是用盐来制作的！盐蜂就非常适合这个。嗯，磷灰石蜂杂交线可以为你提供一些盐，同时还能为磷酸提供一些磷，但你必须先从灰烬蜂开始。与此同时，在获取所有主要矿石蜜蜂的过程中，你可能顺便就达成了盐蜂的前置。%n%n在盐块上用黏土蜂和铝蜂来杂交出它。%n%n它会产出盐蜂窝，硼砂，碎石蜂窝和少量锂蜂窝。盐蜂窝需要最低MV等级的离心机，但至少它不需要用酸在化学反应釜里处理！%n%n[note]育种员笔记：%n%n培育这种蜜蜂有两大挑战：%n%n1. 5%%的变异几率。你可以考虑尝试写字台小游戏来提高这个几率。如果这样做，请优先选择铝雄蜂，因为你很可能正在推进其他铝蜂杂交出的蜜蜂，而它们无论如何都只有5%%的变异几率。它们或许都需要一点小小的提升。%n%n2. 黏土蜂和铝蜂之间的湿度摇摆。黏土蜂需要湿润的环境，而铝蜂和盐蜂则需要环境完全干燥。如果你无法控制气候或任何蜂种的耐受性，可以考虑先给黏土蜂配上一只温和公主蜂。这样很有可能为你带来一只喜欢干燥气候的黏土公主蜂。然后，你就可以完全在干旱的生物群落中进行育种了。%n%n[/note]
 
 # Quest: Glowstone
 betterquesting.quest.NzynzD7HQrmEAf7BFd2A2w.name=荧石蜂
@@ -14839,7 +14839,7 @@ betterquesting.quest.Rg0l66VnRsKlUZ0VTO3ilA.desc=§5§l感知超频器§r（SO�
 
 # Quest: Large Hadron Collider
 betterquesting.quest.TL8RVz_HTBO5LvkI6SQi6A.name=§2§l§n大型强子对撞机
-betterquesting.quest.TL8RVz_HTBO5LvkI6SQi6A.desc=要获得比简单的质子、中子和电子更奇异的粒子？那你就得用上大型强子对撞机。它可以把任何带电粒子当作输入——来自其他能产出高能粒子的多方块结构，比如高能粒子辐射激发源室。%n%n大型强子对撞机的四个模块，每个都能产出不同的粒子。要让某种特定粒子出现在输出里，§b碰撞能量§r必须大于该粒子的§d静止质量§r（可以在 NEI 中查看 tooltip）。%n%n%n大型强子对撞机有两种模式：§l加速器§r模式和§l对撞机§r模式。%n%n§l加速器§r模式下，它会把你输入的束流加速到更高能量。这个过程以 1 秒为一个周期，每完成一个周期，束流能量就会增加一个固定数值。这个数值取决于该周期消耗了多少 EU。能量消耗会随着§9已完成周期数§r的平方而增长，同时也会随着束流中的粒子§c数量§r线性增长。%n%n你可以在 GUI 里设定目标§6束流能量§r和最大§9周期数§r。如果束流在达到最大周期数之前就达到了目标§6束流能量§r，那么后续每个完成的周期都会把束流中当前的粒子§c数量§r乘以 1.1，这样也会增加能量消耗。一旦达到最大§9周期数§r，大型强子对撞机就会自动切换到§l对撞机§r模式。%n%n§l对撞机§r模式下，束流会跟自己撞个满怀，并产生出全部类型的粒子。每个大型强子对撞机模块只能检测并捕获某一类粒子——具体看这个粒子能和哪种基本力相互作用。所以有的粒子可能会出现在多个模块里。你可以用“过滤式束流输出仓”把不想看到的粒子加入黑名单，以屏蔽这些粒子。%n%n§l[note]§l§b§l碰撞能量§r§l = 加速后的§6§l束流能量§r§l × 2§l[/note]%n%n%n
+betterquesting.quest.TL8RVz_HTBO5LvkI6SQi6A.desc=要获得比简单的质子、中子和电子更奇异的粒子？那你就得用上大型强子对撞机。它可以把任何带电粒子当作输入——来自其他能产出高能粒子的多方块结构，比如束流源室。%n%n大型强子对撞机的四个模块，每个都能产出不同的粒子。要让某种特定粒子出现在输出里，§b碰撞能量§r必须大于该粒子的§d静止质量§r（可以在 NEI 中查看 tooltip）。%n%n%n大型强子对撞机有两种模式：§l加速器§r模式和§l对撞机§r模式。%n%n§l加速器§r模式下，它会把你输入的束流加速到更高能量。这个过程以 1 秒为一个周期，每完成一个周期，束流能量就会增加一个固定数值。这个数值取决于该周期消耗了多少 EU。能量消耗会随着§9已完成周期数§r的平方而增长，同时也会随着束流中的粒子§c数量§r线性增长。%n%n你可以在 GUI 里设定目标§6束流能量§r和最大§9周期数§r。如果束流在达到最大周期数之前就达到了目标§6束流能量§r，那么后续每个完成的周期都会把束流中当前的粒子§c数量§r乘以 1.1，这样也会增加能量消耗。一旦达到最大§9周期数§r，大型强子对撞机就会自动切换到§l对撞机§r模式。%n%n§l对撞机§r模式下，束流会跟自己撞个满怀，并产生出全部类型的粒子。每个大型强子对撞机模块只能检测并捕获某一类粒子——具体看这个粒子能和哪种基本力相互作用。所以有的粒子可能会出现在多个模块里。你可以用“过滤式束流输出仓”把不想看到的粒子加入黑名单，以屏蔽这些粒子。%n%n§l[note]§l§b§l碰撞能量§r§l = 加速后的§6§l束流能量§r§l × 2§l[/note]%n%n%n
 
 # Quest: Steel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§c§l钢箱子？
@@ -14959,7 +14959,7 @@ betterquesting.quest.t6xRGFm_S2SG6_-xNh8mwQ.desc=拥抱黑暗后,你可以获得
 
 # Quest: Crafting, but with Beams!
 betterquesting.quest.xTkeDXIZSlmRkde8LZgzLw.name=§b§l合成新玩法：粒子束流！
-betterquesting.quest.xTkeDXIZSlmRkde8LZgzLw.desc=§b高能粒子束对撞合成室§r可以用两种粒子束输入来合成物品。如果你熟悉§b高能束流聚焦对撞靶室§r，原理是跟那个一样的——只不过这里用的是两束粒子，不是一束。%n%n每个合成配方都需要两种粒子。你必须凑够两种粒子的数量才能完成合成。束流合成器里的进度只跟你已输入的粒子数量有关，但整个过程中会一直耗电。%n%n[note]也就是说，合成速度只取决于你送粒子的快慢，所以 WAILA 显示的进度估算多半不准。[/note]%n%n中途暂停送粒子也没问题！机器在等待更多粒子时会继续耗电，但已经合成的进度不会丢。%n%n[note]如果某一种粒子已经送够了，再继续送这种粒子也不会影响合成进度。[/note]
+betterquesting.quest.xTkeDXIZSlmRkde8LZgzLw.desc=§b束流合成器§r可以用两种粒子束输入来合成物品。如果你熟悉§b束流靶室§r，原理是跟那个一样的——只不过这里用的是两束粒子，不是一束。%n%n每个合成配方都需要两种粒子。你必须凑够两种粒子的数量才能完成合成。束流合成器里的进度只跟你已输入的粒子数量有关，但整个过程中会一直耗电。%n%n[note]也就是说，合成速度只取决于你送粒子的快慢，所以 WAILA 显示的进度估算多半不准。[/note]%n%n中途暂停送粒子也没问题！机器在等待更多粒子时会继续耗电，但已经合成的进度不会丢。%n%n[note]如果某一种粒子已经送够了，再继续送这种粒子也不会影响合成进度。[/note]
 
 # Quest: Thaumometric Essentia Cell
 betterquesting.quest.xdiDnTdpTgW6POwCuDlPgg.name=§9§l§n魔导源质存储元件

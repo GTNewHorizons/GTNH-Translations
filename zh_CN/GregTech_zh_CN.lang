@@ -601,7 +601,7 @@ languagefile {
     S:Material.creon=创律合金
     S:Material.creosote=杂酚油
     S:Material.crocoite=赤铅矿
-    S:Material.crudeoil=原油
+    S:Material.crudeoil=原油渣
     S:Material.cruderhodiummetal=粗制铑金属
     S:Material.cruderhodiummetal.ChemicalFormula=Rh??
     S:Material.crudesteel=复合黏土
@@ -2216,7 +2216,7 @@ languagefile {
     S:comb.dark_steel=玄钢蜂窝
     S:comb.desh=戴斯蜂窝
     S:comb.diamond=钻石蜂窝
-    S:comb.divided=切割蜂窝
+    S:comb.divided=分割蜂窝
     S:comb.draconium=龙蜂窝
     S:comb.dragon_essence=龙之精华蜂窝
     S:comb.ectoplasma=外质蜂窝
@@ -4104,16 +4104,16 @@ languagefile {
     S:gt.blockmachines.multimachine.basiccompressor.name=大型电动压缩机
     S:gt.blockmachines.multimachine.basiccompressor.tooltip=机器类型：§e压缩机，LEC§r\n每个§f电压§7等级提供§62§7并行\n运行速度：§a200%§7\n功率系数：§b90%§7\n§7§m-----------------------------------------\n按住 §l[LSHIFT]§r§7 以显示结构指导\n添加者：§a§a§lOllie§r§7
     S:gt.blockmachines.multimachine.basiccompressor.tooltip_secondary=§f尺寸：§67§7x§68§7x§67§7（§6宽§7x§6高§7x§6长§7）§c（中空）\n§f结构：\n   §f控制器：  §7正面底中\n§6   95x §r§7电动压缩机机械方块（至少）\n§6   45x §r§7压缩机管道机械方块（至少）\n§6   6x  §r§7任意等级玻璃\n§f   输入总线：§7任意侧面的管道方块\n§f   输入仓：  §7任意侧面的管道方块\n§f   输出总线：§7任意侧面的管道方块\n§f   能源仓：  §7任意电动压缩机机械方块\n§f   维护仓：  §7任意电动压缩机机械方块\n   使用子信道§6glass§r§7设定§6玻璃等级\n   §7§m------------------------------\n§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
-    S:gt.blockmachines.multimachine.beam-crafter.name=高能粒子束对撞合成室
+    S:gt.blockmachines.multimachine.beam-crafter.name=束流合成器
     S:gt.blockmachines.multimachine.beam-crafter.tooltip=机器类型：§e束流合成器，束流组装机§r\n将两股粒子束流与靶材料对撞以修改其亚原子结构\n§7§m-----------------------------------------\n配方所需的束流可由任意的束流输入仓输入\n物品和（或）流体输入会被立刻消耗，随后机器将等待粒子束流输入\n§7§m-----------------------------------------\n每种类型的粒子最多缓存§b2,000,000,000§7个\n配方进度完全由从缓冲中消耗粒子的速度决定\n§7§m-----------------------------------------\n并行：§61024§7\n§7§m-----------------------------------------\n§a支持 TecTech 多A能源仓和激光仓！\n§7§m-----------------------------------------\n按住§l[LSHIFT]§r§7以显示结构指导\n添加：§a作者：§6Ham§fCorp§r§7
     S:gt.blockmachines.multimachine.beam-crafter.tooltip_secondary=§f尺寸：§617§7x§65§7x§611§7（§6宽§7x§6高§7x§6长§7）\n§f结构：\n   §f控制器：  §7正面中央\n§6   224x §r§7对撞机机械方块（至少）\n§6   26x  §r§7任意等级玻璃\n§6   16x  §r§7格栅机械方块\n§6   2x   §r§7束流输入仓\n§f   输入总线：§7任意对撞机机械方块\n§f   输出总线：§7任意对撞机机械方块\n§f   输入仓：  §7任意对撞机机械方块\n§f   输出仓：  §7任意对撞机机械方块\n§f   能源仓：  §7任意对撞机机械方块\n   使用子信道§6glass§r§7设定§6玻璃等级\n   §7§m------------------------------\n§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
-    S:gt.blockmachines.multimachine.beam-mirror.name=高能粒子流反射镜
+    S:gt.blockmachines.multimachine.beam-mirror.name=束流反射镜
     S:gt.blockmachines.multimachine.beam-mirror.tooltip=机器类型：§e束流反射镜§r\n接受粒子束流并将它们再次发射出去\n§6字面意思。\n§7§m-----------------------------------------\n按住 §l[LSHIFT]§r§7以显示结构指导\n添加者：§a作者：§6Ham§fCorp§r§7
     S:gt.blockmachines.multimachine.beam-mirror.tooltip_secondary=§f尺寸：§63§7x§65§7x§65§7（§6宽§7x§6高§7x§6长§7）§f结构： \n   §f控制器：§7正面中央\n§6   31§7 - §652x §r§7加速器屏蔽机械方块\n§6   5§7 - §68x §r§7任意等级玻璃（相同等级）\n§6   9x  §r§7格栅机械方块\n§6   1x  §r§7束流输入仓\n§6   1x  §r§7束流输出仓\n   使用子信道§6glass§r§7设定§6玻璃等级\n   §7§m------------------------------\n§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
-    S:gt.blockmachines.multimachine.beam-splitter.name=高能粒子分流器
+    S:gt.blockmachines.multimachine.beam-splitter.name=束流分流器
     S:gt.blockmachines.multimachine.beam-splitter.tooltip=机器类型：§e束流分流器§r\n在输出仓中选择要屏蔽的粒子\n输入的粒子将被均分到所有可用的输出仓中\n§7§m-----------------------------------------\n按住 §l[LSHIFT]§r§7以显示结构指导\n添加者：§a作者：§6Ham§fCorp§r§7
     S:gt.blockmachines.multimachine.beam-splitter.tooltip_secondary=§f尺寸：§69§7x§63§7x§69§7（§6宽§7x§6高§7x§6长§7）\n§f结构： \n   §f控制器：§7正面中央\n§6   68x §r§7对撞机机械方块\n§6   9x  §r§7任意等级玻璃（相同等级）\n§6   27x §r§7格栅机械方块\n§6   1x  §r§7束流输入仓\n§6   4x  §r§7过滤式束流输出仓\n   使用子信道§6glass§r§7设定§6玻璃等级\n   §7§m------------------------------\n§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
-    S:gt.blockmachines.multimachine.beam-stabilizer.name=高能粒子稳定器
+    S:gt.blockmachines.multimachine.beam-stabilizer.name=束流稳定器
     S:gt.blockmachines.multimachine.beam-stabilizer.tooltip=机器类型：§e束流稳定器§r\n接受并存储来自潜在的不连续高§c通量§7\n粒子束流源的最多100000个§a粒子§7\n并重新以稳定束流的形式释放这些粒子\n输出§c通量§7可由你自己选择\n§7§m-----------------------------------------\n若输入的粒子束流具有不同的§a粒子类型§7、\n§6能量§7或§b聚焦§7，且机器正在运行\n该束流将会被忽略，除非机器当前并没有存储§a粒子\n§7§m-----------------------------------------\n按住§l[LSHIFT]§r§7以显示指导\n添加：§a作者：§6Ham§fCorp§r§7 & §a作者：§5§ozub§r§7
     S:gt.blockmachines.multimachine.beam-stabilizer.tooltip_secondary=§f尺寸：§67§7x§67§7x§611§7（§6长§7x§6宽§7x§6高§7）\n§f结构：\n   §f控制器：§7正面中央\n§6   109x §r§7对撞机机械方块\n§6   9x   §r§7任意等级玻璃（相同等级）\n§6   15x  §r§7格栅机械方块\n§6   1x   §r§7束流输入仓\n§6   1x   §r§7束流输出仓\n   使用子信道§6glass§r§7设定§6玻璃等级\n   §7§m------------------------------\n§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
     S:gt.blockmachines.multimachine.blackholecompressor.name=亚稳态黑洞遏制场
@@ -4670,7 +4670,7 @@ languagefile {
     S:gt.blockmachines.solartower.controller.tier.single.name=太阳能塔
     S:gt.blockmachines.solartower.controller.tier.single.tooltip=机器类型：§e太阳能塔§r\n为未来贡献绿色能源\n周围环状排列太阳能反射器\n反射器可以增加塔内的热值（详见下方公式）\n每一环反射器提升塔的一个等级，最低一环\n输入：太阳能盐（冷）\n输出：太阳能盐（热）\n每次循环（10秒），热量提高，并同时加热所有冷太阳能盐\n将太阳能盐从冷转化为热会降低热量，降低值等于转化量\n热量>=30000，且控制器效率=100%时，方可开始进行转化\n如果冷太阳能盐的量多于热量，则所有热量被消耗并归零\n热量增加的效率在最大热量的一半时最高\n在0或100000热量时效率最低，在50000时最高\n热量效率公式：(7000 - [|当前热量 - 50000|^0.8]) / 7000\n每循环热量增加：加热器数量*热量效率*(10+增益)\n增益：1环=+1，2环=+2，3环=+4，4环=+8，5环=+16\n反射器总数量基于所修建的环数：\n1环=36，2环=88，3环=156，4环=240，5环=340\n§7§m-----------------------------------------\n按住§l[LSHIFT]§r§7以显示结构指导
     S:gt.blockmachines.solartower.controller.tier.single.tooltip_secondary=§f尺寸：§615-31§7x§628§7x§615-31§7（§6宽§7x§6高§7x§6长§7）\n§f结构：\n   §f控制器：§7顶层中央\n§6   229x §r§7太阳能塔机械方块（至少）\n§6   60x  §r§7热隔绝机械方块（至少）\n§6   66x  §r§7盐抑制机械方块（至少）\n§6   60x  §r§7热抑制机械方块（至少）\n§f   输入仓：§7提示方块[2]（至少1个）\n§f   输出仓：§7提示方块[2]（至少1个）\n§f   维护仓：§7提示方块[2]\n   §7§m------------------------------\n§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
-    S:gt.blockmachines.source_chamber.name=高能粒子辐射激发源室
+    S:gt.blockmachines.source_chamber.name=束流源室
     S:gt.blockmachines.source_chamber.tooltip=机器类型：§e粒子源§r\n使用特定的§d粒子源材料§7产生粒子束流\n使用§b便携式扫描仪§7右键来获取多方块输入/输出信息\n§7§m-----------------------------------------\nNEI显示§d粒子源材料§7列表及属性\n所有配方持续时间均为1秒，产出1个束流包\n在§3需求EU/t§7之上，提高输入功率会能量渐进地接近§d最大材料能量\n§7§m-----------------------------------------\n粒子束流具有§5类型§7、§9能量§7、§2聚焦§7和§6通量\n§5类型§7决定电荷、静质量和§9最大粒子能量\n§9能量§7代表粒子束流携带的能量，单位为电子伏特（eV）\n§2聚焦§7代表粒子束流的宽度\n§6通量§7代表粒子束流中每包的粒子数量\n§7§m-----------------------------------------\n§9输出束流能量§f = min(§9最大粒子能量§7, §eaeV§f)\n其中 §eaeV§f = §d最大材料能量§f * (1 - 1.001^(§9-能量效率§f × (§3提供的 EU/t§f - §3需求的 EU/t§f)))\n§7§m-----------------------------------------\n按住§l[LSHIFT]§r§7以显示结构指导
     S:gt.blockmachines.source_chamber.tooltip_secondary=§f尺寸：§65§7x§65§7x§66§7（§6宽§7x§6高§7x§6长§7）§c（中空）\n§f结构：\n   §f控制器：    §7正面底中\n§6   56x §r§7加速器屏蔽机械方块\n§6   52x §r§7加速器屏蔽玻璃\n§6   16x §r§7电极机械方块\n§f   束流输出仓：§7提示方块[4]\n§f   能源仓：    §7提示方块[3]\n§f   维护仓：    §7提示方块[3]\n§f   输入总线：  §7提示方块[1]\n§f   输入仓：    §7提示方块[1]\n§f   输出总线：  §7提示方块[2]\n   §c需要1个输入总线或1个输入仓\n   §7§m------------------------------\n§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
     S:gt.blockmachines.spaceelevator.name=太空电梯
@@ -4710,7 +4710,7 @@ languagefile {
     S:gt.blockmachines.synchrotron.name=同步加速器
     S:gt.blockmachines.synchrotron.tooltip=机器类型：§e粒子加速器§r\n加速粒子束流，以使其通过相对论性拉莫尔效应产生光子束流\n因此电中性§5粒子§7和§2聚焦§7低于25的束流不受影响\n使用§b便携式扫描仪§7右键来获取多方块输入输出信息\n§7§m-----------------------------------------\n运行需要消耗§f 32,000 L/s §7的§b冷却剂§7，并返回§c热冷却剂\n§b液氧§f：90K\n§b液氮§f：77K\n§b冷却液§f：60K\n§b超级冷却液§f：1K\n§7§m-----------------------------------------\n提升功率可提升§6输出束流通量\n使用温度更低的§b冷却液§7能降低§2束流聚焦§7的损耗\n升级§d天线机械方块§7的等级以提升机器性能\n以下公式中的所有§9能量§7单位必须为千电子伏特（keV）\n§7§m-----------------------------------------\n§9输出束流能量§f = §eIR §f* §e功率系数\n其中 §eIR §f = (§9输入束流能量§f)^(1.13 * (§d天线等级§f)^(4/9)) / 40,000,000\n且 §e功率系数§f = 1 - 0.15^(§3总输入EU/t§f / (30,384 * (§d天线等级§f)^2.5))\n§7§m-----------------------------------------\n若 §2输入束流聚焦§f > §e机器聚焦§7，则 §2输出束流聚焦§f = (§2输入束流聚焦§f + §e机器聚焦§f) / 2.5\n若 §2输入束流聚焦§f ≤ §e机器聚焦§7，则 §2输出束流聚焦§f = §2输入束流聚焦§f × §e机器聚焦§f / 100\n其中 §e机器聚焦§f = max(10, min(90, 1.5^(12 - §b冷却剂温度§f/40)))\n§7§m-----------------------------------------\n§6输出束流通量§f = floor( 2.5^(§d天线等级§f) * sqrt(§3总输入EU/t§f) * §6输入束流通量§f / 15,000)\n§a支持TecTech多A能源仓与激光仓!\n§7§m-----------------------------------------\n按住§l[LSHIFT]§r§7以显示结构指导
     S:gt.blockmachines.synchrotron.tooltip_secondary=§f尺寸：§636§7x§67§7x§634§7（§6宽§7x§6高§7x§6长§7）§c（中空）\n§f结构：\n   §f控制器：    §7正面中央\n§6   676x §r§7加速器屏蔽机械方块\n§6   90x  §r§7超致密铸造盆机械方块\n§6   64x  §r§7铌质腔体机械方块\n§6   28x  §r§7冷却剂转运机械方块\n§6   16x  §r§7任意等级玻璃（LuV+）\n§6   4x   §r§7天线机械方块（必须匹配）（相同等级）\n§f   束流输入仓：§7提示方块[1]\n§f   束流输出仓：§7提示方块[2]\n§f   维护仓：    §7提示方块[3]\n§f   输入仓：    §7提示方块[4]\n§f   输出仓：    §7提示方块[5]\n§f   能源仓：    §7提示方块[6]\n   使用子信道§6glass§r§7设定§6玻璃等级\n   使用子信道§6antenna§r§7设定§6天线机械方块等级\n   §7§m------------------------------\n§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
-    S:gt.blockmachines.target_chamber.name=高能束流聚焦对撞靶室
+    S:gt.blockmachines.target_chamber.name=束流靶室
     S:gt.blockmachines.target_chamber.tooltip=机器类型：§e对撞靶室§r\n使用光子束和特定§d掩模§7或模板在晶圆上刻印电路\n使用§b便携式扫描仪§7右键来获取多方块输入/输出信息\n§7§m-----------------------------------------\n刻印配方具有其需求的§9束流能量§7范围，\n最低§2束流聚焦§7、最低§6束流通量§7以及最低§3EU/t需求\n§d掩膜§7的耐久度有限，每次刻印减少1点\n§7§m-----------------------------------------\n处理速度仅由§6束流通量§7决定，无关§3提供的EU/t\n§f处理时间 = 5 秒 * §6所需最低通量§f / §6输入束流通量\n每tick最多可处理的总量，取决于所有同种§d掩模§7的耐久度之和\n§7§m-----------------------------------------\n按住§l[LSHIFT]§r§7以显示结构指导
     S:gt.blockmachines.target_chamber.tooltip_secondary=§f尺寸：§65§7x§65§7x§66§7（§6W§7x§6H§7x§6L§7）§c（中空）\n§f结构：\n   §f控制器：  §7正面底中\n§6   29x §r§7格栅机械方块\n§6   28x §r§7加速器屏蔽机械方块\n§6   16x §r§7任意等级玻璃\n§6   34x §r§7加速器屏蔽玻璃\n§6   4x  §r§7靶仓插槽\n§6   4x  §r§7焦点调节器\n§6   1x  §r§7焦点物品支架\n§6   1x  §r§7靶点物品支架\n§f   聚焦输入总线：§7提示方块[1]\n§f   维护仓：      §7提示方块[2]\n§f   能源仓：      §7提示方块[2]\n§f   输入总线：    §7提示方块[3]\n§f   输出总线：    §7提示方块[4]\n§f   束流输入仓：  §7提示方块[5]\n   使用子信道§6glass§r§7设定§6玻璃的等级\n   §7§m------------------------------\n§f请在主方块上使用§9Structure§1Lib§r§f全息投影仪，以查看整体结构！
     S:gt.blockmachines.tesseract.generator.name=超立方体发生器
