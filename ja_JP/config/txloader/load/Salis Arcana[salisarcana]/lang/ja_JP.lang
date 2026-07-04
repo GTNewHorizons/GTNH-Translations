@@ -195,7 +195,7 @@ salisarcana:unknown_wand.craft=§4作業台に入れて無効な部品をすべ�
 salisarcana:error.preface=Salis Arcanaエラー:
 salisarcana:error.potion_id_limit=%s はID %d に割り当てられています。これは上限の127を超える値です。他Modで上限が引き上げられている場合、Salis Arcanaのコンフィグで set _uncapped_potion_ids を`true`に設定してください。
 salisarcana:error.potion_id_claimed=%s にID %d は割り当てられません。そのIDはすでに他のポーション効果に割り当てられています。
-salisaracan:error.potion_array_too_long=No more unassigned potion ids could be found within the safe limit. If the limit has been raised through another mod, please set _uncapped_potion_ids to `true` in the Salis Arcana feature configs.
+salisarcana:error.potion_array_too_long=上限内で未割り当てのIDが見つかりませんでした。他Modで上限を引き上げている場合、Salis Arcanaのコンフィグ"thaumcraft_configuration.cfg"内の"_uncapped_potion_ids"をtrueに設定してください。
 
 salisarcana:wand_part.show_details=§6CTRL§8を押してThaumcraft杖の性能を表示
 salisarcana:wand_part.cannot_preserve_node=§4節の保護が不可能！
@@ -204,6 +204,9 @@ salisarcana:wand_cap.vis_discount.aspect=%s §5軽減率: %s
 salisarcana:wand_cap.price_mult=§3クラフトコスト倍率: §e%sx
 salisarcana:wand_rod.vis_capacity=§5容量: §d%s vis
 salisarcana:wand_rod.base_price=§3基本のクラフトコスト: §d%s vis
+salisarcana:wand_rod.gtnh_wands_price=§3クラフトコスト: §d%s + (%d * 石突の倍率) Vis
+salisarcana:wand_rod.gtnh_scepter_mult=§3錫杖の倍率: §d%sx
+salisarcana:wand_rod.gtnh_staffter_mult=§3上級杖の倍率: §d%sx
 salisarcana:wand_rod.runes=§2装着した杖星に§5潜在能力 +1
 
 salisarcana:wand_rod.special.obsidian=§510秒毎に§2Terra§d 1 vis§5を自然回復 (最大 §d10% vis§5)
@@ -276,3 +279,7 @@ salisarcana:wand_rod.special.alfheimSpiritual_staff.4=  §5Vis回復時の§bマ
 
 salisarcana:wand_rod.special.tbthaumium=§52.5秒毎に上限未満のランダムな相§d 1 vis§5を自然回復 (最大 §d10% vis§5)
 salisarcana:wand_rod.special.tbvoid=§52.5秒毎に上限未満のランダムな相§d 1 vis§5を自然回復 (最大 §d10% vis§5)
+
+tc.key.change_wand_focus=Change Wand Focus
+tc.key.hover_harness=Activate Hover Harness
+tc.key.wand_toggle=Misc Wand Toggle
