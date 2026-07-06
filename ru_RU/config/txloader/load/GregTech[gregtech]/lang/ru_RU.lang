@@ -2441,6 +2441,9 @@ GT5U.gui.button.feature_enabled=Enabled
 GT5U.gui.button.feature_disabled=Disabled
 GT5U.gui.button.forbidden=§4Нельзя изменить режим для этого механизма
 GT5U.gui.button.forbidden_while_running=§4Нельзя изменить режим во время работы
+GT5U.gui.button.forbidden.reason=(No %s output slots)
+GT5U.gui.button.forbidden.reason.fluid=fluid
+GT5U.gui.button.forbidden.reason.item=item
 GT5U.gui.button.chunk_loading=Загрузка чанков
 GT5U.gui.button.finite_mode=Finite Mode
 GT5U.gui.button.finite_mode_toggle=Toggle Finite Mode
@@ -2547,7 +2550,6 @@ GT5U.gui.text.backfiller_finished=§aРабота завершена
 GT5U.gui.text.recipe_result.backfiller_working=§aЗаливка бетона
 GT5U.gui.text.recipe_result.backfiller_no_concrete=§7Нет жидкого бетона
 GT5U.gui.text.backfiller_current_area=§7Заливка на уровне высоты: §a%s
-GT5U.gui.text.shutdown_reason.overheated=§7Блок HIP перегрелся!
 GT5U.gui.text.pump_fluid_type=Жидкость: §a%s
 GT5U.gui.text.pump_rate.1=Скорость откачки: %s§r
 GT5U.gui.text.pump_rate.2= Л/тик
@@ -2750,6 +2752,7 @@ GT5U.gui.text.amperage=Ампераж
 GT5U.gui.text.voltage=Вольтаж
 GT5U.gui.text.voltagetier=Тир вольтажа
 GT5U.gui.text.ticks_between_refill=Тики между заправками
+GT5U.gui.text.shutdown_reason.overheat_fail=Shut down due to §coverheat
 GT5U.gui.text.recipe_result.no_bec_assembler=Condensate Observation Array Offline
 GT5U.gui.text.not_enough_parallels=Insufficient Parallels (Min Parallels Too High)
 GT5U.gui.text.shutdown_reason.bec_clogged=Присутствует более 3 конденсатов
@@ -7001,6 +7004,28 @@ gt.vajra.tooltip.flavor=Ваш дружеский мгновенный разр�
 gt.vajra.tooltip.charge=Можно заряжать в любом %s механизме
 gt.vajra.tooltip.silk_touch=Shift+ПКМ по воздуху, чтобы переключить режим шёлкового касания
 
+# Network Analyzer
+gt.NetworkAnalyzer.name=Network Analyzer
+gt.NetworkAnalyzer.bound=§aVisualising network at %s %s %s
+gt.NetworkAnalyzer.target_lost=§cNetwork Analyzer target block not found, binding cleared
+gt.NetworkAnalyzer.set=Mode changed to §e%s
+gt.NetworkAnalyzer.mode=Mode: §e%s
+gt.NetworkAnalyzer.mode.topology=Topology
+gt.NetworkAnalyzer.mode.critical=Critical
+gt.NetworkAnalyzer.mode.active=Active
+gt.NetworkAnalyzer.mode.amperage=Amperage
+gt.NetworkAnalyzer.mode.voltage=Voltage
+gt.NetworkAnalyzer.amperage.short=%s A / %s A
+gt.NetworkAnalyzer.amperage.input=↑%s A / %s A
+gt.NetworkAnalyzer.amperage.output=↓%s A / %s A
+gt.NetworkAnalyzer.amperage.full=↑%s A ↓%s A / %s A
+gt.NetworkAnalyzer.loss.short=%s%% loss
+gt.NetworkAnalyzer.loss.full=%s%% loss (%s V)
+gt.NetworkAnalyzer.voltage.burn=§cBurns
+gt.NetworkAnalyzer.voltage.burn.full=§cWire burns: %s V / %s V
+gt.NetworkAnalyzer.voltage.explosion=§cExplodes
+gt.NetworkAnalyzer.voltage.explosion.full=§cMachine explodes: %s V / %s V
+
 # GT++
 
 GT5U.gui.text.recipe_result.no_water=§7Отсутствует вода
@@ -8821,6 +8846,8 @@ gt.item.gravitational_lens.name=Гравитационная линза
 gt.item.gravitational_lens.tooltip=Portable gravitational well
 gt.item.planck_manifold.name=Planck-Scale Manifold
 gt.item.planck_manifold.tooltip=Самый маленький из возможных
+
+gt.loading.progress.post_init.loading_gt=Post Initialization: loading GregTech
 
 # BEC Meta Materials
 gt.item.meta_material.energy_conduit.perfected.name=Совершенный энергокондуит
