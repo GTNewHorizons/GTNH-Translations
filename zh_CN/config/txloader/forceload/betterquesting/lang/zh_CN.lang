@@ -2403,6 +2403,14 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALoQ.desc=用流体加热器加热你制�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALog.name=§5§l充分利用你的铝土矿
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALog.desc=不同于直接热离，使用更合适的处理方式可以让你从铝土矿中获得更多的镓，并产出大量的金红石和氧化铝。%n%n首先，制作一些铝土泥浆。
 
+# Quest: Fluoro-who now?
+betterquesting.quest.EnwtQDaiQEWhwc7G6oJHWQ.name=§5§lFluoro-who now?§r§5§r
+betterquesting.quest.EnwtQDaiQEWhwc7G6oJHWQ.desc=§2Fluorophlogopite§2§r is the industrial answer to Mica-based foils, and something you'll want to start investing in as higher tier coils cost increasingly more foil to make.%n%nThe recipe for making Raw Fluorophlogopite Dust is done in the MV mixer. While all of the new dusts involved may look a little daunting, they're not that bad. You will need the following:%n%n- Some variant of quartz dust: Any one of Quartz Sand, Quartzite, Nether Quartz, or Certus Quartz%n- Alumina%n- Potassiumfluorosilicate, which is made in two steps by combining Rock Salt, Hydrofluoric Acid, and Raw Silicon%n- Potassium Carbonate, made by combining Potassium Dust and Oxygen (or Potash to cover both) with Carbon Dioxide in a Chemical Reactor%n%nThe exact ratios of each ingredient depend on the form of quartz that you're using, as does the exact amount of raw dust that you get from the recipe.%n%n[note]Technically, this process is entirely optional, but highly recommended. The raw dust is also used in ZPM, but Mica can be substituted for that use case if you would like.[/note]
+
+# Quest: Melting and Refreezing
+betterquesting.quest.RSeerR8bQ6advk1NkOU8NQ.name=§5§lMelting and Refreezing§r§r
+betterquesting.quest.RSeerR8bQ6advk1NkOU8NQ.desc=The second half of this process is a bit unusual: first, we have to melt the raw dust in an EBF with some molten Magnesia to get molten Unformed Fluorophlogopite. Then, we find that a fluid solidifier isn't good enough, so we need to use our Vacuum Freezer to solidify the molten material in a plate mold.%n%nYou can simply use your new HV Bender to bend the plates into a foil, and there we have it! No more scouring the planet for rare Mica veins every time you want to make more coils!
+
 # Quest: Ender Fluid Conduits
 betterquesting.quest.Tccv2-B9QaS_8tS8kteSSg.name=末影流体导管
 betterquesting.quest.Tccv2-B9QaS_8tS8kteSSg.desc=末影流体导管是HV等级解锁的进阶流体传输系统。它们用途广泛，例如过滤特定种类的流体和按颜色频道路由。%n%n它的主要优势在于能够创建一个巨大的统一流体网络，从而使得整套产线更加容易管理。在这个阶段，你一旦开始使用它，很快就会发现它的方便之处。%n%n[note]然而，必须小心：拥有太多节点的大型导管网络会导致TPS降低。谨慎使用它们，避免滥用，以及对大型系统考虑切换到AE2流体管理。[/note]
@@ -2776,10 +2784,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1Q.desc=IV阶段。你需要钨钢制�
 # Quest: On Your Way to Asteroids and Other Rocket Tier 3 DIMs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1w.name=§9§l前往小行星和其他三阶星球的路上
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1w.desc=这一阶段我想应该是“到达其他的星球”并且拥有IV电压的机器。 当进入了这个阶段后，你的发电机应该已经发挥了几乎全部的潜能。去某些星球上采集一些珍贵的矿石可以帮助提高你的发电能力。%n%n§3当然，小行星上也有硅岩，任君采撷。
-
-# Quest: Niobium-Titanium
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8g.name=§9§l铌钛合金
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF8g.desc=在LuV阶段，铌钛合金变得非常重要。它需要EV搅拌机和拥有钛铂钒线圈的工业高炉制作。
 
 # Quest: Callisto Trip
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_Q.name=§9§l木卫四之旅
@@ -3261,7 +3265,7 @@ betterquesting.quest.SIqmtgRmTj-EsZlXpCdyWQ.desc=这么说，你选择了这个�
 betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.name=§9§l一个维度，一套输入总线
 betterquesting.quest.VCXYSn_PTZ6kY3d6kFTFwg.desc=这个特殊的输入总线是很贵，但它可以在一个维度内，所有同一个频道的共享输入总线共同交互同一个内容物空间。%n%n多方块机器籍此可以共享同一套物品输入系统。%n%n手持闪存左键共享输入总线可以复制其配置，右键粘贴。
 
-# Quest: Universal pickaxe, Vajra
+# Quest: Universal Pickaxe: Vajra
 betterquesting.quest.VoQ7oLYhTjuomLCz_ddOhA.name=§9§l万用镐：金刚杵
 betterquesting.quest.VoQ7oLYhTjuomLCz_ddOhA.desc=此工具可以很快的开采方块，包括格雷科技方块或线缆。%n%n使用左键单击将照常开采方块，右键单击以逐个获取方块，开启精准采集模式对左右键都生效。%n%n[note]要启用精确模式，手持金刚杵并按下shift+右键。[/note]%n%n[warn]如果你在GTNH 2.8版本前制作出了金刚杵，你可以将其放在合成栏内合成新版的金刚杵[/warn]
 
@@ -6920,10 +6924,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAASw.desc=有限的水源是一个问题�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATA.name=§6§l是时候获得一些钢了！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATA.desc=你需要钢？呃……好的。我们有得忙的……  %n%n砖高炉和大多数GT多方块机器一样，它们之间可以共享墙壁。尽管这样做会影响到空气质量……%n%n如果你缺石粉，那就打粉圆石吧。%n%n要是你出生在黏土山群系附近，可以通过研磨陶瓦获取所需的黏土粉。你还可以拆村庄的砖块，再研磨成砖粉。%n%n林业的工作台可以在合成带水桶的合成表时一次使用库存的所有水桶，更加方便快捷。§r%n%n译者注：现在前面的任务目标都是可选的了，所以可以边收集边合成，没关系。%n%n[note]中文wiki 砖高炉：  §1§n[url]https://gtnh.huijiwiki.com/p/267[/url]§r[/note]
 
-# Quest: EBF-Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.name=§6§l工业高炉时代
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.desc=为了得到铝锭，你需要一个工业高炉。这是通向胜利的另一重要步骤。让我们开始吧。%n%n制作加热线圈所需的云母可能会有些棘手，但一阶线圈有一个不需要云母的替代配方。%n%n为了不被镍卡住，查看“魔法学徒”任务栏的“镍的来源”任务。%n%n为了处理最初的这些配方，你需要两个LV级能源仓，接收至少4A的LV电流。这机器是一台电能大胃袋，所以你需要做好准备：%n%n1. 如同tooltip中显示的那样，线缆有一定的能量损耗。尽量让发电靠近用电。未绝缘的导线损失能量高于绝缘版本。用管道将蒸汽或燃料运送到能量输入附近。%n2. 如果高炉需要维护，每个维护问题都会损失效率并导致完成配方需要更多能量。能量消耗的公式是1/(1-0.1x)，其中x是维护问题个数。%n%n如果运行过程中能量耗尽，高炉将销毁正在运行的配方输入！%n%n对于有流体产物的配方，你需要在工业高炉控制器的GUI中启用销毁过量流体，或者添加一个输出仓。否则工业高炉将无法启动。%n%n启动之前，别忘了修复所有的维护问题，并在需要时放入正确的编程电路。%n%n如果你需要一台完美的工业高炉，你可以添加更多的输入仓，在其中存储不同的流体。%n%n工业高炉还会根据电压调整炉温，从MV开始，每提升一个电压等级，实际炉温将提高100K（LV则会降低100K）。虽然目前你只能制造LV能源仓，但同时安装两个LV能源仓即可将高炉超频到MV，从而避免降低100K的惩罚，并且初始炉温可以达到1801K。%n%n随着游戏的进程，你的工业高炉不断升级，你就可以获得更多的炉温奖励。两个MV能源仓（超频到HV）可以增加100K，两个HV能源仓（超频到EV）可以增加200K……线圈本身只决定基础炉温。这种炉温调整不适用于炽焱高炉。%n%n如果污染变得非常严重，请查看GT++的污染清理机，或者升级你的消声仓。%n%n[note]中文wiki 工业高炉：  §1§n[url]https://gtnh.huijiwiki.com/p/117[/url]§r[/note]
-
 # Quest: More Heat - Kanthal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATg.name=§6§l更多的热量 - 坎塔尔线圈
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATg.desc=更好的材料需要更高的温度。你可以直接用新线圈替换旧线圈。坎塔尔线圈可以达到2700K。你甚至可以在热解炉上回收利用替换下来的旧线圈，或是制造其他机器，真棒！如果你实在找不到它们的用处，还可以将它们粉碎或电弧炉回收。%n%n在拥有真空冷冻机之前，你需要在MV化学浸洗机内使用冷却液对热锭进行降温。%n%n请记住，你的线圈提供的炉温每超出配方限定炉温1800K，工业高炉就会获得一次无损超频机会（功率×4，加工时间/4）。而当炉温每超出配方限定炉温900K时，还有一定的功率减免，所以应该尽早升级高炉线圈。
@@ -7267,6 +7267,10 @@ betterquesting.quest.NVgXYF-TQvqYnLn1NLM6pw.desc=[quest]太阳能板制造厂！
 # Quest: Synchrotron (No Relation to the Catalyst)
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.name=§6§l同步加速器（和那个催化剂没关系）
 betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.desc=要实际产生用于光刻的光，你需要在同步加速器中加速电子。与线性加速器（LINAC）一样，提供冷却剂是保持其运行的必要条件。%n%n你可以通过增加 EU/t 或同时提高内部四个天线机械方块的等级来增加产生的光子的能量。%n%n为了改善聚焦度，你可以使用更好的冷却剂，而输出量则随着 EU/t 和天线等级的增加而增加。%n%n是的，你需要四个能源仓。
+
+# Quest: UXV Glass
+betterquesting.quest.QpsC-ERsQHGoqzzSdWAx_A.name=§4§l§nUXV Glass
+betterquesting.quest.QpsC-ERsQHGoqzzSdWAx_A.desc=The final, and by far most expensive tier of Borosilicate glass is Universium.%n%nEnjoy the bonus for gathering 32 ;)
 
 # Quest: Stern-Gerlach, Perhaps?
 betterquesting.quest.RLJR8nFySzSaZLeCRsabDg.name=§6§l斯特恩-盖拉赫实验，或许？
@@ -10231,7 +10235,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFDw.desc=§5§l晶体催生仓§r可以�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEA.name=高纯度晶体
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEA.desc=高纯度的下界石英、赛特斯和福鲁伊克斯水晶可通过种子（组装沙子和晶体粉末）获得。%n%n之后你可能会用到高纯下界石英，但现在让我们先做一些高纯福鲁伊克斯水晶和高纯赛特斯石英水晶。%n%n将它们丢入水中可以自然生长，而在GT高压釜中可以大大加快这一过程。%n%n[note]高压釜配方中,蒸馏水可以让时间减半.[/note]
 
-# Quest: Wireless Setup
+# Quest: Maximum Security
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.name=无线网络
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFEg.desc=ME安全终端允许你允许您配置哪些用户拥有ME系统的访问权限，以及这些用户的具体权限。ME安全终端存在时，使用ME系统需要对应的权限。%n%n安全终端无法阻止蓄意毁坏行为，例如拆除电缆/机器、销毁驱动器等。如需保护系统免受物理破坏，您需要其他形式的实体安防措施。本模块提供的是网络层级的安全防护。%n%n放置ME安全终端的玩家对网络具有完全的控制权，并且无法取消自己的权限。通过添加空白身份卡，您可为所有未注册身份卡的玩家定义默认权限。%n%n除了软件层面的安全防护外，接入了安全终端后还可以使用无线终端实现无线访问。%n%n若主网络配备安全终端，子网络可能也需要安装才能访问主网络（具体取决于您的网络配置方式，并非总是必需）。%n%nME无线访问点使你可以用无线终端无线地访问网络。其范围与能耗由访问点内安装的无线信号增幅器数量决定。单个网络可部署任意数量的访问点，每个访问点内可以安装任意数量的增幅器，因此你可以通过改变排布自行优化能耗与覆盖范围。
 
@@ -10770,6 +10774,10 @@ betterquesting.quest.mfxi51PzS32KbV7utFWqxg.desc=还能压缩？？
 # Quest: ...with Fluid Support!
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.name=§6§l……已加入流体支持！
 betterquesting.quest.mk3rQ7LUQjC96FsFvDedKA.desc=现已加入流体支持！
+
+# Quest: Certified Geek, 7 Days a Week
+betterquesting.quest.n7bXGuetSf2NltGy5xk4IA.name=Certified Geek, 7 Days a Week
+betterquesting.quest.n7bXGuetSf2NltGy5xk4IA.desc=Needing to go to the terminal all the time to access your items can be a real pain. You ought to set up a Wireless Access Point (WAP) on your system to alleviate that inconvenience.%n%nThe WAP allows for both Wireless Terminals and the Matter Manipulator to see the contents of your system. You must have at least one WAP on your system for wireless to function. %n%nRange and power usage is determined based on the number of Wireless Boosters installed in the WAP. A network can have any number of WAPs with any number of Wireless Boosters in each one, allowing you to optimize power usage and range by altering your setup.%n%n[note]After setting this up, look to the next quest for getting a Wireless Terminal.[/note]
 
 # Quest: Optimizing Patterns in Late Game!
 betterquesting.quest.opVg0YQ3RCiBbG62PozSLQ.name=在游戏后期优化样板！
@@ -11850,7 +11858,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACWg.desc=在末影人附近，你感到�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWw.name=次元箱
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWw.desc=谣言说，末影人在末地盖了研究室。在那他们开发武器跟机器，准备进攻主世界。其中一项发明是一种箱子，不知为何，所有的末影箱都互相关联。试着找出一个末影箱。
 
-# Quest: Is This the End? No it's the END Dimension
+# Quest: Is This the End? No, it's the END Dimension
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2g.name=这就结束了？不，这是末地！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD2g.desc=你仔细研究了末影珍珠，并设法将其重新激活变为末影之眼。而末影之眼显示这骚乱的源头似乎是从地下末地要塞中的传送门框架中冒出来的。你感觉有一种神秘的力量在引导你前往那里。 也许可以用末影之眼重新激活这些框架？%n%n提示：将末影之眼扔出去它会引导你前往最近的末地要塞。不过这个过程可能会导致末影之眼损坏，所以你最好多准备点。在空旷无障碍的地方进行这项操作，这样你就能看到它们的去向了。
 
@@ -11862,7 +11870,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJLQ.desc=随着你在末地探索的旅�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJLg.name=欢迎来到末地！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJLg.desc=欢迎来到末地！更重要的是：极限末地生存（HEE）。%n%n如果你已经与末影龙打过一架了，你就会知道这种战斗非常具有挑战性，远超原版末影龙。而且主岛大部分会被摧毁，但不用担心，还有许多末地小岛等待你的探索，可从中获取矿石或末地石。%n%n首先，你需要收集一些末影粉末-极限末地生存的关键催化剂。  强烈建议你使用任何方式飞行。%n%n提示：按下默认快捷键P（要是你改过的话就自己查查吧）以获取HEE相关信息列表。大致看了之后，你意识到自己需要知识点才能解锁更多页面。查看方块或物品或特定的东西都可以为你提供知识点。消耗知识笔记也可以提供知识点。这里给你一些帮你入门。祝你好运！%n%n你也可以寻找冒险家日记，从中一样可以获取知识。%n%n[note]PS：按住Shift，手持原版剑左键龙蛋，可使其掉落。[/note]%n%n[warn]末地会下一种看不见的雨，所以记得把你的矿机盖好。[/warn]
 
-# Quest: Essence Altar Dragon Infused
+# Quest: Dragon Essence Altar
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJLw.name=龙之精华祭坛
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJLw.desc=想要造出龙之精华祭坛，玩家必须在基础精华祭坛上使用龙之精华（手持精华右键祭坛）。%n%n然后，祭坛需要注入8个任意物品。  龙之精华祭坛可能需要以下物品：黑曜石，石砖，地图，书，书架，铁栅栏，末地石，末影珍珠，末影之眼，末影人头颅。%n%n在此之后，你就可以在祭坛中存储更多的精华了。
 
@@ -11882,15 +11890,15 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJMg.desc=祭坛成功升级后，玩家�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJMw.name=HEE群系指南针
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJMw.desc=群系指南针是一种特殊的指南针，当玩家在末地时，它会指向最近的生态岛屿。%n右键单击会在所有现存群系中滚动切换。%n%n手持群系指南针，它将把所有选定的群系标记在屏幕上。%n标记是带有选定生物群系颜色的小方块，越靠近岛屿，方块也越大（如果到达岛屿，标记就会消失，离开岛屿时会再次出现）。
 
-# Quest: Visit the Laboratory Island
+# Quest: Visit the (Enchanted) Laboratory Island
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJNA.name=探索实验室岛
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJNA.desc=实验室是供末影法师使用的大型建筑，用于试验末地中的魔法物品。%n%n你可以用HEE群系指南针找到实验室。%n%n实验室内通常还有一些宝箱。里面有黑曜石碎片和金币，还有一些其他物品。
 
-# Quest: Energy Wand
+# Quest: Energy Clusters and the Energy Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJNQ.name=能量法杖
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJNQ.desc=能量星团具有不同的健康水平，这影响星团的恢复（或泄漏）速度。%n%n使用能量法杖可以移动星团。移动距离太远或跨维度移动可能会对星团的健康产生负面影响。%n%n使用能量的方块将从16格方块之内的星团中获取能量，而在末地中，耗能方块可直接从环境中获取能量。%n%n使用能量的物品在末地会自动充能，也可以对星团使用以开始或停止抽取能量。
 
-# Quest: Visit the Enchanted Island
+# Quest: Visit the (Enchanted) Homeland Island
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJNg.name=探索附魔岛屿
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJNg.desc=这是一种非常平坦的生物群系，有少量的洞穴。%n%n你可以用HEE群系指南针找到它。%n%n目前有两种变体-故土与实验室。%n%n故土上有末影黏浆湖，成堆的重力黑曜石和奇怪的黑曜石道路。%n%n你经常会看到故土隐藏砖--一种可破坏的漂浮透明方块。末影人、小末影人和末影守卫会从其中生成。
 
@@ -13288,6 +13296,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGFg.desc=魔力之息是许多合成表�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGFw.name=纯净之息
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGFw.desc=纯净之息是许多合成表中使用的成分。 在巫师烤炉中燃烧山楂树树苗，可以随机获得。
 
+# Quest: Witchery Seeds
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGGA.name=巫术种子
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGGA.desc=要获得巫术种子，你需要在远离水的草地上使用锄头。要打开剩余的任务线，你需要完成神秘时代的任务、研究魔导手册中巫术章节的条目。%n%n传说，当曼德拉草的根被挖出来时，它会尖叫并杀死所有听到它的人。这种说法只是部分正确。一个完全成长的曼德拉草可能会尖叫，给周围的人带来巨大的不适。这就是为什么最好在晚上收获曼德拉草根的原因，那时植物更可能处于休眠状态。 曼德拉草是用曼德拉草种子种植而出的，可以通过手持锄右键草地，或破坏部分（或完全）成长的曼德拉草来获得。%n%n破坏完全成长的曼德拉草将产生曼德拉草根和曼德拉草种子，还可能会唤醒曼德拉草并导致各种各样的麻烦（以及对耳朵的折磨！）。%n%n颠茄种子可以种植并最终成长为多阶段的颠茄。可以收获完全成长的颠茄以获得更多的颠茄种子和颠茄花。%n%n雪玲花种子可以种植并最终成长为多阶段的雪铃花。可以收获完全成熟的雪铃花以获得更多的雪玲花种子，雪球，偶尔会掉落冰针。%n%n水洋蓟种子可以种植并最终成长为多阶段的水洋蓟。可以收获完全成熟的水洋蓟，以获得更多的水洋蓟种子和水洋蓟球茎。水洋蓟种子只能种植在静水方块上。%n%n大蒜是一种可种植的作物，可用于制作美味的食物，并能克制吸血鬼。它可以种植在耕地上，并分五个阶段生长。当完全成长时，可以收获最多三个掉落的大蒜。收获的大蒜可以重新种植，也可以用于合成。%n%n大蒜还可以用来制作肉汤，特别的营养餐。它也是制作大蒜环的主要成分，大蒜环是防止吸血鬼的有效工具。最后，女巫可以使用大蒜在巫师炼药锅中的制作吸血鬼弱化药剂，狩巫人还可以用大蒜制作狩巫黎明套装。%n%n狼毒草种子可以种植并最终成长为两格高的狼毒草。可以收获完全成长的狼毒草，以获得更多的狼毒草种子和狼毒草。
+
 # Quest: Purified Milk
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGGQ.name=纯牛奶
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGGQ.desc=纯牛奶是一种与普通牛奶类似的解毒剂，虽然它只有一定几率成功，且只会消除一种状态效果。 但它的好处是可以堆叠到64个。%n%n纯牛奶是沉睡之酿的一种成分。
@@ -14249,6 +14261,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAJw.desc=标准箱子虽然适合存放�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.name=§c§l蒸蒸日上！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.desc=你快熬出头了！只需要再做一步合成，就能挺进第1阶段！继续前进吧！%n%n这种蒸汽轮机可以将蒸汽转化为EU。虽然使用的动力源仍然是蒸汽，但从此刻开始，你会产出EU，并通过线缆输送给你的机器，不需要把蒸汽直接通入机器了。幸运的是，电力机器不需要什么排气口，效率也比那些青铜家伙高得多。%n%n不过，以后你多半还是会把蒸汽换成其他的发电燃料。%n%n[note]如果你想现在就立刻用蒸汽以外的能源发电，还有其他方式来完成这个任务。[/note]%n%n[note]中文wiki 基础蒸汽轮机：§1§n[url]https://gtnh.huijiwiki.com/p/94780[/url]§r[/note]
 
+# Quest: EBF-Time
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.name=§6§l工业高炉时代
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.desc=为了得到铝锭，你需要一个工业高炉。这是通向胜利的另一重要步骤。让我们开始吧。%n%n制作加热线圈所需的云母可能会有些棘手，但一阶线圈有一个不需要云母的替代配方。%n%n为了不被镍卡住，查看“魔法学徒”任务栏的“镍的来源”任务。%n%n为了处理最初的这些配方，你需要两个LV级能源仓，接收至少4A的LV电流。这机器是一台电能大胃袋，所以你需要做好准备：%n%n1. 如同tooltip中显示的那样，线缆有一定的能量损耗。尽量让发电靠近用电。未绝缘的导线损失能量高于绝缘版本。用管道将蒸汽或燃料运送到能量输入附近。%n2. 如果高炉需要维护，每个维护问题都会损失效率并导致完成配方需要更多能量。能量消耗的公式是1/(1-0.1x)，其中x是维护问题个数。%n%n如果运行过程中能量耗尽，高炉将销毁正在运行的配方输入！%n%n对于有流体产物的配方，你需要在工业高炉控制器的GUI中启用销毁过量流体，或者添加一个输出仓。否则工业高炉将无法启动。%n%n启动之前，别忘了修复所有的维护问题，并在需要时放入正确的编程电路。%n%n如果你需要一台完美的工业高炉，你可以添加更多的输入仓，在其中存储不同的流体。%n%n工业高炉还会根据电压调整炉温，从MV开始，每提升一个电压等级，实际炉温将提高100K（LV则会降低100K）。虽然目前你只能制造LV能源仓，但同时安装两个LV能源仓即可将高炉超频到MV，从而避免降低100K的惩罚，并且初始炉温可以达到1801K。%n%n随着游戏的进程，你的工业高炉不断升级，你就可以获得更多的炉温奖励。两个MV能源仓（超频到HV）可以增加100K，两个HV能源仓（超频到EV）可以增加200K……线圈本身只决定基础炉温。这种炉温调整不适用于炽焱高炉。%n%n如果污染变得非常严重，请查看GT++的污染清理机，或者升级你的消声仓。%n%n[note]中文wiki 工业高炉：  §1§n[url]https://gtnh.huijiwiki.com/p/117[/url]§r[/note]
+
 # Quest: A Quite Different Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.name=§c§l别具一格的存储
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdw.desc=如果你碰巧收集了像剑或盔甲之类的怪物掉落物，普通的箱子很快就会塞得满满当当。使用文档柜，可以储存多达270件同类型的物品。而且，它根本不需要手推车——你可以直接敲掉它，它会自动保留内部存储的物品。%n%n非常适合存储林业的树苗、蜜蜂，以及其他ID相同，却因为NBT不同而无法堆叠的东西！
@@ -14548,10 +14564,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFzQ.desc=碳弩臂的耐久只有镁铝�
 # Quest: Traveller's Shoes Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG-g.name=旅行者靴子升级
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG-g.desc=你的靴子可以配备一些升级，如水上行走、二重跳、铅靴子或黏滑靴子。你得将靴子放在合成站中央。%n%n水上行走可以让你在水面行走。%n二重跳让你可以在空中再次跳跃。%n铅靴使你不能游泳但可以在水底行走，还可能附赠一串咕噜咕噜声。记得带上你的水肺药水。%n黏滑靴子可减少你受到的掉落伤害。%n%n提示：%n自动修复也可以添加到靴子上。%n每件护甲都有3个强化槽位。
-
-# Quest: Witchery Seeds
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGGA.name=巫术种子
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGGA.desc=要获得巫术种子，你需要在远离水的草地上使用锄头。要打开剩余的任务线，你需要完成神秘时代的任务、研究魔导手册中巫术章节的条目。%n%n传说，当曼德拉草的根被挖出来时，它会尖叫并杀死所有听到它的人。这种说法只是部分正确。一个完全成长的曼德拉草可能会尖叫，给周围的人带来巨大的不适。这就是为什么最好在晚上收获曼德拉草根的原因，那时植物更可能处于休眠状态。 曼德拉草是用曼德拉草种子种植而出的，可以通过手持锄右键草地，或破坏部分（或完全）成长的曼德拉草来获得。%n%n破坏完全成长的曼德拉草将产生曼德拉草根和曼德拉草种子，还可能会唤醒曼德拉草并导致各种各样的麻烦（以及对耳朵的折磨！）。%n%n颠茄种子可以种植并最终成长为多阶段的颠茄。可以收获完全成长的颠茄以获得更多的颠茄种子和颠茄花。%n%n雪玲花种子可以种植并最终成长为多阶段的雪铃花。可以收获完全成熟的雪铃花以获得更多的雪玲花种子，雪球，偶尔会掉落冰针。%n%n水洋蓟种子可以种植并最终成长为多阶段的水洋蓟。可以收获完全成熟的水洋蓟，以获得更多的水洋蓟种子和水洋蓟球茎。水洋蓟种子只能种植在静水方块上。%n%n大蒜是一种可种植的作物，可用于制作美味的食物，并能克制吸血鬼。它可以种植在耕地上，并分五个阶段生长。当完全成长时，可以收获最多三个掉落的大蒜。收获的大蒜可以重新种植，也可以用于合成。%n%n大蒜还可以用来制作肉汤，特别的营养餐。它也是制作大蒜环的主要成分，大蒜环是防止吸血鬼的有效工具。最后，女巫可以使用大蒜在巫师炼药锅中的制作吸血鬼弱化药剂，狩巫人还可以用大蒜制作狩巫黎明套装。%n%n狼毒草种子可以种植并最终成长为两格高的狼毒草。可以收获完全成长的狼毒草，以获得更多的狼毒草种子和狼毒草。
 
 # Quest: Cable Diodes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHQ.name=§2§l线缆二极管

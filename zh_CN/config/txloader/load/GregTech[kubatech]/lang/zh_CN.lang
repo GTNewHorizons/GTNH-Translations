@@ -89,6 +89,7 @@ kubatech.gui.text.eig.disabled=禁用
 kubatech.gui.text.eig.enabled=启用
 kubatech.gui.text.eig.ic2_mode=IC2 模式
 kubatech.gui.text.eig.no_humidity_mode=无湿度模式
+kubatech.gui.text.eig.inventory_full_warning=Seed inventory is full!
 kubatech.gui.text.mia.primary_mode=主要模式
 kubatech.gui.text.mia.normal=常规
 kubatech.gui.text.mia.swarmer=蜂群
@@ -102,6 +103,7 @@ kubatech.gui.tooltip.contributors.structure=结构由%s设计
 
 kubatech.gui.tooltip.dynamic_inventory.identical_slots=有%d个相同的槽位
 kubatech.gui.tooltip.dynamic_inventory.empty_slot=空槽位
+kubatech.gui.tooltip.dynamic_inventory.eig.seed_count=Seeds: %d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=剩余种子类型：%d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=剩余种子容量：%d
 
@@ -123,6 +125,7 @@ kubatech.chat.eec.infernal_drops_disabled=将尝试阻止生成精英怪
 # info data
 ## general
 kubatech.infodata.running_mode=运行模式：
+kubatech.infodata.running_mode.fmt=Running in mode: §a%s§r
 
 ## Extreme Entity Crusher
 kubatech.infodata.eec.current_mob=当前生物：§e%s
@@ -182,6 +185,12 @@ kubatech.infodata.htgr.water_per_tick=每秒水量：§6%sL
 kubatech.infodata.htgr.fuel_supply=填充进度：%s / %s
 kubatech.infodata.htgr.fuel_properties=属性：%s、%s、%s
 
+kubatech.MBTT.CoolantInputHatch=Input Hatch (Coolant)
+kubatech.MBTT.HeliumInputHatch=Input Hatch (Helium)
+kubatech.MBTT.WaterInputHatch=Input Hatch (Water)
+kubatech.MBTT.CoolantOutputHatch=Output Hatch (Coolant)
+kubatech.MBTT.SteamOutputHatch=Output Hatch (Steam)
+
 #Waila
 kubatech.waila.eec.mob_type=生物类型：%s
 kubatech.waila.eec.no_mob=无
@@ -234,6 +243,7 @@ item.arc_furnace_electrode.tip.parallel_limit_none=无
 item.arc_furnace_electrode.tip.oc=超频系数：%s%s
 item.arc_furnace_electrode.tip.amperage_per_parallel=每并行电流：%s
 item.arc_furnace_electrode.tip.startup_surge=启动涌流：%s
+item.arc_furnace_electrode.tip.startup_amperage=Startup Amperage: %s A (%sx 64A hatches)
 
 item.arc_furnace_electrode.tip.special_effect.GraphiteElectrode=§6§l面包与黄油§r§6：无启动涌流惩罚
 item.arc_furnace_electrode.tip.special_effect.GrapheneElectrode=§6§l面包与黄油§r§6：无启动涌流惩罚

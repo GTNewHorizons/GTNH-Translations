@@ -72,6 +72,7 @@ tile.appliedenergistics2.BlockSingularityCraftingStorage.name=奇点合成存储
 tile.appliedenergistics2.BlockPaint.name=染色
 tile.appliedenergistics2.BlockSpatialLinkChamber.name=空间链接仓
 tile.appliedenergistics2.BlockSpatialNetworkRelay.name=空间网络中继器
+tile.appliedenergistics2.BlockSuperMEReplenisher.name=Super ME Replenisher
 tile.appliedenergistics2.BlockWirelessConnector.name=无线接入器
 tile.appliedenergistics2.BlockWirelessHub.name=无线集线器
 tile.appliedenergistics2.BlockCrystalGrowthChamber.name=晶体催生仓
@@ -149,6 +150,9 @@ chat.appliedenergistics2.MachineHighlightedNamed=%d "%d" 已在 %d, %d, %d 高�
 chat.appliedenergistics2.StorageHighlighted=%d 包含 §6%d §fx §r%d 已高亮，坐标：%d，%d，%d
 chat.appliedenergistics2.StorageInOtherDim=%d 包含 %d %d 位于 %d 维度，无法高亮显示
 chat.appliedenergistics2.PickBlockTerminalNotFound=未找到AE2无线终端。
+chat.appliedenergistics2.ItemFlowHighlighted=%s flow (%s) is now highlighted at %d, %d, %d
+chat.appliedenergistics2.ItemFlowInOtherDim=%s flow (%s) is located in dimension: %d and can't be highlighted
+chat.appliedenergistics2.ItemFlowNotFound=No recent network flow found for %s
 chat.appliedenergistics2.PatternRepeaterProvider=§5提供器§r - 将样板从面前的§5访问器§r提供到当前网络。
 chat.appliedenergistics2.PatternRepeaterAccessor=§5访问器§r - 将样板从当前网络提供到面前的§5访问器§r。
 chat.appliedenergistics2.WirelessHighlighted=%d §e"%d§e"§r 已在 %d, %d, %d 高亮显示
@@ -251,6 +255,14 @@ gui.appliedenergistics2.ReshuffleReportTextColorNegative=§4
 gui.appliedenergistics2.ReshuffleReportTextColorNeutral=§8
 gui.appliedenergistics2.ReshuffleReportTextColorWarning=§6
 
+gui.appliedenergistics2.SuperMEReplenisherBytesTotal=Bytes total: §6%s
+gui.appliedenergistics2.SuperMEReplenisherBytesUnlimited=Unlimited
+gui.appliedenergistics2.SuperMEReplenisherBytesUsed=Bytes used: §c%s
+gui.appliedenergistics2.SuperMEReplenisherTickRate=Tick Rate
+gui.appliedenergistics2.SuperMEReplenisherThreshold=Threshold
+gui.appliedenergistics2.SuperMEReplenisherTarget=Target: §5%s
+gui.appliedenergistics2.SuperMEReplenisherStored=Stored: §5%s
+
 gui.appliedenergistics2.Efficiency=效率
 gui.appliedenergistics2.RequiredPower=所需能源
 gui.appliedenergistics2.StoredPower=现存能源
@@ -276,6 +288,8 @@ gui.appliedenergistics2.NetworkTool=网络工具
 gui.appliedenergistics2.AdvancedNetworkTool=高级网络工具
 gui.appliedenergistics2.CraftingDiagnostics=合成诊断
 gui.appliedenergistics2.CraftingDiagnosticsHint=为此网络启用或禁用合成诊断信息收集.
+gui.appliedenergistics2.ItemFlowTracking=Item Flow Tracking
+gui.appliedenergistics2.ItemFlowTrackingHint=Enable or disable item flow statistics collection for this network.
 gui.appliedenergistics2.PowerUsageRate=耗能
 gui.appliedenergistics2.PowerInputRate=产能
 gui.appliedenergistics2.PortableCell=便携元件
@@ -339,6 +353,7 @@ gui.appliedenergistics2.MolecularAssembler=分子装配室
 gui.appliedenergistics2.ProcessingPattern=处理样板
 gui.appliedenergistics2.Crafts=合成
 gui.appliedenergistics2.HoldShift=按住 [LSHIFT] 以显示原料
+gui.appliedenergistics2.HoldControl=Hold [CONTROL] to multiply/divide pattern
 gui.appliedenergistics2.PatternView=按下[%s]以查看样板
 gui.appliedenergistics2.Result=产物
 gui.appliedenergistics2.Results=产物
@@ -517,6 +532,7 @@ gui.appliedenergistics2.itemMEStackPacketDesc1=系统操作中插入后剩余
 gui.appliedenergistics2.itemMEStackPacketDesc2=确保你有足够的空间后，将此物品放入ME终端中。
 
 gui.appliedenergistics2.WirelessManagerToolTips=网络\n§6左击§7 - 选择\n §6+ 无线额外操作键§7 - 重命名\n §6+ 潜行§7 - 移除
+gui.appliedenergistics2.HoldCtrlForContents=Hold Ctrl for cell contents
 
 # GUI Tooltips
 gui.tooltips.appliedenergistics2.Stash=存储物品
@@ -823,11 +839,16 @@ gui.tooltips.appliedenergistics2.ToggleShowOnlySubstitute=显示启用替换样�
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstituteOnDesc=显示所有接口
 gui.tooltips.appliedenergistics2.ToggleShowOnlySubstituteOffDesc=仅显示包含启用替换样板的接口
 
+gui.tooltips.appliedenergistics2.FlowingItems=Flowing Items
+gui.tooltips.appliedenergistics2.FlowRateTooltipFull=Flow (%s): %s / %s §7Net %s
+gui.tooltips.appliedenergistics2.FlowRateTooltipShort=Flow (%s): %s
+
 gui.tooltips.appliedenergistics2.BlockDriveWarning=§4请勿移动装有ME驱动器的箱子。\n§4这可能损坏您的存档。后果自负！
 gui.tooltips.appliedenergistics2.BlockCreativeEnergyCell=§d无限能源
 gui.tooltips.appliedenergistics2.PartCreativeEnergy=§d无限能源
 gui.tooltips.appliedenergistics2.BlockCreativeEnergyController=§d无限能源
 gui.tooltips.appliedenergistics2.PreconfiguredPriority=预设的存储优先级：§f%s
+gui.tooltips.appliedenergistics2.BlockSuperMEReplenisher=Only for network usage!\nEverything injected will be cached\nThen flashed in local network on Tick Rate!
 
 # Units
 gui.appliedenergistics2.units.appliedenergistics=AE
@@ -1126,6 +1147,7 @@ item.appliedenergistics2.WirelessMessages.SimpleBound=§a已绑定至 %s
 item.appliedenergistics2.WirelessMessages.SimpleBounded=点击其他无线接入器以连接
 
 item.appliedenergistics2.WirelessMessages.Advanced=§e队列
+item.appliedenergistics2.WirelessMessages.AdvancedLine=§eAdvanced Line
 item.appliedenergistics2.WirelessMessages.AdvancedActivated=%s §a已激活
 item.appliedenergistics2.WirelessMessages.AdvancedNext=§9队列中的下一个无线接入器：%s
 item.appliedenergistics2.WirelessMessages.AdvancedHowToggle=潜行+右键点击以在队列模式内切换子模式
@@ -1249,6 +1271,7 @@ key.appliedenergistics2.category=应用能源2
 key.pick_block.desc=AE2 选取方块
 key.toggle_focus.desc=切换是否选中搜索框
 key.search_connected_inventories.desc=在网络库存中搜索指定物品
+key.locate_item_flow.desc=Highlight recent item flow for hovered item
 key.container_interaction.desc=容器物品交互
 key.wireless_extra_action.desc=无线额外操作
 key.wireless_mode_switch.desc=无线模式切换

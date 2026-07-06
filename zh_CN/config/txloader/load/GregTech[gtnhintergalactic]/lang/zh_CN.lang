@@ -124,6 +124,9 @@ item.NtNanofibers.name=中子纳米纤维
 item.UHTResistantMesh.name=耐超高温网
 item.TaHfNanoparticles.name=碳化钽铪纳米颗粒
 item.NtNanoparticles.name=中子纳米颗粒
+item.droneCase.name=Corona-Resistant Drone Case
+item.femtocontroller.name=Magnetically Shielded Femtocontroller
+item.fuelPellet.name=Hyperfine TrNq+ Radioisomer Pellet
 
 # Blocks
 gt.blockcasingsSE.name=太空电梯部件
@@ -339,6 +342,7 @@ ig.nei.elevatorpump.name=太空钻机
 ig.nei.elevatorpump.planettype=行星
 ig.nei.elevatorpump.gastype=气体
 ig.nei.elevatorpump.amount=总量
+ig.nei.elevatorpump.eut=EU/t
 ig.nei.elevatorpump.see_all=查看全部
 ig.nei.spaceproject.name=太空项目
 ig.nei.spaceproject.stages=阶段：
@@ -362,10 +366,11 @@ ig.elevator.structure.Motor=太空电梯加速轨道
 ig.elevator.structure.FrameNeutronium=中子框架
 ig.elevator.structure.Parametrizer=参数仪
 ig.elevator.structure.DataInputHatch=数据输入仓
-ig.elevator.structure.OpticalConnector=光学接口
 ig.elevator.structure.AnyBaseCasingWithHintNumber1=任意带有提示方块[1]的太空电梯基座机械方块
 ig.elevator.structure.AnyBaseCasingWithHintNumber2=任意带有提示方块[2]的太空电梯基座机械方块
 ig.elevator.structure.AnyBaseCasingWithHintNumber3=任意带有提示方块[3]的太空电梯基座机械方块
+ig.elevator.structure.SharedPower=Receives power from the base structure
+ig.elevator.structure.SharedResources=Receives power, plasma, and computation from the base structure
 ig.structure.contributors=贡献者
 ig.structure.programming=规划
 ig.structure.design=设计
@@ -457,3 +462,16 @@ gt.blockcasingsSEMotor.1.name=太空电梯加速轨道 MK-II
 gt.blockcasingsSEMotor.2.name=太空电梯加速轨道 MK-III
 gt.blockcasingsSEMotor.3.name=太空电梯加速轨道 MK-IV
 gt.blockcasingsSEMotor.4.name=太空电梯加速轨道 MK-V
+
+# info data
+ig.infodata.hdr.operational_data=§5Operational Data:§r
+ig.infodata.maintenance.ok=Maintenance Status: §aWorking perfectly§r
+ig.infodata.maintenance.problems=Maintenance Status: §cHas problems§r
+ig.infodata.dyson_swarm.modules.fmt=Modules: §e%s§r
+ig.infodata.dyson_swarm.power_factor.fmt=Power Factor: %s
+ig.infodata.dyson_swarm.theoretical_output.fmt=Theoretical Output: §e%s§r EU/t
+ig.infodata.dyson_swarm.current_output.fmt=Current Output: §e%s§r EU/t
+ig.infodata.dyson_swarm.computation.fmt=Computation required: §e%s§r/t
+ig.infodata.gas_siphon.depth.fmt=Depth: §e%s§r
+ig.infodata.gas_siphon.fluid.fmt=Fluid: §e%s§rL/s §9%s§r
+ig.infodata.gas_siphon.eu_required.fmt=EU/t required: §e%s§r EU/t

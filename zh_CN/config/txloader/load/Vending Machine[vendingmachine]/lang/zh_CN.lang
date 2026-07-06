@@ -8,9 +8,6 @@ casing.0.name=自动售货机机械方块
 
 hatch.vendinguplink.me.name=ME自动售货机上行链路仓
 
-# Structure
-structure.vendingmachine.hint.1=提示方块[1]：锡物品管道方块，ME自动售货机上行链路仓
-
 # Tooltips
 vendingmachine.vendinguplink.me.no_cached_stacks=没有等待输入ME网络的物品
 vendingmachine.vendinguplink.me.contains_cached_stacks=%s%d%s份物品等待输入ME网络：
@@ -22,8 +19,8 @@ vendingmachine.gui.requirement.unknown=未知需求
 vendingmachine.gui.requirement.betterquesting=任务
 vendingmachine.gui.requirement.betterquesting.missing=缺少任务
 vendingmachine.gui.item_eject=弹出物品
-vendingmachine.gui.coin_eject=弹出所有硬币
-vendingmachine.gui.single_coin_type_eject_hint=按住Shift键点击以提取
+vendingmachine.gui.coin_eject=弹出所有钱包内的硬币
+vendingmachine.gui.single_coin_type_eject_hint=按住Shift键点击从钱包中提取该硬币
 vendingmachine.gui.search=搜索
 vendingmachine.gui.required_inputs=需要：
 vendingmachine.gui.nc_inputs=需求（不消耗）：
@@ -120,6 +117,8 @@ vendingmachine.config.gui.trade_display=交易展示格式
 vendingmachine.config.gui.trade_display.tooltip=默认交易显示格式\n区分大小写
 vendingmachine.config.gui.sort_mode=排序模式
 vendingmachine.config.gui.sort_mode.tooltip=默认排序模式\n区分大小写
+vendingmachine.config.gui.show_coins=显示硬币栏
+vendingmachine.config.gui.show_coins.tooltip=显示自动售货机内的硬币存量
 vendingmachine.config.gui.wallet_mode=钱包模式
 vendingmachine.config.gui.wallet_mode.tooltip=默认钱包模式\n区分大小写
 

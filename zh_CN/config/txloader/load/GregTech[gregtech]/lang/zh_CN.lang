@@ -925,6 +925,8 @@ gt.blockcasings10.name=机械方块
 gt.blockcasings11.name=机械方块
 gt.blockcasingsNH.name=机械方块
 gt.blockconcretes.name=混凝土
+gt.blockpad=Pad
+gt.blockfencemetal=Fence
 gt.blockframes.name=框架
 gt.blockgem1.name=方块
 gt.blockgem2.name=方块
@@ -1599,8 +1601,6 @@ GT5U.MBTT.Structure=结构
 GT5U.MBTT.Controller=控制器
 GT5U.MBTT.Minimum=（至少）
 GT5U.MBTT.Tiered=（相同等级）
-GT5U.MBTT.MaintenanceHatch=维护仓
-GT5U.MBTT.MufflerHatch=消声仓
 GT5U.MBTT.EnergyHatch=能源仓
 GT5U.MBTT.DynamoHatch=动力仓
 GT5U.MBTT.MultiampEnergyHatch=多A能源仓
@@ -1612,12 +1612,17 @@ GT5U.MBTT.BeamlineOutputHatch=束流输出仓
 GT5U.MBTT.FocusInputBus=聚焦输入总线
 GT5U.MBTT.ExoticEnergyHatch=激光多A能源仓
 GT5U.MBTT.ExoticEnergyDynamo=激光多A动力仓
+GT5U.MBTT.MaintenanceHatch=维护仓
+GT5U.MBTT.MufflerHatch=消声仓
 GT5U.MBTT.InputBus=输入总线
 GT5U.MBTT.InputHatch=输入仓
+GT5U.MBTT.InputAny=Input Bus/Hatch
 GT5U.MBTT.OutputBus=输出总线
 GT5U.MBTT.OutputHatch=输出仓
-GT5U.MBTT.TecTechMultiAmp=支持TecTech多A仓室！
-GT5U.MBTT.TecTechHatch=支持TecTech多A能源仓与激光仓!
+GT5U.MBTT.OutputAny=Output Bus/Hatch
+GT5U.MBTT.SupportMultiAmp=Supports Multi-Amp Hatches!
+GT5U.MBTT.SupportLaser=Supports Laser Hatches!
+GT5U.MBTT.SupportAny=Supports Multi-Amp and Laser Hatches!
 GT5U.MBTT.Param=参数仪仓
 GT5U.MBTT.Uncertainty=不确定度仓
 GT5U.MBTT.InputData=数据接收接口
@@ -1657,6 +1662,14 @@ GT5U.MBTT.Speed.Absolute=运行速度为%s乘以%s等级
 GT5U.MBTT.EuDiscount.Base=功率系数：%s
 GT5U.MBTT.EuDiscount.Additional=每个%2$s等级使功率系数%1$s
 GT5U.MBTT.SteamDiscount.Base=蒸汽消耗：%s
+GT5U.MBTT.Tiers.Basic=§9Basic §b(T1)
+GT5U.MBTT.Tiers.HighPressure=§9High-Pressure §b(T2)
+GT5U.MBTT.Tiers.Extended=§9Extended Structure
+GT5U.MBTT.Tiers.One=§bTier 1
+GT5U.MBTT.Tiers.Two=§bTier 2
+GT5U.MBTT.Tiers.Three=§bTier 3
+GT5U.MBTT.Tiers.Four=§bTier 4
+GT5U.MBTT.Tiers.Five=§bTier 5
 GT5U.MBTT.Tiers.Voltage=需求电压：
 GT5U.MBTT.Tiers.Machine=机器
 GT5U.MBTT.Tiers.Coil=加热线圈
@@ -1670,14 +1683,22 @@ GT5U.MBTT.Tiers.Glass=玻璃
 GT5U.MBTT.Tiers.ComponentAssemblyLineCasing=部件装配线外壳
 GT5U.MBTT.Steam.Speed=比相同压力等级的单方块蒸汽机器快%s
 GT5U.MBTT.Steam.Eff=只需要使用配方要求蒸汽速率的%s
-GT5U.MBTT.Structure.SeeStructure1=请在主方块上使用
-GT5U.MBTT.Structure.SeeStructure2=全息投影仪，以查看整体结构！ 
+GT5U.MBTT.Structure.Base=§9Base Structure
+GT5U.MBTT.Structure.Slice=§9Each Additional §bSlice
+GT5U.MBTT.Structure.Layer=§9Each Additional §bLayer
+GT5U.MBTT.Structure.Projector=§fUse the Multiblock Structure §9Hologram §1Projector§f to visualize/build the structure!
 GT5U.MBTT.Structure.MinGlassForLaser=等级的§f玻璃§7为§9Tec§1Tech§7激光仓所需
 GT5U.MBTT.Structure.GlassEnergyLimit=§f玻璃§7等级限制了能源仓等级
 GT5U.MBTT.Structure.GlassEnergyLimitTier=等级可解锁所有能源仓等级
+GT5U.MBTT.Structure.DynamoLimit=§cDynamo cannot be greater than 4A
+GT5U.MBTT.Structure.Rain=§cDon't forget to protect the machine from rain and/or meteors!
+GT5U.MBTT.Structure.WaterCost=The water is a one-time-cost to prime the machine, insert with a hatch
+GT5U.MBTT.Structure.WaterFree=The water is spawned for free once formed
 GT5U.MBTT.Structure.NoTierSkips=这台机器只能运行其能源仓平均等级的配方
 GT5U.MBTT.Structure.MaxTierSkips=这台机器能运行其能源仓平均等级以上%d个等级的配方。
 GT5U.MBTT.Structure.UnlimitedTierSkips=只要有足够的能量，这台机器能运行任何等级的配方
+GT5U.MBTT.Structure.DataStick.Waterline=Link to the §bWater Purification Plant§7 with a §aData Stick
+GT5U.MBTT.Structure.DataStick.PCB=Link to the §bPCB Factory§7 with a §aData Stick
 gt.mbtt.structure.front_center=正面中央
 gt.mbtt.structure.back_center=背面中央
 GT5U.MBTT.HatchInfo=任何%s
@@ -1794,6 +1815,7 @@ gt.multiblock.NeutralizationEngine.decay_boost.4=每§f分钟§7，有§d机械�
 gt.multiblock.NeutralizationEngine.structure_tiers=该结构分为§f3个等级§7，§f等级§7决定§9基础衰减§7与§3容量§7：
 gt.multiblock.NeutralizationEngine.tier_info=§fT%d§7 : §f%s§7 : §9%d§7 : §3%s
 
+GT5U.MBTT.masterchannel=Projector stack size determines §b%s
 GT5U.MBTT.subchannel=使用子信道§6%s§r§7设定§6%s
 
 GT5U.MBTT.CokeOvenHatch=焦炉仓
@@ -1834,6 +1856,7 @@ GT5U.DTPF.catalystinfotooltip=为不消耗催化剂的配方指定额外消耗�
 
 GT5U.fusion.req=需要EU
 GT5U.fusion.plasma=等离子体输出
+GT5U.fusion.stored_eu=Stored EU: %s (%s%%)
 
 GT5U.tpm.parallelwindow=打开并行配置窗口
 
@@ -1887,6 +1910,8 @@ gt.blockcasings.bec.4.tooltip=§f§l无尽的牺牲，只为一方安宁。
 gt.blockcasings.bec.5.tooltip=§f§l吃定彩虹！
 gt.blockcasings.bec.6.tooltip=§f§l沿着小路走。
 
+GT5U.Centrifuge.momentum=Momentum: §a%s§r%%
+
 # Machine types
 gt.recipe.alloysmelter=合金炉
 gt.recipe.alloysmelter.description=高科技联合熔炉
@@ -1918,6 +1943,7 @@ gt.recipe.compressor=压缩机
 gt.recipe.compressor.description=自动压缩机C77
 gt.recipe.cuttingsaw=板材切割机
 gt.recipe.cuttingsaw.description=大卸八块
+gt.recipe.fakecuttingsaw=Cutting Machine
 gt.recipe.distillery=蒸馏室
 gt.recipe.distillery.description=提取出流体中最有用的部分
 gt.recipe.furnace=熔炉
@@ -2043,6 +2069,9 @@ gt.recipe.large_hadron_collider=大型强子对撞机
 gt.recipe.foundry_modules=铸造塔模块组件
 gt.recipe.create-condensate=凝聚态物质纠缠
 gt.recipe.assemble-condensate=凝聚态物质装配
+# TODO: Remove in 2.10
+gt.recipe.macerator.conversion=Macerator Conversion
+gt.macerator.upgraded=Has Maceration Upgrade Chip
 
 # Recipe categories
 gt.recipe.category.arc_furnace_recycling=电弧炉回收
@@ -2347,8 +2376,8 @@ GT5U.machines.large_boiler.info.tooltip.3=对燃烧时间较长的燃料额外�
 GT5U.machines.large_boiler.info.tooltip.4=在控制器方块中放入编程电路以节流（每级降低1000L/s的输出）
 GT5U.machines.large_boiler.info.tooltip.5=允许同时燃烧固体和液体燃料，提供25%速度加成
 GT5U.machines.large_boiler.info.tooltip.6=加热耗时%s秒
-GT5U.machines.large_boiler.gui.production=生产 §7%s§r: §7%s §rL/t
-GT5U.machines.large_boiler.gui.consumption=消耗 §9%s§r：§9%s §rL/t
+GT5U.machines.large_boiler.gui.consumption_fluid=Fluid consumption
+GT5U.machines.large_boiler.gui.consumption_solid=Item consumption
 GT5U.machines.large_boiler.gui.solid_burn=固体燃料燃烧时间：§9%s§r秒
 GT5U.machines.large_boiler.gui.fluid_burn=流体燃料燃烧时间：§9%s§r 秒
 
@@ -2380,6 +2409,17 @@ channels.gregtech.time_dilation=决定时间膨胀场发生器等级。最低为
 channels.gregtech.gt_hatch=启用自动放置仓室
 channels.gregtech.field=决定T.F.F.T.储库方块等级。
 channels.gregtech.component_casing=决定部件装配线外壳等级。最低为§6LV§r等级1；最高为§6MAX§r等级14。
+channels.gregtech.super_chest=Decides the tier of Super/Quantum Chest. Starts at §6Super Chest I§r at value 1 and ends at §6Quantum Chest V§r at value 10.
+
+channels.gregtech.master.structuretier=Structure Tier
+channels.gregtech.master.casingtier=Casing Tier
+channels.gregtech.master.coiltier=Coil Tier
+channels.gregtech.master.windingtier=Primary Winding Tier
+channels.gregtech.master.size=Total Size
+channels.gregtech.master.length=Length
+channels.gregtech.master.height=Height
+channels.gregtech.master.modules=Number of Modules
+channels.gregtech.master.rings=Number of Rings
 
 GT5U.gui.select.current=§8当前：
 GT5U.gui.button.liquid_filling=液体填充
@@ -2401,7 +2441,17 @@ GT5U.gui.button.feature_enabled=启用
 GT5U.gui.button.feature_disabled=禁用
 GT5U.gui.button.forbidden=§4该机器无法切换模式
 GT5U.gui.button.forbidden_while_running=§4无法在运行中切换模式
+GT5U.gui.button.forbidden.reason=(No %s output slots)
+GT5U.gui.button.forbidden.reason.fluid=fluid
+GT5U.gui.button.forbidden.reason.item=item
 GT5U.gui.button.chunk_loading=区块加载
+GT5U.gui.button.finite_mode=Finite Mode
+GT5U.gui.button.finite_mode_toggle=Toggle Finite Mode
+GT5U.gui.button.finite_mode_panel=Open Finite Mode Panel
+GT5U.gui.button.finite_mode.stack_size_parse=Stack Size Parse Amount
+GT5U.gui.button.finite_mode_info=When finite mode is on, stack sizes will be parsed as the amount within the text box above. Items will still not be consumed. Otherwise, stack sizes will be parsed as infinite regardless of it's actual amount in the input bus.
+GT5U.gui.button.chunk_loading_on=§7Chunk Loading: §aON
+GT5U.gui.button.chunk_loading_off=§7Chunk Loading: §4OFF
 GT5U.gui.button.ore_drill_radius_1=当前半径：§a%s 格
 GT5U.gui.button.ore_drill_radius_2=§7左键增大半径，右键减小半径
 GT5U.gui.button.ore_drill_cobblestone=替换为圆石
@@ -2448,6 +2498,13 @@ GT5U.gui.text.per_second=§f每秒：
 GT5U.gui.text.per_minute=§f每分：
 GT5U.gui.text.per_hour=§f每时：
 GT5U.gui.text.per_day=§f每天：
+GT5U.gui.text.progress_recipe=§fProgress: %ss / %ss (%s%%)
+GT5U.gui.text.progress_detail=§fProgress: %s%% §7(§f%ss§7/§f%ss§7)§r
+GT5U.gui.text.rate_short=(§7%s/s§f)
+GT5U.gui.text.rate_short_slow=(§7%ss/each§f)
+GT5U.gui.text.rate_large_suffix=§f[§7%s§f]
+GT5U.gui.text.item_amount_display=§b%s§f x §6%s§f
+GT5U.gui.text.fluid_amount_display=§b%s§f x §6%sL§f
 GT5U.gui.text.recipe_result.generating=§a发电中
 GT5U.gui.text.recipe_result.no_recipe=§7未找到可用合成表
 GT5U.gui.text.recipe_result.item_output_full=§7物品输出空间不足
@@ -2476,22 +2533,23 @@ GT5U.gui.text.no_machine=§7没有可用加工机器
 GT5U.gui.text.machine_mismatch=§7机器与锁定合成表不匹配
 GT5U.gui.text.high_gravity=§7需要低重力环境
 GT5U.gui.text.recipe_result.no_mining_pipe=§7缺少采矿管道
-GT5U.gui.text.drilling=§a钻探中
 GT5U.gui.text.circulating_fluid=§a循流液
 GT5U.gui.text.deploying_pipe=§a正在部署采矿管道
-GT5U.gui.text.extracting_pipe=§a管道部署中
 GT5U.gui.text.retracting_pipe=§a管道回收中
 GT5U.gui.text.recipe_result.no_drilling_fluid=§7缺少钻井液
 GT5U.gui.text.drill_exhausted=§d钻机已耗尽所有资源
-GT5U.gui.text.drill_generic_finished=§7采矿管道已回收
-GT5U.gui.text.drill_retract_pipes_finished=§7运行已中止
-GT5U.gui.text.backfiller_no_concrete=§7无混凝土
+GT5U.gui.text.recipe_result.deploying_pipe=§aDeploying mining pipe
+GT5U.gui.text.recipe_result.extracting_pipe=§aExtracting pipe
+GT5U.gui.text.recipe_result.drilling=§aDrilling
+GT5U.gui.text.recipe_result.retracting_pipe=§aRetracting pipe
+GT5U.gui.text.recipe_result.drill_generic_finished=§7Mining pipes have been retracted
+GT5U.gui.text.recipe_result.drill_retract_pipes_finished=§7Operation aborted
 GT5U.gui.text.recipe_result.no_black_hole=§7需要一个已激活的黑洞
 GT5U.gui.text.recipe_result.no_immersion_fluid=§7没有可用的浸洗液
 GT5U.gui.text.backfiller_finished=§a工作完毕
-GT5U.gui.text.backfiller_working=§a混凝土浇筑中
+GT5U.gui.text.recipe_result.backfiller_working=§aPouring concrete
+GT5U.gui.text.recipe_result.backfiller_no_concrete=§7No liquid concrete
 GT5U.gui.text.backfiller_current_area=§7正在回填Y轴：§a%s
-GT5U.gui.text.shutdown_reason.overheated=§7热等静压装置过热!
 GT5U.gui.text.pump_fluid_type=流体：§a%s
 GT5U.gui.text.pump_rate.1=泵速：%s§r
 GT5U.gui.text.pump_rate.2= L/t
@@ -2505,6 +2563,7 @@ GT5U.gui.text.recipe_result.insufficient_voltage=§7执行此配方需要更高�
 GT5U.gui.text.recipe_result.insufficient_heat=§7配方需要更高的启动温度。此配方需要：%s K（%s§7）
 GT5U.gui.text.recipe_result.insufficient_machine_tier=§7配方需要更高等级的结构方块。此配方需要：%s
 GT5U.gui.text.recipe_result.insufficient_startup_power=§7配方需要更高的启动能量。此配方需要：%s
+GT5U.gui.text.recipe_result.insufficient_startup_power_with_amperage=§7Recipe needs higher startup power. Required: %s EU/t. Requires %s A rounded to %s 64A energy hatches
 GT5U.gui.text.recipe_result.internal_error=§4配方已找到，但是出现了内部错误
 GT5U.gui.text.drill_ores_left_chunk=当前区块剩余矿石：§a%s
 GT5U.gui.text.drill_ores_left_layer=Y轴 %s 剩余矿石：§a%s
@@ -2514,6 +2573,8 @@ GT5U.gui.text.drill_offline_reason=钻机关闭：%s
 GT5U.gui.text.drill_offline_generic=钻机关闭
 GT5U.gui.text.recipe_result.drill_extracting_ores=开采矿石中
 GT5U.gui.text.recipe_result.drill_extracting_ores_failed=开采失败
+GT5U.gui.text.recipe_result.void_miner_wrong_dim=§4This dimension cannot be void mined
+GT5U.gui.text.recipe_result.void_miner_no_ores=§4No ores available to mine in this dimension
 GT5U.gui.text.recipe_result.stocking_bus_fail_extraction=§4无法从存储输入总线获得预期数量的物品。多个存储总线读取同一个容器可能导致此问题。
 GT5U.gui.text.recipe_result.stocking_hatch_fail_extraction=§4无法从存储输入仓获得预期数量的流体。多个流体存储总线读取同一个容器可能导致此问题。
 GT5U.gui.text.recipe_result.drone_noDrone=§4未找到任何输入总线中的无人机！
@@ -2545,6 +2606,8 @@ GT5U.gui.text.out_of_stuff=§4缺少下列物质：§b%s§f x §6%s
 GT5U.gui.text.shutdown_reason.power_loss=§4由于缺少能量关机。
 GT5U.gui.text.no_void_mining=§4无法在此维度中进行虚空采矿（%s）。
 GT5U.gui.text.shutdown_reason.pollution_fail=§4污染排放失败
+GT5U.gui.text.shutdown_reason.fluid_output_failed=§4Failed to output all the fluids.
+GT5U.gui.text.shutdown_reason.item_output_failed=§4Failed to output all the items.
 GT5U.gui.text.shutdown_reason.structure_incomplete=§4由于结构不完整关机。
 GT5U.gui.text.shutdown_reason.no_repair=§4由于机器损坏关机.
 GT5U.gui.text.shutdown_reason.no_machine_part=控制器插槽中没有正确的机器部件
@@ -2578,6 +2641,8 @@ GT5U.gui.text.structure_error.unknown_machine_casing_tier=无法确定机械方�
 GT5U.gui.text.structure_error.too_many_radiation_hatch=辐射仓过多
 GT5U.gui.text.structure_error.glass_tier_not_enough=Glass tier too low, required %s-tiered glass
 GT5U.gui.text.structure_error.energy_hatch_tier_too_low=能源仓等级过低，需要%s等级能源仓
+GT5U.gui.text.structure_error.hatch_tier_too_low=%s tier too low (minimum: %s)
+GT5U.gui.text.structure_error.hatch_tier_too_high=%s tier too high (maximum: %s)
 GT5U.gui.text.structure_error.energy_hatch_exceed_glass=能源仓等级不能超过玻璃等级
 GT5U.gui.text.structure_error.one_tt_or_two_energy=仅允许使用1个TecTech能源仓或2个普通能源仓
 GT5U.gui.text.structure_error.pss_dynamo=动力仓等级不正确
@@ -2606,7 +2671,6 @@ GT5U.gui.text.structure_error.manual_transformer_dynamo=动力仓等级必须一
 GT5U.gui.text.structure_error.solar_factory_precise=机械方块不够精准
 GT5U.gui.text.structure_error.synchrotron_antenna=未检测到天线层级
 GT5U.gui.text.structure_error.tfft_too_many_hatch=仓室过多
-GT5U.gui.text.structure_error.sofc_missing_input_hatches=缺少输入仓：需要1个接受燃料和1个接受氧气的输入仓，只找到%s
 GT5U.gui.text.structure_error.htgr_missing_helium_hatch=缺少用于接受氦的输入仓
 GT5U.gui.text.pulse_mode=脉冲模式
 GT5U.gui.text.recipe_result.no_wafer=未找到晶圆
@@ -2688,6 +2752,7 @@ GT5U.gui.text.amperage=电流
 GT5U.gui.text.voltage=电压
 GT5U.gui.text.voltagetier=电压等级
 GT5U.gui.text.ticks_between_refill=补充间隔刻数
+GT5U.gui.text.shutdown_reason.overheat_fail=Shut down due to §coverheat
 GT5U.gui.text.recipe_result.no_bec_assembler=凝聚态物质观测阵列已离线
 GT5U.gui.text.not_enough_parallels=并行不足（最低并行过高）
 GT5U.gui.text.shutdown_reason.bec_clogged=当前存在超过3种凝聚态物质
@@ -2806,9 +2871,10 @@ GT5U.tooltip.nac.interface.structure_base_vci=§f真空传送输入端口：§7 
 GT5U.tooltip.nac.interface.structure_base_vco=§f真空传送输出端口：§7 %s
 GT5U.tooltip.nac.interface.structure_base_casing=任意基座机械方块
 GT5U.tooltip.nac.interface.structure_control_room_base_casing=任意控制室内的网格接口机械方块
-GT5U.tooltip.nac.interface.structure_outer_ring_base_casing=任意外环平台上的网格接口机械方块
 GT5U.tooltip.nac.interface.structure.module_controller=网格接口机械方块平台中部
-GT5U.tooltip.nac.interface.structure.module_description=§f材料统计§r §c§l不§r §f包括网格接口机械方块平台§r
+GT5U.tooltip.nac.interface.structure.module_hatches=Any base mesh casing
+GT5U.tooltip.nac.interface.structure.module_cost=Base mesh casing count not included
+GT5U.tooltip.nac.interface.structure.module_power=Receives power from the NAC control room
 
 GT5U.tooltip.nac.main.machine_type=纳米芯片组装复合体，NAC
 GT5U.tooltip.nac.main.action=使用电路组件 (%s) 以惊人的速度制作电路板
@@ -3055,6 +3121,7 @@ GT5U.gui.config.machine_stats.teleporter=传送机
 GT5U.gui.config.machine_stats.cleanroom=超净间
 GT5U.gui.config.worldgen=世界生成
 GT5U.gui.config.worldgen.general=通用
+GT5U.gui.config.worldgen.end_asteroids=End Asteroids
 
 GT5U.gui.text.cannot_change_when_running=无法在运行时更改配置！
 
@@ -3564,6 +3631,8 @@ GT5U.armor.part.name.OmniMovement=组件：全向机动调节器
 GT5U.armor.part.name.WaterBreathing=组件：循环呼吸器
 GT5U.armor.part.name.MilkInfusion=组件：牛奶注射
 GT5U.armor.part.name.HoloInventory=组件：全息库存
+GT5U.armor.part.name.Travelers=Augment: Thaumic Accelerators
+GT5U.armor.part.name.Terrasteel=Augment: Terrestrial Enhancement
 
 GT5U.armor.part.tooltip.NightVision=允许穿戴者在黑暗中看清物体
 GT5U.armor.part.tooltip.CreativeFlight=赋予穿戴者创造飞行能力
@@ -3586,6 +3655,8 @@ GT5U.armor.part.tooltip.OmniMovement=提高全方向的移动速度
 GT5U.armor.part.tooltip.WaterBreathing=水下缺氧时自动补充氧气
 GT5U.armor.part.tooltip.MilkInfusion=移除负面效果
 GT5U.armor.part.tooltip.HoloInventory=显示附近容器的全息视图
+GT5U.armor.part.tooltip.Travelers=Grants the user a more powerful version of Boots of the Traveler
+GT5U.armor.part.tooltip.Terrasteel=Grants the Will of the Ancients. Effects include:\n - 20% Mana Discount\n - Passive Mana generation for Mana Tablets\n - Passive health regeneration when not fully fed
 
 GT5U.armor.behavior.NightVision=夜视
 GT5U.armor.behavior.GogglesOfRevealing=神秘视觉
@@ -3611,6 +3682,7 @@ GT5U.armor.behavior.WaterBreathing=水下呼吸
 GT5U.armor.behavior.Teleporter=个人传送器
 GT5U.armor.behavior.MilkInfusion=牛奶注射
 GT5U.armor.behavior.HoloInventory=全息库存
+GT5U.armor.behavior.Terrasteel=Will of the Ancients
 
 GT5U.armor.message.enabled=已启用%s
 GT5U.armor.message.disabled=已禁用%s
@@ -3688,6 +3760,7 @@ GT5U.hatch.fluid.filter.disable=流体输出过滤已禁用
 GT5U.hatch.item.filter.disable=物品输出过滤已禁用
 GT5U.hatch.filter.none=未指定
 GT5U.hatch.filter.tooltip.0=§6左键单击§8移除
+GT5U.hatch.outputme.filter.format=%s: %s:
 GT5U.hatch.outputme.checkMode.true=检查模式 §c开启§r
 GT5U.hatch.outputme.checkMode.false=检查模式 §a关闭§r
 GT5U.hatch.outputme.checkMode.desc=注意：检查模式会检查输出是否有足够空间，这会导致更多性能延迟。
@@ -3703,6 +3776,7 @@ GT5U.hatch.chisel.configure.grid=配置模板
 GT5U.bus.filterTooltip.empty=§a从NEI拖拽物品以设置输出过滤
 GT5U.bus.filterTooltip.full=§a点击以清空输出过滤
 
+GT5U.multiblock.heat=§cHeat: §f%sK
 GT5U.multiblock.pollution=污染减少到
 GT5U.multiblock.energy=存储能量
 GT5U.multiblock.Progress=工作时间
@@ -3722,6 +3796,17 @@ GT5U.multiblock.preciseassemblercasing=电压受机械方块等级限制：%s
 GT5U.multiblock.runningMode=§e运行模式：
 GT5U.multiblock.startup=启动中……
 GT5U.multiblock.recipesDone=配方已完成
+GT5U.multiblock.recipesDone.fmt=Recipes Finished: §a%s§r
+GT5U.multiblock.Progress.fmt.s=Progress: §a%s§r s / §e%s§r s
+GT5U.multiblock.Progress.fmt.t=Progress: §a%s§r t / §e%s§r t
+GT5U.multiblock.energy.fmt=Stored Energy: §a%s§r EU / §e%s§r EU
+GT5U.multiblock.usage.fmt=Currently uses: §c%s§r EU/t
+GT5U.multiblock.mei.fmt.2A=Max Energy Income: §e%s§r EU/t(*2A) Tier: §e%s§r
+GT5U.multiblock.mei.fmt.xA=Max Energy Income: §e%s§r EU/t(*§e%s§rA) Tier: §e%s§r
+GT5U.multiblock.mei.fmt.mega=Max Energy Income: §e%s§r EU/t(*%sA) = §e%s§r
+GT5U.machines.tier.fmt=Tier: §e%s§r
+GT5U.multiblock.pollution.fmt=Pollution reduced to: §a%s§r %%
+GT5U.multiblock.problems.efficiency.fmt=Problems: §c%s§r  Efficiency: §e%s
 
 
 GT5U.multiblock.scanner.pollution=污染已降至：§a%s§r%%
@@ -3734,7 +3819,6 @@ GT5U.large_boiler.scanner.fuel_combination=燃料组合：§e%d§r/§e%d§r种�
 GT5U.multiblock.scanner.problems=问题：§c%s
 GT5U.multiblock.scanner.mei=最大能量输入：§e%s §rEU/t(*2A) 电压等级：§e%s
 GT5U.multiblock.scanner.usage=当前消耗：§c%s §rEU/t
-GT5U.multiblock.scanner.recipesDone=已完成配方数：§a%s
 GT5U.multiblock.scanner.totalRunHours=总运行时长：§6%s§r 小时
 GT5U.multiblock.scanner.totalRunMinutes=总运行时长：§6%s§r 分钟
 GT5U.multiblock.scanner.totalRunSeconds=总运行时长：§6%s§r 秒
@@ -4276,6 +4360,10 @@ gt.item.paper.magic.pages.name=附魔书页
 gt.item.paper.punch_card.empty.name=未穿孔卡片
 gt.item.paper.punch_card.encoded.name=穿孔卡片
 
+# Pads
+gt.blockpad.0.name=Bounce Pad
+gt.blockpad.1.name=Sticky Pad
+
 ## Book
 gt.item.book.written.01.name=书
 gt.item.book.written.02.name=书
@@ -4725,6 +4813,8 @@ gt.item.cover.redstone_receiver.name=红石信号接收器
 gt.item.cover.redstone_receiver.tooltip=无线传输红石信号
 gt.item.cover.wireless_controller.name=无线机器控制覆盖板
 gt.item.cover.wireless_controller.tooltip=远程开关机器\n仅能与高级无线覆盖板连接
+gt.item.cover.advanced_wireless_controller.name=Advanced Wireless Machine Controller Cover
+gt.item.cover.advanced_wireless_controller.tooltip=Turns Machines ON/OFF wirelessly\nIncludes Logic Gates\nCan only connect with advanced wireless covers
 
 ### Maintenance Cover
 gt.item.cover.needs_maintenance.name=维护提示覆盖板
@@ -5626,6 +5716,7 @@ GT5U.nei.display.steam_variant.bronze=青铜
 GT5U.nei.display.steam_variant.steel=钢
 GT5U.nei.display.duration.seconds=时间：%s 秒
 GT5U.nei.display.duration.ticks=时间：%s tick
+GT5U.nei.display.discount.energy=Energy discount: %s%%
 GT5U.nei.display.total=总计：%s EU
 GT5U.nei.display.total.steam=总计：%s L 蒸汽
 GT5U.nei.display.usage=使用：%s EU/t %s
@@ -6913,6 +7004,28 @@ gt.vajra.tooltip.flavor=你的友好的障碍即时破坏者
 gt.vajra.tooltip.charge=可在任何%s机器上充电
 gt.vajra.tooltip.silk_touch=Shift+右键点击以切换精准采集模式
 
+# Network Analyzer
+gt.NetworkAnalyzer.name=Network Analyzer
+gt.NetworkAnalyzer.bound=§aVisualising network at %s %s %s
+gt.NetworkAnalyzer.target_lost=§cNetwork Analyzer target block not found, binding cleared
+gt.NetworkAnalyzer.set=Mode changed to §e%s
+gt.NetworkAnalyzer.mode=Mode: §e%s
+gt.NetworkAnalyzer.mode.topology=Topology
+gt.NetworkAnalyzer.mode.critical=Critical
+gt.NetworkAnalyzer.mode.active=Active
+gt.NetworkAnalyzer.mode.amperage=Amperage
+gt.NetworkAnalyzer.mode.voltage=Voltage
+gt.NetworkAnalyzer.amperage.short=%s A / %s A
+gt.NetworkAnalyzer.amperage.input=↑%s A / %s A
+gt.NetworkAnalyzer.amperage.output=↓%s A / %s A
+gt.NetworkAnalyzer.amperage.full=↑%s A ↓%s A / %s A
+gt.NetworkAnalyzer.loss.short=%s%% loss
+gt.NetworkAnalyzer.loss.full=%s%% loss (%s V)
+gt.NetworkAnalyzer.voltage.burn=§cBurns
+gt.NetworkAnalyzer.voltage.burn.full=§cWire burns: %s V / %s V
+gt.NetworkAnalyzer.voltage.explosion=§cExplodes
+gt.NetworkAnalyzer.voltage.explosion.full=§cMachine explodes: %s V / %s V
+
 # GT++
 
 GT5U.gui.text.recipe_result.no_water=§7缺少水
@@ -7182,6 +7295,19 @@ GT5U.scanner.chunk_info_1=§c区块污染：%s 单位
 GT5U.scanner.chunk_info_2=§a区块中没有污染！HAYO！
 GT5U.scanner.chunk_info_3=§f%s：§6%sL
 GT5U.scanner.chunk_info_4=无内容物: §60L
+GT5U.scanner.debug.meta_id=Meta-ID: §b%s %s
+GT5U.scanner.debug.tick_disabled=Tick Disabled
+GT5U.scanner.debug.tick_stats_started=Just started tick time statistics.
+GT5U.scanner.debug.tick_stats=Average CPU load of ~§6%s§rns over §6%s§r ticks with worst time of §6%s§rns.
+GT5U.scanner.debug.lag_warnings=Caused %s Lag Spike Warnings (anything taking longer than %sms) on the Server.
+GT5U.scanner.debug.lag_warnings_many=Caused more than 10 Lag Spike Warnings (anything taking longer than %sms) on the Server.
+GT5U.scanner.debug.accessible=Is accessible for you
+GT5U.scanner.debug.not_accessible=Is §cnot§r accessible for you
+GT5U.scanner.debug.sound_requests=Recorded §6%s§r sound requests in §6%s§r ticks.
+GT5U.scanner.debug.machine_active=Machine is §aactive§r
+GT5U.scanner.debug.machine_inactive=Machine is §cinactive§r
+GT5U.scanner.debug.needs_power=§cATTENTION: This Device needs more power.§r
+GT5U.scanner.debug.ic2_enet=Joined IC2 ENet
 GT5U.tooltip.drone_remote_disconnected=Shift 右键点击一个已激活的无人机中心进行连接
 GT5U.tooltip.drone_remote_connected=已连接到无人机控制中心：%s, %s, %s，于维度%s
 GT5U.tooltip.drone_remote_not_found=位于维度 %s 中x：%s，y：%s，z：%s的无人机中心未找到！
@@ -7258,12 +7384,18 @@ GT5U.infodata.coordinates.y=Y：%s
 GT5U.infodata.coordinates.z=Z：%s
 GT5U.infodata.dimension=维度：%s
 GT5U.infodata.dimension.valid=维度有效：%s
+GT5U.infodata.dimension.valid.yes=Dimension Valid: §aYes§r
+GT5U.infodata.dimension.valid.no=Dimension Valid: §cNo§r
 GT5U.infodata.dimension.registered=维度注册：%s
+GT5U.infodata.dimension.registered.yes=Dimension Registered: §aYes§r
+GT5U.infodata.dimension.registered.no=Dimension Registered: §cNo§r
 GT5U.infodata.yes=是
 GT5U.infodata.no=否
 
 
 GT5U.infodata.world_accelerator.mode=加速器运行于%s模式
+GT5U.infodata.world_accelerator.mode.blocks=Accelerator running in Blocks mode
+GT5U.infodata.world_accelerator.mode.tile_entities=Accelerator running in TileEntities mode
 GT5U.infodata.world_accelerator.speed=速度设置：[%d / %d]
 GT5U.infodata.world_accelerator.consuming=消耗%dEU/t
 GT5U.infodata.world_accelerator.radius=半径设置：[%d / %d]
@@ -7275,6 +7407,24 @@ GT5U.infodata.air_filter.remaining_cycles=过滤器剩余周期（如存在）�
 GT5U.infodata.diesel_engine=柴油发电机
 GT5U.infodata.extreme_diesel_engine=极限内燃引擎
 GT5U.infodata.fusion_reactor_mk=聚变反应堆 MK-
+GT5U.infodata.engine.diesel_title=§9Diesel Engine§r
+GT5U.infodata.engine.extreme_diesel_title=§9Extreme Diesel Engine§r
+GT5U.infodata.engine.maintenance.ok=§aNo Maintenance issues§r
+GT5U.infodata.engine.maintenance.needed=§cNeeds Maintenance§r
+GT5U.infodata.engine.output=Current Output: §c%s§r EU/t
+GT5U.infodata.engine.consumption=Fuel Consumption: §e%s§r L/t
+GT5U.infodata.engine.value=Fuel Value: §e%s§r EU/L
+GT5U.infodata.engine.fuel_remaining=Fuel Remaining: §6%s§r L
+GT5U.infodata.engine.efficiency=Current Efficiency: §e%s§r %%
+GT5U.infodata.ebf.heat=Heat Capacity: §a%s§r K
+GT5U.infodata.ms.multismelting=Multi Smelting: §a%s§r
+GT5U.infodata.lhe.steam=Currently uses (in steam): %s EU/t
+GT5U.infodata.lhe.superheated=Superheated: %s
+GT5U.infodata.lhe.threshold=Superheated threshold: §a%s§r
+GT5U.infodata.fusion.mk_tier=§9Fusion Reactor MK§r %s
+GT5U.infodata.fusion.req=EU Required: §c%s§rEU/t
+GT5U.infodata.fusion.plasma=Plasma Output: §e%s§rL/t
+GT5U.infodata.naquadah_refinery.coil_tier=Coil Tier: %s
 
 GT5U.infodata.large_fluid_extractor.max_parallels=最大并行：%s%d%s
 GT5U.infodata.large_fluid_extractor.heating_coil_speed_bonus=加热线圈速度加成：+%s%.0f%s%%
@@ -7282,11 +7432,27 @@ GT5U.infodata.large_fluid_extractor.total_speed_multiplier=总速度倍率：%s%
 GT5U.infodata.large_fluid_extractor.total_eu_multiplier=EU总倍率：%s%.0f%s%%
 
 GT5U.infodata.large_neutralization_engine=大型中和引擎
+GT5U.infodata.engine.large_neutralization_title=§9Large Neutralization Engine§r
 
+GT5U.infodata.oil_drill.title=§9Oil/Fluid Pump§r
+GT5U.infodata.oil_drill.work_area=Work Area: §a%s x %s§r Chunks
 GT5U.infodata.oil_drill.drilling_fluid=钻井液：%s
 GT5U.infodata.oil_drill.drilling_flow=钻井液流量：%s L/t
 
+GT5U.infodata.ore_drill.title=§9Multiblock Miner§r
+GT5U.infodata.ore_drill.work_area=Work Area: §a%sx%s§r Chunks
+
+GT5U.infodata.integrated_ore_factory.parallelism=Max Parallel: §9%s§r
+
+GT5U.infodata.pcb_factory.mei=Max Energy Income: §e%s§r EU/t(*%s A) Tier: §e%s§r
+GT5U.infodata.pcb_factory.parallel=Max Parallel: §a%s§r, Current Parallel: §a%s§r
+GT5U.infodata.pcb_factory.upgrades=Upgrades: %s
+
+GT5U.infodata.pcb_upgrade_base.linked_at=Linked at: %s, %s, %s
+GT5U.infodata.pcb_upgrade_base.not_linked=Not linked
+
 GT5U.infodata.critical_info=关键信息
+GT5U.infodata.critical_info.hdr=§m------------§r §lCritical Information§r §m------------
 GT5U.infodata.plasma_forge.ticks_run_fuel_discount=运行刻数：%s，燃油减免：%s（额外催化剂消耗：%sL）
 GT5U.infodata.plasma_forge.fuel_discount=燃料减免：%s
 GT5U.infodata.plasma_forge.convergence=收敛：%s
@@ -7624,6 +7790,8 @@ abbrev.entangled_celestialtungsten=天体钨
 abbrev.entangled_chromaticglass=彩色玻璃
 abbrev.entangled_cosmicsolder=寰宇焊料
 abbrev.entangled_dimshiftedsuperfluid=维度偏移超流体
+abbrev.entangled_phononmedium=Lossless Phonon Transfer Medium
+abbrev.entangled_quarkgluonplasma=Degenerate Quark Gluon Plasma
 abbrev.entangled_eternity=永恒
 abbrev.entangled_hypogen=海珀珍
 abbrev.entangled_infinity=无尽
@@ -7642,6 +7810,8 @@ fluid.entangled_celestialtungsten=纠缠玻色-爱因斯坦凝聚态天体钨
 fluid.entangled_chromaticglass=纠缠玻色-爱因斯坦凝聚态彩色玻璃
 fluid.entangled_cosmicsolder=纠缠玻色-爱因斯坦凝聚态寰宇焊料
 fluid.entangled_dimshiftedsuperfluid=纠缠玻色-爱因斯坦凝聚态维度偏移超流体
+fluid.entangled_phononmedium=Entangled Lossless Phonon Transfer Medium Bose-Einstein Condensate
+fluid.entangled_quarkgluonplasma=Entangled Degenerate Quark Gluon Plasma Bose-Einstein Condensate
 fluid.entangled_eternity=纠缠玻色-爱因斯坦凝聚态永恒
 fluid.entangled_hypogen=纠缠玻色-爱因斯坦凝聚态海珀珍
 fluid.entangled_infinity=纠缠玻色-爱因斯坦凝聚态无尽
@@ -7660,6 +7830,8 @@ item.gt.cell.entangled_celestialtungsten.name=纠缠玻色-爱因斯坦凝聚态
 item.gt.cell.entangled_chromaticglass.name=纠缠玻色-爱因斯坦凝聚态彩色玻璃单元
 item.gt.cell.entangled_cosmicsolder.name=纠缠玻色-爱因斯坦凝聚态寰宇焊料单元
 item.gt.cell.entangled_dimshiftedsuperfluid.name=纠缠玻色-爱因斯坦凝聚态维度偏移超流体单元
+item.gt.cell.entangled_phononmedium.name=Entangled Lossless Phonon Transfer Medium Bose-Einstein Condensate Cell
+item.gt.cell.entangled_quarkgluonplasma.name=Entangled Degenerate Quark Gluon Plasma Bose-Einstein Condensate Cell
 item.gt.cell.entangled_eternity.name=纠缠玻色-爱因斯坦凝聚态永恒单元
 item.gt.cell.entangled_hypogen.name=纠缠玻色-爱因斯坦凝聚态海珀珍单元
 item.gt.cell.entangled_infinity.name=纠缠玻色-爱因斯坦凝聚态无尽单元
@@ -8001,6 +8173,134 @@ achievement.gt.blockmachines.multimachine.pcbfactory=PCB工厂
 achievement.gt.blockmachines.multimachine.pcbfactory.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.metaitem.03.32234=空的夸克释放催化剂外壳
 achievement.gt.metaitem.03.32234.desc=捡起此物品以在NEI内解锁该合成表
+achievement.gt.blockmachines.hatch.input_bus.me=Advanced Stocking Input Bus (ME)
+achievement.gt.blockmachines.hatch.input_bus.me.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.datain.wireless.tier.12=Cloud Computation Client Hatch
+achievement.gt.blockmachines.hatch.datain.wireless.tier.12.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.dataout.wireless.tier.12=Cloud Computation Server Hatch
+achievement.gt.blockmachines.hatch.dataout.wireless.tier.12.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.datainass.wireless.tier.12=Wireless Assembly Line Reception Connector
+achievement.gt.blockmachines.hatch.datainass.wireless.tier.12.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.dataoutass.wireless.tier.12=Wireless Data Bank Transmission Connector
+achievement.gt.blockmachines.hatch.dataoutass.wireless.tier.12.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.nanite=Nanite Containment Bus
+achievement.gt.blockmachines.hatch.nanite.desc=Pick up this item to see the recipe in NEI
+achievement.item.OriginNanoCircuit=Nano Circuit of Split Origin
+achievement.item.OriginNanoCircuit.desc=Pick up this item to see the recipe in NEI
+achievement.item.OriginGatePlate=Stargate Plate of Split Origin
+achievement.item.OriginGatePlate.desc=Pick up this item to see the recipe in NEI
+achievement.item.OriginChevron=Stargate Chevron of Split Origin
+achievement.item.OriginChevron.desc=Pick up this item to see the recipe in NEI
+achievement.item.OriginFramePart=Stargate Frame Part of Split Origin
+achievement.item.OriginFramePart.desc=Pick up this item to see the recipe in NEI
+achievement.item.PolychromePikoCircuit=Pico Circuit of Polychrome Contest
+achievement.item.PolychromePikoCircuit.desc=Pick up this item to see the recipe in NEI
+achievement.item.PolychromeQuantumCircuit=Quantum Circuit of Polychrome Contest
+achievement.item.PolychromeQuantumCircuit.desc=Pick up this item to see the recipe in NEI
+achievement.item.PolychromeGatePlate=Stargate Plate of Polychrome Contest
+achievement.item.PolychromeGatePlate.desc=Pick up this item to see the recipe in NEI
+achievement.item.PolychromeChevron=Stargate Chevron of Polychrome Contest
+achievement.item.PolychromeChevron.desc=Pick up this item to see the recipe in NEI
+achievement.item.PolychromeFramePart=Stargate Frame Part of Polychrome Contest
+achievement.item.PolychromeFramePart.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.nanite-detector=Nanite Detector Hatch
+achievement.gt.blockmachines.hatch.nanite-detector.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.bec=Bose-Einstein Condensate Hatch
+achievement.gt.blockmachines.hatch.bec.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.condensate-detector=Bose-Einstein Condensate Detector Hatch
+achievement.gt.blockmachines.hatch.condensate-detector.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.io-node-controller=Teleportation Node Controller Hatch
+achievement.gt.blockmachines.hatch.io-node-controller.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multi.bec.generator=Bose-Einstein Condensate Entanglement Apparatus
+achievement.gt.blockmachines.multi.bec.generator.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multi.bec.storage=Bose-Einstein Condensate Containment Field
+achievement.gt.blockmachines.multi.bec.storage.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multi.bec.assembler=Bose-Einstein Condensate Observation Array
+achievement.gt.blockmachines.multi.bec.assembler.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multi.bec.io-node=Observation Array Teleportation Node
+achievement.gt.blockmachines.multi.bec.io-node.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multi.bec.diode=Bose-Einstein Condensate Maxwell Gate
+achievement.gt.blockmachines.multi.bec.diode.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.01.32019=Electric Motor (UXV)
+achievement.gt.metaitem.01.32019.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.01.32031=Conveyor Module (UXV)
+achievement.gt.metaitem.01.32031.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.01.32035=Robot Arm (UXV)
+achievement.gt.metaitem.01.32035.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.01.32023=Electric Piston (UXV)
+achievement.gt.metaitem.01.32023.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.01.32039=Emitter (UXV)
+achievement.gt.metaitem.01.32039.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.01.32043=Sensor (UXV)
+achievement.gt.metaitem.01.32043.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.01.32047=Field Generator (UXV)
+achievement.gt.metaitem.01.32047.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multimachine.large-hadron-collider=Large Hadron Collider
+achievement.gt.blockmachines.multimachine.large-hadron-collider.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.advancedbeamlineoutput=Filtered Beam Output Hatch
+achievement.gt.blockmachines.hatch.advancedbeamlineoutput.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multimachine.beam-crafter=Beam Crafter
+achievement.gt.blockmachines.multimachine.beam-crafter.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multimachine.beam-splitter=Beam Splitter
+achievement.gt.blockmachines.multimachine.beam-splitter.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockcasings.bec.1=Electromagnetically-Isolated Casing
+achievement.gt.blockcasings.bec.1.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockcasings.bec.0=Coherence-Preserving Plasma Conduit
+achievement.gt.blockcasings.bec.0.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockcasings.bec.2=Fine-Structure Constant Manipulator
+achievement.gt.blockcasings.bec.2.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockcasings.bec.6=Condensate Guidance Coil
+achievement.gt.blockcasings.bec.6.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockcasings.bec.5=Condensate Transformative Coil
+achievement.gt.blockcasings.bec.5.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockglass1.9=Electromagnetic Waveguide
+achievement.gt.blockglass1.9.desc=Pick up this item to see the recipe in NEI
+achievement.componentAssemblyLineCasing.5=Component Assembly Line Casing (LuV)
+achievement.componentAssemblyLineCasing.5.desc=Pick up this item to see the recipe in NEI
+achievement.componentAssemblyLineCasing.6=Component Assembly Line Casing (ZPM)
+achievement.componentAssemblyLineCasing.6.desc=Pick up this item to see the recipe in NEI
+achievement.componentAssemblyLineCasing.7=Component Assembly Line Casing (UV)
+achievement.componentAssemblyLineCasing.7.desc=Pick up this item to see the recipe in NEI
+achievement.componentAssemblyLineCasing.8=Component Assembly Line Casing (UHV)
+achievement.componentAssemblyLineCasing.8.desc=Pick up this item to see the recipe in NEI
+achievement.componentAssemblyLineCasing.9=Component Assembly Line Casing (UEV)
+achievement.componentAssemblyLineCasing.9.desc=Pick up this item to see the recipe in NEI
+achievement.componentAssemblyLineCasing.10=Component Assembly Line Casing (UIV)
+achievement.componentAssemblyLineCasing.10.desc=Pick up this item to see the recipe in NEI
+achievement.componentAssemblyLineCasing.11=Component Assembly Line Casing (UMV)
+achievement.componentAssemblyLineCasing.11.desc=Pick up this item to see the recipe in NEI
+achievement.componentAssemblyLineCasing.12=Component Assembly Line Casing (UXV)
+achievement.componentAssemblyLineCasing.12.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.componentassemblyline=Component Assembly Line
+achievement.gt.blockmachines.componentassemblyline.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.beamlineinput=Beam Input Hatch
+achievement.gt.blockmachines.hatch.beamlineinput.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.hatch.beamlineoutput=Beam Output Hatch
+achievement.gt.blockmachines.hatch.beamlineoutput.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multimachine.endothermichfridge=Endothermic Fridge
+achievement.gt.blockmachines.multimachine.endothermichfridge.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multimachine.exothermichearth=Exothermic Hearth
+achievement.gt.blockmachines.multimachine.exothermichearth.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multimachine.mega_distillation_tower=Mega Distillation Tower
+achievement.gt.blockmachines.multimachine.mega_distillation_tower.desc=Pick up this item to see the recipe in NEI
+achievement.gt.blockmachines.multimachine.mega-chemical-reactor=Mega Chemical Reactor
+achievement.gt.blockmachines.multimachine.mega-chemical-reactor.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.03.32307=Primitive Shielding
+achievement.gt.metaitem.03.32307.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.03.32310=Primitive Waveguide
+achievement.gt.metaitem.03.32310.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.03.32313=Primitive Energy Conduit
+achievement.gt.metaitem.03.32313.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.03.32316=Primitive Electrogravitic Valve
+achievement.gt.metaitem.03.32316.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.03.32319=Rough Wave Focus
+achievement.gt.metaitem.03.32319.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.03.32323=Rough Resonance Chamber
+achievement.gt.metaitem.03.32323.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.03.32327=Rough Sensor Array
+achievement.gt.metaitem.03.32327.desc=Pick up this item to see the recipe in NEI
+achievement.gt.metaitem.03.32331=Rough Field Manipulator
+achievement.gt.metaitem.03.32331.desc=Pick up this item to see the recipe in NEI
 
 # Block casings meta-name localization (migrated from runtime registration)
 gt.blockcasings.0.name=ULV机械方块
@@ -8254,6 +8554,7 @@ gt.blockglass1.6.name=舱室格栅
 gt.blockglass1.7.name=异星铸造塔控制玻璃
 gt.blockglass1.8.name=纳米芯片复合体玻璃
 gt.blockglass1.9.name=电磁波导
+gt.blockglass1.10.name=Reinforced Glass
 gt.blocktintedglass.0.name=染色工业玻璃（白）
 gt.blocktintedglass.1.name=染色工业玻璃（浅灰）
 gt.blocktintedglass.2.name=染色工业玻璃（灰）
@@ -8313,6 +8614,7 @@ gt.blockreinforced.9.name=钛强化方块
 gt.blockreinforced.10.name=硅岩强化方块
 gt.blockreinforced.11.name=中子强化方块
 gt.blockreinforced.12.name=漆黑之门粗胚
+gt.blockreinforced.13.name=Reinforced Block
 
 # BlockStones
 gt.blockstones.0.name=大理石
@@ -8331,6 +8633,9 @@ gt.blockstones.12.name=裂纹玄武岩砖
 gt.blockstones.13.name=苔藓玄武岩砖
 gt.blockstones.14.name=錾制玄武岩
 gt.blockstones.15.name=平滑玄武岩
+
+#Fences
+gt.blockfencemetal.0.name=Iron Fence
 
 # Book
 gt.book.credits=感谢 %s 撰写此书。本书创建时编号为第 %d 册。集齐全套指日可待！
@@ -8542,6 +8847,8 @@ gt.item.gravitational_lens.tooltip=便携式引力井
 gt.item.planck_manifold.name=普朗克尺度流形
 gt.item.planck_manifold.tooltip=不能再小了
 
+gt.loading.progress.post_init.loading_gt=Post Initialization: loading GregTech
+
 # BEC Meta Materials
 gt.item.meta_material.energy_conduit.perfected.name=完美能量导管
 gt.item.meta_material.energy_conduit.primitive.name=原始能量导管
@@ -8577,6 +8884,7 @@ gt.blockmachines.hatch.bec.name=玻色-爱因斯坦凝聚态物质仓
 gt.blockmachines.hatch.nanite-detector.name=纳米蜂群探测仓
 gt.blockmachines.hatch.io-node-controller.name=传送节点控制仓
 gt.blockmachines.hatch.condensate-detector.name=玻色-爱因斯坦凝聚态物质探测仓
+gt.blockmachines.hatch.line-of-sight-connector.name=Line-Of-Sight Connector Hatch
 
 gt.blockmachines.multi.bec.generator.name=玻色-爱因斯坦凝聚态物质纠缠装置
 gt.blockmachines.multi.bec.storage.name=玻色-爱因斯坦凝聚态物质约束场
@@ -8612,12 +8920,33 @@ GT5U.gui.text.providing-nanites=提供纳米蜂群：
 GT5U.gui.text.available-condensate=可用的凝聚态物质：
 GT5U.gui.text.bec-stored-condensate=存储的凝聚态物质：
 
-# BEC Structure Hints
-GT5U.gui.text.bec-generator-input-hatch-pos=第一片中的任意 %s
-GT5U.gui.text.bec-generator-bec-hatch-pos=最后一层的中央机械方块
+# BEC I/O Node Structure Hints
+GT5U.tooltip.bec-ionode.controller-pos=Front center, 12th layer
+GT5U.tooltip.bec-ionode.hatch-pos=Any electromagnetically-isolated casing
+GT5U.tooltip.bec-ionode.los-hatch-pos=Back center casing
+
+# BEC Generator Structure Hints
+GT5U.tooltip.bec-generator.controller-pos=Front center, 10th layer
+GT5U.tooltip.bec-generator.hatch-pos=Any electromagnetically-isolated casing around controller
+GT5U.tooltip.bec-generator.bec-hatch-pos=Back center casing
+
+# BEC Storage Structure Hints
+GT5U.tooltip.bec-storage.controller-pos=Bottom front of central pillar, 3rd layer
+GT5U.tooltip.bec-storage.hatch-pos=Any electromagnetically-isolated casing
+GT5U.tooltip.bec-storage.bec-hatch-pos=Any center side casing
+
+# BEC Diode Structure Hints
+GT5U.tooltip.bec-diode.controller-pos=Front center, 6th layer
+GT5U.tooltip.bec-diode.hatch-pos=Any electromagnetically-isolated casing
+GT5U.tooltip.bec-diode.bec-hatch-pos=Center left casing (input), center right casing (output)
+
+# BEC Assembler Structure Hints
+GT5U.tooltip.bec-assembler.controller-pos=Front center, 16th layer
+GT5U.tooltip.bec-assembler.hatch-pos=Any electromagnetically-isolated casing
+GT5U.tooltip.bec-assembler.bec-hatch-pos=Center left or right casing
+GT5U.tooltip.bec-assembler.los-hatch-pos=Center side casing of each ring
 
 # BEC Settings
-GT5U.gui.text.bec-parameters=参数
 GT5U.gui.text.bec-filter=过滤
 GT5U.gui.text.bec-operation=比较符
 GT5U.gui.text.bec-threshold=阈值
@@ -8644,9 +8973,83 @@ GT5U.chat.bec-no-connect-assembler=无法连接至观测阵列
 GT5U.chat.bec-processing-speed=处理速度：x%s
 GT5U.chat.bec-slowdowns=减速：%s
 
-# BEC Structure
-GT5U.chat.bec-storage-controller-pos=中心柱的外墙，从底部往上的第二层
-
 # Test Factory Machines
 gt.blockmachines.pipe.test.name=测试工厂管道
 gt.blockmachines.hatch.test.name=测试工厂仓室
+
+# Basic Generators - Shared
+gt.blockmachines.basicgenerator.fuel_efficiency=Fuel Efficiency: %s%%
+
+# Basic Generators - Combustion
+gt.blockmachines.basicgenerator.diesel.tier.01.name=Basic Combustion Generator
+gt.blockmachines.basicgenerator.diesel.tier.02.name=Advanced Combustion Generator
+gt.blockmachines.basicgenerator.diesel.tier.03.name=Turbo Combustion Generator
+gt.blockmachines.basicgenerator.diesel.tooltip=Requires liquid Fuel\nCauses %d Pollution per second
+
+# Basic Generators - Gas Turbine
+gt.blockmachines.basicgenerator.gasturbine.tier.01.name=Basic Gas Turbine
+gt.blockmachines.basicgenerator.gasturbine.tier.02.name=Advanced Gas Turbine
+gt.blockmachines.basicgenerator.gasturbine.tier.03.name=Turbo Gas Turbine
+gt.blockmachines.basicgenerator.gasturbine.tier.04.name=Turbo Gas Turbine II
+gt.blockmachines.basicgenerator.gasturbine.tier.05.name=Turbo Gas Turbine III
+gt.blockmachines.basicgenerator.gasturbine.tooltip=Requires flammable Gasses\nCauses %d Pollution per second
+
+# Basic Generators - Steam Turbine
+gt.blockmachines.basicgenerator.steamturbine.tier.01.name=Basic Steam Turbine
+gt.blockmachines.basicgenerator.steamturbine.tier.02.name=Advanced Steam Turbine
+gt.blockmachines.basicgenerator.steamturbine.tier.03.name=Turbo Steam Turbine
+gt.blockmachines.basicgenerator.steamturbine.tooltip=Converts Steam into EU\nBase rate: 2L of Steam -> 1 EU\nFuel Efficiency: %s%%\nConsumes up to %sL of Steam per second
+
+# Basic Generators - Naquadah Reactor
+gt.blockmachines.basicgenerator.naquadah.tier.04.name=Naquadah Reactor Mark I
+gt.blockmachines.basicgenerator.naquadah.tier.04.tooltip=Requires Enriched Naquadah Bolts
+gt.blockmachines.basicgenerator.naquadah.tier.05.name=Naquadah Reactor Mark II
+gt.blockmachines.basicgenerator.naquadah.tier.05.tooltip=Requires Enriched Naquadah Rods
+gt.blockmachines.basicgenerator.naquadah.tier.06.name=Naquadah Reactor Mark III
+gt.blockmachines.basicgenerator.naquadah.tier.06.tooltip=Requires Enriched Naquadah Long Rods
+gt.blockmachines.basicgenerator.naquadah.tier.07.name=Naquadah Reactor Mark IV
+gt.blockmachines.basicgenerator.naquadah.tier.07.tooltip=Requires Naquadria Bolts
+gt.blockmachines.basicgenerator.naquadah.tier.08.name=Naquadah Reactor Mark V
+gt.blockmachines.basicgenerator.naquadah.tier.08.tooltip=Requires Naquadria Rods
+
+# Basic Generators - Plasma Generator
+gt.blockmachines.basicgenerator.plasmagenerator.tier.05.name=Plasma Generator Mark I
+gt.blockmachines.basicgenerator.plasmagenerator.tier.06.name=Plasma Generator Mark II
+gt.blockmachines.basicgenerator.plasmagenerator.tier.07.name=Plasma Generator Mark III
+gt.blockmachines.basicgenerator.plasmagenerator.tier.08.name=Plasma Generator Mark IV
+gt.blockmachines.basicgenerator.plasmagenerator.tier.09.name=Ultimate Pocket Sun
+gt.blockmachines.basicgenerator.plasmagenerator.tooltip=Plasma into energy
+
+# Basic Generators - Magic Energy Converter
+gt.blockmachines.basicgenerator.magicenergyconverter.tier.01.name=Novice Magic Energy Converter
+gt.blockmachines.basicgenerator.magicenergyconverter.tier.02.name=Adept Magic Energy Converter
+gt.blockmachines.basicgenerator.magicenergyconverter.tier.03.name=Master Magic Energy Converter
+gt.blockmachines.basicgenerator.magicenergyconverter.tooltip=Put your strange stuff in here
+
+# Basic Generators - Magic Energy Absorber
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.01.name=Novice Magic Energy Absorber
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.02.name=Adept Magic Energy Absorber
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.03.name=Master Magic Energy Absorber
+gt.blockmachines.basicgenerator.magicenergyabsorber.tier.04.name=Grandmaster Magic Energy Absorber
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip=§nFeasts on §d§nmagic§7§n close to it:\n- %s\n- %sEU per §dEnder Crystal§7 in range\n§r \n§nLookup range (Use Screwdriver to change):\nDefault: §a%s\nMax: §a%s\n§r \n§nFuels on §d§nenchantments§7§n input:\n- Item: %sEU per §denchant§7 weight × level / max\n- Book: 10000EU per §denchant§7 weight × level / max\n§r \nEfficiency: §a%s%%
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.dragon_egg.shared=A §7 §dDragon Egg§7 atop
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.dragon_egg.exclusive=An §e§nEXCLUSIVE§r§7 §dDragon Egg§7 atop
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.thaumcraft=- %sCV/t from an §dEnergised Node§7\n- %sEU per §dEssentia§7 Aspect-Value from containers in range
+
+# Basic Generators - Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.00.name=1-volt Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.01.name=Basic Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.02.name=Advanced Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.03.name=Advanced Solar Panel II
+gt.blockmachines.basicgenerator.solarpanel.04.name=Advanced Solar Panel III
+gt.blockmachines.basicgenerator.solarpanel.05.name=Advanced Solar Panel IV
+gt.blockmachines.basicgenerator.solarpanel.06.name=Elite Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.07.name=Elite Solar Panel II
+gt.blockmachines.basicgenerator.solarpanel.08.name=Ultimate Solar Panel
+gt.blockmachines.basicgenerator.solarpanel.tooltip=Generates EU From Solar Power\nDoes not generate power when raining\nCleans itself automatically\nDoes not explode in rain!
+
+# Basic Generators - Lightning Rod
+gt.blockmachines.basicgenerator.lightningrod.03.name=Lightning Rod
+gt.blockmachines.basicgenerator.lightningrod.04.name=Lightning Rod II
+gt.blockmachines.basicgenerator.lightningrod.05.name=Lightning Rod III
+gt.blockmachines.basicgenerator.lightningrod.tooltip=Generates EU From Lightning Bolts

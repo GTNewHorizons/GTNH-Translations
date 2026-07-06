@@ -84,6 +84,7 @@ gtnhlanth.tt.coolant.Scoolant=§b超级冷却液§f：1K
 # Beam Hatches
 gtnhlanth.tt.hatch.beaminput=束流输入仓
 gtnhlanth.tt.hatch.beamoutput=束流输出仓
+gtnhlanth.tt.hatch.beamoutputfiltered=Filtered Beam Output Hatch
 gtnhlanth.tt.hatch.focus=聚焦输入总线
 
 GT5U.gui.text.shutdown_reason.gtnhlanth.nocoolant=机器内没有冷却液！
@@ -99,67 +100,6 @@ GT5U.gui.text.shutdown_reason.gtnhlanth.noparticle=粒子缺失（通量为0）�
 
 # NEI
 value.disstank=比例: %s:1
-
-DissolutionTank.hint.0=提示方块[1]：洁净不锈钢机械方块
-DissolutionTank.hint.1=24x 钛强化硼玻璃方块
-DissolutionTank.hint.2=9x隔热机械方块
-DissolutionTank.hint.3=输入总线、输出总线、输入仓、输出仓
-DissolutionTank.hint.4=能源仓、维护仓
-
-Digester.hint.0=提示方块[1]：强化钨钢机械方块
-Digester.hint.1=9x洁净不锈钢机械方块
-Digester.hint.2=16x隔热机械方块
-Digester.hint.3=16x线圈方块
-Digester.hint.4=输入总线、输出总线、输入仓、输出仓
-Digester.hint.5=能源仓、维护仓
-
-SourceChamber.hint.0=56x 加速器屏蔽机械方块
-SourceChamber.hint.1=52x 加速器屏蔽玻璃
-SourceChamber.hint.2=16x 电极机械方块
-SourceChamber.hint.3=提示方块[1]：输入总线
-SourceChamber.hint.4=提示方块[2]：输出总线
-SourceChamber.hint.5=提示方块[3]：维护仓、能源仓
-SourceChamber.hint.6=提示方块[4]：束流输出仓
-
-LINAC.hint.0=325-1285x 加速器屏蔽机械方块
-LINAC.hint.1=148-852x 冷却剂转运机械方块
-LINAC.hint.2=127-703x 加速器屏蔽玻璃
-LINAC.hint.3=56-312x 超导线圈方块
-LINAC.hint.4=156-732x 电极机械方块
-LINAC.hint.5=47x 格栅机械方块
-LINAC.hint.6=48x 任意等级玻璃（LuV+）
-LINAC.hint.7=提示方块[1]：能源仓,维护仓
-LINAC.hint.8=提示方块[2]：输入仓,输出仓
-LINAC.hint.9=提示方块[3]：束流输入仓
-LINAC.hint.10=提示方块[4]：束流输出仓
-
-Synchrotron.hint.0=676x 加速器屏蔽机械方块
-Synchrotron.hint.1=90x 超导线圈方块
-Synchrotron.hint.2=64x 铌质腔体机械方块
-Synchrotron.hint.3=28x 冷却剂转运机械方块
-Synchrotron.hint.4=16x 任意等级玻璃（LuV+）
-Synchrotron.hint.5=4x 天线机械方块
-Synchrotron.hint.6=提示方块[1]：束流输入仓
-Synchrotron.hint.7=提示方块[2]：束流输出仓
-Synchrotron.hint.8=提示方块[3]：维护仓
-Synchrotron.hint.9=提示方块[4]：输入仓
-Synchrotron.hint.10=提示方块[5]：输出仓
-Synchrotron.hint.11=提示方块[6]：能源仓
-
-TargetChamber.hint.0=28x 加速器屏蔽机械方块
-TargetChamber.hint.1=34x 加速器屏蔽玻璃
-TargetChamber.hint.2=16x 任意等级玻璃
-TargetChamber.hint.3=29x 格栅机械方块
-TargetChamber.hint.4=4x 核心操纵机械方块
-TargetChamber.hint.5=4x 靶仓插槽
-TargetChamber.hint.6=1x 焦点物品支架
-TargetChamber.hint.7=1x 靶点物品支架
-TargetChamber.hint.8=提示方块[1]：聚焦输入总线
-TargetChamber.hint.9=提示方块[2]：能源仓、维护仓
-TargetChamber.hint.10=提示方块[3]：输入总线
-TargetChamber.hint.11=提示方块[4]：输出总线
-TargetChamber.hint.12=提示方块[5]：束流输入仓
-
 
 fluid.Antimony Pentafluoride Solution=五氟化锑溶液
 fluid.Hafnium Tetrachloride Solution=四氯化铪溶液
@@ -217,20 +157,33 @@ item.masked_mask_substrate.name=处理过的掩膜基板
 
 
 beamline.info=机器信息
+beamline.info.hdr=§lMachine Information: §r
+
 beamline.in_pre=多方块束流输入
-beamline.out_pre=多方块束流输出
+beamline.in_pre.hdr=§lMultiblock Beamline Input: §r
 beamline.particle=粒子
+beamline.particle.fmt=Particle: §6%s (%s)§r
 beamline.energy=能量
+beamline.energy.eV.fmt=Energy: §4%s§r eV
+beamline.energy.keV.fmt=Energy: §4%s§r keV
 beamline.focus=聚焦
+beamline.focus.fmt=Focus: §9%s§r
 beamline.amount=数量
+beamline.amount.fmt=Amount: §d%s§r
 beamline.rate=通量
 beamline.materialenergy=最大材料能量
 beamline.particleenergy=最大粒子能量
 beamline.energyratio=能量效率
 beamline.temperature=温度
+beamline.temperature.fmt=Temperature: §4%s§r K
 beamline.coolusage=冷却剂使用量
+beamline.coolusage.fmt=Coolant Usage: §b%s§r kL/s
+
+beamline.out_pre=多方块束流输出
+beamline.out_pre.hdr=§lMultiblock Beamline Output: §r
 
 gt.blockmachines.beamline_pipe.name=束流管
+
 beamline.pipe.desc.0=粒子传输管道
 beamline.pipe.desc.1=束流不可交叉或转弯
 

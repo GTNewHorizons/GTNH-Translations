@@ -174,6 +174,10 @@ ae2fc.tooltip.restock.on=切换补充库存模式
 ae2fc.tooltip.restock.on.hint=启用
 ae2fc.tooltip.restock.off=切换库存补充模式
 ae2fc.tooltip.restock.off.hint=禁用
+ae2fc.tooltip.Full-stock.mode=Full-stock Mode
+ae2fc.tooltip.Full-stock.mode.hint=Stocked items and fluids always visible to storage busses and only after all are fully stocked following the replenisher being fully emptied, and always fully restocked 
+ae2fc.tooltip.Normal.mode=Normal Mode
+ae2fc.tooltip.Normal.mode.hint=Stocked items and fluids always visible to storage busses, and only restocked when below 50%
 
 ae2fc.gui.part_level_terminal=请求终端
 ae2fc.gui.fluid_pattern_encoder=流体样板编码台
@@ -198,12 +202,6 @@ ae2fc.gui.magnet.meta=忽略Meta数据
 ae2fc.gui.magnet.ore=使用矿物辞典
 ae2fc.gui.magnet.whitelist=白名单
 ae2fc.gui.magnet.blacklist=黑名单
-
-ae2fc.gui.color.StateNone=00000000
-ae2fc.gui.color.StateIdle=FF55FF55
-ae2fc.gui.color.StateCraft=FFFFFF55
-ae2fc.gui.color.StateExport=FFAA00AA
-ae2fc.gui.color.StateError=FFFF5555
 
 error.unknown=未知
 

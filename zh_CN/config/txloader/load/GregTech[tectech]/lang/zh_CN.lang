@@ -618,13 +618,10 @@ gt.blockcasingsBA0.12.name=无尽时空能量边界方块
 #Multiblocks
 gt.blockmachines.multimachine.em.transformer.name=有源变压器
 gt.blockmachines.multimachine.em.transformer.machinetype=有源变压器，AT
-gt.blockmachines.multimachine.em.transformer.hint=1 - 能源仓、动力仓或高能机械方块
 gt.blockmachines.multimachine.em.transformer.desc.1=任意电压间的相互转换!
 gt.blockmachines.multimachine.em.transformer.desc.2=只有0.004%的能量损失，HAYO！
 
 gt.blockmachines.multimachine.tm.microwave.name=微波发生仪
-gt.blockmachines.multimachine.tm.microwave.hint.0=1 - 基础仓室或洁净不锈钢机械方块
-gt.blockmachines.multimachine.tm.microwave.hint.1=也像个漏斗,所以给它个输出总线吧
 gt.blockmachines.multimachine.tm.microwave.desc.0=微波发生仪的控制器方块
 gt.blockmachines.multimachine.tm.microwave.desc.1=机器启动时开启一个计时器
 gt.blockmachines.multimachine.tm.microwave.desc.2=计时器运行时，机器中的一切都会受到伤害
@@ -637,8 +634,6 @@ gt.blockmachines.multimachine.tm.microwave.cfgo.0=时间
 gt.blockmachines.multimachine.tm.microwave.cfgo.1=剩余时间
 
 gt.blockmachines.multimachine.tm.teslaCoil.name=特斯拉电塔
-gt.blockmachines.multimachine.tm.teslaCoil.hint.0=1 - 基础仓室、电容仓或特斯拉基座机械方块
-gt.blockmachines.multimachine.tm.teslaCoil.hint.1=2 - 钛框架
 gt.blockmachines.multimachine.tm.teslaCoil.desc.0=特斯拉电塔的控制器方块
 gt.blockmachines.multimachine.tm.teslaCoil.desc.1=用于向特斯拉线圈帽和特斯拉收发器传输电力
 gt.blockmachines.multimachine.tm.teslaCoil.desc.2=可加入氦/氮/氡等离子体增大范围
@@ -667,6 +662,7 @@ gt.blockmachines.multimachine.tm.teslaCoil.cfgo.9=最大输出显示
 gt.blockmachines.multimachine.tm.teslaCoil.outputVoltage=输出电压：
 gt.blockmachines.multimachine.tm.teslaCoil.chartButtonTooltip=打开随时间变化的电流图表
 gt.blockmachines.multimachine.tm.teslaCoil.heatMapButtonTooltip=打开热力图
+gt.blockmachines.multimachine.tm.teslaCoil.powerPassAutomatic=Power Pass (automatic via hysteresis)
 
 gt.blockmachines.multimachine.em.switch.type=CNS算力网络交换机
 gt.blockmachines.multimachine.em.switch.name=QoS加权网络交换机
@@ -686,8 +682,6 @@ gt.blockmachines.multimachine.em.switch.adv.desc.5=要进行加权的算力分�
 
 gt.blockmachines.multimachine.em.computer.name=量子计算机
 gt.blockmachines.multimachine.em.computer.machinetype=量子计算机，QC
-gt.blockmachines.multimachine.em.computer.hint.0=1 - 基础仓室、光学接口或电子计算机机械方块
-gt.blockmachines.multimachine.em.computer.hint.1=2 - 计算机机柜或进阶电子计算机机械方块
 gt.blockmachines.multimachine.em.computer.desc=你需要它来处理上面的这串数字
 gt.blockmachines.multimachine.em.computer.cfgi.0=超频比
 gt.blockmachines.multimachine.em.computer.cfgi.1=过压比
@@ -699,8 +693,6 @@ gt.blockmachines.multimachine.em.computer.desc.2=使用螺丝刀切换无线模�
 
 gt.blockmachines.multimachine.em.databank.name=数据库
 gt.blockmachines.multimachine.em.databank.type=数据库，DB
-gt.blockmachines.multimachine.em.databank.hint.0=1 - 基础仓室或高能机械方块
-gt.blockmachines.multimachine.em.databank.hint.1=2 - 数据访问仓、数据库发送接口或电子计算机机械方块
 gt.blockmachines.multimachine.em.databank.desc.0=数据库的控制器方块
 gt.blockmachines.multimachine.em.databank.desc.1=为装配线提供更多闪存
 gt.blockmachines.multimachine.em.databank.desc.2=还可使多条装配线访问同一闪存
@@ -751,9 +743,6 @@ gt.blockmachines.multimachine.em.scanner.hint.3=4 - 元物质溢流仓或分子�
 gt.blockmachines.multimachine.em.scanner.desc.0=元物质扫描仪的控制器方块
 
 gt.blockmachines.multimachine.em.research.type=研究站,扫描仪
-gt.blockmachines.multimachine.em.research.hint.0=1 - 基础仓室、光学接口或电子计算机机械方块
-gt.blockmachines.multimachine.em.research.hint.1=2 - 物品固定容器
-gt.blockmachines.multimachine.em.research.hint.2=3 - 输出总线、输入仓或进阶电子计算机机械方块
 gt.blockmachines.multimachine.em.research.desc.1=用于扫描物品，生成装配线配方闪存
 gt.blockmachines.multimachine.em.research.desc.2=需要为其提供算力
 gt.blockmachines.multimachine.em.research.desc.3=在完成闪存写入之前不会消耗物品
@@ -781,7 +770,6 @@ gt.blockmachines.multimachine.em.collider.mode.3=从属于其他控制器
 gt.blockmachines.multimachine.em.collider.Structure.AdditionalCollider=需要与之镜像的另一台物质对撞机
 
 gt.blockmachines.multimachine.em.infuser.name=能量注入仪
-gt.blockmachines.multimachine.em.infuser.hint=1 - 基础仓室或高能机械方块
 gt.blockmachines.multimachine.em.infuser.desc.0=能量注入仪的控制器方块
 gt.blockmachines.multimachine.em.infuser.desc.1=可用于为物品充电(无损)
 gt.blockmachines.multimachine.em.infuser.desc.2=提供UU物质可修复物品
@@ -789,7 +777,6 @@ gt.blockmachines.multimachine.em.infuser.desc.3=不支持存储输入总线
 gt.blockmachines.multimachine.em.infuser.Structure.HighPowerCasing=第1、5层
 gt.blockmachines.multimachine.em.infuser.Structure.MolecularCoil=第2、4层
 gt.blockmachines.multimachine.em.infuser.Structure.MolecularCasing=第3层
-
 
 gt.blockmachines.multimachine.em.processing.name=量子加工机
 gt.blockmachines.multimachine.em.processing.hint.0=1 - 基础仓室或高能机械方块
@@ -807,8 +794,6 @@ gt.blockmachines.multimachine.em.stabilizer.hint.1=2 - 元物质输入/出仓或
 gt.blockmachines.multimachine.em.stabilizer.desc.0=元物质稳定器的控制器方块
 
 gt.blockmachines.multimachine.em.wormhole.name=虫洞
-gt.blockmachines.multimachine.em.wormhole.hint.0=1 - 基础仓室或高能机械方块
-gt.blockmachines.multimachine.em.wormhole.hint.1=2 - 元物质输入/出仓或分子机械方块
 gt.blockmachines.multimachine.em.wormhole.desc.0=虫洞的控制器方块
 
 gt.blockmachines.multimachine.em.decay.name=衰变发电机
@@ -1462,7 +1447,10 @@ tt.keyword.input=输入
 tt.keyword.output=输出
 tt.keyword.Status=状态
 tt.keyword.Content=内含
+tt.keyword.Content.fmt=Content: §b%s
 tt.keyword.PacketHistory=封包记录
+tt.keyword.PacketHistory.fmt=PacketHistory: §c%s
+tt.keyword.ID.fmt=ID: §b%s
 
 #Used when 0 Elemental Matter Stacks
 tt.keyphrase.No_Stacks=空
@@ -1972,10 +1960,17 @@ tt.infodata.multi.divisor.recipe_time.non_perfect_oc=非完美OC的配方时间�
 tt.infodata.multi.currently_using=当前使用：%s EU/t
 tt.infodata.multi.capacity.heat=最大温度：%s
 tt.infodata.multi.capacity.heat.effective=生效温度：%s
-tt.infodata.multi.min_hatch_tier.s=最低仓室等级：%s
-tt.infodata.multi.last_seconds.0.s=过去5秒：%s EU/t
-tt.infodata.multi.last_seconds.1.s=过去30秒：%s EU/t
-tt.infodata.multi.last_seconds.2.s=过去一分钟：%s EU/t
+tt.infodata.active_transformer.min_hatch_tier=Min hatch tier: %s
+tt.infodata.active_transformer.last_5s=Last 5 seconds: %s EU/t
+tt.infodata.active_transformer.last_30s=Last 30 seconds: %s EU/t
+tt.infodata.active_transformer.last_1min=Last minute: %s EU/t
+tt.infodata.research.energy_hatches.header=Energy Hatches:
+tt.infodata.research.currently_uses=Currently uses: §c%s§r EU/t at §c%s§r A
+tt.infodata.research.tier_amp=Tier Rating: §e%s§r / §a%s§r Amp Rating: §a%s§r A
+tt.infodata.research.problems_efficiency=Problems: §c%s§r Efficiency: §e%s§r %%
+tt.infodata.research.power_pass_safe_void=PowerPass: §9%s§r SafeVoid: §9%s
+tt.infodata.research.computation_available=Computation Available: §a%s§r / §e%s§r
+tt.infodata.research.computation_remaining=Computation Remaining: §a%s§r / §e%s§r
 
 ## Waila
 
@@ -1983,6 +1978,10 @@ tt.waila.multi.computation=§7算力：§a%s
 
 ## Eye of Harmony
 tt.infodata.eoh.control_block_statistics=控制块统计
+tt.infodata.eoh.control_block_statistics.header=§6§m-------------§r§6 Control Block Statistics §m-------------
+tt.infodata.eoh.internal_storage.header=§6§m-----------------§r§6 Internal Storage §m----------------
+tt.infodata.eoh.other_stats.header=§6§m-----------------§r§6 Other Stats §m-----------------
+tt.infodata.eoh.divider=§6§m-----------------------------------------------------
 tt.infodata.eoh.spacetime_compression.grade=压缩时空场等级：%s（%s）
 tt.infodata.eoh.spacetime_compression.grade.none=压缩时空场等级：无
 tt.infodata.eoh.time_dilation.grade=时间膨胀场等级：%s（%s）
@@ -1991,6 +1990,7 @@ tt.infodata.eoh.stabilisation.grade=稳定力场等级：%s（%s）
 tt.infodata.eoh.stabilisation.grade.none=稳定力场等级：无
 tt.infodata.eoh.internal_storage=内置存储箱
 tt.infodata.eoh.astral_array_fabricators=星阵
+tt.infodata.eoh.astral_array_fabricators.count=§9Astral Array Fabricators§r : §c%s
 tt.infodata.eoh.other_stats=其他属性
 tt.infodata.eoh.success_chance=配方成功率：%s
 tt.infodata.eoh.recipe_yield=配方产量：%s
@@ -2059,6 +2059,9 @@ tt.spaceminer.filter.addOre=点击将此矿石添加到过滤器
 tt.gui.tooltip.power_pass=导能
 tt.gui.tooltip.safe_void=安全销毁
 tt.gui.tooltip.power_switch=电源开关
+tt.gui.tooltip.edit_parameters=Edit Parameters
+tt.gui.tooltip.open_editor=Open Editor
+tt.gui.parameter.header=Parameters
 
 tt.gui.tooltip.plasma_module.debug_window=调试窗口
 tt.gui.tooltip.plasma_module.debug_window.multi_step=多步骤
