@@ -84,7 +84,7 @@ gtnhlanth.tt.coolant.Scoolant=§bПромышленный хладагент§f:
 # Beam Hatches
 gtnhlanth.tt.hatch.beaminput=Beam Input Hatch
 gtnhlanth.tt.hatch.beamoutput=Beam Output Hatch
-gtnhlanth.tt.hatch.beamoutputfiltered=Filtered Beam Output Hatch
+gtnhlanth.tt.hatch.beamoutputfiltered=Выходной люк фильтруемого пучка
 gtnhlanth.tt.hatch.focus=Входной люк фокусировки
 
 GT5U.gui.text.shutdown_reason.gtnhlanth.nocoolant=В механизме отсутствует хладагент!
@@ -160,27 +160,27 @@ beamline.info=Информация о механизме
 beamline.info.hdr=§lMachine Information: §r
 
 beamline.in_pre=Мультиблочный вход установки для литографии
-beamline.in_pre.hdr=§lMultiblock Beamline Input: §r
+beamline.in_pre.hdr=§lМультиблочный вход установки для литографии: §r
 beamline.particle=Частица
-beamline.particle.fmt=Particle: §6%s (%s)§r
+beamline.particle.fmt=Частица: §6%s (%s)§r
 beamline.energy=Энергия
-beamline.energy.eV.fmt=Energy: §4%s§r eV
-beamline.energy.keV.fmt=Energy: §4%s§r keV
+beamline.energy.eV.fmt=Энергия: §4%s§r eV
+beamline.energy.keV.fmt=Энергия: §4%s§r keV
 beamline.focus=Фокус
-beamline.focus.fmt=Focus: §9%s§r
+beamline.focus.fmt=Фокус: §9%s§r
 beamline.amount=Количество
-beamline.amount.fmt=Amount: §d%s§r
+beamline.amount.fmt=Количество: §d%s§r
 beamline.rate=Скорость
 beamline.materialenergy=Max Material Energy
 beamline.particleenergy=Max Particle Energy
 beamline.energyratio=Соотношение энергии
 beamline.temperature=Температура
-beamline.temperature.fmt=Temperature: §4%s§r K
+beamline.temperature.fmt=Температура: §4%s§r K
 beamline.coolusage=Расходуется хладагента
 beamline.coolusage.fmt=Расходуется хладагента: §b%s§r kЛ/с
 
 beamline.out_pre=Мультиблочный выход установки для литографии
-beamline.out_pre.hdr=§lMultiblock Beamline Output: §r
+beamline.out_pre.hdr=§lМультиблочный выход установки для литографии: §r
 
 gt.blockmachines.beamline_pipe.name=Труба установки для литографии
 

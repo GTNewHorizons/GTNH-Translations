@@ -160,13 +160,13 @@ cropsnh_tooltip.biomeTag.BEACH=Пляж
 
 # Crop Breeder
 cropsnh.recipes.cropBreeder=Селекционер семян
-cropsnh_tooltip.cropBreeder.0=Breeds crops deterministically
-cropsnh_tooltip.cropBreeder.1=Needs %1$s of §aenriched fertilizer§7 per §ctier§7 of the output seed
-cropsnh_tooltip.cropBreeder.2=Needs %1$s of §aenriched fertilizer§7 per §cstat point§7 of the output seed
-cropsnh_tooltip.cropBreeder.3=The stats of the output seed will be the average of the parents'
-cropsnh_tooltip.cropBreeder.4=%1$s%% шанс успеха
+cropsnh_tooltip.cropBreeder.0=Скрещивает культуры детерминированно
+cropsnh_tooltip.cropBreeder.1=Требует %1$s §aобогащённого удобрения§7 за каждый §cтир§7 создаваемого семени
+cropsnh_tooltip.cropBreeder.2=Требует %1$s §aобогащённого удобрения§7 за каждое §cочко характеристик§7 создаваемого семени
+cropsnh_tooltip.cropBreeder.3=Характеристики создаваемого семени будут средним значением родительских семян
+cropsnh_tooltip.cropBreeder.4=Шанс успеха: %1$s%%
 cropsnh_tooltip.cropBreeder.5=Хранит %1$s жидкости
-cropsnh_tooltip.cropBreeder.mv_warn=§cCannot breed high-stat seeds§7
+cropsnh_tooltip.cropBreeder.mv_warn=§cНевозможно вывести семена с высокими характеристиками§7
 cropsnh_nei.cropBreeder.tooltip.fluidCost=cost = OutputTier * %1$s + (growth + gain + resistance) * %2$s
 cropsnh_nei.cropBreeder.tooltip.outputStats=The resulting stats will be an average of the parents'
 cropsnh_nei.cropBreeder.tooltip.successChance=Success chance depends on the tier of the machine
@@ -205,9 +205,9 @@ cropsnh_tooltip.cropGeneExtractor.name.12=Эпический экстракто�
 # Crop Synthesizer
 cropsnh.recipes.cropSynthesizer=Репликатор семян
 cropsnh_tooltip.cropSynthesizer.0=Он может создавать культуры из Сферы данных
-cropsnh_tooltip.cropSynthesizer.1=Needs %1$s of §dUUM§7 per §ctier§7 of the output seed
-cropsnh_tooltip.cropSynthesizer.2=Needs %1$s of §dUUM§7 per §cstat point§7 of the output seed
-cropsnh_tooltip.cropSynthesizer.3=Принимает 1$s ампер
+cropsnh_tooltip.cropSynthesizer.1=Требует %1$s §dматерии§7 на §cтир§7 создаваемого семени
+cropsnh_tooltip.cropSynthesizer.2=Требует %1$s §dматерии§7 за каждое §cочко характеристик§7 создаваемого семени
+cropsnh_tooltip.cropSynthesizer.3=Потребляет %1$s ампера
 cropsnh_nei.cropSynthesizer.tooltip.fluidCost=cost = cropTier * %1$s + (growth + gain + resistance) * %2$s
 cropsnh_nei.cropSynthesizer.tooltip.output=Stat depends on the values from the data orbs.
 cropsnh_tooltip.cropSynthesizer.name.4=Репликатор семян
@@ -222,9 +222,9 @@ cropsnh_tooltip.cropSynthesizer.name.12=Эпический репликатор 
 
 # Seed Generator
 cropsnh.recipes.seedGenerator=Генератор семян
-cropsnh_tooltip.seedGenerator.0=Generates more seeds from an existing seed
-cropsnh_tooltip.seedGenerator.1=Needs %1$s of §aenriched fertilizer§7 per §cstat point§7 on the seed
-cropsnh_tooltip.seedGenerator.2=Не все семена можно создавать в этом механизме
+cropsnh_tooltip.seedGenerator.0=Создаёт больше семян из уже имеющегося семени
+cropsnh_tooltip.seedGenerator.1=Требует  %1$s §aобогащённого удобрения§7 за каждое §cочко характеристик§7 семени
+cropsnh_tooltip.seedGenerator.2=Не все семена можно клонировать в этом механизме
 cropsnh_tooltip.seedGenerator.3=Хранит %1$s жидкости
 cropsnh_tooltip.seedGenerator.mv_warn=§cCannot replicate high-stat seeds§7
 cropsnh_nei.seedGenerator.tooltip.fluidCost=cost = %1$s * (growth + gain + resistance)
@@ -244,15 +244,15 @@ cropsnh_tooltip.seedGenerator.name.12=Эпический репликатор к
 # Crop Manager
 cropsnh.recipes.cropManager=Автосадовник
 cropsnh_tooltip.cropManager.description=Автоматически собирает урожай и ухаживает за посевами на большой площади
-cropsnh_tooltip.cropManager.tooltip.0=Hydration, fertilisation and weed-ex can be toggled independently
-cropsnh_tooltip.cropManager.tooltip.1=Расходует %1$s EU за урожай
-cropsnh_tooltip.cropManager.tooltip.2=Расходует %1$s EU за вторичную операцию
-cropsnh_tooltip.cropManager.tooltip.3=Может собирать на %s блока выше и ниже себя
+cropsnh_tooltip.cropManager.tooltip.0=Полив, удобрение и удаление сорняков можно включать/выключать независимо друг от друга
+cropsnh_tooltip.cropManager.tooltip.1=Потребляет %1$s EU за сбор урожая
+cropsnh_tooltip.cropManager.tooltip.2=Потребляет %1$s EU за вторичную операцию
+cropsnh_tooltip.cropManager.tooltip.3=Может собирать урожай на %s уровня блоков выше и ниже себя
 cropsnh_tooltip.cropManager.tooltip.4=Радиус: %1$sx%2$sx%1$s блоков
-cropsnh_tooltip.cropManager.tooltip.5=Есть %1$s шанс на дополнительный дроп
-cropsnh_tooltip.cropManager.tooltip.6=Хранит %1$s воды
-cropsnh_tooltip.cropManager.tooltip.7=Хранит %1$s удобрения
-cropsnh_tooltip.cropManager.tooltip.8=Хранит %1$s гербицида
+cropsnh_tooltip.cropManager.tooltip.5=Имеет %1$s шанс на дополнительный дроп
+cropsnh_tooltip.cropManager.tooltip.6=Вмещает %1$s воды
+cropsnh_tooltip.cropManager.tooltip.7=Вмещает %1$s удобрения
+cropsnh_tooltip.cropManager.tooltip.8=Вмещает %1$s гербицида
 cropsnh_tooltip.cropManager.toggle.water=Увлажнять
 cropsnh_tooltip.cropManager.toggle.weedEX=Применять гербицид
 cropsnh_tooltip.cropManager.toggle.fertilizer=Удобрять
@@ -278,10 +278,10 @@ cropsnh_tooltip.cropManager.name.12=Эпический автосадовник 
 # Industrial Farm Controller
 cropsnh_tooltip.industrialFarm.name=Промышленная ферма
 cropsnh_tooltip.industrialFarm.machineType=Промышленный культиватор семян, IF
-cropsnh_tooltip.industrialFarm.0=Grows crops at an industrial scale
+cropsnh_tooltip.industrialFarm.0=Выращивает культуры в промышленных масштабах
 # separator
-cropsnh_tooltip.industrialFarm.1=§bДлина§7 механизма зависит от §cтира§7 §fПосевной грядки§7
-cropsnh_tooltip.industrialFarm.2=§cТир§7 этого §fулучшения§7 должен соответствовать §cтиру§7 §fгрядки§7
+cropsnh_tooltip.industrialFarm.1=§bДлина§7 механизма зависит от §cтира§7 §fгрядок§7
+cropsnh_tooltip.industrialFarm.2=§cТир§7 §fулучшений§7 должен соответствовать §cтиру§7 §fгрядок§7
 cropsnh_tooltip.industrialFarm.structure.seedBed=Посевная грядка
 cropsnh_tooltip.industrialFarm.structure.upgrades.name=IF Upgrade Unit
 cropsnh_tooltip.industrialFarm.structure.upgrades.info=Any wooden frame box
@@ -863,10 +863,10 @@ cropsnh_mutationPool.purple=Purple
 cropsnh_mutationPool.red=Red
 cropsnh_mutationPool.reed=Reed
 cropsnh_mutationPool.root=Root
-cropsnh_mutationPool.saltpeter=Saltpeter
+cropsnh_mutationPool.saltpeter=Селитра
 cropsnh_mutationPool.shiny=Shiny
 cropsnh_mutationPool.silk=Silk
-cropsnh_mutationPool.silver=Silver
+cropsnh_mutationPool.silver=Серебро
 cropsnh_mutationPool.stem=Stem
 cropsnh_mutationPool.sticky=Sticky
 cropsnh_mutationPool.stone=Камень
