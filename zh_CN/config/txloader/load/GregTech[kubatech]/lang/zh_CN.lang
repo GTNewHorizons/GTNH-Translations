@@ -89,7 +89,7 @@ kubatech.gui.text.eig.disabled=禁用
 kubatech.gui.text.eig.enabled=启用
 kubatech.gui.text.eig.ic2_mode=IC2 模式
 kubatech.gui.text.eig.no_humidity_mode=无湿度模式
-kubatech.gui.text.eig.inventory_full_warning=Seed inventory is full!
+kubatech.gui.text.eig.inventory_full_warning=种子库存已满
 kubatech.gui.text.mia.primary_mode=主要模式
 kubatech.gui.text.mia.normal=常规
 kubatech.gui.text.mia.swarmer=蜂群
@@ -103,7 +103,7 @@ kubatech.gui.tooltip.contributors.structure=结构由%s设计
 
 kubatech.gui.tooltip.dynamic_inventory.identical_slots=有%d个相同的槽位
 kubatech.gui.tooltip.dynamic_inventory.empty_slot=空槽位
-kubatech.gui.tooltip.dynamic_inventory.eig.seed_count=Seeds: %d
+kubatech.gui.tooltip.dynamic_inventory.eig.seed_count=种子：%d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=剩余种子类型：%d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=剩余种子容量：%d
 
@@ -125,7 +125,7 @@ kubatech.chat.eec.infernal_drops_disabled=将尝试阻止生成精英怪
 # info data
 ## general
 kubatech.infodata.running_mode=运行模式：
-kubatech.infodata.running_mode.fmt=Running in mode: §a%s§r
+kubatech.infodata.running_mode.fmt=运行模式：§a%s§r
 
 ## Extreme Entity Crusher
 kubatech.infodata.eec.current_mob=当前生物：§e%s
@@ -151,23 +151,23 @@ kubatech.infodata.eec.weapon.looting_level=武器掠夺等级：§e%d
 kubatech.infodata.eec.total_damage=总攻击伤害：§e%f
 
 ## Extreme Industrial Greenhouse
-kubatech.infodata.eig.running_mode.setup_mode.input=设置模式（输入）
-kubatech.infodata.eig.running_mode.setup_mode.output=设置模式（输出）
+kubatech.infodata.eig.running_mode.setup_mode.input=运行模式：§a设置模式（输入）§r
+kubatech.infodata.eig.running_mode.setup_mode.output=运行模式：§a设置模式（输出）§r
 kubatech.infodata.eig.uses.water=每次操作消耗 %d L 水
 kubatech.infodata.eig.uses.weedex=每秒消耗 %d L 除草剂-9000
-kubatech.infodata.eig.max_slots=最大槽位数：
-kubatech.infodata.eig.used_slots=已用槽位数：
+kubatech.infodata.eig.max_slots=最大槽位数：§a%d§r
+kubatech.infodata.eig.used_slots=已用槽位数：%s
 kubatech.infodata.bucket.humidity=湿度：
 kubatech.infodata.bucket.humidity.on=开启
 kubatech.infodata.bucket.humidity.off=关闭
-kubatech.infodata.eig.too_many_types=里面的种子类型太多了，无法运行！
-kubatech.infodata.eig.too_many_seeds=里面的种子数量太多了，无法运行！
+kubatech.infodata.eig.too_many_types=§4里面的种子类型太多了，无法运行！§r
+kubatech.infodata.eig.too_many_seeds=§4里面的种子数量太多了，无法运行！§r
 
 ## Mega Industrial Apiary
-kubatech.infodata.mia.running_mode.input=输入模式
-kubatech.infodata.mia.running_mode.output=输出模式
-kubatech.infodata.mia.running_mode.operating.normal=工作模式（常规）
-kubatech.infodata.mia.running_mode.operating.swarmer=工作模式（蜂群）
+kubatech.infodata.mia.running_mode.input=运行模式：§6输入模式§r
+kubatech.infodata.mia.running_mode.output=运行模式：§6输出模式§r
+kubatech.infodata.mia.running_mode.operating.normal=运行模式：§6工作模式（常规）§r
+kubatech.infodata.mia.running_mode.operating.swarmer=运行模式：§6工作模式（蜂群）§r
 kubatech.infodata.mia.running_mode.bee_storage=蜜蜂储存（%s/%s）：
 kubatech.infodata.mia.inventory_full=没有更多蜜蜂的栏位了！
 kubatech.gui.text.mia.inventory_full_warning=没有更多可用的蜜蜂栏位了！
@@ -175,21 +175,21 @@ kubatech.gui.text.mia.locked_while_running=当机器运行时，蜜蜂物品格�
 kubatech.infodata.mia.gui_locked_while_running=在运行时无法通过GUI修改蜜蜂物品栏
 
 #HTGR
-kubatech.infodata.htgr.stored_fuel=现存燃料：
+kubatech.infodata.htgr.stored_fuel=§f现存燃料：
 kubatech.infodata.htgr.stored_fuel_entry=§f- §b%s §f× §6%s (%s, %s, %s)
-kubatech.infodata.htgr.burned_fuel=已消耗燃料：
+kubatech.infodata.htgr.burned_fuel=§f已消耗燃料：
 kubatech.infodata.htgr.burned_fuel_entry=§f- §b%s §f× §6%s%% 至输出
-kubatech.infodata.htgr.helium_supply=氦气供应量：§6%sL
-kubatech.infodata.htgr.coolant_per_tick=每刻冷却液：§6%sL
-kubatech.infodata.htgr.water_per_tick=每秒水量：§6%sL
-kubatech.infodata.htgr.fuel_supply=填充进度：%s / %s
-kubatech.infodata.htgr.fuel_properties=属性：%s、%s、%s
+kubatech.infodata.htgr.helium_supply=§f氦气供应量：§6%sL
+kubatech.infodata.htgr.coolant_per_tick=§f每刻冷却液：§6%sL
+kubatech.infodata.htgr.water_per_tick=§f每秒耗水量：§6%sL
+kubatech.infodata.htgr.fuel_supply=§f填充进度：%s / %s
+kubatech.infodata.htgr.fuel_properties=§f属性：%s、%s、%s
 
-kubatech.MBTT.CoolantInputHatch=Input Hatch (Coolant)
-kubatech.MBTT.HeliumInputHatch=Input Hatch (Helium)
-kubatech.MBTT.WaterInputHatch=Input Hatch (Water)
-kubatech.MBTT.CoolantOutputHatch=Output Hatch (Coolant)
-kubatech.MBTT.SteamOutputHatch=Output Hatch (Steam)
+kubatech.MBTT.CoolantInputHatch=输入仓（冷却剂）
+kubatech.MBTT.HeliumInputHatch=输入仓（氦）
+kubatech.MBTT.WaterInputHatch=输入仓（水）
+kubatech.MBTT.CoolantOutputHatch=输出仓（冷却剂）
+kubatech.MBTT.SteamOutputHatch=输出仓（蒸汽）
 
 #Waila
 kubatech.waila.eec.mob_type=生物类型：%s
@@ -242,8 +242,8 @@ item.arc_furnace_electrode.tip.parallel_limit=并行：%s
 item.arc_furnace_electrode.tip.parallel_limit_none=无
 item.arc_furnace_electrode.tip.oc=超频系数：%s%s
 item.arc_furnace_electrode.tip.amperage_per_parallel=每并行电流：%s
-item.arc_furnace_electrode.tip.startup_surge=启动涌流：%s
-item.arc_furnace_electrode.tip.startup_amperage=Startup Amperage: %s A (%sx 64A hatches)
+item.arc_furnace_electrode.tip.startup_surge=涌流能量：%s
+item.arc_furnace_electrode.tip.startup_amperage=启动电流：%sA（%sx 64A仓）
 
 item.arc_furnace_electrode.tip.special_effect.GraphiteElectrode=§6§l面包与黄油§r§6：无启动涌流惩罚
 item.arc_furnace_electrode.tip.special_effect.GrapheneElectrode=§6§l面包与黄油§r§6：无启动涌流惩罚

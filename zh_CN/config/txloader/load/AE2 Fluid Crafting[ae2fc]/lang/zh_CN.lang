@@ -174,10 +174,10 @@ ae2fc.tooltip.restock.on=切换补充库存模式
 ae2fc.tooltip.restock.on.hint=启用
 ae2fc.tooltip.restock.off=切换库存补充模式
 ae2fc.tooltip.restock.off.hint=禁用
-ae2fc.tooltip.Full-stock.mode=Full-stock Mode
-ae2fc.tooltip.Full-stock.mode.hint=Stocked items and fluids always visible to storage busses and only after all are fully stocked following the replenisher being fully emptied, and always fully restocked 
-ae2fc.tooltip.Normal.mode=Normal Mode
-ae2fc.tooltip.Normal.mode.hint=Stocked items and fluids always visible to storage busses, and only restocked when below 50%
+ae2fc.tooltip.Full-stock.mode=完全补货模式
+ae2fc.tooltip.Full-stock.mode.hint=存储的物品与流体始终对存储总线可见；在补充器被完全清空后，只有当所有物品和流体都被完全补满时，才会重新对存储总线可见。总会补满。
+ae2fc.tooltip.Normal.mode=常规模式
+ae2fc.tooltip.Normal.mode.hint=存储的物品与流体始终对存储总线可见，且仅在内部缓存低于设置值的50%时重新补满。
 
 ae2fc.gui.part_level_terminal=请求终端
 ae2fc.gui.fluid_pattern_encoder=流体样板编码台

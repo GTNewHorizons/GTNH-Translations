@@ -84,7 +84,7 @@ gtnhlanth.tt.coolant.Scoolant=§b超级冷却液§f：1K
 # Beam Hatches
 gtnhlanth.tt.hatch.beaminput=束流输入仓
 gtnhlanth.tt.hatch.beamoutput=束流输出仓
-gtnhlanth.tt.hatch.beamoutputfiltered=Filtered Beam Output Hatch
+gtnhlanth.tt.hatch.beamoutputfiltered=过滤式束流输出仓
 gtnhlanth.tt.hatch.focus=聚焦输入总线
 
 GT5U.gui.text.shutdown_reason.gtnhlanth.nocoolant=机器内没有冷却液！
@@ -157,30 +157,30 @@ item.masked_mask_substrate.name=处理过的掩膜基板
 
 
 beamline.info=机器信息
-beamline.info.hdr=§lMachine Information: §r
+beamline.info.hdr=§l机器信息：§r
 
 beamline.in_pre=多方块束流输入
-beamline.in_pre.hdr=§lMultiblock Beamline Input: §r
+beamline.in_pre.hdr=§l多方块束流输入：§r
 beamline.particle=粒子
-beamline.particle.fmt=Particle: §6%s (%s)§r
+beamline.particle.fmt=离子：§6%s (%s)§r
 beamline.energy=能量
-beamline.energy.eV.fmt=Energy: §4%s§r eV
-beamline.energy.keV.fmt=Energy: §4%s§r keV
+beamline.energy.eV.fmt=能量：§4%s§r eV
+beamline.energy.keV.fmt=能量：§4%s§r keV
 beamline.focus=聚焦
-beamline.focus.fmt=Focus: §9%s§r
+beamline.focus.fmt=聚焦：§9%s§r
 beamline.amount=数量
-beamline.amount.fmt=Amount: §d%s§r
+beamline.amount.fmt=总量：§d%s§r
 beamline.rate=通量
 beamline.materialenergy=最大材料能量
 beamline.particleenergy=最大粒子能量
 beamline.energyratio=能量效率
 beamline.temperature=温度
-beamline.temperature.fmt=Temperature: §4%s§r K
+beamline.temperature.fmt=温度：§4%s§r K
 beamline.coolusage=冷却剂使用量
-beamline.coolusage.fmt=Coolant Usage: §b%s§r kL/s
+beamline.coolusage.fmt=冷却剂使用量：§b%s§r kL/s
 
 beamline.out_pre=多方块束流输出
-beamline.out_pre.hdr=§lMultiblock Beamline Output: §r
+beamline.out_pre.hdr=§l多方块束流输出：§r
 
 gt.blockmachines.beamline_pipe.name=束流管
 

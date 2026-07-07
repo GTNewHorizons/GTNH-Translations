@@ -124,9 +124,9 @@ item.NtNanofibers.name=中子纳米纤维
 item.UHTResistantMesh.name=耐超高温网
 item.TaHfNanoparticles.name=碳化钽铪纳米颗粒
 item.NtNanoparticles.name=中子纳米颗粒
-item.droneCase.name=Corona-Resistant Drone Case
-item.femtocontroller.name=Magnetically Shielded Femtocontroller
-item.fuelPellet.name=Hyperfine TrNq+ Radioisomer Pellet
+item.droneCase.name=日冕防护无人机外壳
+item.femtocontroller.name=磁性屏蔽飞秒控制器
+item.fuelPellet.name=超精TrNq+同位素靶丸
 
 # Blocks
 gt.blockcasingsSE.name=太空电梯部件
@@ -196,7 +196,7 @@ gt.blockmachines.multimachine.ig.siphon.type=泵，PGS
 gt.blockmachines.multimachine.ig.siphon.desc1=建造于绕行气态行星的空间站上
 gt.blockmachines.multimachine.ig.siphon.desc2=使用编程电路设置抽取的深度(1-4)
 gt.blockmachines.multimachine.ig.siphon.desc3=需提供64x深度的采矿管道
-gt.blockmachines.multimachine.ig.siphon.desc4=功率：d*4^(t+2)，t为空间站等级，d为深度
+gt.blockmachines.multimachine.ig.siphon.desc4=能量消耗与行星等级和深度有关。更多信息请查看NEI页面。
 gt.blockmachines.multimachine.ig.siphon.desc5=可加载所在区块(电烙铁切换)
 gt.blockmachines.multimachine.ig.siphon.lore0=将太空采矿提升到另一个层次!
 gt.blockmachines.multimachine.ig.siphon.lore1=尽情吮吸吧！
@@ -258,9 +258,9 @@ gt.blockmachines.multimachine.project.ig.assembler.desc0=将太空组装功能�
 gt.blockmachines.multimachine.project.ig.assembler.t1.desc1=为什么我又要在太空里组装东西啊？
 gt.blockmachines.multimachine.project.ig.assembler.t2.desc1=这真的有必要吗？
 gt.blockmachines.multimachine.project.ig.assembler.t3.desc1=我想我们永远也不会知道.
-gt.blockmachines.multimachine.project.ig.assembler.t1.desc2=运行电压：UHV，最大并行：§a4§7
-gt.blockmachines.multimachine.project.ig.assembler.t2.desc2=运行电压：UIV，最大并行：§a16§7
-gt.blockmachines.multimachine.project.ig.assembler.t3.desc2=运行电压：UXV，最大并行：§a64§7
+gt.blockmachines.multimachine.project.ig.assembler.t1.desc2=运行电压：UHV，最大并行：§64§7
+gt.blockmachines.multimachine.project.ig.assembler.t2.desc2=运行电压：UIV，提速：§a150%§7，最大并行：§616§7并行
+gt.blockmachines.multimachine.project.ig.assembler.t3.desc2=运行电压：UXV，提速：§a200%§7，最大并行：§664§7并行
 gt.blockmachines.multimachine.project.ig.assembler.cfgi.0=最大并行
 
 # Module Miner
@@ -351,7 +351,7 @@ ig.nei.siphon.planet=行星
 ig.nei.siphon.depth=深度
 
 # Structure and Tooltip
-ig.siphon.structure.ControllerPos=中间结构的正面中央
+ig.siphon.structure.ControllerPos=主结构的正面中央
 ig.siphon.structure.ControllerPos2=正面底中
 ig.siphon.structure.HatchRequirement=每种仓室必须有且仅有§61§7个！
 ig.siphon.structure.AnySiphonCasing=任意行星虹吸机械方块
@@ -365,12 +365,12 @@ ig.elevator.structure.ProjectModule=项目模块
 ig.elevator.structure.Motor=太空电梯加速轨道
 ig.elevator.structure.FrameNeutronium=中子框架
 ig.elevator.structure.Parametrizer=参数仪
-ig.elevator.structure.DataInputHatch=数据输入仓
+ig.elevator.structure.DataInputHatch=光学接收接口
 ig.elevator.structure.AnyBaseCasingWithHintNumber1=任意带有提示方块[1]的太空电梯基座机械方块
 ig.elevator.structure.AnyBaseCasingWithHintNumber2=任意带有提示方块[2]的太空电梯基座机械方块
 ig.elevator.structure.AnyBaseCasingWithHintNumber3=任意带有提示方块[3]的太空电梯基座机械方块
-ig.elevator.structure.SharedPower=Receives power from the base structure
-ig.elevator.structure.SharedResources=Receives power, plasma, and computation from the base structure
+ig.elevator.structure.SharedPower=从基座接收能量
+ig.elevator.structure.SharedResources=从基座接收能量，等离子和算力
 ig.structure.contributors=贡献者
 ig.structure.programming=规划
 ig.structure.design=设计
@@ -464,14 +464,14 @@ gt.blockcasingsSEMotor.3.name=太空电梯加速轨道 MK-IV
 gt.blockcasingsSEMotor.4.name=太空电梯加速轨道 MK-V
 
 # info data
-ig.infodata.hdr.operational_data=§5Operational Data:§r
-ig.infodata.maintenance.ok=Maintenance Status: §aWorking perfectly§r
-ig.infodata.maintenance.problems=Maintenance Status: §cHas problems§r
-ig.infodata.dyson_swarm.modules.fmt=Modules: §e%s§r
-ig.infodata.dyson_swarm.power_factor.fmt=Power Factor: %s
-ig.infodata.dyson_swarm.theoretical_output.fmt=Theoretical Output: §e%s§r EU/t
-ig.infodata.dyson_swarm.current_output.fmt=Current Output: §e%s§r EU/t
-ig.infodata.dyson_swarm.computation.fmt=Computation required: §e%s§r/t
-ig.infodata.gas_siphon.depth.fmt=Depth: §e%s§r
-ig.infodata.gas_siphon.fluid.fmt=Fluid: §e%s§rL/s §9%s§r
-ig.infodata.gas_siphon.eu_required.fmt=EU/t required: §e%s§r EU/t
+ig.infodata.hdr.operational_data=§5操作数据：§r
+ig.infodata.maintenance.ok=维护状态：§a工作正常§r
+ig.infodata.maintenance.problems=维护状态：§c存在故障§r
+ig.infodata.dyson_swarm.modules.fmt=模块：§e%s§r
+ig.infodata.dyson_swarm.power_factor.fmt=能量系数：%s
+ig.infodata.dyson_swarm.theoretical_output.fmt=理论输出：§e%s§r EU/t
+ig.infodata.dyson_swarm.current_output.fmt=当前输出：§e%s§r EU/t
+ig.infodata.dyson_swarm.computation.fmt=算力需求：§e%s§r /t
+ig.infodata.gas_siphon.depth.fmt=深度：§e%s§r
+ig.infodata.gas_siphon.fluid.fmt=流体产率：§e%s§r L/s §9%s§r
+ig.infodata.gas_siphon.eu_required.fmt=能量需求：§e%s§r EU/t

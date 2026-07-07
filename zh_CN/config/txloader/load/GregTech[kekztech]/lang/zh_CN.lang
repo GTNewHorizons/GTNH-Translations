@@ -33,22 +33,22 @@ item.kekztech_crafting_item.14.name=钇锆陶瓷板
 item.kekztech_crafting_item.15.name=钆铈陶瓷板
 
 # -------- TFFT: Structure Blocks
-tile.kekztech_tfftstoragefield_block.name=T.F.F.T 机械外壳/存储库方块
-tile.kekztech_tfftstoragefield_block.0.name=T.F.F.T机械方块
-tile.kekztech_tfftstoragefield_block.1.name=T.F.F.T 存储库方块（T1）
-tile.kekztech_tfftstoragefield_block.2.name=T.F.F.T 存储库方块（T2）
-tile.kekztech_tfftstoragefield_block.3.name=T.F.F.T 存储库方块（T3）
-tile.kekztech_tfftstoragefield_block.4.name=T.F.F.T 存储库方块（T4）
-tile.kekztech_tfftstoragefield_block.5.name=T.F.F.T 存储库方块（T5）
-tile.kekztech_tfftstoragefield_block.6.name=T.F.F.T 存储库方块（T6）
-tile.kekztech_tfftstoragefield_block.7.name=T.F.F.T 存储库方块（T7）
-tile.kekztech_tfftstoragefield_block.8.name=T.F.F.T 存储库方块（T8）
-tile.kekztech_tfftstoragefield_block.9.name=T.F.F.T 存储库方块（T9）
-tile.kekztech_tfftstoragefield_block.10.name=T.F.F.T 存储库方块（T10）
+tile.kekztech_tfftstoragefield_block.name=TFFT 机械外壳/存储库方块
+tile.kekztech_tfftstoragefield_block.0.name=TFFT机械方块
+tile.kekztech_tfftstoragefield_block.1.name=TFFT 存储库方块（T1）
+tile.kekztech_tfftstoragefield_block.2.name=TFFT 存储库方块（T2）
+tile.kekztech_tfftstoragefield_block.3.name=TFFT 存储库方块（T3）
+tile.kekztech_tfftstoragefield_block.4.name=TFFT 存储库方块（T4）
+tile.kekztech_tfftstoragefield_block.5.name=TFFT 存储库方块（T5）
+tile.kekztech_tfftstoragefield_block.6.name=TFFT 存储库方块（T6）
+tile.kekztech_tfftstoragefield_block.7.name=TFFT 存储库方块（T7）
+tile.kekztech_tfftstoragefield_block.8.name=TFFT 存储库方块（T8）
+tile.kekztech_tfftstoragefield_block.9.name=TFFT 存储库方块（T9）
+tile.kekztech_tfftstoragefield_block.10.name=TFFT 存储库方块（T10）
 tile.kekztech_tfftstoragefield_block.desc=这不是流体储罐
-tile.kekztech_tfftstoragefield_block.hint.1=提示方块[1]：T.F.F.T机械方块
-tile.kekztech_tfftstoragefield_block.hint.2=提示方块[2]：T.F.F.T机械方块、维护仓、T.F.F.T多重输入/输出仓、输入/输出仓、能源仓
-tile.kekztech_tfftstoragefield_block.hint.3=提示方块[3]：EV+玻璃、T.F.F.T多重输入/输出仓、输入/输出仓
+tile.kekztech_tfftstoragefield_block.hint.1=提示方块[1]：TFFT机械方块
+tile.kekztech_tfftstoragefield_block.hint.2=提示方块[2]：TFFT机械方块、维护仓、TFFT多重输入/输出仓、输入/输出仓、能源仓
+tile.kekztech_tfftstoragefield_block.hint.3=提示方块[3]：EV+玻璃、TFFT多重输入/输出仓、输入/输出仓
 tile.kekztech_tfftstoragefield_block.hint.4=提示方块[4]：EV+玻璃
 
 # -------- Lapotronic Super Capacitor: Structure Blocks
@@ -131,10 +131,10 @@ tooltip.kekztech.tfft.power_draw=能量消耗：§9%d§7 EU/t
 tooltip.kekztech.wrong=提醒：KekzTech配方仅在GTNH中测试有效！\n若出现错误，此物品作为占位符使用。\n若在GTNH中发现此物品，可提交至：\nhttps://github.com/kekzdealer/KekzTech
 
 # -------- InfoData
-kekztech.infodata.operational_data=操作数据:
+kekztech.infodata.operational_data=§e操作数据:§r
 kekztech.infodata.multi.maintenance_status=维护状态：%s
-kekztech.infodata.multi.maintenance_status.ok=工作正常
-kekztech.infodata.multi.maintenance_status.bad=存在故障
+kekztech.infodata.multi.maintenance_status.ok=维护状态：§a工作正常§r
+kekztech.infodata.multi.maintenance_status.bad=维护状态：§c存在故障§r
 kekztech.infodata.lapotronic_super_capacitor.eu_stored=EU缓存：%s EU
 kekztech.infodata.lapotronic_super_capacitor.used_capacity=已用容量：%s
 kekztech.infodata.lapotronic_super_capacitor.total_capacity=总容量：%s EU
@@ -151,11 +151,11 @@ kekztech.infodata.lapotronic_super_capacitor.time_to.full=预计充满时间：%
 kekztech.infodata.lapotronic_super_capacitor.time_to.sth=预计充满/耗尽时间：永远
 kekztech.infodata.lapotronic_super_capacitor.time_to.empty=预计耗尽时间：%s
 kekztech.infodata.lapotronic_super_capacitor.wireless_mode=无线模式：%s
-kekztech.infodata.lapotronic_super_capacitor.wireless_mode.enabled=启用
-kekztech.infodata.lapotronic_super_capacitor.wireless_mode.disabled=禁用
+kekztech.infodata.lapotronic_super_capacitor.wireless_mode.enabled=无线模式：§a已启用§r
+kekztech.infodata.lapotronic_super_capacitor.wireless_mode.disabled=无线模式：§c已禁用§r
 kekztech.infodata.lapotronic_super_capacitor.capacitors=检测到%s电容器：%d
 kekztech.infodata.lapotronic_super_capacitor.wireless_eu=无线EU总量：%s EU
-kekztech.infodata.tank.tfft.stored_fluids=已存储流体：
+kekztech.infodata.tank.tfft.stored_fluids=§e已存储流体：§r
 kekztech.infodata.tank.tfft.stored_fluids.null=无效
 kekztech.infodata.tank.tfft.used=已用容量：%s L
 kekztech.infodata.tank.tfft.total=总容量：%s L
