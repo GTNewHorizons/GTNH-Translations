@@ -1910,7 +1910,7 @@ gt.blockcasings.bec.4.tooltip=§f§l无尽的牺牲，只为一方安宁。
 gt.blockcasings.bec.5.tooltip=§f§l吃定彩虹！
 gt.blockcasings.bec.6.tooltip=§f§l沿着小路走。
 
-GT5U.Centrifuge.momentum=Momentum: §a%s§r%%
+GT5U.Centrifuge.momentum=动量：§a%s§r%%
 
 # Machine types
 gt.recipe.alloysmelter=合金炉
@@ -2070,7 +2070,7 @@ gt.recipe.foundry_modules=铸造塔模块组件
 gt.recipe.create-condensate=凝聚态物质纠缠
 gt.recipe.assemble-condensate=凝聚态物质装配
 # TODO: Remove in 2.10
-gt.recipe.macerator.conversion=Macerator Conversion
+gt.recipe.macerator.conversion=研磨机转换
 gt.macerator.upgraded=已安装粉碎升级芯片
 
 # Recipe categories
@@ -2409,7 +2409,7 @@ channels.gregtech.time_dilation=决定时间膨胀场发生器等级。最低为
 channels.gregtech.gt_hatch=启用自动放置仓室
 channels.gregtech.field=决定TFFT.储库方块等级。
 channels.gregtech.component_casing=决定部件装配线外壳等级。最低为§6LV§r等级1；最高为§6MAX§r等级14。
-channels.gregtech.super_chest=Decides the tier of Super/Quantum Chest. Starts at §6Super Chest I§r at value 1 and ends at §6Quantum Chest V§r at value 10.
+channels.gregtech.super_chest=决定超级箱/量子箱等级。最低为§6超级箱 I§r等级1，最高为§6量子箱 V§r等级10。
 
 channels.gregtech.master.structuretier=结构等级
 channels.gregtech.master.casingtier=机械方块等级
@@ -2441,7 +2441,7 @@ GT5U.gui.button.feature_enabled=启用
 GT5U.gui.button.feature_disabled=禁用
 GT5U.gui.button.forbidden=§4该机器无法切换模式
 GT5U.gui.button.forbidden_while_running=§4无法在运行中切换模式
-GT5U.gui.button.forbidden.reason=(No %s output slots)
+GT5U.gui.button.forbidden.reason=（无%s输出槽）
 GT5U.gui.button.forbidden.reason.fluid=流体
 GT5U.gui.button.forbidden.reason.item=物品
 GT5U.gui.button.chunk_loading=区块加载
@@ -2563,7 +2563,7 @@ GT5U.gui.text.recipe_result.insufficient_voltage=§7执行此配方需要更高�
 GT5U.gui.text.recipe_result.insufficient_heat=§7配方需要更高的启动温度。此配方需要：%s K（%s§7）
 GT5U.gui.text.recipe_result.insufficient_machine_tier=§7配方需要更高等级的结构方块。此配方需要：%s
 GT5U.gui.text.recipe_result.insufficient_startup_power=§7配方需要更高的启动能量。此配方需要：%s EU/t
-GT5U.gui.text.recipe_result.insufficient_startup_power_with_amperage=§7Recipe needs higher startup power. Required: %s EU/t. Requires %s A rounded to %s 64A energy hatches
+GT5U.gui.text.recipe_result.insufficient_startup_power_with_amperage=§7配方需要更高的启动能量。此配方需要：%s EU/t。需要%s A（四舍五入为 %s 64A能源仓）
 GT5U.gui.text.recipe_result.internal_error=§4配方已找到，但是出现了内部错误
 GT5U.gui.text.drill_ores_left_chunk=当前区块剩余矿石：§a%s
 GT5U.gui.text.drill_ores_left_layer=Y轴 %s 剩余矿石：§a%s
@@ -2870,11 +2870,11 @@ GT5U.tooltip.nac.interface.module_description=§a纳米芯片组装复合体§7�
 GT5U.tooltip.nac.interface.structure_base_vci=§f真空传送输入端口：§7 %s
 GT5U.tooltip.nac.interface.structure_base_vco=§f真空传送输出端口：§7 %s
 GT5U.tooltip.nac.interface.structure_base_casing=任意基座机械方块
-GT5U.tooltip.nac.interface.structure_control_room_base_casing=任意控制室内的网格接口机械方块
-GT5U.tooltip.nac.interface.structure.module_controller=网格接口机械方块平台中部
-GT5U.tooltip.nac.interface.structure.module_hatches=Any base mesh casing
-GT5U.tooltip.nac.interface.structure.module_cost=Base mesh casing count not included
-GT5U.tooltip.nac.interface.structure.module_power=Receives power from the NAC control room
+GT5U.tooltip.nac.interface.structure_control_room_base_casing=控制室内任意侧面网格接口机械方块
+GT5U.tooltip.nac.interface.structure.module_controller=任意平台顶部侧面中央网格接口机械方块
+GT5U.tooltip.nac.interface.structure.module_hatches=任意网格接口机械方块
+GT5U.tooltip.nac.interface.structure.module_cost=基座网格接口机械方块未计数
+GT5U.tooltip.nac.interface.structure.module_power=从NAC控制室接收能量
 
 GT5U.tooltip.nac.main.machine_type=纳米芯片组装复合体，NAC
 GT5U.tooltip.nac.main.action=使用电路组件 (%s) 以惊人的速度制作电路板
@@ -3068,7 +3068,7 @@ gt.circuitcomponent.casing.processed.pico=皮米电路机箱
 gt.circuitcomponent.casing.processed.quantum=量子电路机箱
 gt.circuitcomponent.casing.processed.planck=普朗克尺度电路机箱
 
-gt.circuitcomponent.other.processed.coiledthermalsuperconductor=热能超导体螺线管
+gt.circuitcomponent.other.processed.coiledthermalsuperconductor=卷曲热能超导体
 
 gt.circuitcomponent.bolt.processed.enrichedholmium=盒装富集钬螺栓
 gt.circuitcomponent.bolt.processed.transcendentmetal=盒装超时空金属螺栓
@@ -3121,7 +3121,7 @@ GT5U.gui.config.machine_stats.teleporter=传送机
 GT5U.gui.config.machine_stats.cleanroom=超净间
 GT5U.gui.config.worldgen=世界生成
 GT5U.gui.config.worldgen.general=通用
-GT5U.gui.config.worldgen.end_asteroids=End Asteroids
+GT5U.gui.config.worldgen.end_asteroids=末地小行星
 
 GT5U.gui.text.cannot_change_when_running=无法在运行时更改配置！
 
@@ -3335,7 +3335,7 @@ gt.blockmachines.multimachine.beamcrafting.LHC.tooltip6=在大型强子对撞机
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip7=加速器模式每次循环会将§9束流能量§7提升 §3循环内消耗的EU数§7 * §f0.1eV§7 / §6束流通量§7
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip8=直到当前束流能量达到§9目标束流能量§7，或是当前循环数达到设定的§d最大循环数§7
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip9=若当前束流能量已达到§9目标束流能量§7，每次循环将当前§6束流通量§7增加§f0.3§7 * 当前§6束流通量§7
-gt.blockmachines.multimachine.beamcrafting.LHC.tooltip10=但若当前§6束流通量§7>=§f2000§7，
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip10=但若当前§6束流通量§7>=§f5000§7，增加（§f0.3§7*§6束流通量§7）^§f0.5§7
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip11=改为将当前§6束流通量§7增加(§f0.3§7 * §6束流通量§7)^§f0.5§7
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip12=§3功耗§7消耗的初始值为每§6束流通量§7 §f1A§7 §fUV§7，
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip13=并随§d已完成循环次数§7以二次方增长
@@ -3631,8 +3631,8 @@ GT5U.armor.part.name.OmniMovement=组件：全向机动调节器
 GT5U.armor.part.name.WaterBreathing=组件：循环呼吸器
 GT5U.armor.part.name.MilkInfusion=组件：牛奶注射
 GT5U.armor.part.name.HoloInventory=组件：全息库存
-GT5U.armor.part.name.Travelers=Augment: Thaumic Accelerators
-GT5U.armor.part.name.Terrasteel=Augment: Terrestrial Enhancement
+GT5U.armor.part.name.Travelers=组件：魔力加速器
+GT5U.armor.part.name.Terrasteel=组件：泰拉强化
 
 GT5U.armor.part.tooltip.NightVision=允许穿戴者在黑暗中看清物体
 GT5U.armor.part.tooltip.CreativeFlight=赋予穿戴者创造飞行能力
@@ -3655,8 +3655,8 @@ GT5U.armor.part.tooltip.OmniMovement=提高全方向的移动速度
 GT5U.armor.part.tooltip.WaterBreathing=水下缺氧时自动补充氧气
 GT5U.armor.part.tooltip.MilkInfusion=移除负面效果
 GT5U.armor.part.tooltip.HoloInventory=显示附近容器的全息视图
-GT5U.armor.part.tooltip.Travelers=Grants the user a more powerful version of Boots of the Traveler
-GT5U.armor.part.tooltip.Terrasteel=Grants the Will of the Ancients. Effects include:\n - 20% Mana Discount\n - Passive Mana generation for Mana Tablets\n - Passive health regeneration when not fully fed
+GT5U.armor.part.tooltip.Travelers=赋予穿戴者更强大版本旅行者之靴的能力
+GT5U.armor.part.tooltip.Terrasteel=赋予穿戴者远古意志。效果包括：\n - 20% Mana消耗\n - 对魔力石板的被动Mana产出\n - 未完全饱腹时的被动生命值恢复
 
 GT5U.armor.behavior.NightVision=夜视
 GT5U.armor.behavior.GogglesOfRevealing=神秘视觉
@@ -3682,7 +3682,7 @@ GT5U.armor.behavior.WaterBreathing=水下呼吸
 GT5U.armor.behavior.Teleporter=个人传送器
 GT5U.armor.behavior.MilkInfusion=牛奶注射
 GT5U.armor.behavior.HoloInventory=全息库存
-GT5U.armor.behavior.Terrasteel=Will of the Ancients
+GT5U.armor.behavior.Terrasteel=远古意志
 
 GT5U.armor.message.enabled=已启用%s
 GT5U.armor.message.disabled=已禁用%s
@@ -3760,7 +3760,7 @@ GT5U.hatch.fluid.filter.disable=流体输出过滤已禁用
 GT5U.hatch.item.filter.disable=物品输出过滤已禁用
 GT5U.hatch.filter.none=未指定
 GT5U.hatch.filter.tooltip.0=§6左键单击§8移除
-GT5U.hatch.outputme.filter.format=%s: %s:
+GT5U.hatch.outputme.filter.format=%s：%s：
 GT5U.hatch.outputme.checkMode.true=检查模式 §c开启§r
 GT5U.hatch.outputme.checkMode.false=检查模式 §a关闭§r
 GT5U.hatch.outputme.checkMode.desc=注意：检查模式会检查输出是否有足够空间，这会导致更多性能延迟。
@@ -3796,17 +3796,17 @@ GT5U.multiblock.preciseassemblercasing=电压受机械方块等级限制：%s
 GT5U.multiblock.runningMode=§e运行模式：
 GT5U.multiblock.startup=启动中……
 GT5U.multiblock.recipesDone=配方已完成
-GT5U.multiblock.recipesDone.fmt=Recipes Finished: §a%s§r
-GT5U.multiblock.Progress.fmt.s=Progress: §a%s§r s / §e%s§r s
-GT5U.multiblock.Progress.fmt.t=Progress: §a%s§r t / §e%s§r t
-GT5U.multiblock.energy.fmt=Stored Energy: §a%s§r EU / §e%s§r EU
-GT5U.multiblock.usage.fmt=Currently uses: §c%s§r EU/t
-GT5U.multiblock.mei.fmt.2A=Max Energy Income: §e%s§r EU/t(*2A) Tier: §e%s§r
-GT5U.multiblock.mei.fmt.xA=Max Energy Income: §e%s§r EU/t(*§e%s§rA) Tier: §e%s§r
-GT5U.multiblock.mei.fmt.mega=Max Energy Income: §e%s§r EU/t(*%sA) = §e%s§r
-GT5U.machines.tier.fmt=Tier: §e%s§r
-GT5U.multiblock.pollution.fmt=Pollution reduced to: §a%s§r %%
-GT5U.multiblock.problems.efficiency.fmt=Problems: §c%s§r  Efficiency: §e%s
+GT5U.multiblock.recipesDone.fmt=配方已完成：§a%s§r
+GT5U.multiblock.Progress.fmt.s=进度：§a%s§r s / §e%s§r s
+GT5U.multiblock.Progress.fmt.t=进度：§a%s§r t / §e%s§r t
+GT5U.multiblock.energy.fmt=已存储能量：§a%s§rEU / §e%s§rEU
+GT5U.multiblock.usage.fmt=当前耗电：§c%s§rEU/t
+GT5U.multiblock.mei.fmt.2A=最大能量输入：§e%s§rEU/t（×2A） 电压等级：§e%s§r
+GT5U.multiblock.mei.fmt.xA=最大能量输入：§e%s§rEU/t（×§e%s§rA） 电压等级：§e%s§r
+GT5U.multiblock.mei.fmt.mega=最大能量输入：§e%s§rEU/t（×%sA） = §e%s§r
+GT5U.machines.tier.fmt=等级：§e%s§r
+GT5U.multiblock.pollution.fmt=污染已降至：§a%s§r%%
+GT5U.multiblock.problems.efficiency.fmt=问题：§c%s§r效率：§e%s
 
 
 GT5U.multiblock.scanner.pollution=污染已降至：§a%s§r%%
@@ -4362,7 +4362,7 @@ gt.item.paper.punch_card.encoded.name=穿孔卡片
 
 # Pads
 gt.blockpad.0.name=弹跳板
-gt.blockpad.1.name=Sticky Pad
+gt.blockpad.1.name=粘性板
 
 ## Book
 gt.item.book.written.01.name=书
@@ -4609,15 +4609,15 @@ gt.item.conveyor_module.max.tooltip=作为覆盖板时，每1/20秒传输16组�
 
 ## Robot Arms
 gt.item.robot_arm.lv.name=机械臂（LV）
-gt.item.robot_arm.lv.tooltip=作为覆盖版时每20秒1组\n从特定槽位抓取并插入特定槽位
+gt.item.robot_arm.lv.tooltip=作为覆盖板时每20秒1组\n从特定槽位抓取并插入特定槽位
 gt.item.robot_arm.mv.name=机械臂（MV）
-gt.item.robot_arm.mv.tooltip=作为覆盖版时每5秒1组\n从特定槽位抓取并插入特定槽位
+gt.item.robot_arm.mv.tooltip=作为覆盖板时每5秒1组\n从特定槽位抓取并插入特定槽位
 gt.item.robot_arm.hv.name=机械臂（HV）
-gt.item.robot_arm.hv.tooltip=作为覆盖版时每1秒1组\n从特定槽位抓取并插入特定槽位
+gt.item.robot_arm.hv.tooltip=作为覆盖板时每1秒1组\n从特定槽位抓取并插入特定槽位
 gt.item.robot_arm.ev.name=机械臂（EV）
-gt.item.robot_arm.ev.tooltip=作为覆盖版时每1/5秒1组\n从特定槽位抓取并插入特定槽位
+gt.item.robot_arm.ev.tooltip=作为覆盖板时每1/5秒1组\n从特定槽位抓取并插入特定槽位
 gt.item.robot_arm.iv.name=机械臂（IV）
-gt.item.robot_arm.iv.tooltip=作为覆盖版时每1/20秒1组\n从特定槽位抓取并插入特定槽位
+gt.item.robot_arm.iv.tooltip=作为覆盖板时每1/20秒1组\n从特定槽位抓取并插入特定槽位
 gt.item.robot_arm.luv.name=机械臂（LuV）
 gt.item.robot_arm.zpm.name=机械臂（ZPM）
 gt.item.robot_arm.uv.name=机械臂（UV）
@@ -4812,9 +4812,9 @@ gt.item.cover.redstone_transmitter_internal.tooltip=无线传输红石信号\n§
 gt.item.cover.redstone_receiver.name=红石信号接收器
 gt.item.cover.redstone_receiver.tooltip=无线传输红石信号
 gt.item.cover.wireless_controller.name=无线机器控制覆盖板
-gt.item.cover.wireless_controller.tooltip=远程开关机器\n仅能与高级无线覆盖板连接
-gt.item.cover.advanced_wireless_controller.name=Advanced Wireless Machine Controller Cover
-gt.item.cover.advanced_wireless_controller.tooltip=Turns Machines ON/OFF wirelessly\nIncludes Logic Gates\nCan only connect with advanced wireless covers
+gt.item.cover.wireless_controller.tooltip=远程开关机器\n不包括逻辑门！只能接受单个信号！\n仅能与高级无线覆盖板连接
+gt.item.cover.advanced_wireless_controller.name=进阶无线机器控制覆盖板
+gt.item.cover.advanced_wireless_controller.tooltip=无线传输红石信号\n自带逻辑门\n只能与高级无线覆盖板连接
 
 ### Maintenance Cover
 gt.item.cover.needs_maintenance.name=维护提示覆盖板
@@ -5069,7 +5069,7 @@ gt.item.dye.white.name=白色染料
 gt.item.plank_cover.tooltip=能被作为覆盖板
 
 ## Plank Cover names
-gt.item.plank_cover.oak.name=橡木木板覆盖版
+gt.item.plank_cover.oak.name=橡木木板覆盖板
 gt.item.plank_cover.spruce.name=云杉木木板覆盖板
 gt.item.plank_cover.birch.name=白桦木木板覆盖板
 gt.item.plank_cover.jungle.name=丛林木木板覆盖板
@@ -5716,7 +5716,7 @@ GT5U.nei.display.steam_variant.bronze=青铜
 GT5U.nei.display.steam_variant.steel=钢
 GT5U.nei.display.duration.seconds=时间：%s 秒
 GT5U.nei.display.duration.ticks=时间：%s tick
-GT5U.nei.display.discount.energy=Energy discount: %s%%
+GT5U.nei.display.discount.energy=能耗减免：%s%%
 GT5U.nei.display.total=总计：%s EU
 GT5U.nei.display.total.steam=总计：%s L 蒸汽
 GT5U.nei.display.usage=使用：%s EU/t %s
@@ -6968,7 +6968,7 @@ gt.cover.info.button.tick_rate.2=左键点击增加，右键点击降低
 gt.cover.info.button.tick_rate.3=按住Ctrl点击一次调整更大幅度
 gt.cover.info.button.bounds_notification.minimum=§7（最小）§r
 gt.cover.info.button.bounds_notification.maximum=§7（最大）§r
-gt.cover.wirelessdetector.redstone.tooltip=更改这些覆盖版的红石输出行为
+gt.cover.wirelessdetector.redstone.tooltip=更改这些覆盖板的红石输出行为
 gt.cover.wirelessdetector.redstone.0=§8仅无线信号
 gt.cover.wirelessdetector.redstone.1=§8无线&直出信号
 gt.time.tick.singular=t
@@ -7250,7 +7250,7 @@ GT5U.scanner.title_custom_info=自定义信息
 GT5U.scanner.title_side_info=侧边信息
 GT5U.scanner.title_wrench_info=扳手信息
 GT5U.scanner.title_ic2_info=IC2信息
-GT5U.scanner.title_cover_info=覆盖版信息
+GT5U.scanner.title_cover_info=覆盖板信息
 GT5U.scanner.title_energy_info=能量信息
 GT5U.scanner.title_crop_info=作物信息
 GT5U.scanner.title_leaves_info=树叶信息
@@ -7299,14 +7299,14 @@ GT5U.scanner.debug.meta_id=Meta-ID: §b%s %s
 GT5U.scanner.debug.tick_disabled=Tick Disabled
 GT5U.scanner.debug.tick_stats_started=Just started tick time statistics.
 GT5U.scanner.debug.tick_stats=§6%s§r刻内平均CPU负载约为~§6%s§r纳秒，最差情况为§6%s§r纳秒。
-GT5U.scanner.debug.lag_warnings=Caused %s Lag Spike Warnings (anything taking longer than %sms) on the Server.
-GT5U.scanner.debug.lag_warnings_many=Caused more than 10 Lag Spike Warnings (anything taking longer than %sms) on the Server.
+GT5U.scanner.debug.lag_warnings=已在服务器中造成%s次延迟尖峰警告（任何大于%sms的情况）。
+GT5U.scanner.debug.lag_warnings_many=已在服务器中造成超过10次延迟尖峰警告（任何大于%sms的情况）。
 GT5U.scanner.debug.accessible=可访问
 GT5U.scanner.debug.not_accessible=§c不可§r访问
 GT5U.scanner.debug.sound_requests=Recorded §6%s§r sound requests in §6%s§r ticks.
-GT5U.scanner.debug.machine_active=Machine is §aactive§r
-GT5U.scanner.debug.machine_inactive=Machine is §cinactive§r
-GT5U.scanner.debug.needs_power=§cATTENTION: This Device needs more power.§r
+GT5U.scanner.debug.machine_active=机器§a活跃中§r
+GT5U.scanner.debug.machine_inactive=机器§c未活跃§r
+GT5U.scanner.debug.needs_power=§c注意：设备需要更多电力。§r
 GT5U.scanner.debug.ic2_enet=Joined IC2 ENet
 GT5U.tooltip.drone_remote_disconnected=Shift 右键点击一个已激活的无人机中心进行连接
 GT5U.tooltip.drone_remote_connected=已连接到无人机控制中心：%s, %s, %s，于维度%s
@@ -7384,18 +7384,18 @@ GT5U.infodata.coordinates.y=Y：%s
 GT5U.infodata.coordinates.z=Z：%s
 GT5U.infodata.dimension=维度：%s
 GT5U.infodata.dimension.valid=维度有效：%s
-GT5U.infodata.dimension.valid.yes=Dimension Valid: §aYes§r
-GT5U.infodata.dimension.valid.no=Dimension Valid: §cNo§r
+GT5U.infodata.dimension.valid.yes=维度有效：§a是§r
+GT5U.infodata.dimension.valid.no=维度有效：§c否§r
 GT5U.infodata.dimension.registered=维度注册：%s
-GT5U.infodata.dimension.registered.yes=Dimension Registered: §aYes§r
-GT5U.infodata.dimension.registered.no=Dimension Registered: §cNo§r
+GT5U.infodata.dimension.registered.yes=维度已注册：§a是§r
+GT5U.infodata.dimension.registered.no=维度已注册：§c否§r
 GT5U.infodata.yes=是
 GT5U.infodata.no=否
 
 
 GT5U.infodata.world_accelerator.mode=加速器运行于%s模式
-GT5U.infodata.world_accelerator.mode.blocks=Accelerator running in Blocks mode
-GT5U.infodata.world_accelerator.mode.tile_entities=Accelerator running in TileEntities mode
+GT5U.infodata.world_accelerator.mode.blocks=加速器运行于方块模式
+GT5U.infodata.world_accelerator.mode.tile_entities=加速器运行于方块实体 TE模式
 GT5U.infodata.world_accelerator.speed=速度设置：[%s / %s]
 GT5U.infodata.world_accelerator.consuming=消耗%sEU/t
 GT5U.infodata.world_accelerator.radius=半径设置：[%s / %s]
@@ -7407,24 +7407,24 @@ GT5U.infodata.air_filter.remaining_cycles=过滤器剩余周期（如存在）�
 GT5U.infodata.diesel_engine=柴油发电机
 GT5U.infodata.extreme_diesel_engine=极限内燃引擎
 GT5U.infodata.fusion_reactor_mk=聚变反应堆 MK-
-GT5U.infodata.engine.diesel_title=§9Diesel Engine§r
-GT5U.infodata.engine.extreme_diesel_title=§9Extreme Diesel Engine§r
-GT5U.infodata.engine.maintenance.ok=§aNo Maintenance issues§r
-GT5U.infodata.engine.maintenance.needed=§cNeeds Maintenance§r
-GT5U.infodata.engine.output=Current Output: §c%s§r EU/t
-GT5U.infodata.engine.consumption=Fuel Consumption: §e%s§r L/t
-GT5U.infodata.engine.value=Fuel Value: §e%s§r EU/L
-GT5U.infodata.engine.fuel_remaining=Fuel Remaining: §6%s§r L
-GT5U.infodata.engine.efficiency=Current Efficiency: §e%s§r %%
-GT5U.infodata.ebf.heat=Heat Capacity: §a%s§r K
+GT5U.infodata.engine.diesel_title=§9内燃引擎§r
+GT5U.infodata.engine.extreme_diesel_title=§9极限内燃引擎§r
+GT5U.infodata.engine.maintenance.ok=§a没有维护问题§r
+GT5U.infodata.engine.maintenance.needed=§c需要维护§r
+GT5U.infodata.engine.output=当前输出：§c%s§r EU/t
+GT5U.infodata.engine.consumption=燃料消耗：§e%s§r L/t
+GT5U.infodata.engine.value=燃料热值：§e%s§r EU/L
+GT5U.infodata.engine.fuel_remaining=剩余燃料：§6%s§rL
+GT5U.infodata.engine.efficiency=当前效率：§e%s§r%%
+GT5U.infodata.ebf.heat=温度：§a%s§r K
 GT5U.infodata.ms.multismelting=Multi Smelting: §a%s§r
 GT5U.infodata.lhe.steam=Currently uses (in steam): %s EU/t
-GT5U.infodata.lhe.superheated=Superheated: %s
-GT5U.infodata.lhe.threshold=Superheated threshold: §a%s§r
-GT5U.infodata.fusion.mk_tier=§9Fusion Reactor MK§r %s
-GT5U.infodata.fusion.req=EU Required: §c%s§rEU/t
-GT5U.infodata.fusion.plasma=Plasma Output: §e%s§rL/t
-GT5U.infodata.naquadah_refinery.coil_tier=Coil Tier: %s
+GT5U.infodata.lhe.superheated=过热：%s
+GT5U.infodata.lhe.threshold=过热阈值：§a%s§r
+GT5U.infodata.fusion.mk_tier=§9聚变反应堆 MK-§r%s
+GT5U.infodata.fusion.req=能量需求：§c%s§r EU/t
+GT5U.infodata.fusion.plasma=等离子体输出：§e%s§rL/t
+GT5U.infodata.naquadah_refinery.coil_tier=线圈等级：%s
 
 GT5U.infodata.large_fluid_extractor.max_parallels=最大并行：%s%d%s
 GT5U.infodata.large_fluid_extractor.heating_coil_speed_bonus=加热线圈速度加成：+%s%.0f%s%%
@@ -7432,27 +7432,27 @@ GT5U.infodata.large_fluid_extractor.total_speed_multiplier=总速度倍率：%s%
 GT5U.infodata.large_fluid_extractor.total_eu_multiplier=EU总倍率：%s%.0f%s%%
 
 GT5U.infodata.large_neutralization_engine=大型中和引擎
-GT5U.infodata.engine.large_neutralization_title=§9Large Neutralization Engine§r
+GT5U.infodata.engine.large_neutralization_title=§9大型中和引擎§r
 
-GT5U.infodata.oil_drill.title=§9Oil/Fluid Pump§r
-GT5U.infodata.oil_drill.work_area=Work Area: §a%s x %s§r Chunks
+GT5U.infodata.oil_drill.title=§9石油/流体钻机§r
+GT5U.infodata.oil_drill.work_area=工作区域：§a%s x %s§r 区块
 GT5U.infodata.oil_drill.drilling_fluid=钻井液：%s
 GT5U.infodata.oil_drill.drilling_flow=钻井液流量：%s L/t
 
-GT5U.infodata.ore_drill.title=§9Multiblock Miner§r
-GT5U.infodata.ore_drill.work_area=Work Area: §a%sx%s§r Chunks
+GT5U.infodata.ore_drill.title=§9采矿场§r
+GT5U.infodata.ore_drill.work_area=工作区域：§a%sx%s§r 区块
 
-GT5U.infodata.integrated_ore_factory.parallelism=Max Parallel: §9%s§r
+GT5U.infodata.integrated_ore_factory.parallelism=最大并行：§9%s§r
 
-GT5U.infodata.pcb_factory.mei=Max Energy Income: §e%s§r EU/t(*%s A) Tier: §e%s§r
-GT5U.infodata.pcb_factory.parallel=Max Parallel: §a%s§r, Current Parallel: §a%s§r
-GT5U.infodata.pcb_factory.upgrades=Upgrades: %s
+GT5U.infodata.pcb_factory.mei=最大能量输入：§e%s§rEU/t（×%sA） 电压等级：§e%s§r
+GT5U.infodata.pcb_factory.parallel=最大并行：§a%s§r，当前并行：§a%s§r
+GT5U.infodata.pcb_factory.upgrades=升级：%s
 
-GT5U.infodata.pcb_upgrade_base.linked_at=Linked at: %s, %s, %s
-GT5U.infodata.pcb_upgrade_base.not_linked=Not linked
+GT5U.infodata.pcb_upgrade_base.linked_at=连接至：%s，%s，%s
+GT5U.infodata.pcb_upgrade_base.not_linked=未连接
 
 GT5U.infodata.critical_info=关键信息
-GT5U.infodata.critical_info.hdr=§m------------§r §lCritical Information§r §m------------
+GT5U.infodata.critical_info.hdr=§m------------§r§l关键信息§r§m------------
 GT5U.infodata.plasma_forge.ticks_run_fuel_discount=运行刻数：%s，燃油减免：%s（额外催化剂消耗：%sL）
 GT5U.infodata.plasma_forge.fuel_discount=燃料减免：%s
 GT5U.infodata.plasma_forge.convergence=收敛：%s
@@ -8847,7 +8847,7 @@ gt.item.gravitational_lens.tooltip=便携式引力井
 gt.item.planck_manifold.name=普朗克尺度流形
 gt.item.planck_manifold.tooltip=不能再小了
 
-gt.loading.progress.post_init.loading_gt=Post Initialization: loading GregTech
+gt.loading.progress.post_init.loading_gt=后初始化：正在加载格雷科技
 
 # BEC Meta Materials
 gt.item.meta_material.energy_conduit.perfected.name=完美能量导管
@@ -8921,30 +8921,30 @@ GT5U.gui.text.available-condensate=可用的凝聚态物质：
 GT5U.gui.text.bec-stored-condensate=存储的凝聚态物质：
 
 # BEC I/O Node Structure Hints
-GT5U.tooltip.bec-ionode.controller-pos=Front center, 12th layer
-GT5U.tooltip.bec-ionode.hatch-pos=Any electromagnetically-isolated casing
-GT5U.tooltip.bec-ionode.los-hatch-pos=Back center casing
+GT5U.tooltip.bec-ionode.controller-pos=第十二层正面中央
+GT5U.tooltip.bec-ionode.hatch-pos=任意电磁隔离机械方块
+GT5U.tooltip.bec-ionode.los-hatch-pos=背面中央机械方块
 
 # BEC Generator Structure Hints
-GT5U.tooltip.bec-generator.controller-pos=Front center, 10th layer
-GT5U.tooltip.bec-generator.hatch-pos=Any electromagnetically-isolated casing around controller
-GT5U.tooltip.bec-generator.bec-hatch-pos=Back center casing
+GT5U.tooltip.bec-generator.controller-pos=第十层正面中央
+GT5U.tooltip.bec-generator.hatch-pos=任意控制器周围电磁隔离机械方块
+GT5U.tooltip.bec-generator.bec-hatch-pos=背面中央机械方块
 
 # BEC Storage Structure Hints
-GT5U.tooltip.bec-storage.controller-pos=Bottom front of central pillar, 3rd layer
-GT5U.tooltip.bec-storage.hatch-pos=Any electromagnetically-isolated casing
-GT5U.tooltip.bec-storage.bec-hatch-pos=Any center side casing
+GT5U.tooltip.bec-storage.controller-pos=中央支柱前下部，第三层
+GT5U.tooltip.bec-storage.hatch-pos=任意电磁隔离机械方块
+GT5U.tooltip.bec-storage.bec-hatch-pos=任意侧面机械方块中央
 
 # BEC Diode Structure Hints
-GT5U.tooltip.bec-diode.controller-pos=Front center, 6th layer
-GT5U.tooltip.bec-diode.hatch-pos=Any electromagnetically-isolated casing
-GT5U.tooltip.bec-diode.bec-hatch-pos=Center left casing (input), center right casing (output)
+GT5U.tooltip.bec-diode.controller-pos=第六层正面中央
+GT5U.tooltip.bec-diode.hatch-pos=任意电磁隔离机械方块
+GT5U.tooltip.bec-diode.bec-hatch-pos=左侧中央机械方块输入，右侧中央机械方块输出
 
 # BEC Assembler Structure Hints
-GT5U.tooltip.bec-assembler.controller-pos=Front center, 16th layer
-GT5U.tooltip.bec-assembler.hatch-pos=Any electromagnetically-isolated casing
-GT5U.tooltip.bec-assembler.bec-hatch-pos=Center left or right casing
-GT5U.tooltip.bec-assembler.los-hatch-pos=Center side casing of each ring
+GT5U.tooltip.bec-assembler.controller-pos=第十六层正面中央
+GT5U.tooltip.bec-assembler.hatch-pos=任意电磁隔离机械方块
+GT5U.tooltip.bec-assembler.bec-hatch-pos=左右两侧机械方块中央
+GT5U.tooltip.bec-assembler.los-hatch-pos=各环各侧机械方块中央
 
 # BEC Settings
 GT5U.gui.text.bec-filter=过滤
@@ -8960,7 +8960,7 @@ GT5U.gui.text.bec-speed-divisor=速度除数
 
 # Misc BEC Tooltips
 gt.tooltip.nanite-tier=纳米蜂群等级：%s
-gt.tooltip.max-nanite=纳米蜂群等级：
+gt.tooltip.max-nanite=最大纳米蜂群等级：
 GT5U.gui.text.pause-immediately.tooltip=I/O节点在接收到红石信号时会停止处理。
 GT5U.gui.text.pause-next-step.tooltip=I/O节点在接收到红石信号时会停止切换至新的输入步骤
 
@@ -8978,7 +8978,7 @@ gt.blockmachines.pipe.test.name=测试工厂管道
 gt.blockmachines.hatch.test.name=测试工厂仓室
 
 # Basic Generators - Shared
-gt.blockmachines.basicgenerator.fuel_efficiency=Fuel Efficiency: %s%%
+gt.blockmachines.basicgenerator.fuel_efficiency=燃料效率: %s%%
 
 # Basic Generators - Combustion
 gt.blockmachines.basicgenerator.diesel.tier.01.name=基础内燃发电机
@@ -9031,10 +9031,10 @@ gt.blockmachines.basicgenerator.magicenergyabsorber.tier.01.name=新手魔法能
 gt.blockmachines.basicgenerator.magicenergyabsorber.tier.02.name=学徒魔法能源吸收器
 gt.blockmachines.basicgenerator.magicenergyabsorber.tier.03.name=大师魔法能源吸收器
 gt.blockmachines.basicgenerator.magicenergyabsorber.tier.04.name=宗师魔法能源吸收器
-gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip=§nFeasts on §d§nmagic§7§n close to it:\n- %s\n- %sEU per §dEnder Crystal§7 in range\n§r \n§nLookup range (Use Screwdriver to change):\nDefault: §a%s\nMax: §a%s\n§r \n§nFuels on §d§nenchantments§7§n input:\n- Item: %sEU per §denchant§7 weight × level / max\n- Book: 10000EU per §denchant§7 weight × level / max\n§r \nEfficiency: §a%s%%
-gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.dragon_egg.shared=A §7 §dDragon Egg§7 atop
-gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.dragon_egg.exclusive=An §e§nEXCLUSIVE§r§7 §dDragon Egg§7 atop
-gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.thaumcraft=- %sCV/t from an §dEnergised Node§7\n- %sEU per §dEssentia§7 Aspect-Value from containers in range
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip=§n摄取附近的§d§n魔力§7§n：\n- %s\n- 每个范围内的§d末影水晶§7 %sEU\n§r\n§n 搜索范围（使用螺丝刀调整）：\n默认：§a%s\n最大：§a%s\n§r\n§n输入§d§n附魔§7§n作为燃料：\n- 物品：每个§d附魔§7质量×等级/最大 %sEU\n- 物品：每个§d附魔§7质量×等级/最大 10000EU\n§r\n效率：§a%s%%
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.dragon_egg.shared=机器上的§7§d龙蛋§7
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.dragon_egg.exclusive=机器上的§e§n专属§r§7§d龙蛋§7
+gt.blockmachines.basicgenerator.magicenergyabsorber.tooltip.thaumcraft=- 从§d充能节点§7 %sCV/t\n- 搜索范围内容器的每点§d源质§7 %sEU
 
 # Basic Generators - Solar Panel
 gt.blockmachines.basicgenerator.solarpanel.00.name=1伏太阳能板

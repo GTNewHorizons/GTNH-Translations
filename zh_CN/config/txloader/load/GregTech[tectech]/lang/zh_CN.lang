@@ -1416,9 +1416,9 @@ tt.keyword.Structure.Elemental=元物质仓
 tt.keyword.Structure.ElementalOverflow=元物质溢流仓
 tt.keyword.Structure.ElementalInput=元物质输入仓
 tt.keyword.Structure.EssentiaStorage=源质存储装置
-tt.keyword.Structure.DataConnector=光学接口
-tt.keyword.Structure.DataInput=数据输入仓
-tt.keyword.Structure.DataOutput=数据输出仓
+tt.keyword.Structure.DataConnector=光学发送/接受接口
+tt.keyword.Structure.DataInput=光学接收接口
+tt.keyword.Structure.DataOutput=光学发送接口
 tt.keyword.Structure.SuperconductingCoilBlock=超导线圈方块
 tt.keyword.Structure.StainlessSteelCasing=不锈钢机械方块
 tt.wirelessInputData.config.text=设置从无线网络中拉取多少算力
@@ -1449,7 +1449,7 @@ tt.keyword.Status=状态
 tt.keyword.Content=内含
 tt.keyword.Content.fmt=Content: §b%s
 tt.keyword.PacketHistory=封包记录
-tt.keyword.PacketHistory.fmt=PacketHistory: §c%s
+tt.keyword.PacketHistory.fmt=封包记录:§c%s
 tt.keyword.ID.fmt=ID: §b%s
 
 #Used when 0 Elemental Matter Stacks
@@ -1960,17 +1960,17 @@ tt.infodata.multi.divisor.recipe_time.non_perfect_oc=非完美OC的配方时间�
 tt.infodata.multi.currently_using=当前使用：%s EU/t
 tt.infodata.multi.capacity.heat=最大温度：%s
 tt.infodata.multi.capacity.heat.effective=生效温度：%s
-tt.infodata.active_transformer.min_hatch_tier=Min hatch tier: %s
-tt.infodata.active_transformer.last_5s=Last 5 seconds: %s EU/t
-tt.infodata.active_transformer.last_30s=Last 30 seconds: %s EU/t
-tt.infodata.active_transformer.last_1min=Last minute: %s EU/t
-tt.infodata.research.energy_hatches.header=Energy Hatches:
-tt.infodata.research.currently_uses=Currently uses: §c%s§r EU/t at §c%s§r A
-tt.infodata.research.tier_amp=Tier Rating: §e%s§r / §a%s§r Amp Rating: §a%s§r A
-tt.infodata.research.problems_efficiency=Problems: §c%s§r Efficiency: §e%s§r %%
-tt.infodata.research.power_pass_safe_void=PowerPass: §9%s§r SafeVoid: §9%s
-tt.infodata.research.computation_available=Computation Available: §a%s§r / §e%s§r
-tt.infodata.research.computation_remaining=Computation Remaining: §a%s§r / §e%s§r
+tt.infodata.active_transformer.min_hatch_tier=最低仓室等级：%s
+tt.infodata.active_transformer.last_5s=过去 5 秒 %s EU/t
+tt.infodata.active_transformer.last_30s=过去 30 秒 %s EU/t
+tt.infodata.active_transformer.last_1min=过去 1 分钟 %s EU/t
+tt.infodata.research.energy_hatches.header=能源仓：
+tt.infodata.research.currently_uses=当前耗电： §c%s§rEU/t，电流为 §c%s§rA
+tt.infodata.research.tier_amp=等级: §e%s§r/§a%s§r 电流数： §a%s§rA
+tt.infodata.research.problems_efficiency=问题：§c%s§r效率：§e%s§r%%
+tt.infodata.research.power_pass_safe_void=导能：§9%s§r 安全销毁：§9%s
+tt.infodata.research.computation_available=算力：§a%s§r / §e%s§r
+tt.infodata.research.computation_remaining=剩余算力：§a%s§r / §e%s§r
 
 ## Waila
 
@@ -1978,10 +1978,10 @@ tt.waila.multi.computation=§7算力：§a%s
 
 ## Eye of Harmony
 tt.infodata.eoh.control_block_statistics=控制块统计
-tt.infodata.eoh.control_block_statistics.header=§6§m-------------§r§6 Control Block Statistics §m-------------
-tt.infodata.eoh.internal_storage.header=§6§m-----------------§r§6 Internal Storage §m----------------
-tt.infodata.eoh.other_stats.header=§6§m-----------------§r§6 Other Stats §m-----------------
-tt.infodata.eoh.divider=§6§m-----------------------------------------------------
+tt.infodata.eoh.control_block_statistics.header=§6§m------------§r§6控制块统计§m------------
+tt.infodata.eoh.internal_storage.header=§6§m-------------§r§6内部存储§m-------------
+tt.infodata.eoh.other_stats.header=§6§m-------------§r§6其他属性§m-------------
+tt.infodata.eoh.divider=§6§m-----------------------------------------
 tt.infodata.eoh.spacetime_compression.grade=压缩时空场等级：%s（%s）
 tt.infodata.eoh.spacetime_compression.grade.none=压缩时空场等级：无
 tt.infodata.eoh.time_dilation.grade=时间膨胀场等级：%s（%s）
@@ -1990,7 +1990,7 @@ tt.infodata.eoh.stabilisation.grade=稳定力场等级：%s（%s）
 tt.infodata.eoh.stabilisation.grade.none=稳定力场等级：无
 tt.infodata.eoh.internal_storage=内置存储箱
 tt.infodata.eoh.astral_array_fabricators=星阵
-tt.infodata.eoh.astral_array_fabricators.count=§9Astral Array Fabricators§r : §c%s
+tt.infodata.eoh.astral_array_fabricators.count=§9星阵§r：§c%s
 tt.infodata.eoh.other_stats=其他属性
 tt.infodata.eoh.success_chance=配方成功率：%s
 tt.infodata.eoh.recipe_yield=配方产量：%s
@@ -2059,9 +2059,9 @@ tt.spaceminer.filter.addOre=点击将此矿石添加到过滤器
 tt.gui.tooltip.power_pass=导能
 tt.gui.tooltip.safe_void=安全销毁
 tt.gui.tooltip.power_switch=电源开关
-tt.gui.tooltip.edit_parameters=Edit Parameters
-tt.gui.tooltip.open_editor=Open Editor
-tt.gui.parameter.header=Parameters
+tt.gui.tooltip.edit_parameters=编辑参数
+tt.gui.tooltip.open_editor=打开编辑器
+tt.gui.parameter.header=参数
 
 tt.gui.tooltip.plasma_module.debug_window=调试窗口
 tt.gui.tooltip.plasma_module.debug_window.multi_step=多步骤
