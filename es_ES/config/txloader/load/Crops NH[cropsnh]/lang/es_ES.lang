@@ -99,28 +99,31 @@ death.attack.cropsnh:heartAttack=%1$s drank too much coffee
 death.attack.cropsnh:heartAttack.player=%1$s had a heart attack whilst fighting %2$s
 
 # Tooltips
-cropsnh_tooltip.isSick=§cIs sick, can't grow!§r
-cropsnh_tooltip.unidentified=Unidentified
-cropsnh_tooltip.seed=Seed
-cropsnh_tooltip.stats=Stats -- Growth: %1$s  Gain: %2$s  Resistance: %3$s
-cropsnh_tooltip.growth=Growth
-cropsnh_tooltip.gain=Gain
-cropsnh_tooltip.resistance=Resistance
-cropsnh_tooltip.min_seed_bed_tier=Minimum Seed Bed tier: %1$s
-cropsnh_tooltip.soil=Soil -- Fertilizer: %1$s  Water: %2$s  Weed-EX: %3$s
-cropsnh_tooltip.weeds=Weeds -- §cBLAZE IT§r
-cropsnh_tooltip.failedReq=§c%1$s§r
-cropsnh_tooltip.plantLens=Use this to inspect crops
-cropsnh_tooltip.handRake=Use this to remove weeds from crops
-cropsnh_tooltip.spade=Use this to remove weeds and get seeds when harvesting
-cropsnh_tooltip.reinforcedSpade=Use this to remove weeds and get more seeds when harvesting
-cropsnh_tooltip.empty=Nothing planted
-cropsnh_tooltip.progress=Progress: %1$s%%
-cropsnh_tooltip.none=none
-cropsnh_tooltip.mustUseSeedSynthesizerToReplicate=This seed can only be replicated using the synthesizer
-cropsnh_tooltip.mustUseBreederMachine=Can only be bred using a crop breeding machine
+cropsnh_tooltip.plantLens.weeds=Weeds -- §cBLAZE IT§r
+cropsnh_tooltip.plantLens.seed=Seed: %1$s
+cropsnh_tooltip.plantLens.empty=Nothing planted
+cropsnh_tooltip.plantLens.isSick=§cIs sick, can't grow!§r
+cropsnh_tooltip.plantLens.soil=Soil -- Fertilizer: %1$s  Water: %2$s  Weed-EX: %3$s
+cropsnh_tooltip.plantLens.stats=Stats -- Growth: %1$s  Gain: %2$s  Resistance: %3$s
+cropsnh_tooltip.genericSeed.scanToViewStats=§7Scan to view stats§r
+cropsnh_tooltip.genericSeed.growth=§a- Growth: %1$s§r
+cropsnh_tooltip.genericSeed.gain=§a- Gain: %1$s§r
+cropsnh_tooltip.genericSeed.resistance=§a- Resistance: %1$s§r
+cropsnh_tooltip.genericSeed.minSeedBedTier=Minimum Seed Bed tier: %1$s
+cropsnh_tooltip.genericSeed.mustUseSeedSynthesizerToReplicate=This seed can only be replicated using the synthesizer
+cropsnh_tooltip.genericSeed.mustUseBreederMachine=Can only be bred using a crop breeding machine
+cropsnh_tooltip.item.plantLens=Inspects crops
+cropsnh_tooltip.item.spade=Removes weeds and drops seeds when harvesting mature crops
+cropsnh_tooltip.item.reinforcedSpade=Removes weeds and drops more seeds when harvesting mature crops
+# the color coding here can only be done via waila because the chat component handling of formatted strings is ehh bad 
+cropsnh_tooltip.waila.cropStick.failedReq=§c%1$s§r
+cropsnh_tooltip.waila.cropStick.progressBar.scanned=%1$s / %2$s (%3$,.1f%%)
+cropsnh_tooltip.waila.cropStick.progressBar.notScanned=%1$,.1f%%
 # TODO: remove "(Check usages in NEI)" after a major version of GTNH.
-cropsnh_tooltip.wrongSoil=This crop needs a different soil (Check usages in NEI)
+cropsnh_tooltip.planting.wrongSoil=This crop needs a different soil (Check usages in NEI)
+
+# GT5u Scanner Section Header
+GT5U.scanner.title_crops=Crop Info
 
 # Structure Channel Descriptions
 cropsnh_tooltip.structure_channels.if_tier=Controls the tier of the Industrial Farm
@@ -734,10 +737,10 @@ cropsnh_breedingReq.lockout.worldOnly=Must use crop sticks
 # Lockout Growth Requirements
 cropsnh_growthReq.lockout.machineOnly=Can only be harvested in the Industrial Farm
 cropsnh_growthReq.lockout.machineOnly.nei=Only harvestable in the I. Farm
-cropsnh_growthReq.lockout.migrated=Invalid Soil! Break to get seed!
+cropsnh_growthReq.lockout.migrated=Invalid soil! Break to get seed!
 # Light Growth Requirements
-cropsnh_growthReq.minLight.format=Needs a light Level of %1$s or higher
-cropsnh_growthReq.maxLight.format=Needs a light Level of %1$s or lower
+cropsnh_growthReq.minLight.format=Needs a light level of %1$s or higher
+cropsnh_growthReq.maxLight.format=Needs a light level of %1$s or lower
 # Vanilla Stone Lily Growth Requirements
 cropsnh_growthReq.blockUnder.stone=Needs a block of stone under it to grow
 cropsnh_growthReq.blockUnder.sand=Needs a block of sand or sandstone under it to grow
