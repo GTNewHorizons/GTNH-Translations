@@ -99,28 +99,31 @@ death.attack.cropsnh:heartAttack=%1$sはコーヒーを飲みすぎた
 death.attack.cropsnh:heartAttack.player=%1$sは%2$sとの戦闘中に心臓発作を起こした
 
 # Tooltips
-cropsnh_tooltip.isSick=§c病気になっているため成長できません！§r
-cropsnh_tooltip.unidentified=未鑑定
-cropsnh_tooltip.seed=種
-cropsnh_tooltip.stats=ステータス -- 成長: %1$s  収量: %2$s  耐性: %3$s
-cropsnh_tooltip.growth=成長
-cropsnh_tooltip.gain=収量
-cropsnh_tooltip.resistance=耐性
-cropsnh_tooltip.min_seed_bed_tier=苗床の要求Tier: %1$s
-cropsnh_tooltip.soil=土壌 -- 肥料: %1$s  水分: %2$s  Weed-EX: %3$s
-cropsnh_tooltip.weeds=雑草 -- §cBLAZE IT§r
-cropsnh_tooltip.failedReq=§c%1$s§r
-cropsnh_tooltip.plantLens=作物を右クリックして観察
-cropsnh_tooltip.handRake=§8《§7支柱§8／Cropsticks》§7 から §8《§7雑草§8／Weed》§7 を引き抜く
-cropsnh_tooltip.spade=支柱から雑草を引き抜くのに使う。収穫時に種のﾎﾞｰﾅｽﾄﾞﾛｯﾌﾟあり
-cropsnh_tooltip.reinforcedSpade=支柱から雑草を引き抜くのに使う。収穫時にさらなる種のﾎﾞｰﾅｽﾄﾞﾛｯﾌﾟあり
-cropsnh_tooltip.empty=作物なし
-cropsnh_tooltip.progress=成長度: %1$s%%
-cropsnh_tooltip.none=なし
-cropsnh_tooltip.mustUseSeedSynthesizerToReplicate=§7《§r作物合成機§7／Crop Synthesizer》§rでのみ複製可能
-cropsnh_tooltip.mustUseBreederMachine=§7《§r作物交配機§7／Crop Breeder》§rでのみ交配可能
+cropsnh_tooltip.plantLens.weeds=Weeds -- §cBLAZE IT§r
+cropsnh_tooltip.plantLens.seed=Seed: %1$s
+cropsnh_tooltip.plantLens.empty=Nothing planted
+cropsnh_tooltip.plantLens.isSick=§cIs sick, can't grow!§r
+cropsnh_tooltip.plantLens.soil=Soil -- Fertilizer: %1$s  Water: %2$s  Weed-EX: %3$s
+cropsnh_tooltip.plantLens.stats=Stats -- Growth: %1$s  Gain: %2$s  Resistance: %3$s
+cropsnh_tooltip.genericSeed.scanToViewStats=§7Scan to view stats§r
+cropsnh_tooltip.genericSeed.growth=§a- Growth: %1$s§r
+cropsnh_tooltip.genericSeed.gain=§a- Gain: %1$s§r
+cropsnh_tooltip.genericSeed.resistance=§a- Resistance: %1$s§r
+cropsnh_tooltip.genericSeed.minSeedBedTier=Minimum Seed Bed tier: %1$s
+cropsnh_tooltip.genericSeed.mustUseSeedSynthesizerToReplicate=This seed can only be replicated using the synthesizer
+cropsnh_tooltip.genericSeed.mustUseBreederMachine=Can only be bred using a crop breeding machine
+cropsnh_tooltip.item.plantLens=Inspects crops
+cropsnh_tooltip.item.spade=Removes weeds and drops seeds when harvesting mature crops
+cropsnh_tooltip.item.reinforcedSpade=Removes weeds and drops more seeds when harvesting mature crops
+# the color coding here can only be done via waila because the chat component handling of formatted strings is ehh bad 
+cropsnh_tooltip.waila.cropStick.failedReq=§c%1$s§r
+cropsnh_tooltip.waila.cropStick.progressBar.scanned=%1$s / %2$s (%3$,.1f%%)
+cropsnh_tooltip.waila.cropStick.progressBar.notScanned=%1$,.1f%%
 # TODO: remove "(Check usages in NEI)" after a major version of GTNH.
-cropsnh_tooltip.wrongSoil=この作物には別の土壌が必要です (NEIを確認してください)
+cropsnh_tooltip.planting.wrongSoil=This crop needs a different soil (Check usages in NEI)
+
+# GT5u Scanner Section Header
+GT5U.scanner.title_crops=Crop Info
 
 # Structure Channel Descriptions
 cropsnh_tooltip.structure_channels.if_tier=§8《§7工業用大型農場§8／Industrial Farm》§7のTier決定
