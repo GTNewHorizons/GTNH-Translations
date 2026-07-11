@@ -6,24 +6,24 @@ item.nodeAugmentation.name=节点强化装置
 item.wandAugmentationCore.name=法杖强化核心
 
 # Augments
-tm.tooltip.augments_installed=Augmentations installed:
-tm.tooltip.augmented=Augmented
-tm.tooltip.hold_control=Hold [CTRL]
-tm.augmentation.charge_buffer=Charge Buffer
-tm.augmentation.contact_discharge=Contact Discharge
-tm.augmentation.taint_capping=Taint Capping
-tm.augmentation.tainted_core=Tainted Core
-tm.augmentation.vis_channel=Vis Channel
+tm.tooltip.augments_installed=已安装法杖强化：
+tm.tooltip.augmented=法杖强化
+tm.tooltip.hold_control=按住 [Ctrl]
+tm.augmentation.charge_buffer=魔子缓存
+tm.augmentation.contact_discharge=接触放能
+tm.augmentation.taint_capping=腐化杖端
+tm.augmentation.tainted_core=腐化核心
+tm.augmentation.vis_channel=Vis隧道
 
 # Commands
 tm.command.thaumicmachina.usage=/thaumicmachina <help|wandaugmentation> ...
 tm.command.thaumicmachina.hint_alias=可使用 /tm 替代 /thaumimachina。
-tm.command.thaumicmachina.command_list=Commands:
-tm.command.thaumicmachina.wandaugmentation.usage=/thaumicmachina wandaugmentation <add|remove|reset> <augmentation name>
-tm.command.thaumicmachina.error.no_wand_held=Player must be holding their wand in their hand.
-tm.command.thaumicmachina.error.unknown_augment=That augmentation does not exist
-tm.command.thaumicmachina.error.is_present=The held wand already has that augmentation installed.
-tm.command.thaumicmachina.error.is_absent=The held wand does not have that augmentation installed.
+tm.command.thaumicmachina.command_list=指令：
+tm.command.thaumicmachina.wandaugmentation.usage=/thaumicmachina wandaugmentation <add|remove|reset> <强化名称>
+tm.command.thaumicmachina.error.no_wand_held=玩家必须手持法杖
+tm.command.thaumicmachina.error.unknown_augment=强化不存在
+tm.command.thaumicmachina.error.is_present=持有法杖已安装该强化。
+tm.command.thaumicmachina.error.is_absent=持有法杖未安装该强化。
 
 # Creative tab
 itemGroup.thaumicMachina=神秘力学
@@ -55,12 +55,12 @@ tm.research.prefix.concept=概念
 # Information: Concepts
 tm.research.name.INFORMATION_CONCEPTS=概念
 tm.research.desc.INFORMATION_CONCEPTS=它们的本质是什么?
-tm.research.page.INFORMATION_CONCEPTS.1=用外行人的话来说,概念是宇宙中某些东西如何运作的基础理论,你可以从一个概念出发来建立其他概念.概念是不可或缺的,如果你不理解某些东西是如何运作的,你就永远无法利用它.大多数情况下,概念不会直接给予你物品或任何东西,而是打开通往下一部分研究的大门.概念通常是圆形研究节点.<BR>概念可以在配置文件中自定义(转为简单模式(可使用研究点解锁),或完全关闭(自动解锁)).
+tm.research.page.INFORMATION_CONCEPTS.1=用外行人的话来说，概念是宇宙中某些东西如何运作的基础理论，你可以从一个概念出发来建立其他概念。概念是不可或缺的，如果你不理解某些东西是如何运作的，你就永远无法利用它。大多数情况下，概念不会直接解锁新物品或新配方，而是打开通往下一部分研究的大门。概念通常是圆形研究节点。<BR>概念可以在配置文件中自定义（转为简单模式（可使用研究点解锁），或完全关闭（自动解锁））。
 
 # Nodal Studies
 tm.research.name.NODAL_STUDIES=节点学研究
 tm.research.desc.NODAL_STUDIES=可再生能源
-tm.research.page.NODAL_STUDIES.1=虽然节点似乎是法杖和其他构造Vis的合适来源,但节点似乎不够强大,不足以作为更强大的神秘构造的合适来源,即类似奥术复印机(当复印更复杂的物品时)和节点传输调节器这样的结构,更详细地说,节点产生的Vis似乎不够强力也不够集中,无法满足那些需要更强大能量来源的各种构造,甚至连源质也不够强力与集中.
+tm.research.page.NODAL_STUDIES.1=讽刺的是，神秘使的主要能源来源似乎恰恰是其最不了解之物，你决心要解决这一问题。<BR>通过研究灵气节点的构成、运作原理以及可能赋予人的能力，你对其本质有了更深刻的理解。虽然未能理解一切，但基本概念已然明晰，这使你能够进一步研究与学习灵气节点。
 
 # Aura Fields
 tm.research.name.AURA_FIELD=灵气场
@@ -117,7 +117,7 @@ tm.research.page.WAND_AUGMENTATION_VIS_CHANNEL.3=Applying this Augment to a wand
 
 # Wand Augmentation: Tainted Core
 tm.research.name.WAND_AUGMENTATION_TAINTED_CORE=法杖强化: 腐化核心
-tm.research.desc.WAND_AUGMENTATION_TAINTED_CORE=这让我的骨头不大舒服
+tm.research.desc.WAND_AUGMENTATION_TAINTED_CORE=[WIP] 这让我的骨头不大舒服
 tm.research.page.WAND_AUGMENTATION_TAINTED_CORE.1=一切都有光明的一面和黑暗的一面,魔法也不例外.你作为神秘使的这段时间已经看到了黑暗艺术的一些产物,以及这些产物对你精神的副作用.你已经决定要 '在黑暗的一面畅游',升级你的法杖将会使你能涉猎这些黑暗艺术.<BR>将这个强化应用到法杖将赋予其与更黑暗更邪恶的魔法一起工作的能力.同时增加10%的不稳定性,但有时会造成你被穿过这个核心的黑暗魔法影响(咒流).
 
 # Wand Augmentation: Taint Capping
@@ -135,7 +135,7 @@ tm.research.page.WAND_AUGMENTATION_CONTACT_DISCHARGE.3=法杖中所有种类vis0
 # Life and Living
 tm.research.name.LIFE=生命与生物
 tm.research.desc.LIFE=[WIP]神秘学危险一面的开始
-tm.research.page.LIFE.1=你不断增长的好奇心已经无法满足.你最近对神秘学的基础研究更多地关注环境和基本方面,你现在想要冒险进入神秘学研究的危险方面,即生物的神奇艺术.
+tm.research.page.LIFE.1=你不断增长的好奇心已经无法满足.你最近对神秘学的研究更多地关注环境和基本方面,你现在想要冒险进入神秘学研究的危险方面,即生物的神奇艺术.
 
 # Body
 tm.research.name.BODY=身体和肉体
