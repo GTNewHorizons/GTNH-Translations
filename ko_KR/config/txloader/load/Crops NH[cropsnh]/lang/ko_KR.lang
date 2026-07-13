@@ -284,7 +284,7 @@ cropsnh_tooltip.industrialFarm.name=Industrial Farm
 cropsnh_tooltip.industrialFarm.machineType=Industrial Crop Cultivator, IF
 cropsnh_tooltip.industrialFarm.0=Grows crops at an industrial scale
 # separator
-cropsnh_tooltip.industrialFarm.1=The §blength§7 of the machine depends on the §ctier§7 of the §fSeed Bed§7
+cropsnh_tooltip.industrialFarm.1=The §blength§7 and §bbase power cost§7 of the machine depends on the §ctier§7 of the §fSeed Bed§7
 cropsnh_tooltip.industrialFarm.2=The §ctier§7 of the §fupgrades§7 must match the §ctier§7 of the §fSeed Bed§7
 cropsnh_tooltip.industrialFarm.structure.seedBed=Seed Bed
 cropsnh_tooltip.industrialFarm.structure.upgrades.name=IF Upgrade Unit
@@ -340,14 +340,15 @@ cropsnh_tooltip.industrialFarm.scanner.6=Nutrient Score: §e%1$s§r out of §e%2
 
 # Seed Bed
 cropsnh_tooltip.seedBed.name=Seed Bed (%1$s)
-cropsnh_tooltip.seedBed.0=Determines the §ctier§7 of the Industrial Farm
-cropsnh_tooltip.seedBed.1=Seed Capacity: %1$s
-cropsnh_tooltip.seedBed.2=Requires %1$s of water per cycle
-cropsnh_tooltip.seedBed.3=Optionally uses %1$s of fertilizer per cycle
-cropsnh_tooltip.seedBed.4=Increases number of drops by %1$s
-cropsnh_tooltip.seedBed.4.adv=Increases number of drops by %1$s (additive)
-cropsnh_tooltip.seedBed.5.single=Farm must have exactly %1$s middle slice
-cropsnh_tooltip.seedBed.5.plural=Farm must have exactly %1$s middle slices
+cropsnh_tooltip.seedBed.0=Determines the §ctier§7 and §cbase power cost§7 of the Industrial Farm
+cropsnh_tooltip.seedBed.1=Base Power Cost: %1$s (%2$s)
+cropsnh_tooltip.seedBed.2=Seed Capacity: %1$s
+cropsnh_tooltip.seedBed.3=Requires %1$s of water per cycle
+cropsnh_tooltip.seedBed.4=Optionally uses %1$s of fertilizer per cycle
+cropsnh_tooltip.seedBed.5=Increases number of drops by %1$s
+cropsnh_tooltip.seedBed.5.adv=Increases number of drops by %1$s (additive)
+cropsnh_tooltip.seedBed.6.single=Farm must have exactly %1$s middle slice
+cropsnh_tooltip.seedBed.6.plural=Farm must have exactly %1$s middle slices
 cropsnh.seedBed.2.name=Seed Bed (MV)
 cropsnh.seedBed.3.name=Seed Bed (HV)
 cropsnh.seedBed.4.name=Seed Bed (EV)
