@@ -61,6 +61,8 @@ guideme.gui.config.debug.debugdashofflength.tooltip=Length of gap between dash s
 guideme.gui.config.ui=User Interface
 guideme.gui.config.ui.confirmexternallinks=Confirm External Links
 guideme.gui.config.ui.confirmexternallinks.tooltip=Controls whether clicking external links in guide markdown shows a confirmation dialog before opening the browser.
+guideme.gui.config.ui.welcomepopupenabled=Welcome Popup
+guideme.gui.config.ui.welcomepopupenabled.tooltip=Controls whether GuideNH shows the first-open welcome popup.
 guideme.gui.config.ui.contentzoom=Guide Content Zoom
 guideme.gui.config.ui.contentzoom.tooltip=Controls the global zoom factor for guide content. Individual pages can override this with frontmatter.
 guideme.gui.config.ui.fullwidth=Full Width Layout
@@ -164,6 +166,8 @@ guideme.gui.config.runtimebridge.maxdeltaentries=Maximum Delta Entries
 guideme.gui.config.runtimebridge.maxdeltaentries.tooltip=Maximum semantic delta entries sent in one runtime bridge message.
 
 # Guidebook UI
+guidenh.welcome.title=Welcome to GuideNH
+guidenh.welcome.close_hint=Press Space or click the top-right button to close
 guideme.guidebook.Close=Close
 guideme.guidebook.CloseFullWidthView=Close Full Width View
 guideme.guidebook.OpenRecipeInNei=Open This Recipe in NEI
@@ -547,6 +551,9 @@ guideme.guidebook.ToggleBlockStats=Toggle Block Stats
 guideme.guidebook.ToggleGrid=Toggle Floor Grid
 guideme.guidebook.ZoomIn=Zoom In
 guideme.guidebook.ZoomOut=Zoom Out
+guideme.guidebook.FlowchartCopyPlan=Copy Plan
+guideme.guidebook.FlowchartCopyPlanSuccess=Plan copied to the clipboard
+guideme.guidebook.FlowchartCopyPlanFailure=Failed to copy plan: %s
 
 # Items
 item.guide.name=Guide
