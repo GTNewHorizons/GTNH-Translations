@@ -3581,6 +3581,12 @@ GT5U.item.pipe.gas_proof.no=Нет
 GT5U.item.pipe.amount=Количество труб
 GT5U.item.pipe.empty=Пусто
 GT5U.item.pipe.swap.s=Pipe swapped: %s
+GT5U.item.pipe.swap.items=items
+GT5U.item.pipe.swap.routing=routing
+GT5U.item.pipe.swap.now_gas_proof=Now Gas-Proof
+GT5U.item.pipe.swap.no_longer_gas_proof=No Longer Gas-Proof
+GT5U.item.pipe.swap.now_restrictive=Now Restrictive
+GT5U.item.pipe.swap.no_longer_restrictive=No Longer Restrictive
 
 # Modular Armor
 
@@ -4813,7 +4819,7 @@ gt.item.cover.redstone_receiver.name=Приёмник редстоуна
 gt.item.cover.redstone_receiver.tooltip=Передает редстоун сигналы по беспроводной сети
 gt.item.cover.wireless_controller.name=Беспроводной модуль управления механизмом
 gt.item.cover.wireless_controller.tooltip=Включает/выключает механизмы по беспроводной сети\nМожет подключаться только с улучшенными беспроводными модулями
-gt.item.cover.advanced_wireless_controller.name=Advanced Wireless Machine Controller Cover
+gt.item.cover.advanced_wireless_controller.name=Продвинутый модуль управления механизмом
 gt.item.cover.advanced_wireless_controller.tooltip=Turns Machines ON/OFF wirelessly\nIncludes Logic Gates\nCan only connect with advanced wireless covers
 
 ### Maintenance Cover
@@ -8562,6 +8568,18 @@ gt.blocktintedglass.0.name=Тонированное промышленное с�
 gt.blocktintedglass.1.name=Тонированное промышленное стекло (Светло-серое)
 gt.blocktintedglass.2.name=Тонированное промышленное стекло (Серое)
 gt.blocktintedglass.3.name=Тонированное промышленное стекло (Чёрное)
+gt.blocktintedglass.4.name=Tinted Industrial Glass (Brown)
+gt.blocktintedglass.5.name=Tinted Industrial Glass (Red)
+gt.blocktintedglass.6.name=Tinted Industrial Glass (Orange)
+gt.blocktintedglass.7.name=Tinted Industrial Glass (Yellow)
+gt.blocktintedglass.8.name=Tinted Industrial Glass (Lime)
+gt.blocktintedglass.9.name=Tinted Industrial Glass (Green)
+gt.blocktintedglass.10.name=Tinted Industrial Glass (Cyan)
+gt.blocktintedglass.11.name=Tinted Industrial Glass (Light Blue)
+gt.blocktintedglass.12.name=Tinted Industrial Glass (Blue)
+gt.blocktintedglass.13.name=Tinted Industrial Glass (Purple)
+gt.blocktintedglass.14.name=Tinted Industrial Glass (Magenta)
+gt.blocktintedglass.15.name=Tinted Industrial Glass (Pink)
 
 # Block Granites
 gt.blockgranites.0.name=Чёрный гранит
@@ -8934,7 +8952,7 @@ GT5U.tooltip.bec-generator.hatch-pos=Any electromagnetically-isolated casing aro
 GT5U.tooltip.bec-generator.bec-hatch-pos=Back center casing
 
 # BEC Storage Structure Hints
-GT5U.tooltip.bec-storage.controller-pos=Bottom front of central pillar, 3rd layer
+GT5U.tooltip.bec-storage.controller-pos=Front center of central column, 3rd layer
 GT5U.tooltip.bec-storage.hatch-pos=Any electromagnetically-isolated casing
 GT5U.tooltip.bec-storage.bec-hatch-pos=Any center side casing
 
