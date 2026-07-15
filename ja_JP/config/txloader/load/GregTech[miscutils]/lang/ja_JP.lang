@@ -62,83 +62,6 @@ GTPP.core.GT_Tooltip=制作者: %s §7- §c[GT++]
 GTPP.core.GT_Tooltip_Builder=%s §7- §c[GT++]
 GTPP.core.GT_Tooltip_Radioactive=§7警告: §a放射能に注意！ §8《§6有害物質耐性§8／Hazmat Protection》§6を持つ防具を身に着けてください | レベル: %s
 
-# RecipeMaps
-gtpp.recipe.cokeoven=コークス炉
-gtpp.recipe.matterfab2=物質製造機
-gtpp.recipe.rocketenginefuel=ロケットエンジンの燃料
-gtpp.recipe.quantumforcesmelter=量子フォース変換装置
-gtpp.recipe.chemicaldehydrator=乾燥機
-gtpp.recipe.vacfurnace=真空精錬機
-gtpp.recipe.alloyblastsmelter=合金溶融高炉
-gtpp.recipe.lftr=液体フッ化トリウム炉
-gtpp.recipe.lftr.sparging=LFTR ガス散布
-gtpp.recipe.nuclearsaltprocessingplant=放射性溶融塩処理プラント
-gtpp.recipe.oremill=製粉
-gtpp.recipe.fissionfuel=核燃料の精製
-gtpp.recipe.coldtrap=コールドトラップ
-gtpp.recipe.reactorprocessingunit=核分裂処理ユニット
-gtpp.recipe.simplewasher=簡易式洗浄機
-gtpp.recipe.moleculartransformer=大型分子変換装置
-gtpp.recipe.fluidchemicaleactor=化学プラント
-gtpp.recipe.RTGgenerators=RTG
-gtpp.recipe.thermalgeneratorfuel=熱ボイラー
-gtpp.recipe.solartower=ソーラータワー
-gtpp.recipe.cyclotron=COMET - 小型サイクロトロン
-gtpp.recipe.fishpond=珠海 - フィッシングポート
-gtpp.recipe.cryogenicfreezer=極低温冷却装置
-gtpp.recipe.multicentrifuge=マルチブロック遠心分離機
-gtpp.recipe.multielectro=マルチブロック電解槽
-gtpp.recipe.multimixer=マルチブロックミキサー
-gtpp.recipe.multidehydrator=マルチブロック乾燥機
-gtpp.recipe.semifluidgeneratorfuels=半流体発電機の燃料
-gtpp.recipe.flotationcell=浮選セル
-gtpp.recipe.treefarm=樹木成長シミュレーター
-gtpp.recipe.algae_pond=藻類養殖場
-gtpp.recipe.multiblockrockbreaker=ボルダネイター
-
-# Recipe categories
-gtpp.recipe.category.abs_non_alloy_recipes=ABS 非合金レシピ
-
-# NEI
-gtpp.nei.lftr.power=電力出力: ﾀﾞｲﾅﾓﾊｯﾁ1個あたり %s EU/t
-gtpp.nei.lftr.dynamo=ﾀﾞｲﾅﾓﾊｯﾁあたり発電量: %s EU
-gtpp.nei.lftr.total=合計発電量: %s EU
-gtpp.nei.milling.not_consumed=耐久値を消費します
-gtpp.nei.chemplant.tier.1=青銅
-gtpp.nei.chemplant.tier.2=スチール
-gtpp.nei.chemplant.tier.3=アルミニウム
-gtpp.nei.chemplant.tier.4=ステンレススチール
-gtpp.nei.chemplant.tier.5=チタン
-gtpp.nei.chemplant.tier.6=タングステンスチール
-gtpp.nei.chemplant.tier.7=ラウレニウム
-gtpp.nei.chemplant.tier.8=ボットミウム
-gtpp.nei.rtg.days=燃料性能: %s ゲーム内日
-gtpp.nei.solar_tower.1=リングの数によってTierがブーストされます
-gtpp.nei.solar_tower.2=R1:T1, R2:T2, R3:T4, R4:T8, R5:T16
-gtpp.nei.solar_tower.3=入力量 = 1000 x T
-gtpp.nei.tgs.1=苗木は消費しません。
-gtpp.nei.tgs.2=%s を供給すると、
-gtpp.nei.tgs.3=代わりに苗木が作られます。
-gtpp.nei.tgs.sapling=%s を供給すると出力されます
-gtpp.nei.chemical_plant.not_consumed=確率で耐久値を消費します
-gtpp.nei.chemical_plant.higher_tier_casing=パイプ外装のTierが高いほど長持ちします
-
-gtpp.nei.tgs.tooltip.sapling=本体スロットに配置します
-gtpp.nei.tgs.tooltip.saw=原木を収穫するために、入力バスに配置します
-gtpp.nei.tgs.tooltip.needsSaw=ノコギリが必要です
-gtpp.nei.tgs.tooltip.cutter=苗木を収穫するために、入力バスに配置します
-gtpp.nei.tgs.tooltip.needsCutter=枝切りバサミが必要です
-gtpp.nei.tgs.tooltip.shears=葉を収穫するために、入力バスに配置します
-gtpp.nei.tgs.tooltip.needsShears=ハサミが必要です
-gtpp.nei.tgs.tooltip.knife=果物を収穫するために、入力バスに配置します
-gtpp.nei.tgs.tooltip.needsKnife=ナイフが必要です
-gtpp.nei.tgs.tooltip.multiplier=出力乗数:
-gtpp.nei.tgs.info-1=マシンの電力Tierと
-gtpp.nei.tgs.info-2=使用する工具によって
-gtpp.nei.tgs.info-3=出力は更に増加します
-
-gtpp.nei.ap.tier=藻類養殖場のTier: %s
-
 # Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=燃え盛るパイロジウム入りバケツ
 item.MiscUtils.bucket.bucketCryotheum.name=凍て付くクリオジウム入りバケツ
@@ -3483,7 +3406,6 @@ item.itemCellSeleniumDioxide.name=二酸化セレン入りセル
 item.itemCellSeleniousAcid.name=亜セレン酸入りセル
 
 # Added 15/8/19
-gtpp.nei.decayables=放射性崩壊チェスト
 entity.batKing.name=コウモリの王
 item.itemCellCarbyne.name=カルビン入りセル
 item.itemCellHydrogenCyanide.name=シアン化水素入りセル
