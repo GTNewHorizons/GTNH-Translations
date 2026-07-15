@@ -311,16 +311,16 @@ cropsnh_tooltip.industrialFarm.seedSlot=Seed Slot
 cropsnh_tooltip.industrialFarm.seedWithBlockExtractionWarning=Seeds can only be extracted using the output mode when blocks are present
 cropsnh_tooltip.industrialFarm.blockInsertion=Blocks can only be inserted when using input mode
 cropsnh_tooltip.industrialFarm.blockExtraction=Blocks can only be extracted with the output mode
-cropsnh_tooltip.industrialFarm.blockUnderSlot=Slot for the block that goes below the soil
+cropsnh_tooltip.industrialFarm.subSoilSlot=Sub-Soil Slot
 cropsnh_tooltip.industrialFarm.environmentalModule=Environmental Module Slot
 cropsnh_tooltip.industrialFarm.environmentalModule.enabled=Enabled
 cropsnh_tooltip.industrialFarm.environmentalModule.disabled=Disabled
 cropsnh_tooltip.industrialFarm.mode.input=Input
 cropsnh_tooltip.industrialFarm.mode.farm=Farm
 cropsnh_tooltip.industrialFarm.mode.output=Output
-GT5U.gui.text.recipe_result.cropsnh.industrialFarm.blockUnderNotFound=Failed to insert new seeds as the block that goes below the soil is missing
-GT5U.gui.text.recipe_result.cropsnh.industrialFarm.blockUnderMismatch.input=Failed to insert new seeds as the blocks stored in this machine aren't compatible
-GT5U.gui.text.recipe_result.cropsnh.industrialFarm.blockUnderMismatch.farm=The current block does not match the blocks required for this seed to grow
+GT5U.gui.text.recipe_result.cropsnh.industrialFarm.subSoilNotFound=Could not find sub-soil for the seed being inserted
+GT5U.gui.text.recipe_result.cropsnh.industrialFarm.subSoilMismatch.input=The stored sub-soil is incompatible with the seed being inserted
+GT5U.gui.text.recipe_result.cropsnh.industrialFarm.subSoilMismatch.farm=The current sub-soil is incompatible with the stored seed
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.seedBedTierTooLow=The current tier of Seed Bed is too low for this seed
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.seedsFull=Seed capacity reached
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.seedOverflow=Seed Storage exceeds current capacity
@@ -742,84 +742,86 @@ cropsnh_growthReq.lockout.machineOnly.nei=Only harvestable in the I. Farm
 cropsnh_growthReq.lockout.migrated=Invalid soil! Break to get seed!
 # Light Growth Requirements
 cropsnh_growthReq.minLight.format=Needs a light level of %1$s or higher
+cropsnh_growthReq.minLight.format.nei=Needs a light lvl. of %1$s or higher
 cropsnh_growthReq.maxLight.format=Needs a light level of %1$s or lower
+cropsnh_growthReq.maxLight.format.nei=Needs a light lvl. of %1$s or lower
 # Vanilla Stone Lily Growth Requirements
-cropsnh_growthReq.blockUnder.stone=Needs a block of stone under it to grow
-cropsnh_growthReq.blockUnder.sand=Needs a block of sand or sandstone under it to grow
-cropsnh_growthReq.blockUnder.clay=Needs a block of clay or hardened clay under it to grow
-cropsnh_growthReq.blockUnder.soulSand=Needs a block of soul sand under it to grow
-cropsnh_growthReq.blockUnder.netherrack=Needs a block of netherrack under it to grow
-cropsnh_growthReq.blockUnder.endStone=Needs a block of end stone under it to grow
+cropsnh_growthReq.subSoil.stone=Needs a block of stone under it to grow
+cropsnh_growthReq.subSoil.sand=Needs a block of sand or sandstone under it to grow
+cropsnh_growthReq.subSoil.clay=Needs a block of clay or hardened clay under it to grow
+cropsnh_growthReq.subSoil.soulSand=Needs a block of soul sand under it to grow
+cropsnh_growthReq.subSoil.netherrack=Needs a block of netherrack under it to grow
+cropsnh_growthReq.subSoil.endStone=Needs a block of end stone under it to grow
 # GT Stone Lily Growth Requirements
-cropsnh_growthReq.blockUnder.redGranite=Needs a block of red granite under it to grow
-cropsnh_growthReq.blockUnder.blackGranite=Needs a block of black granite under it to grow
-cropsnh_growthReq.blockUnder.marble=Needs a block of marble under it to grow
-cropsnh_growthReq.blockUnder.basalt=Needs a block of basalt under it to grow
+cropsnh_growthReq.subSoil.redGranite=Needs a block of red granite under it to grow
+cropsnh_growthReq.subSoil.blackGranite=Needs a block of black granite under it to grow
+cropsnh_growthReq.subSoil.marble=Needs a block of marble under it to grow
+cropsnh_growthReq.subSoil.basalt=Needs a block of basalt under it to grow
 # Et EtFuturum Stone Lily Requirements
-cropsnh_growthReq.blockUnder.deepslate=Needs a block of deepslate under it to grow
-cropsnh_growthReq.blockUnder.tuff=Needs a block of tuff under it to grow
+cropsnh_growthReq.subSoil.deepslate=Needs a block of deepslate under it to grow
+cropsnh_growthReq.subSoil.tuff=Needs a block of tuff under it to grow
 # Modern Stone Lily Growth Requirements
-cropsnh_growthReq.blockUnder.modernAndesite=Needs a block of andesite under it to grow
-cropsnh_growthReq.blockUnder.modernDiorite=Needs a block of diorite under it to grow
-cropsnh_growthReq.blockUnder.modernGranite=Needs a block of granite under it to grow
+cropsnh_growthReq.subSoil.modernAndesite=Needs a block of andesite under it to grow
+cropsnh_growthReq.subSoil.modernDiorite=Needs a block of diorite under it to grow
+cropsnh_growthReq.subSoil.modernGranite=Needs a block of granite under it to grow
 # Vanilla Ore Growth Requirements
-cropsnh_growthReq.blockUnder.coal=Needs a block of coal under it to grow
-cropsnh_growthReq.blockUnder.iron=Needs a block of iron under it to grow
-cropsnh_growthReq.blockUnder.gold=Needs a block of gold under it to grow
-cropsnh_growthReq.blockUnder.diamond=Needs a block of diamond under it to grow
-cropsnh_growthReq.blockUnder.emerald=Needs a block of emerald under it to grow
-cropsnh_growthReq.blockUnder.redstone=Needs a block of redstone under it to grow
-cropsnh_growthReq.blockUnder.lapis=Needs a block of lapis under it to grow
+cropsnh_growthReq.subSoil.coal=Needs a block of coal under it to grow
+cropsnh_growthReq.subSoil.iron=Needs a block of iron under it to grow
+cropsnh_growthReq.subSoil.gold=Needs a block of gold under it to grow
+cropsnh_growthReq.subSoil.diamond=Needs a block of diamond under it to grow
+cropsnh_growthReq.subSoil.emerald=Needs a block of emerald under it to grow
+cropsnh_growthReq.subSoil.redstone=Needs a block of redstone under it to grow
+cropsnh_growthReq.subSoil.lapis=Needs a block of lapis under it to grow
 # Modded Ore Growth Requirements
-cropsnh_growthReq.blockUnder.aluminium=Needs a block of aluminium under it to grow
-cropsnh_growthReq.blockUnder.aluminiumBauxite=Needs a block of aluminium or bauxite under it to grow
-cropsnh_growthReq.blockUnder.copper=Needs a block of copper under it to grow
-cropsnh_growthReq.blockUnder.iridium=Needs a block of iridium under it to grow
-cropsnh_growthReq.blockUnder.lead=Needs a block of lead or galena under it to grow
-cropsnh_growthReq.blockUnder.magnesium=Needs a block of magnesium under it to grow
-cropsnh_growthReq.blockUnder.manganese=Needs a block of manganese or pyrolusite under it to grow
-cropsnh_growthReq.blockUnder.mica=Needs a block of mica or cupronickel coil under it to grow
-cropsnh_growthReq.blockUnder.naquadah=Needs a block of naquadah under it to grow
-cropsnh_growthReq.blockUnder.netherStar=Needs a block of nether star under it to grow
-cropsnh_growthReq.blockUnder.nickel=Needs a block of nickel under it to grow
-cropsnh_growthReq.blockUnder.osmium=Needs a block of osmium under it to grow
-cropsnh_growthReq.blockUnder.platinum=Needs a block of platinum or sheldonite under it to grow
-cropsnh_growthReq.blockUnder.silver=Needs a block of silver under it to grow
-cropsnh_growthReq.blockUnder.sulfur=Needs a block of sulfur or sphalerite under it to grow
-cropsnh_growthReq.blockUnder.thorium=Needs a block of thorium or thorianite under it to grow
-cropsnh_growthReq.blockUnder.tin=Needs a block of tin under it to grow
-cropsnh_growthReq.blockUnder.titanium=Needs a block of titanium, ilmenite, or rutile under it to grow
-cropsnh_growthReq.blockUnder.tungsten=Needs a block of tungsten, scheelite, or tungstate under it to grow
-cropsnh_growthReq.blockUnder.uranium=Needs a block of uranium, uranite, or pitchblende under it to grow
-cropsnh_growthReq.blockUnder.zinc=Needs a block of zinc or sphalerite under it to grow
+cropsnh_growthReq.subSoil.aluminium=Needs a block of aluminium under it to grow
+cropsnh_growthReq.subSoil.aluminiumBauxite=Needs a block of aluminium or bauxite under it to grow
+cropsnh_growthReq.subSoil.copper=Needs a block of copper under it to grow
+cropsnh_growthReq.subSoil.iridium=Needs a block of iridium under it to grow
+cropsnh_growthReq.subSoil.lead=Needs a block of lead or galena under it to grow
+cropsnh_growthReq.subSoil.magnesium=Needs a block of magnesium under it to grow
+cropsnh_growthReq.subSoil.manganese=Needs a block of manganese or pyrolusite under it to grow
+cropsnh_growthReq.subSoil.mica=Needs a block of mica or cupronickel coil under it to grow
+cropsnh_growthReq.subSoil.naquadah=Needs a block of naquadah under it to grow
+cropsnh_growthReq.subSoil.netherStar=Needs a block of nether star under it to grow
+cropsnh_growthReq.subSoil.nickel=Needs a block of nickel under it to grow
+cropsnh_growthReq.subSoil.osmium=Needs a block of osmium under it to grow
+cropsnh_growthReq.subSoil.platinum=Needs a block of platinum or sheldonite under it to grow
+cropsnh_growthReq.subSoil.silver=Needs a block of silver under it to grow
+cropsnh_growthReq.subSoil.sulfur=Needs a block of sulfur or sphalerite under it to grow
+cropsnh_growthReq.subSoil.thorium=Needs a block of thorium or thorianite under it to grow
+cropsnh_growthReq.subSoil.tin=Needs a block of tin under it to grow
+cropsnh_growthReq.subSoil.titanium=Needs a block of titanium, ilmenite, or rutile under it to grow
+cropsnh_growthReq.subSoil.tungsten=Needs a block of tungsten, scheelite, or tungstate under it to grow
+cropsnh_growthReq.subSoil.uranium=Needs a block of uranium, uranite, or pitchblende under it to grow
+cropsnh_growthReq.subSoil.zinc=Needs a block of zinc or sphalerite under it to grow
 # Gem Ore Growth Requirement
-cropsnh_growthReq.blockUnder.garnetGem=Needs a block of red or yellow garnet or garnet sand under it to grow
-cropsnh_growthReq.blockUnder.olivine=Needs a block of olivine under it to grow
-cropsnh_growthReq.blockUnder.sapphire=Needs a block of sapphire under it to grow
-cropsnh_growthReq.blockUnder.ruby=Needs a block of ruby under it to grow
+cropsnh_growthReq.subSoil.garnetGem=Needs a block of red or yellow garnet or garnet sand under it to grow
+cropsnh_growthReq.subSoil.olivine=Needs a block of olivine under it to grow
+cropsnh_growthReq.subSoil.sapphire=Needs a block of sapphire under it to grow
+cropsnh_growthReq.subSoil.ruby=Needs a block of ruby under it to grow
 # Non-GT Ore Growth Requirements
-cropsnh_growthReq.blockUnder.knightmetal=Needs a block of knightmetal under it to grow
-cropsnh_growthReq.blockUnder.steeleaf=Needs a block of steeleaf under it to grow
-cropsnh_growthReq.blockUnder.cobalt=Needs a block of cobalt under it to grow
-cropsnh_growthReq.blockUnder.ardite=Needs a block of ardite under it to grow
+cropsnh_growthReq.subSoil.knightmetal=Needs a block of knightmetal under it to grow
+cropsnh_growthReq.subSoil.steeleaf=Needs a block of steeleaf under it to grow
+cropsnh_growthReq.subSoil.cobalt=Needs a block of cobalt under it to grow
+cropsnh_growthReq.subSoil.ardite=Needs a block of ardite under it to grow
 # Magic Ore Growth Requirements
-cropsnh_growthReq.blockUnder.void=Needs a block of void under it to grow
-cropsnh_growthReq.blockUnder.thaumium=Needs a block of thaumium under it to grow
-cropsnh_growthReq.blockUnder.thauminite=Needs a block of thauminite under it to grow
-cropsnh_growthReq.blockUnder.shadowmetal=Needs a block of shadow metal under it to grow
+cropsnh_growthReq.subSoil.void=Needs a block of void under it to grow
+cropsnh_growthReq.subSoil.thaumium=Needs a block of thaumium under it to grow
+cropsnh_growthReq.subSoil.thauminite=Needs a block of thauminite under it to grow
+cropsnh_growthReq.subSoil.shadowmetal=Needs a block of shadow metal under it to grow
 # Misc Block Growth Requirement
-cropsnh_growthReq.blockUnder.skull=Needs a skull under it to grow
-cropsnh_growthReq.blockUnder.snow=Needs a block of snow under it to grow
-cropsnh_growthReq.blockUnder.glowstone=Needs a block of glowstone under it to grow
-cropsnh_growthReq.blockUnder.blaze=Needs a block of blaze under it to grow
-cropsnh_growthReq.blockUnder.quicksilver=Needs a block of quicksilver under it to grow
+cropsnh_growthReq.subSoil.skull=Needs a skull under it to grow
+cropsnh_growthReq.subSoil.snow=Needs a block of snow under it to grow
+cropsnh_growthReq.subSoil.glowstone=Needs a block of glowstone under it to grow
+cropsnh_growthReq.subSoil.blaze=Needs a block of blaze under it to grow
+cropsnh_growthReq.subSoil.quicksilver=Needs a block of quicksilver under it to grow
 
 # Thaum Block Growth Requirement
-cropsnh_growthReq.blockUnder.mixedCrystalCluster=Needs a mixed crystal cluster under it to grow
+cropsnh_growthReq.subSoil.mixedCrystalCluster=Needs a mixed crystal cluster under it to grow
 
 
 # Galacticraft Blocks Growth Requirements
-cropsnh_growthReq.blockUnder.space=Needs a block from space under it to grow
+cropsnh_growthReq.subSoil.space=Needs a block from space under it to grow
 
 # Mutation Pool Names
 cropsnh_mutationPool.addictive=Addictive
