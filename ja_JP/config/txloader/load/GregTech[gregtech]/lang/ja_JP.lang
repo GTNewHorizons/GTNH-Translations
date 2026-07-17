@@ -3746,8 +3746,10 @@ GT5U.armor.part.name.OmniMovement=オーグメント: 回転運動調節機構
 GT5U.armor.part.name.WaterBreathing=オーグメント: 息継ぎ機構
 GT5U.armor.part.name.MilkInfusion=オーグメント: 牛乳注入機構
 GT5U.armor.part.name.HoloInventory=オーグメント: インベントリホログラム
-GT5U.armor.part.name.Travelers=Augment: Thaumic Accelerators
 GT5U.armor.part.name.Terrasteel=Augment: Terrestrial Enhancement
+GT5U.armor.part.name.ApprenticeStriders=Augment: Apprentice Striders
+GT5U.armor.part.name.ArchmageStriders=Augment: Archmage Striders
+GT5U.armor.part.name.EldritchStriders=Augment: Eldritch Striders
 
 GT5U.armor.part.tooltip.NightVision=夜や暗闇での視界を確保する
 GT5U.armor.part.tooltip.CreativeFlight=クリエイティブ飛行を可能にする
@@ -3770,8 +3772,10 @@ GT5U.armor.part.tooltip.OmniMovement=全方向への移動速度を向上させ�
 GT5U.armor.part.tooltip.WaterBreathing=水中で酸素ゲージが尽きた場合、酸素ゲージを回復させる
 GT5U.armor.part.tooltip.MilkInfusion=有害なポーション効果を取り除く
 GT5U.armor.part.tooltip.HoloInventory=付近のインベントリにあるアイテムをホログラム表示する
-GT5U.armor.part.tooltip.Travelers=Grants the user a more powerful version of Boots of the Traveler
 GT5U.armor.part.tooltip.Terrasteel=Grants the Will of the Ancients. Effects include:\n - 20% Mana Discount\n - Passive Mana generation for Mana Tablets\n - Passive health regeneration when not fully fed
+GT5U.armor.part.tooltip.ApprenticeStriders=Allows the user to run faster, jump higher, grants step assist and a vis discount
+GT5U.armor.part.tooltip.ArchmageStriders=Allows the user to run faster, jump higher, grants step assist and a vis discount
+GT5U.armor.part.tooltip.EldritchStriders=Allows the user to run faster, jump higher, grants step assist and a vis discount
 
 GT5U.armor.behavior.NightVision=暗視
 GT5U.armor.behavior.GogglesOfRevealing=魔導視覚
@@ -3804,6 +3808,7 @@ GT5U.armor.message.disabled=%sを無効化
 GT5U.armor.message.installed=%sを導入済み
 GT5U.armor.message.systems_online=Armor Systems Online... Active keybindings:
 GT5U.armor.message.speed_set=現在の速度: %s%%
+GT5U.armor.message.jump_boost_set=§6New jump boost:§r %s
 
 GT5U.armor.tooltip.hold_shift=Shiftで詳細を表示
 GT5U.armor.tooltip.armorframe=アーマーフレーム: %s
@@ -3947,6 +3952,7 @@ GT5U.multiblock.scanner.is_meta_tile_entity=§cMetaTileEntity == null!
 
 # NEI recipe handlers
 GT5U.nei.heat_capacity=要求熱容量: %s K (%s)
+GT5U.nei.heat_capacity.material=(%s)
 GT5U.nei.tier=Tier: %s
 GT5U.nei.start_eu=スタートアップ: %s EU (MK %s)
 GT5U.nei.stages=ステージ: %s
@@ -7102,6 +7108,8 @@ key.gt.toggle_inertiacanceling=慣性キャンセリングの切り替え
 key.gt.toggle_omnimovement=全方向移動の切り替え
 key.gt.speed_increase=速度上昇
 key.gt.speed_decrease=速度低下
+key.gt.jump_increase=Increase Jump Boost
+key.gt.jump_decrease=Decrease Jump Boost
 key.gt.force_field=フォースフィールドの切り替え
 key.gt.open_radial_menu=Open Radial Menu
 
