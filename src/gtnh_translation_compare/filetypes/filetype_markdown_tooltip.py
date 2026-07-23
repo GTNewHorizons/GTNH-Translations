@@ -16,6 +16,11 @@ def is_markdown_tooltip_path(relpath: str) -> bool:
     return MARKDOWN_TOOLTIP_PATH_RE.search(relpath) is not None
 
 
+def is_markdown_tooltip_paratranz_file(name: str) -> bool:
+    # ParaTranz always appends ".json" to the original file's relpath.
+    return is_markdown_tooltip_path(name.removesuffix(".json"))
+
+
 class FiletypeMarkdownTooltip(Filetype):
     """
     A GregTech "markdown" tooltip file (`assets/<mod>/lang/<locale>/tooltip/<slug>.md`),
