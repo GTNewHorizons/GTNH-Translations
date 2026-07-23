@@ -4,7 +4,7 @@ from functools import cache
 from os import path
 from typing import Sequence
 
-from gtnh_translation_compare.filetypes import Filetype, FiletypeLang
+from gtnh_translation_compare.filetypes import Filetype, FiletypeLang, FiletypeMarkdownTooltip
 from gtnh_translation_compare.filetypes.language import Language
 from gtnh_translation_compare.modpack.mod import Mod
 from gtnh_translation_compare.utils.file import ensure_lf
@@ -21,7 +21,7 @@ class ModPack:
 
     @cache
     def lang_files(self, language: Language) -> Sequence[Filetype]:
-        lang_files: list[FiletypeLang] = []
+        lang_files: list[Filetype] = []
         for mod_path in self.__pack_path.glob("mods/**/*.jar"):
             with mod_path.open("rb") as mod_jar:
                 mod = Mod(zipfile.ZipFile(mod_jar))
@@ -29,4 +29,10 @@ class ModPack:
                     sub_mod_id = filename.split("/")[1]
                     filename = path.join(*filename.split("/")[2:])
                     lang_files.append(FiletypeLang(f"resources/{mod.mod_name}[{sub_mod_id}]/{filename}", content))
+                for filename, content in mod.markdown_tooltip_files(language).items():
+                    sub_mod_id = filename.split("/")[1]
+                    filename = path.join(*filename.split("/")[2:])
+                    lang_files.append(
+                        FiletypeMarkdownTooltip(f"resources/{mod.mod_name}[{sub_mod_id}]/{filename}", content)
+                    )
         return lang_files

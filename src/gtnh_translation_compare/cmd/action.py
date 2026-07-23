@@ -14,7 +14,14 @@ from dulwich import porcelain
 from loguru import logger
 
 from gtnh_translation_compare import settings
-from gtnh_translation_compare.filetypes import FiletypeLang, Language, FiletypeGTLang, Filetype
+from gtnh_translation_compare.filetypes import (
+    FiletypeLang,
+    Language,
+    FiletypeGTLang,
+    FiletypeMarkdownTooltip,
+    Filetype,
+    is_markdown_tooltip_path,
+)
 from gtnh_translation_compare.modpack.modpack import ModPack
 from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
 from gtnh_translation_compare.paratranz.converter import Converter
@@ -25,6 +32,12 @@ from gtnh_translation_compare.utils.file import ensure_lf
 ParatranzFilenameFilter: TypeAlias = Callable[[str], bool]
 ParatranzToLocalPathConverter: TypeAlias = Callable[[str], Path]
 AfterToTranslationFileCallback: TypeAlias = Callable[[TranslationFile], None]
+
+
+def _make_lang_or_markdown_filetype(relpath: str, content: str) -> Filetype:
+    if is_markdown_tooltip_path(relpath):
+        return FiletypeMarkdownTooltip(relpath, content)
+    return FiletypeLang(relpath, content)
 
 
 class Action:
@@ -290,7 +303,7 @@ class Action:
                 continue
             with open(base_path / file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
-            lang_files.append(FiletypeLang(file_path, content))
+            lang_files.append(_make_lang_or_markdown_filetype(file_path, content))
 
         # concurrency number
         sem = asyncio.Semaphore(10)
@@ -332,6 +345,10 @@ class Action:
             with open(file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
             lang_files.append(FiletypeLang(os.path.relpath(file_path, base_path), content))
+        for file_path in glob.glob(f'./{base_path}/resources/*/lang/en_US/tooltip/**/*.md', recursive=True):
+            with open(file_path, 'r', encoding='UTF-8') as f:
+                content = f.read()
+            lang_files.append(FiletypeMarkdownTooltip(os.path.relpath(file_path, base_path), content))
 
         # concurrency number
         sem = asyncio.Semaphore(10)
