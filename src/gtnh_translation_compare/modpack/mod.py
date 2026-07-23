@@ -36,3 +36,19 @@ class Mod:
                 with self.__jar.open(f, mode="r") as fp:
                     lang_files[f] = ensure_lf(fp.read().decode("utf-8-sig", errors="ignore"))
         return lang_files
+
+    @cache
+    def markdown_tooltip_files(self, language: Language) -> Dict[Filename, Content]:
+        markdown_files = {}
+        for f in self.__jar.namelist():
+            parts = f.split("/")
+            # assets/<modid>/lang/<language>/tooltip/<slug...>.md (nested slugs allowed)
+            if len(parts) < 6:
+                continue
+            if parts[0] != "assets" or parts[2] != "lang" or parts[3] != language.name or parts[4] != "tooltip":
+                continue
+            if not f.endswith(".md"):
+                continue
+            with self.__jar.open(f, mode="r") as fp:
+                markdown_files[f] = ensure_lf(fp.read().decode("utf-8-sig", errors="ignore"))
+        return markdown_files
