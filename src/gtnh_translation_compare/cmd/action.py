@@ -167,7 +167,7 @@ class Action:
                 None,
                 repo_path,
                 subdirectory,
-                _resources_to_txloader_path,
+                _markdown_tooltip_to_txloader_path,
         )
 
     # Gt Lang
@@ -525,6 +525,28 @@ def _resources_to_txloader_path(path: str) -> Path:
         logger.warning(f"Unknown path {path}")
         provided = cfg / "txloader" / "load" / provided
     return provided
+
+
+MOD_DOMAIN_RE = re.compile(r"\[([^\[\]]+)\]$")
+
+
+def _markdown_tooltip_to_txloader_path(path: str) -> Path:
+    # Markdown tooltips only, never .lang: unlike .lang, a tooltip slug belongs to one mod,
+    # so collapsing "<DisplayName>[<domain>]" to the bare domain here is safe. Don't reuse
+    # this for _resources_to_txloader_path's job - addon mods contribute lines to another
+    # mod's .lang through their own bracketed folder, and collapsing those would drop one
+    # contributor's translations whenever two folders share a domain and relative path.
+    cfg = Path("config")
+    provided = Path(path)
+    parts = list(provided.parts)
+    if len(parts) < 2 or parts[0] != "resources":
+        logger.warning(f"Unknown path for markdown tooltip {path}")
+        return cfg / "txloader" / "load" / provided
+    match = MOD_DOMAIN_RE.search(parts[1])
+    if match is None:
+        logger.warning(f"Could not find mod domain in {parts[1]!r} for markdown tooltip {path}")
+        return cfg / "txloader" / "load" / Path(*parts[1:])
+    return cfg / "txloader" / "load" / match.group(1) / Path(*parts[2:])
 
 
 def print_yellow(string: str) -> None:
