@@ -1,16 +1,19 @@
+import re
 from typing import Dict
 
 from gtnh_translation_compare.filetypes.filetype import Filetype
 from gtnh_translation_compare.filetypes.language import Language
 from gtnh_translation_compare.filetypes.property import Property
 
-# Path marker shared between mod.py's jar scanner and the daily-sync workflow's
-# changed-file dispatcher, so both agree on what counts as a markdown tooltip file.
-MARKDOWN_TOOLTIP_PATH_MARKER = "/lang/{language}/tooltip/"
+# Shared between mod.py's jar scanner, the daily-sync workflow's changed-file
+# dispatcher, and the ParaTranz-download filter, so all three agree on what counts
+# as a markdown tooltip file. Language-agnostic (matches any locale segment) since
+# callers see the file under different locales depending on which side they're on.
+MARKDOWN_TOOLTIP_PATH_RE = re.compile(r"/lang/[^/]+/tooltip/.*\.md$")
 
 
-def is_markdown_tooltip_path(relpath: str, language: Language = Language.en_US) -> bool:
-    return MARKDOWN_TOOLTIP_PATH_MARKER.format(language=language.value) in relpath and relpath.endswith(".md")
+def is_markdown_tooltip_path(relpath: str) -> bool:
+    return MARKDOWN_TOOLTIP_PATH_RE.search(relpath) is not None
 
 
 class FiletypeMarkdownTooltip(Filetype):

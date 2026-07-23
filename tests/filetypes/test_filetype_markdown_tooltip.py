@@ -80,6 +80,6 @@ def test_get_target_relpath(
 
 def test_is_markdown_tooltip_path() -> None:
     assert is_markdown_tooltip_path(EN_US_RELPATH)
-    assert not is_markdown_tooltip_path(RU_RU_RELPATH)  # default language arg is en_US
-    assert is_markdown_tooltip_path(RU_RU_RELPATH, Language.ru_RU)
+    assert is_markdown_tooltip_path(RU_RU_RELPATH)
     assert not is_markdown_tooltip_path("resources/GregTech[gregtech]/lang/en_US.lang")
+    assert not is_markdown_tooltip_path("resources/GregTech[gregtech]/lang/en_US/tooltip/bec-ionode.md.json")
