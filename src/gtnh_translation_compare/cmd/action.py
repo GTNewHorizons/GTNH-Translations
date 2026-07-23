@@ -21,6 +21,7 @@ from gtnh_translation_compare.filetypes import (
     FiletypeMarkdownTooltip,
     Filetype,
     is_markdown_tooltip_path,
+    is_markdown_tooltip_paratranz_file,
 )
 from gtnh_translation_compare.modpack.modpack import ModPack
 from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
@@ -504,11 +505,6 @@ def is_mod_lang_file(name: str) -> bool:
             and name != settings.GT_LANG_TARGET_REL_PATH + ".json",
         ]
     )
-
-
-def is_markdown_tooltip_paratranz_file(name: str) -> bool:
-    # ParaTranz always appends ".json" to the original file's relpath.
-    return is_markdown_tooltip_path(name.removesuffix(".json"))
 
 
 def _resources_to_txloader_path(path: str) -> Path:
