@@ -106,6 +106,7 @@ class Action:
         files_to_commit: list[str] = []
         files_to_commit.extend(await self._paratranz_to_quest_book(repo_path, subdirectory))
         files_to_commit.extend(await self._paratranz_to_lang(repo_path, subdirectory))
+        files_to_commit.extend(await self._paratranz_to_markdown_tooltip(repo_path, subdirectory))
         files_to_commit.extend(await self._paratranz_to_gt_lang(repo_path, subdirectory))
 
         git_commit(
@@ -144,32 +145,28 @@ class Action:
         repo_path: Path,
         subdirectory: Path,
     ) -> list[str]:
-        # Existing projects use resource folder on PT
-        def path_converter_(path: str) -> Path:
-            cfg = Path("config")
-            provided = Path(path)
-            if provided.parts and provided.parts[0] == "config":
-                logger.info(f"Skip normalizing path for {path}")
-            elif provided.parts and provided.parts[0] == "resources":
-                parts = list(provided.parts)
-                for i in range(len(parts)):
-                    result = re.sub(r"\(\+\d+\)", "", parts[i])
-                    if result != parts[i]:
-                        logger.warning(f"Trimmed path for {parts[i]}")
-                        parts[i] = result
-                provided = cfg / "txloader" / "load" / Path(*parts[1:])
-            else:
-                logger.warning(f"Unknown path {path}")
-                provided = cfg / "txloader" / "load" / provided
-            return provided
-
         return await self.__paratranz_to_translation(
                 is_mod_lang_file,
                 None,
                 ValueError("No lang file found"),
                 repo_path,
                 subdirectory,
-                path_converter_,
+                _resources_to_txloader_path,
+        )
+
+    # Markdown tooltips
+    async def _paratranz_to_markdown_tooltip(
+        self,
+        repo_path: Path,
+        subdirectory: Path,
+    ) -> list[str]:
+        return await self.__paratranz_to_translation(
+                is_markdown_tooltip_paratranz_file,
+                None,
+                None,
+                repo_path,
+                subdirectory,
+                _resources_to_txloader_path,
         )
 
     # Gt Lang
@@ -507,6 +504,32 @@ def is_mod_lang_file(name: str) -> bool:
             and name != settings.GT_LANG_TARGET_REL_PATH + ".json",
         ]
     )
+
+
+def is_markdown_tooltip_paratranz_file(name: str) -> bool:
+    # ParaTranz always appends ".json" to the original file's relpath.
+    return is_markdown_tooltip_path(name.removesuffix(".json"))
+
+
+def _resources_to_txloader_path(path: str) -> Path:
+    # Existing projects use resource folder on PT
+    cfg = Path("config")
+    provided = Path(path)
+    if provided.parts and provided.parts[0] == "config":
+        logger.info(f"Skip normalizing path for {path}")
+    elif provided.parts and provided.parts[0] == "resources":
+        parts = list(provided.parts)
+        for i in range(len(parts)):
+            result = re.sub(r"\(\+\d+\)", "", parts[i])
+            if result != parts[i]:
+                logger.warning(f"Trimmed path for {parts[i]}")
+                parts[i] = result
+        provided = cfg / "txloader" / "load" / Path(*parts[1:])
+    else:
+        logger.warning(f"Unknown path {path}")
+        provided = cfg / "txloader" / "load" / provided
+    return provided
+
 
 def print_yellow(string: str) -> None:
     print(f"\033[33m{string}\033[0m")
