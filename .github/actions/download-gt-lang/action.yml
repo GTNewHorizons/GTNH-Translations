@@ -2,9 +2,6 @@ name: Download GT lang
 description: Download GregTech.lang produced by the latest daily modpack client test run, if available
 
 inputs:
-  GITHUB_TOKEN:
-    description: secrets.GITHUB_TOKEN
-    required: true
   directory:
     description: Directory to put the downloaded GregTech.lang into
     required: true
@@ -22,10 +19,10 @@ runs:
       shell: bash
       run: |
         echo "artifact_id=$(gh --repo GTNewHorizons/DreamAssemblerXXL run list \
-          --limit 1 --workflow "Daily modpack build" --status success --json databaseId --jq '.[].databaseId')" \
+          --limit 1 --workflow "Daily modpack build" --status completed --json databaseId --jq '.[].databaseId')" \
           >> $GITHUB_OUTPUT
       env:
-        GH_TOKEN: ${{ inputs.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ github.token }}
     - name: Ensure ${{ inputs.directory }}
       shell: bash
       run:
@@ -44,4 +41,4 @@ runs:
           echo "found=false" >> "$GITHUB_OUTPUT"
         fi
       env:
-        GH_TOKEN: ${{ inputs.GITHUB_TOKEN }}
+        GH_TOKEN: ${{ github.token }}

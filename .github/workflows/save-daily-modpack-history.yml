@@ -26,7 +26,6 @@ jobs:
         id: download-gt-lang
         uses: ./.github/actions/download-gt-lang
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           directory: .gt-lang-temp
       - name: Save daily modpack history
         id: save-daily-modpack-history
