@@ -12,6 +12,11 @@ jobs:
     needs: save-daily-modpack-history
     uses: ./.github/workflows/conditional-sync-to-paratranz-parallel.yml
     secrets: inherit
+  sync-gt-lang-to-paratranz-all-langs:
+    needs: save-daily-modpack-history
+    if: needs.save-daily-modpack-history.outputs.gt_lang_changed == 'true'
+    uses: ./.github/workflows/sync-gt-lang-to-paratranz-all-langs.yml
+    secrets: inherit
   publish-all-daily-lang-packs:
     needs: conditional-sync-to-paratranz-parallel
     uses: ./.github/workflows/publish-all-daily-lang-packs.yml

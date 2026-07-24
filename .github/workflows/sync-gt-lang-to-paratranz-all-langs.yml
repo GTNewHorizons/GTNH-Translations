@@ -2,6 +2,7 @@ name: Sync GT lang to ParaTranz for all langs
 
 on:
   workflow_dispatch:
+  workflow_call:
 
 jobs:
   # zh_CN:
