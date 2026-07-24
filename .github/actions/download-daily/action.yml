@@ -31,7 +31,7 @@ runs:
       run: |
         gh --repo GTNewHorizons/DreamAssemblerXXL run download \
           ${{ steps.fetch-artifact-id.outputs.artifact_id }} \
-          --pattern '*-mmcprism-java17-25.zip'
+          --pattern '*-mmcprism-java17-26.zip'
 
         modpack_path="$(find . -mindepth 2 -maxdepth 2 -type d -name 'GT New Horizons daily' -print -quit)"
         if [[ -z "$modpack_path" ]]; then
