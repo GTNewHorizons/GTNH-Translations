@@ -6,7 +6,7 @@ import shutil
 from pathlib import Path
 import re
 import subprocess
-from typing import Sequence, TypeAlias, Callable, Optional
+from typing import Sequence, TypeAlias, Callable, Optional, Dict
 
 from gtnh_translation_compare.utils.github_action import set_output
 import httpx
@@ -85,6 +85,8 @@ class Action:
         if len(translation_files) == 0:
             if raise_when_empty is not None:
                 raise raise_when_empty
+
+        translation_files = _dedupe_case_insensitive_paths(translation_files)
 
         for translation_file in translation_files:
             base_path = repo_path / subdirectory
@@ -496,6 +498,25 @@ def clear_folder(filepath: str, ignore_files_in_root: list[str]) -> None:
         item.unlink()
       elif item.is_dir():
         shutil.rmtree(item)
+
+def _dedupe_case_insensitive_paths(translation_files: list[TranslationFile]) -> list[TranslationFile]:
+    # Some mod domains (e.g. BetterQuesting's "cb4bq") were uploaded to ParaTranz under
+    # both a lowercase and an uppercase folder name. We have no way to get the source
+    # fixed on ParaTranz's side, and Windows/NTFS treats the two paths as identical,
+    # so pick the lowercase-leaning one deterministically to stop the casing from
+    # flip-flopping between syncs.
+    best_by_lower_relpath: Dict[str, TranslationFile] = {}
+    for translation_file in translation_files:
+        key = translation_file.relpath.lower()
+        existing = best_by_lower_relpath.get(key)
+        if existing is None or _uppercase_count(translation_file.relpath) < _uppercase_count(existing.relpath):
+            best_by_lower_relpath[key] = translation_file
+    return list(best_by_lower_relpath.values())
+
+
+def _uppercase_count(s: str) -> int:
+    return sum(1 for c in s if c.isupper())
+
 
 def is_mod_lang_file(name: str) -> bool:
     return any(
