@@ -8,6 +8,8 @@ jobs:
   save-daily-modpack-history:
     name: Save daily modpack history
     runs-on: ubuntu-24.04
+    outputs:
+      gt_lang_changed: ${{ steps.save-daily-modpack-history.outputs.gt_lang_changed }}
     steps:
       - uses: actions/checkout@v7
         with:
@@ -20,10 +22,18 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           directory: .daily-temp
+      - name: Download GT lang
+        id: download-gt-lang
+        uses: ./.github/actions/download-gt-lang
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          directory: .gt-lang-temp
       - name: Save daily modpack history
+        id: save-daily-modpack-history
         run: >-
           poetry run python main.py action save-daily-modpack-history
           --modpack-path='.daily-temp/daily' --subdirectory='daily-history'
+          --gt-lang-path='.gt-lang-temp/GregTech.lang'
         env:
           # Required by system validation but actually unused
           PARATRANZ_TOKEN: -1

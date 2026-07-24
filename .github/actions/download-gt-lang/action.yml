@@ -1,0 +1,47 @@
+name: Download GT lang
+description: Download GregTech.lang produced by the latest daily modpack client test run, if available
+
+inputs:
+  GITHUB_TOKEN:
+    description: secrets.GITHUB_TOKEN
+    required: true
+  directory:
+    description: Directory to put the downloaded GregTech.lang into
+    required: true
+
+outputs:
+  found:
+    description: "'true' if GregTech.lang was downloaded, 'false' otherwise"
+    value: ${{ steps.download.outputs.found }}
+
+runs:
+  using: composite
+  steps:
+    - name: Fetch artifact ID
+      id: fetch-artifact-id
+      shell: bash
+      run: |
+        echo "artifact_id=$(gh --repo GTNewHorizons/DreamAssemblerXXL run list \
+          --limit 1 --workflow "Daily modpack build" --status success --json databaseId --jq '.[].databaseId')" \
+          >> $GITHUB_OUTPUT
+      env:
+        GH_TOKEN: ${{ inputs.GITHUB_TOKEN }}
+    - name: Ensure ${{ inputs.directory }}
+      shell: bash
+      run:
+        mkdir -p ${{ inputs.directory }}
+    - name: Download GregTech.lang
+      id: download
+      shell: bash
+      working-directory: ${{ inputs.directory }}
+      run: |
+        if gh --repo GTNewHorizons/DreamAssemblerXXL run download \
+          ${{ steps.fetch-artifact-id.outputs.artifact_id }} \
+          --name gregtech-lang; then
+          echo "found=true" >> "$GITHUB_OUTPUT"
+        else
+          echo "GregTech.lang artifact not found in the latest daily run, skipping" >&2
+          echo "found=false" >> "$GITHUB_OUTPUT"
+        fi
+      env:
+        GH_TOKEN: ${{ inputs.GITHUB_TOKEN }}
