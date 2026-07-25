@@ -86,12 +86,18 @@ class Action:
             if raise_when_empty is not None:
                 raise raise_when_empty
 
+        # Dedupe by the local path the file will actually be written to, not the raw
+        # ParaTranz relpath: ParaTranz-side duplicate names (e.g. "Foo (+3)") and casing
+        # differences only collapse to the same path once path_converter has run.
+        for translation_file in translation_files:
+            translation_file.relpath = str(
+                path_converter(translation_file.relpath) if path_converter is not None else translation_file.relpath
+            )
         translation_files = _dedupe_case_insensitive_paths(translation_files)
 
         for translation_file in translation_files:
             base_path = repo_path / subdirectory
-            translation_file_relpath = path_converter(translation_file.relpath) if path_converter is not None else translation_file.relpath
-            translation_filepath = os.path.abspath(os.path.join(base_path, translation_file_relpath))
+            translation_filepath = os.path.abspath(os.path.join(base_path, translation_file.relpath))
             translation_filepaths.append(translation_filepath)
             write_file(translation_filepath, translation_file.content)
 
