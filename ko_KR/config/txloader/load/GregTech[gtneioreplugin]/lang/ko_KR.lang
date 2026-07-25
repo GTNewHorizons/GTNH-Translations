@@ -1,30 +1,23 @@
 # gui names
-gtnop.gui.veinStat.name=Vein Stats
-gtnop.gui.asteroidStat.name=Asteroid Stats
-gtnop.gui.smallOreStat.name=Small Ore Stats
-gtnop.gui.undergroundFluid.name=Underground Fluid Stats
+gtnop.gui.veinStat.name=광맥 통계
+gtnop.gui.asteroidStat.name=소행성 통계
+gtnop.gui.smallOreStat.name=작은 광석 통계
+gtnop.gui.undergroundFluid.name=지하 유체 통계
 gtnop.gui.ieVeinStat.name=IE Vein Stats
 gtnop.gui.bedrockOreStat.name=Bedrock Ore Stats
 
-gtnop.gui.nei.primaryOre=Primary
-gtnop.gui.nei.secondaryOre=Secondary
+gtnop.gui.nei.veinName=광맥 이름
+gtnop.gui.nei.primaryOre=주요 광물
+gtnop.gui.nei.secondaryOre=보조 광물
 gtnop.gui.nei.betweenOre=Between
 gtnop.gui.nei.sporadicOre=Sporadic
-gtnop.gui.nei.genHeight=Height
+gtnop.gui.nei.genHeight=높이
 gtnop.gui.nei.weightedChance=Weight
 gtnop.gui.nei.worldNames=Generated world
 gtnop.gui.nei.restrictBiome=Restricted biome
 gtnop.gui.nei.dimension=Dimension
 gtnop.gui.nei.chance=Chance
 gtnop.gui.nei.fluidAmount=Amount
-gtnop.gui.nei.lineKey=%s
-gtnop.gui.nei.lineValue=%s
-gtnop.gui.nei.title=%s
-
-gtnop.gui.nei.chance.value=%s%%
-gtnop.gui.nei.orechunkchance.value=§eChance per ore chunk: §7%s%%
-gtnop.gui.nei.oredimheight.value=§eHeight in dim: §7%s
-gtnop.gui.nei.fluidAmount.value=%s-%s
 
 gtnop.gui.nei.asteroidPrimary=Main-Gen1
 gtnop.gui.nei.asteroidSecondary=Main-Gen2
@@ -39,79 +32,69 @@ gtnop.gui.nei.ieVeinComponent=Vein components
 gtnop.gui.nei.fromMod=From mod
 
 gtnop.gui.nei.seeAll=See All
-gtnop.gui.nei.vein=Vein
+gtnop.gui.nei.vein=광맥
 gtnop.gui.nei.oreOthers=Other ore
 gtnop.nei.genPosition=Position
 gtnop.nei.genPositionInfo=In the center of each chunk
 
-# world names
-gtnop.world.Overworld=Overworld
-gtnop.world.Nether=Nether
-gtnop.world.TheEnd=The End
-gtnop.world.TwilightForest=Twilight Forest
-gtnop.world.EndAsteroid=Far End Asteroids
-gtnop.world.Vanilla EndAsteroids=Vanilla End Asteroids
-gtnop.world.dimensionDarkWorld=The Toxic Everglades
-gtnop.world.moon=Moon
-gtnop.world.mars=Mars
-gtnop.world.phobos=Phobos
-gtnop.world.deimos=Deimos
-gtnop.world.asteroids=Asteroids
-gtnop.world.ceres=Ceres
-gtnop.world.europa=Europa
-gtnop.world.ganymed=Ganymede
-gtnop.world.callisto=Callisto
-gtnop.world.ross128b=Ross128b
-gtnop.world.iojupiter=Io
-gtnop.world.venus=Venus
-gtnop.world.mercury=Mercury
-gtnop.world.enceladus=Enceladus
-gtnop.world.titan=Titan
-gtnop.world.ross128ba=Ross128ba
-gtnop.world.miranda=Miranda
-gtnop.world.oberon=Oberon
-gtnop.world.proteus=Proteus
-gtnop.world.triton=Triton
-gtnop.world.pluto=Pluto
-gtnop.world.kuiperbelt=Kuiper Belt
-gtnop.world.haumea=Haumea
-gtnop.world.makemake=Makemake
-gtnop.world.centauribb=α Centauri Bb
-gtnop.world.vega1=Vega B
-gtnop.world.barnarda2=Barnard C
-gtnop.world.barnarda4=Barnard E
-gtnop.world.barnarda5=Barnard F
-gtnop.world.tcetie=T Ceti E
-gtnop.world.anubis=Anubis
-gtnop.world.asteroidbeltmehen=Mehen Belt
-gtnop.world.horus=Horus
-gtnop.world.maahes=Maahes
-gtnop.world.neper=Neper
-gtnop.world.seth=Seth
-gtnop.world.Underdark=Deep Dark
 
-# world tiers
-gtnop.tier.0=%s
-gtnop.tier.1=T1: %s
-gtnop.tier.2=T2: %s
-gtnop.tier.3=T3: %s
-gtnop.tier.4=T4: %s
-gtnop.tier.5=T5: %s
-gtnop.tier.6=T6: %s
-gtnop.tier.7=T7: %s
-gtnop.tier.8=T8: %s
-gtnop.tier.9=T9: %s
-gtnop.tier.10=T10: %s
+# world names
+gtnop.world.Overworld=오버월드
+gtnop.world.Nether=네더
+gtnop.world.TheEnd=엔더
+gtnop.world.Twilight=황혼 숲
+gtnop.world.EndAsteroid=머나먼 엔드 소행성들
+gtnop.world.Vanilla EndAsteroids=바닐라 엔드 소행성들
+gtnop.world.Moon=달
+gtnop.world.Mars=화성
+gtnop.world.Phobos=포보스
+gtnop.world.Deimos=데이모스
+gtnop.world.Asteroids=소행성
+gtnop.world.Ceres=세레스
+gtnop.world.Europa=유로파
+gtnop.world.Ganymede=가니메데
+gtnop.world.Callisto=칼리스토
+gtnop.world.Ross128b=Ross128b
+gtnop.world.Io=이오
+gtnop.world.Venus=금성
+gtnop.world.Mercury=수성
+gtnop.world.Enceladus=엔셀라두스
+gtnop.world.Titan=타이탄
+gtnop.world.Ross128ba=Ross128ba
+gtnop.world.Miranda=미란다
+gtnop.world.Oberon=오베론
+gtnop.world.Proteus=프로테우스
+gtnop.world.Triton=트리톤
+gtnop.world.Pluto=명왕성
+gtnop.world.Kuiperbelt=카이퍼 벨트
+gtnop.world.Haumea=하우메아
+gtnop.world.MakeMake=마케마케
+gtnop.world.CentauriA=α 센타우리 Bb
+gtnop.world.VegaB=베가 B
+gtnop.world.BarnardC=바나드 C
+gtnop.world.BarnardE=바나드 E
+gtnop.world.BarnardF=바나드 F
+gtnop.world.TcetiE=T 세티 E
+gtnop.world.Anubis=아누비스
+gtnop.world.MehenBelt=메헨 벨트
+gtnop.world.Horus=호루스
+gtnop.world.Maahes=마헤스
+gtnop.world.Neper=네페르
+gtnop.world.Seth=세트
+gtnop.world.Underdark=딥다크
+
 
 # biome names
-gtnop.biome.none.name=None
+gtnop.biome.none.name=없음
+
 
 # ore names extra
-gtnop.ore.null.name=None
+gtnop.ore.null.name=없음
+
 
 # vein types
-gtnop.ore.vein.name=Vein
-gtnop.ore.asteroid.name=Asteroid
+gtnop.ore.vein.name=광맥
+gtnop.ore.asteroid.name=소행성
 gtnop.ore.custom.name=Custom
 
 # items

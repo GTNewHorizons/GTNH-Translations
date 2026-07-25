@@ -5,9 +5,6 @@ key.sort_gui=Sort Inventory In GUIs
 key.dropoff=Dropoff
 key.dropoff.tooltip1=Dropoff To Nearby Inventories
 key.dropoff.tooltip2=Control + Drag To Move
-key.dropoff.tooltip.coin_destination=Coin Deposit: %s
-key.dropoff.tooltip.coin_destination.personal=Personal
-key.dropoff.tooltip.coin_destination.team=Team
 key.tooltip.keybind=Keybind
 key.bogosorter.controls_button=A Shortcuts Settings
 key.bogosorter.move_all_same=Move All Same
@@ -16,14 +13,10 @@ key.bogosorter.move_single=Move Single
 key.bogosorter.move_single_empty=Move Single To Empty Slot
 key.bogosorter.throw_all_same=Throw All Same
 key.bogosorter.throw_all=Throw All
-key.ae2_terminal_search=Search AE2 Terminal From Hovered Item
 
 bogosort.gui.title=Sort Config
 bogosort.gui.tab.general.name=General
 bogosort.gui.tab.profiles.name=Profiles
-bogosort.gui.coin_destination=Coin Deposit
-bogosort.gui.coin_destination.personal=Personal
-bogosort.gui.coin_destination.team=Team
 bogosort.gui.tab.item_sort_rules.name=Item sort rules
 bogosort.gui.tab.nbt_sort_rules.name=NBT sort rules
 bogosort.gui.available_sort_rules=Available Sort-Rules
@@ -41,7 +34,6 @@ bogosort.gui.enabled=Enabled
 bogosort.gui.button.enabled=Enable sort and config buttons in GUI's
 bogosort.gui.button.color=Background color of sort buttons
 bogosort.gui.dropoff_enable=Enable Dropoff
-bogosort.gui.dropoff_hotbar_enable=Enable Hotbar Dropoff
 bogosort.gui.dropoffbutton_enable=Show Dropoff Button in Inventory
 bogosort.gui.dropoff_render=Show Dropoff Targets
 bogosort.gui.dropoff_chatmessage=Show Dropoff Chat Message
@@ -53,14 +45,6 @@ bogosort.gui.usageticker_arrow=Enable Usage Ticker Arrows
 
 
 bogosort.command.config_relaod.success=Reloaded sorting config
-
-bogosorter.command.tooltip.usage=/bogosorter tooltip <on|off>
-bogosorter.command.tooltip.enabled=Bogo tooltip querying is now enabled.
-bogosorter.command.tooltip.disabled=Bogo tooltip querying is now disabled.
-
-bogosort.message.dropoff.items_moved=%s items moved to %s containers of %s checked in total.
-bogosort.message.dropoff.quota_reached_times= (Quota reached %s times)
-bogosort.message.dropoff.throttled=Dropoff throttled
 
 bogosort.sortrules.item.mod.name=Mod name
 bogosort.sortrules.item.id.name=Registry name
@@ -116,7 +100,6 @@ bogosort.sortrules.nbt.gt_item_damage.description=Sorts GregTech tools by their 
 
 bogosorter.config.dropoff=Drop-Off Settings
 bogosorter.config.dropoff.enable=Enable drop-off
-bogosorter.config.dropoff.hotbar_enable=Enable hotbar drop-off
 bogosorter.config.dropoff.scan_radius=Drop-off scan radius (blocks)
 bogosorter.config.dropoff.render=Render highlight on containers
 bogosorter.config.dropoff.render_style=Render Style
@@ -125,7 +108,6 @@ bogosorter.config.dropoff.chat_message=Show chat message on drop-off
 bogosorter.config.dropoff.quota=Drop-off quota (ms)
 bogosorter.config.dropoff.throttle=Drop-off throttle (ms)
 bogosorter.config.dropoff.targets=Container name filters
-bogosorter.config.dropoff.coin_destination=자판기 코인 보관 위치
 
 bogosorter.config.dropoff.button=Drop-Off Button Settings
 bogosorter.config.dropoff.button.x=Button X Position
@@ -145,19 +127,9 @@ bogosorter.config.usage_ticker.arrow.bowItems=Item bows
 bogosorter.config.sort.sound=Sort button click sound
 bogosorter.config.hotbarsort.enable=Enable hotbar sort
 bogosorter.config.hotbarswap.enable=Enable hotbar swap
-bogosorter.config.debug_tools.enable=Enable debug clear/randomize tools (operators only)
 bogosorter.config.autorefill.enable=Enable auto-refill (Client Toggle)
 bogosorter.config.autorefill.enable_server=Enable auto-refill (Server Toggle)
 bogosorter.config.autorefill.damage_threshold=Auto-refill damage threshold
 bogosorter.config.preventSplit=Prevent Split for Unstackable Items
 bogosorter.config.button.color=Sort button color
 bogosorter.config.button.enable=Enable sort button
-bogosorter.config.ae2=AE2 Integration
-bogosorter.config.ae2.amount_tooltips=AE2 amount tooltips
-bogosorter.config.ae2.thaumic_essentia=Thaumic essentia amount tooltips
-bogosorter.config.ae2.terminal_search=AE2 terminal hover search
-bogosorter.config.ae2.debug_logging=AE2 integration debug logging
-
-bogosorter.tooltip.amount_in_system=Amount in System: %s
-bogosorter.tooltip.amount_out_of_range=Amount in System: Out of Range!
-bogosorter.tooltip.amount_checking=Amount in System: Checking...
