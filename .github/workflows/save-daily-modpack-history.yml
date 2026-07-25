@@ -2,6 +2,10 @@ name: Save daily modpack history
 
 on:
   workflow_call:
+    outputs:
+      gt_lang_changed:
+        description: "'true' if GregTech.lang changed in this run"
+        value: ${{ jobs.save-daily-modpack-history.outputs.gt_lang_changed }}
   workflow_dispatch:
 
 jobs:
