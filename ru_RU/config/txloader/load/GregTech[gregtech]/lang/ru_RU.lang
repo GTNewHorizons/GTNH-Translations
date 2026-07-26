@@ -1599,8 +1599,8 @@ GT5U.MBTT.Dimensions=Размеры
 GT5U.MBTT.Hollow=(Полый)
 GT5U.MBTT.Structure=Структура
 GT5U.MBTT.Controller=Контроллер
-GT5U.MBTT.Minimum=(минимум)
-GT5U.MBTT.Tiered=(тировый)
+GT5U.MBTT.Minimum=(Минимум)
+GT5U.MBTT.Tiered=§b(Тировый)
 GT5U.MBTT.EnergyHatch=Энерговвод
 GT5U.MBTT.DynamoHatch=Энерговывод
 GT5U.MBTT.MultiampEnergyHatch=Мультиамперный энерговвод
@@ -1687,7 +1687,7 @@ GT5U.MBTT.Structure.Base=§bБазовая структура
 GT5U.MBTT.Structure.Slice=§9Each Additional §bSlice
 GT5U.MBTT.Structure.Layer=§9Each Additional §bLayer
 GT5U.MBTT.Structure.Projector=§fЧтобы увидеть/построить структуру, используйте §9голограммный §1проектор§f мультиблочных структур!
-GT5U.MBTT.Structure.MinGlassForLaser=-тировое §fстекло§7 требуется для §9Tec§1Tech§7 лазеров
+GT5U.MBTT.Structure.MinGlassForLaser=-тировое §fстекло§7 требуется для лазеров
 GT5U.MBTT.Structure.GlassEnergyLimit=Энерговвод ограничен тиром §fстекла§7
 GT5U.MBTT.Structure.GlassEnergyLimitTier=-тир разблокирует всё
 GT5U.MBTT.Structure.DynamoLimit=§cDynamo cannot be greater than 4A
@@ -1828,7 +1828,7 @@ gt.multiblock.VacuumFreezer.machine_type=Vacuum Freezer, VF
 gt.multiblock.VacuumFreezer.desc1=Cools hot ingots and cells
 
 GT5U.MBTT.masterchannel=Projector stack size determines §b%s
-GT5U.MBTT.subchannel=Использует подканал §6%s§r§7 для §6%s
+GT5U.MBTT.subchannel=Подканал §b%s§7 определяет §b%s
 
 GT5U.MBTT.CokeOvenHatch=Люк коксовой печи
 GT5U.MBTT.CryotheumHatch=Криотеумный охлаждающий шлюз
@@ -3122,12 +3122,12 @@ gt.circuitcomponent.processed.asmd.resistor=Prepared Advanced SMD Resistor
 gt.circuitcomponent.processed.asmd.transistor=Prepared Advanced SMD Transistor
 gt.circuitcomponent.processed.asmd.inductor=Prepared Advanced SMD Inductor
 gt.circuitcomponent.processed.asmd.capacitor=Prepared Advanced SMD Capacitor
-gt.circuitcomponent.processed.asmd.diode=Prepared Advanced SMD Diode
-gt.circuitcomponent.processed.xsmd.resistor=Prepared Optical SMD Resistor
-gt.circuitcomponent.processed.xsmd.transistor=Prepared Optical SMD Transistor
-gt.circuitcomponent.processed.xsmd.inductor=Prepared Optical SMD Inductor
-gt.circuitcomponent.processed.xsmd.capacitor=Prepared Optical SMD Capacitor
-gt.circuitcomponent.processed.xsmd.diode=Prepared Optical SMD Diode
+gt.circuitcomponent.processed.asmd.diode=Подготовленный продвинутый SMD-диод
+gt.circuitcomponent.processed.xsmd.resistor=Подготовленный оптический SMD-резистор
+gt.circuitcomponent.processed.xsmd.transistor=Подготовленный оптический SMD-транзистор
+gt.circuitcomponent.processed.xsmd.inductor=Подготовленная оптическая SMD-катушка индуктивности
+gt.circuitcomponent.processed.xsmd.capacitor=Подготовленный оптический SMD-конденсатор
+gt.circuitcomponent.processed.xsmd.diode=Подготовленный оптический SMD-диод
 
 gt.circuitcomponent.processed.board.multifiberelite=Очищаем элитную печатную плату
 gt.circuitcomponent.processed.board.wetwarelifesupport=Очищаем печатную плату экстремального жизнеобеспечения с биокомпонентами
@@ -3682,11 +3682,11 @@ GT5U.item.cable.max_voltage=Макс. вольтаж
 GT5U.item.cable.max_amperage=Макс. ампераж
 GT5U.item.cable.loss=Потеря на блок/ампер
 GT5U.item.cable.loss.eu_volt=%s EU-вольт
-GT5U.item.cable.connected=Connected
-GT5U.item.cable.disconnected=Disconnected
-GT5U.item.cable.swapped.s=Cable swapped: %s
-GT5U.item.cable.multi.infinite_loop=Error: cable traversal limit exceeded. This is probably a bug, please report it.
-GT5U.item.cable.multi.success=Found %d cables, connected %d cables and %d blocks.
+GT5U.item.cable.connected=Подключено
+GT5U.item.cable.disconnected=Отключено
+GT5U.item.cable.swapped.s=Заменён кабель: %s
+GT5U.item.cable.multi.infinite_loop=Ошибка: превышен предел перемещения кабеля. Вероятно, это ошибка в программе, пожалуйста, сообщите об этом.
+GT5U.item.cable.multi.success=Обнаружено %d кабелей, подключено %d кабелей и %d блоков.
 
 GT5U.item.tank.locked_to=Content locked to %s
 
@@ -4934,7 +4934,7 @@ gt.item.cover.solar_panel.uv.name=Солнечная панель (UV)
 gt.item.cover.solar_panel.uv.tooltip=UV Солнечная панель (Нуждаются в очистке с помощью ПКМ)
 
 ### Redstone Covers
-gt.item.cover.redstone_transmitter.name=Передатчик редстоуна (Внутренний)
+gt.item.cover.redstone_transmitter.name=Передатчик редстоуна
 gt.item.cover.redstone_transmitter.tooltip=Передает редстоун сигналы по беспроводной сети
 gt.item.cover.redstone_transmitter_internal.name=Передатчик редстоуна (Внутренний)
 gt.item.cover.redstone_transmitter_internal.tooltip=Передает редстоун сигналы по беспроводной сети\n§cУСТАРЕЛО! Будет удалён в следующем крупном обновлении!
@@ -5275,11 +5275,11 @@ gt.item.food.sliced_cheese.name=Кусочек сыра
 gt.item.food.sliced_cheese.tooltip=ПРИШЕЛЬЦЫ!!! Бросай в них СЫЫЫЫР!!!
 
 ## Advanced wireless covers
-gt.item.cover.advanced_redstone_transmitter.name=Улучшенный передатчик редстоуна (Внутренний)
+gt.item.cover.advanced_redstone_transmitter.name=Улучшенный передатчик редстоуна
 gt.item.cover.advanced_redstone_transmitter.tooltip=Передает редстоун сигналы по беспроводной сети\nМожет подключаться только с улучшенными беспроводными модулями
 gt.item.cover.advanced_redstone_transmitter_internal.name=Улучшенный передатчик редстоуна (Внутренний)
 gt.item.cover.advanced_redstone_transmitter_internal.tooltip=Передает редстоун сигналы по беспроводной сети\nМожет подключаться только с улучшенными беспроводными модулями\n§cУСТАРЕЛО! Будет удалён в следующем крупном обновлении!
-gt.item.cover.advanced_redstone_receiver.name=Улучшенный приёмник редстоуна (Внутренний)
+gt.item.cover.advanced_redstone_receiver.name=Улучшенный приёмник редстоуна
 gt.item.cover.advanced_redstone_receiver.tooltip=Передает редстоун сигналы по беспроводной сети\nМожет подключаться только с улучшенными беспроводными модулями
 gt.item.cover.advanced_redstone_receiver_internal.name=Улучшенный приёмник редстоуна (Внутренний)
 gt.item.cover.advanced_redstone_receiver_internal.tooltip=Передает редстоун сигналы по беспроводной сети\nМожет подключаться только с улучшенными беспроводными модулями\n§cУСТАРЕЛО! Будет удалён в следующем крупном обновлении!
@@ -7571,7 +7571,7 @@ GT5U.infodata.large_fluid_extractor.total_speed_multiplier=Множитель о
 GT5U.infodata.large_fluid_extractor.total_eu_multiplier=Общий множитель EU/t: %s%.0f%s %%
 
 GT5U.infodata.large_neutralization_engine=Большой нейтрализационный генератор
-GT5U.infodata.engine.large_neutralization_title=§9Большой нейтрализационный механизм§r
+GT5U.infodata.engine.large_neutralization_title=§9Большой нейтрализационный генератор§r
 
 GT5U.infodata.oil_drill.title=§9Помпа для Нефти/Жидкости§r
 GT5U.infodata.oil_drill.work_area=Рабочая область: §a%s x %s§r чанков
