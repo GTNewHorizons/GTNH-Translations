@@ -2743,10 +2743,10 @@ GT5U.gui.text.structure_error.too_few_hatch=%1$s: needs at least %2$s, found %3$
 GT5U.gui.text.structure_error.not_match_hatch=Needs exactly %s %s
 GT5U.gui.text.structure_error.too_many_hatch=%1$s: needs at most %2$s, found %3$s
 GT5U.gui.text.structure_error.missing_steam_input=§8《§7蒸気用入力ハッチ§8／Steam Hatch》§7がありません
-GT5U.gui.text.structure_error.no_input=入力なし (入力バス (蒸気)または入力ハッチ (蒸気)が必要です)
+GT5U.gui.text.structure_error.no_input=入力なし (蒸気機械用入力バスまたは蒸気機械用入力ハッチが必要です)
 GT5U.gui.text.structure_error.no_output=出力なし (出力バス (蒸気)または出力ハッチ (蒸気)が必要です)
-GT5U.gui.text.structure_error.missing_steam_input_bus=入力バス (蒸気)がありません
-GT5U.gui.text.structure_error.missing_steam_output_bus=出力バス (蒸気)がありません
+GT5U.gui.text.structure_error.missing_steam_input_bus=蒸気機械用入力バスがありません
+GT5U.gui.text.structure_error.missing_steam_output_bus=蒸気機械用出力バスがありません
 GT5U.gui.text.structure_error.missing_any_input=入力がありません
 GT5U.gui.text.structure_error.missing_any_output=出力がありません
 GT5U.gui.text.structure_error.energy_hatch_not_needed=エネルギーハッチは必要ありません
@@ -3587,6 +3587,7 @@ GT5U.item.toolbox.tooltip.deselect_tool=%s (スニーク中): 選択を解除
 GT5U.item.toolbox.tooltip.open_toolbox=%s: 工具箱を開く
 # This inserts gt.item.desc.durability into the %s
 GT5U.item.toolbox.tooltip.tool_durability=ツール %s
+GT5U.item.toolbox.tooltip.crafting=§4§lNOTE:§r §bWill craft with any/no tool selected
 
 GT5U.item.toolbox.byline.closed=素晴らしきエンジニア道を共にする\n§oあなたの忠実なる味方。
 # The tool-specific bylines are pretty much all jokes. Accuracy in translation isn't important.
@@ -3891,7 +3892,7 @@ GT5U.hatch.filter.tooltip.0=§6左クリック§8で削除
 GT5U.hatch.outputme.filter.format=%s: %s:
 GT5U.hatch.outputme.checkMode.true=チェックモード: §cオン§r
 GT5U.hatch.outputme.checkMode.false=チェックモード: §cオフ§r
-GT5U.hatch.outputme.checkMode.desc=NOTE: Simulates insertion into the internal cell during recipe checks, limiting parallel by cell space. (requires a cell to work, increases recipe calculation cost)
+GT5U.hatch.outputme.checkMode.desc=NOTE: Check Mode caps parallelism based on available space during recipe checks (increases recipe calculation cost, especially without equal distribution card).
 GT5U.hatch.outputme.cacheMode.true=キャッシュモード: §cオン§r
 GT5U.hatch.outputme.cacheMode.false=キャッシュモード: §aオフ§r
 GT5U.hatch.outputme.cacheMode.desc=MEネットワークの代わりに内部に配置したセルへアイテムを収納します。
@@ -7565,6 +7566,13 @@ GT5U.infodata.fusion.req=要求電力: §c%s§rEU/t
 GT5U.infodata.fusion.plasma=プラズマ出力: §e%s§rL/t
 GT5U.infodata.naquadah_refinery.coil_tier=コイルTier: %s
 
+GT5U.infodata.turbine.output=%s: %s EU/t
+GT5U.infodata.turbine.efficiency=Current Speed: %s %%
+GT5U.infodata.turbine.flow=Optimal Flow: %s L/%s (%s)
+GT5U.infodata.turbine.fuel=Fuel Remaining: %s L
+GT5U.infodata.turbine.dmg=Turbine Damage: %s %%
+GT5U.infodata.turbine.pollution=Pollution reduced to: %s %%
+
 GT5U.infodata.large_fluid_extractor.max_parallels=最大並列処理数: %s%d%s
 GT5U.infodata.large_fluid_extractor.heating_coil_speed_bonus=コイルブロックの速度ボーナス: +%s%.0f%s %%
 GT5U.infodata.large_fluid_extractor.total_speed_multiplier=合計速度倍率: %s%.0f%s %%
@@ -9121,7 +9129,7 @@ GT5U.chat.bec-connected-assembler=Successfully connected to the Observation Arra
 GT5U.chat.bec-no-connect-assembler=Could not connect to the Observation Array
 
 # BEC Waila
-GT5U.chat.bec-processing-speed=Processing Speed: x%s
+GT5U.chat.bec-processing-speed=Processing Speed: %s points per tick
 GT5U.chat.bec-slowdowns=Slowdowns: %s
 
 # Test Factory Machines
