@@ -2133,7 +2133,7 @@ gt.recipe.category.abs_non_alloy_recipes=Рецепты ABS без исполь�
 # NEI keys
 gt.nei.lftr.power=Power: %s EU/t per Dynamo
 gt.nei.lftr.dynamo=Dynamo: %s EU
-gt.nei.lftr.total=Total: %s EU
+gt.nei.lftr.total=Всего: %s EU
 gt.nei.milling.not_consumed=Не расходуется в процессе работы
 gt.nei.chemical_plant.not_consumed=Не расходуется в процессе работы
 gt.nei.chemical_plant.higher_tier_casing=Higher tier Pipe Casings allow this item to last longer
@@ -3587,6 +3587,7 @@ GT5U.item.toolbox.tooltip.deselect_tool=%s (while sneaking): Deselect active too
 GT5U.item.toolbox.tooltip.open_toolbox=%s: Open toolbox
 # This inserts gt.item.desc.durability into the %s
 GT5U.item.toolbox.tooltip.tool_durability=Tool %s
+GT5U.item.toolbox.tooltip.crafting=§4§lNOTE:§r §bWill craft with any/no tool selected
 
 GT5U.item.toolbox.byline.closed=Your stalwart ally for an epic\n§oengineering journey.
 # The tool-specific bylines are pretty much all jokes. Accuracy in translation isn't important.
@@ -5847,10 +5848,10 @@ GT5U.nei.display.duration.seconds=Время: %s секунд
 GT5U.nei.display.duration.ticks=Время: %s тиков
 GT5U.nei.display.discount.energy=Скидка на энергию: %s%%
 GT5U.nei.display.total=Всего: %s EU
-GT5U.nei.display.total.steam=Время: %s Л пара
-GT5U.nei.display.usage=Используется: %s EU/t %s
-GT5U.nei.display.usage.original=Первоначально используется: %s EU/t %s
-GT5U.nei.display.usage.steam=Использование: %s Л/с пара
+GT5U.nei.display.total.steam=Всего: %sл пара
+GT5U.nei.display.usage=Вольтаж: %s EU/t %s
+GT5U.nei.display.usage.original=Изнач. вольтаж: %s EU/t %s
+GT5U.nei.display.usage.steam=Расход: %s Л/с пара
 GT5U.nei.display.voltage=Вольтаж: %s EU/t %s
 GT5U.nei.display.amperage=Ампераж: %s A
 GT5U.nei.display.overclock=(OC)
@@ -7565,6 +7566,13 @@ GT5U.infodata.fusion.req=Требуется EU: §c%s§r EU/t
 GT5U.infodata.fusion.plasma=Выход плазмы: §e%s§r Л/t
 GT5U.infodata.naquadah_refinery.coil_tier=Тир катушки: %s
 
+GT5U.infodata.turbine.output=%s: %s EU/t
+GT5U.infodata.turbine.efficiency=Current Speed: %s %%
+GT5U.infodata.turbine.flow=Optimal Flow: %s L/%s (%s)
+GT5U.infodata.turbine.fuel=Fuel Remaining: %s L
+GT5U.infodata.turbine.dmg=Turbine Damage: %s %%
+GT5U.infodata.turbine.pollution=Pollution reduced to: %s %%
+
 GT5U.infodata.large_fluid_extractor.max_parallels=Макс. параллелей: %s%d%s
 GT5U.infodata.large_fluid_extractor.heating_coil_speed_bonus=Бонус нагревательной катушки к скорости: +%s%.0f%s %%
 GT5U.infodata.large_fluid_extractor.total_speed_multiplier=Множитель общей скорости: %s%.0f%s %%
@@ -9121,7 +9129,7 @@ GT5U.chat.bec-connected-assembler=Successfully connected to the Observation Arra
 GT5U.chat.bec-no-connect-assembler=Could not connect to the Observation Array
 
 # BEC Waila
-GT5U.chat.bec-processing-speed=Processing Speed: x%s
+GT5U.chat.bec-processing-speed=Processing Speed: %s points per tick
 GT5U.chat.bec-slowdowns=Slowdowns: %s
 
 # Test Factory Machines
