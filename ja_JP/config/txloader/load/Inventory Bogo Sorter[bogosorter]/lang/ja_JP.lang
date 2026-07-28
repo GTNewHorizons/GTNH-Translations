@@ -42,6 +42,7 @@ bogosort.gui.button.enabled=GUIのソート・設定ボタンを有効化
 bogosort.gui.button.color=ソートボタンの背景色
 bogosort.gui.dropoff_enable=自動収納を有効化
 bogosort.gui.dropoff_hotbar_enable=ホットバーの自動収納を有効化
+bogosort.gui.dropkeyrepeat_enable=Hold Drop Key To Keep Dropping
 bogosort.gui.dropoffbutton_enable=インベントリに自動収納ボタンを表示
 bogosort.gui.dropoff_render=自動収納の対象コンテナを表示
 bogosort.gui.dropoff_chatmessage=自動収納の内容をチャットに表示
@@ -161,3 +162,8 @@ bogosorter.config.ae2.debug_logging=AE2 integration debug logging
 bogosorter.tooltip.amount_in_system=Amount in System: %s
 bogosorter.tooltip.amount_out_of_range=Amount in System: Out of Range!
 bogosorter.tooltip.amount_checking=Amount in System: Checking...
+
+bogosorter.config.dropkeyrepeat=Drop Key Repeat
+bogosorter.config.dropkeyrepeat.enable=Hold drop key to keep dropping
+bogosorter.config.dropkeyrepeat.initial_delay=Ticks held before first repeat
+bogosorter.config.dropkeyrepeat.interval=Ticks between repeats
