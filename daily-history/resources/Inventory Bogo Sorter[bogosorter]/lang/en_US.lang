@@ -42,6 +42,7 @@ bogosort.gui.button.enabled=Enable sort and config buttons in GUI's
 bogosort.gui.button.color=Background color of sort buttons
 bogosort.gui.dropoff_enable=Enable Dropoff
 bogosort.gui.dropoff_hotbar_enable=Enable Hotbar Dropoff
+bogosort.gui.dropkeyrepeat_enable=Hold Drop Key To Keep Dropping
 bogosort.gui.dropoffbutton_enable=Show Dropoff Button in Inventory
 bogosort.gui.dropoff_render=Show Dropoff Targets
 bogosort.gui.dropoff_chatmessage=Show Dropoff Chat Message
@@ -161,3 +162,8 @@ bogosorter.config.ae2.debug_logging=AE2 integration debug logging
 bogosorter.tooltip.amount_in_system=Amount in System: %s
 bogosorter.tooltip.amount_out_of_range=Amount in System: Out of Range!
 bogosorter.tooltip.amount_checking=Amount in System: Checking...
+
+bogosorter.config.dropkeyrepeat=Drop Key Repeat
+bogosorter.config.dropkeyrepeat.enable=Hold drop key to keep dropping
+bogosorter.config.dropkeyrepeat.initial_delay=Ticks held before first repeat
+bogosorter.config.dropkeyrepeat.interval=Ticks between repeats
