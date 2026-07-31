@@ -1,1 +1,1 @@
-Equivalent to the Power Panel option.
+Équivalent à l’option du panneau d’alimentation.
