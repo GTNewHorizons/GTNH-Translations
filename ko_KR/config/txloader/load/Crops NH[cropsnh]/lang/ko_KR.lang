@@ -81,8 +81,8 @@ tile.cropsnh:cropSticks.name=Crop Sticks
 cropsnh.casings1.0.name=Bricked Agricultural Casing
 
 # Fluids
-fluid.cropsnh.enrichedFertilizer=Enriched Fertilizer
-fluid.cropsnh.fertilizer=Fertilizer
+fluid.cropsnh.enrichedFertilizer=농축된 비료
+fluid.cropsnh.fertilizer=비료
 fluid.cropsnh:DKorn=Doppelkorn
 fluid.cropsnh:Korn=Korn
 fluid.cropsnh:FWheat=Fermented Wheat
@@ -103,7 +103,7 @@ cropsnh_tooltip.plantLens.weeds=Weeds -- §cBLAZE IT§r
 cropsnh_tooltip.plantLens.seed=Seed: %1$s
 cropsnh_tooltip.plantLens.empty=Nothing planted
 cropsnh_tooltip.plantLens.isSick=§cIs sick, can't grow!§r
-cropsnh_tooltip.plantLens.soil=Soil -- Fertilizer: %1$s  Water: %2$s  Weed-EX: %3$s
+cropsnh_tooltip.plantLens.soil=토양 -- 비료: %1$s 물: %2$s 잡초 제거제: %3$s
 cropsnh_tooltip.plantLens.stats=Stats -- Growth: %1$s  Gain: %2$s  Resistance: %3$s
 cropsnh_tooltip.genericSeed.scanToViewStats=§7Scan to view stats§r
 cropsnh_tooltip.genericSeed.growth=§a- Growth: %1$s§r
@@ -128,7 +128,7 @@ GT5U.scanner.title_crops=Crop Info
 
 # Structure Channel Descriptions
 cropsnh_tooltip.structure_channels.if_tier=Controls the tier of the Industrial Farm
-cropsnh_tooltip.structure_channels.if_upgrade=Enables upgrade placement for the Industrial Farm
+cropsnh_tooltip.structure_channels.if_upgrade=산업 농장에 업그레이드 배치를 활성화합니다
 
 # Biome Tags
 cropsnh_tooltip.biomeTag.HOT=Hot
@@ -256,16 +256,16 @@ cropsnh_tooltip.cropManager.tooltip.4=Range: %1$sx%2$sx%1$s blocks
 cropsnh_tooltip.cropManager.tooltip.5=Has %1$s chance for extra drops
 cropsnh_tooltip.cropManager.tooltip.6=Holds %1$s of Water
 cropsnh_tooltip.cropManager.tooltip.7=Holds %1$s of Fertilizer
-cropsnh_tooltip.cropManager.tooltip.8=Holds %1$s of Weed-EX
-cropsnh_tooltip.cropManager.toggle.water=Watering
-cropsnh_tooltip.cropManager.toggle.weedEX=Weed-EX Application
-cropsnh_tooltip.cropManager.toggle.fertilizer=Fertilization
-cropsnh_tooltip.cropManager.toggle.harvest=Harvesting
-cropsnh_tooltip.cropManager.toggle.enabled=§7Enabled§r
-cropsnh_tooltip.cropManager.toggle.disabled=§7Disabled§r
-cropsnh_tooltip.cropManager.waterStorage=Water: %1$s%3$s / %2$s%3$s
-cropsnh_tooltip.cropManager.weedEXStorage=Weed-EX: %1$s%3$s / %2$s%3$s
-cropsnh_tooltip.cropManager.liquidFertilizerStorage=Liquid Fertilizer: %1$s%3$s / %2$s%3$s
+cropsnh_tooltip.cropManager.tooltip.8=잡초 제거제 %1$s 보관 가능
+cropsnh_tooltip.cropManager.toggle.water=물 주기
+cropsnh_tooltip.cropManager.toggle.weedEX=잡초 제거제 적용
+cropsnh_tooltip.cropManager.toggle.fertilizer=비료화
+cropsnh_tooltip.cropManager.toggle.harvest=수확
+cropsnh_tooltip.cropManager.toggle.enabled=§7활성화됨§r
+cropsnh_tooltip.cropManager.toggle.disabled=§7비활성화됨§r
+cropsnh_tooltip.cropManager.waterStorage=물: %1$s%3$s / %2$s%3$s
+cropsnh_tooltip.cropManager.weedEXStorage=잡초 제거제: %1$s%3$s / %2$s%3$s
+cropsnh_tooltip.cropManager.liquidFertilizerStorage=액체 비료: %1$s%3$s / %2$s%3$s
 cropsnh_tooltip.cropManager.name.1=Basic Crop Manager
 cropsnh_tooltip.cropManager.name.2=Advanced Crop Manager
 cropsnh_tooltip.cropManager.name.3=Advanced Crop Manager II
@@ -313,8 +313,8 @@ cropsnh_tooltip.industrialFarm.blockInsertion=Blocks can only be inserted when u
 cropsnh_tooltip.industrialFarm.blockExtraction=Blocks can only be extracted with the output mode
 cropsnh_tooltip.industrialFarm.subSoilSlot=Sub-Soil Slot
 cropsnh_tooltip.industrialFarm.environmentalModule=Environmental Module Slot
-cropsnh_tooltip.industrialFarm.environmentalModule.enabled=Enabled
-cropsnh_tooltip.industrialFarm.environmentalModule.disabled=Disabled
+cropsnh_tooltip.industrialFarm.environmentalModule.enabled=활성화됨
+cropsnh_tooltip.industrialFarm.environmentalModule.disabled=비활성화됨
 cropsnh_tooltip.industrialFarm.mode.input=Input
 cropsnh_tooltip.industrialFarm.mode.farm=Farm
 cropsnh_tooltip.industrialFarm.mode.output=Output
@@ -334,8 +334,8 @@ cropsnh_tooltip.industrialFarm.scanner.1=Capacity: §e%1$s§r
 cropsnh_tooltip.industrialFarm.scanner.2=Harvest Bonus: §e%1$s§r%%
 cropsnh_tooltip.industrialFarm.scanner.3=Growth Speed Bonus: §e%1$s§r%%
 cropsnh_tooltip.industrialFarm.scanner.4=Water Usage: §e%1$s§r/§e%2$s§rt
-cropsnh_tooltip.industrialFarm.scanner.5=Fertilizer Usage: §e%1$s§r/§e%2$s§rt
-cropsnh_tooltip.industrialFarm.scanner.5.enriched=Enriched Fertilizer Usage: §e%1$s§r/§e%2$s§rt
+cropsnh_tooltip.industrialFarm.scanner.5=비료 사용량: §e%1$s§r/§e%2$s§r
+cropsnh_tooltip.industrialFarm.scanner.5.enriched=농축된 비료 사용량: §e%1$s§r/§e%2$s§rt
 cropsnh_tooltip.industrialFarm.scanner.6=Nutrient Score: §e%1$s§r out of §e%2$s§r
 
 # Seed Bed
@@ -396,7 +396,7 @@ cropsnh.growthAccelerationUnit.12.name=Growth Acceleration Unit (UMV)
 cropsnh.growthAccelerationUnit.13.name=Growth Acceleration Unit (UXV)
 
 # Fertilizer Unit
-cropsnh_tooltip.fertilizerUnit.0=Allows the Industrial Farm to consume §fEnriched Fertilizer§7 in order to boost production
+cropsnh_tooltip.fertilizerUnit.0=산업 농장이 §f농축 비료§7을 소비하여 생산을 촉진할 수 있게 합니다
 cropsnh_tooltip.fertilizerUnit.1=Requires %1$s of §fEnriched Fertilizer§7 per cycle
 cropsnh_tooltip.fertilizerUnit.2=§cYou cannot use regular Fertilizer when this unit is installed§7
 cropsnh_tooltip.fertilizerUnit.3=§cIgnores the potency bonus of Enriched Fertilizer§7
@@ -406,18 +406,18 @@ cropsnh_tooltip.fertilizerUnit.5=Increases number of drops by %1$s
 cropsnh_tooltip.fertilizerUnit.5.adv=Increases number of drops by %1$s (additive)
 cropsnh_tooltip.fertilizerUnit.6=Increases power usage by %1$s
 cropsnh_tooltip.fertilizerUnit.6.adv=Increases power usage by %1$s (additive)
-cropsnh.fertilizerUnit.2.name=Fertilization Unit (MV)
-cropsnh.fertilizerUnit.3.name=Fertilization Unit (HV)
-cropsnh.fertilizerUnit.4.name=Fertilization Unit (EV)
-cropsnh.fertilizerUnit.5.name=Fertilization Unit (IV)
-cropsnh.fertilizerUnit.6.name=Fertilization Unit (LuV)
-cropsnh.fertilizerUnit.7.name=Fertilization Unit (ZPM)
-cropsnh.fertilizerUnit.8.name=Fertilization Unit (UV)
-cropsnh.fertilizerUnit.9.name=Fertilization Unit (UHV)
-cropsnh.fertilizerUnit.10.name=Fertilization Unit (UEV)
-cropsnh.fertilizerUnit.11.name=Fertilization Unit (UIV)
-cropsnh.fertilizerUnit.12.name=Fertilization Unit (UMV)
-cropsnh.fertilizerUnit.13.name=Fertilization Unit (UXV)
+cropsnh.fertilizerUnit.2.name=비료화 장치 (MV)
+cropsnh.fertilizerUnit.3.name=비료화 장치 (HV)
+cropsnh.fertilizerUnit.4.name=비료화 장치 (EV)
+cropsnh.fertilizerUnit.5.name=비료화 장치 (IV)
+cropsnh.fertilizerUnit.6.name=비료화 장치 (LuV)
+cropsnh.fertilizerUnit.7.name=비료화 장치 (ZPM)
+cropsnh.fertilizerUnit.8.name=비료화 장치 (UV)
+cropsnh.fertilizerUnit.9.name=비료화 장치 (UHV)
+cropsnh.fertilizerUnit.10.name=비료화 장치 (UEV)
+cropsnh.fertilizerUnit.11.name=비료화 장치 (UIV)
+cropsnh.fertilizerUnit.12.name=비료화 장치 (UMV)
+cropsnh.fertilizerUnit.13.name=비료화 장치 (UXV)
 
 # Environmental Unit
 cropsnh_tooltip.environmentalEnhancementUnit.0=Allows the use of §fEnvironmental Modules§7 in the Industrial Farm
@@ -438,23 +438,23 @@ cropsnh.environmentalEnhancementUnit.12.name=Environmental Enhancement Unit (UMV
 cropsnh.environmentalEnhancementUnit.13.name=Environmental Enhancement Unit (UXV)
 
 # Advanced Harvesting Unit
-cropsnh_tooltip.advancedHarvestingUnit.0=Increases the output from the Industrial Farm
-cropsnh_tooltip.advancedHarvestingUnit.1=Increases amount of drops by %1$s per upgrade
-cropsnh_tooltip.advancedHarvestingUnit.1.adv=Increases amount of drops by %1$s per upgrade (multiplicative)
-cropsnh_tooltip.advancedHarvestingUnit.2=Increases power usage by %1$s per upgrade
-cropsnh_tooltip.advancedHarvestingUnit.2.adv=Increases power usage by %1$s per upgrade (additive)
-cropsnh.advancedHarvestingUnit.2.name=Advanced Harvesting Unit (MV)
-cropsnh.advancedHarvestingUnit.3.name=Advanced Harvesting Unit (HV)
-cropsnh.advancedHarvestingUnit.4.name=Advanced Harvesting Unit (EV)
-cropsnh.advancedHarvestingUnit.5.name=Advanced Harvesting Unit (IV)
-cropsnh.advancedHarvestingUnit.6.name=Advanced Harvesting Unit (LuV)
-cropsnh.advancedHarvestingUnit.7.name=Advanced Harvesting Unit (ZPM)
-cropsnh.advancedHarvestingUnit.8.name=Advanced Harvesting Unit (UV)
-cropsnh.advancedHarvestingUnit.9.name=Advanced Harvesting Unit (UHV)
-cropsnh.advancedHarvestingUnit.10.name=Advanced Harvesting Unit (UEV)
-cropsnh.advancedHarvestingUnit.11.name=Advanced Harvesting Unit (UIV)
-cropsnh.advancedHarvestingUnit.12.name=Advanced Harvesting Unit (UMV)
-cropsnh.advancedHarvestingUnit.13.name=Advanced Harvesting Unit (UXV)
+cropsnh_tooltip.advancedHarvestingUnit.0=산업 농장의 출력을 증가시킵니다.
+cropsnh_tooltip.advancedHarvestingUnit.1=업그레이드당 드롭 양이 %1$s만큼 증가합니다
+cropsnh_tooltip.advancedHarvestingUnit.1.adv=업그레이드당 드롭량이 %1$s만큼 증가합니다 (곱연산)
+cropsnh_tooltip.advancedHarvestingUnit.2=업그레이드당 전력 사용량 %1$s 증가
+cropsnh_tooltip.advancedHarvestingUnit.2.adv=업그레이드당 전력 사용량 %1$s 증가 (가산적)
+cropsnh.advancedHarvestingUnit.2.name=고급 수확 장치 (MV)
+cropsnh.advancedHarvestingUnit.3.name=고급 수확 장치 (HV)
+cropsnh.advancedHarvestingUnit.4.name=고급 수확 장치 (EV)
+cropsnh.advancedHarvestingUnit.5.name=고급 수확 장치 (IV)
+cropsnh.advancedHarvestingUnit.6.name=고급 수확 장치 (LuV)
+cropsnh.advancedHarvestingUnit.7.name=고급 수확 장치 (ZPM)
+cropsnh.advancedHarvestingUnit.8.name=고급 수확 장치 (UV)
+cropsnh.advancedHarvestingUnit.9.name=고급 수확 장치 (UHV)
+cropsnh.advancedHarvestingUnit.10.name=고급 수확 장치 (UEV)
+cropsnh.advancedHarvestingUnit.11.name=고급 수확 장치 (UIV)
+cropsnh.advancedHarvestingUnit.12.name=고급 수확 장치 (UMV)
+cropsnh.advancedHarvestingUnit.13.name=고급 수확 장치 (UXV)
 
 # MTE tooltips
 
@@ -541,8 +541,8 @@ nei.options.tools.dump.cropsnh=Crops NH
 nei.options.tools.dump.cropsnh.alternateSeed=Alternate Seeds
 nei.options.tools.dump.cropsnh.cropRegistry=Crops
 nei.options.tools.dump.cropsnh.deterministicMutations=Deterministic Mutations
-nei.options.tools.dump.cropsnh.fertilizerFluids=Fertilizer Fluids
-nei.options.tools.dump.cropsnh.fertilizerItems=Fertilizer Items
+nei.options.tools.dump.cropsnh.fertilizerFluids=비료 용액
+nei.options.tools.dump.cropsnh.fertilizerItems=비료 아이템
 nei.options.tools.dump.cropsnh.hydrationFluids=Hydration
 nei.options.tools.dump.cropsnh.mutationPools=Mutation Pools
 nei.options.tools.dump.cropsnh.soilRegistry=Soils
