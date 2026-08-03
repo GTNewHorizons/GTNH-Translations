@@ -260,7 +260,7 @@ gt.blockmachines.itempipe.rounting_value=距離値: %s
 
 Interaction_DESCRIPTION_MagicalEnergyAbsorber_Screwdriver=吸収範囲: %s ブロック
 
-gt.hatch_element_or= or 
+gt.hatch_element_or= または 
 gt.hatch_element_of_type=of type 
 gt.hatch_element_of_class=of class %s
 gt.hatch_element_of_id=of id %s
@@ -2131,9 +2131,9 @@ gt.recipe.multiblockrockbreaker=ボルダネイター
 gt.recipe.category.abs_non_alloy_recipes=ABS 非合金レシピ
 
 # NEI keys
-gt.nei.lftr.power=Power: %s EU/t per Dynamo
-gt.nei.lftr.dynamo=Dynamo: %s EU
-gt.nei.lftr.total=Total: %s EU
+gt.nei.lftr.power=電力出力: ﾀﾞｲﾅﾓﾊｯﾁ1個あたり %s EU/t 
+gt.nei.lftr.dynamo=ﾀﾞｲﾅﾓﾊｯﾁあたり発電量: %s EU
+gt.nei.lftr.total=合計: %s EU
 gt.nei.milling.not_consumed=このアイテムは確率で消費されます
 gt.nei.chemical_plant.not_consumed=このアイテムは確率で消費されます
 gt.nei.chemical_plant.higher_tier_casing=パイプ外装のTierが高いほどアイテムが長持ちします
@@ -3907,7 +3907,7 @@ GT5U.bus.filterTooltip.empty=§aNEIからアイテムをドラッグして出力
 GT5U.bus.filterTooltip.full=§aクリックして出力フィルターを消去
 
 GT5U.multiblock.heat=§c熱: §f%s K
-GT5U.multiblock.pollution=汚染除去率
+GT5U.multiblock.pollution=除去後の汚染排出
 GT5U.multiblock.energy=蓄電量
 GT5U.multiblock.Progress=進捗
 GT5U.multiblock.efficiency=効率
@@ -3935,7 +3935,7 @@ GT5U.multiblock.mei.fmt.2A=最大エネルギー入力量: §e%s§r EU/t(*2A) Ti
 GT5U.multiblock.mei.fmt.xA=最大エネルギー入力量: §e%s§r EU/t(*§e%s§rA) Tier: §e%s§r
 GT5U.multiblock.mei.fmt.mega=最大エネルギー入力量: §e%s§r EU/t(*%sA) = §e%s§r
 GT5U.machines.tier.fmt=Tier: §e%s§r
-GT5U.multiblock.pollution.fmt=汚染除去率: §a%s§r %%
+GT5U.multiblock.pollution.fmt=除去後の汚染排出率: §a%s§r %%
 GT5U.multiblock.problems.efficiency.fmt=不具合: §c%s§r  効率: §e%s
 
 
@@ -7569,11 +7569,11 @@ GT5U.infodata.fusion.plasma=プラズマ出力: §e%s§rL/t
 GT5U.infodata.naquadah_refinery.coil_tier=コイルTier: %s
 
 GT5U.infodata.turbine.output=%s: %s EU/t
-GT5U.infodata.turbine.efficiency=Current Speed: %s %%
-GT5U.infodata.turbine.flow=Optimal Flow: %s L/%s (%s)
-GT5U.infodata.turbine.fuel=Fuel Remaining: %s L
-GT5U.infodata.turbine.dmg=Turbine Damage: %s %%
-GT5U.infodata.turbine.pollution=Pollution reduced to: %s %%
+GT5U.infodata.turbine.efficiency=現在の速度: %s %%
+GT5U.infodata.turbine.flow=最適な流量: %s L/%s (%s)
+GT5U.infodata.turbine.fuel=燃料の残量: %s L
+GT5U.infodata.turbine.dmg=タービンの損傷: %s %%
+GT5U.infodata.turbine.pollution=除去後の汚染排出率: %s %%
 
 GT5U.infodata.large_fluid_extractor.max_parallels=最大並列処理数: %s%d%s
 GT5U.infodata.large_fluid_extractor.heating_coil_speed_bonus=コイルブロックの速度ボーナス: +%s%.0f%s %%
