@@ -1,12 +1,12 @@
-Assembly Line with item pipelining
-All fluids are consumed at the start of the recipe
-Recipe tier is limited by the lowest Energy Hatch tier
+Сборочная линия с конвейерной обработкой предметов
+Все жидкости расходуются в начале рецепта
+Тир рецепта ограничен тиром самого слабого энерговвода
 {gold:{hr:67}}
-Runs imperfect overclocks until Energy Hatch tier
-Additional overclocks are increasingly more expensive
-{aqua:Multiplier = 4^(Regular Overclocks) × 4.3 × 4.6 × … × (4 + 0.3 × Extra Overclocks)}
-{aqua:Power usage = Multiplier × (Active Slices) × (Recipe EU/t)}
-Overclocking assumes all recipe slices are active
-{bold:Does not overclock beyond 1 tick}
+Выполняет неидеальные ускорения до тира энерговвода
+Каждое дополнительное ускорение обходится дороже предыдущего
+{aqua:Множитель = 4^(обычные ускорения) × 4.3 × 4.6 × … × (4 + 0.3 × дополнительные ускорения)}
+{aqua:Потребление энергии = Множитель × (активные срезы) × (EU/t рецепта)}
+Расчёт ускорения предполагает, что все срезы рецепта активны
+{bold:Не ускоряется быстрее 1 тика}
 {gold:{hr:67}}
-Constructed identically to the Assembly Line
+Строится идентично Сборочной линии
