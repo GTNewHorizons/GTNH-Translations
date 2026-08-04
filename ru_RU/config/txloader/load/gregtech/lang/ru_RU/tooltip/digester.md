@@ -1,1 +1,1 @@
-Input ores and fluid, output water
+Ввод руды и жидкости, вывод вода
