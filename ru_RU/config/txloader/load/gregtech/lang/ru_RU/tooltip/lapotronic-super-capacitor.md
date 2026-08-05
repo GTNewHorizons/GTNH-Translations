@@ -1,17 +1,17 @@
-Loses energy equal to 1% of the total capacity every 24 hours
-Capped at {red:{var:maxPassiveDrain}} EU/t passive loss per {var:tierColorName}§7 capacitor
-The passive loss increases {dark_red:100}-fold for every capacitor tier above
-Passive loss is multiplied by the number of maintenance issues present
+Теряет энергию в размере 1% от общей ёмкости каждые 24 часа
+Ограничение {red:{var:maxPassiveDrain}} EU/t пассивных потерь на {var:tierColorName}§7 конденсатор
+Пассивные потери увеличиваются в {dark_red:100}-кратно для каждого конденсатора более высокого тира
+Пассивные потери умножаются на количество имеющихся проблем с техобслуживанием
 {gray:{hr}}
-Glass shell has to be Tier - 3 of the highest capacitor tier
-Add more or better capacitors to increase capacity
+Стеклянная оболочка должна быть на 3 тира ниже тира самого высокого конденсатора
+Для увеличения ёмкости добавьте больше конденсаторов или лучшие конденсаторы
 {gray:{hr}}
-Wireless mode can be enabled by right clicking with a screwdriver
-This mode can only be enabled if you have a {var:tierColorName}§7+ capacitor in the multiblock.
-When enabled every {blue:{var:rebalanceTicks}} ticks the LSC will attempt to re-balance against your
-wireless EU network.
-If there is less than {red:{var:wirelessEuCap}}({var:tierColorName}§7) EU in the LSC
-it will withdraw from the network and add to the LSC.
-If there is more it will add {dark_red:{bold:{underline:all excess}}} EU to the network, removing it from the LSC
-This can potentially brick your base, be careful
-The threshold increases {dark_red:100}-fold for every capacitor tier above
+Беспроводной режим можно включить ПКМ отвёрткой
+Этот режим может быть включен только при наличии в мультиблоке {var:tierColorName}§7+ конденсатора.
+При включении режима каждые {blue:{var:rebalanceTicks}} тиков ЛСК будет пытаться восстановить свой баланс по
+беспроводной EU сети.
+Если в ЛСК меньше, чем {red:{var:wirelessEuCap}}({var:tierColorName}§7) EU,
+он будет забирать EU из сети и добавлять их в ЛСК.
+Если больше, ЛСК отправит {dark_red:{bold:{underline:все излишки}}} в сеть, убирая их из ЛСК
+Это может привести к обесточиванию вашей базы, будьте осторожны
+Порог увеличивается в {dark_red:100}-кратно для каждого конденсатора более высокого тира

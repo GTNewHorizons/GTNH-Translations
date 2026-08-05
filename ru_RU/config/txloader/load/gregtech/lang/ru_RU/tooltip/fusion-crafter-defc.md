@@ -1,2 +1,2 @@
-Gains 1 §dperfect overclock§7 per casing tier above recipe
-Normal EU OC still applies !
+Даёт 1 §dидеальный разгон§7 за каждый тир корпуса выше тира рецепта
+Обычный EU разгон остается в силе!

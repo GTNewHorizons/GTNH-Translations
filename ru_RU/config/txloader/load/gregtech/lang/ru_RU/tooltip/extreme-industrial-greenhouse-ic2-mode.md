@@ -1,13 +1,13 @@
 {gray:{hr}}
-{red:DEPRECATED}
-{gold:IC2 Crops:}
-Minimal voltage tier: {var:minVoltageTier}
-Minimal glass tier: {var:minGlassTier}
-Starting with {var:startingSlotCount} slot
-Every tier past {var:minVoltageTier}, slots are multiplied by {var:slotPerTierMultiplier}
-Every slot adds {var:seedCapacityPerSlot} seed to the total seed capacity
-Process time: 5 sec
-All crops are accelerated by x{var:acceleration} times
-Can consume up to {var:maxFertilizerUsagePerSeed} fertilizer per seed per cycle
-Boost per fertilizer: {var:fertilizerBonus}
-Weed-EX 9000 consumption is multiplied by {var:weedExMultiplier}
+{red:УСТАРЕЛО}
+{gold:IC2 Культуры:}
+Минимальный тир вольтажа: {var:minVoltageTier}
+Минимальный тир стекла: {var:minGlassTier}
+Начиная с {var:startingSlotCount} слота
+На каждом тире после {var:minVoltageTier}, слоты умножаются на {var:slotPerTierMultiplier}
+Каждый слот добавляет {var:seedCapacityPerSlot} семя к общей вместимости семян
+Длительность процесса: 5 сек
+Все посевы ускорены в x{var:acceleration} раза
+Может потреблять до {var:maxFertilizerUsagePerSeed} удобрений на семя за цикл
+Прирост за удобрение: {var:fertilizerBonus}
+Потребление Гербицида 9000 умножается на {var:weedExMultiplier}

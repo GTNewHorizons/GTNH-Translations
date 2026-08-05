@@ -1,8 +1,8 @@
-High-Tech fluid tank that can hold up to 25 different fluids!
-Partitions 1/25th of the total capacity for each fluid, no overflowing allowed
-Right clicking the controller with a screwdriver enables excess voiding
-Fluid storage amount and running cost depends on the Storage Field Block used
+Высокотехнологичный жидкостный резервуар, вмещающий до 25 различных жидкостей!
+Для каждой жидкости отводится 1/25 от общей ёмкости, переполнение не допускается
+ПКМ отвёрткой по контроллеру включит уничтожение излишек
+Объем хранения жидкости и эксплуатационные расходы зависят от используемых блоков хранения жидкостей
 {gray:{hr}}
-Note on hatch locking:
-Use an Integrated Circuit in the GUI slot to limit which fluid is output
-The index of a stored fluid can be obtained through the Tricorder
+Примечание по запиранию шлюза:
+Используйте Интегральную схему в слоте GUI, чтобы ограничить выход жидкости
+Индекс хранящейся жидкости можно получить с помощью Трикодера

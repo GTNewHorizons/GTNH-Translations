@@ -1,32 +1,32 @@
-The ideal home for your bees
-Use screwdriver to change primary mode (INPUT/OUTPUT/OPERATING)
-Use screwdriver + shift to change operation mode (NORMAL/SWARMER)
+Идеальный дом для твоих пчёл
+Используйте отвёртку для переключения основного режима (ВВОДА/ВЫВОДА/РАБОЧИЙ)
+Используйте отвёртку + Shift, чтобы изменить режим работы (НОРМАЛЬНЫЙ/РОЕНИЕ)
 {gray:{hr}}
-{gold:Input Mode:}
-- Does not take power
-- Put your queens in the input bus to put them in the internal buffer
+{gold:Режим загрузки:}
+Не потребляет энергию
+Поместите ваших королев в входной люк, чтобы поместить их во внутренний буфер
 {gray:{hr}}
-{gold:Output Mode:}
-- Does not take power
-- Will give your bees back to output bus
+{gold:Режим выгрузки:}
+Не потребляет энергию
+Вернет ваших пчел в выходной люк
 {gray:{hr}}
-{gold:Operating Mode:}
-- NORMAL:
-  - Processing time: 5 seconds
-  - Uses 1 {var:voltageTier6} amp per queen
-  - All bees are accelerated 64 times
-  - 8 production upgrades are applied
-  - Genetic Stabilizer upgrade applied
-  - Simulates perfect environment for your bees
-  - Additionally you can provide royal jelly to increase the outputs:
-    - 1 royal jelly grants 5% bonus per bee
-    - They will be consumed on each start of operation
-    - and be applied to that operation only
-    - Max bonus: 200%
-- SWARMER:
-  - You can only insert 1 queen
-  - It will slowly produce ignoble princesses
-  - Consumes 100 royal jelly per operation
-  - Base processing time: 1 minute
-  - Uses 1 amp {var:voltageTier5}
-  - Can overclock
+{gold:Рабочий режим:}
+НОРМАЛЬНЫЙ:
+Длительность процесса: 5 секунд
+Использует 1 {var:voltageTier6} ампер на королеву
+Все пчелы ускоряются в 64 раза
+Применяется 8 улучшений "производство"
+Применяется улучшение "генетическая стабилизация"
+Моделирует идеальную среду для ваших пчел
+Дополнительно вы можете предоставить маточное молочко для увеличения выхода:
+1 маточное молочко даёт 5% бонуса каждой пчеле
+Оно будут расходоваться при каждом запуске операции
+и будут применяться только к этой операции
+Макс. бонус: 200%
+РОЕНИЕ:
+Вы можете поместить только 1 королеву
+Она будет медленно производить низко породных принцесс
+Расходует 100 маточного молочка за операцию
+Длительность процесса: 1 минута
+Использует 1 ампер {var:voltageTier5}
+Можно разогнать

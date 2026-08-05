@@ -1,6 +1,6 @@
-Every coil tier gives a {green:+10%} speed bonus per coil tier
-Build on a Space Station orbiting a Gas Planet
-Requires a Programmed Circuit set to the depth you want to pump from (1 - 4)
-Requires 64x depth Mining Pipes
-Power cost depends on planet tier and depth. See NEI page for more details.
-Can load the chunk it is in (toggle using a Soldering Iron)
+Каждый тир катушки даёт {green:+10%} бонус к скорости за каждый тир катушки
+Постройте космическую станцию на орбите газовой планеты
+Требуется запрограммированная схема, настроенная на глубину, с которой вы хотите качать (1 - 4)
+Требует 64x глубинных буровых труб
+Энергопотребление зависит от тир планеты и глубины. Подробности смотрите в NEI.
+Может загружать чанк, в котором находится (переключается с помощью паяльника)

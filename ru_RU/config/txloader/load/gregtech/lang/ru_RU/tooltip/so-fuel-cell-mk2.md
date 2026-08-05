@@ -1,6 +1,6 @@
-Oxidizes gas fuels to generate electricity without polluting the environment
-Consumes up to {var:euPerTickX20}EU worth of fuel with up to 100% efficiency each second
-Nitrobenzene and other gas fuels above 1,000 EU/L are more efficient
-Superheated (SH) Steam production requires the SOFC to heat up completely first
-Outputs {var:euPerTick}EU/t and {var:steamPerSec}L/s SH Steam
-Additionally, requires {var:oxygenPerSec}L/s Oxygen gas
+Окисляет газовое топливо для выработки энергии, не загрязняя окружающую среду
+Расходует до {var:euPerTickX20}EU стоимости топлива с эффективностью до 100% каждую секунду
+Нитробензол и другие виды газового топлива свыше 1,000 EU/л более эффективны
+Для производства перегретого (SH) пара требуется, чтобы SOFC сначала полностью нагрелся
+Выводит {var:euPerTick}EU/t и {var:steamPerSec}Л/с перегретого пара
+Дополнительно, требуется {var:oxygenPerSec}Л/с кислорода

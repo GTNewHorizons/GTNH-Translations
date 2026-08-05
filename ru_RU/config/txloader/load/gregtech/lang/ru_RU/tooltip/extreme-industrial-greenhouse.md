@@ -1,15 +1,15 @@
-Grow your crops like a chad!
-Use screwdriver to enable/change/disable setup mode
-Use screwdriver while sneaking to enable/disable IC2 mode
-Use wire cutters to give incoming IC2 seeds 0 humidity
-Uses 1000L of water per seed per operation
-Uses 1L of {var:weedexName} per operation per seed if it contains more than 1000 seeds
-Otherwise, around 1% of seeds will be voided each operation
-You can insert fertilizer each operation to get more drops (max + 400)
+Выращивайте урожай как конфетти!
+Используйте отвёртку, чтобы включить/изменить/отключить режим настройки
+Используйте Shift+отвёрткой, чтобы включить/отключить режим IC2
+Используйте кусачки, чтобы придать входящим в IC2 культурам 0 влажности
+Использует 1000Л воды на культуру за операцию
+Использует 1Л {var:weedexName} на культуру за операцию, если количество культур более 1000
+В противном случае, около 1% культур будет умирать каждую операцию
+Вы можете вносить удобрения при каждой операции, чтобы получить больше урожая (максимум + 400)
 {gray:{hr}}
-{gold:Setup Mode:}
-Does not take power
-There are two modes: input / output
-Input mode: machine will take seeds from input bus and plant them
-[IC2] You need to also input block that is required under the crop
-Output mode: machine will take planted seeds and output them
+{gold:Режим настройки:}
+Не потребляет энергию
+Есть два режима: загрузки / выгрузки
+Режим загрузки: механизм будет брать семена с входного люка и сажать их [IC2]
+Необходимо также ввести блок, который требуется под культуру
+Режим выгрузки: механизм будет принимать посаженные семена и выводить их

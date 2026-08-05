@@ -1699,17 +1699,32 @@ GT5U.MBTT.Structure.MaxTierSkips=Этот механизм может выпол
 GT5U.MBTT.Structure.UnlimitedTierSkips=Этот механизм может выполнять рецепты независимо от тира, если ей дать достаточно энергии
 GT5U.MBTT.Structure.DataStick.Waterline=Link to the §bWater Purification Plant§7 with a §aData Stick
 GT5U.MBTT.Structure.DataStick.PCB=Link to the §bPCB Factory§7 with a §aData Stick
-gt.mbtt.structure.front_center=Спереди в центре
+
 gt.mbtt.structure.back_center=Сзади посередине
-gt.mbtt.structure.front_center_2nd_layer=Front center, 2nd layer
 gt.mbtt.structure.front_bottom_center=Front bottom center
+gt.mbtt.structure.front_center=Спереди в центре
+gt.mbtt.structure.front_center_2nd_layer=Front center, 2nd layer
+gt.mbtt.structure.front_center_4th_layer=Front center, 4th layer
+gt.mbtt.structure.front_center_9th_layer=Front center, 9th layer
+gt.mbtt.structure.front_center_15th_layer=Front center, 15th layer
+gt.mbtt.structure.front_center_17th_layer=Front center, 17th layer
 gt.mbtt.structure.any_casing=Любой блок корпуса
 gt.mbtt.structure.interior=Interior of the structure
 gt.mbtt.structure.any_tiered_glass=Any Tiered Glass
 gt.mbtt.structure.min_tiered_glass=%s+ Tiered Glass
 gt.mbtt.structure.any_bottom_casing=Any bottom casing
 gt.mbtt.structure.back_center_casing=Back center casing
-gt.mbtt.structure.front_center_9th_layer=Front center, 9th layer
+gt.mbtt.structure.any_back_center_casing=Any back center casing
+gt.mbtt.structure.any_front_shielding_casing=Any front shielding casing
+
+# Generic machine types
+gt.mbtt.machine_type.spacetime_manipulator=Spacetime Manipulator, EOH
+gt.mbtt.machine_type.exotic_matter_producer=Exotic Matter Producer
+gt.mbtt.machine_type.blast_smelter=Blast Smelter
+gt.mbtt.machine_type.blast_furnace=Blast Furnace, Furnace
+gt.mbtt.machine_type.plasma_fabricator=Plasma Fabricator
+gt.mbtt.machine_type.stellar_forge=Stellar Forge
+
 GT5U.MBTT.HatchInfo=Любой %s
 GT5U.MBTT.HatchHint= (Подсказка: %s)
 GT5U.MBTT.BoroGlassAny=Боросиликатное стекло (любое, смешанное)
@@ -1745,7 +1760,6 @@ GT5U.MBTT.PCB.Tooltip.3=Позволяет разгонять. Требуетс�
 GT5U.MBTT.PCB.Tooltip.4=Обеспечивает идеальный разгон, позволяя нанитам работать с экстремальной скоростью и эффективностью. Использует 10 Л/с промышленного хладагента.
 GT5U.MBTT.PCB.Tooltip.5=Установите ширину дорожки. Более мелкие дорожки позволяют экономить материал, но требуют больше времени на изготовление. Более крупные дорожки тратят материал впустую, но работают быстро. 50-200 мкм.
 GT5U.MBTT.PCB.Tooltip.6=Невозможно изменить конфигурацию во время работы!
-
 GT5U.MBTT.AlchemyCasingAny=Алхимический устойчивый/инертный/иммунный корпус
 GT5U.MBTT.AlchemicalConstructAny=Алхимическая конструкция
 GT5U.MBTT.SuperChest=Супер/Квантовый сундук
@@ -2587,6 +2601,7 @@ GT5U.gui.text.per_hour=§fВ час:
 GT5U.gui.text.per_day=§fВ день:
 GT5U.gui.text.progress_recipe=§fПрогресс: %sс / %sс (%s%%)
 GT5U.gui.text.progress_detail=§fПрогресс: %s%% §7(§f%sс§7/§f%sс§7)§r
+GT5U.gui.text.tier_name_with_parentheses=(%s)
 GT5U.gui.text.rate_short=(§7%s/с§f)
 GT5U.gui.text.rate_short_slow=(§7%ss/each§f)
 GT5U.gui.text.rate_large_suffix=§f[§7%s§f]
@@ -3205,6 +3220,7 @@ GT5U.gui.hoverable.incomplete=Незавершённая структура.
 GT5U.gui.hoverable.powerloss=Потеря энергии.
 GT5U.gui.hoverable.norepair=Механизм слишком повреждён.
 GT5U.gui.hoverable.manualshutdown=Ручное выключение (понятно?).
+GT5U.gui.hoverable.computation_loss=Out of computation.
 GT5U.gui.hoverable.error=ОШИБКА! СООБЩИТЕ ОБ ОШИБКЕ!
 
 GT5U.gui.config.client=Клиент
@@ -9085,6 +9101,22 @@ GT5U.gui.text.bec-stored-condensate=Stored Condensate:
 GT5U.tooltip.bec-ionode.controller-pos=Front center, 12th layer
 GT5U.tooltip.bec-ionode.hatch-pos=Any electromagnetically-isolated casing
 GT5U.tooltip.bec-ionode.los-hatch-pos=Back center casing
+
+# Eye of Harmony Structure Hints
+GT5U.tooltip.eye-of-harmony.boundary-no-stocking-bus=Any boundary casing (no stocking bus)
+GT5U.tooltip.eye-of-harmony.boundary-no-stocking-hatch=Any boundary casing (no stocking hatch)
+GT5U.tooltip.eye-of-harmony.any-boundary-casing=Any boundary casing
+
+# Research Station Structure Hints
+GT5U.tooltip.research-station.footer=§aData Sticks go in the controller
+
+# Forge of Gods Structure Hints
+GT5U.tooltip.forge-of-gods.hatch-pos=Around controller
+GT5U.tooltip.forge-of-gods.output-bus-pos=Around controller (ME only)
+GT5U.tooltip.forge-of-gods.module=Forge of the Gods Module
+GT5U.tooltip.forge-of-gods.module-pos=Any side center shielding casing
+GT5U.tooltip.forge-of-gods.second-ring=Second Ring
+GT5U.tooltip.forge-of-gods.third-ring=Third Ring
 
 # BEC Generator Structure Hints
 GT5U.tooltip.bec-generator.controller-pos=Front center, 10th layer
