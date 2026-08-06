@@ -1,6 +1,6 @@
-Used to scan Data Sticks for Assembly Line Recipes
-Needs to be fed with computation to work
-Does not consume the item until the Data Stick is written
-Use screwdriver to change mode
-Computation required in scanner mode follows the formula:
-Recipe duration in ticks * (2 ^ (Recipe voltage tier - 1))
+Используется для сканирования Рецептов сборочной линии на Флешки
+Для работы требуется подавать вычисления
+Не потребляет предмет до тех пор, пока не будет записан на флешку
+Используйте отвёртку для смены режима
+Вычисления, необходимые в режиме сканера, выполняются по формуле:
+Продолжительность рецепта в секундах * (2 ^ (тир вольтажа рецепта - 1))

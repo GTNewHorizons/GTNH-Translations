@@ -1,5 +1,5 @@
-Controller block of the Tesla Tower
-Used to transmit power to Tesla Coil Covers and Tesla Transceivers
-Can be fed with Helium/Nitrogen/Radon Plasma to increase the range
-Transmitted voltage depends on the used Tesla Capacitor tier
-Primary Tesla Windings need to be at least the same tier as the Tesla Capacitor
+Блок-контроллер башни Теслы
+Используется для передачи энергии на крышки катушек Тесла и трансиверы Тесла
+Может питаться плазмой гелия/азота/радона для увеличения дальности действия
+Передаваемый вольтаж зависит от используемого тира Тесла конденсатор
+Первичные обмотки Теслы должны быть как минимум того же тира, что и Тесла конденсатор

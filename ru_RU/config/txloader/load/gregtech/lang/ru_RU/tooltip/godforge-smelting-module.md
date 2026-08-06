@@ -1,8 +1,8 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for basic smelting operations at various temperatures
+Это модуль Кузницы Богов
+Для работы должен быть частью Кузницы Богов
+Используется для основных операций плавки при различных температурах
 {aqua:{hr:74}}
-As the first of the Godforge modules, this module performs the most basic
-thermal processing, namely smelting materials identically to a furnace or blast furnace
-The desired method of processing can be selected in the gui
-This module is specialized towards speed and high heat levels
+Будучи первым из модулей Кузницы Богов, этот модуль выполняет самую базовую
+термическую обработку, а именно плавит материалы идентично печи или доменной печи
+Желаемый метод обработки можно выбрать в GUI
+Этот модуль специализируется на скорости и высоких уровнях нагрева

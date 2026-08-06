@@ -1,8 +1,8 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for extreme temperature matter ionization
+Это модуль Кузницы Богов
+Для работы должен быть частью Кузницы Богов
+Используется для ионизации материи при экстремальных температурах
 {aqua:{hr:74}}
-The third module of the Godforge, this module infuses materials with extreme amounts
-of heat, ionizing and turning them into plasma directly. Not all plasmas can be produced
-right away, some of them require certain upgrades to be unlocked
-This module is specialized towards energy and overclock efficiency
+Третий модуль Кузницы Богов, этот модуль нагнетает в материалы экстремальное количество
+тепла, ионизируя и превращая их непосредственно в плазму. Не все плазмы могут быть получены
+сразу, некоторые из них требуют определенных улучшений для разблокировки
+Этот модуль специализируется на энергии и эффективности разгона

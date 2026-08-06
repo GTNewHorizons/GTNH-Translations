@@ -1,57 +1,57 @@
-Creates a pocket of spacetime that is bigger on the inside using transdimensional
-engineering. Certified Time Lord regulation compliant. This multi uses too much EU
-to be handled with conventional means. All EU requirements are handled directly by
-your wireless EU network
+Создает пространственно-временной карман, который становится больше внутри используя трансмерную
+инженерию. Сертифицировано в соответствии с правилами Повелителя времени. Этот мульти использует слишком много EU
+чтобы с ним можно было справиться обычными средствами. Все требования к EU выполняются непосредственно с помощью
+вашей беспроводной EU сети
 {gold:{hr:87}}
-This multiblock will constantly consume hydrogen and helium when it is not running a
-recipe once per second. It will store this internally, you can see the totals by
-using a scanner. This multi also has three tiered blocks with {red}9{gray} tiers
-each. They are as follows and have the associated effects on the multi:
-{blue}Spacetime Compression Field Generator:
-- The tier of this block determines what recipes can be run. If the multiblocks
-  spacetime compression field block exceeds the requirements of the recipe it
-  will decrease the processing time by {red}3%{gray} per tier over the requirement (multiplicative)
-{blue}Time Dilation Field Generator:
-- Decreases the time required for a recipe by {red}50%{gray} per tier of block (multiplicative)
-  Decreases the probability of a recipe succeeding by {red}9.25%{gray} per tier (additive)
-{blue}Stabilisation Field Generator:
-- Increases the probability of a recipe succeeding by {red}5%{gray} per tier (additive)
-  Decreases the yield of a recipe by {red}5%{gray} per tier (additive).
-  > Low tier stabilisation field generators have a power output penalty
-     The power output penalty for using Crude Stabilisation Field Generators is {red}40%
-     This penalty decreases by {red}5%{gray} per tier (additive)
+Этот мультиблок будет постоянно потреблять водород и гелий, когда он не запускает
+рецепт, раз в секунду. Он будет хранить их внутри, и вы сможете увидеть общее количество
+используя сканер. У этого мульти также есть три многотировых блока с {red}9-ю{gray} тирами
+каждый. Они перечислены ниже и оказывают соответствующее влияние на мульти:
+{blue}Генератор поля пространственно-временного сжатия:
+- Тир этого блока определяет, какие рецепты могут быть запущены. Если мультиблочный
+  блок поля пространственно-временного сжатия превышает требования рецепта
+  он уменьшит время работы на {red}3%{gray} за каждый тир сверх требуемого (мультипликативно)
+{blue}Генератор поля замедления времени:
+- Уменьшает время, необходимое для рецепта, на {red}50%{gray} за каждый тир блока (мультипликативно)
+  Уменьшает вероятность успешного выполнения рецепта на {red}9.25%{gray} за тир (аддитивный)
+{blue}Генератор поля стабилизации:
+- Увеличивает выход энергии и вероятность успешного выполнения рецепта на {red}5%{gray} за тир (аддитивный)
+  Уменьшает выход рецепта на {red}5%{gray} за тир (аддитивный).
+  > Генератор поля стабилизации низкого тира имеют штраф за выходную мощность
+     Штраф за использование Грубых генераторов поля стабилизации составляет {red}40%
+     Этот штраф уменьшается на {red}5%{gray} за каждый тир (аддитивный)
 {gold:{hr:87}}
-Going over a recipe requirement on hydrogen or helium has a penalty on yield and recipe chance
-All stored hydrogen and helium is consumed during a craft. The associated formulas are:
-{green}Overflow ratio = (Stored fluid / Recipe requirement) - 1
-{green}Adjustment value = 1 - exp(-(30 * Overflow ratio)^2)
-The Adjustment value is then subtracted from the total yield and recipe chance
+Превышение потребности рецепта по водороду или гелию влечет за собой штраф на доходность и шанс рецепта
+При запуске расходуется весь запасенный водород и гелий. При этом используются следующие формулы:
+{green}Коэффициент переполнения = (Запасенная жидкость / Потребность в рецепте) - 1
+{green}Корректирующее значение = 1 - exp(-(30 * Коэффициент переполнения)^2)
+Корректирующее значение затем вычитается из общего дохода и шанса рецепта
 {gold:{hr:87}}
-It should be noted that base recipe chance is determined per recipe and yield always starts
-at 1 and subtracts depending on penalties. All fluid/item outputs are multiplied by the
-yield. Failure fluid is exempt
+Следует отметить, что базовый шанс рецепта определяется для каждого рецепта и доходность всегда начинается
+с 1 и вычитается в зависимости от штрафов. Все выходы жидкостей/предметов умножаются на
+доходность. Жидкость при неудачах не учитывается
 {gold:{hr:87}}
-This multiblock can only output to ME output buses/hatches
+Этот мультиблок может выводить только в МЭ выходной люк/шлюз
 {gold:{hr:87}}
-This multiblock can be overclocked by placing a programmed circuit into the input bus
-E.g. A circuit of 2 will provide 2 OCs, 16x EU input and 0.25x the time. EU output is unaffected
-All outputs are equal. All item and fluid output chances & amounts per recipe are unaffected
+Этот мультиблок можно разогнать, поместив запрограммированную схему во входной люк
+Например: Схема 2 обеспечит 2 разгона, 16x EU на ввод и 0,25x на время. Вывод EU не затрагивается
+Все выводы равны. Все предметы и жидкости выходят с одинаковыми шансами и их количество в рецепте не изменяется
 {gold:{hr:87}}
-If a recipe fails the EOH will output {green}Success chance * 14,400 * (2.0)^(Recipe tier){gray}L of molten
-SpaceTime instead of fluid/item outputs and output as much EU as a successful recipe
+Если рецепт не удался, EOH будет выдавать {green}Шанс успеха * 14,400 * (2.0)^(Тир рецепта){gray}Л расплавленное
+пространство-время вместо выхода жидкости/предметов и выдаст столько же EU, сколько и при удачном рецепте
 {gold:{hr:87}}
-This multiblock can perform parallel processing by placing Astral Array Fabricators into the input bus
-They are stored internally and can be retrieved via right-clicking the controller with a wire cutter
-The maximum amount of stored Astral Arrays is 8,637. Parallel amount is calculated via these formulas:
-{green}Parallel exponent = floor(log(8 * Astral Array amount) / log(1.7))
-{green}Parallel = 2^(Parallel exponent)
-If the EOH is running parallel recipes, the power calculation changes
-The power needed for parallel processing is calculated as follows:
-{green}total EU = ((EU output - EU input * 1.63) / 20.7) * 2.3^(Parallel exponent)
-Furthermore, if parallel recipes are run, the recipes consume Condensed Raw Stellar Plasma Mixture
-instead of helium and hydrogen. Overflow penalties still apply
-The required amount of fluid to start a recipe is {green}12.4 / 10^6 * Helium amount * Parallel
-The success or failure of each parallel is determined independently
+Этот мультиблок может выполнять параллельную работу, помещая в входной люк Астральный массив
+Он хранится во внутреннем хранилище и может быть извлечен, щелкнув ПКМ по контроллеру с кусачками
+Максимальное количество хранимых Астральных массивов - 8,637. Количество параллелей рассчитывается по следующим формулам:
+{green}Параллельная экспонента = округление(log(8*колич.АстральныхМассивов) / log(1.7))
+{green}Параллель = 2^(Параллельная экспонента)
+Если EOH выполняет параллельные рецепты, расчёт мощности меняется
+Мощность, необходимая для параллельной работы, рассчитывается следующим образом:
+{green}общее EU = ((EU вывод - EU ввод*1,63) / 20,7)*2,3^(Параллельный экспонент)
+Кроме того, при параллельном выполнении рецептов, в рецептах будет расходоваться Смесь конденсированной сырой звёздной плазмы
+вместо гелия и водорода. Штрафы за переполнение по-прежнему применяются
+Необходимое количество жидкости для начала рецепта составляет {green}12.4 / 10^6 *количества гелия*Параллель
+Успех или неудача каждой параллели определяется независимо
 {gold:{hr:87}}
-Animations can be disabled by using a screwdriver on the multiblock
-Planet block can be inserted directly by right-clicking the controller with planet block
+Анимацию можно отключить используя отвёртку на мультиблоке
+Блок планеты можно вставить напрямую, щелкнув ПКМ по контроллеру с блоком планеты

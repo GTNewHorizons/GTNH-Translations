@@ -1,15 +1,15 @@
-{italic}Also known as Godforge or Gorge for short
+{italic}Он также известен как Кузница Богов или сокращенно Ущелье
 {aqua:{hr:73}}
-A massive structure harnessing the thermal, gravitational and
-kinetic energy of a stabilised neutron star for material processing
-This multiblock can house {red}up to 16 modules {gray}which utilize the star to energize materials
-to varying degrees, ranging from regular smelting to matter degeneration
-EU requirements for all modules are handled via wireless energy directly
+Массивная структура, использующая тепловую, гравитационную
+и кинетическую энергию стабилизированной нейтронной звезды для обработки материалов
+В этом мультиблоке может разместиться {red}до 16 модулей{gray}, которые используют энергию звезды для обработки материалов
+в различной степени, от обычной плавки до дегенерации материи
+Требования к EU ко всем модулям реализуются напрямую посредством беспроводной энергии
 {aqua:{hr:73}}
-This multiblock has an {gold}extensive upgrade tree {gray}which influences all of its functions,
-such as {gold}unlocking new module types{gray}, {gold}increasing heat levels {gray}and {gold}granting
-{gold}various processing speed bonuses{gray}. These upgrades can be unlocked by reaching
-certain milestones and/or spending materials
+Этот мультиблок имеет {gold}обширное дерево улучшений{gray}, которое влияет на все его функции,
+такие как {gold}разблокировка новых типов модулей{gray}, {gold}повышение уровня нагрева {gray}и {gold}предоставление
+{gold}различных бонусов скорости обработки{gray}.
+{gray}Эти обновления можно разблокировать, достигнув определённых рубежей и/или потратив материалы
 {aqua:{hr:73}}
-{green}Clicking on the logo in the controller gui opens an extensive information window{gray},
-explaining everything there is to know about this multiblock
+{green}Нажатие на логотип в меню контроллера открывает обширное информационное окно{gray},
+в котором рассказывается все, что нужно знать об этом мультиблоке

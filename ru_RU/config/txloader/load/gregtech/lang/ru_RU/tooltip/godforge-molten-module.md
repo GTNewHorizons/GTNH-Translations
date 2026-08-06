@@ -1,8 +1,8 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for high temperature material liquefaction
+Это модуль Кузницы Богов
+Для работы должен быть частью Кузницы Богов
+Используется для высокотемпературного сжижения материалов
 {aqua:{hr:74}}
-The second module of the Godforge, this module melts materials directly into
-their liquid form. If an output material does not have a liquid form, it will be output
-as a regular solid instead
-This module is specialized towards parallel processing
+Это второй модуль Кузницы Богов, который плавит материалы непосредственно
+в жидкую форму. Если материал на выходе не имеет жидкой формы, он будет выдан
+в виде обычного твёрдого вещества
+Этот модуль специализирован для параллельной работы

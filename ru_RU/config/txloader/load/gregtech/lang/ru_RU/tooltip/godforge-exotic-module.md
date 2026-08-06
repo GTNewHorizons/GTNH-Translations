@@ -1,9 +1,9 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for ultra high temperature matter degeneration
+Это модуль Кузницы Богов
+Для работы должен быть частью Кузницы Богов
+Используется для дегенерации материи при сверхвысоких температурах
 {aqua:{hr:75}}
-The fourth and final module of the Godforge, this module breaks apart the very
-building blocks of matter, producing exotic mixtures in the process. Quark-Gluon Plasma
-can be manufactured right away, but production of Magnetic Monopole Matter (Magmatter)
-requires a fully upgraded Godforge
-This module is specialized towards acquisition of unique materials
+Четвертый и последний модуль Кузницы Богов, этот модуль расщепляет
+фундаментальные строительные блоки материи, производя в процессе экзотические смеси. Кварк-глюонная плазма
+может быть произведена сразу же, но для производства магнитно-монопольной материи (магматерии)
+требуется полностью улучшенная Кузница Богов
+Этот модуль специализируется на получении уникальных материалов

@@ -18,9 +18,9 @@ tile.fluidSludge.name=Застоявшиеся сточные воды
 tile.fluidSludge.0.name=Застойная сточная вода
 
 # Death Messages
-death.attack.plasmabolt=%s died by burning hot plasma.
-death.attack.plasmabolt.player=%1$s was killed by %2$s using plasma.
-death.attack.gtpp.grinder=%s was ground into nothingness by an IsaMill.
+death.attack.plasmabolt=%s погиб(ла) от раскалённой плазмы.
+death.attack.plasmabolt.player=%1$s был убит %2$s с помощью плазмы.
+death.attack.gtpp.grinder=%s был перемолот в ничто мельницей IsaMill.
 
 # Alternative Materials
 item.itemPlateBatteryAlloy.name=Пластина из аккумуляторного сплава
@@ -1845,7 +1845,7 @@ item.itemPlateDimensionShard.name=Dimensional Shard plate
 item.rfEUBattery.name=Универсальная заряжаемый аккумулятор
 item.rfEUBattery.tooltip.0=§eIC2/EU Информация§7)
 item.rfEUBattery.tooltip.1=§7Тир: [§e%d§7] Текущая энергия: [§e%d§7/EU]
-item.rfEUBattery.tooltip.2=§7Transfer Limit: [§e%d§7EU/t] Burn Time: [§e%d§7s]
+item.rfEUBattery.tooltip.2=§7Лимит передачи: [§e%d§7EU/t] Время работы: [§e%d§7s]
 item.rfEUBattery.tooltip.3=§cRF Информация§7
 item.rfEUBattery.tooltip.4=§7Extraction Rate: [§%d§7Rf/t] Insert Rate: [§c%d§7Rf/t]
 item.rfEUBattery.tooltip.5=§7Текущий заряд: [§c%d§7Rf / %dRf] §c%.2f%%§7
@@ -3817,7 +3817,7 @@ item.BasicGenericChemItem.14.name=Твёрдо-кислотный катализ
 item.BasicGenericChemItem.15.name=Infinite Mutation Catalyst
 
 # Added 23/10/22
-miscutils.machines.QFTFluidMode=Квантовый силовой преобразователь - Режим вывода жидкости
+miscutils.machines.QFTFluidMode=Квантовый силовой преобразователь - Режим вывода жидкости: %s
 
 # Added 16/11/22
 item.BasicGenericChemItem.16.name=Катализатор платиновой группы
@@ -3859,7 +3859,7 @@ gtpp.gui.config.general.pollution=Загрязнение
 gtpp.gui.config.general.features=Особенности
 gtpp.gui.config.general.visual=Visual
 gtpp.gui.config.general.worldgen=Worldgen
-gtpp.gui.config.asm=ASM Configuration
+gtpp.gui.config.asm=Конфигурация ASM
 gtpp.gui.config.asm.debug=Отладка
 gtpp.gui.config.asm.general=Общие
 
@@ -3878,7 +3878,7 @@ gtpp.tooltip.base_particles.type.meson=Мезон
 gtpp.tooltip.base_particles.type.unknown=Неизвестная
 gtpp.tooltip.integrated_circuit.configuration=Конфигурация == %d\nПКМ переконфигурировать\nНужна отвёртка или инструмент для программирования
 gtpp.tooltip.scrubber_turbine.early_tier=An early tier Turbine for Atmospheric Reconditioning.
-gtpp.tooltip.scrubber_turbine.uses_left=%d/%d uses left.
+gtpp.tooltip.scrubber_turbine.uses_left=%d/%d использований осталось.
 gtpp.tooltip.buffer_core.key_crafting_component=A key crafting component for %s Appliances
 gtpp.tooltip.magic_feather.0=Не обязательно держать предмет в руке, чтобы он работал
 gtpp.tooltip.magic_feather.1=Необходимо находиться в пределах радиуса маяка
@@ -3996,8 +3996,8 @@ gtpp.chat.wireless_charger.unlock=Разблокировано
 gtpp.chat.wireless_charger.enter=Вы вошли в радиус зарядки. [%s м - %s]
 gtpp.chat.wireless_charger.leave=Вы покинули радиус зарядки. [%s м - %s]
 gtpp.chat.atmospheric_reconditioner.efficiency=Set machine mode to %s
-gtpp.chat.atmospheric_reconditioner.efficiency.low=Low Efficiency
-gtpp.chat.atmospheric_reconditioner.efficiency.high=High Efficiency
+gtpp.chat.atmospheric_reconditioner.efficiency.low=Низкая эффективность
+gtpp.chat.atmospheric_reconditioner.efficiency.high=Высокая эффективность
 
 gtpp.book.modular_baubles.name=Как использовать: модульные украшения
 gtpp.book.modular_baubles.page00=Концепция: Эта идея возникла из-за желания гибкости.\nПервый шаг: постройте Модульный верстак, чтобы начать настройку Bauble.\n После того, как он будет создан, вы можете объединить перечисленные улучшения в этой книге, чтобы улучшить baubles уровень/100.
