@@ -11,68 +11,36 @@ gtnhlanth.tt.hintNumber=Блок подсказки под №%s
 
 # Digester
 gtnhlanth.tt.digester.machinetype=Дигестер
-gtnhlanth.tt.digester.info1=Ввод руды и жидкости, вывод вода
+gtnhlanth.tt.digester.structure.any_casing=Any tungstensteel casing
+gtnhlanth.tt.digester.structure.air=Interior and top of the structure
+gtnhlanth.tt.disstank.structure.any_casing=Any stainless steel casing
+gtnhlanth.tt.linac.structure.hatch_pos=Any bottom edge casing 3-8 blocks from front
+gtnhlanth.tt.linac.structure.input_hatch_pos=Top center casing 8th block from front
+gtnhlanth.tt.linac.structure.output_hatch_pos=Top center casing 8th block from back
+gtnhlanth.tt.sc.structure.output_pos=Behind controller
+gtnhlanth.tt.synch.structure.antenna_casing=Antenna Casing
+gtnhlanth.tt.synch.structure.energy_pos=Above each antenna casing
+gtnhlanth.tt.synch.structure.input_hatch_pos=Between the energy hatches
+gtnhlanth.tt.synch.structure.output_hatch_pos=Opposite the input hatches
+gtnhlanth.tt.synch.structure.beam_input_pos=Left of controller
+gtnhlanth.tt.synch.structure.beam_output_pos=Right and back of controller
+gtnhlanth.tt.tc.structure.input_bus_pos=2nd top center casing from front (masks) and back (wafers)
 
 # Dissolution Tank
 gtnhlanth.tt.disstank.machinetype=Реактор-разбавитель
-gtnhlanth.tt.disstank.info1=Ввод вода и жидкость, вывод жидкость
-gtnhlanth.tt.disstank.info2=Жидкости должны вводиться в точном соотношении, указанном в NEI
 
 # Source Chamber
 gtnhlanth.tt.sc.machinetype=Particle Source
-gtnhlanth.tt.sc.info1=Generates particle beams from specific §dsource materials
-gtnhlanth.tt.sc.info2=NEI has the list of §dsource materials§7 and their stats
-gtnhlanth.tt.sc.info3=Recipes are all one second long and output a single beam packet
-gtnhlanth.tt.sc.info4=Increasing the power above the §3EU/t Required§7 asymptotically approaches the §dMax Material Energy
-gtnhlanth.tt.sc.info5=Particle beams have a §5particle type§7, §9energy§7, §2focus§7, and §6rate
-gtnhlanth.tt.sc.info6=§5Type§7 determines the charge, rest mass, and §9Max Particle Energy
-gtnhlanth.tt.sc.info7=§9Energy§7 is the energy of the particle beam in electron volts (eV)
-gtnhlanth.tt.sc.info8=§2Focus§7 is the width of the particle beam
-gtnhlanth.tt.sc.info9=§6Rate§7 is the amount of particles per packet
-gtnhlanth.tt.sc.info10=§9Output Beam Energy§f = min(§9Max Particle Energy§7, §eaeV§f)
-gtnhlanth.tt.sc.info11=where §eaeV§f = §dMax Material Energy§f * (1 - 1.001^(§9-Energy Ratio§f * (§3EU/t Provided§f - §3EU/t Required§f)))
 gtnhlanth.tt.sc.input=§cRequires 1 input bus OR 1 input hatch
 
 # Linear Accelerator
 gtnhlanth.tt.linac.machinetype=Particle Accelerator, LINAC
-gtnhlanth.tt.linac.info1=Accelerates particle beams to higher energies by passing them through an electric field
-gtnhlanth.tt.linac.info2=Electrically neutral §5particles§7 are therefore unaffected
-gtnhlanth.tt.linac.info3=Requires §fLength * 1,000 %s/s§7 of §bcoolant§7 to run, returns as §chot coolant
-gtnhlanth.tt.linac.info4=Increasing the length/power increases the §9Output Beam Energy§7 but decreases the §2Output Beam Focus
-gtnhlanth.tt.linac.info5=Preserve §2Beam Focus§7 more effectively with lower temperature §bcoolant
-gtnhlanth.tt.linac.info6=§9Output Beam Energy§f = max(§eV§f, 50) * 10^§eIE
-gtnhlanth.tt.linac.info7=where §eV§f = 0.25 * (Length - 1) * cbrt(§3EU/t Provided§f)
-gtnhlanth.tt.linac.info8=and §eIE§f = 1 + min(§9Input Beam Energy§f, 7500) / §9Max Particle Energy
-gtnhlanth.tt.linac.info9=§2Фокус входного пучка§f = (§2Фокус входного пучка§f + §eФокус механизма§f)/2.5§7, если §2Фокус входного пучка§f > §eФокус механизма
-gtnhlanth.tt.linac.info10=§2Фокус выходного пучка§f = §2Фокус входного пучка§f * §eФокус механизма§f/100§7, если §2Фокус входного пучка§f <= §eФокус механизма§f
-gtnhlanth.tt.linac.info11=where §eMachine Focus§f = min(90, max(5, (-0.9 * (Length-1) * 1.1^(0.2 * §bCoolant Temperature§f) + 110)))
 
 # Synchrotron
 gtnhlanth.tt.synch.machinetype=Ускоритель частиц
-gtnhlanth.tt.synch.info1=Ускоряет пучки частиц до тех пор, пока они не начнут производить пучок фотонов в результате релятивистского эффекта Лармора
-gtnhlanth.tt.synch.info2=Поэтому §5электрически§7 нейтральные частицы и пучки с §2фокусом§7 менее 25 остаются неизменными
-gtnhlanth.tt.synch.info3=Для работы требуется §f32.000 %s/с§7 §bхладогента§7, и возвращается в виде §cгорячего хладагент
-gtnhlanth.tt.synch.info4=Increasing power increases the §6Output Beam Rate
-gtnhlanth.tt.synch.info5=Preserve §2Beam Focus§7 more effectively with lower temperature §bcoolant
-gtnhlanth.tt.synch.info6=Increasing the tier of the §dAntenna Casings§7 improves the efficiency of the machine
-gtnhlanth.tt.synch.info7=The §9energies§7 in the following formulae must all be in keV
-gtnhlanth.tt.synch.info8=§9Энергия выходного пучка§7§f = §eIR§f * §eкоэффициент масштабирования мощности
-gtnhlanth.tt.synch.info9=где §eIR§f = (§9энергия входного пучка§f) ^(1.13*(§dтир антенны§f)^(4/9))/40.000.000
-gtnhlanth.tt.synch.info10=и §eкоэффициент масштабирования мощности§f = 1 - 0.15^(§3общая мощность EU/t§f / (30.384 * (§dтир антенны§f)^(5/2)))
-gtnhlanth.tt.synch.info11=§2Фокус входного пучка§f = (§2Фокус входного пучка§f + §eФокус механизма§f)/2.5§7, если §2Фокус входного пучка§f > §eФокус механизма
-gtnhlanth.tt.synch.info12=§2Фокус выходного пучка§f = §2Фокус входного пучка§f * §eФокус механизма§f/100§7, если §2Фокус входного пучка§f <= §eФокус механизма§f
-gtnhlanth.tt.synch.info13=где §eФокус механизма§f = макс. (10, мин. (90, 1.5^(12 - §bТемпература хладагента§f/40)))
-gtnhlanth.tt.synch.info14=§6Скорость выходного пучка§f = округление(2.5^(§dтир антенны§f) * sqrt(§3Общий подаваемый EU/t)§f * §6Скорость входного пучка§f/15.000)
 
 # Target Chamber
 gtnhlanth.tt.tc.machinetype=Камера столкновений
-gtnhlanth.tt.tc.info1=Гравирует вафли с помощью §dпучка частиц§7 и §aмаски§7
-gtnhlanth.tt.tc.info2=Engraving recipes all have their own suitable §9Beam Energy§7 range,
-gtnhlanth.tt.tc.info3=minimum §2Beam Focus§7, minimum §6Beam Rate§7, and minimum §3EU/t Requirement
-gtnhlanth.tt.tc.info4=§dMasks§7 also have limited durability, degrading by 1 with each engraving
-gtnhlanth.tt.tc.info5=Processing speed is determined solely by the §6Beam Rate§7, not the §3EU/t Provided
-gtnhlanth.tt.tc.info6=§fRecipe Duration = 5 seconds * §6Required Beam Rate§f / §6Input Beam Rate
-gtnhlanth.tt.tc.info7=Может обрабатывать до одной прочности §aМаски§7 одного типа за тик игры
 
 # Beam Coolant
 gtnhlanth.tt.coolant.oxygen=§bЖидкий кислород§f: 90 K
@@ -95,6 +63,7 @@ GT5U.gui.text.shutdown_reason.gtnhlanth.inputinterrupt=Входной луч н�
 GT5U.gui.text.recipe_result.dissolution_ratio=§7Неправильное соотношение подачи жидкости!
 GT5U.gui.text.recipe_result.gtnhlanth.wrongparticle=Неверная частица!
 GT5U.gui.text.recipe_result.gtnhlanth.toolowenergy=Энергия ниже требуемого уровня!
+GT5U.gui.text.recipe_result.gtnhlanth.toohighenergy=Above Required Energy!
 GT5U.gui.text.shutdown_reason.gtnhlanth.noparticle=Частица отсутствует (скорость равна 0)!
 
 # NEI
