@@ -59,6 +59,25 @@ vendingmachine.gui.error.player_using=Gerade benutzt jemand den Verkaufsautomat.
 # Chat
 vendingmachine.chat.trade_restock=Vending Machine Restocked: %s
 
+# Command
+vendingmachine.command.usage=Usage: %s
+vendingmachine.command.error.player_not_found=Player "%s" was not found.
+vendingmachine.command.error.integer_format=Invalid amount "%s". Expected a whole number.
+vendingmachine.command.no_wallet=No wallet found.
+vendingmachine.command.error.invalid_currency_with_list=Unknown coin type "%s". Valid coin types are %s. Hover over a coin name to see the unlocalised name accepted by this command.
+
+vendingmachine.command.add.all_currency=Added %s of all coins to %s.
+vendingmachine.command.add.specific_currency=Added %s %s(s) to %s.
+vendingmachine.command.add.remove_all_currency=Removed %s of all coins from %s.
+vendingmachine.command.add.remove_specific_currency=Removed %s %s(s) from %s.
+
+vendingmachine.command.set.all_currency=Set all currencies to %s for %s.
+vendingmachine.command.set.specific_currency=Set %s to %s for %s.
+
+vendingmachine.command.reset.all_coins=Reset all coins for %s.
+vendingmachine.command.reset.specific_coin=Reset %s for %s.
+vendingmachine.command.reset.reloaded_trade_db=Reloaded trade database.
+
 # Categories
 vendingmachine.category.favourites=Favourites
 vendingmachine.category.unknown=Unbekannte Kategorie
