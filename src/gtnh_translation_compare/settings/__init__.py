@@ -19,6 +19,10 @@ DEFAULT_QUESTS_LANG_TARGET_REL_PATH = os.environ.get(
     "DEFAULT_QUESTS_LANG_TARGET_REL_PATH",
     f"config/txloader/forceload/betterquesting/lang/{TARGET_LANG.value}.lang",
 )
+CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH = os.environ.get(
+    "CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH",
+    "config/txloader/load/customtooltips/lang/en_US.lang",
+)
 GT_LANG_EN_US_REL_PATH = "GregTech_US.lang"
 GT_LANG_TARGET_REL_PATH = "GregTech.lang"
 
@@ -34,6 +38,7 @@ __all__ = [
     "GTNH_REPO",
     "DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH",
     "DEFAULT_QUESTS_LANG_TARGET_REL_PATH",
+    "CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH",
     "GT_LANG_EN_US_REL_PATH",
     "GT_LANG_TARGET_REL_PATH",
     "PARATRANZ_PROJECT_ID",

@@ -35,6 +35,14 @@ ParatranzToLocalPathConverter: TypeAlias = Callable[[str], Path]
 AfterToTranslationFileCallback: TypeAlias = Callable[[TranslationFile], None]
 
 
+def _download_from_gtnh(relpath: str) -> str:
+    url = f"https://raw.githubusercontent.com/{settings.GTNH_REPO}/master/{relpath}"
+    res = httpx.get(url=url, timeout=60)
+    if res.status_code != 200:
+        raise ValueError(f"Failed to get file from {url}")
+    return res.text
+
+
 def _make_lang_or_markdown_filetype(relpath: str, content: str) -> Filetype:
     if is_markdown_tooltip_path(relpath):
         return FiletypeMarkdownTooltip(relpath, content)
@@ -205,6 +213,18 @@ class Action:
     # To Paratranz
     ############################################################################
 
+    # Pack-side lang files (quest book, custom tooltips): not under resources/, uploaded by explicit path
+    async def _pack_lang_file_to_paratranz(
+        self,
+        base_path: Path,
+        relpath: str,
+    ) -> None:
+        with open(base_path / relpath, 'r', encoding='UTF-8') as f:
+            content = f.read()
+        lang_file = FiletypeLang(relpath=relpath, content=content, language=Language.en_US)
+        paratranz_file = await self.converter.to_paratranz_file(lang_file)
+        await self.client.upload_file(paratranz_file)
+
     # Gt Lang
     async def _gt_lang_to_paratranz(
         self,
@@ -250,15 +270,14 @@ class Action:
 
         self._update_gt_lang(base_path, gt_lang_path)
 
-        qb_lang_file_url = (
-            f"https://raw.githubusercontent.com"
-            f"/{settings.GTNH_REPO}/master/{settings.DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH}"
-        )
-        res = httpx.get(url=qb_lang_file_url, timeout=60)
-        if res.status_code != 200:
-            raise ValueError(f"Failed to get quest book file from {qb_lang_file_url}")
+        qb_content = _download_from_gtnh(settings.DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH)
         relpath = get_relpath(settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH)
-        write_file(os.path.abspath(relpath), res.text)
+        write_file(os.path.abspath(relpath), qb_content)
+
+        # Pack-side lang file, not shipped in any mod jar, so it has to be fetched separately
+        ctt_content = _download_from_gtnh(settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH)
+        relpath = get_relpath(settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH)
+        write_file(os.path.abspath(relpath), ctt_content)
 
         git_commit(
             str(repo_path),
@@ -320,15 +339,13 @@ class Action:
             logger.info(change)
         logger.info('#'*30)
 
-        if settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH in changed_relpaths:
-            with open(base_path / settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
-                content = f.read()
-            qb_lang_file = FiletypeLang(
-                relpath=settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=content, language=Language.en_US
-            )
-            qb_paratranz_file = await self.converter.to_paratranz_file(qb_lang_file)
-            await self.client.upload_file(qb_paratranz_file)
-            changed_relpaths.remove(settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH)
+        for pack_relpath in (
+            settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH,
+            settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH,
+        ):
+            if pack_relpath in changed_relpaths:
+                await self._pack_lang_file_to_paratranz(base_path, pack_relpath)
+                changed_relpaths.remove(pack_relpath)
 
         lang_files = []
         for file_path in changed_relpaths:
@@ -366,13 +383,8 @@ class Action:
             subdirectory: Path,
     ) -> None:
         base_path: Path = repo_path / subdirectory
-        with open(base_path / settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, 'r', encoding='UTF-8') as f:
-            content = f.read()
-        qb_lang_file = FiletypeLang(
-            relpath=settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH, content=content, language=Language.en_US
-        )
-        qb_paratranz_file = await self.converter.to_paratranz_file(qb_lang_file)
-        await self.client.upload_file(qb_paratranz_file)
+        await self._pack_lang_file_to_paratranz(base_path, settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH)
+        await self._pack_lang_file_to_paratranz(base_path, settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH)
 
         lang_files = []
         for file_path in glob.glob(f'./{base_path}/resources/*/lang/en_US.lang'):
