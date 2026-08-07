@@ -260,10 +260,10 @@ gt.blockmachines.itempipe.rounting_value=距離値: %s
 
 Interaction_DESCRIPTION_MagicalEnergyAbsorber_Screwdriver=吸収範囲: %s ブロック
 
-gt.hatch_element_or= or
-gt.hatch_element_of_type=of type
-gt.hatch_element_of_class=of class
-gt.hatch_element_of_id=of id
+gt.hatch_element_or= または 
+gt.hatch_element_of_type=of type 
+gt.hatch_element_of_class=of class %s
+gt.hatch_element_of_id=of id %s
 
 # Basic Machine
 gt.blockmachines.basicmachine.accelerator.tier.01.name=基本型世界加速機
@@ -1699,17 +1699,32 @@ GT5U.MBTT.Structure.MaxTierSkips=処理できるレシピのTierはエネルギ�
 GT5U.MBTT.Structure.UnlimitedTierSkips=十分な電力が供給された場合、この機械はTierを無視してレシピを実行可能です
 GT5U.MBTT.Structure.DataStick.Waterline=Link to the §bWater Purification Plant§7 with a §aData Stick
 GT5U.MBTT.Structure.DataStick.PCB=Link to the §bPCB Factory§7 with a §aData Stick
-gt.mbtt.structure.front_center=正面中央
+
 gt.mbtt.structure.back_center=背面中央
-gt.mbtt.structure.front_center_2nd_layer=正面中央、2段目
 gt.mbtt.structure.front_bottom_center=正面最下段中央
+gt.mbtt.structure.front_center=正面中央
+gt.mbtt.structure.front_center_2nd_layer=正面中央、2段目
+gt.mbtt.structure.front_center_4th_layer=正面中央、4段目
+gt.mbtt.structure.front_center_9th_layer=正面中央、9段目
+gt.mbtt.structure.front_center_15th_layer=正面中央、15段目
+gt.mbtt.structure.front_center_17th_layer=正面中央、17段目
 gt.mbtt.structure.any_casing=任意の外装
 gt.mbtt.structure.interior=Interior of the structure
 gt.mbtt.structure.any_tiered_glass=任意のTier付きガラス
 gt.mbtt.structure.min_tiered_glass=Tier %s 以上のガラス
 gt.mbtt.structure.any_bottom_casing=底面の任意の外装
 gt.mbtt.structure.back_center_casing=背面中央の外装
-gt.mbtt.structure.front_center_9th_layer=正面中央、9段目
+gt.mbtt.structure.any_back_center_casing=背面中央の任意の外装
+gt.mbtt.structure.any_front_shielding_casing=正面の任意の防護外装
+
+# Generic machine types
+gt.mbtt.machine_type.spacetime_manipulator=Spacetime Manipulator, EOH
+gt.mbtt.machine_type.exotic_matter_producer=Exotic Matter Producer
+gt.mbtt.machine_type.blast_smelter=Blast Smelter
+gt.mbtt.machine_type.blast_furnace=Blast Furnace, Furnace
+gt.mbtt.machine_type.plasma_fabricator=Plasma Fabricator
+gt.mbtt.machine_type.stellar_forge=Stellar Forge
+
 GT5U.MBTT.HatchInfo=任意 %s
 GT5U.MBTT.HatchHint=(ヒント: %s)
 GT5U.MBTT.BoroGlassAny=ホウケイ酸ガラス (任意、混用可)
@@ -1745,7 +1760,6 @@ GT5U.MBTT.PCB.Tooltip.3=Allows for overclocking. Requires 10 L/s of distilled wa
 GT5U.MBTT.PCB.Tooltip.4=Enables perfect overclocking by allowing nanites to work with extreme speed and efficiency. Uses 10 L/s of Super Coolant.
 GT5U.MBTT.PCB.Tooltip.5=Set the trace size. Smaller traces allow material savings but take longer to fabricate. Larger traces waste material but are fast. 50-200 μm.
 GT5U.MBTT.PCB.Tooltip.6=稼働中には設定を変更できません！
-
 GT5U.MBTT.AlchemyCasingAny=錬金的不安定性耐性/中和/調和マシン外装
 GT5U.MBTT.AlchemicalConstructAny=錬金構造体
 GT5U.MBTT.SuperChest=スーパー/クアンタムチェスト
@@ -2131,9 +2145,9 @@ gt.recipe.multiblockrockbreaker=ボルダネイター
 gt.recipe.category.abs_non_alloy_recipes=ABS 非合金レシピ
 
 # NEI keys
-gt.nei.lftr.power=Power: %s EU/t per Dynamo
-gt.nei.lftr.dynamo=Dynamo: %s EU
-gt.nei.lftr.total=Total: %s EU
+gt.nei.lftr.power=電力出力: ﾀﾞｲﾅﾓﾊｯﾁ1個あたり %s EU/t 
+gt.nei.lftr.dynamo=ﾀﾞｲﾅﾓﾊｯﾁあたり発電量: %s EU
+gt.nei.lftr.total=合計: %s EU
 gt.nei.milling.not_consumed=このアイテムは確率で消費されます
 gt.nei.chemical_plant.not_consumed=このアイテムは確率で消費されます
 gt.nei.chemical_plant.higher_tier_casing=パイプ外装のTierが高いほどアイテムが長持ちします
@@ -2587,6 +2601,7 @@ GT5U.gui.text.per_hour=§f1時間あたりの生産量:
 GT5U.gui.text.per_day=§f1日あたりの生産量:
 GT5U.gui.text.progress_recipe=§f進捗状況: %ss / %ss (%s%%)
 GT5U.gui.text.progress_detail=§f進捗状況: %s%% §7(§f%ss§7/§f%ss§7)§r
+GT5U.gui.text.tier_name_with_parentheses=(%s)
 GT5U.gui.text.rate_short=(§7%s/s§f)
 GT5U.gui.text.rate_short_slow=(§71個あたり%ss§f)
 GT5U.gui.text.rate_large_suffix=§f[§7%s§f]
@@ -2743,10 +2758,10 @@ GT5U.gui.text.structure_error.too_few_hatch=%1$s: needs at least %2$s, found %3$
 GT5U.gui.text.structure_error.not_match_hatch=Needs exactly %s %s
 GT5U.gui.text.structure_error.too_many_hatch=%1$s: needs at most %2$s, found %3$s
 GT5U.gui.text.structure_error.missing_steam_input=§8《§7蒸気用入力ハッチ§8／Steam Hatch》§7がありません
-GT5U.gui.text.structure_error.no_input=入力なし (入力バス (蒸気)または入力ハッチ (蒸気)が必要です)
+GT5U.gui.text.structure_error.no_input=入力なし (蒸気機械用入力バスまたは蒸気機械用入力ハッチが必要です)
 GT5U.gui.text.structure_error.no_output=出力なし (出力バス (蒸気)または出力ハッチ (蒸気)が必要です)
-GT5U.gui.text.structure_error.missing_steam_input_bus=入力バス (蒸気)がありません
-GT5U.gui.text.structure_error.missing_steam_output_bus=出力バス (蒸気)がありません
+GT5U.gui.text.structure_error.missing_steam_input_bus=蒸気機械用入力バスがありません
+GT5U.gui.text.structure_error.missing_steam_output_bus=蒸気機械用出力バスがありません
 GT5U.gui.text.structure_error.missing_any_input=入力がありません
 GT5U.gui.text.structure_error.missing_any_output=出力がありません
 GT5U.gui.text.structure_error.energy_hatch_not_needed=エネルギーハッチは必要ありません
@@ -3205,6 +3220,7 @@ GT5U.gui.hoverable.incomplete=構造体が未完成です。
 GT5U.gui.hoverable.powerloss=エネルギーが不足しました。
 GT5U.gui.hoverable.norepair=機械の損傷が多すぎます。
 GT5U.gui.hoverable.manualshutdown=手動シャットダウン。
+GT5U.gui.hoverable.computation_loss=Out of computation.
 GT5U.gui.hoverable.error=エラー！報告してください！
 
 GT5U.gui.config.client=クライアント
@@ -3587,6 +3603,7 @@ GT5U.item.toolbox.tooltip.deselect_tool=%s (スニーク中): 選択を解除
 GT5U.item.toolbox.tooltip.open_toolbox=%s: 工具箱を開く
 # This inserts gt.item.desc.durability into the %s
 GT5U.item.toolbox.tooltip.tool_durability=ツール %s
+GT5U.item.toolbox.tooltip.crafting=§4§lNOTE:§r §bWill craft with any/no tool selected
 
 GT5U.item.toolbox.byline.closed=素晴らしきエンジニア道を共にする\n§oあなたの忠実なる味方。
 # The tool-specific bylines are pretty much all jokes. Accuracy in translation isn't important.
@@ -3810,6 +3827,7 @@ GT5U.armor.behavior.Teleporter=個人用テレポーター
 GT5U.armor.behavior.MilkInfusion=牛乳注入
 GT5U.armor.behavior.HoloInventory=インベントリホログラム
 GT5U.armor.behavior.Terrasteel=Will of the Ancients
+GT5U.armor.behavior.Levitation=浮遊モード
 
 GT5U.armor.message.enabled=%sを§a有効化§r
 GT5U.armor.message.disabled=%sを§c無効化§r
@@ -3891,7 +3909,7 @@ GT5U.hatch.filter.tooltip.0=§6左クリック§8で削除
 GT5U.hatch.outputme.filter.format=%s: %s:
 GT5U.hatch.outputme.checkMode.true=チェックモード: §cオン§r
 GT5U.hatch.outputme.checkMode.false=チェックモード: §cオフ§r
-GT5U.hatch.outputme.checkMode.desc=NOTE: Simulates insertion into the internal cell during recipe checks, limiting parallel by cell space. (requires a cell to work, increases recipe calculation cost)
+GT5U.hatch.outputme.checkMode.desc=NOTE: Check Mode caps parallelism based on available space during recipe checks (increases recipe calculation cost, especially without equal distribution card).
 GT5U.hatch.outputme.cacheMode.true=キャッシュモード: §cオン§r
 GT5U.hatch.outputme.cacheMode.false=キャッシュモード: §aオフ§r
 GT5U.hatch.outputme.cacheMode.desc=MEネットワークの代わりに内部に配置したセルへアイテムを収納します。
@@ -3905,7 +3923,7 @@ GT5U.bus.filterTooltip.empty=§aNEIからアイテムをドラッグして出力
 GT5U.bus.filterTooltip.full=§aクリックして出力フィルターを消去
 
 GT5U.multiblock.heat=§c熱: §f%s K
-GT5U.multiblock.pollution=汚染除去率
+GT5U.multiblock.pollution=除去後の汚染排出
 GT5U.multiblock.energy=蓄電量
 GT5U.multiblock.Progress=進捗
 GT5U.multiblock.efficiency=効率
@@ -3933,7 +3951,7 @@ GT5U.multiblock.mei.fmt.2A=最大エネルギー入力量: §e%s§r EU/t(*2A) Ti
 GT5U.multiblock.mei.fmt.xA=最大エネルギー入力量: §e%s§r EU/t(*§e%s§rA) Tier: §e%s§r
 GT5U.multiblock.mei.fmt.mega=最大エネルギー入力量: §e%s§r EU/t(*%sA) = §e%s§r
 GT5U.machines.tier.fmt=Tier: §e%s§r
-GT5U.multiblock.pollution.fmt=汚染除去率: §a%s§r %%
+GT5U.multiblock.pollution.fmt=除去後の汚染排出率: §a%s§r %%
 GT5U.multiblock.problems.efficiency.fmt=不具合: §c%s§r  効率: §e%s
 
 
@@ -4422,7 +4440,7 @@ gt.item.large_fluid_cell.stainless_steel.name=ステンレススチール製大�
 gt.item.large_fluid_cell.stainless_steel.tooltip=
 gt.item.large_fluid_cell.titanium.name=チタン製大型流体セル
 gt.item.large_fluid_cell.titanium.tooltip=
-gt.item.large_fluid_cell.chrome.name=クロム製大型流体セル
+gt.item.large_fluid_cell.chrome.name=ロジウムメッキパラジウム製大型流体セル
 gt.item.large_fluid_cell.chrome.tooltip=
 gt.item.large_fluid_cell.iridium.name=イリジウム製大型流体セル
 gt.item.large_fluid_cell.iridium.tooltip=
@@ -7122,6 +7140,7 @@ key.gt.speed_decrease=速度低下
 key.gt.jump_increase=跳躍力を向上
 key.gt.jump_decrease=跳躍力を低下
 key.gt.force_field=フォースフィールドの切り替え
+key.gt.toggle_levitation_mode=浮遊モードの切り替え
 key.gt.open_radial_menu=Open Radial Menu
 
 # Tooltips for GT Tools
@@ -7564,6 +7583,13 @@ GT5U.infodata.fusion.mk_tier=§9核融合炉 MK §r%s
 GT5U.infodata.fusion.req=要求電力: §c%s§rEU/t
 GT5U.infodata.fusion.plasma=プラズマ出力: §e%s§rL/t
 GT5U.infodata.naquadah_refinery.coil_tier=コイルTier: %s
+
+GT5U.infodata.turbine.output=%s: %s EU/t
+GT5U.infodata.turbine.efficiency=現在の速度: %s %%
+GT5U.infodata.turbine.flow=最適な流量: %s L/%s (%s)
+GT5U.infodata.turbine.fuel=燃料の残量: %s L
+GT5U.infodata.turbine.dmg=タービンの損傷: %s %%
+GT5U.infodata.turbine.pollution=除去後の汚染排出率: %s %%
 
 GT5U.infodata.large_fluid_extractor.max_parallels=最大並列処理数: %s%d%s
 GT5U.infodata.large_fluid_extractor.heating_coil_speed_bonus=コイルブロックの速度ボーナス: +%s%.0f%s %%
@@ -9076,6 +9102,22 @@ GT5U.tooltip.bec-ionode.controller-pos=Front center, 12th layer
 GT5U.tooltip.bec-ionode.hatch-pos=Any electromagnetically-isolated casing
 GT5U.tooltip.bec-ionode.los-hatch-pos=Back center casing
 
+# Eye of Harmony Structure Hints
+GT5U.tooltip.eye-of-harmony.boundary-no-stocking-bus=Any boundary casing (no stocking bus)
+GT5U.tooltip.eye-of-harmony.boundary-no-stocking-hatch=Any boundary casing (no stocking hatch)
+GT5U.tooltip.eye-of-harmony.any-boundary-casing=Any boundary casing
+
+# Research Station Structure Hints
+GT5U.tooltip.research-station.footer=§aData Sticks go in the controller
+
+# Forge of Gods Structure Hints
+GT5U.tooltip.forge-of-gods.hatch-pos=Around controller
+GT5U.tooltip.forge-of-gods.output-bus-pos=Around controller (ME only)
+GT5U.tooltip.forge-of-gods.module=Forge of the Gods Module
+GT5U.tooltip.forge-of-gods.module-pos=Any side center shielding casing
+GT5U.tooltip.forge-of-gods.second-ring=Second Ring
+GT5U.tooltip.forge-of-gods.third-ring=Third Ring
+
 # BEC Generator Structure Hints
 GT5U.tooltip.bec-generator.controller-pos=Front center, 10th layer
 GT5U.tooltip.bec-generator.hatch-pos=Any electromagnetically-isolated casing around controller
@@ -9121,7 +9163,7 @@ GT5U.chat.bec-connected-assembler=Successfully connected to the Observation Arra
 GT5U.chat.bec-no-connect-assembler=Could not connect to the Observation Array
 
 # BEC Waila
-GT5U.chat.bec-processing-speed=Processing Speed: x%s
+GT5U.chat.bec-processing-speed=Processing Speed: %s points per tick
 GT5U.chat.bec-slowdowns=Slowdowns: %s
 
 # Test Factory Machines

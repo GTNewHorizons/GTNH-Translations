@@ -43,7 +43,7 @@ item.structurelib.constructableTrigger.gui.info=Многие мультибло�
 
 channels.structurelib.show_errors=Если включено, подсвечивает элементы мультиблока с явными ошибками
 
-structurelib.tooltip.channelvalue=§7Указывает значение §6%d§r§7 для подканала §6%s
+structurelib.tooltip.channelvalue=§7Значение §b%d§r§7 для подканала §b%s
 structurelib.tooltip.indicator_dnd=Перейдите в GUI, чтобы выбрать это значение для этого канала.
 
 structurelib.autoplace.built_stat=Построено %s блоков
@@ -182,10 +182,10 @@ structurelib.config.client.hologram.tooltip=Настройки, которые �
 structurelib.config.client.hologram.maxCoexisting=Макс. сосуществующих голограмм
 structurelib.config.client.hologram.maxCoexisting.tooltip=Количество голограмм, которые могут сосуществовать. Обычно все подсказки, сгенерированные одним щелчком ПКМ, принадлежат одной голограмме. Будет предпринята попытка удаления старой голограммы, когда будет проецироваться новая голограмма и этот лимит будет превышен.
 structurelib.config.client.hologram.removeColliding=Удалить сталкивающиеся голограммы
-structurelib.config.client.hologram.removeColliding.tooltip=Whether an attempt will be made to remove any existing hologram that collides with a new hologram.
+structurelib.config.client.hologram.removeColliding.tooltip=Определяет, будет ли предпринята попытка удалить существующую голограмму, которая пересекается с новой.
 
-structurelib.config.registries=Sorted Registries
-structurelib.config.registries.tooltip=Sorted Registry is how StructureLib internally keep track of certain features. Each individual elements may be reordered, disabled and enabled at user's command. Changes will be synced to server if needed.\nThis gui can also be accessed in game by shift right clicking air with Multiblock Structure Hologram Projector.
+structurelib.config.registries=Сортировка реестров
+structurelib.config.registries.tooltip=Сортировка реестров - это внутренний механизм StructureLib для отслеживания определенных функций. Отдельные элементы можно переупорядочивать, отключать и включать по желанию пользователя. При необходимости изменения будут синхронизированы с сервером.\nЭтот интерфейс также доступен в игре: чтобы открыть его, нажмите Shift+ПКМ по воздуху с Проектором голограммы мультиблоковой структуры.
 structurelib.config.registries.stackextractors=Stack Extractors
 structurelib.config.registries.stackextractors.tooltip=Controls which inventory-from-stack functions are enabled during survival autoplace
 structurelib.config.registries.inventoryproviders=Источники инвентарей

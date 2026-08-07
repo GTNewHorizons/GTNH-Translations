@@ -20,3 +20,20 @@ tooltip.nutrition:nutrients=Nutrientes:
 potion.nutrition:toughness=Vitalidad
 potion.nutrition:nourished=Nutrido
 potion.nutrition:malnourished=Desnutrido
+
+#Commands
+command.nutrition:usage=Nutrition commands: help, get, set, add, subtract, reset, reload
+command.nutrition:help.1=Nutrition Help Page:
+command.nutrition:help.2=/nutrition get <player> [nutrient] - List a player's nutrients, optionally specifying a specific nutrient.
+command.nutrition:help.3=/nutrition set <player> <nutrient> <value> - Set a player's nutrient value.
+command.nutrition:help.4=/nutrition add <player> <nutrient> <value> - Add to a player's nutrient value.
+command.nutrition:help.5=/nutrition subtract <player> <nutrient> <value> - Remove from a player's nutrient value.
+command.nutrition:help.6=/nutrition reset <player> [nutrient] - Reset a player's nutrients, optionally specifying a specific nutrient.
+command.nutrition:help.7=/nutrition reload - Reload nutrients and potion effects from config data.
+command.nutrition:get=%s: %s%%
+command.nutrition:get_all_header=%s's Nutrient Values
+command.nutrition:get_all_line=- %s: %s%%
+command.nutrition:set=Nutrient '%s' for %s set to %s%%
+command.nutrition:reset=Nutrient '%s' reset for %s
+command.nutrition:reset_all=All nutrients reset for %s
+command.nutrition:reload=Nutrients and effects reloaded
