@@ -1,15 +1,15 @@
-Generates particle beams from specific §dsource materials
+Создаёт пучки частиц из определённых §dисходных материалов
 {lang:gtnhlanth.tt.beaminfo}
 {gray:{hr}}
-NEI has the list of §dsource materials§7 and their stats
-Recipes are all one second long and output a single beam packet
-Increasing the power above the §3EU/t Required§7 asymptotically approaches the §dMax Material Energy
+Список §dисходных материалов§7 и их характеристик есть в NEI
+Все рецепты длятся одну секунду и выдают один пакет пучка
+Повышение энергии сверх §3требуемого EU/t§7 асимптотически приближает к §dМакс. энергии материала
 {gray:{hr}}
-Particle beams have a §5particle type§7, §9energy§7, §2focus§7, and §6rate
-§5Type§7 determines the charge, rest mass, and §9Max Particle Energy
-§9Energy§7 is the energy of the particle beam in electron volts (eV)
-§2Focus§7 is the width of the particle beam
-§6Rate§7 is the amount of particles per packet
+У пучков частиц есть §5тип частиц§7, §9энергия§7, §2фокус§7 и §6скорость
+§5Тип§7 определяет заряд, массу покоя и §9Макс. энергию частиц
+§9Энергия§7 задаёт энергию пучка частиц в электронвольтах (eV)
+§2Фокус§7 задаёт ширину пучка частиц
+§6Скорость§7 задаёт количество частиц в пакете
 {gray:{hr}}
-§9Output Beam Energy§f = min(§9Max Particle Energy§7, §eaeV§f)
-where §eaeV§f = §dMax Material Energy§f * (1 - 1.001^(§9-Energy Ratio§f * (§3EU/t Provided§f - §3EU/t Required§f)))
+§9Энергия выходного пучка§f = мин.(§9Макс. энергия частиц§7, §eaeV§f)
+где §eaeV§f = §dМакс. энергия материала§f * (1 - 1.001^(§9-Коэффициент энергии§f * (§3подаваемый EU/t§f - §3требуемый EU/t§f)))

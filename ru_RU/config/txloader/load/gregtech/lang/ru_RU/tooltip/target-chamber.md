@@ -1,10 +1,10 @@
-Engraves wafers with a photon beam and distinct §dMasks§7 or templates
+Гравирует вафли фотонным пучком и особыми §dМасками§7 или шаблонами
 {lang:gtnhlanth.tt.beaminfo}
 {gray:{hr}}
-Engraving recipes all have their own suitable §9Beam Energy§7 range,
-minimum §2Beam Focus§7, minimum §6Beam Rate§7, and minimum §3EU/t Requirement
-§dMasks§7 also have limited durability, degrading by 1 with each engraving
+У каждого рецепта гравировки свой подходящий диапазон §9Энергии пучка§7,
+минимальный §2Фокус пучка§7, минимальная §6Скорость пучка§7 и минимальное §3требование к EU/t
+У §dМасок§7 ограниченная прочность, каждая гравировка расходует 1 единицу
 {gray:{hr}}
-Processing speed is determined solely by the §6Beam Rate§7, not the §3EU/t Provided
-§fRecipe Duration = 5 seconds * §6Required Beam Rate§f / §6Input Beam Rate
-Can process the entire durability of all §dMasks§7 of one type in a single tick
+Скорость обработки зависит только от §6Скорости пучка§7, но не от §3подаваемого EU/t
+§fДлительность рецепта = 5 секунд * §6Требуемая скорость пучка§f / §6Скорость входного пучка
+Может обработать всю прочность всех §dМасок§7 одного типа за один тик

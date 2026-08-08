@@ -1,2 +1,2 @@
-Input Water and Fluid, output Fluid
-Fluids must be input in the exact ratio as listed in NEI
+Ввод вода и жидкость, вывод жидкость
+Жидкости должны вводиться в точном соотношении, указанном в NEI

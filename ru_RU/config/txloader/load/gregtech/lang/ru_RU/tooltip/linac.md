@@ -1,20 +1,20 @@
-Accelerates particle beams to higher energies by passing them through an electric field
-Electrically neutral §5particles§7 are therefore unaffected
+Ускоряет пучки частиц до более высоких энергий, пропуская их через электрическое поле
+Поэтому электрически нейтральные §5частицы§7 остаются неизменными
 {lang:gtnhlanth.tt.beaminfo}
 {gray:{hr}}
-Requires §fLength * 1,000 {var:fluidUnit}/s§7 of §bcoolant§7 to run, returns as §chot coolant
+Для работы требуется §fДлина * 1.000 {var:fluidUnit}/с§7 §bхладагента§7, возвращается в виде §cгорячего хладагента
 {lang:gtnhlanth.tt.coolant.oxygen}
 {lang:gtnhlanth.tt.coolant.nitrogen}
 {lang:gtnhlanth.tt.coolant.coolant}
 {lang:gtnhlanth.tt.coolant.Scoolant}
 {gray:{hr}}
-Increasing the length/power increases the §9Output Beam Energy§7 but decreases the §2Output Beam Focus
-Preserve §2Beam Focus§7 more effectively with lower temperature §bcoolant
+Увеличение длины/мощности повышает §9Энергию выходного пучка§7, но снижает §2Фокус выходного пучка
+Чем ниже температура §bхладагента§7, тем лучше сохраняется §2Фокус пучка
 {gray:{hr}}
-§9Output Beam Energy§f = max(§eV§f, 50) * 10^§eIE
-where §eV§f = 0.25 * (Length - 1) * cbrt(§3EU/t Provided§f)
-and §eIE§f = 1 + min(§9Input Beam Energy§f, 7500) / §9Max Particle Energy
+§9Энергия выходного пучка§f = макс.(§eV§f, 50) * 10^§eIE
+где §eV§f = 0.25 * (Длина - 1) * cbrt(§3подаваемый EU/t§f)
+и §eIE§f = 1 + мин.(§9Энергия входного пучка§f, 7500) / §9Макс. энергия частиц
 {gray:{hr}}
-§2Output Beam Focus§f = (§2Input Beam Focus§f + §eMachine Focus§f)/2§7 if §2Input Beam Focus§f > §eMachine Focus
-§2Output Beam Focus§f = §2Input Beam Focus§f * §eMachine Focus§f/100§7 if §2Input Beam Focus§f <= §eMachine Focus
-where §eMachine Focus§f = min(90, max(5, (-0.9 * (Length-1) * 1.1^(0.2 * §bCoolant Temperature§f) + 110)))
+§2Фокус выходного пучка§f = (§2Фокус входного пучка§f + §eФокус механизма§f)/2§7, если §2Фокус входного пучка§f > §eФокус механизма
+§2Фокус выходного пучка§f = §2Фокус входного пучка§f * §eФокус механизма§f/100§7, если §2Фокус входного пучка§f <= §eФокус механизма§f
+где §eФокус механизма§f = мин.(90, макс.(5, (-0.9 * (Длина-1) * 1.1^(0.2 * §bТемпература хладагента§f) + 110)))
