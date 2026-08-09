@@ -38,6 +38,7 @@ item.cropsnh:goldfish.name=Золотая рыбка
 item.cropsnh:berry.huckle.name=Huckleberry
 item.cropsnh:berry.sugarbeet.name=Сахарная свёкла
 item.cropsnh:berry.maxTomato.name=Максимальный томат
+item.cropsnh:materialLeaf.error.name=§c[ERROR]§r Unknown Leaf
 item.cropsnh:materialLeaf.bauxiaLeaf.name=Лист бауксии
 item.cropsnh:materialLeaf.canolaFlower.name=Цветы рапса
 item.cropsnh:materialLeaf.copponFiber.name=Медное волокно
@@ -286,6 +287,9 @@ cropsnh_tooltip.industrialFarm.0=Выращивает культуры в про
 # separator
 cropsnh_tooltip.industrialFarm.1=§bДлина§7 механизма зависит от §cтира§7 §fгрядок§7
 cropsnh_tooltip.industrialFarm.2=§cТир§7 §fулучшений§7 должен соответствовать §cтиру§7 §fгрядок§7
+cropsnh_tooltip.industrialFarm.structure.controller=Front center, 2nd layer
+cropsnh_tooltip.industrialFarm.structure.endCasing=Any center end casing
+cropsnh_tooltip.industrialFarm.structure.glass=Any Tiered Glass
 cropsnh_tooltip.industrialFarm.structure.seedBed=Грядка
 cropsnh_tooltip.industrialFarm.structure.upgrades.name=Модуль апгрейда IF
 cropsnh_tooltip.industrialFarm.structure.upgrades.info=Любой деревянный каркас
@@ -468,6 +472,7 @@ cropsnh_tooltip.berry.huckle.2=Сладкое лакомство!
 cropsnh_tooltip.berry.sugarbeet.1=Сладкая свёкла, распространённая во Франции, Германии, России и Китае.
 cropsnh_tooltip.berry.sugarbeet.2=Промышленный сахар!
 cropsnh_tooltip.berry.maxTomato=Полное здоровье в одном томате
+cropsnh_tooltip.material_leaf_error=If you see this, please take a screenshot of this tooltip and submit a bug report
 cropsnh_tooltip.goldfish=Хозуки но Рейтэцу! Поистине адское растение-животное?!
 cropsnh_tooltip.pyrolusiumLeaf.normal=Может быть, однажды у них всё получится.
 cropsnh_tooltip.pyrolusiumLeaf.banana=Как это произошло?
@@ -534,6 +539,7 @@ cropsnh_nei.crops.growthDuration=Очки роста: %1$s
 cropsnh_nei.crops.dropMult=Множитель дропа: %1$0.2f
 cropsnh_nei.crops.likes=Предпочитает: %1$s
 cropsnh_nei.breeding.title=Селекция культур
+cropsnh_nei.breeding.tooManyParents=More than %s parents detected, this shouldn't happen!
 cropsnh_nei.mutationPool.title=Пулы мутаций культур
 cropsnh_nei.mutationPool.poolName=Пул: %1$s
 cropsnh_nei.altSeeds.title=Альтернативные семена
@@ -548,6 +554,9 @@ nei.options.tools.dump.cropsnh.mutationPools=Пулы мутаций
 nei.options.tools.dump.cropsnh.soilRegistry=Почвы
 nei.options.tools.dump.cropsnh.weedEXFluids=Гербицид
 
+
+# Forestry compat
+cropsnh_forestry.farmLogic.name=Crops NH
 
 # Generic Seeds
 cropsnh_genericSeeds.unknown=Неизвестный
