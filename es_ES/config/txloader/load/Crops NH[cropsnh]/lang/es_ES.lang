@@ -38,6 +38,7 @@ item.cropsnh:goldfish.name=Goldfish
 item.cropsnh:berry.huckle.name=Huckleberry
 item.cropsnh:berry.sugarbeet.name=Sugar Beet
 item.cropsnh:berry.maxTomato.name=Max Tomato
+item.cropsnh:materialLeaf.error.name=§c[ERROR]§r Unknown Leaf
 item.cropsnh:materialLeaf.bauxiaLeaf.name=Bauxia Leaf
 item.cropsnh:materialLeaf.canolaFlower.name=Canola Flower
 item.cropsnh:materialLeaf.copponFiber.name=Coppon Fiber
@@ -286,6 +287,9 @@ cropsnh_tooltip.industrialFarm.0=Grows crops at an industrial scale
 # separator
 cropsnh_tooltip.industrialFarm.1=The §blength§7 and §bbase power cost§7 of the machine depends on the §ctier§7 of the §fSeed Bed§7
 cropsnh_tooltip.industrialFarm.2=The §ctier§7 of the §fupgrades§7 must match the §ctier§7 of the §fSeed Bed§7
+cropsnh_tooltip.industrialFarm.structure.controller=Front center, 2nd layer
+cropsnh_tooltip.industrialFarm.structure.endCasing=Any center end casing
+cropsnh_tooltip.industrialFarm.structure.glass=Any Tiered Glass
 cropsnh_tooltip.industrialFarm.structure.seedBed=Seed Bed
 cropsnh_tooltip.industrialFarm.structure.upgrades.name=IF Upgrade Unit
 cropsnh_tooltip.industrialFarm.structure.upgrades.info=Any wooden frame box
@@ -468,6 +472,7 @@ cropsnh_tooltip.berry.huckle.2=A sweet treat!
 cropsnh_tooltip.berry.sugarbeet.1=A sweet beet, commonly found in France, Germany, Russia, and China.
 cropsnh_tooltip.berry.sugarbeet.2=Industrial sugar!
 cropsnh_tooltip.berry.maxTomato=Full health in one tomato
+cropsnh_tooltip.material_leaf_error=If you see this, please take a screenshot of this tooltip and submit a bug report
 cropsnh_tooltip.goldfish=Hozuki no Reitetsu! A truly hellish planimal?!
 cropsnh_tooltip.pyrolusiumLeaf.normal=Maybe one day they'll get it right.
 cropsnh_tooltip.pyrolusiumLeaf.banana=How did this happen?
@@ -534,6 +539,7 @@ cropsnh_nei.crops.growthDuration=Growth Points: %1$s
 cropsnh_nei.crops.dropMult=Drop Multiplier: %1$0.2f
 cropsnh_nei.crops.likes=Likes: %1$s
 cropsnh_nei.breeding.title=Crop Breeding
+cropsnh_nei.breeding.tooManyParents=More than %s parents detected, this shouldn't happen!
 cropsnh_nei.mutationPool.title=Crop Mutation Pools
 cropsnh_nei.mutationPool.poolName=Pool: %1$s
 cropsnh_nei.altSeeds.title=Alternate Seeds
@@ -548,6 +554,9 @@ nei.options.tools.dump.cropsnh.mutationPools=Mutation Pools
 nei.options.tools.dump.cropsnh.soilRegistry=Soils
 nei.options.tools.dump.cropsnh.weedEXFluids=WeedEX
 
+
+# Forestry compat
+cropsnh_forestry.farmLogic.name=Crops NH
 
 # Generic Seeds
 cropsnh_genericSeeds.unknown=Unknown
