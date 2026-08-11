@@ -261,6 +261,10 @@ options.angelica.texteffects.drop_shadow.tooltip=次の構文によりセグメ�
 options.angelica.texteffects.ampersand_conversion=アンパサンドの変換
 options.angelica.texteffects.ampersand_conversion.tooltip=レンダリング時にプレフィックスコードをフォーマットコードに変換します
 
+sodium.options.vsync_mode.auto=Auto
+sodium.options.vsync_mode.on=On
+sodium.options.vsync_mode.mailbox=Mailbox
+sodium.options.vsync_mode.off=Off
 sodium.options.multidraw_mode.name=マルチドローのモード
 sodium.options.multidraw_mode.tooltip=地形の描画において描画コマンドのディスパッチをどのように行うか制御します。§l直接§rではglMultiDrawElementsBaseVertexを使用します(デフォルト、GL 3.2+)。§l間接§rではGPU間接レンダリング(GL 4.3+)を使用し、一部ハードウェアにおいてCPUのオーバーヘッドを低減する可能性があります。§l個別§rでは個別のドローコールを送信します。
 sodium.options.multidraw_mode.direct=直接
