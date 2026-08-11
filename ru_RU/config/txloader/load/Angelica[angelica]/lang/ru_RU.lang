@@ -261,6 +261,10 @@ options.angelica.texteffects.drop_shadow.tooltip=Тень для каждого 
 options.angelica.texteffects.ampersand_conversion=Преобразование амперсанда
 options.angelica.texteffects.ampersand_conversion.tooltip=Преобразует коды с префиксом %s в коды форматирования во время отрисовки
 
+sodium.options.vsync_mode.auto=Auto
+sodium.options.vsync_mode.on=On
+sodium.options.vsync_mode.mailbox=Mailbox
+sodium.options.vsync_mode.off=Off
 sodium.options.multidraw_mode.name=Режим множественной отрисовки
 sodium.options.multidraw_mode.tooltip=Управляет тем, как отправляются команды отрисовки для рендеринга ландшафта. §lПрямой§r использует glMultiDrawElementsBaseVertex (по умолчанию, GL 3.2+). §lКосвенный§r использует косвенную отрисовку на GPU (GL 4.3+), может снизить нагрузку на ЦП на некотором оборудовании. §lИндивидуальный§r выполняет отдельные вызовы отрисовки.
 sodium.options.multidraw_mode.direct=Прямой
