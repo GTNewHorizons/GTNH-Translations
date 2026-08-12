@@ -23,6 +23,10 @@ CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH = os.environ.get(
     "CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH",
     "config/txloader/load/customtooltips/lang/en_US.lang",
 )
+OVERRIDE_NAMES_LANG_EN_US_REL_PATH = os.environ.get(
+    "OVERRIDE_NAMES_LANG_EN_US_REL_PATH",
+    "config/txloader/forceload/____gtnhoverridenames/lang/en_US.lang",
+)
 GT_LANG_EN_US_REL_PATH = "GregTech_US.lang"
 GT_LANG_TARGET_REL_PATH = "GregTech.lang"
 
@@ -39,6 +43,7 @@ __all__ = [
     "DEFAULT_QUESTS_LANG_TEMPLATE_REL_PATH",
     "DEFAULT_QUESTS_LANG_TARGET_REL_PATH",
     "CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH",
+    "OVERRIDE_NAMES_LANG_EN_US_REL_PATH",
     "GT_LANG_EN_US_REL_PATH",
     "GT_LANG_TARGET_REL_PATH",
     "PARATRANZ_PROJECT_ID",
