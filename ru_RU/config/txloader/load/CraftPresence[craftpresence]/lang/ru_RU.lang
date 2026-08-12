@@ -134,16 +134,16 @@ craftpresence.placeholders.entity.default.icon.description=Значок Entity �
 craftpresence.placeholders.entity.riding.icon.description=Иконка текущей движущейся сущности
 craftpresence.placeholders.entity.riding.message.description=Данные отображаемые на экране о сущестности, которое сейчас верхом
 craftpresence.placeholders.entity.riding.name.description=Наименование текущей движущейся сущности
-craftpresence.placeholders.entity.target.icon.description=The currently targeted entity's icon
-craftpresence.placeholders.entity.target.message.description=The currently targeted entity's display data, while applicable
+craftpresence.placeholders.entity.target.icon.description=Иконка сущности, на которую вы сейчас смотрите
+craftpresence.placeholders.entity.target.message.description=Отображаемая информация о текущей выбранной сущности, если доступна
 craftpresence.placeholders.entity.target.name.description=Имя выбранной сущности
 craftpresence.placeholders.epochMilliToDate.description=Преобразовать временную метку эпохи в строку даты в указанном формате и часовом поясе
 craftpresence.placeholders.epochMilliToDate.usage=epochMilliToDate(epochMilli, format, timeZone ?: null)
 craftpresence.placeholders.epochSecondToDate.description=Преобразовать временную метку эпохи в строку даты в указанном формате и часовом поясе
 craftpresence.placeholders.epochSecondToDate.usage=epochSecondToDate(epochSecond, format, timeZone ?: null)
-craftpresence.placeholders.executeMethod.description=Invokes the specified Method in the Target Class via Reflection
+craftpresence.placeholders.executeMethod.description=Вызывает указанное действие в выбранном классе
 craftpresence.placeholders.executeMethod.usage=executeMethod(classToAccess=Object|String|Class, instance=Object, methodName=String, <parameterType, parameter>...)
-craftpresence.placeholders.format.description=Returns a formatted string using the specified format string and arguments
+craftpresence.placeholders.format.description=Возвращает отформатированную строку с использованием указанного формата и аргументов
 craftpresence.placeholders.format.usage=format(input=String, args=Object...)
 craftpresence.placeholders.formatAddress.description=Formats an IP Address based on Input
 craftpresence.placeholders.formatAddress.usage=formatAddress(input, returnPort ?: false)
