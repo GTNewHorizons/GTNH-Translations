@@ -1,11 +1,11 @@
-Assembly Line with item pipelining
-All fluids are consumed at the start of the recipe
-Recipe tier is limited by the lowest Energy Hatch tier
+아이템 파이프라이닝을 지원하는 조립 라인
+모든 유체는 조합법 시작 시 소모됩니다
+조합법 티어는 가장 낮은 에너지 해치 티어로 제한됩니다
 {gold:{hr:67}}
-Runs imperfect overclocks until Energy Hatch tier
-Additional overclocks are increasingly more expensive
-{aqua:Multiplier = 4^(Regular Overclocks) × 4.3 × 4.6 × … × (4 + 0.3 × Extra Overclocks)}
-{aqua:Power usage = Multiplier × (Active Slices) × (Recipe EU/t)}
-Overclocking assumes all recipe slices are active
+에너지 해치 티어까지 불완전 오버클록이 적용됩니다
+추가 오버클록은 점점 더 많은 비용이 듭니다
+{aqua:배율 = 4^(일반 오버클록) × 4.3 × 4.6 × … × (4 + 0.3 × 추가 오버클록)}
+{aqua:전력 사용량 = 배율 × (활성 슬라이스) × (조합법 EU/t)}
+오버클록 계산 시 모든 조합법 슬라이스가 활성화되어 있다고 가정합니다
 {gold:{hr:67}}
-Constructed identically to the Assembly Line
+조립 라인과 동일한 방식으로 제작됩니다
