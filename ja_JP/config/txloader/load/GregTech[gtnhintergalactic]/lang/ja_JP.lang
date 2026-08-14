@@ -193,6 +193,7 @@ ig.button.projects=プロジェクト
 # Planetary Gas Siphon
 gt.blockmachines.multimachine.ig.siphon.name=惑星ガスサイフォン
 gt.blockmachines.multimachine.ig.siphon.type=ポンプ、PGS
+gt.blockmachines.multimachine.ig.siphon.desc0=Every coil tier gives a §a+%s%%§7 speed bonus per coil tier
 gt.blockmachines.multimachine.ig.siphon.desc1=ガス惑星を周回する宇宙ステーション上で建設してください
 gt.blockmachines.multimachine.ig.siphon.desc2=汲み上げたい深度に設定したプログラム回路が必要です (1 - 4)
 gt.blockmachines.multimachine.ig.siphon.desc3=採掘パイプが64個必要です
@@ -221,13 +222,6 @@ gt.blockmachines.multimachine.ig.dyson.lore4=ある自由人による発明。
 
 # Space Elevator
 gt.blockmachines.multimachine.ig.elevator.name=宇宙エレベーター
-gt.blockmachines.multimachine.ig.elevator.desc2=最大§a12 §7個の宇宙エレベーターモジュールを装着できます
-gt.blockmachines.multimachine.ig.elevator.desc3=モジュールのTierと使用可能なモジュールの数はモーターのTierに制限されます
-gt.blockmachines.multimachine.ig.elevator.desc4=エネルギーを除き、モジュール毎にそれぞれ入出力スペースがあります
-gt.blockmachines.multimachine.ig.elevator.desc5=電力はこの本体ブロックに供給すると分配されます
-gt.blockmachines.multimachine.ig.elevator.desc6=§dモーター MK-III§7から拡張可能で、最大§a24§7個のモジュールで構造体を拡張できます
-gt.blockmachines.multimachine.ig.elevator.desc7=最大モジュール数は§aMK-I§7/§9MK-II§7/§dMK-III§7/§6MK-IV§7/§cMK-V§7 モーターでそれぞれ§a6§7/§912§7/§d15§7/§618§7/§c24§7 個です
-gt.blockmachines.multimachine.ig.elevator.desc8=この本体ブロックを無効化すると全てのモジュールが停止します
 gt.blockmachines.multimachine.ig.elevator.lore0=10:宇宙へ上昇
 gt.blockmachines.multimachine.ig.elevator.lore1=10:宇宙の好きなところってなに？私は宇宙なところ。
 gt.blockmachines.multimachine.ig.elevator.lore2=10:全てのVMを失業させる
@@ -254,20 +248,12 @@ gt.blockmachines.multimachine.project.ig.motorT5=動作には§cモーター MK-
 gt.blockmachines.multimachine.project.ig.assembler.t1.name=宇宙組立モジュール MK-I
 gt.blockmachines.multimachine.project.ig.assembler.t2.name=宇宙組立モジュール MK-II
 gt.blockmachines.multimachine.project.ig.assembler.t3.name=宇宙組立モジュール MK-III
-gt.blockmachines.multimachine.project.ig.assembler.desc0=宇宙エレベーターに宇宙組立機を追加するモジュール
-gt.blockmachines.multimachine.project.ig.assembler.t1.desc1=なんでまた宇宙で組み立てしなきゃいけないんだ？
-gt.blockmachines.multimachine.project.ig.assembler.t2.desc1=これは本当に必要なのか？
-gt.blockmachines.multimachine.project.ig.assembler.t3.desc1=それを私たちが知ることはないだろう。
-gt.blockmachines.multimachine.project.ig.assembler.t1.desc2=UHVで最大 §64§7 の並列処理を行います
-gt.blockmachines.multimachine.project.ig.assembler.t2.desc2=UIVで処理速度が§a150%§7向上し、最大 §616§7 の並列処理を行います
-gt.blockmachines.multimachine.project.ig.assembler.t3.desc2=UXVで処理速度が§a200%§7向上し、最大 §664§7 の並列処理を行います
 gt.blockmachines.multimachine.project.ig.assembler.cfgi.0=最大並列処理数
 
 # Module Miner
 gt.blockmachines.multimachine.project.ig.miner.t1.name=宇宙採掘モジュール MK-I
 gt.blockmachines.multimachine.project.ig.miner.t2.name=宇宙採掘モジュール MK-II
 gt.blockmachines.multimachine.project.ig.miner.t3.name=宇宙採掘モジュール MK-III
-gt.blockmachines.multimachine.project.ig.miner.desc0=宇宙エレベーターに宇宙採掘機能を追加するモジュール
 gt.blockmachines.multimachine.project.ig.miner.cfgi.0=距離
 gt.blockmachines.multimachine.project.ig.miner.cfgi.1=最大並列処理数
 gt.blockmachines.multimachine.project.ig.miner.cfgi.2=オーバードライブ
@@ -277,18 +263,6 @@ gt.blockmachines.multimachine.project.ig.miner.cfgi.4.2=Cycle
 gt.blockmachines.multimachine.project.ig.miner.cfgi.5=Range
 gt.blockmachines.multimachine.project.ig.miner.cfgi.6=Step
 gt.blockmachines.multimachine.project.ig.cfgo.0=蓄電量
-gt.blockmachines.multimachine.project.ig.miner.t1.desc1=想像を超える大いなる宝が待っている！
-gt.blockmachines.multimachine.project.ig.miner.t2.desc1=これドローンの権利の侵害になるかな？
-gt.blockmachines.multimachine.project.ig.miner.t3.desc1=これ絶対にドローンの権利侵害だよね。
-gt.blockmachines.multimachine.project.ig.miner.desc3=稼働にはプラズマが必要です (§e825L ヘリウム §7/ §3550L ビスマス §7/ §9375L ラドン §7/ §f250L テクネチウム §7/ §c150L プルトニウム241§7)。
-gt.blockmachines.multimachine.project.ig.miner.desc4=高Tierのプラズマほど大きい小惑星を採掘する可能性が高まり、採掘時間が改善されます。
-gt.blockmachines.multimachine.project.ig.miner.desc5=動作には計算回数の供給が必要です
-gt.blockmachines.multimachine.project.ig.miner.desc5.1=計算回数は並列処理毎に消費されます
-gt.blockmachines.multimachine.project.ig.miner.desc5.2=採掘ドローンは通常の入力バスに配置する必要があります (接続バス・ストッキングバスは不可)
-gt.blockmachines.multimachine.project.ig.miner.t1.desc5=UVで最大 §a2§7 の並列処理を行います
-gt.blockmachines.multimachine.project.ig.miner.t2.desc5=UHVで最大 §a4§7 の並列処理を行います
-gt.blockmachines.multimachine.project.ig.miner.t3.desc5=UEVで最大 §a8§7 の並列処理を行います
-gt.blockmachines.multimachine.project.ig.miner.desc6=入力バスに鉱石を配置することでブラック/ホワイトリスト登録ができます
 gt.blockmachines.multimachine.project.ig.miner.activedronetiers=有効なドローンのTier
 gt.blockmachines.multimachine.project.ig.miner.asteroidsummaries.0=現在の距離とドローンで対応可能な小惑星
 gt.blockmachines.multimachine.project.ig.miner.asteroidchance=稼働
@@ -299,16 +273,6 @@ gt.blockmachines.multimachine.project.ig.miner.asteroidmaxparallels=最大
 gt.blockmachines.multimachine.project.ig.pump.t1.name=宇宙ポンプモジュール MK-I
 gt.blockmachines.multimachine.project.ig.pump.t2.name=宇宙ポンプモジュール MK-II
 gt.blockmachines.multimachine.project.ig.pump.t3.name=宇宙ポンプモジュール MK-III
-gt.blockmachines.multimachine.project.ig.pump.desc0=宇宙エレベーターに宇宙ポンプ機能を追加するモジュール
-gt.blockmachines.multimachine.project.ig.pump.t1.desc1=ガス惑星全体の吸い上げがこれまでになく簡単に
-gt.blockmachines.multimachine.project.ig.pump.t2.desc1=文字通り吸い上げ
-gt.blockmachines.multimachine.project.ig.pump.t3.desc1=S U C C
-gt.blockmachines.multimachine.project.ig.pump.desc3=惑星とガスの種類を設定して汲み上げる流体を決定します
-gt.blockmachines.multimachine.project.ig.pump.desc4=出力ハッチをロックすることで消去を防止できます
-gt.blockmachines.multimachine.project.ig.pump.t1.desc5=UHVで最大 §a4§7 の並列処理を行います
-gt.blockmachines.multimachine.project.ig.pump.t2.desc5=UEVで各レシピ毎に最大 §a4§7 の並列処理を行います
-gt.blockmachines.multimachine.project.ig.pump.t3.desc5=UXVで各レシピ毎に最大 §a64§7 の並列処理を行います
-gt.blockmachines.multimachine.project.ig.pump.t2.desc6=一度に最大§a4§7種類のレシピを処理します
 gt.blockmachines.multimachine.project.ig.pump.cfgi.0=惑星の種類
 gt.blockmachines.multimachine.project.ig.pump.cfgi.1=気体の種類
 gt.blockmachines.multimachine.project.ig.pump.cfgi.2=並列処理数
@@ -317,13 +281,9 @@ gt.blockmachines.multimachine.project.ig.pump.cfgi.recipe=Recipe %d
 
 # Module Manager
 gt.blockmachines.multimachine.project.ig.manager.t1.name=宇宙プロジェクトマネージャー
-gt.blockmachines.multimachine.project.ig.manager.desc0=宇宙プロジェクトの管理が可能になるモジュール
-gt.blockmachines.multimachine.project.ig.manager.desc1=最初の一歩
 
 # Module Research
 gt.blockmachines.multimachine.project.ig.research.t1.name=宇宙研究モジュール
-gt.blockmachines.multimachine.project.ig.research.desc0=天体の研究が可能になるモジュール
-gt.blockmachines.multimachine.project.ig.research.desc1=太陽を直接見ないで
 
 # RecipeMaps
 gt.recipe.spaceMining=宇宙採掘
@@ -369,6 +329,7 @@ ig.elevator.structure.DataInputHatch=光学受信コネクター
 ig.elevator.structure.AnyBaseCasingWithHintNumber1=任意の宇宙エレベーター用ベース外装 (ヒント 1)
 ig.elevator.structure.AnyBaseCasingWithHintNumber2=任意の宇宙エレベーター用ベース外装 (ヒント 2)
 ig.elevator.structure.AnyBaseCasingWithHintNumber3=任意の宇宙エレベーター用ベース外装 (ヒント 3)
+ig.elevator.structure.SwitchToExtended=Switch to extended in the controller
 ig.elevator.structure.SharedPower=Receives power from the base structure
 ig.elevator.structure.SharedResources=Receives power, plasma, and computation from the base structure
 ig.structure.contributors=貢献者
@@ -378,6 +339,11 @@ ig.structure.specialThanks=スペシャルサンクス
 ig.structure.author=制作者:
 ig.structure.and= と 
 
+ig.dyson.structure.controller=Front bottom center of receiver, 2nd layer
+ig.dyson.structure.control.any_casing=Any center side casing on control center
+ig.dyson.structure.receiver.any_casing=Any center side casing on receiver
+ig.dyson.structure.deployment.any_casing=Any center side casing on deployment unit
+ig.dyson.structure.air=All eight layers above the receiver dish
 ig.dyson.structure.dynamo=通常/複数アンペアダイナモハッチ、レーザーソースハッチをどれでも使用可能 (1 - 12)
 ig.dyson.structure.optical=光学受信コネクター
 ig.dyson.structure.additionally=追加で必要:
