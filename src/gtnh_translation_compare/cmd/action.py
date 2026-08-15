@@ -279,6 +279,11 @@ class Action:
         relpath = get_relpath(settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH)
         write_file(os.path.abspath(relpath), ctt_content)
 
+        # Pack-side lang file, not shipped in any mod jar, so it has to be fetched separately
+        override_names_content = _download_from_gtnh(settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH)
+        relpath = get_relpath(settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH)
+        write_file(os.path.abspath(relpath), override_names_content)
+
         git_commit(
             str(repo_path),
             [str(base_path)],
@@ -342,6 +347,7 @@ class Action:
         for pack_relpath in (
             settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH,
             settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH,
+            settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH,
         ):
             if pack_relpath in changed_relpaths:
                 await self._pack_lang_file_to_paratranz(base_path, pack_relpath)
@@ -385,6 +391,7 @@ class Action:
         base_path: Path = repo_path / subdirectory
         await self._pack_lang_file_to_paratranz(base_path, settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH)
         await self._pack_lang_file_to_paratranz(base_path, settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH)
+        await self._pack_lang_file_to_paratranz(base_path, settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH)
 
         lang_files = []
         for file_path in glob.glob(f'./{base_path}/resources/*/lang/en_US.lang'):
