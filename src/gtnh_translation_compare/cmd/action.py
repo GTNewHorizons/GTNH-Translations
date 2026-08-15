@@ -456,7 +456,6 @@ class Action:
         jar_files: Sequence[Filetype] = modpack.lang_files(settings.TARGET_LANG)
         logger.info(f"There are {len(jar_files)} existing translations in mod jars")
         all_paratranz_files = await self.client.get_all_files()
-        count = 1
 
         def prepare_string_to_upload(string_item: StringItem) -> bool:
             jar_translation = jar_lang_file.properties.get(string_item.key)
@@ -471,12 +470,14 @@ class Action:
             # updated since the creation of the translation file and the script wrongly guesses it's legit translation.
             return False
 
-        for jar_lang_file in jar_files:
+        for count, jar_lang_file in enumerate(jar_files, 1):
             matched_paratranz_files = list(filter(lambda f: f.name.removesuffix(".json") == jar_lang_file.relpath, all_paratranz_files))
             if len(matched_paratranz_files) > 1:
                 raise RuntimeError(f"There're multiple matching files, this shouldn't happen! {jar_lang_file.relpath}")
             if len(matched_paratranz_files) == 0:
-                raise RuntimeError(f"No file matched, maybe you didn't sync files to ParaTraz? {jar_lang_file.relpath}")
+                # Not every mod in the modpack is tracked on ParaTranz, so a missing file is expected
+                logger.warning(f"No file matched on ParaTranz, skipping: {jar_lang_file.relpath}")
+                continue
             matched_paratranz_file = matched_paratranz_files[0]
             paratranz_string_list = await self.client.get_strings(matched_paratranz_file.id)
 
@@ -494,10 +495,6 @@ class Action:
             else:
                 await self.client.upload_strings(new_string_list)
                 logger.info(f"Uploaded {jar_lang_file.relpath}!")
-
-            count += 1
-            if count > len(jar_files):
-                break
 
     def upload_jar_translations(self, modpack_path: str, interactive: bool = True) -> None:
         asyncio.run(self._upload_jar_translations(Path(modpack_path), interactive))
