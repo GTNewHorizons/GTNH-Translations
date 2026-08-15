@@ -1,4 +1,4 @@
-Module that adds the Space Assembler to the Space Elevator
-§d§lI guess we'll never know.
-Runs at UXV at §a200%§7 speed with up to §664§7 parallels
+Модуль, добавляющий космический сборщик к космическому лифту
+§d§lЯ предполагаю, мы никогда не узнаем.
+Работает в UXV со скоростью §a200%§7 до §664§7 параллелей
 {lang:gt.blockmachines.multimachine.project.ig.motorT5}

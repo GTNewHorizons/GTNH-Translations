@@ -1,8 +1,8 @@
-Module that adds Space Pumping Operations to the Space Elevator
-§d§lS U C C
+Модуль, добавляющий Космические насосные операции к космическому лифту
+§d§lС О С Ё Т
 {lang:gt.blockmachines.multimachine.project.ig.desc2}
-Set Planet and Gas Type determine pumped fluid
-Can be void protected by locking output hatches
-Runs at UXV with up to §a64 §7parallels per recipe
-Processes up to §a4 §7different recipes at once
+Установите Планету и Тип газа, чтобы определить перекачиваемую жидкость
+Может быть защищен от войда путём блокировки выходных люков
+Работает в UXV до §a64 §7параллелей на рецепт
+Обрабатывает до §a4 §7различных рецептов одновременно
 {lang:gt.blockmachines.multimachine.project.ig.motorT4}

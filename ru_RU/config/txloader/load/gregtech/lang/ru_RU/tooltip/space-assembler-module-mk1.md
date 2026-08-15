@@ -1,4 +1,4 @@
-Module that adds the Space Assembler to the Space Elevator
-§d§lWhy do I need to assemble stuff in space again?
-Runs at UHV with up to §64§7 parallels
+Модуль, добавляющий космический сборщик к космическому лифту
+§d§lПочему мне снова нужно собирать вещи в космосе?
+Работает в UHV до §64§7 параллелей
 {lang:gt.blockmachines.multimachine.project.ig.motorT1}

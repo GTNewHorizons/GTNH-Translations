@@ -1,7 +1,7 @@
-Module that adds Space Pumping Operations to the Space Elevator
-§d§lSucking up entire gas planets was never easier
+Модуль, добавляющий Космические насосные операции к космическому лифту
+§d§lВсасывание целых газовых планет никогда не было таким простым
 {lang:gt.blockmachines.multimachine.project.ig.desc2}
-Set Planet and Gas Type determine pumped fluid
-Can be void protected by locking output hatches
-Runs at UHV with up to §a4 §7parallels
+Установите Планету и Тип газа, чтобы определить перекачиваемую жидкость
+Может быть защищен от войда путём блокировки выходных люков
+Работает в UHV до §a4 §7параллелей
 {lang:gt.blockmachines.multimachine.project.ig.motorT2}

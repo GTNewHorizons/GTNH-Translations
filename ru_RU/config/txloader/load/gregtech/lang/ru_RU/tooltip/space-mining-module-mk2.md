@@ -1,11 +1,11 @@
-Module that adds Space Mining Operations to the Space Elevator
-§d§lDoes this violate drone rights?
+Модуль, добавляющий Космические шахтерские операции к космическому лифту
+§d§lНарушает ли это права владельцев дронов?
 {lang:gt.blockmachines.multimachine.project.ig.desc2}
-Requires a plasma to operate (§e825L Helium §7/ §3550L Bismuth §7/ §9375L Radon §7/ §f250L Technetium §7/ §c150L Plutonium 241§7).
-Higher tier plasmas increase the chances of mining bigger asteroids, and improves mining operation time.
-Needs to be fed with computation to work.
-Computation is consumed per parallel
-Mining Drones must be placed in a regular input bus (neither linked nor stocking bus).
-Runs at UHV with up to §a4§7 parallels
+Для работы требуется плазма (§e825L Гелий§7 / §3550L Висмут§7 / §9375L Радон§7 / §f250L Технеций§7 / §c150L Плутоний-241§7).
+Более высокий тир плазмы увеличивает шансы добычи более крупных астероидов и сокращает время добычи.
+Для работы требуется подавать вычисления.
+Вычисления расходуются за параллель
+Шахтёрские дроны необходимо поместить в обычный входной люк (не связанный и не входной люк снабжения).
+Работает в UHV до §a4§7 параллелей
 {lang:gt.blockmachines.multimachine.project.ig.motorT2}
-Ores can be black-/whitelisted by putting them in an input bus
+Руды можно занести в чёрный/белый список, поместив их во входной люк
