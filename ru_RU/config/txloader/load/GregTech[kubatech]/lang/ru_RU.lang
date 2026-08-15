@@ -28,13 +28,13 @@ kubatech.command.tea.success_add=Игрок %s теперь имеет %d Чай
 kubatech.command.tea.usage=<username> get/set/add (<amount>)
 
 #GUI
-GT5U.gui.text.recipe_result.EEC_nospawner=No powered spawner!
-GT5U.gui.text.recipe_result.EEC_invalidspawner=Invalid spawner!
-GT5U.gui.text.recipe_result.EEC_peaceful=Inserted mob cannot spawn on peaceful mode!
+GT5U.gui.text.recipe_result.EEC_nospawner=Нет электрического спаунера!
+GT5U.gui.text.recipe_result.EEC_invalidspawner=Неверный спаунер!
+GT5U.gui.text.recipe_result.EEC_peaceful=Вставленный моб не может заспавнится в мирном режиме!
 GT5U.gui.text.recipe_result.MegaApiary_slotoverflow=Слишком много пчёл внутри!
 GT5U.gui.text.MegaApiary_noflowers=Отсутствуют цветы!
-GT5U.gui.text.recipe_result.EIG_slotoverflow=Too many seed types inside!
-GT5U.gui.text.recipe_result.EIG_seedOverflow=Too many seeds inside!
+GT5U.gui.text.recipe_result.EIG_slotoverflow=Внутри слишком много видов семян!
+GT5U.gui.text.recipe_result.EIG_seedOverflow=Внутри слишком много семян!
 GT5U.gui.text.recipe_result.EIG_missingwater=Нет воды!
 GT5U.gui.text.EIG_ic2glass=Недостаточный тир стекла!
 
@@ -115,9 +115,9 @@ kubatech.gui.text.electrode_detector.percentage=§8Durability percentage
 kubatech.chat.forbidden_while_running=Нельзя изменить режим во время работы!
 kubatech.chat.mode.generic=Сейчас работает в режиме: %s
 
-kubatech.arcfurnace.mode.normal=Normal
-kubatech.arcfurnace.mode.blast=Blast
-kubatech.arcfurnace.mode.ore=Ore
+kubatech.arcfurnace.mode.normal=Обычный
+kubatech.arcfurnace.mode.blast=Доменный
+kubatech.arcfurnace.mode.ore=Рудный
 
 kubatech.chat.eec.ritual_mode_enabled=Режим ритуала включен
 kubatech.chat.eec.ritual_mode_disabled=Режим ритуала отключён
@@ -182,7 +182,7 @@ kubatech.infodata.mia.gui_locked_while_running=Cannot modify bee inventory via G
 kubatech.infodata.htgr.stored_fuel=§fХранящееся топливо:
 kubatech.infodata.htgr.stored_fuel_entry=§f- §b%s §fx §6%s (%s, %s, %s)
 kubatech.infodata.htgr.burned_fuel=§fСгоревшее топливо:
-kubatech.infodata.htgr.burned_fuel_entry=§f- §b%s §fx §6%s%% to output
+kubatech.infodata.htgr.burned_fuel_entry=§f- §b%s §fx §6%s%% на выходе
 kubatech.infodata.htgr.helium_supply=§fПоставка гелия: §6%sЛ
 kubatech.infodata.htgr.coolant_per_tick=§fХладагента за тик: §6%sЛ
 kubatech.infodata.htgr.water_per_tick=§fВоды за тик: §6%sЛ
@@ -354,21 +354,21 @@ defc.casing.10.name=Виверновый термоядерный корпус
 defc.casing.11.name=Термоядерный корпус из пробуждённого дракония
 defc.casing.12.name=Хаотический термоядерный корпус
 
-kubatech.multiblock.DEFusionCrafter.machine_type=Fusion Crafter, DEFC
+kubatech.multiblock.DEFusionCrafter.machine_type=Термоядерный крафтер, DEFC
 kubatech.multiblock.DEFusionCrafter.fusion_casing=Термоядерный корпус
 kubatech.multiblock.DEFusionCrafter.fusion_machine_casing=Корпус термоядерного реактора
-kubatech.multiblock.DEFusionCrafter.footer=§cThe primordial pearl is consumed in the controller recipe!
+kubatech.multiblock.DEFusionCrafter.footer=§cИзначальная жемчужина расходуется в рецепте контроллера!
 
 kubatech.multiblock.ExtremeEntityCrusher.machine_type=Электрический спаунер, EEC
-kubatech.multiblock.ExtremeEntityCrusher.steel_frame_box=Steel Frame Box
+kubatech.multiblock.ExtremeEntityCrusher.steel_frame_box=Стальной каркас
 kubatech.multiblock.ExtremeEntityCrusher.diamond_spike=Алмазный шип
 
 kubatech.multiblock.ExtremeIndustrialGreenhouse.machine_type=Ферма зерновых, EIG
 kubatech.multiblock.ExtremeIndustrialGreenhouse.sterile_farm_casing=Корпус стерильной фермы
 kubatech.multiblock.ExtremeIndustrialGreenhouse.frame_box=Каркас из вольфрамовой стали
-kubatech.multiblock.ExtremeIndustrialGreenhouse.fertilized_dirt=Fertilized Dirt (RandomThings)
-kubatech.multiblock.ExtremeIndustrialGreenhouse.purple_lamp=Purple Lamp (ProjectRed Illumination, regular or inverted)
-kubatech.multiblock.ExtremeIndustrialGreenhouse.footer=The dirt is tilled and the water is spawned for free once formed
+kubatech.multiblock.ExtremeIndustrialGreenhouse.fertilized_dirt=Удобренная земля (RandomThings)
+kubatech.multiblock.ExtremeIndustrialGreenhouse.purple_lamp=Фиолетовая лампа (ProjectRed Illumination, обычная или инвертированная)
+kubatech.multiblock.ExtremeIndustrialGreenhouse.footer=Земля вспахивается, а вода появляется бесплатно после формирования структуры
 
 
 kubatech.multiblock.MegaIndustrialApiary.machine_type=Мега-пасека. (Mapiary)
