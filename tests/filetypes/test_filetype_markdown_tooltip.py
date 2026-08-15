@@ -47,14 +47,14 @@ def test__get_properties(
     en_us_filetype_markdown_tooltip: FiletypeMarkdownTooltip,
     ru_ru_filetype_markdown_tooltip: FiletypeMarkdownTooltip,
 ) -> None:
-    # The whole file is a single translation unit, keyed by its own relpath.
+    # The whole file is a single translation unit, keyed by its en_US relpath so that a translated
+    # file produces the same key as the English one it belongs to.
     key = f"md-tooltip|{EN_US_RELPATH}"
     assert en_us_filetype_markdown_tooltip.properties == {
         key: Property(key, EN_US_CONTENT, EN_US_CONTENT, 0, len(EN_US_CONTENT)),
     }
-    ru_key = f"md-tooltip|{RU_RU_RELPATH}"
     assert ru_ru_filetype_markdown_tooltip.properties == {
-        ru_key: Property(ru_key, RU_RU_CONTENT, RU_RU_CONTENT, 0, len(RU_RU_CONTENT)),
+        key: Property(key, RU_RU_CONTENT, RU_RU_CONTENT, 0, len(RU_RU_CONTENT)),
     }
 
 
