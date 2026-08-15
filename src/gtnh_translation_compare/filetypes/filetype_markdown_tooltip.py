@@ -48,7 +48,9 @@ class FiletypeMarkdownTooltip(Filetype):
     def _get_properties(self, content: str) -> Dict[str, Property]:
         if content == "":
             return {}
-        key = f"md-tooltip|{self._relpath}"
+        # The key must be language-independent: ParaTranz stores it built from the en_US path, so a
+        # translated file has to produce the same key for its content to be matched against it.
+        key = f"md-tooltip|{self.get_en_us_relpath()}"
         return {key: Property(key=key, value=content, full=content, start=0, end=len(content))}
 
     def get_en_us_relpath(self) -> str:
