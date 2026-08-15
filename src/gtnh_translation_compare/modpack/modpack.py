@@ -28,11 +28,13 @@ class ModPack:
                 for filename, content in mod.lang_files(language).items():
                     sub_mod_id = filename.split("/")[1]
                     filename = path.join(*filename.split("/")[2:])
-                    lang_files.append(FiletypeLang(f"resources/{mod.mod_name}[{sub_mod_id}]/{filename}", content))
+                    lang_files.append(
+                        FiletypeLang(f"resources/{mod.mod_name}[{sub_mod_id}]/{filename}", content, language)
+                    )
                 for filename, content in mod.markdown_tooltip_files(language).items():
                     sub_mod_id = filename.split("/")[1]
                     filename = path.join(*filename.split("/")[2:])
                     lang_files.append(
-                        FiletypeMarkdownTooltip(f"resources/{mod.mod_name}[{sub_mod_id}]/{filename}", content)
+                        FiletypeMarkdownTooltip(f"resources/{mod.mod_name}[{sub_mod_id}]/{filename}", content, language)
                     )
         return lang_files
