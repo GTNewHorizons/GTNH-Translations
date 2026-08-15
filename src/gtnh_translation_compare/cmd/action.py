@@ -97,10 +97,22 @@ class Action:
         # Dedupe by the local path the file will actually be written to, not the raw
         # ParaTranz relpath: ParaTranz-side duplicate names (e.g. "Foo (+3)") and casing
         # differences only collapse to the same path once path_converter has run.
+        resource_file_map: Dict[str, tuple[bool, TranslationFile]] = {}
+        remainder_files: list[TranslationFile] = []
         for translation_file in translation_files:
-            translation_file.relpath = str(
-                path_converter(translation_file.relpath) if path_converter is not None else translation_file.relpath
-            )
+            if path_converter is _resources_to_txloader_path:
+                isCanonical, path = _resources_to_txloader_path_internal(translation_file.relpath)
+                translation_file.relpath = str(path)
+                if isCanonical:
+                    resource_file_map[translation_file.relpath] = (isCanonical, translation_file)
+                elif translation_file.relpath not in resource_file_map or not resource_file_map[translation_file.relpath][0]:
+                    resource_file_map[translation_file.relpath] = (isCanonical, translation_file)
+            else:
+                translation_file.relpath = str(
+                    path_converter(translation_file.relpath) if path_converter is not None else translation_file.relpath
+                )
+                remainder_files.append(translation_file)
+        translation_files = [file for _, file in resource_file_map.values()] + remainder_files
         translation_files = _dedupe_case_insensitive_paths(translation_files)
 
         for translation_file in translation_files:
@@ -587,9 +599,13 @@ def is_mod_lang_file(name: str) -> bool:
 
 
 def _resources_to_txloader_path(path: str) -> Path:
+    return _resources_to_txloader_path_internal(path)[1]
+
+def _resources_to_txloader_path_internal(path: str) -> tuple[bool, Path]:
     # Existing projects use resource folder on PT
     cfg = Path("config")
     provided = Path(path)
+    isCanonical = True
     if provided.parts and provided.parts[0] == "config":
         logger.info(f"Skip normalizing path for {path}")
     elif provided.parts and provided.parts[0] == "resources":
@@ -597,13 +613,14 @@ def _resources_to_txloader_path(path: str) -> Path:
         for i in range(len(parts)):
             result = re.sub(r"\(\+\d+\)", "", parts[i])
             if result != parts[i]:
+                isCanonical = False
                 logger.warning(f"Trimmed path for {parts[i]}")
                 parts[i] = result
         provided = cfg / "txloader" / "load" / Path(*parts[1:])
     else:
         logger.warning(f"Unknown path {path}")
         provided = cfg / "txloader" / "load" / provided
-    return provided
+    return (isCanonical, provided)
 
 
 MOD_DOMAIN_RE = re.compile(r"\[([^\[\]]+)\]$")
