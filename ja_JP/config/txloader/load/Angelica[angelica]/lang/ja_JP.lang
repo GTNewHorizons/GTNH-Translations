@@ -265,7 +265,7 @@ options.angelica.texteffects.ampersand_conversion=アンパサンドの変換
 options.angelica.texteffects.ampersand_conversion.tooltip=レンダリング時にプレフィックスコードをフォーマットコードに変換します
 
 sodium.options.multidraw_mode.name=マルチドローのモード
-sodium.options.multidraw_mode.tooltip=地形の描画において描画コマンドのディスパッチをどのように行うか制御します。§l直接§rではglMultiDrawElementsBaseVertexを使用します(デフォルト、GL 3.2+)。§l間接§rではGPU間接レンダリング(GL 4.3+)を使用し、一部ハードウェアにおいてCPUのオーバーヘッドを低減する可能性があります。§l個別§rでは個別のドローコールを送信します。
+sodium.options.multidraw_mode.tooltip=Controls how draw commands are dispatched for terrain rendering. §lDirect§r uses glMultiDrawElementsBaseVertex (default, GL 3.2+). §lIndirect§r uses GPU indirect rendering (GL 4.3+), may reduce CPU overhead on some hardware, and is required for GPU / Hi-Z culling. §lIndividual§r issues individual draw calls.
 sodium.options.multidraw_mode.direct=直接
 sodium.options.multidraw_mode.indirect=間接
 sodium.options.multidraw_mode.individual=個別
