@@ -10,7 +10,7 @@ itemGroup.MiscUtilBOP=[GT++] Biomes O'Plenty
 # Debug
 item.AAA_Broken.name=[Несуществующий предмет] Сообщите об этом рецепте на GitHub, пожалуйста.
 item.itemBedLocator_Base.name=Локатор кровати [NBT Test]
-item.itemBaseItemWithCharge.name=Base Chargeable Item
+item.itemBaseItemWithCharge.name=Базовый заряжаемый предмет
 item.miscutils_itemDebugShapeSpawner.name=[Отладка] Формы
 
 # Fluids
@@ -39,7 +39,7 @@ entity.constructStaballoy.name=Стабаллой голем
 entity.sickBlaze.name=Заражённый фанатик
 
 # Tile Entities
-tile.blockToolBuilder.name=GregTech Tool Constructor
+tile.blockToolBuilder.name=Конструктор инструментов GregTech
 tile.blockEggBox.name=Ящик для яиц
 tile.blockCircuitProgrammer.name=Программатор
 tile.blockDecayablesChest.name=Ящик со свинцовым покрытием
@@ -78,18 +78,18 @@ tile.miscutils.fluid.ender.name=Резонирующий эндер
 # --------------
 
 # Forestry Stuff
-item.frameAccelerated.name=Accelerated Frame
+item.frameAccelerated.name=Ускоряющая рамка
 item.frameVoid.name=Пустотная рамка
 item.frameMutagenic.name=Мутагенная рамка
 item.frameBusy.name=Рабочая рамка
 item.frameChocolate.name=Шоколадная рамка
-item.frameRestraint.name=Restraining Frame
+item.frameRestraint.name=Сдерживающая рамка
 item.frameSoul.name=Душевная рамка
 item.frameHealing.name=Исцеляющая рамка
 item.frameNova.name=Рамка Нова
 item.frameArborists.name=Рамка лесовода
 item.frameDecaying.name=Разлагающаяся рамка
-item.frameSlowing.name=Slowing Frame
+item.frameSlowing.name=Замедляющая рамка
 item.frameStabilizing.name=Стабилизирующая рамка
 item.frameUseless.name=Бесполезная рамка
 
@@ -121,7 +121,7 @@ item.itemPLACEHOLDER_Circuit.name=Кварк манипулятор (UV)
 item.itemPlateEnrichedSoularium.name=Пластина из обогащённого призрачного сплава
 item.itemHeliumBlob.name=Таинственная водородная субстанция
 item.itemAlkalusDisk.name=Alkalus диск
-item.dummyResearch.name=Dummy Research
+item.dummyResearch.name=Фиктивное исследование
 item.item.empty.name=Пусто
 item.itemGenericToken.name=Биткойн
 item.MiscUtils.bucket.name=Ведро
@@ -208,7 +208,7 @@ item.itemCoalCoke.name=Коксующийся уголь
 item.itemHydrogenBlob.name=Таинственный водородный сгусток
 
 # Normal Items
-item.itemSimpleFiremaker.name=Basic Firemaker
+item.itemSimpleFiremaker.name=Базовое зажигало
 item.itemFiber.name=Растительное волокно
 item.itemRope.name=Веревка
 item.backpackRed.name=Красный рюкзак
@@ -246,16 +246,16 @@ item.itemDehydratorCoilWire.name=Провод катушки [%s]
 item.itemDehydratorCoil.name=Катушка дегидратора [%s]
 item.itemLavaFilter.name=Лавовый фильтр
 item.itemLavaFilter.tooltip=Фильтрует лаву в Тепловом бойлере.
-item.itemGrindleTablet.name=Grindle
+item.itemGrindleTablet.name=Точильная плита
 item.itemGrindleTablet.tooltip=Используется для чтения данных с Флешек и Сфер данных.
 item.itemDragonJar.0.name=Банка для поимки дракона
-item.itemDragonJar.0.tooltip=Does not contain anything.
+item.itemDragonJar.0.tooltip=Ничего не содержит.
 item.itemDragonJar.1.name=Банка с пойманным драконом
 item.itemDragonJar.1.tooltip=Содержит %s.
 item.itemControlCore.name=Ядро управления [%s]
 item.itemControlCore.tooltip.0=Позволяет мультиблоку функционировать до %s
-item.itemControlCore.tooltip.1=Required Tier is determined by the sum of the eu/t of all Energy Inputs
-item.itemControlCore.tooltip.2=Lower tiers may be used to underclock, which is useful in some situations
+item.itemControlCore.tooltip.1=Требуемый тир определяется суммой EU/t всех энерговводов
+item.itemControlCore.tooltip.2=Ядра более низкого тира могут быть использованы для понижения частоты, что полезно в некоторых ситуациях
 item.thekeytothecity.tooltip.0=Вы чувствуете себя на вершине мира.
 item.thekeytothecity.tooltip.1=Носите его на шее как амулет.
 
@@ -1588,7 +1588,7 @@ item.itemDustLi2BeF4.name=Пыль топливной смеси Li2BeF4
 item.itemDustSmallLi2BeF4.name=Маленькая кучка пыли топливной смеси Li2BeF4
 item.itemDustTinyLi2BeF4.name=Крошечная кучка пыли топливной смеси Li2BeF4
 item.Li2BeF4.name=Капсула топливной смеси Li2BeF4
-item.itemCircuitLFTR.name=§aControl Circuit
+item.itemCircuitLFTR.name=§aСхема управления
 item.itemZirconiumPellet.name=Циркониевая пеллета [ZrCl₄]
 item.itemDustZrCl4.name=Пыль тетрахлорида циркония
 item.itemDustSmallZrCl4.name=Маленькая кучка пыли тетрахлорида циркония
@@ -1596,11 +1596,11 @@ item.itemDustTinyZrCl4.name=Крошечная кучка пыли тетрах�
 item.itemDustCookedZrCl4.name=Пыль прокалённого тетрахлорида циркония
 item.itemDustSmallCookedZrCl4.name=Маленькая кучка пыли прокалённого тетрахлорида циркония
 item.itemDustTinyCookedZrCl4.name=Крошечная кучка пыли прокалённого тетрахлорида циркония
-item.itemCustomMetaCover.miscutils.GtMachineCasings=%s Machine Plate Cover
-item.itemCustomMetaCover.miscutils.GtMachineCasings.name=Machine Plate Cover
-item.itemGregtechPump.tooltip.0=Cannot drain any other standard fluid container block
-item.itemGregtechPump.tooltip.1=Cannot be emptied via RMB, use inside a tank with GUI
-item.itemGregtechPump.tooltip.2=This is technically just a fancy fluid cell
+item.itemCustomMetaCover.miscutils.GtMachineCasings=%s модуль-обшивка корпуса механизма
+item.itemCustomMetaCover.miscutils.GtMachineCasings.name=Модуль-обшивка корпуса механизма
+item.itemGregtechPump.tooltip.0=Нельзя выкачивать из других стандартных жидкостных контейнеров
+item.itemGregtechPump.tooltip.1=Нельзя опустошить через ПКМ, используйте внутри резервуара с GUI
+item.itemGregtechPump.tooltip.2=Технически это просто красивая жидкостная капсула
 item.itemGregtechPump.tooltip.3=Не содержит жидкость
 item.itemBaseEuItem.tooltip.0=§eЭлектрический
 item.itemBaseEuItem.tooltip.1=Содержит %s EU   Тир: %d
@@ -1802,7 +1802,7 @@ item.itemDustLithiumHydroperoxide.name=Пыль гидропероксида л�
 item.itemDustSmallLithiumHydroperoxide.name=Маленькая кучка пыли гидропероксида лития
 item.itemDustTinyLithiumHydroperoxide.name=Крошечная кучка пыли гидропероксида лития
 item.LithiumPeroxide.name=Капсула пероксида лития
-item.itemPotionChilly.name=Chilly Potion
+item.itemPotionChilly.name=Прохладное зелье
 item.itemKeyBig4000DC's.name=Большой ключ 4000DC's
 item.itemGemDull.name=Тусклый драгоценный камень
 item.itemMushroomForest.name=Лесной гриб
@@ -1841,13 +1841,13 @@ item.itemPlateBlutonium.name=Блутониевая пластина
 item.itemPlateCyanite.name=Цианитовая пластина
 item.itemPlateLudicrite.name=Лудикритовая пластина
 item.itemPlateVoid.name=Пластина из пустотного металла
-item.itemPlateDimensionShard.name=Dimensional Shard plate
+item.itemPlateDimensionShard.name=Пластина осколка измерения
 item.rfEUBattery.name=Универсальная заряжаемый аккумулятор
 item.rfEUBattery.tooltip.0=§eIC2/EU Информация§7)
 item.rfEUBattery.tooltip.1=§7Тир: [§e%d§7] Текущая энергия: [§e%d§7/EU]
 item.rfEUBattery.tooltip.2=§7Лимит передачи: [§e%d§7EU/t] Время работы: [§e%d§7s]
 item.rfEUBattery.tooltip.3=§cRF Информация§7
-item.rfEUBattery.tooltip.4=§7Extraction Rate: [§%d§7Rf/t] Insert Rate: [§c%d§7Rf/t]
+item.rfEUBattery.tooltip.4= §7Скорость извлечения: [§%d§7Rf/t] Скорость вставки: [§c%d§7Rf/t]
 item.rfEUBattery.tooltip.5=§7Текущий заряд: [§c%d§7Rf / %dRf] §c%.2f%%§7
 item.personalCloakingDevice.name=§9Личное маскировочное устройство§7
 item.personalCloakingDevice.tooltip.0=§aНосится как пояс в Baubles.§7
@@ -1858,9 +1858,9 @@ item.personalCloakingDevice.tooltip.4=§7Текущая энергия: [§e%d§
 item.personalCloakingDevice.tooltip.5=§7Осталось времени: [§e%d§7 секунд]
 item.personalHealingDevice.name=§9Персональный Наноускоритель исцеления§r
 item.SlowBuildingRing.name=§eКольцо медленного строительства§7
-item.SlowBuildingRing.tooltip.0=§aWorn as a Ring within Baubles. Prevents you from sprinting.§7
-item.SlowBuildingRing.tooltip.1=§aMovement speed reduced to crouch speed.§7
-item.SlowBuildingRing.tooltip.2=§aPress shift while worn to toggle crouch on/off.§7
+item.SlowBuildingRing.tooltip.0=§aНосится как кольцо в Baubles. Запрещает бег.§7
+item.SlowBuildingRing.tooltip.1=§aСкорость передвижения снижена.§7
+item.SlowBuildingRing.tooltip.2=§aНажмите Shift во время ношения, чтобы переключить режим.§7
 item.itemBufferCore1.name=Энергетическое ядро [ULV]
 item.itemBufferCore2.name=Энергетическое ядро [LV]
 item.itemBufferCore3.name=Энергетическое ядро [MV]
@@ -2183,7 +2183,7 @@ tile.OreFlorencite.name=Флоренситовая руда
 tile.OreCryoliteF.name=Криолитовая (F) руда
 
 # Misc
-tile.blockMFEffect.name=Special
+tile.blockMFEffect.name=Особый
 tile.fluidBlockSludge.name=Осадок
 tile.blockWorkbenchGT.name=Верстак
 tile.blockWorkbenchGTAdvanced.name=Улучшенный верстак
@@ -2191,7 +2191,7 @@ tile.blockHeliumGenerator.name=Гелиевый генератор
 tile.blockFirePit.name=Огненная яма
 tile.blockFishTrap.name=Рыболовная ловушка
 tile.blockInfiniteFluidTank.name=Бесконечный жидкостный резервуар
-tile.blockMiningExplosives.name=Mining Explosives
+tile.blockMiningExplosives.name=Шахтёрская взрывчатка
 tile.blockHellFire.name=Адский огонь
 tile.blockTradeBench.name=Торговый верстак
 tile.blockModularity.name=Модульный верстак
@@ -2231,10 +2231,10 @@ item.itemCellPolonium210.name=Капсула полония 210
 item.itemCellStrontium90.name=Капсула стронция-90
 item.itemCellPlutonium238.name=Капсула плутония-238
 
-entity.MiningCharge.name=Mining Charge
+entity.MiningCharge.name=Шахтёрский заряд
 entity.throwablePotionSulfuric.name=Колба с серной кислотой
 entity.throwablePotionHydrofluoric.name=Колба с плавиковой кислотой
-entity.toxinBall.name=Toxin globule
+entity.toxinBall.name=Токсичный шарик
 entity.plasmaBolt.name=Плазма
 entity.bigChickenFriendly.name=Гигантская курица
 
@@ -3420,12 +3420,12 @@ item.LiquidHydrogen.name=Капсула жидкого водорода [LOH]
 # Added 24/8/19
 # Debug Labels
 tile.blockDoorAlloy.name=Укреплённая дверь
-tile.blockInhibitorObelisk.name=Inhibitor Obelisk
+tile.blockInhibitorObelisk.name=Обелиск ингибитора
 tile.Battlesign.name=Боевая табличка
 tile.blockMagicBox.name=Магический ящик
-tile.blockManaPod.name=Mana Pod Stem
+tile.blockManaPod.name=Стебель стручка маны
 tile.buildToolBlock.name=Блок инструментов
-tile.blockRedPlasma.name=Red Plasma Block
+tile.blockRedPlasma.name=Блок красной плазмы
 tile.pipeBlock.name=Труба
 item.null.name=Null предмет сообщите об этом на GitHub
 
@@ -3801,7 +3801,7 @@ item.BasicGenericChemItem.13.name=Формальдегидный катализ�
 item.hydrogenchloridemix.name=Хлороводородная смесь
 
 # Added 19/01/22
-item.SunnariumBit.name=Sunnarium Bit
+item.SunnariumBit.name=Кусочек саннария
 
 # Added 29/01/22
 sleep.event.okay=Вы хорошо выспались и теперь чувствуете себя немного лучше.
@@ -3814,7 +3814,7 @@ item.miscutils:magicfeather.name=Волшебное перо
 item.BasicGenericChemItem.14.name=Твёрдо-кислотный катализатор
 
 # Added 30/05/22
-item.BasicGenericChemItem.15.name=Infinite Mutation Catalyst
+item.BasicGenericChemItem.15.name=Катализатор бесконечной мутации
 
 # Added 23/10/22
 miscutils.machines.QFTFluidMode=Квантовый силовой преобразователь - Режим вывода жидкости: %s
@@ -3823,16 +3823,16 @@ miscutils.machines.QFTFluidMode=Квантовый силовой преобра
 item.BasicGenericChemItem.16.name=Катализатор платиновой группы
 item.BasicGenericChemItem.17.name=Катализатор полимерного пластика
 item.BasicGenericChemItem.18.name=Катализатор полимерной резины
-item.BasicGenericChemItem.19.name=Adhesion Promoter Catalyst
+item.BasicGenericChemItem.19.name=Катализатор промотора адгезии
 item.BasicGenericChemItem.20.name=Тита-вольфрамо индиевый катализатор
 item.BasicGenericChemItem.21.name=Радиоактивный катализатор
 item.BasicGenericChemItem.22.name=Катализатор редкоземельной группы
 item.BasicGenericChemItem.23.name=Простой наквадаховый катализатор
 item.BasicGenericChemItem.24.name=Продвинутый наквадаховый катализатор
 item.BasicGenericChemItem.25.name=Катализатор сырого интеллекта
-item.BasicGenericChemItem.26.name=Ultimate Plasticizer Catalyst
+item.BasicGenericChemItem.26.name=Катализатор совершенного пластификатора 
 item.BasicGenericChemItem.27.name=Катализатор биологического интеллекта
-item.BasicGenericChemItem.28.name=Temporal Harmonizer Catalyst
+item.BasicGenericChemItem.28.name=Катализатор гармонизатора времени
 
 item.ItemCustomSpawnEgg.name=Призвать %s
 item.itemSimpleFiremaker.message.0=Вы разжигаете костер.
@@ -3844,7 +3844,7 @@ item.itemSimpleFiremaker.message.3=Ваша попытка ничего не д�
 item.BasicGenericChemItem.33.name=Катализатор стимулятора роста водорослей
 
 # Added 13/03/25
-item.BasicGenericChemItem.34.name=Hellish Force Catalyst
+item.BasicGenericChemItem.34.name=Катализатор адской силы
 item.BasicGenericChemItem.35.name=Кристаллический окрашенный катализатор
 
 # Added 13/03/26
@@ -3857,18 +3857,18 @@ gtpp.gui.config.general.machines=Механизмы
 gtpp.gui.config.general.gregtech=GregTech
 gtpp.gui.config.general.pollution=Загрязнение
 gtpp.gui.config.general.features=Особенности
-gtpp.gui.config.general.visual=Visual
-gtpp.gui.config.general.worldgen=Worldgen
+gtpp.gui.config.general.visual=Визуальные эффекты
+gtpp.gui.config.general.worldgen=Генерация мира
 gtpp.gui.config.asm=Конфигурация ASM
 gtpp.gui.config.asm.debug=Отладка
 gtpp.gui.config.asm.general=Общие
 
 # item tooltips
 gtpp.tooltip.ingot.very_hot=§7Предупреждение: §cОчень горячий!§7 Избегайте прямого контакта..
-gtpp.tooltip.tickable.decay_seconds=%d§7 seconds until decay
-gtpp.tooltip.ion_particles.state_not_set=A %s Ion with an §eUnknown§7 charge state
-gtpp.tooltip.ion_particles.charge_positive=A %s Ion with a §aPositive§7 charge state of %d
-gtpp.tooltip.ion_particles.charge_negative=A %s Ion with a §cNegative§7 charge state of %d
+gtpp.tooltip.tickable.decay_seconds=%d§7 секунд до распада
+gtpp.tooltip.ion_particles.state_not_set=Ион %s с §eнеизвестным§7 зарядом
+gtpp.tooltip.ion_particles.charge_positive=Ион %s с §aположительным§7 зарядом %d
+gtpp.tooltip.ion_particles.charge_negative=Ион %s с §cотрицательным§7 зарядом %d
 gtpp.tooltip.base_particles.type=Тип: %s
 gtpp.tooltip.base_particles.type.quark=Кварк
 gtpp.tooltip.base_particles.type.lepton=Лептон
@@ -3877,19 +3877,19 @@ gtpp.tooltip.base_particles.type.baryon=Барион
 gtpp.tooltip.base_particles.type.meson=Мезон
 gtpp.tooltip.base_particles.type.unknown=Неизвестная
 gtpp.tooltip.integrated_circuit.configuration=Конфигурация == %d\nПКМ переконфигурировать\nНужна отвёртка или инструмент для программирования
-gtpp.tooltip.scrubber_turbine.early_tier=An early tier Turbine for Atmospheric Reconditioning.
+gtpp.tooltip.scrubber_turbine.early_tier=Турбина раннего тира для восстановления атмосферы.
 gtpp.tooltip.scrubber_turbine.uses_left=%d/%d использований осталось.
-gtpp.tooltip.buffer_core.key_crafting_component=A key crafting component for %s Appliances
+gtpp.tooltip.buffer_core.key_crafting_component=Ключевой компонент для крафта %s приборов
 gtpp.tooltip.magic_feather.0=Не обязательно держать предмет в руке, чтобы он работал
 gtpp.tooltip.magic_feather.1=Необходимо находиться в пределах радиуса маяка
 gtpp.tooltip.magic_feather.2=Радиус составляет уровень маяка * 10 + 10
 gtpp.tooltip.book.author=Автор: %s
-gtpp.tooltip.book.pages.s=Pages: %s
-gtpp.tooltip.book.pages.d=Pages: %d
+gtpp.tooltip.book.pages.s=Страниц: %s
+gtpp.tooltip.book.pages.d=Страниц: %d
 gtpp.tooltip.meta_casing.energy_storage=Хранилище энергии: %s
 gtpp.tooltip.cover_item.connection.allow=Разрешает соединения: да
 gtpp.tooltip.cover_item.connection.deny=Разрешает соединения: нет
-gtpp.tooltip.cover_item.change_state=Shift Rmb to change state before applying
+gtpp.tooltip.cover_item.change_state=Shift+ПКМ, чтобы изменить состояние перед применением
 gtpp.tooltip.dark_world_portal.frame.0=Используй это для открытия портала в Токсичные болота
 gtpp.tooltip.dark_world_portal.frame.1=Собран в той же форме, что и Портал в ад.
 gtpp.tooltip.dark_world_portal.0=Разместите это, если вам слишком лень создавать структуру портала, бездельник.
