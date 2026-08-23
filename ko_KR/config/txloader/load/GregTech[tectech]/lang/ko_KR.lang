@@ -618,16 +618,8 @@ gt.blockcasingsBA0.12.name=무한 시공간 에너지 경계 케이싱
 #Multiblocks
 gt.blockmachines.multimachine.em.transformer.name=능동 변압기
 gt.blockmachines.multimachine.em.transformer.machinetype=능동형 변압기, AT
-gt.blockmachines.multimachine.em.transformer.desc.1=모든 전압으로 변환하거나 모든 전압에서 변환할 수 있습니다.
-gt.blockmachines.multimachine.em.transformer.desc.2=전력 손실은 0.004%에 불과합니다, HAYO!
 
 gt.blockmachines.multimachine.tm.microwave.name=마이크로파 분쇄기
-gt.blockmachines.multimachine.tm.microwave.desc.0=전자레인지 분쇄기의 제어 블록
-gt.blockmachines.multimachine.tm.microwave.desc.1=활성화하면 타이머를 시작합니다.
-gt.blockmachines.multimachine.tm.microwave.desc.2=타이머가 작동하는 동안 기계 내부의 모든 것이 피해를 받습니다.
-gt.blockmachines.multimachine.tm.microwave.desc.3=기계 내부에 있는 아이템도 모두 수집합니다.
-gt.blockmachines.multimachine.tm.microwave.desc.4=매개변수 설정기로 구성할 수 있습니다.
-gt.blockmachines.multimachine.tm.microwave.desc.5=(위더를 넣지 마십시오)
 gt.blockmachines.multimachine.tm.microwave.cfgi.0=전력 설정
 gt.blockmachines.multimachine.tm.microwave.cfgi.1=타이머 설정
 gt.blockmachines.multimachine.tm.microwave.cfgo.0=타이머 값
@@ -661,19 +653,7 @@ gt.blockmachines.multimachine.tm.teslaCoil.powerPassAutomatic=전력 통과(히�
 
 gt.blockmachines.multimachine.em.switch.type=계산 네트워크 스위치, CNS
 gt.blockmachines.multimachine.em.switch.name=QoS 지원 가중 네트워크 스위치
-gt.blockmachines.multimachine.em.switch.desc.0=가중치에 따라 연산을 전송 커넥터에 분배합니다.
-gt.blockmachines.multimachine.em.switch.desc.1=전송 커넥터에 ID가 할당됩니다.
-gt.blockmachines.multimachine.em.switch.desc.2=휴대용 스캐너로 커넥터를 스캔하여 ID를 확인합니다.
-gt.blockmachines.multimachine.em.switch.desc.3=연산 출력은 TecTech 매개변수를 통해 설정됩니다.
-gt.blockmachines.multimachine.em.switch.desc.4=각 그룹의 첫 번째 매개변수는 해치 ID를 제어합니다.
-gt.blockmachines.multimachine.em.switch.desc.5=각 그룹의 두 번째 매개변수는 해치 가중치를 제어합니다.
 gt.blockmachines.multimachine.em.switch.adv.name=QoS 지원 정적 네트워크 스위치
-gt.blockmachines.multimachine.em.switch.adv.desc.0=가중 네트워크 스위치의 가변 길이 버전입니다.
-gt.blockmachines.multimachine.em.switch.adv.desc.1=활성화된 동안 중간 슬라이스마다 §b524,288§7 EU/t를 소모합니다.
-gt.blockmachines.multimachine.em.switch.adv.desc.2=계산 출력은 스크루드라이버로 전송 커넥터를 우클릭하여 설정합니다.
-gt.blockmachines.multimachine.em.switch.adv.desc.3=전송 커넥터를 설정하려면 구조물의 일부여야 합니다.
-gt.blockmachines.multimachine.em.switch.adv.desc.4=해치의 연산 출력은 해치 설정에 따라 직접 제어됩니다.
-gt.blockmachines.multimachine.em.switch.adv.desc.5=가중치 기반 계산 분배에는 §6%s§r을 사용하십시오.
 
 gt.blockmachines.multimachine.em.computer.name=양자 컴퓨터
 gt.blockmachines.multimachine.em.computer.machinetype=양자 컴퓨터, QC
@@ -682,16 +662,9 @@ gt.blockmachines.multimachine.em.computer.cfgi.0=오버클록 비율
 gt.blockmachines.multimachine.em.computer.cfgi.1=과전압 비율
 gt.blockmachines.multimachine.em.computer.cfgo.0=현재 최대 열량
 gt.blockmachines.multimachine.em.computer.cfgo.1=생성된 연산
-gt.blockmachines.multimachine.em.computer.desc.0=양자 컴퓨터의 제어 블록
-gt.blockmachines.multimachine.em.computer.desc.1=연산(및 열)을 생성하는 데 사용됩니다.
-gt.blockmachines.multimachine.em.computer.desc.2=무선 모드를 전환하려면 드라이버를 사용하십시오.
 
 gt.blockmachines.multimachine.em.databank.name=데이터 뱅크
 gt.blockmachines.multimachine.em.databank.type=데이터 뱅크, DB
-gt.blockmachines.multimachine.em.databank.desc.0=데이터 뱅크의 컨트롤러 블록
-gt.blockmachines.multimachine.em.databank.desc.1=조립 라인에 더 많은 데이터 스틱을 공급하는 데 사용됩니다.
-gt.blockmachines.multimachine.em.databank.desc.2=또한 여러 조립 라인에서 동일한 데이터 스틱을 사용할 수 있게 합니다
-gt.blockmachines.multimachine.em.databank.desc.3=스크루드라이버를 사용하여 무선 모드를 전환합니다.
 
 gt.blockmachines.multimachine.em.junction.name=물질 접속기
 gt.blockmachines.multimachine.em.junction.hint.0=1 - 기존 해치 또는 고출력 케이싱
@@ -1404,6 +1377,9 @@ tt.keyword.Structure.CenterPillar=전면 기둥의 중앙
 tt.keyword.Structure.Center=중심
 # Additional structure components
 tt.keyword.Structure.DataAccessHatch=데이터 접근 해치
+tt.keyword.Structure.InFrontOfEachComputerHeatVent=In front of each computer heat vent
+tt.keyword.Structure.DaisyChainAssemblyLine=Use an assembly line reception connector to daisy-chain machines
+tt.keyword.Structure.DaisyChainOptical=Use an optical reception connector to daisy-chain machines
 tt.keyword.Structure.ElementalOutput=원소 출력 해치
 tt.keyword.Structure.Elemental=원소 해치
 tt.keyword.Structure.ElementalOverflow=원소 과잉 해치
