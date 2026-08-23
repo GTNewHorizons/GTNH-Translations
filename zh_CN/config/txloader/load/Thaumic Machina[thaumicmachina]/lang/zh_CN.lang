@@ -20,10 +20,10 @@ tm.command.thaumicmachina.usage=/thaumicmachina <help|wandaugmentation> ...
 tm.command.thaumicmachina.hint_alias=可使用 /tm 替代 /thaumimachina。
 tm.command.thaumicmachina.command_list=指令：
 tm.command.thaumicmachina.wandaugmentation.usage=/thaumicmachina wandaugmentation <add|remove|reset> <强化名称>
-tm.command.thaumicmachina.error.no_wand_held=玩家必须手持法杖
+tm.command.thaumicmachina.error.no_wand_held=玩家必须手持法杖。
 tm.command.thaumicmachina.error.unknown_augment=强化不存在
-tm.command.thaumicmachina.error.is_present=持有法杖已安装该强化。
-tm.command.thaumicmachina.error.is_absent=持有法杖未安装该强化。
+tm.command.thaumicmachina.error.is_present=所持法杖已安装该强化。
+tm.command.thaumicmachina.error.is_absent=所持法杖未安装该强化。
 
 # Creative tab
 itemGroup.thaumicMachina=神秘力学
@@ -113,7 +113,7 @@ tm.research.page.WAND_AUGMENTATION_CHARGE_BUFFER.1=对法杖存储实际vis方�
 tm.research.name.WAND_AUGMENTATION_VIS_CHANNEL=法杖强化: Vis隧道
 tm.research.desc.WAND_AUGMENTATION_VIS_CHANNEL=条条大路通罗马
 tm.research.page.WAND_AUGMENTATION_VIS_CHANNEL.1=你以前对法杖的使用让你知道，你能通过升级多种物品来降低使用法杖时的vis消耗，包括杖端和你自己的魔法袍。你花了很多时间思考这个问题，终于了发现另一种提高vis使用效率的方法。通过添加特化的神秘锭通道来连接杖端和杖芯，你可以创建vis倾向于通过的路径，从而有效降低法杖使用时的vis消耗。
-tm.research.page.WAND_AUGMENTATION_VIS_CHANNEL.3=将这个强化安装到法杖上会将其vis消耗变为法杖制作后的原始消耗乘以90%。来自法袍或者饰品的消耗减少会在此效果之后计算。
+tm.research.page.WAND_AUGMENTATION_VIS_CHANNEL.3=在法杖上安装此强化后，vis消耗将在计算该法杖的vis减免后再乘以90%。来自装备或饰品的vis减免会在此效果之后计算。
 
 # Wand Augmentation: Tainted Core
 tm.research.name.WAND_AUGMENTATION_TAINTED_CORE=法杖强化: 腐化核心
