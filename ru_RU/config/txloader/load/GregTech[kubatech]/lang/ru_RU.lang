@@ -38,8 +38,8 @@ GT5U.gui.text.recipe_result.EIG_seedOverflow=Внутри слишком мно�
 GT5U.gui.text.recipe_result.EIG_missingwater=Нет воды!
 GT5U.gui.text.EIG_ic2glass=Недостаточный тир стекла!
 
-GT5U.gui.text.recipe_result.arc_shutdown=Arc Furnace is shutting down!
-GT5U.gui.text.recipe_result.arc_ignition=Arc Furnace is starting up!
+GT5U.gui.text.recipe_result.arc_shutdown=Дуговая печь останавливается!
+GT5U.gui.text.recipe_result.arc_ignition=Дуговая печь запускается!
 GT5U.gui.text.recipe_result.no_electrode=Электрод не вставлен!
 GT5U.gui.text.shutdown_reason.electrode_changed=Электрод был заменен во время работы!
 
@@ -89,13 +89,13 @@ kubatech.gui.text.eig.disabled=Отключено
 kubatech.gui.text.eig.enabled=Включено
 kubatech.gui.text.eig.ic2_mode=IC2 режим
 kubatech.gui.text.eig.no_humidity_mode=No Humidity mode
-kubatech.gui.text.eig.inventory_full_warning=Seed inventory is full!
+kubatech.gui.text.eig.inventory_full_warning=Инвентарь семян переполнен!
 kubatech.gui.text.mia.primary_mode=Основной режим
 kubatech.gui.text.mia.normal=Обычный
 kubatech.gui.text.mia.swarmer=Роение
 kubatech.gui.text.mia.secondary_mode=Второй режим
-kubatech.gui.text.mia.show_bee_inventory=Show Bee Inventory
-kubatech.gui.text.mia.show_machine_status=Show Machine Status
+kubatech.gui.text.mia.show_bee_inventory=Показать инвентарь пчёл
+kubatech.gui.text.mia.show_machine_status=Показать статус механизма
 
 kubatech.gui.tooltip.contributors.added=Добавлено %s
 kubatech.gui.tooltip.contributors.design=Дизайн %s
@@ -103,13 +103,13 @@ kubatech.gui.tooltip.contributors.structure=Структура спроекти�
 
 kubatech.gui.tooltip.dynamic_inventory.identical_slots=Имеется %d одинаковых слотов
 kubatech.gui.tooltip.dynamic_inventory.empty_slot=Пустой слот
-kubatech.gui.tooltip.dynamic_inventory.eig.seed_count=Seeds: %d
+kubatech.gui.tooltip.dynamic_inventory.eig.seed_count=Семян: %d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_types=Оставшиеся виды семян: %d
 kubatech.gui.tooltip.dynamic_inventory.eig.remaining_seed_capacity=Remaining seed capacity: %d
 
-kubatech.gui.text.electrode_detector=Порог долговечности
-kubatech.gui.text.electrode_detector.durability=§8Durability value
-kubatech.gui.text.electrode_detector.percentage=§8Durability percentage
+kubatech.gui.text.electrode_detector=§8Порог
+kubatech.gui.text.electrode_detector.durability=§8Значение прочности
+kubatech.gui.text.electrode_detector.percentage=§8Процент прочности
 
 #Chat Messages
 kubatech.chat.forbidden_while_running=Нельзя изменить режим во время работы!
@@ -173,10 +173,10 @@ kubatech.infodata.mia.running_mode.output=Работает в режиме: §6�
 kubatech.infodata.mia.running_mode.operating.normal=Работает в режиме: §6Режим работы (НОРМАЛЬНЫЙ)§r
 kubatech.infodata.mia.running_mode.operating.swarmer=Работает в режиме: §6Режим работы (РОЕНИЕ)§r
 kubatech.infodata.mia.running_mode.bee_storage=Хранилище пчел (%s/%s):
-kubatech.infodata.mia.inventory_full=No more slots for bees!
-kubatech.gui.text.mia.inventory_full_warning=No more bee slots available!
-kubatech.gui.text.mia.locked_while_running=Bee inventory locked while machine is running
-kubatech.infodata.mia.gui_locked_while_running=Cannot modify bee inventory via GUI while running
+kubatech.infodata.mia.inventory_full=Нет свободных слотов для пчёл!
+kubatech.gui.text.mia.inventory_full_warning=Нет доступных слотов для пчёл!
+kubatech.gui.text.mia.locked_while_running=Инвентарь пчёл заблокирован во время работы механизма
+kubatech.infodata.mia.gui_locked_while_running=Невозможно изменить инвентарь пчёл через GUI во время работы
 
 #HTGR
 kubatech.infodata.htgr.stored_fuel=§fХранящееся топливо:
@@ -246,17 +246,17 @@ item.arc_furnace_electrode.tip.parallel_limit=Параллелей: %s
 item.arc_furnace_electrode.tip.parallel_limit_none=Нет
 item.arc_furnace_electrode.tip.oc=OC: %s%s
 item.arc_furnace_electrode.tip.eu_modifier=EU Модификатор: %s
-item.arc_furnace_electrode.tip.startup_penalty=Startup Penalty: %s
-item.arc_furnace_electrode.tip.startup_amperage=Startup Amperage: %s A
+item.arc_furnace_electrode.tip.startup_penalty=Штраф при запуске: %s
+item.arc_furnace_electrode.tip.startup_amperage=Пусковой ампераж: %s А
 
-item.arc_furnace_electrode.tip.special_effect.GraphiteElectrode=§6§lBread and Butter§r§6: No startup penalty
-item.arc_furnace_electrode.tip.special_effect.GrapheneElectrode=§6§lBread and Butter§r§6: No startup penalty
-item.arc_furnace_electrode.tip.special_effect.YBCOElectrode=§6§lRapid Oxidation§r§6: Every OC increases durability usage by 100%
-item.arc_furnace_electrode.tip.special_effect.NetheriteElectrode=§6§lHot Restart§r§6: There is no shutdown cooldown. If machine is off for less than 4 seconds, skip startup entirely
-item.arc_furnace_electrode.tip.special_effect.InfinityElectrode=§6§lTo Infinity!§r§6: Every successful processing doubles the amount of parallels, until power failure or machine shutdown (power usage is equal to the amount of parallels regardless of provided items)
-item.arc_furnace_electrode.tip.special_effect.NeutroniumNaniteElectrode=§6§lNanite Repair§r§6: Optionally consumes one Neutronium Dust per operation for a 70% chance to not lose any durability
-item.arc_furnace_electrode.tip.special_effect.TranscendentNaniteElectrode=§6§lNanite Maintenance§r§6: Optionally consumes one Transcendent Metal Dust per operation to restore 1 durability
-item.arc_furnace_electrode.tip.special_effect.UniversiumNaniteElectrode=§6§lNanite Recovery§r§6: Optionally consumes one Universium Dust per operation to fully repair the electrode
+item.arc_furnace_electrode.tip.special_effect.GraphiteElectrode=§6§lХлеб насущный§r§6: Нет штрафа при запуске
+item.arc_furnace_electrode.tip.special_effect.GrapheneElectrode=§6§lХлеб насущный§r§6: Нет штрафа при запуске
+item.arc_furnace_electrode.tip.special_effect.YBCOElectrode=§6§lБыстрое окисление§r§6: Каждый разгон увеличивает расход прочности на 100%%
+item.arc_furnace_electrode.tip.special_effect.NetheriteElectrode=§6§lБыстрый перезапуск§r§6: Нет времени охлаждения после остановки. Если механизм был выключен менее 4 секунд, фаза запуска пропускается полностью
+item.arc_furnace_electrode.tip.special_effect.InfinityElectrode=§6§lВ бесконечность!§r§6: Каждая успешная обработка удваивает количество параллелей до сбоя питания или остановки механизма (потребление энергии равно количеству параллелей независимо от предоставленных предметов)
+item.arc_furnace_electrode.tip.special_effect.NeutroniumNaniteElectrode=§6§lРемонт нанитами§r§6: Опционально расходует одну нейтрониевую пыль за операцию с шансом 70%% не потерять прочность
+item.arc_furnace_electrode.tip.special_effect.TranscendentNaniteElectrode=§6§lОбслуживание нанитами§r§6: Опционально расходует одну пыль трансцендентного металла за операцию для восстановления 1 единицы прочности
+item.arc_furnace_electrode.tip.special_effect.UniversiumNaniteElectrode=§6§lВосстановление нанитами§r§6: Опционально расходует одну пыль юниверсиума за операцию для полного ремонта электрода
 
 #Tea
 kubaitem.tea.black_tea.name=Чёрный чай
@@ -381,7 +381,7 @@ kubatech.multiblock.MegaIndustrialApiary.alveary_hygroregulator=Кондицио
 kubatech.multiblock.MegaIndustrialApiary.alveary=Большой пчелиный улей
 kubatech.multiblock.MegaIndustrialApiary.alveary_stabiliser=Стабилизатор улья
 kubatech.multiblock.MegaIndustrialApiary.apiary=Пасека
-kubatech.multiblock.MegaIndustrialApiary.wood_slab=Деревянная плита
+kubatech.multiblock.MegaIndustrialApiary.wood_slab=Плита
 kubatech.multiblock.MegaIndustrialApiary.flower=Цветок (зависит от пчелы)
 kubatech.multiblock.MegaIndustrialApiary.any_casing_luv=Любой блок корпуса (LuV+)
 kubatech.multiblock.MegaIndustrialApiary.footer=Используйте обычную или дистиллированную воду, добавляя её вручную

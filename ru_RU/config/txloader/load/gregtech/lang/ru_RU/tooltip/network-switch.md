@@ -1,7 +1,7 @@
-Distributes computation to transmission connectors based on weights.
-Transmission connectors are assigned an ID.
-Scan connectors with a Portable Scanner to determine their ID.
+Распределяет вычисления по выходным разъёмам на основе весов.
+Выходному разъёму присваивается ID.
+Сканируйте разъёмы с помощью портативного сканера, чтобы определить ID.
 {gray:{hr}}
-Computation output is configured via TecTech parameters.
-The first parameter in each group controls the hatch ID.
-The second parameter in each group controls the hatch weight.
+Вывод вычислений настраивается через параметры TecTech.
+Первый параметр в каждой группе задаёт ID разъёма.
+Второй параметр в каждой группе задаёт вес разъёма.

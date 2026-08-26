@@ -1,3 +1,3 @@
-Controller block of the Quantum Computer
-Used to generate computation (and heat)
-Use screwdriver to toggle wireless mode
+Блок-контроллер квантового компьютера
+Используется для вычисления (и тепла)
+Используйте отвёртку для переключения беспроводного режима

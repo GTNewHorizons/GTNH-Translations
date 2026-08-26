@@ -4,14 +4,14 @@ item.vendingmachine.placeholder.name=Заместитель предмета
 # Blocks
 gt.blockmachines.multimachine.vendingmachine.name=Торговый автомат
 gt.blockmachines.multimachine.vendingmachine.name.gui=Торговый автомат
-casing.0.name=Vending Machine Casing
+casing.0.name=Корпус торгового автомата
 
 hatch.vendinguplink.me.name=МЭ разъём торгового автомата
 
 # Tooltips
-vendingmachine.vendinguplink.me.no_cached_stacks=No stacks pending ME network insertion
-vendingmachine.vendinguplink.me.contains_cached_stacks=%s%d%s stacks pending ME network insertion:
-vendingmachine.vendinguplink.me.and_more_stacks=%sAnd %d more...
+vendingmachine.vendinguplink.me.no_cached_stacks=Нет стаков в очереди на отправку в МЭ сеть
+vendingmachine.vendinguplink.me.contains_cached_stacks=%s%d%s стак(ов) в очереди на отправку в МЭ сеть:
+vendingmachine.vendinguplink.me.and_more_stacks=%sИ ещё %d...
 
 # Gui
 vendingmachine.gui.requirementHeader=Требования:
@@ -25,11 +25,11 @@ vendingmachine.gui.search=Поиск
 vendingmachine.gui.required_inputs=Требуется:
 vendingmachine.gui.nc_inputs=Требуется (не потребляется):
 vendingmachine.gui.alternative_oredict=Принимает по словарю руд:
-vendingmachine.gui.shared_trades_tooltip=Shares cooldown with %s other trade(s)
-vendingmachine.gui.cooldown_remaining_tooltip=%s/%s trades remaining
+vendingmachine.gui.shared_trades_tooltip=Общий лимит торговли ещё с %s сделкой(-ами)
+vendingmachine.gui.cooldown_remaining_tooltip=Осталось сделок: %s/%s
 vendingmachine.gui.cooldown_started_tooltip=Лимит торговли сбросится через %s
 vendingmachine.gui.cooldown_idle_tooltip=Лимит торговли сбросится через %s после совершения покупки
-vendingmachine.gui.trades_scale_tooltip=Limit scales with online team members
+vendingmachine.gui.trades_scale_tooltip=Лимит зависит от числа участников команды в сети
 vendingmachine.gui.trade_hint=Shift+ЛКМ, чтобы купить
 vendingmachine.gui.favourite_hint=Нажмите Ctrl+ЛКМ, чтобы добавить в избранное
 vendingmachine.gui.display_mode=Отображение:
@@ -42,7 +42,7 @@ vendingmachine.gui.display_wallet_personal=Личный кошелёк
 vendingmachine.gui.display_wallet_team=Командный кошелёк
 vendingmachine.gui.display_track=Музыка:
 vendingmachine.gui.display_track_none=Нет
-vendingmachine.gui.display_track_lunch_break=Lunch Break by Sol IX
+vendingmachine.gui.display_track_lunch_break="Lunch Break" от Sol IX
 vendingmachine.gui.cooldown_display.second=с
 vendingmachine.gui.cooldown_display.minute=м
 vendingmachine.gui.cooldown_display.hour=ч
@@ -50,7 +50,7 @@ vendingmachine.gui.cooldown_display.day=д
 vendingmachine.gui.in=ВХОД
 vendingmachine.gui.out=Выход
 vendingmachine.gui.volume.tooltip_volume_display=Громкость: %s%%
-vendingmachine.gui.volume.tooltip_open_panel=Shift-click to adjust
+vendingmachine.gui.volume.tooltip_open_panel=Shift+ЛКМ, чтобы настроить
 vendingmachine.gui.volume.title=Громкость музыки
 vendingmachine.gui.volume.percent=%s%%
 vendingmachine.gui.error.incomplete_structure=Незавершённая структура.
@@ -60,23 +60,23 @@ vendingmachine.gui.error.player_using=В данный момент кто-то �
 vendingmachine.chat.trade_restock=Автопополнение торгового автомата: %s
 
 # Command
-vendingmachine.command.usage=Usage: %s
-vendingmachine.command.error.player_not_found=Player "%s" was not found.
-vendingmachine.command.error.integer_format=Invalid amount "%s". Expected a whole number.
-vendingmachine.command.no_wallet=No wallet found.
-vendingmachine.command.error.invalid_currency_with_list=Unknown coin type "%s". Valid coin types are %s. Hover over a coin name to see the unlocalised name accepted by this command.
+vendingmachine.command.usage=Использование: %s
+vendingmachine.command.error.player_not_found=Игрок "%s" не найден.
+vendingmachine.command.error.integer_format=Неверное количество "%s". Ожидается целое число.
+vendingmachine.command.no_wallet=Кошелёк не найден.
+vendingmachine.command.error.invalid_currency_with_list=Неизвестный тип монеты "%s". Допустимые типы монет: %s. Наведите курсор на название монеты, чтобы увидеть нелокализованное название, принимаемое этой командой.
 
-vendingmachine.command.add.all_currency=Added %s of all coins to %s.
-vendingmachine.command.add.specific_currency=Added %s %s(s) to %s.
-vendingmachine.command.add.remove_all_currency=Removed %s of all coins from %s.
-vendingmachine.command.add.remove_specific_currency=Removed %s %s(s) from %s.
+vendingmachine.command.add.all_currency=Игроку %2$s добавлено по %1$s монет каждого типа.
+vendingmachine.command.add.specific_currency=Игроку %3$s добавлено %1$s монет типа: %2$s.
+vendingmachine.command.add.remove_all_currency=У игрока %2$s удалено по %1$s монет каждого типа.
+vendingmachine.command.add.remove_specific_currency=У игрока %3$s удалено %1$s монет типа: %2$s.
 
-vendingmachine.command.set.all_currency=Set all currencies to %s for %s.
-vendingmachine.command.set.specific_currency=Set %s to %s for %s.
+vendingmachine.command.set.all_currency=Для игрока %2$s все валюты установлены в %1$s.
+vendingmachine.command.set.specific_currency=Для игрока %3$s значение %1$s установлено в %2$s.
 
-vendingmachine.command.reset.all_coins=Reset all coins for %s.
-vendingmachine.command.reset.specific_coin=Reset %s for %s.
-vendingmachine.command.reset.reloaded_trade_db=Reloaded trade database.
+vendingmachine.command.reset.all_coins=Все монеты игрока %s сброшены.
+vendingmachine.command.reset.specific_coin=Монета %s игрока %s сброшена.
+vendingmachine.command.reset.reloaded_trade_db=База данных сделок перезагружена.
 
 # Categories
 vendingmachine.category.favourites=Избранное
@@ -107,44 +107,44 @@ vendingmachine.coin.technician=Монета "Техник"
 vendingmachine.coin.witch=Монета "Дух"
 
 # Config
-vendingmachine.config.title.main=Vending Machine Settings
-vendingmachine.config.title.main.tooltip=Configuration settings for vending machine.
+vendingmachine.config.title.main=Настройки торгового автомата
+vendingmachine.config.title.main.tooltip=Настройки конфигурации торгового автомата.
 
-vendingmachine.config.title.main_settings=Main Settings
+vendingmachine.config.title.main_settings=Основные настройки
 vendingmachine.config.title.main_settings.tooltip=Глобальные настройки торгового автомата
-vendingmachine.config.title.gui_settings=GUI Settings
-vendingmachine.config.title.gui_settings.tooltip=Settings for the GUI display
-vendingmachine.config.title.team_settings=Team Settings
-vendingmachine.config.title.team_settings.tooltip=Settings for the teams
-vendingmachine.config.title.music_settings=Music Settings
-vendingmachine.config.title.music_settings.tooltip=Settings for the music
+vendingmachine.config.title.gui_settings=Настройки интерфейса
+vendingmachine.config.title.gui_settings.tooltip=Настройки отображения интерфейса
+vendingmachine.config.title.team_settings=Настройки команды
+vendingmachine.config.title.team_settings.tooltip=Настройки для команд
+vendingmachine.config.title.music_settings=Настройки музыки
+vendingmachine.config.title.music_settings.tooltip=Настройки для музыки
 vendingmachine.config.title.dev_settings=Настройки разработчика
 vendingmachine.config.title.dev_setting.tooltips=Настройки для разработчиков
 
-vendingmachine.config.main.data_refresh=Refresh frequency
-vendingmachine.config.main.data_refresh.tooltip=How often the vending machine refreshes its data, in number of ticks
-vendingmachine.config.main.restock=Restock notifications
-vendingmachine.config.main.restock.tooltip=Enable restock notifications\nDisabling on server will disable notifications for everyone
-vendingmachine.config.main.restock_check=Restock frequency check
-vendingmachine.config.main.restock_check.tooltip=How often the server checks for restocked trades, in number of ticks
-vendingmachine.config.main.eject_frequency=Dispence frequency 
-vendingmachine.config.main.eject_frequency.tooltip=How often items items are ejected, in number of ticks
-vendingmachine.config.main.dispense_frequency=Dispence amount
-vendingmachine.config.main.dispense_frequency.tooltip=How many items are dispensed from the queue at once
+vendingmachine.config.main.data_refresh=Частота обновления
+vendingmachine.config.main.data_refresh.tooltip=Как часто торговый автомат обновляет свои данные, в тиках
+vendingmachine.config.main.restock=Уведомления о пополнении
+vendingmachine.config.main.restock.tooltip=Включить уведомления о пополнении\nОтключение на сервере отключит уведомления для всех
+vendingmachine.config.main.restock_check=Частота проверки пополнения
+vendingmachine.config.main.restock_check.tooltip=Как часто сервер проверяет пополнение сделок, в тиках
+vendingmachine.config.main.eject_frequency=Частота выдачи
+vendingmachine.config.main.eject_frequency.tooltip=Как часто выдаются предметы, в тиках
+vendingmachine.config.main.dispense_frequency=Количество за выдачу
+vendingmachine.config.main.dispense_frequency.tooltip=Сколько предметов выдаётся из очереди за раз
 
-vendingmachine.config.gui.trade_display=Trade display format
-vendingmachine.config.gui.trade_display.tooltip=Default trade display format\nCase sensitive
+vendingmachine.config.gui.trade_display=Формат отображения сделок
+vendingmachine.config.gui.trade_display.tooltip=Формат отображения сделок по умолчанию\nУчитывается регистр
 vendingmachine.config.gui.sort_mode=Режим сортировки
-vendingmachine.config.gui.sort_mode.tooltip=Default sort mode\nCase sensitive
+vendingmachine.config.gui.sort_mode.tooltip=Режим сортировки по умолчанию\nУчитывается регистр
 vendingmachine.config.gui.show_coins=Показать монеты
 vendingmachine.config.gui.show_coins.tooltip=Показать имеющиеся у вас монеты в торговом автомате
-vendingmachine.config.gui.wallet_mode=Wallet mode
-vendingmachine.config.gui.wallet_mode.tooltip=Default wallet mode\nCase sensitive
+vendingmachine.config.gui.wallet_mode=Режим кошелька
+vendingmachine.config.gui.wallet_mode.tooltip=Режим кошелька по умолчанию\nУчитывается регистр
 
-vendingmachine.config.team.allow_in_teams=Use team wallet
-vendingmachine.config.team.allow_in_teams.tooltip=Allow using the team wallet in solo teams
-vendingmachine.config.team.cooldown_increase=Cooldown trade limit
-vendingmachine.config.team.cooldown_increase.tooltip=Each player on a team increases the cooldown trade limit by 1\nValue of -1 keeps this uncapped
+vendingmachine.config.team.allow_in_teams=Использовать командный кошелёк
+vendingmachine.config.team.allow_in_teams.tooltip=Разрешить использование командного кошелька в командах из одного игрока
+vendingmachine.config.team.cooldown_increase=Лимит сделок до сброса
+vendingmachine.config.team.cooldown_increase.tooltip=Каждый игрок в команде увеличивает лимит сделок до сброса на 1\nЗначение -1 снимает ограничение
 
 vendingmachine.config.music.track=Музыкальный трек
 vendingmachine.config.music.track.tooltip=Музыкальный трек для воспроизведения в торговом автомате\nУчитывается регистр
@@ -153,7 +153,7 @@ vendingmachine.config.music.volume.tooltip=Громкость музыки то�
 
 vendingmachine.config.dev.subdirectory=Подкаталог
 vendingmachine.config.dev.subdirectory.tooltip=Подкаталог с данными торговых автоматов в сохраненном мире
-vendingmachine.config.dev.folder=Database trade folder
-vendingmachine.config.dev.folder.tooltip=Folder where trade database file is located
-vendingmachine.config.dev.database=Database force rewrite
-vendingmachine.config.dev.database.tooltip=Force rewrite database on load, for add/remove trades or change of format
+vendingmachine.config.dev.folder=Папка базы данных сделок
+vendingmachine.config.dev.folder.tooltip=Папка, где расположен файл базы данных сделок
+vendingmachine.config.dev.database=Принудительная перезапись базы данных
+vendingmachine.config.dev.database.tooltip=Принудительно перезаписывать базу данных при загрузке, для добавления/удаления сделок или смены формата

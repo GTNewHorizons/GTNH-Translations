@@ -475,12 +475,14 @@ gui.appliedenergistics2.TunnelPatternInfo3=Индексируется по UUID,
 gui.appliedenergistics2.TunnelPatternInfo4=или переименовать его, не обновлять ссылки на шаблоны.
 gui.appliedenergistics2.Deprecated=Устарело, скоро будет удалено!
 gui.appliedenergistics2.ViewCellToggleKey=ПКМ для переключения
-gui.appliedenergistics2.CPUAllowMode=Принять запросы
+gui.appliedenergistics2.CPUAllowMode=Принимает запросы
 gui.appliedenergistics2.CPUAllowAll=Все
 gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Только от не-игроков
 gui.appliedenergistics2.CPUOnlyAllowPlayer=Только от игроков
 gui.appliedenergistics2.CPUSourcePlayer=Инициатор запроса
-gui.appliedenergistics2.CPUSourceMachineRequested=Запрошен механизм
+gui.appliedenergistics2.CPUSourceMachineRequested=Запрошен механизмом
+gui.appliedenergistics2.UpgradesInstalled=Upgrades Installed
+gui.appliedenergistics2.FakeUpgrade=Behaves like these Upgrades are Installed:
 
 gui.appliedenergistics2.NetworkBytesDetails=Подробности о сетевых байтах
 gui.appliedenergistics2.Items=Предметы
@@ -578,7 +580,7 @@ gui.tooltips.appliedenergistics2.ResetStats=Двойной клик для сб�
 gui.tooltips.appliedenergistics2.CPUName=Имя процессора
 gui.tooltips.appliedenergistics2.NumberOfStorageMemory=Amount of storage memory
 gui.tooltips.appliedenergistics2.NumberOfCoProcessors=Number of Co-Processors
-gui.tooltips.appliedenergistics2.CPUCrafting=Crafting Progress
+gui.tooltips.appliedenergistics2.CPUCrafting=Прогресс крафта
 gui.tooltips.appliedenergistics2.Automation=Автоматизация
 gui.tooltips.appliedenergistics2.PowerUnits=Энергетические единицы
 gui.tooltips.appliedenergistics2.IOMode=Режим ввода\вывода
@@ -804,9 +806,9 @@ gui.tooltips.appliedenergistics2.WirelessToolGroupByNetworkName=Сеть
 gui.tooltips.appliedenergistics2.WirelessToolGroupByNetworkDesc=All wireless devices in a network are one unit
 gui.tooltips.appliedenergistics2.WirelessToolGroupByColorName=Цвет
 gui.tooltips.appliedenergistics2.WirelessToolGroupByColorDesc=Wireless devices with the same color in the same network are one unit
-gui.tooltips.appliedenergistics2.WirelessToolHideBoundedYesName=Hide bound
+gui.tooltips.appliedenergistics2.WirelessToolHideBoundedYesName=Скрыть привязку
 gui.tooltips.appliedenergistics2.WirelessToolHideBoundedYesDesc=Hide connected connectors and hubs without free slots
-gui.tooltips.appliedenergistics2.WirelessToolHideBoundedNoName=Show bound
+gui.tooltips.appliedenergistics2.WirelessToolHideBoundedNoName=Показать привязку
 gui.tooltips.appliedenergistics2.WirelessToolHideBoundedNoDesc=Show connected connectors and hubs without free slots
 
 gui.tooltips.appliedenergistics2.WirelessKitPinButtonName=Pin
@@ -835,7 +837,7 @@ gui.tooltips.appliedenergistics2.AdvancedLevelEmitterSlotEnabledOff=Слот н�
 gui.tooltips.appliedenergistics2.AdvancedLevelEmitterSlotInvert=Инвертировать сигнал красного камня
 
 gui.tooltips.appliedenergistics2.PinsSection=Секция закрепленных предметов
-gui.tooltips.appliedenergistics2.PinsSectionActive=§6ЛКМ§8 - §7Добавить в закреплённое\n§6ПКМ§8 - §7Удалить из закреплённого\n§6CTRL + ЛКМ§8 - §7Добавить крафт в закреплённое\n§6CTRL + ПКМ§8 - Удалить крафт из закреплённого\n§6SHIFT + ПКМ§8 - §7Открепить§r
+gui.tooltips.appliedenergistics2.PinsSectionActive=§6ЛКМ§8 - §7Добавить в закреплённое\n§6ПКМ§8 - §7Удалить из закреплённого\n§6CTRL+ЛКМ§8 - §7Добавить крафт в закреплённое\n§6CTRL+ПКМ§8 - Удалить крафт из закреплённого\n§6SHIFT+ПКМ§8 - §7Открепить§r
 gui.tooltips.appliedenergistics2.PinsSectionHint=Hold §6ALT§7 for keybinds
 
 gui.tooltips.appliedenergistics2.scheduledreason.SOMETHING_STUCK=§eЧто-то застряло в интерфейсе
@@ -1156,7 +1158,7 @@ item.appliedenergistics2.WirelessMessages.SetMode=Режим изменён на
 item.appliedenergistics2.WirelessMessages.Simple=§eПростой
 item.appliedenergistics2.WirelessMessages.SimpleEmpty=Click Wireless Connector to bind
 item.appliedenergistics2.WirelessMessages.SimpleBound=§aBound to %s
-item.appliedenergistics2.WirelessMessages.SimpleBounded=Click another Wireless Connector to connect
+item.appliedenergistics2.WirelessMessages.SimpleBounded=Кликни по другому беспроводному соединителю, чтобы привязать
 
 item.appliedenergistics2.WirelessMessages.Advanced=§eПродвинутый
 item.appliedenergistics2.WirelessMessages.AdvancedLine=§eПродвинутый(линия)

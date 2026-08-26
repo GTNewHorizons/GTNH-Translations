@@ -1,4 +1,4 @@
-Simultaneously recharges and repairs equipment
-Stocking input buses are not supported
-§6Recharging§7: No max speed or energy loss
-§6Repairing§7: Max 1k durability/t, consumes 1k EU + 1L UUM per point
+Одновременно заряжает и чинит снаряжение
+Складские шины ввода не поддерживаются
+§6Зарядка§7: без ограничения скорости и потерь энергии
+§6Починка§7: до 1 тыс. прочности/т, расходует 1 тыс. EU + 1 л ОВ за единицу

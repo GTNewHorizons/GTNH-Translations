@@ -145,9 +145,9 @@ gendustry.label.template.missing=Отсутствует
 gendustry.label.template.chromosomes=Хромосомы: %s/%s
 
 gendustry.rsmode.always=Всегда ВКЛ.
-gendustry.rsmode.never=Отключён
-gendustry.rsmode.rs_on=Включен по сигналу красного камня
-gendustry.rsmode.rs_off=Отключён по сигналу красного камня
+gendustry.rsmode.never=Отключен
+gendustry.rsmode.rs_on=Включение по сигналу красного камня
+gendustry.rsmode.rs_off=Отключение по сигналу красного камня
 
 gendustry.label.items=%s предметов
 
@@ -216,7 +216,7 @@ gendustry.givesample.error.root=Вид не найден: %s
 gendustry.givesample.error.allele=Аллель не найден: %s
 gendustry.givesample.error.chromosome=Хромосома не найдена: %s
 gendustry.givesample.error.invalid=Неверная аллель для запрошенной хромосомы
-gendustry.givesample.success=Дан образец (Вид
+gendustry.givesample.success=Дан образец (Вид=%s, Хромосома=%s, Аллель=%s) игроку %s
 
 # ==== MUTATION REQUIREMENTS ====
 gendustry.req.temperature=Требуется температура: %s
@@ -250,22 +250,22 @@ gendustry.bees.species.derpious.description=Любопытный экземпл�
 # ==== COMBS ====
 
 item.gendustry.HoneyComb.name=Цветные соты
-gendustry.honeycomb.black.name=Чёрная сота
-gendustry.honeycomb.red.name=Красная соты
-gendustry.honeycomb.green.name=Зелёная сота
-gendustry.honeycomb.brown.name=Коричневая сота
-gendustry.honeycomb.blue.name=Синяя сота
-gendustry.honeycomb.purple.name=Фиолетовая сота
-gendustry.honeycomb.cyan.name=Бирюзовая сота
-gendustry.honeycomb.silver.name=Светло-серая сота
-gendustry.honeycomb.gray.name=Серая сота
-gendustry.honeycomb.pink.name=Розовая сота
-gendustry.honeycomb.lime.name=Лаймовая сота
-gendustry.honeycomb.yellow.name=Жёлтая сота
-gendustry.honeycomb.lightblue.name=Голубая сота
-gendustry.honeycomb.magenta.name=Пурпурная сота
-gendustry.honeycomb.orange.name=Оранжевая сота
-gendustry.honeycomb.white.name=Белая сота
+gendustry.honeycomb.black.name=Чёрные соты
+gendustry.honeycomb.red.name=Красные соты
+gendustry.honeycomb.green.name=Зелёные соты
+gendustry.honeycomb.brown.name=Коричневые соты
+gendustry.honeycomb.blue.name=Синие соты
+gendustry.honeycomb.purple.name=Фиолетовые соты
+gendustry.honeycomb.cyan.name=Бирюзовые соты
+gendustry.honeycomb.silver.name=Светло-серые соты
+gendustry.honeycomb.gray.name=Серые соты
+gendustry.honeycomb.pink.name=Розовые соты
+gendustry.honeycomb.lime.name=Лаймовые соты
+gendustry.honeycomb.yellow.name=Жёлтые соты
+gendustry.honeycomb.lightblue.name=Голубые соты
+gendustry.honeycomb.magenta.name=Пурпурные соты
+gendustry.honeycomb.orange.name=Оранжевые соты
+gendustry.honeycomb.white.name=Белые соты
 
 item.gendustry.HoneyDrop.name=Цветная капля мёда
 gendustry.honeydrop.black.name=Чёрная капля мёда
@@ -292,7 +292,7 @@ itemGroup.bdew.hives=Custom Beehives
 
 gendustry.errorstate.ok=Нет ошибки
 
-for.gendustry.errorstate.disabled.description=Отключено
+for.gendustry.errorstate.disabled.description=Отключён
 for.gendustry.errorstate.disabled.help=Этот механизм отключен в настройках конфигурации
 
 #this will be moved to bdlib at some point
@@ -338,7 +338,7 @@ item.gendustry.GeneSample.extrabees.effect.hunger.tooltip=Устанавлива
 item.gendustry.GeneSample.extrabees.effect.lightning.tooltip=Спавнит полу-реальные удары молнии\n(наносит урон сущностям и поджигает,\nно не активирует генераторы молний)
 item.gendustry.GeneSample.extrabees.effect.meteor.tooltip=Спавнит падающие огненные снаряды
 item.gendustry.GeneSample.extrabees.effect.power.tooltip=Добавляет по 5 RF за раз в ближайшие RF-приёмники
-item.gendustry.GeneSample.extrabees.effect.radioactive.tooltip=Наносит урон очень быстро
+item.gendustry.GeneSample.extrabees.effect.radioactive.tooltip=Очень быстро наносит урон
 item.gendustry.GeneSample.extrabees.effect.slow.tooltip=Накладывает на игроков медлительность
 item.gendustry.GeneSample.extrabees.effect.spawn_creeper.tooltip=Спавнит криперов при низком освещении.\nНе путать с эффектом крипер (отдельный эффект)
 item.gendustry.GeneSample.extrabees.effect.spawn_skeleton.tooltip=Спавнит скелетов при низком освещении
