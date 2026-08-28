@@ -1725,10 +1725,26 @@ gt.mbtt.structure.surrounding_central_column=Вокруг центральной
 gt.mbtt.structure.front_left_2nd_layer=Спереди слева, 2-й слой
 gt.mbtt.structure.interior_and_top_center=Внутри и вверху по центру структуры
 gt.mbtt.structure.any_bottom_edge_casing=Любой крайний нижний корпус
-gt.mbtt.structure.middle_center_4th_layer=Middle center, 4th layer
+gt.mbtt.structure.middle_center_4th_layer=Посередине по центру, 4-й слой
 gt.mbtt.structure.specific_casings_on_each_curve=Specific casings on each curve (%s+)
 gt.mbtt.structure.specific_glass_on_each_side=Specific glass on each side
-gt.mbtt.structure.supports_crafting_input_buffers=Supports crafting input buffers
+gt.mbtt.structure.supports_crafting_input_buffers=Поддерживает входные буферы создания
+gt.mbtt.structure.front_center_27th_layer=Front center, 27th layer
+gt.mbtt.structure.back_left_or_right_side=Back, left, or right side of the structure
+gt.mbtt.structure.top_or_bottom_side=Top or bottom side of the structure
+gt.mbtt.structure.around_inner_ring=Around the inner ring
+gt.mbtt.structure.any_bottom_leg_casing=Any bottom leg casing
+gt.mbtt.structure.either_center_side_casing=Either center side casing
+gt.mbtt.structure.front_center_casing_or_any_bottom_casing=Front center casing (hot fluid), any bottom casing (distilled water)
+gt.mbtt.structure.back_center_casing_or_any_top_casing=Back center casing (cool fluid), any top casing (steam)
+gt.mbtt.structure.any_top_edge_casing=Any top edge casing
+gt.mbtt.structure.any_top_center_casing=Any top center casing
+gt.mbtt.structure.any_bottom_center_casing_replaces_other_hatches=Any bottom center casing (replaces other hatches)
+gt.mbtt.structure.any_unit_casing=Any unit casing
+gt.mbtt.structure.neutron_accelerator=Neutron Accelerator
+gt.mbtt.structure.neutron_sensor=Neutron Sensor
+gt.mbtt.structure.yot_hatch=YOTHatch
+gt.mbtt.structure.no_air_gaps_fluid_cells_different_tiers=No air gaps allowed, but the fluid cell blocks can be different tiers
 
 # Generic machine types
 gt.mbtt.machine_type.spacetime_manipulator=Пространственно-временной манипулятор, EOH
@@ -1738,7 +1754,13 @@ gt.mbtt.machine_type.blast_furnace=Доменная печь, Печь
 gt.mbtt.machine_type.plasma_fabricator=Производитель плазмы
 gt.mbtt.machine_type.stellar_forge=Звёздная Кузница
 gt.mbtt.machine_type.restorer=Восстановитель
-gt.mbtt.machine_type.fusion_reactor=Fusion Reactor
+gt.mbtt.machine_type.fusion_reactor=Термоядерный реактор
+gt.mbtt.machine_type.antimatter_forge=Antimatter Forge, SSASS
+gt.mbtt.machine_type.antimatter_generator=Antimatter Generator, SLAM
+gt.mbtt.machine_type.heat_exchanger_ehe=Heat Exchanger, EHE
+gt.mbtt.machine_type.neutron_activator=Neutron Activator, NA
+gt.mbtt.machine_type.precise_assembler=Precise Assembler, Assembler, PrAss
+gt.mbtt.machine_type.fluid_tank=Fluid Tank
 
 GT5U.MBTT.HatchInfo=Любой %s
 GT5U.MBTT.HatchHint= (Подсказка: %s)
@@ -1836,18 +1858,6 @@ gt.multiblock.AdvHeatExchanger.hotsolarsalt=§cРаскалённая солне
 gt.multiblock.AdvHeatExchanger.throttle1=Схема в контроллере снижает порог и эффективность ПГ пара
 gt.multiblock.AdvHeatExchanger.throttle2=§d-3.75%§7 снижения и §f-1.5%§7 потери эффективности на конфигурацию схемы более 1
 
-gt.multiblock.ExtremeHeatExchanger.desc1=Вводите §cлаву§7, §cгорячий хладагент§7, §cраскалённую солнечную соль§7, или §cплазма
-gt.multiblock.ExtremeHeatExchanger.desc2=Выдаёт§9 базальтовую лаву§7,§9 IC2 хладагент§7, §9 охлаждённую солнечную соль§7, или §9расплавленный металл
-gt.multiblock.ExtremeHeatExchanger.desc3=Преобразует дистиллированную воду в §fПГ пар/СК пар§7 в процессе
-gt.multiblock.ExtremeHeatExchanger.desc4=Выдаёт §fСК пар§7, если входной поток равен или превышает §dпороговое§7 значение:
-gt.multiblock.ExtremeHeatExchanger.desc5=Взрывается мгновенно, если в нём заканчивается Дистиллированная вода
-gt.multiblock.ExtremeHeatExchanger.lava=§cЛава§7 | порог ПГ §d80,000 %s/с§7 | макс. ввод §c160,000 %s/с§7 | макс. выход §f640,000 %s/t ПГ пара
-gt.multiblock.ExtremeHeatExchanger.hotcoolant=§cГорячий хладагент§7 | порог ПГ §d8,000 %s/с§7 | макс. ввод §c128,000 %s/с§7 | макс. выход §r1,280,000 %s/t ПГ пара
-gt.multiblock.ExtremeHeatExchanger.hotsolarsalt=§cРаскалённая солнечная соль§7 | порог ПГ §d1,600 %s/с§7 | макс. ввод §c3,200 %s/с§7 | макс. выход §f6160,000 %s/t ПГ пара
-gt.multiblock.ExtremeHeatExchanger.plasma1=§cПлазма всегда производит §rСжатый СК пар§7 независимо от скорости ввода
-gt.multiblock.ExtremeHeatExchanger.plasma2=Максимальная скорость входа и выхода зависит от плотности плазмы (EU/Л)
-gt.multiblock.ExtremeHeatExchanger.throttle1=Схема в контроллере снижает порог и эффективность ПГ пара
-gt.multiblock.ExtremeHeatExchanger.throttle2=Порог СК пара §d-150 Л/с§7 и выход пара §r-1.5%§7 за каждую схему выше тира 1
 
 gt.multiblock.NeutralizationEngine.efficiency=Может §fиспользовать§7 §bщелочь§7 для повышения §dэффективности §7(потребляет по одной штуке):
 gt.multiblock.NeutralizationEngine.alkali_text=§b%s§7 : §d%d%%§7 : §f%d§7/§fминуту
@@ -2910,8 +2920,8 @@ GT5U.gui.text.power_panel=Панель управления энергией
 GT5U.gui.text.powerfail_events=События сбоя питания
 GT5U.gui.text.too_uncertain=Слишком неопределенный.
 GT5U.gui.text.invalid_parameters=Неверные параметры.
-GT5U.gui.text.enabled=§aВключён§f
-GT5U.gui.text.disabled=§cОтключён§f
+GT5U.gui.text.enabled=§aВкл§f
+GT5U.gui.text.disabled=§cОткл§f
 GT5U.gui.text.lma_craftingfx=Показать эффекты крафта
 GT5U.gui.text.repair_info=ПКМ по люку заполненным ящиком с инструментами или \nизолентой, чтобы исправить все неполадки.
 GT5U.gui.text.autorepair_info=Расходует 4 Изоленты, 2 Капсулы смазки,\n4 Стальных винта, и 2 HV Электросхемы\nЗа каждый авторемонт.
@@ -3811,10 +3821,10 @@ GT5U.armor.part.tooltip.Quantum=Продвинутое ядро для меха�
 GT5U.armor.part.tooltip.Living=Суприм ядро для механической брони
 GT5U.armor.part.tooltip.Singularity=Совершенное ядро для механической брони
 
-GT5U.armor.part.name.NightVision=Аугмент: Регулировка оптической яркости
-GT5U.armor.part.name.CreativeFlight=Аугмент: Модуль управления гравитацией
+GT5U.armor.part.name.NightVision=Аугмент: регулировка яркости оптики
+GT5U.armor.part.name.CreativeFlight=Аугмент: модуль управления гравитацией
 GT5U.armor.part.name.Jetpack=Аугмент: электрический джетпак
-GT5U.armor.part.name.VectoredJetpack=Augment: Vectored Jetpack
+GT5U.armor.part.name.VectoredJetpack=Аугмент: реактивный ранец с векторной тягой
 GT5U.armor.part.name.FireImmunity=Аугмент: система рассеивания тепла
 GT5U.armor.part.name.StepAssist=Аугмент: калибраторы высоты шага
 GT5U.armor.part.name.GogglesOfRevealing=Аугмент: встроенная линза открытия
@@ -3830,15 +3840,15 @@ GT5U.armor.part.name.SpaceSuit=Аугмент: снаряжение астрон
 GT5U.armor.part.name.ForceField=Аугмент: энергетическая защитная сетка
 GT5U.armor.part.name.OmniMovement=Аугмент: регуляторы всенаправленного движения
 GT5U.armor.part.name.WaterBreathing=Аугмент: ребризер
-GT5U.armor.part.name.MilkInfusion=Аугмент: молочная инфузия
+GT5U.armor.part.name.MilkInfusion=Аугмент: подача молока
 GT5U.armor.part.name.HoloInventory=Аугмент: голографический инвентарь
 GT5U.armor.part.name.Terrasteel=Augment: Terrestrial Enhancement
-GT5U.armor.part.name.ApprenticeStriders=Augment: Apprentice Striders
-GT5U.armor.part.name.ArchmageStriders=Augment: Archmage Striders
-GT5U.armor.part.name.EldritchStriders=Augment: Eldritch Striders
+GT5U.armor.part.name.ApprenticeStriders=Аугмент: скороходы ученика
+GT5U.armor.part.name.ArchmageStriders=Аугмент: скороходы архимага
+GT5U.armor.part.name.EldritchStriders=Аугмент: скороходы Древних
 
 GT5U.armor.part.tooltip.NightVision=Позволяет видеть чётко ночью и в темноте
-GT5U.armor.part.tooltip.CreativeFlight=Предоставляет пользователю полёт в режиме творчества
+GT5U.armor.part.tooltip.CreativeFlight=Даёт возможность летать как в творческом режиме
 GT5U.armor.part.tooltip.Jetpack=Позволяет взлетать вверх и зависать в воздухе
 GT5U.armor.part.tooltip.VectoredJetpack=An upgraded jetpack with improved flight stats and hover stability
 GT5U.armor.part.tooltip.FireImmunity=Делает пользователя полностью невосприимчивым к огню и лаве
@@ -3849,11 +3859,11 @@ GT5U.armor.part.tooltip.Hazmat=Обеспечивает защиту от опа
 GT5U.armor.part.tooltip.Apiarist=Нейтрализует негативные эффекты пчёл, как при ношении брони пасечника
 GT5U.armor.part.tooltip.SwimSpeed=Увеличивает скорость плавания
 GT5U.armor.part.tooltip.KnockbackResistance=Защищает от отбрасывания
-GT5U.armor.part.tooltip.SpeedBoost=Allows the user to move faster. Can be applied multiple times
+GT5U.armor.part.tooltip.SpeedBoost=Позволяет двигаться быстрее. Можно иметь несколько улучшений.
 GT5U.armor.part.tooltip.JumpBoost=Позволяет прыгать выше
-GT5U.armor.part.tooltip.FallProtection=Преобразует урон от падения в расход ЕЭ
+GT5U.armor.part.tooltip.FallProtection=Преобразует урон от падения в расход EU
 GT5U.armor.part.tooltip.SpaceSuit=Добавляет функцию скафандра. Необходимо установить на все четыре части брони
-GT5U.armor.part.tooltip.ForceField=Позволяет развернуть мощный силовой щит, поглощающий любой урон за огромное количество ЕЭ
+GT5U.armor.part.tooltip.ForceField=Позволяет развернуть мощный силовой щит, поглощающий любой урон за огромное количество EU
 GT5U.armor.part.tooltip.OmniMovement=Позволяет двигаться с повышенной скоростью во всех направлениях
 GT5U.armor.part.tooltip.WaterBreathing=Восстанавливает запас воздуха при нахождении под водой
 GT5U.armor.part.tooltip.MilkInfusion=Снимает негативные эффекты зелий
@@ -8163,9 +8173,9 @@ item.gt.depletedRodNaquadria2.name=Сдвоенный топливный сте�
 item.gt.depletedRodNaquadria4.name=Счетверённый топливный стержень (Обеднённый наквадрий)
 
 # Condensate Fluid and Cells
-abbrev.entangled_neutronium.name=Нейтроний
-abbrev.entangled_cosmicneutronium.name=Космический нейтроний
-abbrev.entangled_bedrockium.name=Бедрокий
+abbrev.entangled_neutronium=Neutronium
+abbrev.entangled_cosmicneutronium=Cosmic Neutronium
+abbrev.entangled_bedrockium=Bedrockium
 abbrev.entangled_celestialtungsten=Небесный вольфрам
 abbrev.entangled_chromaticglass=Хроматическое стекло
 abbrev.entangled_cosmicsolder=Космический припой
@@ -9313,7 +9323,7 @@ GT5U.gui.text.available-condensate=Available Condensate:
 GT5U.gui.text.bec-stored-condensate=Stored Condensate:
 
 # BEC I/O Node Structure Hints
-GT5U.tooltip.bec-ionode.controller-pos=Front center, 12th layer
+GT5U.tooltip.bec-ionode.controller-pos=Спереди в центре, 12-й слой
 GT5U.tooltip.bec-ionode.hatch-pos=Any electromagnetically-isolated casing
 GT5U.tooltip.bec-ionode.los-hatch-pos=Back center casing
 
@@ -9333,7 +9343,7 @@ GT5U.tooltip.forge-of-gods.second-ring=Второе кольцо
 GT5U.tooltip.forge-of-gods.third-ring=Третье кольцо
 
 # BEC Generator Structure Hints
-GT5U.tooltip.bec-generator.controller-pos=Front center, 10th layer
+GT5U.tooltip.bec-generator.controller-pos=Спереди в центре, 10-й слой
 GT5U.tooltip.bec-generator.hatch-pos=Any electromagnetically-isolated casing around controller
 GT5U.tooltip.bec-generator.bec-hatch-pos=Back center casing
 
@@ -9343,18 +9353,19 @@ GT5U.tooltip.bec-storage.hatch-pos=Any electromagnetically-isolated casing
 GT5U.tooltip.bec-storage.bec-hatch-pos=Any center side casing
 
 # BEC Diode Structure Hints
-GT5U.tooltip.bec-diode.controller-pos=Front center, 6th layer
+GT5U.tooltip.bec-diode.controller-pos=Спереди в центре, 6-й слой
 GT5U.tooltip.bec-diode.hatch-pos=Any electromagnetically-isolated casing
 GT5U.tooltip.bec-diode.bec-hatch-pos=Center left casing (input), center right casing (output)
 
 # BEC Assembler Structure Hints
-GT5U.tooltip.bec-assembler.controller-pos=Front center, 16th layer
+GT5U.tooltip.bec-assembler.controller-pos=Спереди в центре, 16-й слой
 GT5U.tooltip.bec-assembler.hatch-pos=Any outer electromagnetically-isolated casing, every other IO port ring 
 GT5U.tooltip.bec-assembler.bec-hatch-pos=Center left or right casing
 GT5U.tooltip.bec-assembler.los-hatch-pos=Center side casing of each ring
 
 # BEC Settings
 GT5U.gui.text.bec-filter=Фильтр
+GT5U.gui.text.bec-filter-n=Filter %s
 GT5U.gui.text.bec-operation=Operation
 GT5U.gui.text.bec-threshold=Порог
 GT5U.gui.text.bec-current=Текущий:
