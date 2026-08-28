@@ -1729,6 +1729,22 @@ gt.mbtt.structure.middle_center_4th_layer=Middle center, 4th layer
 gt.mbtt.structure.specific_casings_on_each_curve=Specific casings on each curve (%s+)
 gt.mbtt.structure.specific_glass_on_each_side=Specific glass on each side
 gt.mbtt.structure.supports_crafting_input_buffers=Supports crafting input buffers
+gt.mbtt.structure.front_center_27th_layer=Front center, 27th layer
+gt.mbtt.structure.back_left_or_right_side=Back, left, or right side of the structure
+gt.mbtt.structure.top_or_bottom_side=Top or bottom side of the structure
+gt.mbtt.structure.around_inner_ring=Around the inner ring
+gt.mbtt.structure.any_bottom_leg_casing=Any bottom leg casing
+gt.mbtt.structure.either_center_side_casing=Either center side casing
+gt.mbtt.structure.front_center_casing_or_any_bottom_casing=Front center casing (hot fluid), any bottom casing (distilled water)
+gt.mbtt.structure.back_center_casing_or_any_top_casing=Back center casing (cool fluid), any top casing (steam)
+gt.mbtt.structure.any_top_edge_casing=Any top edge casing
+gt.mbtt.structure.any_top_center_casing=Any top center casing
+gt.mbtt.structure.any_bottom_center_casing_replaces_other_hatches=Any bottom center casing (replaces other hatches)
+gt.mbtt.structure.any_unit_casing=Any unit casing
+gt.mbtt.structure.neutron_accelerator=Neutron Accelerator
+gt.mbtt.structure.neutron_sensor=Neutron Sensor
+gt.mbtt.structure.yot_hatch=YOTHatch
+gt.mbtt.structure.no_air_gaps_fluid_cells_different_tiers=No air gaps allowed, but the fluid cell blocks can be different tiers
 
 # Generic machine types
 gt.mbtt.machine_type.spacetime_manipulator=시공간 조작기, EOH
@@ -1739,6 +1755,12 @@ gt.mbtt.machine_type.plasma_fabricator=플라즈마 제조기
 gt.mbtt.machine_type.stellar_forge=항성 단조기
 gt.mbtt.machine_type.restorer=Restorer
 gt.mbtt.machine_type.fusion_reactor=Fusion Reactor
+gt.mbtt.machine_type.antimatter_forge=Antimatter Forge, SSASS
+gt.mbtt.machine_type.antimatter_generator=Antimatter Generator, SLAM
+gt.mbtt.machine_type.heat_exchanger_ehe=Heat Exchanger, EHE
+gt.mbtt.machine_type.neutron_activator=Neutron Activator, NA
+gt.mbtt.machine_type.precise_assembler=Precise Assembler, Assembler, PrAss
+gt.mbtt.machine_type.fluid_tank=Fluid Tank
 
 GT5U.MBTT.HatchInfo=모든 %s
 GT5U.MBTT.HatchHint=(힌트: %s)
@@ -1836,18 +1858,6 @@ gt.multiblock.AdvHeatExchanger.hotsolarsalt=§c고온 태양열 염§7 | SH 임�
 gt.multiblock.AdvHeatExchanger.throttle1=컨트롤러의 회로가 증기를 소모하여 SH 임계값을 낮춥니다.
 gt.multiblock.AdvHeatExchanger.throttle2=회로가 1개를 초과할 때마다 SH 임계값이 §d-3.75%§7, 증기 출력이 §r-1.5%§7 감소합니다.
 
-gt.multiblock.ExtremeHeatExchanger.desc1=투입물은 §c용암§7, §c고온 냉각수§7, §c고온 태양열 염§7 또는 §c플라스마§7입니다
-gt.multiblock.ExtremeHeatExchanger.desc2=출력물은 §9파호이호이 용암§7, §9IC2 냉각수§7, §9저온 태양열 염§7 또는 §9용융 금속입니다
-gt.multiblock.ExtremeHeatExchanger.desc3=이 과정에서 증류수를 §rSH 증기§7 또는 §rSC 증기§7로 변환합니다.
-gt.multiblock.ExtremeHeatExchanger.desc4=뜨거운 유체의 입력량이 특정 §d임계값§7을 초과하면 §rSC 증기§7를 출력합니다
-gt.multiblock.ExtremeHeatExchanger.desc5=증류수가 떨어지면 즉시 폭발합니다.
-gt.multiblock.ExtremeHeatExchanger.lava=§c용암§7 | SC 임계값 §d80,000 %s/s§7 | 최대 입력 §c160,000 %s/s§7 | 최대 출력 §r640,000 %s/t SC 증기
-gt.multiblock.ExtremeHeatExchanger.hotcoolant=§c뜨거운 냉각수§7 | SC 임계값 §d8,000 %s/s§7 | 최대 입력 §c128,000 %s/s§7 | 최대 출력 §r1,280,000 %s/t SC 증기
-gt.multiblock.ExtremeHeatExchanger.hotsolarsalt=§c고온 태양열 염§7 | SC 임계값 §d1,600 %s/s§7 | 최대 입력 §c3,200 %s/s§7 | 최대 출력 §r160,000 %s/t SC 증기
-gt.multiblock.ExtremeHeatExchanger.plasma1=§c플라즈마§7는 입력 속도와 관계없이 항상 §r고밀도 SC 증기§7를 출력합니다
-gt.multiblock.ExtremeHeatExchanger.plasma2=최대 입력 및 출력 속도는 플라즈마의 밀도(EU/L)에 따라 달라집니다.
-gt.multiblock.ExtremeHeatExchanger.throttle1=컨트롤러의 회로가 증기를 소모하여 SC 임계값을 낮춥니다.
-gt.multiblock.ExtremeHeatExchanger.throttle2=§d-150 %s/s§7 SC 임계값 및 §r-1.5%%§7 회로당 1 초과 시 증기 출력
 
 gt.multiblock.NeutralizationEngine.efficiency=§f사용할 §7염기 §b하나로 §7효율을 §d높일 §7수 있습니다(하나씩 소모):
 gt.multiblock.NeutralizationEngine.alkali_text=§b%s§7 : §d%d%%§7 : §f%d§7/§f분
@@ -8163,9 +8173,9 @@ item.gt.depletedRodNaquadria2.name=이중 연료봉 (고갈된 나콰드리아)
 item.gt.depletedRodNaquadria4.name=4중 연료봉 (고갈된 나콰드리아)
 
 # Condensate Fluid and Cells
-abbrev.entangled_neutronium.name=뉴트로늄
-abbrev.entangled_cosmicneutronium.name=우주 중성자석
-abbrev.entangled_bedrockium.name=베드로키움
+abbrev.entangled_neutronium=Neutronium
+abbrev.entangled_cosmicneutronium=Cosmic Neutronium
+abbrev.entangled_bedrockium=Bedrockium
 abbrev.entangled_celestialtungsten=천상의 텅스텐
 abbrev.entangled_chromaticglass=색채 유리
 abbrev.entangled_cosmicsolder=우주 땜납
@@ -9355,6 +9365,7 @@ GT5U.tooltip.bec-assembler.los-hatch-pos=각 링의 중앙 측면 케이싱
 
 # BEC Settings
 GT5U.gui.text.bec-filter=필터
+GT5U.gui.text.bec-filter-n=Filter %s
 GT5U.gui.text.bec-operation=작업
 GT5U.gui.text.bec-threshold=임계값
 GT5U.gui.text.bec-current=전류:
