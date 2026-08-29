@@ -1,6 +1,6 @@
-Critical Power!!!
-{aqua:{var:power}} EU/t and {aqua:{var:capacity}M} EU capacity per Energy Hatch
-If the recipe has a startup cost greater than the
-number of energy hatches * cap, you can't do it
-If the recipe requires a voltage tier over {var:tier}{gray:, you can't do it either}
-Has {white:(1 + }{light_purple:Machine Tier}{white: - }{green:Recipe Tier}{white:) * 64}{gold: Parallels}
+Критическая энергия!!!
+{aqua:{var:power}} EU/t и ёмкость {aqua:{var:capacity}M} EU на каждый энерговвод
+Если начальная стоимость рецепта превышает
+количество энерговводов * предел, вы не можете этого сделать
+Если рецепт требует тир вольтажа выше {var:tier}{gray:, вы также не сможете его выполнить}
+Имеет {white:(1 + }{light_purple:тир механизма}{white: - }{green:тир рецепта}{white:) * 64}{gold: параллелей}
