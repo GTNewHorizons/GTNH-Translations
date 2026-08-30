@@ -447,7 +447,7 @@ ttresearch.page.REVEALING_HELM.0=As it turns out, goggles don't offer much prote
 # -- THAUMIC REHABILITATOR
 ttresearch.name.REPAIRER=Thaumic Restorer
 ttresearch.lore.REPAIRER=Undoing the damage you've done
-ttresearch.page.REPAIRER.0=You created a new contraption to restore broken tools. By right clicking this block with a broken tool and hooking it to essentia tubes, it'll gather essentia to repair the tool.<BR><BR>The essentia that will repair items is Instrumentum.<BR><BR>Looking at the block with goggles of revealing also shows how worn down the item in it still is. Redstone current will be emitted while an item is being repaired.
+ttresearch.page.REPAIRER.0=You created a new contraption to restore broken tools. By right clicking this block with a broken tool and hooking it to essentia tubes, it'll gather essentia to repair the tool.<BR><BR>The essentia that will repair items is Instrumentum.<BR><BR>Looking at the block with goggles of revealing also shows how worn down the item in it still is. Redstone current will be emitted while an item is being repaired.<BR><BR>Items can be inserted and extracted with automation. It will only extract the item when repairing is done.
 
 # -- WAND FOCUS: DISTORTION
 ttresearch.name.FOCUS_DEFLECT=Wand Focus: Distortion
@@ -654,3 +654,7 @@ ttwaila.pullingAdultType=Pulling: Adult %s
 ttwaila.pullingChildType=Pulling: Child %s
 ttwaila.pushingAdultType=Pushing: Adult %s
 ttwaila.pushingChildType=Pushing: Child %s
+
+# -- NEI
+tt.nei.category.infusedseeds=Infused Seed Drops
+tt.nei.chance=Drop Chance
