@@ -160,6 +160,7 @@ chat.appliedenergistics2.WirelessInOtherDim=%d §e“%d§e”§r位于维度：%
 chat.appliedenergistics2.WirelessHighlighterPrefix=无线
 chat.appliedenergistics2.WirelessHighlighterNetworkPrefix=网络无线连接 §e"%s§e"§r -
 chat.appliedenergistics2.WirelessHighlighterColorPrefix=无线网络§e"%2$s§e"§r的颜色§e"%1$s§e"§r-
+chat.appliedenergistics2.ControllerAnimation=控制器动画： %s
 
 # Creative Tabs
 itemGroup.appliedenergistics2=应用能源2
@@ -306,6 +307,7 @@ gui.appliedenergistics2.GrindStone=磨具
 gui.appliedenergistics2.ImportBus=ME输入总线
 gui.appliedenergistics2.Interface=ME接口
 gui.appliedenergistics2.LevelEmitter=ME标准发信器
+gui.appliedenergistics2.AdvancedLevelEmitter=ME进阶发信器
 gui.appliedenergistics2.Of=/
 gui.appliedenergistics2.Patterns=样板
 gui.appliedenergistics2.SpatialIOPort=空间IO端口
@@ -480,6 +482,8 @@ gui.appliedenergistics2.CPUOnlyAllowNonPlayer=仅来自非玩家
 gui.appliedenergistics2.CPUOnlyAllowPlayer=仅来自玩家
 gui.appliedenergistics2.CPUSourcePlayer=请求者
 gui.appliedenergistics2.CPUSourceMachineRequested=机器请求
+gui.appliedenergistics2.UpgradesInstalled=Upgrades Installed
+gui.appliedenergistics2.FakeUpgrade=Behaves like these Upgrades are Installed:
 
 gui.appliedenergistics2.NetworkBytesDetails=网络存储信息
 gui.appliedenergistics2.Items=物品
@@ -755,6 +759,8 @@ gui.tooltips.appliedenergistics2.CraftingModeStandard=标准合成模式
 gui.tooltips.appliedenergistics2.CraftingModeStandardDesc=仅在ME系统中所有原料都充足时开始合成。
 gui.tooltips.appliedenergistics2.CraftingModeIgnoreMissing=忽略缺失合成模式
 gui.tooltips.appliedenergistics2.CraftingModeIgnoreMissingDesc=开始合成，即使ME网络中缺少原料。
+gui.appliedenergistics2.CraftingModeLite=轻量合成模式
+gui.appliedenergistics2.CraftingModeLiteDesc=禁用部分样板功能，大幅加快合成计算速度。
 
 gui.tooltips.appliedenergistics2.ExtraOptions=额外选项
 
@@ -822,6 +828,14 @@ gui.tooltips.appliedenergistics2.WirelessKitBindName=绑定
 gui.tooltips.appliedenergistics2.WirelessKitBindDesc=将第二列的无线设备绑定到第三列的无线设备上
 gui.tooltips.appliedenergistics2.WirelessKitUnbindName=解除绑定
 gui.tooltips.appliedenergistics2.WirelessKitUnbindDesc=断开第二列无线设备的连接
+
+gui.tooltips.appliedenergistics2.AdvancedLevelEmitterLogic=逻辑模式
+gui.tooltips.appliedenergistics2.AdvancedLevelEmitterLogicAnd=与 - 所有启用槽位匹配时发送信号
+gui.tooltips.appliedenergistics2.AdvancedLevelEmitterLogicOr=或 - 任一启用槽位匹配时发送信号
+gui.tooltips.appliedenergistics2.AdvancedLevelEmitterSlotEnabled=槽位状态
+gui.tooltips.appliedenergistics2.AdvancedLevelEmitterSlotEnabledOn=槽位已启用
+gui.tooltips.appliedenergistics2.AdvancedLevelEmitterSlotEnabledOff=槽位已禁用
+gui.tooltips.appliedenergistics2.AdvancedLevelEmitterSlotInvert=反转红石信号
 
 gui.tooltips.appliedenergistics2.PinsSection=标记区
 gui.tooltips.appliedenergistics2.PinsSectionActive=§6左键§8 - §7添加玩家行\n§6右键§8 - §7移除玩家行\n§6Ctrl + 左键§8 - §7添加合成行\n§6Ctrl + 右键§8 - §7移除合成行\n§6Shift + 右键§8 - §7取消固定§r
@@ -1060,6 +1074,7 @@ item.appliedenergistics2.ItemPart.ExportBus.name=ME输出总线
 item.appliedenergistics2.ItemPart.ImportBus.name=ME输入总线
 item.appliedenergistics2.ItemPart.Interface.name=ME接口
 item.appliedenergistics2.ItemPart.LevelEmitter.name=ME标准发信器
+item.appliedenergistics2.ItemPart.AdvancedLevelEmitter.name=ME进阶发信器
 item.appliedenergistics2.ItemPart.P2PTunnel.name=P2P通道
 item.appliedenergistics2.ItemPart.PatternTerminal.name=ME样板终端
 item.appliedenergistics2.ItemPart.PatternTerminalEx.name=ME增广样板终端
@@ -1184,7 +1199,7 @@ item.appliedenergistics2.WirelessMessages.SuperBound=§a位于%s的网络§a已�
 item.appliedenergistics2.WirelessMessages.SuperBoundFailed=§c网络已在列表中
 item.appliedenergistics2.WirelessMessages.SuperClear=Shift+Ctrl+右键点击以重置当前工具模式
 item.appliedenergistics2.WirelessMessages.SuperNetworkList=网络列表：
-item.appliedenergistics2.WirelessMessages.Network=网络 %s （位于 %s）
+item.appliedenergistics2.WirelessMessages.SuperNetwork=网络 %s位于 %s
 item.appliedenergistics2.WirelessMessages.SuperNetworkListEmpty=列表中没有网络
 
 item.appliedenergistics2.WirelessMessages.rowBindSuccess=§a成功连接 %s §a至 %s
@@ -1271,7 +1286,8 @@ key.appliedenergistics2.category=应用能源2
 key.pick_block.desc=AE2 选取方块
 key.toggle_focus.desc=切换是否选中搜索框
 key.search_connected_inventories.desc=在网络库存中搜索指定物品
-key.locate_item_flow.desc=Highlight recent item flow for hovered item
+key.locate_item_flow.desc=高亮鼠标悬停的物品最近流向的位置
+key.cycle_controller_animation.desc=循环控制器动画
 key.container_interaction.desc=容器物品交互
 key.wireless_extra_action.desc=无线额外操作
 key.wireless_mode_switch.desc=无线模式切换

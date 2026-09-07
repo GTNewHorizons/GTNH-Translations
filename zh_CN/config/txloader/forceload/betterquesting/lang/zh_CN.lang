@@ -131,7 +131,7 @@ betterquesting.quest.U7JoxM0mRaWx0MYriD2LtQ.desc=我们向下移植了高版本�
 
 # Quest: In-game Guide
 betterquesting.quest.pcDIaSYHTkuVTBkdRwWWJw.name=游戏内指南
-betterquesting.quest.pcDIaSYHTkuVTBkdRwWWJw.desc=快来看看游戏内指南吧！它会告诉你每个版本的新内容，并提供详细的教程、可视化资料，以及比整合包内任何其他地方都更全面的信息！%n%n要打开指南，你可以使用指南物品，或者绑定§a打开指南主页§r快捷键。%n%n[img height=200]midnight:textures/gui/guide-nh-pictures/guide-nh-image.png[/img]
+betterquesting.quest.pcDIaSYHTkuVTBkdRwWWJw.desc=快来看看游戏内指南吧！它会告诉你每个版本的新内容，并提供详细的教程、可视化资料，以及比整合包内任何其他地方都更全面的信息！%n%n要打开指南，你可以绑定§a打开指南主页§r快捷键。%n%n[img height=200]midnight:textures/gui/guide-nh-pictures/guide-nh-image.png[/img]
 
 
 ## Quest Line: Tips and Tricks
@@ -153,6 +153,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALDw.desc=本任务涵盖了所有的覆�
 # Quest: Lootbag Uptiering
 betterquesting.quest.ZM4oSqeWQRW1Y-zoE01ivg.name=战利品袋升级
 betterquesting.quest.ZM4oSqeWQRW1Y-zoE01ivg.desc=在GTNH中，战利品袋（lootbag）是非常实用的资源加速工具。它们有许多不同的类型，并且这些类型都拥有升级路径，可以获得更好的资源。%n%n当你想要升级战利品袋时，有两条路径可选：附魔时运，或者升级战利品袋本身。给战利品袋附魔时运可以提升开启时获得稀有掉落的几率，而升级战利品袋本身则会将掉落池切换为更高级战利品袋的掉落池。值得注意的是，如果你选择提升战利品袋等级，需要消耗3个前一级的战利品袋，所以在升级前要确认是否值得这样做。%n%n§2如果你想要最大化收益，推荐同时提升战利品袋等级并附加时运附魔。%n§r%n[note]请务必使用NEI查看所有相关信息。对战利品袋按下U，你就能看到潜在掉落物，不同时运等级对应的掉落几率，以及提升袋子等级所需的合成配方。[/note]%n
+
+# Quest: Build Your Own Keep Inventory
+betterquesting.quest.ezKBb_2UTLWr71XJ03B7wQ.name=§5§l手搓死亡不掉落
+betterquesting.quest.ezKBb_2UTLWr71XJ03B7wQ.desc=The Ender IO mod adds one of the handiest enchantments in the game: Soulbound. An item enchanted with it stays in your inventory when you die, while everything else drops into your grave.%n%nThe best part: it works on almost anything, even items that normally reject enchantments:%n%n- Backpacks (both normal and adventure backpacks) - including everything inside them%n- The Mantle of the Raven and the Rod of the Skies%n- Even Tinkers' Construct tools, which normally ignore vanilla enchantments completely%n%nHow to get it:%n%n1. The Ender IO Enchanter crafts soulbound books from a Book and Quill and an Ender Crystal. See the [questlink]AAAAAAAAAAAAAAAAAAAAqg==[/questlink] quest.%n%n2. Loot bags regularly drop enchanted books, soulbound among them - higher tiers give better chances. See the "Do You Feel Unlucky?" quest.%n%n3. Found an item that already has soulbound? Strip it off with the Draconic Evolution Disenchanter to get the book. See the [questlink]AAAAAAAAAAAAAAAAAAAIFA==[/questlink]quest - surrounding the Disenchanter with bookcases reduces the damage it deals.%n%nApplying it is easy: use a vanilla anvil, just like any other enchantment.%n%n[note]PS: Put soulbound on your backpack itself - the backpack and everything inside it stays with you on death.[/note]
 
 
 ## Quest Line: Tier 0 - Stone Age
@@ -365,7 +369,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF4A.desc=寻矿魔杖能减轻找矿脉�
 
 # Quest: A Better Crafting Table
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5A.name=§a§l一个更好的工作台
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5A.desc=受够了每次走开，工作台上的东西就掉一地？ 这个来自匠魂的合成站自带槽位，能存住你放在配方里的物品。%n%n你还能在其中一次性消耗8个强化材料升级工具。拿来打速度（红石）和抢夺（青金石）强化，十分方便！%n%n把它放在原版箱子旁边，合成界面中还会显示箱子的库存。仅限单个或大型的原版箱子。%n%n再给它锯一刀，能得到个更简洁、低调的款式。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF5A.desc=受够了每次走开，工作台上的东西就掉一地？ 这个来自匠魂的合成站自带槽位，能存住你放在配方里的物品。%n%n你还能在其中强化工具，例如速度强化（红石）和抢夺/时运强化（青金石），十分方便！%n%n把它放在原版箱子旁边，合成界面中还会显示箱子的库存。仅限单个或大型的原版箱子。%n%n再给它锯一刀，能得到个更简洁、低调的款式。
 
 # Quest: All the Finest Cuts of Meat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFxA.name=§a§l上好的肉块
@@ -680,6 +684,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADrg.desc=搋子用于清除管道中残�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.name=§c§l比铁更好
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADtA.desc=但不如钢好。铸铁主要用于机器外壳。如果你想省些钢的话，它也可以用来制造工具。%n%n要制造铸铁，首先需要将铁锭放进匠魂冶炼炉浇筑成铁粒，也可以用锯子手切出粒。然后再将铁粒放进熔炉烧成铸铁粒。最后，用压缩机将这些粒压成锭。%n%n§3提示：粉碎或者洁净的铁矿石（不是像黄铁矿这种混合矿石，而是黄铜矿脉中的纯铁矿石）都可以直接放进熔炉烧成铁粒。%n%n你也可以使用合金炉来将铁锭制成铁粒，比冶炼炉更快。%n%n以后，你还可以使用电弧炉直接将铁锭制成铸铁锭。
 
+# Quest: Be Sure to Get Your Armpits
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.name=§c§l别忘了把腋下也洗洗
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.desc=想要用美味的经验来提高你的等级？将存储液态经验的水槽置于你的上方，接上这个这个方便的经验莲蓬头，就能从水槽中导出经验。%n%n这会造成卡顿，所以请小心不要一次性放出太多经验球。输入红石信号即可将其关闭。
+
 # Quest: New Source of Glowstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERA.name=§c§l新的荧石来源
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAERA.desc=在下界寻找一些（潘马斯的）辉光花，将它们种植到主世界中。这样你就不需要再去下界寻找荧石了。%n%n[note]它们需要种在灵魂沙上才能生长！[/note]
@@ -842,7 +850,7 @@ betterquesting.quest.fRHWhPgpRyyvSRZpL1Pkbw.desc=你可能需要第二个铁砧�
 
 # Quest: Underground Geodes
 betterquesting.quest.w00gbWZ4QG60V0neazNERw.name=地下晶洞
-betterquesting.quest.w00gbWZ4QG60V0neazNERw.desc=你可以在地下晶洞中发现紫水晶块、水晶和方解石。%n%n进入蒸汽时代后，方解石的价值将大幅提升，使用锻造锤可获取珍贵的方解石粉，后者正是制造砖高炉的关键材料。你可以在Y轴5至46层之间找到方解石。%n%n紫水晶同样可以开采，并用作二氧化硅的来源。开采一个紫水晶块可处理出9份紫水晶粉，因此是获取二氧化硅的绝佳选择。%n[note]%n在矿脉探测器放入方解石粉，可以更轻松地定位方解石。%n[/note]
+betterquesting.quest.w00gbWZ4QG60V0neazNERw.desc=你可以在地下晶洞中发现紫水晶块、水晶和方解石。%n%n进入蒸汽时代后，方解石的价值将大幅提升，使用锻造锤可获取珍贵的方解石粉，后者正是制造砖高炉的关键材料。你可以在Y轴5至46层之间找到方解石。%n%n紫水晶同样可以开采，并用作二氧化硅的来源。开采一个紫水晶块可处理出9份紫水晶粉，因此是获取二氧化硅的绝佳选择。%n[note]%n在矿脉探测器放入方解石粉，可以更轻松地定位方解石。[/note]
 
 
 ## Quest Line: Tier 1 - LV
@@ -1205,10 +1213,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-Q.desc=如果你想要啤酒或酒精�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-g.name=§2§l发酵酿酒！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE-g.desc=还有什么比迟缓药水更好？酿酒！做一台来酿造啤酒，朗姆酒，甚至伏特加酒。
 
-# Quest: Be Sure to Get Your Armpits
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.name=§2§l别忘了把腋下也洗洗
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAECw.desc=想要用美味的经验来提高你的等级？将存储液态经验的水槽置于你的上方，接上这个这个方便的经验莲蓬头，就能从水槽中导出经验。%n%n这会造成卡顿，所以请小心不要一次性放出太多经验球。输入红石信号即可将其关闭。
-
 # Quest: Lubricant
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPA.name=§2§l润滑油
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEPA.desc=在切割机中使用润滑油代替水或蒸馏水，可以提高切割速度。%n%n你可以用蒸馏室（或之后的蒸馏塔）来蒸馏种子油、鱼油或者杂酚油，获得润滑油。如果你能造出酿造室，就可以使用滑石或皂石，让每次循环产出更多润滑油。%n%n低阶能源仓需要润滑油单元来制造，所以囤积一些润滑油单元，然后将剩下的用来给切割机加速吧。
@@ -1222,7 +1226,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.name=§2§l钻石储罐……哦，�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEQw.desc=在你制造了一台切割机之后，就可以切割一些钻石板，制作容量 64,000L 的储罐了。
 
 # Quest: Firestone Ore/Dust
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§6§l火石矿/粉
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.name=§2§l火石矿/粉
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE_w.desc=BC里面的建筑机和填充机都要用到火石。不幸的是火石只会在下界岩浆湖的底部生成……%n%n不过这里有一些提示可能会帮助到你：%n%n-火石只会在6格深以上的岩浆湖中生成，并且它只会取代地狱岩，所以一个充满了灵魂沙的峡谷是绝对不会产生火石的。你能想到检查岩浆深度，并获知底部有什么的方法吗？%n-或者，如果你可以让自己的脑袋保持在岩浆上方正确的高度，并找到一个正确的角度，你就能直接看到岩浆湖的底部-当然，一个可以悬停的背包是必不可少的。%n-……或者直接把鼠标移到旅行者地图上查看生物群系。 地狱（Hell）就是默认的地狱岩地形。%n%n只要在GT采矿机的工作范围内，火石也可以直接被挖出来。火石矿石或火石都会不断点燃身边的方块，因此找到后马上将它们收纳到背包里。%n%n[warn]点击下方选框以确认你已经准备好获取本任务的奖励，以及处理它可能导致的火灾。[/warn]
 
 # Quest: Ardite and Cobalt
@@ -1239,7 +1243,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEcA.desc=无损的32 EU线缆怎么样�
 
 # Quest: A New Alloy - Magnalium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfQ.name=§2§l新的合金——镁铝合金
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfQ.desc=想知道为什么现在需要镁铝合金吗？不是为了制造GT的机器，而是用来给你的弩升级材料。%n%n你之前应该已经获得了一些铝粉。一旦你有了工业高炉或MV电解机，获取铝就会变得更容易。%n如果你找不到铝，就去暮色森林里翻找箱子，或者杀几只怪物。%n%n在你的合金炉中把铝和镁结合，就可以得到镁铝合金了。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfQ.desc=想知道为什么现在需要镁铝合金吗？不是为了制造GT的机器，而是用来给你的弩升级材料。%n%n一旦你有了工业高炉或MV电解机，获取铝就会变得更容易。%n如果你找不到铝，就去暮色森林里翻找箱子，或者杀几只怪物。%n%n在你的合金炉中把铝和镁结合，就可以得到镁铝合金了。
 
 # Quest: Basic Fluid Solidifier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEgw.name=§2§l基础流体固化器
@@ -1291,7 +1295,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGAQ.desc=厌倦了因为工具时不时�
 
 # Quest: Magnesium Source
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.name=§2§l镁的来源
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.desc=菱镁矿是镁的来源，可以在暮色森林 Y = 10-40 找到。漂白土可以在主世界 Y = 50-70 找到。大理石粉也是不错的镁粉来源。%n其他 LV 阶段的选择还有镁铝榴石、橄榄石或灰烬。%n%n§3你只需要它们之中的一种，即可完成任务。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGBA.desc=菱镁矿是镁的来源，可以在暮色森林 Y = 10-25 找到。漂白土可以在主世界 Y = 50-70 找到。大理石粉也是不错的镁粉来源。%n其他 LV 阶段的选择还有镁铝榴石、橄榄石或灰烬。%n%n§3你只需要它们之中的一种，即可完成任务。
 
 # Quest: Node Upgrades
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGPw.name=§2§l节点升级
@@ -1328,6 +1332,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSQ.desc=需要末影珍珠？杀戮末�
 # Quest: Electric Furnace
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXw.name=§2§l电炉
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHXw.desc=它就是……更快一点的熔炉？ 但需要耗能。%n%n如果你还是更喜欢使用蒸汽，多方块机器也是一个不错的选择。
+
+# Quest: A Better Fluid Pipe
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.name=§2§l更好的流体管道
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.desc=既然你有了铅，你就可以把你的青铜流体管道换成具有更高容量的铅青铜流体管道了。
 
 # Quest: One in a Million
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHcw.name=§2§l百万归一
@@ -1367,7 +1375,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiQ.desc=氯是一种在整个游戏过�
 
 # Quest: Faster Steam Transportation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALIQ.name=§2§l更快的蒸汽传输
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALIQ.desc=你觉得蒸汽传输速度太慢了吗？LV电动泵每秒只能传输640L蒸汽，太让你失望了？那么，是时候制造速度是电动泵32倍的LV蒸汽阀了！%n%n蒸汽阀只支持蒸汽，速度与RC蓄水器阀门（底部）相同。%n%n还有MV、HV、EV和IV版本。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALIQ.desc=你觉得蒸汽传输速度太慢了吗？LV电动泵每秒只能传输640L蒸汽，太让你失望了？那么，是时候制造速度是电动泵32倍的LV蒸汽阀了！%n%n蒸汽阀只支持蒸汽，速度与RC蓄水器阀门（底部）相同。%n%n[note]还有MV、HV、EV和IV版本。[/note]
 
 # Quest: Long Distance Item Pipeline
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALIg.name=§2§l长距离物品管道
@@ -1383,7 +1391,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALSw.desc=厌倦了跟着矿石或者其�
 
 # Quest: Cobalt and Arsenic from Cobaltite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYg.name=§2§l钴和砷从辉钴来
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALYg.desc=在下界找不到钴矿石？不想在暮色森林枯燥地寻找铁木（其实这很简单）？%n%n现在你可以用工业高炉直接加工获得钴了，只要将从暮色森林挖来的辉钴矿与氧气同时注入高炉即可。这个过程稍微有些复杂，不过你还可以同时获得砷。%n%nMV之后，你也可以，同时也§o应该§r直接将其电解，毕竟这样产率更高（当然会损失一点碳）。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALYg.desc=在下界找不到钴矿石？不想在暮色森林枯燥地寻找铁木（其实这很简单）？%n%n现在你可以借助工业高炉，使用暮色森林里的辉钴矿与氧气获取钴了。这个过程稍微有些复杂，不过你还可以同时获得砷。%n%nMV之后你可以，同时也§o应该§r通过电解来生产钴，但如果你真的很需要它的话，前一方法产量更高（当然，需要消耗一些碳）。
 
 # Quest: Damascus Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALYw.name=§2§l大马士革钢
@@ -1397,6 +1405,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALow.desc=如果你的双层铝板有富�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.name=§2§l云母矿
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALpw.desc=云母是非常稀有而又很有用的矿石。它是制造线圈（用于工业高炉）的必需品，除了白铜线圈有个替代配方以外。要是你实在找不到云母矿脉的话，试着做出探矿仪之后去找找吧。
 
+# Quest: Steam Regulator
+betterquesting.quest.Hbe7iUTjQM-w7QX0Mr9clw.name=§2§lSteam Regulator
+betterquesting.quest.Hbe7iUTjQM-w7QX0Mr9clw.desc=Being able to pump steam with twice the throughput is great, but what if you also want to regulate it with that same 32x range? Well, look no further than the Steam Regulator.%n%nThis allows you to set the regulator's precise transfer rate in L/t.%n%n[note]Like the valves, Steam Regulators also have MV, HV, EV, and IV versions.[/note]
+
 # Quest: Handle Resources Like a Bo$$ #2
 betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.name=§2§l像Bo$$一样处理资源 #2
 betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.desc=人类工程技术的壮举，尽在你的掌握！%n%n这个机器允许你过滤九个物品，并只能按照设定好的方式输出。%n这台机器让你可以自动化类似电解配方这类需求物品数量不固定的配方，否则系统很容易被卡住%n%n[note]当你进入MV阶段并解锁更多电解配方时这台机器会发挥巨大作用！[/note]
@@ -1404,6 +1416,10 @@ betterquesting.quest.JRrD8MoLRuCHCD-fFpeNvQ.desc=人类工程技术的壮举，�
 # Quest: Keeping things organized
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.name=§2§l让一切井然有序
 betterquesting.quest.b47jlBoHTFGGB3j7nq60Zw.desc=你是否已经厌倦了将模头或模具从压模机或流体固化器中存放到周边容器之中？那么今天就是你的幸运日，因为这些槽位扩展就是为你做这些的！%n%n它们允许你的机器存储一些额外物品，每个格子只能存一个物品。这种覆盖板有三个等级，每种提供不同的存储容量。%n%n基础槽位扩展：9格%n优质槽位扩展：12格%n高级槽位扩展：15格%n%n[note]如果你已经使用了最高级的槽位扩展但空间需求仍未满足，你可以选择在机器上附着更多的槽位扩展覆盖板。[/note]
+
+# Quest: Reading the Grid
+betterquesting.quest.dDgHg5ddQm2_3kX59SlROA.name=§2§lReading the Grid
+betterquesting.quest.dDgHg5ddQm2_3kX59SlROA.desc=While the GT EU Meter can inspect one cable or machine at a time, troubleshooting a large power network that way quickly becomes rather tedious. If only there was a dedicated tool for that...%n%nThe Network Analyzer displays the entire connected EU network directly in the world, allowing you to follow power from generators to machines and identify dangerous sections before they become craters.%n%nRight-click a GT cable to bind the Analyzer to its network, then keep it in your hand to display the overlay. You can also use it on a multiblock controller to inspect the networks connected to all of its Energy and Dynamo Hatches.%n%nYou can shift-right-click to cycle through its five modes:%n- §9Topology§r displays the complete network and its worst case condition.%n- §cCritical§r displays only overloaded or otherwise dangerous sections.%n- §2Active§r displays cables that are currently carrying amperage.%n- §6Amperage§r compares the expected load with each cable’s capacity.%n- §5Voltage§r displays expected cable loss and warns about cables or machines receiving excessive voltage.%n%nOrange nodes are power sources, cyan nodes are consumers, and green nodes are forks in the network. Gray indicates an idle or unknown section, green is safe, yellow warns of significant voltage loss, and red indicates an overload, a cable that may burn, or a machine that may explode.%n%nLook directly at a node to see more detailed information about amperage, voltage loss, and any detected problems.%n%n[note]Amperage mode displays the potential load of the connected machines, while Active mode shows what is actually carrying power at that moment.[/note]%n%n[warn]Machines from other mods cannot always report their real amperage requirements. The Analyzer must estimate their consumption, so readings for IC2 machines, reactors, and other non-GT consumers may be inaccurate.[/warn]
 
 # Quest: Void Buses
 betterquesting.quest.kYGqUPpnQqq4aQJJTQakqw.name=§2§l虚空总线/仓
@@ -1540,7 +1556,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC4A.desc=使用MV发酵槽，你可以�
 
 # Quest: Extrude All the Things
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5A.name=§6§l压出所有东西（Extrude all the things）
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5A.desc=我知道你已经垂涎这个很久了……%n%n现在你达到了MV阶段，制作杆、管道、线缆，以及其它许多零件该有更好的产出比了。大部份的压模机配方都超过32EU/t，所以最好制作一台MV压模机。做好机器之后你还需要制作对应零件的模头。%n%n这里并未列举所有模头，记得根据自己的需要检查一下。%n%n[note]大部份格雷添加的匠魂工具部件都由压模机制作。 鉴于它们的实用性，为了平衡，其加工时间都很长。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5A.desc=我知道你已经垂涎这个很久了……%n%n现在你达到了MV阶段，制作杆、齿轮、环该有更好的产出比了。大部份的压模机配方都超过32EU/t，所以最好制作一台MV压模机。做好机器之后你还需要制作对应零件的模头。%n%n这里并未列举所有模头，记得根据自己的需要检查一下。%n%n[note]大部份格雷添加的匠魂工具部件都由压模机制作。 鉴于它们的实用性，为了平衡，其加工时间都很长。[/note]
 
 # Quest: Solar Grade Ingots
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC6g.name=§6§l太阳能级硅锭
@@ -1840,7 +1856,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGaw.desc=……所以砍掉它们的脑�
 
 # Quest: Pipes, Pipes Everywhere
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyA.name=§6§l管道，管道无处不在
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyA.desc=现在你已经进入MV，你将需要开始自动化。 如聚乙烯、氧气、氮气、氢气、橡胶、木炭等。更快的物品管道将有助于在你的基地内快速运输物品。 现在，使用你的漂亮的新压模机来制作一些黄铜物品管道。%n%n奖励-低优先物品管道-允许你确定目的地的优先级（利用路由值）。在处理路径时，低优先管道另一侧的位置与普通管道相比远得多。 当你想要让溢出（或不匹配）的物品去其他地方时非常方便！%n%n至于更高等级，在NEI中查找“*item pipe”，或者查询wiki：[url]https://wiki.gtnewhorizons.com/wiki/Fluid_%%26_Item_Pipes[/url]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyA.desc=现在你已经进入MV，你将需要开始自动化。 如聚乙烯、氧气、氮气、氢气、橡胶、木炭等。更快的物品管道将有助于在你的基地内快速运输物品。 现在，使用你的漂亮的新压模机来制作一些黄铜物品管道。%n%n奖励-低优先物品管道-允许你确定目的地的优先级（利用路由值）。在处理路径时，低优先管道另一侧的位置与普通管道相比远得多。 当你想要让溢出（或不匹配）的物品去其他地方时非常方便！%n%n至于更高等级，在NEI中查找“*item pipe”，或者查询wiki：[url]https://wiki.gtnewhorizons.com/wiki/Fluid_%%26_Item_Pipes[/url]%n%n[note]如果你需要比黄铜管道更快的传输速度，你可以试试琥珀金管道，但要小心金的消耗！[/note]
 
 # Quest: Borax Electrolyzing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-w.name=§6§l电解硼砂
@@ -1892,7 +1908,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHdg.desc=现在你有了一台MV压模�
 
 # Quest: Gut-Enough For You? Bet You Thought Newspapers Were Dead!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeQ.name=§6§l你受够了？我打赌你觉得报纸早就死了！
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeQ.desc=你可以使用排版台和拓印机复制附魔书。这需要大量的经验，所以是时候造个刷怪塔或者种点地了。举个例子，将时运III附魔书制作成附魔片需要40级经验。%n%n要使用§l排版台§r，你需要在顶部槽位放入拓印槽（译者注：排版台和拓印机没有GUI，手持物品对准槽位右键即可放入），左下槽位放入附魔书。经验充足时，Shift右击附魔书即可消耗相应等级的经验将其转化为附魔片。%n%n要使用§l拓印机§r，你需要将附魔片放入中央，将墨囊放入顶部的金属板，再将书放在下侧桌板的左手边。放置完毕后，机器会立刻开始运行，无需输入能量或红石信号。%n%n佩戴老花镜、太阳镜或单片眼镜看向这些方块时会显示更多信息。%n%n每个附魔片可制作三本附魔书，次数消耗完后就会消失。但是你可以每次只做两本附魔书，然后使用奥法修复台来修复它，这样就可以一直使用它了。%n%n[note]你需要用到一些神秘锭。你可以开始推进神秘时代，也可以在奖励箱中碰碰运气，或是尝试培育魔法金属莓（Magic Metal Berry）这种杂交作物。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeQ.desc=你可以使用排版台和拓印机复制附魔书。这需要大量的经验，所以是时候造个刷怪塔或者种点地了。举个例子，将时运III附魔书制作成附魔片需要40级经验。%n%n要使用§l排版台§r，你需要在顶部槽位放入拓印槽（译者注：排版台和拓印机没有GUI，手持物品对准槽位右键即可放入），左下槽位放入附魔书。经验充足时，Shift右击附魔书即可消耗相应等级的经验将其转化为附魔片。%n%n要使用§l拓印机§r，你需要将附魔片放入中央，将墨囊放入顶部的金属板，再将书放在下侧桌板的左手边。放置完毕后，机器会立刻开始运行，无需输入能量或红石信号。%n%n佩戴老花镜、太阳镜或单片眼镜看向这些方块时会显示更多信息。%n%n每个附魔片可制作三本附魔书，次数消耗完后就会消失。但是你可以每次只做两本附魔书，然后使用奥法修复台来修复它，这样就可以一直使用它了。%n%n[note]你需要用到一些神秘锭。你可以开始推进神秘时代，也可以在奖励箱中碰碰运气，或是尝试培育神秘矿梅这种杂交作物。[/note]
 
 # Quest: Do You Feel Unlucky?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeg.name=§6§l你觉得你是非酋？
@@ -1969,6 +1985,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMjg.desc=要是你对提纯硅的原料�
 # Quest: MV Wiremill
 betterquesting.quest.Bgu0MatiTJae3tNwj5FS1w.name=§6§lMV线材轧机
 betterquesting.quest.Bgu0MatiTJae3tNwj5FS1w.desc=MV线材轧机比LV线材轧机工作速度快2倍，电力消耗高4倍。
+
+# Quest: MV Cutting Machine
+betterquesting.quest.dJfn1aekS9asG9ve6FJskQ.name=§6§lMV Cutting Machine
+betterquesting.quest.dJfn1aekS9asG9ve6FJskQ.desc=As I'm sure you've figured out by now, some of the Cutting Machine recipes take quite a long time to complete. Fortunately, the MV Cutting Machine should help speed that process along nicely compared to the LV version.%n%n[note]This will also be required later in the questline for cutting up ULPICs![/note]
 
 # Quest: Dislocator Inhibitor
 betterquesting.quest.epVKHW7jSUiiLW4BPCqv9g.name=§6§l错位宝石抑制器
@@ -2173,7 +2193,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAE1A.desc=生产NOR、NAND和其他的高
 
 # Quest: Phosphorus Doped Monocrystalline Silicon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE1Q.name=§5§l磷掺杂的单晶硅
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAE1Q.desc=要制造更高级的晶圆，你需要先制造磷掺杂的单晶硅。这个过程需要一定时间，所以请确保稳定的能源供应。%n%n更高级的单晶硅可以切出更多的晶圆，制成更多的芯片。但某些时候一些低阶单晶硅也是少不了的。%n%n磷的来源有很多，你可以处理例如磷灰石或磷酸三钙的矿物。你也可以考虑离心灰烬，如果你有一套苯产线，或者选择从蜜蜂的蜂窝中获得灰烬的话。记住在查询NEI的时候要谨慎！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAE1Q.desc=要制造更高级的晶圆，你需要先制造磷掺杂的单晶硅。这个过程需要一定时间，所以请确保稳定的能源供应。%n%n更高级的单晶硅可以切出更多的晶圆，制成更多的芯片。但某些时候一些低阶单晶硅也是少不了的。%n%n磷的来源有很多，你可以处理例如磷灰石或磷酸三钙的矿物。你也可以考虑离心灰烬，如果你有一套苯产线，或是从蜂窝或肥料草中获得灰烬。记住在查询NEI的时候要谨慎！
 
 # Quest: Phosphorus Doped Wafer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAE1g.name=§5§l磷掺杂的晶圆
@@ -2285,7 +2305,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGsQ.desc=SoC是芯片级系统（Systems
 
 # Quest: Cheaper Simple Circuit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGsg.name=§5§l更便宜的简单电路板
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGsg.desc=NAND芯片是真空管的工业替代品，便宜得多。 不过它们不能用来套娃制造电路板，只能作为ULV电路板使用。 请仔细查看所有可选的合成表！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGsg.desc=NAND芯片是真空管的工业替代品，便宜得多。 不过它们不能用来套娃制造电路板，只能作为ULV电路板使用。 请仔细查看所有可选的合成表！%n%n[note]你需要一个超净间以在其中切割NAND芯片！[/note]
 
 # Quest: Farming a Little Easier
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGyw.name=§5§l让耕种更容易一点
@@ -2606,7 +2626,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwg.desc=或者至少和drum（多义：
 
 # Quest: Radon Decay
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyA.name=§8§l氡衰变
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyA.desc=氡用于合成EV发射器和传感器。%n%n你可以筛选钍矿石、沥青铀矿石、晶质铀矿石或铀-238矿石获取镭-226。它需要在背包里保留4500秒（75分钟）才能完成衰变，如果你没有穿全套防化服，就会持续获得debuff。做一个铅封盒，让镭在里面衰变是个不错的方法。%n%n钍矿石可以从下界获取，但其他三种矿石需要2阶火箭才能获取。然而，钍矿石中获得镭的概率要小得多，所以你需要大量的钍才能继续。%n%n完成衰变后，你可以从中电解出氡，并继续制作下一阶的电路板。但你还不能进行氡循环，因为它需要钚-239。%n%n[note]完成一个要求即可。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFyA.desc=氡用于合成EV发射器和传感器。%n%n你可以筛选钍矿石、沥青铀矿石、晶质铀矿石或铀-238矿石获取镭-226。它需要在背包里保留4500秒（75分钟）才能完成衰变，如果你没有穿全套防化服，就会持续获得debuff。做一个铅封盒，让镭在里面衰变是个不错的方法。%n%n钍矿石可以从下界获取，但其他三种矿石需要2阶火箭才能获取。然而，钍矿石中获得镭的概率要小得多，所以你需要大量的钍才能继续。%n%n完成衰变后，你可以从中电解出氡，并继续制作下一阶的电路板。但你还不能进行氡循环，因为它需要钚-239。%n%n[note]完成以下一种物品要求即可。[/note]
 
 # Quest: Sodium Sulfide
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGdA.name=§8§l硫化钠
@@ -2863,7 +2883,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlQ.desc=ASOC，全称为先进片上系
 
 # Quest: Polybenzimidazole
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.name=§9§l聚苯并咪唑
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.desc=聚苯并咪唑（简称PBI）是用于ZPM机器外壳和高级太阳能电池板的合成纤维，它还能提高某些其他物品的合成效率。制作它需要很多步骤。让我们从基本原料开始。首先，我们用苯和氯制造一些氯苯。另外，别忘了完成IV阶段的其他非铂系化学任务。%n%n§6已经能自动化生产聚苯并咪唑了？手持256个聚苯并咪唑板来跳过该任务。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.desc=聚苯并咪唑（简称PBI）是用于ZPM机器外壳和高级太阳能电池板的合成纤维，它还能提高某些其他物品的合成效率。制作它需要很多步骤。让我们从基本原料开始。首先，我们用苯和氯制造一些氯苯。另外，别忘了完成IV阶段的其他非铂系化学任务。%n%n§3已经能自动化生产聚苯并咪唑了？手持128个聚苯并咪唑板来跳过该任务。
 
 # Quest: Nitration Mixture
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnA.name=§9§l硝酸混酸
@@ -3023,7 +3043,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJDw.desc=将酸性铱溶液与氯化铵�
 
 # Quest: Iridium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEQ.name=§9§l铱
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEQ.desc=将钙添加到氯化铱中，最终得到纯净的铱。%n%n剩下的金属泥渣粉可以丢到离心机中，获取镍和铜，同时氯化钙在进行电解之前，需要先在流体固化器中进行固化，电解后获得钙和氯。%n%n另外，这一步需要EV，也是铱处理唯一需要EV的一步，所以如果你在之前就需要铱的话，可以早早开始。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEQ.desc=将钙添加到氯化铱中，最终得到纯净的铱。%n%n剩下的金属泥渣粉可以丢到离心机中，获取镍和铜，同时电解氯化钙获得钙和氯。%n%n另外，这一步需要EV，也是铱处理唯一需要EV的一步，所以如果你在之前就需要铱的话，可以早早开始。
 
 # Quest: Fluid From Sulfur Gas
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEg.name=§9§l气体变成液体
@@ -3119,7 +3139,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6Q.desc=处理的下一步，就是将�
 
 # Quest: Zirconium Ingots
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6g.name=§9§l锆锭
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6g.desc=只需要将四氯化锆溶液配合镁粉，放入工业高炉中进行煅烧，然后就大功告成了！%n%n锆在很多不同多方块机器中都有用到，例如工业搅拌机以及你可能已经做过了的合金冶炼炉。它还可以用于制造浓缩棒，为你的核反应堆提供额外的提升。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6g.desc=只需要将四氯化锆溶液配合镁粉，放入工业高炉中进行煅烧，然后就大功告成了！%n%n锆在很多不同多方块机器中都有用到，例如你可能已经做过了的合金冶炼炉。它还可以用于制造浓缩棒，为你的核反应堆提供额外的提升。
 
 # Quest: We Ain't Running a Farm!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6w.name=§9§l我们不是在经营农场！
@@ -3127,7 +3147,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL6w.desc=...低纯铪是什么东西？%
 
 # Quest: Finally, Actual Hafnium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7A.name=§9§l最后，真正的铪
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7A.desc=到现在为止还挺简单的对吧？%n%n铪是制作气涤塔的一个组件，如果你深入了液态氟钍反应堆，它会非常有用。%n%n同时你还可以回收一半的碘。另外，所谓废料也别扔了。之后可能还会有用，特别是如果有人给出好的思路 §owink wink nudge nudge§r
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7A.desc=到现在为止还挺简单的对吧？%n%n铪是制作气涤塔的一个组件，如果你深入了液态氟钍反应堆，它会非常有用。%n%n同时你还可以回收全部的碘。另外，所谓废料也别扔了。之后可能还会有用，特别是如果有人给出好的思路 §owink wink nudge nudge§r
 
 # Quest: Dilution, Yet Again
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAL7Q.name=§9§l稀释，再一次
@@ -3316,7 +3336,7 @@ betterquesting.quest.8zpQos1hR1CbwmWldvxSpg.desc=加热下界合金碎片是个�
 
 # Quest: Netherite Materials
 betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.name=§d§l下界合金材料
-betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=完成下界合金产线并成功搭建了MK-I聚变反应堆后，你终于可以获取§5§l硼等离子体§r了。它是各种§4§l下界合金材料§r所需的原料。%n%n这些材料在接下来的游戏中非常重要，并且会被广泛用于各种物品和材料。因此，在你继续推进进度时，升级产线的电力分配和所用配方非常重要。%n%n[note]在产线升级方面，UHV级电力和量子操纵者是最重要的里程碑。[/note]%n
+betterquesting.quest.9dt9i3MYRa-NB6KROtAYFA.desc=完成下界合金产线并成功搭建了Mk-I聚变反应堆后，你终于可以获取§5§l硼等离子体§r了。它是各种§4§l下界合金材料§r所需的原料。%n%n这些材料在接下来的游戏中非常重要，并且会被广泛用于各种物品和材料。因此，在你继续推进进度时，升级产线的电力分配和所用配方非常重要。%n%n[note]在产线升级方面，UHV级电力和量子操纵者是最重要的里程碑。[/note]
 
 # Quest: Automated Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyQ.name=§d§l自动挖掘
@@ -3332,7 +3352,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvA.desc=核聚变标志着你的下一�
 
 # Quest: Getting Europium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvQ.name=§d§l获得铕
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvQ.desc=为了制作MK-II聚变反应堆，制造末影采石场、T5火箭、解锁ZPM还有别的什么东西，铕是必不可少的。等你拥有了T5火箭，你就可以开采一种非常稀有的矿石，可以直接从中获得铕。在那之前，你只能用聚变反应堆制造铕。不过，去寻找这种矿石可能也不太值得。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEvQ.desc=为了制作MK-II聚变反应堆，制造末影采石场、T5火箭、解锁ZPM还有别的什么东西，铕是必不可少的。等你拥有了T5火箭，你就可以开采一种非常稀有的矿石，可以直接从中获得铕。在那之前，你只能用聚变反应堆制造铕。不过，去寻找这种矿石可能也不太值得。%n%n[note]现在既然你已经生产了铕，你可以处理来自独居石产线（如果你做了一条）的氧化铕（III）了。[/note]
 
 # Quest: Now You're Really Gonna Hate This 1-4 in LuV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF0Q.name=§d§l这回你真得恨死这玩意了：LuV篇 1-4
@@ -3438,9 +3458,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLA.desc=将锆和氧化钇在工业高�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLQ.name=§d§l获取堇云石
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLQ.desc=将石英岩和紫水晶在工业高炉内结合可以获得有瑕的堇云石。接下来需要通过聚爆压缩机或是精密激光蚀刻机提高宝石质量，制成精致的堇云石。堇云石粉还有其他用途，所以不要将它们全部转化完。%n%n你可以在主世界的矿洞里找到紫水晶，但要满足紫水晶的大量需求，你可能需要在金星上停留一下。%n%n如果拥有T5火箭，罗斯128ba可以直接出产堇云石，只需要筛选一下。
 
-# Quest: RNG is Definitely Good Game Design
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLg.name=§d§l随机过程绝对是超棒的游戏设计
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLg.desc=收集完所有材料后，你需要使用搅拌机来制造磁共振石粉和电路化合物 MK-III。%n%n在冲压机床内将这些粉结合制成压印基板原料。%n%n再使用超净间环境下的高压釜配合焊锡制作出压印基板。不幸的是，成功的几率只有75%%，所以我请你收集一些额外的材料。就算剩下也可以用于下次铭刻。
+# Quest: Imprint Supporting Boards
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLg.name=§d§l压印基板
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLg.desc=收集完所有材料后，你需要使用搅拌机来制造磁共振石粉和电路化合物 MK-III。%n%n在冲压机床内将这些粉结合制成压印基板原料。%n%n然后，在超净间里使用激光蚀刻机配合焊锡将它们制作为压印基板。
 
 # Quest: Naquadah Alloy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKLw.name=§d§l硅岩合金
@@ -3741,7 +3761,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKYg.desc=想要制造三钛，首先需�
 
 # Quest: Wasn't This Only Found in the Center of Neutron Stars?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbQ.name=§b§l这不是只有中子星核心才有的吗？
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbQ.desc=UV阶段你需要用到中子锭，T7火箭也是，所以来做点吧。%n%n首先寻找拥有中子粉贫瘠矿的星球，处理获得中子粉。然后将其与氦等离子体混合制成粗制中子素粉。你需要一台炉温9000K且功率491,520EU/t的高炉，而且此配方会消耗大量的时间和电力，你最好另起一座工业高炉或者炽焱高炉。当然你多起几台，或者去给你的巨型工业高炉升个级都行。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbQ.desc=UV阶段你需要用到中子锭，T7火箭也是，所以来做点吧。%n%n首先寻找拥有中子粉贫瘠矿的星球，处理获得中子粉。然后将其与氦等离子体混合制成粗制中子素粉。你需要一台炉温9000K且功率491,520EU/t的高炉，而且此配方会消耗大量的时间和电力，你最好另起一座工业高炉或者炽焱高炉。当然你多起几台，或者升级到放热壁炉都行。
 
 # Quest: Data Bank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKbw.name=§b§l数据库
@@ -3990,7 +4010,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiw.desc=量子计算机根据机器的�
 
 # Quest: Fluids for Copying Cultures
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKlw.name=§2§l§n复制细菌-液体
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKlw.desc=行吧，目前来说你已经获得了不少种类的细菌培养皿，但你想要更多么？在细菌培养缸中你当然只要一个，因为它不会被消耗，但制备DNA样品瓶的时候它们可就会被消耗了，所以你得学学如何复制它们。%n%n首先，你需要大肠杆菌培养皿。%n%n然后再制出大肠杆菌液体。[note]（我知道现在液体名字完全不一样了，不过问题不大）[/note]%n%n将其离心以获得液态DNA。%n%n再与氡搅拌混合即可获得荧光DNA（FluorecentdDNA）。%n%n大肠杆菌液体还可以离心获得质膜[Plasma-Membranes](10%%几率)和酶溶液[EnzymesSollution]，所以这个你也要做一下。%n%n再次离心酶溶液即可获得聚合酶（Polymerase）。%n%n要是你打算复制许多细菌培养皿或者挑战一下概率的话，你就需要一大批大肠杆菌液体。%n%n[note]想要获知复制细菌相关物品需求，请搜索“培养皿”、“DNA样品瓶”或“质粒”. 光有数据球可没法存储这些复杂的数据，请查看DNA样品瓶的用途。[/note]%n%n§5原文一堆液体拼写都是错的，别怪我。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKlw.desc=行吧，目前来说你已经获得了不少种类的细菌培养皿，但你想要更多么？在细菌培养缸中你当然只要一个，因为它不会被消耗，但制备DNA样品瓶的时候它们可就会被消耗了，所以你得学学如何复制它们。%n%n首先，你需要大肠杆菌培养皿。%n%n然后再制出大肠杆菌液体。[note]（我知道现在液体名字完全不一样了，不过问题不大）[/note]%n%n将其离心以获得液态DNA。%n%n再与氡搅拌混合即可获得荧光DNA（FluorecentdDNA）。%n%n大肠杆菌液体还可以离心获得质膜[Plasma-Membranes]和酶溶液[EnzymesSollution]，所以这个你也要做一下。%n%n再次离心酶溶液即可获得聚合酶（Polymerase）。%n%n要是你打算复制许多细菌培养皿或者挑战一下概率的话，你就需要一大批大肠杆菌液体。%n%n[note]想要获知复制细菌相关物品需求，请搜索“培养皿”、“DNA样品瓶”或“质粒”. 光有数据球可没法存储这些复杂的数据，请查看DNA样品瓶的用途。[/note]%n%n§5原文一堆液体拼写都是错的，别怪我。
 
 # Quest: DNA Samples for Copying Cultures
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmA.name=§2§l§n复制细菌-DNA样品瓶
@@ -4002,7 +4022,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmQ.desc=获取样品瓶后，你需要�
 
 # Quest: Actually Copying Cultures
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmg.name=§2§l§n复制细菌
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmg.desc=复制细菌需要准备%n1）一个无菌培养皿%n2）一个质膜（由干细胞制成，或在制作酶溶液时获得）%n3）干细胞%n4）相应数据球%n5）液态DNA%n6）一台UV生物实验室%n7）克隆细胞合成模块%n%n数据球可以改换为任意想要复制的细菌数据。 请记住，以常规方式获得第二个细菌培养皿可能会更容易，并且通常存在一种替代方法，该方法可以利用其产生的液体使其具有更高的成功几率.%n%nPS： 此配方是唯一使用模块的配方，所以你可以一眼就看到，但数字会改变，所以我无法准确指出在哪个页面。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmg.desc=复制细菌需要准备：%n%n1）一个无菌培养皿%n2）一个质膜（由干细胞制成，或在制作酶溶液时获得）%n3）干细胞%n4）相应数据球%n5）液态DNA%n6）一台UV生物实验室%n7）克隆细胞合成模块%n%n数据球可以改换为任意想要复制的细菌数据。 请记住，以常规方式获得第二个细菌培养皿可能会更容易，并且通常存在一种替代方法，该方法可以利用其产生的液体使其具有更高的成功几率.%n%nPS： 此配方是唯一使用模块的配方，所以你可以一眼就看到，但数字会改变，所以我无法准确指出在哪个页面。
 
 # Quest: General Purpose Fermenting Bacteria
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKmw.name=§2§l§n通用酵母菌
@@ -4043,7 +4063,7 @@ betterquesting.quest.zmLCpjodTjOklgwPb5bGSA.desc=既然你已建造了中子态�
 
 ## Quest Line: Tier 9 - UHV
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAALg.name=第9阶 - 极高压（UHV）
-betterquesting.questline.AAAAAAAAAAAAAAAAAAAALg.desc=嗯……嗨？ 你真的不应该在这里，知道不？ 你知道的，我们还是得写这一阶段，对吧？
+betterquesting.questline.AAAAAAAAAAAAAAAAAAAALg.desc=嗯……嗨？你真的不应该在这里，知道不？很长一段时间里，这个阶段一直都是游戏的终点，尽管现在它只是游戏的中后期（有争议）。总之恭喜你到达这里，接下来事情会变得更加有趣！
 
 # Quest: Draconic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0A.name=§4§l§n龙芯
@@ -4204,7 +4224,7 @@ betterquesting.quest.8PiGBrdnSHOVIA7tHinlOA.desc=有时候，基础的自动化�
 
 # Quest: NAC™: Fundamentals Package
 betterquesting.quest.94ivNBMMTAC7qATq_uroGw.name=§5§l§n纳米芯片组装复合体§r§5§n™§r§5§n§l：基础扩展包
-betterquesting.quest.94ivNBMMTAC7qATq_uroGw.desc=我们知道这不是自动化最有意思的部分。然而，§5§n基础扩展包§r对整台机器的运作是必要的。%n%n该扩展包可以：%n- 预处理您的贴片电路元件%n- 切割您的先进硅晶圆等%n- 追踪您的所有细导线%n- 为您的最昂贵的电路分流超导体%n- 为您的所有主机制作机箱%n- 浸洗电路基板，以为您的电路板提供基础*%n%n§o注*：全板浸没设备需要合理的配置以保证浸洗液纯净。阅读用户指南（tooltip）以进一步了解如何合理地使用该模块。§r%n
+betterquesting.quest.94ivNBMMTAC7qATq_uroGw.desc=我们知道这不是自动化最有意思的部分。然而，§5§n基础扩展包§r对整台机器的运作是必要的。%n%n该扩展包可以：%n- 预处理您的贴片电路元件%n- 切割您的先进硅晶圆等%n- 追踪您的所有细导线%n- 为您的最昂贵的电路分流超导体%n- 为您的所有主机制作机箱%n- 浸洗电路基板，以为您的电路板提供基础*%n%n§o注*：全板浸没设备需要合理的配置以保证浸洗液纯净。阅读用户指南（tooltip）以进一步了解如何合理地使用该模块。§r
 
 # Quest: Awakened Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0w.name=§5§l§n觉醒核心
@@ -4260,7 +4280,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpA.desc=你终于做到了……但还�
 
 # Quest: Tesseract
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.name=§5§l§n超立方体
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.desc=你无法理解的工程学。不过，这个奇怪的高维物件还是很容易用粉碎机打碎的。%n%n[note]你现在可以进入UIV了，祝你好运。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpw.desc=你无法理解的工程学。不过，这个奇怪的高维物件还是很容易用粉碎机打碎的。
 
 # Quest: Dragonblood
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMsA.name=§5§l§n龙血
@@ -4293,6 +4313,10 @@ betterquesting.quest.H3Tvy4ZKSyiQGT16Og90bA.desc=UEV能源仓？好极了！是�
 # Quest: Assembling in Space
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.name=§5§l§n在太空中组装
 betterquesting.quest.H_S9zi1_SUKG7JkEYgJIiA.desc=这个新的太空电梯模块可以用来更方便地制造兰波顿能量球，以及制造光学电路的原材料。
+
+# Quest: Haha, Spinny Ingot
+betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.name=§5§l§n哈哈，超时空金属锭转转转
+betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.desc=超时空金属是UIV部件中使用的主要金属。%n%n这种金属与您迄今为止处理过的金属略有不同。您需要粉碎您的超立方体以获得粉末，然后在高温下对其进行烧炼，因此您需要冷却剂来帮助控制热量。%n%n由于超立方体粒子的不可思议的性质，您需要一种介质来使它们在三维空间中形成。出于某种原因，钨在这方面的效果非常好。%n%n由于超时空金属锭本身也不是很稳定；因此，必须在冷却过程中涂上一层泰坦精钢。%n%n[note]考虑搭建被动产线制造超时空金属锭，因为整个制造过程非常缓慢。[/note]%n%n[note]你现在可以进入UIV了。祝你好运。[/note]
 
 # Quest: Using Light to Compute
 betterquesting.quest.L88EN1-iS1CQbixJBH_arQ.name=§5§l§n利用光进行计算
@@ -4346,10 +4370,6 @@ betterquesting.quest.gOySBVKnSAiJk0Fie9k55A.desc=要运行超维度等离子锻�
 betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.name=§5§l§n完美的CPU？
 betterquesting.quest.iO7VxrxPTbutGjRtrcoAxw.desc=利用新的光学电路基板和光学裸片，你已经成功制造出了一个看起来完美的CPU！这肯定能够处理你超越维度边界所需要的高级计算。
 
-# Quest: Energised Tesseract
-betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.name=§5§l§n充能超立方体
-betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.desc=利用大量的能量与量子反常的奇异特性，超立方体可以被激活，释放出隐藏的潜能。%n%n[note]你最好能爱上合成它们的这步操作……[/note]
-
 # Quest: Tier 10 (UEV)
 betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.name=§5§l§n第10阶段（UEV）
 betterquesting.quest.k9PA3buhTvK1EJpPfA8ZAg.desc=欢迎来到超极限压（UEV）！你已经开始了第一块无尽的制造，现在是时候扩张规模了。在这个阶段，所有的部件都需要无尽。做好制作成吨无尽的准备吧。你的主要目标是制作超维度等离子锻炉（DTPF）。这个巨大的多方块机器会解锁新的强力配方，用于制作无尽、中子和其他特殊材料。%n%n[note]中文wiki UEV阶段：  §1§n[url]https://gtnh.huijiwiki.com/p/94585[/url]§r[/note]
@@ -4372,7 +4392,7 @@ betterquesting.quest.n8PKF63sSSi0y8ZBb2RIKQ.desc=在完成绝对重子完美净�
 
 # Quest: Biocatalyzed Propulsion Fluid
 betterquesting.quest.omilMDAFTVWzvZwo0SmnMw.name=§5§l§n生物催化推进液
-betterquesting.quest.omilMDAFTVWzvZwo0SmnMw.desc=既然你抵达了马赫斯，你终于能开始制造§5§l生物催化推进液§r了。%n%n生物催化推进液是§9离心中枢-2737§r所需的高级燃料，提供额外§2§l1.25倍§r的并行数，并且你终于能够处理需求§a§l重模式§r的配方了。%n%n[note]如果你正好在做不上天挑战，请查看§n卢米坡德树苗§r的配方[/note]
+betterquesting.quest.omilMDAFTVWzvZwo0SmnMw.desc=既然你抵达了塞赫美特，也就是那颗环绕马赫斯运行的卫星，你终于能开始制造§5§l生物催化推进液§r了。%n%n生物催化推进液是§9离心中枢-2737§r所需的高级燃料，提供额外§2§l1.25倍§r的并行数，并且你终于能够处理需求§a§l重模式§r的配方了。%n%n[note]如果你正好在做不上天挑战，请查看§n卢米坡德树苗§r的配方或是使用含有Herba要素的蕴魔种子。[/note]
 
 # Quest: NAC™: Optical Package
 betterquesting.quest.oyyde6hbRUOyVcAf7IP5HA.name=§5§l§n纳米芯片组装复合体§r§5§n™§r§5§n§l：光学电路扩展包
@@ -4411,13 +4431,25 @@ betterquesting.questline.ytf2QCzUSk6ihcYeRbwblw.desc=到目前为止还喜欢这
 betterquesting.quest.-HsIRcNoQYS35kDJwhdUpQ.name=§9§l§n弯曲空间和时间
 betterquesting.quest.-HsIRcNoQYS35kDJwhdUpQ.desc=目前，在高强度激光蚀刻机中切割阿米功率IC的效果非常糟糕，激光的功率太强，根本无法有效切割。对你来说，幸运的是，你拥有黑洞那能够粉碎一切的疯狂力量！%n%n通过用一些扩大化空间流体压缩一个超空间引力透镜方块，你可以锻造出一个非常强大的透镜。这个透镜非常高效，甚至可以弯曲光线和空间。%n%n也许别把眼睛直接凑到透镜前面去看。%n%n[note]这个透镜解锁阿米功率IC的1出2配方，别忘了重新编写样板！[/note]
 
+# Quest: Quantum Tank X
+betterquesting.quest.0U_ex_O9TKWF-ShWD_4UuQ.name=§9§l§nQuantum Tank X
+betterquesting.quest.0U_ex_O9TKWF-ShWD_4UuQ.desc=A Bose-Einstein condensate cannot simply be poured into a larger tank. Its particles have surrendered their individual identities, behaving as a single coherent quantum state. Storing it requires continuously forcing that state to remain confined and the moment that force disappears, so does everything you stored.%n%nThe §5§lContainment Field§r holds every variety of entangled condensate on its network. Its field strength determines both its capacity and its appetite for power: every unit of strength provides another litre of storage while consuming another EU/t. The contents cannot be partitioned or filtered, so careful monitoring will be essential.%n%nExceeding the configured capacity does not stop more condensate from entering. Instead, the unstable field begins destroying 11%% of every stored condensate each second until it returns below the limit.%n%n[warn]A power failure or manually disabling the machine immediately voids the entire contents of the Containment Field. Keep its power supply exceptionally reliable.[/warn]%n%n[note]A BEC Detector Hatch can monitor total or filtered condensate levels and disable the Entanglement Apparatus before the field overflows.[/note]
+
 # Quest: Heliofusion Exoticizer
 betterquesting.quest.0YrjX7i4QfeSo98gSE0SWg.name=§9§l太阳聚变异化器
 betterquesting.quest.0YrjX7i4QfeSo98gSE0SWg.desc=使用大量引力子碎片会创造出极端的空间区域，在这些区域中，异星物质可以比通常情况下更稳定地存在。不幸的是，这个区域极端到几乎与神锻的其他部分在空间上完全断开，无法利用现有的结构升级和它的其余功能。%n%n[note]太阳聚变异化器是神锻的第四个也是最后一个模块。它可以生产夸克胶子等离子体和磁物质。最初它只能生产夸克胶子等离子体，而生产磁物质需要一个更靠后的升级。查阅UI中的“神锻信息”部分以获知如何生产这些材料。[/note]%n%n[note]使用此模块需要“强子隔离”升级。[/note]
 
-# Quest: A Better Coolant for Your Superconductors
-betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.name=§9§l§n更好的超导体冷却液
-betterquesting.quest.65KbJVn1T1CSpCdnGfBSqQ.desc=时空的零下温度使它成为您所有超导体工艺的理想替代品。%n%n您再也不需要数以亿计的液氦了！%n%n[note]使用它制作较低电压等级的超导体的速度也更快。[/note]
+# Quest: A Fork in The Road
+betterquesting.quest.4UNfsN-3TlKiC2JkOUP4Hg.name=§9§l§nA Fork in The Road
+betterquesting.quest.4UNfsN-3TlKiC2JkOUP4Hg.desc=With the creation of the Black Hole Compressor, three different paths have opened up.%n%nThe Top Path: The Bose-Einstein Multiblocks%nA suite of multiblocks for late game assembly.%n%n[note]This path makes the other two paths faster and cheaper.[/note]%n%nThe Middle Path: Antimatter%nA fancy new power generation method to keep up with rising EU costs.%n%n[note]This path makes the other two paths easier to scale by giving you more power to burn.[/note]%n%nThe Bottom Path: The Forge of the Gods%nThe largest multiblock, capable of smelting everything you could ever want.%n%n[note]This path makes the other two paths faster by speeding up ingot smelting.[/note]
+
+# Quest: Tunnels Of Light
+betterquesting.quest.52NvoXdXSuCp2hCvV_otBA.name=§9§l§nTunnels Of Light
+betterquesting.quest.52NvoXdXSuCp2hCvV_otBA.desc=Despite its name, the §5§lTeleportation Node§r does not send your components elsewhere to be assembled. The entire recipe is processed inside the Node; power, condensate, and nanites are brought to it remotely by the Observation Array.%n%nOnce the solid inputs arrive, the Node begins processing immediately, even if the required condensate has not yet been provided. The Observation Array must deliver everything before the recipe completes, or the process fails and the inputs are lost. There is no energy hatch on the Node; its full power cost is paid through the linked Observation Array.%n%nThe Line-of-Sight Hatches on the Node and Observation Array must face one another, share the same Y-level, and be no more than 128 blocks apart. No cable is required between them.%n%n[note]Increasing parallels only allows larger batches. Processing speed falls proportionally, so total throughput does not increase. Scale the line by building additional Teleportation Nodes instead.[/note]
+
+# Quest: Dyson Swarm Modules
+betterquesting.quest.595xDGWEQQiWmCoN4jJuTQ.name=§9§l§nDyson Swarm Modules
+betterquesting.quest.595xDGWEQQiWmCoN4jJuTQ.desc=To generate power with your Dyson Swarm Ground Unit, you will need some Dyson Swarm Modules- 10,000, to be exact. The upfront cost of a Dyson Swarm is quite daunting, but the power output is grand.%n%n[note]Once you craft 64, here's a small bonus. Happy crafting![/note]
 
 # Quest: Pseudostable Black Hole Containment Field
 betterquesting.quest.6OibD9bRQwq_hBPWz-y9xQ.name=§9§l§n亚稳态黑洞遏制场
@@ -4430,6 +4462,10 @@ betterquesting.quest.8JcG3DR5QU6_FbhIWHm05g.desc=为了让你的UIV部件发挥�
 # Quest: Another Type of Steel
 betterquesting.quest.8OMu4RdgQhyZqXRid6n-Wg.name=§9§l§n另一种钢
 betterquesting.quest.8OMu4RdgQhyZqXRid6n-Wg.desc=原初恒坚钢是一种超稳定的材料,一旦成形便完全不可摧毁.%n%n首先,您需要制造原初恒坚钢基底,然后将其倒入由无尽制成的组件中.%n%n在获得创律合金和灿茶合金之后,您可以以更低的成本生产原初恒坚钢.
+
+# Quest: Easier Superconductor
+betterquesting.quest.9BXDpECuTP-36XxE8TfKMw.name=§9§l§nEasier Superconductor
+betterquesting.quest.9BXDpECuTP-36XxE8TfKMw.desc=Using the DTPF, you can now craft Superconductor Base directly in molten form without having to mix, blast, cool, and extract the fluid.%n%nThis process works for every superconductor past LuV and is well worth it.%n%n[note]Pay attention to the circuit used for LuV Superconductor, as recipe conflicts may occur if you process all of these together.[/note]
 
 # Quest: Chaotic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0Q.name=§9§l§n混沌核心
@@ -4451,6 +4487,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpQ.desc=希望你已经准备好了大�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.name=§9§l§nUMV电路板
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqg.desc=皮米电路，光学主机的直接升级版本，未来的合成会大量需要这种UMV电路。%n%n[note]你需要NAC。[/note]%n%n[warn]有传言说，这些电路可能存在不了多久了……[/warn]
 
+# Quest: Six-Phased Copper
+betterquesting.quest.CzdMQPiKSoKXIzSX7g0SIA.name=§9§l§nSix-Phased Copper
+betterquesting.quest.CzdMQPiKSoKXIzSX7g0SIA.desc=Copper has managed to stay relevant into UIV by refusing to remain in one phase at a time.%n%nYou can hold the plates, but be warned: they may not stay in the same phase for long.
+
 # Quest: The Real Planet Eater
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.name=§9§l§n真正的星球吞噬者
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.desc=它的最大并行为8，并且支持更高级别的采矿无人机。%n%n[note]你可以用它获得纯铂系金属。如果你还没有为铂系产线制作量子操纵者，这会是一个不错的提升。[/note]
@@ -4459,17 +4499,21 @@ betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.desc=它的最大并行为8，并且
 betterquesting.quest.GslQBIW9QKaCz7FFpkrv6g.name=§9§l太阳射流融化核心，我的挚爱
 betterquesting.quest.GslQBIW9QKaCz7FFpkrv6g.desc=随着神锻的不断使用，你收集到了关于引力子碎片的更多数据。研究发现，它们能稳定神锻的输出，允许你直接提取尚且还接近中子星中心的熔融材料。%n%n[note]太阳射流融化核心是神锻的第二个模块。它可以用直接输出熔融金属（如果可能的话）的形式执行工业高炉配方。这种方法未必总是和其它方法一样高效，但是在堆真空冷冻机这一步上节省的时间往往能够补偿这一缺陷。[/note]%n%n[note]使用此模块需要“流力集成”升级。[/note]%n%n[note]太阳射流融化核心<3[/warn]
 
+# Quest: A Diode, But For Condensate
+betterquesting.quest.HvtY6xu3RAKjwhAZCTwK8A.name=§9§l§nA Diode, But For Condensate
+betterquesting.quest.HvtY6xu3RAKjwhAZCTwK8A.desc=At this scale, moving condensate is no longer a matter of pressure or pipe capacity. Every connected conduit becomes part of the same quantum network, allowing its contents to be observed and extracted from anywhere. What you need is a way to impose direction upon something that does not particularly care which way it travels.%n%nLike the theoretical demon whose name it bears, the §5§lMaxwell Gate§r separates one state from another. Networks connected to its output may observe and pull condensate from the input, while the input remains blind to everything beyond the gate. A filter in the controller can further restrict this passage to a single type of condensate.%n%nThere is one exception: the Entanglement Apparatus sees the gate backwards. It may only push condensate from the output network toward the input network.%n%n[note]The Maxwell Gate is optional. It does not move condensate by itself; it only controls which side may access it.[/note]%n%n[note]The Gate consumes a constant 1A of UIV power whenever active, even when no condensate is passing through it.[/note]
+
 # Quest: Star Fuel and Dark Matter
 betterquesting.quest.II3sjr1cSPOMXaSG70S_eg.name=§9§l§n恒星燃料与暗物质
 betterquesting.quest.II3sjr1cSPOMXaSG70S_eg.desc=在你对§b§l神锻计划§r的研究中，你发现你需要用一种新型燃料来创造一颗中子星。硅岩燃料具有一些你需要的特性，但还不够。用异星催化剂稳定燃料，再用其他材料大幅度提升燃料的密度，这些办法让你找到了一种可能有效的燃料。%n%n在合成的过程中，你意识到这种燃料可以被用于制作[note]暗物质[/note]。一种你曾经只在阿蒙·拉星系的迈罕带见到过的物质。%n%n[note]如果你不想合成暗物质碎片的话，也可以在迈罕带搜索并人工开采。[/note]
 
-# Quest: Haha, Spinny Ingot
-betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.name=§9§l§n哈哈，超时空金属锭转转转
-betterquesting.quest.Jk9jZtb6SXSLNX9SND_J0A.desc=超时空金属是UIV部件中使用的主要金属。%n%n这种金属与您迄今为止处理过的金属略有不同。您需要粉碎您的超立方体以获得粉末，然后在高温下对其进行烧炼，因此您需要冷却剂来帮助控制热量。%n%n由于超立方体粒子的不可思议的性质，您需要一种介质来使它们在三维空间中形成。出于某种原因，钨在这方面的效果非常好。%n%n由于超时空金属锭本身也不是很稳定；因此，必须在冷却过程中涂上一层泰坦精钢。%n%n[note]考虑搭建被动产线制造超时空金属锭，因为整个制造过程非常缓慢。[/note]
-
 # Quest: Transcendent Plasma Mixer
 betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.name=§9§l§n超维度等离子搅拌机
 betterquesting.quest.KGDOhsZGQv2QqDzGdI_YTg.desc=一定要考虑制作一台。%n%n超维度等离子搅拌机是一台可以满足您所有DTPF催化剂需求的强大资产。%n%n它的基本处理时间始终为5秒。您可以在GUI中指定机器可以运行的并行数。%n%n每个并行都会增加功率需求，因此您在增加产量的同时不会损失任何效率！%n%n[note]您的大部分电力都将用在这里。考虑升级您的硅岩燃料产线或者搭建戴森云。[/note]
+
+# Quest: Assembly To The MAX+
+betterquesting.quest.KV1vw68JTb-KiHQzBEPzBw.name=§9§l§nAssembly To The MAX+
+betterquesting.quest.KV1vw68JTb-KiHQzBEPzBw.desc=The §5§lObservation Array§r is less an assembler than an enormous quantum router. It draws condensate from every Containment Field visible to its network, supplies power to its linked Teleportation Nodes, and presents those Nodes with the nanites demanded by each stage of their recipes. Up to sixteen Nodes may be linked to one Array, with their combined energy cost paid here.%n%nThe nanites are never consumed, but they must be exchanged constantly. Providing a higher tier than requested actually slows processing, while mixing nanite types causes the entire collection to behave as the lowest tier present. Precision, not brute force, is the key.%n%n[warn]More than three unrequested condensates on the network will immediately fail every active recipe. Even fewer contaminants significantly reduce processing speed.[/warn]%n%n[note]Running the same recipe across synchronized Nodes is strongly recommended. Different recipes may request incompatible nanites and contaminate one another's condensate network.[/note]
 
 # Quest: The Cat is Out of the Box
 betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.name=§9§l§n薛定谔的猫已经在盒子外了
@@ -4477,7 +4521,11 @@ betterquesting.quest.RAH2M4DoTTaX5a2Sj4hRcQ.desc=经过数小时的折磨、血�
 
 # Quest: Atto Power ICs
 betterquesting.quest.S1s9Qw2yQgGm0cKw-W1yvQ.name=§9§l§n阿米功率IC
-betterquesting.quest.S1s9Qw2yQgGm0cKw-W1yvQ.desc=你需要用阿米功率IC来制造戴森球、UMV->UXV变压器、UIV级能源/动力仓以及皮米电路。%n%n[note]你需要UIV切割机——等一下，什么？[/note]%n%n从现在开始，你的切割机将无法胜任这一工作，§l§o无论如何也不行。§r那些巨大的锯片无法切割如此精密的晶圆。%n%n使用你的高强度激光蚀刻机是下一个最佳选择，但这似乎会将晶圆上大部分生物元件烧毁，导致你获得的芯片数量减少。%n%n[note]也许我们可以用一种更好的透镜来聚焦这些激光。[/note]
+betterquesting.quest.S1s9Qw2yQgGm0cKw-W1yvQ.desc=你需要用阿米功率IC来制造戴森云、UMV->UXV变压器、UIV级能源/动力仓以及皮米电路。%n%n[note]你需要UIV切割木丿——等一下，怎么回事？[/note]%n%n从现在开始，你的切割机将无法胜任这一工作，§l§o无论如何也不行。§r那些巨大的锯片无法切割如此精密的晶圆。%n%n使用你的高强度激光蚀刻机是下一个最佳选择，但这似乎会将晶圆上大部分生物元件烧毁，导致你获得的芯片数量减少。%n%n[note]也许我们可以用一种更好的透镜来聚焦这些激光。[/note]
+
+# Quest: Fluid^2 Extractor
+betterquesting.quest.So7OhYd8SVO3_Jl370cogA.name=§9§l§nFluid^2 Extractor
+betterquesting.quest.So7OhYd8SVO3_Jl370cogA.desc=Welcome to the BEC Line! It's recommended you read the wiki for full context on these machines: [url]https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Line[/url]%n%nUntil now, manufacturing has been a matter of imposing order upon matter: heat it, compress it, shape it, and force its atoms into the arrangement you require. But the materials ahead of you have become too complex for such crude methods. No amount of mechanical precision can control every particle individually.%n%nAt temperatures approaching absolute zero, another possibility emerges. As a cloud of bosons loses its thermal motion, the quantum waves describing its particles spread and begin to overlap. Enough of them eventually occupy the same low energy state that the cloud ceases to behave like a collection of independent particles. Instead, it acts as a single coherent quantum system: a Bose-Einstein condensate.%n%nThe first step is using the §5§lEntanglement Apparatus§r to convert ordinary fluids into entangled condensate by brute-forcing this delicate state on an industrial scale. It cannot overclock; instead, it expands the experiment across unlimited parallels, processing as much material as the supplied power can sustain. Multi-amp and laser energy hatches will be necessary if you intend to feed the rest of the BEC Line at any meaningful rate.%n%nDifferent fluids may be entangled simultaneously, although the entire batch runs for the duration of the slowest active conversion.%n%n[note]Insert ordinary fluids through the input hatch at the front. Entangled condensate leaves through the BEC Hatch at the rear and is pushed into the connected Containment Field network.[/note]%n%n[note]The Apparatus does not check whether sufficient storage is available before processing. Use a BEC Detector Hatch to disable it before your Containment Fields overflow and begin voiding condensate.[/note]
 
 # Quest: Getting More Out of Your Hypogen
 betterquesting.quest.SoOmxNJvRcqY-ofFsWbyoQ.name=§9§l§n从你的第一块海珀珍中增殖更多
@@ -4499,6 +4547,14 @@ betterquesting.quest.WJ-SykCeTr2B-3SHz0mXZg.desc=它有16并行，并且可以�
 betterquesting.quest.WLuCkspyTZqFuqlVVxgyzQ.name=§9§l§n串炉与餐叉
 betterquesting.quest.WLuCkspyTZqFuqlVVxgyzQ.desc=诸神之锻炉需要具有正确特性的全新材料，以稳定中子星。借助最新的超维度等离子搅拌机和MK-V聚变反应堆，你发现一种可能适用的新材料，并将其命名为[note]创律合金[/note]。%n%n该材料以等离子体形式存在，必须与一种极其坚固的材料共同冷却。为此，你试出了一种奇特的粉末混合物，并决定将其命名为[note]灿茶合金[/note]。%n%n[note]这些材料也可能适用于你所需的大量部件，你或许会发现UIV部件似乎能够很好地处理这两种材料……[/note]
 
+# Quest: Primitive Components
+betterquesting.quest._U63kXS8QNqZZCgZSYYrKw.name=§9§l§nPrimitive Components
+betterquesting.quest._U63kXS8QNqZZCgZSYYrKw.desc=Condensate is no joke; that stuff can mess you up big time. Your puny Assembly Lines do not meet the requirements to assemble with it.%n%nPrimitive Components allow you to assemble complex parts using condensate at much better prices.
+
+# Quest: Sisters In Arms
+betterquesting.quest.cmR_3Et6RMyXYfHzRf3Qjg.name=§9§l§nSisters In Arms
+betterquesting.quest.cmR_3Et6RMyXYfHzRf3Qjg.desc=Tairitsu, Shijima, and Churitsu are sister materials, all requiring similarly colored materials to make. A hidden conection between all of them allow some strong protective forces to appear.%n%nTry putting their bond to good use.%n%n[note]Technetium dust is needed Shijima, which can be fused with Fluorine and Selenium. The latter can be obtained with the Selenium line, by processing Platinum Froth, or from Miessite in the Toxic Everglades.[/note]
+
 # Quest: UIV Energy Hatch
 betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.name=§9§l§nUIV能源仓
 betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.desc=哇，又一种能源仓。%n%n你或许应该优先考虑升级你的装配线和精密组装机。
@@ -4506,6 +4562,10 @@ betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.desc=哇，又一种能源仓。%n%n
 # Quest: An Even More Mega EBF
 betterquesting.quest.g0oiNbRuQpWrzFOS8l-DtA.name=§9§l一台甚至更巨型的工业高炉
 betterquesting.quest.g0oiNbRuQpWrzFOS8l-DtA.desc=随着计划的最终完成，以及一种能够掌握中子星能量的新材料的问世，你自然决定这种伟力的首次应用是一台更为卓越的高炉。稍作思考之后，你决定有必要再来一台，因为这个模块也可以很容易地被改造成一个普通熔炉。%n%n[note]太阳烈焰能量锻炉是神锻的第一个模块。在不同模式下，它分别可以运行工业高炉和熔炉的配方。可以在UI中切换模式，注意：熔炉模式不会被计入“转换”里程碑！[/note]%n%n[note]使用此模块需要“由此开始”升级。[/note]
+
+# Quest: Energised Tesseract
+betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.name=§9§l§n充能超立方体
+betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.desc=利用大量的能量与量子反常的奇异特性，超立方体可以被激活，释放出隐藏的潜能。%n%n[note]你最好能爱上合成它们的这步操作……[/note]
 
 # Quest: UIV Superconductors
 betterquesting.quest.kvqtI5rrRrOhi5jhPR-s4A.name=§9§l§nUIV超导
@@ -4529,7 +4589,7 @@ betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.desc=时空……被分离开了？�
 
 # Quest: Your First SpaceTime
 betterquesting.quest.q5Gvvfe5Tm2gxZfi7VIgpg.name=§9§l§n你的第一块时空
-betterquesting.quest.q5Gvvfe5Tm2gxZfi7VIgpg.desc=[note]万岁，你终于可以进入UMV了！[/note]%n%n从超维度等离子锻炉中产生的残留物似乎与现实有着有趣的相互作用，就好像它能让宇宙按照它的意志扭曲一样。%n%n如果你将它与一些无尽和海珀珍结合在一起来激发它，再加上一个充能超立方体将其抛向四维空间，那么它会变成什么样呢？%n%n也许这样你就能实现不可能实现的目标，成功获取整个宇宙的基石。%n%n[note]初始配方非常糟糕，所以一定要先为你的DTPF制作永恒线圈。%n%n恭喜你走到这一步！[/note]
+betterquesting.quest.q5Gvvfe5Tm2gxZfi7VIgpg.desc=[note]§l万岁，你终于可以进入UMV了！§r[/note]%n%n从超维度等离子锻炉中产生的残留物似乎与现实有着有趣的相互作用，就好像它能让宇宙按照它的意志扭曲一样。%n%n如果你将它与一些无尽和海珀珍结合在一起来激发它，再加上一个充能超立方体将其抛向四维空间，那么它会变成什么样呢？%n%n也许这样你就能实现不可能实现的目标，成功获取整个宇宙的基石。%n%n初始配方非常糟糕，所以一定要先为你的DTPF制作永恒线圈。%n%n&g&#008CFF&#FF00E5恭喜你走到这一步！§r%n%n[note]注：时空可以作为所有超导冷却液的替代，且可以极大地缩短制作耗时。[/note]
 
 # Quest: UIV Field Generator
 betterquesting.quest.q6WN7XY8Qf6PNgWTy7RrBA.name=§9§l§nUIV力场发生器
@@ -4537,15 +4597,15 @@ betterquesting.quest.q6WN7XY8Qf6PNgWTy7RrBA.desc=有点贵，但能用来制作�
 
 # Quest: Tier 11 (UIV)
 betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.name=§9§l§n第11阶段（UIV）
-betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.desc=你已经享用了异星饼干，现在继续前进吧？%n%n欢迎来到UIV！这是GTNH目前最短的电压等级之一。这一级主要是解决你的DTPF催化剂问题，并解锁永恒线圈。%n%n此外还引入了一些QoL（生活质量）道具，比如未定元解析器和魔导源质存储元件。%n%n你还会解锁戴森云，这是一种非常强大的发电方案。%n%n[warn]这个电压等级还未完全完成。未来有可能发生改变。[/warn]%n%n[note]中文wiki UIV阶段:  §1§n[url]https://gtnh.huijiwiki.com/p/94618[/url]§r[/note]
+betterquesting.quest.u-1Y-eQ-TLyw-WGi5EEnVA.desc=你已经享用了异星饼干，现在继续前进吧？%n%n欢迎来到UIV，一个有许多新的大机器可以玩的好阶段！一开始，这一级主要是解决你的DTPF催化剂问题，并解锁永恒线圈。之后，后期内容将在你面前展开，如诸神之锻炉，玻色-爱因斯坦凝聚态装置，以及黑洞压缩机。直到整合包的终点，你都需要使用这些大机器！%n%n此外还引入了一些QoL（生活质量）道具，比如样板输入镜像，未定元解析器和魔导源质存储元件。%n%n你还会解锁戴森云和半稳定反物质稳定序列器，这是两种非常强大的发电方案。%n%n[note]中文wiki UIV阶段:  §1§n[url]https://gtnh.huijiwiki.com/p/94618[/url]§r[/note]
 
 # Quest: Fuwusion MK5
 betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.name=§9§l§n核聚变，但是 MK-V
 betterquesting.quest.vLnSpTweSki3BaorBNQhxQ.desc=见识到调律源金的生产速度如此之慢之后，你可能想要升级一下你的聚变设备了。%n%n和它的前身MK-IV一样，这个版本也支持 4/4 超频。希望这能让你的亚稳态鿫问题变得更容易解决一些。%n%n[note]如果你不想让它处理1tick配方时浪费产能，可以在GUI中设置批处理大小。[/note]
 
-# Quest: Do I Really Need These?
-betterquesting.quest.yySGZ5RzSZm38ElTS1kL7g.name=§9§l§n我真的需要这些玩意吗？
-betterquesting.quest.yySGZ5RzSZm38ElTS1kL7g.desc=是的，当然要，但是直到UMV前都用不着。%n%n以前它们都是可选项，而且大部分玩家都直接选择跳过它们。但现在如果你想要造量子电路的话，就需要至少往NAC里放20个才行。%n%n不过要不要在UIV时用它们升级你的部件装配线嘛……这就是你的事了。
+# Quest: Maybe I Do Need These
+betterquesting.quest.yySGZ5RzSZm38ElTS1kL7g.name=§9§l§n或许我真的需要这些玩意
+betterquesting.quest.yySGZ5RzSZm38ElTS1kL7g.desc=以前它们都是可选项，而且大部分玩家都直接选择跳过它们。但由于UMV部件装配线现在需要BEC，或许做一套来降低UIV部件的造价是值得的。%n%n此外，在UMV时，你会需要20个这种外壳来在NAC中制造量子电路。%n%n……或者你也可以直接做UMV的。%n%n[note]UIV部件装配线需要超致密超时空金属板，它需要亚稳态黑洞遏制场来制作。[/note]
 
 
 ## Quest Line: Tier 12 - UMV
@@ -4590,7 +4650,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMqw.desc=还能再强一点。
 
 # Quest: UXV Circuits
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.name=§c§l§nUXV电路板
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=量子电路，光学主机与皮米电路的再次升级。这些UXV级电路将成为未来大量合成配方中不可或缺的材料。%n%n[note]你需要先拥有皮米电路纳米芯片组装复合体才能开始制作。%n%n你知道吗，所有特殊电路都会为校准提供加成？[/note]%n%n%n[warn]传闻这些电路可能很快就会退出历史舞台……%n%n不过，传闻或许并不可信……[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrA.desc=量子电路，光学主机与皮米电路的再次升级。这些UXV级电路将成为未来大量合成配方中不可或缺的材料。%n%n[note]你需要先拥有皮米电路纳米芯片组装复合体才能开始制作。%n%n你知道吗，所有特殊电路都会为校准提供加成？[/note]%n%n[warn]传闻这些电路可能很快就会退出历史舞台……%n%n不过，传闻或许并不可信……[/warn]
 
 # Quest: What is this, Tekxit?
 betterquesting.quest.C0erucWORuCA_neG7VCkvg.name=§c§l§n技术玄晶（Tekxit）？这啥？
@@ -4608,6 +4668,10 @@ betterquesting.quest.HFpuUdRKS--dsQzGEvjW2w.desc=§e异星§r§r压缩时空场�
 betterquesting.quest.Hgj4aBbmQUCkp325rL-McQ.name=§c§l§nT3：稳定
 betterquesting.quest.Hgj4aBbmQUCkp325rL-McQ.desc=§9稳定§r压缩时空场发生器允许最高§lT3§r级别的配方，每次成功运行产出§l18432L§r白矮星物质。%n%n§9稳定§r时间膨胀场发生器对鸿蒙之眼的所有配方提供§275%%§r时间减少，但减少§c18.5%%§r成功率。%n%n§9稳定§r稳定力场发生器为鸿蒙之眼提升§210%%§r成功率，但减少§c10%%§r产率并且增加§c30%%§r能量消耗。
 
+# Quest: Resplendent Components
+betterquesting.quest.LxgRRQ25SE2IQOCMxZa8ug.name=§c§l§nResplendent Components
+betterquesting.quest.LxgRRQ25SE2IQOCMxZa8ug.desc=Even Refined Components begin to fail near the final tiers of the EoH. Only something far greater than stellar matter will suffice.%n%nBy incorporating MHDCSM into their structure, Resplendent Components can withstand the most extreme conditions your EoH can create.
+
 # Quest: Yet Another Space Elevator Upgrade
 betterquesting.quest.MiGXZ65sRwiAdpsCrVB0Eg.name=§c§l§n是的，太空电梯再次升级
 betterquesting.quest.MiGXZ65sRwiAdpsCrVB0Eg.desc=这个坏小子可以同时支持18个太空电梯模块。
@@ -4620,9 +4684,17 @@ betterquesting.quest.QO1gudFvTtKgWe9942dW3Q.desc=永恒线圈？是时候去获�
 betterquesting.quest.Qjg1J4kuS-6937dCEUqHUw.name=§c§l§n神锻已达第二环
 betterquesting.quest.Qjg1J4kuS-6937dCEUqHUw.desc=随着更多环状结构被放置得更靠近神锻中心的中子星，结构上的引力压力急剧增加。引力子碎片能够缓解这些压力，同时还能在两个环状结构及其模块的升级之间建立局部的时空桥梁。%n%n[note]向你的神锻添加第二环，允许使用4个额外的模块，也允许你在升级树上的分支路径处选择第二条路径。[/note]%n%n[note]使用第二环需要“规模锻造”升级。[/note]
 
+# Quest: Reinforced Components
+betterquesting.quest.RTzMnAU8SvC0mzrDPHDbPg.name=§c§l§nReinforced Components
+betterquesting.quest.RTzMnAU8SvC0mzrDPHDbPg.desc=Primitive Components are no longer strong enough to make the parts needed for a better EoH. Time for an upgrade!%n%nBy incorporating White Dwarf Matter into their structure, Reinforced Components can maintain their shape beneath far stronger spacetime compression fields.
+
 # Quest: Magnetic Monopole Matter
 betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.name=§c§l磁单极子物质
 betterquesting.quest.U7Ta5d7PSii76sbIPbltlw.desc=随着对诸神之锻炉的完全掌握，一个跨越宇宙的全新计划逐渐成型。在这个阶段，量化和提取引力子碎片应用于神锻之外的强大新技术领域已变为可能；不在元素周期表上的，最奇特的等离子体也可以生产；最重要的是，逐渐理解磁物质的巨大威力----这是一种完全由磁单极子构成的物质形式，其密度和稳定性是传统玻色物质的数十亿倍。随着诸如此类的发展，你意识到神锻的完全体也并不是最终目标，这仅仅是超越宇宙的垫脚石。%n%n[note]磁物质是UXV部件需要的材料，也是太阳聚变异化器能生产的第二种材料，并且会需要第二个模块。阅读UI中的“神锻信息”部分以获知如何自动化此过程。[/note]%n%n[note]生产磁物质需要EE升级。[/note]%n%n[note]恭喜！你现在可以进入UXV了！[/note]
+
+# Quest: Perfected Components
+betterquesting.quest.VYn4yi1TSiqJRhtK8YOjjQ.name=§c§l§nPerfected Components
+betterquesting.quest.VYn4yi1TSiqJRhtK8YOjjQ.desc=Your EoH may not need anything beyond Resplendent Components, but the rest of your factory soon will.%n%nPerfected Components require exceptionally expensive materials, including Magmatter. You do not need them immediately, but future UXV CoAL Casings, Astral Arrays, and Stargate parts will demand plenty.
 
 # Quest: Convergence
 betterquesting.quest.XoEzTtuPQjyeHTyqp9eY8Q.name=§c§l§n维度收敛
@@ -4635,6 +4707,10 @@ betterquesting.quest.bKW2YJfES6yvbes8JQRb0g.desc=§6完美§r压缩时空场发�
 # Quest: Black Dwarf Matter
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.name=§c§l§n黑矮星物质
 betterquesting.quest.bPYTUdlkSCiRi0eDHHw7tw.desc=用来自白矮星的物质来强化你的机壳是个好主意.%n%n你现在可以加速太阳系,直到黑矮星形成.这种材料很可能是观察和了解接下来会发生什么的关键.%n%n这是你的三种鸿蒙之眼材料中的第二种.用它将你的机壳升级到T7.%n%n[note]一旦所有机壳都达到7级,鸿蒙之眼的产能将大于耗能.[/note]
+
+# Quest: A Solder Singularity
+betterquesting.quest.cEX6SRxLTnSHOyvKPkBybw.name=§c§l§nA Solder Singularity
+betterquesting.quest.cEX6SRxLTnSHOyvKPkBybw.desc=Mutated Living Solder has become far too weak for your assembly needs. You need something more... cosmic.%n%nBoundless Cosmic Solder is the final tier of soldering alloy, and you will need it in large quantities.%n%n[note]Hopefully your Beamcrafter can keep up...[/note]
 
 # Quest: T2: Primitive
 betterquesting.quest.cO67NYK2QsyDlcvFGkk43A.name=§c§l§nT2：原始
@@ -4688,6 +4764,10 @@ betterquesting.quest.rdzpjzaCS2epgavzZr6L9A.desc=另一种力场发生器……�
 betterquesting.quest.sKLPeimGTFS6_hIyc-SOXA.name=§c§l§nUMV超导
 betterquesting.quest.sKLPeimGTFS6_hIyc-SOXA.desc=这是你最后必须制作的几种导线之一。%n%n[note]希望你不会用这些导线为你已有的机器连接电源。考虑一下无尽导线吧。[/note]
 
+# Quest: Refined Components
+betterquesting.quest.teFEMExsSEWHYV79M8gpHw.name=§c§l§nRefined Components
+betterquesting.quest.teFEMExsSEWHYV79M8gpHw.desc=Reinforced Components can only take your EoH so far. Another upgrade is needed to assemble its stronger parts.%n%nBy incorporating Black Dwarf Matter into their structure, Refined Components remain stable beneath even greater spacetime distortions.
+
 # Quest: Tier 4 QFT Catalysts
 betterquesting.quest.u-2IsyxKTLiZuTY417qWKw.name=§c§l§nT4量子操纵者催化剂
 betterquesting.quest.u-2IsyxKTLiZuTY417qWKw.desc=现在有了调律源金，你终于可以制作用于你的T4量子操纵者的催化剂了。%n%n[note]这些东西非常的贵。在批发这些东西之前，你可能会想看看超维度等离子锻炉的维度收敛，还有更快地制造亚稳态鿫的方法。[/note]
@@ -4712,6 +4792,10 @@ betterquesting.quest.wGq5FvuuROyyMPbT_SkMYg.desc=请务必考虑使用它来改�
 ## Quest Line: Endgame Goals
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.name=终极目标
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAHQ.desc=终极目标的集合，祝你好运，也感谢你一直以来的支持。
+
+# Quest: A Universe In Your Drives
+betterquesting.quest.2QVk9gqBSWKWZQ2T0rXh8A.name=§c§l§n§4§l§nA Universe In Your Drives
+betterquesting.quest.2QVk9gqBSWKWZQ2T0rXh8A.desc=AE storage has finally caught up with the materials you are throwing at it. These cells are much more practical than their cheaper single item or single fluid counterparts, though they are also much more expensive.%n%n[note]You will need them for upcoming crafts, too![/note]
 
 # Quest: MAX Circuits
 betterquesting.quest.2rrP1wt_Qt2LlOqDppdjLQ.name=§4§l§nMAX电路
@@ -4745,9 +4829,9 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKDw.desc=一个完整的星门需要7个
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.name=§6§l§n星门导标升级
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKEA.desc=想要让星门可以跨维度运行，这个升级必不可少，它可以在你拥有第二个星门后拨号连接……
 
-# Quest: You'll Probably Need Quite a Few of These
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.name=§6§l§n你可能需要这些
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.desc=实际上它可能无法存储任何能量，但对于其他一些终极物品仍然有用。
+# Quest: You'll Only Need a Few of These
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.name=§6§l§n你只需要一点点这些
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIg.desc=实际上它可能不会用于存储任何能量，但你还是得制作它们，对吧？
 
 # Quest: Stargate Command
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKJQ.name=§6§l§n星门命令
@@ -4775,7 +4859,7 @@ betterquesting.quest.KNM9ICNAQIa8NaFoXwCC9g.desc=还没玩够？开个新周目�
 
 # Quest: It Gets to a Point
 betterquesting.quest.Ni-YWTVjSz6Bk_MeC0hIiQ.name=§4§l§n终于走到这里
-betterquesting.quest.Ni-YWTVjSz6Bk_MeC0hIiQ.desc=晶圆加工还没结束——好吧，现在算是暂时告一段落了。%n%n无尽晶圆是粗制晶圆的最终形态，需直接在诸神之锻炉中铸造而成。谁能想到硅的潜力能撑到这一步？%n%n幺米功率IC用于磁物质纳米蜂群、MAX电路和UXV级能源仓。%n%n%n[note]你需要一台UXV级电压的激光蚀刻机来切割它们。%n%n幺米功率IC需要在异星铸造塔中以夸克胶子等离子体进行涂层处理，并超频至所需的MAX级电压。此步骤无法在大规模固化器中完成。[/note]
+betterquesting.quest.Ni-YWTVjSz6Bk_MeC0hIiQ.desc=晶圆加工还没结束——好吧，现在算是暂时告一段落了。%n%n无尽晶圆是粗制晶圆的最终形态，需直接在诸神之锻炉中铸造而成。谁能想到硅的潜力能撑到这一步？%n%n幺米功率IC用于磁物质纳米蜂群、MAX电路和UXV级能源仓。%n%n[note]你需要一台UXV级电压的激光蚀刻机来切割它们。%n%n幺米功率IC需要在异星铸造塔中以夸克胶子等离子体进行涂层处理，通过超频来抵达MAX级的电压要求。此步骤无法在大规模固化器中完成。[/note]
 
 # Quest: The Factory Must Grow!
 betterquesting.quest.OCv5OWo6Q9KDfqe1w0ET9w.name=§6§l§n厂房定要扩大！
@@ -4789,9 +4873,17 @@ betterquesting.quest.UVG21mYSQJex90gQWdkpIw.desc=它有着高达64的并行数,�
 betterquesting.quest.Uj0PvsNCQw-aWaEOvlFpow.name=§4§l§n奆型输入仓
 betterquesting.quest.Uj0PvsNCQw-aWaEOvlFpow.desc=终于……那离谱的鸿蒙之眼输入仓限制的救世主！%n%n它能将运行之间的等待时间削减到之前的几分之一。
 
+# Quest: Maybe Change Your Mind
+betterquesting.quest.W5cccuPzQGqJzhYW_kBMcQ.name=§6§l§nMaybe Change Your Mind
+betterquesting.quest.W5cccuPzQGqJzhYW_kBMcQ.desc=Has gem progression gone too far?
+
 # Quest: Rule of Threes
 betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.name=§4§l三生万物
 betterquesting.quest.bHFEDKAiTwGxaiyZEsmdjg.desc=神锻最后的外部结构升级需要对引力子碎片及其在极端环境中的应用有着最前沿的研究。有了这个升级，诸神之锻炉的最后4个模块插槽就可以建造了，它可以使你的生产攀升到从未有过的技术高度。%n%n[note]向你的神锻添加第三环，允许使用4个额外的模块，也允许你在升级树上的分支路径处选择全部三条路径，得到完全升级的神锻。[/note]%n%n[note]使用第三环需要END升级。[/note]
+
+# Quest: Stargate Frame Part
+betterquesting.quest.fTEQD_w8TTerm_ETSVcBmA.name=§6§l§nStargate Frame Part
+betterquesting.quest.fTEQD_w8TTerm_ETSVcBmA.desc=The framework of the Stargate. You wouldn't want it held together with glue, would you?%n%nRight, maybe you would...
 
 # Quest: Simulating a Solar System
 betterquesting.quest.hNdNrT_aSKaYi_TnT7cowA.name=§4§l§n模拟一个太阳系
@@ -4805,9 +4897,17 @@ betterquesting.quest.iLn_-6-LSk-wEOfi9muW3w.desc=既然你搞到了永恒，那�
 betterquesting.quest.itcSYyc3Tdq9Q1qrP5RoEg.name=§4§l§n只是个小小的路障
 betterquesting.quest.itcSYyc3Tdq9Q1qrP5RoEg.desc=MAX电路啊……真的要结束了吗？
 
+# Quest: UNLIMITED COMPUTATION
+betterquesting.quest.iu0rzCLcR_K7Oc2EDtQqgg.name=§6§l§nUNLIMITED COMPUTATION
+betterquesting.quest.iu0rzCLcR_K7Oc2EDtQqgg.desc=So many circuits. Maybe that Assembly Complex should have stayed in the drafts...
+
 # Quest: Your Lord and Saviour, UXV CoAL
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.name=§4§l§n你们的主和救世神，UXV部件装配线
 betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.desc=你需要竭尽所能尽快做出这个！%n%n每一滴宇宙素都弥足珍贵。
+
+# Quest: An Offering To The Gods
+betterquesting.quest.ztV-j35XSXaQ0OQ1TSyKew.name=§4§l§nAn Offering To The Gods
+betterquesting.quest.ztV-j35XSXaQ0OQ1TSyKew.desc=Another Stargate recipe, another trophy. You know the drill by now: submit two legacy Stargates' worth of materials and receive one cute little trophy. %n%n[note]Our journey reaches its latest stop, entering the era of refinement.%n%nThe year is 2025, and the game has become more refined than ever before. So refined, in fact, that we may have added a little too much quality of life and accidentally earned this Stargate the nickname "EZ Gate." Easy is relative, of course; it was still a Stargate, after all.%n%nThe Matter Manipulator has transformed base building and infrastructure expansion, allowing entire structures to be planned, copied, and moved, while NEI autocrafting has made early progression considerably faster. Et Futurum has brought Netherite and Prismarine to the pack alongside their new processing lines. At the end of progression, the T4 Nano Forge has provided a much needed alternative to endless T3 spam, while the EoH pity system has made its worst streaks of RNG more manageable.%n%nAutomation has continued to improve, and years of accumulated knowledge have transformed problems that once took entire teams months to solve into well-understood production challenges. Outside the pack, the community has created countless calculators, planners, visualizers, and specialized programs for automation, base design, optimization, or simply for fun.%n%nThe results have been difficult to ignore. More Stargates have been completed during this period than in any previous era, with the recorded gate count on Discord passing 1,000 before the release of 2.9.%n%nA team composed of some of the pack's most talented and experienced players completed a full Stargate run in only 22 days, 16 hours, and 45 minutes on January 26, 2026, setting a new speedrun record. §aPxx500§r and §aAdam§r achieved the first documented Gatelympics (quintuple) gate during that very same speedrun. %n%nOn the solo end of things, the very first singleplayer GTNH: Gods (triple) gate was achieved by §aSintken§r on July 2, 2025 and the second was achieved shortly after by §aLordPeverell§r on July 24, 2025.%n%nP.S.: Here's the list as usual:%n-Matter Manipulator%n-Spinmatron%n-Large Hadron Collider%n-LATEX%n-Nanochip Assembly Complex%n-Bose-Einstein Condensate Line%n-Exo-Foundry%n-Solar Factory%n-Nano Forge T4%n-EoH pity system%n-Super Stock Replenisher[/note]%n%n§2P.S. In case you were wondering, 2.7 was the last version where you needed to craft two Stargates in order to qualify for a completed run. This requirement was brought down to one Stargate in 2.8, but for purposes of this quest you will be making the equivalent of two since the recipe didn't change between versions. %n%nSorry Questmasters :P§r
 
 
 ## Quest Line: Feeding Yourself
@@ -4997,6 +5097,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALUg.desc=腐肉不太健康。它无法�
 # Quest: A Magical Lunchbox?
 betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.name=魔法午餐盒？
 betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.desc=若具备足够的魔法造诣，术士便无需浪费时间亲自进食。补给之符可储存至多1000点饥饿值与1000点饱和度，并自动为你补充能量。  %n%n将食物放置于快捷栏即可为其充能，食物价值越高，充能点数越多。  %n%n[note]注意：携带护符时请勿将需要保留的食物置于快捷栏！[/note]
+
+# Quest: Ice Ice Baby
+betterquesting.quest.uPmgcTcIR6OcAYqLCD7IkQ.name=Ice Ice Baby
+betterquesting.quest.uPmgcTcIR6OcAYqLCD7IkQ.desc=GregTech now makes &z&qice creams§r§r. Yes, really.%n%nSomewhere out there is a machine that turns... something... into ice cream. Lots of flavors. Some good, some weird, some questionable.%n%nGo find it and see what you get.
 
 
 ## Quest Line: The Green Revolution
@@ -5211,7 +5315,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHjQ.desc=草产牛奶？不行。%n豆�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.name=你最好把你的防化服穿上
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHnQ.desc=食人魔树（Troll-plant）！  它会做什么？  吃了你！%n%n%n还会让你长癌。真抱歉！
 
-# Quest: Who the Hell is Bob?
+# Quest: Who the Heck is Bob?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.name=我的区长父亲
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHng.desc=想要些绿宝石用来买东西或是做些别的？这里有个来源。%n%n译者注：原文为Bobsyeruncleranks，这个词的最初来源是英国熟语“Bob's your uncle”，意为“就在这儿了”或者“这就完成了”。诞生背景是1887年英国首相任命侄子事件，暗含裙带关系带来的捷径成功。
 
@@ -5333,7 +5437,7 @@ betterquesting.quest.Nu5EfJtNQ0qIUW0Lt0E4yA.desc=§2富集肥料§r能让你在�
 
 # Quest: Crop Sticks
 betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.name=作物架
-betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.desc=在开始CropsNH之前，你首先需要作物架。它扮演着作物生长的支撑。空的作物架可以用另一个作物架右击来变成双重作物架。双重作物架能让你对相邻的成熟作物进行繁育。%n%n随着新物种在作物架上生长，你可以右击它来收获，不会移除种子。左键点击收获作物并将其移除，根据其抗性属性可能掉落种子。铲子和抗性属性都能提升获得种子的概率。%n%n§r§r[note]§l§r§l任何作物在§n不使用铲子§r§l进行收获时掉落种子的概率为%n抗性/31。§r因此拥有最高抗性的作物在破坏时总是会掉落种子。§r[/note]%n%n[warn]在NEI中查询不同作物的泥土种类、基底和环境需求！[/warn]%n%n%n%n§o如果你已经是一位成熟农夫了，收集一颗石莲种子我就让你跳过接下来的介绍性训练。
+betterquesting.quest.O65QUnR0QuGSoQrsUMTB1g.desc=在开始CropsNH之前，你首先需要作物架。它扮演着作物生长的支撑。空的作物架可以用另一个作物架右击来变成双重作物架。双重作物架能让你对相邻的成熟作物进行繁育。%n%n随着新物种在作物架上生长，你可以右击它来收获，不会移除种子。左键点击收获作物并将其移除，根据其抗性属性可能掉落种子。铲子和抗性属性都能提升获得种子的概率。%n%n§r§r[note]§l§r§l任何作物在§n不使用铲子§r§l进行收获时掉落种子的概率为%n抗性/31。§r因此拥有最高抗性的作物在破坏时总是会掉落种子。§r[/note]%n%n[warn]在NEI中查询不同作物的泥土种类、基底和环境需求！[/warn]%n%n§o如果你已经是一位成熟农夫了，收集一颗石莲种子我就让你跳过接下来的介绍性训练。
 
 # Quest: Metallic Crops
 betterquesting.quest.PR2T5CUTQ6-IaOQd132Mzg.name=金属作物
@@ -5919,7 +6023,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAACw.desc=你需要武器和装甲才
 
 # Quest: More Augmentation
 betterquesting.quest.3Hob-CoJQ-CK3jmp4EHyqQ.name=更多强化
-betterquesting.quest.3Hob-CoJQ-CK3jmp4EHyqQ.desc=新的能量核心意味着更强大的强化模块。本任务列出了所有2级强化模块。%n%n一些亮点：%n%n-牛奶注射（§d实用§r，头盔）：持续清除负面状态效果。%n-宇航装备（§6保护§r，任意）：提供宇航服功能。%n-喷气稳定翼 （§a移动§r，胸甲）：使你的喷气背包能够完美悬停而不下降。
+betterquesting.quest.3Hob-CoJQ-CK3jmp4EHyqQ.desc=新的能量核心意味着更强大的强化模块。本任务列出了所有2级强化模块。%n%n一些亮点：%n%n-牛奶注射（§d实用§r，头盔）：持续清除负面状态效果。%n-矢量喷气背包（§a移动§r，胸甲）：电动喷气背包的升级版，拥有更好的飞行状态和完美的飞行稳定性。%n-热量扩散系统（§6保护§r，任意）：永久的火焰免疫。
 
 # Quest: Protect Your Base: Tier 4
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA0A.name=§a§l保护你的基地：第4级
@@ -6225,7 +6329,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIQA.desc=既然你到达了MV阶段，�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIQQ.name=像蝙蝠一样……“看”？
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIQQ.desc=夜视是一个很棒的背包能力。
 
-# Quest: Swim Like a .... Squid?
+# Quest: Swim Like a ... Squid?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIQg.name=像鱿鱼一样……“游”？
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIQg.desc=如果你想深潜或者进行水下探险，这种背包就是为你准备的。
 
@@ -6269,9 +6373,17 @@ betterquesting.quest.BFkQt-DcRhmReOUsVWtrqA.desc=在ZPM时，你几乎已经达�
 betterquesting.quest.CQnbvvAiRY2e7CsShsCe1A.name=模块化魔改
 betterquesting.quest.CQnbvvAiRY2e7CsShsCe1A.desc=对强大、可自定义、随着进度的推进还能不断改装的护甲感兴趣吗？那就来看看§6§r§l&z&z机械装甲§r吧！%n%n要开始动手改装，你需要一个用于修改模块化装备的工作台，以及一套机械装甲。装甲本身几乎没什么用处，但经过改装就能获得额外的功能。每件装甲由三个部分组成：%n%n§n强化模块：§r强化模块能为装甲增添多种多样的实用功能。模块分为三类：§6防护§r、§a移动§r和§d实用§r。模块只能插入对应类别的插槽中。%n%n§n骨架：§r装甲的骨架决定了装甲的防护值，以及能容纳组件的插槽数量。%n%n§n能量核心：§r能量核心决定了装甲能储存多少能量、充电电压等级以及能装备哪些强化模块。
 
+# Quest: Eldritch Striders
+betterquesting.quest.DroLGkR9Qe26BJFBcUHLig.name=邪术阔步之靴
+betterquesting.quest.DroLGkR9Qe26BJFBcUHLig.desc=再快一点也没什么不好，对吧？这是阔步之靴升级组件的最终版本。
+
 # Quest: Even More Augmentation
 betterquesting.quest.HrZv5S5MRLS38lNV93yEnQ.name=进一步强化
-betterquesting.quest.HrZv5S5MRLS38lNV93yEnQ.desc=目前3级仅新增了三种强化模块，但它们都非常强大。%n%n-能量护网（§6保护§r，胸甲）：获得一个力场，能以消耗大量EU为代价，完全阻挡大多数伤害。%n-重力控制模块（§a移动§r，胸甲）：创造飞行。%n-惯性缓冲器（§a移动§r，胸甲）：启用惯性消除，让你在飞行时可以瞬间停止。
+betterquesting.quest.HrZv5S5MRLS38lNV93yEnQ.desc=目前3级仅新增了一些强化模块，但它们都非常强大。%n%n-能量护网（§6保护§r，胸甲）：获得一个力场，能以消耗大量EU为代价，完全阻挡大多数伤害。%n-重力控制模块（§a移动§r，胸甲）：创造飞行。
+
+# Quest: Apprentice Striders
+betterquesting.quest.RfnfUKHhQkK5225EbXV6bA.name=学徒阔步之靴
+betterquesting.quest.RfnfUKHhQkK5225EbXV6bA.desc=This extremely powerful magical combination augment will grant you increased speed, jump boost, and built-in step assist - normally only accessible in IV. A must-have for any aspiring technomancer.
 
 # Quest: Basic Mechanical Armor
 betterquesting.quest.Ta-VKcQFSpejtRIkB650qg.name=基础机械装甲
@@ -6281,9 +6393,13 @@ betterquesting.quest.Ta-VKcQFSpejtRIkB650qg.desc=要把你的机械外骨骼从�
 betterquesting.quest.YXYbS-DuTuK7ISAjGV874A.name=完美的能量核心
 betterquesting.quest.YXYbS-DuTuK7ISAjGV874A.desc=厌倦了机械装甲的电池总是耗尽？试试把微型奇点绑到胸口吧！这绝对安全。%n%n这个终极能量核心将为机械装甲提供无限能量，并允许装备任意强化模块。
 
+# Quest: Archmage Striders
+betterquesting.quest._it_6peTRhOMCDaua_QQ1g.name=贤者阔步之靴
+betterquesting.quest._it_6peTRhOMCDaua_QQ1g.desc=学徒漫步之靴虽好，但正如其名所示，你还能做出更好的……
+
 # Quest: Augmentation
 betterquesting.quest.hwvNowyHS7WJOK4xDcUw0A.name=强化
-betterquesting.quest.hwvNowyHS7WJOK4xDcUw0A.desc=既然你已经有了骨架和核心，就可以开始为你的机械装甲添加新功能了。此任务列出了所有1级强化模块。%n%n一些亮点：%n%n- 光学亮度调节器（§d实用§r，头盔）：启用可切换的夜视功能。%n- 防化衬层（§6防护§r，任意部件）：获得完整的防化服功能。%n- 电动喷气背包（§a移动§r，胸甲）：喷气背包！
+betterquesting.quest.hwvNowyHS7WJOK4xDcUw0A.desc=既然你已经有了骨架和核心，就可以开始为你的机械装甲添加新功能了。此任务列出了所有1级强化模块。%n%n一些亮点：%n%n- 光学亮度调节器（§d实用§r，头盔）：启用可切换的夜视功能。%n- 防化衬层（§6防护§r，任意部件）：获得完整的防化服功能。%n- 电动喷气背包（§a移动§r，胸甲）：喷气背包！%n- 宇航装备（§6保护§r，任意）：提供宇航服功能。
 
 # Quest: Mob Repellators
 betterquesting.quest.tgH86mIERWKIh8OAleKrSw.name=怪物驱逐器
@@ -6602,6 +6718,10 @@ betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=你已经制作了一个可以�
 betterquesting.quest.lM99qle-Q_uPETUSrZQDKw.name=§2§l高级文档柜
 betterquesting.quest.lM99qle-Q_uPETUSrZQDKw.desc=高级文档柜能存储基础版本两倍的物品，并且对可存储物品的限制更少。
 
+# Quest: Marking Your Base
+betterquesting.quest.mnNTKvzVQTONcKQlSpbeqg.name=Marking Your Base
+betterquesting.quest.mnNTKvzVQTONcKQlSpbeqg.desc=The ModernMarkings mod gives you plenty of ways to sign up your base. Great way to warn everyone about that upcoming nuclear reactor project...%n%nSimply craft an exit wall marking, and chisel this marking to unlock all other markings!
+
 # Quest: Silver Shulker Box
 betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.name=§3§l银潜影盒
 betterquesting.quest.nc1Pqje3RIe_Yp6WoPOFzg.desc=银桶的便携版。%n%n拥有§n72§r个格子。%n%n[note]可染色！[/note]
@@ -6829,7 +6949,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIVw.desc=高槿树有最高的多汁属�
 
 # Quest: U-238 Tu-Wait, Seriously?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.name=铀-238，等等，你确定？
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.desc=如果想要多方块农场支持CropsNH作物，你就需要这个。从钍中获得铀-238，然后通过作物掉落、洗劫村庄或者HV阶段的正常方式获得末影之眼。为了防止延迟过高，它同样只会检索多方块农场上6格。所以向堆叠说再见吧，这没有任何意义。%n%n最大尺寸支持约1100株作物，而最小尺寸支持约600株作物，这取决于你的布局。这是因为在此模式下，它会检索比正常模式多5格的作物（在基本方向上，虽然貌似在角落可以达到更远，不过这很难描述，试试看吧。）。它们的大小与以前的版本相同，因此你无需重新调整它们的大小。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAK0w.desc=如果想要多方块农场支持CropsNH作物，你就需要这个。你可以从钍中获得铀-238。为了防止延迟过高，它同样只会检索多方块农场上6格。所以向堆叠说再见吧，这没有任何意义。%n%n最大尺寸支持约1100株作物，而最小尺寸支持约600株作物，这取决于你的布局。这是因为在此模式下，它会检索比正常模式多5格的作物（在基本方向上，虽然貌似在角落可以达到更远，不过这很难描述，试试看吧。）。它们的大小与以前的版本相同，因此你无需重新调整它们的大小。
 
 # Quest: Papaya
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKIA.name=木瓜
@@ -6986,7 +7106,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAC-w.desc=工业TNT是HV版本的TNT。�
 
 # Quest: Better Than Duct Tape
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8w.name=§6§l比胶带更好
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8w.desc=使用电烙铁可以移除“电路短路了”的故障讯息，比用胶带更便宜。%n%n电烙铁需要一份焊料和10,000EU。由锡、铅或焊锡制成的细导线、杆或锭都可作为焊料。电烙铁会在玩家物品栏中寻找可用焊料，并消耗最先找到的那种。因为你的焊锡往往多的用不完，所以细焊锡导线可能是最佳的选择。%n%n电烙铁的其他用处：%n%n- 将GT机器的红石信号强度从弱充能调整为强充能。%n- 手持电烙铁时，所有的管道、导线以及线缆都会显示为一根细线，使你可以看到它们后面的东西，并确认其连接状态。%n- 对着机器Shift+右键可以开关“多组输入”功能，在实现部分组装机配方的自动化时非常有用。%n%n完成任务所需的电烙铁需要充满电。%n%n修复其他故障需要别的工具。记住，你可以把所有需要的工具放在工具盒里，再用工具盒点击一次即可修复所有问题。%n%n可能的故障                维修工具%n“管道松了”                 扳手%n“螺丝没拧紧”               螺丝刀%n“有什么东西卡住了”        软锤%n“板子凹凸不平”             锻造锤%n“电路短路了”               电烙铁%n“有个零件不应该在这里”    撬棍
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAC8w.desc=使用电烙铁可以移除“电路短路了”的故障讯息，比用胶带更便宜。%n%n电烙铁需要一份焊料和10,000EU。由锡、铅或焊锡制成的细导线、杆或锭都可作为焊料。电烙铁会在玩家物品栏中寻找可用焊料，并消耗最先找到的那种。因为你的焊锡往往多的用不完，所以细焊锡导线可能是最佳的选择。%n%n电烙铁的其他用处：%n%n- 将GT机器的红石信号强度从弱充能调整为强充能。%n- 手持电烙铁时，所有的管道、导线以及线缆都会显示为一根细线，使你可以看到它们后面的东西，并确认其连接状态。%n- 对着机器Shift+右键可以开关“多组输入”功能，在实现部分组装机配方的自动化时非常有用。%n%n修复其他故障需要别的工具。记住，你可以把所有需要的工具放在工具盒里，再用工具盒点击一次即可修复所有问题。%n%n可能的故障                维修工具%n“管道松了”                 扳手%n“螺丝没拧紧”               螺丝刀%n“有什么东西卡住了”        软锤%n“板子凹凸不平”             锻造锤%n“电路短路了”               电烙铁%n“有个零件不应该在这里”    撬棍%n%n[warn]为了完成这个任务。你需要把你制作好的电烙铁充满电。此任务接受LV，MV或HV等级的电烙铁。[/warn]
 
 # Quest: Less Power Loss
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC9A.name=§6§l减少电力损失
@@ -6998,7 +7118,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACLA.desc=孩子们，今天我们将使�
 
 # Quest: Low-Pressure Boiler Tank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.name=§6§l低压锅炉
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.desc=利用低压锅炉方块配合燃烧室可以说是获取蒸汽最容易的方式了。 低压锅炉需要安装在燃烧室的顶部。 锅炉的体积越大预热越慢，但是之后产生的蒸汽会越多。%n%n将管道连接到低压锅炉以输出蒸汽。%n%n[note]注意，低压锅炉在断断续续的工作场景中比较好用。低压锅炉效率更低，但升温速度远远高于高压锅炉，这意味着在刚开机的阶段低压锅炉的效率更高，但缺点在于在最高温度的情况下，低压锅炉的效率只有高压版本的50%%。如果你想要一个持续不断的大量蒸汽产能，就用高压锅炉。[/note]%n%n[warn]注意燃料消耗速度会根据锅炉尺寸以及当前温度等因素改变，如果你想要知道具体的消耗速度的话，就自己尝试一下吧。[/warn]%n%n[note]中文wiki 锅炉(Railcraft):  §1§n[url]https://gtnh.huijiwiki.com/p/875[/url]§r[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACLw.desc=利用低压锅炉方块配合燃烧室可以说是获取蒸汽最容易的方式了。 低压锅炉需要安装在燃烧室的顶部。 锅炉的体积越大预热越慢，但是之后产生的蒸汽会越多。%n%n将管道连接到低压锅炉以输出蒸汽；锅炉仅在蒸汽量达到容量的50%%时开始输出蒸汽。%n%n[note]注意，低压锅炉在断断续续的工作场景中比较好用。低压锅炉效率更低，但升温速度远远高于高压锅炉，这意味着在刚开机的阶段低压锅炉的效率更高，但缺点在于在最高温度的情况下，低压锅炉的效率只有高压版本的50%%。如果你想要一个持续不断的大量蒸汽产能，就用高压锅炉。[/note]%n%n[warn]注意燃料消耗速度会根据锅炉尺寸以及当前温度等因素改变，如果你想要知道具体的消耗速度的话，就自己尝试一下吧。[/warn]%n%n[note]中文wiki 锅炉(Railcraft):  §1§n[url]https://gtnh.huijiwiki.com/p/875[/url]§r[/note]
 
 # Quest: Railcraft Steam Power
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACMA.name=§6§l用RC制造蒸汽
@@ -7010,7 +7130,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACMQ.desc=可以烧杂酚油来生产蒸�
 
 # Quest: High-Pressure Boiler Tank
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.name=§6§l高压锅炉
-betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.desc=炼出钢之后，你就可以制作高压锅炉方块了。和低压锅炉相比，高压锅炉的温度更高，蒸汽产出速度也更快。不过它预热所需时间也更长，所以务必确保燃料供应充足！%n%n将管道连接到锅炉以输出蒸汽。%n%n[note]只有在长时间持续运行的情况下，高压锅炉才比低压更有优势。如果你打算频繁开关机，那它会浪费大量资源！保持在最高温度运行时，高压锅炉的燃料消耗约为低压的2倍，而每秒蒸汽产量约为低压的4倍，因此效率提高了100%%！如果你承担不起这样的燃料消耗，或者想要更灵活的产能方式，那么就继续用低压锅炉。[/note]%n%n[warn]实际燃料消耗取决于机器尺寸，以及机器温度等其他因素。若想了解实际数值，还需要自己测试一下。[/warn]%n%n[note]中文wiki 锅炉(Railcraft)：§1§n[url]https://gtnh.huijiwiki.com/p/875[/url]§r[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAACMg.desc=炼出钢之后，你就可以制作高压锅炉方块了。和低压锅炉相比，高压锅炉的温度更高，蒸汽产出速度也更快。不过它预热所需时间也更长，所以务必确保燃料供应充足！%n%n将管道连接到锅炉以输出蒸汽；锅炉仅在蒸汽量达到容量的50%%时开始输出蒸汽。%n%n[note]只有在长时间持续运行的情况下，高压锅炉才比低压更有优势。如果你打算频繁开关机，那它会浪费大量资源！保持在最高温度运行时，高压锅炉的燃料消耗约为低压的2倍，而每秒蒸汽产量约为低压的4倍，因此效率提高了100%%！如果你承担不起这样的燃料消耗，或者想要更灵活的产能方式，那么就继续用低压锅炉。[/note]%n%n[warn]实际燃料消耗取决于机器尺寸，以及机器温度等其他因素。若想了解实际数值，还需要自己测试一下。[/warn]%n%n[note]中文wiki 锅炉(Railcraft)：§1§n[url]https://gtnh.huijiwiki.com/p/875[/url]§r[/note]
 
 # Quest: Dynamite
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC_A.name=§6§l炸药
@@ -7050,7 +7170,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDQ.desc=这是获取木炭、杂酚油�
 
 # Quest: It's Time to Get More Steam
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.name=§6§l该制造更多蒸汽了
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.desc=在你有能力储存大量的能源后，寻找生产大量能源方法的必要性就开始显现出来了。你需要一台大型青铜锅炉。但为了制造这个锅炉，你需要像山一样多的青铜。这个锅炉每tick能产生800L的蒸汽，这足以供应10台基础蒸汽轮机运作了。%n%n大型锅炉既可以用水也可以用蒸馏水。每产生160L蒸汽，会消耗1L水。%n%n大型青铜锅炉的整体尺寸为3x5x3，内部三格为青铜管道机械方块。最下层需要包含1-2个输入仓、1-2个输入总线、3-4个燃烧室、1个消声仓和1个维护仓，不能含有镀铜砖块。上述仓室的背面都需要接触到燃烧室。输出仓可以放在上方四层中的任意一层。%n%n§c警告： 不同于其他锅炉，大型锅炉在运行时必须全程保持有水。运行中任意时刻缺水，都会导致爆炸。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADEA.desc=在你有能力储存大量的能源后，寻找生产大量能源方法的必要性就开始显现出来了。你需要一台大型青铜锅炉。但为了制造这个锅炉，你需要像山一样多的青铜。这个锅炉每tick能产生800L的蒸汽，这足以供应10台基础蒸汽轮机运作了。%n%n大型锅炉既可以用水也可以用蒸馏水。每产生160L蒸汽，会消耗1L水。%n%n大型青铜锅炉的整体尺寸为3x6x3，内部三格为青铜管道机械方块。最下层需要包含1个输入仓、1个输出仓、5个燃烧室、1个消声仓和1个维护仓，不能含有镀铜砖块。%n%n§c警告： 不同于其他锅炉，大型锅炉在运行时必须全程保持有水。运行中任意时刻缺水，都会导致爆炸。
 
 # Quest: Steam is Never Enough
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADEg.name=§6§l蒸汽永远不够
@@ -7066,11 +7186,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADFA.desc=在四种锅炉中，大型钨�
 
 # Quest: Cleanroom
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.name=§6§l超净间
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.desc=更加先进（也更加洁净！）的电路板需要在无尘环境下才能制作。为了得到无尘环境我们需要超净间。超净间是个有趣的多方块结构，因为你将在它的§o内部§r放置其他机器！%n%n超净间是整体大小在3x4x3到15x15x15之间的中空多方块结构。超净间的底部并不需要是正方形，长方形也可以。顶层由过滤机外壳构成，除了边缘，它是塑料混凝土方块。控制器必须位于顶层的中心。如果超净间的长或宽是双数，那么控制器可以放在中心两块（或四块）中的任意一块。结构的其余部分均由塑料混凝土方块搭建而成。%n%n其中最多30%%的塑料混凝土方块可以用其它的方块或材料代替：%n%n一扇防爆门可以让你进出无尘室。请确保门是关着的，否则超净间会迅速失去洁净度。旅行锚和电梯也可以使用，如果需要，甚至可以将它们嵌入地板中。如果你喜欢的话，也可以使用超凡玻璃作为“门”。%n%n你可以使用线缆二极管或机器外壳，来自动通过墙壁输送电力和材料。但是在为你的内部机器更新换代时你要万分小心。务必拆下旧的机器外壳和线缆二级管，然后用新的更高电压的替换，否则你一定会很伤心的。如果只是用于传输物品，那就不用管等级的事。%n%n如果你想看到内部，可以使用任何EV级别以上的玻璃，例如防爆玻璃、魔力玻璃和超凡玻璃。如果超净间没有成型，请注意30%%的限制：问题往往由你放置了太多玻璃导致的。%n%n最后，超净间本身还需要维护仓和能源仓来运转。这个多方块结构的耗电量有点不同寻常，一开始是40EU/t，然后逐渐降低。但即使是在使用40EU/t的情况下，要给它足够的电，单个LV能源仓就足够了，因为它接收2A-LV。请记住，这只适用于超净间，并不是一个普适规则。%n%n让我们现在先造一个5x5x5大小的超净间，你以后可以根据需要对它进行扩建。给它通电，让它运行，直到洁净度达到100%%。如果洁净度低于100%%，超净间内的机器就有几率吞掉在其中制作的物品，因此您要让超净间始终保持运行状态！%n%n任何维护问题都会使洁净度上限降低10%%。使用便携式扫描仪，工业信息屏，或使用维护提示覆盖板配上红石灯或蜂鸣报警器来监控你的超净间。%n%n[note]多方块机器，如大型化学反应釜或是高强度激光蚀刻机，都可以提供无尘环境，所以这些机器无需放入超净间。不过，你在使用其他机器，例如生物实验室时还是会需要超净间的。[/note]%n%n[note]其它有用的提示：你可以使用AE的无线接入器或矢量变换接口，来跳过机器外壳，进行物品运输，你还可以使用更高级的能源仓以更快地达到100%%的洁净度。[/note]%n%n[warn]请注意：你不能在超净间内使用任何会产生污染的机器，否则超净间会停止工作。[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADrA.desc=更加先进（也更加洁净！）的电路板需要在无尘环境下才能制作。为了得到无尘环境我们需要超净间。超净间是个有趣的多方块结构，因为你将在它的§o内部§r放置其他机器！%n%n超净间是整体大小在3x4x3到15x15x15之间的中空多方块结构。超净间的底部并不需要是正方形，长方形也可以。顶层由过滤机外壳构成，除了边缘，它是塑料混凝土方块。控制器必须位于顶层的中心。如果超净间的长或宽是双数，那么控制器可以放在中心两块（或四块）中的任意一块。结构的其余部分均由塑料混凝土方块搭建而成。%n%n其中最多30%%的塑料混凝土方块可以用其它的方块或材料代替：%n%n一扇防爆门可以让你进出无尘室。请确保门是关着的，否则超净间会迅速失去洁净度。旅行锚和电梯也可以使用，如果需要，甚至可以将它们嵌入地板中。如果你喜欢的话，也可以使用超凡玻璃作为“门”。%n%n你可以使用线缆二极管或机器外壳，来自动通过墙壁输送电力和材料。但是在为你的内部机器更新换代时你要万分小心。务必拆下旧的机器外壳和线缆二级管，然后用新的更高电压的替换，否则你一定会很伤心的。如果只是用于传输物品，那就不用管等级的事。%n%n如果你想看到内部，可以使用任何EV级别以上的玻璃，例如防爆玻璃、魔力玻璃和超凡玻璃。如果超净间没有成型，请注意30%%的限制：问题往往由你放置了太多玻璃导致的。%n%n最后，超净间本身还需要维护仓和能源仓来运转。这个多方块结构的耗电量有点不同寻常，一开始是40EU/t，然后逐渐降低。但即使是在使用40EU/t的情况下，要给它足够的电，单个LV能源仓就足够了，因为它接收2A-LV。请记住，这只适用于超净间，并不是一个普适规则。%n%n让我们现在先造一个5x5x5大小的超净间，你以后可以根据需要对它进行扩建。给它通电，让它运行，直到洁净度达到100%%。如果洁净度低于100%%，超净间内的机器就有几率吞掉在其中制作的物品，因此您要让超净间始终保持运行状态！%n%n任何维护问题都会使洁净度上限降低10%%。你可以使用便携式扫描仪手动监控超净间，或是使用工业信息屏或维护提示覆盖板配上红石灯或蜂鸣报警器来自动监控。%n%n[note]多方块机器，如大型化学反应釜或是高强度激光蚀刻机，都可以提供无尘环境，所以这些机器无需放入超净间。不过，你在使用其他机器，例如生物实验室时还是会需要超净间的。[/note]%n%n[note]其它有用的提示：你可以使用AE的无线接入器或矢量变换接口，来跳过机器外壳，进行物品运输，你还可以使用更高级的能源仓以更快地达到100%%的洁净度。[/note]%n%n[warn]请注意：你不能在超净间内使用任何会产生污染的机器，否则超净间会停止工作。[/warn]
 
 # Quest: A Very Useful Scanner
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADrQ.name=§6§l一个非常有用的扫描仪
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADrQ.desc=这个便携扫描仪是一个非常有用的工具，他可以扫描游戏中几乎每一个方块并且显示很多有用的信息。 这个工具首先你需要给它充电。它可以接受MV级别128EU/t的充电速率，并且可以储存400kEU的电量。%n%n它可以扫描在作物架上面的作物（直接完全扫描），你可以看到信息比IC2作物扫描仪还要多一些（无需获得种子袋，然后在背包内扫描），扫描过的作物掉落的种子袋就是扫描好的。但是它不能扫描已经掉落为物品的种子袋。%n%n它可以扫描GT的各种机器，能看到当前工作的进度，储存的能量、效率、CPU负载等。%n%n对于游戏中任何方块，它都会获得它的ID、元数据、位置及硬度值。 并且还可以扫描当前区块的污染数值！%n%n除此之外还可显示超净间内的洁净水平。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADrQ.desc=这个便携扫描仪是一个非常有用的工具，他可以扫描游戏中几乎每一个方块并且显示很多有用的信息。 这个工具首先你需要给它充电。它可以接受MV级别128EU/t的充电速率，并且可以储存400kEU的电量。%n%n它可以右键扫描在作物架上面的作物。%n%n它可以扫描GT的各种机器，能看到当前工作的进度，储存的能量、效率、CPU负载等。%n%n对于游戏中任何方块，它都会获得它的ID、元数据、位置及硬度值。 并且还可以扫描当前区块的污染数值！%n%n除此之外还可显示超净间内的洁净水平。
 
 # Quest: The 'Water Problems' Are Solved
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADug.name=§6§l解决‘用水问题’
@@ -7118,7 +7238,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIFQ.desc=有了真空冷冻机之后，�
 
 # Quest: Playing With the Big Boys, Chemically
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.name=§6§l大男孩，咱们来玩玩化工吧
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.desc=该设施将为你处理稍后需要的某些化学配方。比如火箭燃料。 注意，只有达到配方所需化工厂等级才能运行相应配方。%n%n而且化工厂需要大量资源，开始采矿吧！ 某些配方需要催化剂，将它们放在催化剂仓内。 催化剂消耗耐久，包括看起来没有耐久的。%n%n[note]碳化硅可在搅拌机中获得，不一定需要合金冶炼炉。[/note]%n%n可用的固体外壳：（决定可处理的配方等级）%n1 强化青铜机械方块%n2 脱氧钢机械方块%n3 强化铝机械方块%n4 洁净不锈钢机械方块%n5 加强钛机械方块%n6 强化钨钢机械方块%n7 强化劳伦姆合金机械方块%n8 强化博特姆合金机械方块%n%n可用的机械方块：（决定仓室/总线的等级上限）%nULV-UHV机械方块（UHV即可解锁所有仓室/总线）%n%n可用的管道方块：（从2并行，100％催化剂消耗几率开始，每级管道方块提升+2并行，-20％催化剂消耗几率）%n青铜%n钢%n钛%n钨钢%n%n从白铜线圈到永恒线圈，所有等级线圈都可用。每个等级提速+50％，初始速度（白铜线圈）为50％。%n%n[note]另外：使用觉醒龙及以上等级的线圈+钨钢管道方块，不会消耗催化剂耐久。[/note]%n%n[note]中文wiki 埃克森美孚化工厂：  §1§n[url]https://gtnh.huijiwiki.com/p/182[/url]§r[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJXQ.desc=该设施将为你处理稍后需要的某些化学配方。比如火箭燃料。 注意，只有达到配方所需化工厂等级才能运行相应配方。%n%n而且化工厂需要大量资源，开始采矿吧！ 某些配方需要催化剂，将它们放在催化剂仓内。 催化剂消耗耐久，包括看起来没有耐久的。%n%n[note]碳化硅可在搅拌机中获得，不一定需要合金冶炼炉。[/note]%n%n可用的固体外壳：（决定化工厂可运行的配方等级）%n1 强化青铜机械方块%n2 脱氧钢机械方块%n3 强化铝机械方块%n4 洁净不锈钢机械方块%n5 加强钛机械方块%n6 强化钨钢机械方块%n7 强化劳伦姆合金机械方块%n8 强化博特姆合金机械方块%n%n可用的机械方块：（决定仓室/总线的等级上限）%nULV-UHV机械方块（UHV即可解锁所有仓室/总线）%n%n可用的管道方块：（从2并行，100％催化剂消耗几率开始，每级管道方块提升+2并行，-20％催化剂消耗几率）%n青铜%n钢%n钛%n钨钢%n%n从白铜线圈到永恒线圈，所有等级线圈都可用。每个等级提速+50％，初始速度（白铜线圈）为50％。%n%n[note]另外：使用觉醒龙及以上等级的线圈+钨钢管道方块，不会消耗催化剂耐久。[/note]%n%n[note]中文wiki 埃克森美孚化工厂：  §1§n[url]https://gtnh.huijiwiki.com/p/182[/url]§r[/note]
 
 # Quest: Better Glass Upgrade, EV Glass
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ_A.name=§8§l更好的玻璃，升级：EV玻璃
@@ -7194,7 +7314,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALTQ.desc=要处理更先进的材料，�
 
 # Quest: Neutron Activator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.name=§6§l中子活化器
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.desc=中子活化器是一种独具特色的机器。之后你需要用它处理硅岩，以及硅岩燃料（如果你选择制作它的话）。%n%n与使用能源仓的传统机器不同，它需要使用中子加速器，后者需要用中子传感仓来调控。§3（中子加速器仍然需要供电，和能源仓类似）§r%n%n中子加速器会提高中子动能（NKE）。当中子动能位于合适区间（见NEI）内时，活化器就会正常工作并输出正确的产物。但是，如果你在中子动能不符要求时启动活化器的话，它仍然会消耗你输入的原材料，但产出垃圾。因此，使用活化器时请留意中子动能。%n%n当所有中子加速器都不运行时，中子动能会以每秒72keV的速率衰减。%n%n当中子动能超过1200MeV时，活化器会直接爆炸！%n%n§d你可以用剪线钳启动批处理模式。§r%n%n[note]机器的高度越高、高速管道方块越多，EU->eV的转换效率就越低，使得你需要输入更多功率。机制如下：高度每比4高一格，配方时间就乘以0.9，而单位功率获得的eV乘以0.95。[/note] %n%n[note]中文wiki 中子活化器：  §1§n[url]https://gtnh.huijiwiki.com/p/1153[/url]§r[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALeA.desc=中子活化器是一种独具特色的机器。之后你需要用它处理硅岩，以及硅岩燃料（如果你选择制作它的话）。%n%n与使用能源仓的传统机器不同，它需要使用中子加速器，后者需要用中子传感仓来调控。§3（中子加速器仍然需要供电，和能源仓类似）§r%n%n中子加速器会提高中子动能（NKE）。当中子动能位于合适区间（见NEI）内时，活化器就会正常工作并输出正确的产物。但是，如果你在中子动能不符要求时启动活化器的话，它仍然会消耗你输入的原材料，但产出垃圾。因此，使用活化器时请留意中子动能。%n%n当所有中子加速器都不运行时，中子动能会以每秒72keV的速率衰减。%n%n§d你可以用剪线钳启动批处理模式。§r%n%n[note]机器的高度越高、高速管道方块越多，EU->eV的转换效率就越低，使得你需要输入更多功率。机制如下：高度每比4高一格，配方时间就乘以0.9，而单位功率获得的eV乘以0.95。[/note] %n%n[note]中文wiki 中子活化器：  §1§n[url]https://gtnh.huijiwiki.com/p/1153[/url]§r[/note]
 
 # Quest: Neutron Sensor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALeQ.name=§6§l中子传感器
@@ -7296,8 +7416,8 @@ betterquesting.quest.bLz_cD33RE24mtOb2aLxXg.desc=放射物衰变库能够储存�
 betterquesting.quest.b_Ll4zvSRfCMgmqiBa4Xkw.name=§6§l别把多方块采矿场弄丢了！
 betterquesting.quest.b_Ll4zvSRfCMgmqiBa4Xkw.desc=采矿场可容易弄丢了。你可是一名日理万机的工程师，懂吗？你不应当让琐碎的信息填满你的记忆，比如“我最后一次部署采矿场到底是在银河系的哪个犄角旮旯？”你也可以用些无聊的方法，比如“写下采矿场的位置坐标”或是“在自己的矿物处理区挂个写有采矿场坐标的牌子”，不过现在有更好的方法了。%n%n数据发射器覆盖板。将此覆盖板贴上采矿场（或任意GT机器）时，将生成一张匹配该机器的GT高级传感器卡片。 将此卡片插入NuclearCraft的工业信息屏，即可收到对应机器发回的运行信息，也包括当前坐标。另外，它还能传回其低端版本——GT传感器工具——所能提供的各种信息。与GT传感器工具不同的是，数据发射器覆盖板§n可以在任意范围内跨维度工作，无需范围升级。§r另外，由于拆卸机器时覆盖板仍然会保留在机器上，所以§n即便多方块机器多次搬迁，匹配的传感器卡片仍然可以继续工作，且无需重新校准。§r 这使其非常适合用于采矿场和油气流体钻机，这类需要部署在野外且经常搬迁的机器。%n%n但是，一如既往，这里隐藏着一个陷阱。如果将数据发射器覆盖板从主机上拆下，§n对应的传感器卡片将被摧毁。§r也许你不该在敏感的电子设备周围使用撬棍……
 
-# Quest: Using that Algae
-betterquesting.quest.eur7SqfIT8GEE_NxscJj8Q.name=§6§l利用这些藻类
+# Quest: Using That Algae
+betterquesting.quest.eur7SqfIT8GEE_NxscJj8Q.name=§6§l利用那些藻类
 betterquesting.quest.eur7SqfIT8GEE_NxscJj8Q.desc=很好！你已经制造了化工厂和一台藻类农场。是时候好好利用它了，而不是把它们弃之不顾。你可以用藻类制作很多配方，但让我们从一个简单的开始。%n%n为此，你需要一些褐藻生物质和绿藻生物质。这意味着藻类农场底部至少需要HV机械方块。HV藻类农场每35秒最多可生产8个褐藻生物质，而最差情况下每105秒只能生产2个，而EV藻类农场每30秒最多可生产20个，在最差情况下90秒只能生产12个。%n%n有了绿藻生物质和褐藻生物质后，将它们与蒸馏水一起放入二级化工厂（钢制）就能得到硫酸。硫酸本身的生产成本很低，但这些机器做起来可有点贵！以后还可以使用另一种硫酸配方，但需要更高级的藻类生物质和更高等级的化工厂。
 
 # Quest: A Little More Sigma (Squared)
@@ -7430,7 +7550,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.name=§8§l我感觉我要吐了
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7A.desc=用多方块采矿场获得的数以千计的矿石可以交给§5§l工业离心机§r处理。之后你会需要一排这机器，但一两台就足以启动了。%n%n这台多方块结构提供每电压等级§6§l4-8§r并行，以§2§l2-3倍§r速度处理配方，并提供§3§l10%%§rEU消耗减免。这让它完爆了单方块离心机和大型蒸汽离心机。%n%n最大并行与处理速度系数从最小值开始，随着离心机动量增加而达到最大值%n%n离心机运行时每 10 游戏刻会获得 1%% 动量%n§3（即从 0%% 到 100%% 需 50s）§r%n%n反之，在闲置时，其将每 5 游戏刻损失 2%% 动量%n§3（即从 100%% 到 0%% 需 12.5s）§r%n%n[note]译者注：建议根据自己的需要选择打粉-离心、洗矿-打粉-离心、洗矿-热离-打粉这些工序。[/note]
 
 # Quest: Bask In The Currents
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=§d§l沐浴在电流中
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.name=§9§l沐浴在电流中
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7Q.desc=§r[warn]这个多方块结构总是按照结构中能源仓的等级运行配方。如果机器没有获得足够的能量供应，它将无法启动。[/warn]%n%n虽然这个多方块结构在IV阶段就可以制作，但我们建议§n完成硅岩线之后再建造§r。%n%n%n该多方块结构有3种不同模式：§3常规§r、§4工业高炉§r和§6矿石§r。%n%n%n在§3常规§r模式下，该多方块结构会§3处理普通的电弧炉配方§r。%n%n在§4工业高炉§r模式下，该多方块结构可以处理§4所有工业高炉配方，无视线圈等级需求§r。这项功能的代价是§l配方的基础电压等级提高2级§r。%n%n在§6矿石§r模式下，这台机器仅能处理可在普通熔炉中冶炼的矿石和粗矿，直接产出熔融金属。%n%n%n除了这些模式外，这台机器还有3个不同的处理阶段。%n%n§l起弧阶段：§r在此阶段，机器会消耗等于§l最大并行数 × 每并行A数 × （1 + 启动惩罚加成）§r的功率。该阶段持续6秒，然后进入处理阶段。%n%n§l处理阶段：§r在此阶段，机器的行为与其他多方块结构类似。其能耗由所用电极的A/并行统计值决定。如果机器无法找到可用的配方，则会进入停机阶段。%n%n§l停机阶段：§r机器进入6秒钟的阶段，期间不处理任何配方，也不消耗任何能量。在停机阶段之后，需要再次经过启动阶段才能处理配方。%n%n%n该多方块结构的各项属性主要取决于所用电极，包括速度、并行数、超频，甚至每并行A数。%n%n如果所用电极的耐久度降至30%%以下，则机器有5%%的几率需要再次起弧。%n%n如果所用电极的耐久度降至10%%以下，则机器有2%%的几率会§l销毁所有§r产物。
 
 # Quest: Bate Bate Chocolate
@@ -7443,7 +7563,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAH7w.desc=我不想长大，我想跟§5�
 
 # Quest: Best Thing Since Sliced Bread
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.name=§9§l最好的切面包机
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=当你有了一台装满了小刀的机器，你看啥都像面包了。%n%n为了让§5§l工业切割机§r正常工作，需要在其内部安装锯刃。机器的性能与所安装锯刃的质量直接相关。%n%n第一种可制造的锯刃类型为§l碳化钨钛合金锯刃§r。它能提供每电压等级§6§l2§r并行，§2§l2.5倍§r加速，以及§3§l10%%§r的能量减免。%n%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8A.desc=当你有了一台装满了小刀的机器，你看啥都像面包了。%n%n为了让§5§l工业切割机§r正常工作，需要在其内部安装锯刃。机器的性能与所安装锯刃的质量直接相关。%n%n第一种可制造的锯刃类型为§l碳化钨钛合金锯刃§r。它能提供每电压等级§6§l2§r并行，§2§l2.5倍§r加速，以及§3§l10%%§r的能量减免。
 
 # Quest: ZzzZZZzzzZtt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH8g.name=§9§l嗞……嗞……嗞……
@@ -7487,7 +7607,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIBg.desc=大规模自动装配机可以�
 
 # Quest: Tower of Babylon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.name=§d§l巴别塔
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.desc=嗯……如果将64个蒸馏塔合为一座会发生什么……？你懂的……你会得到一个61层高的多方块结构。%n%n此多方块机器一次最多可以处理§6§l256§r个配方，并且根据启用的蒸馏模式提供不同的增益。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJEA.desc=嗯……如果将64个蒸馏塔合为一座会发生什么……？你懂的……你会得到一个54层高的多方块结构。%n%n此多方块机器一次最多可以处理§6§l256§r个配方，并且根据启用的蒸馏模式提供不同的增益。
 
 # Quest: Circuit Assembly Line
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKKQ.name=§d§l电路装配线
@@ -7563,7 +7683,7 @@ betterquesting.quest.XA467S8MQtCEPy6L23eEEA.desc=您可能有一段时间没有�
 
 # Quest: Advanced Assembly Line
 betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.name=§d§l进阶装配线
-betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=这是§6GigaGram§rFab添加的进阶装配线。%n%n这个装配线支持流水线式操作，也就是说，它会像真正的装配线一样，一个一个消耗物品而非一次性全部消耗。实际上，它可以提供与该配方所需物品输入数量相同的并行。你可以认为一条进阶装配线是由数个装配片组成的，每个装配片都可以独立于其它片处理每一步。当输入总线内物品与任意闪存吻合时，装配线将开始工作。第一片将会消耗输入总线#1内的物品。经过（配方时间/输入物品种类数）时间后，第一片的工作完成，第二片开始工作。与此同时，第一片将会在输入总线#1内寻找材料。如果材料足够，则第一片将再次工作。%n%n终端片（第n片,n为配方要求输入物品种类数）将会在完成工作时向输出总线输出产品，非终端片在工作完成后，将尝试让下一片工作。如果下一片的输入总线中没有足够的材料，完成工作的片将会保持[warn]堵塞[/warn]状态，并使装配线进入挂起状态。为方便定位[warn]堵塞[/warn]的装配线，其控制器的正面指示灯将会变为橙色。%n%n启用的片数乘以原配方所需EU/t即机器所消耗的EU/t。[warn]堵塞[/warn]片不会消耗能量。最低等级能源仓的输入电压，决定了配方等级和 2/4 超频上限。安装激光仓可使其超频到能源仓电压以上，但会消耗比 2/4 超频更多的能量。每§2激光超频§r一次，都会增加0.3倍的功率指数。一次§2激光超频§r使配方时间减少到50%%，使用430%%的能量。两次§2激光超频§r使配方时间减少到25%%，使用1978%%的能量。无法超频到1tick以下。机器会首先尝试并行，然后尝试 2/4 超频，最后尝试§2激光超频§r。
+betterquesting.quest.ZIotzqvnRiKu1_1Hb9i1dg.desc=这是§6GigaGram§rFab添加的进阶装配线。%n%n这个装配线支持流水线式操作，也就是说，它会像真正的装配线一样，一个一个消耗物品而非一次性全部消耗。实际上，它可以提供与该配方所需物品输入数量相同的并行。你可以认为一条进阶装配线是由数个装配片组成的，每个装配片都可以独立于其它片处理每一步。当输入总线内物品与任意闪存吻合时，装配线将开始工作。第一片将会消耗输入总线#1内的物品。经过（配方时间/输入物品种类数）时间后，第一片的工作完成，第二片开始工作。与此同时，第一片将会在输入总线#1内寻找材料。如果材料足够，则第一片将再次工作。%n%n终端片（第n片,n为配方要求输入物品种类数）将会在完成工作时向输出总线输出产品，非终端片在工作完成后，将尝试让下一片工作。如果下一片的输入总线中没有足够的材料，完成工作的片将会保持[warn]堵塞[/warn]状态，并使装配线进入挂起状态。为方便定位[warn]堵塞[/warn]的装配线，其控制器的正面指示灯将会变为橙色。%n%n启用的片数乘以原配方所需EU/t即机器所消耗的EU/t。[warn]堵塞[/warn]片不会消耗能量。最低等级能源仓的输入电压，决定了配方等级和 2/4 超频上限。安装激光仓可使其超频到能源仓电压以上，但会消耗比 2/4 超频更多的能量。每§2激光超频§r一次，都会增加0.3倍的功率指数。一次§2激光超频§r使配方时间减少到50%%，使用430%%的能量。两次§2激光超频§r使配方时间减少到25%%，使用1978%%的能量。机器会首先尝试并行，然后尝试 2/4 超频，最后尝试§2激光超频§r。
 
 # Quest: Advanced Autoclaving
 betterquesting.quest._dFgSThoQTWgM696ykr2Gw.name=§d§l大型高压釜
@@ -7680,7 +7800,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7A.desc=把那些128EU的太阳能板�
 
 # Quest: Power of the Sun at HV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7g.name=§9§l太阳之力（HV）
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7g.desc=接下来要开始制作HV级别太阳能板，它可以提供最大512EU/t的输出。可以用作大多数GT机器的覆盖板。%n首先你需要生产富集阳光化合物和铀238板。 HV级别及以上的太阳能板需要在9*9格的终极工作台合成。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7g.desc=接下来要开始制作HV级别太阳能板，它可以提供最大512EU/t的输出。可以用作大多数GT机器的覆盖板。首先你需要生产富集阳光化合物，将光辉铀锭与阳光化合物混合在一起。
 
 # Quest: Power of the Sun 1x1 HV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAD7w.name=§9§l太阳之力（HV）1x1
@@ -8110,10 +8230,6 @@ betterquesting.quest.Hn_igsosSbKsnATeYgvPgw.desc=太长；不看：这个任务�
 betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.name=§2§l§n涡轮仓
 betterquesting.quest.J2ok3rFLS7quyIlHPaN0FQ.desc=在UV你解锁了给涡轮自动重装转子的能力。%n%n特大涡轮则能更早的默认重装转子……
 
-# Quest: Balance is Everything
-betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=§9§l§n关键在于平衡
-betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=你已经能超越维度了，但当你的电力需求激增到一种荒诞的程度时，你也许需要超越物质了！%n%n利用原初恒坚钢不毁的特性，掌控[warn]混沌[/warn]成为了现实。半稳定反物质稳定序列器引入了半稳定反物质的概念。这种物质由元始物质制成。%n%n但它可是个难伺候的主子…掌握不当的话，反物质就会湮入虚无！%n%n半稳定反物质从周期为1秒的循环中产出，每次的产量基于16个反物质仓中储存的反物质量之和，并消耗等量的元始物质。%n%n每个周期，每个反物质仓的基础产出为：%n(1/16)*(§3反物质量§r)^(0.5+§6§nC§r)。%n随后每个仓将各自从均值为（0.2+§b§nA§r）、方差为1的正态分布中抽取随机数，乘在基础产量上——这意味着反物质总量变化可能为负值。%n%n该机制将导致仓室间的反物质量失衡。想要实现反物质生产自动化，重新配平各仓室的反物质存量至关重要。每周期结束时，所有反物质仓中反物质存量最低值将被记录，所有存量高于最低值的仓室将损失差值的一半！%n%n正确使用稳定流体可以显著减少能量消耗并增加产出：%n%n机器被动消耗 10,000,000+(§3反物质量§r*1000)^§ (1.5-§2§nM§r§) EU/t。%n磁性稳定液可减轻被动不稳定性，表现为§2指数上§r的剪除：%n熔融纯镃：§2§n0.1§r%n富快子时间流体：§2§n0.2§r%n熔融磁物质：§2§n0.3§r%n%n机器每个运行周期消耗(§3反物质§r*10000)^(1.5-§5§nG§r) EU%n调整锻炉中的引力约束可以剪除这一§5指数§r：%n熔融时空：§5§n0.05§r%n扩大化空间流体：§5§n0.10§r%n熔融永恒：§5§n0.15§r%n%n更紧凑地约束反物质可以增加每个循环的产出。遏制稳定流体可在产出公式中提供§6指数上§r的提升：%n熔融调律源金：§6§n0.05§r%n熔融磁流体约束恒星物质（蓝框岩浆）：§6§n0.10§r%n%n输入高能垒的流体能够调节反物质的流动混沌性，使其随机性向有利的方向偏转。活化稳定流体能引起正态分布的§b均值§r变化，降低负产出的风险并有利于更高的产出。%n硅岩基流体燃料 MK-V（枯竭的）：§b§n0.05§r%n硅岩基流体燃料 MK-VI（枯竭的）：§b§n0.10§r
-
 # Quest: Naquadah Based Fuel MkVI
 betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.name=硅岩基流体燃料 MK-VI
 betterquesting.quest.KHL_yx4XTKOtsHHZ60ZZpg.desc=每升产出2,077,795,200EU/t，持续12s。相当离谱的发电，也有相当离谱的消耗。这条产线需要大量的基建，不过能够产出数以万亿计的EU/t。%n%n配方所需的星体钛和天体钨可以从激光蚀刻或者等离子线产出。%n%n三钛可以通过聚变或者DD采矿产出。%n%n调律源金需要大量的聚变和DTPF来维持产出。%n%n在拥有鸿蒙之眼以后，你可以使用浓缩原始恒星等离子体混合物来提高产率以产出更多的能量。%n%n为了充分利用MkVI燃料,你还得考虑使用富快子时间流体。
@@ -8152,7 +8268,7 @@ betterquesting.quest.X_rOgp6GRKiyGzwRV_p7GA.desc=还记得铌钛合金吗？这�
 
 # Quest: Harnessing Chaos
 betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.name=§9§l§n掌控混沌
-betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.desc=你已经精通反物质的生产了，但是单有反物质可不能让你的机器跑起来。为了将这种潜能转化为无与伦比的能量，是时候[warn]掌控混沌[/warn]本身了！%n%n[quest]隆重介绍屏蔽拉格朗日湮灭矩阵！[/quest]%n%n反物质发电机通过在可控环境中让半稳定反物质和普通物质发生反应来产生能量。%n%n每轮循环，发电机都会立即消耗输入仓中所有的物质与反物质，直接将其全部转换为能量.EU输出基于等量的物质和反物质发生湮灭。因此，如果输入数量不平衡，那就会浪费你宝贵的电力。%n%n根据用于湮灭的物质的种类，反物质的量会被进行一次乘方，直接增加每L反物质能产出的能量-这意味着一轮循环你湮灭的量越多，效率就越高！%n%n每轮循环的最大能量输出受到结构中所有激光源仓（至多64个）的容量限制，即使在无线模式也是如此。%n%n[note]它每轮循环不能输出超过9.22e18EU,或者说刚刚好不到43个UXV16,777,216A激光源仓（如果你真是够疯了的话）。%n[/note]%n%n产出公式和所有可用物质对应的指数如下：%n%n发电量=(§3反物质§r^§6指数§r)*1,000,000,000,000%n%n熔融铜-§61.00§r%n熔融UEV超导粗胚-§61.02§r%n熔融UMV超导粗胚-§61.03§r
+betterquesting.quest._O6stWM3RR-qJdcvs0i-Mw.desc=你已经精通反物质的生产了，但是单有反物质可不能让你的机器跑起来。为了将这种潜能转化为无与伦比的能量，是时候[warn]掌控混沌[/warn]本身了！%n%n[quest]隆重介绍屏蔽拉格朗日湮灭矩阵！[/quest]%n%n反物质发电机通过在可控环境中让半稳定反物质和普通物质发生反应来产生能量。%n%n每轮循环，发电机都会立即消耗输入仓中所有的物质与反物质，直接将其全部转换为能量.EU输出基于等量的物质和反物质发生湮灭。因此，如果输入数量不平衡，那就会浪费你宝贵的电力。%n%n根据用于湮灭的物质的种类，反物质的量会被进行一次乘方，直接增加每L反物质能产出的能量-这意味着一轮循环你湮灭的量越多，效率就越高！%n%n每轮循环的最大能量输出受到结构中所有激光源仓（至多64个）的容量限制，即使在无线模式也是如此。%n%n[note]它每轮循环不能输出超过9.22e18EU,或者说刚刚好不到43个UXV16,777,216A激光源仓（如果你真是够疯了的话）。[/note]%n%n产出公式和所有可用物质对应的指数如下：%n%n发电量=(§3反物质§r^§6指数§r)*1,000,000,000,000%n%n熔融铜-§61.00§r%n熔融UEV超导粗胚-§61.02§r%n熔融UMV超导粗胚-§61.03§r
 
 # Quest: Welcome to the Plasma Chain
 betterquesting.quest.bNiieqPgSFqwFpC2DZkj-g.name=欢迎来到等离子体系列任务
@@ -8277,7 +8393,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEOw.desc=更好的机器需要更好的�
 
 # Quest: HV Battery Buffers
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg.name=HV电池箱
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg.desc=HV的机器也需要电池箱来作为电力缓冲区。同样，HV电池箱也有1X、4X、9X和16X各种尺寸。%n%n[note]你只需完成其中一项要求即可。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdg.desc=HV的机器也需要电池箱来作为电力缓冲区。同样，HV电池箱也有1X、4X、9X和16X各种尺寸。%n%n[note]你只需制作其中一项即可。[/note]
 
 # Quest: HV Battery Hulls
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEdw.name=HV电池外壳
@@ -8468,6 +8584,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAL1Q.desc=这是有史以来最强大的�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALqA.name=蒸馏概论
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALqA.desc=虽然石油资源丰富，但如果不经过处理，它几乎无法使用。处理线中最重要的环节之一就是蒸馏，这一处理可以利用各组分的沸点差异，将这种黑色流体分馏。从LV阶段开始，你就能在蒸馏室中完成这一处理，但此时只能选择一种组分出产：你得慎重选择自己所需的部分。%n%n较轻的组分通常比重的更有用，但这并不意味着最轻的就是最好的。在现阶段，含硫轻燃油是最优选择，只需要经过简单的脱硫处理，它就能成为相当优秀的能源。 请勿使用未处理的石油直接为这些机器供能，在你搞到更好的能源之前坚持用蒸汽吧。%n%n[note]你可以在LV章节中找到有关其他组分的相关信息！[/note]
 
+# Quest: Here's Some Oil
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALqg.name=§2§l这里有几吨油
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALqg.desc=[note]这里石油任务线的内容分到了两个章节-关于获取所有提纯产物的部分在LV章节,关于如何处理利用石油的部分在"石油工业"章节,本任务就是后者的一部分.[/note]%n%n欢迎你！ 在此任务线中，我们将为你展示石油处理的不同路线，以获取所有可以从石油中提取的有用物品、流体。 石油处理有许多步骤，而这些步骤从LV（低压）开始解锁，到IV（强导压）全部解锁，而处理的产物在这些电压以及更高电压都十分重要。%n%n石油处理产物不单可以用作能源，还是许多化工制品的重要原料。随着科技的进步，处理速度会更快，处理产物会更加丰富，同时你还可以升级此前的产线。 此任务线非本整合包必须主线，但如果你相信它，它也不会让你失望。%n%n获取初始石油的最佳方式就是抽取地表油泉。无需深挖，只需要在油泉上方放置泵，再配上一台发电机提供能量，即可轻松获取石油。 刚开始的时候，你可以直接用石油发电，不过这样效率不高，建议稍后处理得到燃油后更换发电燃料。
+
 # Quest: Oil Drilling Rig
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALqw.name=油气流体钻机
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALqw.desc=在MV阶段，将蒸汽作为唯一能源已经举步维艰，所以你需要寻找更可靠的能源。而石油效率获得了极大提升，这使其成为了一种替代蒸汽的优质能源选择。%n%n当然，你可能已经用上了轻燃油，但你可能也想过：有没有更好的获取石油的方式？可能只是一闪念，也有可能没想过。不过这都不重要，在此阶段会解锁一种多方块机器，它可以让获取石油喂给蒸馏室变得轻松愉快。 这种多方块机器就是油气流体钻机，它可以从基岩下方抽取生成的虚拟油田（以及之后各种流体田），为了判断下方的流体田分布，你需要先扫描区块。%n%n在多方块结构任务栏有钻机的相关任务。去看看它吧！
@@ -8506,7 +8626,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALsw.desc=你可以把脱硫出来的硫�
 
 # Quest: Oil Reservoirs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALtA.name=虚拟油田
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALtA.desc=与地表可见的油泉不同，基岩下方的虚拟流体田在没有特定工具帮助下，是不可见也无法探测的。%n请参见LV页面的“分析土壤”任务。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALtA.desc=与地表可见的油泉不同，基岩下方的虚拟流体田在没有特定工具如手持探矿仪的帮助下，是不可见也无法探测的。%n%n请参见LV页面的“分析土壤”任务。
 
 # Quest: More Hydrogen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALtQ.name=更多氢气
@@ -8655,7 +8775,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMGw.desc=想要享受可再生能源，�
 
 # Quest: The Two Alcohols
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMHA.name=两种醇
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMHA.desc=与种子油或鱼油之一混合制备生物柴油的另一种流体，可以是两兄弟之一：甲醇和乙醇。它们非常相似，两种醇都由被氢环绕的碳原子构成，再配上远端的一个-OH（羟基）；它们的来源通常也是相同的（例如，在蒸馏塔中处理木醋酸或生物质），但两者还是有一些区别的。 想要用更简单的元素在化学反应釜中生产它们，需要到达MV阶段，应该也是你目前的阶段。%n%n请查看NEI，寻找这两者的所有合成配方。你只需选择其中之一，相应的任务要求也只需满足其一即可。 可能你更倾向于生产甲醇。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMHA.desc=与种子油或鱼油之一混合制备生物柴油的另一种流体，可以是两兄弟之一：甲醇和乙醇。它们非常相似，两种醇都由被氢环绕的碳原子构成，再配上远端的一个-OH（羟基）；它们的来源通常也是相同的（例如，在蒸馏塔中处理木醋酸或生物质），但两者还是有一些区别的。 想要用更简单的元素在化学反应釜中生产它们，需要到达MV阶段，应该也是你目前的阶段。%n%n请查看NEI，寻找这两者的所有合成配方。你只需选择其中之一，所以随便选一种你想生产的醇吧。 可能你更倾向于生产甲醇。
 
 # Quest: Extracting the Oil
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMHQ.name=提取油
@@ -9325,7 +9445,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtg.desc=隔热套装是一套由先进�
 
 # Quest: Sleeping in Space
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtw.name=在太空中睡觉
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtw.desc=冬眠舱用于在其他星球上睡觉并跳过漫长的黑夜。 它可以在任何时间使用，甚至在白天，也可以在任何世界使用，包括主世界。%n%n白天使用冬眠舱将跳至下一个日出的时间，除了在小行星带上，太阳在那里总是锁定在西方。%n%n一旦玩家使用了冬眠舱，在他再次使用冬眠舱之前有300秒的冷却时间。 破坏和重新放置冬眠舱或尝试使用另一台冬眠舱将不会重置冷却时间，除非死亡。%n%n冬眠舱工作不需要能量。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFtw.desc=冬眠舱用于在其他星球上睡觉并跳过漫长的黑夜。 它可以在任何时间使用，甚至在白天，也可以在任何世界使用，包括主世界。%n%n白天使用冬眠舱将跳至下一个日出的时间，除了在小行星带上，太阳在那里总是锁定在西方。%n%n一旦玩家使用了冬眠舱，在他再次使用冬眠舱之前有300秒的冷却时间。 破坏和重新放置冬眠舱或尝试使用另一台冬眠舱将不会重置冷却时间，除非此玩家死亡。%n%n冬眠舱工作不需要能量。
 
 # Quest: Airlocks
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFuQ.name=气密闸
@@ -10337,7 +10457,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMQ.desc=无线接入器——近距离�
 
 # Quest: Ore Dictionary Output
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.name=矿典过滤输出
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.desc=安装矿典过滤卡的总线会将相同矿典的物品或者流体从ME网络中提取到相应容器或储罐中。 打开矿典过滤卡的界面，就可以输入想要输出的名称，例如想要输出所有的矿石，那么请键入“ore*”。 它的速度很快。%n%n[note]crushed* & !crushedPurified* & !crushedCentrifuged*可以指定粉碎矿石，并滤掉洗净矿石，然后再将洗净矿石打粉还是热离或筛选就随你了。[/note]%n%n相比矿典总线，矿典卡可以用在更多的设备上，延迟还更少，而工作方式类似。 将其插入总线或元件，点击出现的T按钮，即可输入过滤的矿典。 总线版本已无法合成。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.desc=安装矿典过滤卡的总线会将相同矿典的物品或者流体从ME网络中提取到相应容器或储罐中。 打开矿典过滤卡的界面，就可以输入想要输出的名称，例如想要输出所有的矿石，那么请键入“ore*”。 它的速度很快。%n%n[note]crushed* & !crushedPurified* & !crushedCentrifuged*可以指定粉碎矿石，并滤掉洗净矿石，然后再将洗净矿石打粉还是热离或筛选就随你了。[/note]%n%n相比矿典总线，矿典卡可以用在更多的设备上，延迟还更少，而工作方式类似。 将其插入总线或元件，点击出现的T按钮，即可输入过滤的矿典。 
 
 # Quest: To Link P2P Buses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.name=连接P2P通道
@@ -10425,7 +10545,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6A.desc=量子桥使你能够将距离�
 
 # Quest: Tools of the Trade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6Q.name=必备工具
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6Q.desc=网络工具是AE2最主要的实用工具。%n%n右键网络任意一处可以显示网络能耗，以及构成网络的所有设备。%n右键空气可以显示自身的GUI，存储卡片或者切换伪装板透明度。%nShift+右键拆卸AE设备（输入总线、接口，等等），在不断开线缆的情况下拆卸指定设备，同时也能立即拆卸AE的各种方块。%n%n%n网络可视化工具，功能与其描述完全一致，可以形象显示你网络中的频道。 首先，右键一个网络以将其选中。一开始你会看到所有信息，但你还可以按住Shift并滚动鼠标滚轮以切换各种模式。 请记住，如果你的网络中还有子网络，比如用于传输P2P通道的子网络，那些子网节点不会显示出来，因为那是另一网络，但P2P通道的出入口会正常显示。 这种显示可以穿过方块或实体，因此你可以借此查看整个基地。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6Q.desc=网络工具是AE2最主要的实用工具。%n%n右键网络任意一处可以显示网络能耗，以及构成网络的所有设备。%n右键空气可以显示自身的GUI，存储卡片或者切换伪装板透明度。%nShift+右键拆卸AE设备（输入总线、接口，等等），在不断开线缆的情况下拆卸指定设备，同时也能立即拆卸AE的各种方块。%n%n%n网络可视化工具，功能与其描述完全一致，可以形象显示你网络中的频道。 首先，右键一个网络以将其选中。一开始你会看到所有信息，但你还可以按住潜行并右键以切换各种模式。 请记住，如果你的网络中还有子网络，比如用于传输P2P通道的子网络，那些子网节点不会显示出来，因为那是另一网络，但P2P通道的出入口会正常显示。 这种显示可以穿过方块或实体，因此你可以借此查看整个基地。
 
 # Quest: Portable Digital Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ6g.name=便携式数字存储
@@ -10453,7 +10573,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8Q.desc=源质供应器和注魔供应�
 
 # Quest: Ordering Essentia
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8g.name=自动蒸馏源质
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8g.desc=蒸馏编码台类似于源质版的样板编码台，用它编写出的样板使你能够自动将相应物品投入炼金炉并获得所需的源质。%n首先，将扫描过的物品放入编码台，同时放入空白样板。 如果物品包含不止一种源质，你可以通过点击源质将其置顶，再点击右侧按钮即可编码样板，编写出物品->源质的样板。 将此样板插入炼金炉边的ME接口，你就能在源质终端中自动合成这种源质了，与普通的物品合成类似的方式。%n%n[warn]不过目前还没有自动合成在奥术合成过程中所需源质的方法。[/warn]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8g.desc=蒸馏编码台类似于源质版的样板编码台，用它编写出的样板使你能够自动将相应物品投入炼金炉并获得所需的源质。%n首先，将扫描过的物品放入编码台，同时放入空白样板。 如果物品包含不止一种源质，你可以通过点击源质将其置顶，再点击右侧按钮即可编码样板，编写出物品->源质的样板。 将此样板插入炼金炉边的ME接口，你就能自动合成这种源质了，与普通的物品合成类似的方式。%n%n[warn]不过目前还没有自动合成在奥术合成过程中所需源质的方法。[/warn]
 
 # Quest: Autocrafting Magic Stuff
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJ8w.name=自动奥术合成
@@ -10693,7 +10813,7 @@ betterquesting.quest.JejpWZ7ATZq-0uomP4c7UA.desc=与1k存储元件一样。
 
 # Quest: Hyper Acceleration!
 betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.name=超级加速！
-betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=超级加速卡是更快的普通加速卡。%n%n[note]超级加速卡可放置于：[/note]%n%n§cME IO接口(3)%nME流体输入总线(4)%nME流体输出总线(4)%n%n§r在IO接口中，超级加速卡将以以下速度传输物品：%n%n§61张：4,096物品/tick%n2张：32,768物品/tick%n3张：262,144物品/tick%n%n§r在ME流体总线中，超级加速卡将以以下速度传输流体：%n%n§61张：4,096,000 mb/tick%n2张：32,768,000 mb/tick%n3张：262,144,000 mb/tick%n%n§r[note]译者注：您可以安全地使用这张卡，无需担心招来森林蝙蝠打击。[/note]
+betterquesting.quest.KM9gm3HCTa2OGPWlHHl4fw.desc=超级加速卡是更快的普通加速卡。%n%n[note]超级加速卡可放置于：[/note]%n%n§cME IO接口(3)%nME流体输入总线(4)%nME流体输出总线(4)%nME输入/输出总线(4)%n%n§r在IO接口中，超级加速卡将以以下速度传输物品：%n%n§61张：4,096物品/tick%n2张：32,768物品/tick%n3张：262,144物品/tick%n%n§r在ME流体总线中，超级加速卡将以以下速度传输流体：%n%n§61张：4,096,000 mb/tick%n2张：32,768,000 mb/tick%n3张：262,144,000 mb/tick%n%n§r[note]译者注：您可以安全地使用这张卡，无需担心招来森林蝙蝠打击。[/note]
 
 # Quest: Advanced Neutronium Tech
 betterquesting.quest.LsZndSrhSAGSi60QlbnDtg.name=先进中子科技
@@ -10725,7 +10845,7 @@ betterquesting.quest.SDGKHP7fQx-c3gUBv4DwuQ.desc=你是否曾经想下单一千�
 
 # Quest: Cards for AE2 Nerds!
 betterquesting.quest.TP2PEGHQRnGKgKYFziEjrg.name=为AE2糕手准备的功能卡！
-betterquesting.quest.TP2PEGHQRnGKgKYFziEjrg.desc=[quest]均分卡，伪合成卡，锁定卡，高级阻挡卡！[/quest]%n%n§6均分卡：§r%n%n均分卡会将存储元件的容量在类型或分区间均等分配。%n%n§6伪合成卡：§r%n%n伪合成卡将指示ME系统完成合成而不检测最终产物。%n%n适用于一次性合成多方块结构所需的所有方块，再也不用手动塞纸或者取消合成了！%n%n伪合成卡仅可用于%n：%n§cME二合一接口%nME接口%nP2P通道 - ME二合一接口§r%n%n§6锁定卡：§r%n%n锁定卡对ME接口是否启动一个新的合成，增加了额外的红石控制：%n%n§c无红石信号%n有红石信号%n锁定合成，直到接受到红石脉冲%n锁定合成，直到主产物被返回至同一接口§r%n%n§6高级阻挡卡：§r%n%n高级阻挡卡能够忽略子网络中的非消耗品，以完成更复杂的自动化。%n%n对于一个标准的主网-子网配置（两个相对的ME接口），本卡需§9置于§l子网的ME接口§f中方可生效。
+betterquesting.quest.TP2PEGHQRnGKgKYFziEjrg.desc=[quest]均分卡，伪合成卡，锁定卡，高级阻挡卡！[/quest]%n%n§6均分卡：§r%n%n均分卡会将存储元件的容量在类型或分区间均等分配。%n%n§6伪合成卡：§r%n%n伪合成卡将指示ME系统完成合成而不检测最终产物。%n%n适用于一次性合成多方块结构所需的所有方块，再也不用手动塞纸或者取消合成了！%n%n伪合成卡仅可用于%n：%n§cME二合一接口%nME接口%nP2P通道 - ME二合一接口§r%n%n§6锁定卡：§r%n%n锁定卡对ME接口是否启动一个新的合成，增加了额外的红石控制：%n%n§c无红石信号%n有红石信号%n锁定合成，直到接受到红石脉冲%n锁定合成，直到主产物被返回至同一网络§r%n%n§6高级阻挡卡：§r%n%n高级阻挡卡能够忽略子网络中的非消耗品，以完成更复杂的自动化。%n%n对于一个标准的主网-子网配置（两个相对的ME接口），本卡需§9置于§l子网的ME接口§f中方可生效。
 
 # Quest: Co-Processing x1024
 betterquesting.quest.W4TwVdR1RIqmcYrC2eD2Fg.name=并行处理单元 x1024
@@ -10737,7 +10857,7 @@ betterquesting.quest.Wh0yn2MOQhS-X_8NiPiZJw.desc=与1k存储元件一样。
 
 # Quest: Vending Uplink Hatch
 betterquesting.quest._Hu6__h5TDazRXcEeZvyUg.name=自动售货上行链路仓
-betterquesting.quest._Hu6__h5TDazRXcEeZvyUg.desc=既然你解锁了ME接口，你便能用这种新技术来给你的自动售货机添加上行链路了！%n%n§5自动售货上行链路仓§r可以替换任何管道方块，直接连接到AE网络并允许自动拉取所需物品。%n%n它也会允许自动售货机访问AE网络中的硬币。当购买物品时，会优先使用钱包中的硬币，但之后它就会从AE中拉取硬币。当你安装了这个仓室时，UI中会同时显示你钱包中的和ME系统中的硬币数目。%n%n[note]对可消耗和不消耗的物品均有效。[/note]
+betterquesting.quest._Hu6__h5TDazRXcEeZvyUg.desc=既然你解锁了ME接口，你便能用这种新技术来给你的自动售货机添加上行链路了！%n%n§5自动售货上行链路仓§r可以替换任何方块，直接连接到AE网络并允许自动拉取所需物品。%n%n它也会允许自动售货机访问AE网络中的硬币。当购买物品时，会优先使用钱包中的硬币，但之后它就会从AE中拉取硬币。当你安装了这个仓室时，UI中会同时显示你钱包中的和ME系统中的硬币数目。%n%n[note]对可消耗和不消耗的物品均有效。[/note]
 
 # Quest: Ultimate Parallelization...
 betterquesting.quest._bEWg1FHSmKu9MNhlbDlwA.name=§6§l终极并行……
@@ -10750,6 +10870,10 @@ betterquesting.quest.auchuNiGTH6NWh_cz8XxcQ.desc=高阶流体存储组件需要�
 # Quest: Level Maintainer
 betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.name=请求器
 betterquesting.quest.dmUrFrCfSESWj1ybHqTGNg.desc=ME请求器是AE2流体合成套件的又一实用功能。选择需要维持的物品或流体并设定目标数量，请求器将自动调用合成样板持续生产，直至达到预设阈值。您还可配置每批次的合成数量。
+
+# Quest: Advanced Level Emitter
+betterquesting.quest.f6IigSUqTbCofTaJXLnLRg.name=Advanced Level Emitter
+betterquesting.quest.f6IigSUqTbCofTaJXLnLRg.desc=The Advanced Level Emitter is a valuable upgrade to the traditional Level Emitter. It allows for up to 6 types of items to be monitored at once.%n%nThe redstone signal will output depending on which item slots are toggled on, whether inverted mode is triggered, and which logic mode it's in. It can toggle between using both AND & OR.
 
 # Quest: 16384k Essentia Storage Cell
 betterquesting.quest.iwN50p7pSyyCHDkM-O-D7w.name=16384k-ME源质存储元件
@@ -11022,7 +11146,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI7g.desc=大师级的养蜂员需要大�
 
 # Quest: Welcome to Biology Class!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.name=欢迎来到生物课堂！
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.desc=Binnie的基因工程（Genetics）mod使你能够提取并挑选蜜蜂、树和花的基因。但这不是免费的！你需要付出一定的代价。%n%n[note]注：本节内我们专注于蜜蜂。[/note]%n%n你需要一些原料流，建议自动化并被动生产。它们在不同的机器中用于不同的目的，不过培养基是一种超级原料，如果你能大量生产，它可以替换部分步骤。%n%n研究过程可以很容易地自动化。基因改造和雄蜂生产可以自动化，但速度慢、频率低，你可能只会在需要的时候处理它们。%n%n总体思路是对多余的雄蜂进行测序直到你获得你想要从它获取的所有性状。之后你就永久拥有这些性状，并且可以将你获得的所有性状自由组合并注入到雄蜂幼体中，来制造拥有这些性状的新工蜂。幼体只会孵化为雄蜂。你无法直接孵化出公主蜂和蜂后，所以你需要考虑这些新性状如何传代。%n%n这些基因编辑无法让你凭空创造新的特征。他们只是让你挑选你已经研究过的性状，而这些性状必须来自你已经拥有的蜜蜂。在之后的游戏流程中你可以用它来配置所有用于生产的蜜蜂，不过像生育率4x这样的特征也有助于繁殖。%n%n你需要为此准备一个实验室工作区。实际的机器不会占用太多空间。事实上，你最终可能会把一堆机器堆在世界加速器旁边，因为TileEntity模式下它们需要直接相邻。最终会占用更多空间的是你为了简化流程而准备的那些被动资源产线。%n%n你会需要一台带有孵化室的蜂箱组来生产用于基因编辑的基底蜜蜂幼体。%n%n这些机器需要RF能量。建议为一个EnderIO电容库供电然后为这些机器提供RF，而不是直接使用GT EU供能。你可以将GT EU能量直接连接到这些设备上，但会遇到电流转换bug导致的奇怪消耗量，或者机器虽然看起来连上了电缆却没有通电。%n%n最后，你会需要至少7个这种部件，并且可能会为你制作的可选机器制造14个以上。你还需要产出HV等级电路板。整个过程中还需要§o一个§o§rEV等级电路板。%n%n[note]我们在此特别感谢Three，他制作了一段视频，解释了所有机器及其相互作用：%n%n§oAn Early Game Guide to Genetically Modify your Bees in Gregtech: New Horizons§r%n[url]https://www.youtube.com/watch?v=EmhDlga2SCA[/url]%n%n他在视频里对任务书大发雷霆，不过——咳咳——那是任务书的旧版本。%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIQ.desc=Binnie的基因工程（Genetics）mod使你能够提取并挑选蜜蜂、树和花的基因。但这不是免费的！你需要付出一定的代价。%n%n[note]注：本节内我们专注于蜜蜂。[/note]%n%n你需要一些原料流，建议自动化并被动生产。它们在不同的机器中用于不同的目的，不过培养基是一种超级原料，如果你能大量生产，它可以替换部分步骤。%n%n研究过程可以很容易地自动化。基因改造和雄蜂生产可以自动化，但速度慢、频率低，你可能只会在需要的时候处理它们。%n%n总体思路是对多余的雄蜂进行测序直到你获得你想要从它获取的所有性状。之后你就永久拥有这些性状，并且可以将你获得的所有性状自由组合并注入到雄蜂幼体中，来制造拥有这些性状的新工蜂。幼体只会孵化为雄蜂。你无法直接孵化出公主蜂和蜂后，所以你需要考虑这些新性状如何传代。%n%n这些基因编辑无法让你凭空创造新的特征。他们只是让你挑选你已经研究过的性状，而这些性状必须来自你已经拥有的蜜蜂。在之后的游戏流程中你可以用它来配置所有用于生产的蜜蜂，不过像生育率4x这样的特征也有助于繁殖。%n%n你需要为此准备一个实验室工作区。实际的机器不会占用太多空间。事实上，你最终可能会把一堆机器堆在世界加速器旁边，因为TileEntity模式下它们需要直接相邻。最终会占用更多空间的是你为了简化流程而准备的那些被动资源产线。%n%n你会需要一台带有孵化室的蜂箱组来生产用于基因编辑的基底蜜蜂幼体。%n%n这些机器需要RF能量。建议为一个EnderIO电容库供电然后为这些机器提供RF，而不是直接使用GT EU供能。你可以将GT EU能量直接连接到这些设备上，但会遇到电流转换bug导致的奇怪消耗量，或者机器虽然看起来连上了电缆却没有通电。%n%n最后，你会需要至少7个这种部件，并且可能会为你制作的可选机器制造14个以上。你还需要产出HV等级电路板。整个过程中还需要§o一个§o§rEV等级电路板。%n%n[note]我们在此特别感谢Three，他制作了一段视频，解释了所有机器及其相互作用：%n%n§oAn Early Game Guide to Genetically Modify your Bees in Gregtech: New Horizons§r%n[url]https://www.youtube.com/watch?v=EmhDlga2SCA[/url]%n%n他在视频里对任务书大发雷霆，不过——咳咳——那是任务书的旧版本。[/note]
 
 # Quest: Making Bees More Comfortable
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIIg.name=让蜜蜂住得更舒服
@@ -11058,7 +11182,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAILg.desc=基因突变器能极大地加�
 
 # Quest: Genepool
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.name=基因池
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.desc=你需要将原生DNA输入PCR仪来为基因样本做好注射到幼体体内的准备。基因池会消耗酶和大量乙醇，以生产出比公共加油站的卫生间里还要多的原生DNA。%n%n这基本上是一个用于处理你剩余雄蜂的粉碎机。你之前把它们囤起来，是因为你总有一天会用得上，对吧？就是今天！无论你放进去什么，都会被彻底销毁。不过，为了以防万一，你最好还是留一些不同的雄蜂备用。%n%n它也接受树苗、花朵以及那些你为了进行改造和孵化而正在制造的多余幼体。%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAILw.desc=你需要将原生DNA输入PCR仪来为基因样本做好注射到幼体体内的准备。基因池会消耗酶和大量乙醇，以生产出比公共加油站的卫生间里还要多的原生DNA。%n%n这基本上是一个用于处理你剩余雄蜂的粉碎机。你之前把它们囤起来，是因为你总有一天会用得上，对吧？就是今天！无论你放进去什么，都会被彻底销毁。不过，为了以防万一，你最好还是留一些不同的雄蜂备用。%n%n它也接受树苗、花朵以及那些你为了进行改造和孵化而正在制造的多余幼体。
 
 # Quest: Isolator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMA.name=基因分离器
@@ -11074,7 +11198,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMg.desc=PCR仪是将血清转化为可�
 
 # Quest: Gene Database
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMw.name=基因数据库
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMw.desc=发现的基因将被记录到基因数据库中。这台手持设备按生物类型列出所有基因。%n%n§o这台设备需要一个EV电路板！在Binnie的基因工程线中的所有设备中，这是最有技术含量的一台了。%n§r%n使用空血清瓶或空血清阵列点击不同的已发现基因性状来准备你要给幼虫注射的基因鸡尾酒。如果你点错了，可以直接点击你想要的性状，无需担心后果。%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIMw.desc=发现的基因将被记录到基因数据库中。这台手持设备按生物类型列出所有基因。%n%n§o这台设备需要一个EV电路板！在Binnie的基因工程线中的所有设备中，这是最有技术含量的一台了。%n§r%n使用空血清瓶或空血清阵列点击不同的已发现基因性状来准备你要给幼虫注射的基因鸡尾酒。如果你点错了，可以直接点击你想要的性状，无需担心后果。
 
 # Quest: Lab Stand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAINA.name=实验台
@@ -11164,6 +11288,10 @@ betterquesting.quest.t4W99zCeT8qQIqbNyaCE_Q.desc=Binnie的基因工程机器或�
 ## Quest Line: Be(e) Breeding
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEw.name=蜜蜂育种
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAEw.desc=这里将引导你如何繁殖蜜蜂（实验版，可能会导致蜂蜜泄漏）
+
+# Quest: MakeMake
+betterquesting.quest.0pW02AJaQL-_IffLjNEqaQ.name=MakeMake
+betterquesting.quest.0pW02AJaQL-_IffLjNEqaQ.desc=The MakeMake bee allows you to obtain resources from MakeMake.%n%n[note]MakeMake dust provides Infinity and niobium. Why not let bees handle it?[/note]
 
 # Quest: Barren
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABNA.name=荒芜蜂
@@ -11283,7 +11411,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXA.desc=寻常蜂和森林蜂杂交可�
 
 # Quest: Breed some common bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.name=培育一些寻常蜂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=想要蜜蜂进行杂交，你需要两种不同品种的蜂。从不同的自然生成的蜂巢中获得一只雄蜂和一只公主蜂（比如说草原蜂和森林蜂）。%n%n蜂房中无法杂交。你可以在蜂箱或者其他养蜂的设备中进行杂交得到一个新的品种。某些框架将有助于此过程。缩短它们的寿命意味着更快的更新迭代速度。变异几率提升意味着更快获得稀有蜜蜂。%n%n普通蜜蜂每2.2分钟会产生一次蜜蜂产物。注意，生产时间是基于蜜蜂的基本生产速度和产品稀有性的近似值。它们不能反映实际的生产时间。%n%n使用蜜蜂分析仪或是GT扫描仪扫描蜜蜂的基因组，确保你培育的蜜蜂是纯种的。%n%n[note]育种员笔记：%n%n在一开始，这里就有个陷阱。寻常蜂是由最普通的品种杂交而来的。问题在于，杂交线下一位的田野蜂，是寻常蜂与大多数普通品种杂交而来的。然后，高尚蜂和勤奋蜂是由寻常蜂和田野蜂杂交而来的。你可能会从两只普通蜜蜂开始，不管不顾地让后代循环回去，然后继续整个过程。以下是一个例子，展示了一只公主蜂随时间推移可能获得的显性：隐性基因组合：%n%n草原：森林%n草原：寻常（耶！）%n寻常：草原（双倍耶！显性性状了！）%n田野：寻常（不是！）%n。 . 。 一段时间后 。 . 。%n勤奋：高尚（什么鬼？！）%n%n与此同时，这个任务仍然会摆在那里，等着你提交寻常蜂。真糟糕！%n%n如果田野品种开始出现，就把相关的公主蜂和雄蜂都都塞进一个箱子，暂时假装什么都没发生。你完成这个任务后，就可以使用它们来启动田野蜂。%n%n现在，如果你没有任何加快繁殖速度的方法，也不想站在旁边进行精细化管理，你可以尝试使用过滤功能，或者只是不时地查看结果。无论哪种方式，如果你在服务器上，最好不要把它扔在那里挂机一夜。%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXQ.desc=想要蜜蜂进行杂交，你需要两种不同品种的蜂。从不同的自然生成的蜂巢中获得一只雄蜂和一只公主蜂（比如说草原蜂和森林蜂）。%n%n蜂房中无法杂交。你可以在蜂箱或者其他养蜂的设备中进行杂交得到一个新的品种。某些框架将有助于此过程。缩短它们的寿命意味着更快的更新迭代速度。变异几率提升意味着更快获得稀有蜜蜂。%n%n普通蜜蜂每2.2分钟会产生一次蜜蜂产物。注意，生产时间是基于蜜蜂的基本生产速度和产品稀有性的近似值。它们不能反映实际的生产时间。%n%n使用蜜蜂分析仪或是GT扫描仪扫描蜜蜂的基因组，确保你培育的蜜蜂是纯种的。%n%n[note]育种员笔记：%n%n在一开始，这里就有个陷阱。寻常蜂是由最普通的品种杂交而来的。问题在于，杂交线下一位的田野蜂，是寻常蜂与大多数普通品种杂交而来的。然后，高尚蜂和勤奋蜂是由寻常蜂和田野蜂杂交而来的。你可能会从两只普通蜜蜂开始，不管不顾地让后代循环回去，然后继续整个过程。以下是一个例子，展示了一只公主蜂随时间推移可能获得的显性：隐性基因组合：%n%n草原：森林%n草原：寻常（耶！）%n寻常：草原（双倍耶！显性性状了！）%n田野：寻常（不是！）%n。 . 。 一段时间后 。 . 。%n勤奋：高尚（什么鬼？！）%n%n与此同时，这个任务仍然会摆在那里，等着你提交寻常蜂。真糟糕！%n%n如果田野品种开始出现，就把相关的公主蜂和雄蜂都都塞进一个箱子，暂时假装什么都没发生。你完成这个任务后，就可以使用它们来启动田野蜂。%n%n现在，如果你没有任何加快繁殖速度的方法，也不想站在旁边进行精细化管理，你可以尝试使用过滤功能，或者只是不时地查看结果。无论哪种方式，如果你在服务器上，最好不要把它扔在那里挂机一夜。[/note]
 
 # Quest: Breed some noble bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEXg.name=培育一些高尚蜂
@@ -11431,7 +11559,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcg.desc=铜蜂是金属培育线蜜蜂�
 
 # Quest: Clay
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.name=黏土蜂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.desc=想要培育出黏土蜂，你得在蜂箱下方放个黏土块。黏土蜂是许多培育线的基石。由敬业蜂和勤奋蜂杂交培育而来。%n%n[note]育种员笔记：%n%n这种蜜蜂是一群庞大物种的先祖。它们有大量的互不兼容的群系需求——尤其是湿度。在育种过程中，你会发现你需要反复更换群系。如果你目前的唯一选择是带着你的育种套装跑图的话，先提前标记一个一般/潮湿气候的地点吧。%n%n你大概正在培育更多产出有趣产物的蜜蜂的路上，不过别忘了黏土粉也能电解出一些有用的产物！%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcw.desc=想要培育出黏土蜂，你得在蜂箱下方放个黏土块。黏土蜂是许多培育线的基石。由敬业蜂和勤奋蜂杂交培育而来。%n%n[note]育种员笔记：%n%n这种蜜蜂是一群庞大物种的先祖。它们有大量的互不兼容的群系需求——尤其是湿度。在育种过程中，你会发现你需要反复更换群系。如果你目前的唯一选择是带着你的育种套装跑图的话，先提前标记一个一般/潮湿气候的地点吧。%n%n你大概正在培育更多产出有趣产物的蜜蜂的路上，不过别忘了黏土粉也能电解出一些有用的产物！[/note]
 
 # Quest: Industrious
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdA.name=敬业蜂
@@ -11451,7 +11579,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIdw.desc=终于，黑金到手。石油�
 
 # Quest: Coal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.name=煤蜂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.desc=太棒了，煤才是王道，可煤蜂偏偏“后宫”当政。这是一种很棒的蜜蜂，能生产煤，从而为你的工业生产提供原料和动力。你需要在蜂箱下方放个煤块。这种蜜蜂具有一种最最危险的特性——要是你没穿好养蜂员套装的话，它会让你好好尝尝苦力怕的爆炸。由泥炭蜂和敬业蜂杂交培育而来。%n%n[note]育种员笔记：%n%n在本章中，煤蜂是后续众多蜂种的重要先祖前置，而且那些后续个个都是高阶蜂种。问题在于煤蜂寿命很长，所以蜂后得过很久才会寿终，留下一只公主蜂和两只雄蜂（假设煤蜂保持默认的2x生育能力）。不妨使用一些能缩短寿命的框架来加速好让你尽快攒下一批煤蜂雄蜂，从而着手培育那些后续蜂种。%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeA.desc=太棒了，煤才是王道，可煤蜂偏偏“后宫”当政。这是一种很棒的蜜蜂，能生产煤，从而为你的工业生产提供原料和动力。你需要在蜂箱下方放个煤块。这种蜜蜂具有一种最最危险的特性——要是你没穿好养蜂员套装的话，它会让你好好尝尝苦力怕的爆炸。由泥炭蜂和敬业蜂杂交培育而来。%n%n[note]育种员笔记：%n%n在本章中，煤蜂是后续众多蜂种的重要先祖前置，而且那些后续个个都是高阶蜂种。问题在于煤蜂寿命很长，所以蜂后得过很久才会寿终，留下一只公主蜂和两只雄蜂（假设煤蜂保持默认的2x生育能力）。不妨使用一些能缩短寿命的框架来加速好让你尽快攒下一批煤蜂雄蜂，从而着手培育那些后续蜂种。[/note]
 
 # Quest: Peat
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIeQ.name=泥炭蜂
@@ -11487,7 +11615,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgA.desc=最好小心这个！它会让�
 
 # Quest: Sinister
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.name=邪恶蜂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.desc=邪恶蜂会伤害靠近的生物和玩家，所以最好穿上你的养蜂员套装。只有在下界才能培育出它，由温和蜂和田野蜂杂交培育而来。%n%n它们产出的激化蜂窝绝非儿戏！离心处理后可以获得荧光粉，进一步榨取就能得到岩浆。岩浆！%n%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgQ.desc=邪恶蜂会伤害靠近的生物和玩家，所以最好穿上你的养蜂员套装。只有在下界才能培育出它，由温和蜂和田野蜂杂交培育而来。%n%n它们产出的激化蜂窝绝非儿戏！离心处理后可以获得荧光粉，进一步榨取就能得到岩浆。岩浆！
 
 # Quest: Fiendish
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgg.name=残忍蜂
@@ -11499,7 +11627,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIgw.desc=归隐蜂是真正的隐居者�
 
 # Quest: Austere
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhA.name=苦行蜂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhA.desc=苦行蜂需要一名细心的养蜂员。要是不穿养蜂员套装的话，它会为你施加苦力怕爆炸效果。小心！它需要一个炎热或地狱的生物群系和干旱的湿度。由温和蜂和节俭蜂杂交培育而来。%n%n[note]育种员笔记：%n%n苦行蜂需要地狱的生物群系，但这并不意味着这种蜜蜂喜欢地狱维度。默认情况下，它们需要露天环境。你要么需要使用带有修改气候的模块的蜂箱组，要么需要找到一个符合它们胃口的主世界维度群系。有一些方法，比如季节变迁药水，能够将一小块地狱群系（如Boneyard）带到主世界来。你也可以碰运气找到一个足够热而能让它们开心的主世界维度，但那需要相当好的运气。%n%n通常来说苦力怕爆炸效果只是有点烦人，但我们也曾经有一位穿着全套钢盔甲、满§a绿§r心的养蜂人被§o一发§o§r变成墓碑。他正准备换上养蜂员套装，但不小心刚好处在了这种蜂的活动范围内。别对这种品种的蜜蜂掉以轻心！[/note]%n%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhA.desc=苦行蜂需要一名细心的养蜂员。要是不穿养蜂员套装的话，它会为你施加苦力怕爆炸效果。小心！它需要一个炎热或地狱的生物群系和干旱的湿度。由温和蜂和节俭蜂杂交培育而来。%n%n[note]育种员笔记：%n%n苦行蜂需要地狱的生物群系，但这并不意味着这种蜜蜂喜欢地狱维度。默认情况下，它们需要露天环境。你要么需要使用带有修改气候的模块的蜂箱组，要么需要找到一个符合它们胃口的主世界维度群系。有一些方法，比如季节变迁药水，能够将一小块地狱群系（如Boneyard）带到主世界来。你也可以碰运气找到一个足够热而能让它们开心的主世界维度，但那需要相当好的运气。%n%n通常来说苦力怕爆炸效果只是有点烦人，但我们也曾经有一位穿着全套钢盔甲、满§a绿§r心的养蜂人被§o一发§o§r变成墓碑。他正准备换上养蜂员套装，但不小心刚好处在了这种蜂的活动范围内。别对这种品种的蜜蜂掉以轻心！[/note]
 
 # Quest: Frugal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhQ.name=节俭蜂
@@ -11515,11 +11643,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIhw.desc=培育红色合金蜂的蜂箱�
 
 # Quest: Redstone
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiA.name=红石蜂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiA.desc=育种红石蜂时，蜂箱下方必须放置一个红石块。这种蜜蜂由敬业蜂与恶魔蜂杂交培育而来。%n%n[note]育种员笔记：%n%n敬业蜂与恶魔蜂的基础品种在气候需求上互不相容：%n%n恶魔蜂：%n  * 地狱 / 降2（最低可到温暖）%n  * 干旱 / 无%n敬业蜂：%n  * 一般 / 无%n  * 一般 / 无%n%n你需要设法协调这两者的需求，比如根据每代蜂后的情况，在不同蜂箱之间跑来跑去。%n%n红石蜂刚出现时，其温湿度适应性一般也为“一般 / 无”，不过采蜜对象为“下界”。%n%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiA.desc=育种红石蜂时，蜂箱下方必须放置一个红石块。这种蜜蜂由敬业蜂与恶魔蜂杂交培育而来。%n%n[note]育种员笔记：%n%n敬业蜂与恶魔蜂的基础品种在气候需求上互不相容：%n%n恶魔蜂：%n  * 地狱 / 降2（最低可到温暖）%n  * 干旱 / 无%n敬业蜂：%n  * 一般 / 无%n  * 一般 / 无%n%n你需要设法协调这两者的需求，比如根据每代蜂后的情况，在不同蜂箱之间跑来跑去。%n%n红石蜂刚出现时，其温湿度适应性一般也为“一般 / 无”，不过采蜜对象为“下界”。[/note]
 
 # Quest: Monastic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiQ.name=僧侣蜂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiQ.desc=僧侣蜂无法在野生蜂巢中发现，也无法培育出来。你只能寻找养蜂员村民交易获得它。有许多方法可以制造更多村民，研究研究吧。%n%n[note]交易员笔记：%n%n养蜂员村民生成于栅栏围成的后院中含有蜂箱的屋子里。如果蜂箱消失了，村民也不会生成。或者，额，另一位玩家已经过来搜刮走了蜂箱；他们也有可能把村民一块绑走了。养蜂员村民身着养蜂员套装。他们的初始交易大概率不包括这种蜂。你会需要通过交易可用交易来刷出它。如果交易需要公主蜂，卑贱种是可用的。值得一提的是他还提供用若干原木换取蜂房的交易。这可比自己做方柏霓多了！如果交易锁定了，进行一次“最右侧”交易应该能解锁之前的交易，从而你可以继续尝试刷出这个交易。%n%n你可以在LV阶段制作一个黄金套索然后带着村民跑路。如果你打算这么做的话，请准备一个高度要塞化的地点。即使一格宽的墙壁也无法完全阻挡所有僵尸。可以考虑在不需要交易的时候将村民留在黄金套索内。%n%n养蜂人笔记：%n%n僧侣蜂的基础生育能力是1x。这真的很讨厌。每个生命周期结束后，你只能获得一只公主蜂和一只雄蜂。就这么多。你不会获得多余的个体来进行持续繁殖。如果你不能直接改变基因组，那么你可以尝试用僧侣雄蜂转换凛冬公主蜂（或其他繁殖力高的蜂种），以获得更高的繁殖力。%n%n另一方面，它们的长寿命也有助于培育生产蜂，这样就不会很快让雄蜂充斥你的蜜蜂产品存储。%n%n“僧侣线”的蜜蜂还有其他怪癖。它们会以小麦和书架等物品作为授粉源。它们有时会表现出令人讨厌的攻击性。由于它们寿命较长，因此需要某种能缩短其繁殖周期的东西——比如湮灭框架。你一开始会得到一种喜欢平均温度和湿度的蜜蜂，但它们的后代会逐渐适应极端恶劣和干旱的环境（但不会适应地狱！）。%n[/note]%n%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIiQ.desc=僧侣蜂无法在野生蜂巢中发现，也无法培育出来。你只能寻找养蜂员村民交易获得它。有许多方法可以制造更多村民，研究研究吧。%n%n[note]交易员笔记：%n%n养蜂员村民生成于栅栏围成的后院中含有蜂箱的屋子里。如果蜂箱消失了，村民也不会生成。或者，额，另一位玩家已经过来搜刮走了蜂箱；他们也有可能把村民一块绑走了。养蜂员村民身着养蜂员套装。他们的初始交易大概率不包括这种蜂。你会需要通过交易可用交易来刷出它。如果交易需要公主蜂，卑贱种是可用的。值得一提的是他还提供用若干原木换取蜂房的交易。这可比自己做方柏霓多了！如果交易锁定了，进行一次“最右侧”交易应该能解锁之前的交易，从而你可以继续尝试刷出这个交易。%n%n你可以在LV阶段制作一个黄金套索然后带着村民跑路。如果你打算这么做的话，请准备一个高度要塞化的地点。即使一格宽的墙壁也无法完全阻挡所有僵尸。可以考虑在不需要交易的时候将村民留在黄金套索内。%n%n养蜂人笔记：%n%n僧侣蜂的基础生育能力是1x。这真的很讨厌。每个生命周期结束后，你只能获得一只公主蜂和一只雄蜂。就这么多。你不会获得多余的个体来进行持续繁殖。如果你不能直接改变基因组，那么你可以尝试用僧侣雄蜂转换凛冬公主蜂（或其他繁殖力高的蜂种），以获得更高的繁殖力。%n%n另一方面，它们的长寿命也有助于培育生产蜂，这样就不会很快让雄蜂充斥你的蜜蜂产品存储。%n%n“僧侣线”的蜜蜂还有其他怪癖。它们会以小麦和书架等物品作为授粉源。它们有时会表现出令人讨厌的攻击性。由于它们寿命较长，因此需要某种能缩短其繁殖周期的东西——比如湮灭框架。你一开始会得到一种喜欢平均温度和湿度的蜜蜂，但它们的后代会逐渐适应极端恶劣和干旱的环境（但不会适应地狱！）。[/note]
 
 # Quest: Vibrant Alloy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIig.name=脉冲合金蜂
@@ -11615,7 +11743,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIoA.desc=当心点，这些蜜蜂不只�
 
 # Quest: Arcane
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.name=奥能蜂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.desc=奥能蜂产出的蕴魔液滴用于制造芬芳块，用于蜂箱组克隆盒，它比普通的蜂王浆有更高的成功率。这种蜜蜂也是神秘类蜜蜂培育线的基石之一。由玄奥蜂和奥秘蜂杂交培育而来。%n%n[note]神秘使手记：%n%n如果你在关闭了神秘研究、而是直接用要素解锁研究的模式下游玩，可以看看这条线下面的后续品种。你可以将其与僧侣蜂杂交，前往学徒蜂，随后继续抵达专家蜂。专家蜂后会产出卷章碎片，可以合成为知识碎片。这能帮助你囤积足够的要素，尤其是这个变体模式的研究所需的大量混沌要素。%n%n它并没有自己的任务，因为这个用处实在边缘。不过，这些……学术型蜜蜂还能产出能离心出纸的纸质蜂窝。%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpA.desc=奥能蜂产出的蕴魔液滴用于制造芬芳块，用于蜂箱组克隆盒，它比普通的蜂王浆有更高的成功率。这种蜜蜂也是神秘类蜜蜂培育线的基石之一。由玄奥蜂和奥秘蜂杂交培育而来。%n%n[note]神秘使手记：%n%n如果你在关闭了神秘研究、而是直接用要素解锁研究的模式下游玩，可以看看这条线下面的后续品种。你可以将其与僧侣蜂杂交，前往学徒蜂，随后继续抵达专家蜂。专家蜂后会产出卷章碎片，可以合成为知识碎片。这能帮助你囤积足够的要素，尤其是这个变体模式的研究所需的大量混沌要素。%n%n它并没有自己的任务，因为这个用处实在边缘。不过，这些……学术型蜜蜂还能产出能离心出纸的纸质蜂窝。[/note]
 
 # Quest: Eldritch
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIpQ.name=怪异蜂
@@ -11703,7 +11831,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuQ.desc=魔力蜂可以培育出某些�
 
 # Quest: Rejuvenating
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.name=复兴蜂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.desc=复兴蜂只能在离灵气节点25格内的蜂箱中培育出来，它们会缓慢地为最近的节点充能。由谐振蜂和魔力蜂杂交培育而来。%n
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIug.desc=复兴蜂只能在离灵气节点25格内的蜂箱中培育出来，它们会缓慢地为最近的节点充能。由谐振蜂和魔力蜂杂交培育而来。
 
 # Quest: Empowering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIuw.name=充能蜂
@@ -11795,7 +11923,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAM4g.desc=对你的灵液生产至关重�
 
 # Quest: Space Bees
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.name=宇宙蜂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=将敬业蜂和英雄蜂杂交培育可以得到宇宙蜂。并且这需要严寒气温。%n%n这是你个人的一小步，却是蜂类的一大步。%n%n[note]这是许多与太空相关蜜蜂的起点。查查NEI吧，也许你能找到些目标。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=将敬业蜂和英雄蜂杂交培育可以得到宇宙蜂。需要严寒气温。%n%n这是你个人的一小步，却是蜂类的一大步。%n%n[note]这是许多与太空相关蜜蜂的起点。查查NEI来寻找你感兴趣的目标。[/note]
 
 # Quest: Energium
 betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=能量蜂
@@ -11805,37 +11933,97 @@ betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=你是否已经厌倦了不断�
 betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.name=调谐
 betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.desc=你现在开始将接触魔法蜜蜂。这个模组里有一种普通蜜蜂叫谐振蜂，只能从主世界的深层蜂巢中获取。这些蜂巢找起来相当折磨人，所以我建议直接用硬币买蜂巢，直到你拿到一只公主蜂和一只雄蜂。不过如果你是个真正的受虐狂或者全收集强迫症肝帝，这里有一些关于它们的生成的信息：%n%n* 生成在 Y=1 到 Y=25 的高度%n* 生成在石头中，需要五面被包围，不限于原版石头%n* 所在的生物群系需要带有以下一个或多个标签：%n   * MOUNTAINS：实际的山地地形可能不算，重要的是生物群系类型%n      * 例如：峡谷%n   * HILLS：同理，实际的丘陵地形也不算%n      * 例如：积雪针叶林%n   * MAGICAL：和前两者不同，这里确实带点魔幻要素%n      * 例如：魔法森林是显而易见的，但樱花林也算%n* 周围会环绕一小条红石矿脉，这通常会把蜂巢旁边的任何空隙都填满%n%n它们偶尔也会莫名其妙地出现在其他群系里。我们的养蜂实习生就在繁茂沙漠里发现过一个深层蜂巢：%n%n繁茂沙漠 [炎热， 干燥， 热带草原， 繁茂， 沙地]%n%n你可以在NEI里导出群系数据：点击NEI选项按钮（那个扳手图标），然后点工具按钮，接着是数据导出按钮，最后点群系分类里的导出按钮。这会在整合包根目录下创建一个“dumps”文件夹，里面有 biome.csv 文件。列表中任何带有 HILLS、MOUNTAINS 和/或 MAGICAL 标签的群系都可能生成深层蜂巢。你可以把这些群系名称输入到自然指南针里，看看附近有没有。%n%n探矿仪可以探测到这些蜂巢周围的小型矿物囊（痕迹、少量样本）。如果你用的是那种带显示屏的电子探矿仪，它会显示成几个红色像素点。大块的显示通常只是普通的矿脉。在地表用寻矿法杖效果不好，顺着岩浆脉络和矿道找会更有帮助。充满红石的矿脉会让这两种工具的信号都爆表。%n%n当然，直接买蜂巢是最省事的办法。%n%n[note]养蜂人笔记：%n%n如果你运气实在差到家，得到了一只卑贱种公主蜂，那就先拿它多产些工蜂，以后拿来把其他优质公主蜂转成调谐蜂。不过，如果直接用原版的公主蜂，蜜蜂会被强制突变成寻常蜂。你有两个选择：%n%n1. 使用带有稳定器模块的蜂箱组来阻止突变%n2. 在开始前，先培养一只不会落入谐振蜂育种路线里的公主蜂[/note]
 
+# Quest: Uranus
+betterquesting.quest.L38n8nAGSHGtZuBgrrf1mg.name=Uranus
+betterquesting.quest.L38n8nAGSHGtZuBgrrf1mg.desc=Radioactive alert! The Uranus bee allows you to obtain resources from Uranus and its moons.
+
+# Quest: Moon
+betterquesting.quest.Mrfvj2-bQ4SGkFsdtNzI1A.name=Moon
+betterquesting.quest.Mrfvj2-bQ4SGkFsdtNzI1A.desc=The Moon bee allows you to obtain resources from the Moon.
+
 # Quest: Salt
 betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.name=盐
-betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.desc=此时，你可能已经注意到，这些更高级的金属蜂巢无法用离心机提取。取而代之的是，你需要将它们与一些盐酸一起放入化学反应釜。这将使你陷入困境。现在，你正试图实现后稀缺时代，却受到氯的限制。%n%n说到困境/泡菜(pickle)，盐酸和泡菜其实有点相似，对吧？毕竟，两者都是用盐来制作的！盐蜂就非常适合这个。嗯，磷灰石蜂杂交线可以为你提供一些盐，同时还能为磷酸提供一些磷，但你必须先从灰烬蜂开始。与此同时，在获取所有主要矿石蜜蜂的过程中，你可能顺便就达成了盐蜂的前置。%n%n在盐块上用黏土蜂和铝蜂来杂交出它。%n%n它会产出盐蜂窝，硼砂，碎石蜂窝和少量锂蜂窝。盐蜂窝需要最低MV等级的离心机，但至少它不需要用酸在化学反应釜里处理！%n%n[note]育种员笔记：%n%n培育这种蜜蜂有两大挑战：%n%n1. 5%%的变异几率。你可以考虑尝试写字台小游戏来提高这个几率。如果这样做，请优先选择铝雄蜂，因为你很可能正在推进其他铝蜂杂交出的蜜蜂，而它们无论如何都只有5%%的变异几率。它们或许都需要一点小小的提升。%n%n2. 黏土蜂和铝蜂之间的湿度摇摆。黏土蜂需要湿润的环境，而铝蜂和盐蜂则需要环境完全干燥。如果你无法控制气候或任何蜂种的耐受性，可以考虑先给黏土蜂配上一只温和公主蜂。这样很有可能为你带来一只喜欢干燥气候的黏土公主蜂。然后，你就可以完全在干旱的生物群落中进行育种了。%n%n[/note]
+betterquesting.quest.N0ZqNLJfSmaBKTNU7TbIAQ.desc=此时，你可能已经注意到，这些更高级的金属蜂巢无法用离心机提取。取而代之的是，你需要将它们与一些盐酸一起放入化学反应釜。这将使你陷入困境。现在，你正试图实现后稀缺时代，却受到氯的限制。%n%n说到困境/泡菜(pickle)，盐酸和泡菜其实有点相似，对吧？毕竟，两者都是用盐来制作的！盐蜂就非常适合这个。嗯，磷灰石蜂杂交线可以为你提供一些盐，同时还能为磷酸提供一些磷，但你必须先从灰烬蜂开始。与此同时，在获取所有主要矿石蜜蜂的过程中，你可能顺便就达成了盐蜂的前置。%n%n在盐块上用黏土蜂和铝蜂来杂交出它。%n%n它会产出盐蜂窝，硼砂，碎石蜂窝和少量锂蜂窝。盐蜂窝需要最低MV等级的离心机，但至少它不需要用酸在化学反应釜里处理！%n%n[note]育种员笔记：%n%n培育这种蜜蜂有两大挑战：%n%n1. 5%%的变异几率。你可以考虑尝试写字台小游戏来提高这个几率。如果这样做，请优先选择铝雄蜂，因为你很可能正在推进其他铝蜂杂交出的蜜蜂，而它们无论如何都只有5%%的变异几率。它们或许都需要一点小小的提升。%n%n2. 黏土蜂和铝蜂之间的湿度摇摆。黏土蜂需要湿润的环境，而铝蜂和盐蜂则需要环境完全干燥。如果你无法控制气候或任何蜂种的耐受性，可以考虑先给黏土蜂配上一只温和公主蜂。这样很有可能为你带来一只喜欢干燥气候的黏土公主蜂。然后，你就可以完全在干旱的生物群落中进行育种了。[/note]
+
+# Quest: Barnarda
+betterquesting.quest.Ni8HtEo3SuGvXHXa7N7uoA.name=Barnarda
+betterquesting.quest.Ni8HtEo3SuGvXHXa7N7uoA.desc=This bee produces Barnarda dust.
 
 # Quest: Glowstone
 betterquesting.quest.NzynzD7HQrmEAf7BFd2A2w.name=荧石蜂
 betterquesting.quest.NzynzD7HQrmEAf7BFd2A2w.desc=荧石公主蜂不像她的同类那般挑剔。除了金蜂和红石蜂之外没有别的要求。好欸！
 
+# Quest: Infinity
+betterquesting.quest.S8uP6eAqQ0Wc8ouKTvq2Hg.name=Infinity
+betterquesting.quest.S8uP6eAqQ0Wc8ouKTvq2Hg.desc=This bee lets you produce molten Infinity in the DTPF!%n%n[note]Faster than an Infiniti drives on the road![/note]
+
 # Quest: Infernal
 betterquesting.quest.SlWASRc9TkKi7H0KiDPAlQ.name=地狱蜂
-betterquesting.quest.SlWASRc9TkKi7H0KiDPAlQ.desc=地狱蜂是一种平凡的蜜蜂：你可以从蜂巢中获得它们，且它们没有亲代。%n%n地狱蜂的蜂巢在下界，周围环绕着下界石英。避开矿脉区块中那些大块的下界石英，而要找小片的下界石英。任何有恶魂出没的开阔地带都会有几小片这样的石英。或者，如果你在挖隧道，也难免会撞见这些小片的石英矿。%n%n僵尸猪人如果看到你在挖掘它们的石英，就会发怒，所以不妨先把石英周围的地狱岩挖掉，看看是不是一整块实心的石英簇，有可能里面就包着一个蜂巢。如果是的话，你只需再挥一两下矿锤，就可能挖出一个地狱蜂巢。%n%n还有另一种方式获得这种蜂巢：§o用硬币买！叮当！%n§o§r%n对于一种平凡的蜜蜂来说，它们的熔融蜂巢挺不错。离心后能得到耐火蜂蜡，可以用来做防火木材和耐火胶囊。%n%n[warn]地狱蜂具有举世皆敌性状，所以它们会伤害实体——也就是你——当你处于它们领地内时。在开始摆弄它们之前，你需要一套养蜂人套装。或者，如果你把它们安置在一个偏僻的地方，你也可以单纯的快速跑开。不过顺便说一句，这招对于所有攻击性蜜蜂来说并非长久之计。[/warn]%n%n[note]育种员笔记：如果你能找到炎热/干旱的气候，就可以在主世界养殖这些蜜蜂。不确定时，放一个蜂房，看看其GUI右上角显示的是什么气候。即便蜜蜂不是“欢欣鼓舞”的状态，只要能从中获得雄蜂用于育种就行。这样你在杂交时就不必为了伺候挑剔的蜂后而反复奔波于下界了。%n%n用下界疣让它们保持愉悦，别忘了还要灵魂沙！%n%n它们不会与其他普通蜜蜂（如普通蜂、栽培蜂等）杂交产出新种类，所以如果你有炼狱雄蜂，就可以把另一只普通公主蜂转化为炼狱公主蜂。只是操作时需要小心一些。例如，如果你对一只凛冬公主蜂这样做，最终可能会得到一只需要酷热/干旱气候，但同时需要雪来授粉的地狱公主蜂。%n[/note]
+betterquesting.quest.SlWASRc9TkKi7H0KiDPAlQ.desc=地狱蜂是一种平凡的蜜蜂：你可以从蜂巢中获得它们，且它们没有亲代。%n%n地狱蜂的蜂巢在下界，周围环绕着下界石英。避开矿脉区块中那些大块的下界石英，而要找小片的下界石英。任何有恶魂出没的开阔地带都会有几小片这样的石英。或者，如果你在挖隧道，也难免会撞见这些小片的石英矿。%n%n僵尸猪人如果看到你在挖掘它们的石英，就会发怒，所以不妨先把石英周围的地狱岩挖掉，看看是不是一整块实心的石英簇，有可能里面就包着一个蜂巢。如果是的话，你只需再挥一两下矿锤，就可能挖出一个地狱蜂巢。%n%n还有另一种方式获得这种蜂巢：§o用硬币买！叮当！%n§o§r%n对于一种平凡的蜜蜂来说，它们的熔融蜂巢挺不错。离心后能得到耐火蜂蜡，可以用来做防火木材和耐火胶囊。%n%n[warn]地狱蜂具有举世皆敌性状，所以它们会伤害实体——也就是你——当你处于它们领地内时。在开始摆弄它们之前，你需要一套养蜂人套装。或者，如果你把它们安置在一个偏僻的地方，你也可以单纯的快速跑开。不过顺便说一句，这招对于所有攻击性蜜蜂来说并非长久之计。[/warn]%n%n[note]育种员笔记：如果你能找到炎热/干旱的气候，就可以在主世界养殖这些蜜蜂。不确定时，放一个蜂房，看看其GUI右上角显示的是什么气候。即便蜜蜂不是“欢欣鼓舞”的状态，只要能从中获得雄蜂用于育种就行。这样你在杂交时就不必为了伺候挑剔的蜂后而反复奔波于下界了。%n%n用下界疣让它们保持愉悦，别忘了还要灵魂沙！%n%n它们不会与其他普通蜜蜂（如普通蜂、栽培蜂等）杂交产出新种类，所以如果你有炼狱雄蜂，就可以把另一只普通公主蜂转化为炼狱公主蜂。只是操作时需要小心一些。例如，如果你对一只凛冬公主蜂这样做，最终可能会得到一只需要酷热/干旱气候，但同时需要雪来授粉的地狱公主蜂。[/note]
+
+# Quest: Trinium
+betterquesting.quest.V3flGsmJS0KdoLi63cw0lw.name=Trinium
+betterquesting.quest.V3flGsmJS0KdoLi63cw0lw.desc=The Trinium bee allows you to obtain Trinium.%n%n[note]There is no planet named Trinium, but this bee still provides a very useful ZPM material.[/note]
 
 # Quest: Sunnarium
 betterquesting.quest.VoQgq6UvTZmo3tpUIZs4Rg.name=阳光化合物蜂
 betterquesting.quest.VoQgq6UvTZmo3tpUIZs4Rg.desc=这种蜜蜂不仅能比其母本生产更多的荧石，还能生产阳光化合物。不过，这需要一些技术进步：要繁殖这种蜜蜂，你需要在蜂箱下面放置一个超导线圈方块。
 
+# Quest: Kevlar
+betterquesting.quest.YHh-tuXHSCOng60JAB-u-w.name=Kevlar
+betterquesting.quest.YHh-tuXHSCOng60JAB-u-w.desc=At last, you have reached the highest tier of bee evolution!%n%nKevlar is a very useful material from UV through UMV.%n%n[note]This bee lets you skip the many processing steps normally required to produce Kevlar.[/note]
+
 # Quest: Pyrotheum
 betterquesting.quest.YVlqGPZBS8qCkkHlu1BDpg.name=烈焰之炽焱蜂
 betterquesting.quest.YVlqGPZBS8qCkkHlu1BDpg.desc=为了填满你火山般的欲壑，烈焰之炽焱被巨量需求。这种蜜蜂可以直接产出烈焰之炽焱粉 - 你所要做的就是对它使用流体提取吧（当然是在达到了繁殖链中的这一点之后）。%n%n繁殖这种蜜蜂需要能量蜂和红石蜂。烈焰之炽焱蜂对环境要求并不苛刻，只需要地狱般的，只需要地狱般的温度。耶！
+
+# Quest: Oriharukon
+betterquesting.quest.ZViN0XrYRwmXV0P60dODWg.name=Oriharukon
+betterquesting.quest.ZViN0XrYRwmXV0P60dODWg.desc=An infinite source of Oriharukon for producing Melodic Alloy.
+
+# Quest: Cosmic Neutronium
+betterquesting.quest._-pwbrvZQVu63dm85nDNsw.name=Cosmic Neutronium
+betterquesting.quest._-pwbrvZQVu63dm85nDNsw.desc=You have finally obtained this new bee, and it is a game-changer! Its combs are especially useful for processing cosmic neutronium in the DTPF, making the recipe run twice as fast.
+
+# Quest: Enceladus
+betterquesting.quest.akUvx1lTTwavvywH38qDtQ.name=Enceladus
+betterquesting.quest.akUvx1lTTwavvywH38qDtQ.desc=The Enceladus bee allows you to obtain resources found on Enceladus, one of Saturn's moons.
+
+# Quest: Saturn
+betterquesting.quest.bBpkCzjZSuimdCrJo3pBrA.name=Saturn
+betterquesting.quest.bBpkCzjZSuimdCrJo3pBrA.desc=The Saturn bee allows you to obtain resources from Saturn.
+
+# Quest: Barnarda F
+betterquesting.quest.csd4ls5qRbSctFw65k9juw.name=Barnarda F
+betterquesting.quest.csd4ls5qRbSctFw65k9juw.desc=Barnarda F - Press F
 
 # Quest: Gold
 betterquesting.quest.jvKBzB6tRpCQGlnboQxSAA.name=金蜂
 betterquesting.quest.jvKBzB6tRpCQGlnboQxSAA.desc=获取黄金的方法有很多，但这里还有一种方法适合专心致志的养蜂人。这个繁殖链最终会让你到达阳光化合物蜂。您需要一块黄金和一个温度较高的生物群落。用铜蜂和铅蜂繁殖它们。
 
+# Quest: Pluto
+betterquesting.quest.m6IZ4sQnQrekZK6pkb5dOg.name=Pluto
+betterquesting.quest.m6IZ4sQnQrekZK6pkb5dOg.desc=The Pluto bee allows you to obtain resources from Pluto.%n%n[note]Pluto is Kruto![/note]
+
+# Quest: Neptune
+betterquesting.quest.mxb6nh1rQDS5d6WWov5ULQ.name=Neptune
+betterquesting.quest.mxb6nh1rQDS5d6WWov5ULQ.desc=The Neptune bee allows you to obtain resources from Triton and Proteus.
+
 # Quest: Essentia
 betterquesting.quest.noSgUClGTO6zMgENR9pwtw.name=源质蜂
 betterquesting.quest.noSgUClGTO6zMgENR9pwtw.desc=这只蜜蜂不直接生产任何东西，而是牺牲自己的生命来产生液态源质，满足您所有的魔法需求。然而，要做到这一点。它需要在其蜂箱下安装一个养蜂人的沥水器。%n%n蜜蜂生产源质的速度取决于它的工作速度。你必须手持一个装满的源质安瓿右击养蜂人的沥水器来锁定源质类型。%n%n你可以从奇术蜂和朴实蜂来培育它们。%n%n§3你也可以平铺至多九个养蜂人的沥水器在蜂箱组方块下。
 
+# Quest: Mars
+betterquesting.quest.oofRxeE1QBSGyew83metLg.name=Mars
+betterquesting.quest.oofRxeE1QBSGyew83metLg.desc=Even Elon Musk will envy you after you obtain this bee.
+
 # Quest: Lapotron
 betterquesting.quest.rKrpOyRHRvSF7TeFSskG_A.name=兰波顿蜂
 betterquesting.quest.rKrpOyRHRvSF7TeFSskG_A.desc=这种华丽的蜜蜂品种能够生产出丰富多样的有用资源，包括大量的青金石，能量水晶和兰波顿粉。然而，在杂交方面，它们显得有些挑剔——您需要以能量蜂和青金石蜂作为前提，并且这一过程必须在月球上，且处于寒冷的温度下进行。
+
+# Quest: Jupiter
+betterquesting.quest.riyWivmcQDypqdGXh3ZRbQ.name=Jupiter
+betterquesting.quest.riyWivmcQDypqdGXh3ZRbQ.desc=The Jupiter bee allows you to obtain resources from Jupiter.
 
 # Quest: Furious
 betterquesting.quest.v-1MbhJWRuiGFBX8KEvsUg.name=愤怒蜂
@@ -11844,6 +12032,14 @@ betterquesting.quest.v-1MbhJWRuiGFBX8KEvsUg.desc=如果您希望在繁殖路径�
 # Quest: Volcanic
 betterquesting.quest.ysj8avl1SESH2ibGOS3qjQ.name=火山蜂
 betterquesting.quest.ysj8avl1SESH2ibGOS3qjQ.desc=离您的目标又近了一步，这些蜜蜂可以在下界中通过愤怒蜂和恶魔蜂进行繁殖。作为愤怒蜂子代，它们在工作时也会生成火焰弹。
+
+# Quest: Oberon
+betterquesting.quest.zMRva-UMR1-ZlN73PLW3Lw.name=Oberon
+betterquesting.quest.zMRva-UMR1-ZlN73PLW3Lw.desc=The Oberon bee allows you to obtain resources from Oberon.
+
+# Quest: Infinity Catalyst
+betterquesting.quest.zpsHTWA-SfKTyAeJNUMZZA.name=Infinity Catalyst
+betterquesting.quest.zpsHTWA-SfKTyAeJNUMZZA.desc=An Infinity Catalyst bee for your late-game Infinity needs.
 
 
 ## Quest Line: Hardcore End(er) Expansion
@@ -12061,7 +12257,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA5w.desc=你需要将到目前为止的�
 
 # Quest: Improving Your Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6A.name=改进你的法杖
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6A.desc=你的法杖在吸收和释放魔力方面做得很好，不过铁杖端有点§o太弱§r了。一不小心就可能会伤害到节点。也会导致你的合成更加困难。也许你应该尝试使用一些更好的材料来强化一下你的法杖。恩……金怎么样？
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6A.desc=你的法杖在吸收和释放魔力方面做得很好，不过铁杖端有点§o太弱§r了，也会导致你的合成更加困难。也许你应该尝试使用一些更好的材料来强化一下你的法杖。恩……金怎么样？%n%n[note]你会需要这些金杖端提供的消耗减免来制作下一根法杖的！[/note]
 
 # Quest: Getting Shards
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA6Q.name=获得碎片
@@ -12081,7 +12277,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7A.desc=娜迦的力量很弱，使用�
 
 # Quest: "Stores 50 Vis" Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7Q.name=能够储存50“VIS”的法杖
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7Q.desc=使用金杖端可以使你避免铁杖端的缺点。因此，最好升级到金杖端宏伟之木法杖！%n%n你也可以考虑用魔力布匹杖端制作你的宏伟之木魔杖。这样可以额外获得5%%的魔力减免！%n%n有了这根宏伟之木魔杖，你比以往任何时候都更强大！%n%n[note]你只需要完成其中一个任务即可完成此任务。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7Q.desc=使用金杖端可以使你避免铁杖端的缺点。因此，最好升级到金杖端宏伟之木法杖！%n%n你也可以考虑用魔力布匹杖端制作你的宏伟之木魔杖。这样可以额外获得5%%的魔力减免！%n%n有了这根宏伟之木魔杖，你比以往任何时候都更强大！%n%n[note]你只需要制作两个列出的任意一种杖端即可完成此任务。[/note]
 
 # Quest: Fuuuuuu...(sion)!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.name=Fuuuuuu...sion（融合）!
@@ -12141,7 +12337,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_w.desc=还可以替代岩浆！它可�
 
 # Quest: Not Coal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABAA.name=不用煤
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABAA.desc=一种更好的方式。说实话，使用煤来制作它本身就是一种浪费。你可以使用木炭粉或者褐煤粉来生产源动之焰。 在炼金炉中使用它来作为燃料可以加速物品在炼金炉中溶解的速度。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABAA.desc=一种更好的方式。说实话，使用煤来制作它本身就是一种浪费。你可以使用木炭粉或者褐煤粉来生产源动之焰。 在炼金炉中使用它来作为燃料可以加速物品在炼金炉中溶解的速度，还可用于砖高炉。
 
 # Quest: Save the Squids, We Must
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABAQ.name=保护鱿鱼，人人有责
@@ -12267,10 +12463,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ.desc=铁木比你想象的还要坚�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.name=苍穹树
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLg.desc=要是你在暮色森林游荡了不少时间，那应该会发现苍穹树。这种大树会生成许多原木和树根，树根会掉落木棍。注意！不要在树边或任何树可能长到的地方放置箱子或者别的什么，否则长出的树根/树干可能会替换掉它。你可能会发现这个特性有的时候还挺好用的（某些情况下），但你真的不应该这样做。
 
-# Quest: A Better Fluid Pipe
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.name=更好的流体管道
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_g.desc=既然你有了铅，你就可以把你的青铜流体管道换成具有更高容量的铅青铜流体管道了。
-
 # Quest: 3 Plus 4, Carry the 2...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA.name=三加四，再带上二……
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHeA.desc=在注魔的时候，要是能知道准确稳定度就好了。奥术计算器可以直观的向你展示注魔祭坛的稳定度以及存在的不对称。%n%n现在，你可以用几种常见的稳定物为代价换一个-但是如果你想要第二个，就只能消耗电路板制作了
@@ -12349,7 +12541,7 @@ betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.desc=有许多作物都能为你提�
 
 # Quest: Timewood Tree
 betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.name=时光树
-betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.desc=时光树的时钟是一种可以从暮色森林获取的特殊方块。它可以加速半径 16 格范围内原版作物的生长，让农场效率显著提升。%n%n想要获得它，你必须探索暮色森林巨树的内部，搜寻隐藏在其中的战利品宝箱。你有极小概率能找到时光树树苗。待树苗长成后，时钟便会生成在树木内部。%n[warn]%n树木长成后，你需要使用带有精准采集的工具才能获得时光树的时钟。[/warn]%n[note]%n如果你不用精准采集破坏它，则会掉落数个原版的时钟。%n[/note]
+betterquesting.quest.LjblTeS1RdGLz6IeIq5oWw.desc=时光树的时钟是一种可以从暮色森林获取的特殊方块。它可以加速半径 16 格范围内原版作物的生长，让农场效率显著提升。%n%n想要获得它，你必须探索暮色森林巨树的内部，搜寻隐藏在其中的战利品宝箱。你有极小概率能找到时光树树苗。待树苗长成后，时钟便会生成在树木内部。%n[warn]%n树木长成后，你需要使用带有精准采集的工具才能获得时光树的时钟。[/warn]%n[note]%n如果你不用精准采集破坏它，则会掉落数个原版的时钟。[/note]
 
 # Quest: Shadow Metal
 betterquesting.quest.NO4JlNzcR_-1gaQi-kb3JA.name=暗影金属
@@ -12694,11 +12886,11 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALRQ.desc=如果你稍微涉入一点黑�
 
 # Quest: So many options for the core!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA.name=太多杖芯可选！
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA.desc=下个杖芯有太多可选！六种可选的要素杖芯是寒霜，烈焰，白骨，黑曜石，甘蔗和石英。他们都十分相似。%n%n剩下两种可选的杖芯会更有趣一些。转化杖柄不仅有相同的要素容量，而且更容易制作！它还有一个令它更易充能的能力。%n%n最后，神秘杖芯有比其他几种稍高的要素容量。但也比其他的杖芯更难制作。考虑到你的材料支出，你也许并不能立马制作出它，而是要先去制作其他种类的杖芯。%n%n§3你只需要做其中的一个来完成任务。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMiA.desc=下个杖芯有太多可选！六种可选的要素杖芯是寒霜，烈焰，白骨，黑曜石，甘蔗和石英。他们都十分相似。%n%n剩下两种可选的杖芯会更有趣一些。转化杖柄不仅有相同的要素容量，而且更容易制作！它还有一个令它更易充能的能力。%n%n最后，神秘杖芯有比其他几种稍高的要素容量。但也比其他的杖芯更难制作。考虑到你的材料支出，你也许并不能立马制作出它，而是要先去制作其他种类的杖芯。%n%n§3你只需要制作列出的其中一种杖芯来完成任务。
 
 # Quest: Ignore the Glint in Their Eyes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.name=无视它们眼中的光芒
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.desc=这不是个好主意，但你何时在意过这些了？不过是有脑子的傀儡罢了，能出什么问题？%n%n§3你只需完成其中一项要求即可。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyA.desc=这不是个好主意，但你何时在意过这些了？不过是有脑子的傀儡罢了，能出什么问题？%n%n§3你只需要制作其中一种傀儡。
 
 # Quest: Primordial Armor
 betterquesting.quest.IU6FR1ikR2iDES8JOyklMg.name=元始护甲
@@ -12707,6 +12899,10 @@ betterquesting.quest.IU6FR1ikR2iDES8JOyklMg.desc=§5§l元始护甲§r是要塞�
 # Quest: The BEST Soap!
 betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.name=最好的肥皂！
 betterquesting.quest.Jl453zbkSfC4pl9kglgy6A.desc=总算，你现在可以减少你的永久扭曲值了。%n%n减少永久扭曲值的几率为10%%，若拥有扭曲防护效果则提升至25%%，若处于净化之水中则进一步提升至40%%。%n%n[warn]此肥皂存在一些副作用。请确保你有办法消除一般（及临时）扭曲值。[/warn]
+
+# Quest: Infused Seeds
+betterquesting.quest.Jph4U5ZRTDifVbmAKCp1ug.name=Infused Seeds
+betterquesting.quest.Jph4U5ZRTDifVbmAKCp1ug.desc=§5§lInfused Seeds§r are very slow growing magical crops. Each seed is associated with a Thaumcraft aspect, and a fully grown plant can produce resources related to that aspect. Some of these drops are surprisingly useful. For example, a fully grown Venenum Infused Seed will drop 16 Quicksilver, an Iter Infused Seed will drop Arcane Bricks, and a Herba Infused Seed will give you random saplings.%n%nYou can see the products of different seeds using NEI.%n%nThere is a catch: the Infusion Altar can only directly create seeds for the six primal aspects. To create seeds for compound aspects, you'll need to combine their component aspects through the farmland itself.%n%nLet's make a §cVenenum Infused Seed§r as an example. §cVenenum§r is composed of §3Aqua§r + §dPerditio§r, so begin by crafting both an §3Aqua Infused Seed§r and a §dPerditio Infused Seed§r.%n%nPlant the §3Aqua Infused Seed§r on ordinary vanilla farmland and allow it to grow. As the seed grows, it leaves some of its aspect behind in the farmland. Once the farmland has been infused with §3Aqua§r, remove the §3Aqua§r seed and plant your §dPerditio Infused Seed§r on the same block.%n%nThe §dPerditio§r from the seed will combine with the §3Aqua§r already stored in the farmland, producing §cVenenum§r. The farmland and seed will become infused with the new aspect, and once the §cVenenum§r seed reaches maturity, it can be harvested.%n%nNaturally, waiting for these things to grow isn't particularly exciting. The Hoe of Growth works on Infused Seeds and can greatly speed up the process, although each use consumes 25 durability. With a sufficiently durable or repairable Hoe of Growth, you may even find some interesting ways to automate the process.%n%n[warn]One warning before you dive too deeply into magical agriculture: reaching and researching Infused Seeds involves a lot of Warp. Consider yourself warned before deciding that unlimited magical wheat sounds harmless.[/warn]
 
 # Quest: ...or are they?
 betterquesting.quest.LIZCdBLfQquQpULGmFDixw.name=……还是？
@@ -12736,6 +12932,10 @@ betterquesting.quest.u2VAsYrLRE-JvHOMy132lQ.desc=维护多方块机器会相当�
 ## Quest Line: Kaaami, Haaaami, ... HA!
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGA.name=龟……派……气……功波！
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAGA.desc=终极的奥法力量！！！
+
+# Quest: Lord of the Rings?
+betterquesting.quest.775_Z_nVQ0mk_ez5HJ15eg.name=Lord of the Rings?
+betterquesting.quest.775_Z_nVQ0mk_ez5HJ15eg.desc=Finally, a shot at real power!%n%nUsing the Primordial Pearl, you can now create Master Rings. These rings grant you a very generous vis discount corresponding to their type.%n%nRumor has it that they can be combined into a very powerful ring...%n%n[note]The pearl is not consumed when crafting these rings.[/note]
 
 # Quest: The Power of Gods
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABMw.name=神的力量
@@ -12853,9 +13053,29 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKqA.desc=这是除了毕业装备/创造
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRw.name=这些东西不会‘回来’了
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALRw.desc=这种珍珠比较实用的用途之一，就是制造更好的炼金炉。 通过这种炼金炉，你可以用更快的速度，将物品炼成源质。%n%n[note]在合成过程中，珍珠不会被消耗，也不会损失耐久。[/note]
 
+# Quest: Master Sky Rings
+betterquesting.quest.B8wl-jDeRKurSwRIOFwxWA.name=Master Sky Rings
+betterquesting.quest.B8wl-jDeRKurSwRIOFwxWA.desc=Remember when I mentioned that these could be used to create a more powerful ring? Well, the rumor is true.%n%nMake 16 of each type of Master Sky Ring to continue down this path, but beware the journey that lies ahead!%n%n[note]If you've already reached the end of this recipe line, just hold the ring and it will skip these quests![/note]
+
 # Quest: Large Essentia Smeltery
 betterquesting.quest.GoTATpPcQAuqGyfJG_dI-Q.name=大型源质冶炼厂
 betterquesting.quest.GoTATpPcQAuqGyfJG_dI-Q.desc=§5§l大型源质冶炼厂§r是GT版本的炼金炉，作为荒古炼金炉的继任者，在将物品冶炼为源质上速度极快。%n%n不像它的前一版本只需要centi-vis作为能源，它还需要电能。所需的电量取决于源质扩散单元的等级和机器的并行数。%n%n新手 -> EV%n学徒 -> IV%n大师 -> LuV%n宗师 -> ZPM%n%n机器的可用并行数同时取决于源质扩散单元的等级和长度：%n§3并行数 = (2^等级 * (长度-1))§r
+
+# Quest: Runeforged Thaumaturge's Ring
+betterquesting.quest.LEdLGZmUQRajQVkXPr9HgQ.name=Runeforged Thaumaturge's Ring
+betterquesting.quest.LEdLGZmUQRajQVkXPr9HgQ.desc=At last... behold the power of the Runeforged Thaumaturge's Ring.%n%nIt grants an unbelievable §5§l10%%§r discount on all primal aspects, along with additional runic shielding. Only the most powerful thaumaturges could even hope to wield it.%n%nThe shielding is so strong that it naturally blocks the effects of Poison and Wither.%n%n[warn]Unlike before, the pearl will be consumed when crafting these rings.[/warn]
+
+# Quest: Master Earth Rings
+betterquesting.quest.lff8G4UaSBqDMNDUmQBkFQ.name=Master Earth Rings
+betterquesting.quest.lff8G4UaSBqDMNDUmQBkFQ.desc=Remember when I mentioned that these could be used to create a more powerful ring? Well, the rumor is true.%n%nMake 16 of each type of Master Earth Ring to continue down this path, but beware the journey that lies ahead!%n%n[note]If you've already reached the end of this recipe line, just hold the ring and it will skip these quests![/note]
+
+# Quest: Ring of the Sky
+betterquesting.quest.sCq0JUgWRly6GZBEZsq38w.name=Ring of the Sky
+betterquesting.quest.sCq0JUgWRly6GZBEZsq38w.desc=The Ring of the Sky is a very powerful ring. In its highest form, it grants mastery over all three Sky Rings at once, a three-for-one combo!%n%n[note]These infusions are more powerful. They won't destroy your pearl, but they will drain it, requiring a separate infusion to recharge it before it can be reused.[/note]
+
+# Quest: Ring of the Earth
+betterquesting.quest.zXgHTuVzT2q5xOXO8r-HNg.name=Ring of the Earth
+betterquesting.quest.zXgHTuVzT2q5xOXO8r-HNg.desc=The Ring of the Earth is a very powerful ring. In its highest form, it grants mastery over all three Earth Rings at once, a three-for-one combo!%n%n[note]These infusions are more powerful. They won't destroy your pearl, but they will drain it, requiring a separate infusion to recharge it before it can be reused.[/note]
 
 
 ## Quest Line: Focus on Wand Foci & EMT
@@ -13482,7 +13702,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJHw.desc=巫媒（Taglock-Kit）用于�
 
 # Quest: Mutandis Extremis
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIA.name=超级转生粉
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIA.desc=超级转生粉是转生粉的升级版，巫师们常用它来使植物突变为其他物种。超级转生粉具有转生粉的所有属性，但它可用于多阶段的植物，如小麦、仙人掌等。它还可以使熟肉突变。%n%n如果在草方块上使用超级转生粉，有一定几率使其突变为菌丝，反之亦然。%n%n对水下的泥土使用超级转生粉，有一定几率使其周围的泥土突变为黏土。%n%n突变植物是获取山梨树、山楂树和赤杨树苗的唯一方法。%n%n某些配方需要超级转生粉作为配料。%n%n超级转生粉可由转生粉与地狱疣制成。%n%n[note]某些巫师炼药锅配方需要祭坛能量。超级转生粉就是其中之一，它需要8000能量。请先阅读《巫师酿造手册》以获知祭坛能量需求。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIA.desc=超级转生粉是转生粉的升级版，巫师们常用它来使植物突变为其他物种。超级转生粉具有转生粉的所有属性，但它可用于多阶段的植物，如小麦、仙人掌等。它还可以使熟肉突变。%n%n如果在草方块上使用超级转生粉，有一定几率使其突变为菌丝，反之亦然。%n%n对水下的泥土使用超级转生粉，有一定几率使其周围的泥土突变为黏土。%n%n突变植物是获取山梨树、山楂树和赤杨树苗的唯一方法。%n%n某些配方需要超级转生粉作为配料。%n%n超级转生粉可由转生粉与地狱疣制成。%n%n[note]某些巫师炼药锅配方需要祭坛能量。超级转生粉就是其中之一。请先阅读《巫师酿造手册》以获知祭坛能量需求。[/note]
 
 # Quest: Mandrake Noise Protection
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJIQ.name=曼德拉噪音防护
@@ -14262,7 +14482,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.name=§c§l蒸蒸日上！
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAARg.desc=你快熬出头了！只需要再做一步合成，就能挺进第1阶段！继续前进吧！%n%n这种蒸汽轮机可以将蒸汽转化为EU。虽然使用的动力源仍然是蒸汽，但从此刻开始，你会产出EU，并通过线缆输送给你的机器，不需要把蒸汽直接通入机器了。幸运的是，电力机器不需要什么排气口，效率也比那些青铜家伙高得多。%n%n不过，以后你多半还是会把蒸汽换成其他的发电燃料。%n%n[note]如果你想现在就立刻用蒸汽以外的能源发电，还有其他方式来完成这个任务。[/note]%n%n[note]中文wiki 基础蒸汽轮机：§1§n[url]https://gtnh.huijiwiki.com/p/94780[/url]§r[/note]
 
 # Quest: EBF-Time
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.name=§6§l工业高炉时代
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.name=§2§l工业高炉时代
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATQ.desc=为了得到铝锭，你需要一个工业高炉。这是通向胜利的另一重要步骤。让我们开始吧。%n%n制作加热线圈所需的云母可能会有些棘手，但一阶线圈有一个不需要云母的替代配方。%n%n为了不被镍卡住，查看“魔法学徒”任务栏的“镍的来源”任务。%n%n为了处理最初的这些配方，你需要两个LV级能源仓，接收至少4A的LV电流。这机器是一台电能大胃袋，所以你需要做好准备：%n%n1. 如同tooltip中显示的那样，线缆有一定的能量损耗。尽量让发电靠近用电。未绝缘的导线损失能量高于绝缘版本。用管道将蒸汽或燃料运送到能量输入附近。%n2. 如果高炉需要维护，每个维护问题都会损失效率并导致完成配方需要更多能量。能量消耗的公式是1/(1-0.1x)，其中x是维护问题个数。%n%n如果运行过程中能量耗尽，高炉将销毁正在运行的配方输入！%n%n对于有流体产物的配方，你需要在工业高炉控制器的GUI中启用销毁过量流体，或者添加一个输出仓。否则工业高炉将无法启动。%n%n启动之前，别忘了修复所有的维护问题，并在需要时放入正确的编程电路。%n%n如果你需要一台完美的工业高炉，你可以添加更多的输入仓，在其中存储不同的流体。%n%n工业高炉还会根据电压调整炉温，从MV开始，每提升一个电压等级，实际炉温将提高100K（LV则会降低100K）。虽然目前你只能制造LV能源仓，但同时安装两个LV能源仓即可将高炉超频到MV，从而避免降低100K的惩罚，并且初始炉温可以达到1801K。%n%n随着游戏的进程，你的工业高炉不断升级，你就可以获得更多的炉温奖励。两个MV能源仓（超频到HV）可以增加100K，两个HV能源仓（超频到EV）可以增加200K……线圈本身只决定基础炉温。这种炉温调整不适用于炽焱高炉。%n%n如果污染变得非常严重，请查看GT++的污染清理机，或者升级你的消声仓。%n%n[note]如需了解更多实用信息，请在“多方块结构”章节查看此任务，或是访问 GuideNH 内的 EBF 页面。%n中文wiki 工业高炉：  §1§n[url]https://gtnh.huijiwiki.com/p/117[/url]§r[/note]
 
 # Quest: A Quite Different Storage
@@ -14579,7 +14799,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHMQ.desc=可能你还没注意，这个�
 
 # Quest: Moron's Manual for Effective EBFing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.name=§6§l高效工业高炉傻瓜指南
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.desc=欢迎阅读最新一期傻瓜指南——高效工业高炉篇！本指南解答了使用格雷科技1000型工业高炉时常见的一些问题。%n%n搭建%n搭建工业高炉时，请务必把它放在会受污染影响的设施（如农田）几个区块之外。没有人会喜欢污染的！%n%n请确保工业高炉内部是中空的。有些东西可能会偷偷溜进去，比如神秘时代的光球！%n%n确保你的消声仓位于顶层中央。如果工业高炉不能释放它那迷人的气味，它就无法工作！%n%n在放置能源仓时，应尽可能减少发电机到工业高炉的距离。尤其是在LV电压时，短短几米就能产生很大影响！每安电流经过一格线缆都会损失一小点能量，而你需要尽可能多的能量！最佳方案是在每个能源仓旁边放置两台发电机，并用2A线缆相连。如果你比较穷，可以使用两个各有两颗电池的电池箱直供能源仓。记得让为电池箱充电的发电机维持运转。如果你使用9格的电池箱，你可以逐步在里面塞满电池，以获得更长的持续运行时间，直到有了稳定的电力供应。%n%n输出仓和输出总线会自动向相邻的储罐（比如BC储罐）或储物空间（比如箱子）输出流体或物品（译者注：仅输出口方向）。当输出仓/总线满了后，多余的产物会被吞掉，记得留个心眼！%n%n建造多个高炉时，它们可以共用机械方块、线圈、仓室、总线。这么做也能省下几个输入仓和输出仓。但不建议共用能源仓和维护仓！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHPQ.desc=欢迎阅读最新一期傻瓜指南——高效工业高炉篇！本指南解答了使用格雷科技1000型工业高炉时常见的一些问题。%n%n搭建%n搭建工业高炉时，请务必把它放在会受污染影响的设施（如农田）几个区块之外。没有人会喜欢污染的！%n%n请确保工业高炉内部是中空的。有些东西可能会偷偷溜进去，比如神秘时代的光球！%n%n确保你的消声仓位于顶层中央。如果工业高炉不能释放它那迷人的气味，它就无法工作！%n%n在放置能源仓时，应尽可能减少发电机到工业高炉的距离。尤其是在LV电压时，短短几米就能产生很大影响！每安电流经过一格线缆都会损失一小点能量，而你需要尽可能多的能量！最佳方案是在每个能源仓旁边放置两台发电机，并用2A线缆相连。如果你比较穷，可以使用两个各有两颗电池的电池箱直供能源仓。记得让为电池箱充电的发电机维持运转。如果你使用9格的电池箱，你可以逐步在里面塞满电池，以获得更长的持续运行时间，直到有了稳定的电力供应。%n%n输出仓和输出总线会自动向相邻的储罐（比如BC储罐）或储物空间（比如箱子）输出流体或物品（译者注：仅输出口方向）。%n%n建造多个高炉时，它们可以共用机械方块、线圈、仓室、总线。这么做也能省下几个输入、输出和维护仓。但不建议共用能源仓！
 
 # Quest: Circuit Programming
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAH_w.name=§2§l电路编程
@@ -14619,7 +14839,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYA.desc=如果你想让多A电流通过
 
 # Quest: E_TOO_MANY_KEYS
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.name=§9§l错误：键位过多
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=错误：键位过多，连104键的键盘都装不下了。%n%n整合包中有大量的快捷键。为了防止冲突，大部分快捷键默认未绑定。只有游戏初期必备的快捷键才会预先绑定好。需要注意的是，NEI的按键绑定要在NEI的菜单里设置，不在按键控制菜单里。%n%n下面列出了一些快捷键的用处：%n%nBetterQuesting%nGRAVE（“~”）键 - 打开任务书%n%nDraconic Evolution%nV - 将手持物品贴到准星所指方块上%n%nJourneymap%nB - 创建导航点%nCtrl+B - 打开导航点管理界面%nJ - 打开全屏地图%n= - 放大（对小地图同样有效）%n- - 缩小%n%nShare Where I am%nINSERT - 在准星所指处生成一束临时光束，你和其他玩家都可以看到%nSHIFT + INSERT - 在§o本人§r处生成一束临时光束，你和其他玩家都可以看到%nCTRL + INSERT - 向其他玩家共享准星所指处的坐标%nCTRL + SHIFT + INSERT - 向其他玩家共享本人坐标%n%nWaila - 显示准星所指方块信息%nNUMPAD1（小键盘数字1） - 显示/隐藏Waila HUD%nNUMPAD3 - 显示准星所指方块的合成方式%nNUMPAD4 - 显示准星所指方块的用途%n%n[note]如果你使用的是非标准键盘布局，使用Java 17-25版本的GTNH§o也许§r能帮助你绑定特殊按键。%n[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIYQ.desc=错误：键位过多，连104键的键盘都装不下了。%n%n整合包中有大量的快捷键。为了防止冲突，大部分快捷键默认未绑定。只有游戏初期必备的快捷键才会预先绑定好。需要注意的是，NEI的按键绑定要在NEI的菜单里设置，不在按键控制菜单里。%n%n下面列出了一些快捷键的用处：%n%nBetterQuesting%nGRAVE（“~”）键 - 打开任务书%n%nDraconic Evolution%nV - 将手持物品贴到准星所指方块上%n%nJourneymap%nB - 创建导航点%nCtrl+B - 打开导航点管理界面%nJ - 打开全屏地图%n= - 放大（对小地图同样有效）%n- - 缩小%n%nShare Where I am%nINSERT - 在准星所指处生成一束临时光束，你和其他玩家都可以看到%nSHIFT + INSERT - 在§o本人§r处生成一束临时光束，你和其他玩家都可以看到%nCTRL + INSERT - 向其他玩家共享准星所指处的坐标%nCTRL + SHIFT + INSERT - 向其他玩家共享本人坐标%n%nWaila - 显示准星所指方块信息%nNUMPAD1（小键盘数字1） - 显示/隐藏Waila HUD%nNUMPAD3 - 显示准星所指方块的合成方式%nNUMPAD4 - 显示准星所指方块的用途%n%n[note]如果你使用的是非标准键盘布局，使用Java 17-25版本的GTNH§o也许§r能帮助你绑定特殊按键。[/note]
 
 # Quest: Safety First
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIcQ.name=§c§l安全第一
@@ -14705,10 +14925,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALSA.desc=当你以某种方式设法连�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUQ.name=§a§l制造一柄西洋剑
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALUQ.desc=打不动有护甲的敌人？你只需要装备一柄无视护甲的西洋剑，不过它的伤害并不高。
 
-# Quest: Here's Some Oil
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALqg.name=§2§l这里有几吨油
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALqg.desc=[note]这里石油任务线的内容分到了两个章节-关于获取所有提纯产物的部分在LV章节,关于如何处理利用石油的部分在"石油工业"章节,本任务就是后者的一部分.[/note]%n%n欢迎你！ 在此任务线中，我们将为你展示石油处理的不同路线，以获取所有可以从石油中提取的有用物品、流体。 石油处理有许多步骤，而这些步骤从LV（低压）开始解锁，到IV（强导压）全部解锁，而处理的产物在这些电压以及更高电压都十分重要。%n%n石油处理产物不单可以用作能源，还是许多化工制品的重要原料。随着科技的进步，处理速度会更快，处理产物会更加丰富，同时你还可以升级此前的产线。 此任务线非本整合包必须主线，但如果你相信它，它也不会让你失望。%n%n获取初始石油的最佳方式就是抽取地表油泉。无需深挖，只需要在油泉上方放置泵，再配上一台发电机提供能量，即可轻松获取石油。 刚开始的时候，你可以直接用石油发电，不过这样效率不高，建议稍后处理得到燃油后更换发电燃料。
-
 # Quest: Nano Forge Tier 2
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0A.name=§4§l§n2阶纳米锻炉
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAM0A.desc=碳纳米蜂群作为初始工人很不错，但它们只有十分基础的蜂群网络，对更复杂的系统就有些力不从心了。所以想要生产更复杂的纳米蜂群，我们需要一种更加先进的新型纳米蜂群。%n%n中子纳米蜂群，是1阶和2阶蜂群之间的过渡蜂群，还有其他用途。%n%n[note]将中子纳米蜂群放入控制器的GUI后，你需要等待多方块机器再次检查结构，或者拆除控制器，重新放置后塞入中子纳米蜂群。允许纳米锻炉制造2阶纳米蜂群.[/note]
@@ -14731,7 +14947,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMOQ.desc=你为EV阶段所做的努力�
 
 # Quest: Bet On The Distillus
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.name=§9§l赌上蒸馏
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.desc=IV阶段带来了四种GT++多方块机器，包括蒸馏塔的升级版本，称之为丹格特蒸馏厂。 它与蒸馏塔在结构上完全相同，只是使用的消声仓与控制器方块不同，其合成更加复杂，需要更昂贵的材料%n%n其被锁定在IV以上的化工厂之后，这也使得如果仅为此合成升级化工厂的话，那这个合成配方就显得更贵了。%n%n不过话说回来，丹格特蒸馏厂解决了蒸馏塔运行缓慢的问题，而且从本质上来说，蒸馏塔是许多可再生资源生产线的支柱。 想要靠可再生能源获得可靠的IV/LuV电力，你还需要多少四联蒸馏塔呢？别管了，直接去做吧。%n%n[note]你也可以用它来完成一些无法在蒸馏塔中进行的单方块蒸馏配方,比如制造钠钾共晶合金,不过这需要一座最大高度的蒸馏塔.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMQQ.desc=IV阶段带来了四种GT++多方块机器，包括蒸馏塔的升级版本，称之为丹格特蒸馏厂。 它与蒸馏塔在结构上完全相同，只是使用的消声仓与控制器方块不同，其合成更加复杂，需要更昂贵的材料%n%n其被锁定在IV以上的化工厂之后，这也使得如果仅为此合成升级化工厂的话，那这个合成配方就显得更贵了。%n%n不过话说回来，丹格特蒸馏厂解决了蒸馏塔运行缓慢的问题，而且从本质上来说，蒸馏塔是许多可再生资源生产线的支柱。 想要靠可再生能源获得可靠的IV/LuV电力，你还需要多少四联蒸馏塔呢？别管了，直接去做吧。%n%n[note]你也可以用它来完成一些无法在蒸馏塔中进行的单方块蒸馏配方，比如制造钠钾共晶合金。[/note]
 
 # Quest: Faster Basic Crops
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMRg.name=§6§l基础作物加速
@@ -14767,7 +14983,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.desc=这些全新的仓室让你能�
 
 # Quest: PCB Factory
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.name=§2§l§nPCB工厂
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.desc=使用化学反应釜来制造电路板已经变得非常低效了。是时候换一种更合适的方案了！经过一系列的研究，你找到了一个更高效的方案——一座专门印制电路基板的工厂。%n%nPCB工厂可以使用各种塑料，制造出各种可用的电路基板。但是印制机构在尝试超频时过热了，所以我还得继续寻找解决办法。另外带有神经元的基板也还需一段的时间才能实现印制，但这并不难实现。%n%n§2线宽：线宽指基板上各组件之间，传输电信号所用的金属线宽。可以缩小线宽，节省资源但降低加工速度；或是增大线宽，加速制造但消耗更多资源。%n%n§1公式：%n- 产量=10000/（线宽/100）%n- 加工时间=配方时间/线宽^2§r%n%n[note]和净化水线类似，PCB工厂的额外模组可以用闪存进行连接。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyQ.desc=使用化学反应釜来制造电路板已经变得非常低效了。是时候换一种更合适的方案了！经过一系列的研究，你找到了一个更高效的方案——一座专门印制电路基板的工厂。%n%nPCB工厂可以使用各种塑料，制造出各种可用的电路基板。但是印制机构在尝试超频时过热了，所以我还得继续寻找解决办法。另外带有神经元的基板也还需一段的时间才能实现印制，但这并不难实现。%n%n§2线宽：线宽指基板上各组件之间，传输电信号所用的金属线宽。可以缩小线宽，节省资源但降低加工速度；或是增大线宽，加速制造但消耗更多资源。%n%n§9公式：%n- 产量=10000/（线宽/100）%n- 加工时间=配方时间/线宽^2§r%n%n[note]和净化水线类似，PCB工厂的额外模组可以用闪存进行连接。[/note]
 
 # Quest: Bio Chamber
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMyg.name=§2§l§n生物仓
@@ -14795,7 +15011,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMzw.desc=一定有种方式可以让纳�
 
 # Quest: Prototype Matter Manipulator
 betterquesting.quest.AVth34rQQ3iuYeQaKrsSQg.name=§5§l原型物质操纵者
-betterquesting.quest.AVth34rQQ3iuYeQaKrsSQg.desc=§1§l物质操纵者§r是一件极其强大的工具，你在整个游戏进程中皆可使用。它本质上是一个为了GTNH玩家的便利，量身定制的、生存模式下的World-Edit。%n%n如你所料，§1§l原型物质操纵者§r是其功能最少、最为基础的版本，仅能使用§5§l几何模式§r来创建和修改用于建造的形状。在安装EV阶段解锁的升级模块前，你[warn]无法[/warn]§r移除方块。%n%n开发者提供的详尽信息可见：[url]https://github.com/RecursivePineapple/MatterManipulator/blob/master/README.md[/url]%n%n不过学习它的最佳方式就是使用它！请尝试摆弄它的UI并熟悉它的工作原理。%n%n[note]完整的操纵者任务线请查阅“基地建设”任务栏。[/note]
+betterquesting.quest.AVth34rQQ3iuYeQaKrsSQg.desc=§1§l物质操纵者§r是一件极其强大的工具，你在整个游戏进程中皆可使用。它本质上是一个为了GTNH玩家的便利，量身定制的、生存模式下的World-Edit。%n%n如你所料，§1§l原型物质操纵者§r是其功能最少、最为基础的版本，仅能使用§5§l几何模式§r来创建和修改用于建造的形状。在安装EV阶段解锁的升级模块前，你[warn]无法[/warn]§r移除方块。%n%n开发者提供的详尽信息可见：[url]https://github.com/GTNewHorizons/MatterManipulator/blob/master/README.md[/url]%n%n不过学习它的最佳方式就是使用它！请尝试摆弄它的UI并熟悉它的工作原理。%n%n[note]完整的操纵者任务线请查阅“基地建设”任务栏。[/note]
 
 # Quest: Matter Manipulator MKII
 betterquesting.quest.D6AFvlXcQbqDncL9y2HXEw.name=§d§l物质操纵者 MK-II
@@ -14829,6 +15045,10 @@ betterquesting.quest.GuylOTxSSraeAtj16fZ9-w.desc=金桶有81个槽位。
 betterquesting.quest.JCfcbke6SGO9KCPqXsTyaQ.name=§9§l§n日耀投射强化
 betterquesting.quest.JCfcbke6SGO9KCPqXsTyaQ.desc=§5§l日耀投射强化§r（HR）模块是§9§lUIV§r阶段解锁的最后一个§n异星铸造塔§r模块。%n%n日耀投射强化模块终于允许你运行§9§lUIV+§r的流体固化器配方了。现在你可以使用铸造塔冷却更高级的材料，或是制作更先进的强化玻璃。%n%n日耀投射强化模块还有一个独特之处，即它可以与自身搭配。在铸造塔上安装两台及以上的§5日耀投射强化§r模块将解锁“§6超稳核心§r”并获得以下增益：%n%n- 两台及以上日耀投射强化模块：每个投射强化模块提供§275%%§r的速度增益和§c10%%§r的EU折扣%n- 三台及以上日耀投射强化模块：每个投射强化模块每电压等级额外提供§36§r并行，所有模块总计提升§20.1§r超频系数%n- 四台日耀投射强化模块：§22§r次额外超频%n%n[note]注意增益可以叠加；例如，三台日耀投射强化模块可以在两台所具有增益的基础上额外获得列出的这些增益。[/note]
 
+# Quest: Balance is Everything
+betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=§9§l§n关键在于平衡
+betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=你已经能超越维度了，但当你的电力需求激增到一种荒诞的程度时，你也许需要超越物质了！%n%n利用原初恒坚钢不毁的特性，掌控[warn]混沌[/warn]成为了现实。半稳定反物质稳定序列器引入了半稳定反物质的概念。这种物质由元始物质制成。%n%n但它可是个难伺候的主子…掌握不当的话，反物质就会湮入虚无！%n%n半稳定反物质从周期为1秒的循环中产出，每次的产量基于16个反物质仓中储存的反物质量之和，并消耗等量的元始物质。%n%n每个周期，每个反物质仓的基础产出为：%n(1/16)*(§3反物质量§r)^(0.5+§6§nC§r)。%n随后每个仓将各自从均值为（0.2+§b§nA§r）、方差为1的正态分布中抽取随机数，乘在基础产量上——这意味着反物质总量变化可能为负值。%n%n该机制将导致仓室间的反物质量失衡。想要实现反物质生产自动化，重新配平各仓室的反物质存量至关重要。每周期结束时，所有反物质仓中反物质存量最低值将被记录，所有存量高于最低值的仓室将损失差值的一半！%n%n正确使用稳定流体可以显著减少能量消耗并增加产出：%n%n机器被动消耗 10,000,000+(§3反物质量§r*1000)^§ (1.5-§2§nM§r§) EU/t。%n磁性稳定液可减轻被动不稳定性，表现为§2指数上§r的剪除：%n熔融纯镃：§2§n0.1§r%n富快子时间流体：§2§n0.2§r%n熔融磁物质：§2§n0.3§r%n%n机器每个运行周期消耗(§3反物质§r*10000)^(1.5-§5§nG§r) EU%n调整锻炉中的引力约束可以剪除这一§5指数§r：%n熔融时空：§5§n0.05§r%n扩大化空间流体：§5§n0.10§r%n熔融永恒：§5§n0.15§r%n%n更紧凑地约束反物质可以增加每个循环的产出。遏制稳定流体可在产出公式中提供§6指数上§r的提升：%n熔融调律源金：§6§n0.05§r%n熔融磁流体约束恒星物质（蓝框岩浆）：§6§n0.10§r%n%n输入高能垒的流体能够调节反物质的流动混沌性，使其随机性向有利的方向偏转。活化稳定流体能引起正态分布的§b均值§r变化，降低负产出的风险并有利于更高的产出。%n硅岩基流体燃料 MK-V（枯竭的）：§b§n0.05§r%n硅岩基流体燃料 MK-VI（枯竭的）：§b§n0.10§r
+
 # Quest: Celestial Gateways
 betterquesting.quest.OWIeO5C1RheNGaVsrwmPJg.name=仙域之门
 betterquesting.quest.OWIeO5C1RheNGaVsrwmPJg.desc=仙域之门有一点贵，但是可以提供非常方便的单个维度内的旅行。%n%n在仙域之门上使用一个仙域珍珠Shift+左键点击，使仙域珍珠与特定的仙域之门调谐，并将这个珍珠插入另一个仙域之门的槽中。%n%n当站在天域之门上方时按下Shift键以打开传送菜单。 如果你想方便的识别不同的位置，最好在铁砧上给珍珠命名。
@@ -14851,7 +15071,7 @@ betterquesting.quest.Rg0l66VnRsKlUZ0VTO3ilA.desc=§5§l感知超频器§r（SO�
 
 # Quest: Large Hadron Collider
 betterquesting.quest.TL8RVz_HTBO5LvkI6SQi6A.name=§2§l§n大型强子对撞机
-betterquesting.quest.TL8RVz_HTBO5LvkI6SQi6A.desc=要获得比简单的质子、中子和电子更奇异的粒子？那你就得用上大型强子对撞机。它可以把任何带电粒子当作输入——来自其他能产出高能粒子的多方块结构，比如束流源室。%n%n大型强子对撞机的四个模块，每个都能产出不同的粒子。要让某种特定粒子出现在输出里，§b碰撞能量§r必须大于该粒子的§d静止质量§r（可以在 NEI 中查看 tooltip）。%n%n%n大型强子对撞机有两种模式：§l加速器§r模式和§l对撞机§r模式。%n%n§l加速器§r模式下，它会把你输入的束流加速到更高能量。这个过程以 1 秒为一个周期，每完成一个周期，束流能量就会增加一个固定数值。这个数值取决于该周期消耗了多少 EU。能量消耗会随着§9已完成周期数§r的平方而增长，同时也会随着束流中的粒子§c数量§r线性增长。%n%n你可以在 GUI 里设定目标§6束流能量§r和最大§9周期数§r。如果束流在达到最大周期数之前就达到了目标§6束流能量§r，那么后续每个完成的周期都会把束流中当前的粒子§c数量§r乘以 1.1，这样也会增加能量消耗。一旦达到最大§9周期数§r，大型强子对撞机就会自动切换到§l对撞机§r模式。%n%n§l对撞机§r模式下，束流会跟自己撞个满怀，并产生出全部类型的粒子。每个大型强子对撞机模块只能检测并捕获某一类粒子——具体看这个粒子能和哪种基本力相互作用。所以有的粒子可能会出现在多个模块里。你可以用“过滤式束流输出仓”把不想看到的粒子加入黑名单，以屏蔽这些粒子。%n%n§l[note]§l§b§l碰撞能量§r§l = 加速后的§6§l束流能量§r§l × 2§l[/note]%n%n%n
+betterquesting.quest.TL8RVz_HTBO5LvkI6SQi6A.desc=要获得比简单的质子、中子和电子更奇异的粒子？那你就得用上大型强子对撞机。它可以把任何带电粒子当作输入——来自其他能产出高能粒子的多方块结构，比如束流源室。%n%n大型强子对撞机的四个模块，每个都能产出不同的粒子。要让某种特定粒子出现在输出里，§b碰撞能量§r必须大于该粒子的§d静止质量§r（可以在 NEI 中查看 tooltip）。%n%n%n大型强子对撞机有两种模式：§l加速器§r模式和§l对撞机§r模式。%n%n§l加速器§r模式下，它会把你输入的束流加速到更高能量。这个过程以 1 秒为一个周期，每完成一个周期，束流能量就会增加一个固定数值。这个数值取决于该周期消耗了多少 EU。能量消耗会随着§9已完成周期数§r的平方而增长，同时也会随着束流中的粒子§c数量§r线性增长。%n%n你可以在 GUI 里设定目标§6束流能量§r和最大§9周期数§r。如果束流在达到最大周期数之前就达到了目标§6束流能量§r，那么后续每个完成的周期都会把束流中当前的粒子§c数量§r乘以 1.1，这样也会增加能量消耗。一旦达到最大§9周期数§r，大型强子对撞机就会自动切换到§l对撞机§r模式。%n%n§l对撞机§r模式下，束流会跟自己撞个满怀，并产生出全部类型的粒子。每个大型强子对撞机模块只能检测并捕获某一类粒子——具体看这个粒子能和哪种基本力相互作用。所以有的粒子可能会出现在多个模块里。你可以用“过滤式束流输出仓”把不想看到的粒子加入黑名单，以屏蔽这些粒子。%n%n§l[note]§l§b§l碰撞能量§r§l = 加速后的§6§l束流能量§r§l × 2§l。[/note]
 
 # Quest: Steel Chest?
 betterquesting.quest.V4jinTYRSueIrEqn90dRzQ.name=§c§l钢箱子？
@@ -14862,7 +15082,7 @@ betterquesting.quest.V9BupH47RI6RWX6vff5dpw.name=§c§l未来，触手可及！
 betterquesting.quest.V9BupH47RI6RWX6vff5dpw.desc=把未来带回现实[EFR]还加入了原版的木桶（不要与JABBA的桶混淆）。它们本质上类似于箱子，但可以紧挨着放置，并且上方有方块时也能打开。你还可以对它们进行升级！非常适合那些紧凑的机器配置。
 
 # Quest: A Toolbox For All Your Tools
-betterquesting.quest.VAZfRG1BQt6JwqRQ_PNP0g.name=§2§l装下你所有工具的工具箱
+betterquesting.quest.VAZfRG1BQt6JwqRQ_PNP0g.name=§6§l装下你所有工具的工具箱
 betterquesting.quest.VAZfRG1BQt6JwqRQ_PNP0g.desc=随着你的工厂规模不断壮大，你将需要各种各样的工具来建造、配置和拆除机器。制作一个工具箱来集中收纳这些工具，会非常实用。%n%n现场工程师工具箱能让你直接使用存放在里面的工具进行建造和配置，无需将工具取出。右键打开工具箱，把工具放进去。之后，按下“选取方块”键（默认：鼠标中键）即可打开环形菜单，从中选择一种工具。此时，你就可以像握着对应的工具一样使用这个工具箱了。当你注视某个方块并按下“选取方块”键时，工具箱会自动匹配适合该工作的工具，并跳过环形菜单。潜行时按下“选取方块”键，则可快速取消当前选择的工具。%n%n在此之上，你还可以用一块电池来升级工具箱。升级后的工具箱能够为内部的电动工具充电，同时解锁由机器或无线充电器为整个工具箱充电的能力。%n%n工具箱还能利用内部的工具来修复维护仓。先确保取消选择了当前装备的工具（如果有），然后手持工具箱右键点击维护仓。工具箱内的所有工具都会被应用于该维护仓，自动修复其中可能存在的任何问题。%n%n制作工具箱需要聚乙烯——一种你此前很可能还没有制备过的流体。如何获取它就交由你自己去探索了。给你一个提示：世界各地那些黑色的喷油泉，也许正是关键……
 
 # Quest: The Quest for Holy Water
@@ -14895,7 +15115,7 @@ betterquesting.quest.a-g__0y_SGyed_E6IkIrsg.desc=还在为够不到基地的管�
 
 # Quest: Powerfail Notifications
 betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.name=§6§l电力故障提醒
-betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=恭喜你获得了第一个工业高炉！%n%n在你的GTNH之旅中，你会制造数百个多方块结构，也很可能会在某个时刻面对大量的电力故障（跳电）。%n%n幸运的是，我们特意加入了一个系统，用于帮助你了解何时何地发生了电力故障§3（不过，“为何发生”仍需你自行排查！）§r。%n%n当某个多方块结构发生电力故障时，你会在§5聊天栏§r中收到通知，同时§5屏幕§r上会显示一个图标，§5地图§r上则会有一个图标显示。%n%n§l你可以通过以下方式清空这些通知§r：%n- 点击查看发生电力故障的多方块结构（控制器）%n- 删除JourneyMap中的提醒%n- 输入§4/powerfails clear§r命令%n%n对§2多人游戏§r玩家，在你§2队伍§r中的所有人都会收到§2相同的提醒§r。§2§n一个玩家§r清空通知应该就能清除§2§n所有玩家§r收到的通知。%n%n[note]这个功能使用和无线EU相同的队伍系统。使用<§c/sp invite§r§1 [玩家名称]§r>来组队。[/note]%n%n这些功能都可在GregTech设置中被关闭。如果你想禁用屏幕上的图标，可用§4§l/powerfails hide§r命令。可用§4§l/powerfails help§r命令查询所有游戏内选项。
+betterquesting.quest.a59175-ZS16kxwUW_BCuEQ.desc=恭喜你获得了第一个工业高炉！%n%n在你的GTNH之旅中，你会制造数百个多方块结构，也很可能会在某个时刻面对大量的电力故障（跳电）。%n%n幸运的是，我们特意加入了一个系统，用于帮助你了解何时何地发生了电力故障§3（不过，“为何发生”仍需你自行排查！）§r。%n%n当某个多方块结构发生电力故障时，你会在§5聊天栏§r中收到通知，同时§5屏幕§r上会显示一个图标，§5地图§r上则会有一个图标显示。%n%n§l你可以通过以下方式清空这些通知§r：%n- 点击查看发生电力故障的多方块结构（控制器）%n- 删除JourneyMap中的提醒%n- 输入§4/powerfails clear§r命令%n%n对§2多人游戏§r玩家，在你§2队伍§r中的所有人都会收到§2相同的提醒§r。§2§n一个玩家§r清空通知应该就能清除§2§n所有玩家§r收到的通知。%n%n[note]这个功能使用和无线EU相同的队伍系统。使用<§c/gtnhteam invite§r§1 [玩家名称]§r>来组队。[/note]%n%n这些功能都可在GregTech设置中被关闭。如果你想禁用屏幕上的图标，可用§4§l/powerfails hide§r命令。可用§4§l/powerfails help§r命令查询所有游戏内选项。
 
 # Quest: Absolute Purity
 betterquesting.quest.bNVzOxCORxuo_lhAh13r0A.name=§5§l§n绝对纯净
@@ -14991,6 +15211,10 @@ betterquesting.quest.ziczkJstQ7C0LgmnzTUTeA.desc=你不会以为我们要逼你�
 # Quest: Trigger: Nano Boots of the Traveller Skip
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.name=触发：跳过纳米旅行者之靴
 betterquesting.quest.5RrDJZBfTligyX8_wR-EDA.desc=
+
+# Quest: Trigger: Runeforged Thaumaturge's Ring
+betterquesting.quest.5_Le4M2pQqGWfQcGHWXE0g.name=Trigger: Runeforged Thaumaturge's Ring
+betterquesting.quest.5_Le4M2pQqGWfQcGHWXE0g.desc=No Description
 
 # Quest: Trigger: Nightvision Goggle Skip
 betterquesting.quest.5bnuPY-USBW37JbkO5VzOw.name=触发：跳过夜视镜
@@ -15192,6 +15416,10 @@ betterquesting.quest.duath_FBQVqyzgYn4PicxA.desc=没有描述
 betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.name=触发：跳过贴片电感
 betterquesting.quest.f9GkFpTbRruEZReIz7sGuA.desc=没有描述
 
+# Quest: Trigger: Division Sigil
+betterquesting.quest.ga66-32nQbOenvN_PQT0JQ.name=Trigger: Division Sigil
+betterquesting.quest.ga66-32nQbOenvN_PQT0JQ.desc=No Description
+
 # Quest: Trigger: Polyphenylene Sulfide Skip
 betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.name=触发：跳过聚苯硫醚
 betterquesting.quest.gg1I91tdRK2us5ETzB2VjA.desc=没有描述
@@ -15227,6 +15455,10 @@ betterquesting.quest.v-EF1CLsQt-AlNOHrXUP6w.desc=没有描述。
 # Quest: Trigger: CN3H7O3 (Purple) Rocket Fuel Skip
 betterquesting.quest.vP1W1MPQTOa4kzbCpQJzOQ.name=触发：跳过CN3H7O3（紫色）火箭燃料
 betterquesting.quest.vP1W1MPQTOa4kzbCpQJzOQ.desc=没有描述。
+
+# Quest: Ice Cream Trophy
+betterquesting.quest.vqM7dr7aT2OPNlwsar3VMA.name=Ice Cream Trophy
+betterquesting.quest.vqM7dr7aT2OPNlwsar3VMA.desc=Ice Cream Trophy
 
 # Quest: Trigger: Oblivion Frame
 betterquesting.quest.xV1gLYpLSoaTs-Fg-3jmdw.name=触发：湮灭框架

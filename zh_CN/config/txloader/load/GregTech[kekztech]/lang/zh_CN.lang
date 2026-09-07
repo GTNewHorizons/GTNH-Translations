@@ -116,9 +116,16 @@ gui.kekztech_lapotronicenergyunit.wireless_rebalance=重新平衡无线电网（
 gui.kekztech_lapotronicenergyunit.warning.header=警告！
 gui.kekztech_lapotronicenergyunit.warning.text=请务必在激活无线模式前仔细阅读并理解提示信息。此操作可能导致您的基地损坏且无法修复。该警告仅显示一次。
 
-kekztech.gui.lapotronic_super_capacitor.text.stored=能量存储：%s EU
-kekztech.gui.lapotronic_super_capacitor.text.avg_eu_in=平均EU输入：%s（最近5秒）
-kekztech.gui.lapotronic_super_capacitor.text.avg_eu_out=平均EU输出：%s（最近5秒）
+kekztech.gui.lapotronic_super_capacitor.total_capacity=总容量：§9%s§f EU
+kekztech.gui.lapotronic_super_capacitor.used_capacity=已用容量：§9%s§f
+kekztech.gui.lapotronic_super_capacitor.text.stored=能量存储：§a%s§f EU
+kekztech.gui.lapotronic_super_capacitor.text.avg_eu_in=平均EU输入：§a%s§f（最近5秒）
+kekztech.gui.lapotronic_super_capacitor.text.avg_eu_out=平均EU输出：§c%s§f（最近5秒）
+kekztech.gui.lapotronic_super_capacitor.passive_loss=被动损耗：§c%s§f EU/t
+kekztech.gui.lapotronic_super_capacitor.wireless_eu=无线EU总量：§d%s§f EU
+kekztech.gui.lapotronic_super_capacitor.time_to.full=预计充满时间：§b%s
+kekztech.gui.lapotronic_super_capacitor.time_to.sth=预计充满/耗尽时间：§b永远
+kekztech.gui.lapotronic_super_capacitor.time_to.empty=预计耗尽时间：§b%s
 
 # -------- Tooltips
 tooltip.kekztech.crafting_component=KekzTech物品的合成组件
@@ -164,3 +171,25 @@ kekztech.infodata.tank.tfft.running_cost=运行成本：%d EU/t
 kekztech.infodata.tank.tfft.auto_voiding=自动销毁：%b
 
 kekztech.structure.glass_incompatible=§c玻璃配置不兼容
+
+kekztech.multiblock.LapotronicSuperCapacitor.machine_type=能量缓存器，LSC
+kekztech.multiblock.LapotronicSuperCapacitor.casing=兰波顿超级电容库机械方块
+kekztech.multiblock.LapotronicSuperCapacitor.capacitor=兰波顿电容
+kekztech.multiblock.LapotronicSuperCapacitor.structure_footer=至少50%电容需要为非空电容
+
+kekztech.multiblock.SOFuelCell.machine_type=燃气轮机，SOFC
+kekztech.multiblock.SOFuelCellMK1.electrolyte_unit=钇锆陶瓷电解质单元
+kekztech.multiblock.SOFuelCellMK2.electrolyte_unit=钆铈陶瓷电解质单元
+
+kekztech.multiblock.TankTFFT.machine_type=流体储罐
+kekztech.multiblock.TankTFFT.multi_io_hatch=TFFT多重输入/输出仓
+kekztech.multiblock.TankTFFT.any_casing_glass_adjacent=任意与存储库方块相邻的机械方块或玻璃
+kekztech.multiblock.TankTFFT.field_storage_block=存储库方块
+kekztech.multiblock.TankTFFT.footer1=不允许留空，但允许混合不同等级的存储库方块
+kekztech.multiblock.TankTFFT.footer2=在多重输入/输出仓上放置流体存储总线，可以直接和所有流体交互
+
+# Multiblocks
+gt.blockmachines.multimachine.fuelcellmk1.name=Solid-Oxide Fuel Cell Mk-I
+gt.blockmachines.multimachine.fuelcellmk2.name=Solid-Oxide Fuel Cell Mk-II
+gt.blockmachines.multimachine.supercapacitor.name=兰波顿超级电容库
+gt.blockmachines.multimachine.tfft.name=TFFT

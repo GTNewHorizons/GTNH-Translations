@@ -60,84 +60,9 @@ GTPP.machines.chisel_slot.tooltip=在此处放置雕刻目标方块
 GTPP.machines.chisel_slot.tooltip.1=$7放入已雕刻方块以指定输出
 GTPP.core.GT_Tooltip=添加者：%s §7- §c[GT++]
 GTPP.core.GT_Tooltip_Builder=%s §7- §c[GT++]
-GTPP.core.GT_Tooltip_Radioactive=§7警告: §a放射性物品! §6 未装备防护服之前避免接触。| 等级：%s
-
-# RecipeMaps
-gtpp.recipe.cokeoven=工业焦炉
-gtpp.recipe.matterfab2=物质发生器
-gtpp.recipe.rocketenginefuel=火箭引擎燃料
-gtpp.recipe.quantumforcesmelter=量子操纵者
-gtpp.recipe.chemicaldehydrator=脱水机
-gtpp.recipe.vacfurnace=真空干燥炉
-gtpp.recipe.alloyblastsmelter=合金冶炼炉
-gtpp.recipe.lftr=液态氟钍反应堆
-gtpp.recipe.lftr.sparging=液态氟钍反应堆气涤
-gtpp.recipe.nuclearsaltprocessingplant=反应堆熔盐加工厂
-gtpp.recipe.oremill=艾萨研磨机
-gtpp.recipe.fissionfuel=反应堆燃料加工厂
-gtpp.recipe.coldtrap=冷阱
-gtpp.recipe.reactorprocessingunit=反应堆处理单元
-gtpp.recipe.simplewasher=简易洗矿池
-gtpp.recipe.moleculartransformer=分子重组仪
-gtpp.recipe.fluidchemicaleactor=化工厂
-gtpp.recipe.RTGgenerators=放射性同位素温差发电机
-gtpp.recipe.thermalgeneratorfuel=地热锅炉
-gtpp.recipe.solartower=太阳能塔
-gtpp.recipe.cyclotron=COMET - 紧凑式回旋加速器
-gtpp.recipe.fishpond=珠海-渔场
-gtpp.recipe.cryogenicfreezer=凛冰冷冻机
-gtpp.recipe.multicentrifuge=工业离心机
-gtpp.recipe.multielectro=工业电解机
-gtpp.recipe.multimixer=工业搅拌机
-gtpp.recipe.multidehydrator=工业脱水机
-gtpp.recipe.semifluidgeneratorfuels=半流质发电机燃料
-gtpp.recipe.flotationcell=工业浮选机
-gtpp.recipe.treefarm=原木拟生场
-gtpp.recipe.algae_pond=藻类池塘
-gtpp.recipe.multiblockrockbreaker=工业碎石机
-
-# Recipe categories
-gtpp.recipe.category.abs_non_alloy_recipes=合金冶炼炉非合金配方
-
-# NEI
-gtpp.nei.lftr.power=功率：%s EU/t 每个动力仓
-gtpp.nei.lftr.dynamo=发电：%s EU
-gtpp.nei.lftr.total=总计：%s EU
-gtpp.nei.milling.not_consumed=加工时不一定消耗
-gtpp.nei.chemplant.tier.1=青铜
-gtpp.nei.chemplant.tier.2=钢
-gtpp.nei.chemplant.tier.3=铝
-gtpp.nei.chemplant.tier.4=不锈钢
-gtpp.nei.chemplant.tier.5=钛
-gtpp.nei.chemplant.tier.6=钨钢
-gtpp.nei.chemplant.tier.7=劳伦姆合金
-gtpp.nei.chemplant.tier.8=博特姆合金
-gtpp.nei.rtg.days=燃烧时间：%s Minecraft Days
-gtpp.nei.solar_tower.1=太阳能加热环增益等级
-gtpp.nei.solar_tower.2=T = 2 ^ (环数 - 1)
-gtpp.nei.solar_tower.3=输入数量 = 1000 x T
-gtpp.nei.tgs.1=树苗不消耗
-gtpp.nei.tgs.2=如果提供%s
-gtpp.nei.tgs.3=则输出树苗
-gtpp.nei.tgs.sapling=如果提供%s则输出树苗
-gtpp.nei.chemical_plant.not_consumed=加工时未必消耗
-gtpp.nei.chemical_plant.higher_tier_casing=更高等级的管道外壳能让此物品使用更持久
-
-gtpp.nei.tgs.tooltip.sapling=放入控制器插槽
-gtpp.nei.tgs.tooltip.saw=放入输入总线以收获原木
-gtpp.nei.tgs.tooltip.needsSaw=需要锯子才能收割
-gtpp.nei.tgs.tooltip.cutter=放入输入总线以收获树苗
-gtpp.nei.tgs.tooltip.needsCutter=需要剪枝器才能收割
-gtpp.nei.tgs.tooltip.shears=放入输入总线以收获树叶
-gtpp.nei.tgs.tooltip.needsShears=需要剪刀才能收割
-gtpp.nei.tgs.tooltip.knife=放入输入总线以收获果实
-gtpp.nei.tgs.tooltip.needsKnife=需要小刀才能收割
-gtpp.nei.tgs.tooltip.multiplier=输出倍数:
-gtpp.nei.tgs.info-1=进一步促进产出
-gtpp.nei.tgs.info-2=按机器电压等级
-gtpp.nei.tgs.info-3=和工具类型
-
-gtpp.nei.ap.tier=藻类池塘等级：%s
+GTPP.core.GT_Tooltip_Radioactive=§7警告: §a放射性物品! 
+GTPP.core.GT_Tooltip_Toxic=§7警告: §2有毒物品! 
+GTPP.core.GT_Tooltip_HazmatWarning=§6未装备防护服之前避免接触。
 
 # Thermal Foundation Stuff
 item.MiscUtils.bucket.bucketPyrotheum.name=烈焰之炽焱桶
@@ -252,7 +177,7 @@ tile.blockCactusCoke.5.name=五重压缩仙人掌焦炭块
 tile.blockSugarCharcoal.name=糖炭块
 tile.blockSugarCharcoal.0.name=糖炭块
 tile.blockSugarCharcoal.1.name=压缩糖炭块
-tile.blockSugarCharcoal.2.name=双重压缩仙人糖炭块
+tile.blockSugarCharcoal.2.name=双重压缩糖炭块
 tile.blockSugarCharcoal.3.name=三重压缩糖炭块
 tile.blockSugarCharcoal.4.name=四重压缩糖炭块
 tile.blockSugarCharcoal.5.name=五重压缩糖炭块
@@ -304,10 +229,6 @@ item.backpackSilver.name=银色背包
 item.backpackGray.name=灰色背包
 item.backpackBlack.name=黑色背包
 item.backpackWhite.name=白色背包
-item.itemBlueprint.name=蓝图[无用]
-item.itemBlueprint.tooltip.0=%d号技术文档
-item.itemBlueprint.tooltip.1=当前为%s的蓝图
-item.itemBlueprint.tooltip.2=当前蓝图并未对应任意一种结构
 item.itemGemShards.0.name=钻石碎片
 item.itemGemShards.1.name=绿宝石碎片
 item.itemGemShards.2.name=红宝石碎片
@@ -3483,7 +3404,6 @@ item.itemCellSeleniumDioxide.name=二氧化硒单元
 item.itemCellSeleniousAcid.name=亚硒酸单元
 
 # Added 15/8/19
-gtpp.nei.decayables=可衰变箱子(铅封盒)
 entity.batKing.name=蝙蝠之王
 item.itemCellCarbyne.name=直链乙炔碳单元
 item.itemCellHydrogenCyanide.name=氢氰酸单元
@@ -3612,8 +3532,6 @@ item.BasicAgrichemItem.23.name=洁净铝混合物
 # Added 12/12/19
 
 item.BasicGenericChemItem.name=金属催化剂
-item.BasicGenericChemItem.0.name=红色金属催化剂
-item.BasicGenericChemItem.1.name=黄色金属催化剂
 item.BasicGenericChemItem.2.name=蓝色金属催化剂
 item.BasicGenericChemItem.3.name=橙色金属催化剂
 item.BasicGenericChemItem.4.name=紫色金属催化剂
@@ -3895,7 +3813,7 @@ item.BasicGenericChemItem.14.name=固体酸催化剂
 item.BasicGenericChemItem.15.name=无尽突变催化剂
 
 # Added 23/10/22
-miscutils.machines.QFTFluidMode=量子操纵者流体输出模式
+miscutils.machines.QFTFluidMode=量子操纵者流体输出模式：%s
 
 # Added 16/11/22
 item.BasicGenericChemItem.16.name=铂系金属催化剂
@@ -4007,7 +3925,7 @@ gtpp.infodata.pollution_creator.pollution=当前污染：%d
 gtpp.infodata.pollution_creator.pollution.avg=平均/10分钟：%d
 gtpp.infodata.pollution_detector.pollution.avg=平均/10秒：%d
 gtpp.infodata.pollution_detector.redstone_level=污染等级达到%d时发射红石信号
-gtpp.infodata.adv_fusion.name=聚变反应堆 MK-%s
+gtpp.infodata.adv_fusion.name=聚变反应堆 Mk-%s
 gtpp.infodata.adv_fusion.eu_required=EU要求：%dEU/t
 gtpp.infodata.adv_fusion.stored_eu=存储EU：%d/%d
 gtpp.infodata.adv_fusion.plasma_output=等离子体输出：%dL/t
@@ -4058,6 +3976,8 @@ gtpp.gui.multiblock.eu_t_p.text=%s EU/t/并行
 gtpp.gui.multiblock.duration.text=持续时间：%s ticks
 gtpp.gui.multiblock.max_voltage.txt=%s EU/t(*2A) 等级：%s
 gtpp.gui.multiblock.pollution.txt=污染：%s/秒
+gtpp.gui.atmospheric_reconditioner.slot.conveyor=传送带槽
+gtpp.gui.atmospheric_reconditioner.slot.conveyor.1=§7放入一个相同等级的传送带以启用自动化
 
 gtpp.chat.wireless_charger.mode_change=目前在%s %s。
 gtpp.chat.wireless_charger.mode_info=当前：%s %s
@@ -4071,6 +3991,9 @@ gtpp.chat.wireless_charger.lock=已锁定给所有者
 gtpp.chat.wireless_charger.unlock=已解锁
 gtpp.chat.wireless_charger.enter=你已进入充电范围。[%s 米 - %s]
 gtpp.chat.wireless_charger.leave=您已离开充电范围。[%s 米 - %s]
+gtpp.chat.atmospheric_reconditioner.efficiency=机器模式已模式设为%s
+gtpp.chat.atmospheric_reconditioner.efficiency.low=低效
+gtpp.chat.atmospheric_reconditioner.efficiency.high=高效
 
 gtpp.book.modular_baubles.name=模块化饰品手册
 gtpp.book.modular_baubles.page00=概念：这个想法源于对灵活性的追求。\n第一步，制作一个模块化工作台，开始定制你的饰品。\n制作完成后，你就可以将本书中列出的升级组件组合起来，提升饰品的等级/100。
@@ -4153,7 +4076,7 @@ gtplusplus.blockcasings.3.8.name=钒氧化还原能量单元（UHV）
 gtplusplus.blockcasings.3.9.name=仓库机械方块
 gtplusplus.blockcasings.3.10.name=进阶凛冰机械方块
 gtplusplus.blockcasings.3.11.name=炽焱高炉机械方块
-gtplusplus.blockcasings.3.12.name=聚变机械方块 MK-III
+gtplusplus.blockcasings.3.12.name=聚变机械方块 Mk-III
 gtplusplus.blockcasings.3.13.name=进阶聚变线圈
 gtplusplus.blockcasings.3.14.name=未命名
 gtplusplus.blockcasings.3.15.name=抑制机械方块
@@ -4180,17 +4103,9 @@ gtplusplus.blockcasings.5.13.name=无尽强化屏蔽核心方块
 gtplusplus.blockcasings.5.14.name=时空扭曲核心方块
 gtplusplus.blockcasings.5.15.name=力场玻璃
 
-gtplusplus.blockcasings.6.0.name=聚变机械方块 MK-IV
+gtplusplus.blockcasings.6.0.name=聚变机械方块 Mk-IV
 gtplusplus.blockcasings.6.1.name=进阶聚变线圈 II
 
-gtplusplus.blockcasings.pipesgears.0.name=埃格林钢齿轮箱机械方块
-gtplusplus.blockcasings.pipesgears.1.name=镍铬基合金-792齿轮箱机械方块
-gtplusplus.blockcasings.pipesgears.2.name=耐热铬铁合金-MA956齿轮箱机械方块
-gtplusplus.blockcasings.pipesgears.3.name=镍钛诺60齿轮箱机械方块
-gtplusplus.blockcasings.pipesgears.4.name=塞龙-100齿轮箱机械方块
-gtplusplus.blockcasings.pipesgears.5.name=皮卡优合金齿轮箱机械方块
-gtplusplus.blockcasings.pipesgears.6.name=泰坦精钢齿轮箱机械方块
-gtplusplus.blockcasings.pipesgears.7.name=深渊合金齿轮箱机械方块
 gtplusplus.blockcasings.pipesgears.8.name=巴氏合金管道方块
 gtplusplus.blockcasings.pipesgears.9.name=镍铬基合金-690管道方块
 gtplusplus.blockcasings.pipesgears.10.name=铬钴锰钛合金管道方块
@@ -4250,3 +4165,86 @@ gtplusplus.blocktieredcasings.1.6.name=基本框架 II
 gtplusplus.blocktieredcasings.1.7.name=基本框架 III
 gtplusplus.blocktieredcasings.1.8.name=基本框架 IV
 gtplusplus.blocktieredcasings.1.9.name=基本框架 V
+
+# Multiblocks
+gt.blockmachines.chemicalplant.controller.tier.single.name=埃克森美孚化工厂
+gt.blockmachines.cyclotron.tier.single.name=COMET - Compact Cyclotron
+gt.blockmachines.fusioncomputer.tier.09.name=FusionTech Mk-IV
+gt.blockmachines.fusioncomputer.tier.10.name=FusionTech Mk-V
+gt.blockmachines.gtplusplus.autocrafter.multi.name=Large Scale Auto-Assembler v1.01
+gt.blockmachines.gtpp.multimachine.isamill.name=IsaMill Grinding Machine
+gt.blockmachines.gtpp.multimachine.replicator.name=Elemental Duplicator
+gt.blockmachines.gtpp.multimachine.rocketengine.name=Rocketdyne F-1A Engine
+gt.blockmachines.gtpp.multimachine.semifluidgenerator.name=Large Semifluid Burner
+gt.blockmachines.industrialalloysmelter.controller.tier.single.name=Zyngen
+gt.blockmachines.industrialfluidheater.controller.tier.single.name=Thermic Heating Device
+gt.blockmachines.industrialmassfab.controller.tier.single.name=Matter Fabrication CPU
+gt.blockmachines.industrialplatepress.controller.tier.single.name=Industrial Material Press
+gt.blockmachines.industrialrefinery.controller.tier.single.name=Reactor Fuel Processing Plant
+gt.blockmachines.industrialsalloyamelter.controller.tier.mega.name=Mega Alloy Blast Smelter
+gt.blockmachines.industrialsalloyamelter.controller.tier.single.name=Alloy Blast Smelter
+gt.blockmachines.industrialwashplant.controller.tier.single.name=Ore Washing Plant
+gt.blockmachines.lftr.controller.single.name=Liquid Fluoride Thorium Reactor
+gt.blockmachines.multimachine.adv.blastfurnace.name=Volcanus
+gt.blockmachines.multimachine.adv.distillationtower.name=Dangote Distillus
+gt.blockmachines.multimachine.adv.vacuumfurnace.name=Utupu-Tanuri
+gt.blockmachines.multimachine.reallybigheatexchanger.name=Whakawhiti Wera XL
+gt.blockmachines.nuclearsaltprocessingplant.controller.tier.single.name=Nuclear Salt Processing Plant
+gt.blockmachines.quantumforcetransformer.controller.tier.single.name=量子操纵者
+gt.blockmachines.solartower.controller.tier.single.name=Solar Tower
+gt.blockmachines.sparge.controller.single.name=Sparge Tower Controller
+gt.blockmachines.substation.01.input.single.name=Power Station Control Node
+# Machine names
+gt.blockmachines.hatch.dynamo.buffer.name=%s Dynamo Hatch [Buffered]
+gt.blockmachines.hatch.muffler.adv.name=Advanced Muffler Hatch (%s)
+gt.blockmachines.muffler_advanced.filter.desc=Requires an Air Filter
+gt.blockmachines.muffler_advanced.filter_tier2.desc=Requires an Air Filter %s
+gt.blockmachines.muffler_advanced.desc=Outputs pollution from a multiblock\nDO NOT OBSTRUCT THE OUTPUT!\nRequires 3 Air Blocks in front of the exhaust face\n%1$s\nCan take Air Filters from an input bus of the multiblock\nReduces Pollution to %2$s%%
+gt.blockmachines.energybuffer.name=%1$s Energy Buffer
+gt.blockmachines.energybuffer.desc=Defaults 4A In/Out\nChange output Amperage with a screwdriver\nNow Portable!
+gt.blockmachines.hatch.superbus.input.name=Super Bus (I) (%s)
+gt.blockmachines.hatch.superbus.output.name=Super Bus (O) (%s)
+gt.blockmachines.wificharger.name=Wireless Charger Mk-%s
+gt.blockmachines.hatch.solidifier.name=Solidifier Hatch %s
+gt.blockmachines.hatch.extrusion.name=Extrusion Bus %s
+gt.blockmachines.hatch.chisel.name=Chisel Bus %s
+gt.blockmachines.fluidtank.name=%2$s Fluid Tank
+gt.blockmachines.pollutioncleaner.02.tier.single.name=Upgraded Pollution Scrubber
+gt.blockmachines.pollutioncleaner.03.tier.single.name=Advanced Pollution Scrubber
+gt.blockmachines.pollutioncleaner.04.tier.single.name=Precision Pollution Scrubber
+gt.blockmachines.pollutioncleaner.05.tier.single.name=Air Recycler
+gt.blockmachines.pollutioncleaner.06.tier.single.name=Upgraded Air Recycler
+gt.blockmachines.pollutioncleaner.07.tier.single.name=Advanced Air Recycler
+gt.blockmachines.pollutioncleaner.08.tier.single.name=Precision Air Recycler
+gt.blockmachines.pollutioncleaner.09.tier.single.name=Atmospheric Cleaner
+gt.blockmachines.pollutioncleaner.10.tier.single.name=Biosphere Cleanser
+gt.blockmachines.pollutioncleaner.desc=Making sure you don't live in Gwalior - Uses 2A\nRequires a turbine rotor and an Air Filter [T1/T2] to run.\nThe turbine rotor must be manually inserted/replaced\nCan be configured with a soldering iron to change modes\nLow Efficiency: Removes half pollution, Turbine takes 50% dmg\nHigh Efficiency: Removes full pollution, Turbine takes 100% dmg\nTurbine Rotor will not break in LE mode\nInsert an equal tier Conveyor Module to enable automation
+gt.blockmachines.pollutioncleaner.chunks.desc=Making sure you don't live in Gwalior - Uses 2A\nWill attempt to remove 1/4 pollution from 8 surrounding chunks\nIf these chunks are not loaded, they will be ignored\nRequires a turbine rotor and an Air Filter [T1/T2] to run.\nThe turbine rotor must be manually inserted/replaced\nCan be configured with a soldering iron to change modes\nLow Efficiency: Removes half pollution, Turbine takes 50% dmg\nHigh Efficiency: Removes full pollution, Turbine takes 100% dmg\nTurbine Rotor will not break in LE mode\nInsert an equal tier Conveyor Module to enable automation
+
+gt.blockmachines.advancedgenerator.geothermalfuel.tier.01.name=Basic Geothermal Engine
+gt.blockmachines.advancedgenerator.geothermalfuel.tier.02.name=Turbo Geothermal Engine
+gt.blockmachines.advancedgenerator.geothermalfuel.tier.03.name=Vulcan Geothermal Engine
+gt.blockmachines.advancedgenerator.rocketfuel.tier.01.name=Basic Rocket Engine
+gt.blockmachines.advancedgenerator.rocketfuel.tier.02.name=Advanced Rocket Engine
+gt.blockmachines.advancedgenerator.rocketfuel.tier.03.name=Turbo Rocket Engine
+gt.blockmachines.basicgenerator.semifluid.tier.01.name=Basic Semifluid Generator
+gt.blockmachines.basicgenerator.semifluid.tier.02.name=Advanced Semifluid Generator
+gt.blockmachines.basicgenerator.semifluid.tier.03.name=Turbo Semifluid Generator
+gt.blockmachines.basicgenerator.semifluid.tier.04.name=Turbo Semifluid Generator II
+gt.blockmachines.basicgenerator.semifluid.tier.05.name=Turbo Semifluid Generator III
+gt.blockmachines.chisel.tier.01.name=Basic Auto-Chisel
+gt.blockmachines.chisel.tier.02.name=Advanced Auto-Chisel
+gt.blockmachines.chisel.tier.03.name=Precision Auto-Chisel
+gt.blockmachines.hatch.cryotheum.input.tier.00.name=Cryotheum Cooling Hatch
+gt.blockmachines.hatch.pyrotheum.input.tier.00.name=Pyrotheum Heating Hatch
+gt.blockmachines.hatch.steam.input.debug.name=Debug Steam Hatch
+gt.blockmachines.hatch.steam.input.tier.00.name=Steam Hatch
+gt.blockmachines.chisel.desc=Chisels things, Gregtech style\nWhat you want to chisel goes in slot 1\nWhat you want to get goes in the special slot (bottom right)\nIf special slot is empty, first chisel result is used
+gt.blockmachines.basicgenerator.semifluid.desc=Requires semifluid Fuel\nProduces %1$s pollution/sec\nFuel Efficiency: %2$s%%
+gt.blockmachines.advancedgenerator.geothermalfuel.desc=Requires Pahoehoe Lava or Normal Lava as Fuel\nGenerates power at %1$s%% Efficiency per tick\nCauses %2$s Pollution per second
+gt.blockmachines.advancedgenerator.rocketfuel.desc=Requires GT++ Rocket Fuels\nFuel Efficiency: %1$s%%\nCauses between %2$s and %3$s Pollution per second
+gt.blockmachines.hatch.extrusion.machine=Extrusion Machine
+gt.blockmachines.hatch.extrusion.desc=Input Bus with Mold for %1$s\nCapacity: %2$s Slots\nAdded by: %3$s
+gt.blockmachines.hatch.custom_fluid.desc=Fluid Input for Multiblocks\nCapacity: %1$sL\nAccepted Fluid: %2$s
+gt.blockmachines.hatch.custom_fluid.steam.desc=Fluid Input for Steam Multiblocks\nCapacity: %1$sL\nAccepted Fluid: %2$s
+gt.blockmachines.hatch.custom_fluid.empty=Empty

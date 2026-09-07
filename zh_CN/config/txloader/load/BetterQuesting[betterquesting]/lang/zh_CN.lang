@@ -25,6 +25,22 @@ betterquesting.title.choose_image.dst=选择目标
 betterquesting.title.choose_image_swing=请在打开的文件选择器中选择图片
 betterquesting.title.valid_items=有效物品
 
+betterquesting.editor.macro.select_image=§2§nSelect Image§r
+betterquesting.editor.macro.image=§2§nImage§r
+betterquesting.editor.macro.hyperlink=§9§nHyperlink§r
+betterquesting.editor.macro.warning=§4§lWarning§r
+betterquesting.editor.macro.note=§3Note§r
+betterquesting.editor.macro.quest_title=§2§nQuest Title§r
+betterquesting.editor.macro.quest_link=Quest Link
+betterquesting.editor.action.hex_color=§cHex Color§r
+betterquesting.editor.action.rainbow=§qRainbow§r
+betterquesting.editor.action.wave=§6Wave§r
+betterquesting.editor.action.flip=§5Flip§r
+betterquesting.editor.action.gradient=§bGradient§r
+betterquesting.editor.action.clear_format=Clear Format
+betterquesting.editor.color_picker.hex=Hex Color
+betterquesting.editor.color_picker.gradient=Gradient
+
 betterquesting.btn.rewards=任务奖励
 betterquesting.btn.tasks=任务目标
 betterquesting.btn.advanced=全局设置
@@ -59,6 +75,7 @@ betterquesting.btn.claim_all=领取所有奖励
 betterquesting.btn.claim_all_detailed=§7Shift点击时总会弹出确认框
 betterquesting.btn.zoom_fit=缩放至适应屏幕
 betterquesting.btn.lock_tray=锁定弹出栏
+betterquesting.btn.hide_locked_quest_lines=Hide Locked Quest Lines
 betterquesting.btn.view_mode=浏览模式
 betterquesting.btn.always_draw_implicit=始终显示隐藏前置任务
 betterquesting.btn.prereq_visbility.normal=默认
@@ -129,6 +146,8 @@ betterquesting.tooltip.repeat_with_edit_mode=编辑模式已启用，可重复�
 betterquesting.tooltip.update_quests=更新可用!%n§7新任务线版本可用.%n单击此处可安装并迁移进度.
 betterquesting.tooltip.cycle.true=点击禁用
 betterquesting.tooltip.cycle.false=点击启用
+betterquesting.tooltip.lock_tray.true=Click to unlock tray
+betterquesting.tooltip.lock_tray.false=Click to lock tray
 betterquesting.tooltip.image_file_type=图片
 betterquesting.tooltip.popup_valid_items=Shift左键查看有效物品
 
@@ -159,6 +178,7 @@ item.betterquesting.extra_life.full.name=额外生命
 item.betterquesting.extra_life.half.name=1/2颗心
 item.betterquesting.extra_life.quarter.name=1/4颗心
 item.betterquesting.guide.name=入门指南
+item.betterquesting.pattern_placeholder.name=Pattern Placeholder
 
 tile.betterquesting.submit_station.name=提交站（OSS）
 tile.betterquesting.observation_station.name=观测站（OOS）

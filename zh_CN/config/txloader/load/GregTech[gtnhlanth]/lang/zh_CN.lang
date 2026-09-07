@@ -6,74 +6,41 @@ gtnhlanth.recipe.sc=束流源室
 
 gtnhlanth.tt.beaminfo=使用§b便携式扫描仪§7右键来获取多方块输入输出信息
 gtnhlanth.tt.blueprint=请参考§9Structure§2Lib§7全息投影，构建主体结构
-gtnhlanth.tt.pc=§6部分消耗：§7在工作中损耗耐久
 
 gtnhlanth.tt.hintNumber=提示方块[%s]
 
 # Digester
 gtnhlanth.tt.digester.machinetype=煮解池
-gtnhlanth.tt.digester.info1=输入矿石和流体，输出水
+gtnhlanth.tt.digester.structure.any_casing=任意强化钨钢机械方块
+gtnhlanth.tt.digester.structure.air=结构内部和顶部
+gtnhlanth.tt.disstank.structure.any_casing=任意洁净不锈钢机械方块
+gtnhlanth.tt.linac.structure.hatch_pos=底层边缘，距正面3-8格
+gtnhlanth.tt.linac.structure.input_hatch_pos=顶部从正面起第8格
+gtnhlanth.tt.linac.structure.output_hatch_pos=顶部从背面起第8格
+gtnhlanth.tt.sc.structure.output_pos=控制器后
+gtnhlanth.tt.synch.structure.antenna_casing=天线机械方块
+gtnhlanth.tt.synch.structure.energy_pos=每个天线方块之上
+gtnhlanth.tt.synch.structure.input_hatch_pos=能源仓之间
+gtnhlanth.tt.synch.structure.output_hatch_pos=输入仓对侧
+gtnhlanth.tt.synch.structure.beam_input_pos=控制器左侧
+gtnhlanth.tt.synch.structure.beam_output_pos=控制器右后侧
+gtnhlanth.tt.tc.structure.input_bus_pos=顶面中央，从正面起第二格（掩膜）从背面起第二格（晶圆）
 
 # Dissolution Tank
 gtnhlanth.tt.disstank.machinetype=溶解罐
-gtnhlanth.tt.disstank.info1=输入水与流体，输出流体
-gtnhlanth.tt.disstank.info2=流体必须按照在NEI中列出的精确比例输入
 
 # Source Chamber
 gtnhlanth.tt.sc.machinetype=粒子源
-gtnhlanth.tt.sc.info1=使用特定的§d粒子源材料§7产生粒子束流
-gtnhlanth.tt.sc.info2=NEI显示§d粒子源材料§7列表及属性
-gtnhlanth.tt.sc.info3=所有配方持续时间均为1秒，产出1个束流包
-gtnhlanth.tt.sc.info4=在§3需求EU/t§7之上，提高输入功率会能量渐进地接近§d最大材料能量
-gtnhlanth.tt.sc.info5=粒子束流具有§5类型§7、§9能量§7、§2聚焦§7和§6通量
-gtnhlanth.tt.sc.info6=§5类型§7决定电荷、静质量和§9最大粒子能量
-gtnhlanth.tt.sc.info7=§9能量§7代表粒子束流携带的能量，单位为电子伏特（eV）
-gtnhlanth.tt.sc.info8=§2聚焦§7代表粒子束流的宽度
-gtnhlanth.tt.sc.info9=§6通量§7代表粒子束流中每包的粒子数量
-gtnhlanth.tt.sc.info10=§9输出束流能量§f = min(§9最大粒子能量§7, §eaeV§f)
-gtnhlanth.tt.sc.info11=其中 §eaeV§f = §d最大材料能量§f * (1 - 1.001^(§9-能量比率§f × (§3提供的 EU/t§f - §3需求的 EU/t§f)))
 gtnhlanth.tt.sc.input=§c需要1个输入总线或1个输入仓
 
 # Linear Accelerator
 gtnhlanth.tt.linac.machinetype=粒子加速器，LINAC
-gtnhlanth.tt.linac.info1=通过电场加速粒子束，使其获得更高能量
-gtnhlanth.tt.linac.info2=因此电中性§5粒子§7不受影响
-gtnhlanth.tt.linac.info3=运行需要消耗§f长度 * 1,000 %s/s§7的§b冷却剂§7，并返回§c热冷却剂
-gtnhlanth.tt.linac.info4=增加结构长度/能量输入会提升§9输出束流能量§7，但会降低§2输出束流聚焦
-gtnhlanth.tt.linac.info5=使用温度更低的§b冷却液§7能降低§2束流聚焦§7的损耗
-gtnhlanth.tt.linac.info6=§9输出束流能量§f = max(§eV§f， 50) * 10^§eIE
-gtnhlanth.tt.linac.info7=其中 §eV§f = 0.25 * (长度 - 1) * cbrt(§3输入电压§f)
-gtnhlanth.tt.linac.info8=且 §eIE§f = 1 + min(§9输入束流能量§f, 7500) / §9最大粒子能量
-gtnhlanth.tt.linac.info9=若 §2输入束流聚焦§f > §e机器聚焦度§f，则 §2输出束流聚焦§f = (§2输入束流聚焦§f + §e机器聚焦度§f) / 2
-gtnhlanth.tt.linac.info10=若 §2输入束流聚焦§f ≤ §e机器聚焦度§f，则 §2输出束流聚焦§f = §2输入束流聚焦§f * §e机器聚焦度§f / 100
-gtnhlanth.tt.linac.info11=其中§e机器聚焦度§f = min(90, max(5, (-0.9 * (长度-1) * 1.1^(0.2 * §b冷却剂温度§f) + 110)))
 
 # Synchrotron
 gtnhlanth.tt.synch.machinetype=粒子加速器
-gtnhlanth.tt.synch.info1=加速粒子束流，以使其通过相对论性拉莫尔效应产生光子束流
-gtnhlanth.tt.synch.info2=因此电中性§5粒子§7和§2聚焦§7低于25的束流不受影响
-gtnhlanth.tt.synch.info3=运行需要消耗§f 32,000 %s/s §7的§b冷却剂§7，并返回§c热冷却剂
-gtnhlanth.tt.synch.info4=提升功率可提升§6输出束流通量
-gtnhlanth.tt.synch.info5=使用温度更低的§b冷却液§7能降低§2束流聚焦§7的损耗
-gtnhlanth.tt.synch.info6=升级§d天线机械方块§7的等级以提升机器性能
-gtnhlanth.tt.synch.info7=以下公式中的所有§9能量§7单位必须为千电子伏特（keV）
-gtnhlanth.tt.synch.info8=§9输出束流能量§f = §eIR §f* §e功率系数
-gtnhlanth.tt.synch.info9=其中 §eIR §f = (§9输入束流能量§f)^(1.13 * (§d天线等级§f)^(4/9)) / 40,000,000
-gtnhlanth.tt.synch.info10=且 §e功率系数§f = 1 - 0.15^(§3总输入EU/t§f / (30,384 * (§d天线等级§f)^2.5))
-gtnhlanth.tt.synch.info11=若 §2输入束流聚焦§f > §e机器聚焦§7，则 §2输出束流聚焦§f = (§2输入束流聚焦§f + §e机器聚焦§f) / 2.5
-gtnhlanth.tt.synch.info12=若 §2输入束流聚焦§f ≤ §e机器聚焦度§f，则 §2输出束流聚焦§f = §2输入束流聚焦§f * §e机器聚焦度§f / 100
-gtnhlanth.tt.synch.info13=其中 §e机器聚焦§f = max(10, min(90, 1.5^(12 - §b冷却剂温度§f/40)))
-gtnhlanth.tt.synch.info14=§6输出束流通量§f = floor( 2.5^(§d天线等级§f) * sqrt(§3总输入EU/t§f) * §6输入束流通量§f / 15,000)
 
 # Target Chamber
 gtnhlanth.tt.tc.machinetype=对撞靶室
-gtnhlanth.tt.tc.info1=使用光子束和特定§d掩模§7或模板在晶圆上刻印电路
-gtnhlanth.tt.tc.info2=刻印配方具有其需求的§9束流能量§7范围，
-gtnhlanth.tt.tc.info3=最低§2束流聚焦§7、最低§6束流通量§7以及最低§3EU/t需求
-gtnhlanth.tt.tc.info4=§d掩膜§7的耐久度有限，每次刻印减少1点
-gtnhlanth.tt.tc.info5=处理速度仅由§6束流通量§7决定，无关§3提供的EU/t
-gtnhlanth.tt.tc.info6=§f处理时间 = 5 秒 * §6所需最低通量§f / §6输入束流通量
-gtnhlanth.tt.tc.info7=每tick最多可处理的总量，取决于所有同种§d掩模§7的耐久度之和
 
 # Beam Coolant
 gtnhlanth.tt.coolant.oxygen=§b液氧§f：90K
@@ -96,6 +63,7 @@ GT5U.gui.text.shutdown_reason.gtnhlanth.inputinterrupt=输入束流不得中断�
 GT5U.gui.text.recipe_result.dissolution_ratio=§7流体输入比例错误！
 GT5U.gui.text.recipe_result.gtnhlanth.wrongparticle=不正确的粒子!
 GT5U.gui.text.recipe_result.gtnhlanth.toolowenergy=低于所需能量！
+GT5U.gui.text.recipe_result.gtnhlanth.toohighenergy=超出所需能量！
 GT5U.gui.text.shutdown_reason.gtnhlanth.noparticle=粒子缺失（通量为0）！
 
 # NEI
@@ -221,3 +189,11 @@ tooltip.gtnhlanth.particle.rest_mass=静止质量：%f MeV
 tooltip.gtnhlanth.particle.charge=电荷：%s e
 tooltip.gtnhlanth.photomask.desc_spectrum=适用于电磁波谱的%s段及更低频段
 tooltip.gtnhlanth.photomask.max_uses=最大使用次数：%d
+
+# Multiblocks
+gt.blockmachines.digester.name=煮解池
+gt.blockmachines.dissolution_tank.name=溶解罐
+gt.blockmachines.linear_accelerator.name=线性加速器
+gt.blockmachines.source_chamber.name=束流源室
+gt.blockmachines.synchrotron.name=同步加速器
+gt.blockmachines.target_chamber.name=束流靶室

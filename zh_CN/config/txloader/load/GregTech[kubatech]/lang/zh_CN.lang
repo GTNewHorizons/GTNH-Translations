@@ -115,6 +115,10 @@ kubatech.gui.text.electrode_detector.percentage=§8耐久度百分比
 kubatech.chat.forbidden_while_running=无法在运行时更改模式！
 kubatech.chat.mode.generic=当前运行模式：%s
 
+kubatech.arcfurnace.mode.normal=普通
+kubatech.arcfurnace.mode.blast=高炉
+kubatech.arcfurnace.mode.ore=矿石
+
 kubatech.chat.eec.ritual_mode_enabled=苦难之井模式已启用
 kubatech.chat.eec.ritual_mode_disabled=苦难之井模式已关闭
 kubatech.chat.eec.ritual_mode_connected=已成功连接到仪式
@@ -241,18 +245,18 @@ item.arc_furnace_electrode.tip.speed=速度: %s
 item.arc_furnace_electrode.tip.parallel_limit=并行：%s
 item.arc_furnace_electrode.tip.parallel_limit_none=无
 item.arc_furnace_electrode.tip.oc=超频系数：%s%s
-item.arc_furnace_electrode.tip.amperage_per_parallel=每并行电流：%s
-item.arc_furnace_electrode.tip.startup_surge=涌流能量：%s
-item.arc_furnace_electrode.tip.startup_amperage=启动电流：%sA（%sx 64A仓）
+item.arc_furnace_electrode.tip.eu_modifier=EU Modifier: %s
+item.arc_furnace_electrode.tip.startup_penalty=启动涌流惩罚：%s
+item.arc_furnace_electrode.tip.startup_amperage=启动电流：%sA
 
 item.arc_furnace_electrode.tip.special_effect.GraphiteElectrode=§6§l面包与黄油§r§6：无启动涌流惩罚
 item.arc_furnace_electrode.tip.special_effect.GrapheneElectrode=§6§l面包与黄油§r§6：无启动涌流惩罚
 item.arc_furnace_electrode.tip.special_effect.YBCOElectrode=§6§l快速氧化§r§6：每级超频使耐久消耗增加100%
 item.arc_furnace_electrode.tip.special_effect.NetheriteElectrode=§6§l热重启§r§6：无关机冷却时间。若停机不足4秒，则完全跳过启动流程
 item.arc_furnace_electrode.tip.special_effect.InfinityElectrode=§6§l迈向无尽！§r§6：每次成功处理，翻倍并行数量，直到跳电或机器停机（无论提供多少物品，电力消耗均按理论并行数计算）
-item.arc_furnace_electrode.tip.special_effect.NeutroniumNaniteElectrode=§6§l纳米蜂群修复§r§6：在输入总线中提供电极材料对应粉可在每个配方执行时有70%几率自我修复
-item.arc_furnace_electrode.tip.special_effect.TranscendentNaniteElectrode=§6§l纳米蜂群维护§r§6：在输入总线提供电极材料对应粉时，有90%几率在每个配方执行时自我修复
-item.arc_furnace_electrode.tip.special_effect.UniversiumNaniteElectrode=§6§l纳米蜂群复原§r§6：在输入总线中提供电极材料对应粉可完全修复电极
+item.arc_furnace_electrode.tip.special_effect.NeutroniumNaniteElectrode=§6§l纳米蜂群修复§r§6：（可选）每次工作消耗1个中子粉并以70%概率不消耗耐久
+item.arc_furnace_electrode.tip.special_effect.TranscendentNaniteElectrode=§6§l纳米蜂群维护§r§6：（可选）每次工作消耗1个超时空金属粉以回复1耐久
+item.arc_furnace_electrode.tip.special_effect.UniversiumNaniteElectrode=§6§l纳米蜂群复原§r§6：（可选）每次工作时消耗1个宇宙素粉以完全修复电极
 
 #Tea
 kubaitem.tea.black_tea.name=红茶
@@ -349,3 +353,41 @@ defc.casing.9.name=龙聚合机械方块
 defc.casing.10.name=双足飞龙聚合机械方块
 defc.casing.11.name=觉醒龙聚合机械方块
 defc.casing.12.name=混沌聚合机械方块
+
+kubatech.multiblock.DEFusionCrafter.machine_type=Fusion Crafter, DEFC
+kubatech.multiblock.DEFusionCrafter.fusion_casing=Fusion Casing
+kubatech.multiblock.DEFusionCrafter.fusion_machine_casing=Fusion Machine Casing
+kubatech.multiblock.DEFusionCrafter.footer=§cThe primordial pearl is consumed in the controller recipe!
+
+kubatech.multiblock.ExtremeEntityCrusher.machine_type=Powered Spawner, EEC
+kubatech.multiblock.ExtremeEntityCrusher.steel_frame_box=Steel Frame Box
+kubatech.multiblock.ExtremeEntityCrusher.diamond_spike=Diamond Spike
+
+kubatech.multiblock.ExtremeIndustrialGreenhouse.machine_type=Crop Farm, EIG
+kubatech.multiblock.ExtremeIndustrialGreenhouse.sterile_farm_casing=Sterile Farm Casing
+kubatech.multiblock.ExtremeIndustrialGreenhouse.frame_box=Tungstensteel Frame Box
+kubatech.multiblock.ExtremeIndustrialGreenhouse.fertilized_dirt=Fertilized Dirt (RandomThings)
+kubatech.multiblock.ExtremeIndustrialGreenhouse.purple_lamp=Purple Lamp (ProjectRed Illumination, regular or inverted)
+kubatech.multiblock.ExtremeIndustrialGreenhouse.footer=The dirt is tilled and the water is spawned for free once formed
+
+
+kubatech.multiblock.MegaIndustrialApiary.machine_type=Mega Apiary, Mapiary
+kubatech.multiblock.MegaIndustrialApiary.dirt_or_grass=Dirt or Grass
+kubatech.multiblock.MegaIndustrialApiary.wood_plank=Wood Plank
+kubatech.multiblock.MegaIndustrialApiary.water=Water
+kubatech.multiblock.MegaIndustrialApiary.alveary_fan=Alveary Fan
+kubatech.multiblock.MegaIndustrialApiary.alveary_heater=Alveary Heater
+kubatech.multiblock.MegaIndustrialApiary.alveary_hygroregulator=Alveary Hygroregulator
+kubatech.multiblock.MegaIndustrialApiary.alveary=Alveary
+kubatech.multiblock.MegaIndustrialApiary.alveary_stabiliser=Alveary Stabiliser
+kubatech.multiblock.MegaIndustrialApiary.apiary=Apiary
+kubatech.multiblock.MegaIndustrialApiary.wood_slab=Wood Slab
+kubatech.multiblock.MegaIndustrialApiary.flower=Flower (depends on bee)
+kubatech.multiblock.MegaIndustrialApiary.any_casing_luv=Any casing (LuV+)
+kubatech.multiblock.MegaIndustrialApiary.footer=Use regular or distilled water, place manually
+
+# Multiblocks
+gt.blockmachines.htgr.name=高温气冷反应堆
+gt.blockmachines.industrialarcfurnace.controller.tier.single.name=Industrial Arc Furnace
+gt.blockmachines.multimachine.defusioncrafter.name=龙研聚合装置
+gt.blockmachines.multimachine.extremegreenhouse.name=极限工业温室

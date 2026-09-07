@@ -38,6 +38,7 @@ item.cropsnh:goldfish.name=金鱼草
 item.cropsnh:berry.huckle.name=黑木果
 item.cropsnh:berry.sugarbeet.name=甜菜
 item.cropsnh:berry.maxTomato.name=大型番茄
+item.cropsnh:materialLeaf.error.name=§c[ERROR]§r未知叶
 item.cropsnh:materialLeaf.bauxiaLeaf.name=铝土叶
 item.cropsnh:materialLeaf.canolaFlower.name=油菜花
 item.cropsnh:materialLeaf.copponFiber.name=铜纤维
@@ -99,28 +100,32 @@ death.attack.cropsnh:heartAttack=%1$s喝了太多咖啡
 death.attack.cropsnh:heartAttack.player=%1$s在与%2$s战斗时突发心脏病
 
 # Tooltips
-cropsnh_tooltip.isSick=§c患病了，不能生长！§r
-cropsnh_tooltip.unidentified=不明作物
-cropsnh_tooltip.seed=种子
-cropsnh_tooltip.stats=属性--生长速度：%1$s 产量：%2$s 抗性：%3$s
-cropsnh_tooltip.growth=生长速度
-cropsnh_tooltip.gain=产量
-cropsnh_tooltip.resistance=抗性
-cropsnh_tooltip.min_seed_bed_tier=最低苗床等级：%1$s
-cropsnh_tooltip.soil=土壤--含肥量：%1$s 含水量：%2$s 除草剂含量：%3$s
-cropsnh_tooltip.weeds=杂草--§c除了它！§r
-cropsnh_tooltip.failedReq=§c%1$s§r
-cropsnh_tooltip.plantLens=使用它来分析作物
-cropsnh_tooltip.handRake=使用它来给作物除草
-cropsnh_tooltip.spade=使用它来给作物除草，而且能在收获作物时获得作物种子
-cropsnh_tooltip.reinforcedSpade=使用它来给作物除草，而且能在收获时获得更多作物种子
-cropsnh_tooltip.empty=未种植
-cropsnh_tooltip.progress=生长进度：%1$s%%
-cropsnh_tooltip.none=无
-cropsnh_tooltip.mustUseSeedSynthesizerToReplicate=这个种子只能通过作物合成器复制
-cropsnh_tooltip.mustUseBreederMachine=只能通过作物培育机培育
+cropsnh_tooltip.plantLens.weeds=Weeds -- §cBLAZE IT§r
+cropsnh_tooltip.plantLens.seed=种子：%1$s
+cropsnh_tooltip.plantLens.empty=未种植作物
+cropsnh_tooltip.plantLens.isSick=§c生病了，无法生长！§r
+cropsnh_tooltip.plantLens.soil=土壤——肥料：%1$s 水分：%2$s 除草剂：%3$s
+cropsnh_tooltip.plantLens.stats=状态——生长速度：%1$s 产量：%2$s 抗性：%3$s
+cropsnh_tooltip.genericSeed.scanToViewStats=§7扫描以查看状态§r
+cropsnh_tooltip.genericSeed.growth=§a- 生长速度：%1$s§r
+cropsnh_tooltip.genericSeed.gain=§a- 产量：%1$s§r
+cropsnh_tooltip.genericSeed.resistance=§a- 抗性：%1$s§r
+cropsnh_tooltip.genericSeed.minSeedBedTier=最小苗床等级:%1$s
+cropsnh_tooltip.genericSeed.mustUseSeedSynthesizerToReplicate=该种子只能使用合成器复制
+cropsnh_tooltip.genericSeed.mustUseBreederMachine=该种子只能由杂交机杂交
+cropsnh_tooltip.item.plantLens=检查作物
+cropsnh_tooltip.item.spade=除掉杂草并在收获成熟作物时掉落种子
+cropsnh_tooltip.item.reinforcedSpade=除掉杂草并在收获成熟作物时掉落更多种子
+cropsnh_tooltip.item.gaiaWart=食用后清除大部分负面状态效果
+# the color coding here can only be done via waila because the chat component handling of formatted strings is ehh bad 
+cropsnh_tooltip.waila.cropStick.failedReq=§c%1$s§r
+cropsnh_tooltip.waila.cropStick.progressBar.scanned=%1$s / %2$s (%3$,.1f%%)
+cropsnh_tooltip.waila.cropStick.progressBar.notScanned=%1$,.1f%%
 # TODO: remove "(Check usages in NEI)" after a major version of GTNH.
-cropsnh_tooltip.wrongSoil=这个作物需要另一种土壤  (在NEI中查找该种子的用途)
+cropsnh_tooltip.planting.wrongSoil=该作物需要其它土壤（在NEI中查看用途）
+
+# GT5u Scanner Section Header
+GT5U.scanner.title_crops=作物信息
 
 # Structure Channel Descriptions
 cropsnh_tooltip.structure_channels.if_tier=控制工业农场的等级
@@ -280,8 +285,11 @@ cropsnh_tooltip.industrialFarm.name=工业农场
 cropsnh_tooltip.industrialFarm.machineType=工业作物耕种机，IF
 cropsnh_tooltip.industrialFarm.0=工业级种植作物
 # separator
-cropsnh_tooltip.industrialFarm.1=机器的§b长度§7取决于§f苗床§7的§c等级§7
+cropsnh_tooltip.industrialFarm.1=机器的§b长度§7及§b基础能量消耗§7取决于§f苗床§7的§c等级§7
 cropsnh_tooltip.industrialFarm.2=§f 升级模块§7 的 §c 等级 §7 必须和 §f 苗床 §7 的 §c 等级 §7 一致
+cropsnh_tooltip.industrialFarm.structure.controller=第二层正面中央
+cropsnh_tooltip.industrialFarm.structure.endCasing=任意端部机械方块中央
+cropsnh_tooltip.industrialFarm.structure.glass=任意等级玻璃
 cropsnh_tooltip.industrialFarm.structure.seedBed=苗床
 cropsnh_tooltip.industrialFarm.structure.upgrades.name=升级模块
 cropsnh_tooltip.industrialFarm.structure.upgrades.info=任意木框架
@@ -307,16 +315,16 @@ cropsnh_tooltip.industrialFarm.seedSlot=种子槽
 cropsnh_tooltip.industrialFarm.seedWithBlockExtractionWarning=存在方块时，种子只能通过输出模式提取
 cropsnh_tooltip.industrialFarm.blockInsertion=方块只能通过输入模式输入
 cropsnh_tooltip.industrialFarm.blockExtraction=方块只能通过输出模式提取
-cropsnh_tooltip.industrialFarm.blockUnderSlot=用于放置土壤下方方块的槽位
+cropsnh_tooltip.industrialFarm.subSoilSlot=底土槽
 cropsnh_tooltip.industrialFarm.environmentalModule=环境模块槽
 cropsnh_tooltip.industrialFarm.environmentalModule.enabled=启用
 cropsnh_tooltip.industrialFarm.environmentalModule.disabled=禁用
 cropsnh_tooltip.industrialFarm.mode.input=输入
 cropsnh_tooltip.industrialFarm.mode.farm=农场
 cropsnh_tooltip.industrialFarm.mode.output=输出
-GT5U.gui.text.recipe_result.cropsnh.industrialFarm.blockUnderNotFound=因作物土壤下方的方块缺失而无法种入新的种子
-GT5U.gui.text.recipe_result.cropsnh.industrialFarm.blockUnderMismatch.input=因与机器库存内的方块不兼容，无法种入新的种子
-GT5U.gui.text.recipe_result.cropsnh.industrialFarm.blockUnderMismatch.farm=当前方块与种子下方需要的方块不匹配
+GT5U.gui.text.recipe_result.cropsnh.industrialFarm.subSoilNotFound=找不到用于种植正放入种子的底土
+GT5U.gui.text.recipe_result.cropsnh.industrialFarm.subSoilMismatch.input=已存储的底土与放入的种子不兼容
+GT5U.gui.text.recipe_result.cropsnh.industrialFarm.subSoilMismatch.farm=当前底土与已存储的种子不兼容
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.seedBedTierTooLow=苗床等级过低，无法种植该种子
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.seedsFull=种子容量已满
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.seedOverflow=种子总量已超上限
@@ -336,14 +344,15 @@ cropsnh_tooltip.industrialFarm.scanner.6=营养评分: §e%1$s§r / §e%2$s§r
 
 # Seed Bed
 cropsnh_tooltip.seedBed.name=苗床（%1$s）
-cropsnh_tooltip.seedBed.0=决定了工业农场的§c等级§7
-cropsnh_tooltip.seedBed.1=种子容量:%1$s
-cropsnh_tooltip.seedBed.2=每轮需要消耗%1$s水
-cropsnh_tooltip.seedBed.3=每轮至多可消耗%1$s肥料
-cropsnh_tooltip.seedBed.4=增加 %1$s 的产出
-cropsnh_tooltip.seedBed.4.adv=增加 %1$s 的产出（加算）
-cropsnh_tooltip.seedBed.5.single=工业农场必须恰好有 %1$s 个中间片
-cropsnh_tooltip.seedBed.5.plural=工业农场必须恰好有 %1$s 个中间片
+cropsnh_tooltip.seedBed.0=决定了工业农场的§c等级§7和§c基础能量消耗§7
+cropsnh_tooltip.seedBed.1=基础能量消耗：%1$s（%2$s）
+cropsnh_tooltip.seedBed.2=种子容量:%1$s
+cropsnh_tooltip.seedBed.3=每轮需要消耗%1$s水
+cropsnh_tooltip.seedBed.4=每轮至多可消耗%1$s肥料
+cropsnh_tooltip.seedBed.5=增加 %1$s 的产出
+cropsnh_tooltip.seedBed.5.adv=增加 %1$s 的产出（加算）
+cropsnh_tooltip.seedBed.6.single=农场必须恰好有 %1$s 个中间层。
+cropsnh_tooltip.seedBed.6.plural=农场必须恰好有 %1$s 个中间层。
 cropsnh.seedBed.2.name=苗床（MV）
 cropsnh.seedBed.3.name=苗床（HV）
 cropsnh.seedBed.4.name=苗床（EV）
@@ -463,6 +472,7 @@ cropsnh_tooltip.berry.huckle.2=美味甜点！
 cropsnh_tooltip.berry.sugarbeet.1=甜菜，常见于法国，德国，俄罗斯和中国
 cropsnh_tooltip.berry.sugarbeet.2=工业制糖！
 cropsnh_tooltip.berry.maxTomato=一天一番茄，医生远离你
+cropsnh_tooltip.material_leaf_error=如果你看到了这条提示，请截屏此工具提示并提交错误报告。
 cropsnh_tooltip.goldfish=鬼灯的冷彻！真正来自地狱的动……植物？！
 cropsnh_tooltip.pyrolusiumLeaf.normal=也许有一天他们会搞明白的。
 cropsnh_tooltip.pyrolusiumLeaf.banana=这是怎么发生的？
@@ -529,6 +539,7 @@ cropsnh_nei.crops.growthDuration=生长点数: %1$s
 cropsnh_nei.crops.dropMult=掉落系数: %1$0.2f
 cropsnh_nei.crops.likes=喜好: %1$s
 cropsnh_nei.breeding.title=作物杂交
+cropsnh_nei.breeding.tooManyParents=检测到超过%s亲本，这不应该发生！
 cropsnh_nei.mutationPool.title=作物突变池
 cropsnh_nei.mutationPool.poolName=突变池: %1$s
 cropsnh_nei.altSeeds.title=替代种子
@@ -542,7 +553,11 @@ nei.options.tools.dump.cropsnh.hydrationFluids=水分
 nei.options.tools.dump.cropsnh.mutationPools=突变池
 nei.options.tools.dump.cropsnh.soilRegistry=土壤
 nei.options.tools.dump.cropsnh.weedEXFluids=除草剂
+nei.options.tools.dump.cropsnh.bootProtection=足部保护
 
+
+# Forestry compat
+cropsnh_forestry.farmLogic.name=Crops NH
 
 # Generic Seeds
 cropsnh_genericSeeds.unknown=未知
@@ -737,84 +752,86 @@ cropsnh_growthReq.lockout.machineOnly.nei=只能在工业农场中收获
 cropsnh_growthReq.lockout.migrated=无效的土壤！破坏作物来获得种子！
 # Light Growth Requirements
 cropsnh_growthReq.minLight.format=需要亮度等级为 %1$s 以上
+cropsnh_growthReq.minLight.format.nei=需要亮度等级为 %1$s 以上
 cropsnh_growthReq.maxLight.format=需要亮度等级为 %1$s 以下
+cropsnh_growthReq.maxLight.format.nei=需要亮度等级为 %1$s 以下
 # Vanilla Stone Lily Growth Requirements
-cropsnh_growthReq.blockUnder.stone=需要下方有石头才能生长
-cropsnh_growthReq.blockUnder.sand=需要下方有沙子或沙石才能生长
-cropsnh_growthReq.blockUnder.clay=需要下方有黏土或陶瓦才能生长
-cropsnh_growthReq.blockUnder.soulSand=需要下方有灵魂沙才能生长
-cropsnh_growthReq.blockUnder.netherrack=需要下方有地狱岩才能生长
-cropsnh_growthReq.blockUnder.endStone=需要下方有末地石才能生长
+cropsnh_growthReq.subSoil.stone=需要在其下方放置石制方块才能生长
+cropsnh_growthReq.subSoil.sand=需要在其下方放置沙子或沙石才能生长
+cropsnh_growthReq.subSoil.clay=需要在其下方放置黏土块或陶瓦才能生长
+cropsnh_growthReq.subSoil.soulSand=需要在其下方放置灵魂沙才能生长
+cropsnh_growthReq.subSoil.netherrack=需要在其下方放置地狱岩才能生长
+cropsnh_growthReq.subSoil.endStone=需要在其下方放置末地石才能生长
 # GT Stone Lily Growth Requirements
-cropsnh_growthReq.blockUnder.redGranite=需要下方有红花岗岩才能生长
-cropsnh_growthReq.blockUnder.blackGranite=需要下方有黑花岗岩才能生长
-cropsnh_growthReq.blockUnder.marble=需要下方有大理石才能生长
-cropsnh_growthReq.blockUnder.basalt=需要下方有玄武岩才能生长
+cropsnh_growthReq.subSoil.redGranite=需要在其下方放置红花岗岩才能生长
+cropsnh_growthReq.subSoil.blackGranite=需要在其下方放置黑花岗岩才能生长
+cropsnh_growthReq.subSoil.marble=需要在其下方放置大理石才能生长
+cropsnh_growthReq.subSoil.basalt=需要在其下方放置玄武岩才能生长
 # Et EtFuturum Stone Lily Requirements
-cropsnh_growthReq.blockUnder.deepslate=需要下方有深板岩才能生长
-cropsnh_growthReq.blockUnder.tuff=需要下方有凝灰岩才能生长
+cropsnh_growthReq.subSoil.deepslate=需要在其下方放置深板岩才能生长
+cropsnh_growthReq.subSoil.tuff=需要在其下方放置凝灰岩才能生长
 # Modern Stone Lily Growth Requirements
-cropsnh_growthReq.blockUnder.modernAndesite=需要下方有安山岩才能生长
-cropsnh_growthReq.blockUnder.modernDiorite=需要下方有闪长岩才能生长
-cropsnh_growthReq.blockUnder.modernGranite=需要下方有花岗岩才能生长
+cropsnh_growthReq.subSoil.modernAndesite=需要在其下方放置安山岩才能生长
+cropsnh_growthReq.subSoil.modernDiorite=需要在其下方放置闪长岩才能生长
+cropsnh_growthReq.subSoil.modernGranite=需要在其下方放置花岗岩才能生长
 # Vanilla Ore Growth Requirements
-cropsnh_growthReq.blockUnder.coal=需要下方有煤炭块才能生长
-cropsnh_growthReq.blockUnder.iron=需要下方有铁块才能生长
-cropsnh_growthReq.blockUnder.gold=需要下方有金块才能生长
-cropsnh_growthReq.blockUnder.diamond=需要下方有钻石块才能生长
-cropsnh_growthReq.blockUnder.emerald=需要下方有绿宝石块才能生长
-cropsnh_growthReq.blockUnder.redstone=需要下方有红石块才能生长
-cropsnh_growthReq.blockUnder.lapis=需要下方有青金石块才能生长
+cropsnh_growthReq.subSoil.coal=需要在其下方放置煤炭块才能生长
+cropsnh_growthReq.subSoil.iron=需要在其下方放置铁块才能生长
+cropsnh_growthReq.subSoil.gold=需要在其下方放置金块才能生长
+cropsnh_growthReq.subSoil.diamond=需要在其下方放置钻石块才能生长
+cropsnh_growthReq.subSoil.emerald=需要在其下方放置绿宝石块才能生长
+cropsnh_growthReq.subSoil.redstone=需要在其下方放置红石块才能生长
+cropsnh_growthReq.subSoil.lapis=需要在其下方放置青金石块才能生长
 # Modded Ore Growth Requirements
-cropsnh_growthReq.blockUnder.aluminium=需要下方有铝块才能生长
-cropsnh_growthReq.blockUnder.aluminiumBauxite=需要下方有铝块或铝土矿才能生长
-cropsnh_growthReq.blockUnder.copper=需要下方有铜块才能生长
-cropsnh_growthReq.blockUnder.iridium=需要下方有铱块才能生长
-cropsnh_growthReq.blockUnder.lead=需要下方有铅块或方铅矿才能生长
-cropsnh_growthReq.blockUnder.magnesium=需要下方有镁块才能生长
-cropsnh_growthReq.blockUnder.manganese=需要下方有锰块或软锰矿才能生长
-cropsnh_growthReq.blockUnder.mica=需要下方有云母块或白铜线圈才能生长
-cropsnh_growthReq.blockUnder.naquadah=需要下方有硅岩块才能生长
-cropsnh_growthReq.blockUnder.netherStar=需要下方有下界之星块才能生长
-cropsnh_growthReq.blockUnder.nickel=需要下方有镍块才能生长
-cropsnh_growthReq.blockUnder.osmium=需要下方有锇块才能生长
-cropsnh_growthReq.blockUnder.platinum=需要下方有铂块才能生长
-cropsnh_growthReq.blockUnder.silver=需要下方有银块才能生长
-cropsnh_growthReq.blockUnder.sulfur=需要下方有硫块或闪锌矿才能生长
-cropsnh_growthReq.blockUnder.thorium=需要下方有钍块或方钍矿才能生长
-cropsnh_growthReq.blockUnder.tin=需要下方有锡块才能生长
-cropsnh_growthReq.blockUnder.titanium=需要下方有钛块、钛铁矿或金红石才能生长
-cropsnh_growthReq.blockUnder.tungsten=需要下方有钨块、白钨矿或钨酸锂矿才能生长
-cropsnh_growthReq.blockUnder.uranium=需要下方有铀块、铀矿或沥青铀矿才能生长
-cropsnh_growthReq.blockUnder.zinc=需要下方有锌块或闪锌矿才能生长
+cropsnh_growthReq.subSoil.aluminium=需要在其下方放置铝块才能生长
+cropsnh_growthReq.subSoil.aluminiumBauxite=需要在其下方放置铝块或铝土矿才能生长
+cropsnh_growthReq.subSoil.copper=需要在其下方放置铜块才能生长
+cropsnh_growthReq.subSoil.iridium=需要在其下方放铱块才能生长
+cropsnh_growthReq.subSoil.lead=需要在其下方放置铅块或方铅矿矿石才能生长
+cropsnh_growthReq.subSoil.magnesium=需要在其下方放置镁块才能生长
+cropsnh_growthReq.subSoil.manganese=需要在其下方放置镁块或软锰矿矿石才能生长
+cropsnh_growthReq.subSoil.mica=需要在其下方放置云母矿石或白铜线圈方块才能生长
+cropsnh_growthReq.subSoil.naquadah=需要在其下方放置硅岩块才能生长
+cropsnh_growthReq.subSoil.netherStar=需要在其下方放置下界之星块才能生长
+cropsnh_growthReq.subSoil.nickel=需要在其下方放置镍块才能生长
+cropsnh_growthReq.subSoil.osmium=需要在其下方放置锇块才能生长
+cropsnh_growthReq.subSoil.platinum=需要在其下方放置铂块才能生长
+cropsnh_growthReq.subSoil.silver=需要在其下方放置银块才能生长
+cropsnh_growthReq.subSoil.sulfur=需要在其下方放置硫块或闪锌矿矿石才能生长
+cropsnh_growthReq.subSoil.thorium=需要在其下方放置钍块或方钍矿矿石才能生长
+cropsnh_growthReq.subSoil.tin=需要在其下方放置锡块才能生长
+cropsnh_growthReq.subSoil.titanium=需要在其下方放置钛块、钛铁矿矿石或金红石矿石才能生长
+cropsnh_growthReq.subSoil.tungsten=需要在其下方放置钨块、白钨矿矿石或钨酸锂矿石才能生长
+cropsnh_growthReq.subSoil.uranium=需要在其下方放置铀块、晶质铀矿矿石或沥青铀矿才能生长
+cropsnh_growthReq.subSoil.zinc=需要在其下方放置锌块或闪锌矿矿石才能生长
 # Gem Ore Growth Requirement
-cropsnh_growthReq.blockUnder.garnetGem=需要下方有红石榴石块、黄石榴石块或石榴石矿砂才能生长
-cropsnh_growthReq.blockUnder.olivine=需要下方有橄榄石块才能生长
-cropsnh_growthReq.blockUnder.sapphire=需要下方有蓝宝石块才能生长
-cropsnh_growthReq.blockUnder.ruby=需要下方有红宝石块才能生长
+cropsnh_growthReq.subSoil.garnetGem=需要在其下方放置红石榴石、黄石榴石或石榴石矿砂才能生长
+cropsnh_growthReq.subSoil.olivine=需要在其下方放置橄榄石才能生长
+cropsnh_growthReq.subSoil.sapphire=需要在其下方放置蓝宝石才能生长
+cropsnh_growthReq.subSoil.ruby=需要在其下方放置红宝石才能生长
 # Non-GT Ore Growth Requirements
-cropsnh_growthReq.blockUnder.knightmetal=需要下方有骑士金属块才能生长
-cropsnh_growthReq.blockUnder.steeleaf=需要下方有钢叶块才能生长
-cropsnh_growthReq.blockUnder.cobalt=需要下方有钴块才能生长
-cropsnh_growthReq.blockUnder.ardite=需要下方有阿迪特块才能生长
+cropsnh_growthReq.subSoil.knightmetal=需要在其下方放置骑士金属块才能生长
+cropsnh_growthReq.subSoil.steeleaf=需要在其下方放置钢叶块才能生长
+cropsnh_growthReq.subSoil.cobalt=需要在其下方放置钴才能生长
+cropsnh_growthReq.subSoil.ardite=需要在其下方放置阿迪特才能生长
 # Magic Ore Growth Requirements
-cropsnh_growthReq.blockUnder.void=需要下方有虚空块才能生长
-cropsnh_growthReq.blockUnder.thaumium=需要下方有神秘块才能生长
-cropsnh_growthReq.blockUnder.thauminite=需要下方有秘晶块才能生长
-cropsnh_growthReq.blockUnder.shadowmetal=需要下方有暗影金属块才能生长
+cropsnh_growthReq.subSoil.void=需要在其下方放置虚空金属块才能生长
+cropsnh_growthReq.subSoil.thaumium=需要在其下方放置神秘方块才能生长
+cropsnh_growthReq.subSoil.thauminite=需要在其下方放置秘晶块才能生长
+cropsnh_growthReq.subSoil.shadowmetal=需要在其下方放置暗影金属才能生长
 # Misc Block Growth Requirement
-cropsnh_growthReq.blockUnder.skull=需要下方有头颅才能生长
-cropsnh_growthReq.blockUnder.snow=需要下方有雪块才能生长
-cropsnh_growthReq.blockUnder.glowstone=需要下方有荧石才能生长
-cropsnh_growthReq.blockUnder.blaze=需要下方有烈焰块才能生长
-cropsnh_growthReq.blockUnder.quicksilver=需要下方有水银块才能生长
+cropsnh_growthReq.subSoil.skull=需要在其下方放置头颅才能生长
+cropsnh_growthReq.subSoil.snow=需要在其下方放置雪块才能生长
+cropsnh_growthReq.subSoil.glowstone=需要在其下方放置荧石才能生长
+cropsnh_growthReq.subSoil.blaze=需要在其下方放置烈焰块才能生长
+cropsnh_growthReq.subSoil.quicksilver=需要在其下方放置水银块才能生长
 
 # Thaum Block Growth Requirement
-cropsnh_growthReq.blockUnder.mixedCrystalCluster=需要下方有复相魔晶块才能生长
+cropsnh_growthReq.subSoil.mixedCrystalCluster=需要在其下方放置复相魔晶才能生长
 
 
 # Galacticraft Blocks Growth Requirements
-cropsnh_growthReq.blockUnder.space=需要下方有太空来的方块才能生长
+cropsnh_growthReq.subSoil.space=需要在其下方放置太空方块才能生长
 
 # Mutation Pool Names
 cropsnh_mutationPool.addictive=成瘾物
@@ -883,3 +900,6 @@ cropsnh_mutationPool.wheat=小麦
 cropsnh_mutationPool.white=白色
 cropsnh_mutationPool.wood=木
 cropsnh_mutationPool.yellow=黄色
+
+# Chat Messages
+cropsnh_chat.industrialFarm.mode.set=模式变更为%1$s
