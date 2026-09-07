@@ -160,6 +160,7 @@ chat.appliedenergistics2.WirelessInOtherDim=%d §e"%s" расположен в �
 chat.appliedenergistics2.WirelessHighlighterPrefix=Беспроводной
 chat.appliedenergistics2.WirelessHighlighterNetworkPrefix=Wireless of network §e"%s§e"§r -
 chat.appliedenergistics2.WirelessHighlighterColorPrefix=Wireless color §e"%s§e"§r of network §e"%s§e"§r -
+chat.appliedenergistics2.ControllerAnimation=Controller animation: %s
 
 # Creative Tabs
 itemGroup.appliedenergistics2=Applied Energistics 2
@@ -257,7 +258,7 @@ gui.appliedenergistics2.ReshuffleReportTextColorWarning=§6
 
 gui.appliedenergistics2.SuperMEReplenisherBytesTotal=Всего байтов: §6%s
 gui.appliedenergistics2.SuperMEReplenisherBytesUnlimited=Unlimited
-gui.appliedenergistics2.SuperMEReplenisherBytesUsed=Bytes used: §c%s
+gui.appliedenergistics2.SuperMEReplenisherBytesUsed=Байт использовано: §c%s
 gui.appliedenergistics2.SuperMEReplenisherTickRate=Интервал обновления
 gui.appliedenergistics2.SuperMEReplenisherThreshold=Порог
 gui.appliedenergistics2.SuperMEReplenisherTarget=Target: §5%s
@@ -481,7 +482,7 @@ gui.appliedenergistics2.CPUOnlyAllowNonPlayer=Только от не-игрок�
 gui.appliedenergistics2.CPUOnlyAllowPlayer=Только от игроков
 gui.appliedenergistics2.CPUSourcePlayer=Инициатор запроса
 gui.appliedenergistics2.CPUSourceMachineRequested=Запрошен механизмом
-gui.appliedenergistics2.UpgradesInstalled=Upgrades Installed
+gui.appliedenergistics2.UpgradesInstalled=Установленные улучшения
 gui.appliedenergistics2.FakeUpgrade=Behaves like these Upgrades are Installed:
 
 gui.appliedenergistics2.NetworkBytesDetails=Подробности о сетевых байтах
@@ -498,7 +499,7 @@ gui.appliedenergistics2.ToFollow=Подп.
 gui.appliedenergistics2.ToUnfollow=Отп.
 gui.appliedenergistics2.CellRestriction=Ограничение ячейки
 gui.appliedenergistics2.Restricted=Ограниченный
-gui.appliedenergistics2.MaxItems=Макс. предметов: %s
+gui.appliedenergistics2.MaxItems=Макс. ресурсов: %s
 gui.appliedenergistics2.MaxTypes=Макс. типов: %s
 
 gui.appliedenergistics2.ResourceAmount=Объем ресурсов
@@ -732,7 +733,7 @@ gui.tooltips.appliedenergistics2.OptimizePatternsNoReq=§cЭта опция не
 
 gui.tooltips.appliedenergistics2.InsertionModeDefault=Режим вставки по умолчанию
 gui.tooltips.appliedenergistics2.InsertionModeDefaultDesc=От начала к концу, при необходимости объединять стаки
-gui.tooltips.appliedenergistics2.InsertionModePreferEmpty=Вставка предпочитает пустые слоты
+gui.tooltips.appliedenergistics2.InsertionModePreferEmpty=Предпочитает пустые слоты
 gui.tooltips.appliedenergistics2.InsertionModePreferEmptyDesc=То же, что и по умолчанию, но сначала пробует вставить в пустые слоты
 gui.tooltips.appliedenergistics2.InsertionModeOnlyEmpty=Вставлять только в пустые слоты
 gui.tooltips.appliedenergistics2.InsertionModeOnlyEmptyDesc=От начала к концу, не объединяет стаки
@@ -1286,6 +1287,7 @@ key.pick_block.desc=Выбрать AE2 блок
 key.toggle_focus.desc=Переключить фокус на окно поиска
 key.search_connected_inventories.desc=Поиск предмета в сетевых инвентарях
 key.locate_item_flow.desc=Highlight recent item flow for hovered item
+key.cycle_controller_animation.desc=Cycle controller animation
 key.container_interaction.desc=Взаимодействие с хранилищем предметов
 key.wireless_extra_action.desc=Wireless Extra Action
 key.wireless_mode_switch.desc=Wireless Mode Switch
