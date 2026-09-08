@@ -1,2 +1,2 @@
-Can transform to and from any voltage
-Only 0.004% power loss, HAYO!
+任意电压间的相互转换！
+只有0.004%的能量损失，HAYO！

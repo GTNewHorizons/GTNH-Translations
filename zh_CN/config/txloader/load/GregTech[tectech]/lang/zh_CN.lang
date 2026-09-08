@@ -159,11 +159,11 @@ gt.blockmachines.hatch.emmuffler.desc.1=物质缓存
 gt.blockmachines.hatch.emmuffler.desc.2=清理速度
 gt.blockmachines.hatch.emmuffler.desc.3=请勿阻塞输出!
 
-gt.blockmachines.hatch.energymulti.name=%1$s %2$sA Energy Hatch
-gt.blockmachines.hatch.energywirelessmulti.name=%1$s %2$sA Wireless Energy Hatch
-gt.blockmachines.hatch.dynamomulti.name=%1$s %2$sA Dynamo Hatch
-gt.blockmachines.hatch.energytunnel.name=%1$s %2$sA/t Laser Target Hatch
-gt.blockmachines.hatch.dynamotunnel.name=%1$s %2$sA/t Laser Source Hatch
+gt.blockmachines.hatch.energymulti.name=%2$s安%1$s能源仓
+gt.blockmachines.hatch.energywirelessmulti.name=%2$s安%1$s无线能源仓
+gt.blockmachines.hatch.dynamomulti.name=%2$s安%1$s动力仓
+gt.blockmachines.hatch.energytunnel.name=%2$s安%1$s激光靶仓
+gt.blockmachines.hatch.dynamotunnel.name=%2$s安%1$s激光源仓
 gt.blockmachines.hatch.energymulti.desc=为多方块机器提供能源的多重安培能量注入器\n可从能量网络接收最高 %d 安培电流\n为多方块结构提供最高 %d 安培电流
 achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.04=4安EV无线能源仓
 achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.04=16安EV无线能源仓
@@ -746,7 +746,7 @@ fog.upgrade.text.10=最大并行添加一个x2的乘数.
 fog.upgrade.text.11=解锁“太阳聚变异化器”模块和夸克胶子等离子体生成。此时，该模块不受其他乘数或升级带来的加成影响。
 fog.upgrade.text.12=改进[燃料消耗->炉温]转换公式。改进后的公式：能量熔炉炉温=log1.12(星辉燃料单位/秒)*1000+12601，融化核心炉温=log1.18(星辉燃料单位/秒)*1000+12601
 fog.upgrade.text.13=将超光速放大器升级的公式改进为: 乘数=1+(星辉燃料单位/秒)/5
-fog.upgrade.text.14=将 2/4 超频改进为 2.3/4 超频。
+fog.upgrade.text.14=允许超频（OC）参数按当前炉温改变。能量锻炉和融化核心的超频（OC）参数固定为2.15。等离子制造机的超频（OC）参数 = 4 - 25000 / 炉温
 fog.upgrade.text.15=允许“太阳热能等离子制造机”处理多步骤等离子体. 但等级(T)限制仍然存在.
 fog.upgrade.text.16=使“太阳烈焰能量锻炉”获得“太阳射流融化核心”升级路径的全部收益.
 fog.upgrade.text.17=将高炉(EBF)炉温增益上限提高到30,000K.
@@ -1080,7 +1080,7 @@ gt.blockmachines.debug.tt.genny.desc.2=我只是想要一个...
 gt.blockmachines.debug.tt.genny.desc.3=使用螺丝刀将其切换为激光模式.
 gt.blockmachines.debug.tt.certain.desc.0=确定！
 gt.blockmachines.debug.tt.certain.desc.1=薛定谔的猫逃出了盒子
-gt.blockmachines.debug.tt.dataaccess.name=Debug Data Access Hatch
+gt.blockmachines.debug.tt.dataaccess.name=Debug数据访问仓
 gt.blockmachines.debug.tt.dataaccess.desc.0=Cheating in individual research is just so much work...
 gt.blockmachines.debug.tt.dataaccess.desc.1=Provides every Assembly Line recipe to the AL and AAL.
 gt.blockmachines.debug.tt.dataaccess.desc.2=For testing & Dev use. These can lag your world if used in excess.
@@ -1892,11 +1892,11 @@ gt.godforgecasing.7.name=中央引力子流动调节器
 gt.godforgecasing.8.name=简谐声子传输管道
 
 # Multiblocks
-gt.blockmachines.multimachine.em.exotic_module.name=Heliofusion Exoticizer
-gt.blockmachines.multimachine.em.eye_of_harmony.name=Eye of Harmony
-gt.blockmachines.multimachine.em.forge_of_gods.name=Forge of the Gods
-gt.blockmachines.multimachine.em.molten_module.name=Helioflux Melting Core
-gt.blockmachines.multimachine.em.plasma_module.name=Heliothermal Plasma Fabricator
-gt.blockmachines.multimachine.em.research.name=Research Station
-gt.blockmachines.multimachine.em.smelting_module.name=Helioflare Power Forge
-gt.blockmachines.multimachine.tm.teslacoil.name=Tesla Tower
+gt.blockmachines.multimachine.em.exotic_module.name=太阳聚变异化器
+gt.blockmachines.multimachine.em.eye_of_harmony.name=鸿蒙之眼
+gt.blockmachines.multimachine.em.forge_of_gods.name=诸神之锻炉
+gt.blockmachines.multimachine.em.molten_module.name=太阳射流融化核心
+gt.blockmachines.multimachine.em.plasma_module.name=太阳热能等离子制造机
+gt.blockmachines.multimachine.em.research.name=研究站
+gt.blockmachines.multimachine.em.smelting_module.name=太阳烈焰能量锻炉
+gt.blockmachines.multimachine.tm.teslacoil.name=特斯拉电塔
