@@ -17,6 +17,14 @@ def test_markdown_tooltip_leaves_real_newlines_alone() -> None:
     assert line_break_subst(file, None, translation) == translation
 
 
+def test_guidenh_page_unescapes_literal_backslash_n() -> None:
+    # A guide page carries YAML frontmatter and markdown, both of which GuideNH parses line
+    # by line, so a page that came back as one escaped line would render as a single blob.
+    file = File(id=1, name="resources/GTNH Guide Pack[gregtech]/guidenh/_ru_ru/index.md.json")
+    translation = "---\\nnavigation:\\n  title: Машины\\n---"
+    assert line_break_subst(file, None, translation) == "---\nnavigation:\n  title: Машины\n---"
+
+
 def test_non_markdown_file_is_unaffected() -> None:
     file = File(id=1, name="resources/GregTech[gregtech]/lang/ru_RU.lang.json")
     translation = "test\\ntest2"

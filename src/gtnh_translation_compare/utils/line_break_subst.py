@@ -4,6 +4,7 @@ from typing import Optional
 from loguru import logger
 
 from gtnh_translation_compare import settings
+from gtnh_translation_compare.filetypes.filetype_guidenh_page import is_guidenh_page_paratranz_file
 from gtnh_translation_compare.filetypes.filetype_markdown_tooltip import is_markdown_tooltip_paratranz_file
 from gtnh_translation_compare.paratranz.types import File
 
@@ -38,13 +39,14 @@ def get_line_break_symbol(dflt_setting: Optional[str], context: Optional[str]) -
 
 
 def line_break_subst(file: File, context: Optional[str], translation: str) -> str:
-  if is_markdown_tooltip_paratranz_file(file.name):
-    # Markdown tooltips are translated as a single multi-line blob (see
-    # FiletypeMarkdownTooltip), but ParaTranz's editor for this kind of string turns
-    # Enter (and Shift+Enter) into a literal "\n" instead of a real line break, no
-    # matter what the translator does. The .md format needs real line breaks
-    # (GregTech reads it with readLines()), so un-escape it here instead of relying
-    # on the translator typing something the site's UI can't actually produce.
+  if is_markdown_tooltip_paratranz_file(file.name) or is_guidenh_page_paratranz_file(file.name):
+    # Markdown tooltips and GuideNH pages are translated as a single multi-line blob (see
+    # FiletypeMarkdownTooltip and FiletypeGuideNhPage), but ParaTranz's editor for this kind
+    # of string turns Enter (and Shift+Enter) into a literal "\n" instead of a real line
+    # break, no matter what the translator does. The .md format needs real line breaks
+    # (GregTech reads its tooltips with readLines(), and GuideNH parses markdown and YAML
+    # frontmatter line by line), so un-escape it here instead of relying on the translator
+    # typing something the site's UI can't actually produce.
     return translation.replace("\\r\\n", "\n").replace("\\n", "\n")
   dflt_sym = None
   if file.name == settings.GT_LANG_TARGET_REL_PATH + ".json":
