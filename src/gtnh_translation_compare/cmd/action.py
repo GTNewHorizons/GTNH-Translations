@@ -18,8 +18,11 @@ from gtnh_translation_compare.filetypes import (
     FiletypeLang,
     Language,
     FiletypeGTLang,
+    FiletypeGuideNhPage,
     FiletypeMarkdownTooltip,
     Filetype,
+    is_guidenh_page_path,
+    is_guidenh_page_paratranz_file,
     is_markdown_tooltip_path,
     is_markdown_tooltip_paratranz_file,
 )
@@ -46,6 +49,8 @@ def _download_from_gtnh(relpath: str) -> str:
 def _make_lang_or_markdown_filetype(relpath: str, content: str) -> Filetype:
     if is_markdown_tooltip_path(relpath):
         return FiletypeMarkdownTooltip(relpath, content)
+    if is_guidenh_page_path(relpath):
+        return FiletypeGuideNhPage(relpath, content)
     return FiletypeLang(relpath, content)
 
 
@@ -136,6 +141,7 @@ class Action:
         files_to_commit.extend(await self._paratranz_to_quest_book(repo_path, subdirectory))
         files_to_commit.extend(await self._paratranz_to_lang(repo_path, subdirectory))
         files_to_commit.extend(await self._paratranz_to_markdown_tooltip(repo_path, subdirectory))
+        files_to_commit.extend(await self._paratranz_to_guidenh_page(repo_path, subdirectory))
         files_to_commit.extend(await self._paratranz_to_gt_lang(repo_path, subdirectory))
 
         git_commit(
@@ -196,6 +202,21 @@ class Action:
                 repo_path,
                 subdirectory,
                 _markdown_tooltip_to_txloader_path,
+        )
+
+    # GuideNH pages
+    async def _paratranz_to_guidenh_page(
+        self,
+        repo_path: Path,
+        subdirectory: Path,
+    ) -> list[str]:
+        return await self.__paratranz_to_translation(
+                is_guidenh_page_paratranz_file,
+                None,
+                None,
+                repo_path,
+                subdirectory,
+                _guidenh_page_to_txloader_path,
         )
 
     # Gt Lang
@@ -279,6 +300,13 @@ class Action:
         for lang_file in modpack.lang_files(Language.en_US):
             relpath = get_relpath(lang_file.get_en_us_relpath())
             write_file(os.path.abspath(relpath), lang_file.content)
+
+        # Guide pages and the Ponder labels next to them ship in the bundled guide pack rather
+        # than in a mod jar. Only en_US is tracked: the pack also carries translated locales, and
+        # uploading those would send finished translations to ParaTranz as source text.
+        for guide_file in modpack.guide_pack_files(Language.en_US):
+            relpath = get_relpath(guide_file.get_en_us_relpath())
+            write_file(os.path.abspath(relpath), guide_file.content)
 
         self._update_gt_lang(base_path, gt_lang_path)
 
@@ -370,6 +398,11 @@ class Action:
             if 'resources' not in file_path:
                 logger.warning(f'Suspecious file detected in changed files: {file_path}')
                 continue
+            # git diff lists deletions too, and a page dropped from the guide pack has nothing
+            # left to upload. Skip it instead of failing the whole sync.
+            if not (base_path / file_path).is_file():
+                logger.info(f'Skipping deleted file: {file_path}')
+                continue
             with open(base_path / file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
             lang_files.append(_make_lang_or_markdown_filetype(file_path, content))
@@ -405,7 +438,7 @@ class Action:
         await self._pack_lang_file_to_paratranz(base_path, settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH)
         await self._pack_lang_file_to_paratranz(base_path, settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH)
 
-        lang_files = []
+        lang_files: list[Filetype] = []
         for file_path in glob.glob(f'./{base_path}/resources/*/lang/en_US.lang'):
             with open(file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
@@ -414,6 +447,10 @@ class Action:
             with open(file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
             lang_files.append(FiletypeMarkdownTooltip(os.path.relpath(file_path, base_path), content))
+        for file_path in glob.glob(f'./{base_path}/resources/*/guidenh/_en_us/**/*.md', recursive=True):
+            with open(file_path, 'r', encoding='UTF-8') as f:
+                content = f.read()
+            lang_files.append(FiletypeGuideNhPage(os.path.relpath(file_path, base_path), content))
 
         # concurrency number
         sem = asyncio.Semaphore(10)
@@ -627,20 +664,28 @@ MOD_DOMAIN_RE = re.compile(r"\[([^\[\]]+)\]$")
 
 
 def _markdown_tooltip_to_txloader_path(path: str) -> Path:
-    # Markdown tooltips only, never .lang: unlike .lang, a tooltip slug belongs to one mod,
-    # so collapsing "<DisplayName>[<domain>]" to the bare domain here is safe. Don't reuse
-    # this for _resources_to_txloader_path's job - addon mods contribute lines to another
+    return _bracketed_domain_to_txloader_path(path, "markdown tooltip")
+
+
+def _guidenh_page_to_txloader_path(path: str) -> Path:
+    return _bracketed_domain_to_txloader_path(path, "GuideNH page")
+
+
+def _bracketed_domain_to_txloader_path(path: str, kind: str) -> Path:
+    # Markdown tooltips and GuideNH pages only, never .lang: unlike .lang, such a file belongs
+    # to one mod, so collapsing "<DisplayName>[<domain>]" to the bare domain here is safe. Don't
+    # reuse this for _resources_to_txloader_path's job - addon mods contribute lines to another
     # mod's .lang through their own bracketed folder, and collapsing those would drop one
     # contributor's translations whenever two folders share a domain and relative path.
     cfg = Path("config")
     provided = Path(path)
     parts = list(provided.parts)
     if len(parts) < 2 or parts[0] != "resources":
-        logger.warning(f"Unknown path for markdown tooltip {path}")
+        logger.warning(f"Unknown path for {kind} {path}")
         return cfg / "txloader" / "load" / provided
     match = MOD_DOMAIN_RE.search(parts[1])
     if match is None:
-        logger.warning(f"Could not find mod domain in {parts[1]!r} for markdown tooltip {path}")
+        logger.warning(f"Could not find mod domain in {parts[1]!r} for {kind} {path}")
         return cfg / "txloader" / "load" / Path(*parts[1:])
     return cfg / "txloader" / "load" / match.group(1) / Path(*parts[2:])
 
