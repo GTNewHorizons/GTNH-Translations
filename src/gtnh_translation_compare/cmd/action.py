@@ -445,7 +445,7 @@ class Action:
         for file_path in glob.glob(f'./{base_path}/resources/*/guidenh/_en_us/**/*.md', recursive=True):
             with open(file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
-            lang_files.append(FiletypeGuideNhPage(os.path.relpath(file_path, base_path).replace(os.sep, "/"), content))
+            lang_files.append(FiletypeGuideNhPage(os.path.relpath(file_path, base_path), content))
 
         # concurrency number
         sem = asyncio.Semaphore(10)
