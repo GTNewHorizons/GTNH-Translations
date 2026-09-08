@@ -301,12 +301,12 @@ class Action:
             relpath = get_relpath(lang_file.get_en_us_relpath())
             write_file(os.path.abspath(relpath), lang_file.content)
 
-        # Guide pages ship in the bundled guide pack rather than in a mod jar. Only en_US is
-        # tracked: the pack also carries translated locale folders, and uploading those would
-        # send finished translations to ParaTranz as source text.
-        for guide_page in modpack.guide_pack_pages(Language.en_US):
-            relpath = get_relpath(guide_page.get_en_us_relpath())
-            write_file(os.path.abspath(relpath), guide_page.content)
+        # Guide pages and the Ponder labels next to them ship in the bundled guide pack rather
+        # than in a mod jar. Only en_US is tracked: the pack also carries translated locales, and
+        # uploading those would send finished translations to ParaTranz as source text.
+        for guide_file in modpack.guide_pack_files(Language.en_US):
+            relpath = get_relpath(guide_file.get_en_us_relpath())
+            write_file(os.path.abspath(relpath), guide_file.content)
 
         self._update_gt_lang(base_path, gt_lang_path)
 
