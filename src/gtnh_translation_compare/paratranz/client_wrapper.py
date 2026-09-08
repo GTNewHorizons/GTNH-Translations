@@ -14,6 +14,9 @@ from gtnh_translation_compare.paratranz.types import File, StringItem, StringPag
 
 def retry_after_429() -> Callable[[WrappedFn], WrappedFn]:
     wait_seconds = 60
+    # ParaTranz counts requests per token and all languages sync with the same one, so a run that
+    # creates hundreds of files at once queues across several rate limit windows before it lands.
+    max_attempts = 6
 
     def is_http_429_error(exception: BaseException) -> bool:
         return isinstance(exception, HTTPStatusError) and exception.response.status_code == 429
@@ -22,13 +25,13 @@ def retry_after_429() -> Callable[[WrappedFn], WrappedFn]:
         logger.warning(
             f"received a 429 response, "
             f"waiting {wait_seconds} seconds before retrying "
-            f"for the { {2: '2nd', 3: '3rd'}.get(retry_state.attempt_number + 1)} time"
+            f"({retry_state.attempt_number + 1} of {max_attempts})"
         )
 
     return retry(
         retry=retry_if_exception(is_http_429_error),
         wait=wait_fixed(wait_seconds),
-        stop=stop_after_attempt(3),
+        stop=stop_after_attempt(max_attempts),
         before_sleep=before_sleep,
     )
 
