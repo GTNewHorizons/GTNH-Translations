@@ -398,6 +398,11 @@ class Action:
             if 'resources' not in file_path:
                 logger.warning(f'Suspecious file detected in changed files: {file_path}')
                 continue
+            # git diff lists deletions too, and a page dropped from the guide pack has nothing
+            # left to upload. Skip it instead of failing the whole sync.
+            if not (base_path / file_path).is_file():
+                logger.info(f'Skipping deleted file: {file_path}')
+                continue
             with open(base_path / file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
             lang_files.append(_make_lang_or_markdown_filetype(file_path, content))
