@@ -143,6 +143,14 @@ class ClientWrapper:
         return strings
 
     async def upload_file(self, paratranz_file: ParatranzFile) -> None:
+        if not paratranz_file.string_items:
+            # A source file with nothing to translate, such as an empty guide page, makes
+            # ParaTranz answer the create without a file object, and the sync used to die on
+            # that response and drop every file queued behind it.
+            print(f"::warning::skipping source file with no strings: {paratranz_file.file_name}")
+            logger.warning("skipping source file with no strings: {}", paratranz_file.file_name)
+            return
+
         file_id = await self._find_file_id_by_file(paratranz_file.file_name)
 
         if file_id is None:
