@@ -407,8 +407,8 @@ class Action:
                 content = f.read()
             lang_files.append(_make_lang_or_markdown_filetype(file_path, content))
 
-        # concurrency number
-        sem = asyncio.Semaphore(10)
+        # concurrency number, kept low because every language job shares one ParaTranz token
+        sem = asyncio.Semaphore(4)
 
         async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
             async with _sem:
@@ -452,8 +452,8 @@ class Action:
                 content = f.read()
             lang_files.append(FiletypeGuideNhPage(os.path.relpath(file_path, base_path), content))
 
-        # concurrency number
-        sem = asyncio.Semaphore(10)
+        # concurrency number, kept low because every language job shares one ParaTranz token
+        sem = asyncio.Semaphore(4)
 
         async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
             async with _sem:
