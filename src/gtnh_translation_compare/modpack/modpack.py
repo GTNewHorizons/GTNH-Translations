@@ -4,10 +4,22 @@ from functools import cache
 from os import path
 from typing import Sequence
 
-from gtnh_translation_compare.filetypes import Filetype, FiletypeLang, FiletypeMarkdownTooltip
+from gtnh_translation_compare.filetypes import (
+    Filetype,
+    FiletypeGuideNhPage,
+    FiletypeLang,
+    FiletypeMarkdownTooltip,
+)
+from gtnh_translation_compare.filetypes.filetype_guidenh_page import language_folder
 from gtnh_translation_compare.filetypes.language import Language
 from gtnh_translation_compare.modpack.mod import Mod
 from gtnh_translation_compare.utils.file import ensure_lf
+
+# The GTNH Guide Pack is not a mod jar: the modpack's release workflow downloads the matching
+# guide pack release and bundles it under this path, so the pages ride along with the modpack
+# archive instead of being shipped by any mod.
+GUIDE_PACK_REL_PATH = "config/guidenh/DefaultGuide.zip"
+GUIDE_PACK_NAME = "GTNH Guide Pack"
 
 
 class ModPack:
@@ -38,3 +50,28 @@ class ModPack:
                         FiletypeMarkdownTooltip(f"resources/{mod.mod_name}[{sub_mod_id}]/{filename}", content, language)
                     )
         return lang_files
+
+    @cache
+    def guide_pack_pages(self, language: Language) -> Sequence[Filetype]:
+        guide_pack_path = self.__pack_path / GUIDE_PACK_REL_PATH
+        if not guide_pack_path.is_file():
+            # Older modpack releases predate the bundled guide pack, so its absence is expected.
+            return []
+
+        pages: list[Filetype] = []
+        locale_folder = language_folder(language)
+        with zipfile.ZipFile(guide_pack_path) as guide_pack:
+            for filename in guide_pack.namelist():
+                parts = filename.split("/")
+                # assets/<namespace>/guidenh/_<locale>/<page...>.md (nested pages allowed)
+                if len(parts) < 5:
+                    continue
+                if parts[0] != "assets" or parts[2] != "guidenh" or parts[3] != locale_folder:
+                    continue
+                if not filename.endswith(".md"):
+                    continue
+                with guide_pack.open(filename, mode="r") as page:
+                    content = ensure_lf(page.read().decode("utf-8-sig", errors="ignore"))
+                relpath = "/".join([f"resources/{GUIDE_PACK_NAME}[{parts[1]}]", *parts[2:]])
+                pages.append(FiletypeGuideNhPage(relpath, content, language))
+        return pages
