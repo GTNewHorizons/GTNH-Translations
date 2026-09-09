@@ -176,7 +176,7 @@ class ClientWrapper:
             data={"path": path},
             files={"file": paratranz_file.file_to_be_uploaded},
         )
-        self._log_res(f"create_file[path={path}]", res)
+        self._log_res(f"create_file[file={paratranz_file.file_name}, path={path}]", res)
         return File.model_validate(res.json()["file"]).id
 
     @retry_after_429()
@@ -230,6 +230,9 @@ class ClientWrapper:
         try:
             res.raise_for_status()
         except HTTPStatusError as e:
-            logger.error("{}: {}", request_name, res)
+            body = res.text.strip() or "<empty response body>"
+            if len(body) > 2_000:
+                body = body[:2_000] + "... (truncated)"
+            logger.error("{}: {}; response body: {}", request_name, res, body)
             raise e
         logger.debug("{}: {}", request_name, res)

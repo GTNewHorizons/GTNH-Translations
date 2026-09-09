@@ -54,6 +54,21 @@ def _make_lang_or_markdown_filetype(relpath: str, content: str) -> Filetype:
     return FiletypeLang(relpath, content)
 
 
+def _github_actions_escape(message: str) -> str:
+    return message.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
+
+
+def _paratranz_error_message(error: httpx.HTTPStatusError, file_name: str) -> str:
+    response = error.response
+    body = response.text.strip() or "<empty response body>"
+    if len(body) > 2_000:
+        body = body[:2_000] + "... (truncated)"
+    return (
+        f"Skipping ParaTranz file {file_name}: HTTP {response.status_code} "
+        f"for {response.request.method} {response.request.url.path}; response: {body}"
+    )
+
+
 class Action:
     def __init__(self) -> None:
         paratranz_project_id = settings.PARATRANZ_PROJECT_ID
@@ -73,6 +88,33 @@ class Action:
             cache=ParatranzCache(settings.PARATRANZ_CACHE_DIR),
             target_lang=settings.TARGET_LANG,
         )
+
+    async def _upload_files_to_paratranz(self, lang_files: Sequence[Filetype]) -> None:
+        # Keep upload concurrency low because every language job shares one ParaTranz token.
+        sem = asyncio.Semaphore(4)
+        skipped: list[str] = []
+
+        async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
+            async with _sem:
+                paratranz_file = await self.converter.to_paratranz_file(lang_file)
+                try:
+                    await self.client.upload_file(paratranz_file)
+                except httpx.HTTPStatusError as error:
+                    # ParaTranz uses these statuses for an individual invalid file or path. Do not
+                    # hide credentials, rate-limit, network, or server failures from the workflow.
+                    if error.response.status_code not in (400, 422):
+                        raise
+                    message = _paratranz_error_message(error, paratranz_file.file_name)
+                    print(f"::warning title=ParaTranz file skipped::{_github_actions_escape(message)}")
+                    logger.warning(message)
+                    skipped.append(paratranz_file.file_name)
+
+        await asyncio.gather(*(upload_file(sem, lang_file) for lang_file in lang_files))
+
+        if skipped:
+            message = f"Skipped {len(skipped)} invalid ParaTranz file(s): {', '.join(skipped)}"
+            print(f"::warning title=ParaTranz upload completed with skipped files::{_github_actions_escape(message)}")
+            logger.warning(message)
 
     async def __paratranz_to_translation(
         self,
@@ -407,18 +449,7 @@ class Action:
                 content = f.read()
             lang_files.append(_make_lang_or_markdown_filetype(file_path, content))
 
-        # concurrency number, kept low because every language job shares one ParaTranz token
-        sem = asyncio.Semaphore(4)
-
-        async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
-            async with _sem:
-                paratranz_file = await self.converter.to_paratranz_file(lang_file)
-                await self.client.upload_file(paratranz_file)
-
-        tasks = [upload_file(sem, lang_file) for lang_file in lang_files]
-
-        # noinspection PyTypeChecker
-        await asyncio.gather(*tasks)
+        await self._upload_files_to_paratranz(lang_files)
 
     def conditional_sync_to_paratranz(
             self,
@@ -452,18 +483,7 @@ class Action:
                 content = f.read()
             lang_files.append(FiletypeGuideNhPage(os.path.relpath(file_path, base_path), content))
 
-        # concurrency number, kept low because every language job shares one ParaTranz token
-        sem = asyncio.Semaphore(4)
-
-        async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
-            async with _sem:
-                paratranz_file = await self.converter.to_paratranz_file(lang_file)
-                await self.client.upload_file(paratranz_file)
-
-        tasks = [upload_file(sem, lang_file) for lang_file in lang_files]
-
-        # noinspection PyTypeChecker
-        await asyncio.gather(*tasks)
+        await self._upload_files_to_paratranz(lang_files)
 
         await self._gt_lang_to_paratranz(repo_path, subdirectory)
 
