@@ -27,7 +27,7 @@ from gtnh_translation_compare.filetypes import (
     is_markdown_tooltip_paratranz_file,
 )
 from gtnh_translation_compare.modpack.modpack import ModPack
-from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper
+from gtnh_translation_compare.paratranz.client_wrapper import ClientWrapper, ParaTranzUploadError
 from gtnh_translation_compare.paratranz.converter import Converter
 from gtnh_translation_compare.paratranz.paratranz_cache import ParatranzCache
 from gtnh_translation_compare.paratranz.types import StringItem, TranslationFile
@@ -58,13 +58,17 @@ def _github_actions_escape(message: str) -> str:
     return message.replace("%", "%25").replace("\r", "%0D").replace("\n", "%0A")
 
 
-def _paratranz_error_message(error: httpx.HTTPStatusError, file_name: str) -> str:
-    response = error.response
+def _paratranz_error_message(error: ParaTranzUploadError) -> str:
+    response = error.error.response
     body = response.text.strip() or "<empty response body>"
     if len(body) > 2_000:
         body = body[:2_000] + "... (truncated)"
+    if error.stage == "metadata":
+        prefix = f"ParaTranz content uploaded but metadata save failed for {error.file_name}"
+    else:
+        prefix = f"ParaTranz {error.stage} rejected for {error.file_name}"
     return (
-        f"Skipping ParaTranz file {file_name}: HTTP {response.status_code} "
+        f"{prefix}: HTTP {response.status_code} "
         f"for {response.request.method} {response.request.url.path}; response: {body}"
     )
 
@@ -93,21 +97,28 @@ class Action:
         # Keep upload concurrency low because every language job shares one ParaTranz token.
         sem = asyncio.Semaphore(4)
         skipped: list[str] = []
+        incomplete: list[str] = []
 
         async def upload_file(_sem: asyncio.Semaphore, lang_file: Filetype) -> None:
             async with _sem:
                 paratranz_file = await self.converter.to_paratranz_file(lang_file)
                 try:
                     await self.client.upload_file(paratranz_file)
-                except httpx.HTTPStatusError as error:
-                    # ParaTranz uses these statuses for an individual invalid file or path. Do not
-                    # hide credentials, rate-limit, network, or server failures from the workflow.
-                    if error.response.status_code not in (400, 422):
+                except ParaTranzUploadError as error:
+                    if error.stage == "metadata":
+                        message = _paratranz_error_message(error)
+                        print(f"::error title=ParaTranz metadata save failed::{_github_actions_escape(message)}")
+                        logger.error(message)
+                        incomplete.append(error.file_name)
+                        return
+                    # ParaTranz uses these statuses for an individual invalid source file or path.
+                    # Do not hide credentials, rate-limit, network, or server failures from the workflow.
+                    if error.error.response.status_code not in (400, 422):
                         raise
-                    message = _paratranz_error_message(error, paratranz_file.file_name)
+                    message = _paratranz_error_message(error)
                     print(f"::warning title=ParaTranz file skipped::{_github_actions_escape(message)}")
                     logger.warning(message)
-                    skipped.append(paratranz_file.file_name)
+                    skipped.append(error.file_name)
 
         await asyncio.gather(*(upload_file(sem, lang_file) for lang_file in lang_files))
 
@@ -115,6 +126,12 @@ class Action:
             message = f"Skipped {len(skipped)} invalid ParaTranz file(s): {', '.join(skipped)}"
             print(f"::warning title=ParaTranz upload completed with skipped files::{_github_actions_escape(message)}")
             logger.warning(message)
+
+        if incomplete:
+            message = f"ParaTranz metadata failed for {len(incomplete)} file(s): {', '.join(incomplete)}"
+            print(f"::error title=ParaTranz upload metadata incomplete::{_github_actions_escape(message)}")
+            logger.error(message)
+            raise RuntimeError(message)
 
     async def __paratranz_to_translation(
         self,
@@ -289,16 +306,14 @@ class Action:
     ############################################################################
 
     # Pack-side lang files (quest book, custom tooltips): not under resources/, uploaded by explicit path
-    async def _pack_lang_file_to_paratranz(
-        self,
+    @staticmethod
+    def _read_pack_lang_file(
         base_path: Path,
         relpath: str,
-    ) -> None:
+    ) -> FiletypeLang:
         with open(base_path / relpath, 'r', encoding='UTF-8') as f:
             content = f.read()
-        lang_file = FiletypeLang(relpath=relpath, content=content, language=Language.en_US)
-        paratranz_file = await self.converter.to_paratranz_file(lang_file)
-        await self.client.upload_file(paratranz_file)
+        return FiletypeLang(relpath=relpath, content=content, language=Language.en_US)
 
     # Gt Lang
     async def _gt_lang_to_paratranz(
@@ -426,16 +441,16 @@ class Action:
             logger.info(change)
         logger.info('#'*30)
 
+        lang_files: list[Filetype] = []
         for pack_relpath in (
             settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH,
             settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH,
             settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH,
         ):
             if pack_relpath in changed_relpaths:
-                await self._pack_lang_file_to_paratranz(base_path, pack_relpath)
+                lang_files.append(self._read_pack_lang_file(base_path, pack_relpath))
                 changed_relpaths.remove(pack_relpath)
 
-        lang_files = []
         for file_path in changed_relpaths:
             if 'resources' not in file_path:
                 logger.warning(f'Suspecious file detected in changed files: {file_path}')
@@ -465,11 +480,11 @@ class Action:
             subdirectory: Path,
     ) -> None:
         base_path: Path = repo_path / subdirectory
-        await self._pack_lang_file_to_paratranz(base_path, settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH)
-        await self._pack_lang_file_to_paratranz(base_path, settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH)
-        await self._pack_lang_file_to_paratranz(base_path, settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH)
-
-        lang_files: list[Filetype] = []
+        lang_files: list[Filetype] = [
+            self._read_pack_lang_file(base_path, settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH),
+            self._read_pack_lang_file(base_path, settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH),
+            self._read_pack_lang_file(base_path, settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH),
+        ]
         for file_path in glob.glob(f'./{base_path}/resources/*/lang/en_US.lang'):
             with open(file_path, 'r', encoding='UTF-8') as f:
                 content = f.read()
