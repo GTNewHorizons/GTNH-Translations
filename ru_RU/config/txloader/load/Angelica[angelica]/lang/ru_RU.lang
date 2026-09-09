@@ -101,13 +101,18 @@ sodium.options.use_no_error_context.name=Без контекста ошибок
 sodium.options.use_no_error_context.tooltip=Если включено, контекст OpenGL будет создан с отключенной проверкой ошибок. Это может немного улучшить производительность, но также увеличивает риск того, что игра будет вылетать, а не грациозно обрабатывать ошибки OpenGL. Вы должны отключить эту опцию, если у вас возникают внезапные необъяснимые сбои.
 sodium.options.async_occlusion_mode.name=Асинхронная окклюзия
 sodium.options.async_occlusion_mode.tooltip=Определяет, какие этапы рендеринга используют асинхронное отсечение невидимых геометрий. ONLY_SHADOW (по умолчанию) запускает асинхронное отсечение только для теней, сохраняя основной список рендеринга синхронным. EVERYTHING запускает асинхронный режим для всех этапов, что может вызвать задержку видимости в 1 кадр при быстром движении камеры. NONE полностью отключает асинхронное отсечение.
+sodium.options.async_occlusion_mode.none=None
+sodium.options.async_occlusion_mode.only_shadow=Only Shadow
+sodium.options.async_occlusion_mode.everything=Everything
 sodium.options.use_occlusion_culling.name=Отсечение окклюзии
 sodium.options.use_occlusion_culling.tooltip=Если включено, чанки, скрытые за другими чанками, не будут рендериться. Отключение этой опции значительно снизит производительность, но может быть полезно для отладки.
 sodium.options.threads.value=%s поток(ов)
 sodium.options.default=По умолчанию
 sodium.options.buttons.undo=Отменить
 sodium.options.buttons.apply=Применить
-sodium.options.buttons.donate=Купить кофе для JellySquid!
+sodium.options.anaglyph.tooltip=If enabled, the world will be rendered twice with red/cyan color masks.
+sodium.options.show_cape.tooltip=If enabled, your cape will be shown.
+rso.search_bar_empty=Search options...
 
 options.dynamic_fov=Динамическое FOV
 options.dynamic_fov.tooltip=Если включено, поле зрения игры будет меняться в зависимости от скорости игрока.
@@ -115,6 +120,15 @@ options.framerate=%s FPS
 
 iris.shaders.toggled=Переключены шейдеры на %s!
 iris.shaders.disabled=Шейдеры отключены!
+iris.shaders.reloaded=Shaders Reloaded!
+iris.shaders.reloaded.failure=Failed to reload shaders! Reason: %s
+iris.shaders.toggled.failure=Failed to toggle shaders! Reason: %s
+
+key.category.iris.keybinds=Iris Keybinds
+iris.keybind.reload=Reload Shaders
+iris.keybind.toggleShaders=Toggle Shaders
+iris.keybind.shaderPackSelection=Shaderpack Selection Screen
+angelica.keybind.zoom=Zoom
 
 options.iris.apply=Применить
 options.iris.refresh=Обновить
@@ -176,10 +190,14 @@ options.dynamic_lights_cull_timeout=Задержка отсечения (в ти
 options.dynamic_lights_cull_timeout.tooltip=Максимальное время (в тиках), которое скрытый чанк может ждать перед принудительным пересчётом. Меньше = быстрее реакция, но выше нагрузка на видеокарту.
 options.dynamiclights.page=Динамическое освещение
 options.dynamiclights.entities=Настроить сущностей...
+options.dynamiclights.entities.tooltip=Choose which entity types emit dynamic light.
 options.dynamiclights.entities.title=Динамическое освещение - Сущности
 options.dynamiclights.entities.info=Переключить типы сущностей, которые излучают динамический свет. Некоторые пункты добавлены для совместимости с модами.
 options.dynamiclights.entities.search=Поиском (@mod, $on, $off)
-options.dynamiclights.entity.tooltip=Переключить динамическое освещение для сущностей типа %s. Отключите для повышения производительности, если этот тип существ излучает ненужный свет.
+options.dynamiclights.entities.enableall=Enable All
+options.dynamiclights.entities.disableall=Disable All
+options.dynamiclights.entities.enableshown=Enable Shown
+options.dynamiclights.entities.disableshown=Disable Shown
 
 options.angelica.search.no_results=Совпадений не найдено
 options.angelica.fontconfig=Настройка шрифта...
