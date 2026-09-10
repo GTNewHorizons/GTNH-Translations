@@ -106,6 +106,8 @@ class Action:
                     await self.client.upload_file(paratranz_file)
                 except ParaTranzUploadError as error:
                     if error.stage == "metadata":
+                        if error.error.response.status_code not in (400, 422):
+                            raise
                         message = _paratranz_error_message(error)
                         print(f"::error title=ParaTranz metadata save failed::{_github_actions_escape(message)}")
                         logger.error(message)
