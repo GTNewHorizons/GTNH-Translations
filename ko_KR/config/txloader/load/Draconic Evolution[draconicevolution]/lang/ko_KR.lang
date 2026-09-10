@@ -427,7 +427,7 @@ item.draconicevolution:wyvernBow.lore=2Infusing Draconium in a mundane bow\nallo
 item.draconicevolution:wyvernHelm.lore=2Stronger than diamond\nyou can now withstand even greater blows
 item.draconicevolution:wyvernChest.lore=2Infusing the armor with Draconium\nyou vastly improve its resistance
 item.draconicevolution:wyvernLeggs.lore=2You feel even stronger and faster now\nthat you have infused diamond legs with Draconium
-item.draconicevolution:wyvernBoots.lore=2You learn to improve the boots\nDraconium seems to have given you greater\nagility
+item.draconicevolution:wyvernBoots.lore=2You learn to improve the boots\nDraconium seems to have given you greater agility
 
 item.draconicevolution:draconicPickaxe.lore=2Great care and research has\nallowed you to mine even larger areas
 item.draconicevolution:draconicAxe.lore=2After lots of trial and error\nyou can now feel an entire tree with one try
@@ -436,10 +436,10 @@ item.draconicevolution:draconicHoe.lore=2Draconium even improves farming\nentire
 item.draconicevolution:draconicSword.lore=2Wyvern was good, but draconic weapons\nare even more powerful and hit more enemies
 item.draconicevolution:draconicBow.lore=2The peak of ranged perfection faster shooting,\nexplosive arrows, what more could you want?
 
-item.draconicevolution:draconicHelm.lore=2No longer do you fear the night\nyou now can see all the time regardless\nof what is out there
+item.draconicevolution:draconicHelm.lore=3No longer do you fear the night\nyou now can see all the time regardless\nof what is out there
 item.draconicevolution:draconicChest.lore=2Using the heart of a dragon\nyou are stronger and have the gift of flight
 item.draconicevolution:draconicLeggs.lore=2Even stronger armor\nthe soul of a dragon protects you and moves you even faster
-item.draconicevolution:draconicBoots.lore=2Stronger, faster, better than before\nthe heart of a dragon grants you\nhigher jumping
+item.draconicevolution:draconicBoots.lore=2Stronger, faster, better than before\nthe heart of a dragon grants you higher jumping
 
 item.draconicevolution:draconicDistructionStaff.lore=2A long and ardous road, true power!\none tool to do it all, mine, battle, and death!
 
@@ -547,6 +547,36 @@ button.de.rotate.txt=Rotate
 button.de.numeric.txt=Numeric:
 
 //Gui ----------------------------------------------------------------------------------------------------------------------------------------
+gui.de.numbers=%s
+
+gui.de.charges=Charges
+gui.de.rain.on=Turn rain on
+gui.de.rain.off=Turn rain off
+gui.de.rain.storm=Thunder Storm
+
+gui.de.weatherController.main.title=Weather Controller
+gui.de.playerDetector.main.title=Advanced Player Detector
+gui.de.grinder.main.title=Grinder
+gui.de.energyInfuser.main.title=Energy Infuser
+gui.de.generator.main.title=Generator
+gui.de.dissEnchanter.main.title=Disenchanter
+gui.de.draconiumChest.main.title=Draconic Chest
+gui.de.upgradeModifier.main.title=Upgrade Modifier
+gui.de.dislocatorInhibitor.main.title=Dislocator Inhibitor
+
+gui.de.playerDetector.whiteList=White List
+gui.de.playerDetector.blackList=Black List
+gui.de.playerDetector.camouflage=Camouflage
+gui.de.playerDetector.invertOutput=Invert Output
+gui.de.playerDetector.back=Back
+gui.de.playerDetector.pressEnter=Press Enter to save
+gui.de.playerDetector.range=Range
+gui.de.playerDetector.outputInvert=Output Inverted: %s
+
+gui.de.dissEnchanter.itemDamage1=Item
+gui.de.dissEnchanter.itemDamage2=Damage: %s
+gui.de.dissEnchanter.cost=Cost: %s
+
 gui.de.flowGate.name=Flow Control
 gui.de.flowGatePartialSignal.name=The actual flow will vary between the two given values depending on the strength of the redstone signal being supplied to the block.
 gui.de.flowGateCurrentFlow.name=Flow

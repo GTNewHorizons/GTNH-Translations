@@ -101,13 +101,18 @@ sodium.options.use_no_error_context.name=오류 컨텍스트 없음
 sodium.options.use_no_error_context.tooltip=활성화되면, OpenGL 컨텍스트가 오류 검사 기능이 비활성화된 상태로 생성됩니다. 이는 성능을 약간 향상시킬 수 있지만, OpenGL 오류를 우아하게 처리하지 못하고 게임이 충돌할 위험도 증가시킵니다. 갑작스럽고 설명할 수 없는 충돌이 발생하는 경우 이 옵션을 비활성화해야 합니다.
 sodium.options.async_occlusion_mode.name=Async Occlusion
 sodium.options.async_occlusion_mode.tooltip=비동기 오클루전 컬링을 사용할 렌더 패스를 제어합니다. ONLY_SHADOW(기본값)는 섀도 패스에서만 비동기 오클루전을 실행하고 기본 렌더 리스트는 동기식으로 유지합니다. EVERYTHING은 모든 패스를 비동기로 실행하며, 빠른 카메라 이동 시 1프레임의 가시성 지연이 발생할 수 있습니다. NONE은 비동기 오클루전을 완전히 비활성화합니다.
+sodium.options.async_occlusion_mode.none=None
+sodium.options.async_occlusion_mode.only_shadow=Only Shadow
+sodium.options.async_occlusion_mode.everything=Everything
 sodium.options.use_occlusion_culling.name=Occlusion Culling
 sodium.options.use_occlusion_culling.tooltip=활성화하면 다른 청크 뒤에 숨겨진 청크가 렌더링되지 않습니다. 비활성화하면 성능이 크게 저하되지만 디버깅에 유용할 수 있습니다.
 sodium.options.threads.value=%s 스레드
 sodium.options.default=Default
 sodium.options.buttons.undo=Undo
 sodium.options.buttons.apply=적용
-sodium.options.buttons.donate=Buy coffee for JellySquid!
+sodium.options.anaglyph.tooltip=If enabled, the world will be rendered twice with red/cyan color masks.
+sodium.options.show_cape.tooltip=If enabled, your cape will be shown.
+rso.search_bar_empty=Search options...
 
 options.dynamic_fov=동적 시야각
 options.dynamic_fov.tooltip=활성화되면, 플레이어의 속도에 따라 게임의 시야가 변경됩니다.
@@ -115,6 +120,15 @@ options.framerate=%s FPS
 
 iris.shaders.toggled=%s로 쉐이더를 전환했습니다!
 iris.shaders.disabled=셰이더가 비활성화되었습니다!
+iris.shaders.reloaded=Shaders Reloaded!
+iris.shaders.reloaded.failure=Failed to reload shaders! Reason: %s
+iris.shaders.toggled.failure=Failed to toggle shaders! Reason: %s
+
+key.category.iris.keybinds=Iris Keybinds
+iris.keybind.reload=Reload Shaders
+iris.keybind.toggleShaders=Toggle Shaders
+iris.keybind.shaderPackSelection=Shaderpack Selection Screen
+angelica.keybind.zoom=Zoom
 
 options.iris.apply=적용
 options.iris.refresh=새로고침
@@ -176,10 +190,14 @@ options.dynamic_lights_cull_timeout=Culling Timeout (ticks)
 options.dynamic_lights_cull_timeout.tooltip=숨겨진 청크가 강제로 재구성되기까지 기다릴 수 있는 최대 틱입니다. 값이 낮을수록 반응성이 좋아지지만 GPU 작업량이 늘어납니다.
 options.dynamiclights.page=동적 조명
 options.dynamiclights.entities=Configure Entities...
+options.dynamiclights.entities.tooltip=Choose which entity types emit dynamic light.
 options.dynamiclights.entities.title=동적 조명 - 엔티티
 options.dynamiclights.entities.info=동적 빛을 방출할 개체 타입을 전환합니다. 일부 항목은 모드 호환성을 위한 것입니다.
 options.dynamiclights.entities.search=검색 (@mod, $on, $off)
-options.dynamiclights.entity.tooltip=%s 개체에 대한 동적 조명을 전환합니다. 이 개체 유형이 원치 않는 조명을 방출할 경우 성능 향상을 위해 비활성화하세요.
+options.dynamiclights.entities.enableall=Enable All
+options.dynamiclights.entities.disableall=Disable All
+options.dynamiclights.entities.enableshown=Enable Shown
+options.dynamiclights.entities.disableshown=Disable Shown
 
 options.angelica.search.no_results=일치하는 옵션이 없습니다.
 options.angelica.fontconfig=글꼴 설정...
