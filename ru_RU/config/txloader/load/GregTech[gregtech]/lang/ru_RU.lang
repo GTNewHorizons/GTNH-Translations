@@ -290,9 +290,218 @@ gt.blockmachines.quantum.tank.name=Квантовый резервуар %s
 gt.blockmachines.super.chest.name=Супер сундук%s
 gt.blockmachines.super.tank.name=Супер резервуар %s
 gt.blockmachines.hatch.pattern_provider.name=Провайдер шаблонов создания (%s)
-gt.blockmachines.rockbreaker.name=Cryogenic Magma Solidifier R-%s
-gt.blockmachines.locker.desc=Stores and recharges Armor\nClick with Screwdriver to change Style
+gt.blockmachines.rockbreaker.name=Криогенный отвердитель магмы R-%s
+gt.blockmachines.locker.desc=Хранит и перезаряжает броню\nНажмите отвёрткой чтобы сменить тип
 gt.blockmachines.hatch.multi.input.name=Счетверенный входной шлюз (%s)
+gt.blockmachines.antimatterhatch.name=Antimatter Hatch
+
+gt.blockmachines.basicgenerator.diesel.tier.04.name=Turbo Supercharging Combustion Generator
+gt.blockmachines.basicgenerator.diesel.tier.05.name=Ultimate Chemical Energy Releaser
+gt.blockmachines.basicgenerator.rtg.tier.01.name=Radioisotope Thermoelectric Generator
+gt.blockmachines.basicgenerator.rtg.tier.01.tooltip=Requires RTG Pellets\nFuel is measured in minecraft days (Check with Scanner)\nRTG changes output voltage depending on fuel\nGenerates power at %s%% Efficiency per tick\nOutput Voltage: %s EU/t\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.boiler.bronze.name=Small Coal Boiler
+gt.blockmachines.boiler.bronze.tooltip=An early way to get Steam Power\nProduces 120L of Steam per second\nCauses 20 Pollution per second
+gt.blockmachines.boiler.lava.name=Reinforced Lava Boiler
+gt.blockmachines.boiler.lava.tooltip=A Boiler running off Lava\nProduces 600L of Steam per second\nCauses 20 Pollution per second\nConsumes 3.0L of Lava every 20 ticks when fully heat up
+gt.blockmachines.boiler.solar.name=Simple Solar Boiler
+gt.blockmachines.boiler.steel.name=Large Coal Boiler
+gt.blockmachines.boiler.steel.tooltip=Faster than the Bronze Boiler\nProduces 300L of Steam per second\nCauses 30 Pollution per second
+gt.blockmachines.boiler.steel.solar.name=Advanced Solar Boiler
+
+gt.blockmachines.bronzemachine.alloysmelter.name=Steam Alloy Smelter
+gt.blockmachines.bronzemachine.alloysmelter.tooltip=Combination Smelter\nMachine Type: §eAlloy Smelter§r
+gt.blockmachines.bronzemachine.compressor.name=Steam Compressor
+gt.blockmachines.bronzemachine.compressor.tooltip=Compressing Items\nMachine Type: §eCompressor§r
+gt.blockmachines.bronzemachine.extractor.name=Steam Extractor
+gt.blockmachines.bronzemachine.extractor.tooltip=Extracting your first Rubber\nMachine Type: §eExtractor§r
+gt.blockmachines.bronzemachine.furnace.name=Steam Furnace
+gt.blockmachines.bronzemachine.furnace.tooltip=Smelting things with compressed Steam\nMachine Type: §eFurnace§r
+gt.blockmachines.bronzemachine.hammer.name=Steam Forge Hammer
+gt.blockmachines.bronzemachine.hammer.tooltip=Forge Hammer\nMachine Type: §eForge Hammer§r
+gt.blockmachines.bronzemachine.macerator.name=Steam Macerator
+gt.blockmachines.bronzemachine.macerator.tooltip=Macerating your Ores\nMachine Type: §eMacerator§r
+
+gt.blockmachines.bw.radiohatchhv.name=Radio Hatch
+gt.blockmachines.bw.radiohatchhv.tooltip=Radioactive Item Chamber for Multiblocks\nUse a screwdriver to set the containment level\nAdded by bartimaeusnek via §2BartWorks§7
+
+gt.blockmachines.compressedfluidhatch.name=Liquid Air Fluid Hatch
+gt.blockmachines.creative_debug_scanner.name=Creative Debug Scanner
+gt.blockmachines.debug.tt.certain.name=Uncertainty Resolution
+gt.blockmachines.debugstructurewriter.name=Debug Structure Writer
+
+gt.blockmachines.electricboiler.1.tier.single.name=Advanced Boiler [LV]
+gt.blockmachines.electricboiler.1.tier.single.tooltip=Produces 750L of Steam per second\nProduces 35 pollution/sec\nConsumes fuel only when temperature is less than 100C\nFuel with burn time greater than 500 is more efficient.\nDoesn't explode if there's no water\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.electricboiler.2.tier.single.name=Advanced Boiler [MV]
+gt.blockmachines.electricboiler.2.tier.single.tooltip=Produces 1500L of Steam per second\nProduces 50 pollution/sec\nConsumes fuel only when temperature is less than 100C\nFuel with burn time greater than 500 is more efficient.\nDoesn't explode if there's no water\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.electricboiler.3.tier.single.name=Advanced Boiler [HV]
+gt.blockmachines.electricboiler.3.tier.single.tooltip=Produces 2250L of Steam per second\nProduces 65 pollution/sec\nConsumes fuel only when temperature is less than 100C\nFuel with burn time greater than 500 is more efficient.\nDoesn't explode if there's no water\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.electrodedetectorhatch.name=Electrode Detector Hatch
+gt.blockmachines.electrodedetectorhatch.tooltip=Can be installed in Electric Arc Furnace.\nOutput Redstone Signal according to the damage of electrode used in the machine.\nRight click to open the GUI and setting.
+
+gt.blockmachines.electrodehatch.name=Electrode Hatch
+gt.blockmachines.electrodehatch.tooltip=Holds an electrode.
+
+gt.blockmachines.fix.name.remover.name=Name Remover
+gt.blockmachines.fix.name.remover.tooltip=Removes various NBT tags as well as covers.\n \n§nFirst Slot§r\nThe item you want to strip of NBT\n \n§nSecond Slot§r\nOne of the following circuits:\n§lCircuit 1:§r  Attempt to fix broken ores by removing the Display Name tag\n§lCircuit 3:§r  Remove Railcraft stacking tag\n§lCircuit 4:§r  Remove Anvil repair tag\n§lCircuit 5:§r  Remove Dye from Leather armor\n§lCircuit 6:§r  Remove Spray color from GT items\n§lCircuit 7:§r  Remove Muffler Upgrade from GT machines\n§lCircuit 24:§r  Remove everything including covers. Be careful you won't recover the covers!\n \n§lNo Circuit:§r Remove everything except covers
+
+gt.blockmachines.focus_input_bus.name=Focus Input Bus
+gt.blockmachines.focus_input_bus.tooltip=Input Bus for Foci
+
+gt.blockmachines.ggfab.machine.linked_input_bus.name=Linked Input Bus
+gt.blockmachines.giantoutputhatch.name=Giant Output Hatch
+gt.blockmachines.gt.icecreammachine.name=Ice Cream Machine
+
+gt.blockmachines.hatch.advancedbeamlineoutput.name=Filtered Beam Output Hatch
+gt.blockmachines.hatch.air.intake.tier.00.name=Air Intake Hatch
+gt.blockmachines.hatch.air.intake.tier.01.name=Extreme Air Intake Hatch
+gt.blockmachines.hatch.air.intake.tier.01.tooltip=Fluid Input for Multiblocks\nCapacity: 256,000 L\nHatch Tier: §bZPM§r\n§cDO NOT OBSTRUCT THE INPUT!\nDraws in Air from the surrounding environment\nCreates 40000 of Air every 20 ticks\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.air.intake.tier.02.name=Atmospheric Intake Hatch
+gt.blockmachines.hatch.beamlineinput.name=Beam Input Hatch
+gt.blockmachines.hatch.beamlineoutput.name=Beam Output Hatch
+gt.blockmachines.hatch.blackholeutility.name=Black Hole Utility Hatch
+gt.blockmachines.hatch.blackholeutility.tooltip=Optional hatch for Pseudostable Black Hole Containment Field.\nStatic Mode: Emit a constant redstone signal when a black hole is open\nPulse Mode: Emit a pulse every second while a black hole is open\nPulse is perfectly synced to the internal timing of the machine\nRight click to open the GUI and change settings.
+gt.blockmachines.hatch.catalystbulk.name=Bulk Catalyst Housing
+gt.blockmachines.hatch.catalystbulk.tooltip=Dedicated Catalyst Storage\nWill keep its contents when broken
+gt.blockmachines.hatch.catalysts.name=Catalyst Housing
+gt.blockmachines.hatch.catalysts.tooltip=Dedicated Catalyst Storage\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.cokeoven.name=Coke Oven Hatch
+gt.blockmachines.hatch.cokeoven.tooltip=Hatch for automating the Coke Oven\n§m------------------------------\n§aModes§7: Input, Output, Output (Fluids)\nCycle mode with a Screwdriver
+gt.blockmachines.hatch.crafting_input.me.name=Crafting Input Buffer (ME)
+gt.blockmachines.hatch.crafting_input.me.item_only.name=Crafting Input Bus (ME)
+gt.blockmachines.hatch.crafting_input.proxy.name=Crafting Input Proxy
+gt.blockmachines.hatch.datain.wireless.tier.12.name=Cloud Computation Client Hatch
+gt.blockmachines.hatch.datain.wireless.tier.12.tooltip=Wireless Computation Data Input for Multiblocks
+gt.blockmachines.hatch.datainass.wireless.tier.12.name=Wireless Assembly Line Reception Connector
+gt.blockmachines.hatch.dataout.wireless.tier.12.name=Cloud Computation Server Hatch
+gt.blockmachines.hatch.dataout.wireless.tier.12.tooltip=Wireless Computation Output for Multiblocks
+gt.blockmachines.hatch.dataoutass.wireless.tier.12.name=Wireless Data Bank Transmission Connector
+gt.blockmachines.hatch.dataoutass.wireless.tier.12.tooltip=§9Tec§1Tech§9: Elemental Matter\nWireless ItemStack Data Output for Multiblocks\nHigh speed internet connection
+gt.blockmachines.hatch.degasifiercontrol.name=Degasser Control Hatch
+gt.blockmachines.hatch.degasifiercontrol.tooltip=Can be installed in the Degasser Purification Unit.\nOutputs Redstone Signal Strength based on the current control signal.
+gt.blockmachines.hatch.dronedownlink.name=Drone DownLink Module
+gt.blockmachines.hatch.dronedownlink.tooltip=Built-in powerful navigation beacon!
+gt.blockmachines.hatch.heatsensor.name=Heat Sensor Hatch
+gt.blockmachines.hatch.heatsensor.tooltip=Reads heat of a machine.\nSend redstone signal if the heat is greater than the threshold.\nRight click to open the GUI and change settings.
+gt.blockmachines.hatch.input.debug.name=Debug Input Hatch
+gt.blockmachines.hatch.input.me.name=Advanced Stocking Input Hatch (ME)
+gt.blockmachines.hatch.input.me.basic.name=Stocking Input Hatch (ME)
+gt.blockmachines.hatch.input_battery.tier.00.name=Charging Bus (MV)
+gt.blockmachines.hatch.input_battery.tier.00.tooltip=Chargeable Item Bus for Multiblocks\nCapacity: 4 slots\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.input_battery.tier.01.name=Charging Bus (EV)
+gt.blockmachines.hatch.input_battery.tier.01.tooltip=Chargeable Item Bus for Multiblocks\nCapacity: 16 slots\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.input_bus.debug.name=Debug Input Bus
+gt.blockmachines.hatch.input_bus.elementalorbholder.name=Data Orb Repository
+gt.blockmachines.hatch.input_bus.elementalorbholder.tooltip=Holds Data Orbs for the Elemental Duplicator\nCan insert/extract the circuit slot\nA circuit must be used to select a slot (1-16)\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.input_bus.me.name=Advanced Stocking Input Bus (ME)
+gt.blockmachines.hatch.input_bus.me.basic.name=Stocking Input Bus (ME)
+gt.blockmachines.hatch.input_bus.tier.steam.name=Input Bus (Steam)
+gt.blockmachines.hatch.lenshousing.name=Lens Housing
+gt.blockmachines.hatch.lensindicator.name=Lens Indicator Hatch
+gt.blockmachines.hatch.lensindicator.tooltip=Can be installed in the UV Treatment Purification Unit.\nOutputs Redstone Signal when a lens swap is requested.
+gt.blockmachines.hatch.mag_hatch.name=Electromagnet Housing
+gt.blockmachines.hatch.mag_hatch.tooltip=Holds electromagnet for the Magnetic Flux Exhibitor
+gt.blockmachines.hatch.maintenance.name=Maintenance Hatch
+gt.blockmachines.hatch.maintenance.tooltip=For maintaining multiblocks\nUse tools to fix issues.
+gt.blockmachines.hatch.maintenance.auto.name=Auto Maintenance Hatch
+gt.blockmachines.hatch.maintenance.auto.tooltip=For automatically maintaining multiblocks\nConsumes 4 Duct Tape, 2 Lubricant Cells,\n4 Steel Screws, and 2 HV Circuits\nfor each autorepair.
+gt.blockmachines.hatch.milling.name=Ball Housing
+gt.blockmachines.hatch.milling.tooltip=Dedicated Milling Ball Storage\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.multi.input.tier.11.name=Humongous Quadruple Input Hatch
+gt.blockmachines.hatch.multi.input.tier.11.tooltip=Fluid Input for Multiblocks\nCapacity: 500,000,000 L\nCan hold 4 types of fluid.
+gt.blockmachines.hatch.nanite.name=Nanite Containment Bus
+gt.blockmachines.hatch.nanite.tooltip=Holds nanites for use in multiblocks\nWill keep its contents when broken
+gt.blockmachines.hatch.nanite.singularity.name=Singularity Nanite Containment Bus
+gt.blockmachines.hatch.nanite.singularity.tooltip=Holds nanites for use in multiblocks\nWill keep its contents when broken
+gt.blockmachines.hatch.output.me.name=Output Hatch (ME)
+gt.blockmachines.hatch.output.me.tooltip=Fluid Output for Multiblocks\nCapacity: 0 L\nRight click with screwdriver to restrict output\nCan be restricted to put out Items and/or Steam/No Steam/1 specific Fluid\nRestricted Output Hatches are given priority for Multiblock Fluid output
+gt.blockmachines.hatch.output_battery.tier.00.name=Discharging Bus (MV)
+gt.blockmachines.hatch.output_battery.tier.00.tooltip=Dischargeable Item Bus for Multiblocks\nCapacity: 4 slots\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.output_battery.tier.01.name=Discharging Bus (EV)
+gt.blockmachines.hatch.output_battery.tier.01.tooltip=Dischargeable Item Bus for Multiblocks\nCapacity: 16 slots\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.output_bus.me.name=Output Bus (ME)
+gt.blockmachines.hatch.output_bus.me.tooltip=Item Output for Multiblocks\nCapacity: 25 stacks\nLeft click with data stick to save filter config\nRight click with data stick to load filter config
+gt.blockmachines.hatch.output_bus.tier.steam.name=Output Bus (Steam)
+gt.blockmachines.hatch.phsensor.name=pH Sensor Hatch
+gt.blockmachines.hatch.phsensor.tooltip=Can be installed in the pH Neutralization Purification Unit.\nOutputs Redstone Signal according to the current pH value.\nRight click to open the GUI and change settings.
+gt.blockmachines.hatch.splitter.redstone.name=Splitter Redstone Input
+gt.blockmachines.hatch.toxicresiduesensor.name=Toxic Residue Sensor Hatch
+gt.blockmachines.hatch.toxicresiduesensor.tooltip=Reads Toxic Residue of the Large Neutralization Engine\nRight click to open the GUI and change settings.
+gt.blockmachines.hatch.turbine.name=Rotor Assembly
+gt.blockmachines.hatch.turbine.tooltip=Turbine Rotor holder for XL Turbines\nRight Click with a soldering iron to reset controller link\nRight Click with a wrench to remove turbine\nRight Click with a screwdriver for technical information\nSneak + Right Click with a wrench to rotate\nSneak + Right Click with a screwdriver to disable animations\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.turbine.input.tier.00.name=Turbine Housing
+gt.blockmachines.hatch.void.tier.00.name=Void Hatch
+gt.blockmachines.hatch.void_bus.tier.00.name=Void Bus
+gt.blockmachines.hatch.water.intake.tier.00.name=Reservoir Hatch
+gt.blockmachines.hatch.wireless.transmitter.energized.tier.12.name=Energized Wireless Dynamo Hatch
+
+gt.blockmachines.hpmachine.alloysmelter.name=High Pressure Alloy Smelter
+gt.blockmachines.hpmachine.alloysmelter.tooltip=Combination Smelter\nMachine Type: §eAlloy Smelter§r
+gt.blockmachines.hpmachine.compressor.name=High Pressure Steam Compressor
+gt.blockmachines.hpmachine.compressor.tooltip=Compressing Items\nMachine Type: §eCompressor§r
+gt.blockmachines.hpmachine.extractor.name=High Pressure Steam Extractor
+gt.blockmachines.hpmachine.extractor.tooltip=Extracting your first Rubber\nMachine Type: §eExtractor§r
+gt.blockmachines.hpmachine.furnace.name=High Pressure Steam Furnace
+gt.blockmachines.hpmachine.furnace.tooltip=Smelting things with compressed Steam\nMachine Type: §eFurnace§r
+gt.blockmachines.hpmachine.hammer.name=High Pressure Steam Forge Hammer
+gt.blockmachines.hpmachine.hammer.tooltip=Forge Hammer\nMachine Type: §eForge Hammer§r
+gt.blockmachines.hpmachine.macerator.name=High Pressure Steam Macerator
+gt.blockmachines.hpmachine.macerator.tooltip=Macerating your Ores\nMachine Type: §eMacerator§r
+
+gt.blockmachines.hull.bronze.name=Bronze Hull
+gt.blockmachines.hull.bronze_bricked.name=Bricked Bronze Hull
+gt.blockmachines.hull.steel.name=Steel Hull
+gt.blockmachines.hull.steel_bricked.name=Bricked Cast Iron Hull
+
+gt.blockmachines.humongousinputhatch.name=Humongous Input Hatch
+
+gt.blockmachines.infinite.chest.tier.01.name=Infinite Item Chest
+gt.blockmachines.infinite.chest.tier.01.tooltip=This Chest stores 101250 Items\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.long.distance.pipeline.fluid.name=Long Distance Fluid Pipeline
+gt.blockmachines.long.distance.pipeline.item.name=Long Distance Item Pipeline
+
+gt.blockmachines.machine.tffthatch.name=TFFT Multi I/O Hatch
+gt.blockmachines.machine.tffthatch.tooltip=All-in-one access for the TFFT
+
+gt.blockmachines.modificationtable.name=Modification Table
+gt.blockmachines.modificationtable.tooltip=§bModifies Modular Mechanisms\nCan be used to alter Mechanical Armor\nInsert armor, then frame, then energy core, then augments\nRemove all augments before removing frame or core
+
+gt.blockmachines.multimachine.brickedblastfurnace.name=Bricked Blast Furnace
+
+gt.blockmachines.neutron_sensor.name=Neutron Sensor
+gt.blockmachines.neutron_sensor.tooltip=Can be installed in Neutron Activator.\nOutput Redstone Signal according to the Neutron Kinetic Energy.\nRight click to open the GUI and setting.
+
+gt.blockmachines.pollutioncreator.01.tier.single.name=Smog Device
+gt.blockmachines.pollutioncreator.01.tier.single.tooltip=Polluting the skies.\nA useful debug machine to create pollution.\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.pollutiondetector.01.tier.single.name=Pollution Detection Device
+gt.blockmachines.pollutiondetector.01.tier.single.tooltip=Tells you if you're living in Gwalior yet.\nRight click to check pollution levels.\nConfigure with screwdriver to set redstone output amount.\nDoes not use power.\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.quantum.tank.debug.name=Debug Fluid Tank
+gt.blockmachines.quantum.tank.debug.tooltip=Stores 2,147,483,640 L of fluid\nWill keep its contents when harvested
+
+gt.blockmachines.redstone.lamp.name=Redstone Controlled Lamp
+gt.blockmachines.redstone.lamp.tooltip=Redstone Controlled Lamp\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.solarreflector.simple.single.name=Solar Reflector
+gt.blockmachines.solarreflector.simple.single.tooltip=Part of the Clean Green energy movement\nPoint me at a Solar Tower\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.tesseract.generator.name=Tesseract Generator
+gt.blockmachines.tesseract.generator.tooltip=Generates a Tesseract for the attached Inventory\nConnect with pipes to insert items\nConsumes 512EU/t for same dimension transfers\nConsumes 2048EU/t for cross dimensional transfers\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.tesseract.terminal.name=Tesseract Terminal
+gt.blockmachines.tesseract.terminal.tooltip=Accesses Tesseract Generators remotely\nConnect with pipes to extract items or fluids\nOutputs from the back face\nConsumes 512EU/t for same dimension transfers\nConsumes 2048EU/t for cross dimensional transfers\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.vacuum.hatch.input.name=Vacuum Conveyor Input
+gt.blockmachines.vacuum.hatch.output.name=Vacuum Conveyor Output
+
+gt.blockmachines.voidminer1.name=Void Miner I
+gt.blockmachines.voidminer2.name=Void Miner II
+gt.blockmachines.voidminer3.name=Void Miner III
+
+gt.blockmachines.yottafluidtankhatch.name=YOTHatch
+gt.blockmachines.yottafluidtankhatch.tooltip=Special I/O port for AE2FC.\nDirectly connected YOTTank with AE fluid storage system.\nUse screwdriver to set storage priority\nUse soldering iron to set read/write mode\nUse wire cutter to enable/disable sticky mode
 gt.blockmachines.hull.name=%s Корпус механизма
 gt.blockmachines.advancedmachine.dehydrator.tier.01.name=Химический дегидратор I
 gt.blockmachines.advancedmachine.dehydrator.tier.02.name=Химический дегидратор II
@@ -321,16 +530,16 @@ gt.blockmachines.automation.regulator.name=%1$s Регулятор
 gt.blockmachines.automation.itemdistributor.name=%1$s Предметный распределитель
 gt.blockmachines.batterycharger.name=%1$s Зарядное устройство
 gt.blockmachines.batteryturbocharger.name=%1$s Турбо зарядка
-gt.blockmachines.batterycharger.desc=Each battery gives 8A in/4A out (min 4A/2A)
-gt.blockmachines.batteryturbocharger.desc=64A in /16A out, 120A/item, Disable to force Charge
-gt.blockmachines.automation.filter.desc=Filters up to 9 different Items\nUse Screwdriver to regulate output stack size
-gt.blockmachines.automation.typefilter.desc=Filters 1 Item Type\nUse Screwdriver to regulate output stack size
-gt.blockmachines.automation.recipefilter.desc=Filters 1 Recipe Type\nUse Screwdriver to regulate output stack size
-gt.blockmachines.automation.regulator.desc=Filters up to 9 different Items\nAllows Item-specific output stack size\nAllows Item-specific output slot
-gt.blockmachines.automation.itemdistributor.desc=Distributes Items between different Machine Sides\nDefault Items per Machine Side: 0\nUse Screwdriver to increase/decrease Items per Side
-gt.blockmachines.automation.buffer.desc=Buffers up to %1$s Item Stacks\nUse Screwdriver to regulate output stack size\n%2$s
-gt.blockmachines.automation.buffer.rate.desc=Moves %1$s stacks of 64 items every %2$s seconds
-gt.blockmachines.automation.buffer.rate.single.desc=Moves 1 stack of 64 items every %2$s seconds
+gt.blockmachines.batterycharger.desc=Каждый аккумулятор даёт 8A на вход и 4A на выход (мин. 4A/2A)
+gt.blockmachines.batteryturbocharger.desc=64A вход /16A выход, 120A/предмет, Отключить для принудительной зарядки
+gt.blockmachines.automation.filter.desc=Фильтрует до 9 разных предметов\nИспользуйте отвёртку, чтобы регулировать размер выходного стака
+gt.blockmachines.automation.typefilter.desc=Фильтрует 1 тип предмета\nИспользуйте отвёртку, чтобы регулировать размер выходного стака
+gt.blockmachines.automation.recipefilter.desc=Фильтрует 1 тип рецепта\nИспользуйте отвёртку, чтобы регулировать размер выходного стака
+gt.blockmachines.automation.regulator.desc=Фильтрует до 9 разных предметов\nРазрешает задать размер стака для конкретного предмета\nРазрешает для конкретного предмета выходной слот
+gt.blockmachines.automation.itemdistributor.desc=Распределяет предметы между разными сторонами механизма\nПо умолчанию предметы на стороне: 0\nИспользуйте отвёртку для увеличения/уменьшения предметов на стороне
+gt.blockmachines.automation.buffer.desc=Буфер до %1$s стаков\nИспользуйте отвёртку, чтобы регулировать размер выходного стака\n%2$s
+gt.blockmachines.automation.buffer.rate.desc=Перемещает стаки из 64 предметов: %1$s, каждые %2$s сек.
+gt.blockmachines.automation.buffer.rate.single.desc=Перемещает 1 стак из 64 предметов каждые %2$s сек.
 gt.blockmachines.basicmachine.accelerator.tier.01.name=Базовый мировой ускоритель
 gt.blockmachines.basicmachine.accelerator.tier.02.name=Продвинутый мировой ускоритель
 gt.blockmachines.basicmachine.accelerator.tier.03.name=Продвинутый мировой ускоритель II
@@ -1830,8 +2039,8 @@ gt.mbtt.structure.htgr_output_hatches=Top of tall tower (hot coolant), bottom of
 
 # Generic machine types
 gt.mbtt.machine_type.spacetime_manipulator=Пространственно-временной манипулятор, EOH
-gt.mbtt.machine_type.exotic_matter_producer=Exotic Matter Producer
-gt.mbtt.machine_type.blast_smelter=Blast Smelter
+gt.mbtt.machine_type.exotic_matter_producer=Производитель экзотической материи
+gt.mbtt.machine_type.blast_smelter=Доменная печь
 gt.mbtt.machine_type.blast_furnace=Доменная печь, Печь
 gt.mbtt.machine_type.plasma_fabricator=Производитель плазмы
 gt.mbtt.machine_type.stellar_forge=Звёздная Кузница
@@ -1843,10 +2052,10 @@ gt.mbtt.machine_type.heat_exchanger_ehe=теплообменник, EHE
 gt.mbtt.machine_type.neutron_activator=Нейтронный активатор, NA
 gt.mbtt.machine_type.precise_assembler=Прецизионный авто-сборщик, Сборочная машина, PrAss
 gt.mbtt.machine_type.fluid_tank=Жидкостный резервуар
-gt.mbtt.machine_type.component_assembler_coal=High-Capacity Component Assembler, CoAL
+gt.mbtt.machine_type.component_assembler_coal=Высокопроизводительный сборщик компонентов, CoAL
 gt.mbtt.machine_type.coolant_tower=Градирня
 gt.mbtt.machine_type.essentia_smeltery_les=Большая плавильня эссенции, LES
-gt.mbtt.machine_type.breeder_reactor_htgr=Breeder Reactor, HTGR
+gt.mbtt.machine_type.breeder_reactor_htgr=Реактор-размножитель, HTGR
 gt.mbtt.machine_type.arc_furnace_iaf=Дуговая печь, IAF
 
 GT5U.MBTT.HatchInfo=Любой %s
@@ -2122,23 +2331,35 @@ gt.recipe.icecreammachine=Ice Cream Machine
 gt.icecreammachine.tooltip.0=Sometimes it works
 gt.icecreammachine.broken.0.tooltip=The machine seems to be broken today. Try again tomorrow!
 gt.icecreammachine.broken.1.tooltip=The machine seems to be broken today. A qualified technician will fix it tomorrow.
-gt.icecreammachine.broken.2.tooltip=Somewhere, a gnome unplugged this machine for a nap.
+gt.icecreammachine.broken.2.tooltip=Somewhere, a gnome unplugged this machine for a nap. It'll be back on tomorrow.
 gt.icecreammachine.broken.3.tooltip=The ice cream machine is on strike. Ask again tomorrow.
-gt.icecreammachine.broken.4.tooltip=Out of order. It's not you, it's the machine.
-gt.icecreammachine.broken.5.tooltip=The machine is having an existential crisis. Give it a day.
+gt.icecreammachine.broken.4.tooltip=Out of order for today. It's not you, it's the machine. Try again tomorrow.
+gt.icecreammachine.broken.5.tooltip=The machine is having an existential crisis. It should be over by tomorrow.
 gt.icecreammachine.broken.6.tooltip=Someone forgot to feed the machine today. Try tomorrow.
-gt.icecreammachine.broken.7.tooltip=The machine is on a coffee break. It doesn't drink coffee, but still.
-gt.icecreammachine.broken.8.tooltip=404: Ice cream not found.
-gt.icecreammachine.broken.9.tooltip=The machine ate the last cone itself. No refunds.
-gt.icecreammachine.broken.10.tooltip=Mercury is in retrograde. So is this machine.
-gt.icecreammachine.broken.11.tooltip=The machine filed a complaint with HR. It's complicated.
+gt.icecreammachine.broken.7.tooltip=The machine is on a coffee break. It doesn't drink coffee, but still. Back tomorrow.
+gt.icecreammachine.broken.8.tooltip=404: Ice cream not found. Try again tomorrow.
+gt.icecreammachine.broken.9.tooltip=The machine ate the last cone itself. No refunds, but it'll have more tomorrow.
+gt.icecreammachine.broken.10.tooltip=Mercury is in retrograde. So is this machine. Should be fine tomorrow.
+gt.icecreammachine.broken.11.tooltip=The machine filed a complaint with HR. It's complicated. Try again tomorrow.
+gt.icecreammachine.broken.12.tooltip=The machine is stuck in a flashback to 1987. It'll snap out of it by tomorrow.
+gt.icecreammachine.broken.13.tooltip=A raccoon got into the machine and is refusing to leave. Pest control comes tomorrow.
+gt.icecreammachine.broken.14.tooltip=The machine unionized with the fridge next door. Negotiations resume tomorrow.
+gt.icecreammachine.broken.15.tooltip=Someone fed the machine a pickle instead of milk. It needs a day to recover.
+gt.icecreammachine.broken.16.tooltip=The machine achieved sentience, then immediately regretted it. Reboot scheduled for tomorrow.
+gt.icecreammachine.broken.17.tooltip=Ice cream machine says: "not today, Greg." Try again tomorrow.
+gt.icecreammachine.broken.18.tooltip=The machine is haunted by the ghost of a broken vending machine. Exorcism scheduled for tomorrow.
+gt.icecreammachine.broken.19.tooltip=Somebody used the machine as a pillow overnight. It needs until tomorrow to recover.
+gt.icecreammachine.broken.20.tooltip=The machine is buffering. Please check back tomorrow.
+gt.icecreammachine.broken.21.tooltip=A bee flew in and now runs the place. Management resumes tomorrow.
+gt.icecreammachine.broken.22.tooltip=The machine is mid-existential-warranty-dispute with itself. Resolved by tomorrow.
+gt.icecreammachine.broken.23.tooltip=Someone spilled sprinkles in the mainframe. Cleanup finishes tomorrow.
 gt.icecreammachine.repair.0.tooltip=The machine is broken! Insert an Iron Screw to fix it.
 gt.icecreammachine.repair.1.tooltip=The machine is broken! Insert a Steel Screw to fix it.
 gt.icecreammachine.repair.2.tooltip=The machine is broken! Insert a Small Iron Gear to fix it.
 gt.icecreammachine.repair.3.tooltip=The machine is broken! Insert a Fine Copper Wire to fix it.
 gt.icecreammachine.repair.4.tooltip=The machine is broken! Insert an Electric Motor (LV) to fix it.
 gt.icecreammachine.repairslot.tooltip=Repair Slot
-gt.icecreammachine.repairslot.tooltip.1=§7Insert a repair item here to fix the machine when broken
+gt.icecreammachine.repairslot.tooltip.1=§7Insert a Duct Tape or requested repair item here to fix the machine when broken
 gt.recipe.press=Формовочный пресс
 gt.recipe.press.description=Впечатывание изображений в вещи
 gt.recipe.fluidheater=Жидкостный нагреватель
@@ -2368,8 +2589,8 @@ GT5U.machines.digitalchest.voidoverflow.enabled=Пустотный режим п
 GT5U.machines.digitalchest.voidoverflow.disabled=Пустотный режим при переполнении §cОткл.§r
 GT5U.machines.digitalchest.inputfilter.enabled=Входной фильтр §aВкл.§r
 GT5U.machines.digitalchest.inputfilter.disabled=Входной фильтр §cОткл.§r
-GT5U.machines.digitalchest.tooltip=Stores %s items
-GT5U.machines.digitalchest.tooltip1=Use a screwdriver to enable\nvoiding items on overflow
+GT5U.machines.digitalchest.tooltip=Хранит %s предметов
+GT5U.machines.digitalchest.tooltip1=Используйте отвёртку, чтобы включить\nудаление предметов при переполнении
 GT5U.machines.digitaltank.tooltip=Хранит %s Л жидкости
 GT5U.machines.digitaltank.tooltip1=Сохраняет своё содержимое при сборе
 GT5U.machines.digitaltank.debugtooltip=Пополняется бесконечно
@@ -6328,7 +6549,8 @@ GT5U.waila.mebf.parallel=Текущий множитель параллелей:
 GT5U.waila.mebf.pyrotheum=Текущий расход пиротеума: §c%s§r/с
 GT5U.waila.boiler.temperature=§aТемпература: §6%s
 GT5U.waila.boiler.fuel_empty=§cТопливо закончилось
-
+GT5U.waila.monster_repellent.working_range=Range: §a%s§r blocks
+GT5U.waila.monster_repellent.unpowered=Unpowered
 
 GT5U.waila.mvf.speedboost=Текущий множитель скорости: §a%s
 GT5U.waila.mvf.cryotheum=Текущий расход криотеума: §3%s§r/с
@@ -7485,7 +7707,7 @@ gt.softmallet.mode.2=Режим деактивации
 # Tooltip for vajra
 gt.vajra.tooltip.flavor=Ваш дружеский мгновенный разрушитель блоков
 gt.vajra.tooltip.charge=Можно заряжать в любом %s механизме
-gt.vajra.tooltip.silk_touch=Shift+ПКМ по воздуху, чтобы переключить режим шёлкового касания
+gt.vajra.tooltip.silk_touch=Шёлковое касание: %s
 gt.vajra.tooltip.creative_break_cooldown=Creative break cooldown: %st
 gt.vajra.tooltip.right_click_breaking=Right-click breaking: %s
 gt.vajra.tooltip.configure=Sneak right click to configure
@@ -7509,8 +7731,8 @@ gt.NetworkAnalyzer.amperage.short=%s A / %s A
 gt.NetworkAnalyzer.amperage.input=↑%s A / %s A
 gt.NetworkAnalyzer.amperage.output=↓%s A / %s A
 gt.NetworkAnalyzer.amperage.full=↑%s A ↓%s A / %s A
-gt.NetworkAnalyzer.loss.short=%s%% loss
-gt.NetworkAnalyzer.loss.full=%s%% loss (%s V)
+gt.NetworkAnalyzer.loss.short=%s%% потеря
+gt.NetworkAnalyzer.loss.full=%s%% потеря (%s V)
 gt.NetworkAnalyzer.voltage.burn=§cBurns
 gt.NetworkAnalyzer.voltage.burn.full=§cWire burns: %s V / %s V
 gt.NetworkAnalyzer.voltage.explosion=§cExplodes
@@ -7712,7 +7934,7 @@ GT5U.die.frozen=%s замерз насмерть
 GT5U.die.boiled=%s был сварен заживо
 GT5U.die.exploded=%s взорвался
 
-gt.coilheattooltip=Теплопроизводительность =
+gt.coilheattooltip=Теплопроизводительность: %s Кельвинов
 
 GT5U.tootlip.tool.turbine.steam=Пар
 GT5U.tootlip.tool.turbine.loose=Форсированный
@@ -8683,7 +8905,7 @@ achievement.gt.blockmachines.hatch.datainass.wireless.tier.12.desc=Просто 
 achievement.gt.blockmachines.hatch.dataoutass.wireless.tier.12=Беспроводной разъем для банка данных
 achievement.gt.blockmachines.hatch.dataoutass.wireless.tier.12.desc=Просто посмотри рецепт в NEI
 achievement.gt.blockmachines.hatch.nanite=Хранилище нанитов
-achievement.gt.blockmachines.hatch.nanite.singularity=Singularity Nanite Containment Bus
+achievement.gt.blockmachines.hatch.nanite.singularity=Сингулярное хранилище нанитов
 achievement.gt.blockmachines.hatch.nanite.desc=Просто посмотри рецепт в NEI
 achievement.item.OriginNanoCircuit=Наносхема расколотого истока
 achievement.item.OriginNanoCircuit.desc=Просто посмотри рецепт в NEI
@@ -9431,7 +9653,7 @@ GT5U.gui.text.pause-next-step=Пауза на следующем шаге
 GT5U.gui.text.providing-nanites=Предоставляемые наниты:
 GT5U.gui.text.available-condensate=Доступный конденсат:
 GT5U.gui.text.bec-stored-condensate=Хранимый конденсат:
-GT5U.gui.text.nanite-detector-analog=Analog
+GT5U.gui.text.nanite-detector-analog=Аналоговый
 GT5U.gui.text.nanite-detector-tier=Тир %s
 
 # BEC I/O Node Structure Hints
@@ -9586,7 +9808,7 @@ gt.blockmachines.basicgenerator.lightningrod.tooltip=Генерирует EU и�
 
 # NEI Aliases
 gt.alias.debug=Отладка
-gt.alias.mechanical_armor=Mechanical Armor
+gt.alias.mechanical_armor=Механическая броня
 
 # Multiblocks
 gt.blockmachines.algaefarm.controller.tier.single.name=Ферма водорослей
@@ -9740,4 +9962,4 @@ gt.blockmachines.waterpump.controller.tier.single.name=Водяная помпа
 gt.blockmachines.hatch.dataaccess.adv.name=Продвинутый шлюз доступа к данным
 gt.blockmachines.hatch.dataaccess.auto.name=Автоматический шлюз доступа к данным
 gt.blockmachines.hatch.dataaccess.name=Шлюз доступа к данным
-gt.blockmachines.hatch.dataaccess.desc=Data Access for Multiblocks\nAdds %s extra slots for Data Sticks
+gt.blockmachines.hatch.dataaccess.desc=Доступ к данным для мультиблоков\nДобавляет %s дополнительных слотов для Флешек

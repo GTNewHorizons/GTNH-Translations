@@ -30,6 +30,7 @@ nei.bookmark.group.sorting=Переместить позицию
 nei.bookmark.group.remove_recipe=Удалить группу
 nei.bookmark.group.pull_items=Переместить все предметы
 nei.bookmark.group.pull_items_shift=Набор отсутствующих предметов
+nei.bookmark.group.open_crafting_tree=Open Crafting Tree
 nei.bookmark.group.craft_missing=Отсутствуют требуемые предметы крафта
 nei.bookmark.group.craft_all=Предметы крафта
 nei.bookmark.group.chat_link=Отправить группу закладок в чат
@@ -52,6 +53,45 @@ nei.bookmark.crafting_chain.output=Результаты
 nei.bookmark.crafting_chain.remainder=Остатки
 nei.bookmark.crafting_chain.needed=Необходимо скрафтить
 nei.bookmark.crafting_chain.available=Доступные предметы
+nei.bookmark.tree.title=Crafting Tree
+nei.bookmark.tree.empty=No crafting chain to display
+nei.bookmark.tree.overlay=Use for recipe tree
+nei.bookmark.tree.item.state.resolved=In inventory: %s
+nei.bookmark.tree.item.state.partial=Still needed: %s
+nei.bookmark.tree.item.state.craftable=Can be crafted
+nei.bookmark.tree.item.state.surplus=Extra produced: %s
+nei.bookmark.tree.item.toggle_recipe=Collapse/Expand Recipe
+
+nei.bookmark.tree.stats.handlers=Handlers
+nei.bookmark.tree.stats.ingredients=Ingredients
+nei.bookmark.tree.stats.ingredients_needed=Ingredients Needed
+nei.bookmark.tree.stats.ingredients_available=Ingredients Available
+nei.bookmark.tree.stats.results=Results
+nei.bookmark.tree.stats.remainders=Remainders
+nei.bookmark.tree.stats.crafting=Crafting
+nei.bookmark.tree.stats.crafting_needed=Crafting Needed
+nei.bookmark.tree.stats.crafting_available=Crafting Available
+nei.bookmark.tree.stats.handler_iterations=Iterations: %s
+nei.bookmark.tree.stats.handler_recipes=Unique Recipes: %s
+
+nei.bookmark.tree.stats.highlight_handler=Highlight Recipe Handler
+nei.bookmark.tree.stats.next_highlight=Go to Next Highlighted Handler
+nei.bookmark.tree.stats.prev_highlight=Go to Previous Highlighted Handler
+nei.bookmark.tree.stats.clear_highlight=Clear Handler Highlight
+
+nei.bookmark.tree.toolbar.inventory_off=Recompute tree using player inventory (snapshot)
+nei.bookmark.tree.toolbar.inventory_on=Using inventory snapshot - click to clear
+nei.bookmark.tree.toolbar.fit_to_view=Fit tree to view
+nei.bookmark.tree.toolbar.stats_off=Show stats panel
+nei.bookmark.tree.toolbar.stats_on=Hide stats panel
+nei.bookmark.tree.toolbar.stats_sections=Choose visible stats sections
+nei.bookmark.tree.toolbar.link=Send Bookmark Group to Chat
+nei.bookmark.tree.toolbar.collapse_resolved=Collapse items with nothing left to craft
+nei.bookmark.tree.toolbar.collapse_all=Collapse all nested items
+nei.bookmark.tree.toolbar.expand_all=Expand all nested items
+nei.bookmark.tree.toolbar.screenshot=Save tree as image
+nei.bookmark.tree.screenshot.fbo_unsupported=Could not save crafting tree screenshot: framebuffers are not supported
+
 nei.inventory.search.placeholder=Поиск...
 nei.itempanel.quantity.default=Один стак
 nei.itempanel.loading=Загрузка списка предметов...
@@ -123,7 +163,14 @@ nei.inventory.current.gamemode.2=Текущий режим игры: творч�
 nei.inventory.current.gamemode.3=Текущий режим игры: приключение
 nei.inventory.tooltip.page=Страница: %s / %s [Нажмите %s для перехода на следующую страницу]
 nei.inventory.tooltip.count.item=Количество: %s
+
+itemGroup.neiFluids=Fluids
+
 nei.inventory.tooltip.count.fluid=Количество: %s
+nei.inventory.tooltip.temperature.fluid=Temperature: %sK
+nei.inventory.tooltip.state.fluid=State: %s
+nei.inventory.tooltip.state.fluid.gas=Gas
+nei.inventory.tooltip.state.fluid.liquid=Liquid
 
 nei.inventory.gamemode.0=Установить игровой режим на выживание
 nei.inventory.gamemode.1=Установить игровой режим на творческий
@@ -200,6 +247,7 @@ nei.options.keys.gui.search=Сфокусироваться на панели п�
 nei.options.keys.bookmark.add=Добавить закладку
 nei.options.keys.bookmark.remove_recipe=Удалить группу из закладок (Shift +)
 nei.options.keys.bookmark.pull_items=Переместить все предметы из закладок
+nei.options.keys.bookmark.open_crafting_tree=Open Crafting Tree Window
 nei.options.keys.bookmark.hide=Переключить видимость панели закладок
 nei.options.keys.bookmark.chat_link=Отправить ссылку в чат (Ctrl +)
 nei.options.keys.gui.overlay=Заполнить/наложить сетку крафта
@@ -486,6 +534,14 @@ nei.options.inventory.itemUntranslator=Отключить перевод пре�
 nei.options.inventory.itemUntranslator.true=Включено
 nei.options.inventory.itemUntranslator.false=Отключено
 
+nei.options.inventory.tooltip=Tooltips
+nei.options.inventory.tooltip.showFluidTemperature=Show Fluid Temperature
+nei.options.inventory.tooltip.showFluidTemperature.true=Yes
+nei.options.inventory.tooltip.showFluidTemperature.false=No
+nei.options.inventory.tooltip.showFluidState=Show Fluid State
+nei.options.inventory.tooltip.showFluidState.true=Yes
+nei.options.inventory.tooltip.showFluidState.false=No
+
 nei.options.command=Команды
 nei.options.command.creative=Режим игры
 nei.options.command.creative.tip={0} = 1 для творческого режима, 0 для выживания, {1} = игрок
@@ -576,6 +632,7 @@ nei.debug.RecipeHandler.reset=Сбросить
 
 nei.recipe.page=Страница %s/%s
 nei.recipe.tooltip=Рецепты
+nei.recipe.fluid.tank.amount=Amount: %s
 nei.recipe.tab.view_all.tooltip=Просмотреть все категории
 nei.recipe.search.tooltip.name=Синтаксис фильтра
 nei.recipe.search.tooltip.shift=&7Удерживайте &6Shift&7 для большей информации
@@ -674,6 +731,7 @@ nei.subsets.Items.Armor.Boots=Ботинки
 nei.subsets.Items.Armor.Chestplates=Нагрудники
 nei.subsets.Items.Armor.Helmets=Шлемы
 nei.subsets.Items.Armor.Leggings=Поножи
+nei.subsets.Items.Fluids=Fluids
 nei.subsets.Items.Food=Еда
 nei.subsets.Items.Potions=Зелья
 nei.subsets.Items.Potions.Ingredients=Ингредиенты
@@ -691,6 +749,9 @@ nei.subsets.Items.Weapons=Оружие
 nei.subsets.Items.Weapons.Ranged=Дальнобойное
 nei.subsets.Items.Weapons.Swords=Мечи
 nei.subsets.Untranslated=Untranslated
+nei.subsets.Favorites=Favorites
+nei.subsets.Favorites.Manual=Manual
+nei.subsets.Favorites.Generated=Generated
 nei.subsets.Mod=Мод
 
 nei.presets.new=Новый пресет

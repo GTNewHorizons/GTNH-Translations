@@ -9,4 +9,4 @@ navigation:
 
 # GregTech: New Horizons
 
-<FloatingImage src="/assets/images/gtnh-logo.png" x="0" y="0" width="135" height="110" scaleX="7.585185" scaleY="7.585185" align="left" title="GTNH Logo" />
+&lt;FloatingImage src="/assets/images/gtnh-logo.png" x="0" y="0" width="135" height="110" scaleX="7.585185" scaleY="7.585185" align="left" title="GTNH Logo" /&gt;
