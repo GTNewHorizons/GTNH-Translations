@@ -1,57 +1,57 @@
-Creates a pocket of spacetime that is bigger on the inside using transdimensional
-engineering. Certified Time Lord regulation compliant. This multi uses too much EU
-to be handled with conventional means. All EU requirements are handled directly by
-your wireless EU network
+使用超维度引擎，创造一块远超内部空间的压缩时空场
+时间领主认证。
+这台多方块机器需要太多EU，无法用常规手段供能。
+由无线EU网络直接供给EU。
 {gold:{hr:87}}
-This multiblock will constantly consume hydrogen and helium when it is not running a
-recipe once per second. It will store this internally, you can see the totals by
-using a scanner. This multi also has three tiered blocks with {red}9{gray} tiers
-each. They are as follows and have the associated effects on the multi:
-{blue}Spacetime Compression Field Generator:
-- The tier of this block determines what recipes can be run. If the multiblocks
-  spacetime compression field block exceeds the requirements of the recipe it
-  will decrease the processing time by {red}3%{gray} per tier over the requirement (multiplicative)
-{blue}Time Dilation Field Generator:
-- Decreases the time required for a recipe by {red}50%{gray} per tier of block (multiplicative)
-  Decreases the probability of a recipe succeeding by {red}9.25%{gray} per tier (additive)
-{blue}Stabilisation Field Generator:
-- Increases the probability of a recipe succeeding by {red}5%{gray} per tier (additive)
-  Decreases the yield of a recipe by {red}5%{gray} per tier (additive).
-  > Low tier stabilisation field generators have a power output penalty
-     The power output penalty for using Crude Stabilisation Field Generators is {red}40%
-     This penalty decreases by {red}5%{gray} per tier (additive)
+即便没有运行配方，多方块也会持续消耗氢气和氦气。
+这些氢气和氦气将存储于内部，可通过扫描仪查看总量。
+这台多方块机器需要3种方块，每种方块有{red}9{gray}个等级。
+这些方块对多方块机器均有相关影响，如下所示：
+{blue}压缩时空场发生器：
+- 本方块的等级决定多方块机器可运行的配方等级。
+  当其等级超过配方所需等级时，每超过1个等级，
+  处理时间减少{red}3%{gray}（乘法叠加）
+{blue}时间膨胀场发生器：
+- 每级减少配方所需时间{red}50%{gray}（乘法叠加）
+  每级减少配方成功几率{red}9.25%{gray}（加法叠加）
+{blue}稳定力场发生器：
+- 每级增加配方成功几率{red}5%{gray}（加法叠加）
+  每级降低配方收益{red}5%{gray}（加法叠加）。
+  > 使用低等级的稳定力场发生器将损失输出功率
+     使用粗制稳定力场发生器的输出功率损失为{red}40%
+     发生器等级每提升一级，可减少{red}5%{gray}的损失（加法叠加）
 {gold:{hr:87}}
-Going over a recipe requirement on hydrogen or helium has a penalty on yield and recipe chance
-All stored hydrogen and helium is consumed during a craft. The associated formulas are:
-{green}Overflow ratio = (Stored fluid / Recipe requirement) - 1
-{green}Adjustment value = 1 - exp(-(30 * Overflow ratio)^2)
-The Adjustment value is then subtracted from the total yield and recipe chance
+提供超过配方所需的氢气和氦气，将减少配方产量与成功几率
+一次合成将消耗所有存储的氢气和氦气。相关公式如下：
+{green}溢流比 = (已存储流体 / 所需流体) - 1
+{green}调整值 = 1 - exp(-(30 * 溢流比)^2)
+配方产量与成功几率分别减去调整值
 {gold:{hr:87}}
-It should be noted that base recipe chance is determined per recipe and yield always starts
-at 1 and subtracts depending on penalties. All fluid/item outputs are multiplied by the
-yield. Failure fluid is exempt
+请注意，配方基础成功几率由每个配方给定，初始产量均为1，
+基于调整值做减法。所有流体/物品输出需乘以产量系数。
+失败流体除外
 {gold:{hr:87}}
-This multiblock can only output to ME output buses/hatches
+这台多方块机器只支持ME输出总线/输出仓
 {gold:{hr:87}}
-This multiblock can be overclocked by placing a programmed circuit into the input bus
-E.g. A circuit of 2 will provide 2 OCs, 16x EU input and 0.25x the time. EU output is unaffected
-All outputs are equal. All item and fluid output chances & amounts per recipe are unaffected
+在输入总线中放入编程电路进行超频
+例如，编程电路#2提供2次超频，16x总耗电，0.25x时间
+而输出的物品与流体的几率&数量以及EU不受影响
 {gold:{hr:87}}
-If a recipe fails the EOH will output {green}Success chance * 14,400 * (2.0)^(Recipe tier){gray}L of molten
-SpaceTime instead of fluid/item outputs and output as much EU as a successful recipe
+如果配方失败，鸿蒙之眼将输出{green}成功几率 * 14,400 * (2.0)^(配方等级){gray}L的熔融时空。
+并输出与成功运行相同的EU(配方成功与否不影响EU的产出)
 {gold:{hr:87}}
-This multiblock can perform parallel processing by placing Astral Array Fabricators into the input bus
-They are stored internally and can be retrieved via right-clicking the controller with a wire cutter
-The maximum amount of stored Astral Arrays is 8,637. Parallel amount is calculated via these formulas:
-{green}Parallel exponent = floor(log(8 * Astral Array amount) / log(1.7))
-{green}Parallel = 2^(Parallel exponent)
-If the EOH is running parallel recipes, the power calculation changes
-The power needed for parallel processing is calculated as follows:
-{green}total EU = ((EU output - EU input * 1.63) / 20.7) * 2.3^(Parallel exponent)
-Furthermore, if parallel recipes are run, the recipes consume Condensed Raw Stellar Plasma Mixture
-instead of helium and hydrogen. Overflow penalties still apply
-The required amount of fluid to start a recipe is {green}12.4 / 10^6 * Helium amount * Parallel
-The success or failure of each parallel is determined independently
+在输入总线中放入星阵可以执行并行处理
+星阵将被储存在机器内部，可手持剪线钳右键主方块以取出
+星阵的最大存储量是8637个。并行通过以下公式计算：
+{green}并行指数 = 向下取整(log(8 * 星阵数量) / log(1.7))
+{green}并行 = 2^(并行指数)
+如果鸿蒙之眼运行并行配方，能量相关计算也会改变
+并行处理时的能源需求计算如下：
+{green}总EU = ((能量输出  - 能量输入 * 1.63) / 20.7) * 2.3^(并行指数)
+另外，如果运行并行配方，则消耗浓缩原始恒星等离子体混合物
+而非氦气和氢气。溢出减益效果仍然适用。
+启动配方所需要的流体数量为 {green}12.4 / 10^6 * 氦数量 * 并行数
+每个并行的成败都是独立计算的
 {gold:{hr:87}}
-Animations can be disabled by using a screwdriver on the multiblock
-Planet block can be inserted directly by right-clicking the controller with planet block
+用螺丝刀右键主机可以设置关闭动画特效
+手持维度标记方块右键主方块可直接放入该维度标记方块

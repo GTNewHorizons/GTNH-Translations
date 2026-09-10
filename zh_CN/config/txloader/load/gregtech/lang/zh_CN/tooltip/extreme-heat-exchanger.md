@@ -1,15 +1,15 @@
-Inputs are {red:Lava}, {red:Hot Coolant}, {red:Hot Solar Salt}, or {red:Plasma}
-Outputs are {blue:Pahoehoe Lava}, {blue:IC2 Coolant}, {blue:Cold Solar Salt}, or {blue:Molten Metal}
-Converts distilled water into {white:SH Steam} or {white:SC Steam} in the process
-Outputs {white:SC Steam} if the input rate of hot fluid is above a certain {light_purple:threshold}
-Explodes immediately if it runs out of distilled water
+输入为{red:岩浆}、{red:热冷却液}、{red:热太阳能盐}或{red:等离子体}
+输出为{blue:熔岩岩浆}、{blue:IC2冷却液}、{blue:冷太阳能盐}或{blue:熔融金属}
+过程中将蒸馏水转化为{white:过热蒸汽}或{white:超临界蒸汽}
+若高温流体输入速率超过特定{light_purple:阈值}，则输出{white:超临界蒸汽}
+蒸馏水耗尽时会立即爆炸
 {gray:{hr}}
-{red:Lava} | SC Threshold {light_purple:80,000 {var:unit}/s} | Max Input {red:160,000 {var:unit}/s} | Max Output {white:640,000 {var:unit}/t SC Steam}
-{red:Hot Coolant} | SC Threshold {light_purple:8,000 {var:unit}/s} | Max Input {red:128,000 {var:unit}/s} | Max Output {white:1,280,000 {var:unit}/t SC Steam}
-{red:Hot Solar Salt} | SC Threshold {light_purple:1,600 {var:unit}/s} | Max Input {red:3,200 {var:unit}/s} | Max Output {white:160,000 {var:unit}/t SC Steam}
+{red:熔岩} | 超临界阈值 {light_purple:80,000 {var:unit}/s} | 最大输入 {red:160,000 {var:unit}/s} | 最大输出 {white:640,000 {var:unit}/t 超临界蒸汽}
+{red:热冷却液} | 超临界阈值 {light_purple:8,000 {var:unit}/s} | 最大输入 {red:128,000 {var:unit}/s} | 最大输出 {white:1,280,000 {var:unit}/t 超临界蒸汽}
+{red:热太阳能盐} | 超临界阈值 {light_purple:1,600 {var:unit}/s} | 最大输入 {red:3,200 {var:unit}/s} | 最大输出 {white:160,000 {var:unit}/t 超临界蒸汽}
 {gray:{hr}}
-{red:Plasma} always outputs {white:Dense SC Steam} regardless of input rate
-The max input and output rates depend on the plasma's density (EU/L)
+{red:等离子体}无论输入速率如何，始终输出{white:致密超临界蒸汽}
+最大输入与输出速率取决于等离子体的密度（EU/L）
 {gray:{hr}}
-A circuit in the controller lowers the SC threshold at the cost of steam
-{light_purple:-150 {var:unit}/s} SC Threshold and {white:-1.5%} steam output per circuit over 1
+控制器中的电路能以降低蒸汽产量为代价来降低超临界阈值
+每超过1个电路，{light_purple:-150 {var:unit}/s} 超临界阈值和{white:-1.5%}蒸汽输出

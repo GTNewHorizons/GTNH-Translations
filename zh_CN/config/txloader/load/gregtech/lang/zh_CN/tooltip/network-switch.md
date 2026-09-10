@@ -1,7 +1,7 @@
-Distributes computation to transmission connectors based on weights.
-Transmission connectors are assigned an ID.
-Scan connectors with a Portable Scanner to determine their ID.
+根据权重将计算分配到传输接入器。
+发送接口被分配了一个ID。
+使用便携式扫描仪扫描连接器以确定其ID。
 {gray:{hr}}
-Computation output is configured via TecTech parameters.
-The first parameter in each group controls the hatch ID.
-The second parameter in each group controls the hatch weight.
+算力输出由TecTech参数配置。
+每组中的第一个参数控制这个仓的ID。
+每组中的第二个参数控制这个仓的权重。

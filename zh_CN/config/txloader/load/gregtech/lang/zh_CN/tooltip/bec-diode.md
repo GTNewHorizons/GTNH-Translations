@@ -1,12 +1,12 @@
-{aqua:{bold:Maxwell's Demon's Big Brother}}
-Controls the flow of condensate in the network.
-Condensate that is present in the left hatch's network will be exposed to the right hatch's network.
-The opposite is not true; condensate can only flow in one direction.
-A {gold:{item:gregtech:gt.blockmachines:15754}} can only push condensate from the right hatch into the left hatch.
-Using a {gold:{item:gregtech:gt.metaitem.01:32730}} on the controller will enable or disable transfers.
-Consumes {green:1A UIV} while active, regardless of the network's status.
+{aqua:{bold:麦克斯韦妖的大哥}}
+控制网络中凝聚态物质的流动。
+存在于左侧仓室网络中的凝聚态物质将对右侧仓室的网络可见。
+反之则不然；凝聚态物质只能单向流动。
+{gold:{item:gregtech:gt.blockmachines:15754}}只能将凝聚态物质从右侧仓室推入左侧仓室。
+在控制器上使用{gold:{item:gregtech:gt.metaitem.01:32730}}将启用或禁用传输。
+激活时消耗{green:1A UIV}，不受网络状态影响。
 {dark_gray:{hr}}
-Condensate can be filtered in the parameters window, with one filter slot per condensate type.
-When no filters are set, all condensate is allowed through.
-Attaching fluid input hatches overrides the filters, mapping each contained fluid to its condensate.
-Stocking input hatches use their configured fluids.
+可在参数窗口中对凝聚态物质进行过滤，每种凝聚态物质一个过滤槽位。
+未设置过滤器时，所有凝聚态物质均可通过。
+安装流体输入仓将覆盖过滤器设置，将每种所含流体映射到其对应的凝聚态物质。
+存储输入仓则使用其配置的流体。

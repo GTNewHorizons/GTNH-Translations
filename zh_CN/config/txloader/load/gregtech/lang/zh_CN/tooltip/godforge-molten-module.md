@@ -1,8 +1,8 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for high temperature material liquefaction
+这是诸神之锻炉的一个模块
+必须安装于诸神之锻炉上才能工作
+用于在高温下将材料熔融
 {aqua:{hr:74}}
-The second module of the Godforge, this module melts materials directly into
-their liquid form. If an output material does not have a liquid form, it will be output
-as a regular solid instead
-This module is specialized towards parallel processing
+诸神之锻炉的第二种模块，能够将材料直接熔化为液态.
+若有输出材料没有液体形式，
+它将仍以固体形式输出
+这一模块专注于并行处理

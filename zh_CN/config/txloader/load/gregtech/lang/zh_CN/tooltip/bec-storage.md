@@ -1,13 +1,13 @@
-Contained condensate is exposed to all observation arrays on the current network.
-Condensate routing can be controlled by using a {gold:{item:gregtech:gt.blockmachines:15760}}.
+存储的凝聚态物质将对当前网络中的所有观测阵列开放。
+可通过{gold:{item:gregtech:gt.blockmachines:15760}}来控制凝聚态物质的路由。
 {dark_gray:{hr}}
-Storage capacity is controlled by the field strength.
-The field strength is configurable in the UI. It can also be set by a computer.
-{gold:1} unit of field strength can store {gold:1L} of condensate, and consumes {gold:1} EU/t.
-When multiple containment fields are present on a network, injected condensate is split based on their capacities.
+存储容量由场强决定。
+场强可在UI中配置，也可由计算机设置。
+{gold:1}单位场强可存储{gold:1L}凝聚态物质，并消耗{gold:1} EU/t。
+当网络中存在多个约束场时，注入的凝聚态物质将根据各自容量进行分配。
 {dark_gray:{hr}}
-Excess condensate can be inserted into the containment field, but it will quickly be {red:{underline:voided}}.
-When a containment field is overfilled, {red:{underline:11%}} of its condensate is deleted each second.
-If a containment field shuts down at any point, its contents will be {red:{underline:voided}}.
+多余的凝聚态物质可注入约束场，但会立即被{red:{underline:销毁}}。
+当约束场超量填充时，每秒将损失{red:{underline:11%}}的凝聚态物质。
+若约束场在任何时候关闭，其内容物将被{red:{underline:销毁}}。
 {dark_gray:{hr}}
-The {gold:{item:gregtech:gt.blockmachines:15761}} can be used to detect stored condensate levels.
+{gold:{item:gregtech:gt.blockmachines:15761}}可用于探测储存的凝聚态物质水平。

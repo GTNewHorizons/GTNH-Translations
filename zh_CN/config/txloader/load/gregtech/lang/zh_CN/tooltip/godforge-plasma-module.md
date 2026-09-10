@@ -1,8 +1,8 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for extreme temperature matter ionization
+这是诸神之锻炉的一个模块
+必须安装于诸神之锻炉上才能工作
+用于在极端温度下将物质离子化
 {aqua:{hr:74}}
-The third module of the Godforge, this module infuses materials with extreme amounts
-of heat, ionizing and turning them into plasma directly. Not all plasmas can be produced
-right away, some of them require certain upgrades to be unlocked
-This module is specialized towards energy and overclock efficiency
+诸神之锻炉的第三种模块，向材料中注入极大量的热能，
+将其电离并直接转化为等离子体。
+并非所有等离子都可以直接制造，某些配方需要特定的升级解锁
+这一模块专注于能量消耗和超频效率

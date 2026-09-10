@@ -1,4 +1,4 @@
-Module that adds the Space Assembler to the Space Elevator
-§d§lIs this really necessary?
-Runs at UIV at §a150%§7 speed with up to §616§7 parallels
+将太空组装功能添加到太空电梯
+§d§l这真的有必要吗？
+运行电压：UIV，速度加成：§a150%§7，最大并行：§616§7
 {lang:gt.blockmachines.multimachine.project.ig.motorT3}

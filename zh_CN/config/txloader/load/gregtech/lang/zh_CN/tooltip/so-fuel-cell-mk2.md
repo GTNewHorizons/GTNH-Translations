@@ -1,6 +1,6 @@
-Oxidizes gas fuels to generate electricity without polluting the environment
-Consumes up to {var:euPerTickX20}EU worth of fuel with up to 100% efficiency each second
-Nitrobenzene and other gas fuels above 1,000 EU/L are more efficient
-Superheated (SH) Steam production requires the SOFC to heat up completely first
-Outputs {var:euPerTick}EU/t and {var:steamPerSec}L/s SH Steam
-Additionally, requires {var:oxygenPerSec}L/s Oxygen gas
+氧化气体燃料发电，无环境污染
+每秒消耗最多{var:euPerTickX20}EU的燃料，效率最高可达100%
+硝基苯及其他燃值超过1,000 EU/L的燃料效率更高
+待固体氧化物燃料电池完全预热后方可产生过热蒸汽
+输出{var:euPerTick}EU/t及{var:steamPerSec}L/s过热蒸汽
+额外需要{var:oxygenPerSec}L/s氧气

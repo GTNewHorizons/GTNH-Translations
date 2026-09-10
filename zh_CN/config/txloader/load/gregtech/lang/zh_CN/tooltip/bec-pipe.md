@@ -1,6 +1,6 @@
-Machine Type: {yellow:BEC Conduit}
-Connects several Bose-Einstein Condensate multiblocks together into a network.
-Multiblocks must have a {gold:{item:gregtech:gt.blockmachines:15476}} that connects to a conduit to connect to the network.
-Use a {gold:{item:gregtech:gt.blockmachines:15760}} to control the flow of condensate.
-Can split and turn - multiblocks just have to be connected to link together.
-Will only connect to pipes and hatches that match its color.
+机器类型：{yellow:玻-爱凝聚态物质导管}
+将多个玻色-爱因斯坦凝聚态物质的多方块结构连接成一个网络。
+多方块结构必须拥有一个{gold:{item:gregtech:gt.blockmachines:15476}}，该仓室连接导管后才能接入网络。
+使用{gold:{item:gregtech:gt.blockmachines:15760}}来控制凝聚态物质的流动。
+管道可拆分或转向——多方块结构只需互相连接即可组网。
+只会连接与其颜色匹配的管道及仓室。

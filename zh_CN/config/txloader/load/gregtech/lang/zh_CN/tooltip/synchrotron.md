@@ -1,24 +1,24 @@
-Accelerates particle beams until they produce a photon beam from the relativistic Larmor effect
-Electrically neutral §5particles§7 and beams with less than 25 §2Focus§7 are therefore unaffected
+加速粒子束流，以使其通过相对论性拉莫尔效应产生光子束流
+因此电中性§5粒子§7和§2聚焦§7低于25的束流不受影响
 {lang:gtnhlanth.tt.beaminfo}
 {gray:{hr}}
-Requires §f32,000 {var:fluidUnit}/s§7 of §bcoolant§7 to run, returns as §chot coolant
+运行需要消耗§f 32,000 {var:fluidUnit}/s§7的§b冷却剂§7，并返回§c热冷却剂
 {lang:gtnhlanth.tt.coolant.oxygen}
 {lang:gtnhlanth.tt.coolant.nitrogen}
 {lang:gtnhlanth.tt.coolant.coolant}
 {lang:gtnhlanth.tt.coolant.Scoolant}
 {gray:{hr}}
-Increasing power increases the §6Output Beam Rate
-Preserve §2Beam Focus§7 more effectively with lower temperature §bcoolant
-Increasing the tier of the §dAntenna Casings§7 improves the efficiency of the machine
-The §9energies§7 in the following formulae must all be in keV
+提升功率可提升§6输出束流通量
+使用温度更低的§b冷却液§7能降低§2束流聚焦§7的损耗
+升级§d天线机械方块§7的等级以提升机器性能
+以下公式中的所有§9能量§7单位必须为千电子伏特（keV）
 {gray:{hr}}
-§9Output Beam Energy§f = §eIR§f * §ePower Scale Factor
-where §eIR§f = (§9Input Beam Energy§f)^(1.13 * (§dAntenna Tier§f)^(4/9)) / 40,000,000
-and §ePower Scale Factor§f = 1 - 0.15^(§3Total EU/t Provided§f / (30,384 * (§dAntenna Tier§f)^2.5))
+§9输出束流能量§f = §eIR§f * §e功率系数
+其中 §eIR§f = (§9输入束流能量§f)^(1.13 * (§d天线等级§f)^(4/9)) / 40,000,000
+且 §e功率系数§f = 1 - 0.15^(§3总输入EU/t§f / (30,384 * (§d天线等级§f)^2.5))
 {gray:{hr}}
-§2Output Beam Focus§f = (§2Input Beam Focus§f + §eMachine Focus§f)/2.5§7 if §2Input Beam Focus§f > §eMachine Focus
-§2Output Beam Focus§f = §2Input Beam Focus§f * §eMachine Focus§f/100§7 if §2Input Beam Focus§f <= §eMachine Focus
-where §eMachine Focus§f = max(10, min(90, 1.5^(12 - §bCoolant Temperature§f/40)))
+若 §2输入束流聚焦§f > §e机器聚焦§7，则 §2输出束流聚焦§f = (§2输入束流聚焦§f + §e机器聚焦§f) / 2.5
+若 §2输入束流聚焦§f ≤ §e机器聚焦§7，则 §2输出束流聚焦§f = §2输入束流聚焦§f * §e机器聚焦§f / 100
+其中 §e机器聚焦§f = max(10, min(90, 1.5^(12 - §b冷却剂温度§f/40)))
 {gray:{hr}}
-§6Output Beam Rate§f = floor(2.5^(§dAntenna Tier§f) * sqrt(§3Total EU/t Provided§f) * §6Input Beam Rate§f/15,000)
+§6输出束流通量§f = floor( 2.5^(§d天线等级§f) * sqrt(§3总输入EU/t§f) * §6输入束流通量§f / 15,000)

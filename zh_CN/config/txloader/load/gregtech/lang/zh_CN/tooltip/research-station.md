@@ -1,6 +1,6 @@
-Used to scan Data Sticks for Assembly Line Recipes
-Needs to be fed with computation to work
-Does not consume the item until the Data Stick is written
-Use screwdriver to change mode
-Computation required in scanner mode follows the formula:
-Recipe duration in ticks * (2 ^ (Recipe voltage tier - 1))
+用于扫描物品，生成装配线配方闪存
+需要为其提供算力
+在完成闪存写入之前不会消耗物品
+使用螺丝刀切换模式.
+扫描模式所需计算遵循公式：
+配方持续时间（tick）* (2 ^ (配方电压等级 - 1))

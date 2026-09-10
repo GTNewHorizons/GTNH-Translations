@@ -1,8 +1,8 @@
-Module that adds Space Pumping Operations to the Space Elevator
-§d§lS U C C
+将太空钻机功能添加到太空电梯
+§d§l吸 干 抹 净
 {lang:gt.blockmachines.multimachine.project.ig.desc2}
-Set Planet and Gas Type determine pumped fluid
-Can be void protected by locking output hatches
-Runs at UXV with up to §a64 §7parallels per recipe
-Processes up to §a4 §7different recipes at once
+设定的行星和气体类型决定了输出的流体
+锁定输出仓即可防止溢出销毁
+运行电压：UXV，每个配方的最大并行：§a64§7
+一次处理多达§a4§7种不同的配方
 {lang:gt.blockmachines.multimachine.project.ig.motorT4}

@@ -1,2 +1,2 @@
-Forces the recipe checker to consume this many sets of ingredients at minimum.
-This is useful for controlling recipe speed when your automation is unreliable.
+强制配方检测器至少消耗这么多组材料。
+当你的自动化不可靠时，这有助于控制配方速度。

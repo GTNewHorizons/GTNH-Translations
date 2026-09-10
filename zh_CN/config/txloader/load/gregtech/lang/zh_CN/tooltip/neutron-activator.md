@@ -1,9 +1,9 @@
-Superluminal-velocity Motion.
-The minimum height of the Speeding Pipe Casing is 4
-Per extra Speeding Pipe Casing will give time discount
-But it will reduce the Neutron Accelerator efficiency
-You need to input energy to the Neutron Accelerator to get it running
-It will output correct products with Specific Neutron Kinetic Energy
-Otherwise it will output trash
-The Neutron Kinetic Energy will decrease 72KeV/s when no Neutron Accelerator is running
-Inputting Graphite/Beryllium dust can reduce 10MeV per dust immediately.
+超光速运动
+高速管道方块的最低高度为4
+每个额外的高速管道方块都会缩短处理时间
+但也会降低中子加速器的效率
+为中子加速器供能使其运行
+指定的中子动能可以输出正确的产物
+否则将产出废料
+当没有加速器运行时，中子动能以 72KeV/s 的速度衰减
+输入的石墨/铍粉可以立即吸收10MeV中子动能.

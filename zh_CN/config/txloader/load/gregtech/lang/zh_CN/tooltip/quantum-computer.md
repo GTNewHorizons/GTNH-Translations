@@ -1,3 +1,3 @@
-Controller block of the Quantum Computer
-Used to generate computation (and heat)
-Use screwdriver to toggle wireless mode
+量子计算机的控制器方块
+用于生成算力（以及热量）
+使用螺丝刀切换无线模式

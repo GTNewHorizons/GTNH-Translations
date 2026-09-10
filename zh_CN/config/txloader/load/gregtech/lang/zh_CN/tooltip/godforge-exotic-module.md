@@ -1,9 +1,9 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for ultra high temperature matter degeneration
+这是诸神之锻炉的一个模块
+必须安装于诸神之锻炉上才能工作
+用于极端温度下的物质异化
 {aqua:{hr:75}}
-The fourth and final module of the Godforge, this module breaks apart the very
-building blocks of matter, producing exotic mixtures in the process. Quark-Gluon Plasma
-can be manufactured right away, but production of Magnetic Monopole Matter (Magmatter)
-requires a fully upgraded Godforge
-This module is specialized towards acquisition of unique materials
+诸神之锻炉的第四种也是最后一种模块，足以将物质的基本组成部分破坏，
+并在此过程中形成异化的混合物. 夸克-胶子等离子体可以无需升级制造，
+但磁单极子物质（磁物质）的生产
+需要完成诸神锻炉的所有升级
+这一模块专注于独特材料的获取

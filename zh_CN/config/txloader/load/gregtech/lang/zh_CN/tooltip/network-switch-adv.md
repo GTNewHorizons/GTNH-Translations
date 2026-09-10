@@ -1,8 +1,8 @@
-Variable-length version of the Weighted Network Switch.
+可变长度的加权网络交换机。
 {gray:{hr}}
-Consumes §b524,288§7 EU/t per middle slice while active.
+每个激活的中间片消耗§b524,288§7 EU/t
 {gray:{hr}}
-Computation output is configured by right clicking transmission connectors with a screwdriver.
-Transmission connectors must be part of the structure for them to be configurable.
-Computation output for a hatch is directly controlled by the hatch's setting.
-For weighted computation distribution, use the §6{var:switch-name}§r.
+算力输出由螺丝刀右击发送接口设置
+发送接口必须是结构的一部分才能进行配置
+接口的算力输出直接由其设置控制
+要进行加权的算力分配，使用§6{var:switch-name}§r。

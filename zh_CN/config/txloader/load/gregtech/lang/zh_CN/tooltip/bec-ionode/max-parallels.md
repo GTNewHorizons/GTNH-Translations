@@ -1,1 +1,1 @@
-Equivalent to the Power Panel option.
+等同于功率面板选项。

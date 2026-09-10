@@ -1,6 +1,6 @@
-Controller block of the Microwave Grinder
-Starts a timer when enabled
-While the timer is running anything inside the machine will take damage
-The machine will also collect any items inside of it
-Can be configured with a Parametrizer
-(Do not insert a Wither)
+微波发生仪的控制器方块
+机器启动时开启一个计时器
+计时器运行时，机器中的一切都会受到伤害
+机器也会自动收集内部掉落物
+可通过参数仪进行配置
+(别塞只凋灵进去)

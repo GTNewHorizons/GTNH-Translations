@@ -1,2 +1,2 @@
-Input Water and Fluid, output Fluid
-Fluids must be input in the exact ratio as listed in NEI
+输入水和流体，输出流体
+流体必须按照NEI中列出的精确比例输入

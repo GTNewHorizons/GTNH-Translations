@@ -1,25 +1,25 @@
-Spawns and kills monsters for you!
-Produces §a120 Liquid XP§7 per operation
-Powered Spawner goes in Controller Slot
-Base energy usage: §b1920§7 EU/t
-Supports §dperfect OC!
+为你生成并击杀怪物！
+每次运作产出 §a120 液态经验§7
+将动力刷怪笼放入控制器槽位
+基础能量消耗：§b1920§7 EU/t
+支持§d完美超频！
 {gray:{hr}}
-Has a minimum recipe time of 20 ticks, further overclocks multiply outputs by 4x
-Recipe time is based on mob health
-You can additionally put a weapon inside the GUI
-It will speed up the process and apply the looting level from the weapon (maximum 4 levels)
-Enable Weapon Preservation to prevent the weapon from breaking on it's last hit
-Enable Weapon Cycling to pull a weapon from input when the current one breaks or is moved to an output
-§cEnchanting the spikes inside the structure does nothing!
+最低配方时间为20刻，进一步超频将使产出倍增4倍
+配方时间取决于怪物生命值
+你还可以在GUI中放入武器
+这将加速处理过程，并应用武器的抢夺等级（最大4级）
+启用武器保护可防止武器在最后一击时损坏
+启用武器循环可在当前武器损坏或被移至输出槽时从输入槽中抽取新武器
+§c给结构内部的锥刺附魔是无效的！
 {gray:{hr}}
-If the mob spawns §cinfernal§7, it will drain 8 times more power!
-You can prevent §cinfernal§7 spawns by shift clicking with a screwdriver
-Mobs who are always §cinfernal§7 will ignore this factor
+如果怪物可以生成§c精英怪§7，其能量消耗将增加8倍！
+你可以通过使用螺丝刀潜行右击来阻止§c精英怪§7生成
+始终为§c精英怪§7的怪物将无视此因素
 {gray:{hr}}
-You can enable ritual mode with a screwdriver
-When in ritual mode, can link to above Well of Suffering rituals
-The Ritual must be built directly centered above the machine
-When linked, mobs will start to buffer and die very slowly, providing blood to the linked altar
+你可以使用螺丝刀启用仪式模式
+处于仪式模式时，可以连接到上方放置的苦难之井仪式
+仪式必须直接构建在机器的正上方中心位置
+连接后，怪物将被缓和伤害并极缓慢地死亡，为连接的祭坛提供生命本质
 {gray:{hr}}
-You can disable mob animation with a soldering iron
-You can enable batch mode with wire cutters. Providing §916x Time, Output, Weapon Damage
+可以使用电烙铁禁用怪物动画
+可以使用剪线钳启用批处理模式，提供§9 16倍的时间、产出、武器伤害

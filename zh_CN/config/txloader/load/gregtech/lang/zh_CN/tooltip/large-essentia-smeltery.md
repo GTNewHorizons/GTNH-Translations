@@ -1,6 +1,6 @@
-Necessary evil
-Advanced Essentia smelting technology
-Maximum parallel = 2^Tier * (Length - 1)
-Diffusion Cell Tiers start from 0, Length is full multi length
-Energy Hatch tier: HV+
-You can find more information about this machine in the Thaumonomicon
+必要之恶
+先进的源质冶炼科技
+最大并行：2^等级 * (长度 - 1)
+扩散单元等级起始为0，长度为多方块结构总长
+能源仓等级：HV+
+以在魔导手册中找到该机器的更多信息

@@ -1,1 +1,1 @@
-Input ores and fluid, output water
+输入矿物和流体，输出水

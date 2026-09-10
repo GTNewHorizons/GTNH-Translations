@@ -1,7 +1,7 @@
-Can be equipped with up to §a12 §7Space Elevator Modules
-Motor tier limits module tier and amount of possible modules
-Each module has its own space for IO, except energy
-Energy is supplied to this controller and gets distributed
-Starting from §dMotor MK-III §7the structure can be expanded to fit §a24 §7modules
-Max module amount is §a6§7/§912§7/§d15§7/§618§7/§c24§7 for §aMK-I§7/§9MK-II§7/§dMK-III§7/§6MK-IV§7/§cMK-V§7 motors correspondingly
-Disabling this controller also pauses all modules
+最多能配备§a 12 §7个太空电梯模块
+加速轨道等级限制了模块等级与可安装的模块数量
+每个模块有各自独立的输入输出空间，统一供电
+由本控制器接收能量供应并将能量分发
+§dMK-III§7及以上加速轨道可以扩展此结构支持§a24§7个模块
+加速轨道§aMK-I§7/§9MK-II§7/§dMK-III§7/§6MK-IV§7/§cMK-V§7的最大模块数量分别为§a6§7/§912§7/§d15§7/§618§7/§c24§7个
+禁用此控制器也会暂停所有模块

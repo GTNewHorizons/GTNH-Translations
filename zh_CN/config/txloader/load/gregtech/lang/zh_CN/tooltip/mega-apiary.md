@@ -1,32 +1,32 @@
-The ideal home for your bees
-Use screwdriver to change primary mode (INPUT/OUTPUT/OPERATING)
-Use screwdriver + shift to change operation mode (NORMAL/SWARMER)
+蜜蜂的理想家园
+使用螺丝刀切换基础模式（输入/输出/运行）
+手持螺丝刀Shift+右键以切换运行模式（常规/蜂群）
 {gray:{hr}}
-{gold:Input Mode:}
-- Does not take power
-- Put your queens in the input bus to put them in the internal buffer
+{gold:输入模式：}
+- 不消耗能量
+- 请将蜂后放入输入总线，机器会将其放入内部缓存区
 {gray:{hr}}
-{gold:Output Mode:}
-- Does not take power
-- Will give your bees back to output bus
+{gold:输出模式：}
+- 不消耗能量
+- 会将你的蜜蜂重新输出到总线中
 {gray:{hr}}
-{gold:Operating Mode:}
-- NORMAL:
-  - Processing time: 5 seconds
-  - Uses 1 {var:voltageTier6} amp per queen
-  - All bees are accelerated 64 times
-  - 8 production upgrades are applied
-  - Genetic Stabilizer upgrade applied
-  - Simulates perfect environment for your bees
-  - Additionally you can provide royal jelly to increase the outputs:
-    - 1 royal jelly grants 5% bonus per bee
-    - They will be consumed on each start of operation
-    - and be applied to that operation only
-    - Max bonus: 200%
-- SWARMER:
-  - You can only insert 1 queen
-  - It will slowly produce ignoble princesses
-  - Consumes 100 royal jelly per operation
-  - Base processing time: 1 minute
-  - Uses 1 amp {var:voltageTier5}
-  - Can overclock
+{gold:运行模式：}
+- 常规：
+  - 运行时间：5秒
+  - 每只蜂后消耗1A {var:voltageTier6}
+  - 所有蜜蜂加速64倍
+  - 自带8个产量升级
+  - 自带基因稳定升级
+  - 为你的蜜蜂模拟完美的环境
+  - 另外，你可以提供蜂王浆以提高产量：
+    - 1个蜂王浆为每只蜜蜂提供5%的增益
+    - 每次运行开始时消耗蜂王浆
+    - 只对当次运行生效
+    - 最大增益：200%
+- 蜂群：
+  - 只能放入1只蜂后
+  - 它会缓慢生产卑贱种公主蜂
+  - 每次运行消耗100蜂王浆
+  - 基础运行时间：1分钟
+  - 消耗1A {var:voltageTier5}
+  - 可以超频

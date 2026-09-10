@@ -1,4 +1,4 @@
-Connects to another {gold:{item:gregtech:gt.blockmachines:15481}}.
-Connectors must face each other.
-Opaque blocks prevent connections.
-The maximum distance between two connectors is {gold:{var:range}} blocks.
+连接到另一个{gold:{item:gregtech:gt.blockmachines:15481}}。
+连接仓必须面向对方。
+使用不透明方块阻断连接。
+两个连接仓之间的最大距离为{gold:{var:range}}个方块。

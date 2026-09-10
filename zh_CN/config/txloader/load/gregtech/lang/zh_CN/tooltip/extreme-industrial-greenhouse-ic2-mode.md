@@ -1,13 +1,13 @@
 {gray:{hr}}
-{red:DEPRECATED}
-{gold:IC2 Crops:}
-Minimal voltage tier: {var:minVoltageTier}
-Minimal glass tier: {var:minGlassTier}
-Starting with {var:startingSlotCount} slot
-Every tier past {var:minVoltageTier}, slots are multiplied by {var:slotPerTierMultiplier}
-Every slot adds {var:seedCapacityPerSlot} seed to the total seed capacity
-Process time: 5 sec
-All crops are accelerated by x{var:acceleration} times
-Can consume up to {var:maxFertilizerUsagePerSeed} fertilizer per seed per cycle
-Boost per fertilizer: {var:fertilizerBonus}
-Weed-EX 9000 consumption is multiplied by {var:weedExMultiplier}
+{red:已弃用}
+{gold:IC2杂交作物：}
+最低电压等级：{var:minVoltageTier}
+最低玻璃等级：{var:minGlassTier}
+初始槽位数：{var:startingSlotCount}
+{var:minVoltageTier}后的每个等级槽位数×{var:slotPerTierMultiplier}
+每槽为总种子容量增加{var:seedCapacityPerSlot}株作物
+运行时间：5秒
+所有作物生长加速{var:acceleration}倍
+每株作物每周期至多消耗{var:maxFertilizerUsagePerSeed}份肥料
+每份肥料加速：{var:fertilizerBonus}
+除草剂-9000消耗乘{var:weedExMultiplier}倍

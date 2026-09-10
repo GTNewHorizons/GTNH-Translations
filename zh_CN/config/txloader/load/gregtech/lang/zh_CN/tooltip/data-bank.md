@@ -1,4 +1,4 @@
-Controller block of the Data Bank
-Used to supply Assembly Lines with more Data Sticks
-and give multiple Assembly Lines access to the same Data Stick
-Use screwdriver to toggle wireless mode
+数据库的控制器方块
+为装配线提供更多闪存
+还可使多条装配线访问同一闪存
+使用螺丝刀切换无线模式

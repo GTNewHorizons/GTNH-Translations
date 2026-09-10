@@ -1,15 +1,15 @@
-Generates particle beams from specific §dsource materials
+使用特定的§d粒子源材料产生粒子束流
 {lang:gtnhlanth.tt.beaminfo}
 {gray:{hr}}
-NEI has the list of §dsource materials§7 and their stats
-Recipes are all one second long and output a single beam packet
-Increasing the power above the §3EU/t Required§7 asymptotically approaches the §dMax Material Energy
+NEI显示§d粒子源材料§7列表及属性
+所有配方持续时间均为1秒，产出1个束流包
+在§3需求EU/t§7之上，提高输入功率会能量渐进地接近§d最大材料能量
 {gray:{hr}}
-Particle beams have a §5particle type§7, §9energy§7, §2focus§7, and §6rate
-§5Type§7 determines the charge, rest mass, and §9Max Particle Energy
-§9Energy§7 is the energy of the particle beam in electron volts (eV)
-§2Focus§7 is the width of the particle beam
-§6Rate§7 is the amount of particles per packet
+粒子束流具有§5类型§7、§9能量§7、§2聚焦§7和§6通量
+§5类型§7决定电荷、静质量和§9最大粒子能量
+§9能量§7代表粒子束流携带的能量，单位为电子伏特（eV）
+§2聚焦§7代表粒子束流的宽度
+§6通量§7代表粒子束流中每包的粒子数量
 {gray:{hr}}
-§9Output Beam Energy§f = min(§9Max Particle Energy§7, §eaeV§f)
-where §eaeV§f = §dMax Material Energy§f * (1 - 1.001^(§9-Energy Ratio§f * (§3EU/t Provided§f - §3EU/t Required§f)))
+§9输出束流能量§f = min(§9最大粒子能量§7, §eaeV§f)
+其中 §eaeV§f = §d最大材料能量§f * (1 - 1.001^(§9-能量比率§f × (§3提供的 EU/t§f - §3需求的 EU/t§f)))

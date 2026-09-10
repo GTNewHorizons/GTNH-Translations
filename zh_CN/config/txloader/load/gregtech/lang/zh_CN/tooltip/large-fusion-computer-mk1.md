@@ -1,6 +1,6 @@
-Power overload!!!
-{aqua:{var:power}} EU/t and {aqua:{var:capacity}M} EU capacity per Energy Hatch
-If the recipe has a startup cost greater than the
-number of energy hatches * cap, you can't do it
-If the recipe requires a voltage tier over {var:tier}{gray:, you can't do it either}
-Has {white:(1 + }{light_purple:Machine Tier}{white: - }{green:Recipe Tier}{white:) * 64}{gold: Parallels}
+功率过载！！！
+每个能源仓提供{aqua:{var:power}} EU/t的输入与{aqua:{var:capacity}M} EU的容量
+当合成启动能量高于
+能源仓数*容量时，聚变将无法进行
+当配方需求电压超过{var:tier}{gray}时，无法进行聚变
+并行：{white:(1 + }{light_purple:机器等级}{white: - }{green:配方等级}{white:) * 64}{gold:}

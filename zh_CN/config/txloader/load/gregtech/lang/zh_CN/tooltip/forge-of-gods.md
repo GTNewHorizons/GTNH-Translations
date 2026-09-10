@@ -1,15 +1,15 @@
-{italic}Also known as Godforge or Gorge for short
+{italic}也称神之锻炉，或简称神锻
 {aqua:{hr:73}}
-A massive structure harnessing the thermal, gravitational and
-kinetic energy of a stabilised neutron star for material processing
-This multiblock can house {red}up to 16 modules {gray}which utilize the star to energize materials
-to varying degrees, ranging from regular smelting to matter degeneration
-EU requirements for all modules are handled via wireless energy directly
+一台操纵来自稳定化的中子星的
+热能、引力能与动能以处理材料的巨构
+这台多方块能够安装{red:最多16个模块}{gray}，以利用中子星之力充能材料
+来达到各种目的，从常规的熔炼到改变物质性质
+所有模块都是只从无线EU网络直接接收能量
 {aqua:{hr:73}}
-This multiblock has an {gold}extensive upgrade tree {gray}which influences all of its functions,
-such as {gold}unlocking new module types{gray}, {gold}increasing heat levels {gray}and {gold}granting
-{gold}various processing speed bonuses{gray}. These upgrades can be unlocked by reaching
-certain milestones and/or spending materials
+这台多方块拥有一个{gold}扩展升级树 {gray}，影响其所有功能，
+包括{gold}解锁新的模块类型{gray}，{gold}提升热能等级{gray}以及{gold}获得
+{gold}多种处理速度提升{gray}。这些升级需要抵达特定的里程碑
+和/或消耗材料来解锁
 {aqua:{hr:73}}
-{green}Clicking on the logo in the controller gui opens an extensive information window{gray},
-explaining everything there is to know about this multiblock
+{green}点击控制器GUI中的图标以打开额外信息窗口{gray}，
+其中包含此多方块的各类帮助信息

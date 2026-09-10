@@ -1,5 +1,5 @@
-Machine Type: {yellow:BEC I/O Node Controller Hatch}
-Temporarily pauses a {gold:{item:gregtech:gt.blockmachines:15757}} when the hatch receives a redstone signal.
-Nodes can be paused immediately, or upon entering the next step.
-Paused nodes do not consume condensate and do not fail due to contaminants.
-Nodes can be paused before starting a recipe, which will cause them to idle immediately when a recipe starts.
+机器类型：{yellow:玻-爱凝聚态物质传送节点控制仓}
+当该仓接收到红石信号时，暂时暂停{gold:{item:gregtech:gt.blockmachines:15757}}。
+节点可立即暂停，或在进入下一步骤时暂停。
+暂停的节点不消耗凝聚态物质，也不会因污染物而失败。
+节点可在配方开始前暂停，这会使配方开始后节点立即进入空闲状态。

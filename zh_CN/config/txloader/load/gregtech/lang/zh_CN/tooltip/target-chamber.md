@@ -1,10 +1,10 @@
-Engraves wafers with a photon beam and distinct §dMasks§7 or templates
+使用光子束和特定§d掩模§7或模板在晶圆上刻印电路
 {lang:gtnhlanth.tt.beaminfo}
 {gray:{hr}}
-Engraving recipes all have their own suitable §9Beam Energy§7 range,
-minimum §2Beam Focus§7, minimum §6Beam Rate§7, and minimum §3EU/t Requirement
-§dMasks§7 also have limited durability, degrading by 1 with each engraving
+刻印配方具有其需求的§9束流能量§7范围，
+最低§2束流聚焦§7、最低§6束流通量§7以及最低§3EU/t需求
+§d掩膜§7的耐久度有限，每次刻印减少1点
 {gray:{hr}}
-Processing speed is determined solely by the §6Beam Rate§7, not the §3EU/t Provided
-§fRecipe Duration = 5 seconds * §6Required Beam Rate§f / §6Input Beam Rate
-Can process the entire durability of all §dMasks§7 of one type in a single tick
+处理速度仅由§6束流通量§7决定，无关§3提供的EU/t
+§f处理时间 = 5 秒 * §6所需最低通量§f / §6输入束流通量
+每tick最多可处理的总量，取决于所有同种§d掩模§7的耐久度之和

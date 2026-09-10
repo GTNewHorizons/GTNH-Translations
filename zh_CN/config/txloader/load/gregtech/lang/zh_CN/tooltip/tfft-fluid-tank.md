@@ -1,8 +1,8 @@
-High-Tech fluid tank that can hold up to 25 different fluids!
-Partitions 1/25th of the total capacity for each fluid, no overflowing allowed
-Right clicking the controller with a screwdriver enables excess voiding
-Fluid storage amount and running cost depends on the Storage Field Block used
+高科技储罐，最多可容纳25种不同的液体!
+为每种流体分配其总容量的1/25，不允许超出
+使用螺丝刀右键控制器方块可开启流体溢出销毁功能
+流体存储量和运行消耗取决于所使用的存储库方块（可混用）
 {gray:{hr}}
-Note on hatch locking:
-Use an Integrated Circuit in the GUI slot to limit which fluid is output
-The index of a stored fluid can be obtained through the Tricorder
+输入仓与输出仓锁定注意事项:
+在GUI槽位中使用集成电路来限制输出哪种流体
+可以通过三录仪获取存储流体的信息

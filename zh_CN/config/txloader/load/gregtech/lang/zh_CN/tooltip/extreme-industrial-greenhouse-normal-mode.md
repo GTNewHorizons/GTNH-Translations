@@ -1,12 +1,12 @@
 {gray:{hr}}
-{gold:Normal Crops:}
-Minimal voltage tier: {var:minVoltageTier}
-Starting with {var:startingSlotCount} slot
-Every tier past {var:minVoltageTier}, slots are multiplied by {var:slotPerTierMultiplier}
-Every slot adds {var:seedCapacityPerSlot} seed to the total seed capacity
-Base process time: 5 sec
-Process time is divided by number of tiers past {var:minVoltageTierMinus1} (Minimum 1 sec)
-All crops are grown at the end of the operation
-Does not drop seeds
-Can consume up to {var:maxFertilizerUsagePerSeed} fertilizer per seed per cycle
-Boost per fertilizer: {var:fertilizerBonus}
+{gold:普通作物：}
+最低电压等级：{var:minVoltageTier}
+初始槽位数：{var:startingSlotCount}
+{var:minVoltageTier}后的每个等级槽位数×{var:slotPerTierMultiplier}
+每槽为总种子容量增加{var:seedCapacityPerSlot}株作物
+基础运行时间：5秒
+实际运行时间=基础运行时间/超出{var:minVoltageTierMinus1}的等级数（最低1秒）
+有作物将在运行结束时完成生长
+不会掉落种子
+每株作物每周期至多消耗{var:maxFertilizerUsagePerSeed}份肥料
+每份肥料加速：{var:fertilizerBonus}

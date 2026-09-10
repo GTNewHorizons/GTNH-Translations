@@ -1,11 +1,11 @@
-Assembly Line with item pipelining
-All fluids are consumed at the start of the recipe
-Recipe tier is limited by the lowest Energy Hatch tier
+支持流水线式操作物品的装配线
+所有流体在配方开始时即消耗完毕
+配方等级受限于最低等级的能源仓
 {gold:{hr:67}}
-Runs imperfect overclocks until Energy Hatch tier
-Additional overclocks are increasingly more expensive
-{aqua:Multiplier = 4^(Regular Overclocks) × 4.3 × 4.6 × … × (4 + 0.3 × Extra Overclocks)}
-{aqua:Power usage = Multiplier × (Active Slices) × (Recipe EU/t)}
-Overclocking assumes all recipe slices are active
+在能源仓达到对应等级前，会进行有损超频运行。
+超频的额外损耗会越来越高
+{aqua:倍数 = 4^(常规超频次数) × 4.3 × 4.6 × … × (4 + 0.3 × 额外超频次数)}
+{aqua:能耗 = 倍率 × (工作装配片) × (配方能耗 EU/t)}
+超频以所有配方中的装配片都在工作来计算
 {gold:{hr:67}}
-Constructed identically to the Assembly Line
+建造方式与装配线完全相同

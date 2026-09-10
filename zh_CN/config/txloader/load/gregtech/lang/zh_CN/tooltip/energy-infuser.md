@@ -1,4 +1,4 @@
-Simultaneously recharges and repairs equipment
-Stocking input buses are not supported
-§6Recharging§7: No max speed or energy loss
-§6Repairing§7: Max 1k durability/t, consumes 1k EU + 1L UUM per point
+充能并修复装备
+不支持存储输入总线
+§6充能时§7：无速度上限，无损耗
+§6修复时§7：最高1000耐久/刻，每点耐久消耗1000EU和1L UUM

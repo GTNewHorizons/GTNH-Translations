@@ -1,10 +1,10 @@
-Supplies nanites, power, and condensate to {gold:{item:gregtech:gt.blockmachines:15757}s}.
-Nanites must be stored in a {gold:{item:gregtech:gt.blockmachines:9415}}.
-Different types of nanites can be mixed, but the effective tier will be the {underline:lowest} of all provided nanites.
-Only {gold:{var:max-nanites}} nanites can be provided at once - any additional nanites will be ignored.
+为{gold:{item:gregtech:gt.blockmachines:15757}}提供纳米蜂群、能量和凝聚态物质。
+纳米蜂群必须存储在{gold:{item:gregtech:gt.blockmachines:9415}}中。
+不同类型的纳米蜂群可以混合使用，但有效等级将以所有提供的纳米蜂群中的{underline:最低等级}为准。
+一次最多只能提供{gold:{var:max-nanites}}个纳米蜂群，多余的纳米蜂群将被忽略。
 {dark_gray:{hr}}
-{gold:{item:gregtech:gt.blockmachines:15757}s} will stall if they request more power than the observation array can provide.
-A recipe's condensate can be supplied at any time during its crafting.
-The recipe will fail if condensate is not supplied by the end.
-Crafting speed will be reduced if the network contains condensate that is not requested by the recipe.
-If there are more than {red:3} unrequested condensates in the network while a teleportation node is running, the craft will {red:{underline:immediately fail}}.
+若{gold:{item:gregtech:gt.blockmachines:15757}}请求的能量超出观测阵列的供应上限，其运作将会中断。
+配方的凝聚态物质可在制作过程中的任何时间提供。
+若制作结束时仍未提供凝聚态物质，配方将执行失败。
+若网络中存在配方未请求的凝聚态物质，则制作速度将会降低。
+传送节点运行时，若网络中存在超过{red:3}种未被请求的凝聚态物质，制作将{red:{underline:立即失败}}。

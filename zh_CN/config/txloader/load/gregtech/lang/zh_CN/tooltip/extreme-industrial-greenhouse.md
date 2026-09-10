@@ -1,15 +1,15 @@
-Grow your crops like a chad!
-Use screwdriver to enable/change/disable setup mode
-Use screwdriver while sneaking to enable/disable IC2 mode
-Use wire cutters to give incoming IC2 seeds 0 humidity
-Uses 1000L of water per seed per operation
-Uses 1L of {var:weedexName} per operation per seed if it contains more than 1000 seeds
-Otherwise, around 1% of seeds will be voided each operation
-You can insert fertilizer each operation to get more drops (max + 400)
+赫鲁晓夫狂喜！
+使用螺丝刀，以开启/改变/关闭设置模式
+潜行使用螺丝刀，以开启/关闭IC2模式
+使用剪线钳，为IC2作物提供0湿度环境
+每次运行每株作物消耗1000L水
+作物数量超过1000时，每次运行每株作物消耗1L {var:weedexName}
+否则，每次运行，约1%的作物将会死亡
+每次运行均可输入肥料以获得更多掉落（最多+400）
 {gray:{hr}}
-{gold:Setup Mode:}
-Does not take power
-There are two modes: input / output
-Input mode: machine will take seeds from input bus and plant them
-[IC2] You need to also input block that is required under the crop
-Output mode: machine will take planted seeds and output them
+{gold:设置模式：}
+不消耗能量
+有两种模式：输入/输出
+输入模式：机器从输入总线中获取种子并种植
+[IC2]还需要同时输入作物下方所需方块
+输出模式：机器获取已种植的种子并输出

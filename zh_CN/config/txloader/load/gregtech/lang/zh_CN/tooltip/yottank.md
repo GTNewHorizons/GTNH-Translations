@@ -1,4 +1,4 @@
-The max output speed is decided by the amount of stored liquid and the output hatch's capacity
-The max fluid cell tier is limited by the glass tier
-HV glass for T1, EV glass for T2, IV glass for T3. . .
-The max height of the cell blocks is 15
+输出速度上限由存储流体量及输出仓容量决定
+流体单元等级上限由玻璃等级限制
+HV玻璃=T1，EV玻璃=T2，IV玻璃=T3，以此类推
+单元方块的最大高度为15

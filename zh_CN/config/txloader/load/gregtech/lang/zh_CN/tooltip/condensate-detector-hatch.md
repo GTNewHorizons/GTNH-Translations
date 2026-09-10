@@ -1,5 +1,5 @@
-Machine Type: {yellow:BEC Condensate Detector Hatch}
-Checks the condensate amounts stored in a {gold:{item:gregtech:gt.blockmachines:15755}}.
-Emits a redstone signal when a condition is true.
-Condition is configurable in the UI.
-Leaving the condensate filter empty will sum all stored condensate.
+机器类型：{yellow:玻-爱凝聚态物质探测仓}
+检测{gold:{item:gregtech:gt.blockmachines:15755}}中存储的凝聚态物质量。
+当条件成立时发出红石信号。
+条件可在UI中配置。
+将凝聚态物质过滤器留空，会对所有存储的凝聚态物质求和。

@@ -1,20 +1,20 @@
-Accelerates particle beams to higher energies by passing them through an electric field
-Electrically neutral §5particles§7 are therefore unaffected
+通过电场加速粒子束，使其获得更高能量
+因此电中性§5粒子§7不受影响
 {lang:gtnhlanth.tt.beaminfo}
 {gray:{hr}}
-Requires §fLength * 1,000 {var:fluidUnit}/s§7 of §bcoolant§7 to run, returns as §chot coolant
+运行需要消耗§f长度 * 1,000 {var:fluidUnit}/s§7的§b冷却剂§7，并返回§c热冷却剂
 {lang:gtnhlanth.tt.coolant.oxygen}
 {lang:gtnhlanth.tt.coolant.nitrogen}
 {lang:gtnhlanth.tt.coolant.coolant}
 {lang:gtnhlanth.tt.coolant.Scoolant}
 {gray:{hr}}
-Increasing the length/power increases the §9Output Beam Energy§7 but decreases the §2Output Beam Focus
-Preserve §2Beam Focus§7 more effectively with lower temperature §bcoolant
+增加结构长度/能量输入会提升§9输出束流能量§7，但会降低§2输出束流聚焦
+使用温度更低的§b冷却液§7能降低§2束流聚焦§7的损耗
 {gray:{hr}}
-§9Output Beam Energy§f = max(§eV§f, 50) * 10^§eIE
-where §eV§f = 0.25 * (Length - 1) * cbrt(§3EU/t Provided§f)
-and §eIE§f = 1 + min(§9Input Beam Energy§f, 7500) / §9Max Particle Energy
+§9输出束流能量§f = max(§eV§f, 50) * 10^§eIE
+其中 §eV§f = 0.25 * (长度 - 1) * cbrt(§3提供的EU/t§f)
+且 §eIE§f = 1 + min(§9输入束流能量§f, 7500) / §9最大粒子能量
 {gray:{hr}}
-§2Output Beam Focus§f = (§2Input Beam Focus§f + §eMachine Focus§f)/2§7 if §2Input Beam Focus§f > §eMachine Focus
-§2Output Beam Focus§f = §2Input Beam Focus§f * §eMachine Focus§f/100§7 if §2Input Beam Focus§f <= §eMachine Focus
-where §eMachine Focus§f = min(90, max(5, (-0.9 * (Length-1) * 1.1^(0.2 * §bCoolant Temperature§f) + 110)))
+若 §2输入束流聚焦§f > §e机器聚焦度§f，则 §2输出束流聚焦§f = (§2输入束流聚焦§f + §e机器聚焦度§f) / 2
+若 §2输入束流聚焦§f ≤ §e机器聚焦度§f，则 §2输出束流聚焦§f = §2输入束流聚焦§f * §e机器聚焦度§f / 100
+其中§e机器聚焦度§f = min(90, max(5, (-0.9 * (长度-1) * 1.1^(0.2 * §b冷却剂温度§f) + 110)))

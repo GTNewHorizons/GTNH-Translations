@@ -1,4 +1,4 @@
-Module that allows you to research stellar objects
-§d§lDon't look directly into the sun
+用于研究恒星天体的模块
+§d§l不要直视太阳
 {lang:gt.blockmachines.multimachine.project.ig.desc2}
 {lang:gt.blockmachines.multimachine.project.ig.motorT2}

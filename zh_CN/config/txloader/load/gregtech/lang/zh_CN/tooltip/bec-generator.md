@@ -1,8 +1,8 @@
-Converts fluids into Entangled Condensate.
-Entangled Condensate can only be transferred via a {gold:{item:gregtech:gt.blockmachines:15475}}.
-Condensate will be processed even if there is no space in the network.
-Condensate can only be stored in a {gold:{item:gregtech:gt.blockmachines:15755}}.
+将流体转化为纠缠凝聚态物质。
+纠缠凝聚态物质只能通过{gold:{item:gregtech:gt.blockmachines:15475}}传输。
+即使网络中没有空间，凝聚态物质也会被处理。
+凝聚态物质只能存储在{gold:{item:gregtech:gt.blockmachines:15755}}中。
 {dark_gray:{hr}}
-Performs complex parallels.
-Consumes as much fluid as possible, depending on how much EU/t is supplied.
-Machine processing time is the max duration of all active recipes.
+执行复杂的并行处理。
+根据提供的EU/t尽可能多地消耗流体。
+机器的处理时长为所有激活配方的最大持续时间。

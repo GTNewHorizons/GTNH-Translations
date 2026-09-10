@@ -1,5 +1,5 @@
-Assembles basic components (motors, pumps, etc.) in large batches
-The {bold:{yellow:Component Assembly Line Casing }}limits the recipes the machine can perform. See the NEI pages for details
-Using casings above the required recipe tier provides a speed bonus:
-{yellow:Halves recipe time per tier above recipe}
-{italic:Much more efficient than other competing brands!}
+大批量组装基础部件（马达、泵等）
+{bold:{yellow:部件装配线外壳}}等级限制了机器可执行的配方等级。详情见NEI页面
+使用高于配方等级的部件装配线外壳可以提供速度加成：
+{yellow:每高出配方一级，处理时间减半}
+{italic:效率碾压其他同类型产品！}

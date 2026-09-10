@@ -1,2 +1,2 @@
-Gains 1 §dperfect overclock§7 per casing tier above recipe
-Normal EU OC still applies !
+每比配方要求高一级的机械方块，获得1次§d无损超频§7
+普通超频依然适用！
