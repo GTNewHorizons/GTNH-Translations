@@ -1,11 +1,11 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Bytes and Types
+  title: Байты и типы
   icon: appliedenergistics2:item.ItemExtremeStorageCell.Universe
 ---
 
-# Bytes and Types
+# Байты и типы
 
 <Column>
   <Row>
@@ -29,41 +29,41 @@ navigation:
   </Row>
 </Column>
 
-[Storage Cells](../items_blocks/storage_cells.md) are defined by both *bytes* and *types*. Bytes, like in
-your actual computer, are a measure of the total amount of "stuff" in a storage cell. Types are a measure of how many different,
-well, *types* of things are stored in a cell. Each type represents a unique item, so 4,096 cobblestone is 1 type but 16 different
-swords with different enchantments are 16 types.
+[Ячейки хранения](../items_blocks/storage_cells.md) описываются двумя величинами: *байтами* и *типами*. Байты, как и в
+настоящем компьютере, показывают общий объём "всего подряд" в ячейке хранения. Типы показывают, сколько разных,
+собственно, *типов* вещей лежит в ячейке. Каждый тип - это уникальный предмет, так что 4 096 булыжника - это 1 тип, а 16 разных
+мечей с разными чарами - это 16 типов.
 
-Each storage cell can store a fixed amount
-of data. Each type consumes a number of bytes upfront (which varies with the cell
-size), and each item consumes one bit of storage, so eight items consume one
-byte, and a full stack of 64 consumes 8 bytes, regardless of how the item
-would stack outside an ME network. For instance, 64 identical saddles don't
-take up more space than 64 stone.
+Каждая ячейка хранения вмещает фиксированный объём
+данных. Каждый тип сразу забирает некоторое количество байт (зависит от размера
+ячейки), а каждый предмет занимает один бит, так что восемь предметов занимают один
+байт, а полный стак из 64 - 8 байт, независимо от того, как этот предмет
+стакается за пределами МЭ сети. Например, 64 одинаковых седла займут
+не больше места, чем 64 камня.
 
-Again, each item is 1 bit, so 8 items equals 1 byte. For fluid cells, this is 2,048 mB per byte.
+Ещё раз: каждый предмет - это 1 бит, то есть 8 предметов равны 1 байту. Для жидкостных ячеек это 2 048 мБ на байт.
 
-Many people complain about the limited number of types a cell can hold, but they are a ***necessary limitation***.
-Cells store their data in an NBT tag on the item itself, which makes them rather stable. However, this means putting too much
-data on a cell can cause too much data to be sent to a player, causing an effect similar to "Book Banning" in vanilla minecraft.
-Additionally, having too many different types in your system increases the load on sorting and item handling. However, this
-limitation does not end up being very restrictive. One <ItemLink id="appliedenergistics2:tile.BlockDrive" /> bay full of cells is 630 types which is actually
-quite a lot as long as you don't store loads of unique unstackable items.
+Многие жалуются на ограниченное число типов в ячейке, но это ***необходимое ограничение***.
+Ячейки хранят свои данные в NBT-теге на самом предмете, что делает их довольно надёжными. Но из-за этого, если запихать в ячейку
+слишком много данных, игроку будет отправлено слишком много данных, и получится эффект вроде "Book Banning" из ванильного Minecraft.
+Кроме того, чем больше разных типов в системе, тем выше нагрузка на сортировку и обработку предметов. При этом на практике
+ограничение не такое уж жёсткое. Один <ItemLink id="appliedenergistics2:tile.BlockDrive" />, полностью забитый ячейками, даёт 630 типов, а это
+довольно много, если не хранить кучу уникальных нестакающихся предметов.
 
-For this reason, types exist to "firmly discourage" you from dumping the hundreds of randomly damaged armor and tools from
-a mob farm directly into your ME system. Each armor piece with unique damage and enchantments has to be stored as a separate entry,
-causing bloat. it is recommended to filter them out of the item stream before they touch your system.
+Именно поэтому типы и существуют: чтобы "настойчиво отбить желание" сваливать сотни случайно повреждённых доспехов и инструментов
+с фермы мобов прямо в МЭ систему. Каждый кусок брони с уникальной прочностью и чарами приходится хранить отдельной записью,
+и система пухнет. Лучше отфильтровать такое ещё на подходе, до того как оно попадёт в систему.
 
-Gunning straight for top tier storage cells is generally not the best idea,
-since you use more resources but don't get any extra type storage. This means that all sizes of cell are still useful even
-lategame, as they have tradeoffs.
+Гнаться сразу за ячейками высшего тира обычно не лучшая идея:
+ресурсов уходит больше, а типов больше не становится. Поэтому ячейки всех размеров остаются полезными даже
+в позднем этапе игры - у каждой свои плюсы и минусы.
 
-Below is a table comparing the different tiers of storage cells, how much they store, and
-a rough estimate of their cost.
+Ниже таблица со сравнением тиров ячеек хранения: сколько они вмещают и
+примерно во сколько обходятся.
 
-## Storage Cell Contents Vs Cost
+## Вместимость ячеек хранения против стоимости
 
-| Cell | Bytes | Types | Bytes Per Type |
+| Ячейка | Байты | Типы | Байт на тип |
 | --- | ---: | ---: | ---: |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" scale="4" />        |      1,024 | 63 |       8 |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="4" />        |      4,096 | 63 |      32 |
@@ -96,11 +96,11 @@ a rough estimate of their cost.
   </Row>
 </Column>
 
-## Storage Capacity with Varying Type Count
+## Вместимость при разном количестве типов
 
-The upfront cost of types is such that a cell holding 1 type can hold 2x as much as a cell with all 63 types in use.
+Типы забирают байты вперёд, поэтому ячейка с 1 типом вмещает вдвое больше, чем ячейка, где заняты все 63 типа.
 
-| Cell | Total Capacity of Cell With 1 Type In Use | Total Capacity of Cell With 63 Types In Use |
+| Ячейка | Общая вместимость при 1 занятом типе | Общая вместимость при 63 занятых типах |
 | --- | ---: | ---: |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" scale="4" />            |       8,128 |      4,160 |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="4" />            |      32,512 |     16,640 |
@@ -111,6 +111,6 @@ The upfront cost of types is such that a cell holding 1 type can hold 2x as much
 | <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.4096k" scale="4" />      |  33,292,288 | 17,039,360 |
 | <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.16384k" scale="4" />     | 133,169,152 | 68,157,440 |
 
-![A Cell With 1 Type](../assets/images/1_type_cell.png)
+![Ячейка с 1 типом](../assets/images/1_type_cell.png)
 
-![A Cell With 63 Types](../assets/images/63_type_cell.png)
+![Ячейка с 63 типами](../assets/images/63_type_cell.png)
