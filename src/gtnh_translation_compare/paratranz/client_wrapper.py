@@ -1,6 +1,6 @@
 import asyncio
 import os
-from typing import Optional, List, Sequence, cast, Callable
+from typing import Callable, List, Literal, Optional, Sequence, cast
 
 from asyncache import cached  # type: ignore[import]
 from cachetools import LRUCache  # type: ignore[import]
@@ -10,6 +10,16 @@ from pydantic import BaseModel
 from tenacity import retry, wait_fixed, stop_after_attempt, retry_if_exception, WrappedFn, RetryCallState
 
 from gtnh_translation_compare.paratranz.types import File, StringItem, StringPage, ParatranzFile
+
+UploadStage = Literal["create", "update", "metadata"]
+
+
+class ParaTranzUploadError(Exception):
+    def __init__(self, file_name: str, stage: UploadStage, error: HTTPStatusError) -> None:
+        self.file_name = file_name
+        self.stage = stage
+        self.error = error
+        super().__init__(f"ParaTranz {stage} failed for {file_name}: HTTP {error.response.status_code}")
 
 
 def retry_after_429() -> Callable[[WrappedFn], WrappedFn]:
@@ -153,12 +163,19 @@ class ClientWrapper:
 
         file_id = await self._find_file_id_by_file(paratranz_file.file_name)
 
-        if file_id is None:
-            file_id = await self._create_file(paratranz_file)
-        else:
-            await self._update_file(file_id, paratranz_file)
+        try:
+            if file_id is None:
+                file_id = await self._create_file(paratranz_file)
+            else:
+                await self._update_file(file_id, paratranz_file)
+        except HTTPStatusError as error:
+            stage: UploadStage = "create" if file_id is None else "update"
+            raise ParaTranzUploadError(paratranz_file.file_name, stage, error) from error
 
-        await self._save_file_extra(file_id, paratranz_file)
+        try:
+            await self._save_file_extra(file_id, paratranz_file)
+        except HTTPStatusError as error:
+            raise ParaTranzUploadError(paratranz_file.file_name, "metadata", error) from error
 
     async def _find_file_id_by_file(self, filename: str) -> Optional[int]:
         files = await self.get_all_files()
@@ -176,7 +193,7 @@ class ClientWrapper:
             data={"path": path},
             files={"file": paratranz_file.file_to_be_uploaded},
         )
-        self._log_res(f"create_file[path={path}]", res)
+        self._log_res(f"create_file[file={paratranz_file.file_name}, path={path}]", res)
         return File.model_validate(res.json()["file"]).id
 
     @retry_after_429()
@@ -230,6 +247,9 @@ class ClientWrapper:
         try:
             res.raise_for_status()
         except HTTPStatusError as e:
-            logger.error("{}: {}", request_name, res)
+            body = res.text.strip() or "<empty response body>"
+            if len(body) > 2_000:
+                body = body[:2_000] + "... (truncated)"
+            logger.error("{}: {}; response body: {}", request_name, res, body)
             raise e
         logger.debug("{}: {}", request_name, res)
