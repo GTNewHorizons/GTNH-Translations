@@ -37,6 +37,10 @@ ParatranzFilenameFilter: TypeAlias = Callable[[str], bool]
 ParatranzToLocalPathConverter: TypeAlias = Callable[[str], Path]
 AfterToTranslationFileCallback: TypeAlias = Callable[[TranslationFile], None]
 
+# ParaTranz used to append "(+3)" and the like to a duplicate name, and those names still sit in
+# the projects even though nothing produces them any more.
+DUPLICATE_NAME_SUFFIX_RE = re.compile(r"\(\+\d+\)")
+
 
 def _download_from_gtnh(relpath: str) -> str:
     url = f"https://raw.githubusercontent.com/{settings.GTNH_REPO}/master/{relpath}"
@@ -55,8 +59,9 @@ def _make_lang_or_markdown_filetype(relpath: str, content: str) -> Filetype:
 
 
 def _paratranz_name_key(name: str) -> str:
-    """Name reduced to what a rename usually keeps: case, dashes and underscores drop out."""
-    return name.lower().replace('-', '').replace('_', '')
+    """Name reduced to what a rename usually keeps: case, dashes, underscores and the duplicate
+    suffix ParaTranz once appended (Angelica(+3) became Angelica) all drop out."""
+    return DUPLICATE_NAME_SUFFIX_RE.sub("", name).lower().replace("-", "").replace("_", "")
 
 
 def _github_actions_escape(message: str) -> str:
@@ -749,7 +754,7 @@ def _resources_to_txloader_path_internal(path: str) -> tuple[bool, Path]:
     elif provided.parts and provided.parts[0] == "resources":
         parts = list(provided.parts)
         for i in range(len(parts)):
-            result = re.sub(r"\(\+\d+\)", "", parts[i])
+            result = DUPLICATE_NAME_SUFFIX_RE.sub("", parts[i])
             if result != parts[i]:
                 isCanonical = False
                 logger.warning(f"Trimmed path for {parts[i]}")
