@@ -49,8 +49,8 @@ gtnhlanth.tt.coolant.coolant=§bХладагент§f: 60 K
 gtnhlanth.tt.coolant.Scoolant=§bПромышленный хладагент§f: 1 K
 
 # Beam Hatches
-gtnhlanth.tt.hatch.beaminput=Входной шлюз установки для литографии
-gtnhlanth.tt.hatch.beamoutput=Выходной шлюз установки для литографии
+gtnhlanth.tt.hatch.beaminput=Входной шлюз для пучков
+gtnhlanth.tt.hatch.beamoutput=Выходной шлюз для пучков
 gtnhlanth.tt.hatch.beamoutputfiltered=Выходной шлюз фильтруемого пучка
 gtnhlanth.tt.hatch.focus=Входной люк фокусировки
 
@@ -59,7 +59,7 @@ GT5U.gui.text.shutdown_reason.gtnhlanth.inscoolant=В механизме нед�
 GT5U.gui.text.shutdown_reason.gtnhlanth.noaccel=Частицы данного типа не могут быть ускорены!
 GT5U.gui.text.shutdown_reason.gtnhlanth.low_input_eut=Входной вольтаж EU/t слишком низкий для образования фотонов!
 GT5U.gui.text.shutdown_reason.gtnhlanth.scerror=Математическая ошибка, неверный рецепт?
-GT5U.gui.text.shutdown_reason.gtnhlanth.inputinterrupt=Входной луч нельзя прерывать или изменять!
+GT5U.gui.text.shutdown_reason.gtnhlanth.inputinterrupt=Входной пучок нельзя прерывать или изменять!
 GT5U.gui.text.recipe_result.dissolution_ratio=§7Неправильное соотношение подачи жидкости!
 GT5U.gui.text.recipe_result.gtnhlanth.wrongparticle=Неверная частица!
 GT5U.gui.text.recipe_result.gtnhlanth.toolowenergy=Энергия ниже требуемого уровня!
@@ -150,7 +150,7 @@ beamline.coolusage.fmt=Расходуется хладагента: §b%s§r kЛ
 beamline.out_pre=Мультиблочный выход установки для литографии
 beamline.out_pre.hdr=§lМультиблочный выход установки для литографии: §r
 
-gt.blockmachines.beamline_pipe.name=Труба установки для литографии
+gt.blockmachines.beamline_pipe.name=Пучковый канал
 
 beamline.pipe.desc.0=Транспорт для частиц
 beamline.pipe.desc.1=Сигнал не пересекается и не изгибается
