@@ -1,0 +1,47 @@
+name: Report orphaned ParaTranz files
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_lang:
+        description: "Target language to run"
+        required: true
+        type: choice
+        options:
+          - zh_CN
+          - ja_JP
+          - ko_KR
+          - pt_BR
+          - fr_FR
+          - es_ES
+          - tr_TR
+          - de_DE
+          - pl_PL
+          - ru_RU
+
+env:
+  PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+
+jobs:
+  report-paratranz-orphans:
+    name: ${{ inputs.target_lang }} Report orphaned ParaTranz files
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: master
+      - name: Get project ID
+        id: get-project-id
+        uses: ./.github/actions/get-project-id
+        with:
+          target_lang: ${{ inputs.target_lang }}
+      - name: Ensure Dependencies
+        uses: ./.github/actions/ensure-dependencies
+
+      - name: Report orphaned files
+        run: >-
+          poetry run python main.py action report-paratranz-orphans
+          --subdirectory='daily-history'
+        env:
+          PARATRANZ_PROJECT_ID: ${{ steps.get-project-id.outputs.project_id }}
+          TARGET_LANG: ${{ inputs.target_lang }}

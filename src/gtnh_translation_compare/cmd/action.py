@@ -37,6 +37,10 @@ ParatranzFilenameFilter: TypeAlias = Callable[[str], bool]
 ParatranzToLocalPathConverter: TypeAlias = Callable[[str], Path]
 AfterToTranslationFileCallback: TypeAlias = Callable[[TranslationFile], None]
 
+# ParaTranz used to append "(+3)" and the like to a duplicate name, and those names still sit in
+# the projects even though nothing produces them any more.
+DUPLICATE_NAME_SUFFIX_RE = re.compile(r"\(\+\d+\)")
+
 
 def _download_from_gtnh(relpath: str) -> str:
     url = f"https://raw.githubusercontent.com/{settings.GTNH_REPO}/master/{relpath}"
@@ -52,6 +56,12 @@ def _make_lang_or_markdown_filetype(relpath: str, content: str) -> Filetype:
     if is_guidenh_page_path(relpath):
         return FiletypeGuideNhPage(relpath, content)
     return FiletypeLang(relpath, content)
+
+
+def _paratranz_name_key(name: str) -> str:
+    """Name reduced to what a rename usually keeps: case, dashes, underscores and the duplicate
+    suffix ParaTranz once appended (Angelica(+3) became Angelica) all drop out."""
+    return DUPLICATE_NAME_SUFFIX_RE.sub("", name).lower().replace("-", "").replace("_", "")
 
 
 def _github_actions_escape(message: str) -> str:
@@ -512,6 +522,65 @@ class Action:
         asyncio.run(self._sync_all_to_paratranz(Path(repo_path), Path(subdirectory)))
 
     ############################################################################
+    # Orphaned ParaTranz files
+    ############################################################################
+
+    def _expected_paratranz_names(self, base_path: Path) -> set[str]:
+        """Names ParaTranz would hold if it mirrored the current daily history."""
+        source_files: list[Filetype] = [
+            self._read_pack_lang_file(base_path, settings.DEFAULT_QUESTS_LANG_EN_US_REL_PATH),
+            self._read_pack_lang_file(base_path, settings.CUSTOM_TOOLTIPS_LANG_EN_US_REL_PATH),
+            self._read_pack_lang_file(base_path, settings.OVERRIDE_NAMES_LANG_EN_US_REL_PATH),
+        ]
+        for pattern, filetype in (
+            ('resources/*/lang/en_US.lang', FiletypeLang),
+            ('resources/*/lang/en_US/tooltip/**/*.md', FiletypeMarkdownTooltip),
+            ('resources/*/guidenh/_en_us/**/*.md', FiletypeGuideNhPage),
+        ):
+            for file_path in glob.glob(f"./{base_path}/{pattern}", recursive=True):
+                relpath = os.path.relpath(file_path, base_path).replace(os.sep, "/")
+                source_files.append(filetype(relpath, ""))
+
+        names = {f.get_target_language_relpath(settings.TARGET_LANG) + ".json" for f in source_files}
+        names.add(settings.GT_LANG_TARGET_REL_PATH + ".json")
+        return names
+
+    async def _report_paratranz_orphans(
+            self,
+            repo_path: Path,
+            subdirectory: Path,
+    ) -> None:
+        base_path: Path = repo_path / subdirectory
+        expected = self._expected_paratranz_names(base_path)
+        # Mods and the guide pack rename folders and files, and the rename leaves the previous
+        # ParaTranz file behind with its translations. Match a leftover to its successor by the
+        # part of the name that renames tend to keep.
+        expected_by_key: Dict[str, str] = {_paratranz_name_key(name): name for name in expected}
+
+        orphans = [f for f in await self.client.get_all_files() if f.name not in expected]
+        if not orphans:
+            logger.info("No orphaned files: every ParaTranz file matches the current daily history")
+            return
+
+        logger.info("Orphaned ParaTranz files: {}", len(orphans))
+        for orphan in sorted(orphans, key=lambda f: f.name):
+            successor = expected_by_key.get(_paratranz_name_key(orphan.name))
+            translated = [s for s in await self.client.get_strings(orphan.id) if s.translation]
+            logger.info(
+                "orphan={} translated_strings={} successor={}",
+                orphan.name,
+                len(translated),
+                successor or "<none>",
+            )
+
+    def report_paratranz_orphans(
+            self,
+            repo_path: str = ".",
+            subdirectory: str = ".",
+    ) -> None:
+        asyncio.run(self._report_paratranz_orphans(Path(repo_path), Path(subdirectory)))
+
+    ############################################################################
     # Import translations from jars
     ############################################################################
         
@@ -685,7 +754,7 @@ def _resources_to_txloader_path_internal(path: str) -> tuple[bool, Path]:
     elif provided.parts and provided.parts[0] == "resources":
         parts = list(provided.parts)
         for i in range(len(parts)):
-            result = re.sub(r"\(\+\d+\)", "", parts[i])
+            result = DUPLICATE_NAME_SUFFIX_RE.sub("", parts[i])
             if result != parts[i]:
                 isCanonical = False
                 logger.warning(f"Trimmed path for {parts[i]}")
