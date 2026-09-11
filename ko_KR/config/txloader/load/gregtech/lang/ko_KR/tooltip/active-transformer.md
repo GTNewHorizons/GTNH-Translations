@@ -1,2 +1,2 @@
-Can transform to and from any voltage
-Only 0.004% power loss, HAYO!
+어떤 전압으로도 변환 가능
+전력 손실은 단 0.004%, 만세!

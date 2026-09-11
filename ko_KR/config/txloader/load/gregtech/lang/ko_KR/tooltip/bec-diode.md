@@ -1,12 +1,12 @@
-{aqua:{bold:Maxwell's Demon's Big Brother}}
-Controls the flow of condensate in the network.
-Condensate that is present in the left hatch's network will be exposed to the right hatch's network.
-The opposite is not true; condensate can only flow in one direction.
-A {gold:{item:gregtech:gt.blockmachines:15754}} can only push condensate from the right hatch into the left hatch.
-Using a {gold:{item:gregtech:gt.metaitem.01:32730}} on the controller will enable or disable transfers.
-Consumes {green:1A UIV} while active, regardless of the network's status.
+{aqua:{bold:맥스웰의 악마의 큰형}}
+네트워크 내 응축액의 흐름을 제어합니다.
+왼쪽 해치의 네트워크에 존재하는 응축액이 오른쪽 해치의 네트워크에 노출됩니다.
+반대 방향으로는 작동하지 않으며, 응축액은 한 방향으로만 흐를 수 있습니다.
+{gold:{item:gregtech:gt.blockmachines:15754}}은 오른쪽 해치에서 왼쪽 해치로만 응축액을 밀어낼 수 있습니다.
+컨트롤러에 {gold:{item:gregtech:gt.metaitem.01:32730}}을 사용하면 전송을 활성화하거나 비활성화할 수 있습니다.
+네트워크 상태와 관계없이 활성화된 동안 {green:1A UIV}를 소모합니다.
 {dark_gray:{hr}}
-Condensate can be filtered in the parameters window, with one filter slot per condensate type.
-When no filters are set, all condensate is allowed through.
-Attaching fluid input hatches overrides the filters, mapping each contained fluid to its condensate.
-Stocking input hatches use their configured fluids.
+매개변수 창에서 응축액을 필터링할 수 있으며, 응축액 종류마다 필터 슬롯이 하나씩 있습니다.
+필터를 설정하지 않으면 모든 응축액이 통과됩니다.
+유체 입력 해치를 연결하면 필터가 무시되며, 각 해치에 담긴 유체가 해당 응축액으로 매핑됩니다.
+비축 입력 해치는 설정된 유체를 사용합니다.
