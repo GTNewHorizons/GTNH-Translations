@@ -48,6 +48,17 @@ mobsinfo.mobhandlerinfernal.inferno=Inferno drops - %.3f%% (%.3f%%)
 mobsinfo.mobhandlerinfernal.tooltip_chance=Total chance to get: %.4f%%
 mobsinfo.mobhandlerinfernal.tooltip_chance_always=Total chance to get when always infernal: %.4f%%
 
+mobsinfo.mobhandlerfishing.title=Fishing Loot Table
+mobsinfo.mobhandlerfishing.format=Format:
+mobsinfo.mobhandlerfishing.format_1=Category name - x%
+mobsinfo.mobhandlerfishing.format_2=Item chances are per catch
+mobsinfo.mobhandlerfishing.format_3=Base chances are with
+mobsinfo.mobhandlerfishing.format_4=Luck of the Sea 0 and Lure 0
+mobsinfo.mobhandlerfishing.fish=Fish - %.2f%%
+mobsinfo.mobhandlerfishing.junk=Junk - %.2f%%
+mobsinfo.mobhandlerfishing.treasure=Treasure - %.2f%%
+mobsinfo.mobhandlerfishing.tooltip_chance=Chance to get: %.4f%%
+
 #Extras (compatibility)
 mobsinfo.extras.minecraft_slime=Drops only when the slime is at the smallest size
 mobsinfo.extras.minecraft_magma_cube=Drops only when the magma cube is NOT at the smallest size
@@ -107,3 +118,13 @@ mobsinfo.command.hidden.invalid_mob=§cInvalid mob name!
 mobsinfo.command.hidden.lock_error=§cMob isn't unlocked for the player or the name is invalid!
 mobsinfo.command.hidden.success=§aSuccess!
 mobsinfo.command.hidden.invalid=§cInvalid options! The correct usage is: %s
+
+mobsinfo.extras.minefantasy2_guts_looting=Chance is divided by (1 + Looting level).
+mobsinfo.extras.minefantasy2_burning=Only when the mob is burning.
+mobsinfo.extras.minefantasy2_not_burning=Only when the mob is not burning.
+mobsinfo.extras.minefantasy2_hunting_weapon=Requires a hunting weapon on the killing blow.
+mobsinfo.extras.minefantasy2_bow_skeleton=Only when the skeleton holds a bow.
+mobsinfo.extras.minefantasy2_original_item=Only when replacing a normal drop of %s.
+mobsinfo.extras.minefantasy2_tagged_sack=Only from MineFantasy II upgraded zombies.
+mobsinfo.extras.lootplusplus_player_credit=Requires player kill credit.
+mobsinfo.extras.lootplusplus_skeleton_kill=Only when killed by a skeleton.
