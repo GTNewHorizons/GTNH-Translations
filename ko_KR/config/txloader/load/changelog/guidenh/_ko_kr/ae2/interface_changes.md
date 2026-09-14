@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Interface Terminal Changes
+  title: 인터페이스 터미널 변경 사항
   parent: ae2.md
   icon: appliedenergistics2:item.ItemMultiPart:480
 categories:
@@ -9,11 +9,11 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Interface Terminal Changes
-Managing a big ME network with dozens of interfaces has always been somewhat of a guessing game. Everything looks identical, and clutter is almost unavoidable. To combat this, the following changes have been made:
-- __Block Icons in section headers__: Each group of interfaces now shows a small icon of the actual interface block, so you can differentiate between Regular <ItemImage id="appliedenergistics2:tile.BlockInterface"/> and Dual <ItemImage id="ae2fc:fluid_interface"/> Interfaces at a glance.
-- __Priority Tooltips__: Hover over the interface icon to see the block's name, the current priority, and how many interfaces are in that group
-- __Wrong-Type Pattern Highlighting__: If you accidentally put a fluid pattern into a regular ME Interface, the slot lights up red in both the ME Interface GUI, and the Interface Terminal
-- __Hide Interfaces from Terminal__: Alt + Click the highlight button on any interface entry to toggle its visibility. As with the previous way of hiding them, they are still connected to your network, just hidden from the clutter!
-- __Show Hidden Toggle__: A new sidebar button allows you to reveal all hidden interfaces at once, so you can manage them without going to each individually
-- __Ghost Circuits and Non-Consumables__: GT Machines and Crafting Input Bus/Buffers now include their recipe configurations in the terminal name as follows: <Color id="GREEN">_Machine Name_ [24] {Extruder Shape (Rod)}</Color>. This is fully configurable in `config/GregTech/Machines`
+# 인터페이스 터미널 변경 사항
+수십 개의 인터페이스가 있는 대규모 ME 네트워크를 관리하는 것은 항상 어느 정도 추측 게임과 같았습니다. 모든 것이 똑같아 보이고, 어수선함은 거의 피할 수 없습니다. 이를 해결하기 위해 다음과 같은 변경 사항이 적용되었습니다:
+- __섹션 헤더의 블록 아이콘__: 이제 각 인터페이스 그룹은 실제 인터페이스 블록의 작은 아이콘을 표시하므로, 일반 <ItemImage id="appliedenergistics2:tile.BlockInterface"/> 및 이중 <ItemImage id="ae2fc:fluid_interface"/> 인터페이스를 한눈에 구분할 수 있습니다.
+- __우선순위 툴팁__: 인터페이스 아이콘 위로 마우스를 올리면 블록의 이름, 현재 우선순위, 해당 그룹에 있는 인터페이스 개수를 볼 수 있습니다.
+- __잘못된 유형 패턴 강조 표시__: 실수로 일반 ME 인터페이스에 유체 패턴을 넣으면, ME 인터페이스 GUI와 인터페이스 터미널 모두에서 해당 슬롯이 빨간색으로 켜집니다.
+- __터미널에서 인터페이스 숨기기__: 모든 인터페이스 항목의 강조 버튼을 Alt + 클릭하면 표시 여부를 전환할 수 있습니다. 이전 숨기기 방식과 마찬가지로, 이들은 여전히 네트워크에 연결되어 있으며, 단지 어수선함에서 숨겨질 뿐입니다!
+- __숨겨진 항목 표시 토글__: 새로운 사이드바 버튼을 사용하면 숨겨진 모든 인터페이스를 한 번에 표시할 수 있으므로, 각각을 개별적으로 찾아가지 않고도 관리할 수 있습니다.
+- __고스트 회로 및 비소모품__: GT 기계와 조합 입력 버스/버퍼는 이제 터미널 이름에 다음과 같이 레시피 구성을 포함합니다: <Color id="GREEN">_기계 이름_ [24] {압출기 형상 (막대)}</Color>. 이는 `config/GregTech/Machines`에서 완전히 구성할 수 있습니다.

@@ -1,13 +1,13 @@
 ---
 navigation:
-  title: Electric Hoe of Growth x Infused Seeds
+  title: 성장의 전동 괭이 x 주입된 씨앗
   parent: magic.md
   icon: EMT:ElectricHoeGrowth
 categories:
-    - Magic Changes
-    - Quality Of Life
+    - 마법 변경 사항
+    - 편의성 개선
 author: koolkrafter5
 date: 2026-06-11
 ---
 
-The <ItemLink id="EMT:ElectricHoeGrowth"/> <ItemImage id="EMT:ElectricHoeGrowth:0:{charge:200000.0d}"/> is now capable of <Color id="GREEN">accelerating the growth</Color> of <ItemLink id="ThaumicTinkerer:infusedSeeds"/> <ItemImage id="ThaumicTinkerer:infusedSeeds"/>, just like the normal <ItemLink id="Thaumcraft:ItemHoeElemental"/> <ItemImage id="Thaumcraft:ItemHoeElemental"/>!
+<ItemLink id="EMT:ElectricHoeGrowth"/> <ItemImage id="EMT:ElectricHoeGrowth:0:{charge:200000.0d}"/>는 이제 일반 <ItemLink id="Thaumcraft:ItemHoeElemental"/> <ItemImage id="Thaumcraft:ItemHoeElemental"/>처럼 <ItemLink id="ThaumicTinkerer:infusedSeeds"/> <ItemImage id="ThaumicTinkerer:infusedSeeds"/>의 <Color id="GREEN">성장을 가속</Color>할 수 있습니다!

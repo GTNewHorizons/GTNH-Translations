@@ -1,16 +1,16 @@
 ---
 navigation:
-  title: Basic Automation
+  title: 기초 자동화
   parent: crops.md
   icon: gregtech:gt.blockmachines:28001
 categories:
-    - Crops
+    - 작물
 author: Skorched
 date: 2026-05-24
 ---
 
-# Basic Automation
-This page is less about crop specifics, and more about how crops can be automated for constant outputs!
+# 기초 자동화
+이 페이지는 작물 자체의 세부 사항보다는, 작물을 자동화하여 지속적인 산출물을 얻는 방법에 관한 내용입니다!
 
 
 <GameScene width="420" height="280" zoom={2.5} interactive={true}>
@@ -18,4 +18,4 @@ This page is less about crop specifics, and more about how crops can be automate
   <ImportPonder src="../assets/crops/auto.json" />
 </GameScene>
 
-If you're lost on how to gather infinite water sources, there are many options depending on your progression! Try searching through some of your favourite methods, from <Color id="RED">Thaumcraft</Color> to <Color id="GREEN">GregTech Multis</Color>!
+무한 물 공급원을 확보하는 방법을 모르시겠다면, 진행도에 따라 다양한 선택지가 있습니다! <Color id="RED">Thaumcraft</Color>부터 <Color id="GREEN">GregTech 멀티블록</Color>까지, 마음에 드는 방법을 검색해 보십시오!

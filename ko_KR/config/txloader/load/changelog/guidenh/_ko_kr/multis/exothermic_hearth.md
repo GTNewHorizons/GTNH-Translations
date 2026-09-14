@@ -2,55 +2,55 @@
 item_ids:
   - gregtech:gt.blockmachines:15517
 navigation:
-  title: Exothermic Hearth
+  title: 발열 화로
   parent: multis.md
   icon: gregtech:gt.blockmachines:15517
 categories:
-    - New Multiblocks
-    - Structure Reworks
+    - 새 멀티블록
+    - 구조 개편
 author: Skorched
 date: 2026-05-27
 ---
 
-# Exothermic Hearth
+# 발열 화로
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15517" />
 </GameScene>
-The <Color id="GREEN">Exothermic Hearth (ExH)</Color> is a ZPM tier multiblock for mass smelting dusts into ingots, crafting silicon boules, and heating up various materials. It replaces the previous Mega Electric Blast Furnace. The <Color id="GREEN">ExH</Color> is a direct upgrade from the Electric Blast Furnace <ItemImage id="gregtech:gt.blockmachines:1000"/> because it offers up to <Color id="RED">512</Color> parallels, supports <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> for serious overclocking, and has <Color id="BLUE">unlimited tier skips</Color>. That means it can run any recipe regardless of voltage tier as long as there is enough power and heat. The number of available parallels slowly increases up to 512 during activity and decreases back down to 256 while idle. Optionally, enable pyrotheum heating in the GUI of the controller to 6x the rate at which parallels are gained at the cost of 250-500 L/s of blazing pyrotheum. The <Color id="GREEN">ExH</Color> gains a 5% energy discount for every 900K over the recipe requirement and one perfect overclock for every 1,800K over the recipe requirement. The ExH only outperforms the Volcanus <ItemImage id="gregtech:gt.blockmachines:963"/> if it can take full advantage of its 512 parallels (4+ overclocks).
+<Color id="GREEN">발열 화로(ExH)</Color>는 가루를 주괴로 대량 제련하고, 실리콘 단결정을 제작하며, 다양한 재료를 가열하기 위한 ZPM 티어 멀티블록입니다. 이전 메가 전기 용광로를 대체합니다. <Color id="GREEN">발열 화로</Color>는 전기 용광로 <ItemImage id="gregtech:gt.blockmachines:1000"/>의 직접 업그레이드입니다. 최대 <Color id="RED">512</Color>개의 병렬 처리를 제공하고, 본격적인 오버클럭을 위한 <Color id="GREEN">멀티앰프 및 레이저 에너지 해치</Color>를 지원하며, <Color id="BLUE">무제한 티어 스킵</Color>을 지원하기 때문입니다. 즉, 전력과 열이 충분하다면 전압 티어와 관계없이 모든 레시피를 실행할 수 있습니다. 사용 가능한 병렬 처리 수는 작동 중 천천히 512까지 증가하고, 대기 중에는 다시 256까지 감소합니다. 선택적으로 컨트롤러 GUI에서 파이로테움 가열을 활성화하면 250-500 L/s의 블레이징 파이로테움을 소모하는 대신 병렬 처리가 증가하는 속도를 6배로 높일 수 있습니다. <Color id="GREEN">발열 화로</Color>는 레시피 요구치보다 900K 초과할 때마다 5% 에너지 할인을 얻고, 1,800K 초과할 때마다 완벽 오버클럭 1회를 얻습니다. 발열 화로는 512 병렬 처리(오버클럭 4회 이상)를 최대한 활용할 수 있을 때만 볼카누스 <ItemImage id="gregtech:gt.blockmachines:963"/>보다 더 뛰어난 성능을 냅니다.
 <br clear="all"/>
 
-## Construction:
-The <Color id="GREEN">ExH</Color> has two tiered components. The heating coils determine the maximum tier of recipes, the energy discount, and the number of perfect overclocks. The glass determines the maximum tier of the energy hatch. UMV tier glass removes all restrictions. Buses/hatches may replace any hearth casing anywhere on the structure, except for the muffler hatch which is limited to the center casing on the top layer of the structure. Multi-amp and laser energy hatches are supported, but the latter requires at least UV tier glass. Use the Multiblock Structure Hologram Projector to visualize/build the structure with subchannels "coil" and "glass" to specify the tier of those components. 
-### Requires:
+## 건설:
+<Color id="GREEN">발열 화로</Color>에는 두 가지 티어 구성 요소가 있습니다. 가열 코일은 레시피의 최대 티어, 에너지 할인, 완벽 오버클럭 수를 결정합니다. 유리는 에너지 해치의 최대 티어를 결정합니다. UMV 티어 유리는 모든 제한을 제거합니다. 버스/해치는 구조물 어디에서든 모든 화로 케이싱을 대체할 수 있습니다. 단, 소음기 해치는 구조물 상단 층의 중앙 케이싱에만 제한됩니다. 멀티앰프 및 레이저 에너지 해치를 지원하지만, 후자는 최소 UV 티어 유리가 필요합니다. 멀티블록 구조 홀로그램 프로젝터를 사용해 하위 채널 "coil"과 "glass"로 해당 구성 요소의 티어를 지정하여 구조물을 시각화/건설하십시오. 
+### 요구 사항:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15517"/><ItemImage id="gregtech:gt.blockmachines:15517"/>
 - 1,800-1,918 <ItemLink id="gregtech:gt.blockcasings14:3"/><ItemImage id="gregtech:gt.blockcasings14:3"/>
 - 925 <ItemLink id="gregtech:gt.blockcasings:11"/><ItemImage id="gregtech:gt.blockcasings:11"/>
-- 860 Heating Coil (tiered) <ItemImage id="gregtech:gt.blockcasings5:11"/>
+- 860 가열 코일(티어별) <ItemImage id="gregtech:gt.blockcasings5:11"/>
 - 780 <ItemLink id="miscutils:gtplusplus.blockcasings.2:11"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:11"/>
 - 426 <ItemLink id="gregtech:gt.blockcasings8:10"/><ItemImage id="gregtech:gt.blockcasings8:10"/>
-- 332 Tiered Glass <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 332 티어 유리 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 308 <ItemLink id="gregtech:gt.blockcasings11:7"/><ItemImage id="gregtech:gt.blockcasings11:7"/>
 - 280 <ItemLink id="miscutils:miscutils.blockcasings:14"/><ItemImage id="miscutils:miscutils.blockcasings:14"/>
 - 131 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
 - 56 <ItemLink id="gregtech:gt.blockframes:163"/><ItemImage id="gregtech:gt.blockframes:163"/>
-- 1+ Energy Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:40"/>
-- 1 <ItemLink id="gregtech:gt.blockmachines:90"/> (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:90"/>
-- 1 Muffler Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:91"/>
-- 0+ Input Bus (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Input Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Output Bus (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:80"/>
-- 0+ Output Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:60"/>
+- 1개 이상 에너지 해치(모든 화로 케이싱)<ItemImage id="gregtech:gt.blockmachines:40"/>
+- 1 <ItemLink id="gregtech:gt.blockmachines:90"/> (모든 화로 케이싱)<ItemImage id="gregtech:gt.blockmachines:90"/>
+- 1 소음기 해치(모든 화로 케이싱)<ItemImage id="gregtech:gt.blockmachines:91"/>
+- 0개 이상 입력 버스(모든 화로 케이싱)<ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0개 이상 입력 해치(모든 화로 케이싱)<ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0개 이상 출력 버스(모든 화로 케이싱)<ItemImage id="gregtech:gt.blockmachines:80"/>
+- 0개 이상 출력 해치(모든 화로 케이싱)<ItemImage id="gregtech:gt.blockmachines:60"/>
 
-### Wallsharing:
-<Color id="GREEN">ExHs</Color> may wallshare each of their sides to save on casings and buses/hatches. That does NOT include any of the heating coils or glass. 
-## Usage:
-The <Color id="GREEN">ExH</Color> is a direct upgrade from the Electric Blast Furnace because it offers up to 512 parallels, supports multi-amp and laser energy hatches for serious overclocking, and has unlimited tier skips. That means it can run any recipe regardless of voltage tier as long as there is enough power and heat. For example, a ZPM 256A laser energy hatch can run UIV recipes if the heat capacity is high enough. The glass tier only limits the voltage tier of the energy hatch, NOT the voltage tier of recipes.
+### 벽 공유:
+<Color id="GREEN">발열 화로들</Color>은 케이싱과 버스/해치를 절약하기 위해 각 면을 벽 공유할 수 있습니다. 가열 코일과 유리는 포함되지 않습니다. 
+## 사용법:
+<Color id="GREEN">발열 화로</Color>는 최대 512 병렬 처리, 본격적인 오버클럭을 위한 멀티앰프 및 레이저 에너지 해치 지원, 무제한 티어 스킵을 제공하므로 전기 용광로의 직접 업그레이드입니다. 즉, 전력과 열이 충분하다면 전압 티어와 관계없이 모든 레시피를 실행할 수 있습니다. 예를 들어 ZPM 256A 레이저 에너지 해치는 열 용량이 충분히 높다면 UIV 레시피를 실행할 수 있습니다. 유리 티어는 에너지 해치의 전압 티어만 제한하며, 레시피의 전압 티어는 제한하지 않습니다.
 
-The number of available parallels slowly increases up to 512 during activity and decreases back down to 256 while idle, as seen below. It takes 30 minutes of continuous activity to achieve the maximum 512 parallels but only 4 minutes and 16 seconds to lose it all. Optionally, enable pyrotheum heating in the GUI of the controller to 6x the rate at which parallels are gained at the cost of 250-500 L/s of blazing pyrotheum. The consumption rate scales linearly with the number of additional parallels, but it allows the ExH to achieve the maximum 512 parallels in just 5 minutes instead. Running out of blazing pyrotheum while pyrotheum heating is enabled causes the machine to immediately shutdown and void the current recipe.
+사용 가능한 병렬 처리 수는 아래에서 볼 수 있듯이 작동 중 천천히 512까지 증가하고, 대기 중에는 다시 256까지 감소합니다. 최대 512 병렬 처리에 도달하려면 30분 동안 연속 작동해야 하지만, 모두 잃는 데는 4분 16초밖에 걸리지 않습니다. 선택적으로 컨트롤러 GUI에서 파이로테움 가열을 활성화하면 250-500 L/s의 블레이징 파이로테움을 소모하는 대신 병렬 처리가 증가하는 속도를 6배로 높일 수 있습니다. 소비율은 추가 병렬 처리 수에 비례해 선형적으로 증가하지만, 대신 발열 화로가 단 5분 만에 최대 512 병렬 처리에 도달할 수 있게 합니다. 파이로테움 가열이 활성화된 상태에서 블레이징 파이로테움이 바닥나면 기계가 즉시 정지하고 현재 레시피를 소멸시킵니다.
 
-- +0.711 parallels per 5 seconds while active (pyrotheum heating disabled), 30 minutes to max
-- +4.267 parallels per 5 seconds while active (pyrotheum heating enabled), 5 minutes to max
-- -1 parallel per second while idle, 4.26 minutes to min
+- 작동 중 5초당 +0.711 병렬 처리(파이로테움 가열 비활성화), 최대까지 30분
+- 작동 중 5초당 +4.267 병렬 처리(파이로테움 가열 활성화), 최대까지 5분
+- 대기 중 초당 -1 병렬 처리, 최소까지 4.26분
 
-## Heat Capacity
-Lastly, the <Color id="GREEN">ExH</Color> gains a 5% energy discount for every 900K over the recipe requirement and one perfect overclock for every 1,800K over the recipe requirement. There is also a +100K heat bonus for every voltage tier above MV.
+## 열 용량
+마지막으로, <Color id="GREEN">발열 화로</Color>는 레시피 요구치보다 900K 초과할 때마다 5% 에너지 할인을 얻고, 1,800K 초과할 때마다 완벽 오버클럭 1회를 얻습니다. 또한 MV보다 높은 전압 티어마다 +100K 열 보너스가 있습니다.

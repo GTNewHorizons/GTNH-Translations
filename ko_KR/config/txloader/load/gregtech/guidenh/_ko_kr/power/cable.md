@@ -1,35 +1,35 @@
 ---
 navigation:
-  title: "Wires and Cables"
+  title: "전선과 케이블"
   icon: gregtech:gt.blockmachines:1248
   parent: power-index.md
   position: -3
 ---
 
-# Wires and Cables
+# 전선과 케이블
 
-**Wires and cables** are the medium used to connect transmitter blocks and consumer blocks inside a [local power network](enet.md). They do not store power themselves.
+**전선과 케이블**은 [지역 전력 네트워크](enet.md) 안에서 송신 블록과 소비 블록을 연결하는 데 사용되는 매개체입니다. 전선과 케이블 자체에는 전력이 저장되지 않습니다.
 
-Wires have three core parameters, all shown in the tooltip.
+전선에는 세 가지 핵심 매개변수가 있으며, 모두 툴팁에 표시됩니다.
 
-# Maximum Voltage and Maximum Current
+# 최대 전압과 최대 전류
 
-**Maximum voltage** depends only on the wire material. Wires come in 1x, 2x, 4x, 8x, 12x, and 16x variants, which multiply the material's base maximum current.
+**최대 전압**은 전선 재료에 의해서만 결정됩니다. 전선은 1x, 2x, 4x, 8x, 12x, 16x 배율 변형으로 제작되며, 각 변형은 재료의 기본 최대 전류를 해당 배율만큼 증가시킵니다.
 
-- A wire whose maximum voltage is too low cannot transmit higher-voltage energy packets. If either voltage or current exceeds its limit, the wire burns up.
-- A wire whose maximum voltage is high enough can safely transmit lower-voltage packets.
+- 최대 전압이 너무 낮은 전선은 더 높은 전압의 에너지 패킷을 전송할 수 없습니다. 전압 또는 전류가 한도를 초과하면 전선이 타 버립니다.
+- 최대 전압이 충분히 높은 전선은 더 낮은 전압의 패킷을 안전하게 전송할 수 있습니다.
 
-Current is additive: the current carried by a given wire segment is the sum of all current flowing through it. Whether a wire segment burns depends on the highest packet voltage among all packets flowing through it.
+전류는 합산됩니다. 특정 전선 구간이 전달하는 전류는 해당 구간을 흐르는 모든 전류의 합입니다. 전선 구간이 타는지는 해당 구간을 흐르는 모든 패킷 중 가장 높은 패킷 전압에 따라 결정됩니다.
 
-# Cable Loss Rate
+# 케이블 손실률
 
-When power is transmitted through wires, current stays the same everywhere along the path, but voltage may fall because of [cable loss](cable-loss.md).
+전선을 통해 전력을 전송할 때 경로 전체에서 전류는 동일하게 유지되지만, [케이블 손실](cable-loss.md)로 인해 전압이 떨어질 수 있습니다.
 
-- Cable loss rate does not depend on wire thickness or current. It depends only on the material and on whether the wire is insulated (wire vs cable). Insulated cables often have only half the loss of the corresponding bare wire.
-- Some wires have zero loss and therefore behave as superconductors, such as 1x Redstone Alloy Cable, 1x MV Superconductor Wire, and 1x Infinity Wire.
+- 케이블 손실률은 전선의 굵기나 전류에 따라 달라지지 않습니다. 재료와 전선이 절연되어 있는지 여부, 즉 전선인지 케이블인지에 따라서만 달라집니다. 절연 케이블은 해당하는 비절연 전선의 손실이 절반에 불과한 경우가 많습니다.
+- 일부 전선은 손실이 0이므로 초전도체처럼 작동합니다. 예를 들어 1x 레드스톤 합금 케이블, 1x MV 초전도체 전선, 1x 무한 전선이 있습니다.
 
-# Replacing and Painting
+# 교체 및 도색
 
-While holding one kind of wire or cable, <kbd>Shift</kbd> + <kbd>Left-click</kbd> another placed wire or cable to replace it directly. The connection directions and covers are preserved. After replacement, any old wire-to-device connections are broken and must be reconnected.
+한 종류의 전선이나 케이블을 손에 들고 설치된 다른 전선이나 케이블을 <kbd>Shift</kbd> + <kbd>Left-click</kbd>하면 해당 전선이나 케이블을 바로 교체할 수 있습니다. 연결 방향과 커버는 유지됩니다. 교체한 후에는 기존의 전선과 장치 간 연결이 끊어지므로 다시 연결해야 합니다.
 
-You can use spray cans to color wires. This is useful for telling apart wires carrying different voltages in different local power networks.
+스프레이 캔을 사용하여 전선의 색을 지정할 수 있습니다. 이는 서로 다른 지역 전력 네트워크에서 각기 다른 전압을 전달하는 전선을 구분할 때 유용합니다.

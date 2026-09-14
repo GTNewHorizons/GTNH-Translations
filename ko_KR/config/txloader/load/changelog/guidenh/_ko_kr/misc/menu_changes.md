@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Main Menu Backgrounds
+  title: 메인 메뉴 배경
   parent: misc.md
   icon: gregtech:gt.metaitem.01:32418
 categories:
-    - Miscellaneous Changes
+    - 기타 변경 사항
 author: Skorched
 date: 2026-05-30
 ---
 
-# Main Menu Backgrounds
-You may have already noticed by loading this world, but coming to 2.9 is the addition of 23 new background images, sourced directly from NASA/ESA! This includes photography from the Hubble Space Telescope, James Webb Space Telescope, and the most recent Artemis II Crewed Moon Flyby Mission!
+# 메인 메뉴 배경
+이 월드를 불러오면서 이미 눈치채셨을 수도 있지만, 2.9에서는 NASA/ESA에서 직접 가져온 23개의 새로운 배경 이미지가 추가됩니다! 여기에는 허블 우주 망원경, 제임스 웹 우주 망원경, 그리고 가장 최근의 아르테미스 II 유인 달 근접 비행 임무의 사진이 포함됩니다!
 
-We have removed the illustrative / stock backgrounds with this change in favor of actual space photography, minus the iconic GTNH menu background that has been a part of this pack for 10 years now.
+이번 변경으로 실제 우주 사진을 우선하기 위해 삽화 / 스톡 배경을 제거했습니다. 다만 지금까지 10년 동안 이 팩의 일부였던 상징적인 GTNH 메뉴 배경은 제외했습니다.
 
-Separately, the main menu itself has gotten a small visual overhaul for improved clarity!
+이와 별개로, 메인 메뉴 자체도 더 나은 명확성을 위해 소규모 시각적 개편이 이루어졌습니다!

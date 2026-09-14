@@ -2,31 +2,31 @@
 item_ids:
   - minecraft:dirt
 navigation:
-  title: What's New (2.9.0)
+  title: 새로운 점 (2.9.0)
   position: 0
 author: Skorched
 date: 2026-05-15
 ---
 
-# What's New (2.9.0 Changelog)
+# 새로운 점 (2.9.0 변경 내역)
 
-The wait is over <PlayerName />... GTNH 2.9 is finally out!
-So much has changed that it can be hard to keep track, even if you actively follow the pack's development, so this page aims to give a brief overview of some of the changes you can expect to encounter in your playthrough! As with everything in the pack, this is a work in progress, and any suggestions can be given through our <a href="https://discord.gg/gtnh">Discord Server</a>.
+기다림은 끝났습니다 <PlayerName />... GTNH 2.9가 마침내 출시되었습니다!
+너무 많은 것이 바뀌어서, 팩의 개발을 활발히 따라가고 있더라도 파악하기 어려울 수 있습니다. 따라서 이 페이지는 플레이 중 마주칠 수 있는 일부 변경 사항을 간략히 개요로 제공하고자 합니다! 팩의 모든 것과 마찬가지로 이 문서는 작업 중이며, 제안 사항은 저희 <a href="https://discord.gg/gtnh">디스코드 서버</a>를 통해 전달해 주실 수 있습니다.
 
 > [!NOTE]
-> This is not an exhaustive list of changes in 2.9.x. Between minor bug fixes, and optimisations, there are many things that just cannot fit on this list. This list instead intends to give an idea of some of the *larger* changes or features added in this version.
+> 이것은 2.9.x의 모든 변경 사항을 빠짐없이 나열한 목록이 아닙니다. 사소한 버그 수정과 최적화 사이에는 이 목록에 담을 수 없는 많은 것들이 있습니다. 이 목록은 대신 이 버전에서 추가된 일부 *더 큰* 변경 사항이나 기능에 대한 감을 잡을 수 있도록 하는 데 목적이 있습니다.
 
-# Changes
-The changes made can be generally grouped into categories as shown below, however there are some that "overlap" multiple categories. In that case, they will show in both categories:
+# 변경 사항
+변경된 사항은 아래와 같이 일반적으로 범주로 묶을 수 있습니다. 다만 여러 범주에 "겹치는" 것들도 있습니다. 그런 경우에는 두 범주 모두에 표시됩니다:
 ## [Applied Energistics](./ae2/ae2.md)
 ## [CropsNH](./crops/crops.md)
-## [Magic Changes](./magic/magic.md)
-## [Miscellaneous Changes](./misc/misc.md)
-## [New Multi-blocks](./multis/multis.md)
-## [Quality of Life](./qol/qol.md)
-## [Structure Reworks](./reworks/reworks.md)
+## [마법 변경 사항](./magic/magic.md)
+## [기타 변경 사항](./misc/misc.md)
+## [새 멀티블록](./multis/multis.md)
+## [편의성 개선](./qol/qol.md)
+## [구조물 개편](./reworks/reworks.md)
 
-# What Am I Even Reading?!
-You are currently reading a changelog made via a new mod inclusion, [GuideNH](./misc/guide.md) in 2.9! This mod will (eventually) come with lots of guides on different aspects of the pack, and offers a large range of methods to showcase ideas. For more information, check out the page!
+# 지금 대체 무엇을 읽고 계십니까?!
+현재 여러분은 2.9에서 새로 포함된 모드인 [GuideNH](./misc/guide.md)를 통해 만들어진 변경 내역을 읽고 계십니다! 이 모드는 (결국에는) 팩의 다양한 측면에 관한 많은 가이드를 제공할 예정이며, 아이디어를 보여 주는 다양한 방법을 제공합니다. 더 많은 정보를 원하시면 해당 페이지를 확인해 주십시오!
 
-If you feel you have something to contribute, follow the link on the discord, and find the `#guide-dev` channel to get stuck in!
+기여할 것이 있다고 생각하신다면, 디스코드의 링크를 따라가서 `#guide-dev` 채널을 찾아 참여해 주십시오!

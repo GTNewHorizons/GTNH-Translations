@@ -1,45 +1,45 @@
 ---
 navigation:
-  title: "Power Distribution"
+  title: "전력 분배"
   icon: gregtech:gt.blockmachines:15300
   parent: power-index.md
   position: -7
 ---
 
-# Power Distribution
+# 전력 분배
 
-By combining voltage conversion, current limiting, and energy storage, multiple [local power networks](enet.md) can be tied together. Devices with these functions are often the bridge between different local power networks: they act as both consumer blocks and transmitter blocks, taking power in from one network through their internal EU buffer and outputting power to another network.
+전압 변환, 전류 제한, 에너지 저장을 조합하면 여러 [지역 전력망](enet.md)을 서로 연결할 수 있습니다. 이러한 기능을 가진 장치는 서로 다른 지역 전력망을 연결하는 다리 역할을 하는 경우가 많습니다. 내부 EU 버퍼를 통해 한 전력망에서 전력을 받아 다른 전력망으로 출력하므로, 소비 블록과 전송 블록의 역할을 모두 수행합니다.
 
-# Transformers
+# 변압기
 
 > [!WARNING]
-> Switching transformer mode while it is powered causes it to explode immediately.
+> 전원이 공급되는 동안 변압기 모드를 전환하면 즉시 폭발합니다.
 
-Transformers change voltage to reduce transmission losses, drive higher-tier machines, and more. Because a transformer is only converting power between voltages, changes in voltage are usually accompanied by changes in current.
+변압기는 전송 손실을 줄이고, 상위 티어 기계를 작동시키는 등 다양한 목적으로 전압을 변환합니다. 변압기는 전압 간의 전력만 변환하므로 전압이 변하면 일반적으로 전류도 함께 변합니다.
 
-**Singleblock transformers** can raise or lower voltage by one tier, while current changes by a factor of 4. They have 1 high-voltage face and 5 low-voltage faces. While holding <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />, <kbd>Right-click</kbd> to toggle between step-up mode and step-down mode. The high-voltage face is marked with a circle, the low-voltage faces with squares, and the colors match the tier color shown in the tooltip. In the default step-down mode, the high-voltage face is input and the low-voltage faces are output; in step-up mode, the direction is reversed.
+**단일 블록 변압기**는 전압을 한 티어 높이거나 낮출 수 있으며, 전류는 4배로 변합니다. 고전압 면 1개와 저전압 면 5개를 가집니다. <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />을 들고 <kbd>Right-click</kbd>하여 승압 모드와 강압 모드 사이를 전환하십시오. 고전압 면은 원으로, 저전압 면은 사각형으로 표시되며, 색상은 툴팁에 표시되는 티어 색상과 일치합니다. 기본 강압 모드에서는 고전압 면이 입력이고 저전압 면이 출력이지만, 승압 모드에서는 방향이 반대가 됩니다.
 
-- Maximum input voltage: the standard voltage of the tier corresponding to the input face.
-- Output voltage: the standard voltage of the tier corresponding to the output face.
-- Maximum current: the tooltip's amperage value is the maximum current of the low-voltage faces; the high-voltage face supports one quarter of that amperage.
+- 최대 입력 전압: 입력 면에 해당하는 티어의 표준 전압입니다.
+- 출력 전압: 출력 면에 해당하는 티어의 표준 전압입니다.
+- 최대 전류: 툴팁의 암페어 값은 저전압 면의 최대 전류이며, 고전압 면은 해당 값의 4분의 1에 해당하는 전류를 지원합니다.
 
-The **Energy Distributor** is another singleblock device that converts extremely high current at low voltage into high voltage.
+**에너지 분배기**는 저전압의 매우 높은 전류를 고전압으로 변환하는 또 다른 단일 블록 장치입니다.
 
-The **Active Transformer** (<ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />) is a multiblock transformer. It uses Energy Hatches and Dynamo Hatches as its power I/O. TecTech machines with power transmission enabled can also serve as active transformers.
+**능동 변압기**(<ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />)는 다중 블록 변압기입니다. 전력 입출력에 에너지 해치와 발전기 해치를 사용합니다. 전력 전송이 활성화된 TecTech 기계도 능동 변압기로 사용할 수 있습니다.
 
-# Cable Diodes
+# 케이블 다이오드
 
-**Cable diodes** restrict current direction, allowing packets to travel only from the input side to the output side. They also contain a small internal EU buffer, so they provide a limited amount of voltage smoothing.
+**케이블 다이오드**는 전류의 방향을 제한하여 입력 측에서 출력 측으로만 패킷이 이동하도록 합니다. 또한 내부에 소형 EU 버퍼가 있어 전압을 제한적으로 평활화합니다.
 
-Cable diodes come in different tiers and current limits. The tooltip shows their maximum allowed voltage and maximum through-current. Exceed either value and the diode burns out.
+케이블 다이오드는 다양한 티어와 전류 제한으로 제공됩니다. 툴팁에는 허용되는 최대 전압과 최대 통과 전류가 표시됩니다. 둘 중 하나라도 초과하면 다이오드가 소손됩니다.
 
-# Battery Buffers
+# 배터리 버퍼
 
-Battery Buffers are the most common storage devices at low voltage, and they require batteries of the matching tier:
+배터리 버퍼는 저전압에서 가장 흔히 사용되는 저장 장치이며, 해당 티어에 맞는 배터리가 필요합니다.
 
-- Maximum input voltage: the nominal voltage of the corresponding tier.
-- Maximum input current: 2A x number of batteries.
-- Output voltage: the nominal voltage of the corresponding tier.
-- Maximum output current: 1A x number of batteries.
+- 최대 입력 전압: 해당 티어의 정격 전압입니다.
+- 최대 입력 전류: 배터리 수 x 2A입니다.
+- 출력 전압: 해당 티어의 정격 전압입니다.
+- 최대 출력 전류: 배터리 수 x 1A입니다.
 
-Storage devices can input and output power at the same time. Because Battery Buffers have different input and output current limits, they can also be used as an indirect way to limit current. For more storage options, see power storage and transport.
+저장 장치는 전력을 동시에 입력하고 출력할 수 있습니다. 배터리 버퍼는 입력 및 출력 전류 제한이 서로 다르므로, 전류를 제한하는 간접적인 방법으로도 사용할 수 있습니다. 더 많은 저장 장치는 전력 저장 및 전송을 참조하십시오.

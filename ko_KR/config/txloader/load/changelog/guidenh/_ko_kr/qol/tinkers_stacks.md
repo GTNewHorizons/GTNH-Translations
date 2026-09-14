@@ -1,15 +1,15 @@
 ---
 navigation:
-  title: Tinkers' Tool Modifiers
+  title: Tinkers' 도구 수식어
   parent: qol.md
   icon: TConstruct:ToolForgeBlock
 categories:
-    - Quality Of Life
+    - 편의성
 author: Skorched
 date: 2026-06-05
 ---
 
-# Tinkers' Tool Modifiers
-Are you tired of spending 3 business days adding lapis onto a hammer? Or maybe just sick of adding all of that redstone onto each new tool you make? This one's for you...
+# Tinkers' 도구 수식어
+망치에 청금석을 추가하는 데 3영업일을 소비하는 일에 지치셨습니까? 아니면 새로 만드는 도구마다 그 많은 레드스톤을 추가하는 일에 지긋지긋하십니까? 이것은 바로 여러분을 위한 것입니다...
 
-You can now add huge amounts of materials at the same time! By using either a crafting station, or a tool forge, you can add modifiers as you normally would except now it will consume <Color id="GREEN">ALL AVAILABLE</Color> items from the stacks to saturate the modifiers. You still obviously need to have those modifier slots available, but now dumping a hammer into a crafting station with 450 lapis will <Color id="GREEN">IMMEDIATELY</Color> give the full fortune effect, rather than doing 8 at a time for minutes on end! This also does not need you to count out the amount. If you put 8 stacks of lapis into the crafting grid (512 total), it will consume 450 and leave the remaining 62 behind!
+이제 한 번에 엄청난 양의 재료를 추가할 수 있습니다! 제작 스테이션이나 도구 단조대를 사용하면 평소처럼 수식어를 추가할 수 있지만, 이제는 수식어를 포화시키기 위해 스택에서 <Color id="GREEN">사용 가능한 모든</Color> 아이템을 소모합니다. 물론 해당 수식어 슬롯이 남아 있어야 하지만, 이제 450개의 청금석이 있는 제작 스테이션에 망치를 넣으면 몇 분 동안 8개씩 처리하는 대신 <Color id="GREEN">즉시</Color> 완전한 행운 효과를 부여합니다! 또한 이 기능은 수량을 일일이 세지 않아도 됩니다. 제작 그리드에 청금석 8스택(총 512개)을 넣으면 450개를 소모하고 나머지 62개는 그대로 남겨 둡니다!

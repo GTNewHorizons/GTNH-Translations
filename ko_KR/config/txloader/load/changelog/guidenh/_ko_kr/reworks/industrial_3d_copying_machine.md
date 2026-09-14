@@ -2,58 +2,58 @@
 item_ids:
   - gregtech:gt.blockmachines:15554
 navigation:
-  title: Industrial 3D Copying Machine
+  title: 산업용 3D 복사기
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15554
 categories:
-    - Structure Reworks
+    - 구조물 개편
 author: Skorched
 date: 2026-05-27
 ---
 
-# Industrial 3D Copying Machine
+# 산업용 3D 복사기
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15554"/>
 </GameScene>
-The <Color id="GREEN">Industrial 3D Copying Machine</Color> is an EV tier multiblock for chiseling blocks into any of their decorative variants. The <Color id="GREEN">Industrial 3D Copying Machine</Color> is a direct upgrade from the singleblock auto-chisel because it runs at <Color id="RED">300%</Color> speed, only uses <Color id="BLUE">75%</Color> of the EU/t normally required, and offers <Color id="GREEN">16</Color> parallels per voltage tier. The target block is chosen with a programmed circuit in the input bus or controller, or with the block itself if using a chisel bus. 
+<Color id="GREEN">산업용 3D 복사기</Color>는 블록을 장식 변형으로 조각하는 EV 티어 멀티블록입니다. <Color id="GREEN">산업용 3D 복사기</Color>는 단일블록 자동 조각기에서 직접 업그레이드한 기계로, <Color id="RED">300%</Color> 속도로 작동하고, 일반적으로 필요한 EU/t의 <Color id="BLUE">75%</Color>만 사용하며, 전압 티어당 <Color id="GREEN">16</Color>개의 병렬 처리를 제공합니다. 대상 블록은 입력 버스나 컨트롤러에 있는 프로그램된 회로로 선택하거나, 조각 버스를 사용하는 경우 블록 자체로 선택합니다. 
 <br clear="all"/>
 
 > [!NOTE]
-> There are no mechanical changes to this multiblock aside from the new structure
+> 새 구조물 외에는 이 멀티블록에 기계적 변경 사항이 없습니다.
 
-## Construction
-The <Color id="GREEN">Industrial 3D Copying Machine</Color> has no tiered components. The glass can be any tier and has no effect on the operation of the machine. The heating coil must be cupronickel specifically and also has no effect on the operation of the machine. Buses/hatches may replace any sturdy printer casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+## 건설
+<Color id="GREEN">산업용 3D 복사기</Color>에는 티어 구성 요소가 없습니다. 유리는 아무 티어나 사용할 수 있으며 기계 작동에 영향을 주지 않습니다. 가열 코일은 반드시 백동이어야 하며, 역시 기계 작동에 영향을 주지 않습니다. 버스/해치는 구조물의 어느 위치에서든 견고한 프린터 케이싱을 대체할 수 있습니다. <Color id="RED">멀티앰프 및 레이저 에너지 해치</Color>는 지원되지 않지만, 오버클럭을 위해 여러 개의 일반 에너지 해치를 둘 수 있습니다. <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>을 사용하여 하위 채널 "glass"로 구조물을 시각화/건설해 유리의 티어를 지정할 수 있습니다.
 
-Unique to the <Color id="GREEN">Industrial 3D Copying Machine</Color> is the chisel bus which is effectively a large input bus with one additional slot to specify the target block. The target block must be physically placed inside the chisel bus which makes it not a great alternative to just using a programmed circuit in a regular input bus. There are three tiers of chisel buses (LV, MV, HV) with the only difference being their number of slots (32, 48, 64). 
+<Color id="GREEN">산업용 3D 복사기</Color>만의 특징은 조각 버스로, 이는 사실상 대상 블록을 지정하기 위한 슬롯이 하나 더 추가된 대형 입력 버스입니다. 대상 블록을 조각 버스 안에 실제로 배치해야 하므로, 일반 입력 버스에서 프로그램된 회로를 사용하는 것보다 좋은 대안은 아닙니다. 조각 버스에는 세 가지 티어(LV, MV, HV)가 있으며, 유일한 차이는 슬롯 수(32, 48, 64)입니다. 
 
-### Requires:
+### 필요:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15554"/><ItemImage id="gregtech:gt.blockmachines:15554"/>
 - 40-48 <ItemLink id="miscutils:gtplusplus.blockcasings.5:5"/><ItemImage id="miscutils:gtplusplus.blockcasings.5:5"/>
 - 37 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
-- 18 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 18 티어 유리 (아무 것이나) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 12 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings2:3"/><ItemImage id="gregtech:gt.blockcasings2:3"/>
 - 1 <ItemLink id="IC2:blockFenceIron"/><ItemImage id="IC2:blockFenceIron"/>
 - 1 <ItemLink id="gregtech:gt.blockcasings5"/><ItemImage id="gregtech:gt.blockcasings5"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Chisel Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:31778"/>
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ 에너지 해치 (아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 정비 해치 (아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 소음기 해치 (아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 입력 버스 (아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 조각 버스 (아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:31778"/>
+- 0+ 출력 버스 (아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">Industrial 3D Copying Machines</Color> may wallshare each of their sides to save on casings, frame boxes, glass, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### 벽 공유
+<Color id="GREEN">산업용 3D 복사기</Color>는 케이싱, 프레임 박스, 유리, 버스/해치를 절약하기 위해 각 면의 벽을 공유할 수 있습니다. 어떤 레시피도 1A를 초과하는 전력을 사용하지 않으므로 <u>__하나__</u>의 에너지 해치를 <u>__두__</u> 기계 사이에서 공유할 수 있습니다. 
 
-## Usage
-The <Color id="GREEN">Industrial 3D Copying Machine</Color> is a direct upgrade from the singleblock auto-chisel because it runs at 300% speed, only uses 75% of the EU/t normally required, and offers 16 parallels per voltage tier, as seen in the following table.
+## 사용법
+<Color id="GREEN">산업용 3D 복사기</Color>는 단일블록 자동 조각기에서 직접 업그레이드한 기계로, 300% 속도로 작동하고, 일반적으로 필요한 EU/t의 75%만 사용하며, 전압 티어당 16개의 병렬 처리를 제공합니다. 이는 다음 표에서 볼 수 있습니다.
 
-### Parallels:
+### 병렬 처리:
 
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | -------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 | 16 | 32 | 48 | 64 | 80 | 96 | 112 | 128 | 144 | 160 | 176 | 192 | 208 | 224 | 240 |
 
 
-Every chisel recipe has a base duration of 1.0s and consumes 16 EU/t (LV) prior to any overclocking or speed bonuses. The <Color id="GREEN">Industrial 3D Copying Machine</Color> uses a programmed circuit to determine the output for recipes, unless using a chisel bus which requires the target block instead. The latter is not recommended because it MUST be crafted and physically placed inside the chisel bus--dragging over from NEI does NOT work. If no target block is specified then the machine defaults to the next available chisel recipe. 
+모든 조각 레시피는 기본 지속 시간이 1.0초이며, 오버클럭이나 속도 보너스가 적용되기 전에는 16 EU/t(LV)를 소비합니다. <Color id="GREEN">산업용 3D 복사기</Color>는 조각 버스를 사용하지 않는 한 레시피의 출력을 결정하기 위해 프로그램된 회로를 사용합니다. 조각 버스를 사용하는 경우에는 대신 대상 블록이 필요합니다. 후자는 권장되지 않습니다. 왜냐하면 반드시 제작해서 조각 버스 안에 실제로 배치해야 하며--NEI에서 끌어다 놓는 것은 작동하지 않기 때문입니다. 대상 블록이 지정되지 않으면 기계는 다음으로 사용 가능한 조각 레시피를 기본값으로 사용합니다.

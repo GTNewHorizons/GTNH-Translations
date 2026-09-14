@@ -1,39 +1,39 @@
 ---
 navigation:
-  title: "Power"
+  title: "전력"
   icon: gregtech:gt.metaitem.01:32518
   parent: /index.md
   position: 8
 ---
 
-# Power
+# 전력
 
-The GregTech power system uses EU (Energy Units). Its core is the [local power network](enet.md) (GT-Enet), around which power generation, transport, storage, consumption, and conversion are built.
+GregTech 전력 시스템은 EU(Energy Units)를 사용합니다. 핵심은 [로컬 전력 네트워크](enet.md)(GT-Enet)이며, 이를 중심으로 전력의 생성, 운송, 저장, 소비 및 변환이 이루어집니다.
 
-- For power generation methods, see the generation overview.
-- For network layout and transport advice, see power storage and transport.
-- For machine tier skipping, overclocking, and parallels, see **[Tier Skipping, Overclocking, and Parallels](../tierskipping-overcloking-parallels/T-O-P-index.md)**.
+- 전력 생성 방법은 생성 개요를 참조하십시오.
+- 네트워크 구성 및 운송에 관한 조언은 전력 저장 및 운송을 참조하십시오.
+- 기계 티어 건너뛰기, 오버클로킹 및 병렬 처리는 **[티어 건너뛰기, 오버클로킹 및 병렬 처리](../tierskipping-overcloking-parallels/T-O-P-index.md)**를 참조하십시오.
 
-# Voltage and Current
+# 전압과 전류
 
-EU is transmitted as energy packets. The number of energy packets is always an integer.
+EU는 에너지 패킷의 형태로 전송됩니다. 에너지 패킷의 수는 항상 정수입니다.
 
-## Voltage
+## 전압
 
-Voltage describes how much EU each packet carries, measured in volts (V). $$1\text{ V} = 1\text{ EU}/\text{packet}$$.
+전압은 각 패킷이 운반하는 EU의 양을 나타내며, 볼트(V) 단위로 측정됩니다. $$1\text{ V} = 1\text{ EU}/\text{packet}$$.
 
-Voltage describes the size of a single energy packet and determines generator and machine progression (see [voltage tiers](voltage-tiers.md)).
+전압은 단일 에너지 패킷의 크기를 나타내며, 발전기와 기계의 진행 단계를 결정합니다([전압 티어](voltage-tiers.md) 참조).
 
-## Current
+## 전류
 
-Current describes how many energy packets are transferred per unit time, measured in amperes (A). $$1\text{ A} = 1\text{ packet}/\text{tick}$$.
+전류는 단위 시간당 전송되는 에너지 패킷의 수를 나타내며, 암페어(A) 단위로 측정됩니다. $$1\text{ A} = 1\text{ packet}/\text{tick}$$.
 
-Because the number of energy packets transferred in a single tick is always an integer, instantaneous current is also always an integer. Average current is the average of instantaneous current, so it is often fractional.
+한 틱 동안 전송되는 에너지 패킷의 수는 항상 정수이므로 순간 전류 또한 항상 정수입니다. 평균 전류는 순간 전류의 평균이므로 소수일 때가 많습니다.
 
-## Power
+## 전력
 
-Power is the product of voltage and current: $$P = UI$$. It describes how much energy is produced, transmitted, or consumed per unit time, measured in EU/t. $$1\text{ EU/t} = 1\text{ V} \times 1\text{ A}$$.
+전력은 전압과 전류의 곱입니다: $$P = UI$$. 전력은 단위 시간당 생성, 전송 또는 소비되는 에너지의 양을 나타내며, EU/t 단위로 측정됩니다. $$1\text{ EU/t} = 1\text{ V} \times 1\text{ A}$$.
 
-Energy is power multiplied by time (ticks), measured in EU.
+에너지는 전력에 시간(틱)을 곱한 값이며, EU 단위로 측정됩니다.
 
-The GT power system is close to real-world electrical behavior. Once you account for [cable loss](cable-loss.md) and [transmission internal resistance](output-loss.md), conservation of energy still holds.
+GT 전력 시스템은 현실의 전기적 거동과 유사합니다. [케이블 손실](cable-loss.md)과 [전송 내부 저항](output-loss.md)을 고려하면 에너지 보존은 여전히 성립합니다.

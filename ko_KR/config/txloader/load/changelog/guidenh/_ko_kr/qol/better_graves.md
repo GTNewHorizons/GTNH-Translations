@@ -1,24 +1,24 @@
 ---
 navigation:
-  title: Better Grave Recovery
+  title: 개선된 무덤 복구
   parent: qol.md
   icon: OpenBlocks:grave
 categories:
-    - Quality Of Life
+    - 편의성
 author: Skorched
 date: 2026-05-19
 ---
 
-# Better Grave Recovery
-Keep dying to infernal mobs and sick of rearranging your inventory?
+# 개선된 무덤 복구
+Infernal Mobs에게 계속 죽고 인벤토리를 다시 정리하는 일에 지치셨습니까?
 
-__Say less__
+__더 말할 필요도 없습니다__
 
-The OpenBlocks graves <ItemImage id="OpenBlocks:grave" /> have been reworked to work like modern gravestones!
+OpenBlocks의 무덤 <ItemImage id="OpenBlocks:grave" />은 현대적인 묘비처럼 작동하도록 개편되었습니다!
 
-Retrieving your items can now either be done by Left Mouse Button, or by Shift + Right Mouse Button with an empty hand. All your extra backpacks, and tools will be properly ordered as they were before your untimely death! This also includes auto-equipping all baubles, armor, and backpacks!
+이제 아이템 회수는 마우스 왼쪽 버튼을 누르거나, 빈손으로 Shift + 마우스 오른쪽 버튼을 눌러 수행할 수 있습니다. 모든 여분 배낭과 도구는 예기치 못한 죽음 이전과 같은 순서로 제대로 정리됩니다! 여기에는 모든 장신구, 방어구, 배낭을 자동으로 장착하는 것도 포함됩니다!
 
-Right clicking a grave with an empty hand will show a death message associated with how the player died. Other players will not be able to accidentally open your grave
+빈손으로 무덤을 오른쪽 클릭하면 플레이어가 죽은 방식과 관련된 사망 메시지가 표시됩니다. 다른 플레이어는 실수로 당신의 무덤을 열 수 없습니다.
 
 > [!NOTE]
-> The old system of dropping on the floor is still available, and is achieved by right clicking whilst holding a shovel
+> 바닥에 떨어뜨리는 예전 시스템도 여전히 사용할 수 있으며, 삽을 들고 오른쪽 클릭하면 됩니다.

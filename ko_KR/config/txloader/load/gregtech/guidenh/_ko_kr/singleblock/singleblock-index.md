@@ -1,136 +1,136 @@
 ---
 navigation:
-  title: "Singleblock Machines"
+  title: "단일 블록 기계"
   icon: gregtech:gt.blockmachines:106
   parent: /index.md
   position: 10
 ---
 
-# Singleblock Machines
+# 단일 블록 기계
 
-Singleblock machines consist of only one block. Their uses are narrow, and they are always slower or less efficient than the equivalent [multiblock machine](../multiblocks/multiblocks-index.md), if one exists. They cannot be upgraded, except for high-pressure steam machines, so replacing them always means crafting a new machine. Even so, they are essential for early progression, and some remain useful through the entire game. By EV through IV, once most [multiblock machines](../multiblocks/multiblocks-index.md) become available, players gradually transition away from singleblocks.
+단일 블록 기계는 블록 하나로만 구성됩니다. 용도가 제한적이며, 동일한 기능의 [다중 블록 기계](../multiblocks/multiblocks-index.md)가 존재하는 경우 항상 해당 기계보다 느리거나 효율이 낮습니다. 고압 증기 기계를 제외하면 업그레이드할 수 없으므로, 교체할 때마다 새로운 기계를 제작해야 합니다. 그럼에도 초반 진행에 필수적이며, 일부 기계는 게임 전체에서 유용하게 사용됩니다. EV부터 IV에 걸쳐 대부분의 [다중 블록 기계](../multiblocks/multiblocks-index.md)를 사용할 수 있게 되면 플레이어는 점차 단일 블록 기계에서 벗어나게 됩니다.
 
-# Machine Facing
+# 기계 방향
 
-Every singleblock machine, whether steam or electric, has two special faces and four ordinary faces. You can change its facing with <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" />, using the GregTech 3x3 wrench rules.
+증기 기계든 전기 기계든 모든 단일 블록 기계에는 특수 면 2개와 일반 면 4개가 있습니다. GregTech 3x3 렌치 규칙에 따라 <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" />으로 기계의 방향을 변경할 수 있습니다.
 
-- **Front face**: the most visually distinctive face, and it can only point horizontally. It cannot input or output items, fluids, steam, or power at all.
-  - Hold a wrench, then <kbd>Shift</kbd> + <kbd>Right-click</kbd> a side face to change the front face direction.
-- **Output face**: the face with a small white-framed port on a black background.
-  - For steam machines, this is the exhaust vent that releases spent steam pressure.
-  - For electric machines, this is the item output face used to eject products.
-  - Hold a wrench, then <kbd>Right-click</kbd> a side face to change the output face.
-- **All other faces**: the remaining four faces are equivalent and can input or output items, fluids, steam, or power.
+- **전면**: 외관상 가장 눈에 띄는 면이며, 수평 방향으로만 향할 수 있습니다. 아이템, 유체, 증기 또는 전력을 전혀 입출력할 수 없습니다.
+  - 렌치를 들고 측면을 <kbd>Shift</kbd> + <kbd>Right-click</kbd>하면 전면의 방향을 변경합니다.
+- **출력면**: 검은색 배경에 작은 흰색 테두리의 포트가 있는 면입니다.
+  - 증기 기계에서는 사용한 증기 압력을 방출하는 배기구입니다.
+  - 전기 기계에서는 제품을 배출하는 아이템 출력면입니다.
+  - 렌치를 들고 측면을 <kbd>Right-click</kbd>하면 출력면을 변경합니다.
+- **나머지 모든 면**: 남은 4개의 면은 서로 동일하며 아이템, 유체, 증기 또는 전력을 입출력할 수 있습니다.
 
-# Steam Machines
+# 증기 기계
 
-Singleblock steam machines run on steam and are used heavily during the steam age. Steam is produced by boilers. Every standard version has a corresponding high-pressure version made with steel.
+단일 블록 증기 기계는 증기로 작동하며 증기 시대에 많이 사용됩니다. 증기는 보일러에서 생산됩니다. 모든 일반 버전에는 강철로 제작하는 대응 고압 버전이 있습니다.
 
-Steam machines do not explode, are resistant to rain and snow, and can be placed outdoors safely.
+증기 기계는 폭발하지 않고 비와 눈에 강하므로 야외에 안전하게 설치할 수 있습니다.
 
-## Categories
+## 분류
 
-There are only six singleblock steam machines, each with a standard and a high-pressure version:
+단일 블록 증기 기계는 총 6종이며, 각각 일반 버전과 고압 버전이 있습니다.
 
-| Function | Standard | High Pressure |
+| 기능 | 일반 | 고압 |
 |----------|----------|---------------|
-| Furnace | <ItemLink id="gregtech:gt.blockmachines:103" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:104" showIcon="left" /> |
-| Alloy Smelter | <ItemLink id="gregtech:gt.blockmachines:118" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:119" showIcon="left" /> |
-| Compressor | <ItemLink id="gregtech:gt.blockmachines:115" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:116" showIcon="left" /> |
-| Macerator | <ItemLink id="gregtech:gt.blockmachines:106" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:107" showIcon="left" /> |
-| Extractor | <ItemLink id="gregtech:gt.blockmachines:109" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:110" showIcon="left" /> |
-| Forge Hammer | <ItemLink id="gregtech:gt.blockmachines:112" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:113" showIcon="left" /> |
+| 화로 | <ItemLink id="gregtech:gt.blockmachines:103" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:104" showIcon="left" /> |
+| 합금 제련기 | <ItemLink id="gregtech:gt.blockmachines:118" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:119" showIcon="left" /> |
+| 압축기 | <ItemLink id="gregtech:gt.blockmachines:115" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:116" showIcon="left" /> |
+| 분쇄기 | <ItemLink id="gregtech:gt.blockmachines:106" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:107" showIcon="left" /> |
+| 추출기 | <ItemLink id="gregtech:gt.blockmachines:109" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:110" showIcon="left" /> |
+| 단조 망치 | <ItemLink id="gregtech:gt.blockmachines:112" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:113" showIcon="left" /> |
 
-## Graphical User Interface
+## 그래픽 사용자 인터페이스
 
-- **Steam gauge**: top left, showing the internal steam buffer. All steam machines have a 16,000 L internal buffer.
-- **Storage slots**: the two bottom slots, with no special behavior.
-- **Mute button**: top right. You can also toggle it by <kbd>Right-clicking</kbd> the machine with <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" />.
+- **증기 게이지**: 왼쪽 위에 있으며 내부 증기 저장량을 표시합니다. 모든 증기 기계의 내부 저장량은 16,000 L입니다.
+- **저장 슬롯**: 아래쪽의 슬롯 2개이며 특별한 기능은 없습니다.
+- **음소거 버튼**: 오른쪽 위에 있습니다. <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" />을 들고 기계를 <kbd>Right-click</kbd>해도 전환할 수 있습니다.
 
-Steam machines do not support auto-output.
+증기 기계는 자동 출력을 지원하지 않습니다.
 
-## Power
+## 전력
 
-The machine accepts steam from the four faces that are neither the front face nor the exhaust face, filling its internal buffer. It runs LV-tier recipes at a ratio of 4 L steam = 1 EU, which is 50% efficiency. Bronze machines take twice the normal duration of an LV recipe.
+기계는 전면과 배기면이 아닌 4개의 면에서 증기를 받아 내부 저장량을 채웁니다. LV 티어 레시피를 증기 4 L = 1 EU의 비율로 작동하며, 효율은 50%입니다. 청동 기계는 LV 레시피의 일반 소요 시간의 2배가 걸립니다.
 
-| Machine Type | Steam Cost (L/t) | Duration |
+| 기계 유형 | 증기 비용 (L/t) | 소요 시간 |
 |--------------|------------|----------|
-| Steam machine | 2x | 2x |
-| High-pressure steam machine | 4x | 1x |
+| 증기 기계 | 2x | 2x |
+| 고압 증기 기계 | 4x | 1x |
 
-The high-pressure version consumes steam at twice the rate and halves recipe duration, effectively performing one 2/2 lossless [overclock](../tierskipping-overcloking-parallels/overclocking.md).
+고압 버전은 증기를 2배 빠르게 소모하고 레시피 소요 시간을 절반으로 줄여, 사실상 2/2 손실 없는 [오버클록](../tierskipping-overcloking-parallels/overclocking.md)을 1회 적용한 것과 같습니다.
 
-You can pause or resume the machine by <kbd>Right-clicking</kbd> it with <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />.
+<ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />을 들고 기계를 <kbd>Right-click</kbd>하면 기계를 일시 정지하거나 재개할 수 있습니다.
 
-## Item Transport and Exhaust
+## 아이템 운송 및 배기
 
-The four faces other than the front and exhaust faces can input or output. Steam machines cannot eject items on their own, so you need hoppers or another transport system to extract products.
+전면과 배기면을 제외한 4개의 면은 입출력에 사용할 수 있습니다. 증기 기계는 스스로 아이템을 배출할 수 없으므로, 제품을 꺼내려면 호퍼나 다른 운송 시스템이 필요합니다.
 
-The exhaust vent is the output face of a steam machine. After each recipe completes, the machine must vent its exhaust through that face. If the vent is blocked, the machine cannot finish the recipe. Standing next to the vent when a recipe completes deals 3.5 hearts of damage to the player.
+배기구는 증기 기계의 출력면입니다. 각 레시피가 완료된 후 기계는 해당 면을 통해 배기가스를 배출해야 합니다. 배기구가 막혀 있으면 기계가 레시피를 완료할 수 없습니다. 레시피가 완료될 때 배기구 옆에 서 있으면 플레이어가 3.5 하트의 피해를 입습니다.
 
-## Failures
+## 고장
 
-- Exhaust vent blocked -> a failure icon appears, and the machine does not continue until the exhaust is released.
-- Steam buffer empty -> a failure icon appears. If the steam buffer refills shortly afterward, the machine retries the recipe. If your steam supply is fundamentally insufficient, the machine may repeatedly fail, lose all progress, and waste steam.
+- 배기구 막힘 -> 고장 아이콘이 나타나며, 배기가 해소될 때까지 기계가 작동하지 않습니다.
+- 증기 저장량 부족 -> 고장 아이콘이 나타납니다. 잠시 후 증기 저장량이 다시 채워지면 기계가 레시피를 재시도합니다. 증기 공급량이 근본적으로 부족하면 기계가 반복해서 고장 나고 진행 상황을 모두 잃으며 증기를 낭비할 수 있습니다.
 
-# Electric Machines
+# 전기 기계
 
 > [!WARNING]
-> Singleblock electric machines can explode. Read the [explosions](#explosions) section carefully.
+> 단일 블록 전기 기계는 폭발할 수 있습니다. [폭발](#explosions) 항목을 주의 깊게 읽으십시오.
 
-Singleblock electric machines are the first must-craft machines at LV. They have specific uses, fixed voltage tiers, and must be fully replaced when upgraded.
+단일 블록 전기 기계는 LV에서 가장 먼저 제작해야 하는 기계입니다. 각각 용도가 정해져 있고 전압 티어가 고정되어 있으며, 업그레이드할 때는 기계 전체를 교체해야 합니다.
 
-## Graphical User Interface
+## 그래픽 사용자 인터페이스
 
-The electric machine GUI is more complex than the steam one:
+전기 기계의 GUI는 증기 기계보다 복잡합니다.
 
-- **Item input/output slots**: the light-colored slots to the left and right of the progress bar.
-- **Fluid input/output slots**: the dark slots beneath the item slots. You can interact with them directly while holding containers: <kbd>Left-click</kbd> fills or drains all matching fluid containers, while <kbd>Right-click</kbd> processes only one container.
-- **Power slot**: accepts same-voltage tools or batteries. When the internal buffer is full enough it charges them; when the buffer is low it can draw from them. It can also be used as a normal storage slot.
-- **Data slot**: only appears on special machines like scanners, printers, and copiers.
-- **Integrated circuit slot**: bottom right. Scroll the <kbd>mouse wheel</kbd> or click to raise or lower the circuit number; <kbd>Shift</kbd> + <kbd>Left-click</kbd> opens the selector GUI; <kbd>Shift</kbd> + <kbd>Right-click</kbd> clears it.
-- **Auto-output toggles**: the two buttons in the bottom left. Once enabled, the machine can eject items or fluids. Steam machines do not have this feature.
-- **Mute button**: top right. You can also toggle it by <kbd>Right-clicking</kbd> the machine with <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" />.
+- **아이템 입력/출력 슬롯**: 진행 막대의 왼쪽과 오른쪽에 있는 밝은 색 슬롯입니다.
+- **유체 입력/출력 슬롯**: 아이템 슬롯 아래의 어두운 슬롯입니다. 용기를 들고 직접 조작할 수 있습니다. <kbd>Left-click</kbd>하면 일치하는 모든 유체 용기를 채우거나 비우며, <kbd>Right-click</kbd>하면 용기 하나만 처리합니다.
+- **전력 슬롯**: 같은 전압의 도구 또는 배터리를 받습니다. 내부 저장량이 충분히 높으면 도구나 배터리를 충전하며, 저장량이 낮으면 도구나 배터리에서 전력을 끌어올 수 있습니다. 일반 저장 슬롯으로도 사용할 수 있습니다.
+- **데이터 슬롯**: 스캐너, 프린터, 복사기와 같은 특수 기계에만 나타납니다.
+- **집적 회로 슬롯**: 오른쪽 아래에 있습니다. <kbd>mouse wheel</kbd>을 스크롤하거나 클릭하여 회로 번호를 올리거나 내릴 수 있습니다. <kbd>Shift</kbd> + <kbd>Left-click</kbd>하면 선택 GUI가 열리고, <kbd>Shift</kbd> + <kbd>Right-click</kbd>하면 초기화됩니다.
+- **자동 출력 전환 버튼**: 왼쪽 아래의 버튼 2개입니다. 활성화하면 기계가 아이템이나 유체를 배출할 수 있습니다. 증기 기계에는 이 기능이 없습니다.
+- **음소거 버튼**: 오른쪽 위에 있습니다. <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" />을 들고 기계를 <kbd>Right-click</kbd>해도 전환할 수 있습니다.
 
-## Power
+## 전력
 
-Electric machines run on EU. They have a small internal EU buffer equal to 64 times the machine voltage in EU, which is the amount consumed by 1A at standard voltage over 3.2 seconds. For example, an LV machine stores 2,048 EU, while an HV machine stores 32,768 EU.
+전기 기계는 EU로 작동합니다. 내부 EU 저장량은 기계 전압의 64배에 해당하는 EU로, 표준 전압에서 1A가 3.2초 동안 소모하는 양입니다. 예를 들어 LV 기계는 2,048 EU를 저장하고, HV 기계는 32,768 EU를 저장합니다.
 
-Machines continuously request energy packets from the local power network to fill their buffer. Their maximum input current is:
+기계는 저장량을 채우기 위해 지역 전력망에 에너지 패킷을 지속적으로 요청합니다. 최대 입력 전류는 다음과 같습니다.
 
 $$\text{Maximum Input Current} = \left\lfloor\frac{\text{Recipe Rated Power} \times 2}{\text{Machine Operating Voltage}}\right\rfloor + 1 \text{ A}$$
 
-- Most singleblock machines: 2A maximum.
-- Thermal Centrifuge: 4A maximum.
-- Arc Furnace: 6A maximum.
+- 대부분의 단일 블록 기계: 최대 2A
+- 열 원심분리기: 최대 4A
+- 아크 화로: 최대 6A
 
-You can pause or resume the machine by <kbd>Right-clicking</kbd> it with <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />.
+<ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />을 들고 기계를 <kbd>Right-click</kbd>하면 기계를 일시 정지하거나 재개할 수 있습니다.
 
-## Overclocking
+## 오버클록
 
-Singleblock electric machines use 4/2 imperfect overclocks: each overclock multiplies power draw by 4 and halves recipe time, so total energy doubles. The singleblock Mass Fabricator is the only exception, using 2/2 lossless overclocks.
+단일 블록 전기 기계는 4/2 비완전 오버클록을 사용합니다. 오버클록할 때마다 전력 소모량이 4배가 되고 레시피 시간이 절반으로 줄어들어 총 에너지 소모량은 2배가 됩니다. 단일 블록 물질 복제기는 유일한 예외로, 2/2 손실 없는 오버클록을 사용합니다.
 
-See **[Overclocking](../tierskipping-overcloking-parallels/overclocking.md)** for the full system.
+전체 시스템은 **[오버클록](../tierskipping-overcloking-parallels/overclocking.md)**을 참조하십시오.
 
-## Logistics
+## 물류
 
-All five faces other than the front face can output. The four faces that are neither the front nor the output face can input.
+전면을 제외한 5개의 면은 모두 출력에 사용할 수 있습니다. 전면과 출력면이 아닌 4개의 면은 입력에 사용할 수 있습니다.
 
-- **Auto-output**: enable the auto-output toggle in the GUI, and the output face can eject items or fluids.
-- **Allow input from output face**: hold <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> and <kbd>Right-click</kbd> the front face or output face to toggle it.
-- **Input filtering**: hold a screwdriver and <kbd>Shift</kbd> + <kbd>Right-click</kbd> the front face or output face to enable it. When enabled, input items are filtered by the recipe map.
-- **Input stacking**: hold <ItemLink id="Forestry:solderingIron" showIcon="left" /> and <kbd>Shift</kbd> + <kbd>Right-click</kbd> the front face to enable it, allowing multiple item types in the same slot.
+- **자동 출력**: GUI에서 자동 출력 전환 버튼을 활성화하면 출력면이 아이템이나 유체를 배출할 수 있습니다.
+- **출력면에서 입력 허용**: <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" />을 들고 전면이나 출력면을 <kbd>Right-click</kbd>하여 전환합니다.
+- **입력 필터링**: 드라이버를 들고 전면이나 출력면을 <kbd>Shift</kbd> + <kbd>Right-click</kbd>하여 활성화합니다. 활성화하면 레시피 맵에 따라 입력 아이템을 필터링합니다.
+- **입력 중첩**: <ItemLink id="Forestry:solderingIron" showIcon="left" />을 들고 전면을 <kbd>Shift</kbd> + <kbd>Right-click</kbd>하여 활성화하면 하나의 슬롯에 여러 아이템 유형을 넣을 수 있습니다.
 
-## Failures
+## 고장
 
-When the internal EU buffer runs dry, the machine fails. Recipe progress is lost, but the input state is preserved. If the buffer refills shortly afterward, the machine retries the recipe. If the power supply itself is insufficient, the machine may repeatedly fail, lose progress, and waste EU.
+내부 EU 저장량이 바닥나면 기계가 고장 납니다. 레시피 진행 상황은 사라지지만 입력 상태는 보존됩니다. 잠시 후 저장량이 다시 채워지면 기계가 레시피를 재시도합니다. 전력 공급 자체가 부족하면 기계가 반복해서 고장 나고 진행 상황을 잃으며 EU를 낭비할 수 있습니다.
 
-## Explosions
+## 폭발
 
-Singleblock electric machines can explode in the following situations:
+단일 블록 전기 기계는 다음과 같은 상황에서 폭발할 수 있습니다.
 
-- **Overvoltage**: if they receive an energy packet above their own voltage, they explode immediately. For example, feeding MV packets into an LV machine.
-- **Fire**: if the machine stores EU greater than 20% of capacity, it checks once every tick with a 1/1000 chance. If any side is on fire, the machine explodes.
-- **Rain or snow**: if the machine stores EU, it also checks once every tick with a 1/1000 chance. During rain, it has a 1/10 chance to explode immediately and a 9/10 chance to catch fire; during thunderstorms, it has a 1/3 chance to explode immediately.
-- An explosion releases all stored EU to every connected wire or adjacent machine as IV-tier power, which can cause chain explosions or overload nearby wires.
-- Powered hatches on [multiblock machines](../multiblocks/multiblocks-index.md) can also catch fire or explode for the same reasons.
+- **과전압**: 기계 자체의 전압보다 높은 에너지 패킷을 받으면 즉시 폭발합니다. 예를 들어 LV 기계에 MV 패킷을 공급하는 경우입니다.
+- **화재**: 기계가 용량의 20%를 초과하는 EU를 저장하고 있으면 매 틱마다 1/1000 확률로 확인합니다. 어느 한 면에 불이 붙어 있으면 기계가 폭발합니다.
+- **비 또는 눈**: 기계가 EU를 저장하고 있으면 역시 매 틱마다 1/1000 확률로 확인합니다. 비가 내리는 동안에는 1/10 확률로 즉시 폭발하고 9/10 확률로 불이 붙으며, 뇌우 중에는 1/3 확률로 즉시 폭발합니다.
+- 폭발하면 저장된 모든 EU가 IV 티어 전력으로 연결된 모든 전선이나 인접한 기계에 방출되며, 이로 인해 연쇄 폭발이 발생하거나 주변 전선에 과부하가 걸릴 수 있습니다.
+- [다중 블록 기계](../multiblocks/multiblocks-index.md)의 전력 해치도 같은 이유로 불이 붙거나 폭발할 수 있습니다.

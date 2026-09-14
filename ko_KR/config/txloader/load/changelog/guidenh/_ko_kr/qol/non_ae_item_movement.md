@@ -1,22 +1,22 @@
 ---
 navigation:
-  title: Non-AE2 Item Logistics
+  title: AE2를 사용하지 않는 아이템 물류
   parent: qol.md
   icon: gregtech:gt.metaitem.01:32639
 categories:
-    - Quality Of Life
+    - 편의성
 author: Skorched
 date: 2026-05-16
 ---
 
-# Non-AE2 Item Logistics
-This is a much less "visible" change, but a huge one potentially for lategame players (and beyond!) as it allows easier movement of items without reliance on Applied Energistics.
+# AE2를 사용하지 않는 아이템 물류
+이것은 훨씬 덜 "눈에 띄는" 변화이지만, Applied Energistics에 의존하지 않고 아이템을 더 쉽게 이동할 수 있게 해주기 때문에 잠재적으로 후반 게임 플레이어(그리고 그 이상!)에게는 거대한 변화입니다.
 
-This includes faster pipes, bigger buses, and other useful tools to allow mass movement of items without lag!
+여기에는 더 빠른 파이프, 더 큰 버스, 그리고 렉 없이 아이템을 대량으로 이동할 수 있게 해주는 다른 유용한 도구들이 포함됩니다!
 
-Many machines can now move more than 1 stack per tick without causing lag. High tiers of conveyors can move hundreds of thousands of items each tick, working fully with both GT and Applied Energistics systems. Some extra parts of this change include:
-- Rebalancing and buffing conveyors significantly
-- Adding AppliedEnergistics integration to conveyors directly
-- Adding new [GregTech buses (called Quantum Bus and Compressed Bus) that can hold more than one stack per slot!](./bigger_buses.md)
-- Buffing GregTech item pipes
-- Huge performance improvements across the board!
+이제 많은 기계가 렉을 유발하지 않고 틱당 1스택보다 많이 이동할 수 있습니다. 높은 티어의 컨베이어는 틱마다 수십만 개의 아이템을 이동할 수 있으며, GT와 Applied Energistics 시스템 모두와 완전히 연동되어 작동합니다. 이 변경의 몇 가지 추가 요소는 다음과 같습니다:
+- 컨베이어를 대폭 재조정하고 상향합니다
+- 컨베이어에 AppliedEnergistics 연동을 직접 추가합니다
+- 슬롯당 1스택보다 많이 보관할 수 있는 새로운 [GregTech 버스(양자 버스 및 압축 버스라고 함)를 추가합니다!](./bigger_buses.md)
+- GregTech 아이템 파이프를 상향합니다
+- 전반적으로 엄청난 성능 향상이 이루어집니다!

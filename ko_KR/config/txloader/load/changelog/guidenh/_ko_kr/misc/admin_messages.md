@@ -1,21 +1,21 @@
 ---
 navigation:
-  title: Title Overlays
+  title: 제목 오버레이
   parent: misc.md
   icon: Thaumcraft:ItemResearchNotes
 categories:
-    - Miscellaneous Changes
+    - 기타 변경 사항
 author: Skorched
 date: 2026-05-30
 ---
 
-# Title Overlays
-New to 2.9, some of the title and subtitle text displays have been backported to 1.7.10 for use in GTNH! Server admins can now display title and subtitle text on players screens using `/title`. This is also fully compatible with the [Full Color System](./color_system.md) codes you can use in chat!
+# 제목 오버레이
+2.9에 새로 추가된 기능으로, 일부 제목 및 부제목 텍스트 표시가 GTNH에서 사용할 수 있도록 1.7.10으로 백포트되었습니다! 서버 관리자는 이제 `/title`을 사용하여 플레이어 화면에 제목 및 부제목 텍스트를 표시할 수 있습니다. 이는 채팅에서 사용할 수 있는 [전체 색상 시스템](./color_system.md) 코드와도 완전히 호환됩니다!
 
-Titles can also fade in, stay, and fade out with configurable timings via `/title <player> times <fadeIn> <stay> <fadeOut>`
+제목은 또한 `/title <player> times <fadeIn> <stay> <fadeOut>`를 통해 설정 가능한 타이밍으로 페이드 인, 유지, 페이드 아웃될 수 있습니다.
 
 <FloatingImage src="../assets/misc/admin_messages.png" displayWidth="384">
   <ImageAnnotation>
-    An example of a title/subtitle overlay being displayed
+    제목/부제목 오버레이가 표시되는 예시입니다.
   </ImageAnnotation>
 </FloatingImage>

@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15513
 navigation:
-  title: Amazon Warehousing Depot
+  title: 아마존 창고 보관소
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15513
 categories:
@@ -11,51 +11,51 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Amazon Warehousing Depot
+# 아마존 창고 보관소
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15513"/>
 </GameScene>
-The <Color id="GREEN">Amazon Warehousing Depot (AWD)</Color> is an IV tier multiblock for packaging and unpackaging various items. It is a direct upgrade from the singleblock packager, running up to <Color id="GREEN">900%</Color> speed, only using <Color id="RED">75%</Color> of the EU/t normally required, and offering <Color color="#ed6401">16</Color> parallels.
+<Color id="GREEN">아마존 창고 보관소(AWD)</Color>는 다양한 아이템을 포장하고 포장 해제하는 IV 티어 멀티블록입니다. 단일블록 포장기에서 직접 업그레이드된 기계로, 최대 <Color id="GREEN">900%</Color> 속도로 작동하며 일반적으로 필요한 EU/t의 <Color id="RED">75%</Color>만 소비하고 <Color color="#ed6401">16</Color>개의 병렬 처리를 제공합니다.
 
-The <Color id="GREEN">AWD</Color> can process both packaging and unpackaging recipes, and is across the board __much__ faster than its single predecessor.
+<Color id="GREEN">AWD</Color>는 포장 및 포장 해제 레시피를 모두 처리할 수 있으며, 전반적으로 기존 단일블록 기계보다 __훨씬__ 빠릅니다.
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Tiered Speed: Recipe speed now depends on item pipe casing tier from 200-900% (old max was 600%)
+> 멀티블록에는 다음과 같은 변경 사항이 적용되었습니다(구조 제외):
+> - 티어별 속도: 레시피 속도가 이제 아이템 파이프 케이싱 티어에 따라 200-900%까지 달라집니다(이전 최대치는 600%)
 
-## Construction
-The <Color id="GREEN">AWD</Color> has one tiered component. The item pipe casings determine the speed bonus of the machine. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches </Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure with subchannels "item_pipe" and "glass" to specify the tier of those components.
+## 건설
+<Color id="GREEN">AWD</Color>에는 티어별 부품이 하나 있습니다. 아이템 파이프 케이싱이 기계의 속도 보너스를 결정합니다. 유리는 아무 티어나 사용할 수 있으며 기계 작동에 아무런 영향을 주지 않습니다. 버스/해치는 구조 어디에서든 임의의 케이싱을 대체할 수 있습니다. <Color id="RED">멀티 앰프 및 레이저 에너지 해치 </Color>는 지원되지 않지만, 오버클럭을 위해 일반 에너지 해치를 여러 개 둘 수 있습니다. <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" />를 사용하여 하위 채널 "item_pipe"와 "glass"로 구조를 시각화/건설하면 해당 부품의 티어를 지정할 수 있습니다.
 
-### Requires:
+### 요구 사항:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15513" /> <ItemImage id="gregtech:gt.blockmachines:15513" />
 - 4-15 <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" /> <ItemImage id="miscutils:gtplusplus.blockcasings.3:9" />
-- 3 Item Pipe Casing <ItemImage id="gregtech:gt.blockcasings11:5" />
-- 3 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 3 아이템 파이프 케이싱 <ItemImage id="gregtech:gt.blockcasings11:5" />
+- 3 티어 유리(아무거나) <ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 2 <ItemLink id="gregtech:gt.blockframes:32" /> <ItemImage id="gregtech:gt.blockframes:32" />
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ 에너지 해치(아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 유지보수 해치(아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 소음기 해치(아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 입력 버스(아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 출력 버스(아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing:
-<Color id="GREEN">AWDs</Color> may wallshare each of their sides to save on casings, frameboxes, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### 벽 공유:
+<Color id="GREEN">AWD</Color>는 케이싱, 프레임 박스, 버스/해치를 절약하기 위해 각 면을 벽 공유할 수 있습니다. 어떤 레시피도 1A 이상의 전력을 사용하지 않으므로 <u>__하나__</u>의 에너지 해치를 <u>__두__</u> 대의 기계가 공유할 수 있습니다.
 
-## Usage
-The <Color id="GREEN">AWD</Color> is a direct upgrade from the singleblock packager and unpackager because it can process both types of recipes, runs up to <Color id="GREEN">900%</Color> speed, only uses <Color id="RED">75%</Color> of the EU/t normally required, and offers <Color color="#ed6401">16</Color> parallels per voltage tier, as seen in the following tables.
-| Tier | Item Pipe Casing | Speed |
+## 사용법
+<Color id="GREEN">AWD</Color>는 단일블록 포장기 및 포장 해제기에서 직접 업그레이드된 기계입니다. 두 종류의 레시피를 모두 처리할 수 있고, 최대 <Color id="GREEN">900%</Color> 속도로 작동하며, 일반적으로 필요한 EU/t의 <Color id="RED">75%</Color>만 소비하고, 다음 표에서 볼 수 있듯이 전압 티어당 <Color color="#ed6401">16</Color>개의 병렬 처리를 제공합니다.
+| 티어 | 아이템 파이프 케이싱 | 속도 |
 | --------------- | --------------- | --------------- |
-| 1 | Tin | 200% |
-| 2 | Brass | 300% |
-| 3 | Electrum | 400% |
-| 4 | Platinum | 500% |
-| 5 | Osmium | 600% |
-| 6 | Quantium | 700% |
-| 7 | Fluxed Electrum | 800% |
-| 8 | Black Plutonium | 900% |
+| 1 | 주석 | 200% |
+| 2 | 황동 | 300% |
+| 3 | 일렉트럼 | 400% |
+| 4 | 백금 | 500% |
+| 5 | 오스뮴 | 600% |
+| 6 | 퀀티움 | 700% |
+| 7 | 플럭스드 일렉트럼 | 800% |
+| 8 | 블랙 플루토늄 | 900% |
 
 ----------
 

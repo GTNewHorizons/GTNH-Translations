@@ -2,58 +2,58 @@
 item_ids:
   - gregtech:gt.blockmachines:15543
 navigation:
-  title: Industrial Coke Oven
+  title: 산업용 코크스 오븐
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15543
 categories:
-    - Structure Reworks
+    - 구조 개편
 author: Skorched
 date: 2026-05-27
 ---
 
-# Industrial Coke Oven
+# 산업용 코크스 오븐
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15543"/>
 </GameScene>
-The <Color id="GREEN" >Industrial Coke Oven (ICO)</Color> is an EV tier multiblock for mass burning logs into charcoal and one fluid byproduct (coal gas, wood gas, wood vinegar, wood tar, or charcoal byproducts). The fluid byproducts are useful for producing organic compounds such as ethylene, benzene, and toluene. The <Color id="GREEN">ICO</Color> is a direct upgrade from the Pyrolyse Oven <ItemImage id="gregtech:gt.blockmachines:15546"/> and Advanced Coke Oven <ItemImage id="Railcraft:machine.alpha:12"/> because it gains a <Color id="RED">2%</Color> energy discount per heating coil tier (multiplicative) and offers <Color id="BLUE">32</Color> parallels plus <Color id="BLUE">16</Color> per additional slice added to the structure. Additional slices are capped at 15 (16 total including the base structure) for all heating coil tiers except eternal, which has no limit. The <Color id="GREEN">ICO</Color> also unlocks the ability to use one <Color id="GREEN">Multi-Amp Energy Hatch</Color> with infinity heating coils or better. 
+<Color id="GREEN" >산업용 코크스 오븐 (ICO)</Color>은 통나무를 대량으로 숯과 하나의 유체 부산물(석탄 가스, 목재 가스, 목초액, 목타르 또는 숯 부산물)로 태우기 위한 EV 티어 다중블록입니다. 유체 부산물은 에틸렌, 벤젠, 톨루엔과 같은 유기 화합물을 생산하는 데 유용합니다. <Color id="GREEN">ICO</Color>는 가열 코일 티어당 <Color id="RED">2%</Color>의 에너지 절감(곱연산)을 얻고 구조에 추가된 슬라이스마다 <Color id="BLUE">16</Color>개를 더한 <Color id="BLUE">32</Color>개의 병렬 처리를 제공하므로 열분해 오븐 <ItemImage id="gregtech:gt.blockmachines:15546"/> 및 고급 코크스 오븐 <ItemImage id="Railcraft:machine.alpha:12"/>의 직접적인 업그레이드입니다. 추가 슬라이스는 무제한인 이터널을 제외한 모든 가열 코일 티어에서 15개로 제한됩니다(기본 구조 포함 총 16개). <Color id="GREEN">ICO</Color>는 또한 인피니티 가열 코일 이상을 사용할 때 하나의 <Color id="GREEN">다중 앰프 에너지 해치</Color>를 사용할 수 있는 능력을 해금합니다. 
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - "Slice Architecture": The ICO now can have additional "slices", each giving +8/16 parallels depending on structure tier (max 15 slices, eternal coils unlock unlimited slices)
-> - Multi-Amp Support: Using Infinity Coils or higher unlocks the use of single Multi-Amp Hatches!
-> - EU Savings: Instead of -4% EU/t per Voltage Tier, now uses -2% EU/t per Heating Coil (multiplicative)
+> 다중블록에는 (구조를 제외하고) 다음과 같은 변경 사항이 적용되었습니다:
+> - "슬라이스 구조": ICO는 이제 추가 "슬라이스"를 가질 수 있으며, 각 슬라이스는 구조 티어에 따라 +8/16 병렬 처리를 제공합니다 (최대 15슬라이스, 이터널 코일은 무제한 슬라이스를 해금합니다)
+> - 다중 앰프 지원: 인피니티 코일 이상을 사용하면 단일 다중 앰프 해치를 사용할 수 있습니다!
+> - EU 절약: 전압 티어당 -4% EU/t 대신 이제 가열 코일당 -2% EU/t를 사용합니다 (곱연산)
 
-## Construction
-The <Color id="GREEN">ICO</Color> has two tiered components. The coke oven casings determine both the base number of parallels and the additional number of parallels per slice. The heating coils determine the energy discount of the machine. Buses/hatches may replace any structural coke oven casing on the base structure--NOT the additional slices. Laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking or one multi-amp energy hatch if the heating coils are infinity or better. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannels "coke_oven_casing" and "coil" to specify the tier of those components and subchannel "length" to specify the total number of slices. 
+## 건설
+<Color id="GREEN">ICO</Color>에는 두 가지 티어 구성 요소가 있습니다. 코크스 오븐 케이싱은 기본 병렬 처리 수와 슬라이스당 추가 병렬 처리 수를 모두 결정합니다. 가열 코일은 기계의 에너지 절감량을 결정합니다. 버스/해치는 기본 구조의 모든 구조용 코크스 오븐 케이싱을 대체할 수 있습니다--추가 슬라이스는 아닙니다. 레이저 에너지 해치는 지원되지 않지만, 오버클럭을 위한 여러 개의 일반 에너지 해치 또는 가열 코일이 인피니티 이상일 경우 하나의 다중 앰프 에너지 해치를 둘 수 있습니다. <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>를 사용하여 하위 채널 "coke_oven_casing" 및 "coil"로 해당 구성 요소의 티어를 지정하고, 하위 채널 "length"로 총 슬라이스 수를 지정하여 구조를 시각화/건설하십시오. 
 
-### Base Structure Requires:
+### 기본 구조 요구 사항:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15543"/><ItemImage id="gregtech:gt.blockmachines:15543"/>
 - 35-48 <ItemLink id="miscutils:miscutils.blockcasings:1"/><ItemImage id="miscutils:miscutils.blockcasings:1"/>
 - 10 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
-- 8 Heating Coil (Tiered) <ItemImage id="gregtech:gt.blockcasings5:3"/>
-- 8 Heat Resistant/Proof Coke Oven Casing <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
-- 1+ Energy Hatch (any structural casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any structural casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any structural casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any structural casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any structural casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any structural casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any structural casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 8 가열 코일 (티어별) <ItemImage id="gregtech:gt.blockcasings5:3"/>
+- 8 내열/내화 코크스 오븐 케이싱 <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
+- 1개 이상 에너지 해치 (모든 구조용 케이싱) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 유지보수 해치 (모든 구조용 케이싱) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 머플러 해치 (모든 구조용 케이싱) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0개 이상 입력 버스 (모든 구조용 케이싱) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0개 이상 입력 해치 (모든 구조용 케이싱) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0개 이상 출력 버스 (모든 구조용 케이싱) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 0개 이상 출력 해치 (모든 구조용 케이싱) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Each Additional Slice Requires:
+### 각 추가 슬라이스 요구 사항:
 - 19 <ItemLink id="miscutils:miscutils.blockcasings:1"/><ItemImage id="miscutils:miscutils.blockcasings:1"/>
 - 10 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
-- 8 Heating Coil (Tiered) <ItemImage id="gregtech:gt.blockcasings5:3"/>
-- 5 Heat Resistant/Proof Coke Oven Casing <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
+- 8 가열 코일 (티어별) <ItemImage id="gregtech:gt.blockcasings5:3"/>
+- 5 내열/내화 코크스 오븐 케이싱 <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
 - 3 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 
-### Wallsharing
-<Color id="GREEN">ICOs</Color> may wallshare nearly their entire structure with another one on the opposite end and flipped horizontally. This is highly recommended because it saves an incredible amount of casings, frame boxes, and heating coils--the second machine is basically free. However, buses/hatches are limited to the base structure and therefore cannot be shared in that configuration. No recipe uses more than 1A of power regardless of the energy discount so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### 벽 공유
+<Color id="GREEN">ICO</Color>는 반대쪽 끝에서 수평으로 뒤집힌 다른 ICO와 구조 대부분을 벽 공유할 수 있습니다. 이 방식은 케이싱, 프레임 박스, 가열 코일을 엄청나게 절약해 주므로 강력히 권장됩니다--두 번째 기계는 사실상 무료입니다. 그러나 버스/해치는 기본 구조로 제한되므로 해당 구성에서는 공유할 수 없습니다. 에너지 절감량과 관계없이 어떤 레시피도 1A를 초과하는 전력을 사용하지 않으므로, <u>__하나__</u>의 에너지 해치를 <u>__두__</u> 대의 기계가 공유할 수 있습니다. 
 
-## Usage
-The <Color id="GREEN">ICO</Color> is a direct upgrade from the Pyrolyse Oven and Advanced Coke Oven because it gains a 2% energy discount per heating coil tier (multiplicative) and offers 32 parallels plus 16 per additional slice added to the structure, as seen in the following tables. Additional slices are capped at 15 (16 total including the base structure) for all heating coil tiers except eternal, which has no limit. 
+## 사용법
+<Color id="GREEN">ICO</Color>는 가열 코일 티어당 2%의 에너지 절감(곱연산)을 얻고 구조에 추가된 슬라이스마다 16개를 더한 32개의 병렬 처리를 제공하므로, 다음 표에서 볼 수 있듯이 열분해 오븐 및 고급 코크스 오븐의 직접적인 업그레이드입니다. 추가 슬라이스는 무제한인 이터널을 제외한 모든 가열 코일 티어에서 15개로 제한됩니다(기본 구조 포함 총 16개). 
 
-The <Color id="GREEN">ICO</Color> is primarily used to burn logs into charcoal with the option of ONE fluid byproduct--determined by the programmed circuit in the input bus or controller. The most common choice is charcoal byproducts because it breaks down into dimethylbenzene, wood gas, wood vinegar, and wood tar in a Distillation Tower <ItemImage id="gregtech:gt.blockmachines:1126"/>. Another common choice is wood tar for making nitrobenzene more directly/efficiently. There is also the option to use 250L of nitrogen gas per 4 logs to double the processing speed of the machine, which is again determined by the programmed circuit in the input bus or controller.
+<Color id="GREEN">ICO</Color>는 주로 통나무를 숯으로 태우는 데 사용되며, 입력 버스 또는 컨트롤러의 프로그래밍된 회로에 따라 결정되는 하나의 유체 부산물을 선택할 수 있습니다. 가장 흔한 선택은 숯 부산물이며, 이는 증류탑 <ItemImage id="gregtech:gt.blockmachines:1126"/>에서 디메틸벤젠, 목재 가스, 목초액, 목타르로 분해되기 때문입니다. 또 다른 흔한 선택은 니트로벤젠을 더 직접적/효율적으로 만들기 위한 목타르입니다. 또한 통나무 4개당 250L의 질소 가스를 사용하여 기계의 처리 속도를 두 배로 높이는 옵션이 있으며, 이 역시 입력 버스 또는 컨트롤러의 프로그래밍된 회로에 따라 결정됩니다.

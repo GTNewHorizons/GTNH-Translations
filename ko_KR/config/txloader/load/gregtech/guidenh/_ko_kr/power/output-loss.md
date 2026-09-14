@@ -1,25 +1,25 @@
 ---
 navigation:
-  title: "Transmission Internal Resistance"
+  title: "송전 내부 저항"
   icon: gregtech:gt.blockmachines:21
   parent: power-index.md
   position: -6
 ---
 
-# Transmission Internal Resistance
+# 송전 내부 저항
 
-All [transmitter blocks](enet.md) - including generators, [battery buffers](distribution.md#battery-buffers), [transformers](distribution.md#transformers), and similar blocks - have **internal resistance loss** when outputting EU. This loss is deducted directly from the internal EU buffer and does not affect output voltage or current.
+발전기, [배터리 버퍼](distribution.md#battery-buffers), [변압기](distribution.md#transformers) 및 이와 유사한 블록을 포함한 모든 [전송 블록](enet.md)은 EU를 출력할 때 **내부 저항 손실**이 발생합니다. 이 손실은 내부 EU 버퍼에서 직접 차감되며 출력 전압이나 전류에는 영향을 주지 않습니다.
 
 > [!IMPORTANT]
-> Internal resistance loss is not the same thing as a generator's fuel efficiency. It is a separate multiplicative loss on top of fuel efficiency.
+> 내부 저항 손실은 발전기의 연료 효율과 같은 것이 아닙니다. 이는 연료 효율에 추가로 적용되는 별도의 곱연산 손실입니다.
 
-# Mechanism
+# 작동 원리
 
-Any transmitter block always consumes $$8 \times 4^{\text{tier index}} \text{ V} + 2^{\text{tier index} - 1} \text{ EU}$$ from its internal EU buffer in order to produce one standard-voltage energy packet containing $$8 \times 4^{\text{tier index}} \text{ EU}$$.
+모든 전송 블록은 표준 전압 에너지 패킷 하나를 생성하기 위해 내부 EU 버퍼에서 항상 $$8 \times 4^{\text{tier index}} \text{ V} + 2^{\text{tier index} - 1} \text{ EU}$$를 소비하며, 해당 패킷에는 $$8 \times 4^{\text{tier index}} \text{ EU}$$가 포함됩니다.
 
-This means any block transmitting at LV standard voltage only has a real efficiency of $$\frac{32}{33}$$, multiplicatively. For every voltage tier above that, the absolute efficiency loss is halved.
+따라서 LV 표준 전압으로 전송하는 블록의 실제 효율은 곱연산 기준으로 $$\frac{32}{33}$$에 불과합니다. 그보다 높은 각 전압 티어에서는 절대 효율 손실이 절반으로 줄어듭니다.
 
-| Output Voltage | Output Packet | Internal Buffer Cost | Lost Energy | Actual Efficiency |
+| 출력 전압 | 출력 패킷 | 내부 버퍼 비용 | 손실 에너지 | 실제 효율 |
 |----------------|---------------|----------------------|-------------|-------------------|
 | LV (32 V) | 32 EU | 33 EU | 1 EU | 96.97% |
 | MV (128 V) | 128 EU | 130 EU | 2 EU | 98.48% |
@@ -27,6 +27,6 @@ This means any block transmitting at LV standard voltage only has a real efficie
 | EV (2,048 V) | 2,048 EU | 2,056 EU | 8 EU | 99.62% |
 | IV (8,192 V) | 8,192 EU | 8,208 EU | 16 EU | 99.81% |
 
-Because the loss is small and does not change output voltage, you usually do not need to care about it at high voltage.
+손실은 작고 출력 전압을 변경하지 않으므로, 고전압에서는 일반적으로 신경 쓰지 않아도 됩니다.
 
-Example: when a Basic Steam Turbine outputs 32 EU/t, its internal resistance loss is 1 EU/t, so its real steam cost should be calculated against 33 EU/t. When an Advanced Steam Turbine outputs 32 EU/t, the internal resistance loss is 0.5 EU/t, so it is more efficient.
+예를 들어 기본 증기 터빈이 32 EU/t를 출력할 때 내부 저항 손실은 1 EU/t이므로, 실제 증기 소모량은 33 EU/t를 기준으로 계산해야 합니다. 고급 증기 터빈이 32 EU/t를 출력할 때는 내부 저항 손실이 0.5 EU/t이므로 더 효율적입니다.

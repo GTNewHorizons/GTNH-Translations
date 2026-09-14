@@ -1,280 +1,280 @@
 ---
 navigation:
-  title: Multiblock Machines
+  title: 다중 블록 기계
   icon: structurelib:item.structurelib.constructableTrigger
   parent: ./gtnh-basics-index.md
 ---
 
-# Multiblock Machines
+# 다중 블록 기계
 
 > [!NOTE]
-> Some links are broken due to their pages not being available at this time. Help support GTNH's development by [contributing to the guide](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
+> 현재 해당 페이지를 이용할 수 없어 일부 링크가 작동하지 않습니다. [가이드에 기여하여](https://github.com/GTNewHorizons/GTNH-Guide-Pack) GTNH 개발을 지원해 주십시오!
 
-A **Multiblock** is a machine built from two or more blocks. Sizes range from small Thermal Refineries to massive superstructures like the Forge of the Gods. They typically serve a very specific purpose and are always better than their singleblock equivalent (ie. runs faster, better recipes), if one exists. Most multiblocks have their own unique casings and structure, but the input/output (I/O) of items, fluids, and energy is nearly universal. Items are transferred via buses, fluids are transferred via hatches, and power is transferred via energy/dynamo hatches. There is also the maintenance hatch for repairing the machine and the muffler hatch for releasing pollution. Use the tooltip and/or the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to see which buses/hatches are necessary and where they fit into the overall structure.
+**다중 블록**은 두 개 이상의 블록으로 구성된 기계입니다. 소형 열 정제기부터 신들의 용광로와 같은 거대한 초구조물까지 다양한 크기로 구성됩니다. 다중 블록은 일반적으로 매우 특정한 용도로 사용되며, 대응하는 단일 블록 기계가 존재한다면 항상 더 뛰어난 성능을 보입니다(예: 더 빠른 작동, 더 나은 레시피). 대부분의 다중 블록은 고유한 외벽과 구조를 가지지만, 아이템, 유체, 에너지의 입출력(I/O)은 거의 보편적으로 동일합니다. 아이템은 버스를 통해 이동하고, 유체는 해치를 통해 이동하며, 전력은 에너지 해치 또는 발전기 해치를 통해 이동합니다. 기계를 수리하기 위한 정비 해치와 오염을 배출하기 위한 머플러 해치도 있습니다. 툴팁 및 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />를 사용하여 어떤 버스와 해치가 필요한지, 전체 구조에서 어디에 배치되는지 확인하십시오.
 
 > [!IMPORTANT]
-> Not all multiblocks in GTNH are from GregTech. There are a select few from other mods (ie. Railcraft Boilers and Smelteries) that do not follow any of the information on this page. Visit their individual pages for more details.
+> GTNH의 모든 다중 블록이 GregTech에서 추가된 것은 아닙니다. 다른 모드에서 추가된 일부 다중 블록(예: Railcraft의 보일러와 제련소)은 이 페이지의 정보를 따르지 않습니다. 자세한 내용은 각 다중 블록의 페이지를 참조하십시오.
 
 ---
 
-# Construction
+# 건설
 
-Although multiblocks come in a variety of shapes, sizes, and casings, there are many common components for the I/O of items, fluids, and energy. The following subsections describe the purpose and function of each one. Note that multiblocks rarely require ALL of these to form and that there may be restrictions on their amounts and locations. Always check the tooltip and <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> for detailed information about a multiblock's construction requirements.
+다중 블록은 형태, 크기, 외벽이 다양하지만, 아이템, 유체, 에너지의 입출력에 사용되는 공통 구성 요소가 많습니다. 아래 하위 항목에서는 각 구성 요소의 용도와 기능을 설명합니다. 다중 블록이 이 구성 요소를 모두 필요로 하는 경우는 드물며, 수량과 위치에 제한이 있을 수 있다는 점에 유의하십시오. 다중 블록의 건설 조건에 관한 자세한 정보는 항상 툴팁과 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />에서 확인하십시오.
 
-## Controller
+## 컨트롤러
 
-The controller is the heart of the multiblock. It determines the placement and orientation of the entire structure as well as the operational settings of the machine. Right-click the controller to open the GUI which contains (1) the name of the machine at the top, (2) the status of the machine, (3) a sound toggle, (4) a few configurable parameters, (5) the power panel, and (6) any manual overrides. A short description of each of the configurable parameters and manual overrides are provided below.
+컨트롤러는 다중 블록의 핵심입니다. 전체 구조의 배치와 방향, 기계의 작동 설정을 결정합니다. 컨트롤러를 우클릭하면 GUI가 열리며, 여기에는 (1) 상단의 기계 이름, (2) 기계 상태, (3) 소리 토글, (4) 설정 가능한 매개 변수, (5) 전력 패널, (6) 수동 설정이 표시됩니다. 각 설정 가능한 매개 변수와 수동 설정에 관한 간단한 설명은 아래와 같습니다.
 
-- **Void Mode** - Determines the behavior of the multiblock when there is no room in the output bus and/or output hatch. Choose to void only items, only fluids, or both. Void nothing means temporarily pause the machine until there is enough room for all products.
-- **Input Separation** - Prevents SOLID ingredients in different input buses from being used in the same recipe, including any programmed circuits. This is particularly useful for multiblocks with a high potential for recipe conflicts.
-- **Batch Mode** - Run multiples of the same recipe as one large recipe. This does NOT provide any sort of time discount or increase the throughput of the machine. The purpose is to reduce lag and improve TPS by lowering the number of recipe checks.
-- **Lock Recipe** - Prevent the multiblock from running other recipes. This can be set while a multiblock is currently running, or prior to the desired recipe.
-- **Update Structure** - Force a structure check. Multiblocks already do periodic structure checks, but this can save a few seconds (or minutes) of waiting.
-- **Power Switch** - Enable or disable the multiblock. This does NOT interrupt active recipes.
+- **공허화 모드** - 출력 버스 및 출력 해치에 공간이 없을 때 다중 블록의 작동 방식을 결정합니다. 아이템만, 유체만 또는 둘 다 공허화하도록 선택할 수 있습니다. 아무것도 공허화하지 않도록 설정하면 모든 결과물을 넣을 공간이 생길 때까지 기계가 일시 정지합니다.
+- **입력 분리** - 서로 다른 입력 버스에 있는 고체 재료가 같은 레시피에 사용되지 않도록 합니다. 프로그래밍된 회로도 포함됩니다. 레시피 충돌 가능성이 높은 다중 블록에서 특히 유용합니다.
+- **배치 모드** - 같은 레시피를 여러 번 실행하는 대신 하나의 대형 레시피로 실행합니다. 시간 단축이나 기계 처리량 증가 효과는 전혀 없습니다. 레시피 확인 횟수를 줄여 지연을 완화하고 TPS를 향상하는 것이 목적입니다.
+- **레시피 잠금** - 다중 블록이 다른 레시피를 실행하지 못하도록 합니다. 다중 블록이 현재 작동 중일 때 또는 원하는 레시피를 실행하기 전에 설정할 수 있습니다.
+- **구조 갱신** - 구조 검사를 강제로 실행합니다. 다중 블록은 주기적으로 구조를 검사하지만, 이 기능을 사용하면 몇 초 또는 몇 분의 대기 시간을 줄일 수 있습니다.
+- **전원 스위치** - 다중 블록을 활성화하거나 비활성화합니다. 현재 실행 중인 레시피는 중단하지 않습니다.
 
-There are two options inside the power panel. The first is setting the maximum number of parallels which defaults to the maximum available. There is not much reason to ever lower it or manually set the value, unless there is a very specific scenario that requires absolute precision over energy efficiency. The second option toggles powerfail events which includes the message in chat and the blinking powerfail icon that appears when looking at the controller from a distance. In multiplayer, use the first command to invite other players to the same SpaceProject team and share powerfail information. Use the second command to immediately clear all powerfail icons from the world.
+전력 패널에는 두 가지 옵션이 있습니다. 첫 번째는 병렬 처리의 최대 개수를 설정하는 옵션이며, 기본값은 사용 가능한 최대치입니다. 에너지 효율보다 절대적인 정밀도가 중요한 매우 특수한 상황이 아니라면 값을 낮추거나 직접 설정할 이유는 거의 없습니다. 두 번째는 전력 부족 이벤트를 전환하는 옵션으로, 채팅 메시지와 멀리서 컨트롤러를 바라볼 때 나타나는 깜빡이는 전력 부족 아이콘을 포함합니다. 멀티플레이에서는 첫 번째 명령어로 다른 플레이어를 같은 SpaceProject 팀에 초대하여 전력 부족 정보를 공유하십시오. 두 번째 명령어를 사용하면 월드의 모든 전력 부족 아이콘을 즉시 제거합니다.
 
 ```
 /sp invite <name>
 /powerfails clear
 ```
 
-There are also a few unique interactions and shortcuts to changing the operational settings of the machine without having to enter the GUI. All of these involve right-clicking the controller with some sort of GregTech tool in hand. This reduces the durability of the tool, but it works very well with the Ring of Loki to quickly configure many machines at the same time.
+GUI를 열지 않고도 기계의 작동 설정을 변경할 수 있는 몇 가지 고유한 상호작용과 단축 방법도 있습니다. 모두 GregTech 도구를 손에 들고 컨트롤러를 우클릭하는 방식입니다. 도구의 내구도를 소모하지만, 로키의 반지와 함께 사용하면 여러 기계를 빠르게 동시에 설정할 수 있어 매우 유용합니다.
 
-- **Wrench** - Rotate the controller and therefore the entire structure. Sneak right-click to flip the controller horizontally.
-- **Screwdriver** - Enable/disable input separation. Also used to change the mode of certain multiblocks.
-- **Wire Cutters** - Enable/disable batch mode.
-- **Soft Mallet** - Enable/disable the machine.
-- **Hammer** - Enable/disable sound muffling.
-- **Soldering Iron** - Set the strength (strong/weak) of the redstone signal from covers. This is not exclusive to controllers.
+- **렌치** - 컨트롤러와 전체 구조를 회전합니다. 웅크린 상태로 우클릭하면 컨트롤러를 수평으로 뒤집습니다.
+- **드라이버** - 입력 분리를 활성화하거나 비활성화합니다. 일부 다중 블록의 모드를 변경할 때도 사용합니다.
+- **니퍼** - 배치 모드를 활성화하거나 비활성화합니다.
+- **부드러운 망치** - 기계를 활성화하거나 비활성화합니다.
+- **망치** - 소리 억제를 활성화하거나 비활성화합니다.
+- **납땜 인두** - 커버에서 나오는 레드스톤 신호의 세기(강함/약함)를 설정합니다. 컨트롤러에만 사용할 수 있는 기능은 아닙니다.
 
-## Buses
+## 버스
 
-<ItemImage id="minecraft:chest" /> **Input Bus** / <ItemImage id="minecraft:chest" /> **Output Bus**
+<ItemImage id="minecraft:chest" /> **입력 버스** / <ItemImage id="minecraft:chest" /> **출력 버스**
 
-Input and output buses are for inserting and extracting SOLID ingredients, respectively. Fluids and gases cannot be supplied via cells, buckets, or similar containers. Input buses do not automatically pull from adjacent inventories, but output buses automatically push to adjacent inventories, if one exists. The tier of the bus determines the available capacity or total number of item slots:
+입력 버스와 출력 버스는 각각 고체 재료를 넣고 꺼내는 데 사용합니다. 유체와 기체는 셀, 양동이 또는 유사한 용기를 통해 공급할 수 없습니다. 입력 버스는 인접한 인벤토리에서 자동으로 끌어오지 않지만, 출력 버스는 인접한 인벤토리가 있으면 자동으로 밀어 넣습니다. 버스의 티어에 따라 사용 가능한 용량 또는 아이템 슬롯의 총 개수가 결정됩니다.
 
-| Tier | ULV | LV | MV | HV+ |
+| 티어 | ULV | LV | MV | HV+ |
 |------|-----|----|----|-----|
-| Slots | 1 | 4 | 9 | 16 |
+| 슬롯 | 1 | 4 | 9 | 16 |
 
-Right-click an input bus with a screwdriver to enable/disable the filter which prevents any ingredients without a use in the multiblock from entering the bus. Sneak right-click the input bus with a screwdriver to enable/disable sorting and limiting mode. Sorting mode constantly pushes items to the top-most slots while limiting mode prevents more than one stack of an item from entering the bus. There is also a filter in the GUI of output buses to lock them to specific items (drag from NEI).
+입력 버스를 드라이버로 우클릭하면 다중 블록에서 사용할 수 없는 재료가 버스에 들어오는 것을 방지하는 필터를 활성화하거나 비활성화할 수 있습니다. 입력 버스를 드라이버를 들고 웅크린 상태로 우클릭하면 정렬 모드와 제한 모드를 활성화하거나 비활성화할 수 있습니다. 정렬 모드에서는 아이템을 계속해서 가장 위쪽 슬롯으로 밀어 넣으며, 제한 모드에서는 한 종류의 아이템이 한 스택을 초과하여 버스에 들어오지 못하게 합니다. 출력 버스의 GUI에도 필터가 있어 특정 아이템으로 고정할 수 있습니다(NEI에서 끌어다 놓으십시오).
 
-- **Super Buses** - An upgrade from regular input/output buses although the only difference is their slot capacity. Regular buses are capped at 16 slots while super buses range from 32-160 slots. The problem, however, is that they are much more expensive and require a Tier+3 regular input bus to craft. The LV super bus, for example, is crafted from five LV conveyor modules, two LV motors, and an EV input bus.
+- **슈퍼 버스** - 일반 입력/출력 버스의 업그레이드 버전이지만, 슬롯 용량만 다릅니다. 일반 버스는 최대 16슬롯인 반면, 슈퍼 버스는 32~160슬롯을 가집니다. 그러나 훨씬 비싸며 제작하려면 티어+3 일반 입력 버스가 필요하다는 단점이 있습니다. 예를 들어 LV 슈퍼 버스는 LV 컨베이어 모듈 5개, LV 모터 2개, EV 입력 버스로 제작합니다.
 
-- **Stocking Input Bus (ME)** and **Output Bus (ME)** - An even better upgrade from regular input/output buses because they connect directly to an AE2 network for seamless I/O of items. Right-click with wire cutters to allow ME channels to connect to any side, including other buses/hatches. The advanced version even supports auto-pull which allows it to stock itself with any item in the network.
+- **비축 입력 버스 (ME)** 및 **출력 버스 (ME)** - AE2 네트워크에 직접 연결되어 아이템을 원활하게 입출력할 수 있으므로 일반 입력/출력 버스보다 더욱 뛰어난 업그레이드입니다. 니퍼로 우클릭하면 다른 버스와 해치를 포함하여 어느 면에서든 ME 채널을 연결할 수 있습니다. 고급 버전은 자동 인출도 지원하여 네트워크의 아이템을 자동으로 채울 수 있습니다.
 
-## Hatches
+## 해치
 
-<ItemImage id="minecraft:cauldron" /> **Input Hatch** / <ItemImage id="minecraft:cauldron" /> **Output Hatch**
+<ItemImage id="minecraft:cauldron" /> **입력 해치** / <ItemImage id="minecraft:cauldron" /> **출력 해치**
 
-Input and output hatches are for inserting and extracting FLUID ingredients, respectively. Input hatches do not automatically pull from adjacent inventories, but output hatches automatically push to adjacent inventories, if one exists. The tier of the hatch determines the available capacity. Input hatches can technically "hold" much more than these amounts by placing a stack of large fluid cells into their inventory.
+입력 해치와 출력 해치는 각각 유체 재료를 넣고 꺼내는 데 사용합니다. 입력 해치는 인접한 인벤토리에서 자동으로 끌어오지 않지만, 출력 해치는 인접한 인벤토리가 있으면 자동으로 밀어 넣습니다. 해치의 티어에 따라 사용 가능한 용량이 결정됩니다. 입력 해치는 인벤토리에 대형 유체 셀 한 스택을 넣으면 기술적으로 아래 수치보다 훨씬 많은 양을 보관할 수 있습니다.
 
-| Tier | ULV | LV | MV | HV | EV | IV | ... |
+| 티어 | ULV | LV | MV | HV | EV | IV | ... |
 |------|-----|----|----|----|----|----|-----|
-| Capacity | 8,000 L | 16,000 L | 32,000 L | 64,000 L | 128,000 L | 256,000 L | ... |
+| 용량 | 8,000 L | 16,000 L | 32,000 L | 64,000 L | 128,000 L | 256,000 L | ... |
 
-Right-click an output hatch with a screwdriver to change whether to output steam and/or other fluids. Alternatively, set the filter in the GUI of the output hatch to lock it to a specific fluid (drag from NEI).
+출력 해치를 드라이버로 우클릭하면 증기 및/또는 다른 유체를 출력할지 변경할 수 있습니다. 또는 출력 해치의 GUI에서 필터를 설정하여 특정 유체로 고정할 수 있습니다(NEI에서 끌어다 놓으십시오).
 
-- **Quadruple Input Hatches** - An upgrade from regular input hatches that can hold up to four different fluids simultaneously at 1/4th the capacity of a regular input hatch of the same tier. These pair nicely with quadruple fluid pipes for transporting multiple fluids around.
+- **4중 입력 해치** - 일반 입력 해치의 업그레이드 버전으로, 같은 티어의 일반 입력 해치 용량의 1/4씩 최대 4종류의 유체를 동시에 보관할 수 있습니다. 여러 유체를 운송할 때 4중 유체 파이프와 함께 사용하면 좋습니다.
 
-- **Stocking Input Hatch (ME)** and **Output Hatch (ME)** - An even better upgrade from regular input/output hatches because they connect directly to an AE2 network for seamless I/O of fluids. Right-click with wire cutters to allow ME channels to connect to any side, including other buses/hatches. The advanced version even supports auto-pull which allows it to stock itself with any fluid in the network.
+- **비축 입력 해치 (ME)** 및 **출력 해치 (ME)** - AE2 네트워크에 직접 연결되어 유체를 원활하게 입출력할 수 있으므로 일반 입력/출력 해치보다 더욱 뛰어난 업그레이드입니다. 니퍼로 우클릭하면 다른 버스와 해치를 포함하여 어느 면에서든 ME 채널을 연결할 수 있습니다. 고급 버전은 자동 인출도 지원하여 네트워크의 유체를 자동으로 채울 수 있습니다.
 
-## Energy & Dynamo Hatches
+## 에너지 및 발전기 해치
 
-<ItemImage id="minecraft:redstone_block" /> **Energy Hatch** / <ItemImage id="minecraft:redstone_block" /> **Dynamo Hatch**
+<ItemImage id="minecraft:redstone_block" /> **에너지 해치** / <ItemImage id="minecraft:redstone_block" /> **발전기 해치**
 
-These are for inserting and extracting power at a specific voltage tier. More specifically, a standard energy hatch can supply up to 2A of power to a multiblock and a standard dynamo hatch can extract up to 1A of power from a multiblock. Be very careful to use the correct voltage and amperage with these hatches otherwise cables could burn, ingredients could void, and machines could explode.
+특정 전압 티어의 전력을 넣고 꺼내는 데 사용합니다. 구체적으로 일반 에너지 해치는 다중 블록에 최대 2A의 전력을 공급할 수 있으며, 일반 발전기 해치는 다중 블록에서 최대 1A의 전력을 추출할 수 있습니다. 올바른 전압과 전류를 사용하지 않으면 케이블이 타거나 재료가 공허화되거나 기계가 폭발할 수 있으므로 매우 주의하십시오.
 
-- **Buffered Dynamo Hatches** - A small upgrade from standard dynamo hatches and can extract up to 4A of power from a multiblock. These also have a slightly larger internal buffer for storing power when there is nowhere for it to go. *(Deprecated as of 2.9 - instead, use a 4A Multi-Amp hatch.)*
+- **버퍼 발전기 해치** - 일반 발전기 해치의 소형 업그레이드 버전으로, 다중 블록에서 최대 4A의 전력을 추출할 수 있습니다. 전력을 보낼 곳이 없을 때 저장할 수 있는 내부 버퍼도 약간 더 큽니다. *(2.9부터 사용 중단됨 - 대신 4A 다중 전류 해치를 사용하십시오.)*
 
-- **Multi-Amp Hatches** - An upgrade from standard energy/dynamo hatches and can transfer up to 64A of power to/from a multiblock. Whether these are allowed or not highly depends on the multiblock.
+- **다중 전류 해치** - 일반 에너지/발전기 해치의 업그레이드 버전으로, 다중 블록과 최대 64A의 전력을 주고받을 수 있습니다. 사용 가능 여부는 다중 블록에 따라 크게 달라집니다.
 
-- **Laser Hatches** - Unlocked much later on and can transfer millions of amps to/from a multiblock via laser vacuum pipes. Again, whether these are allowed or not highly depends on the multiblock.
+- **레이저 해치** - 훨씬 나중에 해금되며, 레이저 진공 파이프를 통해 다중 블록과 수백만 A의 전력을 주고받을 수 있습니다. 이 해치의 사용 가능 여부 역시 다중 블록에 따라 크게 달라집니다.
 
-## Maintenance Hatch
+## 정비 해치
 
-<ItemImage id="minecraft:iron_door" /> **Maintenance Hatch**
+<ItemImage id="minecraft:iron_door" /> **정비 해치**
 
-This hatch is for repairing any maintenance issues -- random occurrences that increase the power consumption of the multiblock by 10% each. There are six different maintenance issues in total and having all of them simultaneously is enough to shut the multiblock down. Each one generates a very specific message in the controller and corresponds to a very specific GregTech tool. WAILA also displays **HAS PROBLEMS** in red text while looking at the controller.
+이 해치는 정비 문제를 수리하는 데 사용합니다. 정비 문제는 무작위로 발생하며, 문제 하나마다 다중 블록의 전력 소비량이 10% 증가합니다. 정비 문제는 총 6종류이며, 모두 동시에 발생하면 다중 블록이 정지합니다. 각 문제는 컨트롤러에 매우 구체적인 메시지를 표시하며, 각각 특정 GregTech 도구에 대응합니다. 컨트롤러를 바라볼 때 WAILA에도 빨간색 글씨로 **HAS PROBLEMS**가 표시됩니다.
 
-Repair maintenance issues by opening the maintenance hatch, picking up the necessary tool, and left-clicking the center button. This consumes a small amount of durability and/or charge with every use.
+정비 해치를 열고 필요한 도구를 집은 다음 중앙 버튼을 좌클릭하여 정비 문제를 수리하십시오. 사용할 때마다 내구도 및/또는 충전량을 소량 소모합니다.
 
-| Maintenance Issue | Tool to Fix |
+| 정비 문제 | 수리 도구 |
 |-------------------|-------------|
-| "Pipe is loose" | Wrench |
-| "Screws are loose" | Screwdriver |
-| "Something is stuck" | Soft Mallet |
-| "Platings are dented" | Hammer |
-| "Circuitry burned out" | Soldering Iron |
-| "That doesn't belong there" | Crowbar |
+| "파이프가 느슨합니다" | 렌치 |
+| "나사가 느슨합니다" | 드라이버 |
+| "무언가가 걸렸습니다" | 부드러운 망치 |
+| "도금이 찌그러졌습니다" | 망치 |
+| "회로가 타버렸습니다" | 납땜 인두 |
+| "여기에 있을 물건이 아닙니다" | 쇠지렛대 |
 
-There is a 1 in 6,000 chance every 50 seconds of runtime for a new maintenance issue to appear. That is an average of 300,000 seconds or 83.3 hours of runtime between maintenance issues. Disabled or idle multiblocks do not increase runtime and therefore do not generate any maintenance issues or increase the likelihood thereof. Multiblocks without maintenance hatches ignore the mechanic entirely.
+작동 시간이 50초 지날 때마다 새로운 정비 문제가 발생할 확률은 6,000분의 1입니다. 이는 정비 문제 사이의 평균 작동 시간이 300,000초, 즉 83.3시간이라는 뜻입니다. 비활성화되었거나 대기 중인 다중 블록은 작동 시간을 증가시키지 않으므로 정비 문제를 발생시키지 않으며, 발생 확률도 높이지 않습니다. 정비 해치가 없는 다중 블록은 이 기능을 완전히 무시합니다.
 
-There are a few different types of maintenance hatches and methods to repair them, listed below. Maintenance hatches may be wallshared between machines, although repairs must still be made for each one individually.
+아래에는 여러 종류의 정비 해치와 수리 방법이 나와 있습니다. 정비 해치는 여러 기계가 벽을 공유하도록 설치할 수 있지만, 각 해치는 개별적으로 수리해야 합니다.
 
-- **Tool Box (LV)** - Holds up to nine tools and applies all of them simultaneously when a maintenance hatch is right-clicked from OUTSIDE its internal GUI. This consumes durability and/or charge of all tools inside regardless of the issue(s) present. Soldering material for the soldering iron may also be stored in and used from the Tool Box. Can be automated with a Dynamism Tablet and needs a maintenance cover.
+- **도구 상자 (LV)** - 최대 9개의 도구를 보관하며, 내부 GUI 바깥에서 정비 해치를 우클릭하면 모든 도구를 동시에 적용합니다. 발생한 문제와 관계없이 내부의 모든 도구가 내구도 및/또는 충전량을 소모합니다. 납땜 인두용 납땜 재료도 도구 상자에 보관하고 사용할 수 있습니다. 역동성 태블릿으로 자동화할 수 있으며 정비 커버가 필요합니다.
 
-- **BrainTech Aerospace Advanced Reinforced Duct Tape (MV)** - A single use item that solves all maintenance issues simultaneously. The tape visually appears around the maintenance hatch but that does not prevent future maintenance issues or reduce the chances of them occurring.
+- **BrainTech Aerospace Advanced Reinforced Duct Tape (MV)** - 모든 정비 문제를 동시에 해결하는 일회용 아이템입니다. 테이프가 정비 해치 주변에 시각적으로 나타나지만, 이후 정비 문제가 발생하는 것을 막거나 발생 확률을 낮추지는 않습니다.
 
-- **Wand Focus: Maintenance (HV)** - A reusable Thaumcraft wand focus from Electromagic Tools that solves all maintenance issues simultaneously at the cost of 25 ignis, 25 terra, and 25 ordo. Vis discounts and the frugal focus upgrade can reduce the cost of these repairs.
+- **Wand Focus: Maintenance (HV)** - Electromagic Tools에서 추가하는 재사용 가능한 Thaumcraft 완드 포커스입니다. ignis 25, terra 25, ordo 25를 소모하여 모든 정비 문제를 동시에 해결합니다. Vis 할인과 검소한 포커스 업그레이드를 통해 수리 비용을 줄일 수 있습니다.
 
-- **Drone Downlink Module (IV)** - Automatically repairs any maintenance issues if there is an active Drone Centre within range of the hatch. Tier 1 and Tier 2 drones have a chance to crash and be destroyed every second, but fixing maintenance issues is completely free. It also allows remote control over connected multiblocks which is very useful after a widespread power outage.
+- **드론 다운링크 모듈 (IV)** - 해치 범위 내에 작동 중인 드론 센터가 있으면 정비 문제를 자동으로 수리합니다. 1티어와 2티어 드론은 매초 추락하여 파괴될 확률이 있지만, 정비 문제 수리에는 비용이 전혀 들지 않습니다. 연결된 다중 블록을 원격으로 제어할 수도 있어 광범위한 정전 이후에 매우 유용합니다.
 
-- **Auto Maintenance Hatch (LuV)** - Automatically repairs any maintenance issue at the cost of 4 duct tape, 2 lubricant cells, 4 steel screws, and 2 HV circuits. The internal inventory has four total slots, or one for each type of item.
+- **자동 정비 해치 (LuV)** - 덕트 테이프 4개, 윤활유 셀 2개, 강철 나사 4개, HV 회로 2개를 소모하여 정비 문제를 자동으로 수리합니다. 내부 인벤토리에는 아이템 종류별로 하나씩, 총 4개의 슬롯이 있습니다.
 
-- **Auto-Taping Maintenance Hatch (UV)** - Automatically repairs any maintenance issue at no cost. The permanent solution to maintenance.
+- **자동 테이핑 정비 해치 (UV)** - 비용 없이 정비 문제를 자동으로 수리합니다. 정비 문제에 대한 영구적인 해결책입니다.
 
-## Muffler Hatch
+## 머플러 해치
 
-<ItemImage id="minecraft:dispenser" /> **Muffler Hatch**
+<ItemImage id="minecraft:dispenser" /> **머플러 해치**
 
-This hatch releases pollution from the machine. There must be at least one block of air in front of the muffler hatch in order for the multiblock to function. Even pipes and wires are considered an obstruction. The amount of pollution generated depends on the multiblock and the tier of the muffler hatch:
+이 해치는 기계에서 오염을 배출합니다. 다중 블록이 작동하려면 머플러 해치 앞에 최소 한 블록의 공기가 있어야 합니다. 파이프와 전선도 장애물로 취급됩니다. 생성되는 오염의 양은 다중 블록과 머플러 해치의 티어에 따라 달라집니다.
 
-| Tier | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV |
+| 티어 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV |
 |------|----|----|----|----|----|-----|-----|----|-----|
-| Pollution | 100% | 87% | 75% | 62% | 50% | 37% | 25% | 12% | 0% |
+| 오염 | 100% | 87% | 75% | 62% | 50% | 37% | 25% | 12% | 0% |
 
-If pollution is disabled, muffler hatches are still required, but their tier is no longer relevant.
+오염이 비활성화되어 있어도 머플러 해치는 필요하지만, 티어는 더 이상 중요하지 않습니다.
 
-## Wallsharing
+## 벽 공유
 
-A unique property of GregTech multiblocks is their ability to wallshare parts of their structure to save on casings, glass, coils, buses/hatches, and more. Simply overlap structures to allow multiple machines to use the same block(s) simultaneously. There are *very* few exceptions where that is not beneficial to the player and is therefore extremely useful throughout the entire game, whether building a second [Electric Blast Furnace](../tiers/lv/electric-blast-furnace.md) or a second Eye of Harmony.
+GregTech 다중 블록은 구조의 일부를 벽 공유하여 외벽, 유리, 코일, 버스/해치 등을 절약할 수 있는 고유한 특성이 있습니다. 구조물을 겹치기만 하면 여러 기계가 같은 블록을 동시에 사용할 수 있습니다. 플레이어에게 이롭지 않은 예외는 *매우* 적으므로, 두 번째 [전기 용광로](../tiers/lv/electric-blast-furnace.md)나 두 번째 조화의 눈을 건설하는 등 게임 전체에서 매우 유용합니다.
 
-Maintenance and muffler hatches are always safe to share, but be careful when sharing energy hatches because they can only pull up to 2A of power. Ensure that the recipes for a multiblock do not exceed 1A of power and repair maintenance issues as soon as possible, or else the additional power cost could cause both machines to powerfail.
+정비 해치와 머플러 해치는 항상 안전하게 공유할 수 있지만, 에너지 해치를 공유할 때는 최대 2A의 전력만 끌어올 수 있으므로 주의하십시오. 다중 블록의 레시피가 1A의 전력을 초과하지 않도록 하고 정비 문제를 최대한 빨리 수리하십시오. 그렇지 않으면 추가 전력 소비로 두 기계 모두 전력 부족이 발생할 수 있습니다.
 
 ---
 
-# Usage
+# 사용법
 
-Although multiblocks operate very similarly to [singleblock machines](../singleblock/singleblock-index.md), there are a few distinct differences. First and foremost is that multiblocks **void** ingredients when they power fail. There is no restarting the recipe like in singleblocks; the ingredients just disappear, permanently. The multiblock also shuts down and has to be manually restarted. Periodically check your energy storage to prevent this from happening and turn off multiblocks or stop using them when energy levels are low. Also ensure that the entire multiblock is chunkloaded to avoid the controller loading in before the energy hatches.
+다중 블록은 [단일 블록 기계](../singleblock/singleblock-index.md)와 매우 유사하게 작동하지만, 몇 가지 뚜렷한 차이가 있습니다. 가장 중요한 차이는 다중 블록이 전력 부족이 발생하면 재료를 **공허화**한다는 점입니다. 단일 블록 기계처럼 레시피를 재시작할 수 없으며, 재료가 영구적으로 사라집니다. 또한 다중 블록이 정지하므로 수동으로 다시 시작해야 합니다. 이를 방지하려면 에너지 저장량을 주기적으로 확인하고, 에너지 수치가 낮을 때 다중 블록을 끄거나 사용을 중단하십시오. 에너지 해치보다 컨트롤러가 먼저 로드되는 것을 방지하려면 다중 블록 전체가 청크 로드되어 있는지도 확인하십시오.
 
-## Overclocking
+## 오버클록
 
-An overclock occurs when the supplied power is at least 1 voltage tier higher than required by the recipe. Singleblocks can only achieve this with higher tier machines, but multiblocks can use higher tier and/or multiple energy hatches. The player first encounters overclocking when using the [Electric Blast Furnace](../tiers/lv/electric-blast-furnace.md); two energy hatches are needed to supply 4A of LV power, simulating 1A of MV power. There are two different types of overclocks and the one used depends on the multiblock itself. Those under "mixed" can use both in the same recipe or depends on an upgrade. Those under "unique" follow their own special rules and do not fit into either category.
+공급되는 전력이 레시피에 필요한 것보다 최소 1 전압 티어 높을 때 오버클록이 발생합니다. 단일 블록 기계는 더 높은 티어의 기계를 사용해야만 오버클록할 수 있지만, 다중 블록은 더 높은 티어의 에너지 해치를 사용하거나 여러 개의 에너지 해치를 사용할 수 있습니다. 플레이어는 [전기 용광로](../tiers/lv/electric-blast-furnace.md)를 사용할 때 처음 오버클록을 접하게 됩니다. LV 전력 4A를 공급하여 MV 전력 1A를 모방하려면 에너지 해치 2개가 필요합니다. 오버클록에는 두 종류가 있으며, 어떤 종류를 사용하는지는 다중 블록 자체에 따라 달라집니다. "혼합" 항목에 속한 다중 블록은 같은 레시피에서 두 종류를 모두 사용하거나 업그레이드에 따라 달라질 수 있습니다. "고유" 항목에 속한 다중 블록은 자체적인 특별 규칙을 따르며 어느 범주에도 속하지 않습니다.
 
-- **Imperfect Overclocks** - Consume 4x the power for 2x the speed (4/2). This is the standard behavior of most multiblocks. For example, consider a recipe that normally takes 128 EU/t and 60s to run for a total of 153,600 EU. An imperfect overclock changes that to 512 EU/t and 30s to run for a total of 307,200 EU. Notice that the total energy is doubled which means the extra speed may not always be worth the additional power cost. Alternatively, build more of the same multiblock at the same voltage tier to provide the same effect for half the power.
+- **불완전 오버클록** - 전력을 4배 소비하여 속도를 2배로 높입니다(4/2). 대부분의 다중 블록에서 사용하는 기본 동작입니다. 예를 들어 일반적으로 128 EU/t를 소비하며 60초 동안 작동하는 레시피의 총 전력은 153,600 EU입니다. 불완전 오버클록을 적용하면 512 EU/t를 소비하며 30초 동안 작동하여 총 307,200 EU가 됩니다. 총 에너지가 2배가 되므로 추가 속도가 더 높은 전력 비용을 항상 정당화하지는 않는다는 점에 유의하십시오. 또는 같은 전압 티어에서 동일한 다중 블록을 더 건설하면 절반의 전력으로 같은 효과를 얻을 수 있습니다.
 
-- **Perfect Overclocks** - Consume 4x the power for 4x the speed (4/4). The total energy remains the same so there is no downside to increasing the supplied voltage/amperage. The only reason to build multiple of the same multiblock with perfect overclocks is when there is not enough room for additional energy hatches. Very few multiblocks allow perfect overclocks.
+- **완전 오버클록** - 전력을 4배 소비하여 속도를 4배로 높입니다(4/4). 총 에너지는 동일하게 유지되므로 공급 전압이나 전류를 높여도 단점이 없습니다. 완전 오버클록이 가능한 동일한 다중 블록을 여러 개 건설하는 유일한 이유는 추가 에너지 해치를 설치할 공간이 부족할 때입니다. 완전 오버클록을 허용하는 다중 블록은 매우 적습니다.
 
-Overclocking is only possible down to 1 tick because that is the smallest unit of time in Minecraft, but nearly every multiblock in GTNH is capable of subticking or increasing its number of parallels by a corresponding amount to simulate additional overclocks. The only exception is the Advanced Assembly Line which is capped at 1 tick per slice.
+오버클록은 Minecraft에서 시간의 최소 단위가 1틱이므로 1틱까지만 적용할 수 있습니다. 하지만 GTNH의 거의 모든 다중 블록은 추가 오버클록을 모방하기 위해 서브틱을 사용하거나 그에 맞춰 병렬 처리 수를 늘릴 수 있습니다. 유일한 예외는 슬라이스당 1틱으로 제한되는 고급 조립 라인입니다.
 
-## Parallels
+## 병렬 처리
 
-A parallel is a multiple of a recipe that runs concurrently with the original. Parallels increase the throughput and power consumption of a multiblock without increasing the overall length of the recipe. Two parallels, for example, doubles the EU/t to process twice the number of inputs simultaneously. The total EU remains the same, as with perfect overclocks, which means parallels are perfectly energy efficient and very powerful. Note that adding parallels is NOT the same as increasing the batch size -- the latter is only for saving TPS and does not increase the throughput of the multiblock.
+병렬 처리는 원래 레시피와 동시에 실행되는 레시피의 복제본입니다. 병렬 처리는 전체 레시피 시간을 늘리지 않고 다중 블록의 처리량과 전력 소비를 증가시킵니다. 예를 들어 병렬 처리가 2개라면 입력을 두 배로 동시에 처리하므로 EU/t가 2배가 됩니다. 완전 오버클록과 마찬가지로 총 EU는 동일하게 유지되므로 병렬 처리는 에너지 효율이 완벽하며 매우 강력합니다. 병렬 처리를 추가하는 것은 배치 크기를 늘리는 것과 다르다는 점에 유의하십시오. 배치 크기 증가는 TPS 절약만을 위한 것으로 다중 블록의 처리량을 증가시키지 않습니다.
 
-- **Batch Size** - More recipes per iteration, same EU/t, longer duration.
-- **Parallels** - More recipes per iteration, higher EU/t, same duration.
+- **배치 크기** - 반복마다 더 많은 레시피, 동일한 EU/t, 더 긴 지속 시간
+- **병렬 처리** - 반복마다 더 많은 레시피, 더 높은 EU/t, 동일한 지속 시간
 
-Parallels are calculated AFTER energy discounts and BEFORE overclocks. Consider a recipe that consumes 2,000 EU/t over 16 seconds in the Volcanus which offers 8 parallels and only uses 90% of the EU/t normally required. The energy discount first reduces the base recipe to 1,800 EU/t over 16 seconds. If there is enough power for the maximum number of parallels then the multiblock consumes 8 x 1,800 = 14,400 EU/t over 16 seconds. If there is still enough power and high enough coils to grant a perfect overclock then the multiblock consumes 4 x 14,400 = 57,600 EU/t over 4 seconds. Lastly, one imperfect overclock increases the power consumption to 4 x 57,600 = 230,400 EU/t over 2 seconds.
+병렬 처리는 에너지 할인 적용 **후**, 오버클록 적용 **전**에 계산됩니다. 8개의 병렬 처리가 가능하고 일반적으로 필요한 EU/t의 90%만 사용하는 Volcanus에서 2,000 EU/t를 16초 동안 소비하는 레시피를 예로 들어 보겠습니다. 먼저 에너지 할인이 기본 레시피를 1,800 EU/t 및 16초로 줄입니다. 최대 병렬 처리 수를 감당할 전력이 충분하다면 다중 블록은 1,800 x 8 = 14,400 EU/t를 16초 동안 소비합니다. 이후에도 전력이 충분하고 완전 오버클록을 적용할 만큼 코일 티어가 높다면 14,400 x 4 = 57,600 EU/t를 4초 동안 소비합니다. 마지막으로 불완전 오버클록을 하나 적용하면 전력 소비량은 57,600 x 4 = 230,400 EU/t가 되며 2초 동안 작동합니다.
 
 ```
-EU/t = Base EU/t x EU Usage x Parallels x 4^Overclocks
+EU/t = 기본 EU/t x EU 사용량 x 병렬 처리 x 4^오버클록
 ```
 
-## Troubleshooting
+## 문제 해결
 
-If a multiblock is not working, the first thing to do is open the controller for a clue on what is wrong. The following are some common error messages and what they could mean. If all else fails, reread the tooltip and the construction requirements on the wiki before rebuilding the entire multiblock with the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />.
+다중 블록이 작동하지 않는다면 먼저 컨트롤러를 열어 문제의 단서를 확인하십시오. 다음은 흔히 나타나는 오류 메시지와 그 의미입니다. 그래도 해결되지 않는다면 전체 다중 블록을 다시 건설하기 전에 툴팁과 위키의 건설 조건을 다시 읽고 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />를 사용하여 확인하십시오.
 
-### \*\* HAS PROBLEMS \*\*
+### \*\* 문제가 있습니다 \*\*
 
-- Needs Maintenance
-  - Use tools inside Maintenance Hatch GUI, **OR**
-  - Right-click with Tool Box on Maintenance Hatch
-    - Must have full complement of tools
-    - Soldering Iron must be charged
-    - Needs soldering material (consumable)
-- Volcanus with no Pyrotheum - causes voiding & maintenance issues
-- Cryogenic Freezer with no Cryotheum - causes voiding & maintenance issues
+- 정비 필요
+  - 정비 해치 GUI에서 도구 사용, **또는**
+  - 도구 상자를 정비 해치에 우클릭
+    - 모든 도구가 갖춰져 있어야 함
+    - 납땜 인두가 충전되어 있어야 함
+    - 납땜 재료 필요(소모품)
+- Pyrotheum이 없는 Volcanus - 공허화 및 정비 문제 발생
+- Cryotheum이 없는 극저온 냉동고 - 공허화 및 정비 문제 발생
 
-### \*\* INCOMPLETE STRUCTURE \*\*
+### \*\* 구조 불완전 \*\*
 
-- Multiblock built incorrectly
-  - Missing parts - left-Shift over controller in NEI
-  - Parts are in the wrong position
-  - Exceeds maximums or does not meet minimums
-  - Wrong casings - some blocks are visually similar
-  - Energy Hatch is insufficient tier
-  - Mixed coils or casing types
-  - Controller is facing the interior of the multiblock
-  - Something inside a multi that should be hollow
-- Structure not recognized
-  - Not built in one chunk or fully chunkloaded
-  - Break and replace Controller
+- 다중 블록이 잘못 건설됨
+  - 부품 누락 - NEI에서 컨트롤러에 Shift를 누른 채 마우스를 올림
+  - 부품이 잘못된 위치에 있음
+  - 최대 수를 초과했거나 최소 수를 충족하지 못함
+  - 잘못된 외벽 - 일부 블록은 외관이 비슷함
+  - 에너지 해치의 티어가 부족함
+  - 코일 또는 외벽 종류가 섞임
+  - 컨트롤러가 다중 블록 내부를 향하고 있음
+  - 비어 있어야 하는 다중 블록 내부에 무언가 있음
+- 구조가 인식되지 않음
+  - 한 청크 안에 건설되지 않았거나 완전히 청크 로드되지 않음
+  - 컨트롤러를 부수고 다시 설치
 
-### Does Not Turn On
+### 켜지지 않음
 
-- No power
-  - Power line has breaks / not connected
-  - A cover is blocking power transmission somewhere
-  - Transformers are not oriented properly
-  - Energy Hatch input isn't facing power
-  - Generator(s) aren't turned on and connected
-  - Generator(s) out of fuel
-  - Battery Buffer has no batteries
-  - Batteries are not charged
-  - Battery and Buffer tier don't match
-- Incorrect recipe
-  - Liquids aren't in Input Hatch
-  - Items aren't in Input Bus
-  - Programmed Circuit not set in Input Bus / Controller
-  - Wrong ingredients, verify by metadata
-  - Coils/Casings/Energy Hatch insufficient tier for recipe
-  - Blocked by unusable recipe items in buses/hatches
-- Disabled
-  - Hit with Soft Mallet
-  - Press power button in controller
-- No Energy Hatch - add at least one Energy Hatch to accept power
-- Structure insufficient - multiblock configuration doesn't meet recipe's needs; gas/liquid needs an output in a different location
+- 전력 없음
+  - 전력선이 끊겼거나 연결되지 않음
+  - 어딘가의 커버가 전력 전송을 막고 있음
+  - 변압기의 방향이 올바르지 않음
+  - 에너지 해치의 입력 면이 전력을 향하고 있지 않음
+  - 발전기가 켜져 있지 않거나 연결되지 않음
+  - 발전기의 연료가 부족함
+  - 배터리 버퍼에 배터리가 없음
+  - 배터리가 충전되지 않음
+  - 배터리와 버퍼의 티어가 일치하지 않음
+- 잘못된 레시피
+  - 입력 해치에 액체가 없음
+  - 입력 버스에 아이템이 없음
+  - 입력 버스 또는 컨트롤러에 프로그래밍된 회로가 설정되지 않음
+  - 재료가 잘못됨, 메타데이터로 확인
+  - 레시피에 필요한 코일/외벽/에너지 해치의 티어가 부족함
+  - 버스/해치에 사용할 수 없는 레시피 아이템이 있어 막힘
+- 비활성화됨
+  - 부드러운 망치로 타격함
+  - 컨트롤러에서 전원 버튼을 누름
+- 에너지 해치 없음 - 전력을 받으려면 에너지 해치를 하나 이상 추가
+- 구조 부족 - 다중 블록 설정이 레시피의 요구 사항을 충족하지 않음; 기체/액체는 다른 위치에 출력이 필요함
 
-### Turns On then Voids / Shuts Down
+### 켜진 후 공허화되거나 정지함
 
-- Insufficient power
-  - Not enough power generation - check recipe
-  - Too much power being used by other machines
-  - Not enough power delivered due to cable loss
-  - Over-limited by diode or transformer
-  - Battery Buffers only output 1A per battery
-  - Recipe is overclocking, consuming more power than expected
-  - Not all Energy Hatches are connected to power
-  - Not enough Energy Hatches to accept power (2A max each)
-- Muffler Hatch blocked
-  - Muffler is not pointing out
-  - Muffler does not have an air block above it
-  - Advanced Muffler Hatches need air filters
-- Missing Consumables
-  - Turbine item for Air Filters and Turbines
-  - Cryotheum for Cryogenic Freezer
-  - Pyrotheum for Volcanus
+- 전력 부족
+  - 발전량 부족 - 레시피 확인
+  - 다른 기계가 너무 많은 전력을 사용함
+  - 케이블 손실로 전달되는 전력이 부족함
+  - 다이오드 또는 변압기로 인해 제한됨
+  - 배터리 버퍼는 배터리 하나당 1A만 출력함
+  - 레시피가 오버클록되어 예상보다 많은 전력을 소비함
+  - 모든 에너지 해치가 전력에 연결되어 있지 않음
+  - 전력을 받기에 에너지 해치가 부족함(각각 최대 2A)
+- 머플러 해치가 막힘
+  - 머플러가 바깥쪽을 향하지 않음
+  - 머플러 위에 공기 블록이 없음
+  - 고급 머플러 해치에는 공기 필터가 필요함
+- 소모품 누락
+  - 공기 필터와 터빈에 필요한 터빈 아이템
+  - 극저온 냉동고에 필요한 Cryotheum
+  - Volcanus에 필요한 Pyrotheum
 
-### Wrong Output
+### 출력이 잘못됨
 
-- Incorrect circuit set
-- Input separation not enabled on a multi-bus setup
-- Water/Lava conditions not met for the Rock Breaker
+- 회로 설정이 잘못됨
+- 다중 버스 구성에서 입력 분리가 활성화되지 않음
+- Rock Breaker의 물/용암 조건이 충족되지 않음
 
-### Voids at Random / Runs Intermittently
+### 무작위로 공허화되거나 간헐적으로 작동함
 
-- Power loss - another machine is competing for amps, or power production is inconsistent
-- Job Done - no ingredients left to process, or no pollution in chunks for Air Filter
+- 전력 손실 - 다른 기계가 전류를 두고 경쟁하거나 전력 생산이 일정하지 않음
+- 작업 완료 - 처리할 재료가 남아 있지 않거나 공기 필터가 있는 청크에 오염이 없음
 
-### Needs More Power
+### 더 많은 전력 필요
 
-- Insufficient Energy Hatch tier
-- Insufficient casing/hull tier for recipe
+- 에너지 해치의 티어가 부족함
+- 레시피에 필요한 외벽/선체의 티어가 부족함
 
-### Overflowed
+### 초과됨
 
-- Coil / heat casings mismatch
+- 코일과 열 외벽이 일치하지 않음
 
-### Not Enough Output Space
+### 출력 공간 부족
 
-- Output doesn't have enough slots for the recipe
-- Output is full/missing
-- Missing an output for directional products
-  - EBF needs a hatch on top for gas and a hatch on bottom for fluids
+- 레시피에 필요한 슬롯보다 출력 슬롯이 부족함
+- 출력이 가득 찼거나 없음
+- 방향성 결과물의 출력이 없음
+  - EBF는 기체용 해치를 위쪽에, 유체용 해치를 아래쪽에 설치해야 함
 
-### No Valid Recipe Found
+### 유효한 레시피를 찾을 수 없음
 
-- No combination of valid items / wrong item
-- Missing input hatch/bus
+- 유효한 아이템 조합이 없거나 아이템이 잘못됨
+- 입력 해치/버스 누락

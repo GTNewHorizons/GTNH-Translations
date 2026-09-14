@@ -1,15 +1,15 @@
 ---
 navigation:
-  title: Resource Pack Update Notifier
+  title: 리소스 팩 업데이트 알림
   parent: misc.md
   icon: minecraft:painting
 categories:
-    - Miscellaneous Changes
+    - 기타 변경 사항
 author: Skorched
 date: 2026-05-20
 ---
 
-# Resource Pack Update Notifier
-We know you play with resource packs, so now you have a handy in-game notifier for updating! No more broken textures that are fixed somewhere else!
+# 리소스 팩 업데이트 알림
+여러분이 리소스 팩을 사용해 플레이하신다는 것을 알고 있기에, 이제 업데이트를 위한 편리한 게임 내 알림 기능이 생겼습니다! 다른 곳에서 수정되는 깨진 텍스처는 더 이상 없습니다!
 
-The <Color id="GREEN">Resource Pack Update Checker</Color> looks at your enable resource packs, and checks GitHub releases for newer compatible versions. This does require the resource pack creator to opt-in, but if an update is found, you will receive an in-game chat message with a clickable link to the newest compatible release!
+<Color id="GREEN">리소스 팩 업데이트 검사기</Color>는 활성화된 리소스 팩을 확인하고, GitHub 릴리스에서 더 새로운 호환 버전이 있는지 검사합니다. 이 기능을 사용하려면 리소스 팩 제작자가 선택적으로 동의해야 하지만, 업데이트가 발견되면 최신 호환 릴리스로 연결되는 클릭 가능한 링크가 포함된 게임 내 채팅 메시지를 받게 됩니다!

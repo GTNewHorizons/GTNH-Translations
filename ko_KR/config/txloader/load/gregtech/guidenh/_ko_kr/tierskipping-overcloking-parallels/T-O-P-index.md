@@ -1,64 +1,64 @@
 ---
 navigation:
-  title: "Tier Skipping, Overclocking, and Parallels"
+  title: "티어 건너뛰기, 오버클록 및 병렬 처리"
   icon: OpenComputers:item:27
   parent: /index.md
 ---
 
-# Tier Skipping, Overclocking, and Parallels
+# 티어 건너뛰기, 오버클록 및 병렬 처리
 
 
-The behavior of multiblock machines is determined by the following core concepts: **[tier skipping](tierskipping.md)**, **[overclocking](overclocking.md)**, **[parallels](parallels.md)**, and the **rated power** and **voltage tier** discussed on this page.
+멀티블록 기계의 작동 방식은 다음 핵심 개념에 따라 결정됩니다. **[티어 건너뛰기](tierskipping.md)**, **[오버클록](overclocking.md)**, **[병렬 처리](parallels.md)**, 그리고 이 페이지에서 설명하는 **정격 전력**과 **전압 티어**입니다.
 
-**[Tier skipping](tierskipping.md)** is the ability of a multiblock to use lower-tier Energy Hatches to run recipes with a higher base recipe power, usually by installing two Energy Hatches of the same tier.
+**[티어 건너뛰기](tierskipping.md)**란 일반적으로 같은 티어의 에너지 해치를 두 개 설치하여, 더 높은 기본 레시피 전력을 요구하는 레시피를 더 낮은 티어의 에너지 해치로 실행할 수 있는 기능입니다.
 
-**[Overclocking](overclocking.md)** means increasing rated power so the machine can complete a recipe in less time. In most cases this uses 4/2 imperfect overclocks, though some machines support 4/4 perfect overclocks.
+**[오버클록](overclocking.md)**은 기계가 레시피를 더 짧은 시간 안에 완료할 수 있도록 정격 전력을 높이는 것을 의미합니다. 대부분의 경우 4/2 불완전 오버클록을 사용하지만, 일부 기계는 4/4 완전 오버클록을 지원합니다.
 
-**[Parallels](parallels.md)** are the ability of a multiblock machine to process multiple copies of the same recipe in the same time interval.
+**[병렬 처리](parallels.md)**란 멀티블록 기계가 동일한 시간 간격 안에 같은 레시피를 여러 개 처리할 수 있는 기능입니다.
 
-# Recipes and Power
+# 레시피와 전력
 
-Every recipe has a **base recipe power**, meaning the power shown in NEI before overclocking and before any discount is applied. Many multiblocks, such as <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:687" showIcon="left" />, can apply special power discounts to recipes. The power after discounts but before overclocking is called the **actual recipe power**. When tooltips mention "recipe tier", they refer to base recipe power, not actual recipe power.
+모든 레시피에는 **기본 레시피 전력**이 있으며, 이는 오버클록과 할인 적용 전 NEI에 표시되는 전력입니다. <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> 및 <ItemLink id="gregtech:gt.blockmachines:687" showIcon="left" />와 같은 많은 멀티블록은 레시피에 특별한 전력 할인을 적용할 수 있습니다. 할인 적용 후 오버클록 적용 전의 전력을 **실제 레시피 전력**이라고 합니다. 툴팁에서 "레시피 티어"를 언급할 때는 실제 레시피 전력이 아니라 기본 레시피 전력을 의미합니다.
 
-# Rated Power
+# 정격 전력
 
-**Rated power** is the maximum power the machine can consume while running. It is the primary input for **[overclocking](overclocking.md)** and **[parallels](parallels.md)**. It determines both whether the machine can run a recipe and how it runs that recipe. Rated power and voltage tier are properties of the machine itself and are independent of the energy-packet transport rules in the local power network.
+**정격 전력**은 기계가 작동 중 소비할 수 있는 최대 전력입니다. 이는 **[오버클록](overclocking.md)**과 **[병렬 처리](parallels.md)**에 사용되는 주요 입력값입니다. 정격 전력은 기계가 레시피를 실행할 수 있는지와 레시피를 어떤 방식으로 실행하는지를 모두 결정합니다. 정격 전력과 전압 티어는 기계 자체의 속성이며, 로컬 전력 네트워크의 에너지 패킷 전송 규칙과는 무관합니다.
 
-## Conditions Required to Start a Recipe
+## 레시피 시작에 필요한 조건
 
-The machine can only start a recipe if **rated power >= actual recipe power** and **voltage tier >= base recipe power**.
+기계는 **정격 전력 >= 실제 레시피 전력**이고 **전압 티어 >= 기본 레시피 전력**인 경우에만 레시피를 시작할 수 있습니다.
 
-- Rated power too low -> the controller reports "Recipe requires more power."
-- Voltage tier too low -> the controller reports "Recipe requires higher voltage to start."
+- 정격 전력이 너무 낮음 -> 컨트롤러에 "레시피에 더 많은 전력이 필요합니다."라고 표시됩니다.
+- 전압 티어가 너무 낮음 -> 컨트롤러에 "레시피를 시작하려면 더 높은 전압이 필요합니다."라고 표시됩니다.
 
-## Singleblock Machines
+## 단일 블록 기계
 
-Singleblock machines usually have rated power equal to 1A x standard voltage. Exceptions include the Thermal Centrifuge at 2A,and the Arc Furnace at 3A,and the singleblock Mass Fabricator consumed current varies according to different voltage levels from 8A to lower 1A.
+단일 블록 기계는 일반적으로 정격 전력이 1A x 표준 전압과 같습니다. 예외로 열 원심분리기는 2A, 아크 화로는 3A이며, 단일 블록 질량 제작기는 전압 수준에 따라 소비 전류가 8A부터 1A 이하까지 달라집니다.
 
-## Multiblock Machines
+## 멀티블록 기계
 
-Multiblocks calculate rated power differently depending on whether they use one Energy Hatch or several. A standard Energy Hatch has rated power equal to 2A x standard voltage. A Multi-Amp or Laser Hatch has rated power equal to its amperage x standard voltage.
+멀티블록은 에너지 해치를 하나 사용하는지 여러 개 사용하는지에 따라 정격 전력을 다르게 계산합니다. 표준 에너지 해치의 정격 전력은 2A x 표준 전압과 같습니다. 멀티 앰프 또는 레이저 해치의 정격 전력은 해당 해치의 암페어 수 x 표준 전압과 같습니다.
 
-- **Only one Energy Hatch installed**: most machines have rated power = 1A x standard voltage, which is half of the Energy Hatch's rated power. Some machines that support Multi-Amp or Laser Hatches directly use the hatch's full rated power.
-- **Multiple Energy Hatches installed**: rated power is the sum of the rated power of all Energy Hatches.
+- **에너지 해치를 하나만 설치한 경우**: 대부분의 기계는 정격 전력이 1A x 표준 전압이며, 이는 에너지 해치 정격 전력의 절반입니다. 멀티 앰프 또는 레이저 해치를 지원하는 일부 기계는 해치의 전체 정격 전력을 직접 사용합니다.
+- **에너지 해치를 여러 개 설치한 경우**: 정격 전력은 모든 에너지 해치의 정격 전력을 합한 값입니다.
 
-With only one Energy Hatch installed, the machine's voltage tier is often one tier above its rated power, a 4x gap. That means the machine still lacks enough rated power to run recipes at that higher voltage tier. To make up for that missing rated power, you place more same-tier Energy Hatches, which is **[tier skipping](tierskipping.md)**. Installing two standard same-tier Energy Hatches makes rated power equal to voltage tier; this is called **dual-hatch tier skipping**.
+에너지 해치를 하나만 설치하면 기계의 전압 티어가 정격 전력보다 한 티어 높은 경우가 많으며, 이는 4배의 차이입니다. 따라서 기계에는 해당 높은 전압 티어의 레시피를 실행할 수 있는 정격 전력이 여전히 부족합니다. 부족한 정격 전력을 보충하려면 같은 티어의 에너지 해치를 추가로 설치해야 하며, 이것이 **[티어 건너뛰기](tierskipping.md)**입니다. 같은 티어의 표준 에너지 해치를 두 개 설치하면 정격 전력이 전압 티어와 같아지며, 이를 **이중 해치 티어 건너뛰기**라고 합니다.
 
-# Voltage Tier
+# 전압 티어
 
-**Voltage tier** is the highest base recipe power the machine is allowed to run. It only affects whether a recipe is allowed to start, together with rated power. Voltage tier has nothing to do with **[overclocking](overclocking.md)**.
+**전압 티어**는 기계가 실행할 수 있도록 허용되는 가장 높은 기본 레시피 전력입니다. 전압 티어는 정격 전력과 함께 레시피를 시작할 수 있는지만 결정합니다. 전압 티어는 **[오버클록](overclocking.md)**과 아무런 관련이 없습니다.
 
-## Singleblock Machines
+## 단일 블록 기계
 
-Their voltage tier is the same as their rated power.
+단일 블록 기계의 전압 티어는 정격 전력과 같습니다.
 
-## Multiblock Machines
+## 멀티블록 기계
 
-There are four different voltage-tier behaviors for multiblocks:
+멀티블록에는 전압 티어가 작동하는 방식이 네 가지 있습니다.
 
-| Behavior | Description | Typical Machines |
+| 방식 | 설명 | 대표적인 기계 |
 |----------|-------------|------------------|
-| **One-tier boost** | 4A x average Energy Hatch voltage. This is the default behavior for most machines. | Electric Blast Furnace and most others |
-| **Cannot boost** | 1A x Energy Hatch voltage | <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" /> |
-| **One-tier reduction** | 1/4 A x Energy Hatch voltage | Circuit Assembler mode of <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" /> |
-| **Unrestricted** | Tooltip says "as long as enough energy is provided, this machine can run recipes of any tier" | <ItemLink id="gregtech:gt.blockmachines:12730" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:1004" showIcon="left" /> |
+| **한 티어 상승** | 4A x 평균 에너지 해치 전압입니다. 대부분의 기계에 적용되는 기본 방식입니다. | 전기 용광로 및 대부분의 기타 기계 |
+| **상승 불가** | 1A x 에너지 해치 전압입니다. | <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" /> |
+| **한 티어 하락** | 1/4 A x 에너지 해치 전압입니다. | <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" />의 회로 조립기 모드 |
+| **제한 없음** | 툴팁에 "충분한 에너지가 공급되는 한, 이 기계는 모든 티어의 레시피를 실행할 수 있습니다"라고 표시됩니다. | <ItemLink id="gregtech:gt.blockmachines:12730" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:1004" showIcon="left" /> |

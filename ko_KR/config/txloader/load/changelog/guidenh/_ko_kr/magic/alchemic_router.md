@@ -3,28 +3,28 @@ item_ids:
   - AWWayofTime:itemAttunedCrystal
   - AWWayofTime:itemDestinationClearer
 navigation:
-  title: Blood Magic AR Routing Improvements
+  title: Blood Magic AR 라우팅 개선
   parent: magic.md
   icons: 
   - AWWayofTime:itemAttunedCrystal:0:{reagent:"orbisTerrae"}
   - AWWayofTime:itemAttunedCrystal:0:{reagent:"crystallos"}
 categories:
-    - Magic Changes
-    - Quality Of Life
+    - 마법 변경 사항
+    - 편의성 개선
 author: koolkrafter5
 date: 2026-06-09
 ---
 
-# Blood Magic AR Routing Improvements
-The <ItemLink id="AWWayofTime:itemAttunedCrystal"/> <ItemImage id="AWWayofTime:itemAttunedCrystal"/> and <ItemLink id="AWWayofTime:itemDestinationClearer"/> <ItemImage id="AWWayofTime:itemDestinationClearer"/> have received some usability improvements in 2.9.
+# Blood Magic AR 라우팅 개선
+<ItemLink id="AWWayofTime:itemAttunedCrystal"/> <ItemImage id="AWWayofTime:itemAttunedCrystal"/> 및 <ItemLink id="AWWayofTime:itemDestinationClearer"/> <ItemImage id="AWWayofTime:itemDestinationClearer"/>는 2.9에서 몇 가지 사용성 개선이 이루어졌습니다.
 
-To use the <Color id="GREEN">Alchemic Router</Color>:
-* Right-click a source of AR (such as an <ItemImage id="AWWayofTime:blockAlchemicCalcinator"/> or <ItemImage id="AWWayofTime:blockReagentConduit"/>) to save it as the current source and copy its <Color id="RED">first reagent</Color>.
-* Continue right-clicking the source to cycle through its <Color id="RED">other reagents</Color>.
-* Right-click the destination (such as a <ItemImage id="AWWayofTime:masterStone"/> or <ItemImage id="AWWayofTime:blockCrystalBelljar"/>) to create a <Color id="RED">link</Color>. The <Color id="RED">current reagent</Color> is saved for further <Color id="RED">links</Color>.
-* Sneak-right-click anywhere to <Color id="BLUE">clear</Color> the saved source.
-* Sneak-right-click again to <Color id="BLUE">clear</Color> the <Color id="RED">reagent</Color>.
+<Color id="GREEN">연금술 라우터</Color>를 사용하려면:
+* AR 공급원(예: <ItemImage id="AWWayofTime:blockAlchemicCalcinator"/> 또는 <ItemImage id="AWWayofTime:blockReagentConduit"/>)을 오른쪽 클릭하여 현재 공급원으로 저장하고 해당 공급원의 <Color id="RED">첫 번째 시약</Color>을 복사하십시오.
+* 공급원을 계속 오른쪽 클릭하여 해당 공급원의 <Color id="RED">다른 시약</Color>들을 순환하십시오.
+* 목적지(예: <ItemImage id="AWWayofTime:masterStone"/> 또는 <ItemImage id="AWWayofTime:blockCrystalBelljar"/>)를 오른쪽 클릭하여 <Color id="RED">링크</Color>를 생성하십시오. <Color id="RED">현재 시약</Color>은 추가 <Color id="RED">링크</Color>를 위해 저장됩니다.
+* 아무 곳이나 웅크린 채 오른쪽 클릭하여 저장된 공급원을 <Color id="BLUE">지우십시오</Color>.
+* 다시 웅크린 채 오른쪽 클릭하여 <Color id="RED">시약</Color>을 <Color id="BLUE">지우십시오</Color>.
 
-To use the <Color id="GREEN">Alchemic Cleanser</Color>:
-* Right-click a block to <Color id="BLUE">clear</Color> its outgoing <Color id="RED">links</Color>.
-* Sneak-right-click a block to <Color id="BLUE">clear</Color> any incoming <Color id="RED">links</Color>.
+<Color id="GREEN">연금술 세정기</Color>를 사용하려면:
+* 블록을 오른쪽 클릭하여 나가는 <Color id="RED">링크</Color>를 <Color id="BLUE">지우십시오</Color>.
+* 블록을 웅크린 채 오른쪽 클릭하여 들어오는 <Color id="RED">링크</Color>를 <Color id="BLUE">지우십시오</Color>.

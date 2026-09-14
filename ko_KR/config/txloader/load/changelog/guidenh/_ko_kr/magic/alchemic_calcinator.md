@@ -1,17 +1,17 @@
 ---
 navigation:
-  title: Alchemic Calcinator Improvements
+  title: 연금술 소성기 개선 사항
   parent: magic.md
   icon: AWWayofTime:blockAlchemicCalcinator
 categories:
-    - Magic Changes
-    - Quality Of Life
+    - 마법 변경 사항
+    - 편의성
 author: koolkrafter5
 date: 2026-06-11
 ---
 
-The <ItemLink id="AWWayofTime:blockAlchemicCalcinator"/> <ItemImage id="AWWayofTime:blockAlchemicCalcinator"/> has received a few usability improvements:
+<ItemLink id="AWWayofTime:blockAlchemicCalcinator"/> <ItemImage id="AWWayofTime:blockAlchemicCalcinator"/>에 몇 가지 사용성 개선 사항이 적용되었습니다:
 
-* Attempting to place an unbound <Color id="RED">Blood Orb</Color> <ItemImage id="AWWayofTime:weakBloodOrb"/> into the calcinator will <Color id="BLUE">automatically bind</Color> it to you.
-* Automation can now only place <Color id="RED">Blood Orbs</Color> <ItemImage id="AWWayofTime:weakBloodOrb"/> in the <Color id="RED">Blood Orb</Color> slot and <Color id="GREEN">reagents</Color> <ItemImage id="AWWayofTime:bloodMagicBaseAlchemyItems:2"/> in the <Color id="GREEN">reagent</Color> slot.
-* Right-clicking with a stack of <Color id="GREEN">reagents</Color> in hand will now add the <Color id="BLUE">whole stack</Color> rather than only adding one.
+* 귀속되지 않은 <Color id="RED">혈액 구슬</Color> <ItemImage id="AWWayofTime:weakBloodOrb"/>을 소성기에 넣으려고 하면 자동으로 당신에게 귀속됩니다.
+* 이제 자동화는 <Color id="RED">혈액 구슬</Color> <ItemImage id="AWWayofTime:weakBloodOrb"/>을 <Color id="RED">혈액 구슬</Color> 슬롯에만, <Color id="GREEN">시약</Color> <ItemImage id="AWWayofTime:bloodMagicBaseAlchemyItems:2"/>을 <Color id="GREEN">시약</Color> 슬롯에만 넣을 수 있습니다.
+* 손에 <Color id="GREEN">시약</Color> 한 스택을 들고 우클릭하면 이제 하나만 추가하는 대신 <Color id="BLUE">스택 전체</Color>가 추가됩니다.

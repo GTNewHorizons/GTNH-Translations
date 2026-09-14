@@ -1,13 +1,13 @@
 ---
 navigation:
-  title: Structure Reworks
+  title: 구조 개편
   parent: /index.md
   icon: gregtech:gt.blockmachines:15511
 ---
-# Structure Reworks
-As part of 2.9, cuboids are now officially banned!
+# 구조 개편
+2.9의 일환으로, 이제 직육면체는 공식적으로 금지되었습니다!
 
-Seriously though, most of the multiblocks in the game have been reworked (visually and/or mechanically) to look better and perform better!
+진지하게 말하자면, 게임 내 대부분의 멀티블록은 더 좋은 외형과 더 나은 성능을 위해 (시각적 및/또는 기계적으로) 개편되었습니다!
 
-# List of Multi Reworks:
+# 멀티블록 개편 목록:
 <Category name="Structure Reworks" rows="3" />

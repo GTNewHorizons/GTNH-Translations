@@ -1,25 +1,24 @@
 ---
 navigation:
-  title: Balance Changes
+  title: 밸런스 변경
   parent: misc.md
   icon: Thaumcraft:ItemShard:6
 categories:
-    - Miscellaneous Changes
+    - 기타 변경 사항
 author: Skorched
 date: 2026-05-30
 ---
 
-# Balance Changes
-As with any major update, a lot of attention has been paid across the board to try and make the pack fun, and option-heavy. This often entails a lot of balance changes to try and make weaker options more viable, and "over-powered" options less of a limelight
+# 밸런스 변경
+여느 대규모 업데이트와 마찬가지로, 이 팩을 재미있고 선택지가 많게 만들기 위해 전반적으로 많은 공을 들였습니다. 이는 흔히 약한 선택지를 더 쓸 만하게 만들고, "과도하게 강력한" 선택지가 덜 각광받도록 하기 위한 많은 밸런스 변경을 수반합니다.
 > [!NOTE]
-> The full list of balance changes is far too long and subjective to be displayed here, so this will not include changes like multiblock costs (at least in structure), or the addition of new routes which directly add balancing changes (such as [CropsNH](../crops/crops.md)). Due to the sheer number of balance changes, the only feasible way of knowing EVERY change is to go through the github changelog one by one. As such, the following list is just a cherry-picked selection of some of the bigger changes that come with 2.9
+> 전체 밸런스 변경 목록은 여기에 표시하기에는 너무 길고 주관적이므로, 이 문서에는 멀티블록 비용(적어도 구조상)이나 직접적으로 밸런스 변경을 추가하는 새로운 경로(예: [CropsNH](../crops/crops.md))의 추가 같은 변경은 포함하지 않습니다. 밸런스 변경의 수가 워낙 많기 때문에 모든 변경을 알 수 있는 유일한 현실적인 방법은 GitHub 변경 로그를 하나씩 살펴보는 것입니다. 따라서 다음 목록은 2.9에 포함된 더 큰 변경 사항 중 일부를 선별한 것에 불과합니다.
 
-- Mega Distillation Tower (HV -> LuV), Mega Oil Cracker (HV -> LuV), Mega EBF (Now Exothermic Hearth) (HV -> ZPM), Mega Vacuum Freezer (Now Endothermic Fridge) (HV -> ZPM)
-- Hypogen (UIV -> UEV), Eye Of Harmony Processing now UXV voltage
-- Titanium based Titaniumtetrachloride recipe (10s HV -> 60s EV)
-- Variety of [Structure Reworks](../reworks/reworks.md) that add various balance changes
-- Cryotheum uses lapis dust instead of redstone
-- New recipes for Railcraft Water Siding Tank
-- MV Field Generator now takes titanium instead of Tungstensteel
-- Basic SMD recipes now require HV Assembler instead of MV
-
+- 메가 증류탑(HV -> LuV), 메가 석유 분해기(HV -> LuV), 메가 EBF(이제 발열 화로)(HV -> ZPM), 메가 진공 냉동기(이제 흡열 냉장고)(HV -> ZPM)
+- Hypogen(UIV -> UEV), Eye Of Harmony 가공은 이제 UXV 전압을 사용합니다
+- 티타늄 기반 사염화티타늄 레시피(10초 HV -> 60초 EV)
+- 다양한 밸런스 변경을 추가하는 여러 [구조 개편](../reworks/reworks.md)
+- 크라이오테움은 레드스톤 대신 청금석 가루를 사용합니다
+- Railcraft 물 측선 탱크의 새 레시피
+- MV 필드 생성기는 이제 텅스텐강 대신 티타늄을 사용합니다
+- 기본 SMD 레시피는 이제 MV 대신 HV 조립기를 요구합니다

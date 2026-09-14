@@ -2,71 +2,71 @@
 item_ids:
   - gregtech:gt.blockmachines:15538
 navigation:
-  title: Large Thermal Refinery
+  title: 대형 열 정련기
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15538
 categories:
-    - Structure Reworks
+    - 구조물 개편
 author: Skorched
 date: 2026-05-23
 ---
 
-# Large Thermal Refinery
+# 대형 열 정련기
 
-<GameScene wrap="square" align="right">
-  <ImportStructureLib controller="gregtech:gt.blockmachines:15538"/>
-</GameScene>
-The <Color id="GREEN">Large Thermal Refinery (LTR)</Color> is an EV tier multiblock for refining crushed ores and recycling depleted fuel rods. The <Color id="GREEN">LTR</Color> is a direct upgrade from the singleblock thermal centrifuge because it runs up to <Color id="RED">320%</Color> speed, uses as little as <Color id="BLUE">39%</Color> of the EU/t normally required, and offers <Color color="#ed6401">8</Color> parallels per voltage tier and 2 parallels per solenoid tier. Furthermore, every heating coil tier gives a 5% speed bonus (additive) and 5% EU/t discount (multiplicative). 
+&lt;GameScene wrap="square" align="right"&gt;
+  &lt;ImportStructureLib controller="gregtech:gt.blockmachines:15538"/&gt;
+&lt;/GameScene&gt;
+<Color id="GREEN">대형 열 정련기(LTR)</Color>는 분쇄된 광석을 정련하고 고갈된 연료봉을 재활용하기 위한 EV 티어 멀티블록입니다. <Color id="GREEN">LTR</Color>은 단일블록 열 원심분리기의 직접적인 업그레이드로, 최대 <Color id="RED">320%</Color> 속도로 작동하고 일반적으로 필요한 EU/t의 최소 <Color id="BLUE">39%</Color>만 사용하며, 전압 티어당 <Color color="#ed6401">8</Color>개의 병렬 처리와 솔레노이드 티어당 2개의 병렬 처리를 제공합니다. 또한 각 가열 코일 티어는 5%의 속도 보너스(합연산)와 5%의 EU/t 절감(곱연산)을 제공합니다.
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multi (aside from the new structure):
-> - Tiered Coils: 5% additive bonus speed per tier, 5% multiplicative power reduction per tier
-> - Tiered Solenoids: 2 parallels per solenoid tier
+> 새로운 구조물 외에도 멀티블록에 다음과 같은 변경 사항이 적용되었습니다:
+> - 티어별 코일: 티어당 5%의 합연산 속도 보너스, 티어당 5%의 곱연산 전력 감소
+> - 티어별 솔레노이드: 솔레노이드 티어당 2개의 병렬 처리
 
-## Construction
-The <Color id="GREEN">LTR</Color> has two tiered components. The <Color id="RED">Heating Coils</Color> increase the speed bonus and energy discount of the machine. The <Color id="BLUE">Solenoids</Color> increase the number of parallels. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any thermal processing casing anywhere on the structure. Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure with subchannels "coil", "solenoid", and "glass" to specify the tier of those components. 
+## 건설
+<Color id="GREEN">LTR</Color>은 두 가지 티어 구성 요소를 가집니다. <Color id="RED">가열 코일</Color>은 기계의 속도 보너스와 에너지 절감을 증가시킵니다. <Color id="BLUE">솔레노이드</Color>는 병렬 처리 수를 증가시킵니다. 유리는 어떤 티어든 사용할 수 있으며 기계 작동에 영향을 주지 않습니다. 버스/해치는 구조물의 어느 위치에 있는 열 처리 케이싱이든 대체할 수 있습니다. 멀티 앰프 및 레이저 에너지 해치는 지원되지 않지만, 오버클럭킹을 위해 여러 개의 일반 에너지 해치를 둘 수 있습니다. <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" />를 사용하여 하위 채널 "coil", "solenoid", "glass"로 구조물을 시각화/건설해 해당 구성 요소의 티어를 지정하십시오.
 
-### Requires:
+### 필요 항목:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15538" /> <ItemImage id="gregtech:gt.blockmachines:15538" />
 - 85-92 <ItemLink id="miscutils:gtplusplus.blockcasings.2" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2" />
 - 20 <ItemLink id="gregtech:gt.blockframes:348" /> <ItemImage id="gregtech:gt.blockframes:348" />
-- 16 Heating Coil <ItemImage id="gregtech:gt.blockcasings5:11" />
-- 6 Solenoid Superconductor Coil <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10" />
-- 6 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 가열 코일 16개 <ItemImage id="gregtech:gt.blockcasings5:11" />
+- 솔레노이드 초전도 코일 6개 <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10" />
+- 티어별 유리 6개(아무 종류) <ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 4 <ItemLink id="gregtech:gt.blockcasings:11" /> <ItemImage id="gregtech:gt.blockcasings:11" />
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 에너지 해치 1개 이상(케이싱 무관) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 유지보수 해치 1개(케이싱 무관) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 소음기 해치 1개(케이싱 무관) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 입력 버스 0개 이상(케이싱 무관) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 입력 해치 0개 이상(케이싱 무관) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 출력 버스 0개 이상(케이싱 무관) <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">LTRs</Color> may wallshare each of their sides to save on casings, glass, frame boxes, and buses/hatches. Many recipes use 2A of power so it is NOT possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines without at least fluxed electrum coils. 
+### 벽 공유
+<Color id="GREEN">LTR</Color>은 케이싱, 유리, 프레임 박스, 버스/해치를 절약하기 위해 각 면을 벽 공유할 수 있습니다. 많은 레시피가 2A의 전력을 사용하므로, 최소한 플럭스드 일렉트럼 코일 없이는 <u>__하나__</u>의 에너지 해치를 <u>__두__</u> 기계 사이에서 공유하는 것이 불가능합니다.
 
-## Usage
-The <Color id="GREEN">LTR</Color> is a direct upgrade from the singleblock thermal centrifuge because it runs up to <Color id="RED">320%</Color> speed, uses as little as <Color id="BLUE">39%</Color> of the EU/t normally required, and offers <Color color="#ed6401">8</Color> parallels per voltage tier and <Color id="GREEN">2</Color> parallels per solenoid tier, as seen in the following table. Furthermore, every heating coil tier gives a 5% speed bonus (additive) and 5% EU/t discount (multiplicative). 
-### Heating Coils:
-|  Coil | Speed | EU/t |
+## 사용법
+<Color id="GREEN">LTR</Color>은 단일블록 열 원심분리기의 직접적인 업그레이드로, 최대 <Color id="RED">320%</Color> 속도로 작동하고 일반적으로 필요한 EU/t의 최소 <Color id="BLUE">39%</Color>만 사용하며, 전압 티어당 <Color color="#ed6401">8</Color>개의 병렬 처리와 솔레노이드 티어당 <Color id="GREEN">2</Color>개의 병렬 처리를 제공합니다. 이는 다음 표에서 볼 수 있습니다. 또한 각 가열 코일 티어는 5%의 속도 보너스(합연산)와 5%의 EU/t 절감(곱연산)을 제공합니다.
+### 가열 코일:
+|  코일 | 속도 | EU/t |
 | --------------- | --------------- | --------------- |
-| Cupronickel | 255% | 76.0% |
-| Kanthal | 260% | 72.2% |
-| Nichrome | 265% | 68.6% |
-| TPV-Alloy | 270% | 65.2% |
+| 큐프로니켈 | 255% | 76.0% |
+| 칸탈 | 260% | 72.2% |
+| 니크롬 | 265% | 68.6% |
+| TPV 합금 | 270% | 65.2% |
 | HSS-G | 275% | 61.9% |
 | HSS-S | 280% | 58.8% |
-| Naquadah | 285% | 55.9% |
-| Naquadah Alloy | 290% | 53.1% |
-| Trinium | 295% | 50.4% |
-| Fluxed Electrum | 300% | 47.9% |
-| Awakened Draconium | 305% | 45.5% |
-| Infinity | 310% | 43.2% |
-| Hypogen | 315% | 41.1% |
-| Eternal | 320% | 39.0% |
+| 나쿼다 | 285% | 55.9% |
+| 나쿼다 합금 | 290% | 53.1% |
+| 트리늄 | 295% | 50.4% |
+| 플럭스드 일렉트럼 | 300% | 47.9% |
+| 각성한 드라코늄 | 305% | 45.5% |
+| 인피니티 | 310% | 43.2% |
+| 하이포젠 | 315% | 41.1% |
+| 이터널 | 320% | 39.0% |
 
-### Solenoids:
+### 솔레노이드:
 
 |  | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 |--------------- | -------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |

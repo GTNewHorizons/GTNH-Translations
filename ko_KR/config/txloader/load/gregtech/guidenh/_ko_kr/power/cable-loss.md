@@ -1,29 +1,29 @@
 ---
 navigation:
-  title: "Cable Loss"
+  title: "케이블 손실"
   icon: gregtech:gt.metatool.01:26
   parent: power-index.md
   position: -5
 ---
 
-# Cable Loss
+# 케이블 손실
 
-**Cable loss** is the extra power cost that may occur while power is transmitted through [wires and cables](cable.md). It is a core mechanic of the GT [local power network](enet.md). Early in the game, because machine voltages are low, controlling cable loss is very important. As voltage tiers rise, cable loss becomes less important.
+**케이블 손실**은 [전선과 케이블](cable.md)을 통해 전력이 전송될 때 발생할 수 있는 추가적인 전력 비용입니다. 이는 GT [지역 전력망](enet.md)의 핵심 메커니즘입니다. 게임 초반에는 기계의 전압이 낮기 때문에 케이블 손실을 제어하는 것이 매우 중요합니다. 전압 티어가 높아질수록 케이블 손실은 덜 중요해집니다.
 
-# Loss Rate
+# 손실률
 
-Each [wire and cable](cable.md) has a cable loss rate parameter (shown in the tooltip as "loss/m/amp: x V"). Let that loss rate be $$\rho$$ and wire length be $$L$$. Then the actual input voltage after a packet passes through the wire is:
+각 [전선과 케이블](cable.md)에는 케이블 손실률 매개변수가 있으며, 툴팁에는 "손실/m/암페어: x V"로 표시됩니다. 손실률을 $$\rho$$, 전선 길이를 $$L$$이라고 하겠습니다. 그러면 패킷이 전선을 통과한 후의 실제 입력 전압은 다음과 같습니다.
 
 $$U_{\text{input}} = U_{\text{output}} - \rho L_{\text{wire}}$$
 
-The power lost to the wire is:
+전선에서 손실되는 전력은 다음과 같습니다.
 
 $$P_{\text{cable loss}} = I \rho L_{\text{wire}}$$
 
-So cable loss is proportional to loss rate, current, and wire length. If wire length, loss rate, and transmitted power stay the same, then raising transmission voltage lowers current and therefore indirectly lowers cable loss. **Every tier increase in transmission voltage reduces cable loss to one quarter**.
+따라서 케이블 손실은 손실률, 전류 및 전선 길이에 비례합니다. 전선 길이, 손실률 및 전송 전력이 동일하게 유지되는 경우 전송 전압을 높이면 전류가 감소하므로 케이블 손실도 간접적으로 감소합니다. **전송 전압이 티어별로 상승할 때마다 케이블 손실은 4분의 1로 감소합니다.**
 
-Example: any Tin Cable has a loss rate of 1 V/m. If 32V 2A power travels through 2 m of Tin Cable, it becomes 30V 2A at the destination, and the cable loss along the way is 4 EU/t.
+예를 들어 모든 주석 케이블의 손실률은 1 V/m입니다. 32V 2A의 전력이 주석 케이블 2m를 통과하면 목적지에서는 30V 2A가 되며, 이동하는 동안 발생한 케이블 손실은 4 EU/t입니다.
 
-The section [Providing Power Reliably](enet.md#providing-power-reliably) only considers the zero-loss case. With cable loss present, first calculate the actual packet voltage the consumer receives, then apply the rest of the logic unchanged.
+[안정적으로 전력 공급하기](enet.md#providing-power-reliably) 섹션에서는 손실이 없는 경우만 고려합니다. 케이블 손실이 존재하는 경우 먼저 소비자가 받는 실제 패킷 전압을 계산한 다음, 나머지 과정은 변경하지 않고 적용합니다.
 
-When cable loss reduces voltage, you can compensate for the lost power by increasing input current. However, current cannot exceed either the wire's maximum current or the consumer's maximum input current. If increasing current is still not enough, you need lower-loss wire, higher-current wire, or a shorter transmission path.
+케이블 손실로 전압이 감소할 때는 입력 전류를 높여 손실된 전력을 보충할 수 있습니다. 그러나 전류는 전선의 최대 전류 또는 소비자의 최대 입력 전류 중 어느 것도 초과할 수 없습니다. 전류를 높여도 충분하지 않다면 손실률이 더 낮은 전선, 더 높은 전류를 지원하는 전선 또는 더 짧은 전송 경로가 필요합니다.

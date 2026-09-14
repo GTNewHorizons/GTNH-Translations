@@ -2,7 +2,7 @@
 item_ids:
   - appliedenergistics2:item.ItemTunnelPattern
 navigation:
-  title: Tunnel Patterns
+  title: 터널 패턴
   parent: ae2.md
   icon: appliedenergistics2:item.ItemTunnelPattern
 categories:
@@ -11,15 +11,15 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Tunnel Patterns
-Tired of updating circuit boards or EBF protective gas in all of your patterns when you get an upgrade? There’s a new way to handle it coming in 2.9:
+# 터널 패턴
+업그레이드를 받을 때마다 모든 패턴의 회로 기판이나 EBF 보호 가스를 갱신하는 데 지치셨습니까? 2.9에 이를 처리하는 새로운 방법이 등장합니다:
 
-## AE2 Tunnel Patterns!
+## AE2 터널 패턴!
 
-<Color id="GREEN">Tunnel Patterns</Color> are a new **input-only** pattern type. They are designed to reduce repetition and keep setups with large numbers of patterns easier to manage. When you encode a processing pattern with inputs but no outputs, it becomes a Tunnel Pattern. Each one gets a unique ID so it can be referenced reliably.
+&lt;Color id="GREEN"&gt;터널 패턴&lt;/Color&gt;은 새로운 **입력 전용** 패턴 유형입니다. 이는 반복을 줄이고, 많은 수의 패턴을 사용하는 설정을 더 쉽게 관리할 수 있도록 설계되었습니다. 입력은 있지만 출력은 없는 가공 패턴을 인코딩하면 터널 패턴이 됩니다. 각 터널 패턴에는 고유 ID가 부여되어 안정적으로 참조할 수 있습니다.
 
-They can be used as modular pattern building blocks by putting a <Color id="GREEN">Tunnel Pattern</Color> in the __inputs of another pattern__. During crafting, if your ME system finds a Tunnel Pattern in a pattern's inputs, it searches for the Tunnel Pattern on your network's ME Interfaces and __adds its inputs into the current recipe__. If the pattern isn’t found, it falls back to the Tunnel Pattern item itself.
+다른 패턴의 __입력__에 &lt;Color id="GREEN"&gt;터널 패턴&lt;/Color&gt;을 넣어 모듈식 패턴 구성 요소로 사용할 수 있습니다. 제작 중에 ME 시스템이 패턴의 입력에서 터널 패턴을 발견하면, 네트워크의 ME 인터페이스에서 해당 터널 패턴을 찾아 __그 입력을 현재 레시피에 추가합니다__. 패턴을 찾지 못하면 터널 패턴 아이템 자체로 대체합니다.
 
-You can also __chain__ Tunnel Patterns: you can have a mix of as many Tunnel Patterns and regular ingredients as desired set as inputs for another Tunnel Pattern. This allows you to define __usable input groups__ that can be shared across many recipes which can easily be modified later. You can freely rename or modify the Tunnel Pattern's ingredients without having to change <u>__any__</u> of the patterns that reference it!
+터널 패턴을 __연쇄__할 수도 있습니다. 다른 터널 패턴의 입력으로 원하는 만큼 많은 터널 패턴과 일반 재료를 섞어 설정할 수 있습니다. 이를 통해 나중에 쉽게 수정할 수 있고 여러 레시피에서 공유할 수 있는 __사용 가능한 입력 그룹__을 정의할 수 있습니다. 해당 터널 패턴을 참조하는 <u>__어떤__</u> 패턴도 변경할 필요 없이 터널 패턴의 재료 이름을 자유롭게 바꾸거나 수정할 수 있습니다!
 
-A great example of how to use this feature is to use it to include tiered glass, coils, or full sets of input/output hatches and buses in multi-block pseudo-crafting recipes, or for including noble gases in EBF crafts. More use cases are still being discovered!
+이 기능을 사용하는 좋은 예시는 멀티블록 의사 제작 레시피에 티어별 유리, 코일 또는 입력/출력 해치와 버스 전체 세트를 포함하거나, EBF 제작에 불활성 기체를 포함하는 데 사용하는 것입니다. 더 많은 활용 사례가 계속 발견되고 있습니다!

@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Steam Multiblocks
+  title: 증기 멀티블록
   parent: reworks.md
   icon: gregtech:gt.blockmachines:31041
 categories:
@@ -9,23 +9,23 @@ author: Skorched
 date: 2026-05-23
 ---
 
-# Steam Multiblocks
+# 증기 멀티블록
 
-Some of the <Color id="RED">Steam Multis</Color> have been redesigned for both balance and aesthetic purposes. The actual mechanics of the machines have not changed __at all__, they just have changed structures, as shown below:
+일부 <Color id="RED">증기 멀티블록</Color>은 밸런스와 미관이라는 두 가지 목적을 위해 재설계되었습니다. 기계의 실제 작동 방식은 __전혀__ 변경되지 않았으며, 아래에 표시된 것처럼 구조만 변경되었습니다:
 
-### Steam Grinder
+### 증기 분쇄기
 
 <GameScene>
   <ImportStructureLib controller="gregtech:gt.blockmachines:31041"/>
 </GameScene>
 
-### Steam Blender
+### 증기 혼합기
 
 <GameScene>
   <ImportStructureLib controller="gregtech:gt.blockmachines:31084"/>
 </GameScene>
 
-### Steam Squasher
+### 증기 압착기
 <GameScene>
   <ImportStructureLib controller="gregtech:gt.blockmachines:31078"/>
 </GameScene>

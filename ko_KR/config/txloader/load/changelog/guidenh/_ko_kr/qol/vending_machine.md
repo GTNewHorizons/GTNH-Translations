@@ -1,32 +1,32 @@
 ---
 navigation:
-  title: Vending Machine
+  title: 자판기
   parent: qol.md
   icon: gregtech:gt.blockmachines:2741
 categories:
-    - Quality Of Life
-    - New Multiblocks
+    - 편의성
+    - 새 멀티블록
 author: Skorched
 date: 2026-05-16
 ---
 
-# Vending Machine
+# 자판기
 <GameScene wrap="square" align="right">
   <ImportStructure src="../assets/qol/vending.snbt"/>
 </GameScene>
 
  
-Are you tired of having chests on chests full of random coins you don't want or need yet? Well look no further! Introducing the <Color id="GREEN">Vending Machine</Color> <ItemImage id="gregtech:gt.blockmachines:2741"/>! 
+아직 원하지도, 필요로 하지도 않는 무작위 코인으로 가득 찬 상자를 상자 위에 쌓아 두는 것에 지치셨습니까? 그렇다면 더 이상 찾아보지 마십시오! <Color id="GREEN">자판기</Color> <ItemImage id="gregtech:gt.blockmachines:2741"/>를 소개합니다! 
 
 
-Unlocked after your first GT tools in the Steam Age, the Vending Machine is a new mini multiblock that deals with all of your storage and trading using coins! It has full compatibility with teams and solo play, and is a huge relief off your early game storage. This also means that the quest book page for Coin Tradings is now removed.
+증기 시대에 첫 GT 도구를 만든 후 해금되는 자판기는 코인을 사용한 모든 저장과 거래를 처리하는 새로운 소형 멀티블록입니다! 팀 플레이와 솔로 플레이 모두와 완전히 호환되며, 초반 게임 저장 공간에 큰 부담을 덜어줍니다. 이는 코인 거래용 퀘스트 북 페이지가 이제 제거되었음을 의미합니다.
 
-The Vending Machine has effectively infinite storage of coins, and deals with all conversion of different "sizes" of coins internally. Trades can be found either through the categories on the sidebar, or via search for the output item. It also has a small internal inventory buffer for some required non-consumed items used in trades.
+자판기는 사실상 무한한 코인 저장 공간을 가지며, 서로 다른 코인 "크기" 간의 모든 변환을 내부적으로 처리합니다. 거래는 사이드바의 카테고리를 통해서나 출력 아이템 검색을 통해 찾을 수 있습니다. 또한 거래에 사용되는 일부 필수 비소모 아이템을 위한 작은 내부 인벤토리 버퍼가 있습니다.
 
-## Team Compatibility
-As mentioned earlier, the Vending Machine also fully works with teams! For solo players, the cooldown functionality is inherently the same as the previous quest book page, with cooldowns specific to each quest, and certain unlock "gates" based on quest progress to unlock new trades.
+## 팀 호환성
+앞서 언급했듯이, 자판기는 팀과도 완전히 작동합니다! 솔로 플레이어의 경우, 쿨다운 기능은 이전 퀘스트 북 페이지와 본질적으로 동일하며, 각 퀘스트에 특화된 쿨다운과 새로운 거래를 해금하기 위한 퀘스트 진행도 기반의 특정 해금 "게이트"가 있습니다.
 
-For team players, the wallet is inherently linked, and you can toggle to use either the "team wallet", or your "personal wallet". If spending from the team wallet, the cooldown is based on the size of your team. If you have a 3 player team, and the output you want has a 10 minute cooldown, then you can do up to 3 trades every 10 minutes. These no longer are restricted to being done individually by each player in the team, and can now be done "on behalf" of another player
+팀 플레이어의 경우, 지갑이 본질적으로 연결되어 있으며, "팀 지갑" 또는 "개인 지갑" 중 하나를 사용하도록 전환할 수 있습니다. 팀 지갑에서 지출하면 쿨다운은 팀 규모에 따라 결정됩니다. 3인 팀이고 원하는 출력의 쿨다운이 10분이라면, 10분마다 최대 3회 거래할 수 있습니다. 이러한 거래는 더 이상 팀의 각 플레이어가 개별적으로 수행하도록 제한되지 않으며, 이제 다른 플레이어를 "대신하여" 수행할 수 있습니다
 
-## AE2 Integration
-Trades and coin storage are now also fully integrated with the new <Color id="GREEN">ME Vending Uplink</Color> <ItemImage id="gregtech:gt.blockmachines:2742"/>
+## AE2 통합
+거래와 코인 저장은 이제 새로운 <Color id="GREEN">ME 자판기 업링크</Color> <ItemImage id="gregtech:gt.blockmachines:2742"/>와도 완전히 통합됩니다

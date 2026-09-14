@@ -6,7 +6,7 @@ navigation:
   parent: multis.md
   icon: gregtech:gt.blockmachines:15752
 categories:
-    - New Multiblocks
+    - 신규 멀티블록
 author: Skorched
 date: 2026-05-25
 ---
@@ -15,55 +15,55 @@ date: 2026-05-25
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15752" />
 </GameScene>
-The <Color id="GREEN">Laminated Application and Thermal Enclosure eXpert (LATEX)</Color>, the mouthful that it is, is an HV tier multiblock for coating cables. The <Color id="GREEN">LATEX</Color> is a direct upgrade from the singleblock assembler for cable coating because it runs at <Color id="GREEN">200%</Color> speed, only uses <Color id="RED">85%</Color> of the EU/t normally required, and offers <Color id="BLUE">8</Color> parallels per voltage tier. There is also an additive 6.25% rubber discount based on the tier of the item pipe casings and the unique opportunity to insert an elastic singularity inside the controller to double the amount of parallels, gain another 25% rubber discount, and unlock the ability to use multi-amp and laser energy hatches. 
+<Color id="GREEN">적층 도포 및 열 외장 전문가(LATEX)</Color>는 이름이 길기로 유명한, 케이블 코팅용 HV 티어 멀티블록입니다. <Color id="GREEN">LATEX</Color>는 케이블 코팅용 단일블록 조립기의 직접적인 업그레이드입니다. <Color id="GREEN">200%</Color> 속도로 작동하고, 일반적으로 필요한 EU/t의 <Color id="RED">85%</Color>만 사용하며, 전압 티어당 <Color id="BLUE">8</Color>개의 병렬을 제공하기 때문입니다. 또한 아이템 파이프 케이싱의 티어에 따라 6.25%의 고무 할인이 추가되며, 컨트롤러 내부에 탄성 특이점을 삽입하여 병렬 수를 두 배로 늘리고, 고무 할인 25%를 추가로 얻고, 멀티앰프 및 레이저 에너지 해치를 사용할 수 있는 능력을 해금할 수 있는 특별한 기회도 있습니다. 
 <br clear="all"/>
 
-## Construction:
-The LATEX has one tiered component. The item pipe casings determine the overall rubber discount of the machine. Buses/hatches may replace any casing anywhere on the structure. The glass must be tiered for the structure to form but has no effect on the operation of the machine. Multi-amp and laser energy hatches are not supported unless there is an elastic singularity in the controller, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannels "item_pipe" and "glass" to specify the tier of those components. 
+## 건설:
+LATEX에는 티어별 구성 요소가 하나 있습니다. 아이템 파이프 케이싱이 기계의 전체 고무 할인을 결정합니다. 버스/해치는 구조물의 어느 위치에서든 어떤 케이싱이든 대체할 수 있습니다. 유리는 구조물이 형성되려면 티어별이어야 하지만, 기계 작동에는 아무런 영향을 주지 않습니다. 멀티앰프 및 레이저 에너지 해치는 컨트롤러에 탄성 특이점이 있지 않으면 지원되지 않습니다. 다만 오버클럭을 위해 여러 개의 일반 에너지 해치를 둘 수 있습니다. <ItemLink id="structurelib:item.structurelib.constructableTrigger" /><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>를 사용하여 하위 채널 "item_pipe"와 "glass"로 구조물을 시각화/건설함으로써 해당 구성 요소의 티어를 지정하십시오. 
 
-### Requires:
+### 요구 사항:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15752" /><ItemImage id="gregtech:gt.blockmachines:15752"/>
 - 14-36 <ItemLink id="gregtech:gt.blockcasings8"/> <ItemImage id="gregtech:gt.blockcasings8"/>
-- 32 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 32 티어별 유리(아무 종류) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 16 <ItemLink id="gregtech:gt.blockframes:649"/><ItemImage id="gregtech:gt.blockframes:649"/>
-- 6 Item Pipe Casing (Tiered)<ItemImage id="gregtech:gt.blockcasings11:5"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90"/>
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80"/>
-### Wallsharing:
-<Color id="GREEN">LATEXs</Color> may wallshare each of their sides to save on casings, glass, frameboxes, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+- 6 아이템 파이프 케이싱(티어별)<ItemImage id="gregtech:gt.blockcasings11:5"/>
+- 1+ 에너지 해치(아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:40"/>
+- 1 유지보수 해치(아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:90"/>
+- 0+ 입력 버스(아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ 입력 해치(아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ 출력 버스(아무 케이싱) <ItemImage id="gregtech:gt.blockmachines:80"/>
+### 월쉐어링:
+<Color id="GREEN">LATEX들</Color>은 각 면을 월쉐어하여 케이싱, 유리, 프레임 박스, 버스/해치를 절약할 수 있습니다. 어떤 레시피도 1A를 초과하는 전력을 사용하지 않으므로 <u>__하나__</u>의 에너지 해치를 <u>__두__</u> 대의 기계 사이에서 공유할 수 있습니다. 
 
-## Usage:
-The <Color id="GREEN">LATEX</Color> is a direct upgrade from the singleblock assembler for cable coating because it runs at 200% speed, only uses 85% of the EU/t normally required, and offers 8 parallels per voltage tier, as seen in the following table. There is also an additive 6.25% rubber polymer discount based on the tier of the Item Pipe Casings. 
+## 사용법:
+<Color id="GREEN">LATEX</Color>는 케이블 코팅용 단일블록 조립기의 직접적인 업그레이드입니다. 다음 표에서 볼 수 있듯이 200% 속도로 작동하고, 일반적으로 필요한 EU/t의 85%만 사용하며, 전압 티어당 8개의 병렬을 제공하기 때문입니다. 아이템 파이프 케이싱의 티어에 따라 6.25%의 고무 폴리머 할인도 추가됩니다. 
 
-### Parallels:
+### 병렬:
 |  | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 |  | 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 | 80 | 88 | 96 | 104 | 112 | 120 |
 | ES | 16 | 32 | 48 | 64 | 80 | 96 | 112 | 128 | 144 | 160 | 176 | 192 | 208 | 224 | 240 |
 
 > [!NOTE]
-> "ES" here means that an Elastic Singularity is in the controller
+> 여기서 "ES"는 컨트롤러에 탄성 특이점이 있다는 뜻입니다
 
-| Item Pipe Casing   | Rubber Discount    |
+| 아이템 파이프 케이싱   | 고무 할인    |
 |--------------- | --------------- |
-| Tin   | 6.25%   |
-| Brass   | 12.50%   |
-| Electrum   | 18.75%   |
-| Platinum   | 25.00%   |
-| Osmium   | 31.25%   |
-| Quantium   | 37.50%   |
-| Fluxed Electrum   | 43.75%   |
-| Black Plutonium   | 50.00%   |
+| 주석   | 6.25%   |
+| 황동   | 12.50%   |
+| 일렉트럼   | 18.75%   |
+| 백금   | 25.00%   |
+| 오스뮴   | 31.25%   |
+| 퀀티움   | 37.50%   |
+| 플럭스드 일렉트럼   | 43.75%   |
+| 블랙 플루토늄   | 50.00%   |
 
 
-## Elastic Singularity
-Insert an elastic singularity into the <Color id="GREEN">LATEX</Color> controller to double the amount of parallels, gain another 25% rubber discount, and unlock the ability to use multi-amp and laser energy hatches. That is a maximum of 240 parallels and a 75% rubber polymer discount. The elastic singularity itself is crafted in a Dire Crafting Table but the five singularities that its comprised of are all made in the Neutronium Compressor or Pseudostable Black Hole Containment Field. That means the upgrade cannot be installed until UV and there is no sharing the singularity between machines. The cost of each singularity is listed below (113,771,520L each).
+## 탄성 특이점
+<Color id="GREEN">LATEX</Color> 컨트롤러에 탄성 특이점을 삽입하면 병렬 수가 두 배로 늘어나고, 고무 할인 25%를 추가로 얻으며, 멀티앰프 및 레이저 에너지 해치를 사용할 수 있는 능력이 해금됩니다. 즉, 최대 240개의 병렬과 75%의 고무 폴리머 할인입니다. 탄성 특이점 자체는 다이어 제작대에서 제작되지만, 이를 구성하는 다섯 특이점은 모두 뉴트로니움 압축기 또는 유사안정 블랙홀 격납 필드에서 제작됩니다. 즉, 이 업그레이드는 UV 전까지 설치할 수 없고, 기계 간에 특이점을 공유할 수 없습니다. 각 특이점의 비용은 아래와 같습니다(각 113,771,520L).
 
-- Rubber Singularity - 12,345 superdense rubber sheets or 790,080 individual rubber sheets.
-- Silicone Rubber Singularity - 12,345 superdense silicone rubber sheets or 790,080 individual silicone rubber sheets.
-- Polyvinyl Chloride Singularity - 12,345 superdense polyvinyl chloride sheets or 790,080 individual polyvinyl chloride sheets.
-- Styrene Butadiene Rubber Singularity - 12,345 superdense styrene butadiene rubber sheets or 790,080 individual styrene butadiene rubber sheets.
-- Polyphenylene Sulfide Singularity - 12,345 superdense polyphenylene sulfide sheets or 790,080 individual polyphenylene sulfide sheets.
+- 고무 특이점 - 초고밀도 고무 시트 12,345장 또는 개별 고무 시트 790,080장.
+- 실리콘 고무 특이점 - 초고밀도 실리콘 고무 시트 12,345장 또는 개별 실리콘 고무 시트 790,080장.
+- 폴리염화비닐 특이점 - 초고밀도 폴리염화비닐 시트 12,345장 또는 개별 폴리염화비닐 시트 790,080장.
+- 스티렌 부타디엔 고무 특이점 - 초고밀도 스티렌 부타디엔 고무 시트 12,345장 또는 개별 스티렌 부타디엔 고무 시트 790,080장.
+- 폴리페닐렌 설파이드 특이점 - 초고밀도 폴리페닐렌 설파이드 시트 12,345장 또는 개별 폴리페닐렌 설파이드 시트 790,080장.

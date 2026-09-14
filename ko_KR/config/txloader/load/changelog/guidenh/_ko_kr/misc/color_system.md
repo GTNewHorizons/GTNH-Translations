@@ -1,73 +1,72 @@
 ---
 navigation:
-  title: Full Color System
+  title: 완전한 색상 시스템
   parent: misc.md
   icon: gregtech:gt.metaitem.02:32415
 categories:
-    - Miscellaneous Changes
+    - 기타 변경 사항
 author: Skorched
 date: 2026-05-20
 ---
 
-# Full Color System
-What is life without a little <Color id="GREEN">Color!</Color> GTNH now has a fully built-in complete color system! This works with quests, signs, anvils, chat, and just about anywhere that text is rendered!
+# 완전한 색상 시스템
+약간의 <Color id="GREEN">색상!</Color> 없이 사는 인생이 무슨 의미가 있겠습니까? GTNH에는 이제 완전한 색상 시스템이 기본으로 내장되어 있습니다! 이 기능은 퀘스트, 표지판, 모루, 채팅을 비롯해 텍스트가 렌더링되는 거의 모든 곳에서 작동합니다!
 
-## Included Features
-- All 16 classic colors - just type "\&" and a color code!
-- RGB hex colors - any of 16 million colors
-- Gradients - create smooth color transitions
-- Rainbow text - hey, why not?
-- Wavy text - animated bouncing text
-- Bold, italic, underline and more - combined freely with any color
+## 포함된 기능
+- 모든 16가지 클래식 색상 - "\&"와 색상 코드를 입력하기만 하면 됩니다!
+- RGB 16진수 색상 - 1,600만 가지 색상 중 아무거나 사용할 수 있습니다
+- 그라데이션 - 부드러운 색상 전환을 만들 수 있습니다
+- 무지개 텍스트 - 뭐, 안 될 이유가 있겠습니까?
+- 물결 텍스트 - 움직이며 튀어 오르는 텍스트입니다
+- 굵게, 기울임꼴, 밑줄 등 - 어떤 색상과도 자유롭게 조합할 수 있습니다
 
-# Usage
-Simply type the color before your text and everything will be that color until you either use another color, or reset with `\&r`.
-## Vanilla Colors:
+# 사용법
+텍스트 앞에 색상을 입력하기만 하면, 다른 색상을 사용하거나 `\&r`로 재설정할 때까지 모든 텍스트가 해당 색상이 됩니다.
+## 바닐라 색상:
 
-| Code | Color |
+| 코드 | 색상 |
 | -------------- | --------------- |
-| `\&0` | <Color id="BLACK">Black</Color> |
-| `\&1` | <Color color="#0000AA">Dark Blue</Color> |
-| `\&2` | <Color color="#00AA00">Dark Green</Color> |
-| `\&3` | <Color color="#00AAAA">Dark Aqua</Color> |
-| `\&4` | <Color color="#AA0000">Dark Red</Color> |
-| `\&5` | <Color color="#AA00AA">Dark Purple</Color> |
-| `\&6` | <Color color="#FFAA00">Gold</Color> |
-| `\&7` | <Color color="#AAAAAA">Gray</Color> |
-| `\&8` | <Color color="#555555">Dark Gray</Color> |
-| `\&9` | <Color color="#5555FF">Blue</Color> |
-| `\&a` | <Color color="#55FF55">Green</Color> |
-| `\&b` | <Color color="#55FFFF">Aqua</Color> |
-| `\&c` | <Color color="#FF5555">Red</Color> |
-| `\&d` | <Color color="#FF55FF">Light Purple</Color> |
-| `\&e` | <Color color="#FFFF55">Yellow</Color> |
-| `\&f` | <Color color="#FFFFFF">White</Color> |
+| `\&0` | <Color id="BLACK">검은색</Color> |
+| `\&1` | <Color color="#0000AA">짙은 파랑</Color> |
+| `\&2` | <Color color="#00AA00">짙은 초록</Color> |
+| `\&3` | <Color color="#00AAAA">짙은 청록</Color> |
+| `\&4` | <Color color="#AA0000">짙은 빨강</Color> |
+| `\&5` | <Color color="#AA00AA">짙은 보라</Color> |
+| `\&6` | <Color color="#FFAA00">금색</Color> |
+| `\&7` | <Color color="#AAAAAA">회색</Color> |
+| `\&8` | <Color color="#555555">짙은 회색</Color> |
+| `\&9` | <Color color="#5555FF">파랑</Color> |
+| `\&a` | <Color color="#55FF55">초록</Color> |
+| `\&b` | <Color color="#55FFFF">청록</Color> |
+| `\&c` | <Color color="#FF5555">빨강</Color> |
+| `\&d` | <Color color="#FF55FF">연보라</Color> |
+| `\&e` | <Color color="#FFFF55">노랑</Color> |
+| `\&f` | <Color color="#FFFFFF">흰색</Color> |
 
 
-## Formatting:
-| Code | Effect |
+## 서식:
+| 코드 | 효과 |
 | -------------- | --------------- |
-| `\&l` | __Bold Text__ |
-| `\&o` | _Italic Text_  |
-| `\&n` | <u>Underlined Text</u> |
-| `\&m` | ~~Strikethrough Text~~ (Strikethrough) |
-| `\&k` | Obfuscated Text (Not rendered for clarity)|
-| `\&z` | Wavy Text |
-| `\&r` | Resets to regular typing|
+| `\&l` | __굵은 텍스트__ |
+| `\&o` | _기울임꼴 텍스트_  |
+| `\&n` | <u>밑줄 텍스트</u> |
+| `\&m` | ~~취소선 텍스트~~ (취소선) |
+| `\&k` | 난독화된 텍스트 (명확성을 위해 렌더링되지 않음)|
+| `\&z` | 물결 텍스트 |
+| `\&r` | 일반 입력으로 재설정|
 
 
-## RGB Hex Colors:
-16 colors not enough? Just make up your own! You can use any valid hex code (or use an online color picker if stuck)
-| Code | Color |
+## RGB 16진수 색상:
+16가지 색상으로 부족하십니까? 직접 만들어 보십시오! 유효한 16진수 코드를 아무거나 사용할 수 있습니다(막히면 온라인 색상 선택기를 사용해도 됩니다).
+| 코드 | 색상 |
 | -------------- | --------------- |
-| `\&#FF6B4A` | <Color color="#FF6B4A">Coral Orange</Color> |
-| `\&#4ECDC4` | <Color color="#4ECDC4">Soft Teal</Color> |
-| `\&#7B68EE` | <Color color="#7B68EE">Slate Blue</Color> |
-| `\&#FF69B4` | <Color color="#FF69B4">Hot Pink</Color> |
+| `\&#FF6B4A` | <Color color="#FF6B4A">산호 주황</Color> |
+| `\&#4ECDC4` | <Color color="#4ECDC4">부드러운 청록</Color> |
+| `\&#7B68EE` | <Color color="#7B68EE">슬레이트 블루</Color> |
+| `\&#FF69B4` | <Color color="#FF69B4">핫핑크</Color> |
 
 
-## Gradients:
-By typing `\&g` followed by two valid hex colors, a gradient will be made between the two specified colors! Try typing `\&g\&#FF0000\&#FFFF00<YourTextHere>` to make fire!
+## 그라데이션:
+`\&g` 뒤에 유효한 16진수 색상 두 개를 입력하면, 지정한 두 색상 사이에 그라데이션이 만들어집니다! 불 효과를 내려면 `\&g\&#FF0000\&#FFFF00<YourTextHere>`를 입력해 보십시오!
 
-One special type of gradient has its own special code! Type `\&q` for Rainbow effects!
-
+특별한 종류의 그라데이션에는 전용 코드가 있습니다! 무지개 효과를 원하시면 `\&q`를 입력하십시오!

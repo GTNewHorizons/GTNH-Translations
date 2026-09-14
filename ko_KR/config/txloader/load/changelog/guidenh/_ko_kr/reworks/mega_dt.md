@@ -2,35 +2,35 @@
 item_ids:
   - gregtech:gt.blockmachines:15516
 navigation:
-  title: Mega Distillation Tower
+  title: 메가 증류탑
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15516
 categories:
-    - Structure Reworks
+    - 구조 개편
 author: Skorched
 date: 2026-05-27
 ---
 
-# Mega Distillation Tower
+# 메가 증류탑
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15516"/>
 </GameScene>
-The <Color id="GREEN">Mega Distillation Tower (MDT)</Color> is an LuV tier multiblock for mass distilling fluids into ALL of its constituent fractions simultaneously, or for a single fraction at increased speed. The structure consists of a large central tower, with a pipe alongside it, which can increase in height by adding "slices" into the structure. If on Distillation Tower mode, the order of the outputs follows the NEI preview of the recipe and the number of outputs determines the minimum height of the structure. The <Color id="GREEN">MDT</Color> is a direct upgrade from the Distillation Tower <ItemImage id="gregtech:gt.blockmachines:1126"/>, because it offers up to 256 parallels in Tower mode, and 1024 in distillery mode, supports <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> for serious overclocking, and has unlimited tier skips. 
+<Color id="GREEN">메가 증류탑 (MDT)</Color>은 유체를 모든 구성 분획으로 동시에 대량 증류하거나, 단일 분획을 증가된 속도로 증류하기 위한 LuV 티어 멀티블록입니다. 이 구조는 중앙의 거대한 탑과 그 옆의 파이프로 이루어져 있으며, 구조에 "조각"을 추가하여 높이를 늘릴 수 있습니다. 증류탑 모드일 경우 출력 순서는 레시피의 NEI 미리보기를 따르며, 출력 수가 구조의 최소 높이를 결정합니다. <Color id="GREEN">MDT</Color>는 증류탑 <ItemImage id="gregtech:gt.blockmachines:1126"/>의 직접적인 업그레이드입니다. 탑 모드에서 최대 256 병렬, 증류기 모드에서 1024 병렬을 제공하고, 본격적인 오버클럭을 위한 <Color id="GREEN">멀티 앰프 및 레이저 에너지 해치</Color>를 지원하며, 무제한 티어 건너뛰기를 갖기 때문입니다. 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> Supports both Distillery and Distillation Tower modes
-> Distillation Tower Mode: Same parallels (256), 120% speed, 90% EU usage
-> Distillery Mode: $$256 \times (1 + \text{Tower Height} \div 2)$$ parallels, 150% speed, 50% EU usage
-> Gated to LuV by Naquadah processing
-> Has "slices" to add as part of the structure, meaning a variable size
+> 구조를 제외하고 멀티블록에 다음 변경 사항이 적용되었습니다:
+> 증류기 및 증류탑 모드를 모두 지원합니다
+> 증류탑 모드: 동일 병렬(256), 120% 속도, 90% EU 사용량
+> 증류기 모드: $$256 \times (1 + \text{Tower Height} \div 2)$$ 병렬, 150% 속도, 50% EU 사용량
+> 나콰다 처리로 LuV 티어에 제한됩니다
+> 구조의 일부로 추가할 수 있는 "조각"이 있어 크기가 가변적입니다
 
-## Construction
-The <Color id="GREEN">MDT</Color> has no tiered components. The height ranges between 30-54 blocks tall depending on the number of output slices added. The structure is naturally split into 5 sections, all of which are mandatory. The base of the structure is where the controller is placed, and where any input buses, maintenance hatches, and energy hatches should be placed. On the left side of the structure is a small bronze "output pipe", in which the input hatch should be placed. On the opposite side of the structure is a similar steel pipe, in which the output bus is placed. Above the steel input pipe is the condenser tower, which has slots for output hatches (ranging from 3-11 depending on added slices). Finally, the main cost of the structure is in the tower itself, which has no space for hatches or buses of any type.
+## 건설
+<Color id="GREEN">MDT</Color>에는 티어별 구성 요소가 없습니다. 높이는 추가된 출력 조각 수에 따라 30-54블록 높이입니다. 구조는 자연스럽게 5개 구역으로 나뉘며, 모두 필수입니다. 구조의 바닥에는 컨트롤러가 배치되며, 입력 버스, 유지보수 해치, 에너지 해치를 배치해야 합니다. 구조의 왼쪽에는 작은 청동 "출력 파이프"가 있으며, 여기에 입력 해치를 배치해야 합니다. 구조의 반대쪽에는 유사한 강철 파이프가 있으며, 여기에 출력 버스를 배치합니다. 강철 입력 파이프 위에는 응축기 탑이 있으며, 출력 해치용 슬롯이 있습니다(추가된 조각 수에 따라 3-11개). 마지막으로, 구조의 주요 비용은 탑 자체에 있으며, 이곳에는 어떤 종류의 해치나 버스도 놓을 공간이 없습니다.
 
-## Basic Requires:
+## 기본 요구 사항:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15516"/><ItemImage id="gregtech:gt.blockmachines:15516"/>
 - 361 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
 - 215 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.2"/>
@@ -40,14 +40,14 @@ The <Color id="GREEN">MDT</Color> has no tiered components. The height ranges be
 - 80-81 <ItemLink id="gregtech:gt.blockcasings2:12"/><ItemImage id="gregtech:gt.blockcasings2:12"/>
 - 43-44 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 41 <ItemLink id="gregtech:gt.blockcasings2"/><ItemImage id="gregtech:gt.blockcasings2"/>
-- 1+ Energy Hatch (any naquadah central casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any central naquadah casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 0+ Input Bus (any central naquadah casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0-1 Input Hatch (replaces bronze pipe casing on left side) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0-1 Output Bus (replaces steel pipe casing on right side) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 3 Output Hatch (replaces bronze pipe casings on right side) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ 에너지 해치(모든 나콰다 중앙 케이싱) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 유지보수 해치(모든 중앙 나콰다 케이싱) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 0+ 입력 버스(모든 중앙 나콰다 케이싱) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0-1 입력 해치(왼쪽의 청동 파이프 케이싱을 대체합니다) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0-1 출력 버스(오른쪽의 강철 파이프 케이싱을 대체합니다) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 3 출력 해치(오른쪽의 청동 파이프 케이싱을 대체합니다) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-## Per Slice Requires:
+## 조각당 요구 사항:
 - 57 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.2"/>
 - 48 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
 - 32 <ItemLink id="gregtech:gt.sheetmetal:324"/><ItemImage id="gregtech:gt.sheetmetal:324"/>
@@ -55,9 +55,9 @@ The <Color id="GREEN">MDT</Color> has no tiered components. The height ranges be
 - 16 <ItemLink id="gregtech:gt.blockcasings14:5"/><ItemImage id="gregtech:gt.blockcasings14:5"/>
 - 16 <ItemLink id="gregtech:gt.blockcasings2:12"/><ItemImage id="gregtech:gt.blockcasings2:12"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
-- 1 Output Hatch (replaces bronze pipe casings on right side) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1 출력 해치(오른쪽의 청동 파이프 케이싱을 대체합니다) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-## Max Size Requires:
+## 최대 크기 요구 사항:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15516"/><ItemImage id="gregtech:gt.blockmachines:15516"/>
 - 553 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
 - 443 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.2"/>
@@ -67,23 +67,23 @@ The <Color id="GREEN">MDT</Color> has no tiered components. The height ranges be
 - 135-136 <ItemLink id="gregtech:gt.blockcasings2:12"/><ItemImage id="gregtech:gt.blockcasings2:12"/>
 - 66-67 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 41 <ItemLink id="gregtech:gt.blockcasings2"/><ItemImage id="gregtech:gt.blockcasings2"/>
-- 1+ Energy Hatch (any naquadah central casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any central naquadah casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 0+ Input Bus (any central naquadah casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0-1 Input Hatch (replaces bronze pipe casing on left side) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0-1 Output Bus (replaces steel pipe casing on right side) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 11 Output Hatch (replaces bronze pipe casings on right side) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ 에너지 해치(모든 나콰다 중앙 케이싱) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 유지보수 해치(모든 중앙 나콰다 케이싱) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 0+ 입력 버스(모든 중앙 나콰다 케이싱) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0-1 입력 해치(왼쪽의 청동 파이프 케이싱을 대체합니다) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0-1 출력 버스(오른쪽의 강철 파이프 케이싱을 대체합니다) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 11 출력 해치(오른쪽의 청동 파이프 케이싱을 대체합니다) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">MDTs</Color> may wallshare each of their sides to save on casings and buses/hatches. The structure however is somewhat awkward to share, and the savings will be minimal unless wallshared vertically, making the overall structure 105 blocks tall.
+### 벽 공유
+<Color id="GREEN">MDT</Color>들은 케이싱과 버스/해치를 절약하기 위해 각 면을 벽 공유할 수 있습니다. 그러나 이 구조는 공유하기 다소 어색하며, 수직으로 벽 공유하지 않는 한 절약 효과는 미미합니다. 수직으로 공유하면 전체 구조가 105블록 높이가 됩니다.
 
-## Usage
-The <Color id="GREEN">MDT</Color> now comes with two modes, as described below:
+## 사용법
+<Color id="GREEN">MDT</Color>는 이제 아래에 설명된 두 가지 모드를 제공합니다:
 
-### Distillation Tower Mode:
-In this mode, the <Color id="GREEN">MDT</Color> distills fluids into all of its constituent fractions simultaneously, similar to the regular Distillation Tower. Each fraction is outputted at a different layer of the structure based on the NEI preview of the recipe. The order is left-to-right and bottom-to-top. For example, the order of outputs when distilling oil is sulfuric heavy fuel, sulfuric light fuel, sulfuric naphtha, and sulfuric gas. In this mode, the machine gets access to 256 parallels, 120% speed compared to a regular Distillation Tower, and 90% of the EU usage.
+### 증류탑 모드:
+이 모드에서 <Color id="GREEN">MDT</Color>는 일반 증류탑과 유사하게 유체를 모든 구성 분획으로 동시에 증류합니다. 각 분획은 레시피의 NEI 미리보기에 따라 구조의 서로 다른 층에서 출력됩니다. 순서는 왼쪽에서 오른쪽, 아래에서 위입니다. 예를 들어 석유를 증류할 때 출력 순서는 황산 중질 연료, 황산 경질 연료, 황산 나프타, 황산 가스입니다. 이 모드에서 기계는 256 병렬, 일반 증류탑 대비 120% 속도, EU 사용량의 90%를 얻습니다.
 
-### Distillery Mode:
-In this mode, the <Color id="GREEN">MDT</Color> runs regular distillation recipes, with one input and one output. The output of an input is specified by giving a programmed circuit in the controller or input bus for the required outputs. Using this mode gives 150% speed, 50% of the EU usage. Note that even though only the bottom output hatch is used, all hatches must be present for the structure to form at all. The parallels gained by this machine are given as
+### 증류기 모드:
+이 모드에서 <Color id="GREEN">MDT</Color>는 하나의 입력과 하나의 출력으로 일반 증류 레시피를 실행합니다. 입력에 대한 출력은 컨트롤러 또는 입력 버스에 필요한 출력에 해당하는 프로그래밍된 회로를 제공하여 지정됩니다. 이 모드를 사용하면 150% 속도, EU 사용량의 50%를 얻습니다. 맨 아래 출력 해치만 사용되더라도 구조가 형성되려면 모든 해치가 반드시 있어야 한다는 점에 유의하십시오. 이 기계로 얻는 병렬 수는 다음과 같습니다.
 <Latex formula="256 \times \Biggl( 1+\frac{\text{Tower Height}}{2} \Biggr)"/>
-where "Tower Height" is the amount of slices in the structure (not including the top slice). This gives a range of 512-1024 parallels depending on structure height
+여기서 "Tower Height"는 구조에 있는 조각의 수입니다(맨 위 조각은 포함하지 않습니다). 구조 높이에 따라 512-1024 병렬 범위를 제공합니다.

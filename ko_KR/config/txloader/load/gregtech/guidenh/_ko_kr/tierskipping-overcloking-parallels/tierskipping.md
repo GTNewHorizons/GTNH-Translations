@@ -1,34 +1,34 @@
 ---
 navigation:
-  title: "Tier Skipping"
+  title: "티어 건너뛰기"
   icon: gregtech:gt.blockmachines:41
   parent: T-O-P-index.md
   position: -1
 ---
 
-# Tier Skipping
+# 티어 건너뛰기
 
 
-**Tier skipping** is the ability of a multiblock machine to use lower-tier Energy Hatches to run recipes whose base recipe power belongs to a higher tier.
+**티어 건너뛰기**는 멀티블록 기계가 더 높은 티어에 해당하는 기본 레시피 전력의 레시피를 더 낮은 티어의 에너지 해치로 실행할 수 있는 기능입니다.
 
-The [rated power](T-O-P-index.md#rated-power) and [voltage tier](T-O-P-index.md#voltage-tier) of a multiblock are determined by its Energy Hatches. With only one Energy Hatch installed, voltage tier is often one tier above rated power, a 4x gap, but rated power is still too low to run recipes at that higher voltage tier. To make up the missing rated power, you install more same-tier Energy Hatches. That is **tier skipping**. Tier skipping is different from **[overclocking](overclocking.md)**.
+멀티블록의 [정격 출력](T-O-P-index.md#rated-power)과 [전압 티어](T-O-P-index.md#voltage-tier)는 에너지 해치에 따라 결정됩니다. 에너지 해치를 하나만 설치하면 전압 티어가 정격 출력보다 한 티어 높은 경우가 많으며, 이는 4배의 차이입니다. 그러나 정격 출력이 여전히 낮아서 해당 전압 티어의 레시피를 실행할 수 없습니다. 부족한 정격 출력을 보충하려면 같은 티어의 에너지 해치를 더 설치해야 합니다. 이것이 **티어 건너뛰기**입니다. 티어 건너뛰기는 **[오버클로킹](overclocking.md)**과 다릅니다.
 
-# Dual-Hatch Tier Skipping
+# 이중 해치 티어 건너뛰기
 
-Installing two standard Energy Hatches of the same tier raises rated power until it matches voltage tier. This is called **dual-hatch tier skipping**. Two standard same-tier Energy Hatches provide enough rated power and voltage tier together to run every recipe exactly one tier above.
+같은 티어의 표준 에너지 해치를 2개 설치하면 정격 출력이 전압 티어에 맞을 때까지 증가합니다. 이를 **이중 해치 티어 건너뛰기**라고 합니다. 같은 티어의 표준 에너지 해치 2개는 정격 출력과 전압 티어를 함께 충분히 제공하므로 정확히 한 티어 높은 모든 레시피를 실행할 수 있습니다.
 
-Some multiblocks have unusual voltage-tier rules. See the "cannot boost" and "unrestricted" cases under [voltage tier](T-O-P-index.md#voltage-tier).
+일부 멀티블록에는 특이한 전압 티어 규칙이 적용됩니다. [전압 티어](T-O-P-index.md#voltage-tier)의 "boost 불가" 및 "제한 없음" 사례를 참고하십시오.
 
-# Example: Electric Blast Furnace
+# 예시: 전기 용광로
 
-Take <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> as an example. When you first encounter it, you usually only have LV Energy Hatches, but smelting aluminum requires MV-tier power.
+<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />를 예시로 들어 보겠습니다. 이 기계를 처음 접했을 때는 보통 LV 에너지 해치만 보유하고 있지만, 알루미늄을 제련하려면 MV 티어의 전력이 필요합니다.
 
-After installing two LV Energy Hatches:
+LV 에너지 해치 2개를 설치하면 다음과 같습니다.
 
-- **[Voltage tier](T-O-P-index.md#voltage-tier)**: $$(32\text{V} + 32\text{V}) / 2 \times 4\text{A} = 128 \text{ EU/t}$$, which is above the base recipe power of all MV recipes. The aluminum recipe needs 120 EU/t.
-- **[Rated power](T-O-P-index.md#rated-power)**: $$32\text{V} \times 2\text{A} + 32\text{V} \times 2\text{A} = 128 \text{ EU/t}$$
+- **[전압 티어](T-O-P-index.md#voltage-tier)**: $$(32\text{V} + 32\text{V}) / 2 \times 4\text{A} = 128 \text{ EU/t}$$이며, 이는 모든 MV 레시피의 기본 레시피 전력보다 높습니다. 알루미늄 레시피에는 120 EU/t가 필요합니다.
+- **[정격 출력](T-O-P-index.md#rated-power)**: $$32\text{V} \times 2\text{A} + 32\text{V} \times 2\text{A} = 128 \text{ EU/t}$$
 
-In this state, the Electric Blast Furnace becomes very sensitive to cable loss. Any extra current used to compensate for cable loss is effectively spent covering the machine's power requirement:
+이 상태의 전기 용광로는 케이블 손실에 매우 민감해집니다. 케이블 손실을 보충하는 데 사용되는 추가 전류가 사실상 기계의 전력 요구량을 충당하는 데 소모되기 때문입니다.
 
-- An Energy Hatch can accept at most 2A from the local power network. If cable loss drops the voltage below 30V, the two Energy Hatches together no longer receive a full 120 EU/t and the machine may powerfail.
-- Installing a third Energy Hatch does not raise voltage tier: $$(32+32+32)/3 \times 4\text{A} = 128 \text{ EU/t}$$. It only raises rated power to 192 EU/t, giving extra headroom to compensate for cable loss.
+- 에너지 해치는 지역 전력망에서 최대 2A까지 받을 수 있습니다. 케이블 손실로 전압이 30V 아래로 떨어지면 두 에너지 해치가 함께 더 이상 120 EU/t를 온전히 받지 못하여 기계의 전력 공급이 끊길 수 있습니다.
+- 에너지 해치를 3개 설치해도 전압 티어는 증가하지 않습니다. $$(32+32+32)/3 \times 4\text{A} = 128 \text{ EU/t}$$입니다. 정격 출력만 192 EU/t로 증가하여 케이블 손실을 보충할 수 있는 여유가 생깁니다.

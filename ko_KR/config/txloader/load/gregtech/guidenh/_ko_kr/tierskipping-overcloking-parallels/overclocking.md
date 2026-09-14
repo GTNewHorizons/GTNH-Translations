@@ -1,53 +1,53 @@
 ---
 navigation:
-  title: "Overclocking"
+  title: "오버클로킹"
   icon: gregtech:gt.blockmachines:15410
   parent: T-O-P-index.md
   position: -2
 ---
 
-# Overclocking
+# 오버클로킹
 
-**Overclocking** means increasing [rated power](T-O-P-index.md#rated-power) so the machine can complete recipes in less time. Whenever the machine's rated power exceeds (actual parallels x actual recipe power) by a sufficient factor, usually 4x, the machine gains one overclock and the recipe duration is reduced. Unlike **[tier skipping](tierskipping.md)**, overclocking can happen multiple times.
+**오버클로킹**은 기계가 레시피를 더 짧은 시간 안에 완료할 수 있도록 [정격 전력](T-O-P-index.md#rated-power)을 증가시키는 것을 의미합니다. 기계의 정격 전력이 (실제 병렬 수 x 실제 레시피 전력)을 충분한 배율, 일반적으로 4배 이상 초과할 때마다 기계는 오버클록을 한 번 획득하며 레시피 시간이 감소합니다. **[티어 건너뛰기](tierskipping.md)**와 달리 오버클로킹은 여러 번 발생할 수 있습니다.
 
-Overclocking has nothing to do with [voltage tier](T-O-P-index.md#voltage-tier). Using higher-tier Energy Hatches raises the rated power of a single hatch, allowing more overclocks; stacking multiple Energy Hatches can achieve a similar effect. The common case of installing two same-tier Energy Hatches is often called **dual-hatch overclocking**.
+오버클로킹은 [전압 티어](T-O-P-index.md#voltage-tier)와 아무런 관련이 없습니다. 더 높은 티어의 에너지 해치를 사용하면 해치 하나의 정격 전력이 증가하여 더 많은 오버클록이 가능해지며, 여러 에너지 해치를 겹쳐 설치해도 비슷한 효과를 얻을 수 있습니다. 같은 티어의 에너지 해치 두 개를 설치하는 일반적인 방식은 흔히 **듀얼 해치 오버클로킹**이라고 합니다.
 
-Before it starts overclocking, a multiblock first calculates and attempts **[parallels](parallels.md)**. Overclocking and batch mode are completely separate features.
+멀티블록은 오버클로킹을 시작하기 전에 먼저 **[병렬 처리](parallels.md)**를 계산하고 시도합니다. 오버클로킹과 배치 모드는 서로 완전히 별개의 기능입니다.
 
-# Types of Overclocking
+# 오버클로킹의 종류
 
-## Imperfect Overclocking (4/2)
+## 불완전한 오버클로킹 (4/2)
 
-This is the default behavior. Each overclock multiplies power draw by 4 and cuts duration in half. Total energy doubles, so this is called **imperfect overclocking**. Most machines use this mode.
+기본 동작은 이 방식입니다. 오버클록할 때마다 전력 소모량이 4배가 되고 시간이 절반으로 줄어듭니다. 총 에너지가 2배가 되므로 이를 **불완전한 오버클로킹**이라고 합니다. 대부분의 기계는 이 방식을 사용합니다.
 
-## Perfect Overclocking (4/4)
+## 완전한 오버클로킹 (4/4)
 
-Each overclock multiplies rated power by 4, cuts duration to one quarter, and leaves total energy unchanged. This is called **perfect overclocking**. One example is <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />.
+오버클록할 때마다 정격 전력이 4배가 되고 시간이 4분의 1로 줄어들며, 총 에너지는 변하지 않습니다. 이를 **완전한 오버클로킹**이라고 합니다. 한 가지 예로 <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />가 있습니다.
 
-## Lossless Overclocking (2/2)
+## 손실 없는 오버클로킹 (2/2)
 
-When rated power increases by 4x, actual power usage only increases by 2x and duration is halved. The singleblock Mass Fabricator is an example.
+정격 전력이 4배 증가할 때 실제 전력 사용량은 2배만 증가하고 시간은 절반으로 줄어듭니다. 단일 블록 대량 제작기가 그 예입니다.
 
-## Special Overclocking
+## 특수 오버클로킹
 
-Many machines do not fit cleanly into the categories above. For example:
-- <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />: first uses imperfect overclocks up to the Energy Hatch tier, then uses laser overclocks based on amperage, where the $$n$$th step increases power by $$(4+0.3n)$$
-- <ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />: one overclock multiplies input energy by 4 and halves duration, which works out roughly like an 8/2 overclock
+많은 기계는 위의 분류에 깔끔하게 들어맞지 않습니다. 예시는 다음과 같습니다.
+- <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />: 먼저 에너지 해치 티어까지 불완전한 오버클록을 사용한 다음, 전류량에 기반한 레이저 오버클록을 사용하며, $$n$$번째 단계마다 전력이 $$(4+0.3n)$$배 증가합니다.
+- <ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />: 한 번의 오버클록으로 입력 에너지가 4배가 되고 시간이 절반으로 줄어들며, 결과적으로 대략 8/2 오버클록과 같은 방식으로 작동합니다.
 
-## Cannot Overclock
+## 오버클로킹 불가
 
-Special-purpose machines such as <ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:9402" showIcon="left" />, and <ItemLink id="gregtech:gt.blockmachines:1006" showIcon="left" /> do not allow overclocking.
+<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:9402" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:1006" showIcon="left" />와 같은 특수 목적 기계는 오버클로킹을 허용하지 않습니다.
 
-# Overclocking Low-Power Recipes
+# 저전력 레시피 오버클로킹
 
-Any recipe whose actual power is below 32 EU/t is treated as 32 EU/t for overclock calculations. This means ULV recipes, 1 to 8 EU/t, are treated as LV power. ULV is not treated as a standard voltage tier and does not participate in overclocking or parallel calculations as its own tier.
+실제 전력이 32 EU/t 미만인 모든 레시피는 오버클로킹 계산에서 32 EU/t로 취급됩니다. 따라서 1~8 EU/t인 ULV 레시피는 LV 전력으로 취급됩니다. ULV는 일반적인 전압 티어로 취급되지 않으며, 자체 티어로서 오버클로킹이나 병렬 처리 계산에 참여하지 않습니다.
 
-# Calculating Recipe Duration
+# 레시피 시간 계산
 
-Recipe duration is measured in ticks, where one tick is 0.05 seconds. Overclocking is calculated using floating-point values, and the final duration is rounded down to an integer number of ticks. If rounding down would produce 0, it is forced to 1 tick. At that point, some multiblocks trigger **1tOC** ([overclocking after reaching 1 tick](parallels.md#overclocking-after-reaching-1-tick-1toc)).
+레시피 시간은 틱 단위로 측정하며, 1틱은 0.05초입니다. 오버클로킹은 부동소수점 값을 사용해 계산하며, 최종 시간은 정수 틱 단위로 내림합니다. 내림한 결과가 0이 되면 강제로 1틱으로 설정됩니다. 이 시점에서 일부 멀티블록은 **1tOC**([1틱 도달 후 오버클로킹](parallels.md#overclocking-after-reaching-1-tick-1toc))를 발동합니다.
 
-Rounding always favors the player, so in some cases overclocking can make total energy efficiency exceed 100%.
+내림은 항상 플레이어에게 유리하게 적용되므로, 일부 경우에는 오버클로킹으로 총 에너지 효율이 100%를 초과할 수 있습니다.
 
-Example - imperfect overclocking: $$10 \text{ tick} \to 5\text{ tick} \to 2\text{ tick} \to 1 \text{ tick} \to 1\text{ tick}$$
+예시 - 불완전한 오버클로킹: $$10 \text{ tick} \to 5\text{ tick} \to 2\text{ tick} \to 1 \text{ tick} \to 1\text{ tick}$$
 
-Example - perfect overclocking: $$40 \text{ tick} \to 10\text{ tick} \to 2\text{ tick} \to 1\text{ tick} \to 1\text{ tick}$$
+예시 - 완전한 오버클로킹: $$40 \text{ tick} \to 10\text{ tick} \to 2\text{ tick} \to 1 \text{ tick} \to 1\text{ tick}$$

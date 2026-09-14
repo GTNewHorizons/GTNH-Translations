@@ -1,19 +1,19 @@
 ---
 navigation:
-  title: Mechanical Armor
+  title: 기계식 갑옷
   parent: misc.md
   icon: minecraft:diamond_chestplate
 categories:
-    - Miscellaneous Armor
+    - 기타 갑옷
 author: Skorched
 date: 2026-05-20
 ---
 
-# Mechanical Armor
-<Color id="RED">Mechanical Armor</Color> is a new set of powerful tech-based armor that can scale with your progression! First constructed in HV, you can unlock new augments, frames and energy cores as you progress through the tiers to become more powerful as you go.
+# 기계식 갑옷
+<Color id="RED">기계식 갑옷</Color>은 진행도에 따라 성능이 확장되는 강력한 기술 기반 갑옷의 새로운 세트입니다! HV에서 처음 제작되며, 티어를 진행하면서 새로운 증강, 프레임, 에너지 코어를 해금하여 갈수록 더 강력해질 수 있습니다.
 
-Different frames will have different numbers of **Movement**, **Protection**, **Utility**, and **Prismatic** slots, which determine which augment types can be placed into the armor! Choose your frames wisely to make use of those critical slots!
+프레임마다 **이동**, **보호**, **유틸리티**, **프리즘** 슬롯의 개수가 다르며, 이는 갑옷에 어떤 증강 유형을 장착할 수 있는지 결정합니다! 중요한 슬롯을 활용하려면 프레임을 현명하게 선택하십시오!
 
-Expect this armor set to cover the same range and abilities of the current tech armors (NanoSuit, QuantumSuit etc.) with similar tiering
+이 갑옷 세트는 기존 기술 갑옷(NanoSuit, QuantumSuit 등)과 유사한 티어 구성으로 동일한 범위와 능력을 포괄할 것으로 예상됩니다.
 
-This guide will not go in depth on the specifics, those are for you to discover as you progress!
+이 가이드에서는 구체적인 내용을 깊이 다루지 않습니다. 그 부분들은 진행하면서 직접 발견하시게 될 것입니다!

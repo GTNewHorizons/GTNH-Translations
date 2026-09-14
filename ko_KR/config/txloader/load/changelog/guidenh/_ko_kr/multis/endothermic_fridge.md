@@ -2,29 +2,29 @@
 item_ids:
   - gregtech:gt.blockmachines:15518
 navigation:
-  title: Endothermic Fridge
+  title: 흡열 냉동기
   parent: multis.md
   icon: gregtech:gt.blockmachines:15518
 categories:
-    - New Multiblocks
-    - Structure Reworks
+    - 신규 멀티블록
+    - 구조 개편
 author: Skorched
 date: 2026-05-27
 ---
 
-# Endothermic Fridge
+# 흡열 냉동기
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15518" />
 </GameScene>
-The <Color id="GREEN">Endothermic Fridge (EnF)</Color> is a ZPM tier multiblock for mass cooling hot ingots and fluids. The <Color id="GREEN">ENF</Color> is a direct upgrade from the <ItemLink id="gregtech:gt.blockmachines:1002"/><ItemImage id="gregtech:gt.blockmachines:1002"/> because it runs up to <Color id="BLUE">1,200%</Color> speed, offers <Color id="RED">256</Color> parallels, supports <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> for serious overclocking, and has unlimited tier skips. The <Color id="GREEN">EnF</Color> replaces the Mega Vacuum Freezer That means it can run any recipe regardless of voltage tier as long as there is enough power. The speed slowly increases up to 1.5x during activity and decreases back to   1.0x while idle. Optionally, enable cryotheum cooling in the GUI of the controller to 5x the rate at which the speed modifier increases at the cost of 250-375 L/s of gelid cryotheum. Upgrade the structure with infinity cooled casings to unlock subspace cooling, which further multiplies both the speed of the machine and consumption rate of gelid cryotheum at the cost of exotic coolants. The EnF only outperforms the Cryogenic Freezer <ItemImage id="gregtech:gt.blockmachines:15565"/> if it can take full advantage of its 256 parallels (4+ overclocks) or use subspace cooling. It is also worth noting that the [Cryogenic Freezer](../reworks/cryogenic_freezer.md) has been buffed to accommodate these new changes with double the parallels (8->16), and higher speed (220%->300%) 
+<Color id="GREEN">흡열 냉동기(EnF)</Color>는 뜨거운 주괴와 유체를 대량으로 냉각하기 위한 ZPM 티어 멀티블록입니다. <Color id="GREEN">ENF</Color>는 <ItemLink id="gregtech:gt.blockmachines:1002"/><ItemImage id="gregtech:gt.blockmachines:1002"/>에서 직접 업그레이드한 기계입니다. 최대 <Color id="BLUE">1,200%</Color> 속도로 작동하고, <Color id="RED">256</Color> 병렬 처리를 제공하며, 강력한 오버클럭을 위한 <Color id="GREEN">다중 앰프 및 레이저 에너지 해치</Color>를 지원하고, 무제한 티어 스킵이 가능하기 때문입니다. <Color id="GREEN">EnF</Color>는 메가 진공 냉동기를 대체합니다. 즉, 충분한 전력만 있다면 전압 티어에 관계없이 모든 레시피를 실행할 수 있습니다. 속도는 작동 중 천천히 최대 1.5배까지 증가하고, 유휴 상태에서는 다시 1.0배로 감소합니다. 선택적으로, 컨트롤러 GUI에서 크라이오테움 냉각을 활성화하면 젤리드 크라이오테움 250-375 L/s를 소비하는 대가로 속도 계수가 증가하는 비율이 5배가 됩니다. 인피니티 냉각 케이싱으로 구조를 업그레이드하면 아공간 냉각이 해금되며, 이는 엑조틱 냉각재를 대가로 기계 속도와 젤리드 크라이오테움 소비율을 모두 추가로 배가합니다. EnF는 256 병렬 처리(4회 이상 오버클럭)를 최대한 활용하거나 아공간 냉각을 사용할 수 있을 때만 극저온 냉동기 <ItemImage id="gregtech:gt.blockmachines:15565"/>보다 더 뛰어난 성능을 발휘합니다. 또한 [극저온 냉동기](../reworks/cryogenic_freezer.md)는 이러한 새로운 변경 사항에 맞춰 병렬 처리량이 두 배(8->16)로, 속도가 더 높게(220%->300%) 상향되었다는 점도 주목할 만합니다.
 
 <br clear="all"/>
 
-## Construction:
-The <Color id="GREEN">EnF</Color> is available in two tiers but the only structural difference between them is the infinity cooled casings <ItemImage id="gregtech:gt.blockcasings8:14"/> added to the T2 structure. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any fridge casing anywhere on the structure. <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> are supported for serious overclocking regardless of glass tier. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and the number of projectors held in a single stack to specify the tier of the machine.
+## 건설:
+<Color id="GREEN">EnF</Color>는 두 티어로 제공되지만, 두 구조의 유일한 차이는 T2 구조에 추가되는 인피니티 냉각 케이싱 <ItemImage id="gregtech:gt.blockcasings8:14"/>입니다. 유리는 아무 티어나 사용할 수 있으며 기계 작동에 영향을 주지 않습니다. 버스/해치는 구조 어디에서든 아무 냉동기 케이싱을 대체할 수 있습니다. 유리 티어에 관계없이 강력한 오버클럭을 위한 <Color id="GREEN">다중 앰프 및 레이저 에너지 해치</Color>가 지원됩니다. 구조를 시각화/건설하려면 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>를 사용하십시오. 하위 채널 "glass"로 유리 티어를 지정하고, 한 스택에 든 프로젝터 수로 기계 티어를 지정합니다.
 
-The 208 infinity cooled casings require 255k (L) infinity, 240k (L) spacetime, and 59.9k (L) hypogen to build. It is recommended to wait until hypogen is craftable in the Dimensionally Transcendent Plasma Forge <ItemImage id="gregtech:gt.blockmachines:1004"/> instead of relying on the Mk-IV Fusion Reactor recipe.
-### T1 Requires:
+208개의 인피니티 냉각 케이싱을 건설하려면 인피니티 255k (L), 시공간 240k (L), 하이포젠 59.9k (L)가 필요합니다. Mk-IV 핵융합 원자로 레시피에 의존하기보다는 차원 초월 플라즈마 단조기 <ItemImage id="gregtech:gt.blockmachines:1004"/>에서 하이포젠을 제작할 수 있을 때까지 기다리는 것이 권장됩니다.
+### T1 요구 사항:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15518"/><ItemImage id="gregtech:gt.blockmachines:15518"/>
 - 750-773 <ItemLink id="gregtech:gt.blockcasings14:4"/><ItemImage id="gregtech:gt.blockcasings14:4"/>
 - 351 <ItemLink id="gregtech:gt.blockcasings2:1"/><ItemImage id="gregtech:gt.blockcasings2:1"/>
@@ -34,15 +34,15 @@ The 208 infinity cooled casings require 255k (L) infinity, 240k (L) spacetime, a
 - 135 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
 - 51 <ItemLink id="gregtech:gt.blockcasings10:9"/><ItemImage id="gregtech:gt.blockcasings10:9"/>
 - 40 <ItemLink id="gregtech:gt.sheetmetal:390"/><ItemImage id="gregtech:gt.sheetmetal:390"/>
-- 18 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 1+ Energy Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
-- 1 Maintenance Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:90"/>
-- 0+ Input Bus (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Input Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
-- 0+ Output Bus (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:80"/>
-- 0+ Output Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:60"/>
+- 18 티어 유리 (아무 종류) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 1+ 에너지 해치 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:40"/>
+- 1 유지보수 해치 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:90"/>
+- 0+ 입력 버스 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ 입력 해치 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ 출력 버스 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:80"/>
+- 0+ 출력 해치 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:60"/>
 
-### T2 Requires:
+### T2 요구 사항:
 
 - 1 <ItemLink id="gregtech:gt.blockmachines:15518"/><ItemImage id="gregtech:gt.blockmachines:15518"/>
 - 750-773 <ItemLink id="gregtech:gt.blockcasings14:4"/><ItemImage id="gregtech:gt.blockcasings14:4"/>
@@ -54,32 +54,32 @@ The 208 infinity cooled casings require 255k (L) infinity, 240k (L) spacetime, a
 - 135 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
 - 51 <ItemLink id="gregtech:gt.blockcasings10:9"/><ItemImage id="gregtech:gt.blockcasings10:9"/>
 - 40 <ItemLink id="gregtech:gt.sheetmetal:390"/><ItemImage id="gregtech:gt.sheetmetal:390"/>
-- 18 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
-- 1+ Energy Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
-- 1 Maintenance Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:90"/>
-- 0+ Input Bus (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Input Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
-- 0+ Output Bus (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:80"/>
-- 0+ Output Hatch (any fridge casing) <ItemImage id="gregtech:gt.blockmachines:60"/>
+- 18 티어 유리 (아무 종류) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 1+ 에너지 해치 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:40"/>
+- 1 유지보수 해치 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:90"/>
+- 0+ 입력 버스 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ 입력 해치 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ 출력 버스 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:80"/>
+- 0+ 출력 해치 (아무 냉동기 케이싱) <ItemImage id="gregtech:gt.blockmachines:60"/>
 
-### Wallsharing:
-<Color id="GREEN">EnFs</Color> may wallshare each of their sides to save on casings and buses/hatches. That does NOT include any of the infinity cooled casings. 
+### 벽 공유:
+<Color id="GREEN">EnF들</Color>은 케이싱과 버스/해치를 절약하기 위해 각 면을 벽 공유할 수 있습니다. 단, 인피니티 냉각 케이싱은 여기에 포함되지 않습니다.
 
-## Usage:
-The <Color id="GREEN">EnF</Color> is a direct upgrade from the Vacuum Freezer because it runs up to 1,200% speed, offers 256 parallels, supports multi-amp and laser energy hatches for serious overclocking, and has unlimited tier skips. That means it can run any recipe regardless of voltage tier as long as there is enough power. For example, a ZPM 256A laser energy hatch can run UIV recipes.
+## 사용법:
+<Color id="GREEN">EnF</Color>는 최대 1,200% 속도로 작동하고, 256 병렬 처리를 제공하며, 강력한 오버클럭을 위한 다중 앰프 및 레이저 에너지 해치를 지원하고, 무제한 티어 스킵이 가능하므로 진공 냉동기에서 직접 업그레이드한 기계입니다. 즉, 충분한 전력만 있다면 전압 티어에 관계없이 모든 레시피를 실행할 수 있습니다. 예를 들어, ZPM 256A 레이저 에너지 해치는 UIV 레시피를 실행할 수 있습니다.
 
-The speed modifier of the <Color id="GREEN">EnF</Color> increases up to 1.5x during activity and decreases back down to 1.0x while idle, as seen below. It takes 5 minutes of continuous activity to achieve the maximum speed modifier but only 20 seconds to lose it all. Optionally, enable cryotheum cooling in the GUI of the controller to 5x the rate at which the speed modifier increases at the cost of 250-375 L/s gelid cryotheum. The consumption rate scales linearly with the speed modifier, but it allows the <Color id="GREEN">EnF</Color> to achieve the maximum 1.5x speed modifier in just 1 minute instead. Running out of gelid cryotheum while cryotheum cooling is enabled causes the machine to immediately shutdown and void the current recipe.
+<Color id="GREEN">EnF</Color>의 속도 계수는 아래에서 볼 수 있듯이 작동 중 최대 1.5배까지 증가하고, 유휴 상태에서는 다시 1.0배로 감소합니다. 최대 속도 계수에 도달하려면 5분 동안 연속으로 작동해야 하지만, 이를 모두 잃는 데는 20초밖에 걸리지 않습니다. 선택적으로, 컨트롤러 GUI에서 크라이오테움 냉각을 활성화하면 젤리드 크라이오테움 250-375 L/s를 소비하는 대가로 속도 계수가 증가하는 비율을 5배로 만들 수 있습니다. 소비율은 속도 계수에 선형으로 비례하지만, 대신 <Color id="GREEN">EnF</Color>가 단 1분 만에 최대 1.5배 속도 계수에 도달할 수 있게 해줍니다. 크라이오테움 냉각이 활성화된 상태에서 젤리드 크라이오테움이 바닥나면 기계가 즉시 정지하고 현재 레시피를 소멸시킵니다.
 
-- +0.00833 speed modifier per 5 seconds while active (cryotheum cooling disabled), 5 minutes to max
-- +0.04167 speed modifier per 5 seconds while active (cryotheum cooling enabled) 1 minute to max
-- -0.025 speed modifier per second while idle, 20 seconds to min
+- 작동 중 5초당 속도 계수 +0.00833 (크라이오테움 냉각 비활성화), 최대까지 5분
+- 작동 중 5초당 속도 계수 +0.04167 (크라이오테움 냉각 활성화), 최대까지 1분
+- 유휴 상태에서 초당 속도 계수 -0.025, 최소까지 20초
 
-## Subspace Cooling
-Upgrade the <Color id="GREEN">EnF</Color> structure with infinity cooled casings to unlock subspace cooling, which instantly multiplies the speed of the machine at the cost of exotic coolants. If cryotheum cooling is enabled, the speed boost also applies to the consumption rate of gelid cryotheum. Note that this stacks multiplicatively with the 1.5x speed modifier from earlier to reach up to 1,200% speed. The time to max is still 5 minutes without cryotheum cooling and 1 minute with cryotheum cooling because these speed boosts are applied immediately. The exotic coolants do not stack and running out after supplying them causes the machine to immediately shutdown and void the current recipe. 
+## 아공간 냉각
+인피니티 냉각 케이싱으로 <Color id="GREEN">EnF</Color> 구조를 업그레이드하면 아공간 냉각이 해금되며, 이는 엑조틱 냉각재를 대가로 기계 속도를 즉시 배가합니다. 크라이오테움 냉각이 활성화된 경우, 속도 증가는 젤리드 크라이오테움 소비율에도 적용됩니다. 이것은 앞서 설명한 1.5배 속도 계수와 곱연산으로 중첩되어 최대 1,200% 속도에 도달한다는 점에 유의하십시오. 이 속도 증가는 즉시 적용되므로 최대 도달 시간은 크라이오테움 냉각 없이 5분, 크라이오테움 냉각 사용 시 1분으로 동일합니다. 엑조틱 냉각재는 중첩되지 않으며, 공급한 뒤 바닥나면 기계가 즉시 정지하고 현재 레시피를 소멸시킵니다.
 
-| Exotic Coolant | Input Rate | Speed Boost | Max Speed | Gelid Cryotheum |
+| 엑조틱 냉각재 | 입력 속도 | 속도 증가 | 최대 속도 | 젤리드 크라이오테움 |
 | --------------- | --------------- | --------------- | --------------- | --------------- |
-| None | 0 L/s | 1.0x | 150% | 250 - 375 L/s |
-| Molten Infinity | 20 L/s | 2.0x | 300% | 500 - 750 L/s |
-| Molten Spacetime | 20 L/s | 4.0x | 600% | 1,000 - 1,500 L/s |
-| Molten Eternity | 20 L/s | 8.0x | 1,200% | 1,500 - 3,000 L/s |
+| 없음 | 0 L/s | 1.0x | 150% | 250 - 375 L/s |
+| 용융 인피니티 | 20 L/s | 2.0x | 300% | 500 - 750 L/s |
+| 용융 시공간 | 20 L/s | 4.0x | 600% | 1,000 - 1,500 L/s |
+| 용융 이터니티 | 20 L/s | 8.0x | 1,200% | 1,500 - 3,000 L/s |

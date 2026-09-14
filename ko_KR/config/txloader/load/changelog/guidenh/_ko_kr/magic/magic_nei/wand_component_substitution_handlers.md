@@ -1,15 +1,15 @@
 ---
 navigation:
-  title: Wand Component Substitution Handlers
+  title: 마법봉 구성 요소 대체 핸들러
   parent: magic_nei.md
   icon: Thaumcraft:WandRod
 categories:
-    - Magic NEI
+    - 마법 NEI
 author: koolkrafter5
 date: 2026-06-09
 ---
 
-The <Color id="BLUE">Wand Component Substitution</Color> recipes added by <Color id="BLUE">Salis Arcana</Color> in 2.8 now have NEI integration! Searching for uses of a <Color id="GREEN">wand, scepter, or staff</Color> will show all possible recipes to change its <Color id="GREEN">core and caps</Color>. Searching for uses of a wand core or cap will show substitution recipes with example wands:
+<Color id="BLUE">마법봉 구성 요소 대체</Color> 레시피는 <Color id="BLUE">Salis Arcana</Color>가 2.8에서 추가했으며, 이제 NEI 연동을 지원합니다! <Color id="GREEN">마법봉, 셉터, 지팡이</Color>의 사용처를 검색하면 해당 도구의 <Color id="GREEN">코어와 캡</Color>을 변경할 수 있는 모든 레시피가 표시됩니다. 마법봉 코어나 캡의 사용처를 검색하면 예시 마법봉과 함께 대체 레시피가 표시됩니다:
 
 <RecipesUsage id="Thaumcraft:WandRod" handlerId="salisarcana.substitution.core"/>
 <RecipesUsage id="Thaumcraft:WandRod:50" handlerId="salisarcana.substitution.core"/>

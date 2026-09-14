@@ -1,235 +1,237 @@
 ---
 navigation:
-  title: "Multiblock Machines"
+  title: "다중 블록 기계"
   icon: structurelib:item.structurelib.constructableTrigger
   parent: /index.md
   position: 9
 categories:
-  - Machines
+  - 기계
 ---
 
-# Multiblock Machines
+# 다중 블록 기계
 
-**Multiblock machines** are machines built from multiple blocks. Their size ranges from compact <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />s to enormous <ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />s. GregTech multiblocks always have a **controller block**, usually serve a specific purpose, and are always faster or more efficient than the corresponding [singleblock machine](../singleblock/singleblock-index.md), if one exists. Unlike [singleblock machines](../singleblock/singleblock-index.md), which can only [overclock](../tierskipping-overcloking-parallels/overclocking.md), multiblocks can also use **[tier skipping](../tierskipping-overcloking-parallels/tierskipping.md)** and **[parallels](../tierskipping-overcloking-parallels/parallels.md)**.
+**다중 블록 기계**는 여러 블록으로 건설하는 기계입니다. 크기는 소형 <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />부터 거대한 <ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />까지 다양합니다. GregTech 다중 블록에는 항상 **컨트롤러 블록**이 있으며, 일반적으로 특정 목적을 수행하고, 대응하는 [단일 블록 기계](../singleblock/singleblock-index.md)가 존재한다면 항상 해당 기계보다 빠르거나 효율적입니다. [단일 블록 기계](../singleblock/singleblock-index.md)는 [오버클록](../tierskipping-overcloking-parallels/overclocking.md)만 할 수 있지만, 다중 블록은 **[티어 스킵](../tierskipping-overcloking-parallels/tierskipping.md)**과 **[병렬 처리](../tierskipping-overcloking-parallels/parallels.md)**도 사용할 수 있습니다.
 
-Although most multiblocks have unique casings and structures, their item, fluid, and power I/O is almost universal through **functional hatches**. You can use <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and quickly build multiblock structures.
+대부분의 다중 블록은 고유한 외장과 구조를 갖지만, 아이템·유체·전력의 입출력은 **기능성 해치**를 통해 거의 보편적으로 처리합니다. <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />를 사용하면 다중 블록 구조를 미리 보고 빠르게 건설할 수 있습니다.
 
-# Categories
+# 분류
 
-## Steam Machines
+## 증기 기계
 
-There are only seven steam multiblocks:
+증기 다중 블록은 다음 일곱 개뿐입니다.
 <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31080" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" />,
-<ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" />, and
-<ItemLink id="gregtech:gt.blockmachines:31086" showIcon="left" />.
-They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleblocks cannot.
+<ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" />, 및
+<ItemLink id="gregtech:gt.blockmachines:31086" showIcon="left" />입니다.
+증기 단일 블록으로는 실행할 수 없는 원심분리기, 혼합기, 광석 세척 플랜트 레시피를 실행할 수 있습니다.
 
-- Use **Steam Hatches** to accept steam, with 64,000 L of buffer per hatch.
-- Do not require maintenance.
-- Run steam recipes at a fixed 125% speed and 62.5% steam cost.
-- Have a fixed maximum of 8 parallels.
+- **증기 해치**를 사용하여 증기를 받으며, 해치 하나당 64,000 L의 버퍼를 가집니다.
+- 유지보수가 필요하지 않습니다.
+- 증기 레시피를 고정된 125% 속도와 62.5% 증기 비용으로 실행합니다.
+- 병렬 처리 최대치가 8로 고정되어 있습니다.
 
-## Electric Machines
+## 전기 기계
 
-Electric multiblocks come in many forms and use **Energy Hatches** to receive power. They require maintenance, but you can upgrade them by replacing their Energy Hatches with higher-tier ones.
+전기 다중 블록은 여러 형태로 존재하며 **에너지 해치**를 사용하여 전력을 받습니다. 유지보수가 필요하지만, 에너지 해치를 더 높은 티어의 해치로 교체하여 업그레이드할 수 있습니다.
 
-# Structure
+# 구조
 
-## Controller Block
+## 컨트롤러 블록
 
-GregTech multiblocks always have a controller block, and the front face of the controller determines the orientation of the whole structure.
+GregTech 다중 블록에는 항상 컨트롤러 블록이 있으며, 컨트롤러의 전면이 전체 구조의 방향을 결정합니다.
 
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>Right-click</kbd> the front face -> rotate the structure.
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>Right-click</kbd> another face (using the GT 3x3 wrench rules) -> change the controller facing.
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> <kbd>Shift</kbd> + <kbd>Right-click</kbd> -> mirror the structure.
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>우클릭</kbd>으로 전면을 클릭 -> 구조를 회전합니다.
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>우클릭</kbd>으로 다른 면을 클릭(GT 3x3 렌치 규칙 사용) -> 컨트롤러의 방향을 변경합니다.
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> <kbd>Shift</kbd> + <kbd>우클릭</kbd> -> 구조를 반전합니다.
 
-Some controllers can face up or down. A few machines, such as <ItemLink id="gregtech:gt.blockmachines:1126" showIcon="left" />, can only face horizontally.
+일부 컨트롤러는 위나 아래를 향할 수 있습니다. <ItemLink id="gregtech:gt.blockmachines:1126" showIcon="left" />과 같은 일부 기계는 수평 방향으로만 향할 수 있습니다.
 
-## Previewing and Building
+## 미리 보기 및 건설
 
-Use <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />:
+<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />를 사용합니다.
 
-- <kbd>Right-click</kbd> the controller -> preview the hologram.
-- <kbd>Shift</kbd> + hold <kbd>Right-click</kbd> on the controller -> automatically place matching blocks from your inventory.
-- <kbd>Right-click</kbd> in the air -> configure the subchannel.
+- <kbd>우클릭</kbd>으로 컨트롤러를 클릭 -> 홀로그램을 미리 봅니다.
+- 컨트롤러에 <kbd>Shift</kbd> + <kbd>우클릭</kbd>을 누른 채로 클릭 -> 인벤토리에서 일치하는 블록을 자동으로 배치합니다.
+- 공중에서 <kbd>우클릭</kbd> -> 하위 채널을 설정합니다.
 
-## Hatches
+## 해치
 
-Most multiblocks use common functional hatches for I/O. Hatches come in tiers (ULV to UHV+), and each tier provides different capacity or throughput.
+대부분의 다중 블록은 입출력에 일반적인 기능성 해치를 사용합니다. 해치는 ULV부터 UHV+까지 티어별로 존재하며, 각 티어는 서로 다른 용량 또는 처리량을 제공합니다.
 
-| Hatch Type | Purpose |
+| 해치 종류 | 용도 |
 |------------|---------|
-| Input Bus / Output Bus | Items |
-| Input Hatch / Output Hatch | Fluids |
-| Energy Hatch / Dynamo Hatch | Power |
-| Steam Hatch | Steam (steam multiblocks only) |
-| Maintenance Hatch | Fix maintenance problems |
-| Muffler Hatch | Vent pollution |
+| 입력 버스 / 출력 버스 | 아이템 |
+| 입력 해치 / 출력 해치 | 유체 |
+| 에너지 해치 / 발전기 해치 | 전력 |
+| 증기 해치 | 증기(증기 다중 블록 전용) |
+| 유지보수 해치 | 유지보수 문제 해결 |
+| 머플러 해치 | 오염물 배출 |
 
-As long as the structure still meets its minimum casing count, you can usually place as many hatches as you want, though Maintenance Hatches are usually limited to one. Cheap hatches can often replace expensive structure blocks.
+구조가 여전히 최소 외장 개수를 충족하는 한, 일반적으로 원하는 만큼 해치를 배치할 수 있지만 유지보수 해치는 보통 하나로 제한됩니다. 저렴한 해치는 비싼 구조 블록을 대신할 수 있는 경우가 많습니다.
 
-## Sharing
+## 공유
 
-GregTech multiblocks generally allow **wallsharing**: two machines can share structure blocks and hatches on the same wall.
+GregTech 다중 블록은 일반적으로 **벽 공유**를 허용하므로, 두 기계가 같은 벽의 구조 블록과 해치를 공유할 수 있습니다.
 
-- **Maintenance Hatches**, **Input Buses**, **Input Hatches**, and **Muffler Hatches** can be shared.
-- Be careful when sharing **Output Buses** or **Output Hatches**, because overflow can void outputs.
-- Be careful when sharing **Energy Hatches** as well: usually one Energy Hatch should not be shared by more than two machines, and Energy Hatches used for dual-hatch tier skipping should not be shared.
+- **유지보수 해치**, **입력 버스**, **입력 해치**, **머플러 해치**는 공유할 수 있습니다.
+- **출력 버스** 또는 **출력 해치**를 공유할 때는 초과분으로 인해 출력물이 소실될 수 있으므로 주의하십시오.
+- **에너지 해치**를 공유할 때도 주의하십시오. 일반적으로 에너지 해치 하나를 두 기계보다 많은 기계가 공유해서는 안 되며, 이중 해치 티어 스킵에 사용하는 에너지 해치는 공유해서는 안 됩니다.
 
-## Structure Checks
+## 구조 검사
 
-Multiblocks do not continuously re-check whether their structure is complete:
+다중 블록은 구조가 완성되었는지 지속적으로 다시 검사하지 않습니다.
 
-- When the controller is first placed -> the structure is checked after 100 ticks.
-- When a nearby block updates -> a 50-tick countdown starts, and each new update resets that countdown.
-- When you press the "Update Structure Check" button in the GUI -> the structure is checked after 1 tick.
+- 컨트롤러를 처음 배치할 때 -> 100틱 후 구조를 검사합니다.
+- 주변 블록이 업데이트될 때 -> 50틱 카운트다운이 시작되며, 새로운 업데이트가 발생할 때마다 카운트다운이 초기화됩니다.
+- GUI에서 "구조 검사 업데이트" 버튼을 누를 때 -> 1틱 후 구조를 검사합니다.
 
-Breaking and restoring the structure inside that delay window enables **hot-swapping**. A Matter Manipulator (MK I or above) can finish such hot-swaps within 1 tick.
+해당 지연 시간 안에 구조를 부수고 복구하면 **핫스왑**이 가능합니다. 물질 조작기(MK I 이상)를 사용하면 이러한 핫스왑을 1틱 안에 완료할 수 있습니다.
 
-# Graphical User Interface
+# 그래픽 사용자 인터페이스
 
-<kbd>Right-click</kbd> the controller block to open the GUI. Most machines use the standard GregTech GUI. Some late-game machines from ZPM onward use the TecTech-style GUI.
+<kbd>우클릭</kbd>으로 컨트롤러 블록을 클릭하여 GUI를 엽니다. 대부분의 기계는 표준 GregTech GUI를 사용합니다. ZPM 이후의 일부 후반 기계는 TecTech 스타일 GUI를 사용합니다.
 
-## GregTech-Style GUI
+## GregTech 스타일 GUI
 
-The right-side buttons provide the core toggles:
+오른쪽 버튼은 주요 전환 기능을 제공합니다.
 
-| Button | Function |
+| 버튼 | 기능 |
 |--------|----------|
-| Power panel | Opens parallel configuration and powerfail event settings |
-| Update structure check | Forces a structure check |
-| Power switch | Turns the machine on or off; if turned off, the current recipe is allowed to finish |
+| 전력 패널 | 병렬 처리 설정 및 전력 부족 이벤트 설정을 엽니다 |
+| 구조 검사 업데이트 | 구조 검사를 강제로 실행합니다 |
+| 전원 스위치 | 기계를 켜거나 끕니다. 끈 경우 현재 레시피는 완료할 수 있습니다 |
 
-The middle-left area provides at least four configuration toggles, though not every machine allows all of them:
+가운데 왼쪽 영역에는 최소 네 개의 설정 전환 기능이 있으며, 모든 기계가 이를 전부 지원하는 것은 아닙니다.
 
-- **Void Mode**: void nothing / items only / fluids only / both.
-- **Input Separation**: prevents items from different Input Buses from being used in the same recipe.
-- **Batch Mode**: combines repeated copies of the same recipe to reduce recipe checks and TPS cost.
-- **Lock Recipe**: prevents the machine from running other recipes.
+- **소실 모드**: 아무것도 소실하지 않음 / 아이템만 / 유체만 / 둘 다.
+- **입력 분리**: 서로 다른 입력 버스의 아이템이 같은 레시피에 사용되지 않도록 합니다.
+- **배치 모드**: 같은 레시피를 반복해서 실행하는 작업을 합쳐 레시피 검사와 TPS 비용을 줄입니다.
+- **레시피 잠금**: 기계가 다른 레시피를 실행하지 못하도록 합니다.
 
-Tool shortcuts (<kbd>Right-click</kbd> the controller, consumes durability):
+도구 단축키(<kbd>우클릭</kbd>으로 컨트롤러를 클릭하며 내구도를 소모합니다):
 
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> -> rotate the structure.
-- <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> -> toggle input separation / switch some machine modes.
-- <ItemLink id="gregtech:gt.metatool.01:26" showIcon="left" /> -> toggle batch mode.
-- <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" /> -> power on/off.
-- <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" /> -> mute/unmute.
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> -> 구조를 회전합니다.
+- <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> -> 입력 분리를 전환하거나 일부 기계 모드를 변경합니다.
+- <ItemLink id="gregtech:gt.metatool.01:26" showIcon="left" /> -> 배치 모드를 전환합니다.
+- <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" /> -> 전원을 켜거나 끕니다.
+- <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" /> -> 음소거하거나 음소거를 해제합니다.
 
-## TecTech-Style GUI
+## TecTech 스타일 GUI
 
-Only a few ZPM-and-later machines use it, such as <ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15311" showIcon="left" />, and <ItemLink id="gregtech:gt.blockmachines:14003" showIcon="left" />.
+<ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15311" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:14003" showIcon="left" />과 같은 소수의 ZPM 이후 기계만 사용합니다.
 
-Its defining feature is the indicator light system:
-- Flashing blue: parameter too low.
-- Green: normal.
-- Flashing orange: parameter too high.
-- The light for a key parameter can usually be left-clicked to change the setting.
+가장 큰 특징은 표시등 시스템입니다.
 
-TecTech machines **always void on overflow**, so the safe-void button has no practical effect. Parameter storage cards can copy the settings from one TecTech machine to another.
+- 파란색 점멸: 매개변수가 너무 낮습니다.
+- 녹색: 정상입니다.
+- 주황색 점멸: 매개변수가 너무 높습니다.
+- 주요 매개변수의 표시등은 보통 좌클릭하여 설정을 변경할 수 있습니다.
 
-# Maintenance
+TecTech 기계는 **항상 초과분을 소실**하므로 안전 소실 버튼은 실질적인 효과가 없습니다. 매개변수 저장 카드를 사용하면 한 TecTech 기계의 설정을 다른 TecTech 기계로 복사할 수 있습니다.
 
-## Maintenance Problems
+# 유지보수
 
-Only multiblocks whose structure requires <ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" /> need maintenance. When the controller is placed, all six maintenance problems are present by default and must be fixed before the machine can run.
+## 유지보수 문제
 
-| Problem | Tool |
+구조에 <ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" />가 필요한 다중 블록만 유지보수가 필요합니다. 컨트롤러를 배치하면 기본적으로 6가지 유지보수 문제가 모두 발생하며, 기계를 작동하기 전에 해결해야 합니다.
+
+| 문제 | 도구 |
 |---------|------|
-| "A pipe is loose." | Wrench |
-| "Some screws are loose." | Screwdriver |
-| "Something is stuck." | Soft Mallet |
-| "Plates are bent." | Hard Hammer |
-| "Something does not belong here." | Crowbar |
-| "The circuit has shorted." | Soldering Iron (costs 10k EU + 1 soldering material) |
+| "파이프가 느슨합니다." | 렌치 |
+| "나사가 일부 느슨합니다." | 드라이버 |
+| "무언가가 끼어 있습니다." | 부드러운 망치 |
+| "판이 휘어 있습니다." | 단단한 망치 |
+| "무언가가 여기에 속하지 않습니다." | 지렛대 |
+| "회로가 단락되었습니다." | 납땜 인두(10k EU + 납땜 재료 1개 소모) |
 
-**How they appear**: every 1000 ticks of continuous runtime, there is a 1/6000 chance to generate one random maintenance problem. On average, that is about one problem every 83.3 hours.
+**발생 방식**: 연속 작동 1000틱마다 무작위 유지보수 문제가 하나 발생할 확률이 1/6000입니다. 평균적으로 약 83.3시간마다 문제 하나가 발생합니다.
 
-**Penalty**: each maintenance problem increases power usage by 10%. If all six are present, the machine shuts down. Some machines have special penalties, such as <ItemLink id="gregtech:gt.blockmachines:32013" showIcon="left" />, which immediately drops its kinetic energy to zero when a maintenance problem appears.
+**불이익**: 유지보수 문제 하나마다 전력 사용량이 10% 증가합니다. 6가지 문제가 모두 발생하면 기계가 정지합니다. <ItemLink id="gregtech:gt.blockmachines:32013" showIcon="left" />과 같은 일부 기계에는 특별한 불이익이 있어, 유지보수 문제가 발생하면 운동 에너지가 즉시 0이 됩니다.
 
-## Repair Methods
+## 수리 방법
 
-| Stage | Method |
+| 단계 | 방법 |
 |-------|--------|
-| LV | <kbd>Right-click</kbd> the Maintenance Hatch with a Toolbox containing all required tools and solder |
-| MV | Repair it with FAL-84 Reinforced Duct Tape |
-| HV | Wand Focus: Maintenance (consumes vis) |
-| IV | Drone Downlink Module plus Drone Centre for bulk management |
-| LuV | Auto Maintenance Hatch (consumes materials) |
-| UV | Debug Maintenance Hatch (free automatic maintenance) |
+| LV | 필요한 모든 도구와 납땜 재료가 들어 있는 도구 상자로 유지보수 해치를 <kbd>우클릭</kbd>합니다 |
+| MV | FAL-84 강화 덕트 테이프로 수리합니다 |
+| HV | 완드 포커스: 유지보수(vis 소모) |
+| IV | 대량 관리를 위한 드론 다운링크 모듈과 드론 센터 |
+| LuV | 자동 유지보수 해치(재료 소모) |
+| UV | 디버그 유지보수 해치(무료 자동 유지보수) |
 
-You can pre-maintain a Maintenance Hatch once. After the machine reads that state, it clears the hatch's active maintenance state and then stores one extra buffered maintenance state. Later, when a maintenance problem appears, the hatch automatically consumes one buffered maintenance state to fix it.
+유지보수 해치를 한 번 미리 유지보수할 수 있습니다. 기계가 해당 상태를 읽으면 해치의 활성 유지보수 상태를 지운 뒤, 추가 유지보수 상태 하나를 버퍼에 저장합니다. 이후 유지보수 문제가 발생하면 해치가 버퍼에 저장된 유지보수 상태 하나를 자동으로 소모하여 문제를 해결합니다.
 
-# Recipe Detection
+# 레시피 감지
 
-When a multiblock is powered on, it scans all of its hatches to look for a matching recipe. The key concept here is the **input group**: materials that are not in the same input group will never be combined into one recipe.
+다중 블록의 전원이 켜지면 모든 해치를 검사하여 일치하는 레시피를 찾습니다. 여기서 핵심 개념은 **입력 그룹**입니다. 같은 입력 그룹에 속하지 않는 재료는 하나의 레시피에 절대 함께 사용되지 않습니다.
 
-## Input Separation
+## 입력 분리
 
-When input separation is enabled, each Input Bus together with all Input Hatches and the controller's inventory slots forms an independent input group. This is very useful for preventing materials in different buses from accidentally mixing into an unintended recipe.
+입력 분리가 활성화되면 각 입력 버스가 모든 입력 해치 및 컨트롤러의 인벤토리 슬롯과 함께 독립적인 입력 그룹을 형성합니다. 이를 사용하면 서로 다른 버스의 재료가 의도하지 않은 레시피에 실수로 섞이는 것을 방지할 수 있습니다.
 
-## Recipe Priority
+## 레시피 우선순위
 
-Recipe checks across different input groups follow a controllable priority order.
-1. **Pattern input hatches/buses** (<ItemLink id="gregtech:gt.blockmachines:2715" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:2714" showIcon="left" />) take priority over normal hatches.
-2. Normal input hatches and buses that have been **painted**. Following the order shown in the <ItemLink id="gregtech:gt.metaitem.01:32468" showIcon="left" /> GUI, priority decreases from black to white.
-3. Input Buses take priority over Input Hatches.
-4. Physical position: front to back, top to bottom, left to right.
+서로 다른 입력 그룹에 대한 레시피 검사는 조정 가능한 우선순서에 따라 진행됩니다.
+
+1. **패턴 입력 해치/버스**(<ItemLink id="gregtech:gt.blockmachines:2715" showIcon="left" /> 및 <ItemLink id="gregtech:gt.blockmachines:2714" showIcon="left" />)가 일반 해치보다 우선합니다.
+2. **칠한** 일반 입력 해치와 버스가 그다음입니다. <ItemLink id="gregtech:gt.metaitem.01:32468" showIcon="left" /> GUI에 표시된 순서에 따라 검은색에서 흰색으로 갈수록 우선순위가 낮아집니다.
+3. 입력 버스가 입력 해치보다 우선합니다.
+4. 물리적 위치: 앞에서 뒤, 위에서 아래, 왼쪽에서 오른쪽 순입니다.
 
 > [!TIP]
-> Painting hatches is one way to control recipe execution order.
+> 해치를 칠하는 것은 레시피 실행 순서를 제어하는 방법 중 하나입니다.
 
-# Recipe Execution
+# 레시피 실행
 
-## Tier Skipping
+## 티어 스킵
 
-See **[Tier Skipping](../tierskipping-overcloking-parallels/tierskipping.md)**.
+**[티어 스킵](../tierskipping-overcloking-parallels/tierskipping.md)**을 참조하십시오.
 
-Using two Energy Hatches of the same tier to provide 4A lets the machine reach the nominal power expected by its voltage tier and run recipes one tier higher. This is called **dual-hatch tier skipping**. The first time you will likely use it is with <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />.
+같은 티어의 에너지 해치 두 개를 사용하여 4A를 공급하면 기계가 전압 티어에 맞는 명목 전력에 도달하여 한 티어 높은 레시피를 실행할 수 있습니다. 이를 **이중 해치 티어 스킵**이라고 합니다. 처음 사용하게 될 가능성이 높은 기계는 <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />입니다.
 
-From IV onward, some machines can no longer tier skip, such as <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />.
+IV부터는 <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />과 같이 더 이상 티어 스킵을 할 수 없는 기계도 있습니다.
 
-## Parallels
+## 병렬 처리
 
-See **[Parallels](../tierskipping-overcloking-parallels/parallels.md)**.
+**[병렬 처리](../tierskipping-overcloking-parallels/parallels.md)**를 참조하십시오.
 
-Parallels are the machine's ability to process multiple copies of the same recipe during the same time interval. [Singleblock machines](../singleblock/singleblock-index.md) cannot do this.
+병렬 처리는 같은 시간 동안 같은 레시피를 여러 번 처리할 수 있는 기계의 능력입니다. [단일 블록 기계](../singleblock/singleblock-index.md)는 이를 수행할 수 없습니다.
 
-In general, every $$4^n$$ of maximum parallels is roughly equivalent to $$n$$ perfect overclocks in practice. Parallels only apply to the same recipe.
+일반적으로 최대 병렬 처리 수가 $$4^n$$이면 실제로는 대략 $$n$$회의 완벽한 오버클록과 같습니다. 병렬 처리는 같은 레시피에만 적용됩니다.
 
-## Overclocking
+## 오버클록
 
-See **[Overclocking](../tierskipping-overcloking-parallels/overclocking.md)**.
+**[오버클록](../tierskipping-overcloking-parallels/overclocking.md)**을 참조하십시오.
 
-Besides standard 4/2 imperfect overclocks, some multiblocks also support 4/4 perfect overclocks, and some use special overclock rules. Multiblocks can also overclock past 1 tick (1tOC).
+표준 4/2 불완전 오버클록 외에도 일부 다중 블록은 4/4 완벽한 오버클록을 지원하며, 일부는 특수한 오버클록 규칙을 사용합니다. 다중 블록은 1틱(1tOC)을 초과하여 오버클록할 수도 있습니다.
 
-Calculation order: parallels first, then overclocks (perfect first, imperfect second).
+계산 순서는 병렬 처리 먼저, 그다음 오버클록이며 완벽한 오버클록이 불완전한 오버클록보다 먼저 적용됩니다.
 
-## Batch Mode
+## 배치 모드
 
-Batch mode combines repeated copies of the same recipe into one large recipe. It **does not provide a time discount and does not add parallels**. Its only purpose is to reduce recipe-check frequency and lower TPS cost.
+배치 모드는 같은 레시피의 반복 실행을 하나의 대형 레시피로 합칩니다. **시간 절약을 제공하지 않으며 병렬 처리를 추가하지도 않습니다**. 목적은 레시피 검사 빈도와 TPS 비용을 줄이는 것뿐입니다.
 
-When batch mode is enabled, the machine tries to stretch recipe duration to 128 ticks. This does not change output per unit time. Steam multiblocks cannot use batch mode.
+배치 모드가 활성화되면 기계는 레시피 지속 시간을 128틱으로 늘리려고 합니다. 이는 단위 시간당 출력을 변경하지 않습니다. 증기 다중 블록은 배치 모드를 사용할 수 없습니다.
 
-# Failures
+# 고장
 
-Unlike [singleblock machines](../singleblock/singleblock-index.md), when a multiblock fails it **fully aborts the recipe and does not return the inputs**.
+[단일 블록 기계](../singleblock/singleblock-index.md)와 달리 다중 블록이 고장 나면 **레시피를 완전히 중단하며 입력물을 반환하지 않습니다**.
 
-| Failure | Fix |
+| 고장 | 해결 방법 |
 |---------|-----|
-| "Structure is incomplete." | Check for missing structure blocks |
-| "Missing Muffler Hatch, Maintenance Hatch, or similar." | Add the required hatch |
-| "Shut down due to machine damage." | Fix all maintenance problems |
-| "Recipe requires more power." | Check the number of Energy Hatches and available amperage |
-| "Recipe requires higher voltage to start." | Check whether the voltage tier is high enough |
-| "Not enough room for item/fluid output." | Add more Output Buses or Output Hatches |
-| "Shut down due to lack of energy." | Check the power supply |
+| "구조가 불완전합니다." | 누락된 구조 블록이 있는지 확인합니다 |
+| "머플러 해치, 유지보수 해치 또는 유사한 해치가 없습니다." | 필요한 해치를 추가합니다 |
+| "기계 손상으로 인해 정지했습니다." | 모든 유지보수 문제를 해결합니다 |
+| "레시피에 더 많은 전력이 필요합니다." | 에너지 해치의 개수와 사용 가능한 전류량을 확인합니다 |
+| "레시피를 시작하려면 더 높은 전압이 필요합니다." | 전압 티어가 충분히 높은지 확인합니다 |
+| "아이템/유체 출력 공간이 부족합니다." | 출력 버스 또는 출력 해치를 추가합니다 |
+| "에너지 부족으로 인해 정지했습니다." | 전력 공급을 확인합니다 |
 
-When a failure happens, you can use `/powerfails clear` to remove powerfail warning icons in the dimension, or `/sp invite <playerID>` to share powerfail information.
+고장이 발생하면 `/powerfails clear`를 사용하여 해당 차원의 전력 부족 경고 아이콘을 제거하거나, `/sp invite <playerID>`를 사용하여 전력 부족 정보를 공유할 수 있습니다.
 
-# Explosions
+# 폭발
 
-As with [singleblock machines](../singleblock/singleblock-index.md#explosions), any **energized hatch with an internal EU buffer** on a multiblock can explode in rain or snow. Controller blocks, structure blocks, and hatches that do not buffer power will not explode in rain or snow. Overvolting an Energy Hatch can also cause an explosion.
+[단일 블록 기계](../singleblock/singleblock-index.md#explosions)와 마찬가지로, 다중 블록에 있는 **내부 EU 버퍼가 있는 전력이 공급된 해치**는 비나 눈 속에서 폭발할 수 있습니다. 컨트롤러 블록, 구조 블록, 전력을 버퍼링하지 않는 해치는 비나 눈 속에서 폭발하지 않습니다. 에너지 해치에 과전압을 가해도 폭발할 수 있습니다.

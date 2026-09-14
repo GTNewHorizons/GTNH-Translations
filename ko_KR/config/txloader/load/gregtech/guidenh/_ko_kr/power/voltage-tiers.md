@@ -1,33 +1,33 @@
 ---
 navigation:
-  title: "Voltage Tiers"
+  title: "전압 티어"
   icon: gregtech:gt.metaitem.01:32598
   parent: power-index.md
   position: -1
 ---
 
-# Voltage Tiers
+# 전압 티어
 
-GTNH divides progression into a series of voltage tiers. Advancing your voltage tier is one of the main ways the pack measures technological progress.
+GTNH에서는 진행도를 여러 전압 티어로 나눕니다. 전압 티어를 높이는 것은 이 팩에서 기술 발전을 측정하는 주요 방법 중 하나입니다.
 
-The table below shows the voltage range of each tier. The **standard voltage** is the upper bound of each tier. In most cases, every tier up multiplies standard voltage by 4. The standard voltage of a tier is usually $$2 \times 4^n \text{ V}$$, where $$n$$ is the **tier index**: ULV is 0, LV is 1, and so on.
+아래 표에는 각 티어의 전압 범위가 나와 있습니다. **표준 전압**은 각 티어의 상한입니다. 대부분의 경우 티어가 하나 올라갈 때마다 표준 전압이 4배가 됩니다. 티어의 표준 전압은 일반적으로 $$2 \times 4^n \text{ V}$$이며, 여기서 $$n$$은 **티어 인덱스**입니다. ULV는 0, LV는 1이며 이후에도 같은 방식으로 이어집니다.
 
-| Tier Index | Abbrev. | Full Name | Voltage Range (V) | Standard Voltage (V) |
+| 티어 인덱스 | 약어 | 전체 이름 | 전압 범위 (V) | 표준 전압 (V) |
 |------------|---------|-----------|-------------------|----------------------|
-| 0 | ULV | Ultra Low Voltage | 1-8 | 8 |
-| 1 | LV | Low Voltage | 9-32 | 32 |
-| 2 | MV | Medium Voltage | 33-128 | 128 |
-| 3 | HV | High Voltage | 129-512 | 512 |
-| 4 | EV | Extreme Voltage | 513-2,048 | 2,048 |
-| 5 | IV | Insane Voltage | 2,049-8,192 | 8,192 |
-| 6 | LuV | Ludicrous Voltage | 8,193-32,768 | 32,768 |
-| 7 | ZPM | Zero Point Module Voltage | 32,769-131,072 | 131,072 |
-| 8 | UV | Ultimate Voltage | 131,073-524,288 | 524,288 |
-| 9 | UHV | Highly Ultimate Voltage | 524,289-2,097,152 | 2,097,152 |
-| 10 | UEV | Extremely Ultimate Voltage | 2,097,153-8,388,608 | 8,388,608 |
-| 11 | UIV | Insanely Ultimate Voltage | 8,388,609-33,554,432 | 33,554,432 |
-| 12 | UMV | Mega Ultimate Voltage | 33,554,433-134,217,728 | 134,217,728 |
-| 13 | UXV | Extended Mega Ultimate Voltage | 134,217,729-536,870,912 | 536,870,912 |
-| 14 | MAX | Maximum Voltage | 536,870,913-2,147,483,640 | - |
+| 0 | ULV | 초저전압 | 1-8 | 8 |
+| 1 | LV | 저전압 | 9-32 | 32 |
+| 2 | MV | 중전압 | 33-128 | 128 |
+| 3 | HV | 고전압 | 129-512 | 512 |
+| 4 | EV | 극고전압 | 513-2,048 | 2,048 |
+| 5 | IV | 초고전압 | 2,049-8,192 | 8,192 |
+| 6 | LuV | 터무니없이 높은 전압 | 8,193-32,768 | 32,768 |
+| 7 | ZPM | 영점 모듈 전압 | 32,769-131,072 | 131,072 |
+| 8 | UV | 궁극 전압 | 131,073-524,288 | 524,288 |
+| 9 | UHV | 극도의 궁극 전압 | 524,289-2,097,152 | 2,097,152 |
+| 10 | UEV | 초극도의 궁극 전압 | 2,097,153-8,388,608 | 8,388,608 |
+| 11 | UIV | 터무니없이 높은 궁극 전압 | 8,388,609-33,554,432 | 33,554,432 |
+| 12 | UMV | 메가 궁극 전압 | 33,554,433-134,217,728 | 134,217,728 |
+| 13 | UXV | 확장 메가 궁극 전압 | 134,217,729-536,870,912 | 536,870,912 |
+| 14 | MAX | 최대 전압 | 536,870,913-2,147,483,640 | - |
 
-Tier index is often used in multiblock calculations such as coil heat and maximum parallels.
+티어 인덱스는 코일 열과 최대 병렬 처리 수 같은 멀티블록 계산에 자주 사용됩니다.

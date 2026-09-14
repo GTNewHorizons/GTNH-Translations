@@ -1,172 +1,163 @@
 ---
 navigation:
   parent: /tricks_example_index.md
-  title: Item/Fluid "Pipe" Subnet
+  title: 아이템/유체 "파이프" 서브넷
   icon: appliedenergistics2:item.ItemMultiPart:220
 ---
 
-# Item/Fluid "Pipe" Subnet
+# 아이템/유체 "파이프" 서브넷
 
-A simple method of emulating an item and/or fluid pipe with AE2 [devices](../ae2_mechanics/devices.md), useful for, well, anything you'd use an item or fluid pipe for.
-This includes returning the result of a craft to a <ItemLink id="appliedenergistics2:tile.BlockInterface" />.
+AE2 [장치](../ae2_mechanics/devices.md)를 사용하여 아이템 및 유체 파이프를 간단하게 구현하는 방법입니다. 아이템이나 유체 파이프를 사용할 만한 모든 상황에서 유용합니다.
+여기에는 조합 결과를 <ItemLink id="appliedenergistics2:tile.BlockInterface" />로 반환하는 것도 포함됩니다.
 
-There are generally two different methods of achieving this:
+일반적으로 이를 구현하는 방법은 두 가지입니다.
 
-## Import Bus -> Storage Bus
+## 임포트 버스 -> 저장 버스
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_storage_pipe.snbt" />
   <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
-    (1) Import Bus: Can be filtered.
+    (1) 임포트 버스: 필터를 설정할 수 있습니다.
   </BoxAnnotation>
   <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
-    (2) Storage Bus: Can be filtered. This (and other storage busses you want to be a destination)
-    must be the only storage on the network.
+    (2) 저장 버스: 필터를 설정할 수 있습니다. 이 저장 버스와 목적지로 사용하려는 다른 저장 버스는
+    네트워크에서 유일한 저장소여야 합니다.
   </BoxAnnotation>
   <DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
-    Source
+    원본
   </DiamondAnnotation>
   <DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
-    Destination
+    목적지
   </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-The <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (1) on the source inventory imports the items or fluid, and attempts to store them in [network storage](../ae2_mechanics/import_export_storage.md).
-Since the only storage on the network is the <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2) (which is why this is a subnet and not on your main network), the items or fluid
-are placed in the destination inventory, thus being transferred. Energy is provided through a <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" />.
-Both the import bus and storage bus can be filtered, but the setup will transfer everything it can access if no filters are applied.
-This setup also works with multiple import busses and multiple storage busses.
+원본 인벤토리에 연결된 <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (1)는 아이템이나 유체를 임포트한 후 [네트워크 저장소](../ae2_mechanics/import_export_storage.md)에 저장하려고 합니다.
+네트워크에서 유일한 저장소가 <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2)이므로(이것이 주 네트워크가 아닌 서브넷을 사용하는 이유입니다), 아이템이나 유체가 목적지 인벤토리에 들어가 전송됩니다. 에너지는 <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" />를 통해 공급됩니다.
+임포트 버스와 저장 버스 모두 필터를 설정할 수 있지만, 필터를 설정하지 않으면 접근할 수 있는 모든 것을 전송합니다.
+이 구성은 여러 개의 임포트 버스와 저장 버스에도 사용할 수 있습니다.
 
-## Storage Bus -> Export Bus
+## 저장 버스 -> 익스포트 버스
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/storage_export_pipe.snbt" />
   <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
-    (1) Storage Bus: Can be filtered. This (and other storage busses you want to be a source)
-    must be the only storage on the network.
+    (1) 저장 버스: 필터를 설정할 수 있습니다. 이 저장 버스와 원본으로 사용하려는 다른 저장 버스는
+    네트워크에서 유일한 저장소여야 합니다.
   </BoxAnnotation>
   <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
-    (2) Export Bus: Must be filtered.
+    (2) 익스포트 버스: 반드시 필터를 설정해야 합니다.
   </BoxAnnotation>
   <DiamondAnnotation pos="4.5 0.5 0.5" color="#00ff00">
-    Source
+    원본
   </DiamondAnnotation>
   <DiamondAnnotation pos="0.5 0.5 0.5" color="#00ff00">
-    Destination
+    목적지
   </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-The <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> on the destination inventory attempts to pull items in its filter from [network storage](../ae2_mechanics/import_export_storage.md).
-Since the only storage on the network is the <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (which is why this is a subnet and not on your main network), the items or fluid
-are pulled from the source inventory, thus being transferred. Energy is provided through a <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" />.
-Because export busses must be filtered to function, this setup only operates if you filter the export bus.
-This setup also works with multiple storage busses and multiple export busses.
+목적지 인벤토리에 연결된 <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />는 필터에 설정된 아이템을 [네트워크 저장소](../ae2_mechanics/import_export_storage.md)에서 가져오려고 합니다.
+네트워크에서 유일한 저장소가 <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />이므로(이것이 주 네트워크가 아닌 서브넷을 사용하는 이유입니다), 아이템이나 유체가 원본 인벤토리에서 가져와져 전송됩니다. 에너지는 <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" />를 통해 공급됩니다.
+익스포트 버스는 작동하려면 반드시 필터를 설정해야 하므로, 익스포트 버스에 필터를 설정해야만 이 구성이 작동합니다.
+이 구성은 여러 개의 저장 버스와 익스포트 버스에도 사용할 수 있습니다.
 
-## A Setup That Does Not Work (Import Bus -> Export Bus)
+## 작동하지 않는 구성 (임포트 버스 -> 익스포트 버스)
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_export_pipe.snbt" />
   <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dd3333" thickness="1">
-    Import Bus: Since the network has no storage, there is nowhere for it to import to.
+    임포트 버스: 네트워크에 저장소가 없으므로 임포트할 대상이 없습니다.
   </BoxAnnotation>
   <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dd3333" thickness="1">
-    (2) Export Bus: Since the network has no storage, there is nothing for it to export.
+    (2) 익스포트 버스: 네트워크에 저장소가 없으므로 익스포트할 것이 없습니다.
   </BoxAnnotation>
   <DiamondAnnotation pos="4.5 0.5 0.5" color="#ff0000">
-    Source
+    원본
   </DiamondAnnotation>
   <DiamondAnnotation pos="0.5 0.5 0.5" color="#ff0000">
-    Destination
+    목적지
   </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-A setup with just an import and export bus will not work. The import bus will attempt to pull from the source inventory
-and store the items or fluid in network storage. The export bus will attempt to pull from network storage and put the
-items or fluid in the destination inventory. However since this network **has no storage**, the import bus can't import
-and the export bus can't export, so nothing happens.
+임포트 버스와 익스포트 버스만으로 구성된 구성은 작동하지 않습니다. 임포트 버스는 원본 인벤토리에서 아이템이나 유체를 가져와 네트워크 저장소에 저장하려고 합니다. 익스포트 버스는 네트워크 저장소에서 아이템이나 유체를 가져와 목적지 인벤토리에 넣으려고 합니다. 그러나 이 네트워크에는 **저장소가 없으므로**, 임포트 버스는 임포트할 수 없고 익스포트 버스는 익스포트할 수 없어 아무 일도 일어나지 않습니다.
 
-## Inputting And Outputting Through 1 Face
+## 한 면을 통한 입력 및 출력
 
-Say you have some machine that can receive input and have its output pulled through 1 face. (Like a <ItemLink id="appliedenergistics2:tile.BlockCharger" />)
-You can both push in the ingredients and pull out the result, by combining the 2 pipe subnet methods:
+입력을 받을 수 있고 한 면을 통해 출력을 가져올 수 있는 기계가 있다고 가정해 보겠습니다. (<ItemLink id="appliedenergistics2:tile.BlockCharger" />와 같은 기계입니다.)
+두 가지 파이프 서브넷 방법을 결합하면 재료를 밀어 넣고 결과를 꺼낼 수 있습니다.
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/import_storage_export_pipe.snbt" />
   <BoxAnnotation min="4 1 1" max="5 1.3 2" color="#dddddd" thickness="1">
-    (1) Import Bus: Can be filtered.
+    (1) 임포트 버스: 필터를 설정할 수 있습니다.
   </BoxAnnotation>
   <BoxAnnotation min="2 1 1" max="3 1.3 2" color="#dddddd" thickness="1">
-    (2) Storage Bus: Can be filtered. This (and other storage busses you want to push and pull items)
-    must be the only storage on the network.
+    (2) 저장 버스: 필터를 설정할 수 있습니다. 이 저장 버스와 아이템을 밀어 넣고 꺼내려는 다른 저장 버스는
+    네트워크에서 유일한 저장소여야 합니다.
   </BoxAnnotation>
   <BoxAnnotation min="2 0 1" max="3 1 2" color="#dddddd" thickness="1">
-    (3) Thing You Want To Push To And Pull From: In this case a Charger.
+    (3) 아이템을 밀어 넣고 꺼내려는 대상: 여기서는 충전기입니다.
   </BoxAnnotation>
   <BoxAnnotation min="0 1 1" max="1 1.3 2" color="#dddddd" thickness="1">
-    (4) Export Bus: Must be filtered.
+    (4) 익스포트 버스: 반드시 필터를 설정해야 합니다.
   </BoxAnnotation>
   <DiamondAnnotation pos="4.5 0.5 1.5" color="#00ff00">
-    Source
+    원본
   </DiamondAnnotation>
   <DiamondAnnotation pos="0.5 0.5 1.5" color="#00ff00">
-    Destination
+    목적지
   </DiamondAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Interfaces
+## 인터페이스
 
-It turns out there are [devices](../ae2_mechanics/devices.md) besides import busses and export busses that push items into
-and pull items out of [network storage](../ae2_mechanics/import_export_storage.md)!
-Of relevance here is the <ItemLink id="appliedenergistics2:tile.BlockInterface" />. If an item is inserted that the interface is not set to stock, the interface will
-push it to network storage, which we can exploit similarly to the import bus -> storage bus pipe. Setting an interface to
-stock some item will pull it from network storage, similar to the storage bus -> export bus pipe. Interfaces can be set to
-stock some things and not stock others, allowing you to remotely push and pull through storage busses, if you for some reason want to do that.
+임포트 버스와 익스포트 버스 외에도 아이템을 [네트워크 저장소](../ae2_mechanics/import_export_storage.md)에 넣고 꺼낼 수 있는 [장치](../ae2_mechanics/devices.md)가 있습니다!
+여기서 중요한 것은 <ItemLink id="appliedenergistics2:tile.BlockInterface" />입니다. 인터페이스에 재고로 설정되지 않은 아이템이 삽입되면 인터페이스는 해당 아이템을 네트워크 저장소로 밀어 넣습니다. 이를 임포트 버스 -> 저장 버스 파이프와 비슷한 방식으로 활용할 수 있습니다. 인터페이스의 재고에 아이템을 설정하면 저장 버스 -> 익스포트 버스 파이프와 비슷하게 네트워크 저장소에서 해당 아이템을 가져옵니다. 인터페이스마다 재고로 설정할 것과 설정하지 않을 것을 지정할 수 있으므로, 어떤 이유로든 원한다면 저장 버스를 통해 원격으로 아이템을 넣고 꺼낼 수 있습니다.
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/interface_pipes.snbt" />
   <BoxAnnotation min="3.7 0 0" max="4 1 1" color="#dddddd" thickness="1">
-    Interface
+    인터페이스
   </BoxAnnotation>
   <BoxAnnotation min="1 0 0" max="1.3 1 1" color="#dddddd" thickness="1">
-    Storage Bus
+    저장 버스
   </BoxAnnotation>
   <BoxAnnotation min="3.7 0 2" max="4 1 3" color="#dddddd" thickness="1">
-    Storage Bus
+    저장 버스
   </BoxAnnotation>
   <BoxAnnotation min="0 1 2" max="1 1.3 3" color="#dddddd" thickness="1">
-    Interface
+    인터페이스
   </BoxAnnotation>
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## One-To-Many and Many-To One (and many-to-many)
+## 일대다 및 다대일 (그리고 다대다)
 
-Of course, you don't have to use just one <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> or <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> or <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />
+물론 <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />나 <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />, <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />을 하나만 사용할 필요는 없습니다.
 
 <GameScene zoom="3" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/many_to_many_pipe.snbt" />
   <IsometricCamera yaw="185" pitch="30" />
 </GameScene>
 
-## Providing To Multiple Places
+## 여러 장소에 공급하기
 
-From all this, we can derive a method to send ingredients from one <ItemLink id="appliedenergistics2:tile.BlockInterface" /> to many different
-locations, like an array of machines, or several different faces of one machine.
+지금까지의 내용을 바탕으로 하나의 <ItemLink id="appliedenergistics2:tile.BlockInterface" />에서 여러 장소로 재료를 보내는 방법을 알아낼 수 있습니다.
+예를 들어 여러 기계로 구성된 배열이나 한 기계의 여러 면에 보낼 수 있습니다.
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/fluid_interface_storage.snbt" />
   <BoxAnnotation min="2.7 0 1" max="3 1 2" color="#dddddd" thickness="1">
-    Interface (must be flat, not fullblock)
+    인터페이스 (평평한 형태여야 하며, 전체 블록이어서는 안 됩니다)
   </BoxAnnotation>
   <BoxAnnotation min="1 0 0" max="1.3 1 4" color="#dddddd" thickness="1">
-    Storage Busses
+    저장 버스
   </BoxAnnotation>
   <BoxAnnotation min="0 0 0" max="1 1 4" color="#dddddd" thickness="1">
-    Places you want to pattern-provide to (multiple machines, or multiple faces of 1 machine)
+    패턴을 공급하려는 장소 (여러 기계 또는 한 기계의 여러 면)
   </BoxAnnotation>
   <IsometricCamera yaw="185" pitch="30" />
 </GameScene>

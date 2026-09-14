@@ -1,195 +1,195 @@
-item.kekztech_error_item.name=KekzTech Error Coin
+item.kekztech_error_item.name=KekzTech 오류 코인
 
 # -------- Multiblock Tooltip Builder Keywords
 # -------- Context can be found in the class util.MultiBlockTooltipBuilder
 mbdesc.beginStructureBlock.Dimensions=Dimensions
-mbdesc.beginStructureBlock.Structure=Structure
-mbdesc.addController.Controller=Controller
-mbdesc.addCasing.atleast=(at least)
-mbdesc.addEnergyHatch.EnergyHatch=Energy Hatch
-mbdesc.addDynamoHatch.DynamoHatch=Dynamo Hatch
-mbdesc.addMaintenanceHatch.MaintenanceHatch=Maintenance Hatch
-mbdesc.addIOHatches.IOHatches=I/O Hatches
-mbdesc.addInputBus.InputBus=Input Bus/ses
-mbdesc.addInputHatch.InputHatch=Input Hatch/es
-mbdesc.addOutputBus.OutputBus=Output Bus/ses
-mbdesc.addOutputHatch.OutputHatch=Output Hatch/es
-mbdesc.signAndFinalize.Hold=Hold
-mbdesc.signAndFinalize.todisplay=to display structure guidelines
-mbdesc.signAndFinalize.createdby=Created by
+mbdesc.beginStructureBlock.Structure=구조물
+mbdesc.addController.Controller=컨트롤러
+mbdesc.addCasing.atleast=(최소)
+mbdesc.addEnergyHatch.EnergyHatch=에너지 해치
+mbdesc.addDynamoHatch.DynamoHatch=다이너모 해치
+mbdesc.addMaintenanceHatch.MaintenanceHatch=정비 해치
+mbdesc.addIOHatches.IOHatches=입출력 해치
+mbdesc.addInputBus.InputBus=입력 버스
+mbdesc.addInputHatch.InputHatch=입력 해치/es
+mbdesc.addOutputBus.OutputBus=출력 버스
+mbdesc.addOutputHatch.OutputHatch=출력 해치/es
+mbdesc.signAndFinalize.Hold=길게 누르기
+mbdesc.signAndFinalize.todisplay=구조물 지침 표시
+mbdesc.signAndFinalize.createdby=제작자
 
 # -------- Fuel Cell: Structure Blocks
-tile.kekztech_gdcceramicelectrolyteunit_block.name=GDC Ceramic Electrolyte Unit
-tile.kekztech_yszceramicelectrolyteunit_block.name=YSZ Ceramic Electrolyte Unit
+tile.kekztech_gdcceramicelectrolyteunit_block.name=GDC 세라믹 전해질 장치
+tile.kekztech_yszceramicelectrolyteunit_block.name=YSZ 세라믹 전해질 장치
 
 # -------- Fuel Cell: Crafting Components
-item.kekztech_crafting_item.name=Crafting Component
-item.kekztech_crafting_item.9.name=YSZ Ceramic Dust
-item.kekztech_crafting_item.10.name=GDC Ceramic Dust
-item.kekztech_crafting_item.11.name=Yttria Dust
-item.kekztech_crafting_item.12.name=Zirconia Dust
-item.kekztech_crafting_item.13.name=Ceria Dust
-item.kekztech_crafting_item.14.name=YSZ Ceramic Plate
-item.kekztech_crafting_item.15.name=GDC Ceramic Plate
+item.kekztech_crafting_item.name=제작 부품
+item.kekztech_crafting_item.9.name=YSZ 세라믹 가루
+item.kekztech_crafting_item.10.name=GDC 세라믹 가루
+item.kekztech_crafting_item.11.name=이트리아 가루
+item.kekztech_crafting_item.12.name=지르코니아 가루
+item.kekztech_crafting_item.13.name=세리아 가루
+item.kekztech_crafting_item.14.name=YSZ 세라믹 판
+item.kekztech_crafting_item.15.name=GDC 세라믹 판
 
 # -------- TFFT: Structure Blocks
-tile.kekztech_tfftstoragefield_block.name=TFFT Casing/Storage Field Block
-tile.kekztech_tfftstoragefield_block.0.name=TFFT Casing
-tile.kekztech_tfftstoragefield_block.1.name=TFFT Storage Field Block (Tier I)
-tile.kekztech_tfftstoragefield_block.2.name=TFFT Storage Field Block (Tier II)
-tile.kekztech_tfftstoragefield_block.3.name=TFFT Storage Field Block (Tier III)
-tile.kekztech_tfftstoragefield_block.4.name=TFFT Storage Field Block (Tier IV)
-tile.kekztech_tfftstoragefield_block.5.name=TFFT Storage Field Block (Tier V)
-tile.kekztech_tfftstoragefield_block.6.name=TFFT Storage Field Block (Tier VI)
-tile.kekztech_tfftstoragefield_block.7.name=TFFT Storage Field Block (Tier VII)
-tile.kekztech_tfftstoragefield_block.8.name=TFFT Storage Field Block (Tier VIII)
-tile.kekztech_tfftstoragefield_block.9.name=TFFT Storage Field Block (Tier IX)
-tile.kekztech_tfftstoragefield_block.10.name=TFFT Storage Field Block (Tier X)
-tile.kekztech_tfftstoragefield_block.desc=This is not a fluid tank
-tile.kekztech_tfftstoragefield_block.hint.1=Hint 1 Dot: TFFT Casing, Energy Hatch, Maintenance Hatch
-tile.kekztech_tfftstoragefield_block.hint.2=Hint 2 Dot: TFFT Casing, Energy Hatch, Maintenance Hatch, TFFT Multi I/O Hatch, Input/Output Hatch
-tile.kekztech_tfftstoragefield_block.hint.3=Hint 3 Dot: EV+ Tiered Glass, TFFT Multi I/O Hatch, Input/Output Hatch
-tile.kekztech_tfftstoragefield_block.hint.4=Hint 4 Dot: EV+ Tiered Glass
+tile.kekztech_tfftstoragefield_block.name=TFFT 외장/저장 필드 블록
+tile.kekztech_tfftstoragefield_block.0.name=TFFT 케이싱
+tile.kekztech_tfftstoragefield_block.1.name=TFFT 저장 필드 블록 (티어 I)
+tile.kekztech_tfftstoragefield_block.2.name=TFFT 저장 필드 블록 (티어 II)
+tile.kekztech_tfftstoragefield_block.3.name=TFFT 저장 필드 블록 (티어 III)
+tile.kekztech_tfftstoragefield_block.4.name=TFFT 저장 필드 블록 (티어 IV)
+tile.kekztech_tfftstoragefield_block.5.name=TFFT 저장 필드 블록 (티어 V)
+tile.kekztech_tfftstoragefield_block.6.name=TFFT 저장 필드 블록 (티어 VI)
+tile.kekztech_tfftstoragefield_block.7.name=TFFT 저장 필드 블록 (티어 VII)
+tile.kekztech_tfftstoragefield_block.8.name=TFFT 저장 필드 블록 (티어 VIII)
+tile.kekztech_tfftstoragefield_block.9.name=TFFT 저장 필드 블록 (티어 IX)
+tile.kekztech_tfftstoragefield_block.10.name=TFFT 저장 필드 블록 (티어 X)
+tile.kekztech_tfftstoragefield_block.desc=이것은 유체 탱크가 아닙니다
+tile.kekztech_tfftstoragefield_block.hint.1=힌트 1: TFFT 케이싱, 에너지 해치, 정비 해치
+tile.kekztech_tfftstoragefield_block.hint.2=힌트 2 점: TFFT 케이싱, 에너지 해치, 유지보수 해치, TFFT 다중 입출력 해치, 입력/출력 해치
+tile.kekztech_tfftstoragefield_block.hint.3=힌트 3 점: EV+ 티어 유리, TFFT 다중 입출력 해치, 입출력 해치
+tile.kekztech_tfftstoragefield_block.hint.4=힌트 4 도트: EV+ 티어 유리
 
 # -------- Lapotronic Super Capacitor: Structure Blocks
-tile.kekztech_lapotronicenergyunit_block.name=Lapotronic Casing/Capacitor
-tile.kekztech_lapotronicenergyunit_block.0.name=Lapotronic Super Capacitor Casing
-tile.kekztech_lapotronicenergyunit_block.1.name=Lapotronic Capacitor (IV)
-tile.kekztech_lapotronicenergyunit_block.2.name=Lapotronic Capacitor (LuV)
-tile.kekztech_lapotronicenergyunit_block.3.name=Lapotronic Capacitor (ZPM)
-tile.kekztech_lapotronicenergyunit_block.4.name=Lapotronic Capacitor (UV)
-tile.kekztech_lapotronicenergyunit_block.5.name=Ultimate Capacitor (UHV)
-tile.kekztech_lapotronicenergyunit_block.6.name=Empty Capacitor (-)
-tile.kekztech_lapotronicenergyunit_block.7.name=Lapotron Capacitor (EV)
-tile.kekztech_lapotronicenergyunit_block.8.name=Extremely Ultimate Capacitor (UEV)
-tile.kekztech_lapotronicenergyunit_block.9.name=Insanely Ultimate Capacitor (UIV)
-tile.kekztech_lapotronicenergyunit_block.10.name=Mega Ultimate Capacitor (UMV)
-tile.kekztech_lapotronicenergyunit_block.desc=Part of the Lapotronic Super Capacitor
+tile.kekztech_lapotronicenergyunit_block.name=라포트로닉 케이싱/축전기
+tile.kekztech_lapotronicenergyunit_block.0.name=라포트로닉 초축전기 케이싱
+tile.kekztech_lapotronicenergyunit_block.1.name=라포트로닉 축전기 (IV)
+tile.kekztech_lapotronicenergyunit_block.2.name=라포트로닉 축전기 (LuV)
+tile.kekztech_lapotronicenergyunit_block.3.name=라포트로닉 축전기 (ZPM)
+tile.kekztech_lapotronicenergyunit_block.4.name=라포트로닉 축전기 (UV)
+tile.kekztech_lapotronicenergyunit_block.5.name=궁극의 축전기 (UHV)
+tile.kekztech_lapotronicenergyunit_block.6.name=빈 축전기 (-)
+tile.kekztech_lapotronicenergyunit_block.7.name=라포트론 축전기 (EV)
+tile.kekztech_lapotronicenergyunit_block.8.name=초궁극 축전기 (UEV)
+tile.kekztech_lapotronicenergyunit_block.9.name=미친 궁극 축전기 (UIV)
+tile.kekztech_lapotronicenergyunit_block.10.name=초대형 궁극 축전기 (UMV)
+tile.kekztech_lapotronicenergyunit_block.desc=라포트로닉 슈퍼 축전기의 구성 요소
 
 # -------- Thaumium Reinforced Jar: Block
-tile.kekztech_thaumiumreinforcedjar_block.name=Thaumium Reinforced Jar
-tile.kekztech_thaumiumreinforcedjar_block.0.name=Thaumium Reinforced Jar
-tile.kekztech_thaumiumreinforcedjar_block.3.name=Thaumium Reinforced Void Jar
+tile.kekztech_thaumiumreinforcedjar_block.name=타우뮴 강화 단지
+tile.kekztech_thaumiumreinforcedjar_block.0.name=타우뮴 강화 단지
+tile.kekztech_thaumiumreinforcedjar_block.3.name=타우뮴 강화 공허 항아리
 
 # -------- Thaumium Reinforced Jar: Research
 # This is the name of the research
-tc.research_name.THAUMIUMREINFORCEDJAR=Thaumium Reinforced Jars
+tc.research_name.THAUMIUMREINFORCEDJAR=타우뮴 강화 단지
 # This is the subtext for the research note
-tc.research_text.THAUMIUMREINFORCEDJAR=Slightly better jars
+tc.research_text.THAUMIUMREINFORCEDJAR=조금 더 나은 단지
 # Lore text for the research pages
-kekztech.research_page.THAUMIUMREINFORCEDJAR.0=You have heard your fellow Thaumaturges talk about the benefits of digitized Essentia Storage.<BR><BR>Storing enough Essentia for your advanced infusions has indeed been an issue for you too. However those jars are simply too pleasing to look at to even consider the idea of replacing them with some compact technological construct.<BR><BR>Thanks to this new discovery, you have managed to quadruple the capacity of your jars by improving them with a thick Thaumium lining. This should buy you some more time to come up with a better solution.
-kekztech.research_page.THAUMIUMREINFORCEDJAR.1=Compressing this much Essentia in such a tiny space causes some volatility. Picking up reinforced jars is probably a bad idea...<BR><BR>You imagine that you could get even more out of your jars if only you had some kind of material harder than even diamond or any of the other magical metal you have seen so far.
+kekztech.research_page.THAUMIUMREINFORCEDJAR.0=동료 마도사들이 디지털화된 에센시아 저장의 이점에 대해 이야기하는 것을 들었습니다.<BR><BR>고급 주입에 사용할 충분한 에센시아를 저장하는 일은 당신에게도 분명 문제가 되었습니다. 하지만 이 단지들은 보기만 해도 너무나 만족스러워서, 작고 효율적인 기술 구조물로 교체한다는 생각은 엄두도 내기 어렵습니다.<BR><BR>이번 새로운 발견 덕분에 두꺼운 타우미움 내벽을 덧대어 단지의 용량을 네 배로 늘리는 데 성공했습니다. 이 정도면 더 나은 해결책을 찾아낼 시간을 조금 더 벌 수 있을 것입니다.
+kekztech.research_page.THAUMIUMREINFORCEDJAR.1=이렇게 작은 공간에 이토록 많은 에센시아를 압축하면 어느 정도 불안정해집니다. 강화된 단지를 집어 드는 것은 아무래도 좋지 않은 생각인 것 같습니다...<BR><BR>지금까지 본 다이아몬드나 다른 마법 금속보다도 더 단단한 재료만 있다면 단지에서 더 많은 것을 얻어낼 수 있을 것이라고 상상해 봅니다.
 
 # -------- Ichor Jar: Block
-tile.kekztech_ichorjar_block.name=Ichor Jar
-tile.kekztech_ichorjar_block.0.name=Ichor Jar
-tile.kekztech_ichorjar_block.3.name=Ichor Void Jar
+tile.kekztech_ichorjar_block.name=이코르 항아리
+tile.kekztech_ichorjar_block.0.name=이코르 항아리
+tile.kekztech_ichorjar_block.3.name=이코르 공허 항아리
 
 # -------- Ichor Jar: Research
-tc.research_name.ICHORJAR=Ichor Jars
-tc.research_text.ICHORJAR=Much better jars
-kekztech.research_page.ICHORJAR.0=This is it!<BR><BR>By infusing a jar with just a single piece of Ichor you have created something to rival digitized Essentia storage without sacrificing any of the beauty of Warded Jars.<BR><BR>Ichor Jars can hold an astounding 4096 Essentia and fit nicely into your recently acquired set of Ichor based achievements.<BR><BR>You definitely don't want to disturb these jars. Luckily Ichor is resilient enough to make accidentally destroying one unlikely.
+tc.research_name.ICHORJAR=이코르 항아리
+tc.research_text.ICHORJAR=훨씬 더 나은 항아리
+kekztech.research_page.ICHORJAR.0=바로 이것입니다!<BR><BR>이코르 한 조각만 항아리에 주입하여 와드 항아리의 아름다움을 희생하지 않고도 디지털화된 에센티아 저장고에 필적하는 무언가를 만들어냈습니다.<BR><BR>이코르 항아리는 무려 에센티아 4096개를 저장할 수 있으며, 최근에 획득한 이코르 기반 업적 세트에도 잘 어울립니다.<BR><BR>이 항아리들은 절대로 건드리고 싶지 않을 것입니다. 다행히 이코르는 충분히 견고하므로 실수로 항아리를 파괴하는 일은 드뭅니다.
 
 # -------- Cosmetic Blocks
-tile.kekztech_largehextile_block.name=Large Hex Tile
+tile.kekztech_largehextile_block.name=대형 육각 타일
 
 # -------- Achievements
-achievement.tile.kekztech_lapotronicenergyunit_block.2.desc=Pick up this item to see the recipe in NEI
-achievement.tile.kekztech_lapotronicenergyunit_block.2=Lapotronic Capacitor (LuV)
-achievement.tile.kekztech_lapotronicenergyunit_block.3.desc=Pick up this item to see the recipe in NEI
-achievement.tile.kekztech_lapotronicenergyunit_block.3=Lapotronic Capacitor (ZPM)
-achievement.tile.kekztech_lapotronicenergyunit_block.4.desc=Pick up this item to see the recipe in NEI
-achievement.tile.kekztech_lapotronicenergyunit_block.4=Lapotronic Capacitor (UV)
-achievement.tile.kekztech_lapotronicenergyunit_block.5.desc=Pick up this item to see the recipe in NEI
-achievement.tile.kekztech_lapotronicenergyunit_block.5=Ultimate Capacitor (UHV)
-achievement.tile.kekztech_lapotronicenergyunit_block.8.desc=Beyond the ranks of Gods
-achievement.tile.kekztech_lapotronicenergyunit_block.8=Extremely Ultimate Capacitor (UEV)
-achievement.tile.kekztech_lapotronicenergyunit_block.9.desc=Insanity ensues!
-achievement.tile.kekztech_lapotronicenergyunit_block.9=Insanely Ultimate Capacitor (UIV)
-achievement.tile.kekztech_lapotronicenergyunit_block.10.desc=How far can we go?
-achievement.tile.kekztech_lapotronicenergyunit_block.10=Mega Ultimate Capacitor (UMV)
+achievement.tile.kekztech_lapotronicenergyunit_block.2.desc=이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
+achievement.tile.kekztech_lapotronicenergyunit_block.2=라포트로닉 축전기 (LuV)
+achievement.tile.kekztech_lapotronicenergyunit_block.3.desc=이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
+achievement.tile.kekztech_lapotronicenergyunit_block.3=라포트로닉 축전기 (ZPM)
+achievement.tile.kekztech_lapotronicenergyunit_block.4.desc=이 아이템을 획득하면 NEI에서 조합법을 확인할 수 있습니다.
+achievement.tile.kekztech_lapotronicenergyunit_block.4=라포트로닉 축전기 (UV)
+achievement.tile.kekztech_lapotronicenergyunit_block.5.desc=이 아이템을 집으면 NEI에서 조합법을 확인할 수 있습니다.
+achievement.tile.kekztech_lapotronicenergyunit_block.5=궁극의 축전기 (UHV)
+achievement.tile.kekztech_lapotronicenergyunit_block.8.desc=신들의 반열을 넘어
+achievement.tile.kekztech_lapotronicenergyunit_block.8=극초궁극 축전지 (UEV)
+achievement.tile.kekztech_lapotronicenergyunit_block.9.desc=광기가 이어집니다!
+achievement.tile.kekztech_lapotronicenergyunit_block.9=엄청나게 강력한 궁극의 축전기 (UIV)
+achievement.tile.kekztech_lapotronicenergyunit_block.10.desc=얼마나 멀리까지 갈 수 있습니까?
+achievement.tile.kekztech_lapotronicenergyunit_block.10=메가 최종 축전기 (UMV)
 
 
 # -------- GUI
-gui.kekztech_lapotronicenergyunit.wireless=Wireless mode
-gui.kekztech_lapotronicenergyunit.wireless_rebalance=Rebalance Wireless (One-Time Use)
-gui.kekztech_lapotronicenergyunit.warning.header=Warning!
-gui.kekztech_lapotronicenergyunit.warning.text=Make sure to carefully read and understand the tooltip before activating wireless mode. It can potentially brick your base. This warning won't appear again.
+gui.kekztech_lapotronicenergyunit.wireless=무선 모드
+gui.kekztech_lapotronicenergyunit.wireless_rebalance=무선 재조정 (일회용)
+gui.kekztech_lapotronicenergyunit.warning.header=경고!
+gui.kekztech_lapotronicenergyunit.warning.text=무선 모드를 활성화하기 전에 툴팁을 주의 깊게 읽고 내용을 이해했는지 확인하십시오. 기지가 작동 불능 상태가 될 수 있습니다. 이 경고는 다시 표시되지 않습니다.
 
-kekztech.gui.lapotronic_super_capacitor.total_capacity=Total Capacity: §9%s§f EU
-kekztech.gui.lapotronic_super_capacitor.used_capacity=Used Capacity: §9%s§f
-kekztech.gui.lapotronic_super_capacitor.text.stored=Stored: §a%s§f EU
-kekztech.gui.lapotronic_super_capacitor.text.avg_eu_in=Avg EU IN: §a%s§f last 5s
-kekztech.gui.lapotronic_super_capacitor.text.avg_eu_out=Avg EU OUT: §c%s§f last 5s
-kekztech.gui.lapotronic_super_capacitor.passive_loss=Passive Loss: §c%s§f EU/t
-kekztech.gui.lapotronic_super_capacitor.wireless_eu=Total wireless EU: §d%s§f EU
-kekztech.gui.lapotronic_super_capacitor.time_to.full=Time to Full: §b%s
-kekztech.gui.lapotronic_super_capacitor.time_to.sth=Time to Something: §bInfinite years
-kekztech.gui.lapotronic_super_capacitor.time_to.empty=Time to Empty: §b%s
+kekztech.gui.lapotronic_super_capacitor.total_capacity=총 용량: §9%s§f EU
+kekztech.gui.lapotronic_super_capacitor.used_capacity=사용 중인 용량: §9%s§f
+kekztech.gui.lapotronic_super_capacitor.text.stored=저장량: §a%s§f EU
+kekztech.gui.lapotronic_super_capacitor.text.avg_eu_in=평균 EU 입력: §a%s§f 지난 5초
+kekztech.gui.lapotronic_super_capacitor.text.avg_eu_out=평균 EU 출력: §c%s§f 최근 5초
+kekztech.gui.lapotronic_super_capacitor.passive_loss=수동 손실: §c%s§f EU/t
+kekztech.gui.lapotronic_super_capacitor.wireless_eu=총 무선 EU: §d%s§f EU
+kekztech.gui.lapotronic_super_capacitor.time_to.full=완전히 충전될 때까지: §b%s
+kekztech.gui.lapotronic_super_capacitor.time_to.sth=무언가까지 걸리는 시간: §b무한 년
+kekztech.gui.lapotronic_super_capacitor.time_to.empty=비우는 데 걸리는 시간: §b%s
 
 # -------- Tooltips
-tooltip.kekztech.crafting_component=Crafting component for KekzTech things
-tooltip.kekztech.lapotronic_energy_unit.capacity=Capacity: §c%s§7 EU
-tooltip.kekztech.lapotronic_energy_unit.wire_less_transfer=Supports up to §c%s§7 EU/t of wireless energy withdrawal per %s§7 capacitor.
-tooltip.kekztech.lapotronic_energy_unit.capacity.none=Capacity: None
-tooltip.kekztech.tfft.capacity=Capacity: §9%s§7 L
-tooltip.kekztech.tfft.capacity.per_fluid=Per Fluid Capacity: §9%s§7 L
-tooltip.kekztech.tfft.power_draw=Power Draw: §9%d§7 EU/t
-tooltip.kekztech.wrong=REMINDER: KekzTech recipes are only tested to work in GTNH!\nPlaceholder item in case something goes wrong\nIf this item shows up in GTNH, you may report it to:\nhttps://github.com/kekzdealer/KekzTech
+tooltip.kekztech.crafting_component=KekzTech 물품 제작용 부품
+tooltip.kekztech.lapotronic_energy_unit.capacity=용량: §c%s§7 EU
+tooltip.kekztech.lapotronic_energy_unit.wire_less_transfer=%s§7 축전기당 무선 에너지 인출을 최대 §c%s§7 EU/t까지 지원합니다.
+tooltip.kekztech.lapotronic_energy_unit.capacity.none=용량: 없음
+tooltip.kekztech.tfft.capacity=용량: §9%s§7 L
+tooltip.kekztech.tfft.capacity.per_fluid=유체당 용량: §9%s§7 L
+tooltip.kekztech.tfft.power_draw=전력 소모: §9%d§7 EU/t
+tooltip.kekztech.wrong=알림: KekzTech 레시피는 GTNH에서만 작동하도록 테스트되었습니다!\n문제가 발생했을 때를 위한 자리 표시자 아이템\n이 아이템이 GTNH에 나타난다면 다음 주소로 신고할 수 있습니다:\nhttps://github.com/kekzdealer/KekzTech
 
 # -------- InfoData
-kekztech.infodata.operational_data=§eOperational Data:§r
-kekztech.infodata.multi.maintenance_status=Maintenance Status: %s
-kekztech.infodata.multi.maintenance_status.ok=Maintenance Status: §aWorking perfectly§r
-kekztech.infodata.multi.maintenance_status.bad=Maintenance Status: §cHas Problems§r
-kekztech.infodata.lapotronic_super_capacitor.eu_stored=EU Stored: %s EU
-kekztech.infodata.lapotronic_super_capacitor.used_capacity=Used Capacity: %s
-kekztech.infodata.lapotronic_super_capacitor.total_capacity=Total Capacity: %s EU
-kekztech.infodata.lapotronic_super_capacitor.passive_loss=Passive Loss: %s EU/t
-kekztech.infodata.lapotronic_super_capacitor.eu_in=EU IN: %s EU/t
-kekztech.infodata.lapotronic_super_capacitor.eu_out=EU OUT: %s EU/t
-kekztech.infodata.lapotronic_super_capacitor.avg_eu_in.sec=Avg EU IN: %s (last %d seconds)
-kekztech.infodata.lapotronic_super_capacitor.avg_eu_out.sec=Avg EU OUT: %s (last %d seconds)
-kekztech.infodata.lapotronic_super_capacitor.avg_eu_in.min5=Avg EU IN: %s (last 5 minutes)
-kekztech.infodata.lapotronic_super_capacitor.avg_eu_out.min5=Avg EU OUT: %s (last 5 minutes)
-kekztech.infodata.lapotronic_super_capacitor.avg_eu_in.hour1=Avg EU IN: %s (last 1 hour)
-kekztech.infodata.lapotronic_super_capacitor.avg_eu_out.hour1=Avg EU OUT: %s (last 1 hour)
-kekztech.infodata.lapotronic_super_capacitor.time_to.full=Time to Full: %s
-kekztech.infodata.lapotronic_super_capacitor.time_to.sth=Time to Something: Infinite years
-kekztech.infodata.lapotronic_super_capacitor.time_to.empty=Time to Empty: %s
-kekztech.infodata.lapotronic_super_capacitor.wireless_mode=Wireless mode: %s
-kekztech.infodata.lapotronic_super_capacitor.wireless_mode.enabled=Wireless mode: §aenabled§r
-kekztech.infodata.lapotronic_super_capacitor.wireless_mode.disabled=Wireless mode: §cdisabled§r
-kekztech.infodata.lapotronic_super_capacitor.capacitors=%s Capacitors detected: %d
-kekztech.infodata.lapotronic_super_capacitor.wireless_eu=Total wireless EU: %s EU
-kekztech.infodata.tank.tfft.stored_fluids=§eStored Fluids:§r
-kekztech.infodata.tank.tfft.stored_fluids.null=NULL
-kekztech.infodata.tank.tfft.used=Used Capacity: %sL
-kekztech.infodata.tank.tfft.total=Total Capacity: %sL
-kekztech.infodata.tank.tfft.per_fluid_capacity=Per-Fluid Capacity: %sL
-kekztech.infodata.tank.tfft.running_cost=Running Cost: %dEU/t
-kekztech.infodata.tank.tfft.auto_voiding=Auto-voiding: %b
+kekztech.infodata.operational_data=§e작동 데이터:§r
+kekztech.infodata.multi.maintenance_status=정비 상태: %s
+kekztech.infodata.multi.maintenance_status.ok=정비 상태: §a완벽하게 작동 중§r
+kekztech.infodata.multi.maintenance_status.bad=정비 상태: §c문제 있음§r
+kekztech.infodata.lapotronic_super_capacitor.eu_stored=저장된 EU: %s EU
+kekztech.infodata.lapotronic_super_capacitor.used_capacity=사용 용량: %s
+kekztech.infodata.lapotronic_super_capacitor.total_capacity=총 용량: %s EU
+kekztech.infodata.lapotronic_super_capacitor.passive_loss=수동 손실: %s EU/t
+kekztech.infodata.lapotronic_super_capacitor.eu_in=EU 입력: %s EU/t
+kekztech.infodata.lapotronic_super_capacitor.eu_out=EU 출력: %s EU/t
+kekztech.infodata.lapotronic_super_capacitor.avg_eu_in.sec=평균 EU 입력: %s (최근 %d초)
+kekztech.infodata.lapotronic_super_capacitor.avg_eu_out.sec=평균 EU 출력: %s (최근 %d초)
+kekztech.infodata.lapotronic_super_capacitor.avg_eu_in.min5=평균 EU 입력: %s (최근 5분)
+kekztech.infodata.lapotronic_super_capacitor.avg_eu_out.min5=평균 EU 출력: %s (최근 5분)
+kekztech.infodata.lapotronic_super_capacitor.avg_eu_in.hour1=평균 EU 입력: %s (최근 1시간)
+kekztech.infodata.lapotronic_super_capacitor.avg_eu_out.hour1=평균 EU 출력: %s (최근 1시간)
+kekztech.infodata.lapotronic_super_capacitor.time_to.full=완충까지 걸리는 시간: %s
+kekztech.infodata.lapotronic_super_capacitor.time_to.sth=무언가까지 걸리는 시간: 무한 년
+kekztech.infodata.lapotronic_super_capacitor.time_to.empty=비워지는 시간: %s
+kekztech.infodata.lapotronic_super_capacitor.wireless_mode=무선 모드: %s
+kekztech.infodata.lapotronic_super_capacitor.wireless_mode.enabled=무선 모드: §a활성화됨§r
+kekztech.infodata.lapotronic_super_capacitor.wireless_mode.disabled=무선 모드: §c비활성화됨§r
+kekztech.infodata.lapotronic_super_capacitor.capacitors=감지된 %s 축전기: %d
+kekztech.infodata.lapotronic_super_capacitor.wireless_eu=총 무선 EU: %s EU
+kekztech.infodata.tank.tfft.stored_fluids=§e저장된 유체:§r
+kekztech.infodata.tank.tfft.stored_fluids.null=없음
+kekztech.infodata.tank.tfft.used=사용 중인 용량: %sL
+kekztech.infodata.tank.tfft.total=총 용량: %sL
+kekztech.infodata.tank.tfft.per_fluid_capacity=유체별 용량: %sL
+kekztech.infodata.tank.tfft.running_cost=가동 비용: %dEU/t
+kekztech.infodata.tank.tfft.auto_voiding=자동 비우기: %b
 
-kekztech.structure.glass_incompatible=§cGlass configuration is incompatible
+kekztech.structure.glass_incompatible=§c유리 설정이 호환되지 않습니다
 
-kekztech.multiblock.LapotronicSuperCapacitor.machine_type=Energy Storage, LSC
-kekztech.multiblock.LapotronicSuperCapacitor.casing=Lapotronic Supercapacitor Casing
-kekztech.multiblock.LapotronicSuperCapacitor.capacitor=Lapotronic Capacitor
-kekztech.multiblock.LapotronicSuperCapacitor.structure_footer=Only 50% or more of the capacitors need to be non-empty
+kekztech.multiblock.LapotronicSuperCapacitor.machine_type=에너지 저장 장치, LSC
+kekztech.multiblock.LapotronicSuperCapacitor.casing=라포트로닉 슈퍼커패시터 케이싱
+kekztech.multiblock.LapotronicSuperCapacitor.capacitor=Lapotronic 축전기
+kekztech.multiblock.LapotronicSuperCapacitor.structure_footer=축전기의 50% 이상이 비어 있지 않아야 합니다.
 
-kekztech.multiblock.SOFuelCell.machine_type=Gas Turbine, SOFC
-kekztech.multiblock.SOFuelCellMK1.electrolyte_unit=YSZ Ceramic Electrolyte Unit
-kekztech.multiblock.SOFuelCellMK2.electrolyte_unit=GDC Ceramic Electrolyte Unit
+kekztech.multiblock.SOFuelCell.machine_type=가스 터빈, SOFC
+kekztech.multiblock.SOFuelCellMK1.electrolyte_unit=YSZ 세라믹 전해질 장치
+kekztech.multiblock.SOFuelCellMK2.electrolyte_unit=GDC 세라믹 전해질 장치
 
-kekztech.multiblock.TankTFFT.machine_type=Fluid Tank
-kekztech.multiblock.TankTFFT.multi_io_hatch=TFFT Multi I/O Hatch
-kekztech.multiblock.TankTFFT.any_casing_glass_adjacent=Any casing/glass adjacent to a field storage block
-kekztech.multiblock.TankTFFT.field_storage_block=Field Storage Block
-kekztech.multiblock.TankTFFT.footer1=No air gaps allowed, but the field storage blocks can be different tiers
-kekztech.multiblock.TankTFFT.footer2=Place a fluid storage bus on the Multi I/O Hatch to interact with all fluids directly
+kekztech.multiblock.TankTFFT.machine_type=유체 탱크
+kekztech.multiblock.TankTFFT.multi_io_hatch=TFFT 다중 입출력 해치
+kekztech.multiblock.TankTFFT.any_casing_glass_adjacent=필드 저장 블록에 인접한 케이싱/유리
+kekztech.multiblock.TankTFFT.field_storage_block=필드 저장 블록
+kekztech.multiblock.TankTFFT.footer1=공기 틈은 허용되지 않지만, 필드 저장 블록은 서로 다른 티어여도 됩니다.
+kekztech.multiblock.TankTFFT.footer2=다중 입출력 해치에 유체 저장 버스를 설치하여 모든 유체와 직접 상호작용하십시오.
 
 # Multiblocks
-gt.blockmachines.multimachine.fuelcellmk1.name=Solid-Oxide Fuel Cell Mk-I
-gt.blockmachines.multimachine.fuelcellmk2.name=Solid-Oxide Fuel Cell Mk-II
-gt.blockmachines.multimachine.supercapacitor.name=Lapotronic Supercapacitor
+gt.blockmachines.multimachine.fuelcellmk1.name=고체 산화물 연료 전지 Mk-I
+gt.blockmachines.multimachine.fuelcellmk2.name=고체 산화물 연료 전지 Mk-II
+gt.blockmachines.multimachine.supercapacitor.name=라포트로닉 초축전기
 gt.blockmachines.multimachine.tfft.name=TFFT

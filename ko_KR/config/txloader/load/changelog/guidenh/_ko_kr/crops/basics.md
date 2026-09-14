@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Crop Basics
+  title: 작물 기초
   parent: crops.md
   icon: cropsnh:plantLens
 categories:
@@ -9,45 +9,45 @@ author: Skorched
 date: 2026-05-20
 ---
 
-# Crop Basics
-There is a lot to these crops, so let's get some basics out of the way first! In order to even start on crops, you must have made your first <Color id="RED">GT Tools</Color> in order to craft the Crop Sticks. All CropsNH crops are planted on Crop Sticks, so they're a vital starting point.
+# 작물 기초
+이 작물들은 다룰 내용이 매우 많습니다. 그러니 먼저 기본적인 몇 가지를 짚고 넘어가겠습니다! 작물을 시작하려면 먼저 작물 막대기를 제작하기 위해 첫 <Color id="RED">GT Tools</Color>를 만들어야 합니다. 모든 CropsNH 작물은 작물 막대기에 심어지므로, 이는 필수적인 시작점입니다.
 
-## Getting Seeds
-<Color id="GREEN">Seeds</Color> can be made in a variety of ways, depending on what crop you are aiming for. Some crops simply require planting a "regular" crop on a crop stick, such as with saplings. Planting a vanilla sapling on Crop Sticks will create a <Color id="GREEN">Bonsai</Color> of the relevant type.
+## 씨앗 얻기
+<Color id="GREEN">씨앗</Color>은 목표로 하는 작물에 따라 다양한 방법으로 만들 수 있습니다. 일부 작물은 묘목처럼 "일반" 작물을 작물 막대기에 심기만 하면 됩니다. 바닐라 묘목을 작물 막대기에 심으면 해당 종류의 <Color id="GREEN">분재</Color>가 생성됩니다.
 
-To find how to get a seed, you can search it in NEI and find either how to breed it, how to create it, or if it shows nothing, then just use the "regular" version to plant on crop sticks. All of these mechanics will be explained further in this guide.
+씨앗을 얻는 방법을 찾으려면 NEI에서 검색하여 교배 방법이나 제작 방법을 확인할 수 있으며, 아무것도 표시되지 않으면 그냥 "일반" 버전을 작물 막대기에 심으면 됩니다. 이러한 모든 메커니즘은 이 가이드에서 더 자세히 설명합니다.
 
-Left clicking a planted seed will harvest the crop (if mature) and remove it, potentially dropping a seed depending on the <Color id="RED">resistance</Color> (will be explained next) of the seed. <Color id="BLUE">Spades</Color> <ItemImage id="cropsnh:reinforcedSpade" /> will increase your chance of obtaining seeds.
+심어진 씨앗을 좌클릭하면 작물을 수확하고(다 자란 경우) 제거하며, 씨앗의 <Color id="RED">저항력</Color>(다음에 설명합니다)에 따라 씨앗을 떨어뜨릴 수 있습니다. <Color id="BLUE">삽</Color> <ItemImage id="cropsnh:reinforcedSpade" />은 씨앗을 얻을 확률을 높여 줍니다.
 
-# Crop Stats
-There are two main types of stats when it comes to crops:
-- Seed Stats
-- Soil Stats
+# 작물 능력치
+작물에는 두 가지 주요 능력치 유형이 있습니다:
+- 씨앗 능력치
+- 토양 능력치
 
-## Seed Stats
-<Color id="GREEN">Seed Stats</Color> are broken down into 3 parts:
-- <Color id="BLUE">Growth</Color> - Determines how fast your crop will grow if given the correct conditions
-- <Color id="RED">Gain</Color> - Determines the amount of drops on harvesting
-- <Color id="GREEN">Resistance</Color> - Determines a few other mechanics, such as chance of dropping seeds, ease of "trampling" the crop, likelihood of generating weeds and more!
+## 씨앗 능력치
+<Color id="GREEN">씨앗 능력치</Color>는 3가지 부분으로 나뉩니다:
+- <Color id="BLUE">성장</Color> - 올바른 조건이 주어졌을 때 작물이 얼마나 빨리 자라는지를 결정합니다
+- <Color id="RED">수확량</Color> - 수확 시 떨어지는 아이템의 양을 결정합니다
+- <Color id="GREEN">저항력</Color> - 씨앗을 떨어뜨릴 확률, 작물이 "짓밟히는" 정도, 잡초가 생길 가능성 등 몇 가지 다른 메커니즘을 결정합니다!
 
-Growing these stats is vital for getting a good output on your farms!
+농장에서 좋은 생산량을 얻으려면 이러한 능력치를 키우는 것이 필수적입니다!
 
-When first placing a crop, you will see the stats (1:1:1 for your first), and all of the relevant info will be on the tooltip, such as growth progress.
+작물을 처음 설치하면 능력치가 표시되며(첫 작물은 1:1:1), 성장 진행도 등 관련 정보가 모두 툴팁에 나타납니다.
 
-## Soil Stats
-Though not an "official" name, these are the stats that determine the behaviour of your planted seed. These are broken into:
-- <Color id="BLUE">Fertilizer</Color> - Speeds up crop growth and prevents stat loss on breeding
-- <Color id="RED">Water</Color> - Helps to prevent your plants from getting sick by keeping them hydrated
-- <Color id="GREEN">Weed-Ex</Color> - Prevents the spreading of sickness
+## 토양 능력치
+"공식" 명칭은 아니지만, 이는 심어진 씨앗의 동작을 결정하는 능력치입니다. 다음과 같이 나뉩니다:
+- <Color id="BLUE">비료</Color> - 작물 성장을 가속하고 교배 시 능력치 손실을 방지합니다
+- <Color id="RED">물</Color> - 식물을 수분 상태로 유지하여 병에 걸리는 것을 막아 줍니다
+- <Color id="GREEN">잡초 제거제</Color> - 병이 퍼지는 것을 방지합니다
 
-These 3 stats can be increased using  <Color id="BLUE">Fertilizer</Color> <ItemImage id="cropsnh:fertilizer" />, <Color id="RED">Watering Cans</Color> <ItemImage id="ExtraUtilities:watering_can" /> or <Color id="GREEN">Weed-Ex Can</Color> <ItemImage id="cropsnh:weedEX" /> respectively.
+이 3가지 능력치는 각각 <Color id="BLUE">비료</Color> <ItemImage id="cropsnh:fertilizer" />, <Color id="RED">물뿌리개</Color> <ItemImage id="ExtraUtilities:watering_can" /> 또는 <Color id="GREEN">잡초 제거제 캔</Color> <ItemImage id="cropsnh:weedEX" />을 사용하여 증가시킬 수 있습니다.
 
 > [!NOTE]
-> Some seeds <Color id="RED">CANNOT</Color> be grown in world on *any* soil, and must be farmed using the [Industrial Farm](if.md)
+> 일부 씨앗은 *어떤* 토양에서도 월드 내에서 재배할 수 <Color id="RED">없으며</Color>, [산업용 농장](if.md)을 사용해 재배해야 합니다.
 
-## Helpful Notes on Tiers:
-These are some general rules of thumb regarding crop tiers:
-- Tier 4: Last tier where crops can be planted anywhere
-- Tier 5: Last tier where crops can be planted anywhere if they can see the sky
-- Tier 11: Last tier where crops can be planted anywhere if in an 80%+ humidity biome
-- Tier 12: Last tier where crops can be planted anywhere if they can see the sky <Color id="RED">AND</Color> can see the sky
+## 티어에 관한 유용한 참고 사항:
+다음은 작물 티어에 관한 일반적인 경험칙입니다:
+- 티어 4: 작물을 어디에나 심을 수 있는 마지막 티어입니다
+- 티어 5: 하늘을 볼 수 있다면 작물을 어디에나 심을 수 있는 마지막 티어입니다
+- 티어 11: 습도 80% 이상인 생물 군계라면 작물을 어디에나 심을 수 있는 마지막 티어입니다
+- 티어 12: 하늘을 볼 수 있고 <Color id="RED">그리고</Color> 하늘을 볼 수 있다면 작물을 어디에나 심을 수 있는 마지막 티어입니다

@@ -1,32 +1,32 @@
 ---
 navigation:
-  title: "Power Generation and Consumption"
+  title: "전력 생산 및 소비"
   icon: gregtech:gt.blockmachines:1120
   parent: power-index.md
   position: -2
 ---
 
-# Power Generation and Consumption
+# 전력 생산 및 소비
 
-# Generation
+# 생산
 
-Generators are machines that convert resources into power, or under special conditions generate power seemingly from nothing.
+발전기는 자원을 전력으로 변환하거나, 특수한 조건에서 아무것도 없는 것처럼 보이는 상태에서 전력을 생산하는 기계입니다.
 
-**Singleblock generators** first store their output in an internal EU buffer (its size is shown in the tooltip), then output up to 1A at the standard voltage of their tier. Singleblock generators produce power on demand: they only consume fuel when there is enough room left in their internal EU buffer. You can feed them fuel without worrying about waste.
+**단일 블록 발전기**는 먼저 생산한 전력을 내부 EU 버퍼에 저장한 다음(버퍼의 크기는 툴팁에 표시됩니다), 해당 티어의 표준 전압으로 최대 1A를 출력합니다. 단일 블록 발전기는 필요할 때 전력을 생산하므로, 내부 EU 버퍼에 여유 공간이 충분할 때만 연료를 소비합니다. 낭비를 걱정하지 않고 연료를 공급해도 됩니다.
 
-**Multiblock generators** have output determined by their exact configuration, while output voltage and current are limited by their Dynamo Hatches. Multiblock generators do not produce power on demand: any energy beyond the internal capacity of the Dynamo Hatches is voided.
+**멀티블록 발전기**의 출력은 정확한 구성에 따라 결정되며, 출력 전압과 전류는 다이너모 해치에 의해 제한됩니다. 멀티블록 발전기는 필요할 때 전력을 생산하지 않으므로, 다이너모 해치의 내부 용량을 초과하는 에너지는 소멸합니다.
 
-# Consumption
+# 소비
 
 > [!WARNING]
-> Overvolting a consumer block causes an explosion.
+> 소비 블록에 과전압이 가해지면 폭발합니다.
 
-Machines that receive and consume EU are collectively called machines. A machine can only accept energy packets whose voltage is not greater than its maximum input voltage, which is usually the standard voltage of its tier. Overvolting a machine causes it to explode immediately.
+EU를 받아 소비하는 기계를 통틀어 기계라고 합니다. 기계는 최대 입력 전압보다 높지 않은 전압의 에너지 패킷만 받을 수 있으며, 최대 입력 전압은 대개 해당 티어의 표준 전압입니다. 기계에 과전압이 가해지면 즉시 폭발합니다.
 
-Machines can only run recipes whose power requirement is less than or equal to their own rated power. Recipe power is usually at most $$\frac{15}{16}\text{ A}$$ at the standard voltage of the corresponding tier. This special value is called the recipe's standard power.
+기계는 자체 정격 전력 이하의 전력을 요구하는 레시피만 실행할 수 있습니다. 레시피 전력은 대개 해당 티어의 표준 전압에서 최대 $$\frac{15}{16}\text{ A}$$입니다. 이 특수한 값을 레시피의 표준 전력이라고 합니다.
 
-**[Singleblock machines](../singleblock/singleblock-index.md)** become available at LV. They first accept energy packets on demand into their internal EU buffer, then continuously consume EU while running recipes. The maximum input current is usually 2A, except for the Thermal Centrifuge at 4A and the Arc Furnace at 6A.
+**[단일 블록 기계](../singleblock/singleblock-index.md)**는 LV부터 사용할 수 있습니다. 먼저 필요할 때 에너지 패킷을 내부 EU 버퍼로 받은 다음, 레시피를 실행하는 동안 EU를 지속적으로 소비합니다. 최대 입력 전류는 대개 2A이며, 열 원심분리기는 4A, 아크 화로는 6A입니다.
 
-**[Multiblock machines](../multiblocks/multiblocks-index.md)** usually receive power through Energy Hatches. Standard Energy Hatches accept up to 2A. Multi-Amp Energy Hatches accept up to 1.25 times their rated amperage.
+**[멀티블록 기계](../multiblocks/multiblocks-index.md)**는 대개 에너지 해치를 통해 전력을 받습니다. 표준 에너지 해치는 최대 2A를 받을 수 있습니다. 다중 전류 에너지 해치는 정격 전류의 최대 1.25배를 받을 수 있습니다.
 
-When a machine runs out of energy in its internal buffer, it stops executing the recipe and enters a **power failure**. Singleblock machines lose recipe progress but keep their input state; multiblocks lose both recipe progress and their inputs. Make sure you [provide power reliably](enet.md#providing-power-reliably).
+기계의 내부 버퍼에서 에너지가 모두 소진되면 레시피 실행을 중지하고 **전력 고장** 상태가 됩니다. 단일 블록 기계는 레시피 진행도를 잃지만 입력 상태는 유지하며, 멀티블록 기계는 레시피 진행도와 입력물을 모두 잃습니다. [전력을 안정적으로 공급해야 합니다](enet.md#providing-power-reliably).

@@ -1,63 +1,64 @@
 ---
 navigation:
-  title: "Local Power Network (Enet)"
+  title: "지역 전력망 (Enet)"
   icon: tectech:item.em.EuMeterGT
   parent: power-index.md
   position: -4
 ---
 
-# Local Power Network (GT-Enet)
+# 지역 전력망 (GT-Enet)
 
-The **local power network** (GT-Enet), built around [wires and cables](cable.md), is the main wired power transport system used throughout GTNH.
+[전선과 케이블](cable.md)을 중심으로 구축된 **지역 전력망**(GT-Enet)은 GTNH 전반에서 사용되는 주요 유선 전력 운송 시스템입니다.
 
-Within a local power network, energy packets move between the internal EU buffers of singleblock machines and Energy Hatches. This is separate from the rules machines use to spend energy while running recipes. The detailed behavior of the latter is covered in **[Tier Skipping, Overclocking, and Parallels](../tierskipping-overcloking-parallels/T-O-P-index.md)**.
+지역 전력망에서는 단일 블록 기계와 에너지 해치의 내부 EU 버퍼 사이에서 에너지 패킷이 이동합니다. 이는 기계가 레시피를 실행하는 동안 에너지를 소비하는 방식과는 별개입니다. 후자의 자세한 작동 방식은 **[티어 건너뛰기, 오버클록 및 병렬 처리](../tierskipping-overcloking-parallels/T-O-P-index.md)**에서 다룹니다.
 
-# Network Structure
+# 네트워크 구조
 
-A local power network has three parts:
+지역 전력망은 다음 세 부분으로 구성됩니다.
 
-- **Transmitter blocks**: output energy packets from their EU buffer. Examples include singleblock generators, the output side of [transformers](distribution.md#transformers) or battery buffers, and Dynamo Hatches. The voltage of the packets they output is usually the standard voltage of their tier.
-- **Wires** ([wires and cables](cable.md)): carry energy packets and may reduce their voltage through [cable loss](cable-loss.md). Wires do not store EU.
-- **Consumer blocks**: receive energy packets into their EU buffer. Examples include singleblock machines, the input side of transformers or battery buffers, and Energy Hatches. The maximum packet voltage they accept is usually the standard voltage of their tier.
+- **송신 블록**: 자체 EU 버퍼에서 에너지 패킷을 출력합니다. 단일 블록 발전기, [변압기](distribution.md#transformers) 또는 배터리 버퍼의 출력 측, 다이너모 해치 등이 이에 해당합니다. 출력하는 패킷의 전압은 일반적으로 해당 티어의 표준 전압입니다.
+- **전선** ([전선과 케이블](cable.md)): 에너지 패킷을 운반하며 [케이블 손실](cable-loss.md)을 통해 전압을 낮출 수 있습니다. 전선은 EU를 저장하지 않습니다.
+- **소비 블록**: 에너지 패킷을 자체 EU 버퍼로 받습니다. 단일 블록 기계, 변압기 또는 배터리 버퍼의 입력 측, 에너지 해치 등이 이에 해당합니다. 수용하는 패킷의 최대 전압은 일반적으로 해당 티어의 표준 전압입니다.
 
-# Request-and-Push Behavior
+# 요청 및 푸시 동작
 
-In game terms, local power networks use a **request-and-push** system. Assuming the setup is safe:
+게임 내에서 지역 전력망은 **요청 및 푸시** 시스템을 사용합니다. 구성이 안전하다고 가정하면 다음과 같습니다.
 
-- Power transfer is fundamentally a transfer **from the transmitter block's EU buffer directly into the consumer block's EU buffer**.
-- A transmitter block checks consumers whose buffers are not full, then pushes energy packets from its own buffer into them as needed.
-- Aside from the extra [transmission internal resistance](output-loss.md) paid when a transmitter converts buffered EU into packets, and the [cable loss](cable-loss.md) paid as each packet travels through wires, no power is wasted for no reason.
+- 전력 전송은 기본적으로 **송신 블록의 EU 버퍼에서 소비 블록의 EU 버퍼로 직접** 이루어집니다.
+- 송신 블록은 버퍼가 가득 차지 않은 소비 블록을 확인한 다음, 필요한 만큼 자신의 버퍼에서 해당 소비 블록으로 에너지 패킷을 푸시합니다.
+- 송신 블록이 저장된 EU를 패킷으로 변환할 때 발생하는 추가 [전송 내부 저항](output-loss.md)과 각 패킷이 전선을 통과할 때 발생하는 [케이블 손실](cable-loss.md)을 제외하면, 별다른 이유 없이 전력이 낭비되지는 않습니다.
 
-# Providing Power Safely
+# 안전한 전력 공급
 
-Unsafe setups have catastrophic consequences:
+안전하지 않은 구성은 치명적인 결과를 초래합니다.
 
-- If the input voltage of a consumer block exceeds its maximum input voltage, the consumer **explodes immediately**. Do not power an LV Arc Furnace with MV packets; instead, use more LV generators or step the voltage down with a [transformer](distribution.md#transformers).
-- If a wire carries voltage above its maximum voltage or current above its maximum current, the wire **burns up** and is replaced by fire.
+- 소비 블록의 입력 전압이 최대 입력 전압을 초과하면 소비 블록이 **즉시 폭발합니다**. MV 패킷으로 LV 아크 화로에 전력을 공급하지 마십시오. 대신 LV 발전기를 더 사용하거나 [변압기](distribution.md#transformers)로 전압을 낮추십시오.
+- 전선에 최대 전압을 초과하는 전압이 흐르거나 최대 전류를 초과하는 전류가 흐르면 전선이 **타버리고** 불로 교체됩니다.
 
-Current is additive: the current carried by a wire segment is the sum of all current flowing through it. The maximum current that can appear in a local power network cannot exceed the total maximum output current of all transmitter blocks in that network. Whether a wire burns depends on the highest packet voltage among all packets flowing through it.
+전류는 합산됩니다. 전선 구간에 흐르는 전류는 해당 구간을 통해 흐르는 모든 전류의 합입니다. 지역 전력망에 흐를 수 있는 최대 전류는 해당 네트워크에 속한 모든 송신 블록의 최대 출력 전류 총합을 초과할 수 없습니다. 전선이 타는지는 해당 전선을 통해 흐르는 모든 패킷 중 가장 높은 패킷 전압에 따라 결정됩니다.
 
-# Providing Power Reliably
+# 안정적인 전력 공급
 
-Transmitter blocks and consumer blocks each have their own maximum output current and maximum input current. Each tick, there is a limit to how many energy packets a transmitter can push or a consumer can accept.
+송신 블록과 소비 블록에는 각각 고유한 최대 출력 전류와 최대 입력 전류가 있습니다. 매 틱마다 송신 블록이 푸시하거나 소비 블록이 받을 수 있는 에너지 패킷 수에는 제한이 있습니다.
 
-The purpose of reliable power supply is simple: consumer blocks should always receive enough packets to keep their buffers full and avoid power failures.
+안정적인 전력 공급의 목적은 간단합니다. 소비 블록이 버퍼를 가득 채우고 전력 부족을 방지할 수 있도록 항상 충분한 패킷을 받아야 합니다.
 
-Assuming the packet voltage received by the consumer is fixed, the average input current it needs is:
+소비 블록이 받는 패킷 전압이 고정되어 있다고 가정하면, 소비 블록에 필요한 평균 입력 전류는 다음과 같습니다.
 
 $$I_{\text{required input}} = \frac{P_{\text{recipe}}}{U_{\text{input}}}$$
 
-The necessary conditions for reliable power are:
+안정적인 전력 공급을 위해 필요한 조건은 다음과 같습니다.
 
-- The sum of the average input current required by all consumer blocks must not exceed the total maximum output current available from the transmitter blocks.
-- The average input current required by each consumer block must not exceed that block's own maximum input current.
+- 모든 소비 블록에 필요한 평균 입력 전류의 합이 송신 블록에서 제공되는 총 최대 출력 전류를 초과하지 않아야 합니다.
+- 각 소비 블록에 필요한 평균 입력 전류가 해당 블록의 자체 최대 입력 전류를 초과하지 않아야 합니다.
 
-If power is insufficient, singleblock machines powerfail and lose progress, while multiblocks powerfail, lose progress, and permanently void their inputs. Make sure the power supply is sufficient.
+전력이 부족하면 단일 블록 기계는 전력 부족 상태가 되어 진행 상황을 잃고, 다중 블록 기계는 전력 부족 상태가 되어 진행 상황을 잃으며 입력물을 영구적으로 소모합니다. 전력 공급이 충분한지 확인하십시오.
 
-# Useful Tools
+# 유용한 도구
 
-Use a GT EU Meter or a portable scanner on any powered block or wire to display its electrical information.
+전력이 공급되는 블록이나 전선에 GT EU 미터 또는 휴대용 스캐너를 사용하여 전기 정보를 표시하십시오.
 
-Pay special attention to these two values:
-- **Stored Energy**, which shows the internal EU buffer.
-- **Max Input/Output**, which shows maximum input/output voltage and current.
+다음 두 값에 특히 주의하십시오.
+
+- **저장된 에너지**: 내부 EU 버퍼를 표시합니다.
+- **최대 입력/출력**: 최대 입력/출력 전압과 전류를 표시합니다.

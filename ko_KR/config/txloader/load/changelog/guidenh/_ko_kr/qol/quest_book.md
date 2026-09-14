@@ -1,18 +1,18 @@
 ---
 navigation:
-  title: Quest Book Changes
+  title: 퀘스트 북 변경 사항
   parent: qol.md
   icon: questbook:ItemQuestBook
 categories:
-    - Quality Of Life
+    - 편의성
 author: Skorched
 date: 2026-05-16
 ---
 
-# Quest Book Changes
-The quest book has a fresh new look! Lines connecting quests now show arrows to help visualise the flow of quests, and which way the dependencies are going! Hovering over a quest will animate all lines connected to it. There is also a new button on the left sidebar to toggle the arrows if you prefer the old style.
+# 퀘스트 북 변경 사항
+퀘스트 북이 새롭게 바뀌었습니다! 퀘스트를 연결하는 선이 이제 화살표를 표시하므로, 퀘스트의 흐름과 의존성이 어느 방향으로 향하는지 시각적으로 확인할 수 있습니다! 퀘스트 위에 마우스를 올리면 해당 퀘스트와 연결된 모든 선에 애니메이션이 적용됩니다. 예전 스타일을 선호하신다면 왼쪽 사이드바의 새 버튼으로 화살표를 전환할 수 있습니다.
 
-Though there are some obvious changes to the quests (Coins page removal as an example), the Quest Dev team have been working tirelessly to make sure the entire quest book operates as smoothly as possible.
+퀘스트에 몇 가지 눈에 띄는 변경 사항이 있지만(예를 들어 코인 페이지 제거), 퀘스트 개발팀은 전체 퀘스트 북이 가능한 한 원활하게 작동하도록 쉬지 않고 노력해 왔습니다.
 
 > [!NOTE]
-> The animation can be disabled in the config if you so desire
+> 원하신다면 설정에서 애니메이션을 비활성화할 수 있습니다.

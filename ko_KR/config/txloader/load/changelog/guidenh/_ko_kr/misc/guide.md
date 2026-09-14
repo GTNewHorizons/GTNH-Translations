@@ -4,32 +4,32 @@ navigation:
   parent: misc.md
   icon: minecraft:book
 categories:
-    - Miscellaneous Changes
+    - 기타 변경 사항
 author: Skorched
 date: 2026-05-27
 ---
 
 # GuideNH
-GuideNH is a brand new mod to 2.9, designed to provide more accessible in-game information that was previously buried either in the quest book, or on external sites such as the wiki.
+GuideNH는 2.9를 위한 완전히 새로운 모드로, 이전에는 퀘스트 북이나 위키 같은 외부 사이트에 묻혀 있던 게임 내 정보를 더 쉽게 접근할 수 있도록 제공하기 위해 설계되었습니다.
 
 > [!IMPORTANT]
-> This is not intended to __replace__ the wiki, but instead provide vital in-game information to get started
+> 이는 위키를 __대체__하기 위한 것이 아니라, 시작하는 데 필요한 중요한 게임 내 정보를 제공하기 위한 것입니다.
 
-## Usage
-Hovering your mouse on the left side brings up the "Navigation" bar. This will show the "top-level" categories defined by the guides. Guides are generally sectioned into relevant mods (for example, AE2 guides under AppliedEnergistics2), but there are some exceptions, such as the changelog you are now reading!
+## 사용법
+마우스를 왼쪽에 올리면 "내비게이션" 바가 나타납니다. 이는 가이드에서 정의한 "최상위" 분류를 표시합니다. 가이드는 일반적으로 관련 모드별로 구분됩니다(예: AE2 가이드는 AppliedEnergistics2 아래에 있습니다). 하지만 지금 읽고 계신 변경 로그처럼 일부 예외도 있습니다!
 
-From here, those categories expand to show the guides within that category. The category index page can also be clicked for a basic overview of the category, and links to all sub-pages
+여기에서 해당 분류를 펼치면 그 분류에 속한 가이드가 표시됩니다. 분류 색인 페이지를 클릭하면 해당 분류의 기본 개요와 모든 하위 페이지로 가는 링크를 볼 수 있습니다.
 
-Pages can be bookmarked from the right side of the Navigation bar, and the home page (accessed on the header-bar) will show any recommended guides, alongside your history!
+페이지는 내비게이션 바 오른쪽에서 북마크할 수 있으며, 헤더 바에서 접근하는 홈 페이지에서는 기록과 함께 추천 가이드를 표시합니다!
 
-Searching also is in-built, allowing you to find what you need without searching.
+검색 기능도 내장되어 있어, 별도로 검색하지 않고도 필요한 것을 찾을 수 있습니다.
 
-Guide authors can also set an item or block as the "item_id" for the page, allowing you to "Hold [G] to open guide" either in the inventory, or in NEI itself.
+가이드 작성자는 페이지의 "item_id"로 아이템이나 블록을 설정할 수도 있으며, 그러면 인벤토리나 NEI 자체에서 "가이드를 열려면 [G]를 길게 누르십시오" 문구를 통해 가이드를 열 수 있습니다.
 
-## Features
-The list of features is frankly too long to properly list here, so please accept this semi-random collation of things simply to showcase the range of ideas that can be rendered in this mod:
+## 기능
+기능 목록은 솔직히 여기에 제대로 나열하기에는 너무 길기 때문에, 이 모드에서 표현할 수 있는 아이디어의 범위를 보여주기 위해 다소 무작위로 모은 것들을 봐 주십시오:
 
-<Color id="GREEN">This _is_ an __example__ of ~~the same~~ <u>different</u> ___formats___</Color>
+<Color id="GREEN">이것은 ~~같은~~ <u>다른</u> ___형식___의 __예시__입니다</Color>
 
 <GameScene width="420" height="280" zoom={3} interactive={true}>
   <ImportStructure src="../assets/reworks/coke_oven.snbt" />
@@ -39,9 +39,9 @@ The list of features is frankly too long to properly list here, so please accept
 <br clear="all"/>
 
 <Latex tooltip="Look mom! A tooltip!" color="FF55FF" formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times 1.0 \times \eta">
-  - $$\dot{m}$$: Current <Color id="GREEN">Flow</Color> Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
+  - $$\dot{m}$$: 현재 <Color id="GREEN">흐름</Color> 속도
+  - $$\dot{m}^*$$: 최적 흐름 속도
+  - $$\eta$$: 효율
 </Latex>
 
 <br clear="all"/>
@@ -60,7 +60,7 @@ The list of features is frankly too long to properly list here, so please accept
   <ImportStructureLib controller="gregtech:gt.blockmachines:9500" />
 </GameScene>
 
-## Technical Details
-GuideNH works using <Color id="GREEN">Markdown</Color> pages, with YAML frontmatter and MDX-Style runtime tags. Pages are specified as being under a certain language by placing under a language folder such as `_en_us`.
+## 기술 세부 사항
+GuideNH는 <Color id="GREEN">Markdown</Color> 페이지를 사용하며, YAML 프런트매터와 MDX 스타일 런타임 태그를 사용합니다. 페이지는 `_en_us` 같은 언어 폴더 아래에 두어 특정 언어에 속하도록 지정합니다.
 
-For a full list of tags, and how specifics of navigation and more are handled, check the [Wiki!](https://github.com/ABKQPO/GuideNH)
+태그의 전체 목록과 내비게이션 등의 세부 처리 방식은 [Wiki!](https://github.com/ABKQPO/GuideNH)를 확인하십시오.
