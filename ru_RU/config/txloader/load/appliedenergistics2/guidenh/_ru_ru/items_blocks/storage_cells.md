@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Storage Cells
+  title: Ячейки хранения
   icon: appliedenergistics2:item.ItemBasicStorageCell.1k
 categories:
 - tools
@@ -92,7 +92,7 @@ item_ids:
 - ae2fc:creative_fluid_storage
 ---
 
-# Storage Cells
+# Ячейки хранения
 
 <Column>
   <Row>
@@ -132,125 +132,125 @@ item_ids:
   </Row>
 </Column>
 
-Storage Cells are one of the primary storage methods in Applied Energistics 2. They can be installed in a <ItemLink id="appliedenergistics2:tile.BlockDrive" /> or a <ItemLink id="appliedenergistics2:tile.BlockChest" />.
+Ячейки хранения - один из основных способов хранения в Applied Energistics 2. Их можно установить в <ItemLink id="appliedenergistics2:tile.BlockDrive" /> или <ItemLink id="appliedenergistics2:tile.BlockChest" />.
 
-See [Bytes and Types](../ae2_mechanics/bytes_and_types.md) for an explanation of their capacities in bytes and types.
+Объяснение того, как считается их вместимость в байтах и типах, смотри в разделе [Байты и типы](../ae2_mechanics/bytes_and_types.md).
 
-If a Storage Cell is empty, hold it in your hand and Shift + Right-click to remove the storage component from its housing.
+Если ячейка хранения пуста, возьми её в руку и нажми Shift+ПКМ, чтобы извлечь компонент хранения из корпуса.
 
-## Storage Capacity with Varying Type Count
+## Вместимость при разном количестве типов
 
-The [upfront cost of types](../ae2_mechanics/bytes_and_types.md) is such that a cell holding 1 type can hold 2x as much as a cell with all 63 types in use.
+[Типы забирают байты вперёд](../ae2_mechanics/bytes_and_types.md), поэтому ячейка с 1 типом вмещает вдвое больше, чем ячейка, где заняты все 63 типа.
 
-| Storage Cell | Total Capacity of Cell With 1 Type In Use | Total Capacity of Cell With Maximum Types In Use |
+| Ячейка хранения | Общая вместимость при 1 занятом типе | Общая вместимость при максимуме занятых типов |
 | --- | ---: | ---: |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" scale="4" />            |       8,128 |      4,160 |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="4" />            |      32,512 |     16,640 |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.16k" scale="4" />           |     130,048 |     66,560 |
-| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.64k" scale="4" />           |     520,192 |    266,240 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" scale="4" />       |   2,080,768 |  1,064,960 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.1024k" scale="4" />      |   8,323,072 |  4,259,840 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.4096k" scale="4" />      |  33,292,288 | 17,039,360 |
-| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.16384k" scale="4" />     | 133,169,152 | 68,157,440 |
-| <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Container" scale="4" />   |     524,224 |          - |
-| <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" scale="4" />     |       1.07G |          - |
-| <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" scale="4" /> |       4.61E |          - |
-| <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" scale="4" />    |       4.61E |      4.61E |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" scale="4" />            |       8 128 |      4 160 |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="4" />            |      32 512 |     16 640 |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.16k" scale="4" />           |     130 048 |     66 560 |
+| <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.64k" scale="4" />           |     520 192 |    266 240 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" scale="4" />       |   2 080 768 |  1 064 960 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.1024k" scale="4" />      |   8 323 072 |  4 259 840 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.4096k" scale="4" />      |  33 292 288 | 17 039 360 |
+| <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.16384k" scale="4" />     | 133 169 152 | 68 157 440 |
+| <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Container" scale="4" />   |     524 224 |          - |
+| <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" scale="4" />     |       1,07G |          - |
+| <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" scale="4" /> |       4,61E |          - |
+| <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" scale="4" />    |       4,61E |      4,61E |
 
 ---
 
-| Fluid Storage Cell | Total Capacity (mB) with 1 Type in Use | Total Capacity (mB) with Maximum Types in Use |
+| Жидкостная ячейка хранения | Общая вместимость (мБ) при 1 занятом типе | Общая вместимость (мБ) при максимуме занятых типов |
 | --- | ---: | ---: |
-| <ItemLink id="ae2fc:fluid_storage1" scale="4" />            |      2,080,768 |      2,015,232 |
-| <ItemLink id="ae2fc:fluid_storage4" scale="4" />            |      8,372,224 |      8,060,928 |
-| <ItemLink id="ae2fc:fluid_storage16" scale="4" />           |     33,538,048 |     32,243,712 |
-| <ItemLink id="ae2fc:fluid_storage64" scale="4" />           |    134,201,344 |    128,974,848 |
-| <ItemLink id="ae2fc:fluid_storage256" scale="4" />          |    536,854,528 |    515,899,392 |
-| <ItemLink id="ae2fc:fluid_storage1024" scale="4" />         |  2,147,467,264 |  2,063,597,568 |
-| <ItemLink id="ae2fc:fluid_storage4096" scale="4" />         |  8,589,918,208 |  8,254,390,272 |
-| <ItemLink id="ae2fc:fluid_storage16384" scale="4" />        | 34,359,721,984 | 33,017,561,088 |
+| <ItemLink id="ae2fc:fluid_storage1" scale="4" />            |      2 080 768 |      2 015 232 |
+| <ItemLink id="ae2fc:fluid_storage4" scale="4" />            |      8 372 224 |      8 060 928 |
+| <ItemLink id="ae2fc:fluid_storage16" scale="4" />           |     33 538 048 |     32 243 712 |
+| <ItemLink id="ae2fc:fluid_storage64" scale="4" />           |    134 201 344 |    128 974 848 |
+| <ItemLink id="ae2fc:fluid_storage256" scale="4" />          |    536 854 528 |    515 899 392 |
+| <ItemLink id="ae2fc:fluid_storage1024" scale="4" />         |  2 147 467 264 |  2 063 597 568 |
+| <ItemLink id="ae2fc:fluid_storage4096" scale="4" />         |  8 589 918 208 |  8 254 390 272 |
+| <ItemLink id="ae2fc:fluid_storage16384" scale="4" />        | 34 359 721 984 | 33 017 561 088 |
 | <ItemLink id="ae2fc:fluid_storage.quantum" scale="4" />     |           275G |              - |
-| <ItemLink id="ae2fc:fluid_storage.singularity" scale="4" /> |          4.61E |              - |
-| <ItemLink id="ae2fc:fluid_storage.Universe" scale="4" />    |          9.22E |          9.22E |
+| <ItemLink id="ae2fc:fluid_storage.singularity" scale="4" /> |          4,61E |              - |
+| <ItemLink id="ae2fc:fluid_storage.Universe" scale="4" />    |          9,22E |          9,22E |
 
 ---
 
-| Essentia Storage Cell | Types | Total Essentia Capacity (No Type Overhead) |
+| Ячейка хранения эссенции | Типы | Общая вместимость эссенции (без затрат на типы) |
 | --- | ---: | ---: |
-| <ItemLink id="thaumicenergistics:storage.essentia" scale="4" />   | 12 |      2,048 |
-| <ItemLink id="thaumicenergistics:storage.essentia:1" scale="4" /> | 12 |      8,192 |
-| <ItemLink id="thaumicenergistics:storage.essentia:2" scale="4" /> | 12 |     32,768 |
-| <ItemLink id="thaumicenergistics:storage.essentia:3" scale="4" /> | 12 |    131,072 |
-| <ItemLink id="thaumicenergistics:storage.essentia:5" scale="4" /> | 24 |    524,288 |
-| <ItemLink id="thaumicenergistics:storage.essentia:6" scale="4" /> | 36 |  2,097,152 |
-| <ItemLink id="thaumicenergistics:storage.essentia:7" scale="4" /> | 48 |  8,388,608 |
-| <ItemLink id="thaumicenergistics:storage.essentia:8" scale="4" /> | 60 | 33,554,432 |
+| <ItemLink id="thaumicenergistics:storage.essentia" scale="4" />   | 12 |      2 048 |
+| <ItemLink id="thaumicenergistics:storage.essentia:1" scale="4" /> | 12 |      8 192 |
+| <ItemLink id="thaumicenergistics:storage.essentia:2" scale="4" /> | 12 |     32 768 |
+| <ItemLink id="thaumicenergistics:storage.essentia:3" scale="4" /> | 12 |    131 072 |
+| <ItemLink id="thaumicenergistics:storage.essentia:5" scale="4" /> | 24 |    524 288 |
+| <ItemLink id="thaumicenergistics:storage.essentia:6" scale="4" /> | 36 |  2 097 152 |
+| <ItemLink id="thaumicenergistics:storage.essentia:7" scale="4" /> | 48 |  8 388 608 |
+| <ItemLink id="thaumicenergistics:storage.essentia:8" scale="4" /> | 60 | 33 554 432 |
 | <ItemLink id="thaumicenergistics:storage.essentia:9" scale="4" /> |  1 |       268M |
 
-## Partitioning
+## Разметка
 
-Cells can be filtered to accept only certain items, similar to the filtering on an <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />. This is done in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
+Ячейкам можно задать фильтр, чтобы они принимали только определённые предметы, - так же, как фильтр на <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />. Делается это в <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
 
-Cells also support cell restrictions, allowing both the maximum byte capacity and the type count to be limited below their normal values.
+Ячейки также поддерживают ограничения: и максимальную вместимость в байтах, и количество типов можно урезать ниже их обычных значений.
 
-These settings are configured in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
+Эти настройки задаются в <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
 
-Items can be dragged into the slots from NEI even if you don't actually have any of that item.
+Предметы можно перетаскивать в слоты прямо из NEI, даже если самого предмета у тебя нет.
 
-## Upgrades
-Storage cells support the following upgrades, inserted via a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />:
+## Улучшения
+Ячейки хранения поддерживают следующие улучшения, которые вставляются через <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />:
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> (not available on fluid cells) lets the cell be partitioned by damage level and/or ignore item NBT
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> switches the filter from a whitelist to a blacklist
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" /> allocates the same amount of cell byte space to each type, so one type cannot fill up the entire cell
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> voids items inserted if the cell is full (or that specific type's allocated space in the case of an equal distribution card), useful for stopping farms from backing up. Be careful to partition this!
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" /> allows filtering using Ore Dictionary and supports regular expression matching
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:64" /> (Only functions when partitioning is enabled) designates a preferred storage location for specific items or fluids. Marked items and fluids will only be stored in cells containing a Sticky Card instead of other available storage on the network
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> (недоступна для жидкостных ячеек) позволяет размечать ячейку по степени повреждения и/или игнорировать NBT предмета
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> переключает фильтр с белого списка на чёрный
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" /> выделяет каждому типу одинаковый объём байт ячейки, так что один тип не сможет заполнить собой всю ячейку
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> уничтожает поступающие предметы, если ячейка заполнена (или заполнено место, выделенное под этот тип, при использовании карты равного распределения), - полезно, чтобы фермы не забивались. Не забудь настроить разметку!
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" /> позволяет фильтровать по словарю руд и поддерживает регулярные выражения
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:64" /> (работает только при включённой разметке) назначает предпочтительное место хранения для определённых предметов или жидкостей. Отмеченные предметы и жидкости будут храниться только в ячейках с Липкой картой, а не в другом доступном хранилище сети
 
-# Housings
+# Корпуса
 
-Most storage cells are assembled from a Storage Component and a corresponding Housing. Different capacities and storage types require different housings. Certain special storage cells are crafted directly and do not require housings.
+Большинство ячеек хранения собираются из компонента хранения и соответствующего корпуса. Для разной вместимости и разных типов хранения нужны разные корпуса. Некоторые особые ячейки хранения крафтятся напрямую и корпуса не требуют.
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:39" /> used for crafting 1k – 64k Item Storage Cells
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:39" /> используется для крафта предметных ячеек хранения от 1k до 64k
 <br> <RecipesFor id="appliedenergistics2:item.ItemBasicStorageCell.1k" output="appliedenergistics2:item.ItemBasicStorageCell.1k" />
-<br> Housings by themselves are crafted like so:
+<br> Сами корпуса крафтятся так:
 <br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:39" limit="3" />
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:61" /> used for crafting 256k – 16384k Item Storage Cells
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:61" /> используется для крафта предметных ячеек хранения от 256k до 16384k
 <br> <RecipesFor id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" output="appliedenergistics2:item.ItemAdvancedStorageCell.256k" />
-<br> Housings by themselves are crafted like so:
+<br> Сами корпуса крафтятся так:
 <br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:61" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing" /> used for crafting 1k – 64k Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing" /> используется для крафта жидкостных ячеек хранения от 1k до 64k
 <br> <RecipesFor id="ae2fc:fluid_storage1" output="ae2fc:fluid_storage1"/>
-<br> Housings by themselves are crafted like so:
+<br> Сами корпуса крафтятся так:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing" handlerId="gt.recipe.assembler" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:1" /> used for crafting 256k – 16384k Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing:1" /> используется для крафта жидкостных ячеек хранения от 256k до 16384k
 <br> <RecipesFor id="ae2fc:fluid_storage256" output="ae2fc:fluid_storage256"/>
-<br> Housings by themselves are crafted like so:
+<br> Сами корпуса крафтятся так:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:1" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:2" /> used for crafting 1k – 64k Multi-Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing:2" /> используется для крафта мульти-жидкостных ячеек хранения от 1k до 64k
 <br> <RecipesFor id="ae2fc:multi_fluid_storage1" output="ae2fc:multi_fluid_storage1" />
-<br> Housings by themselves are crafted like so:
+<br> Сами корпуса крафтятся так:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:2" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:3" /> used for crafting 256k – 16384k Multi-Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing:3" /> используется для крафта мульти-жидкостных ячеек хранения от 256k до 16384k
 <br> <RecipesFor id="ae2fc:multi_fluid_storage256" output="ae2fc:multi_fluid_storage256" />
-<br> Housings by themselves are crafted like so:
+<br> Сами корпуса крафтятся так:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:3" />
 
-*   <ItemLink id="thaumicenergistics:storage.casing" /> used for crafting Essentia Storage Cells
+*   <ItemLink id="thaumicenergistics:storage.casing" /> используется для крафта ячеек хранения эссенции
 <br> <RecipesFor id="thaumicenergistics:storage.essentia" output="thaumicenergistics:storage.essentia" />
-<br> Housings by themselves are crafted like so:
+<br> Сами корпуса крафтятся так:
 <br> <RecipesFor id="thaumicenergistics:storage.casing" />
 
-# Storage Components
+# Компоненты хранения
 
-Storage Components are the core of ME Storage Cells and determine their storage capacity.
+Компоненты хранения - это основа МЭ ячеек хранения, они определяют их вместимость.
 
-Each tier increases storage capacity by a factor of four and requires four components of the previous tier to craft. They can also be manufactured directly in a Circuit Assembler.
+Каждый следующий тир вмещает в четыре раза больше, а для его крафта нужны четыре компонента предыдущего тира. Также их можно производить напрямую в сборщике электросхем.
 
 <Column>
   <Row>
@@ -274,9 +274,9 @@ Each tier increases storage capacity by a factor of four and requires four compo
   </Row>
 </Column>
 
-# Item Storage Cells
+# Предметные ячейки хранения
 
-Standard Item Storage Cells can hold up to 63 distinct types of items, and are available in all the standard capacities.
+Стандартные предметные ячейки хранения вмещают до 63 разных типов предметов и существуют во всех стандартных размерах.
 
 <Column>
   <Row>
@@ -300,28 +300,28 @@ Standard Item Storage Cells can hold up to 63 distinct types of items, and are a
   </Row>
 </Column>
 
-## Special Item Storage Cells
+## Особые предметные ячейки хранения
 
-*   <ItemLink id="appliedenergistics2:item.ItemVoidStorageCell" /> can destroy all items stored within it
+*   <ItemLink id="appliedenergistics2:item.ItemVoidStorageCell" /> уничтожает все помещённые в неё предметы
 <br><Recipe id="appliedenergistics2:item.ItemVoidStorageCell" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Container" /> can store only a single item type and provides 65,536 bytes of storage capacity
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Container" /> хранит только один тип предметов и даёт 65 536 байт вместимости
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Container" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" /> can store only a single item type and provides 134,217,727 bytes of storage capacity
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" /> хранит только один тип предметов и даёт 134 217 727 байт вместимости
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" /> can store only a single item type and provides 576,460,752,303,423,487 bytes of storage capacity
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" /> хранит только один тип предметов и даёт 576 460 752 303 423 487 байт вместимости
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" /> can store up to 63 item types and provides 576,460,752,303,423,487 bytes of storage capacity
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" /> хранит до 63 типов предметов и даёт 576 460 752 303 423 487 байт вместимости
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" />
 
-## Portable Item Storage
+## Переносное хранилище предметов
 
-Portable cells act like a tiny <ItemLink id="appliedenergistics2:tile.BlockChest" /> you can carry with you, similar to a backpack.
+Переносные ячейки работают как крошечный <ItemLink id="appliedenergistics2:tile.BlockChest" />, который можно носить с собой, - что-то вроде рюкзака.
 
-They can be charged in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
+Их можно заряжать в <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
 
-Unlike standard Storage Cells, they can store only 27 item types and have a total capacity of 512 bytes.
+В отличие от стандартных ячеек хранения, они вмещают только 27 типов предметов, а их общая вместимость - 512 байт.
 
-They support only the following upgrade cards:
+Они поддерживают только следующие карты улучшений:
 
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" />
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />
@@ -330,65 +330,65 @@ They support only the following upgrade cards:
 
 <RecipesFor id="appliedenergistics2:item.ToolPortableCell" />
 
-# Fluid Storage Components
+# Жидкостные компоненты хранения
 
-Fluid Storage Components are the core of ME Fluid Storage Cells and determine their storage capacity.
+Жидкостные компоненты хранения - это основа МЭ жидкостных ячеек хранения, они определяют их вместимость.
 
-Each tier increases capacity by a factor of four and requires four components of the previous tier to craft. They can also be manufactured directly in a Circuit Assembler.
+Каждый следующий тир вмещает в четыре раза больше, а для его крафта нужны четыре компонента предыдущего тира. Также их можно производить напрямую в сборщике электросхем.
 
-# Fluid Storage Cells
+# Жидкостные ячейки хранения
 
-Standard Fluid Storage Cells are divided into two categories:
+Стандартные жидкостные ячейки хранения делятся на две категории:
 
-Fluid Storage Cells can store only one fluid type.
+Жидкостные ячейки хранения хранят только один тип жидкости.
 
-Multi-Fluid Storage Cells can store up to five fluid types.
+Мульти-жидкостные ячейки хранения хранят до пяти типов жидкостей.
 
-Both are available in all standard capacity tiers.
+Обе категории существуют во всех стандартных тирах вместимости.
 
-## Special Fluid Storage Cells
+## Особые жидкостные ячейки хранения
 
-*   <ItemLink id="ae2fc:fluid_storage.void" /> can destroy all stored fluids
+*   <ItemLink id="ae2fc:fluid_storage.void" /> уничтожает все помещённые в неё жидкости
 <br><Recipe id="ae2fc:fluid_storage.void" />
-*   <ItemLink id="ae2fc:fluid_storage.infinity.water" /> can provide an unlimited supply of water, up to 4,503,599,627,370,495 mB of water
+*   <ItemLink id="ae2fc:fluid_storage.infinity.water" /> даёт неограниченный запас воды, до 4 503 599 627 370 495 мБ
 <br><Recipe id="ae2fc:fluid_storage.infinity.water" />
-*   <ItemLink id="ae2fc:fluid_storage.quantum" /> can store only a single fluid type and provides 134,217,727 bytes of storage capacity
+*   <ItemLink id="ae2fc:fluid_storage.quantum" /> хранит только один тип жидкости и даёт 134 217 727 байт вместимости
 <br><Recipe id="ae2fc:fluid_storage.quantum" />
-*   <ItemLink id="ae2fc:fluid_storage.singularity" /> can store only a single fluid type and provides 2,251,799,813,685,247 bytes of storage capacity
+*   <ItemLink id="ae2fc:fluid_storage.singularity" /> хранит только один тип жидкости и даёт 2 251 799 813 685 247 байт вместимости
 <br><Recipe id="ae2fc:fluid_storage.singularity" />
-*   <ItemLink id="ae2fc:fluid_storage.Universe" /> can store up to 63 fluid types and provides 4,503,599,627,370,495 bytes of storage capacity
+*   <ItemLink id="ae2fc:fluid_storage.Universe" /> хранит до 63 типов жидкостей и даёт 4 503 599 627 370 495 байт вместимости
 <br><Recipe id="ae2fc:fluid_storage.Universe" />
 
-## Portable Fluid Storage Cell
+## Переносная жидкостная ячейка
 
-Portable Fluid Storage Cells can store up to five fluid types and have a total capacity of 256 bytes.
+Переносные жидкостные ячейки хранят до пяти типов жидкостей, а их общая вместимость - 256 байт.
 
-They do not support any upgrade cards.
+Карты улучшений они не поддерживают.
 
 <RecipesFor id="ae2fc:portable_fluid_cell" />
 
-# Essentia Storage Components
+# Компоненты хранения эссенции
 
-Essentia Storage Components are the core of ME Essentia Storage Cells and determine their storage capacity.
+Компоненты хранения эссенции - это основа МЭ ячеек хранения эссенции, они определяют их вместимость.
 
-Each tier increases capacity by a factor of four and requires four components of the previous tier to craft. They can also be manufactured directly in a Circuit Assembler.
+Каждый следующий тир вмещает в четыре раза больше, а для его крафта нужны четыре компонента предыдущего тира. Также их можно производить напрямую в сборщике электросхем.
 
-# Essentia Storage Cells
+# Ячейки хранения эссенции
 
-1k - 64k Essentia Storage Cells support 12 Essentia types.
+Ячейки хранения эссенции от 1k до 64k поддерживают 12 типов эссенции.
 
-Starting at 256k, each tier increases the supported Essentia type count by 12.
+Начиная с 256k, каждый тир добавляет ещё 12 поддерживаемых типов эссенции.
 
-## Special Essentia Storage Cells
+## Особые ячейки хранения эссенции
 
-*   <ItemLink id="thaumicenergistics:storage.essentia:9" /> can store only a single Essentia type and provides 134,217,727 bytes of storage capacity
+*   <ItemLink id="thaumicenergistics:storage.essentia:9" /> хранит только один тип эссенции и даёт 134 217 727 байт вместимости
 <br><Recipe id="thaumicenergistics:storage.essentia:9" />
-*   <ItemLink id="thaumicenergistics:storage.essentia:10" /> can store only a single Essentia type and provides 2,305,843,009,213,693,951 bytes of storage capacity
+*   <ItemLink id="thaumicenergistics:storage.essentia:10" /> хранит только один тип эссенции и даёт 2 305 843 009 213 693 951 байт вместимости
 <br><Recipe id="thaumicenergistics:storage.essentia:10" />
-*   <ItemLink id="thaumicenergistics:storage.essentia:4" /> can provide infinite amounts of every Essentia type, up to 4,503,599,627,370,495 units per type
+*   <ItemLink id="thaumicenergistics:storage.essentia:4" /> даёт бесконечный запас эссенции каждого типа, до 4 503 599 627 370 495 единиц на тип
 <br><Recipe id="thaumicenergistics:storage.essentia:4" />
 
-# Creative Storage Cells
+# Творческие ячейки хранения
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemCreativeStorageCell" scale="2" />
@@ -396,4 +396,4 @@ Starting at 256k, each tier increases the supported Essentia type count by 12.
   <ItemImage id="ae2fc:creative_fluid_storage" scale="2" />
 </Row>
 
-Creative cells **do not provide infinite storage**. Instead, they act as infinite sources and sinks for whatever item or fluid you [partition](cell_workbench.md) them to, up to 4,503,599,627,370,495 units.
+Творческие ячейки **не дают бесконечного хранилища**. Вместо этого они работают как бесконечный источник и бесконечный сток для того предмета или жидкости, под который ты их [разметил](cell_workbench.md), до 4 503 599 627 370 495 единиц.

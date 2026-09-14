@@ -3284,7 +3284,7 @@ GT5U.gui.text.button.cryotheum.disabled=Охлаждение криотеумо�
 
 # NAC Keys
 GT5U.gui.text.recipe_result.nac.missing_water=Недостаточно воды
-GT5U.gui.text.recipe_result.nac.waiting_for_power=Ожидание энергии
+GT5U.gui.text.recipe_result.nac.waiting_for_power=Waiting For Power
 GT5U.gui.text.recipe_result.nac.no_valid_hatch_color=VCO с цветом %s не найден
 GT5U.gui.text.nac.amount=Количество: %s
 GT5U.gui.text.nac.splitter.redstone_level=Текущий уровень редстоун сигнала
@@ -3918,8 +3918,8 @@ GT5U.chat.machine.processing.enable=Прогресс механизма: Вкл�
 GT5U.chat.machine.processing.disable=Прогресс механизма: Отключён
 GT5U.chat.pipe.processing.enable=Cover Processing: Enabled
 GT5U.chat.pipe.processing.disable=Cover Processing: Disabled
-GT5U.chat.machine.redstone_output_set.strong=Выход красного камня на стороне %s установлен на: Сильный
-GT5U.chat.machine.redstone_output_set.weak=Выход красного камня на стороне %s установлен на: Слабый
+GT5U.chat.machine.redstone_output_set.strong=%s сторона: выход красного камня установлен на сильный
+GT5U.chat.machine.redstone_output_set.weak=%s сторона: выход красного камня установлен на слабый
 GT5U.chat.machine.auto_input.disable=Авто-ввод: Отключён
 GT5U.chat.machine.auto_input.enable=Авто-ввод: Включён
 GT5U.chat.machine.auto_output.disable=Авто-вывод: Отключён
@@ -4460,22 +4460,22 @@ GT5U.config.waila.WailaTransformerVoltageTier=Показать тир вольт
 GT5U.config.waila.WailaAverageNS=Показывать среднее время мультиблоков в нс в Waila
 
 # Cover tabs
-GT5U.interface.coverTabs.down=нижней
-GT5U.interface.coverTabs.up=верхней
-GT5U.interface.coverTabs.north=северной
-GT5U.interface.coverTabs.south=южной
-GT5U.interface.coverTabs.west=западной
-GT5U.interface.coverTabs.east=восточной
-GT5U.interface.coverTabs.cover_on=Модуль на %s стороне: %s
-GT5U.interface.coverTabs.emits_redstone=Излучает сильный сигнал красного камня на стороне %s
+GT5U.interface.coverTabs.down=Нижняя
+GT5U.interface.coverTabs.up=Верхняя
+GT5U.interface.coverTabs.north=Северная
+GT5U.interface.coverTabs.south=Южная
+GT5U.interface.coverTabs.west=Западная
+GT5U.interface.coverTabs.east=Восточная
+GT5U.interface.coverTabs.cover_on=Модуль: %2$s (%1$s)
+GT5U.interface.coverTabs.emits_redstone=Излучает сильный сигнал красного камня %s
 
 GT5U.interface.coverTabs.redstone.bottom=снизу
 GT5U.interface.coverTabs.redstone.top=сверху
-GT5U.interface.coverTabs.redstone.north=север
-GT5U.interface.coverTabs.redstone.south=юг
-GT5U.interface.coverTabs.redstone.west=запад
-GT5U.interface.coverTabs.redstone.east=восток
-GT5U.interface.coverTabs.redstone.unknown=<unknown>
+GT5U.interface.coverTabs.redstone.north=с севера
+GT5U.interface.coverTabs.redstone.south=с юга
+GT5U.interface.coverTabs.redstone.west=с запада
+GT5U.interface.coverTabs.redstone.east=с востока
+GT5U.interface.coverTabs.redstone.unknown=<неизвестно>
 
 ## Redstone Receiver
 GT5U.gui.tooltip.redstone_receiver.GateMode=§8Гейт режим
@@ -9617,7 +9617,7 @@ gt.blockmachines.hatch.bec.name=Шлюз конденсата Бозе-Эйнш�
 gt.blockmachines.hatch.nanite-detector.name=Детектор нанитов
 gt.blockmachines.hatch.io-node-controller.name=Люк контроллера узла телепортации
 gt.blockmachines.hatch.condensate-detector.name=Детектор конденсата Бозе-Эйнштейна
-gt.blockmachines.hatch.line-of-sight-connector.name=Line-Of-Sight Connector Hatch
+gt.blockmachines.hatch.line-of-sight-connector.name=Соединительный шлюз прямой видимости
 
 gt.blockmachines.multi.bec.generator.name=Аппарат квантового запутывания конденсата Бозе-Эйнштейна
 gt.blockmachines.multi.bec.storage.name=Поле удержания конденсата Бозе-Эйнштейна
