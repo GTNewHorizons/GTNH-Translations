@@ -38,6 +38,7 @@ They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleb
 Electric multiblocks come in many forms and use **Energy Hatches** to receive power. They require maintenance, but you can upgrade them by replacing their Energy Hatches with higher-tier ones.
 
 - [Vacuum Freezer](./vacuum_freezer.md): Cools hot ingots and processes certain fluids and coolant cells.
+- [Distillation Tower](./distillation_tower.md): Separates a fluid into all of its fractions at once and outputs each one on a dedicated layer.
 
 # Structure
 

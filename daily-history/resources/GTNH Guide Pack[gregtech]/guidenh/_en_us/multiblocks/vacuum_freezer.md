@@ -104,4 +104,3 @@ See [Multiblock Machines](./multiblocks-index.md) for general multiblock operati
 ## References
 
 - [GTNH Wiki: Vacuum Freezer](https://wiki.gtnewhorizons.com/wiki/Vacuum_Freezer)
-- [GTNH Chinese Wiki: Vacuum Freezer](https://gtnh.huijiwiki.com/wiki/真空冷冻机)
