@@ -1608,7 +1608,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAD9w.desc=要制造塑料电路基板，�
 
 # Quest: Raw Carbon Mesh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADBQ.name=§6§l生碳网
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADBQ.desc=这种制造碳板的方法是在高压釜中加入碳粉。有四种不同的可用流体。%n%n每个时代都有各自的最佳方案：LV时代，使用熔融聚乙烯会得到1个碳纤维；MV时代，使用聚四氟乙烯会得到2个；HV时代，使用环氧树脂会得到4个；EV时代，使用聚苯并咪唑可以得到16个。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADBQ.desc=这种制造碳板的方法需要在高压釜中处理碳粉。有四种不同的可用流体，检查NEI以得知每种流体对应的产出。
 
 # Quest: Bio Organic Mesh
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADBg.name=§6§l生物有机网
@@ -2847,7 +2847,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGgg.desc=要处理一些你以后会发�
 
 # Quest: Your First Naquadah Ingot
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGgw.name=§9§l你的第一块硅岩锭
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGgw.desc=你可能已经注意到，现在你无法直接从硅岩矿石中获得硅岩粉了，它只能出产氧化硅岩混合物（NOM）粉，真让人恼火。%n%n完整的硅岩处理线非常复杂，尤其在IV阶段，我相信在完成了铂系处理线、聚苯并咪唑（PBI）线，以及镧系处理线之后，你不会想在短时间内再搭一条线。%n%n幸好，你可以在工业高炉（EBF）中直接熔炼氧化硅岩混合物粉，获得硅岩粒，但这样没什么效率，会损失其中的副产物。%n%n[note]PS：氧化硅岩混合物有时候也叫“氧化硅岩金属混合物”，缩写为Nq-MOM。 [/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGgw.desc=你可能已经注意到，现在你无法直接从硅岩矿石中获得硅岩粉了，它只能出产氧化硅岩混合物（NOM）粉，真让人恼火。%n%n完整的硅岩处理线非常复杂，不适合放在IV阶段。我相信在完成了铂系处理线、聚苯并咪唑（PBI）线，以及镧系处理线之后，你不会想在短时间内再搭一条线。%n%n幸好，你可以在工业高炉中直接熔炼氧化硅岩混合物粉，获得硅岩粒，但这样没什么效率，且会损失其中的副产物。%n%n[note]PS：氧化硅岩混合物有时候也叫“氧化硅岩金属混合物”，有些人将其缩写为Nq-MOM。 [/note]
 
 # Quest: IV Circuit Assembler
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGhQ.name=§9§lIV电路组装机
@@ -2883,7 +2883,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGlQ.desc=ASOC，全称为先进片上系
 
 # Quest: Polybenzimidazole
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.name=§9§l聚苯并咪唑
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.desc=聚苯并咪唑（简称PBI）是用于ZPM机器外壳和高级太阳能电池板的合成纤维，它还能提高某些其他物品的合成效率。制作它需要很多步骤。让我们从基本原料开始。首先，我们用苯和氯制造一些氯苯。另外，别忘了完成IV阶段的其他非铂系化学任务。%n%n§3已经能自动化生产聚苯并咪唑了？手持128个聚苯并咪唑板来跳过该任务。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAGmw.desc=聚苯并咪唑（简称PBI）是用于ZPM机器外壳和高级太阳能电池板的合成纤维，它还能提高某些其他物品的合成效率。制作它需要很多步骤。让我们从氯苯开始。另外，别忘了完成IV阶段的其他非铂系化学任务。%n%n§3已经能自动化生产聚苯并咪唑了？手持128个聚苯并咪唑板来跳过该任务。
 
 # Quest: Nitration Mixture
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGnA.name=§9§l硝酸混酸
@@ -4252,7 +4252,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFQ.desc=无尽镐，永不磨损，能�
 
 # Quest: Galaxy in a Bottle...?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.name=§5§l§n瓶中的银河……？
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.desc=祝你好运，这玩意比前面几级难上好多倍。制作诸如海珀珍之类的许多终极材料时都需要它。%n%nMK-IV反应堆执行低等级配方时可获得 4/4 超频，而非之前的 2/2 超频。也就是说，每次超频时，功率和运行速度都是原本的4倍而非2倍。%n%n不过，你可能会发现MK-IV聚变的配方速度§o相当§o§r慢。或许可以考虑建造一个压缩核聚变反应堆？%n%n[note]你只需要达成其中一种反应堆就能完成这个任务。[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.desc=祝你好运，这玩意比前面几级难上好多倍。制作诸如海珀珍之类的许多终极材料时都需要它。%n%nMK-IV反应堆执行低等级配方时可获得4/4超频，而非之前的2/2超频。也就是说，每次超频时，功率和运行速度都是原本的4倍而非2倍。%n%n不过，你可能会发现MK-IV聚变的配方速度§o相当§o§r慢。或许可以考虑建造一个压缩核聚变反应堆？%n%n[note]你只需要合成其中一种反应堆就能完成这个任务。[/note]
 
 # Quest: Hypogen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.name=§5§l§n海珀珍
@@ -9185,7 +9185,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA1g.desc=一步步走到这里可不容�
 
 # Quest: H8N4C2O4 (Green) Rocket Fuel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkw.name=§2§lH8N4C2O4（绿色）火箭燃料
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkw.desc=将你的四氧化二氮和偏二甲肼在劳伦姆(Tier 7)化学厂中混合以制造绿色火箭燃料%n%n这是最终的火箭燃料，有了它，你几乎可以去任何地方。当然，前提是你有合适的火箭。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAkw.desc=将你的四氧化二氮和偏二甲肼在劳伦姆合金(Tier 7)化学厂中混合以制造绿色火箭燃料%n%n这是最终的火箭燃料，有了它，你几乎可以去任何地方。当然，前提是你有合适的火箭。
 
 # Quest: Load and Unload the Rocket
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAzA.name=自动化装卸火箭
@@ -9481,7 +9481,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwA.desc=攀缘钩爪是一只钩爪配�
 
 # Quest: Nice and Comfortable - in Space!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwQ.name=漂亮又舒适 - 在太空！
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwQ.desc=即使在最寒冷的外层空间，这些保暖衣服也能让你保持温暖。 几乎所有3阶以上的星球都需要它们。%n%n[note]你还需要一些聚苯并咪唑(PBI).[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFwQ.desc=即使在最寒冷的外层空间，这些保暖衣服也能让你保持温暖。几乎所有3阶以上的星球都需要它们。%n%n[note]你还需要一些聚苯并咪唑（PBI）。[/note]
 
 # Quest: Io Dungeon
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGuw.name=木卫一地牢
