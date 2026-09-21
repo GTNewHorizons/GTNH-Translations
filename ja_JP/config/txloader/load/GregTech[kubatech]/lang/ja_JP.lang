@@ -150,16 +150,16 @@ kubatech.infodata.eec.weapon_preservation.yes=武器の保存: §eあり
 kubatech.infodata.eec.weapon_preservation.no=武器の保存: §eなし
 kubatech.infodata.eec.inserted_weapon.yes=配置された武器: §eあり
 kubatech.infodata.eec.inserted_weapon.no=配置された武器: §eなし
-kubatech.infodata.eec.weapon.damage=武器の攻撃ダメージ: §e%f
-kubatech.infodata.eec.weapon.looting_level=武器の幸運レベル: §e%d
-kubatech.infodata.eec.total_damage=合計攻撃ダメージ: §e%f
+kubatech.infodata.eec.weapon.damage=武器の攻撃ダメージ: §e%s
+kubatech.infodata.eec.weapon.looting_level=武器の幸運レベル: §e%s
+kubatech.infodata.eec.total_damage=合計攻撃ダメージ: §e%s
 
 ## Extreme Industrial Greenhouse
 kubatech.infodata.eig.running_mode.setup_mode.input=動作モード: §a準備モード (入力)§r
 kubatech.infodata.eig.running_mode.setup_mode.output=動作モード: §a準備モード (出力)§r
-kubatech.infodata.eig.uses.water=1回の稼働につき%dLの水を使用
-kubatech.infodata.eig.uses.weedex=毎秒%dLのWeed-EX 9000を使用
-kubatech.infodata.eig.max_slots=最大スロット数: §a%d§r
+kubatech.infodata.eig.uses.water=1回の稼働につき%sLの水を使用
+kubatech.infodata.eig.uses.weedex=毎秒%sLのWeed-EX 9000を使用
+kubatech.infodata.eig.max_slots=最大スロット数: §a%s§r
 kubatech.infodata.eig.used_slots=使用中のスロット数: %s
 kubatech.infodata.bucket.humidity=湿度:
 kubatech.infodata.bucket.humidity.on=オン
@@ -346,7 +346,7 @@ kubatech.tooltip.tea_ingredient.0=お茶の材料
 
 kubatech.tooltip.structure.flowers=花
 
-kubatech.tooltip.htgr_material=高温ガス冷却炉
+kubatech.tooltip.htgr_material=高温ガス冷却炉で使用
 defc.casing.7.name=ナクアダ合金製フュージョン外装
 defc.casing.8.name=血塗られたイコリウムのフュージョン外装
 defc.casing.9.name=ドラコニウムフュージョン外装
@@ -387,7 +387,7 @@ kubatech.multiblock.MegaIndustrialApiary.any_casing_luv=Any casing (LuV+)
 kubatech.multiblock.MegaIndustrialApiary.footer=Use regular or distilled water, place manually
 
 # Multiblocks
-gt.blockmachines.htgr.name=High Temperature Gas-cooled Reactor
-gt.blockmachines.industrialarcfurnace.controller.tier.single.name=Industrial Arc Furnace
-gt.blockmachines.multimachine.defusioncrafter.name=Draconic Evolution Fusion Crafter
+gt.blockmachines.htgr.name=高温ガス冷却炉
+gt.blockmachines.industrialarcfurnace.controller.tier.single.name=産業用アーク炉
+gt.blockmachines.multimachine.defusioncrafter.name=Draconic Evolutionフュージョンクラフター
 gt.blockmachines.multimachine.extremegreenhouse.name=Extreme Industrial Greenhouse
