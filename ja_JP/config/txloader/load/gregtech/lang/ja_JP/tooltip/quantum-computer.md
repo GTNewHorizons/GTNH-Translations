@@ -1,3 +1,3 @@
-Controller block of the Quantum Computer
-Used to generate computation (and heat)
-Use screwdriver to toggle wireless mode
+量子コンピューターの本体ブロック
+計算を生み出すのに使用(おまけの熱と共に)
+§8《§7ドライバー§8／Screwdriver》§7でワイヤレスモードを切り替え

@@ -1,6 +1,6 @@
-Controller block of the Microwave Grinder
-Starts a timer when enabled
-While the timer is running anything inside the machine will take damage
-The machine will also collect any items inside of it
-Can be configured with a Parametrizer
-(Do not insert a Wither)
+指向性マイクロ波兵器の本体ブロック
+有効化するとタイマーが開始します
+タイマー作動中は機械内部にあるものすべてがダメージを受けます
+機械内部にあるアイテムも回収します
+パラメトライザーで設定ができます
+(ウィザーは入れないこと)

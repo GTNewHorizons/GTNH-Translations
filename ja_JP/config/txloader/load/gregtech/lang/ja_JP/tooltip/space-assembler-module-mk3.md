@@ -1,4 +1,4 @@
-Module that adds the Space Assembler to the Space Elevator
-§d§lI guess we'll never know.
-Runs at UXV at §a200%§7 speed with up to §664§7 parallels
+宇宙エレベーターに宇宙組立機を追加するモジュール
+§d§lそれを私たちが知ることはないだろう。
+UXVで処理速度が§a200%§7向上し、最大 §664§7 の並列処理を行います
 {lang:gt.blockmachines.multimachine.project.ig.motorT5}

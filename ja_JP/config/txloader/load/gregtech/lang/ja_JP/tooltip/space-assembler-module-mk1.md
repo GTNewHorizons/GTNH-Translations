@@ -1,4 +1,4 @@
-Module that adds the Space Assembler to the Space Elevator
-§d§lWhy do I need to assemble stuff in space again?
-Runs at UHV with up to §64§7 parallels
+宇宙エレベーターに宇宙組立機を追加するモジュール
+§d§lなんでまた宇宙で組み立てしなきゃいけないんだ？
+UHVで最大 §64§7 の並列処理を行います
 {lang:gt.blockmachines.multimachine.project.ig.motorT1}

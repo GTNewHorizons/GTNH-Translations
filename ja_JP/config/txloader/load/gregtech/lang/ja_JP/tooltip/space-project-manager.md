@@ -1,4 +1,4 @@
-Module that allows you to manage your space projects
-§d§lThe start of something big
+宇宙プロジェクトの管理が可能になるモジュール
+§d§l大いなるものの始まり
 {lang:gt.blockmachines.multimachine.project.ig.desc2}
 {lang:gt.blockmachines.multimachine.project.ig.motorT1}

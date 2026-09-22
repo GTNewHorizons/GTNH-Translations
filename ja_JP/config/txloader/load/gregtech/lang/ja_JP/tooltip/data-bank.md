@@ -1,4 +1,4 @@
-Controller block of the Data Bank
-Used to supply Assembly Lines with more Data Sticks
-and give multiple Assembly Lines access to the same Data Stick
-Use screwdriver to toggle wireless mode
+データバンクの本体ブロック
+組立ラインが追加でデータスティックを使えるようにするために使う
+複数の組立ラインが同じデータスティックにアクセスできるようにするために使う
+§8《§7ドライバー§8／Screwdriver》§7でワイヤレスモードを切り替え

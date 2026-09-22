@@ -1,4 +1,4 @@
-Module that adds the Space Assembler to the Space Elevator
-§d§lIs this really necessary?
-Runs at UIV at §a150%§7 speed with up to §616§7 parallels
+宇宙エレベーターに宇宙組立機を追加するモジュール
+§d§lこれは本当に必要なのか？
+UIVで処理速度が§a150%§7向上し、最大 §616§7 の並列処理を行います
 {lang:gt.blockmachines.multimachine.project.ig.motorT3}

@@ -1,2 +1,2 @@
-Can transform to and from any voltage
-Only 0.004% power loss, HAYO!
+あらゆる変圧に対応
+電力損失はわずか0.004%、HAYO!
