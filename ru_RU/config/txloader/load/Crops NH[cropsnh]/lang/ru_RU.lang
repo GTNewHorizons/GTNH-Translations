@@ -123,7 +123,6 @@ cropsnh_tooltip.item.gaiaWart=При съедении снимает больш�
 cropsnh_tooltip.waila.cropStick.failedReq=§c%1$s§r
 cropsnh_tooltip.waila.cropStick.progressBar.scanned=%1$s / %2$s (%3$,.1f%%)
 cropsnh_tooltip.waila.cropStick.progressBar.notScanned=%1$,.1f%%
-# TODO: remove "(Check usages in NEI)" after a major version of GTNH.
 cropsnh_tooltip.planting.wrongSoil=Этой культуре нужна другая почва (проверьте варианты использования в NEI)
 
 # GT5u Scanner Section Header
@@ -333,6 +332,9 @@ GT5U.gui.text.recipe_result.cropsnh.industrialFarm.seedOverflow=Количест
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.cannotGrow=Это семя не может расти в текущих условиях
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.notEnoughWater=Недостаточно воды
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.notEnoughEnrichedFertilizer=Недостаточно обогащённого удобрения
+
+# Industrial Farm Chat messages
+cropsnh_chat.industrialFarm.mode.set=Режим изменён на %1$s
 
 # Industrial Farm Scanner Tooltips
 cropsnh_tooltip.industrialFarm.scanner.0=Тир: §e%1$s§r
@@ -569,7 +571,7 @@ cropsnh_genericSeeds.format=Семена: %1$s
 
 # Crop Names
 cropsnh_crops.weed=Сорняк
-cropsnh_crops.migrated=Мигрированная культура
+cropsnh_crops.migrator=Migrator Crop
 # BoP Crop Names
 cropsnh_crops.bamboo=Бамбуковый побег
 cropsnh_crops.eyebulb=Глазное яблоко
@@ -903,5 +905,44 @@ cropsnh_mutationPool.white=Белый
 cropsnh_mutationPool.wood=Деревянный
 cropsnh_mutationPool.yellow=Жёлтый
 
-# Chat Messages
-cropsnh_chat.industrialFarm.mode.set=Режим изменён на %1$s
+# Soil List
+cropsnh_soilList.global.tooltip=Grows on any soil
+cropsnh_soilList.global.wrongSoil=A crop that can grow on any soil somehow couldn't be planted. Please report this as a bug if you see this message!
+cropsnh_soilList.farmland.tooltip=Grows on farmland
+cropsnh_soilList.farmland.wrongSoil=This seed can only be planted on farmland!
+cropsnh_soilList.sand.tooltip=Grows on sand
+cropsnh_soilList.sand.wrongSoil=This seed can only be planted on sand!
+cropsnh_soilList.soulsand.tooltip=Grows on soul sand
+cropsnh_soilList.soulsand.wrongSoil=This seed can only be planted on soul sand!
+cropsnh_soilList.dirtGrass.tooltip=Grows on dirt or grass
+cropsnh_soilList.dirtGrass.wrongSoil=This seed can only be planted on dirt or grass!
+cropsnh_soilList.mycelium.tooltip=Grows on mycelium
+cropsnh_soilList.mycelium.wrongSoil=This seed can only be planted on mycelium!
+cropsnh_soilList.end.tooltip=Grows on endstone
+cropsnh_soilList.end.wrongSoil=This seed can only be planted on endstone!
+cropsnh_soilList.stone.tooltip=Grows on stone
+cropsnh_soilList.stone.wrongSoil=This seed can only be planted on stone!
+cropsnh_soilList.netherrack.tooltip=Grows on netherrack
+cropsnh_soilList.netherrack.wrongSoil=This seed can only be planted on netherrack!
+cropsnh_soilList.brick.tooltip=Grows on bricks
+cropsnh_soilList.brick.wrongSoil=This seed can only be planted on bricks!
+cropsnh_soilList.thaumLogs.tooltip=Grows on greatwood or silverwood logs
+cropsnh_soilList.thaumLogs.wrongSoil=This seed can only be planted on greatwood or silverwood logs!
+cropsnh_soilList.graveyard.tooltip=Grows on graveyard soil
+cropsnh_soilList.graveyard.wrongSoil=This seed can only be planted on graveyard soil!
+cropsnh_soilList.slimy.tooltip=Grows on slimy dirt or slimy grass
+cropsnh_soilList.slimy.wrongSoil=This seed can only be planted on slimy dirt or slimy grass!
+cropsnh_soilList.gravel.tooltip=Grows on gravel
+cropsnh_soilList.gravel.wrongSoil=This seed can only be planted on gravel!
+cropsnh_soilList.oilSands.tooltip=Grows on oil sands
+cropsnh_soilList.oilSands.wrongSoil=This seed can only be planted on oil sands!
+cropsnh_soilList.mushroom.tooltip=Grows on stone, dirt, grass or mycelium
+cropsnh_soilList.mushroom.wrongSoil=This seed can only be planted on stone, dirt, grass or mycelium!
+cropsnh_soilList.netherMushroom.tooltip=Grows on stone, dirt, grass or mycelium or netherrack
+cropsnh_soilList.netherMushroom.wrongSoil=This seed can only be planted on stone, dirt, grass or mycelium or netherrack!
+cropsnh_soilList.sugarcane.tooltip=Grows on sand, dirt and grass
+cropsnh_soilList.sugarcane.wrongSoil=This seed can only be planted on sand, dirt and grass!
+cropsnh_soilList.slimyDirt.tooltip=Grows on dirt, grass or slimy dirt or slimy grass
+cropsnh_soilList.slimyDirt.wrongSoil=This seed can only be planted on dirt, grass or slimy dirt or slimy grass!
+cropsnh_soilList.oil.tooltip=Grows on sand, gravel, soul sand, or oil sands
+cropsnh_soilList.oil.wrongSoil=This seed can only be planted on sand, gravel, soul sand, or oil sands!
