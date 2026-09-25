@@ -3687,6 +3687,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABgQ.desc=좋아, 장치를 조립하는 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByQ.name=§b§l에너지 주입기
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByQ.desc=에너지 주입기(Energy Infuser)는 아이템 수리 기능에 있어 사우믹 복원기(Thaumic Restorer)에 대한 기술적 대응책이며, 동시에 아이템 충전기로서의 역할도 수행합니다.%n%n충전 기능-%n%n에너지가 공급되면, 에너지 주입기는 입력 버스로 들어오는 모든 아이템을 충전할 수 있습니다. 완전히 충전된 아이템은 출력 버스로 보내집니다. 아이템 충전 속도(공급되는 에너지 양)는 사용된 에너지 해치의 등급에 따라 결정됩니다.%n%n-수리 기능-%n%n충전 기능 외에도, 에너지 주입기는 UU-물질(UU-Matter)과 에너지가 공급될 때 아이템을 수리할 수 있습니다. 하지만, 그레그테크 도구는 이 방법으로 수리할 수 없습니다. 수리 시, 기계는 내구도 1포인트를 수리할 때마다 1L의 UU-물질과 1000 EU의 에너지를 소모합니다.
 
+# Quest: Quantum Anomaly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.name=§4§l§n양자 이상체
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.desc=당신의 모든 이론적 지식은 이것이 존재할 리 없다고 말합니다. 하지만 분명히 있습니다. 어쩌면 용도를 찾을 수 있을지도 모르겠군요?%n%n[warn]아직 만들지 않았다면 이를 위해 빔 크래프터가 필요합니다.[/warn]
+
 # Quest: Fusion Reactor MKII - Bigger, Better, Fusor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErQ.name=§b§l핵융합로 MKII - 더 크고, 더 좋고, 더 융합적으로!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErQ.desc=이제 유로퓸을 얻었으니, MK II 반응로를 만들어 사용하자.%n%n이 반응로는 동일한 블록 배치가 필요하지만, LuV 케이싱을 핵융합 기계 케이싱으로, 초전도 코일 블록을 핵융합 코일 블록으로 교체한다. 에너지 해치도 최소 ZPM 등급이어야 한다.%n%n각 에너지 해치는 20M EU의 에너지 용량을 가지며 최대 8192 EU/t를 소모한다. 즉, 최대 320M EU의 시동 비용과 최대 131072 EU/t의 전력 소비를 처리할 수 있다. 또한, MK II 반응로에서 MK I 레시피는 2/2 OC가 적용되어 속도와 전력 소비가 두 배가 된다.
@@ -4068,10 +4072,6 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAALg.desc=어... 안녕하세요? 사
 # Quest: Draconic Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0A.name=§4§l§n드라코닉 코어
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0A.desc=네, 이 설계도는 완벽합니다! 이게 어떤 외계 문명의 것이든, 정확히 당신이 필요한 것입니다. 드라코닉 코어를 만들어 봅시다.%n%n[note]명왕성 던전에서 설계도를 찾을 수 있습니다.[/note]
-
-# Quest: Quantum Anomaly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.name=§4§l§n양자 이상체
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.desc=당신의 모든 이론적 지식은 이것이 존재할 리 없다고 말합니다. 하지만 분명히 있습니다. 어쩌면 용도를 찾을 수 있을지도 모르겠군요?%n%n[warn]아직 만들지 않았다면 이를 위해 빔 크래프터가 필요합니다.[/warn]
 
 # Quest: Wyvern Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABzg.name=§4§l§n와이번 코어
@@ -4554,7 +4554,6 @@ betterquesting.quest._U63kXS8QNqZZCgZSYYrKw.desc=응축물은 농담이 아닙�
 # Quest: Sisters In Arms
 betterquesting.quest.cmR_3Et6RMyXYfHzRf3Qjg.name=§9§l§n무장한 자매들
 betterquesting.quest.cmR_3Et6RMyXYfHzRf3Qjg.desc=Tairitsu, Shijima, Churitsu는 자매 물질로, 제작하려면 모두 비슷한 색상의 재료가 필요합니다. 이들 사이의 숨겨진 연결은 강력한 보호력을 발휘하게 합니다.%n%n이들의 결속을 유용하게 활용해 보십시오.%n
-%n[note]Technetium dust is needed Shijima, which can be fused with Fluorine and Selenium. The latter can be obtained with the Selenium line, by processing Platinum Froth, or from Miessite in the Toxic Everglades.[/note]
 
 # Quest: UIV Energy Hatch
 betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.name=§9§l§nUIV 에너지 해치
@@ -4567,6 +4566,10 @@ betterquesting.quest.g0oiNbRuQpWrzFOS8l-DtA.desc=마침내 프로젝트가 완�
 # Quest: Energised Tesseract
 betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.name=§9§l§n에너지가 주입된 테서랙트
 betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.desc=많은 양의 에너지와 양자 변칙의 특이한 성질을 이용하여, 테서랙트에 에너지를 공급하면 숨겨진 잠재력을 개방할 수 있습니다.%n%n[note]이것들을 제작하는 것을 좋아하게 되실 겁니다...[/note]
+
+# Quest: Eternal Coil Upgrade
+betterquesting.quest.jSgzKTJOTiSm6ArYis30dg.name=§9§l§nEternal Coil Upgrade
+betterquesting.quest.jSgzKTJOTiSm6ArYis30dg.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought it first into a fluid, then into a solid. It has been stabilized against all odds. When you look at it, you feel as though you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous and would have stopped your progress altogether if not for the discovery of the Energised Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension. That is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made of cubes. You have only glimpsed the reality of the 4-dimensional world, but you have successfully used it to condense spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multidimensional material.%n%nThe Eternal Coil is currently the final upgrade, reaching 13,501 K. This really makes your DTPF shine!
 
 # Quest: UIV Superconductors
 betterquesting.quest.kvqtI5rrRrOhi5jhPR-s4A.name=§9§l§nUIV 초전도체
@@ -6427,9 +6430,17 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAADQ.desc=온통 횃불로 뒤덮여 
 betterquesting.quest.0w2-45C7TC6rzR04zSYe8A.name=§a§l빛을 발하게 하라!
 betterquesting.quest.0w2-45C7TC6rzR04zSYe8A.desc=Chisel 모드는 건축물을 더욱 돋보이게 해주는 몇 가지 새로운 발광 블록 세트를 추가합니다. %n%n로딩 화면에서 멋진 미래형 기지를 본 적이 있다면, 아마도 이 블록들 중 하나가 사용되었을 것입니다!%n%n[note]네오나이트 및 안티블록과 달리, 라피스 카엘레스티스 블록은 실제로 빛을 발산하며, 색상에 따라 발광량이 다릅니다.[/note]
 
+# Quest: Steel Barrel
+betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.name=§c§l강철 통
+betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.desc=강철 통에는 또한 72개의 슬롯이 있습니다.
+
 # Quest: Barrel Upgrades
 betterquesting.quest.5zyyh2tXQ8On53B0VtAHZw.name=§c§l통 업그레이드
 betterquesting.quest.5zyyh2tXQ8On53B0VtAHZw.desc=Better Barrels에는 등급이 있으며, 등급이 높을수록 통에 장착할 수 있는 업그레이드의 수가 증가합니다. 이 업그레이드는 주로 저장 용량을 늘리는 데 사용되지만, 통에 추가 기능을 부여하는 몇 가지 업그레이드도 존재합니다.%n%n통은 한 번에 한 등급씩만 업그레이드할 수 있으므로, 저장 용도로 Better Barrels를 계속 사용할 계획이라면 낮은 등급의 구조 업그레이드를 많이 제작할 준비를 하십시오!
+
+# Quest: Texturing made easy
+betterquesting.quest.A8nU-cgSQQ6xI6HnJLRb-g.name=쉬워진 텍스처 작업
+betterquesting.quest.A8nU-cgSQQ6xI6HnJLRb-g.desc=장식용 흙손은 핫바에서 무작위 블록을 설치합니다. 더욱 세밀한 조경과 건축에 매우 유용합니다.
 
 # Quest: Building Made Easy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.name=§c§l건축을 더 쉽게
@@ -6718,6 +6729,10 @@ betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.desc=구리 통의 휴대용 버전�
 # Quest: Crystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§b§l수정 상자
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=당신은 내부를 볼 수 있는 상자를 만들었습니다. 유용하지 않나요?%n%n[note]이전 상자들과 마찬가지로 적합한 업그레이드 아이템을 사용하여 업그레이드할 수도 있습니다.[/note]
+
+# Quest: Cooper's Mallet
+betterquesting.quest.gZFHuyfRQYWePJcOA4hBZA.name=Cooper's Mallet
+betterquesting.quest.gZFHuyfRQYWePJcOA4hBZA.desc=Cooper's Mallet is a very handy tool for upgrading chests and barrels without needing to empty them.%n%nRight click a chest or barrel with the mallet while holding a replacement chest or barrel in your offhand or in a hotbar slot adjacent to the mallet. The replacement must have at least as much capacity as the original container.%n%n[note]This works only with vanilla chests, chests from the Iron Chests mod, and EFR barrels.[/note]
 
 # Quest: Advanced Filing Cabinet
 betterquesting.quest.lM99qle-Q_uPETUSrZQDKw.name=§2§l고급 서류 캐비닛
@@ -7372,6 +7387,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.desc=분쇄 공정은 LuV 이상 등
 # Quest: Infinity Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.name=§6§l무한 코일 업그레이드
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc=우주 자체의 맹렬함으로 제련하는 재료입니다.%n%n이 믿기 어려운 물질은 코일 블록 형태로 가공하는 것이 불가능해 보였습니다. 그 특성상 코일 블록으로 만드는 것이 바람직했음에도 불구하고 말이죠. 극한의 온도에서도 놀라울 정도로 안정적이지만, 이로 인해 코일 형태로 압축하는 것이 불가능했습니다.%n%n그러나 더 지능적인 무언가를 사용하는 방법을 고려하면서 상황이 바뀌었습니다. 웨트웨어나 그 이상의 UHV 회로를 통합함으로써, 인피니티 코일은 현실이 되었습니다. 이는 여러분이 수개월에 걸쳐 제작한 회로의 끊임없이 감시하는 눈에 의해 제어됩니다. 이제부터 이 눈들이 여러분의 멀티블록을 지켜볼 것입니다.%n%n11701K의 열을 제공합니다. EBF를 업그레이드할 수도 있지만, 이 시점에서는 MBF나 DTPF를 위한 업그레이드일 가능성이 더 높습니다.
+
+# Quest: Eternal Coil Upgrade
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§9§l§n영원 코일 업그레이드
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=시공간을 넘어, 현실을 초월했습니다. 당신은 존재한 적 없는 것을 응시하여 액체로, 그리고 고체로 만들어 냈습니다. 온갖 역경에도 불구하고 그것은 안정화되었습니다. 그것을 바라보면, 손 안에 온 우주를 쥐고 있는 듯한 기분이 듭니다.%n%n과거에는 영원한 특이점, 즉 우주의 무한히 밀도 높은 표본을 통해 거의 모든 물질을 하나로 결합할 수 있었습니다. 그러나 DTPF 규모에서 이를 자동화하는 것은 터무니없는 일임이 증명되었고, 에너자이즈드 테서랙트의 발견이 없었다면 당신의 진전은 완전히 멈추었을 것입니다. 시공간 자체를 물리적으로 구현하려면 먼저 제4의 공간 차원을 구현해야 했으며, 테서랙트가 바로 그것입니다: 4차원 정육면체입니다.%n%n정육면체! 당신 주변의 거의 모든 것은 정육면체로 이루어져 있습니다. 당신은 4차원 세계의 실체를 잠깐 엿보았을 뿐이지만, 그것을 성공적으로 사용하여 시공간을 응축했고, 이는 임의로 성형하여 완전한 영원의 혼합물로 만들 수 있습니다. 말할 필요도 없이, 살아있는 회로만으로는 무한히 밀도 높고, 무한히 안정적이며, 다차원적인 물질을 유지하기에 충분하지 않습니다.%n%n현재, 13501K로 최종 업그레이드되었습니다. 이제야 진정으로 당신의 DTPF가 빛을 발합니다!
 
 # Quest: Algae Pond
 betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.name=§6§l조류 연못
@@ -13408,10 +13427,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxg.desc=...벌이 마나를 생산할 �
 betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.name=마나 분수
 betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.desc=마나 분수는 마나 풀 조합법을 빠르고 원활하게 자동화할 수 있게 해 줍니다.%n%n여러분은 렉시카 보타니아나 NEI에 명시된 대로 멀티블록을 조립할 수 있습니다. 조립이 완료된 후 숲의 지팡이로 우클릭하면 구조물이 완전한지와 내부에 저장된 마나의 양을 확인할 수 있습니다.%n%n마나 풀과 마찬가지로 스프레더나 스파크를 사용하여 컨트롤러에 직접 마나를 보낼 수 있습니다. 엄밀히 말해 멀티블록 중앙의 마나 풀을 사용하지 않아도 작동하지만, 편의상 그곳에 배치되어 있어 사용할 수 있습니다(추가 버퍼가 있어도 나쁠 것은 없습니다).%n%n아이템은 컨트롤러의 모든 면에서 입력이 가능하지만, 출력은 바닥면에서만 가능합니다. 초기 자동화의 경우 호퍼를 사용하는 것을 권장합니다. 하지만 AE2를 해금한 후에는 컨트롤러 아래에 적절한 패턴이 있는 인터페이스를 배치하기만 하면 아이템을 자동으로 밀어넣고 꺼낼 수 있습니다.%n%n[warn]이 멀티블록을 사용하여 연금술이나 결합 조합법을 제작할 수 없습니다. 이들은 더 발전된 로봇 팔 기술로 해금할 수 있는 별도의 멀티블록입니다.[/warn]%n%n[note]이 구조물은 벽을 공유할 수 있습니다. 중앙 풀을 기준으로 4개의 다른 마나 분수를 공유할 수 있도록 완벽하게 설계되었습니다.[/note]
 
-# Quest: Asgardandelion
-betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.name=아스가르단델리온
-betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.desc=수동적으로 마나를 생성하는 꽃으로, 끝없이 흐르는 마나를 생산할 수 있습니다.
-
 # Quest: Fountain Of Alchemy
 betterquesting.quest.MJgg4KT4Q1Gi-2hgQ9Sz6w.name=연금술의 샘
 betterquesting.quest.MJgg4KT4Q1Gi-2hgQ9Sz6w.desc=짐작하셨겠지만, 연금술의 샘은 기능적으로 마나의 샘과 동일하지만, 일반적으로 마나 풀 아래에 연금술 룬이 필요한 조합을 처리할 수 있다는 점이 다릅니다.%n%n기능에 대한 자세한 내용이 필요하시면 마나의 샘 퀘스트나 보타니아 백과사전을 확인해 주십시오.%n%n[warn]이 장치는 일반 마나 풀 조합은 처리할 수 없으며, 연금술 조합만 가능합니다.[/warn]%n%n[note]만약 어떤 이유로 미래에 프리즈머린이 대량으로 필요하시다면... 아마도 4중 연금술의 샘이 이를 얻는 데 훌륭한 도움이 될 것입니다.[/note]
@@ -14454,10 +14469,6 @@ betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.desc=지금까지는 기계의 금�
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=§5§l§n방수 기술
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.desc=드디어 편리한 유체 패턴 처리가 가능합니다!%n%n이제 우주 조립기를 해금하셨으니 조합 입력 버퍼를 만들 수 있습니다. 유체가 포함된 패턴을 처리할 수 있으며, 그 외에는 조합 입력 버스와 동일하게 작동합니다.%n%n[note]이 버스로 전달된 아이템과 유체는 다른 모든 버스에 보이지 않습니다. 레시피가 서로 충돌할 수 없습니다.[/note]
 
-# Quest: Steel Barrel
-betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.name=§c§l강철 통
-betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.desc=강철 통에는 또한 72개의 슬롯이 있습니다.
-
 # Quest: Integrated Ore Factory - All in One!
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.name=§4§l§n통합 광석 공장 - 올인원!
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.desc=통합 광석 공장을 사용하면 여러 공정을 통해 광석을 한 번에 처리할 수 있습니다.
@@ -14990,10 +15001,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=일부 터빈 재료는 여러�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§9§l§n하이포젠 코일 업그레이드
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc=불멸의 용의 피로 단조되고, 당신이 현실이라 믿었던 것을 초월한 융합의 힘으로 결합되었습니다. 어떤 자연 원소나 원소의 조합도 이 빛나는 주황색 물질에 필적할 수 없으며, 당신이 이전에 손에 넣었던 각성된 드라코늄조차도 마찬가지입니다.%n%n이 피는 무엇으로 이루어져 있을까요?%n%n그 Mk4 융합로 내부에서 실제로 무슨 일이 일어난 것일까요? 이 §o물질§r은 무엇일까요? 스스로 움직이며, 마치 슬라임으로 만들어진 것처럼 움직이지만, 만지면 끓고 있습니다. 부드럽고 말랑말랑하게 움직임에도 불구하고, 하이포젠은 만지면 단단하고 자르거나 가공하기가 매우 어렵습니다. 이 세상 것이 아닌 느낌이며, 이걸로 무엇을 해야 할지는 당신에게 분명합니다.%n%n이 용들에게 무엇을 먹인 것일까요?%n%n아무 노력 없이 에너지를 흡수하고 방출하지만, 도움 없이 이걸로 코일을 만들려는 시도는 어리석은 일일 것입니다. 웨트웨어는 더 이상 충분하지 않았으며, 오직 가장 진보된 생체 회로만이 하이포젠이 보여주는 불규칙한 행동을 견딜 수 있었습니다.%n%n12601K의 열을 제공합니다. 거의 확실히, 이것은 당신의 DTPF에 사용될 것입니다.
 
-# Quest: Eternal Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§9§l§n영원 코일 업그레이드
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=시공간을 넘어, 현실을 초월했습니다. 당신은 존재한 적 없는 것을 응시하여 액체로, 그리고 고체로 만들어 냈습니다. 온갖 역경에도 불구하고 그것은 안정화되었습니다. 그것을 바라보면, 손 안에 온 우주를 쥐고 있는 듯한 기분이 듭니다.%n%n과거에는 영원한 특이점, 즉 우주의 무한히 밀도 높은 표본을 통해 거의 모든 물질을 하나로 결합할 수 있었습니다. 그러나 DTPF 규모에서 이를 자동화하는 것은 터무니없는 일임이 증명되었고, 에너자이즈드 테서랙트의 발견이 없었다면 당신의 진전은 완전히 멈추었을 것입니다. 시공간 자체를 물리적으로 구현하려면 먼저 제4의 공간 차원을 구현해야 했으며, 테서랙트가 바로 그것입니다: 4차원 정육면체입니다.%n%n정육면체! 당신 주변의 거의 모든 것은 정육면체로 이루어져 있습니다. 당신은 4차원 세계의 실체를 잠깐 엿보았을 뿐이지만, 그것을 성공적으로 사용하여 시공간을 응축했고, 이는 임의로 성형하여 완전한 영원의 혼합물로 만들 수 있습니다. 말할 필요도 없이, 살아있는 회로만으로는 무한히 밀도 높고, 무한히 안정적이며, 다차원적인 물질을 유지하기에 충분하지 않습니다.%n%n현재, 13501K로 최종 업그레이드되었습니다. 이제야 진정으로 당신의 DTPF가 빛을 발합니다!
-
 # Quest: Power in the Ether
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.name=§9§l§n에테르 속의 전력
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.desc=이 새로운 해치는 모든 차원의 모든 위치에서 무선으로 에너지를 저장하고 수신할 수 있게 해줍니다. 기존의 멀티블록 구조물에 배치할 수 있으며 일반 에너지 해치처럼 작동합니다. %n%n또한, 무선 커버는 월드 가속기나 생물 연구소 같은 단일 블록 기계에도 사용할 수 있습니다. %n%n무선 네트워크는 총 2^(2^31) EU를 저장할 수 있으며, 이는 최고 등급 LSC조차 훨씬 초과합니다. %n%n§5/gt global_energy_join §3user1§r §2user2§r 명령어로 다른 플레이어를 네트워크에 추가하여 무선 네트워크를 공유할 수 있습니다. 이렇게 하면 §3user1§r이 글로벌 네트워크와 상호작용할 때 §2user2§r의 에너지를 사용하게 됩니다. §5/gt global_energy_join§r §4your_name your_name§r 명령어를 입력하면 언제든지 네트워크에서 나갈 수 있습니다. %n%n이 블록에는 전선을 연결할 수 없습니다. 또한 지연 시간을 최소화하도록 설계되어, 불필요한 계산을 방지하기 위해 큰 간격으로 EU가 추가됩니다. 이를 통해 광범위한 전선 네트워크로 인한 TPS 지연도 줄일 수 있습니다. %n%n[note]계산기가 포기한다면, 2^(2^31)은 646,456,994자리 숫자입니다.[/note]
@@ -15065,6 +15072,10 @@ betterquesting.quest.JCfcbke6SGO9KCPqXsTyaQ.desc=§5§l헬리오캐스트 강화
 # Quest: Balance is Everything
 betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=§9§l§n균형이 전부입니다
 betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=이미 차원을 초월하셨지만, 전력 수요가 터무니없는 수준으로 치솟으면서, 이제 물질 자체를 초월할 때가 되었을지도 모릅니다!%n%n프로토-할코나이트의 부서지지 않는 안정성을 이용하여 [warn]혼돈[/warn]의 힘을 제어하는 것이 현실이 됩니다. 반안정 반물질 안정화 시퀀서는 프로토물질로부터 생성된 반안정 반물질이라는 개념을 도입합니다.%n%n하지만 이는 잔혹한 존재입니다... 관리에 실패하면 반물질은 허무 속으로 사라져 버릴 수 있습니다.%n%n반안정 반물질은 1초 주기로 생산되며, 생성량은 16개의 반물질 해치에 현재 저장된 반물질 총량에 기반하고 동일한 양의 프로토 물질을 소모합니다.%n%n각 주기마다 해치당 반물질 기본 생산량은 다음과 같습니다:%n(1/16)*(§3반물질§r)^(0.5 + §6§nC§r).%n그런 다음 각 해치는 평균 0.2 + §b§nA§r, 분산 1의 정규 분포에서 무작위 숫자를 추출하여 기본 생산량에 곱하므로, 총 반물질 변화량은 음수가 될 수 있습니다.%n%n이로 인해 해치 간 불균형이 발생합니다. 반물질 생산을 제대로 자동화하려면 해치 내 반물질 양을 항상 재조정하는 것이 필수적입니다. 각 주기가 끝날 때 해치에 존재하는 가장 적은 반물질 양이 기록되며, 그 최소량보다 더 많은 반물질을 가진 해치는 그 차이의 절반을 잃게 됩니다!%n%n안정화 유체를 적절히 사용하면 에너지 소모를 크게 줄이고 생산량을 높일 수 있습니다:%n%n수동적으로 10,000,000 + (§3반물질§r * 1000)^(1.5 - §2§nM§r) EU/t를 소모합니다.%n자기 안정화 유체는 수동적 불안정성을 완화하고 §2지수§r를 감소시킬 수 있습니다:%n용융 정제 텐감 지수 = §2§n0.1§r%n타키온 농후 유체 지수 = §2§n0.2§r%n용융 마그매터 지수 = §2§n0.3§r%n%n각 주기마다 SSASS는 (§3반물질§r * 10000)^(1.5 - §5§nG§r) EU를 사용합니다.%n용광로의 중력 봉쇄를 조절하여 이 §5지수§r도 감소시킬 수 있습니다:%n용융 시공간 지수 = §5§n0.05§r%n공간 확장 유체 지수 = §5§n0.10§r%n용융 영원 지수 = §5§n0.15§r%n%n반물질을 더 조밀하게 봉쇄하면 주기당 더 큰 이득을 얻을 수 있습니다. 봉쇄 안정화 유체는 생산 공식의 §6지수§r를 변경합니다:%n용융 시라본 지수 = §6§n0.05§r%n용융 MHDCSM 지수 = §6§n0.10§r%n%n높은 에너지 잠재력을 가진 유체를 주입하면 혼돈 속에서 반물질의 흐름을 변경하여 무작위성을 더 유리하게 만들 수 있습니다. 활성화 안정화 유체는 가우스 분포의 §b평균§r을 변경하여 반물질의 음수 변화 위험을 낮추고 더 나은 이득을 선호하게 합니다.%n소모된 나콰다 연료 Mk V 평균 = §b§n0.05§r%n소모된 나콰다 연료 Mk VI 평균 = §b§n0.10§r
+
+# Quest: Asgardandelion
+betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.name=아스가르단델리온
+betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.desc=수동적으로 마나를 생성하는 꽃으로, 끝없이 흐르는 마나를 생산할 수 있습니다.
 
 # Quest: Celestial Gateways
 betterquesting.quest.OWIeO5C1RheNGaVsrwmPJg.name=천체 관문
@@ -15360,6 +15371,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.desc=설명이 없습니다.
 # Quest: Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=도구: 절대 완료되지 않음
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.desc=이 퀘스트는 절대 완료되지 않아야 하며, 이는 템플릿 및 기타 항목을 숨기는 데 유용합니다.
+
+# Quest: Trigger: Quantum Armor Skip
+betterquesting.quest.AZDwXr_rTie-JHiuykME7w.name=트리거: 양자 방어구 건너뛰기
+betterquesting.quest.AZDwXr_rTie-JHiuykME7w.desc=
 
 # Quest: Trigger: NaK Skip
 betterquesting.quest.Bv3i0a9kRGWScgrhhV9tOg.name=트리거: NaK 생략
