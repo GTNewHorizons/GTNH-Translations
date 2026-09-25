@@ -3687,6 +3687,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABgQ.desc=装置を組み立てるのに�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByQ.name=§b§nエネルギー注入装置
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByQ.desc=The Energy Infuser is the tech answer to the Thaumic Restorer for repairing items and also acts a charger.%n%nWhen fed with energy it is able to charge any item that is fed into its Input Bus. Fully charged items will be placed in the Output Bus. The items will be fed with the amount of energy provided by the used Energy Hatch.%n%nApart from its charging capabilities the Energy Infuser can repair items when provided with UU-Matter and energy. However, GregTech tools can not be repaired. When repairing the machine consumes 1L UU-Matter and 1000 EU per repaired durability point.
 
+# Quest: Quantum Anomaly
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.name=§4§n量子異常
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.desc=All your theoretical knowledge tells you this can't possibly exist. But there it is. Maybe you can find some use for it?%n%n[note]You won't need very many of these for the next couple of tiers, but you will need plenty later on![/note]
+
 # Quest: Fusion Reactor MKII - Bigger, Better, Fusor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErQ.name=§b§lFusion Reactor MKII - Bigger, Better, Fusor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAErQ.desc=Now that you have some Europium, put it to use by making a MK II reactor.%n%nThis one requires the same block placement, but replaces the LuV casings with fusion machine casings and the superconducting coil blocks with fusion coil blocks. The energy hatches must now be at least ZPM too.%n%nEach energy hatch has an energy capacity of 20M EU and draws up to 8192 EU/t. That means it can handle start costs up to 320M EU and power consumption up to 131072 EU/t. Furthermore, MK I recipes in a MK II reactor are granted 2/2 OC which doubles the speed and power consumption.
@@ -4069,10 +4073,6 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAALg.desc=あー...どうも？%n%nUH
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0A.name=§4§nドラコニックコア
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB0A.desc=Yes, this schematic is perfect! Whatever alien civilization this belonged to, it is exactly what you needed. Let's make a Draconic Core.%n%n[note]You can find the schematic in a Pluto dungeon.[/note]
 
-# Quest: Quantum Anomaly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.name=§4§n量子異常
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.desc=All your theoretical knowledge tells you this can't possibly exist. But there it is. Maybe you can find some use for it?%n%n[warn]You will need a Beam Crafter for this if you haven't made one yet.[/warn]
-
 # Quest: Wyvern Core
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABzg.name=§4§nワイバーンコア
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABzg.desc=Wyverns are rare dragons that can walk on two legs. More powerful for sure. Researching your Draconic Core, you found a way to improve it. The Wyvern Core.
@@ -4183,7 +4183,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKiA.desc=To make living solder for your 
 
 # Quest: Xenoxene Xenoxsis
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnQ.name=§4§nキセノキセンキセノキシス
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnQ.desc=To make the next tier plastic, Radox, or the next tier of SMDs, you will need Xenoxene.%n%nGetting the Xenoxene Xenoxsis culture is a bit tricky. The recipe is similar to the General Purpose one. Remember that all recipes in this chain are low probability recipes.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose one, but use the Data Orb for Barnardafis instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nAgain, it's the same recipe for the next step, but with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid, this should produce the Xenoxene Xenoxsis culture. It's a 7.5%% chance.%n%nYou should probably use the normal alternative recipe to make more cultures, since it's easy to fail copying it too.%n%nYou should be able to figure out yourself how to make Xenoxene once you have the culture.%n%n[note]After many years, the transformation recipe now even has NEI support![/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKnQ.desc=You will need Xenoxene to make next tier plastic, Radox, or the next tier of SMDs.%n%nGetting the Xenoxene Xenoxsis culture is a bit tricky. The recipe is similar to the General Purpose one. Remember that all recipes in this chain have a low probability of success.%n%nYour first step is to make the Barnardafis culture, then the DNA Sample, and then the Data Orb. If you didn't grab the saplings and dirt previously (to grow more trees for logs), head back to Barnarda C.%n%nUse the same recipe as for the General Purpose culture, but use the Barnardafis Data Orb instead of Common Yeast. You should get the Barnardafis Plasmid.%n%nFor the next step, use the same recipe again, this time with the TCetiEis Fucus Serratus culture and the Barnardafis Plasmid. This should produce the Xenoxene Xenoxsis culture, with a 38.7%% chance of success.%n%nYou should be able to figure out how to make Xenoxene yourself once you have the culture.%n%nOnce you have Xenoxene, you can use the more effective Beam Crafter recipe to get more cultures.%n%n[note]After many years, the transformation recipe now even has NEI support![/note]
 
 # Quest: Optical SMDs
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkA.name=§4§n光学型SMD
@@ -4553,8 +4553,7 @@ betterquesting.quest._U63kXS8QNqZZCgZSYYrKw.desc=Condensate is no joke; that stu
 
 # Quest: Sisters In Arms
 betterquesting.quest.cmR_3Et6RMyXYfHzRf3Qjg.name=§9§l§nSisters In Arms
-betterquesting.quest.cmR_3Et6RMyXYfHzRf3Qjg.desc=Tairitsu, Shijima, and Churitsu are sister materials, all requiring similarly colored materials to make. A hidden conection between all of them allow some strong protective forces to appear.%n%nTry putting their bond to good use.%n
-%n[note]Technetium dust is needed Shijima, which can be fused with Fluorine and Selenium. The latter can be obtained with the Selenium line, by processing Platinum Froth, or from Miessite in the Toxic Everglades.[/note]
+betterquesting.quest.cmR_3Et6RMyXYfHzRf3Qjg.desc=Tairitsu, Shijima, and Churitsu are sister materials, all requiring similarly colored materials to make. A hidden connection among them allows powerful protective forces to appear.%n%nTry putting their bond to good use.%n%n[note]Technetium dust is needed for Shijima. It can be produced by fusing Fluorine and Selenium. The latter can be obtained through the Selenium line, by processing Platinum Froth, or from Miessite in the Toxic Everglades.[/note]
 
 # Quest: UIV Energy Hatch
 betterquesting.quest.fnDuNiloR6iXAea0Lhjgtg.name=§9§l§nUIV Energy Hatch
@@ -4567,6 +4566,10 @@ betterquesting.quest.g0oiNbRuQpWrzFOS8l-DtA.desc=With the project finally comple
 # Quest: Energised Tesseract
 betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.name=§9§l§nEnergised Tesseract
 betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.desc=Using high amounts of energy and the strange properties of a Quantum Anomaly, Tesseracts can become energised, unlocking hidden potential.%n%n[note]You better love crafting these...[/note]
+
+# Quest: Eternal Coil Upgrade
+betterquesting.quest.jSgzKTJOTiSm6ArYis30dg.name=§9§l§nEternal Coil Upgrade
+betterquesting.quest.jSgzKTJOTiSm6ArYis30dg.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought it first into a fluid, then into a solid. It has been stabilized against all odds. When you look at it, you feel as though you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous and would have stopped your progress altogether if not for the discovery of the Energised Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension. That is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made of cubes. You have only glimpsed the reality of the 4-dimensional world, but you have successfully used it to condense spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multidimensional material.%n%nThe Eternal Coil is currently the final upgrade, reaching 13,501 K. This really makes your DTPF shine!
 
 # Quest: UIV Superconductors
 betterquesting.quest.kvqtI5rrRrOhi5jhPR-s4A.name=§9§l§nUIV Superconductors
@@ -5971,7 +5974,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIDw.desc=No mage wants to be restricted 
 
 # Quest: Flying Like a Eag - I Mean Raven
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg.name=Flying Like a Eag - I Mean Raven
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.%nIf you want to toggle gliding with a key - configure binding for "Hotkey for activating some worn items" in control settings.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIEg.desc=This cloak is a nice substitute for the Glider. There are plenty of other magical items worth a look in the Witching Gadgets tab.%n%nIf you want to toggle gliding with a key, configure the binding for "Hotkey for activating some worn items" in the control settings.%n%n[warn]Not recommended for use on a Space Station![/warn]
 
 # Quest: 'Easy' Teleportation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJnQ.name='Easy' Teleportation
@@ -6427,9 +6430,17 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAADQ.desc=至る所に松明が置か
 betterquesting.quest.0w2-45C7TC6rzR04zSYe8A.name=§a§lLet it Glow!
 betterquesting.quest.0w2-45C7TC6rzR04zSYe8A.desc=Chisel adds a couple new sets of glowing blocks to enhance your builds. %n%nIf you've ever seen a cool looking futuristic base on the loading screen, it likely used one of these blocks!%n%n[note]Unlike Neonite and Antiblocks, Lapis Caelestis blocks do emit light - and different colors emit different amounts of it.[/note]
 
+# Quest: Steel Barrel
+betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.name=§c§nスチールの樽
+betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.desc=§7《§rスチールの樽§7／Steel Barrel》§r は72スロットを持つストレージ設備です。
+
 # Quest: Barrel Upgrades
 betterquesting.quest.5zyyh2tXQ8On53B0VtAHZw.name=§c§lBarrel Upgrades
 betterquesting.quest.5zyyh2tXQ8On53B0VtAHZw.desc=Better Barrels have tiers which increase the amount of upgrades a barrel can hold. They are mainly used to increase their storage capacity, although there are a few upgrades which give the barrels extra functionality.%n%nBarrels can only be upgraded one tier at a time, so be prepared to make lots of lower tier structural upgrades if you plan to continue using Better Barrels for your storage needs!
+
+# Quest: Texturing made easy
+betterquesting.quest.A8nU-cgSQQ6xI6HnJLRb-g.name=Texturing made easy
+betterquesting.quest.A8nU-cgSQQ6xI6HnJLRb-g.desc=The Decorator's Trowel will place a random block from your hotbar. This can be very useful for more detailed landscaping and building.
 
 # Quest: Building Made Easy
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACWQ.name=§c§n建築を簡単に
@@ -6718,6 +6729,10 @@ betterquesting.quest.dbax1OsmRpWMg6Pt4tE_ig.desc=The portable equivalent of the 
 # Quest: Crystal Chest
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.name=§b§nクリスタルチェスト
 betterquesting.quest.e-VLKN-JSRK3V2cmDbm6rw.desc=§7《§rダイヤモンドチェスト§7／Diamond Chest》§r にほんの少しのガラスを加えれば、中身を見透かせる素敵な §7《§rクリスタルチェスト§7／Crystal Chest》§r が作れます。これ、とっても綺麗じゃない？%n%n[note]容量はダイヤモンドチェストと変わらず、108スロットです。あなたの友人に資材の豊富さをアピールしたいというようなニーズが無いのであれば、作成する必要性は薄いかもしれません。[/note]%n%n[note]他のチェストと同様に、対応する §7《§rアップグレード§7／Upgrade》§r を消費して、既存のチェストを強化する形で作成することも可能です。[/note]
+
+# Quest: Cooper's Mallet
+betterquesting.quest.gZFHuyfRQYWePJcOA4hBZA.name=Cooper's Mallet
+betterquesting.quest.gZFHuyfRQYWePJcOA4hBZA.desc=Cooper's Mallet is a very handy tool for upgrading chests and barrels without needing to empty them.%n%nRight click a chest or barrel with the mallet while holding a replacement chest or barrel in your offhand or in a hotbar slot adjacent to the mallet. The replacement must have at least as much capacity as the original container.%n%n[note]This works only with vanilla chests, chests from the Iron Chests mod, and EFR barrels.[/note]
 
 # Quest: Advanced Filing Cabinet
 betterquesting.quest.lM99qle-Q_uPETUSrZQDKw.name=§2§lAdvanced Filing Cabinet
@@ -7373,6 +7388,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMSA.desc=Milling process is an alternati
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.name=§6§nインフィニティコイルへのアップグレード
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkQ.desc="宇宙そのものの猛烈な熱量で溶解させる。"%n%n§7《§rインフィニティ§7／Infinity》§r...%nこの信じ難い物質は、その性質上コイルブロックへの加工は不可能だと信じられてきました。極限の温度下でも驚異的な安定性を示す一方で、その特性ゆえにコイル状への加工ができなかったためです。%n%nしかし積み重なる技術革新の末、あなたはある方法を思いつきました。%nウエットウェア、あるいはより高度なバイオウエアの電子回路を組み込むことで、この物質を"現実"へと固定することに成功しました。あなたが数か月かけて作り上げた回路が"観測者"の役割を果たすことで、このエキゾチックな物質の形状を制御します。%n%nそしてこれからは、この §7《§rインフィニティコイルブロック§7／Infinity Coil Block》§r があなたのマルチブロック装置を見守り続けることでしょう...。%n%n%nインフィニティコイルブロックは11,701Kの熱を生み出せます。%n%n§7《§r電気高炉§7／Electric Blast Furnace》§r へ組み込むこともできますが、 §7《§rメガ・電気高炉§7／Mega Electric Blast Furnace》§r や §7《§r次元超越プラズマフォージ§7／Dimensionally Transcendent Plasma Forge》§r への使用が推奨されます。
 
+# Quest: Eternal Coil Upgrade
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§9§l§nエターナルコイルへのアップグレード
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought it first into a fluid, then into a solid. It has been stabilized against all odds. When you look at it, you feel as though you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous and would have stopped your progress altogether if not for the discovery of the Energised Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension. That is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made of cubes. You have only glimpsed the reality of the 4-dimensional world, but you have successfully used it to condense spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multidimensional material.%n%nThe Eternal Coil is currently the final upgrade, reaching 13,501 K. This really makes your DTPF shine!
+
 # Quest: Algae Pond
 betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.name=§6§n藻類養殖場
 betterquesting.quest.Ds_ok-hRS2ODJNs3LUP9kw.desc=Sustainability. It's not the name of the game... but it could be!%n%nIf you've ever wanted to generate many chemicals from a single source, you've probably looked at Oil or Benzene. However, there's also the Algae Farm.%n%nEach tier, starting from ULV (at 50s per batch) through IV (25s per batch), reduces the time it takes to produce Algae by about 5 seconds, and then beyond that each tier will cut the duration in half. The production time can also randomly double or triple, but this happens relatively rarely.%n%nEach tier increase also adds to the amount of Algae you get in a single cycle, as well as the type of Algae produced. Each cycle gives out an exact amount as well as a bonus amount 10%% of the time. The Algae Farm also accepts Compost, which you can make from the algae itself, to boost the multi's tier by one. This might be expensive at the start, but it's heavily recommended in most cases. You can get regular Algae and Green Algae starting at ULV; Brown Algae starts appearing at HV, Golden-Brown Algae at EV, and Red Algae at IV, though higher tier algae appears in very small quantities at first.%n%nTo find out more about the exact output quantities and timings, please see the wiki: [url]https://wiki.gtnewhorizons.com/wiki/Algae_Farm[/url]%n%nThe Algae can be used for various chemicals like Methane, Ammonia, Sulfuric Acid, Sodium Carbonate, Ethylene, Lithium Chloride, and even some power-generating fluids. You typically need a Chemical Plant for that. In IV tier you can also combine Green Algae with Glowstone to get Glowing Coral and make Sunnarium from that. If you're curious about all the processing chains, look them up on NEI: quests to cover them are coming up, possibly with more recipes that don't need the Chemical Plant.
@@ -7395,7 +7414,7 @@ betterquesting.quest.QfQHCy0PRn-rABmKuvwQfw.desc=To actually produce some light 
 
 # Quest: UXV Glass
 betterquesting.quest.QpsC-ERsQHGoqzzSdWAx_A.name=§4§nUXVガラス
-betterquesting.quest.QpsC-ERsQHGoqzzSdWAx_A.desc=The final, and by far most expensive tier of Borosilicate glass is Universium.%n%nEnjoy the bonus for gathering 32 ;)
+betterquesting.quest.QpsC-ERsQHGoqzzSdWAx_A.desc=The final, and by far most expensive tier of Borosilicate glass is Universium.
 
 # Quest: Stern-Gerlach, Perhaps?
 betterquesting.quest.RLJR8nFySzSaZLeCRsabDg.name=§6§lStern-Gerlach, Perhaps?
@@ -9017,7 +9036,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMWw.desc=A completed Fusion Reactor does
 
 # Quest: Optional Tier 1 Fusion
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXA.name=Optional Tier 1 Fusion
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXA.desc=Osmium - from Helium and Tungsten. Osmium from the platline is quite power-hungry, which this recipe won't solve, but it will at least help you past the terrible output rate of Osmium. You can get it faster from here as long as you can keep supplying Tungsten and power.%n%nSunnarium - from Helium + Glowstone. If you've had difficulty in getting lots of Sunnarium after the Molecular Transformer nerf, you can try this for your Solar Panels and other things. Glowing Coral processing with UUM is recommended, though.%n%nBoron - from Lithium and Helium. If you haven't automated this yet, for Borosilicate Glass for example, this is one way to do it. You will need lots of glass for the Mega Blast Furnace and other big multis of the kind, so it's not a useless recipe.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXA.desc=Osmium - from Helium and Tungsten. Osmium from the platline is quite power-hungry, which this recipe won't solve, but it will at least help you past the terrible output rate of Osmium. You can get it faster from here as long as you can keep supplying Tungsten and power.%n%nSunnarium - from Helium + Glowstone. If you've had difficulty in getting lots of Sunnarium after the Molecular Transformer nerf, you can try this for your Solar Panels and other things. Glowing Coral processing with UUM is recommended, though.%n%nBoron - from Lithium and Helium. If you haven't automated this yet, for Borosilicate Glass for example, this is one way to do it. You will need lots of glass for the Exothermic Hearth, Mega Alloy Blast Smelter, and other large multis, so it's not a useless recipe.
 
 # Quest: Powering-up Fluid Nukes
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMXg.name=より強力な加圧水型原子炉
@@ -13396,10 +13415,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMxg.desc=...there is no way a bee should
 betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.name=Mana Fountain
 betterquesting.quest.EP-xPjNWRnKCWRJjGzySvQ.desc=The Mana Fountain allows for quick and seamless automation of Mana Pool recipes.%n%nYou can assemble the multiblock as specified in the Lexica Botania / NEI. After it's assembled, right clicking it using the Wand of the Forest will show you whether it's complete and the amount of internally stored mana.%n%nYou can send the controller mana directly by either using a spreader or a spark much like a Mana Pool. Technically you don't have to use the Mana Pool in the center of the multiblock for it to function, but it is placed conveniently so that you can (plus, it doesn't hurt to have an extra buffer).%n%nItems are allowed to input from any side of the controller, but can only output from the bottom. For early automation, it's recommended to just use hoppers. Once you unlock AE2 however you can simply place an interface underneath the controller with the appropriate patterns and it should push and pull items automatically.%n%n[warn]You cannot craft Alchemy or Conjuration recipes using this multiblock, those are separate multiblocks that you will unlock with more advanced robot arm technology.[/warn]%n%n[note]This structure can absolutely wall-share. It has the perfect design to be able to share 4 different Mana Fountains between the center pool.[/note]
 
-# Quest: Asgardandelion
-betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.name=Asgardandelion
-betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.desc=A passive mana generating flower that can produce a never-ending torrent of mana.
-
 # Quest: Fountain Of Alchemy
 betterquesting.quest.MJgg4KT4Q1Gi-2hgQ9Sz6w.name=Fountain Of Alchemy
 betterquesting.quest.MJgg4KT4Q1Gi-2hgQ9Sz6w.desc=The Fountain of Alchemy as you may guess, is functionally just like the Mana Fountain, except it can handle the recipes that you would typically need an Alchemy Rune underneath a Mana Pool for.%n%nIf you need any further details about its functionality, check out the Mana Fountain quest or the Lexica Botania.%n%n[warn]This cannot do regular Mana Pool recipes, only Alchemy recipes.[/warn]%n%n[note]If, for whatever reason, you needed an abundance of prismarine in the future... perhaps a quad Fountain of Alchemy would be an excellent aid in obtaining that.[/note]
@@ -14442,10 +14457,6 @@ betterquesting.quest.-2oHGhi4Q22pvhQHb3IaCA.desc=For a while now, you have been 
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.name=§5§l§nWaterproof Tech
 betterquesting.quest.1FFkSYHcQPO_6U185CKBiw.desc=Finally, convenient fluid pattern processing!%n%nNow that you've unlocked the Space Assembler you can create the Crafting Input Buffer. Fluid containing patterns can be processed, otherwise it works like the Crafting Input Bus.%n%n[note]The items and fluids passed into this bus remain invisible to all other buses. Recipes cannot conflict with one another.[/note]
 
-# Quest: Steel Barrel
-betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.name=§c§nスチールの樽
-betterquesting.quest.25yJ-u9OSG-GiMnQY9vWfQ.desc=§7《§rスチールの樽§7／Steel Barrel》§r は72スロットを持つストレージ設備です。
-
 # Quest: Integrated Ore Factory - All in One!
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.name=§4§n統合鉱石ファクトリー - オール・イン・ワン！
 betterquesting.quest.3hN7FykMSJSWSykZiEWvfQ.desc=The Integrated Ore Factory allows you to process ores through multiple processes at once.
@@ -14978,10 +14989,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMeA.desc=Some turbine materials are not 
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.name=§9§nハイポジェンコイルへのアップグレード
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkg.desc="時を超えて生きる竜の血から鍛えられ、核融合の力によって生み出された、現実の境界線上を超えた物質。"%n%nこの輝くオレンジ色の素材に匹敵する天然元素や合金は、現状確認されていません。%nかつて手に入れた §7《§r覚醒ドラコニウム§7／Awakened Draconium》§r すらも凌駕しています。%n%n核融合炉Mk4の炉内で、一体何が起こったのでしょうか？%n%n§lこの物質は一体何なのか？§r%n%nその粉末は肉眼でも確認が容易なほどに脈動を続けており、粒子の大きさによって鼓動の速さが変わることが明らかになっています。%n%n§7《§rハイポジェン§7／Hypogen》§r...%n%nこの物質はブロックサイズに近づくにつれて、完全な平衡状態へと近づくようです。それをどう使うべきかは、ここまで辿り着いたあなたなら分かるはずです。%n%n%nこの物質はほとんど抵抗なくエネルギーを吸収し、放射します。しかし補助部品無しでコイル状態へ加工しようとするのは無謀です。%n%nもはやウェットウエア回路では力不足で、最も高度な"生きた"回路のみがこの不安定な挙動を抑え込むことができます。%n%n%n12,601Kの熱を生み出すことができます。%n%n§7《§r次元超越プラズマフォージ§7／Dimensionally Transcendent Plasma Forge》§r への使用が推奨されます。
 
-# Quest: Eternal Coil Upgrade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.name=§9§l§nエターナルコイルへのアップグレード
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMkw.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought into a fluid, and then a solid. It has been stabilized, against all odds. When you look at it, you think that you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one, through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous, which would have stopped your progress altogether if not for the discovery of the Energized Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension, and that is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made out of cubes. You have only glimpsed at the reality of the 4-dimensional world, but you have successfully used it to condensate spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multi-dimensional material.%n%nCurrently, the final upgrade with 13501K. This really makes your DTPF shine!
-
 # Quest: Power in the Ether
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.name=§9§l§nPower in the Ether
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMow.desc=These new hatches allow you to wirelessly store and receive energy from any location in any dimension. They can be placed in any existing multi block structure and will function as normal energy hatches. %n%nAdditionally, the wireless covers can be used for singleblock machines such as a World Accelerator or a BioLab.%n%nThe wireless network can store a total of 2^(2^31) EU, far exceeding even a max tier LSC.%n%nYou can share a wireless network with others by adding them to your network with §5/gt global_energy_join §3user1§r §2user2§r. This will make §3user1§r use §2user2's§r energy when interacting with the global network. You can leave a network at any time by doing §5/gt global_energy_join§r §4your_name your_name§r.%n%nYou cannot connect wires to these blocks. These are also designed to be highly lag efficient, meaning EU is added at large intervals to prevent needless calculations from occurring. This will also save you some TPS lag from vast wire networks.%n%n[note]If your calculator is giving up, 2^(2^31) is a number with 646,456,994 digits.[/note]
@@ -15053,6 +15060,10 @@ betterquesting.quest.JCfcbke6SGO9KCPqXsTyaQ.desc=The §5§lHeliocast Reinforceme
 # Quest: Balance is Everything
 betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=§9§l§nBalance is Everything
 betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=You already transcended dimensions, but as your power demands spike to absurd levels, maybe it's time to transcend matter!%n%nUsing the unbreakable stability of Proto-Halkonite, harnessing the power of [warn]Chaos[/warn] becomes a reality. The  Semi-Stable Antimatter Stabilization Sequencer introduces the concept of Semi-Stable Antimatter, created from Protomatter.%n%nBut it's a cruel mistress... fail to manage it, and antimatter could void itself into nothingness.%n%nThe Semi-Stable Antimatter is produced in 1 second cycles, the amount generated is based on the total of antimatter currently stocked in its 16 Antimatter Hatches and consumes equal amounts of Proto Matter.%n%nEach cycle, the base production of antimatter per hatch is:%n(1/16)*(§3Antimatter§r)^(0.5 + §6§nC§r).%nThen each hatch will pull a random number from a normal distribution of 0.2 + §b§nA§r and a variance of 1, multiplying the base production with it, meaning the total antimatter change may be negative.%n%nThis causes an imbalance between the hatches. To properly automate the antimatter production, it's vital to always re-balance the amount of antimatter in the hatches. At the end of each cycle, the lowest amount of antimatter present in hatches is recorded, and any hatch that contains more than the lowest amount loses half the difference!%n%nProper use of stabilization fluids can significantly reduce energy usage and boost production:%n%nIt consumes 10,000,000 + (§3Antimatter§r * 1000)^(1.5 - §2§nM§r) EU/t passively%nMagnetic Stabilization Fluids can mitigate the passive instability and have its §2exponent§r reduced:%nMolten Purified Tengam Exponent = §2§n0.1§r%nTachyon-Rich Fluid Exponent = §2§n0.2§r%nMolten Magmatter Exponent = §2§n0.3§r%n%nFor each cycle, the SSASS uses (§3Antimatter§r * 10000)^(1.5 - §5§nG§r) EU%nBy regulating the gravity containment of the forge, this §5exponent§r can also be reduced:%nMolten Spacetime Exponent = §5§n0.05§r%nSpatially Enlarged Fluid Exponent = §5§n0.10§r%nMolten Eternity Exponent = §5§n0.15§r%n%nBy containing the antimatter more compactly, it is possible to generate larger gains per cycle. Containment Stabilization fluids alter the §6exponent§r in the production formula:%nMolten Shirabon Exponent = §6§n0.05§r%nMolten MHDCSM Exponent = §6§n0.10§r%n%nBy inserting fluids with high energy potential, it's possible to alter antimatter's flow in chaos, making their randomness more favorable. Activation Stabilization Fluids alter the §baverage§r of the gaussian distribution, lowering the risks of negative changes in antimatter and favoring better gains.%nDepleted Naquadah Fuel Mk V average = §b§n0.05§r%nDepleted Naquadah Fuel Mk VI average = §b§n0.10§r
+
+# Quest: Asgardandelion
+betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.name=§4§l§nAsgardandelion
+betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.desc=A passive mana generating flower that can produce a never-ending torrent of mana.
 
 # Quest: Celestial Gateways
 betterquesting.quest.OWIeO5C1RheNGaVsrwmPJg.name=Celestial Gateways
@@ -15348,6 +15359,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMBg.desc=これはトリガークエス�
 # Quest: Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.name=Tool: Never complete
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMrw.desc=This quest should never be complete which is useful to hide templates and other things.
+
+# Quest: Trigger: Quantum Armor Skip
+betterquesting.quest.AZDwXr_rTie-JHiuykME7w.name=Trigger: Quantum Armor Skip
+betterquesting.quest.AZDwXr_rTie-JHiuykME7w.desc=
 
 # Quest: Trigger: NaK Skip
 betterquesting.quest.Bv3i0a9kRGWScgrhhV9tOg.name=Trigger: NaK Skip
