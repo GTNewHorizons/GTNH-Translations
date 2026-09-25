@@ -48,6 +48,17 @@ mobsinfo.mobhandlerinfernal.inferno=恶魔掉落 - %.3f%% (%.3f%%)
 mobsinfo.mobhandlerinfernal.tooltip_chance=综合期望几率：%.4f%%
 mobsinfo.mobhandlerinfernal.tooltip_chance_always=总是精英怪时，综合期望几率：%.4f%%
 
+mobsinfo.mobhandlerfishing.title=Fishing Loot Table
+mobsinfo.mobhandlerfishing.format=Format:
+mobsinfo.mobhandlerfishing.format_1=Category name - x%
+mobsinfo.mobhandlerfishing.format_2=Item chances are per catch
+mobsinfo.mobhandlerfishing.format_3=Base chances are with
+mobsinfo.mobhandlerfishing.format_4=Luck of the Sea 0 and Lure 0
+mobsinfo.mobhandlerfishing.fish=Fish - %.2f%%
+mobsinfo.mobhandlerfishing.junk=Junk - %.2f%%
+mobsinfo.mobhandlerfishing.treasure=Treasure - %.2f%%
+mobsinfo.mobhandlerfishing.tooltip_chance=Chance to get: %.4f%%
+
 #Extras (compatibility)
 mobsinfo.extras.minecraft_slime=仅在史莱姆最小时掉落
 mobsinfo.extras.minecraft_magma_cube=仅在岩浆怪不是最小是掉落
@@ -107,3 +118,13 @@ mobsinfo.command.hidden.invalid_mob=§c无效怪物名!
 mobsinfo.command.hidden.lock_error=§c玩家尚未解锁该怪物或者怪物名无效!
 mobsinfo.command.hidden.success=§a成功!
 mobsinfo.command.hidden.invalid=§c无效选项! 正确的用法为：%s
+
+mobsinfo.extras.minefantasy2_guts_looting=Chance is divided by (1 + Looting level).
+mobsinfo.extras.minefantasy2_burning=Only when the mob is burning.
+mobsinfo.extras.minefantasy2_not_burning=Only when the mob is not burning.
+mobsinfo.extras.minefantasy2_hunting_weapon=Requires a hunting weapon on the killing blow.
+mobsinfo.extras.minefantasy2_bow_skeleton=Only when the skeleton holds a bow.
+mobsinfo.extras.minefantasy2_original_item=Only when replacing a normal drop of %s.
+mobsinfo.extras.minefantasy2_tagged_sack=Only from MineFantasy II upgraded zombies.
+mobsinfo.extras.lootplusplus_player_credit=Requires player kill credit.
+mobsinfo.extras.lootplusplus_skeleton_kill=Only when killed by a skeleton.

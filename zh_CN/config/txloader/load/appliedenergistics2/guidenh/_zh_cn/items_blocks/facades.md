@@ -1,0 +1,46 @@
+---
+navigation:
+  parent: /items_blocks_index.md
+  title: Facades
+  icon: appliedenergistics2:item.ItemFacade:0:{itemname:"stone",x:[1,0,],modid:"minecraft"}
+  position: 110
+categories:
+- network infrastructure
+item_ids:
+- appliedenergistics2:item.ItemFacade
+---
+
+# Facades
+
+Facades can be used to make your base look cleaner. They can cover both sizes of cable and can be made from many kinds of blocks.
+
+<GameScene zoom="6" showBackground={false} interactive={false}>
+  <ImportStructure src="../assets/structures/facades_1.snbt" />
+  <IsometricCamera yaw="195" pitch="30" />
+</GameScene>
+
+They can cover all sides of a cable, but still allow [subparts](../ae2_mechanics/cables_subparts.md) and cable connections to protrude through them.
+
+<GameScene zoom="6"  interactive={true}>
+  <ImportStructure src="../assets/structures/facades_2.snbt" />
+  <IsometricCamera yaw="195" pitch="30" />
+</GameScene>
+
+Used well, they can improve your base aesthetics or let you build blocks with different textures on each side.
+
+<GameScene zoom="4" interactive={true}>
+  <ImportStructure src="../assets/structures/facades_3.snbt" />
+  <IsometricCamera yaw="195" pitch="30" />
+</GameScene>
+
+## Hiding Facades
+
+Facades are hidden while you are holding a <a href="network_tool.md">Network Tool</a> in either hand.
+
+You can interact with the blocks behind hidden facades without removing the facades first.
+
+## Recipe
+
+Place the block whose texture you want in the middle of 4 <ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />s.
+
+<RecipeFor id='appliedenergistics2:item.ItemFacade:0:{itemname:"stone",x:[1,0,],modid:"minecraft"}'/>

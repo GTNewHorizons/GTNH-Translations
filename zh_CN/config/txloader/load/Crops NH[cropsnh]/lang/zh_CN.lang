@@ -111,7 +111,9 @@ cropsnh_tooltip.genericSeed.growth=§a- 生长速度：%1$s§r
 cropsnh_tooltip.genericSeed.gain=§a- 产量：%1$s§r
 cropsnh_tooltip.genericSeed.resistance=§a- 抗性：%1$s§r
 cropsnh_tooltip.genericSeed.minSeedBedTier=最小苗床等级:%1$s
-cropsnh_tooltip.genericSeed.mustUseSeedSynthesizerToReplicate=该种子只能使用合成器复制
+cropsnh_tooltip.genericSeed.cannotBreedOnSticks=This crop cannot breed with other crops using crop sticks
+cropsnh_tooltip.genericSeed.cannotSpreadToOtherSticks.0=This crop cannot spread itself to nearby crop sticks
+cropsnh_tooltip.genericSeed.cannotSpreadToOtherSticks.1=You need a crop synthesizer to improve or duplicate it
 cropsnh_tooltip.genericSeed.mustUseBreederMachine=该种子只能由杂交机杂交
 cropsnh_tooltip.item.plantLens=检查作物
 cropsnh_tooltip.item.spade=除掉杂草并在收获成熟作物时掉落种子
@@ -121,7 +123,6 @@ cropsnh_tooltip.item.gaiaWart=食用后清除大部分负面状态效果
 cropsnh_tooltip.waila.cropStick.failedReq=§c%1$s§r
 cropsnh_tooltip.waila.cropStick.progressBar.scanned=%1$s / %2$s (%3$,.1f%%)
 cropsnh_tooltip.waila.cropStick.progressBar.notScanned=%1$,.1f%%
-# TODO: remove "(Check usages in NEI)" after a major version of GTNH.
 cropsnh_tooltip.planting.wrongSoil=该作物需要其它土壤（在NEI中查看用途）
 
 # GT5u Scanner Section Header
@@ -322,7 +323,7 @@ cropsnh_tooltip.industrialFarm.environmentalModule.disabled=禁用
 cropsnh_tooltip.industrialFarm.mode.input=输入
 cropsnh_tooltip.industrialFarm.mode.farm=农场
 cropsnh_tooltip.industrialFarm.mode.output=输出
-GT5U.gui.text.recipe_result.cropsnh.industrialFarm.subSoilNotFound=找不到用于种植正放入种子的底土
+GT5U.gui.text.recipe_result.cropsnh.industrialFarm.subSoilNotFound=无法找到正放入种子所需底土
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.subSoilMismatch.input=已存储的底土与放入的种子不兼容
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.subSoilMismatch.farm=当前底土与已存储的种子不兼容
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.seedBedTierTooLow=苗床等级过低，无法种植该种子
@@ -331,6 +332,9 @@ GT5U.gui.text.recipe_result.cropsnh.industrialFarm.seedOverflow=种子总量已�
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.cannotGrow=该种子无法在此环境中生长
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.notEnoughWater=水量不足
 GT5U.gui.text.recipe_result.cropsnh.industrialFarm.notEnoughEnrichedFertilizer=富集肥料不足
+
+# Industrial Farm Chat messages
+cropsnh_chat.industrialFarm.mode.set=模式变更为%1$s
 
 # Industrial Farm Scanner Tooltips
 cropsnh_tooltip.industrialFarm.scanner.0=等级: §e%1$s§r
@@ -567,7 +571,7 @@ cropsnh_genericSeeds.format=%1$s种子
 
 # Crop Names
 cropsnh_crops.weed=杂草
-cropsnh_crops.migrated=旧版作物
+cropsnh_crops.migrator=Migrator Crop
 # BoP Crop Names
 cropsnh_crops.bamboo=竹笋
 cropsnh_crops.eyebulb=眼球花
@@ -901,5 +905,44 @@ cropsnh_mutationPool.white=白色
 cropsnh_mutationPool.wood=木
 cropsnh_mutationPool.yellow=黄色
 
-# Chat Messages
-cropsnh_chat.industrialFarm.mode.set=模式变更为%1$s
+# Soil List
+cropsnh_soilList.global.tooltip=Grows on any soil
+cropsnh_soilList.global.wrongSoil=A crop that can grow on any soil somehow couldn't be planted. Please report this as a bug if you see this message!
+cropsnh_soilList.farmland.tooltip=Grows on farmland
+cropsnh_soilList.farmland.wrongSoil=This seed can only be planted on farmland!
+cropsnh_soilList.sand.tooltip=Grows on sand
+cropsnh_soilList.sand.wrongSoil=This seed can only be planted on sand!
+cropsnh_soilList.soulsand.tooltip=Grows on soul sand
+cropsnh_soilList.soulsand.wrongSoil=This seed can only be planted on soul sand!
+cropsnh_soilList.dirtGrass.tooltip=Grows on dirt or grass
+cropsnh_soilList.dirtGrass.wrongSoil=This seed can only be planted on dirt or grass!
+cropsnh_soilList.mycelium.tooltip=Grows on mycelium
+cropsnh_soilList.mycelium.wrongSoil=This seed can only be planted on mycelium!
+cropsnh_soilList.end.tooltip=Grows on endstone
+cropsnh_soilList.end.wrongSoil=This seed can only be planted on endstone!
+cropsnh_soilList.stone.tooltip=Grows on stone
+cropsnh_soilList.stone.wrongSoil=This seed can only be planted on stone!
+cropsnh_soilList.netherrack.tooltip=Grows on netherrack
+cropsnh_soilList.netherrack.wrongSoil=This seed can only be planted on netherrack!
+cropsnh_soilList.brick.tooltip=Grows on bricks
+cropsnh_soilList.brick.wrongSoil=This seed can only be planted on bricks!
+cropsnh_soilList.thaumLogs.tooltip=Grows on greatwood or silverwood logs
+cropsnh_soilList.thaumLogs.wrongSoil=This seed can only be planted on greatwood or silverwood logs!
+cropsnh_soilList.graveyard.tooltip=Grows on graveyard soil
+cropsnh_soilList.graveyard.wrongSoil=This seed can only be planted on graveyard soil!
+cropsnh_soilList.slimy.tooltip=Grows on slimy dirt or slimy grass
+cropsnh_soilList.slimy.wrongSoil=This seed can only be planted on slimy dirt or slimy grass!
+cropsnh_soilList.gravel.tooltip=Grows on gravel
+cropsnh_soilList.gravel.wrongSoil=This seed can only be planted on gravel!
+cropsnh_soilList.oilSands.tooltip=Grows on oil sands
+cropsnh_soilList.oilSands.wrongSoil=This seed can only be planted on oil sands!
+cropsnh_soilList.mushroom.tooltip=Grows on stone, dirt, grass or mycelium
+cropsnh_soilList.mushroom.wrongSoil=This seed can only be planted on stone, dirt, grass or mycelium!
+cropsnh_soilList.netherMushroom.tooltip=Grows on stone, dirt, grass or mycelium or netherrack
+cropsnh_soilList.netherMushroom.wrongSoil=This seed can only be planted on stone, dirt, grass or mycelium or netherrack!
+cropsnh_soilList.sugarcane.tooltip=Grows on sand, dirt and grass
+cropsnh_soilList.sugarcane.wrongSoil=This seed can only be planted on sand, dirt and grass!
+cropsnh_soilList.slimyDirt.tooltip=Grows on dirt, grass or slimy dirt or slimy grass
+cropsnh_soilList.slimyDirt.wrongSoil=This seed can only be planted on dirt, grass or slimy dirt or slimy grass!
+cropsnh_soilList.oil.tooltip=Grows on sand, gravel, soul sand, or oil sands
+cropsnh_soilList.oil.wrongSoil=This seed can only be planted on sand, gravel, soul sand, or oil sands!

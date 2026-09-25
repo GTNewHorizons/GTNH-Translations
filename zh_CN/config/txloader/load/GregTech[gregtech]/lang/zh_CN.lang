@@ -293,6 +293,215 @@ gt.blockmachines.hatch.pattern_provider.name=合成样板供应器（%s）
 gt.blockmachines.rockbreaker.name=低温岩浆固化者R-%s
 gt.blockmachines.locker.desc=存储盔甲并为其充能\n用螺丝刀点击以改变样式
 gt.blockmachines.hatch.multi.input.name=四重输入仓(%s)
+gt.blockmachines.antimatterhatch.name=Antimatter Hatch
+
+gt.blockmachines.basicgenerator.diesel.tier.04.name=Turbo Supercharging Combustion Generator
+gt.blockmachines.basicgenerator.diesel.tier.05.name=Ultimate Chemical Energy Releaser
+gt.blockmachines.basicgenerator.rtg.tier.01.name=Radioisotope Thermoelectric Generator
+gt.blockmachines.basicgenerator.rtg.tier.01.tooltip=Requires RTG Pellets\nFuel is measured in minecraft days (Check with Scanner)\nRTG changes output voltage depending on fuel\nGenerates power at %s%% Efficiency per tick\nOutput Voltage: %s EU/t\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.boiler.bronze.name=Small Coal Boiler
+gt.blockmachines.boiler.bronze.tooltip=An early way to get Steam Power\nProduces 120L of Steam per second\nCauses 20 Pollution per second
+gt.blockmachines.boiler.lava.name=Reinforced Lava Boiler
+gt.blockmachines.boiler.lava.tooltip=A Boiler running off Lava\nProduces 600L of Steam per second\nCauses 20 Pollution per second\nConsumes 3.0L of Lava every 20 ticks when fully heat up
+gt.blockmachines.boiler.solar.name=Simple Solar Boiler
+gt.blockmachines.boiler.steel.name=Large Coal Boiler
+gt.blockmachines.boiler.steel.tooltip=Faster than the Bronze Boiler\nProduces 300L of Steam per second\nCauses 30 Pollution per second
+gt.blockmachines.boiler.steel.solar.name=Advanced Solar Boiler
+
+gt.blockmachines.bronzemachine.alloysmelter.name=Steam Alloy Smelter
+gt.blockmachines.bronzemachine.alloysmelter.tooltip=Combination Smelter\nMachine Type: §eAlloy Smelter§r
+gt.blockmachines.bronzemachine.compressor.name=Steam Compressor
+gt.blockmachines.bronzemachine.compressor.tooltip=Compressing Items\nMachine Type: §eCompressor§r
+gt.blockmachines.bronzemachine.extractor.name=Steam Extractor
+gt.blockmachines.bronzemachine.extractor.tooltip=Extracting your first Rubber\nMachine Type: §eExtractor§r
+gt.blockmachines.bronzemachine.furnace.name=Steam Furnace
+gt.blockmachines.bronzemachine.furnace.tooltip=Smelting things with compressed Steam\nMachine Type: §eFurnace§r
+gt.blockmachines.bronzemachine.hammer.name=Steam Forge Hammer
+gt.blockmachines.bronzemachine.hammer.tooltip=Forge Hammer\nMachine Type: §eForge Hammer§r
+gt.blockmachines.bronzemachine.macerator.name=Steam Macerator
+gt.blockmachines.bronzemachine.macerator.tooltip=Macerating your Ores\nMachine Type: §eMacerator§r
+
+gt.blockmachines.bw.radiohatchhv.name=Radio Hatch
+gt.blockmachines.bw.radiohatchhv.tooltip=Radioactive Item Chamber for Multiblocks\nUse a screwdriver to set the containment level\nAdded by bartimaeusnek via §2BartWorks§7
+
+gt.blockmachines.compressedfluidhatch.name=Liquid Air Fluid Hatch
+gt.blockmachines.creative_debug_scanner.name=Creative Debug Scanner
+gt.blockmachines.debug.tt.certain.name=Uncertainty Resolution
+gt.blockmachines.debugstructurewriter.name=Debug Structure Writer
+
+gt.blockmachines.electricboiler.1.tier.single.name=Advanced Boiler [LV]
+gt.blockmachines.electricboiler.1.tier.single.tooltip=Produces 750L of Steam per second\nProduces 35 pollution/sec\nConsumes fuel only when temperature is less than 100C\nFuel with burn time greater than 500 is more efficient.\nDoesn't explode if there's no water\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.electricboiler.2.tier.single.name=Advanced Boiler [MV]
+gt.blockmachines.electricboiler.2.tier.single.tooltip=Produces 1500L of Steam per second\nProduces 50 pollution/sec\nConsumes fuel only when temperature is less than 100C\nFuel with burn time greater than 500 is more efficient.\nDoesn't explode if there's no water\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.electricboiler.3.tier.single.name=Advanced Boiler [HV]
+gt.blockmachines.electricboiler.3.tier.single.tooltip=Produces 2250L of Steam per second\nProduces 65 pollution/sec\nConsumes fuel only when temperature is less than 100C\nFuel with burn time greater than 500 is more efficient.\nDoesn't explode if there's no water\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.electrodedetectorhatch.name=Electrode Detector Hatch
+gt.blockmachines.electrodedetectorhatch.tooltip=Can be installed in Electric Arc Furnace.\nOutput Redstone Signal according to the damage of electrode used in the machine.\nRight click to open the GUI and setting.
+
+gt.blockmachines.electrodehatch.name=Electrode Hatch
+gt.blockmachines.electrodehatch.tooltip=Holds an electrode.
+
+gt.blockmachines.fix.name.remover.name=Name Remover
+gt.blockmachines.fix.name.remover.tooltip=Removes various NBT tags as well as covers.\n \n§nFirst Slot§r\nThe item you want to strip of NBT\n \n§nSecond Slot§r\nOne of the following circuits:\n§lCircuit 1:§r  Attempt to fix broken ores by removing the Display Name tag\n§lCircuit 3:§r  Remove Railcraft stacking tag\n§lCircuit 4:§r  Remove Anvil repair tag\n§lCircuit 5:§r  Remove Dye from Leather armor\n§lCircuit 6:§r  Remove Spray color from GT items\n§lCircuit 7:§r  Remove Muffler Upgrade from GT machines\n§lCircuit 24:§r  Remove everything including covers. Be careful you won't recover the covers!\n \n§lNo Circuit:§r Remove everything except covers
+
+gt.blockmachines.focus_input_bus.name=Focus Input Bus
+gt.blockmachines.focus_input_bus.tooltip=Input Bus for Foci
+
+gt.blockmachines.ggfab.machine.linked_input_bus.name=Linked Input Bus
+gt.blockmachines.giantoutputhatch.name=Giant Output Hatch
+gt.blockmachines.gt.icecreammachine.name=Ice Cream Machine
+
+gt.blockmachines.hatch.advancedbeamlineoutput.name=Filtered Beam Output Hatch
+gt.blockmachines.hatch.air.intake.tier.00.name=Air Intake Hatch
+gt.blockmachines.hatch.air.intake.tier.01.name=Extreme Air Intake Hatch
+gt.blockmachines.hatch.air.intake.tier.01.tooltip=Fluid Input for Multiblocks\nCapacity: 256,000 L\nHatch Tier: §bZPM§r\n§cDO NOT OBSTRUCT THE INPUT!\nDraws in Air from the surrounding environment\nCreates 40000 of Air every 20 ticks\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.air.intake.tier.02.name=Atmospheric Intake Hatch
+gt.blockmachines.hatch.beamlineinput.name=Beam Input Hatch
+gt.blockmachines.hatch.beamlineoutput.name=Beam Output Hatch
+gt.blockmachines.hatch.blackholeutility.name=Black Hole Utility Hatch
+gt.blockmachines.hatch.blackholeutility.tooltip=Optional hatch for Pseudostable Black Hole Containment Field.\nStatic Mode: Emit a constant redstone signal when a black hole is open\nPulse Mode: Emit a pulse every second while a black hole is open\nPulse is perfectly synced to the internal timing of the machine\nRight click to open the GUI and change settings.
+gt.blockmachines.hatch.catalystbulk.name=Bulk Catalyst Housing
+gt.blockmachines.hatch.catalystbulk.tooltip=Dedicated Catalyst Storage\nWill keep its contents when broken
+gt.blockmachines.hatch.catalysts.name=Catalyst Housing
+gt.blockmachines.hatch.catalysts.tooltip=Dedicated Catalyst Storage\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.cokeoven.name=Coke Oven Hatch
+gt.blockmachines.hatch.cokeoven.tooltip=Hatch for automating the Coke Oven\n§m------------------------------\n§aModes§7: Input, Output, Output (Fluids)\nCycle mode with a Screwdriver
+gt.blockmachines.hatch.crafting_input.me.name=Crafting Input Buffer (ME)
+gt.blockmachines.hatch.crafting_input.me.item_only.name=Crafting Input Bus (ME)
+gt.blockmachines.hatch.crafting_input.proxy.name=Crafting Input Proxy
+gt.blockmachines.hatch.datain.wireless.tier.12.name=Cloud Computation Client Hatch
+gt.blockmachines.hatch.datain.wireless.tier.12.tooltip=Wireless Computation Data Input for Multiblocks
+gt.blockmachines.hatch.datainass.wireless.tier.12.name=Wireless Assembly Line Reception Connector
+gt.blockmachines.hatch.dataout.wireless.tier.12.name=Cloud Computation Server Hatch
+gt.blockmachines.hatch.dataout.wireless.tier.12.tooltip=Wireless Computation Output for Multiblocks
+gt.blockmachines.hatch.dataoutass.wireless.tier.12.name=Wireless Data Bank Transmission Connector
+gt.blockmachines.hatch.dataoutass.wireless.tier.12.tooltip=§9Tec§1Tech§9: Elemental Matter\nWireless ItemStack Data Output for Multiblocks\nHigh speed internet connection
+gt.blockmachines.hatch.degasifiercontrol.name=Degasser Control Hatch
+gt.blockmachines.hatch.degasifiercontrol.tooltip=Can be installed in the Degasser Purification Unit.\nOutputs Redstone Signal Strength based on the current control signal.
+gt.blockmachines.hatch.dronedownlink.name=Drone DownLink Module
+gt.blockmachines.hatch.dronedownlink.tooltip=Built-in powerful navigation beacon!
+gt.blockmachines.hatch.heatsensor.name=Heat Sensor Hatch
+gt.blockmachines.hatch.heatsensor.tooltip=Reads heat of a machine.\nSend redstone signal if the heat is greater than the threshold.\nRight click to open the GUI and change settings.
+gt.blockmachines.hatch.input.debug.name=Debug Input Hatch
+gt.blockmachines.hatch.input.me.name=Advanced Stocking Input Hatch (ME)
+gt.blockmachines.hatch.input.me.basic.name=Stocking Input Hatch (ME)
+gt.blockmachines.hatch.input_battery.tier.00.name=Charging Bus (MV)
+gt.blockmachines.hatch.input_battery.tier.00.tooltip=Chargeable Item Bus for Multiblocks\nCapacity: 4 slots\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.input_battery.tier.01.name=Charging Bus (EV)
+gt.blockmachines.hatch.input_battery.tier.01.tooltip=Chargeable Item Bus for Multiblocks\nCapacity: 16 slots\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.input_bus.debug.name=Debug Input Bus
+gt.blockmachines.hatch.input_bus.elementalorbholder.name=Data Orb Repository
+gt.blockmachines.hatch.input_bus.elementalorbholder.tooltip=Holds Data Orbs for the Elemental Duplicator\nCan insert/extract the circuit slot\nA circuit must be used to select a slot (1-16)\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.input_bus.me.name=Advanced Stocking Input Bus (ME)
+gt.blockmachines.hatch.input_bus.me.basic.name=Stocking Input Bus (ME)
+gt.blockmachines.hatch.input_bus.tier.steam.name=Input Bus (Steam)
+gt.blockmachines.hatch.lenshousing.name=Lens Housing
+gt.blockmachines.hatch.lensindicator.name=Lens Indicator Hatch
+gt.blockmachines.hatch.lensindicator.tooltip=Can be installed in the UV Treatment Purification Unit.\nOutputs Redstone Signal when a lens swap is requested.
+gt.blockmachines.hatch.mag_hatch.name=Electromagnet Housing
+gt.blockmachines.hatch.mag_hatch.tooltip=Holds electromagnet for the Magnetic Flux Exhibitor
+gt.blockmachines.hatch.maintenance.name=Maintenance Hatch
+gt.blockmachines.hatch.maintenance.tooltip=For maintaining multiblocks\nUse tools to fix issues.
+gt.blockmachines.hatch.maintenance.auto.name=Auto Maintenance Hatch
+gt.blockmachines.hatch.maintenance.auto.tooltip=For automatically maintaining multiblocks\nConsumes 4 Duct Tape, 2 Lubricant Cells,\n4 Steel Screws, and 2 HV Circuits\nfor each autorepair.
+gt.blockmachines.hatch.milling.name=Ball Housing
+gt.blockmachines.hatch.milling.tooltip=Dedicated Milling Ball Storage\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.multi.input.tier.11.name=Humongous Quadruple Input Hatch
+gt.blockmachines.hatch.multi.input.tier.11.tooltip=Fluid Input for Multiblocks\nCapacity: 500,000,000 L\nCan hold 4 types of fluid.
+gt.blockmachines.hatch.nanite.name=Nanite Containment Bus
+gt.blockmachines.hatch.nanite.tooltip=Holds nanites for use in multiblocks\nWill keep its contents when broken
+gt.blockmachines.hatch.nanite.singularity.name=Singularity Nanite Containment Bus
+gt.blockmachines.hatch.nanite.singularity.tooltip=Holds nanites for use in multiblocks\nWill keep its contents when broken
+gt.blockmachines.hatch.output.me.name=Output Hatch (ME)
+gt.blockmachines.hatch.output.me.tooltip=Fluid Output for Multiblocks\nCapacity: 0 L\nRight click with screwdriver to restrict output\nCan be restricted to put out Items and/or Steam/No Steam/1 specific Fluid\nRestricted Output Hatches are given priority for Multiblock Fluid output
+gt.blockmachines.hatch.output_battery.tier.00.name=Discharging Bus (MV)
+gt.blockmachines.hatch.output_battery.tier.00.tooltip=Dischargeable Item Bus for Multiblocks\nCapacity: 4 slots\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.output_battery.tier.01.name=Discharging Bus (EV)
+gt.blockmachines.hatch.output_battery.tier.01.tooltip=Dischargeable Item Bus for Multiblocks\nCapacity: 16 slots\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.output_bus.me.name=Output Bus (ME)
+gt.blockmachines.hatch.output_bus.me.tooltip=Item Output for Multiblocks\nCapacity: 25 stacks\nLeft click with data stick to save filter config\nRight click with data stick to load filter config
+gt.blockmachines.hatch.output_bus.tier.steam.name=Output Bus (Steam)
+gt.blockmachines.hatch.phsensor.name=pH Sensor Hatch
+gt.blockmachines.hatch.phsensor.tooltip=Can be installed in the pH Neutralization Purification Unit.\nOutputs Redstone Signal according to the current pH value.\nRight click to open the GUI and change settings.
+gt.blockmachines.hatch.splitter.redstone.name=Splitter Redstone Input
+gt.blockmachines.hatch.toxicresiduesensor.name=Toxic Residue Sensor Hatch
+gt.blockmachines.hatch.toxicresiduesensor.tooltip=Reads Toxic Residue of the Large Neutralization Engine\nRight click to open the GUI and change settings.
+gt.blockmachines.hatch.turbine.name=Rotor Assembly
+gt.blockmachines.hatch.turbine.tooltip=Turbine Rotor holder for XL Turbines\nRight Click with a soldering iron to reset controller link\nRight Click with a wrench to remove turbine\nRight Click with a screwdriver for technical information\nSneak + Right Click with a wrench to rotate\nSneak + Right Click with a screwdriver to disable animations\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.hatch.turbine.input.tier.00.name=Turbine Housing
+gt.blockmachines.hatch.void.tier.00.name=Void Hatch
+gt.blockmachines.hatch.void_bus.tier.00.name=Void Bus
+gt.blockmachines.hatch.water.intake.tier.00.name=Reservoir Hatch
+gt.blockmachines.hatch.wireless.transmitter.energized.tier.12.name=Energized Wireless Dynamo Hatch
+
+gt.blockmachines.hpmachine.alloysmelter.name=High Pressure Alloy Smelter
+gt.blockmachines.hpmachine.alloysmelter.tooltip=Combination Smelter\nMachine Type: §eAlloy Smelter§r
+gt.blockmachines.hpmachine.compressor.name=High Pressure Steam Compressor
+gt.blockmachines.hpmachine.compressor.tooltip=Compressing Items\nMachine Type: §eCompressor§r
+gt.blockmachines.hpmachine.extractor.name=High Pressure Steam Extractor
+gt.blockmachines.hpmachine.extractor.tooltip=Extracting your first Rubber\nMachine Type: §eExtractor§r
+gt.blockmachines.hpmachine.furnace.name=High Pressure Steam Furnace
+gt.blockmachines.hpmachine.furnace.tooltip=Smelting things with compressed Steam\nMachine Type: §eFurnace§r
+gt.blockmachines.hpmachine.hammer.name=High Pressure Steam Forge Hammer
+gt.blockmachines.hpmachine.hammer.tooltip=Forge Hammer\nMachine Type: §eForge Hammer§r
+gt.blockmachines.hpmachine.macerator.name=High Pressure Steam Macerator
+gt.blockmachines.hpmachine.macerator.tooltip=Macerating your Ores\nMachine Type: §eMacerator§r
+
+gt.blockmachines.hull.bronze.name=Bronze Hull
+gt.blockmachines.hull.bronze_bricked.name=Bricked Bronze Hull
+gt.blockmachines.hull.steel.name=Steel Hull
+gt.blockmachines.hull.steel_bricked.name=Bricked Cast Iron Hull
+
+gt.blockmachines.humongousinputhatch.name=Humongous Input Hatch
+
+gt.blockmachines.infinite.chest.tier.01.name=Infinite Item Chest
+gt.blockmachines.infinite.chest.tier.01.tooltip=This Chest stores 101250 Items\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.long.distance.pipeline.fluid.name=Long Distance Fluid Pipeline
+gt.blockmachines.long.distance.pipeline.item.name=Long Distance Item Pipeline
+
+gt.blockmachines.machine.tffthatch.name=TFFT Multi I/O Hatch
+gt.blockmachines.machine.tffthatch.tooltip=All-in-one access for the TFFT
+
+gt.blockmachines.modificationtable.name=Modification Table
+gt.blockmachines.modificationtable.tooltip=§bModifies Modular Mechanisms\nCan be used to alter Mechanical Armor\nInsert armor, then frame, then energy core, then augments\nRemove all augments before removing frame or core
+
+gt.blockmachines.multimachine.brickedblastfurnace.name=Bricked Blast Furnace
+
+gt.blockmachines.neutron_sensor.name=Neutron Sensor
+gt.blockmachines.neutron_sensor.tooltip=Can be installed in Neutron Activator.\nOutput Redstone Signal according to the Neutron Kinetic Energy.\nRight click to open the GUI and setting.
+
+gt.blockmachines.pollutioncreator.01.tier.single.name=Smog Device
+gt.blockmachines.pollutioncreator.01.tier.single.tooltip=Polluting the skies.\nA useful debug machine to create pollution.\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.pollutiondetector.01.tier.single.name=Pollution Detection Device
+gt.blockmachines.pollutiondetector.01.tier.single.tooltip=Tells you if you're living in Gwalior yet.\nRight click to check pollution levels.\nConfigure with screwdriver to set redstone output amount.\nDoes not use power.\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.quantum.tank.debug.name=Debug Fluid Tank
+gt.blockmachines.quantum.tank.debug.tooltip=Stores 2,147,483,640 L of fluid\nWill keep its contents when harvested
+
+gt.blockmachines.redstone.lamp.name=Redstone Controlled Lamp
+gt.blockmachines.redstone.lamp.tooltip=Redstone Controlled Lamp\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.solarreflector.simple.single.name=Solar Reflector
+gt.blockmachines.solarreflector.simple.single.tooltip=Part of the Clean Green energy movement\nPoint me at a Solar Tower\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.tesseract.generator.name=Tesseract Generator
+gt.blockmachines.tesseract.generator.tooltip=Generates a Tesseract for the attached Inventory\nConnect with pipes to insert items\nConsumes 512EU/t for same dimension transfers\nConsumes 2048EU/t for cross dimensional transfers\nAdded by: §2Alkalus §7- §c[GT++]
+gt.blockmachines.tesseract.terminal.name=Tesseract Terminal
+gt.blockmachines.tesseract.terminal.tooltip=Accesses Tesseract Generators remotely\nConnect with pipes to extract items or fluids\nOutputs from the back face\nConsumes 512EU/t for same dimension transfers\nConsumes 2048EU/t for cross dimensional transfers\nAdded by: §2Alkalus §7- §c[GT++]
+
+gt.blockmachines.vacuum.hatch.input.name=Vacuum Conveyor Input
+gt.blockmachines.vacuum.hatch.output.name=Vacuum Conveyor Output
+
+gt.blockmachines.voidminer1.name=Void Miner I
+gt.blockmachines.voidminer2.name=Void Miner II
+gt.blockmachines.voidminer3.name=Void Miner III
+
+gt.blockmachines.yottafluidtankhatch.name=YOTHatch
+gt.blockmachines.yottafluidtankhatch.tooltip=Special I/O port for AE2FC.\nDirectly connected YOTTank with AE fluid storage system.\nUse screwdriver to set storage priority\nUse soldering iron to set read/write mode\nUse wire cutter to enable/disable sticky mode
 gt.blockmachines.hull.name=%s机器外壳
 gt.blockmachines.advancedmachine.dehydrator.tier.01.name=化学脱水机 I
 gt.blockmachines.advancedmachine.dehydrator.tier.02.name=化学脱水机 II
@@ -323,8 +532,8 @@ gt.blockmachines.batterycharger.name=%1$s电池充电器
 gt.blockmachines.batteryturbocharger.name=%1$s涡轮充电器
 gt.blockmachines.batterycharger.desc=每个电池提供8A输入/4A输出（最小4A/2A）
 gt.blockmachines.batteryturbocharger.desc=64A in /16A out, 120A/item, Disable to force Charge
-gt.blockmachines.automation.filter.desc=Filters up to 9 different Items\nUse Screwdriver to regulate output stack size
-gt.blockmachines.automation.typefilter.desc=Filters 1 Item Type\nUse Screwdriver to regulate output stack size
+gt.blockmachines.automation.filter.desc=过滤至多9种不同物品\n使用螺丝刀调节单次输出量
+gt.blockmachines.automation.typefilter.desc=过滤单个类型的物品\n使用螺丝刀调节单次输出量
 gt.blockmachines.automation.recipefilter.desc=Filters 1 Recipe Type\nUse Screwdriver to regulate output stack size
 gt.blockmachines.automation.regulator.desc=Filters up to 9 different Items\nAllows Item-specific output stack size\nAllows Item-specific output slot
 gt.blockmachines.automation.itemdistributor.desc=Distributes Items between different Machine Sides\nDefault Items per Machine Side: 0\nUse Screwdriver to increase/decrease Items per Side
@@ -1021,7 +1230,7 @@ item.gt.pollen.name=花粉
 item.gt.propolis.name=蜂胶
 
 # GT Item Descriptions
-gt.item.desc.stored_heat=Stored Heat: %s
+gt.item.desc.stored_heat=储存热量: %s
 gt.item.desc.durability=耐久: %s/%s
 gt.item.desc.tier=%s 等级 %s
 gt.item.desc.level=%s 等级 %s
@@ -1536,8 +1745,10 @@ GTPP.tooltip.catalyst.active_reaction_agent=活性反应剂
 GTPP.tooltip.milling_ball.tumble=磨~磨~磨~
 
 # Infinite Spray Can
-item.GT5U.infinite_spray_can.name.solvent=无限喷漆罐%c溶剂%c
-item.GT5U.infinite_spray_can.name.colored=无限喷漆罐%c%s%c
+item.GT5U.infinite_spray_can.name.solvent.unlocked=Infinite Spray Can (Solvent)
+item.GT5U.infinite_spray_can.name.solvent.locked=Infinite Spray Can [Solvent]
+item.GT5U.infinite_spray_can.name.colored.unlocked=Infinite Spray Can (%s)
+item.GT5U.infinite_spray_can.name.colored.locked=Infinite Spray Can [%s]
 
 GT5U.infinite_spray_can.color.Black=黑色
 GT5U.infinite_spray_can.color.Red=红色
@@ -1780,11 +1991,13 @@ gt.mbtt.structure.interior=结构内部
 gt.mbtt.structure.any_tiered_glass=任意等级玻璃
 gt.mbtt.structure.min_tiered_glass=%s+玻璃
 gt.mbtt.structure.any_bottom_casing=任意底层机械方块
+gt.mbtt.structure.any_bottom_side_casing=Any bottom side casing
 gt.mbtt.structure.back_center_casing=背面中央机械方块
 gt.mbtt.structure.front_center_casing=正面中央机械方块
 gt.mbtt.structure.any_front_bottom_casing=任意正面底中机械方块
 gt.mbtt.structure.around_controller=Around controller
 gt.mbtt.structure.any_back_center_casing=任意背面中央机械方块
+gt.mbtt.structure.any_back_center_casing_and_more=Any back center casing, or directly above/below controller
 gt.mbtt.structure.any_front_shielding_casing=任意正面屏蔽机械方块
 gt.mbtt.structure.front_center_of_central_column_4th_layer=第四层，中央支柱正面中央
 gt.mbtt.structure.any_bottom_center_casing=Any bottom center casing
@@ -1797,6 +2010,7 @@ gt.mbtt.structure.specific_casings_on_each_curve=Specific casings on each curve 
 gt.mbtt.structure.specific_glass_on_each_side=Specific glass on each side
 gt.mbtt.structure.supports_crafting_input_buffers=Supports crafting input buffers
 gt.mbtt.structure.front_center_27th_layer=第二十七层，正面中央
+gt.mbtt.structure.top_center_28th_layer=Top center, 28th layer
 gt.mbtt.structure.back_left_or_right_side=结构的背面，左侧或右侧
 gt.mbtt.structure.top_or_bottom_side=结构的顶部或底部
 gt.mbtt.structure.around_inner_ring=Around the inner ring
@@ -1821,6 +2035,12 @@ gt.mbtt.structure.any_casing_or_frame_box_at_conveyor_start=Any casing or frame 
 gt.mbtt.structure.any_casing_at_conveyor_end=Any casing at end of conveyor belt
 gt.mbtt.structure.any_bottom_edge_concrete=Any bottom edge concrete
 gt.mbtt.structure.any_magic_casing=Any magic casing
+gt.mbtt.structure.any_steel_machine_casing=Any steel machine casing
+gt.mbtt.structure.any_top_pump_casing=Any top pump casing
+gt.mbtt.structure.top_of_reactor_triso=Top of reactor (TRISO Balls)
+gt.mbtt.structure.bottom_of_reactor_burned_triso=Bottom of reactor (Burned Out TRISO Balls)
+gt.mbtt.structure.htgr_input_hatches=Any top pump casing (helium), bottom of tall tower (coolant), top of short tower (distilled water)
+gt.mbtt.structure.htgr_output_hatches=Top of tall tower (hot coolant), bottom of short tower (steam)
 
 # Generic machine types
 gt.mbtt.machine_type.spacetime_manipulator=时空操纵者，EOH
@@ -1840,6 +2060,9 @@ gt.mbtt.machine_type.fluid_tank=流体储罐
 gt.mbtt.machine_type.component_assembler_coal=部件装配线，CoAL
 gt.mbtt.machine_type.coolant_tower=冷却塔
 gt.mbtt.machine_type.essentia_smeltery_les=源质冶炼厂，LES
+gt.mbtt.machine_type.breeder_reactor_htgr=Breeder Reactor, HTGR
+gt.mbtt.machine_type.arc_furnace_iaf=Arc Furnace, IAF
+gt.mbtt.machine_type.solar_tower=Solar Tower
 
 GT5U.MBTT.HatchInfo=任何%s
 GT5U.MBTT.HatchHint=（提示：%s）
@@ -2022,7 +2245,7 @@ GT5U.coil.MAX=永恒
 
 gt.recipe.nanochip.conversion=纳米芯片复合体转换
 gt.recipe.nanochip.assemblymatrix=纳米芯片组装矩阵
-gt.recipe.nanochip.smdprocessor=元件预处理装置
+gt.recipe.nanochip.partprocessor=Part Processing Apparatus
 gt.recipe.nanochip.boardprocessor=全板浸没设备
 gt.recipe.nanochip.etchingarray=超高能蚀刻阵列
 gt.recipe.nanochip.cuttingchamber=纳米精度切割仓
@@ -2124,6 +2347,18 @@ gt.icecreammachine.broken.8.tooltip=404：未找到冰淇淋。
 gt.icecreammachine.broken.9.tooltip=机器自己吃掉了最后一个蛋筒，概不退款。
 gt.icecreammachine.broken.10.tooltip=水逆时间，机器也不正常了。
 gt.icecreammachine.broken.11.tooltip=机器向人事部投诉了，事情有点复杂。
+gt.icecreammachine.broken.12.tooltip=The machine is stuck in a flashback to 1987. It'll snap out of it by tomorrow.
+gt.icecreammachine.broken.13.tooltip=A raccoon got into the machine and is refusing to leave. Pest control comes tomorrow.
+gt.icecreammachine.broken.14.tooltip=The machine unionized with the fridge next door. Negotiations resume tomorrow.
+gt.icecreammachine.broken.15.tooltip=Someone fed the machine a pickle instead of milk. It needs a day to recover.
+gt.icecreammachine.broken.16.tooltip=The machine achieved sentience, then immediately regretted it. Reboot scheduled for tomorrow.
+gt.icecreammachine.broken.17.tooltip=Ice cream machine says: "not today, Greg." Try again tomorrow.
+gt.icecreammachine.broken.18.tooltip=The machine is haunted by the ghost of a broken vending machine. Exorcism scheduled for tomorrow.
+gt.icecreammachine.broken.19.tooltip=Somebody used the machine as a pillow overnight. It needs until tomorrow to recover.
+gt.icecreammachine.broken.20.tooltip=The machine is buffering. Please check back tomorrow.
+gt.icecreammachine.broken.21.tooltip=A bee flew in and now runs the place. Management resumes tomorrow.
+gt.icecreammachine.broken.22.tooltip=The machine is mid-existential-warranty-dispute with itself. Resolved by tomorrow.
+gt.icecreammachine.broken.23.tooltip=Someone spilled sprinkles in the mainframe. Cleanup finishes tomorrow.
 gt.icecreammachine.repair.0.tooltip=机器坏了！放入一个铁螺丝来修复它。
 gt.icecreammachine.repair.1.tooltip=机器坏了！放入一个钢螺丝来修复它。
 gt.icecreammachine.repair.2.tooltip=机器坏了！放入一个小型铁齿轮来修复它。
@@ -2325,6 +2560,7 @@ GT5U.recipes.not_consume=不在加工时消耗
 GT5U.recipes.not_consume_parallel=不在加工时消耗，但决定机器的并行
 GT5U.recipes.chance.consume=消耗几率：%s
 GT5U.recipes.chance.output=输出几率：%s
+GT5U.recipes.chance.unorganized=Has a %d%% chance to output an unorganized version instead
 
 GT5U.machines.tier=等级
 GT5U.machines.workarea=工作区域
@@ -2550,7 +2786,6 @@ GT5U.machines.stocking_bus.auto_pull.tooltip.1=点击切换自动从ME网络拉�
 GT5U.machines.stocking_bus.auto_pull.tooltip.2=右击以配置额外参数.
 GT5U.machines.stocking_bus.min_stack_size=最小堆叠数
 GT5U.machines.stocking_bus.refresh_time=槽位刷新时间（Ticks）
-GT5U.machines.stocking_bus.force_check=请求内容改变时重新检查配方
 GT5U.machines.stocking_bus.manual_slot.tooltip.1=手动输入槽
 GT5U.machines.stocking_bus.manual_slot.tooltip.2=用于手动直接插入物品。它不是ME存储输入槽位。
 GT5U.machines.stocking_bus.auto_pull_toggle.enabled=物品自动拉取已启用
@@ -2567,6 +2802,9 @@ GT5U.machines.output_bus.loaded=已载入闪存中的配置
 GT5U.machines.controller_hatch.saved=已将配置保存至闪存
 GT5U.machines.controller_hatch.loaded=已载入闪存中的配置
 GT5U.machines.output_bus.invalid=闪存中的配置已失效
+GT5U.machines.output_hatch.saved=Saved Config to Data Stick
+GT5U.machines.output_hatch.loaded=Loaded Config From Data Stick
+GT5U.machines.output_hatch.invalid=Invalid Data Stick config
 GT5U.machines.dronecentre.shutdown=你无法在无人机控制中心关闭时控制机器!
 GT5U.machines.dronecentre.turnon=成功开启组内所有机器：%s
 GT5U.machines.dronecentre.turnoff=成功关闭组内所有机器：%s
@@ -3055,7 +3293,6 @@ GT5U.gui.text.button.cryotheum.disabled=凛冰冷却：§4已禁用
 
 # NAC Keys
 GT5U.gui.text.recipe_result.nac.missing_water=水供应不足
-GT5U.gui.text.recipe_result.nac.waiting_for_power=等待充能
 GT5U.gui.text.recipe_result.nac.no_valid_hatch_color=未找到颜色为%s的真空传送输出端口
 GT5U.gui.text.nac.amount=数量：%s
 GT5U.gui.text.nac.splitter.redstone_level=当前红石信号等级
@@ -3082,11 +3319,24 @@ GT5U.gui.text.nac.bar.label.cosmics=寰宇电路板
 GT5U.gui.text.nac.bar.label.temporals=超时空电路板
 GT5U.gui.text.nac.bar.label.specials=高阶特殊电路板
 
+GT5U.gui.text.nac.energybar.tooltip.none=No modules installed
+GT5U.gui.text.nac.energybar.tooltip.no_matrix=No matrix modules installed
+GT5U.gui.text.nac.energybar.tooltip.no_nonmatrix=No non-matrix modules installed
+GT5U.gui.text.nac.energybar.tooltip.running=§cCannot update value while running
+GT5U.gui.text.nac.energybar.tooltip.matrix=§dMatrix portion: %d%% (%s EU/t)
+GT5U.gui.text.nac.energybar.tooltip.matrix_mult=§dMatrix portion: %d%% (%s EU/t each)
+GT5U.gui.text.nac.energybar.tooltip.nonmatrix=§3Non-matrix portion: %d%% (%s EU/t)
+GT5U.gui.text.nac.energybar.tooltip.nonmatrix_mult=§3Non-matrix portion: %d%% (%s EU/t each)
+
 GT5U.gui.text.nac.module.boardprocessor.flush_tank_auto=自动排空阈值
 GT5U.gui.text.nac.module.boardprocessor.impurity=含杂度
 
 GT5U.gui.text.nac.module.status.connected=连接到主复合体
 GT5U.gui.text.nac.module.status.disconnected=与主复合体断连
+GT5U.gui.text.nac.module.disable_all_button_on.1=§aAll modules enabled
+GT5U.gui.text.nac.module.disable_all_button_on.2=§7Press to disable all modules
+GT5U.gui.text.nac.module.disable_all_button_off.1=§cAll modules disabled
+GT5U.gui.text.nac.module.disable_all_button_off.2=§7Press to enable all modules
 
 # NAC Info Panel
 GT5U.gui.text.nac.nameplate=纳米芯片组装复合体
@@ -3104,30 +3354,57 @@ GT5U.gui.text.nac.info.module_basics.body.2=模块输入电路组件并输出处
 GT5U.gui.text.nac.info.module_basics.body.3=模块按“优先级”系统从纳米芯片组装复合体获取能量。组装矩阵具有最低的优先级，会最后尝试填满其缓存，使得能量优先供应到其它模块。如果某个模块正在“等待充能”，意味着它需要为内部缓存充电，以此完整运行接下来的配方并确保不会跳电。
 GT5U.gui.text.nac.info.module_basics.body.4=模块天生具有无限的并行，但可以通过模块特有的机制和纳米芯片组装复合体的“校准”获得速度、EU消耗和运行成本上的额外增益。
 GT5U.gui.text.nac.info.module_basics.body.5=模块具有受限于纳米芯片组装复合体能源仓等级的2/2超频（在计算并行前计算）。这意味着，若某个配方的基础电压为UEV而你使用了UMV级别的能源仓，模块将最多超频两次。组装矩阵模块使用部件装配线外壳等级决定超频，而非电压等级。配方耗时不能超频至5秒以下。
+GT5U.gui.text.nac.info.module_basics.body.6=After parallels and capped 2/2 overclocks are applied, the module will use any excess power to perform uncapped 2/4 overclocks. The recipe time here can also not be overclocked below 5 seconds.
 GT5U.gui.text.nac.info.calibration.header=校准
 GT5U.gui.text.nac.info.calibration.body.1=当某个电路板在组装矩阵中被制作时，它将被纳米芯片组装复合体研究并记录到其电路制作历史中。电路校准以100个批次的形式存储，每批次含有1,000个电路。
 GT5U.gui.text.nac.info.calibration.body.2=多种颜色的处理进度条显示了纳米芯片组装复合体最近制造的100,000个电路中每种电路类型的数量/百分比。当前批次的进度以环状的处理图标形式展示。当某一批次的电路全部制作完成时，该批次的信息将取代已记录批次中最早批次的信息。
 GT5U.gui.text.nac.info.calibration.body.3=当特定数量的某类型电路被制作后，纳米芯片组装复合体会被“校准”到该电路类型。此处的数量为校准等级阈值 * 历史制作电路数（100,000）。每种校准具有三个等级，阈值与增益逐阶提升。同一时刻只能有一种校准存在，高等级校准优先。
-GT5U.gui.text.nac.info.calibration.crystal.header=晶体电路板
-GT5U.gui.text.nac.info.calibration.crystal.effect1=§3等级 1§r - §2阈值：20%%§r - 所有模块EU消耗乘以0.8
-GT5U.gui.text.nac.info.calibration.crystal.effect2=§3等级 2§r - §2阈值：40%%§r - 组装矩阵内晶体电路配方耗时乘以0.8
-GT5U.gui.text.nac.info.calibration.crystal.effect3=§3等级 3§r - §2阈值：60%%§r - 蚀刻阵列的激光源仓为处理提供增益
-GT5U.gui.text.nac.info.calibration.wetware.header=湿件电路板
-GT5U.gui.text.nac.info.calibration.wetware.effect1=§3等级 1§r - §2阈值：20%%§r - 所有模块EU消耗乘以0.8
-GT5U.gui.text.nac.info.calibration.wetware.effect2=§3等级 2§r - §2阈值：40%%§r - 组装矩阵内湿件电路配方耗时乘以0.8
-GT5U.gui.text.nac.info.calibration.wetware.effect3=§3等级 3§r - §2阈值：60%%§r - 生物调谐器不消耗无菌培养基
-GT5U.gui.text.nac.info.calibration.bioware.header=生物电路板
-GT5U.gui.text.nac.info.calibration.bioware.effect1=§3等级 1§r - §2阈值：20%%§r - 所有模块EU消耗乘以0.8
-GT5U.gui.text.nac.info.calibration.bioware.effect2=§3等级 2§r - §2阈值：40%%§r - 组装矩阵内生物电路配方耗时乘以0.8
-GT5U.gui.text.nac.info.calibration.bioware.effect3=§3等级 3§r - §2阈值：60%%§r - 生物调谐器不消耗所有两种培养基
-GT5U.gui.text.nac.info.calibration.optical.header=光学电路板
-GT5U.gui.text.nac.info.calibration.optical.effect1=§3等级 1§r - §2阈值：20%%§r - 所有模块EU消耗乘以0.8
-GT5U.gui.text.nac.info.calibration.optical.effect2=§3等级 2§r - §2阈值：40%%§r - 组装矩阵内光学电路配方耗时乘以0.8
-GT5U.gui.text.nac.info.calibration.optical.effect3=§3等级 3§r - §2阈值：60%%§r - 光学组织器的净化水增益被计算两次
-GT5U.gui.text.nac.info.calibration.special.header=特殊电路板（皮米与量子）
-GT5U.gui.text.nac.info.calibration.special.effect1=§3等级 1§r - §2阈值：1%%§r - 组装矩阵内特殊电路的配方耗时降低20%% 
-GT5U.gui.text.nac.info.calibration.special.effect2=§3等级 2§r - §2阈值：5%%§r - 组装矩阵内特殊电路的配方耗时再降低20%% （总计40%%）
-GT5U.gui.text.nac.info.calibration.special.effect3=§3等级 3§r - §2阈值：20%%§r - 组装矩阵内特殊电路的配方耗时再降低10%% （总计50%%）
+GT5U.gui.text.nac.info.calibration.body.4=When enough of a circuit type is processed, the NAC will be 'Calibrated' to that circuit type. The specific amount is the calibration tiers threshold * the total circuit history (100,000). Each Calibration has 3 stages with increasing thresholds and increasing buffs. Only one Calibration may be present at once, with higher tier Calibrations taking priority.
+
+GT5U.gui.text.nac.info.line_specifics.header=Circuit Line Specifics
+GT5U.gui.text.nac.info.line_specifics.body.1=Below is a collection of the comprehensive information that varies between circuit lines.
+GT5U.gui.text.nac.info.line_specifics.body.2=The information is organized as follows: §dSuggested Power Distribution§r, §aSuggested Additional Module Amounts§r, §3Calibration Weights§r (if they differ), and §2Calibration Values
+GT5U.gui.text.nac.info.line_specifics.primitive.header=Primitive Circuits
+GT5U.gui.text.nac.info.line_specifics.primitive.power_distribution=Suggested Power Distribution: §d90%% Matrix§r / §310%% Non-Matrix
+GT5U.gui.text.nac.info.line_specifics.primitive.module_count=Suggested Additional Modules:§a None
+GT5U.gui.text.nac.info.line_specifics.primitive.body1=The Prime Unattuned Circuitry component increases Primitive calibration progress by 0.1 each, ignoring the standard formula above.
+GT5U.gui.text.nac.info.line_specifics.primitive.body2=Other Primitive Circuits only increase Primitive calibration progress by 1 per batch.
+GT5U.gui.text.nac.info.line_specifics.primitive.calibration.effect1=§3Tier 1§r - §240%% Threshold§r  - 10%% chance to set Primitive Circuit recipe times to 10 ticks 
+GT5U.gui.text.nac.info.line_specifics.primitive.calibration.effect2=§3Tier 2§r - §280%% Threshold§r  - +5%% chance to multiply output for non-Primed Unattuned Circuitry Primitive Circuits
+GT5U.gui.text.nac.info.line_specifics.primitive.calibration.effect3=§3Tier 3§r - §2100%% Threshold§r - +5%% (10%% total) chance to multiply output for non-Primed Unattuned Circuitry Primitive Circuits
+GT5U.gui.text.nac.info.line_specifics.crystal.header=Crystal Circuits
+GT5U.gui.text.nac.info.line_specifics.crystal.power_distribution=Suggested Power Distribution: §d20%% Matrix§r / §380%% Non-Matrix
+GT5U.gui.text.nac.info.line_specifics.crystal.module_count=Suggested Additional Modules:§a 1 Etching Array
+GT5U.gui.text.nac.info.line_specifics.crystal.calibration.effect1=§3Tier 1§r - §230%% Threshold§r - 0.8x EU Multiplier to all Modules
+GT5U.gui.text.nac.info.line_specifics.crystal.calibration.effect2=§3Tier 2§r - §260%% Threshold§r - 0.8x Recipe Time on Crystal Circuits in the Assembly Matrix
+GT5U.gui.text.nac.info.line_specifics.crystal.calibration.effect3=§3Tier 3§r - §290%% Threshold§r - Etching Array Laser Source Hatch provides additional benefits to processing stats
+GT5U.gui.text.nac.info.line_specifics.wetware.header=Wetware Circuits
+GT5U.gui.text.nac.info.line_specifics.wetware.power_distribution=Suggested Power Distribution: §d40%% Matrix§r / §360%% Non-Matrix
+GT5U.gui.text.nac.info.line_specifics.wetware.module_count=Suggested Additional Modules:§a 1 Biological Coordinator
+GT5U.gui.text.nac.info.line_specifics.wetware.calibration.effect1=§3Tier 1§r - §230%% Threshold§r - 0.8x EU Multiplier to all Modules
+GT5U.gui.text.nac.info.line_specifics.wetware.calibration.effect2=§3Tier 2§r - §260%% Threshold§r - 0.8x Recipe Time on Wetware Circuits in the Assembly Matrix
+GT5U.gui.text.nac.info.line_specifics.wetware.calibration.effect3=§3Tier 3§r - §290%% Threshold§r - -50% Catalyst Medium consumed in the Biological Coordinator
+GT5U.gui.text.nac.info.line_specifics.bioware.header=Bioware Circuits
+GT5U.gui.text.nac.info.line_specifics.bioware.power_distribution=Suggested Power Distribution: §d50%% Matrix§r / §350%% Non-Matrix
+GT5U.gui.text.nac.info.line_specifics.bioware.module_count1=Suggested Additional Modules:§a 1 Biological Coordinator and 1 Strand Splitter
+GT5U.gui.text.nac.info.line_specifics.bioware.module_count2=Suggested Additional Modules for SOC:§a 1 Biological Coordinator, 1 Strand Splitter, and 1 Board Immersion
+GT5U.gui.text.nac.info.line_specifics.bioware.calibration.effect1=§3Tier 1§r - §225%% Threshold§r - 0.8x EU Multiplier to all Modules
+GT5U.gui.text.nac.info.line_specifics.bioware.calibration.effect2=§3Tier 2§r - §250%% Threshold§r - 0.8x Recipe Time on Bioware Circuits in the Assembly Matrix
+GT5U.gui.text.nac.info.line_specifics.bioware.calibration.effect3=§3Tier 3§r - §275%% Threshold§r - All Catalyst Medium is not consumed in the Biological Coordinator
+GT5U.gui.text.nac.info.line_specifics.optical.header=Optical Circuits
+GT5U.gui.text.nac.info.line_specifics.optical.power_distribution=Suggested Power Distribution: §d60%% Matrix§r / §340%% Non-Matrix
+GT5U.gui.text.nac.info.line_specifics.optical.module_count=Suggested Additional Modules:§a 1 Optical Organizer and 1 Strand Splitter
+GT5U.gui.text.nac.info.line_specifics.optical.calibration.effect1=§3Tier 1§r - §225%% Threshold§r - 0.8x EU Multiplier to all Modules
+GT5U.gui.text.nac.info.line_specifics.optical.calibration.effect2=§3Tier 2§r - §250%% Threshold§r - 0.8x Recipe Time on Optical Circuits in the Assembly Matrix
+GT5U.gui.text.nac.info.line_specifics.optical.calibration.effect3=§3Tier 3§r - §275%% Threshold§r - Water Bonuses are applied twice in the Optical Organizer
+GT5U.gui.text.nac.info.line_specifics.special.header=Special Circuits (Pico, Quantum, Planck)
+GT5U.gui.text.nac.info.line_specifics.special.power_distribution=Suggested Power Distribution: §d80%% Matrix§r / §320%% Non-Matrix
+GT5U.gui.text.nac.info.line_specifics.special.module_count=Suggested Additional Modules:§a None
+GT5U.gui.text.nac.info.line_specifics.special.body1="Special" Circuits increase Special calibration progress by 1 per circuit made, ignoring the standard formula above.
+GT5U.gui.text.nac.info.line_specifics.special.body2=§l§5Recipe time discounts provided by this Calibration increase recipe EU proportionally so the EU per circuit stays the same
+GT5U.gui.text.nac.info.line_specifics.special.calibration.effect1=§3Tier 1§r - §21%% threshold§r - -20%% Recipe Time on Special Circuits in the Assembly Matrix
+GT5U.gui.text.nac.info.line_specifics.special.calibration.effect2=§3Tier 2§r - §25%% threshold§r - -20%% Recipe Time on Special Circuits in the Assembly Matrix (total 40%%)
+GT5U.gui.text.nac.info.line_specifics.special.calibration.effect3=§3Tier 3§r - §220%% threshold§r - -10%% Recipe Time on Special Circuits in the Assembly Matrix (total 50%%)
 
 # NAC Module Tooltip Keys
 GT5U.tooltip.nac.interface.machine_info=%s，%s
@@ -3180,6 +3457,7 @@ GT5U.tooltip.nac.module.assembly_matrix.flavor.3=物品，或是被进一步处�
 GT5U.tooltip.nac.module.assembly_matrix.action=组装你的成品 %s ，需要基础 %s
 GT5U.tooltip.nac.module.assembly_matrix.body.1=配方等级上限由%s等级决定
 GT5U.tooltip.nac.module.assembly_matrix.body.2=超频次数为 能源仓等级 - 配方所需外壳等级
+GT5U.tooltip.nac.module.assembly_matrix.body.3=%s-5%%§7 EU Usage per %s Tier above the Recipe Tier (multiplicative)
 GT5U.tooltip.nac.module.biological_coordinator.name=生物调谐器
 GT5U.tooltip.nac.module.biological_coordinator.flavor.1=为了最优化的组装，生物电路组件需要严格的重编程
 GT5U.tooltip.nac.module.biological_coordinator.flavor.2=据说人造生物可能会被集成进来以进一步提升产量
@@ -3187,12 +3465,14 @@ GT5U.tooltip.nac.module.biological_coordinator.action=调谐你的活性%s
 GT5U.tooltip.nac.module.biological_coordinator.body.1=在一台完全校准为湿件电路的纳米芯片组装复合体中，不消耗无菌培养基
 GT5U.tooltip.nac.module.biological_coordinator.body.2=在一台完全校准为生物电路的纳米芯片组装复合体中，不消耗无菌培养基和灭菌生物培养基
 GT5U.tooltip.nac.module.board_processor.name=基板处理器
+GT5U.tooltip.nac.module.board_processor.structure.output_hatch=Required for manual and automatic flushing
 GT5U.tooltip.nac.module.board_processor.flavor.1=让它们变湿
 GT5U.tooltip.nac.module.board_processor.action=处理你的基板%s，通过将它们在§b“浸洗液”§7中清洁
 GT5U.tooltip.nac.module.board_processor.body.1=每秒会尝试使用提供的§b“浸洗液”§7填满其内部存储 
 GT5U.tooltip.nac.module.board_processor.body.2=内部存储容积为§31,000,000L§7，若要使机器工作，内部存储必须至少半满
 GT5U.tooltip.nac.module.board_processor.body.3=运行配方会逐渐提升内部流体的含杂度，存储的流体越多，流体含杂度的提升越慢
 GT5U.tooltip.nac.module.board_processor.body.4=在GUI内设置排空阈值以自动将内部流体派出以供处理，阈值默认为§b100%%§7
+GT5U.tooltip.nac.module.board_processor.body.output_hatch=Manual and automatic flushing require an Output Hatch
 GT5U.tooltip.nac.module.board_processor.body.5=含杂度 §b(y%%)§7 会影响模块的效率：
 GT5U.tooltip.nac.module.board_processor.body.6=§b0%%-15%%§r - §aEU折扣 = 30%% - 2 * y%%
 GT5U.tooltip.nac.module.board_processor.body.7=§b15%%-65%%§r - 默认行为
@@ -3209,6 +3489,7 @@ GT5U.tooltip.nac.module.etching_array.action=蚀刻你的芯片 %s
 GT5U.tooltip.nac.module.etching_array.body.1=在一台完全校准为晶体电路的纳米芯片组装复合体中，激光源仓基于其数值提供以下增益：
 GT5U.tooltip.nac.module.etching_array.body.2=§bEU 消耗§7 除以 log4(§f源仓电流§7/256) 
 GT5U.tooltip.nac.module.etching_array.body.3=§a配方耗时§7 除以 §f(仓室等级 - 9)
+GT5U.tooltip.nac.module.etching_array.body.4=In a fully calibrated Crystal NAC, increases these bonuses by 1 step each
 GT5U.tooltip.nac.module.etching_array.installed=已安装激光
 GT5U.gui.text.structure_error.etching_array_no_laser=缺少激光
 GT5U.tooltip.nac.module.optical_organizer.name=光学组织器
@@ -3222,9 +3503,9 @@ GT5U.tooltip.nac.module.optical_organizer.body.water=净化水等级 §b%s§7 / 
 GT5U.tooltip.nac.module.optical_organizer.body.water34=%s 水的消耗倍率
 GT5U.tooltip.nac.module.optical_organizer.body.water56=%s 配方耗时倍率
 GT5U.tooltip.nac.module.optical_organizer.body.water78=%s EU消耗倍率
-GT5U.tooltip.nac.module.smd_processor.name=贴片元件处理器
-GT5U.tooltip.nac.module.smd_processor.flavor.1=处理电路的核心逻辑组件需要很多思考...
-GT5U.tooltip.nac.module.smd_processor.action=处理你的贴片%s
+GT5U.tooltip.nac.module.part_processor.name=Part Processor
+GT5U.tooltip.nac.module.part_processor.flavor.1=Processing the core logical components of circuits requires a lot of thought...
+GT5U.tooltip.nac.module.part_processor.action=Processes your %s
 GT5U.tooltip.nac.module.splitter.name=电路组件分流器
 GT5U.tooltip.nac.module.splitter.flavor.1=复合体运行的本源逻辑！
 GT5U.tooltip.nac.module.splitter.action=组织你的所有%s
@@ -3232,6 +3513,7 @@ GT5U.tooltip.nac.module.splitter.body.1=默认情况下，将相同%s的输入�
 GT5U.tooltip.nac.module.splitter.body.2=可以通过在GUI中添加§2“规则”§7以覆写其行为
 GT5U.tooltip.nac.module.splitter.body.3=§2规则§7可以按输入%s，输出%s, 提供的红石信号和物品过滤进行设置
 GT5U.tooltip.nac.module.splitter.body.4=%s被转运的前提是满足所有§2规则§7的条件
+GT5U.tooltip.nac.module.splitter.body.5=If multiple same-%s %s are present, will try and evenly split input %s among them
 GT5U.tooltip.nac.module.splitter.redstone_hatch=任意顶部的网格接口机械方块
 GT5U.tooltip.nac.module.superconductor_splitter.name=超导分离器
 GT5U.tooltip.nac.module.superconductor_splitter.flavor.1=有超导，就有冷却液！
@@ -3265,6 +3547,7 @@ GT5U.tooltip.nac.hatch.vc.base.4=§e若输入来自染色的真空传送输入�
 GT5U.tooltip.nac.hatch.vc.base.5=§e将会被置于具有对应颜色的真空传送输出端口中
 GT5U.tooltip.nac.module.scanner.current_eu=§e当前EU存储：%s
 GT5U.tooltip.nac.module.scanner.total_buffer=§aEU总缓存大小：%s
+GT5U.tooltip.nac.module.scanner.available_eut=§eMax EU/t: %s
 
 GT5U.tooltip.nac.color_grid.click_select=点击选择
 GT5U.tooltip.nac.color_grid.selected=已选择
@@ -3284,6 +3567,16 @@ gt.circuitcomponent.cable.processed.opticalfiber=拆分光缆
 gt.circuitcomponent.processed.wireinfinity=无尽线轴
 gt.circuitcomponent.processed.wirehypogen=海珀珍线轴
 gt.circuitcomponent.processed.wiremagmatter=磁物质线轴
+gt.circuitcomponent.processed.wireshijima=Spooled Shijima Wire
+gt.circuitcomponent.processed.wiretairitsu=Spooled Tairitsu Wire
+gt.circuitcomponent.processed.wirechuritsu=Spooled Churitsu Wire
+gt.circuitcomponent.processed.wirewhitedwarfmatter=Spooled White Dwarf Matter Wire
+gt.circuitcomponent.processed.wireblackdwarfmatter=Spooled Black Dwarf Matter Wire
+gt.circuitcomponent.processed.wireuniversium=Spooled Universium Wire
+gt.circuitcomponent.processed.wirecopper=Spooled Copper Wire
+gt.circuitcomponent.processed.wireredalloy=Spooled Red Alloy Wire
+gt.circuitcomponent.processed.wireelectrum=Spooled Electrum Wire
+gt.circuitcomponent.processed.wireplatinum=Spooled Platinum Wire
 
 gt.circuitcomponent.processed.asmd.resistor=预备进阶贴片电阻
 gt.circuitcomponent.processed.asmd.transistor=预备进阶贴片晶体管
@@ -3300,23 +3593,25 @@ gt.circuitcomponent.processed.board.multifiberelite=洁净精英电路基板
 gt.circuitcomponent.processed.board.wetwarelifesupport=洁净超级湿件维生电路基板
 gt.circuitcomponent.processed.board.biomutated=洁净超生物突变电路基板
 gt.circuitcomponent.processed.board.optical=洁净光学电路基板
-gt.circuitcomponent.processed.neuroprocessingunit=谐调神经元处理器
 gt.circuitcomponent.processed.board.bioprocessingunit=谐调生物处理器
 gt.circuitcomponent.processed.board.livingbiochip=谐调活性生物芯片
+gt.circuitcomponent.processed.board.pico=Pico Motherboard
+gt.circuitcomponent.processed.board.quantum=Quantum Motherboard
+gt.circuitcomponent.processed.board.planck=Planck-Scale Motherboard
+gt.circuitcomponent.processed.board.cleansedpico=Purified Pico Motherboard
+gt.circuitcomponent.processed.board.cleansedquantum=Purified Quantum Motherboard
+gt.circuitcomponent.processed.board.cleansedplanck=Purified Planck-Scale Motherboard
 
 gt.circuitcomponent.processed.chipnanocpu=切分纳米CPU芯片
 gt.circuitcomponent.processed.chipram=切分RAM芯片
 gt.circuitcomponent.processed.chipnor=切分NOR存储器芯片
 gt.circuitcomponent.processed.chipnand=切分NAND存储器芯片
 gt.circuitcomponent.processed.chipasoc=切分ASoC芯片
-gt.circuitcomponent.processed.chippikopic=切分皮米功率IC芯片
-gt.circuitcomponent.processed.chipquantumpic=切分量子功率IC芯片
 gt.circuitcomponent.processed.chipattopic=切分阿米功率IC芯片
 gt.circuitcomponent.processed.chipzeptopic=切分仄米功率IC芯片
 gt.circuitcomponent.processed.chipyoctopic=切分幺米功率IC芯片
 gt.circuitcomponent.processed.chipplanckpic=切分普朗克功率IC芯片
 
-gt.circuitcomponent.processed.chipcrystalcpu=蚀刻晶体处理器单元
 gt.circuitcomponent.processed.chipcrystalsoc=蚀刻晶体SoC
 gt.circuitcomponent.processed.chiplivingcrystal=谐调活性晶体芯片
 gt.circuitcomponent.processed.chiprawadvancedcrystal=谐调先进晶体芯片原料
@@ -3351,8 +3646,6 @@ gt.circuitcomponent.casing.processed.pico=皮米电路机箱
 gt.circuitcomponent.casing.processed.quantum=量子电路机箱
 gt.circuitcomponent.casing.processed.planck=普朗克尺度电路机箱
 
-gt.circuitcomponent.other.processed.coiledthermalsuperconductor=卷曲热能超导体
-
 gt.circuitcomponent.bolt.processed.enrichedholmium=盒装富集钬螺栓
 gt.circuitcomponent.bolt.processed.transcendentmetal=盒装超时空金属螺栓
 gt.circuitcomponent.bolt.processed.yttriumbariumcuprate=盒装钇钡铜氧合金螺栓
@@ -3360,9 +3653,53 @@ gt.circuitcomponent.bolt.processed.cosmicneutronium=盒装宇宙中子态素螺�
 gt.circuitcomponent.bolt.processed.chromaticglass=盒装彩色玻璃螺栓
 gt.circuitcomponent.bolt.processed.umvsuperconductor=盒装UMV超导粗胚螺栓
 gt.circuitcomponent.bolt.processed.whitedwarfmatter=盒装白矮星物质螺栓
+
+gt.circuitcomponent.circuit.processed.opticalprocessor=Unorganized Optical Processor
+gt.circuitcomponent.circuit.processed.opticalassembly=Unorganized Optical Assembly
+gt.circuitcomponent.circuit.processed.opticalcomputer=Unorganized Optical Supercomputer
+gt.circuitcomponent.circuit.processed.opticalmainframe=Unorganized Optical Mainframe
+
+gt.circuitcomponent.plate.processed.rhugnor=Bolted Rhugnor Plate
+gt.circuitcomponent.plate.processed.metastableoganesson=Bolted Metastable Oganesson Plate
+gt.circuitcomponent.plate.processed.hexanite=Bolted Hexanite Plate
+
+gt.circuitcomponent.pico.processed.opticalmainframerack=Optical Mainframe Rack
+gt.circuitcomponent.pico.processed.picocpu=Pico CPU
+
+gt.circuitcomponent.quantum.processed.compressionresidue=Compression Residue
+gt.circuitcomponent.quantum.processed.organizedpicocircuit=Organized Pico Circuit
+gt.circuitcomponent.quantum.processed.picocircuitrack=Pico Circuit Rack
+gt.circuitcomponent.quantum.processed.quantumcpu=Quantum CPU
+
+gt.circuitcomponent.quantum.processed.disorderlyspool=Spooled Disorderly Wire
+gt.circuitcomponent.quantum.processed.positivewirestrands=Suppressing Wire Strands
+gt.circuitcomponent.quantum.processed.negativewirestrands=Annihilating Wire Strands
+gt.circuitcomponent.quantum.processed.neutralwirestrands=Alienated Wire Strands
+gt.circuitcomponent.quantum.processed.silencedstrands=Silenced Wire Strands
+gt.circuitcomponent.quantum.processed.settledstrands=Settled Wire Strands
+gt.circuitcomponent.quantum.processed.bundledunitywire=Bundled Unity Wire
+
+gt.circuitcomponent.planck.processed.coiledthermalsuperconductor=Coiled Thermal Superconductor
+
+gt.circuitcomponent.planck.processed.collapsingresidue=Collapsing Residue
+gt.circuitcomponent.planck.processed.organizedquantumcircuit=Organized Quantum Circuit
+gt.circuitcomponent.planck.processed.lostquantumcircuitrack=Lost Quantum Circuit Rack
+gt.circuitcomponent.planck.processed.planckcpu=Planck-Scale CPU
+
+gt.circuitcomponent.planck.processed.supermassivespool=Spooled Supermassive Wire
+gt.circuitcomponent.planck.processed.microcosmstrands=Microcosmic Wire Strands
+gt.circuitcomponent.planck.processed.cosmologicalstrands=Cosmological Wire Strands
+gt.circuitcomponent.planck.processed.reboundbdmstrands=Rebound Macrocosmic Wire Strands
+gt.circuitcomponent.planck.processed.bundledharmony=Bundled Stellar Harmony Wire
+gt.circuitcomponent.bolt.processed.copper=Filed Copper Bolt
+gt.circuitcomponent.bolt.processed.redalloy=Filed Red Alloy Bolt
+gt.circuitcomponent.bolt.processed.platinum=Filed Platinum Bolt
+gt.circuitcomponent.bolt.processed.niobiumtitanium=Filed Niobium Titanium Bolt
 gt.circuitcomponent.plate.processed.rhugnor=切条鲁格诺板
 gt.circuitcomponent.plate.processed.metastableoganesson=切条亚稳态鿫板
 gt.circuitcomponent.plate.processed.hexanite=切条咒源玄晶板
+gt.circuitcomponent.unattunedcircuitry=Unattuned Circuitry
+gt.circuitcomponent.primedunattunedcircuitry=Primed Unattuned Circuitry
 
 # NAC Machines
 gt.blockmachines.vacuum.pipe.name=真空传送管道
@@ -3581,6 +3918,10 @@ GT5U.gui.text.LHC.setparams=设置运行参数
 GT5U.gui.text.LHC.calc.resultheader=碰撞能量 | 通量 | 能耗
 GT5U.gui.text.LHC.probtable.title=粒子生成概率
 GT5U.gui.text.LHC.probtable.collisionenergyeV=碰撞能量（eV）
+GT5U.gui.text.LHC.boostmode=Beam Booster
+GT5U.gui.text.LHC.boostmode.none=Booster Fluid: None
+GT5U.gui.text.LHC.boostmode.fluid=Booster Fluid: %s
+GT5U.gui.text.LHC.boostmode.restart=Restart machine to apply
 GT5U.gui.text.beamcrafter.guiheadercrafting=当前所需粒子
 GT5U.gui.text.beamcrafter.guiheaderbuffer=当前粒子缓存
 
@@ -3637,6 +3978,7 @@ gt.blockmachines.multimachine.beamcrafting.LHC.tooltip20=若§b对撞能量§7�
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip21=这种粒子将会开始出现在输出里
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip22=特定的粒子只会出现在对应的模块中
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip23=对应模块的基本力必须与该粒子相互作用（或它能传递）
+
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip24=比如，中微子不会出现在强相互作用力模块，§fALICE§7 中
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip25=因为它们不通过强相互作用力相互作用
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip26=§f过滤式束流输出仓§7允许你检查可能的输出名单
@@ -3645,7 +3987,12 @@ gt.blockmachines.multimachine.beamcrafting.LHC.tooltip28=大型强子对撞机�
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip29=§bE - 电磁相互作用§7 - 带电物质传感器 (§bCMS§7)
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip30=§2W - 弱相互作用§7 - 进阶全轻子吸收阱 (§2ATLAS§7)
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip31=§fS - 强相互作用§7 - 绝对晶格集成色动力封装器 (§fALICE§7)
+
 gt.blockmachines.multimachine.beamcrafting.LHC.tooltip32=§5G - 引力相互作用§7 - 局部视界曲率绑定器 (§5LHCb§7)
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip33=§bE - Electromagnetism§7 - Charged Matter Sensor (§bCMS§7)
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip34=§2W - Weak Interaction§7 - Advanced Total Lepton Assimilation Snare (§2ATLAS§7)
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip35=§fS - Strong Force§7 - Absolute Lattice Integrated Chromodynamic Encapsulator (§fALICE§7)
+gt.blockmachines.multimachine.beamcrafting.LHC.tooltip36=§5G - Gravity§7 - Localized Horizon Curvature Binder (§5LHCb§7)
 
 gt.blockmachines.multimachine.beamcrafting.ttcontroller=正面中央
 gt.blockmachines.multimachine.beamcrafting.ttehatch=能源仓
@@ -3937,7 +4284,7 @@ GT5U.armor.part.name.EldritchStriders=组件：邪术阔步之靴
 GT5U.armor.part.tooltip.NightVision=允许穿戴者在黑暗中看清物体
 GT5U.armor.part.tooltip.CreativeFlight=赋予穿戴者创造飞行能力
 GT5U.armor.part.tooltip.Jetpack=允许穿戴者升空并悬停
-GT5U.armor.part.tooltip.VectoredJetpack=An upgraded jetpack with improved flight stats and hover stability
+GT5U.armor.part.tooltip.VectoredJetpack=An upgraded jetpack with improved flight stats
 GT5U.armor.part.tooltip.FireImmunity=令穿戴者免疫火焰与岩浆
 GT5U.armor.part.tooltip.StepAssist=允许自动跨越一格高度
 GT5U.armor.part.tooltip.GogglesOfRevealing=允许穿戴者观察灵气节点等奥术元素
@@ -3955,7 +4302,7 @@ GT5U.armor.part.tooltip.OmniMovement=提高全方向的移动速度
 GT5U.armor.part.tooltip.WaterBreathing=水下缺氧时自动补充氧气
 GT5U.armor.part.tooltip.MilkInfusion=移除负面效果
 GT5U.armor.part.tooltip.HoloInventory=显示附近容器的全息视图
-GT5U.armor.part.tooltip.Terrasteel=赋予穿戴者远古意志。效果包括：\n - 40%% Mana消耗\n - 对魔力石板的被动Mana产出\n - 未完全饱腹时的被动生命值恢复
+GT5U.armor.part.tooltip.Terrasteel=赋予穿戴者远古意志。效果包括：\n - 减少40%% Mana消耗\n - 对魔力石板的被动Mana产出\n - 未完全饱腹时的被动生命值恢复
 GT5U.armor.part.tooltip.Soulbound=Prevents this armor piece from being dropped on death
 GT5U.armor.part.tooltip.ApprenticeStriders=使穿戴者跑得更快、跳得更高，获得步行辅助与Vis减免。
 GT5U.armor.part.tooltip.ArchmageStriders=使穿戴者跑得更快、跳得更高，获得步行辅助与Vis减免。
@@ -5451,6 +5798,78 @@ gt.item.food.icecream_masterofdreams.name=梦想大师冰淇淋
 gt.item.food.icecream_masterofdreams.tooltip=如同梦想。或许确实是呢
 gt.item.food.icecream_explosive.name=TNT三明治
 gt.item.food.icecream_explosive.tooltip=用餐愉快。或者平安上路\n警告：食用它会真的让你爆炸。真的。
+gt.item.food.icecream_notfound404.name=404 Ice Cream Not Found
+gt.item.food.icecream_notfound404.tooltip=The freezer returned a 404. Try a different flavor
+gt.item.food.icecream_antimatteraffogato.name=Antimatter Affogato
+gt.item.food.icecream_antimatteraffogato.tooltip=Warning: contains actual antimatter. Results may vary. Universe not included
+gt.item.food.icecream_cheese.name=Cheese Ice Cream
+gt.item.food.icecream_cheese.tooltip=Somewhere, a dairy farmer is very confused
+gt.item.food.icecream_chestmonster.name=Chestmonster Ice Cream
+gt.item.food.icecream_chestmonster.tooltip=It bites back. Eat quickly
+gt.item.food.icecream_circuitboardcrunch.name=Circuit Board Crunch Ice Cream
+gt.item.food.icecream_circuitboardcrunch.tooltip=Crunchy, conductive, and definitely not RoHS compliant
+gt.item.food.icecream_compileerror.name=Compile Error Ice Cream
+gt.item.food.icecream_compileerror.tooltip=Expected ';' but found deliciousness
+gt.item.food.icecream_crudeoil.name=Crude Oil Ice Cream
+gt.item.food.icecream_crudeoil.tooltip=100% organic. 0% refined
+gt.item.food.icecream_popsicle_diamond.name=Diamond Popsicle
+gt.item.food.icecream_popsicle_diamond.tooltip=Harder than your average popsicle. Mind your teeth
+gt.item.food.icecream_gravedirtandgummis.name=Grave Dirt & Gummis Ice Cream
+gt.item.food.icecream_gravedirtandgummis.tooltip=Freshly dug, lovingly topped
+gt.item.food.icecream_rubberducky.name=Rubber Ducky Ice Cream
+gt.item.food.icecream_rubberducky.tooltip=Rubber duck you're my very best friend, yes you are
+gt.item.food.icecream_ducttape.name=Duct Tape Ice Cream
+gt.item.food.icecream_ducttape.tooltip=Fixes everything, including your sweet tooth
+gt.item.food.icecream_exotic.name=Exotic Ice Cream
+gt.item.food.icecream_exotic.tooltip=Flavor not found on this planet
+gt.item.food.icecream_popsicle_grapquada.name=Grapquada Popsicle
+gt.item.food.icecream_popsicle_grapquada.tooltip=Grape-flavored, questionably stable
+gt.item.food.icecream_grind.name=Grind Ice Cream
+gt.item.food.icecream_grind.tooltip=For those who never stop working, or eating
+gt.item.food.icecream_foolish.name=Foolish Ice Cream
+gt.item.food.icecream_foolish.tooltip=You had to try it, didn't you
+gt.item.food.icecream_lawnbasespecial.name=Lawnbase Special Ice Cream
+gt.item.food.icecream_lawnbasespecial.tooltip=The chef's secret recipe. Please don't ask what's in it
+gt.item.food.icecream_lunarlander.name=Lunar Lander Ice Cream
+gt.item.food.icecream_lunarlander.tooltip=One small scoop for man...
+gt.item.food.icecream_naquadahnutswirl.name=Naquadah Nut Swirl Ice Cream
+gt.item.food.icecream_naquadahnutswirl.tooltip=Stargate not included
+gt.item.food.icecream_naquadriaplasmaparfait.name=Naquadria Plasma Parfait
+gt.item.food.icecream_naquadriaplasmaparfait.tooltip=Served at exactly the right temperature. Don't touch the container
+gt.item.food.icecream_netherstarnutcrunch.name=Nether Star Nut Crunch
+gt.item.food.icecream_netherstarnutcrunch.tooltip=Legend says it grants you a second life. It does not
+gt.item.food.icecream_nutsandbolts.name=Nuts n' Bolts Ice Cream
+gt.item.food.icecream_nutsandbolts.tooltip=A balanced breakfast of nuts, bolts, and dairy
+gt.item.food.icecream_overclockedespresso.name=Overclocked Espresso Ice Cream
+gt.item.food.icecream_overclockedespresso.tooltip=Guaranteed to keep you awake through the next three overclocks
+gt.item.food.icecream_peachplasmaparfait.name=Peach Plasma Parfait
+gt.item.food.icecream_peachplasmaparfait.tooltip=Handle with oven mitts. And a Geiger counter
+gt.item.food.icecream_pipegetti.name=Pipegetti Ice Cream
+gt.item.food.icecream_pipegetti.tooltip=It's not a pipe, it's a snack
+gt.item.food.icecream_potato.name=Potato Ice Cream
+gt.item.food.icecream_potato.tooltip=In Soviet Russia, potato eats you
+gt.item.food.icecream_sorbet_redstone.name=Redstone Sorbet
+gt.item.food.icecream_sorbet_redstone.tooltip=Surprisingly refreshing. Slightly conductive
+gt.item.food.icecream_rocketfuelfloat.name=Rocket Fuel Float
+gt.item.food.icecream_rocketfuelfloat.tooltip=Do not operate heavy machinery after eating. Or rockets
+gt.item.food.icecream_popsicle_strawberryyogurt.name=Strawberry Yogurt Popsicle
+gt.item.food.icecream_popsicle_strawberryyogurt.tooltip=A classic. Nothing weird here. Probably
+gt.item.food.icecream_thaumaturgesdelight.name=Thaumaturge's Delight Ice Cream
+gt.item.food.icecream_thaumaturgesdelight.tooltip=Infused with genuine arcane nonsense
+gt.item.food.icecream_thaumiumtruffle.name=Thaumium Truffle Ice Cream
+gt.item.food.icecream_thaumiumtruffle.tooltip=Handle with a thaumometer nearby
+gt.item.food.icecream_totallyinnocentring.name=Totally Innocent Ring Ice Cream
+gt.item.food.icecream_totallyinnocentring.tooltip=Definitely not cursed. Definitely
+gt.item.food.icecream_transcendent.name=Transcendent Ice Cream
+gt.item.food.icecream_transcendent.tooltip=You have achieved ice cream enlightenment
+gt.item.food.icecream_voidkitty.name=Void Kitty Ice Cream
+gt.item.food.icecream_voidkitty.tooltip=Meows from beyond. Mostly harmless
+gt.item.food.icecream_voidminersvanilla.name=Void Miners Vanilla Ice Cream
+gt.item.food.icecream_voidminersvanilla.tooltip=Mined from the void, drilled to perfection
+gt.item.food.icecream_warped.name=Warped Ice Cream
+gt.item.food.icecream_warped.tooltip=Reality bends slightly while eating this
+gt.item.food.icecream_witchywildberry.name=Witchy Wildberry Ice Cream
+gt.item.food.icecream_witchywildberry.tooltip=Brewed under a full moon. Allegedly
 gt.item.food.icecream_trophy.name=奖杯冰淇淋
 gt.item.food.icecream_trophy.tooltip=吃完它就能得到特别的奖励
 gt.item.food.icecream_sandwich.name=冰淇淋三明治
@@ -6210,6 +6629,8 @@ nei.options.inventory.search.chemicalFormulaSearchMode.1=前缀：%s
 nei.options.inventory.search.chemicalFormulaSearchMode.2=从不
 
 # Waila
+GT5U.waila.cable.throughput=Throughput: §a%s§r EU/t (%s A)
+GT5U.waila.cable.avg=Avg (20t): §e%s§r EU/t (%s A)
 GT5U.waila.cover=覆盖板（%s）：%s
 GT5U.waila.cover.current_facing=当前朝向
 GT5U.waila.energy.stored=能量存储：§a%s§r EU / §e%s§r EU
@@ -6320,7 +6741,9 @@ GT5U.waila.mebf.parallel=当前并行系数：§6%s
 GT5U.waila.mebf.pyrotheum=当前烈焰之炽焱消耗速率：§c%s§r/s
 GT5U.waila.boiler.temperature=§a温度：§6%s
 GT5U.waila.boiler.fuel_empty=§c无燃料
-
+GT5U.waila.boiler.steam_producing=§aSteam Production: §6%s§rL/s
+GT5U.waila.monster_repellent.working_range=Range: §a%s§r blocks
+GT5U.waila.monster_repellent.unpowered=Unpowered
 
 GT5U.waila.mvf.speedboost=当前速度系数：§a%s
 GT5U.waila.mvf.cryotheum=当前极寒之凛冰消耗速率：§3%s§r/秒
@@ -7407,8 +7830,6 @@ gt.item.adv_sensor_card.tooltip.recipe_hint=Created by attaching a Metrics Trans
 gt.item.adv_sensor_card.tooltip.fried.1=§o§dThis thing looks completely fried...
 gt.item.adv_sensor_card.tooltip.fried.2=§cDestroyed due to metrics transmitter being removed
 gt.item.adv_sensor_card.tooltip.fried.3=§cor the machine being destroyed
-gt.item.adv_sensor_card.tooltip.machine=Machine: §b%s
-gt.item.adv_sensor_card.tooltip.frequency=Frequency: §b%s
 gt.item.adv_sensor_card.error.deconstructed.1=-ERROR- Machine Deconstructed
 gt.item.adv_sensor_card.error.deconstructed.2=Place machine again to re-enable
 gt.item.adv_sensor_card.error.no_data=No data found
@@ -7809,10 +8230,9 @@ GT5U.infodata.parallel.current=当前并行：%s
 GT5U.infodata.max_energy_income_tier=最大能量输入：%sEU/t（*2A）等级：%s
 GT5U.infodata.problems_efficiency=问题：%s 效率：%s
 GT5U.infodata.cable.failed=§c无法获取能量节点信息§r
-GT5U.infodata.cable.amperage=电流：%s/%s安
-GT5U.infodata.cable.voltage_out=电压输出：%s/%sEU/t
-GT5U.infodata.cable.avg_amperage=平均电流（20t）：%s A
-GT5U.infodata.cable.avg_output=平均输出（20t）：%s EU/t
+GT5U.infodata.cable.voltage=Voltage: %s / %s V
+GT5U.infodata.cable.throughput=Throughput: %s / %s EU/t (%s / %s A)
+GT5U.infodata.cable.avg=Avg (20t): %s EU/t (%s A)
 
 GT5U.infodata.hatch.output=§9输出仓§r
 GT5U.infodata.hatch.output.fluid=储存流体：§6%s§r
@@ -8777,6 +9197,8 @@ achievement.gt.blockmachines.multimachine.mega_distillation_tower=巨型蒸馏�
 achievement.gt.blockmachines.multimachine.mega_distillation_tower.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.blockmachines.multimachine.mega-chemical-reactor=巨型化学反应釜
 achievement.gt.blockmachines.multimachine.mega-chemical-reactor.desc=捡起此物品以在NEI内解锁该合成表
+achievement.gt.blockmachines.multimachine.mega_oil_cracker=Mega Oil Cracker
+achievement.gt.blockmachines.multimachine.mega_oil_cracker.desc=Pick up this item to see the recipe in NEI
 achievement.gt.metaitem.03.32307=原始屏蔽层
 achievement.gt.metaitem.03.32307.desc=捡起此物品以在NEI内解锁该合成表
 achievement.gt.metaitem.03.32310=原始波导
@@ -9183,9 +9605,6 @@ gt.540k_Space_Coolantcell.name=540k空间冷却单元
 gt.1080k_Space_Coolantcell.name=1080k空间冷却单元
 gt.neutroniumHeatCapacitor.name=1G中子热容
 
-# Coolant Cell shared tooltip key
-gt.item.desc.stored_heat=储存热量: %s
-
 # Breeder Cells
 gt.rodLithium.name=燃料棒（锂）
 gt.rodLithium.tooltip_main=氚的来源
@@ -9272,6 +9691,9 @@ gt.tierdDrone3.tooltip_main=曲速引擎超光速穿梭机
 
 # Volumetric Flask
 gt.Volumetric_Flask.name=容量瓶
+gt.Volumetric_Flask_8k.name=Large Volumetric Flask
+gt.Volumetric_Flask_32k.name=Gigantic Volumetric Flask
+gt.Volumetric_Flask_Infinite.name=Klein Bottle
 
 # CircuitComponentFakeItem
 gt.fakecircuitcomponent.name=伪造电路元件物品
@@ -9348,8 +9770,28 @@ gt.item.armor_chip_t3.name=异星装甲芯片
 gt.item.armor_chip_t3.tooltip=制作三级装甲组件
 gt.item.gravitational_lens.name=引力透镜
 gt.item.gravitational_lens.tooltip=便携式引力井
-gt.item.planck_manifold.name=普朗克尺度流形
-gt.item.planck_manifold.tooltip=不能再小了
+
+# Planck Circuit Items
+gt.item.calabi_yau_manifold.name=Calabi-Yau Manifold
+gt.item.calabi_yau_manifold.tooltip=Mathmatical!
+gt.item.raw_manifold_bud.name=Raw Manifold Bud
+gt.item.raw_manifold_bud.tooltip=Needs to be shown what to do
+gt.item.blossoming_manifold_bud.name=Blossoming Manifold Bud
+gt.item.blossoming_manifold_bud.tooltip=Strings spilling out like light!
+
+gt.item.pulsating_wdm_strands.name=Pulsating Microcosmic Wire Strands
+gt.item.pulsating_wdm_strands.tooltip=
+gt.item.unbound_wdm_strands.name=Unbound Microcosmic Wire Strands
+gt.item.unbound_wdm_strands.tooltip=
+gt.item.macrocosmic_strands.name=Macrocosmic Wire Strands
+gt.item.macrocosmic_strands.tooltip=
+gt.item.isolated_bdm_strands.name=Isolated Macrocosmic Wire Strands
+gt.item.isolated_bdm_strands.tooltip=
+
+gt.item.lost_quantum_circuit_rack.name=Lost Quantum Mainframe Rack
+gt.item.lost_quantum_circuit_rack.tooltip=
+gt.item.realized_quantum_circuit_rack.name=Realized Quantum Mainframe Rack
+gt.item.realized_quantum_circuit_rack.tooltip=Realized potential!
 
 # BEC Meta Materials
 gt.item.meta_material.energy_conduit.perfected.name=完美能量导管
@@ -9440,7 +9882,6 @@ GT5U.tooltip.eye-of-harmony.any-boundary-casing=Any boundary casing
 GT5U.tooltip.research-station.footer=§aData Sticks go in the controller
 
 # Forge of Gods Structure Hints
-GT5U.tooltip.forge-of-gods.output-bus-pos=Around controller (ME only)
 GT5U.tooltip.forge-of-gods.module=Forge of the Gods Module
 GT5U.tooltip.forge-of-gods.module-pos=Any side center shielding casing
 GT5U.tooltip.forge-of-gods.second-ring=Second Ring
@@ -9685,7 +10126,7 @@ gt.blockmachines.multimachine.nanochipmodule.cuttingchamber.name=纳米精度切
 gt.blockmachines.multimachine.nanochipmodule.encasementwrapper.name=纳米封装卷绕器
 gt.blockmachines.multimachine.nanochipmodule.etchingarray.name=超高能蚀刻阵列
 gt.blockmachines.multimachine.nanochipmodule.opticalorganizer.name=光学优化组织器
-gt.blockmachines.multimachine.nanochipmodule.smdprocessor.name=元件预处理装置
+gt.blockmachines.multimachine.nanochipmodule.part_processor.name=Part Processing Apparatus
 gt.blockmachines.multimachine.nanochipmodule.splitter.name=纳米组件分流器
 gt.blockmachines.multimachine.nanochipmodule.superconductorsplitter.name=超导线束分离器
 gt.blockmachines.multimachine.nanochipmodule.wiretracer.name=纳米精度导线追踪器
@@ -9733,3 +10174,129 @@ gt.blockmachines.hatch.dataaccess.adv.name=进阶数据访问仓
 gt.blockmachines.hatch.dataaccess.auto.name=自动数据访问仓
 gt.blockmachines.hatch.dataaccess.name=数据访问仓
 gt.blockmachines.hatch.dataaccess.desc=Data Access for Multiblocks\nAdds %s extra slots for Data Sticks
+
+# Tools
+gt.metatool.empty.name=%s (Empty)
+gt.metatool.empty.tooltip=You need to recharge it
+
+gt.metatool.01.10.name=Saw
+gt.metatool.01.10.tooltip=Can also harvest ice
+gt.metatool.01.12.name=Hammer
+gt.metatool.01.12.tooltip=Crushes ores instead of harvesting them
+gt.metatool.01.14.name=Soft Mallet
+gt.metatool.01.16.name=Wrench
+gt.metatool.01.16.tooltip=Hold left-click to dismantle machines
+gt.metatool.01.18.name=File
+gt.metatool.01.20.name=Crowbar
+gt.metatool.01.20.tooltip=Dismounts covers and rotates rails
+gt.metatool.01.22.name=Screwdriver
+gt.metatool.01.22.tooltip=Adjusts covers and machines
+gt.metatool.01.24.name=Mortar
+gt.metatool.01.26.name=Wire Cutter
+gt.metatool.01.28.name=Scoop
+gt.metatool.01.30.name=Branch Cutter
+gt.metatool.01.34.name=Knife
+gt.metatool.01.36.name=Butchery Knife
+gt.metatool.01.36.tooltip=Has a slow attack rate
+gt.metatool.01.44.name=Plunger
+gt.metatool.01.46.name=Rolling Pin
+gt.metatool.01.drill.name=Drill (%s)
+gt.metatool.01.chainsaw.name=Chainsaw (%s)
+gt.metatool.01.chainsaw.tooltip=Can also harvest ice
+gt.metatool.01.wrench.name=Wrench (%s)
+gt.metatool.01.wrench.tooltip=Hold left-click to dismantle machines
+gt.metatool.01.jackhammer.name=JackHammer (%s)
+gt.metatool.01.jackhammer.tooltip=Breaks rocks into pieces
+gt.metatool.01.buzzsaw.name=Buzzsaw (%s)
+gt.metatool.01.buzzsaw.tooltip=Not suitable for harvesting blocks
+gt.metatool.01.screwdriver.name=Screwdriver (%s)
+gt.metatool.01.screwdriver.tooltip=Adjusts covers and machines
+gt.metatool.01.soldering_iron.name=Soldering Iron (%s)
+gt.metatool.01.soldering_iron.tooltip=Fixes burned out circuits. Needs soldering material in inventory.
+gt.metatool.01.170.name=Small Turbine
+gt.metatool.01.170.tooltip=Turbine Rotors for your power station
+gt.metatool.01.172.name=Turbine
+gt.metatool.01.172.tooltip=Turbine Rotors for your power station
+gt.metatool.01.174.name=Large Turbine
+gt.metatool.01.174.tooltip=Turbine Rotors for your power station
+gt.metatool.01.176.name=Huge Turbine
+gt.metatool.01.176.tooltip=Turbine Rotors for your power station
+gt.metatool.01.180.name=Pocket Multitool
+gt.metatool.01.180.tooltip=6 useful Tools in one!
+gt.metatool.01.182.name=Pocket Multitool (Branch Cutter)
+gt.metatool.01.184.name=Pocket Multitool (File)
+gt.metatool.01.186.name=Pocket Multitool (Knife)
+gt.metatool.01.188.name=Pocket Multitool (Saw)
+gt.metatool.01.188.tooltip=Can also harvest ice
+gt.metatool.01.190.name=Pocket Multitool (Screwdriver)
+gt.metatool.01.190.tooltip=Adjusts covers and machines
+gt.metatool.01.192.name=Pocket Multitool (Wire Cutter)
+gt.metatool.01.194.name=Decorator's Trowel
+gt.metatool.01.wire_cutter.name=Wire Cutter (%s)
+gt.metatool.01.wire_cutter.tooltip=Hand-held electric wire cutter
+gt.metatool.01.file.name=File (%s)
+gt.metatool.01.file.tooltip=Hand-held electric filing device
+
+# Side names
+gt.lang.face.any=Any Side
+gt.lang.face.back=Back
+gt.lang.face.bottom=Bottom
+gt.lang.face.front=Front
+gt.lang.face.left=Left
+gt.lang.face.none=None
+gt.lang.face.right=Right
+gt.lang.face.top=Top
+
+# Named item copies
+gt.metaitem.01.32707.with.CopyOfTheOrb.name=Copy of the Orb
+gt.metaitem.01.32707.with.OrbToCopy.name=Orb to copy
+gt.metaitem.01.32707.with.OrbToOverwrite.name=Orb to overwrite
+gt.metaitem.01.32708.with.AnalyzedProspectionData.name=Analyzed Prospection Data
+gt.metaitem.01.32708.with.CopyOfTheStick.name=Copy of the Stick
+gt.metaitem.01.32708.with.RawProspectionData.name=Raw Prospection Data
+gt.metaitem.01.32708.with.ReadsResearchResult.name=Reads Research result
+gt.metaitem.01.32708.with.ScannedBookData.name=Scanned Book Data
+gt.metaitem.01.32708.with.ScannedMapData.name=Scanned Map Data
+gt.metaitem.01.32708.with.ScannedSchematic.name=Scanned Schematic
+gt.metaitem.01.32708.with.StickToCopy.name=Stick to copy
+gt.metaitem.01.32708.with.StickToOverwrite.name=Stick to overwrite
+gt.metaitem.01.32708.with.StickToSaveItTo.name=Stick to save it to
+gt.metaitem.01.32708.with.WithPunchCardData.name=With Punch Card Data
+gt.metaitem.01.32708.with.WithScannedBookData.name=With Scanned Book Data
+gt.metaitem.01.32708.with.WithScannedMapData.name=With Scanned Map Data
+gt.metaitem.01.32708.with.WritesResearchResult.name=Writes Research result
+gt.metaitem.02.32765.with.ItSFreePlaceLavaOnSide.name=IT'S FREE! Place Lava on Side
+gt.metaitem.02.32765.with.ItSFreePlaceLavaOnTop.name=IT'S FREE! Place Lava on Top
+
+# Chat messages
+GT5U.chat.cover.connectable=Connectable: %s
+
+# Multiblock maintenance issues
+GT5U.gui.multimachine.maintenance.wrench=Pipe is loose. (Wrench)
+GT5U.gui.multimachine.maintenance.screwdriver=Screws are loose. (Screwdriver)
+GT5U.gui.multimachine.maintenance.soft_mallet=Something is stuck. (Soft Mallet)
+GT5U.gui.multimachine.maintenance.hammer=Platings are dented. (Hammer)
+GT5U.gui.multimachine.maintenance.soldering=Circuitry burned out. (Soldering)
+GT5U.gui.multimachine.maintenance.crowbar=That doesn't belong there. (Crowbar)
+GT5U.gui.multimachine.missing_turbine_rotor=Missing Turbine Rotor
+GT5U.gui.multimachine.incomplete_structure=Incomplete Structure.
+
+# Transformer
+GT5U.gui.transformer.step_down=Step Down, In: %1$sV %2$sA, Out: %3$sV %4$sA
+GT5U.gui.transformer.step_up=Step Up, In: %1$sV %2$sA, Out: %3$sV %4$sA
+
+# Recipe requirements in NEI
+GT5U.nei.needs_low_gravity=Needs Low Gravity
+GT5U.nei.needs_cleanroom=Needs Cleanroom
+GT5U.nei.needs_cleanroom_low_gravity=Needs Cleanroom & LowGrav
+GT5U.nei.scan_for_assembly_line=Scan for Assembly Line
+GT5U.nei.deprecated_recipe=Deprecated Recipe
+GT5U.nei.compression.hip_unit=Requires HIP Unit
+GT5U.nei.compression.stabilized_black_hole=Requires Stabilized Black Hole
+GT5U.nei.pcb_factory.tier=PCB Factory Tier: %s
+GT5U.nei.pcb_factory.upgrade_required=Upgrade Required: %s
+GT5U.nei.pcb_factory.upgrade_bio=Bio
+GT5U.nei.solar_factory.tier_required=Multi Tier required: %s
+
+# Item tooltips
+GT5U.tooltip.switch_metadata.sneak_right_click=Sneak right-click to switch mode
