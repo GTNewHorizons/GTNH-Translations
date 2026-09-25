@@ -1,20 +1,20 @@
 ---
 navigation:
-  title: Tips and Tricks
+  title: Советы и хитрости
   position: 20
 ---
 
-# Tips and Tricks
+# Советы и хитрости
 
-A load of random little recommendations
+Куча небольших рекомендаций:
 
-* Remove Optifine.
-* You can rotate and zoom into guidebook scenes that have the zoom and annotation hide/show buttons.
-* Keep your network treelike and avoid loops.
-* Keep full-block [devices](ae2_mechanics/devices.md) in groups of 8 or less unless you deeply understand how [channels](ae2_mechanics/channels.md) route through a network.
-* Pick a wood and stick with it for all your [patterns](items_blocks/patterns.md). Enabling substitutions sometimes works, but using the same wood type everywhere greatly reduces hassle.
-* Add an [energy cell](items_blocks/energy_cells.md) so that your network can handle power spikes.
-* You can use water in the <ItemLink id="appliedenergistics2:tile.BlockCondenser" />.
-* The best way to keep your network clean is to not put random mob loot like swords and armor in. Each unique combination of enchantment and durability is another [type](ae2_mechanics/bytes_and_types.md).
-* An "item entering system" event must occur when returning the result of a [processing pattern](items_blocks/patterns.md), like through an <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />, <ItemLink id="appliedenergistics2:tile.BlockInterface" />, or an interface return slot. You cannot just pipe the result into a chest with a <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> on it.
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> pushes complete recipe batches to an adjacent inventory. This is useful for making sure machines do not receive partial batches, but sometimes you want the ingredients to go to multiple places. You can achieve this using multiple interfaces or an <ItemLink id="appliedenergistics2:tile.BlockInterface" /> as a [pipe subnet](tricks_example/pipe_subnet.md).
+* Удалите оптифайн.
+* Ты можешь вращать и увеличивать внутри сцен, рядом с которыми есть кнопки приближения и скрытия/показа аннотаций.
+* Создавай сеть древовидной(ветвистой) и избегайте зацикливаний.
+* Размещай [устройства](ae2_mechanics/devices.md), занимающие целый блок, группами по 8 или меньше, если вы не обладаете достаточным пониманием того, как [каналы](ae2_mechanics/channels.md) проходят по сети.
+* Выбери один вид дерева и палок, используй его во всех своих [шаблонах](items_blocks/patterns.md). Включение замены в шаблонах иногда работает, но применение одного вида везде значительно упрощает работу.
+* Поставь [энергетическую ячейку](items_blocks/energy_cells.md), чтобы сеть могла справляться с перебоями в питании.
+* В <ItemLink id="appliedenergistics2:tile.BlockCondenser" /> можно использовать воду.
+* Лучший способ содержать сеть в чистоте — не добавлять в неё случайный лут с мобов, такой как мечи и броню. Каждая уникальная комбинация зачарования и прочности является отдельным [типом](ae2_mechanics/bytes_and_types.md).
+* При возврате результата [шаблона обработки](items_blocks/patterns.md), например через <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />, <ItemLink id="appliedenergistics2:tile.BlockInterface" /> или интерфейс, предмет должен попасть в систему. Нельзя просто передать результат в сундук с помощью <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />.
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> передаёт целые наборы для крафта в соседний инвентарь. Это полезно для того, чтобы машины не получали неполные партии, но иногда требуется, чтобы предметы поступали в несколько мест. Это можно реализовать с помощью нескольких интерфейсов или <ItemLink id="appliedenergistics2:tile.BlockInterface" /> как [подсеть трубопровода](tricks_example/pipe_subnet.md).

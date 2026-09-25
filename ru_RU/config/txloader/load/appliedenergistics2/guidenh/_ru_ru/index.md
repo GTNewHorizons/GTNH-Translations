@@ -9,25 +9,22 @@ item_id: appliedenergistics2:tile.BlockController
 
 ![Logo](../assets/logo.png)
 
-# What is Applied Energistics 2?
+# Что такое Applied Energistics 2?
 
-Applied Energistics 2 adds components and mechanics to provide logistics and storage solutions. You can replace your
-massive room full of chests with a compact ME Network, but that's just the beginning of things.
-Applied Energistics is meant to work with and allow automation of other mods in a modpack. You can set up your system to,
-with a single click, craft all of the prerequisites (and the final result) of a complex crafting chain, or keep certain
-quantities of items in stock, crafting more as needed, or simply transfer items around your base.
+AE2 добавляет компоненты и механики помогающие в логистике и хранении. Ты можешь заменить огромную комнату забитую сундуками на компактную МЭ сеть, но это только начало.
+Он предназначен для работы и автоматизации с другими модами в сборке. Ты можешь настроить систему так, чтобы по нажатию создавать все необходимые ресурсы(и конечный результат) сложной цепочки крафта, или поддерживать определённое количество предметов в хранилище, создавать больше при необходимости или просто перемещать предметы по базе.
 
-* [Getting Started](getting_started.md)
-* [AE2 Mechanics](ae2_mechanics_index.md)
-* [Tips and Practical Examples](tricks_example_index.md)
-* [Tips and Tricks](tips_and_tricks.md)
-* [Items & Blocks](items_blocks_index.md)
+* [Начнём](getting_started.md)
+* [Механики AE2](ae2_mechanics_index.md)
+* [Советы и примеры](tricks_example_index.md)
+* [Советы и хитрости](tips_and_tricks.md)
+* [Предметы и блоки](items_blocks_index.md)
 
-# How To Use This Guide
+# Как использовать это руководство
 
-* Many pages have interactive scenes. If a scene has ![Plus](../assets/images/plus.png) and ![Minus](../assets/images/minus.png) zoom buttons beside it, you can move the camera around.
-* Left-click and drag to rotate the scene. Right-click and drag to pan it.
-* Hover over blocks or annotations to see their tooltips.
+* Множество страниц имеют интерактивные сцены. Если у сцены есть кнопки ![приближения](../assets/images/plus.png) и ![отдаления](../assets/images/minus.png) для изменения масштаба рядом с ней, то ты можешь двигать камеру.
+* Зажми ЛКМ и перемести курсор, чтобы вращать сцену. Зажми ПКМ и перемести курсор для перемещения по сцене.
+* Наведись на блок или аннотацию, чтобы увидеть описание.
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/autocraft_setup_greebles.snbt" />

@@ -1,48 +1,48 @@
 ---
 navigation:
-  title: Getting Started
+  title: Начнём
   position: 10
   parent: /index.md
 ---
 
-# Quick Start
+# Быстрый старт
 
-# Simple Storage Network
-To get you easily started with AE2, let's first build a simple storage network to achieve AE2's basic function: storage.
+# Простая система хранения
+Чтобы было проще начать работу с AE2, давай сначала создадим простую сеть, которая обеспечит основную функцию AE2: хранение.
 
-## Prerequisites
-Applied Energistics 2 is effectively alien technology. You can find [Meteorites](./ae2_mechanics/meteorites.md) scattered across the world. In their centers, there may be a <ItemLink id="appliedenergistics2:tile.BlockSkyChest" showIcon="true"/>. Inside these chests, you have a chance to find core AE2 items: <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:13" showIcon="true"/>, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:14" showIcon="true"/>, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:15" showIcon="true"/>, and <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:19" showIcon="true"/>. You need these to craft AE2 components and blocks. In GTNH, AE2 is also integrated into GregTech, so you must reach EV and obtain Titanium before you can build an AE system.
+## Что нам понадобится
+Applied Energistics 2 — это, по сути, инопланетная технология. По всему миру разбросаны [метеориты](./ae2-mechanics/meteorites.md). В их центре может находиться <ItemLink id="appliedenergistics2:tile.BlockSkyChest" showIcon="true"/>. Внутри этих сундуков у вас есть шанс найти основные предметы AE2: <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:13" showIcon="true"/>, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:14" showIcon="true"/>, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:15" showIcon="true"/> и <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:19" showIcon="true"/>. Они нужны для крафта компонентов и блоков из мода. В сборке AE2 также интегрирована в GregTech, поэтому для создания системы МЭ вам необходимо достичь EV тира и добыть титан.
 
-## Materials
-Once you have reached the technological level required to build an AE system, you will also need the following materials:
+## Материалы
+Когда ты достигнешь технологического уровня, необходимого для постройки МЭ системы, тебе также понадобятся следующие материалы:
 - <ItemImage id="gregtech:gt.blockores2:516" label="right"/>
-  - We need to obtain <ItemImage id="gregtech:gt.metaitem.01:2516"  label="right"/> and <ItemImage id="gregtech:gt.metaitem.01:8516" label="right"/> from this, which are important raw materials for crafting AE items and blocks.
+  - Из него надо будет добыть <ItemImage id="gregtech:gt.metaitem.01:2516"  label="right"/> и <ItemImage id="gregtech:gt.metaitem.01:8516" label="right"/> которые являются важным сырьем для крафта предметов и блоков из мода.
 - <ItemImage id="gregtech:gt.blockores2:28" label="right"/>
-  - Many AE blocks require <ItemImage id="gregtech:gt.metaitem.01:17028" label="right" /> to craft.
-- Other basic materials such as <ItemImage id="minecraft:redstone" label="right" />, <ItemImage id="minecraft:diamond" label="right"/>, and <ItemImage id="dreamcraft:CircuitHV"  label="right"/>. You have certainly encountered these materials on your way to the EV tier, so they will not be elaborated on here.
+  - Множество блоков из AE для крафта требуют <ItemImage id="gregtech:gt.metaitem.01:17028" label="right" />.
+- А вот и остальные основные материалы: <ItemImage id="minecraft:redstone" label="right" />, <ItemImage id="minecraft:diamond" label="right"/> и <ItemImage id="dreamcraft:CircuitHV"  label="right"/>. Ты наверняка уже сталкивался с ними на пути к EV тиру, поэтому их подробного описания здесь не будет.
 
-## Construction
-Once everything is ready, let's build the simple storage network below. You need to set up the following scene.
+## Постройка
+И вот когда всё готово, давай построим простенькую сеть хранения. Тебе надо построить по сцене ниже.
 
 <GameScene zoom="5" interactive={true} width="400" height="300">
   <ImportStructure src="../assets/structures/getting_started.snbt" />
   <IsometricCamera yaw="200" pitch="30" />
   <BlockAnnotation pos="5 0 0" color="#e5e90c" alwaysOnTop={true}>
-  <Color color="#e5e90c">This is a Debug Generator placed for demonstration purposes and cannot be obtained in Survival mode. For normal use, please connect to your power grid.</Color>
+  <Color color="#e5e90c">Это отладочный генератор, установленный для демонстрации. Его невозможно получить в выживании. Для нормального использования подключите МЭ сеть к энергосети.</Color>
   </BlockAnnotation>
 </GameScene>
 
-The AE system in the scene relies on the GT power grid on the left for power. This AE system implements basic item storage functionality:
-- The <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true"/> provides [Channels](./ae2_mechanics/channels.md) to the entire network.
-- <ItemLink id="appliedenergistics2:item.ItemMultiPart:36" showIcon="true"/> connects all components in the network.
-- An <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" showIcon="true"/> is placed inside the <ItemLink id="appliedenergistics2:tile.BlockDrive" showIcon="true"/> to provide storage space.
-- An <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="true"/> is placed against a chest to integrate the chest's storage space into the AE network.
-- An <ItemLink id="appliedenergistics2:item.ItemMultiPart:380" showIcon="true"/> provides a channel for players to interact with the internal space of the AE network.
+МЭ система в этой сцене получает питание от GT энергосети, расположенной слева. Она обеспечивает базовые функции хранения предметов:
+- <ItemLink id="appliedenergistics2:tile.BlockController" showIcon="true"/> обеспечивает [каналы](./ae2-mechanics/channels.md) для всей сети.
+- <ItemLink id="appliedenergistics2:item.ItemMultiPart:36" showIcon="true"/> подключает все компоненты к сети.
+- <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" showIcon="true"/> кладётся в <ItemLink id="appliedenergistics2:tile.BlockDrive" showIcon="true"/> для получения места для хранения.
+- <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="true"/> размезается рядом с сундуком для того, чтобы объединить его объём с МЭ сетью.
+- <ItemLink id="appliedenergistics2:item.ItemMultiPart:380" showIcon="true"/> позволяет игрокам взаимодействовать с МЭ сетью и её хранилищем.
 
-Now you can right-click the terminal to open the AE storage network, inserting or extracting items from the terminal just like you would normally use a chest. Items manually placed into the chest will also be displayed in the AE terminal. At this point, you have successfully built an AE storage network, but this is only the tip of the iceberg for AE networks. Please continue exploring this guide for more content.
+Теперь ты можешь нажать ПКМ по терминалу для открытия МЭ сети хранения, класть и доставать предметы из терминала также, как делали бы с обычным сундуком. Предметы вручную помещённые в сундук будут отображаться в МЭ терминале . На этом этапе ты успешно построил МЭ сеть хранения, но это лишь верхушка айсберга МЭ сетей. Продолжайте изучать руководство, чтобы узнать больше
 
-[Items and Blocks](items_blocks_index.md)
+[Предметы и блоки](items_blocks_index.md)
 
-[AE2 Mechanics](ae2_mechanics_index.md)
+[Механики AE2](ae2_mechanics_index.md)
 
-[Tips and Practical Examples](tricks_example_index.md)
+[Советы и примеры](tricks_example_index.md)
