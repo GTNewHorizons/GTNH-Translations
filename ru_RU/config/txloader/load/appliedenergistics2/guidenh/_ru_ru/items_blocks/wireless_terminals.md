@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Wireless Terminals
+  title: Беспроводные терминалы
   icon: appliedenergistics2:item.ToolWirelessTerminal
 categories:
 - tools
@@ -14,7 +14,7 @@ item_ids:
 - ae2fc:wireless_ultra_terminal
 ---
 
-# Wireless Terminals
+# Беспроводные терминалы
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ToolWirelessTerminal" scale="4" />
@@ -27,42 +27,42 @@ item_ids:
   <ItemImage id="ae2fc:wireless_level_terminal" scale="4" />
 </Row>
 
-Wireless terminals are portable versions of wired [terminals](terminals.md). Their interfaces are equivalent, but wireless terminals have [upgrade card](upgrade_cards.md) slots instead of <ItemLink id="appliedenergistics2:item.ItemViewCell" /> slots.
+Беспроводные терминалы являются портативными аналогами проводных [терминалов](terminals.md). Их интерфейсы аналогичны, но у беспроводных терминалов есть слоты под [карты улучшений](upgrade_cards.md) вместо <ItemLink id="appliedenergistics2:item.ItemViewCell" />.
 
-Pair a terminal by placing it in the upper-right slot of an <ItemLink id="appliedenergistics2:tile.BlockSecurity" /> (the slot with a wireless-terminal icon and an arrow). It works only within range of an <ItemLink id="appliedenergistics2:tile.BlockWireless" /> and can be recharged in an <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
+Для привязки терминала, помести его в правый верхний слот <ItemLink id="appliedenergistics2:tile.BlockSecurity" /> (слот со значком беспроводного терминала и стрелкой). Он работает только в зоне действия <ItemLink id="appliedenergistics2:tile.BlockWireless" /> и может заряжаться в <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
 
-# Wireless Terminal
+# Беспроводной терминал
 
 <ItemImage id="appliedenergistics2:item.ToolWirelessTerminal" scale="4" />
 
-The basic terminal, made portable. Within range of a wireless access point, it can access [network storage](../ae2_mechanics/import_export_storage.md) and request [autocrafting](../ae2_mechanics/autocrafting.md) jobs.
+Обычный терминал, но портативный. Находясь в зоне действия беспроводной точки доступа, он может получать доступ к [сетевому хранилищу](../ae2_mechanics/import_export_storage.md) и запрашивать [автосоздания](../ae2_mechanics/autocrafting.md).
 
-## UI
+## Интерфейс
 
-See [Terminals](terminals.md).
+См. [Терминалы](terminals.md).
 
-## Upgrades
+## Улучшения
 
-No additional upgrades are available in the current GTNH build.
+В нынешних версиях GTNH нет дополнительных улучшений.
 
-## Recipe
+## Крафт
 
 <RecipeFor id="appliedenergistics2:item.ToolWirelessTerminal" />
 
-# Wireless Crafting Terminal
+# Беспроводной терминал создания
 
 <ItemImage id="ae2wct:wirelessCraftingTerminal" scale="4" />
 
-The wireless crafting terminal has the same UI and settings as a wireless terminal, plus a crafting grid that is automatically refilled from [network storage](../ae2_mechanics/import_export_storage.md). Be careful when shift-clicking the output.
+Беспроводной терминал создания имеет тот же интерфейс и настройки, что и беспроводной терминал, но в добавок имеет сетку крафта, которая автоматически пополняется из [сетевого хранилища](../ae2_mechanics/import_export_storage.md). Будьте осторожны с нажатием с шифтом по выходу.
 
-## UI
+## Интерфейс
 
-See [Terminals](terminals.md).
+См. [терминалы](terminals.md).
 
-## Upgrades
+## Улучшения
 
-No additional upgrades are available in the current GTNH build.
+В нынешних версиях GTNH нет дополнительных улучшений.
 
-## Recipe
+## Крафт
 
 <RecipeFor id="ae2wct:wirelessCraftingTerminal" />

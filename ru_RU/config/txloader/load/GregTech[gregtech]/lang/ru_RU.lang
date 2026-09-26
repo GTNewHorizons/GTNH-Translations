@@ -1745,10 +1745,10 @@ GTPP.tooltip.catalyst.active_reaction_agent=Активный реагент
 GTPP.tooltip.milling_ball.tumble=Вращение, вращение, вращение
 
 # Infinite Spray Can
-item.GT5U.infinite_spray_can.name.solvent.unlocked=Infinite Spray Can (Solvent)
-item.GT5U.infinite_spray_can.name.solvent.locked=Infinite Spray Can [Solvent]
-item.GT5U.infinite_spray_can.name.colored.unlocked=Infinite Spray Can (%s)
-item.GT5U.infinite_spray_can.name.colored.locked=Infinite Spray Can [%s]
+item.GT5U.infinite_spray_can.name.solvent.unlocked=Бесконечный баллончик (Растворитель)
+item.GT5U.infinite_spray_can.name.solvent.locked=Бесконечный баллончик [Растворитель]
+item.GT5U.infinite_spray_can.name.colored.unlocked=Бесконечный баллончик (%s)
+item.GT5U.infinite_spray_can.name.colored.locked=Бесконечный баллончик [%s]
 
 GT5U.infinite_spray_can.color.Black=Чёрный
 GT5U.infinite_spray_can.color.Red=Красный
@@ -1904,7 +1904,7 @@ GT5U.MBTT.InputData=Входной разъём для данных
 GT5U.MBTT.OutputData=Выходной разъём для данных
 GT5U.MBTT.Causes=Производит
 GT5U.MBTT.Produces=Производит
-GT5U.MBTT.PPS=%s загрязнения в секунду
+GT5U.MBTT.PPS=§5%s§7 загрязнения в секунду
 GT5U.MBTT.Hold=Удерживайте
 GT5U.MBTT.Display=, чтобы отобразить рекомендации по структуре
 GT5U.MBTT.StructureHint=Некоторые блоки имеют несколько кандидатов или могут использовать любой тир
@@ -2511,7 +2511,7 @@ gt.recipe.multidehydrator=Мультиблочный дегидратор
 gt.recipe.semifluidgeneratorfuels=Топливо полужидкостного бойлера
 gt.recipe.flotationcell=Флотационная камера
 gt.recipe.treefarm=Симулятор роста деревьев
-gt.recipe.algae_pond=Algae Pond
+gt.recipe.algae_pond=Пруд с водорослями
 gt.recipe.multiblockrockbreaker=Болдарнатор
 gt.recipe.category.abs_non_alloy_recipes=Рецепты ABS без использования сплавов
 
@@ -2551,7 +2551,7 @@ gt.nei.tgs.tooltip.multiplier=Выходной множитель:
 gt.nei.tgs.info-1=Производительность дополнительно повышается
 gt.nei.tgs.info-2=за счет тира механизма
 gt.nei.tgs.info-3=и типа инструмента
-gt.nei.ap.tier=Тир водорослевого пруда: %s
+gt.nei.ap.tier=Тир пруда с водорослями: %s
 
 GT5U.recipes.recipe_by.original=Исходный рецепт: %s
 GT5U.recipes.recipe_by.modified=Изменено: %s
@@ -3032,7 +3032,7 @@ GT5U.gui.text.recipe_result.backfiller_working=§aЗаливка бетона
 GT5U.gui.text.recipe_result.backfiller_no_concrete=§7Нет жидкого бетона
 GT5U.gui.text.backfiller_current_area=§7Заливка на уровне высоты: §a%s
 GT5U.gui.text.pump_fluid_type=Жидкость: §a%s
-GT5U.gui.text.pump_rate.1=Скорость откачки: %s§r
+GT5U.gui.text.pump_rate.1=Скорость откачки: §b%s§r
 GT5U.gui.text.pump_rate.2= Л/тик
 GT5U.gui.text.pump_recovery.1=Извлечение §b%s§r
 GT5U.gui.text.pump_recovery.2= Л за операцию
@@ -3215,6 +3215,7 @@ GT5U.gui.text.structure_error.missing_data_hatch=Нет шлюза для вво
 GT5U.gui.text.structure_error.dt_missing_output_hatch=Missing Output Hatch on Layer %s
 GT5U.gui.text.structure_error.dt_missing_output_hatches=Нет выходных шлюзов на слоях %s
 GT5U.gui.text.structure_error.coil_level_not_enough=Уровень катушек недостаточен
+GT5U.gui.text.structure_error.exotic_hatch_insufficient_coil_tier=Coil tier too low for Multi-Amp Hatch
 GT5U.gui.text.structure_error.missing_top=Верхний слой неверен
 GT5U.gui.text.structure_error.dangote_missing_top=Верхний слой неверен или выхлопная система стоит не на верхнем слое
 GT5U.gui.text.structure_error.spelv_module_exceed=Превышен лимит модулей
@@ -4209,7 +4210,7 @@ GT5U.item.cable.swapped.s=Заменён кабель: %s
 GT5U.item.cable.multi.infinite_loop=Ошибка: превышен предел перемещения кабеля. Вероятно, это ошибка в программе, пожалуйста, сообщите об этом.
 GT5U.item.cable.multi.success=Обнаружено %d кабелей, подключено %d кабелей и %d блоков.
 
-GT5U.item.tank.locked_to=Содержимое заблокировано на %s
+GT5U.item.tank.locked_to=Содержимое заблокировано на §e%s
 
 GT5U.item.pipe.capacity=Ёмкость
 GT5U.item.pipe.heat_resistance=Жаростойкость
@@ -4493,7 +4494,7 @@ GT5U.nei.heat_capacity.material=Катушка: %s
 GT5U.nei.tier=Тир: %s
 GT5U.nei.start_eu=Запуск: %s EU (MK-%s)
 GT5U.nei.stages=Этапы: %s
-GT5U.nei.fuel=Энергоёмкость: %s EU
+GT5U.nei.fuel=Энергоёмкость: %s EU/%s
 GT5U.nei.qc.heating=Константа нагрева: %s
 GT5U.nei.qc.cooling=Константа охлаждения: %s
 GT5U.nei.qc.computation=Вычисление: %s
@@ -9410,12 +9411,12 @@ gt.blockcasings14.4.name=Корпус морозильника
 gt.blockcasings14.5.name=Укреплённый наквадаховый корпус дистиллятора
 
 gt.blockcasingsNH.0.name=Корпус турбины воздушного фильтра
-gt.blockcasingsNH.1.name=Корпус турбины воздушного клапана
+gt.blockcasingsNH.1.name=Корпус клапана воздушного фильтра
 gt.blockcasingsNH.2.name=Корпус пиролизной печи
 gt.blockcasingsNH.3.name=Улучшенный корпус турбины воздушного фильтра
-gt.blockcasingsNH.4.name=Улучшенный корпус турбины воздушного клапана
+gt.blockcasingsNH.4.name=Улучшенный корпус клапана воздушного фильтра
 gt.blockcasingsNH.5.name=Супер корпус турбины воздушного фильтра
-gt.blockcasingsNH.6.name=Супер корпус турбины воздушного клапана
+gt.blockcasingsNH.6.name=Супер корпус клапана воздушного фильтра
 gt.blockcasingsNH.10.name=UEV Обшивка механизма
 gt.blockcasingsNH.11.name=UIV Обшивка механизма
 gt.blockcasingsNH.12.name=UMV Обшивка механизма
@@ -9583,7 +9584,7 @@ gt.item.adv_sensor_card.tooltip.fried.1=Карта сгорела
 gt.item.adv_sensor_card.tooltip.fried.2=Данные не подлежат восстановлению
 gt.item.adv_sensor_card.tooltip.fried.3=Пожалуйста, замените карту
 gt.item.adv_sensor_card.tooltip.machine=Механизм: %s
-gt.item.adv_sensor_card.tooltip.frequency=Частота: %s
+gt.item.adv_sensor_card.tooltip.frequency=Частота: §n§e%s
 gt.item.adv_sensor_card.tooltip.recipe_hint=Вставь в модуль Передатчик метрики для привязки
 gt.item.adv_sensor_card.dimension=Измерение: %s
 gt.item.adv_sensor_card.coords=Координаты: %s
@@ -10020,6 +10021,7 @@ gt.blockmachines.basicgenerator.lightningrod.tooltip=Генерирует EU и�
 # NEI Aliases
 gt.alias.debug=Отладка
 gt.alias.mechanical_armor=Механическая броня
+gt.alias.fibre=Fibre
 
 # Multiblocks
 gt.blockmachines.algaefarm.controller.tier.single.name=Ферма водорослей
@@ -10202,17 +10204,17 @@ gt.metatool.01.44.name=Вантуз
 gt.metatool.01.46.name=Скалка
 gt.metatool.01.drill.name=Бур (%s)
 gt.metatool.01.chainsaw.name=Электропила (%s)
-gt.metatool.01.chainsaw.tooltip=Can also harvest ice
+gt.metatool.01.chainsaw.tooltip=Также может добывать лёд
 gt.metatool.01.wrench.name=Ключ (%s)
-gt.metatool.01.wrench.tooltip=Hold left-click to dismantle machines
+gt.metatool.01.wrench.tooltip=Удерживайте ЛКМ чтобы разобрать механизм
 gt.metatool.01.jackhammer.name=Отбойный молоток (%s)
-gt.metatool.01.jackhammer.tooltip=Breaks rocks into pieces
+gt.metatool.01.jackhammer.tooltip=Разбивает камни на куски
 gt.metatool.01.buzzsaw.name=Циркулярная пила (%s)
-gt.metatool.01.buzzsaw.tooltip=Not suitable for harvesting blocks
+gt.metatool.01.buzzsaw.tooltip=Не подходит для сбора блоков
 gt.metatool.01.screwdriver.name=Отвёртка (%s)
-gt.metatool.01.screwdriver.tooltip=Adjusts covers and machines
+gt.metatool.01.screwdriver.tooltip=Регулирует модули и механизмы
 gt.metatool.01.soldering_iron.name=Паяльник (%s)
-gt.metatool.01.soldering_iron.tooltip=Fixes burned out circuits. Needs soldering material in inventory.
+gt.metatool.01.soldering_iron.tooltip=Чинит перегоревшие микросхемы. Необходимы паяльные материалы в инвентаре.
 gt.metatool.01.170.name=Малая турбина
 gt.metatool.01.170.tooltip=Роторы турбин для вашей электростанции
 gt.metatool.01.172.name=Турбина
@@ -10233,9 +10235,9 @@ gt.metatool.01.190.tooltip=Регулирует модули и механизм
 gt.metatool.01.192.name=Карманный мультитул (Кусачки)
 gt.metatool.01.194.name=Мастерок декоратора
 gt.metatool.01.wire_cutter.name=Кусачки (%s)
-gt.metatool.01.wire_cutter.tooltip=Hand-held electric wire cutter
+gt.metatool.01.wire_cutter.tooltip=Ручные электрические кусачки
 gt.metatool.01.file.name=Напильник (%s)
-gt.metatool.01.file.tooltip=Hand-held electric filing device
+gt.metatool.01.file.tooltip=Ручной электрический напильник
 
 # Side names
 gt.lang.face.any=Любая сторона
@@ -10269,34 +10271,34 @@ gt.metaitem.02.32765.with.ItSFreePlaceLavaOnSide.name=ЭТО БЕСПЛАТНО!
 gt.metaitem.02.32765.with.ItSFreePlaceLavaOnTop.name=ЭТО БЕСПЛАТНО! Поместите лаву сверху
 
 # Chat messages
-GT5U.chat.cover.connectable=Connectable: %s
+GT5U.chat.cover.connectable=Соединяемый: %s
 
 # Multiblock maintenance issues
-GT5U.gui.multimachine.maintenance.wrench=Pipe is loose. (Wrench)
-GT5U.gui.multimachine.maintenance.screwdriver=Screws are loose. (Screwdriver)
-GT5U.gui.multimachine.maintenance.soft_mallet=Something is stuck. (Soft Mallet)
-GT5U.gui.multimachine.maintenance.hammer=Platings are dented. (Hammer)
-GT5U.gui.multimachine.maintenance.soldering=Circuitry burned out. (Soldering)
-GT5U.gui.multimachine.maintenance.crowbar=That doesn't belong there. (Crowbar)
+GT5U.gui.multimachine.maintenance.wrench=Труба расшаталась. (Ключ)
+GT5U.gui.multimachine.maintenance.screwdriver=Винты ослабли. (Отвёртка)
+GT5U.gui.multimachine.maintenance.soft_mallet=Что-то застряло. (Киянка)
+GT5U.gui.multimachine.maintenance.hammer=Обшивка помята. (Молоток)
+GT5U.gui.multimachine.maintenance.soldering=Схема перегорела. (Паяльник)
+GT5U.gui.multimachine.maintenance.crowbar=Этому там не место. (Монтировка)
 GT5U.gui.multimachine.missing_turbine_rotor=Отсутствует ротор турбины
-GT5U.gui.multimachine.incomplete_structure=Incomplete Structure.
+GT5U.gui.multimachine.incomplete_structure=Незавершённая структура.
 
 # Transformer
-GT5U.gui.transformer.step_down=Step Down, In: %1$sV %2$sA, Out: %3$sV %4$sA
-GT5U.gui.transformer.step_up=Step Up, In: %1$sV %2$sA, Out: %3$sV %4$sA
+GT5U.gui.transformer.step_down=Понижение, вход: %1$s В %2$s А, выход: %3$s В %4$s А
+GT5U.gui.transformer.step_up=Повышение, вход: %1$s В %2$s А, выход: %3$s В %4$s А
 
 # Recipe requirements in NEI
-GT5U.nei.needs_low_gravity=Needs Low Gravity
+GT5U.nei.needs_low_gravity=Нужна низкая гравитация
 GT5U.nei.needs_cleanroom=Требуется чистая комната
 GT5U.nei.needs_cleanroom_low_gravity=Требуется чистая комната и низк. гравитация
-GT5U.nei.scan_for_assembly_line=Scan for Assembly Line
-GT5U.nei.deprecated_recipe=Deprecated Recipe
-GT5U.nei.compression.hip_unit=Requires HIP Unit
-GT5U.nei.compression.stabilized_black_hole=Requires Stabilized Black Hole
-GT5U.nei.pcb_factory.tier=PCB Factory Tier: %s
-GT5U.nei.pcb_factory.upgrade_required=Upgrade Required: %s
-GT5U.nei.pcb_factory.upgrade_bio=Bio
-GT5U.nei.solar_factory.tier_required=Multi Tier required: %s
+GT5U.nei.scan_for_assembly_line=Сканирование для Сборочной линии
+GT5U.nei.deprecated_recipe=Устаревший рецепт
+GT5U.nei.compression.hip_unit=Требуется HIP устройство
+GT5U.nei.compression.stabilized_black_hole=Требуется стабилизированная чёрная дыра
+GT5U.nei.pcb_factory.tier=Завод печатных плат тир: %s
+GT5U.nei.pcb_factory.upgrade_required=Требуется улучшение: %s
+GT5U.nei.pcb_factory.upgrade_bio=Био
+GT5U.nei.solar_factory.tier_required=Требуется тир мульти: %s
 
 # Item tooltips
-GT5U.tooltip.switch_metadata.sneak_right_click=Sneak right-click to switch mode
+GT5U.tooltip.switch_metadata.sneak_right_click=Shift+ПКМ, чтобы изменить режим
