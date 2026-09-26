@@ -3688,7 +3688,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAByQ.name=§b§l能量注入仪
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByQ.desc=能量注入仪，是科技版的奥法修复台，可以修复物品，也可以为物品充能。%n%n给能量注入仪供能，即可为其输入总线中的物品充能。充能完毕的物品将被移至输出总线。物品将由使用的能源仓提供相应数量的能量。%n%n当同时提供UU物质和能量时，能量注入仪可基于其充能功能，延伸出修复物品的能力。但是无法修复GT工具。修复模式下，每修复1点耐久，消耗1升UU物质以及1000EU。
 
 # Quest: Quantum Anomaly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.name=§4§l§n量子反常
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.name=§b§l量子反常
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAByg.desc=你所有的理论知识都告诉你这东西不可能存在。但——它就在那里。也许你能找到它的用处？%n%n[warn]如果你还没有制作高能束流对撞合成室，那么你需要一个才能进行此操作。[/warn]
 
 # Quest: Fusion Reactor MKII - Bigger, Better, Fusor
@@ -4568,7 +4568,7 @@ betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.name=§9§l§n充能超立方体
 betterquesting.quest.j4pFVWCCSBGZsTyI7wpCYA.desc=利用大量的能量与量子反常的奇异特性，超立方体可以被激活，释放出隐藏的潜能。%n%n[note]你最好能爱上合成它们的这步操作……[/note]
 
 # Quest: Eternal Coil Upgrade
-betterquesting.quest.jSgzKTJOTiSm6ArYis30dg.name=§9§l§nEternal Coil Upgrade
+betterquesting.quest.jSgzKTJOTiSm6ArYis30dg.name=§9§l§n升级永恒线圈
 betterquesting.quest.jSgzKTJOTiSm6ArYis30dg.desc=Beyond spacetime, beyond reality. You have peered into what never existed and brought it first into a fluid, then into a solid. It has been stabilized against all odds. When you look at it, you feel as though you could hold the entire universe in your hand.%n%nIn the past, you were able to combine almost all materials into one through an Eternal Singularity, an infinitely dense sample of the universe. However, automating this at the scale of the DTPF proved ridiculous and would have stopped your progress altogether if not for the discovery of the Energised Tesseract. To physically manifest spacetime itself, you first needed to manifest the fourth spatial dimension. That is what the Tesseract is: a 4-dimensional cube.%n%nCubes! Almost everything around you is made of cubes. You have only glimpsed the reality of the 4-dimensional world, but you have successfully used it to condense spacetime, which can be arbitrarily molded into the complete Eternal mixture. Needless to say, living circuits will not suffice to maintain an infinitely dense, infinitely stable, multidimensional material.%n%nThe Eternal Coil is currently the final upgrade, reaching 13,501 K. This really makes your DTPF shine!
 
 # Quest: UIV Superconductors
@@ -15058,7 +15058,7 @@ betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.name=§9§l§n关键在于平衡
 betterquesting.quest.K0_-BjVuR3qh_GZt19SReQ.desc=你已经能超越维度了，但当你的电力需求激增到一种荒诞的程度时，你也许需要超越物质了！%n%n利用原初恒坚钢不毁的特性，掌控[warn]混沌[/warn]成为了现实。半稳定反物质稳定序列器引入了半稳定反物质的概念。这种物质由元始物质制成。%n%n但它可是个难伺候的主子…掌握不当的话，反物质就会湮入虚无！%n%n半稳定反物质从周期为1秒的循环中产出，每次的产量基于16个反物质仓中储存的反物质量之和，并消耗等量的元始物质。%n%n每个周期，每个反物质仓的基础产出为：%n(1/16)*(§3反物质量§r)^(0.5+§6§nC§r)。%n随后每个仓将各自从均值为（0.2+§b§nA§r）、方差为1的正态分布中抽取随机数，乘在基础产量上——这意味着反物质总量变化可能为负值。%n%n该机制将导致仓室间的反物质量失衡。想要实现反物质生产自动化，重新配平各仓室的反物质存量至关重要。每周期结束时，所有反物质仓中反物质存量最低值将被记录，所有存量高于最低值的仓室将损失差值的一半！%n%n正确使用稳定流体可以显著减少能量消耗并增加产出：%n%n机器被动消耗 10,000,000+(§3反物质量§r*1000)^§ (1.5-§2§nM§r§) EU/t。%n磁性稳定液可减轻被动不稳定性，表现为§2指数上§r的剪除：%n熔融纯镃：§2§n0.1§r%n富快子时间流体：§2§n0.2§r%n熔融磁物质：§2§n0.3§r%n%n机器每个运行周期消耗(§3反物质§r*10000)^(1.5-§5§nG§r) EU%n调整锻炉中的引力约束可以剪除这一§5指数§r：%n熔融时空：§5§n0.05§r%n扩大化空间流体：§5§n0.10§r%n熔融永恒：§5§n0.15§r%n%n更紧凑地约束反物质可以增加每个循环的产出。遏制稳定流体可在产出公式中提供§6指数上§r的提升：%n熔融调律源金：§6§n0.05§r%n熔融磁流体约束恒星物质（蓝框岩浆）：§6§n0.10§r%n%n输入高能垒的流体能够调节反物质的流动混沌性，使其随机性向有利的方向偏转。活化稳定流体能引起正态分布的§b均值§r变化，降低负产出的风险并有利于更高的产出。%n硅岩基流体燃料 MK-V（枯竭的）：§b§n0.05§r%n硅岩基流体燃料 MK-VI（枯竭的）：§b§n0.10§r
 
 # Quest: Asgardandelion
-betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.name=阿斯加德蒲公英
+betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.name=§4§l§n阿斯加德蒲公英
 betterquesting.quest.M7CE2a0uSOSZZsyNloB0zg.desc=这是可以被动产生魔力的花卉，能够生成一股永不枯竭的魔力洪流。
 
 # Quest: Celestial Gateways

@@ -328,5 +328,5 @@ sodium.options.upload_method.tooltip=更改数据流传输至GPU的方式。某�
 sodium.options.upload_method.buffer_data=缓冲区数据
 sodium.options.upload_method.buffer_subdata=缓冲子数据
 sodium.options.upload_method.map_buffer=映射缓冲区范围
-sodium.options.enable_deferred_batching.name=延迟粒子批处理
+sodium.options.enable_deferred_batching.name=粒子批处理
 sodium.options.enable_deferred_batching.tooltip=将粒子绘制调用分批处理，减少每层的合并绘制次数。若粒子渲染异常，请禁用此功能。

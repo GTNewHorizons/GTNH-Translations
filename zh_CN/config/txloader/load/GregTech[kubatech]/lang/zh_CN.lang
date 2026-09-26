@@ -99,7 +99,7 @@ kubatech.gui.text.mia.show_machine_status=显示机器状态
 
 kubatech.gui.tooltip.contributors.added=添加者：%s
 kubatech.gui.tooltip.contributors.design=由 %s 设计
-kubatech.gui.tooltip.contributors.structure=结构由%s设计
+kubatech.gui.tooltip.contributors.structure=结构由§d%s设计
 
 kubatech.gui.tooltip.dynamic_inventory.identical_slots=有%d个相同的槽位
 kubatech.gui.tooltip.dynamic_inventory.empty_slot=空槽位
@@ -150,16 +150,16 @@ kubatech.infodata.eec.weapon_preservation.yes=武器保留中：§e是
 kubatech.infodata.eec.weapon_preservation.no=武器保留中：§e否
 kubatech.infodata.eec.inserted_weapon.yes=武器已插入: §eYes
 kubatech.infodata.eec.inserted_weapon.no=武器已插入: §eNo
-kubatech.infodata.eec.weapon.damage=武器攻击伤害：§e%f
-kubatech.infodata.eec.weapon.looting_level=武器掠夺等级：§e%d
-kubatech.infodata.eec.total_damage=总攻击伤害：§e%f
+kubatech.infodata.eec.weapon.damage=武器攻击伤害：§e%s
+kubatech.infodata.eec.weapon.looting_level=武器掠夺等级：§e%s
+kubatech.infodata.eec.total_damage=总攻击伤害：§e%s
 
 ## Extreme Industrial Greenhouse
 kubatech.infodata.eig.running_mode.setup_mode.input=运行模式：§a设置模式（输入）§r
 kubatech.infodata.eig.running_mode.setup_mode.output=运行模式：§a设置模式（输出）§r
-kubatech.infodata.eig.uses.water=每次操作消耗 %d L 水
-kubatech.infodata.eig.uses.weedex=每秒消耗 %d L 除草剂-9000
-kubatech.infodata.eig.max_slots=最大槽位数：§a%d§r
+kubatech.infodata.eig.uses.water=每次操作消耗 %s L 水
+kubatech.infodata.eig.uses.weedex=每秒消耗 %s L 除草剂-9000
+kubatech.infodata.eig.max_slots=最大槽位数：§a%s§r
 kubatech.infodata.eig.used_slots=已用槽位数：%s
 kubatech.infodata.bucket.humidity=湿度：
 kubatech.infodata.bucket.humidity.on=开启
@@ -341,7 +341,7 @@ KT.research.ultimatetea=你找到一种方法，将这些茶转化为纯粹的�
 kubatech.tooltip.tea=茶
 kubatech.tooltip.tea_acceptor.0=接受茶叶物品并将其加入您的网络
 kubatech.tooltip.tea_acceptor.1=每tick最多可叠加10层
-kubatech.tooltip.tea_storage.0=将茶叶储存空间扩展%s
+kubatech.tooltip.tea_storage.0=将茶叶储存空间扩展§c%s
 kubatech.tooltip.tea_ingredient.0=这是茶的原料
 
 kubatech.tooltip.structure.flowers=花
@@ -393,13 +393,13 @@ gt.blockmachines.multimachine.defusioncrafter.name=龙研聚合装置
 gt.blockmachines.multimachine.extremegreenhouse.name=极限工业温室
 
 # HTGR fuel items
-item.HTGR.fuel.Plutonium=Plutonium
-item.HTGR.fuel.Thorium=Thorium
-item.HTGR.fuel.Uranium=Uranium
-item.HTGRBISOPebbleCompound.name=BISO pebble compound (%s)
+item.HTGR.fuel.Plutonium=钚
+item.HTGR.fuel.Thorium=钍
+item.HTGR.fuel.Uranium=铀
+item.HTGRBISOPebbleCompound.name=BISO复合材料（%s）
 item.HTGRBurnedOutTRISOBall.name=Burned out TRISO Ball (%s)
 item.HTGRBurnedOutTRISOPebble.name=Burned out TRISO Pebble (%s)
-item.HTGRHTGRFuelMixture.name=HTGR fuel mixture (%s)
+item.HTGRHTGRFuelMixture.name=HTGR混合燃料（%s）
 item.HTGRTRISOBall.name=TRISO ball (%s)
 item.HTGRTRISOPebble.name=TRISO pebble (%s)
-item.HTGRTRISOPebbleCompound.name=TRISO pebble compound (%s)
+item.HTGRTRISOPebbleCompound.name=TRISO复合材料（%s）
