@@ -48,11 +48,7 @@ nei.bookmark.recipe.toggle_collapse=Toggle Collapse/Expand
 nei.bookmark.recipe.chat_link=Send Recipe to Chat
 nei.bookmark.crafting_chain=Üretim Zinciri
 nei.bookmark.crafting_chain.input=Bileşenler
-nei.bookmark.crafting_chain.missing=Eksik Eşyalar
-nei.bookmark.crafting_chain.output=Sonuçlar
-nei.bookmark.crafting_chain.remainder=Kalanlar
 nei.bookmark.crafting_chain.needed=Required Crafts
-nei.bookmark.crafting_chain.available=Mevcut Eşyalar
 nei.bookmark.tree.title=Crafting Tree
 nei.bookmark.tree.empty=No crafting chain to display
 nei.bookmark.tree.overlay=Use for recipe tree
@@ -284,9 +280,6 @@ nei.options.inventory.bookmarks.enabled.false=Gizli
 nei.options.inventory.bookmarks.animation=Yer İşaretlerinde REI Tarzı Animasyon
 nei.options.inventory.bookmarks.animation.true=Evet
 nei.options.inventory.bookmarks.animation.false=Hayır
-nei.options.inventory.bookmarks.recipeChainDir=Crafting Chain Info Direction
-nei.options.inventory.bookmarks.recipeChainDir.0=Input First
-nei.options.inventory.bookmarks.recipeChainDir.1=Output First
 nei.options.inventory.bookmarks.recipeTooltipsMode=Show Recipe Tooltips in Bookmarks
 nei.options.inventory.bookmarks.recipeTooltipsMode.0=None
 nei.options.inventory.bookmarks.recipeTooltipsMode.1=In Horizontal View
@@ -666,6 +659,10 @@ nei.recipe.badge.ncp.tooltip=Considered in parallel calculation, but not get con
 
 nei.recipe.badge.chance.consume=Consume Chance: %s
 nei.recipe.badge.chance.output=Output Chance: %s
+
+nei.recipe.items.results=Results
+nei.recipe.items.ingredients=Ingredients
+nei.recipe.items.ingredients_needed=Ingredients Needed
 
 # Deprecated
 nei.recipe.fuel.required=%s gerekli
