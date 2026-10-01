@@ -2,7 +2,7 @@
 navigation:
   title: Stone Age
   icon: minecraft:grass
-  parent: /tiers/tiers-index.md
+  parent: /tiers/tiers_index.md
 ---
 
 > [!WARNING]

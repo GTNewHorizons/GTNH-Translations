@@ -2,7 +2,7 @@
 navigation:
   title: "Transmission Internal Resistance"
   icon: gregtech:gt.blockmachines:21
-  parent: power-index.md
+  parent: power_index.md
   position: -6
 ---
 

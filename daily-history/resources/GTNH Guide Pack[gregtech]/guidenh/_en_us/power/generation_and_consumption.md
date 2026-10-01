@@ -2,7 +2,7 @@
 navigation:
   title: "Power Generation and Consumption"
   icon: gregtech:gt.blockmachines:1120
-  parent: power-index.md
+  parent: power_index.md
   position: -2
 ---
 
@@ -27,6 +27,6 @@ Machines can only run recipes whose power requirement is less than or equal to t
 
 **[Singleblock machines](../singleblock/singleblock-index.md)** become available at LV. They first accept energy packets on demand into their internal EU buffer, then continuously consume EU while running recipes. The maximum input current is usually 2A, except for the Thermal Centrifuge at 4A and the Arc Furnace at 6A.
 
-**[Multiblock machines](../multiblocks/multiblocks-index.md)** usually receive power through Energy Hatches. Standard Energy Hatches accept up to 2A. Multi-Amp Energy Hatches accept up to 1.25 times their rated amperage.
+**[Multiblock machines](../multiblocks/multiblocks_index.md)** usually receive power through Energy Hatches. Standard Energy Hatches accept up to 2A. Multi-Amp Energy Hatches accept up to 1.25 times their rated amperage.
 
 When a machine runs out of energy in its internal buffer, it stops executing the recipe and enters a **power failure**. Singleblock machines lose recipe progress but keep their input state; multiblocks lose both recipe progress and their inputs. Make sure you [provide power reliably](enet.md#providing-power-reliably).
