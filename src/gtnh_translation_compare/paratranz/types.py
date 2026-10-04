@@ -87,3 +87,4 @@ class ParatranzFile(BaseModel):
 class TranslationFile(BaseModel):
     relpath: str
     content: str
+    translations: Optional[Dict[str, str]] = None
