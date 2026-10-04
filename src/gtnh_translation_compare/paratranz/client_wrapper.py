@@ -30,23 +30,22 @@ def retry_after_error() -> Callable[[WrappedFn], WrappedFn]:
 
     def is_error(exception: BaseException) -> bool:
         if isinstance(exception, HTTPStatusError):
-            status_code = exception.response.status_code
+            return exception.response.status_code in (429, 500, 504)
 
-            if status_code == 429:
-                return True
-            if status_code == 500:
-                return "ER_LOCK_DEADLOCK" in exception.response.text
-
-        if isinstance(exception, ReadTimeout):
-            return True
-
-        return False
+        return isinstance(exception, ReadTimeout)
 
     def before_sleep(retry_state: RetryCallState) -> None:
         exception = retry_state.outcome.exception()
 
+        if isinstance(exception, ReadTimeout):
+            message = str(exception)
+        elif isinstance(exception, HTTPStatusError):
+            message = f"{exception.response.text}, {exception}"
+        else:
+            message = str(exception)
+
         logger.warning(
-            f"error: {exception}, "
+            f"{message}, "
             f"waiting {wait_seconds} seconds before retrying "
             f"({retry_state.attempt_number + 1} of {max_attempts})"
         )
