@@ -242,7 +242,7 @@ class ClientWrapper:
                 await self._upload_string(string)
 
         # concurrency number
-        sem = asyncio.Semaphore(10)
+        sem = asyncio.Semaphore(8)
         tasks = [upload(sem, string) for string in strings]
         await asyncio.gather(*tasks)
         logger.info("[upload_strings]finished_all: strings_count={}", len(strings))
