@@ -582,6 +582,19 @@ class Action:
                 successor or "<none>",
             )
 
+    def reconcile_case_variants(
+            self,
+            repo_path: str = ".",
+            subdirectory: str = "daily-history",
+            backup_path: str = ".temp/paratranz-case-reconciliation.json",
+            apply: bool = False,
+    ) -> None:
+        from gtnh_translation_compare.paratranz.reconcile import reconcile_case_variants
+
+        asyncio.run(reconcile_case_variants(
+            self.client, self.converter, Path(repo_path) / subdirectory, Path(backup_path), apply=apply
+        ))
+
     def report_paratranz_orphans(
             self,
             repo_path: str = ".",

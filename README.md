@@ -144,3 +144,29 @@ Translations in mod jars -> ParaTranz
 ## Credit
 
 MuXiu1997 for original workflows and scripts!
+
+## Reconciling case-only ParaTranz duplicates
+
+The manual **Reconcile ParaTranz case variants** workflow uses the existing
+`PARATRANZ_TOKEN` secret. Select a language (or `all`) and leave `apply` unchecked
+first. Download the report artifact: it contains the original file metadata and
+strings, the canonical destination names, and any conflicts requiring review.
+
+The canonical names and English text come from `daily-history`. Only case-only
+aliases of current mod language files are included. The migration preserves
+translations and their review stages, and stops before writing if translated
+keys have conflicting values, have changed English sources, or no longer exist.
+
+After resolving reported conflicts, rerun with `apply` enabled while no other
+ParaTranz sync is running. Each canonical file is reread and verified before its
+redundant aliases are deleted. Backups are uploaded even if the run fails; keep a
+copy beyond the artifact retention period if needed. Then run **Publish daily
+lang pack** to sync the reconciled translations and rebuild the affected packs.
+
+Local equivalent (requires the usual ParaTranz environment variables):
+
+```sh
+python main.py action reconcile-case-variants --backup-path=.temp/reconciliation.json
+# Use a new backup path when applying; existing backups are never overwritten.
+python main.py action reconcile-case-variants --backup-path=.temp/reconciliation-apply.json --apply
+```

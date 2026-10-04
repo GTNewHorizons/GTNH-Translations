@@ -152,7 +152,7 @@ class ClientWrapper:
 
         return strings
 
-    async def upload_file(self, paratranz_file: ParatranzFile) -> None:
+    async def upload_file(self, paratranz_file: ParatranzFile) -> int | None:
         if not paratranz_file.string_items:
             # A source file with nothing to translate, such as an empty guide page, makes
             # ParaTranz answer the create without a file object, and the sync used to die on
@@ -176,6 +176,7 @@ class ClientWrapper:
             await self._save_file_extra(file_id, paratranz_file)
         except HTTPStatusError as error:
             raise ParaTranzUploadError(paratranz_file.file_name, "metadata", error) from error
+        return file_id
 
     async def _find_file_id_by_file(self, filename: str) -> Optional[int]:
         files = await self.get_all_files()
@@ -241,6 +242,11 @@ class ClientWrapper:
             json=string.model_dump()
         )
         self._log_res(f"upload_strings[string_id={string.id}]", res)
+
+    @retry_after_429()
+    async def delete_file(self, file_id: int) -> None:
+        res = await self.client.delete(url=f"projects/{self.project_id}/files/{file_id}")
+        self._log_res(f"delete_file[file_id={file_id}]", res)
 
     @staticmethod
     def _log_res(request_name: str, res: Response) -> None:
