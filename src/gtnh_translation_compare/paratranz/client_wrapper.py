@@ -55,6 +55,7 @@ def retry_after_error() -> Callable[[WrappedFn], WrappedFn]:
         wait=wait_fixed(wait_seconds),
         stop=stop_after_attempt(max_attempts),
         before_sleep=before_sleep,
+        reraise=True, # fixes tests that catches exceptions
     )
 
 
