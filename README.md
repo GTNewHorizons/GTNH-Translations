@@ -179,3 +179,24 @@ python main.py action reconcile-case-variants --backup-path=.temp/reconciliation
 # Use a new backup path when applying; existing backups are never overwritten.
 python main.py action reconcile-case-variants --backup-path=.temp/reconciliation-apply.json --apply
 ```
+
+To verify the live API before a migration, use an empty disposable project and
+an account that can manage its files and review settings:
+
+```sh
+poetry run python .github/scripts/check_paratranz_reconciliation.py \
+  --project-id YOUR_TEST_PROJECT_ID --token-file .temp/paratranz-token.txt \
+  --output .temp/paratranz-stage-check
+```
+
+The check covers every documented stage, targeted copying, unchanged canonical
+entries, case-only renaming, and read-only dry runs. It temporarily enables two
+review passes, restores the project settings, and deletes its synthetic files.
+It refuses configured GTNH project IDs and nonempty projects. Use a new output
+path for each run; reports never contain the token.
+
+The current API refuses creating case-only duplicate files. The existing-canonical
+fixture therefore maps one distinct file's read name to a legacy alias; copying,
+verification, and deletion still use real API calls and IDs. The missing-canonical
+fixture tests an actual case-only rename. The local unit tests cover collision
+matching and failures separately.
