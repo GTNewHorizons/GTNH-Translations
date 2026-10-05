@@ -2,7 +2,7 @@
 navigation:
   title: "Wires and Cables"
   icon: gregtech:gt.blockmachines:1248
-  parent: power_index.md
+  parent: power-index.md
   position: -3
 ---
 
@@ -23,7 +23,7 @@ Current is additive: the current carried by a given wire segment is the sum of a
 
 # Cable Loss Rate
 
-When power is transmitted through wires, current stays the same everywhere along the path, but voltage may fall because of [cable loss](cable_loss.md).
+When power is transmitted through wires, current stays the same everywhere along the path, but voltage may fall because of [cable loss](cable-loss.md).
 
 - Cable loss rate does not depend on wire thickness or current. It depends only on the material and on whether the wire is insulated (wire vs cable). Insulated cables often have only half the loss of the corresponding bare wire.
 - Some wires have zero loss and therefore behave as superconductors, such as 1x Redstone Alloy Cable, 1x MV Superconductor Wire, and 1x Infinity Wire.

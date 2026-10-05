@@ -2,7 +2,7 @@
 navigation:
   title: "Power Distribution"
   icon: gregtech:gt.blockmachines:15300
-  parent: power_index.md
+  parent: power-index.md
   position: -7
 ---
 

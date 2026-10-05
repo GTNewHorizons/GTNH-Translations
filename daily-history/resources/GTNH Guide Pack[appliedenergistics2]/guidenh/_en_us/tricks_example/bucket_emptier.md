@@ -19,7 +19,7 @@ vanilla Minecraft has a slightly-less-convenient way, the <ItemLink id="minecraf
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/bucket_emptier.snbt" />
 
-  <BoxAnnotation color="#dddddd" min="2 1 3" max="3 2 4">
+  <BoxAnnotation color="#dddddd" min="2 1 0" max="3 2 1">
   (1) ME Interface: Set to lock crafting "With redstone signal" and blocking mode turned on, with the relevant processing patterns.
 
   <Row>
@@ -28,28 +28,28 @@ vanilla Minecraft has a slightly-less-convenient way, the <ItemLink id="minecraf
   </Row>
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="2.1 2 3.1" max="2.9 2.2 3.9">
+  <BoxAnnotation color="#dddddd" min="2.1 2 0.1" max="2.9 2.2 0.9">
   (2) Interface: In its default configuration.
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="1.1 2 2.1" max="1.9 2.2 2.9">
+  <BoxAnnotation color="#dddddd" min="3.1 2 1.1" max="3.9 2.2 1.9">
   (3) Storage Bus #1: In its default configuration.
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="0.05 1.05 3" max="0.95 1.95 3.2">
+  <BoxAnnotation color="#dddddd" min="4.05 1.05 0.8" max="4.95 1.95 1">
   (4) Annihilation Plane: No GUI to configure.
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="1.2 1.2 3" max="1.8 1.8 3.2">
+  <BoxAnnotation color="#dddddd" min="3.2 1.2 0.8" max="3.8 1.8 1">
   (5) Import Bus: Filtered to buckets.
   <ItemImage id="minecraft:bucket" scale="2" />
   </BoxAnnotation>
 
-  <BoxAnnotation color="#dddddd" min="1.8 1.1 3.1" max="2 1.9 3.9">
+  <BoxAnnotation color="#dddddd" min="3 1.1 0.1" max="3.2 1.9 0.9">
   (6) Storage Bus #2: In its default configuration.
   </BoxAnnotation>
 
-  <DiamondAnnotation pos="5 1.5 3.5" color="#00ff00">
+  <DiamondAnnotation pos="0 1.5 0.5" color="#00ff00">
   To Main Network
   </DiamondAnnotation>
 

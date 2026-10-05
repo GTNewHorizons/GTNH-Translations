@@ -2,7 +2,7 @@
 navigation:
   title: "Voltage Tiers"
   icon: gregtech:gt.metaitem.01:32598
-  parent: power_index.md
+  parent: power-index.md
   position: -1
 ---
 

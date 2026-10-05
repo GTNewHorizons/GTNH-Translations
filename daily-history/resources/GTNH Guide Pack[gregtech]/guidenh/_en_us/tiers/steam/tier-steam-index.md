@@ -2,7 +2,7 @@
 navigation:
   title: Steam Age
   icon: minecraft:grass
-  parent: /tiers/tiers_index.md
+  parent: /tiers/tiers-index.md
   position: 0
 ---
 

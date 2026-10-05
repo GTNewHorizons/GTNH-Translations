@@ -2,7 +2,7 @@
 navigation:
   title: "Cable Loss"
   icon: gregtech:gt.metatool.01:26
-  parent: power_index.md
+  parent: power-index.md
   position: -5
 ---
 

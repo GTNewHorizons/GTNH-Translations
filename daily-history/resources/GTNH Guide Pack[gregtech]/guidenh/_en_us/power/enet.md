@@ -2,7 +2,7 @@
 navigation:
   title: "Local Power Network (Enet)"
   icon: tectech:item.em.EuMeterGT
-  parent: power_index.md
+  parent: power-index.md
   position: -4
 ---
 
@@ -10,14 +10,14 @@ navigation:
 
 The **local power network** (GT-Enet), built around [wires and cables](cable.md), is the main wired power transport system used throughout GTNH.
 
-Within a local power network, energy packets move between the internal EU buffers of singleblock machines and Energy Hatches. This is separate from the rules machines use to spend energy while running recipes. The detailed behavior of the latter is covered in **[Tier Skipping, Overclocking, and Parallels](../tierskipping-overcloking-parallels/T_O_P_index.md)**.
+Within a local power network, energy packets move between the internal EU buffers of singleblock machines and Energy Hatches. This is separate from the rules machines use to spend energy while running recipes. The detailed behavior of the latter is covered in **[Tier Skipping, Overclocking, and Parallels](../tierskipping-overcloking-parallels/T-O-P-index.md)**.
 
 # Network Structure
 
 A local power network has three parts:
 
 - **Transmitter blocks**: output energy packets from their EU buffer. Examples include singleblock generators, the output side of [transformers](distribution.md#transformers) or battery buffers, and Dynamo Hatches. The voltage of the packets they output is usually the standard voltage of their tier.
-- **Wires** ([wires and cables](cable.md)): carry energy packets and may reduce their voltage through [cable loss](cable_loss.md). Wires do not store EU.
+- **Wires** ([wires and cables](cable.md)): carry energy packets and may reduce their voltage through [cable loss](cable-loss.md). Wires do not store EU.
 - **Consumer blocks**: receive energy packets into their EU buffer. Examples include singleblock machines, the input side of transformers or battery buffers, and Energy Hatches. The maximum packet voltage they accept is usually the standard voltage of their tier.
 
 # Request-and-Push Behavior
@@ -26,7 +26,7 @@ In game terms, local power networks use a **request-and-push** system. Assuming 
 
 - Power transfer is fundamentally a transfer **from the transmitter block's EU buffer directly into the consumer block's EU buffer**.
 - A transmitter block checks consumers whose buffers are not full, then pushes energy packets from its own buffer into them as needed.
-- Aside from the extra [transmission internal resistance](output_loss.md) paid when a transmitter converts buffered EU into packets, and the [cable loss](cable_loss.md) paid as each packet travels through wires, no power is wasted for no reason.
+- Aside from the extra [transmission internal resistance](output-loss.md) paid when a transmitter converts buffered EU into packets, and the [cable loss](cable-loss.md) paid as each packet travels through wires, no power is wasted for no reason.
 
 # Providing Power Safely
 
