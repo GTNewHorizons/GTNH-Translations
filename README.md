@@ -153,15 +153,24 @@ first. Download the report artifact: it contains the original file metadata and
 strings, the canonical destination names, and any conflicts requiring review.
 
 The canonical names and English text come from `daily-history`. Only case-only
-aliases of current mod language files are included. The migration preserves
-translations and their review stages, and stops before writing if translated
-keys have conflicting values, have changed English sources, or no longer exist.
+aliases of current mod language files are included. Legacy names containing
+`(+n)` are outside this workflow's scope. Reading complete file data, including
+hidden entries, requires project membership.
+
+Missing translations are copied by string ID with their review stages; existing
+canonical entries and file metadata are preserved. If no canonical file exists,
+a source-compatible alias is renamed in place, retaining its file ID and history.
+The migration stops before writing if translated keys conflict, have changed
+English sources, no longer exist, or the destination needs a source sync.
 
 After resolving reported conflicts, rerun with `apply` enabled while no other
 ParaTranz sync is running. Each canonical file is reread and verified before its
 redundant aliases are deleted. Backups are uploaded even if the run fails; keep a
-copy beyond the artifact retention period if needed. Then run **Publish daily
-lang pack** to sync the reconciled translations and rebuild the affected packs.
+copy beyond the artifact retention period if needed. These snapshots contain
+current file metadata and strings, not alias comments or full revision history;
+those are not copied into the canonical file before alias deletion. Then run
+**Publish daily lang pack** to sync the reconciled translations and rebuild the
+affected packs.
 
 Local equivalent (requires the usual ParaTranz environment variables):
 
