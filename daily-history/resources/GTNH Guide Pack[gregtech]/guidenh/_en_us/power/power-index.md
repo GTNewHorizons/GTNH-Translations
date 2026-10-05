@@ -12,7 +12,7 @@ The GregTech power system uses EU (Energy Units). Its core is the [local power n
 
 - For power generation methods, see the generation overview.
 - For network layout and transport advice, see power storage and transport.
-- For machine tier skipping, overclocking, and parallels, see **[Tier Skipping, Overclocking, and Parallels](../tierskipping-overcloking-parallels/T_O_P_index.md)**.
+- For machine tier skipping, overclocking, and parallels, see **[Tier Skipping, Overclocking, and Parallels](../tierskipping-overcloking-parallels/T-O-P-index.md)**.
 
 # Voltage and Current
 
@@ -36,4 +36,4 @@ Power is the product of voltage and current: $$P = UI$$. It describes how much e
 
 Energy is power multiplied by time (ticks), measured in EU.
 
-The GT power system is close to real-world electrical behavior. Once you account for [cable loss](cable_loss.md) and [transmission internal resistance](output_loss.md), conservation of energy still holds.
+The GT power system is close to real-world electrical behavior. Once you account for [cable loss](cable-loss.md) and [transmission internal resistance](output-loss.md), conservation of energy still holds.

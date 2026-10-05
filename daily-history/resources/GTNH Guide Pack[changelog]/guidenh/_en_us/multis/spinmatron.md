@@ -51,6 +51,7 @@ In standard mode, the <Color id="GREEN">Spinmatron</Color> is a direct upgrade f
 
 The Spinmatron has three operating modes, listed below. Change modes under "display machine information" in the GUI of the controller. Light mode is excellent for lower tier recipes such as combs and impure dusts. Standard mode is ideal for higher tier recipes above the $$\text{Voltage Tier} - 3$$ restriction. And heavy mode should only be used in the cases that specifically require it.
 
-- Light Mode - Grants a +100% speed bonus, but the maximum recipe tier is limited to $$\text{Voltage Tier} - 3$$.
+- Light Mode - Grants a +100% speed bonus, but the maximum recipe tier is limited to $$\
+text{Voltage Tier} - 3$$.
 - Standard Mode - No change to the original description.
 - Heavy Mode - Divides parallels by 32, requires at least a T3 structure, and requires biocatalyzed propulsion fluid instead of kerosene.
