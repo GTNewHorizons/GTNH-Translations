@@ -2,12 +2,15 @@ from collections import defaultdict
 from pathlib import Path
 import subprocess
 
+from loguru import logger
+
 from gtnh_translation_compare.filetypes import FiletypeLang
 from gtnh_translation_compare.paratranz.types import TranslationFile
 
 
 def merge_case_variants(
-    files: list[TranslationFile], canonical_paths: dict[str, str]
+    files: list[TranslationFile], canonical_paths: dict[str, str],
+    source_keys: dict[str, set[str]] | None = None,
 ) -> list[TranslationFile]:
     groups: dict[str, list[TranslationFile]] = defaultdict(list)
     for file in files:
@@ -29,14 +32,21 @@ def merge_case_variants(
             else:
                 if any(f.translations is None for f in variants):
                     raise ValueError(f'Missing translation metadata: {chosen.relpath}')
+                properties = FiletypeLang(chosen.relpath, chosen.content).properties
+                current_keys = source_keys.get(key) if source_keys is not None else None
                 translations: dict[str, str] = {}
                 for file in variants:
                     assert file.translations is not None
                     for k, value in file.translations.items():
+                        if k not in properties and current_keys is not None and k not in current_keys:
+                            logger.warning(
+                                'Skipping obsolete translated key {} from {}; absent from the current English source. '
+                                'The ParaTranz entry is retained for review.', k, file.relpath,
+                            )
+                            continue
                         if k in translations and translations[k] != value:
                             raise ValueError(f'Conflicting translations: {chosen.relpath}: {k}')
                         translations[k] = value
-                properties = FiletypeLang(chosen.relpath, chosen.content).properties
                 missing = translations.keys() - properties.keys()
                 if missing:
                     raise ValueError(f'Translated keys missing from canonical file {chosen.relpath}: {sorted(missing)}')

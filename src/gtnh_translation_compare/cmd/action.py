@@ -191,13 +191,17 @@ class Action:
                 remainder_files.append(translation_file)
         translation_files = [file for _, file in resource_file_map.values()] + remainder_files
         canonical_paths = {}
+        source_keys = {}
         if path_converter is _resources_to_txloader_path:
             history = repo_path / 'daily-history'
             for source in (history / 'resources').glob('*/lang/en_US.lang'):
                 relpath = source.relative_to(history).as_posix().replace('/en_US.lang', f'/{settings.TARGET_LANG.value}.lang')
                 canonical = _resources_to_txloader_path(relpath).as_posix()
                 canonical_paths[canonical.casefold()] = canonical
-        translation_files = merge_case_variants(translation_files, canonical_paths)
+                source_keys[canonical.casefold()] = set(FiletypeLang(
+                    canonical, source.read_text(encoding='utf-8-sig')
+                ).properties)
+        translation_files = merge_case_variants(translation_files, canonical_paths, source_keys)
         remove_tracked_case_variants(repo_path, subdirectory, translation_files)
 
         for translation_file in translation_files:
