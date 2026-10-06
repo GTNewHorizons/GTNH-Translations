@@ -27,7 +27,7 @@ class Converter:
 
     async def to_translation_file(self, paratranz_file: File) -> "Optional[TranslationFile]":
         cached = self.cache.get(paratranz_file)
-        if cached:
+        if cached is not None and cached.translations is not None:
             logger.info("cache hit: {}", paratranz_file.name)
             return cached
         translation_file = await self._to_translation_file(paratranz_file)
@@ -81,7 +81,15 @@ class Converter:
         buffer.write(content[left:])
 
         translated_content = buffer.getvalue()
-        return TranslationFile(relpath=file_extra.target_relpath, content=translated_content)
+        return TranslationFile(
+            relpath=file_extra.target_relpath,
+            content=translated_content,
+            translations={
+                k: line_break_subst(paratranz_file, string_items_map[k].context, string_items_map[k].translation)
+                for k in file_extra.properties
+                if k in string_items_map and string_items_map[k].translation
+            },
+        )
 
     async def to_paratranz_file(self, file: Filetype) -> "ParatranzFile":
         file_name = file.get_target_language_relpath(self.target_lang) + ".json"

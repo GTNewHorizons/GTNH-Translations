@@ -144,3 +144,59 @@ Translations in mod jars -> ParaTranz
 ## Credit
 
 MuXiu1997 for original workflows and scripts!
+
+## Reconciling case-only ParaTranz duplicates
+
+The manual **Reconcile ParaTranz case variants** workflow uses the existing
+`PARATRANZ_TOKEN` secret. Select a language (or `all`) and leave `apply` unchecked
+first. Download the report artifact: it contains the original file metadata and
+strings, the canonical destination names, and any conflicts requiring review.
+
+The canonical names and English text come from `daily-history`. Only case-only
+aliases of current mod language files are included. Legacy names containing
+`(+n)` are outside this workflow's scope. Reading complete file data, including
+hidden entries, requires project membership.
+
+Missing translations are copied by string ID with their review stages; existing
+canonical entries and file metadata are preserved. If no canonical file exists,
+a source-compatible alias is renamed in place, retaining its file ID and history.
+The migration stops before writing if translated keys conflict, have changed
+English sources, no longer exist, or the destination needs a source sync.
+
+After resolving reported conflicts, rerun with `apply` enabled while no other
+ParaTranz sync is running. Each canonical file is reread and verified before its
+redundant aliases are deleted. Backups are uploaded even if the run fails; keep a
+copy beyond the artifact retention period if needed. These snapshots contain
+current file metadata and strings, not alias comments or full revision history;
+those are not copied into the canonical file before alias deletion. Then run
+**Publish daily lang pack** to sync the reconciled translations and rebuild the
+affected packs.
+
+Local equivalent (requires the usual ParaTranz environment variables):
+
+```sh
+python main.py action reconcile-case-variants --backup-path=.temp/reconciliation.json
+# Use a new backup path when applying; existing backups are never overwritten.
+python main.py action reconcile-case-variants --backup-path=.temp/reconciliation-apply.json --apply
+```
+
+To verify the live API before a migration, use an empty disposable project and
+an account that can manage its files and review settings:
+
+```sh
+poetry run python .github/scripts/check_paratranz_reconciliation.py \
+  --project-id YOUR_TEST_PROJECT_ID --token-file .temp/paratranz-token.txt \
+  --output .temp/paratranz-stage-check
+```
+
+The check covers every documented stage, targeted copying, unchanged canonical
+entries, case-only renaming, and read-only dry runs. It temporarily enables two
+review passes, restores the project settings, and deletes its synthetic files.
+It refuses configured GTNH project IDs and nonempty projects. Use a new output
+path for each run; reports never contain the token.
+
+The current API refuses creating case-only duplicate files. The existing-canonical
+fixture therefore maps one distinct file's read name to a legacy alias; copying,
+verification, and deletion still use real API calls and IDs. The missing-canonical
+fixture tests an actual case-only rename. The local unit tests cover collision
+matching and failures separately.

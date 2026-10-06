@@ -152,7 +152,14 @@ class ClientWrapper:
 
         return strings
 
-    async def upload_file(self, paratranz_file: ParatranzFile) -> None:
+    @retry_after_429()
+    async def get_file_strings(self, file_id: int) -> List[StringItem]:
+        # The paginated string list omits hidden entries; reconciliation must preserve them too.
+        res = await self.client.get(url=f"projects/{self.project_id}/files/{file_id}/translation")
+        self._log_res(f"get_file_strings[file_id={file_id}]", res)
+        return [StringItem.model_validate(s) for s in res.json()]
+
+    async def upload_file(self, paratranz_file: ParatranzFile) -> int | None:
         if not paratranz_file.string_items:
             # A source file with nothing to translate, such as an empty guide page, makes
             # ParaTranz answer the create without a file object, and the sync used to die on
@@ -176,6 +183,7 @@ class ClientWrapper:
             await self._save_file_extra(file_id, paratranz_file)
         except HTTPStatusError as error:
             raise ParaTranzUploadError(paratranz_file.file_name, "metadata", error) from error
+        return file_id
 
     async def _find_file_id_by_file(self, filename: str) -> Optional[int]:
         files = await self.get_all_files()
@@ -241,6 +249,19 @@ class ClientWrapper:
             json=string.model_dump()
         )
         self._log_res(f"upload_strings[string_id={string.id}]", res)
+
+    @retry_after_429()
+    async def rename_file(self, file_id: int, target: ParatranzFile) -> None:
+        res = await self.client.put(
+            url=f"projects/{self.project_id}/files/{file_id}",
+            json={"name": target.file_name, "extra": target.file_extra.model_dump()},
+        )
+        self._log_res(f"rename_file[file_id={file_id}]", res)
+
+    @retry_after_429()
+    async def delete_file(self, file_id: int) -> None:
+        res = await self.client.delete(url=f"projects/{self.project_id}/files/{file_id}")
+        self._log_res(f"delete_file[file_id={file_id}]", res)
 
     @staticmethod
     def _log_res(request_name: str, res: Response) -> None:
