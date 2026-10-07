@@ -34,7 +34,7 @@ Right-click a fluid container, such as a bucket or tank, to set a fluid filter r
 The bus supports these [upgrade cards](upgrade_cards.md):
 
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> increases the number of filter slots.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> increases the amount transferred per operation.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> increases the amount transferred per operation.
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> changes the filter to a blacklist.
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> requests [autocrafting](../ae2_mechanics/autocrafting.md), with options to use stored items first or always craft new ones.
 * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:26" /> adds redstone control (high, low, or pulse activation).

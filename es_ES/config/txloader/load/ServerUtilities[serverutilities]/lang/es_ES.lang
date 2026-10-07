@@ -30,25 +30,16 @@ serverutilities.stat.last_seen=Last Seen
 serverutilities.stat.killed_by=Deaths by %s
 serverutilities.stat.entities_killed=%ss killed
 
-wip=Trabajo en progreso!
-deprecated=Este metodo esta anticuado, por favor usa %s
 example=Ejemplo:
 click_here=[Click aqui]
-feature_disabled=Esta caracteristica esta desactivada!
 feature_disabled_server=Esta caracteristica esta desactivada en el servidor!
 error=Error: %s
 owner=Propietario: %s
 delete_item=Quieres eliminar '%s'?
-server_forced=Servidor reemplaza a '%s'
 commands=Comandos
-my_permissions=Mis Permisos
-all_permissions=Todos los permisos
 key.categories.serverutilities=Server Utilities
 stand_still=Por favor, no te muevas durante %d segundos.
-stand_still_failed=Te has movido! Teletransporte cancelado.
 teleporting=Teletransportando...
-cooldown=Cuenta atras
-cant_use_now=No puedes usar esto ahora mismo!
 cant_use_now_cooldown=No puedes usar esto ahora mismo! Tiempo de espera: %s
 action_bar=Barra de accion
 title=Title
@@ -112,6 +103,7 @@ serverutilities.backups.compression_level=Compression Level
 serverutilities.backups.backup_folder_path=Backup Folder Path
 serverutilities.backups.additional_backup_files=Additional Backup Files
 serverutilities.backups.use_separate_thread=Use Separate Thread
+serverutilities.backups.prefer_speed_over_backup_consistency=Prefer Speed Over Backup Consistency
 serverutilities.backups.display_file_size=Display File Size
 serverutilities.backups.need_online_players=Need Online Players
 serverutilities.backups.silent_backup=Silent Backup
@@ -237,10 +229,6 @@ serverutilities.server_info.admin_quick_access=Admin Quick Access
 
 # Client Config
 serverutilities_client=Client Config
-serverutilities_client.render_badges=Show Badges
-serverutilities_client.journeymap_overlay=Enable Journeymap Integration
-serverutilities_client.scan_items_whitelist=/scan_items Whitelist
-serverutilities_client.scan_items_blacklist=/scan_items Blacklist
 serverutilities_client.show_shutdown_timer=Show Shutdown Timer
 serverutilities_client.shutdown_timer_start=Shutdown Timer Start
 serverutilities_client.button_daytime=Button Daytime
@@ -251,7 +239,6 @@ serverutilities_client.item_nbt=Mostrar NBT de objeto
 serverutilities_client.sidebar_buttons=Sidebar Location
 serverutilities_client.sidebar_buttons_above_potion=Draw Buttons Above Potion Label
 serverutilities_client.sidebar_placement=Sidebar Placement
-serverutilities_client.notification_location=Notification Location
 serverutilities_client.show_dotted_lines=Show Dotted Line On Loaded Chunks
 
 # Notification Config
@@ -410,13 +397,8 @@ sidebar_button.serverutilities.mail=Mail
 serverutilities.sidebar_button.reset=Reset Sidebar
 serverutilities.sidebar_button.reset.tooltip=Reset Sidebar Position
 
-serverutilities.admin_panel.file_browser=File Browser
 serverutilities.admin_panel.crash_reports=View Crash Reports
-serverutilities.admin_panel.config=Edit Config
 serverutilities.admin_panel.claimed_chunks=View All Claimed Chunks
-serverutilities.admin_panel.loaded_chunks=View All Loaded Chunks
-serverutilities.admin_panel.whitelist=Edit Whitelist
-serverutilities.admin_panel.ops=Edit OPs
 serverutilities.admin_panel.edit_world=Edit World
 serverutilities.admin_panel.ranks.player_ranks=Player Ranks
 serverutilities.admin_panel.ranks.select_rank=Select Rank
@@ -648,7 +630,6 @@ commands.tree_base.invalid_cmd.list_subcommands=Invalid subcommand '%s'! Availab
 commands.tree_base.available_subcommands=Available SubCommands: %s
 
 # Backup
-cmd.timer_backup=Próxima copia de seguridad:
 cmd.backup_start=¡Se ha iniciado la copia de seguridad del servidor!
 cmd.backup_stop=Server Backup stopped!
 cmd.backup_end_1=¡Copia de Seguridad del Servidor hecha en %s!
@@ -680,40 +661,25 @@ commands.pause_when_empty.mask.usage=/pause_when_empty mask <seconds> (temporary
 ## Buttons
 gui.accept=Aceptar
 gui.add=Añadir
-gui.added=Añadido
 gui.remove=Eliminar
-gui.removed=Eliminado
 gui.close=Cerrar
-gui.open=Abrir
 gui.saved=Guardado
 gui.loaded=Cargado
 gui.info=Info
 gui.collapse_all=Cerrar Todo
 gui.expand_all=Expandir todo
-gui.download=Descargar
-gui.downloaded=Descargado
 gui.update=Actualizar
-gui.updated=Actualizado
 gui.active=Activo
 gui.inactive=Inactivo
 gui.settings=Configuracion
 gui.rename=Renombrar
 gui.search_box=Buscar...
-gui.move=Mover
 gui.copy=Copiar
-gui.paste=Pegar
-gui.cut=Cortar
 
 ## Labels
 gui.other=Otro
-gui.server_forced=Servidor Forzado: %s
 gui.online=Online
-gui.offline=Offline
-gui.whitelist=Lista Blanca
-gui.blacklist=Lista Negra
 gui.color=Color
-gui.downloading=Descargando...
-gui.infinite=Infinito
 
 ## Sides
 facing.north=Norte
@@ -724,7 +690,6 @@ facing.east=Este
 relative_facing.bottom=Abajo
 relative_facing.top=Arriba
 relative_facing.back=Atras
-relative_facing.front=Enfrente
 relative_facing.left=Izquierda
 relative_facing.right=Derecha
 
@@ -734,9 +699,6 @@ serverutilities.lang.team.created=Equipo '%s' creado
 serverutilities.lang.team.id_already_exists=Ya existe esa ID!
 serverutilities.lang.team.id_invalid=ID solo puede contener minusculas a-z, _ y |!
 serverutilities.lang.team.deleted=Equipo '%s' borrado
-serverutilities.lang.team.member_left=%s Ha dejado tu equipo!
-serverutilities.lang.team.member_joined=%s Se ha unido a tu equipo!
-serverutilities.lang.team.transferred_ownership=El nuevo dueño es %s
 serverutilities.lang.team.invited=Invitado %s a '%s'
 serverutilities.lang.team.invited_you=Has sido invitado a '%s' por %s. Click aqui para unirte!
 serverutilities.lang.team.cancel_invite=Cancelar invitacion
@@ -747,13 +709,10 @@ serverutilities.lang.team.error.not_owner=No eres el dueño del equipo!
 serverutilities.lang.team.error.not_member=%s No es un miembro del equipo!
 serverutilities.lang.team.error.already_member=%s is already a member of this Team!
 serverutilities.lang.team.error.must_transfer_ownership=Debes transferir la propiedad!
-serverutilities.lang.team.error.already_invited=%s ya ha sido invitado!
-serverutilities.lang.team.error.failed_to_join=No se puede unir a este equipo!
 serverutilities.lang.team.permission.set=Permiso '%s' para %s actualziado a %s
 serverutilities.lang.team.permission.owner=No se pueden cambiar los permisos de propietario!
 serverutilities.lang.team.notification=No te has unido o creado un equipo! %s Para abrir la pantalla de equipo o %s para esconder este mensaje
 serverutilities.lang.team.notification.hide=Esconder este mensaje
-serverutilities.lang.team.chat_message=[Equipo %s] %s
 
 team_action.serverutilities.select_team=Selecciona un equipo al que unirte
 team_action.serverutilities.create_team=Crear nuevo equipo
@@ -761,7 +720,6 @@ team_action.serverutilities.members=Miembros
 team_action.serverutilities.allies=Aliados
 team_action.serverutilities.moderators=Moderadores
 team_action.serverutilities.enemies=Enemigos
-team_action.serverutilities.change_team=Unirse a otro equipo
 team_action.serverutilities.leave=Dejar equipo
 team_action.serverutilities.leave.confirmation=Cuidado! Perderas el progreso de misiones y otras cosas si haces eso!
 team_action.serverutilities.transfer_ownership=Transferir propiedad
@@ -784,7 +742,6 @@ serverutilities.lang.team_status.mod=Moderador
 serverutilities.lang.team_status.owner=Propietario
 
 # Privacy Level
-privacy=Privacidad
 privacy.public=Publico
 privacy.private=Privado
 privacy.team=Equipo
@@ -804,15 +761,11 @@ io_mode.out=Solo salida
 io_mode.none=Desactivado
 
 # Click Actions
-click_action.cmd=Comando
-click_action.show_cmd=Enseñar comando
 click_action.url=Abrir URL
 click_action.file=Abrir archivo
-click_action.gui=Abrir interfaz
 
 # Aurora
 aurora=Server Utilities Aurora
-aurora.port=Port
 
 # JourneyMap
 serverutilities.jm.own_team=Your Team
