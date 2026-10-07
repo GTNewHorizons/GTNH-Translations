@@ -2,15 +2,15 @@
 navigation:
   title: "Overclocking"
   icon: gregtech:gt.blockmachines:15410
-  parent: T-O-P-index.md
+  parent: T_O_P_index.md
   position: -2
 ---
 
 # Overclocking
 
-**Overclocking** means increasing [rated power](T-O-P-index.md#rated-power) so the machine can complete recipes in less time. Whenever the machine's rated power exceeds (actual parallels x actual recipe power) by a sufficient factor, usually 4x, the machine gains one overclock and the recipe duration is reduced. Unlike **[tier skipping](tierskipping.md)**, overclocking can happen multiple times.
+**Overclocking** means increasing [rated power](T_O_P_index.md#rated-power) so the machine can complete recipes in less time. Whenever the machine's rated power exceeds (actual parallels x actual recipe power) by a sufficient factor, usually 4x, the machine gains one overclock and the recipe duration is reduced. Unlike **[tier skipping](tierskipping.md)**, overclocking can happen multiple times.
 
-Overclocking has nothing to do with [voltage tier](T-O-P-index.md#voltage-tier). Using higher-tier Energy Hatches raises the rated power of a single hatch, allowing more overclocks; stacking multiple Energy Hatches can achieve a similar effect. The common case of installing two same-tier Energy Hatches is often called **dual-hatch overclocking**.
+Overclocking has nothing to do with [voltage tier](T_O_P_index.md#voltage-tier). Using higher-tier Energy Hatches raises the rated power of a single hatch, allowing more overclocks; stacking multiple Energy Hatches can achieve a similar effect. The common case of installing two same-tier Energy Hatches is often called **dual-hatch overclocking**.
 
 Before it starts overclocking, a multiblock first calculates and attempts **[parallels](parallels.md)**. Overclocking and batch mode are completely separate features.
 

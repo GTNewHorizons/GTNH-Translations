@@ -863,11 +863,9 @@ gt.blockmachines.multimachine.FOG.progress=下一个里程碑于：
 gt.blockmachines.multimachine.FOG.milestonecomplete=里程碑已完成
 gt.blockmachines.multimachine.FOG.milestoneinfo=查看里程碑进度
 gt.blockmachines.multimachine.FOG.inversionactive=反转已激活
-gt.blockmachines.multimachine.FOG.inversion=反转
 gt.blockmachines.multimachine.FOG.expectedinputs=预期的输入
 gt.blockmachines.multimachine.FOG.possibleinputsqgp=夸克胶子等离子体可能的输入原料
 gt.blockmachines.multimachine.FOG.possibleinputsmagmatter=磁物质可能的输入原料
-gt.blockmachines.multimachine.FOG.inversioninfotext=当锻炉的所有里程碑均达到7级时，反转机制将激活。该机制会解除所有里程碑的等级上限，使其能够无限提升。每个里程碑的成长模式将从指数增长转变为线性增长，但授予的重力子碎片数量会持续增加后续每个里程碑所需的进度值将与第7级里程碑的进度需求保持一致。但“构造”里程碑仍然是个例外，因为它仍然是每增加1点进度升一级，并使用独立公式计算。首先为各模块类型分配基础数值（太阳烈焰能量锻炉为1级，磁物质模式下的太阳聚变异化器为5级），然后将各模块现存数量减1后乘以对应数值，求和后除以5，即为该里程碑在基础7级之上可达到的最终等级。
 gt.blockmachines.multimachine.FOG.powermilestone=充能
 gt.blockmachines.multimachine.FOG.recipemilestone=转换
 gt.blockmachines.multimachine.FOG.fuelmilestone=催化
@@ -879,6 +877,7 @@ gt.blockmachines.multimachine.FOG.extensions=拓展模块已建造
 gt.blockmachines.multimachine.FOG.shardgain=已获取引力子碎片数量
 gt.blockmachines.multimachine.FOG.payUpgradeCosts=支付升级费用
 gt.blockmachines.multimachine.FOG.consumeUpgradeMats=点此确认消耗升级材料
+
 gt.blockmachines.multimachine.FOG.clickhere=感到困惑？点击这里查看一些基本信息
 gt.blockmachines.multimachine.FOG.introduction=§N引言
 gt.blockmachines.multimachine.FOG.introductioninfotext=诸神之锻炉中有许多内容，一开始可能会让人感到困惑。本菜单旨在解释锻炉中发生的一切，以及所有功能机制。
@@ -887,10 +886,49 @@ gt.blockmachines.multimachine.FOG.fuel=燃料
 gt.blockmachines.multimachine.FOG.modules=模块
 gt.blockmachines.multimachine.FOG.upgrades=升级
 gt.blockmachines.multimachine.FOG.milestones=里程碑
-gt.blockmachines.multimachine.FOG.fuelinfotext=当神锻搭建完成并形成多方块结构后，仅简单地开启它并不足以使其正常运行。神锻需要消耗一定数量的恒星燃料（物品形态）才能真正启动。所需的恒星燃料量取决于当前的燃料消耗系数。该系数可在燃料配置菜单中调整。默认最大值为5，不过后续可通过升级提升。恒星燃料的消耗量计算公式为：系数*25*1.2^系数。恒星燃料可通过输入总线供给，它会存储在内部并周期性的消耗。当结构中存储的恒星燃料达到要求时，神锻将正式启动（允许模块连接），并将消耗的恒星燃料转化为存储的星辉燃料。此后，神锻必须通过其中一种液态燃料供能（燃料类型可在燃料配置菜单中选择）。如果输入仓中选定的燃料不足，存储的燃料量将逐渐减少；当降至零时，锻造炉会回到之前的"关闭"状态，模块断开连接，必须重新供给恒星燃料才能启动。此外，通过开启电池充电功能可以增加内部存储的液态星辉燃料，但这会使燃料消耗量翻倍，其中一半将存储在内部电池中。
-gt.blockmachines.multimachine.FOG.moduleinfotext=神锻可搭载四种功能模块：太阳烈焰能量锻炉、太阳射流融化核心、太阳热能等离子制造机和太阳聚变异化器。这些模块是独立的多方块结构，需在神锻的指定位置嵌入主体。搭建完成后，模块将自动与主体连接（需满足各模块特定条件），亦可通过手动按钮立即刷新连接状态而无需等待检测周期。各模块均具备专属功能、运作要求，受升级的影响也不尽相同。首个默认解锁的模块是是§B太阳烈焰能量锻炉§6，本质上是比巨型高炉更强大的强化版高炉，并且还具备熔炉模式，你可以将其切换为一个超级强大的工业熔炉，基础并行为1024。第二个解锁的是§B太阳射流融化核心§6，它也能处理高炉配方，不过输出物不以（热）锭的形式而是以熔融形式排出（若无熔融形态则输出常规形态）。此模块必须通过升级解锁才能使用，基础并行为512。第三个模块是§B太阳热能等离子制造机§6，拥有独特配方体系，可将材料直接转化为等离子体。配方按聚变等级和步骤要求分组，未解锁对应升级前无法处理高阶配方。与常规的核聚变不同与常规聚变不同，其产物为输入材料的等离子体，此模块基础并行为384。最终，第四个模块是§B太阳聚变异化器§6，用于生产夸克胶子等离子体，及后期的磁单极物质（需解锁升级）。这个模块在处理这两种材料时都有独特的自动化挑战。因为它们锁定为其中一种处理模式，因此建议准备两个。两种模式的自动化挑战的通用规则如下： 模块在配方周期开始时输出一些材料，并等待正确的输入到达后才开始实际执行配方。如果生产夸克胶子等离子体，模块会输出至多7种不同的流体或小撮粉，数量在1到64之间，且必须返还相应种类和数量的等离子体才能使配方得以执行。 对于每升液体，必须返回一桶等离子体。对于每个小撮粉，必须返回相当于一个锭的等离子体，配方才能正常工作。小撮粉总以9的倍数输出。如果磁物质模式激活，自动化挑战会改变。现在模块会输出1-50L富快子时间流体，51-100L扩大化空间流体以及一个高阶材料的小撮粉。挑战在于不仅要返还富快子时间流体和扩大化空间流体，还要输入数量与扩大化空间流体和富快子时间流体之差相等的该高阶材料的等离子体(以锭计)。一旦所有这些物品都以正确的数量返还，配方就会开始处理并输出磁物质。此模块基础并行为64。
-gt.blockmachines.multimachine.FOG.upgradeinfotext=升级是§6神锻§r的核心与灵魂，它们将解锁该装置的大部分功能与处理能力。通过主界面的按钮可进入升级树界面，点击每个升级节点可查看其效果与解锁条件的详细信息。通常情况下，只有前置升级已解锁且拥有足够的§7引力子碎片§r时才能解锁后续升级。首个升级属于例外，因其不存在前置条件。部分升级还可能额外消耗材料，相关需求会在解锁按钮旁注明（若适用）。当某个升级存在多个前置连接时，将根据连接线颜色区分两种条件：§c红色§r表示需解锁§c所有§r连接的前置升级，§9蓝色§r则表示只需解锁§9任意一个§r前置升级。再次点击已解锁的升级按钮可进行撤销操作，但仅当该升级所连接的§c所有后续升级§r均未激活时方可生效。在解锁太阳聚变异化器之后的一系列升级具有特殊性，它们被称为§B分岔之路§6。顾名思义，首次只能从三条路径中选择其一，其余路径将被锁定。每条路径都提供针对特定模块的专项强化效果，对其他模块类型的影响会减弱（另有说明者除外）。可解锁的路径数量取决于§6神锻§r拥有的环数量，而该数量又受后续升级限制。
-gt.blockmachines.multimachine.FOG.milestoneinfotext=里程碑对于升级诸神之锻炉至关重要，因为它们是获取主要升级货币——引力子碎片的来源。顾名思义，里程碑就是达到特定阈值后奖励引力子碎片的临界点。里程碑共有四种类型，分别是充能、转换、催化和构成，分别对应神锻的不同属性。每个里程碑有7个等级，等级越高达成难度越大，但奖励的引力子碎片也越多。第一个等级可获得1个引力子碎片，第二级2个，第三级3个，以此类推。§B充能§6里程碑根据所有模块累计消耗的电力计算，第一级需要消耗1e15 EU电力，后续每级需求增长9倍。§B转换§6里程碑统计所有模块处理的配方总数（不包括太阳烈焰能量锻炉的熔炉模式），第一级需要处理1000万次配方，后续每级需求增长4倍。§B催化§6里程碑基于锻炉消耗的星辉燃料单位（燃料配置菜单中输入的数值），第一级需要消耗10,000单位燃料，后续每级需求增长3倍。最后，§B构造§6里程碑的运作机制较为特殊，它与锻炉的建筑结构相关。每种独特的模块类型（夸克胶子和磁物质模式下的太阳聚变异化器模块视为2种独特类型），以及每新增一个环形结构，都会获得里程碑等级。您的研究表明，当所有里程碑都达到最终等级时，可能会发生奇异现象...记得回来查看！
+gt.blockmachines.multimachine.FOG.inversion=反转
+
+gt.blockmachines.multimachine.FOG.fuelinfotext.1=Once the structure of the Forge is built and the multiblock is formed, just simply turning it on is not sufficient to make it functional. The Forge must be supplied with a certain amount of §bStar Fuel §6(the item) to actually boot up.
+gt.blockmachines.multimachine.FOG.fuelinfotext.2=The amount of Star Fuel needed depends on the current fuel consumption factor, which can be set in the fuel configuration menu. By default the maximum is 5, but it can be increased later on with upgrades. Star Fuel scaling is as follows:
+gt.blockmachines.multimachine.FOG.fuelinfotext.3=factor*25*1.2^factor
+gt.blockmachines.multimachine.FOG.fuelinfotext.4=Star Fuel can be supplied via an input bus, it gets consumed periodically and stored internally. Once there is enough Star Fuel stored in the multi, it turns on for real (allowing modules to connect) and converts the consumed Star Fuel into stored §bStellar Fuel§6.
+gt.blockmachines.multimachine.FOG.fuelinfotext.5=From this point onwards, the Forge must be fueled via one of the liquid fuels (type can be selected in the fuel config menu). If there isn't enough of the selected fuel present in the input hatch, the stored fuel amount will decrease and if it reaches 0, the Forge enters the previous 'off' state where modules disconnect and it has to be supplied with Star Fuel again.
+gt.blockmachines.multimachine.FOG.fuelinfotext.6=The amount of internally stored Stellar Fuel (liquid) can be increased by turning on §bBattery Charging§6, this will cause the fuel usage to double, but half of it will be stored in the internal battery.
+
+gt.blockmachines.multimachine.FOG.moduleinfotext.1=There are 4 types of modules that can be used in the Forge, the Helioflare Power Forge, Helioflux Melting Core, Heliothermal Plasma Fabricator and Heliofusion Exoticizer. These modules are separate multiblocks that have to be built into the Forge's structure at their designated spots.
+gt.blockmachines.multimachine.FOG.moduleinfotext.2=Once built, these modules have to connect to the Forge, which happens automatically if all requirements for the respective module are met. Alternatively, there is a button to refresh their status without waiting for the timer. Each of these modules has its specialized functionality & requirements and is affected differently by certain upgrades.
+gt.blockmachines.multimachine.FOG.moduleinfotext.forge.1=Helioflare Power Forge
+gt.blockmachines.multimachine.FOG.moduleinfotext.forge.2=The first unlocked module, simply put is a blast furnace even more powerful than the Exothermic Hearth. Additionally, this module has a §bFurnace Mode§6, turning it into a hyper powerful Multi Smelter. This module is unlocked by default and has §b1024§6 base parallel.
+gt.blockmachines.multimachine.FOG.moduleinfotext.core.1=Helioflux Melting Core
+gt.blockmachines.multimachine.FOG.moduleinfotext.core.2=The second unlocked module, which also processes blast furnace recipes but with a twist; the outputs are ejected in §bMolten form§6 instead of ingots. If an output does not have a molten form, it will output its regular form. This module has to be unlocked by an upgrade to function and has §b512§6 base parallel.
+gt.blockmachines.multimachine.FOG.moduleinfotext.fab.1=Heliothermal Plasma Fabricator
+gt.blockmachines.multimachine.FOG.moduleinfotext.fab.2=The third unlocked module, which possesses a unique recipemap featuring direct material to plasma conversion recipes. These recipes are grouped by two properties, §bFusion Tier§6 and §bSteps Required§6, limiting which recipes can be processed before their respective upgrades are unlocked. Unlike regular fusion, these recipes produce the plasma of the input material. This module has §b512§6 base parallel.
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.1=Heliofusion Exoticizer
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.2=The fourth and final unlocked module, capable of producing §bQuark Gluon Plasma§6 and later on §bMagmatter§6. This module has unique automation challenges for both materials, so it is recommended to have two of these, as they have to be locked to either one of the materials.
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.3=The common rule for both modes' automation challenges is as follows: the module outputs materials at the start of a recipe cycle and waits for the correct inputs to arrive before starting the actual processing of the output material.
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.4=If producing §bQuark Gluon Plasma§6, the module outputs up to 7 different fluids/dusts with amounts between 1-64 and 1-7 respectively, and their corresponding plasmas and amounts have to be returned in order for the recipe to process. For each L of fluid, a bucket of plasma and for each dust 9 ingots worth of plasma must be returned for the recipe to work.
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.5=If §bMagmatter Mode§6 is active, the automation challenge changes. Now the module outputs 1-50L of §bTachyon Rich Temporal Fluid§6, 51-100L of §bSpatially Enlarged Fluid§6 and one dust of a high tier material. The challenge is to return both the Tachyon Rich and Spatially Enlarged Fluids, plus as much plasma of the dust's material (in ingots) as the difference between the amounts of Spatially Enlarged and Tachyon Rich Fluid. Once all of these have been returned in the correct amounts, the recipe will start to process and output Magmatter.
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.6=This module has §b64§6 base parallel.
+
+gt.blockmachines.multimachine.FOG.upgradeinfotext.1=Upgrades are the heart and soul of the Forge, they unlock most of its functionality and processing power. The §bUpgrade Tree§6 can be accessed via its button on the main GUI, and each upgrade node can be clicked for more information on its effects and unlock requirements.
+gt.blockmachines.multimachine.FOG.upgradeinfotext.2=In general, each upgrade can only be unlocked if the prior one is unlocked and there are enough available §bGraviton Shards§6. One exception to this is the first upgrade, which has no prior upgrade. Some upgrades also have extra material costs, which are denoted next to the unlock button if applicable.
+gt.blockmachines.multimachine.FOG.upgradeinfotext.3=If an upgrade has more than one connected prior upgrade, then there are two options. The upgrade requires either:
+gt.blockmachines.multimachine.FOG.upgradeinfotext.4=- All prior upgrades (§4Red§a connections)\n- At least one prior upgrade (§9Blue§a connections)
+gt.blockmachines.multimachine.FOG.upgradeinfotext.5=Upgrades can be refunded by pressing the §bRespec§6 button, but this only works if ALL connected later upgrades are not active/unlocked.
+gt.blockmachines.multimachine.FOG.upgradeinfotext.6=The block of upgrades following the unlock of the Heliofusion Exoticizer module are special, as they are what is considered §bThe Split§6. As the name suggests, only one path out of the three may be chosen at first, and the others will be locked. Each path has specialized buffs that are primarily targeted towards a specific module, and thus affect other module types with reduced effect (unless stated otherwise). The amount of unlockable paths depends on the §bAmount of Rings§6 the Forge has, which in turn is limited by later upgrades.
+
+gt.blockmachines.multimachine.FOG.milestoneinfotext.1=Milestones are essential for upgrading the Forge, as they are the source of §bGraviton Shards§6, the main currency needed for unlocking upgrades. In essence, milestones are just what their name suggests, thresholds that when reached, grant Graviton Shards.
+gt.blockmachines.multimachine.FOG.milestoneinfotext.2=There are four types of milestones, Charge, Conversion, Catalyst and Composition, each referring to a stat of the Forge. Each milestone has §bseven§6 tiers, each being harder to reach than the last, but also granting more Graviton Shards. The first tier grants 1 Shard, the second 2, the third 3 and so on.
+gt.blockmachines.multimachine.FOG.milestoneinfotext.3=The §bCharge§6 milestone scales off total power consumption of all modules combined, the first tier being unlocked at §b1e15§6 EU consumed, and each subsequent milestone scaling by §b9x§6.
+gt.blockmachines.multimachine.FOG.milestoneinfotext.4=The §bConversion§6 milestone scales off total recipes processed across all modules (excluding the Helioflare Power Forge's furnace mode) and its first tier is unlocked at §b10M§6 processed recipes. Following tiers scale by §b4x§6.
+gt.blockmachines.multimachine.FOG.milestoneinfotext.5=The §bCatalyst§6 milestone is based on the Forge's fuel consumption, counted in Stellar Fuel units (the number entered in the fuel config menu). Reaching the first tier requires §b10,000§6 fuel units to be consumed, and each tier above scales by §b3x§6.
+gt.blockmachines.multimachine.FOG.milestoneinfotext.6=Last but not least, the §bComposition§6 milestone works a bit differently, as it scales off the Forge's structure. Milestone levels are granted for each unique type of module present in the structure (Heliofusion Exoticizer modules on Quark Gluon and Magmatter Modes count as unique), and for each additional ring built.
+gt.blockmachines.multimachine.FOG.milestoneinfotext.7=Your research suggests that something strange might happen if all milestones reach their final tier... Make sure to check back!
+
+gt.blockmachines.multimachine.FOG.inversioninfotext.1=Once all milestones of the Forge reach §bTier 7§6, inversion activates. This uncaps the maximum tier of all milestones and allows it to scale §binfinitely§6.
+gt.blockmachines.multimachine.FOG.inversioninfotext.2=The scaling of each milestone changes from exponential to linear, but the granted Graviton Shard amount keeps increasing. The amount of progress needed for each subsequent milestone is as much as needed for the §b7th tier§6 of each milestone.
+gt.blockmachines.multimachine.FOG.inversioninfotext.3=The Composition milestone is once again an exception, as that continues to scale by 1 each tier, with its own formula for calculating progress. Each module type is given a value, ranging from §b1§6 for the Helioflare Power Forge to §b5§6 for the Heliofusion Exoticizer in Magmatter Mode, then the amount of each module present is subtracted by 1 and multiplied by its value. These values are added up and divided by 5, this is the final milestone tier on top of the base 7.
+
 gt.blockmachines.multimachine.FOG.contributors=贡献者
 gt.blockmachines.multimachine.FOG.lead=项目主管
 gt.blockmachines.multimachine.FOG.cloud=GDCloud
@@ -1180,7 +1218,7 @@ tt.keyword.Structure.CenterPillar=正面立柱中央
 tt.keyword.Structure.Center=内部中央
 # Additional structure components
 tt.keyword.Structure.DataAccessHatch=数据访问仓
-tt.keyword.Structure.InFrontOfEachComputerHeatVent=In front of each computer heat vent
+tt.keyword.Structure.InFrontOfEachComputerHeatVent=每个计算机散热风扇的前方
 tt.keyword.Structure.DaisyChainAssemblyLine=Use an assembly line reception connector to daisy-chain machines
 tt.keyword.Structure.DaisyChainOptical=Use an optical reception connector to daisy-chain machines
 tt.keyword.Structure.ElementalOutput=元物质输出仓
@@ -1676,7 +1714,7 @@ GT5U.gui.config.general.visual=视觉
 tt.eoh.fancy_names.crude=粗制
 tt.eoh.fancy_names.primitive=原始
 tt.eoh.fancy_names.stable=稳定
-tt.eoh.fancy_names.Advanced=高级
+tt.eoh.fancy_names.advanced=Advanced
 tt.eoh.fancy_names.superb=卓越
 tt.eoh.fancy_names.exotic=异星
 tt.eoh.fancy_names.perfect=完美
@@ -1715,6 +1753,9 @@ tt.eoh.time_dilation.standard.tooltip=§b§l盒子里的时间膨胀。
 tt.eoh.time_dilation.error.tooltip=§c§l错误，请报告给GTNH团队
 tt.eoh.spacetime.standard.tooltip.0=支持内部时空容积高达%dkm³。
 tt.eoh.spacetime.standard.tooltip.1=§b§l能够运行最高%d级的配方
+tt.eoh.spacetime.name=%s压缩时空场发生器
+tt.eoh.stabilisation.name=%s稳定力场发生器
+tt.eoh.time_dilation.name=%s时间膨胀场发生器
 
 # Info data
 
@@ -1864,7 +1905,7 @@ tt.gui.text.hatch.status.inactive=未工作
 
 tt.gui.tooltip.full_led_desc.in.id=ID：%s:%s:§bI %s
 tt.gui.tooltip.full_led_desc.out.id=ID：%s:%s:§bO %s
-tt.gui.tooltip.full_led_desc.value=值：%s
+tt.gui.tooltip.full_led_desc.value=值：§b%s
 tt.gui.tooltip.full_led_desc.unused=闲置
 
 EOH_Controller_PlanetBlock=当前星球方块：%s

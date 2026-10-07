@@ -2,7 +2,7 @@
 navigation:
   title: "Tier Skipping"
   icon: gregtech:gt.blockmachines:41
-  parent: T-O-P-index.md
+  parent: T_O_P_index.md
   position: -1
 ---
 
@@ -11,13 +11,13 @@ navigation:
 
 **Tier skipping** is the ability of a multiblock machine to use lower-tier Energy Hatches to run recipes whose base recipe power belongs to a higher tier.
 
-The [rated power](T-O-P-index.md#rated-power) and [voltage tier](T-O-P-index.md#voltage-tier) of a multiblock are determined by its Energy Hatches. With only one Energy Hatch installed, voltage tier is often one tier above rated power, a 4x gap, but rated power is still too low to run recipes at that higher voltage tier. To make up the missing rated power, you install more same-tier Energy Hatches. That is **tier skipping**. Tier skipping is different from **[overclocking](overclocking.md)**.
+The [rated power](T_O_P_index.md#rated-power) and [voltage tier](T_O_P_index.md#voltage-tier) of a multiblock are determined by its Energy Hatches. With only one Energy Hatch installed, voltage tier is often one tier above rated power, a 4x gap, but rated power is still too low to run recipes at that higher voltage tier. To make up the missing rated power, you install more same-tier Energy Hatches. That is **tier skipping**. Tier skipping is different from **[overclocking](overclocking.md)**.
 
 # Dual-Hatch Tier Skipping
 
 Installing two standard Energy Hatches of the same tier raises rated power until it matches voltage tier. This is called **dual-hatch tier skipping**. Two standard same-tier Energy Hatches provide enough rated power and voltage tier together to run every recipe exactly one tier above.
 
-Some multiblocks have unusual voltage-tier rules. See the "cannot boost" and "unrestricted" cases under [voltage tier](T-O-P-index.md#voltage-tier).
+Some multiblocks have unusual voltage-tier rules. See the "cannot boost" and "unrestricted" cases under [voltage tier](T_O_P_index.md#voltage-tier).
 
 # Example: Electric Blast Furnace
 
@@ -25,8 +25,8 @@ Take <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> as an exam
 
 After installing two LV Energy Hatches:
 
-- **[Voltage tier](T-O-P-index.md#voltage-tier)**: $$(32\text{V} + 32\text{V}) / 2 \times 4\text{A} = 128 \text{ EU/t}$$, which is above the base recipe power of all MV recipes. The aluminum recipe needs 120 EU/t.
-- **[Rated power](T-O-P-index.md#rated-power)**: $$32\text{V} \times 2\text{A} + 32\text{V} \times 2\text{A} = 128 \text{ EU/t}$$
+- **[Voltage tier](T_O_P_index.md#voltage-tier)**: $$(32\text{V} + 32\text{V}) / 2 \times 4\text{A} = 128 \text{ EU/t}$$, which is above the base recipe power of all MV recipes. The aluminum recipe needs 120 EU/t.
+- **[Rated power](T_O_P_index.md#rated-power)**: $$32\text{V} \times 2\text{A} + 32\text{V} \times 2\text{A} = 128 \text{ EU/t}$$
 
 In this state, the Electric Blast Furnace becomes very sensitive to cable loss. Any extra current used to compensate for cable loss is effectively spent covering the machine's power requirement:
 
