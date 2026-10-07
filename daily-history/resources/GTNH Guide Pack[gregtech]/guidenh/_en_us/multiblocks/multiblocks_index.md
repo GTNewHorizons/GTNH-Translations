@@ -18,7 +18,8 @@ Although most multiblocks have unique casings and structures, their item, fluid,
 
 ## Steam Machines
 
-There are only seven steam multiblocks:
+There are eight steam multiblocks:
+<ItemLink id="gregtech:gt.blockmachines:31087" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31080" showIcon="left" />,
@@ -32,6 +33,15 @@ They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleb
 - Do not require maintenance.
 - Run steam recipes at a fixed 125% speed and 62.5% steam cost.
 - Have a fixed maximum of 8 parallels.
+
+- [Steam Hearth](./steam_hearth.md): Smelts items in batches, supports Blasting and Smoking modes, and can be upgraded to a high pressure structure.
+- [Steam Fuser](./steam_alloy_smelter.md): Makes alloys and processes molding recipes in batches, with eight parallels and a high pressure structure upgrade.
+- [Steam Presser](./steam_presser.md): Makes plates and Long Rods and processes ores in batches, with eight parallels and a high pressure structure upgrade.
+- [Steam Blender](./steam_mixer.md): Mixes dusts and fluids in batches, with recipes that use fluids instead of cells, eight parallels, and a high pressure structure upgrade.
+- [Steam Separator](./steam_centrifuge.md): Purifies ore dusts and processes Sticky Resin in batches, with eight parallels, fluid outputs, and a high pressure structure upgrade.
+- [Steam Grinder](./steam_grinder.md): Grinds ores and materials in batches, with eight parallels and a high pressure structure upgrade; only produces the recipe's first item output.
+- [Steam Squasher](./steam_compressor.md): Compresses materials into blocks and produces Compressed Air Cells, with eight parallels and a high pressure structure upgrade.
+- [Steam Purifier](./steam_washer.md): Washes minerals in batches, with Ore Washer and Simple Washer modes, eight parallels, and a high pressure structure upgrade.
 
 ## Electric Machines
 
