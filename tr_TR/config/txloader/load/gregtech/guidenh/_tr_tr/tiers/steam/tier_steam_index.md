@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: LV (Low Voltage)
+  title: Steam Age
   icon: minecraft:grass
   parent: /tiers/tiers_index.md
-  position: -1
+  position: 0
 ---
 
 > [!WARNING]

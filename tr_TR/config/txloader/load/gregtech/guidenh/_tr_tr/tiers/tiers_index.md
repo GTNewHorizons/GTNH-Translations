@@ -1,8 +1,8 @@
 ---
 navigation:
-  title: LV (Low Voltage)
+  title: Tiers
   icon: minecraft:grass
-  parent: /tiers/tiers_index.md
+  parent: /index.md
   position: -1
 ---
 

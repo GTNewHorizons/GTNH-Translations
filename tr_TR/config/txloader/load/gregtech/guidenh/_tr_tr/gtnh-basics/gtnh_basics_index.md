@@ -1,9 +1,8 @@
 ---
 navigation:
-  title: LV (Low Voltage)
+  title: GTNH Basics
   icon: minecraft:grass
-  parent: /tiers/tiers_index.md
-  position: -1
+  parent: /index.md
 ---
 
 > [!WARNING]
