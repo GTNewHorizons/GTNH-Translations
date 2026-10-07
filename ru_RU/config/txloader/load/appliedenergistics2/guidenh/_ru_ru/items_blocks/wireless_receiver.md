@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Wireless Receiver
+  title: Беспроводной приёмник
   icon: appliedenergistics2:item.ItemMultiMaterial:41
 categories:
 - misc ingredients blocks
@@ -9,12 +9,12 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:41
 ---
 
-# Wireless Receiver
+# Беспроводной приёмник
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:41" scale="4" />
 
-A <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:9" /> placed in a reflector dish. It is a component of short-range wireless ME technology.
+<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:9"/>, помещённая в тарелку-отражатель. Является компонентом беспроводной МЭ-технологии ближнего радиуса действия.
 
-## Recipe
+## Крафт
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:41" />

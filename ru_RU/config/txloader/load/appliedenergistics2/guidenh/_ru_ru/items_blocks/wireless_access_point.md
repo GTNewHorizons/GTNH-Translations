@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Wireless Access Point
+  title: МЭ беспроводная точка доступа
   icon: appliedenergistics2:tile.BlockWireless
 categories:
 - devices
@@ -10,21 +10,21 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:42
 ---
 
-# The Wireless Access Point
+# Беспроводная точка доступа
 
 <BlockImage id="appliedenergistics2:tile.BlockWireless" scale="8" />
 
-Allows wireless access through a <ItemLink id="appliedenergistics2:item.ToolWirelessTerminal" />. Range and power usage depend on installed <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:42" />. A network can use any number of access points and boosters. It requires a [channel](../ae2_mechanics/channels.md) and is also used to bind wireless terminals.
+Обеспечивает беспроводной доступ для <ItemLink id="appliedenergistics2:item.ToolWirelessTerminal" />. Радиус действия и энергопотребление зависят от количества <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:42" />. Сеть может использовать любое количество точек доступа и усилителей. Требует [канал](../ae2_mechanics/channels.md). Также используется для привязки беспроводных терминалов.
 
-Booster range and power usage scale exponentially rather than linearly.
+Радиус действия и потребление энергии масштабируются экспоненциально, а не линейно.
 
-## Wireless Booster
+## Беспроводной усилитель 
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:42" scale="2" />
 
-Boosters increase the access point's range.
+Усилители увеличивают радиус действия точки доступа.
 
-## Recipes
+## Крафты
 
 <RecipeFor id="appliedenergistics2:tile.BlockWireless" />
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:42" />

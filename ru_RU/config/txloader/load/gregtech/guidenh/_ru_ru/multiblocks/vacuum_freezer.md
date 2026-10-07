@@ -3,7 +3,7 @@ item_ids:
   - gregtech:gt.blockmachines:1002
 navigation:
   title: Vacuum Freezer
-  parent: ./multiblocks-index.md
+  parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1002
   position: 10
 ---
@@ -14,7 +14,7 @@ navigation:
   <ImportStructureLib controller="gregtech:gt.blockmachines:1002" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> (Vacuum Freezer, abbreviated VF and often called the "freezer") is an HV-tier processing multiblock. It is commonly paired with the [Electric Blast Furnace](../tiers/lv/electric-blast-furnace.md) to cool its hot ingots into regular ingots that can undergo further processing.
+The <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> (Vacuum Freezer, abbreviated VF and often called the "freezer") is an HV-tier processing multiblock. It is commonly paired with the [Electric Blast Furnace](./electric_blast_furnace.md) to cool its hot ingots into regular ingots that can undergo further processing.
 
 Not every Electric Blast Furnace product needs cooling. Before setting up a production line, check the product's uses in NEI. If the furnace already produces a regular ingot, it does not need to pass through the Vacuum Freezer.
 
@@ -99,7 +99,7 @@ After connecting the automation, insert one hot ingot and one regular product se
 | Insufficient output space | The correct Output Bus or Output Hatch exists, is not full, and can hold the complete recipe output |
 | Machine stops immediately after starting | Check available power, cable loss, energy buffers, and maintenance status before inserting more test materials |
 
-See [Multiblock Machines](./multiblocks-index.md) for general multiblock operation. For greater cooling capacity later in progression, look into the Cryogenic Freezer.
+See [Multiblock Machines](./multiblocks_index.md) for general multiblock operation. For greater cooling capacity later in progression, look into the Cryogenic Freezer.
 
 ## References
 
