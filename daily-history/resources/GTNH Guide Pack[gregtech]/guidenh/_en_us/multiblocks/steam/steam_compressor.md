@@ -3,7 +3,7 @@ item_ids:
   - gregtech:gt.blockmachines:31078
 navigation:
   title: Steam Squasher
-  parent: ./multiblocks_index.md
+  parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:31078
   position: 4
 quest_ids:
@@ -158,8 +158,8 @@ Additional Input Buses expand item buffering, while additional Output Buses help
 | Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
 | Fewer than eight recipes processed at once | Are there enough inputs for eight copies of the same recipe? Is the parallel limit set lower? Can the output slots hold all products? |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+For general structure checks and tool use, see [Multiblock Machines](../multiblocks_index.md).
 
 ## Related Pages
 
-- [GTNH Chinese Wiki: Steam Squasher](https://gtnh.huijiwiki.com/wiki/大型蒸汽压缩机)
+- [GTNH Wiki: Steam Squasher](https://wiki.gtnewhorizons.com/wiki/Steam_Squasher)

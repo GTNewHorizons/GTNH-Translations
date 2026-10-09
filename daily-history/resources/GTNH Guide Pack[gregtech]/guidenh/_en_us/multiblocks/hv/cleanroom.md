@@ -3,7 +3,7 @@ item_ids:
   - gregtech:gt.blockmachines:1172
 navigation:
   title: Cleanroom
-  parent: ./multiblocks_index.md
+  parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:1172
   position: 12
 quest_ids:
@@ -94,7 +94,7 @@ Extra Utilities' <ItemLink id="ExtraUtilities:etherealglass:0" showIcon="left" /
 Before the first startup, switch off the processing machines or hold back their ingredients, then prepare the room:
 
 1. Confirm that the controller reports a complete structure with the correct hatch counts.
-2. Fix all six maintenance issues. See [Multiblock Machines: Maintenance](./multiblocks_index.md#maintenance).
+2. Fix all six maintenance issues. See [Multiblock Machines: Maintenance](../multiblocks_index.md#maintenance).
 3. Close the doors and make sure no equipment inside generates pollution.
 4. Supply the Cleanroom continuously and watch its cleanness rise.
 5. At 100%, connect each processing machine to its own power supply and insert the ingredients to start processing.
@@ -179,7 +179,7 @@ The controller also emits a redstone signal on every side reflecting cleanness. 
 | Cleanroom runs but an internal machine does not | Separate machine power, voltage, ingredients, fluids, Integrated Circuit configuration, and output space |
 | Cleanness suddenly resets with all maintenance issues | Find and remove an internal pollution source, repair maintenance, and restart; hold back processing ingredients |
 
-See [Multiblock Machines](./multiblocks_index.md) for general tool controls, maintenance, and power failure guidance.
+See [Multiblock Machines](../multiblocks_index.md) for general tool controls, maintenance, and power failure guidance.
 
 ## References
 

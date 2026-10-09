@@ -12,7 +12,7 @@ The GregTech power system uses EU (Energy Units). Its core is the [local power n
 
 - For power generation methods, see the generation overview.
 - For network layout and transport advice, see power storage and transport.
-- For machine tier skipping, overclocking, and parallels, see **[Tier Skipping, Overclocking, and Parallels](../tierskipping-overcloking-parallels/T_O_P_index.md)**.
+- For machine tier skipping, overclocking, and parallels, see **[Tier Skipping, Overclocking, and Parallels](../tierskipping_overcloking_parallels/T_O_P_index.md)**.
 
 # Voltage and Current
 
@@ -22,7 +22,7 @@ EU is transmitted as energy packets. The number of energy packets is always an i
 
 Voltage describes how much EU each packet carries, measured in volts (V). $$1\text{ V} = 1\text{ EU}/\text{packet}$$.
 
-Voltage describes the size of a single energy packet and determines generator and machine progression (see [voltage tiers](voltage-tiers.md)).
+Voltage describes the size of a single energy packet and determines generator and machine progression (see [voltage tiers](voltage_tiers.md)).
 
 ## Current
 

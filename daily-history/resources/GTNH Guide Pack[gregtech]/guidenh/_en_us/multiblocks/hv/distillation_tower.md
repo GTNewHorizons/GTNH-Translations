@@ -3,7 +3,7 @@ item_ids:
   - gregtech:gt.blockmachines:1126
 navigation:
   title: Distillation Tower
-  parent: ./multiblocks_index.md
+  parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:1126
   position: 11
 ---
@@ -86,7 +86,7 @@ Read fluid outputs in NEI **from left to right, then from bottom to top**. The f
 
 ## Power and Throughput
 
-HV is the tier at which the controller becomes available, but the Distillation Tower is not limited to HV power. Its available voltage is determined by the installed standard Energy Hatches. Replacing them with higher-tier hatches allows the machine to process higher-voltage recipes and [overclock](../tierskipping-overcloking-parallels/overclocking.md). Two standard Energy Hatches of the same tier can also provide [dual-hatch tier skipping](../tierskipping-overcloking-parallels/tierskipping.md) under the normal multiblock rules.
+HV is the tier at which the controller becomes available, but the Distillation Tower is not limited to HV power. Its available voltage is determined by the installed standard Energy Hatches. Replacing them with higher-tier hatches allows the machine to process higher-voltage recipes and [overclock](../../tierskipping_overcloking_parallels/overclocking.md). Two standard Energy Hatches of the same tier can also provide [dual-hatch tier skipping](../../tierskipping_overcloking_parallels/tierskipping.md) under the normal multiblock rules.
 
 The Distillation Tower does not support Multi-Amp Energy Hatches or Laser Energy Hatches and has no parallel capability. Each standard imperfect overclock uses 4× the power and halves the duration. The machine can continue overclocking after reaching 1 tick, but this does not make it process multiple copies of a recipe at once.
 
@@ -119,7 +119,7 @@ If a recipe needs a Programmed Circuit or another item input, install an Input B
 | The tower still forms at its old height after being extended | The old top-center cap was removed; every new layer has an Output Hatch; a manual structure check was run after construction |
 | Machine stops immediately after starting | Check available power, cable loss, energy buffers, and maintenance status before inserting more test materials |
 
-See [Multiblock Machines](./multiblocks_index.md) for general multiblock operation. In IV, the Dangote Distillus becomes available; in LuV, the Mega Distillation Tower can provide greater throughput.
+See [Multiblock Machines](../multiblocks_index.md) for general multiblock operation. In IV, the Dangote Distillus becomes available; in LuV, the Mega Distillation Tower can provide greater throughput.
 
 ## References
 

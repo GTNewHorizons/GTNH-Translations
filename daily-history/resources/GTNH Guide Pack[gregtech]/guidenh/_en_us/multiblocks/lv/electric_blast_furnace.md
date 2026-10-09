@@ -3,7 +3,7 @@ item_ids:
   - gregtech:gt.blockmachines:1000
 navigation:
   title: Electric Blast Furnace
-  parent: ./multiblocks_index.md
+  parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:1000
   position: 5
 quest_ids:
@@ -122,7 +122,7 @@ Maintenance affects actual power use. One issue reduces EBF efficiency to 90%, r
 
 The EBF runs recipes listed under Electric Blast Furnace in NEI. Common uses include aluminium, steel, high-temperature alloys, and dusts that require a specified temperature. Some recipes also require a Programmed Circuit or a gas input. A material may have several gas-assisted recipes with different times and costs.
 
-When designing a production line, check the recipe's items, fluids, EU/t, temperature, and output type. Some recipes produce **hot ingots**, which need a [Vacuum Freezer](./vacuum_freezer.md) before further processing. Regular ingots do not need freezing.
+When designing a production line, check the recipe's items, fluids, EU/t, temperature, and output type. Some recipes produce **hot ingots**, which need a [Vacuum Freezer](../hv/vacuum_freezer.md) before further processing. Regular ingots do not need freezing.
 
 Input Buses hold dusts and Programmed Circuits; Input Hatches supply the gases or other fluids required by the recipe. Output Buses collect items, and Output Hatches collect fluids. You can install multiple input interfaces, but do not assume that every blast furnace recipe needs gas.
 
@@ -164,7 +164,7 @@ There is only **8 EU/t of headroom** between 128 EU/t and a 120 EU/t recipe. The
 | 2 EU | 4 × 30 = 120 EU/t | 0 EU/t |
 | 3 EU | 4 × 29 = 116 EU/t | Insufficient power |
 
-Real paths can have different cable lengths and losses, so calculate each separately. Energy Hatch buffers can temporarily sustain the machine, but a continually falling buffer means average input is insufficient. Starting successfully does not guarantee that the complete recipe will finish. See [Local Energy Networks](../power/enet.md) and [Cable Loss](../power/cable_loss.md) for details.
+Real paths can have different cable lengths and losses, so calculate each separately. Energy Hatch buffers can temporarily sustain the machine, but a continually falling buffer means average input is insufficient. Starting successfully does not guarantee that the complete recipe will finish. See [Local Energy Networks](../../power/enet.md) and [Cable Loss](../../power/cable_loss.md) for details.
 
 > [!WARNING]
 > Losing power during processing aborts the current recipe and can destroy ingredients already consumed. Confirm sufficient continuous power before your first batch. Include cable losses instead of relying only on the generators' nominal output.
@@ -206,7 +206,7 @@ The buffer smooths fluctuations from the generators and allows shorter cables ne
 
 ### Upgrading Power and Overclocking
 
-Higher-tier or additional normal Energy Hatches can support higher-power recipes and shorten processing through [tier skipping](../tierskipping-overcloking-parallels/tierskipping.md) and [overclocking](../tierskipping-overcloking-parallels/overclocking.md). Each regular overclock multiplies EU/t by four and halves duration. Available power and temperature still limit the number of overclocks.
+Higher-tier or additional normal Energy Hatches can support higher-power recipes and shorten processing through [tier skipping](../../tierskipping_overcloking_parallels/tierskipping.md) and [overclocking](../../tierskipping_overcloking_parallels/overclocking.md). Each regular overclock multiplies EU/t by four and halves duration. Available power and temperature still limit the number of overclocks.
 
 For example, ignoring excess-heat discounts, one regular overclock raises a 120 EU/t recipe to about 480 EU/t and halves its duration. After upgrading the Energy Hatch, check generator count and steam supply again; the original 120 EU/t power budget is no longer sufficient.
 
@@ -256,7 +256,7 @@ Multiple EBFs can share side-wall casings and coils. Four in a 2×2 arrangement 
 
 Maintenance Hatches and some input/output interfaces can also be shared. Power must cover all machines running simultaneously. Shared Energy Hatches make machines compete for amperage, which is especially likely to cause power failures when using two-hatch tier skipping.
 
-For automation, arrange dust, circuit, and fluid inputs and leave enough output space for hot ingots, regular items, and fluids. If an EBF feeds a Vacuum Freezer, test with a small batch and confirm that only hot ingots requiring cooling reach it. See the [Vacuum Freezer guide](./vacuum_freezer.md#hot-ingot-routing) for input filtering, item transport, and storage settings.
+For automation, arrange dust, circuit, and fluid inputs and leave enough output space for hot ingots, regular items, and fluids. If an EBF feeds a Vacuum Freezer, test with a small batch and confirm that only hot ingots requiring cooling reach it. See the [Vacuum Freezer guide](../hv/vacuum_freezer.md#hot-ingot-routing) for input filtering, item transport, and storage settings.
 
 With multiple Input Buses, check the controller's **input separation** setting. When enabled, each bus's items are considered as a separate recipe group. Keep the dusts and circuit needed for a recipe in a bus that can match them together. Separate buses and circuits for different recipes can reduce unintended recipe matches.
 
@@ -278,7 +278,7 @@ Before obtaining a Vacuum Freezer, prioritize recipes that produce regular ingot
 | Pollution cannot be vented | Check that the Muffler Hatch vents into air and that an advanced Muffler Hatch has any required Air Filter |
 | Cables burn out or Energy Hatches explode | Check cable voltage and amperage limits, overvoltage at Energy Hatches, and exposure to rain |
 
-See [Multiblock Machines](../gtnh-basics/multiblocks.md) for general rules. As material demand grows, additional EBFs can divide the workload instead of relying only on repeated overclocks of one machine.
+See [Multiblock Machines](../../gtnh_basics/multiblocks.md) for general rules. As material demand grows, additional EBFs can divide the workload instead of relying only on repeated overclocks of one machine.
 
 ## References
 

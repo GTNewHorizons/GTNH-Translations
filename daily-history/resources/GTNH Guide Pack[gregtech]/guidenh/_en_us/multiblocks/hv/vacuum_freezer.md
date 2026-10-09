@@ -3,7 +3,7 @@ item_ids:
   - gregtech:gt.blockmachines:1002
 navigation:
   title: Vacuum Freezer
-  parent: ./multiblocks_index.md
+  parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:1002
   position: 10
 ---
@@ -14,7 +14,7 @@ navigation:
   <ImportStructureLib controller="gregtech:gt.blockmachines:1002" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> (Vacuum Freezer, abbreviated VF and often called the "freezer") is an HV-tier processing multiblock. It is commonly paired with the [Electric Blast Furnace](./electric_blast_furnace.md) to cool its hot ingots into regular ingots that can undergo further processing.
+The <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> (Vacuum Freezer, abbreviated VF and often called the "freezer") is an HV-tier processing multiblock. It is commonly paired with the [Electric Blast Furnace](../lv/electric_blast_furnace.md) to cool its hot ingots into regular ingots that can undergo further processing.
 
 Not every Electric Blast Furnace product needs cooling. Before setting up a production line, check the product's uses in NEI. If the furnace already produces a regular ingot, it does not need to pass through the Vacuum Freezer.
 
@@ -64,9 +64,9 @@ The structure itself does not consume coolant, although individual recipes may r
 
 ## Power and Throughput
 
-HV is the tier at which the machine becomes available, but the Vacuum Freezer is not limited to HV power. Upgrading its Energy Hatch raises the available voltage and overclocks eligible recipes. It also follows the usual multiblock [tier-skipping rules](../tierskipping-overcloking-parallels/tierskipping.md).
+HV is the tier at which the machine becomes available, but the Vacuum Freezer is not limited to HV power. Upgrading its Energy Hatch raises the available voltage and overclocks eligible recipes. It also follows the usual multiblock [tier-skipping rules](../../tierskipping_overcloking_parallels/tierskipping.md).
 
-The Vacuum Freezer has no heating coils, so it does not receive the Electric Blast Furnace's heat discounts or heat-based perfect overclocks. Each standard imperfect [overclock](../tierskipping-overcloking-parallels/overclocking.md) quadruples power usage and halves processing time, increasing the total energy consumed by each operation.
+The Vacuum Freezer has no heating coils, so it does not receive the Electric Blast Furnace's heat discounts or heat-based perfect overclocks. Each standard imperfect [overclock](../../tierskipping_overcloking_parallels/overclocking.md) quadruples power usage and halves processing time, increasing the total energy consumed by each operation.
 
 After expanding an Electric Blast Furnace production line, check whether hot ingots are accumulating at the Vacuum Freezer's input. The furnace's parallels, coil bonuses, and recipe duration all affect its actual output rate. Matching the Energy Hatch tier of the two machines does not guarantee matching throughput.
 
@@ -99,7 +99,7 @@ After connecting the automation, insert one hot ingot and one regular product se
 | Insufficient output space | The correct Output Bus or Output Hatch exists, is not full, and can hold the complete recipe output |
 | Machine stops immediately after starting | Check available power, cable loss, energy buffers, and maintenance status before inserting more test materials |
 
-See [Multiblock Machines](./multiblocks_index.md) for general multiblock operation. For greater cooling capacity later in progression, look into the Cryogenic Freezer.
+See [Multiblock Machines](../multiblocks_index.md) for general multiblock operation. For greater cooling capacity later in progression, look into the Cryogenic Freezer.
 
 ## References
 

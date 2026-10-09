@@ -3,7 +3,7 @@ item_ids:
   - gregtech:gt.blockmachines:31041
 navigation:
   title: Steam Grinder
-  parent: ./multiblocks_index.md
+  parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:31041
   position: 3
 quest_ids:
@@ -170,8 +170,8 @@ Additional Input Buses expand item buffering, while additional Output Buses help
 | Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
 | Fewer than eight recipes processed at once | Are there enough materials for copies of the same recipe? Is the parallel limit set lower? Can the output slots hold all products? |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+For general structure checks and tool use, see [Multiblock Machines](../multiblocks_index.md).
 
 ## Related Pages
 
-- [GTNH Chinese Wiki: Steam Grinder](https://gtnh.huijiwiki.com/wiki/大型蒸汽研磨机)
+- [GTNH Wiki: Steam Grinder](https://wiki.gtnewhorizons.com/wiki/Steam_Grinder)

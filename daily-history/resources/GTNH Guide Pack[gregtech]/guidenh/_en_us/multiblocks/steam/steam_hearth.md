@@ -3,7 +3,7 @@ item_ids:
   - gregtech:gt.blockmachines:31087
 navigation:
   title: Steam Hearth
-  parent: ./multiblocks_index.md
+  parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:31087
   position: 1
 quest_ids:
@@ -81,7 +81,7 @@ Right-click the controller with a <ItemLink id="gregtech:gt.metatool.01:22" show
 Blasting and Smoking only process items in their respective recipe maps; they do not automatically fall back to Furnace mode. If an item with a furnace recipe does not process, check the selected mode first. Being a metal or food item alone does not guarantee a recipe in the specialized mode.
 
 > [!NOTE]
-> Blasting here corresponds to the Blast Furnace processing introduced in Minecraft 1.14+. It cannot replace an [Electric Blast Furnace](./electric_blast_furnace.md) or Bricked Blast Furnace. It has no heat or Heating Coil mechanic, and selecting Blasting does not enable Electric Blast Furnace recipes.
+> Blasting here corresponds to the Blast Furnace processing introduced in Minecraft 1.14+. It cannot replace an [Electric Blast Furnace](../lv/electric_blast_furnace.md) or Bricked Blast Furnace. It has no heat or Heating Coil mechanic, and selecting Blasting does not enable Electric Blast Furnace recipes.
 
 ### First Startup
 
@@ -152,8 +152,8 @@ If you frequently need to process metals, food, and other materials at the same 
 | Fewer than eight recipes processed | Enough ingredients for the same recipe, the GUI parallel limit, and output space for all products |
 | Steam consumption increases after upgrading | High pressure doubles consumption rate, and Blasting or Smoking can double it again; increase the steam supply accordingly |
 
-See [Multiblock Machines](./multiblocks_index.md) for general structure checks and tool controls.
+See [Multiblock Machines](../multiblocks_index.md) for general structure checks and tool controls.
 
 ## References
 
-- [GTNH Chinese Wiki: Steam Hearth](https://gtnh.huijiwiki.com/wiki/蒸汽壁炉)
+- [GTNH Wiki: Steam Hearth](https://wiki.gtnewhorizons.com/wiki/Steam_Hearth)

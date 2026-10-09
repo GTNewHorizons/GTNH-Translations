@@ -58,7 +58,7 @@ The machine accepts steam from the four faces that are neither the front face no
 | Steam machine | 2x | 2x |
 | High-pressure steam machine | 4x | 1x |
 
-The high-pressure version consumes steam at twice the rate and halves recipe duration, effectively performing one 2/2 lossless [overclock](../tierskipping-overcloking-parallels/overclocking.md).
+The high-pressure version consumes steam at twice the rate and halves recipe duration, effectively performing one 2/2 lossless [overclock](../tierskipping_overcloking_parallels/overclocking.md).
 
 You can pause or resume the machine by <kbd>Right-clicking</kbd> it with <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />.
 
@@ -110,7 +110,7 @@ You can pause or resume the machine by <kbd>Right-clicking</kbd> it with <ItemLi
 
 Singleblock electric machines use 4/2 imperfect overclocks: each overclock multiplies power draw by 4 and halves recipe time, so total energy doubles. The singleblock Mass Fabricator is the only exception, using 2/2 lossless overclocks.
 
-See **[Overclocking](../tierskipping-overcloking-parallels/overclocking.md)** for the full system.
+See **[Overclocking](../tierskipping_overcloking_parallels/overclocking.md)** for the full system.
 
 ## Logistics
 

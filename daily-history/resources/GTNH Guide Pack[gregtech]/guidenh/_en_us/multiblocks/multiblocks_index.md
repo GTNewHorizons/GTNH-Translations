@@ -10,7 +10,7 @@ categories:
 
 # Multiblock Machines
 
-**Multiblock machines** are machines built from multiple blocks. Their size ranges from compact <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />s to enormous <ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />s. GregTech multiblocks always have a **controller block**, usually serve a specific purpose, and are always faster or more efficient than the corresponding [singleblock machine](../singleblock/singleblock-index.md), if one exists. Unlike [singleblock machines](../singleblock/singleblock-index.md), which can only [overclock](../tierskipping-overcloking-parallels/overclocking.md), multiblocks can also use **[tier skipping](../tierskipping-overcloking-parallels/tierskipping.md)** and **[parallels](../tierskipping-overcloking-parallels/parallels.md)**.
+**Multiblock machines** are machines built from multiple blocks. Their size ranges from compact <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />s to enormous <ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />s. GregTech multiblocks always have a **controller block**, usually serve a specific purpose, and are always faster or more efficient than the corresponding [singleblock machine](../singleblock/singleblock_index.md), if one exists. Unlike [singleblock machines](../singleblock/singleblock_index.md), which can only [overclock](../tierskipping_overcloking_parallels/overclocking.md), multiblocks can also use **[tier skipping](../tierskipping_overcloking_parallels/tierskipping.md)** and **[parallels](../tierskipping_overcloking_parallels/parallels.md)**.
 
 Although most multiblocks have unique casings and structures, their item, fluid, and power I/O is almost universal through **functional hatches**. You can use <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and quickly build multiblock structures.
 
@@ -34,23 +34,23 @@ They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleb
 - Run steam recipes at a fixed 125% speed and 62.5% steam cost.
 - Have a fixed maximum of 8 parallels.
 
-- [Steam Hearth](./steam_hearth.md): Smelts items in batches, supports Blasting and Smoking modes, and can be upgraded to a high pressure structure.
-- [Steam Fuser](./steam_alloy_smelter.md): Makes alloys and processes molding recipes in batches, with eight parallels and a high pressure structure upgrade.
-- [Steam Presser](./steam_presser.md): Makes plates and Long Rods and processes ores in batches, with eight parallels and a high pressure structure upgrade.
-- [Steam Blender](./steam_mixer.md): Mixes dusts and fluids in batches, with recipes that use fluids instead of cells, eight parallels, and a high pressure structure upgrade.
-- [Steam Separator](./steam_centrifuge.md): Purifies ore dusts and processes Sticky Resin in batches, with eight parallels, fluid outputs, and a high pressure structure upgrade.
-- [Steam Grinder](./steam_grinder.md): Grinds ores and materials in batches, with eight parallels and a high pressure structure upgrade; only produces the recipe's first item output.
-- [Steam Squasher](./steam_compressor.md): Compresses materials into blocks and produces Compressed Air Cells, with eight parallels and a high pressure structure upgrade.
-- [Steam Purifier](./steam_washer.md): Washes minerals in batches, with Ore Washer and Simple Washer modes, eight parallels, and a high pressure structure upgrade.
+- [Steam Hearth](./steam/steam_hearth.md): Smelts items in batches, supports Blasting and Smoking modes, and can be upgraded to a high pressure structure.
+- [Steam Fuser](./steam/steam_alloy_smelter.md): Makes alloys and processes molding recipes in batches, with eight parallels and a high pressure structure upgrade.
+- [Steam Presser](./steam/steam_presser.md): Makes plates and Long Rods and processes ores in batches, with eight parallels and a high pressure structure upgrade.
+- [Steam Blender](./steam/steam_mixer.md): Mixes dusts and fluids in batches, with recipes that use fluids instead of cells, eight parallels, and a high pressure structure upgrade.
+- [Steam Separator](./steam/steam_centrifuge.md): Purifies ore dusts and processes Sticky Resin in batches, with eight parallels, fluid outputs, and a high pressure structure upgrade.
+- [Steam Grinder](./steam/steam_grinder.md): Grinds ores and materials in batches, with eight parallels and a high pressure structure upgrade; only produces the recipe's first item output.
+- [Steam Squasher](./steam/steam_compressor.md): Compresses materials into blocks and produces Compressed Air Cells, with eight parallels and a high pressure structure upgrade.
+- [Steam Purifier](./steam/steam_washer.md): Washes minerals in batches, with Ore Washer and Simple Washer modes, eight parallels, and a high pressure structure upgrade.
 
 ## Electric Machines
 
 Electric multiblocks come in many forms and use **Energy Hatches** to receive power. They require maintenance, but you can upgrade them by replacing their Energy Hatches with higher-tier ones.
 
-- [Electric Blast Furnace](./electric_blast_furnace.md): Uses Heating Coils to process aluminium and high-temperature materials, introducing early two-hatch tier skipping.
-- [Vacuum Freezer](./vacuum_freezer.md): Cools hot ingots and processes certain fluids and coolant cells.
-- [Distillation Tower](./distillation_tower.md): Separates a fluid into all of its fractions at once and outputs each one on a dedicated layer.
-- [Cleanroom](./cleanroom.md): Provides a clean environment for internal machines to run certain circuit and other recipes; reach 100% cleanness before processing.
+- [Electric Blast Furnace](./lv/electric_blast_furnace.md): Uses Heating Coils to process aluminium and high-temperature materials, introducing early two-hatch tier skipping.
+- [Vacuum Freezer](./hv/vacuum_freezer.md): Cools hot ingots and processes certain fluids and coolant cells.
+- [Distillation Tower](./hv/distillation_tower.md): Separates a fluid into all of its fractions at once and outputs each one on a dedicated layer.
+- [Cleanroom](./hv/cleanroom.md): Provides a clean environment for internal machines to run certain circuit and other recipes; reach 100% cleanness before processing.
 
 # Structure
 
@@ -201,7 +201,7 @@ Recipe checks across different input groups follow a controllable priority order
 
 ## Tier Skipping
 
-See **[Tier Skipping](../tierskipping-overcloking-parallels/tierskipping.md)**.
+See **[Tier Skipping](../tierskipping_overcloking_parallels/tierskipping.md)**.
 
 Using two Energy Hatches of the same tier to provide 4A lets the machine reach the nominal power expected by its voltage tier and run recipes one tier higher. This is called **dual-hatch tier skipping**. The first time you will likely use it is with <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />.
 
@@ -209,15 +209,15 @@ From IV onward, some machines can no longer tier skip, such as <ItemLink id="gre
 
 ## Parallels
 
-See **[Parallels](../tierskipping-overcloking-parallels/parallels.md)**.
+See **[Parallels](../tierskipping_overcloking_parallels/parallels.md)**.
 
-Parallels are the machine's ability to process multiple copies of the same recipe during the same time interval. [Singleblock machines](../singleblock/singleblock-index.md) cannot do this.
+Parallels are the machine's ability to process multiple copies of the same recipe during the same time interval. [Singleblock machines](../singleblock/singleblock_index.md) cannot do this.
 
 In general, every $$4^n$$ of maximum parallels is roughly equivalent to $$n$$ perfect overclocks in practice. Parallels only apply to the same recipe.
 
 ## Overclocking
 
-See **[Overclocking](../tierskipping-overcloking-parallels/overclocking.md)**.
+See **[Overclocking](../tierskipping_overcloking_parallels/overclocking.md)**.
 
 Besides standard 4/2 imperfect overclocks, some multiblocks also support 4/4 perfect overclocks, and some use special overclock rules. Multiblocks can also overclock past 1 tick (1tOC).
 
@@ -231,7 +231,7 @@ When batch mode is enabled, the machine tries to stretch recipe duration to 128 
 
 # Failures
 
-Unlike [singleblock machines](../singleblock/singleblock-index.md), when a multiblock fails it **fully aborts the recipe and does not return the inputs**.
+Unlike [singleblock machines](../singleblock/singleblock_index.md), when a multiblock fails it **fully aborts the recipe and does not return the inputs**.
 
 | Failure | Fix |
 |---------|-----|
@@ -247,4 +247,4 @@ When a failure happens, you can use `/powerfails clear` to remove powerfail warn
 
 # Explosions
 
-As with [singleblock machines](../singleblock/singleblock-index.md#explosions), any **energized hatch with an internal EU buffer** on a multiblock can explode in rain or snow. Controller blocks, structure blocks, and hatches that do not buffer power will not explode in rain or snow. Overvolting an Energy Hatch can also cause an explosion.
+As with [singleblock machines](../singleblock/singleblock_index.md#explosions), any **energized hatch with an internal EU buffer** on a multiblock can explode in rain or snow. Controller blocks, structure blocks, and hatches that do not buffer power will not explode in rain or snow. Overvolting an Energy Hatch can also cause an explosion.
