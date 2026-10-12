@@ -25,7 +25,7 @@ The <Color id="GREEN">Drone Centre</Color> is an IV tier multiblock for automati
 > - Custom Machine Grouping: Organize your machines into custom groups for better management
 > - Improved Switch Button: Switch button now turns on/off all machines by group
 > - Cross-Dimension Connections: Use new T4 Drones to activate dimensional connections and infinite range
-> - Connection Keys: Prevent your T4 drones connecting to other player's drilling plants!
+> - Connection Keys: Prevent your T4 drones connecting to other players' drilling plants!
 > - Production Recorder: Keep track of what your factory is actually doing!
 
 
@@ -50,7 +50,7 @@ Machines may wallshare the same <Color id="BLUE">Drone Downlink Module</Color> w
 <Color id="RED">Drones</Color> are inserted through an input bus on the structure. On machine start, the controller consumes the highest tier drone available to service all machines within range that have a <Color id="BLUE">Drone Downlink Module</Color> installed. The active drone runs until it "crashes" based on a random chance every second. When that happens, the active drone is voided and the next highest tier drone available assumes responsibility. View the tier of the current drone in the WAILA of the controller and retrieve it by breaking the controller, if necessary. 
 
 ### Drones
-There are four tiers of drones available. They are all functionally the same but higher tiers have larger ranges and longer average lifespans, as seen in the following table. The T3 and T4 drones are even unbreakable, although they are unlocked much later than the auto-taping maintenance hatch. To enable cross-dimension, the downlink module must have the same key with the <Color id="GREEN">Drone Centre</Color> 
+There are four tiers of drones available. They are all functionally the same but higher tiers have larger ranges and longer average lifespans, as seen in the following table. The T3 and T4 drones are even unbreakable, although they are unlocked much later than the auto-taping maintenance hatch. To enable cross-dimension, the downlink module must have the same key with the <Color id="GREEN">Drone Centre</Color>. 
 
 | Tier | Range | Probability to Crash | Average Lifespan | Cross-Dimension |
 | --------------- | --------------- | --------------- | --------------- | --------------- |

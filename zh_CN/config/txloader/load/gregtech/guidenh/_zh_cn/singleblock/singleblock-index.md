@@ -8,7 +8,7 @@ navigation:
 
 # Singleblock Machines
 
-Singleblock machines consist of only one block. Their uses are narrow, and they are always slower or less efficient than the equivalent [multiblock machine](../multiblocks/multiblocks-index.md), if one exists. They cannot be upgraded, except for high-pressure steam machines, so replacing them always means crafting a new machine. Even so, they are essential for early progression, and some remain useful through the entire game. By EV through IV, once most [multiblock machines](../multiblocks/multiblocks-index.md) become available, players gradually transition away from singleblocks.
+Singleblock machines consist of only one block. Their uses are narrow, and they are always slower or less efficient than the equivalent [multiblock machine](../multiblocks/multiblocks_index.md), if one exists. They cannot be upgraded, except for high-pressure steam machines, so replacing them always means crafting a new machine. Even so, they are essential for early progression, and some remain useful through the entire game. By EV through IV, once most [multiblock machines](../multiblocks/multiblocks_index.md) become available, players gradually transition away from singleblocks.
 
 # Machine Facing
 
@@ -133,4 +133,4 @@ Singleblock electric machines can explode in the following situations:
 - **Fire**: if the machine stores EU greater than 20% of capacity, it checks once every tick with a 1/1000 chance. If any side is on fire, the machine explodes.
 - **Rain or snow**: if the machine stores EU, it also checks once every tick with a 1/1000 chance. During rain, it has a 1/10 chance to explode immediately and a 9/10 chance to catch fire; during thunderstorms, it has a 1/3 chance to explode immediately.
 - An explosion releases all stored EU to every connected wire or adjacent machine as IV-tier power, which can cause chain explosions or overload nearby wires.
-- Powered hatches on [multiblock machines](../multiblocks/multiblocks-index.md) can also catch fire or explode for the same reasons.
+- Powered hatches on [multiblock machines](../multiblocks/multiblocks_index.md) can also catch fire or explode for the same reasons.

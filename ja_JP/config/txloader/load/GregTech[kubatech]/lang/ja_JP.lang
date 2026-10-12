@@ -6,7 +6,7 @@ kubatech.htgrrecipes=高温ガス炉
 
 #NEI
 kubatech.defusioncrafter.tier=外装Tier: %s
-kubatech.mobhandler.eec_chance=§5EECでドロップする確率: %.2f%%
+kubatech.mobhandler.eec_chance=§5EECでドロップする確率: %s%%
 kubatech.mobhandler.eec_disabled=§5EECでドロップしない
 
 #Commands
@@ -99,7 +99,7 @@ kubatech.gui.text.mia.show_machine_status=Show Machine Status
 
 kubatech.gui.tooltip.contributors.added=制作者: %s
 kubatech.gui.tooltip.contributors.design=デザイン: %s
-kubatech.gui.tooltip.contributors.structure=構造考案者: %s
+kubatech.gui.tooltip.contributors.structure=構造考案者: §d%s
 
 kubatech.gui.tooltip.dynamic_inventory.identical_slots=%d個の同一スロットがあります
 kubatech.gui.tooltip.dynamic_inventory.empty_slot=空のスロット
@@ -341,7 +341,7 @@ KT.research.ultimatetea=全ての茶を純粋な力へと変換し%s§6§l茶§r
 kubatech.tooltip.tea=お茶
 kubatech.tooltip.tea_acceptor.0=アイテムのお茶を受け取り、自分のネットワークへ追加します
 kubatech.tooltip.tea_acceptor.1=1tickあたり最大10スタック受け取り可能です
-kubatech.tooltip.tea_storage.0=お茶の保管数を%s拡張
+kubatech.tooltip.tea_storage.0=お茶の保管数を§c%s拡張
 kubatech.tooltip.tea_ingredient.0=お茶の材料
 
 kubatech.tooltip.structure.flowers=花
@@ -391,3 +391,15 @@ gt.blockmachines.htgr.name=高温ガス冷却炉
 gt.blockmachines.industrialarcfurnace.controller.tier.single.name=産業用アーク炉
 gt.blockmachines.multimachine.defusioncrafter.name=Draconic Evolutionフュージョンクラフター
 gt.blockmachines.multimachine.extremegreenhouse.name=究極型産業用温室
+
+# HTGR fuel items
+item.HTGR.fuel.Plutonium=プルトニウム
+item.HTGR.fuel.Thorium=トリウム
+item.HTGR.fuel.Uranium=ウラン
+item.HTGRBISOPebbleCompound.name=BISO型被覆燃料粒子混合物 (%s)
+item.HTGRBurnedOutTRISOBall.name=使用済みTRISO型被覆燃料ボール (%s)
+item.HTGRBurnedOutTRISOPebble.name=使用済みTRISO型被覆燃料粒子 (%s)
+item.HTGRHTGRFuelMixture.name=HTGR用燃料混合物 (%s)
+item.HTGRTRISOBall.name=TRISO型被覆燃料ボール (%s)
+item.HTGRTRISOPebble.name=TRISO型被覆燃料粒子 (%s)
+item.HTGRTRISOPebbleCompound.name=TRISO型被覆燃料粒子混合物 (%s)

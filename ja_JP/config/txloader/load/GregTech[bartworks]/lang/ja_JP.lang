@@ -221,9 +221,24 @@ nei.biovat.output.tooltip=出力ハッチの液量に応じて、最大1,001倍�
 tile.diode.name=ケーブルダイオード
 tile.energydistributor.name=電力分配器
 tile.acidgenerator.name=酸性液体発電機
+tile.acidgenerator.tier.1.name=基本型酸性液体発電機
+tile.acidgenerator.tier.2.name=発展型酸性液体発電機
+tile.acidgenerator.tier.3.name=高速型酸性液体発電機
+tile.acidgenerator.tier.4.name=高速型超酸発電機
+tile.acidgenerator.tier.5.name=究極型腐食性エネルギー放出装置
 tile.bw.mbf.name=メガ・電気高炉
 tile.bw.mvf.name=メガ・真空冷却機
 tile.biolab.name=バイオラボ
+tile.biolab.tier.3.name=基本型バイオラボ
+tile.biolab.tier.4.name=発展型バイオラボ
+tile.biolab.tier.5.name=発展型バイオラボ II
+tile.biolab.tier.6.name=精鋭型バイオラボ
+tile.biolab.tier.7.name=精鋭型バイオラボ II
+tile.biolab.tier.8.name=究極型ゲノムフォージ
+tile.biolab.tier.9.name=伝説型ゲノムフォージ
+tile.biolab.tier.10.name=伝説型ゲノムフォージ II
+tile.biolab.tier.11.name=伝説型ゲノムフォージ III
+tile.biolab.tier.12.name=伝説型ゲノムフォージ IV
 tile.biovat.name=バクテリア槽
 tile.radiohatch.name=放射線ハッチ
 tile.bw.windmill.name=風車
@@ -277,7 +292,7 @@ BW.NEI.display.radhatch.0=放射線量: %s Sv
 BW.NEI.display.radhatch.1=質量: %s kg
 BW.NEI.display.radhatch.2=時間: %s 秒
 
-tooltip.cal.imprintedWith=刻印されたもの: %s
+tooltip.cal.imprintedWith=刻印されたもの: §e%s
 chat.cal.mode.0=モード: 電子回路組立ライン
 chat.cal.mode.1=モード: 電子回路組立機
 
@@ -302,47 +317,24 @@ BW.chat.thtr.running_in.normal=THTR is now running in normal Operation.
 BW.chat.diode.max_amps=最大アンペア数: %s
 
 # bio name
-bw.bioname.latin.format=%s (%s)
-bw.bioname.saccharomyces_cerevisiae.latin=Saccharomyces cerevisiae
 bw.bioname.saccharomyces_cerevisiae=酵母
-bw.bioname.saccharomyces_cerevisiae_var_bayanus.latin=Saccharomyces cerevisiae var bayanus
 bw.bioname.saccharomyces_cerevisiae_var_bayanus=ワイン酵母
-bw.bioname.saccharomyces_cerevisiae_var_cerevisiae.latin=Saccharomyces cerevisiae var cerevisiae
 bw.bioname.saccharomyces_cerevisiae_var_cerevisiae=ビール酵母
-bw.bioname.escherichia_cadaver.latin=Escherichia cadaver
 bw.bioname.escherichia_cadaver=腐敗した肉バクテリア
 bw.bioname.beta-lactamase=β-ラクタマーゼ
-bw.bioname.escherichia_koli.latin=Escherichia koli
 bw.bioname.escherichia_koli=大腸菌
-bw.bioname.pseudomonas_veronii.latin=Pseudomonas veronii
 bw.bioname.pseudomonas_veronii=嫌気性石油バクテリア
-bw.bioname.saccharomyces_escherichia.latin=Saccharomyces escherichia
 bw.bioname.saccharomyces_escherichia=汎用発酵性バクテリア
-# This literally means something like barnad'ric tree trimmer
-bw.bioname.barnadafis_arboriatoris.latin=Barnadafis arboriatoris
-bw.bioname.barnadafis_arboriatoris=Barnadric Tree Cutter
-# how do we call this algae from the north sea on another planet? i like "TCetie's serrated water fruit"
-bw.bioname.tcetieis_fucus_serratus.latin=TCetieis fucus serratus
-bw.bioname.tcetieis_fucus_serratus=TCetie's serrated tang
-# this should mean its sludge of corynebacterium from mars but correct me if i'm wrong
-bw.bioname.corynebacterium_sludge_marsensis.latin=Limus corynebacterii marsensis
-bw.bioname.corynebacterium_sludge_marsensis=Martian corynebacterium sludge
-# this means something like "foreign guest's foreign act"
-bw.bioname.xenoxene_xenoxsis.latin=Xenoxene xenoxsis
-bw.bioname.xenoxene_xenoxsis=Xenoxene xenoxsis
-bw.bioname.ova_evolutionis.latin=Ova evolutionis
-bw.bioname.ova_evolutionis=Eggs of evolution
-bw.bioname.derivantur_cellula_evolutionis.latin=Derivantur cellula evolutionis
-bw.bioname.derivantur_cellula_evolutionis=Derived cells of evolution
-bw.bioname.cellula_biologicum_evolutione.latin=Cellula biologicum evolutione
-bw.bioname.cellula_biologicum_evolutione=Evolved cells of biology
-bw.bioname.binni_growth_medium.latin=Binni augeorus medium
-bw.bioname.binni_growth_medium=Binni growth medium
-bw.bioname.binni_bacteria.latin=Binni bacteria
-bw.bioname.binni_bacteria=Binni bacteria
-bw.bioname.mutagen_bacteria_a_spatio.latin=Mutagen bacteria a spatio
-bw.bioname.mutagen_bacteria_a_spatio=Mutagen bacteria from space
-bw.bioname.null.latin=Cimex remotum
+bw.bioname.barnadafis_arboriatoris=Barnadafis Arboriatoris
+bw.bioname.tcetieis_fucus_serratus=TCetiEis Fucus Serratus
+bw.bioname.corynebacterium_sludge_marsensis=Corynebacterium Sludge Marsensis
+bw.bioname.xenoxene_xenoxsis=Xenoxene Xenoxsis
+bw.bioname.ova_evolutionis=Ova Evolutionis
+bw.bioname.derivantur_cellula_evolutionis=Derivantur Cellula Evolutionis
+bw.bioname.cellula_biologicum_evolutione=Cellula Biologicum Evolutione
+bw.bioname.binni_growth_medium=Binni培地
+bw.bioname.binni_bacteria=Binni Bacteria
+bw.bioname.mutagen_bacteria_a_spatio=Mutagen Bacteria a Spatio
 bw.bioname.null=Debug
 
 # Multiblocks

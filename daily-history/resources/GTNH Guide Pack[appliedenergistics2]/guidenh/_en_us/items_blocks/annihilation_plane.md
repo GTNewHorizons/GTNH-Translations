@@ -44,7 +44,7 @@ The Annihilation Plane will only break a block or pick up an item if the drops o
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-The Annihilation Plane filters *by item drops*. Therefore, if you want to break only <ItemLink id="etfuturum:amethyst_cluster_2:6" />, the plane must be enchanted with silk touch. Unfully grown amethyst buds drop nothing, and the network can always store "nothing", so a normal Annihilation Plane will keep breaking them.
+The Annihilation Plane filters *by item drops*. Therefore, if you want to break only <ItemLink id="etfuturum:amethyst_cluster_2:6" />, the plane must be enchanted with silk touch. Not fully grown amethyst buds drop nothing, and the network can always store "nothing", so a normal Annihilation Plane will keep breaking them.
 
 ## Recipe
 

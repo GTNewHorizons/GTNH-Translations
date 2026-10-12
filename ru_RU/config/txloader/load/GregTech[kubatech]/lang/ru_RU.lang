@@ -6,7 +6,7 @@ kubatech.htgrrecipes=Высокотемпературный газовый ре�
 
 #NEI
 kubatech.defusioncrafter.tier=Тир корпуса: %s
-kubatech.mobhandler.eec_chance=§5Шанс добычи в EEC: %.2f%%
+kubatech.mobhandler.eec_chance=§5Шанс добычи в EEC: %s%%
 kubatech.mobhandler.eec_disabled=§5Не падает в EEC
 
 #Commands
@@ -99,7 +99,7 @@ kubatech.gui.text.mia.show_machine_status=Показать статус меха
 
 kubatech.gui.tooltip.contributors.added=Добавлено %s
 kubatech.gui.tooltip.contributors.design=Дизайн %s
-kubatech.gui.tooltip.contributors.structure=Структура спроектирована %s
+kubatech.gui.tooltip.contributors.structure=Структура спроектирована §d%s
 
 kubatech.gui.tooltip.dynamic_inventory.identical_slots=Имеется %d одинаковых слотов
 kubatech.gui.tooltip.dynamic_inventory.empty_slot=Пустой слот
@@ -150,16 +150,16 @@ kubatech.infodata.eec.weapon_preservation.yes=Is preserving weapons: §eYes
 kubatech.infodata.eec.weapon_preservation.no=Is preserving weapons: §eNo
 kubatech.infodata.eec.inserted_weapon.yes=Вставленное оружие: §eДа
 kubatech.infodata.eec.inserted_weapon.no=Вставленное оружие: §eНет
-kubatech.infodata.eec.weapon.damage=Урон от атаки оружием: §e%f
-kubatech.infodata.eec.weapon.looting_level=Уровень добычи оружия: §e%d
-kubatech.infodata.eec.total_damage=Общий урон от атаки: §e%f
+kubatech.infodata.eec.weapon.damage=Урон от атаки оружием: §e%s
+kubatech.infodata.eec.weapon.looting_level=Уровень добычи оружия: §e%s
+kubatech.infodata.eec.total_damage=Общий урон от атаки: §e%s
 
 ## Extreme Industrial Greenhouse
 kubatech.infodata.eig.running_mode.setup_mode.input=Работает в режиме: §aРежим настройки (загрузка)§r
 kubatech.infodata.eig.running_mode.setup_mode.output=Работает в режиме: §aРежим настройки (выгрузка)§r
-kubatech.infodata.eig.uses.water=Использует %dЛ воды за операцию
-kubatech.infodata.eig.uses.weedex=Использует %dЛ/секунду Гербицида 9000
-kubatech.infodata.eig.max_slots=Макс. слотов: §a%d§r
+kubatech.infodata.eig.uses.water=Использует %sЛ воды за операцию
+kubatech.infodata.eig.uses.weedex=Использует %sЛ/секунду Гербицида 9000
+kubatech.infodata.eig.max_slots=Макс. слотов: §a%s§r
 kubatech.infodata.eig.used_slots=Используется слотов: %s
 kubatech.infodata.bucket.humidity=Влажность:
 kubatech.infodata.bucket.humidity.on=Вкл.
@@ -341,7 +341,7 @@ KT.research.ultimatetea=Вы нашли способ преобразовать 
 kubatech.tooltip.tea=Чай
 kubatech.tooltip.tea_acceptor.0=Принимает предметы "Чай" и добавляет их в вашу сеть
 kubatech.tooltip.tea_acceptor.1=Может принимать до 10 стаков за тик
-kubatech.tooltip.tea_storage.0=Расширяет хранилище чая на %s
+kubatech.tooltip.tea_storage.0=Расширяет хранилище чая на §c%s
 kubatech.tooltip.tea_ingredient.0=Это ингредиент чая
 
 kubatech.tooltip.structure.flowers=Цветы
@@ -357,7 +357,7 @@ defc.casing.12.name=Хаотический термоядерный корпус
 kubatech.multiblock.DEFusionCrafter.machine_type=Термоядерный крафтер, DEFC
 kubatech.multiblock.DEFusionCrafter.fusion_casing=Термоядерный корпус
 kubatech.multiblock.DEFusionCrafter.fusion_machine_casing=Корпус термоядерного реактора
-kubatech.multiblock.DEFusionCrafter.footer=§cИзначальная жемчужина расходуется в рецепте контроллера!
+kubatech.multiblock.DEFusionCrafter.footer=§cПервородная жемчужина расходуется в рецепте контроллера!
 
 kubatech.multiblock.ExtremeEntityCrusher.machine_type=Электрический спаунер, EEC
 kubatech.multiblock.ExtremeEntityCrusher.steel_frame_box=Стальной каркас

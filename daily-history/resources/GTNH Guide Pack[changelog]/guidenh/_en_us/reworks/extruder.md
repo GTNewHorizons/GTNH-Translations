@@ -26,7 +26,7 @@ The <Color id="GREEN">Industrial Extrusion Machine (IEM)</Color> is an IV tier m
 ## Construction
 The <Color id="GREEN">IEM</Color> has no tiered components. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
 
-Unique to the <Color id="GREEN">IEM</Color> is the extrusion bus which is effectively an input bus with a configurable ghost slot for an extruder shape. Shift-click the shape slot to open a menu with all available options. The shape only applies to the items in its own bus regardless of input separation settings. There are four tiers of the extrusion bus for increasing its internal capacity and is eventually superseded by the crafting input buffer. 
+Unique to the <Color id="GREEN">IEM</Color> is the extrusion bus which is effectively an input bus with a configurable ghost slot for an extruder shape. Shift-click the shape slot to open a menu with all available options. The shape only applies to the items in its own bus regardless of input separation settings. There are four tiers of the extrusion bus for increasing its internal capacity and it is eventually superseded by the crafting input buffer. 
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15549"/><ItemImage id="gregtech:gt.blockmachines:15549"/>

@@ -14,6 +14,6 @@ date: 2026-05-20
 
 Different frames will have different numbers of **Movement**, **Protection**, **Utility**, and **Prismatic** slots, which determine which augment types can be placed into the armor! Choose your frames wisely to make use of those critical slots!
 
-Expect this armor set to cover the same range and abilities of the current tech armors (NanoSuit, QuantumSuit etc.) with similar tiering
+Expect this armor set to cover the same range and abilities as the current tech armors (NanoSuit, QuantumSuit etc.) with similar tiering
 
 This guide will not go in depth on the specifics, those are for you to discover as you progress!

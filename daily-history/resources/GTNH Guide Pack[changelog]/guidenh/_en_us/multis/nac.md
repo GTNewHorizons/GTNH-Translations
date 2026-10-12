@@ -15,7 +15,7 @@ date: 2026-05-26
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9500" />
 </GameScene>
-The <Color id="GREEN">Nanochip Assembly Complex (NAC)</Color> is a UEV tier multiblock for mass circuit assembling. The <Color id="GREEN">NAC</Color> is a direct upgrade from the <ItemLink id="gregtech:gt.blockmachines:12735"/> <ItemImage id="gregtech:gt.blockmachines:12735"/> for crystal, wetware, bioware, optical, pico, and quantum circuits because it offers <Color id="RED">unlimited parallels</Color>, runs <Color id="BLUE">2/2 perfect overclocks</Color>, and does not start processing unless there is enough energy available for the full duration of a recipe. The <Color id="GREEN">NAC</Color> also supports <Color id="RED">Multi-Amp and Laser Energy Hatches</Color>multi-amp and laser energy hatches for incredibly high throughput.
+The <Color id="GREEN">Nanochip Assembly Complex (NAC)</Color> is a UEV tier multiblock for mass circuit assembling. The <Color id="GREEN">NAC</Color> is a direct upgrade from the <ItemLink id="gregtech:gt.blockmachines:12735"/> <ItemImage id="gregtech:gt.blockmachines:12735"/> for crystal, wetware, bioware, optical, pico, and quantum circuits because it offers <Color id="RED">unlimited parallels</Color>, runs <Color id="BLUE">2/2 perfect overclocks</Color>, and does not start processing unless there is enough energy available for the full duration of a recipe. The <Color id="GREEN">NAC</Color> also supports <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> for incredibly high throughput.
 
 All processing and circuit assembling is done by the modules that surround the control room at the center of the structure. There are 11 unique modules to choose from and 12 module slots. A few of the modules have their own unique challenges or costs, but most are relatively straightforward. Items and circuit components (CCs) are routed between modules with vacuum conveyor hatches and vacuum conveyor pipes, which have unlimited storage capacity and throughput. Crafting enough of the same circuit type calibrates the <Color id="GREEN">NAC</Color> to that particular circuit line and grants additional bonuses. 
 <br clear="all"/>
@@ -50,7 +50,7 @@ The <Color id="GREEN">NAC</Color> only ever packages and unpackages circuit comp
 
 The general workflow of the <Color id="GREEN">NAC</Color> is listed below. The image is also provided for reference although it is a slight oversimplification since not everything (ie. spliced frameboxes) is routed to the Nanochip Assembly Matrix. See the calibration section below for a more detailed walkthrough of setups. 
 1. Insert items through a <u>colored</u> input bus (regular or stocking) in the control room
-2. The <Color id="GREEN">NAC</Color> packages the items into CCs and transfer them to a VCO hatch of the same color
+2. The <Color id="GREEN">NAC</Color> packages the items into CCs and transfers them to a VCO hatch of the same color
 3. Filter the packaged CCs with a Nanopart Splitter module if not done beforehand to route them to the correct module.
 4. The modules turn the packaged CCs into processed components (PCs) which cannot be unpackaged or leave the <Color id="GREEN">NAC</Color>
 5. Join the PCs in the Nanochip Assembly Matrix to create circuit CCs and route them back to the control room
@@ -134,7 +134,7 @@ The <Color id="GREEN">Part Preparation Apparatus</Color> processes SMD CCs. This
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9509" />
 </GameScene>
-The <Color id="GREEN">Nanoprecision Wire Tracer</Color> processes wire CCs. This module is required for all circuit lines
+The <Color id="GREEN">Nanoprecision Wire Tracer</Color> processes wire CCs. This module is required for all circuit lines.
 <br clear="all"/>
 
 ### Requires:

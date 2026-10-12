@@ -1,0 +1,61 @@
+name: Reconcile ParaTranz case variants
+
+on:
+  workflow_dispatch:
+    inputs:
+      target_lang:
+        description: Language to reconcile
+        required: true
+        type: choice
+        options: [all, zh_CN, ja_JP, ko_KR, pt_BR, fr_FR, es_ES, tr_TR, de_DE, pl_PL, ru_RU]
+      apply:
+        description: Apply the migration and remove verified redundant files (otherwise dry run)
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: reconcile-paratranz-case-variants
+  cancel-in-progress: false
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: ./.github/actions/ensure-dependencies
+      - name: Reconcile selected languages
+        shell: bash
+        env:
+          PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+          SELECTED_LANG: ${{ inputs.target_lang }}
+          APPLY: ${{ inputs.apply }}
+        run: |
+          set -euo pipefail
+          if [[ "$SELECTED_LANG" == all ]]; then
+            languages=$(jq -r 'keys[]' paratranz-projects.json)
+          else
+            languages="$SELECTED_LANG"
+          fi
+          flags=()
+          if [[ "$APPLY" == true ]]; then flags+=(--apply); fi
+          result=0
+          for language in $languages; do
+            export TARGET_LANG="$language"
+            project_id=$(jq -er --arg lang "$language" '.[$lang]' paratranz-projects.json)
+            export PARATRANZ_PROJECT_ID="$project_id"
+            poetry run python main.py action reconcile-case-variants \
+              --backup-path=".temp/reconciliation/${language}.json" "${flags[@]}" || result=1
+          done
+          exit "$result"
+      - name: Upload pre-migration backups and conflict reports
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: paratranz-case-reconciliation-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .temp/reconciliation/
+          include-hidden-files: true
+          if-no-files-found: warn
+          retention-days: 90

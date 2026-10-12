@@ -32,6 +32,7 @@ from gtnh_translation_compare.paratranz.converter import Converter
 from gtnh_translation_compare.paratranz.paratranz_cache import ParatranzCache
 from gtnh_translation_compare.paratranz.types import StringItem, TranslationFile
 from gtnh_translation_compare.utils.file import ensure_lf
+from gtnh_translation_compare.utils.translation_paths import merge_case_variants, remove_tracked_case_variants
 
 ParatranzFilenameFilter: TypeAlias = Callable[[str], bool]
 ParatranzToLocalPathConverter: TypeAlias = Callable[[str], Path]
@@ -189,7 +190,19 @@ class Action:
                 )
                 remainder_files.append(translation_file)
         translation_files = [file for _, file in resource_file_map.values()] + remainder_files
-        translation_files = _dedupe_case_insensitive_paths(translation_files)
+        canonical_paths = {}
+        source_keys = {}
+        if path_converter is _resources_to_txloader_path:
+            history = repo_path / 'daily-history'
+            for source in (history / 'resources').glob('*/lang/en_US.lang'):
+                relpath = source.relative_to(history).as_posix().replace('/en_US.lang', f'/{settings.TARGET_LANG.value}.lang')
+                canonical = _resources_to_txloader_path(relpath).as_posix()
+                canonical_paths[canonical.casefold()] = canonical
+                source_keys[canonical.casefold()] = set(FiletypeLang(
+                    canonical, source.read_text(encoding='utf-8-sig')
+                ).properties)
+        translation_files = merge_case_variants(translation_files, canonical_paths, source_keys)
+        remove_tracked_case_variants(repo_path, subdirectory, translation_files)
 
         for translation_file in translation_files:
             base_path = repo_path / subdirectory
@@ -573,6 +586,19 @@ class Action:
                 successor or "<none>",
             )
 
+    def reconcile_case_variants(
+            self,
+            repo_path: str = ".",
+            subdirectory: str = "daily-history",
+            backup_path: str = ".temp/paratranz-case-reconciliation.json",
+            apply: bool = False,
+    ) -> None:
+        from gtnh_translation_compare.paratranz.reconcile import reconcile_case_variants
+
+        asyncio.run(reconcile_case_variants(
+            self.client, self.converter, Path(repo_path) / subdirectory, Path(backup_path), apply=apply
+        ))
+
     def report_paratranz_orphans(
             self,
             repo_path: str = ".",
@@ -699,7 +725,7 @@ def git_commit(
 
 def write_file(filepath: str, content: str) -> None:
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
-    with open(filepath, "w") as fp:
+    with open(filepath, "w", encoding="utf-8", newline="\n") as fp:
         fp.write(content)
 
 def clear_folder(filepath: str, ignore_files_in_root: list[str]) -> None:
@@ -711,25 +737,6 @@ def clear_folder(filepath: str, ignore_files_in_root: list[str]) -> None:
         item.unlink()
       elif item.is_dir():
         shutil.rmtree(item)
-
-def _dedupe_case_insensitive_paths(translation_files: list[TranslationFile]) -> list[TranslationFile]:
-    # Some mod domains (e.g. BetterQuesting's "cb4bq") were uploaded to ParaTranz under
-    # both a lowercase and an uppercase folder name. We have no way to get the source
-    # fixed on ParaTranz's side, and Windows/NTFS treats the two paths as identical,
-    # so pick the lowercase-leaning one deterministically to stop the casing from
-    # flip-flopping between syncs.
-    best_by_lower_relpath: Dict[str, TranslationFile] = {}
-    for translation_file in translation_files:
-        key = translation_file.relpath.lower()
-        existing = best_by_lower_relpath.get(key)
-        if existing is None or _uppercase_count(translation_file.relpath) < _uppercase_count(existing.relpath):
-            best_by_lower_relpath[key] = translation_file
-    return list(best_by_lower_relpath.values())
-
-
-def _uppercase_count(s: str) -> int:
-    return sum(1 for c in s if c.isupper())
-
 
 def is_mod_lang_file(name: str) -> bool:
     return any(

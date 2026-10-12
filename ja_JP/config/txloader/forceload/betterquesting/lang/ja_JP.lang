@@ -596,10 +596,6 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8A.desc=ネザーを探索し終えた�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.name=§c§n"黒焦げ"にする手っ取り早い方法
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAB8Q.desc=§7《§rコークス炉§7／Coke Oven》§r は持続的な木炭生産には適していますが、短期間に多くの量の木炭を要求された場合、別の手段を取ったほうが効率的かもしれません。%n§7《§r炭焼き窯§7／Charcoal Pile Igniter》§r はGregTechの伝統的な木炭生産方法で、大量の木炭を生産するための代替手段として機能します。%n%n§4この設備は、蒸気や電力を消費しませんが、大量の §7《§4汚染§7／Pollution》§4 を発生させるため、使用する場所にはよく注意してください。§r%n%n%n§n使用するには以下の手順に従ってください:§r%n%n1. レンガブロックを任意の大きさで敷き詰めます。最大サイズは11x11です。%n%n2. その上を原木で敷き詰めます。高さは最大で5、空気の層を含まないよう注意します。%n%n3. 最上部中央、原木の上に炭焼き窯の本体ブロックを設置します。%n%n4. 原木を覆うようにして土ブロックまたは草ブロックを設置します。%n%n5. 構造が完成すると、炭焼き窯は直ちに処理を開始します。%n%n6. 暫く時間が経つと、原木が §7《§r脆い木炭ブロック§7／Brittle Charcoal》§r に変化します。%n%n7. 脆い木炭ブロックを斧で採掘することで、おめでとうございます！ 大量の木炭が入手できました！ (幸運エンチャントや §7《§r幸運§7／Luck》§r のModifierは効果を及ぼしません。ご了承ください。)%n%n%nGregTechマルチブロックの仕様にまだ慣れていない場合...%n%n公式Wikiのページを参照することが、あなたのプレイングの手助けになるかもしれません。または、Shiftキーを押しながらアイテム状態の本体ブロックにカーソルを合わせ、拡張的なツールチップを参照してみてください。%n[url]https://wiki.gtnewhorizons.com/wiki/Charcoal_Pile_Igniter[/url]
 
-# Quest: Basic > Steam Lootbag Trade
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.name=§c§n報酬バッグのアップグレード: 石器時代 -> 蒸気時代
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABuQ.desc=3つの §7《§r報酬バッグ (Tier 0 石器時代)§7／LootBag (Basic Stone Age)》§r を%n%n1つの §7《§r報酬バッグ (Tier 0.5 蒸気時代)§7／LootBag (Steam Age)》§r に交換します。%n%n蒸気時代項目を完了してLV時代に突入すれば、 §7《§r組立機§7／Assembler》§r で報酬バッグのTierを上げるレシピが解禁されます。それまではここで同じことができます！(再クリア可能)
-
 # Quest: Tool Forge
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.name=§c§nツール鍛冶台
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAC5Q.desc=§7《§rオブジナイト§7／Obzinite》§r を入手した今、より良質で(そしてより大きい)Tinkersツールを作るために、 §7《§rツール鍛冶台§7／Tool Forge》§r を作るときが来ました。%n%n§3鉄が足りない場合でもクエストは完了できます； §7《§3錫§7／Tin》§3 や §7《§3銅§7／Copper》§3 を使用するレシピを選択してください。
@@ -1133,8 +1129,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAChA.desc=§7《§rメタン§7／Methane
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAChg.name=§2§nProjectRedの蓄電池
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAChg.desc=§7《§r小型エレクトロタイン蓄電池§7／Battery》§r はProjectRed製の各種機械、及び §7《§r青電動ジェットパック§7／Jetpack》§r にのみ使用される、非常にニッチな蓄電池§8(バッテリー)§rです。%n%n§7《§rエレクトロタイン§7／Electrotine》§r はネザーの鉱脈から採掘できる他、或いは §7《§rミキサー§7／Mixer》§r で §7《§rエレクトラム§7／Electrum》§r とレッドストーンの粉末を混合することでも自作が可能です。%n%n[note]エレクトロタイン鉱脈はネザーの、Y5-45の間に、40の確率で生成されます。[/note]
 
-# Quest: Basic Arc Furnace
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.name=§2§n基本型アーク炉
+# Quest: Arc Furnace
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.name=§2§nアーク炉
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAClg.desc=§7《§rアーク炉§7／Arc Furnace》§r はアーク放電の力で、高温の製錬を実現する強力な機械です！%n%n具体的には、以下のような工程を担います§7(一例)§r:%n%n1) 機械などを元の素材へ'リサイクル'する。§7(§8《§7破砕機§8／Macerator》§7でも似たようなことができます)%n%n2) §7《§r鋳鉄§7／Cast Iron》§r の精錬。%n%n3) §7《§rなまし銅§7／Annealed Copper》§r の精錬。%n%n4) ガラスの精錬。§7(要MV電圧)§r%n%n機械のリサイクルは、筐体や機械部品などに使用した金属を、インゴットの形態で取り出す工程です。その高温によって、電子回路は焼き切れてしまい、還元できません。破砕機を用いると別の素材をリサイクルできる場合があります。詳細についてはNEIを参照してください。%n%n%n破砕機とは異なり、LV段階でも4つの出力スロットを持ちます。%nしたがって、序盤のリサイクル工程では、アーク炉の方が優れていると言えるでしょう。%n%n[note]一部レシピは§7《§r酸素§7／Oxygen》§rや貴ガスを使うことで処理時間を短縮することができます。[/note]%n%n[warn]決して MV 1アンペア の電力を送らないよう注意してください！ 過電圧は機械を爆発させ、連鎖爆発によりあなたの拠点を崩壊させる恐れすらあります。%n%nLV4アンペアとMV1アンペアは、数値上は同じでも、内部的には別のものとして扱われるという点を留意しましょう。[/warn]
 
 # Quest: Faster Steel Production
@@ -1768,7 +1764,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1A.desc=水素を保持したまま、�
 
 # Quest: Stainless Taking Too Long?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1g.name=§6§nステンレススチールの製造が長すぎる？
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1g.desc=2台目のEBFの出番です！%n%nインゴットの製造速度を向上させる方法は3つあります - より高性能なコイルの使用、高電圧のエネルギーハッチの採用、あるいは炉の増設です。そろそろ拠点に二つ目のEBFを追加する時期かもしれません。%n%nマルチブロック装置は、外装ケース、マフラー、入力/出力ハッチ/バスを共有できますが、メンテナンスハッチは共有できません(自動メンテナンスハッチなら共有可能です)。エネルギーハッチは共有可能ですが、すべての装置に十分な電力を供給できる場合に限ります。%n%n2台のEBFを同時に稼働させると汚染レベルが著しく上昇することにご注意ください！高汚染による影響に注意が必要です。入手可能な最高品質のマフラーを使用し、EBFを農地や熱分解炉、大型ボイラーなど他の高汚染装置と同じチャンク内に設置しないようにしましょう。そろそろより積極的な対策を検討する時期かもしれません。%n%n手元にあるコイルは何でも使用できますが、まだ雲母を入手していない場合は、積極的に探し始めることをおすすめします。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAF1g.desc=2台目のEBFの出番です！%n%nインゴットの製造速度を向上させる方法は3つあります - より高性能なコイルの使用、高電圧のエネルギーハッチの採用、あるいは炉の増設です。そろそろ拠点に二つ目のEBFを追加する時期かもしれません。%n%nマルチブロック装置は、外装ケース、マフラー、入力/出力ハッチ/バス、メンテナンスハッチを共有できます。エネルギーハッチは共有可能ですが、すべての装置に十分な電力を供給できる場合に限ります。%n%n2台のEBFを同時に稼働させると汚染レベルが著しく上昇することにご注意ください！高汚染による影響に注意が必要です。入手可能な最高品質のマフラーを使用し、EBFを農地や熱分解炉、大型ボイラーなど他の高汚染装置と同じチャンク内に設置しないようにしましょう。そろそろより積極的な対策を検討する時期かもしれません。%n%n手元にあるコイルは何でも使用できますが、まだ雲母を入手していない場合は、積極的に探し始めることをおすすめします。
 
 # Quest: All the Crops You Could Want
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF7g.name=§6§nあらゆる作物を栽培せよ
@@ -1884,7 +1880,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHSw.desc=MVで使用するほとんど�
 
 # Quest: Ultra Low Power IC
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTA.name=§6§n超低電圧パワーIC
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTA.desc=エナジーハッチ(MV)では、超低電圧パワーICが必要です。今すぐ作成してください。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHTA.desc=エネルギーハッチ(MV)には、§7《§r超低電圧パワーIC§7／Ultra Low Power IC》§rが必要です。今すぐ作成してください。%n%nこの工程にMVレーザー刻印機は必要ありませんが、どちらにせよ後で必要になります。%n%n[note]このクエストはLVまたはMVのレーザー刻印機のクエストを完了すると解放されます。[/note]
 
 # Quest: Vinyl Chloride
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHUA.name=§6§n塩化ビニル
@@ -4256,7 +4252,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAKFw.desc=Good luck with this one, it is 
 
 # Quest: Hypogen
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.name=§5§nハイポジェン
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.desc=Here it is, the most high tier GT++ material. You will need UIV to process it. Your Fluid Shaper will do that job just fine for you.%n%n[note]With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.[/note]%n%n[note]You can also have this cake as a reward for coming this far.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAKGA.desc=Here it is, the highest tier GT++ material. You will need UIV to process it.%n%n[note]With your first ingot obtained, you can turn to the DTPF to make more. I think that recipe should be a lot better than the MK4 reactor.[/note]%n%n[note]You can also have this cake as a reward for coming this far.[/note]
 
 # Quest: Well This Looks... Shiny?
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAKHA.name=§5§l§nWell This Looks... Shiny?
@@ -4493,7 +4489,7 @@ betterquesting.quest.CzdMQPiKSoKXIzSX7g0SIA.desc=Copper has managed to stay rele
 
 # Quest: The Real Planet Eater
 betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.name=§9§l§nThe Real Planet Eater
-betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.desc=It has 8 parallels and supports higher tiers of drones.%n%n[note]You can obtain pure platinum group metals with this. It would be a nice boost if you haven't made the QFT for it yet.[/note]
+betterquesting.quest.GHobGJFEQzK1q96l6oC8wQ.desc=It has 8 parallels and supports higher tiers of drones.%n%n[note]You can obtain Tengam and Americium ores with this.[/note]
 
 # Quest: Helioflux Melting Core my Beloved
 betterquesting.quest.GslQBIW9QKaCz7FFpkrv6g.name=§9§l§nHelioflux Melting Core my Beloved
@@ -4585,7 +4581,7 @@ betterquesting.quest.n2AqI9hGSEegVf6hfygemQ.desc=With your research now complete
 
 # Quest: Space Modules Galore
 betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.name=§9§l§nSpace Modules Galore
-betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.desc=Better modules will require a more advanced Space Elevator motor to function.%n%nThis upgrade will allow you to access 15 modules on your Space Elevator. If you haven't built the expansion yet, now might be a good time.%n%n[note]You can enable the Space Elevator expansion in the GUI.[/note]
+betterquesting.quest.nghPgh6-TuSKXUlzGXGrpw.desc=Better modules will require a more advanced Space Elevator motor to function.%n%nThis upgrade will allow you to access T9 planets as well as 15 module slots on your Space Elevator. If you haven't built the expansion yet, now might be a good time.%n%n[note]You can enable the Space Elevator expansion in the GUI.[/note]
 
 # Quest: Spacetime Splitting
 betterquesting.quest.pW_B3nmQTxy87apiA9DyMA.name=§9§l§nSpacetime Splitting
@@ -4734,7 +4730,7 @@ betterquesting.quest.hWXZi-whQfmgWO0EII7g2g.desc=SpaceTime is quite a challenge,
 
 # Quest: Subspace Cooling
 betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.name=§c§l§nSubspace Cooling
-betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=Cooling exotic ingots proves to be a much bigger challenge than smelting them.%n%nFortunately, reinforcing some of the casings with your new materials allows you to inject exotic coolants that capture extreme heat in miniature tears of spacetime, helping to cool your ingots a bit faster.%n%nWith Subspace Cooling, you can enable the Vacuum Freezer to achieve Perfect Overclocks… at a cost.%n%nTier 1 will consume SpaceTime in liquid form at [warn]75 L/s[/warn] and allow for 1 Perfect Overclock.%n%n[note]This cost is very high but static, remaining the same for each recipe being run. So, be selective about cooling your ingots.%n%nThe faster the recipes, the more efficient the cost, so find your optimal balance.[/note]%n%nThe Infinity Cooled Casings replace the frost proof casings, so you don't need to worry about damaging your setups.
+betterquesting.quest.hybMIjq9Q9mxxWKEE8gBWQ.desc=Cooling exotic ingots proves to be a much bigger challenge than smelting them.%n%nFortunately, reinforcing some of the casings with your new materials allows you to inject exotic coolants that capture extreme heat in miniature tears of spacetime, helping to cool your ingots a bit faster.%n%nWith Subspace Cooling, you can enable the Vacuum Freezer to achieve Perfect Overclocks… at a cost.%n%nTier 1 will consume Infinity in liquid form at [warn]20 L/s[/warn] and allow for 1 Perfect Overclock. If you have the means to provide [warn]20 L/s[/warn] of Spacetime, you can jump right to Tier 2 for 2 Perfect overclocks.%n%n[note]This cost is static, remaining the same for each recipe being run. So, be selective about cooling your ingots.%n%nThe faster the recipes, the more efficient the cost, so find your optimal balance.[/note]%n%nThe Infinity Cooled Casings replace the frost proof casings, so you don't need to worry about damaging your setups.
 
 # Quest: Tier 12 (UMV)
 betterquesting.quest.jlXvqqgIQ_Crha2tW0gEQg.name=§c§l§nTier 12 (UMV)
@@ -4911,7 +4907,7 @@ betterquesting.quest.smCKxKkMSeyIAUeFInS4hQ.desc=You want to rush this as soon a
 
 # Quest: An Offering To The Gods
 betterquesting.quest.ztV-j35XSXaQ0OQ1TSyKew.name=§4§l§nAn Offering To The Gods
-betterquesting.quest.ztV-j35XSXaQ0OQ1TSyKew.desc=Another Stargate recipe, another trophy. You know the drill by now: submit two legacy Stargates' worth of materials and receive one cute little trophy. %n%n[note]Our journey reaches its latest stop, entering the era of refinement.%n%nThe year is 2025, and the game has become more refined than ever before. So refined, in fact, that we may have added a little too much quality of life and accidentally earned this Stargate the nickname "EZ Gate." Easy is relative, of course; it was still a Stargate, after all.%n%nThe Matter Manipulator has transformed base building and infrastructure expansion, allowing entire structures to be planned, copied, and moved, while NEI autocrafting has made early progression considerably faster. Et Futurum has brought Netherite and Prismarine to the pack alongside their new processing lines. At the end of progression, the T4 Nano Forge has provided a much needed alternative to endless T3 spam, while the EoH pity system has made its worst streaks of RNG more manageable.%n%nAutomation has continued to improve, and years of accumulated knowledge have transformed problems that once took entire teams months to solve into well-understood production challenges. Outside the pack, the community has created countless calculators, planners, visualizers, and specialized programs for automation, base design, optimization, or simply for fun.%n%nThe results have been difficult to ignore. More Stargates have been completed during this period than in any previous era, with the recorded gate count on Discord passing 1,000 before the release of 2.9.%n%nA team composed of some of the pack's most talented and experienced players completed a full Stargate run in only 22 days, 16 hours, and 45 minutes on January 26, 2026, setting a new speedrun record. §aPxx500§r and §aAdam§r achieved the first documented Gatelympics (quintuple) gate during that very same speedrun. %n%nOn the solo end of things, the very first singleplayer GTNH: Gods (triple) gate was achieved by §aSintken§r on July 2, 2025 and the second was achieved shortly after by §aLordPeverell§r on July 24, 2025.%n%nP.S.: Here's the list as usual:%n-Matter Manipulator%n-Spinmatron%n-Large Hadron Collider%n-LATEX%n-Nanochip Assembly Complex%n-Bose-Einstein Condensate Line%n-Exo-Foundry%n-Solar Factory%n-Nano Forge T4%n-EoH pity system%n-Super Stock Replenisher[/note]%n%n§2P.S. In case you were wondering, 2.7 was the last version where you needed to craft two Stargates in order to qualify for a completed run. This requirement was brought down to one Stargate in 2.8, but for purposes of this quest you will be making the equivalent of two since the recipe didn't change between versions. %n%nSorry Questmasters :P§r
+betterquesting.quest.ztV-j35XSXaQ0OQ1TSyKew.desc=Another Stargate recipe, another trophy. You know the drill by now: submit two legacy Stargates' worth of materials and receive one cute little trophy. %n%n[note]Our journey reaches its latest stop, entering the era of refinement.%n%nThe year is 2025, and the game has become more refined than ever before. So refined, in fact, that we may have added a little too much quality of life and accidentally earned this Stargate the nickname "EZ Gate." Easy is relative, of course; it was still a Stargate, after all.%n%nThe Matter Manipulator has transformed base building and infrastructure expansion, allowing entire structures to be planned, copied, and moved, while NEI autocrafting has made early progression considerably faster. Et Futurum has brought Netherite and Prismarine to the pack alongside their new processing lines. At the end of progression, the T4 Nano Forge has provided a much-needed alternative to endless T3 spam, while the EoH pity system has made its worst streaks of RNG more manageable.%n%nAutomation has continued to improve, and years of accumulated knowledge have transformed problems that once took entire teams months to solve into well-understood production challenges. Outside the pack, the community has created countless calculators, planners, visualizers, and specialized programs for automation, base design, optimization, or simply for fun.%n%nThe results have been difficult to ignore. More Stargates have been completed during this period than in any previous era, with the recorded gate count on Discord passing 1,000 before the release of 2.9.%n%nA team composed of some of the pack's most talented and experienced players completed a full Stargate run in only 22 days, 16 hours, and 45 minutes on January 26, 2026, setting a new speedrun record. §aPxx500§r and §aAdam§r achieved the first documented "Gatelympics Games Champion" (quintuple) gate during that very same speedrun.%n%nNot that either of those records lasted very long! The speedrunners came back for more, completing another full run on October 5, 2026, in a mere 17 days, 15 hours, and 28 minutes. One day later, the separate TeuTeuLand run was completed, earning §aAdam§r the world's very first "Professional Grass Toucher" (sextuple) gate!%n%nOn the solo end of things, the very first singleplayer GTNH: Gods (triple) gate was achieved by §aSintken§r on July 2, 2025, and the second was achieved shortly after by §aLordPeverell§r on July 24, 2025.%n%nP.S.: Here's the list as usual:%n-Matter Manipulator%n-Spinmatron%n-Large Hadron Collider%n-LATEX%n-Nanochip Assembly Complex%n-Bose-Einstein Condensate Line%n-Exo-Foundry%n-Solar Factory%n-Nano Forge T4%n-EoH pity system%n-Super Stock Replenisher[/note]%n%n§2P.S. In case you were wondering, 2.7 was the last version where you needed to craft two Stargates in order to qualify for a completed run. This requirement was brought down to one Stargate in 2.8, but for the purposes of this quest, you will be making the equivalent of two, since the recipe didn't change between versions. %n%nSorry, Questmasters :P§r
 
 
 ## Quest Line: Feeding Yourself
@@ -5104,11 +5100,7 @@ betterquesting.quest.ogXyVJTpQ8ONbZthhrupqg.desc=Given sufficient magical prowes
 
 # Quest: Ice Ice Baby
 betterquesting.quest.uPmgcTcIR6OcAYqLCD7IkQ.name=Ice Ice Baby
-betterquesting.quest.uPmgcTcIR6OcAYqLCD7IkQ.desc=GregTech now makes &z&qice creams§r§r. Yes, really.
-%n
-%nSomewhere out there is a machine that turns... something... into ice cream. Lots of flavors. Some good, some weird, some questionable.
-%n
-%nGo find it and see what you get.
+betterquesting.quest.uPmgcTcIR6OcAYqLCD7IkQ.desc=GregTech now makes &z&qice creams§r. Yes, really.%n%nSomewhere out there is a machine that turns... something... into ice cream. Lots of flavors. Some good, some weird, some questionable.%n%nGo find it and see what you get.
 
 
 ## Quest Line: The Green Revolution
@@ -6181,7 +6173,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACrQ.desc=鉄の装備は革の装備よ�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACrg.name=革の装備
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACrg.desc=ウシを何匹か狩るだけで、革の装備を一式作るのに十分な革が集まります。%n%nヒント: 革の装備は染色することができます。
 
-# Quest: Bronze armor
+# Quest: Bronze Armor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACrw.name=青銅の装備
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACrw.desc=§7《§r青銅§7／Bronze》§r 製の装備は、鉄の装備と全く同じ性能を持っています。耐久値も、防御力も、エンチャント適性も同じです。
 
@@ -7062,7 +7054,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAASw.desc=有限水源は問題だ。し�
 
 # Quest: Time to Get Some Steel
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATA.name=§6§nスチールを手に入れる時だ
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAATA.desc=§7《§rスチール§7／Steel》§r が欲しいって？%nオーケー、仕事に取り掛かろう...。%n%n§7《§rレンガ高炉§7／Bricked Blast Furnace §r(BBF)§7》§r はGregTechにおけるもっとも初歩的なマルチブロック設備です。%n石炭や木炭、あるいは §7《§rコークス§7／Coal Coke》§r を燃料に鉄インゴットを精錬することで、長い時間を掛けた後スチールが完成します。%n%nBBFに限らず、GregTechにおける殆どのマルチブロック設備は筐体共有が行えます。つまり、以下のような配置を行うことで、 §7《§r耐火レンガ§7／Fire Bricks》§r の消費数を最小限に抑えることができます。%n%nFCFCF%nFAFAF%nFFFFF%nFAFAF%nFCFCF%n%nF -> 耐火レンガ%nC -> 本体ブロック%nA -> 空気%n%n§4BBFは稼働中 §7《§4汚染§7／Pollution》§4 を発生させるため、密集させることでチャンク内の汚染の蓄積速度も比例して上昇することに注意してください。§r%n%n%n素材として必要になる §7《§r石の粉§7／Stone Dust》§r は §7《§r小さな鉱石§7／Small Ore》§r からドロップするものを大釜で洗浄しても入手が可能です。%n足りない場合は §7《§r破砕機§7／Macerator》§r で丸石を粉砕しましょう。%n%n%nメサのようなバイオームの付近にスポーンした場合、テラコッタを粉砕することで容易に §7《§r粘土の粉§7／Clay Dust》§r を確保できます。%n%n%n§3§7《§3レンガの粉§7／Brick Dust》§3 を入手しようとしている場合、覚えておいてください。%nなぜだか通常のレンガよりも、レンガブロックを粉砕したほうが作成に掛かる時間が短いです。%n%nRoguelike Dungeons のレンガ造りの小屋や、村にあるRailcraftの鉄道駅からレンガブロックを拝借し、粉砕するのは序盤において最も効率的なレンガの粉の作成方法です。§r%n%n%nForestryの §7《§r加工作業台§7／Worktable》§r はレシピを登録でき、バケツを使用するレシピを反復的に処理するのに適しています。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAATA.desc=§7《§rスチール§7／Steel》§r が欲しいって？%nオーケー、仕事に取り掛かろう...。%n%n§7《§rレンガ高炉§7／Bricked Blast Furnace §r(BBF)§7》§r はGregTechにおけるもっとも初歩的なマルチブロック設備です。%n石炭や木炭、あるいは §7《§rコークス§7／Coal Coke》§r を燃料に鉄インゴットを精錬することで、長い時間を掛けた後スチールが完成します。%n%nBBFに限らず、GregTechにおけるほとんどのマルチブロック設備は筐体共有が行えます。つまり、以下のような配置を行うことで、 §7《§r耐火レンガ§7／Fire Bricks》§r の消費数を最小限に抑えることができます。%n%nFCFCF%nFAFAF%nFFFFF%nFAFAF%nFCFCF%n%nF -> 耐火レンガ%nC -> 本体ブロック%nA -> 空気%n%n§4BBFは稼働中 §7《§4汚染§7／Pollution》§4 を発生させるため、密集させることでチャンク内の汚染の蓄積速度も比例して上昇することに注意してください。§r%n%n%n素材として必要になる §7《§r石の粉§7／Stone Dust》§r は §7《§r小さな鉱石§7／Small Ore》§r からドロップするものを大釜で洗浄しても入手が可能です。%n足りない場合は §7《§r破砕機§7／Macerator》§r で丸石を粉砕しましょう。%n%n%nメサのようなバイオームの付近にスポーンした場合、テラコッタを粉砕することで容易に §7《§r粘土の粉§7／Clay Dust》§r を確保できます。%n%n%n§3§7《§3レンガの粉§7／Brick Dust》§3 を入手しようとしている場合、覚えておいてください。%nなぜだか通常のレンガよりも、レンガブロックを粉砕したほうが作成に掛かる時間が短いです。%n%nRoguelike Dungeons のレンガ造りの小屋や、村にあるRailcraftの鉄道駅からレンガブロックを拝借し、粉砕するのは序盤において最も効率的なレンガの粉の作成方法です。§r%n%n%nForestryの §7《§r加工作業台§7／Worktable》§r はレシピを登録でき、バケツを使用するレシピを反復的に処理するのに適しています。
 
 # Quest: More Heat - Kanthal Coil Upgrade
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAATg.name=§6§nさらなる加熱 - カンタルコイルへのアップグレード
@@ -7699,7 +7691,7 @@ betterquesting.quest.WEwrzX4ZRkSxJ3M6cBesfA.desc=なぜ粉末を混ぜ合わせ�
 
 # Quest: Steam Fusing?
 betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.name=§c§nスチームフュージング？
-betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=単一式の §7《§r蒸気式合金製錬炉§7／Steam Alloy Smelter》§r では物足りないとお思いですか？%nそんなあなたに朗報です。 §7《§r大型蒸気式合金製錬炉§7／Steam Fueser》§r がやってきました！%n%nこの装置は、合金製錬の作業を蒸気消費量を大幅に抑えたうえで、より高速にこなすことができます。%n(詳細な仕様については、ツールチップをチェックしてください！)%n%nNEIの構造体要件では §7《§rホウケイ酸ガラス§7／Borosilicate Glass》§r が要求されますが、これは §7《§r保護ガラス§7／Warded Glass》§r 、 §7《§r高透過ガラス§7／Quite Clear Glass》§r 、 §7《§rクォーツガラス§7／Fused Quartz》§r などの任意のHV-Tierガラスで代用可能です。%n%n§7高透過ガラスはバニラのガラスを §8《§7彫刻用ノミ§8／Chisel》§7 で加工することで作成可能です。詳しくはNEIレシピをチェックしてください。§r%n%nもし、ホウケイ酸ガラスの使用を選ぶ場合、 §7《§rホウ砂§7／Borax》§r の電気分解で §7《§rホウ素§7／Boron》§r を入手することができます。%n%n[note]LV Tier までのレシピを処理可能です。[/note]
+betterquesting.quest.WGhhKERfRTiJXKZEPoRf1Q.desc=単一式の §7《§r蒸気式合金製錬炉§7／Steam Alloy Smelter》§r では物足りないとお思いですか？%nそんなあなたに朗報です。 §7《§r大型蒸気式合金製錬炉§7／Steam Fueser》§r がやってきました！%n%nこの装置は、合金製錬の作業を蒸気消費量を大幅に抑えたうえで、より高速にこなすことができます。%n(詳細な仕様については、ツールチップをチェックしてください！)%n%nNEIの構造体要件では §7《§rホウケイ酸ガラス§7／Borosilicate Glass》§r が要求されますが、これは通常のガラスや§7《§r高透過ガラス§7／Quite Clear Glass》§r 、 §7《§rクォーツガラス§7／Fused Quartz》§r などの任意のHV-Tierガラスで代用可能です。%n%n§7高透過ガラスはバニラのガラスを §8《§7彫刻用ノミ§8／Chisel》§7 で加工することで作成可能です。詳しくはNEIレシピをチェックしてください。§r%n%nもし、ホウケイ酸ガラスの使用を選ぶ場合、 §7《§rホウ砂§7／Borax》§r の電気分解で §7《§rホウ素§7／Boron》§r を入手することができます。%n%n[note]LV Tierまでのレシピを処理可能です。[/note]
 
 # Quest: Taking Things Apart
 betterquesting.quest.XA467S8MQtCEPy6L23eEEA.name=§5§lTaking Things Apart
@@ -7836,7 +7828,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADDw.desc=All your little turbines take u
 
 # Quest: Power of the Sun at LV Level
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.name=§6§lPower of the Sun at LV Level
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.desc=The next solar panel you can make is the LV one. It generates 32 EU/t.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADqA.desc=The next solar panel you can make is the LV one. It generates 32 EU/t.%n%n[warn]As you may expect, these will react poorly to being placed on machines of lower voltage![/warn]
 
 # Quest: Power of the Sun 1x1 LV
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADqQ.name=§6§lPower of the Sun 1x1 LV
@@ -8188,7 +8180,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAALDQ.desc=§7《§r原子炉§7／Nuclear
 
 # Quest: Large Naquadah Reactor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.name=§b§n大型ナクアダリアクター
-betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.desc=The multi block version of the naquadah reactor, but it is completely different from the single block ones.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel, and outputs the depleted fuel. You can see the liquid fuel information in NEI.%n%nIt consumes 2400 L/s liquid air when running, otherwise it will keep consuming your fuel without outputting power.%n%n[warn]It will explode with more than one type of fuel in its hatches.[/warn]%n%nYou can input in coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%nTachyon Rich Temporal Fluid: 5.00x%n%nYou can also input boosters to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nSpatially Enlarged Fluid: 64x%nNote: It will consume more fuel to match the output power, unlike coolant which directly increases the power. The boosters work like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n[note]PS: This generator can produce up to 664 billion EU/t with the best coolant, boosters and fuel available.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAALhA.desc=The multiblock version of the Naquadah Reactor works very differently from the singleblock versions.%n%nIt uses liquid naquadah or excited nuclear liquid as fuel and outputs the depleted fuel. You can see the liquid fuel information in NEI.%n%nIt consumes 2400 L/s of liquid air while running. Without liquid air, it will keep consuming your fuel without outputting power.%n%nYou can add coolant to increase efficiency.%nIC2 Coolant: 1.05x%nSuper Coolant: 1.5x%nCryotheum: 2.75x%nTachyon Rich Temporal Fluid: 5.00x%n%nYou can also input boosters to increase power.%nMolten Caesium: 2x%nMolten Uranium-235: 3x%nMolten Naquadah: 4x%nMolten Atomic Separation Catalyst: 16x%nSpatially Enlarged Fluid: 64x%nNote: It will consume more fuel to match the output power, unlike coolant, which directly increases the power. The boosters work like 'parallels' for your reactor.%n%nIt also supports §9Tec§1Tech§r's Multi-Amp Dynamo hatches and laser hatches.%n%n[note]PS: This generator can produce up to 664 billion EU/t with the best coolant, boosters and fuel available.[/note]
 
 # Quest: Nuclear Based Fuel (Th)
 betterquesting.quest.AAAAAAAAAAAAAAAAAAALjA.name=Nuclear Based Fuel (Th)
@@ -8433,7 +8425,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFig.desc=...in my dreams. What if instea
 
 # Quest: Who Cares About a Little Cancer...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiw.name=Who Cares About a Little Cancer...
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiw.desc=...when it means you don't have to strip naked to recharge your nanosuit?%nThe Wireless Charger will keep your armor and tools charged up without having to put them into a battery buffer.%n%nIt will charge armor and tools at the tier and below.%n%nYou didn't want kids anyways...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFiw.desc=...when it means you don't have to strip naked to recharge your nanosuit?%nThe Wireless Charger will keep your armor and tools charged up without having to put them into a battery buffer.%n%nIt will charge armor and tools at the tier and below.%n%nYou didn't want kids anyway...
 
 # Quest: Lapotronic Energy Storage Unit
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHHA.name=Lapotronic Energy Storage Unit
@@ -9264,12 +9256,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADMw.name=小さな燃料缶
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADMw.desc=すべてのロケットには燃料を貯蔵するコンテナが必要です。Tier 1のロケットには§7《§r小さな燃料缶§7／Small Fuel Canister》§rを2つクラフトする必要があります。
 
 # Quest: Rocket Launch Pad
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADNA.name=Rocket Launch Pad
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADNA.desc=Every rocket needs a launch pad. Build a 3x3 launch pad and place your rocket on top of it.%n%nStorms and other events that affect entities can knock your rocket off (but not lightning warp anymore), so make sure to not leave it alone.%n%n[warn]Before liftoff, make sure you clear the airspace above you![/warn]%n%nBe sure to check out [url]https://wiki.gtnewhorizons.com/wiki/Moon_Travel_Checklist[/url] for a Departure Checklist!%n%n[note]Also note that they emit pollution, lots of it. So either put it far from your base, or use a scrubber while launching. You probably won't have to worry until T4 or so though.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADNA.name=ロケットの発射台
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADNA.desc=すべてのロケットには発射台が必要です。発射台を3x3に設置し、その上にロケットを配置してください。%n%n雷雨やその他エンティティに影響を与える事象によって、ロケットが墜落することがあります(ただし歪みによる雷はその限りではありません)。そのため、ロケットは放置しないようにしてください。%n%n[warn]発射前に、上部に障害物がないことを確認してください！[/warn]%n%n出発前チェックリストを[url]https://wiki.gtnewhorizons.com/wiki/Moon_Travel_Checklist[/url]から確認できます！%n%n[note]また、ロケットの発射にあたっては大量の汚染が発生することをここに記しておきます。そのため、拠点から離れた位置に設置するか、発射時に除染機を稼働させてください。ただしT4までは気に留めるほどのことではないかもしれません。[/note]
 
 # Quest: Gas 'Er Up
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADNQ.name=Gas 'Er Up
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADNQ.desc=To pump fuel into your rocket you need a fuel loader. Place it next to any side of the launch pad. The green side is for energy, while the yellow is for fuel. Pipe it in if you don't want to lose your cells.%n%nYou can also power it with batteries, if you're worried about it draining your power, or don't want to set up the infrastructure.%n%n[note]Rockets keep their fuel in them on landing now, so you don't need to take this with you anymore unless you want to go to multiple places in one trip. Or you didn't fill it all the way or something.[/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADNQ.name=ガスを満タンに
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADNQ.desc=ロケットに燃料を送り込むには§7《§r燃料充填機§7／Fuel Loader》§rが必要です。発射台に隣接するように設置して使います。緑色の面はエネルギー用の、黄色の面は燃料用の入力面です。セルを消費したくない場合はパイプで燃料を搬入しましょう。%n%n拠点の電力収支が気になる、Galacticraft用のインフラ整備をしたくないといった場合、バッテリーで電力供給することも可能です。%n%n[note]ロケットに充填された燃料は離陸しても保持されます。1回の宇宙飛行で複数回の打ち上げでもしない限り、一緒に宇宙へ持っていく必要はありません。もしくは燃料を満タンにしていなかったり、何か変なことをしたりしない限りは...[/note]
 
 # Quest: Oxygen Gear
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADNg.name=酸素ギア
@@ -9289,7 +9281,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAADOw.desc=ロケットを飛ばす際に�
 
 # Quest: Oxygen Collector
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADPA.name=酸素回収機
-betterquesting.quest.AAAAAAAAAAAAAAAAAAADPA.desc=The oxygen collector is a block that gathers oxygen from leaves and farm plants to use in an oxygen bubble distributor, oxygen sealer, oxygen compressor, and other oxygen-reliant machines. If you plan to build a Moon base, which needs a continuous oxygen supply, you will need to build one.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAADPA.desc=§7《§r酸素回収機§7／Oxygen Collector》§rは農作物や葉ブロックから酸素を集めるブロックです。集めた酸素は酸素分配機、酸素密封機、酸素圧縮機、その他酸素を要求する機械で使えます。もし月面基地を作りたいのであれば、断続的な酸素供給が必要になるため、この機械を作ることになるでしょう。
 
 # Quest: Oxygen Compressor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADPQ.name=酸素圧縮機
@@ -9336,8 +9328,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-w.name=Tier 4 Control Computer
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF-w.desc=Each rocket needs a Control Computer, appropriate to the tier of the rocket.
 
 # Quest: LOX and Bagels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWw.name=LOX and Bagels
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWw.desc=The LOX canister is an alternate solution to refilling your oxygen tanks.%n%nTo make liquid oxygen you need to put an oxygen cell into a vacuum freezer to get a cell of liquid oxygen. Transfer this liquid oxygen into a tank, and then into a LOX canister.%n%nTo refill your oxygen tanks just put the tank and the LOX canister in the oxygen compressor to transfer oxygen, or use an oxygen collector.%n%nEach LOX canister can fill 4 Heavy Oxygen Tanks, 6 Medium Oxygen Tanks, or 12 Light Oxygen Tanks.%n%nSo much Greggy!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWw.name=ロックスとベーグル
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAFWw.desc=液体酸素§7(LOX)§rボンベは酸素タンクの充填に使える代替アイテムです。%n%n液体酸素を製造するには、酸素入りセルを真空冷却機に入れる必要があります。この液体酸素をタンクへと移し、ボンベを満たします。%n%n酸素タンクを充填するには、酸素圧縮機の内部にタンクと液体酸素ボンベを配置して酸素を移し替えるか、§7《§r酸素回収機§7／Oxygen Collector》§rを使うか選べます。%n%n液体酸素ボンベ1個で大型なら4個、中型なら6個、小型なら12個の酸素タンクを充填することができます。%n%nなんともGregらしいですね！
 
 # Quest: Tier 4 Heavy Duty Plates
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAF_A.name=Tier 4 Heavy Duty Plates
@@ -9959,7 +9951,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAG3w.desc=Congratulations, we have the pa
 
 # Quest: Intelligence is the Ability to Adapt to Change
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG4A.name=Intelligence is the Ability to Adapt to Change
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAG4A.desc=This block allows our computer to interact with GT machines and everything else. A must have!
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAG4A.desc=This block allows your computer to interact with GT machines and everything else. A must-have!
 
 # Quest: Hello World!
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAG4Q.name=Hello World!
@@ -10091,7 +10083,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxg.desc=Ever finished a wonderful progr
 
 # Quest: Naming Names
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxw.name=Naming Names
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxw.desc=The Factory Labeler allows you to assign unique names to anything that can be connected to a Manager - making it easy to identify when you are setting up commands.%n%nType in the text box to set a label or to searched stored labels - click any stored entry to select it, double-click to edit it. Closing the GUI will set the Labeler to whatever was in the text box at that time.%n%nLeft-click to set labels, right-click to open the gui. Setting a blank label will remove any existing labels.%n%n[note]May or may not be buggy. Will lose the label in MP when relogging, but works fine in SP. It'll still work until you need to change it though. Have fun![/note]
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAHxw.desc=The Factory Labeler allows you to assign unique names to anything that can be connected to a Manager, making it easy to identify when you are setting up commands.%n%nType in the text box to set a label or search stored labels. Click any stored entry to select it; double-click to edit it. Closing the GUI will set the Labeler to whatever was in the text box at that time.%n%nLeft-click to set labels; right-click to open the GUI. Setting a blank label will remove any existing labels.%n%n[note]The Labeler loses its label when you log back in on multiplayer servers, but it works fine in single player. It'll still work until you need to change the label, though. Have fun![/note]
 
 # Quest: Redstone Emitter
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHzw.name=Redstone Emitter
@@ -10487,13 +10479,13 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMg.desc=The ME ore dictionary export ca
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.name=To Link P2P Buses
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAFMw.desc=A small item that can be used to store, copy, and paste settings. Shift-right-click on a configurable object to save the settings onto the memory card, then right-click on any other block of the same type to paste the settings. Shift-right-click on a non-configurable object (or the air) to clear. They are also used to link the input P2P tunnel to the corresponding output P2P tunnels. They can also link Vis Relays to compatible devices.%n%nIf you're doing more advanced operations in a large network of P2Ps, it's recommended you use the advanced memory card. It has a helpful UI that allows you to visualize and set names, inputs, and outputs of P2P tunnels. %n%n[note]Remember P2Ps can only have 1 input! The only exception being fluid P2Ps whose input can function as an output and whose outputs can function as an input.[/note]%n%n[warn]Make sure there aren't any cards in your network tool when you craft the Advanced Memory Card, they will be deleted![/warn]
 
-# Quest: Smart cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRw.name=Smart cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRw.desc=Smart cables are better than glass or covered cables because you can visually see many channels are in use.
+# Quest: Smart Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRw.name=Smart Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIRw.desc=Smart cables let you see how many channels are in use, which can make them more useful than covered cables.%n%nThey come at a cost, though!
 
-# Quest: Dense cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISA.name=Dense cables
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAISA.desc=Dense cables are going to be your network backbones. They can transfer 32 channels and display the number of channels in use. Buses and flat interfaces cannot be placed directly on them.
+# Quest: Dense Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAISA.name=Dense Cables
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAISA.desc=Dense cables are going to be your network backbones. They can transfer 32 channels at a time.%n%nBuses and flat interfaces cannot be placed directly on them.
 
 # Quest: Energy Acceptor
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIWA.name=Energy Acceptor
@@ -10733,7 +10725,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvg.desc=It holds over 8GL.
 
 # Quest: AE Essentia Storage
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvw.name=AE Essentia Storage
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvw.desc=The main processor for 1K, 4K, 16k, and 64k essentia cells.%n%nUse your AE network to store all that nasty essentia! Remember, you need to do the research first.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJvw.desc=The main processor for essentia cells.%n%nUse your AE network to store all that nasty essentia! Remember, you need to do the research first.
 
 # Quest: Essentia Storage Housing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJwA.name=Essentia Storage Housing
@@ -10757,7 +10749,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxA.desc=Same as 1k.
 
 # Quest: 1k Essentia Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxQ.name=1k Essentia Storage Cell
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxQ.desc=Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you'll need 69 of them. You'll want to make the essentia terminal to see what you have. They consume the same amount of AE as the item ones.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxQ.desc=Unlike the item version, these can only hold 12 types of essentia each. This tier holds 2,048 units if you fill it with a single type of essentia. If you fill it with 12 different types of essentia, you can have about 168 units of each. If you want one for every type of essentia, you'll need 69 of them. They consume the same amount of AE as the item ones.
 
 # Quest: 4k Essentia Storage Cell
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAJxg.name=4k Essentia Storage Cell
@@ -11482,12 +11474,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4Q.name=青色種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4Q.desc=青色種は、青色の染料を生産してくれる便利な蜂です。森林種と熱心種を交配してみましょう。 
 
 # Quest: Batty
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4g.name=Batty
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4g.desc=Batty bees will spawn firebats. So prepare for battle. Their specialty is Gunpowder. Breed them from Skulking and Windy.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4g.name=蝙蝠種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4g.desc=§7《§r蝙蝠種§7／Batty》§rはファイヤーバットをスポーンさせます。戦闘の準備をしてください。得意とするのは火薬です。隠密種と風質種を交配してみましょう。
 
 # Quest: Ghastly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4w.name=Ghastly
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4w.desc=Ghastly bees will spawn Ghasts, so beeee careful. Their specialty is Ghast Tears. They only have 1 fertility so you want to make sure you breed the drones with your master template princess. Breed them from Batty and Ethereal.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4w.name=奇怪種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAI4w.desc=§7《§r奇怪種§7／Ghastly》§rはガストをスポーンさせるので、十分気を付けてください。得意とするのはガストの涙です。繁殖力は1倍なので、雄蜂はマスターテンプレートの王女蜂と交配してください。蝙蝠種と天上種を交配してみましょう。
 
 # Quest: Smouldering
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI5A.name=Smouldering
@@ -11814,8 +11806,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAIrw.name=風質種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIrw.desc=§7《§r風質種§7／Windy》§rはオークの葉の上で交配する必要があります。天上種と超自然種を交配してみましょう。
 
 # Quest: Aer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsA.name=Aer
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsA.desc=For Aer bees to appear, you must put an Air Crystal Cluster beneath the bee housing. They will produce Aer infused dust for you. Being nearby will grant a Swiftness buff. Breed them from two Windy.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsA.name=風源種
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsA.desc=§7《§r風源種§7／Aer》§rを出すには、巣の下に風の結晶株が必要です。§7《§r風の染み込んだ粉§7／Aer Infused Dust》§rを生産します。近くにいると移動速度上昇の効果を得られます。風質種同士を交配してみましょう。
 
 # Quest: Solum
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAIsQ.name=地源種
@@ -11950,8 +11942,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.name=宇宙の種
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMpg.desc=宇宙種は勤勉種と英雄種を交配することで入手できますが、氷点下の環境である必要があります。%n%nこれはあなたにとっては小さな一歩ですが、蜂にとっては大きな飛躍です。%n%n[note]そして、これは宇宙関連の種の始まりでもあります。NEIを確認して、必要な種を見つけ出してください。[/note]%n%n※また、衛星の種などは語源となったものから名前を取っていることが多いです。%n例: フォボス → 敗神 (§o敗§r走を表すギリシャ神話の§o神§r、ポボスから)
 
 # Quest: Energium
-betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=エネルジウム
-betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=Are you tired of making Energium Dust by mixing Ruby and Redstone Dust? This bee offers a way to acquire it directly - how convenient is that? To breed it, you'll need to place some Hot Coolant below the hive while inside a Boneyard found in the Nether.%n%nUnlike its parents, this bee won't burn down your base—but it will set you on fire if you're not wearing your apiarist suit!
+betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.name=エネルジウム種
+betterquesting.quest.B0XRo_S1RveAsKZSXms9vg.desc=ルビーの粉とレッドストーンの粉を混ぜてエネルジウムの粉を作るのに飽きましたか？§7《§rエネルジウム種§7／Energium》§rなら、それを直接手に入れられます。便利でしょう？交配するには、ネザーのBoneyardの中で、巣の下にIC2過熱冷却材を置く必要があります。%n%n親種とは違い、この蜂は拠点を焼きません。ただし、養蜂用防護服を着ていないと、あなたに火をつけます！
 
 # Quest: Attuned
 betterquesting.quest.EM4Z9io4QGSBNdSnymJNmg.name=Attuned
@@ -12304,8 +12296,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7Q.name=「50 Vis 貯蔵可能」な杖
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7Q.desc=金の石突を使えば、鉄のデメリットを回避できます。金留めのグレートウッドの杖にアップグレードするのが最善策です！%n%nグレートウッドの杖を§7《§r魔力の込められた布の石突§7／Enchanted Cloth Cap》§rで作ることも可能です。5%%のVis軽減が可能になります！%n%nこれを使えばグレートウッドの杖を今までになく強力なものにできます！%n%n[note]いずれかの石突を2つ用意すればこのクエストはクリアできます。[/note]
 
 # Quest: Fuuuuuu...(sion)!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.name=Fuuuuuu...(sion)!
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.desc=Your arcane table does a great job with infusing primal vis into items while crafting. However, you feel that there must be more. What if you could infuse items with all kinds of magic aspects? The possibilities are endless...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.name=フューーージョン……注入！
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7g.desc=§7《§r神秘の作業台§7／Arcane Workbench》§rは、クラフトしながら根源のVisをアイテムへ注入するのに優れています。しかし、まだ先があるはずです。あらゆる魔法の相をアイテムへ注入できたら、どうでしょう？可能性は無限です……
 
 # Quest: Yet Another Brick in the Wall...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA7w.name=壁にもうひとつレンガ…
@@ -12348,12 +12340,12 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A.name=This is the End...
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_A.desc=...of your apprenticeship. You have mastered all 6 primal aspects, you mastered the weak and strong infusion of essentia and vis, and you've already made your adept wand. But be warned, young one. The further you progress, the more darkness, and evil will tempt you to follow the forbidden ways of magic. I have seen things... weather changing, random teleportation, or even a Wither tearing its way into our universe right next to someone. Be careful, my friend...
 
 # Quest: Turning Liquids Into Essentia
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_Q.name=Turning Liquids Into Essentia
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_Q.desc=What a simple idea. So many people waste tons of buckets just to get aqua from water, or sano from milk. Why didn't they just dissolve the liquid itself? Idiots...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_Q.name=液体をエッセンシアに
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_Q.desc=なんて単純な発想でしょう。水からAquaを、牛乳からSanoを得るためだけに、バケツを山ほど無駄にしている人がたくさんいます。液体そのものを溶かせばよかったのに。バカですね……
 
 # Quest: Essentia Filtering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_g.name=Essentia Filtering
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_g.desc=This nifty little device will filter essentia out of an Alchemical Crucible or Alchemical Boiler. Once it has received a single unit of any type, it will only accept this type until it is completely empty. You can place more than one on top of an alchemical furnace, and you should. Try to have one per essentia type in the item you're melting on a furnace.%n%nYou should lock the type with a Label, or every time it fills again, it's likely to be a different type, and gum up your pipes.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_g.name=エッセンシアのろ過
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_g.desc=この小さな装置、§7《§r神秘の蘭引§7／Arcane Alembic》§rは、るつぼや錬金ボイラーからエッセンシアを取り出します。1単位でも何らかの種類を受け取ると、完全に空になるまでその種類だけを受け付けます。錬金かまどの上には複数置けますし、置いた方がよいです。かまどで溶かしているアイテムに含まれるエッセンシアの種類ごとに、1台ずつ用意してみてください。%n%n§7《§r瓶ラベル§7／Label》§rで種類を固定してください。そうしないと、満たされるたびに別の種類になりやすく、導管が詰まってしまいます。
 
 # Quest: An Alternative to Torches
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA_w.name=松明の代替品
@@ -12388,8 +12380,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAACYg.name=鉛、方鉛鉱、銀、そし�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAACYg.desc=今まで §7《§r鉛§7／Lead》§r は、ネザーに点在する §7《§r小さな鉱石§7／Small Ore》§r を採掘することでしか入手できませんでした。%nこれはお世辞にも効率的な入手方法だとは言えず、収率も悪く、ピッグマンにタコ殴りにされる危険性すら秘めています。%n%nいまこそ、この神秘的な §7《§r黄昏の森§7／Twilight Forest》§r を少し探索して、Y5-40に生成される §7《§r氷晶石§7／Cryolite》§r 鉱脈を発見する時です！%n%nこの鉱脈からは、純粋な鉛の鉱石と、同じく鉛に還元できる §7《§r方鉛鉱§7／Galena》§r、 今までオーバーワールドで小さな鉱石を採掘することでしか入手ができなかった §7《§r銀§7／Silver》§r、 そして序盤の §7《§rアルミニウム§7／Aluminium》§r 精錬で必須となる氷晶石が採掘できます。%n%n正しく捨てるとこなしな鉱脈だと言えますね！%n%n[note]氷晶石鉱脈は黄昏の森の、Y5-40の間に、40の確率で生成されます。[/note]
 
 # Quest: Enchanted Earth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6g.name=Enchanted Earth
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6g.desc=Enchanted Earth makes saplings and seeds planted on it grow faster. When stacked on top of each other it has a chance to add ticks to the block above accumulating all the way to the top. This will randomly speed up growth a bit.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6g.name=魔力の込もった土壌
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAD6g.desc=§7《§r魔力の込もった土壌§7／Enchanted Earth》§rは、その上に植えた苗木や種の成長を早めます。互いの上に積み重ねると、上のブロックへtickを加算する可能性があり、その効果は一番上まで累積します。これで成長が少しランダムに速くなります。
 
 # Quest: Iron Capped Greatwood Wand
 betterquesting.quest.AAAAAAAAAAAAAAAAAAADHg.name=鉄留めのグレートウッドの杖
@@ -12476,8 +12468,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.name=§5§nニッケルの入手方�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAGTQ.desc=§7《§r電気高炉§7／Electric Blast Furnace》§r をアルミ精錬のために唸らせる...%n電気高炉の設置には §7《§rニッケル§7／Nickel》§r が必須で、これは §7《§r黄昏の森§7／Twilight Forest》§r に生成されるニッケル鉱脈から採取できます。%n%nニッケル鉱脈からは、純粋なニッケル鉱石の他に、同じくニッケルに還元できる §7《§r珪ニッケル鉱§7／Garnierite》§r と §7《§rペントランド鉱§7／Pentlandite》§r、 そしてMV電圧時代に進む過程で重要な役割を果たす、 §7《§r輝コバルト鉱§7／Cobaltite》§r が採掘できます。%n%nMV電圧時代では、 §7《§r電動モーター§7／Electric Motor》§r のコイル部分に使用する、 §7《§rキュプロニッケル§7／Cupronickel》§r を製錬するために、大量のニッケルが要求されるため、なるべく多めに集めておくことをお勧めします。%n%n%n輝コバルト鉱§8(Cobaltite)§rと §7《§rコバルト§7／Cobalt》§r は別の物質です。紛らわしいので間違えないよう、注意してください。%nLV電圧時代時点では、輝コバルト鉱から直接コバルトを抽出することはできません。代わりに、ネザーに生成される Tinkers' Construct 製のコバルト鉱石を採掘することができます。%n%nあるいは、輝コバルト鉱に §7《§r鉱石洗浄槽§7／Ore Washer》§r や §7《§r熱遠心分離機§7／Thermal Centrifuge》§r による処理を加え、鉱石副産物からコバルトを取り出す方法もあります。どちらの方法を取るにせよ、労力が掛かるのは間違いありません。%n%nMV電圧時代に到達すれば、 §7《§r電解槽§7／Electrolyzer》§r で輝コバルト鉱を電気分解することで、直接コバルトを入手することができます。%n%nあるいは、電気高炉の設置が完了すれば、輝コバルト鉱に"焙焼"処理を施し、コバルトのインゴットを製錬することもできます。詳細については §7《§r輝コバルト鉱からコバルトとヒ素を§7／Cobalt and Arsenic from Cobaltite》§r クエストを参照してください。%n%n[note]ニッケル鉱脈は黄昏の森の、Y10-40の間に、40の確率で生成されます。[/note]
 
 # Quest: So Thirsty 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g.name=So Thirsty 
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g.desc=Just listening to this tank gulp water makes me thirsty. If placed next to a water source block, it is a decent water source. It also supports several upgrades to speed and capacity. Try out this glyph near your cows, and get a tank full of milk for all your cheese and butter needs.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g.name=とても喉が渇く
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAH-g.desc=この§7《§r渇きのタンク§7／Thirsty Tank》§rが水をがぶ飲みする音を聞くだけで、喉が渇いてきます。水源ブロックの隣に置くと、なかなかよい水源になります。速度と容量を上げるアップグレードもいくつか対応しています。牛の近くで§7《§r牛のグリフ§7／Glyph of the Bovine》§rを試せば、チーズやバターに必要なミルクでタンクがいっぱいになります。
 
 # Quest: Ardite and Cobalt Mining
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAHLQ.name=アーダイトとコバルトを採掘する手っ取り早い方法
@@ -12512,8 +12504,8 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w.name=Infinite Bats! Wait, What??
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAI0w.desc=Tired of the constant chirping from the thousands of bats drawn to your world-bending activities? Use this handy device to attract them to a central location where they can be...disposed. The Corporeal Attractor can be configured to attract or repel mobs, and the redstone strength applied divided by two determines the range.%n%nYou can use Soul Molds to filter the mobs the Attractor draws in or pushes away. This gives you some idea for automating...
 
 # Quest: Greedy Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAg.name=Greedy Chest
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAg.desc=The Greedy Chest from Automagy looks to have some interesting uses. It also gates a pretty important device for a magician...
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAg.name=貪欲なチェスト
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAIAg.desc=Automagyの§7《§r貪欲なチェスト§7／Greedy Chest》§rは、面白そうな使い道がありそうです。これを通らないと、魔導士にとってかなり重要な装置も解放されません……
 
 # Quest: Knightmetal
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAICw.name=魔法の金属 - ナイトメタル
@@ -12545,7 +12537,7 @@ betterquesting.quest.BiGj2-sBQ62nf0YtAKpGMw.desc=One Essentia you might have a h
 
 # Quest: Thauminite Helmet
 betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.name=魔導鋼のヘルメット
-betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.desc=If you improve your Thaumium to Thauminite, you can make this very stylish helmet! Also comes with a very useful 5%% vis discount while equipped.%n%nMaybe this new material is useful for wands too?
+betterquesting.quest.CAqER5QVQg2Hq9lLZ9zDzg.desc=魔導金属を魔導鋼に仕上げれば、このしゃれた§7《§r魔導鋼のヘルメット§7／Thauminite Helmet》§rが作れます！装備中は、Visの消費が5%%軽減される便利な効果もあります。%n%nこの新しい素材は、杖にも使えるかもしれませんね？
 
 # Quest: The Burden of Knowledge
 betterquesting.quest.EL2z-VAzS9eVmQFpNnwimg.name=The Burden of Knowledge
@@ -12556,8 +12548,8 @@ betterquesting.quest.HF-prjNuRP-RUOYzn170cQ.name=Comparing at a Distance
 betterquesting.quest.HF-prjNuRP-RUOYzn170cQ.desc=Comparators are wonderfully useful devices, but their need to be directly next to whatever they are comparing is quite limiting. If you could do so remotely that would free you from one major constraint.%n%nRemote Comparators allow you to do just that. Sneak-right-click with a crystalline eye to bind the block you want to watch, and place the eye in a remote comparator to start monitoring the block remotely.%n%nGiven the extra distance, though the range of the remote comparator is quite limited, you should expect the §otiniest§r amount of signal lag compared to a direct comparator. You're doubtful that is ever going to be a limiting factor, though.
 
 # Quest: Taint Warnings
-betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.name=Taint Warnings
-betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=Now that you have started using Vis in the form of Essentia, a warning about Taint.%n%nVis in the state of Essentia is unstable if not stored properly. Left alone too long, or emptied out of the Crucible, Essentia will break down. But not into Vis. Rather, it will turn into Flux.%n%nFlux manifests as a liquid or a gas, but is, itself, only a nuisance. Thaumaturges exposed to the stuff can end up getting Flux Flue, a condition which makes it harder to channel Vis, but it is only temporary.%n%nLarger concentrations of Flux will solidify into Thaumic Slimes, bizarre creatures that try to merge with each other to grow larger. They can be dangerous, but are no less susceptible to crossbow bolts than most things.%n%nHowever, if too much flux is allowed to linger for too long, it will corrupt the land and solidify into tendrils. This is a manifestation of the blight called Taint. Fibrous Tendrils (as well as condensed blocks thereof) spread the Tainted Lands, feeding on the magic it twists. Nodes are especially vulnerable, becoming Tainted themselves if exposed to this twisted magic.%n%nDestroying the tendrils stops the spread, but unless §oall§r are destroyed this is only temporary. A more effective solution is to destroy the Tainted Land itself, as outside this specific biome tendrils quickly starve and die off.%n%nIf you are §oexceedingly§r careless with your Crucible you can, in fact, create Tainted Lands. So you would be wise to try wasting as little Essentia as possible, and clean up any you do waste.
+betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.name=汚染の警告
+betterquesting.quest.JyVKlIbSSiaXjYfQ2FFLhQ.desc=エッセンシアという形でVisを使い始めたので、§7《§r汚染§7／Taint》§rについて警告しておきます。%n%n正しく保管しないと、エッセンシアの状態のVisは不安定です。長く放置したり、るつぼから捨てたりすると、エッセンシアは分解します。ただしVisには戻りません。代わりに§7《§rフラックス§7／Flux》§rになります。%n%nフラックスは液体や気体として現れますが、それ自体はただの厄介者です。これに晒された魔導士は§7《§rフラックス症§7／Flux Flue》§rになることがあり、Visを通しにくくなりますが、一時的なものです。%n%nフラックスが濃くなると固まって§7《§r魔導スライム§7／Thaumic Slime》§rになります。互いに合体して大きくなろうとする奇妙な生き物です。危険ではありますが、たいていの相手と同じくクロスボウの矢には弱いです。%n%nしかし、フラックスを長く放置しすぎると土地を腐敗させ、触手となって固まります。これが汚染と呼ばれる災厄の現れです。§7《§r繊維状の汚染§7／Fibrous Tendril》§r(およびそれを凝り固めたブロック)は、歪めた魔法を糧にして§7《§r汚染された土地§7／Tainted Lands》§rを広げます。オーラ節は特に弱く、この歪んだ魔法に晒されると自身も汚染されます。%n%n触手を壊せば拡散は止まりますが、§oすべて§rを壊さない限り一時しのぎです。より効果的なのは汚染された土地そのものを壊すことです。このバイオームの外では、触手はすぐに枯れて死にます。%n%nるつぼの扱いが§o極端に§r雑だと、実際に汚染された土地を作り出せてしまいます。だから、無駄にするエッセンシアはできるだけ少なくし、無駄にしたものは片付けた方が賢明です。
 
 # Quest: Growing Glowstone the Magical Way
 betterquesting.quest.LUwrS4RnQGilkbdPQ_DrBg.name=Growing Glowstone the Magical Way
@@ -12596,8 +12588,8 @@ betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.name=烏合の輩を締め出す
 betterquesting.quest._N4B3gVMTZOoUdf9--7aPQ.desc=不速の客を入れないために、すべてを要塞のように築かなければならないことに、そろそろうんざりしてきたでしょう。確かに、あらゆる暗がりに終わりなくうろつく不安なアンデッドの群れがはびこる世界で生きる以上、それが当然のことではあります。しかし、扉の形をした便利な入口以外に、安全な出入り口を求めるのは無理な話でしょうか？%n%nもうそんなことはありません。上に何も載せていない限り、§7《§r保護の敷石§7／Paving Stone of Warding》§rは自身の上に2ブロック高の不可視の力場を展開し、プレイヤー以外のMob、少なくともありふれた烏合の輩の通行を阻みます。さらに、クモは力場を登れないため、締め出すための張り出しも不要です。%n%nただし、力場はあなたが放った矢と§oあなたに§r向けて放たれた矢を区別できないため、通常の物体は引き続き通過します。力場が視界を遮る程度は、§o不可視§rという言葉が示すとおりです。%n%nもちろん、その点は気にしていないでしょう。敵が届かない間にクロスボウで射抜けるのは、総合的に見て§oあなた§rにとって大いに有利なことです。
 
 # Quest: Pushing Back the Taint
-betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.name=Pushing Back the Taint
-betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.desc=So how do you actually destroy tainted land?%n%nThese Ethereal Blooms will remove Tainted Lands within a small area around themselves, which in turn kills off any Fibrous Tendrils. They cannot cleanse Tainted Nodes, nor will they necessarily return tainted biomes back to what they were before, but they will provide a barrier.%n%nThe Shimmerleaf they are made from have a recipe in an LV Assembling Machine if you're having a hard time finding them around Silverwood trees. There is also a CropsNH version of them.
+betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.name=汚染を押し戻す
+betterquesting.quest.aWvML-AaSIyjyNj5ElS4VQ.desc=では、汚染された土地は実際にはどう壊せばよいのでしょう？%n%n天上の華は、周囲の狭い範囲から汚染された土地を取り除き、それによって繊維状の汚染も枯らします。汚染されたオーラ節は浄化できず、汚染されたバイオームが必ず元に戻るわけでもありませんが、防壁にはなります。%n%n材料のシマーリーフは、シルバーウッドのまわりで見つけにくければ、LVの組立機で作れます。CropsNH版もあります。
 
 # Quest: Adding More Functions
 betterquesting.quest.ad_fPxg-ThqyyuppTrG1gQ.name=Adding More Functions
@@ -12616,8 +12608,8 @@ betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.name=Growing your own Knowledge!
 betterquesting.quest.eWOxG-reT9ewlW0CNXgQNQ.desc=Ever thought to yourself "man, why does everything have to use primal aspects so much?" Well now you won't have to worry about that anymore!%n%nMeet the Rosa Mysteria. When the sprout is planted on a Crystal Block, it will use that block's essence to grow into an Aspect Shard of the same type! These shards can then be thrown into your Cauldron or Alchemical Furnace, or used as Knowledge Fragments to gain Research Points. Even Mixed Crystals can be used as a catalyst!%n%n[warn]Warning: Planting Rosa Mysteria on Tainted Crystal Blocks will lead to unf§ko§rrs§ke§re§kn   §rco§kn§rs§ke§rq§kue§rnc§ke§r§ks.§r[/warn]
 
 # Quest: Solid, Directional Redstone
-betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.name=Solid, Directional Redstone
-betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.desc=Redstone Dust is a wonderful substance, but it has several limitations that only true Minecrafters can handle.%n%nLuckily, with a bit of magic the dust crystallizes and becomes much easier to handle.%n%nRedcrystal can be placed directly against a wall or ceiling, and also allows you to use a wand to toggle whether a given side sends/receives any redstone signals. This allows for nice and compact builds in places regular redstone couldn't even exist in the first place.%n%nMaybe it is possible to improve these redcrystals further to allow them to manipulate or process the signal they're receiving in some way...
+betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.name=固体の指向性レッドストーン
+betterquesting.quest.fmeCtrL-SNGqaLb208VSiQ.desc=レッドストーンの粉はすばらしい物質ですが、真のマインクラフターだけが扱える制約がいくつかあります。%n%n幸い、少し魔法を加えると粉が結晶化し、ずっと扱いやすくなります。%n%n§7《§rレッドクリスタル§7／Redcrystal》§rは壁や天井に直接設置でき、杖で指定した面が信号を送受信するかどうかを切り替えられます。これなら、普通のレッドストーンではそもそも置けない場所にも、きれいでコンパクトな回路を組めます。%n%nこのレッドクリスタルをさらに改良して、受け取った信号を何らかの形で操作したり処理したりできるかもしれません……
 
 # Quest: Alleviating Warp
 betterquesting.quest.gVqhKJAoTfudKA5xUWMzMg.name=Alleviating Warp
@@ -12714,7 +12706,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAABGw.desc=No, nooo! They have hidden it! 
 
 # Quest: The Power of Creation
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABHA.name=The Power of Creation
-betterquesting.quest.AAAAAAAAAAAAAAAAAAABHA.desc=What... What am I doing here? Where am I?! What is this place?! Oh those headaches... (It seems that the pulsating pearl you just found cured your brain from... something. Something old, probably some kind of trap to keep away unworthy ones.)%n%n§3/iskamiunlocked will tell you if you have successfully unlocked Kami. If not, try researching the Thaumium Crowbar and the Cursed Spirits Blade. Or other stuff on the vanilla pages. Or in TT. It's not really reliable anymore with all the mods and such.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAABHA.desc=What... What am I doing here? Where am I?! What is this place?! Oh those headaches... (It seems that the pulsating pearl you just found cured your brain from... something. Something old, probably some kind of trap to keep away unworthy ones.)%n%n§3/iskamiunlocked will tell you if you have successfully unlocked Kami. If not, try researching the Thaumium Crowbar and the Cursed Spirits Blade. Or other stuff on the vanilla pages. Or in TT. It's not really reliable anymore with all the mods and such.%n%n[note]If you use crops or want to start growing more of these pearls, the Primordial Berry crop §ocannot§o§r be traditionally bred, so you'll need to use a pearl as a seed to get your first. See the Green Revolution quest tab for more information in the Magical Agriculture group. [/note]
 
 # Quest: Concentrated Darkness
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABHQ.name=Concentrated Darkness
@@ -13277,7 +13269,7 @@ betterquesting.quest.7QI56xG-TnSlR4FA3EGzTw.desc=マナを生成できれば、�
 
 # Quest: The Roots of Magic
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlA.name=魔術の「根」源
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlA.desc=Botaniaに慣れ親しんだプレイヤーであれば、オーバーワールドに神秘的な花やキノコがまるでないことに気付いたことでしょう。残念ながら、あの素敵な魔法の表れを見るには、魔術方面のスキルをレベルアップさせていかなければなりません。ひとまず今は、この世界に存在するもので代替するしかありません。%n%n黄昏の森にある深い洞窟で、§7《§rきらめくキノコ§7／Glimmering Mushroom》§rを探しましょう。このキノコは花びらの代わりとして最初に使える素材です。ただし、花とは違い、育てて増殖させることはできないため、花びらの代わりとして使用する際は注意してください。
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlA.desc=Botaniaに慣れ親しんだプレイヤーであれば、オーバーワールドに神秘的な花やキノコがまるでないことに気付いたことでしょう。残念ながら、あの素敵な魔法の表れを見るには、魔術方面のスキルをレベルアップさせていかなければなりません。ひとまず今は、この世界に存在するもので代替するしかありません。%n%n黄昏の森にある深い洞窟で、§7《§rきらめくキノコ§7／Glimmering Mushroom》§rを探しましょう。このキノコは花びらの代わりとして最初に使える素材です。ただし、花とは違い、育てて増殖させることはできないため、花びらの代わりとして使用する際は注意してください。%n%n[note]すでにWitcheryの進行を進めているか、ドラコニウムを入手している場合、§7《§r花の肥料§7／Floral Fertilizer》§rで神秘的な花を育てることもできます。%n%nピュアデイジーの作製に必要になるため、このクエストでは白いキノコまたは花びらを要求しています。[/note]
 
 # Quest: Flower Grafting
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAMlQ.name=接ぎ木ならぬ接ぎ花？
@@ -14467,7 +14459,7 @@ betterquesting.quest.4EIiMvbnT4S7X8CC4X4Clw.desc=The §5§lProto-Volt Stabilizer
 
 # Quest: Streamlined Casters
 betterquesting.quest.8BGpDDsCTrOjJ4DlZN0WQw.name=§5§l§nStreamlined Casters
-betterquesting.quest.8BGpDDsCTrOjJ4DlZN0WQw.desc=The §5§lStreamlined Casters§r (SC) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.%n%nThe SC module functions as a powerful §2150%%§r speed bonus for the Foundry. If that's not enough for you, you can further amplify by another §2150%%§r for every SC module you install.%n%nIf this module paired with §5Superdense Casting Basins§r (SCB) module, you will unlock the "§6Optimum Production§r" bonus for §36§r extra parallels per voltage tier and a further §275%%§r speed increase.%n%n[note]This bonus is stackable with bonuses obtained from other modules you will unlock in the future![/note]
+betterquesting.quest.8BGpDDsCTrOjJ4DlZN0WQw.desc=The §5§lStreamlined Casters§r (SC) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.%n%nThe SC module functions as a powerful §2150%%§r speed bonus for the Foundry. If that's not enough for you, you can further amplify by another §2150%%§r for every SC module you install.%n%nIf this module paired with §5Superdense Casting Basins§r (SCB) module, you will unlock the "§6Optimum Production§r" bonus for §38§r extra parallels per voltage tier and a further §280%%§r speed increase.%n%n[note]This bonus is stackable with bonuses obtained from other modules you will unlock in the future![/note]
 
 # Quest: Copper Barrel
 betterquesting.quest.9B9CvQD0R8iLv-CBMTYZGQ.name=§c§n銅の樽
@@ -14702,7 +14694,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfg.name=§2§nマグナリウムのク�
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfg.desc=木の §7《§rクロスボウ§7／Crossbow》§r はもう古い。%n%n§7《§rマグナリウム§7／Magnalium》§r でクロスボウをアップグレードするために、 §7《§rクロスボウリム§7／Crossbow Limb》§r と §7《§rクロスボウボディ§7／Crossbow Body》§r を作ってください！
 
 # Quest: Wooden Crossbow
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfw.name=§3§n木のクロスボウ
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfw.name=§c§n木のクロスボウ
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAEfw.desc=今、より優れた長距離武器が開放されました。 §7《§rクロスボウ§7／Crossbow》§r を試すときです。%n%n§7《§rクロスボウリム§7／Crossbow Limb》§r と §7《§rクロスボウボディ§7／Crossbow Body》§r には木材を使用し、 §7《§r強化締め具§7／Tough Binding》§r には黒曜石§8(補強III)§rを使用してください。 §7《§r弓弦§7／Bowstring》§r は普通の糸で十分です。%n%n§7《§rツール鍛冶台§7／Tool Forge》§r を使用してクロスボウを組み立てましょう。%n%n§4アップグレードについて:§r%n§3レッドストーン - 装填時間の短縮%n%nラピスラズリ - 幸運%n%n§7《§3苔の玉§7／Ball of Moss》§3 - 耐久値の自動修繕 (§7《§3ソーモノミコン§7／Thaumonomicon》§3 のGTNHタブからアンロックする必要があります)§r%n%n§6ノート: 一部のMobは特定のツールからのダメージを必要とします。もし何かを撃っていてダメージを与えられなかった場合、§n*逃げてください*§r§6。そして、それを倒すのに最適な武器を見つけてください。
 
 # Quest: Fiery Bowstring
@@ -15043,7 +15035,7 @@ betterquesting.quest.EUgSnkUkT-6CHxpWCNWrbg.desc=The Infinity Egg is the best po
 
 # Quest: Superdense Casting Basins
 betterquesting.quest.EWAWhpFvQY6nvgVeXSZoNQ.name=§5§l§nSuperdense Casting Basins
-betterquesting.quest.EWAWhpFvQY6nvgVeXSZoNQ.desc=The §5§lSuperdense Casting Basin§r (SCB) module is one of the first three modules you unlock right away for use in the §nExo-Foundry§r.%n%nThe SCB adds §312§r parallels per voltage tier and reduces the minimum number of Foundry casings by §236§r, giving you space for more inputs. %n%nIf this module is paired with the §5Streamlined Casters§r (SC) module, you will unlock "§6Optimum Production§r", a bonus giving §36§r extra parallels per voltage tier and a §275%%§r speed increase.
+betterquesting.quest.EWAWhpFvQY6nvgVeXSZoNQ.desc=The §5§lSuperdense Casting Basins§r (SCB) module is one of the first three modules available for use in the §nExo-Foundry§r.%n%nThe SCB adds §312§r parallels per voltage tier and reduces the minimum number of Foundry casings by §236§r, giving you space for more inputs.%n%nIf this module is paired with the §5Streamlined Casters§r (SC) module, you will unlock "§6Optimum Production§r", a bonus giving §38§r extra parallels per voltage tier and a §280%%§r speed increase.
 
 # Quest: Infinite Water Cell
 betterquesting.quest.GR94tIXOQvC2w5SttlezrQ.name=§2§l§nInfinite Water Cell

@@ -49,7 +49,7 @@ For example, a hopper facing an Item P2P tunnel behaves as if it were connected 
   <IsometricCamera yaw="180" pitch="0" />
 </GameScene>
 
-Only ME P2P tunnels are directly craftable. Right-click any P2P tunnel with the appropriate item to attune it:
+All the ME P2P tunnels are directly craftable. Specially, right-click any P2P tunnel with the appropriate item to attune it:
 
 - ME P2P: any [cable](cables.md)
 - Redstone P2P: a redstone component

@@ -86,7 +86,7 @@ The efficiency of the <Color id="GREEN">HGTR</Color> is directly proportional to
   $$e$$: Exponent statistic of used TRISO ball
 </Latex>
 
-The efficiency of the <Color id="GREEN">HGTR</Color> is also directly proportional to the amount of TRISO balls consumed/burned per operation, as seen in the following equation. That is a maximum is 14.15 TRISO balls per operation, but the rate (without coolant) is fixed at 51 per hour regardless of the duration since both variables scale linearly with efficiency.
+The efficiency of the <Color id="GREEN">HGTR</Color> is also directly proportional to the amount of TRISO balls consumed/burned per operation, as seen in the following equation. That is a maximum of 14.15 TRISO balls per operation, but the rate (without coolant) is fixed at 51 per hour regardless of the duration since both variables scale linearly with efficiency.
 
 <Latex formula="-\text{Balls/Operation} = \text{TRISO Balls} \times \frac{\pi - 3}{100} \times \text{Efficiency}"/>
 

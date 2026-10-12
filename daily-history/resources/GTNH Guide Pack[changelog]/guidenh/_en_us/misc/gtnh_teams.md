@@ -12,7 +12,7 @@ date: 2026-05-30
 # GTNH Teams
 New to 2.9 is a new team system, but don't raise your pitchforks yet! This system intends to replace effectively every team system currently in the pack!
 
-All players will by default be in a team (of just yourself), and can the standard commands are listed at the end of this page. This team system currently works with the [Vending Machine](../qol/vending_machine.md) and [Visual Prospecting](../qol/shared_prospecting.md), but the dev team is working to slowly move everything across to this system to avoid the barrage of different existing team systems.
+All players will by default be in a team (of just yourself), and the standard commands are listed at the end of this page. This team system currently works with the [Vending Machine](../qol/vending_machine.md) and [Visual Prospecting](../qol/shared_prospecting.md), but the dev team is working to slowly move everything across to this system to avoid the barrage of different existing team systems.
 
 ## Commands:
 | Command   | Use    |

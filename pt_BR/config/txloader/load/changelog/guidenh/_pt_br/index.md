@@ -8,25 +8,25 @@ author: Skorched
 date: 2026-05-15
 ---
 
-# What's New (2.9.0 Changelog)
+# O que há de novo (2.9.0 Changelog)
 
-The wait is over <PlayerName />... GTNH 2.9 is finally out!
-So much has changed that it can be hard to keep track, even if you actively follow the pack's development, so this page aims to give a brief overview of some of the changes you can expect to encounter in your playthrough! As with everything in the pack, this is a work in progress, and any suggestions can be given through our <a href="https://discord.gg/gtnh">Discord Server</a>.
+A espera acabou <PlayerName />... GTNH 2.9 finalmente saiu!
+Tanto mudou que pode ser difícil de acompanhar, até se você ativamente segue o desenvolvimento do pack, então esta página se destina a apresentar um breve resumo de algumas mudanças que você vai perceber na sua jogatina! Como qualquer coisa no pack, isto é um trabalho inacabado, e qualquer sugestão pode ser enviado para o nosso <a href="https://discord.gg/gtnh">Servidor no Discord</a>.
 
 > [!NOTE]
-> This is not an exhaustive list of changes in 2.9.x. Between minor bug fixes, and optimisations, there are many things that just cannot fit on this list. This list instead intends to give an idea of some of the *larger* changes or features added in this version.
+> Esta não é uma lista exaustiva das mudanças em 2.9.x. Entre a correção de pequenos erros e otimizações, são muitas as coisas que não cabem nesta lista. Essa lista pretende te dar uma vaga ideia das *grandes* mudanças e novos recursos adicionados nesta versão.
 
-# Changes
-The changes made can be generally grouped into categories as shown below, however there are some that "overlap" multiple categories. In that case, they will show in both categories:
+# Mudanças
+As mudanças feitas podem ser generalizadas em categorias como mostrado abaixo, no entanto, há algumas que sobrepõem múltiplas categorias. Neste caso, elas aparecem em ambas as categorias:
 ## [Applied Energistics](./ae2/ae2.md)
 ## [CropsNH](./crops/crops.md)
-## [Magic Changes](./magic/magic.md)
-## [Miscellaneous Changes](./misc/misc.md)
-## [New Multi-blocks](./multis/multis.md)
-## [Quality of Life](./qol/qol.md)
-## [Structure Reworks](./reworks/reworks.md)
+## [Mudanças de Mágica](./magic/magic.md)
+## [Mudanças Miscelâneas](./misc/misc.md)
+## [Novos Multi-blocks](./multis/multis.md)
+## [Qualidade de Vida](./qol/qol.md)
+## [Estruturas Refeitas](./reworks/reworks.md)
 
-# What Am I Even Reading?!
-You are currently reading a changelog made via a new mod inclusion, [GuideNH](./misc/guide.md) in 2.9! This mod will (eventually) come with lots of guides on different aspects of the pack, and offers a large range of methods to showcase ideas. For more information, check out the page!
+# Que diabos eu tô lendo?!
+Você está lendo um changelog feito através da inclusão de um novo mod, [GuideNH](./misc/guide.md) em 2.9! Esse mod vai (eventualmente) vir com muitos guias sobre diferentes aspectos do pack, e vai oferecer um grande leque de métodos para demonstração de ideias. Para mais informações, verifique a página!
 
-If you feel you have something to contribute, follow the link on the discord, and find the `#guide-dev` channel to get stuck in!
+Se você sente que tem algo para contribuir, siga o link do discord e encontre o canal `#guide-dev` para meter a mão na massa!

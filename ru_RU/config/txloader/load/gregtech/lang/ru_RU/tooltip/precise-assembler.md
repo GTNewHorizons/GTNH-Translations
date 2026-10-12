@@ -7,7 +7,7 @@
 {gray:{hr}}
 Нормальный режим позволяет использовать стандартные рецепты сборщика
 Тир {white:прецизионного корпуса} определяет {gold:параллели}
-{green:Грубый}/{blue:Mk-I}/{light_purple:MK-II}/{gold:MK-III}/{red:MK-IV}->{green:16}/{blue:32}/{light_purple:64}/{gold:128}/{red:256} параллелей
+{green:Грубый}/{blue:Mk-I}/{light_purple:Mk-II}/{gold:Mk-III}/{red:Mk-IV}->{green:16}/{blue:32}/{light_purple:64}/{gold:128}/{red:256} параллелей
 {lang-eval:GT5U.MBTT.Speed.Base:{var:speed}}
 {gray:{hr}}
 Обшивка механизма ограничивает тир вольтажа, на котором может работать механизм, обшивка механизма {dark_red:{underline:UHV}} тира разблокирует все вольтажи.

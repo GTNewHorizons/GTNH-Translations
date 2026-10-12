@@ -16,7 +16,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15545"/>
 </GameScene>
-The <Color id="GREEN">Algae Farm</Color> is an MV tier multiblock for cultivating different types of algae. The <Color id="GREEN">Algae Farm</Color> requires no inputs other than power to run and produces no pollution. The duration of each iteration and the type/amount of algae produced depends on the tier of the energy hatch. Many outputs are not guaranteed and instead have a 90% chance of being produced. Optionally, supply compost through an input bus to boost the tier of the machine by one. 
+The <Color id="GREEN">Algae Farm</Color> is an MV tier multiblock for cultivating different types of algae. The <Color id="GREEN">Algae Farm</Color> requires no inputs other than power to run and produces no pollution. The duration of each iteration and the type/amount of algae produced depend on the tier of the energy hatch. Many outputs are not guaranteed and instead have a 90% chance of being produced. Optionally, supply compost through an input bus to boost the tier of the machine by one. 
 
 <br clear="all"/>
 
@@ -33,7 +33,7 @@ The <Color id="GREEN">Algae Farm</Color> has one tiered component. The glass det
 <Color id="GREEN">Algae Farms</Color> may wallshare each of their sides to save on casings, glass, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
 
 ## Usage
-The <Color id="GREEN">Algae Farm</Color> requires no inputs other than power to run and produces no pollution. The duration of each iteration and the type/amount of algae produced depends on the tier of the energy hatch. Many outputs are not guaranteed and instead have a 90% chance of being produced. For example, an HV Algae Farm always produces 1 brown algae and 90% of the time produces 4 more, for a total of 5 per iteration and an average of 0.066 per second.
+The <Color id="GREEN">Algae Farm</Color> requires no inputs other than power to run and produces no pollution. The duration of each iteration and the type/amount of algae produced depend on the tier of the energy hatch. Many outputs are not guaranteed and instead have a 90% chance of being produced. For example, an HV Algae Farm always produces 1 brown algae and 90% of the time produces 4 more, for a total of 5 per iteration and an average of 0.066 per second.
 
 Notice the improved scaling for LuV and above. The recipe length is halved with each tier instead of being reduced by 10 seconds which drastically increases the average algae produced. The very last tier is currently unobtainable because there are no craftable energy hatches above UXV. 
 

@@ -2,7 +2,7 @@
 navigation:
   title: Multiblock Machines
   icon: structurelib:item.structurelib.constructableTrigger
-  parent: ./gtnh-basics-index.md
+  parent: ./gtnh_basics_index.md
 ---
 
 # Multiblock Machines
