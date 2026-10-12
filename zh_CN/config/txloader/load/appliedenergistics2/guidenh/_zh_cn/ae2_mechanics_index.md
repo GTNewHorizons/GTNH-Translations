@@ -1,11 +1,11 @@
 ---
 navigation:
-  title: AE2 Mechanics
+  title: AE2 机制
   icon: appliedenergistics2:item.ToolCertusQuartzWrench
   position: 3
   parent: /index.md
 ---
 
-# AE2 Mechanics
+# AE2 机制
 
 <SubPages />

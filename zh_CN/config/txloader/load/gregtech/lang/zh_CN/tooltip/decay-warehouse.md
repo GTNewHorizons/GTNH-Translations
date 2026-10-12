@@ -1,11 +1,11 @@
-Accelerates the natural decay of radioactive isotopes
-Decay speed scales with the isotope's half-life and the amount stored
-Isotopes decay whether or not the warehouse is enabled or powered
+加速放射性同位素的自然衰变
+衰变速度取决于同位素的半衰期
+无论机器是否启动或供电，同位素都会衰变
 {gray:{hr}}
-Capacity is 1/400th of the {white:Super Chest}
-Only one isotope type can be stored at a time
-Insert isotopes through the input bus at a max rate of {aqua:EU/512} per second
-Power is only consumed when inputting or outputting isotopes
+机器的存储空间等于{white:超级箱}的储量除以400
+只能同时存储一种同位素
+每秒至多通过输入总线输入{aqua:EU/512}个同位素
+只有在输入或输出同位素时才会消耗电力
 {gray:{hr}}
-Right-click the controller with a {white:Screwdriver} to dump stored isotopes to the output bus
-Right-click the controller with a {white:Plunger} (or break it) to void the contents of the warehouse
+用{white:螺丝刀}右键控制器以将所有存储的同位素输出到输出总线
+用{white:搋子}右键控制器（或破坏控制器）以销毁衰变库内容物

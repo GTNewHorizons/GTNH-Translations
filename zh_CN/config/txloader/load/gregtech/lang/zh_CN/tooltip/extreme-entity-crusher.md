@@ -17,4 +17,4 @@
 手持{white:螺丝刀}右键启用{light_purple:仪式模式}
 手持{white:螺丝刀}Shift+右键禁用{light_purple:精英怪生成}
 手持{white:电烙铁}右键启用{light_purple:生物动画}
-{light_purple:支持无损超频！}
+{light_purple:支持 4/4 无损超频！}

@@ -1,2 +1,2 @@
-Grows Algae!
-Provide {gold:Compost} to boost production by {green:1} tier
+藻类养殖!
+提供堆肥可提高 {green:1} 级产量

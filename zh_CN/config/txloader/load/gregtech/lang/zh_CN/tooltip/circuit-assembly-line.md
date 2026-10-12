@@ -1,12 +1,12 @@
-{gold:Circuit Assembly Line}:
-- Imprint by placing a {white:Circuit Imprint} in the controller
-- Each machine can only be imprinted once
-- {yellow:Imprints are permanent and circuit specific}
+{gold:电路装配线模式}：
+- 通过将{white:压印电路}放入控制器，为这台机器进行铭刻
+- 每台电路装配线只能铭刻一次
+- 铭刻永久生效，且将绑定对应电路
 {gray:{hr}}
-{gold:Circuit Assembler}:
-- Minimum Length: {green:{var:min_length}}
-- Recipe tier in {white:Circuit Assembler} mode is at most {aqua:Energy Hatch tier - 1}
-- Supports {white:Crafting Input Buffer/Bus} and allows input separation
+{gold:电路组装机模式}：
+- 最小长度：{green:{var:min_length}}
+- {gold:此模式}下的配方等级最高为{aqua:能源仓等级-1}
+- 支持{white:样板输入总成/总线} ，并允许输入隔离
 {gray:{hr}}
-Right-click the controller with a {white:Screwdriver} to change mode
-{light_purple:Performs 4/4 Perfect Overclock}
+手持{white:螺丝刀}右键控制器以切换运行模式
+{light_purple:支持 4/4 无损超频！}

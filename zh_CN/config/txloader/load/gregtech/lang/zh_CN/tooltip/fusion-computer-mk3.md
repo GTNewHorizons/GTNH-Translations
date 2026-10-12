@@ -1,7 +1,7 @@
-Critical Power!!!
-{aqua:{var:power}} EU/t and {aqua:{var:capacity}} EU capacity per {white:Energy Hatch}
-The total combined EU capacity must be greater than the recipe start cost to ignite
-Can only run {var:tier}§7 recipes and below
+临界功率！！！
+每个能源仓提供{aqua:{var:power}} EU/t的输入与{aqua:{var:capacity}M} EU的容量
+能源仓数*容量需要高于配方启动能量
+只能运行{var:tier}§7及以下的配方
 {gray:{hr}}
-{yellow:Changing recipes consumes the start cost again}
-{light_purple:Performs 2/2 Perfect Overclocks}
+{yellow:更换配方会再次消耗启动能量}
+{light_purple:执行 2/2 无损超频}

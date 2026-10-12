@@ -1,3 +1,3 @@
-Crafts complex machine parts {light_purple:(LuV+)} from ordered inputs, consumed slice by slice
-Items & Fluids are inserted in NEI order, one per slice
-{yellow:Does not run Assembler recipes}
+根据逐片有序输入制造复杂的机器部件{light_purple:（LuV+）}
+物品与流体按照NEI中的顺序输入，每片对应一格
+{yellow:无法运行组装机配方}

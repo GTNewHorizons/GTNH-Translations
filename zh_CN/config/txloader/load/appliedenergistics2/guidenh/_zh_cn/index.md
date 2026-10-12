@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Applied Energistics 2
+  title: 应用能源2
   icon: appliedenergistics2:tile.BlockController
   position: 0
   recommend: 1
@@ -9,25 +9,25 @@ item_id: appliedenergistics2:tile.BlockController
 
 ![Logo](../assets/logo.png)
 
-# What is Applied Energistics 2?
+# 应用能源2是什么？
 
-Applied Energistics 2 adds components and mechanics to provide logistics and storage solutions. You can replace your
-massive room full of chests with a compact ME Network, but that's just the beginning of things.
-Applied Energistics is meant to work with and allow automation of other mods in a modpack. You can set up your system to,
-with a single click, craft all of the prerequisites (and the final result) of a complex crafting chain, or keep certain
-quantities of items in stock, crafting more as needed, or simply transfer items around your base.
+应用能源2添加了一些组件与机制，为物流与存储问题提供解决方案。你可以把那间
+堆满箱子的大房间替换成紧凑的ME网络，但这仅仅是开始。
+应用能源设计了与整合包中的其他模组的联动，可以实现自动化。你可以把系统设置为：
+只需轻轻一点，就能合成复杂合成链中所有必要的前体（以及终产物），或是维持一定
+数量的物品库存、在需要时合成更多，抑或仅仅是在你的基地里传输物品。
 
-* [Getting Started](getting_started.md)
-* [AE2 Mechanics](ae2_mechanics_index.md)
-* [Tips and Practical Examples](tricks_example_index.md)
-* [Tips and Tricks](tips_and_tricks.md)
-* [Items & Blocks](items_blocks_index.md)
+* [新手上路](getting_started.md)
+* [AE2机制](ae2_mechanics_index.md)
+* [提示与实用示例](tricks_example_index.md)
+* [提示与技巧](tips_and_tricks.md)
+* [物品与方块](items_blocks_index.md)
 
-# How To Use This Guide
+# 如何阅读该教程？
 
-* Many pages have interactive scenes. If a scene has ![Plus](../assets/images/plus.png) and ![Minus](../assets/images/minus.png) zoom buttons beside it, you can move the camera around.
-* Left-click and drag to rotate the scene. Right-click and drag to pan it.
-* Hover over blocks or annotations to see their tooltips.
+* 许多页面都有可交互场景。如果场景旁边有![Plus](../assets/images/plus.png)和![Minus](../assets/images/minus.png)缩放按钮，你就可以移动视角。
+* 左键拖动以旋转场景，右键拖动以平移场景。
+* 将鼠标悬停在方块或标注上，即可查看它们的工具提示。
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/autocraft_setup_greebles.snbt" />

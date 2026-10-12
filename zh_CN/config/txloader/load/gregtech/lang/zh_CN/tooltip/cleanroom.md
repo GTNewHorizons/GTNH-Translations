@@ -1,8 +1,8 @@
-Consumes {aqua:{var:startup_eu} EU/t} when first turned on, and {aqua:{var:idle_eu} EU/t} once at {green:100%} efficiency
-Can accept {green:{var:lv_amperage}A} from an {var:voltageTier_LV} energy hatch
-Will overclock and gain efficiency faster starting from {var:voltageTier_HV}
+初次启动时消耗 {aqua:{var:startup_eu} EU/t}，到达{green:100%}洁净度后消耗 {aqua:{var:idle_eu} EU/t}
+可以从{var:voltageTier_LV}能源仓中接受 {green:{var:lv_amperage}A} 电流输入。
+从{var:voltageTier_HV}开始可以超频，洁净度增长更快。
 {gray:{hr}}
-{red:Warning:}
-Below {green:100%} efficiency, machines inside have a chance to void outputs!
-Each maintenance issue reduces maximum efficiency by {green:{var:maint_penalty}%}
-{yellow:Generating any pollution inside causes the cleanroom to shut down}
+{red:警告:}
+低于 {green:100%} 洁净度时，内部机器有概率丢失产物！
+每个维护问题降低 {green:{var:maint_penalty}%} 最大洁净度。
+{yellow:内部机器产生的污染会导致超净间关机。}

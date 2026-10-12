@@ -1,2 +1,2 @@
-Converts {gold:Logs} into {gold:Brittle Charcoal Blocks}
-Automatically starts when formed
+将 {gold:原木} 转换为 {gold:易碎的木炭块}
+结构成型后会自动启动
