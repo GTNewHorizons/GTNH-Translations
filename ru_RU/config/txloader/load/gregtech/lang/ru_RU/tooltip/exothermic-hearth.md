@@ -1,10 +1,10 @@
-{aqua:-5%} EU Usage per {red:{var:discount_heat}K} above the recipe requirement
+{aqua:-5%} расхода EU за каждые {red:{var:discount_heat}K} выше требований рецепта
 {gray:{hr}}
-Increases Heat by {red:{var:heat_per_tier}K} for every {white:Voltage} tier past {aqua:{var:start_tier}}
-Every {red:{var:perfect_oc_heat}K} over the recipe requirement grants 1 {light_purple:Perfect Overclock}
+Увеличивает нагрев на {red:{var:heat_per_tier}K} за каждый тир {white:вольтажа} выше {aqua:{var:start_tier}}
+Каждые {red:{var:perfect_oc_heat}K} выше требований рецепта дают 1 {light_purple:идеальный разгон}
 {gray:{hr}}
-While active, the machine will heat up and multiply its parallels up to {gold:{var:max_multiplier}x}
-Takes {light_purple:{var:heatup_minutes} minutes} of constant running to reach maximum multiplier
-While not running, the machine will rapidly cooldown
-Optionally supply {red:{var:pyrotheum}/s} of {gold:{fluid:pyrotheum}} to speed up heating by {red:{var:pyrotheum_speedup}x}
-The drain rate of {gold:{fluid:pyrotheum}} will increase {light_purple:linearly} with the parallel multiplier
+Во время работы механизм нагревается и умножает параллели вплоть до {gold:{var:max_multiplier}x}
+Требуется {light_purple:{var:heatup_minutes} мин.} непрерывной работы, чтобы достичь максимального множителя
+Без работы механизм быстро остывает
+Можно подавать {red:{var:pyrotheum}/с} жидкости {gold:{fluid:pyrotheum}}, чтобы ускорить нагрев в {red:{var:pyrotheum_speedup} раз}
+Расход жидкости {gold:{fluid:pyrotheum}} растёт {light_purple:линейно} вместе с множителем параллелей

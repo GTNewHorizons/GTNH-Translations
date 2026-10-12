@@ -1,3 +1,3 @@
-Crafts complex machine parts {light_purple:(LuV+)} from ordered inputs, consumed slice by slice
-Items & Fluids are inserted in NEI order, one per slice
-{yellow:Does not run Assembler recipes}
+Создаёт сложные детали {light_purple:(LuV+)} механизмов из упорядоченных компонентов, расходуемых по секциям
+Предметы и жидкости вставляются в порядке NEI, по одному на каждую секцию
+{yellow:Не создает рецепты Сборщика}

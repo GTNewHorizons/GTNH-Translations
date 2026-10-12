@@ -1,2 +1,2 @@
-Grows Algae!
-Provide {gold:Compost} to boost production by {green:1} tier
+Выращивает водоросли!
+Добавьте {gold:компост}, чтобы повысить производство на {green:1} тир

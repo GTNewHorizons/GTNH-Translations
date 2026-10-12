@@ -30,7 +30,7 @@ An autocrafting setup consists of 3 things:
 Here is what happens:
 
 1.  Something creates a crafting request. This can be you in the terminal clicking on something autocraftable,
-    or an export bus or interface with a crafting card requesting one of the item they're set to export/stock.
+    or an export bus or interface with a crafting card requesting one of the items they're set to export/stock.
 
 *   (**IMPORTANT:** use whatever you have bound to "pick block" (usually middle-mouse) to request crafts of something you already have in stock, this can conflict with inventory sorting mods),
 
@@ -40,7 +40,7 @@ Here is what happens:
     In the case of a crafting table recipe (a "crafting pattern") this will be a <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />.
     In the case of a non-crafting recipe (a "processing pattern") this will be some other block or machine or elaborate redstone-controlled setup.
 
-4.  The result of the craft is returned to the system somehow, be it by import bus, interface, or pushing the result back into a interface.
+4.  The result of the craft is returned to the system somehow, be it by import bus, interface, or pushing the result back into an interface.
     **Note that an "item entering system" event must occur, you can't just pipe the result into a chest with a <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> on it.**
 
 5.  If that craft is a prerequisite for another craft in the request, the items are stored in that crafting CPU and then used in that craft.
@@ -61,18 +61,18 @@ There are several different types of pattern for different things:
 *   <ItemLink id="appliedenergistics2:item.ItemEncodedPattern" />s encode recipes made by a crafting table. They can be put directly in a <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> to make it
     craft the result whenever given the ingredients, but their main use is in a <ItemLink id="appliedenergistics2:tile.BlockInterface" /> next to a molecular assembler.
     ME Interfaces have special behavior in this case, and will send the relevant pattern along with the ingredients to adjacent assemblers.
-    Since assemblers auto-eject the results of crafts to adjacent inventories, an assembler on a interface is all that is needed to automate crafting patterns.
+    Since assemblers auto-eject the results of crafts to adjacent inventories, an assembler on an interface is all that is needed to automate crafting patterns.
 
 ***
 
 *   <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />s are where a lot of flexibility in autocrafting comes from. They are the most generalized type, simply
-    saying "if a interface pushes these ingredients to adjacent inventories, the ME system will receive these items at some point in the
+    saying "if an interface pushes these ingredients to adjacent inventories, the ME system will receive these items at some point in the
     near or distant future". They are how you will autocraft with almost any modded machine, or furnaces and the like. Because they are so
     general in use and do not care what happens between pushing ingredients and receiving the result, you can do some really funky stuff, like inputting
     the ingredients into an entire complex factory production chain which will sort out stuff, take in other ingredients from infinitely-producing
     farms, print the entirety of the Bee Movie script, the ME system does not care as long as it gets the result the pattern specifies. In fact,
     it doesn't even care if the ingredients are in any way related to the result. You could tell it "1 cherry wood planks = 1 nether star" and have
-    your wither farm kill a wither upon receiving a cherry wood planks and it would work.
+    your wither farm kill a wither upon receiving cherry wood planks and it would work.
 
 The source also registers <ItemLink id="appliedenergistics2:item.ItemTunnelPattern" />, a processing-pattern variant used only by tunnel-pattern setups.
 
@@ -108,7 +108,7 @@ Crafting CPUs are made out of:
     intermediate ingredients involved in a craft, so larger or more storages are required for the CPU to handle crafting jobs
     with more ingredients.
 *   (Optional) <ItemLink id="appliedenergistics2:tile.BlockAdvancedCraftingUnit" />s, they make the system send out ingredient batches from interfaces more often.
-    This allows, say, a interface surrounded by 6 molecular assemblers to send ingredients to (and thus use) all 6 at once instead of just one.
+    This allows, say, an interface surrounded by 6 molecular assemblers to send ingredients to (and thus use) all 6 at once instead of just one.
 *   (Optional) <ItemLink id="appliedenergistics2:tile.BlockCraftingMonitor" />s, they display the job the CPU is handling at the moment. They can be colored via a <ItemLink id="appliedenergistics2:item.ToolColorApplicator" />
 *   (Optional) <ItemLink id="appliedenergistics2:tile.BlockCraftingUnit" />s, they simply fill space in order to make the CPU a rectangular prism.
 
@@ -178,7 +178,7 @@ then pushes the result to adjacent inventories.
 
 Their main use is next to a <ItemLink id="appliedenergistics2:tile.BlockInterface" />. ME Interfaces have special behavior in this case,
 and will send information about the relevant pattern along with the ingredients to adjacent assemblers. Since assemblers auto-eject the results of
-crafts to adjacent inventories (and thus into the return slots of the interface), an assembler on a interface
+crafts to adjacent inventories (and thus into the return slots of the interface), an assembler on an interface
 is all that is needed to automate crafting patterns.
 
 <GameScene zoom="4" showBackground={false}>
