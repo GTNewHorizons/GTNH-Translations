@@ -52,7 +52,7 @@ The <Color id="GREEN">LNE</Color> can take a base in the input bus to boost the 
 | Francium Hydroxide | 500% | 5 / minute |
 
 ### Decay Boosting
-The <Color id="GREEN">LNE</Color> can accept <Color id="RED">Robot Arms</Color> in the input bus to increase the Decay Boost. Decay boosted is calculated as $$1.2^{\text{Arm Tier}}$$ if <Color id="GREEN">IV</Color> or below, or $$1.4^{\text{Arm Tier}}$$ if <Color color="#ff55ff">LuV</Color> or above. Insert multiple robot arms up to a maximum of 16 to multiply that Decay Boost by $$\sqrt{\text{Arm Count}}$$. Every minute, the <Color id="GREEN">LNE</Color> has a chance to void __one__ robot arm, calculated by
+The <Color id="GREEN">LNE</Color> can accept <Color id="RED">Robot Arms</Color> in the input bus to increase the Decay Boost. Decay boost is calculated as $$1.2^{\text{Arm Tier}}$$ if <Color id="GREEN">IV</Color> or below, or $$1.4^{\text{Arm Tier}}$$ if <Color color="#ff55ff">LuV</Color> or above. Insert multiple robot arms up to a maximum of 16 to multiply that Decay Boost by $$\sqrt{\text{Arm Count}}$$. Every minute, the <Color id="GREEN">LNE</Color> has a chance to void __one__ robot arm, calculated by
 <Latex formula="\text{Void Chance} = \frac{\text{Arm Count}}{45 \times (1+\text{Arm Tier})}"/>
 
 ### Toxic Residue

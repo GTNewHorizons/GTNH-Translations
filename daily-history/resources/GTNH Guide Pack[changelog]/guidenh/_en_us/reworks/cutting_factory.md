@@ -26,7 +26,7 @@ The <Color id="GREEN">Industrial Cutting Factory (ICF)</Color> is an IV tier mul
 > - Power: ALSO linked to sawblades (min 60%, previously 75%)
 
 ## Construction
-The <Color id="GREEN">ICF</Color> has no tiered components. The glass can be any tier and has no effect on the operation on the machine. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. One <Color id="GREEN">Multi-Amp Energy Hatch</Color> is allowed if using a transcendent metal sawblade. Use a screwdriver on the controller to disable animations. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass. 
+The <Color id="GREEN">ICF</Color> has no tiered components. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. One <Color id="GREEN">Multi-Amp Energy Hatch</Color> is allowed if using a transcendent metal sawblade. Use a screwdriver on the controller to disable animations. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass. 
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15540"/><ItemImage id="gregtech:gt.blockmachines:15540"/>

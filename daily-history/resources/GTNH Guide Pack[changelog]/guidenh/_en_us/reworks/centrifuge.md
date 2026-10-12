@@ -16,7 +16,7 @@ date: 2026-05-27
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15512"/>
 </GameScene>
-The <Color id="GREEN">Industrial Centrifuge (IC)</Color> is an EV tier multiblock for centrifuging dusts, liquids, and other items into their constituent parts. It is a direct upgrade from the singleblock centrifuge. It is superseded in ZPM by the <Color id="RED">Spinmatron-2737</Color>
+The <Color id="GREEN">Industrial Centrifuge (IC)</Color> is an EV tier multiblock for centrifuging dusts, liquids, and other items into their constituent parts. It is a direct upgrade from the singleblock centrifuge. It is superseded in ZPM by the <Color id="RED">Spinmatron-2737</Color>.
 <br clear="all"/>
 
 > [!NOTE]

@@ -12,7 +12,7 @@ There are many ways of automating [processors](../items_blocks/processors.md), a
 This general layout can be done with any type of item logistics pipe or conduit or duct or whatever the mod calls it, as
 long as you can filter it.
 
-![The Process FLow Diagram](../assets/images/processor_flow_diagram.png)
+![The Process Flow Diagram](../assets/images/processor_flow_diagram.png)
 
 Here is detailed how to do it with just AE2, using ["pipe" subnets](pipe_subnet.md).
 

@@ -36,7 +36,7 @@ The Beam crafter is a single multiblock unlike the Beamline. Beamline pipes are 
 ## Usage:
 If a valid craft is detected with the items and fluids provided, a craft will start. Only at this point will the Beam Crafter begin to accept particles through the beamline input hatches. If the correct particles are present in this beam, they will be consumed to provide progress to the craft. The recipe does __not__ stop if the particle beams are interrupted, but progress will halt. Energy is consumed constantly whilst the craft is underway, regardless of the particle amount being provided.
 
-The machine will buffer particles, but only whilst running as otherwise it cannot accept particles
+The machine will buffer particles, but only whilst running as otherwise it cannot accept particles.
 
 ## Routing:
 Alongside the Beam Crafter, there are three new logistical multiblocks designed for routing beams. They are the <Color id="GREEN">Beam Mirror</Color>, <Color id="RED">Beam Splitter</Color>, and <Color id="BLUE">Beam Stabilizer</Color>.

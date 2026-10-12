@@ -17,7 +17,7 @@ date: 2026-05-27
 </GameScene>
 The <Color id="GREEN">Naquadah Fuel Refinery (NFR)</Color> is a UHV tier multiblock for manufacturing Mk-III+ naquadah based liquid fuels, which are used almost exclusively by the Large Naquadah Reactor (LNR) <ItemImage id="gregtech:gt.blockmachines:15537"/> to generate power. All fuels have at least one alternative recipe for making them more efficiently, but with more expensive materials. The <Color id="GREEN">NFR</Color> cannot be overclocked by increasing the input voltage, but rather by upgrading the field restriction coils. There are four tiers available and each one unlocks new recipes, performs an additional perfect overclock for lower tier recipes, and offers 4 parallels. 
 
-A spreadsheet for power planning including the NFR can be found [here](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?gid=589078529#gid=589078529)
+A spreadsheet for power planning, including the NFR, can be found [here](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]

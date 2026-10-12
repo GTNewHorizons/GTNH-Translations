@@ -15,7 +15,7 @@ date: 2026-05-25
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:14050" />
 </GameScene>
-The <Color id="GREEN">Exo-Foundry</Color> is a UEV tier multiblock for casting liquid metals into molds at a massive scale. The <Color id="GREEN">Exo-Foundry</Color> is a direct upgrade from the <ItemLink id="gregtech:gt.blockmachines:368" /> <ItemImage id="gregtech:gt.blockmachines:368" /> because it can run significantly faster with a higher energy discount and many more parallels. The exact values vary significantly with the amount and number of modules installed. There are seven modules in total and each one grants a unique bonus to the machine but there are only 2/3/4 slots depending on the tier of the structure. The modules can all be different, or potentially the same to stack bonuses. There is also four module pairings that offer one-time bonuses for even better performance. 
+The <Color id="GREEN">Exo-Foundry</Color> is a UEV tier multiblock for casting liquid metals into molds at a massive scale. The <Color id="GREEN">Exo-Foundry</Color> is a direct upgrade from the <ItemLink id="gregtech:gt.blockmachines:368" /> <ItemImage id="gregtech:gt.blockmachines:368" /> because it can run significantly faster with a higher energy discount and many more parallels. The exact values vary significantly with the amount and number of modules installed. There are seven modules in total and each one grants a unique bonus to the machine but there are only 2/3/4 slots depending on the tier of the structure. The modules can all be different, or potentially the same to stack bonuses. There are also four module pairings that offer one-time bonuses for even better performance. 
 <br clear="all"/>
 
 ## Construction:
@@ -42,7 +42,7 @@ Select which modules to use in the GUI of the controller and then use the Multib
 # Modules:
 The <Color id="GREEN">Exo-Foundry</Color> runs at <Color id="RED">150%</Color> speed and offers <Color id="BLUE">16</Color> parallels per voltage tier without any modules, as seen in the following table. It also cannot run UIV+ recipes without the Heliocast Reinforcement <ItemImage id="gregtech:gt.foundrycasings:7" /> module. That is slower, less efficient, and more restrictive than the <Color id="RED">Mass Solidifier</Color> at maximum speed, but those are only the base stats of the machine and are improved significantly with every installed module. The effective voltage for determining parallels is NOT capped by the tier of the energy hatch like overclocks are, but there must be multiple energy hatches regardless of the number of amps. 
 
-In the following table, "SCB" refers to the <Color id="BLUE">Superdense Casting Basin</Color> modules, and "SCB+" refers to the same module with pairing bonuses, both of which will be explained later in this section
+In the following table, "SCB" refers to the <Color id="BLUE">Superdense Casting Basin</Color> modules, and "SCB+" refers to the same module with pairing bonuses, both of which will be explained later in this section.
 ### Parallels:
 
 |  | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
@@ -195,4 +195,4 @@ There are many possible combinations of modules and it is not entirely obvious w
 
 At least one HR module is required for running UIV+ recipes, but the most optimal setups do not always have that. Therefore, it is recommended to have at least two Exo-Foundries and split recipes based on their voltage tier. 
 
-For specific optimal setups at each Voltage tier, check the bottom sections of the [Wiki Page!](https://wiki.gtnewhorizons.com/wiki/Exo-Foundry)
+For specific optimal setups at each Voltage tier, check the bottom sections of the [Wiki Page!](https://wiki.gtnewhorizons.com/wiki/Exo-Foundry).

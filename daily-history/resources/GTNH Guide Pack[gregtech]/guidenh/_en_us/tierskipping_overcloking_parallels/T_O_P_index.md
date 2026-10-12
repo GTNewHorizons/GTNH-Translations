@@ -33,7 +33,7 @@ The machine can only start a recipe if **rated power >= actual recipe power** an
 
 ## Singleblock Machines
 
-Singleblock machines usually have rated power equal to 1A x standard voltage. Exceptions include the Thermal Centrifuge at 2A,and the Arc Furnace at 3A,and the singleblock Mass Fabricator consumed current varies according to different voltage levels from 8A to lower 1A.
+Singleblock machines usually have rated power equal to 1A x standard voltage. Exceptions include the Thermal Centrifuge at 2A, the Arc Furnace at 3A, and the singleblock Mass Fabricator whose consumed current varies according to different voltage levels from 8A to lower 1A.
 
 ## Multiblock Machines
 

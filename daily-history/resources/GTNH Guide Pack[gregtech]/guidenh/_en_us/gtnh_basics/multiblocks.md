@@ -23,7 +23,7 @@ Although multiblocks come in a variety of shapes, sizes, and casings, there are 
 
 ## Controller
 
-The controller is the heart of the multiblock. It determines the placement and orientation of the entire structure as well as the operational settings of the machine. Right-click the controller to open the GUI which contains (1) the name of the machine at the top, (2) the status of the machine, (3) a sound toggle, (4) a few configurable parameters, (5) the power panel, and (6) any manual overrides. A short description of each of the configurable parameters and manual overrides are provided below.
+The controller is the heart of the multiblock. It determines the placement and orientation of the entire structure as well as the operational settings of the machine. Right-click the controller to open the GUI which contains (1) the name of the machine at the top, (2) the status of the machine, (3) a sound toggle, (4) a few configurable parameters, (5) the power panel, and (6) any manual overrides. A short description of each of the configurable parameters and manual overrides is provided below.
 
 - **Void Mode** - Determines the behavior of the multiblock when there is no room in the output bus and/or output hatch. Choose to void only items, only fluids, or both. Void nothing means temporarily pause the machine until there is enough room for all products.
 - **Input Separation** - Prevents SOLID ingredients in different input buses from being used in the same recipe, including any programmed circuits. This is particularly useful for multiblocks with a high potential for recipe conflicts.
@@ -151,7 +151,7 @@ Although multiblocks operate very similarly to [singleblock machines](../singleb
 
 ## Overclocking
 
-An overclock occurs when the supplied power is at least 1 voltage tier higher than required by the recipe. Singleblocks can only achieve this with higher tier machines, but multiblocks can use higher tier and/or multiple energy hatches. The player first encounters overclocking when using the [Electric Blast Furnace](../multiblocks/lv/electric_blast_furnace.md); two energy hatches are needed to supply 4A of LV power, simulating 1A of MV power. There are two different types of overclocks and the one used depends on the multiblock itself. Those under "mixed" can use both in the same recipe or depends on an upgrade. Those under "unique" follow their own special rules and do not fit into either category.
+An overclock occurs when the supplied power is at least 1 voltage tier higher than required by the recipe. Singleblocks can only achieve this with higher tier machines, but multiblocks can use higher tier and/or multiple energy hatches. The player first encounters overclocking when using the [Electric Blast Furnace](../multiblocks/lv/electric_blast_furnace.md); two energy hatches are needed to supply 4A of LV power, simulating 1A of MV power. There are two different types of overclocks and the one used depends on the multiblock itself. Those under "mixed" can use both in the same recipe or depend on an upgrade. Those under "unique" follow their own special rules and do not fit into either category.
 
 - **Imperfect Overclocks** - Consume 4x the power for 2x the speed (4/2). This is the standard behavior of most multiblocks. For example, consider a recipe that normally takes 128 EU/t and 60s to run for a total of 153,600 EU. An imperfect overclock changes that to 512 EU/t and 30s to run for a total of 307,200 EU. Notice that the total energy is doubled which means the extra speed may not always be worth the additional power cost. Alternatively, build more of the same multiblock at the same voltage tier to provide the same effect for half the power.
 
@@ -161,7 +161,7 @@ Overclocking is only possible down to 1 tick because that is the smallest unit o
 
 ## Parallels
 
-A parallel is a multiple of a recipe that runs concurrently with the original. Parallels increase the throughput and power consumption of a multiblock without increasing the overall length of the recipe. Two parallels, for example, doubles the EU/t to process twice the number of inputs simultaneously. The total EU remains the same, as with perfect overclocks, which means parallels are perfectly energy efficient and very powerful. Note that adding parallels is NOT the same as increasing the batch size -- the latter is only for saving TPS and does not increase the throughput of the multiblock.
+A parallel is a multiple of a recipe that runs concurrently with the original. Parallels increase the throughput and power consumption of a multiblock without increasing the overall length of the recipe. Two parallels, for example, double the EU/t to process twice the number of inputs simultaneously. The total EU remains the same, as with perfect overclocks, which means parallels are perfectly energy efficient and very powerful. Note that adding parallels is NOT the same as increasing the batch size -- the latter is only for saving TPS and does not increase the throughput of the multiblock.
 
 - **Batch Size** - More recipes per iteration, same EU/t, longer duration.
 - **Parallels** - More recipes per iteration, higher EU/t, same duration.
