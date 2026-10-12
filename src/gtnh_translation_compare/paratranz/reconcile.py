@@ -75,18 +75,23 @@ async def reconcile_case_variants(
                     if all(s.key in existing and existing[s.key].original == s.original for s in target.string_items):
                         destination = file, strings
                         break
+            source_update = False
             if destination is None:
-                raise ValueError(f'No alias has the current source; source sync required: {canonical}')
+                if len(snapshots) > 1:
+                    raise ValueError(f'No alias has the current source; source sync required: {canonical}')
+                # Sync cannot create the canonical name while the alias exists, so update the alias source here.
+                destination, source_update = snapshots[0], True
             existing = {s.key: s for s in destination[1]}
-            if any(s.key not in existing or existing[s.key].original != s.original for s in target.string_items):
+            if not source_update and any(s.key not in existing or existing[s.key].original != s.original for s in target.string_items):
                 raise ValueError(f'Canonical file needs source sync before reconciliation: {canonical}')
             entry['destination_file_id'] = destination[0].id
             entry['rename'] = destination[0].name != canonical
+            entry['source_update'] = source_update
             entry['copied_keys'] = [s.key for s in target.string_items if s.translation and not existing[s.key].translation]
         except ValueError as error:
             report['conflicts'].append(str(error))
             continue
-        plans.append((target, snapshots, destination))
+        plans.append((target, snapshots, destination, source_update))
         logger.info('Reconcile {}: {} alias(es), {} translated keys', canonical,
                     sum(f.name != canonical for f, _ in snapshots), sum(bool(s.translation) for s in target.string_items))
 
@@ -100,7 +105,7 @@ async def reconcile_case_variants(
         logger.info('Dry run complete; backup and plan: {}', backup_path)
         return
 
-    for target, snapshots, destination in plans:
+    for target, snapshots, destination, source_update in plans:
         # Refuse to overwrite edits made since the preflight snapshot.
         for file, strings in snapshots:
             current = await client.get_file(file.id)
@@ -112,6 +117,10 @@ async def reconcile_case_variants(
         if file.name != target.file_name:
             await client.rename_file(target_id, target)
             expected_file = file.model_copy(update={'name': target.file_name, 'extra': target.file_extra.model_dump()})
+        if source_update:
+            # upload_file mutates its argument, so keep the planned target intact.
+            await client.upload_file(target.model_copy(deep=True))
+            original_strings = await client.get_file_strings(target_id)
         existing = {s.key: s for s in original_strings}
         updates = []
         for planned in target.string_items:

@@ -225,14 +225,29 @@ def test_two_review_passes_confirm_approval_after_checked_readback(tmp_path):
     assert client.strings[2][0].stage == 5
 
 
-def test_missing_canonical_with_incomplete_alias_blocks_before_rename(tmp_path):
+def test_missing_canonical_with_stale_alias_renames_and_updates_source(tmp_path):
+    class UploadClient(Client):
+        async def upload_file(self, target):
+            self.events.append('upload')
+            assert self.files[1].name == target.file_name
+            self.strings[1] = [StringItem(id=11, key='lang|name', original='English', translation='', stage=0)]
+    client = UploadClient(missing_target=True)
+    client.strings[1][0].original = 'Old English'
+    client.strings[1][0].translation = ''
+    report = run(tmp_path, client, apply=True)
+    assert report['groups'][0]['source_update']
+    assert client.events == ['rename', 'upload']
+    assert client.files[1].name == CANONICAL
+
+
+def test_stale_alias_with_translated_changed_key_blocks_before_rename(tmp_path):
     client = Client(missing_target=True)
-    client.strings[1] = []
+    client.strings[1][0].original = 'Old English'
     with pytest.raises(ValueError, match='No files changed'):
         run(tmp_path, client, apply=True)
     assert client.events == []
     report = json.loads((tmp_path / 'backup.json').read_text(encoding='utf-8'))
-    assert 'source sync required' in report['conflicts'][0]
+    assert 'needs review against current source' in report['conflicts'][0]
 
 
 def test_rename_file_sends_name_and_metadata_to_scoped_endpoint(tmp_path):
