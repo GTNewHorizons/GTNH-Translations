@@ -123,6 +123,6 @@ Some complex recipes have multiple steps that can run in parallel, such as makin
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingMonitor" scale="4" />
 
-(Optional) A Crafting Monitor displays the job currently handled by its CPU. Its screen can be dyed with an <ItemLink id="appliedenergistics2:item.ToolColorApplicator" />.
+(Optional) A Crafting Monitor displays the job currently handled by its CPU. Its screen can be dyed with a <ItemLink id="appliedenergistics2:item.ToolColorApplicator" />.
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingMonitor" />

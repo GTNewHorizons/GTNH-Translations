@@ -10,7 +10,7 @@ date: 2026-05-27
 ---
 
 # Network Visualisation Tool
-If you've ever been far enough in the game before, you will know that the Network Visualisation Tool <ItemImage id="appliedenergistics2:item.ToolNetworkVisualiser"/> starts to become of a tangled mess of unreadable lines.
+If you've ever been far enough in the game before, you will know that the Network Visualisation Tool <ItemImage id="appliedenergistics2:item.ToolNetworkVisualiser"/> starts to become a tangled mess of unreadable lines.
 
 To help, the rendering has now been changed! The changes are also completely configurable in `config/ae2stuff.cfg`, or via the in-game config for AE2Stuff!
 <FloatingImage src="../assets/ae2/visualization.png" align="left" displayWidth="256">

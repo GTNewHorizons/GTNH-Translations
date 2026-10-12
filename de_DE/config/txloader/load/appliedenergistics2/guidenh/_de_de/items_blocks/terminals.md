@@ -23,7 +23,7 @@ item_ids:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-While <ItemLink id="appliedenergistics2:tile.BlockInterface" />s, <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />s, <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />s, and the et cetera
+While <ItemLink id="appliedenergistics2:tile.BlockInterface" />s, <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />s, <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />s, and et cetera
 are the primary method by which an AE2 network interacts with the world, Terminals are the primary method by which an AE2
 network interacts with *you*. There are several variants with differing functions.
 
@@ -66,7 +66,7 @@ and request things from your [autocrafting](../ae2_mechanics/autocrafting.md) se
 
 ## The UI
 
-There are several sections of a basic terminal's UI
+There are several sections of a basic terminal's UI.
 
 The center section gives access to your network's storage. You can put things in and take things out. There are several
 mouse/key shortcuts:
@@ -88,7 +88,7 @@ The left section has settings buttons to:
 *   Open the detailed terminal settings window
 *   Change the height of the terminal UI
 
-On the right there are slots for <ItemLink id="appliedenergistics2:item.ItemViewCell" />s
+On the right there are slots for <ItemLink id="appliedenergistics2:item.ItemViewCell" />s.
 
 The top-right of the center section (hammer button) brings up the [autocrafting](../ae2_mechanics/autocrafting.md) status
 UI, allowing you to see the progress of your autocrafts and what each [Crafting CPU](crafting_cpu.md) is doing.
@@ -132,7 +132,7 @@ You should have one of these in addition to a crafting terminal.
 
 ## The UI
 
-The crafting terminal has the same UI as the regular terminal, added [pattern](patterns.md) encoding interface.
+The crafting terminal has the same UI as the regular terminal, with an added [pattern](patterns.md) encoding interface.
 
 The pattern encoding interface has several sections:
 
@@ -151,9 +151,9 @@ The central UI changes depending on the type of pattern to be encoded:
 
 *   In crafting mode:
     *   Left-click in or drag from NEI the ingredients to form the recipe. Right-click to remove the ingredient.
-    *   Enabling substitiutions allows things like crafting sticks from any plank type. This should only be used
+    *   Enabling substitutions allows things like crafting sticks from any plank type. This should only be used
         when absolutely necessary.
-    *   Fluid substitutions allows using stored fluids in place of buckets of fluids.
+    *   Fluid substitutions allow using stored fluids in place of buckets of fluids.
     *   You can also directly encode a pattern from the NEI recipe screen.
 
 *   In processing mode:
@@ -188,7 +188,7 @@ It has settings for terminal height and which ME Interfaces to show.
 Each row in the terminal corresponds to a specific ME Interface.
 
 ME Interfaces in the terminal are sorted by the blocks they are connected to, or by the name you gave them with an anvil or
-with a <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:21" />).
+with an <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:21" />.
 
 ## Recipe
 
