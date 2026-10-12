@@ -227,9 +227,9 @@ def test_two_review_passes_confirm_approval_after_checked_readback(tmp_path):
 
 def test_missing_canonical_with_stale_alias_renames_and_updates_source(tmp_path):
     class UploadClient(Client):
-        async def upload_file(self, target):
+        async def _update_file(self, file_id, target):
             self.events.append('upload')
-            assert self.files[1].name == target.file_name
+            assert file_id == 1 and self.files[1].name == target.file_name
             self.strings[1] = [StringItem(id=11, key='lang|name', original='English', translation='', stage=0)]
     client = UploadClient(missing_target=True)
     client.strings[1][0].original = 'Old English'

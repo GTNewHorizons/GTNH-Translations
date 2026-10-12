@@ -118,8 +118,9 @@ async def reconcile_case_variants(
             await client.rename_file(target_id, target)
             expected_file = file.model_copy(update={'name': target.file_name, 'extra': target.file_extra.model_dump()})
         if source_update:
-            # upload_file mutates its argument, so keep the planned target intact.
-            await client.upload_file(target.model_copy(deep=True))
+            # Update by id: a lookup by the new name can miss the renamed file and try to create it.
+            # _update_file mutates its argument, so keep the planned target intact.
+            await client._update_file(target_id, target.model_copy(deep=True))
             original_strings = await client.get_file_strings(target_id)
         existing = {s.key: s for s in original_strings}
         updates = []
