@@ -55,7 +55,8 @@ def retry_after_error() -> Callable[[WrappedFn], WrappedFn]:
         wait=wait_fixed(wait_seconds),
         stop=stop_after_attempt(max_attempts),
         before_sleep=before_sleep,
-        reraise=True, # fixes tests that catches exceptions
+        # Raise the last HTTP error instead of RetryError, so upload_file can wrap it in ParaTranzUploadError.
+        reraise=True,
     )
 
 
@@ -165,7 +166,7 @@ class ClientWrapper:
 
         return strings
 
-    @retry_after_429()
+    @retry_after_error()
     async def get_file_strings(self, file_id: int) -> List[StringItem]:
         # The paginated string list omits hidden entries; reconciliation must preserve them too.
         res = await self.client.get(url=f"projects/{self.project_id}/files/{file_id}/translation")
@@ -263,7 +264,7 @@ class ClientWrapper:
         )
         self._log_res(f"upload_strings[string_id={string.id}]", res)
 
-    @retry_after_429()
+    @retry_after_error()
     async def rename_file(self, file_id: int, target: ParatranzFile) -> None:
         res = await self.client.put(
             url=f"projects/{self.project_id}/files/{file_id}",
@@ -271,7 +272,7 @@ class ClientWrapper:
         )
         self._log_res(f"rename_file[file_id={file_id}]", res)
 
-    @retry_after_429()
+    @retry_after_error()
     async def delete_file(self, file_id: int) -> None:
         res = await self.client.delete(url=f"projects/{self.project_id}/files/{file_id}")
         self._log_res(f"delete_file[file_id={file_id}]", res)

@@ -118,23 +118,6 @@ def _call(responses: list[Callable[[Request], Response]], requests: list[Request
     )
     asyncio.run(client._save_file_extra(1, _paratranz_file()))
 
-@pytest.fixture(autouse=True)
-def _no_sleep(monkeypatch: pytest.MonkeyPatch) -> None:
-    # Skip the 60s retry backoff (tenacity, up to 6 attempts) so tests only check attempts
-    # and final errors. Patches asyncio.sleep and each retry-wrapped ClientWrapper method,
-    # since tests hit different ones.
-    real_sleep = asyncio.sleep
-
-    async def fake_sleep(_: float) -> None:
-        await real_sleep(0)
-
-    monkeypatch.setattr(asyncio, "sleep", fake_sleep)
-
-    for value in vars(ClientWrapper).values():
-        retry = getattr(value, "retry", None)
-        if retry is not None:
-            monkeypatch.setattr(retry, "sleep", fake_sleep)
-
 def test_client_wrapper_200_succeeds_without_retrying(tmp_path: pathlib.Path) -> None:
     requests: list[Request] = []
     _call([mock_response_200], requests, tmp_path)
