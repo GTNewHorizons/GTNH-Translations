@@ -29,7 +29,7 @@ item_ids:
 
 Wireless terminals are portable versions of wired [terminals](terminals.md). Their interfaces are equivalent, but wireless terminals have [upgrade card](upgrade_cards.md) slots instead of <ItemLink id="appliedenergistics2:item.ItemViewCell" /> slots.
 
-Pair a terminal by placing it in the upper-right slot of an <ItemLink id="appliedenergistics2:tile.BlockSecurity" /> (the slot with a wireless-terminal icon and an arrow). It works only within range of an <ItemLink id="appliedenergistics2:tile.BlockWireless" /> and can be recharged in an <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
+Pair a terminal by placing it in the upper-right slot of an <ItemLink id="appliedenergistics2:tile.BlockSecurity" /> (the slot with a wireless-terminal icon and an arrow). It works only within range of an <ItemLink id="appliedenergistics2:tile.BlockWireless" /> and can be recharged in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
 
 # Wireless Terminal
 
