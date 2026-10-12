@@ -45,7 +45,6 @@ def _handler(create_responses: list[httpx.Response], extra_status: int = 200) ->
 def _created_file(file_id: int) -> httpx.Response:
     return httpx.Response(200, json={"file": {"id": file_id, "name": "whatever"}})
 
-
 def test_a_rejected_file_lets_the_rest_upload(tmp_path: pathlib.Path) -> None:
     # A single mod lang file rejected with 400 used to abort the gather and drop every file
     # still queued behind it, which is how three language jobs lost the guide pages.
