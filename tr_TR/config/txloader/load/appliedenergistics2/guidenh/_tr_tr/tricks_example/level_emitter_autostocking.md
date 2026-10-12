@@ -41,7 +41,7 @@ You can of course make your network craft continuously, by omitting the level em
 ## Configurations
 
 * The <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> (1) is filtered to the desired item. It has a redstone card and a crafting card.
-  The "Redstone Mode" is set to "Active with signal", The "Crafting Behavior" is set to "Do not use stocked items".
+  The "Redstone Mode" is set to "Active with signal", the "Crafting Behavior" is set to "Do not use stocked items".
 * The <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> (2) is configured with the desired item and quantity, and set to "Emit when levels are below limit".
 * The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (3) is in its default configuration.
 

@@ -52,7 +52,7 @@ quite a lot as long as you don't store loads of unique unstackable items.
 
 For this reason, types exist to "firmly discourage" you from dumping the hundreds of randomly damaged armor and tools from
 a mob farm directly into your ME system. Each armor piece with unique damage and enchantments has to be stored as a separate entry,
-causing bloat. it is recommended to filter them out of the item stream before they touch your system.
+causing bloat. It is recommended to filter them out of the item stream before they touch your system.
 
 Gunning straight for top tier storage cells is generally not the best idea,
 since you use more resources but don't get any extra type storage. This means that all sizes of cell are still useful even

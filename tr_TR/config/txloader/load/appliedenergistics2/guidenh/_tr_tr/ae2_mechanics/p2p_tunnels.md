@@ -81,9 +81,9 @@ There are many types of P2P tunnel. Only the ME P2P tunnel is directly craftable
 The usage and characteristics of these P2P variants are basically the same as the ME P2P Tunnel, <Color id="YELLOW">but some tunnel types have quirks</Color>:
 
 - Logistics-type P2P Tunnels will try their best to **evenly distribute** the input across all outputs.
-- Item and Fluid P2P Tunnels do not have built-in push or pull. Simply connecting both ends with a P2P Tunnel will not transport contents; you must provide an pushing force at the input end (such as a hopper, electric pump, etc.) or a pulling force at the output end for the contents to be transferred.
+- Item and Fluid P2P Tunnels do not have built-in push or pull. Simply connecting both ends with a P2P Tunnel will not transport contents; you must provide a pushing force at the input end (such as a hopper, electric pump, etc.) or a pulling force at the output end for the contents to be transferred.
 - Fluid P2P Tunnels can transfer bidirectionally, but there can still only be one input.
-- Using the GT EU P2P Tunnel indirectly extract a 5% voltage tax per amp of current from the output, much like modern Energy P2P Tunnels. For example, if the input is 8192V 16A, the corresponding output will be 7782V 16A.
+- Using the GT EU P2P Tunnel indirectly extracts a 5% voltage tax per amp of current from the output, much like modern Energy P2P Tunnels. For example, if the input is 8192V 16A, the corresponding output will be 7782V 16A.
 
 ## <ItemLink id="appliedenergistics2:item.ItemMultiPart:471" showIcon="left"/> and <ItemLink id="ae2fc:part_fluid_p2p_interface" showIcon="left"/>
 These are two new P2P Tunnels added by GTNH. They are not used for transmission, but rather, like the Interface/Dual Interface, they are used to push pattern materials. Therefore, the usage marked in red in the scene below is invalid; patterns cannot be transmitted by the P2P Tunnel - Interface/Dual Interface to the output ends. Instead, they should be placed at the **input end**. Currently, both the input and output ends can push pattern materials to adjacent blocks. If a port directly faces a block that cannot accept materials, it will be ignored. Each panel has the basic functions of an [Interface](../items_blocks/interface.md) / [Dual Interface](../items_blocks/interface.md). The blocking mode of each P2P Tunnel - Interface/Dual Interface must be set individually one by one. Every P2P Tunnel - Interface/Dual Interface effectively contains the same patterns as the input end.
@@ -97,7 +97,7 @@ By using them, you only need to place the pattern in the input end to paralleliz
   </GameScene>
 
 # Nesting
-However, you cannot use this to send infinite channels through a single cable. The channel for a ME P2P tunnel will not pass through another ME P2P tunnel, so you cannot recursively nest them. Observe how the outer layer of ME P2P tunnels on the red cables are offline. Note that this only applies to ME P2P tunnels, other P2P tunnel types can pass through a ME P2P tunnel, as seen by the Redstone P2P tunnels working fine.
+However, you cannot use this to send infinite channels through a single cable. The channel for an ME P2P tunnel will not pass through another ME P2P tunnel, so you cannot recursively nest them. Observe how the outer layer of ME P2P tunnels on the red cables are offline. Note that this only applies to ME P2P tunnels, other P2P tunnel types can pass through an ME P2P tunnel, as seen by the Redstone P2P tunnels working fine.
 
 <GameScene zoom="3" width="600" height="300" align="center" allowLayerSlider={false} >
     <ImportStructure src="../assets/structures/p2p_nesting_mechanics.snbt" />

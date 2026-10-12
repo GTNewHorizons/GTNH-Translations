@@ -20,7 +20,7 @@ Breaking a block with a cover on will now drop the cover if holding Shift whilst
 # Dyed Glass Covers
 Ever wished you could add **dyed glass** (or other translucent covers) onto your pipes and machines? Well now you can!
 
-By crafting an AE2 Facade with your favourite colour of dyed glass and place it on your:
+By crafting an AE2 Facade with your favourite colour of dyed glass and placing it on your:
 - Pipes
 - Cables
 - Frames
