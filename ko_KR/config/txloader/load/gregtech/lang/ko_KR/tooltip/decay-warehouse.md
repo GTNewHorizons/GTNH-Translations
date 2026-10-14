@@ -1,11 +1,11 @@
-Accelerates the natural decay of radioactive isotopes
-Decay speed scales with the isotope's half-life and the amount stored
-Isotopes decay whether or not the warehouse is enabled or powered
+방사성 동위원소의 자연 붕괴를 가속합니다
+붕괴 속도는 동위원소의 반감기와 저장량에 따라 달라집니다
+저장고의 작동 여부나 전원 공급 여부와 관계없이 동위원소는 붕괴합니다
 {gray:{hr}}
-Capacity is 1/400th of the {white:Super Chest}
-Only one isotope type can be stored at a time
-Insert isotopes through the input bus at a max rate of {aqua:EU/512} per second
-Power is only consumed when inputting or outputting isotopes
+용량은 {white:대형 상자}의 1/400입니다
+한 번에 한 종류의 동위원소만 저장할 수 있습니다
+입력 버스를 통해 초당 최대 {aqua:EU/512}의 속도로 동위원소를 투입합니다
+동위원소를 투입하거나 배출할 때만 전력을 소모합니다
 {gray:{hr}}
-Right-click the controller with a {white:Screwdriver} to dump stored isotopes to the output bus
-Right-click the controller with a {white:Plunger} (or break it) to void the contents of the warehouse
+컨트롤러를 {white:드라이버}로 우클릭하여 저장된 동위원소를 출력 버스로 배출하십시오
+컨트롤러를 {white:플런저}로 우클릭하거나 컨트롤러를 부수면 저장고의 내용물을 삭제합니다

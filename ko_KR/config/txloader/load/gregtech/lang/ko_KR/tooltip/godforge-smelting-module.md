@@ -1,8 +1,8 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for basic smelting operations at various temperatures
+Godforge의 모듈입니다
+작동하려면 Godforge의 일부여야 합니다
+다양한 온도에서 기본 제련 작업에 사용됩니다
 {aqua:{hr:74}}
-As the first of the Godforge modules, this module performs the most basic
-thermal processing, namely smelting materials identically to a furnace or blast furnace
-The desired method of processing can be selected in the gui
-This module is specialized towards speed and high heat levels
+Godforge 모듈 중 첫 번째인 이 모듈은 가장 기본적인
+열처리 작업을 수행합니다. 즉, 재료를 화로나 용광로와 동일한 방식으로 제련합니다
+원하는 처리 방식을 GUI에서 선택할 수 있습니다
+이 모듈은 빠른 속도와 높은 온도에 특화되어 있습니다

@@ -1,12 +1,12 @@
-{gold:Circuit Assembly Line}:
-- Imprint by placing a {white:Circuit Imprint} in the controller
-- Each machine can only be imprinted once
-- {yellow:Imprints are permanent and circuit specific}
+{gold:회로 조립 라인}:
+- 컨트롤러에 {white:회로 각인}을 넣어 각인합니다
+- 각 기계는 한 번만 각인할 수 있습니다
+- {yellow:각인은 영구적이며 특정 회로에만 적용됩니다}
 {gray:{hr}}
-{gold:Circuit Assembler}:
-- Minimum Length: {green:{var:min_length}}
-- Recipe Tier in {white:Circuit Assembler} mode is at most {aqua:Energy Hatch Tier - 1}
-- Supports {white:Crafting Input Buffer/Bus} and allows input separation
+{gold:회로 조립기}:
+- 최소 길이: {green:{var:min_length}}
+- {white:회로 조립기} 모드에서 레시피 티어는 최대 {aqua:에너지 해치 티어 - 1}입니다
+- {white:제작 입력 버퍼/버스}를 지원하며 입력 분리를 사용할 수 있습니다
 {gray:{hr}}
-Right-click the controller with a {white:Screwdriver} to change mode
-{light_purple:Performs 4/4 Perfect Overclock}
+모드를 변경하려면 {white:스크루드라이버}를 들고 컨트롤러를 우클릭하십시오
+{light_purple:4/4 완벽한 오버클럭을 수행합니다}

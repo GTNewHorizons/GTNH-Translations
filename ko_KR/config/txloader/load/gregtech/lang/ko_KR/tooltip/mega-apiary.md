@@ -1,32 +1,32 @@
-The ideal home for your bees
-Use screwdriver to change primary mode (INPUT/OUTPUT/OPERATING)
-Use screwdriver + shift to change operation mode (NORMAL/SWARMER)
+벌을 위한 이상적인 보금자리입니다
+드라이버를 사용해 기본 모드(INPUT/OUTPUT/OPERATING)를 변경합니다
+드라이버와 Shift 키를 함께 사용해 작동 모드(NORMAL/SWARMER)를 변경합니다
 {gray:{hr}}
-{gold:Input Mode:}
-- Does not take power
-- Put your queens in the input bus to put them in the internal buffer
+{gold:입력 모드:}
+- 전력을 사용하지 않습니다
+- 여왕벌을 입력 버스에 넣으면 내부 버퍼에 보관됩니다
 {gray:{hr}}
-{gold:Output Mode:}
-- Does not take power
-- Will give your bees back to output bus
+{gold:출력 모드:}
+- 전력을 사용하지 않습니다
+- 벌을 출력 버스로 돌려보냅니다
 {gray:{hr}}
-{gold:Operating Mode:}
+{gold:작동 모드:}
 - NORMAL:
-  - Processing time: 5 seconds
-  - Uses 1 {var:voltageTier6} amp per queen
-  - All bees are accelerated 64 times
-  - 8 production upgrades are applied
-  - Genetic Stabilizer upgrade applied
-  - Simulates perfect environment for your bees
-  - Additionally you can provide royal jelly to increase the outputs:
-    - 1 royal jelly grants 5% bonus per bee
-    - They will be consumed on each start of operation
-    - and be applied to that operation only
-    - Max bonus: 200%
+  - 처리 시간: 5초
+  - 여왕벌당 {var:voltageTier6} 티어 전력 1암페어를 사용합니다
+  - 모든 벌의 속도가 64배 빨라집니다
+  - 생산 업그레이드 8개가 적용됩니다
+  - 유전 안정기 업그레이드가 적용됩니다
+  - 벌에게 완벽한 환경을 구현합니다
+  - 추가로 로열 젤리를 넣어 생산량을 늘릴 수 있습니다:
+    - 로열 젤리 1개당 벌 한 마리의 생산량이 5% 증가합니다
+    - 작동이 시작될 때마다 로열 젤리가 소모됩니다
+    - 해당 작동에만 보너스가 적용됩니다
+    - 최대 보너스: 200%
 - SWARMER:
-  - You can only insert 1 queen
-  - It will slowly produce ignoble princesses
-  - Consumes 100 royal jelly per operation
-  - Base processing time: 1 minute
-  - Uses 1 amp {var:voltageTier5}
-  - Can overclock
+  - 여왕벌은 1마리만 넣을 수 있습니다
+  - 서서히 열등한 공주벌을 생산합니다
+  - 작동당 로열 젤리 100개를 소모합니다
+  - 기본 처리 시간: 1분
+  - {var:voltageTier5} 티어 전력 1암페어를 사용합니다
+  - 오버클럭할 수 있습니다

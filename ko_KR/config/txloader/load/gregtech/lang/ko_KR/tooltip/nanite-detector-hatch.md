@@ -1,5 +1,5 @@
-Machine Type: {yellow:BEC Nanite Detector Hatch}
-Checks the Nanite Tier requested by a {gold:{item:gregtech:gt.blockmachines:15757}}.
-Emits a redstone signal when a condition is true.
-Condition is configurable in the UI.
-Analog mode ignores the threshold and emits an analog redstone signal.
+기계 유형: {yellow:BEC 나노기계 감지 해치}
+{gold:{item:gregtech:gt.blockmachines:15757}}가 요구하는 나노 티어를 확인합니다.
+조건이 충족되면 레드스톤 신호를 출력합니다.
+조건은 UI에서 설정할 수 있습니다.
+아날로그 모드는 임계값을 무시하고 아날로그 레드스톤 신호를 출력합니다.

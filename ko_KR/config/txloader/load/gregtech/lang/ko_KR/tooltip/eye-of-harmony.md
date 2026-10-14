@@ -1,35 +1,35 @@
-Creates a pocket of spacetime that is bigger on the inside using transdimensional engineering.
-Certified Time Lord regulation compliant.
+차원 간 공학을 사용해 내부가 더 넓은 시공간 주머니를 만듭니다.
+타임 로드 규정 준수 인증을 받았습니다.
 {gold:{hr}}
-Comprised of three different Field Generators with {green:9} tiers each:
-{blue:Spacetime Compression}: Determines max Recipe Tier, {green:-3%} processing time per tier above recipe (multiplicative)
-{blue:Time Dilation}: {green:-50%} recipe duration per tier (multiplicative), {green:-9.25%} recipe success chance per tier (additive)
-{blue:Stabilisation}: {green:+5%} recipe success chance per tier (additive), {green:-5%} yield per tier (additive)
-Lower tier stabilisation generators also reduce the total output EU,
-starting at {green:-40%} with T1 Crude and increases by {green:+5%} per tier (additive)
+각각 {green:9}개 티어로 구성된 세 가지 필드 생성기를 포함합니다:
+{blue:시공간 압축}: 최대 레시피 티어를 결정하며, 레시피 티어보다 높은 티어마다 처리 시간이 {green:-3%} 감소합니다(곱연산).
+{blue:시간 팽창}: 티어마다 레시피 지속 시간이 {green:-50%} 감소하고(곱연산), 레시피 성공 확률이 {green:-9.25%} 감소합니다(합연산).
+{blue:안정화}: 티어마다 레시피 성공 확률이 {green:+5%} 증가하고(합연산), 수율이 {green:-5%} 감소합니다(합연산).
+안정화 생성기의 티어가 낮으면 총 EU 출력도 감소합니다.
+T1 원시형은 {green:-40%}에서 시작하며, 티어마다 {green:+5%}씩 증가합니다(합연산).
 {gold:{hr}}
-Right-click the controller with a {blue:Planet Block} to insert it and set the recipe
-Base recipe success chance {green:(S)} depends on the Planet Tier
-On success, outputs everything listed in NEI. The base yield for fluids starts at {green:100%} before any penalties
-On failure, outputs {white:Spacetime =} {green:S * 14,400 * 2^(Planet Tier)} and any output EU
-Pity guarantees a success after several consecutive failures but resets on success or recipe change
+{blue:행성 블록}을 들고 컨트롤러를 우클릭하면 블록을 삽입하고 레시피를 설정합니다.
+기본 레시피 성공 확률 {green:(S)}은 행성 티어에 따라 달라집니다.
+성공하면 NEI에 표시된 모든 것을 출력합니다. 유체의 기본 수율은 페널티 적용 전 {green:100%}에서 시작합니다.
+실패하면 {white:시공간 =} {green:S * 14,400 * 2^(Planet Tier)}을 출력하며, 출력 EU도 생성합니다.
+여러 번 연속으로 실패하면 보정으로 성공이 보장되지만, 성공하거나 레시피를 변경하면 초기화됩니다.
 {gold:{hr}}
-Constantly inputs {blue:Hydrogen} and {blue:Helium} into its own internal buffer while idle, and consumes everything on recipe start
-Exceeding the minimum required amount for a recipe heavily reduces the recipe success chance and yield
-{white:Overflow Ratio =} {green:(Stored Fluid / Min Fluid) - 1}
-{white:Penalty% =} {green:1 - exp(-(30 * Overflow Ratio)^2)}
+유휴 상태일 때 자체 내부 버퍼에 {blue:수소}와 {blue:헬륨}을 지속적으로 입력하며, 레시피 시작 시 전량을 소모합니다.
+레시피에 필요한 최소량을 초과하면 레시피 성공 확률과 수율이 크게 감소합니다.
+{white:초과 비율 =} {green:(Stored Fluid / Min Fluid) - 1}
+{white:페널티% =} {green:1 - exp(-(30 * Overflow Ratio)^2)}
 {gold:{hr}}
-{yellow:Consumes EU directly from the owner's wireless network}
-Set the desired number of overclocks with a {white:Programmed Circuit} in the input bus
-Output EU is constant and does not scale with the number of overclocks
+{yellow:소유자의 무선 네트워크에서 EU를 직접 소모합니다}
+입력 버스에 {white:프로그래밍 회로}를 넣어 원하는 오버클록 수를 설정합니다.
+EU 출력은 일정하며 오버클록 수에 따라 달라지지 않습니다.
 {gold:{hr}}
-Insert {blue:Astral Array Fabricators (AA)} through an input bus to add parallels (max {blue:8,637})
-Each one is rolled independently to determine whether it succeeds or not
-{white:Parallel Exponent (PE) =} {green:floor(log(8 * AA) / log(1.7))}
-{white:Parallels =} {green:2^(PE)}
+입력 버스를 통해 {blue:성단 배열 제작기 (AA)}를 넣으면 병렬 작업 수가 증가합니다(최대 {blue:8,637}).
+각 작업은 성공 여부를 개별적으로 판정합니다.
+{white:병렬 지수 (PE) =} {green:floor(log(8 * AA) / log(1.7))}
+{white:병렬 작업 수 =} {green:2^(PE)}
 {gold:{hr}}
-When running parallels, there is no more pity and the power changes:
-{white:EU Input =} {green:Base EU Input * 4^OC * 2.3^PE * 1.63 / 20.7}
-{white:EU Output =} {green:Base EU Output * 2.3^(PE-1) / 9}
-Also consumes {blue:Condensed Raw Stellar Plasma Mixture} instead of {blue:Hydrogen} and {blue:Helium}:
-{white:Raw Stellar Plasma =} {green:12.4 / 10^6 * Helium Amount * Parallels}
+병렬 작업 중에는 실패 보정이 적용되지 않으며 전력 계산 방식이 바뀝니다:
+{white:EU 입력 =} {green:Base EU Input * 4^OC * 2.3^PE * 1.63 / 20.7}
+{white:EU 출력 =} {green:Base EU Output * 2.3^(PE-1) / 9}
+또한 {blue:수소}와 {blue:헬륨} 대신 {blue:응축된 원시 항성 플라스마 혼합물}을 소모합니다:
+{white:원시 항성 플라스마 =} {green:12.4 / 10^6 * Helium Amount * Parallels}

@@ -1,2 +1,2 @@
-Fluids are output one per layer based on their slot number in {white:NEI}
-{yellow:Increase the height to output more fluid types}
+유체는 {white:NEI}의 슬롯 번호에 따라 층마다 하나씩 출력됩니다
+{yellow:높이를 높이면 더 많은 종류의 유체를 출력할 수 있습니다}

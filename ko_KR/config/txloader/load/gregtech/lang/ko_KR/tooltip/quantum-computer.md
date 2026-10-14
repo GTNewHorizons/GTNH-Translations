@@ -1,3 +1,3 @@
-Controller block of the Quantum Computer
-Used to generate computation (and heat)
-Use screwdriver to toggle wireless mode
+양자 컴퓨터의 컨트롤러 블록
+연산(및 열)을 생성하는 데 사용됩니다
+스크루드라이버를 사용해 무선 모드를 전환하십시오

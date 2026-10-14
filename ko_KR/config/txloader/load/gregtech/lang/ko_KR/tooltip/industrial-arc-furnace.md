@@ -1,21 +1,21 @@
-Insert electrode in the electrode hatch
-Speed, Parallel, OC and power use depend on the electrode
-Some electrodes have special effects, check their tooltip
-Below {red:{var:surge_threshold}}% durability: {red:{var:surge_chance}}% chance for random arc surge
-Startup: machine ignites the arc before processing
-Startup power: based on electrode startup penalty and parallels
-Shutdown: machine powers down the arc after work ends
+전극 해치에 전극을 넣으십시오
+속도, 병렬 수, OC 및 전력 소모는 전극에 따라 달라집니다
+일부 전극에는 특수 효과가 있으니 툴팁을 확인하십시오
+내구도가 {red:{var:surge_threshold}}% 미만일 때: 무작위 아크 서지가 발생할 확률 {red:{var:surge_chance}}%입니다
+시동: 작업을 시작하기 전에 기계가 아크를 점화합니다
+시동 전력: 전극의 시동 페널티와 병렬 수를 기준으로 결정됩니다
+정지: 작업이 끝난 후 기계가 아크의 전원을 끕니다
 {gray:{hr}}
-{gold:Blast mode:}
-Processes EBF recipes at {red:{var:blast_power_multiplier}}x power cost
+{gold:용광로 모드:}
+EBF 레시피를 처리하며 전력 소모가 {red:{var:blast_power_multiplier}}배입니다
 {gray:{hr}}
-{gold:Ore mode:}
-Quickly process metallic ores!
-Startup time: {red:{var:ore_startup_seconds}} seconds
-Consumes all ores and raw ores from input buses
-Only furnace-smeltable ores, no blasting
-If queued ore exceeds capacity, startup ends immediately
-If no ores enter for {red:{var:ore_idle_ticks}} ticks, startup ends immediately
-Outputs molten metals
+{gold:광석 모드:}
+금속 광석을 빠르게 처리합니다!
+시동 시간: {red:{var:ore_startup_seconds}}초
+입력 버스에 있는 모든 광석과 원석을 소모합니다
+화로에서 제련 가능한 광석만 처리하며, 용광로 제련은 하지 않습니다
+대기 중인 광석이 용량을 초과하면 시동이 즉시 종료됩니다
+{red:{var:ore_idle_ticks}}틱 동안 광석이 들어오지 않으면 시동이 즉시 종료됩니다
+용융 금속을 출력합니다
 {gray:{hr}}
-Right-click with Screwdriver to change mode
+드라이버로 우클릭하여 모드를 변경합니다

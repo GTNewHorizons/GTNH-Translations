@@ -1,12 +1,12 @@
-Contributing Green Energy towards the future
-Surround with 1-5 rings of {gold:Solar Reflectors} to generate heat
-More {gold:Solar Reflectors} means more heat and more overall power output
+미래를 위한 친환경 에너지에 기여합니다
+열을 생성하려면 {gold:태양광 반사판}을 1~5겹의 고리로 둘러싸십시오
+{gold:태양광 반사판}이 많을수록 열과 전체 전력 출력이 증가합니다
 {gray:{hr}}
-Converts {gold:Cold Solar Salt} into {gold:Hot Solar Salt} at a 1:1 ratio every {var:cycle} seconds
-Every 1{var:unit} converted reduces the heat by 1 until it reaches zero
-Conversion only happens if heat >= {red:{var:threshold}} and efficiency is 100%
-Excess {gold:Cold Solar Salt} is not consumed
+{var:cycle}초마다 {gold:차가운 태양염}을 1:1 비율로 {gold:뜨거운 태양염}으로 변환합니다
+변환된 {var:unit} 1개마다 열이 1 감소하며, 열이 0이 되면 더 이상 감소하지 않습니다
+열이 {red:{var:threshold}} 이상이고 효율이 100%일 때만 변환이 진행됩니다
+남은 {gold:차가운 태양염}은 소모되지 않습니다
 {gray:{hr}}
-Heat Efficiency = {aqua:1 - (Heat - {var:center})^{var:exp} / {var:coefficient}}, peaks at {aqua:{var:center}}
-Heat/Cycle = {aqua:Solar Reflectors * Heat Efficiency * ({var:loss} + 2^(Rings - 1)) - {var:loss}}
-{yellow:Heat gain is halved in rain and disabled at night}
+열 효율 = {aqua:1 - (열 - {var:center})^{var:exp} / {var:coefficient}}, {aqua:{var:center}}에서 최고치에 도달합니다
+열/주기 = {aqua:태양광 반사판 * 열 효율 * ({var:loss} + 2^(고리 - 1)) - {var:loss}}
+{yellow:비가 오면 열 획득량이 절반으로 감소하고, 밤에는 열을 획득할 수 없습니다}

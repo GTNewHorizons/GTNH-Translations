@@ -1,2 +1,2 @@
-Input Water and Fluid, output Fluid
-Fluids must be input in the exact ratio as listed in NEI
+물과 유체 입력, 유체 출력
+유체는 NEI에 표시된 정확한 비율로 투입해야 합니다.

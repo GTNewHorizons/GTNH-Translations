@@ -1,7 +1,7 @@
-Distributes computation to transmission connectors based on weights.
-Transmission connectors are assigned an ID.
-Scan connectors with a Portable Scanner to determine their ID.
+가중치에 따라 전송 커넥터로 연산을 분배합니다.
+전송 커넥터에는 ID가 할당됩니다.
+휴대용 스캐너로 커넥터를 스캔하여 ID를 확인합니다.
 {gray:{hr}}
-Computation output is configured via TecTech parameters.
-The first parameter in each group controls the hatch ID.
-The second parameter in each group controls the hatch weight.
+연산 출력은 TecTech 매개변수로 설정합니다.
+각 그룹의 첫 번째 매개변수는 해치 ID를 제어합니다.
+각 그룹의 두 번째 매개변수는 해치 가중치를 제어합니다.

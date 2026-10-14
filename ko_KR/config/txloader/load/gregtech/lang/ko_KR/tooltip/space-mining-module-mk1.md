@@ -1,11 +1,11 @@
-Module that adds Space Mining Operations to the Space Elevator
-§d§lGreat treasures beyond your imagination await!
+우주 엘리베이터에 우주 채굴 작업을 추가하는 모듈
+§d§l상상도 못 한 엄청난 보물이 기다립니다!
 {lang:gt.blockmachines.multimachine.project.ig.desc2}
-Requires a plasma to operate (§e825L Helium §7/ §3550L Bismuth §7/ §9375L Radon §7/ §f250L Technetium §7/ §c150L Plutonium 241§7).
-Higher tier plasmas increase the chances of mining bigger asteroids, and improves mining operation time.
-Needs to be fed with computation to work.
-Computation is consumed per parallel
-Mining Drones must be placed in a regular input bus (neither linked nor stocking bus).
-Runs at UV with up to §a2§7 parallels
+작동하려면 플라즈마가 필요합니다 (§e825L 헬륨 §7/ §3550L 비스무트 §7/ §9375L 라돈 §7/ §f250L 테크네튬 §7/ §c150L 플루토늄 241§7).
+더 높은 티어의 플라즈마를 사용하면 더 큰 소행성을 채굴할 확률이 높아지고 채굴 작업 시간도 늘어납니다.
+작동하려면 연산량을 공급해야 합니다.
+병렬 작업당 연산량이 소모됩니다.
+채굴 드론은 일반 입력 버스에 넣어야 합니다(연결 버스나 재고 버스는 사용할 수 없습니다).
+UV에서 최대 §a2§7 병렬 작업으로 작동합니다.
 {lang:gt.blockmachines.multimachine.project.ig.motorT1}
-Ores can be black-/whitelisted by putting them in an input bus
+광석을 입력 버스에 넣어 블랙리스트 또는 화이트리스트에 등록할 수 있습니다.

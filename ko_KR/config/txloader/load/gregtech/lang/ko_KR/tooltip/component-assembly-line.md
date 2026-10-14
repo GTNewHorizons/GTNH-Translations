@@ -1,5 +1,5 @@
-Assembles basic components (motors, pumps, etc.) in large batches
-The {bold:{yellow:Component Assembly Line Casing }}limits the recipes the machine can perform. See the NEI pages for details
-Using casings above the required Recipe Tier provides a speed bonus:
-{yellow:Halves recipe time per tier above recipe}
-{italic:Much more efficient than other competing brands!}
+기본 부품(모터, 펌프 등)을 대량으로 조립합니다
+기계가 수행할 수 있는 레시피는 {bold:{yellow:부품 조립 라인 외장 }}에 따라 제한됩니다. 자세한 내용은 NEI 페이지를 확인하십시오
+필요한 레시피 티어보다 높은 티어의 외장을 사용하면 속도 보너스를 얻습니다:
+{yellow:레시피 티어보다 티어가 하나 높을 때마다 레시피 시간이 절반으로 줄어듭니다}
+{italic:다른 경쟁 제품보다 훨씬 효율적입니다!}

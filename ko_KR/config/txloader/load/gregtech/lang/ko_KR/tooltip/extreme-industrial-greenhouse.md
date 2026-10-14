@@ -1,15 +1,15 @@
-Grow your crops like a chad!
-Use screwdriver to enable/change/disable setup mode
-Use screwdriver while sneaking to enable/disable IC2 mode
-Use wire cutters to give incoming IC2 seeds 0 humidity
-Uses 1000L of water per seed per operation
-Uses 1L of {var:weedexName} per operation per seed if it contains more than 1000 seeds
-Otherwise, around 1% of seeds will be voided each operation
-You can insert fertilizer each operation to get more drops (max + 400)
+진정한 고수처럼 농작물을 키우십시오!
+드라이버를 사용해 설정 모드를 활성화하거나 변경하거나 비활성화하십시오.
+웅크린 상태에서 드라이버를 사용해 IC2 모드를 활성화하거나 비활성화하십시오.
+니퍼를 사용해 들어오는 IC2 씨앗의 습도를 0으로 설정하십시오.
+작동당 씨앗 하나마다 물 1000L를 사용합니다.
+씨앗이 1000개를 초과하면 작동당 씨앗 하나마다 {var:weedexName} 1L를 사용합니다.
+그렇지 않으면 작동할 때마다 씨앗의 약 1%가 소멸합니다.
+작동할 때마다 비료를 투입하면 추가로 더 많은 드롭을 얻을 수 있습니다(최대 + 400).
 {gray:{hr}}
-{gold:Setup Mode:}
-Does not take power
-There are two modes: input / output
-Input mode: machine will take seeds from input bus and plant them
-[IC2] You need to also input block that is required under the crop
-Output mode: machine will take planted seeds and output them
+{gold:설정 모드:}
+전력을 사용하지 않습니다.
+입력 모드와 출력 모드, 두 가지 모드가 있습니다.
+입력 모드: 기계가 입력 버스에서 씨앗을 가져와 심습니다.
+[IC2] 작물 아래에 필요한 블록도 투입해야 합니다.
+출력 모드: 기계가 심어진 씨앗을 가져와 출력합니다.

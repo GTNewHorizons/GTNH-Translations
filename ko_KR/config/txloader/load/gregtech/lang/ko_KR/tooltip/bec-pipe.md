@@ -1,6 +1,6 @@
-Machine Type: {yellow:BEC Conduit}
-Connects several Bose-Einstein Condensate multiblocks together into a network.
-Multiblocks must have a {gold:{item:gregtech:gt.blockmachines:15476}} that connects to a conduit to connect to the network.
-Use a {gold:{item:gregtech:gt.blockmachines:15760}} to control the flow of condensate.
-Can split and turn - multiblocks just have to be connected to link together.
-Will only connect to pipes and hatches that match its color.
+기계 유형: {yellow:BEC 도관}
+여러 보스-아인슈타인 응축물 멀티블록을 하나의 네트워크로 연결합니다.
+네트워크에 연결하려면 멀티블록에 도관과 연결되는 {gold:{item:gregtech:gt.blockmachines:15476}}이 있어야 합니다.
+응축물의 흐름을 제어하려면 {gold:{item:gregtech:gt.blockmachines:15760}}을 사용하십시오.
+분기하거나 방향을 바꿀 수 있습니다. 멀티블록끼리 연결하기만 하면 서로 이어집니다.
+색상이 일치하는 파이프와 해치에만 연결됩니다.

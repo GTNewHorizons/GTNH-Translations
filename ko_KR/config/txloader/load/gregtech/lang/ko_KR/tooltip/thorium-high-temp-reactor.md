@@ -1,12 +1,12 @@
-Heats coolant with the radioactive decay of TRISO Pebbles
-Insert at least {gold:100,000 Pebbles} and {yellow:730,000L Helium} to start
-Having any less than the maximum 675,000 Pebbles reduces efficiency
+TRISO 페블의 방사성 붕괴를 이용해 냉각재를 가열합니다
+시작하려면 최소 {gold:100,000개의 페블}과 {yellow:730,000L의 헬륨}을 투입하십시오
+페블 수가 최대치인 675,000개보다 적으면 효율이 감소합니다
 {gray:{hr}}
-A lower efficiency means a higher power cost and less hot coolant
-{white:Power Cost (EU/t) =} {aqua:3,840 / Efficiency}
-{white:Hot Coolant (L/t) =} {red:4,800 * Efficiency}
+효율이 낮을수록 전력 소모량이 증가하고 고온 냉각재 생산량이 감소합니다
+{white:전력 소모량 (EU/t) =} {aqua:3,840 / 효율}
+{white:고온 냉각재 (L/t) =} {red:4,800 * 효율}
 {gray:{hr}}
-Each operation is {light_purple:9 hours} regardless of the Pebble amount
-Consumes up to {gold:0.5%} of the stored {gold:Pebbles} and all the {yellow:Helium} at the start
-Outputs burned out TRISO Pebbles at the end
-There is no consequence for running out of coolant while running
+각 작업은 페블 수와 관계없이 {light_purple:9시간} 동안 진행됩니다
+작업 시작 시 저장된 {gold:페블}의 최대 {gold:0.5%}와 {yellow:헬륨} 전량을 소비합니다
+작업이 끝나면 연소된 TRISO 페블을 출력합니다
+작업 중 냉각재가 고갈되어도 불이익은 없습니다

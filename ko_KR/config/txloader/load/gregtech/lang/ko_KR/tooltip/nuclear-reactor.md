@@ -1,10 +1,10 @@
-Produces energy and new elements from Radioactive Beta Decay
-Consumes {gold:1 L/s Molten Salt} for fuel and {yellow:2 L/s LFTB} for coolant
-Warm-up takes 250s, during which no fuel/coolant is consumed and no power is produced
-Once running, outputs {white:0.33 L/s U-233} on average
-Once finished, outputs various {red:Depleted Molten Salts} based on the fuel used
+방사성 베타 붕괴를 통해 에너지와 새로운 원소를 생산합니다.
+연료로 {gold:용융염 1 L/s}을, 냉각수로 {yellow:LFTB 2 L/s}를 소비합니다.
+예열에는 250초가 걸리며, 예열 중에는 연료와 냉각수를 소비하지 않고 전력도 생산하지 않습니다.
+가동 중에는 평균적으로 {white:U-233 0.33 L/s}을 출력합니다.
+작동이 끝나면 사용한 연료에 따라 다양한 {red:고갈된 용융염}을 출력합니다.
 {gray:{hr}}
-Use four 4A dynamo hatches corresponding to the Molten Salt Tier:
-{gold:LFTR Fuel 1} (EV), {gold:LFTR Fuel 2} (IV), {gold:LFTR Fuel 3} (LuV)
-Higher tier hatches limit EU output to 1 hatch
-{dark_red:Shuts down if either input runs out} and any excess EU is safely voided
+용융염 티어에 맞는 4A 발전기 해치 4개를 사용하십시오:
+{gold:LFTR 연료 1} (EV), {gold:LFTR 연료 2} (IV), {gold:LFTR 연료 3} (LuV)
+상위 티어 해치는 EU 출력을 해치 1개분으로 제한합니다.
+{dark_red:입력 중 하나라도 소진되면 가동이 중단되며}, 초과 EU는 안전하게 폐기됩니다.

@@ -1,7 +1,7 @@
-Can be equipped with up to §a12 §7Space Elevator Modules
-Motor Tier limits module Tier and amount of possible modules
-Each module has its own space for IO, except energy
-Energy is supplied to this controller and gets distributed
-Starting from §dMotor Mk-III §7the structure can be expanded to fit §a24 §7modules
-Max module amount is §a6§7/§912§7/§d15§7/§618§7/§c24§7 for §aMk-I§7/§9Mk-II§7/§dMk-III§7/§6Mk-IV§7/§cMk-V§7 motors correspondingly
-Disabling this controller also pauses all modules
+최대 §a12 §7개의 우주 엘리베이터 모듈을 장착할 수 있습니다.
+모터 티어에 따라 모듈 티어와 장착 가능한 모듈 수가 제한됩니다.
+각 모듈에는 에너지를 제외한 입출력을 위한 공간이 있습니다.
+에너지는 이 제어기에 공급되며 각 모듈에 분배됩니다.
+§dMotor Mk-III §7부터는 구조물을 확장해 §a24 §7개의 모듈을 장착할 수 있습니다.
+모터별 최대 모듈 수는 §aMk-I§7/§9Mk-II§7/§dMk-III§7/§6Mk-IV§7/§cMk-V§7 순서대로 §a6§7/§912§7/§d15§7/§618§7/§c24§7개입니다.
+이 제어기를 비활성화하면 모든 모듈도 일시 정지됩니다.

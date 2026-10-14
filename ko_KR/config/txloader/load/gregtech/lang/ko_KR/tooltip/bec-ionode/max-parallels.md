@@ -1,1 +1,1 @@
-Equivalent to the Power Panel option.
+전력 패널 옵션과 동일합니다.

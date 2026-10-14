@@ -1,4 +1,4 @@
-Controller block of the Data Bank
-Used to supply Assembly Lines with more Data Sticks
-and give multiple Assembly Lines access to the same Data Stick
-Use screwdriver to toggle wireless mode
+데이터 뱅크의 컨트롤러 블록입니다.
+조립 라인에 더 많은 데이터 스틱을 공급하고
+여러 조립 라인이 동일한 데이터 스틱에 접근할 수 있도록 합니다.
+드라이버를 사용하여 무선 모드를 전환하십시오.

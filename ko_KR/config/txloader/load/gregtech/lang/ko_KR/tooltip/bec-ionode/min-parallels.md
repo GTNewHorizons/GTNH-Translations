@@ -1,2 +1,2 @@
-Forces the recipe checker to consume this many sets of ingredients at minimum.
-This is useful for controlling recipe speed when your automation is unreliable.
+레시피 검사기가 최소한 이 수만큼의 재료 세트를 소비하도록 합니다.
+자동화가 불안정할 때 레시피 속도를 제어하는 데 유용합니다.

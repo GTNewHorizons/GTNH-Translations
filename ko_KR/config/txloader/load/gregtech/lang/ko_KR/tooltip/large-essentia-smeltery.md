@@ -1,6 +1,6 @@
-Necessary evil
-Advanced Essentia smelting technology
-Maximum parallel = 2^Tier * (Length - 1)
-Diffusion Cell Tiers start from 0, Length is full multi length
-Energy Hatch Tier: HV+
-You can find more information about this machine in the Thaumonomicon
+필요악
+고급 에센시아 제련 기술
+최대 병렬 수 = 2^티어 * (길이 - 1)
+확산 셀 티어는 0부터 시작하며, 길이는 멀티블록 전체 길이입니다.
+에너지 해치 티어: HV+
+이 기계에 대한 자세한 정보는 Thaumonomicon에서 확인할 수 있습니다.

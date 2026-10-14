@@ -1,9 +1,8 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for ultra high temperature matter degeneration
+Godforge의 모듈입니다.
+작동하려면 Godforge의 일부여야 합니다.
+초고온 물질 퇴화에 사용됩니다.
 {aqua:{hr:75}}
-The fourth and final module of the Godforge, this module breaks apart the very
-building blocks of matter, producing exotic mixtures in the process. Quark-Gluon Plasma
-can be manufactured right away, but production of Magnetic Monopole Matter (Magmatter)
-requires a fully upgraded Godforge
-This module is specialized towards acquisition of unique materials
+Godforge의 네 번째이자 마지막 모듈입니다. 물질을 구성하는 기본 요소를 분해하여
+그 과정에서 이색적인 혼합물을 생성합니다. 쿼크-글루온 플라스마는 바로
+제조할 수 있지만, 자기 단극자 물질(마그매터)을 생산하려면 Godforge를 완전히 업그레이드해야 합니다.
+이 모듈은 희귀한 재료를 획득하는 데 특화되어 있습니다.

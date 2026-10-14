@@ -1,25 +1,25 @@
-Spawns and kills monsters for you!
-Produces §a120 Liquid XP§7 per operation
-Powered Spawner goes in Controller Slot
-Base energy usage: §b1920§7 EU/t
-Supports §dperfect OC!
+몬스터를 대신 소환하고 처치합니다!
+작동당 §a120 액체 경험치§7를 생산합니다.
+동력 스포너를 컨트롤러 슬롯에 넣으십시오.
+기본 에너지 사용량: §b1920§7 EU/t
+§d완벽한 오버클럭을 지원합니다!
 {gray:{hr}}
-Has a minimum recipe time of 20 ticks, further overclocks multiply outputs by 4x
-Recipe time is based on mob health
-You can additionally put a weapon inside the GUI
-It will speed up the process and apply the looting level from the weapon (maximum 4 levels)
-Enable Weapon Preservation to prevent the weapon from breaking on it's last hit
-Enable Weapon Cycling to pull a weapon from input when the current one breaks or is moved to an output
-§cEnchanting the spikes inside the structure does nothing!
+최소 레시피 시간은 20틱이며, 추가 오버클럭마다 출력이 4배 증가합니다.
+레시피 시간은 몹의 체력에 따라 달라집니다.
+GUI에 무기를 추가로 넣을 수 있습니다.
+무기를 넣으면 작업 속도가 빨라지고, 해당 무기에 부여된 약탈 레벨이 적용됩니다. (최대 4레벨)
+무기 보존을 활성화하면 마지막 타격에 무기가 파손되지 않습니다.
+무기 순환을 활성화하면 현재 무기가 파손되거나 출력 슬롯으로 이동했을 때 입력 슬롯에서 무기를 가져옵니다.
+§c구조물 내부의 가시에 마법을 부여해도 효과가 없습니다!
 {gray:{hr}}
-If the mob spawns §cinfernal§7, it will drain 8 times more power!
-You can prevent §cinfernal§7 spawns by shift clicking with a screwdriver
-Mobs who are always §cinfernal§7 will ignore this factor
+몹이 §c지옥불§7 상태로 생성되면 전력을 8배 더 소모합니다!
+드라이버로 Shift 클릭하면 §c지옥불§7 몹의 생성을 방지할 수 있습니다.
+항상 §c지옥불§7 상태인 몹에는 이 설정이 적용되지 않습니다.
 {gray:{hr}}
-You can enable ritual mode with a screwdriver
-When in ritual mode, can link to above Well of Suffering rituals
-The Ritual must be built directly centered above the machine
-When linked, mobs will start to buffer and die very slowly, providing blood to the linked altar
+드라이버로 의식 모드를 활성화할 수 있습니다.
+의식 모드에서는 위쪽에 있는 고통의 샘 의식과 연결할 수 있습니다.
+의식은 기계 바로 위의 중앙에 설치해야 합니다.
+연결하면 몹이 저장되기 시작하고 매우 천천히 죽으며, 연결된 제단에 피를 공급합니다.
 {gray:{hr}}
-You can disable mob animation with a soldering iron
-You can enable batch mode with wire cutters. Providing §916x Time, Output, Weapon Damage
+납땜 인두로 몹 애니메이션을 비활성화할 수 있습니다.
+전선 절단기로 일괄 처리 모드를 활성화할 수 있습니다. §916배 시간, 출력, 무기 피해를 제공합니다.

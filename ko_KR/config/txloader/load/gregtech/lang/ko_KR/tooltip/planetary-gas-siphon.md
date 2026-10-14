@@ -1,6 +1,6 @@
-Every coil tier gives a {green:+10%} speed bonus per coil tier
-Build on a Space Station orbiting a Gas Planet
-Requires a Programmed Circuit set to the depth you want to pump from (1 - 4)
-Requires 64x depth Mining Pipes
-Power cost depends on planet tier and depth. See NEI page for more details.
-Can load the chunk it is in (toggle using a Soldering Iron)
+코일 티어마다 티어당 속도 보너스 {green:+10%}를 제공합니다
+가스 행성을 공전하는 우주 정거장에 건설하십시오
+펌프질할 깊이(1 - 4)로 설정된 프로그래밍된 회로가 필요합니다
+깊이 1당 채굴 파이프 64개가 필요합니다
+전력 소모량은 행성 티어와 깊이에 따라 달라집니다. 자세한 내용은 NEI 페이지를 참조하십시오.
+이 장치가 있는 청크를 로드할 수 있습니다(납땜 인두로 전환).

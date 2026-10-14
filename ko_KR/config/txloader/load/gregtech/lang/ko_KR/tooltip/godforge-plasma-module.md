@@ -1,8 +1,6 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for extreme temperature matter ionization
+Godforge의 모듈입니다.
+작동하려면 Godforge의 일부여야 합니다.
+초고온 물질 이온화에 사용됩니다.
 {aqua:{hr:74}}
-The third module of the Godforge, this module infuses materials with extreme amounts
-of heat, ionizing and turning them into plasma directly. Not all plasmas can be produced
-right away, some of them require certain upgrades to be unlocked
-This module is specialized towards energy and overclock efficiency
+Godforge의 세 번째 모듈로, 재료에 극도의 열을 가해 이온화하고 직접 플라스마로 변환합니다. 모든 플라스마를 바로 생산할 수 있는 것은 아니며, 일부는 특정 업그레이드를 잠금 해제해야 생산할 수 있습니다.
+이 모듈은 에너지 효율과 오버클럭 효율에 특화되어 있습니다.

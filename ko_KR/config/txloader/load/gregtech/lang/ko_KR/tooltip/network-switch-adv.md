@@ -1,8 +1,8 @@
-Variable-length version of the Weighted Network Switch.
+가변 길이 가중 네트워크 스위치입니다.
 {gray:{hr}}
-Consumes §b524,288§7 EU/t per middle slice while active.
+활성화된 동안 중간 슬라이스마다 §b524,288§7 EU/t를 소비합니다.
 {gray:{hr}}
-Computation output is configured by right clicking transmission connectors with a screwdriver.
-Transmission connectors must be part of the structure for them to be configurable.
-Computation output for a hatch is directly controlled by the hatch's setting.
-For weighted computation distribution, use the §6{var:switch-name}§r.
+드라이버로 전송 커넥터를 우클릭하여 연산 출력을 설정합니다.
+설정할 수 있도록 전송 커넥터가 구조물의 일부여야 합니다.
+해치의 연산 출력은 해치 설정으로 직접 제어합니다.
+가중 연산 분배에는 §6{var:switch-name}§r를 사용하십시오.

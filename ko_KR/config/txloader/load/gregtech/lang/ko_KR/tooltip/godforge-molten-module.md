@@ -1,8 +1,8 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for high temperature material liquefaction
+Godforge의 모듈입니다.
+작동하려면 Godforge의 일부여야 합니다.
+고온 재료 액화에 사용됩니다.
 {aqua:{hr:74}}
-The second module of the Godforge, this module melts materials directly into
-their liquid form. If an output material does not have a liquid form, it will be output
-as a regular solid instead
-This module is specialized towards parallel processing
+Godforge의 두 번째 모듈로, 재료를 직접 녹여
+액체 형태로 만듭니다. 출력 재료가 액체 형태로 존재하지 않는 경우에는
+일반 고체 형태로 출력됩니다.
+이 모듈은 병렬 처리에 특화되어 있습니다.

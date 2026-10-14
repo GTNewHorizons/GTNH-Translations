@@ -1,3 +1,3 @@
-Slows down the recipe's progress to compensate for slow automation.
-Does not reduce recipe EU/t.
-Recipe time equals {italic:base time * (1 + max(speed divisor, contaminants))}.
+느린 자동화 속도를 보완하기 위해 레시피 진행 속도를 늦춥니다.
+레시피의 EU/t는 감소하지 않습니다.
+레시피 시간은 {italic:기본 시간 * (1 + max(속도 분배기, 오염물질))}입니다.

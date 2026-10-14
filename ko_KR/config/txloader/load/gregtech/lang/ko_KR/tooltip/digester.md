@@ -1,1 +1,1 @@
-Input ores and fluid, output water
+광석과 유체를 투입하면 물을 출력합니다.

@@ -1,8 +1,8 @@
-High-Tech fluid tank that can hold up to 25 different fluids!
-Partitions 1/25th of the total capacity for each fluid, no overflowing allowed
-Right clicking the controller with a screwdriver enables excess voiding
-Fluid storage amount and running cost depends on the Storage Field Block used
+최대 25종의 유체를 저장할 수 있는 첨단 유체 탱크입니다!
+각 유체에 전체 용량의 1/25을 할당하며, 초과 저장은 허용되지 않습니다.
+드라이버로 컨트롤러를 우클릭하면 초과분을 삭제할 수 있습니다.
+유체 저장량과 작동 비용은 사용한 저장 필드 블록에 따라 달라집니다.
 {gray:{hr}}
-Note on hatch locking:
-Use an Integrated Circuit in the GUI slot to limit which fluid is output
-The index of a stored fluid can be obtained through the Tricorder
+해치 잠금 안내:
+GUI 슬롯에 집적 회로를 넣어 출력할 유체를 제한하십시오.
+저장된 유체의 인덱스는 트라이코더로 확인할 수 있습니다.

@@ -1,10 +1,10 @@
-Supplies nanites, power, and condensate to {gold:{item:gregtech:gt.blockmachines:15757}s}.
-Nanites must be stored in a {gold:{item:gregtech:gt.blockmachines:9415}}.
-Different types of nanites can be mixed, but the effective tier will be the {underline:lowest} of all provided nanites.
-Only {gold:{var:max-nanites}} nanites can be provided at once - any additional nanites will be ignored.
+나나이트, 전력, 응축물을 {gold:{item:gregtech:gt.blockmachines:15757}s}에 공급합니다.
+나나이트는 {gold:{item:gregtech:gt.blockmachines:9415}}에 보관해야 합니다.
+서로 다른 종류의 나나이트를 혼합할 수 있지만, 적용되는 티어는 제공된 나나이트 중 {underline:가장 낮은 티어}가 됩니다.
+한 번에 {gold:{var:max-nanites}}개의 나나이트만 공급할 수 있으며, 초과분은 무시됩니다.
 {dark_gray:{hr}}
-{gold:{item:gregtech:gt.blockmachines:15757}s} will stall if they request more power than the observation array can provide.
-A recipe's condensate can be supplied at any time during its crafting.
-The recipe will fail if condensate is not supplied by the end.
-Crafting speed will be reduced if the network contains condensate that is not requested by the recipe.
-If there are more than {red:3} unrequested condensates in the network while a teleportation node is running, the craft will {red:{underline:immediately fail}}.
+{gold:{item:gregtech:gt.blockmachines:15757}s}에서 관측 배열이 공급할 수 있는 양보다 더 많은 전력을 요청하면 작동이 중단됩니다.
+레시피의 응축물은 제작 중 언제든 공급할 수 있습니다.
+제작이 끝날 때까지 응축물이 공급되지 않으면 레시피가 실패합니다.
+네트워크에 레시피에서 요청하지 않은 응축물이 있으면 제작 속도가 감소합니다.
+텔레포테이션 노드가 작동하는 동안 네트워크에 요청하지 않은 응축물이 {red:3}개보다 많으면 제작이 {red:{underline:즉시 실패합니다}}.

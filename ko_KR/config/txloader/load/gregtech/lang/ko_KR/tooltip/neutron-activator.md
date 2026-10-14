@@ -1,9 +1,9 @@
-Superluminal-velocity Motion.
-The minimum height of the Speeding Pipe Casing is 4
-Per extra Speeding Pipe Casing will give time discount
-But it will reduce the Neutron Accelerator efficiency
-You need to input energy to the Neutron Accelerator to get it running
-It will output correct products with Specific Neutron Kinetic Energy
-Otherwise it will output trash
-The Neutron Kinetic Energy will decrease 72KeV/s when no Neutron Accelerator is running
-Inputting Graphite/Beryllium dust can reduce 10MeV per dust immediately.
+초광속 운동.
+가속 파이프 케이싱의 최소 높이는 4입니다.
+가속 파이프 케이싱을 추가할 때마다 시간이 단축됩니다.
+하지만 중성자 가속기의 효율이 감소합니다.
+중성자 가속기를 작동하려면 에너지를 입력해야 합니다.
+특정 중성자 운동 에너지에서 올바른 결과물을 출력합니다.
+그렇지 않으면 쓰레기를 출력합니다.
+중성자 가속기가 작동하지 않을 때는 중성자 운동 에너지가 72KeV/s씩 감소합니다.
+흑연/베릴륨 분말을 투입하면 분말 1개당 즉시 10MeV를 감소시킬 수 있습니다.

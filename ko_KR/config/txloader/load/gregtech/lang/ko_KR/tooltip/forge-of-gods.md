@@ -1,15 +1,12 @@
-{italic}Also known as Godforge or Gorge for short
+{italic}Godforge 또는 줄여서 Gorge라고도 합니다
 {aqua:{hr:73}}
-A massive structure harnessing the thermal, gravitational and
-kinetic energy of a stabilized neutron star for material processing
-This multiblock can house {red}up to 16 modules {gray}which utilize the star to energize materials
-to varying degrees, ranging from regular smelting to matter degeneration
-EU requirements for all modules are handled via wireless energy directly
+안정화된 중성자별의 열에너지, 중력 에너지 및
+운동 에너지를 활용하여 재료를 가공하는 거대한 구조물입니다.
+이 멀티블록에는 별을 활용해 재료에 다양한 수준의 에너지를 부여하는 모듈을 {red}최대 16개까지 설치할 수 있으며, {gray}일반적인 제련부터 물질 퇴화까지 다양한 가공을 수행합니다.
+모든 모듈의 EU 요구량은 무선 에너지로 직접 충당합니다.
 {aqua:{hr:73}}
-This multiblock has an {gold}extensive upgrade tree {gray}which influences all of its functions,
-such as {gold}unlocking new module types{gray}, {gold}increasing heat levels {gray}and {gold}granting
-{gold}various processing speed bonuses{gray}. These upgrades can be unlocked by reaching
-certain milestones and/or spending materials
+이 멀티블록에는 모든 기능에 영향을 주는 {gold}광범위한 업그레이드 계통도{gray}가 있습니다.
+여기에는 {gold}새로운 모듈 유형 해금{gray}, {gold}열 단계 상승{gray} 및 {gold}다양한 가공 속도 보너스 부여{gray} 등이 포함됩니다. 특정 이정표에 도달하거나 재료를 소모하면 업그레이드를 해금할 수 있습니다.
 {aqua:{hr:73}}
-{green}Clicking on the logo in the controller gui opens an extensive information window{gray},
-explaining everything there is to know about this multiblock
+{green}컨트롤러 GUI에서 로고를 클릭하면 상세 정보 창이 열립니다{gray}.
+이 창에서 이 멀티블록에 관한 모든 정보를 확인할 수 있습니다.

@@ -1,2 +1,2 @@
-{light_purple:Performs 4/4 Perfect Overclocks} per Casing Tier above Recipe Tier
-Regular Overclocks still apply
+{light_purple:레시피 티어보다 높은 케이싱 티어마다 완벽한 오버클록 4/4회를 수행합니다}
+일반 오버클록도 적용됩니다

@@ -1,6 +1,6 @@
-Used to scan Data Sticks for Assembly Line Recipes
-Needs to be fed with computation to work
-Does not consume the item until the Data Stick is written
-Use screwdriver to change mode
-Computation required in scanner mode follows the formula:
-Recipe duration in ticks * (2 ^ (Recipe Voltage Tier - 1))
+조립 라인 레시피를 위해 데이터 스틱을 스캔하는 데 사용합니다
+작동하려면 연산력을 공급해야 합니다
+데이터 스틱에 기록될 때까지 아이템을 소비하지 않습니다
+모드를 변경하려면 드라이버를 사용하십시오
+스캐너 모드에서 필요한 연산량은 다음 공식에 따라 결정됩니다:
+레시피 소요 시간(틱) * (2 ^ (레시피 전압 티어 - 1))

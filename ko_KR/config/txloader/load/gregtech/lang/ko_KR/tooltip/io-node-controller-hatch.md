@@ -1,5 +1,5 @@
-Machine Type: {yellow:BEC I/O Node Controller Hatch}
-Temporarily pauses a {gold:{item:gregtech:gt.blockmachines:15757}} when the hatch receives a redstone signal.
-Nodes can be paused immediately, or upon entering the next step.
-Paused nodes do not consume condensate and do not fail due to contaminants.
-Nodes can be paused before starting a recipe, which will cause them to idle immediately when a recipe starts.
+기계 유형: {yellow:BEC I/O 노드 제어기 해치}
+해치가 레드스톤 신호를 받으면 {gold:{item:gregtech:gt.blockmachines:15757}}을 일시 정지합니다.
+노드는 즉시 일시 정지하거나 다음 단계에 진입할 때 일시 정지할 수 있습니다.
+일시 정지된 노드는 응축수를 소비하지 않으며 오염 물질로 인해 실패하지 않습니다.
+레시피를 시작하기 전에 노드를 일시 정지할 수 있으며, 이 경우 레시피가 시작되면 즉시 대기 상태가 됩니다.

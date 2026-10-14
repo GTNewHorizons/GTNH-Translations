@@ -1,6 +1,6 @@
-Controller block of the Microwave Grinder
-Starts a timer when enabled
-While the timer is running anything inside the machine will take damage
-The machine will also collect any items inside of it
-Can be configured with a Parametrizer
-(Do not insert a Wither)
+마이크로파 분쇄기의 제어기 블록입니다.
+활성화되면 타이머를 시작합니다.
+타이머가 작동하는 동안 기계 내부의 모든 것이 피해를 입습니다.
+기계는 내부에 있는 아이템도 모두 수집합니다.
+매개변수 설정기로 구성할 수 있습니다.
+(위더는 넣지 마십시오)

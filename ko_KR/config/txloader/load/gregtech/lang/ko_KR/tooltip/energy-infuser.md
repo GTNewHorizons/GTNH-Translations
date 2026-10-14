@@ -1,4 +1,4 @@
-Simultaneously recharges and repairs equipment
-Stocking input buses are not supported
-§6Recharging§7: No max speed or energy loss
-§6Repairing§7: Max 1k durability/t, consumes 1k EU + 1L UUM per point
+장비를 동시에 충전하고 수리합니다
+재고 보충 입력 버스는 지원되지 않습니다
+§6충전§7: 최대 속도 제한 및 에너지 손실 없음
+§6수리§7: 최대 내구도 1k/t, 포인트당 1k EU + 1L UUM 소모

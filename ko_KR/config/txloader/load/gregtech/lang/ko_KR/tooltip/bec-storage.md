@@ -1,13 +1,13 @@
-Contained condensate is exposed to all observation arrays on the current network.
-Condensate routing can be controlled by using a {gold:{item:gregtech:gt.blockmachines:15760}}.
+현재 네트워크에 있는 모든 관측 배열에서 격납된 응축물을 확인할 수 있습니다.
+응축물의 경로는 {gold:{item:gregtech:gt.blockmachines:15760}}을 사용하여 제어할 수 있습니다.
 {dark_gray:{hr}}
-Storage capacity is controlled by the field strength.
-The field strength is configurable in the UI. It can also be set by a computer.
-{gold:1} unit of field strength can store {gold:1L} of condensate, and consumes {gold:1} EU/t.
-When multiple containment fields are present on a network, injected condensate is split based on their capacities.
+저장 용량은 장 세기에 따라 결정됩니다.
+장 세기는 UI에서 설정할 수 있으며, 컴퓨터로도 설정할 수 있습니다.
+장 세기 {gold:1}단위마다 응축물 {gold:1L}을 저장할 수 있으며, {gold:1} EU/t를 소모합니다.
+네트워크에 격납장이 여러 개 있으면 주입된 응축물은 각 격납장의 용량에 따라 분배됩니다.
 {dark_gray:{hr}}
-Excess condensate can be inserted into the containment field, but it will quickly be {red:{underline:voided}}.
-When a containment field is overfilled, {red:{underline:11%}} of its condensate is deleted each second.
-If a containment field shuts down at any point, its contents will be {red:{underline:voided}}.
+초과 응축물을 격납장에 넣을 수는 있지만, 빠르게 {red:{underline:소멸됩니다}}.
+격납장이 과충전되면 매초 응축물의 {red:{underline:11%}}가 삭제됩니다.
+격납장이 언제든지 꺼지면 내부에 있던 응축물은 {red:{underline:소멸됩니다}}.
 {dark_gray:{hr}}
-The {gold:{item:gregtech:gt.blockmachines:15761}} can be used to detect stored condensate levels.
+저장된 응축물의 양은 {gold:{item:gregtech:gt.blockmachines:15761}}을 사용하여 감지할 수 있습니다.

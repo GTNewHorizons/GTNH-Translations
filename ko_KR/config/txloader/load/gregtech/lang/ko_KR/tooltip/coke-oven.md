@@ -1,2 +1,2 @@
-Turns Logs into {gold:Charcoal} and Coal into {gold:Coke}
-Produces {gold:Creosote Oil} as a byproduct
+통나무를 {gold:숯}으로, 석탄을 {gold:코크스}로 변환합니다
+부산물로 {gold:크레오소트 오일}을 생산합니다
