@@ -888,7 +888,7 @@ gt.blockmachines.multimachine.FOG.upgrades=升级
 gt.blockmachines.multimachine.FOG.milestones=里程碑
 gt.blockmachines.multimachine.FOG.inversion=反转
 
-gt.blockmachines.multimachine.FOG.fuelinfotext.1=Once the structure of the Forge is built and the multiblock is formed, just simply turning it on is not sufficient to make it functional. The Forge must be supplied with a certain amount of §bStar Fuel §6(the item) to actually boot up.
+gt.blockmachines.multimachine.FOG.fuelinfotext.1=在诸神之锻炉完成搭建并成型后，仅仅启动机器并不能使其工作。锻炉需要一定量的§b恒星燃料§6（物品形式的）以启动。
 gt.blockmachines.multimachine.FOG.fuelinfotext.2=The amount of Star Fuel needed depends on the current fuel consumption factor, which can be set in the fuel configuration menu. By default the maximum is 5, but it can be increased later on with upgrades. Star Fuel scaling is as follows:
 gt.blockmachines.multimachine.FOG.fuelinfotext.3=factor*25*1.2^factor
 gt.blockmachines.multimachine.FOG.fuelinfotext.4=Star Fuel can be supplied via an input bus, it gets consumed periodically and stored internally. Once there is enough Star Fuel stored in the multi, it turns on for real (allowing modules to connect) and converts the consumed Star Fuel into stored §bStellar Fuel§6.
@@ -1219,8 +1219,8 @@ tt.keyword.Structure.Center=内部中央
 # Additional structure components
 tt.keyword.Structure.DataAccessHatch=数据访问仓
 tt.keyword.Structure.InFrontOfEachComputerHeatVent=每个计算机散热风扇的前方
-tt.keyword.Structure.DaisyChainAssemblyLine=Use an assembly line reception connector to daisy-chain machines
-tt.keyword.Structure.DaisyChainOptical=Use an optical reception connector to daisy-chain machines
+tt.keyword.Structure.DaisyChainAssemblyLine=使用装配线接收接口串联机器
+tt.keyword.Structure.DaisyChainOptical=使用光学接收接口串联机器
 tt.keyword.Structure.ElementalOutput=元物质输出仓
 tt.keyword.Structure.Elemental=元物质仓
 tt.keyword.Structure.ElementalOverflow=元物质溢流仓
@@ -1881,7 +1881,7 @@ tt.gui.tooltip.plasma_module.debug_window=调试窗口
 tt.gui.tooltip.plasma_module.debug_window.multi_step=多步骤
 tt.gui.tooltip.plasma_module.debug_window.fusion_tier=聚变等级
 tt.gui.tooltip.plasma_module.debug_window.parallel=并行
-tt.gui.tooltip.uncertainty.value_assist=Color vision assist: overlay the value of each of the 16 cells
+tt.gui.tooltip.uncertainty.value_assist=色觉辅助：叠加显示16个单元各自的值。
 
 tt.gui.text.debug.set_mode=点击将机器设置为 %s
 tt.gui.text.debug.status.inactive=未工作
