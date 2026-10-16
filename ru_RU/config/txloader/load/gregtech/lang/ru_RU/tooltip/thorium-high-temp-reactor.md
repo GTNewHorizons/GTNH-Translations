@@ -1,12 +1,12 @@
-Heats coolant with the radioactive decay of TRISO Pebbles
-Insert at least {gold:{var:min_pebbles} Pebbles} and {yellow:{var:helium} {var:unit} Helium} to start
-Having any less than the maximum {var:max_pebbles} Pebbles reduces efficiency
+Нагревает хладагент радиоактивным распадом пеллет TRISO
+Для запуска загрузите не менее {gold:{var:min_pebbles} пеллет} и {yellow:{var:helium} {var:unit} гелия}
+Если пеллет меньше максимума в {var:max_pebbles}, эффективность снижается
 {gray:{hr}}
-A lower efficiency means a higher power cost and less hot coolant
-{white:Power Cost (EU/t) =} {aqua:3,840 / Efficiency}
-{white:Hot Coolant ({var:unit}/t) =} {red:{var:coolant_rate} * Efficiency}
+Чем ниже эффективность, тем выше стоимость энергии и меньше горячего хладагента
+{white:Стоимость энергии (EU/t) =} {aqua:3,840 / Эффективность}
+{white:Горячий хладагент ({var:unit}/т) =} {red:{var:coolant_rate} * Эффективность}
 {gray:{hr}}
-Each operation is {light_purple:{var:duration} hours} regardless of the Pebble amount
-Consumes up to {gold:{var:consumption}%} of the stored {gold:Pebbles} and all the {yellow:Helium} at the start
-Outputs burned out TRISO Pebbles at the end
-There is no consequence for running out of coolant while running
+Каждая операция длится {light_purple:{var:duration} ч} независимо от числа пеллет
+В начале расходует до {gold:{var:consumption}%} хранимых {gold:пеллет} и весь {yellow:гелий}
+В конце выдаёт выгоревшие пеллеты TRISO
+Если хладагент кончится во время работы, последствий не будет

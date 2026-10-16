@@ -1,12 +1,12 @@
-{gold:Circuit Assembly Line}:
-- Imprint by placing a {white:Circuit Imprint} in the controller
-- Each machine can only be imprinted once
-- {yellow:Imprints are permanent and circuit specific}
+{gold:Сборочная линия электросхем}:
+Запрограммируйте, поместив {white:Шаблон электросхемы} в контроллер
+Каждый механизм можно запрограммировать только один раз
+{yellow:Программирование постоянно и привязано к конкретной схеме}
 {gray:{hr}}
-{gold:Circuit Assembler}:
-- Minimum Length: {green:{var:min_length}}
-- Recipe tier in {white:Circuit Assembler} mode is at most {aqua:Energy Hatch tier - 1}
-- Supports {white:Crafting Input Buffer/Bus} and allows input separation
+{gold:Сборщик электросхем}:
+Минимальная длина: {green:{var:min_length}}
+Тир рецепта в режиме {white:Сборщика электросхем} не выше {aqua:тир энерговвода - 1}
+Поддерживает {white:Входной буфер/люк создания} и разделение люков
 {gray:{hr}}
-Right-click the controller with a {white:Screwdriver} to change mode
-{light_purple:Performs 4/4 Perfect Overclock}
+Щёлкните ПКМ по контроллеру {white:Отвёрткой}, чтобы сменить режим
+{light_purple:Выполняет идеальный разгон 4/4}

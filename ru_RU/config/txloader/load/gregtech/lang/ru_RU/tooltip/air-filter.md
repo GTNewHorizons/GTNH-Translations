@@ -1,12 +1,12 @@
-Needs a {white:Turbine} in the controller to run
-Cleans pollution in the surrounding {green:{var:chunk_size}x{var:chunk_size}} chunks
-Consumes a fixed {aqua:{var:eu_usage} EU/t} while active
+Для работы нужна {white:Турбина} в контроллере
+Очищает загрязнение в окрестных чанках {green:{var:chunk_size}x{var:chunk_size}}
+Во время работы потребляет фиксированные {aqua:{var:eu_usage} EU/t}
 {gray:{hr}}
-Each {white:Muffler Hatch} removes the following amount of pollution from one chunk per second
+Каждая {white:выхлопная система} убирает из одного чанка в секунду следующее количество загрязнения
 {green:{var:global_multiplier} * B * turbineEff * FLOOR({var:scaling_factor}^mufflerTier)}
-- This Machine's Tier Bonus (B) = {green:{var:tier_bonus}}
-- turbineEff = {white:Turbine} efficiency
-- Effective {white:Muffler Hatch} Tier is limited by {white:Energy Hatch} Tier
+Бонус тира этого механизма (B) = {green:{var:tier_bonus}}
+turbineEff = эффективность {white:турбины}
+Эффективный тир {white:выхлопной системы} ограничен тиром {white:энерговвода}
 {gray:{hr}}
-Supply {gold:Absorption Filters} through an {white:Input Bus} to double pollution removed ({gold:{var:filter_lifespan}}s per)
-Each maintenance issue reduces the amount of pollution removed by {green:{var:maint_penalty}%}
+Подавайте {gold:абсорбирующие фильтр} через {white:входной люк}, чтобы удвоить очистку ({gold:{var:filter_lifespan}} с на фильтр)
+Каждая проблема с техобслуживанием снижает очистку на {green:{var:maint_penalty}%}

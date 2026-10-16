@@ -1,2 +1,2 @@
-Fluids are output one per layer based on their slot number in {white:NEI}
-{yellow:Increase the height to output more fluid types}
+Жидкости выводятся по одной на слой согласно номеру слота в {white:NEI}
+{yellow:Увеличьте высоту, чтобы выводить больше типов жидкостей}

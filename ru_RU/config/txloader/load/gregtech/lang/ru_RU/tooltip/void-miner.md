@@ -1,11 +1,11 @@
-Consumes {aqua:{var:power} EU/t}
-Can be supplied with {blue:{var:gas_rate} {var:unit}/s} of {gold:Noble Gases} to boost output
-{gold:Neon} : {green:{var:neon_boost}x}
-{aqua:Krypton} : {green:{var:krypton_boost}x}
-{dark_aqua:Xenon} : {green:{var:xenon_boost}x}
-{blue:Oganesson} : {green:{var:oganesson_boost}x}
-Produces {gold:{var:ores_per_second} Ores} per Second, drawn from the Dimension's Ore pool
-{gold:Ores} from the Controller UI or an {green:Input Bus} are added to the {light_purple:Whitelist/Blacklist}
-Toggle {light_purple:Whitelist/Blacklist} via the Controller UI or a {white:Screwdriver}
-Copy/paste the Ore filter with a {white:Data Stick}
-{dark_red:Blacklisted or non Whitelisted Ore will be VOIDED}
+Потребляет {aqua:{var:power} EU/t}
+Можно подавать {blue:{var:gas_rate} {var:unit}/с} {gold:Благородных газов} для увеличения добычи
+{gold:Неон}: {green:{var:neon_boost}x}
+{aqua:Криптон}: {green:{var:krypton_boost}x}
+{dark_aqua:Ксенон}: {green:{var:xenon_boost}x}
+{blue:Оганесон}: {green:{var:oganesson_boost}x}
+Добыча из пула руд измерения: {gold:{var:ores_per_second} в секунду}
+{gold:Руды} из интерфейса контроллера или {green:Входного люка} добавляются в {light_purple:белый/чёрный список}
+Переключайте {light_purple:белый/чёрный список} в интерфейсе контроллера или {white:Отвёрткой}
+Копируйте и вставляйте фильтр руд {white:Флешкой}
+{dark_red:Руда из чёрного списка или вне белого списка УНИЧТОЖАЕТСЯ}

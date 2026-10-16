@@ -1,14 +1,14 @@
-A primitive Grinder powered by {aqua:Kinetic Energy}
-Macerates up to {gold:16} items at a time
-The amount of parallels is determined by {white:Wind Speed}
-Parallels determine how many items are processed per recipe
-Processing time is the same regardless of parallels
-{white:Wind Speed} can be determined using the {white:{item:bartworks:BW_SimpleWindMeter}}
-Rotor can be put in the {white:{item:bartworks:BWRotorBlock}}
-Will not work if wind is non-existent or too strong
-{green:12.5%} speed
+Примитивная дробилка, работающая на {aqua:кинетической энергии}
+Дробит до {gold:16} предметов за раз
+Количество параллелей зависит от {white:скорости ветра}
+Параллели определяют, сколько предметов обрабатывается за один рецепт
+Время обработки не зависит от количества параллелей
+{white:Скорость ветра} можно узнать прибором: {white:{item:bartworks:BW_SimpleWindMeter}}
+Ротор вставляется в блок: {white:{item:bartworks:BWRotorBlock}}
+Не работает, если ветра нет или он слишком сильный
+Скорость: {green:12,5%}
 {gray:{hr}}
-{gold:2} parallels: {white:Low}
-{gold:4} parallels: {white:Common}
-{gold:8} parallels: {white:Rather strong}
-{gold:16} parallels: {white:Very Strong}
+{gold:2} параллели: {white:слабый ветер}
+{gold:4} параллели: {white:обычный ветер}
+{gold:8} параллелей: {white:довольно сильный ветер}
+{gold:16} параллелей: {white:очень сильный ветер}

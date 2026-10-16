@@ -1,4 +1,4 @@
-Fills in the area below it with {gold:Light Concrete} to remove spawning locations
-Extends mining pipe to bedrock and fills bottom to top, going through walls
-Range is {green:{var:radius}x{var:radius}} blocks around controller (square)
-Base Cycle Time: {light_purple:{var:cycle_time}}
+Заполняет пространство под собой {gold:Светлым бетоном}, чтобы убрать места спавна мобов
+Опускает буровую трубу до бедрока и заполняет снизу вверх, проходя сквозь стены
+Радиус: {green:{var:radius}x{var:radius}} блоков вокруг контроллера
+Длительность цикла: {light_purple:{var:cycle_time}}

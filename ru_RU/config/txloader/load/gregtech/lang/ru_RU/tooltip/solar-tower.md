@@ -1,15 +1,15 @@
-Contributing Green Energy towards the future
-Surround with 1-5 rings of {white:Solar Reflectors} to generate heat
-More Solar Reflectors means more heat gain and more overall coolant throughput
-Maximum 100,000 heat but there is no risk or danger in reaching that
+Вкладывая зелёную энергию в будущее
+Окружите 1-5 кольцами {white:Солнечных отражателей}, чтобы получать тепло
+Больше отражателей дают больше тепла и большую общую пропускную способность хладагента
+Максимум 100,000 тепла, но достигать его безопасно
 {gray:{hr}}
-Converts {blue:Cold Solar Salt} into {red:Hot Solar Salt} at a 1:1 ratio every {var:cycle}s
-Every 1{var:unit} converted reduces the heat by 1 until it reaches zero
-Excess Cold Solar Salt is not consumed
+Каждые {var:cycle} с превращает {blue:Охлаждённую солнечную соль} в {red:Раскалённую солнечную соль} в соотношении 1:1
+Каждый преобразованный 1{var:unit} снижает тепло на 1, пока оно не дойдёт до нуля
+Лишняя охлаждённая солнечная соль не расходуется
 {gray:{hr}}
-Conversion only happens if {white:heat >=} {red:{var:threshold}} and {white:efficiency =} {aqua:100%}
-Efficiency starts at {aqua:0%} and increases by {aqua:+1%} every 10s 
+Преобразование идёт, только если {white:тепло >=} {red:{var:threshold}} и {white:эффективность =} {aqua:100%}
+Эффективность начинается с {aqua:0%} и растёт на {aqua:+1%} каждые 10 с
 {gray:{hr}}
-{white:Heat Efficiency =} {red:1 - (Heat - {var:center})^{var:exp} / {var:coefficient}}, peaks at {red:{var:center}}
-{white:Heat/Cycle =} {red:Solar Reflectors * Heat Efficiency * ({var:loss} + 2^(Rings - 1)) - {var:loss}}
-{yellow:Heat gain is halved in rain and disabled at night}
+{white:Эффективность тепла =} {red:1 - (Тепло - {var:center})^{var:exp} / {var:coefficient}}, пик при {red:{var:center}}
+{white:Тепло за цикл =} {red:Отражатели * Эффективность тепла * ({var:loss} + 2^(Кольца - 1)) - {var:loss}}
+{yellow:В дождь прирост тепла вдвое меньше, ночью его нет}

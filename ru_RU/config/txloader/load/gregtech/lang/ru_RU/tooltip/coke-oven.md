@@ -1,2 +1,2 @@
-Turns Logs into {gold:Charcoal} and Coal into {gold:Coke}
-Produces {gold:Creosote Oil} as a byproduct
+Превращает брёвна в {gold:Древесный уголь}, а уголь в {gold:Кокс}
+Побочно производит {gold:Креозотовое масло}
