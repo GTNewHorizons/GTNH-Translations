@@ -1,55 +1,48 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Level Emitter Autostocking
+  title: 标准发信器智能补货系统
   icon: appliedenergistics2:item.ItemMultiPart:280
 ---
 
-# Level Emitter Autostocking
+# 标准发信器智能补货系统
 
-One might ask "How do I keep a certain amount of an item in stock, crafting more as needed?"
+也许有人会问：“如何让某种物品保持一定的库存量，并在不足时自动合成补足？”
 
-One solution is use of an <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />, <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />, and <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> to automatically request new items
-from your network's [autocrafting](../ae2_mechanics/autocrafting.md). This setup is for maintaining a large quantity of one item.
+一种解决方案是使用 <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />、<ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> 与 <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />，自动向网络的[自动合成](../ae2_mechanics/autocrafting.md)请求新物品。此方案用于维持某一种物品的大量库存。
 
-You can of course make your network craft continuously, by omitting the level emitter and redstone card.
+当然，你也可以省去标准发信器和红石卡，让网络持续不断地合成。
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/level_emitter_autostocking.snbt" />
 
   <BoxAnnotation color="#dddddd" min="1 1 0" max="2 1.3 1">
-  (1) Export Bus: Filtered to the desired item. Has a Redstone Card and Crafting Card. Redstone mode set to
-  "Active with signal", Crafting behavior set to "Do not use stocked items".
-  <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" /></Row>
+  (1) 输出总线：过滤为所需物品。装有红石卡和合成卡。红石模式设为“有信号时激活”，合成行为设为“不使用库存物品”。<Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0.7 1 0" max="1 2 1">
-  (2) Level Emitter: Configured with the desired item and quantity, set to "Emit when levels are below limit".
+  (2) 标准发信器：配置为所需物品和数量，并设为“当存量低于限制时发出信号”。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">
-  (3) Interface: In its default configuration.
+  (3) 通用接口：保持出厂设置。
   </BoxAnnotation>
 
   <DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-  To Main Network
+  通往主网络
   </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Configurations
+## 核心配置
 
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> (1) is filtered to the desired item. It has a redstone card and a crafting card.
-  The "Redstone Mode" is set to "Active with signal", The "Crafting Behavior" is set to "Do not use stocked items".
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> (2) is configured with the desired item and quantity, and set to "Emit when levels are below limit".
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (3) is in its default configuration.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> (1) 过滤为所需物品。它装有红石卡和合成卡。“红石模式”设为“有信号时激活”，“合成行为”设为“不使用库存物品”。
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> (2) 配置为所需物品和数量，并设为“当存量低于限制时发出信号”。
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (3) 无需特别设置，保持默认状态。
 
-## How It Works
+## 运作流程
 
-1. If the amount of the desired item in [network storage](../ae2_mechanics/import_export_storage.md) is below the quantity specified in the
-   <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />, it will emit a redstone signal.
-2. Upon receiving a redstone signal (and due to the <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> and being set to not use stocked items),
-   the <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> will request that the network's [autocrafting](../ae2_mechanics/autocrafting.md) craft
-   more of the desired item, then export it.
-3. Upon having an item pushed into it (and not being configured to have anything in its internal inventory), the <ItemLink id="appliedenergistics2:tile.BlockInterface" /> will push that item into network storage.
+1. 如果[网络存储](../ae2_mechanics/import_export_storage.md)中所需物品的数量低于<ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> 中指定的数量，它就会发出红石信号。
+2. 收到红石信号后（由于装有 <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />，且被设为不使用库存物品），<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> 会请求网络的[自动合成](../ae2_mechanics/autocrafting.md)合成更多所需物品，然后将其输出。
+3. 当有物品被推入其中（且未配置为在内部库存中持有任何物品）时，<ItemLink id="appliedenergistics2:tile.BlockInterface" /> 会将该物品推入网络存储。

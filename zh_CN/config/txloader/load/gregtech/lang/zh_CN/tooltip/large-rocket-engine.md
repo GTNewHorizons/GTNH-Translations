@@ -1,15 +1,15 @@
-Burns {gold:Rocket Fuel} to generate power (min {var:min_fuel} {var:unit}/s)
-There is no upper limit on power output, other than the size of the {white:Dynamo Hatch}
-But there are soft caps at {aqua:{var:cap1} EU/t} and {aqua:{var:cap2} EU/t} (unboosted) that reduce fuel efficiency
-{dark_red:Do not insert Rocket Fuel while disabled - it will be voided on start!}
+燃烧{gold:火箭燃料}发电（每秒至少 {var:min_fuel} {var:unit}）
+输出功率没有上限，仅受{white:动力仓}大小限制
+但在 {aqua:{var:cap1} EU/t} 和 {aqua:{var:cap2} EU/t} 处存在会降低燃料效率的软上限（未增压）
+{dark_red:未启用时请勿放入火箭燃料——启动时燃料将被销毁！}
 {gray:{hr}}
-The combustion process requires some additional inputs:
-{aqua:{var:lubricant_amount}{var:unit}} of {white:{var:lubricant}} per hour (x{var:boost} if boosted)
-{aqua:{var:air_percent}%} of current EU/t in {white:Air} per tick (only through air intake hatches)
-{aqua:{var:coolant_percent}%} of current EU/t in {white:{var:coolant}} per tick to boost (optional)
+燃烧过程还需要以下额外输入：
+每小时消耗 {aqua:{var:lubricant_amount}{var:unit}} 的{white:{var:lubricant}}（增压时 ×{var:boost}）
+每刻消耗相当于当前 EU/t {aqua:{var:air_percent}%} 的{white:空气}（仅通过进气仓输入）
+每刻消耗相当于当前 EU/t {aqua:{var:coolant_percent}%} 的{white:{var:coolant}}进行增压（可选）
 {gray:{hr}}
-If air ever runs out, the machine shuts down and must be manually restarted
-Boosting multiplies the soft caps to {aqua:{var:cap1_boosted} EU/t} and {aqua:{var:cap2_boosted} EU/t}
-Takes {var:warmup_min}-{var:warmup_max} seconds to warm up based on the current power output
+若空气耗尽，机器将停机，且必须手动重启
+增压会将软上限分别提升至 {aqua:{var:cap1_boosted} EU/t} 和 {aqua:{var:cap2_boosted} EU/t}
+预热时间取决于当前输出功率，为 {var:warmup_min}-{var:warmup_max} 秒
 {gray:{hr}}
-Produces {dark_purple:{var:pollution}} pollution per {aqua:{var:pollution_unit} EU/t}
+每 {aqua:{var:pollution_unit} EU/t} 产生 {dark_purple:{var:pollution}} 污染

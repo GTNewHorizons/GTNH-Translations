@@ -1,66 +1,66 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Spatial IO
+  title: 空间IO
   icon: appliedenergistics2:tile.BlockSpatialPylon
 ---
 
-# Spatial IO
+# 空间IO
 
-Spatial IO is a way to cut-and-paste physical volumes of space in your world. Through a multiblock structure composed of <ItemLink id="appliedenergistics2:tile.BlockSpatialPylon" showIcon="left"/> and <ItemLink id="appliedenergistics2:tile.BlockSpatialIOPort" showIcon="left"/>, it allows you to compress a defined volume of space into a Spatial Storage Cell, carry it with you, and release the stored contents anywhere. You can even move end portal frames!
+空间IO是对你世界中的空间进行剪切和粘贴的一种方法。通过由<ItemLink id="appliedenergistics2:tile.BlockSpatialPylon" showIcon="left"/>和<ItemLink id="appliedenergistics2:tile.BlockSpatialIOPort" showIcon="left"/>组成的多方块结构，它允许你将一块指定体积的空间压缩进空间存储元件中，随身携带，并在任意地点释放其中存储的内容。你甚至可以移动末地传送门框架！
 
-Spatial Pylons can move blocks and entities, which means if you have the means to move storage cells across dimensions and automate the Spatial IO system, you can even use Spatial Pylons to teleport living entities, including players, across dimensions. However, do note that the energy cost of Spatial Pylons is quite significant. During periods when power generation is tight, it is best to calculate the operating cost in advance.
+空间塔可以移动方块和实体，这意味着如果你有办法在维度之间移动存储元件并让空间IO系统自动化，你甚至可以用空间塔将包括玩家在内的生物实体跨维度传送。但请注意，空间塔的能耗相当可观。在发电量紧张的时期，最好提前计算好运行成本。
 
-# Spatial Pylon Multiblock Structure
-The operation of Spatial IO requires a defined area, and the volume of this space must be less than or equal to the volume of the Spatial Storage Cell used.
+# 空间塔多方块结构
+空间IO的运行需要一个确定的区域，且该空间的体积必须小于或等于所用空间存储元件的容量。
 
-The area of effect is defined by Spatial Pylon blocks. All Spatial Pylons must be in the same ME Network; using a subnetwork is recommended. Using 1\*1\*n (n > 1) adjacent Spatial Pylon blocks can form a Spatial Pylon pillar. Multiple pillars will construct a 1-block-thick square shell, and the space inside it is the area of effect for the Spatial IO system. In other words, the area of effect for Spatial IO is one block smaller than the bounds of the entire Spatial Pylon multiblock structure.
+作用区域由空间塔方块定义。所有空间塔都必须位于同一个ME网络中；建议使用子网络。使用1\*1\*n (n > 1)个相邻的空间塔方块可以组成一根空间塔柱。多根塔柱会构成一个1格厚的方形壳层，其内部空间就是空间IO系统的作用区域。换言之，空间IO的作用区域比整个空间塔多方块结构的边界小1格。
 
-The construction of the Spatial IO multiblock system follows these rules:
-  * Each Spatial Pylon pillar must be composed of at least 2 Spatial Pylon blocks, and the pillar must be a straight line.
-  * All Spatial Pylon pillars must be in the same ME Network, and each pillar occupies 1 channel.
+空间IO多方块系统的搭建遵循以下规则：
+  * 每根空间塔柱必须由至少2个空间塔方块组成，并且塔柱必须是一条直线。
+  * 所有空间塔柱都必须位于同一个ME网络中，且每根塔柱占用1个频道。
   
 <GameScene zoom="2" rotateY={200} height="200"  >
     <ImportStructure src="../assets/structures/spatial_io_spatial_pylons_rule.snbt" />
     <BoxAnnotation min="3 0 0" max="5 1 1" color="#EE3333" thickness="1">
-      This Spatial Pylon pillar is dark red, indicating it is unpowered. It might be difficult to distinguish the two in this scene, but it is much more obvious in-game.
+      这根空间塔柱呈暗红色，表示它未通电。在这个场景中可能难以分辨这两种颜色，但在游戏中会明显得多。
     </BoxAnnotation>
 </GameScene>
 
-  * The area of effect is defined by the Spatial Pylon blocks with the maximum and minimum X, Y, and Z coordinates across the entire Spatial Pylon system.
-  * The minimum defined area of effect is 1\*1\*1.
-  * All Spatial Pylon pillars must be located on the square shell. There cannot be any active Spatial Pylon pillars within the area of effect inside the shell.
-  * Valid Spatial Pylon textures will connect.
-    * A dotted purple texture indicates an invalid Spatial Pylon structure.
-    * Dark red Spatial Pylons indicate they are unpowered.
-    * Bright red Spatial Pylons indicate a valid Spatial Pylon structure, but the multiblock structure has not formed a valid area of effect.
-    * Bright purple Spatial Pylons indicate that the multiblock structure is fully formed.
+  * 作用区域由整个空间塔系统中具有最大和最小X、Y、Z坐标的空间塔方块决定。
+  * 定义的最小作用区域为1\*1\*1。
+  * 所有空间塔柱都必须位于方形壳层上。壳层内部的作用区域中不能存在任何激活的空间塔柱。
+  * 有效的空间塔纹理会相互连接。
+    * 紫色虚线纹理表示空间塔结构无效。
+    * 暗红色的空间塔表示未通电。
+    * 亮红色的空间塔表示空间塔结构有效，但多方块结构尚未形成有效的作用区域。
+    * 亮紫色的空间塔表示多方块结构已完全成型。
 
 <GameScene zoom="2"  width ="300" height="200" rotateY={225} >
     <ImportStructure src="../assets/structures/spatial_io_spatial_pylons_rule2.snbt" />
     <Block id="appliedenergistics2:tile.BlockCableBus" nbt='{__guidenh_encoded_keys_v1:[0:{v:{id:"appliedenergistics2:item.ItemMultiPart",Count:1b,Damage:36s},k:"def:6"},1:{v:{},k:"extra:6"}],id:"BlockCableBus",hasRedstone:2}' x="2" z="2"/>
     <BoxAnnotation min="5 0 0" max="0 5 5" color="#EE3333" thickness="1" alwaysOnTop={true}>
-      The red box shows the bounds of the Spatial Pylon structure, and the area of effect is located inside the "shell".
+      红色框显示空间塔结构的边界，作用区域位于“壳层”内部。
     </BoxAnnotation>
     <BoxAnnotation min="4 1 1" max="1 4 4" color="#00ff00" thickness="1">
-      The green box is the Spatial IO area of effect. Placing a new Spatial Pylon pillar connected to the same network within this area will result in an invalid Spatial Pylon multiblock structure.
+      绿色框是空间IO的作用区域。在此区域内放置一根连接到同一网络的新空间塔柱，会导致空间塔多方块结构无效。
     </BoxAnnotation>
 </GameScene>
 
-# Spatial IO Port
-The <ItemLink id="appliedenergistics2:tile.BlockSpatialIOPort" showIcon="left"/> is the control terminal for Spatial IO operations. It displays the statistical information of the multiblock structure.
+# 空间IO端口
+<ItemLink id="appliedenergistics2:tile.BlockSpatialIOPort" showIcon="left"/>是空间IO操作的控制终端。它会显示多方块结构的统计信息。
 
-After building the entire system, if you want to execute a Spatial IO operation, place a Spatial Storage Cell in the input slot and send a redstone pulse to the Spatial IO Port; the Spatial IO system will then activate. Note that any blocks and entities within the area of effect, including yourself, will be stored inside the cell. If you have no way to escape, you will be trapped in the Spatial Storage Cell dimension - a dark, featureless space. You can use this to prank your friends!
+搭建好整个系统后，若要执行空间IO操作，请将一个空间存储元件放入输入槽，并向空间IO端口发送一个红石脉冲，空间IO系统便会激活。注意，作用区域内的所有方块和实体（包括你自己）都会被存入元件中。如果你没有逃出去的办法，你就会被困在空间存储元件维度中——一个黑暗而空无一物的空间。你可以用这个去捉弄你的朋友！
 
-# Energy Consumption
-Each activation of the Spatial IO Port consumes the required energy all at once. The value is listed in the Spatial IO Port, so prepare enough [Energy Cells](../items_blocks/energy_cells.md) in advance.
+# 能耗
+空间IO端口每次激活都会一次性消耗所需的全部能量。该数值会显示在空间IO端口中，因此请提前准备足够的[能源元件](../items_blocks/energy_cells.md)。
 
-The energy consumption for a single Spatial IO operation grows rapidly with the volume of the area of effect, and it is influenced by the energy efficiency coefficient. During periods when power generation is tight, improving power generation is a wise choice.
+单次空间IO操作的能耗会随着作用区域体积的增长而迅速增加，同时还受到能效系数的影响。在发电量紧张的时期，提升发电能力是明智的选择。
 
-Simply put, energy efficiency is positively correlated with the number of Spatial Pylons constituting the multiblock structure, but the reduction effect of energy efficiency on power consumption decreases logarithmically. This means that achieving maximum reduction requires extremely high energy efficiency, which in turn requires more Spatial Pylon blocks. Considering the energy consumption alongside the crafting costs of the Energy Cells and Spatial Pylon blocks themselves, a balance is usually reached at around 50~60% efficiency.
+简而言之，能效与构成多方块结构的空间塔数量呈正相关，但能效对能耗的降低效果呈对数递减。这意味着要达到最大的降低效果就需要极高的能效，而这又需要更多的空间塔方块。将能耗与能源元件及空间塔方块本身的合成成本一起考虑，通常在50~60%左右的效率处达到平衡。
 
-# Complete Operational Structure
-If you understand all the rules of the multiblock structure, you can see that the structure below is valid and operational.
+# 完整可运行结构
+如果你理解了多方块结构的所有规则，就能看出下面的结构是有效且可运行的。
 
 <GameScene zoom="2" width="300" rotateY={200} >
     <ImportStructure src="../assets/structures/spatial_io_mess.snbt" />
@@ -70,7 +70,7 @@ If you understand all the rules of the multiblock structure, you can see that th
     </BoxAnnotation>
 </GameScene>
 
-However, it is too messy and not concise enough. In practice, you can refer to the structural designs below:
+不过，它太过杂乱、不够简洁。实际搭建时，你可以参考下面的结构设计：
 <GameScene zoom="2" width="300" rotateY={200} >
     <ImportStructure src="../assets/structures/spatial_io_simple.snbt" />
     <BoxAnnotation min="9 0 0" max="5 4 4" color="#EE3333" thickness="1">
@@ -83,7 +83,7 @@ However, it is too messy and not concise enough. In practice, you can refer to t
     </BoxAnnotation>
 </GameScene>
 
-A structure with higher energy efficiency:
+一个能效更高的结构：
 
 <GameScene zoom="2" width="300" rotateY={-135} >
     <ImportStructure src="../assets/structures/spatial_io_efficiency.snbt" />
@@ -93,22 +93,22 @@ A structure with higher energy efficiency:
     </BoxAnnotation>
 </GameScene>
 
-Now that everything is ready, let's activate Spatial IO!
+现在一切准备就绪，让我们来激活空间IO吧！
 
 <GameScene zoom="2" width="400" height="275" rotateY={30}>
     <ImportStructure src="../assets/structures/spatial_io_working.snbt" />
     <ImportPonder src="../assets/ponder/spatial_io_working.json" />
 </GameScene>
 
-# Spatial Storage Cell Dimension
-The working principle of the Spatial Pylon is to swap the entire space within the selected area with a space of the same size inside the [Spatial Storage Cell](../items_blocks/spatial_cells.md). When a new Spatial Storage Cell is used for the first time, the cell creates a dimension that perfectly matches its volume specifications. In other words, you can think of every new Spatial Storage Cell as being filled with air blocks; the first time the Spatial Pylon is used for spatial exchange, it will swap out the correspondingly sized air volume from the storage cell.
+# 空间存储元件维度
+空间塔的工作原理是将选定区域内的整个空间与[空间存储元件](../items_blocks/spatial_cells.md)中等大小的空间进行交换。当一个空间存储元件首次被使用时，该元件会创建一个与其容量规格完全匹配的维度。换言之，你可以把每个新的空间存储元件都想象成充满了空气方块；空间塔第一次进行空间交换时，就会从存储元件中换出相应体积的空气。
 
-<Color id="RED">Once a Spatial Storage Cell is used, you cannot reset, format, or adjust its size. If you wish to use a different size, you must craft a new cell.</Color>
+<Color id="RED">空间存储元件一旦被使用，你就无法重置、重新格式化或调整它的尺寸。如果想使用不同的尺寸，你必须重新合成一个新元件。</Color>
 
 <GameScene zoom="2" width="400" height="200" rotateY={200} offsetX={-80} allowLayerSlider={false} gridButtonEnabled={false}>
     <ImportStructure src="../assets/structures/spatial_io_dimension.snbt" />
     <BoxAnnotation min="-3 2 -2" max="-6 5 1" color="#EE3333" thickness="1">
-    Spatial Storage Cell Dimension
+    空间存储元件维度
     </BoxAnnotation>
     <ImportPonder src="../assets/ponder/spatial_io_dimension.json" />
 </GameScene>

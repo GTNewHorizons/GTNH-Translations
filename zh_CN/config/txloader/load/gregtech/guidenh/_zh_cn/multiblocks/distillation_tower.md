@@ -2,125 +2,123 @@
 item_ids:
   - gregtech:gt.blockmachines:1126
 navigation:
-  title: Distillation Tower
+  title: 蒸馏塔
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1126
   position: 11
 ---
 
-# Distillation Tower
+# 蒸馏塔
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="300">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1126" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1126" showIcon="left" /> (Distillation Tower, abbreviated DT and often called the "large distillery") is an HV-tier processing multiblock. It separates one fluid into all of the fractions listed by its NEI recipe at the same time. As a direct upgrade from the singleblock Distillery, it is commonly used to process oil, Wood Tar, biomass, and many chemical fluids.
+<ItemLink id="gregtech:gt.blockmachines:1126" showIcon="left" />（蒸馏塔，缩写 DT，常被称为“大型蒸馏器”）是一座 HV 级处理用多方块结构。它能将一种流体同时分离成 NEI 配方中列出的全部馏分。作为单方块蒸馏器的直接升级版，它常被用于处理石油、木焦油、生物质以及多种化工流体。
 
-The required height of a Distillation Tower depends on the number of fluid outputs in the recipe. Each fluid output occupies its own output layer, so check the target recipe before building instead of copying the height of another tower.
+蒸馏塔所需的层数取决于配方中流体输出的数量。每个流体输出占用一个独立的输出层，因此建造前请先查看目标配方，而不要照搬另一座塔的高度。
 
-| Property | Details |
+| 属性 | 说明 |
 | --- | --- |
-| Unlock tier | HV; the controller recipe requires EV-tier circuits, so a Cleanroom is generally needed first |
-| Structure size | 3×3×3–12, hollow above the bottom layer and capped at the center of the top layer |
-| Power | Standard Energy Hatches; multiple hatches are allowed, but Multi-Amp Energy Hatches and Laser Energy Hatches are not supported |
-| Overclocking | Standard imperfect overclocking: each overclock uses 4× the power and halves the duration |
-| Processing bonuses | Maximum parallel of 1, with no additional speed or power bonuses |
-| Maintenance and pollution | Requires maintenance, produces no pollution, and does not need a Muffler Hatch |
+| 解锁等级 | HV；控制器配方需要 EV 级电路板，因此通常需要先建造洁净室 |
+| 结构尺寸 | 3×3×3–12，底层以上中空，顶层中心封顶 |
+| 供能 | 标准能源仓；允许多个能源仓，但不支持多A能源仓与激光能源仓 |
+| 超频 | 标准非完美超频：每次超频耗电增至 4 倍，时长减半 |
+| 处理加成 | 最大并行为 1，无额外速度或能耗加成 |
+| 维护与污染 | 需要维护，不产生污染，且无需消声仓 |
 
-## Crafting and Construction
+## 配方与建造
 
-The current recipes for the controller and Clean Stainless Steel Machine Casing are shown below.
+控制器与洁净不锈钢机械方块的当前配方如下所示。
 
 <RecipesFor id="gregtech:gt.blockmachines:1126" />
 
 <RecipesFor id="gregtech:gt.blockcasings4:1" />
 
-The Distillation Tower has a fixed 3×3 footprint and a variable height. Place the controller in the center of the front face on the bottom layer, and put the input interfaces on that layer. Starting with the second layer, every layer must contain at least one Output Hatch. Keep the center of each intermediate layer as air and cap the center of the top layer with a Clean Stainless Steel Machine Casing.
+蒸馏塔拥有固定的 3×3 底面与可变高度。将控制器放在底层正面中心，输入接口也放在该层。从第二层起，每一层都必须至少有一个输出仓。各中间层的中心保持为空气，并用洁净不锈钢机械方块封住顶层中心。
 
-For a total height of $$h$$, the structure must retain at least $$7h-5$$ actual Clean Stainless Steel Machine Casings. Hatches and buses do not count toward this minimum.
+当总高度为 $$h$$ 时，结构中必须保留至少 $$7h-5$$ 个实际存在的洁净不锈钢机械方块。仓与总线不计入该最低数量。
 
-| Component | Quantity and placement |
+| 部件 | 数量与放置位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:1126" showIcon="left" /> | 1, in the center of the front face on the bottom layer |
-| <ItemLink id="gregtech:gt.blockcasings4:1" showIcon="left" /> | At least 16–79 |
-| Input Hatch | At least 1, in any bottom-layer casing position |
-| Input Bus | Optional, in any bottom-layer casing position; install one when a recipe requires item inputs |
-| Output Bus | Optional, in any bottom-layer casing position; install one when a recipe produces item outputs |
-| Output Hatch | At least 1 on every layer above the bottom, for a total minimum of 2–11 |
-| Standard Energy Hatch | At least 1, in any suitable casing position |
-| Maintenance Hatch | 1, in any suitable casing position |
+| <ItemLink id="gregtech:gt.blockmachines:1126" showIcon="left" /> | 1 个，位于底层正面中心 |
+| <ItemLink id="gregtech:gt.blockcasings4:1" showIcon="left" /> | 至少 16–79 个 |
+| 输入仓 | 至少 1 个，可放在底层的任意机械方块位置 |
+| 输入总线 | 可选，可放在底层的任意机械方块位置；当配方需要物品输入时安装 |
+| 输出总线 | 可选，可放在底层的任意机械方块位置；当配方产出物品时安装 |
+| 输出仓 | 底层以上每层至少 1 个，总计最少 2–11 个 |
+| 标准能源仓 | 至少 1 个，可放在任意合适的机械方块位置 |
+| 维护仓 | 1 个，可放在任意合适的机械方块位置 |
 
-The minimum 3-layer structure needs 2 output layers and at least 16 casings. A common recipe with four fluid outputs needs a 5-layer structure, 4 output layers, and at least 30 casings. The maximum 12-layer structure can handle 11 fluid outputs and needs at least 79 casings.
+最低的 3 层结构需要 2 个输出层和至少 16 个机械方块。常见的拥有四个流体输出的配方需要 5 层结构、4 个输出层和至少 30 个机械方块。最高的 12 层结构可处理 11 个流体输出，需要至少 79 个机械方块。
 
-A layer can contain more than one Output Hatch, but adding hatches cannot reduce the casing count below the minimum. Using one Output Hatch per layer is usually the easiest arrangement to route. Additional hatches on a layer only add buffering or another output interface for the same fluid assigned to that layer; they do not allow the machine to process another output.
+一层中可以有多个输出仓，但增加输出仓无法把机械方块数量降到最低值以下。每层使用一个输出仓通常是最容易布线的做法。某层额外的输出仓只是为分配到该层的同一种流体增加缓冲或另一个输出接口，并不能让机器多处理一种输出。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview the structure and assist with construction. Right-click in the air to open the channel settings, set the `height` subchannel from 3 to 12 to choose the total projected height, then use the projector on the controller.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 预览结构并辅助建造。在空中右键打开频道设置，将 `height` 子频道设为 3 到 12 以选择投影总高度，然后对控制器使用该投影物品。
 
-## Capabilities
+## 功能特性
 
-A singleblock Distillery normally uses a Programmed Circuit to select one target fraction, while the other fractions are not produced at the same time. The Distillation Tower runs its own Distillation Tower recipes and obtains every fluid output from the same batch of input. This is the main reason it improves material efficiency and simplifies complex chemical processing lines.
+单方块蒸馏器通常需要用编程电路选定一种目标馏分，其他馏分无法同时产出。而蒸馏塔运行自身的蒸馏塔配方，从同一批输入中获得每一个流体输出。这正是它能提高材料利用率并简化复杂化工产线的主要原因。
 
-Common uses include:
+常见用途包括：
 
-- **Oil fractionation**: Produces fractions such as Heavy Fuel, Light Fuel, Naphtha, and Refinery Gas at the same time, supplying Diesel, Cetane-Boosted Diesel, and oil-cracking production lines.
-- **Wood chemistry**: Processes Wood Tar, Wood Vinegar, and Wood Gas into fuels and chemical feedstocks such as Benzene, Toluene, Phenol, and Methanol.
-- **Biomass processing**: Recovers multiple byproducts from fluids such as Fermented Biomass.
-- **Chemical separation**: Processes diluted acids, cracked fuels, and other fluids whose recipes contain multiple useful outputs.
+- **石油分馏**：同时产出重燃油、轻燃油、石脑油和炼油气等馏分，为柴油、高十六烷值柴油以及石油裂化产线供应原料。
+- **木材化工**：将木焦油、木醋酸和木炭气加工成苯、甲苯、苯酚、甲醇等燃料与化工原料。
+- **生物质加工**：从发酵生物质等流体中回收多种副产物。
+- **化学分离**：处理稀酸、裂化燃料以及配方中含多种有用产出的其他流体。
 
-Follow NEI's Distillation Tower recipe for the exact inputs, outputs, Programmed Circuit, power usage, and duration. Some recipes include item inputs or item byproducts, so fluid hatches alone are not always sufficient.
+确切的输入、输出、编程电路、耗电与时长请以 NEI 中的蒸馏塔配方为准。部分配方包含物品输入或物品副产物，因此仅有流体仓并不总是够用。
 
-## Tower Height and Layered Outputs
+## 塔高与分层输出
 
-First count the number of **fluid outputs** $$n$$ in the NEI recipe; item outputs do not affect tower height. The required total height is:
+先数出 NEI 配方中**流体输出**的数量 $$n$$；物品输出不影响塔高。所需总高度为：
 
-$$
-h=\max(3,n+1)
-$$
+$$h=\max(3,n+1)$$
 
-The minimum height is always 3, so even a recipe with only one fluid output still requires two output layers. A structure may be taller than the recipe requires, in which case the extra Output Hatches at the top remain unused, but it cannot be shorter than required.
+最小高度恒为 3，因此即使配方只有一个流体输出，也仍需要两个输出层。结构可以比配方要求的更高，此时顶部多余的输出仓会闲置，但不能低于要求高度。
 
-Read fluid outputs in NEI **from left to right, then from bottom to top**. The first fluid output goes to the Output Hatch on the second layer, the second goes to the third layer, and so on. For example, a recipe with four fluid outputs uses layers two through five and therefore requires a tower at least 5 layers tall.
+在 NEI 中读取流体输出时，**先从左到右，再从下到上**。第一个流体输出进入第二层的输出仓，第二个进入第三层，依此类推。例如，拥有四个流体输出的配方会用到第二至第五层，因此需要至少 5 层高的塔。
 
 > [!WARNING]
-> Output Hatches are not assigned automatically according to their existing fluid or connected pipe filters. Connecting the wrong layer sends a product into the wrong tank or pipe, which can mix fluids or block the production line. Recheck every layer against NEI whenever the recipe changes.
+> 输出仓不会根据其现有流体或所连管道的过滤器自动分配。接错层会把产物送进错误的储罐或管道，可能导致流体混合或堵塞产线。每当配方变更时，都请对照 NEI 重新检查每一层。
 
-## Power and Throughput
+## 供能与吞吐量
 
-HV is the tier at which the controller becomes available, but the Distillation Tower is not limited to HV power. Its available voltage is determined by the installed standard Energy Hatches. Replacing them with higher-tier hatches allows the machine to process higher-voltage recipes and [overclock](../tierskipping-overcloking-parallels/overclocking.md). Two standard Energy Hatches of the same tier can also provide [dual-hatch tier skipping](../tierskipping-overcloking-parallels/tierskipping.md) under the normal multiblock rules.
+HV 是控制器解锁的等级，但蒸馏塔并不限于 HV 供电。其可用电压由所安装的标准能源仓决定。换成更高等级的能源仓，机器即可处理更高电压的配方并[超频](../tierskipping-overcloking-parallels/overclocking.md)。两个同等级的标准能源仓还可以在常规多方块规则下实现[双能源仓跳级](../tierskipping-overcloking-parallels/tierskipping.md)。
 
-The Distillation Tower does not support Multi-Amp Energy Hatches or Laser Energy Hatches and has no parallel capability. Each standard imperfect overclock uses 4× the power and halves the duration. The machine can continue overclocking after reaching 1 tick, but this does not make it process multiple copies of a recipe at once.
+蒸馏塔不支持多A能源仓与激光能源仓，也没有并行能力。每次标准非完美超频耗电增至 4 倍、时长减半。机器在达到 1 tick 后仍可继续超频，但这并不能让它同时处理多份配方。
 
-Producing every fraction at the same time is a property of the Distillation Tower's recipes, not a parallel bonus. When evaluating throughput, use the input amount, duration, and power shown in the Distillation Tower recipe in NEI rather than extrapolating from one output recipe of a singleblock Distillery.
+同时产出全部馏分是蒸馏塔配方本身的特性，而非并行加成。评估吞吐量时，应以 NEI 中蒸馏塔配方显示的输入量、时长与耗电为准，而不是从单方块蒸馏器的某一条产出配方推算。
 
 > [!WARNING]
-> Losing power during processing aborts the current recipe and destroys the inserted inputs. After upgrading Energy Hatches or using dual-hatch tier skipping, make sure the cables, transformers, and generators can continuously provide the required power.
+> 运行中断电会中止当前配方并销毁已放入的输入。升级能源仓或使用双能源仓跳级后，请确保线缆、变压器与发电机能够持续提供所需电力。
 
-## Automation and Output Routing
+## 自动化与输出路由
 
-Connect every output layer to a separate fluid pipe and tank. The Distillation Tower only starts its next operation when all relevant products have output space, so filling the buffer for one low-demand byproduct can stop the entire tower.
+将每个输出层连接到独立的流体管道和储罐。只有当所有相关产物都有输出空间时，蒸馏塔才会开始下一次运行，因此某个低需求副产物的缓冲被填满就可能让整座塔停摆。
 
-| Method | Considerations |
+| 方式 | 注意事项 |
 | --- | --- |
-| Standard Output Hatch | Connect each layer to a separate tank; the tank should buffer temporary downstream shutdowns |
-| ME Output Hatch | Each output layer still needs its own hatch; right-click the hatch with Wire Cutters to allow ME cables to connect from any side |
-| Void Overflow | Enable it only when the affected product can safely be discarded; fluid that cannot enter a full downstream destination is permanently destroyed |
-| Shared casings or hatches | Wallsharing saves materials, but shared Output Hatches can make two towers block each other unless their outputs on that layer are compatible |
+| 标准输出仓 | 每层连接独立的储罐；储罐应能缓冲下游的临时停机 |
+| ME 输出仓 | 每个输出层仍需要自己的输出仓；用剪线钳右键输出仓，即可允许 ME 线缆从任意一侧连接 |
+| 虚空溢出 | 仅当相应产物可以安全丢弃时才启用；无法进入已满下游目的地的流体会被永久销毁 |
+| 共用机械方块或仓 | 共墙可以节省材料，但共用的输出仓可能让两座塔互相卡住，除非它们在该层的输出相互兼容 |
 
-If a recipe needs a Programmed Circuit or another item input, install an Input Bus on the bottom layer. If it produces dust or another item output, install an Output Bus as well. After connecting the automation, process one batch first and verify the actual product and destination tank on every layer before enabling continuous input.
+如果配方需要编程电路或其他物品输入，请在底层安装一个输入总线。如果配方产出粉或其他物品，则还需安装一个输出总线。接好自动化后，先处理一批，确认每一层的实际产物与目标储罐无误，再开启连续输入。
 
-## Troubleshooting
+## 故障排除
 
-| Symptom | What to check |
+| 现象 | 检查要点 |
 | --- | --- |
-| Structure is incomplete | The total height is 3–12; each intermediate center is air; the top center is capped; every layer above the bottom has an Output Hatch; at least $$7h-5$$ actual casings remain |
-| Insufficient output space | The tower is tall enough for every fluid output; the relevant Output Hatch, pipe, or tank is not full; an Output Bus is installed when the recipe has an item output |
-| Inputs and power are present but no recipe is available | The input fluid, Programmed Circuit, and other items match NEI; items are in an Input Bus; the Energy Hatch provides sufficient voltage |
-| Products enter the wrong pipe | Re-read NEI from left to right and bottom to top, then compare it with the Output Hatches from the second layer upward |
-| The tower still forms at its old height after being extended | The old top-center cap was removed; every new layer has an Output Hatch; a manual structure check was run after construction |
-| Machine stops immediately after starting | Check available power, cable loss, energy buffers, and maintenance status before inserting more test materials |
+| 结构不完整 | 总高度在 3–12 之间；每个中间层中心为空气；顶层中心已封顶；底层以上每层都有输出仓；实际机械方块至少保留 $$7h-5$$ 个 |
+| 输出空间不足 | 塔高足以容纳每个流体输出；相关输出仓、管道或储罐未满；配方有物品产出时已安装输出总线 |
+| 输入与电力都存在但没有可用配方 | 输入流体、编程电路及其他物品与 NEI 相符；物品放在输入总线中；能源仓提供足够电压 |
+| 产物进入错误的管道 | 重新按从左到右、从下到上的顺序查看 NEI，再与第二层及以上的输出仓逐一比对 |
+| 加高后塔仍按旧高度成型 | 旧的顶层中心封顶方块已移除；每个新增层都有输出仓；建造后已手动运行过结构检查 |
+| 机器启动后立即停止 | 在放入更多测试材料之前，先检查可用电力、线缆损耗、能量缓冲器与维护状态 |
 
-See [Multiblock Machines](./multiblocks_index.md) for general multiblock operation. In IV, the Dangote Distillus becomes available; in LuV, the Mega Distillation Tower can provide greater throughput.
+多方块结构的通用操作请参阅[多方块机器](./multiblocks_index.md)。IV 级时可解锁丹格特蒸馏厂；LuV 级时巨型蒸馏塔能提供更高的吞吐量。
 
-## References
+## 参考资料
 
-- [GTNH Wiki: Distillation Tower](https://wiki.gtnewhorizons.com/wiki/Distillation_Tower)
+- [GTNH Wiki：蒸馏塔](https://wiki.gtnewhorizons.com/wiki/Distillation_Tower)

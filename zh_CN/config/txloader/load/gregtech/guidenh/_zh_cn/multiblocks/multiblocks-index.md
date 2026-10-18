@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: "Multiblock Machines"
+  title: "多方块机器"
   icon: structurelib:item.structurelib.constructableTrigger
   parent: /index.md
   position: 9
@@ -8,231 +8,223 @@ categories:
   - Machines
 ---
 
-# Multiblock Machines
+# 多方块机器
 
-**Multiblock machines** are machines built from multiple blocks. Their size ranges from compact <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />s to enormous <ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />s. GregTech multiblocks always have a **controller block**, usually serve a specific purpose, and are always faster or more efficient than the corresponding [singleblock machine](../singleblock/singleblock-index.md), if one exists. Unlike [singleblock machines](../singleblock/singleblock-index.md), which can only [overclock](../tierskipping-overcloking-parallels/overclocking.md), multiblocks can also use **[tier skipping](../tierskipping-overcloking-parallels/tierskipping.md)** and **[parallels](../tierskipping-overcloking-parallels/parallels.md)**.
+**多方块机器**是由多个方块搭建而成的机器。它们的规模从紧凑的<ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />到巨大的<ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />不等。格雷科技多方块必定拥有一个**控制器方块**，通常服务于特定用途，并且在存在对应的[单方块机器](../singleblock/singleblock-index.md)时，总是比后者更快或更高效。[单方块机器](../singleblock/singleblock-index.md)只能[超频](../tierskipping-overcloking-parallels/overclocking.md)，而多方块除此之外还能使用**[跳级](../tierskipping-overcloking-parallels/tierskipping.md)**和**[并行](../tierskipping-overcloking-parallels/parallels.md)**。
 
-Although most multiblocks have unique casings and structures, their item, fluid, and power I/O is almost universal through **functional hatches**. You can use <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and quickly build multiblock structures.
+虽然大多数多方块都有独特的机械方块和结构，但它们的物品、流体和电力输入输出几乎都通过通用的**功能仓**实现。你可以使用<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />来预览并快速搭建多方块结构。
 
-# Categories
+# 分类
 
-## Steam Machines
+## 蒸汽机器
 
-There are only seven steam multiblocks:
-<ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" />,
-<ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" />,
-<ItemLink id="gregtech:gt.blockmachines:31080" showIcon="left" />,
-<ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" />,
-<ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" />,
-<ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" />, and
-<ItemLink id="gregtech:gt.blockmachines:31086" showIcon="left" />.
-They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleblocks cannot.
+蒸汽多方块只有七种：<ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" />，<ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" />，<ItemLink id="gregtech:gt.blockmachines:31080" showIcon="left" />，<ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" />，<ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" />，<ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" />，以及<ItemLink id="gregtech:gt.blockmachines:31086" showIcon="left" />。它们能运行蒸汽单方块机器无法运行的离心机、搅拌机和工业洗矿厂配方。
 
-- Use **Steam Hatches** to accept steam, with 64,000 L of buffer per hatch.
-- Do not require maintenance.
-- Run steam recipes at a fixed 125% speed and 62.5% steam cost.
-- Have a fixed maximum of 8 parallels.
+- 使用**蒸汽仓**接收蒸汽，每个蒸汽仓有 64,000 L 缓冲。
+- 无需维护。
+- 以固定 125% 的速度和 62.5% 的蒸汽消耗运行蒸汽配方。
+- 并行数上限固定为 8。
 
-## Electric Machines
+## 电力机器
 
-Electric multiblocks come in many forms and use **Energy Hatches** to receive power. They require maintenance, but you can upgrade them by replacing their Energy Hatches with higher-tier ones.
+电力多方块形式多样，并使用**能源仓**接收电力。它们需要维护，但你可以用更高等级的能源仓替换原有能源仓来升级它们。
 
-- [Vacuum Freezer](./vacuum_freezer.md): Cools hot ingots and processes certain fluids and coolant cells.
-- [Distillation Tower](./distillation_tower.md): Separates a fluid into all of its fractions at once and outputs each one on a dedicated layer.
+- [真空冷冻机](./vacuum_freezer.md)：冷却热锭，并处理某些流体和冷却单元。
+- [蒸馏塔](./distillation_tower.md)：一次性将流体分离成全部馏分，并把每种馏分输出到专属的层。
 
-# Structure
+# 结构
 
-## Controller Block
+## 控制器方块
 
-GregTech multiblocks always have a controller block, and the front face of the controller determines the orientation of the whole structure.
+格雷科技多方块必定拥有控制器方块，且控制器的正面决定整个结构的朝向。
 
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>Right-click</kbd> the front face -> rotate the structure.
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>Right-click</kbd> another face (using the GT 3x3 wrench rules) -> change the controller facing.
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> <kbd>Shift</kbd> + <kbd>Right-click</kbd> -> mirror the structure.
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>右键</kbd>正面 -> 旋转结构。
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>右键</kbd>其他面（按 GT 3x3 扳手规则）-> 改变控制器朝向。
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> <kbd>Shift</kbd> + <kbd>右键</kbd> -> 镜像翻转结构。
 
-Some controllers can face up or down. A few machines, such as <ItemLink id="gregtech:gt.blockmachines:1126" showIcon="left" />, can only face horizontally.
+有些控制器可以朝上或朝下。少数机器（例如<ItemLink id="gregtech:gt.blockmachines:1126" showIcon="left" />）只能水平朝向。
 
-## Previewing and Building
+## 预览与搭建
 
-Use <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />:
+使用<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />：
 
-- <kbd>Right-click</kbd> the controller -> preview the hologram.
-- <kbd>Shift</kbd> + hold <kbd>Right-click</kbd> on the controller -> automatically place matching blocks from your inventory.
-- <kbd>Right-click</kbd> in the air -> configure the subchannel.
+- <kbd>右键</kbd>控制器 -> 预览全息投影。
+- 在控制器上<kbd>Shift</kbd> + 按住<kbd>右键</kbd> -> 自动从你的背包中放置匹配的方块。
+- 在空中<kbd>右键</kbd> -> 配置子频道。
 
-## Hatches
+## 功能仓
 
-Most multiblocks use common functional hatches for I/O. Hatches come in tiers (ULV to UHV+), and each tier provides different capacity or throughput.
+大多数多方块使用通用的功能仓进行输入输出。仓分为不同等级（ULV 至 UHV+），每个等级提供不同的容量或吞吐量。
 
-| Hatch Type | Purpose |
+| 仓类型 | 用途 |
 |------------|---------|
-| Input Bus / Output Bus | Items |
-| Input Hatch / Output Hatch | Fluids |
-| Energy Hatch / Dynamo Hatch | Power |
-| Steam Hatch | Steam (steam multiblocks only) |
-| Maintenance Hatch | Fix maintenance problems |
-| Muffler Hatch | Vent pollution |
+| 输入总线 / 输出总线 | 物品 |
+| 输入仓 / 输出仓 | 流体 |
+| 能源仓 / 动力仓 | 电力 |
+| 蒸汽仓 | 蒸汽（仅限蒸汽多方块） |
+| 维护仓 | 修复维护问题 |
+| 消声仓 | 排放污染 |
 
-As long as the structure still meets its minimum casing count, you can usually place as many hatches as you want, though Maintenance Hatches are usually limited to one. Cheap hatches can often replace expensive structure blocks.
+只要结构仍满足其最低机械方块数量要求，通常就可以随意放置任意数量的仓，不过维护仓通常限放一个。便宜的仓常常可以代替昂贵的结构方块。
 
-## Sharing
+## 共享
 
-GregTech multiblocks generally allow **wallsharing**: two machines can share structure blocks and hatches on the same wall.
+格雷科技多方块通常允许**共墙共享**：两台机器可以共享同一面墙上的结构方块和仓。
 
-- **Maintenance Hatches**, **Input Buses**, **Input Hatches**, and **Muffler Hatches** can be shared.
-- Be careful when sharing **Output Buses** or **Output Hatches**, because overflow can void outputs.
-- Be careful when sharing **Energy Hatches** as well: usually one Energy Hatch should not be shared by more than two machines, and Energy Hatches used for dual-hatch tier skipping should not be shared.
+- **维护仓**、**输入总线**、**输入仓**和**消声仓**可以被共享。
+- 共享**输出总线**或**输出仓**时要小心，因为溢出可能导致输出被销毁。
+- 共享**能源仓**时同样要小心：通常一个能源仓不应被超过两台机器共享，而用于双仓跳级的能源仓则不应共享。
 
-## Structure Checks
+## 结构检查
 
-Multiblocks do not continuously re-check whether their structure is complete:
+多方块不会持续重新检查结构是否完整：
 
-- When the controller is first placed -> the structure is checked after 100 ticks.
-- When a nearby block updates -> a 50-tick countdown starts, and each new update resets that countdown.
-- When you press the "Update Structure Check" button in the GUI -> the structure is checked after 1 tick.
+- 控制器首次被放置时 -> 100 tick 后进行结构检查。
+- 附近方块更新时 -> 启动 50 tick 倒计时，且每次新的更新都会重置该倒计时。
+- 在 GUI 中按下“更新结构检查”按钮时 -> 1 tick 后进行结构检查。
 
-Breaking and restoring the structure inside that delay window enables **hot-swapping**. A Matter Manipulator (MK I or above) can finish such hot-swaps within 1 tick.
+在该延迟窗口内拆下并还原结构即可实现**热替换**。物质操纵者（MK I 或以上）可以在 1 tick 内完成这种热替换。
 
-# Graphical User Interface
+# 图形用户界面
 
-<kbd>Right-click</kbd> the controller block to open the GUI. Most machines use the standard GregTech GUI. Some late-game machines from ZPM onward use the TecTech-style GUI.
+<kbd>右键</kbd>控制器方块以打开 GUI。大多数机器使用标准的格雷科技 GUI。一些 ZPM 及以后的后期机器使用 TecTech 风格的 GUI。
 
-## GregTech-Style GUI
+## 格雷科技风格 GUI
 
-The right-side buttons provide the core toggles:
+右侧按钮提供核心开关：
 
-| Button | Function |
+| 按钮 | 功能 |
 |--------|----------|
-| Power panel | Opens parallel configuration and powerfail event settings |
-| Update structure check | Forces a structure check |
-| Power switch | Turns the machine on or off; if turned off, the current recipe is allowed to finish |
+| 电力面板 | 打开并行配置与断电事件设置 |
+| 更新结构检查 | 强制进行一次结构检查 |
+| 电源 | 打开或关闭机器；关闭时，当前配方仍允许完成 |
 
-The middle-left area provides at least four configuration toggles, though not every machine allows all of them:
+中左区域提供至少四个配置开关，不过并非每台机器都支持全部选项：
 
-- **Void Mode**: void nothing / items only / fluids only / both.
-- **Input Separation**: prevents items from different Input Buses from being used in the same recipe.
-- **Batch Mode**: combines repeated copies of the same recipe to reduce recipe checks and TPS cost.
-- **Lock Recipe**: prevents the machine from running other recipes.
+- **销毁模式**：不销毁 / 仅销毁物品 / 仅销毁流体 / 全部销毁。
+- **输入隔离**：防止来自不同输入总线的物品被用于同一配方。
+- **批处理模式**：将同一配方的多次重复合并，以减少配方检查和 TPS 开销。
+- **锁定配方**：防止机器运行其他配方。
 
-Tool shortcuts (<kbd>Right-click</kbd> the controller, consumes durability):
+工具快捷操作（<kbd>右键</kbd>控制器，消耗耐久）：
 
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> -> rotate the structure.
-- <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> -> toggle input separation / switch some machine modes.
-- <ItemLink id="gregtech:gt.metatool.01:26" showIcon="left" /> -> toggle batch mode.
-- <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" /> -> power on/off.
-- <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" /> -> mute/unmute.
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> -> 旋转结构。
+- <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> -> 切换输入隔离 / 切换某些机器模式。
+- <ItemLink id="gregtech:gt.metatool.01:26" showIcon="left" /> -> 切换批处理模式。
+- <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" /> -> 开机/关机。
+- <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" /> -> 静音/取消静音。
 
-## TecTech-Style GUI
+## TecTech 风格 GUI
 
-Only a few ZPM-and-later machines use it, such as <ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15311" showIcon="left" />, and <ItemLink id="gregtech:gt.blockmachines:14003" showIcon="left" />.
+只有少数 ZPM 及之后的机器使用它，例如<ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15311" showIcon="left" />和<ItemLink id="gregtech:gt.blockmachines:14003" showIcon="left" />。
 
-Its defining feature is the indicator light system:
-- Flashing blue: parameter too low.
-- Green: normal.
-- Flashing orange: parameter too high.
-- The light for a key parameter can usually be left-clicked to change the setting.
+它的标志性特征是指示灯系统：
+- 蓝灯闪烁：参数过低。
+- 绿灯：正常。
+- 橙灯闪烁：参数过高。
+- 关键参数对应的指示灯通常可以左键点击以更改设置。
 
-TecTech machines **always void on overflow**, so the safe-void button has no practical effect. Parameter storage cards can copy the settings from one TecTech machine to another.
+TecTech 机器**溢出时总是直接销毁**，因此“安全销毁”按钮没有实际作用。参数存储卡可以把设置从一台 TecTech 机器复制到另一台。
 
-# Maintenance
+# 维护
 
-## Maintenance Problems
+## 维护问题
 
-Only multiblocks whose structure requires <ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" /> need maintenance. When the controller is placed, all six maintenance problems are present by default and must be fixed before the machine can run.
+只有结构中需要放置<ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" />的多方块才需要维护。控制器被放置时，默认带有全部六种维护问题，必须将其全部修复后机器才能运行。
 
-| Problem | Tool |
+| 问题 | 工具 |
 |---------|------|
-| "A pipe is loose." | Wrench |
-| "Some screws are loose." | Screwdriver |
-| "Something is stuck." | Soft Mallet |
-| "Plates are bent." | Hard Hammer |
-| "Something does not belong here." | Crowbar |
-| "The circuit has shorted." | Soldering Iron (costs 10k EU + 1 soldering material) |
+| “管道松了。” | 扳手 |
+| “螺丝松了。” | 螺丝刀 |
+| “有东西卡住了。” | 软锤 |
+| “板子弯了。” | 锻造锤 |
+| “有东西不属于这里。” | 撬棍 |
+| “电路短路了。” | 电烙铁（消耗 10k EU + 1 个焊接材料） |
 
-**How they appear**: every 1000 ticks of continuous runtime, there is a 1/6000 chance to generate one random maintenance problem. On average, that is about one problem every 83.3 hours.
+**出现方式**：机器每连续运行 1000 tick，就有 1/6000 的概率产生一个随机维护问题。平均而言，大约每 83.3 小时出现一个问题。
 
-**Penalty**: each maintenance problem increases power usage by 10%. If all six are present, the machine shuts down. Some machines have special penalties, such as <ItemLink id="gregtech:gt.blockmachines:32013" showIcon="left" />, which immediately drops its kinetic energy to zero when a maintenance problem appears.
+**惩罚**：每个维护问题都会使耗电量增加 10%。若六个问题全部存在，机器将停机。有些机器有特殊惩罚，例如<ItemLink id="gregtech:gt.blockmachines:32013" showIcon="left" />，一旦出现维护问题就会立即把它的动能降为零。
 
-## Repair Methods
+## 修理方法
 
-| Stage | Method |
+| 阶段 | 方法 |
 |-------|--------|
-| LV | <kbd>Right-click</kbd> the Maintenance Hatch with a Toolbox containing all required tools and solder |
-| MV | Repair it with FAL-84 Reinforced Duct Tape |
-| HV | Wand Focus: Maintenance (consumes vis) |
-| IV | Drone Downlink Module plus Drone Centre for bulk management |
-| LuV | Auto Maintenance Hatch (consumes materials) |
-| UV | Debug Maintenance Hatch (free automatic maintenance) |
+| LV | 用装有全部所需工具和焊料的工具箱<kbd>右键</kbd>维护仓 |
+| MV | 用 FAL-84 强化胶带修理 |
+| HV | 法杖核心：维护（消耗 vis） |
+| IV | 无人机下行模块加无人机控制中心，进行批量管理 |
+| LuV | 自动维护仓（消耗材料） |
+| UV | Debug维护仓（免费自动维护） |
 
-You can pre-maintain a Maintenance Hatch once. After the machine reads that state, it clears the hatch's active maintenance state and then stores one extra buffered maintenance state. Later, when a maintenance problem appears, the hatch automatically consumes one buffered maintenance state to fix it.
+你可以对维护仓进行一次预维护。机器读取该状态后，会清除该仓的激活维护状态，随后额外存储一个缓冲维护状态。之后当维护问题出现时，该仓会自动消耗一个缓冲维护状态来修复它。
 
-# Recipe Detection
+# 配方检测
 
-When a multiblock is powered on, it scans all of its hatches to look for a matching recipe. The key concept here is the **input group**: materials that are not in the same input group will never be combined into one recipe.
+多方块通电后会扫描它的所有仓以寻找匹配的配方。这里的关键概念是**输入组**：不在同一输入组中的材料永远不会被合并进同一个配方。
 
-## Input Separation
+## 输入隔离
 
-When input separation is enabled, each Input Bus together with all Input Hatches and the controller's inventory slots forms an independent input group. This is very useful for preventing materials in different buses from accidentally mixing into an unintended recipe.
+启用输入隔离后，每个输入总线连同所有输入仓以及控制器的物品栏槽位共同构成一个独立的输入组。这对于防止不同总线中的材料意外混入非预期的配方非常有用。
 
-## Recipe Priority
+## 配方优先级
 
-Recipe checks across different input groups follow a controllable priority order.
-1. **Pattern input hatches/buses** (<ItemLink id="gregtech:gt.blockmachines:2715" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:2714" showIcon="left" />) take priority over normal hatches.
-2. Normal input hatches and buses that have been **painted**. Following the order shown in the <ItemLink id="gregtech:gt.metaitem.01:32468" showIcon="left" /> GUI, priority decreases from black to white.
-3. Input Buses take priority over Input Hatches.
-4. Physical position: front to back, top to bottom, left to right.
+跨输入组的配方检查遵循一个可控的优先级顺序。
+1. **样板输入仓/总线**（<ItemLink id="gregtech:gt.blockmachines:2715" showIcon="left" />和<ItemLink id="gregtech:gt.blockmachines:2714" showIcon="left" />）优先于普通仓。
+2. 被**喷涂**过的普通输入仓和总线。按照<ItemLink id="gregtech:gt.metaitem.01:32468" showIcon="left" /> GUI 中显示的顺序，优先级从黑色到白色递减。
+3. 输入总线优先于输入仓。
+4. 物理位置：从前到后、从上到下、从左到右。
 
 > [!TIP]
-> Painting hatches is one way to control recipe execution order.
+> 给仓喷涂颜色是控制配方执行顺序的方法之一。
 
-# Recipe Execution
+# 配方执行
 
-## Tier Skipping
+## 跳级
 
-See **[Tier Skipping](../tierskipping-overcloking-parallels/tierskipping.md)**.
+参见**[跳级](../tierskipping-overcloking-parallels/tierskipping.md)**。
 
-Using two Energy Hatches of the same tier to provide 4A lets the machine reach the nominal power expected by its voltage tier and run recipes one tier higher. This is called **dual-hatch tier skipping**. The first time you will likely use it is with <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />.
+使用两个同等级的能源仓提供 4A，可以让机器达到其电压等级所期望的标称功率，并运行高一个等级的配方。这被称为**双仓跳级**。你第一次用到它多半是在<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />上。
 
-From IV onward, some machines can no longer tier skip, such as <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />.
+从 IV 开始，部分机器无法再跳级，例如<ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />。
 
-## Parallels
+## 并行
 
-See **[Parallels](../tierskipping-overcloking-parallels/parallels.md)**.
+参见**[并行](../tierskipping-overcloking-parallels/parallels.md)**。
 
-Parallels are the machine's ability to process multiple copies of the same recipe during the same time interval. [Singleblock machines](../singleblock/singleblock-index.md) cannot do this.
+并行是指机器在同一时间间隔内处理同一配方多个副本的能力。[单方块机器](../singleblock/singleblock-index.md)无法做到这一点。
 
-In general, every $$4^n$$ of maximum parallels is roughly equivalent to $$n$$ perfect overclocks in practice. Parallels only apply to the same recipe.
+一般来说，最大并行每达到 $$4^n$$，实际效果上大致相当于 $$n$$ 次无损超频。并行只适用于同一配方。
 
-## Overclocking
+## 超频
 
-See **[Overclocking](../tierskipping-overcloking-parallels/overclocking.md)**.
+参见**[超频](../tierskipping-overcloking-parallels/overclocking.md)**。
 
-Besides standard 4/2 imperfect overclocks, some multiblocks also support 4/4 perfect overclocks, and some use special overclock rules. Multiblocks can also overclock past 1 tick (1tOC).
+除了标准的 4/2 非无损超频外，一些多方块还支持 4/4 无损超频，还有一些使用特殊的超频规则。多方块还能把超频做到 1 tick 以内（1tOC）。
 
-Calculation order: parallels first, then overclocks (perfect first, imperfect second).
+计算顺序：先并行，后超频（先无损超频，后非无损超频）。
 
-## Batch Mode
+## 批处理模式
 
-Batch mode combines repeated copies of the same recipe into one large recipe. It **does not provide a time discount and does not add parallels**. Its only purpose is to reduce recipe-check frequency and lower TPS cost.
+批处理模式把同一配方的重复副本合并成一个大配方。它**不提供时间折扣，也不会增加并行**。其唯一目的是降低配方检查频率并减少 TPS 开销。
 
-When batch mode is enabled, the machine tries to stretch recipe duration to 128 ticks. This does not change output per unit time. Steam multiblocks cannot use batch mode.
+启用批处理模式后，机器会尝试把配方时长拉伸到 128 tick。这不会改变单位时间的产出。蒸汽多方块无法使用批处理模式。
 
-# Failures
+# 故障
 
-Unlike [singleblock machines](../singleblock/singleblock-index.md), when a multiblock fails it **fully aborts the recipe and does not return the inputs**.
+与[单方块机器](../singleblock/singleblock-index.md)不同，多方块发生故障时会**完全中止配方且不返还输入**。
 
-| Failure | Fix |
+| 故障 | 解决方法 |
 |---------|-----|
-| "Structure is incomplete." | Check for missing structure blocks |
-| "Missing Muffler Hatch, Maintenance Hatch, or similar." | Add the required hatch |
-| "Shut down due to machine damage." | Fix all maintenance problems |
-| "Recipe requires more power." | Check the number of Energy Hatches and available amperage |
-| "Recipe requires higher voltage to start." | Check whether the voltage tier is high enough |
-| "Not enough room for item/fluid output." | Add more Output Buses or Output Hatches |
-| "Shut down due to lack of energy." | Check the power supply |
+| “结构不完整。” | 检查是否缺少结构方块 |
+| “缺少消声仓、维护仓或类似部件。” | 添加所需的仓 |
+| “因机器损坏而停机。” | 修复所有维护问题 |
+| “配方需要更多电力。” | 检查能源仓数量和可用安培数 |
+| “配方需要更高电压才能启动。” | 检查电压等级是否足够高 |
+| “物品/流体输出空间不足。” | 增加更多输出总线或输出仓 |
+| “因能量不足而停机。” | 检查供电 |
 
-When a failure happens, you can use `/powerfails clear` to remove powerfail warning icons in the dimension, or `/sp invite <playerID>` to share powerfail information.
+发生故障时，你可以使用 `/powerfails clear` 移除该维度中的断电警告图标，或使用 `/sp invite <playerID>` 共享断电信息。
 
-# Explosions
+# 爆炸
 
-As with [singleblock machines](../singleblock/singleblock-index.md#explosions), any **energized hatch with an internal EU buffer** on a multiblock can explode in rain or snow. Controller blocks, structure blocks, and hatches that do not buffer power will not explode in rain or snow. Overvolting an Energy Hatch can also cause an explosion.
+与[单方块机器](../singleblock/singleblock-index.md#explosions)一样，多方块上任何**内部带有 EU 缓冲的通电仓**都可能在雨或雪中爆炸。控制器方块、结构方块以及不缓冲电力的仓不会在雨或雪中爆炸。对能源仓过压供电也可能引发爆炸。

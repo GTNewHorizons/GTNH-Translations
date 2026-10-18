@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15546
 navigation:
-  title: Pyrolyse Oven
+  title: 热解炉
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15546
 categories:
@@ -11,55 +11,55 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Pyrolyse Oven
+# 热解炉
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15546"/>
 </GameScene>
-The <Color id="GREEN">Pyrolyse Oven (PO)</Color> is an MV tier multiblock for burning logs into charcoal with the option of one fluid byproduct (ie. coal gas, wood gas, wood vinegar, wood tar, charcoal byproducts). The <Color id="GREEN">Pyrolyse Oven</Color> is a direct upgrade from the basic Coke Oven <ItemImage id="gregtech:gt.blockmachines:236"/> because it runs on electricity and can overclock with enough power. It also gains a speed bonus that scales linearly with the tier of the heating coils. The fluid byproducts are useful for producing organic compounds such as ethylene, benzene, and toluene. Although slower initially, the Pyrolyse Oven is generally recommended over the Advanced Coke Oven <ItemImage id="Railcraft:machine.alpha:12"/> because it scales better and the fluid byproducts are crucial for progression. Both are superseded by the Industrial Coke Oven <ItemImage id="gregtech:gt.blockmachines:15543"/> in EV. 
+<Color id="GREEN">热解炉（PO）</Color>是一台 MV 等级的多方块结构，用于将原木烧制成木炭，并可选择产出一种流体副产物（例如煤气、木炭气、木醋酸、木焦油、木炭副产物）。<Color id="GREEN">热解炉</Color>是基础焦炉 <ItemImage id="gregtech:gt.blockmachines:236"/> 的直接升级：它以电力驱动，只要电力充足就能超频。它还能获得随加热线圈等级线性提升的速度加成。这些流体副产物可用于生产乙烯、苯、甲苯等有机化合物。虽然热解炉初期速度较慢，但通常仍比高级焦炉 <ItemImage id="Railcraft:machine.alpha:12"/> 更受推荐，因为它的扩展性更好，而且流体副产物对推进进度至关重要。到了 EV 等级，两者都会被工业焦炉 <ItemImage id="gregtech:gt.blockmachines:15543"/> 取代。
 <br clear="all"/>
 
 > [!NOTE]
-> The only change to this multiblock is in the structure itself
+> 该多方块结构唯一的改动在于结构本身
 
-## Construction
-The <Color id="GREEN">Pyrolyse Oven</Color> has one tiered component. The heating coils determine the heat capacity of the machine and must all be the same tier for the structure to form. The energy hatch, maintenance hatch, and output bus/hatch may replace any pyrolyse oven casing on the bottom layer of the structure. The muffler hatch and input bus/hatch may replace any pyrolyse oven casing on the top layer of the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking--similar to the EBF and nearly every GregTech multiblock. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "coil" to specify the tier of the heating coils. 
+## 建造
+<Color id="GREEN">热解炉</Color>只有一种分等级的组件。加热线圈决定机器的热容量，且必须全部为同一等级，结构才能成型。能源仓、维护仓以及输出总线/输出仓可以替换结构底层的任意热解炉机械方块；消声仓以及输入总线/输入仓可以替换结构顶层的任意热解炉机械方块。<Color id="RED">多A能源仓和激光能源仓</Color>不受支持，但可以放置多个普通能源仓用于超频——与工业高炉（EBF）以及几乎所有格雷科技多方块结构一样。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构，并用子通道 "coil" 指定加热线圈的等级。
 
-### Requires:
-- 1 <ItemLink id="gregtech:gt.blockmachines:15546"/><ItemImage id="gregtech:gt.blockmachines:15546"/>
-- 60-68 <ItemLink id="gregtech:gt.blockcasingsNH:2"/><ItemImage id="gregtech:gt.blockcasingsNH:2"/>
-- 12 Heating Coil (tiered) <ItemImage id="gregtech:gt.blockcasings5:11"/>
-- 8 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
-- 4 <ItemLink id="gregtech:gt.blockcasings3:14"/><ItemImage id="gregtech:gt.blockcasings3:14"/>
-- 2 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
-- 1+ Energy Hatch (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any top layer casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any top layer casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any top layer casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any bottom layer casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+### 所需方块：
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:15546"/><ItemImage id="gregtech:gt.blockmachines:15546"/>
+- 60-68 个 <ItemLink id="gregtech:gt.blockcasingsNH:2"/><ItemImage id="gregtech:gt.blockcasingsNH:2"/>
+- 12 个加热线圈（分等级）<ItemImage id="gregtech:gt.blockcasings5:11"/>
+- 8 个 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
+- 4 个 <ItemLink id="gregtech:gt.blockcasings3:14"/><ItemImage id="gregtech:gt.blockcasings3:14"/>
+- 2 个 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
+- 1+ 个能源仓（任意底层机械方块）<ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 个维护仓（任意底层机械方块）<ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 个消声仓（任意顶层机械方块）<ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 个输入总线（任意顶层机械方块）<ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 个输入仓（任意顶层机械方块）<ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 个输出总线（任意底层机械方块）<ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ 个输出仓（任意底层机械方块）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">Pyrolyse Ovens</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. That includes up to half the heating coils as seen in the image above. This is highly recommended because the heating coils are the most expensive part of the structure. 
+### 共用墙体
+<Color id="GREEN">热解炉</Color>可以共用其任意一侧墙面，以节省机械方块、框架和总线/仓的数量，其中包括最多一半的加热线圈，如上图所示。加热线圈是整个结构中最昂贵的部分，因此强烈建议利用共用墙体。
 
-## Usage
-The <Color id="GREEN">Pyrolyse Oven</Color> gains a speed bonus that scales linearly with the tier of its heating coils. More specifically, the processing speed starts at 50% with cupronickel coils and increases by 50% with every heating coil tier above that, as seen in the following table. The length of a recipe with a base processing time of 16 seconds and no overclocks is provided as reference. The speed bonus does NOT increase the power consumption of the Pyrolyse Oven since the EU/t remains the same. Instead, it actually reduces the total EU consumed because it runs for a shorter amount of time. 
+## 用途
+<Color id="GREEN">热解炉</Color>能获得随其加热线圈等级线性提升的速度加成。具体而言，使用白铜线圈时处理速度为 50%，之后加热线圈每高一级速度提升 50%，见下表。表中以一条基础处理时长为 16 秒且未超频的配方作为参考。速度加成并不会增加热解炉的功耗，因为 EU/t 保持不变；恰恰相反，由于运行时间更短，消耗的总 EU 反而更少。
 
-| Heating Coil | Speed | Example | Total EU |
+| 加热线圈 | 速度 | 示例 | 总 EU |
 | --------------- | --------------- | --------------- | --------------- |
-| Cupronickel | 50% | 32.00s | 200% |
-| Kanthal | 100% | 16.00s | 100% |
-| Nichrome | 150% | 10.67s | 66.7% |
-| TPV-Alloy | 200% | 8.00s | 50.0% |
-| HSS-G | 250% | 6.40s | 40.0% |
-| HSS-S | 300% | 5.33s | 33.3% |
-| Naquadah | 350% | 4.57s | 28.6% |
-| Naquadah Alloy | 400% | 4.00s | 25.0% |
-| Trinium | 450% | 3.56s | 22.2% |
-| Electrum Flux | 500% | 3.20s | 20.0% |
-| Awakened Draconium | 550% | 2.91s | 18.2% |
-| Infinity | 600% | 2.67s | 16.7% |
-| Hypogen | 650% | 2.46s | 15.4% |
+| 白铜 | 50% | 32.00s | 200% |
+| 卡汉合金 | 100% | 16.00s | 100% |
+| 镍铬合金 | 150% | 10.67s | 66.7% |
+| 钛铂钒合金 | 200% | 8.00s | 50.0% |
+| 高速钢-G | 250% | 6.40s | 40.0% |
+| 高速钢-S | 300% | 5.33s | 33.3% |
+| 硅岩 | 350% | 4.57s | 28.6% |
+| 硅岩合金 | 400% | 4.00s | 25.0% |
+| 特林 | 450% | 3.56s | 22.2% |
+| 通流琥珀金 | 500% | 3.20s | 20.0% |
+| 觉醒龙 | 550% | 2.91s | 18.2% |
+| 无尽 | 600% | 2.67s | 16.7% |
+| 海珀珍 | 650% | 2.46s | 15.4% |
 | Eternal | 700% | 2.29s | 14.3% |
 
-The <Color id="GREEN">Pyrolyse Oven</Color> is primarily used to burn logs into charcoal with the option of ONE fluid byproduct--determined by the programmed circuit in the input bus or controller. The most common choice is charcoal byproducts because it breaks down into dimethylbenzene, wood gas, wood vinegar, and wood tar in a Distillation Tower <ItemImage id="gregtech:gt.blockmachines:1126"/>. Another common choice is wood tar for making nitrobenzene more directly/efficiently. There is also the option to use 1,000L of nitrogen gas per 16 logs to double the processing speed of the machine, which is again determined by the programmed circuit in the input bus or controller.
+<Color id="GREEN">热解炉</Color>主要用于将原木烧制成木炭，并可选择产出一种流体副产物——具体由输入总线或控制器中的编程电路决定。最常见的选择是木炭副产物，因为它可以在蒸馏塔 <ItemImage id="gregtech:gt.blockmachines:1126"/> 中分解为二甲苯、木炭气、木醋酸和木焦油。另一个常见选择是木焦油，用于更直接/高效地制造硝基苯。还可以选择每 16 根原木消耗 1,000L 氮气，使机器的处理速度翻倍，这同样由输入总线或控制器中的编程电路决定。

@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15524
 navigation:
-  title: Large Steam Turbine
+  title: 大型蒸汽涡轮
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15524
 categories:
@@ -11,139 +11,139 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Large Steam Turbine
+# 大型蒸汽涡轮
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15524"/>
 </GameScene>
-The <Color id="GREEN">Large Steam Turbine (LST)</Color> is an HV tier multiblock for generating power from steam. The <Color id="GREEN">LST</Color> is a direct upgrade from the singleblock steam turbines because it outputs up to 4A of power with much higher efficiency. However, a turbine must be placed inside the controller for the machine to run, the input rate of steam must be carefully regulated, and it must be running for at least 50 seconds to fully warm-up. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate (L/t). Power is extracted from a 4A dynamo hatch on the back of the structure as steam condensates into distilled water in the output hatch. Breaking the dynamo hatch while the machine is running causes it to explode. Save on fuel by automatically toggling the <Color id="GREEN">LST</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>.
+<Color id="GREEN">大型蒸汽涡轮（Large Steam Turbine，LST）</Color>是一座以蒸汽发电的高压（HV）等级多方块结构。<Color id="GREEN">LST</Color>是单方块蒸汽轮机的直接升级，因为它最多可输出 4A 电力，而且效率高得多。但是，机器运行需要在控制器内放入转子，蒸汽的输入速率必须仔细调控，并且机器至少要运行 50 秒才能完全预热。转子有四种不同尺寸和多种不同材料，每种都有各自的效率加成和最佳流量（L/t）。电力通过结构背面的 4A 动力仓输出，同时蒸汽在输出仓中冷凝为蒸馏水。机器运行期间拆掉动力仓会引发爆炸。用 RS 锁存器连接兰波顿超级电容库 <ItemImage id="gregtech:gt.blockmachines:13106"/>，自动开关<Color id="GREEN">LST</Color>，可以节省燃料。
 
-The <Color id="RED">Large HP Steam Turbine (LST-HP)</Color> <ItemImage id="gregtech:gt.blockmachines:15525"/> and <Color id="BLUE">Large SC Steam Turbine (LST-SC)</Color> <ItemImage id="gregtech:gt.blockmachines:15526"/> are nearly identical to the LST except they exclusively process superheated steam and supercritical steam, respectively. Supercritical steam generates twice the EU as regular steam with the same optimal flow rate and converts into superheated steam. Superheated steam generates twice the EU as regular steam with the same optimal flow rate and converts into regular steam.
+<Color id="RED">大型高压蒸汽涡轮（Large HP Steam Turbine，LST-HP）</Color> <ItemImage id="gregtech:gt.blockmachines:15525"/>与<Color id="BLUE">大型超临界蒸汽涡轮（Large SC Steam Turbine，LST-SC）</Color> <ItemImage id="gregtech:gt.blockmachines:15526"/>与 LST 几乎完全相同，区别仅在于它们分别只处理过热蒸汽和超临界蒸汽。在相同最佳流量下，超临界蒸汽产生的 EU 是普通蒸汽的两倍，并会变为过热蒸汽；过热蒸汽产生的 EU 是普通蒸汽的两倍，并会变为普通蒸汽。
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
+[GTNH 电力规划器](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 
-The <Color id="GREEN">LST</Color>  is superseded by the [XL Turbo Steam Turbine](./xl_turbo_steam.md) which consumes as much steam and produces as much power as 16 <Color id="GREEN">LSTs</Color>, but only requires 12 turbines. It also supports <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> for serious power generation and comes in HP and SC variants. 
+<Color id="GREEN">LST</Color>已被[特大蒸汽涡轮](./xl_turbo_steam.md)取代，后者的蒸汽消耗与电力产出相当于 16 台<Color id="GREEN">LST</Color>，却只需 12 个转子。它还支持<Color id="GREEN">多A能源仓与激光能源仓</Color>以实现强力发电，并提供高压（HP）与超临界（SC）版本。
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure has changed; the mechanics are otherwise unchanged
+> 仅结构有所改动；其余机制均保持不变
 
-## Construction
-The <Color id="GREEN">LST</Color> has no tiered components. The maintenance hatch, input hatch, and output hatch may replace any turbine casing on the back half of the structure. The dynamo hatch is limited to the center casing on the very back of the structure and cannot be greater than 4A. There is NO muffler hatch so do not include one. The 9 blocks directly in front of the controller are mandatory air. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+## 建造
+<Color id="GREEN">LST</Color>没有带等级限制的组件。维护仓、输入仓和输出仓可替换结构后半部分的任意涡轮机械方块。动力仓只能放在结构最背部中央的机械方块上，且不能大于 4A。本结构没有消声仓，请不要加入。控制器正前方的 9 个方块必须是空气。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
 
-Unique to large turbines is the turbine housing <ItemImage id="gregtech:gt.blockmachines:31025"/> which is effectively a ULV input bus for storing an extra turbine that automatically replaces the one inside the controller once it breaks. It is completely optional and gated to UV, but helps maximize runtime. 
+大型涡轮特有的部件是涡轮仓 <ItemImage id="gregtech:gt.blockmachines:31025"/>，它实质上相当于一个存放备用转子的 ULV 输入总线，当控制器内的转子损坏时会自动将其替换。该部件完全可选，且需要 UV 等级才能使用，但有助于最大化运行时间。
 
-### Requires:
-- 1 Large Steam Turbine (Of relevant type) <ItemImage id="gregtech:gt.blockmachines:15524"/>
-- 14 Frame Box (By type of turbine) <ItemImage id="gregtech:gt.blockframes:32"/>
-- 8-14 Turbine Casing (By type of turbine) <ItemImage id="gregtech:gt.blockframes:32"/>
-- 12 Pipe Casing (By type of turbine) <ItemImage id="gregtech:gt.blockcasings2:13"/>
-- 1 Dynamo Hatch (back center turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 Maintenance Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:90" />
+### 所需材料：
+- 1 大型蒸汽涡轮（对应类型） <ItemImage id="gregtech:gt.blockmachines:15524"/>
+- 14 铅青铜框架（按转子类型） <ItemImage id="gregtech:gt.blockframes:32"/>
+- 8-14 涡轮机械方块（按转子类型） <ItemImage id="gregtech:gt.blockframes:32"/>
+- 12 管道方块（按转子类型） <ItemImage id="gregtech:gt.blockcasings2:13"/>
+- 1 动力仓（背部中央涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 维护仓（背面任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
 - 0+ <ItemLink id="gregtech:gt.blockmachines:31025"/><ItemImage id="gregtech:gt.blockmachines:31025"/>
-- 0+ Input Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 0+ 输入仓（背面任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 输出仓（背面任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">LSTs</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. However, do NOT share the input hatch because the fuel is not split evenly between the <Color id="GREEN">LSTs</Color> -- one consumes everything and the other receives nothing. The restriction on the hatch locations make that difficult to accomplish anyway. 
+### 共墙
+多台<Color id="GREEN">LST</Color>的每一面都可以彼此共墙，以节省机械方块、铅青铜框架和总线/仓。但是，切勿共用输入仓，因为燃料不会在各<Color id="GREEN">LST</Color>之间平均分配——一台会耗尽全部燃料，另一台则什么也得不到。何况仓位置的限制本身就让这样做很难实现。
 
 ----------
 
-## Usage
-The <Color id="GREEN">LST</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid game when steam production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
+## 用法
+<Color id="GREEN">LST</Color>有两种运行模式，如下所列；两者的量化差异请参见页面顶部链接的规划器。前者更适合蒸汽产量较低的游戏前期与中期，后者更适合电力输出比效率更重要的游戏后期。用螺丝刀对控制器使用即可切换模式。
 
-- Tight Fitting Mode - High efficiency, Low optimal flow rate (power).
-- Loose Fitting Mode - Low efficiency, High optimal flow rate (power).
+- 紧配模式 - 高效率，低最佳流量（功率）。
+- 松配模式 - 低效率，高最佳流量（功率）。
 
-The speed of the <Color id="GREEN">LST</Color> increases linearly up to 100% while active and decreases back to 0% while inactive. Speed is directly proportional to the power output of the machine and takes 50 seconds to reach its maximum value regardless of the turbine size/material. Speed decays extremely fast when the <Color id="GREEN">LST</Color> is disabled, the turbine is removed, the structure is broken, or fuel runs out. View the current speed of the turbine by using a Portable Scanner <ItemImage id="gregtech:gt.metaitem.01:32762"/> on the controller or looking at the "efficiency" value in WAILA. 
+<Color id="GREEN">LST</Color>运行时转速线性上升至 100%，停机时则回落至 0%。转速与机器的电力输出成正比，而且无论转子尺寸/材料如何，都需要 50 秒才能达到最大值。当<Color id="GREEN">LST</Color>被停用、转子被取出、结构被破坏或燃料耗尽时，转速会极快衰减。对控制器使用便携式扫描仪 <ItemImage id="gregtech:gt.metaitem.01:32762"/>，或查看 WAILA 中显示的“efficiency”（效率）数值，即可查看转子当前转速。
 
-## Optimal Flow Rate
-The rate (L/t) at which steam enters the <Color id="GREEN">LST</Color> is extremely important. Too little steam and only a fraction of the potential power is generated; too much steam and a tremendous amount of fuel is wasted. Ideally, steam enters the <Color id="GREEN">LST</Color> at the optimal flow rate of the turbine, which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}^*$$ ) in L/t is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, and $$\eta_0$$ is the <u>base</u> efficiency of the turbine.
+## 最佳流量
+蒸汽进入<Color id="GREEN">LST</Color>的速率（L/t）极其重要。蒸汽太少，只能发出潜在电力的一小部分；蒸汽太多，则会浪费大量燃料。理想情况下，蒸汽应以转子的最佳流量进入<Color id="GREEN">LST</Color>，该流量随尺寸/材料和机器运行模式而有显著变化。最佳流量（$$\dot{m}^*$$，单位 L/t）虽然可以在 NEI 中查看，但也由以下公式计算：其中 $$k$$ 是与每种材料相关的乘数，size 是 1（小型）到 4（巨型）之间的常数，$$\eta_0$$ 是转子的<u>基础</u>效率。
 
 <Latex formula="\dot{m}^* (\text{Tight}) = k \times \text{size} \times 50">
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
-  - $$\text{size}$$: Constant in range (1:4) based on turbine size
+  - $$\dot{m}^*$$：最佳流量
+  - $$k$$：材料乘数
+  - $$\text{size}$$：由转子尺寸决定的常数，取值范围（1:4）
 </Latex>
 
 <Latex formula="\dot{m}^* (\text{Loose}) = k \times \text{size} \times 150 \times 1.1^{20(\eta_0 - 0.8)}">
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
-  - $$\text{size}$$: Constant in range (1:4) based on turbine size
-  - $$\eta_0$$: Base Efficiency of Turbine
+  - $$\dot{m}^*$$：最佳流量
+  - $$k$$：材料乘数
+  - $$\text{size}$$：由转子尺寸决定的常数，取值范围（1:4）
+  - $$\eta_0$$：转子基础效率
 </Latex>
 
-The optimal flow rates of some turbines are incredibly high because steam has a very low fuel density of 0.5 EU/L, especially if the <Color id="GREEN">LST</Color> is in loose mode. The player may need to upgrade their fluid regulator or add a second input hatch to meet the increased demand. Eventually it becomes necessary to switch to AE2 fluid P2P tunnels <ItemImage id="appliedenergistics2:item.ItemMultiPart:463"/> which effectively have no transfer limit and no concern for temperature or heat capacity.
+某些转子的最佳流量高得惊人，因为蒸汽的燃料密度极低，只有 0.5 EU/L，尤其是当<Color id="GREEN">LST</Color>处于松配模式时。玩家可能需要升级流体调节器，或者加装第二个输入仓来满足更高的需求。最终可能有必要改用 AE2 流体 P2P 通道 <ItemImage id="appliedenergistics2:item.ItemMultiPart:463"/>，它们实际上没有传输上限，也不用考虑温度或热容。
 
-## Power & Overflow
-The power generated by the <Color id="GREEN">LST</Color> depends on the current flow rate ($$\dot{m}$$), the optimal flow rate ($$\dot{m}^*$$), and the efficiency of the turbine ($$\eta$$). Exceeding the optimal flow rate generates additional power with diminishing returns based on the overflow tier ($$T$$) of the turbine. There are only three overflow tiers in total and depends strictly on the material of the turbine. A higher overflow tier also increases the maximum flow rate ($$\dot{m}_{max}$$). View the overflow tier of a turbine through NEI and the current power output of the machine through WAILA.
+## 电力与溢流
+<Color id="GREEN">LST</Color>产生的电力取决于当前流量（$$\dot{m}$$）、最佳流量（$$\dot{m}^*$$）以及转子的效率（$$\eta$$）。超过最佳流量可以产生额外电力，但收益递减，具体取决于转子的溢流等级（$$T$$）。溢流等级总共有三级，且严格取决于转子材料。更高的溢流等级还会提高最大流量（$$\dot{m}_{max}$$）。转子的溢流等级可在 NEI 中查看，机器当前电力输出可在 WAILA 中查看。
 
-Power is extracted from a 4A dynamo hatch on the back of the structure. Do not break the dynamo hatch while the machine is running or else the <Color id="GREEN">LST</Color> will explode. Exceeding the maximum EU/t or the total EU in the dynamo's buffer is perfectly safe; the <Color id="GREEN">LST</Color> will not explode if an attached battery buffer or Lapotronic Supercapacitor (LSC) <ItemImage id="gregtech:gt.blockmachines:13106"/> is full and there is nowhere for the EU to go. Any additional EU is simply voided. It is highly recommended to automatically toggle the <Color id="GREEN">LST</Color> with a redstone RS latch to avoid wasting fuel.
+电力通过结构背面的 4A 动力仓输出。机器运行期间请勿拆掉动力仓，否则<Color id="GREEN">LST</Color>会爆炸。即使超过最大 EU/t，或超出动力仓缓冲中的总 EU，也完全安全；即便所连接的电池缓冲或兰波顿超级电容库（LSC）<ItemImage id="gregtech:gt.blockmachines:13106"/>已满、EU 无处可去，<Color id="GREEN">LST</Color>也不会爆炸，多余的 EU 只会被直接销毁。强烈建议使用红石 RS 锁存器自动开关<Color id="GREEN">LST</Color>，以免浪费燃料。
 
-### Large Steam Turbine:
+### 大型蒸汽涡轮：
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times 0.5 \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}^*$$：最佳流量
+  - $$\eta$$：效率
 </Latex>
 <Latex formula="\text{EU/t} (> \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^* \times (T+1)} \Biggr) \times 0.5 \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
-  - $$T$$: Overflow Tier
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}^*$$：最佳流量
+  - $$\eta$$：效率
+  - $$T$$：溢流等级
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (0.5T + 1)">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}_{max}$$: Maximum Flow Rate
-  - $$T$$ Overflow Tier
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}_{max}$$：最大流量
+  - $$T$$ 溢流等级
 </Latex>
 
-### Large HP Steam Turbine:
+### 大型高压蒸汽涡轮：
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times 1.0 \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}^*$$：最佳流量
+  - $$\eta$$：效率
 </Latex>
 <Latex formula="\text{EU/t} (> \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^* \times (T+2)} \Biggr) \times 1.0 \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
-  - $$T$$: Overflow Tier
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}^*$$：最佳流量
+  - $$\eta$$：效率
+  - $$T$$：溢流等级
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (0.5T + 1.5)">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}_{max}$$: Maximum Flow Rate
-  - $$T$$ Overflow Tier
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}_{max}$$：最大流量
+  - $$T$$ 溢流等级
 </Latex>
 
-### Large SC Steam Turbine:
+### 大型超临界蒸汽涡轮：
 <Latex formula="\text{EU/t} = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times 1.0 \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}^*$$：最佳流量
+  - $$\eta$$：效率
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (0.5T + 1.5)">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}_{max}$$: Maximum Flow Rate
-  - $$T$$ Overflow Tier
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}_{max}$$：最大流量
+  - $$T$$ 溢流等级
 </Latex>
 
-## Turbines
-A turbine must be placed inside the GUI of the controller for the machine to run. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate. There are too many different permutations to list them all here, but the planner linked at the top has all the relevant information and even a calculator for determining the power output and lifespan of any turbine with any fuel.
+## 转子
+机器运行必须在控制器的 GUI 内放入转子。转子有四种不同尺寸和多种不同材料，每种都有各自的效率加成与最佳流量。组合方式太多，无法在此一一列出，但顶部链接的规划器包含所有相关信息，甚至带有计算器，可用于确定任意转子搭配任意燃料时的电力输出与使用寿命。
 
-- Small turbines are crafted with long magnalium rods (available as early as LV)
-- Normal turbines are crafted with long titanium rods (available at the end of HV after traveling to the moon <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>)
-- Large turbines are crafted with long tungstensteel rods (available in IV after the tungsten processing line)
-- Huge turbines are crafted with long americium rods (available in ZPM after building a Fusion Reactor Mk-II <ItemImage id="gregtech:gt.blockmachines:32020"/>)
+- 小型转子由长镁铝合金杆制成（最早在 LV 即可获得）
+- 普通转子由长钛杆制成（在 HV 末期前往月球后可用 <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>）
+- 大型转子由长钨钢杆制成（在 IV、完成钨处理线后可用）
+- 巨型转子由长镅杆制成（在 ZPM、建成核聚变反应堆 Mk-II 后可用 <ItemImage id="gregtech:gt.blockmachines:32020"/>）
 
-## Durability
-Turbines slowly lose durability proportional to the power generated. The total durability of a turbine depends on the material and instantly voids once it reaches 0%. Turbines cannot be inserted or extracted from the controller, but turbine housings check if the controller is empty once every 60 seconds to insert a new one. Use a screwdriver on the housing to decrease the interval, as necessary, and re-enable the <Color id="GREEN">LST</Color> with a machine controller cover.
+## 耐久
+转子的耐久会随发电量成比例缓慢损耗。转子的总耐久取决于材料，耐久降到 0% 时会立即销毁。转子无法手动放入或取出控制器，但涡轮仓会每 60 秒检查一次控制器是否为空，并自动放入新转子。如有需要，可用螺丝刀点击收纳盒缩短该间隔，并用机器控制覆盖板重新启用<Color id="GREEN">LST</Color>。
 
-The following equation calculates the lifespan of a turbine (in hours) from the current power output of an <Color id="GREEN">LST</Color>. Note that loose fitting mode provides a 25% durability boost to compensate for the reduced lifespan of a higher power output. Turbines generally have lifespans of several hundred hours (or more) so they do not need to be replaced very often. 
+以下公式可根据<Color id="GREEN">LST</Color>的当前电力输出计算转子的使用寿命（单位：小时）。注意，松配模式会提供 25% 的耐久加成，以补偿更高电力输出导致的寿命缩短。转子的使用寿命通常有数百小时（或更长），因此不需要频繁更换。
 
 <Latex formula="\text{Lifespan} (h) = \frac{\text{Durability}}{36 \times \text{min}(0.2 \times \text{EU/t}, (\text{EU/t})^{0.6})}"/>
 
-- Multiply the lifespan result by 1.25 in loose fitting mode.
+- 在松配模式下，将使用寿命计算结果乘以 1.25。

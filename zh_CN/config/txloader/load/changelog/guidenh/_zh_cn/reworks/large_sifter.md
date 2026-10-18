@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15542
 navigation:
-  title: Large Sifter
+  title: 工业筛选机
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15542
 categories:
@@ -11,42 +11,42 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Large Sifter
+# 工业筛选机
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15542"/>
 </GameScene>
-The <Color id="GREEN">Large Sifter</Color> is an HV tier multiblock for sifting gems and minerals. The <Color id="GREEN">Large Sifter</Color> is a direct upgrade from the singleblock sifter because it runs at <Color id="RED">500%</Color> speed, only uses <Color id="BLUE">75%</Color> of the EU/t normally required, and offers <Color id="GREEN">4</Color> parallels per voltage tier. It is recommended to passively sift dusts and liquids with no other use. 
+<Color id="GREEN">工业筛选机</Color> 是一座用于筛选宝石和矿物的 HV 等级多方块结构。<Color id="GREEN">工业筛选机</Color> 是单方块筛选机的直接升级，因为它以 <Color id="RED">500%</Color> 的速度运行，只消耗正常所需 <Color id="BLUE">75%</Color> 的 EU/t，并且每个电压等级提供 <Color id="GREEN">4</Color> 个并行。建议用它被动地筛理那些没有其他用途的粉类和液体。
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure of this multiblock has changed, the mechanics stay the same
+> 只有这个多方块的结构发生了变化，机制保持不变
 
-## Construction
-The <Color id="GREEN">Large Sifter</Color> has no tiered components. Buses/hatches may replace any casing anywhere on the structure. Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+## 建造
+<Color id="GREEN">工业筛选机</Color> 没有需要匹配等级的部件。总线/仓可以替换结构上任意位置的机械方块。不支持多A能源仓和激光能源仓，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
 
-### Requires:
+### 所需方块：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15542"/><ItemImage id="gregtech:gt.blockmachines:15542"/>
 - 45-59 <ItemLink id="miscutils:gtplusplus.blockcasings.2:5"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:5"/>
 - 19 <ItemLink id="miscutils:gtplusplus.blockcasings.2:6"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:6"/>
 - 16 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ 能源仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输入仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 输出总线（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ 输出仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">Large Sifters</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### 共墙
+<Color id="GREEN">工业筛选机</Color> 可以共墙共享彼此的各个侧面，以节省机械方块、框架方块和总线/仓。没有任何配方会使用超过 1A 的电力，因此可以在 <u>__两__</u> 台机器之间共享 <u>__一__</u> 个能源仓。
 
-## Usage
-The <Color id="GREEN">Large Sifter</Color> is a direct upgrade from the singleblock sifter because it runs at 500% speed, only uses 75% of the EU/t normally required, and offers 4 parallels per voltage tier, as seen in the following table.
+## 使用
+<Color id="GREEN">工业筛选机</Color> 是单方块筛选机的直接升级，因为它以 500% 的速度运行，只消耗正常所需 75% 的 EU/t，并且每个电压等级提供 4 个并行，如下表所示。
 
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 | 4 | 8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 | 44 | 48 | 52 | 56 | 60 |
 
 
-There are a few dusts and liquids in GTNH that are only ever used in the sifter and serve no other purpose. It is highly recommended to put these in ME stocking buses/hatches, or an AE2 subnetwork with partitioned storage cells and sticky cards. 
+GTNH 中有少数几种粉和液体只会在筛选机中用到，没有其他用途。强烈建议把它们放入 ME 存储总线/仓，或带有分区存储元件和黏性卡片的 AE2 子网络中。

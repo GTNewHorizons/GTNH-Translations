@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Fewer Recipes?
+  title: 配方变少了？
   parent: qol.md
   icon: minecraft:crafting_table
 categories:
@@ -9,11 +9,11 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Fewer Recipes?
-Have you ever gone to craft a chest in an assembler, and wondered why there are more recipes than particles in the known Universe? Well today is your lucky day!
+# 配方变少了？
+你是否曾在装配机里合成箱子，纳闷为什么配方比已知宇宙中的粒子还多？今天你就是幸运儿！
 
-Thanks to adding OreDictionary support in all GregTech machine inputs, we now have much more condensed recipe lists!
+得益于在所有格雷科技机器的输入中加入了矿物辞典（OreDictionary）支持，现在的配方列表精简了许多！
 
 <RecipesFor id="minecraft:chest" input="minecraft:planks:*&!minecraft:flint"/>
 > [!NOTE]
-> Piston recipes now accept any OreDictionary version of cobblestone, and GregTech Planks also have OreDictionary support!
+> 活塞配方现在接受任意矿物辞典版本的圆石，格雷科技的木板同样支持矿物辞典！

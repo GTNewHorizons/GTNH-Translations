@@ -5,9 +5,9 @@ navigation:
   icon: cropsnh:reinforcedSpade
 ---
 # CropsNH
-Sick of dealing with the random annoying traits of IC2 crops? Well now you don't have to! Introducing <Color id="GREEN">CropsNH</Color>!
+厌倦了应付 IC2 作物那些随机又烦人的特性？现在你不必再忍受了！隆重推出 <Color id="GREEN">CropsNH</Color>！
 
-<Color id="GREEN">CropsNH</Color> is a fork of Agricraft, inspired by the previous IC2 crops system, but aiming to fix some of the problems players had with certain aspects of that system!
+<Color id="GREEN">CropsNH</Color> 是 Agricraft 的一个分支（fork），其灵感来自之前的 IC2 作物系统，但旨在修复玩家对该系统某些方面感到不满的问题！
 
-This is such a huge feature that this guide will break it down into a few categories, so feel free to click on any of the categories to read the relevant info, and happy farming!
+这个功能非常庞大，因此本指南会把它拆分成几个类别，欢迎点击任意类别阅读相关信息——祝耕种愉快！
 <Category name="Crops" rows="3"/>

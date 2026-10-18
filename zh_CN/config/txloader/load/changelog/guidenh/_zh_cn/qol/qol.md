@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: Quality of Life
+  title: 生活品质
   parent: /index.md
   icon: gregtech:gt.Item_Toolbox
 ---
-# Quality of Life
-This is one of the biggest categories of changes coming to 2.9, touching nearly every aspect of the pack to make life easier in some way. This list does not include the incredible amount of minor tweaks or bug fixes as they are too plentiful to mention.
+# 生活品质
+这是 2.9 版本中规模最大的改动类别之一，几乎触及整合包的方方面面，以各种方式让游玩变得更加轻松。这份列表不包含数量惊人的细微调整与错误修复，因为它们实在太多，难以一一提及。
 
-# List of Quality of Life Changes:
+# 生活品质改动列表：
 <Category name="Quality Of Life" rows="3"/>
 

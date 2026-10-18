@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Vending Machine
+  title: 自动售货机
   parent: qol.md
   icon: gregtech:gt.blockmachines:2741
 categories:
@@ -10,23 +10,23 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Vending Machine
+# 自动售货机
 <GameScene wrap="square" align="right">
   <ImportStructure src="../assets/qol/vending.snbt"/>
 </GameScene>
 
  
-Are you tired of having chests on chests full of random coins you don't want or need yet? Well look no further! Introducing the <Color id="GREEN">Vending Machine</Color> <ItemImage id="gregtech:gt.blockmachines:2741"/>! 
+你是否厌倦了箱子上摞箱子，塞满了你还不需要或不想要的各色硬币？那么不用再找了！隆重推出 <Color id="GREEN">自动售货机</Color> <ItemImage id="gregtech:gt.blockmachines:2741"/>！ 
 
 
-Unlocked after your first GT tools in the Steam Age, the Vending Machine is a new mini multiblock that deals with all of your storage and trading using coins! It has full compatibility with teams and solo play, and is a huge relief off your early game storage. This also means that the quest book page for Coin Tradings is now removed.
+在蒸汽时代做出你的第一批 GT 工具后即可解锁，自动售货机是一座全新的小型多方块结构，用硬币搞定你所有的存储与交易！它完全兼容组队与单人游玩，能极大缓解你前期的存储压力。这也意味着任务书中“硬币交易”页面现在已被移除。
 
-The Vending Machine has effectively infinite storage of coins, and deals with all conversion of different "sizes" of coins internally. Trades can be found either through the categories on the sidebar, or via search for the output item. It also has a small internal inventory buffer for some required non-consumed items used in trades.
+自动售货机拥有近乎无限的硬币存储空间，并在内部自动处理不同“面额”硬币之间的所有兑换。交易既可以通过侧边栏上的分类查找，也可以按输出物品搜索。它还有一个小型内部物品缓冲，用于存放某些交易所需的非消耗物品。
 
-## Team Compatibility
-As mentioned earlier, the Vending Machine also fully works with teams! For solo players, the cooldown functionality is inherently the same as the previous quest book page, with cooldowns specific to each quest, and certain unlock "gates" based on quest progress to unlock new trades.
+## 团队兼容性
+如前所述，自动售货机也能与团队完美配合！对于单人玩家，冷却功能本质上与之前的任务书页面相同：每个任务有各自的冷却时间，并设有基于任务进度的特定解锁“门槛”，用来解锁新交易。
 
-For team players, the wallet is inherently linked, and you can toggle to use either the "team wallet", or your "personal wallet". If spending from the team wallet, the cooldown is based on the size of your team. If you have a 3 player team, and the output you want has a 10 minute cooldown, then you can do up to 3 trades every 10 minutes. These no longer are restricted to being done individually by each player in the team, and can now be done "on behalf" of another player
+对于组队玩家，钱包本质上是联动的，你可以切换使用“团队钱包”或你的“个人钱包”。如果从团队钱包支出，冷却时间取决于你的队伍规模：如果你的队伍有 3 名玩家，而你想要的产出有 10 分钟冷却，那么你们每 10 分钟最多可以进行 3 次交易。这些交易不再局限于由队伍中每位玩家各自完成，现在可以“代表”另一名玩家来进行。
 
-## AE2 Integration
-Trades and coin storage are now also fully integrated with the new <Color id="GREEN">ME Vending Uplink</Color> <ItemImage id="gregtech:gt.blockmachines:2742"/>
+## AE2 集成
+交易与硬币存储现在也与全新的 <Color id="GREEN">ME自动售货机上行链路仓</Color> <ItemImage id="gregtech:gt.blockmachines:2742"/> 完全集成

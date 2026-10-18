@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Thaumic Replicator Improvements
+  title: 神秘复制器改进
   parent: magic.md
   icon: ThaumicExploration:replicator
 categories:
@@ -9,13 +9,13 @@ author: koolkrafter5
 date: 2026-06-09
 ---
 
-The <ItemLink id="ThaumicExploration:replicator"/> <ItemImage id="ThaumicExploration:replicator"/> has received a large number of improvements:
-- It now <Color id="GREEN">remembers</Color> the jars it is pulling essentia from. It will now only search for new jars when the current one it is pulling that aspect from is <Color id="RED">empty</Color>, resulting in a lot less lag.
-- The glyphs on its sides are now <Color id="GREEN">pixel-accurate</Color> and <Color id="GREEN">glow in the dark</Color>.
-- Some side glyphs will no longer be empty for blocks with fewer than 4 essentia types by rendering the same aspect on multiple sides.
-- It now shows the essentia bubble effect when working, like infusion.
-- An empty hand is now required to clear the template to prevent accidentally voiding crafts.
-- It can now replicate a few <Color id="GREEN">new types of blocks</Color> like stained glass, stained hardened clay, and netherrack.
-- The block above the replicator can now be any block that is <Color id="GREEN">fully transparent</Color> (like glass) if you want to make a fancy display case.
-- It has been given a [new NEI handler](magic_nei/thaumic_replicator_nei.md).
-- Many bugs and crashes have been fixed.
+<ItemLink id="ThaumicExploration:replicator"/> <ItemImage id="ThaumicExploration:replicator"/>迎来了大量改进：
+- 它现在会<Color id="GREEN">记住</Color>自己正在从中抽取源质的罐子，只有当当前抽取该要素的罐子<Color id="RED">空了</Color>时才会搜索新罐子，从而大幅减少卡顿。
+- 它侧面的符文现在<Color id="GREEN">像素级精准</Color>，并且<Color id="GREEN">在黑暗中发光</Color>。
+- 对于要素种类少于 4 种的方块，现在会在多个侧面渲染同一要素，使部分侧面符文不再为空。
+- 它工作时现在会显示源质气泡特效，与注魔一样。
+- 现在需要空手才能清除模板，以防意外销毁已放入的合成物品。
+- 它现在可以复制一些<Color id="GREEN">新类型的方块</Color>，例如染色玻璃、染色硬化粘土和地狱岩。
+- 如果你想做一个精美的展示柜，复制器上方的方块现在可以是任何<Color id="GREEN">完全透明</Color>的方块（例如玻璃）。
+- 它新增了[全新的 NEI 处理器](magic_nei/thaumic_replicator_nei.md)。
+- 修复了大量错误与崩溃。

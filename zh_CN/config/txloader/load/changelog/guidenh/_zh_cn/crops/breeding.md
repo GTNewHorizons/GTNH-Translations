@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Crop Breeding
+  title: 作物杂交
   parent: crops.md
   icon: cropsnh:genericSeed
 categories:
@@ -9,39 +9,39 @@ author: Skorched
 date: 2026-05-20
 ---
 
-# Crop Breeding
-There are only so many seeds that can be made by just planting a vanilla seed on crop sticks. There are three main ways to generate other seeds, and that will be covered in this segment. For breeding methods that happen "in world", there is a 50/50 chance of the crop either [spreading](spreading.md), or breeding (presuming a valid breeding setup)
+# 作物杂交
+仅靠把原版种子种在作物架上，所能获得的种子终究有限。生成其他种子的方法主要有三种，本节将逐一介绍。对于发生在“世界中”的杂交，作物有 50/50 的几率要么[蔓延](spreading.md)，要么进行杂交（前提是杂交配置有效）
 
-## Deterministic Breeding
+## 确定性杂交
 <FloatingImage src="../assets/crops/determine.png" displayWidth="128" wrap="square" align="left">
   <ImageAnnotation>
-    An example of a deterministic breeding
+    一个确定性杂交的示例
   </ImageAnnotation>
 </FloatingImage>
-Deterministic Breeding is where the target seed has a "recipe" of sorts. In this case, simply set up two mature plants as required in the recipe, and have a double crop sticks in the centre with the valid growing conditions for the target crop. If there is a valid deterministic breeding case, the new plant will always be either a spread crop of either of the parents, or the target crop. Pool mutations will not occur
+确定性杂交是指目标种子存在某种类似“配方”的组合。此时只需按配方要求摆好两株成熟植株，并在中间放置一个双层作物架，同时为目标作物提供有效的生长条件。如果存在有效的确定性杂交组合，新生成的植株必定是任一亲本蔓延出的作物，或目标作物。突变池突变不会发生
 <br clear="all">
 
-## Pool Breeding
+## 突变池杂交
 <FloatingImage src="../assets/crops/pools.png" displayWidth="128" wrap="square" align="left">
   <ImageAnnotation>
-    An example of a Crop Mutation Pool
+    一个作物突变池的示例
   </ImageAnnotation>
 </FloatingImage>
 
-For the majority of crops, breeding the base seed is done through <Color id="GREEN">Pool Breeding</Color>. By searching the uses of any scanned crop, the page shown here can be found, which displays all "pools" that the seed belongs to. For any target crop to be generated this way, you must have two mature parents from within the same pool as the target crop on either side, and follow the same basic setup steps as deterministic breeding. This is often a much less "accurate" method, as without the right planning, the valid pool of "output" crops will be larger than just the crop you desire
+对于大多数作物而言，基础种子的杂交要通过 <Color id="GREEN">突变池杂交</Color> 完成。通过搜索任意已扫描作物的用途，可以找到此处所示的页面，它会显示该种子所属的所有“池”。要想以这种方式生成目标作物，你必须让两个成熟亲本分列两侧，且它们与目标作物同属一个池，然后按照与确定性杂交相同的基本步骤搭建。这种方法通常“精确度”要低得多，因为一旦规划不当，有效的“产出”作物池就会比你想要的那一种作物更大
 <br clear="all">
 
-## Crop Breeder Machine
-For more advanced crops, you must use a <Color id="BLUE">Crop Breeder</Color> <ItemImage id="gregtech:gt.blockmachines:28025" />. These are fully deterministic in their outputs, but have a chance to void outputs depending on the voltage tier of machine used, starting at 40% success at LV, and 100% at ZPM+.
+## 史诗作物培育机
+对于更高级的作物，你必须使用 <Color id="BLUE">史诗作物培育机</Color> <ItemImage id="gregtech:gt.blockmachines:28025" />。其产出是完全确定的，但根据所用机器的电压等级不同，有一定几率把产出直接销毁：LV 时成功率为 40%，ZPM+ 时为 100%。
 
-All recipes in the crop breeders take some set of inputs (often just two seeds, but can be more), and an amount of <Color id="GREEN">Enriched Fertilizer</Color>. The recipe for this can be somewhat misleading, as it is dependent on both the tier, and stats of the output seed. 
+作物培育机中的所有配方都需要一组输入（通常只是两颗种子，但也可以更多），以及一定量的 <Color id="GREEN">富集肥料</Color>。这里的配方数值可能有些误导性，因为它同时取决于输出种子的等级和属性。
 
-As an example, let us say we are trying to produce a <Color id="RED">Bauxia Seed</Color>. The recipe stated in NEI is Galvania Seed + Nickelback Seed + Bauxite Ore + <Color id="GREEN">7560L Enriched Fertilizer</Color>.
+举例来说，假设我们想生产 <Color id="RED">Bauxia 种子</Color>。NEI 中给出的配方为：Galvania 种子 + Nickelback 种子 + 铝土矿 + <Color id="GREEN">7560L 富集肥料</Color>。
 
-The actual amount of fertilizer can vary greatly depending on the stats of the input as shown below:
-- 1/1/1 inputs: <Latex formula="\text{Fertilizer} = 6 \times 144 + (1 + 1 + 1) \times 72 = 1080L" />
-- 31/31/31 inputs: <Latex formula="\text{Fertilizer} = 6 \times 144 + (31 + 31 + 31) \times 72 = 7560L" />
+实际所需的肥料量会随输入种子的属性而发生很大变化，如下所示：
+- 1/1/1 输入：<Latex formula="\text{Fertilizer} = 6 \times 144 + (1 + 1 + 1) \times 72 = 1080L" />
+- 31/31/31 输入：<Latex formula="\text{Fertilizer} = 6 \times 144 + (31 + 31 + 31) \times 72 = 7560L" />
 
-This is particularly important when you consider that as an example an MV Crop Breeder can only store 6,400L in its input fluid slot.
+考虑到例如 MV 级史诗作物培育机的输入流体槽最多只能存储 6,400L，这一点尤为重要。
 
-As such it may be needed to "down-stat" seeds for this specific purpose
+因此，针对这一特定用途，可能需要“压低”种子的属性

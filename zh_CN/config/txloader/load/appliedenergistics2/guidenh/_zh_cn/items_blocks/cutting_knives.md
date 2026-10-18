@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Cutting Knives
+  title: 切割工具
   icon: appliedenergistics2:item.ToolCertusQuartzCuttingKnife
 categories:
 - tools
@@ -10,18 +10,18 @@ item_ids:
 - appliedenergistics2:item.ToolNetherQuartzCuttingKnife
 ---
 
-# Quartz Tools
+# 石英工具
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ToolCertusQuartzCuttingKnife" scale="4" />
   <ItemImage id="appliedenergistics2:item.ToolNetherQuartzCuttingKnife" scale="4" />
 </Row>
 
-Cutting knives are used to make <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:21" /> and <ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />.
+切割刀用于制作<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:21" />和<ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />。
 
-To craft a name press, right-click the cutting knife and insert a metal ingot. Enter the name to be written on the plate, then extract the finished press.
+制作名称压印模板时，手持切割刀右击并放入一个金属锭，输入想要印上去的名字，然后取出成品即可。
 
-## Recipes
+## 配方
 
 <Row>
   <RecipeFor id="appliedenergistics2:item.ToolCertusQuartzCuttingKnife" />

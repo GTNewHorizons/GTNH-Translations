@@ -1,10 +1,10 @@
 ---
 navigation:
-  title: LV (Low Voltage)
+  title: LV（低压）
   icon: minecraft:grass
   parent: /tiers/tiers_index.md
   position: -1
 ---
 
 > [!WARNING]
-> This page is under construction. Check again later, or [help contribute](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
+> 本页面仍在建设中。请稍后再来查看，或[参与贡献](https://github.com/GTNewHorizons/GTNH-Guide-Pack)！

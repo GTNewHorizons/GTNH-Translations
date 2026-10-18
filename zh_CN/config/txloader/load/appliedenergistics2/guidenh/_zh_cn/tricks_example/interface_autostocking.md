@@ -1,48 +1,43 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Interface Autostocking
+  title: ME接口自动补货
   icon: appliedenergistics2:tile.BlockInterface
 ---
 
-# Interface Autostocking
+# ME接口自动补货
 
-One might ask "How do I keep a certain amount of various items in stock, crafting more as needed?"
+有人可能会问："如何让各种物品保持一定的库存量，并在需要时自动合成补充？"
 
-One solution is use of an <ItemLink id="appliedenergistics2:tile.BlockInterface" /> and <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> to automatically request new items
-from your network's [autocrafting](../ae2_mechanics/autocrafting.md). This setup is more suited to maintaining a small quantity of a wide
-variety of items.
+一种解决方案是使用<ItemLink id="appliedenergistics2:tile.BlockInterface" />与<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />，自动向网络的[自动合成](../ae2_mechanics/autocrafting.md)系统请求补充新物品。本方案更适合维持多品种、小批量的物品库存。
 
-This demonstration setup is cut short so it isn't too wide, it is likely most optimal to use 4 <ItemLink id="appliedenergistics2:tile.BlockInterface" />s and 4 <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />s,
-to use all 8 [channels](../ae2_mechanics/channels.md) in a regular [cable](../items_blocks/cables.md).
+为免画面过宽，本演示布置做了截短；最理想的配置很可能是使用4个<ItemLink id="appliedenergistics2:tile.BlockInterface" />与4个<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，以用满普通[线缆](../items_blocks/cables.md)中的全部8个[频道](../ae2_mechanics/channels.md)。
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/interface_autostocking.snbt" />
 
   <BoxAnnotation color="#dddddd" min="0 0 0" max="2 1 1">
-  (1) Interfaces: Set to keep the desired items in themselves. They have Crafting Cards.
+  (1) 接口：设置为在自身库存中保有目标物品。它们装有合成卡。
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0 1 0" max="2 1.3 1">
-  (2) Storage Busses: "Input/Output Mode" set to "Extract Only".
+  (2) 存储总线："输入/输出模式"设为"仅取出"。
   </BoxAnnotation>
 
   <DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-  To Main Network
+  连接主网络
   </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Configurations
+## 配置说明
 
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" />s (1) are set to keep the desired items in themselves, by clicking the desired item into their
-   top slots or dragging into the top slots from NEI, then clicking on the wrench icon above the slots to set the amount. They have <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />s.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />s (2) are set such that "Input/Output Mode" is set to "Extract Only".
+* 将<ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) 设置为在自身库存中保有目标物品：把目标物品点击放入其顶部槽位，或从NEI拖入顶部槽位，再点击槽位上方的扳手图标设置数量。它们装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />。
+* 将<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2) 的"输入/输出模式"设为"仅取出"。
 
-## How It Works
+## 工作原理
 
-1. If an <ItemLink id="appliedenergistics2:tile.BlockInterface" /> cannot retrieve enough of a configured item from [network storage](../ae2_mechanics/import_export_storage.md),
-   (and it has a <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />), it will request that the network's [autocrafting](../ae2_mechanics/autocrafting.md) craft more of that item.
-2. The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />s allow the network to access the contents of the interfaces.
+1. 如果某个<ItemLink id="appliedenergistics2:tile.BlockInterface" />无法从[网络存储](../ae2_mechanics/import_export_storage.md)取到足量的已配置物品，（且它装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />），它就会请求网络的[自动合成](../ae2_mechanics/autocrafting.md)系统合成更多该物品。
+2. <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />让网络得以访问这些接口的内容。

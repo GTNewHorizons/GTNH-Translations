@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:12792
 navigation:
-  title: Extreme Industrial Greenhouse
+  title: 极限工业温室
   parent: reworks.md
   icon: gregtech:gt.blockmachines:12792
 categories:
@@ -11,48 +11,48 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Extreme Industrial Greenhouse
+# 极限工业温室
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:12792"/>
 </GameScene>
-The <Color id="GREEN">Extreme Industrial Greenhouse (EIG)</Color> is an IV tier multiblock for farming thousands of crops without the need for a massive farm. All seeds are grown and harvested within the machine and never physically placed into the world, saving TPS and simplifying logistics. The capacity of the <Color id="GREEN">EIG</Color> is determined by the tier of the energy hatch and therefore the tier of the glass. <Color id="RED">CropsNH</Color> seeds are NOT supported and should be grown in the Industrial Farm instead. Water is required at all times and Weed-EX is required if there are more than 1000 seeds. Otherwise, approximately 1% of seeds are voided with each operation. Fertilizer is optional and boosts the total amount of crops per harvest. 
+<Color id="GREEN">极限工业温室（EIG）</Color>是一个 IV 级多方块结构，无需开辟大片农田即可种植数千株作物。所有种子都在机器内部种植和收获，从不实际放置到世界中，既节省 TPS 又简化了物流。<Color id="GREEN">EIG</Color> 的容量由能源仓的等级决定，因而也由玻璃的等级决定。不支持 <Color id="RED">CropsNH</Color> 种子，这类种子应改在工业农场中种植。任何时候都需要水；如果种子数量超过 1000，还需要 Weed-EX。否则，每次操作大约会有 1% 的种子被销毁。肥料是可选的，可以提高每次收获的作物总量。
 
 <br clear="all"/>
 
 > [!NOTE]
-> Not only does the <Color id="GREEN">EIG</Color> now look like... well, a greenhouse, but it has automated land preparation features! After a completed structure check, it will automatically till dirt, and place water blocks inside.
-> It also now fully supports auto-placing using the same methods as other multis!<ItemImage id="structurelib:item.structurelib.constructableTrigger" />
+> <Color id="GREEN">EIG</Color> 现在不仅看起来像……嗯，一个真正的温室，还具备自动化整地功能！结构检查完成后，它会自动犁好泥土，并在内部放置水方块。
+> 它现在还完全支持自动放置，方式与其他多方块结构相同！<ItemImage id="structurelib:item.structurelib.constructableTrigger" />
 
 
-## Construction
-The <Color id="GREEN">EIG</Color> has one tiered component. The glass determines the maximum tier of the energy hatch. Buses/hatches may replace any sterile farm casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Hatches </Color> are not supported, but there can be multiple regular energy hatches for overclocking. The blocks of dirt inside the <Color id="GREEN">EIG</Color> must be fertilized dirt from the RandomThings mod and the lamps must be purple lamps from the ProjectRed Illumination mod. The lamps cannot be any other color but they can be powered and/or inverted. The dirt is tilled and the water is spawned for free once the structure is formed and therefore does NOT need to be placed manually. A <ItemLink id="gregtech:gt.blockmachines:12972" /> <ItemImage id="gregtech:gt.blockmachines:12972" /> is recommended over an input hatch for supplying water. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass. 
+## 建造
+<Color id="GREEN">EIG</Color> 只有一个分等级的部件。玻璃决定了能源仓的最高等级。总线/仓可以替换结构中任意位置的无菌农场机械方块。不支持<Color id="RED">多A能源仓和激光仓</Color>，但可以放置多个普通能源仓来超频。<Color id="GREEN">EIG</Color> 内部的泥土必须是 RandomThings 模组的沃土，灯必须是 ProjectRed Illumination 模组的紫色灯。灯不能是其他颜色，但可以通电和/或反相。结构成型后，泥土会自动犁好、水会自动生成，因此无需手动放置。建议使用 <ItemLink id="gregtech:gt.blockmachines:12972" /> <ItemImage id="gregtech:gt.blockmachines:12972" /> 而不是输入仓来供水。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来预览/搭建结构，并用子通道 "glass" 指定玻璃的等级。
 
-### Requires:
-- 1 <ItemLink id="gregtech:gt.blockmachines:12792" /> <ItemImage id="gregtech:gt.blockmachines:12792"/>
-- 102 Tiered Glass (matching voltage tier) <ItemImage id="bartworks:BW_GlasBlocks:15" />
-- 70-85 <ItemLink id="miscutils:gtplusplus.blockcasings.2:15" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2:15" />
-- 33 <ItemLink id="gregtech:gt.blockframes:316" /> <ItemImage id="gregtech:gt.blockframes:316" />
-- 21 <ItemLink id="RandomThings:fertilizedDirt" /> <ItemImage id="RandomThings:fertilizedDirt" />
-- 3 Purple Lamps (ProjectRed Illumination, regular or inverted)
+### 需求：
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:12792" /> <ItemImage id="gregtech:gt.blockmachines:12792"/>
+- 102 个等级玻璃（与电压等级匹配）<ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 70-85 个 <ItemLink id="miscutils:gtplusplus.blockcasings.2:15" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2:15" />
+- 33 个 <ItemLink id="gregtech:gt.blockframes:316" /> <ItemImage id="gregtech:gt.blockframes:316" />
+- 21 个 <ItemLink id="RandomThings:fertilizedDirt" /> <ItemImage id="RandomThings:fertilizedDirt" />
+- 3 个紫色灯（ProjectRed Illumination，普通或反相）
 
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ 个能源仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 个维护仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 个消声仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 个输入总线（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 个输入仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 个输出总线（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">EIGs</Color> may wallshare each of their sides to save on casings, glass, frame boxes, and buses/hatches. That includes the reservoir hatch for supplying water. 
+### 贴墙共享
+<Color id="GREEN">EIG</Color> 的每一面都可以与其他结构贴墙共享，以节省机械方块、玻璃、铅青铜框架和总线/仓。供水用的蓄水仓也包括在内。
 
-## Usage
-The <Color id="GREEN">EIG</Color> has three operating modes, listed below. Switch modes in the configuration menu inside the controller, or by right-clicking the controller with a screwdriver. Seeds may be inserted or extracted through the GUI of the controller while the machine is disabled regardless of the current mode. The operating mode does NOT generate additional seeds, only products.
+## 用法
+<Color id="GREEN">EIG</Color> 有三种运行模式，如下所列。可以在控制器内的配置菜单中切换模式，也可以用螺丝刀右键点击控制器来切换。无论当前处于哪种模式，只要机器处于停用状态，就可以通过控制器的 GUI 存入或取出种子。运行模式不会产生额外的种子，只产出作物。
 
-- <Color id="GREEN">Input</Color> - Inserts seeds (and any necessary blocks) into the EIG via the input bus. Does not consume power.
-- <Color id="RED">Operating</Color> - Grows the seeds and harvests crops. Consumes 1A of power with 1 energy hatch, or 4A of power with 2 energy hatches.
-- <Color id="BLUE">Output</Color> - Extracts seeds (and any necessary blocks) from the EIG via the output bus. Does not consume power.
+- <Color id="GREEN">输入</Color> - 通过输入总线将种子（以及任何所需方块）插入 EIG。不消耗电力。
+- <Color id="RED">运行</Color> - 种植种子并收获作物。使用 1 个能源仓时消耗 1A 电力，使用 2 个能源仓时消耗 4A 电力。
+- <Color id="BLUE">输出</Color> - 通过输出总线从 EIG 取出种子（以及任何所需方块）。不消耗电力。
 
-The IC2 mode in the configuration menu was for IC2 seed bags before they were deprecated in GTNH 2.9. Now, it does nothing, along with the humidity mode, and must be disabled for the machine to run. CropsNH seeds are NOT supported and should be grown in the Industrial Farm instead.
+配置菜单中的 IC2 模式原本用于 IC2 种子袋，但种子袋已在 GTNH 2.9 中被弃用。现在该模式与湿度模式一样不起任何作用，且必须将其禁用，机器才能运行。不支持 CropsNH 种子，这类种子应改在工业农场中种植。
 
 

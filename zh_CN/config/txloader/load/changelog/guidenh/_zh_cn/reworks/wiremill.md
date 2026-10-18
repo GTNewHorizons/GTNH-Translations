@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15511
 navigation:
-  title: Industrial Wire Factory
+  title: 工业线缆机
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15511
 categories:
@@ -11,48 +11,48 @@ author: Skorched
 date: 2026-05-26
 ---
 
-# Industrial Wire Factory
+# 工业线缆机
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15511"/>
 </GameScene>
-The <Color id="GREEN">Industrial Wire Factory (IWF)</Color> is an IV tier multiblock for drawing wire from metals. The <Color id="GREEN">IWF</Color> is a direct upgrade from the singleblock wiremill because it gains up to a 400% speed bonus depending on item pipe casing tier, only uses 75% of the EU/t normally required, and offers 4 parallels per voltage tier. Input separation should be enabled on the IWF for using different programmed circuits within the same machine.
+<Color id="GREEN">工业线缆机（IWF）</Color>是一座用于将金属拉制成线的 IV 级多方块结构。<Color id="GREEN">IWF</Color> 是单方块线材轧机的直接升级版：它可以根据物品管道方块的等级获得最高 400% 的速度增益，只消耗通常所需 EU/t 的 75%，并且每个电压等级提供 4 次并行。若要在同一台机器内使用不同的编程电路，应在 IWF 上开启输入隔离。
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Tiered Item Pipes: Speed bonus ranging from 50-400% (previous max 300%) based on Item Pipe Casing tiers
-> - Structure: More space for casings, allowing more buses and hatches
+> 该多方块结构作出了以下更改（结构本身除外）：
+> - 等级化物品管道：速度增益为 50-400%（此前上限为 300%），取决于物品管道方块的等级
+> - 结构：机械方块的可用空间更大，可容纳更多总线与仓
 
-## Construction
-The <Color id="GREEN">IWF </Color> has one tiered component. The item pipe casings determine the speed bonus of the machine. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any casing anywhere on the structure. Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure with subchannels "item_pipe" and "glass" to specify the tier of those components. 
-### Requires:
+## 建造
+<Color id="GREEN">IWF </Color>有一个等级化部件。物品管道方块决定机器的速度增益。玻璃可为任意等级，对机器运行没有影响。总线/仓可以替换结构上任意位置的机械方块。不支持多A能源仓与激光能源仓，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 预览/搭建结构，并通过子通道 "item_pipe" 和 "glass" 指定这些部件的等级。
+### 所需材料：
 
 - 1 <ItemLink id="gregtech:gt.blockmachines:15511" /> <ItemImage id="gregtech:gt.blockmachines:15511" />
 - 14-35 <ItemLink id="miscutils:miscutils.blockcasings:6" /> <ItemImage id="miscutils:miscutils.blockcasings:6" />
-- 15 Tiered Glass (any)
-- 3 Item Pipe Casing <ItemImage id="gregtech:gt.blockcasings11:5" />
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 15 等级玻璃（任意）
+- 3 物品管道方块 <ItemImage id="gregtech:gt.blockcasings11:5" />
+- 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing:
-<Color id="GREEN">IWFs</Color> may wallshare each of their sides to save on casings, glass, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
-## Usage
+### 墙体共享：
+<Color id="GREEN">IWF</Color> 的每一面都可以与其他机器贴墙共享，以节省机械方块、玻璃和总线/仓。没有任何配方会消耗超过 1A 的电力，因此可以在<u>__两__</u>台机器之间共享<u>__一__</u>个能源仓。
+## 使用
 
-| Tier | Item Pipe Casing | Speed Bonus |
+| 等级 | 物品管道方块 | 速度增益 |
 | --------------- | --------------- | --------------- |
-| 1 | Tin | 50% |
-| 2 | Brass | 100% |
-| 3 | Electrum | 150% |
-| 4 | Platinum | 200% |
-| 5 | Osmium | 250% |
-| 6 | Quantium | 300% |
-| 7 | Fluxed Electrum | 350% |
-| 8 | Black Plutonium | 400% |
+| 1 | 锡 | 50% |
+| 2 | 黄铜 | 100% |
+| 3 | 琥珀金 | 150% |
+| 4 | 铂 | 200% |
+| 5 | 锇 | 250% |
+| 6 | 量子 | 300% |
+| 7 | 通流琥珀金 | 350% |
+| 8 | 黑钚 | 400% |
 
 ----------
 
@@ -62,5 +62,5 @@ The <Color id="GREEN">IWF </Color> has one tiered component. The item pipe casin
 | 4 | 8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 | 44 | 48 | 52 | 56 | 60 |
 
 
-### Input Separation
-Input separation should be enabled on the <Color id="GREEN">IWF</Color> to prevent __SOLID__ ingredients in different input buses from being used in the same recipe, including programmed circuits. That means a single <Color id="GREEN">IWF</Color> with many input buses can support many different circuits simultaneously.
+### 输入隔离
+应在 <Color id="GREEN">IWF</Color> 上开启输入隔离，以防止不同输入总线中的 __固体__ 原料（包括编程电路）被用于同一配方。这意味着一台装有众多输入总线的 <Color id="GREEN">IWF</Color> 可以同时支持多种不同的电路。

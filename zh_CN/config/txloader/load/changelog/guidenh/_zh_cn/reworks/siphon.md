@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15559
 navigation:
-  title: Planetary Gas Siphon
+  title: 行星气体钻机
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15559
 categories:
@@ -11,70 +11,70 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Planetary Gas Siphon
+# 行星气体钻机
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15559"/>
 </GameScene>
-The <Color id="GREEN">Planetary Gas Siphon (PGS)</Color> is an IV tier multiblock for harvesting an infinite amount of gas from the gas giants Jupiter, Saturn, Uranus, and Neptune. The <Color id="GREEN">PGS</Color> is similar to a Fluid Drilling Rig <ItemImage id="gregtech:gt.blockmachines:149"/> except it operates from a space station high above the planets' surface. Each gas giant has four different gases, but only one can be extracted at a time. Adjust the programmed circuit value in the input bus to change the depth of the <ItemImage id="gregtech:gt.blockmachines:149"/> and therefore which gas to extract. Increase the extraction rate (L/s) of the machine by upgrading the heating coils and/or the energy hatch. 
+<Color id="GREEN">行星气体钻机（PGS）</Color>是一台 IV 等级的多方块结构，用于从气态巨行星木星、土星、天王星和海王星上采集无限的气体。<Color id="GREEN">PGS</Color>类似于流体钻机 <ItemImage id="gregtech:gt.blockmachines:149"/>，区别在于它运行在远离行星表面的空间站上。每颗气态巨行星都有四种不同的气体，但一次只能采集其中一种。调整输入总线中编程电路的数值，即可改变 <ItemImage id="gregtech:gt.blockmachines:149"/> 的钻探深度，进而决定采集哪种气体。通过升级加热线圈和/或能源仓可以提高机器的采集速率（L/s）。
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> Coil Tiering: Higher tier coils grant a +10% speed boost per tier (additive)
-> Doubled Base Speed: The base processing speed has been doubled compared to the old structure
-> WAILA Upgrade: Hovering the controller now shows your current speed bonus and coil tier
+> 除结构本身外，该多方块结构还有以下改动：
+> 线圈分级：等级更高的线圈每级提供 +10% 速度加成（加法叠加）
+> 基础速度翻倍：与旧结构相比，基础处理速度已翻倍
+> WAILA 升级：悬停在控制器上时，现在会显示当前的速度加成与线圈等级
 
-## Construction
-The <Color id="GREEN">PGS</Color> has one tiered component. The heating coils determine the speed bonus of the machine. Buses/hatches may replace any siphon casing anywhere on the structure, but there must be exactly one of each including the energy hatch. Multi-amp and laser energy hatches are not supported. The mining pipes in the input bus are never consumed by the controller or placed in the world so the <Color id="GREEN">PGS</Color> does not need a direct line of sight to the gas giant below. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "coil" to specify the tier of the heating coils. 
+## 建造
+<Color id="GREEN">PGS</Color>只有一种分等级的组件。加热线圈决定机器的速度加成。总线/仓可以替换结构上任意位置的气体钻机外壳，但包括能源仓在内的每一种都必须恰好有一个。不支持多A能源仓和激光能源仓。输入总线中的采矿管道既不会被控制器消耗，也不会被放置到世界中，因此 <Color id="GREEN">PGS</Color> 不需要与下方的气态巨行星保持直接视线。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构，并用子通道 "coil" 指定加热线圈的等级。
 
-### Requires:
-- 1 <ItemLink id="gregtech:gt.blockmachines:15559"/><ItemImage id="gregtech:gt.blockmachines:15559"/>
-- 184 <ItemLink id="gtnhintergalactic:gassiphoncasing"/><ItemImage id="gtnhintergalactic:gassiphoncasing"/>
-- 93 <ItemLink id="gregtech:gt.blockframes:316"/><ItemImage id="gregtech:gt.blockframes:316"/>
-- 12 Heating Coil (Tiered) <ItemLink id="gregtech:gt.blockcasings5:13"/><ItemImage id="gregtech:gt.blockcasings5:13"/>
-- 6 <ItemLink id="bartworks:bw.werkstoffblockscasingadvanced.01:88"/><ItemImage id="bartworks:bw.werkstoffblockscasingadvanced.01:88"/>
-- 1 Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Output Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+### 所需方块：
+- 1 个 <ItemLink id="gregtech:gt.blockmachines:15559"/><ItemImage id="gregtech:gt.blockmachines:15559"/>
+- 184 个 <ItemLink id="gtnhintergalactic:gassiphoncasing"/><ItemImage id="gtnhintergalactic:gassiphoncasing"/>
+- 93 个 <ItemLink id="gregtech:gt.blockframes:316"/><ItemImage id="gregtech:gt.blockframes:316"/>
+- 12 个加热线圈（分等级）<ItemLink id="gregtech:gt.blockcasings5:13"/><ItemImage id="gregtech:gt.blockcasings5:13"/>
+- 6 个 <ItemLink id="bartworks:bw.werkstoffblockscasingadvanced.01:88"/><ItemImage id="bartworks:bw.werkstoffblockscasingadvanced.01:88"/>
+- 1 个能源仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 个维护仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 个消声仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 个输入总线（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 个输出仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-PGS may wallshare each of their sides to save on casings, heating coils, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> or even <u>__four__</u> machines.
+### 共用墙体
+PGS 可以共用其任意一侧墙面，以节省外壳、加热线圈和总线/仓的数量。没有任何配方耗电超过 1A，因此可以在<u>__两__</u>台甚至<u>__四__</u>台机器之间共用<u>__一个__</u>能源仓。
 
-## Space Stations
-<Color id="GREEN">PGS</Color> must be built on a space station orbiting a gas giant. <Color id="BLUE">Space Stations</Color> are built by launching a rocket into space, clicking on a planet, and pressing the CREATE button on the right side of the screen where it says "A Space Station can be created here!". The cost of the space station for each of the gas giants is listed below. The player must have the required materials in their inventory (not a backpack or compressed chest) to press the button. The space station then appears as a satellite orbiting around the planet in the Galaxy Map, similar to a moon.
+## 空间站
+<Color id="GREEN">PGS</Color>必须建造在环绕气态巨行星运行的空间站上。<Color id="BLUE">空间站</Color>的建造方法：发射火箭进入太空，点击一颗行星，然后按下屏幕右侧写有 "A Space Station can be created here!"（此处可以创建空间站！）处的 CREATE（创建）按钮。每颗气态巨行星的空间站建造成本如下所列。玩家必须把所需材料放在物品栏中（不能放在背包或压缩箱里）才能按下按钮。随后空间站会作为一颗环绕行星运行的卫星出现在星系地图（Galaxy Map）中，与月球类似。
 
-- Jupiter - 1 EV Machine Hull, 4 EV Circuits, 6 Glass Panes, 231 Decorative Nickel Block
-- Saturn - 1 LuV Machine Hull, 4 LuV Circuits, 6 Glass Panes, 231 Decorative Mithril Block
-- Uranus - 1 LuV Machine Hull, 4 LuV Circuits, 6 Glass Panes, 231 Decorative Tungsten Block
-- Neptune - 1 ZPM Machine Hull, 4 ZPM Circuits, 6 Glass Panes, 231 Decorative Adamantite Block
+- 木星 - 1 个 EV 机器外壳、4 个封装EV电路板、6 块玻璃板、231 个装饰镍块
+- 土星 - 1 个 LuV 机器外壳、4 个封装LuV电路板、6 块玻璃板、231 个装饰秘银块
+- 天王星 - 1 个 LuV 机器外壳、4 个封装LuV电路板、6 块玻璃板、231 个装饰钨块
+- 海王星 - 1 个 ZPM 机器外壳、4 个封装ZPM电路板、6 块玻璃板、231 个装饰精金块
 
-Although not visible in NEI or the Galaxy Map, there is a tier associated with each gas giant. The player is unable to see or navigate to a gas giant's space station if the tier of their rocket is too low, despite their ability to create a space station with any rocket. 
+虽然 NEI 和星系地图中都不会显示，但每颗气态巨行星都关联着一个等级。如果玩家的火箭等级过低，就无法看到或前往该气态巨行星的空间站，尽管玩家可以用任意火箭创建空间站。
 
-<Color id="BLUE">Space Stations</Color> are initially very small and have an extremely awkward gravity effect. However, the player can make them as large as they would like and can build some walls/roofs to keep themselves from flying off into space. There is also no oxygen on space stations so bring a few extra oxygen tanks, or an oxygen collector and oxygen compressor for a more permanent solution. Leave a space station by launching a rocket from a launch pad. A filled rocket has more than enough fuel for a round-trip flight, but it may not be a bad idea to bring along a fuel loader and some extra rocket fuel just in case. 
+<Color id="BLUE">空间站</Color>最初非常小，而且重力效果极其别扭。不过玩家可以把它扩建到任意大小，还可以搭建一些墙/屋顶，以免自己飘进太空。空间站上也没有氧气，因此请多带几个氧气罐，或者带上氧气收集器和氧气压缩机作为更持久的解决方案。从发射台发射火箭即可离开空间站。装满燃料的火箭拥有足以完成往返飞行的燃料，不过带上一台燃料注入器和一些额外的火箭燃料以防万一也不是坏主意。
 
-## Usage
-The <Color id="GREEN">PGS</Color> harvests an infinite amount of gas from the gas giants Jupiter, Saturn, Uranus, and Neptune. However, it can only harvest one gas at a time, there is a minimum voltage tier for each gas, and overclocking can only be done by upgrading the energy hatch itself. Adjust the programmed circuit value in the input bus to change the depth of the <Color id="GREEN">PGS</Color> and therefore which gas to extract from the gas giant.
+## 用途
+<Color id="GREEN">PGS</Color>可以从气态巨行星木星、土星、天王星和海王星上采集无限的气体。但它一次只能采集一种气体，每种气体都有最低电压等级要求，而且超频只能通过升级能源仓本身来实现。调整输入总线中编程电路的数值，即可改变 <Color id="GREEN">PGS</Color> 的钻探深度，进而决定从气态巨行星中采集哪种气体。
 
-The depth also determines the inputs to the machine. The required number of mining pipes in the input bus is $$\text{Depth} \times 64$$ and the base EU/t is $$\text{Depth} \times 4^{T+2}$$ where $$T$$  is the tier of the gas giant. For example, pumping helium on Jupiter requires 128 mining pipes and the base power consumption is 2,048 EU/t or 1A EV. Overclocks always keep the number of amps the same regardless of voltage.
+钻探深度还决定了机器的输入。输入总线中所需的采矿管道数量为 $$\text{Depth} \times 64$$，基础 EU/t 为 $$\text{Depth} \times 4^{T+2}$$，其中 $$T$$ 为气态巨行星的等级。例如，在木星上抽取氦气需要 128 根采矿管道，基础功耗为 2,048 EU/t，即 1A EV。无论电压如何，超频始终保持安培数不变。
 
-The rate (L/s) at which gas is extracted depends on the gas giant, type of gas, and available power, as seen in the following tables. The <Color id="GREEN">PGS</Color> runs at 200% speed and gains a +10% speed bonus per heating coil tier, but the latter is NOT included in the listed rates. 
+气体的采集速率（L/s）取决于气态巨行星、气体种类和可用电力，见下表。<Color id="GREEN">PGS</Color>以 200% 速度运行，且每级加热线圈提供 +10% 速度加成，但后者并未计入表中所列速率。
 
-| Heating Coil   | Speed    |
+| 加热线圈 | 速度 |
 |--------------- | --------------- |
-| Cupronickel   | 210%   |
-| Kanthal   | 220%   |
-| Nichrome   | 230%   |
-| TPV-Alloy   | 240%   |
-| HSS-G   | 250%   |
-| HSS-S   | 260%    |
-| Naquadah   | 270%   |
-| Naquadah Alloy   | 280%   |
-| Trinium   | 290%   |
-| Fluxed Electrum   | 300%   |
-| Awakened Draconium   | 310%   |
-| Infinity   | 320%   |
-| Hypogen   | 330%   |
-| Eternal   | 340%   |
+| 白铜 | 210% |
+| 卡汉合金 | 220% |
+| 镍铬合金 | 230% |
+| 钛铂钒合金 | 240% |
+| 高速钢-G | 250% |
+| 高速钢-S | 260% |
+| 硅岩 | 270% |
+| 硅岩合金 | 280% |
+| 特林 | 290% |
+| 通流琥珀金 | 300% |
+| 觉醒龙 | 310% |
+| 无尽 | 320% |
+| 海珀珍 | 330% |
+| Eternal | 340% |

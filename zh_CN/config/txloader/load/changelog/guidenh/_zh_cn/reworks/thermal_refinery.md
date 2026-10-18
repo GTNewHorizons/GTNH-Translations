@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15538
 navigation:
-  title: Large Thermal Refinery
+  title: 工业热力精炼厂
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15538
 categories:
@@ -11,62 +11,62 @@ author: Skorched
 date: 2026-05-23
 ---
 
-# Large Thermal Refinery
+# 工业热力精炼厂
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15538"/>
 </GameScene>
-The <Color id="GREEN">Large Thermal Refinery (LTR)</Color> is an EV tier multiblock for refining crushed ores and recycling depleted fuel rods. The <Color id="GREEN">LTR</Color> is a direct upgrade from the singleblock thermal centrifuge because it runs up to <Color id="RED">320%</Color> speed, uses as little as <Color id="BLUE">39%</Color> of the EU/t normally required, and offers <Color color="#ed6401">8</Color> parallels per voltage tier and 2 parallels per solenoid tier. Furthermore, every heating coil tier gives a 5% speed bonus (additive) and 5% EU/t discount (multiplicative). 
+<Color id="GREEN">工业热力精炼厂（LTR）</Color>是一个 EV 等级多方块结构，用于处理粉碎矿石和回收乏燃料棒。<Color id="GREEN">LTR</Color>是单方块热力离心机的直接升级：运行速度最高可达 <Color id="RED">320%</Color>，耗电最低仅为常规所需 EU/t 的 <Color id="BLUE">39%</Color>，并且每个电压等级提供 <Color color="#ed6401">8</Color> 点并行、每个螺线管等级提供 2 点并行。此外，每级加热线圈提供 5% 的速度加成（加算）与 5% 的 EU/t 折扣（乘算）。
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multi (aside from the new structure):
-> - Tiered Coils: 5% additive bonus speed per tier, 5% multiplicative power reduction per tier
-> - Tiered Solenoids: 2 parallels per solenoid tier
+> 除新结构外，该多方块还做出了以下改动：
+> - 分级线圈：每级 5% 加算速度加成，每级 5% 乘算功耗降低
+> - 分级螺线管：每级螺线管 2 点并行
 
-## Construction
-The <Color id="GREEN">LTR</Color> has two tiered components. The <Color id="RED">Heating Coils</Color> increase the speed bonus and energy discount of the machine. The <Color id="BLUE">Solenoids</Color> increase the number of parallels. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any thermal processing casing anywhere on the structure. Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure with subchannels "coil", "solenoid", and "glass" to specify the tier of those components. 
+## 建造
+<Color id="GREEN">LTR</Color>有两种分级部件。<Color id="RED">加热线圈</Color>提升机器的速度加成与耗电折扣。<Color id="BLUE">螺线管</Color>提升并行数量。玻璃可以为任意等级，对机器运行没有影响。总线/仓可替换结构上任意位置的热处理机械方块。不支持多A能源仓和激光能源仓，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 预览/建造结构，并通过子频道 "coil"、"solenoid" 和 "glass" 指定这些部件的等级。
 
-### Requires:
+### 需要：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15538" /> <ItemImage id="gregtech:gt.blockmachines:15538" />
 - 85-92 <ItemLink id="miscutils:gtplusplus.blockcasings.2" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2" />
 - 20 <ItemLink id="gregtech:gt.blockframes:348" /> <ItemImage id="gregtech:gt.blockframes:348" />
-- 16 Heating Coil <ItemImage id="gregtech:gt.blockcasings5:11" />
-- 6 Solenoid Superconductor Coil <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10" />
-- 6 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 16 加热线圈 <ItemImage id="gregtech:gt.blockcasings5:11" />
+- 6 螺线管超导线圈 <ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:10" />
+- 6 等级玻璃（任意） <ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 4 <ItemLink id="gregtech:gt.blockcasings:11" /> <ItemImage id="gregtech:gt.blockcasings:11" />
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">LTRs</Color> may wallshare each of their sides to save on casings, glass, frame boxes, and buses/hatches. Many recipes use 2A of power so it is NOT possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines without at least fluxed electrum coils. 
+### 共墙
+<Color id="GREEN">LTR</Color>的每一面都可以与其他机器共墙，以节省机械方块、玻璃、框架方块和总线/仓。许多配方使用 2A 电力，因此若不至少使用通流琥珀金线圈，就无法在<u>__两__</u>台机器之间共享<u>__一__</u>个能源仓。
 
-## Usage
-The <Color id="GREEN">LTR</Color> is a direct upgrade from the singleblock thermal centrifuge because it runs up to <Color id="RED">320%</Color> speed, uses as little as <Color id="BLUE">39%</Color> of the EU/t normally required, and offers <Color color="#ed6401">8</Color> parallels per voltage tier and <Color id="GREEN">2</Color> parallels per solenoid tier, as seen in the following table. Furthermore, every heating coil tier gives a 5% speed bonus (additive) and 5% EU/t discount (multiplicative). 
-### Heating Coils:
-|  Coil | Speed | EU/t |
+## 用法
+<Color id="GREEN">LTR</Color>是单方块热力离心机的直接升级：运行速度最高可达 <Color id="RED">320%</Color>，耗电最低仅为常规所需 EU/t 的 <Color id="BLUE">39%</Color>，并且如下表所示，每个电压等级提供 <Color color="#ed6401">8</Color> 点并行、每个螺线管等级提供 <Color id="GREEN">2</Color> 点并行。此外，每级加热线圈提供 5% 的速度加成（加算）与 5% 的 EU/t 折扣（乘算）。
+### 加热线圈：
+|  线圈 | 速度 | EU/t |
 | --------------- | --------------- | --------------- |
-| Cupronickel | 255% | 76.0% |
-| Kanthal | 260% | 72.2% |
-| Nichrome | 265% | 68.6% |
-| TPV-Alloy | 270% | 65.2% |
-| HSS-G | 275% | 61.9% |
-| HSS-S | 280% | 58.8% |
-| Naquadah | 285% | 55.9% |
-| Naquadah Alloy | 290% | 53.1% |
-| Trinium | 295% | 50.4% |
-| Fluxed Electrum | 300% | 47.9% |
-| Awakened Draconium | 305% | 45.5% |
-| Infinity | 310% | 43.2% |
-| Hypogen | 315% | 41.1% |
-| Eternal | 320% | 39.0% |
+| 白铜 | 255% | 76.0% |
+| 卡马 | 260% | 72.2% |
+| 镍铬合金 | 265% | 68.6% |
+| 钛铂钒合金 | 270% | 65.2% |
+| 高速钢-G | 275% | 61.9% |
+| 高速钢-S | 280% | 58.8% |
+| 硅岩 | 285% | 55.9% |
+| 硅岩合金 | 290% | 53.1% |
+| 崔银 | 295% | 50.4% |
+| 通流琥珀金 | 300% | 47.9% |
+| 觉醒龙 | 305% | 45.5% |
+| 无尽 | 310% | 43.2% |
+| 海珀珍 | 315% | 41.1% |
+| 永恒 | 320% | 39.0% |
 
-### Solenoids:
+### 螺线管：
 
 |  | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 |--------------- | -------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |

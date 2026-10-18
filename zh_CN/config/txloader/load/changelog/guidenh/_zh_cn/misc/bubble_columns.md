@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Bubble Columns
+  title: 气泡柱
   parent: misc.md
   icon: harvestcraft:boiledwaterItem
 categories:
@@ -9,10 +9,10 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Bubble Columns
-<Color id="GREEN">Bubble Columns</Color> have been backported from 1.13, using the same mechanics as in modern versions. For those who have never used them, please read below:
+# 气泡柱
+<Color id="GREEN">气泡柱</Color>已从 1.13 回移植而来，采用与现代版本相同的机制。如果你从未使用过它，请阅读以下说明：
 
-## Usage
-Players and air-breathing mobs can enter a bubble column, which replenishes air supply at the same speed as if they left the water. Slower mining speed penalties still apply where relevant. Water-breathing mobs will suffocate when inside a bubble column.
+## 用法
+玩家与呼吸空气的生物可以进入气泡柱，其氧气值会以与离开水面时相同的速度恢复。在适用的场合，挖掘速度放缓的惩罚依然存在。呼吸水的生物在气泡柱内则会窒息。
 
-Bubble columns can be created by placing either Magma Blocks <ItemImage id="etfuturum:magma"/> or Soul Sand <ItemImage id="minecraft:soul_sand"/>, creating either a whirlpool, or upwards column respectively. These will then propel the player in the direction of the bubble column
+放置岩浆块 <ItemImage id="etfuturum:magma"/> 或灵魂沙 <ItemImage id="minecraft:soul_sand"/> 即可创建气泡柱，分别会形成漩涡或向上的气泡柱。随后，气泡柱会将玩家朝气泡柱的方向推送

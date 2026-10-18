@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15550
 navigation:
-  title: Ore Washing Plant
+  title: 工业洗矿厂
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15550
 categories:
@@ -11,39 +11,39 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Ore Washing Plant
+# 工业洗矿厂
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15550"/>
 </GameScene>
-The <Color id="GREEN">Ore Washing Plant (OWP)</Color> is an EV tier multiblock for washing or simple washing crushed ores. The difference between washing and simple washing is that the latter is significantly faster but does not produce any byproducts from ores. The <Color id="GREEN">OWP</Color> is a direct upgrade from the singleblock ore washer and simple washer because it can process both types of recipes, runs at <Color id="RED">500%</Color> speed, and offers <Color id="BLUE">4</Color> parallels per voltage tier. 
+<Color id="GREEN">工业洗矿厂（OWP）</Color>是一个EV级多方块结构，用于对破碎矿石进行洗矿或简单洗矿。洗矿与简单洗矿的区别在于，后者速度显著更快，但不会从矿石中产出任何副产物。<Color id="GREEN">OWP</Color>是单方块洗矿机和简易洗矿池的直接升级版，因为它能处理这两种配方，以<Color id="RED">500%</Color>的速度运行，并按电压等级提供<Color id="BLUE">4</Color>并行。
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Separation: This multiblock __no longer__ processes chemical bath recipes. Instead see [Industrial Chemical Bath](./chem_bath.md)
+> 这个多方块结构做了以下改动（结构本身除外）：
+> - 拆分：这个多方块结构__不再__处理化学浸洗机配方。请改为查看[工业化学浸洗机](./chem_bath.md)
 
-## Construction
-The <Color id="GREEN">OWP</Color> has no tiered components. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. The water is a one-time-cost to prime the machine and inserted into the structure via a reservoir hatch or input hatch. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+## 建造
+<Color id="GREEN">OWP</Color>没有分级组件。总线/仓可以替换结构中任意位置的机械方块。<Color id="RED">多A能源仓和激光能源仓</Color>不受支持，但可以放置多个普通能源仓来超频。水是启动机器的一次性投入，通过蓄水仓或输入仓注入结构中。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来可视化/搭建结构。
 
-### Requires:
+### 需要：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15550"/><ItemImage id="gregtech:gt.blockmachines:15550"/>
 - 70-85 <ItemLink id="miscutils:gtplusplus.blockcasings.2:4"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:4"/>
 - 15 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
 - 7 <ItemLink id="gregtech:gt.blockcasings2:3"/><ItemImage id="gregtech:gt.blockcasings2:3"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 1+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 1+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ 输出仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">OWPs</Color> may wallshare each of their sides to save on casings and buses/hatches. That includes the reservoir hatch for supplying water. No recipe uses more than 1A of power so it is possible to share one energy hatch between two machines. 
+### 共墙
+<Color id="GREEN">OWP</Color>的每一侧都可以与其他机器共墙，以节省机械方块和总线/仓。这包括用于供水的蓄水仓。没有配方会消耗超过1A的电力，因此可以在两台机器之间共用一个能源仓。
 
-## Usage
-The <Color id="GREEN">OWP</Color> is a direct upgrade from the singleblock ore washer and simple washer because it can process both types of recipes, runs at 500% speed, and offers 4 parallels per voltage tier.
+## 用途
+<Color id="GREEN">OWP</Color>是单方块洗矿机和简易洗矿池的直接升级版，因为它能处理这两种配方，以500%的速度运行，并按电压等级提供4并行。
 
 
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
@@ -51,7 +51,7 @@ The <Color id="GREEN">OWP</Color> is a direct upgrade from the singleblock ore w
 | 4 | 8 | 12 | 16 | 20 | 24 | 28 | 32 | 36 | 40 | 44 | 48 | 52 | 56 | 60 |
 
 
-The <Color id="GREEN">OWP</Color> has two operating modes, listed below. Switch modes in the GUI of the controller. The ore washer mode is particularly useful for ore processing setups since it is very fast and produces byproducts.
+<Color id="GREEN">OWP</Color>有两种运行模式，列示如下。在控制器的GUI中切换模式。洗矿机模式对矿石处理产线特别有用，因为它速度非常快且会产生副产物。
 
-- Ore Washer - Washes crushed ores with 200L of water each. Does produce byproducts.
-- Simple Washer - Washes crushed ores and impure dusts with 100L of water each. Does not produce byproducts.
+- 洗矿机 - 每个破碎矿石使用200L水进行洗涤。会产生副产物。
+- 简易洗矿池 - 每个破碎矿石或不纯粉使用100L水进行洗涤。不会产生副产物。

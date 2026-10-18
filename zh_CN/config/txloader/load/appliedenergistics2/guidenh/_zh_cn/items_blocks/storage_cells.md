@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Storage Cells
+  title: 存储元件
   icon: appliedenergistics2:item.ItemBasicStorageCell.1k
 categories:
 - tools
@@ -92,7 +92,7 @@ item_ids:
 - ae2fc:creative_fluid_storage
 ---
 
-# Storage Cells
+# 存储元件
 
 <Column>
   <Row>
@@ -132,17 +132,17 @@ item_ids:
   </Row>
 </Column>
 
-Storage Cells are one of the primary storage methods in Applied Energistics 2. They can be installed in a <ItemLink id="appliedenergistics2:tile.BlockDrive" /> or a <ItemLink id="appliedenergistics2:tile.BlockChest" />.
+存储元件是应用能源2中的主要存储方式之一，需放入<ItemLink id="appliedenergistics2:tile.BlockDrive" />（ME驱动器）或<ItemLink id="appliedenergistics2:tile.BlockChest" />（ME箱子）中使用。
 
-See [Bytes and Types](../ae2_mechanics/bytes_and_types.md) for an explanation of their capacities in bytes and types.
+关于存储容量的“字节与类型”机制，详见[字节与类型](../ae2_mechanics/bytes_and_types.md)。
 
-If a Storage Cell is empty, hold it in your hand and Shift + Right-click to remove the storage component from its housing.
+若元件为空，手持时按下Shift+右键即可将存储组件从外壳中取出。
 
-## Storage Capacity with Varying Type Count
+## 不同类型数量下的存储容量
 
-The [upfront cost of types](../ae2_mechanics/bytes_and_types.md) is such that a cell holding 1 type can hold 2x as much as a cell with all 63 types in use.
+由于[类型预占机制](../ae2_mechanics/bytes_and_types.md)，存储1种类型的元件容量是存满63种类型时的2倍。
 
-| Storage Cell | Total Capacity of Cell With 1 Type In Use | Total Capacity of Cell With Maximum Types In Use |
+| 存储元件 | 使用1种类型时的总容量 | 使用最大类型数（63种）时的总容量 |
 | --- | ---: | ---: |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" scale="4" />            |       8,128 |      4,160 |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="4" />            |      32,512 |     16,640 |
@@ -159,7 +159,7 @@ The [upfront cost of types](../ae2_mechanics/bytes_and_types.md) is such that a 
 
 ---
 
-| Fluid Storage Cell | Total Capacity (mB) with 1 Type in Use | Total Capacity (mB) with Maximum Types in Use |
+| 流体存储元件 | 使用1种类型时的总容量（mB） | 使用最大类型数时的总容量（mB） |
 | --- | ---: | ---: |
 | <ItemLink id="ae2fc:fluid_storage1" scale="4" />            |      2,080,768 |      2,015,232 |
 | <ItemLink id="ae2fc:fluid_storage4" scale="4" />            |      8,372,224 |      8,060,928 |
@@ -175,7 +175,7 @@ The [upfront cost of types](../ae2_mechanics/bytes_and_types.md) is such that a 
 
 ---
 
-| Essentia Storage Cell | Types | Total Essentia Capacity (No Type Overhead) |
+| 源质存储元件 | 类型数 | 源质总容量（不含类型开销） |
 | --- | ---: | ---: |
 | <ItemLink id="thaumicenergistics:storage.essentia" scale="4" />   | 12 |      2,048 |
 | <ItemLink id="thaumicenergistics:storage.essentia:1" scale="4" /> | 12 |      8,192 |
@@ -187,70 +187,49 @@ The [upfront cost of types](../ae2_mechanics/bytes_and_types.md) is such that a 
 | <ItemLink id="thaumicenergistics:storage.essentia:8" scale="4" /> | 60 | 33,554,432 |
 | <ItemLink id="thaumicenergistics:storage.essentia:9" scale="4" /> |  1 |       268M |
 
-## Partitioning
+## 分区过滤
 
-Cells can be filtered to accept only certain items, similar to the filtering on an <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />. This is done in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
+元件可设置为只接受特定物品，类似于<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />（存储总线）的过滤功能。此操作在<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />（元件工作台）中进行。
 
-Cells also support cell restrictions, allowing both the maximum byte capacity and the type count to be limited below their normal values.
+元件还支持元件限制功能，允许将最大字节容量和类型数量限制到低于其正常值。
 
-These settings are configured in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
+这些设置均在<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />（元件工作台）中配置。
 
-Items can be dragged into the slots from NEI even if you don't actually have any of that item.
+即使当前没有实际持有某件物品，也可以从NEI将它拖入槽位。
 
-## Upgrades
-Storage cells support the following upgrades, inserted via a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />:
+## 升级卡支持
+存储元件支持以下升级卡，可通过<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />（元件工作台）安装：
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> (not available on fluid cells) lets the cell be partitioned by damage level and/or ignore item NBT
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> switches the filter from a whitelist to a blacklist
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" /> allocates the same amount of cell byte space to each type, so one type cannot fill up the entire cell
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> voids items inserted if the cell is full (or that specific type's allocated space in the case of an equal distribution card), useful for stopping farms from backing up. Be careful to partition this!
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" /> allows filtering using Ore Dictionary and supports regular expression matching
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:64" /> (Only functions when partitioning is enabled) designates a preferred storage location for specific items or fluids. Marked items and fluids will only be stored in cells containing a Sticky Card instead of other available storage on the network
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" />（流体元件不可用）：支持按耐久度等级分区和/或忽略物品NBT
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />：将过滤模式从白名单切换为黑名单
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" />：为每种类型分配等量的元件字节空间，避免单一类型占满整个元件
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />：当元件已满时销毁存入的物品（若使用均分卡，则在该类型所分配的空间已满时销毁），可避免农场产出积压堵塞。设置分区时请务必小心！
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" />：允许使用矿物辞典进行过滤，并支持正则表达式匹配
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:64" />（仅在启用分区时生效）：为特定物品或流体指定首选存储位置。被标记的物品和流体只会存入装有黏性卡的元件，而不会存入网络上的其他可用存储
 
-# Housings
+# 元件外壳
 
-Most storage cells are assembled from a Storage Component and a corresponding Housing. Different capacities and storage types require different housings. Certain special storage cells are crafted directly and do not require housings.
+大多数存储元件由存储组件和对应的外壳组装而成。不同的容量和存储类型需要不同的外壳。某些特殊存储元件可直接合成，无需外壳。
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:39" /> used for crafting 1k – 64k Item Storage Cells
-<br> <RecipesFor id="appliedenergistics2:item.ItemBasicStorageCell.1k" output="appliedenergistics2:item.ItemBasicStorageCell.1k" />
-<br> Housings by themselves are crafted like so:
-<br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:39" limit="3" />
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:39" /> 用于合成1k – 64k物品存储元件<br> <RecipesFor id="appliedenergistics2:item.ItemBasicStorageCell.1k" output="appliedenergistics2:item.ItemBasicStorageCell.1k" /><br> 单独合成外壳的配方如下：<br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:39" limit="3" />
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:61" /> used for crafting 256k – 16384k Item Storage Cells
-<br> <RecipesFor id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" output="appliedenergistics2:item.ItemAdvancedStorageCell.256k" />
-<br> Housings by themselves are crafted like so:
-<br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:61" />
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:61" /> 用于合成256k – 16384k物品存储元件<br> <RecipesFor id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" output="appliedenergistics2:item.ItemAdvancedStorageCell.256k" /><br> 单独合成外壳的配方如下：<br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:61" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing" /> used for crafting 1k – 64k Fluid Storage Cells
-<br> <RecipesFor id="ae2fc:fluid_storage1" output="ae2fc:fluid_storage1"/>
-<br> Housings by themselves are crafted like so:
-<br> <RecipesFor id="ae2fc:fluid_storage_housing" handlerId="gt.recipe.assembler" />
+*   <ItemLink id="ae2fc:fluid_storage_housing" /> 用于合成1k – 64k流体存储元件<br> <RecipesFor id="ae2fc:fluid_storage1" output="ae2fc:fluid_storage1"/><br> 单独合成外壳的配方如下：<br> <RecipesFor id="ae2fc:fluid_storage_housing" handlerId="gt.recipe.assembler" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:1" /> used for crafting 256k – 16384k Fluid Storage Cells
-<br> <RecipesFor id="ae2fc:fluid_storage256" output="ae2fc:fluid_storage256"/>
-<br> Housings by themselves are crafted like so:
-<br> <RecipesFor id="ae2fc:fluid_storage_housing:1" />
+*   <ItemLink id="ae2fc:fluid_storage_housing:1" /> 用于合成256k – 16384k流体存储元件<br> <RecipesFor id="ae2fc:fluid_storage256" output="ae2fc:fluid_storage256"/><br> 单独合成外壳的配方如下：<br> <RecipesFor id="ae2fc:fluid_storage_housing:1" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:2" /> used for crafting 1k – 64k Multi-Fluid Storage Cells
-<br> <RecipesFor id="ae2fc:multi_fluid_storage1" output="ae2fc:multi_fluid_storage1" />
-<br> Housings by themselves are crafted like so:
-<br> <RecipesFor id="ae2fc:fluid_storage_housing:2" />
+*   <ItemLink id="ae2fc:fluid_storage_housing:2" /> 用于合成1k – 64k多流体存储元件<br> <RecipesFor id="ae2fc:multi_fluid_storage1" output="ae2fc:multi_fluid_storage1" /><br> 单独合成外壳的配方如下：<br> <RecipesFor id="ae2fc:fluid_storage_housing:2" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:3" /> used for crafting 256k – 16384k Multi-Fluid Storage Cells
-<br> <RecipesFor id="ae2fc:multi_fluid_storage256" output="ae2fc:multi_fluid_storage256" />
-<br> Housings by themselves are crafted like so:
-<br> <RecipesFor id="ae2fc:fluid_storage_housing:3" />
+*   <ItemLink id="ae2fc:fluid_storage_housing:3" /> 用于合成256k – 16384k多流体存储元件<br> <RecipesFor id="ae2fc:multi_fluid_storage256" output="ae2fc:multi_fluid_storage256" /><br> 单独合成外壳的配方如下：<br> <RecipesFor id="ae2fc:fluid_storage_housing:3" />
 
-*   <ItemLink id="thaumicenergistics:storage.casing" /> used for crafting Essentia Storage Cells
-<br> <RecipesFor id="thaumicenergistics:storage.essentia" output="thaumicenergistics:storage.essentia" />
-<br> Housings by themselves are crafted like so:
-<br> <RecipesFor id="thaumicenergistics:storage.casing" />
+*   <ItemLink id="thaumicenergistics:storage.casing" /> 用于合成源质存储元件<br> <RecipesFor id="thaumicenergistics:storage.essentia" output="thaumicenergistics:storage.essentia" /><br> 单独合成外壳的配方如下：<br> <RecipesFor id="thaumicenergistics:storage.casing" />
 
-# Storage Components
+# 存储组件
 
-Storage Components are the core of ME Storage Cells and determine their storage capacity.
+存储组件是ME存储元件的核心，决定其存储容量。
 
-Each tier increases storage capacity by a factor of four and requires four components of the previous tier to craft. They can also be manufactured directly in a Circuit Assembler.
+每一等级的存储容量都是上一级的4倍，且合成时需要4个前一级组件。它们也可以直接在电路组装机中制造。
 
 <Column>
   <Row>
@@ -274,9 +253,9 @@ Each tier increases storage capacity by a factor of four and requires four compo
   </Row>
 </Column>
 
-# Item Storage Cells
+# 物品存储元件
 
-Standard Item Storage Cells can hold up to 63 distinct types of items, and are available in all the standard capacities.
+标准物品存储元件最多可存储63种不同类型的物品，并提供所有标准容量等级。
 
 <Column>
   <Row>
@@ -300,28 +279,23 @@ Standard Item Storage Cells can hold up to 63 distinct types of items, and are a
   </Row>
 </Column>
 
-## Special Item Storage Cells
+## 特殊物品存储元件
 
-*   <ItemLink id="appliedenergistics2:item.ItemVoidStorageCell" /> can destroy all items stored within it
-<br><Recipe id="appliedenergistics2:item.ItemVoidStorageCell" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Container" /> can store only a single item type and provides 65,536 bytes of storage capacity
-<br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Container" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" /> can store only a single item type and provides 134,217,727 bytes of storage capacity
-<br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" /> can store only a single item type and provides 576,460,752,303,423,487 bytes of storage capacity
-<br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" /> can store up to 63 item types and provides 576,460,752,303,423,487 bytes of storage capacity
-<br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" />
+*   <ItemLink id="appliedenergistics2:item.ItemVoidStorageCell" /> 可销毁存储在其中的所有物品<br><Recipe id="appliedenergistics2:item.ItemVoidStorageCell" />
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Container" /> 只能存储单一物品类型，提供65,536字节的存储容量<br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Container" />
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" /> 只能存储单一物品类型，提供134,217,727字节的存储容量<br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" />
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" /> 只能存储单一物品类型，提供576,460,752,303,423,487字节的存储容量<br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" />
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" /> 最多可存储63种物品类型，提供576,460,752,303,423,487字节的存储容量<br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" />
 
-## Portable Item Storage
+## 便携式物品存储
 
-Portable cells act like a tiny <ItemLink id="appliedenergistics2:tile.BlockChest" /> you can carry with you, similar to a backpack.
+便携元件相当于一个可随身携带的小型<ItemLink id="appliedenergistics2:tile.BlockChest" />，类似于背包。
 
-They can be charged in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
+可在<ItemLink id="appliedenergistics2:tile.BlockCharger" />（充能器）中充电。
 
-Unlike standard Storage Cells, they can store only 27 item types and have a total capacity of 512 bytes.
+与标准存储元件不同，便携元件只能存储27种物品类型，总容量为512字节。
 
-They support only the following upgrade cards:
+它们仅支持以下升级卡：
 
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" />
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />
@@ -330,65 +304,57 @@ They support only the following upgrade cards:
 
 <RecipesFor id="appliedenergistics2:item.ToolPortableCell" />
 
-# Fluid Storage Components
+# 流体存储组件
 
-Fluid Storage Components are the core of ME Fluid Storage Cells and determine their storage capacity.
+流体存储组件是ME流体存储元件的核心，决定其存储容量。
 
-Each tier increases capacity by a factor of four and requires four components of the previous tier to craft. They can also be manufactured directly in a Circuit Assembler.
+每一等级的容量都是上一级的4倍，且合成时需要4个前一级组件。它们也可以直接在电路组装机中制造。
 
-# Fluid Storage Cells
+# 流体存储元件
 
-Standard Fluid Storage Cells are divided into two categories:
+标准流体存储元件分为两类：
 
-Fluid Storage Cells can store only one fluid type.
+流体存储元件只能存储1种流体类型。
 
-Multi-Fluid Storage Cells can store up to five fluid types.
+多流体存储元件最多可存储5种流体类型。
 
-Both are available in all standard capacity tiers.
+两者均提供所有标准容量等级。
 
-## Special Fluid Storage Cells
+## 特殊流体存储元件
 
-*   <ItemLink id="ae2fc:fluid_storage.void" /> can destroy all stored fluids
-<br><Recipe id="ae2fc:fluid_storage.void" />
-*   <ItemLink id="ae2fc:fluid_storage.infinity.water" /> can provide an unlimited supply of water, up to 4,503,599,627,370,495 mB of water
-<br><Recipe id="ae2fc:fluid_storage.infinity.water" />
-*   <ItemLink id="ae2fc:fluid_storage.quantum" /> can store only a single fluid type and provides 134,217,727 bytes of storage capacity
-<br><Recipe id="ae2fc:fluid_storage.quantum" />
-*   <ItemLink id="ae2fc:fluid_storage.singularity" /> can store only a single fluid type and provides 2,251,799,813,685,247 bytes of storage capacity
-<br><Recipe id="ae2fc:fluid_storage.singularity" />
-*   <ItemLink id="ae2fc:fluid_storage.Universe" /> can store up to 63 fluid types and provides 4,503,599,627,370,495 bytes of storage capacity
-<br><Recipe id="ae2fc:fluid_storage.Universe" />
+*   <ItemLink id="ae2fc:fluid_storage.void" /> 可销毁其中存储的所有流体<br><Recipe id="ae2fc:fluid_storage.void" />
+*   <ItemLink id="ae2fc:fluid_storage.infinity.water" /> 可无限量地提供水，最多可达4,503,599,627,370,495 mB<br><Recipe id="ae2fc:fluid_storage.infinity.water" />
+*   <ItemLink id="ae2fc:fluid_storage.quantum" /> 只能存储单一类型的流体，提供134,217,727字节的存储容量<br><Recipe id="ae2fc:fluid_storage.quantum" />
+*   <ItemLink id="ae2fc:fluid_storage.singularity" /> 只能存储单一类型的流体，提供2,251,799,813,685,247字节的存储容量<br><Recipe id="ae2fc:fluid_storage.singularity" />
+*   <ItemLink id="ae2fc:fluid_storage.Universe" /> 最多可存储63种流体类型，提供4,503,599,627,370,495字节的存储容量<br><Recipe id="ae2fc:fluid_storage.Universe" />
 
-## Portable Fluid Storage Cell
+## 便携式流体存储
 
-Portable Fluid Storage Cells can store up to five fluid types and have a total capacity of 256 bytes.
+便携式流体存储元件最多可存储5种流体类型，总容量为256字节。
 
-They do not support any upgrade cards.
+它们不支持任何升级卡。
 
 <RecipesFor id="ae2fc:portable_fluid_cell" />
 
-# Essentia Storage Components
+# 源质存储组件
 
-Essentia Storage Components are the core of ME Essentia Storage Cells and determine their storage capacity.
+源质存储组件是ME源质存储元件的核心，决定其存储容量。
 
-Each tier increases capacity by a factor of four and requires four components of the previous tier to craft. They can also be manufactured directly in a Circuit Assembler.
+每一等级的容量都是上一级的4倍，且合成时需要4个前一级组件。它们也可以直接在电路组装机中制造。
 
-# Essentia Storage Cells
+# 源质存储元件
 
-1k - 64k Essentia Storage Cells support 12 Essentia types.
+1k - 64k源质存储元件支持12种源质类型。
 
-Starting at 256k, each tier increases the supported Essentia type count by 12.
+从256k开始，每一等级支持的源质类型数量增加12种。
 
-## Special Essentia Storage Cells
+## 特殊源质存储元件
 
-*   <ItemLink id="thaumicenergistics:storage.essentia:9" /> can store only a single Essentia type and provides 134,217,727 bytes of storage capacity
-<br><Recipe id="thaumicenergistics:storage.essentia:9" />
-*   <ItemLink id="thaumicenergistics:storage.essentia:10" /> can store only a single Essentia type and provides 2,305,843,009,213,693,951 bytes of storage capacity
-<br><Recipe id="thaumicenergistics:storage.essentia:10" />
-*   <ItemLink id="thaumicenergistics:storage.essentia:4" /> can provide infinite amounts of every Essentia type, up to 4,503,599,627,370,495 units per type
-<br><Recipe id="thaumicenergistics:storage.essentia:4" />
+*   <ItemLink id="thaumicenergistics:storage.essentia:9" /> 只能存储单一类型的源质，提供134,217,727字节的存储容量<br><Recipe id="thaumicenergistics:storage.essentia:9" />
+*   <ItemLink id="thaumicenergistics:storage.essentia:10" /> 只能存储单一类型的源质，提供2,305,843,009,213,693,951字节的存储容量<br><Recipe id="thaumicenergistics:storage.essentia:10" />
+*   <ItemLink id="thaumicenergistics:storage.essentia:4" /> 可无限量提供所有类型的源质，每种类型最多4,503,599,627,370,495单位<br><Recipe id="thaumicenergistics:storage.essentia:4" />
 
-# Creative Storage Cells
+# 创造存储元件
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemCreativeStorageCell" scale="2" />
@@ -396,4 +362,4 @@ Starting at 256k, each tier increases the supported Essentia type count by 12.
   <ItemImage id="ae2fc:creative_fluid_storage" scale="2" />
 </Row>
 
-Creative cells **do not provide infinite storage**. Instead, they act as infinite sources and sinks for whatever item or fluid you [partition](cell_workbench.md) them to, up to 4,503,599,627,370,495 units.
+创造存储元件**不提供无限存储**，而是对你[分区](cell_workbench.md)给它们的任意物品或流体充当无限的源与吸收池，最多4,503,599,627,370,495单位。

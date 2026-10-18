@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Spatial Storage Cells
+  title: 空间存储元件
   icon: appliedenergistics2:item.ItemSpatialStorageCell.2Cubed
 categories:
 - tools
@@ -19,8 +19,8 @@ item_ids:
 <ItemImage id="appliedenergistics2:item.ItemSpatialStorageCell.128Cubed" scale="4"/>
 </Row>
 
-Spatial Storage Cells are the storage medium used by the [Spatial IO system](../ae2_mechanics/spatial_io.md). When the system runs, the volume of the selected area must be less than or equal to the capacity of the Spatial Storage Cell being used. There are three tiers of Spatial Storage Cell, with capacities of 2, 16, and 128 cubic meters.
+空间存储元件是[空间IO系统](../ae2_mechanics/spatial_io.md)所使用的存储介质。系统运行时，所选区域的体积必须小于或等于所用空间存储元件的容量。空间存储元件共有三种规格，容量分别为2、16和128立方米。
 
-Internally, a Spatial Storage Cell is effectively a separate dimension. A Spatial Pylon setup works by swapping the entire selected region with an equally sized region inside the cell. The first time you use a new Spatial Storage Cell, it creates a dimension matching its internal size. In practice, you can think of each fresh Spatial Storage Cell as being filled with air blocks. The first spatial transfer swaps that air-filled region back out into the world.
+从内部来看，空间存储元件实质上是一个独立的维度。空间塔装置的工作原理，是将整个选定区域与元件内部等大小的区域进行交换。首次使用新的空间存储元件时，它会创建一个与自身内部大小相匹配的维度。实际上，你可以把每个全新的空间存储元件想象成内部充满空气方块的维度。第一次空间传送会把那片充满空气的区域交换回世界之中。
 
-<Color id="RED">Once a Spatial Storage Cell has been used, you cannot reset, reformat, or resize it. If you want a different size, craft a new cell.</Color>
+<Color id="RED">空间存储元件一经使用，便无法重置、重设或调整大小。如需不同的尺寸，请制作新元件。</Color>

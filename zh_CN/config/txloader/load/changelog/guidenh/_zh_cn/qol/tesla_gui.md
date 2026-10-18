@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Tesla Tower GUI
+  title: 特斯拉电塔 GUI
   parent: qol.md
   icon: gregtech:gt.blockmachines:15314
 categories:
@@ -9,12 +9,12 @@ author: Skorched
 date: 2026-05-25
 ---
 
-# Tesla Tower GUI
-The <Color id="GREEN">Tesla Tower</Color> now comes with a super helpful GUI with lots of features!
-- New panel for managing all of your parameters
-- Real-time load bar to show current throughput
-- Configurable load-over-time chart
-- Heat map for locating your biggest Tesla consumers
+# 特斯拉电塔 GUI
+<Color id="GREEN">特斯拉电塔</Color>现在配备了一个功能繁多、非常实用的 GUI！
+- 用于管理你所有参数的全新面板
+- 实时负载条，显示当前吞吐量
+- 可配置的负载随时间变化图表
+- 热力图，帮你找出耗电最多的特斯拉用电设备
 
-The GUI has far too many different points to show in detail here, so go and experiment!
+GUI 里的功能点实在太多，无法在此一一详述，快去亲自实验吧！
 

@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15537
 navigation:
-  title: Large Naquadah Reactor
+  title: 大型硅岩反应堆
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15537
 categories:
@@ -11,66 +11,66 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Large Naquadah Reactor
+# 大型硅岩反应堆
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15537"/>
 </GameScene>
-The <Color id="GREEN">Large Naquadah Reactor (LNR)</Color> is a ZPM tier multiblock for generating power from naquadah based liquid fuels. The <Color id="GREEN">LNR</Color> converts the fuel into EU directly, does not have a warm-up period, and does not use turbines. The only challenge is meeting the input requirements: There can only be ONE type of fuel in the input hatches at any given time and the <Color id="GREEN">LNR</Color> must be supplied with 2,400 L/s of liquid air to output power. Optionally, supply a coolant to increase the efficiency of the machine and/or an excited liquid to increase the overall throughput of the machine. A single <Color id="GREEN">LNR</Color> can generate up to 665B EU/t (with the highest tier liquids) which means it scales very well into the higher voltage tiers. The <Color id="GREEN">LNR</Color> is superseded by the Dyson Swarm Ground Unit <ItemImage id="gregtech:gt.blockmachines:14001"/> or Semi-Stable Antimatter Stabilization Sequencer (SSASS) <ItemImage id="gregtech:gt.blockmachines:32027"/>.
+<Color id="GREEN">大型硅岩反应堆（LNR）</Color>是一个 ZPM 等级的多方块结构，用于利用硅岩系液态燃料发电。<Color id="GREEN">LNR</Color> 直接将燃料转化为 EU，没有预热阶段，也不使用涡轮。唯一的挑战在于满足输入要求：同一时间输入仓中只能有唯一一种燃料，且必须向 <Color id="GREEN">LNR</Color> 供应 2,400 L/s 的液态空气才能输出电力。可选地，可以供应冷却液来提高机器的效率，和/或供应激发液来提高机器的整体处理量。单台 <Color id="GREEN">LNR</Color> 最高可产出 665B EU/t（使用最高等级的液体时），这意味着它在更高电压等级下扩展性极佳。<Color id="GREEN">LNR</Color> 已被戴森云地面单元 <ItemImage id="gregtech:gt.blockmachines:14001"/> 或半稳定反物质稳定序列器（SSASS）<ItemImage id="gregtech:gt.blockmachines:32027"/> 取代。
 
-The first two tiers of naquadah based liquid fuel (naq fuel) are crafted in the Fusion Reactor and Large Chemical Reactor, respectively. The remaining four tiers are all crafted in the [Naquadah Fuel Refinery](./naq_refinery.md) which uses advanced field restriction coils to unlock new recipes. The Mk-V fuel is also used to craft star fuel and the depleted Mk-V and Mk-VI fuels are used by the SSASS for activation stabilization. The Neutron Activator <ItemImage id="gregtech:gt.blockmachines:32013"/> can significantly accelerate the decay of naq fuel, but does not generate any power.
+前两个等级的硅岩系液态燃料（naq 燃料）分别在核聚变反应堆和大型化学反应釜中合成。其余四个等级均在[硅岩燃料精炼厂](./naq_refinery.md)中合成，该多方块使用高级力场约束线圈来解锁新配方。Mk-V 燃料还用于合成恒星燃料（star fuel），而耗尽的 Mk-V 与 Mk-VI 燃料则由 SSASS 用于激活稳定化。中子活化器 <ItemImage id="gregtech:gt.blockmachines:32013"/> 可以显著加速 naq 燃料的衰变，但不产生任何电力。
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
+[GTNH 电力规划器](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure of this multiblock has changed, the mechanics stay the same
+> 该多方块只有结构发生了变化，机制保持不变
 
-## Construction
-The <Color id="GREEN">LNR</Color> has no tiered components. Buses/hatches may replace any naquadah reactor casing anywhere on the structure. A stocking input hatch is highly recommended to hold the four different input fluids. Multi-amp and laser dynamo hatches are supported for serious power generation, but there cannot be more than one. The <Color id="GREEN">LNR</Color> shuts down if the dynamo hatch cannot support 100% of the current power output so it is practically mandatory to use a high-amp laser dynamo hatch. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+## 建造
+<Color id="GREEN">LNR</Color> 没有分级组件。总线/仓可以替换结构上任意位置的硅岩反应堆机械方块。强烈建议使用一个存储输入仓（ME）来容纳四种不同的输入流体。支持多安培动力仓与激光动力仓以进行大规模发电，但最多只能有一个。如果动力仓无法承载当前电力输出的 100%，<Color id="GREEN">LNR</Color> 就会停机，因此实际上必须使用高安培激光动力仓。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
 
-### Requires:
+### 所需方块：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15537"/><ItemImage id="gregtech:gt.blockmachines:15537"/>
 - 130-141 <ItemLink id="gregtech:gt.blockcasings13:15"/><ItemImage id="gregtech:gt.blockcasings13:15"/>
 - 81 <ItemLink id="GoodGenerator:MAR_Casing"/><ItemImage id="GoodGenerator:MAR_Casing"/>
 - 32 <ItemLink id="GoodGenerator:radiationProtectionSteelFrame"/><ItemImage id="GoodGenerator:radiationProtectionSteelFrame"/>
-- 1 Dynamo Hatch (any reactor casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 Maintenance Hatch (any reactor casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 0+ Input Hatch (any reactor casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Hatch (any reactor casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1 个动力仓（任意反应堆机械方块）<ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 个维护仓（任意反应堆机械方块）<ItemImage id="gregtech:gt.blockmachines:90" />
+- 0+ 输入仓（任意反应堆机械方块）<ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 输出仓（任意反应堆机械方块）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
+### 共墙
 <FloatingImage src="../assets/reworks/lnr_wallshare.png" displayWidth="128" align="right">
   <ImageAnnotation>
-    An example of a dual wallshared reactor
+    双反应堆共墙的示例
   </ImageAnnotation>
 </FloatingImage>
-<Color id="GREEN">LNR</Color> may wallshare each of their sides or the sphere at the center of the structure to save on casings, frame boxes, and buses/hatches. That includes the laser dynamo hatch if it has enough throughput to support 2-4 machines simultaneously. The image above depicts two machines, but a third could be placed on the remaining axis if preferred (requires a laser mirror). 
+<Color id="GREEN">LNR</Color> 可以共用各自的侧面或结构中央的球形部分，以节省机械方块、铅青铜框架以及总线/仓的数量。如果激光动力仓的通量足以同时支持 2-4 台机器，激光动力仓也可以共用。上图展示的是两台机器，如有需要，还可以在剩余的轴上放置第三台（需要激光反射镜）。
 
-## Usage
-Compared to other generator multiblocks, the <Color id="GREEN">LNR</Color> is very simple to use. The <Color id="GREEN">LNR</Color> converts the fuel into EU directly, does not have a warm-up period, and does not use turbines. The only challenge is meeting the following input requirements:
+## 使用方法
+与其他发电多方块结构相比，<Color id="GREEN">LNR</Color> 的使用非常简单。<Color id="GREEN">LNR</Color> 直接将燃料转化为 EU，没有预热阶段，也不使用涡轮。唯一的挑战在于满足以下输入要求：
 
-- There can only be ONE type of fuel in the input hatches at any given time, or else the machine EXPLODES.
-- The <Color id="GREEN">LNR</Color> must be supplied with 2,400 L/s of liquid air to output power, or else the fuel is voided.
-- The dynamo hatch must be large enough to support 100% of the current power output, or else the machine shuts down.
+- 同一时间输入仓中只能有唯一一种燃料，否则机器会爆炸。
+- 必须向 <Color id="GREEN">LNR</Color> 供应 2,400 L/s 的液态空气才能输出电力，否则燃料会被直接销毁。
+- 动力仓必须大到足以承载当前电力输出的 100%，否则机器会停机。
 
-## Coolant
-Optionally, a coolant can be provided to increase the efficiency of the <Color id="GREEN">LNR</Color>. Each of the following fluids multiplies the current EU/t without increasing the fuel consumption rate or reducing the length of the recipe. Coolant is strictly a benefit to the machine. There cannot be more than one type of coolant since they do not stack. 
+## 冷却液
+可选地，可以提供冷却液来提高 <Color id="GREEN">LNR</Color> 的效率。下列每种流体都会使当前 EU/t 乘以一个倍率，同时不会增加燃料消耗速率，也不会缩短配方时长。冷却液对机器只有好处。冷却液只能使用一种，因为它们无法叠加。
 
-| Coolant | Efficiency | Amount |
+| 冷却液 | 效率 | 用量 |
 | --------------- | --------------- | --------------- |
-| IC2 Coolant | 105% | 1,000 L/s |
-| Super Coolant | 150% | 1,000 L/s |
-| Cryotheum | 275% | 1,000 L/s |
-| Tachyon Rich Temporal Fluid | 500% | 20 L/s |
+| IC2 冷却液 | 105% | 1,000 L/s |
+| 超级冷却液 | 150% | 1,000 L/s |
+| 极寒之凛冰 | 275% | 1,000 L/s |
+| 富快子时间流体 | 500% | 20 L/s |
 
-## Booster
-Optionally, a booster can be provided to increase the throughput of the <Color id="GREEN">LNR</Color>. Each of the following fluids multiplies the current EU/t and the amount of fuel consumed, similar to parallels. This does not increase the oxygen or coolant consumption. Boosters strictly save on spamming additional machines. There cannot be more than one type of booster since they do not stack. 
+## 增幅剂
+可选地，可以提供增幅剂（Booster）来提高 <Color id="GREEN">LNR</Color> 的处理量。下列每种流体都会使当前 EU/t 与燃料消耗量乘以一个倍率，效果类似于并行。这不会增加氧气或冷却液的消耗。增幅剂纯粹能省去多铺几台机器的功夫。增幅剂只能使用一种，因为它们无法叠加。
 
-| Booster | Multiplier | Amount |
+| 增幅剂 | 倍率 | 用量 |
 | --------------- | --------------- | --------------- |
-| Molten Caesium | 2x | 180 L/s |
-| Molten Uranium-235 | 3x | 180 L/s |
-| Molten Naquadah | 4x | 20 L/s |
-| Molten Atomic Separation Catalyst | 16x | 20 L/s |
-| Spatially Enlarged Fluid | 64x | 20 L/s |
+| 熔融铯 | 2x | 180 L/s |
+| 熔融铀-235 | 3x | 180 L/s |
+| 熔融硅岩 | 4x | 20 L/s |
+| 熔融原子分离催化剂 | 16x | 20 L/s |
+| 扩大化空间流体 | 64x | 20 L/s |

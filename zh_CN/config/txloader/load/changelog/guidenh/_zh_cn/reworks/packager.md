@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15513
 navigation:
-  title: Amazon Warehousing Depot
+  title: 亚马逊仓库
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15513
 categories:
@@ -11,51 +11,51 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Amazon Warehousing Depot
+# 亚马逊仓库
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15513"/>
 </GameScene>
-The <Color id="GREEN">Amazon Warehousing Depot (AWD)</Color> is an IV tier multiblock for packaging and unpackaging various items. It is a direct upgrade from the singleblock packager, running up to <Color id="GREEN">900%</Color> speed, only using <Color id="RED">75%</Color> of the EU/t normally required, and offering <Color color="#ed6401">16</Color> parallels.
+<Color id="GREEN">亚马逊仓库（AWD）</Color>是一个IV级多方块结构，用于打包和解包各种物品。它是单方块打包机的直接升级版，最高能以<Color id="GREEN">900%</Color>的速度运行，只消耗正常所需的<Color id="RED">75%</Color> EU/t，并提供<Color color="#ed6401">16</Color>并行。
 
-The <Color id="GREEN">AWD</Color> can process both packaging and unpackaging recipes, and is across the board __much__ faster than its single predecessor.
+<Color id="GREEN">AWD</Color>可以同时处理打包和解包配方，并且在各方面都比它的单方块前身__快得多__。
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Tiered Speed: Recipe speed now depends on item pipe casing tier from 200-900% (old max was 600%)
+> 这个多方块结构做了以下改动（结构本身除外）：
+> - 分级速度：配方速度现在取决于物品管道方块等级，为200-900%（旧上限为600%）
 
-## Construction
-The <Color id="GREEN">AWD</Color> has one tiered component. The item pipe casings determine the speed bonus of the machine. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches </Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure with subchannels "item_pipe" and "glass" to specify the tier of those components.
+## 建造
+<Color id="GREEN">AWD</Color>有一个分级组件。物品管道方块决定机器的速度增益。玻璃可以是任意等级，对机器的运行没有影响。总线/仓可以替换结构中任意位置的机械方块。<Color id="RED">多A能源仓和激光能源仓 </Color>不受支持，但可以放置多个普通能源仓来超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来可视化/搭建结构，并通过子通道 "item_pipe" 和 "glass" 指定这些组件的等级。
 
-### Requires:
+### 需要：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15513" /> <ItemImage id="gregtech:gt.blockmachines:15513" />
 - 4-15 <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" /> <ItemImage id="miscutils:gtplusplus.blockcasings.3:9" />
-- 3 Item Pipe Casing <ItemImage id="gregtech:gt.blockcasings11:5" />
-- 3 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 3 物品管道方块 <ItemImage id="gregtech:gt.blockcasings11:5" />
+- 3 等级玻璃（任意） <ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 2 <ItemLink id="gregtech:gt.blockframes:32" /> <ItemImage id="gregtech:gt.blockframes:32" />
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing:
-<Color id="GREEN">AWDs</Color> may wallshare each of their sides to save on casings, frameboxes, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### 共墙：
+<Color id="GREEN">AWD</Color>的每一侧都可以与其他机器共墙，以节省机械方块、铅青铜框架和总线/仓。没有配方会消耗超过1A的电力，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
-## Usage
-The <Color id="GREEN">AWD</Color> is a direct upgrade from the singleblock packager and unpackager because it can process both types of recipes, runs up to <Color id="GREEN">900%</Color> speed, only uses <Color id="RED">75%</Color> of the EU/t normally required, and offers <Color color="#ed6401">16</Color> parallels per voltage tier, as seen in the following tables.
-| Tier | Item Pipe Casing | Speed |
+## 用途
+<Color id="GREEN">AWD</Color>是单方块打包机和解包机的直接升级版，因为它能处理这两种配方，最高能以<Color id="GREEN">900%</Color>的速度运行，只消耗正常所需的<Color id="RED">75%</Color> EU/t，并按电压等级提供<Color color="#ed6401">16</Color>并行，如下表所示。
+| 等级 | 物品管道方块 | 速度 |
 | --------------- | --------------- | --------------- |
-| 1 | Tin | 200% |
-| 2 | Brass | 300% |
-| 3 | Electrum | 400% |
-| 4 | Platinum | 500% |
-| 5 | Osmium | 600% |
-| 6 | Quantium | 700% |
-| 7 | Fluxed Electrum | 800% |
-| 8 | Black Plutonium | 900% |
+| 1 | 锡 | 200% |
+| 2 | 黄铜 | 300% |
+| 3 | 琥珀金 | 400% |
+| 4 | 铂 | 500% |
+| 5 | 锇 | 600% |
+| 6 | 量子 | 700% |
+| 7 | 通流琥珀金 | 800% |
+| 8 | 黑钚 | 900% |
 
 ----------
 

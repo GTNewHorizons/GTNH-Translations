@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15527
 navigation:
-  title: Large Gas Turbine
+  title: 大型燃气涡轮
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15527
 categories:
@@ -11,87 +11,87 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Large Gas Turbine
+# 大型燃气涡轮
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15527"/>
 </GameScene>
-The <Color id="GREEN">Large Gas Turbine (LGT)</Color> is an EV tier multiblock for generating power from gas. The <Color id="GREEN">Large Gas Turbine</Color> is a direct upgrade from the singleblock gas turbines because it outputs up to 4A of power with much higher efficiency. However, a turbine must be placed inside the controller for the machine to run, the input rate of fuel must be carefully regulated, and it must be running for at least 50 seconds to fully warm-up. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate (L/t). Power is extracted from a 4A dynamo hatch on the back of the structure as the gas turns into pollution. Breaking the dynamo hatch while the machine is running causes it to explode. Save on fuel by automatically toggling the LGT with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>.
+<Color id="GREEN">大型燃气涡轮（LGT）</Color>是一个 EV 等级的多方块结构，用于利用气体发电。<Color id="GREEN">大型燃气涡轮</Color>是单方块燃气轮机的直接升级版，因为它能以高得多的效率输出最多 4A 的电力。但是，机器要运转就必须在控制器内放入涡轮，燃料的输入速率必须仔细调控，而且机器至少要持续运转 50 秒才能完全预热。涡轮有四种不同的尺寸和许多不同的材质，每种都有自己的效率加成与最佳流速（L/t）。电力从结构背面的 4A 动力仓输出，同时气体会转化为污染。机器运行时拆掉动力仓会引发爆炸。用与兰波顿超级电容库 <ItemImage id="gregtech:gt.blockmachines:13106"/> 相连的 RS 锁存器自动启停 LGT，可以节省燃料。
 
-The <Color id="GREEN">LGT</Color> is superseded by the XL Turbo Gas Turbine which consumes as much gas and produces as much power as 16 <Color id="GREEN">LGT</Color>, but only requires 12 turbines. It also supports multi-amp and laser energy hatches for serious power generation. There is also the Solid-Oxide Fuel Cell which oxidizes gas to generate electricity without a turbine and without polluting the environment. However, it requires 100 L/s of oxygen during operation, is generally locked to 100% efficiency, does not support overflow, and does not have an XL variant. 
+<Color id="GREEN">LGT</Color> 已被特大燃气涡轮取代——后者消耗的气体与产出的电力相当于 16 台<Color id="GREEN">LGT</Color>，却只需要 12 台涡轮。它还支持多安培能源仓与激光能源仓，适合大规模发电。此外还有固体氧化物燃料电池，它无需涡轮即可将气体氧化发电，也不会污染环境。但它运行时需要 100 L/s 的氧气，效率通常锁定在 100%，不支持溢出，也没有 XL 变体。
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
+[GTNH 电力规划器](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure has changed, the mechanics of the multiblock are identical
+> 只有结构发生了变化，多方块结构的机制完全相同
 
-## Construction
-The <Color id="GREEN">LGT</Color> has no tiered components. The maintenance hatch, muffler hatch, input hatch, and output hatch may replace any turbine casing on the back half of the structure. The dynamo hatch is limited to the center casing on the very back of the structure and cannot be greater than 4A. The 9 blocks directly in front of the controller are mandatory air. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+## 建造
+<Color id="GREEN">LGT</Color> 没有分级组件。维护仓、消声仓、输入仓和输出仓可以替换结构后半部分的任意涡轮机械方块。动力仓只能放在结构最背面的中央机械方块上，且不能大于 4A。控制器正前方的 9 个方块必须是空气。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
 
-Unique to large turbines is the turbine housing which is effectively a ULV input bus for storing an extra turbine that automatically replaces the one inside the controller once it breaks. It is completely optional and gated to UV, but helps maximize runtime. 
+大型涡轮特有的部件是涡轮仓（turbine housing）：它实质上相当于一个 ULV 输入总线，用于存放一台备用涡轮，一旦控制器内的涡轮损坏，备用涡轮会自动替换上去。它完全是可选部件，且要 UV 等级才会解锁，但有助于最大化运行时间。
 
-### Requires:
+### 所需方块：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15527"/><ItemImage id="gregtech:gt.blockmachines:15527"/>
 - 14 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
 - 8-13 <ItemLink id="gregtech:gt.blockcasings4:10"/><ItemImage id="gregtech:gt.blockcasings4:10"/>
 - 12 <ItemLink id="gregtech:gt.blockcasings11"/><ItemImage id="gregtech:gt.blockcasings11"/>
-- 1 Dynamo Hatch (back center turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 Maintenance Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 个动力仓（背部中央的涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 个维护仓（背面任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:90" />
 - 0+ <ItemLink id="gregtech:gt.blockmachines:31025"/><ItemImage id="gregtech:gt.blockmachines:31025"/>
-- 0+ Input Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 0+ 输入仓（背面任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 输出仓（背面任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">LGTs</Color> may wallshare each of their sides to save on casings, frame boxes, and hatches. However, do NOT share the input hatch because the fuel is not split evenly between the <Color id="GREEN">LGTs</Color> -- one consumes everything and the other receives nothing. The restriction on the hatch locations make that difficult to accomplish anyway. 
+### 共墙
+多台 <Color id="GREEN">LGT</Color> 可以共用各自的侧面，以节省机械方块、铅青铜框架和仓的数量。但是，切勿共用输入仓，因为燃料不会在多台 <Color id="GREEN">LGT</Color> 之间平均分配——一台会消耗掉全部燃料，另一台则什么都得不到。何况仓位置的种种限制本来也让共墙难以实现。
 
-## Usage
-The <Color id="GREEN">LGT</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid game when gas production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
+## 使用方法
+<Color id="GREEN">LGT</Color> 有两种运行模式，列于下方；两者之间的量化差异请参见页面顶部链接的规划器。前者更适合气体产量较低的游戏前中期，后者更适合电力输出比效率更重要的游戏后期。用螺丝刀右键控制器即可切换模式。
 
-- Tight Fitting Mode - High efficiency, Low optimal flow rate (power).
-- Loose Fitting Mode - Low efficiency, High optimal flow rate (power).
+- 紧配模式（Tight Fitting Mode）- 高效率，低最佳流速（功率）。
+- 松配模式（Loose Fitting Mode）- 低效率，高最佳流速（功率）。
 
-The speed of the <Color id="GREEN">LGT</Color> increases linearly up to 100% while active and decreases back to 0% while inactive. Speed is directly proportional to the power output of the machine and takes 50 seconds to reach its maximum value regardless of the turbine size/material. Speed decays extremely fast when the <Color id="GREEN">LGT</Color> is disabled, the turbine is removed, the structure is broken, or fuel runs out. View the current speed of the turbine by using a Portable Scanner <ItemImage id="gregtech:gt.metaitem.01:32762"/> on the controller or looking at the "efficiency" value in WAILA. 
+<Color id="GREEN">LGT</Color> 运行时转速会线性升至 100%，停机时则逐渐回落到 0%。转速与机器的电力输出成正比，并且无论涡轮尺寸/材质如何，都需要 50 秒才能达到最大值。当 <Color id="GREEN">LGT</Color> 被停用、涡轮被取出、结构被破坏或燃料耗尽时，转速会极快地衰减。用便携式扫描仪 <ItemImage id="gregtech:gt.metaitem.01:32762"/> 对着控制器使用，或查看 WAILA 中显示的 "efficiency" 数值，即可了解涡轮当前转速。
 
-## Optimal Flow Rate
-The rate (L/t) at which gas enters the <Color id="GREEN">LGT</Color> is extremely important. Too little gas and only a fraction of the potential power is generated; too much gas and a tremendous quantity of fuel is wasted. Ideally, gas enters the <Color id="GREEN">LGT</Color> at the optimal flow rate of the turbine which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}$$) in L/t is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, EU/L is the density of the gas, and $$\eta_0$$ is the base efficiency of the turbine. 
+## 最佳流速
+气体进入 <Color id="GREEN">LGT</Color> 的速率（L/t）极其重要：气体太少，只能发出潜在电力的一小部分；气体太多，则会浪费数量惊人的燃料。理想情况下，气体应以涡轮的最佳流速进入 <Color id="GREEN">LGT</Color>，该流速会随尺寸/材质以及机器运行模式的变化而显著变化。虽然最佳流速（$$\dot{m}$$）（单位 L/t）可以在 NEI 中查到，但它由以下公式计算得出，其中 $$k$$ 是每种材质对应的乘数，size 是一个常数（1=小型，4=巨型），EU/L 是气体的密度，$$\eta_0$$ 是涡轮的基础效率。
 
 <Latex formula="\dot{m}^* \text{Tight} = k \times \text{size} \times 50 \div EU/L">
-  Where:
-  - $$\dot{m}^* =$$ Optimal Flow Rate
-  - $$k =$$ Material Multiplier
-  - size = Turbine size (1=small, 4=huge)
+  其中：
+  - $$\dot{m}^* =$$ 最佳流速
+  - $$k =$$ 材质乘数
+  - size = 涡轮尺寸（1=小型，4=巨型）
 </Latex>
 <Latex formula="\dot{m}^* \text{Loose} = k \times \text{size} \times 100 \div EU/L \times 1.05^{20(\eta_0 - 0.8)}">
-  Where:
-  - $$\dot{m}^* =$$ Optimal Flow Rate
-  - $$k =$$ Material Multiplier
-  - size = Turbine size (1=small, 4=huge)
-  - $$\eta_0 =$$ Base Efficiency
+  其中：
+  - $$\dot{m}^* =$$ 最佳流速
+  - $$k =$$ 材质乘数
+  - size = 涡轮尺寸（1=小型，4=巨型）
+  - $$\eta_0 =$$ 基础效率
 </Latex>
 
-The quicker and easier way to calculate the optimal flow rate in tight fitting mode is to divide the optimal gas EU/t (visible in NEI) by the density of the gas, and then divide the result by 2. Some have very low densities and thus very high optimal flow rates--especially if the <Color id="GREEN">LGT</Color> is in loose mode. The player may need to upgrade their fluid regulator or add a second input hatch to meet the increased demand. Eventually it becomes necessary to switch to AE2 fluid P2P tunnels which effectively have no transfer limit and no regard for temperature or heat capacity. 
+在紧配模式下，更快、更简便的最佳流速计算方法是：把气体的最佳 EU/t（可在 NEI 中查看）除以气体密度，再把结果除以 2。有些气体密度极低，因此最佳流速极高——<Color id="GREEN">LGT</Color> 处于松配模式时尤其如此。玩家可能需要升级流体调节器或加装第二个输入仓，才能满足更高的输入需求。最终会不可避免地需要改用 AE2 流体 P2P 管道，它实际上没有传输上限，也不受温度或热容的影响。
 
-## Power & Overflow
-The power generated by the <Color id="GREEN">LGT</Color> depends on the current flow rate ($$\dot{m}$$), the optimal flow rate ($$\dot{m}^*$$), and the efficiency of the turbine ($$\eta$$). Exceeding the optimal flow rate generates additional power with diminishing returns based on the overflow tier ($$T$$) of the turbine. There are only three overflow tiers in total and depends strictly on the material of the turbine. A higher overflow tier also increases the maximum flow rate ($$\dot{m}_{max}$$). View the overflow tier of a turbine through NEI and the current power output of the machine through WAILA.
+## 电力与溢出
+<Color id="GREEN">LGT</Color> 产生的电力取决于当前流速（$$\dot{m}$$）、最佳流速（$$\dot{m}^*$$）以及涡轮的效率（$$\eta$$）。超过最佳流速可以产生额外电力，但收益会根据涡轮的溢出等级（$$T$$）递减。溢出等级总共只有三级，且严格取决于涡轮的材质。更高的溢出等级也会提高最大流速（$$\dot{m}_{max}$$）。涡轮的溢出等级可通过 NEI 查看，机器的当前电力输出可通过 WAILA 查看。
 
-Power is extracted from a 4A dynamo hatch on the back of the structure. Do not break the dynamo hatch while the machine is running or else the <Color id="GREEN">LGT</Color> will explode. Exceeding the maximum EU/t or the total EU in the dynamo's buffer is perfectly safe; the <Color id="GREEN">LGT</Color> will not explode if an attached battery buffer or Lapotronic Supercapacitor (LSC) is full and there is nowhere for the EU to go. Any additional EU is simply voided. It is highly recommended to automatically toggle the <Color id="GREEN">LGT</Color> with a redstone RS latch to avoid wasting fuel.
+电力从结构背面的 4A 动力仓输出。机器运行时切勿拆掉动力仓，否则 <Color id="GREEN">LGT</Color> 会爆炸。超出动力仓缓冲的最大 EU/t 或总 EU 上限是完全安全的；如果所连接的电池箱或兰波顿超级电容库（LSC）已满、EU 无处可去，<Color id="GREEN">LGT</Color> 不会爆炸，多余的 EU 只会被直接销毁。强烈建议用红石 RS 锁存器自动启停 <Color id="GREEN">LGT</Color>，以免浪费燃料。
 
 
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times EU/L \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
+  - $$\dot{m}$$：当前流速
+  - $$\dot{m}^*$$：最佳流速
+  - $$\eta$$：效率
 </Latex>
 <Latex formula="\text{EU/t} (> \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^* \times (3T-1)} \Biggr) \times EU/L \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
-  - $$T$$: Overflow Tier
+  - $$\dot{m}$$：当前流速
+  - $$\dot{m}^*$$：最佳流速
+  - $$\eta$$：效率
+  - $$T$$：溢出等级
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (1.5T)">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}_{max}$$: Maximum Flow Rate
-  - $$T$$ Overflow Tier
+  - $$\dot{m}$$：当前流速
+  - $$\dot{m}_{max}$$：最大流速
+  - $$T$$ 溢出等级
 </Latex>

@@ -1,10 +1,10 @@
-Produces energy and new elements from Radioactive Beta Decay
-Consumes {gold:1 L/s Molten Salt} for fuel and {yellow:2 L/s LFTB} for coolant
-Warm-up takes 250s, during which no fuel/coolant is consumed and no power is produced
-Once running, outputs {white:0.33 L/s U-233} on average
-Once finished, outputs various {red:Depleted Molten Salts} based on the fuel used
+利用放射性β衰变产生能量与新元素
+消耗{gold:1 L/s 熔盐}作为燃料，并消耗{yellow:2 L/s 四氟铍酸锂（LTFB）}作为冷却液
+预热需要 250 秒，在此期间不消耗燃料或冷却液，也不产生能量
+开始运行后，平均产出 {white:0.33 L/s 铀-233}
+运行结束后，根据所用燃料产出不同种类的{red:枯竭熔盐}
 {gray:{hr}}
-Use four 4A dynamo hatches corresponding to the Molten Salt tier:
-{gold:LFTR Fuel 1} (EV), {gold:LFTR Fuel 2} (IV), {gold:LFTR Fuel 3} (LuV)
-Higher tier hatches limit EU output to 1 hatch
-{dark_red:Shuts down if either input runs out} and any excess EU is safely voided
+根据熔盐等级，使用四个 4A 动力仓：
+{gold:液态氟钍反应堆燃料1}（EV）、{gold:液态氟钍反应堆燃料2}（IV）、{gold:液态氟钍反应堆燃料3}（LuV）
+若仓室等级更高，EU 输出会被限制为仅 1 个仓
+{dark_red:任一输入耗尽时即停机}，多余的 EU 会被安全销毁

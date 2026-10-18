@@ -1,44 +1,44 @@
 ---
 navigation:
-  title: "Parallels"
+  title: "并行"
   icon: gregtech:gt.blockmachines:31041
   parent: T_O_P_index.md
   position: -3
 ---
 
-# Parallels
+# 并行
 
 
-**Parallels** are the ability of a multiblock machine to process multiple copies of the same recipe in the same time interval. Singleblock machines do not have this ability.
+**并行**是指多方块机器在同一时间段内同时处理同一配方多份副本的能力。单方块机器不具备这种能力。
 
-When a machine runs in parallel, its power draw becomes (actual parallels x actual recipe power), all input consumption and output production are multiplied by the actual number of parallels, and recipe time stays unchanged.
+机器并行运行时，其功率消耗变为（实际并行数 x 实际配方功率），所有输入消耗与产出都乘以实际并行数，而配方时间保持不变。
 
-After parallels are applied, the multiblock then calculates and attempts **[overclocking](overclocking.md)**, assuming [rated power](T_O_P_index.md#rated-power) is still sufficient. Parallels and batch mode are completely separate features.
+在应用并行之后，若 [额定功率](T_O_P_index.md#rated-power) 仍然充足，多方块结构接下来会计算并尝试 **[超频](overclocking.md)**。并行与批处理模式是完全独立的功能。
 
-# Maximum Parallels
+# 最大并行数
 
-Multiblocks have a parallel configuration window, and the maximum parallels can be manually lowered.
+多方块结构拥有并行配置窗口，最大并行数可以手动调低。
 
-- Machines without any special note default to 1 parallel, such as <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />
-- <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15518" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15516" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15515" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15569" showIcon="left" />, and <ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" /> have a fixed maximum of 256 parallels
-- Most machines calculate maximum parallels from voltage or from the tier of a structure component. When a tooltip says "each voltage tier provides $$x$$ parallels", that is calculated from the sum of the voltage inputs of all Energy Hatches, capped at 15 (MAX+)
+- 没有任何特别说明的机器默认为 1 并行，例如 <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />
+- <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15518" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15516" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15515" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15569" showIcon="left" /> 与 <ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" /> 的最大并行数固定为 256
+- 大多数机器根据电压或结构部件的等级计算最大并行数。当工具提示中说“每级电压提供 $$x$$ 并行”时，该数值由所有能源仓的电压输入之和计算得出，上限为 15（MAX+）
 
-Only <ItemLink id="gregtech:gt.blockmachines:1003" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:1132" showIcon="left" /> have cross-recipe parallels, meaning a single parallel batch can contain multiple distinct recipes.
+只有 <ItemLink id="gregtech:gt.blockmachines:1003" showIcon="left" /> 和 <ItemLink id="gregtech:gt.blockmachines:1132" showIcon="left" /> 具有跨配方并行能力，即一次并行批次中可以包含多个不同的配方。
 
-In practice, the bottleneck on actual parallels is usually the machine's maximum parallel limit.
+在实际使用中，实际并行数的瓶颈通常是机器的最大并行数上限。
 
-# Overclocking After Reaching 1 Tick (1tOC)
+# 达到 1 tick 后的超频（1tOC）
 
-When overclocking would reduce actual recipe time below 1 tick, recipe duration is clamped to 1 tick and the extra overclocking is converted into an additional parallel multiplier. This is called **1tOC**.
+当超频会把配方的实际时间压到 1 tick 以下时，配方时长会被钳制为 1 tick，多余的超频则转化为额外的并行倍率。这称为 **1tOC**。
 
 $$\text{1tOC compensation factor} = \left\lceil\frac{1 \text{ tick}}{\text{actual duration (floating point)}}\right\rceil$$
 
-This compensation factor increases the machine's maximum parallels by the corresponding multiplier. Because the result is rounded up, it always benefits the player.
+该补偿系数会按相应倍率提高机器的最大并行数。由于结果是向上取整的，因此总是对玩家有利。
 
-Machines that do not support 1tOC:
-- All singleblock machines
-- <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:5001" showIcon="left" />
+不支持 1tOC 的机器：
+- 所有单方块机器
+- <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:5001" showIcon="left" />
 
-# Equivalence Between Parallels and Perfect Overclocks
+# 并行与完美超频的等价关系
 
-**[Parallels](parallels.md)** can be treated as the equivalent of perfect overclocks. A machine with a maximum of $$n$$ parallels is effectively equivalent to having $$\log_4{n}$$ opportunities to convert imperfect overclocks into perfect ones, making the machine run at $$\sqrt{n}$$ times the speed.
+**[并行](parallels.md)**可以视为完美超频的等价物。最大并行数为 $$n$$ 的机器，实际上相当于拥有 $$\log_4{n}$$ 次把不完美超频转化为完美超频的机会，使机器以 $$\sqrt{n}$$ 倍的速度运行。

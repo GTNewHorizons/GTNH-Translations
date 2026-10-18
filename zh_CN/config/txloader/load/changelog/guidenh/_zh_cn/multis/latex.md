@@ -15,55 +15,55 @@ date: 2026-05-25
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15752" />
 </GameScene>
-The <Color id="GREEN">Laminated Application and Thermal Enclosure eXpert (LATEX)</Color>, the mouthful that it is, is an HV tier multiblock for coating cables. The <Color id="GREEN">LATEX</Color> is a direct upgrade from the singleblock assembler for cable coating because it runs at <Color id="GREEN">200%</Color> speed, only uses <Color id="RED">85%</Color> of the EU/t normally required, and offers <Color id="BLUE">8</Color> parallels per voltage tier. There is also an additive 6.25% rubber discount based on the tier of the item pipe casings and the unique opportunity to insert an elastic singularity inside the controller to double the amount of parallels, gain another 25% rubber discount, and unlock the ability to use multi-amp and laser energy hatches. 
+<Color id="GREEN">Laminated Application and Thermal Enclosure eXpert（LATEX）</Color>——这名字确实很拗口——是一座用于给线缆涂覆的 HV 级多方块结构。对于给线缆涂覆而言，<Color id="GREEN">LATEX</Color> 是单方块装配机的直接升级，因为它以 <Color id="GREEN">200%</Color> 的速度运行，只消耗正常所需 <Color id="RED">85%</Color> 的 EU/t，并且每个电压等级提供 <Color id="BLUE">8</Color> 次并行。此外还有基于物品管道方块等级的累加 6.25% 橡胶折扣，以及一个独有的机会：在控制器内插入弹性奇点，使并行数量翻倍、再获得 25% 的橡胶折扣，并解锁使用多A能源仓和激光能源仓的能力。 
 <br clear="all"/>
 
-## Construction:
-The LATEX has one tiered component. The item pipe casings determine the overall rubber discount of the machine. Buses/hatches may replace any casing anywhere on the structure. The glass must be tiered for the structure to form but has no effect on the operation of the machine. Multi-amp and laser energy hatches are not supported unless there is an elastic singularity in the controller, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannels "item_pipe" and "glass" to specify the tier of those components. 
+## 建造：
+LATEX 只有一个分级部件。物品管道方块决定机器的整体橡胶折扣。总线/仓可以替换结构上任意位置的任意机械方块。玻璃必须为等级玻璃结构才能成型，但玻璃等级对机器运行没有影响。除非控制器内插有弹性奇点，否则不支持多A能源仓和激光能源仓，但可以放置多个常规能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构，并通过子通道 "item_pipe" 和 "glass" 来指定这些部件的等级。
 
-### Requires:
+### 需要：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15752" /><ItemImage id="gregtech:gt.blockmachines:15752"/>
 - 14-36 <ItemLink id="gregtech:gt.blockcasings8"/> <ItemImage id="gregtech:gt.blockcasings8"/>
-- 32 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 32 等级玻璃（任意）<ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 16 <ItemLink id="gregtech:gt.blockframes:649"/><ItemImage id="gregtech:gt.blockframes:649"/>
-- 6 Item Pipe Casing (Tiered)<ItemImage id="gregtech:gt.blockcasings11:5"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90"/>
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80"/>
-### Wallsharing:
-<Color id="GREEN">LATEXs</Color> may wallshare each of their sides to save on casings, glass, frameboxes, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+- 6 个物品管道方块（分级）<ItemImage id="gregtech:gt.blockcasings11:5"/>
+- 1+ 个能源仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:40"/>
+- 1 个维护仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:90"/>
+- 0+ 个输入总线（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ 个输入仓（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ 个输出总线（任意机械方块）<ItemImage id="gregtech:gt.blockmachines:80"/>
+### 共墙：
+<Color id="GREEN">LATEX</Color> 的各个侧面都可以与其他机器共墙，以节省机械方块、玻璃、铅青铜框架和总线/仓。没有配方会消耗超过 1A 的电力，因此可以在 <u>__两__</u> 台机器之间共用 <u>__一__</u> 个能源仓。 
 
-## Usage:
-The <Color id="GREEN">LATEX</Color> is a direct upgrade from the singleblock assembler for cable coating because it runs at 200% speed, only uses 85% of the EU/t normally required, and offers 8 parallels per voltage tier, as seen in the following table. There is also an additive 6.25% rubber polymer discount based on the tier of the Item Pipe Casings. 
+## 用法：
+对于给线缆涂覆而言，<Color id="GREEN">LATEX</Color> 是单方块装配机的直接升级，因为它以 200% 的速度运行，只消耗正常所需 85% 的 EU/t，并按每个电压等级提供 8 次并行，如下方表格所示。此外，还有基于物品管道方块等级的累加 6.25% 橡胶聚合物折扣。
 
-### Parallels:
+### 并行：
 |  | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 |  | 8 | 16 | 24 | 32 | 40 | 48 | 56 | 64 | 72 | 80 | 88 | 96 | 104 | 112 | 120 |
 | ES | 16 | 32 | 48 | 64 | 80 | 96 | 112 | 128 | 144 | 160 | 176 | 192 | 208 | 224 | 240 |
 
 > [!NOTE]
-> "ES" here means that an Elastic Singularity is in the controller
+> 此处的“ES”表示控制器内插有弹性奇点
 
-| Item Pipe Casing   | Rubber Discount    |
+| 物品管道方块   | 橡胶折扣    |
 |--------------- | --------------- |
-| Tin   | 6.25%   |
-| Brass   | 12.50%   |
-| Electrum   | 18.75%   |
-| Platinum   | 25.00%   |
-| Osmium   | 31.25%   |
-| Quantium   | 37.50%   |
-| Fluxed Electrum   | 43.75%   |
-| Black Plutonium   | 50.00%   |
+| 锡   | 6.25%   |
+| 黄铜   | 12.50%   |
+| 琥珀金   | 18.75%   |
+| 铂   | 25.00%   |
+| 锇   | 31.25%   |
+| 量子   | 37.50%   |
+| 通流琥珀金   | 43.75%   |
+| 黑钚   | 50.00%   |
 
 
-## Elastic Singularity
-Insert an elastic singularity into the <Color id="GREEN">LATEX</Color> controller to double the amount of parallels, gain another 25% rubber discount, and unlock the ability to use multi-amp and laser energy hatches. That is a maximum of 240 parallels and a 75% rubber polymer discount. The elastic singularity itself is crafted in a Dire Crafting Table but the five singularities that its comprised of are all made in the Neutronium Compressor or Pseudostable Black Hole Containment Field. That means the upgrade cannot be installed until UV and there is no sharing the singularity between machines. The cost of each singularity is listed below (113,771,520L each).
+## 弹性奇点
+向 <Color id="GREEN">LATEX</Color> 的控制器中插入一个弹性奇点，可使并行数量翻倍、再获得 25% 的橡胶折扣，并解锁使用多A能源仓和激光能源仓的能力。即最高 240 次并行和 75% 的橡胶聚合物折扣。弹性奇点本身在 终极工作台 中合成，但组成它的五种奇点全部在中子态素压缩机或亚稳态黑洞遏制场中制作。也就是说，要到 UV 才能安装该升级，且奇点不能在多台机器之间共用。每种奇点的成本如下所列（每种 113,771,520L）。
 
-- Rubber Singularity - 12,345 superdense rubber sheets or 790,080 individual rubber sheets.
-- Silicone Rubber Singularity - 12,345 superdense silicone rubber sheets or 790,080 individual silicone rubber sheets.
-- Polyvinyl Chloride Singularity - 12,345 superdense polyvinyl chloride sheets or 790,080 individual polyvinyl chloride sheets.
-- Styrene Butadiene Rubber Singularity - 12,345 superdense styrene butadiene rubber sheets or 790,080 individual styrene butadiene rubber sheets.
-- Polyphenylene Sulfide Singularity - 12,345 superdense polyphenylene sulfide sheets or 790,080 individual polyphenylene sulfide sheets.
+- 橡胶奇点 - 12,345 张超致密橡胶板或 790,080 张单张橡胶板。
+- 硅橡胶奇点 - 12,345 张超致密硅橡胶板或 790,080 张单张硅橡胶板。
+- 聚氯乙烯奇点 - 12,345 张超致密聚氯乙烯板或 790,080 张单张聚氯乙烯板。
+- 丁苯橡胶奇点 - 12,345 张超致密丁苯橡胶板或 790,080 张单张丁苯橡胶板。
+- 聚苯硫醚奇点 - 12,345 张超致密聚苯硫醚板或 790,080 张单张聚苯硫醚板。

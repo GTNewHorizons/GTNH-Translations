@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15558
 navigation:
-  title: Molecular Transformer
+  title: 分子重组仪
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15558
 categories:
@@ -11,35 +11,35 @@ author: Skorched
 date: 2026-05-23
 ---
 
-# Molecular Transformer
+# 分子重组仪
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15558"/>
 </GameScene>
-The <Color id="GREEN">Molecular Transformer</Color> is an LuV tier multiblock that changes the molecular structure of items to produce new ones. The <Color id="GREEN">Molecular Transformer</Color> does not have a singleblock equivalent or any tiered bonuses for scaling. Each of the 18 recipes are one-to-one transformations that only require power to run. The <Color id="GREEN">Molecular Transformer</Color> is most commonly used for converting glowstone into sunnarium although Bees, Vacuum Reactors, and Fusion Reactors are all significantly better sources. The graphene throughput is also not worth it. 
+<Color id="GREEN">分子重组仪</Color>是一个LuV级多方块结构，能够改变物品的分子结构来生成新的物品。<Color id="GREEN">分子重组仪</Color>没有对应的单方块机器，也没有任何用于规模化的等级加成。它的18个配方都是一对一的转化，只需要电力即可运行。<Color id="GREEN">分子重组仪</Color>最常见的用途是把荧石转化为阳光化合物，不过蜜蜂、真空反应堆和核聚变反应堆都是明显更好的来源。石墨烯的产出效率也不值得。
 
 <br clear="all"/>
 
 > [!NOTE]
-> The only change to this multi made in this version was the structure
+> 本次更新对这个多方块结构所做的唯一改动是结构本身
 
-## Construction
-The <Color id="GREEN">Molecular Transformer</Color> has no tiered components. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any molecular containment casing anywhere on the structure. Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass. 
+## 建造
+<Color id="GREEN">分子重组仪</Color>没有分级组件。玻璃可以是任意等级，对机器的运行没有影响。总线/仓可以替换结构中任意位置的分子抑制机械方块。不支持多A能源仓和激光能源仓，但可以放置多个普通能源仓来超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来可视化/搭建结构，并通过子通道 "glass" 指定玻璃的等级。
 
-### Requires:
+### 需要：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15558" /> <ItemImage id="gregtech:gt.blockmachines:15558" />
 - 95-104 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:11" /> <ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:11" />
 - 35 <ItemLink id="GoodGenerator:speedingPipe" /> <ItemImage id="GoodGenerator:speedingPipe" />
-- 30 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 30 等级玻璃（任意） <ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 14 <ItemLink id="gregtech:gt.blockcasings8:7" /> <ItemImage id="gregtech:gt.blockcasings8:7" />
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">Molecular Transformer</Color> may wallshare each of their sides to save on casings and buses/hatches. That includes the iridium casings on the left and right sides, or the glass on the back. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### 共墙
+<Color id="GREEN">分子重组仪</Color>的每一侧都可以与其他机器共墙，以节省机械方块和总线/仓。这包括左右两侧的铱机械方块，以及背面的玻璃。没有配方会消耗超过1A的电力，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
-## Usage
-There is nothing particularly unique about using the Molecular Transformer. There are no tiered bonuses for scaling and only imperfect overclocks
+## 用途
+使用分子重组仪没有什么特别独特之处。没有用于规模化的等级加成，只有有损超频。

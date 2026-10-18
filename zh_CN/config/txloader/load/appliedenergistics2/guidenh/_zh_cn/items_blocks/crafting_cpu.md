@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Crafting CPU Multiblock (Storage, Coprocessor, Monitor, Unit)
+  title: 合成CPU多方块结构（存储器、协处理器、监控器、单元）
   icon: appliedenergistics2:tile.BlockSingularityCraftingStorage
 categories:
 - devices
@@ -26,7 +26,7 @@ item_ids:
 - appliedenergistics2:tile.BlockSingularityCraftingStorage
 ---
 
-# Crafting CPU
+# 合成CPU
 
 <GameScene width="350" height="220" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/crafting_cpus.snbt" />
@@ -43,29 +43,29 @@ item_ids:
   <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit:0" scale="4" />
 </Row>
 
-Crafting CPUs manage crafting requests and jobs. They store intermediate products while multi-step crafting jobs are in progress, and affect the maximum size of jobs and, to some degree, how quickly they complete. See [autocrafting](../ae2_mechanics/autocrafting.md) for more details.
+合成CPU负责管理合成请求与合成任务。在多步合成任务进行期间，它们会存储中间产物，并影响任务的最大规模，也在一定程度上影响任务的完成速度。更多细节参见[自动合成](../ae2_mechanics/autocrafting.md)。
 
-Right-click a Crafting CPU to open the crafting status UI and check the progress of its active job.
+右键点击合成CPU可打开合成状态界面，查看其当前正在执行任务的进度。
 
-## Settings
+## 设置
 
-*   A Crafting CPU can accept requests from players only, automation only (such as an <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> with an <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />), or both.
+*   合成CPU可以配置为只接受玩家请求、只接受自动化请求（例如带有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />的<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />），或两者兼有。
 
-## Construction
+## 构造规则
 
-Crafting CPUs are multiblocks and must be solid rectangular prisms with no gaps. They are made from several components.
+合成CPU是多方块结构，必须构建为没有空隙的实心长方体。它们由若干组件构成。
 
-Each CPU must contain at least one Crafting Storage block; the smallest valid CPU is a single 1k Crafting Storage block.
+每个CPU必须包含至少一个合成存储器方块；最小的有效CPU就是一个单独的1k合成存储器方块。
 
-# Crafting Unit
+# 合成单元
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit" scale="4" />
 
-(Optional) Crafting Units fill space in a CPU so that it remains a solid rectangular prism when there are not enough other components. They are also an ingredient in the other components.
+（可选）合成单元用于填充CPU中的空间，使结构在其他组件不足时仍保持为实心长方体。它们也是其他组件的合成原料。
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingUnit" />
 
-# Crafting Storage
+# 合成存储器
 
 <Row>
   <BlockImage id="appliedenergistics2:tile.BlockCraftingStorage:0" scale="4" />
@@ -85,7 +85,7 @@ Each CPU must contain at least one Crafting Storage block; the smallest valid CP
   <BlockImage id="appliedenergistics2:tile.BlockAdvancedCraftingStorage:3" scale="4" />
 </Row>
 
-(Required) Crafting Storage is available in all standard cell sizes: 1k, 4k, 16k, 64k, and 256k. It stores the ingredients and intermediate products of a crafting job, so jobs with more ingredients require larger or additional storage blocks.
+（必需）合成存储器提供1k、4k、16k、64k和256k全部标准存储容量。它存储合成任务的原料与中间产物，因此原料更多的任务需要更大或更多的存储方块。
 
 <Column>
   <Row>
@@ -109,20 +109,20 @@ Each CPU must contain at least one Crafting Storage block; the smallest valid CP
   </Row>
 </Column>
 
-# Crafting Coprocessing Unit
+# 合成协处理器单元
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingUnit:1" scale="4" />
 
-(Optional) Crafting Coprocessing Units increase the CPU's operating rate, allowing the system to send ingredient batches from an <ItemLink id="appliedenergistics2:tile.BlockInterface" /> more frequently and keep up with fast machines. For example, when an interface surrounded by <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />s can send batches faster than one assembler can process them, it distributes batches among the assemblers.
+（可选）合成协处理器单元可提升CPU的运行速率，使系统能够更频繁地从<ItemLink id="appliedenergistics2:tile.BlockInterface" />发送原料批次，从而跟上高速机器的处理速度。例如，当被多个<ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />环绕的接口发送批次的速度快于单个装配室的处理速度时，它会把批次分配给多个装配室。
 
-Some complex recipes have multiple steps that can run in parallel, such as making planks and books at the same time for bookshelves. In the crafting status UI, opened by right-clicking a CPU or using the hammer icon in a [terminal](terminals.md), these steps appear as “scheduled”. Each Coprocessing Unit allows one additional such step to run in parallel, where it appears as “crafting”. In practice, Coprocessing Units are usually added for batch insertion speed rather than for the number of parallel recipe steps.
+有些复杂配方包含可以并行执行的多个步骤，例如为书架同时制作木板和书本。在合成状态界面（右键点击CPU，或在[终端](terminals.md)中点击锤子图标打开）中，这些步骤显示为“scheduled”。每个协处理器单元可以让一个额外的此类步骤并行运行，此时它显示为“crafting”。实际上，添加协处理器单元通常是为了提高批次插入速度，而不是为了增加并行配方步骤的数量。
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingUnit:1" />
 
-# Crafting Monitor
+# 合成监控器
 
 <BlockImage id="appliedenergistics2:tile.BlockCraftingMonitor" scale="4" />
 
-(Optional) A Crafting Monitor displays the job currently handled by its CPU. Its screen can be dyed with an <ItemLink id="appliedenergistics2:item.ToolColorApplicator" />.
+（可选）合成监控器显示其所在CPU当前正在处理的任务。它的屏幕可以用<ItemLink id="appliedenergistics2:item.ToolColorApplicator" />染色。
 
 <RecipeFor id="appliedenergistics2:tile.BlockCraftingMonitor" />

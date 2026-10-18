@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Presses
+  title: 压印模板
   icon: appliedenergistics2:item.ItemMultiMaterial:13
 categories:
 - misc ingredients blocks

@@ -2,7 +2,7 @@
 item_ids:
   - appliedenergistics2:item.ItemTunnelPattern
 navigation:
-  title: Tunnel Patterns
+  title: 通道样板
   parent: ae2.md
   icon: appliedenergistics2:item.ItemTunnelPattern
 categories:
@@ -11,15 +11,15 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Tunnel Patterns
-Tired of updating circuit boards or EBF protective gas in all of your patterns when you get an upgrade? There’s a new way to handle it coming in 2.9:
+# 通道样板
+厌倦了每次升级时都要更新所有样板中的电路板或工业高炉保护气体吗？2.9将带来一种新的处理方式：
 
-## AE2 Tunnel Patterns!
+## AE2通道样板！
 
-<Color id="GREEN">Tunnel Patterns</Color> are a new **input-only** pattern type. They are designed to reduce repetition and keep setups with large numbers of patterns easier to manage. When you encode a processing pattern with inputs but no outputs, it becomes a Tunnel Pattern. Each one gets a unique ID so it can be referenced reliably.
+<Color id="GREEN">通道样板</Color>是一种全新的**仅输入**样板类型。其设计目的是减少重复，让拥有大量样板的布局更易管理。当你编码一个只有输入、没有输出的处理样板时，它就会变成通道样板。每个通道样板都会获得一个唯一ID，因此可以被可靠地引用。
 
-They can be used as modular pattern building blocks by putting a <Color id="GREEN">Tunnel Pattern</Color> in the __inputs of another pattern__. During crafting, if your ME system finds a Tunnel Pattern in a pattern's inputs, it searches for the Tunnel Pattern on your network's ME Interfaces and __adds its inputs into the current recipe__. If the pattern isn’t found, it falls back to the Tunnel Pattern item itself.
+把<Color id="GREEN">通道样板</Color>放进__另一个样板的输入__中，即可将其用作模块化的样板构建单元。合成期间，如果你的ME系统在某个样板的输入中发现了通道样板，就会在你网络的ME接口上搜索该通道样板，并__把它的输入加入当前配方__。如果找不到该样板，则会回退为通道样板物品本身。
 
-You can also __chain__ Tunnel Patterns: you can have a mix of as many Tunnel Patterns and regular ingredients as desired set as inputs for another Tunnel Pattern. This allows you to define __usable input groups__ that can be shared across many recipes which can easily be modified later. You can freely rename or modify the Tunnel Pattern's ingredients without having to change <u>__any__</u> of the patterns that reference it!
+你还可以__链式__使用通道样板：可以把任意数量的通道样板与普通材料混在一起，作为另一个通道样板的输入。这样你就能定义可跨多个配方共享、日后也易于修改的__可用输入组__。你可以随意重命名或修改通道样板的材料，而无需更改引用它的<u>__任何__</u>样板！
 
-A great example of how to use this feature is to use it to include tiered glass, coils, or full sets of input/output hatches and buses in multi-block pseudo-crafting recipes, or for including noble gases in EBF crafts. More use cases are still being discovered!
+此功能的一个绝佳用例，是在多方块伪合成配方中用它来包含等级玻璃、线圈或成套的输入/输出仓与总线，或在工业高炉配方中加入稀有气体。更多用例仍在发掘中！

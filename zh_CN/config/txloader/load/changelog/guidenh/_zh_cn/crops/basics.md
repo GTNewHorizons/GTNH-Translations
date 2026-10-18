@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Crop Basics
+  title: 作物基础
   parent: crops.md
   icon: cropsnh:plantLens
 categories:
@@ -9,45 +9,45 @@ author: Skorched
 date: 2026-05-20
 ---
 
-# Crop Basics
-There is a lot to these crops, so let's get some basics out of the way first! In order to even start on crops, you must have made your first <Color id="RED">GT Tools</Color> in order to craft the Crop Sticks. All CropsNH crops are planted on Crop Sticks, so they're a vital starting point.
+# 作物基础
+这些作物大有学问，所以我们先把一些基础知识讲清楚！想要开始种植作物，你必须先制作出你的第一件 <Color id="RED">GT 工具</Color>，才能合成作物架。所有 CropsNH 作物都种植在作物架上，因此作物架是至关重要的起点。
 
-## Getting Seeds
-<Color id="GREEN">Seeds</Color> can be made in a variety of ways, depending on what crop you are aiming for. Some crops simply require planting a "regular" crop on a crop stick, such as with saplings. Planting a vanilla sapling on Crop Sticks will create a <Color id="GREEN">Bonsai</Color> of the relevant type.
+## 获取种子
+<Color id="GREEN">种子</Color>可以通过多种方式获得，具体取决于你想要的是哪种作物。有些作物只需要把一株“普通”作物种在作物架上即可，例如树苗。把原版树苗种在作物架上会生成相应类型的 <Color id="GREEN">盆栽</Color>。
 
-To find how to get a seed, you can search it in NEI and find either how to breed it, how to create it, or if it shows nothing, then just use the "regular" version to plant on crop sticks. All of these mechanics will be explained further in this guide.
+要了解如何获得某个种子，你可以在 NEI 中搜索它，查看如何培育它或如何制作它；如果什么都没有显示，那就直接用“普通”版本种在作物架上。这些机制都会在本指南中进一步说明。
 
-Left clicking a planted seed will harvest the crop (if mature) and remove it, potentially dropping a seed depending on the <Color id="RED">resistance</Color> (will be explained next) of the seed. <Color id="BLUE">Spades</Color> <ItemImage id="cropsnh:reinforcedSpade" /> will increase your chance of obtaining seeds.
+左键点击已种下的种子会收获作物（如果已成熟）并将其移除，并有可能掉落种子，几率取决于种子的 <Color id="RED">抗性</Color>（将在下文说明）。<Color id="BLUE">铁锹</Color> <ItemImage id="cropsnh:reinforcedSpade" /> 能提高你获得种子的几率。
 
-# Crop Stats
-There are two main types of stats when it comes to crops:
-- Seed Stats
-- Soil Stats
+# 作物属性
+作物相关的属性主要分为两大类：
+- 种子属性
+- 土壤属性
 
-## Seed Stats
-<Color id="GREEN">Seed Stats</Color> are broken down into 3 parts:
-- <Color id="BLUE">Growth</Color> - Determines how fast your crop will grow if given the correct conditions
-- <Color id="RED">Gain</Color> - Determines the amount of drops on harvesting
-- <Color id="GREEN">Resistance</Color> - Determines a few other mechanics, such as chance of dropping seeds, ease of "trampling" the crop, likelihood of generating weeds and more!
+## 种子属性
+<Color id="GREEN">种子属性</Color>分为 3 个部分：
+- <Color id="BLUE">生长</Color> - 决定在条件正确时你的作物生长得有多快
+- <Color id="RED">产量</Color> - 决定收获时的掉落物数量
+- <Color id="GREEN">抗性</Color> - 决定其他一些机制，例如掉落种子的几率、作物被“践踏”的难易程度、产生杂草的可能性等等！
 
-Growing these stats is vital for getting a good output on your farms!
+提升这些属性对于让你的农场获得良好产出至关重要！
 
-When first placing a crop, you will see the stats (1:1:1 for your first), and all of the relevant info will be on the tooltip, such as growth progress.
+刚种下作物时，你会看到它的属性（你的第一个作物为 1:1:1），所有相关信息都会显示在提示框中，例如生长进度。
 
-## Soil Stats
-Though not an "official" name, these are the stats that determine the behaviour of your planted seed. These are broken into:
-- <Color id="BLUE">Fertilizer</Color> - Speeds up crop growth and prevents stat loss on breeding
-- <Color id="RED">Water</Color> - Helps to prevent your plants from getting sick by keeping them hydrated
-- <Color id="GREEN">Weed-Ex</Color> - Prevents the spreading of sickness
+## 土壤属性
+虽然这并非“官方”名称，但这些属性决定了你所种植种子的行为表现。它们分为：
+- <Color id="BLUE">肥料</Color> - 加速作物生长，并防止杂交时属性损失
+- <Color id="RED">水分</Color> - 通过保持植物水分来帮助防止它们生病
+- <Color id="GREEN">除草剂</Color> - 防止疾病蔓延
 
-These 3 stats can be increased using  <Color id="BLUE">Fertilizer</Color> <ItemImage id="cropsnh:fertilizer" />, <Color id="RED">Watering Cans</Color> <ItemImage id="ExtraUtilities:watering_can" /> or <Color id="GREEN">Weed-Ex Can</Color> <ItemImage id="cropsnh:weedEX" /> respectively.
+这 3 项属性可以分别使用 <Color id="BLUE">肥料</Color> <ItemImage id="cropsnh:fertilizer" />、<Color id="RED">洒水壶</Color> <ItemImage id="ExtraUtilities:watering_can" /> 或 <Color id="GREEN">除草剂喷壶</Color> <ItemImage id="cropsnh:weedEX" /> 来提升。
 
 > [!NOTE]
-> Some seeds <Color id="RED">CANNOT</Color> be grown in world on *any* soil, and must be farmed using the [Industrial Farm](if.md)
+> 有些种子 <Color id="RED">无法</Color> 在世界中的*任何*土壤上种植，必须使用 [工业农场](if.md) 来种植
 
-## Helpful Notes on Tiers:
-These are some general rules of thumb regarding crop tiers:
-- Tier 4: Last tier where crops can be planted anywhere
-- Tier 5: Last tier where crops can be planted anywhere if they can see the sky
-- Tier 11: Last tier where crops can be planted anywhere if in an 80%+ humidity biome
-- Tier 12: Last tier where crops can be planted anywhere if they can see the sky <Color id="RED">AND</Color> can see the sky
+## 关于等级的实用提示：
+以下是关于作物等级的一些通用经验法则：
+- 等级 4：作物可以随处种植的最高等级
+- 等级 5：在能看到天空的情况下，作物可以随处种植的最高等级
+- 等级 11：在湿度 80% 以上的生物群系中，作物可以随处种植的最高等级
+- 等级 12：在能看到天空 <Color id="RED">并且</Color> 能看到天空的情况下，作物可以随处种植的最高等级

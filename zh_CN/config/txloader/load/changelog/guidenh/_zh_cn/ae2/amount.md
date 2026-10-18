@@ -2,7 +2,7 @@
 item_ids:
   - appliedenergistics2:item.ItemMultiPart:360
 navigation:
-  title: Terminal QoL Changes
+  title: 终端生活质量改进
   parent: ae2.md
 categories:
     - Applied Energistics 2
@@ -10,23 +10,23 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Terminal QoL Changes
-Given how much time you spend ~~jumping on machines~~ inside your terminals, they were overdue for some quality of life upgrades!
+# 终端生活质量改进
+考虑到你花在终端里的时间如此之多（~~在机器上蹦蹦跳跳~~），这些终端早就该迎来一些生活质量升级了！
 
-## Enhanced Pin Management
-Pins are now separated into __Player__ and __Crafting__ sections, both separated and with a maximum of up to 16 for each (depending on resolution). Crafted items will automatically get pinned in the crafting Pin slots. This is all configurable in your mod settings
+## 增强的置顶管理
+置顶项现在被拆分为__玩家__与__合成__两个相互独立的分区，各自最多可容纳16个（取决于分辨率）。合成得到的物品会自动置顶到合成置顶栏位中。这一切都可在模组设置中配置
 
-## Configurable Amounts
-If you've ever found that the autocrafting amounts seem odd to you, now you can configure them! When looking to autocraft any item, click the wrench in the bottom left to set new values for use in the future!
+## 可配置的数量
+如果你曾觉得自动合成的数量看起来很奇怪，现在你可以自行配置了！想要自动合成任意物品时，点击左下角的扳手即可设置新数值，供日后使用！
 
 <FloatingImage src="../assets/ae2/gui_amount.png" align="left" displayWidth="256">
   <ImageAnnotation>
-    The config page
+    配置页面
   </ImageAnnotation>
 </FloatingImage>
 
 <FloatingImage src="../assets/ae2/gui_amount_2.png" align="left" displayWidth="256">
   <ImageAnnotation>
-    The result of that change
+    该修改产生的效果
   </ImageAnnotation>
 </FloatingImage>

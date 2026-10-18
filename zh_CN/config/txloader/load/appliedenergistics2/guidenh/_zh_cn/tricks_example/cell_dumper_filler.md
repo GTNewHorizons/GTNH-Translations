@@ -1,66 +1,58 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Cell Dumper or Filler
+  title: 存储元件快速存取器
   icon: appliedenergistics2:tile.BlockIOPort
 ---
 
-# Cell Dumper Or Filler
+# 存储元件快速存取器
 
-One might ask "How do I quickly empty a cell into a chest or drawer array or backpack, or, inversely, fill a cell from the same?"
+有人可能会问："如何实现存储元件与箱子/抽屉阵列/背包之间的快速转移？"
 
-The answer is use of an <ItemLink id="appliedenergistics2:tile.BlockIOPort" /> and some subnetting to restrict where it can put the items, or pull items from.
+答案是使用<ItemLink id="appliedenergistics2:tile.BlockIOPort" />并通过子网划分来限制它存入或取出物品的位置。
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/cell_dumper_filler.snbt" />
 
   <BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 1">
-  (1) IO Port: Can be set to either "Transfer data to Network" or "Transfer data to Storage Cell" using the arrow button
-  in the middle of the GUI. Has 3 Acceleration Cards.
+  (1) IO端口：通过界面中央的箭头按钮切换"导入网络"或"导出元件"模式。安装有3张加速卡。
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0 0.7 0" max="1 1 1">
-  (2) Storage Bus: In its default configuration.
+  (2) 存储总线：保持默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#33dd33" min="0 1 0" max="1 2 1">
-  Place whatever you want to fill or empty here.
+  此处放置需要装入或倒空物品的容器（箱子/抽屉等）。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 0.35 0.35" max="2.3 0.65 0.65">
-  Quartz Fiber: Only needed if the energy source is another network.
+  石英纤维：仅当能源来自其他网络时才需要。
   </BoxAnnotation>
 
   <DiamondAnnotation pos="3 0.5 0.5" color="#00ff00">
-  To some energy source, like another network, or an energy acceptor.
+  连接至某种能源，例如另一个网络或能源接收器。
   </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Configurations
+## 配置说明
 
-* The <ItemLink id="appliedenergistics2:tile.BlockIOPort" /> (1) can be set to either "Transfer data to Network" or "Transfer data to Storage Cell" using the arrow button
-  in the middle of the GUI. It has 3 acceleration cards for maximum speed.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2) is in its default configuration.
+* <ItemLink id="appliedenergistics2:tile.BlockIOPort" /> (1) 通过界面中央的箭头按钮切换"导入网络"或"导出元件"模式。安装有3张加速卡以实现极速传输。
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2) 保持默认配置。
 
-## How It Works
+## 工作原理
 
-### In "Transfer To Network" Mode
+### "导入网络"模式
 
-1. The <ItemLink id="appliedenergistics2:tile.BlockIOPort" /> attempts to dump the contents of the inserted [storage cell](../items_blocks/storage_cells.md).
-    into [network storage](../ae2_mechanics/import_export_storage.md).
-2. The only storage on the subnet is the <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />, which stores the items or fluids or etc. in whatever
-    you put in front of it.
-* The <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" /> provides a large enough buffer of [energy](../ae2_mechanics/energy.md) that the network does
-    not run out from the power draw of transferring so many items per gametick.
+1. <ItemLink id="appliedenergistics2:tile.BlockIOPort" />尝试将已插入的[存储元件](../items_blocks/storage_cells.md)内容倒入[网络存储](../ae2_mechanics/import_export_storage.md)。
+2. 子网中唯一的存储端是<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，它会把物品、流体等存入你放在它面前的容器中。
+* <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />提供了充足[能源缓冲](../ae2_mechanics/energy.md)，使网络不会因每游戏刻传输大量物品的耗电而断电。
 
-### In "Transfer To Storage Cell" Mode
+### "导出元件"模式
 
-1. The <ItemLink id="appliedenergistics2:tile.BlockIOPort" /> attempts to dump the contents of the [network's storage](../ae2_mechanics/import_export_storage.md)
-   into the inserted [storage cell](../items_blocks/storage_cells.md).
-2. The only storage on the subnet is the <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />, which pulls the items or fluids or etc. out of whatever
-   you put in front of it.
-* The <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" /> provides a large enough buffer of [energy](../ae2_mechanics/energy.md) that the network does
-  not run out from the power draw of transferring so many items per gametick.
+1. <ItemLink id="appliedenergistics2:tile.BlockIOPort" />尝试将[网络存储](../ae2_mechanics/import_export_storage.md)的内容倒入已插入的[存储元件](../items_blocks/storage_cells.md)。
+2. 子网中唯一的存储端是<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，它会从你放在它面前的容器中提取物品、流体等。
+* <ItemLink id="appliedenergistics2:tile.BlockEnergyCell" />提供了充足[能源缓冲](../ae2_mechanics/energy.md)，使网络不会因每游戏刻传输大量物品的耗电而断电。

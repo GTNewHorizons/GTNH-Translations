@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Bigger Input Buses
+  title: 更大的输入总线
   parent: qol.md
   icon: gregtech:gt.blockmachines:79
 categories:
@@ -9,20 +9,20 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Bigger Input Buses
-There are two main changes being made to larger sized input/output buses as outlined below
+# 更大的输入总线
+针对大尺寸输入/输出总线，主要有以下两项改动，概述如下
 
-# Higher Tier Input Buses
+# 更高等级的输入总线
 <FloatingImage src="../assets/qol/uhv_bus.png" align="left" displayWidth="128" wrap="square" >
   <ImageAnnotation>
-    The UI of a UHV Input Bus
+    UHV 输入总线的界面
   </ImageAnnotation>
 </FloatingImage>
-In exchange for a sacrifice of Super Buses, you can now craft <Color id="GREEN">Input</Color> and <Color id="RED">Output</Color> Buses right the way up to UHV!
+以牺牲超级总线为代价，现在你可以合成一路到 UHV 的 <Color id="GREEN">输入</Color> 和 <Color id="RED">输出</Color> 总线！
 
-Following on from previous buses, the new ones will have <Color color="#00ffff">n<sup>2</sup></Color> slots, where __n__ is the voltage tier (ULV=1)
+与之前的总线一脉相承，新的总线将拥有 <Color color="#00ffff">n<sup>2</sup></Color> 个槽位，其中 __n__ 为电压等级（ULV=1）
 
-Super buses already made/placed will remain, however will be uncraftable.
+已合成/已放置的超级总线会保留，但将无法再合成。
 <br clear="all"/>
-# Quantum/Compressed Buses
-As part of a general revamp for non-AE2 logistics, a new set of input/output buses have been added! The <Color id="GREEN">Quantum Bus</Color> <ItemImage id="gregtech:gt.blockmachines:2757" /> and the <Color id="BLUE">Compressed Bus</Color> <ItemImage id="gregtech:gt.blockmachines:2751" /> are more enhanced equivalents of "regular" I/O buses in that they can now hold more than a stack per slot!
+# 量子/压缩总线
+作为非 AE2 物流体系全面翻新的一部分，新增了一套输入/输出总线！<Color id="GREEN">量子总线</Color> <ItemImage id="gregtech:gt.blockmachines:2757" /> 和 <Color id="BLUE">压缩总线</Color> <ItemImage id="gregtech:gt.blockmachines:2751" /> 是“普通”输入/输出总线的增强版：它们每个槽位现在可以容纳超过一组物品！

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Charged Staff
+  title: 充能手杖
   icon: appliedenergistics2:item.ToolChargedStaff
 categories:
 - tools
@@ -9,14 +9,14 @@ item_ids:
 - appliedenergistics2:item.ToolChargedStaff
 ---
 
-# Charged Staff
+# 充能手杖
 
 <ItemImage id="appliedenergistics2:item.ToolChargedStaff" scale="4" />
 
-The Charged Staff is a stick with a <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" /> attached to its tip. It deals 6 points of damage and consumes 300 AE per attack.
+充能手杖是一根顶端装有<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />的木棍。每次攻击造成6点伤害，消耗300 AE能量。
 
-It can be charged in an <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
+它可通过<ItemLink id="appliedenergistics2:tile.BlockCharger" />补充能量。
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:item.ToolChargedStaff" />

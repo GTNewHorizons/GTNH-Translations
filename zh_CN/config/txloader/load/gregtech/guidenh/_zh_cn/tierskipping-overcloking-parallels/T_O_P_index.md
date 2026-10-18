@@ -1,65 +1,65 @@
 ---
 navigation:
-  title: "Tier Skipping, Overclocking, and Parallels"
+  title: "跳级、超频与并行"
   icon: OpenComputers:item:27
   parent: /index.md
 ---
 
-# Tier Skipping, Overclocking, and Parallels
+# 跳级、超频与并行
 
 
-The behavior of multiblock machines is determined by the following core concepts: **[tier skipping](tierskipping.md)**, **[overclocking](overclocking.md)**, **[parallels](parallels.md)**, and the **rated power** and **voltage tier** discussed on this page.
+多方块机器的行为由以下几个核心概念决定：**[跳级](tierskipping.md)**、**[超频](overclocking.md)**、**[并行](parallels.md)**，以及本页讨论的 **额定功率** 和 **电压等级**。
 
-**[Tier skipping](tierskipping.md)** is the ability of a multiblock to use lower-tier Energy Hatches to run recipes with a higher base recipe power, usually by installing two Energy Hatches of the same tier.
+**[跳级](tierskipping.md)**是指多方块结构使用较低等级的能源仓来运行基础配方功率更高的配方的能力，通常通过安装两个同等级能源仓来实现。
 
-**[Overclocking](overclocking.md)** means increasing rated power so the machine can complete a recipe in less time. In most cases this uses 4/2 imperfect overclocks, though some machines support 4/4 perfect overclocks.
+**[超频](overclocking.md)**是指提高额定功率，使机器能在更短时间内完成配方。大多数情况下使用的是 4/2 不完美超频，不过有些机器支持 4/4 完美超频。
 
-**[Parallels](parallels.md)** are the ability of a multiblock machine to process multiple copies of the same recipe in the same time interval.
+**[并行](parallels.md)**是指多方块机器在同一时间段内同时处理同一配方多份副本的能力。
 
-# Recipes and Power
+# 配方与功率
 
-Every recipe has a **base recipe power**, meaning the power shown in NEI before overclocking and before any discount is applied. Many multiblocks, such as <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:687" showIcon="left" />, can apply special power discounts to recipes. The power after discounts but before overclocking is called the **actual recipe power**. When tooltips mention "recipe tier", they refer to base recipe power, not actual recipe power.
+每个配方都有一个 **基础配方功率**，即超频之前、未应用任何折扣时 NEI 中显示的功率。许多多方块结构，例如 <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> 和 <ItemLink id="gregtech:gt.blockmachines:687" showIcon="left" />，可以对配方施加特殊的功率折扣。折扣之后、超频之前的功率称为 **实际配方功率**。当工具提示提到“配方等级”时，指的是基础配方功率，而非实际配方功率。
 
-# Rated Power
+# 额定功率
 
-**Rated power** is the maximum power the machine can consume while running. It is the primary input for **[overclocking](overclocking.md)** and **[parallels](parallels.md)**. It determines both whether the machine can run a recipe and how it runs that recipe. Rated power and voltage tier are properties of the machine itself and are independent of the energy-packet transport rules in the local power network.
+**额定功率**是机器运行时可以消耗的最大功率。它是 **[超频](overclocking.md)** 和 **[并行](parallels.md)** 的主要输入。它既决定机器能否运行某个配方，也决定机器以何种方式运行该配方。额定功率和电压等级是机器自身的属性，与本地电网中能量包的传输规则无关。
 
-## Conditions Required to Start a Recipe
+## 启动配方所需的条件
 
-The machine can only start a recipe if **rated power >= actual recipe power** and **voltage tier >= base recipe power**.
+只有当 **额定功率 >= 实际配方功率** 且 **电压等级 >= 基础配方功率** 时，机器才能启动配方。
 
-- Rated power too low -> the controller reports "Recipe requires more power."
-- Voltage tier too low -> the controller reports "Recipe requires higher voltage to start."
+- 额定功率过低 -> 控制器提示“配方需要更大功率。”
+- 电压等级过低 -> 控制器提示“配方需要更高电压才能启动。”
 
-## Singleblock Machines
+## 单方块机器
 
-Singleblock machines usually have rated power equal to 1A x standard voltage. Exceptions include the Thermal Centrifuge at 2A,and the Arc Furnace at 3A,and the singleblock Mass Fabricator consumed current varies according to different voltage levels from 8A to lower 1A.
+单方块机器的额定功率通常等于 1A x 标准电压。例外包括：热力离心机为 2A，电弧炉为 3A；而单方块质量发生器的耗电电流则随电压等级不同，从 8A 变化到更低的 1A。
 
-## Multiblock Machines
+## 多方块机器
 
-Multiblocks calculate rated power differently depending on whether they use one Energy Hatch or several. A standard Energy Hatch has rated power equal to 2A x standard voltage. A Multi-Amp or Laser Hatch has rated power equal to its amperage x standard voltage.
+多方块结构计算额定功率的方式取决于其使用一个还是多个能源仓。标准能源仓的额定功率等于 2A x 标准电压。多A能源仓或激光能源仓的额定功率等于其安培数 x 标准电压。
 
-- **Only one Energy Hatch installed**: most machines have rated power = 1A x standard voltage, which is half of the Energy Hatch's rated power. Some machines that support Multi-Amp or Laser Hatches directly use the hatch's full rated power.
-- **Multiple Energy Hatches installed**: rated power is the sum of the rated power of all Energy Hatches.
+- **只安装一个能源仓**：大多数机器的额定功率 = 1A x 标准电压，即能源仓额定功率的一半。一些支持多A能源仓或激光能源仓的机器则直接使用能源仓的全部额定功率。
+- **安装多个能源仓**：额定功率为所有能源仓额定功率之和。
 
-With only one Energy Hatch installed, the machine's voltage tier is often one tier above its rated power, a 4x gap. That means the machine still lacks enough rated power to run recipes at that higher voltage tier. To make up for that missing rated power, you place more same-tier Energy Hatches, which is **[tier skipping](tierskipping.md)**. Installing two standard same-tier Energy Hatches makes rated power equal to voltage tier; this is called **dual-hatch tier skipping**.
+只安装一个能源仓时，机器的电压等级往往比其额定功率高一个等级，即 4 倍的差距。这意味着机器仍然没有足够的额定功率来运行该更高电压等级的配方。为了补足缺失的额定功率，需要再放置更多同等级能源仓，这就是 **[跳级](tierskipping.md)**。安装两个标准同等级能源仓可以使额定功率与电压等级持平，这称为 **双能源仓跳级**。
 
-# Voltage Tier
+# 电压等级
 
-**Voltage tier** is the highest base recipe power the machine is allowed to run. It only affects whether a recipe is allowed to start, together with rated power. Voltage tier has nothing to do with **[overclocking](overclocking.md)**.
+**电压等级**是机器被允许运行的最高基础配方功率。它与额定功率一起，仅影响配方能否启动。电压等级与 **[超频](overclocking.md)** 无关。
 
-## Singleblock Machines
+## 单方块机器
 
-Their voltage tier is the same as their rated power.
+它们的电压等级与额定功率相同。
 
-## Multiblock Machines
+## 多方块机器
 
-There are four different voltage-tier behaviors for multiblocks:
+多方块结构有四种不同的电压等级行为：
 
-| Behavior | Description | Typical Machines |
+| 行为 | 说明 | 典型机器 |
 |----------|-------------|------------------|
-| **One-tier boost** | 4A x average Energy Hatch voltage. This is the default behavior for most machines. | Electric Blast Furnace and most others |
-| **Cannot boost** | 1A x Energy Hatch voltage | <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" /> |
-| **One-tier reduction** | 1/4 A x Energy Hatch voltage | Circuit Assembler mode of <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" /> |
-| **Unrestricted** | Tooltip says "as long as enough energy is provided, this machine can run recipes of any tier" | <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:1004" showIcon="left" /> |
+| **提升一级** | 4A x 能源仓平均电压。这是大多数机器的默认行为。 | 工业高炉以及大多数其他机器 |
+| **不能提升** | 1A x 能源仓电压 | <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" /> |
+| **降低一级** | 1/4 A x 能源仓电压 | <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" /> 的电路组装机模式 |
+| **不受限制** | 工具提示称“只要提供足够能量，该机器就可以运行任意等级的配方” | <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:1004" showIcon="left" /> |
 

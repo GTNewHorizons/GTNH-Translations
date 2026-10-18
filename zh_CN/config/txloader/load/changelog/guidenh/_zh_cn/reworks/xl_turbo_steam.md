@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15519
 navigation:
-  title: XL Turbo Steam Turbine
+  title: 特大蒸汽涡轮
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15519
 categories:
@@ -11,93 +11,93 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# XL Turbo Steam Turbine
+# 特大蒸汽涡轮
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15519"/>
 </GameScene>
-The <Color id="GREEN">XL Turbo Steam Turbine (XLST)</Color> is an EV tier multiblock for generating immense power from steam. The <Color id="GREEN">XLST</Color> is a direct upgrade from the Large Steam Turbine <ItemImage id="gregtech:gt.blockmachines:15524"/> because it has <Color id="RED">16x</Color> the throughput with only 12 turbines, supports <Color id="GREEN">Multi-Amp and Laser Dynamo Hatches</Color>, processes both regular and dense steam, and does not explode if the dynamo hatch is broken while the machine is running. However, the turbines must be identical for the machine to run, there are harsher penalties for exceeding the optimal flow rate, and the machine must be running for at least 50 seconds to fully warm-up. Save on fuel by automatically toggling the <Color id="GREEN">XLST</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>.
+<Color id="GREEN">特大蒸汽涡轮（XLST）</Color>是一个 EV 等级的多方块结构，用于从蒸汽产生海量电力。<Color id="GREEN">XLST</Color>是大型蒸汽涡轮<ItemImage id="gregtech:gt.blockmachines:15524"/>的直接升级版：它仅用 12 台涡轮便拥有<Color id="RED">16 倍</Color>的吞吐量，支持<Color id="GREEN">多A动力仓与激光动力仓</Color>，既能处理普通蒸汽也能处理致密蒸汽，而且在机器运行时即使动力仓被破坏也不会爆炸。但是，涡轮必须完全相同机器才能运行，超过最佳流量的惩罚更为严厉，并且机器必须至少运行 50 秒才能完全预热。通过 RS 锁存器连接兰波顿超级电容库<ItemImage id="gregtech:gt.blockmachines:13106"/>来让<Color id="GREEN">XLST</Color>自动启停，从而节省燃料。
 
-Dense steam variants come exclusively from using plasma in the Extreme Heat Exchanger <ItemImage id="gregtech:gt.blockmachines:32017"/> and have 1,000x the fuel density as the regular steam variants. That means they generate the same amount of power with only 1/1000th the optimal flow rate. 
+致密蒸汽只能通过在超级热交换机<ItemImage id="gregtech:gt.blockmachines:32017"/>中使用等离子体来获得，其燃料密度是普通蒸汽的 1,000 倍。这意味着它们只需 1/1000 的最佳流量即可产生同样多的电力。
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?gid=589078529#gid=589078529)
+[GTNH 电力规划表](https://docs.google.com/spreadsheets/d/1FTFdfmY_UWbTbFOyNzARKeI90pbHvPBH6M3JHJmaC-E/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure of this multiblock has changed, the mechanics stay the same
+> 该多方块仅结构有所改动，机制保持不变
 
-## Construction
+## 建造
 
-The <Color id="GREEN">XLST</Color> has no tiered components. The glass can be any tier and has no effect on the operation of the machine. The solenoid coils must be MV specifically and also has no effect on the operation of the machine. Buses/hatches may replace any turbine casing anywhere on the structure. <Color id="GREEN">Multi-Amp and Laser Dynamo Hatches</Color> are supported for serious power generation, and there can be multiple. There is no muffler hatch so do not include one. Insert turbines through an input bus or the GUI of the controller. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+<Color id="GREEN">XLST</Color>没有分等级的组件。玻璃可以是任意等级，对机器的运行没有影响。螺线管线圈必须为 MV 等级，同样对机器的运行没有影响。总线/仓可以替换结构中任意位置的涡轮机械方块。支持<Color id="GREEN">多A动力仓与激光动力仓</Color>以进行大规模发电，且可以放置多个。该机器没有消声仓，因此不要放入消声仓。通过输入总线或控制器的 GUI 插入涡轮。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构，并通过子通道 "glass" 指定玻璃的等级。
 
-### Requires:
-- 1 XL Turbo Steam Turbine Controller (Depends on type)<ItemImage id="gregtech:gt.blockmachines:15519"/>
+### 所需：
+- 1 个特大蒸汽涡轮控制器（取决于类型）<ItemImage id="gregtech:gt.blockmachines:15519"/>
 - 372-439 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:1"/>
-- 100 Pipe Casing (depends on type) <ItemImage id="gregtech:gt.blockcasings2:13"/>
-- 36 Tiered Glass (any)
-- 34 Frame Box (depends on type) <ItemImage id="gregtech:gt.blockframes:305"/>
+- 100 个管道方块（取决于类型）<ItemImage id="gregtech:gt.blockcasings2:13"/>
+- 36 个等级玻璃（任意）
+- 34 个铅青铜框架（取决于类型）<ItemImage id="gregtech:gt.blockframes:305"/>
 - 20 <ItemLink id="gregtech:gt.blockcasings.cyclotron_coils"/><ItemImage id="gregtech:gt.blockcasings.cyclotron_coils"/>
 - 16 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>
-- 1 Dynamo Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 Maintenance Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1+ Input Bus (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 1+ Input Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 1+ Output Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1 个动力仓（任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 个维护仓（任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:90" />
+- 1+ 个输入总线（任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:70" />
+- 1+ 个输入仓（任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:50" />
+- 1+ 个输出仓（任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">XLSTs</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. However, do NOT share the input hatch because the fuel is not split evenly between the <Color id="GREEN">XLSTs</Color> -- one consumes everything and the other receives nothing. 
+### 共墙
+<Color id="GREEN">XLST</Color>的每一面都可以与其他机器共墙，以节省机械方块、铅青铜框架和总线/仓。但是，请勿共享输入仓，因为燃料不会在<Color id="GREEN">XLST</Color>之间平均分配——一台会消耗全部燃料，另一台则什么都得不到。
 
-## Usage
-The <Color id="GREEN">XLST</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid game when steam production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
+## 使用
+<Color id="GREEN">XLST</Color>有两种运行模式，如下所列；两者在数值上的具体差异请参见页面顶部链接的规划表。前者更适合蒸汽产量较低的游戏前期至中期，后者更适合游戏后期——此时功率输出比效率更重要。在控制器上使用螺丝刀即可切换模式。
 
-- Tight Fitting Mode - High efficiency, Low optimal flow rate (power).
-- Loose Fitting Mode - Low efficiency, High optimal flow rate (power).
+- 紧凑模式 - 高效率，低最佳流量（功率）。
+- 宽松模式 - 低效率，高最佳流量（功率）。
 
-The speed of the <Color id="GREEN">XLST</Color> increases linearly up to 100% while active and decreases back to 0% while inactive. Speed is directly proportional to the power output of the machine and takes 50 seconds to reach its maximum value regardless of the turbine size/material. Speed decays extremely fast when the <Color id="GREEN">XLST</Color> is disabled, the turbine is removed, the structure is broken, or fuel runs out. View the current speed of the turbine by using a Portable Scanner <ItemImage id="gregtech:gt.metaitem.01:32762"/> on the controller or looking at the "efficiency" value in WAILA. 
+运行时，<Color id="GREEN">XLST</Color>的转速会线性上升至 100%，停机时则会降回 0%。转速与机器的功率输出成正比，并且无论涡轮的尺寸/材料如何，都需要 50 秒才能达到最大值。当<Color id="GREEN">XLST</Color>被关闭、涡轮被取出、结构被破坏或燃料耗尽时，转速会极速衰减。将便携式扫描仪<ItemImage id="gregtech:gt.metaitem.01:32762"/>对控制器使用，或查看 WAILA 中的 "efficiency" 数值，即可查看涡轮当前的转速。
 
-## Optimal Flow Rate
-The rate (L/t) at which steam enters the <Color id="GREEN">XLST</Color> is extremely important. Too little steam and only a fraction of the potential power is generated; too much steam and a tremendous amount of fuel is wasted. Ideally, steam enters the <Color id="GREEN">XLST</Color> at the optimal flow rate of the turbine, which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}^*$$) in L/t is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, and $$\eta_0$$ is the base efficiency of the turbine. Note that these are exactly 16x the optimal flow rates of the Large Steam Turbine and the rate is divided by 1,000 if the steam is dense.
+## 最佳流量
+蒸汽进入<Color id="GREEN">XLST</Color>的速率（L/t）极其重要。蒸汽太少，只能产生潜在功率的一部分；蒸汽太多，则会浪费巨量燃料。理想情况下，蒸汽应以涡轮的最佳流量进入<Color id="GREEN">XLST</Color>，该值会随尺寸/材料以及机器的运行模式发生显著变化。最佳流量（$$\dot{m}^*$$，单位 L/t）虽然可以在 NEI 中查看，但也可以用下列公式计算，其中 $$k$$ 是与每种材料对应的乘数，size 是介于 1=小型与 4=巨型 之间的常数，$$\eta_0$$ 是涡轮的基础效率。注意，这些值恰好是大型蒸汽涡轮最佳流量的 16 倍，且若使用致密蒸汽，流量需除以 1,000。
 
 <Latex formula="\dot{m}^* (\text{Tight}) = k \times \text{size} \times 800">
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
-  - $$\text{size}$$: Constant in range (1:4) based on turbine size
+  - $$\dot{m}^*$$：最佳流量
+  - $$k$$：材料乘数
+  - $$\text{size}$$：基于涡轮尺寸的常数，取值范围 (1:4)
 </Latex>
 <Latex formula="\dot{m}^* (\text{Loose}) = k \times \text{size} \times 2,400 \times 1.1^{20(\eta_0 - 0.8)}">
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
-  - $$\text{size}$$: Constant in range (1:4) based on turbine size
-  - $$\eta_0$$: Base Efficiency of Turbine
+  - $$\dot{m}^*$$：最佳流量
+  - $$k$$：材料乘数
+  - $$\text{size}$$：基于涡轮尺寸的常数，取值范围 (1:4)
+  - $$\eta_0$$：涡轮的基础效率
 </Latex>
 
-The optimal flow rates of some turbines are incredibly high because steam has a very low fuel density of 0.5 EU/L, especially if the <Color id="GREEN">XLST</Color> is in loose mode. If not using dense steam, it is practically mandatory to use AE2 fluid P2P tunnels which effectively have no transfer limit and no concern for temperature or heat capacity.
-| Fuel   | EU/L    |
+某些涡轮的最佳流量高得惊人，因为蒸汽的燃料密度非常低，只有 0.5 EU/L，尤其是当<Color id="GREEN">XLST</Color>处于宽松模式时。如果不使用致密蒸汽，那就几乎必须使用 AE2 流体 P2P 通道——它实际上没有传输上限，也无需考虑温度或热容。
+| 燃料   | EU/L    |
 |--------------- | --------------- |
-| Steam   | 0.5   |
-| Superheated (SH) Steam   | 1.0   |
-| Supercritical (SC) Steam   | 1.0   |
-| Dense Steam   | 500   |
-| Dense Superheated (SH) Steam | 1,000 |
-| Dense Supercritical (SC) Steam | 1,000 |
+| 蒸汽   | 0.5   |
+| 过热（SH）蒸汽   | 1.0   |
+| 超临界（SC）蒸汽   | 1.0   |
+| 致密蒸汽   | 500   |
+| 过热致密（SH）蒸汽 | 1,000 |
+| 超临界致密（SC）蒸汽 | 1,000 |
 
-## Power
-The power generated by the <Color id="GREEN">XLST</Color> depends on the current flow rate ($$\dot{m}$$), the optimal flow rate ($$\dot{m}^*$$), and the efficiency of the turbines ($$\eta$$). Exceeding the optimal flow rate is not only less efficient but it reduces the total amount of power generated. Overflow tier has no effect on the operation of the machine. View the current power output of the machine through WAILA while looking at the controller, or with an industrial information panel.
+## 功率
+<Color id="GREEN">XLST</Color>产生的功率取决于当前流量（$$\dot{m}$$）、最佳流量（$$\dot{m}^*$$）以及涡轮的效率（$$\eta$$）。超过最佳流量不仅效率更低，还会减少产生的总功率。溢出（overflow）等级对机器的运行没有影响。注视控制器时通过 WAILA 即可查看机器当前的功率输出，也可以使用工业信息屏查看。
 
-Power is extracted from a laser or multi-amp dynamo hatch anywhere on the structure. Exceeding the maximum EU/t or total EU in the dynamo's buffer is perfectly safe; the <Color id="GREEN">XLST</Color> will not explode if an attached battery buffer or Lapotronic Supercapacitor (LSC) is full and there is nowhere for the EU to go. Any additional EU is simply voided. It is highly recommended to automatically toggle the <Color id="GREEN">XLST</Color> with a redstone RS latch to avoid wasting fuel.
+功率从结构上任意位置的激光或多A动力仓提取。即使超过动力仓缓冲中的最大 EU/t 或总 EU 也完全安全；如果连接的电池箱或兰波顿超级电容库（LSC）已满且 EU 无处可去，<Color id="GREEN">XLST</Color>也不会爆炸。多余的 EU 会直接消失。强烈建议使用红石 RS 锁存器自动启停<Color id="GREEN">XLST</Color>，以避免浪费燃料。
 
-# Turbines
-The 12 turbines must all be the exact same for the machine to run. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate. There are too many different permutations to list them all here, but the planner linked at the top has all the relevant information and even a calculator for determining the power output and lifespan of any turbine with any fuel.
+# 涡轮
+12 台涡轮必须完全相同，机器才能运行。涡轮有四种不同的尺寸和许多不同的材料，每种都有自己的效率加成和最佳流量。组合方式太多，无法在此一一列出，但页面顶部链接的规划表包含所有相关信息，甚至还附带一个计算器，可用于确定任意涡轮搭配任意燃料时的功率输出和使用寿命。
 
-- Small turbines are crafted with long magnalium rods (available as early as LV)
-- Normal turbines are crafted with long titanium rods (available at the end of HV after traveling to the moon <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>)
-- Large turbines are crafted with long tungstensteel rods (available in IV after the tungsten processing line)
-- Huge turbines are crafted with long americium rods (available in ZPM after building a Fusion Reactor Mk-II <ItemImage id="gregtech:gt.blockmachines:32020"/>)
+- 小型涡轮用长镁铝合金杆合成（最早 LV 即可获得）
+- 普通涡轮用长钛杆合成（HV 末期、前往月球<ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>后可获得）
+- 大型涡轮用长钨钢杆合成（IV 阶段、钨处理线完成后可获得）
+- 巨型涡轮用长镅杆合成（ZPM 阶段、建成聚变反应堆 Mk-II<ItemImage id="gregtech:gt.blockmachines:32020"/>后可获得）
 
-## Durability
-The turbines slowly lose durability proportional to the power generated. The total durability of a turbine depends on the material and instantly voids once it reaches 0%. Turbines can be automatically inserted into the controller via the input bus, but they cannot be automatically extracted.
+## 耐久
+涡轮会随发电量按比例缓慢损失耐久。涡轮的总耐久取决于其材料，一旦降到 0% 便会立即消失。涡轮可以通过输入总线自动插入控制器，但无法自动取出。
 
-The following equation calculates the lifespan of the turbines (in hours) from the current power output of an <Color id="GREEN">XLST</Color>. Note that loose fitting mode provides a 25% durability boost to compensate for the reduced lifespan of a higher power output and turbines last much longer here than in the Large Steam Turbine. Turbines generally have lifespans of several hundred hours (or more) so they do not need to be replaced very often. 
+下列公式可根据<Color id="GREEN">XLST</Color>当前的功率输出计算涡轮的使用寿命（单位：小时）。注意，宽松模式会提供 25% 的耐久加成，以补偿更高功率输出带来的寿命缩短；而且涡轮在这里的使用寿命远长于在大型蒸汽涡轮中。涡轮的使用寿命一般为数百小时（或更多），因此无需频繁更换。
 
 <Latex formula="\text{Lifespan } (h) = \frac{50\times \text{Durability}}{36 \times \text{min}(0.04 \times EU/t,(0.2 \times EU/t)^{0.6})}"/>
 
-- Multiply the lifespan result by 1.25 in loose fitting mode.
+- 在宽松模式下，将寿命计算结果乘以 1.25。

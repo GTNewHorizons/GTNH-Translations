@@ -1,72 +1,63 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Furnace Automation
+  title: 熔炉自动化
   icon: minecraft:furnace
 ---
 
-# Furnace Automation
+# 熔炉自动化
 
-Note that since this uses a <ItemLink id="appliedenergistics2:tile.BlockInterface" />, it is meant to integrate into your [autocrafting](../ae2_mechanics/autocrafting.md)
-setup. If you just want to automate a furnace standalone, use hoppers and chests and stuff.
+注意：由于本方案使用了<ItemLink id="appliedenergistics2:tile.BlockInterface" />，因此需集成到你的[自动合成](../ae2_mechanics/autocrafting.md)系统中。若只想单独自动化熔炉，使用漏斗、箱子之类的传统方式即可。
 
-Automation of a <ItemLink id="minecraft:furnace" /> is a bit more complex than automation of simpler machines like a [charger](charger_automation.md).
-A furnace requires input from two separate sides, and extraction from a third. The item to be smelted must be pushed in the top face,
-the fuel must be pushed in a side face, and the result must be pulled out the bottom. 
+<ItemLink id="minecraft:furnace" />的自动化比[充能器](charger_automation.md)这类更简单的机器要复杂一些。熔炉需要从两个不同的面输入，并从第三个面输出。待熔炼的物品必须从顶面推入，燃料必须从侧面推入，而成品必须从底部取出。
 
-This could be done via a <ItemLink id="appliedenergistics2:tile.BlockInterface" />
-on the top, an <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> on the side to constantly push in fuel, and an <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> on
-the bottom to import the results into the network. However, this uses 3 [channels](../ae2_mechanics/channels.md).
+这一点可以通过在顶部放一个<ItemLink id="appliedenergistics2:tile.BlockInterface" />、在侧面放一个持续推入燃料的<ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />、再在底部放一个把成品导入网络的<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />来实现，不过这种做法需要占用3个[频道](../ae2_mechanics/channels.md)。
 
-Here's how you can do it with just 1 channel:
+下面的方法只需1个频道即可做到：
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/furnace_automation.snbt" />
 
   <BoxAnnotation color="#dddddd" min="1 0 0" max="2 1 1">
-  (1) ME Interface: The directional variant, via use of a certus quartz wrench, with the relevant processing patterns.
+  (1) ME接口：使用赛特斯石英扳手调整为定向变体，载入相关处理样板。
 
-  <FloatingImage src="../assets/images/furnace_pattern.png" displayWidth="150" title="Iron Pattern" />
+  <FloatingImage src="../assets/images/furnace_pattern.png" displayWidth="150" title="铁锭合成样板" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 1 0" max="2 1.3 1">
-  (2) Interface: In its default configuration.
+  (2) 接口：保持默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 1 0" max="1.3 2 1">
-  (3) Storage Bus #1: Filtered to coal.
+  (3) 存储总线#1：过滤设置为煤炭。
   <ItemImage id="minecraft:coal" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="0 2 0" max="1 2.3 1">
-  (4) Storage Bus #2: Filtered to blacklist coal, using an inverter card.
-  <Row><ItemImage id="minecraft:coal" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
+  (4) 存储总线#2：使用反相卡设置煤炭黑名单。<Row><ItemImage id="minecraft:coal" scale="2" /><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" /></Row>
   </BoxAnnotation>
 
   <DiamondAnnotation pos="4 0.5 0.5" color="#00ff00">
-  To Main Network
+  连接主网络
   </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Configurations
+## 配置说明
 
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) is in its default configuration, with the relevant <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />s.
-    It is made directional by using a quartz wrench on it.
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) 保持默认配置，载入相关<ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />。对它使用石英扳手即可调整为定向模式。
 
-  ![Iron Pattern](../assets/images/furnace_pattern.png)
+  ![铁锭合成样板](../assets/images/furnace_pattern.png)
 
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (2) is in its default configuration.
-* The first <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (3) is filtered to coal, or whatever fuel you want to use.
-* The second <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (4) is filtered to blacklist the fuel you're using, using an <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />.
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (2) 保持默认配置。
+* 第一个<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (3) 过滤设置为煤炭，或你想使用的任何燃料。
+* 第二个<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (4) 使用<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />设置你所使用燃料的黑名单。
 
-## How It Works
+## 工作原理
 
-1. The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> pushes the ingredients into the interface.
-   (Actually, as an optimization, it pushes directly through the storage busses as if they were extensions of the provider's faces. The items never actually enter the interface.)
-2. The interface is set to store nothing, so it tries to push the ingredients into [network storage](../ae2_mechanics/import_export_storage.md).
-3. The only storage on the green subnet is the <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />s. The bus filtered to coal places the coal in the furnace's fuel slot through the side face.
-    The bus filtered to NOT coal places the items to be smelted in the top slot, through the top face.
-4. The furnace does its furnacey thing
-5. The hopper pulls the results out the furnace's bottom, and places them in the provider's return slots, returning them to the main network.
+1. <ItemLink id="appliedenergistics2:tile.BlockInterface" />将原料推入接口。（实际上，作为一种优化，它是直接通过存储总线推送的，就仿佛存储总线是接口各面的延伸；物品实际上从未进入接口。）
+2. 接口被设置为不存储任何物品，因此它会尝试把原料推入[网络存储](../ae2_mechanics/import_export_storage.md)。
+3. 绿色子网中唯一的存储是<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />。过滤为煤炭的总线会经由侧面把煤炭放进熔炉的燃料槽。过滤为"非煤炭"的总线则会经由顶面把待熔炼物品放进顶部槽位。
+4. 熔炉完成它的熔炼过程
+5. 漏斗从熔炉底部抽出成品，放进ME接口的返回槽位，从而将其送回主网络。

@@ -1,32 +1,32 @@
 ---
 navigation:
-  title: "Power Generation and Consumption"
+  title: "发电与用电"
   icon: gregtech:gt.blockmachines:1120
   parent: power_index.md
   position: -2
 ---
 
-# Power Generation and Consumption
+# 发电与用电
 
-# Generation
+# 发电
 
-Generators are machines that convert resources into power, or under special conditions generate power seemingly from nothing.
+发电机是把资源转换为电力的机器，或在特殊条件下看似凭空产生电力的机器。
 
-**Singleblock generators** first store their output in an internal EU buffer (its size is shown in the tooltip), then output up to 1A at the standard voltage of their tier. Singleblock generators produce power on demand: they only consume fuel when there is enough room left in their internal EU buffer. You can feed them fuel without worrying about waste.
+**单方块发电机**先把输出存入内部EU缓冲（缓冲大小显示在提示信息中），然后以对应等级的标准电压输出最多1A。单方块发电机按需发电：只有内部EU缓冲还有足够空间时才会消耗燃料。可以放心投入燃料，不必担心浪费。
 
-**Multiblock generators** have output determined by their exact configuration, while output voltage and current are limited by their Dynamo Hatches. Multiblock generators do not produce power on demand: any energy beyond the internal capacity of the Dynamo Hatches is voided.
+**多方块发电机**的输出由其具体配置决定，输出电压和电流则受动力仓限制。多方块发电机不按需发电：任何超出动力仓内部容量的能量都会被直接销毁。
 
-# Consumption
+# 用电
 
 > [!WARNING]
-> Overvolting a consumer block causes an explosion.
+> 对用电方块过压会导致爆炸。
 
-Machines that receive and consume EU are collectively called machines. A machine can only accept energy packets whose voltage is not greater than its maximum input voltage, which is usually the standard voltage of its tier. Overvolting a machine causes it to explode immediately.
+接收并消耗EU的机器统称为机器。机器只能接受电压不高于其最大输入电压的能量包，最大输入电压通常是对应等级的标准电压。对机器过压会使其立即爆炸。
 
-Machines can only run recipes whose power requirement is less than or equal to their own rated power. Recipe power is usually at most $$\frac{15}{16}\text{ A}$$ at the standard voltage of the corresponding tier. This special value is called the recipe's standard power.
+机器只能运行电力需求不超过自身额定电力的配方。配方电力在对应等级标准电压下通常最高为 $$\frac{15}{16}\text{ A}$$。这个特殊数值称为配方的标准电力。
 
-**[Singleblock machines](../singleblock/singleblock-index.md)** become available at LV. They first accept energy packets on demand into their internal EU buffer, then continuously consume EU while running recipes. The maximum input current is usually 2A, except for the Thermal Centrifuge at 4A and the Arc Furnace at 6A.
+**[单方块机器](../singleblock/singleblock-index.md)**从LV起可用。它们先按需把能量包接收进内部EU缓冲，再在运行配方的同时持续消耗EU。最大输入电流通常为2A，例外是热力离心机为4A、电弧炉为6A。
 
-**[Multiblock machines](../multiblocks/multiblocks_index.md)** usually receive power through Energy Hatches. Standard Energy Hatches accept up to 2A. Multi-Amp Energy Hatches accept up to 1.25 times their rated amperage.
+**[多方块机器](../multiblocks/multiblocks_index.md)**通常通过能源仓接收电力。标准能源仓最多接受2A。多A能源仓最多接受其额定电流的1.25倍。
 
-When a machine runs out of energy in its internal buffer, it stops executing the recipe and enters a **power failure**. Singleblock machines lose recipe progress but keep their input state; multiblocks lose both recipe progress and their inputs. Make sure you [provide power reliably](enet.md#providing-power-reliably).
+当机器内部缓冲中的能量耗尽时，它会停止执行配方并进入**断电**状态。单方块机器会丢失配方进度，但保留输入状态；多方块机器则会同时丢失配方进度和输入物料。请务必[可靠供电](enet.md#providing-power-reliably)。

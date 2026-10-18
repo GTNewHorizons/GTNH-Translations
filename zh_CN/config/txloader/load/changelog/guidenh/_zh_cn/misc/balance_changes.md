@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Balance Changes
+  title: 平衡性变更
   parent: misc.md
   icon: Thaumcraft:ItemShard:6
 categories:
@@ -9,18 +9,18 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Balance Changes
-As with any major update, a lot of attention has been paid across the board to try and make the pack fun, and option-heavy. This often entails a lot of balance changes to try and make weaker options more viable, and "over-powered" options less of a limelight
+# 平衡性变更
+和任何大型更新一样，我们在方方面面都下了功夫，力求让整合包既好玩又有丰富的可选内容。这通常意味着大量的平衡性调整：让较弱的选择更有可行性，也让“过于强势”的选择不再那么出风头
 > [!NOTE]
-> The full list of balance changes is far too long and subjective to be displayed here, so this will not include changes like multiblock costs (at least in structure), or the addition of new routes which directly add balancing changes (such as [CropsNH](../crops/crops.md)). Due to the sheer number of balance changes, the only feasible way of knowing EVERY change is to go through the github changelog one by one. As such, the following list is just a cherry-picked selection of some of the bigger changes that come with 2.9
+> 完整的平衡性变更列表实在太长也太主观，无法在此展示，因此本页不会包括多方块结构造价方面的变更（至少在结构方面如此），也不会包括直接带来平衡调整的新路线（例如 [CropsNH](../crops/crops.md)）。由于平衡性变更数量庞大，想知晓每一处变更，唯一可行的办法就是逐条翻阅 GitHub 更新日志。因此，以下列表只是从随 2.9 而来的众多变更中精选出的一部分较大的改动
 
-- Mega Distillation Tower (HV -> LuV), Mega Oil Cracker (HV -> LuV), Mega EBF (Now Exothermic Hearth) (HV -> ZPM), Mega Vacuum Freezer (Now Endothermic Fridge) (HV -> ZPM)
-- Hypogen (UIV -> UEV), Eye Of Harmony Processing now UXV voltage
-- Titanium based Titaniumtetrachloride recipe (10s HV -> 60s EV)
-- Variety of [Structure Reworks](../reworks/reworks.md) that add various balance changes
-- Cryotheum uses lapis dust instead of redstone
-- New recipes for Railcraft Water Siding Tank
-- MV Field Generator now takes titanium instead of Tungstensteel
-- Basic SMD recipes now require HV Assembler instead of MV
+- 巨型蒸馏塔（HV -> LuV）、巨型石油裂化机（HV -> LuV）、巨型工业高炉（现为放热壁炉）（HV -> ZPM）、巨型真空冷冻机（现为吸热冰箱）（HV -> ZPM）
+- 海珀珍（UIV -> UEV），鸿蒙之眼处理现已改为 UXV 电压
+- 基于钛的四氯化钛配方（10s HV -> 60s EV）
+- 多项[结构重制](../reworks/reworks.md)带来了各种平衡性变更
+- 极寒之凛冰现在使用青金石粉而非红石
+- 为 Railcraft 集水器壁板新增了配方
+- MV 场发生器现在使用钛而非钨钢
+- 基础贴片元件配方现在需要 HV 电路组装机，而非 MV
 
 

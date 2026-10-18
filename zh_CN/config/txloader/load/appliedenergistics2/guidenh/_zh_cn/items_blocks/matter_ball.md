@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Matter Ball
+  title: 物质球
   icon: appliedenergistics2:item.ItemMultiMaterial:6
   position: 010
 categories:
@@ -10,15 +10,15 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:6
 ---
 
-# Matter Balls
+# 物质球
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:6" scale="4" />
 
-A ball of generic matter, useful as ammunition for a <ItemLink id="appliedenergistics2:item.ToolMassCannon" /> or for producing [paintballs](paintballs.md).
+一种通用物质聚合体，可用作<ItemLink id="appliedenergistics2:item.ToolMassCannon" />（物质炮）的弹药，或用于生产[染色球](paintballs.md)。
 
-Made with 256 items or buckets in a <ItemLink id="appliedenergistics2:tile.BlockCondenser" /> in matter-ball mode.
+在<ItemLink id="appliedenergistics2:tile.BlockCondenser" />（物质聚合器）的物质球模式下，消耗256个物品或流体桶可制成。
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockCondenser" />
 

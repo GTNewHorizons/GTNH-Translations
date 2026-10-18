@@ -1,19 +1,18 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Meteorites
+  title: 陨石
   icon: appliedenergistics2:tile.BlockSkyStone
 ---
 
-# Meteorites
+# 陨石
 
-Meteorites are the starting point for AE2. Most importantly, there is a <ItemLink id="appliedenergistics2:tile.BlockSkyChest" showIcon="left"/> at the center, which may contain one of the Inscriber Presses.
+陨石是使用AE2的起点。最重要的是，陨石的中心有一个<ItemLink id="appliedenergistics2:tile.BlockSkyChest" showIcon="left"/>，里面可能装有某一种压印模板。
 
-[Getting Started](../getting_started.md) will provide info on what to do once you find one.
+[新手上路](../getting_started.md)中提供了找到陨石后该做什么的信息。
 
-## Finding Meteorites
+## 寻找陨石
 
-Meteorites are fairly common. Some generate on the surface, but many are buried underground.
-You can use an <ItemLink id="appliedenergistics2:tile.BlockSkyCompass" showIcon="left" /> to find them. However, the Meteorite Compass only tells you that a meteorite exists in the current chunk; it does not point you precisely to its location.
+陨石相当常见。有些生成于地表，但许多都埋在地下。你可以使用<ItemLink id="appliedenergistics2:tile.BlockSkyCompass" showIcon="left" />来寻找它们。不过，陨石罗盘只会告诉你当前区块中存在陨石，并不会精确指示其位置。
 
-![Meteorite Crater](../assets/images/meteorite_crater.png)
+![陨击坑](../assets/images/meteorite_crater.png)

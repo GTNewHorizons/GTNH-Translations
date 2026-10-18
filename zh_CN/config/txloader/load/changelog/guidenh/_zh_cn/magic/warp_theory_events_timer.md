@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Warp Theory Event Timer
+  title: 扭曲理论事件计时器
   parent: magic.md
   icon: WarpTheory:item.warptheory.paper
 categories:
@@ -10,6 +10,6 @@ author: koolkrafter5
 date: 2026-06-10
 ---
 
-<Color id="RED">Warp Theory's</Color> warp events will now respect Thaumcraft's <Color id="BLUE">warp event timer</Color>. This means that they will <Color id="GREEN">gradually reduce</Color> in severity over time and even <Color id="GREEN">eventually cease</Color> occurring after enough time. Events will start again with <Color id="RED">full severity</Color> whenever you gain warp from any source. Armor and equipment with the <Color color="#FFAA00AA">Warping</Color> property <Color id="BLUE">do not reset</Color> this timer.
+<Color id="RED">扭曲理论（Warp Theory）</Color>的扭曲事件现在会遵循神秘时代的<Color id="BLUE">扭曲事件计时器</Color>。这意味着它们的严重程度会随时间推移<Color id="GREEN">逐渐降低</Color>，甚至在经过足够长的时间后<Color id="GREEN">最终停止</Color>发生。每当你从任何来源获得扭曲时，事件都会以<Color id="RED">全额严重度</Color>重新开始。拥有<Color color="#FFAA00AA">扭曲（Warping）</Color>属性的护甲与装备<Color id="BLUE">不会重置</Color>该计时器。
 
-The <Color id="YELLOW">Grinning Devil Faceplate</Color> for Thaumium, Void, and Shadow Fortress Helms as well as Primordial Helms will now also <Color id="GREEN">slightly reduce</Color> the severity of <Color id="RED">Warp Theory's</Color> warp events.
+适用于神秘锭头盔、虚空头盔、暗影要塞头盔以及原初头盔的<Color id="YELLOW">咧嘴恶魔面甲</Color>，现在也会<Color id="GREEN">略微降低</Color><Color id="RED">扭曲理论</Color>扭曲事件的严重度。

@@ -1,75 +1,65 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Subnetworks
+  title: 子网络系统
   icon: appliedenergistics2:item.ItemMultiPart:140
 ---
 
-# Subnetworks
+# 子网络系统
 
 <GameScene width="600" height="400" zoom={4} rotateX={25} rotateY={-45}>
   <ImportStructure src="../assets/structures/subnet_demonstration.snbt" />
 
   <DiamondAnnotation pos="1.5 2.5 9.5" color="#00ff00">
-  Transports the assembler outputs into the barrel.
+  将分子装配室的产物送入木桶中。
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="1.5 2.5 8.5" color="#00ff00">
-  Transports the top Super Tank's fluids into the bottom one.
+  将上方超级储罐中的流体送入下方的超级储罐。
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="1.5 2.5 7.5" color="#00ff00">
-  Redstone P2P subnet, transmitting the redstone block \
-  power into the redstone lamp.
+  红石P2P子网，将红石方块\的电能传输到红石灯中。
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="1.5 2.5 6.5" color="#00ff00">
-  Transports the barrel's contents into an item void cell.
+  将木桶中的内容物送入物品void元件。
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="1.5 2.5 5.5" color="#00ff00">
-  Subnet using the Interface-Storage Bus interaction to \
-  act as a local sub-storage that the main network can \
-  access.
+  利用接口-存储总线联动\作为主网络可访问的\本地子存储的子网。
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="2.5 0.5 3.5" color="#00ff00">
-  EBF autocrafting subnet that transports a pattern's contents \
-  into the EBF's inputs, then outputting back to the main network \
-  from the same interface that the patterns came through.
+  EBF自动合成子网，将样板中的原料\送入EBF的输入仓，再从样板进入时的\同一个接口输出回主网络。
   </DiamondAnnotation>
 </GameScene>
 
-"Subnetwork" is a rather loosely-defined term, but one might say that a subnetwork is any [network](./me_network_connections.md) that supports your
-main network or does some small task. Early on, they are typically small enough to not require controllers, however that changes very quickly with the introduction of multiblocks into your AE2 system.
+“子网络”是一个定义相当宽泛的术语，但可以说，子网络是任何为你的主网络提供支持或承担某些小任务的[网络](./me_network_connections.md)。在早期，它们通常小到不需要控制器，但随着多方块机器进入你的AE2系统，这种情况很快就会改变。
 
-Their main 3 uses tend to be:
+它们的主要3种用途通常是：
 
-* To restrict what [devices](./devices.md) have access to what storage (for example, you don't want your ore processing subnet to dump its products into your main network, but you still want to see them from the main network).
-* To save channels on your main network, like having an interface with patterns output to an interface connected to several storage buses on several machines, using 1 channel (from main network) instead of putting an interface on several machines, using several channels. 
-* To save on dense cables and space, packaging up to 32 main network channels into a single channel on a [P2P](./p2p_tunnels.md) carrier sub-network for efficient channel transport over long distances.
+* 限制哪些[设备](./devices.md)可以访问哪些存储（例如，你不会想让矿石处理子网把它的产物倾倒进主网络，但仍希望能从主网络中看到它们）。
+* 为主网络节省频道，例如让一个带有样板的接口输出到另一个接口，后者连接着多台机器上的多个存储总线——这样只需占用1个（来自主网络的）频道，而不必在多台机器上各放一个接口、占用多个频道。
+* 为了节省致密线缆和空间，将主网络的最多32个频道打包成[P2P](./p2p_tunnels.md)承载子网络上的单个频道，以便在长距离上高效传输频道。
 
-Very important in making a subnet is keeping track of the [network connections](./me_network_connections.md).
-Often, people put together some jumble of interfaces and busses and stuff and expect it to be a subnet when
-all the devices are still connected to the main network through various fullblock devices.
+制作子网络时非常重要的一点是留意[网络连接](./me_network_connections.md)。人们常常把一堆接口、总线之类的东西随手拼在一起，就指望它成为一个子网络，而实际上所有设备仍然通过各种整格方块设备连接在主网络上。
 
 > [!NOTE]
-> Cables with different colors have nothing to do with making a subnetwork other than that they won't connect to each other.
+> 不同颜色的线缆与搭建子网络无关，只是它们彼此之间不会相连。
 
-Some use cases for subnets are:
+子网络的一些用例包括：
 
-* <Color id="BLUE"> Abstraction</Color>. Manage all the details of a complex crafting operation from your subnetwork, so from the perspective
-  of your main net, the entire factory "looks like" one machine.
-* <Color id="GREEN"> Parallelism</Color>. Replace a slow machine with 10 copies of the slow machine. From the perspective of your main net, nothing's changed, and you aren't even using any more channels.
-* <Color id="YELLOW"> Multiblock patterning</Color>. Send all your ingredients to the same input buses/hatches with ease on a subnet.
+* <Color id="BLUE"> 抽象</Color>。在子网络上管理一次复杂合成操作的所有细节，这样从主网络的视角来看，整座工厂“看起来”就是一台机器。
+* <Color id="GREEN"> 并行</Color>。用10台同样的慢速机器代替1台慢速机器。从主网络的视角来看，什么都没有改变，而且你甚至不会多用任何频道。
+* <Color id="YELLOW"> 多方块样板供应</Color>。在子网络上轻松地把所有原料发送到相同的输入总线/输入仓。
 
-Some examples include:
+一些示例包括：
 
-* An import bus and storage bus set up to transfer items or fluids from one container to another like an item or fluid pipe.
-* An annihilation plane and storage bus, so that the only place the annihilation plane can put what it breaks is the storage bus, allowing you to filter the plane.
-* An interface and formation plane, so that whatever is inserted into the interface gets pushed to the formation plane and placed/dropped in the world.
-* A specialized storage system accessible from the main network via the special Storage Bus on Interface interaction, in order to store the output of a farm without endlessly overflowing your main storage.
-* And so on
+* 输入总线与存储总线的组合，用于在容器之间转移物品或流体，就像物品或流体管道一样。
+* 破坏面板与存储总线的组合，使破坏面板破坏的东西唯一的去处就是存储总线，从而让你可以对这个面板进行过滤。
+* 接口与成型面板的组合，使放入接口的任何东西都会被推送到成型面板，并被放置/掉落在世界中。
+* 一个可从主网络访问的专用存储系统（通过接口上存储总线的特殊交互机制），用于存放农场的产出，而不会让你的主存储被无限塞满。
+* 等等
 
-Very useful for making subnetworks is the <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left" />. It transfers power between networks without
-connecting them, allowing you to power subnets without needing to put energy acceptors and power cables everywhere.
+<ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left" />对搭建子网络非常有用。它可以在不连接网络的情况下在网络之间传输电力，让你不必在各处放置能源接收器和电力线缆就能为子网络供电。

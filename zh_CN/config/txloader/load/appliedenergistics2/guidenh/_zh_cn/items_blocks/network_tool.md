@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Network Tool
+  title: 网络工具
   icon: appliedenergistics2:item.ToolNetworkTool
 categories:
 - tools
@@ -10,21 +10,21 @@ item_ids:
 - appliedenergistics2:item.ToolAdvancedNetworkTool
 ---
 
-# Network Tool
+# 网络工具
 
 <ItemImage id="appliedenergistics2:item.ToolNetworkTool" scale="4" />
 
-The Network Tool is a modified [wrench](wrench.md) that shows network diagnostics and stores [upgrade cards](upgrade_cards.md). It can still quickly disassemble devices and remove [subparts](../ae2_mechanics/cables_subparts.md) from cables, but it cannot rotate blocks.
+网络工具是改良版[扳手](wrench.md)，兼具网络诊断功能和[升级卡](upgrade_cards.md)存储能力。它仍可快速拆卸设备、从线缆上移除[子部件](../ae2_mechanics/cables_subparts.md)，但无法旋转方块。
 
-It has nine upgrade-card slots; cards are available in AE2 device UIs while the tool is anywhere in your inventory.
+它内置9个升级卡槽位；当工具在物品栏中的任意位置时，所有AE2设备界面均可访问这些升级卡。
 
-Right-clicking any part of a network opens a diagnostic window, similar to right-clicking a <ItemLink id="appliedenergistics2:tile.BlockController" />. It shows channel usage, energy storage and flow, and a list of network devices. This is useful when working with [subnetworks](../ae2_mechanics/subnetworks.md).
+右键点击网络的任意部分都会打开诊断窗口，类似于右键点击<ItemLink id="appliedenergistics2:tile.BlockController" />。窗口中会显示频道使用情况、能量存储与流动，以及网络设备的列表。这在处理[子网](../ae2_mechanics/subnetworks.md)时非常有用。
 
-## Hiding Facades
+## 隐藏伪装板
 
-[Facades](facades.md) are hidden while holding the network tool, allowing interaction with blocks behind them.
+手持网络工具时，[伪装板](facades.md)会被隐藏，从而可以直接与其后方的方块交互。
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:item.ToolNetworkTool" />
 

@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Steam Multiblocks
+  title: 蒸汽多方块结构
   parent: reworks.md
   icon: gregtech:gt.blockmachines:31041
 categories:
@@ -9,23 +9,23 @@ author: Skorched
 date: 2026-05-23
 ---
 
-# Steam Multiblocks
+# 蒸汽多方块结构
 
-Some of the <Color id="RED">Steam Multis</Color> have been redesigned for both balance and aesthetic purposes. The actual mechanics of the machines have not changed __at all__, they just have changed structures, as shown below:
+部分<Color id="RED">蒸汽多方块结构</Color>为了平衡性与美观而被重新设计。机器的实际机制__完全没有__改变，只是结构有所变化，如下所示：
 
-### Steam Grinder
+### 大型蒸汽研磨机
 
 <GameScene>
   <ImportStructureLib controller="gregtech:gt.blockmachines:31041"/>
 </GameScene>
 
-### Steam Blender
+### 大型蒸汽搅拌机
 
 <GameScene>
   <ImportStructureLib controller="gregtech:gt.blockmachines:31084"/>
 </GameScene>
 
-### Steam Squasher
+### 大型蒸汽压缩机
 <GameScene>
   <ImportStructureLib controller="gregtech:gt.blockmachines:31078"/>
 </GameScene>

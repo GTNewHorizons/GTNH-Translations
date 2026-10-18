@@ -1,63 +1,63 @@
 ---
 navigation:
-  title: "Local Power Network (Enet)"
+  title: "本地电网（Enet）"
   icon: tectech:item.em.EuMeterGT
   parent: power_index.md
   position: -4
 ---
 
-# Local Power Network (GT-Enet)
+# 本地电网（GT-Enet）
 
-The **local power network** (GT-Enet), built around [wires and cables](cable.md), is the main wired power transport system used throughout GTNH.
+围绕[导线与线缆](cable.md)构建的**本地电网**（GT-Enet）是贯穿整个GTNH的主要有线输电系统。
 
-Within a local power network, energy packets move between the internal EU buffers of singleblock machines and Energy Hatches. This is separate from the rules machines use to spend energy while running recipes. The detailed behavior of the latter is covered in **[Tier Skipping, Overclocking, and Parallels](../tierskipping-overcloking-parallels/T_O_P_index.md)**.
+在本地电网中，能量包在单方块机器和能源仓的内部EU缓冲之间流动。这与机器运行配方时消耗能量的规则是相互独立的。后者的详细行为见**[跳级、超频与并行](../tierskipping-overcloking-parallels/T_O_P_index.md)**。
 
-# Network Structure
+# 电网结构
 
-A local power network has three parts:
+本地电网由三部分组成：
 
-- **Transmitter blocks**: output energy packets from their EU buffer. Examples include singleblock generators, the output side of [transformers](distribution.md#transformers) or battery buffers, and Dynamo Hatches. The voltage of the packets they output is usually the standard voltage of their tier.
-- **Wires** ([wires and cables](cable.md)): carry energy packets and may reduce their voltage through [cable loss](cable_loss.md). Wires do not store EU.
-- **Consumer blocks**: receive energy packets into their EU buffer. Examples include singleblock machines, the input side of transformers or battery buffers, and Energy Hatches. The maximum packet voltage they accept is usually the standard voltage of their tier.
+- **输电方块**：从自身的EU缓冲输出能量包。例如单方块发电机、[变压器](distribution.md#transformers)或电池箱的输出侧，以及动力仓。它们输出的能量包电压通常是对应等级的标准电压。
+- **导线**（[导线与线缆](cable.md)）：承载能量包，并可能通过[线缆损耗](cable_loss.md)降低其电压。导线不储存EU。
+- **用电方块**：把能量包接收进自身的EU缓冲。例如单方块机器、变压器或电池箱的输入侧，以及能源仓。它们能接受的能量包最大电压通常是对应等级的标准电压。
 
-# Request-and-Push Behavior
+# 请求与推送机制
 
-In game terms, local power networks use a **request-and-push** system. Assuming the setup is safe:
+用游戏术语来说，本地电网采用**请求-推送**系统。假设电路连接是安全的：
 
-- Power transfer is fundamentally a transfer **from the transmitter block's EU buffer directly into the consumer block's EU buffer**.
-- A transmitter block checks consumers whose buffers are not full, then pushes energy packets from its own buffer into them as needed.
-- Aside from the extra [transmission internal resistance](output_loss.md) paid when a transmitter converts buffered EU into packets, and the [cable loss](cable_loss.md) paid as each packet travels through wires, no power is wasted for no reason.
+- 电力传输本质上是**从输电方块的EU缓冲直接进入用电方块的EU缓冲**。
+- 输电方块会检查缓冲未满的用电方块，然后按需把自身缓冲中的能量包推送过去。
+- 除了输电方块把缓冲中的EU转换成能量包时支付的额外[传输内阻](output_loss.md)，以及每个能量包穿过导线时支付的[线缆损耗](cable_loss.md)之外，电力不会无缘无故地被浪费。
 
-# Providing Power Safely
+# 安全供电
 
-Unsafe setups have catastrophic consequences:
+不安全的电路会带来灾难性后果：
 
-- If the input voltage of a consumer block exceeds its maximum input voltage, the consumer **explodes immediately**. Do not power an LV Arc Furnace with MV packets; instead, use more LV generators or step the voltage down with a [transformer](distribution.md#transformers).
-- If a wire carries voltage above its maximum voltage or current above its maximum current, the wire **burns up** and is replaced by fire.
+- 如果用电方块的输入电压超过其最大输入电压，它会**立即爆炸**。不要用MV能量包给LV电弧炉供电；应当使用更多LV发电机，或用[变压器](distribution.md#transformers)把电压降下来。
+- 如果导线上的电压超过其最大电压，或电流超过其最大电流，导线会**烧毁**并化作火焰。
 
-Current is additive: the current carried by a wire segment is the sum of all current flowing through it. The maximum current that can appear in a local power network cannot exceed the total maximum output current of all transmitter blocks in that network. Whether a wire burns depends on the highest packet voltage among all packets flowing through it.
+电流是叠加的：某段导线承载的电流是流经它的所有电流之和。本地电网中可能出现的最大电流，不会超过该电网中所有输电方块的最大输出电流之和。一段导线是否会烧毁，取决于流经它的所有能量包中最高的包电压。
 
-# Providing Power Reliably
+# 可靠供电
 
-Transmitter blocks and consumer blocks each have their own maximum output current and maximum input current. Each tick, there is a limit to how many energy packets a transmitter can push or a consumer can accept.
+输电方块和用电方块各自有最大输出电流与最大输入电流。每一tick内，输电方块能推送的能量包数量和用电方块能接受的能量包数量都有上限。
 
-The purpose of reliable power supply is simple: consumer blocks should always receive enough packets to keep their buffers full and avoid power failures.
+可靠供电的目的很简单：用电方块应始终能收到足够的能量包，使缓冲保持充满并避免断电。
 
-Assuming the packet voltage received by the consumer is fixed, the average input current it needs is:
+假设用电方块收到的能量包电压固定，它所需的平均输入电流为：
 
 $$I_{\text{required input}} = \frac{P_{\text{recipe}}}{U_{\text{input}}}$$
 
-The necessary conditions for reliable power are:
+可靠供电的必要条件是：
 
-- The sum of the average input current required by all consumer blocks must not exceed the total maximum output current available from the transmitter blocks.
-- The average input current required by each consumer block must not exceed that block's own maximum input current.
+- 所有用电方块所需的平均输入电流之和，不得超过输电方块所能提供的最大输出电流总和。
+- 每个用电方块所需的平均输入电流，不得超过其自身的最大输入电流。
 
-If power is insufficient, singleblock machines powerfail and lose progress, while multiblocks powerfail, lose progress, and permanently void their inputs. Make sure the power supply is sufficient.
+如果电力不足，单方块机器会断电并丢失进度，多方块机器则会断电、丢失进度，输入的物料也会被永久销毁。请务必确保供电充足。
 
-# Useful Tools
+# 实用工具
 
-Use a GT EU Meter or a portable scanner on any powered block or wire to display its electrical information.
+对任何带电的方块或导线使用GT EU电表或便携式扫描仪，即可显示其电力信息。
 
-Pay special attention to these two values:
-- **Stored Energy**, which shows the internal EU buffer.
-- **Max Input/Output**, which shows maximum input/output voltage and current.
+请特别注意这两个数值：
+- **存储能量**：显示内部EU缓冲。
+- **最大输入/输出**：显示最大输入/输出电压与电流。

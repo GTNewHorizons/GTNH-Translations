@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Formation Plane
+  title: ME成型面板
   icon: appliedenergistics2:item.ItemMultiPart:320
 categories:
 - devices
@@ -9,45 +9,45 @@ item_ids:
 - appliedenergistics2:item.ItemMultiPart:320
 ---
 
-# Formation Plane
+# 成型面板
 
 <Row gap="20">
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:320" scale="4" />
 <ItemImage id="ae2fc:part_fluid_formation_plane" scale="4" />
 </Row>
 
-The formation plane places blocks and drops items. It works like an insert-only <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />, placing or dropping items when [devices](../ae2_mechanics/devices.md) insert them into [network storage](../ae2_mechanics/import_export_storage.md), such as an <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> or <ItemLink id="appliedenergistics2:tile.BlockInterface" />.
+成型面板用于放置方块和丢弃物品。其功能类似仅允许存入的<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />，当[设备](../ae2_mechanics/devices.md)（如<ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />或<ItemLink id="appliedenergistics2:tile.BlockInterface" />）向[网络存储](../ae2_mechanics/import_export_storage.md)存入物品时，触发放置或丢弃操作。
 
 <GameScene width="350" height="220" zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/formation_plane_demonstration.snbt" />
   <IsometricCamera yaw="255" pitch="30" />
 </GameScene>
 
-This device uses the same mechanics as storage buses in [pipe subnet](../tricks_example/pipe_subnet.md) setups and can replace them when you want to place blocks or drop items instead of transporting them.
+该设备利用了[管道子网](../tricks_example/pipe_subnet.md)布局中存储总线的机制；当你想要放置方块或丢弃物品而非运输物品时，可以用它来替代存储总线。
 
-They are [cable subparts](../ae2_mechanics/cables_subparts.md).
+它们属于[线缆组分](../ae2_mechanics/cables_subparts.md)。
 
-**Enable fake players in your chunk claim.**
+**请确保在领地插件中启用假玩家权限**
 
-## Filtering
+## 过滤设置
 
-By default, the plane places or drops anything. Items in filter slots form a whitelist. Items and fluids can be dragged from NEI; right-clicking with a fluid container selects the fluid.
+默认情况下，面板会放置或丢弃任何物品。放入过滤槽的物品构成白名单。物品和流体可通过NEI拖入过滤槽，即使并未实际拥有它们；手持流体容器（如桶或储罐）右键点击过滤槽，即可选择该流体而非容器物品本身。
 
-## Priority
+## 优先级
 
-Click the wrench in the top-right of the GUI to set priority. Items entering the network start at the highest-priority storage.
+点击GUI右上角的扳手图标可设置优先级。物品进入网络时将优先存入最高优先级的存储设备。
 
-## Settings
+## 设置项
 
-* The plane can place blocks in-world or drop items.
+* 可配置为在世界上放置方块或直接丢弃物品
 
-## Upgrades
+## 可安装升级
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> increases filter slots.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> enables fuzzy matching and NBT-ignoring filters.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> switches whitelist filtering to a blacklist.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> 增加过滤槽数量
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 启用按耐久度过滤或忽略物品NBT
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> 将白名单过滤切换为黑名单
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:320" />
 

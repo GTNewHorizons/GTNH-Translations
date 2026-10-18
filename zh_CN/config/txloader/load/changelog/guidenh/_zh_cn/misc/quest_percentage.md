@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Quest Completion Tracker
+  title: 任务完成进度追踪
   parent: misc.md
   icon: questbook:ItemQuestBook
 categories:
@@ -9,10 +9,10 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Quest Completion Tracker
-The quest book now shows the total number of completed quests, as well as the percentage of completion! Chapter completion texts also have a similar percentage completion! Specifically, it does not track some "hidden" quests, or generally anything not immediately viewable.
+# 任务完成进度追踪
+任务书现在会显示已完成任务的总数以及完成百分比！每章的完成文本同样带有类似的完成百分比！具体而言，它不会追踪某些“隐藏”任务，或总体上任何无法直接查看的任务。
 <FloatingImage src="../assets/misc/quest_perc.png" displayWidth="384">
   <ImageAnnotation>
-    An example of the questbook showing the percentage completion
+    任务书显示完成百分比的示例
   </ImageAnnotation>
 </FloatingImage>

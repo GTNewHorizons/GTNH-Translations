@@ -1,53 +1,53 @@
 ---
 navigation:
-  title: "Overclocking"
+  title: "超频"
   icon: gregtech:gt.blockmachines:15410
   parent: T_O_P_index.md
   position: -2
 ---
 
-# Overclocking
+# 超频
 
-**Overclocking** means increasing [rated power](T_O_P_index.md#rated-power) so the machine can complete recipes in less time. Whenever the machine's rated power exceeds (actual parallels x actual recipe power) by a sufficient factor, usually 4x, the machine gains one overclock and the recipe duration is reduced. Unlike **[tier skipping](tierskipping.md)**, overclocking can happen multiple times.
+**超频**是指提高 [额定功率](T_O_P_index.md#rated-power)，使机器能在更短时间内完成配方。只要机器的额定功率以足够的倍数（通常为 4 倍）超过（实际并行数 x 实际配方功率），机器就会获得一次超频，配方时长随之缩短。与 **[跳级](tierskipping.md)** 不同，超频可以发生多次。
 
-Overclocking has nothing to do with [voltage tier](T_O_P_index.md#voltage-tier). Using higher-tier Energy Hatches raises the rated power of a single hatch, allowing more overclocks; stacking multiple Energy Hatches can achieve a similar effect. The common case of installing two same-tier Energy Hatches is often called **dual-hatch overclocking**.
+超频与 [电压等级](T_O_P_index.md#voltage-tier) 无关。使用更高等级的能源仓可以提高单个能源仓的额定功率，从而获得更多次超频；堆叠多个能源仓也能达到类似效果。安装两个同等级能源仓的常见做法通常被称为 **双能源仓超频**。
 
-Before it starts overclocking, a multiblock first calculates and attempts **[parallels](parallels.md)**. Overclocking and batch mode are completely separate features.
+在开始超频之前，多方块结构会先计算并尝试 **[并行](parallels.md)**。超频与批处理模式是完全独立的功能。
 
-# Types of Overclocking
+# 超频的类型
 
-## Imperfect Overclocking (4/2)
+## 不完美超频（4/2）
 
-This is the default behavior. Each overclock multiplies power draw by 4 and cuts duration in half. Total energy doubles, so this is called **imperfect overclocking**. Most machines use this mode.
+这是默认行为。每次超频将功率消耗乘以 4，并把时长减半。总能量翻倍，因此称为 **不完美超频**。大多数机器使用这种模式。
 
-## Perfect Overclocking (4/4)
+## 完美超频（4/4）
 
-Each overclock multiplies rated power by 4, cuts duration to one quarter, and leaves total energy unchanged. This is called **perfect overclocking**. One example is <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />.
+每次超频将额定功率乘以 4，把时长缩短为四分之一，总能量保持不变。这称为 **完美超频**。例如 <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />。
 
-## Lossless Overclocking (2/2)
+## 无损超频（2/2）
 
-When rated power increases by 4x, actual power usage only increases by 2x and duration is halved. The singleblock Mass Fabricator is an example.
+当额定功率提高 4 倍时，实际功率消耗只增加 2 倍，时长减半。单方块的质量发生器就是一例。
 
-## Special Overclocking
+## 特殊超频
 
-Many machines do not fit cleanly into the categories above. For example:
-- <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />: first uses imperfect overclocks up to the Energy Hatch tier, then uses laser overclocks based on amperage, where the $$n$$th step increases power by $$(4+0.3n)$$
-- <ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />: one overclock multiplies input energy by 4 and halves duration, which works out roughly like an 8/2 overclock
+许多机器并不能严格归入上述类别，例如：
+- <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />：先进行不完美超频，直至达到能源仓等级，然后改用基于安培数的激光超频，其中第 $$n$$ 步将功率提高 $$(4+0.3n)$$
+- <ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />：一次超频将输入能量乘以 4 并把时长减半，效果大致相当于 8/2 超频
 
-## Cannot Overclock
+## 无法超频
 
-Special-purpose machines such as <ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:9402" showIcon="left" />, and <ItemLink id="gregtech:gt.blockmachines:1006" showIcon="left" /> do not allow overclocking.
+诸如 <ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:9402" showIcon="left" /> 和 <ItemLink id="gregtech:gt.blockmachines:1006" showIcon="left" /> 这样的特殊用途机器不允许超频。
 
-# Overclocking Low-Power Recipes
+# 低功率配方的超频
 
-Any recipe whose actual power is below 32 EU/t is treated as 32 EU/t for overclock calculations. This means ULV recipes, 1 to 8 EU/t, are treated as LV power. ULV is not treated as a standard voltage tier and does not participate in overclocking or parallel calculations as its own tier.
+凡实际功率低于 32 EU/t 的配方，在超频计算中一律按 32 EU/t 处理。也就是说，ULV 配方（1 到 8 EU/t）会按 LV 功率对待。ULV 不被视为标准电压等级，也不会作为独立等级参与超频或并行计算。
 
-# Calculating Recipe Duration
+# 计算配方时长
 
-Recipe duration is measured in ticks, where one tick is 0.05 seconds. Overclocking is calculated using floating-point values, and the final duration is rounded down to an integer number of ticks. If rounding down would produce 0, it is forced to 1 tick. At that point, some multiblocks trigger **1tOC** ([overclocking after reaching 1 tick](parallels.md#overclocking-after-reaching-1-tick-1toc)).
+配方时长以 tick 为单位，1 tick 即 0.05 秒。超频使用浮点数值进行计算，最终时长向下取整为整数 tick。若向下取整的结果为 0，则强制取 1 tick。此时，一些多方块结构会触发 **1tOC**（[达到 1 tick 后的超频](parallels.md#overclocking-after-reaching-1-tick-1toc)）。
 
-Rounding always favors the player, so in some cases overclocking can make total energy efficiency exceed 100%.
+取整总是偏向玩家，因此在某些情况下，超频可以让总能量效率超过 100%。
 
-Example - imperfect overclocking: $$10 \text{ tick} \to 5\text{ tick} \to 2\text{ tick} \to 1 \text{ tick} \to 1\text{ tick}$$
+示例——不完美超频：$$10 \text{ tick} \to 5\text{ tick} \to 2\text{ tick} \to 1 \text{ tick} \to 1\text{ tick}$$
 
-Example - perfect overclocking: $$40 \text{ tick} \to 10\text{ tick} \to 2\text{ tick} \to 1\text{ tick} \to 1\text{ tick}$$
+示例——完美超频：$$40 \text{ tick} \to 10\text{ tick} \to 2\text{ tick} \to 1\text{ tick} \to 1\text{ tick}$$

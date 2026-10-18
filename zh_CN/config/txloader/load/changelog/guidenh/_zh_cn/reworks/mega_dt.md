@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15516
 navigation:
-  title: Mega Distillation Tower
+  title: 巨型蒸馏塔
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15516
 categories:
@@ -11,26 +11,26 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Mega Distillation Tower
+# 巨型蒸馏塔
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15516"/>
 </GameScene>
-The <Color id="GREEN">Mega Distillation Tower (MDT)</Color> is an LuV tier multiblock for mass distilling fluids into ALL of its constituent fractions simultaneously, or for a single fraction at increased speed. The structure consists of a large central tower, with a pipe alongside it, which can increase in height by adding "slices" into the structure. If on Distillation Tower mode, the order of the outputs follows the NEI preview of the recipe and the number of outputs determines the minimum height of the structure. The <Color id="GREEN">MDT</Color> is a direct upgrade from the Distillation Tower <ItemImage id="gregtech:gt.blockmachines:1126"/>, because it offers up to 256 parallels in Tower mode, and 1024 in distillery mode, supports <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> for serious overclocking, and has unlimited tier skips. 
+<Color id="GREEN">巨型蒸馏塔（MDT）</Color>是一座 LuV 级多方块结构，用于将流体同时大规模蒸馏成其全部组分，或以更高速度蒸馏出单一组分。结构由一座大型中央塔和旁边的一根管道组成，可以通过向结构中加入“切片”来增加高度。在蒸馏塔模式下，产物的顺序遵循配方的 NEI 预览，产物数量决定结构的最小高度。相比蒸馏塔 <ItemImage id="gregtech:gt.blockmachines:1126"/>，<Color id="GREEN">MDT</Color>是一次直接升级：塔模式下最多 256 并行、精馏模式下 1024 并行，支持 <Color id="GREEN">多A能源仓和激光能源仓</Color>以进行强力超频，并拥有无限跳级能力。
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> Supports both Distillery and Distillation Tower modes
-> Distillation Tower Mode: Same parallels (256), 120% speed, 90% EU usage
-> Distillery Mode: $$256 \times (1 + \text{Tower Height} \div 2)$$ parallels, 150% speed, 50% EU usage
-> Gated to LuV by Naquadah processing
-> Has "slices" to add as part of the structure, meaning a variable size
+> 以下为该多方块结构（结构本身之外）所做的改动：
+> 同时支持精馏模式和蒸馏塔模式
+> 蒸馏塔模式：并行相同（256），120% 速度，90% EU 消耗
+> 精馏模式：$$256 \times (1 + \text{Tower Height} \div 2)$$ 并行，150% 速度，50% EU 消耗
+> 通过硅岩处理解锁至 LuV
+> 结构中可加入“切片”作为结构的一部分，即尺寸可变
 
-## Construction
-The <Color id="GREEN">MDT</Color> has no tiered components. The height ranges between 30-54 blocks tall depending on the number of output slices added. The structure is naturally split into 5 sections, all of which are mandatory. The base of the structure is where the controller is placed, and where any input buses, maintenance hatches, and energy hatches should be placed. On the left side of the structure is a small bronze "output pipe", in which the input hatch should be placed. On the opposite side of the structure is a similar steel pipe, in which the output bus is placed. Above the steel input pipe is the condenser tower, which has slots for output hatches (ranging from 3-11 depending on added slices). Finally, the main cost of the structure is in the tower itself, which has no space for hatches or buses of any type.
+## 建造
+<Color id="GREEN">MDT</Color>没有任何分等级的部件。高度在 30-54 格之间，取决于添加的输出切片数量。结构天然分为 5 个部分，全部都是必需的。结构底部是放置控制器的位置，输入总线、维护仓和能源仓也应放在这里。结构左侧是一根小型青铜“输出管道”，输入仓应放在这里。结构另一侧是一根类似的钢管，输出总线放在这里。钢管上方是冷凝塔，其中有用于输出仓的槽位（根据添加的切片数量为 3-11 个）。最后，结构的主要造价在于塔身本身，那里没有任何空间放置任何类型的仓或总线。
 
-## Basic Requires:
+## 基础需求：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15516"/><ItemImage id="gregtech:gt.blockmachines:15516"/>
 - 361 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
 - 215 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.2"/>
@@ -40,14 +40,14 @@ The <Color id="GREEN">MDT</Color> has no tiered components. The height ranges be
 - 80-81 <ItemLink id="gregtech:gt.blockcasings2:12"/><ItemImage id="gregtech:gt.blockcasings2:12"/>
 - 43-44 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 41 <ItemLink id="gregtech:gt.blockcasings2"/><ItemImage id="gregtech:gt.blockcasings2"/>
-- 1+ Energy Hatch (any naquadah central casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any central naquadah casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 0+ Input Bus (any central naquadah casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0-1 Input Hatch (replaces bronze pipe casing on left side) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0-1 Output Bus (replaces steel pipe casing on right side) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 3 Output Hatch (replaces bronze pipe casings on right side) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ 能源仓（任意硅岩中央机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意硅岩中央机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 0+ 输入总线（任意硅岩中央机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0-1 输入仓（替换左侧青铜管道方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0-1 输出总线（替换右侧钢管道方块） <ItemImage id="gregtech:gt.blockmachines:80" />
+- 3 输出仓（替换右侧青铜管道方块） <ItemImage id="gregtech:gt.blockmachines:60" />
 
-## Per Slice Requires:
+## 每切片需求：
 - 57 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.2"/>
 - 48 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
 - 32 <ItemLink id="gregtech:gt.sheetmetal:324"/><ItemImage id="gregtech:gt.sheetmetal:324"/>
@@ -55,9 +55,9 @@ The <Color id="GREEN">MDT</Color> has no tiered components. The height ranges be
 - 16 <ItemLink id="gregtech:gt.blockcasings14:5"/><ItemImage id="gregtech:gt.blockcasings14:5"/>
 - 16 <ItemLink id="gregtech:gt.blockcasings2:12"/><ItemImage id="gregtech:gt.blockcasings2:12"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
-- 1 Output Hatch (replaces bronze pipe casings on right side) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1 输出仓（替换右侧青铜管道方块） <ItemImage id="gregtech:gt.blockmachines:60" />
 
-## Max Size Requires:
+## 最大尺寸需求：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15516"/><ItemImage id="gregtech:gt.blockmachines:15516"/>
 - 553 <ItemLink id="gregtech:gt.blockcasings4:1"/><ItemImage id="gregtech:gt.blockcasings4:1"/>
 - 443 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.2"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.2"/>
@@ -67,23 +67,23 @@ The <Color id="GREEN">MDT</Color> has no tiered components. The height ranges be
 - 135-136 <ItemLink id="gregtech:gt.blockcasings2:12"/><ItemImage id="gregtech:gt.blockcasings2:12"/>
 - 66-67 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 41 <ItemLink id="gregtech:gt.blockcasings2"/><ItemImage id="gregtech:gt.blockcasings2"/>
-- 1+ Energy Hatch (any naquadah central casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any central naquadah casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 0+ Input Bus (any central naquadah casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0-1 Input Hatch (replaces bronze pipe casing on left side) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0-1 Output Bus (replaces steel pipe casing on right side) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 11 Output Hatch (replaces bronze pipe casings on right side) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ 能源仓（任意硅岩中央机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意硅岩中央机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 0+ 输入总线（任意硅岩中央机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0-1 输入仓（替换左侧青铜管道方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0-1 输出总线（替换右侧钢管道方块） <ItemImage id="gregtech:gt.blockmachines:80" />
+- 11 输出仓（替换右侧青铜管道方块） <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">MDTs</Color> may wallshare each of their sides to save on casings and buses/hatches. The structure however is somewhat awkward to share, and the savings will be minimal unless wallshared vertically, making the overall structure 105 blocks tall.
+### 共墙
+<Color id="GREEN">MDT</Color>的每个面都可以与其他机器共墙，以节省机械方块和总线/仓。不过这种结构共享起来比较别扭，除非进行垂直共墙（使整体结构达到 105 格高），否则节省将非常有限。
 
-## Usage
-The <Color id="GREEN">MDT</Color> now comes with two modes, as described below:
+## 用法
+<Color id="GREEN">MDT</Color>现在拥有两种模式，如下所述：
 
-### Distillation Tower Mode:
-In this mode, the <Color id="GREEN">MDT</Color> distills fluids into all of its constituent fractions simultaneously, similar to the regular Distillation Tower. Each fraction is outputted at a different layer of the structure based on the NEI preview of the recipe. The order is left-to-right and bottom-to-top. For example, the order of outputs when distilling oil is sulfuric heavy fuel, sulfuric light fuel, sulfuric naphtha, and sulfuric gas. In this mode, the machine gets access to 256 parallels, 120% speed compared to a regular Distillation Tower, and 90% of the EU usage.
+### 蒸馏塔模式：
+在此模式下，<Color id="GREEN">MDT</Color>与普通蒸馏塔类似，会将流体同时蒸馏成其全部组分。每个组分根据配方的 NEI 预览在结构的不同层输出。顺序为从左到右、从下到上。例如，蒸馏石油时的输出顺序为含硫重燃油、含硫轻燃油、含硫石脑油和含硫炼油气。在此模式下，机器可获得 256 并行、相比普通蒸馏塔 120% 的速度，以及 90% 的 EU 消耗。
 
-### Distillery Mode:
-In this mode, the <Color id="GREEN">MDT</Color> runs regular distillation recipes, with one input and one output. The output of an input is specified by giving a programmed circuit in the controller or input bus for the required outputs. Using this mode gives 150% speed, 50% of the EU usage. Note that even though only the bottom output hatch is used, all hatches must be present for the structure to form at all. The parallels gained by this machine are given as
+### 精馏模式：
+在此模式下，<Color id="GREEN">MDT</Color>运行常规蒸馏配方，一进一出。所需的输出通过在控制器或输入总线中放入编程电路来指定。使用此模式可获得 150% 速度、50% 的 EU 消耗。注意，即使只使用最底部的输出仓，所有输出仓也必须全部存在，结构才能成形。该机器获得的并行数为：
 <Latex formula="256 \times \Biggl( 1+\frac{\text{Tower Height}}{2} \Biggr)"/>
-where "Tower Height" is the amount of slices in the structure (not including the top slice). This gives a range of 512-1024 parallels depending on structure height
+其中“Tower Height”（塔高）指结构中切片的数量（不包括顶部切片）。根据结构高度，并行数范围为 512-1024

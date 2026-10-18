@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Wireless Connectors
+  title: 无线接入器
   icon: appliedenergistics2:tile.BlockWirelessConnector
 categories:
 - devices

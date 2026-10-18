@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Decorative Certus Blocks
+  title: 装饰性赛特斯石英方块
   icon: appliedenergistics2:tile.QuartzStairBlock
 categories:
 - misc ingredients blocks

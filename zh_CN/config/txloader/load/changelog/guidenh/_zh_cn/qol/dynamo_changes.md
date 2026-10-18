@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Changes to Dynamo Hatches
+  title: 动力仓改动
   parent: qol.md
   icon: gregtech:gt.blockmachines:16030
 categories:
@@ -8,11 +8,11 @@ categories:
 author: Skorched
 date: 2026-05-16
 ---
-# Changes to Dynamo Hatches
-There are two main changes to dynamo hatches that are outlined below.
+# 动力仓改动
+动力仓有以下两项主要改动，概述如下。
 
-## 256A Dynamo Hatches for UV+
-Tired of having multiple 64A dynamos on your Active Transformers? Use these instead!
+## 面向 UV+ 的 256A 动力仓
+厌倦了在有源变压器上挂多个 64A 动力仓？换用这些吧！
 <Row gap="16" alignItems="center">
 <ItemImage id="gregtech:gt.blockmachines:16030"/>
 <ItemImage id="gregtech:gt.blockmachines:16031"/>
@@ -22,13 +22,13 @@ Tired of having multiple 64A dynamos on your Active Transformers? Use these inst
 <ItemImage id="gregtech:gt.blockmachines:16035"/>
 </Row>
 <br clear="none">
-Now you can use 256A dynamo hatches from <Color id="BLUE">UV</Color> and beyond! This will cut down slightly on the duplication of hatches, and allows more effective packing of amps into wires in the late game!
+现在从 <Color id="BLUE">UV</Color> 及以上等级都可以使用 256A 动力仓了！这能略微减少动力仓的重复数量，并让你在后期能更高效地把安培打包进线缆！
 
-Unfortunately this also comes with a slight nerf to Multi-Amp Hatches across the board, but you win some and you lose some I guess!
+遗憾的是，多安培仓也因此整体遭到轻微削弱，不过有得必有失嘛！
 <RecipeFor id="gregtech:gt.blockmachines:15100" />
 
-## Buffered Dynamo Removal
-Have you ever used a <ItemLink id="gregtech:gt.blockmachines:904" showIcon="true" /> and wondered why you couldn't just use a TecTech 4A dynamo version? Well now you can! These old relics of the past are now deprecated, and have been completely replaced with 4A dynamo hatches starting at IV.
+## 缓冲动力仓移除
+你是否用过 <ItemLink id="gregtech:gt.blockmachines:904" showIcon="true" />，并疑惑为什么不能直接用 TecTech 的 4A 动力仓版本？现在可以了！这些昔日老古董现已被弃用，并完全替换为从 IV 开始的 4A 动力仓。
 
-For players with crafted buffered versions, they can be crafted simply into a 4A hatch.
+对于已经合成了缓冲版本的玩家，可以简单地把它们合成为 4A 动力仓。
 <RecipeFor id="gregtech:gt.blockmachines:15200" input="gregtech:gt.blockmachines:904" />

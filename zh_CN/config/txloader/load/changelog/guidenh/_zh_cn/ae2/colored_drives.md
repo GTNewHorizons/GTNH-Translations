@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Color Coded ME Drives
+  title: 颜色编码的ME驱动器
   parent: ae2.md
   icon: appliedenergistics2:tile.BlockDrive
 categories:
@@ -9,13 +9,13 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Color Coded ME Drives
-The visual rendering of ME Drives has changed! Now when applying a color to a drive, the color is applied to the chassis itself instead of the individual drives!
+# 颜色编码的ME驱动器
+ME驱动器的视觉渲染方式发生了变化！现在为驱动器上色时，颜色会应用于外壳本身，而不是其中各个独立的驱动器！
 
-This allows you to maintain a color-coded storage system, whilst still being able to discern types and tiers of the cells inside from outside the GUI!
+这样你既能维持按颜色分类的存储系统，又能在不打开GUI的情况下分辨内部存储元件的类型与等级！
 
 <FloatingImage src="../assets/ae2/colored_drives.png" align="left" displayWidth="256">
   <ImageAnnotation>
-    An example of a color coded set-up using ME Drives
+    使用ME驱动器进行颜色编码布局的示例
   </ImageAnnotation>
 </FloatingImage>

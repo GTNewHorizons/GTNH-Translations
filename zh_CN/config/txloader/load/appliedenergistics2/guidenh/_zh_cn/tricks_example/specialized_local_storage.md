@@ -1,71 +1,60 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Specialized Local Storage
+  title: 专用本地存储
   icon: appliedenergistics2:tile.BlockDrive
 ---
 
-# Specialized Local Storage
+# 专用本地存储
 
-Utilizing one of the [special behaviors of the Interface](../items_blocks/interface.md#special-interactions), a
-[subnetwork](../ae2_mechanics/subnetworks.md) can present the contents of its storage to the main network, without being able
-to see the main network's storage, and taking up only 1 [channel](../ae2_mechanics/channels.md).
+利用[ME接口的特殊交互机制](../items_blocks/interface.md#special-interactions)，[子网](../ae2_mechanics/subnetworks.md)可以将自己存储的内容呈现给主网络，同时无法看到主网络的存储，并且只占用1个[频道](../ae2_mechanics/channels.md)。
 
-This is useful for local storage at some farm, so that the items will not overflow into your main storage.
+这适用于农场等场景的本地存储，可防止物品溢出到你的主存储中。
 
 <GameScene zoom="6" interactive={true}>
   <ImportStructure src="../assets/structures/local_storage.snbt" />
 
   <BoxAnnotation color="#dddddd" min="4 0 0" max="5 2 1">
-  (1) Some method of importing items (in this case an interface)
+  (1) 某种物品输入方式（本例为ME接口）
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="3 0 0" max="4 1 1">
-  (2) Drive: Has some cells in it. The cells should be filtered to whatever the farm outputs.
-  The cells can have Equal Distribution Cards and Overflow Destruction Cards.
-  <Row><ItemImage id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" /></Row>
+  (2) ME驱动器：里面装有若干存储元件。这些元件应过滤为农场产出的物品。这些元件可以安装均分卡和溢出销毁卡。<Row><ItemImage id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="3 1 0" max="4 2 0.3">
-  (3) Crafting Terminal: This can see the contents of the Drive on the subnet, but not the contents of your main network's storage.
+  (3) 合成终端：可以看到子网上驱动器的内容，但看不到你主网络存储的内容。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 0 0" max="2.3 1 1">
-  (4) Interface #2: In its default configuration.
+  (4) ME接口#2：保持默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1.7 0 0" max="2 1 1">
-  (5) Storage Bus: Has priority set higher than the main storage, can be filtered to whatever the farm outputs.
+  (5) 存储总线：优先级设置得高于主存储，并可过滤为农场产出的物品。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 1 0" max="2 2 0.3">
-  Crafting Terminal: This can see both the contents of the main network's storage *and* the subnetwork.
+  合成终端：既可以查看主网络存储的内容，*也*可以查看子网的内容。
   </BoxAnnotation>
 
   <DiamondAnnotation pos="0 0.5 0.5" color="#00ff00">
-  To Main Network
+  连接主网络
   </DiamondAnnotation>
 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Configurations
+## 配置说明
 
-* The first <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) simply accepts items from whatever farm you have and pushes them into the subnet.
-* The <ItemLink id="appliedenergistics2:tile.BlockDrive" /> (2) has some [cells](../items_blocks/storage_cells.md) in it. The cells should be
-  [partitioned](../items_blocks/cell_workbench.md) to whatever the farm outputs.
-The cells can have <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" />s and <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />s.
-* The second <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (4) is in its default configuration.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> has its [priority](../ae2_mechanics/import_export_storage.md#storage-priority) set
-  higher than the main storage. It can be filtered to whatever the farm outputs.
+* 第一个<ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) 只是接收农场产出的物品，然后把它们推入子网。
+* <ItemLink id="appliedenergistics2:tile.BlockDrive" /> (2) 里面装有若干[存储元件](../items_blocks/storage_cells.md)。这些元件应[分区](../items_blocks/cell_workbench.md)过滤为农场产出的物品。这些元件可以安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" />和<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />。
+* 第二个<ItemLink id="appliedenergistics2:tile.BlockInterface" /> (4) 保持默认配置。
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />的[优先级](../ae2_mechanics/import_export_storage.md#storage-priority)设置得高于主存储。它可以过滤为农场产出的物品。
 
-## How It Works
+## 工作原理
 
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> on the subnet shows the <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> on the main network the contents of
-the <ItemLink id="appliedenergistics2:tile.BlockDrive" />. This means the storage bus can directly pull items from and push items to the cells in the drive.
-* The storage bus is set to high [priority](../ae2_mechanics/import_export_storage.md#storage-priority) so that items are preferentially
-  put back in the subnet instead of in your main storage.
-* Importantly, if the cells in the subnet fill up, the items will not overflow into the main network. If the farm is of a type
-that breaks if it backs up, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />s can be used to delete the excess items instead. 
-* If the farm outputs multiple items, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" />s can stop one item from filling all the cells
-and not letting the other items be stored.
+* 子网上的<ItemLink id="appliedenergistics2:tile.BlockInterface" />向主网络上的<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />展示<ItemLink id="appliedenergistics2:tile.BlockDrive" />的内容。这意味着存储总线可以直接从驱动器内的元件中拉取物品，或把物品存入其中。
+* 存储总线的[优先级](../ae2_mechanics/import_export_storage.md#storage-priority)设置得很高，使物品会优先存回子网，而不是进入你的主存储。
+* 重要的是，如果子网中的元件装满了，物品也不会溢出到主网络。如果你的农场属于一旦积压就会出问题的类型，可以改用<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" />来删除多余的物品。
+* 如果农场产出多种物品，<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" />可以防止某一种物品占满所有元件，而让其他物品无法存入。

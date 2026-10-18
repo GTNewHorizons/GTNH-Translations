@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Sudoku Lootgames
+  title: 数独战利品游戏
   parent: misc.md
   icon: lootgames:sdk_activator
 categories:
@@ -9,14 +9,14 @@ author: Skorched
 date: 2026-05-20
 ---
 
-# Sudoku Lootgames
+# 数独战利品游戏
 <FloatingImage src="../assets/misc/sudoku.png" displayWidth="180" wrap="square">
   <ImageAnnotation>
-    Example sudoku layouts
+    数独布局示例
   </ImageAnnotation>
 </FloatingImage>
-For all of you bored of smashing minesweepers, or "remembering" flashing colours (we can see your paper...), now we have <Color id="GREEN">Sudoku!</Color>. It follows the classic game, and allows you to "quit" the game at any time! The chance of finding one in a lootgame is the same weight of the other 2 pre-existing lootgames, and can be increased through configs if you really enjoy it!
+对于玩腻了狂点扫雷、或靠“记忆”闪光颜色（我们看到你在用纸记了……）的各位玩家，现在我们有了<Color id="GREEN">数独！</Color>。它遵循经典数独玩法，并允许你随时“退出”游戏！在战利品游戏中抽到数独的概率权重与其他 2 个既有战利品游戏相同，如果你真的很喜欢，还可以通过配置文件调高！
 
-The starting level starts with 35 blanks, right up to the hardest level with 64 blank spaces to fill! This game does not explode, and as mentioned previously, double left-click will end the game at any time and allow the claiming of any rewards!
+起始难度从 35 个空格起步，最高难度则有 64 个空格需要填写！这个游戏不会爆炸，并且如前所述，双击左键可随时结束游戏并领取任何奖励！
 
-The controls are super simple. On any blank space, left click to increase the number, right click to decrease!
+操作非常简单。在任意空格上，左键点击增加数字，右键点击减少！

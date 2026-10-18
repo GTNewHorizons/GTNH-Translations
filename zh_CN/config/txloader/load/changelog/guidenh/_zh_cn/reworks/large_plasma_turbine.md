@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15528
 navigation:
-  title: Large Plasma Turbine
+  title: 大型等离子涡轮
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15528
 categories:
@@ -11,100 +11,100 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Large Plasma Turbine
+# 大型等离子涡轮
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15528"/>
 </GameScene>
-The <Color id="GREEN">Large Plasma Turbine (LPT)</Color> is an LuV tier multiblock for generating power from plasma. The <Color id="GREEN">LPT</Color> is a direct upgrade from the singleblock plasma generators because it outputs up to 4A of power with much higher efficiency. However, a turbine must be placed inside the controller for the machine to run, the input rate of plasma must be carefully regulated, and it must be running for at least 50 seconds to fully warm-up. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate (L/s). Power is extracted from a 4A dynamo hatch on the back of the structure as the plasma condensates into liquid. Breaking the dynamo hatch while the machine is running causes it to explode. Save on fuel by automatically toggling the <Color id="GREEN">LPT</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>.
+<Color id="GREEN">大型等离子涡轮（LPT）</Color> 是一座利用等离子发电的 LuV 等级多方块结构。<Color id="GREEN">LPT</Color> 是单方块等离子发电机的直接升级，因为它最多可输出 4A 的电力，且效率高得多。不过，必须在控制器内放入涡轮机器才能运行，等离子的输入速率必须仔细调节，而且机器至少需要运行 50 秒才能完全预热。涡轮有四种不同尺寸和多种不同材料，每种都有各自的效率加成和最佳流量（L/s）。等离子冷凝为液体时，电力从结构背面的 4A 动力仓输出。机器运行时拆掉动力仓会导致其爆炸。把 RS 锁存器连接到兰波顿超级电容库 <ItemImage id="gregtech:gt.blockmachines:13106"/>，用来自动开关 <Color id="GREEN">LPT</Color>，以节省燃料。
 
-The <Color id="GREEN">LPT</Color> is superseded by the XL Turbo Plasma Turbine <ItemImage id="gregtech:gt.blockmachines:15523"/> which consumes as much plasma and produces as much power as 16 <Color id="GREEN">LPTs</Color>, but only requires 12 turbines. It also supports multi-amp and laser energy hatches for serious power generation. 
+<Color id="GREEN">LPT</Color> 已被特大等离子涡轮 <ItemImage id="gregtech:gt.blockmachines:15523"/> 取代，后者消耗的等离子和产生的电力与 16 座 <Color id="GREEN">LPT</Color> 相当，但只需要 12 个涡轮。它还支持多A能源仓和激光能源仓，适合进行大规模发电。
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
+[GTNH 电力规划器](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure itself has changed, the core functionality of the multiblock is the same as previous
+> 只有结构本身发生了变化，该多方块结构的核心功能与之前相同
 
-## Construction
-The <Color id="GREEN">LPT</Color> has no tiered components. The maintenance hatch, input hatch, and output hatch may replace any turbine casing on the back half of the structure. The dynamo hatch is limited to the center casing on the very back of the structure and cannot be greater than 4A. There is NO muffler hatch so do not include one. The 9 blocks directly in front of the controller are mandatory air. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+## 建造
+<Color id="GREEN">LPT</Color> 没有需要匹配等级的部件。维护仓、输入仓和输出仓可以替换结构后半部分任意位置的涡轮机械方块。动力仓只能放在结构最背部中央的机械方块上，且不能大于 4A。本结构没有消声仓，因此不要放置。控制器正前方的 9 个方块必须是空气。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
 
-Unique to large turbines is the turbine housing <ItemImage id="gregtech:gt.blockmachines:31025"/> which is effectively a ULV input bus for storing an extra turbine that automatically replaces the one inside the controller once it breaks. It is completely optional and gated to UV, but helps maximize runtime. 
+大型涡轮机特有的是涡轮仓 <ItemImage id="gregtech:gt.blockmachines:31025"/>，它实际上相当于一个 ULV 输入总线，用于存放一台备用涡轮，一旦控制器内的涡轮损坏，备用涡轮就会自动替换上去。它完全是可选的，且需要到 UV 才能合成，但有助于最大化运行时间。
 
-### Requires:
+### 所需方块：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15528"/><ItemImage id="gregtech:gt.blockmachines:15528"/>
 - 14 <ItemLink id="gregtech:gt.blockframes:316"/><ItemImage id="gregtech:gt.blockframes:316"/>
 - 8-14 <ItemLink id="gregtech:gt.blockcasings4:12"/><ItemImage id="gregtech:gt.blockcasings4:12"/>
 - 12 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
-- 1 Dynamo Hatch (back center turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 Maintenance Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 动力仓（背部中央涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 维护仓（背面任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:90" />
 - 0+ <ItemLink id="gregtech:gt.blockmachines:31025"/><ItemImage id="gregtech:gt.blockmachines:31025"/>
-- 0+ Input Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 0+ 输入仓（背面任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 输出仓（背面任意涡轮机械方块）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">LPTs</Color> may wallshare each of their sides to save on space, casings, and hatches. However, do NOT share the input hatch because the fuel is not split evenly between the <Color id="GREEN">LPTs</Color> -- one consumes everything and the other receives nothing. The restriction on the hatch locations make that difficult to accomplish anyway. 
+### 共墙
+<Color id="GREEN">LPT</Color> 可以共墙共享彼此的各个侧面，以节省空间、机械方块和仓。但是，不要共享输入仓，因为燃料不会在 <Color id="GREEN">LPT</Color> 之间均匀分配——一台会消耗全部燃料，另一台则一点也得不到。而且各仓的位置限制本身也让这种做法很难实现。
 
-## Usage
-The <Color id="GREEN">LPT</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid game when plasma production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
+## 使用
+<Color id="GREEN">LPT</Color> 有两种运行模式，如下所列，两者之间的量化差异请参见文首链接的规划器。前者更适合等离子产量较低的游戏前期至中期，后者更适合游戏后期——此时发电量比效率更重要。对控制器使用螺丝刀即可切换模式。
 
-- Tight Fitting Mode - High efficiency, Low optimal flow rate (power).
-- Loose Fitting Mode - Low efficiency, High optimal flow rate (power).
+- 紧密配合模式 - 高效率，低最佳流量（功率）。
+- 宽松配合模式 - 低效率，高最佳流量（功率）。
 
-The speed of the <Color id="GREEN">LPT</Color> increases linearly up to 100% while active and decreases back to 0% while inactive. Speed is directly proportional to the power output of the machine and takes 50 seconds to reach its maximum value regardless of the turbine size/material. Speed decays extremely fast when the <Color id="GREEN">LPT</Color> is disabled, the turbine is removed, the structure is broken, or fuel runs out. View the current speed of the turbine by using a Portable Scanner on the controller or looking at the "efficiency" value in WAILA. 
+<Color id="GREEN">LPT</Color> 运行时速度线性提升至最高 100%，停止运行时则降回 0%。速度与机器的功率输出成正比，无论涡轮尺寸/材料如何，都需要 50 秒才能达到最大值。当 <Color id="GREEN">LPT</Color> 被停用、涡轮被取出、结构被破坏或燃料耗尽时，速度会极快地衰减。对控制器使用便携式扫描仪，或查看 WAILA 中的 "efficiency" 数值，即可查看涡轮当前的速度。
 
-## Optimal Flow Rate
-The rate (L/s) at which plasma enters the <Color id="GREEN">LPT</Color> is extremely important. Too little plasma and only a fraction of the potential power is generated; too much plasma and a tremendous amount of fuel is wasted. Ideally, plasma enters the <Color id="GREEN">LPT</Color> at the optimal flow rate of the turbine which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}^*$$) in L/s is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, and $$\eta_0$$ is the base efficiency of the turbine.
+## 最佳流量
+等离子进入 <Color id="GREEN">LPT</Color> 的速率（L/s）极其重要。等离子太少，就只能产生潜在电力的一小部分；等离子太多，则会浪费巨量燃料。理想情况下，等离子应以涡轮的最佳流量进入 <Color id="GREEN">LPT</Color>，该流量随尺寸/材料以及机器的运行模式而显著变化。最佳流量（$$\dot{m}^*$$，单位 L/s）虽然可以在 NEI 中查看，但也可以用下列公式计算：其中 $$k$$ 是与每种材料相关的乘数，size 是介于 1=小型与 4=巨型之间的常数，$$\eta_0$$ 是涡轮的基础效率。
 
 <Latex formula="\dot{m}^* \text{Tight} = k \times \text{size} \times 1,000 \div EU/L">
-  Where:
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
+  其中：
+  - $$\dot{m}^*$$：最佳流量
+  - $$k$$：材料乘数
 </Latex>
 <Latex formula="\dot{m}^* \text{Loose} = k \times \text{size} \times 2,000 \div EU/L \times 1.03^{20(\eta_0 - 0.8)}">
-  Where:
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
-  - $$\eta_0$$: Base Efficiency
+  其中：
+  - $$\dot{m}^*$$：最佳流量
+  - $$k$$：材料乘数
+  - $$\eta_0$$：基础效率
 </Latex>
 
-The quicker and easier way to calculate the optimal flow rate in tight fitting mode is to divide the optimal plasma EU/t (visible in NEI) by the density of the plasma, and then multiply the result by 40/3. Some plasmas have slightly lower densities and thus higher optimal flow rates--especially if the <Color id="GREEN">LPT</Color> is in loose mode. The player may need to upgrade their fluid regulator or add a second input hatch to meet the increased demand. Eventually it becomes necessary to switch to AE2 fluid P2P tunnels which effectively have no transfer limit and no regard for temperature or heat capacity. 
+计算紧密配合模式下的最佳流量有一种更快、更简单的方法：将最佳等离子 EU/t（可在 NEI 中查看）除以该等离子的密度，再把结果乘以 40/3。有些等离子的密度略低，因此最佳流量更高——尤其当 <Color id="GREEN">LPT</Color> 处于宽松模式时。玩家可能需要升级流体调节器或加装第二个输入仓，以满足更高的需求。最终将不得不改用 AE2 流体 P2P 通道——它们实际上没有传输上限，也不受温度或热容的限制。
 
-## Power & Overflow
-The power generated by the <Color id="GREEN">LPT</Color> depends on the current flow rate ($$\dot{m}$$), the optimal flow rate ($$\dot{m}^*$$), and the efficiency of the turbine ($$\eta$$). Exceeding the optimal flow rate generates additional power with diminishing returns based on the overflow tier ($$T$$) of the turbine. There are only three overflow tiers in total and depends strictly on the material of the turbine. A higher overflow tier also increases the maximum flow rate ($$\dot{m}_{max}$$). View the overflow of a turbine through NEI and the current power output of the machine through WAILA.
+## 功率与溢流
+<Color id="GREEN">LPT</Color> 产生的电力取决于当前流量（$$\dot{m}$$）、最佳流量（$$\dot{m}^*$$）以及涡轮的效率（$$\eta$$）。超过最佳流量可以产生额外电力，但收益会按涡轮的溢流等级（$$T$$）递减。溢流等级总共只有三档，且严格取决于涡轮的材料。更高的溢流等级也会提高最大流量（$$\dot{m}_{max}$$）。通过 NEI 查看涡轮的溢流等级，通过 WAILA 查看机器当前的功率输出。
 
-Power is extracted from a 4A dynamo hatch on the back of the structure. Do not break the dynamo hatch while the machine is running or else the <Color id="GREEN">LPT</Color> will explode. Exceeding the maximum EU/t or the total EU in the dynamo's buffer is perfectly safe; the <Color id="GREEN">LPT</Color> will not explode if an attached battery buffer or Lapotronic Supercapacitor (LSC) is full and there is nowhere for the EU to go. Any additional EU is simply voided. It is highly recommended to automatically toggle the <Color id="GREEN">LPT</Color> with a redstone RS latch to avoid wasting fuel.
+电力从结构背面的 4A 动力仓输出。机器运行时不要拆掉动力仓，否则 <Color id="GREEN">LPT</Color> 会爆炸。超过最大 EU/t 或动力仓缓冲中的总 EU 量是完全安全的；如果所连接的电池缓冲或兰波顿超级电容库（LSC）已满、EU 无处可去，<Color id="GREEN">LPT</Color> 不会爆炸。多余的 EU 只会被直接销毁。强烈建议用红石 RS 锁存器自动开关 <Color id="GREEN">LPT</Color>，以避免浪费燃料。
 
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times EU/L \times \eta \div 20">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}^*$$：最佳流量
+  - $$\eta$$：效率
 </Latex>
 <Latex formula="\text{EU/t} (> \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^* \times (3T+1)} \Biggr) \times EU/L \times \eta \div 20">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
-  - $$T$$: Overflow Tier
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}^*$$：最佳流量
+  - $$\eta$$：效率
+  - $$T$$：溢流等级
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (1.5T + 1)">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}_{max}$$: Maximum Flow Rate
-  - $$T$$ Overflow Tier
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}_{max}$$：最大流量
+  - $$T$$ 溢流等级
 </Latex>
 
-# Turbines
-A turbine must be placed inside the GUI of the controller for the machine to run. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate. There are too many different permutations to list them all here, but the planner linked at the top has all the relevant information and even a calculator for determining the power output and lifespan of any turbine with any fuel.
+# 涡轮
+必须在控制器的 GUI 中放入涡轮机器才能运行。涡轮有四种不同尺寸和多种不同材料，每种都有各自的效率加成和最佳流量。可能的组合太多，无法在此一一列出，但文首链接的规划器包含所有相关信息，甚至还带有计算器，可用于计算任意涡轮搭配任意燃料时的功率输出和寿命。
 
-- Small turbines are crafted with long magnalium rods (available as early as LV)
-- Normal turbines are crafted with long titanium rods (available at the end of HV after traveling to the moon <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>)
-- Large turbines are crafted with long tungstensteel rods (available in IV after the tungsten processing line)
-- Huge turbines are crafted with long americium rods (available in ZPM after building a Fusion Reactor Mk-II <ItemImage id="gregtech:gt.blockmachines:32020"/>)
+- 小型涡轮由长镁铝合金杆制成（最早在 LV 即可获得）
+- 标准涡轮由长钛杆制成（HV 末期前往月球后可获得 <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>）
+- 大型涡轮由长钨钢杆制成（IV 阶段完成钨处理线后可获得）
+- 巨型涡轮由长镅杆制成（ZPM 阶段建造聚变反应堆 Mk-II 后可获得 <ItemImage id="gregtech:gt.blockmachines:32020"/>）
 
-## Durability
-The turbines slowly lose durability proportional to the power generated. The total durability of a turbine depends on the material and instantly voids once it reaches 0%. Turbines can be automatically inserted into the controller via the input bus, but they cannot be automatically extracted.
+## 耐久
+涡轮会随着发电量按比例缓慢损耗耐久。涡轮的总耐久取决于其材料，耐久一旦降到 0%，涡轮就会立即消失。涡轮可以通过输入总线自动插入控制器，但无法自动取出。
 
-The following equation calculates the lifespan of the turbines (in hours) from the current power output of an <Color id="GREEN">LPT</Color>. Note that loose fitting mode provides a 25% durability boost to compensate for the reduced lifespan of a higher power output and turbines last much longer here than in the Large Steam Turbine. Turbines generally have lifespans of several hundred hours (or more) so they do not need to be replaced very often. 
+以下公式可根据一座 <Color id="GREEN">LPT</Color> 当前的功率输出计算涡轮的寿命（单位：小时）。注意，宽松配合模式提供 25% 的耐久加成，以补偿更高功率输出导致的寿命缩短，而且涡轮在这里的持续时间远长于在大型蒸汽涡轮中。涡轮的寿命一般为数百小时（或更久），因此不需要频繁更换。
 
 <Latex formula="\text{Lifespan } (h) = \frac{50\times \text{Durability}}{36 \times \text{min}(36 \times EU/t,(0.2 \times EU/t)^{0.6})}"/>
 

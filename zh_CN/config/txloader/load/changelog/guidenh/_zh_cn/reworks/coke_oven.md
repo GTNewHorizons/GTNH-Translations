@@ -4,7 +4,7 @@ item_ids:
   - gregtech:gt.blockmachines:237
   - gregtech:gt.blockcasings12:0
 navigation:
-  title: Coke Oven
+  title: 焦炉
   parent: reworks.md
   icon: gregtech:gt.blockmachines:236
 categories:
@@ -13,60 +13,60 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Coke Oven
+# 焦炉
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:236"/>
 </GameScene>
-The <Color id="GREEN">Coke Oven</Color> is a Stone tier multiblock for burning logs into charcoal and refining coal into coal coke. The process takes 90 seconds per log/coal and produces creosote oil as a byproduct. Creosote oil can be used as fuel in furnaces, the Railcraft Boiler, the Large Boiler, and more. It can also be used to craft torches very efficiently and make lubricant in a distillery, brewery, or Distillation Tower. The Coke Oven is superseded by the Pyrolyse Oven <ItemImage id="gregtech:gt.blockmachines:15543"/> and Advanced Coke Oven <ItemImage id="Railcraft:machine.alpha:12"/> in MV. 
+<Color id="GREEN">焦炉</Color>是一种石头等级多方块结构，用于将原木烧制成木炭，以及将煤炭精炼成焦煤。每处理一根原木/一块煤炭需要90秒，并产出杂酚油作为副产物。杂酚油可以用作熔炉、Railcraft锅炉、大型锅炉等的燃料，还可以用来非常高效地制作火把，或在蒸馏器、酿造机或蒸馏塔中制作润滑油。到了MV等级，焦炉会被热解炉<ItemImage id="gregtech:gt.blockmachines:15543"/>和高级焦炉<ItemImage id="Railcraft:machine.alpha:12"/>所取代。
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> New Automation: The coke oven now uses special Coke Oven Hatches for automation
-> Wallsharing: Since they are now GT multiblocks, they can be wallshared!
+> 除结构本身外，该多方块结构还进行了以下改动：
+> 新自动化：焦炉现在使用专用的焦炉仓来实现自动化
+> 共墙：由于它们现在是GT多方块结构，因此可以共墙！
 
-## Construction
-The <Color id="GREEN">Coke Oven</Color> is a hollow cube surrounded by coke oven bricks and a controller on one side. Interact with the <Color id="GREEN">Coke Oven</Color> manually through the GUI of the controller, or use <Color id="RED">Coke Oven Hatches</Color> <ItemImage id="gregtech:gt.blockmachines:237"/> to automate inserting inputs and extracting outputs. <Color id="RED">Coke oven hatch(es)</Color> may replace any brick anywhere on the structure and functions in one of three available modes: input, output (items), and output (fluids). Switch modes by right-clicking the hatch with a screwdriver and rotate the hatch by right-clicking it with a wrench. The coke oven hatch does not have its own internal inventory and therefore does not drop items or void fluids when broken--only the controller does that. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+## 建造
+<Color id="GREEN">焦炉</Color>是一个由焦炉砖围成的空心立方体，其中一面放置控制器。可以通过控制器的GUI手动操作<Color id="GREEN">焦炉</Color>，也可以使用<Color id="RED">焦炉仓</Color> <ItemImage id="gregtech:gt.blockmachines:237"/>来自动输入原料并取出产物。<Color id="RED">焦炉仓</Color>可以替换结构中任意位置的焦炉砖，并在三种可用模式之一下工作：输入、输出（物品）和输出（流体）。用螺丝刀右键点击焦炉仓即可切换模式，用扳手右键点击则可旋转其朝向。焦炉仓没有自己的内部物品栏，因此被破坏时不会掉落物品或清空流体——只有控制器才会这样。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
 
-A <Color id="GREEN">Coke Oven</Color> with three hatches requires 114 coke oven bricks (ingots), 54 iron, and 18 bronze to build. The bricks cost 190 sand, 114 clay, and 38 uses of the wooden form. However, it is highly recommended to collect much more than this in the early game to build additional Coke Ovens.
+一座带三个仓的<Color id="GREEN">焦炉</Color>需要114块焦炉砖（锭）、54个铁和18个青铜才能建成。焦炉砖需要消耗190个沙子、114个黏土，以及木制模具（Wooden Form）的38次使用次数。不过，强烈建议在游戏前期收集远多于此的材料，以便建造更多焦炉。
 
-### Requires:
+### 所需材料：
 - 1 <ItemLink id="gregtech:gt.blockmachines:236"/><ItemImage id="gregtech:gt.blockmachines:236"/>
 - 0-25 <ItemLink id="gregtech:gt.blockmachines:237"/><ItemImage id="gregtech:gt.blockmachines:237"/>
 - 0+ <ItemLink id="gregtech:gt.blockcasings12"/><ItemImage id="gregtech:gt.blockcasings12"/>
 
-### Wallsharing
+### 共墙
 <FloatingImage src="../assets/reworks/coke_oven_wallshare.png" displayWidth="128" align="right">
   <ImageAnnotation>
-    An example of a quad wallshared coke oven
+    四座共墙焦炉的示例
   </ImageAnnotation>
 </FloatingImage>
-<Color id="GREEN">Coke Ovens</Color> may wallshare each of their sides to save on coke oven bricks and coke oven hatches. This is highly recommended because it saves a significant amount of resources and reduces the number of hatches required. For example, the image to the right depicts four separate coke ovens all using the same coke oven hatch at the center of the structure. 
+<Color id="GREEN">焦炉</Color>的每一面均可与其他机器共墙，以节省焦炉砖和焦炉仓。强烈建议这样做，因为它能节省大量资源并减少所需仓的数量。例如，右侧的图片展示了四座独立的焦炉共同使用位于结构中心处同一个焦炉仓的情形。
 
-## Usage
-The <Color id="GREEN">Coke Oven</Color> is primarily used to burn logs into charcoal, but there are a few other niche uses as seen in the following table. Bonsai trees are an excellent way to gather a significant amount of logs in the early game. Create bonsais by right-clicking crop sticks with any vanilla sapling--spruce and jungle are the best because they produce more per harvest. Another method is to craft a Tinker's Construct Lumber Axe and repeatedly harvest sacred oak trees, or any other massive tree that can drop thousands of logs at a time. Sacred oak trees spawn naturally in the Sacred Springs biome and their sapling can be earned as a quest reward in the Quest Book.
+## 用途
+<Color id="GREEN">焦炉</Color>主要用于将原木烧制成木炭，但也有其他一些冷门用途，见下表。盆栽树（Bonsai trees）是在游戏前期收集大量原木的绝佳方式。手持任意原版树苗右键点击作物架即可创建盆栽——云杉和丛林木最佳，因为它们每次收获的产出更多。另一种方法是制作一把匠魂伐木斧，反复砍伐神圣橡树，或其他任何一次就能掉落数千根原木的巨型树木。神圣橡树自然生成于神圣泉源（Sacred Springs）生物群系，其树苗可以通过任务书中的任务奖励获得。
 
-The <Color id="GREEN">Coke Oven</Color> is also used to refine coal into coal coke. The difference is that coal coke has twice the burn time and can smelt iron into steel 33% faster in the Bricked Blast Furnace <ItemImage id="gregtech:gt.blockmachines:140"/>. Cactus coke and sugar coke are very similar and renewable alternatives but they are not nearly as energy dense. See the following table for a summary of all the available recipes, which are also visible in NEI. 
+<Color id="GREEN">焦炉</Color>也用于将煤炭精炼成焦煤。区别在于焦煤的燃烧时间是煤炭的两倍，并且在砖高炉<ItemImage id="gregtech:gt.blockmachines:140"/>中将铁熔炼成钢的速度快33%。仙人掌焦炭和糖焦炭是非常类似且可再生的替代品，但它们的能量密度远不及焦煤。下表汇总了所有可用配方，这些配方也可以在NEI中查看。
 
-| Length | Input (Burn Time) | Output (Burn Time) | Byproduct (Burn Time) |
+| 时长 | 输入（燃烧时间） | 输出（燃烧时间） | 副产物（燃烧时间） |
 | --------------- | --------------- | --------------- | --------------- |
-| 90s | 1 Log (300) | 1 Charcoal (1,600) | 250L Creosote Oil (1,600) |
-| 90s | 1 Coal (1,600) | 1 Coal Coke (3,200) | 500L Creosote Oil (3,200) |
-| 810s | Coal Block (16,000) | 1 Coal Coke Block (32,000) | 4,500L Creosote Oil (28,800) |
-| 25s | 1 Cactus (50) | 1 Cactus Charcoal (400) | 30L Creosote Oil (192) |
-| 25s | 1 Cactus Charcoal (400) | 1 Cactus Coke (800) | 30L Creosote Oil (192) |
-| 25s | 1 Sugar Cane (50) | 1 Sugar Charcoal (400) | 30L Creosote Oil (192) |
-| 25s | 1 Sugar Charcoal (400) | 1 Sugar Coke (800) | 30L Creosote Oil (192) |
+| 90s | 1 原木 (300) | 1 木炭 (1,600) | 250L 杂酚油 (1,600) |
+| 90s | 1 煤炭 (1,600) | 1 焦煤 (3,200) | 500L 杂酚油 (3,200) |
+| 810s | 煤炭块 (16,000) | 1 焦煤块 (32,000) | 4,500L 杂酚油 (28,800) |
+| 25s | 1 仙人掌 (50) | 1 仙人掌炭 (400) | 30L 杂酚油 (192) |
+| 25s | 1 仙人掌炭 (400) | 1 仙人掌焦炭 (800) | 30L 杂酚油 (192) |
+| 25s | 1 甘蔗 (50) | 1 糖炭 (400) | 30L 杂酚油 (192) |
+| 25s | 1 糖炭 (400) | 1 糖焦炭 (800) | 30L 杂酚油 (192) |
 
 
-## Creosote Oil
-<Color id="GREEN">Creosote Oil</Color> is a byproduct of nearly all Coke Oven recipes. Extract creosote oil manually with buckets, fluid cells, seared tanks, and super tanks or automatically with fluid pipes attached to a coke oven hatch. Store the creosote oil in a Railcraft Tank, super tank, or any other fluid tank. Creosote oil can be used as fuel in a variety of places including vanilla furnaces, the Railcraft Boiler, and the Large Boiler. It can also be used to craft torches very efficiently and make lubricant in a distillery, brewery, or Distillation Tower.
+## 杂酚油
+<Color id="GREEN">杂酚油</Color>是几乎所有焦炉配方的副产物。可以用桶、流体单元、焦黑储罐和超级储罐手动抽取杂酚油，也可以用连接到焦炉仓上的流体管道自动抽取。将杂酚油储存在Railcraft储罐、超级储罐或任何其他流体储罐中。杂酚油可以在多种场合用作燃料，包括原版熔炉、Railcraft锅炉和大型锅炉。它还可以用来非常高效地制作火把，或在蒸馏器、酿造机或蒸馏塔中制作润滑油。
 
-The Coke Oven automatically stops processing when there is no more room for creosote oil or charcoal/coke. Therefore, it needs to be emptied every so often to continue working. This can be done manually or automatically--see the following section for a guide on the latter. Creosote oil can also be immediately voided by breaking and replacing the controller. 
+当杂酚油或木炭/焦炭没有更多存放空间时，焦炉会自动停止加工。因此，需要定期清空它才能继续工作。清空可以手动进行，也可以自动进行——后者的做法见下一节。此外，破坏并重新放置控制器可以立即清空杂酚油。
 
-# Automation
-The Coke Oven can be fully automated with coke oven hatches, as seen in the following video. Coke oven hatches cannot auto-pull from adjacent inventories but they can auto-push, which means a hopper or conveyor module is all that is really required. If using the latter, set the conveyor module to IMPORT because it is probably attached to the item pipe rather than the inventory itself. 
+# 自动化
+焦炉可以使用焦炉仓实现完全自动化，如下方视频所示。焦炉仓无法从相邻容器自动抽取物品，但可以自动推送输出，这意味着实际上只需要一个漏斗或传送带模块。如果使用后者，请将传送带模块设为IMPORT，因为它连接的多半是物品管道而非容器本身。
 
 <GameScene width="420" height="280" zoom={3} interactive={true}>
   <ImportStructure src="../assets/reworks/coke_oven.snbt" />

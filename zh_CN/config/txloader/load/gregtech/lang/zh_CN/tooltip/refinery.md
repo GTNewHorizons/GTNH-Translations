@@ -1,2 +1,2 @@
-Refines {white:Fluorides} and {white:Uranium} into {gold:Molten Salts} for the {white:LFTR}
-{gold:LFTR Fuel 2} and {gold:LFTR Fuel 3} have alternative, much more efficient recipes
+将{white:氟化物}和{white:铀}精炼为供{white:液态氟钍反应堆}使用的{gold:熔盐}
+{gold:液态氟钍反应堆燃料2}和{gold:液态氟钍反应堆燃料3}拥有可选的、效率高得多的替代配方

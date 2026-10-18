@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:1033
 navigation:
-  title: Spinmatron-2737
+  title: 离心中枢-2737
   parent: multis.md
   icon: gregtech:gt.blockmachines:1033
 categories:
@@ -11,46 +11,46 @@ author: Skorched
 date: 2026-05-25
 ---
 
-# Spinmatron-2737
+# 离心中枢-2737
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1033" />
 </GameScene>
-The <Color id="GREEN">Spinmatron-2737</Color> is a ZPM tier multiblock for mass centrifuging dusts, liquids, and other items into their sub components or constituent elements. In standard mode, the <Color id="GREEN">Spinmatron</Color> is a direct upgrade from the Industrial Centrifuge <ItemImage id="gregtech:gt.blockmachines:15512"/> because it run at <Color id="RED">300%</Color> speed, only uses <Color id="BLUE">70%</Color> of the EU/t normally required, and offers <Color id="GREEN">4</Color> parallels per sum of turbine tier. Non-huge turbines contribute fewer parallels and should be avoided. It also has unlimited tier skips which mean it can run any recipe regardless of voltage. The <Color id="GREEN">Spinmatron</Color> requires $$\text{Recipe Tier} \times 10 L/s$$ of kerosene to function OR the same amount of biocatalyzed propulsion fluid to further multiply the number of parallels by 1.25.
+<Color id="GREEN">离心中枢-2737</Color> 是一台 ZPM 等级的多方块结构，用于将粉、流体及其他物品大量离心为其次级成分或组成元素。在标准模式下，<Color id="GREEN">Spinmatron</Color> 是工业离心机 <ItemImage id="gregtech:gt.blockmachines:15512"/> 的直接升级版，因为它以 <Color id="RED">300%</Color> 的速度运行，只消耗正常运行所需 EU/t 的 <Color id="BLUE">70%</Color>，并且每点涡轮等级总和提供 <Color id="GREEN">4</Color> 个并行。非巨型涡轮提供的并行数更少，应当避免使用。它还拥有无限制的等级跨越，这意味着无论电压如何都能运行任何配方。<Color id="GREEN">Spinmatron</Color> 运行需要 $$\text{Recipe Tier} \times 10 L/s$$ 的煤油，或者等量的生物催化推进液，后者可将并行数再乘以 1.25。
 
-The <Color id="GREEN">Spinmatron</Color> also has three modes (Light, Standard, or Heavy) which affect its performance and capabilities. Light mode grants a +100% speed bonus but the maximum recipe tier is limited to $$\text{Voltage Tier} - 3$$. Standard Mode is described above. Heavy Mode divides the number of parallels by 32, requires a T3 structure, and requires biocatalyzed propulsion fluid. Heavy mode should only be used in the cases that specifically require it. 
+<Color id="GREEN">Spinmatron</Color> 还有轻量（Light）、标准（Standard）和重型（Heavy）三种模式，会影响其性能与能力。轻量模式提供 +100% 的速度加成，但最高配方等级限制为 $$\text{Voltage Tier} - 3$$。标准模式如上文所述。重型模式会将并行数除以 32，需要 T3 结构，并且需要生物催化推进液。重型模式只应在明确需要的情况下使用。
 <br clear="all"/>
 
-## Construction:
-The <Color id="GREEN">Spinmatron</Color> has four structure tiers correlating to the material of the frame boxes and central rotor blocks. Each structure tier grants 2 additional turbine slots inside the controller for increasing the maximum number of parallels. Buses/hatches may replace any vibration-safe casing<ItemImage id="gregtech:gt.blockcasings12:9"/> anywhere on the structure. The glass can be any tier and has no effect on the operation of the machine. <Color id="GREEN">Multi-amp and Laser Energy Hatches</Color> are supported, but overclocks are limited to hatch tier + 1. Use a screwdriver on the controller to disable animations. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and the number of projectors held in a single stack to determine the overall structure tier.
+## 建造：
+<Color id="GREEN">Spinmatron</Color> 有四个结构等级，与框架箱和中央转子方块的材料相对应。每个结构等级会在控制器内部额外提供 2 个涡轮槽位，用于提高最大并行数。总线/仓可以替换结构中任意位置的任何防震机械方块<ItemImage id="gregtech:gt.blockcasings12:9"/>。玻璃可以是任意等级，对机器的运行没有影响。支持<Color id="GREEN">多A能源仓与激光能源仓</Color>，但超频上限为能源仓等级 + 1。对控制器使用螺丝刀可以关闭动画。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/建造结构：用子通道“glass”指定玻璃的等级，用单组堆叠中持有的投影仪数量决定整体结构等级。
 
-The turbines themselves do NOT go in the rotor assemblies. Instead, place them in the controller under the chamber controller settings. They will still visually appear in the rotor assemblies without actually being placed there. Right-click the controller with a screwdriver to switch between static and animated turbine textures. The chamber controller settings also have the option to enable T2 biocatalyzed propulsion fluid; the <Color id="GREEN">Spinmatron</Color> does not automatically detect when it is present inside the machine instead of kerosene. 
+涡轮本身并不放入转子组件中，而是放置在控制器内的“腔室控制器设置”下。即使没有实际放置在那里，它们仍会在视觉上显示在转子组件中。用螺丝刀右键控制器，可以在静态与动画涡轮贴图之间切换。“腔室控制器设置”中还有启用 T2 生物催化推进液的选项；当机器内部装的是生物催化推进液而非煤油时，<Color id="GREEN">Spinmatron</Color> 不会自动检测。
 
-### Requires:
+### 所需方块：
 - 1 <ItemLink id="gregtech:gt.blockmachines:1033"/><ItemImage id="gregtech:gt.blockmachines:1033"/>
 - 550-711 <ItemLink id="gregtech:gt.blockcasings12:9"/><ItemImage id="gregtech:gt.blockcasings12:9"/>
 - 264 <ItemLink id="GoodGenerator:supercriticalFluidTurbineCasing"/><ItemImage id="GoodGenerator:supercriticalFluidTurbineCasing"/>
 - 160 <ItemLink id="gregtech:gt.blockcasings9"/><ItemImage id="gregtech:gt.blockcasings9"/>
 - 144 <ItemLink id="gregtech:gt.blockglass1:6"/><ItemImage id="gregtech:gt.blockglass1:6"/>
-- 81 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks"/>
-- 56 Central Rotor Block (tiered by multi tier) <ItemImage id="gregtech:gt.blockmetal4:13"/>
+- 81 等级玻璃（任意等级） <ItemImage id="bartworks:BW_GlasBlocks"/>
+- 56 中央转子方块（等级随多方块等级而定） <ItemImage id="gregtech:gt.blockmetal4:13"/>
 - 54 <ItemLink id="miscutils:gtplusplus.blockcasings.5:2"/><ItemImage id="miscutils:gtplusplus.blockcasings.5:2"/>
 - 24 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>
-- 9 Frame Box (tiered by multi tier) <ItemImage id="miscutils:blockFrameGtPikyonium64B"/>
+- 9 框架箱（等级随多方块等级而定） <ItemImage id="miscutils:blockFrameGtPikyonium64B"/>
 - 8 <ItemLink id="gregtech:gt.blockmachines:30010"/> <ItemImage id="gregtech:gt.blockmachines:30010"/>
-- 1+ Energy Hatch (any vibration-safe casing) <ItemImage id="gregtech:gt.blockmachines:40"/>
-- 1 Maintenance Hatch (any vibration-safe casing) <ItemImage id="gregtech:gt.blockmachines:90"/>
-- 0+ Input Bus (any vibration-safe casing) <ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Input Hatch (any vibration-safe casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
-- 0+ Output Bus (any vibration-safe casing) <ItemImage id="gregtech:gt.blockmachines:80"/>
-- 0+ Output Hatch (any vibration-safe casing) <ItemImage id="gregtech:gt.blockmachines:60"/>
-### Wallsharing:
-<Color id="GREEN">Spinmatrons</Color> may wallshare each of their sides to save on casings, rotor assemblies, and buses/hatches. However, that does not include the turbines themselves because they are stored inside the controller. 
+- 1+ 能源仓（任意防震机械方块） <ItemImage id="gregtech:gt.blockmachines:40"/>
+- 1 维护仓（任意防震机械方块） <ItemImage id="gregtech:gt.blockmachines:90"/>
+- 0+ 输入总线（任意防震机械方块） <ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ 输入仓（任意防震机械方块） <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ 输出总线（任意防震机械方块） <ItemImage id="gregtech:gt.blockmachines:80"/>
+- 0+ 输出仓（任意防震机械方块） <ItemImage id="gregtech:gt.blockmachines:60"/>
+### 共墙：
+<Color id="GREEN">Spinmatron</Color> 的每一面都可以与其他结构共墙，以节省机械方块、转子组件和总线/仓。但这不包括涡轮本身，因为涡轮存储在控制器内部。
 
-## Usage:
-In standard mode, the <Color id="GREEN">Spinmatron</Color> is a direct upgrade from the Industrial Centrifuge because it run at 300% speed, only uses 70% of the EU/t normally required, and offers 4 parallels per sum of turbine tier. Huge turbines are the most effective since large/normal/small turbines only contribute 75%/50%/25% of their tier value to the overall sum. For example, a Spinmatron with two huge adamantium turbines (Tier 10) has a total of 4 x (10+10) = 80 parallels.
+## 用法：
+在标准模式下，<Color id="GREEN">Spinmatron</Color> 是工业离心机的直接升级版，因为它以 300% 的速度运行，只消耗正常运行所需 EU/t 的 70%，并且每点涡轮等级总和提供 4 个并行。巨型涡轮最为高效，因为大型/普通/小型涡轮只会将其等级值的 75%/50%/25% 计入总和。例如，一台装有两个巨型精金涡轮（10 级）的 Spinmatron 总共有 4 x (10+10) = 80 个并行。
 
-The Spinmatron has three operating modes, listed below. Change modes under "display machine information" in the GUI of the controller. Light mode is excellent for lower tier recipes such as combs and impure dusts. Standard mode is ideal for higher tier recipes above the $$\text{Voltage Tier} - 3$$ restriction. And heavy mode should only be used in the cases that specifically require it.
+Spinmatron 有三种运行模式，如下所列。可在控制器 GUI 的“显示机器信息”下切换模式。轻量模式非常适合蜜脾、不纯粉等低等级配方。标准模式则适合高于 $$\text{Voltage Tier} - 3$$ 限制的高等级配方。而重型模式只应在明确需要的情况下使用。
 
-- Light Mode - Grants a +100% speed bonus, but the maximum recipe tier is limited to $$\text{Voltage Tier} - 3$$.
-- Standard Mode - No change to the original description.
-- Heavy Mode - Divides parallels by 32, requires at least a T3 structure, and requires biocatalyzed propulsion fluid instead of kerosene.
+- 轻量模式 - 提供 +100% 的速度加成，但最高配方等级限制为 $$\text{Voltage Tier} - 3$$。
+- 标准模式 - 与前述说明相同。
+- 重型模式 - 将并行数除以 32，需要至少 T3 结构，并且需要用生物催化推进液代替煤油。

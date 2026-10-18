@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Space Elevator Changes
+  title: 太空电梯改动
   parent: qol.md
   icon: gregtech:gt.blockmachines:14003
 categories:
@@ -8,29 +8,29 @@ categories:
 author: Skorched
 date: 2026-05-16
 ---
-# Space Elevator Changes
-A couple of nice quality of life changes have been given to the <Color id="GREEN">Space Elevator</Color> <ItemImage id="gregtech:gt.blockmachines:14003"/>
+# 太空电梯改动
+此次为 <Color id="GREEN">太空电梯</Color> <ItemImage id="gregtech:gt.blockmachines:14003"/> 带来了几项不错的生活品质改动。
 
-# Shared Space Elevator Inputs
-Have you ever wanted to add a few more <Color id="BLUE">Space Elevators</Color> to increase production, but found the redirection of computation to annoying? Now you can share the computation and plasma between __all__ mining modules of Space Elevators!
+# 共享太空电梯输入
+你是否曾想再添几台 <Color id="BLUE">太空电梯</Color> 来提高产量，却嫌把运算重定向过去太麻烦？现在你可以在太空电梯的 __所有__ 采矿模块之间共享运算与等离子体了！
 
-If you still want precise tinkering of computation and/or plasma between modules, that is still possible by putting a hatch on that module as before, and it will only use the given amount of resources.
+如果你仍然想在模块之间精细调配运算和/或等离子体，也依然可以像以前那样给该模块装上一个仓，它就只会使用所给定数量的资源。
 
 > [!NOTE]
-> This is only applied to mining modules, space assemblers and pumps will not work with this feature.
-> Old setups will still work as before
+> 此功能仅适用于采矿模块，太空装配机和泵无法配合此功能使用。
+> 旧的设置仍会像以前一样正常工作
 
-# Space Miner GUI Improvements
+# 太空采矿机 GUI 改进
 <FloatingImage src="../assets/qol/space_gui.png" align="left" wrap="square" displayWidth="128">
   <ImageAnnotation>
-    The new <Color id="RED">Space Miner Utility</Color> panel
+    全新的 <Color id="RED">太空采矿实用面板</Color>
   </ImageAnnotation>
 </FloatingImage>
-The <Color id="GREEN">Space Mining Modules</Color> have had a huge interface update, removing a lot of the need to reference out-of-game resources such as spreadsheets!
+<Color id="GREEN">太空采矿模块</Color>的界面迎来了巨大更新，大幅减少了需要翻阅电子表格等游戏外资料的需求！
 
-3 new panels have been added to the UI:
-- <Color id="BLUE">Space Miner Calculator</Color>: Lets you see what a specific configuration can yield, given a tier and distance setting!
-- <Color id="RED">Space Miner Utility Panel</Color>: Lets you see all of the different asteroids, and lets you see quickly which ones are able to be hit at given distances, miner tiers, or drone tiers
-- <Color color="#00ffff">Asteroid Information Panel</Color>: Shows all relevant information about an asteroid, allowing you to target it by automatically setting the miner distance so that specific asteroid is hit as often as possible!
+UI 中新增了 3 个面板：
+- <Color id="BLUE">太空采矿计算器</Color>：让你看到特定配置在给定等级与距离设置下能产出什么！
+- <Color id="RED">太空采矿实用面板</Color>：让你看到所有不同的小行星，并快速看出在给定的距离、采矿机等级或无人机等级下，哪些小行星能够被采到
+- <Color color="#00ffff">小行星信息面板</Color>：显示某颗小行星的所有相关信息，并允许你锁定它——自动设置采矿机距离，让这颗特定小行星被尽可能频繁地采到！
 
-Everything currently able to be mined is now highlighted in the filter so you can see at a glance what is available!
+当前可开采的所有物品现在都会在过滤器中高亮显示，让你一眼就能看出有哪些可选项！

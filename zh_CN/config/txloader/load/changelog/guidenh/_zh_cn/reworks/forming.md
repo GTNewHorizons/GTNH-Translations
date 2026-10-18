@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15552
 navigation:
-  title: Industrial Forming Press
+  title: 工业冲压机床
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15552
 categories:
@@ -11,46 +11,46 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Industrial Forming Press
+# 工业冲压机床
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15552"/>
 </GameScene>
-The <Color id="GREEN">Industrial Forming Press (IFP)</Color> is an EV tier multiblock for pressing metals into molds. The <Color id="GREEN">IFP</Color> is a direct upgrade from the singleblock forming press because it runs at <Color id="BLUE">600%</Color> speed and offers <Color id="RED">6</Color> parallels per voltage tier. Input separation should be enabled on the <Color id="GREEN">IFP</Color> for using different molds and programmed circuits within the same machine. 
+<Color id="GREEN">工业冲压机床（IFP）</Color>是一个 EV 等级多方块结构，用于将金属压入模具成型。<Color id="GREEN">IFP</Color>是单方块冲压机床的直接升级版，它以 <Color id="BLUE">600%</Color> 的速度运行，并且每个电压等级提供 <Color id="RED">6</Color> 并行。为了在同一台机器中使用不同的模具和编程电路，应在<Color id="GREEN">IFP</Color>上启用输入隔离。
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Separation of Machines: The Bending and Forming functionality has been separated into two distinct multiblocks ([See Industrial Bending Machine](bending.md))
-> - More Parallels: 4 -> 6 per Voltage Tier
+> 以下是对该多方块结构所做的改动（结构本身除外）：
+> - 机器分离：弯曲和冲压功能已被拆分为两个独立的多方块结构（[参见工业卷板机](bending.md)）
+> - 更多并行：每个电压等级从 4 -> 6
 
-## Construction
-The <Color id="GREEN">IFP</Color> has no tiered components. Buses/hatches may replace any metalworking machine casing anywhere on the structure. <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+## 建造
+<Color id="GREEN">IFP</Color>没有分级部件。总线/仓可以替换结构上任意位置的金属加工机械方块。不支持<Color id="GREEN">多A能源仓和激光能源仓</Color>，但可以放置多个普通能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构。
 
-### Requires:
+### 需求：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15552"/>
 - 5-20 <ItemLink id="miscutils:miscutils.blockcasings:4"/><ItemImage id="miscutils:miscutils.blockcasings:4"/>
 - 6 <ItemLink id="gregtech:gt.blockframes:28"/><ItemImage id="gregtech:gt.blockframes:28"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 - 5 <ItemLink id="gregtech:gt.blockcasings12:14"/><ItemImage id="gregtech:gt.blockcasings12:14"/>
 - 1 <ItemLink id="gregtech:gt.blockcasings2:4"/><ItemImage id="gregtech:gt.blockcasings2:4"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">IFPs</Color> may wallshare each of their sides to save on casings, forming cores, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### 共墙
+<Color id="GREEN">IFP</Color>的每个侧面都可以与其他机器共墙，以节省机械方块、冲压核心和总线/仓。没有配方消耗超过 1A 的电力，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
-## Usage
-The <Color id="GREEN">IFP</Color> is a direct upgrade from the singleblock forming press because it runs at 600% speed and offers 6 parallels per voltage tier, as seen in the following table. 
+## 用法
+<Color id="GREEN">IFP</Color>是单方块冲压机床的直接升级版，它以 600% 的速度运行，并且每个电压等级提供 6 并行，如下表所示。
 
 
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 | 6 | 12 | 18 | 24 | 30 | 36 | 42 | 48 | 54 | 60 | 66 | 72 | 78 | 84 | 90 |
 
-Input separation should be enabled on the <Color id="GREEN">IFP</Color> to prevent SOLID ingredients in different input buses from being used in the same recipe, including any molds or programmed circuits. That means a single <Color id="GREEN">IFP</Color> with many input buses can support many different molds or programmed circuits simultaneously. Just don't forget to stay above the minimum number of metalworking machine casings. The plate mold (for mica based sheets) and all four AE2 circuit presses can occupy the same input bus without any conflicts. 
+应在<Color id="GREEN">IFP</Color>上启用输入隔离，以防止不同输入总线中的固体原料被用于同一配方，包括任何模具或编程电路。这意味着一台拥有多个输入总线的<Color id="GREEN">IFP</Color>可以同时支持多种不同的模具或编程电路。只是别忘了金属加工机械方块的数量要保持在最低要求之上。板材模具（用于云母基薄片）和全部四种 AE2 电路压印模板可以放在同一个输入总线中，互不冲突。

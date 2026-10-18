@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Instantly Connecting Pipes
+  title: 管道即时连接
   parent: misc.md
   icon: gregtech:gt.blockmachines:5760
 categories:
@@ -9,7 +9,7 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Instantly Connecting Pipes
-As of 2.9, all GregTech fluid pipes, item pipes, and cables will now connect with no delay, right as they are placed!
+# 管道即时连接
+自 2.9 起，所有格雷科技流体管道、物品管道与线缆都将在放置的瞬间立即连接，不再有任何延迟！
 
-Pipes and cables will still only connect to blocks that you explicitly connect them to by placing directly on them. They __will not__ instantly connect to all nearby pipes or cables
+管道与线缆仍然只会连接到你在放置时直接对着放置的方块。它们 __不会__ 自动连接到附近所有的管道或线缆

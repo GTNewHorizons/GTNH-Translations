@@ -1,11 +1,11 @@
 ---
 navigation:
-  title: Applied Energistics
+  title: 应用能源
   parent: /index.md
   icon: appliedenergistics2:item.ItemExtremeStorageCell.Universe
 ---
-# Applied Energistics
-As part of 2.9, ~~Applied Energistics Simulator~~ GTNH has got a few improvements to <Color id="GREEN">Applied Energistics 2</Color>!
+# 应用能源
+作为2.9的一部分，~~应用能源模拟器~~GTNH对<Color id="GREEN">应用能源2</Color>进行了一些改进！
 
 <Category name="Applied Energistics 2" rows="3"/>
 

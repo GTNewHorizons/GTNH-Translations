@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: InGame Info Toggling
+  title: 游戏内信息切换
   parent: qol.md
   icon: minecraft:lever
 categories:
@@ -9,9 +9,9 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# InGame Info Toggling
-<Color id="GREEN">InGame Info</Color> (The information in the top left by default) now has support for a second config file!
+# 游戏内信息切换
+<Color id="GREEN">InGame Info</Color>（默认位于左上角的信息）现在支持第二个配置文件了！
 
-This means that you can keep two different HUD layouts and swap between them at any time in-game!
+这意味着你可以保存两套不同的 HUD 布局，并在游戏中随时切换！
 
-Add an optional second file (`\config\InGameInfo2.xml`) and use the toggle key to cycle: primary -> secondary -> OFF!
+添加一个可选的第二个文件（`\config\InGameInfo2.xml`），然后使用切换键循环切换：主配置 -> 副配置 -> 关闭！

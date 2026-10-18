@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Mega Chemical Reactor
+  title: 巨型化学反应釜
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15515
 categories:
@@ -9,37 +9,37 @@ author: Skorched
 date: 2026-05-23
 ---
 
-# Mega Chemical Reactor 
+# 巨型化学反应釜 
 
 <GameScene wrap="square">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15515"/>
 </GameScene>
-The <Color id="GREEN">Mega Chemical Reactor</Color> is an LuV tier multiblock for performing even larger and more advanced chemical reactions. The <Color id="GREEN">MCR</Color> is a direct upgrade from the Large Chemical Reactor<ItemImage id="gregtech:gt.blockmachines:1169"/> because it offers <Color id="RED">256</Color> parallels, supports <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> for serious overclocking, and has <Color id="BLUE">unlimited</Color> tier skips. That means it can run any recipe regardless of voltage as long as there is enough power. Expect to only build a few of these because they scale so well. 
+<Color id="GREEN">巨型化学反应釜</Color>是一座用于进行规模更大、更高级化学反应的 LuV 级多方块结构。相比大型化学反应釜<ItemImage id="gregtech:gt.blockmachines:1169"/>，<Color id="GREEN">MCR</Color>是一次直接升级：提供 <Color id="RED">256</Color> 并行，支持 <Color id="GREEN">多A能源仓和激光能源仓</Color>以进行强力超频，并拥有<Color id="BLUE">无限</Color>跳级能力。也就是说，只要电力充足，它就能无视电压运行任何配方。由于它的扩展性极好，预计只需要建造少数几台。
 
 <br clear="all"/>
 
 > [!NOTE]
-> The main changes to the Mega Chemical Reactor are as follows:
-> - Hatch restrictions have been removed, so you can now place any hatch anywhere on the casings! (There is still the limit of one energy hatch per structure)
-> - There is a new overlay texture to distinguish it from the <ItemLink id="gregtech:gt.blockmachines:1169" />
-> - The (optional) <ItemLink id="gregtech:gt.blockcasings5:13" /> <ItemImage id="gregtech:gt.blockcasings5:13" /> now glow when the machine is active
+> 巨型化学反应釜的主要改动如下：
+> - 仓的放置限制已移除，现在可以把任意仓放在机械方块的任意位置！（每座结构仍限制只能有一个能源仓）
+> - 新增了覆盖层贴图，以便与 <ItemLink id="gregtech:gt.blockmachines:1169" /> 区分
+> - （可选的）<ItemLink id="gregtech:gt.blockcasings5:13" /> <ItemImage id="gregtech:gt.blockcasings5:13" /> 现在在机器运行时会发光
 
 
-## Construction
-The <Color id="GREEN">MCR</Color> has one tiered component. The glass determines the maximum tier of the energy hatch, but there is no limit on the amperage. The fusion coil blocks may be replaced with eternal heating coils if preferred. Buses/hatches may replace any chemically inert machine casing anywhere on the structure. <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> are supported for serious overclocking, but the latter requires at least UV tier glass. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass. 
-### Requires:
+## 建造
+<Color id="GREEN">MCR</Color>只有一种分等级的部件。玻璃决定能源仓的最高等级，但电流数没有限制。如果愿意，聚变线圈方块可以换成永恒加热线圈。总线/仓可以替换结构中任意位置的化学惰性机械方块。<Color id="GREEN">多A能源仓和激光能源仓</Color>受支持，可进行强力超频，但后者至少需要 UV 级玻璃。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来可视化/搭建结构，并借助子通道 “glass” 指定玻璃的等级。
+### 需求：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15515"/><ItemImage id="gregtech:gt.blockmachines:15515"/>
 - 0-79 <ItemLink id="gregtech:gt.blockcasings8"/><ItemImage id="gregtech:gt.blockcasings8"/>
-- 64 Tiered Glass <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 64 等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 28 <ItemLink id="gregtech:gt.blockcasings8:1"/><ItemImage id="gregtech:gt.blockcasings8:1"/>
 - 7 <ItemLink id="gregtech:gt.blockcasings4:7"/><ItemImage id="gregtech:gt.blockcasings4:7"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:60" />
-### Wallsharing
-<Color id="GREEN">MCRs</Color> may wallshare each of their sides to save on casings and buses/hatches. However, do not share the energy hatch because the machine pulls as many amps as possible while there are still parallels or overclocks available. 
-## Usage
-The <Color id="GREEN">MCR</Color> is a direct upgrade from the Large Chemical Reactor because it offers 256 parallels, supports multi-amp and laser energy hatches for serious overclocking, and has unlimited tier skips. That means it can run any recipe regardless of voltage as long as there is enough power. 
+- 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输入仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ 输出仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:60" />
+### 共墙
+<Color id="GREEN">MCR</Color>的每个面都可以与其他机器共墙，以节省机械方块和总线/仓。但不要共用能源仓，因为只要还有并行或超频余量，机器就会尽可能多地抽取电流。
+## 用法
+<Color id="GREEN">MCR</Color>相比大型化学反应釜是一次直接升级：提供 256 并行，支持多A能源仓和激光能源仓以进行强力超频，并拥有无限跳级能力。也就是说，只要电力充足，它就能无视电压运行任何配方。

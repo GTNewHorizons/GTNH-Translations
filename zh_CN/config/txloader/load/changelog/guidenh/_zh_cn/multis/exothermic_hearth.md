@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15517
 navigation:
-  title: Exothermic Hearth
+  title: 放热壁炉
   parent: multis.md
   icon: gregtech:gt.blockmachines:15517
 categories:
@@ -12,45 +12,45 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Exothermic Hearth
+# 放热壁炉
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15517" />
 </GameScene>
-The <Color id="GREEN">Exothermic Hearth (ExH)</Color> is a ZPM tier multiblock for mass smelting dusts into ingots, crafting silicon boules, and heating up various materials. It replaces the previous Mega Electric Blast Furnace. The <Color id="GREEN">ExH</Color> is a direct upgrade from the Electric Blast Furnace <ItemImage id="gregtech:gt.blockmachines:1000"/> because it offers up to <Color id="RED">512</Color> parallels, supports <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> for serious overclocking, and has <Color id="BLUE">unlimited tier skips</Color>. That means it can run any recipe regardless of voltage tier as long as there is enough power and heat. The number of available parallels slowly increases up to 512 during activity and decreases back down to 256 while idle. Optionally, enable pyrotheum heating in the GUI of the controller to 6x the rate at which parallels are gained at the cost of 250-500 L/s of blazing pyrotheum. The <Color id="GREEN">ExH</Color> gains a 5% energy discount for every 900K over the recipe requirement and one perfect overclock for every 1,800K over the recipe requirement. The ExH only outperforms the Volcanus <ItemImage id="gregtech:gt.blockmachines:963"/> if it can take full advantage of its 512 parallels (4+ overclocks).
+<Color id="GREEN">放热壁炉（ExH）</Color>是一个用于将大量粉熔炼成锭、制造硅晶棒并加热各种材料的 ZPM 级多方块结构。它取代了先前的巨型工业高炉。<Color id="GREEN">ExH</Color>是工业高炉<ItemImage id="gregtech:gt.blockmachines:1000"/>的直接升级：它最高提供 <Color id="RED">512</Color> 并行，支持<Color id="GREEN">多A能源仓与激光能源仓</Color>以实现深度超频，并拥有<Color id="BLUE">无限跨级</Color>能力。这意味着只要有足够的电力与热量，它就能无视电压等级运行任何配方。可用并行数在运行期间缓慢提升至 512，闲置时则回落至 256。可选择在控制器 GUI 中启用烈焰加热，使并行获取速率变为 6 倍，代价是每秒消耗 250-500 L 烈焰之炽焱。<Color id="GREEN">ExH</Color>每超出配方所需 900K 便获得 5% 能耗折扣，每超出配方所需 1,800K 便获得一次无损超频。只有当 ExH 能充分利用其 512 并行（4+ 次超频）时，它才会优于炽焱高炉<ItemImage id="gregtech:gt.blockmachines:963"/>。
 <br clear="all"/>
 
-## Construction:
-The <Color id="GREEN">ExH</Color> has two tiered components. The heating coils determine the maximum tier of recipes, the energy discount, and the number of perfect overclocks. The glass determines the maximum tier of the energy hatch. UMV tier glass removes all restrictions. Buses/hatches may replace any hearth casing anywhere on the structure, except for the muffler hatch which is limited to the center casing on the top layer of the structure. Multi-amp and laser energy hatches are supported, but the latter requires at least UV tier glass. Use the Multiblock Structure Hologram Projector to visualize/build the structure with subchannels "coil" and "glass" to specify the tier of those components. 
-### Requires:
+## 建造：
+<Color id="GREEN">ExH</Color>拥有两个分级组件。加热线圈决定配方的最高等级、能耗折扣与无损超频次数；玻璃决定能源仓的最高等级。UMV 级玻璃可解除所有限制。总线/仓可替换结构中任意位置的壁炉机械方块，但消声仓除外——它仅限放在结构顶层的中心机械方块位置。支持多A能源仓与激光能源仓，但后者需要至少 UV 级玻璃。使用多方块机器全息投影仪来可视化/搭建结构，并通过子频道 "coil" 与 "glass" 指定这些组件的等级。
+### 需求：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15517"/><ItemImage id="gregtech:gt.blockmachines:15517"/>
 - 1,800-1,918 <ItemLink id="gregtech:gt.blockcasings14:3"/><ItemImage id="gregtech:gt.blockcasings14:3"/>
 - 925 <ItemLink id="gregtech:gt.blockcasings:11"/><ItemImage id="gregtech:gt.blockcasings:11"/>
-- 860 Heating Coil (tiered) <ItemImage id="gregtech:gt.blockcasings5:11"/>
+- 860 加热线圈（分级）<ItemImage id="gregtech:gt.blockcasings5:11"/>
 - 780 <ItemLink id="miscutils:gtplusplus.blockcasings.2:11"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:11"/>
 - 426 <ItemLink id="gregtech:gt.blockcasings8:10"/><ItemImage id="gregtech:gt.blockcasings8:10"/>
-- 332 Tiered Glass <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 332 等级玻璃<ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 308 <ItemLink id="gregtech:gt.blockcasings11:7"/><ItemImage id="gregtech:gt.blockcasings11:7"/>
 - 280 <ItemLink id="miscutils:miscutils.blockcasings:14"/><ItemImage id="miscutils:miscutils.blockcasings:14"/>
 - 131 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
 - 56 <ItemLink id="gregtech:gt.blockframes:163"/><ItemImage id="gregtech:gt.blockframes:163"/>
-- 1+ Energy Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:40"/>
-- 1 <ItemLink id="gregtech:gt.blockmachines:90"/> (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:90"/>
-- 1 Muffler Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:91"/>
-- 0+ Input Bus (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Input Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Output Bus (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:80"/>
-- 0+ Output Hatch (any hearth casing)<ItemImage id="gregtech:gt.blockmachines:60"/>
+- 1+ 能源仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:40"/>
+- 1 <ItemLink id="gregtech:gt.blockmachines:90"/>（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:90"/>
+- 1 消声仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:91"/>
+- 0+ 输入总线（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ 输入仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ 输出总线（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:80"/>
+- 0+ 输出仓（任意壁炉机械方块）<ItemImage id="gregtech:gt.blockmachines:60"/>
 
-### Wallsharing:
-<Color id="GREEN">ExHs</Color> may wallshare each of their sides to save on casings and buses/hatches. That does NOT include any of the heating coils or glass. 
-## Usage:
-The <Color id="GREEN">ExH</Color> is a direct upgrade from the Electric Blast Furnace because it offers up to 512 parallels, supports multi-amp and laser energy hatches for serious overclocking, and has unlimited tier skips. That means it can run any recipe regardless of voltage tier as long as there is enough power and heat. For example, a ZPM 256A laser energy hatch can run UIV recipes if the heat capacity is high enough. The glass tier only limits the voltage tier of the energy hatch, NOT the voltage tier of recipes.
+### 共墙：
+<Color id="GREEN">多台 ExH</Color>可以互相共墙（共享彼此侧面）以节省机械方块与总线/仓。但这并不包括任何加热线圈或玻璃。
+## 用法：
+<Color id="GREEN">ExH</Color>是工业高炉的直接升级：它最高提供 512 并行，支持多A能源仓与激光能源仓以实现深度超频，并拥有无限跨级能力。这意味着只要有足够的电力与热量，它就能无视电压等级运行任何配方。例如，只要热容量足够高，一台 ZPM 256A 激光能源仓就能运行 UIV 配方。玻璃等级只限制能源仓的电压等级，并不限制配方的电压等级。
 
-The number of available parallels slowly increases up to 512 during activity and decreases back down to 256 while idle, as seen below. It takes 30 minutes of continuous activity to achieve the maximum 512 parallels but only 4 minutes and 16 seconds to lose it all. Optionally, enable pyrotheum heating in the GUI of the controller to 6x the rate at which parallels are gained at the cost of 250-500 L/s of blazing pyrotheum. The consumption rate scales linearly with the number of additional parallels, but it allows the ExH to achieve the maximum 512 parallels in just 5 minutes instead. Running out of blazing pyrotheum while pyrotheum heating is enabled causes the machine to immediately shutdown and void the current recipe.
+如下方所示，可用并行数在运行期间缓慢提升至 512，闲置时则回落至 256。达到最大 512 并行需要连续运行 30 分钟，但失去全部并行只需 4 分 16 秒。可选择在控制器 GUI 中启用烈焰加热，使并行获取速率变为 6 倍，代价是每秒消耗 250-500 L 烈焰之炽焱。消耗速率与额外并行数成线性关系，但这能让 ExH 仅用 5 分钟就达到最大 512 并行。若在启用烈焰加热时耗尽烈焰之炽焱，机器会立即停机并作废当前配方。
 
-- +0.711 parallels per 5 seconds while active (pyrotheum heating disabled), 30 minutes to max
-- +4.267 parallels per 5 seconds while active (pyrotheum heating enabled), 5 minutes to max
-- -1 parallel per second while idle, 4.26 minutes to min
+- 运行时每 5 秒 +0.711 并行（未启用烈焰加热），30 分钟达到最大值
+- 运行时每 5 秒 +4.267 并行（启用烈焰加热），5 分钟达到最大值
+- 闲置时每秒 -1 并行，4.26 分钟降至最小值
 
-## Heat Capacity
-Lastly, the <Color id="GREEN">ExH</Color> gains a 5% energy discount for every 900K over the recipe requirement and one perfect overclock for every 1,800K over the recipe requirement. There is also a +100K heat bonus for every voltage tier above MV.
+## 热容量
+最后，<Color id="GREEN">ExH</Color>每超出配方所需 900K 便获得 5% 能耗折扣，每超出配方所需 1,800K 便获得一次无损超频。此外，高于 MV 的每个电压等级还会提供 +100K 的热量加成。

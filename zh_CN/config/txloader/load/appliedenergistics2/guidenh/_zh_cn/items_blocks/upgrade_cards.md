@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Upgrade Cards
+  title: 升级卡
   icon: appliedenergistics2:item.ItemMultiMaterial:25
   position: 410
 categories:
@@ -27,7 +27,7 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:67
 ---
 
-# Upgrade Cards
+# 升级卡
 <Column>
   <Row>
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
@@ -65,10 +65,9 @@ item_ids:
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:66" scale="2" />
   </Row>
 </Column>
-Upgrade cards change the behavior of AE2 devices and machines, increasing their speed, improving their
-filter capacity, enabling redstone control, etc.
+升级卡用于改变AE2设备与机器的行为，可提升运行速度、增加过滤容量、启用红石控制等功能。
 
-## Card Components
+## 卡片组件
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:25" scale="2" />
@@ -76,7 +75,7 @@ filter capacity, enabling redstone control, etc.
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:28" scale="2" />
 </Row>
 
-Upgrade cards are crafted using either a Basic Card or an Advanced Card as the base.
+所有升级卡均需以基础卡或高级卡作为基底制作。
 
 <Row>
   <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:25" />
@@ -84,182 +83,174 @@ Upgrade cards are crafted using either a Basic Card or an Advanced Card as the b
   <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:28" />
 </Row>
 
-## Redstone Card
+## 红石卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
 
-Redstone Cards add redstone control to a device, including a toggle in its GUI for switching between redstone modes.
+红石卡为设备添加红石控制功能，包括在其GUI中提供用于切换红石模式的开关。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:26" />
 
-## Capacity Card
+## 容量卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:27" scale="2" />
 
-Capacity Cards increase the number of filter slots in Import Buses, Export Buses, Storage Buses, and Formation Planes.
+容量卡可提升输入/输出总线、存储总线及成型面板的过滤槽数量。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:27" />
 
-## Overflow Void Card
+## 溢出销毁卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" />
 
-Overflow Void Cards can be applied to [Storage Cells](storage_cells.md) in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
-They delete incoming items when the cell is full. Make sure to [partition](cell_workbench.md) your cells first.
-When combined with an Equal Distribution Card, an item is voided as soon as its own partition is full, even if other partitions still have room.
+溢出销毁卡可在<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />中安装至[存储元件](storage_cells.md)。当元件满载时，它会销毁传入的物品。请务必先为元件进行[分区](cell_workbench.md)。与均分卡配合使用时，只要某件物品对应的分区已满，该物品就会被立刻销毁，即使其他分区仍有空间。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:68" />
 
-## Fuzzy Card
+## 模糊卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:29" scale="2" />
 
-Fuzzy Cards let filtered devices and tools match by durability and/or ignore item NBT. That allows you to export
-all iron axes regardless of durability or enchantments, or export only damaged diamond swords instead of fully repaired ones.
+模糊卡让带过滤功能的设备与工具能够按耐久度匹配和/或忽略物品NBT。这样可以导出所有铁斧而不论其耐久度或附魔如何，或者只导出受损的钻石剑而非修复完好的钻石剑。
 
-Below is an example of how fuzzy durability comparison modes work. The left side shows the bus configuration, and the top row shows the compared item.
+下方示例演示了模糊耐久比较模式的运作方式：左侧显示总线的配置，顶行显示参与比较的物品。
 
-| 25%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| 25%阈值 | 10%耐久镐 | 30%耐久镐 | 80%耐久镐 | 全新镐 |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            | ✔                   | ✔                   | ✔                   |
+| 即将损坏的镐 | ✔ | \*\*\*\* | \*\*\*\* | \*\*\*\* |
+| 修复完成的镐 | \*\*\*\* | ✔ | ✔ | ✔ |
 
 ---
 
-| 50%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| 50%阈值 | 10%耐久镐 | 30%耐久镐 | 80%耐久镐 | 全新镐 |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            | \*\*\*\*            | ✔                   | ✔                   |
+| 即将损坏的镐 | ✔ | ✔ | \*\*\*\* | \*\*\*\* |
+| 修复完成的镐 | \*\*\*\* | \*\*\*\* | ✔ | ✔ |
 
 ---
 
-| 75%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| 75%阈值 | 10%耐久镐 | 30%耐久镐 | 80%耐久镐 | 全新镐 |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            |                     | ✔                   | ✔                   |
+| 即将损坏的镐 | ✔ | ✔ | \*\*\*\* | \*\*\*\* |
+| 修复完成的镐 | \*\*\*\* |  | ✔ | ✔ |
 
 ---
 
-| 99%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| 99%阈值 | 10%耐久镐 | 30%耐久镐 | 80%耐久镐 | 全新镐 |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | ✔                   | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            | ✔                   |
+| 即将损坏的镐 | ✔ | ✔ | ✔ | \*\*\*\* |
+| 修复完成的镐 | \*\*\*\* | \*\*\*\* | \*\*\*\* | ✔ |
 
 ---
 
-| Ignore                 | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| 忽略耐久 | 10%耐久镐 | 30%耐久镐 | 80%耐久镐 | 全新镐 |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | ✔                   | **✔**               |
-| Fully Repaired Pickaxe | **✔**               | **✔**               | **✔**               | ✔                   |
+| 即将损坏的镐 | ✔ | ✔ | ✔ | **✔** |
+| 修复完成的镐 | **✔** | **✔** | **✔** | ✔ |
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:29" />
 
-## Acceleration Card
+## 加速卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
 
-Acceleration Cards speed things up. They let Import and Export Buses move more items per operation, and make Inscribers
-and Molecular Assemblers work faster.
+加速卡可以提升运行速度。它让输入/输出总线每次操作传输更多物品，并使压印器和分子装配室工作更快。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:30" />
 
-## Hyper-Acceleration Card
+## 超级加速卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:56" scale="2" />
 
-Hyper-Acceleration Cards are a faster version of normal Acceleration Cards, but they can only be used in the ME-IO Port,
-ME Import/Export Buses, and ME Fluid Import/Export Buses.
+超级加速卡是普通加速卡的更快版本，但只能用于ME-IO端口、ME输入/输出总线和ME流体输入/输出总线。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:56" />
 
-## Superluminal Acceleration Card
+## 超光速加速卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:67" scale="2" />
 
-The Superluminal Acceleration Card is the fastest AE card for moving items or fluids, but it can only be used in the
-ME-IO Port and ME Import/Export Buses.
+超光速加速卡是用于移动物品或流体的最快AE卡，但只能用于ME-IO端口和ME输入/输出总线。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:67" />
 
-## Inverter Card
+## 反相卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" />
 
-Inverter Cards switch a device or tool filter from whitelist mode to blacklist mode.
+反相卡可将设备或工具的过滤模式从白名单切换为黑名单。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:31" />
 
-## Crafting Card
+## 合成卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
 
-Crafting Cards let the device send requests to your [autocrafting](../ae2_mechanics/autocrafting.md)
-system for the items it needs.
+合成卡让设备向你的[自动合成](../ae2_mechanics/autocrafting.md)系统发送请求以获取所需物品。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:53" />
 
-## Equal Distribution Card
+## 均分卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" />
 
-Equal Distribution Cards can be applied to [Storage Cells](storage_cells.md) in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
-They divide the cell into equal partitions based on how the card is [partitioned](cell_workbench.md), which prevents a single item type from filling the whole cell.
+均分卡可在<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />中安装至[存储元件](storage_cells.md)。它会根据[分区](cell_workbench.md)设置将元件的存储空间均分，防止单一物品类型占满整个元件。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:69" />
 
-## Pattern Capacity Card
+## 样板容量卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:54" scale="2" />
 
-Each Pattern Capacity Card provides an additional 9 pattern slots to the interface, up to a maximum of 3 cards per interface.
+每张样板容量卡可为接口额外提供9个样板槽，每个接口最多安装3张。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:54" />
 
-## Ore Dictionary Filter Card
+## 矿物辞典过滤卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:55" scale="2" />
 
-Allows filtering by Ore Dictionary entry and supports regular expression matching.
+允许按矿物辞典条目过滤，并支持正则表达式匹配。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:55" />
 
-## Sticky Card
+## 黏性卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:64" scale="2" />
 
-Any items, fluids, or essentia partitioned onto this cell may only be stored in cells or Storage Buses that also have Sticky Cards, and nowhere else in the network.
+被分区到该元件中的任何物品、流体或源质，只能存储在同样装有黏性卡的元件或存储总线中，而不能存入网络中的其他任何位置。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:64" />
 
-## Advanced Blocking Card
+## 高级阻挡卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:63" scale="2" />
 
-Advanced Blocking Cards extend blocking to the entire connected ME network instead of only adjacent inventories. When enabled, the interface prevents recipe ingredients from being inserted if the target network already contains the relevant items or fluids.
+高级阻挡卡将阻挡功能的判定范围扩展到整个所连接的ME网络，而不再仅限于相邻的容器。启用后，若目标网络中已存在相关物品或流体，接口会阻止配方原料被插入。
 
-In Default mode, blocking is triggered only when recipe-relevant items or fluids are present in the network (excluding catalysts such as lenses, circuits, or molds).
+在默认模式下，仅当网络中存在与配方相关的物品或流体时才会触发阻挡（透镜、电路板、模具等催化剂除外）。
 
-In Loose mode, blocking is triggered by the presence of any item or fluid in the network.
+在严格模式下，只要网络中存在任何物品或流体就会触发阻挡。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:63" />
 
-## Locking Card
+## 锁定卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:65" scale="2" />
 
-This card has 4 modes:
+该卡有4种模式：
 
-*   Mode 1: Never locks crafting
-*   Mode 2: Locks crafting until a redstone pulse is received
-*   Mode 3: Locks crafting when a redstone signal is present
-*   Mode 4: Locks crafting when no redstone signal is present
+*   模式1：从不锁定合成
+*   模式2：锁定合成，直到收到红石脉冲
+*   模式3：存在红石信号时锁定合成
+*   模式4：无红石信号时锁定合成
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:65" />
 
-## Fake Crafting Card
+## 伪合成卡
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:66" scale="2" />
 
-If an Interface is equipped with this card, it immediately completes the **crafting job** after submitting it, without waiting for the result to return. This only works if the submitted job's final output is the intended product.
+若接口装有此卡，它会在提交**合成任务**后立即将其完成，而无需等待结果返回。仅当所提交任务的最终产物即为预期产物时，此卡才会生效。
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:66" />

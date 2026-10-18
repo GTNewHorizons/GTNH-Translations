@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: "Wand Focus: Experience Improvements"
+  title: "法杖核心：经验改进"
   parent: magic.md
   icon: ThaumicTinkerer:focusXPDrain
 categories:
@@ -10,6 +10,6 @@ author: koolkrafter5
 date: 2026-06-11
 ---
 
-The <ItemLink id="ThaumicTinkerer:focusXPDrain"/> <ItemImage id="ThaumicTinkerer:focusXPDrain"/> may now be upgraded in the <ItemLink id="Thaumcraft:blockStoneDevice:13"/> <ItemImage id="Thaumcraft:blockStoneDevice:13"/>! <Color color="#FFAA00AA">Frugal</Color> will reduce the <Color id="GREEN">experience cost</Color> by 1 per tick per level, while <Color color="#FFAA00AA">Potency</Color> will provide an <Color id="GREEN">additional 20% vis</Color> per level. Are these upgrades actually worth it when upgrading them in the Manipulator takes so much <Color id="GREEN">experience</Color> up front and requires an <Color id="BLUE">energized node</Color> which solves your vis needs on its own? Maybe not, but it's better than not being able to upgrade it at all!
+<ItemLink id="ThaumicTinkerer:focusXPDrain"/> <ItemImage id="ThaumicTinkerer:focusXPDrain"/>现在可以在<ItemLink id="Thaumcraft:blockStoneDevice:13"/> <ItemImage id="Thaumcraft:blockStoneDevice:13"/>中升级了！<Color color="#FFAA00AA">节俭</Color>每级每刻可减少 1 点<Color id="GREEN">经验消耗</Color>，而<Color color="#FFAA00AA">强力</Color>每级可提供<Color id="GREEN">额外 20% 的魔力</Color>。既然在操纵器中升级它们需要预先投入大量<Color id="GREEN">经验</Color>，还需要一个本身就能满足你魔力需求的<Color id="BLUE">充能节点</Color>，这些升级真的值得吗？也许不值得，但总比根本无法升级要好！
 
-It will now also recharge the <Color id="BLUE">lowest aspect</Color> in your wand rather than attempting to fill them round-robin.
+它现在还会为法杖中<Color id="BLUE">存量最少的要素</Color>充能，而不是试图轮流填满。

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Drive
+  title: ME驱动器
   icon: appliedenergistics2:tile.BlockDrive
 categories:
 - devices
@@ -9,38 +9,33 @@ item_ids:
 - appliedenergistics2:tile.BlockDrive
 ---
 
-# ME Drive
+# ME驱动器
 
 <ItemImage id="appliedenergistics2:tile.BlockDrive" scale="4" />
 
-The ME Drive is a [device](../ae2_mechanics/devices.md) for holding [storage cells](storage_cells.md). Cells inside
-the drive count as [network storage](../ae2_mechanics/import_export_storage.md), and it has ten slots for individual cells.
+ME驱动器是一种用于存放[存储元件](storage_cells.md)的[设备](../ae2_mechanics/devices.md)。驱动器内的元件计入[网络存储](../ae2_mechanics/import_export_storage.md)，驱动器有十个槽位，每个槽位可容纳一个元件。
 
-Cells can be inserted or extracted with any logistics method, such as hoppers or AE2 buses.
+可通过漏斗或AE2总线等任意物流方式对元件进行存取。
 
-The drive can be rotated with a <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />.
+使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />可调整驱动器的朝向。
 
-## Cell Status LEDs
+## 元件状态指示灯
 
-The LEDs on cells in the drive show their current status:
+驱动器内元件上的LED指示灯显示其当前状态：
 
-| Color | Status |
+| 颜色 | 状态 |
 | :--- | :--- |
-| Green | Empty |
-| Blue | Contains items |
-| Orange | [Types](../ae2_mechanics/bytes_and_types.md) are full; no new types can be added |
-| Red | [Bytes](../ae2_mechanics/bytes_and_types.md) are full; no new items can be added |
-| Black | No power or the drive has no [channel](../ae2_mechanics/channels.md) |
+| 绿色 | 元件空置 |
+| 蓝色 | 元件内已存有物品 |
+| 橙色 | [类型](../ae2_mechanics/bytes_and_types.md)已满；无法添加新类型 |
+| 红色 | [字节](../ae2_mechanics/bytes_and_types.md)已满；无法存入更多物品 |
+| 黑色 | 无电力或驱动器没有[频道](../ae2_mechanics/channels.md) |
 
-## Priority
+## 优先级
 
-Click the wrench in the top-right corner of the GUI to set a priority. Items entering the network prefer the highest
-priority storage location. If two locations have the same priority, the one that already contains the item is preferred.
-Partitioned cells from the [Cell Workbench](cell_workbench.md) count as already containing their partitioned items when
-priorities are equal. Items leaving storage are extracted from the lowest-priority location first. This fills high-priority
-storage while emptying low-priority storage during normal import and export.
+点击GUI右上角的扳手图标可设置优先级。物品进入网络时会优先选择最高优先级的存储位置。当两个位置优先级相同时，已存有该物品的位置会被优先选择。来自[元件工作台](cell_workbench.md)的分区元件在优先级相同时，会被视为已包含其分区的物品。从存储中取出物品时，会优先从最低优先级的位置取出。这样在正常的输入输出过程中，高优先级存储会被逐渐填满，而低优先级存储会被清空。
 
-## Recipe
+## 配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockDrive" />
 

@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Overchanter Automation
+  title: 超限附魔台自动化
   parent: magic.md
   icon: thaumicbases:overchanter
 categories:
@@ -10,8 +10,8 @@ author: koolkrafter5
 date: 2026-06-11
 ---
 
-Wish you didn't need to <Color id="RED">babysit</Color> your <ItemLink id="thaumicbases:overchanter"/> <ItemImage id="thaumicbases:overchanter"/> while it <Color id="BLUE">empowers</Color> your gear? Now it can work <Color id="BLUE">on its own</Color>!
+你是否希望自己不必在<ItemLink id="thaumicbases:overchanter"/> <ItemImage id="thaumicbases:overchanter"/><Color id="BLUE">强化</Color>你的装备时全程<Color id="RED">贴身照看</Color>？现在它可以<Color id="BLUE">独立工作</Color>了！
 
-Give it a <Color id="RED">redstone</Color> pulse when it has an item inside, and it will pull <Color id="GREEN">XP</Color> from any <ItemImage id="Automagy:blockXPJar:0:{xp:10545}"/> or <ItemImage id="EnderIO:blockExperienceObelisk"/> nearby.
+当它内部放有物品时，给它一个<Color id="RED">红石</Color>脉冲，它就会从附近的任何<ItemImage id="Automagy:blockXPJar:0:{xp:10545}"/>或<ItemImage id="EnderIO:blockExperienceObelisk"/>吸取<Color id="GREEN">经验</Color>。
 
-Automation will only be able to extract the item when it has <Color id="BLUE">no more enchantments</Color> that can be upgraded.
+只有当其中的物品已<Color id="BLUE">没有更多</Color>可升级的附魔时，自动化才能将其取出。

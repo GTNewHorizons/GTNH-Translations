@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Export Bus
+  title: ME输出总线
   icon: appliedenergistics2:item.ItemMultiPart:260
 categories:
 - devices

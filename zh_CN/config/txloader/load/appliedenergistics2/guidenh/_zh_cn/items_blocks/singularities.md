@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Singularities
+  title: 奇点
   icon: appliedenergistics2:item.ItemMultiMaterial:47
 categories:
 - misc ingredients blocks
@@ -15,5 +15,5 @@ item_ids:
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:48" scale="4"/>
 </Row>
 
-Singularities and Quantum Entangled Singularities are used to pair Quantum Rings. For the detailed mechanics, see [Quantum Ring](../ae2_mechanics/quantum_bridge.md).
+奇点与量子纠缠奇点用于配对量子环。详细机制请参见[量子环](../ae2_mechanics/quantum_bridge.md)。
 

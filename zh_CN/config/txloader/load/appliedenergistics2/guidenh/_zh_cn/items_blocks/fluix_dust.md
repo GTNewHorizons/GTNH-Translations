@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Fluix Dust
+  title: 福鲁伊克斯粉
   icon: appliedenergistics2:item.ItemMultiMaterial:8
 categories:
 - misc ingredients blocks
@@ -10,13 +10,13 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:8
 ---
 
-# Fluix Dust
+# 福鲁伊克斯粉
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:8" scale="4" />
 
-Fluix Crystal crushed by a <ItemLink id="gregtech:gt.metatool.01:12" />. It is used to make several AE2 machines and components.
+由<ItemLink id="gregtech:gt.metatool.01:12" />粉碎的福鲁伊克斯水晶。用于制造多种AE2机器和组件。
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:8" />
 

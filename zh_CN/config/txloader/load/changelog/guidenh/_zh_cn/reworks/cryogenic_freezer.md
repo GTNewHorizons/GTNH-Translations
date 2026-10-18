@@ -2,7 +2,7 @@
 item_ids: 
   - gregtech:gt.blockmachines:15565
 navigation:
-  title: Cryogenic Freezer
+  title: 凛冰冷冻机
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15565
 categories:
@@ -11,40 +11,40 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Cryogenic Freezer 
+# 凛冰冷冻机
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15565"/>
 </GameScene>
 
-The <Color id="GREEN">Cryogenic Freezer (CF)</Color> is an IV tier multiblock for mass cooling hot ingots and fluids. The <Color id="GREEN">CF</Color> is a direct upgrade from the Vacuum Freezer because it runs at <Color id="BLUE">300%</Color> speed, only uses <Color id="GREEN">90%</Color> of the EU/t normally required, and offers a fixed <Color id="RED">16</Color> parallels. The <Color id="GREEN">CF</Color> consumes 10 L/s of gelid cryotheum during operation through a specialized cryotheum cooling hatch. If it ever runs out, the machine crashes immediately and causes a random maintenance issue to occur. The [Endothermic Fridge](../multis/endothermic_fridge.md) only outperforms the Cryogenic Freezer if it can take full advantage of its 256 parallels (4+ overclocks) or use subspace cooling. 
+<Color id="GREEN">凛冰冷冻机（CF）</Color>是一台IV等级多方块结构，用于批量冷却高温锭和流体。<Color id="GREEN">CF</Color>是真空冷冻机的直接升级，因为它以<Color id="BLUE">300%</Color>的速度运行，只消耗正常所需<Color id="GREEN">90%</Color>的EU/t，并提供固定的<Color id="RED">16</Color>倍并行。<Color id="GREEN">CF</Color>在运行期间会通过专用的凛冰输入仓消耗10 L/s的极寒之凛冰。一旦耗尽，机器会立即停机并产生一个随机维护问题。[吸热冰箱](../multis/endothermic_fridge.md)只有在能充分利用其256倍并行（4+次超频）或使用亚空间冷却（subspace cooling）时，才能胜过凛冰冷冻机。
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Higher speed: 220% -> 300%
-> - More Parallels: 8 -> 16
+> 除结构本身外，该多方块结构还进行了以下改动：
+> - 更高速度：220% -> 300%
+> - 更多并行：8 -> 16
 
-## Construction
-The <Color id="GREEN">Cryogenic Freezer</Color> has no tiered components. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+## 建造
+<Color id="GREEN">凛冰冷冻机</Color>没有任何分级部件。总线/仓可以替换结构中任意位置的机械方块。<Color id="RED">多A能源仓与激光能源仓</Color>不受支持，但可以放置多个普通能源仓用于超频。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
 
-### Requires:
+### 所需材料：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15565"/><ItemImage id="gregtech:gt.blockmachines:15565"/>
 - 46-56 <ItemLink id="miscutils:gtplusplus.blockcasings.3:10"/><ItemImage id="miscutils:gtplusplus.blockcasings.3:10"/>
 - 24 <ItemLink id="miscutils:blockFrameGtGrisium"/><ItemImage id="miscutils:blockFrameGtGrisium"/>
 - 1+ <ItemLink id="gregtech:gt.blockmachines:967"/><ItemImage id="gregtech:gt.blockmachines:967"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ 能源仓（任意外壳）<ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意外壳）<ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意外壳）<ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意外壳）<ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输入仓（任意外壳）<ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 输出总线（任意外壳）<ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ 输出仓（任意外壳）<ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">Cryogenic Freezers</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### 共墙
+<Color id="GREEN">凛冰冷冻机</Color>的每一面均可与其他机器共墙，以节省机械方块、框架箱和总线/仓。没有任何配方的耗电超过1A，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
-## Usage
-The <Color id="GREEN">Cryogenic Freezer</Color> is a direct upgrade from the Vacuum Freezer because it runs at 300% speed, only uses 90% of the EU/t normally required, and offers a fixed 16 parallels.
+## 用途
+<Color id="GREEN">凛冰冷冻机</Color>是真空冷冻机的直接升级，因为它以300%的速度运行，只消耗正常所需90%的EU/t，并提供固定的16倍并行。
 
-The <Color id="GREEN">Cryogenic Freezer</Color> consumes 10 L/s of gelid cryotheum during operation through a specialized cryotheum cooling hatch. If it ever runs out, the machine crashes immediately and causes a random maintenance issue to occur. Cryotheum is primarily sourced from evolved cold blazes on Europa or the cryotheum bee. Blizz dust can also be made from blaze powder if necessary. 
+<Color id="GREEN">凛冰冷冻机</Color>在运行期间会通过专用的凛冰输入仓消耗10 L/s的极寒之凛冰。一旦耗尽，机器会立即停机并产生一个随机维护问题。凛冰的主要来源是木卫二（Europa）上的进化寒冰烈焰人或极寒之凛冰蜜蜂。必要时也可以用烈焰粉制作暴雪粉。

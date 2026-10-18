@@ -2,105 +2,105 @@
 item_ids:
   - gregtech:gt.blockmachines:1002
 navigation:
-  title: Vacuum Freezer
+  title: 真空冷冻机
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1002
   position: 10
 ---
 
-# Vacuum Freezer
+# 真空冷冻机
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1002" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> (Vacuum Freezer, abbreviated VF and often called the "freezer") is an HV-tier processing multiblock. It is commonly paired with the [Electric Blast Furnace](../tiers/lv/electric-blast-furnace.md) to cool its hot ingots into regular ingots that can undergo further processing.
+<ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" />（真空冷冻机，缩写 VF，常被称为“冷冻机”）是一座 HV 级处理用多方块结构。它通常与[工业高炉](../tiers/lv/electric-blast-furnace.md)搭配，把其中的热锭冷却成可继续加工的普通锭。
 
-Not every Electric Blast Furnace product needs cooling. Before setting up a production line, check the product's uses in NEI. If the furnace already produces a regular ingot, it does not need to pass through the Vacuum Freezer.
+并非工业高炉的所有产物都需要冷却。在搭建产线之前，请先在 NEI 中查看产物的用途。如果高炉产出的已经是普通锭，就无需经过真空冷冻机。
 
-| Property | Details |
+| 属性 | 说明 |
 | --- | --- |
-| Unlock tier | HV |
-| Structure size | 3×3×3, with an air block at the center |
-| Power | Standard Energy Hatches; Multi-Amp Energy Hatches and Laser Energy Hatches are not supported |
-| Overclocking | Standard imperfect overclocking: each overclock uses 4× the power and halves the duration |
-| Processing bonuses | No additional speed, power, or parallel bonuses |
-| Maintenance and pollution | Requires maintenance, produces no pollution, and does not need a Muffler Hatch |
+| 解锁等级 | HV |
+| 结构尺寸 | 3×3×3，中心为空气方块 |
+| 供能 | 标准能源仓；不支持多A能源仓与激光能源仓 |
+| 超频 | 标准非完美超频：每次超频耗电增至 4 倍，时长减半 |
+| 处理加成 | 无额外速度、能耗或并行加成 |
+| 维护与污染 | 需要维护，不产生污染，且无需消声仓 |
 
-## Crafting and Construction
+## 配方与建造
 
-The current recipes for the controller and casing are shown below.
+控制器与机械方块的当前配方如下所示。
 
 <RecipesFor id="gregtech:gt.blockmachines:1002" />
 
 <RecipesFor id="gregtech:gt.blockcasings2:1" />
 
-Build a hollow 3×3×3 shell with the controller in the center of the second layer on the front face. The single block at the center must remain air; no coils, ice, or coolant are required inside the structure.
+建造一个空心的 3×3×3 外壳，控制器放在第二层正面中心。正中央的那个方块必须保持为空气；结构内部不需要任何线圈、冰或冷却液。
 
-| Component | Quantity and placement |
+| 部件 | 数量与放置位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> | 1, in the center of the second layer on the front face |
-| <ItemLink id="gregtech:gt.blockcasings2:1" showIcon="left" /> | At least 16; the remaining casing positions may be replaced by the hatches and buses listed below |
-| Energy Hatch | At least 1, in any casing position |
-| Maintenance Hatch | 1, in any casing position |
-| Input Bus or Input Hatch | At least one of either type, in any casing position |
-| Output Bus or Output Hatch | At least one of either type, in any casing position |
+| <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> | 1 个，位于第二层正面中心 |
+| <ItemLink id="gregtech:gt.blockcasings2:1" showIcon="left" /> | 至少 16 个；其余机械方块位置可替换为下文列出的仓与总线 |
+| 能源仓 | 至少 1 个，可放在任意机械方块位置 |
+| 维护仓 | 1 个，可放在任意机械方块位置 |
+| 输入总线或输入仓 | 两者至少有其一，可放在任意机械方块位置 |
+| 输出总线或输出仓 | 两者至少有其一，可放在任意机械方块位置 |
 
-Use an Input Bus and Output Bus to cool hot ingots. For fluid recipes, install the Input and Output Hatches required by the recipe. Both kinds of interface may be installed at the same time, but the structure must retain at least 16 actual Frost Proof Machine Casings; hatches and buses do not count toward this minimum.
+使用输入总线和输出总线来冷却热锭。对于流体配方，则安装配方所需的输入仓和输出仓。两类接口可以同时安装，但结构中必须保留至少 16 个实际的防冻机械方块；仓与总线不计入该最低数量。
 
-A machine used only for hot ingots, with one Energy Hatch, one Maintenance Hatch, one Input Bus, and one Output Bus, requires **21 Frost Proof Machine Casings**. Adding more hatches or buses reduces the required number of casing blocks accordingly, down to the minimum of 16.
+一台只用于热锭的机器，配 1 个能源仓、1 个维护仓、1 个输入总线和 1 个输出总线，需要 **21 个防冻机械方块**。每多加一个仓或总线，所需的机械方块数量相应减少，最低为 16 个。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview the structure and assist with construction. Once it is complete, run a structure check and use maintenance tools to resolve any maintenance problems shown by the controller.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 预览结构并辅助建造。结构完成后，运行一次结构检查，并用维护工具解决控制器提示的所有维护问题。
 
-## Capabilities
+## 功能特性
 
-The Vacuum Freezer does more than cool hot ingots. Its recipes also include liquefying certain gases, restoring coolant cells, and cooling plasmas. Recipes have different voltage and input/output requirements, so an item's name alone does not determine whether the machine can process it.
+真空冷冻机不只是冷却热锭。它的配方还包括液化某些气体、修复冷却单元以及冷却等离子体。各配方对电压和输入/输出的要求不同，因此仅凭物品名称无法判断机器能否处理它。
 
-- **Hot ingot cooling**: Converts hot ingots from the Electric Blast Furnace into their regular counterparts, such as Hot Nichrome Ingots.
-- **Fluid cooling**: Accepts the gases or plasmas required by a recipe through Input Hatches and sends the products to Output Hatches.
-- **Coolant cell restoration**: Only cells and components with a matching Vacuum Freezer recipe can be processed; not every reactor component can be repaired here.
+- **热锭冷却**：将工业高炉产出的热锭转化为对应的普通锭，例如热镍铬合金锭。
+- **流体冷却**：通过输入仓接收配方所需的气体或等离子体，并把产物送往输出仓。
+- **冷却单元修复**：只有拥有对应真空冷冻机配方的单元和部件才能处理；并非每个反应堆部件都能在这里修复。
 
-The structure itself does not consume coolant, although individual recipes may require fluid inputs. Follow the inputs, outputs, and power usage shown in NEI.
+结构本身不消耗冷却液，但个别配方可能需要流体输入。输入、输出与耗电请以 NEI 显示为准。
 
-## Power and Throughput
+## 供能与吞吐量
 
-HV is the tier at which the machine becomes available, but the Vacuum Freezer is not limited to HV power. Upgrading its Energy Hatch raises the available voltage and overclocks eligible recipes. It also follows the usual multiblock [tier-skipping rules](../tierskipping-overcloking-parallels/tierskipping.md).
+HV 是机器解锁的等级，但真空冷冻机并不限于 HV 供电。升级能源仓可提高可用电压，并超频符合条件的配方。它同样遵循常规多方块[跳级规则](../tierskipping-overcloking-parallels/tierskipping.md)。
 
-The Vacuum Freezer has no heating coils, so it does not receive the Electric Blast Furnace's heat discounts or heat-based perfect overclocks. Each standard imperfect [overclock](../tierskipping-overcloking-parallels/overclocking.md) quadruples power usage and halves processing time, increasing the total energy consumed by each operation.
+真空冷冻机没有加热线圈，因此不享受工业高炉的热量折扣或基于热量的完美超频。每次标准非完美[超频](../tierskipping-overcloking-parallels/overclocking.md)耗电增至 4 倍、处理时间减半，会使每次运行消耗的总能量增加。
 
-After expanding an Electric Blast Furnace production line, check whether hot ingots are accumulating at the Vacuum Freezer's input. The furnace's parallels, coil bonuses, and recipe duration all affect its actual output rate. Matching the Energy Hatch tier of the two machines does not guarantee matching throughput.
+扩建工业高炉产线后，请检查热锭是否在真空冷冻机的输入端堆积。高炉的并行、线圈加成以及配方时长都会影响其实际产出速率。两台机器的能源仓等级相配，并不能保证吞吐量也相配。
 
 > [!WARNING]
-> Losing power during processing aborts the current recipe and destroys the inserted inputs. The power network must meet the recipe voltage and continuously provide the power required while the machine runs.
+> 运行中断电会中止当前配方并销毁已放入的输入。供电网络必须满足配方电压，并在机器运行期间持续提供所需电力。
 
-## Hot Ingot Routing
+## 热锭路由
 
-An Electric Blast Furnace may produce both hot ingots and items that do not require cooling. Filtering the Vacuum Freezer's input prevents regular products from filling its Input Bus.
+工业高炉可能同时产出热锭和无需冷却的物品。对真空冷冻机的输入进行过滤，可防止普通产物塞满其输入总线。
 
-A regular Input Bus supports recipe filtering. Right-click it with a Screwdriver to toggle the filter, without holding Shift; Shift-right-click changes other input settings. When enabled, the bus only accepts items recognized by the machine's recipe map. Recipe filtering is not the same as accepting only hot ingots, because the Vacuum Freezer can process other items as well.
+普通输入总线支持配方过滤。不按 Shift 用螺丝刀右键即可切换过滤开关；Shift+右键更改的是其他输入设置。开启后，总线只接受机器配方图谱识别的物品。配方过滤并不等于只接受热锭，因为真空冷冻机也能处理其他物品。
 
-Use the following guidelines when choosing a transport system:
+选择运输系统时可参考以下准则：
 
-| Transport system | Routing considerations |
+| 运输系统 | 路由注意事项 |
 | --- | --- |
-| GregTech Item Pipes | Enable valid recipe filtering on the Vacuum Freezer and leave another reachable destination for the remaining products; account for pipe distance and the routing behavior of Restrictive Item Pipes |
-| Ender IO Item Conduits | Configure insertion filters and destination priorities so that the Vacuum Freezer receives items that need cooling while other products go to storage |
-| AE2 | Filter for specific hot ingots; devices with ore dictionary filtering can use `ingotHot*` to match hot ingots |
+| 格雷科技物品管道 | 在真空冷冻机上开启有效的配方过滤，并为其余产物保留另一个可达目的地；同时考虑管道距离与受限物品管道的寻路行为 |
+| 末影接口物品导管 | 配置插入过滤器和目的地优先级，让真空冷冻机收到需要冷却的物品，其余产物进入存储 |
+| AE2 | 针对特定热锭设置过滤；支持矿物辞典过滤的设备可用 `ingotHot*` 匹配热锭 |
 
-After connecting the automation, insert one hot ingot and one regular product separately and verify their destinations. Make sure cooled ingots also have a reliable output route so that a full Output Bus cannot stop production.
+接好自动化后，分别放入一个热锭和一个普通产物，验证它们各自的去向。同时确保冷却后的锭也有可靠的输出路线，以免输出总线被填满导致停产。
 
-## Troubleshooting
+## 故障排除
 
-| Symptom | What to check |
+| 现象 | 检查要点 |
 | --- | --- |
-| Structure is incomplete | The center is air; at least 16 Frost Proof Machine Casings remain; an Energy Hatch, Maintenance Hatch, input interface, and output interface are present |
-| Inputs will not enter | The bus belongs to a formed machine; recipe filtering is configured correctly; transport direction, filters, and priorities are correct |
-| Inputs are present but no recipe is available | The input actually requires cooling; the item or fluid matches a recipe; the Energy Hatch provides sufficient voltage |
-| Insufficient output space | The correct Output Bus or Output Hatch exists, is not full, and can hold the complete recipe output |
-| Machine stops immediately after starting | Check available power, cable loss, energy buffers, and maintenance status before inserting more test materials |
+| 结构不完整 | 中心为空气；防冻机械方块至少保留 16 个；存在能源仓、维护仓、输入接口和输出接口 |
+| 输入无法进入 | 总线属于已成型的机器；配方过滤配置正确；运输方向、过滤器和优先级正确 |
+| 输入存在但没有可用配方 | 输入确实需要冷却；物品或流体符合某个配方；能源仓提供足够电压 |
+| 输出空间不足 | 存在正确的输出总线或输出仓，未满且能容纳完整的配方产出 |
+| 机器启动后立即停止 | 在放入更多测试材料之前，先检查可用电力、线缆损耗、能量缓冲器与维护状态 |
 
-See [Multiblock Machines](./multiblocks_index.md) for general multiblock operation. For greater cooling capacity later in progression, look into the Cryogenic Freezer.
+多方块结构的通用操作请参阅[多方块机器](./multiblocks_index.md)。在进度后期需要更强冷却能力时，可以了解凛冰冷冻机。
 
-## References
+## 参考资料
 
-- [GTNH Wiki: Vacuum Freezer](https://wiki.gtnewhorizons.com/wiki/Vacuum_Freezer)
+- [GTNH Wiki：真空冷冻机](https://wiki.gtnewhorizons.com/wiki/Vacuum_Freezer)

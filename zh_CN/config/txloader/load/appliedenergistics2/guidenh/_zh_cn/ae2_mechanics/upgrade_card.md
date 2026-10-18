@@ -1,10 +1,10 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Upgrade Cards
+  title: 升级卡
   icon: appliedenergistics2:item.ItemMultiPart:16
 ---
 
-# Upgrade Cards
+# 升级卡
 
-See [Upgrade Cards](../items_blocks/upgrade_cards.md).
+参见[升级卡](../items_blocks/upgrade_cards.md)。

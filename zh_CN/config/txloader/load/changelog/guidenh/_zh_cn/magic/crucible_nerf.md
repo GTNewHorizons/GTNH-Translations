@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Overfilled Crucible Nerf
+  title: 坩埚过载削弱
   parent: magic.md
   icon: Thaumcraft:blockMetalDevice
 categories:
@@ -8,11 +8,11 @@ categories:
 date: 2026-06-10
 ---
 
-Thaumcraft's <ItemLink id="Thaumcraft:blockMetalDevice"/> <ItemImage id="Thaumcraft:blockMetalDevice"/> will now <Color id="RED">remove essentia</Color> more quickly the <Color id="RED">more overfilled</Color> it is. Starting at <Color id="BLUE">200</Color> total essentia, it will now decay a <Color id="RED">percent of the total essentia</Color>, with a bias toward breaking down compound aspects. This percent slowly increases to <Color id="RED">4.2%</Color> per second at <Color id="BLUE">1000</Color> total essentia, 10x the original softcap of <Color id="BLUE">100</Color>.
+神秘时代的<ItemLink id="Thaumcraft:blockMetalDevice"/> <ItemImage id="Thaumcraft:blockMetalDevice"/>现在会随着<Color id="RED">过载程度加深</Color>而更快地<Color id="RED">移除源质</Color>。从总源质达到<Color id="BLUE">200</Color>起，它将按<Color id="RED">总源质的一定百分比</Color>衰减，并倾向于分解复合要素。该百分比会缓慢上升，当总源质达到<Color id="BLUE">1000</Color>（为原软上限<Color id="BLUE">100</Color>的 10 倍）时达到每秒<Color id="RED">4.2%</Color>。
 
-<FunctionGraph xMax="1200" width="380" title="Essentia Decomposed / s" xLabel="Essentia in Crucible" yLabel="Essentia Decomposed / s">
-  <Function expr="0.2" color="#4488FF" label="Non-overflow decay (0.2 / s)" domain="0..100"/>
-  <Function expr="4.2" color="#44FF44" label="Original overflow decay (4.2 / s)" domain="100..200"/>
-  <Function expr="4.2 + 0.000042x^2" color="#FFFF22" label="Scaling overflow decay (4.2 + 0.000042x^2 / s)" domain="200..1000"/>
-  <Function expr="4.2 + 0.042x" color="#FF2222" label="Max overflow decay (4.2 + 0.042x / s)" domain="1000..1200"/>
+<FunctionGraph xMax="1200" width="380" title="每秒源质分解量" xLabel="坩埚中的源质" yLabel="每秒源质分解量">
+  <Function expr="0.2" color="#4488FF" label="无溢出衰减（0.2 / 秒）" domain="0..100"/>
+  <Function expr="4.2" color="#44FF44" label="原版溢出衰减（4.2 / 秒）" domain="100..200"/>
+  <Function expr="4.2 + 0.000042x^2" color="#FFFF22" label="缩放溢出衰减（4.2 + 0.000042x^2 / 秒）" domain="200..1000"/>
+  <Function expr="4.2 + 0.042x" color="#FF2222" label="最大溢出衰减（4.2 + 0.042x / 秒）" domain="1000..1200"/>
 </FunctionGraph>

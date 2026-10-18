@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Magic NEI
+  title: 魔法NEI
   parent: /magic/magic.md
   icon: Thaumcraft:ItemThaumonomicon:42
   position: 1
@@ -10,6 +10,6 @@ author: koolkrafter5
 date: 2026-06-09
 ---
 
-This update includes various improvements to existing and new NEI handlers for many magic mods.
+本次更新为多个魔法模组的新旧NEI处理器带来了各种改进。
 
 <Category name="Magic NEI" rows="3"/>

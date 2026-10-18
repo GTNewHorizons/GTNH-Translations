@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Non-AE2 Item Logistics
+  title: 非 AE2 物品物流
   parent: qol.md
   icon: gregtech:gt.metaitem.01:32639
 categories:
@@ -9,14 +9,14 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Non-AE2 Item Logistics
-This is a much less "visible" change, but a huge one potentially for lategame players (and beyond!) as it allows easier movement of items without reliance on Applied Energistics.
+# 非 AE2 物品物流
+这是一项不太“显眼”的改动，但对后期玩家（乃至更后期的玩家！）而言可能意义重大，因为它让物品运输无需依赖应用能源即可轻松完成。
 
-This includes faster pipes, bigger buses, and other useful tools to allow mass movement of items without lag!
+这包括更快的管道、更大的总线，以及其他能在不卡顿的情况下大量运输物品的实用工具！
 
-Many machines can now move more than 1 stack per tick without causing lag. High tiers of conveyors can move hundreds of thousands of items each tick, working fully with both GT and Applied Energistics systems. Some extra parts of this change include:
-- Rebalancing and buffing conveyors significantly
-- Adding AppliedEnergistics integration to conveyors directly
-- Adding new [GregTech buses (called Quantum Bus and Compressed Bus) that can hold more than one stack per slot!](./bigger_buses.md)
-- Buffing GregTech item pipes
-- Huge performance improvements across the board!
+许多机器现在每刻可以移动超过 1 组物品而不造成卡顿。高等级传送带每刻能移动数十万件物品，并与 GT 和应用能源系统完全兼容。此次改动还包括：
+- 大幅重新平衡并增强传送带
+- 为传送带直接加入应用能源（AppliedEnergistics）联动
+- 新增了 [格雷科技总线（名为量子总线和压缩总线），每个槽位可容纳超过一组物品！](./bigger_buses.md)
+- 增强格雷科技物品管道
+- 全方位的巨大性能提升！

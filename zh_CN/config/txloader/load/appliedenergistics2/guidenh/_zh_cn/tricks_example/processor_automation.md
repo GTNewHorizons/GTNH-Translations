@@ -1,34 +1,27 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Processor Automation
+  title: 处理器自动化
   icon: appliedenergistics2:item.ItemMultiMaterial:23
 ---
 
-# Automation of Processor Production
+# 处理器的自动化生产
 
-There are many ways of automating [processors](../items_blocks/processors.md), and this is one of them.
+自动化生产[处理器](../items_blocks/processors.md)有多种方式，以下是其中一种实现方案。
 
-This general layout can be done with any type of item logistics pipe or conduit or duct or whatever the mod calls it, as
-long as you can filter it.
+此通用布局适用于任何类型的物品物流管道/导管/输送管（各模组叫法不一），只要能对其设置过滤即可。
 
-![The Process FLow Diagram](../assets/images/processor_flow_diagram.png)
+![处理器生产流程图](../assets/images/processor_flow_diagram.png)
 
-Here is detailed how to do it with just AE2, using ["pipe" subnets](pipe_subnet.md).
+下文将详细说明如何仅使用AE2、通过["管道"子网](pipe_subnet.md)实现该流程。
 
-Note that since this uses a <ItemLink id="appliedenergistics2:tile.BlockInterface" />, it is meant to integrate into your [autocrafting](../ae2_mechanics/autocrafting.md)
-setup. If you just want to automate a processor standalone, replace the ME Interface with another barrel, and directly put the ingredients in the upper barrel.
+注意：由于本方案使用了<ItemLink id="appliedenergistics2:tile.BlockInterface" />，因此它旨在集成到你的[自动合成](../ae2_mechanics/autocrafting.md)系统中。如果你只想独立地自动化生产处理器，可以把ME接口换成另一个木桶，并直接把材料放进上方的木桶。
 
-This happens to be backwards-compatible
-with previous AE2 versions, because even if the <ItemLink id="appliedenergistics2:tile.BlockInscriber" />s are sided, the pipe subnets still insert to and
-extract from the correct faces.
+这一方案恰好向后兼容旧版本的AE2，因为即使<ItemLink id="appliedenergistics2:tile.BlockInscriber" />有面限制，管道子网仍能从正确的面插入和提取物品。
 
-## A Lesson In Pattern Encoding
+## 样板编码须知
 
-Often, the [pattern](../items_blocks/patterns.md) you need to encode **WILL NOT MATCH WHAT YOU SEE IN NEI**, or what NEI outputs when you click the + button.
-In this case, NEI will output 2 separate patterns, one for the printed components and one for the final assembly, and the printed
-components pattern will include a [press](../items_blocks/presses.md). This is not what we want, because this is not what the setup will do. We want 1 pattern that
-inputs the raw resources and outputs the completed processor, and since the press is already in the inscriber, we should not put it in the pattern.
+通常，你需要编码的[样板](../items_blocks/patterns.md)**与你在NEI中看到的内容并不一致**，也和你点击 + 按钮后NEI输出的内容不同。此时，NEI会输出2个分开的样板：一个用于印压元件，一个用于最终组装，而且印压元件的样板中会包含一个[压印模板](../items_blocks/presses.md)。这不是我们想要的，因为这个装置实际并不会这么做。我们想要的是1个输入原材料、输出成品处理器的样板；既然压印模板已经装在压印器里，就不应再把它放进样板。
 
 ---
 
@@ -36,128 +29,116 @@ inputs the raw resources and outputs the completed processor, and since the pres
   <ImportStructure src="../assets/structures/processor_automation.snbt" />
 
   <BoxAnnotation color="#dddddd" min="5 1 0" max="6 2 1">
-  (1) ME Interface: In its default configuration, with the relevant processing patterns.
+  (1) ME接口：保持默认配置，并载入相关处理样板。
 
   <Row>
-    <FloatingImage src="../assets/images/logic_pattern.png" displayWidth="150" title="Logic Pattern" />
-    <FloatingImage src="../assets/images/calculation_pattern.png" displayWidth="150" title="Calculation Pattern" />
-    <FloatingImage src="../assets/images/engineering_pattern.png" displayWidth="150" title="Engineering Pattern" />
+    <FloatingImage src="../assets/images/logic_pattern.png" displayWidth="150" title="逻辑处理器样板" />
+    <FloatingImage src="../assets/images/calculation_pattern.png" displayWidth="150" title="运算处理器样板" />
+    <FloatingImage src="../assets/images/engineering_pattern.png" displayWidth="150" title="工程处理器样板" />
   </Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4.7 2 0" max="5 3 1">
-  (2) Storage Bus #1: In its default configuration.
+  (2) 存储总线#1：保持默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 1 0" max="4.3 2 1">
-  (3) Export Bus #1: Filtered to Silicon, has 2 Acceleration Cards
-  <Row><ItemImage id="gregtech:gt.metaitem.01:17020" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
+  (3) 输出总线#1：过滤为硅，安装2个加速卡<Row><ItemImage id="gregtech:gt.metaitem.01:17020" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 4 0" max="4.3 3 1">
-  (4) Export Bus #2: Filtered to Gold Ingot, has 2 Acceleration Cards
-  <Row><ItemImage id="minecraft:gold_ingot" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
+  (4) 输出总线#2：过滤为金锭，安装2个加速卡<Row><ItemImage id="minecraft:gold_ingot" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 5 0" max="4.3 4 1">
-  (5) Export Bus #3: Filtered to Certus Quartz Crystal, has 2 Acceleration Cards
-  <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:10" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
+  (5) 输出总线#3：过滤为赛特斯石英水晶，安装2个加速卡<Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:10" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 6 0" max="4.3 5 1">
-  (6) Export Bus #4: Filtered to Diamond, has 2 Acceleration Cards
-  <Row><ItemImage id="minecraft:diamond" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
+  (6) 输出总线#4：过滤为钻石，安装2个加速卡<Row><ItemImage id="minecraft:diamond" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.3 3 0" max="2 2 1">
-  (7) Export Bus #5: Filtered to Redstone Dust, has 2 Acceleration Cards
-  <Row><ItemImage id="minecraft:redstone" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
+  (7) 输出总线#5：过滤为红石粉，安装2个加速卡<Row><ItemImage id="minecraft:redstone" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 1 0" max="3 2 1">
-  (8) Inscriber #1: In its default configuration. Has a Silicon Press and 4 Acceleration Cards
-  <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:19" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
+  (8) 压印器#1：默认配置，安装硅压印模板和4个加速卡<Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:19" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 3 0" max="3 4 1">
-  (9) Inscriber #2: In its default configuration. Has a Logic Press and 4 Acceleration Cards
-  <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:15" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
+  (9) 压印器#2：默认配置，安装逻辑压印模板和4个加速卡<Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:15" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 4 0" max="3 5 1">
-  (10) Inscriber #3: In its default configuration. Has a Calculation Press and 4 Acceleration Cards
-  <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:13" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
+  (10) 压印器#3：默认配置，安装运算压印模板和4个加速卡<Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:13" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="4 5 0" max="3 6 1">
-  (11) Inscriber #4: In its default configuration. Has an Engineering Press and 4 Acceleration Cards
-  <Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:14" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
+  (11) 压印器#4：默认配置，安装工程压印模板和4个加速卡<Row><ItemImage id="appliedenergistics2:item.ItemMultiMaterial:14" scale="2" /> <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" /></Row>
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 2 0" max="1 3 1">
-  (12) Inscriber #5: In its default configuration. Has 4 Acceleration Cards
+  (12) 压印器#5：默认配置，安装4个加速卡
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.7 2 0" max="3 1 1">
-  (13) Import Bus #1: In its default configuration, has 2 Acceleration Cards
+  (13) 输入总线#1：默认配置，安装2个加速卡
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.7 4 0" max="3 3 1">
-  (14) Import Bus #2: In its default configuration, has 2 Acceleration Cards
+  (14) 输入总线#2：默认配置，安装2个加速卡
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.7 5 0" max="3 4 1">
-  (15) Import Bus #3: In its default configuration, has 2 Acceleration Cards
+  (15) 输入总线#3：默认配置，安装2个加速卡
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2.7 6 0" max="3 5 1">
-  (16) Import Bus #4: In its default configuration, has 2 Acceleration Cards
+  (16) 输入总线#4：默认配置，安装2个加速卡
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 3 0" max="1 3.3 1">
-  (17) Storage Bus #2: In its default configuration.
+  (17) 存储总线#2：默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="2 1.7 0" max="1 2 1">
-  (18) Storage Bus #3: In its default configuration.
+  (18) 存储总线#3：默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="1 2 0" max="0.7 3 1">
-  (19) Import Bus #5: In its default configuration, has 2 Acceleration Cards
+  (19) 输入总线#5：默认配置，安装2个加速卡
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="5 0.7 0" max="6 1 1">
-  (20) Storage Bus #4: In its default configuration.
+  (20) 存储总线#4：默认配置。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dddddd" min="3.3 2.7 0.3" max="3.7 3 0.7">
-  Quartz Fiber powers all 3 inscribers because inscribers act like cables and thus transmit energy
+  石英纤维可为所有3台压印器供电，因为压印器的行为类似线缆、可以传输能量
   </BoxAnnotation>
 
   <DiamondAnnotation pos="7 1.5 0.5" color="#00ff00">
-  To Main Network
+  连接主网络
   </DiamondAnnotation>
 
   <IsometricCamera yaw="185" pitch="5" />
 </GameScene>
 
-## Configurations
+## 配置说明
 
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) is in its default configuration, with the relevant <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />s.
-  Note that the patterns go direct from raw resources to the completed processor, and do **NOT** include the [press](../items_blocks/presses.md).
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) 保持默认配置，并载入相关<ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />注意：这些样板直接以原材料为输入、以成品处理器为输出，**不**包含[压印模板](../items_blocks/presses.md)。
 
-  ![Logic Pattern](../assets/images/logic_pattern.png)
-  ![Calculation Pattern](../assets/images/calculation_pattern.png)
-  ![Engineering Pattern](../assets/images/engineering_pattern.png)
+  ![逻辑处理器样板](../assets/images/logic_pattern.png)![运算处理器样板](../assets/images/calculation_pattern.png)![工程处理器样板](../assets/images/engineering_pattern.png)
 
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />ses (2, 17, 18, 20) are in their default configurations.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" />ses (3-7) are filtered to the relevant ingredient. They have 2 <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />s.
+* 所有<ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (2, 17, 18, 20) 保持默认配置
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:260" /> (3-7) 过滤为对应原料，装有2个<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />
 <Row>
   <ItemImage id="gregtech:gt.metaitem.01:17020" scale="2" />
   <ItemImage id="minecraft:gold_ingot" scale="2" />
@@ -165,9 +146,8 @@ inputs the raw resources and outputs the completed processor, and since the pres
   <ItemImage id="minecraft:diamond" scale="2" />
   <ItemImage id="minecraft:redstone" scale="2" />
 </Row>
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />ses (13-16, 19) are in their default configurations. They have 2 <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />s.
-* The <ItemLink id="appliedenergistics2:tile.BlockInscriber" />s are in their default configurations. They have the relevant [press](../items_blocks/presses.md),
-and 4 <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />s.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (13-16, 19) 保持默认配置，装有2个<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />
+* <ItemLink id="appliedenergistics2:tile.BlockInscriber" /> 保持默认配置，安装对应的[压印模板](../items_blocks/presses.md)以及4个<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:19" scale="2" />
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:15" scale="2" />
@@ -175,14 +155,11 @@ and 4 <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />s.
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:14" scale="2" />
 </Row>
 
-## How It Works
+## 工作原理
 
-1. The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> pushes the ingredients into the barrel.
-2. The first [pipe subnet](pipe_subnet.md) (orange) pulls the silicon, redstone dust, and the relevant processor's ingredient
-(Gold Ingot, Certus Quartz Crystal, or Diamond) out of the barrel and puts them in the relevant <ItemLink id="appliedenergistics2:tile.BlockInscriber" />.
-3. The first four <ItemLink id="appliedenergistics2:tile.BlockInscriber" />s make the <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:20" />, and the <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:22" />,
-<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:23" />, or <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:24" />.
-4. The second and third [pipe subnet](pipe_subnet.md)s (green) take the printed circuits out of the first four <ItemLink id="appliedenergistics2:tile.BlockInscriber" />s
-    and put them in the fifth, final assembly <ItemLink id="appliedenergistics2:tile.BlockInscriber" />.
-5. The fifth <ItemLink id="appliedenergistics2:tile.BlockInscriber" /> assembles the [processor](../items_blocks/processors.md).
-6. The fourth [pipe subnet](pipe_subnet.md) (purple) puts the processor in the ME Interface, returning it to the main network.
+1. <ItemLink id="appliedenergistics2:tile.BlockInterface" />将材料推入木桶
+2. 第一个[管道子网](pipe_subnet.md)（橙色）将硅、红石粉以及对应处理器的原料（金锭、赛特斯石英水晶或钻石）从木桶中取出，送入对应的<ItemLink id="appliedenergistics2:tile.BlockInscriber" />
+3. 前四台<ItemLink id="appliedenergistics2:tile.BlockInscriber" />分别生产<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:20" />、<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:22" />、<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:23" />或<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:24" />
+4. 第二和第三个[管道子网](pipe_subnet.md)（绿色）把印压好的电路从前四台<ItemLink id="appliedenergistics2:tile.BlockInscriber" />中取出，放入第五台负责最终组装的<ItemLink id="appliedenergistics2:tile.BlockInscriber" />
+5. 第五台<ItemLink id="appliedenergistics2:tile.BlockInscriber" />组装出[处理器](../items_blocks/processors.md)
+6. 第四个[管道子网](pipe_subnet.md)（紫色）将处理器送入ME接口，由此返回主网络

@@ -13,7 +13,7 @@ item_ids:
   - gregtech:gt.blockmachines:11185
   - gregtech:gt.blockmachines:11186
 navigation:
-  title: Merged Canning Machines
+  title: 装罐机合并
   parent: ../reworks/reworks.md
   icon: gregtech:gt.blockmachines:231
 categories:
@@ -22,7 +22,7 @@ author: Skorched
 date: 2026-05-26
 ---
 
-# Merging Canning Machines
-Although a relatively minor change, the Fluid Canners (<ItemImage id="gregtech:gt.blockmachines:431" />) have now become officially deprecated. The functionality is now fully merged with the Canning Machines (<ItemImage id="gregtech:gt.blockmachines:231" />)!
+# 装罐机合并
+虽然只是相对较小的改动，但流体灌装机（<ItemImage id="gregtech:gt.blockmachines:431" />）现已被正式弃用。其功能现已完全合并到基础装罐机（<ItemImage id="gregtech:gt.blockmachines:231" />）中！
 
-Can't complain at losing extra machines floating around on your LV lines!
+低压生产线上不再有那些多余机器到处乱放，实在没什么好抱怨的！

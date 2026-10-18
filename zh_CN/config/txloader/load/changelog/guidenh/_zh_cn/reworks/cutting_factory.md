@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15540
 navigation:
-  title: Industrial Cutting Factory
+  title: 工业切割机
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15540
 categories:
@@ -10,42 +10,42 @@ categories:
 author: Skorched
 date: 2026-05-27
 ---
-# Industrial Cutting Factory
+# 工业切割机
 
 <GameScene wrap="square" align="right">
   <ImportStructure src="../assets/reworks/cutting.snbt"/>
 </GameScene>
 
-The <Color id="GREEN">Industrial Cutting Factory (ICF)</Color> is an IV tier multiblock for cutting rods, wafers, blocks, and more. The <Color id="GREEN">ICF</Color> is a direct upgrade from the singleblock cutting machine because it runs up to <Color id="BLUE">450%</Color> speed, uses as little as <Color id="RED">60%</Color> of the EU/t normally required, and offers up to <Color id="GREEN">6</Color> parallels per voltage tier. The exact bonuses and the maximum tier of the energy hatches depend on the tier of the sawblade in the controller. Only one sawblade is required and all four tiers have unlimited durability--they are a one time cost to upgrade the machine. The transcendent metal sawblade <ItemImage id="gregtech:gt.metaitem.01:32105"/> is the most powerful and unlocks the ability to use one multi-amp energy hatch instead of regular energy hatches. Input separation should be enabled on the <Color id="GREEN">ICF</Color> for using different programmed circuits and/or non-consumables within the same machine.
+<Color id="GREEN">工业切割机（ICF）</Color>是一台IV等级多方块结构，用于切割杆、晶圆、方块等材料。<Color id="GREEN">ICF</Color>是单体切割机的直接升级，因为它的运行速度最高可达<Color id="BLUE">450%</Color>，EU/t消耗最低只需正常所需的<Color id="RED">60%</Color>，且每级电压最多提供 <Color id="GREEN">6</Color> 条并行（随电压等级线性增加）。具体加成和能源仓的最高等级取决于控制器中锯片的等级。只需一把锯片，且全部四个等级均无耐久限制——它们是升级机器的一次性投入。超时空金属（Transcendent Metal）锯片<ItemImage id="gregtech:gt.metaitem.01:32105"/>最为强力，可解锁使用一个多A能源仓代替普通能源仓的能力。应在<Color id="GREEN">ICF</Color>上启用输入隔离，以便在同一台机器内使用不同的编程电路和/或非消耗品。
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Parallels: Now independent of Voltage Tier, but linked to used sawblades (max 6, previously 4)
-> - Speed: Also linked to sawblades (max 450%, previously 300%)
-> - Power: ALSO linked to sawblades (min 60%, previously 75%)
+> 除结构本身外，该多方块结构还进行了以下改动：
+> - 并行：现在与电压等级无关，而是取决于所用的锯片（最高6，之前为4）
+> - 速度：同样取决于锯片（最高450%，之前为300%）
+> - 耗电：同样取决于锯片（最低60%，之前为75%）
 
-## Construction
-The <Color id="GREEN">ICF</Color> has no tiered components. The glass can be any tier and has no effect on the operation on the machine. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. One <Color id="GREEN">Multi-Amp Energy Hatch</Color> is allowed if using a transcendent metal sawblade. Use a screwdriver on the controller to disable animations. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass. 
+## 建造
+<Color id="GREEN">ICF</Color>没有任何分级部件。玻璃可以是任意等级，且对机器的运行没有影响。总线/仓可以替换结构中任意位置的机械方块。<Color id="RED">激光能源仓</Color>不受支持，但可以放置多个普通能源仓用于超频。若使用超时空金属锯片，则允许放置一个<Color id="GREEN">多A能源仓</Color>。对控制器使用螺丝刀可以关闭动画。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构，并用子频道"glass"指定玻璃的等级。
 
-### Requires:
+### 所需材料：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15540"/><ItemImage id="gregtech:gt.blockmachines:15540"/>
 - 10-30 <ItemLink id="miscutils:gtplusplus.blockcasings.2:13"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:13"/>
 - 18 <ItemLink id="miscutils:blockFrameGtTantalumCarbide"/><ItemImage id="miscutils:blockFrameGtTantalumCarbide"/>
 - 13 <ItemLink id="gregtech:gt.sheetmetal:334"/><ItemImage id="gregtech:gt.sheetmetal:334"/>
-- 1+ Energy Hatch (any frame, tier limited by sawblade) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any frame) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any frame) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any frame) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any frame) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any frame) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ 能源仓（任意框架，等级受锯片限制）<ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意框架）<ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意框架）<ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意框架）<ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输入仓（任意框架）<ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ 输出总线（任意框架）<ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">ICFs</Color> may wallshare each of their sides to save on casings, frame boxes, glass, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### 共墙
+<Color id="GREEN">ICF</Color>的每一面均可与其他机器共墙，以节省机械方块、框架箱、玻璃和总线/仓。没有任何配方的耗电超过1A，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
-## Usage
-The <Color id="GREEN">ICF</Color> is a direct upgrade from the singleblock cutting machine because it runs up to 450% speed, uses as little as 60% of the EU/t normally required, and offers up to 6 parallels per voltage tier. The exact bonuses and the maximum tier of the energy hatches depend on the tier of the sawblade in the controller. 
+## 用途
+<Color id="GREEN">ICF</Color>是单体切割机的直接升级，因为它的运行速度最高可达450%，EU/t消耗最低只需正常所需的60%，且每级电压最多提供 6 条并行（随电压等级线性增加）。具体加成和能源仓的最高等级取决于控制器中锯片的等级。
 
-A sawblade is required in the controller to run any recipes in the <Color id="GREEN">ICF</Color>. All four tiers have unlimited durability--they are a one time cost to upgrade the machine. Stacking multiple together in the controller has no effect on the operation of the machine. The transcendent metal sawblade is the most powerful and unlocks the ability to use one multi-amp energy hatch instead of regular energy hatches.
+要在<Color id="GREEN">ICF</Color>中运行任何配方，控制器内必须装有锯片。全部四个等级均无耐久限制——它们是升级机器的一次性投入。在控制器中叠加多把锯片对机器的运行没有影响。超时空金属锯片最为强力，可解锁使用一个多A能源仓代替普通能源仓的能力。
 
-Input separation should be enabled on the <Color id="GREEN">ICF</Color> to prevent SOLID ingredients in different input buses from being used in the same recipe, including any programmed circuits or the slicer blade. That means a single <Color id="GREEN">ICF</Color> with many input buses can support many different programmed circuits simultaneously. Just don't forget to stay above the minimum number of cutting factory frames. FLUID ingredients are always shared regardless of input separation, unless the input hatch is colored.
+应在<Color id="GREEN">ICF</Color>上启用输入隔离，以防不同输入总线中的固体原料被用于同一个配方，包括任何编程电路或切削器刀刃。这意味着一台配备多个输入总线的<Color id="GREEN">ICF</Color>可以同时支持多种不同的编程电路。只是别忘了，切割机框架的数量必须保持在最低要求之上。无论是否启用输入隔离，流体原料都会被共享，除非输入仓被染色。

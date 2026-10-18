@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Quest Book Changes
+  title: 任务书改动
   parent: qol.md
   icon: questbook:ItemQuestBook
 categories:
@@ -9,10 +9,10 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Quest Book Changes
-The quest book has a fresh new look! Lines connecting quests now show arrows to help visualise the flow of quests, and which way the dependencies are going! Hovering over a quest will animate all lines connected to it. There is also a new button on the left sidebar to toggle the arrows if you prefer the old style.
+# 任务书改动
+任务书焕然一新！连接任务之间的连线现在会显示箭头，帮助你直观地看清任务的流程以及依赖关系的指向！将鼠标悬停在某个任务上时，与它相连的所有连线都会播放动画。左侧边栏还新增了一个按钮，如果你更喜欢旧样式，可以用它来开关箭头显示。
 
-Though there are some obvious changes to the quests (Coins page removal as an example), the Quest Dev team have been working tirelessly to make sure the entire quest book operates as smoothly as possible.
+尽管任务有一些显而易见的改动（例如移除了硬币页面），任务开发团队一直在不辞辛劳地工作，确保整本任务书尽可能流畅地运行。
 
 > [!NOTE]
-> The animation can be disabled in the config if you so desire
+> 如果你愿意，也可以在配置文件中禁用这一动画

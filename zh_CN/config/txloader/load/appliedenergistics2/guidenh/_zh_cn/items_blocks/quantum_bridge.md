@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Quantum Ring
+  title: 量子环
   icon: appliedenergistics2:tile.BlockQuantumLinkChamber
 categories:
 - network infrastructure
@@ -16,5 +16,5 @@ item_ids:
 <ItemImage id="appliedenergistics2:tile.BlockQuantumLinkChamber" scale="4"/>
 </Row>
 
-The Quantum Ring is AE2's wireless cross-dimensional channel transmission solution. For the full mechanics, see [Quantum Ring](../ae2_mechanics/quantum_bridge.md).
+量子环是AE2的无线跨维度频道传输方案。完整机制详见[量子环](../ae2_mechanics/quantum_bridge.md)。
 

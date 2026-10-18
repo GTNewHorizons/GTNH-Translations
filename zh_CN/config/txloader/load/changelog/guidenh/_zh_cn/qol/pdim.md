@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Personal Dimension Styling
+  title: 个人维度样式
   parent: qol.md
   icon: personalspace:personalPortal
 categories:
@@ -9,31 +9,31 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Personal Dimension Styling
-Bored of lawn-basing, or hovering over an abyssal void? Now the <Color id="GREEN">Personal Dimension Portal</Color> comes with a fresh new design, even including a "City Block" style preset!
+# 个人维度样式
+厌倦了把草坪当基地，或悬浮在无底虚空之上？现在 <Color id="GREEN">私人维度传送门</Color> 带来了焕然一新的设计，甚至包含“城市街区”风格预设！
 
-## New Features:
-- A fresh new interface design!
-- A preview of the terrain being generated
-- Allowed metadata for the blocks in the configuration list
-- Expansion of features available when creating the dimension
-- Added __100+ decorative block presets__ and a brand-new terrain preset.
+## 新特性：
+- 焕然一新的界面设计！
+- 所生成地形的预览
+- 配置列表中的方块现在允许指定元数据
+- 创建维度时的可用功能得到扩展
+- 新增 __100+ 装饰方块预设__ 和一个全新的地形预设。
 
-Feel free to post your fun, cool, or straight whacky designs to the <a href="https://discord.gg/gtnh">discord</a>!
+欢迎把你有趣、炫酷或古灵精怪的设计发到 <a href="https://discord.gg/gtnh">discord</a> 上！
 
 
 <FloatingImage src="../assets/qol/pdim_ui.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
-    The new main page of the Personal Portal UI
+    个人传送门 UI 的全新主页
   </ImageAnnotation>
 </FloatingImage>
 <FloatingImage src="../assets/qol/pdim_ui2.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
-    The new preset visualisation tool
+    全新的预设可视化工具
   </ImageAnnotation>
 </FloatingImage>
 <FloatingImage src="../assets/qol/pdim_example.png" align="left" displayWidth="256" wrap="square">
   <ImageAnnotation>
-    An example of the personal dimension in a new configuration!
+    新配置下的个人维度示例！
   </ImageAnnotation>
 </FloatingImage>

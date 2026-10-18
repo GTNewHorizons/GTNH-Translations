@@ -1,45 +1,45 @@
 ---
 navigation:
-  title: "Power Distribution"
+  title: "电力分配"
   icon: gregtech:gt.blockmachines:15300
   parent: power_index.md
   position: -7
 ---
 
-# Power Distribution
+# 电力分配
 
-By combining voltage conversion, current limiting, and energy storage, multiple [local power networks](enet.md) can be tied together. Devices with these functions are often the bridge between different local power networks: they act as both consumer blocks and transmitter blocks, taking power in from one network through their internal EU buffer and outputting power to another network.
+通过组合电压转换、限流与储能，可以把多个[本地电网](enet.md)连接在一起。具备这类功能的设备往往是不同本地电网之间的桥梁：它们既是用电方块又是输电方块，通过自身内部EU缓冲从一个电网接收电力，再向另一个电网输出电力。
 
-# Transformers
+# 变压器
 
 > [!WARNING]
-> Switching transformer mode while it is powered causes it to explode immediately.
+> 变压器在通电状态下切换模式会立即爆炸。
 
-Transformers change voltage to reduce transmission losses, drive higher-tier machines, and more. Because a transformer is only converting power between voltages, changes in voltage are usually accompanied by changes in current.
+变压器改变电压，用于降低传输损耗、驱动更高等级的机器等。由于变压器只是在各个电压之间转换电力，电压的变化通常伴随着电流的变化。
 
-**Singleblock transformers** can raise or lower voltage by one tier, while current changes by a factor of 4. They have 1 high-voltage face and 5 low-voltage faces. While holding <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />, <kbd>Right-click</kbd> to toggle between step-up mode and step-down mode. The high-voltage face is marked with a circle, the low-voltage faces with squares, and the colors match the tier color shown in the tooltip. In the default step-down mode, the high-voltage face is input and the low-voltage faces are output; in step-up mode, the direction is reversed.
+**单方块变压器**可以升压或降压一个等级，而电流则按4倍相应变化。它有1个高压面和5个低压面。手持<ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />时，按<kbd>右键</kbd>可在升压模式与降压模式之间切换。高压面用圆形标记，低压面用方形标记，颜色与提示信息中显示的等级颜色一致。默认的降压模式下，高压面为输入、低压面为输出；升压模式下方向相反。
 
-- Maximum input voltage: the standard voltage of the tier corresponding to the input face.
-- Output voltage: the standard voltage of the tier corresponding to the output face.
-- Maximum current: the tooltip's amperage value is the maximum current of the low-voltage faces; the high-voltage face supports one quarter of that amperage.
+- 最大输入电压：输入面对应等级的标准电压。
+- 输出电压：输出面对应等级的标准电压。
+- 最大电流：提示信息中的电流值是低压面的最大电流；高压面支持该电流的四分之一。
 
-The **Energy Distributor** is another singleblock device that converts extremely high current at low voltage into high voltage.
+**能量分配器**是另一种单方块设备，可以把低压下的极大电流转换为高电压。
 
-The **Active Transformer** (<ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />) is a multiblock transformer. It uses Energy Hatches and Dynamo Hatches as its power I/O. TecTech machines with power transmission enabled can also serve as active transformers.
+**有源变压器**（<ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />）是一种多方块变压器。它使用能源仓和动力仓作为电力输入/输出。启用了电力传输的TecTech机器也可以充当有源变压器。
 
-# Cable Diodes
+# 线缆二极管
 
-**Cable diodes** restrict current direction, allowing packets to travel only from the input side to the output side. They also contain a small internal EU buffer, so they provide a limited amount of voltage smoothing.
+**线缆二极管**限制电流方向，使能量包只能从输入侧流向输出侧。它内部还带有小型EU缓冲，因此能提供一定程度的稳压效果。
 
-Cable diodes come in different tiers and current limits. The tooltip shows their maximum allowed voltage and maximum through-current. Exceed either value and the diode burns out.
+线缆二极管有不同的等级和电流上限。提示信息会显示其允许的最大电压与最大通过电流。超过任一数值，二极管就会烧毁。
 
-# Battery Buffers
+# 电池箱
 
-Battery Buffers are the most common storage devices at low voltage, and they require batteries of the matching tier:
+电池箱是低压下最常见的储能设备，需要放入匹配等级的电池：
 
-- Maximum input voltage: the nominal voltage of the corresponding tier.
-- Maximum input current: 2A x number of batteries.
-- Output voltage: the nominal voltage of the corresponding tier.
-- Maximum output current: 1A x number of batteries.
+- 最大输入电压：对应等级的标称电压。
+- 最大输入电流：2A x 电池数量。
+- 输出电压：对应等级的标称电压。
+- 最大输出电流：1A x 电池数量。
 
-Storage devices can input and output power at the same time. Because Battery Buffers have different input and output current limits, they can also be used as an indirect way to limit current. For more storage options, see power storage and transport.
+储能设备可以同时输入和输出电力。由于电池箱的输入、输出电流上限不同，它也可以作为一种间接的限流手段。更多储能选项请参见电力储存与运输。

@@ -1,280 +1,280 @@
 ---
 navigation:
-  title: Multiblock Machines
+  title: 多方块机器
   icon: structurelib:item.structurelib.constructableTrigger
   parent: ./gtnh_basics_index.md
 ---
 
-# Multiblock Machines
+# 多方块机器
 
 > [!NOTE]
-> Some links are broken due to their pages not being available at this time. Help support GTNH's development by [contributing to the guide](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
+> 由于部分页面暂时不可用，一些链接因此失效。欢迎[为指南做出贡献](https://github.com/GTNewHorizons/GTNH-Guide-Pack)，帮助支持 GTNH 的开发！
 
-A **Multiblock** is a machine built from two or more blocks. Sizes range from small Thermal Refineries to massive superstructures like the Forge of the Gods. They typically serve a very specific purpose and are always better than their singleblock equivalent (ie. runs faster, better recipes), if one exists. Most multiblocks have their own unique casings and structure, but the input/output (I/O) of items, fluids, and energy is nearly universal. Items are transferred via buses, fluids are transferred via hatches, and power is transferred via energy/dynamo hatches. There is also the maintenance hatch for repairing the machine and the muffler hatch for releasing pollution. Use the tooltip and/or the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to see which buses/hatches are necessary and where they fit into the overall structure.
+**多方块结构**是由两个或更多方块组成的机器，尺寸从小型热力精炼厂到 诸神之锻炉这样的巨型建筑不等。它们通常服务于非常专一的目的，并且只要存在对应的单方块机器，就总是优于后者（即运行更快、配方更好）。大多数多方块结构都有自己独特的机械方块和结构，但物品、流体和能量的输入/输出（I/O）方式几乎是通用的：物品通过总线传输，流体通过仓传输，电力则通过能源仓/动力仓传输。此外还有用于修理机器的维护仓和用于排放污染的消声仓。使用物品提示（tooltip）和/或 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 来查看需要哪些总线/仓，以及它们在整体结构中的位置。
 
 > [!IMPORTANT]
-> Not all multiblocks in GTNH are from GregTech. There are a select few from other mods (ie. Railcraft Boilers and Smelteries) that do not follow any of the information on this page. Visit their individual pages for more details.
+> GTNH 中的多方块结构并非全部来自格雷科技。少数来自其他模组（例如 Railcraft 的锅炉和冶炼炉），它们不遵循本页的任何信息。详情请见它们各自的页面。
 
 ---
 
-# Construction
+# 建造
 
-Although multiblocks come in a variety of shapes, sizes, and casings, there are many common components for the I/O of items, fluids, and energy. The following subsections describe the purpose and function of each one. Note that multiblocks rarely require ALL of these to form and that there may be restrictions on their amounts and locations. Always check the tooltip and <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> for detailed information about a multiblock's construction requirements.
+尽管多方块结构的形状、尺寸和机械方块各不相同，但物品、流体和能量的 I/O 部件中有许多是通用的。以下小节将逐一介绍每种部件的用途与功能。请注意，多方块结构很少需要用到全部这些部件才能成型，且部件的数量和位置可能存在限制。务必查看物品提示（tooltip）和 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />，以了解多方块结构建造需求的详细信息。
 
-## Controller
+## 控制器
 
-The controller is the heart of the multiblock. It determines the placement and orientation of the entire structure as well as the operational settings of the machine. Right-click the controller to open the GUI which contains (1) the name of the machine at the top, (2) the status of the machine, (3) a sound toggle, (4) a few configurable parameters, (5) the power panel, and (6) any manual overrides. A short description of each of the configurable parameters and manual overrides are provided below.
+控制器是多方块结构的心脏，它决定整个结构的摆放位置与朝向，以及机器的运行设置。右键单击控制器打开 GUI，其中包含：(1) 顶部的机器名称，(2) 机器状态，(3) 声音开关，(4) 若干可配置参数，(5) 电力面板，以及 (6) 各类手动覆盖选项。以下简要说明各个可配置参数与手动覆盖选项。
 
-- **Void Mode** - Determines the behavior of the multiblock when there is no room in the output bus and/or output hatch. Choose to void only items, only fluids, or both. Void nothing means temporarily pause the machine until there is enough room for all products.
-- **Input Separation** - Prevents SOLID ingredients in different input buses from being used in the same recipe, including any programmed circuits. This is particularly useful for multiblocks with a high potential for recipe conflicts.
-- **Batch Mode** - Run multiples of the same recipe as one large recipe. This does NOT provide any sort of time discount or increase the throughput of the machine. The purpose is to reduce lag and improve TPS by lowering the number of recipe checks.
-- **Lock Recipe** - Prevent the multiblock from running other recipes. This can be set while a multiblock is currently running, or prior to the desired recipe.
-- **Update Structure** - Force a structure check. Multiblocks already do periodic structure checks, but this can save a few seconds (or minutes) of waiting.
-- **Power Switch** - Enable or disable the multiblock. This does NOT interrupt active recipes.
+- **虚空模式（Void Mode）** - 决定输出总线和/或输出仓没有空间时多方块结构的行为。可选择只虚空物品、只虚空流体，或两者都虚空。「不虚空」表示机器暂时暂停，直到有足够空间容纳所有产物。
+- **输入隔离（Input Separation）** - 防止不同输入总线中的固体原料被用于同一配方（包括编程电路）。对于配方冲突可能性较高的多方块结构尤其有用。
+- **批处理模式（Batch Mode）** - 将同一配方的多次运行合并为一次大批量运行。这不会提供任何时间折扣，也不会提高机器的产量，其目的是通过减少配方检查次数来降低卡顿、改善 TPS。
+- **锁定配方（Lock Recipe）** - 阻止多方块结构运行其他配方。既可以在多方块正在运行时设置，也可以在目标配方运行之前设置。
+- **更新结构检查（Update Structure）** - 强制进行一次结构检查。多方块结构本身会定期检查结构，但这可以省去几秒（或几分钟）的等待。
+- **电源（Power Switch）** - 启用或禁用多方块结构。这不会中断正在进行的配方。
 
-There are two options inside the power panel. The first is setting the maximum number of parallels which defaults to the maximum available. There is not much reason to ever lower it or manually set the value, unless there is a very specific scenario that requires absolute precision over energy efficiency. The second option toggles powerfail events which includes the message in chat and the blinking powerfail icon that appears when looking at the controller from a distance. In multiplayer, use the first command to invite other players to the same SpaceProject team and share powerfail information. Use the second command to immediately clear all powerfail icons from the world.
+电力面板中有两个选项。第一个是设置最大并行数，默认为可用的最大值。几乎没有理由调低它或手动设置该值，除非遇到非常特殊、宁可牺牲能效也要绝对精准的场景。第二个选项用于开关断电事件（powerfail）提示，包括聊天栏中的消息，以及从远处看向控制器时闪烁的断电图标。在多人游戏中，使用第一条命令即可邀请其他玩家加入同一个 SpaceProject 小队并共享断电信息；使用第二条命令可立即清除世界中的所有断电图标。
 
 ```
 /sp invite <name>
 /powerfails clear
 ```
 
-There are also a few unique interactions and shortcuts to changing the operational settings of the machine without having to enter the GUI. All of these involve right-clicking the controller with some sort of GregTech tool in hand. This reduces the durability of the tool, but it works very well with the Ring of Loki to quickly configure many machines at the same time.
+此外还有几种独特的交互方式和快捷操作，无需进入 GUI 即可更改机器的运行设置。所有这些操作都需要手持某种格雷科技工具右键单击控制器。这会消耗工具的耐久，但配合洛基之戒使用，可以同时快速配置多台机器，效果非常好。
 
-- **Wrench** - Rotate the controller and therefore the entire structure. Sneak right-click to flip the controller horizontally.
-- **Screwdriver** - Enable/disable input separation. Also used to change the mode of certain multiblocks.
-- **Wire Cutters** - Enable/disable batch mode.
-- **Soft Mallet** - Enable/disable the machine.
-- **Hammer** - Enable/disable sound muffling.
-- **Soldering Iron** - Set the strength (strong/weak) of the redstone signal from covers. This is not exclusive to controllers.
+- **扳手（Wrench）** - 旋转控制器，进而旋转整个结构。潜行右键可将控制器水平翻转。
+- **螺丝刀（Screwdriver）** - 启用/禁用输入隔离。也可用于更改某些多方块结构的模式。
+- **剪线钳（Wire Cutters）** - 启用/禁用批处理模式。
+- **软锤（Soft Mallet）** - 启用/禁用机器。
+- **锻造锤（Hammer）** - 启用/禁用消音。
+- **电烙铁（Soldering Iron）** - 设置覆盖板发出的红石信号强度（强/弱）。此操作并非控制器独有。
 
-## Buses
+## 总线
 
-<ItemImage id="minecraft:chest" /> **Input Bus** / <ItemImage id="minecraft:chest" /> **Output Bus**
+<ItemImage id="minecraft:chest" /> **输入总线** / <ItemImage id="minecraft:chest" /> **输出总线**
 
-Input and output buses are for inserting and extracting SOLID ingredients, respectively. Fluids and gases cannot be supplied via cells, buckets, or similar containers. Input buses do not automatically pull from adjacent inventories, but output buses automatically push to adjacent inventories, if one exists. The tier of the bus determines the available capacity or total number of item slots:
+输入总线和输出总线分别用于放入和取出固体原料。流体和气体无法通过单元、桶或类似容器供应。输入总线不会自动从相邻容器拉取物品，而输出总线会自动推送到相邻容器（如果存在）。总线的等级决定了可用容量，即物品栏位总数：
 
-| Tier | ULV | LV | MV | HV+ |
+| 等级 | ULV | LV | MV | HV+ |
 |------|-----|----|----|-----|
-| Slots | 1 | 4 | 9 | 16 |
+| 栏位数 | 1 | 4 | 9 | 16 |
 
-Right-click an input bus with a screwdriver to enable/disable the filter which prevents any ingredients without a use in the multiblock from entering the bus. Sneak right-click the input bus with a screwdriver to enable/disable sorting and limiting mode. Sorting mode constantly pushes items to the top-most slots while limiting mode prevents more than one stack of an item from entering the bus. There is also a filter in the GUI of output buses to lock them to specific items (drag from NEI).
+用螺丝刀右键单击输入总线可启用/禁用过滤器，防止多方块结构用不到的原料进入总线。用螺丝刀潜行右键输入总线可启用/禁用排序与限制模式。排序模式会不断把物品推到最上方的栏位，而限制模式会防止同一物品超过一组进入总线。输出总线的 GUI 中也有过滤器，可将其锁定为特定物品（从 NEI 拖入）。
 
-- **Super Buses** - An upgrade from regular input/output buses although the only difference is their slot capacity. Regular buses are capped at 16 slots while super buses range from 32-160 slots. The problem, however, is that they are much more expensive and require a Tier+3 regular input bus to craft. The LV super bus, for example, is crafted from five LV conveyor modules, two LV motors, and an EV input bus.
+- **超级总线（Super Buses）** - 普通输入/输出总线的升级版，唯一区别在于栏位容量。普通总线上限为 16 个栏位，超级总线则为 32-160 个栏位。但问题在于它们昂贵得多，而且需要用比其高 3 级的普通输入总线来合成。例如，LV 超级总线由五个 LV 传送带模块、两个 LV 电机和一个 EV 输入总线合成。
 
-- **Stocking Input Bus (ME)** and **Output Bus (ME)** - An even better upgrade from regular input/output buses because they connect directly to an AE2 network for seamless I/O of items. Right-click with wire cutters to allow ME channels to connect to any side, including other buses/hatches. The advanced version even supports auto-pull which allows it to stock itself with any item in the network.
+- **存储输入总线（ME）** 与 **输出总线（ME）** - 比普通输入/输出总线更好的升级，因为它们直接连接 AE2 网络，实现无缝的物品 I/O。用剪线钳右键单击可允许 ME 频道连接到任意面，包括其他总线/仓。进阶版本甚至支持自动拉取，可以用网络中的任意物品自行补货。
 
-## Hatches
+## 仓
 
-<ItemImage id="minecraft:cauldron" /> **Input Hatch** / <ItemImage id="minecraft:cauldron" /> **Output Hatch**
+<ItemImage id="minecraft:cauldron" /> **输入仓** / <ItemImage id="minecraft:cauldron" /> **输出仓**
 
-Input and output hatches are for inserting and extracting FLUID ingredients, respectively. Input hatches do not automatically pull from adjacent inventories, but output hatches automatically push to adjacent inventories, if one exists. The tier of the hatch determines the available capacity. Input hatches can technically "hold" much more than these amounts by placing a stack of large fluid cells into their inventory.
+输入仓和输出仓分别用于放入和取出流体原料。输入仓不会自动从相邻容器拉取流体，而输出仓会自动推送到相邻容器（如果存在）。仓的等级决定了可用容量。严格来说，只要往输入仓的物品栏里放一组大型流体单元，它就能“容纳”远超这些数值的流体。
 
-| Tier | ULV | LV | MV | HV | EV | IV | ... |
+| 等级 | ULV | LV | MV | HV | EV | IV | ... |
 |------|-----|----|----|----|----|----|-----|
-| Capacity | 8,000 L | 16,000 L | 32,000 L | 64,000 L | 128,000 L | 256,000 L | ... |
+| 容量 | 8,000 L | 16,000 L | 32,000 L | 64,000 L | 128,000 L | 256,000 L | ... |
 
-Right-click an output hatch with a screwdriver to change whether to output steam and/or other fluids. Alternatively, set the filter in the GUI of the output hatch to lock it to a specific fluid (drag from NEI).
+用螺丝刀右键单击输出仓可更改其是否输出蒸汽和/或其他流体。也可以在输出仓的 GUI 中设置过滤器，将其锁定为特定流体（从 NEI 拖入）。
 
-- **Quadruple Input Hatches** - An upgrade from regular input hatches that can hold up to four different fluids simultaneously at 1/4th the capacity of a regular input hatch of the same tier. These pair nicely with quadruple fluid pipes for transporting multiple fluids around.
+- **四重输入仓（Quadruple Input Hatches）** - 普通输入仓的升级版，可同时容纳四种不同的流体，每种流体的容量为同等级普通输入仓的 1/4。与四重流体管道搭配，在基地各处输送多种流体时非常合适。
 
-- **Stocking Input Hatch (ME)** and **Output Hatch (ME)** - An even better upgrade from regular input/output hatches because they connect directly to an AE2 network for seamless I/O of fluids. Right-click with wire cutters to allow ME channels to connect to any side, including other buses/hatches. The advanced version even supports auto-pull which allows it to stock itself with any fluid in the network.
+- **存储输入仓（ME）** 与 **输出仓（ME）** - 比普通输入/输出仓更好的升级，因为它们直接连接 AE2 网络，实现无缝的流体 I/O。用剪线钳右键单击可允许 ME 频道连接到任意面，包括其他总线/仓。进阶版本甚至支持自动拉取，可以用网络中的任意流体自行补货。
 
-## Energy & Dynamo Hatches
+## 能源仓与动力仓
 
-<ItemImage id="minecraft:redstone_block" /> **Energy Hatch** / <ItemImage id="minecraft:redstone_block" /> **Dynamo Hatch**
+<ItemImage id="minecraft:redstone_block" /> **能源仓** / <ItemImage id="minecraft:redstone_block" /> **动力仓**
 
-These are for inserting and extracting power at a specific voltage tier. More specifically, a standard energy hatch can supply up to 2A of power to a multiblock and a standard dynamo hatch can extract up to 1A of power from a multiblock. Be very careful to use the correct voltage and amperage with these hatches otherwise cables could burn, ingredients could void, and machines could explode.
+它们用于在特定电压等级下输入和输出电力。具体而言，标准能源仓最多可向多方块结构供应 2A 电力，标准动力仓最多可从多方块结构抽取 1A 电力。务必小心使用正确的电压和电流，否则线缆可能烧毁、原料可能被虚空、机器可能爆炸。
 
-- **Buffered Dynamo Hatches** - A small upgrade from standard dynamo hatches and can extract up to 4A of power from a multiblock. These also have a slightly larger internal buffer for storing power when there is nowhere for it to go. *(Deprecated as of 2.9 - instead, use a 4A Multi-Amp hatch.)*
+- **缓冲动力仓（Buffered Dynamo Hatches）** - 标准动力仓的小幅升级版，最多可从多方块结构抽取 4A 电力。它们还拥有稍大的内部缓冲，可在电力无处可去时储存电力。*（自 2.9 起已弃用——请改用 4A 多安培仓。）*
 
-- **Multi-Amp Hatches** - An upgrade from standard energy/dynamo hatches and can transfer up to 64A of power to/from a multiblock. Whether these are allowed or not highly depends on the multiblock.
+- **多安培仓（Multi-Amp Hatches）** - 标准能源仓/动力仓的升级版，与多方块结构之间最多可传输 64A 电力。是否允许使用在很大程度上取决于具体的多方块结构。
 
-- **Laser Hatches** - Unlocked much later on and can transfer millions of amps to/from a multiblock via laser vacuum pipes. Again, whether these are allowed or not highly depends on the multiblock.
+- **激光仓（Laser Hatches）** - 在游戏后期才会解锁，可通过激光真空管道与多方块结构之间传输数百万安培的电力。同样，是否允许使用在很大程度上取决于具体的多方块结构。
 
-## Maintenance Hatch
+## 维护仓
 
-<ItemImage id="minecraft:iron_door" /> **Maintenance Hatch**
+<ItemImage id="minecraft:iron_door" /> **维护仓**
 
-This hatch is for repairing any maintenance issues -- random occurrences that increase the power consumption of the multiblock by 10% each. There are six different maintenance issues in total and having all of them simultaneously is enough to shut the multiblock down. Each one generates a very specific message in the controller and corresponds to a very specific GregTech tool. WAILA also displays **HAS PROBLEMS** in red text while looking at the controller.
+该仓用于修复机器的各类维护问题——这类问题会随机出现，每一种都会使多方块结构的耗电量增加 10%。总共有六种不同的维护问题，同时出现全部六种足以让多方块结构停机。每种问题都会在控制器中产生非常具体的提示信息，并对应一种非常具体的格雷科技工具。注视控制器时，WAILA 还会以红色文字显示**存在问题**。
 
-Repair maintenance issues by opening the maintenance hatch, picking up the necessary tool, and left-clicking the center button. This consumes a small amount of durability and/or charge with every use.
+修复维护问题的方法：打开维护仓，拿起所需的工具，然后左键单击中央按钮。每次使用都会消耗少量耐久和/或电量。
 
-| Maintenance Issue | Tool to Fix |
+| 维护问题 | 修复工具 |
 |-------------------|-------------|
-| "Pipe is loose" | Wrench |
-| "Screws are loose" | Screwdriver |
-| "Something is stuck" | Soft Mallet |
-| "Platings are dented" | Hammer |
-| "Circuitry burned out" | Soldering Iron |
-| "That doesn't belong there" | Crowbar |
+| “管道松动了” | 扳手 |
+| “螺丝松动了” | 螺丝刀 |
+| “有东西卡住了” | 软锤 |
+| “板凹陷了” | 锻造锤 |
+| “电路烧坏了” | 电烙铁 |
+| “有东西不该在那儿” | 撬棍 |
 
-There is a 1 in 6,000 chance every 50 seconds of runtime for a new maintenance issue to appear. That is an average of 300,000 seconds or 83.3 hours of runtime between maintenance issues. Disabled or idle multiblocks do not increase runtime and therefore do not generate any maintenance issues or increase the likelihood thereof. Multiblocks without maintenance hatches ignore the mechanic entirely.
+每运行 50 秒，就有 1/6000 的概率出现一个新的维护问题，即平均每 300,000 秒（83.3 小时）的运行时间出现一次。禁用或闲置的多方块结构不会累计运行时间，因此不会产生任何维护问题，也不会增加其出现的可能性。没有维护仓的多方块结构则完全无视这一机制。
 
-There are a few different types of maintenance hatches and methods to repair them, listed below. Maintenance hatches may be wallshared between machines, although repairs must still be made for each one individually.
+维护仓有几种不同类型，修复方法也各不相同，列举如下。维护仓可以在多台机器之间墙体共享，但仍需逐台进行修复。
 
-- **Tool Box (LV)** - Holds up to nine tools and applies all of them simultaneously when a maintenance hatch is right-clicked from OUTSIDE its internal GUI. This consumes durability and/or charge of all tools inside regardless of the issue(s) present. Soldering material for the soldering iron may also be stored in and used from the Tool Box. Can be automated with a Dynamism Tablet and needs a maintenance cover.
+- **工具箱（Tool Box，LV）** - 可容纳最多九件工具，在维护仓的内部 GUI 之外右键单击维护仓时，会同时用上其中所有工具。无论当前存在哪些问题，都会消耗箱内所有工具的耐久和/或电量。电烙铁所需的焊接材料也可以存放在工具箱中并从中取用。可以搭配 活化工具台 实现自动化，并且需要一个维护覆盖板（maintenance cover）。
 
-- **BrainTech Aerospace Advanced Reinforced Duct Tape (MV)** - A single use item that solves all maintenance issues simultaneously. The tape visually appears around the maintenance hatch but that does not prevent future maintenance issues or reduce the chances of them occurring.
+- **布莱恩科技航空专用强化胶带FAL84型（MV）** - 一次性物品，可同时解决所有维护问题。胶带会以外观形式显示在维护仓周围，但这并不能防止以后出现维护问题，也不会降低其出现概率。
 
-- **Wand Focus: Maintenance (HV)** - A reusable Thaumcraft wand focus from Electromagic Tools that solves all maintenance issues simultaneously at the cost of 25 ignis, 25 terra, and 25 ordo. Vis discounts and the frugal focus upgrade can reduce the cost of these repairs.
+- **维护法杖核心（Wand Focus: Maintenance，HV）** - 来自 Electromagic Tools 的可重复使用的神秘时代法杖核心，可同时解决所有维护问题，消耗 25 点 Ignis（火）、25 点 Terra（大地）与 25 点 Ordo（秩序）。Vis 折扣和节俭核心升级可以降低这些修复的成本。
 
-- **Drone Downlink Module (IV)** - Automatically repairs any maintenance issues if there is an active Drone Centre within range of the hatch. Tier 1 and Tier 2 drones have a chance to crash and be destroyed every second, but fixing maintenance issues is completely free. It also allows remote control over connected multiblocks which is very useful after a widespread power outage.
+- **无人机下行模块（IV）** - 只要维护仓范围内有处于运行状态的无人机控制中心，就会自动修复所有维护问题。Tier 1 和 Tier 2 无人机每秒都有坠毁并损毁的可能，但修复维护问题完全免费。它还允许远程控制已连接的多方块结构，在大范围断电后非常有用。
 
-- **Auto Maintenance Hatch (LuV)** - Automatically repairs any maintenance issue at the cost of 4 duct tape, 2 lubricant cells, 4 steel screws, and 2 HV circuits. The internal inventory has four total slots, or one for each type of item.
+- **自动维护仓（LuV）** - 自动修复任何维护问题，代价是 4 个胶带、2 单元润滑油、4 个钢螺丝和 2 个 HV 电路板。内部物品栏共有四个栏位，每种物品各占一个。
 
-- **Auto-Taping Maintenance Hatch (UV)** - Automatically repairs any maintenance issue at no cost. The permanent solution to maintenance.
+- **自动Debug维护仓（UV）** - 自动免费修复任何维护问题。一劳永逸的维护解决方案。
 
-## Muffler Hatch
+## 消声仓
 
-<ItemImage id="minecraft:dispenser" /> **Muffler Hatch**
+<ItemImage id="minecraft:dispenser" /> **消声仓**
 
-This hatch releases pollution from the machine. There must be at least one block of air in front of the muffler hatch in order for the multiblock to function. Even pipes and wires are considered an obstruction. The amount of pollution generated depends on the multiblock and the tier of the muffler hatch:
+该仓负责排放机器产生的污染。消声仓前方必须至少有一格空气，多方块结构才能运行。即使是管道和线缆也会被视为障碍物。污染产生量取决于多方块结构以及消声仓的等级：
 
-| Tier | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV |
+| 等级 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV |
 |------|----|----|----|----|----|-----|-----|----|-----|
-| Pollution | 100% | 87% | 75% | 62% | 50% | 37% | 25% | 12% | 0% |
+| 污染 | 100% | 87% | 75% | 62% | 50% | 37% | 25% | 12% | 0% |
 
-If pollution is disabled, muffler hatches are still required, but their tier is no longer relevant.
+如果污染功能被禁用，消声仓仍然是必需的，但其等级不再有影响。
 
-## Wallsharing
+## 墙体共享
 
-A unique property of GregTech multiblocks is their ability to wallshare parts of their structure to save on casings, glass, coils, buses/hatches, and more. Simply overlap structures to allow multiple machines to use the same block(s) simultaneously. There are *very* few exceptions where that is not beneficial to the player and is therefore extremely useful throughout the entire game, whether building a second [Electric Blast Furnace](../tiers/lv/electric-blast-furnace.md) or a second Eye of Harmony.
+格雷科技多方块结构的一个独特性质，是能够共享结构的部分墙面，以节省机械方块、玻璃、线圈、总线/仓等材料。只需将多个结构重叠，就能让多台机器同时使用相同的方块。只有*极*少数例外情况下这对玩家没有好处，因此在整个游戏过程中它都极其有用——无论是建造第二座[工业高炉](../tiers/lv/electric-blast-furnace.md)，还是第二座鸿蒙之眼。
 
-Maintenance and muffler hatches are always safe to share, but be careful when sharing energy hatches because they can only pull up to 2A of power. Ensure that the recipes for a multiblock do not exceed 1A of power and repair maintenance issues as soon as possible, or else the additional power cost could cause both machines to powerfail.
+维护仓和消声仓始终可以安全共享，但共享能源仓时要小心，因为它们最多只能拉取 2A 电力。确保多方块结构的配方耗电不超过 1A，并尽快修复维护问题，否则额外的耗电可能导致两台机器同时断电停机。
 
 ---
 
-# Usage
+# 使用
 
-Although multiblocks operate very similarly to [singleblock machines](../singleblock/singleblock-index.md), there are a few distinct differences. First and foremost is that multiblocks **void** ingredients when they power fail. There is no restarting the recipe like in singleblocks; the ingredients just disappear, permanently. The multiblock also shuts down and has to be manually restarted. Periodically check your energy storage to prevent this from happening and turn off multiblocks or stop using them when energy levels are low. Also ensure that the entire multiblock is chunkloaded to avoid the controller loading in before the energy hatches.
+尽管多方块结构的运行方式与[单方块机器](../singleblock/singleblock-index.md)非常相似，但仍有一些明显差异。首要的一点是：多方块结构在断电时会**虚空**原料。无法像单方块机器那样重新开始配方——原料会直接消失，而且是永久消失。多方块结构也会随之停机，必须手动重启。请定期检查能量存储以防止这种情况发生，并在能量水平较低时关闭多方块结构或停止使用它们。同时，请确保整个多方块结构都保持区块加载，以避免控制器比能源仓先加载。
 
-## Overclocking
+## 超频
 
-An overclock occurs when the supplied power is at least 1 voltage tier higher than required by the recipe. Singleblocks can only achieve this with higher tier machines, but multiblocks can use higher tier and/or multiple energy hatches. The player first encounters overclocking when using the [Electric Blast Furnace](../tiers/lv/electric-blast-furnace.md); two energy hatches are needed to supply 4A of LV power, simulating 1A of MV power. There are two different types of overclocks and the one used depends on the multiblock itself. Those under "mixed" can use both in the same recipe or depends on an upgrade. Those under "unique" follow their own special rules and do not fit into either category.
+当供应的电力比配方所需电压至少高 1 个电压等级时，就会发生超频。单方块机器只能通过更高等级的机器来实现，而多方块结构可以使用更高等级和/或更多个能源仓。玩家最早是在使用[工业高炉](../tiers/lv/electric-blast-furnace.md)时接触到超频的：需要两个能源仓来提供 4A 的 LV 电力，模拟 1A 的 MV 电力。超频有两种不同类型，具体使用哪种取决于多方块结构本身：属于“mixed”（混合）的机器可以在同一配方中同时使用两者，或取决于某项升级；属于“unique”（独特）的机器则遵循自己特殊的规则，不属于这两类中的任何一类。
 
-- **Imperfect Overclocks** - Consume 4x the power for 2x the speed (4/2). This is the standard behavior of most multiblocks. For example, consider a recipe that normally takes 128 EU/t and 60s to run for a total of 153,600 EU. An imperfect overclock changes that to 512 EU/t and 30s to run for a total of 307,200 EU. Notice that the total energy is doubled which means the extra speed may not always be worth the additional power cost. Alternatively, build more of the same multiblock at the same voltage tier to provide the same effect for half the power.
+- **不完美超频（Imperfect Overclocks）** - 消耗 4 倍电力换取 2 倍速度（4/2）。这是大多数多方块结构的默认行为。例如，某个配方通常以 128 EU/t 运行 60 秒，总计 153,600 EU。一次不完美超频会把它变成 512 EU/t 运行 30 秒，总计 307,200 EU。注意总能耗翻倍了，这意味着额外的速度不一定总是值得额外的电力成本。另一种做法是在相同电压等级下多建几台相同的多方块结构，用一半的电量达到同样的效果。
 
-- **Perfect Overclocks** - Consume 4x the power for 4x the speed (4/4). The total energy remains the same so there is no downside to increasing the supplied voltage/amperage. The only reason to build multiple of the same multiblock with perfect overclocks is when there is not enough room for additional energy hatches. Very few multiblocks allow perfect overclocks.
+- **无损超频（Perfect Overclocks）** - 消耗 4 倍电力换取 4 倍速度（4/4）。总能耗保持不变，因此提高供应的电压/电流没有任何坏处。在有无损超频的情况下还要建造多台相同多方块结构的唯一原因，就是没有足够空间放置更多能源仓。允许无损超频的多方块结构非常少。
 
-Overclocking is only possible down to 1 tick because that is the smallest unit of time in Minecraft, but nearly every multiblock in GTNH is capable of subticking or increasing its number of parallels by a corresponding amount to simulate additional overclocks. The only exception is the Advanced Assembly Line which is capped at 1 tick per slice.
+超频最快只能到 1 tick（游戏刻），因为这是 Minecraft 中最小的时间单位，但 GTNH 中几乎每个多方块结构都能进行子刻（subtick）运算，或按相应比例增加并行数来模拟额外的超频。唯一的例外是进阶装配线，它每片（slice）最快 1 tick。
 
-## Parallels
+## 并行
 
-A parallel is a multiple of a recipe that runs concurrently with the original. Parallels increase the throughput and power consumption of a multiblock without increasing the overall length of the recipe. Two parallels, for example, doubles the EU/t to process twice the number of inputs simultaneously. The total EU remains the same, as with perfect overclocks, which means parallels are perfectly energy efficient and very powerful. Note that adding parallels is NOT the same as increasing the batch size -- the latter is only for saving TPS and does not increase the throughput of the multiblock.
+并行是指与原配方同时运行的该配方的一个副本。并行会提高多方块结构的产量和功耗，但不会延长配方的总时长。例如，两个并行会让 EU/t 翻倍，从而同时处理两倍的输入量。总 EU 保持不变，与无损超频一样，这意味着并行是完全节能且非常强力的手段。注意，增加并行并不等同于增大批处理规模——后者只是为了节省 TPS，不会提高多方块结构的产量。
 
-- **Batch Size** - More recipes per iteration, same EU/t, longer duration.
-- **Parallels** - More recipes per iteration, higher EU/t, same duration.
+- **批处理规模（Batch Size）** - 每次迭代运行更多配方，EU/t 不变，耗时更长。
+- **并行（Parallels）** - 每次迭代运行更多配方，EU/t 更高，耗时不变。
 
-Parallels are calculated AFTER energy discounts and BEFORE overclocks. Consider a recipe that consumes 2,000 EU/t over 16 seconds in the Volcanus which offers 8 parallels and only uses 90% of the EU/t normally required. The energy discount first reduces the base recipe to 1,800 EU/t over 16 seconds. If there is enough power for the maximum number of parallels then the multiblock consumes 8 x 1,800 = 14,400 EU/t over 16 seconds. If there is still enough power and high enough coils to grant a perfect overclock then the multiblock consumes 4 x 14,400 = 57,600 EU/t over 4 seconds. Lastly, one imperfect overclock increases the power consumption to 4 x 57,600 = 230,400 EU/t over 2 seconds.
+并行在能耗折扣之后、超频之前计算。以炽焱高炉为例：某个配方在其中消耗 2,000 EU/t、运行 16 秒，而炽焱高炉提供 8 并行，且只使用正常所需 EU/t 的 90%。能耗折扣先把基础配方降到 1,800 EU/t、16 秒。如果电力足以支撑最大并行数，那么多方块结构以 8 x 1,800 = 14,400 EU/t 运行 16 秒。如果电力仍然充足、线圈等级也足够高、可获得一次无损超频，那么多方块结构以 4 x 14,400 = 57,600 EU/t 运行 4 秒。最后，一次不完美超频会把功耗提升到 4 x 57,600 = 230,400 EU/t，运行 2 秒。
 
 ```
 EU/t = Base EU/t x EU Usage x Parallels x 4^Overclocks
 ```
 
-## Troubleshooting
+## 故障排除
 
-If a multiblock is not working, the first thing to do is open the controller for a clue on what is wrong. The following are some common error messages and what they could mean. If all else fails, reread the tooltip and the construction requirements on the wiki before rebuilding the entire multiblock with the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />.
+如果多方块结构无法正常工作，首先要做的是打开控制器，寻找问题所在的线索。以下是一些常见的错误信息及其可能的含义。如果以上都无效，请重新阅读物品提示（tooltip）和 wiki 上的建造要求，然后使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 重建整个多方块结构。
 
-### \*\* HAS PROBLEMS \*\*
+### \*\* 存在问题 \*\*
 
-- Needs Maintenance
-  - Use tools inside Maintenance Hatch GUI, **OR**
-  - Right-click with Tool Box on Maintenance Hatch
-    - Must have full complement of tools
-    - Soldering Iron must be charged
-    - Needs soldering material (consumable)
-- Volcanus with no Pyrotheum - causes voiding & maintenance issues
-- Cryogenic Freezer with no Cryotheum - causes voiding & maintenance issues
+- 需要维护
+  - 在维护仓 GUI 中使用工具，**或**
+  - 用工具箱右键单击维护仓
+    - 必须备齐整套工具
+    - 电烙铁必须充有电量
+    - 需要焊接材料（消耗品）
+- 炽焱高炉没有 烈焰之炽焱 - 会导致虚空与维护问题
+- 凛冰冷冻机没有极寒之凛冰 - 会导致虚空与维护问题
 
-### \*\* INCOMPLETE STRUCTURE \*\*
+### \*\* 结构不完整 \*\*
 
-- Multiblock built incorrectly
-  - Missing parts - left-Shift over controller in NEI
-  - Parts are in the wrong position
-  - Exceeds maximums or does not meet minimums
-  - Wrong casings - some blocks are visually similar
-  - Energy Hatch is insufficient tier
-  - Mixed coils or casing types
-  - Controller is facing the interior of the multiblock
-  - Something inside a multi that should be hollow
-- Structure not recognized
-  - Not built in one chunk or fully chunkloaded
-  - Break and replace Controller
+- 多方块结构建造有误
+  - 缺少部件 - 在 NEI 中按住左 Shift 悬停控制器查看
+  - 部件位置不对
+  - 超过上限或未达到下限
+  - 机械方块用错 - 有些方块外观相似
+  - 能源仓等级不足
+  - 线圈或机械方块类型混用
+  - 控制器朝向了多方块结构的内部
+  - 本应中空的多方块结构内部放了东西
+- 结构未被识别
+  - 未建在同一区块内或未完全保持区块加载
+  - 破坏并重新放置控制器
 
-### Does Not Turn On
+### 无法启动
 
-- No power
-  - Power line has breaks / not connected
-  - A cover is blocking power transmission somewhere
-  - Transformers are not oriented properly
-  - Energy Hatch input isn't facing power
-  - Generator(s) aren't turned on and connected
-  - Generator(s) out of fuel
-  - Battery Buffer has no batteries
-  - Batteries are not charged
-  - Battery and Buffer tier don't match
-- Incorrect recipe
-  - Liquids aren't in Input Hatch
-  - Items aren't in Input Bus
-  - Programmed Circuit not set in Input Bus / Controller
-  - Wrong ingredients, verify by metadata
-  - Coils/Casings/Energy Hatch insufficient tier for recipe
-  - Blocked by unusable recipe items in buses/hatches
-- Disabled
-  - Hit with Soft Mallet
-  - Press power button in controller
-- No Energy Hatch - add at least one Energy Hatch to accept power
-- Structure insufficient - multiblock configuration doesn't meet recipe's needs; gas/liquid needs an output in a different location
+- 没有电力
+  - 电力线路有断点 / 未连接
+  - 某处的覆盖板阻挡了电力传输
+  - 变压器朝向不正确
+  - 能源仓的输入面没有朝向供电来源
+  - 发电机未开启或未连接
+  - 发电机燃料耗尽
+  - 电池箱中没有电池
+  - 电池没有充电
+  - 电池与电池箱等级不匹配
+- 配方不正确
+  - 液体没有放入输入仓
+  - 物品没有放入输入总线
+  - 编程电路未在输入总线 / 控制器中设置
+  - 原料错误，请通过数据值（metadata）核对
+  - 线圈/机械方块/能源仓的等级不足以运行该配方
+  - 被总线/仓中无法用于配方的物品阻塞
+- 已被禁用
+  - 被软锤敲击过
+  - 在控制器中按下了电源按钮
+- 没有能源仓 - 至少添加一个能源仓来接收电力
+- 结构不足 - 多方块结构配置不满足配方需求；气体/液体需要在其他位置设有输出
 
-### Turns On then Voids / Shuts Down
+### 启动后随即虚空 / 停机
 
-- Insufficient power
-  - Not enough power generation - check recipe
-  - Too much power being used by other machines
-  - Not enough power delivered due to cable loss
-  - Over-limited by diode or transformer
-  - Battery Buffers only output 1A per battery
-  - Recipe is overclocking, consuming more power than expected
-  - Not all Energy Hatches are connected to power
-  - Not enough Energy Hatches to accept power (2A max each)
-- Muffler Hatch blocked
-  - Muffler is not pointing out
-  - Muffler does not have an air block above it
-  - Advanced Muffler Hatches need air filters
-- Missing Consumables
-  - Turbine item for Air Filters and Turbines
-  - Cryotheum for Cryogenic Freezer
-  - Pyrotheum for Volcanus
+- 电力不足
+  - 发电量不够 - 检查配方
+  - 其他机器耗电过多
+  - 线缆损耗导致实际输送的电力不足
+  - 被二极管或变压器限流
+  - 电池箱每块电池只能输出 1A
+  - 配方正在超频，耗电超出预期
+  - 并非所有能源仓都接入了电力
+  - 能源仓数量不足以接收电力（每个最多 2A）
+- 消声仓被阻塞
+  - 消声仓没有朝向外部
+  - 消声仓上方没有空气方块
+  - 进阶消声仓需要空气滤网
+- 缺少消耗品
+  - 空气滤网与涡轮所需的涡轮（转子）物品
+  - 凛冰冷冻机需要极寒之凛冰
+  - 炽焱高炉需要 烈焰之炽焱
 
-### Wrong Output
+### 产物错误
 
-- Incorrect circuit set
-- Input separation not enabled on a multi-bus setup
-- Water/Lava conditions not met for the Rock Breaker
+- 电路设置不正确
+- 多总线配置下未启用输入隔离
+- 碎石机的水/岩浆条件未满足
 
-### Voids at Random / Runs Intermittently
+### 随机虚空 / 间歇运行
 
-- Power loss - another machine is competing for amps, or power production is inconsistent
-- Job Done - no ingredients left to process, or no pollution in chunks for Air Filter
+- 电力损失 - 其他机器在争夺电流（安培），或发电不稳定
+- 作业完成 - 没有剩余原料可处理，或空气滤网所在区块内没有污染
 
-### Needs More Power
+### 需要更多电力
 
-- Insufficient Energy Hatch tier
-- Insufficient casing/hull tier for recipe
+- 能源仓等级不足
+- 机械方块/外壳等级不足以运行该配方
 
-### Overflowed
+### 溢出
 
-- Coil / heat casings mismatch
+- 线圈 / 隔热机械方块不匹配
 
-### Not Enough Output Space
+### 输出空间不足
 
-- Output doesn't have enough slots for the recipe
-- Output is full/missing
-- Missing an output for directional products
-  - EBF needs a hatch on top for gas and a hatch on bottom for fluids
+- 输出仓的栏位不够容纳该配方的产物
+- 输出仓已满/缺失
+- 缺少用于定向产物的输出仓
+  - 工业高炉（EBF）顶部需要一个仓来输出气体，底部需要一个仓来输出流体
 
-### No Valid Recipe Found
+### 未找到有效配方
 
-- No combination of valid items / wrong item
-- Missing input hatch/bus
+- 没有有效物品的组合 / 物品错误
+- 缺少输入仓/输入总线

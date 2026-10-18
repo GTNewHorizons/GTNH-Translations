@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Meteorite Compass
+  title: 陨石罗盘
   icon: appliedenergistics2:tile.BlockSkyCompass
 categories:
 - tools
@@ -9,13 +9,13 @@ item_ids:
 - appliedenergistics2:tile.BlockSkyCompass
 ---
 
-# The Meteorite Compass
+# 陨石罗盘
 
 <ItemImage id="appliedenergistics2:tile.BlockSkyCompass" scale="4" />
 
-The Meteorite Compass points toward chunks containing a [meteorite](../ae2_mechanics/meteorites.md), including artificial meteorites. It spins quickly when the current chunk contains one and slowly when no meteorite is nearby.
+陨石罗盘会指向含有[陨石](../ae2_mechanics/meteorites.md)的区块，包括人造陨石。若当前区块中就有陨石，指针会快速旋转；附近没有陨石时，指针则缓慢旋转。
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockSkyCompass" />
 

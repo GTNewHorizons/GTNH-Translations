@@ -1,5 +1,5 @@
-{gold:2 Parallels} per {white:Voltage Tier}
-{green:250% Speed}
-{aqua:100% EU Usage}
-Processes {red:Depleted Molten Salts} that come from the {white:LFTR}
-Handles the recipes of the {white:Reactor Processor Unit} and {white:Cold Trap}
+并行数：每{white:电压等级}增加 {gold:2}
+运行速度：{green:250%}
+功率系数：{aqua:100%}
+处理来自{white:液态氟钍反应堆}的{red:枯竭熔盐}
+处理{white:反应堆处理单元}和{white:冷阱}的配方

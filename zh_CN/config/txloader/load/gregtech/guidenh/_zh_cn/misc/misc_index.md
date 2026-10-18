@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Misc
+  title: 杂项
   icon: minecraft:grass
   parent: /index.md
 ---

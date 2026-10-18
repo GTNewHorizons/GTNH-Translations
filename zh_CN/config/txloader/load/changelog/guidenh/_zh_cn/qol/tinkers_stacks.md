@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Tinkers' Tool Modifiers
+  title: 匠魂工具强化
   parent: qol.md
   icon: TConstruct:ToolForgeBlock
 categories:
@@ -9,7 +9,7 @@ author: Skorched
 date: 2026-06-05
 ---
 
-# Tinkers' Tool Modifiers
-Are you tired of spending 3 business days adding lapis onto a hammer? Or maybe just sick of adding all of that redstone onto each new tool you make? This one's for you...
+# 匠魂工具强化
+你是否厌倦了花上整整 3 个工作日往锤子上加青金石？或者只是受够了给每把新做的工具一点点地加红石？这一条改动就是为你准备的……
 
-You can now add huge amounts of materials at the same time! By using either a crafting station, or a tool forge, you can add modifiers as you normally would except now it will consume <Color id="GREEN">ALL AVAILABLE</Color> items from the stacks to saturate the modifiers. You still obviously need to have those modifier slots available, but now dumping a hammer into a crafting station with 450 lapis will <Color id="GREEN">IMMEDIATELY</Color> give the full fortune effect, rather than doing 8 at a time for minutes on end! This also does not need you to count out the amount. If you put 8 stacks of lapis into the crafting grid (512 total), it will consume 450 and leave the remaining 62 behind!
+现在你可以一次性添加大量材料了！使用合成站（Crafting Station）或工具装配台（Tool Forge）时，你可以像平常那样添加强化，只不过现在它会消耗堆叠中 <Color id="GREEN">所有可用</Color> 的物品来填满强化。你显然仍然需要有空余的强化槽位，但现在，把一把锤子连同 450 个青金石一起丢进合成站，就会 <Color id="GREEN">立即</Color> 获得完整的时运效果，而不是一次 8 个地连续搞上好几分钟！这也不需要你自己去数数量。如果你把 8 组青金石放进合成格（共 512 个），它会消耗 450 个，并把剩下的 62 个留在原处！

@@ -1,84 +1,58 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Types of Storage and Network Cleanliness
+  title: 存储类型与网络整洁度
   icon: appliedenergistics2:tile.BlockDrive
 ---
 
-# Various Kinds of Storage and Keeping Your Network Organized
+# 各类存储与保持网络整洁
 
-Using filters, [partitions](../items_blocks/cell_workbench.md), and [storage priority](../ae2_mechanics/import_export_storage.md#storage-priority),
-you can set up several tiers of storage for various kinds of things.
+利用过滤、[分区](../items_blocks/cell_workbench.md)和[存储优先级](../ae2_mechanics/import_export_storage.md#storage-priority)，你可以为各种类型的物品搭建多个层级的存储。
 
-The kinds of storage tend to be:
-* General storage, for all the random stuff you have a few to a few thousand of. This uses small [cells](../items_blocks/storage_cells.md),
-like 4k or 16k.
-* Bulk storage, for all the stuff you have more than a few thousand of, like cobble or iron. This uses big cells like 256k
-or the cells from the MEGA addon.
-* Local storage at farms, as described in [Specialized Local Storage](specialized_local_storage.md). Certus farm examples depend on high-version Budding Certus and are not migrated to 1.7.10.
+存储的类型大致有：
+* 通用存储：用于存放那些你只有几个到几千个不等的零散物品。这类存储使用小型[存储元件](../items_blocks/storage_cells.md)，比如4k或16k。
+* 批量存储：用于存放那些你拥有数千个以上的物品，比如圆石或铁。这类存储使用大型元件，比如256k或MEGA扩展中的元件。
+* 农场等场景下的本地存储，如[专用本地存储](specialized_local_storage.md)所述。赛特斯农场范例依赖高版本的萌芽赛特斯石英，尚未迁移到1.7.10。
 
-The priorities are set up so that when items are dumped into the main network, it first tries to store them in the specialized
-bulk or local storage, and if that can't be done (due to filters and partitions), it then puts the items in general storage.
-This means that items WILL NOT ACTIVELY MOVE from one storage ot the other, but will "migrate" as they enter and leave the network.
-To actively move items, use an <ItemLink id="appliedenergistics2:tile.BlockIOPort" />.
+优先级的设置使得：物品被丢入主网络时，会先尝试存入专用的批量或本地存储；如果存不进去（由于过滤和分区的限制），再放入通用存储。这意味着物品并不会主动地从一种存储移动到另一种，而是在进出网络的过程中逐步“迁移”。要主动搬运物品，请使用<ItemLink id="appliedenergistics2:tile.BlockIOPort" />。
 
 <GameScene zoom="3" interactive={true}>
   <ImportStructure src="../assets/structures/network_storage_types.snbt" />
 
   <BoxAnnotation color="#33dd33" min="0 0 4" max="1 1.3 5">
-  Bulk Storage. In this case a filtered storage bus on a large capacity storage like a drawer. This storage bus is filtered to
-  coal. It has a high priority so whenever coal enters the network, it goes to this storage bus, and whenever coal is
-  pulled from the network, it is pulled from *evere except here*, so coal "migrates" to this drawer.
+  批量存储。此处是装在大容量存储（如抽屉）上的一个过滤存储总线。该存储总线过滤为煤炭。它具有高优先级，所以每当煤炭进入网络，都会存入这个存储总线；而每当煤炭从网络中被取出，都会从*除此处以外的地方*取出，因此煤炭会逐渐“迁移”到这个抽屉里。
 
-  IMPORTANT NOTE: Big optimized inventories like drawers are fine for this, but big *un*optimized inventories with many slots, like
-  colossal chests, are terrible for performance when used with storage busses.
+  重要提示：像抽屉这样的大型优化容器用于此目的没有问题，但像巨型箱子这样拥有大量槽位的大型*未*优化容器，与存储总线搭配使用时性能极差。
   </BoxAnnotation>
 
   <BoxAnnotation color="#33dd33" min="2 0 4" max="3 1 5">
-  Bulk Storage. In this case a partitioned 256k cell in a drive with high priority. This cell is partitioned to
-  cobblestone and iron. It has an Equal Distribution Card, so it won't be completely filled with cobblestone, leaving
-  no space for iron. The drive has a high priority so whenever cobble or iron enters the network, it goes to this storage bus,
-  and whenever cobble or iron is pulled from the network, it is pulled from *evere except here*, so cobble and iron "migrate" to this cell.
+  批量存储。此处是驱动器中一块已分区的256k元件，驱动器具有高优先级。该元件分区为圆石和铁，并装有均分卡，因此不会被圆石完全填满而留不下放铁的空间。驱动器的高优先级意味着：每当圆石或铁进入网络，都会存入这个存储总线；而每当圆石或铁从网络中被取出，都会从*除此处以外的地方*取出，因此圆石和铁会逐渐“迁移”到这块元件里。
   </BoxAnnotation>
 
   <BoxAnnotation color="#33dddd" min="4 0 4" max="5 1 5">
-  General Storage. In this case a drive full of 16k cells. These cells are not partitioned. The drive has a neutral priority
-  (in this case 0) so whenever something enters the network, it goes to the specialized bulk or local storage first,
-  and whenever something is pulled from the network, it is pulled from here first, so items that have specialized storage naturally
-  "migrate" out of general storage.
+  通用存储。此处是一个装满16k元件的驱动器。这些元件未做分区。驱动器的优先级为中性（此处为0），所以每当有物品进入网络，都会先存入专用的批量或本地存储；而每当有物品从网络中被取出，都会先从这里取出，因此拥有专用存储的物品会自然地从通用存储中“迁移”出去。
   </BoxAnnotation>
 
   <BoxAnnotation color="#88ff88" min="7 0 4" max="8 1 5">
-  This IO Port plays an important role in keeping the network organized. Because storage priority does not *actively*
-  move items, cells used in General Gtorage should be periodically "shuffled" through an IO port to move items that have a
-  place in specialized storage into that specialized storage. This "defragments" the storage, making sure things aren't
-  being stored in multiple places.
+  这个IO端口在保持网络整洁方面发挥着重要作用。由于存储优先级并不会*主动*移动物品，通用存储所用的元件应定期通过IO端口“过一遍”，把那些在专用存储中有位置的物品移入对应的专用存储。这相当于给存储做“碎片整理”，确保物品不会被分散存放在多个地方。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dd3333" min="10 0 1" max="11 1 2">
-  Local Storage at a mob farm. This drive has cells partitioned to the drops you want to keep, like bones and arrows.
-  The drive itself is not given priority, because the thing that affects the priority is the storage bus accessing the subnet
-  from the main net. The cells have equal distribution cards and overflow destruction cards.
+  怪物农场的本地存储。这个驱动器中的元件已分区为你想保留的掉落物，比如骨头和箭。驱动器本身不设优先级，因为真正影响优先级的，是从主网络访问该子网的存储总线。元件装有均分卡和溢出销毁卡。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dd3333" min="9 1 1" max="10 2.3 2">
-  Local Storage at a mob farm. This storage bus - interface setup allows the main network to acces this subnet's storage.
-  The storage bus is given a high priority and filtered to the things stored in the cells on the subnet.
+  怪物农场的本地存储。这套存储总线-接口组合让主网络能够访问该子网的存储。存储总线被设为高优先级，并过滤为该子网元件中存放的物品。
 
-  IMPORTANT: Due to the trash can setup on the subnet, make sure to filter this storage bus or it will start trashing
-  *every single item, fluid, etc. that enters the network*!
+  重要提示：由于子网上设有垃圾桶，务必给这个存储总线设置过滤，否则它会开始销毁*进入网络的每一种物品、流体等*！
   </BoxAnnotation>
 
   <BoxAnnotation color="#dd3333" min="8 0 1" max="9 1.3 2">
-  Local Storage at a mob farm. This storage bus on a matter condenser is set to a lower priority than the drive. This means
-  that mob drops that cannot enter the cells in the drive will overflow to here, and be disposed of. This is important,
-  in order to prevent the subnet from being jammed full of random junk like mostly-broken bows.
+  怪物农场的本地存储。这个装在物质聚合器上的存储总线，优先级设得比驱动器低。这意味着无法进入驱动器元件的怪物掉落物会溢出到这里，并被销毁处理。这一点很重要，可以防止子网被诸如大量快损坏的弓之类的杂乱垃圾塞满。
   </BoxAnnotation>
 
   <BoxAnnotation color="#dd33dd" min="10.7 1 7" max="12 2.3 8">
-  Local Storage at a melon farm. This setup uses a similar method used in the various certus farm examples. A storage bus
-  on the subnet inserts the thing being farmed into a barrel. Another storage bus on the main network (filtered to melon
-  slices and with a high priority) gives the main network access to the things being farmed.
+  西瓜农场的本地存储。这套装置采用了与各赛特斯农场范例类似的方法。子网上的一个存储总线把农场产出的物品插入木桶。主网络上的另一个存储总线（过滤为西瓜片且具有高优先级）让主网络能够访问这些产出的物品。
   </BoxAnnotation>
 
   <IsometricCamera yaw="270" pitch="30" />

@@ -1,25 +1,25 @@
 ---
 navigation:
-  title: "Transmission Internal Resistance"
+  title: "传输内阻"
   icon: gregtech:gt.blockmachines:21
   parent: power-index.md
   position: -6
 ---
 
-# Transmission Internal Resistance
+# 传输内阻
 
-All [transmitter blocks](enet.md) - including generators, [battery buffers](distribution.md#battery-buffers), [transformers](distribution.md#transformers), and similar blocks - have **internal resistance loss** when outputting EU. This loss is deducted directly from the internal EU buffer and does not affect output voltage or current.
+所有[传输方块](enet.md)——包括发电机、[电池箱](distribution.md#battery-buffers)、[变压器](distribution.md#transformers)等类似方块——在输出 EU 时都存在**内阻损耗**。该损耗直接从内部 EU 缓冲中扣除，不影响输出电压或电流。
 
 > [!IMPORTANT]
-> Internal resistance loss is not the same thing as a generator's fuel efficiency. It is a separate multiplicative loss on top of fuel efficiency.
+> 内阻损耗并不等同于发电机的燃料效率。它是在燃料效率之上额外叠加的乘性损耗。
 
-# Mechanism
+# 机制
 
-Any transmitter block always consumes $$8 \times 4^{\text{tier index}} \text{ V} + 2^{\text{tier index} - 1} \text{ EU}$$ from its internal EU buffer in order to produce one standard-voltage energy packet containing $$8 \times 4^{\text{tier index}} \text{ EU}$$.
+任何传输方块为了产出一个含有 $$8 \times 4^{\text{tier index}} \text{ EU}$$ 的标准电压能量包，总会从其内部 EU 缓冲中消耗 $$8 \times 4^{\text{tier index}} \text{ V} + 2^{\text{tier index} - 1} \text{ EU}$$。
 
-This means any block transmitting at LV standard voltage only has a real efficiency of $$\frac{32}{33}$$, multiplicatively. For every voltage tier above that, the absolute efficiency loss is halved.
+这意味着任何以 LV 标准电压进行传输的方块，其乘性实际效率仅为 $$\frac{32}{33}$$。电压等级每高一级，绝对效率损耗减半。
 
-| Output Voltage | Output Packet | Internal Buffer Cost | Lost Energy | Actual Efficiency |
+| 输出电压 | 输出能量包 | 内部缓冲消耗 | 损耗能量 | 实际效率 |
 |----------------|---------------|----------------------|-------------|-------------------|
 | LV (32 V) | 32 EU | 33 EU | 1 EU | 96.97% |
 | MV (128 V) | 128 EU | 130 EU | 2 EU | 98.48% |
@@ -27,6 +27,6 @@ This means any block transmitting at LV standard voltage only has a real efficie
 | EV (2,048 V) | 2,048 EU | 2,056 EU | 8 EU | 99.62% |
 | IV (8,192 V) | 8,192 EU | 8,208 EU | 16 EU | 99.81% |
 
-Because the loss is small and does not change output voltage, you usually do not need to care about it at high voltage.
+由于该损耗很小且不改变输出电压，在高电压下通常无需在意。
 
-Example: when a Basic Steam Turbine outputs 32 EU/t, its internal resistance loss is 1 EU/t, so its real steam cost should be calculated against 33 EU/t. When an Advanced Steam Turbine outputs 32 EU/t, the internal resistance loss is 0.5 EU/t, so it is more efficient.
+示例：基础蒸汽轮机输出 32 EU/t 时，其内阻损耗为 1 EU/t，因此实际蒸汽消耗应按 33 EU/t 计算。进阶蒸汽轮机输出 32 EU/t 时，内阻损耗为 0.5 EU/t，因此效率更高。

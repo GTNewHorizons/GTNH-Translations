@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Level Emitter
+  title: ME标准发信器
   icon: appliedenergistics2:item.ItemMultiPart:280
 categories:
 - devices
@@ -9,31 +9,31 @@ item_ids:
 - appliedenergistics2:item.ItemMultiPart:280
 ---
 
-# Level Emitter
+# 标准发信器
 
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:280" scale="4" />
 
-The level emitter emits a redstone signal based on the amount of an item in [network storage](../ae2_mechanics/import_export_storage.md). A variant emits according to the network's [energy](../ae2_mechanics/energy.md) level. Items and fluids can be dragged into the filter slot from NEI, or a fluid can be selected by right-clicking with a fluid container.
+标准发信器会根据[网络存储](../ae2_mechanics/import_export_storage.md)中指定物品的数量发出红石信号。另有一种ME能源发信器，会根据网络中存储的[能源](../ae2_mechanics/energy.md)量发出红石信号。物品和流体可从NEI拖入过滤槽，也可以通过右键点击流体容器来选择流体。
 
-Level emitters are [cable subparts](../ae2_mechanics/cables_subparts.md) and, unlike most [devices](../ae2_mechanics/devices.md), do not require a [channel](../ae2_mechanics/channels.md).
+标准发信器属于[线缆子部件](../ae2_mechanics/cables_subparts.md)，与大多数[设备](../ae2_mechanics/devices.md)不同，无需占用[频道](../ae2_mechanics/channels.md)。
 
-## Settings
+## 设置项
 
-* The emitter supports “greater than or equal to” and “less than” modes.
-* With <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />, it can emit while an item is being crafted or emit a signal to craft the item.
+* 发信器支持“大于等于”与“小于”两种模式
+* 安装<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" />后，可启用“合成时发信”或“发信触发合成”模式
 
-## Upgrades
+## 可安装升级
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> enables fuzzy matching and NBT-ignoring filters.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> enables crafting functionality.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> 启用模糊匹配与忽略NBT的过滤器
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> 启用合成相关功能
 
-## Crafting Functionality
+## 合成控制功能
 
-With the crafting card installed, the emitter enters crafting mode. “Emit while crafting” turns on redstone while [autocrafting](../ae2_mechanics/autocrafting.md) is making the filtered item through an <ItemLink id="appliedenergistics2:tile.BlockInterface" />. “Emit to craft item” creates a virtual [pattern](patterns.md) with no ingredients; requesting that item emits redstone from this emitter. Do not also place a real pattern for the same item in an interface.
+安装合成卡后，发信器会进入合成模式。“合成时发信”会在[自动合成](../ae2_mechanics/autocrafting.md)正通过<ItemLink id="appliedenergistics2:tile.BlockInterface" />制作所过滤的物品时发出红石信号。“发信触发合成”会创建一个不含任何原料的虚拟[样板](patterns.md)；当请求合成该物品时，此发信器会发出红石信号。不要同时在接口中为同一物品放置真实样板。
 
-This is useful for infinite farms or machines with probabilistic output, and for [recursive recipes](../tricks_example/recursive_crafting_setup.md) such as “1 cobblestone = 2 cobblestone”.
+这适用于无限资源农场、概率性产出的机器，以及诸如“1圆石=2圆石”的[递归配方](../tricks_example/recursive_crafting_setup.md)。
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:280" />
 

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Molecular Assembler
+  title: 分子装配室
   icon: appliedenergistics2:tile.BlockMolecularAssembler
 categories:
 - machines
@@ -9,33 +9,33 @@ item_ids:
 - appliedenergistics2:tile.BlockMolecularAssembler
 ---
 
-# Molecular Assembler
+# 分子装配室
 
 <ItemImage id="appliedenergistics2:tile.BlockMolecularAssembler" scale="8" />
 
-The molecular assembler takes item inputs and performs the operation defined by an adjacent <ItemLink id="appliedenergistics2:tile.BlockInterface" /> or by an inserted <ItemLink id="appliedenergistics2:item.ItemEncodedPattern" />, <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />, or <ItemLink id="appliedenergistics2:item.ItemTunnelPattern" />. It pushes results to adjacent inventories.
+分子装配室接收输入物品，并按相邻<ItemLink id="appliedenergistics2:tile.BlockInterface" />的定义，或按插入的<ItemLink id="appliedenergistics2:item.ItemEncodedPattern" />、<ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />或<ItemLink id="appliedenergistics2:item.ItemTunnelPattern" />执行相应的合成操作，最终将产物推送至相邻容器。
 
-The assembler below contains a pattern for “1 oak log = 4 oak planks”. Feed oak logs into the upper hopper and it will craft, then eject oak planks into the lower hopper.
+下方的装配室中装载了“1个橡木原木=4个橡木木板”的样板。把橡木原木送入上方的漏斗，它就会执行合成，然后把橡木木板弹出到下方的漏斗中。
 
 <GameScene zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/standalone_assembler.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Main Use
+## 主要用途
 
-The main use of a molecular assembler is next to an <ItemLink id="appliedenergistics2:tile.BlockInterface" />. An interface sends the relevant pattern and ingredients to adjacent assemblers. Because assemblers automatically eject results to adjacent inventories (the interface return slot), an assembler next to an interface is sufficient to automate crafting patterns.
+分子装配室的主要用途是紧邻<ItemLink id="appliedenergistics2:tile.BlockInterface" />放置。接口会把相应的样板和原料一并发送给相邻的装配室。由于装配室会自动把合成产物弹出到相邻容器（即接口的返回槽），只需将装配室放在接口旁边即可实现样板合成的自动化。
 
 <GameScene zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/assembler_tower.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Upgrades
+## 可安装升级
 
-The molecular assembler supports <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> (the acceleration card).
+分子装配室支持<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />（加速卡）。
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockMolecularAssembler" />
 

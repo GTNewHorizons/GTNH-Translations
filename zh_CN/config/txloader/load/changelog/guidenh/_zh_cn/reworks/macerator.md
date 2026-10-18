@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15539
 navigation:
-  title: Industrial Maceration Stack
+  title: 工业粉碎机
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15539
 categories:
@@ -11,52 +11,52 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Industrial Maceration Stack
+# 工业粉碎机
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15539"/>
 </GameScene>
 
-The <Color id="GREEN">Industrial Maceration Stack (IMS)</Color> is an EV tier multiblock for crushing and grinding items into dusts. The <Color id="GREEN">IMS</Color> is a direct upgrade from the singleblock macerator and the Steam Grinder because it is available in two tiers and has scaling bonuses. The T1 structure runs at <Color id="BLUE">160%</Color> speed and offers <Color id="RED">2</Color> parallels per voltage tier. The T2 structure runs at <Color id="BLUE">640%</Color> speed and offers <Color id="RED">8</Color> parallels per voltage tier. Upgrade the <Color id="GREEN">IMS</Color> by inserting a maceration upgrade chip <ItemImage id="miscutils:MU-metaitem.01:32152"/> into the controller, or by right-clicking the controller with the chip in hand.
+<Color id="GREEN">工业粉碎机（Industrial Maceration Stack，IMS）</Color>是一座将物品破碎、研磨成粉的 EV 等级多方块结构。<Color id="GREEN">IMS</Color>是单方块研磨机和大型蒸汽研磨机的直接升级，因为它有两个等级且带有递增加成。T1 结构以 <Color id="BLUE">160%</Color> 速度运行，每个电压等级提供 <Color id="RED">2</Color> 并行；T2 结构以 <Color id="BLUE">640%</Color> 速度运行，每个电压等级提供 <Color id="RED">8</Color> 并行。将粉碎升级芯片 <ItemImage id="miscutils:MU-metaitem.01:32152"/> 插入控制器，或手持芯片右键控制器，即可升级<Color id="GREEN">IMS</Color>。
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - T1 has not been changed in any way.
-> - T2: New structure, increased speed (160->640%)
+> 该多方块做出了以下改动（结构本身除外）：
+> - T1 没有任何改动。
+> - T2：新结构，速度提升（160->640%）
 
-## Construction
-The <Color id="GREEN">IMS</Color> is available in two tiers. The T1 structure has no tiered components and buses/hatches may replace any casing anywhere on the structure. The T2 structure also has no tiered components and buses/hatches may replace any maceration stack casing anywhere on the structure. The glass can be any tier and has no effect on the operation of the machine. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and the number of projectors held in a single stack to specify which tier to build. 
+## 建造
+<Color id="GREEN">IMS</Color>有两个等级。T1 结构没有带等级限制的组件，总线/仓可替换结构上任意位置的机械方块。T2 结构同样没有带等级限制的组件，总线/仓可替换结构上任意位置的粉碎机机械方块。玻璃可以是任意等级，对机器运行没有影响。不支持<Color id="RED">多A能源仓与激光能源仓</Color>，但可以放置多个普通能源仓来进行超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/搭建结构：用子通道“glass”指定玻璃等级，用单组投影仪的数量指定要搭建的等级。
 
-### T1 Requires:
+### T1 所需材料：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15539"/><ItemImage id="gregtech:gt.blockmachines:15539"/>
 - 26-44 <ItemLink id="gregtech:gt.blockcasings4:2"/><ItemImage id="gregtech:gt.blockcasings4:2"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### T2 Requires:
+### T2 所需材料：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15539"/><ItemImage id="gregtech:gt.blockmachines:15539"/>
 - 69-87 <ItemLink id="miscutils:miscutils.blockcasings:7"/><ItemImage id="miscutils:miscutils.blockcasings:7"/>
 - 20 <ItemLink id="gregtech:gt.blockframes:372"/><ItemImage id="gregtech:gt.blockframes:372"/>
 - 18 <ItemLink id="gregtech:gt.blockcasings2:3"/><ItemImage id="gregtech:gt.blockcasings2:3"/>
-- 8 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 8 等级玻璃（任意） <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings3:10"/><ItemImage id="gregtech:gt.blockcasings3:10"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ 能源仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输出总线（任意机械方块） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">IMS's</Color> may wallshare each of their sides to save on casings, frame boxes, glass, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### 共墙
+多台<Color id="GREEN">IMS</Color>的每一面都可以彼此共墙，以节省机械方块、铅青铜框架、玻璃和总线/仓。没有任何配方的耗电超过 1A，因此可以在<u>__两__</u>台机器之间共用<u>__一__</u>个能源仓。
 
-## Usage
-The <Color id="GREEN">IMS</Color> is a direct upgrade from the singleblock macerator and the Steam Grinder because it is available in two tiers and has scaling bonuses. The T1 structure runs at 160% speed and offers 2 parallels per voltage tier. The T2 structure runs at 640% speed and offers 8 parallels per voltage tier. Upgrade the IMS by inserting a <ItemLink id="miscutils:MU-metaitem.01:32152"/><ItemImage id="miscutils:MU-metaitem.01:32152"/> into the controller, or by right-clicking the controller with the chip in hand. The chip is immediately consumed and cannot be retrieved. 
+## 用法
+<Color id="GREEN">IMS</Color>是单方块研磨机和大型蒸汽研磨机的直接升级，因为它有两个等级且带有递增加成。T1 结构以 160% 速度运行，每个电压等级提供 2 并行；T2 结构以 640% 速度运行，每个电压等级提供 8 并行。将 <ItemLink id="miscutils:MU-metaitem.01:32152"/><ItemImage id="miscutils:MU-metaitem.01:32152"/> 插入控制器，或手持芯片右键控制器，即可升级 IMS。芯片会被立即消耗，无法取回。
 
-### Parallels:
+### 并行数：
 
 |   | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- | --------------- |

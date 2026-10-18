@@ -1,11 +1,11 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Bytes and Types
+  title: 字节与类型
   icon: appliedenergistics2:item.ItemExtremeStorageCell.Universe
 ---
 
-# Bytes and Types
+# 字节与类型
 
 <Column>
   <Row>
@@ -29,41 +29,23 @@ navigation:
   </Row>
 </Column>
 
-[Storage Cells](../items_blocks/storage_cells.md) are defined by both *bytes* and *types*. Bytes, like in
-your actual computer, are a measure of the total amount of "stuff" in a storage cell. Types are a measure of how many different,
-well, *types* of things are stored in a cell. Each type represents a unique item, so 4,096 cobblestone is 1 type but 16 different
-swords with different enchantments are 16 types.
+[存储元件](../items_blocks/storage_cells.md)由*字节数*与*种类数*共同定义。和现实中的电脑一样，字节数衡量的是存储元件中“东西”的总量；种类数衡量的则是元件里存了多少种不同的，嗯，*种类*。每个种类代表一种独特的物品，因此4,096个圆石是1种，而16把附魔各不相同的剑就是16种。
 
-Each storage cell can store a fixed amount
-of data. Each type consumes a number of bytes upfront (which varies with the cell
-size), and each item consumes one bit of storage, so eight items consume one
-byte, and a full stack of 64 consumes 8 bytes, regardless of how the item
-would stack outside an ME network. For instance, 64 identical saddles don't
-take up more space than 64 stone.
+每种存储元件能存储的数据量是固定的。每个种类都会预先占用一定量的字节数（数值随元件大小而变化），而每个物品占用1比特存储空间，因此8个物品占用1字节，一组（64个）物品占用8字节，无论该物品在ME网络之外如何堆叠。例如，64个完全相同的鞍并不比64个石头占用更多空间。
 
-Again, each item is 1 bit, so 8 items equals 1 byte. For fluid cells, this is 2,048 mB per byte.
+再强调一次，每个物品占1比特，所以8个物品等于1字节。对于流体元件来说，则是每字节2,048 mB。
 
-Many people complain about the limited number of types a cell can hold, but they are a ***necessary limitation***.
-Cells store their data in an NBT tag on the item itself, which makes them rather stable. However, this means putting too much
-data on a cell can cause too much data to be sent to a player, causing an effect similar to "Book Banning" in vanilla minecraft.
-Additionally, having too many different types in your system increases the load on sorting and item handling. However, this
-limitation does not end up being very restrictive. One <ItemLink id="appliedenergistics2:tile.BlockDrive" /> bay full of cells is 630 types which is actually
-quite a lot as long as you don't store loads of unique unstackable items.
+许多人对元件所能容纳的种类数限制颇有微词，但这是***必要的限制***。存储元件把数据存在物品自身的NBT标签里，因此相当稳定。然而这也意味着，往一个元件里塞进过多数据，会导致单次发送给玩家的数据量过大，造成与原版“禁人书”相同的效果。此外，系统里物品种类太多也会加重整理与物品处理的负载。不过，这种限制实际上并不算苛刻。一台装满元件的<ItemLink id="appliedenergistics2:tile.BlockDrive" />共可提供630个种类数，只要你不往里塞大量各不相同的不可堆叠物品，这其实已经相当多了。
 
-For this reason, types exist to "firmly discourage" you from dumping the hundreds of randomly damaged armor and tools from
-a mob farm directly into your ME system. Each armor piece with unique damage and enchantments has to be stored as a separate entry,
-causing bloat. it is recommended to filter them out of the item stream before they touch your system.
+正因如此，种类数的存在就是为了“坚决劝退”你把刷怪农场里成百上千件损伤程度随机的盔甲和工具一股脑倒进ME系统。每件耐久与附魔独一无二的盔甲都必须作为单独条目存储，从而造成臃肿。建议在它们接触你的系统之前，就把它们从物品流中过滤掉。
 
-Gunning straight for top tier storage cells is generally not the best idea,
-since you use more resources but don't get any extra type storage. This means that all sizes of cell are still useful even
-lategame, as they have tradeoffs.
+直奔最高级的存储元件一般不是个好主意，因为你耗费了更多资源，却没有换来任何额外的种类数。这意味着即使在游戏后期，各种大小的存储元件依然各有用处，因为它们各有取舍。
 
-Below is a table comparing the different tiers of storage cells, how much they store, and
-a rough estimate of their cost.
+下表对比了不同等级的存储元件的存储量，以及对其造价的粗略估计。
 
-## Storage Cell Contents Vs Cost
+## 存储元件：容量 vs 造价
 
-| Cell | Bytes | Types | Bytes Per Type |
+| 元件 | 字节数 | 种类数 | 每种类字节数 |
 | --- | ---: | ---: | ---: |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" scale="4" />        |      1,024 | 63 |       8 |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="4" />        |      4,096 | 63 |      32 |
@@ -96,11 +78,11 @@ a rough estimate of their cost.
   </Row>
 </Column>
 
-## Storage Capacity with Varying Type Count
+## 存储种类数变化对容量的影响
 
-The upfront cost of types is such that a cell holding 1 type can hold 2x as much as a cell with all 63 types in use.
+种类预先占用的字节数意味着：只存1种物品的元件，可存储的物品量可达63种全部占满的元件的2倍。
 
-| Cell | Total Capacity of Cell With 1 Type In Use | Total Capacity of Cell With 63 Types In Use |
+| 元件 | 使用1种类数时的容量 | 使用63种类数时的容量 |
 | --- | ---: | ---: |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" scale="4" />            |       8,128 |      4,160 |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="4" />            |      32,512 |     16,640 |
@@ -111,6 +93,6 @@ The upfront cost of types is such that a cell holding 1 type can hold 2x as much
 | <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.4096k" scale="4" />      |  33,292,288 | 17,039,360 |
 | <ItemLink id="appliedenergistics2:item.ItemAdvancedStorageCell.16384k" scale="4" />     | 133,169,152 | 68,157,440 |
 
-![A Cell With 1 Type](../assets/images/1_type_cell.png)
+![有1种类物品的元件](../assets/images/1_type_cell.png)
 
-![A Cell With 63 Types](../assets/images/63_type_cell.png)
+![有63种类物品的元件](../assets/images/63_type_cell.png)

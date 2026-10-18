@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Basic Automation
+  title: 基础自动化
   parent: crops.md
   icon: gregtech:gt.blockmachines:28001
 categories:
@@ -9,8 +9,8 @@ author: Skorched
 date: 2026-05-24
 ---
 
-# Basic Automation
-This page is less about crop specifics, and more about how crops can be automated for constant outputs!
+# 基础自动化
+本页的重点不在于作物本身的细节，而在于如何将作物自动化，以实现持续产出！
 
 
 <GameScene width="420" height="280" zoom={2.5} interactive={true}>
@@ -18,4 +18,4 @@ This page is less about crop specifics, and more about how crops can be automate
   <ImportPonder src="../assets/crops/auto.json" />
 </GameScene>
 
-If you're lost on how to gather infinite water sources, there are many options depending on your progression! Try searching through some of your favourite methods, from <Color id="RED">Thaumcraft</Color> to <Color id="GREEN">GregTech Multis</Color>!
+如果你不知道如何获取无限水源，根据你的游戏进度有许多可选方案！试试搜索一些你喜欢的方法，从 <Color id="RED">神秘时代</Color> 到 <Color id="GREEN">GregTech 多方块机器</Color> 都有！

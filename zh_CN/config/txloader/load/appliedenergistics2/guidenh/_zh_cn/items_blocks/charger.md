@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Charger
+  title: 充能器
   icon: appliedenergistics2:tile.BlockCharger
 categories:
 - machines
@@ -9,27 +9,27 @@ item_ids:
 - appliedenergistics2:tile.BlockCharger
 ---
 
-# Charger
+# 充能器
 
 <ItemImage id="appliedenergistics2:tile.BlockCharger" scale="4" />
 
-The Charger can charge the tools it supports and <ItemLink id="gregtech:gt.metaitem.01:8516" />.
+充能器可以为其支持的工具以及<ItemLink id="gregtech:gt.metaitem.01:8516" />充能。
 
-It must be supplied with power from its top or bottom. Both AE2 [cables](cables.md) and energy cables from other mods can be used. The Charger accepts both AE2 energy (AE) and Forge Energy (FE). Items can be inserted and extracted from all sides. Only completed products are extracted, so no filtering is required. The <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" /> can be used to rotate it for automation.
+它必须从顶部或底部供电。AE2的[线缆](cables.md)和其他模组的能源线缆都可以使用。充能器同时接受AE2能量（AE）和Forge Energy（FE）。物品可以从任意一面存入和取出。只会取出已完成的产物，因此无需过滤。可以使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />旋转它，以便进行自动化。
 
-<ItemImage id="gregtech:gt.metaitem.01:8516" /><ItemLink id="gregtech:gt.metaitem.01:8516" /> can be charged into <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />, or <ItemLink id="minecraft:compass" showIcon="left"/> can be transformed into <ItemLink id="appliedenergistics2:tile.BlockSkyCompass" showIcon="left"/>.
+<ItemImage id="gregtech:gt.metaitem.01:8516" /><ItemLink id="gregtech:gt.metaitem.01:8516" />可以充能为<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />，也可以将<ItemLink id="minecraft:compass" showIcon="left"/>转化为<ItemLink id="appliedenergistics2:tile.BlockSkyCompass" showIcon="left"/>。
 
-~~Placing an <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:46" /> on the top or bottom and right-clicking it with a hand crank allows items to be charged manually.~~
+~~在顶部或底部安装一个<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:46" />，右键转动曲柄，即可手动为物品充能。~~
 
-## Simple Automation
+## 简易自动化
 
-As shown below, the Charger's ability to rotate allows it to be semi-automated in the following way:
+如下所示，利用充能器可以旋转的特性，可以通过以下方式实现半自动化：
 
 <GameScene zoom="4" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/charger_hopper.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockCharger" />

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Storage Bus
+  title: ME存储总线
   icon: appliedenergistics2:item.ItemMultiPart:220
 categories:
 - devices
@@ -11,7 +11,7 @@ item_ids:
 - thaumicenergistics:part.base:2
 ---
 
-# Storage Bus
+# 存储总线
 
 <Row gap="20">
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:220" scale="4" />
@@ -19,35 +19,35 @@ item_ids:
 <ItemImage id="thaumicenergistics:part.base:2" scale="4" />
 </Row>
 
-The storage bus turns the adjacent inventory into [network storage](../ae2_mechanics/import_export_storage.md). The network can see its contents and insert or extract items to satisfy [devices](../ae2_mechanics/devices.md).
+存储总线能将相邻的容器转变为[网络存储](../ae2_mechanics/import_export_storage.md)。网络可以查看其中的内容，并通过存入或取出物品来满足[设备](../ae2_mechanics/devices.md)的需求。
 
-By putting one or more storage buses on a [subnetwork](../ae2_mechanics/subnetworks.md) as its only storage, the buses can also act as sources or destinations for item transfer (see [Pipe Subnet](../tricks_example/pipe_subnet.md)). Large optimized inventories such as drawers are fine, but unoptimized inventories with many slots can hurt performance.
+将一个或多个存储总线放在[子网](../ae2_mechanics/subnetworks.md)上作为其唯一的存储，这些总线还可以作为物品传输的源头或终点（参见[管道子网](../tricks_example/pipe_subnet.md)）。抽屉等大型优化容器没有问题，但槽位较多且未经优化的容器可能会拖累性能。
 
-Storage buses are [cable subparts](../ae2_mechanics/cables_subparts.md).
+存储总线属于[线缆子部件](../ae2_mechanics/cables_subparts.md)。
 
-## Filtering
+## 过滤功能
 
-By default, the bus stores everything. Items placed in filter slots form a whitelist. Items and fluids can be dragged into filters from NEI, and right-clicking with a fluid container sets the fluid rather than the container item.
+默认情况下，总线会存储所有物品。放入过滤槽中的物品构成白名单。物品和流体可以从NEI拖入过滤槽，而用流体容器右键点击时，设定的是流体本身而非容器物品。
 
-## Priority
+## 优先级
 
-Click the wrench in the top-right of the GUI to set priority. Items enter the highest-priority storage first. For equal priorities, a storage that already contains the item is preferred; filtered storages count as already containing their filtered items. Extraction starts at the lowest priority.
+点击GUI右上角的扳手图标即可设置优先级。物品进入时会优先存入最高优先级的存储。优先级相同时，会优先选择已存有该物品的存储；已设置过滤的存储会被视为已包含其所过滤的物品。取出物品时则从最低优先级的存储开始。
 
-## Settings
+## 设置选项
 
-* The bus can be partitioned to the current contents of the adjacent inventory.
-* You can choose whether items that the bus cannot extract remain visible to the network (for example, the middle input slot of an <ItemLink id="appliedenergistics2:tile.BlockInscriber" />).
-* Filtering can apply to insertion and extraction, or insertion only.
-* The bus can be bidirectional, insert-only, or extract-only.
+* 可根据相邻容器的当前内容对总线进行分区。
+* 可以选择总线无法提取的物品是否仍对网络可见（例如<ItemLink id="appliedenergistics2:tile.BlockInscriber" />的中部输入槽）。
+* 过滤功能可应用于存入和取出，也可以仅应用于存入。
+* 总线可设置为双向、仅存入或仅取出。
 
-## Upgrades
+## 升级卡支持
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> increases filter slots.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> enables fuzzy matching and NBT-ignoring filters.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> switches the whitelist to a blacklist.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" /> filters by ore-dictionary name.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" />可增加过滤槽数量。
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" />可启用模糊匹配以及忽略NBT的过滤。
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />可将白名单切换为黑名单。
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" />可按矿物辞典名称进行过滤。
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:220" />
 

@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15553
 navigation:
-  title: Industrial Bending Machine
+  title: 工业卷板机
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15553
 categories:
@@ -11,46 +11,46 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Industrial Bending Machine
+# 工业卷板机
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15553"/>
 </GameScene>
 
-The <Color id="GREEN">Industrial Bending Machine (IBM)</Color> is an EV tier multiblock for bending ingots into plates. The <Color id="GREEN">IBM</Color> is a direct upgrade from the singleblock bending machine because it runs at <Color id="RED">600%</Color> speed and offers <Color id="BLUE">6</Color> parallels per voltage tier. Input separation should be enabled on the <Color id="GREEN">IBM</Color> for using different programmed circuits within the same machine. 
+<Color id="GREEN">工业卷板机（IBM）</Color>是一台 EV 等级的多方块结构，用于把锭压弯成板。<Color id="GREEN">IBM</Color>是单方块卷板机的直接升级，因为它以 <Color id="RED">600%</Color> 的速度运行，并在每个电压等级提供 <Color id="BLUE">6</Color> 并行。应在 <Color id="GREEN">IBM</Color> 上启用输入隔离，以便在同一台机器中使用不同的编程电路。
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Separation of Machines: The Bending and Forming functionality has been separated into two distinct multiblocks ([See Industrial Forming Press](forming.md))
-> - More Parallels: 4 -> 6 per Voltage Tier
+> 该多方块结构做出了以下改动（结构本身除外）：
+> - 机器分离：压弯与冲压成型功能已被拆分为两个独立的多方块结构（[参见工业冲压机床](forming.md)）
+> - 更多并行：每个电压等级 4 -> 6
 
-## Construction
-The <Color id="GREEN">IBM</Color> has no tiered components. Buses/hatches may replace any metalworking machine casing anywhere on the structure. <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure. 
+## 结构建造
+<Color id="GREEN">IBM</Color>没有分级部件。总线/仓可替换结构中任意位置的金属加工机械方块。<Color id="GREEN">多A能源仓和激光能源仓</Color>不受支持，但可以有多个常规能源仓用于超频。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/建造该结构。
 
-### Requires:
+### 需要：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15553"/>
 - 4-15 <ItemLink id="miscutils:miscutils.blockcasings:4"/><ItemImage id="miscutils:miscutils.blockcasings:4"/>
 - 9 <ItemLink id="gregtech:gt.blockcasings12:14"/><ItemImage id="gregtech:gt.blockcasings12:14"/>
 - 6 <ItemLink id="gregtech:gt.blockframes:28"/><ItemImage id="gregtech:gt.blockframes:28"/>
 - 3 <ItemLink id="gregtech:gt.blockcasings2:4"/><ItemImage id="gregtech:gt.blockcasings2:4"/>
-- 1+ Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ 能源仓（任意外壳） <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 维护仓（任意外壳） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 消声仓（任意外壳） <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ 输入总线（任意外壳） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ 输出总线（任意外壳） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">IBMs</Color> may wallshare each of their sides to save on casings, frame boxes, stamping cores, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### 共墙
+<Color id="GREEN">工业卷板机</Color>可在各自侧面共墙，以节省机械方块、框架方块、冲压核心以及总线/仓。没有配方会消耗超过 1A 的电力，因此可以在 <u>__两__</u> 台机器之间共享 <u>__一__</u> 个能源仓。
 
-## Usage
-The <Color id="GREEN">IBM</Color> is a direct upgrade from the singleblock bending machine because it runs at 600% speed and offers 6 parallels per voltage tier, as seen in the following table.
+## 用法
+<Color id="GREEN">IBM</Color>是单方块卷板机的直接升级，因为它以 600% 的速度运行，并在每个电压等级提供 6 并行，如下表所示。
 
 | LV | MV | HV | EV | IV | LuV | ZPM | UV | UHV | UEV | UIV | UMV | UXV | MAX | MAX+ |
 | --------------- | --------------- | --------------- | --------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |--------------- |
 | 6 | 12 | 18 | 24 | 30 | 36 | 42 | 48 | 54 | 60 | 66 | 72 | 78 | 84 | 90 |
 
 
-Input separation should be enabled on the <Color id="GREEN">IBM</Color> to prevent SOLID ingredients in different input buses from being used in the same recipe, including any programmed circuits. That means a single <Color id="GREEN">IBM</Color> with many input buses can support many different programmed circuits simultaneously. Just don't forget to stay above the minimum number of metalworking machine casings.
+应在 <Color id="GREEN">IBM</Color> 上启用输入隔离，以防止不同输入总线中的固体原料被投入同一配方，包括任何编程电路。这意味着一台拥有多个输入总线的 <Color id="GREEN">IBM</Color> 可以同时支持多种不同的编程电路。只是别忘了机械方块的放置数量要保持在最低要求之上。
 
-The most common programmed circuits for bending machine recipes are 1, 2, 3, 4, 5, 9, and 10. 
+卷板机配方中最常用的编程电路是 1、2、3、4、5、9 和 10。

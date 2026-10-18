@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Wireless Receiver
+  title: 无线接收器
   icon: appliedenergistics2:item.ItemMultiMaterial:41
 categories:
 - misc ingredients blocks
@@ -9,13 +9,13 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:41
 ---
 
-# Wireless Receiver
+# 无线接收器
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:41" scale="4" />
 
-A <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:9" /> placed in a reflector dish. It is a component of short-range wireless ME technology.
+安装在反射盘中的<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:9" />（福鲁伊克斯珍珠），是短程ME无线技术的组件。
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:41" />
 

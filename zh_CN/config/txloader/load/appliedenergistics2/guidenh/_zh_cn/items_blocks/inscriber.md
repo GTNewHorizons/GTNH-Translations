@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Inscriber
+  title: 压印器
   icon: appliedenergistics2:tile.BlockInscriber
 categories:
 - machines
@@ -9,15 +9,15 @@ item_ids:
 - appliedenergistics2:tile.BlockInscriber
 ---
 
-# Inscriber
+# 压印器
 
 <ItemImage id="appliedenergistics2:tile.BlockInscriber" scale="4" />
 
-The inscriber presses circuit boards and [processors](processors.md) using [presses](presses.md), and can also crush several items into dust. It accepts AE2 energy (AE) and Fabric/Forge Energy (E/FE). In sided mode, items inserted from different sides enter different slots; use a <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" /> to rotate it. It can also push results to adjacent inventories.
+压印器使用[压印模板](presses.md)压印电路板和[处理器](processors.md)，还可以将几种物品粉碎成粉末。它可接受AE2能源（AE）和Fabric/Forge Energy（E/FE）。分面模式下，从不同面插入的物品会进入不同的槽位；使用<ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />可旋转其朝向。它还可以将产物推入相邻的容器。
 
-The input buffer size is adjustable. Use a small buffer when feeding many inscribers from one inventory so materials are distributed more evenly.
+输入缓冲区大小可调节。当用一个容器为多台压印器供料时，使用小缓冲区可以让材料分配得更均匀。
 
-The four circuit presses craft [processors](processors.md):
+四种电路压印模板用于制作[处理器](processors.md)：
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:13" scale="4" />
@@ -26,46 +26,46 @@ The four circuit presses craft [processors](processors.md):
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:19" scale="4" />
 </Row>
 
-The name press can name items like an anvil, which is useful for labeling things in a <ItemLink id="appliedenergistics2:item.ItemMultiPart:500" />.
+名称压印模板可以像铁砧一样为物品命名，便于在<ItemLink id="appliedenergistics2:item.ItemMultiPart:500" />中标记物品。
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:21" scale="4" />
 
-## Settings
+## 设置项
 
-* Sided mode routes input and extraction by side. In non-sided mode, an internal filter chooses the target slot, but the top and bottom slots cannot be extracted.
-* Results can be pushed to adjacent inventories.
-* The input buffer can be large for manual feeding or small for large parallel setups.
+* 分面模式按面分流输入与取出；非分面模式下由内部过滤自动选择目标槽位，但顶部和底部槽位无法取出物品
+* 可将产物推送到相邻的容器
+* 输入缓冲区可设大以适合手动供料，也可设小以适合大型并行布局
 
-## GUI And Sidedness
+## GUI界面与分面输入
 
-In sided mode, the side used for insertion or extraction selects the slot.
+分面模式下，用于输入或取出的面决定对应的槽位。
 
-![Inscriber GUI](../assets/images/inscriber_gui.png) ![Inscriber sides](../assets/images/inscriber_sides.png)
+![压印器GUI](../assets/images/inscriber_gui.png) ![压印器各面](../assets/images/inscriber_sides.png)
 
-A. **Top input** is accessed from the top (items can be inserted and extracted).
+A. **顶部输入槽** - 通过设备顶部存取（可输入/取出物品）
 
-B. **Center input** is accessed from the left, right, front, and rear (items can be inserted but not extracted).
+B. **中部输入槽** - 通过左、右、前、后四面输入（仅可输入，不可取出）
 
-C. **Bottom input** is accessed from the bottom (items can be inserted and extracted).
+C. **底部输入槽** - 通过设备底部存取（可输入/取出物品）
 
-D. **Output** is extracted from the left, right, front, and rear (items can be extracted but not inserted).
+D. **输出槽** - 通过左、右、前、后四面取出（仅可取出，不可输入）
 
-## Simple Automation
+## 简单自动化示例
 
-Sidedness and rotation allow semi-automated setups:
+利用分面模式和可旋转性可以实现半自动化布局：
 
 <GameScene width="350" height="220" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/inscriber_hopper_automation.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-Alternatively, pipe items into and out of the inscriber in non-sided mode.
+或者在非分面模式下用管道向压印器输入和输出物品。
 
-## Upgrades
+## 可安装升级
 
-The inscriber supports <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> (the acceleration card).
+压印器支持<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" />（加速卡）。
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:tile.BlockInscriber" />
 

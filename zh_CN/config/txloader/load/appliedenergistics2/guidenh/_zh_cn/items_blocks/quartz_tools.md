@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Certus Quartz Pickaxe
+  title: 赛特斯石英镐
   icon: appliedenergistics2:item.ToolCertusQuartzPickaxe
 categories:
 - tools
@@ -9,7 +9,7 @@ item_ids:
 - appliedenergistics2:item.ToolCertusQuartzPickaxe
 ---
 
-# Quartz Tools
+# 石英工具
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ToolCertusQuartzAxe" scale="4" />
@@ -26,9 +26,9 @@ item_ids:
   <ItemImage id="appliedenergistics2:item.ToolNetherQuartzSword" scale="4" />
 </Row>
 
-Quartz tools are functionally identical to iron tools, with the same attack damage, durability, and mining speed. They have Nether Quartz and [Certus Quartz](fluix_crystal.md) variants.
+石英工具在功能上与铁制工具相同，具有相同的攻击伤害、耐久度和挖掘速度。它们有下界石英和[赛特斯石英](fluix_crystal.md)两种变体。
 
-## Recipes
+## 合成配方
 
 <Column>
 <Row>

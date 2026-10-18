@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:31087
 navigation:
-  title: Steam Hearth
+  title: 蒸汽壁炉
   parent: multis.md
   icon: gregtech:gt.blockmachines:31087
 categories:
@@ -11,21 +11,21 @@ author: Skorched
 date: 2026-05-25
 ---
 
-# Steam Hearth
+# 蒸汽壁炉
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31087" />
 </GameScene>
-The <Color id="GREEN">Steam Hearth</Color> is a Steam tier multiblock for smelting, blasting, and smoking raw materials. The <Color id="GREEN">Steam Hearth</Color> is a direct upgrade from the singleblock steam furnace because it runs at 125% speed, only uses 62.5% of the steam normally required, and offers 8 parallels. There are two tiers of the machine: basic (T1) and high-pressure (T2). As with the other steam-age multiblocks, the high-pressure version consumes twice the amount of steam to run twice as fast. There are also three modes to pick from. The default <Color id="GREEN">Smelting</Color> mode can process any recipe without any restrictions or additional benefits. The <Color id="RED">Blasting</Color> mode restricts the machine to ores/metals for twice the speed and steam usage. The <Color id="BLUE">Smoking</Color> mode restricts the machine to food items for twice the speed and steam usage. The <Color id="GREEN">Steam Hearth</Color> is superseded by the <ItemLink id="gregtech:gt.blockmachines:1003"/> <ItemImage id="gregtech:gt.blockmachines:1003"/> in HV. 
+<Color id="GREEN">蒸汽壁炉</Color>是一台蒸汽等级的多方块结构，用于熔炼、高炉冶炼和烟熏原材料。<Color id="GREEN">蒸汽壁炉</Color>是单方块蒸汽熔炉的直接升级版，因为它以 125% 的速度运行，只消耗正常运行所需蒸汽量的 62.5%，并且提供 8 个并行。这台机器有两个等级：基础（T1）和高压（T2）。与其他蒸汽时代多方块结构一样，高压版本消耗两倍的蒸汽以换取两倍的运行速度。还有三种模式可供选择。默认的<Color id="GREEN">熔炼</Color>模式可以处理任何配方，没有任何限制，也没有额外加成。<Color id="RED">冶炼</Color>模式将机器限制为矿石/金属，速度和蒸汽消耗翻倍。<Color id="BLUE">烟熏</Color>模式将机器限制为食物类物品，速度和蒸汽消耗翻倍。在 HV 阶段，<Color id="GREEN">蒸汽壁炉</Color>会被 <ItemLink id="gregtech:gt.blockmachines:1003"/> <ItemImage id="gregtech:gt.blockmachines:1003"/> 所取代。
 <br clear="all"/>
 
-## Construction:
-The only structural difference between the basic and high-pressure Steam Hearth is the material of the casings. Steam is only accepted through a <ItemLink id="gregtech:gt.blockmachines:31040" /> <ItemImage id="gregtech:gt.blockmachines:31040" /> (NOT an input hatch), much like other steam tier multiblocks. The steam input and output bus do not auto-push or auto-pull from adjacent inventories and therefore require hoppers, EnderIO item conduits, or conveyor modules for automation. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure where the number of projectors held in a single stack determines the tier of the machine (1=Basic, 2=High Pressure).
+## 建造：
+基础与高压蒸汽壁炉在结构上唯一的区别是机械方块的材质。蒸汽只能通过 <ItemLink id="gregtech:gt.blockmachines:31040" /> <ItemImage id="gregtech:gt.blockmachines:31040" />（而不是输入仓）输入，与其他蒸汽等级多方块结构类似。蒸汽输入和输出总线不会自动推送或自动拉取相邻容器中的物品，因此需要漏斗、末影接口（EnderIO）物品导管或传送带模块来实现自动化。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> 来预览/建造结构，单组堆叠中持有的投影仪数量决定机器的等级（1=基础，2=高压）。
 
-Assuming plates are made in a <ItemLink id="gregtech:gt.blockmachines:112" /> <ItemImage id="gregtech:gt.blockmachines:112" /> and rods are made with a file, a basic <Color id="GREEN">Steam Hearth</Color> (with the necessary hatches) requires 395 bronze ingots and 9 brick blocks to build. A high-pressure <Color id="GREEN">Steam Hearth</Color> requires 359 steel ingots, 63 bronze ingots, and 3 brick blocks to build. 
-### Requires:
+假设板在 <ItemLink id="gregtech:gt.blockmachines:112" /> <ItemImage id="gregtech:gt.blockmachines:112" /> 中制作、杆用锉刀制作，一座基础 <Color id="GREEN">蒸汽壁炉</Color>（含必要的仓）建造需要 395 个青铜锭和 9 个砖块。一座高压 <Color id="GREEN">蒸汽壁炉</Color> 建造需要 359 个钢锭、63 个青铜锭和 3 个砖块。
+### 所需方块：
 <Row gap="20" alignItems="center">
 <Column gap="8" alignItems="center">
-__Basic (T1) Requires:__
+__基础（T1）所需方块：__
   - 1 <ItemLink id="gregtech:gt.blockmachines:31087" /><ItemImage id="gregtech:gt.blockmachines:31087" />
   - 2-6 <ItemLink id="gregtech:gt.blockcasings:10" /><ItemImage id="gregtech:gt.blockcasings:10" />
   - 4 <ItemLink id="gregtech:gt.blockcasings2:2" /><ItemImage id="gregtech:gt.blockcasings2:2" />
@@ -36,7 +36,7 @@ __Basic (T1) Requires:__
   - 1+ <ItemLink id="gregtech:gt.blockmachines:31047" /><ItemImage id="gregtech:gt.blockmachines:31047"/>
 </Column>
 <Column gap="8" alignItems="center">
-__High-Pressure (T2) Requires:__
+__高压（T2）所需方块：__
   - 1 <ItemLink id="gregtech:gt.blockmachines:31087" /><ItemImage id="gregtech:gt.blockmachines:31087" />
   - 2-6 <ItemLink id="gregtech:gt.blockcasings2" /><ItemImage id="gregtech:gt.blockcasings2" />
   - 4 <ItemLink id="gregtech:gt.blockcasings2:3" /><ItemImage id="gregtech:gt.blockcasings2:3" />
@@ -48,29 +48,29 @@ __High-Pressure (T2) Requires:__
 </Column>
 </Row>
 
-### Wallsharing:
-<Color id="GREEN">Steam Hearths</Color> may wallshare each of their sides to save on casings and buses/hatches. This is highly recommended because it saves a significant amount of bronze and steel. Sharing also works with other steam tier multiblocks that use the same type of casing. 
+### 共墙：
+<Color id="GREEN">蒸汽壁炉</Color>的每一面都可以共墙，以节省机械方块和总线/仓。强烈推荐这样做，因为可以节省大量青铜和钢。共墙也适用于使用相同类型机械方块的其他蒸汽等级多方块结构。
 
-## Usage:
-The <Color id="GREEN">Steam Hearth</Color> is a direct upgrade from the singleblock steam furnace because it runs at <Color id="GREEN">125%</Color> speed, only uses <Color id="BLUE">62.5%</Color> of the steam normally required, and offers <Color id="RED">8</Color> parallels. Upgrading to high-pressure (T2) doubles both the processing speed and steam consumption, as seen in the following table. Expect to use the <Color id="GREEN">Steam Hearth</Color> up to HV because of its large bonuses over singleblock machines.
+## 用法：
+<Color id="GREEN">蒸汽壁炉</Color>是单方块蒸汽熔炉的直接升级版，因为它以 <Color id="GREEN">125%</Color> 的速度运行，只消耗正常运行所需蒸汽量的 <Color id="BLUE">62.5%</Color>，并提供 <Color id="RED">8</Color> 个并行。升级到高压（T2）会使处理速度和蒸汽消耗都翻倍，如下表所示。由于相比单方块机器有巨大加成，预计你会一直使用<Color id="GREEN">蒸汽壁炉</Color>直到 HV。
 
-The <Color id="GREEN">Steam Hearth</Color> has three unique modes, listed below, to further increase the throughput of the machine by specializing in particular recipes. Notice that these modes mimic the vanilla furnace, blast furnace, and smoker. Switch modes in the GUI of the controller, or by using a screwdriver on the controller.
+<Color id="GREEN">蒸汽壁炉</Color>拥有三种独特模式（如下所列），可通过专注于特定配方来进一步提高机器的吞吐量。注意，这些模式模仿了原版的熔炉、高炉和烟熏炉。可在控制器的 GUI 中切换模式，或用螺丝刀右键控制器切换。
 
-- <Color id="GREEN">Smelting</Color> - No restrictions or additional benefits. The default universal mode.
-- <Color id="RED">Blasting</Color> - Restricted to ores/metals for twice the speed and steam consumption.
-- <Color id="BLUE">Smoking</Color> - Restricted to raw foods for twice the speed and steam consumption.
+- <Color id="GREEN">熔炼</Color> - 没有限制或额外加成。默认的通用模式。
+- <Color id="RED">冶炼</Color> - 限制为矿石/金属，速度和蒸汽消耗翻倍。
+- <Color id="BLUE">烟熏</Color> - 限制为生的食物，速度和蒸汽消耗翻倍。
 
-The following tables summarize the steam consumption and speed for both tiers of the <Color id="GREEN">Steam Hearth</Color> and the three different modes. For reference, a vanilla furnace smelts 0.10 items per second and a vanilla blast furnace/smoker smelts 0.20 items per second. 
-### __Basic (T1)__
-|  | <Color id="GREEN">Smelting</Color> | <Color id="RED">Blasting</Color> | <Color id="BLUE">Smoking</Color> |
+下表汇总了两个等级的<Color id="GREEN">蒸汽壁炉</Color>以及三种不同模式的蒸汽消耗和速度。作为参考，原版熔炉每秒熔炼 0.10 个物品，原版高炉/烟熏炉每秒熔炼 0.20 个物品。
+### __基础（T1）__
+|  | <Color id="GREEN">熔炼</Color> | <Color id="RED">冶炼</Color> | <Color id="BLUE">烟熏</Color> |
 | --------------- | --------------- | --------------- | --------------- |
-| Max Steam | 800 L/s | 1,600 L/s | 1,600 L/s |
-| Max Speed | 0.78 Items/s | 1.54 Items/s | 1.54 Items/s |
+| 最大蒸汽 | 800 L/s | 1,600 L/s | 1,600 L/s |
+| 最大速度 | 0.78 物品/秒 | 1.54 物品/秒 | 1.54 物品/秒 |
 
-### __High-Pressure (T2)__
+### __高压（T2）__
 
-|  | <Color id="GREEN">Smelting</Color> | <Color id="RED">Blasting</Color> | <Color id="BLUE">Smoking</Color> |
+|  | <Color id="GREEN">熔炼</Color> | <Color id="RED">冶炼</Color> | <Color id="BLUE">烟熏</Color> |
 | --------------- | --------------- | --------------- | --------------- |
-| Max Steam | 1,600 L/s | 3,200 L/s | 3,200 L/s |
-| Max Speed | 1.54 Items/s | 3.08 Items/s | 3.08 Items/s |
+| 最大蒸汽 | 1,600 L/s | 3,200 L/s | 3,200 L/s |
+| 最大速度 | 1.54 物品/秒 | 3.08 物品/秒 | 3.08 物品/秒 |
 

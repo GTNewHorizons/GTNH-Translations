@@ -1,48 +1,48 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Network Interactions
+  title: 网络交互
   icon: appliedenergistics2:item.ItemMultiPart:16
 ---
 
-# Network Interactions
+# 网络交互
 
-# Independent ME Networks
-In vanilla AE2, an ME Network is a group of devices connected by [cables](./channels.md) and other channel-carrying parts. In theory, even a single cable can be a network.
+# 独立ME网络
+在原版AE2中，ME网络是一组由[线缆](./channels.md)及其他承载频道的部件连接起来的设备。理论上，哪怕只有一根线缆也能构成一个网络。
 
-The defining trait of one ME Network is that all of its cables and devices draw [channels](./channels.md) from the same set of controllers.
+一个ME网络的决定性特征是：它的所有线缆和设备都从同一组控制器获取[频道](./channels.md)。
 
-From this, you can infer that networks which are not connected to each other through cables or channel-carrying devices do not transmit channels to each other, and can therefore be treated as independent ME Networks.
+由此可以推断：没有通过线缆或承载频道的设备彼此相连的网络之间不会传输频道，因此可以视为相互独立的ME网络。
 
-* Naturally, two networks that are physically far apart and not connected via [Wireless Connectors](../items_blocks/wireless_connectors.md) or a [Quantum Ring](./quantum_bridge.md) are independent.
-* Two ME Networks connected only by <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/> or <ItemLink id="appliedenergistics2:item.ItemMultiPart:120" showIcon="left"/> are also treated as independent networks. Quartz Fiber transmits power but not channels, while Cable Anchors transmit neither power nor channels and are only used to separate adjacent cables. Cables of different colors also do not connect to each other; see [Channels](./channels.md) for details.
+* 显然，相距甚远且未通过[无线接入器](../items_blocks/wireless_connectors.md)或[量子环](./quantum_bridge.md)连接的两个网络是相互独立的。
+* 仅通过<ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left"/>或<ItemLink id="appliedenergistics2:item.ItemMultiPart:120" showIcon="left"/>相连的两个ME网络同样被视为独立网络。石英纤维只传输能量而不传输频道；线缆锚则既不传输能量也不传输频道，仅用于分隔相邻的线缆。不同颜色的线缆彼此也不会相连；详见[频道](./channels.md)。
 
-# Interaction Between Networks
-Networks are not only independent. They can also interact with each other, and these interactions can be very flexible. They are the basis of most AE2 automation systems. Broadly speaking, as long as two independent ME Networks affect each other, that can be considered network interaction. Using an ME P2P tunnel to transmit channels in [P2P](./p2p_tunnels.md) is one example.
+# 网络间的交互
+网络不仅可以相互独立，它们彼此之间也能交互，而且这些交互可以非常灵活。它们是大多数AE2自动化系统的基础。广义上讲，只要两个独立的ME网络相互影响，就可以视为网络交互。使用ME P2P通道传输频道便是一例（见[P2P](./p2p_tunnels.md)）。
 
-> See also: [Subnetworks](./subnetworks.md)
+> 另请参阅：[子网络系统](./subnetworks.md)
 
-Interaction between ME Networks mainly depends on [Interfaces](../items_blocks/interface.md) and [Storage Buses](../items_blocks/storage_bus.md), whose behavior gives different networks different roles.
+ME网络之间的交互主要依赖[接口](../items_blocks/interface.md)与[存储总线](../items_blocks/storage_bus.md)，它们的行为赋予了不同网络不同的角色。
 
-## Typical Read Interaction
+## 典型的读取交互
 
-Two ME Networks usually have a structure like this:
+两个ME网络通常具有如下结构：
 
 <GameScene zoom="4" width="400" rotateY={0} rotateX={0}>
   <ImportStructure src="../assets/structures/network_interaction_basic_interacton.snbt" />
 </GameScene>
 
-Because of how Interfaces and Storage Buses work, the blue network is usually the side being accessed, while the white network is usually the side doing the accessing. In this setup, the blue network is treated by the white network as a large "container", and the white network can [read from or write to](./import_export_storage.md) it.
+由于接口与存储总线的工作方式，蓝色网络通常是被访问的一方，而白色网络通常是执行访问的一方。在这种结构中，蓝色网络会被白色网络当作一个大型"容器"，白色网络可以对它[读取或写入](./import_export_storage.md)。
 
-## Nested Interaction
-The structure above can be nested into multiple layers. However, this arrangement has a narrow range of practical use cases, and careless use can consume a very large amount of hardware resources.
+## 嵌套交互
+上述结构可以嵌套为多层。不过，这种安排的实际使用场景较为有限，而且使用不慎会消耗非常庞大的硬件资源。
 
 <GameScene zoom="3" width="400" rotateY={0} rotateX={0}>
   <ImportStructure src="../assets/structures/network_interaction_nesting_interacton.snbt" />
 </GameScene>
 
-## Mutual Reading
-If two networks can read each other's contents through Storage Buses, then those two ME Networks are mutually reading from one another. In some cases this is a technical workaround for a special need, but in most cases it only causes storage confusion and can severely hurt game performance.
+## 相互读取
+如果两个网络能通过存储总线读取彼此的内容，那么这两个ME网络就是在相互读取。在某些情况下，这是满足特殊需求的一种技术变通手段；但在大多数情况下，它只会造成存储混乱，并可能严重损害游戏性能。
 
 <GameScene zoom="3" width="400" rotateY={0} rotateX={0}>
   <ImportStructure src="../assets/structures/network_interaction_network_read.snbt" />

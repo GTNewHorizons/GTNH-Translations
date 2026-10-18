@@ -1,35 +1,35 @@
 ---
 navigation:
-  title: "Wires and Cables"
+  title: "导线与线缆"
   icon: gregtech:gt.blockmachines:1248
   parent: power_index.md
   position: -3
 ---
 
-# Wires and Cables
+# 导线与线缆
 
-**Wires and cables** are the medium used to connect transmitter blocks and consumer blocks inside a [local power network](enet.md). They do not store power themselves.
+**导线与线缆**是[本地电网](enet.md)内用来连接输电方块和用电方块的介质，本身不储存电力。
 
-Wires have three core parameters, all shown in the tooltip.
+导线有三个核心参数，全部显示在提示信息中。
 
-# Maximum Voltage and Maximum Current
+# 最大电压与最大电流
 
-**Maximum voltage** depends only on the wire material. Wires come in 1x, 2x, 4x, 8x, 12x, and 16x variants, which multiply the material's base maximum current.
+**最大电压**只取决于导线材料。导线有1x、2x、4x、8x、12x、16x几种规格，会在材料的基础最大电流上乘以相应倍数。
 
-- A wire whose maximum voltage is too low cannot transmit higher-voltage energy packets. If either voltage or current exceeds its limit, the wire burns up.
-- A wire whose maximum voltage is high enough can safely transmit lower-voltage packets.
+- 最大电压过低的导线无法传输电压更高的能量包；电压或电流只要有一项超过其上限，导线就会烧毁。
+- 最大电压足够高的导线可以安全传输电压更低的能量包。
 
-Current is additive: the current carried by a given wire segment is the sum of all current flowing through it. Whether a wire segment burns depends on the highest packet voltage among all packets flowing through it.
+电流是叠加的：某段导线承载的电流是流经它的所有电流之和。一段导线是否会烧毁，取决于流经它的所有能量包中最高的包电压。
 
-# Cable Loss Rate
+# 线缆损耗率
 
-When power is transmitted through wires, current stays the same everywhere along the path, but voltage may fall because of [cable loss](cable_loss.md).
+电力通过导线传输时，沿途电流保持不变，但电压可能因[线缆损耗](cable_loss.md)而下降。
 
-- Cable loss rate does not depend on wire thickness or current. It depends only on the material and on whether the wire is insulated (wire vs cable). Insulated cables often have only half the loss of the corresponding bare wire.
-- Some wires have zero loss and therefore behave as superconductors, such as 1x Redstone Alloy Cable, 1x MV Superconductor Wire, and 1x Infinity Wire.
+- 线缆损耗率与导线粗细和电流无关，只取决于材料，以及导线是否绝缘（导线与线缆之分）。绝缘线缆的损耗通常只有对应裸导线的一半。
+- 一些导线的损耗为零，因而相当于超导体，例如1x红石合金线缆、1x中压超导导线和1x无尽线轴。
 
-# Replacing and Painting
+# 更换与上色
 
-While holding one kind of wire or cable, <kbd>Shift</kbd> + <kbd>Left-click</kbd> another placed wire or cable to replace it directly. The connection directions and covers are preserved. After replacement, any old wire-to-device connections are broken and must be reconnected.
+手持一种导线或线缆时，对另一个已放置的导线或线缆按<kbd>Shift</kbd> + <kbd>左键</kbd>，即可直接将其替换。连接方向与覆盖板都会保留。替换后，原有的导线与设备之间的连接会断开，需要重新连接。
 
-You can use spray cans to color wires. This is useful for telling apart wires carrying different voltages in different local power networks.
+可以使用喷罐给导线上色。这有助于区分不同本地电网中承载不同电压的导线。

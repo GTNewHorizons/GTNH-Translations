@@ -1,29 +1,29 @@
 ---
 navigation:
-  title: "Cable Loss"
+  title: "线缆损耗"
   icon: gregtech:gt.metatool.01:26
   parent: power_index.md
   position: -5
 ---
 
-# Cable Loss
+# 线缆损耗
 
-**Cable loss** is the extra power cost that may occur while power is transmitted through [wires and cables](cable.md). It is a core mechanic of the GT [local power network](enet.md). Early in the game, because machine voltages are low, controlling cable loss is very important. As voltage tiers rise, cable loss becomes less important.
+**线缆损耗**是电力通过[导线与线缆](cable.md)传输时可能产生的额外电力开销。它是GT[本地电网](enet.md)的核心机制。游戏前期机器电压较低，控制线缆损耗非常重要；随着电压等级升高，线缆损耗的重要性随之下降。
 
-# Loss Rate
+# 损耗率
 
-Each [wire and cable](cable.md) has a cable loss rate parameter (shown in the tooltip as "loss/m/amp: x V"). Let that loss rate be $$\rho$$ and wire length be $$L$$. Then the actual input voltage after a packet passes through the wire is:
+每根[导线与线缆](cable.md)都有线缆损耗率参数（在提示信息中显示为“loss/m/amp: x V”）。设损耗率为 $$\rho$$、导线长度为 $$L$$，则能量包穿过导线后的实际输入电压为：
 
 $$U_{\text{input}} = U_{\text{output}} - \rho L_{\text{wire}}$$
 
-The power lost to the wire is:
+导线上损耗的功率为：
 
 $$P_{\text{cable loss}} = I \rho L_{\text{wire}}$$
 
-So cable loss is proportional to loss rate, current, and wire length. If wire length, loss rate, and transmitted power stay the same, then raising transmission voltage lowers current and therefore indirectly lowers cable loss. **Every tier increase in transmission voltage reduces cable loss to one quarter**.
+因此，线缆损耗与损耗率、电流和导线长度成正比。在导线长度、损耗率和传输功率都不变的情况下，提高传输电压可以降低电流，从而间接降低线缆损耗。**传输电压每提高一个等级，线缆损耗就降为原来的四分之一**。
 
-Example: any Tin Cable has a loss rate of 1 V/m. If 32V 2A power travels through 2 m of Tin Cable, it becomes 30V 2A at the destination, and the cable loss along the way is 4 EU/t.
+示例：任何锡线缆的损耗率都是1 V/m。如果32V 2A的电力经过2 m的锡线缆，到达目的地时变为30V 2A，沿途的线缆损耗为4 EU/t。
 
-The section [Providing Power Reliably](enet.md#providing-power-reliably) only considers the zero-loss case. With cable loss present, first calculate the actual packet voltage the consumer receives, then apply the rest of the logic unchanged.
+[可靠供电](enet.md#providing-power-reliably)一节只考虑了零损耗的情形。存在线缆损耗时，先算出用电方块实际收到的能量包电压，再照常套用其余逻辑。
 
-When cable loss reduces voltage, you can compensate for the lost power by increasing input current. However, current cannot exceed either the wire's maximum current or the consumer's maximum input current. If increasing current is still not enough, you need lower-loss wire, higher-current wire, or a shorter transmission path.
+当线缆损耗拉低电压时，可以通过增大输入电流来补偿损失的功率。但电流不能超过导线的最大电流，也不能超过用电方块的最大输入电流。如果增大电流仍然不够，就需要损耗更低的导线、能承载更大电流的导线，或更短的传输路径。

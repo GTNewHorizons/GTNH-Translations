@@ -1,30 +1,30 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Network Connections
+  title: 网络连接
   icon: appliedenergistics2:item.ItemMultiPart:16
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAFMQ==
   - tM8pT_W3RCqZNDAovERxFg==
 ---
 
-# Network Connections
+# 网络连接
 
-Within the same ME Network, devices in different areas can connect to each other in various ways, either wired or wireless.
+在同一个ME网络中，位于不同区域的设备可以通过有线或无线等多种方式相互连接。
 
-## Wired Connections
-* Devices within the same ME Network can connect via cables to transmit channels, or they can transmit channels through the devices themselves to adjacent cables and devices. A maximum of 8 channels can be transmitted through a device, equivalent to a standard cable.
+## 有线连接
+* 同一ME网络内的设备可以通过线缆相互连接来传输频道，也可以经由设备自身向相邻的线缆和设备传输频道。每台设备最多可以传输8个频道，相当于一条标准线缆。
 
-* Channels can be transmitted for wired connections using **ME P2P Tunnels**. For more details, refer to [P2P](./p2p_tunnels.md).
+* 有线连接可以使用**ME P2P通道**来传输频道。更多细节请参阅[P2P](./p2p_tunnels.md)。
 
-* In GTNH, ME Hatches/Buses (<ItemLink id="gregtech:gt.blockmachines:2718" showIcon="left"/>, <ItemLink id="gregtech:gt.blockmachines:2717" showIcon="left"/>, <ItemLink id="gregtech:gt.blockmachines:2710" showIcon="left"/>, or <ItemLink id="gregtech:gt.blockmachines:2713" showIcon="left"/>, etc.) can be toggled into adjacent connection mode by right-clicking them with a <ItemLink id="gregtech:gt.metatool.01:26" showIcon="left"/>. This allows them to transmit channels to adjacent ME Hatches/Buses, AE devices, or cables, just like AE devices. This connection method also transmits a maximum of 8 channels.
+* 在GTNH中，ME仓/ME总线（<ItemLink id="gregtech:gt.blockmachines:2718" showIcon="left"/>、<ItemLink id="gregtech:gt.blockmachines:2717" showIcon="left"/>、<ItemLink id="gregtech:gt.blockmachines:2710" showIcon="left"/>或<ItemLink id="gregtech:gt.blockmachines:2713" showIcon="left"/>等）可以用<ItemLink id="gregtech:gt.metatool.01:26" showIcon="left"/>右键点击它们，切换为相邻连接模式。这样它们就能像AE设备一样，向相邻的ME仓/ME总线、AE设备或线缆传输频道。这种连接方式同样最多可以传输8个频道。
 
-## Wireless Connections
-* GTNH includes the AE2 Stuff add-on, which provides the <ItemLink id="appliedenergistics2:tile.BlockWirelessConnector" showIcon="left"/> and the <ItemLink id="appliedenergistics2:tile.BlockWirelessHub" showIcon="left"/>. A pair can wirelessly transmit up to 32 channels but <Color id="RED">cannot connect across dimensions</Color>. They can be paired using the <ItemLink id="appliedenergistics2:item.ToolWirelessKit" showIcon="left"/>. The former is for 1-to-1 connections, while the latter can do 1-to-many connections like [P2P Tunnels](./p2p_tunnels.md). Wireless connectors can place a heavy burden on your power grid at the stage when you first establish an ME network, so please calculate power consumption in advance. For specific information, refer to the quest book page "<QuestLink id="AAAAAAAAAAAAAAAAAAAFMQ==" />".
+## 无线连接
+* GTNH中包含了AE2 Stuff附属模组，它提供了<ItemLink id="appliedenergistics2:tile.BlockWirelessConnector" showIcon="left"/>和<ItemLink id="appliedenergistics2:tile.BlockWirelessHub" showIcon="left"/>。一对设备之间最多可以无线传输32个频道，但<Color id="RED">无法跨维度连接</Color>。可以使用<ItemLink id="appliedenergistics2:item.ToolWirelessKit" showIcon="left"/>对它们进行配对。前者用于一对一连接，后者则可以像[P2P通道](./p2p_tunnels.md)那样进行一对多连接。在初次搭建ME网络的阶段，无线接入器可能会给你的电力网络带来沉重负担，因此请提前计算耗电量。具体信息请参阅任务书页面“<QuestLink id="AAAAAAAAAAAAAAAAAAAFMQ==" />”。
 
-* Vanilla AE2 provides a way to connect networks wirelessly: the Quantum Ring. Each pair can wirelessly transmit up to 32 channels and <Color id="GREEN">can connect across dimensions</Color>. For details, see [Quantum Ring](./quantum_bridge.md).
+* 原版AE2提供了一种无线连接网络的方式：量子环。每一对量子环之间最多可以无线传输32个频道，并且<Color id="GREEN">可以跨维度连接</Color>。详情请见[量子环](./quantum_bridge.md)。
 
-* The <ItemLink id="RIO:tile.remote_interface" showIcon="left"/> is a block from the RemoteIO mod. The Remote Interface acts similarly to a <ItemLink id="ThaumicTinkerer:interface" showIcon="left" />; it can remotely proxy a block, gaining all the functions of the target block while proxying. Additionally, it <Color id="GREEN">can connect across dimensions</Color>. Its crafting cost has the highest tech requirements among cross-dimensional networking solutions, requiring the ability to craft <ItemLink id="dreamcraft:CircuitIV" showIcon="left"/> and <ItemLink id="gregtech:gt.metaitem.01:32654" showIcon="left"/>.
-  * With a <ItemLink id="RIO:item.chip.location" showIcon="left"/> in hand (during crafting, the circuit board must be stamped as any circuit board), Shift+Right-click the ME Controller.
-  * Place the Remote Interface at the destination, hold the Location Chip, and Right-click the interface block to load the target.
-  * Right-click the Remote Interface with an <ItemLink id="RIO:item.chip.transfer:20" showIcon="left"/> in hand. After these operations, the Remote Interface can transmit channels.
+* <ItemLink id="RIO:tile.remote_interface" showIcon="left"/>是RemoteIO模组中的一种方块。远程接口的作用类似于<ItemLink id="ThaumicTinkerer:interface" showIcon="left" />：它可以远程代理一个方块，并在代理期间获得目标方块的全部功能。此外，它还<Color id="GREEN">可以跨维度连接</Color>。在各种跨维度联网方案中，它的合成成本对科技等级的要求最高，需要能够合成<ItemLink id="dreamcraft:CircuitIV" showIcon="left"/>和<ItemLink id="gregtech:gt.metaitem.01:32654" showIcon="left"/>。
+  * 手持<ItemLink id="RIO:item.chip.location" showIcon="left"/>（合成该芯片时，电路板必须冲压为“任意电路板”），Shift+右键点击ME控制器。
+  * 将远程接口放置在目的地，手持定位芯片并右键点击该接口方块以加载目标。
+  * 手持<ItemLink id="RIO:item.chip.transfer:20" showIcon="left"/>右键点击远程接口。完成以上操作后，远程接口即可传输频道。

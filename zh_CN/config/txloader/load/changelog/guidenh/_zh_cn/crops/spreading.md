@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Crop Spreading
+  title: 作物扩散
   parent: crops.md
   icon: cropsnh:cropSticks
 categories:
@@ -9,29 +9,29 @@ author: Skorched
 date: 2026-05-21
 ---
 
-# Crop Spreading
+# 作物扩散
 > [!NOTE]
-> This page presumes you have already read [Crop Basics](basics.md), or that you are familiar with the basics of crops and their stats
-Let's say you've got the crop you want. One crop likely isn't going to cut it, but it would be tedious to have to re-stat your crops hundreds of times to get a field! We can take advantage of <Color id="GREEN">Crop Spreading</Color> to help with this.
+> 本页面假设你已经阅读过[作物基础](basics.md)，或者已熟悉作物及其属性的基础知识
+假设你已经得到了想要的作物。一株作物很可能不够用，而为了成片种植，把作物属性反复重刷数百次又实在乏味！我们可以借助<Color id="GREEN">作物扩散</Color>来解决这个问题。
 
-Okay kids, teacher is off so let's roll out the video!
+好了孩子们，老师休息去了，我们来看视频吧！
 <GameScene width="420" height="280" zoom={2.5} interactive={true}>
   <ImportStructure src="../assets/crops/spreading.snbt" />
   <ImportPonder src="../assets/crops/spreading.json" />
 </GameScene>
 
-# Explanations:
-For those of you who don't want to watch the video, or need more detail, here's the textbook version:
+# 说明：
+对于不想看视频或需要更多细节的读者，这里是教科书版的讲解：
 
-## Spreading
-To spread a crop, it must have a crossed Crop Stick (placed twice in same place) adjacent, with a valid soil block for the target crop underneath. If the crop has a sub-soil requirement, the new crop target block must also have this. You can find these requirements on the "Crops" page of NEI:
+## 扩散
+要让作物扩散，其相邻位置必须有交叉的作物架（在同一位置放置两次），且其下方为适合目标作物的有效土壤方块。如果该作物有底土要求，新作物的目标方块也必须满足该要求。你可以在NEI的“Crops”页面查看这些要求：
 <RecipeFor id="minecraft:log" input="cropsnh:genericSeed" float="left" wrap="square"/>
-If the crop is able to grow on these adjacent crop sticks, it will attempt to spread, duplicating itself, onto the other set of crop sticks.
+如果该作物能够生长在这些相邻的作物架上，它就会尝试扩散，将自身复制到另一组作物架上。
 
-The stats of the new crop will be of the range (-2:+4) if unfertilized, or (+0:+4) if fertilized. Thus, if you start with a single crop on a managed field of fertilized dirt, you are guaranteed with enough time to get a max stat (31/31/31) crop.
+新作物的属性范围在未施肥时为(-2:+4)，施肥后为(+0:+4)。因此，如果你先在一片沃土的田里种下一株作物，只要时间足够，就必定能得到满属性(31/31/31)的作物。
 <br clear="all" />
-## Weeds
-Weeds will always attempt to grow on <Color id="RED">***ANY***</Color> crop sticks, doubled or not, if the soil is not treated with Weed-Ex <ItemImage id="cropsnh:weedEX" /> Weeds are a pain, as they in turn spread to devour your field of crops and cause other issues such as...
+## 杂草
+只要土壤未经过除草剂 <ItemImage id="cropsnh:weedEX" />处理，杂草就总会试图在<Color id="RED">***任意***</Color>作物架上生长，无论作物架是否交叉。杂草非常烦人，因为它们会继而扩散、吞噬你的整片作物田，还会引发其他问题，比如……
 
-## Sickness
-Unlike in the old implementation, weeds **do not destroy** other crops, but instead make them <Color id="RED">sick</Color>. Sick crops cannot provide outputs, and must be cured using <Color id="GREEN">Plant Cure</Color> <ItemImage id="cropsnh:plantCure" />
+## 病害
+与旧版实现不同，杂草**不会摧毁**其他作物，而是会让它们<Color id="RED">生病</Color>。生病的作物无法产出，必须使用<Color id="GREEN">植物治愈剂</Color> <ItemImage id="cropsnh:plantCure" />来治愈

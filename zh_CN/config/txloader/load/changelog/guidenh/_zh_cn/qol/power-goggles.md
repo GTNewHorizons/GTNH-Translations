@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Power Goggles Customization
+  title: 能源护目镜自定义
   parent: qol.md
   icon: gregtech:gt.Power_Goggles
 categories:
@@ -9,13 +9,13 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Power Goggles Customisation
-Big change for "Big number go up" lovers! The <Color id="GREEN">Power Goggles</Color> <ItemImage id="gregtech:gt.Power_Goggles" /> now come with more customization options!
+# 能源护目镜自定义
+对喜爱“数字蹭蹭上涨”的玩家来说是个大改动！<Color id="GREEN">能源护目镜</Color> <ItemImage id="gregtech:gt.Power_Goggles" /> 现在带来了更多自定义选项！
 
-You can now change the colour of all aspects of the chart, disable the power bar, set display boundaries and reset to default when you decide you've made an abomination!
+你现在可以更改图表各部分的颜色、禁用电力条、设置显示边界；等你觉得自己调出了个怪物时，还能重置回默认！
 
 <FloatingImage src="../assets/qol/power_goggles.png" displayWidth="256" align="left" wrap="square">
   <ImageAnnotation>
-    Showcase of some of the new settings for the Power Goggles!
+    能源护目镜部分新设置的展示！
   </ImageAnnotation>
 </FloatingImage>

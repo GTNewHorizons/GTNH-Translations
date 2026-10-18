@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Energy Cells
+  title: 能源元件
   icon: appliedenergistics2:tile.BlockDenseEnergyCell
 categories:
 - network infrastructure

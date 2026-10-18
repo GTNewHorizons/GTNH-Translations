@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15523
 navigation:
-  title: XL Turbo Plasma Turbine
+  title: 特大等离子涡轮
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15523
 categories:
@@ -11,103 +11,103 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# XL Turbo Plasma Turbine
+# 特大等离子涡轮
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15523"/>
 </GameScene>
-The <Color id="GREEN">XL Turbo Plasma Turbine (XLPT)</Color> is a ZPM tier multiblock for generating immense power from plasma. The <Color id="GREEN">XLPT</Color> is a direct upgrade from the Large Plasma Turbine because it has 16x the throughput with only 12 turbines, supports multi-amp and laser dynamo hatches, and does not explode if the dynamo hatch is broken while the machine is running. However, the turbines must be identical for the machine to run, there are harsher penalties for exceeding the optimal flow rate, there are penalties for using lower density fuels, and the machine must be running for at least 50 seconds to fully warm-up. Save on fuel by automatically toggling the <Color id="GREEN">XLPT</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>. 
+<Color id="GREEN">特大等离子涡轮（XLPT）</Color>是一个 ZPM 等级的多方块结构，用于从等离子体中产生巨大的电力。与大型等离子涡轮相比，<Color id="GREEN">XLPT</Color> 是直接的升级：它仅用 12 台涡轮就实现了 16 倍的吞吐量，支持多安培动力仓与激光动力仓，并且机器运行时动力仓被破坏也不会爆炸。但是，机器要运行，所有涡轮必须完全相同；超过最佳流量的惩罚更为严厉，使用低密度燃料会有惩罚，而且机器必须运行至少 50 秒才能完全预热。将<Color id="GREEN">XLPT</Color>与连接到兰波顿超级电容库 <ItemImage id="gregtech:gt.blockmachines:13106"/> 的 RS 锁存器联动以自动启停，可以节省燃料。
 <br clear="all"/>
 
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
+[GTNH 电力规划表](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 
 > [!NOTE]
-> Only the structure of this multiblock has changed, the mechanics stay the same
+> 该多方块结构仅结构发生变化，运行机制保持不变
 
-## Construction
-The <Color id="GREEN">XLPT</Color> has no tiered components. The glass can be any tier and has no effect on the operation of the machine. The heating coils must be naquadah specifically and also has no effect on the operation of the machine. Buses/hatches may replace any turbine casing anywhere on the structure. <Color id="GREEN">Multi-Amp and Laser Dynamo Hatches</Color> are supported for serious power generation, and there can be multiple. There is no muffler hatch so do not include one. Insert turbines through an input bus or the GUI of the controller. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass. 
+## 建造
+<Color id="GREEN">XLPT</Color> 没有按等级划分的组件。玻璃可以是任意等级，对机器的运行没有影响。加热线圈必须专门使用硅岩材质，同样对机器的运行没有影响。结构中任意位置的涡轮机械方块都可以替换为总线/仓。支持<Color id="GREEN">多安培动力仓和激光动力仓</Color>以满足强力发电需求，且可以放置多个。本机没有消声仓，因此不要加入。涡轮通过输入总线或控制器的 GUI 插入。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 来预览/建造结构，并使用子通道 "glass" 指定玻璃等级。
 
-### Requires:
+### 需求：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15523"/><ItemImage id="gregtech:gt.blockmachines:15523"/>
 - 330-351 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1:4"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1:4"/>
 - 100 <ItemLink id="gregtech:gt.blockcasings5:5"/><ItemImage id="gregtech:gt.blockcasings5:5"/>
 - 72 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
-- 36 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 36 等级玻璃（任意） <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 32 <ItemLink id="gregtech:gt.blockframes:316"/><ItemImage id="gregtech:gt.blockframes:316"/>
 - 16 <ItemLink id="miscutils:gtplusplus.blockspecialcasings.1"/><ItemImage id="miscutils:gtplusplus.blockspecialcasings.1"/>
 - 7 <ItemLink id="gregtech:gt.blockcasings2:3"/><ItemImage id="gregtech:gt.blockcasings2:3"/>
-- 1+ Dynamo Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 Maintenance Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1+ Input Bus (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 1+ Input Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 1+ Output Hatch (any turbine casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1+ 动力仓（任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 维护仓（任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1+ 输入总线（任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:70" />
+- 1+ 输入仓（任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:50" />
+- 1+ 输出仓（任意涡轮机械方块） <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">XLPTs</Color> may wallshare each of their sides to save on casings, heating coils, and buses/hatches. However, do NOT share the input hatch because the fuel is not split evenly between the <Color id="GREEN">XLPTs</Color> -- one consumes everything and the other receives nothing. 
+### 共墙
+多台<Color id="GREEN">XLPT</Color>之间可以共墙（每一条边均可共享），以节省机械方块、加热线圈和总线/仓。但是，不要共享输入仓，因为燃料无法在多台<Color id="GREEN">XLPT</Color>之间均匀分配——一台会消耗掉全部燃料，另一台则得不到任何燃料。
 
-## Usage
-The <Color id="GREEN">XLPT</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid game when fuel production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
+## 使用
+<Color id="GREEN">XLPT</Color> 有两种运行模式，如下所列；两者在量化上的差异请参见页面顶部链接的规划表。前者更适合燃料产量较低的游戏前期至中期，后者更适合电力输出比效率更重要的游戏后期。用螺丝刀点击控制器即可切换模式。
 
-- Tight Fitting Mode - High efficiency, Low optimal flow rate (power).
-- Loose Fitting Mode - Low efficiency, High optimal flow rate (power).
+- 紧密配合模式 - 高效率，最佳流量（功率）低。
+- 宽松配合模式 - 低效率，最佳流量（功率）高。
 
-The speed of the <Color id="GREEN">XLPT</Color> increases linearly up to 100% while active and decreases back to 0% while inactive. Speed is directly proportional to the power output of the machine and takes 50 seconds to reach its maximum value regardless of the turbine size/material. Speed decays extremely fast when the <Color id="GREEN">XLPT</Color> is disabled, the turbine is removed, the structure is broken, or fuel runs out. View the current speed of the turbine by using a Portable Scanner <ItemImage id="gregtech:gt.metaitem.01:32762"/> on the controller or looking at the "efficiency" value in WAILA. 
+机器运行时，<Color id="GREEN">XLPT</Color> 的转速会线性提升至 100%；停止运行时则回落到 0%。转速与机器的功率输出成正比，且无论涡轮尺寸/材质如何，都需要 50 秒才能达到最大值。当<Color id="GREEN">XLPT</Color>被关闭、涡轮被取出、结构被破坏或燃料耗尽时，转速会极快地衰减。将便携式扫描仪 <ItemImage id="gregtech:gt.metaitem.01:32762"/> 对控制器使用，或查看 WAILA 中的 "efficiency"（效率）数值，即可查看涡轮当前的转速。
 
-## Optimal Flow Rate
-The rate (L/s) at which plasma enters the <Color id="GREEN">XLPT</Color> is extremely important. Too little plasma and only a fraction of the potential power is generated; too much plasma and a tremendous amount of fuel is wasted. Ideally, plasma enters the <Color id="GREEN">XLPT</Color> at the optimal flow rate of the turbine, which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}^*$$) in L/s is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, and $$\eta_0$$ is the base efficiency of the turbine. Note that these are exactly 16x the optimal flow rates of the [Large Plasma Turbine](./large_plasma_turbine.md). 
+## 最佳流量
+等离子体进入<Color id="GREEN">XLPT</Color>的速率（L/s）极其重要。等离子体太少时，只能产生潜在功率的一小部分；太多时，则会浪费大量燃料。理想情况下，等离子体应以涡轮的最佳流量进入<Color id="GREEN">XLPT</Color>，最佳流量随尺寸/材质以及机器的运行模式而显著变化。尽管可以在 NEI 中查看，最佳流量（$$\dot{m}^*$$，单位 L/s）仍由以下公式计算：其中 $$k$$ 是与每种材质相关的乘数，size 是 1=小型 到 4=巨型 之间的常量，$$\eta_0$$ 是涡轮的基础效率。注意，这些数值恰好是[大型等离子涡轮](./large_plasma_turbine.md)最佳流量的 16 倍。
 
 <Latex formula="\dot{m}^* \text{Tight} = k \times \text{size} \times 16,000 \div EU/L">
-  Where:
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
+  其中：
+  - $$\dot{m}^*$$：最佳流量
+  - $$k$$：材质乘数
 </Latex>
 <Latex formula="\dot{m}^* \text{Loose} = k \times \text{size} \times 32,000 \div EU/L \times 1.03^{20(\eta_0 - 0.8)}">
-  Where:
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
-  - $$\eta_0$$: Base Efficiency
+  其中：
+  - $$\dot{m}^*$$：最佳流量
+  - $$k$$：材质乘数
+  - $$\eta_0$$：基础效率
 </Latex>
 
-Some plasmas have slightly lower densities and thus higher optimal flow rates -- especially if the <Color id="GREEN">XLPT</Color> is in loose mode. The player may need to upgrade their fluid regulator or add a second input hatch to meet the increased demand. Eventually it becomes necessary to switch to AE2 fluid P2P tunnels which effectively have no transfer limit and no regard for temperature or heat capacity. 
+某些等离子体的密度略低，因而最佳流量更高——当<Color id="GREEN">XLPT</Color>处于宽松模式时尤其如此。玩家可能需要升级流体调节器或增加第二个输入仓，以满足更高的需求。最终可能有必要改用 AE2 流体 P2P 管道，后者实际上没有传输上限，也不受温度或热容的限制。
 
 > [!IMPORTANT]
-> There is a power penalty for using lower density fuels, as seen by the following equation 
+> 使用低密度燃料会有功率惩罚，如下式所示
 
 <Latex formula="\epsilon = \frac{(\text{EU/L} \div 200,000)^2}{\text{Optimal EU/t (Tight)}}"/>
 
-## Power
-The power generated by the <Color id="GREEN">XLPT</Color> depends on the current flow rate ($$\dot{m}$$), the optimal flow rate ($$\dot{m}^*$$), the efficiency of the turbines ($$\eta$$), and the density penalty ($$\epsilon$$). Exceeding the optimal flow rate is not only less efficient but it reduces the total amount of power generated. Overflow tier has no effect on the operation of the machine. View the current power output of the machine through WAILA while looking at the controller, or with an industrial information panel.
+## 功率
+<Color id="GREEN">XLPT</Color> 产生的功率取决于当前流量（$$\dot{m}$$）、最佳流量（$$\dot{m}^*$$）、涡轮的效率（$$\eta$$）以及密度惩罚（$$\epsilon$$）。超过最佳流量不仅效率更低，还会减少产生的总功率。溢流等级对机器的运行没有影响。对着控制器查看 WAILA，或使用工业信息屏，即可查看机器当前的功率输出。
 
-Power is extracted from a laser or multi-amp dynamo hatch anywhere on the structure. Exceeding the maximum EU/t or total EU in the dynamo's buffer is perfectly safe; the <Color id="GREEN">XLPT</Color> will not explode if an attached battery buffer or Lapotronic Supercapacitor (LSC) is full and there is nowhere for the EU to go. Any additional EU is simply voided. It is highly recommended to automatically toggle the <Color id="GREEN">XLPT</Color> with a redstone RS latch to avoid wasting fuel.
+电力从结构上任意位置的激光动力仓或多安培动力仓中提取。超过动力仓缓冲的最大 EU/t 或总 EU 完全安全；如果所连接的电池箱或兰波顿超级电容库（LSC）已满、EU 无处可去，<Color id="GREEN">XLPT</Color> 也不会爆炸。多余的 EU 只会被直接清空。强烈建议使用红石 RS 锁存器自动启停<Color id="GREEN">XLPT</Color>，以避免浪费燃料。
 
 <Latex formula="EU/t = \dot{m} \times \Biggl( 1 - \frac{| \dot{m} - \dot{m}^* |}{\dot{m}^*} \Biggr) \times EU/L \times \eta \times \epsilon \div 20">
-  Where:
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Turbine Efficiency
-  - $$\epsilon$$: Density Penalty
+  其中：
+  - $$\dot{m}$$：当前流量
+  - $$\dot{m}^*$$：最佳流量
+  - $$\eta$$：涡轮效率
+  - $$\epsilon$$：密度惩罚
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times 1.25">
-  Where:
-  - $$\dot{m}_{max}$$: Maximum Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
+  其中：
+  - $$\dot{m}_{max}$$：最大流量
+  - $$\dot{m}^*$$：最佳流量
 </Latex>
 
-# Turbines
-The 12 turbines must all be the exact same for the machine to run. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate. There are too many different permutations to list them all here, but the planner linked at the top has all the relevant information and even a calculator for determining the power output and lifespan of any turbine with any fuel.
+# 涡轮
+机器要运行，12 台涡轮必须完全相同。涡轮有四种不同的尺寸和多种不同的材质，每种材质都有各自的效率加成和最佳流量。可能的组合太多，无法在此一一列出，但页面顶部链接的规划表包含所有相关信息，甚至还有一个计算器，可用于计算任意涡轮搭配任意燃料时的功率输出和寿命。
 
-- Small turbines are crafted with long magnalium rods (available as early as LV)
-- Normal turbines are crafted with long titanium rods (available at the end of HV after traveling to the moon <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>)
-- Large turbines are crafted with long tungstensteel rods (available in IV after the tungsten processing line)
-- Huge turbines are crafted with long americium rods (available in ZPM after building a Fusion Reactor Mk-II <ItemImage id="gregtech:gt.blockmachines:32020"/>)
+- 小型涡轮由镁铝合金长杆制成（最早在 LV 即可获得）
+- 普通涡轮由钛长杆制成（HV 末期、前往月球 <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/> 之后可获得）
+- 大型涡轮由钨钢长杆制成（IV 阶段、完成钨处理线之后可获得）
+- 巨型涡轮由镅长杆制成（ZPM 阶段、建造聚变反应堆 Mk-II <ItemImage id="gregtech:gt.blockmachines:32020"/> 之后可获得）
 
-## Durability
-The turbines slowly lose durability proportional to the power generated. The total durability of a turbine depends on the material and instantly voids once it reaches 0%. Turbines can be automatically inserted into the controller via the input bus, but they cannot be automatically extracted.
+## 耐久
+涡轮的耐久会随发电量成比例地缓慢损耗。涡轮的总耐久取决于材质，一旦降到 0% 就会立即销毁。涡轮可以通过输入总线自动插入控制器，但无法自动取出。
 
-The following equation calculates the lifespan of the turbines (in hours) from the current power output of an <Color id="GREEN">XLPT</Color>. Note that loose fitting mode provides a 25% durability boost to compensate for the reduced lifespan of a higher power output and turbines last much longer here than in the Large Steam Turbine. Turbines generally have lifespans of several hundred hours (or more) so they do not need to be replaced very often. 
+以下公式可根据<Color id="GREEN">XLPT</Color>当前的功率输出计算涡轮的寿命（单位：小时）。注意，宽松配合模式提供 25% 的耐久加成，以补偿更高功率输出带来的寿命缩短；而且涡轮在此的寿命远长于大型蒸汽涡轮。涡轮的寿命通常有数百小时（或更长），因此不需要频繁更换。
 
 <Latex formula="\text{Lifespan } (h) = \frac{50\times \text{Durability}}{36 \times \text{min}(0.04 \times EU/t,(0.2 \times EU/t)^{0.6})}"/>
 
-- Multiply the lifespan result by 1.25 in loose fitting mode.
+- 宽松配合模式下，将寿命计算结果乘以 1.25。

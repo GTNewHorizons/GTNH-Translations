@@ -1,32 +1,23 @@
 蜜蜂的理想家园
-使用螺丝刀切换基础模式（输入/输出/运行）
-手持螺丝刀Shift+右键以切换运行模式（常规/蜂群）
+{gold:输入模式}：
+- 不消耗能量；将蜂后放入{green:输入总线}即可将其存入内部缓存
 {gray:{hr}}
-{gold:输入模式：}
-- 不消耗能量
-- 请将蜂后放入输入总线，机器会将其放入内部缓存区
+{gold:输出模式}：
+- 不消耗能量；将蜜蜂返还至{green:输出总线}
+- {yellow:注意，你的蜜蜂很容易被销毁}
 {gray:{hr}}
-{gold:输出模式：}
-- 不消耗能量
-- 会将你的蜜蜂重新输出到总线中
+{gold:运行模式}：
+- {light_purple:常规}：
+  - 每次运行耗时 {green:{var:normal_seconds}秒}，蜜蜂速度为 {green:{var:bee_acceleration}倍}
+  - 每只蜂后消耗 {green:1}A {var:voltageTier_LuV}
+  - 自带 {green:8} 个产量升级，并应用{white:基因稳定升级}
+  - 为蜜蜂模拟完美的环境
+  - {gold:蜂王浆}每份提供 {green:{var:jelly_bonus}%} 的产出加成，最高 {green:{var:max_jelly_bonus}%}（每次运行时每只蜜蜂均会消耗）
+- {light_purple:蜂群}：
+  - 仅可放入 {green:1} 只蜂后，缓慢产出{white:卑贱种公主蜂}
+  - 每次运行消耗 {green:{var:swarmer_jelly_cost}} {gold:蜂王浆}
+  - 基础耗时为 {green:{var:swarmer_seconds}秒}，消耗 1A {var:voltageTier_IV}
+  - {light_purple:可超频}
 {gray:{hr}}
-{gold:运行模式：}
-- 常规：
-  - 运行时间：5秒
-  - 每只蜂后消耗1A {var:voltageTier6}
-  - 所有蜜蜂加速64倍
-  - 自带8个产量升级
-  - 自带基因稳定升级
-  - 为你的蜜蜂模拟完美的环境
-  - 另外，你可以提供蜂王浆以提高产量：
-    - 1个蜂王浆为每只蜜蜂提供5%的增益
-    - 每次运行开始时消耗蜂王浆
-    - 只对当次运行生效
-    - 最大增益：200%
-- 蜂群：
-  - 只能放入1只蜂后
-  - 它会缓慢生产卑贱种公主蜂
-  - 每次运行消耗100蜂王浆
-  - 基础运行时间：1分钟
-  - 消耗1A {var:voltageTier5}
-  - 可以超频
+手持{white:螺丝刀}右键以切换模式（输入/输出/运行）
+手持{white:螺丝刀}Shift+右键以切换运行模式（常规/蜂群）

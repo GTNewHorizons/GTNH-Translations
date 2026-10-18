@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Color Applicator
+  title: 染色器
   icon: appliedenergistics2:item.ToolColorApplicator
 categories:
 - tools
@@ -9,25 +9,25 @@ item_ids:
 - appliedenergistics2:item.ToolColorApplicator
 ---
 
-# Color Applicator
+# 染色器
 
 <ItemImage id="appliedenergistics2:item.ToolColorApplicator" scale="4" />
 
-The color applicator paints colorable blocks such as [cables](cables.md), wool, terracotta, glass, and concrete. It consumes [paintballs](paintballs.md) or dyes; snowballs remove cable colors and paint from blocks.
+染色器可为[线缆](cables.md)、羊毛、陶瓦、玻璃、混凝土等可染色方块上色。它消耗[染色球](paintballs.md)或染料；雪球可清除线缆颜色和方块上的染色。
 
-Recharge it in an <ItemLink id="appliedenergistics2:tile.BlockCharger" />. Like a [storage cell](storage_cells.md), its paint storage can be filled by placing it in the component slot of an <ItemLink id="appliedenergistics2:tile.BlockChest" />.
+在<ItemLink id="appliedenergistics2:tile.BlockCharger" />中为其充能。与[存储元件](storage_cells.md)类似，把它放入<ItemLink id="appliedenergistics2:tile.BlockChest" />的存储插槽即可填满其染色材料存储。
 
-Right-click a target to apply the selected color. Shift-scroll to change the selected paintball or dye, or right-click without a target.
+右键点击目标即可应用所选颜色。Shift+滚轮可切换所选的染色球或染料，在没有目标时右键点击同样可以切换。
 
-## Upgrades
+## 升级支持
 
-Color applicators support the following [upgrades](upgrade_cards.md), installed with an <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />:
+染色器支持以下[升级卡](upgrade_cards.md)，可通过<ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />安装：
 
-* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" /> evenly distributes storage between colors.~~
-* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> voids excess material when storage is full.~~
-* ~~<ItemLink id="ae2fc:energy_card" /> increases battery capacity.~~
+* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" /> 在各颜色之间均分存储空间。~~
+* ~~<ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> 在存储满载时清除多余材料。~~
+* ~~<ItemLink id="ae2fc:energy_card" /> 提升电池容量。~~
 
-## Recipe
+## 合成配方
 
 <RecipeFor id="appliedenergistics2:item.ToolColorApplicator" />
 

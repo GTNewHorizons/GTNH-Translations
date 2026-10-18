@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Ritual of Magnetism + GT Compatibility
+  title: 磁矿仪式 + GT 兼容性
   parent: magic.md
   icon: AWWayofTime:masterStone
 categories:
@@ -9,4 +9,4 @@ author: koolkrafter5
 date: 2026-06-10
 ---
 
-<Color id="RED">Blood Magic's</Color> <Color id="BLUE">Ritual of Magnetism</Color> is now capable of gathering <Color id="BLUE">GT ores</Color>! This might be useful to collect ores for <Color id="GREEN">meteor automation</Color>...
+<Color id="RED">血魔法</Color>的<Color id="BLUE">磁矿仪式</Color>现在能够收集<Color id="BLUE">GT 矿石</Color>了！这或许有助于为<Color id="GREEN">陨石自动化</Color>收集矿石……

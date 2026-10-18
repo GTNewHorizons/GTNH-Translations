@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Decorative Sky Stone
+  title: 装饰性陨石方块
   icon: appliedenergistics2:tile.SkyStoneStairBlock
 categories:
 - misc ingredients blocks
