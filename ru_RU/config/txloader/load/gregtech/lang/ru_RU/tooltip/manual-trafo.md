@@ -1,5 +1,5 @@
-Operates in 4 different modes:
-Mode 1: {white:Circuit 0} in controller: {gold:Direct-Upstep}
-Mode 2: {white:Circuit 1} in controller: {gold:Direct-Downstep}
-Mode 3: {white:Circuit 2} in controller: {gold:Tapped-Upstep} (currently disabled)
-Mode 4: {white:Circuit 3} in controller: {gold:Tapped-Downstep} (currently disabled)
+Работает в 4 различных режимах:
+Режим 1: {white:Схема 0} в контроллере: {gold:Прямое повышение вольтажа}
+Режим 2: {white:Схема 1} в контроллере: {gold:Прямое понижение вольтажа}
+Режим 3: {white:Схема 2} в контроллере: {gold:Пошаговое повышение вольтажа} (отключено)
+Режим 4: {white:Схема 3} в контроллере: {gold:Пошаговое понижение вольтажа} (отключено)

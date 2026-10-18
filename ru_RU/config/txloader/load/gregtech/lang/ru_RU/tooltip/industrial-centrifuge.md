@@ -1,9 +1,9 @@
-{gold:{var:min_parallels}}-{gold:{var:max_parallels}} Parallels per {white:Voltage} tier
-{green:{var:min_speed}}-{green:{var:max_speed}%} Speed
-{aqua:{var:eu_eff}%} EU Usage
+{gold:{var:min_parallels}}-{gold:{var:max_parallels}} параллелей за каждый тир {white:вольтажа}
+Скорость {green:{var:min_speed}}-{green:{var:max_speed}%}
+Потребление EU: {aqua:{var:eu_eff}%}
 {gray:{hr}}
-Both {gold:Parallels} and {green:Speed} scale with the machine's {light_purple:Momentum} 
-Momentum increases by {light_purple:+2%} per second while active (max {light_purple:100%})
-and decreases by {light_purple:-8%} per second while inactive
+{gold:Параллели} и {green:скорость} зависят от {light_purple:инерции} механизма
+Инерция растёт на {light_purple:+2%} в секунду при работе (максимум {light_purple:100%})
+и падает на {light_purple:-8%} в секунду в простое
 {gray:{hr}}
-Use a {white:Screwdriver} on the controller to disable animations
+ПКМ {white:отвёрткой} по контроллеру отключает анимации

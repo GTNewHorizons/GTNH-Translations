@@ -1,5 +1,5 @@
-Can process {aqua:(Tier + 1) * 2} recipes
-Put a numbered circuit into the input bus or controller
-Circuit {green:{var:fish_mode}} for {gold:Fish}
-Circuit {green:{var:junk_mode}} for {gold:Junk}
-Circuit {green:{var:treasure_mode}} for {gold:Treasure}
+Может обрабатывать {aqua:(Тир + 1) * 2} рецептов
+Поместите пронумерованную схему во входной люк или контроллер
+Схема {green:{var:fish_mode}} для {gold:рыбы}
+Схема {green:{var:junk_mode}} для {gold:мусора}
+Схема {green:{var:treasure_mode}} для {gold:сокровищ}

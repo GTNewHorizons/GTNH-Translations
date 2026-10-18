@@ -1,11 +1,11 @@
-Heavy Industry, now right at your doorstep!
-{gold:{var:parallels}} Parallels per {white:Pipe Casing} Tier
-{green:0%} Speed {green:+{var:speed}%} per {white:Heating Coil} Tier
-{light_purple:100%} Chance to damage catalyst {light_purple:-{var:catalyst_save}%} per {white:Pipe Casing} Tier
+Тяжёлая промышленность теперь прямо у вас под рукой!
+{gold:{var:parallels}} параллели за тир {white:полого корпуса}
+Базовая скорость {green:0%}, {green:+{var:speed}%} за тир {white:нагревательной катушки}
+Базовый шанс повредить катализатор {light_purple:100%}, {light_purple:-{var:catalyst_save}%} за тир {white:полого корпуса}
 {gray:{hr}}
-{white:Casing} Tier determines the Machine Tier and therefore the available recipes
-{white:Machine Casing} Tier determines the maximum bus/hatch tier ({var:max_casing}§7 unlocks all)
-Tungstensteel Pipe Casings with at least Awakened Draconium Coils makes catalyst unbreakable
+Тир {white:металлического корпуса} задаёт тир механизма и тем самым доступные рецепты
+Тир {white:корпуса механизма} задаёт максимальный тир люков и шлюзов ({var:max_casing}§7 открывает все)
+Полые корпуса из вольфрамовой стали вместе с катушками не ниже Пробуждённого дракония делают катализатор неразрушимым
 {gray:{hr}}
-{light_purple:Catalysts} are unique, partially consumed items and stored in Catalyst Housing
-Each use reduces the catalyst's durability by one, scaling with the number of active parallels
+{light_purple:Катализаторы}: уникальные, частично расходуемые предметы, хранятся в хранилище катализаторов
+Каждое использование снижает прочность катализатора на единицу, с учётом числа активных параллелей

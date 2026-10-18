@@ -1,6 +1,6 @@
-{gold:{var:parallels}} Parallels per {white:Voltage} Tier
-{green:{var:min_speedup}%} Speed {green:+{var:speed_increase}%} per second while active (max {green:{var:max_speedup}%})
-Speed decreases by {green:-{var:speed_decrease}%} per second while idle
-{aqua:{var:eu_modifier}%} EU Usage
-Use {white:Solidifier Hatches} to hold fluids and molds in the same hatch
-{blue:Pretty Ⱄⱁⰾⰻⰴ, isn't it}
+{gold:{var:parallels}} параллелей за каждый тир {white:вольтажа}
+Скорость {green:{var:min_speedup}%}, {green:+{var:speed_increase}%} в секунду при работе (максимум {green:{var:max_speedup}%})
+Скорость падает на {green:-{var:speed_decrease}%} в секунду в простое
+Потребление EU: {aqua:{var:eu_modifier}%}
+Используйте {white:шлюзы отвердителя}, чтобы хранить жидкость и форму в одном шлюзе
+{blue:Довольно Ⱄⱁⰾⰻⰴ, не так ли?}

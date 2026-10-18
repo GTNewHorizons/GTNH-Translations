@@ -1,7 +1,7 @@
-Power overload!!!
-{aqua:{var:power}} EU/t and {aqua:{var:capacity}} EU capacity per {white:Energy Hatch}
-The total combined EU capacity must be greater than the recipe start cost to ignite
-Can only run {var:tier}§7 recipes and below
+Перегрузка по мощности!!!
+{aqua:{var:power} EU/t} и ёмкость {aqua:{var:capacity} EU} на каждый {white:энерговвод}
+Для запуска суммарная ёмкость должна превышать стартовую стоимость рецепта
+Выполняет рецепты только до {var:tier}§7 включительно
 {gray:{hr}}
-{yellow:Changing recipes consumes the start cost again}
-{light_purple:Performs 2/2 Perfect Overclocks}
+{yellow:Смена рецепта снова расходует стартовую стоимость}
+{light_purple:Выполняет идеальный разгон 2/2}

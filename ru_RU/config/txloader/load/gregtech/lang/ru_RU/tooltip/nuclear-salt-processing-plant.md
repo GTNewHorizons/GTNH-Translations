@@ -1,5 +1,5 @@
-{gold:2 Parallels} per {white:Voltage} Tier
-{green:250% Speed}
-{aqua:100% EU Usage}
-Processes {red:Depleted Molten Salts} that come from the {white:LFTR}
-Handles the recipes of the {white:Reactor Processor Unit} and {white:Cold Trap}
+{gold:2 параллели} за тир {white:вольтажа}
+{green:Скорость 250%}
+{aqua:Потребление EU 100%}
+Перерабатывает {red:Обеднённые расплавленные соли} из {white:ЖФТР}
+Выполняет рецепты {white:Реакторного процессорного устройства} и {white:Холодной ловушки}

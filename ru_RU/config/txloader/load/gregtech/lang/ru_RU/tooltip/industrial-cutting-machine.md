@@ -1,4 +1,4 @@
-Requires a {aqua:Sawblade} in the controller slot to run
-Better Sawblades give increased bonuses
-A {aqua:Transcendent Metal Sawblade} allows for a single {green:Multi-Amp Energy Hatch}
-Use a {white:Screwdriver} on the controller to disable animations
+Для работы нужно {aqua:лезвие пилы} в слоте контроллера
+Лучшие лезвия пилы дают больше бонусов
+{aqua:Лезвие пилы из трансцендентного металла} разрешает один {green:мультиамперный энерговвод}
+ПКМ {white:отвёрткой} по контроллеру отключает анимации

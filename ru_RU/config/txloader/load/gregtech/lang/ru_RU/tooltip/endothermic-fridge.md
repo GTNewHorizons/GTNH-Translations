@@ -1,12 +1,12 @@
-While active, the temperature slowly drops to increase its speed bonus up to {green:{var:max_speed}x}
-Takes {light_purple:{var:warmup_minutes} minutes} of constant running to reach the maximum bonus
-While inactive, the machine returns back to its normal temperature
-Optionally supply {aqua:{var:min_cryo}-{var:max_cryo} {var:fluid_unit}/s} of {aqua:Cryotheum} to speed up cooling by {light_purple:{var:cryo_speedup}x}
-{aqua:Cryotheum} consumption scales linearly with the speed bonus
+При работе температура постепенно падает, а бонус к скорости растёт до {green:{var:max_speed}x}
+Для максимального бонуса нужно {light_purple:{var:warmup_minutes} мин} непрерывной работы
+В выключенном состоянии механизм возвращается к нормальной температуре
+Можно подавать {aqua:{var:min_cryo}-{var:max_cryo} {var:fluid_unit}/с} {aqua:криотеума}, чтобы ускорить охлаждение в {light_purple:{var:cryo_speedup}x}
+Расход {aqua:криотеума} растёт линейно с бонусом к скорости
 {gray:{hr}}
-Upgrade to Tier 2 to unlock {gold:Subspace Cooling}
-Optionally supply an {blue:Exotic Coolant} to run {light_purple:Perfect Overclocks}
-{blue:{var:booster_drain} {var:fluid_unit}/s} of {blue:Molten Infinity}: {light_purple:1}
-{blue:{var:booster_drain} {var:fluid_unit}/s} of {blue:Molten Spacetime}: {light_purple:2}
-{blue:{var:booster_drain} {var:fluid_unit}/s} of {blue:Molten Eternity}: {light_purple:3}
+Улучшите механизм до 2-го тира, чтобы открыть {gold:подпространственное охлаждение}
+Можно подавать {blue:экзотический хладагент} для {light_purple:идеальных разгонов}
+{blue:{var:booster_drain} {var:fluid_unit}/с} {blue:расплавленной бесконечности}: {light_purple:1}
+{blue:{var:booster_drain} {var:fluid_unit}/с} {blue:расплавленного пространства-времени}: {light_purple:2}
+{blue:{var:booster_drain} {var:fluid_unit}/с} {blue:расплавленной вечности}: {light_purple:3}
 {gray:{hr}}

@@ -1,5 +1,5 @@
-Machine Type: {yellow:BEC I/O Node Controller Hatch}
-Temporarily pauses a {gold:{item:gregtech:gt.blockmachines:15757}} when the hatch receives a redstone signal.
-Nodes can be paused immediately, or upon entering the next step.
-Paused nodes do not consume condensate and do not fail due to contaminants.
-Nodes can be paused before starting a recipe, which will cause them to idle immediately when a recipe starts.
+Тип механизма: {yellow:Контроллер узла ввода-вывода BEC}
+Временно приостанавливает {gold:{item:gregtech:gt.blockmachines:15757}}, когда шлюз получает сигнал красного камня.
+Узел можно приостановить сразу или при переходе к следующему шагу.
+Приостановленные узлы не расходуют конденсат и не проваливаются из-за загрязнителей.
+Узел можно приостановить до старта рецепта, тогда он сразу встанет в ожидание, как только рецепт начнётся.
