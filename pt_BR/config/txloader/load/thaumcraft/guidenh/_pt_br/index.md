@@ -147,7 +147,7 @@ This category organizes guides by topic, with each topic page directly under Tha
 | [Infusion Crafting](./infusion_crafting.md) | Altar components, recipe resources, stability and integration with other devices |
 | [Magic Automation](./magic_automation.md) | Item logistics, inventory control, fluid devices, production support and golem uses |
 | [Warp and Eldritch Knowledge](./warp_eldritch.md) | Warp management, Eldritch research, Opening the Eye, and exploration of the Outer Lands |
-| Thaumic Tinkerer | Enchanting, repairs, infused crops, devices and KAMI content |
+| [Thaumic Tinkerer](./thaumic_tinkerer.md) | Custom enchanting, durability repair, infused crops, elemental fire, and KAMI devices |
 | Addons and GT Integration | Thaumic Energistics, other addon facilities, and GT's magical devices and material connections |
 
 </Column>
