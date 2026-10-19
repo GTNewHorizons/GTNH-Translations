@@ -1,4 +1,4 @@
 {gray:{hr}}
-Use a {blue:Programmed Circuit} to specify which recipe to run
-{blue:1}=Cobble, {blue:2}=Stone, {blue:3}=Obsidian, {blue:4}=Basalt
-{blue:5}=Deepslate, {blue:6}=Netherrack, {blue:7}=Endstone
+Используйте {blue:запрограммированную схему} для выбора рецепта
+{blue:1}=булыжник, {blue:2}=камень, {blue:3}=обсидиан, {blue:4}=базальт
+{blue:5}=глубинный сланец, {blue:6}=адский камень, {blue:7}=эндерняк

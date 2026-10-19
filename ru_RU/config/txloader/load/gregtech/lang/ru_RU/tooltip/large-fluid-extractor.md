@@ -1,2 +1,2 @@
-{green:{var:speed}%} Speed {green:+{var:speed_bonus}%} per {white:Heating Coil} tier
-{aqua:{var:eu_eff}%} EU Usage {aqua:x{var:eu_eff_bonus}} per {white:Heating Coil} tier
+Скорость {green:{var:speed}%}, {green:+{var:speed_bonus}%} за тир {white:нагревательной катушки}
+Потребление EU: {aqua:{var:eu_eff}%}, {aqua:x{var:eu_eff_bonus}} за тир {white:нагревательной катушки}

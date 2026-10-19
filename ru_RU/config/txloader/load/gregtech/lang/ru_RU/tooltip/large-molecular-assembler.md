@@ -1,8 +1,8 @@
-Requires a {green:Data Orb} inside the controller
-Consumes {aqua:{var:basic_eut} EU/t} while idle, regardless of overclocks
+Необходимо поместить {green:сферу данных} в контроллер
+Расходует {aqua:{var:basic_eut} EU/t} в простое, независимо от разгона
 {gray:{hr}}
-{gold:Crafting}:
-- {aqua:{var:crafting_eut} EU/t}, performs {green:{var:jobs_base}} jobs in {green:{var:duration_base}s}
-{gold:Overclocking}:
-- Reduces the duration to {green:{var:duration_oc1}s} and {green:{var:duration_oc2}s} for the first two overclocks
-- Every subsequent overclock quadruples {aqua:EU/t} and doubles the number of jobs
+{gold:Создание}:
+- {aqua:{var:crafting_eut} EU/t}, выполняет {green:{var:jobs_base}} задания за {green:{var:duration_base}с}
+{gold:Разгон}:
+- Первые два разгона сокращают время до {green:{var:duration_oc1}с} и {green:{var:duration_oc2}с}
+- Каждый последующий разгон учетверяет {aqua:EU/t} и удваивает количество заданий

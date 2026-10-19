@@ -1,6 +1,6 @@
-{gold:Unlimited} Parallels
-Every ore costs {aqua:{var:eut_per_ore} EU/t}, {white:{var:lubricant_per_ore} Lubricant} and {blue:{var:water_per_ore} Distilled Water}
-Does all ore processing in one step, time is dependent on mode
-{yellow:Recipes with extra inputs require them in addition to the normal costs}
+Параллели: {gold:без ограничений}
+Каждая руда стоит {aqua:{var:eut_per_ore} EU/t}, {white:{var:lubricant_per_ore} смазки} и {blue:{var:water_per_ore} дистиллированной воды}
+Выполняет всю обработку руды за один шаг, время обработки зависит от режима
+{yellow:Рецепты с дополнительными ингредиентами требуют их сверх обычных затрат}
 {gray:{hr}}
-Use a {white:Screwdriver} on the controller to change mode, sneak to void stone dust
+ПКМ {white:отвёрткой} по контроллеру переключает режим, с Shift переключает уничтожение каменной пыли

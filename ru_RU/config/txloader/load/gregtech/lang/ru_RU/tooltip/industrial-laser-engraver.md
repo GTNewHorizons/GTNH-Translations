@@ -1,10 +1,10 @@
-{gold:Laser Source Amperage^(1/3)} Parallels
-{green:{var:speed}%} Speed
-{aqua:{var:eu_eff}%} EU Usage
+Параллели: {gold:сила тока источника лазера^(1/3)}
+Скорость {green:{var:speed}%}
+Потребление EU: {aqua:{var:eu_eff}%}
 {gray:{hr}}
-Recipes and overclocks limited to {aqua:Laser Source Tier + 1}
-A {var:tier}§7+ Laser Source allows for a single {green:Multi-Amp Energy Hatch}
+Рецепты и разгон ограничены {aqua:тиром источника лазера + 1}
+{var:tier}§7+ источник лазера разрешает один {green:мультиамперный энерговвод}
 {gray:{hr}}
-{white:Glass} tier determines maximum Laser Source tier
-Use {white:Wire Cutters} on the controller to straighten the laser
-Use a {white:Screwdriver} on the controller disable animations
+Тир {white:стекла} определяет максимальный тир источника лазера
+ПКМ {white:кусачками} по контроллеру выпрямляет лазер
+ПКМ {white:отвёрткой} по контроллеру отключает анимации

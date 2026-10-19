@@ -1,7 +1,7 @@
-Produces {white:{var:steam_1_coal} {var:fluid_unit}} {white:Superheated Steam} per {gold:Coal} at a rate of {white:{var:steam_per_sec} {var:fluid_unit}/s}
-Fuels with long burn times receive bonus ticks: {aqua:1 + log(BurnTime / 10) * 0.025}
-Burning solid and liquid fuel at the same time gives a {green:{var:multi_fuel_boost}} speed boost
-{yellow:Only some fuels are allowed, check NEI}
+Производит {white:{var:steam_1_coal} {var:fluid_unit}} {white:перегретого пара} с одного {gold:угля} со скоростью {white:{var:steam_per_sec} {var:fluid_unit}/с}
+Топливо с долгим временем горения получает бонусные тики: {aqua:1 + log(BurnTime / 10) * 0.025}
+Одновременное сжигание твёрдого и жидкого топлива даёт ускорение на {green:{var:multi_fuel_boost}}
+{yellow:Разрешены только некоторые виды топлива, см. NEI}
 {gray:{hr}}
-Takes {light_purple:{var:heat_seconds}} seconds to warm-up
-A {white:Programmed Circuit} in the controller reduces output by {white:{var:throttle_amount} {var:fluid_unit}/s} per value
+Прогрев длится {light_purple:{var:heat_seconds}} с
+{white:Запрограммированная схема} в контроллере снижает выработку на {white:{var:throttle_amount} {var:fluid_unit}/с} за каждое значение

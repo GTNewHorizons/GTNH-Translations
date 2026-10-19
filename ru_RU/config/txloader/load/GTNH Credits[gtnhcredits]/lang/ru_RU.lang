@@ -6,48 +6,4 @@ gui.credits.button.filter.fuzzy=Нечёткий поиск
 gui.credits.button.filter.exact=Точное совпадение
 gui.credits.button.filter.exact_tip_line=Использует регулярные выражения для точного совпадения с началом нужного имени
 gui.credits.button.filter.fuzzy_tip_line=Использует нечёткий поиск для нахождения ближайших совпадений с нужным именем
-
-credits.category.team=§0Основная команда
-credits.category.team.detail=Основная команда отвечает за общее направление, поддержку и выпуск §3§lGT New Horizons§r.\nИх работа охватывает дизайн, координацию, инфраструктуру и долгосрочное видение развития сборки.
-
-credits.category.dev=Разработчики
-credits.category.dev.detail=Разработчики проектируют и реализуют моды, скрипты, конфигурации и инструменты, которые делают возможным существование §3§lGT New Horizons§r.\nЭто включает в себя всё: от новых игровых систем до улучшения конвейера сборки.
-
-credits.category.contrib=§4Участ§5ники раз§4работки
-credits.category.contrib.detail=Участники разработки присылали исправления, контент и улучшения со всех уголков сборки. Каждый вклад имеет значение.
-
-credits.category.support=§0Подд§2ержи§5в§nаю§0щ§nие §0лица
-credits.category.support.detail=Поддержавшие проект помогали ему развиваться благодаря пожертвованиям, хостингу, модерации и другим формам помощи сообществу. Мы благодарны им за их щедрость и преданность делу.
-
-credits.category.thanks=Особая благодарность
-credits.category.thanks.detail=Особая благодарность всем, кто сообщал об ошибках, писал документацию, создавал руководства или поддерживал проект - как большими, так и малыми делами.\nБез своего сообщества GT New Horizons не смог бы существовать.
-
-credits.category.loremipsum=Lorem ipsum
-credits.category.loremipsum.detail=Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.\nAt vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.\nNam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet.\nItaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.\nUt enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-
-credits.person.role.gtnhcreator=§f§lСоздатель §6§lGTNH
-credits.person.role.dev=§5Разработчик
-credits.person.role.contributor=Участник разработки
-
-# Test category: id "Key Test" -> sanitized key_test
-credits.category.key_test=Тест ключа (переведено)
-credits.category.key_test.detail=Эта категория проверяет очистку ключей.%nКатегория с идентификатором "Key Test" соответствует ключу перевода credits.category.key_test.%nРоли: "Test-Role" → testrole (переведено), "Core.Mod" → coremod (переведено), "No.Trans Role" → notrans_role (нет записи, поэтому отображается исходная строка).
-
-credits.person.role.testrole=Тестовая роль (переведена)
-credits.person.role.coremod=Основной мод (переведён)
-# "No.Trans Role" -> notrans_role: intentionally no entry to exercise fallback
-
-# "No-Trans Cat" -> no_trans_cat: intentionally no entries to exercise full fallback
-
-# Test category: id "Indexed Detail" -> sanitized indexed_detail
-# Indexes are defined out of order here (0, 10, 2) to verify natural sort renders them 0, 2, 10.
-# \n within a paragraph = line break only (no empty-line gap between lines of the same paragraph).
-credits.category.indexed_detail.detail.0=Первый абзац, первая строка.\nПервый абзац, вторая строка (перенос строки, без пробела сверху).
-credits.category.indexed_detail.detail.2=Второй абзац (естественная сортировка: отображается после 0, до 10).
-credits.category.indexed_detail.detail.10=Десятый абзац (естественная сортировка: отображается последним, несмотря на то, что "10" > "2" лексикографически).
-
-credits.category.newcat=§3Новая категория
-
-credits.category.notrans_cat=Теперь §lс§r переводом
-
-credits.category.mod_authors=Авторы модов
+gui.credits.empty=No credits have been provided.

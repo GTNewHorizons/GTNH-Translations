@@ -1,3 +1,3 @@
-Accepts fluids instead of fluid cells
-Can perform several direct recipes that skip intermediate compounds
-{light_purple:Performs 4/4 Perfect Overclocks}
+Принимает жидкости вместо жидкостных капсул
+Может выполнять ряд прямых рецептов, пропуская промежуточные соединения
+{light_purple:Выполняет идеальный разгон 4/4}
