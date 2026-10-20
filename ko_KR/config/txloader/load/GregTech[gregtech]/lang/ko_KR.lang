@@ -202,13 +202,13 @@ gt.oreprefix.material_frame_box_tileentity=%s (타일 엔티티)
 
 gt.block.any_sub_block=이 블록의 모든 하위 블록
 
-gt.author=제작자: %s
-gt.authors=제작자: %s
 
 gt.voltage.tier=-티어
 
 # Tooltip for Block Machines
 gt.blockmachines.slot_count.desc=슬롯 %s개
+gt.blockmachines.recipe_output_limit.desc=Only produce the first §e%s§7 item output of each recipe
+gt.blockmachines.recipe_output_limit_plural.desc=Produce the first §e%s§7 item outputs of each recipe
 gt.blockmachines.cable.desc=최대 전압: %s\n최대 전류: %s\n손실/미터/암페어: %s
 gt.blockmachines.gt_frame.desc.format=커버를 씌울 수 있는 그냥 물건일 뿐이야.
 gt.blockmachines.transformer.desc=%s -> %s (소프트 말렛을 사용하여 반전)
@@ -1918,7 +1918,6 @@ GT5U.MBTT.PPS=§5%s§7 초당 오염도
 GT5U.MBTT.Hold=눌러서
 GT5U.MBTT.Display=구조 가이드라인 보기
 GT5U.MBTT.StructureHint=일부 블록은 여러 후보를 가지거나 모든 티어를 사용할 수 있습니다
-GT5U.MBTT.Mod=추가자
 GT5U.MBTT.Air=필수적으로 비워둬야함
 GT5U.MBTT.ParallelBase=%s개의 아이템을 %s티어당 처리합니다.
 GT5U.MBTT.ParallelBase_Singular=등급 %s마다 아이템을 %s개 처리합니다.
@@ -1927,7 +1926,6 @@ GT5U.MBTT.SpeedTiered=%s 등급마다 동일한 전압의 단일 블록 기계�
 GT5U.MBTT.EuDiscountBase=일반적으로 필요한 EU의 %s를 사용합니다.
 GT5U.MBTT.EuDiscountTiered=각 %s 단계마다 EU를 %s만큼 덜 사용합니다.
 GT5U.MBTT.Parallel_Multiplicative=%s 티어당 병렬 처리 %s개
-GT5U.MBTT.StructureBy=구조물 제작자
 GT5U.MBTT.pHSensorHatch=pH 센서 해치
 GT5U.MBTT.ControlHatch=제어 해치
 GT5U.MBTT.LensHousing=렌즈 하우징
@@ -5800,8 +5798,8 @@ gt.item.bottle.leninade.name=레닌에이드
 gt.item.bottle.leninade.tooltip=공산주의가 몸속으로 흘러들게 하십시오!
 gt.item.bottle.mineral_water.name=광천수
 gt.item.bottle.mineral_water.tooltip=건강을 유지하기 위해 마실 수 있는 최고의 음료입니다.
-gt.item.bottle.salty_water.name=소금물
-gt.item.bottle.salty_water.tooltip=바닷물과 비슷하지만 더 깨끗합니다
+gt.item.bottle.salt_water.name=Salt Water
+gt.item.bottle.salt_water.tooltip=Like Sea Water but less dirty
 gt.item.bottle.reed_water.name=갈대 물
 gt.item.bottle.reed_water.tooltip=발효하면 맛이 더 좋아지는 것 같습니다.
 gt.item.bottle.rum.name=럼주
@@ -7982,7 +7980,6 @@ fluid.potion.regen.splash=투척용 재생 물약
 fluid.potion.regen.strong=강력한 재생 물약
 fluid.potion.regen.strong.splash=강력한 재생 투척 물약
 fluid.potion.rum=럼
-fluid.potion.saltywater=소금물
 fluid.potion.scotch=스카치
 fluid.potion.slowness=구속 양조액
 fluid.potion.slowness.long=지속 시간이 연장된 감속 물약
