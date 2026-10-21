@@ -1,5 +1,5 @@
 Улучшенная доменная печь заводского класса
-Расходует {var:pyrotheum} {fluid:pyrotheum} в секунду во время работы
+Расходует {gold:{var:pyrotheum} {L}/с} {gold:{fluid:pyrotheum}} во время работы
 Сконструирован точно так же, как обычный EBF
-Снижает {aqua:расход EU} на {white:5%} за каждые {red:{var:discount_heat}K} выше требований рецепта
-Каждые {red:{var:perfect_oc_heat}K} выше требований рецепта дают 1 {light_purple:идеальный разгон}
+Снижает {color_eu_usage:расход {EU}} на {color_eu_usage:5%} за каждые {color_heat:{var:discount_heat}{K}} выше требований рецепта
+Каждые {color_heat:{var:perfect_oc_heat}{K}} выше требований рецепта дают {color_mechanic:1 идеальный разгон}

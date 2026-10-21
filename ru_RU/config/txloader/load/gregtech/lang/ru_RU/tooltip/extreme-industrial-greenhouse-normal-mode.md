@@ -1,5 +1,5 @@
-{gray:{hr}}
-{gold:Обычные семена}:
+{hr}
+{color_mode:Обычные семена}:
 Минимальный тир вольтажа: {green:{var:minVoltageTier}}
 Начинает с {green:{var:startingSlotCount}} слота, слоты умножаются на {green:{var:slotPerTierMultiplier}} за каждый тир после {green:{var:minVoltageTier}}
 Каждый слот вмещает {green:{var:seedCapacityPerSlot}} семян

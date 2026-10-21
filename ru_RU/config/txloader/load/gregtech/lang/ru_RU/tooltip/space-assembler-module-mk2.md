@@ -1,4 +1,4 @@
 Модуль, добавляющий космический сборщик к космическому лифту
-§d§lЭто действительно необходимо?
-Работает в UIV со скоростью §a150%§7 до §616§7 параллелей
+{light_purple:{bold:Это действительно необходимо?}}
+Работает в {var:voltageTier} со скоростью {color_speed:150%} до {color_parallel:16} параллелей
 {lang:gt.blockmachines.multimachine.project.ig.motorT3}
