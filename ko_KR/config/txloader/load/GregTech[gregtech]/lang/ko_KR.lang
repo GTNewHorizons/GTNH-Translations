@@ -1881,6 +1881,9 @@ GT5U.MBTT.PowerUsage=전력 사용량
 GT5U.MBTT.BaseAmperage=기본 전류량
 GT5U.MBTT.StaticParallels=한 번에 최대 %s개의 레시피를 처리합니다
 GT5U.MBTT.Dimensions=차원
+GT5U.MBTT.Dimensions.Length=L
+GT5U.MBTT.Dimensions.Width=W
+GT5U.MBTT.Dimensions.Height=H
 GT5U.MBTT.Hollow=(속이 비어있는)
 GT5U.MBTT.Structure=구조물
 GT5U.MBTT.Controller=컨트롤러
@@ -2024,6 +2027,12 @@ GT5U.MBTT.Structure.DataStick.PCB=§a데이터 스틱으로 §bPCB 공장§7에 
 
 gt.mbtt.structure.back_center=후면 중앙
 gt.mbtt.structure.front_bottom_center=전면 하단 중앙
+gt.mbtt.structure.middle_of_structure_6th_layer=Middle of structure, 6th layer
+gt.mbtt.structure.any_electric_compressor_casing=Any electric compressor casing
+gt.mbtt.structure.any_side_pipe_casing=Any side pipe casing
+gt.mbtt.structure.any_neutronium_casing=Any neutronium casing
+gt.mbtt.structure.any_absorbent_casing=Any absorbent casing
+gt.mbtt.structure.any_absorbent_casing_or_behind_laser=Any absorbent casing (inputs), the casing behind each laser (spacetime)
 gt.mbtt.structure.front_center=전면 중앙
 gt.mbtt.structure.front_center_2nd_layer=전면 중앙, 2번째 층
 gt.mbtt.structure.front_center_4th_layer=전면 중앙, 4번째 층
@@ -2168,6 +2177,13 @@ gt.mbtt.structure.containment_block=Containment Block
 gt.mbtt.structure.heat_resistant_proof_coke_oven_casing=Heat Resistant/Proof Coke Oven Casing
 gt.mbtt.structure.input_or_solidifier_hatch=Input/Solidifier Hatch
 gt.mbtt.structure.input_or_chisel_bus=Input/Chisel Bus
+gt.mbtt.structure.any_machine_or_firebox_casing=Any machine or firebox casing
+gt.mbtt.structure.large_boiler_fuel=Use solid fuel, liquid fuel, or both
+gt.mbtt.structure.large_boiler_water=Use regular or distilled water
+gt.mbtt.structure.any_middle_casing=Any middle casing
+gt.mbtt.structure.any_side_casing=Any side casing
+gt.mbtt.structure.heat_exchanger_input_hatch=Bottom center casing (hot fluid), any casing (distilled water)
+gt.mbtt.structure.heat_exchanger_output_hatch=Top center casing (cooled fluid), any casing (steam)
 
 # Generic machine types
 gt.mbtt.machine_type.spacetime_manipulator=시공간 조작기, EOH
@@ -2192,6 +2208,10 @@ gt.mbtt.machine_type.arc_furnace_iaf=아크 화로, IAF
 gt.mbtt.machine_type.solar_tower=태양열 타워
 gt.mbtt.machine_type.macerator_ims=분쇄기, IMS
 gt.mbtt.machine_type.compressor=Compressor
+gt.mbtt.machine_type.electric_compressor=Compressor, LEC
+gt.mbtt.machine_type.isostatic_press_compressor=Compressor, HIP
+gt.mbtt.machine_type.neutronium_compressor=Neutronium Compressor
+gt.mbtt.machine_type.black_hole_compressor=Compressor, Advanced Neutronium Compressor, BHC
 gt.mbtt.machine_type.forge_hammer=Forge Hammer
 gt.mbtt.machine_type.furnace=Furnace
 gt.mbtt.machine_type.furnace_blaster_smoker=Furnace, Blaster, Smoker
@@ -2243,6 +2263,9 @@ gt.mbtt.machine_type.industrial_coke_oven=Coke Oven, ICO
 gt.mbtt.machine_type.cutting_machine=Cutting Machine, ICF
 gt.mbtt.machine_type.electromagnetic_separator=Electromagnetic Separator/Polarizer, MFE
 gt.mbtt.machine_type.fish_trap=Fish Trap, ZFP
+gt.mbtt.machine_type.boiler=Boiler
+gt.mbtt.machine_type.heat_exchanger=Heat Exchanger
+gt.mbtt.machine_type.large_heat_exchanger=Heat Exchanger, LHE
 
 # BartWorks multiblock structure text
 GT5U.tooltip.manual_trafo.winding_layers=1 Layer for each tier transformed
@@ -2331,17 +2354,6 @@ gt.multiblock.ThermalBoiler.desc1=§chot 유체§7의 열을 사용하여 물을
 gt.multiblock.ThermalBoiler.desc2=§c용암§7 및 §c파호이호이 용암에서 원료를 여과합니다.
 gt.multiblock.ThermalBoiler.desc3=부산물을 처리하려면 컨트롤러 슬롯에 용암 필터가 필요합니다.
 gt.multiblock.ThermalBoiler.desc4=물이 고갈되면 10초 후 폭발합니다.
-
-gt.multiblock.HeatExchanger.desc1=입력은 §c용암§7, §c고온 냉각수§7 또는 §c고온 태양열 염입니다
-gt.multiblock.HeatExchanger.desc2=§9파호이호이 용암§7, §9IC2 냉각수§7 또는 §9차가운 태양열 염을 출력합니다
-gt.multiblock.HeatExchanger.desc3=이 과정에서 증류수를 §r증기§7 또는 §rSH 증기§7로 변환합니다.
-gt.multiblock.HeatExchanger.desc4=뜨거운 유체의 입력량이 특정 §d임계값을 초과하면 §rSH 증기§7를 출력합니다.
-gt.multiblock.HeatExchanger.desc5=증류수가 다 떨어진 상태로 100초가 지나면 폭발합니다.
-gt.multiblock.HeatExchanger.lava=§c용암§7 | SH 임계값 §d1,000 %s/s§7 | 최대 입력 §c2,000 %s/s§7 | 최대 출력 §r8,000 %s/t SH 증기
-gt.multiblock.HeatExchanger.hotcoolant=§c고온 냉각수§7 | SH 임계값 §d800 %s/s§7 | 최대 입력 §c1,600 %s/s§7 | 최대 출력 §r16,000 %s/t SH 증기
-gt.multiblock.HeatExchanger.hotsolarsalt=§c고온 태양염§7 | SH 임계값 §d160 %s/s§7 | 최대 입력 §c320 %s/s§7 | 최대 출력 §r16,000 %s/t SH 증기
-gt.multiblock.HeatExchanger.throttle1=컨트롤러의 회로가 증기를 소모하여 SH 임계값을 낮춥니다.
-gt.multiblock.HeatExchanger.throttle2=§d-3.75%§7 SH 임계값 및 §r-1.5%§7 회로 1개 초과분마다 회로당 증기 출력
 
 gt.multiblock.AdvHeatExchanger.desc1=대형 열 교환기 32대에 해당합니다.
 gt.multiblock.AdvHeatExchanger.desc2=투입물은 §c용암§7, §c고온 냉각수§7 또는 §c고온 태양열 용융염입니다.
@@ -4109,6 +4121,8 @@ GT5U.gui.circuit.timer.description=레드스톤 펄스를 발생시킵니다
 GT5U.gui.circuit.timer.data_description.pulses=펄스
 GT5U.gui.circuit.timer.data_description.time=시간
 
+GT5U.gui.text.tick=%s tick
+GT5U.gui.text.tick.plural=%s ticks
 GT5U.gui.text.second=%s초
 GT5U.gui.text.second.plural=%s초
 GT5U.gui.text.minute=%s분
@@ -4371,6 +4385,7 @@ GT5U.chat.rendering.off=렌더링 끄기
 GT5U.chat.rendering.on=렌더링 켜짐
 GT5U.chat.auto_place.done=§a자동 배치가 완료되었습니다!
 GT5U.chat.auto_place.done.water=§a자동 설치가 완료되었습니다! 이제 직접 물을 설치하십시오!
+GT5U.chat.auto_place.done.flowers=§aAuto placing done! Now go place the flowers yourself!
 
 GT5U.chat.cover.decorative.redstone=레드스톤
 GT5U.chat.cover.decorative.energy=에너지
