@@ -279,6 +279,9 @@ gt.hatch_element_of_id=of id %s
 
 # Basic Machine
 gt.blockmachines.batterybuffer.name=蓄電器 (%1$s)
+gt.blockmachines.batterybuffer.small.name=Small %1$s Battery Buffer
+gt.blockmachines.batterybuffer.large.name=Large %1$s Battery Buffer
+gt.blockmachines.batterybuffer.huge.name=Huge %1$s Battery Buffer
 gt.blockmachines.hatch.energy.name=エネルギーハッチ (%s)
 gt.blockmachines.hatch.energy.debug.name=デバッグ用エネルギーハッチ
 gt.blockmachines.hatch.dynamo.name=ダイナモハッチ (%s)
@@ -1797,7 +1800,7 @@ GTPP.algae.yellow-green_algae.name=黄緑色藻
 GT5U.power_goggles.open_config_gui=Power Gogglesの設定を開く
 GT5U.power_goggles.toggle_power_chart=ゴーグルの電力チャートの切り替え
 GT5U.power_goggles.toggle_measurements_section=Toggle Power Goggles measurements section
-GT5U.power_goggles.link_lsc=Goggles linked to LSC at %d,%d,%d.
+GT5U.power_goggles.link_lsc.s=Goggles linked to LSC at %s, %s, %s.
 GT5U.power_goggles.link_fail=That's not an LSC...
 GT5U.power_goggles.unlink=Goggles Unlinked.
 GT5U.power_goggles.link_tooltip=Linked to LSC at %d,%d,%d: %s
@@ -4122,7 +4125,7 @@ GT5U.gui.circuit.timer.data_description.pulses=Pulses
 GT5U.gui.circuit.timer.data_description.time=Time
 
 GT5U.gui.text.tick=%s tick
-GT5U.gui.text.tick.plural=%s ticks
+GT5U.gui.text.tick.plural=%s tick
 GT5U.gui.text.second=%s秒
 GT5U.gui.text.second.plural=%s秒
 GT5U.gui.text.minute=%s分
@@ -4789,7 +4792,7 @@ GT5U.nei.purified_water.grade_4.1=%s pH/1000L
 GT5U.nei.cauldron.consumed=処理毎に消費
 GT5U.nei.cauldron.anystack=スタック数によらず機能します
 GT5U.nei.foundry_module.chassis_tier=Chassis must match Foundry Tier!
-
+GT5U.nei.hover_to_see=Hover to see stack trace
 
 GT5U.config.colormodulation=色変更
 GT5U.config.colormodulation.cable_insulation=ケーブル絶縁体
@@ -5813,8 +5816,8 @@ gt.item.bottle.leninade.name=レニネード入り瓶
 gt.item.bottle.leninade.tooltip=ソビエトロシアでは、共産主義者があなたになる！！
 gt.item.bottle.mineral_water.name=ミネラルウォーター入り瓶
 gt.item.bottle.mineral_water.tooltip=健康を維持するための最高の飲み物
-gt.item.bottle.salt_water.name=Salt Water
-gt.item.bottle.salt_water.tooltip=Like Sea Water but less dirty
+gt.item.bottle.salt_water.name=塩水入り瓶
+gt.item.bottle.salt_water.tooltip=汚れの少ない海水みたいなもの
 gt.item.bottle.reed_water.name=きび水入り瓶
 gt.item.bottle.reed_water.tooltip=発酵させたら美味しくなりそう
 gt.item.bottle.rum.name=ラム酒
