@@ -279,6 +279,9 @@ gt.hatch_element_of_id=id %s
 
 # Basic Machine
 gt.blockmachines.batterybuffer.name=%1$s Аккумуляторный буфер
+gt.blockmachines.batterybuffer.small.name=Small %1$s Battery Buffer
+gt.blockmachines.batterybuffer.large.name=Large %1$s Battery Buffer
+gt.blockmachines.batterybuffer.huge.name=Huge %1$s Battery Buffer
 gt.blockmachines.hatch.energy.name=%1$s Энерговвод
 gt.blockmachines.hatch.energy.debug.name=Отладочный энерговвод
 gt.blockmachines.hatch.dynamo.name=%s Энерговывод
@@ -1797,7 +1800,7 @@ GTPP.algae.yellow-green_algae.name=Желто-зелёные водоросли
 GT5U.power_goggles.open_config_gui=Открыть настройки энерго-очков
 GT5U.power_goggles.toggle_power_chart=Переключить график энерго-очков
 GT5U.power_goggles.toggle_measurements_section=Переключить раздел измерений энерго-очков
-GT5U.power_goggles.link_lsc=Очки привязаны к LSC на %d, %d, %d.
+GT5U.power_goggles.link_lsc.s=Goggles linked to LSC at %s, %s, %s.
 GT5U.power_goggles.link_fail=Это не LSC...
 GT5U.power_goggles.unlink=Очки не привязаны.
 GT5U.power_goggles.link_tooltip=Привязано к LSC на %d, %d, %d: %s
@@ -4789,7 +4792,7 @@ GT5U.nei.purified_water.grade_4.1=%s pH/1000Л
 GT5U.nei.cauldron.consumed=Расходуется за операцию
 GT5U.nei.cauldron.anystack=Работает с любым размером стака
 GT5U.nei.foundry_module.chassis_tier=Шасси должно совпадать с тиром литейной!
-
+GT5U.nei.hover_to_see=Hover to see stack trace
 
 GT5U.config.colormodulation=Цветовой модулятор
 GT5U.config.colormodulation.cable_insulation=Изоляция кабеля
