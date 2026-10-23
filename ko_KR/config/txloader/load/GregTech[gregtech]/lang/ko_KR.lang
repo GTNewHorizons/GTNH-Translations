@@ -279,6 +279,9 @@ gt.hatch_element_of_id=ID %s의
 
 # Basic Machine
 gt.blockmachines.batterybuffer.name=%1$s 배터리 버퍼
+gt.blockmachines.batterybuffer.small.name=Small %1$s Battery Buffer
+gt.blockmachines.batterybuffer.large.name=Large %1$s Battery Buffer
+gt.blockmachines.batterybuffer.huge.name=Huge %1$s Battery Buffer
 gt.blockmachines.hatch.energy.name=%s 에너지 해치
 gt.blockmachines.hatch.energy.debug.name=디버그 에너지 해치
 gt.blockmachines.hatch.dynamo.name=%s 발전기 해치
@@ -1797,7 +1800,7 @@ GTPP.algae.yellow-green_algae.name=황록조류
 GT5U.power_goggles.open_config_gui=전력 고글 설정 열기
 GT5U.power_goggles.toggle_power_chart=전력 고글 차트 전환
 GT5U.power_goggles.toggle_measurements_section=파워 고글 측정 항목 전환
-GT5U.power_goggles.link_lsc=고글이 %d,%d,%d 위치의 LSC에 연결되었습니다.
+GT5U.power_goggles.link_lsc.s=Goggles linked to LSC at %s, %s, %s.
 GT5U.power_goggles.link_fail=그건 LSC가 아닙니다...
 GT5U.power_goggles.unlink=고글의 연결이 해제되었습니다.
 GT5U.power_goggles.link_tooltip=%d,%d,%d 위치의 LSC에 연결됨: %s
@@ -4789,7 +4792,7 @@ GT5U.nei.purified_water.grade_4.1=1000L당 pH %s
 GT5U.nei.cauldron.consumed=작업당 소비량
 GT5U.nei.cauldron.anystack=어떤 스택 크기에서도 작동합니다.
 GT5U.nei.foundry_module.chassis_tier=차대는 주조소 등급과 일치해야 합니다!
-
+GT5U.nei.hover_to_see=Hover to see stack trace
 
 GT5U.config.colormodulation=색상 변조기
 GT5U.config.colormodulation.cable_insulation=케이블 절연
