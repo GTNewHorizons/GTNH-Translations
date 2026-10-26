@@ -50,7 +50,7 @@ languagefile {
     S:Material.adamantiumalloy.ChemicalFormula=Ad₅Nq₂La₃
     S:Material.adamite=アダマイト
     S:Material.ademicsteel=アデミックスチール
-    S:Material.ademicsteel.ChemicalFormula=The break in the line
+    S:Material.ademicsteel.ChemicalFormula=化学式はあなたの内破圧縮機で爆破されてしまった
     S:Material.adluorite=アドゥロライト
     S:Material.advanced=発展型
     S:Material.advancedglue=発展型接着剤
@@ -61,7 +61,7 @@ languagefile {
     S:Material.agarditend=アガード石(Nd)
     S:Material.agarditey=アガード石(Y)
     S:Material.agate=メノウ
-    S:Material.agitatingslurry=Agitating Slurry
+    S:Material.agitatingslurry=攪乱の懸濁液
     S:Material.air=空気
     S:Material.alburnite=アルバーナイト
     S:Material.alduorite=アルデュオライト
@@ -108,7 +108,7 @@ languagefile {
     S:Material.antimonytrichloridesolution.ChemicalFormula=SbCl₃
     S:Material.antimonytrioxide=三酸化アンチモン
     S:Material.anybronze=任意の青銅
-    S:Material.anycarbon=AnyCarbon
+    S:Material.anycarbon=あらゆる炭素
     S:Material.anycopper=任意の銅
     S:Material.anyiron=任意の鉄
     S:Material.anyrubber=任意のゴム
@@ -302,7 +302,7 @@ languagefile {
     S:Material.chromo-alumino-povondraite.ChemicalFormula=NaCr₃(Al₄Mg₂)(Si₆O₁₈)(BO₃)₃(OH)₃O
     S:Material.chrysocolla=珪孔雀石
     S:Material.chrysotile=白石綿
-    S:Material.churitsu=Churitsu
+    S:Material.churitsu=チュウリツ
     S:Material.cinnabar=辰砂
     S:Material.cinobitea243=シノバイトA243
     S:Material.circuitcompoundmk3=回路用複合体 MK3
@@ -1458,7 +1458,7 @@ languagefile {
     S:Material.shadow=シャドウメタル
     S:Material.shadowiron=シャドウアイアン
     S:Material.shadowsteel=シャドウスチール
-    S:Material.shijima=Shijima
+    S:Material.shijima=シジマ
     S:Material.shirabon=シラボン
     S:Material.shirabon.ChemicalFormula=Sh⏧
     S:Material.signalium=シグナリウム
@@ -2581,7 +2581,7 @@ languagefile {
     S:gt.blockmachines.planetarygassiphon.tooltip_secondary=§fDimensions: §63§7x§63§7x§67§7 (§6L§7x§6W§7x§6H§7) \n§fStructure: \n   §fController: §7Front bottom center\n   §fPlanetary Siphon Casing: §73x1x3 base (hollow), needs §63§7\n   §fRebolted Rhodium-Plated Palladium Casing: §71x4x1 pillar in the middle\n   §fTungstensteel Frame Box: §7Each pillar's side and 1x3x1 on top\n§f   Energy Hatch: §7Any siphon casing\n§f   Maintenance Hatch: §7Any siphon casing\n§f   Input Bus: §7Any siphon casing\n§f   Output Hatch: §7Any siphon casing\n   Must have exactly §61§7 of each hatch!\n§7§m------------------------------\n§fUse the Multiblock Structure §9Hologram §1Projector§f to visualize/build the structure!
     S:gt.blockmachines.quantumforcetransformer.controller.tier.single.tooltip=Machine Type: §eQuantum Force Transformer, QFT§r\nAllows Complex processing lines to be performed instantly in one step\n§7§m-----------------------------------------\n§dPulse Manipulator§7 Tier determines maximum Recipe Tier\nEvery recipe requires a specific §dcatalyst§7\n§dCatalysts§7 have to be placed in a Bulk Catalyst Housing\nGains §61§7 Parallel per §dCatalyst§7\n§7§m-----------------------------------------\n§aShielding Core§7 Tier determines §aFocusing§7 Bonuses\nPut a circuit in the controller to specify the focused output, based on NEI order\nIf Input Separation is on: put the circuit in the circuit slot of the bus\nConsumes 4 * §aFocus Tier§7 * sqrt(§6parallels§7) L §9Neptunium Plasma§7 to §afocus§7\nThe better the §aFocus Tier§7, the §astronger§7 the effect\n§aFocused§7 Output will have its §bprobability boosted§7, with other output's being reduced evenly by the total boost\nConsumes 4 * §aFocus Tier§7 * sqrt(§6parallels§7) L §2Fermium Plasma§7 to §2boost all outputs\n§7§m-----------------------------------------\nUse a screwdriver to enable §9Fluid mode\nSneak + screwdriver to disable animations\nFluid mode turns all possible outputs into their fluid variant, if avaliable\nRuns any recipe regardless of tier, if given enough energy\n§aSupports Multi-Amp and Laser Hatches!\n§7§m-----------------------------------------\nHold §l[LSHIFT]§r§7 to display structure guidelines
     S:gt.blockmachines.quantumforcetransformer.controller.tier.single.tooltip_secondary=§fDimensions: §615§7x§615§7x§621§7 (§6L§7x§6W§7x§6H§7) §c(Hollow)\n§fStructure: \n   §fController: §7Front bottom center of central column\n   §6236 §fPulse Manipulator Casing §b(Tiered)\n   §6224 §fForce Field Glass\n   §6177 §fQuantum Force Conductor\n   §680-149 §fBulk Production Frame\n   §6142 §fShielding Core Casing §b(Tiered)\n   §e1+ §fBulk Catalyst Housing: §7Any bottom casing\n   §e1+ §fEnergy Hatch: §7Any bottom casing\n   §e1+ §fInput Bus/Hatch: §7Any bottom casing\n   §e1+ §fOutput Bus/Hatch: §7Any top casing\n   \nSubchannel §bmanipulator§7 determines §bManipulator Tier\nSubchannel §bshielding§7 determines §bShielding Tier\n§7§m------------------------------\n§fUse the Multiblock Structure §9Hologram §1Projector§f to visualize/build the structure!
-    S:gt.blockmachines.research_completer.name=Research Completer
+    S:gt.blockmachines.research_completer.name=研究完了機
     S:gt.blockmachines.research_completer.tooltip=Machine Type: §eResearch Completer§r\nCompletes Thaumcraft research notes using EU and Thaumcraft nodes\nPlace nodes in the center row\n§7§m-----------------------------------------\nHold §l[LSHIFT]§r§7 to display structure guidelines
     S:gt.blockmachines.research_completer.tooltip_secondary=§fDimensions: §63-13§7x§63§7x§63§7 (§6L§7x§6W§7x§6H§7) §c(Hollow)\n§fStructure: \n   §fController: §7Front center, 2nd layer\n   §69-52 §fMagical Machine Casing\n   §67-27 §fWarded Glass\n   §e1+ §fEnergy Hatch: §7Any casing\n   §e1 §fMaintenance Hatch: §7Any casing\n   §e1+ §fInput Bus: §7Any casing\n   §e1+ §fOutput Bus: §7Any casing\n   \nProjector stack size determines §bLength\n§7§m------------------------------\n§fUse the Multiblock Structure §9Hologram §1Projector§f to visualize/build the structure!
     S:gt.blockmachines.sparge.controller.single.tooltip=Machine Type: §eGas Sparge Tower§r\nRuns gases through depleted molten salts to extract precious fluids\nWorks the same way as the Distillation Tower, but with a fixed height of 8\nFluids are output one per layer based on the slot number in NEI\n§7§m-----------------------------------------\nHold §l[LSHIFT]§r§7 to display structure guidelines
@@ -2651,7 +2651,7 @@ languagefile {
     S:item.for.pollenFertile.with.ScannedPollen.name=スキャン済みの花粉
     S:item.for.sapling.with.ScannedSapling.name=スキャン済みの苗木
     S:item.for.serumGE.with.ScannedSerum.name=スキャン済みの接種液
-    S:pollen.matrix=Matrix Pollen
+    S:pollen.matrix=基盤の花粉
     S:propolis.Arcaneshard=神秘の欠片のプロポリス
     S:propolis.Dragonessence=ドラゴンエッセンスのプロポリス
     S:propolis.Ectoplasma=エクトプラズマのプロポリス
