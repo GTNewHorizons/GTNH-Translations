@@ -1,2 +1,2 @@
-Fluids are output one per layer based on their slot number in {color_name:NEI}
-{color_note:Increase the height to output more fluid types}
+{color_name:NEI}のスロット番号に対応した流体を各段に出力
+{color_note:構造を高くすると出力される流体の種類が増える}

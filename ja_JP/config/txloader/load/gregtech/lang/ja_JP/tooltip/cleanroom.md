@@ -1,8 +1,8 @@
-Consumes {aqua:{var:startup_eu} EU/t} when first turned on, and {aqua:{var:idle_eu} EU/t} once at {green:100%} efficiency
-Can accept {green:{var:lv_amperage}A} from an {var:voltageTier_LV} energy hatch
-Will overclock and gain efficiency faster starting from {var:voltageTier_HV}
+初回起動時は {aqua:{var:startup_eu} EU/t}、効率が{green:100%}に達すると{aqua:{var:idle_eu} EU/t}を消費
+1個の{var:voltageTier_LV}エネルギーハッチから{green:{var:lv_amperage}A}供給可能
+{var:voltageTier_HV}以上になるとオーバークロックされ、効率の上昇速度が上がる
 {gray:{hr}}
-{red:Warning:}
-Below {green:100%} efficiency, machines inside have a chance to void outputs!
-Each maintenance issue reduces maximum efficiency by {green:{var:maint_penalty}%}
-{yellow:Generating any pollution inside causes the cleanroom to shut down}
+{red:警告:}
+効率が{green:100%}未満だと、内部の機械で処理したアイテムが消滅する可能性があります！
+メンテナンスの不具合1個ごとに最大効率が{green:{var:maint_penalty}%}ずつ減少します
+{yellow:内部で汚染が発生するとシャットダウンします}

@@ -1,3 +1,3 @@
-Accepts fluids instead of fluid cells
-Can perform several direct recipes that skip intermediate compounds
-{light_purple:Performs 4/4 Perfect Overclocks}
+流体セルの代わりに流体自体を使用する
+一部中間生成物を経ないレシピを実行可能
+{light_purple:オーバークロックによる効率低下を起こさない}

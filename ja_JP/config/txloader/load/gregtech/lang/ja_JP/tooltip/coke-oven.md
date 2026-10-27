@@ -1,2 +1,2 @@
-Turns Logs into {color_key:Charcoal} and Coal into {color_key:Coke}
-Produces {color_key:Creosote Oil} as a byproduct
+原木を{color_key:木炭}に、石炭を{color_key:コークス}に変える
+副産物として{color_key:クレオソート}を生産する

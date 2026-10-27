@@ -1,2 +1,2 @@
-Converts {color_key:Logs} into {color_key:Brittle Charcoal Blocks}
-Automatically starts when formed
+{color_key:原木}を{color_key:脆い木炭ブロック}へ変換する
+マルチブロックが完成すると自動的に稼働が開始する

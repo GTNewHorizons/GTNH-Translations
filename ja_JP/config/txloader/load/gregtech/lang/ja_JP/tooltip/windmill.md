@@ -1,14 +1,14 @@
-A primitive Grinder powered by {aqua:Kinetic Energy}
-Macerates up to {gold:16} items at a time
-The amount of parallels is determined by {white:Wind Speed}
-Parallels determine how many items are processed per recipe
-Processing time is the same regardless of parallels
-{white:Wind Speed} can be determined using the {white:{item:bartworks:BW_SimpleWindMeter}}
-Rotor can be put in the {white:{item:bartworks:BWRotorBlock}}
-Will not work if wind is non-existent or too strong
-{green:12.5%} speed
+ {aqua:動力}を使った原始的な粉砕機
+一度に最大{gold:16}個のアイテムを粉砕可能
+並列処理数は{white:風速}によって変わる
+並列処理数は一度に何個のアイテムを処理するかを決定する
+処理速度は並列数によらない
+{white:{item:bartworks:BW_SimpleWindMeter}}を使うと{white:風速}が確認できる
+ {white:{item:bartworks:BWRotorBlock}}にローターを入れて使用する
+風がない、またはものすごく強いと動作しない
+速度: {green:12.5%}
 {gray:{hr}}
-{gold:2} parallels: {white:Low}
-{gold:4} parallels: {white:Common}
-{gold:8} parallels: {white:Rather strong}
-{gold:16} parallels: {white:Very Strong}
+{gold:2} 並列: {white:弱い}
+{gold:4} 並列: {white:普通}
+{gold:8} 並列: {white:強い}
+{gold:16} 並列: {white:すごく強い}

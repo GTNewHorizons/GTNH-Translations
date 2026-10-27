@@ -1,3 +1,3 @@
-Crafts complex machine parts ({var:complex_parts_tier}+) from ordered inputs, consumed slice by slice
-Items & Fluids are inserted in NEI order, one per slice
-{color_note:Does not run Assembler recipes}
+一列ずつ順番に入力したアイテムで複雑な機械部品({var:complex_parts_tier}+)をクラフトする
+アイテムと流体は一列ごとに1種類、NEIに表示される順に入れる
+{color_note:組立機のレシピは実行できません}
