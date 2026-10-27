@@ -50,8 +50,8 @@ hodgepodge.soundsmenu.downmix_stereo=立体声缩混
 hodgepodge.soundsmenu.downmix_stereo.tooltip=在加载时，将位置立体声效转换为单声道。这会将其解码后的内存占用减半，并让旧版 OpenAL 能在 3D 空间中定位它们。流式音乐和唱片将保持不变。刷新声音以重载缓存的音频。
 hodgepodge.soundsmenu.spatialize_stereo=空间化立体声
 hodgepodge.soundsmenu.spatialize_stereo.tooltip=让定位声效保持立体声，同时允许新版 OpenAL 在 3D 空间中定位它们。需要安装 lwjgl3ify，且在受支持时优先于“立体声缩混”。更改此设定后请刷新音频。
-hodgepodge.soundsmenu.output_device=Output Device
-hodgepodge.soundsmenu.output_device.title=Select Output Device
+hodgepodge.soundsmenu.output_device=输出设备
+hodgepodge.soundsmenu.output_device.title=选择输出设备
 hodgepodge.soundsmenu.output_device.default=System Default
 hodgepodge.soundsmenu.output_device.tooltip=Selects an OpenAL playback device. System Default follows operating-system changes. Requires lwjgl3ify and modern OpenAL Soft.
 hodgepodge.soundsmenu.output_device.failed=Could not switch to that output device.
@@ -102,7 +102,7 @@ hodgepodge.debug.help.etfuturum=F3 + F4 = [Et-Futurum-Requiem] 打开游戏模�
 hodgepodge.debug.help.nei.1=%s = [NEI] 开启怪物生成覆盖层
 hodgepodge.debug.help.nei.2=%s = [NEI] 打开区块覆盖层
 
-hodgepodge.disconnect.server_shutdown=Server closed
+hodgepodge.disconnect.server_shutdown=服务器已关闭
 hodgepodge.disconnect.idle=You have been idle for too long!
 hodgepodge.disconnect.illegal_stance=Illegal stance
 hodgepodge.disconnect.illegal_position=Illegal position
