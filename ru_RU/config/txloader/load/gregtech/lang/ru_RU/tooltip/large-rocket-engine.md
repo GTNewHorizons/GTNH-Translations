@@ -4,7 +4,7 @@
 {color_danger:Не заливайте ракетное топливо в выключенный механизм: при запуске оно уничтожится!}
 {hr}
 Для сгорания нужны дополнительные ресурсы:
-{color_amount:{var:lubricant_amount}Л} {white:{var:lubricant}} в час (x{var:boost} при форсировании)
+{color_amount:{var:lubricant_amount} л} {white:{var:lubricant}} в час (x{var:boost} при форсировании)
 {color_amount:{var:air_percent}%} от текущей {EU/t} в виде {white:Воздуха} за тик (только через воздухозаборные шлюзы)
 {color_amount:{var:coolant_percent}%} от текущей {EU/t} в виде {white:{var:coolant}} за тик для форсирования (необязательно)
 {hr}
