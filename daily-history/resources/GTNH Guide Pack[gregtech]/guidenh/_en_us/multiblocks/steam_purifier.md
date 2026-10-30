@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31082
-navigation:
-  title: Steam Purifier
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31082
-  position: 6
 quest_ids:
   - zorY0c3BQuqLJp7ThOLG-g
+navigation:
+  title: Steam Purifier
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31082
+  position: -501
 ---
-
 # Steam Purifier
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31082" tier={1} />
 </GameScene>
 
@@ -98,7 +96,7 @@ Ore Washer mode includes Distilled Water recipes, but automatic filling of an em
 
 Choose Ore Washer mode when you need mineral byproducts, and leave output space for every product. Choose Simple Washer mode when you only need the main product quickly. Simple washing is fast and uses little water, making it suitable for bulk processing materials whose byproducts you have decided to skip.
 
-For Impure Dusts and Purified Dusts, also check [Steam Separator](./steam_centrifuge.md) recipes. Centrifuging can often recover corresponding byproducts while producing ordinary dust, whereas simple washing skips those byproducts. Choose the processing route using the specific mineral's NEI recipes.
+For Impure Dusts and Purified Dusts, also check [Steam Separator](./steam_seperator.md) recipes. Centrifuging can often recover corresponding byproducts while producing ordinary dust, whereas simple washing skips those byproducts. Choose the processing route using the specific mineral's NEI recipes.
 
 > [!WARNING]
 > Simple Washer mode does not produce the byproducts from normal ore washing or centrifuging. Switching back to Ore Washer mode cannot recover those byproducts from items already processed in Simple Washer mode. Check the current mode before processing minerals whose byproducts you need.
@@ -196,7 +194,7 @@ Ore washing recipes can produce several different items at once. A single Output
 | Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
 | Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
 
-For general structure checks and tool use, see [Multiblock Machines](../multiblocks_index.md).
+For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
 
 ## Related Pages
 

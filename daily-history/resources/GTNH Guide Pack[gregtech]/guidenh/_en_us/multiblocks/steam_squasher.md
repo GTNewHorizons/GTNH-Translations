@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31078
-navigation:
-  title: Steam Squasher
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31078
-  position: 4
 quest_ids:
   - Plg8vg0gS9Ks2Ddc5sIVOg
+navigation:
+  title: Steam Squasher
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31078
+  position: -501
 ---
-
 # Steam Squasher
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31078" tier={1} />
 </GameScene>
 
@@ -158,7 +156,7 @@ Additional Input Buses expand item buffering, while additional Output Buses help
 | Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
 | Fewer than eight recipes processed at once | Are there enough inputs for eight copies of the same recipe? Is the parallel limit set lower? Can the output slots hold all products? |
 
-For general structure checks and tool use, see [Multiblock Machines](../multiblocks_index.md).
+For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
 
 ## Related Pages
 

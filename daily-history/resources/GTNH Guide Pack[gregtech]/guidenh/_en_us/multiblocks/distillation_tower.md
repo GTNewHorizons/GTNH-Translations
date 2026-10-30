@@ -1,16 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:1126
+quest_ids:
+  - AAAAAAAAAAAAAAAAAAADAA==
 navigation:
   title: Distillation Tower
-  parent: ../multiblocks_index.md
+  parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1126
-  position: 11
+  position: -3001
 ---
-
 # Distillation Tower
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="300">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1126" />
 </GameScene>
 
@@ -119,7 +119,7 @@ If a recipe needs a Programmed Circuit or another item input, install an Input B
 | The tower still forms at its old height after being extended | The old top-center cap was removed; every new layer has an Output Hatch; a manual structure check was run after construction |
 | Machine stops immediately after starting | Check available power, cable loss, energy buffers, and maintenance status before inserting more test materials |
 
-See [Multiblock Machines](../multiblocks_index.md) for general multiblock operation. In IV, the Dangote Distillus becomes available; in LuV, the Mega Distillation Tower can provide greater throughput.
+See [Multiblock Machines](./multiblocks_index.md) for general multiblock operation. In IV, the Dangote Distillus becomes available; in LuV, the Mega Distillation Tower can provide greater throughput.
 
 ## References
 

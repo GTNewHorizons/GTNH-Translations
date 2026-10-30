@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31080
-navigation:
-  title: Steam Separator
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31080
-  position: 5
 quest_ids:
   - 0rUmaWIPQPaL93q-_pgKXw
+navigation:
+  title: Steam Separator
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31080
+  position: -501
 ---
-
 # Steam Separator
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31080" tier={1} />
 </GameScene>
 
@@ -171,7 +169,7 @@ Centrifuge recipes often produce several different items at once. A single Outpu
 | Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
 | Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
 
-For general structure checks and tool use, see [Multiblock Machines](../multiblocks_index.md).
+For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
 
 ## Related Pages
 

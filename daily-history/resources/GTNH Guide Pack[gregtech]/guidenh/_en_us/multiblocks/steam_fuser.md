@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31086
-navigation:
-  title: Steam Fuser
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31086
-  position: 8
 quest_ids:
   - WGhhKERfRTiJXKZEPoRf1Q
+navigation:
+  title: Steam Fuser
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31086
+  position: -501
 ---
-
 # Steam Fuser
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31086" tier={1} />
 </GameScene>
 
@@ -175,7 +173,7 @@ The basic setup allows at most one additional steam Input or Output Bus. Choose 
 | Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
 | Fewer than eight recipes processed at once | Is there enough of every input for eight copies of the same recipe? Is the parallel limit set lower? Can the Output Bus hold all products? |
 
-For general structure checks and tool use, see [Multiblock Machines](../multiblocks_index.md).
+For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
 
 ## Related Pages
 

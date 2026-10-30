@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31084
-navigation:
-  title: Steam Blender
-  parent: ../multiblocks_index.md
-  icon: gregtech:gt.blockmachines:31084
-  position: 7
 quest_ids:
   - WEwrzX4ZRkSxJ3M6cBesfA
+navigation:
+  title: Steam Blender
+  parent: ./multiblocks_index.md
+  icon: gregtech:gt.blockmachines:31084
+  position: -501
 ---
-
 # Steam Blender
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31084" tier={1} />
 </GameScene>
 
@@ -172,7 +170,7 @@ If a recipe requires more item types than one bus can hold, add steam Input Buse
 | Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
 | Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
 
-For general structure checks and tool use, see [Multiblock Machines](../multiblocks_index.md).
+For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
 
 ## Related Pages
 
