@@ -1,16 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:1126
+quest_ids:
+  - AAAAAAAAAAAAAAAAAAADAA==
 navigation:
   title: Distillation Tower
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1126
-  position: 11
+  position: -3001
 ---
-
 # Distillation Tower
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="300">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1126" />
 </GameScene>
 
@@ -86,7 +86,7 @@ Read fluid outputs in NEI **from left to right, then from bottom to top**. The f
 
 ## Power and Throughput
 
-HV is the tier at which the controller becomes available, but the Distillation Tower is not limited to HV power. Its available voltage is determined by the installed standard Energy Hatches. Replacing them with higher-tier hatches allows the machine to process higher-voltage recipes and [overclock](../tierskipping-overcloking-parallels/overclocking.md). Two standard Energy Hatches of the same tier can also provide [dual-hatch tier skipping](../tierskipping-overcloking-parallels/tierskipping.md) under the normal multiblock rules.
+HV is the tier at which the controller becomes available, but the Distillation Tower is not limited to HV power. Its available voltage is determined by the installed standard Energy Hatches. Replacing them with higher-tier hatches allows the machine to process higher-voltage recipes and [overclock](../../tierskipping_overcloking_parallels/overclocking.md). Two standard Energy Hatches of the same tier can also provide [dual-hatch tier skipping](../../tierskipping_overcloking_parallels/tierskipping.md) under the normal multiblock rules.
 
 The Distillation Tower does not support Multi-Amp Energy Hatches or Laser Energy Hatches and has no parallel capability. Each standard imperfect overclock uses 4× the power and halves the duration. The machine can continue overclocking after reaching 1 tick, but this does not make it process multiple copies of a recipe at once.
 
