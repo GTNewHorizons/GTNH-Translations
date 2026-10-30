@@ -5,12 +5,10 @@ navigation:
   title: Vacuum Freezer
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1002
-  position: 10
+  position: -3001
 ---
-
 # Vacuum Freezer
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1002" />
 </GameScene>
 
@@ -64,9 +62,9 @@ The structure itself does not consume coolant, although individual recipes may r
 
 ## Power and Throughput
 
-HV is the tier at which the machine becomes available, but the Vacuum Freezer is not limited to HV power. Upgrading its Energy Hatch raises the available voltage and overclocks eligible recipes. It also follows the usual multiblock [tier-skipping rules](../tierskipping-overcloking-parallels/tierskipping.md).
+HV is the tier at which the machine becomes available, but the Vacuum Freezer is not limited to HV power. Upgrading its Energy Hatch raises the available voltage and overclocks eligible recipes. It also follows the usual multiblock [tier-skipping rules](/tierskipping_overcloking_parallels/tierskipping.md).
 
-The Vacuum Freezer has no heating coils, so it does not receive the Electric Blast Furnace's heat discounts or heat-based perfect overclocks. Each standard imperfect [overclock](../tierskipping-overcloking-parallels/overclocking.md) quadruples power usage and halves processing time, increasing the total energy consumed by each operation.
+The Vacuum Freezer has no heating coils, so it does not receive the Electric Blast Furnace's heat discounts or heat-based perfect overclocks. Each standard imperfect [overclock](/tierskipping_overcloking_parallels/overclocking.md) quadruples power usage and halves processing time, increasing the total energy consumed by each operation.
 
 After expanding an Electric Blast Furnace production line, check whether hot ingots are accumulating at the Vacuum Freezer's input. The furnace's parallels, coil bonuses, and recipe duration all affect its actual output rate. Matching the Energy Hatch tier of the two machines does not guarantee matching throughput.
 

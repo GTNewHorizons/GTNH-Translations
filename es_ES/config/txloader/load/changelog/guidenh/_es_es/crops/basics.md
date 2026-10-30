@@ -50,4 +50,4 @@ These are some general rules of thumb regarding crop tiers:
 - Tier 4: Last tier where crops can be planted anywhere
 - Tier 5: Last tier where crops can be planted anywhere if they can see the sky
 - Tier 11: Last tier where crops can be planted anywhere if in an 80%+ humidity biome
-- Tier 12: Last tier where crops can be planted anywhere if they can see the sky <Color id="RED">AND</Color> can see the sky
+- Tier 12: Last tier where crops can be planted anywhere if they can see the sky <Color id="RED">AND</Color> are in a 80%+ humidity biome.

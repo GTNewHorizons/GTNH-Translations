@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31041
+quest_ids:
+  - AAAAAAAAAAAAAAAAAAAKzA
 navigation:
   title: Steam Grinder
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:31041
-  position: 3
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAAKzA
+  position: -501
 ---
-
 # Steam Grinder
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31041" tier={1} />
 </GameScene>
 
@@ -174,4 +172,4 @@ For general structure checks and tool use, see [Multiblock Machines](./multibloc
 
 ## Related Pages
 
-- [GTNH Chinese Wiki: Steam Grinder](https://gtnh.huijiwiki.com/wiki/大型蒸汽研磨机)
+- [GTNH Wiki: Steam Grinder](https://wiki.gtnewhorizons.com/wiki/Steam_Grinder)
