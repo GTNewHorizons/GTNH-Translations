@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31087
+quest_ids:
+  - AAAAAAAAAAAAAAAAAAADZg
 navigation:
   title: Steam Hearth
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:31087
-  position: 1
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAADZg
+  position: -501
 ---
-
 # Steam Hearth
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31087" tier={1} />
 </GameScene>
 
@@ -156,4 +154,4 @@ See [Multiblock Machines](./multiblocks_index.md) for general structure checks a
 
 ## References
 
-- [GTNH Chinese Wiki: Steam Hearth](https://gtnh.huijiwiki.com/wiki/蒸汽壁炉)
+- [GTNH Wiki: Steam Hearth](https://wiki.gtnewhorizons.com/wiki/Steam_Hearth)
