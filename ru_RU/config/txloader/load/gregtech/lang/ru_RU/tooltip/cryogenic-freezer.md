@@ -1,2 +1,2 @@
-Промышленный улучшенный вакуумный морозильник
-Во время работы расходует {aqua:{var:cryotheum}{L}/с}: {aqua:{fluid:cryotheum}}
+{hr}
+Во время работы расходует {aqua:{var:cryotheum} {L}/с}: {aqua:{fluid:cryotheum}}

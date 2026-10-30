@@ -1,7 +1,7 @@
-Has {color_parallel:{var:parallel}} parallels
-Collides two beams of particles into target materials to modify their subatomic structure
-Input beams can be supplied to either {color_name:Beam Input Hatch}
-Inputs are consumed immediately and will wait for particles
+Параллелей: {color_parallel:{var:parallel}}
+Сталкивает два пучка частиц с целевыми материалами, чтобы изменить их субатомную структуру
+Входные пучки можно подавать в любой {color_name:входной шлюз пучка}
+Входы расходуются сразу и ждут частиц
 {hr}
-Up to {color_amount:{var:max_buffer}} particles of each type can be buffered
-Recipe progress is determined purely by particles consumed from the buffer
+В буфере хранится до {color_amount:{var:max_buffer}} частиц каждого типа
+Прогресс рецепта зависит только от числа частиц, взятых из буфера

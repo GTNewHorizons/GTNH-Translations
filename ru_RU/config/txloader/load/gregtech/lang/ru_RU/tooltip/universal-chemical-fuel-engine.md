@@ -1,12 +1,12 @@
 ГОРЯЩИЙ ГОРЯЩИЙ ГОРЯЩИЙ
 Сжигает {color_key:газ}, {color_key:дизель} или {color_key:ракетное топливо} с {yellow:цетаноповышающей присадкой}, вырабатывая энергию с эффективностью до {color_efficiency:150%}
-Выходная мощность ограничена только {color_name:энерговыводом}
+Выходная мощность ограничена только размером {color_name:энерговывода}
 Без цетаноповышающей присадки энергия не вырабатывается
 Лишняя энергия аннулируется, если {color_name:энерговывод} заполнен или выработка превышает его пропускную способность
 {hr}
-Эффективность определяется соотношением (R) {yellow:цетаноповышающей присадки} к {gold:топливу}
+Эффективность определяется соотношением ({color_formula:R}) {yellow:цетаноповышающей присадки} к {gold:топливу}
 Чем больше присадки, тем выше КПД
-Зависимость экспоненциальная: {aqua:exp(-{color_note:C}/R) * {var:efficiency_ceiling}}, где {color_note:C} зависит от типа топлива
-{color_key:Газ/дизель}: {color_note:C}{color_formula:={var:gas_coefficient}} | {color_key:Ракетное топливо}: {color_note:C}{color_formula:={var:rocket_coefficient}}
+Зависимость экспоненциальная: {color_formula:exp(-C / R) * {var:efficiency_ceiling}}, где {color_formula:C} зависит от типа топлива
+{color_key:Газ/дизель}: {color_formula:C = {var:gas_coefficient}} | {color_key:Ракетное топливо}: {color_formula:C = {var:rocket_coefficient}}
 {hr}
 Создаёт {color_pollution:sqrt({EU/t})} загрязнения в секунду

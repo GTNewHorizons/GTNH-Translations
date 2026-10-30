@@ -9,14 +9,14 @@
 {color_mode:Рабочий режим}:
 - {color_mechanic:Обычный}:
   - {color_time:{var:normal_seconds} с} на операцию, скорость пчёл {color_amount:{var:bee_acceleration}x}
-  - Использует {color_amperage:1} ампер {var:normalTier} на королеву
+  - Использует {color_amperage:1} ампер {VNF:normalTier} на королеву
   - Применяются {color_amount:8} улучшений производства и {color_name:Генетический стабилизатор}
   - Моделирует идеальную среду
   - {color_key:Маточное молочко} даёт {color_amount:{var:jelly_bonus}%} выхода за единицу, до {color_amount:{var:max_jelly_bonus}%} (расходуется каждую операцию на каждую пчелу)
 - {color_mechanic:Роение}:
   - Только {color_amount:1} королева, медленно производит {color_name:Низкопородных принцесс}
   - {color_amount:{var:swarmer_jelly_cost}} {color_key:Маточного молочка} за операцию
-  - Базовое время {color_time:{var:swarmer_seconds} с}, {color_amperage:1} ампер {var:voltageTier_IV}
+  - Базовое время {color_time:{var:swarmer_seconds} с}, {color_amperage:1} ампер {VNF:swarmerTier}
   - {color_mechanic:Можно разогнать}
 {hr}
 Щёлкните ПКМ по контроллеру {color_name:Отвёрткой}, чтобы сменить {color_mode:режим} (загрузка/выгрузка/рабочий)

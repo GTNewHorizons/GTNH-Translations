@@ -56,7 +56,7 @@ gregtech.ebf.ponder.buffer.label.hatches=The hatches still receive LV power
 gregtech.ebf.ponder.buffer.text.balance=If battery charge falls across successive recipes, average generation is insufficient. Include the EBF, other machines and losses in the power budget.
 gregtech.ebf.ponder.buffer.label.balance=Check the long-term energy balance
 
-gregtech.multiblock.aal.ponder.operation.label.1=Advanced Assembly Line
+gregtech.multiblock.aal.ponder.operation.label.1=Улучшенная сборочная линия
 gregtech.multiblock.aal.ponder.operation.text.1.1=Advanced Assembly Line(AAL) can process same recipes simultaniously per slice to accomplish parallel processing.
 gregtech.multiblock.aal.ponder.operation.label.2=How AAL process Items parallelly
 gregtech.multiblock.aal.ponder.operation.text.2.1=When AAL recives required items and fluids for recipes like regular Asesmbly Line does - It starts processing.
@@ -105,3 +105,12 @@ gregtech.multiblock.aal.ponder.operation.text.4.6=No Item - stuck from here!
 gregtech.multiblock.aal.ponder.operation.text.4.7=The machine does not operate and waits until the required item is added to the stuck slice.
 gregtech.multiblock.aal.ponder.operation.text.4.8=Item added - resume processing.
 gregtech.multiblock.aal.ponder.operation.text.4.9=You can check controller's WAILA to see which slice is on stuck.
+
+gregtech.multiblock.beam_splitter.ponder.example.label.1=Beam Splitter
+gregtech.multiblock.beam_splitter.ponder.example.text.1.1=The Beam Splitter is used to filter beams by particles, and split them evenly.
+gregtech.multiblock.beam_splitter.ponder.example.text.1.2=You can specify particles by using 4 Filtered Beam Output Hatches on the side of the machine.
+gregtech.multiblock.beam_splitter.ponder.example.label.2=Beam Splitter in Action
+gregtech.multiblock.beam_splitter.ponder.example.text.2.1=To explain how the Beam Splitter works, in this example the 4 hatches are configured as shown in the scene.
+gregtech.multiblock.beam_splitter.ponder.example.text.2.2=Let's assume that the Beam Splitter receives beams with different particles in sequence - Electron with rate 100, then Neutron with rate 50.
+gregtech.multiblock.beam_splitter.ponder.example.text.2.3=The Beam Splitter splits the Electron beam evenly, outputting a rate 50 beam to both hatches.
+gregtech.multiblock.beam_splitter.ponder.example.text.2.4=After the Electron beam has passed, the Beam Splitter sends the Neutron beam with rate 50 to its filtered hatch, since only one hatch accepts Neutrons as output.

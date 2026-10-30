@@ -1,18 +1,18 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:1172
+quest_ids:
+  - AAAAAAAAAAAAAAAAAAADrA==
+  - AAAAAAAAAAAAAAAAAAAHfQ==
 navigation:
   title: Cleanroom
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1172
-  position: 12
-quest_ids:
-  - AAAAAAAAAAAAAAAAAAADrA
+  position: -3001
 ---
-
 # Cleanroom
 
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1172" tier={2} />
 </GameScene>
 

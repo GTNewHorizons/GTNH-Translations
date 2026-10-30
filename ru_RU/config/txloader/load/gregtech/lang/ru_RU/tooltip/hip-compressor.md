@@ -1,17 +1,17 @@
-HIP Unit heats up while running
-When it reaches maximum heat, it becomes {color_danger:{bold:overheated!}}
-This is only resolved by letting the machine fully cool down
-When {color_danger:overheated}, recipes are slowed down drastically
+Устройство HIP нагревается во время работы
+Когда он достигает максимального нагрева, он становится {color_danger:{bold:перегретым!}}
+Это можно устранить, только дав механизму полностью остыть
+При {color_danger:перегреве} выполнение рецептов резко замедляется
 {hr}
-Some recipes {bold:require} HIP
-If the machine is {color_danger:overheated} when one of these recipes starts, it will be voided!
-Read the current heat using {color_name:Heat Sensor Hatches}
+Некоторые рецепты {bold:требуют} HIP
+Если при запуске одного из этих рецептов механизм будет {color_danger:перегрет}, рецепт будет аннулирован!
+Считывайте текущую температуру с помощью {color_name:тепловых датчиков}
 {hr}
-More advanced coils allow better heat control - the unit will take longer to overheat
-Unit {color_hot:heats} by {color_hot:({var:heat}% x {var:coil_factor} ^ (Coil Tier - 1))} every second while running
-Unit {color_cold:cools} by {color_cold:{var:base_cooling}%} base every second while not running
-Cooling rate increases by an additional {color_cold:{var:cooling_increase}%} for each second since running
+Более совершенные катушки позволяют лучше контролировать тепло - устройство дольше перегревается
+Устройство {color_hot:нагревается} на {color_hot:({var:heat}% x {var:coil_factor} ^ (Тир катушки - 1))} каждую секунду во время работы
+Устройство {color_cold:охлаждается} на {color_cold:{var:base_cooling}%} базово каждую секунду, пока не работает
+Скорость охлаждения увеличивается ещё на {color_cold:{var:cooling_increase}%} за каждую секунду после работы
 {hr}
-{color_speed:{var:speed}%} Speed of singleblock machines of the same voltage ({color_danger:{var:overheated_speed}% when overheated})
-Uses {color_eu_usage:{var:eu}%} of the {EU/t} normally required ({color_danger:{var:overheated_eu}% when overheated})
-{color_parallel:{var:parallels}} Parallels per {color_tier:Voltage} Tier ({color_danger:{var:overheated_parallels} when overheated})
+Скорость {color_speed:{var:speed}%} от одноблочных механизмов того же вольтажа ({color_danger:{var:overheated_speed}% при перегреве})
+Использует {color_eu_usage:{var:eu}%} от требуемого {EU/t} ({color_danger:{var:overheated_eu}% при перегреве})
+{color_parallel:{var:parallels}} параллели за каждый тир {color_tier:вольтажа} ({color_danger:{var:overheated_parallels} при перегреве})

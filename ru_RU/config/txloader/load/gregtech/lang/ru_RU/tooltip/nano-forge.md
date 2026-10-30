@@ -1,5 +1,5 @@
-Requires insane amounts of power to create nanites
-The {color_name:Nanite} in the controller slot determines Machine Tier
-{color_note:Tier 4 has additional mechanics, check the controller}
+Для создания нанитов требуется безумное количество энергии
+{color_name:Нанит} в слоте контроллера управляет тиром механизма
+{color_note:4 тир имеет дополнительную механику, проверьте контроллер}
 {hr}
-{color_mechanic:Performs 4/4 Perfect Overclocks} on lower-tier recipes
+{color_mechanic:Выполняет идеальные разгоны 4/4} на низкотировых рецептах

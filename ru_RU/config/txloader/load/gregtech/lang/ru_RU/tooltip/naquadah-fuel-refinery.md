@@ -1,3 +1,3 @@
-Produces Naquadah Fuels
+Производит наквадаховое топливо
 {hr}
-{color_mechanic:Performs 1 4/4 Perfect Overclock} per {color_name:Coil} above Recipe Tier
+{color_mechanic:Выполняет 1 идеальный разгон 4/4} за каждый тир {color_name:катушки} выше тира {color_name:рецепта}

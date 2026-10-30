@@ -1,2 +1,2 @@
-Takes in particle beams and sends them back out
-{color_note:That's literally it.}
+Принимает пучки частиц и отправляет их обратно
+{color_note:Вот и всё, буквально.}

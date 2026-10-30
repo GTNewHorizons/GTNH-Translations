@@ -1,5 +1,5 @@
-Converts steam to water based on humidity
-Has two tiers: Basic and High-Pressure
-High-Pressure produces 2x Water from the same steam
-{aqua:Generates: {white:tier * humidity * {var:water} {L}/s} of Water, to a minimum of {var:min_water}{L}/s}
-{red:Consumes: {color_steam:{var:steam} {L}/s} of Steam}
+Превращает пар в воду в зависимости от влажности
+Есть два тира: обычный и высокого давления
+Высокого давления выдаёт в 2 раза больше воды из того же пара
+{aqua:Выдаёт: {white:тир * влажность * {var:water} {L}/с} воды, но не меньше {var:min_water}{L}/с}
+{red:Потребляет: {color_steam:{var:steam} {L}/с} пара}

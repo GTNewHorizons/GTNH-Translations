@@ -1,4 +1,4 @@
-Uses the heat from {color_hot:Hot Fluids} to boil water into {color_steam:Steam}
-Filters raw materials from {color_hot:{fluid:lava}} and {color_hot:{fluid:ic2pahoehoelava}}
-Requires a {color_name:Lava Filter} in the controller slot for byproducts, otherwise only {dark_purple:Obsidian} is produced
-{color_danger:Explodes after {var:explode_seconds} seconds without water}
+Использует тепло {color_hot:горячих жидкостей}, чтобы превращать воду в {color_steam:пар}
+Фильтрует сырьё из {color_hot:{fluid:lava}} и {color_hot:{fluid:ic2pahoehoelava}}
+Для побочной продукции нужен {color_name:лавовый фильтр} в слоте контроллера, иначе выходит только {dark_purple:обсидиан}
+{color_danger:Взрывается через {var:explode_seconds} секунд без воды}

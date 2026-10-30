@@ -1,11 +1,11 @@
-Hot fluids: {color_hot:{fluid:lava}}, {color_hot:{fluid:ic2hotcoolant}}, {color_hot:{fluid:molten.solarsalthot}}
-Cooled into: {color_cold:{fluid:ic2pahoehoelava}}, {color_cold:{fluid:ic2coolant}}, {color_cold:{fluid:molten.solarsaltcold}}
-Turns {color_name:Distilled Water} into {color_steam:Steam}
-Makes half as much {color_steam:Superheated Steam} instead when the hot fluid input reaches the {color_note:SH threshold}
-{color_danger:Explodes after {var:explode_seconds} seconds without distilled water}
+Горячие жидкости: {color_hot:{fluid:lava}}, {color_hot:{fluid:ic2hotcoolant}}, {color_hot:{fluid:molten.solarsalthot}}
+На выходе: {color_cold:{fluid:ic2pahoehoelava}}, {color_cold:{fluid:ic2coolant}}, {color_cold:{fluid:molten.solarsaltcold}}
+Превращает {color_name:дистиллированную воду} в {color_steam:пар}
+Если подача горячей жидкости достигает {color_note:порога ПГ}, выдаёт вдвое меньше {color_steam:перегретого пара}
+{color_danger:Взрывается через {var:explode_seconds} секунд без дистиллированной воды}
 {hr}
-{color_hot:{fluid:lava}}: SH threshold {color_hot:{var:lava_threshold} {L}/s}, max input {color_hot:{var:lava_max_input} {L}/s}, max output {color_steam:{var:lava_max_output} {L}/t of SH Steam}
-{color_hot:{fluid:ic2hotcoolant}}: SH threshold {color_hot:{var:coolant_threshold} {L}/s}, max input {color_hot:{var:coolant_max_input} {L}/s}, max output {color_steam:{var:coolant_max_output} {L}/t of SH Steam}
-{color_hot:{fluid:molten.solarsalthot}}: SH threshold {color_hot:{var:salt_threshold} {L}/s}, max input {color_hot:{var:salt_max_input} {L}/s}, max output {color_steam:{var:salt_max_output} {L}/t of SH Steam}
+{color_hot:{fluid:lava}}: порог ПГ {color_hot:{var:lava_threshold} {L}/с}, макс. ввод {color_hot:{var:lava_max_input} {L}/с}, макс. выход {color_steam:{var:lava_max_output} {L}/т ПГ пара}
+{color_hot:{fluid:ic2hotcoolant}}: порог ПГ {color_hot:{var:coolant_threshold} {L}/с}, макс. ввод {color_hot:{var:coolant_max_input} {L}/с}, макс. выход {color_steam:{var:coolant_max_output} {L}/т ПГ пара}
+{color_hot:{fluid:molten.solarsalthot}}: порог ПГ {color_hot:{var:salt_threshold} {L}/с}, макс. ввод {color_hot:{var:salt_max_input} {L}/с}, макс. выход {color_steam:{var:salt_max_output} {L}/т ПГ пара}
 {hr}
-A {color_name:Programmed Circuit} in the controller lowers the SH threshold by {color_amount:{var:threshold_reduction}%} and steam output by {color_loss:{var:steam_penalty}%} per value above {var:min_circuit}
+{color_name:Запрограммированная схема} в контроллере снижает порог ПГ на {color_amount:{var:threshold_reduction}%} и выработку пара на {color_loss:{var:steam_penalty}%} за каждое значение выше {var:min_circuit}

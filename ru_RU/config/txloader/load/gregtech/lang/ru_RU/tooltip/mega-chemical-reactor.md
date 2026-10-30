@@ -1,1 +1,2 @@
-{color_mechanic:Performs 4/4 Perfect Overclocks}
+{italic:Бесконечный потенциал!}
+{color_mechanic:Выполняет идеальные разгоны 4/4}
