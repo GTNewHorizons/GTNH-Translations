@@ -20,7 +20,7 @@ The <ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" /> (assline or
 
 The machine is built as a series of slices and inputs must be inserted in the exact order in which they appear in NEI. 
 
-Recipes are also NOT implicit and must be explicitly shared with the AL via <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" />. This is unlike any multiblock the player has encountered up to this point and requires more advanced techniques for automation. For normal assembler recipes, see the [<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" />](./precise_auto_assembler_mt-3662.md) or [<ItemLink id="gregtech:gt.blockmachines:876" showIcon="left" />](./large_scale_auto_assembler_v101.md). 
+Recipes are also NOT implicit and must be explicitly shared with the AL via <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" />. This is unlike any multiblock the player has encountered up to this point and requires more advanced techniques for automation. For normal assembler recipes, see the [<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" />](./precise_auto_assembler_mt_3662.md) or [<ItemLink id="gregtech:gt.blockmachines:876" showIcon="left" />](./large_scale_auto_assembler_v101.md). 
 
 The AL is generally superseded by the [<ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />](./advanced_assembly_line.md) with its parallel processing and support for multi-amp and laser energy hatches, but AL's tier skipping prevents AAL from fully replacing AL, since AAL cannot do tier skipping.
 
