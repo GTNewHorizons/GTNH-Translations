@@ -1,18 +1,16 @@
 ---
 item_ids:
   - gregtech:gt.blockmachines:31083
+quest_ids:
+  - s6AEHSKiQe2XveT_oDZbZg
 navigation:
   title: Steam Presser
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:31083
-  position: 2
-quest_ids:
-  - s6AEHSKiQe2XveT_oDZbZg
+  position: -501
 ---
-
 # Steam Presser
-
-<GameScene interactive={true} wrap="square" align="right" width="320" height="280">
+<GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31083" tier={1} />
 </GameScene>
 
@@ -176,4 +174,4 @@ For general structure checks and tool use, see [Multiblock Machines](./multibloc
 
 ## References
 
-- [GTNH Chinese Wiki: Steam Presser](https://gtnh.huijiwiki.com/wiki/大型蒸汽锻造锤)
+- [GTNH Wiki: Steam Presser](https://wiki.gtnewhorizons.com/wiki/Steam_Presser)

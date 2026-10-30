@@ -6,7 +6,7 @@ item.architecturecraft:largePulley.name=대형 도르래
 item.architecturecraft:sawblade.name=원형 톱날
 item.architecturecraft:chisel.name=건축가의 끌
 item.architecturecraft:hammer.name=건축가의 망치
-item.architecturecraft:glowbrush.name=Architect's Glowbrush
+item.architecturecraft:glowbrush.name=건축가의 발광 붓
 item.architecturecraft:cladding.name=접합
 
 # Container
@@ -25,7 +25,7 @@ gui.architecturecraft.Window=창문
 gui.architecturecraft.Arches=아치
 gui.architecturecraft.Railings=난간
 gui.architecturecraft.Other=기타
-gui.architecturecraft.Glow=Glow
+gui.architecturecraft.Glow=발광
 
 # Shapes
 gui.architecturecraft.RoofTile=지붕 타일
@@ -108,51 +108,51 @@ gui.architecturecraft.BalustradeFancyCorner=화려한 모서리 난간
 gui.architecturecraft.BalustradeFancyWithNewel=난간 기둥이 있는 화려한 난간
 gui.architecturecraft.BalustradeFancyNewel=화려한 난간 기둥
 
-gui.architecturecraft.BalustradePlain=Plain Balustrade
-gui.architecturecraft.BalustradePlainOuterCorner=Plain Outer Corner Balustrade
-gui.architecturecraft.BalustradePlainWithNewel=Plain Balustrade with Newel
+gui.architecturecraft.BalustradePlain=민무늬 난간
+gui.architecturecraft.BalustradePlainOuterCorner=장식 없는 외부 모서리 난간
+gui.architecturecraft.BalustradePlainWithNewel=끝기둥이 있는 일반 난간
 
-gui.architecturecraft.BanisterPlainEnd=Plain Banister End
+gui.architecturecraft.BanisterPlainEnd=일반 난간 끝단
 
-gui.architecturecraft.BanisterFancyNewelTall=Tall Fancy Newel
+gui.architecturecraft.BanisterFancyNewelTall=높고 화려한 난간 기둥
 
-gui.architecturecraft.BalustradePlainInnerCorner=Plain Inner Corner Balustrade
-gui.architecturecraft.BalustradePlainEnd=Plain Balustrade End
+gui.architecturecraft.BalustradePlainInnerCorner=일반 안쪽 모서리 난간
+gui.architecturecraft.BalustradePlainEnd=민무늬 난간 끝
 
-gui.architecturecraft.BanisterFancyBottom=Fancy Banister Bottom Transition
-gui.architecturecraft.BanisterFancy=Fancy Banister
-gui.architecturecraft.BanisterFancyTop=Fancy Banister Top Transition
-gui.architecturecraft.BanisterFancyEnd=Fancy Banister End
+gui.architecturecraft.BanisterFancyBottom=화려한 난간 하단 전환부
+gui.architecturecraft.BanisterFancy=화려한 난간
+gui.architecturecraft.BanisterFancyTop=화려한 난간 상단 전환부
+gui.architecturecraft.BanisterFancyEnd=화려한 난간 끝부분
 
-gui.architecturecraft.BanisterPlainInnerCorner=Plain Banister Inner Corner
+gui.architecturecraft.BanisterPlainInnerCorner=일반 난간 안쪽 모서리
 
 gui.architecturecraft.Slab=반 블록
 gui.architecturecraft.Stairs=계단
 gui.architecturecraft.StairsOuterCorner=계단 바깥쪽 모서리
 gui.architecturecraft.StairsInnerCorner=계단 안쪽 모서리
 
-gui.architecturecraft.SlopeTileA1=Slope A Start
-gui.architecturecraft.SlopeTileA2=Slope A End
-gui.architecturecraft.SlopeTileB1=Slope B Start
-gui.architecturecraft.SlopeTileB2=Slope B Middle
-gui.architecturecraft.SlopeTileB3=Slope B End
-gui.architecturecraft.SlopeTileC1=Slope C 1
-gui.architecturecraft.SlopeTileC2=Slope C 2
-gui.architecturecraft.SlopeTileC3=Slope C 3
-gui.architecturecraft.SlopeTileC4=Slope C 4
-gui.architecturecraft.AngledRoofRidge=Angled Roof Ridge
+gui.architecturecraft.SlopeTileA1=A 경사면 시작부
+gui.architecturecraft.SlopeTileA2=경사면 A 끝부분
+gui.architecturecraft.SlopeTileB1=B형 경사 시작부
+gui.architecturecraft.SlopeTileB2=B형 중앙 경사면
+gui.architecturecraft.SlopeTileB3=B형 경사면 끝부분
+gui.architecturecraft.SlopeTileC1=경사면 C 1
+gui.architecturecraft.SlopeTileC2=C형 경사면 2
+gui.architecturecraft.SlopeTileC3=C 3 경사면
+gui.architecturecraft.SlopeTileC4=경사면 C 4
+gui.architecturecraft.AngledRoofRidge=경사진 지붕 용마루
 
-gui.architecturecraft.SquareSE=Square(Glow)
-gui.architecturecraft.SlabSE=Slab(Glow)
-gui.architecturecraft.RoofTileSE=Roof Tile(Glow)
-gui.architecturecraft.SlopeTileA1SE=Slope A Start(Glow)
-gui.architecturecraft.SlopeTileA2SE=Slope A End(Glow)
-gui.architecturecraft.SlopeTileB1SE=Slope B Start(Glow)
-gui.architecturecraft.SlopeTileB2SE=Slope B Middle(Glow)
-gui.architecturecraft.SlopeTileB3SE=Slope B End(Glow)
-gui.architecturecraft.SlopeTileC1SE=Slope C 1(Glow)
-gui.architecturecraft.SlopeTileC2SE=Slope C 2(Glow)
-gui.architecturecraft.SlopeTileC3SE=Slope C 3(Glow)
-gui.architecturecraft.SlopeTileC4SE=Slope C 4(Glow)
+gui.architecturecraft.SquareSE=정사각형(발광)
+gui.architecturecraft.SlabSE=반 블록(발광)
+gui.architecturecraft.RoofTileSE=발광 지붕 타일
+gui.architecturecraft.SlopeTileA1SE=경사 A 시작(발광)
+gui.architecturecraft.SlopeTileA2SE=A형 경사 끝(발광)
+gui.architecturecraft.SlopeTileB1SE=경사면 B 시작(발광)
+gui.architecturecraft.SlopeTileB2SE=경사면 B 중앙(발광)
+gui.architecturecraft.SlopeTileB3SE=B형 경사면 끝(발광)
+gui.architecturecraft.SlopeTileC1SE=경사면 C 1(발광)
+gui.architecturecraft.SlopeTileC2SE=경사면 C 2(발광)
+gui.architecturecraft.SlopeTileC3SE=경사 타일 C 3(발광)
+gui.architecturecraft.SlopeTileC4SE=경사면 C 4(발광)
 
-gui.architecturecraft.DoubleRoofTile=Double Roof Tile
+gui.architecturecraft.DoubleRoofTile=이중 지붕 타일
