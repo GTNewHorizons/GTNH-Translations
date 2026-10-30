@@ -312,29 +312,29 @@ gt.blockmachines.basicgenerator.rtg.tier.01.name=放射性同位素温差发电�
 gt.blockmachines.basicgenerator.rtg.tier.01.tooltip=Requires RTG Pellets\nFuel is measured in minecraft days (Check with Scanner)\nRTG changes output voltage depending on fuel\nGenerates power at %s%% Efficiency per tick\nOutput Voltage: %s EU/t\nAdded by: §2Alkalus §7- §c[GT++]
 
 gt.blockmachines.boiler.bronze.name=小型燃煤锅炉
-gt.blockmachines.boiler.bronze.tooltip=An early way to get Steam Power\nProduces 120L of Steam per second\nCauses 20 Pollution per second
+gt.blockmachines.boiler.bronze.tooltip=早期的蒸汽来源\n每秒生产120L蒸汽\n每秒制造20单位污染
 gt.blockmachines.boiler.lava.name=强化岩浆锅炉
-gt.blockmachines.boiler.lava.tooltip=A Boiler running off Lava\nProduces 600L of Steam per second\nCauses 20 Pollution per second\nConsumes 3.0L of Lava every 20 ticks when fully heat up
+gt.blockmachines.boiler.lava.tooltip=一个烧岩浆的炉子\n每秒生产600L蒸汽\n每秒制造20单位污染\n预热完全后每20tick消耗3.0L岩浆
 gt.blockmachines.boiler.solar.name=简易太阳能锅炉
 gt.blockmachines.boiler.steel.name=高压燃煤锅炉
-gt.blockmachines.boiler.steel.tooltip=Faster than the Bronze Boiler\nProduces 300L of Steam per second\nCauses 30 Pollution per second
+gt.blockmachines.boiler.steel.tooltip=比青铜锅炉快\n每秒生产300L蒸汽\n每秒制造30单位污染
 gt.blockmachines.boiler.steel.solar.name=进阶太阳能锅炉
 
 gt.blockmachines.bronzemachine.alloysmelter.name=蒸汽合金炉
-gt.blockmachines.bronzemachine.alloysmelter.tooltip=Combination Smelter\nMachine Type: §eAlloy Smelter§r
+gt.blockmachines.bronzemachine.alloysmelter.tooltip=融合并煅烧\n机器类型：§e合金炉§r
 gt.blockmachines.bronzemachine.compressor.name=蒸汽压缩机
-gt.blockmachines.bronzemachine.compressor.tooltip=Compressing Items\nMachine Type: §eCompressor§r
+gt.blockmachines.bronzemachine.compressor.tooltip=压缩物品\n机器类型：§e压缩机§r
 gt.blockmachines.bronzemachine.extractor.name=蒸汽提取机
-gt.blockmachines.bronzemachine.extractor.tooltip=Extracting your first Rubber\nMachine Type: §eExtractor§r
+gt.blockmachines.bronzemachine.extractor.tooltip=提取你的第一个橡胶\n机器类型：§e提取机§r
 gt.blockmachines.bronzemachine.furnace.name=蒸汽熔炉
-gt.blockmachines.bronzemachine.furnace.tooltip=Smelting things with compressed Steam\nMachine Type: §eFurnace§r
+gt.blockmachines.bronzemachine.furnace.tooltip=使用压缩蒸汽熔炼物品\n机器类型：§e熔炉§r
 gt.blockmachines.bronzemachine.hammer.name=蒸汽锻造锤
-gt.blockmachines.bronzemachine.hammer.tooltip=Forge Hammer\nMachine Type: §eForge Hammer§r
+gt.blockmachines.bronzemachine.hammer.tooltip=锻造锤\n机器类型：§e锻造锤§r
 gt.blockmachines.bronzemachine.macerator.name=蒸汽研磨机
-gt.blockmachines.bronzemachine.macerator.tooltip=Macerating your Ores\nMachine Type: §eMacerator§r
+gt.blockmachines.bronzemachine.macerator.tooltip=研磨你的矿石\n机器类型：§e研磨机§r
 
 gt.blockmachines.bw.radiohatchhv.name=放射仓
-gt.blockmachines.bw.radiohatchhv.tooltip=Radioactive Item Chamber for Multiblocks\nUse a screwdriver to set the containment level\nAdded by bartimaeusnek via §2BartWorks§7
+gt.blockmachines.bw.radiohatchhv.tooltip=多方块的放射性物品输入仓\n使用螺丝刀设置抑制等级\n添加者：bartimaeusnek，模组：§2BartWorks§7
 
 gt.blockmachines.compressedfluidhatch.name=液态空气仓
 gt.blockmachines.creative_debug_scanner.name=创造Debug扫描仪
@@ -540,7 +540,7 @@ gt.blockmachines.automation.itemdistributor.name=%1$s物品分配器
 gt.blockmachines.batterycharger.name=%1$s电池充电器
 gt.blockmachines.batteryturbocharger.name=%1$s涡轮充电器
 gt.blockmachines.batterycharger.desc=每个电池提供8A输入/4A输出（最小4A/2A）
-gt.blockmachines.batteryturbocharger.desc=64A输入/16A输出，120A/物品，禁用以强制充能
+gt.blockmachines.batteryturbocharger.desc=输入64安，输出16安，120安/物品，禁用以强制充能
 gt.blockmachines.automation.filter.desc=过滤至多9种不同物品\n使用螺丝刀调节单次输出量
 gt.blockmachines.automation.typefilter.desc=过滤单个类型的物品\n使用螺丝刀调节单次输出量
 gt.blockmachines.automation.recipefilter.desc=过滤单个类型的配方\n使用螺丝刀调节单次输出量
@@ -964,7 +964,7 @@ gt.blockmachines.basicmachine.microtransmitter.05.name=IV微波能量发射机
 gt.blockmachines.basicmachine.microtransmitter.06.name=LuV微波能量发射机
 gt.blockmachines.basicmachine.microtransmitter.07.name=ZPM微波能量发射机
 gt.blockmachines.basicmachine.microtransmitter.08.name=UV微波能量发射机
-gt.blockmachines.basicmachine.microtransmitter.tooltip=无线传输能量\n需要红石信号激活\n每100格额外损耗0.004%的EU\n进行跨维度传输时\n消耗氮等离子体且需要周围存在龙蛋\n也会将损耗乘以100倍
+gt.blockmachines.basicmachine.microtransmitter.tooltip=无线传输能量\n需要红石信号激活\n每100格额外损耗0.004%%的EU\n进行跨维度传输时\n消耗氮等离子体且需要周围存在龙蛋\n也会将损耗乘以100倍
 gt.blockmachines.basicmachine.microwave.tier.01.name=基础微波炉
 gt.blockmachines.basicmachine.microwave.tier.02.name=进阶微波炉
 gt.blockmachines.basicmachine.microwave.tier.03.name=进阶微波炉 II
@@ -2600,7 +2600,7 @@ GT5U.machines.muffled.off=静音：§c已禁用§r
 GT5U.machines.MTETransformerHiAmp.descLn1=将4A转换为16A
 GT5U.machines.MTETransformerHiAmp.descLn2=用螺丝刀切换2A/8A半流模式
 GT5U.machines.MTETransformerHiAmp.descLn3=可从能量网络接收最高6A电流（半流模式下为3A）
-GT5U.machines.MTETransformerWet.descLn1=将16A转换为64A
+GT5U.machines.MTETransformerWet.descLn1=将16安转换为64安
 GT5U.machines.MTETransformerWet.descLn2=用螺丝刀切换8A/32A半流模式
 GT5U.machines.MTETransformerWet.descLn3=可从能源网络接收最高20A电流（半流模式下为10A）
 GT5U.machines.digitalchest.voidoverflow.enabled=溢出销毁：§a开启§r
@@ -2610,7 +2610,7 @@ GT5U.machines.digitalchest.inputfilter.disabled=输入过滤：§c关闭§r
 GT5U.machines.digitalchest.tooltip=存储%s个物品
 GT5U.machines.digitalchest.tooltip1=使用螺丝刀启用\n物品溢出销毁
 GT5U.machines.digitaltank.tooltip=可以存储%s L流体
-GT5U.machines.digitaltank.tooltip1=拆卸后保留其中流体
+GT5U.machines.digitaltank.tooltip1=拆卸后保留其中内容
 GT5U.machines.digitaltank.debugtooltip=无限自我补充
 GT5U.machines.digitaltank.autooutput.tooltip=流体自动输出
 GT5U.machines.digitaltank.voidoverflow.tooltip=溢出销毁模式
@@ -3090,7 +3090,7 @@ GT5U.gui.text.recipe_result.insufficient_voltage=§7执行此配方需要更高�
 GT5U.gui.text.recipe_result.insufficient_heat=§7配方需要更高的启动温度。此配方需要：%s K（%s§7）
 GT5U.gui.text.recipe_result.insufficient_machine_tier=§7配方需要更高等级的结构方块。此配方需要：%s
 GT5U.gui.text.recipe_result.insufficient_startup_power=§7配方需要更高的启动能量。此配方需要：%s EU/t
-GT5U.gui.text.recipe_result.insufficient_startup_power_with_amperage=§7配方需要更高的启动能量。此配方需要：%s EU/t。需要%s A（四舍五入为 %s 64A能源仓）
+GT5U.gui.text.recipe_result.insufficient_startup_power_with_amperage=§7配方需要更高的启动能量。此配方需要：%s EU/t。需要%s安（四舍五入为%s64安能源仓）
 GT5U.gui.text.recipe_result.internal_error=§4配方已找到，但是出现了内部错误
 GT5U.gui.text.drill_ores_left_chunk=当前区块剩余矿石：§a%s
 GT5U.gui.text.drill_ores_left_layer=Y轴 %s 剩余矿石：§a%s
@@ -3615,16 +3615,16 @@ gt.circuitcomponent.cable.processed.opticalfiber=拆分光缆
 gt.circuitcomponent.processed.wireinfinity=无尽线轴
 gt.circuitcomponent.processed.wirehypogen=海珀珍线轴
 gt.circuitcomponent.processed.wiremagmatter=磁物质线轴
-gt.circuitcomponent.processed.wireshijima=Spooled Shijima Wire
-gt.circuitcomponent.processed.wiretairitsu=Spooled Tairitsu Wire
-gt.circuitcomponent.processed.wirechuritsu=Spooled Churitsu Wire
-gt.circuitcomponent.processed.wirewhitedwarfmatter=Spooled White Dwarf Matter Wire
-gt.circuitcomponent.processed.wireblackdwarfmatter=Spooled Black Dwarf Matter Wire
-gt.circuitcomponent.processed.wireuniversium=Spooled Universium Wire
-gt.circuitcomponent.processed.wirecopper=Spooled Copper Wire
-gt.circuitcomponent.processed.wireredalloy=Spooled Red Alloy Wire
-gt.circuitcomponent.processed.wireelectrum=Spooled Electrum Wire
-gt.circuitcomponent.processed.wireplatinum=Spooled Platinum Wire
+gt.circuitcomponent.processed.wireshijima=静寂合金线轴
+gt.circuitcomponent.processed.wiretairitsu=对立合金线轴
+gt.circuitcomponent.processed.wirechuritsu=中立合金线轴
+gt.circuitcomponent.processed.wirewhitedwarfmatter=白矮星物质线轴
+gt.circuitcomponent.processed.wireblackdwarfmatter=黑矮星物质线轴
+gt.circuitcomponent.processed.wireuniversium=宇宙素线轴
+gt.circuitcomponent.processed.wirecopper=铜线轴
+gt.circuitcomponent.processed.wireredalloy=红色合金线轴
+gt.circuitcomponent.processed.wireelectrum=琥珀金线轴
+gt.circuitcomponent.processed.wireplatinum=铂线轴
 
 gt.circuitcomponent.processed.asmd.resistor=预备进阶贴片电阻
 gt.circuitcomponent.processed.asmd.transistor=预备进阶贴片晶体管
@@ -4117,7 +4117,7 @@ GT5U.chat.hatch.output.fluid.already_locked=仓室已锁定为另一种流体。
 GT5U.chat.hatch.output.fluid.locked_to=成功将流体锁定为 %s
 
 GT5U.chat.wet_transformer.half_mode.enable=变压器现在以 8A:32A 的输入/输出比运行。
-GT5U.chat.wet_transformer.half_mode.disable=变压器当前以 16A:64A 的输入输出比运行。
+GT5U.chat.wet_transformer.half_mode.disable=变压器当前以16安：4安的输入输出比运行。
 
 GT5U.chat.soldering_iron.not_enough=焊料不足！
 GT5U.chat.ore.set_ore_natural_flag=设置矿石的自然标志为 %s
@@ -4542,7 +4542,7 @@ GT5U.nei.heat_capacity=炉温：%s K
 GT5U.nei.heat_capacity.material=线圈：%s
 GT5U.nei.tier=等级：%s
 GT5U.nei.start_eu=启动能量：%s EU（Mk-%s）
-GT5U.nei.stages=阶段：
+GT5U.nei.stages=阶段：%s
 GT5U.nei.fuel=燃料热值：%s EU/%s
 GT5U.nei.qc.heating=加热常数：%s
 GT5U.nei.qc.cooling=冷却常数：%s
@@ -8749,9 +8749,9 @@ item.gt.depletedRodNaquadria2.name=二联燃料棒（枯竭超能硅岩）
 item.gt.depletedRodNaquadria4.name=四联燃料棒（枯竭超能硅岩）
 
 # Condensate Fluid and Cells
-abbrev.entangled_neutronium=Neutronium
-abbrev.entangled_cosmicneutronium=Cosmic Neutronium
-abbrev.entangled_bedrockium=Bedrockium
+abbrev.entangled_neutronium=中子
+abbrev.entangled_cosmicneutronium=宇宙中子态素
+abbrev.entangled_bedrockium=基岩
 abbrev.entangled_celestialtungsten=天体钨
 abbrev.entangled_chromaticglass=彩色玻璃
 abbrev.entangled_cosmicsolder=寰宇焊料
@@ -9511,7 +9511,7 @@ gt.blockcasings.bec.3.name=冲突诱导机械方块
 gt.blockcasings.bec.4.name=和平执行机械方块
 gt.blockcasings.bec.5.name=凝聚态物质转换线圈
 gt.blockcasings.bec.6.name=凝聚态物质引导线圈
-gt.blockglass1.em-glass-bec.tooltip=BEC Glass
+gt.blockglass1.em-glass-bec.tooltip=玻色-爱因斯坦凝聚态玻璃
 
 gt.blockglass1.0.name=化学级玻璃
 gt.blockglass1.1.name=电子束透明中子镀层玻璃
@@ -9931,16 +9931,16 @@ GT5U.tooltip.bec-ionode.los-hatch-pos=背面中央机械方块
 # Eye of Harmony Structure Hints
 GT5U.tooltip.eye-of-harmony.boundary-no-stocking-bus=Any boundary casing (no stocking bus)
 GT5U.tooltip.eye-of-harmony.boundary-no-stocking-hatch=Any boundary casing (no stocking hatch)
-GT5U.tooltip.eye-of-harmony.any-boundary-casing=Any boundary casing
+GT5U.tooltip.eye-of-harmony.any-boundary-casing=任意边界机械方块
 
 # Research Station Structure Hints
-GT5U.tooltip.research-station.footer=§aData Sticks go in the controller
+GT5U.tooltip.research-station.footer=§a请将闪存放入控制器
 
 # Forge of Gods Structure Hints
-GT5U.tooltip.forge-of-gods.module=Forge of the Gods Module
-GT5U.tooltip.forge-of-gods.module-pos=Any side center shielding casing
-GT5U.tooltip.forge-of-gods.second-ring=Second Ring
-GT5U.tooltip.forge-of-gods.third-ring=Third Ring
+GT5U.tooltip.forge-of-gods.module=诸神之锻炉模块
+GT5U.tooltip.forge-of-gods.module-pos=任意侧面中央屏蔽机械方块
+GT5U.tooltip.forge-of-gods.second-ring=第二环
+GT5U.tooltip.forge-of-gods.third-ring=第三环
 
 # BEC Generator Structure Hints
 GT5U.tooltip.bec-generator.controller-pos=第十层，正面中央
@@ -9965,7 +9965,7 @@ GT5U.tooltip.bec-assembler.los-hatch-pos=各环各侧机械方块中央
 
 # BEC Settings
 GT5U.gui.text.bec-filter=过滤
-GT5U.gui.text.bec-filter-n=Filter %s
+GT5U.gui.text.bec-filter-n=过滤%s
 GT5U.gui.text.bec-operation=比较符
 GT5U.gui.text.bec-threshold=阈值
 GT5U.gui.text.bec-current=当前：
@@ -10074,7 +10074,7 @@ gt.blockmachines.basicgenerator.lightningrod.tooltip=利用闪电的力量产生
 
 # NEI Aliases
 gt.alias.debug=Debug
-gt.alias.mechanical_armor=Mechanical Armor
+gt.alias.mechanical_armor=机械装甲
 gt.alias.fibre=Fibre
 gt.alias.vci=真空传送输入端口
 gt.alias.vco=真空传送输出端口
@@ -10231,7 +10231,7 @@ gt.blockmachines.waterpump.controller.tier.single.name=蒸汽水泵
 gt.blockmachines.hatch.dataaccess.adv.name=进阶数据访问仓
 gt.blockmachines.hatch.dataaccess.auto.name=自动数据访问仓
 gt.blockmachines.hatch.dataaccess.name=数据访问仓
-gt.blockmachines.hatch.dataaccess.desc=Data Access for Multiblocks\nAdds %s extra slots for Data Sticks
+gt.blockmachines.hatch.dataaccess.desc=为多方块提供数据接口\n增加%s个额外的闪存插槽
 
 # Tools
 gt.metatool.empty.name=%s（空）
