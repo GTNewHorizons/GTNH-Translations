@@ -1078,15 +1078,7 @@ gt.blockmachines.machine.tt.datareader.desc.0=데이터 스틱과 오브를 읽�
 gt.blockmachines.machine.tt.datareader.desc.1=전원을 공급한 후
 gt.blockmachines.machine.tt.datareader.desc.2=데이터 저장 장치를 넣습니다.
 
-gt.blockmachines.machine.tt.buck.05.name=광기급 강압 변환기
-gt.blockmachines.machine.tt.buck.06.name=터무니없는 벅 컨버터
-gt.blockmachines.machine.tt.buck.07.name=ZPM 전압 강압 변환기
-gt.blockmachines.machine.tt.buck.08.name=궁극의 전력 강압 변환기
-gt.blockmachines.machine.tt.buck.09.name=초궁극 강압 변환기
-gt.blockmachines.machine.tt.buck.10.name=초궁극 강압 변환기
-gt.blockmachines.machine.tt.buck.11.name=광기의 궁극 벅 컨버터
-gt.blockmachines.machine.tt.buck.12.name=초대형 궁극의 강압 변환기
-gt.blockmachines.machine.tt.buck.13.name=확장형 메가 얼티밋 벅 컨버터
+gt.blockmachines.machine.tt.buck.name=%1$s Buck Converter
 gt.blockmachines.machine.tt.buck.desc.0=전자식 전압 조절기
 gt.blockmachines.machine.tt.buck.desc.1=조절식 강압 변압기
 gt.blockmachines.machine.tt.buck.desc.2=전원 공급 장치를 전환하는 중입니다...
@@ -1866,6 +1858,16 @@ tt.spaceminer.calculator.asteroidChance=%s
 tt.spaceminer.filter.minableAsteroids=현재 채굴 가능한 소행성 for
 tt.spaceminer.filter.noValidInputs=유효한 입력이 없습니다!
 tt.spaceminer.filter.addOre=클릭하여 이 광석을 필터에 추가합니다.
+# Space Pump
+tt.spacepump.batchslider=Modifies the current batch recipe time (in s)
+tt.spacepump.rate=Pumps %s/s
+tt.spacepump.ratemax=Up to %s/s per recipe
+tt.spacepump.pendingqueue=Confirm or modify selected recipes:
+tt.spacepump.planettier=Tier %d:
+tt.spacepump.utilityapply=&aApply&r & &4overwrite&r existing recipes\n&eEmpty slots will unset running recipes!
+tt.spacepump.utilityremove=Click to remove selected fluid
+tt.spacepump.utilityselected=Selected: &c%s
+tt.spacepump.utilitypanelButtonTooltip=Open Space Pump Quick Picker\n - &6Click&r any &3fluid&r to add it to list (&aallows multiple&r)\n - &6Click&r on the preview slots at the bottom to free the slot\n - &6Click&r on the &2Apply&r button to change the &3pumps&r config
 
 # Gui
 tt.gui.tooltip.power_pass=전력 패스
