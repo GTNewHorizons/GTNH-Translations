@@ -144,11 +144,11 @@ gt.oreprefix.triple_material_sheet=三重%sシート
 
 # Ores with a host stone: argument 1 is the material, argument 2 is the stone prefix.
 # These shared templates also support Inflection Manager rules and positional placeholders.
-gt.oreprefix.material.with_stone=%2$s %1$s
-gt.oreprefix.material_ice.with_stone=%2$s %1$sの閉じ込められた氷
-gt.oreprefix.material_infused_stone.with_stone=%2$s %1$sの染み込んだ石
-gt.oreprefix.material_ore.with_stone=%2$s %1$s鉱石
-gt.oreprefix.small_material_ore.with_stone=小さな%2$s %1$s鉱石
+gt.oreprefix.material.with_stone=%2$s%1$s
+gt.oreprefix.material_ice.with_stone=%2$s%1$sの閉じ込められた氷
+gt.oreprefix.material_infused_stone.with_stone=%2$s%1$sの染み込んだ石
+gt.oreprefix.material_ore.with_stone=%2$s%1$s鉱石
+gt.oreprefix.small_material_ore.with_stone=小さな%2$s%1$s鉱石
 
 # Host stone prefixes, shared by all ore materials and sizes.
 gt.ore.stone.netherrack=ネザー
@@ -395,11 +395,9 @@ gt.blockmachines.creative_debug_scanner.name=クリエイティブ用デバッ�
 gt.blockmachines.debug.tt.certain.name=Uncertainty Resolution
 gt.blockmachines.debugstructurewriter.name=Debug Structure Writer
 
-gt.blockmachines.electricboiler.1.tier.single.name=発展型ボイラー [LV]
+gt.blockmachines.electricboiler.name=%1$s Advanced Boiler
 gt.blockmachines.electricboiler.1.tier.single.tooltip=毎秒750Lの蒸気を生産\n毎秒35の汚染を排出\n温度が100Cを下回ったときのみ燃料を消費\n燃焼時間が500を超える燃料でより効率的に稼働\n水がなくても爆発しない
-gt.blockmachines.electricboiler.2.tier.single.name=発展型ボイラー [MV]
 gt.blockmachines.electricboiler.2.tier.single.tooltip=毎秒1500Lの蒸気を生産\n毎秒50の汚染を排出\n温度が100Cを下回ったときのみ燃料を消費\n燃焼時間が500を超える燃料でより効率的に稼働\n水がなくても爆発しない
-gt.blockmachines.electricboiler.3.tier.single.name=発展型ボイラー [HV]
 gt.blockmachines.electricboiler.3.tier.single.tooltip=毎秒2250Lの蒸気を生産\n毎秒65の汚染を排出\n温度が100Cを下回ったときのみ燃料を消費\n燃焼時間が500を超える燃料でより効率的に稼働\n水がなくても爆発しない
 
 gt.blockmachines.electrodedetectorhatch.name=Electrode Detector Hatch
@@ -672,14 +670,7 @@ gt.blockmachines.basicmachine.autoclave.tier.09.name=伝説型圧力処理室
 gt.blockmachines.basicmachine.autoclave.tier.10.name=伝説型圧力処理室 II
 gt.blockmachines.basicmachine.autoclave.tier.11.name=伝説型圧力処理室 III
 gt.blockmachines.basicmachine.autoclave.tier.12.name=伝説型圧力処理室 IV
-gt.blockmachines.basicmachine.automation.autoworkbench.01.name=自動作業台 (LV)
-gt.blockmachines.basicmachine.automation.autoworkbench.02.name=自動作業台 (MV)
-gt.blockmachines.basicmachine.automation.autoworkbench.03.name=自動作業台 (HV)
-gt.blockmachines.basicmachine.automation.autoworkbench.04.name=自動作業台 (EV)
-gt.blockmachines.basicmachine.automation.autoworkbench.05.name=自動作業台 (IV)
-gt.blockmachines.basicmachine.automation.autoworkbench.06.name=自動作業台 (LuV)
-gt.blockmachines.basicmachine.automation.autoworkbench.07.name=自動作業台 (ZPM)
-gt.blockmachines.basicmachine.automation.autoworkbench.08.name=自動作業台 (UV)
+gt.blockmachines.basicmachine.automation.autoworkbench.name=%1$s Auto Workbench
 gt.blockmachines.basicmachine.automation.autoworkbench.tooltip=自動で動く作業台 Mk-III
 gt.blockmachines.basicmachine.bender.tier.01.name=基本型圧延機
 gt.blockmachines.basicmachine.bender.tier.02.name=発展型圧延機
@@ -1012,12 +1003,7 @@ gt.blockmachines.basicmachine.massfab.tier.09.name=伝説型存在開始装置
 gt.blockmachines.basicmachine.massfab.tier.10.name=伝説型存在開始装置 II
 gt.blockmachines.basicmachine.massfab.tier.11.name=伝説型存在開始装置 III
 gt.blockmachines.basicmachine.massfab.tier.12.name=伝説型存在開始装置 IV
-gt.blockmachines.basicmachine.microtransmitter.03.name=マイクロ波送電器 (HV)
-gt.blockmachines.basicmachine.microtransmitter.04.name=マイクロ波送電器 (EV)
-gt.blockmachines.basicmachine.microtransmitter.05.name=マイクロ波送電器 (IV)
-gt.blockmachines.basicmachine.microtransmitter.06.name=マイクロ波送電器 (LuV)
-gt.blockmachines.basicmachine.microtransmitter.07.name=マイクロ波送電器 (ZPM)
-gt.blockmachines.basicmachine.microtransmitter.08.name=マイクロ波送電器 (UV)
+gt.blockmachines.basicmachine.microtransmitter.name=%1$s Microwave Energy Transmitter
 gt.blockmachines.basicmachine.microtransmitter.tooltip=電力を無線で伝送する\n赤石信号で有効化する\n100ブロックあたり0.004EUの減衰が発生する\n異なるディメンション間で使用する場合、\n動作に§8《§r窒素プラズマ§8／Nitrogen Plasma》§7 を使用し、周囲にドラゴンの卵が必要、\nさらに減衰が100倍になる
 gt.blockmachines.basicmachine.microwave.tier.01.name=基本型電子レンジ
 gt.blockmachines.basicmachine.microwave.tier.02.name=発展型電子レンジ
@@ -1156,10 +1142,7 @@ gt.blockmachines.basicmachine.scanner.tier.09.name=伝説型電子顕微鏡
 gt.blockmachines.basicmachine.scanner.tier.10.name=伝説型電子顕微鏡 II
 gt.blockmachines.basicmachine.scanner.tier.11.name=伝説型電子顕微鏡 III
 gt.blockmachines.basicmachine.scanner.tier.12.name=伝説型電子顕微鏡 IV
-gt.blockmachines.basicmachine.seismicprospector.04.name=発展型地震探査機 EV
-gt.blockmachines.basicmachine.seismicprospector.05.name=発展型地震探査機 HV
-gt.blockmachines.basicmachine.seismicprospector.06.name=発展型地震探査機 MV
-gt.blockmachines.basicmachine.seismicprospector.07.name=発展型地震探査機 LV
+gt.blockmachines.basicmachine.seismicprospector.name=%1$s Advanced Seismic Prospector
 gt.blockmachines.basicmachine.seismicprospector.tooltip=設置して爆発物を供給すると動作開始、爆発物は次のいずれか:\n§8《§7火薬樽§8／Powder Barrel》§7 2個、§8《§7ﾆﾄﾛｸﾞﾘｾﾘﾝ§8／Glyceryl Trinitrate》§7 4個、§8《§7産業用TNT§8／Industrial TNT》§78個、TNT 16個\n§8《§7ﾃﾞｰﾀｽﾃｨｯｸ§8／Data Stick》§7を使用し、ﾃﾞｰﾀｽﾃｨｯｸをｽｷｬﾝ、印刷機で印刷し、ページをとじて本にして読む\n鉱石の試掘範囲 = %sx%s ブロック、§n機械の下にある鉱脈のみ\n油田の試掘範囲 = 3x3の油田 (各油田は8x8チャンク)
 gt.blockmachines.basicmachine.sifter.tier.01.name=基本型ふるい機
 gt.blockmachines.basicmachine.sifter.tier.02.name=発展型ふるい機
