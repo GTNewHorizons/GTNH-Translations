@@ -1,4 +1,4 @@
-Accepts and stores up to {color_amount:{var:max_particles}} {green:Particles} from potentially intermittent high {red:Rate} beam packets
-Re-releases those particles as a stable beam at a {red:Rate} of your choosing
+간헐적으로 도착할 수 있는 고속 빔 패킷에서 최대 {color_amount:{var:max_particles}}개의 {green:입자}를 받아 저장합니다
+원하는 {red:속도}로 해당 입자를 안정적인 빔으로 다시 방출합니다
 {hr}
-If a beam with a different {green:Particle}, {blue:Energy} or {aqua:Focus} arrives during operation, it is ignored unless no {green:Particles} are stored
+작동 중 다른 {green:입자}, {blue:에너지} 또는 {aqua:초점}을 가진 빔이 도착하면, 저장된 {green:입자}가 없는 경우가 아니라면 무시됩니다.

@@ -20,7 +20,7 @@ tile.reactorSim.desc.1=폭발합니다, 하지만 그다지 강하진 않습니�
 
 gt.spacetime_compression_field_generator.name=안정된 시공간 압축장 생성기
 gt.time_acceleration_field_generator.name=시간지연장 생성기
-gt.stabilisation_field_generator.name=Stabilisation Field Generator
+gt.stabilisation_field_generator.name=안정화장 생성기
 
 tile.Forge of the Gods Renderer.name=신들의 재련소 렌더기
 
@@ -160,11 +160,11 @@ gt.blockmachines.hatch.emmuffler.desc.1=질량 용량
 gt.blockmachines.hatch.emmuffler.desc.2=폐기 속도
 gt.blockmachines.hatch.emmuffler.desc.3=출력을 방해하지 마세요!
 
-gt.blockmachines.hatch.energymulti.name=%1$s %2$sA Energy Hatch
-gt.blockmachines.hatch.energywirelessmulti.name=%1$s %2$sA Wireless Energy Hatch
-gt.blockmachines.hatch.dynamomulti.name=%1$s %2$sA Dynamo Hatch
-gt.blockmachines.hatch.energytunnel.name=%1$s %2$sA Laser Target Hatch
-gt.blockmachines.hatch.dynamotunnel.name=%1$s %2$sA Laser Source Hatch
+gt.blockmachines.hatch.energymulti.name=%1$s %2$sA 에너지 해치
+gt.blockmachines.hatch.energywirelessmulti.name=%1$s %2$s무선 에너지 해치
+gt.blockmachines.hatch.dynamomulti.name=%1$s %2$sA 발전기 해치
+gt.blockmachines.hatch.energytunnel.name=%1$s %2$s레이저 표적 해치
+gt.blockmachines.hatch.dynamotunnel.name=%1$s %2$s레이저 공급 해치
 gt.blockmachines.hatch.energymulti.desc=멀티블록용 다중 암페어 에너지 주입기\n에너지 네트워크에서 최대 %d암페어를 받습니다\n멀티블록에 최대 %d암페어를 공급합니다
 achievement.gt.blockmachines.hatch.energywirelessmulti04.tier.04=EV 4A 무선 에너지 해치
 achievement.gt.blockmachines.hatch.energywirelessmulti16.tier.04=EV 16A 무선 에너지 해치
@@ -278,17 +278,17 @@ gt.blockmachines.hatch.certain.desc.2=더 이상 사용되지 않습니다! 불�
 
 gt.blockmachines.hatch.datain.tier.07.name=광학 수신 커넥터
 gt.blockmachines.hatch.datain.desc.0=멀티블록용 양자 데이터 입력
-gt.blockmachines.hatch.datain.desc.1=고속 광섬유 커넥터.
+gt.blockmachines.hatch.datain.desc.1=고속 광섬유 커넥터입니다.
 gt.blockmachines.hatch.datain.desc.2=작동하려면 도색해야 합니다.
 
 gt.blockmachines.hatch.dataout.tier.07.name=광 전송 커넥터
 gt.blockmachines.hatch.dataout.desc.0=멀티블록용 양자 데이터 출력
-gt.blockmachines.hatch.dataout.desc.1=고속 광섬유 커넥터
+gt.blockmachines.hatch.dataout.desc.1=고속 광섬유 커넥터.
 gt.blockmachines.hatch.dataout.desc.2=작동하려면 도색해야 합니다
 
 gt.blockmachines.hatch.datainass.tier.07.name=조립 라인 수신 연결기
 gt.blockmachines.hatch.datainass.desc.0=멀티블록용 아이템 스택 데이터 입력장치
-gt.blockmachines.hatch.datainass.desc.1=고속 광섬유 커넥터.
+gt.blockmachines.hatch.datainass.desc.1=고속 광섬유 커넥터입니다.
 gt.blockmachines.hatch.datainass.desc.2=작동하려면 도색해야 합니다
 
 gt.blockmachines.hatch.datainasswireless.desc.0=멀티블록용 무선 아이템 스택 데이터 입력 장치
@@ -296,7 +296,7 @@ gt.blockmachines.hatch.datainasswireless.desc.1=고속 인터넷 연결
 
 gt.blockmachines.hatch.dataoutass.tier.07.name=데이터 뱅크 전송 커넥터
 gt.blockmachines.hatch.dataoutass.desc.0=다중 블록 구조물용 아이템 스택 데이터 출력
-gt.blockmachines.hatch.dataoutass.desc.1=고속 광섬유 커넥터.
+gt.blockmachines.hatch.dataoutass.desc.1=고속 광섬유 커넥터입니다.
 gt.blockmachines.hatch.dataoutass.desc.2=작동하려면 도색해야 합니다.
 
 gt.blockmachines.hatch.wirelessdataoutass.desc.0=다중 블록 기계용 무선 아이템 스택 데이터 출력
@@ -747,7 +747,7 @@ fog.upgrade.text.10=최대 병렬 처리 수에 x2 배율을 추가합니다.
 fog.upgrade.text.11=헬리오퓨전 특이화 모듈과 쿼크-글루온 플라스마 생성을 해금합니다. 이 시점에서는 이 모듈이 다른 업그레이드의 배율이나 보너스에 영향을 받지 않습니다.
 fog.upgrade.text.12=연료 소비량 -> 열 변환 공식을 개선합니다. 개선된 공식: 동력 단조로 열 = log_1.12(Stellar Fuel Units/sec) * 1000 + 12601, 용해 코어 열 = log1.18(Stellar Fuel Units/sec) * 1000 + 12601
 fog.upgrade.text.13=SA의 공식을 다음과 같이 개선합니다: 배율 = 1 + (별 연료 단위/초) / 5
-fog.upgrade.text.14=OC 공식을 2/4 OC에서 2.3/4 OC로 개선합니다.
+fog.upgrade.text.14=현재 열에 따라 OC 계수가 조정되도록 합니다. 동력 단조로와 용융 코어는 고정 OC 계수 2.15를 얻습니다. 플라즈마 제조기의 OC 계수 = 4 - 25000 / 열
 fog.upgrade.text.15=헬리오퓨전 특이화 장치(Heliofusion Exoticizer)가 다단계 플라즈마 처리가 가능해집니다. 티어 제한은 여전히 적용됩니다.
 fog.upgrade.text.16=헬리오플레어 파워 포지(Helioflare Power Forge) 모듈이 헬리오플레어 멜팅 코어(Helioflare Melting Core) 모듈 업그레이드 경로의 모든 혜택을 받을 수 있도록 합니다.
 fog.upgrade.text.17=EBF 열 보너스 한도를 30000K로 증가시킵니다.
@@ -882,53 +882,53 @@ gt.blockmachines.multimachine.FOG.consumeUpgradeMats=업그레이드 재료를 �
 gt.blockmachines.multimachine.FOG.clickhere=혼란스러우십니까? 일반적인 정보를 확인하려면 여기를 클릭하십시오.
 gt.blockmachines.multimachine.FOG.introduction=§N소개
 gt.blockmachines.multimachine.FOG.introductioninfotext=신들의 대장간에서는 많은 일이 일어나 처음에는 상당히 혼란스러울 수 있습니다. 이 메뉴에서는 대장간에서 일어나는 모든 일과 대장간의 모든 기능 및 작동 원리를 설명합니다.
-gt.blockmachines.multimachine.FOG.tableofcontents=§N목차:
+gt.blockmachines.multimachine.FOG.tableofcontents=§N목차
 gt.blockmachines.multimachine.FOG.fuel=연료
 gt.blockmachines.multimachine.FOG.modules=모듈
 gt.blockmachines.multimachine.FOG.upgrades=업그레이드
 gt.blockmachines.multimachine.FOG.milestones=이정표
 gt.blockmachines.multimachine.FOG.inversion=반전
 
-gt.blockmachines.multimachine.FOG.fuelinfotext.1=Once the structure of the Forge is built and the multiblock is formed, just simply turning it on is not sufficient to make it functional. The Forge must be supplied with a certain amount of §bStar Fuel §6(the item) to actually boot up.
-gt.blockmachines.multimachine.FOG.fuelinfotext.2=The amount of Star Fuel needed depends on the current fuel consumption factor, which can be set in the fuel configuration menu. By default the maximum is 5, but it can be increased later on with upgrades. Star Fuel scaling is as follows:
+gt.blockmachines.multimachine.FOG.fuelinfotext.1=제련로 구조물을 건설하고 멀티블록을 형성한 뒤에도, 단순히 전원을 켜는 것만으로는 작동하지 않습니다. 실제로 시동하려면 제련로에 일정량의 §b별 연료 §6(아이템)§f를 공급해야 합니다.
+gt.blockmachines.multimachine.FOG.fuelinfotext.2=필요한 별 연료의 양은 현재 연료 소모 계수에 따라 달라지며, 연료 설정 메뉴에서 설정할 수 있습니다. 기본 최대치는 5이지만, 나중에 업그레이드를 통해 늘릴 수 있습니다. 별 연료 배율은 다음과 같습니다:
 gt.blockmachines.multimachine.FOG.fuelinfotext.3=factor*25*1.2^factor
-gt.blockmachines.multimachine.FOG.fuelinfotext.4=Star Fuel can be supplied via an input bus, it gets consumed periodically and stored internally. Once there is enough Star Fuel stored in the multi, it turns on for real (allowing modules to connect) and converts the consumed Star Fuel into stored §bStellar Fuel§6.
-gt.blockmachines.multimachine.FOG.fuelinfotext.5=From this point onwards, the Forge must be fueled via one of the liquid fuels (type can be selected in the fuel config menu). If there isn't enough of the selected fuel present in the input hatch, the stored fuel amount will decrease and if it reaches 0, the Forge enters the previous 'off' state where modules disconnect and it has to be supplied with Star Fuel again.
-gt.blockmachines.multimachine.FOG.fuelinfotext.6=The amount of internally stored Stellar Fuel (liquid) can be increased by turning on §bBattery Charging§6, this will cause the fuel usage to double, but half of it will be stored in the internal battery.
+gt.blockmachines.multimachine.FOG.fuelinfotext.4=별 연료는 입력 버스를 통해 공급할 수 있으며, 주기적으로 소모되어 내부에 저장됩니다. 멀티블록에 별 연료가 충분히 저장되면 실제로 가동되어(모듈을 연결할 수 있게 되어) 소모된 별 연료를 저장된 §b항성 연료§6로 변환합니다.
+gt.blockmachines.multimachine.FOG.fuelinfotext.5=이 시점부터 포지에는 액체 연료 중 하나를 공급해야 합니다(연료 설정 메뉴에서 종류를 선택할 수 있습니다). 선택한 연료가 입력 해치에 충분히 들어 있지 않으면 저장된 연료량이 감소하며, 연료량이 0이 되면 모듈이 연결 해제되고 스타 연료를 다시 공급해야 하는 이전의 '꺼짐' 상태로 돌아갑니다.
+gt.blockmachines.multimachine.FOG.fuelinfotext.6=내부에 저장되는 항성 연료(액체)의 양은 §b배터리 충전§6을 켜서 늘릴 수 있습니다. 그러면 연료 사용량이 두 배가 되지만, 그 절반은 내부 배터리에 저장됩니다.
 
-gt.blockmachines.multimachine.FOG.moduleinfotext.1=There are 4 types of modules that can be used in the Forge, the Helioflare Power Forge, Helioflux Melting Core, Heliothermal Plasma Fabricator and Heliofusion Exoticizer. These modules are separate multiblocks that have to be built into the Forge's structure at their designated spots.
-gt.blockmachines.multimachine.FOG.moduleinfotext.2=Once built, these modules have to connect to the Forge, which happens automatically if all requirements for the respective module are met. Alternatively, there is a button to refresh their status without waiting for the timer. Each of these modules has its specialized functionality & requirements and is affected differently by certain upgrades.
-gt.blockmachines.multimachine.FOG.moduleinfotext.forge.1=Helioflare Power Forge
-gt.blockmachines.multimachine.FOG.moduleinfotext.forge.2=The first unlocked module, simply put is a blast furnace even more powerful than the Exothermic Hearth. Additionally, this module has a §bFurnace Mode§6, turning it into a hyper powerful Multi Smelter. This module is unlocked by default and has §b1024§6 base parallel.
-gt.blockmachines.multimachine.FOG.moduleinfotext.core.1=Helioflux Melting Core
-gt.blockmachines.multimachine.FOG.moduleinfotext.core.2=The second unlocked module, which also processes blast furnace recipes but with a twist; the outputs are ejected in §bMolten form§6 instead of ingots. If an output does not have a molten form, it will output its regular form. This module has to be unlocked by an upgrade to function and has §b512§6 base parallel.
-gt.blockmachines.multimachine.FOG.moduleinfotext.fab.1=Heliothermal Plasma Fabricator
-gt.blockmachines.multimachine.FOG.moduleinfotext.fab.2=The third unlocked module, which possesses a unique recipemap featuring direct material to plasma conversion recipes. These recipes are grouped by two properties, §bFusion Tier§6 and §bSteps Required§6, limiting which recipes can be processed before their respective upgrades are unlocked. Unlike regular fusion, these recipes produce the plasma of the input material. This module has §b512§6 base parallel.
-gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.1=Heliofusion Exoticizer
-gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.2=The fourth and final unlocked module, capable of producing §bQuark Gluon Plasma§6 and later on §bMagmatter§6. This module has unique automation challenges for both materials, so it is recommended to have two of these, as they have to be locked to either one of the materials.
-gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.3=The common rule for both modes' automation challenges is as follows: the module outputs materials at the start of a recipe cycle and waits for the correct inputs to arrive before starting the actual processing of the output material.
-gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.4=If producing §bQuark Gluon Plasma§6, the module outputs up to 7 different fluids/dusts with amounts between 1-64 and 1-7 respectively, and their corresponding plasmas and amounts have to be returned in order for the recipe to process. For each L of fluid, a bucket of plasma and for each dust 9 ingots worth of plasma must be returned for the recipe to work.
-gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.5=If §bMagmatter Mode§6 is active, the automation challenge changes. Now the module outputs 1-50L of §bTachyon Rich Temporal Fluid§6, 51-100L of §bSpatially Enlarged Fluid§6 and one dust of a high tier material. The challenge is to return both the Tachyon Rich and Spatially Enlarged Fluids, plus as much plasma of the dust's material (in ingots) as the difference between the amounts of Spatially Enlarged and Tachyon Rich Fluid. Once all of these have been returned in the correct amounts, the recipe will start to process and output Magmatter.
-gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.6=This module has §b64§6 base parallel.
+gt.blockmachines.multimachine.FOG.moduleinfotext.1=단조로에서 사용할 수 있는 모듈은 태양 플레어 동력 단조로, 태양 플럭스 용해 코어, 태양열 플라스마 제작기, 태양 융합 특이화기의 4종류입니다. 이 모듈들은 각각 별도의 다중 구조물이며, 지정된 위치에 단조로 구조물의 일부로 건설해야 합니다.
+gt.blockmachines.multimachine.FOG.moduleinfotext.2=이 모듈은 건설한 뒤 Forge에 연결해야 하며, 해당 모듈의 모든 요구 조건을 충족하면 자동으로 연결됩니다. 타이머를 기다리지 않고 상태를 새로 고치는 버튼도 있습니다. 각 모듈은 고유한 기능과 요구 조건을 갖추고 있으며, 특정 업그레이드의 영향을 서로 다르게 받습니다.
+gt.blockmachines.multimachine.FOG.moduleinfotext.forge.1=태양 플레어 동력 단조로
+gt.blockmachines.multimachine.FOG.moduleinfotext.forge.2=처음 해금되는 모듈은 쉽게 말해 발열로보다도 강력한 용광로입니다. 또한 이 모듈에는 §b용광로 모드§6가 있어 초강력 다중 용해기로 바뀝니다. 이 모듈은 기본으로 해금되어 있으며 기본 병렬 수는 §b1024§6입니다.
+gt.blockmachines.multimachine.FOG.moduleinfotext.core.1=헬리오플럭스 용융 코어
+gt.blockmachines.multimachine.FOG.moduleinfotext.core.2=두 번째로 해금되는 모듈로, 고로 레시피도 처리하지만 출력물이 주괴 대신 §b용융 상태§6로 배출된다는 차이가 있습니다. 출력물에 용융 상태가 없으면 일반 형태로 배출됩니다. 작동하려면 업그레이드로 해금해야 하며 기본 병렬 수는 §b512§6입니다.
+gt.blockmachines.multimachine.FOG.moduleinfotext.fab.1=태양열 플라즈마 제조기
+gt.blockmachines.multimachine.FOG.moduleinfotext.fab.2=세 번째로 잠금 해제되는 모듈이며, 재료를 플라스마로 직접 변환하는 고유한 레시피 맵을 갖추고 있습니다. 이 레시피들은 두 가지 속성인 §b융합 티어§6와 §b필요 단계 수§6에 따라 분류되며, 해당 업그레이드를 잠금 해제하기 전에는 처리할 수 있는 레시피가 제한됩니다. 일반 융합과 달리 이 레시피들은 입력 재료의 플라스마를 생성합니다. 이 모듈의 기본 병렬 수는 §b512§6입니다.
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.1=헬리오융합 이국화 장치
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.2=네 번째이자 마지막으로 해금되는 모듈로, §b쿼크-글루온 플라스마§6와 이후 §b마그물질§6을 생산할 수 있습니다. 두 재료 모두 자동화에 고유한 난제가 있으므로, 재료 중 하나에 고정해야 하는 이 모듈을 두 개 보유하는 것을 권장합니다.
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.3=두 모드의 자동화 도전 과제에 공통으로 적용되는 규칙은 다음과 같습니다: 모듈은 레시피 주기가 시작될 때 재료를 내보내고, 출력 재료의 실제 처리를 시작하기 전에 올바른 입력물이 도착할 때까지 기다립니다.
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.4=§b쿼크 글루온 플라스마§6§f를 생산할 경우, 모듈은 최대 7종의 유체와 가루를 각각 1~64개와 1~7개까지 출력하며, 레시피를 진행하려면 이에 해당하는 플라스마와 양을 반환해야 합니다. 레시피가 작동하려면 유체 1L당 플라스마 한 양동이를, 가루 1개당 주괴 9개 분량의 플라스마를 반환해야 합니다.
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.5=만약 §b매그매터 모드§6가 활성화되어 있으면 자동화 과제가 달라집니다. 이제 모듈은 §b타키온 농축 시간 유체§6 1~50L, §b공간 확장 유체§6 51~100L와 고티어 재료의 가루 하나를 출력합니다. 과제는 타키온 농축 시간 유체와 공간 확장 유체를 모두 반환하고, 두 유체의 양의 차이만큼 가루의 재료로 만든 플라즈마를 주괴 수 기준으로 반환하는 것입니다. 이 모든 것을 정확한 양만큼 반환하면 레시피가 가공을 시작하고 매그매터를 출력합니다.
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.6=이 모듈의 기본 병렬 처리 수는 §b64§6입니다.
 
-gt.blockmachines.multimachine.FOG.upgradeinfotext.1=Upgrades are the heart and soul of the Forge, they unlock most of its functionality and processing power. The §bUpgrade Tree§6 can be accessed via its button on the main GUI, and each upgrade node can be clicked for more information on its effects and unlock requirements.
-gt.blockmachines.multimachine.FOG.upgradeinfotext.2=In general, each upgrade can only be unlocked if the prior one is unlocked and there are enough available §bGraviton Shards§6. One exception to this is the first upgrade, which has no prior upgrade. Some upgrades also have extra material costs, which are denoted next to the unlock button if applicable.
-gt.blockmachines.multimachine.FOG.upgradeinfotext.3=If an upgrade has more than one connected prior upgrade, then there are two options. The upgrade requires either:
-gt.blockmachines.multimachine.FOG.upgradeinfotext.4=- All prior upgrades (§4Red§a connections)\n- At least one prior upgrade (§9Blue§a connections)
-gt.blockmachines.multimachine.FOG.upgradeinfotext.5=Upgrades can be refunded by pressing the §bRespec§6 button, but this only works if ALL connected later upgrades are not active/unlocked.
-gt.blockmachines.multimachine.FOG.upgradeinfotext.6=The block of upgrades following the unlock of the Heliofusion Exoticizer module are special, as they are what is considered §bThe Split§6. As the name suggests, only one path out of the three may be chosen at first, and the others will be locked. Each path has specialized buffs that are primarily targeted towards a specific module, and thus affect other module types with reduced effect (unless stated otherwise). The amount of unlockable paths depends on the §bAmount of Rings§6 the Forge has, which in turn is limited by later upgrades.
+gt.blockmachines.multimachine.FOG.upgradeinfotext.1=업그레이드는 대장간의 핵심이며, 대부분의 기능과 처리 능력을 잠금 해제합니다. 메인 GUI의 버튼을 통해 §b업그레이드 트리§6에 접근할 수 있으며, 각 업그레이드 노드를 클릭하면 효과와 잠금 해제 조건에 관한 자세한 정보를 확인할 수 있습니다.
+gt.blockmachines.multimachine.FOG.upgradeinfotext.2=일반적으로 각 업그레이드는 이전 업그레이드가 해금되어 있고 사용 가능한 §b중력자 파편§6이 충분해야 해금할 수 있습니다. 예외는 이전 업그레이드가 없는 첫 번째 업그레이드입니다. 일부 업그레이드에는 추가 재료 비용도 있으며, 해당하는 경우 해금 버튼 옆에 표시됩니다.
+gt.blockmachines.multimachine.FOG.upgradeinfotext.3=업그레이드에 연결된 선행 업그레이드가 둘 이상인 경우 두 가지 선택지가 있습니다. 해당 업그레이드에는 다음 중 하나가 필요합니다:
+gt.blockmachines.multimachine.FOG.upgradeinfotext.4=- 모든 이전 업그레이드 (§4빨간색§a 연결)\n- 이전 업그레이드 하나 이상 (§9파란색§a 연결)
+gt.blockmachines.multimachine.FOG.upgradeinfotext.5=업그레이드는 §b재분배§6 버튼을 눌러 환불할 수 있지만, 연결된 모든 후속 업그레이드가 활성화되어 있지 않고 잠금 해제되지 않은 상태일 때만 가능합니다.
+gt.blockmachines.multimachine.FOG.upgradeinfotext.6=태양 융합 이국화기 모듈의 잠금을 해제한 뒤 이어지는 업그레이드 묶음은 특별합니다. 이를 §b분기§6라고 합니다. 이름에서 알 수 있듯이, 처음에는 세 경로 중 하나만 선택할 수 있으며 나머지 경로는 잠깁니다. 각 경로에는 특정 모듈을 주 대상으로 하는 특화 강화 효과가 있으며, 별도로 명시되지 않는 한 다른 모듈 유형에는 효과가 감소하여 적용됩니다. 잠금 해제 가능한 경로의 수는 대장간이 보유한 §b고리 수§6에 따라 달라지며, 이는 이후 업그레이드에 의해 제한됩니다.
 
-gt.blockmachines.multimachine.FOG.milestoneinfotext.1=Milestones are essential for upgrading the Forge, as they are the source of §bGraviton Shards§6, the main currency needed for unlocking upgrades. In essence, milestones are just what their name suggests, thresholds that when reached, grant Graviton Shards.
-gt.blockmachines.multimachine.FOG.milestoneinfotext.2=There are four types of milestones, Charge, Conversion, Catalyst and Composition, each referring to a stat of the Forge. Each milestone has §bseven§6 tiers, each being harder to reach than the last, but also granting more Graviton Shards. The first tier grants 1 Shard, the second 2, the third 3 and so on.
+gt.blockmachines.multimachine.FOG.milestoneinfotext.1=마일스톤은 대장간을 업그레이드하는 데 필수적입니다. 업그레이드를 해제하는 데 필요한 주요 화폐인 §b중력자 파편§6의 원천이기 때문입니다. 본질적으로 마일스톤은 이름 그대로, 특정 기준점에 도달하면 중력자 파편을 지급합니다.
+gt.blockmachines.multimachine.FOG.milestoneinfotext.2=마일스톤에는 충전, 변환, 촉매, 구성의 네 가지 유형이 있으며, 각각 대장간의 능력치를 나타냅니다. 각 마일스톤에는 §b일곱§6개의 티어가 있으며, 각 티어는 이전 티어보다 도달하기 어렵지만 더 많은 중력자 파편을 지급합니다. 첫 번째 티어에서는 파편 1개를, 두 번째 티어에서는 2개를, 세 번째 티어에서는 3개를 지급하는 식으로 계속됩니다.
 gt.blockmachines.multimachine.FOG.milestoneinfotext.3=The §bCharge§6 milestone scales off total power consumption of all modules combined, the first tier being unlocked at §b1e15§6 EU consumed, and each subsequent milestone scaling by §b9x§6.
 gt.blockmachines.multimachine.FOG.milestoneinfotext.4=The §bConversion§6 milestone scales off total recipes processed across all modules (excluding the Helioflare Power Forge's furnace mode) and its first tier is unlocked at §b10M§6 processed recipes. Following tiers scale by §b4x§6.
 gt.blockmachines.multimachine.FOG.milestoneinfotext.5=The §bCatalyst§6 milestone is based on the Forge's fuel consumption, counted in Stellar Fuel units (the number entered in the fuel config menu). Reaching the first tier requires §b10,000§6 fuel units to be consumed, and each tier above scales by §b3x§6.
-gt.blockmachines.multimachine.FOG.milestoneinfotext.6=Last but not least, the §bComposition§6 milestone works a bit differently, as it scales off the Forge's structure. Milestone levels are granted for each unique type of module present in the structure (Heliofusion Exoticizer modules on Quark Gluon and Magmatter Modes count as unique), and for each additional ring built.
-gt.blockmachines.multimachine.FOG.milestoneinfotext.7=Your research suggests that something strange might happen if all milestones reach their final tier... Make sure to check back!
+gt.blockmachines.multimachine.FOG.milestoneinfotext.6=마지막으로, §b구성§6 마일스톤은 포지의 구조 규모에 따라 달라지므로 조금 다르게 작동합니다. 구조물에 존재하는 각 고유 모듈 유형마다 마일스톤 레벨이 부여됩니다(쿼크 글루온 및 마그물질 모드의 헬리오융합 이국화기 모듈은 고유한 유형으로 간주됩니다). 또한 추가로 건설한 고리마다 레벨이 부여됩니다.
+gt.blockmachines.multimachine.FOG.milestoneinfotext.7=연구 결과에 따르면 모든 마일스톤이 최종 티어에 도달하면 뭔가 이상한 일이 일어날 수도 있습니다... 꼭 다시 확인하러 오십시오!
 
-gt.blockmachines.multimachine.FOG.inversioninfotext.1=Once all milestones of the Forge reach §bTier 7§6, inversion activates. This uncaps the maximum tier of all milestones and allows it to scale §binfinitely§6.
-gt.blockmachines.multimachine.FOG.inversioninfotext.2=The scaling of each milestone changes from exponential to linear, but the granted Graviton Shard amount keeps increasing. The amount of progress needed for each subsequent milestone is as much as needed for the §b7th tier§6 of each milestone.
-gt.blockmachines.multimachine.FOG.inversioninfotext.3=The Composition milestone is once again an exception, as that continues to scale by 1 each tier, with its own formula for calculating progress. Each module type is given a value, ranging from §b1§6 for the Helioflare Power Forge to §b5§6 for the Heliofusion Exoticizer in Magmatter Mode, then the amount of each module present is subtracted by 1 and multiplied by its value. These values are added up and divided by 5, this is the final milestone tier on top of the base 7.
+gt.blockmachines.multimachine.FOG.inversioninfotext.1=대장간의 모든 마일스톤이 §b티어 7§6에 도달하면 역전이 활성화됩니다. 이를 통해 모든 마일스톤의 최대 티어 제한이 해제되고 §b무한히§6 확장됩니다.
+gt.blockmachines.multimachine.FOG.inversioninfotext.2=각 이정표의 진행도 증가 방식은 지수형에서 선형으로 바뀌지만, 지급되는 중력자 파편의 양은 계속 증가합니다. 이후 각 이정표마다 필요한 진행도는 각 이정표의 §b7번째 티어§6에 필요한 진행도와 같습니다.
+gt.blockmachines.multimachine.FOG.inversioninfotext.3=구성 이정표는 다시 예외입니다. 이 이정표는 진행도를 계산하는 별도의 공식이 있으며, 티어마다 1씩 증가합니다. 각 모듈 유형에는 헬리오플레어 동력 단조기의 §b1§6부터 마그매터 모드의 헬리오퓨전 이색화기의 §b5§6까지 값이 부여됩니다. 그런 다음 각 모듈의 보유 수량에서 1을 뺀 값에 해당 모듈의 값을 곱합니다. 이 값들을 모두 더한 뒤 5로 나누면 기본 7에 더해지는 최종 이정표 티어가 됩니다.
 
 gt.blockmachines.multimachine.FOG.contributors=기여자들
 gt.blockmachines.multimachine.FOG.lead=프로젝트 책임자
@@ -1078,7 +1078,7 @@ gt.blockmachines.machine.tt.datareader.desc.0=데이터 스틱과 오브를 읽�
 gt.blockmachines.machine.tt.datareader.desc.1=전원을 공급한 후
 gt.blockmachines.machine.tt.datareader.desc.2=데이터 저장 장치를 넣습니다.
 
-gt.blockmachines.machine.tt.buck.name=%1$s Buck Converter
+gt.blockmachines.machine.tt.buck.name=%1$s 강압 변환기
 gt.blockmachines.machine.tt.buck.desc.0=전자식 전압 조절기
 gt.blockmachines.machine.tt.buck.desc.1=조절식 강압 변압기
 gt.blockmachines.machine.tt.buck.desc.2=전원 공급 장치를 전환하는 중입니다...
@@ -1088,9 +1088,9 @@ gt.blockmachines.machine.tt.tesla.02.name=고급 테슬라 송수신기
 gt.blockmachines.machine.tt.tesla.03.name=에픽 테슬라 송수신기
 gt.blockmachines.machine.tt.tesla.04.name=궁극의 전력 테슬라 송수신기
 gt.blockmachines.machine.tt.tesla.05.name=광기 테슬라 송수신기
-gt.blockmachines.machine.tt.tesla.small.name=Small %s
-gt.blockmachines.machine.tt.tesla.large.name=Large %s
-gt.blockmachines.machine.tt.tesla.huge.name=Huge %s
+gt.blockmachines.machine.tt.tesla.small.name=소형 %s
+gt.blockmachines.machine.tt.tesla.large.name=대형 %s
+gt.blockmachines.machine.tt.tesla.huge.name=초대형 %s
 gt.blockmachines.machine.tt.tesla.desc.0=원하는 테슬라 입출력 기계
 gt.blockmachines.machine.tt.tesla.desc.1=부자들을 위한 번개 화로
 
@@ -1141,7 +1141,7 @@ GT5U.gui.text.recipe_result.invalid_hysteresis=§7잘못된 히스테리시스 �
 GT5U.gui.text.recipe_result.invalid_transfer_radius=§7잘못된 전송 반경 설정
 GT5U.gui.text.recipe_result.invalid_voltage_setting=§7잘못된 전압 설정
 GT5U.gui.text.recipe_result.invalid_current_setting=§7현재 설정이 잘못되었습니다
-GT5U.gui.text.recipe_result.invalid_primary_winding=§71차 권선 티어가 너무 낮습니다!
+GT5U.gui.text.recipe_result.invalid_primary_winding=§7기본 권선 티어가 너무 낮습니다!
 GT5U.gui.text.recipe_result.invalid_time_setting=§7잘못된 시간 설정
 GT5U.gui.text.recipe_result.invalid_overdrive_setting=§7유효하지 않은 오버드라이브 설정
 GT5U.gui.text.recipe_result.insufficient_power_no_val=§7전력이 부족합니다
@@ -1214,9 +1214,9 @@ tt.keyword.Structure.CenterPillar=전면 기둥의 중앙
 tt.keyword.Structure.Center=중심
 # Additional structure components
 tt.keyword.Structure.DataAccessHatch=데이터 접근 해치
-tt.keyword.Structure.InFrontOfEachComputerHeatVent=In front of each computer heat vent
-tt.keyword.Structure.DaisyChainAssemblyLine=Use an assembly line reception connector to daisy-chain machines
-tt.keyword.Structure.DaisyChainOptical=Use an optical reception connector to daisy-chain machines
+tt.keyword.Structure.InFrontOfEachComputerHeatVent=각 컴퓨터 냉각구 앞에
+tt.keyword.Structure.DaisyChainAssemblyLine=조립 라인 수신 커넥터를 사용하여 기계들을 데이지 체인 방식으로 연결하십시오.
+tt.keyword.Structure.DaisyChainOptical=광 수신 커넥터를 사용하여 기계를 데이지 체인으로 연결합니다.
 tt.keyword.Structure.ElementalOutput=원소 출력 해치
 tt.keyword.Structure.Elemental=원소 해치
 tt.keyword.Structure.ElementalOverflow=원소 과잉 해치
@@ -1704,7 +1704,7 @@ GT5U.gui.config.general.visual=시각 효과
 tt.eoh.fancy_names.crude=조잡한
 tt.eoh.fancy_names.primitive=원시
 tt.eoh.fancy_names.stable=마구간
-tt.eoh.fancy_names.advanced=Advanced
+tt.eoh.fancy_names.advanced=고급
 tt.eoh.fancy_names.superb=최상급
 tt.eoh.fancy_names.exotic=이국적인
 tt.eoh.fancy_names.perfect=완벽
@@ -1743,9 +1743,9 @@ tt.eoh.time_dilation.standard.tooltip=§b§l상자 속 시간 지연.
 tt.eoh.time_dilation.error.tooltip=§c§l오류입니다. GTNH 팀에 신고해 주십시오.
 tt.eoh.spacetime.standard.tooltip.0=최대 %d km³의 내부 시공간 부피를 지원합니다.
 tt.eoh.spacetime.standard.tooltip.1=§b§l최대 %d티어 레시피까지 실행할 수 있습니다
-tt.eoh.spacetime.name=%s Spacetime Compression Field Generator
-tt.eoh.stabilisation.name=%s Stabilisation Field Generator
-tt.eoh.time_dilation.name=%s Time Dilation Field Generator
+tt.eoh.spacetime.name=%s 시공간 압축장 생성기
+tt.eoh.stabilisation.name=%s 안정화 필드 생성기
+tt.eoh.time_dilation.name=%s 시간 팽창장 생성기
 
 # Info data
 
@@ -1859,15 +1859,15 @@ tt.spaceminer.filter.minableAsteroids=현재 채굴 가능한 소행성 for
 tt.spaceminer.filter.noValidInputs=유효한 입력이 없습니다!
 tt.spaceminer.filter.addOre=클릭하여 이 광석을 필터에 추가합니다.
 # Space Pump
-tt.spacepump.batchslider=Modifies the current batch recipe time (in s)
-tt.spacepump.rate=Pumps %s/s
-tt.spacepump.ratemax=Up to %s/s per recipe
-tt.spacepump.pendingqueue=Confirm or modify selected recipes:
-tt.spacepump.planettier=Tier %d:
-tt.spacepump.utilityapply=&aApply&r & &4overwrite&r existing recipes\n&eEmpty slots will unset running recipes!
-tt.spacepump.utilityremove=Click to remove selected fluid
-tt.spacepump.utilityselected=Selected: &c%s
-tt.spacepump.utilitypanelButtonTooltip=Open Space Pump Quick Picker\n - &6Click&r any &3fluid&r to add it to list (&aallows multiple&r)\n - &6Click&r on the preview slots at the bottom to free the slot\n - &6Click&r on the &2Apply&r button to change the &3pumps&r config
+tt.spacepump.batchslider=현재 배치 레시피 시간(초)을 수정합니다.
+tt.spacepump.rate=초당 %s를 펌핑합니다.
+tt.spacepump.ratemax=레시피당 최대 %s/s
+tt.spacepump.pendingqueue=선택한 레시피를 확인하거나 수정하십시오:
+tt.spacepump.planettier=티어 %d:
+tt.spacepump.utilityapply=&a적용&r & &4덮어쓰기&r 기존 레시피\n&e빈 슬롯은 실행 중인 레시피를 해제합니다!
+tt.spacepump.utilityremove=클릭하여 선택한 유체를 제거합니다.
+tt.spacepump.utilityselected=선택됨: &c%s
+tt.spacepump.utilitypanelButtonTooltip=우주 펌프 빠른 선택기 열기\n - &6클릭&r하여 아무 &3유체&r나 목록에 추가합니다 (&a여러 개 추가 가능&r)\n - &6클릭&r하여 아래쪽 미리 보기 슬롯을 비웁니다\n - &2적용&r 버튼을 &6클릭&r하여 &3펌프&r 설정을 변경합니다
 
 # Gui
 tt.gui.tooltip.power_pass=전력 패스
@@ -1879,9 +1879,9 @@ tt.gui.parameter.header=매개변수
 
 tt.gui.tooltip.plasma_module.debug_window=디버그 창
 tt.gui.tooltip.plasma_module.debug_window.multi_step=다단계
-tt.gui.tooltip.plasma_module.debug_window.fusion_tier=융합 티어
+tt.gui.tooltip.plasma_module.debug_window.fusion_tier=핵융합 티어
 tt.gui.tooltip.plasma_module.debug_window.parallel=병렬
-tt.gui.tooltip.uncertainty.value_assist=Color vision assist: overlay the value of each of the 16 cells
+tt.gui.tooltip.uncertainty.value_assist=색각 보조: 16개 셀 각각의 값을 표시합니다.
 
 tt.gui.text.debug.set_mode=클릭하여 기계를 %s로 설정합니다.
 tt.gui.text.debug.status.inactive=비활성화됨
@@ -1905,7 +1905,7 @@ tt.gui.text.hatch.status.inactive=비활성화됨
 
 tt.gui.tooltip.full_led_desc.in.id=ID: %s:%s:§bI %s
 tt.gui.tooltip.full_led_desc.out.id=ID: %s:%s:§b출력 %s
-tt.gui.tooltip.full_led_desc.value=값: %s
+tt.gui.tooltip.full_led_desc.value=값: §b%s
 tt.gui.tooltip.full_led_desc.unused=사용되지 않음
 
 EOH_Controller_PlanetBlock=현재 행성 블록: %s
@@ -1934,11 +1934,11 @@ gt.godforgecasing.7.name=중앙 중력자 흐름 조절기
 gt.godforgecasing.8.name=조화 포논 전송 도관
 
 # Multiblocks
-gt.blockmachines.multimachine.em.exotic_module.name=Heliofusion Exoticizer
+gt.blockmachines.multimachine.em.exotic_module.name=태양 융합 이국화 장치
 gt.blockmachines.multimachine.em.eye_of_harmony.name=Eye of Harmony
-gt.blockmachines.multimachine.em.forge_of_gods.name=Forge of the Gods
-gt.blockmachines.multimachine.em.molten_module.name=Helioflux Melting Core
-gt.blockmachines.multimachine.em.plasma_module.name=Heliothermal Plasma Fabricator
-gt.blockmachines.multimachine.em.research.name=Research Station
-gt.blockmachines.multimachine.em.smelting_module.name=Helioflare Power Forge
-gt.blockmachines.multimachine.tm.teslacoil.name=Tesla Tower
+gt.blockmachines.multimachine.em.forge_of_gods.name=신들의 대장간
+gt.blockmachines.multimachine.em.molten_module.name=헬리오플럭스 용융 코어
+gt.blockmachines.multimachine.em.plasma_module.name=태양열 플라스마 제작기
+gt.blockmachines.multimachine.em.research.name=연구소
+gt.blockmachines.multimachine.em.smelting_module.name=태양 플레어 동력 단조로
+gt.blockmachines.multimachine.tm.teslacoil.name=테슬라 탑

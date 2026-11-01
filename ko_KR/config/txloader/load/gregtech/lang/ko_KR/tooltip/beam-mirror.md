@@ -1,2 +1,2 @@
-Takes in particle beams and sends them back out
-{color_note:That's literally it.}
+입자 빔을 받아 다시 내보냅니다.
+{color_note:말 그대로 그게 전부입니다.}

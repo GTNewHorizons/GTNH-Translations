@@ -1,2 +1,2 @@
-Usable for Steel and general Pyrometallurgy
-All input/output is done manually through the controller
+강철 제조 및 일반적인 건식 야금에 사용할 수 있습니다.
+모든 입출력은 컨트롤러를 통해 수동으로 이루어집니다.

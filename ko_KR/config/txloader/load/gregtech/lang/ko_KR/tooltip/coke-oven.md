@@ -1,2 +1,2 @@
-통나무를 {gold:숯}으로, 석탄을 {gold:코크스}로 변환합니다
-부산물로 {gold:크레오소트 오일}을 생산합니다
+통나무를 {color_key:Charcoal}으로, 석탄을 {color_key:Coke}으로 변환합니다.
+부산물로 {color_key:Creosote Oil}을 생산합니다.

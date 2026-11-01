@@ -6,7 +6,7 @@ kubatech.htgrrecipes=고온 가스 원자로
 
 #NEI
 kubatech.defusioncrafter.tier=티어 케이스: %s
-kubatech.mobhandler.eec_chance=§5EEC에서 드롭될 확률: %.2f%%
+kubatech.mobhandler.eec_chance=§5EEC에서 드롭될 확률: %s%%
 kubatech.mobhandler.eec_disabled=§5EEC에서 드롭되지 않습니다
 
 #Commands
@@ -25,7 +25,7 @@ kubatech.command.tea.player_not_found=§c플레이어를 찾을 수 없습니다
 kubatech.command.tea.success_get=플레이어 %s님이 차 %d개를 가지고 있습니다.
 kubatech.command.tea.success_set=플레이어 %s의 차 보유량이 이제 %d개가 되었습니다
 kubatech.command.tea.success_add=플레이어 %s의 차 보유량이 이제 %d개가 되었습니다.
-kubatech.command.tea.usage=<username> get/set/add (<amount>)
+kubatech.command.tea.usage=<username> 조회/설정/추가 (<amount>)
 
 #GUI
 GT5U.gui.text.recipe_result.EEC_nospawner=동력 스포너가 없습니다!
@@ -99,7 +99,7 @@ kubatech.gui.text.mia.show_machine_status=기계 상태 표시
 
 kubatech.gui.tooltip.contributors.added=추가한 사람: %s
 kubatech.gui.tooltip.contributors.design=%s이(가) 설계했습니다.
-kubatech.gui.tooltip.contributors.structure=%s가 설계한 구조물
+kubatech.gui.tooltip.contributors.structure=구조 설계: §d%s
 
 kubatech.gui.tooltip.dynamic_inventory.identical_slots=동일한 슬롯이 %d개 있습니다
 kubatech.gui.tooltip.dynamic_inventory.empty_slot=빈 슬롯
@@ -126,12 +126,12 @@ kubatech.chat.eec.ritual_mode_error=의식에 연결할 수 없습니다!
 kubatech.chat.eec.infernal_drops_enabled=몹이 지옥 속성을 지닌 상태로 생성될 수 있습니다.
 kubatech.chat.eec.infernal_drops_disabled=몹이 인페르널로 생성되는 것을 방지합니다.
 
-kubatech.chat.mia.primary_mode.input=Changed primary mode to: Input mode
-kubatech.chat.mia.primary_mode.output=Changed primary mode to: Output mode
-kubatech.chat.mia.primary_mode.operating=Changed primary mode to: Operating mode
-kubatech.chat.mia.secondary_mode.normal=Changed secondary mode to: Normal mode
-kubatech.chat.mia.secondary_mode.swarmer=Changed secondary mode to: Swarmer mode
-kubatech.chat.mia.not_empty=§cCan't swap between Swarmer/Normal mode while Bees are present!
+kubatech.chat.mia.primary_mode.input=기본 모드를 입력 모드로 변경했습니다.
+kubatech.chat.mia.primary_mode.output=기본 모드를 출력 모드로 변경했습니다.
+kubatech.chat.mia.primary_mode.operating=기본 모드를 변경했습니다: 작동 모드
+kubatech.chat.mia.secondary_mode.normal=보조 모드를 일반 모드로 변경했습니다.
+kubatech.chat.mia.secondary_mode.swarmer=보조 모드를 군집 모드로 변경했습니다.
+kubatech.chat.mia.not_empty=§c벌이 있는 동안에는 군집/일반 모드 간에 전환할 수 없습니다!
 
 # info data
 ## general
@@ -157,16 +157,16 @@ kubatech.infodata.eec.weapon_preservation.yes=무기를 보존하고 있습니�
 kubatech.infodata.eec.weapon_preservation.no=무기 보존 여부: §e아니요
 kubatech.infodata.eec.inserted_weapon.yes=삽입된 무기: §e예
 kubatech.infodata.eec.inserted_weapon.no=삽입된 무기: §e없음
-kubatech.infodata.eec.weapon.damage=무기 공격력: §e%f
-kubatech.infodata.eec.weapon.looting_level=무기 약탈 레벨: §e%d
-kubatech.infodata.eec.total_damage=총 공격 피해: §e%f
+kubatech.infodata.eec.weapon.damage=무기 공격 피해량: §e%s
+kubatech.infodata.eec.weapon.looting_level=무기 약탈 레벨: §e%s
+kubatech.infodata.eec.total_damage=총 공격 피해량: §e%s
 
 ## Extreme Industrial Greenhouse
 kubatech.infodata.eig.running_mode.setup_mode.input=다음 모드로 실행 중입니다: §a설정 모드(입력)§r
 kubatech.infodata.eig.running_mode.setup_mode.output=실행 중인 모드: §a설정 모드(출력)§r
-kubatech.infodata.eig.uses.water=작동당 물을 %dL 사용합니다.
-kubatech.infodata.eig.uses.weedex=Weed-EX 9000을 초당 %dL 사용합니다
-kubatech.infodata.eig.max_slots=최대 슬롯: §a%d§r
+kubatech.infodata.eig.uses.water=작업당 물을 %sL 사용합니다.
+kubatech.infodata.eig.uses.weedex=초당 %sL의 Weed-EX 9000을 사용합니다.
+kubatech.infodata.eig.max_slots=최대 슬롯 수: §a%s§r
 kubatech.infodata.eig.used_slots=사용 중인 슬롯: %s
 kubatech.infodata.bucket.humidity=습도:
 kubatech.infodata.bucket.humidity.on=켜짐
@@ -251,10 +251,10 @@ item.arc_furnace_electrode.tip.durability=내구도: %s/%s
 item.arc_furnace_electrode.tip.speed=속도: %s
 item.arc_furnace_electrode.tip.parallel_limit=병렬 처리 수: %s
 item.arc_furnace_electrode.tip.parallel_limit_none=없음
-item.arc_furnace_electrode.tip.overclock=Overclock: %s/%s
-item.arc_furnace_electrode.tip.eu_usage=EU Usage: %s
+item.arc_furnace_electrode.tip.overclock=오버클럭: %s/%s
+item.arc_furnace_electrode.tip.eu_usage=EU 사용량: %s
 item.arc_furnace_electrode.tip.startup_penalty=시작 페널티: %s
-item.arc_furnace_electrode.tip.startup_amperage=기동 전류: %s A
+item.arc_furnace_electrode.tip.startup_amperage=기동 전류: %sA
 
 item.arc_furnace_electrode.tip.special_effect.GraphiteElectrode=§6§l기본 중의 기본§r§6: 시작 페널티 없음
 item.arc_furnace_electrode.tip.special_effect.GrapheneElectrode=§6§l기본 중의 기본§r§6: 시동 페널티 없음
@@ -348,7 +348,7 @@ KT.research.ultimatetea=이 모든 차를 순수한 동력으로 변환하여 %s
 kubatech.tooltip.tea=차
 kubatech.tooltip.tea_acceptor.0=차 아이템을 받아 네트워크에 추가합니다
 kubatech.tooltip.tea_acceptor.1=틱당 최대 10스택까지 받을 수 있습니다
-kubatech.tooltip.tea_storage.0=차 저장 공간을 %s만큼 확장합니다
+kubatech.tooltip.tea_storage.0=차 저장 공간을 §c%s만큼 확장합니다.
 kubatech.tooltip.tea_ingredient.0=차의 재료입니다
 
 kubatech.tooltip.structure.flowers=꽃
@@ -394,19 +394,19 @@ kubatech.multiblock.MegaIndustrialApiary.any_casing_luv=아무 케이싱 (LuV �
 kubatech.multiblock.MegaIndustrialApiary.footer=일반 물이나 증류수를 사용하고, 수동으로 배치하십시오.
 
 # Multiblocks
-gt.blockmachines.htgr.name=High Temperature Gas-cooled Reactor
-gt.blockmachines.industrialarcfurnace.controller.tier.single.name=Industrial Arc Furnace
-gt.blockmachines.multimachine.defusioncrafter.name=Draconic Evolution Fusion Crafter
-gt.blockmachines.multimachine.extremegreenhouse.name=Extreme Industrial Greenhouse
+gt.blockmachines.htgr.name=고온 가스 냉각식 원자로
+gt.blockmachines.industrialarcfurnace.controller.tier.single.name=산업용 아크 용광로
+gt.blockmachines.multimachine.defusioncrafter.name=Draconic Evolution 융합 제작기
+gt.blockmachines.multimachine.extremegreenhouse.name=극한 산업용 온실
 
 # HTGR fuel items
-item.HTGR.fuel.Plutonium=Plutonium
-item.HTGR.fuel.Thorium=Thorium
-item.HTGR.fuel.Uranium=Uranium
-item.HTGRBISOPebbleCompound.name=BISO pebble compound (%s)
-item.HTGRBurnedOutTRISOBall.name=Burned out TRISO Ball (%s)
-item.HTGRBurnedOutTRISOPebble.name=Burned out TRISO Pebble (%s)
-item.HTGRHTGRFuelMixture.name=HTGR fuel mixture (%s)
-item.HTGRTRISOBall.name=TRISO ball (%s)
-item.HTGRTRISOPebble.name=TRISO pebble (%s)
-item.HTGRTRISOPebbleCompound.name=TRISO pebble compound (%s)
+item.HTGR.fuel.Plutonium=플루토늄
+item.HTGR.fuel.Thorium=토륨
+item.HTGR.fuel.Uranium=우라늄
+item.HTGRBISOPebbleCompound.name=BISO 페블 화합물 (%s)
+item.HTGRBurnedOutTRISOBall.name=소진된 TRISO 볼 (%s)
+item.HTGRBurnedOutTRISOPebble.name=소진된 TRISO 연료 구슬 (%s)
+item.HTGRHTGRFuelMixture.name=HTGR 연료 혼합물 (%s)
+item.HTGRTRISOBall.name=TRISO 구체 (%s)
+item.HTGRTRISOPebble.name=TRISO 연료 구체 (%s)
+item.HTGRTRISOPebbleCompound.name=TRISO 페블 복합체 (%s)
