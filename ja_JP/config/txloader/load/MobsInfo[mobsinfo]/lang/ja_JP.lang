@@ -48,6 +48,17 @@ mobsinfo.mobhandlerinfernal.inferno=インファーナル - %.3f%% (%.3f%%)
 mobsinfo.mobhandlerinfernal.tooltip_chance=ドロップ確率: %.4f%%
 mobsinfo.mobhandlerinfernal.tooltip_chance_always=確定ｲﾝﾌｧｰﾅﾙのMobからのドロップ確率: %.4f%%
 
+mobsinfo.mobhandlerfishing.title=Fishing Loot Table
+mobsinfo.mobhandlerfishing.format=Format:
+mobsinfo.mobhandlerfishing.format_1=Category name - x%
+mobsinfo.mobhandlerfishing.format_2=Item chances are per catch
+mobsinfo.mobhandlerfishing.format_3=Base chances are with
+mobsinfo.mobhandlerfishing.format_4=Luck of the Sea 0 and Lure 0
+mobsinfo.mobhandlerfishing.fish=Fish - %.2f%%
+mobsinfo.mobhandlerfishing.junk=Junk - %.2f%%
+mobsinfo.mobhandlerfishing.treasure=Treasure - %.2f%%
+mobsinfo.mobhandlerfishing.tooltip_chance=Chance to get: %.4f%%
+
 #Extras (compatibility)
 mobsinfo.extras.minecraft_slime=スライムが最小サイズのときにのみドロップします
 mobsinfo.extras.minecraft_magma_cube=マグマキューブが最小サイズ§nではない§r§fときにのみドロップします
@@ -107,3 +118,13 @@ mobsinfo.command.hidden.invalid_mob=§c無効なMob名です！
 mobsinfo.command.hidden.lock_error=§cMobの情報が開放されていないか、名前が間違っています！
 mobsinfo.command.hidden.success=§a成功しました！
 mobsinfo.command.hidden.invalid=§c無効な設定項目です！使用できる項目は次の通りです: %s
+
+mobsinfo.extras.minefantasy2_guts_looting=Chance is divided by (1 + Looting level).
+mobsinfo.extras.minefantasy2_burning=Only when the mob is burning.
+mobsinfo.extras.minefantasy2_not_burning=Only when the mob is not burning.
+mobsinfo.extras.minefantasy2_hunting_weapon=Requires a hunting weapon on the killing blow.
+mobsinfo.extras.minefantasy2_bow_skeleton=Only when the skeleton holds a bow.
+mobsinfo.extras.minefantasy2_original_item=Only when replacing a normal drop of %s.
+mobsinfo.extras.minefantasy2_tagged_sack=Only from MineFantasy II upgraded zombies.
+mobsinfo.extras.lootplusplus_player_credit=Requires player kill credit.
+mobsinfo.extras.lootplusplus_skeleton_kill=Only when killed by a skeleton.
