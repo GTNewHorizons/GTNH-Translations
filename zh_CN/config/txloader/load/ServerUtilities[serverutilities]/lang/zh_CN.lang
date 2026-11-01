@@ -30,25 +30,16 @@ serverutilities.stat.last_seen=最后在线
 serverutilities.stat.killed_by=死于%s
 serverutilities.stat.entities_killed=%ss死亡
 
-wip=仍在开发中！
-deprecated=该方法已被弃用，请使用 %s
 example=示例：
 click_here=[点击此处]
-feature_disabled=这个功能被禁用！
 feature_disabled_server=这个功能在服务器被禁用！
 error=错误：%s
 owner=组长：%s
 delete_item=你想要删除“%s”么？
-server_forced=服务器覆写了“%s”
 commands=命令
-my_permissions=我的权限
-all_permissions=所有权限
 key.categories.serverutilities=Server Utilities
 stand_still=请在传送前原地等待 %d 秒。
-stand_still_failed=因为你移动了！取消传送。
 teleporting=传送中……
-cooldown=冷却
-cant_use_now=现在无法使用！
 cant_use_now_cooldown=现在无法使用，冷却时间：%s
 action_bar=操作栏
 title=标题
@@ -108,10 +99,12 @@ serverutilities.afk.log_afk=记录AFK
 serverutilities.backups.enable_backups=启用备份
 serverutilities.backups.backup_timer=备份计时器
 serverutilities.backups.backups_to_keep=保留的备份数量
+serverutilities.backups.retention_policy=Backup Retention Policy
 serverutilities.backups.compression_level=压缩级别
 serverutilities.backups.backup_folder_path=备份文件夹路径
 serverutilities.backups.additional_backup_files=额外备份文件
 serverutilities.backups.use_separate_thread=使用独立线程
+serverutilities.backups.prefer_speed_over_backup_consistency=Prefer Speed Over Backup Consistency
 serverutilities.backups.display_file_size=显示文件大小
 serverutilities.backups.need_online_players=需要在线玩家
 serverutilities.backups.silent_backup=静默备份
@@ -237,10 +230,6 @@ serverutilities.server_info.admin_quick_access=管理员快速登录
 
 # Client Config
 serverutilities_client=客户端配置
-serverutilities_client.render_badges=显示徽章
-serverutilities_client.journeymap_overlay=启用旅行地图集成功能
-serverutilities_client.scan_items_whitelist=/scan_items Whitelist
-serverutilities_client.scan_items_blacklist=/scan_items Blacklist
 serverutilities_client.show_shutdown_timer=显示关机定时器
 serverutilities_client.shutdown_timer_start=关机定时器启动
 serverutilities_client.button_daytime=设置时间为白天
@@ -251,7 +240,6 @@ serverutilities_client.item_nbt=显示物品 NBT
 serverutilities_client.sidebar_buttons=侧边栏位置
 serverutilities_client.sidebar_buttons_above_potion=在药水标签上层绘制按钮
 serverutilities_client.sidebar_placement=侧边栏放置
-serverutilities_client.notification_location=通知位置
 serverutilities_client.show_dotted_lines=在加载的区块上显示虚线
 
 # Notification Config
@@ -410,13 +398,8 @@ sidebar_button.serverutilities.mail=邮件
 serverutilities.sidebar_button.reset=重置侧边栏
 serverutilities.sidebar_button.reset.tooltip=重置侧边栏位置
 
-serverutilities.admin_panel.file_browser=文件浏览器
 serverutilities.admin_panel.crash_reports=查看崩溃报告
-serverutilities.admin_panel.config=编辑配置
 serverutilities.admin_panel.claimed_chunks=查看所有已声明区块
-serverutilities.admin_panel.loaded_chunks=查看所有已加载区块
-serverutilities.admin_panel.whitelist=编辑白名单
-serverutilities.admin_panel.ops=编辑管理员
 serverutilities.admin_panel.edit_world=编辑世界
 serverutilities.admin_panel.ranks.player_ranks=玩家权限组
 serverutilities.admin_panel.ranks.select_rank=选择权限组
@@ -515,8 +498,10 @@ commands.ping.unknown=未知
 commands.ping.ping=Ping %s
 commands.backup.usage=/backup
 commands.backup.start.usage=/backup start <file name>
+commands.backup.prune.usage=/backup prune preview
 commands.backup.stop.usage=/backup stop
 commands.backup.getsize.usage=/backup getsize
+commands.backup.list.usage=/backup list
 commands.reload.usage=/reload [*|domain:*|domain:id]
 commands.my_settings.usage=/my_settings <config id> [value]
 commands.team.usage=/team
@@ -648,7 +633,6 @@ commands.tree_base.invalid_cmd.list_subcommands=无效子命令 “%s”！可�
 commands.tree_base.available_subcommands=可用子命令：%s
 
 # Backup
-cmd.timer_backup=距下一次备份：%s
 cmd.backup_start=服务器备份开始！
 cmd.backup_stop=服务器备份停止！
 cmd.backup_end_1=服务器备份在 %s 完成！
@@ -657,8 +641,39 @@ cmd.backup_fail=世界保存失败！(%s)
 cmd.backup_manual_launch=%s 启动了手动备份！
 cmd.backup_manual_launch_oc=%s 启动了仅限已声明区块的手动备份！
 cmd.backup_already_running=正在备份中！
+cmd.backup_manual_failed=Backup could not be started or completed. See the error above and the server log.
 cmd.backup_not_running=备份未在运行！
+cmd.backup_prune_header=Retention preview (nothing is deleted):
+cmd.backup_prune_entry=  %s %s | %s | %s | %s
+cmd.backup_prune_keep=KEEP
+cmd.backup_prune_delete=DELETE
+cmd.backup_prune_until=%s, until %s
+cmd.backup_prune_reason_rule=%s
+cmd.backup_prune_reason_latest=latest
+cmd.backup_prune_reason_latest_rule=latest, %s
+cmd.backup_prune_reason_replaced=replaced in %s
+cmd.backup_prune_reason_older=older than all rules
+cmd.backup_prune_reason_size=size limit
+cmd.backup_prune_reason_custom=custom
+cmd.backup_prune_reason_unreadable=unreadable
+cmd.backup_prune_reason_future=future date
+cmd.backup_prune_summary=Keep %s (%s), delete %s (%s).
+cmd.backup_prune_summary_none=Keep %s (%s), delete 0.
+cmd.backup_prune_allowance=Size allowance: %s of %s used.
+cmd.backup_prune_no_allowance=No size allowance set.
+cmd.backup_prune_limit=The rotation size allowance cannot be met without deleting protected backups, which will be preserved.
+cmd.backup_prune_error=Backup pruning skipped: %s
 cmd.backup_size=当前世界大小：%s，备份文件夹总大小：%s
+cmd.backup_list_none=No backups were found
+cmd.backup_list_error=Unable to list backups: %s
+cmd.backup_list_header=Backups: %s files, %s
+cmd.backup_list_file=  %s | %s | %s
+cmd.backup_when=%s (%s)
+cmd.backup_age_seconds=%ss ago
+cmd.backup_age_minutes=%sm ago
+cmd.backup_age_hours=%sh ago
+cmd.backup_age_days=%sd ago
+cmd.backup_age_future=future date
 serverutilities.gui.backup.title=恢复备份（%s）
 serverutilities.gui.backup.button=备份
 serverutilities.gui.backup.restore=恢复
@@ -680,40 +695,25 @@ commands.pause_when_empty.mask.usage=/pause_when_empty mask <seconds>（临时�
 ## Buttons
 gui.accept=接受
 gui.add=添加
-gui.added=已添加
 gui.remove=移除
-gui.removed=已移除
 gui.close=关闭
-gui.open=打开
 gui.saved=已保存
 gui.loaded=已加载
 gui.info=信息
 gui.collapse_all=全部折叠
 gui.expand_all=全部展开
-gui.download=下载
-gui.downloaded=已下载
 gui.update=更新
-gui.updated=已更新
 gui.active=激活
 gui.inactive=停用
 gui.settings=设置
 gui.rename=重命名
 gui.search_box=搜索中……
-gui.move=移动
 gui.copy=复制
-gui.paste=粘贴
-gui.cut=剪切
 
 ## Labels
 gui.other=其他
-gui.server_forced=服务器强制加载：%s
 gui.online=在线
-gui.offline=离线
-gui.whitelist=白名单
-gui.blacklist=黑名单
 gui.color=颜色
-gui.downloading=下载中……
-gui.infinite=无限
 
 ## Sides
 facing.north=北
@@ -724,7 +724,6 @@ facing.east=东
 relative_facing.bottom=底
 relative_facing.top=顶
 relative_facing.back=后
-relative_facing.front=前
 relative_facing.left=左
 relative_facing.right=右
 
@@ -734,9 +733,6 @@ serverutilities.lang.team.created=组“%s”已创建
 serverutilities.lang.team.id_already_exists=ID 已经注册！
 serverutilities.lang.team.id_invalid=ID 只能够包含小写的 a-z、_ 和 | 字符！
 serverutilities.lang.team.deleted=组“%s”已删除
-serverutilities.lang.team.member_left=%s 离开了你的组！
-serverutilities.lang.team.member_joined=%s 加入了你的组！
-serverutilities.lang.team.transferred_ownership=新的组长是 %s
 serverutilities.lang.team.invited=已邀请 %s 到“%s”组
 serverutilities.lang.team.invited_you=你被邀请加入“%s”，邀请者是 %s。点击这里加入！
 serverutilities.lang.team.cancel_invite=取消邀请
@@ -747,13 +743,10 @@ serverutilities.lang.team.error.not_owner=你不是这个组的组长！
 serverutilities.lang.team.error.not_member=%s 不是这个组的组员！
 serverutilities.lang.team.error.already_member=%s 已是这个组的组员！
 serverutilities.lang.team.error.must_transfer_ownership=你必须转让所有权！
-serverutilities.lang.team.error.already_invited=%s 已被邀请！
-serverutilities.lang.team.error.failed_to_join=不能加入这个组！
 serverutilities.lang.team.permission.set=权限“%s”对于 %s 设置为 %s
 serverutilities.lang.team.permission.owner=不能改变组长的权限！
 serverutilities.lang.team.notification=你还没有加入或创建组！%s 来打开组队GUI，%s 来隐藏此信息。
 serverutilities.lang.team.notification.hide=隐藏此信息
-serverutilities.lang.team.chat_message=[组 %s] %s
 
 team_action.serverutilities.select_team=选择想要加入的组
 team_action.serverutilities.create_team=创建一个新的组
@@ -761,7 +754,6 @@ team_action.serverutilities.members=组员
 team_action.serverutilities.allies=盟友
 team_action.serverutilities.moderators=管理者
 team_action.serverutilities.enemies=敌人
-team_action.serverutilities.change_team=加入其他组
 team_action.serverutilities.leave=离开组
 team_action.serverutilities.leave.confirmation=警告！如果这样做，您可能会丢失任务进度和其他东西！
 team_action.serverutilities.transfer_ownership=转让所有权
@@ -784,7 +776,6 @@ serverutilities.lang.team_status.mod=管理者
 serverutilities.lang.team_status.owner=组长
 
 # Privacy Level
-privacy=隐私
 privacy.public=公共的
 privacy.private=私有的
 privacy.team=组
@@ -804,15 +795,11 @@ io_mode.out=仅输出
 io_mode.none=禁用
 
 # Click Actions
-click_action.cmd=命令
-click_action.show_cmd=显示命令
 click_action.url=打开 URL
 click_action.file=打开文件
-click_action.gui=打开 GUI
 
 # Aurora
 aurora=Server Utilities Aurora
-aurora.port=端口
 
 # JourneyMap
 serverutilities.jm.own_team=你的组

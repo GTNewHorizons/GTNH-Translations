@@ -126,6 +126,13 @@ kubatech.chat.eec.ritual_mode_error=无法连接到仪式！
 kubatech.chat.eec.infernal_drops_enabled=允许精英怪生成
 kubatech.chat.eec.infernal_drops_disabled=将尝试阻止生成精英怪
 
+kubatech.chat.mia.primary_mode.input=Changed primary mode to: Input mode
+kubatech.chat.mia.primary_mode.output=Changed primary mode to: Output mode
+kubatech.chat.mia.primary_mode.operating=Changed primary mode to: Operating mode
+kubatech.chat.mia.secondary_mode.normal=Changed secondary mode to: Normal mode
+kubatech.chat.mia.secondary_mode.swarmer=Changed secondary mode to: Swarmer mode
+kubatech.chat.mia.not_empty=§cCan't swap between Swarmer/Normal mode while Bees are present!
+
 # info data
 ## general
 kubatech.infodata.running_mode=运行模式：
@@ -244,8 +251,8 @@ item.arc_furnace_electrode.tip.durability=耐久：%s/%s
 item.arc_furnace_electrode.tip.speed=速度: %s
 item.arc_furnace_electrode.tip.parallel_limit=并行：%s
 item.arc_furnace_electrode.tip.parallel_limit_none=无
-item.arc_furnace_electrode.tip.oc=超频系数：%s%s
-item.arc_furnace_electrode.tip.eu_modifier=EU修正：%s
+item.arc_furnace_electrode.tip.overclock=Overclock: %s/%s
+item.arc_furnace_electrode.tip.eu_usage=EU Usage: %s
 item.arc_furnace_electrode.tip.startup_penalty=启动惩罚：%s
 item.arc_furnace_electrode.tip.startup_amperage=启动电流：%sA
 

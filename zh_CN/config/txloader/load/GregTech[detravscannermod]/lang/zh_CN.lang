@@ -19,10 +19,10 @@ detrav.scanner.found.texts.3= §2中等(30-59)§r.
 detrav.scanner.found.texts.4= §e较多(60-99)§r.
 detrav.scanner.found.texts.5= §d极多(100+)§r.
 detrav.scanner.found.texts.6=发现 %s
+detrav.scanner.found.fluid=流体
 
-# Don't translate "%badluck"
 detrav.scanner.success=全部区块勘探成功!
-detrav.scanner.fail=%badluck区块勘探失败，祝你下次好运！
+detrav.scanner.fail.chunks=%s个区块扫描失败。祝下次好运！
 
 detrav.scanner.prospecting=正在勘探
 
@@ -37,6 +37,7 @@ tooltip.detrav.scanner.success.chance=扫描成功几率：§r%s%%
 tooltip.detrav.scanner.distance.0=在你旁边(距离0区块)，离你很近(1-2)
 tooltip.detrav.scanner.distance.1=中等距离(3-5)，长距离(6-8)，很远(9+)
 
+gui.detrav.scanner.all=所有
 gui.detrav.scanner.pollution=污染
 gui.detrav.scanner.gibbl=单位
 gui.detrav.scanner.unknown_fluid=未知流体!
@@ -53,3 +54,7 @@ gui.detrav.scanner.hint.invert=双击以反转背景颜色
 # Prospector scanners
 gt.detrav.metatool.01.name=探矿仪（%s）
 gt.detrav.metatool.01.electric.name=电子探矿仪（%s）
+
+# Chats
+detrav.scanner.chat.cancel=已取消待处理的扫描
+detrav.scanner.chat.scanning=扫描中……

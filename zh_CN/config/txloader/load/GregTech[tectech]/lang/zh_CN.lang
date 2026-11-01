@@ -20,6 +20,7 @@ tile.reactorSim.desc.1=爆炸，但没有那么多...
 
 gt.spacetime_compression_field_generator.name=压缩时空场发生器 
 gt.time_acceleration_field_generator.name=时间膨胀场发生器
+gt.stabilisation_field_generator.name=Stabilisation Field Generator
 
 tile.Forge of the Gods Renderer.name=诸神之锻炉渲染器
 
@@ -1077,15 +1078,7 @@ gt.blockmachines.machine.tt.datareader.desc.0=读取闪存和数据球
 gt.blockmachines.machine.tt.datareader.desc.1=给它通电，然后
 gt.blockmachines.machine.tt.datareader.desc.2=将数据存储物放进去
 
-gt.blockmachines.machine.tt.buck.05.name=IV降压变压器
-gt.blockmachines.machine.tt.buck.06.name=LuV降压变压器
-gt.blockmachines.machine.tt.buck.07.name=ZPM降压变压器
-gt.blockmachines.machine.tt.buck.08.name=UV降压变压器
-gt.blockmachines.machine.tt.buck.09.name=UHV降压变压器
-gt.blockmachines.machine.tt.buck.10.name=UEV降压变压器
-gt.blockmachines.machine.tt.buck.11.name=UIV降压变压器
-gt.blockmachines.machine.tt.buck.12.name=UMV降压变压器
-gt.blockmachines.machine.tt.buck.13.name=UXV降压变压器
+gt.blockmachines.machine.tt.buck.name=%1$s Buck Converter
 gt.blockmachines.machine.tt.buck.desc.0=电压调节器
 gt.blockmachines.machine.tt.buck.desc.1=可调降压变压器
 gt.blockmachines.machine.tt.buck.desc.2=开关电源...
@@ -1095,6 +1088,9 @@ gt.blockmachines.machine.tt.tesla.02.name=进阶特斯拉收发器
 gt.blockmachines.machine.tt.tesla.03.name=霄龙特斯拉收发器
 gt.blockmachines.machine.tt.tesla.04.name=极限特斯拉收发器
 gt.blockmachines.machine.tt.tesla.05.name=疯狂特斯拉收发器
+gt.blockmachines.machine.tt.tesla.small.name=Small %s
+gt.blockmachines.machine.tt.tesla.large.name=Large %s
+gt.blockmachines.machine.tt.tesla.huge.name=Huge %s
 gt.blockmachines.machine.tt.tesla.desc.0=你选择的特斯拉I/O机器
 gt.blockmachines.machine.tt.tesla.desc.1=富人的闪电洪炉
 
@@ -1698,12 +1694,6 @@ tt.IUPAC.ium=元素
 tt.IUPAC.Anti=反
 tt.keyword.Weird=*
 
-tt.tooltip.mark_general=：跨维度
-tt.tooltip.mark_em=：元物质
-tt.tooltip.theta_movement=：θ运动
-tt.tooltip.cosmic_mark=：寰宇
-tt.tooltip.godforge_mark=：神锻计划
-
 tt.chat.debug.generator=激光模式：%s
 
 GT5U.gui.config.general.debug=调试
@@ -1868,6 +1858,16 @@ tt.spaceminer.calculator.asteroidChance=%s
 tt.spaceminer.filter.minableAsteroids=当前可开采的小行星用于
 tt.spaceminer.filter.noValidInputs=无效输入！
 tt.spaceminer.filter.addOre=点击将此矿石添加到过滤器
+# Space Pump
+tt.spacepump.batchslider=Modifies the current batch recipe time (in s)
+tt.spacepump.rate=Pumps %s/s
+tt.spacepump.ratemax=Up to %s/s per recipe
+tt.spacepump.pendingqueue=Confirm or modify selected recipes:
+tt.spacepump.planettier=%d阶
+tt.spacepump.utilityapply=&aApply&r & &4overwrite&r existing recipes\n&eEmpty slots will unset running recipes!
+tt.spacepump.utilityremove=Click to remove selected fluid
+tt.spacepump.utilityselected=Selected: &c%s
+tt.spacepump.utilitypanelButtonTooltip=Open Space Pump Quick Picker\n - &6Click&r any &3fluid&r to add it to list (&aallows multiple&r)\n - &6Click&r on the preview slots at the bottom to free the slot\n - &6Click&r on the &2Apply&r button to change the &3pumps&r config
 
 # Gui
 tt.gui.tooltip.power_pass=导能

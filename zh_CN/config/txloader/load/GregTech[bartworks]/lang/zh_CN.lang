@@ -128,7 +128,7 @@ tooltip.windmeter.4.name=正常
 tooltip.windmeter.5.name=相当强
 tooltip.windmeter.6.name=极强
 tooltip.windmeter.7.name=太强了
-tooltip.windmeter.8.name=这里的风似乎...
+tooltip.windmeter.8.name.s=这里的风似乎%s。
 tooltip.rotor.0.name=直径:
 tooltip.rotor.1.name=耐久:
 tooltip.rotor.2.name=效率:
@@ -136,13 +136,10 @@ tooltip.rotor.3.name=速度:
 tooltip.rotor.4.name=输出:
 tooltip.cp.0.name=内部是否有编程电路?
 
-tooltip.bw.0.name=添加者: 
-tooltip.bw.1.name=添加者：bartimaeusnek,模组：
 tooltip.bw.yes.name=是
 tooltip.bw.no.name=否
 tooltip.bw.tier.name=等级:
 tooltip.bw.empty.name=空
-tooltip.bw.mb_via.name=%s§7 via §2BartWorks
 
 tooltip.bw.item.circuit.tagged.imprint=一个压印%s
 tooltip.bw.item.circuit.tagged.sliced=一个切片%s
@@ -218,8 +215,8 @@ nei.biovat.2.name=最小剂量 %s Sv
 nei.biovat.input.tooltip=基于输出率，消耗至多1,001倍的NEI流体原料
 nei.biovat.output.tooltip=基于输出仓中的流体储量，输出至多1,001倍的NEI流体产物
 
-tile.diode.name=线缆二极管
-tile.energydistributor.name=能量分配器
+gt.blockmachines.diode.name=%1$s %2$sA Cable Diode
+gt.blockmachines.energydistributor.name=%1$s能量分配器
 tile.acidgenerator.name=酸性发电机
 tile.acidgenerator.tier.1.name=基础酸性发电机
 tile.acidgenerator.tier.2.name=进阶酸性发电机
@@ -254,7 +251,9 @@ item.BurnedOutTRISOPelletBall.name=枯竭TRISO燃料球
 item.BurnedOutTRISOPellet.name=枯竭TRISO燃料丸
 
 item.CircuitParts.Imprint.name=压印电路
+item.CircuitParts.Imprint.tagged.name=压印电路（%s）
 item.CircuitParts.Sliced.name=切片电路
+item.CircuitParts.Sliced.tagged.name=切片电路（%s）
 item.CircuitParts.RawImprintBoard.name=压印基板原料
 item.CircuitParts.ImprintBoard.name=压印基板
 item.CircuitParts.Wrap.name=封装%s
