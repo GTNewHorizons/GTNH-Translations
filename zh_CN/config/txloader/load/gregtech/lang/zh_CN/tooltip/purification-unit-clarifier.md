@@ -1,9 +1,9 @@
-{aqua:{bold:Water Tier: }}{color_tier:{var:tier}}
-Must be linked to a Purification Plant using a {color_name:{item:gregtech:gt.metaitem.01:32708}} to work
+{aqua:{bold:净水等级：}}{color_tier:{var:tier}}
+需要用{color_name:{item:gregtech:gt.metaitem.01:32708}}将其连接到净化厂才能进行工作
 {hr}
-Requires an {color_key:{var:filter}} in the input bus to work
-Every cycle, has a {color_misc:{var:filter_chance}%} chance to destroy the filter
+输入总线中必须放入{color_key:{var:filter}}才能工作
+每次工作有{color_misc:{var:filter_chance}%}的概率损坏过滤器
 {hr}
-{aqua:{italic:The first step to acquiring purified water is to filter out macroscopic contaminants through the}}
-{aqua:{italic:use of large physical filters. As more contaminants are captured, the efficacy of the filter}}
-{aqua:{italic:decreases so continual replacements must be supplied to maintain full function of the Clarifier.}}
+{aqua:{italic:获得净化水的第一步是使用大规模物理过滤来滤除宏观污染物。}}
+{aqua:{italic:随着被滤除的污染物增加，滤网的功效将会下降。}}
+{aqua:{italic:所以要保证澄清器的高效工作，必须持续更换滤网。}}

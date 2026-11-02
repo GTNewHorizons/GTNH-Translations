@@ -1,1 +1,1 @@
-Dense types of steam are so energy packed, they only require 1/1000th of the original flow
+致密蒸汽的能量密度非常高,使用它们的话只需要原来流量的1/1000!

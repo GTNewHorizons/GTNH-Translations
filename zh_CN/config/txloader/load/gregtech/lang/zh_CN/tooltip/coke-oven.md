@@ -1,2 +1,2 @@
-Turns Logs into {color_key:Charcoal} and Coal into {color_key:Coke}
-Produces {color_key:Creosote Oil} as a byproduct
+将原木转化为{color_key:木炭}，将煤炭转化为{color_key:焦炭}
+并产生{color_key:杂酚油}作为副产物

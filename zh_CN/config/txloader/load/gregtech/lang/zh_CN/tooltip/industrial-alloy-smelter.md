@@ -1,2 +1,2 @@
 {hr}
-Every {color_heat:{var:heat_per_poc}{K}} above the recipe requirement grants {color_mechanic:1 4/4 Perfect Overclock}
+炉温每超出配方需求{color_heat:{var:heat_per_poc}{K}}，获得{color_mechanic:一次4/4无损超频}

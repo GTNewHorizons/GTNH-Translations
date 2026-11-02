@@ -1,6 +1,6 @@
-Same throughput as 16 LPT with only 12 turbines
-Generates power from Plasma based on the turbine and fitting
-Outputs 1 {L} of fluid for every 1 {L} of Plasma
+仅使用12个涡轮，但运行速度相当于16台同类大型涡轮
+基于涡轮和模式，利用等离子体发电
+1 {L}等离子体输出1 {L}对应流体
 #include:gregtech:xl-turbine-fitting
-Plasma fuel efficiency is lower for high tier turbines when using low-grade plasmas
-Efficiency = ((FuelValue / 200,000)^2) / ({EU} per Turbine)
+高阶涡轮使用低阶等离子体时，燃料效率降低
+效率 = ((燃值 / 200,000)^2) / (每台涡轮的{EU})

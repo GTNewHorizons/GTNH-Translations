@@ -1,4 +1,4 @@
-Assisting in all your DTPF needs!
-Set the number of {color_parallel:parallels} in the controller menu
-All inputs scale, except time...
-{color_note:Power is only pulled from wireless networks}
+满足超维度等离子锻炉所需！
+在控制器的菜单中设置{color_parallel:并行数}
+所有输入将按比例增加，但时间除外……
+{color_note:只能从无线EU网络接收能量}

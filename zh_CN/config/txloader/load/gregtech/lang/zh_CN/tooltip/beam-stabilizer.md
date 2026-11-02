@@ -1,4 +1,4 @@
-Accepts and stores up to {color_amount:{var:max_particles}} {green:Particles} from potentially intermittent high {red:Rate} beam packets
-Re-releases those particles as a stable beam at a {red:Rate} of your choosing
+接受并存储来自潜在的不连续高{red:通量}粒子束流源的最多{color_amount:{var:max_particles}}个{green:粒子}
+并重新以稳定束流的形式释放这些粒子，输出{red:通量}可由你自己选择
 {hr}
-If a beam with a different {green:Particle}, {blue:Energy} or {aqua:Focus} arrives during operation, it is ignored unless no {green:Particles} are stored
+若输入的粒子束流具有不同的{green:粒子类型}、{blue:能量}或{aqua:聚焦}，且机器正在运行，该束流将会被忽略，除非机器当前并没有存储{green:粒子}

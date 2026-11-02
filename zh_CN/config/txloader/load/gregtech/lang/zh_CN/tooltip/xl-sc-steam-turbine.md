@@ -1,5 +1,5 @@
-Same throughput as 16 LST-SC with only 12 turbines
-Generates power from regular or dense Supercritical (SC) Steam based on the turbine and fitting
-Outputs 1 {L} of Superheated (SH) Steam for every 1 {L} of Supercritical Steam
+仅使用12个涡轮，但运行速度相当于16台同类大型涡轮
+基于涡轮和模式，利用常规或致密超临界蒸气发电
+1 {L}超临界蒸气输出1 {L}过热蒸气
 #include:gregtech:xl-turbine-fitting
 #include:gregtech:xl-turbine-dense-steam

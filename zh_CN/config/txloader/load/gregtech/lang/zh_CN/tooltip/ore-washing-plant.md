@@ -1,2 +1,2 @@
 {hr}
-Use a {color_name:Screwdriver} to switch modes
+使用{color_name:螺丝刀}切换模式

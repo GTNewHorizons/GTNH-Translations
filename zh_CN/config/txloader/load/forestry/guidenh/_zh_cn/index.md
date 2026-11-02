@@ -5,6 +5,6 @@ navigation:
   position: 20
 ---
 
-# Bee with You
+# 与蜂同行
 
-Guides for Forestry beekeeping.
+林业养蜂指南。

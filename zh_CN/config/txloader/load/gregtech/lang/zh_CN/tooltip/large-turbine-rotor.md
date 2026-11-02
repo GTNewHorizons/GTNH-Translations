@@ -1,1 +1,1 @@
-Needs a Turbine, place inside controller
+需要在控制器内放入涡轮转子

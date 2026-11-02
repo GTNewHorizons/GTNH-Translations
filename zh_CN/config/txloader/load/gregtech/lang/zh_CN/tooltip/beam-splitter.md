@@ -1,2 +1,2 @@
-Select which particles to blacklist in the output hatches
-Input particles are split evenly among all valid output hatches
+在输出仓中选择要屏蔽的粒子
+输入的粒子将被均分到所有可用的输出仓中

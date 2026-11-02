@@ -1,18 +1,17 @@
-{aqua:{bold:Water Tier: }}{color_tier:{var:tier}}
-Must be linked to a Purification Plant using a {color_name:{item:gregtech:gt.metaitem.01:32708}} to work
+{aqua:{bold:净水等级：}}{color_tier:{var:tier}}
+需要用{color_name:{item:gregtech:gt.metaitem.01:32708}}将其连接到净化厂才能进行工作
 {hr}
-During operation, swap the lens in the {color_name:{var:housing}}
-The multiblock will output a signal through the {color_name:{var:indicator}}
-when the current lens must be swapped
-Lens swaps will be requested in random intervals of {color_time:{var:min_swap}} to {color_time:{var:max_swap} seconds}
+在工作时，需要更换{color_name:{var:housing}}中的透镜
+多方块结构会在需要更换当前透镜时，通过{color_name:{var:indicator}}输出信号
+透镜更换请求会以{color_time:{var:min_swap}}～{color_time:{var:max_swap}秒}的随机间隔发出
 {hr}
-Success chance is boosted by {color_misc:{var:success}%} for each successful swap performed
-Removing a lens too early will fail the recipe
-Find the order of lenses in the recipe in NEI,
-or use a portable scanner to view the currently requested lens
-The recipe always starts at the {color_key:{var:first_lens}}
+每次成功更换，成功率提高{color_misc:{var:success}%}
+过早取出透镜会导致配方失败
+可在 NEI 中查看配方的透镜顺序，
+或使用便携式扫描仪查看当前所需的透镜
+配方始终从{color_key:{var:first_lens}}开始。
 {hr}
-{aqua:{italic:The sixth step of water purification involves identifying any remaining negatively charged ions within}}
-{aqua:{italic:the water which may cause electrical faults in future wafer manufacturing. Bombarding the water with varying}}
-{aqua:{italic:wavelengths of photon beams will impart energy into outer-shell electrons, causing them to detach from the}}
-{aqua:{italic:atoms themselves and pass through the walls of the tank, ensuring the water is perfectly electrically polar.}}
+{aqua:{italic:净化水的第六步包括检出水中任何可能残留的负电荷离子——}}
+{aqua:{italic:这些离子会在后续晶圆制造中引发电气故障。}}
+{aqua:{italic:通过变化波长的光子束轰击水体，能量传递到原子外层电子，}}
+{aqua:{italic:使电子脱离原子并穿过容器罐壁逸出，从而确保水达到完美的电极化状态。}}

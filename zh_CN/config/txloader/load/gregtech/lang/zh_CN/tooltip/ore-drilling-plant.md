@@ -1,10 +1,10 @@
-Maximum area is {color_range:{var:chunk_diameter}x{var:chunk_diameter}} chunks ({color_range:{var:block_diameter}x{var:block_diameter}} blocks)
-In chunk mode, working area center is the chunk corner nearest to the drill
-Requires {color_key:Drilling Fluid} to operate
-Gives {color_speed:~{var:ore_multiplier}x} as much crushed ore vs normal processing
-Grants a Fortune bonus of {color_amount:{var:fortune}} and only works on small ores
-Base cycle time: {color_time:{var:cycle_time}}
+工作范围：最大{color_range:{var:chunk_diameter}x{var:chunk_diameter}}区块（{color_range:{var:block_diameter}x{var:block_diameter}}格）
+区块加载模式下，工作区域中心为最靠近采矿场的区块角落
+需要{color_key:钻井液}来运行
+采矿场输出的粉碎矿石数量约为正常处理的{color_speed:~{var:ore_multiplier}x}
+增产（时运）{color_amount:{var:fortune}}。只对贫瘠矿有效
+基础工作周期：{color_time:{var:cycle_time}}
 {hr}
-Use a {white:Screwdriver} to configure working area
-Use a {white:Soldering iron} to turn off chunk mode
-Use {white:Wire Cutters} to toggle replacing mined blocks with cobblestone
+使用{white:螺丝刀}调整采矿范围
+使用{white:电烙铁}关闭区块加载模式
+使用{white:剪线钳}关闭/激活圆石回填功能

@@ -1,11 +1,11 @@
-Heavy Industry, now right at your doorstep!
-{color_parallel:{var:parallels}} Parallels per {color_name:Pipe Casing} Tier
-{color_speed:0%} Speed {color_speed:+{var:speed}%} per {color_name:Heating Coil} Tier
-{color_mechanic:100%} Chance to damage catalyst {color_mechanic:-{var:catalyst_save}%} per {color_name:Pipe Casing} Tier
+重工业，近在咫尺！
+每级{color_name:管道方块}等级提供{color_parallel:{var:parallels}} 并行
+初始{color_speed:0%}运行速度，每级{color_name:加热线圈等级}增加{color_speed:+{var:speed}%}
+初始催化剂耐久损耗概率为{color_mechanic:100%}，每级{color_name:管道方块等级}使其变化{color_mechanic:-{var:catalyst_save}%}
 {hr}
-{color_name:Casing} Tier determines the Machine Tier and therefore the available recipes
-{color_name:Machine Casing} Tier determines the maximum Bus/Hatch Tier ({var:max_casing}§7 unlocks all)
-Tungstensteel Pipe Casings with at least {color_name:Awakened Draconium Coils} makes catalyst unbreakable
+工厂等级与可执行配方由{color_name:固体外壳}等级决定
+仓室等级不得高于{color_name:机械方块}等级，{var:max_casing}§7机械方块解锁所有等级
+{color_name:觉醒龙}（或以上）线圈，配合钨钢管道方块，可以使催化剂不损耗耐久。
 {hr}
-{color_mechanic:Catalysts} are unique, partially consumed items and stored in Catalyst Housing
-Each use reduces the catalyst's durability by one, scaling with the number of active parallels
+{color_mechanic:催化剂}是独特的、部分消耗的物品，存储在催化剂仓中
+每次运行消耗1点催化剂耐久，消耗量随激活的并行数缩放

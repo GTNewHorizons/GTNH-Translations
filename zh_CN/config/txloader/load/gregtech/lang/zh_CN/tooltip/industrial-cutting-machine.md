@@ -1,5 +1,5 @@
-Requires a {color_key:Sawblade} in the controller slot to run
-Better Sawblades give increased bonuses
-A {color_key:Transcendent Metal Sawblade} allows for a single {color_hatch:Multi-Amp Energy Hatch}
+需要在控制器槽位中放入{color_key:锯片}才能使用
+更好的锯片会提供更高的加成
+使用{color_key:超时空金属锯片}时，可允许一个{color_hatch:多A能源仓}
 {hr}
-Use a {color_name:Screwdriver} to disable animations
+使用{color_name:螺丝刀}关闭动画

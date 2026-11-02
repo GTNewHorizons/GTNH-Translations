@@ -1,4 +1,4 @@
 #include:gregtech:large-turbine-rotor
-Generates power from Plasma based on the turbine and fitting
-Outputs 1 {L} of fluid for every 1 {L} of Plasma
+使用等离子体发电，取决于转子与节流模式
+对每1 {L}等离子体，输出1 {L}流体
 #include:gregtech:large-turbine-fitting

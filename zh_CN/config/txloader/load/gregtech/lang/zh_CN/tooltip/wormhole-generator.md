@@ -1,8 +1,8 @@
-Transfers {EU} between two wormhole generators
-Wormholes are linked by placing an {color_key:AE2 Entangled Singularity} in each controller
-The transfer rate is limited by the wormhole size, and the wormhole size is governed by the transfer rate
-If the transfer rate is completely stable, the transfer efficiency is {color_efficiency:{var:transfer_efficiency}%}
-{EU} will only be transferred if there is space in the laser source hatch
-Each laser target must have a laser source on the {color_name:other} controller, on the {color_name:opposite} side
-Consumes an {color_key:AE2 Singularity} from an input bus each time the wormhole is kick-started
-Right-click with a {color_name:Screwdriver} to disable overclocking (max {var:overclock_limit} overclocks)
+在两台虫洞发生器间传输{EU}
+在控制器中放置成对的{color_key:AE2量子纠缠奇点}以建立虫洞连接
+传输速率受虫洞尺度限制，虫洞尺度受传输速率决定
+若传输速率完全稳定，传输效率为{color_efficiency:{var:transfer_efficiency}%}
+只有激光源仓中有空间时才会传输{EU}
+每个激光靶仓必须在{color_name:另一}端的控制器{color_name:对面}侧拥有一个激光源
+每当虫洞从零启动时，消耗输入总线中的一个{color_key:AE2奇点}
+用{color_name:螺丝刀}右键控制器以禁用超频（最多{var:overclock_limit}次超频）

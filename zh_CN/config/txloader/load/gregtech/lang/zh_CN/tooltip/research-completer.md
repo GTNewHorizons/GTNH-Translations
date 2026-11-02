@@ -1,2 +1,2 @@
-Completes Thaumcraft research notes using {EU} and {color_key:Thaumcraft Nodes}
-Place nodes in the center row
+使用{EU}和{color_key:神秘时代节点}来完成神秘时代的研究笔记
+将节点放在中间一排

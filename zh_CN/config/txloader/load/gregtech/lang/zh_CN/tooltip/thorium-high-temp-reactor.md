@@ -1,12 +1,12 @@
-Heats coolant with the radioactive decay of TRISO Pebbles
-Insert at least {gold:{var:min_pebbles} Pebbles} and {yellow:{var:helium} {L} Helium} to start
-Having any less than the maximum {var:max_pebbles} Pebbles reduces efficiency
+利用TRISO燃料球的放射性衰变加热冷却液
+需要至少{gold:{var:min_pebbles}颗燃料丸}和{yellow:{var:helium} {L}氦}才能开始运行
+燃料球数量低于最大值{var:max_pebbles}时，效率会降低
 {hr}
-A lower efficiency means a higher power cost and less hot coolant
-{color_eu_usage:Power Cost ({EU/t})}{color_formula: = {var:power_usage} / Efficiency}
-{color_hot:Hot Coolant ({L}/t)}{color_formula: = {var:coolant_rate} * Efficiency}
+效率越低，能耗越高，热冷却液产量越少
+{color_eu_usage:能耗（{EU/t}）}{color_formula: = {var:power_usage} / 效率}
+{color_hot:热冷却液（{L}/t）}{color_formula: = {var:coolant_rate} * 效率}
 {hr}
-Each operation is {light_purple:{var:duration} hours} regardless of the Pebble amount
-Consumes up to {gold:{var:consumption}%} of the stored {gold:Pebbles} and all the {yellow:Helium} at the start
-Outputs burned out TRISO Pebbles at the end
-There is no consequence for running out of coolant while running
+一次运行持续{light_purple:{var:duration}小时}，与燃料球数量无关
+开始时消耗最多{gold:{var:consumption}%}的已存储{gold:燃料球}及所有{yellow:氦}
+结束时输出燃耗殆尽的TRISO燃料球
+运行过程中耗尽冷却液不会造成后果

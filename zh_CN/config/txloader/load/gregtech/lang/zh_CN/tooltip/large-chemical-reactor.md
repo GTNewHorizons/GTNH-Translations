@@ -1,3 +1,3 @@
-Accepts fluids instead of fluid cells
-Can perform several direct recipes that skip intermediate compounds
-{color_mechanic:Performs 4/4 Perfect Overclocks}
+接受流体而非流体单元
+可以执行一些跳过中间产物的直接配方
+{color_mechanic:支持4/4无损超频}

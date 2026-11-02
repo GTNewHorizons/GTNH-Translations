@@ -1,23 +1,23 @@
-Main controller block for the Water Purification Plant
-Freely place {color_name:Purification Units} within {color_range:{var:distance}} blocks along each axis
-Left click this controller with a {color_name:{item:gregtech:gt.metaitem.01:32708}}, then right click a purification unit to link
-Supplies power to linked purification units
+净水厂的控制器方块
+{color_name:净化单元}可放置于每个方向的{color_range:{var:distance}}格范围内
+手持{color_name:{item:gregtech:gt.metaitem.01:32708}}左键本控制器，然后右键一台净化装置以链接
+为已链接的净化装置供能
 {hr}
-Works in fixed time processing cycles of {color_time:{var:cycle} seconds}
-All linked units follow this cycle
+运行时间固定为{color_time:{var:cycle}秒}的循环
+所有链接的净化装置共享此循环时间
 {hr}
-Every recipe has a base chance of success. Success rate can be boosted
-by using a portion of the target output as a secondary input
-{color_amount:{var:boost_fluid}%} of output yield will be consumed in exchange for an
-additive {color_misc:{var:boost_chance}%} increase to success
-On recipe failure, each purification unit has a {color_misc:50%} chance
-to return water of the same quality as the input or lower
+每级配方均有一个基础成功率，并可以通过
+将部分目标产物作为次要输入，来提高成功率
+消耗产物的{color_amount:{var:boost_fluid}%}可以获得
+额外的{color_misc:{var:boost_chance}%}配方成功率
+当配方失败时，每个净化装置均有{color_misc:50%}概率
+返回和输入相同或更低等级的净化水
 {hr}
-Every purification unit has a configuration window to configure maximum parallel amount
-This will only scale purified water input, ALL fluid output and power usage. Other catalysts and outputs are unchanged
-Toggle debug mode to reduce cycle time to {color_time:{var:debug_cycle} seconds} but disable water I/O
+每个净化装置均有一个配置窗口，可更改其最大并行数量
+这一并行只会增加净化水输入、所有液体输出和能源消耗. 其余催化剂和输出不受影响
+启用debug模式会将减少循环时间到{color_time:{var:debug_cycle}秒}，但不再输入和输出净化水
 {hr}
-{aqua:{italic:Contaminants and ionized particles in water can cause significant imperfections in delicate}}
-{aqua:{italic:processes related to the cutting and engraving of silicon wafers and chips. It is crucial that}}
-{aqua:{italic:the water is systematically purified through a series of increasingly precise and complex}}
-{aqua:{italic:purification processes, and this multiblock is the heart of the operation}}
+{aqua:{italic:水中的污染物与带电粒子，会在硅晶圆与芯片的切割、}}
+{aqua:{italic:蚀刻等精密工序中造成显著缺陷。因此，}}
+{aqua:{italic:必须通过一系列复杂性逐渐增加的过程对水进行系统性净化}}
+{aqua:{italic:而此多方块结构正是整套工艺的核心所在}}

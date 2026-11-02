@@ -1,2 +1,2 @@
-Fluids are output one per layer based on their slot number in {color_name:NEI}
-{color_note:Increase the height to output more fluid types}
+每层根据{color_name:NEI}中的槽位编号输出一种流体
+{color_note:增加高度来输出更多流体类型}

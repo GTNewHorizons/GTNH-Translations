@@ -1,4 +1,4 @@
-Fills in the area below it with {color_key:Light Concrete} to remove spawning locations
-Extends mining pipe to bedrock and fills bottom to top, going through walls
-Range is {color_range:{var:radius}x{var:radius}} blocks around controller (square)
-Base Cycle Time: {color_time:{var:cycle_time}}
+将在其下方填充{color_key:浅色混凝土}，以消除刷怪位置
+将采矿管道延伸至基岩，并从下往上填充，可穿墙
+工作范围（方形）：控制器周围{color_range:{var:radius}x{var:radius}}格
+基础工作周期：{color_time:{var:cycle_time}}

@@ -1,7 +1,7 @@
-Produces {color_steam:{var:steam_1_coal}{L}} {color_steam:Steam} per {color_key:Coal} at a rate of {color_steam:{var:steam_per_sec} {L}/s}
-Fuels with long burn times last longer
-Burning solid and liquid fuel at the same time gives a {color_speed:{var:multi_fuel_boost}%} speed boost
-{color_note:Fuels with low burn times do not work}
+每块{color_key:煤炭}产出{color_steam:{var:steam_1_coal}{L}}{color_steam:蒸汽}，速度{color_steam:{var:steam_per_sec} {L}/s}
+燃烧时间较长的燃料能燃烧更久
+允许同时燃烧固体和液体燃料，提供{color_speed:{var:multi_fuel_boost}%}速度加成
+{color_note:燃烧时间过短的燃料无法使用}
 {hr}
-Takes {color_time:{var:heat_seconds}} seconds to warm up
-A {color_name:Programmed Circuit} in the controller reduces output by {color_steam:{var:throttle_amount} {L}/s} per value
+加热耗时{color_time:{var:heat_seconds}}秒
+在控制器方块中放入{color_name:编程电路}以节流（每级降低{color_steam:{var:throttle_amount} {L}/s}的输出）

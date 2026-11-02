@@ -1,2 +1,2 @@
-Usable for Steel and general Pyrometallurgy
-All input/output is done manually through the controller
+用于炼钢或常规的热冶金
+仅能通过控制器手动进行输入输出

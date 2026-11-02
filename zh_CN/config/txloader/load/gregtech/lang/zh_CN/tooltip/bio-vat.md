@@ -1,9 +1,9 @@
-Advanced Bio Processing!
-Insert a {color_key:Culture} into the controller to set the bacteria
+进阶生物处理！
+在控制器中放入{color_key:培养皿}以设置细菌
 {hr}
-Some recipes require {green:R}{dark_green:A}{green:D}{dark_green:I}{green:A}{dark_green:T}{green:I}{dark_green:O}{green:N} from a {bold:{green:{lang:tooltip.bw.structure.radio_hatch}}}
-Radiation can be either a minimum requirement or an exact value
-The {green:{lang:tooltip.bw.structure.radio_hatch}} can be toggled with a {color_name:Machine Controller Cover}
+部分配方需要使用{bold:{green:{lang:tooltip.bw.structure.radio_hatch}}}来提供{green:辐}{dark_green:射}
+辐射要求可以为最小值或精确的数值
+{green:{lang:tooltip.bw.structure.radio_hatch}}可通过{color_name:机器控制器覆盖板}开关
 {hr}
-{color_efficiency:Efficiency} depends on the {color_name:Output Hatch} fluid level and peaks at {color_efficiency:50% capacity}
-Scales the input/output {bold:fluid} amounts up to {color_efficiency:{var:eff_mult}x}
+{color_efficiency:效率}取决于{color_name:输出仓}流体储量，在{color_efficiency:50%储量}时效率达到峰值
+将输入/输出{bold:流体}量按比例提升至最高{color_efficiency:{var:eff_mult}倍}

@@ -5,6 +5,6 @@ navigation:
   position: 10
 ---
 
-# Blood Magic
+# 血魔法
 
-Guides for Blood Magic.
+血魔法指南。

@@ -20,7 +20,7 @@ tile.reactorSim.desc.1=爆炸，但没有那么多...
 
 gt.spacetime_compression_field_generator.name=压缩时空场发生器 
 gt.time_acceleration_field_generator.name=时间膨胀场发生器
-gt.stabilisation_field_generator.name=Stabilisation Field Generator
+gt.stabilisation_field_generator.name=稳定力场发生器
 
 tile.Forge of the Gods Renderer.name=诸神之锻炉渲染器
 
@@ -906,29 +906,29 @@ gt.blockmachines.multimachine.FOG.moduleinfotext.fab.1=太阳热能等离子制�
 gt.blockmachines.multimachine.FOG.moduleinfotext.fab.2=第三个解锁的模块，拥有独特的配方树，能将材料直接转化为等离子体。这些配方按两种属性分组：§b聚变等级§6与§b合成所需步骤§6，限制了在各自升级解锁之前可以处理哪些配方。与常规聚变不同，这些配方会产出输入材料的等离子体。该模块拥有§b512§6基础并行数。
 gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.1=太阳聚变异化器
 gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.2=第四个、也是最后一个解锁的模块，能够生产§b夸克胶子等离子体§6，并在后续产出§b磁物质§6。该模块在自动化这两种材料时各有独特的挑战，且建议准备两个此类模块，因为它们只能同时产出其中一种材料。
-gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.3=The common rule for both modes' automation challenges is as follows: the module outputs materials at the start of a recipe cycle and waits for the correct inputs to arrive before starting the actual processing of the output material.
-gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.4=If producing §bQuark Gluon Plasma§6, the module outputs up to 7 different fluids/dusts with amounts between 1-64 and 1-7 respectively, and their corresponding plasmas and amounts have to be returned in order for the recipe to process. For each L of fluid, a bucket of plasma and for each dust 9 ingots worth of plasma must be returned for the recipe to work.
-gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.5=If §bMagmatter Mode§6 is active, the automation challenge changes. Now the module outputs 1-50L of §bTachyon Rich Temporal Fluid§6, 51-100L of §bSpatially Enlarged Fluid§6 and one dust of a high tier material. The challenge is to return both the Tachyon Rich and Spatially Enlarged Fluids, plus as much plasma of the dust's material (in ingots) as the difference between the amounts of Spatially Enlarged and Tachyon Rich Fluid. Once all of these have been returned in the correct amounts, the recipe will start to process and output Magmatter.
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.3=两种模式的自动化挑战都遵循以下通用规则：模块会在配方周期开始时输出材料，等待正确的输入送达后，才会开始实际加工目标产物。
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.4=生产§b夸克胶子等离子体§6时，模块会输出最多7种不同的流体或粉末，其中流体的数量为1-64，粉末的数量为1-7。必须按对应数量返还这些材料的等离子体，配方才能开始加工。每输出一升流体，就需返还一桶对应的等离子体；每输出一份粉末，就需返还相当于9锭的对应等离子体，配方才能运行。
+gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.5=启用§b磁物质模式§6后，自动化挑战会发生变化。此时，模块会输出1-50L的§b富快子时间流体§6、51-100L的§b扩大化空间流体§6，以及一份高阶材料的粉末。你需要返还这两种流体，还需返还与该粉末材质对应的等离子体；等离子体的用量以锭计，其数值等于扩大化空间流体与富快子时间流体的输出量之差。以上材料均按正确数量返还后，配方便会开始加工并产出磁物质。
 gt.blockmachines.multimachine.FOG.moduleinfotext.exotic.6=此模块拥有§b64§6基础并行数
 
-gt.blockmachines.multimachine.FOG.upgradeinfotext.1=Upgrades are the heart and soul of the Forge, they unlock most of its functionality and processing power. The §bUpgrade Tree§6 can be accessed via its button on the main GUI, and each upgrade node can be clicked for more information on its effects and unlock requirements.
-gt.blockmachines.multimachine.FOG.upgradeinfotext.2=In general, each upgrade can only be unlocked if the prior one is unlocked and there are enough available §bGraviton Shards§6. One exception to this is the first upgrade, which has no prior upgrade. Some upgrades also have extra material costs, which are denoted next to the unlock button if applicable.
-gt.blockmachines.multimachine.FOG.upgradeinfotext.3=If an upgrade has more than one connected prior upgrade, then there are two options. The upgrade requires either:
-gt.blockmachines.multimachine.FOG.upgradeinfotext.4=- All prior upgrades (§4Red§a connections)\n- At least one prior upgrade (§9Blue§a connections)
-gt.blockmachines.multimachine.FOG.upgradeinfotext.5=Upgrades can be refunded by pressing the §bRespec§6 button, but this only works if ALL connected later upgrades are not active/unlocked.
-gt.blockmachines.multimachine.FOG.upgradeinfotext.6=The block of upgrades following the unlock of the Heliofusion Exoticizer module are special, as they are what is considered §bThe Split§6. As the name suggests, only one path out of the three may be chosen at first, and the others will be locked. Each path has specialized buffs that are primarily targeted towards a specific module, and thus affect other module types with reduced effect (unless stated otherwise). The amount of unlockable paths depends on the §bAmount of Rings§6 the Forge has, which in turn is limited by later upgrades.
+gt.blockmachines.multimachine.FOG.upgradeinfotext.1=升级是神锻的核心，神锻的大部分功能与加工能力都需要通过升级解锁。点击主界面中的对应按钮即可打开§b升级树§6，再点击各个升级节点，即可查看其效果和解锁条件的详细信息。
+gt.blockmachines.multimachine.FOG.upgradeinfotext.2=通常，只有解锁前置升级并拥有足够的可用§b引力子碎片§6后，才能解锁对应升级。首个升级是例外，因为它没有前置升级。部分升级还需要额外消耗材料，如有此类需求，所需材料会显示在解锁按钮旁。
+gt.blockmachines.multimachine.FOG.upgradeinfotext.3=若某项升级连接了多个前置升级，则有两种选择。该升级需要满足其一：
+gt.blockmachines.multimachine.FOG.upgradeinfotext.4=- 全部前置升级（§4红色§a连线）\n- 至少一项前置升级（§9蓝色§a连线）
+gt.blockmachines.multimachine.FOG.upgradeinfotext.5=按下 §b重置§6 按钮可退还升级点，但仅当所有已连接的后续升级均未激活/解锁时才有效。
+gt.blockmachines.multimachine.FOG.upgradeinfotext.6=解锁太阳聚变异化器模块之后的那一组升级较为特殊，被称为§b分支§6。顾名思义，最初只能从三条路线中选择一条，其余路线会被锁定。每条路线都提供主要针对某一特定模块的专属增益，因此对其他类型模块的增益效果会减弱（另有说明的除外）。可解锁的路线数量取决于神锻的§b环数§6，而环数又受后续升级限制。
 
-gt.blockmachines.multimachine.FOG.milestoneinfotext.1=Milestones are essential for upgrading the Forge, as they are the source of §bGraviton Shards§6, the main currency needed for unlocking upgrades. In essence, milestones are just what their name suggests, thresholds that when reached, grant Graviton Shards.
-gt.blockmachines.multimachine.FOG.milestoneinfotext.2=There are four types of milestones, Charge, Conversion, Catalyst and Composition, each referring to a stat of the Forge. Each milestone has §bseven§6 tiers, each being harder to reach than the last, but also granting more Graviton Shards. The first tier grants 1 Shard, the second 2, the third 3 and so on.
-gt.blockmachines.multimachine.FOG.milestoneinfotext.3=The §bCharge§6 milestone scales off total power consumption of all modules combined, the first tier being unlocked at §b1e15§6 EU consumed, and each subsequent milestone scaling by §b9x§6.
-gt.blockmachines.multimachine.FOG.milestoneinfotext.4=The §bConversion§6 milestone scales off total recipes processed across all modules (excluding the Helioflare Power Forge's furnace mode) and its first tier is unlocked at §b10M§6 processed recipes. Following tiers scale by §b4x§6.
-gt.blockmachines.multimachine.FOG.milestoneinfotext.5=The §bCatalyst§6 milestone is based on the Forge's fuel consumption, counted in Stellar Fuel units (the number entered in the fuel config menu). Reaching the first tier requires §b10,000§6 fuel units to be consumed, and each tier above scales by §b3x§6.
-gt.blockmachines.multimachine.FOG.milestoneinfotext.6=Last but not least, the §bComposition§6 milestone works a bit differently, as it scales off the Forge's structure. Milestone levels are granted for each unique type of module present in the structure (Heliofusion Exoticizer modules on Quark Gluon and Magmatter Modes count as unique), and for each additional ring built.
-gt.blockmachines.multimachine.FOG.milestoneinfotext.7=Your research suggests that something strange might happen if all milestones reach their final tier... Make sure to check back!
+gt.blockmachines.multimachine.FOG.milestoneinfotext.1=里程碑对升级神锻至关重要，因为它们是§b引力子碎片§6的来源，而引力子碎片是解锁升级所需的主要货币。顾名思义，里程碑就是一系列目标阈值，达到后便会获得引力子碎片。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.2=里程碑共有四种：充能、转换、催化和构造，分别对应神锻的一项统计数据。每种里程碑都有§b七§6个等级，达成难度逐级提高，奖励的引力子碎片也逐级增加。第一级奖励1枚碎片，第二级奖励2枚，第三级奖励3枚，以此类推。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.3=§b充能§6里程碑根据所有模块的累计总耗电量计算进度。累计消耗§b1e15§6 EU即可解锁第一级，此后每一级所需的累计耗电量均为前一级的§b9倍§6。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.4=§b转换§6里程碑根据所有模块累计完成的配方数量计算进度（不包括太阳烈焰能量锻炉的熔炉模式）。累计完成§b10M§6次配方即可解锁第一级，此后每一级所需的累计配方数量均为前一级的§b4倍§6。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.5=§b催化§6里程碑根据神锻的燃料消耗量计算进度，以星辉燃料单位计数（即燃料配置菜单中输入的数值）。累计消耗§b10,000§6单位燃料即可达到第一级，此后每一级所需的累计燃料消耗量均为前一级的§b3倍§6。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.6=最后是§b构造§6里程碑，其计算方式略有不同，进度取决于神锻的结构。结构中每增加一种不同类型的模块，或每额外建造一环，都会提升里程碑等级（夸克胶子模式和磁物质模式下的太阳聚变异化器视为两种不同类型）。
+gt.blockmachines.multimachine.FOG.milestoneinfotext.7=你的研究表明，若所有里程碑都达到最终等级，可能会发生某种奇异现象……记得回来查看！
 
-gt.blockmachines.multimachine.FOG.inversioninfotext.1=Once all milestones of the Forge reach §bTier 7§6, inversion activates. This uncaps the maximum tier of all milestones and allows it to scale §binfinitely§6.
-gt.blockmachines.multimachine.FOG.inversioninfotext.2=The scaling of each milestone changes from exponential to linear, but the granted Graviton Shard amount keeps increasing. The amount of progress needed for each subsequent milestone is as much as needed for the §b7th tier§6 of each milestone.
-gt.blockmachines.multimachine.FOG.inversioninfotext.3=The Composition milestone is once again an exception, as that continues to scale by 1 each tier, with its own formula for calculating progress. Each module type is given a value, ranging from §b1§6 for the Helioflare Power Forge to §b5§6 for the Heliofusion Exoticizer in Magmatter Mode, then the amount of each module present is subtracted by 1 and multiplied by its value. These values are added up and divided by 5, this is the final milestone tier on top of the base 7.
+gt.blockmachines.multimachine.FOG.inversioninfotext.1=当熔炉的所有里程碑达到 §b7 级§6 后，反转便会激活。这会解除所有里程碑的等级上限，使其可 §b无限§6 成长。
+gt.blockmachines.multimachine.FOG.inversioninfotext.2=各项里程碑的进度要求会从指数增长变为线性增长，但奖励的引力子碎片数量仍会继续增加。此后，每提升一级所需的进度增量，均等于对应里程碑达到§b第7级§6所需的进度。
+gt.blockmachines.multimachine.FOG.inversioninfotext.3=构造里程碑再次成为例外：它仍按每次增加1级的方式提升，但采用独立的进度计算公式。每种模块都有一个权重，从太阳烈焰能量锻炉的§b1§6到磁物质模式下太阳聚变异化器的§b5§6不等。先将每种现有模块的数量减去1，再乘以该类模块的权重；将所有结果相加后除以5，所得数值就是在基础7级之上额外获得的里程碑等级。
 
 gt.blockmachines.multimachine.FOG.contributors=贡献者
 gt.blockmachines.multimachine.FOG.lead=项目主管
@@ -1025,7 +1025,7 @@ achievement.gt.metaitem.03.32157=光学主机
 
 # Parts
 achievement.gt.metaitem.01.32017=电动马达（UIV）
-achievement.gt.metaitem.01.32021=电动活塞(UIV)
+achievement.gt.metaitem.01.32021=电动活塞（UIV）
 achievement.gt.metaitem.01.32025=电动泵(UIV)
 achievement.gt.metaitem.01.32029=传送带(UIV)
 achievement.gt.metaitem.01.32033=机械臂(UIV)
@@ -1034,7 +1034,7 @@ achievement.gt.metaitem.01.32041=传感器(UIV)
 achievement.gt.metaitem.01.32045=力场发生器(UIV)
 
 achievement.gt.metaitem.01.32018=电动马达（UMV）
-achievement.gt.metaitem.01.32022=电动活塞(UMV)
+achievement.gt.metaitem.01.32022=电动活塞（UMV）
 achievement.gt.metaitem.01.32026=电动泵(UMV)
 achievement.gt.metaitem.01.32030=传送带(UMV)
 achievement.gt.metaitem.01.32034=机械臂(UMV)
@@ -1078,7 +1078,7 @@ gt.blockmachines.machine.tt.datareader.desc.0=读取闪存和数据球
 gt.blockmachines.machine.tt.datareader.desc.1=给它通电，然后
 gt.blockmachines.machine.tt.datareader.desc.2=将数据存储物放进去
 
-gt.blockmachines.machine.tt.buck.name=%1$s Buck Converter
+gt.blockmachines.machine.tt.buck.name=%1$s降压变压器
 gt.blockmachines.machine.tt.buck.desc.0=电压调节器
 gt.blockmachines.machine.tt.buck.desc.1=可调降压变压器
 gt.blockmachines.machine.tt.buck.desc.2=开关电源...
@@ -1088,9 +1088,9 @@ gt.blockmachines.machine.tt.tesla.02.name=进阶特斯拉收发器
 gt.blockmachines.machine.tt.tesla.03.name=霄龙特斯拉收发器
 gt.blockmachines.machine.tt.tesla.04.name=极限特斯拉收发器
 gt.blockmachines.machine.tt.tesla.05.name=疯狂特斯拉收发器
-gt.blockmachines.machine.tt.tesla.small.name=Small %s
-gt.blockmachines.machine.tt.tesla.large.name=Large %s
-gt.blockmachines.machine.tt.tesla.huge.name=Huge %s
+gt.blockmachines.machine.tt.tesla.small.name=小型%s
+gt.blockmachines.machine.tt.tesla.large.name=大型%s
+gt.blockmachines.machine.tt.tesla.huge.name=巨型%s
 gt.blockmachines.machine.tt.tesla.desc.0=你选择的特斯拉I/O机器
 gt.blockmachines.machine.tt.tesla.desc.1=富人的闪电洪炉
 
@@ -1704,7 +1704,7 @@ GT5U.gui.config.general.visual=视觉
 tt.eoh.fancy_names.crude=粗制
 tt.eoh.fancy_names.primitive=原始
 tt.eoh.fancy_names.stable=稳定
-tt.eoh.fancy_names.advanced=Advanced
+tt.eoh.fancy_names.advanced=进阶
 tt.eoh.fancy_names.superb=卓越
 tt.eoh.fancy_names.exotic=异星
 tt.eoh.fancy_names.perfect=完美
@@ -1859,15 +1859,15 @@ tt.spaceminer.filter.minableAsteroids=当前可开采的小行星用于
 tt.spaceminer.filter.noValidInputs=无效输入！
 tt.spaceminer.filter.addOre=点击将此矿石添加到过滤器
 # Space Pump
-tt.spacepump.batchslider=Modifies the current batch recipe time (in s)
-tt.spacepump.rate=Pumps %s/s
-tt.spacepump.ratemax=Up to %s/s per recipe
-tt.spacepump.pendingqueue=Confirm or modify selected recipes:
+tt.spacepump.batchslider=修改当前批处理配方时间（秒）
+tt.spacepump.rate=抽取 %s/s
+tt.spacepump.ratemax=每个配方最多 %s/s
+tt.spacepump.pendingqueue=确认或修改所选配方：
 tt.spacepump.planettier=%d阶
-tt.spacepump.utilityapply=&aApply&r & &4overwrite&r existing recipes\n&eEmpty slots will unset running recipes!
-tt.spacepump.utilityremove=Click to remove selected fluid
-tt.spacepump.utilityselected=Selected: &c%s
-tt.spacepump.utilitypanelButtonTooltip=Open Space Pump Quick Picker\n - &6Click&r any &3fluid&r to add it to list (&aallows multiple&r)\n - &6Click&r on the preview slots at the bottom to free the slot\n - &6Click&r on the &2Apply&r button to change the &3pumps&r config
+tt.spacepump.utilityapply=&a应用&r 并 &4覆盖&r 现有配方\n&e空槽位会取消正在运行的配方！
+tt.spacepump.utilityremove=点击移除所选流体
+tt.spacepump.utilityselected=已选择：&c%s
+tt.spacepump.utilitypanelButtonTooltip=打开太空钻机快捷选择器\n - &6点击&r任意&3流体&r，将其添加到列表中（&a可多选&r）\n - &6点击&r底部的预览槽位以清空该槽位\n - &6点击&r&2应用&r按钮以更改&3钻机&r的配置
 
 # Gui
 tt.gui.tooltip.power_pass=导能

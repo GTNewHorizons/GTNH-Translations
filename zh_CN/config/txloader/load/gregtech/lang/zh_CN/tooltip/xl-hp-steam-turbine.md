@@ -1,5 +1,5 @@
-Same throughput as 16 LST-HP with only 12 turbines
-Generates power from regular or dense Superheated (SH) Steam based on the turbine and fitting
-Outputs 1 {L} of Steam for every 1 {L} of Superheated Steam
+仅使用12个涡轮，但运行速度相当于16台同类大型涡轮
+基于涡轮和模式，利用常规或致密过热蒸气发电
+1 {L}过热蒸汽输出1 {L}蒸气
 #include:gregtech:xl-turbine-fitting
 #include:gregtech:xl-turbine-dense-steam

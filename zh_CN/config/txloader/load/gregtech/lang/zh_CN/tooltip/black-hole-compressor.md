@@ -1,23 +1,23 @@
-{color_mechanic:Uses the immense power of the event horizon to compress things}
-{color_mechanic:No longer requires heat management to perform superdense compression}
-{color_mechanic:Can create advanced singularities!}
+{color_mechanic:以事件视界之伟力来压缩物品}
+{color_mechanic:无须热量控制即可进行超致密压缩}
+{color_mechanic:足以制造更高级的奇点！}
 {hr}
-Insert a {color_key:{lang:gt.item.black_hole.seed.name}} to open a black hole
-The black hole will begin its life at {color_amount:100} stability and slowly decay
-Stability decays by {color_amount:1/s} until it reaches 0
-At {color_amount:0} stability, the black hole is {color_danger:UNSTABLE}
-Once the black hole becomes unstable, it will void recipes and eventually close itself!
+放入{color_key:{lang:gt.item.black_hole.seed.name}} 以开启黑洞
+黑洞初始拥有{color_amount:100}稳定度并缓慢衰变
+稳定度以{color_amount:1/s}的速度衰减，直至归零
+稳定性达到{color_amount:0}时，黑洞将会{color_danger:失稳}
+当黑洞失稳时，它将会吞噬所有配方，最后关闭自己！
 {hr}
-The decay can be {bold:halted} by inserting {color_amount:1 {L}/s} of {color_amount:spacetime} into the hatches behind the lasers
-Every {color_time:30} total seconds saved by spacetime insertion will {color_danger:double} the cost per second!
-Insert a {color_key:{lang:gt.item.black_hole.collapser.name}} to close the black hole
-To restore stability and reset spacetime costs, close the black hole and open a new one
+在激光器后方的仓室中提供{color_amount:1 {L}/s}的{color_amount:时空}可{bold:阻止}黑洞衰变
+每因注入时空而延长{color_time:30}秒总时间，每秒消耗即会{color_danger:翻倍}！
+放入{color_key:{lang:gt.item.black_hole.collapser.name}}以关闭黑洞
+关闭黑洞并重新开启，即可重置黑洞稳定度和时空消耗量
 {hr}
-Use circuit {color_mode:20 for Compressor} and {color_mode:21 for Neutronium Compressor}
-{color_parallel:8} Parallels per {color_tier:Voltage} Tier
-{color_speed:500%} Speed
-{color_eu_usage:70%} {EU} usage
-{color_parallel:2x/4x} Parallels when stability is below {color_amount:50/20}
-Below {color_amount:20} stability, Parallels are {color_parallel:uncapped} for recipes that do not require a black hole
-{color_note:Recipe Tier is limited to Hatch Tier + 1. Will not perform overclocks above the Hatch Tier}
-{color_note:Limited to one energy hatch if using a Multi-Amp or Laser hatch}
+电路板设置：{color_mode:20为压缩机}，{color_mode:21为中子态素压缩机}
+并行：每{color_tier:电压}增加{color_parallel:8}
+运行速度：{color_speed:500%} 
+功率系数：{color_eu_usage:70%} {EU}
+当稳定度低于{color_amount:50/20}时，获得{color_parallel:2x/4x}并行数
+当稳定度低于{color_amount:20}时，对不需求黑洞的配方具有{color_parallel:无限}并行
+{color_note:配方等级最大为能源仓等级+1，且不会超频到能源仓等级以上。}
+{color_note:使用多A能源仓或激光仓时，仅限安装一个能源仓}

@@ -10,32 +10,32 @@ navigation:
   position: -5001
 ---
 
-# Assembly Line
+# 装配线
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1170" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" /> (assline or AL) is an IV tier multiblock for crafting LuV+ tier components. 
+<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />（装配线，简称 AL）是 IV 等级的多方块机器，用于合成 LuV 及以上等级的组件。
 
-The machine is built as a series of slices and inputs must be inserted in the exact order in which they appear in NEI. 
+该机器由一系列片构成，必须按照 NEI 中显示的准确顺序输入原料。
 
-Recipes are also NOT implicit and must be explicitly shared with the AL via <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" />. This is unlike any multiblock the player has encountered up to this point and requires more advanced techniques for automation. For normal assembler recipes, see the [<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" />](./precise_auto_assembler_mt_3662.md) or [<ItemLink id="gregtech:gt.blockmachines:876" showIcon="left" />](./large_scale_auto_assembler_v101.md). 
+配方也不会自动识别，必须通过 <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" /> 明确共享给 AL。这与玩家此前遇到的多方块机器都不同，因此自动化需要更高级的技巧。普通组装机配方请参见[<ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" />](./precise_auto_assembler_mt_3662.md)或[<ItemLink id="gregtech:gt.blockmachines:876" showIcon="left" />](./large_scale_auto_assembler_v101.md)。
 
-The AL is generally superseded by the [<ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />](./advanced_assembly_line.md) with its parallel processing and support for multi-amp and laser energy hatches, but AL's tier skipping prevents AAL from fully replacing AL, since AAL cannot do tier skipping.
+通常，拥有并行处理能力且支持多A能源仓和激光能源仓的[<ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />](./advanced_assembly_line.md)会取代 AL；但 AL 可以跳级，因此 AAL 无法完全取代 AL，因为 AAL 不能跳级。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | IV |
-| Structure Size(LxWxH) | 3x5-16x4 |
-| Power | Regular |
-| Overclocks | Imperfect |
-| Maintenance | Need Maintenance |
-| Pollution | Produces no pollution |
+| 解锁等级 | IV |
+| 结构尺寸（长×宽×高） | 3x5-16x4 |
+| 电力 | 普通 |
+| 超频 | 有损 |
+| 维护 | 需要维护 |
+| 污染 | 不产生污染 |
 
-## Crafting and Construction
+## 合成与建造
 
-### Crafting
+### 合成
 <RecipesFor id="gregtech:gt.blockmachines:1170" handlerBlacklist="gt.recipe.scanner" />
 
 <RecipesFor id="gregtech:gt.blockcasings3:10" />
@@ -46,43 +46,43 @@ The AL is generally superseded by the [<ItemLink id="gregtech:gt.blockmachines:1
 
 <RecipesFor id="gregtech:gt.blockcasings2:9" />
 
-### Structure
+### 结构
 
-The AL is built as a series of slices with an input bus at the bottom center of each one to hold a single unique input. The total number of slices required therefore depends on the total number of inputs in the recipe. For example, the LuV motor has five solid inputs and therefore needs five slices to craft. The order in which the ingredients are inserted is the same order in which they appear in NEI.
+AL 由一系列片组成，每片底部中央都有一个输入总线，用于放置一种独特原料。因此，所需总片数决于配方中的原料总数。例如，LuV 电动马达有五种固体原料，因此需要五片才能合成。原料插入顺序与 NEI 中的顺序相同。
 
-AL can be rotated and mirrored, and the first slice is where controller exists.
+AL 可以旋转和镜像翻转，控制器所在位置即为第一片。
 
-The glass can be any tier and has no effect on the operation of the machine. 
+玻璃可以是任意等级，不会影响机器运行。
 
-Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. The AL can only tier skip ONE time (ie. IV energy hatches can run up to LuV recipes). 
+不支持多A能源仓和激光能源仓，但可以安装多个普通能源仓进行超频。AL 只能跳一级（例如，IV 能源仓最高可运行 LuV 配方）。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and subchannel "length" to specify the number of slices $$(\text{Slices} = \text{Length} + 4)$$.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 可预览/建造结构，并通过子信道“glass”指定玻璃等级、通过“length”指定切片数量 $$(\text{Slices} = \text{Length} + 4)$$。
 
-The input buses can be any tier but it is recommended to use <ItemLink id="gregtech:gt.blockmachines:70" showIcon="left" /> because their limited capacity(1 slot) is very useful for automation. 
+输入总线可以是任意等级，但建议使用 <ItemLink id="gregtech:gt.blockmachines:70" showIcon="left" />，因为其容量有限（1 个槽位），非常适合自动化。
 
-<ItemLink id="gregtech:gt.blockmachines:2711" showIcon="left" /> set to auto-pull and linked input buses do <Color id="red">**NOT**</Color> work if they make more than one item type visible per slice. 
+<ItemLink id="gregtech:gt.blockmachines:2711" showIcon="left" />设置为自动拉取的输入总线若在每片中显示多种物品，<Color id="red">**无法**</Color>正常工作。
 
-At max length, the output bus should replace a solid steel machine casing on layer 1 of the last slice instead of replacing the final input bus. 
+达到最大长度时，应将输出总线放在最后一片第 1 层的位置，替换一个脱氧钢机械方块，而非替换最后一个输入总线。
 
-Only four input hatches are required because no recipe uses more than four fluids, and <ItemImage id="gregtech:gt.blockmachines:200" noTooltip /> Quadruple input hatches do <Color id="red">**NOT**</Color> work, but there can be gaps between the input hatches if necessary.
+只需要四个输入仓，因为没有配方会使用超过四种流体；<ItemImage id="gregtech:gt.blockmachines:200" noTooltip />四重输入仓<Color id="red">**无法**</Color>正常工作，但必要时输入仓之间可以留空位。
 
-#### Base Structure (Minimum requirements)
-| Component | Quantity and placement |
+#### 基础结构（最低要求）
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" /> | First slice, 3rd layer |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any tiered glass | 10, Both sides of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 8, Both sides of 3rd layer |
-| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-12, Both sides of 1st layer and center of 4th layer |
-| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 5, Center of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 5, Center of 3rd layer |
-| <ItemImage id="gregtech:gt.blockmachines:145" noTooltip />Data Access Hatch | 1, Any both sides of 3rd layer but <Color id="red">**NOT**</Color> on first slice |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Any 4th layer Casings |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Any 1st layer side Casings |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 5, Center of 1st layer |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 0+, Any 1st layer side Casings |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1, Last slice's 1st layer side Casings |
+| <ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" /> | 第一片，第 3 层 |
+| <ItemImage id="bartworks:BW_TieredGlass" />任意等级玻璃 | 10 个，第 2 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 8 个，第 3 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-12 个，第 1 层两侧及第 4 层中央 |
+| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 5 个，第 2 层中央 |
+| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 5 个，第 3 层中央 |
+| <ItemImage id="gregtech:gt.blockmachines:145" noTooltip />数据访问仓 | 1 个，位于第 3 层任意一侧，但<Color id="red">**不得**</Color>位于第一个切片 |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">仅允许普通仓</Tooltip> | 1 个以上，任意第 4 层机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />维护仓 | 1 个以上，任意第 1 层侧面机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 5 个，第 1 层中央 |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓 | 0 个以上，任意第 1 层侧面机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线 | 1 个，最后一个切片第 1 层的侧面机械方块 |
 
-#### Each Additional Slice
+#### 每个额外片
 
 <GameScene interactive={true} wrap="square" align="right" width="170" height="130">
   <Block id="gregtech:gt.blockmachines:71" />
@@ -97,50 +97,50 @@ Only four input hatches are required because no recipe uses more than four fluid
   <Block id="gregtech:gt.blockcasings2" y="3"/>
 </GameScene>
 
-Each additional slice (1 length) requires these blocks:
+每增加一片（长度 +1），都需要以下方块：
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any tiered glass | 2, Both sides of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 2, Both sides of 3rd layer |
-| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-3, Both sides of 1st layer and center of 4th layer |
-| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 1, Center of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 1, Center of 3rd layer |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 0+, Any 4th layer Casings |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1, Center of 1st layer |
+| <ItemImage id="bartworks:BW_TieredGlass" />任意等级玻璃 | 2 个，第 2 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 2 个，第 3 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-3 个，第 1 层两侧及第 4 层中央 |
+| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 1 个，第 2 层中央 |
+| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 1 个，第 3 层中央 |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">仅允许普通仓</Tooltip> | 0 个以上，任意第 4 层机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 1 个，第 1 层中央 |
 
-Note that the <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus must be moved to the last slice when you extend AL slices.
+请注意，延长 AL 的片时，必须将<ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线移至最后一片。
 
-### Wallsharing
+### 共面
 
-ALs may wallshare each of their sides to save on casings, glass, and buses/hatches. That includes any input hatches, maintenance hatches, data access hatches, and output buses. Sharing a data access hatch is particuarly valuable for saving TPS and reducing the amount of data sticks needed.
+AL 的每一侧都可以与其他机器共面，以节省机械方块、玻璃和总线/仓，包括输入仓、维护仓、数据访问仓和输出总线。共用数据访问仓尤其有助于节省 TPS，并减少所需的闪存数量。
 
-## Usage
+## 用途
 
-### Scanning Recipes
+### 扫描配方
 
-Simply inserting the inputs of a recipe into the AL (and in the correct order) is not enough for the machine to start processing. Recipes must be explicitly shared with the AL via <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" /> scanned with the necessary information in a singleblock scanner.
+仅将配方原料按正确顺序放入 AL 并不足以让机器开始运行。必须通过 <ItemLink id="gregtech:gt.metaitem.01:32708" showIcon="left" /> 将配方明确共享给 AL；该物品需在单方块扫描仪中扫描所需信息。
 
-To scan the recipe for an <ItemLink id="gregtech:gt.metaitem.01:32606" showIcon="left" />, for example, insert both an IV motor and data stick into a scanner, as seen in the recipe below. The output is a data stick specifically for LuV motors and goes in the Data Access Hatch on the AL. The IV motor is consumed in the process. All data stick recipes and the items to scan for them are visible through NEI. Note that recipes may change with updates of GTNH and would require the player to update their data sticks.
+例如，要扫描<ItemLink id="gregtech:gt.metaitem.01:32606" showIcon="left" />配方，可将一个 IV 电动马达和闪存放入扫描机，如下方配方所示。产物是专用于 LuV 电动马达的闪存，应放入 AL 的数据访问仓。IV 电动马达会在过程中消耗。所有闪存配方及其扫描所需物品都可在 NEI 中查看。请注意，GTNH 更新可能会更改配方，玩家需要相应更新闪存。
 
 <Recipe id="gregtech:gt.metaitem.01:32606" handlerId="gt.recipe.scanner" /> 
 
-Later in the game, the scanner is replaced by the [<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />](./research_station.md) and [<ItemLink id="gregtech:gt.blockmachines:15311" showIcon="left" />](./quantum_computer.md). These two multiblocks work together to unlock the recipes for some of the most advanced items in GTNH.
+游戏后期，扫描仪将被[<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />](./research_station.md)和[<ItemLink id="gregtech:gt.blockmachines:15311" showIcon="left" />](./quantum_computer.md)取代。这两种多方块机器需要配合使用，才能解锁 GTNH 中一些最先进物品的配方。
 
-### Data Access Hatches
-There are four types of data access hatches, listed below. There can only be one per AL but they can be safely wallshared between machines.
+### 数据访问仓
+数据访问仓有以下四种类型。每台 AL 只能安装一个，但可供多台机器安全共面使用。
 
-- <ItemLink id="gregtech:gt.blockmachines:145" showIcon="left" /> - Holds up to four data sticks
-- <ItemLink id="gregtech:gt.blockmachines:146" showIcon="left" /> - Holds up to sixteen data sticks
-- <ItemLink id="gregtech:gt.blockmachines:147" showIcon="left" /> - Holds up to sixteen data sticks and allows for input/output of data sticks.
-- <ItemLink id="gregtech:gt.blockmachines:15442" showIcon="left" /> - Reads any number of data sticks from a [<ItemLink id="gregtech:gt.blockmachines:15313" showIcon="left" />](./data_bank.md).
+- <ItemLink id="gregtech:gt.blockmachines:145" showIcon="left" /> - 最多存放四根闪存
+- <ItemLink id="gregtech:gt.blockmachines:146" showIcon="left" /> - 最多存放十六根闪存
+- <ItemLink id="gregtech:gt.blockmachines:147" showIcon="left" /> - 最多存放十六根闪存，并允许输入/输出闪存
+- <ItemLink id="gregtech:gt.blockmachines:15442" showIcon="left" /> - 从[<ItemLink id="gregtech:gt.blockmachines:15313" showIcon="left" />](./data_bank.md)读取任意数量的闪存
 
-### Troubleshooting
+### 故障排查
 
-1. **No Valid Recipe Found.** There are numerous reasons for this error such as missing items, missing fluids, ingredients in the wrong order, more than one output bus, etc. Check that all items are in the correct input bus/hatch.
-1. **No Data Sticks Found.** The controller cannot find any data sticks. Either the data access hatch is empty or the data sticks are not scanned with a recipe. Holding shift shows what item the data stick is scanned with, similar to an AE2 pattern.
-1. **Recipes keep overlapping.** You likely forgot to either insert a blocking card or enable blocking mode on an interface that stores patterns.
+1. **未找到可用合成表。**此错误可能由多种原因导致，例如缺少物品/流体、原料顺序错误、输出总线不止一个等。请检查所有物品是否都放在正确的输入总线/仓中。
+1. **未找到闪存。**控制器找不到任何闪存。数据访问仓可能是空的，或闪存尚未扫描配方。按住 Shift 可查看闪存扫描的物品，类似 AE2 样板。
+1. **配方不断重叠。**你可能忘了插入阻挡卡，或未在存储样板的接口上启用阻挡模式。
 
-## References
+## 参考资料
 
-- [GTNH Wiki: Assembly Line](https://wiki.gtnewhorizons.com/wiki/Assembly_Line)
+- [GTNH Wiki：装配线](https://wiki.gtnewhorizons.com/wiki/Assembly_Line)

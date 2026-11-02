@@ -10,32 +10,32 @@ navigation:
   position: -5001
 ---
 
-# Alloy Blast Smelter
+# 合金冶炼炉
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:810" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" /> (ABS) is an IV tier multiblock for smelting dusts into molten alloys. Compared to [<ItemLink id="gregtech:gt.blockmachines:15566" showIcon="left" />](./industrial_mixing_machine.md) and [<ItemLink id="gregtech:gt.blockmachines:31023" showIcon="left" />](./zyngen.md), processing the dusts to molten alloy directly makes ABS handle basic alloy recipes faster and more efficiently. However, unlike those machines, ABS cannot tier skip - makes the ABS suited to mass production rather than tier progression.
+<ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />（ABS）是 IV 等级的多方块机器，用于将粉末熔炼成熔融合金。与[<ItemLink id="gregtech:gt.blockmachines:15566" showIcon="left" />](./industrial_mixing_machine.md)和[<ItemLink id="gregtech:gt.blockmachines:31023" showIcon="left" />](./zyngen.md)相比，直接将粉末处理成熔融合金使 ABS 处理基础合金配方更快、更高效。但 ABS 无法跳级，因此更适合大规模生产，而非等级发展。
 
-The ABS can even be used to smelt some of the tougher alloys such as Indalloy 140, which have no recipe in any other machine. 
+ABS 甚至可用于熔炼一些较难处理的合金，例如其他机器都没有配方的铋铅合金140。
 
-There are no tiered components or any sort of bonuses and there is no tier skipping, even when overclocking with multiple energy hatches. 
+没有分级部件或任何加成，也无法跳级，即使使用多个能源仓超频也是如此。
 
-The minimum casing requirement is very low to allow for many buses/hatches since there are 12 unique programmed circuits to handle all ABS Recipes. The ABS is superseded by the [<ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" />](./mega_alloy_blast_smelter.md) in UV.
+最低机械方块需求很低，因此可以安装许多总线/仓；ABS 有 12 种独特的编程电路来处理所有配方。UV 阶段解锁[<ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" />](./mega_alloy_blast_smelter.md)后，ABS 会被其取代。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | IV |
-| Structure Size (LxWxH) | 3x3x4 |
-| Power | Regular |
-| Overclocks | Imperfect |
-| Maintenance | Need Maintenance |
-| Pollution | Produces 200 gibbl/s pollution, and require Muffler Hatch |
+| 解锁等级 | IV |
+| 结构尺寸（长×宽×高） | 3x3x4 |
+| 电力 | 普通 |
+| 超频 | 不完美 |
+| 维护 | 需要维护 |
+| 污染 | 产生 200 gibbl/s 污染，需要消音仓 |
 
-## Crafting and Construction
+## 合成与建造
 
-### Crafting
+### 合成
 
 <RecipesFor id="gregtech:gt.blockmachines:810" />
 
@@ -43,43 +43,42 @@ The minimum casing requirement is very low to allow for many buses/hatches since
 
 <RecipesFor id="miscutils:miscutils.blockcasings:15" />
 
-### Structure
+### 结构
 
-The ABS has no tiered components. 
+ABS 没有分级部件。
 
-ABS can be rotated or flipped.
+ABS 可以旋转或翻转。
 
-Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. The only caveat is that there is NO tier skipping (ie. 2 IV energy hatches can run the ABS at LuV voltage but cannot process LuV recipes).
+不支持多A能源仓和激光能源仓，但可以安装多个普通能源仓来超频。唯一需要注意的是无法跳级（例如，2 个 IV 能源仓可让 ABS 以 LuV 电压运行，但不能处理 LuV 配方）。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 可预览/建造结构。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" /> | 1, Front Bottom Center |
-| <ItemLink id="miscutils:miscutils.blockcasings:14" showIcon="left" /> | 16, 2nd-3rd layer with a hole in the center  |
-| <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> | 3-12, Fills 1st and 4th layer  |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Replace any <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Can replace any <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:91" noTooltip />Muffler Hatch | 1+, Can replace any <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+, Can replace any <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 0+, Can replace any <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 0+, Can replace any <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Output Hatch | 1+, Can replace any <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" /> | 1 个，正面底部中央 |
+| <ItemLink id="miscutils:miscutils.blockcasings:14" showIcon="left" /> | 16 个，第 2-3 层，中央留空 |
+| <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> | 3-12 个，填满第 1 层和第 4 层 |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">仅允许普通仓</Tooltip> | 1 个以上，替换任意 <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />维护仓 | 1 个以上，可替换任意 <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:91" noTooltip />消音仓 | 1 个以上，可替换任意 <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 1 个以上，可替换任意 <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓 | 0 个以上，可替换任意 <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线 | 0 个以上，可替换任意 <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />输出仓 | 1 个以上，可替换任意 <ItemLink id="miscutils:miscutils.blockcasings:15" showIcon="left" /> |
 
-You can install more than one <ItemImage id="gregtech:gt.blockmachines:91" noTooltip />Muffler Hatch, but the pollution reduction is **average** of all installed mufflers, not the sum. For example, using <ItemLink id="gregtech:gt.blockmachines:96" /> and <ItemLink id="gregtech:gt.blockmachines:95" /> makes pollution decreased to 43%, which creates more pollution than using only one <ItemLink id="gregtech:gt.blockmachines:96" />.
+可以安装多个 <ItemImage id="gregtech:gt.blockmachines:91" noTooltip />消音仓，但污染削减率取所有消音仓的**平均值**，而非总和。例如，同时使用 <ItemLink id="gregtech:gt.blockmachines:96" />和<ItemLink id="gregtech:gt.blockmachines:95" />可将污染降至 43%，产生的污染反而高于只使用一个 <ItemLink id="gregtech:gt.blockmachines:96" />。
 
-You can also add some <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus to save some casings - just take care about minimum requirements.
+也可以额外安装一些 <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线以节省机械方块 - 只需确保满足最低要求。
 
-### Wallsharing
+### 共面
 
-ABS may wallshare each of their sides to save on casings, coils, and buses/hatches. However, reducing the number of unique input buses may not be very helpful considering the sheer amount of programmed circuits in the recipes.
+ABS 的每一侧都可以与其他机器共面，以节省机械方块、线圈和总线/仓。不过，考虑到配方所需的编程电路数量众多，减少独立输入总线的数量可能并无太大帮助。
 
-## Usage
+## 用途
 
-The following tables list all 71 recipes by their voltage tier and programmed circuit (PC). In total, there are 12 unique programmed circuits to be spread out across 8 input buses if the last few are combined. Some are also not very useful until after the [<ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" />](./mega_alloy_blast_smelter.md) is unlocked.
+下表按电压等级和编程电路（PC）列出全部 71 种配方。总共有 12 种不同的编程电路，需要分配至 8 个输入总线（如果将最后几种合并）。其中一些配方要等解锁[<ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" />](./mega_alloy_blast_smelter.md)后才比较实用。
 
-Input separation<FloatingImage src="gregtech:textures/gui/overlay_button/input_separation_on.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} /> should be enabled on the ABS to prevent SOLID ingredients in different input buses from being used in the same recipe, including any programmed circuits. That means a single ABS with many input buses can support many different programmed circuits simultaneously. Just don't forget to stay above the minimum number of casing blocks. 
-FLUID ingredients are **always shared regardless of input separation**, unless the input hatch is colored.
+应在 ABS 上启用输入分离<FloatingImage src="gregtech:textures/gui/overlay_button/input_separation_on.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} />，以防不同输入总线中的固体原料（包括编程电路）被用于同一配方。这样一来，带有许多输入总线的单台 ABS 就能同时支持多种不同编程电路。只要记得机械方块数量不能低于最低要求。无论是否启用输入分离，流体原料**始终共用**，除非给输入仓染色。
 
 <ContentTabs
   title="Organized ABS Recipes"
@@ -87,14 +86,14 @@ FLUID ingredients are **always shared regardless of input separation**, unless t
 
 <Tab title="Recipes organized by Voltage Tier">
 
-| Tier | PC | Molten Alloy | ABS Only |
+| 等级 | PC | 熔融合金 | 仅 ABS 可用 |
 | ---- | -- | ------------ | -------- |
 | LV | 2 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1054" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1033" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1056" /> | <Color id="red">✗</Color> |
 | ^^ | 3 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1034" /> | <Color id="red">✗</Color> |
 | ^^ | 4 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1079" /> | <Color id="red">✗</Color> |
-| ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1061" />(From Base) | <Color id="red">✗</Color> |
+| ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1061" />（来自基础配方） | <Color id="red">✗</Color> |
 | ^^ | 8 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1096" /> | <Color id="red">✗</Color> |
 | MV | 2 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1057" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:346" /> | <Color id="red">✗</Color> |
@@ -104,7 +103,7 @@ FLUID ingredients are **always shared regardless of input separation**, unless t
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1040" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1041" /> | <Color id="green">✓</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1042" /> | <Color id="green">✓</Color> |
-| ^^ | 6 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1061" />(Direct) | <Color id="red">✗</Color> |
+| ^^ | 6 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1061" />（直接配方） | <Color id="red">✗</Color> |
 | ^^ | 7 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1043" /> | <Color id="green">✓</Color> |
 | ^^ | 11 | <ItemLink id="NotEnoughItems:neiFluidDisplay:620" /> | <Color id="red">✗</Color> |
 | HV | 2 | <ItemLink id="NotEnoughItems:neiFluidDisplay:624" /> | <Color id="red">✗</Color> |
@@ -166,85 +165,85 @@ FLUID ingredients are **always shared regardless of input separation**, unless t
 
 <Tab title="Recipes organized by Programmed Circuit">
 
-| Tier | PC | Molten Alloy | ABS Only |
+| 等级 | PC | 熔融合金 | 仅 ABS 可用 |
 | ---- | -- | ------------ | -------- |
-| LV | 2 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1054" /> | <Color id="red">✗</Color>  |
+| LV | 2 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1054" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1033" /> | <Color id="red">✗</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1056" /> | <Color id="red">✗</Color> | 
-| MV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1057" /> | <Color id="red">✗</Color> | 
+| MV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1057" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:346" /> | <Color id="red">✗</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1341" /> | <Color id="red">✗</Color> | 
-| HV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:624" /> | <Color id="red">✗</Color> | 
+| HV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:624" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1030" /> | <Color id="red">✗</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1031" /> | <Color id="red">✗</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1055" /> | <Color id="red">✗</Color> | 
-| EV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1065" /> | <Color id="red">✗</Color> | 
+| EV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1065" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1064" /> | <Color id="red">✗</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1053" /> | <Color id="red">✗</Color> | 
-| IV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1038" /> | <Color id="red">✗</Color> | 
-| LuV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:748" /> | <Color id="green">✓</Color> | 
+| IV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1038" /> | <Color id="red">✗</Color> |
+| LuV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:748" /> | <Color id="green">✓</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1066" /> | <Color id="red">✗</Color> | 
-| LV | 3 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1034" /> | <Color id="red">✗</Color> | 
-| MV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1095" /> | <Color id="red">✗</Color> | 
-| HV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1032" /> | <Color id="red">✗</Color> | 
-| LuV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1372" /> | <Color id="red">✗</Color> | 
-| LV | 4 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1079" /> | <Color id="red">✗</Color> | 
-| ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1061" />(From Base) | <Color id="red">✗</Color> | 
-| HV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1050" /> | <Color id="red">✗</Color> | 
+| LV | 3 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1034" /> | <Color id="red">✗</Color> |
+| MV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1095" /> | <Color id="red">✗</Color> |
+| HV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1032" /> | <Color id="red">✗</Color> |
+| LuV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1372" /> | <Color id="red">✗</Color> |
+| LV | 4 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1079" /> | <Color id="red">✗</Color> |
+| ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1061" />（来自基础配方） | <Color id="red">✗</Color> |
+| HV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1050" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1051" /> | <Color id="red">✗</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1036" /> | <Color id="red">✗</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1037" /> | <Color id="red">✗</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1045" /> | <Color id="red">✗</Color> | 
-| EV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1028" /> | <Color id="red">✗</Color> | 
+| EV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1028" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1052" /> | <Color id="green">✓</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1044" /> | <Color id="red">✗</Color> | 
-| IV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1058" /> | <Color id="red">✗</Color> | 
-| UV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1075" /> | <Color id="red">✗</Color> | 
+| IV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1058" /> | <Color id="red">✗</Color> |
+| UV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1075" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1076" /> | <Color id="red">✗</Color> | 
-| MV | 5 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1035" /> | <Color id="green">✓</Color> | 
+| MV | 5 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1035" /> | <Color id="green">✓</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1040" /> | <Color id="red">✗</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1041" /> | <Color id="green">✓</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1042" /> | <Color id="green">✓</Color> | 
-| HV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1046" /> | <Color id="green">✓</Color> | 
-| EV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:701" /> | <Color id="red">✗</Color> | 
+| HV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1046" /> | <Color id="green">✓</Color> |
+| EV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:701" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1048" /> | <Color id="green">✓</Color> | 
-| IV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1080" /> | <Color id="green">✓</Color> | 
-| LuV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1062" /> | <Color id="green">✓</Color> | 
+| IV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1080" /> | <Color id="green">✓</Color> |
+| LuV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1062" /> | <Color id="green">✓</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1069" /> | <Color id="green">✓</Color> | 
-| ZPM | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1067" /> | <Color id="green">✓</Color> | 
+| ZPM | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1067" /> | <Color id="green">✓</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1074" /> | <Color id="green">✓</Color> | 
-| UHV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1077" /> | <Color id="green">✓</Color> | 
-| UEV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:826" /> | <Color id="green">✓</Color> | 
-| UIV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:172" /> | <Color id="green">✓</Color> | 
-| MV | 6 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1061" />(Direct) | <Color id="red">✗</Color> | 
-| HV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1047" /> | <Color id="green">✓</Color> | 
-| EV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1059" /> | <Color id="red">✗</Color> | 
+| UHV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1077" /> | <Color id="green">✓</Color> |
+| UEV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:826" /> | <Color id="green">✓</Color> |
+| UIV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:172" /> | <Color id="green">✓</Color> |
+| MV | 6 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1061" />（直接配方） | <Color id="red">✗</Color> |
+| HV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1047" /> | <Color id="green">✓</Color> |
+| EV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1059" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1049" /> | <Color id="green">✓</Color> | 
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1358" /> | <Color id="red">✗</Color> | 
-| LuV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1373" /> | <Color id="red">✗</Color> | 
+| LuV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1373" /> | <Color id="red">✗</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1039" /> | <Color id="green">✓</Color> | 
-| MV | 7 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1043" /> | <Color id="green">✓</Color> | 
-| LV | 8 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1096" /> | <Color id="red">✗</Color> | 
-| IV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1063" /> | <Color id="green">✓</Color> | 
-| LuV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1070" /> | <Color id="green">✓</Color> | 
-| ZPM | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1071" /> | <Color id="green">✓</Color> | 
+| MV | 7 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1043" /> | <Color id="green">✓</Color> |
+| LV | 8 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1096" /> | <Color id="red">✗</Color> |
+| IV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1063" /> | <Color id="green">✓</Color> |
+| LuV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1070" /> | <Color id="green">✓</Color> |
+| ZPM | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1071" /> | <Color id="green">✓</Color> |
 | ^^ | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1072" /> | <Color id="green">✓</Color> | 
-| UHV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1073" /> | <Color id="green">✓</Color> | 
-| UEV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1081" /> | <Color id="green">✓</Color> | 
-| MV | 11 | <ItemLink id="NotEnoughItems:neiFluidDisplay:620" /> | <Color id="red">✗</Color> | 
-| IV | 14 | <ItemLink id="NotEnoughItems:neiFluidDisplay:981" /> | <Color id="red">✗</Color> | 
-| IV | 15 | <ItemLink id="NotEnoughItems:neiFluidDisplay:979" /> | <Color id="red">✗</Color> | 
-| IV | 20 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1003" /> | <Color id="red">✗</Color> | 
-| EV | 21 | <ItemLink id="NotEnoughItems:neiFluidDisplay:351" /> | <Color id="red">✗</Color> | 
-| IV | 21 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1005" /> | <Color id="red">✗</Color> | 
-| UV | -- | <ItemLink id="NotEnoughItems:neiFluidDisplay:1078" /> | <Color id="green">✓</Color> | 
-| UXV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:184" /> | <Color id="green">✓</Color> | 
+| UHV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1073" /> | <Color id="green">✓</Color> |
+| UEV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:1081" /> | <Color id="green">✓</Color> |
+| MV | 11 | <ItemLink id="NotEnoughItems:neiFluidDisplay:620" /> | <Color id="red">✗</Color> |
+| IV | 14 | <ItemLink id="NotEnoughItems:neiFluidDisplay:981" /> | <Color id="red">✗</Color> |
+| IV | 15 | <ItemLink id="NotEnoughItems:neiFluidDisplay:979" /> | <Color id="red">✗</Color> |
+| IV | 20 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1003" /> | <Color id="red">✗</Color> |
+| EV | 21 | <ItemLink id="NotEnoughItems:neiFluidDisplay:351" /> | <Color id="red">✗</Color> |
+| IV | 21 | <ItemLink id="NotEnoughItems:neiFluidDisplay:1005" /> | <Color id="red">✗</Color> |
+| UV | -- | <ItemLink id="NotEnoughItems:neiFluidDisplay:1078" /> | <Color id="green">✓</Color> |
+| UXV | ^^ | <ItemLink id="NotEnoughItems:neiFluidDisplay:184" /> | <Color id="green">✓</Color> |
 {: widths="60, 60, 400, 80"}
 
 </Tab>
 
 </ContentTabs>
 
-## References
+## 参考资料
 
-- [GTNH Wiki: Alloy Blast Smelter](https://wiki.gtnewhorizons.com/wiki/Alloy_Blast_Smelter)
+- [GTNH Wiki：合金冶炼炉](https://wiki.gtnewhorizons.com/wiki/Alloy_Blast_Smelter)

@@ -1,4 +1,4 @@
-{color_efficiency:-5%} {EU} Usage per {color_heat:{var:discount_heat}{K}} above the recipe requirement
+功率系数：炉温每超出配方要求{color_heat:{var:discount_heat}{K}}，降低{color_efficiency:-5%} {EU}消耗
 {hr}
-Increases Heat by {color_heat:{var:heat_per_tier}{K}} for every {color_name:Voltage} Tier past {aqua:{var:start_tier}}
-Every {color_heat:{var:perfect_oc_heat}{K}} over the recipe requirement grants 1 {color_mechanic:Perfect Overclock}
+{color_name:电压}等级每超出{aqua:{var:start_tier}}一级，热量增加{color_heat:{var:heat_per_tier}{K}}
+每超出配方要求温度{color_heat:{var:perfect_oc_heat}{K}}，将一次有损超频变为{color_mechanic:无损超频}

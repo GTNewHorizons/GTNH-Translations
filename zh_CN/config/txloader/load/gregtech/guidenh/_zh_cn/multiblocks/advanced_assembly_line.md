@@ -10,28 +10,28 @@ navigation:
   position: -5001
 ---
 
-# Advanced Assembly Line
+# 进阶装配线
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:13532" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" /> (AAL) is an IV tier multiblock for running [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) recipes in parallel by leveraging item pipelining; ingredients are consumed slice-by-slice instead of all at once, much like a real Assembly Line. That means the maximum number of parallels corresponds to the number of solid ingredients in a recipe. 
+<ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />（AAL）是 IV 等级的多方块机器，通过物品流水线并行运行[<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md)配方；原料按切片逐批消耗，而非一次性全部消耗，类似真正的装配线。因此，最大并行数取决于配方中的固体原料数量。
 
-The AAL supports multi-amp and laser energy hatches for serious overclocking and massive parallel operation, but **CANNOT** tier skip and is harder to automate compared to regular [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md), which makes AAL specialized in late-game mass production like stargate material rather than early-game progression. 
+AAL 支持多A能源仓和激光仓，可实现高强度超频和大规模并行，但**无法**升压，且比普通[<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md)更难自动化，因此 AAL 专用于游戏后期的大规模生产（如星门材料），而非前期发展。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | IV |
-| Structure Size (LxWxH) | 3x5-16x4 |
-| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
-| Overclocks | Unique |
-| Maintenance | Need Maintenance |
-| Pollution | Produces no pollution |
+| 解锁等级 | IV |
+| 结构尺寸（长×宽×高） | 3x5-16x4 |
+| 电力 | 允许使用任意仓，包括多A仓和激光仓 |
+| 超频 | 独特 |
+| 维护 | 需要维护 |
+| 污染 | 不产生污染 |
 
-## Crafting and Construction
+## 合成与建造
 
-### Crafting
+### 合成
 <RecipesFor id="gregtech:gt.blockmachines:13532" handlerId="gt.recipe.fakeAssemblylineProcess" />
 
 <RecipesFor id="gregtech:gt.blockcasings3:10" />
@@ -42,32 +42,32 @@ The AAL supports multi-amp and laser energy hatches for serious overclocking and
 
 <RecipesFor id="gregtech:gt.blockcasings2:9" />
 
-### Structure
-The only structural difference between the AAL and the [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) is the controller. 
+### 结构
+AAL 与[<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md)唯一的结构差异在于控制器。
 
-AAL can be rotated or flipped.
+AAL 可以旋转或翻转。
 
-The glass can be any tier and has no effect on the operation of the machine. 
+玻璃可以是任意等级，不会影响机器运行。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and subchannel "length" to specify the number of slices $$(\text{Slices} = \text{Length} + 4)$$
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 可预览/建造结构；使用子信道“glass”指定玻璃等级，使用子信道“length”指定切片数量 $$(\text{Slices} = \text{Length} + 4)$$
 
-#### Base Structure (Minimum requirements)
-| Component | Quantity and placement |
+#### 基础结构（最低要求）
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" /> | First slice, 3rd layer |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 10, Both sides of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 8, Both sides of 3rd layer |
-| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-12, Both sides of 1st layer and center of 4th layer |
-| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 5, Center of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 5, Center of 3rd layer |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Any 4th layer Casing |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Any 1st layer side casings |
-| <ItemImage id="gregtech:gt.blockmachines:145" noTooltip />Data Access Hatch | 1, Any both sides of 3rd layer but <Color id="red">**NOT**</Color> on first slice |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 5, Center of 1st layer |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 0+, Any 1st layer side casings |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1, Any 1st layer on last slice |
+| <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" /> | 第一片，第 3 层 |
+| <ItemImage id="bartworks:BW_TieredGlass" />任意等级玻璃 | 10 个，第 2 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 8 个，第 3 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-12 个，第 1 层两侧及第 4 层中央 |
+| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 5 个，第 2 层中央 |
+| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 5 个，第 3 层中央 |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">可使用普通、多A或激光型</Tooltip> | 1 个以上，任意第 4 层机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />维护仓 | 1 个以上，任意第 1 层侧面机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:145" noTooltip />数据访问仓 | 1 个，位于第 3 层任意一侧，但<Color id="red">**不得**</Color>位于第一个切片 |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 5 个，第 1 层中央 |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓 | 0 个以上，第 1 层任意侧面机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线 | 1 个，最后一片的第 1 层任意位置 |
 
-#### Each Additional Slice
+#### 每个额外片
 
 <GameScene interactive={true} wrap="square" align="right" width="170" height="130">
   <Block id="gregtech:gt.blockmachines:71" />
@@ -82,57 +82,57 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
   <Block id="gregtech:gt.blockcasings2" y="3"/>
 </GameScene>
 
-Each additional slice (1 length) requires these blocks:
+每增加一片（长度 +1），都需要以下方块：
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 2, Both sides of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 2, Both sides of 3rd layer |
-| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-3, Both sides of 1st layer and center of 4th layer |
-| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 1, Center of 2nd layer |
-| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 1, Center of 3rd layer |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1, Center of 1st layer |
+| <ItemImage id="bartworks:BW_TieredGlass" />任意等级玻璃 | 2 个，第 2 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 2 个，第 3 层两侧 |
+| <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> | 0-3 个，第 1 层两侧及第 4 层中央 |
+| <ItemLink id="gregtech:gt.blockcasings2:5" showIcon="left" /> | 1 个，第 2 层中央 |
+| <ItemLink id="gregtech:gt.blockcasings2:9" showIcon="left" /> | 1 个，第 3 层中央 |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 1 个，第 1 层中央 |
 
-In any slice, <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatches">Can use Regular, Multi-Amp, Laser</Tooltip> can replace 4th layer casing and <ItemLink id="gregtech:gt.blockcasings2" showIcon="left" /> in 1st layer can be replaced with <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatches.
+在任意片中，<ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatches">可使用普通、多A或激光型</Tooltip>可以替代第 4 层机械方块；第 1 层的<ItemLink id="gregtech:gt.blockcasings2" showIcon="left" />可以替换为<ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓。
 
-Note that the <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus must be moved to the last slice when you extend AAL slices.
+请注意，延长 AAL 的切片时，必须将<ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线移至最后一个切片。
 
-### Wallsharing
+### 共墙
 
-AALs may wallshare each of their sides to save on casings, glass, and buses/hatches. That includes any input hatches, maintenance hatches, data access hatches, and output buses. Sharing a data access hatch is particularly valuable for saving TPS and reducing the number of [<ItemLink id="gregtech:gt.blockmachines:15313" showIcon="left" />](./data_bank.md) multiblocks needed to operate.
+AAL 的每一侧都可以与其他机器共面，以节省机械方块、玻璃和总线/仓，包括输入仓、维护仓、数据访问仓和输出总线。共用数据访问仓尤其有助于节省 TPS，并减少运行所需的[<ItemLink id="gregtech:gt.blockmachines:15313" showIcon="left" />](./data_bank.md)多方块机器数量。
 
-## Usage
+## 用途
 
 <GameScene wrap="square" align="right" width="300" height="300">
   <ImportStructure src="/assets/structures/aal_operation_ponder.snbt" />
   <ImportPonder src="/assets/ponders/multiblocks/aal/aal_operation_ponder.json" />
 </GameScene>
 
-The AAL starts processing once the contents of the buses/hatches align with a stored data stick, much like the regular [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md). Every recipe must pass through N slices on the machine, where N is the number of solid ingredients. Each slice takes $$\text{T} = (\text{base duration} / \text{N})$$ seconds to process the ONE type of item in its input bus before continuing to the next slice for the next item. This repeats until all ingredients are consumed and the final product is sent to the output bus for retrieval. All fluids are consumed at the very start of processing.
+当总线/仓中的内容与已存储的闪存匹配时，AAL 就会开始处理，类似普通的[<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md)。每个配方都必须经过机器的 N 个片，N 为固体原料数量。每个切片花费 $$\text{T} = (\text{base duration} / \text{N})$$ 秒处理其输入总线中的一种物品，然后前往下一片处理下一种物品。如此重复，直到所有原料耗尽，最终产物送入输出总线供取出。所有流体都会在处理开始时立即消耗。
 
-The AAL supports parallel processing by allowing the next recipe to begin once the first slice is done with the first recipe. This creates a staggered pattern that allows every slice to work simultaneously, if there are enough resources available.
+第一道配方经过第一片后，AAL 就可以开始下一道配方，从而支持并行处理。这会形成错开的处理节奏，使每个切片都能同时工作，前提是有足够的资源。
 
-If the next slice is missing the required item in its input bus, the current slice enters the **STUCK** state which halts the entire machine until the missing item is found/returned. The status light on the face of the controller turns orange to indicate that the machine is STUCK. Use WAILA to locate where exactly the problem occurred.
+如果下一片的输入总线缺少所需物品，当前切片就会进入**卡住**状态，导致整台机器停机，直到找到/补回缺失物品。控制器正面的状态灯会变为橙色，表示机器已卡住。使用 WAILA 查找具体问题位置。
 
-The scene on the right shows how the AAL processes the same recipe simultaneously slice by slice, why the AAL gets stuck, and how to resolve it.
+右侧示意图展示了 AAL 如何逐片同时处理相同配方、机器为何会卡住，以及如何解决。
 
-### Laser Overclocks
+### 激光超频
 
-The energy consumption of the AAL is the number of active slices times the base EU/t, similar to parallels. The AAL then runs up to N imperfect overclocks where N is the difference between the voltage tier of the lowest tier energy hatch and the voltage tier of the recipe. 
+AAL 的耗电量等于活动片数量乘以基础 EU/t，类似并行处理。随后 AAL 最多进行 N 次有损超频，其中 N 为最低等级能源仓的电压等级与配方电压等级之差。
 
-Further overclocks are all laser overclocks, which consume more power and scale even worse than an imperfect overclock. The first one is 2x speed for 4.3x the power and each additional one increases the power multiplier by 0.3, scaling infinitely.
+之后的超频均为激光超频，耗电更多，且增长幅度比有损超频更糟。第一次激光超频以 4.3 倍功耗实现 2 倍速度；此后每次超频的功耗倍率增加 0.3，且可无限提升。
 
-- Imperfect Overclocks - 2x speed for 4.0x power (2/4.0).
-- 1st Laser Overclock - 2x speed for 4.3x power (2/4.3).
-- 2nd Laser Overclock - 2x speed for 4.6x power (2/4.6).
-- 3rd Laser Overclock - 2x speed for 4.9x power (2/4.9).
+- 有损超频 - 以 4.0 倍功耗实现 2 倍速度（2/4.0）。
+- 第 1 次激光超频 - 以 4.3 倍功耗实现 2 倍速度（2/4.3）。
+- 第 2 次激光超频 - 以 4.6 倍功耗实现 2 倍速度（2/4.6）。
+- 第 3 次激光超频 - 以 4.9 倍功耗实现 2 倍速度（2/4.9）。
 
-The increased power cost of laser overclocks means that upgrading the energy hatch(es) is not always going to overclock the machine. It all depends on the recipe's base EU/t and the maximum number of parallels. 
+激光超频会增加功耗，因此升级能源仓不一定能让机器超频。实际效果取决于配方基础 EU/t 和最大并行数。
 
-Consider the UIV field generator recipe as an example. There can be up to 14 slices active simultaneously and each one consumes 15/16A of UEV power for a total of 13.1A. That means a 16A UEV energy hatch is enough to cover the base cost of the recipe, but does not grant any laser overclocks. Upgrading to a 64A energy hatch grants one laser overclock because that is greater than 13.1 x 4.3 = 56.4A, but upgrading to a 256A energy hatch does NOT grant a second laser overclock because that is less than 56.4 x 4.6 = 259A. The following table lists the amperage needed for a given number of laser overclocks for on-tier recipes (i.e. UEV recipes with one UEV laser energy hatch) that consume 15/16A of power.
+以 UIV 力场发生器配方为例。最多可同时启用 14 个切片，每个消耗 15/16A 的 UEV 电力，总计 13.1A。这意味着 16A 的 UEV 能源仓足以满足配方基础耗电，但无法提供任何激光超频。升级到 64A 能源仓后，可获得一次激光超频，因为其电流大于 13.1 x 4.3 = 56.4A；但升级到 256A 能源仓**无法**获得第二次激光超频，因为其电流低于 56.4 x 4.6 = 259A。下表列出指定激光超频次数所需的电流，适用于同等级配方（例如使用一个 UEV 激光能源仓的 UEV 配方），耗电均为 15/16A。
 
 
-| Slices | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
+| 切片 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 4 | 64 | 256 | 1,024 | 4,096 | 16,384 | 65,536 | 1,048,576 | 4,194,304 | 
 | 5 | 64 | 256 | 1,024 | 4,096 | 16,384 | 262,144 | 1,048,576 | 4,194,304 | 
@@ -149,6 +149,6 @@ Consider the UIV field generator recipe as an example. There can be up to 14 sli
 | 16 | 256 | 1,024 | 4,096 | 16,384 | 65,536 | 262,144 | 1,048,576 | 16,777,216 |
 
 
-## References
+## 参考资料
 
-- [GTNH Wiki: Advanced Assembly Line](https://wiki.gtnewhorizons.com/wiki/Advanced_Assembly_Line)
+- [GTNH Wiki：进阶装配线](https://wiki.gtnewhorizons.com/wiki/Advanced_Assembly_Line)

@@ -1,3 +1,3 @@
-Produces Naquadah Fuels
+用于生产硅岩燃料
 {hr}
-{color_mechanic:Performs 1 4/4 Perfect Overclock} per {color_name:Coil} above {color_name:Recipe} Tier
+{color_name:线圈}等级每高出{color_name:配方}等级一级，{color_mechanic:执行一次4/4无损超频}

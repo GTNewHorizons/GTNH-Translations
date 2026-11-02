@@ -1,9 +1,9 @@
-{color_parallel:{var:base_parallels}}-{color_parallel:{var:max_parallels}} Parallels per {color_name:Voltage} Tier
-{color_speed:{var:min_speed}}-{color_speed:{var:max_speed}%} Speed
-{color_efficiency:{var:eu_eff}%} {EU} Usage
+并行：每{color_name:电压}增加{color_parallel:{var:base_parallels}} - {color_parallel:{var:max_parallels}}
+运行速度：{color_speed:{var:min_speed}} - {color_speed:{var:max_speed}%}
+功率系数：{color_efficiency:{var:eu_eff}%} {EU}
 {hr}
-Both {color_parallel:Parallels} and {color_speed:Speed} scale with the machine's {color_mechanic:Momentum}
-Momentum increases by {color_mechanic:{var:momentum_gain}%} per second while active (max {color_mechanic:{var:momentum_max}%})
-and decreases by {color_mechanic:{var:momentum_decay}%} per second while inactive
+{color_parallel:并行数}与{color_speed:运行速度}均随机器的{color_mechanic:动量}变化
+运行时，动量每秒增加{color_mechanic:{var:momentum_gain}%}（上限{color_mechanic:{var:momentum_max}%}）
+停止运行时，动量每秒减少{color_mechanic:{var:momentum_decay}%}
 {hr}
-Use a {color_name:Screwdriver} to disable animations
+使用{color_name:螺丝刀}禁用动画效果

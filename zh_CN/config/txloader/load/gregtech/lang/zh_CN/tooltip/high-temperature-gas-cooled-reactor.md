@@ -1,15 +1,15 @@
-每次运行消耗最多 {green:{var:fuel_percent}%} 的{white:燃料}
-为开始运行，其中至少 {green:{var:min_helium}%} 为{gold:氦}
-{gold:氦}可使热交换器效率线性提升，最大容量时可达{green:100%}
-反应堆每次运行损失{green:{var:helium_lost}%}的{gold:氦}
-消耗 {aqua:{var:power} EU/t}，缺少{gold:氦}时消耗量将增加最多 {green:{var:power_penalty}倍} 
-{gray:{hr}}
-单次运行时长取决于反应堆填充水平（x%）
-介于 {green:{var:min_time}} 秒与 {green:{var:max_time}} 秒之间
-其 {green:10%} 为固定值，{green:90%} 取决于公式 y=1-(1-x)^3(x为填充百分比)
-每个维护问题会使冷却效率降低 {green:20%} 
-{gray:{hr}}
-提供{gold:冷却液}/ {gold:水}/两者均可加速配方进程，
-加速值为每秒{green:{var:coolant_speedup}%} / {green:{var:water_speedup}%} / {green:{var:total_speedup}%}
-达到最大加速效果所需的流体量随{gold:TRISO燃料丸数量}而变化
-每燃料丸每秒消耗{green:{var:coolant_per_ball}}{gold:冷却液}和{green:{var:water_per_ball}} {gold:蒸馏水}
+每次运行最多消耗{color_amount:{var:fuel_percent}%}的{color_name:燃料}
+至少需要{color_amount:{var:min_helium}%}的{color_key:氦}储量才能开始运行
+{color_key:氦}可使热交换器效率线性提升，满容量时达到{color_amount:100%}
+反应堆每次运行损失已存储{color_key:氦}的{color_amount:{var:helium_lost}%}
+消耗{color_eu_usage:{var:power} {EU/t}}，缺少{color_key:氦}时最多增至{color_amount:{var:power_penalty}倍}
+{hr}
+单次运行时长取决于反应堆填充水平
+介于{color_amount:{var:min_time}秒}与{color_amount:{var:max_time}秒}之间
+其中{color_amount:10%}为固定值，{color_amount:90%}遵循公式{aqua:y = 1 - (1 - x)^3}（{white:x}为填充比例）
+每个维护问题使效率降低{color_amount:20%}
+{hr}
+提供{color_key:冷却液}、{color_key:水}或同时提供两者可加速配方，
+每秒分别推进总配方时间的{color_amount:{var:coolant_speedup}%} / {color_amount:{var:water_speedup}%} / {color_amount:{var:total_speedup}%}
+达到最大加速效果所需的流体量随{color_key:TRISO燃料丸}数量变化
+每颗燃料丸每刻消耗{color_amount:{var:coolant_per_ball}}{color_key:冷却液}和{color_amount:{var:water_per_ball}}{color_key:蒸馏水}

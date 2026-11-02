@@ -10,76 +10,76 @@ navigation:
   position: -2001
 ---
 
-# Advanced Coke Oven
+# 高级焦炉
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="Railcraft:machine.alpha:12" />
 </GameScene>
 
-The <ItemImage id="Railcraft:machine.alpha:12" /> Advanced Coke Oven (ACO) is an MV tier multiblock for burning logs into charcoal. 
+<ItemImage id="Railcraft:machine.alpha:12" />高级焦炉（ACO）是 MV 等级的多方块机器，可将原木烧制成木炭。
 
-The ACO is a direct upgrade to the basic [<ItemLink id="gregtech:gt.blockmachines:236" showIcon="left" />](./coke_oven.md) because it is 90x faster, but it requires a burnable fuel such as the very charcoal that it produces and it does not produce creosote oil. Therefore, the ACO's maximum output is 1 charcoal per second, but its net output is 15 charcoal per 16 seconds. 
+ACO 是基础[<ItemLink id="gregtech:gt.blockmachines:236" showIcon="left" />](./coke_oven.md)的直接升级版，速度快 90 倍，但需要可燃燃料（例如它生产的木炭本身），并且不会产出杂酚油。因此，ACO 的最高产量为每秒 1 个木炭，净产量则为每 16 秒 15 个木炭。
 
-The ACO does not consume power and is initially faster than the [<ItemLink id="gregtech:gt.blockmachines:15546" showIcon="left" />](./pyrolyse_oven.md), but that quickly changes as better heating coils and energy hatches are unlocked. 
+ACO 不消耗电力，初期速度快于[<ItemLink id="gregtech:gt.blockmachines:15546" showIcon="left" />](./pyrolyse_oven.md)，但随着更好的加热炉线圈和能源仓解锁，这种情况很快就会改变。
 
-The ACO is superseded by the [<ItemLink id="gregtech:gt.blockmachines:15543" showIcon="left" />](./industrial_coke_oven.md) in EV.
+到 EV 阶段，[<ItemLink id="gregtech:gt.blockmachines:15543" showIcon="left" />](./industrial_coke_oven.md)会取代 ACO。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | MV |
-| Structure Size (LxWxH) | 3x3x4 |
-| Power | None |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces 80 gibbl/s pollution |
+| 解锁等级 | MV |
+| 结构尺寸（长×宽×高） | 3x3x4 |
+| 电力 | 无 |
+| 超频 | 无 |
+| 维护 | 无需维护 |
+| 污染 | 产生 80 gibbl/s 污染 |
 
-## Crafting and Construction
+## 合成与建造
 
-### Crafting
+### 合成
 
 <RecipesFor id="dreamcraft:AdvancedCokeOvenBrick" handlerId="gt.recipe.blastfurnace" />
 
 <RecipesFor id="Railcraft:machine.alpha:12" />
 
-### Structure
+### 结构
 
-The ACO consists of a single type of block and does not have a controller or any buses/hatches. The <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> does not visualize/build the structure, but it is very easy to build.
+ACO 仅由一种方块构成，没有控制器，也没有任何总线/仓。<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />无法预览/建造其结构，但手动搭建十分简单。
 
-ACO cannot be rotated at all.
+ACO 完全无法旋转。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="Railcraft:machine.alpha:12" showIcon="left" /> | 34, 3x3x4 with hollow 1x1x2 center |
+| <ItemLink id="Railcraft:machine.alpha:12" showIcon="left" /> | 34 个，3x3x4，中间挖空 1x1x2 |
 
-### Wallsharing
+### 共墙
 
-As a Railcraft multiblock, **the ACO <Color id="red">cannot wallshare</Color> any part of its structure** and must be at least one block apart from other ACOs to form.
+作为 Railcraft 多方块机器，**ACO 的结构任何部分都<Color id="red">不能共面</Color>**，且必须与其他 ACO 至少间隔一个方块才能成型。
 
-## Usage
+## 用途
 
 <GameScene wrap="square" align="right" width="300" height="300">
   <ImportStructure src="/assets/structures/aco_loop.snbt" />
 </GameScene>
 
-The ACO produces one charcoal per second from logs. That is 90x faster than the basic [<ItemLink id="gregtech:gt.blockmachines:236" showIcon="left" />](./coke_oven.md), but it requires a burnable fuel such as the very charcoal that it produces and it does not produce creosote oil. Charcoal has a burntime of 1600 ticks which fuels the ACO for 16 seconds, resulting in a net loss of only 1/16 of the total output. The ACO can also turn coal into coal coke, sugar charcoal into sugar coke, and cactus charcoal into cactus coke (1 second each).
+ACO 可将原木制成木炭，每秒产出 1 个。速度是基础[<ItemLink id="gregtech:gt.blockmachines:236" showIcon="left" />](./coke_oven.md)的 90 倍，但需要可燃燃料（例如它生产的木炭本身），并且不产出杂酚油。木炭燃烧时间为 1600 tick，可为 ACO 提供 16 秒燃料，因此总产量仅损失 1/16。ACO 还可将煤制成焦煤、将糖炭制成糖焦炭、将仙人掌炭制成仙人掌焦炭（各需 1 秒）。
 
-Inputs can be inserted into any block on any side of the structure and outputs can be extracted from any block on any side of the structure. The ACO does not auto-pull from adjacent inventories but it does auto-push. 
+可从结构任意一侧的任意方块输入物品，也可从任意一侧的任意方块提取产物。ACO 不会自动从相邻容器拉取物品，但会自动推送物品。
 
-The scene on the side shows an example of a self-feeding loop using EnderIO conduits.
+侧边示意图展示了使用末影接口管道实现自动供料循环的示例。
 
-### Charcoal Rate Comparison
+### 木炭产速对比
 
-The [<ItemLink id="gregtech:gt.blockmachines:15546" showIcon="left" />](./pyrolyse_oven.md) is another option for turning logs into charcoal in the early game that can be overclocked, boosted with nitrogen, and scales with the tier of its heating coils. 
+游戏前期也可以使用[<ItemLink id="gregtech:gt.blockmachines:15546" showIcon="left" />](./pyrolyse_oven.md)将原木制成木炭；它可以超频、通过氮气加速，且性能会随加热炉线圈等级提升。
 
-To help the player decide between the ACO and the Pyrolyse Oven, the following table compares their average charcoal per second for various recipes, heating coils, and overclocks. The cells highlighted green mean the Pyrolyse Oven is faster than the ACO and the cells highlighted in red mean the Pyrolyse Oven is slower. Note that the ACO does not consume any EU, but it also produces no fluid byproducts, which may also be a deciding factor depending on your current situation.
+为帮助玩家在 ACO 和热解炉之间做出选择，下表对比了不同配方、加热炉线圈和超频条件下两者平均每秒的木炭产量。绿色单元格表示热解炉速度快于 ACO，红色单元格表示热解炉速度较慢。请注意，ACO 不消耗 EU，但也不会产出流体副产物；根据当前情况，这也可能影响选择。
 
-| Overclocks | Pyrolyse Oven(Normal) ||| Pyrolyse Oven(With Nitrogen) ||| ACO |
+| 超频 | 热解炉（普通） ||| 热解炉（使用氮气） ||| ACO |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ^^ | Cupronickel | Kanthal | Nichrome | Cupronickel | Kanthal | Nichrome | ^^ |
+| ^^ | 白铜 | 坎塔尔合金 | 镍铬合金 | 白铜 | 坎塔尔合金 | 镍铬合金 | ^^ |
 | 0(MV) | <Color id="red">0.313/s</Color> | <Color id="red">0.625/s</Color> | <Color id="green">0.939/s</Color> | <Color id="red">0.625/s</Color> | <Color id="green">1.250/s</Color> | <Color id="green">1.887/s</Color> | 0.938/s |
 | 1(HV) | <Color id="red">0.625/s</Color> | <Color id="green">1.250/s</Color> | <Color id="green">1.887/s</Color> | <Color id="green">1.250/s</Color> | <Color id="green">2.500/s</Color> | <Color id="green">3.774/s</Color> | ^^ |
 | 2(EV) | <Color id="green">1.250/s</Color> | <Color id="green">2.500/s</Color> | <Color id="green">3.774/s</Color> | <Color id="green">2.500/s</Color> | <Color id="green">5.000/s</Color> | <Color id="green">7.692/s</Color> | ^^ |
 
-## References
+## 参考资料
 
-- [GTNH Wiki: Advanced Coke Oven](https://wiki.gtnewhorizons.com/wiki/Advanced_Coke_Oven)
+- [GTNH Wiki：高级焦炉](https://wiki.gtnewhorizons.com/wiki/Advanced_Coke_Oven)

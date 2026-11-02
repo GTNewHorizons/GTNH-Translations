@@ -1,23 +1,23 @@
 蜜蜂的理想家园
-{gold:输入模式}：
-- 不消耗能量；将蜂后放入{green:输入总线}即可将其存入内部缓存
-{gray:{hr}}
-{gold:输出模式}：
-- 不消耗能量；将蜜蜂返还至{green:输出总线}
-- {yellow:注意，你的蜜蜂很容易被销毁}
-{gray:{hr}}
-{gold:运行模式}：
-- {light_purple:常规}：
-  - 每次运行耗时 {green:{var:normal_seconds}秒}，蜜蜂速度为 {green:{var:bee_acceleration}倍}
-  - 每只蜂后消耗 {green:1}A {var:voltageTier_LuV}
-  - 自带 {green:8} 个产量升级，并应用{white:基因稳定升级}
-  - 为蜜蜂模拟完美的环境
-  - {gold:蜂王浆}每份提供 {green:{var:jelly_bonus}%} 的产出加成，最高 {green:{var:max_jelly_bonus}%}（每次运行时每只蜜蜂均会消耗）
-- {light_purple:蜂群}：
-  - 仅可放入 {green:1} 只蜂后，缓慢产出{white:卑贱种公主蜂}
-  - 每次运行消耗 {green:{var:swarmer_jelly_cost}} {gold:蜂王浆}
-  - 基础耗时为 {green:{var:swarmer_seconds}秒}，消耗 1A {var:voltageTier_IV}
-  - {light_purple:可超频}
-{gray:{hr}}
-手持{white:螺丝刀}右键以切换模式（输入/输出/运行）
-手持{white:螺丝刀}Shift+右键以切换运行模式（常规/蜂群）
+{color_mode:输入模式}：
+- 不消耗能量，请将蜂后放入{color_name:输入总线}，机器会将其放入内部缓存区
+{hr}
+{color_mode:输出模式}：
+- 不消耗能量，会将你的蜜蜂重新输出到{color_name:输出总线}中
+- {color_note:小心，你的蜜蜂很容易被销毁}
+{hr}
+{color_mode:运行模式}：
+- {color_mechanic:常规}：
+  - 运行时间：{color_time:{var:normal_seconds}秒}，所有蜜蜂加速{color_amount:{var:bee_acceleration}倍}
+  - 每只蜂后消耗{color_amperage:1}A {VNF:normalTier}
+  - 自带{color_amount:8}个产量升级，并应用{color_name:基因稳定升级}
+  - 为你的蜜蜂模拟完美的环境
+  - {color_key:蜂王浆}为每只蜜蜂提供{color_amount:{var:jelly_bonus}%}的增益，最大增益：{color_amount:{var:max_jelly_bonus}%}（每次运行时每只蜜蜂均会消耗）
+- {color_mechanic:蜂群}：
+  - 只能放入{color_amount:1}只蜂后，它会缓慢生产{color_name:卑贱种公主蜂}
+  - 每次运行消耗{color_amount:{var:swarmer_jelly_cost}}{color_key:蜂王浆}
+  - 基础运行时间：{color_time:{var:swarmer_seconds}秒}，消耗{color_amperage:1}A {VNF:swarmerTier}
+  - {color_mechanic:可以超频}
+{hr}
+手持{color_name:螺丝刀}右键控制器以切换{color_mode:模式}（输入/输出/运行）
+手持{color_name:螺丝刀}潜行右键控制器以切换{color_mechanic:运行模式}（常规/蜂群）

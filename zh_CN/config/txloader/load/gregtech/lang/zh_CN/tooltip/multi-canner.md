@@ -1,1 +1,1 @@
-{color_misc:It's uncanny!}
+{color_misc:这太不可思议了！}

@@ -21,7 +21,7 @@ navigation:
 
 - 没有任何特别说明的机器默认为 1 并行，例如 <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />
 - <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15518" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15516" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15515" showIcon="left" />、<ItemLink id="gregtech:gt.blockmachines:15569" showIcon="left" /> 与 <ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" /> 的最大并行数固定为 256
-- 大多数机器根据电压或结构部件的等级计算最大并行数。当工具提示中说“每级电压提供 $$x$$ 并行”时，该数值由所有能源仓的电压输入之和计算得出，上限为 15（MAX+）
+- 大多数机器根据电压或结构部件的等级计算最大并行数。当tooltips中说“每级电压提供 $$x$$ 并行”时，该数值由所有能源仓的电压输入之和计算得出，上限为 15（MAX+）
 
 只有 <ItemLink id="gregtech:gt.blockmachines:1003" showIcon="left" /> 和 <ItemLink id="gregtech:gt.blockmachines:1132" showIcon="left" /> 具有跨配方并行能力，即一次并行批次中可以包含多个不同的配方。
 

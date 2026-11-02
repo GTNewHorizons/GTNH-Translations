@@ -1,2 +1,2 @@
-Takes in particle beams and sends them back out
-{color_note:That's literally it.}
+接受粒子束流并将它们再次发射出去
+{color_note:字面意思。}

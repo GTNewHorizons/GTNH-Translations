@@ -1,5 +1,5 @@
-并行数：每{white:电压等级}增加 {gold:2}
-运行速度：{green:250%}
-功率系数：{aqua:100%}
-处理来自{white:液态氟钍反应堆}的{red:枯竭熔盐}
-处理{white:反应堆处理单元}和{white:冷阱}的配方
+每级{color_name:电压}提供{color_parallel:{var:parallels}}并行
+运行速度：{color_speed:{var:speed}%}
+{EU}消耗：{color_efficiency:{var:eu_eff}%}
+处理来自{color_name:液态氟钍反应堆}的{color_hot:枯竭熔盐}
+处理{color_name:反应堆处理单元}和{color_name:冷阱}的配方

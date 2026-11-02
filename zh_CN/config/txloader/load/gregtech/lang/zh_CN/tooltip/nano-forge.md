@@ -1,5 +1,5 @@
-Requires insane amounts of power to create nanites
-The {color_name:Nanite} in the controller slot determines Machine Tier
-{color_note:Tier 4 has additional mechanics, check the controller}
+需要消耗巨量电能来制造纳米蜂群
+控制器插槽中的{color_name:纳米蜂群}决定机器等级
+{color_note:4级锻炉拥有额外的机制，请查看控制器}
 {hr}
-{color_mechanic:Performs 4/4 Perfect Overclocks} on lower-tier recipes
+当配方等级低于纳米锻炉等级时执行{color_mechanic:4/4无损超频}

@@ -27,7 +27,7 @@ item_id: appliedenergistics2:tile.BlockController
 
 * 许多页面都有可交互场景。如果场景旁边有![Plus](../assets/images/plus.png)和![Minus](../assets/images/minus.png)缩放按钮，你就可以移动视角。
 * 左键拖动以旋转场景，右键拖动以平移场景。
-* 将鼠标悬停在方块或标注上，即可查看它们的工具提示。
+* 将鼠标悬停在方块或标注上，即可查看它们的tooltips。
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/autocraft_setup_greebles.snbt" />

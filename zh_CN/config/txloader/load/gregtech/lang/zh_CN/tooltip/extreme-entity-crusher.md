@@ -1,20 +1,20 @@
-为你生成并屠宰怪物！
-每次运作生产 {green:{var:xp_per_op} 液态经验}
-将{gold:电动刷怪笼}放入控制器的GUI中
-{gray:{hr}}
-最低时间：{green:{var:min_time}} 刻，继续超频会使产物翻 {green:{var:oc_mult}} 倍
-配方时间取决于怪物血量
+为你生成并击杀怪物！
+每次运作产出{green:{var:xp_per_op}液态经验}
+将{color_key:动力刷怪笼}放入控制器槽位
+{hr}
+最低配方时间为{color_amount:{var:min_time}}刻，进一步超频将使产出倍增{color_amount:{var:oc_mult}倍}
+配方时间取决于怪物生命值
 你还可以在GUI中放入武器
-以加速运行并应用其抢夺等级（最高 {green:{var:max_looting}} 级）
-{dark_red:对机器内部的锥刺附魔无效！}
-{gray:{hr}}
-如果生成的怪物是{dark_red:精英怪}，将会消耗 {green:{var:infernal_mult}} 倍能量！
-{gray:{hr}}
-{light_purple:仪式模式}下，可连接至上方的{white:苦难之井}仪式
-主仪式石必须放置在机器的正上方中心位置，垂直{green:10}格范围内，水平{green:5}格范围内
-当连接时，怪物会进入缓冲并缓慢死亡，为连接的祭坛提供血液。
-{gray:{hr}}
-手持{white:螺丝刀}右键启用{light_purple:仪式模式}
-手持{white:螺丝刀}Shift+右键禁用{light_purple:精英怪生成}
-手持{white:电烙铁}右键启用{light_purple:生物动画}
-{light_purple:支持 4/4 无损超频！}
+这将加速处理过程，并应用武器的抢夺等级（最大{green:{var:max_looting}}级）
+{color_danger:给结构内部的锥刺附魔是无效的！}
+{hr}
+如果生成的怪物是{color_danger:精英怪}，将会消耗{color_amount:{var:infernal_mult}倍}能量！
+{hr}
+{color_mode:仪式模式}可连接至上方的{color_name:苦难之井}仪式
+主仪式石必须位于正上方中心，相对{color_name:血之祭坛}的垂直距离不超过{color_range:10}格、水平距离不超过{color_range:5}格
+连接后，仪式持续时间将锁定，并向连接的祭坛注入血液
+{hr}
+手持{color_name:螺丝刀}右键控制器以切换{color_mode:仪式模式}
+手持{color_name:螺丝刀}潜行右键控制器以切换{color_mode:精英怪生成}
+手持{color_name:电烙铁}右键控制器以切换{color_mode:生物动画}
+{color_mechanic:支持4/4无损超频}

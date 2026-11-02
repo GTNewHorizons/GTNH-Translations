@@ -1,9 +1,9 @@
-Processes substances by increasing or decreasing their entropy
+通过增加或减少其熵值处理物质
 {hr}
-Has {color_parallel:{var:base_parallels}} Parallels by default
-Using {color_key:Advanced Alchemical Constructs} increases the machine's parallels to {color_parallel:{var:advanced_parallels}}
+默认拥有{color_parallel:{var:base_parallels}}并行数
+使用{color_key:高级炼金构材}以将机器并行数增加至{color_parallel:{var:advanced_parallels}}
 {hr}
-Mixes fluids or solids with a magical catalyst
-Catalyst is consumed by the recipe, then returned upon completion
+将流体或固体与魔法催化剂混合
+催化剂会被配方消耗，并在完成时返还
 {hr}
-Performs {color_mechanic:1 4/4 Perfect Overclock} per {color_name:Casing} Tier ({color_name:Thaumium} = 1 Perfect OC)
+每级{color_name:机械方块}进行{color_mechanic:一次4/4无损超频}（{color_name:神秘} = 1次无损超频）

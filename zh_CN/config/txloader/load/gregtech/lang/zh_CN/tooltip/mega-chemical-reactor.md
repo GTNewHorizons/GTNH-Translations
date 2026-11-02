@@ -1,2 +1,2 @@
-{italic:Infinite Potential!}
-{color_mechanic:Performs 4/4 Perfect Overclocks}
+{italic:无限潜能！}
+{color_mechanic:支持4/4无损超频}

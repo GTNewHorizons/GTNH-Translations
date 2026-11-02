@@ -1,1 +1,1 @@
-{color_parallel:4 + (2 * Heating Coil Tier)} Parallels
+并行：{color_parallel:4 + (2 * 加热线圈等级)}

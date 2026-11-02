@@ -1,4 +1,4 @@
 #include:gregtech:large-turbine-rotor
-Generates power from Supercritical (SC) Steam based on the turbine and fitting
-Outputs 1 {L} of Superheated (SH) Steam for every 1 {L} of Supercritical Steam
+利用超临界蒸汽发电，取决于转子与节流模式
+对每1 {L}超临界蒸汽，输出1 {L}过热蒸汽
 #include:gregtech:large-turbine-fitting

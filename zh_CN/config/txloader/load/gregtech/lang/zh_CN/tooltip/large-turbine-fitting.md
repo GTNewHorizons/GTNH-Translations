@@ -1,2 +1,2 @@
-Use a screwdriver to adjust the fitting of the turbine
-Loose fit increases flow in exchange for efficiency
+使用螺丝刀调整涡轮的装配方式
+松模式将牺牲燃料效率以提高流量

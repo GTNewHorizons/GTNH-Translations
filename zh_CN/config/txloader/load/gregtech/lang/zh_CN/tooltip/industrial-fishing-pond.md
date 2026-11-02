@@ -1,6 +1,6 @@
-{color_parallel:(Tier + 1) * 2} Parallels
+并行数：{color_parallel:(等级 + 1) * 2}
 {hr}
-Put a numbered circuit into the input bus or controller
-Circuit {color_mode:{var:fish_mode}} for {color_name:Fish}
-Circuit {color_mode:{var:junk_mode}} for {color_name:Junk}
-Circuit {color_mode:{var:treasure_mode}} for {color_name:Treasure}
+将编程电路放入输入总线或主机以控制配方
+编程电路{color_mode:{var:fish_mode}}捕捉{color_name:鱼类}
+编程电路{color_mode:{var:junk_mode}}捞取{color_name:垃圾}
+编程电路{color_mode:{var:treasure_mode}}捞取{color_name:宝藏}

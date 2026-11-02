@@ -5,6 +5,6 @@ navigation:
   position: 30
 ---
 
-# Botania
+# 植物魔法
 
-Guides for Botania.
+植物魔法指南。

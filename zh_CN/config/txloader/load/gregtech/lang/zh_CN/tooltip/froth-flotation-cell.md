@@ -1,3 +1,3 @@
-Process that milled ore!
-{color_note:Locked to one milled ore type per controller}
-{color_mechanic:Performs 4/4 Perfect Overclocks}
+用于处理研磨过的矿石！
+{color_note:每个控制器只能绑定一种研磨后的矿石}
+{color_mechanic:支持4/4无损超频}

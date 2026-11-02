@@ -1,3 +1,3 @@
 {hr}
-This Multiblock is used for EXTREME packaging requirements
-Can be configured to work as an Unpackager in the controller
+此多方块结构用于极限的打包需求
+可在控制器中配置为解包器模式
