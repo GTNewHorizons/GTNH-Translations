@@ -1,5 +1,5 @@
-Same throughput as 16 LST-HP with only 12 turbines
-Generates power from regular or dense Superheated (SH) Steam based on the turbine and fitting
-Outputs 1 {L} of Steam for every 1 {L} of Superheated Steam
+Такая же производительность, как у 16 LST-HP, но всего с 12 турбинами
+Вырабатывает энергию из обычного или плотного перегретого (ПГ) пара в зависимости от турбины и режима
+Выдаёт 1 {L} пара на каждый 1 {L} перегретого пара
 #include:gregtech:xl-turbine-fitting
 #include:gregtech:xl-turbine-dense-steam

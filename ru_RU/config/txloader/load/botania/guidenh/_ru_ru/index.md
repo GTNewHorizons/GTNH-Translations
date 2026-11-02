@@ -7,4 +7,4 @@ navigation:
 
 # Botania
 
-Гайди по моду Botania.
+Руководства по моду Botania.

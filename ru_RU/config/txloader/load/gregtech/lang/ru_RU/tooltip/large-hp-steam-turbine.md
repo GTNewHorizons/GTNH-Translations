@@ -1,4 +1,4 @@
 #include:gregtech:large-turbine-rotor
-Generates power from Superheated (SH) Steam based on the turbine and fitting
-Outputs 1 {L} of Steam for every 1 {L} of Superheated Steam
+Вырабатывает энергию из перегретого (ПГ) пара в зависимости от турбины и режима
+Выдаёт 1 {L} пара на каждый 1 {L} перегретого пара
 #include:gregtech:large-turbine-fitting

@@ -1,2 +1,2 @@
-Use a screwdriver to adjust the fitting of the turbine
-Loose fit increases flow in exchange for efficiency
+Используйте отвёртку, чтобы настроить режим турбины
+Форсированный режим увеличивает поток в обмен на эффективность

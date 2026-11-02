@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Upgrade Cards
+  title: Карты улучшений
   icon: appliedenergistics2:item.ItemMultiMaterial:25
   position: 410
 categories:
@@ -65,10 +65,10 @@ item_ids:
     <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:66" scale="2" />
   </Row>
 </Column>
-Upgrade cards change the behavior of AE2 devices and machines, increasing their speed, improving their
-filter capacity, enabling redstone control, etc.
+Карты улучшения изменяют поведение устройств и механизмов из AE2, повышая их скорость, улучшая их
+фильтры, обеспечивая возможность управления с помощью редстоуна и т.д.
 
-## Card Components
+## Карты-компоненты
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:25" scale="2" />
@@ -76,7 +76,7 @@ filter capacity, enabling redstone control, etc.
   <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:28" scale="2" />
 </Row>
 
-Upgrade cards are crafted using either a Basic Card or an Advanced Card as the base.
+Карты улучшения создаются на основе базовых или продвинутых карт.
 
 <Row>
   <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:25" />
@@ -84,182 +84,178 @@ Upgrade cards are crafted using either a Basic Card or an Advanced Card as the b
   <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:28" />
 </Row>
 
-## Redstone Card
+## Карта красного камня
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:26" scale="2" />
 
-Redstone Cards add redstone control to a device, including a toggle in its GUI for switching between redstone modes.
+Карта красного камня добавляет возможность контролировать устройство при помощи красного камня, добавляя переключать в интерфейс для выбора режима работы.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:26" />
 
-## Capacity Card
+## Карта ёмкости
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:27" scale="2" />
 
-Capacity Cards increase the number of filter slots in Import Buses, Export Buses, Storage Buses, and Formation Planes.
+Карта ёмкости увеличивает количество слотов для фильтров в плоскости формирования и в шинах: импорта, экспорта и хранения.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:27" />
 
-## Overflow Void Card
+## Пустотная карта переполнения
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:68" scale="2" />
 
-Overflow Void Cards can be applied to [Storage Cells](storage_cells.md) in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
-They delete incoming items when the cell is full. Make sure to [partition](cell_workbench.md) your cells first.
-When combined with an Equal Distribution Card, an item is voided as soon as its own partition is full, even if other partitions still have room.
+Пустотная карта переполнения применяется к [ячейкам хранения](storage_cells.md) в <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
+Она удаляет поступающие предметы, когда ячейка переполнена. Настройте [разделы](cell_workbench.md) перед этим.
+При использовании вместе с картой равного распределения предметы удаляются, как только его собственный раздел заполняется, даже если в других разделах ещё есть свободное место.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:68" />
 
-## Fuzzy Card
+## Карта нечёткости
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:29" scale="2" />
 
-Fuzzy Cards let filtered devices and tools match by durability and/or ignore item NBT. That allows you to export
-all iron axes regardless of durability or enchantments, or export only damaged diamond swords instead of fully repaired ones.
+Карта нечёткости позволяет сопоставлять устройства и инструменты по прочности и/или игнорировать NBT-атрибуты предметов. Это дает возможность экспортировать все железные топоры независимо от их прочности или зачарований, либо экспортировать только поврежденные алмазные мечи вместо полностью целых.
 
-Below is an example of how fuzzy durability comparison modes work. The left side shows the bus configuration, and the top row shows the compared item.
+Ниже приведен пример того, как работают режимы нечёткого сравнения прочности. Слева показана конфигурация шины, а в верхней строке — сравниваемый предмет.
 
-| 25%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| 25%                    | Кирка сломана на 10% | Кирка сломана на 30% | Кирка сломана на 80% | Кирка полностью цела |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            | ✔                   | ✔                   | ✔                   |
+| Почти сломанная кирка  | ✔                   | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            |
+| Полностью целая кирка  | \*\*\*\*            | ✔                   | ✔                   | ✔                   |
 
 ---
 
-| 50%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| 50%                    | Кирка сломана на 10% | Кирка сломана на 30% | Кирка сломана на 80% | Кирка полностью цела |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            | \*\*\*\*            | ✔                   | ✔                   |
+| Почти сломанная кирка  | ✔                   | ✔                   | \*\*\*\*            | \*\*\*\*            |
+| Полностью целая кирка  | \*\*\*\*            | \*\*\*\*            | ✔                   | ✔                   |
 
 ---
 
-| 75%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| 75%                    | Кирка сломана на 10% | Кирка сломана на 30% | Кирка сломана на 80% | Кирка полностью цела |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | \*\*\*\*            | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            |                     | ✔                   | ✔                   |
+| Почти сломанная кирка  | ✔                   | ✔                   | \*\*\*\*            | \*\*\*\*            |
+| Полностью целая кирка  | \*\*\*\*            |                     | ✔                   | ✔                   |
 
 ---
 
-| 99%                    | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| 99%                    | Кирка сломана на 10% | Кирка сломана на 30% | Кирка сломана на 80% | Кирка полностью цела |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | ✔                   | \*\*\*\*            |
-| Fully Repaired Pickaxe | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            | ✔                   |
+| Почти сломанная кирка  | ✔                   | ✔                   | ✔                   | \*\*\*\*            |
+| Полностью целая кирка  | \*\*\*\*            | \*\*\*\*            | \*\*\*\*            | ✔                   |
 
 ---
 
-| Ignore                 | 10% Damaged Pickaxe | 30% Damaged Pickaxe | 80% Damaged Pickaxe | Full Repair Pickaxe |
+| любое соответствие      | Кирка сломана на 10% | Кирка сломана на 30% | Кирка сломана на 80% | Кирка полностью цела |
 | :--------------------: | :-----------------: | :-----------------: | :-----------------: | :-----------------: |
-| Nearly Broken Pickaxe  | ✔                   | ✔                   | ✔                   | **✔**               |
-| Fully Repaired Pickaxe | **✔**               | **✔**               | **✔**               | ✔                   |
+| Почти сломанная кирка  | ✔                   | ✔                   | ✔                   | **✔**               |
+| Полностью целая кирка | **✔**               | **✔**               | **✔**               | ✔                   |
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:29" />
 
-## Acceleration Card
+## Карта ускорения
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:30" scale="2" />
 
-Acceleration Cards speed things up. They let Import and Export Buses move more items per operation, and make Inscribers
-and Molecular Assemblers work faster.
+Эта карта ускоряет процессы. Она позволяет шинам импорта и экспорта переносить больше предметов за одну операцию, а также ускоряет работу высекателя и молекулярного сборщика.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:30" />
 
-## Hyper-Acceleration Card
+## Карта гиперускорения
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:56" scale="2" />
 
-Hyper-Acceleration Cards are a faster version of normal Acceleration Cards, but they can only be used in the ME-IO Port,
-ME Import/Export Buses, and ME Fluid Import/Export Buses.
+Карта гиперускорения это улучшенная версия обычной карты ускорения, однако её можно использовать только в МЭ порту ввода/вывода,
+на MЭ шинах импорта и экспорта, а также жидкостных шинах импорта и экспорта.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:56" />
 
-## Superluminal Acceleration Card
+## Карта сверхсветового ускорения
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:67" scale="2" />
 
-The Superluminal Acceleration Card is the fastest AE card for moving items or fluids, but it can only be used in the
-ME-IO Port and ME Import/Export Buses.
+Карта сверхсветового ускорения это самая быстрая карта из AE для перемещения предметов или жидкостей, однако её можно использовать только в МЭ порту ввода/вывода и на шинах импорта/экспорта MЭ.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:67" />
 
-## Inverter Card
+## Карта инвертирования
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:31" scale="2" />
 
-Inverter Cards switch a device or tool filter from whitelist mode to blacklist mode.
+Карта инвертирования меняет в устройстве или инструменте фильтр с белого на чёрный список.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:31" />
 
-## Crafting Card
+## Карта создания
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
 
-Crafting Cards let the device send requests to your [autocrafting](../ae2_mechanics/autocrafting.md)
-system for the items it needs.
+Карта создания позволяет устройствам отправлять запросы в твою систему [автокрафта](../ae2-mechanics/autocrafting.md) для получения необходимых предметов.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:53" />
 
-## Equal Distribution Card
+## Карта равного распределения
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:69" scale="2" />
 
-Equal Distribution Cards can be applied to [Storage Cells](storage_cells.md) in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
-They divide the cell into equal partitions based on how the card is [partitioned](cell_workbench.md), which prevents a single item type from filling the whole cell.
+Карта равного распределения применяется к [ячейкам хранения](storage_cells.md) в <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
+Они разделяют ячейку на равные секции в соответствии с [разделами](cell_workbench.md), что не позволяет одному типу предметов заполнить всю ячейку.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:69" />
 
-## Pattern Capacity Card
+## Карта ёмкости интерфейса
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:54" scale="2" />
 
-Each Pattern Capacity Card provides an additional 9 pattern slots to the interface, up to a maximum of 3 cards per interface.
+Каждая карта ёмкости интерфейса добавляет дополнительных 9 слотов для шаблонов в интерфейсе. Максимум - 3 карты на интерфейс.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:54" />
 
-## Ore Dictionary Filter Card
+## Карта фильтрации по словарю руд
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:55" scale="2" />
 
-Allows filtering by Ore Dictionary entry and supports regular expression matching.
+Позволяет фильтровать по словарю руд и поддерживает поиск с использованием регулярных выражений(RegExp).
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:55" />
 
-## Sticky Card
+## Липкая карта
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:64" scale="2" />
 
-Any items, fluids, or essentia partitioned onto this cell may only be stored in cells or Storage Buses that also have Sticky Cards, and nowhere else in the network.
+Любые предметы, жидкости или эссенция размещенные в этой ячейке, могут храниться только в ячейках или шинах хранения, в которых также имеется липкая карта и нигде больше в сети.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:64" />
 
-## Advanced Blocking Card
+## Продвинутая карта блокировки
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:63" scale="2" />
 
-Advanced Blocking Cards extend blocking to the entire connected ME network instead of only adjacent inventories. When enabled, the interface prevents recipe ingredients from being inserted if the target network already contains the relevant items or fluids.
+Продвинутая карта блокировки распространяет действие блокировки на всю ME сеть, а не только на соседние хранилища. При включении, интерфейс предотвращает добавление материалов крафта, если в целевой сети уже присутствуют соответствующие предметы или жидкости.
 
-In Default mode, blocking is triggered only when recipe-relevant items or fluids are present in the network (excluding catalysts such as lenses, circuits, or molds).
+В режиме по умолчанию блокировка срабатывает только при наличии в сети предметов или жидкостей, относящихся к рецепту (за исключением катализаторов, таких как линзы, электросхем или форм).
 
-In Loose mode, blocking is triggered by the presence of any item or fluid in the network.
+В свободном режиме блокировка срабатывает при наличии в сети любого предмета или жидкости.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:63" />
 
-## Locking Card
+## Карта запирания
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:65" scale="2" />
 
-This card has 4 modes:
+Эта карта имеет 4 режима работы:
 
-*   Mode 1: Never locks crafting
-*   Mode 2: Locks crafting until a redstone pulse is received
-*   Mode 3: Locks crafting when a redstone signal is present
-*   Mode 4: Locks crafting when no redstone signal is present
+*   Режим 1: Никогда не блокирует крафты
+*   Режим 2: Блокирует крафты пока не будет получен импульс красного камня
+*   Режим 3: Блокирует крафты пока есть сигнал красного камня
+*   Режим 4: Блокирует крафты пока нет сигнала красного камня
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:65" />
 
-## Fake Crafting Card
+## Карта поддельного создания
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:66" scale="2" />
 
-If an Interface is equipped with this card, it immediately completes the **crafting job** after submitting it, without waiting for the result to return. This only works if the submitted job's final output is the intended product.
+Если интерфейс оснащён этой картой, он сразу завершает **крафт** после его отправки, не дожидаясь получения результата. Это работает только в том случае, если конечным результатом отправленного задания является нужный продукт.
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:66" />

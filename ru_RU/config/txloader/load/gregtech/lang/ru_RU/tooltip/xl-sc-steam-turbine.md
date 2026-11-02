@@ -1,5 +1,5 @@
-Same throughput as 16 LST-SC with only 12 turbines
-Generates power from regular or dense Supercritical (SC) Steam based on the turbine and fitting
-Outputs 1 {L} of Superheated (SH) Steam for every 1 {L} of Supercritical Steam
+Такая же производительность, как у 16 LST-SC, но всего с 12 турбинами
+Вырабатывает энергию из обычного или плотного сверхкритического (СК) пара в зависимости от турбины и режима
+Выдаёт 1 {L} перегретого (ПГ) пара на каждый 1 {L} сверхкритического пара
 #include:gregtech:xl-turbine-fitting
 #include:gregtech:xl-turbine-dense-steam

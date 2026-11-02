@@ -1,3 +1,3 @@
-Same throughput as 16 LGT with only 12 turbines
-Generates power from Gas based on the turbine and fitting
+Такая же производительность, как у 16 LGT, но всего с 12 турбинами
+Вырабатывает энергию из газа в зависимости от турбины и режима
 #include:gregtech:xl-turbine-fitting

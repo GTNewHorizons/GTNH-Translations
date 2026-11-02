@@ -1,1 +1,1 @@
-Needs a Turbine, place inside controller
+Требуется турбина, поместите её в контроллер

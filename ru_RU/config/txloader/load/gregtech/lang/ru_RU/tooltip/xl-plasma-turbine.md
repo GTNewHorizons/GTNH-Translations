@@ -1,6 +1,6 @@
-Same throughput as 16 LPT with only 12 turbines
-Generates power from Plasma based on the turbine and fitting
-Outputs 1 {L} of fluid for every 1 {L} of Plasma
+Такая же производительность, как у 16 LPT, но всего с 12 турбинами
+Вырабатывает энергию из плазмы в зависимости от турбины и режима
+Выдаёт 1 {L} жидкости на каждый 1 {L} плазмы
 #include:gregtech:xl-turbine-fitting
-Plasma fuel efficiency is lower for high tier turbines when using low-grade plasmas
-Efficiency = ((FuelValue / 200,000)^2) / ({EU} per Turbine)
+Эффективность плазменного топлива ниже у турбин высокого тира при использовании низкосортной плазмы
+Эффективность = ((Топливная ценность / 200 000)^2) / ({EU} на турбину)
