@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Warp Theory Event Timer
+  title: Warp Theory Olay Zamanlayıcısı
   parent: magic.md
   icon: WarpTheory:item.warptheory.paper
 categories:
@@ -10,6 +10,6 @@ author: koolkrafter5
 date: 2026-06-10
 ---
 
-<Color id="RED">Warp Theory's</Color> warp events will now respect Thaumcraft's <Color id="BLUE">warp event timer</Color>. This means that they will <Color id="GREEN">gradually reduce</Color> in severity over time and even <Color id="GREEN">eventually cease</Color> occurring after enough time. Events will start again with <Color id="RED">full severity</Color> whenever you gain warp from any source. Armor and equipment with the <Color color="#FFAA00AA">Warping</Color> property <Color id="BLUE">do not reset</Color> this timer.
+<Color id="RED">Warp Theory</Color>'nin delilik olayları artık Thaumcraft'ın <Color id="BLUE">delilik olayı zamanlayıcısına</Color> uyacak. Bu, zamanla şiddetlerinin <Color id="GREEN">kademeli olarak azalacağı</Color> ve yeterince zaman geçtikten sonra <Color id="GREEN">tamamen sona ereceği</Color> anlamına gelir. Herhangi bir kaynaktan delilik kazandığında olaylar <Color id="RED">tam şiddetle</Color> yeniden başlar. <Color color="#FFAA00AA">Warping</Color> özelliğine sahip zırh ve ekipman bu zamanlayıcıyı <Color id="BLUE">sıfırlamaz</Color>.
 
-The <Color id="YELLOW">Grinning Devil Faceplate</Color> for Thaumium, Void, and Shadow Fortress Helms as well as Primordial Helms will now also <Color id="GREEN">slightly reduce</Color> the severity of <Color id="RED">Warp Theory's</Color> warp events.
+Thaumium, Void ve Shadow Fortress Miğferleri ile Primordial Miğferler için <Color id="YELLOW">Sırıtan Şeytan Yüz Plakası</Color> artık <Color id="RED">Warp Theory</Color>'nin delilik olaylarının şiddetini de <Color id="GREEN">hafifçe azaltacak</Color>.

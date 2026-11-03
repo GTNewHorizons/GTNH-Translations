@@ -2,103 +2,103 @@
 item_ids:
   - gregtech:gt.blockmachines:1002
 navigation:
-  title: Vacuum Freezer
+  title: Vakum Dondurucu
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:1002
   position: -3001
 ---
-# Vacuum Freezer
+# Vakum Dondurucu
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1002" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> (Vacuum Freezer, abbreviated VF and often called the "freezer") is an HV-tier processing multiblock. It is commonly paired with the [Electric Blast Furnace](./electric_blast_furnace.md) to cool its hot ingots into regular ingots that can undergo further processing.
+<ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> (Vakum Dondurucu, kısaca VF ve çoğu zaman "dondurucu") HV kademesinde çalışan bir işleme multibloğudur. Sıcak külçelerini daha ileri işlemeden geçebilecek normal külçelere soğutmak için genellikle [Elektrikli Yüksek Fırın](./electric_blast_furnace.md) ile birlikte kullanılır.
 
-Not every Electric Blast Furnace product needs cooling. Before setting up a production line, check the product's uses in NEI. If the furnace already produces a regular ingot, it does not need to pass through the Vacuum Freezer.
+Her Elektrikli Yüksek Fırın ürünü soğutma gerektirmez. Bir üretim hattı kurmadan önce ürünün kullanımlarını NEI'de kontrol et. Fırın zaten normal bir külçe üretiyorsa bunun Vakum Dondurucudan geçmesi gerekmez.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock tier | HV |
-| Structure size | 3×3×3, with an air block at the center |
-| Power | Standard Energy Hatches; Multi-Amp Energy Hatches and Laser Energy Hatches are not supported |
-| Overclocking | Standard imperfect overclocking: each overclock uses 4× the power and halves the duration |
-| Processing bonuses | No additional speed, power, or parallel bonuses |
-| Maintenance and pollution | Requires maintenance, produces no pollution, and does not need a Muffler Hatch |
+| Açılma kademesi | HV |
+| Yapı boyutu | 3×3×3; merkezde bir hava bloğu |
+| Güç | Standart Enerji Kapakları; Çok Amperli Enerji Kapakları ve Lazer Enerji Kapakları desteklenmez |
+| Hız aşırtma | Standart kusurlu hız aşırtma: her hız aşırtma 4× güç kullanır ve süreyi yarıya indirir |
+| İşleme bonusları | Ek hız, güç veya paralel bonusu yok |
+| Bakım ve kirlilik | Bakım gerektirir, kirlilik üretmez ve Egzoz Çıkışı gerekmez |
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-The current recipes for the controller and casing are shown below.
+Kontrolcü ve kasa için güncel tarifler aşağıda gösterilmiştir.
 
 <RecipesFor id="gregtech:gt.blockmachines:1002" />
 
 <RecipesFor id="gregtech:gt.blockcasings2:1" />
 
-Build a hollow 3×3×3 shell with the controller in the center of the second layer on the front face. The single block at the center must remain air; no coils, ice, or coolant are required inside the structure.
+Kontrolcü ön yüzdeki ikinci katmanın ortasında olacak şekilde içi boş bir 3×3×3 kabuk inşa et. Merkezdeki tek blok hava olarak kalmalıdır; yapının içinde bobin, buz veya soğutucu gerekmez.
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> | 1, in the center of the second layer on the front face |
-| <ItemLink id="gregtech:gt.blockcasings2:1" showIcon="left" /> | At least 16; the remaining casing positions may be replaced by the hatches and buses listed below |
-| Energy Hatch | At least 1, in any casing position |
-| Maintenance Hatch | 1, in any casing position |
-| Input Bus or Input Hatch | At least one of either type, in any casing position |
-| Output Bus or Output Hatch | At least one of either type, in any casing position |
+| <ItemLink id="gregtech:gt.blockmachines:1002" showIcon="left" /> | 1; ön yüzdeki ikinci katmanın ortasında |
+| <ItemLink id="gregtech:gt.blockcasings2:1" showIcon="left" /> | En az 16; kalan kasa konumları aşağıda listelenen kapaklar ve yollarla değiştirilebilir |
+| Enerji Kapağı | En az 1; herhangi bir kasa konumunda |
+| Bakım Kapağı | 1; herhangi bir kasa konumunda |
+| Giriş Yolu veya Girdi Kapağı | İki türden en az biri; herhangi bir kasa konumunda |
+| Çıkış Yolu veya Çıkış Kapağı | İki türden en az biri; herhangi bir kasa konumunda |
 
-Use an Input Bus and Output Bus to cool hot ingots. For fluid recipes, install the Input and Output Hatches required by the recipe. Both kinds of interface may be installed at the same time, but the structure must retain at least 16 actual Frost Proof Machine Casings; hatches and buses do not count toward this minimum.
+Sıcak külçeleri soğutmak için bir Giriş Yolu ve Çıkış Yolu kullan. Sıvı tarifleri için tarifin gerektirdiği Girdi ve Çıkış Kapaklarını tak. İki tür arayüz aynı anda takılabilir, ancak yapı en az 16 gerçek Dona Dayanıklı Makine Kasası tutmalıdır; kapaklar ve yollar bu minimuma sayılmaz.
 
-A machine used only for hot ingots, with one Energy Hatch, one Maintenance Hatch, one Input Bus, and one Output Bus, requires **21 Frost Proof Machine Casings**. Adding more hatches or buses reduces the required number of casing blocks accordingly, down to the minimum of 16.
+Yalnızca sıcak külçeler için kullanılan, bir Enerji Kapağı, bir Bakım Kapağı, bir Giriş Yolu ve bir Çıkış Yolu olan bir makine **21 Dona Dayanıklı Makine Kasası** gerektirir. Daha fazla kapak veya yol eklemek gereken kasa bloğu sayısını buna göre azaltır, en az 16'ya kadar.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview the structure and assist with construction. Once it is complete, run a structure check and use maintenance tools to resolve any maintenance problems shown by the controller.
+Yapıyı önizlemek ve inşaya yardımcı olmak için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan. Tamamlandığında bir yapı kontrolü çalıştır ve kontrolcünün gösterdiği bakım sorunlarını çözmek için bakım araçlarını kullan.
 
-## Capabilities
+## Yetenekler
 
-The Vacuum Freezer does more than cool hot ingots. Its recipes also include liquefying certain gases, restoring coolant cells, and cooling plasmas. Recipes have different voltage and input/output requirements, so an item's name alone does not determine whether the machine can process it.
+Vakum Dondurucu sıcak külçeleri soğutmaktan fazlasını yapar. Tarifleri ayrıca belirli gazları sıvılaştırmayı, soğutucu hücrelerini yenilemeyi ve plazmaları soğutmayı içerir. Tarifler farklı gerilim ve giriş/çıkış gereksinimlerine sahiptir, bu nedenle yalnızca bir eşyanın adı makinenin onu işleyip işleyemeyeceğini belirlemez.
 
-- **Hot ingot cooling**: Converts hot ingots from the Electric Blast Furnace into their regular counterparts, such as Hot Nichrome Ingots.
-- **Fluid cooling**: Accepts the gases or plasmas required by a recipe through Input Hatches and sends the products to Output Hatches.
-- **Coolant cell restoration**: Only cells and components with a matching Vacuum Freezer recipe can be processed; not every reactor component can be repaired here.
+- **Sıcak külçe soğutma**: Elektrikli Yüksek Fırından gelen sıcak külçeleri (ör. Sıcak Nikrom Külçeleri) normal karşılıklarına dönüştürür.
+- **Sıvı soğutma**: Tarifin gerektirdiği gazları veya plazmaları Girdi Kapakları aracılığıyla alır ve ürünleri Çıkış Kapaklarına gönderir.
+- **Soğutucu hücresi yenileme**: Yalnızca eşleşen bir Vakum Dondurucu tarifi olan hücreler ve bileşenler işlenebilir; her reaktör bileşeni burada onarılamaz.
 
-The structure itself does not consume coolant, although individual recipes may require fluid inputs. Follow the inputs, outputs, and power usage shown in NEI.
+Yapının kendisi soğutucu tüketmez, ancak tek tek tarifler sıvı girdileri gerektirebilir. NEI'de gösterilen girdileri, çıktıları ve güç kullanımını izle.
 
-## Power and Throughput
+## Güç ve Verim
 
-HV is the tier at which the machine becomes available, but the Vacuum Freezer is not limited to HV power. Upgrading its Energy Hatch raises the available voltage and overclocks eligible recipes. It also follows the usual multiblock [tier-skipping rules](/tierskipping_overcloking_parallels/tierskipping.md).
+Makine HV kademesinde kullanılabilir hale gelir, ancak Vakum Dondurucu HV gücüyle sınırlı değildir. Enerji Kapağını yükseltmek kullanılabilir gerilimi artırır ve uygun tarifleri hız aşırtmaya tabi tutar. Ayrıca olağan multiblok [kademe atlama kurallarına](/tierskipping_overcloking_parallels/tierskipping.md) uyar.
 
-The Vacuum Freezer has no heating coils, so it does not receive the Electric Blast Furnace's heat discounts or heat-based perfect overclocks. Each standard imperfect [overclock](/tierskipping_overcloking_parallels/overclocking.md) quadruples power usage and halves processing time, increasing the total energy consumed by each operation.
+Vakum Dondurucuda ısıtma bobini yoktur, bu nedenle Elektrikli Yüksek Fırının ısı indirimlerini veya ısıya dayalı kusursuz hız aşırtmalarını almaz. Her standart kusurlu [hız aşırtma](/tierskipping_overcloking_parallels/overclocking.md) güç kullanımını dörde katlar ve işleme süresini yarıya indirir; bu da her işlemin tükettiği toplam enerjiyi artırır.
 
-After expanding an Electric Blast Furnace production line, check whether hot ingots are accumulating at the Vacuum Freezer's input. The furnace's parallels, coil bonuses, and recipe duration all affect its actual output rate. Matching the Energy Hatch tier of the two machines does not guarantee matching throughput.
+Bir Elektrikli Yüksek Fırın üretim hattını genişlettikten sonra Vakum Dondurucunun girişinde sıcak külçelerin birikip birikmediğini kontrol et. Fırının paralelleri, bobin bonusları ve tarif süresi, gerçek çıktı hızını etkiler. İki makinenin Enerji Kapağı kademesinin eşleşmesi, verimin de eşleşeceğini garanti etmez.
 
 > [!WARNING]
-> Losing power during processing aborts the current recipe and destroys the inserted inputs. The power network must meet the recipe voltage and continuously provide the power required while the machine runs.
+> İşleme sırasında güç kaybı mevcut tarifi iptal eder ve yerleştirilen girdileri yok eder. Güç ağının tarifin gerektirdiği gerilimi karşılaması ve makine çalışırken gereken gücü sürekli sağlaması gerekir.
 
-## Hot Ingot Routing
+## Sıcak Külçe Yönlendirmesi
 
-An Electric Blast Furnace may produce both hot ingots and items that do not require cooling. Filtering the Vacuum Freezer's input prevents regular products from filling its Input Bus.
+Bir Elektrikli Yüksek Fırın hem sıcak külçeler hem de soğutma gerektirmeyen eşyalar üretebilir. Vakum Dondurucunun girişini filtrelemek, normal ürünlerin Giriş Yolunu doldurmasını önler.
 
-A regular Input Bus supports recipe filtering. Right-click it with a Screwdriver to toggle the filter, without holding Shift; Shift-right-click changes other input settings. When enabled, the bus only accepts items recognized by the machine's recipe map. Recipe filtering is not the same as accepting only hot ingots, because the Vacuum Freezer can process other items as well.
+Normal bir Giriş Yolu tarif filtrelemeyi destekler. Filtreyi açıp kapatmak için Shift basmadan bir Tornavidayla sağ tıkla; Shift+sağ tık diğer giriş ayarlarını değiştirir. Etkinleştirildiğinde yol yalnızca makinenin tarif haritasının tanıdığı eşyaları kabul eder. Tarif filtrelemesi yalnızca sıcak külçeleri kabul etmekle aynı değildir, çünkü Vakum Dondurucu başka eşyaları da işleyebilir.
 
-Use the following guidelines when choosing a transport system:
+Bir taşıma sistemi seçerken aşağıdaki yönergeleri kullan:
 
-| Transport system | Routing considerations |
+| Taşıma sistemi | Yönlendirme değerlendirmeleri |
 | --- | --- |
-| GregTech Item Pipes | Enable valid recipe filtering on the Vacuum Freezer and leave another reachable destination for the remaining products; account for pipe distance and the routing behavior of Restrictive Item Pipes |
-| Ender IO Item Conduits | Configure insertion filters and destination priorities so that the Vacuum Freezer receives items that need cooling while other products go to storage |
-| AE2 | Filter for specific hot ingots; devices with ore dictionary filtering can use `ingotHot*` to match hot ingots |
+| GregTech Eşya Boruları | Vakum Dondurucuda geçerli tarif filtrelemesini etkinleştir ve kalan ürünler için erişilebilir başka bir hedef bırak; boru mesafesini ve Kısıtlayıcı Eşya Borularının yönlendirme davranışını hesaba kat |
+| Ender IO Eşya Kanalları | Ekleme filtrelerini ve hedef önceliklerini yapılandır; Vakum Dondurucu soğutma gerektiren eşyaları alsın, diğer ürünler depolamaya gitsin |
+| AE2 | Belirli sıcak külçeler için filtrele; cevher sözlüğü filtrelemesi olan cihazlar sıcak külçeleri eşleştirmek için `ingotHot*` kullanabilir |
 
-After connecting the automation, insert one hot ingot and one regular product separately and verify their destinations. Make sure cooled ingots also have a reliable output route so that a full Output Bus cannot stop production.
+Otomasyonu bağladıktan sonra bir sıcak külçe ve bir normal ürünü ayrı ayrı yerleştir ve hedeflerini doğrula. Soğutulmuş külçelerin de güvenilir bir çıkış rotası olduğundan emin ol; böylece dolu bir Çıkış Yolu üretimi durduramaz.
 
-## Troubleshooting
+## Sorun Giderme
 
-| Symptom | What to check |
+| Belirti | Neye bakmalı |
 | --- | --- |
-| Structure is incomplete | The center is air; at least 16 Frost Proof Machine Casings remain; an Energy Hatch, Maintenance Hatch, input interface, and output interface are present |
-| Inputs will not enter | The bus belongs to a formed machine; recipe filtering is configured correctly; transport direction, filters, and priorities are correct |
-| Inputs are present but no recipe is available | The input actually requires cooling; the item or fluid matches a recipe; the Energy Hatch provides sufficient voltage |
-| Insufficient output space | The correct Output Bus or Output Hatch exists, is not full, and can hold the complete recipe output |
-| Machine stops immediately after starting | Check available power, cable loss, energy buffers, and maintenance status before inserting more test materials |
+| Yapı tamamlanmamış | Merkez hava; en az 16 Dona Dayanıklı Makine Kasası kalmış; bir Enerji Kapağı, Bakım Kapağı, giriş arayüzü ve çıkış arayüzü mevcut |
+| Girdiler girmiyor | Yol oluşmuş bir makineye ait; tarif filtrelemesi doğru yapılandırılmış; taşıma yönü, filtreler ve öncelikler doğru |
+| Girdiler var ama tarif yok | Girdi gerçekten soğutma gerektiriyor; eşya veya sıvı bir tarifle eşleşiyor; Enerji Kapağı yeterli gerilim sağlıyor |
+| Yetersiz çıkış alanı | Doğru Çıkış Yolu veya Çıkış Kapağı var, dolu değil ve tarifin tüm çıktısını tutabiliyor |
+| Makine başladıktan hemen sonra duruyor | Daha fazla test malzemesi koymadan önce mevcut gücü, kablo kaybını, enerji tamponlarını ve bakım durumunu kontrol et |
 
-See [Multiblock Machines](./multiblocks_index.md) for general multiblock operation. For greater cooling capacity later in progression, look into the Cryogenic Freezer.
+Genel multiblok çalışması için [Multiblok Makineler](./multiblocks_index.md) sayfasına bak. İlerleyen aşamalarda daha yüksek soğutma kapasitesi için Kriyojenik Dondurucuya göz at.
 
-## References
+## Kaynaklar
 
-- [GTNH Wiki: Vacuum Freezer](https://wiki.gtnewhorizons.com/wiki/Vacuum_Freezer)
+- [GTNH Wiki: Vakum Dondurucu](https://wiki.gtnewhorizons.com/wiki/Vacuum_Freezer)

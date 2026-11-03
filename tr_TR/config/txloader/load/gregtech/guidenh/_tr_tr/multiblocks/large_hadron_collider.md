@@ -4,9 +4,9 @@ item_ids:
 quest_ids:
   - TL8RVz_HTBO5LvkI6SQi6A==
 navigation:
-  title: Large Hadron Collider 
+  title: Büyük Hadron Çarpıştırıcısı 
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:3013
   position: -8001
 ---
-# Large Hadron Collider
+# Büyük Hadron Çarpıştırıcısı

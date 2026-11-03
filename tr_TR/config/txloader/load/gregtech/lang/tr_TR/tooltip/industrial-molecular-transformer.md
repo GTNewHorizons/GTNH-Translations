@@ -1,1 +1,1 @@
-Changes the structure of items to produce new ones
+Yeni eşyalar üretmek için eşyaların yapısını değiştirir

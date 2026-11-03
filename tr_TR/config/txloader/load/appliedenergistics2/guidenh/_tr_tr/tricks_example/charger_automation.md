@@ -1,43 +1,43 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Charger Automation
+  title: Şarj Cihazı Otomasyonu
   icon: appliedenergistics2:tile.BlockCharger
 ---
 
-# Charger Automation
+# Şarj Cihazı Otomasyonu
 
-This setup uses an <ItemLink id="appliedenergistics2:tile.BlockInterface" />, so it is intended to work with an [autocrafting](../ae2_mechanics/autocrafting.md) system. For a standalone <ItemLink id="appliedenergistics2:tile.BlockCharger" />, use hoppers, chests, or another item pipe.
+Bu düzenek bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> kullanır, bu nedenle bir [otomatik üretim](../ae2_mechanics/autocrafting.md) sistemiyle çalışacak şekilde tasarlanmıştır. Tek başına bir <ItemLink id="appliedenergistics2:tile.BlockCharger" /> için huniler, sandıklar veya başka bir eşya borusu kullan.
 
-The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> sends ingredients into the charger. A [pipe subnet](pipe_subnet.md) or another item pipe returns the charged result to the interface.
+<ItemLink id="appliedenergistics2:tile.BlockInterface" />, malzemeleri şarj cihazına gönderir. Bir [boru alt ağı](pipe_subnet.md) veya başka bir eşya borusu, şarj edilmiş sonucu arayüze geri döndürür.
 
 <GameScene>
   <ImportStructure src="../assets/structures/charger_automation.snbt" />
   <BlockAnnotation pos="1 0 0">
-  (1) ME Interface: default configuration, with the relevant pattern. It also supplies power.
+  (1) ME Arayüzü: varsayılan yapılandırma, ilgili kalıpla birlikte. Ayrıca güç sağlar.
 
   <FloatingImage src="../assets/images/charger_pattern.png" displayWidth="150" title="Charger Pattern" />
   </BlockAnnotation>
   <BoxAnnotation min="0.25 1 0.25" max="0.75 1.3 0.75">
-  (2) Import Bus: default configuration.
+  (2) İçe Aktarma Veriyolu: varsayılan yapılandırma.
   </BoxAnnotation>
   <BoxAnnotation min="1.15 1 0.15" max="1.85 1.25 0.85">
-  (3) Storage Bus: default configuration.
+  (3) Depolama Veriyolu: varsayılan yapılandırma.
   </BoxAnnotation>
 </GameScene>
 
-## Configuration
+## Yapılandırma
 
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) is in its default configuration and contains the relevant <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />. It also powers the <ItemLink id="appliedenergistics2:tile.BlockCharger" />, like a [cable](../items_blocks/cables.md).
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) varsayılan yapılandırmasındadır ve ilgili <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" /> öğesini içerir. Ayrıca <ItemLink id="appliedenergistics2:tile.BlockCharger" /> cihazını bir [kablo](../items_blocks/cables.md) gibi besler.
 
   <FloatingImage src="../assets/images/charger_pattern.png" displayWidth="150" title="Charger Pattern" />
 
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (2) is in its default configuration.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (3) is in its default configuration.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (2) varsayılan yapılandırmasındadır.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (3) varsayılan yapılandırmasındadır.
 
-## How It Works
+## Nasıl Çalışır
 
-1. The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> sends ingredients into the <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
-2. The charger charges the item.
-3. The <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> on the green subnet pulls out the result and attempts to store it in [network storage](../ae2_mechanics/import_export_storage.md).
-4. The only storage on the green subnet is the <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />, which sends the result back into the ME interface and then to the main network.
+1. <ItemLink id="appliedenergistics2:tile.BlockInterface" />, malzemeleri <ItemLink id="appliedenergistics2:tile.BlockCharger" /> cihazına gönderir.
+2. Şarj cihazı eşyayı şarj eder.
+3. Yeşil alt ağdaki <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> sonucu çeker ve [ağ depolamasında](../ae2_mechanics/import_export_storage.md) depolamayı dener.
+4. Yeşil alt ağdaki tek depolama <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> öğesidir; sonucu ME arayüzüne ve ardından ana ağa geri gönderir.

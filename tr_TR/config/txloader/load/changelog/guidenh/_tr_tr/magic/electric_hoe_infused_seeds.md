@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Electric Hoe of Growth x Infused Seeds
+  title: Elektrikli Büyüme Çapası x Aşılanmış Tohumlar
   parent: magic.md
   icon: EMT:ElectricHoeGrowth
 categories:
@@ -10,4 +10,4 @@ author: koolkrafter5
 date: 2026-06-11
 ---
 
-The <ItemLink id="EMT:ElectricHoeGrowth"/> <ItemImage id="EMT:ElectricHoeGrowth:0:{charge:200000.0d}"/> is now capable of <Color id="GREEN">accelerating the growth</Color> of <ItemLink id="ThaumicTinkerer:infusedSeeds"/> <ItemImage id="ThaumicTinkerer:infusedSeeds"/>, just like the normal <ItemLink id="Thaumcraft:ItemHoeElemental"/> <ItemImage id="Thaumcraft:ItemHoeElemental"/>!
+<ItemLink id="EMT:ElectricHoeGrowth"/> <ItemImage id="EMT:ElectricHoeGrowth:0:{charge:200000.0d}"/>, <Color id="GREEN">büyümeyi hızlandırma</Color> özelliğini artık <ItemLink id="ThaumicTinkerer:infusedSeeds"/> <ItemImage id="ThaumicTinkerer:infusedSeeds"/> için de sunuyor, tıpkı normal <ItemLink id="Thaumcraft:ItemHoeElemental"/> <ItemImage id="Thaumcraft:ItemHoeElemental"/> gibi!

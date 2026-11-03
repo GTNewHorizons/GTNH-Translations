@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Wand Component Substitution Handlers
+  title: Asa Bileşeni Muadil İşleyicileri
   parent: magic_nei.md
   icon: Thaumcraft:WandRod
 categories:
@@ -9,7 +9,7 @@ author: koolkrafter5
 date: 2026-06-09
 ---
 
-The <Color id="BLUE">Wand Component Substitution</Color> recipes added by <Color id="BLUE">Salis Arcana</Color> in 2.8 now have NEI integration! Searching for uses of a <Color id="GREEN">wand, scepter, or staff</Color> will show all possible recipes to change its <Color id="GREEN">core and caps</Color>. Searching for uses of a wand core or cap will show substitution recipes with example wands:
+<Color id="BLUE">Salis Arcana</Color> tarafından 2.8'de eklenen <Color id="BLUE">Asa Bileşeni Muadili</Color> tarifleri artık NEI entegrasyonuna sahip! Bir <Color id="GREEN">asa, hükümdar asası veya uzun asanın</Color> kullanımlarını arattığında, <Color id="GREEN">çekirdeğini ve uçlarını</Color> değiştiren tüm olası tarifler gösterilir. Bir asa çekirdeğinin veya ucunun kullanımlarını arattığında ise örnek asalarla muadil tarifler gösterilir:
 
 <RecipesUsage id="Thaumcraft:WandRod" handlerId="salisarcana.substitution.core"/>
 <RecipesUsage id="Thaumcraft:WandRod:50" handlerId="salisarcana.substitution.core"/>

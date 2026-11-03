@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME Fluid Import Bus
+  title: ME Sıvı İçe Aktarma Veriyolu
   icon: ae2fc:part_fluid_import
 categories:
 - devices
@@ -9,38 +9,38 @@ item_ids:
 - ae2fc:part_fluid_import
 ---
 
-# ME Fluid Import Bus
+# ME Sıvı İçe Aktarma Veriyolu
 
 <ItemImage id="ae2fc:part_fluid_import" scale="4" />
 
-*"Mysterious power from AE2FC"*
+*"AE2FC'den gelen gizemli güç"*
 
-The import bus extracts items and fluids from an adjacent container (and additional material types when supported by an
-addon) and stores them in [network storage](../ae2_mechanics/import_export_storage.md).
+İçe aktarma veriyolu, bitişik bir kaptan eşyaları ve sıvıları (ve bir eklenti tarafından desteklendiğinde ek malzeme
+türlerini) çeker ve [ağ depolamasında](../ae2_mechanics/import_export_storage.md) saklar.
 
-To reduce latency, the bus enters a low-frequency sleep mode when it has not imported anything recently. Importing an item
-wakes it and returns it to full speed, performing four operations per second.
+Gecikmeyi azaltmak için veriyolu, yakın zamanda hiçbir şey içe aktarmadığında düşük frekanslı bir uyku moduna girer.
+Bir eşyanın içe aktarılması onu uyandırır ve saniyede dört işlem yaparak tam hıza döndürür.
 
-It is a [cable subpart](../ae2_mechanics/cables_subparts.md).
+Bir [kablo alt parçasıdır](../ae2_mechanics/cables_subparts.md).
 
-## Filter Settings
+## Filtre Ayarları
 
-By default, all accessible items are imported. Adding an item to a filter slot enables whitelist mode and permits only that
-item. Items can be dragged from NEI into a filter slot even when you do not own them. Right-click a fluid container, such as
-a bucket or tank, to set a fluid filter instead of filtering the container item.
+Varsayılan olarak erişilebilen tüm eşyalar içe aktarılır. Bir filtre yuvasına eşya eklemek beyaz liste modunu etkinleştirir
+ve yalnızca o eşyaya izin verir. Eşyalar, sahibi olmasan bile NEI'den bir filtre yuvasına sürüklenebilir. Kap eşyasını
+filtrelemek yerine sıvı filtresi ayarlamak için kova veya tank gibi bir sıvı kabına sağ tıkla.
 
-## Upgrade Support
+## Yükseltme Desteği
 
-The bus supports these [upgrade cards](upgrade_cards.md):
+Veriyolu şu [yükseltme kartlarını](upgrade_cards.md) destekler:
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> increases the number of filter slots.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> increases the amount transferred per operation.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> changes the filter to a blacklist.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:26" /> adds redstone control (high, low, or pulse activation).
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:27" /> filtre yuvası sayısını artırır.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> işlem başına aktarılan miktarı artırır.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> filtreyi kara listeye çevirir.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:26" /> kızıltaş kontrolü ekler (yüksek, düşük veya darbe etkinleştirme).
 
-## Transfer Rate
+## Aktarım Hızı
 
-| Speed cards | Amount per operation |
+| Hız kartları | İşlem başına miktar |
 | :--- | :--- |
 | 0 | 1 |
 | 1 | 8 |
@@ -48,7 +48,7 @@ The bus supports these [upgrade cards](upgrade_cards.md):
 | 3 | 64 |
 | 4 | 96 |
 
-## Recipe
+## Tarif
 
 <RecipeFor id="ae2fc:part_fluid_import" />
 

@@ -1,8 +1,8 @@
-Recipe Tier is limited by the lowest {white:Energy Hatch} Tier
+Tarif Kademesi, en düşük {white:Enerji Kapağı} Kademesi ile sınırlıdır
 {gray:{hr}}
-Runs imperfect overclocks until {white:Energy Hatch} Tier
-Multiplier = {aqua:4^(Regular Overclocks) × 4.3 * 4.6 * ... * (4 + 0.3 * Extra Overclocks)}
-Power usage = {aqua:Multiplier * (Active Slices) * (Recipe EU/t)}
-{yellow:Additional overclocks are increasingly more expensive}
-{yellow:Overclocking assumes all recipe slices are active}
+{white:Enerji Kapağı} Kademesine kadar kusurlu overclock çalıştırır
+Çarpan = {aqua:4^(Normal Overclock) × 4.3 * 4.6 * ... * (4 + 0.3 * Ekstra Overclock)}
+Güç kullanımı = {aqua:Çarpan * (Aktif Dilimler) * (Tarif EU/t)}
+{yellow:Ek overclock'lar giderek daha pahalı hale gelir}
+{yellow:Overclock, tüm tarif dilimlerinin aktif olduğunu varsayar}
 {gray:{hr}}

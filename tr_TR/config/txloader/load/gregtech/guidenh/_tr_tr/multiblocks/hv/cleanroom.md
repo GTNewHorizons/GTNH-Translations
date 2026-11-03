@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:1172
 navigation:
-  title: Cleanroom
+  title: Temiz Oda
   parent: ../multiblocks_index.md
   icon: gregtech:gt.blockmachines:1172
   position: 12
@@ -10,32 +10,32 @@ quest_ids:
   - AAAAAAAAAAAAAAAAAAADrA
 ---
 
-# Cleanroom
+# Temiz Oda
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:1172" tier={2} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left" /> is a multiblock facility available in HV. It provides a clean environment for machines placed inside it, enabling recipes for more advanced or less expensive circuits, circuit boards, and other products.
+<ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left" />, HV'de bulunan bir multiblok tesistir. İçine yerleştirilen makineler için temiz bir çevre sağlar ve daha gelişmiş veya daha ucuz devreler, devre kartları ve diğer ürünler için tariflere olanak tanır.
 
-The Cleanroom itself does not take processing ingredients or output products. Place the actual processing machines inside, supply them with their own power, and arrange their item and fluid I/O. The Cleanroom's Energy Hatch only powers the environment.
+Temiz Oda'nın kendisi işlem girdileri almaz veya ürün çıktısı vermez. Asıl işlem makinelerini içine yerleştir, onlara kendi güçlerini sağla ve eşya ile sıvı G/Ç'lerini düzenle. Temiz Oda'nın Enerji Kapağı yalnızca çevreye güç verir.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock tier | HV; the Cleanroom can be maintained with LV power |
-| Dimensions | External width and length of 3–15 blocks each, height of 4–15 blocks; a rectangular footprint is allowed |
-| First build | 5×5×5, providing a usable interior of 3×3×3 |
-| Power | Exactly one ordinary Energy Hatch; an LV Energy Hatch can accept 2A |
-| Cleanness | Gradually rises from 0% to 100%; below 100%, item outputs from recipes requiring a Cleanroom may be lost |
-| Overclocking and bonuses | Upgrading the Energy Hatch speeds up cleaning; it grants no extra speed, parallels, or power discount to machines inside |
-| Maintenance and pollution | Requires one Maintenance Hatch; each maintenance issue lowers maximum cleanness by 10 percentage points; no pollution may be generated inside |
+| Kilit açma kademesi | HV; Temiz Oda LV güçle çalıştırılabilir |
+| Boyutlar | Her biri 3–15 blok dış genişlik ve uzunluk, 4–15 blok yükseklik; dikdörtgen bir taban alanına izin verilir |
+| İlk yapı | 5×5×5, 3×3×3 kullanılabilir iç alan sağlar |
+| Güç | Tam olarak bir sıradan Enerji Kapağı; bir LV Enerji Kapağı 2A kabul edebilir |
+| Temizlik | Yüzde 0'dan %100'e kademeli olarak yükselir; %100'ün altında, Temiz Oda gerektiren tariflerden gelen eşya çıktıları kaybolabilir |
+| Hız aşırtma ve bonuslar | Enerji Kapağını yükseltmek temizliği hızlandırır; içerideki makinelere ekstra hız, paralel işlem veya güç indirimi sağlamaz |
+| Bakım ve kirlilik | Bir Bakım Kapağı gerektirir; her bakım sorunu maksimum temizliği 10 yüzde puan düşürür; içeride kirlilik üretilmemelidir |
 
 > [!WARNING]
-> **Wait for 100% cleanness before supplying ingredients for recipes that require a Cleanroom.** Below 100%, a machine may consume the ingredients and run the recipe normally, yet lose an item output.
+> **Temiz Oda gerektiren tarifler için malzeme vermeden önce %100 temizliği bekle.** %100'ün altında bir makine malzemeleri tüketip tarifi normal şekilde çalıştırabilir, ancak bir eşya çıktısını kaybedebilir.
 
-## Crafting and Construction
+## Üretim ve İnşaat
 
-The current recipes for the controller, Plascrete Blocks, and Filter Machine Casings are shown below.
+Kontrolcü, Plascrete Blokları ve Filtre Makine Kasaları için mevcut tarifler aşağıda gösterilmiştir.
 
 <RecipesFor id="gregtech:gt.blockmachines:1172" />
 
@@ -43,144 +43,144 @@ The current recipes for the controller, Plascrete Blocks, and Filter Machine Cas
 
 <RecipesFor id="gregtech:gt.blockcasings3:11" />
 
-### Your First 5×5×5 Cleanroom
+### İlk 5×5×5 Temiz Odan
 
-These dimensions include the walls, floor, and ceiling, leaving a 3×3×3 interior. Complete the shell and power supply first, then add access and transport ports as needed.
+Bu boyutlar duvarları, zemini ve tavanı içerir ve 3×3×3 bir iç alan bırakır. Önce kabuğu ve güç kaynağını tamamla, ardından gerektiği kadar erişim ve taşıma bağlantı noktası ekle.
 
-| Component | Basic quantity and position |
+| Bileşen | Temel miktar ve konum |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left" /> | One, at the center of the ceiling; the controller must face horizontally, never up or down |
-| <ItemLink id="gregtech:gt.blockcasings3:11" showIcon="left" /> | Eight, filling the rest of the ceiling's inner area |
-| <ItemLink id="gregtech:gt.blockreinforced:2" showIcon="left" /> | 87, forming the floor, walls, and ceiling perimeter; this count already accounts for the two required hatches |
-| Energy Hatch | Exactly one, replacing a Plascrete Block |
-| <ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" /> | Exactly one, replacing a Plascrete Block |
+| <ItemLink id="gregtech:gt.blockmachines:1172" showIcon="left" /> | Bir adet, tavanın merkezinde; kontrolcü yatay bakmalı, asla yukarı veya aşağı bakmamalı |
+| <ItemLink id="gregtech:gt.blockcasings3:11" showIcon="left" /> | Sekiz adet, tavanın iç alanının geri kalanını doldurur |
+| <ItemLink id="gregtech:gt.blockreinforced:2" showIcon="left" /> | 87 adet, zemini, duvarları ve tavan çevresini oluşturur; bu sayı gerekli iki kapağı zaten hesaba katar |
+| Enerji Kapağı | Tam olarak bir adet, bir Plascrete Bloğunun yerine geçer |
+| <ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" /> | Tam olarak bir adet, bir Plascrete Bloğunun yerine geçer |
 
-The preview above shows the shell. When building, replace two Plascrete Blocks with the Energy Hatch and Maintenance Hatch. Each additional valid transport port or glass block replaces one more Plascrete Block.
+Yukarıdaki önizleme kabuğu gösterir. İnşa ederken iki Plascrete Bloğunu Enerji Kapağı ve Bakım Kapağı ile değiştir. Her ek geçerli taşıma bağlantı noktası veya cam bloğu bir Plascrete Bloğu daha değiştirir.
 
-Build in the following order:
+Aşağıdaki sırayla inşa et:
 
-1. Lay a solid 5×5 floor and build the four walls, reserving positions for power, maintenance, and access.
-2. Build the ceiling perimeter with Plascrete Blocks. Place the controller in the center and the eight Filter Machine Casings in the remaining inner positions.
-3. Install the Energy Hatch and Maintenance Hatch, then close all remaining gaps.
-4. Place processing machines, cables, and pipes within the walls, above the floor, and below the filters. Processing machines cannot replace wall blocks.
-5. Check the structure, fix all maintenance issues, connect a stable power supply, and wait for 100% cleanness.
+1. Sağlam bir 5×5 zemin döşe ve dört duvarı inşa et; güç, bakım ve erişim için yer ayır.
+2. Tavan çevresini Plascrete Blokları ile inşa et. Kontrolcüyü merkeze ve sekiz Filtre Makine Kasasını kalan iç konumlara yerleştir.
+3. Enerji Kapağını ve Bakım Kapağını tak, ardından kalan tüm boşlukları kapat.
+4. İşlem makinelerini, kabloları ve boruları duvarların içine, zeminin üstüne ve filtrelerin altına yerleştir. İşlem makineleri duvar bloklarının yerine geçemez.
+5. Yapıyı kontrol et, tüm bakım sorunlarını gider, kararlı bir güç kaynağı bağla ve %100 temizliği bekle.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Before expanding, stop production and ingredient input. Check and clean the rebuilt room before resuming processing.
+Yapıyı önizlemek ve inşa etmeye yardımcı olmak için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> öğesini kullan. Genişletmeden önce üretimi ve malzeme girişini durdur. İşleme devam etmeden önce yeniden inşa edilen odayı kontrol et ve temizle.
 
-### Expansion and Casing Replacements
+### Genişletme ve Kasa Değişimleri
 
-The footprint may be rectangular. Keep the controller at the center of the ceiling and fill every other position inside the ceiling perimeter with Filter Machine Casings. If the width or length is even, either middle position along that axis is valid. If both are even, there are four possible central positions.
+Taban alanı dikdörtgen olabilir. Kontrolcüyü tavanın merkezinde tut ve tavan çevresinin içindeki diğer tüm konumları Filtre Makine Kasalarıyla doldur. Genişlik veya uzunluk çift ise, o eksen boyunca ortadaki konumlardan herhangi biri geçerlidir. İkisi de çift ise dört olası merkez konumu vardır.
 
-The default configuration requires **at least 20 actual Plascrete Blocks** and limits replacements with other valid blocks. The replacement share is calculated as “replacement blocks ÷ (Plascrete Blocks + replacement blocks)”; its percentage is rounded down to an integer and must not exceed **30%**. Filters and the controller are excluded from this calculation. Energy and Maintenance Hatches, doors, glass, and transport ports all count as replacements.
+Varsayılan yapılandırma **en az 20 gerçek Plascrete Bloğu** gerektirir ve diğer geçerli bloklarla yapılan değişimleri sınırlar. Değişim payı “değişim blokları ÷ (Plascrete Blokları + değişim blokları)” olarak hesaplanır; yüzdesi bir tam sayıya aşağı yuvarlanır ve **%30**'u aşmamalıdır. Filtreler ve kontrolcü bu hesaplamadan hariç tutulur. Enerji ve Bakım Kapakları, kapılar, cam ve taşıma bağlantı noktalarının tümü değişim olarak sayılır.
 
-| Replacement | Placement rules |
+| Değişim | Yerleştirme kuralları |
 | --- | --- |
-| Ordinary Energy Hatch and Maintenance Hatch | Plascrete positions; exactly one of each |
-| GT Machine Hulls and Cable Diodes | Plascrete positions; used for transport through the shell |
-| Valid glass | Plascrete positions; ordinary vanilla glass is invalid |
-| IC2 Reinforced Door | Side walls, away from vertical edges and corners; not in the floor or ceiling |
-| OpenBlocks Elevators and Ender IO Travel Anchors | Plascrete positions, including the floor |
+| Sıradan Enerji Kapağı ve Bakım Kapağı | Plascrete konumları; her birinden tam olarak bir adet |
+| GT Makine Gövdeleri ve Diyotlar | Plascrete konumları; kabuktan taşıma için kullanılır |
+| Geçerli cam | Plascrete konumları; sıradan vanilla cam geçersizdir |
+| IC2 Güçlendirilmiş Kapı | Yan duvarlar, dikey kenarlardan ve köşelerden uzakta; zeminde veya tavanda değil |
+| OpenBlocks Elevators ve Ender IO Travel Anchors | Zemin dahil Plascrete konumları |
 
-EV and higher tier glass is accepted. The pack's default configuration also allows specific blocks such as BartWorks tiered glass, including HV glass. Therefore, not every valid glass needs to be EV, and not every decorative glass is a valid replacement.
+EV ve daha yüksek kademe cam kabul edilir. Paketin varsayılan yapılandırması ayrıca BartWorks kademeli camı gibi belirli bloklara, HV camı dahil, izin verir. Bu nedenle her geçerli camın EV olması gerekmez ve her dekoratif cam geçerli bir değişim değildir.
 
-The Cleanroom does not need Input Buses, Output Buses, fluid hatches, or a Muffler Hatch, and these cannot replace its wall blocks. Deliver items and fluids to the processing machines' own interfaces inside.
+Temiz Oda Giriş Otobüslerine, Çıkış Otobüslerine, sıvı kapaklarına veya bir Egzoz Çıkışına ihtiyaç duymaz ve bunlar duvar bloklarının yerine geçemez. Eşyaları ve sıvıları içerideki işlem makinelerinin kendi arayüzlerine ulaştır.
 
-Extra Utilities' <ItemLink id="ExtraUtilities:etherealglass:0" showIcon="left" /> is recommended as a doorway, allowing players to pass through without reducing cleanness.
+Kapı geçişi olarak Extra Utilities'ın <ItemLink id="ExtraUtilities:etherealglass:0" showIcon="left" /> öğesi önerilir; oyuncuların temizliği azaltmadan geçmesini sağlar.
 
-## Uses and First Startup
+## Kullanımlar ve İlk Başlatma
 
-**Some recipes** in Circuit Assemblers, Laser Engravers, Assembling Machines, Cutting Machines, and Autoclaves require a clean environment. Check the individual recipe's “Requires Cleanroom” note in NEI.
+Devre Montajcıları, Lazer Gravürcüleri, Montaj Makineleri, Kesme Makineleri ve Otoklavlardaki **bazı tarifler** temiz bir çevre gerektirir. NEI'de tek tek tarifin “Temiz Oda Gerekir” notunu kontrol et.
 
-Before the first startup, switch off the processing machines or hold back their ingredients, then prepare the room:
+İlk başlatmadan önce işlem makinelerini kapat veya malzemelerini geri tut, ardından odayı hazırla:
 
-1. Confirm that the controller reports a complete structure with the correct hatch counts.
-2. Fix all six maintenance issues. See [Multiblock Machines: Maintenance](../multiblocks_index.md#maintenance).
-3. Close the doors and make sure no equipment inside generates pollution.
-4. Supply the Cleanroom continuously and watch its cleanness rise.
-5. At 100%, connect each processing machine to its own power supply and insert the ingredients to start processing.
+1. Kontrolcünün doğru kapak sayılarıyla tam bir yapı bildirdiğini doğrula.
+2. Altı bakım sorununun tümünü gider. Bkz. [Multiblok Makineleri: Bakım](../multiblocks_index.md#maintenance).
+3. Kapıları kapat ve içerideki hiçbir ekipmanın kirlilik üretmediğinden emin ol.
+4. Temiz Oda'ya sürekli güç sağla ve temizliğinin yükselişini izle.
+5. %100'de her işlem makinesini kendi güç kaynağına bağla ve işlemeye başlamak için malzemeleri yerleştir.
 
-Ordinary GT singleblock machines can start recipes requiring a Cleanroom once cleanness is above 0%, but their outputs are not guaranteed safe. Item loss due to insufficient cleanness is decided **when the recipe starts and consumes its ingredients**. Reaching 100% halfway through processing cannot recover an output already selected for loss.
+Sıradan GT tek bloklu makineleri, temizlik yüzde 0'ın üzerine çıktığında Temiz Oda gerektiren tarifleri başlatabilir, ancak çıktıları güvenli garantili değildir. Yetersiz temizlik nedeniyle eşya kaybı **tarif başladığında ve malzemelerini tükettiğinde** belirlenir. İşleme yarısında %100'e ulaşmak, kayıp için zaten seçilmiş bir çıktıyı kurtaramaz.
 
-100% cleanness only removes losses caused by the environment. A recipe with inherently probabilistic outputs still uses the chances shown in NEI.
+%100 temizlik yalnızca çevreden kaynaklanan kayıpları ortadan kaldırır. Doğası gereği olasılıklı çıktıları olan bir tarif yine NEI'de gösterilen şansları kullanır.
 
-Some later multiblocks, such as the Large Chemical Reactor and Hyper-Intensity Laser Engraver, do not need to be placed in a Cleanroom. **All multiblock machines have a built-in cleanroom environment.**
+Büyük Kimyasal Reaktör ve Hiper Yoğunluklu Lazer Gravürcüsü gibi bazı ileri multiblokların Temiz Oda'ya yerleştirilmesi gerekmez. **Tüm multiblok makinelerinin yerleşik bir temiz oda çevresi vardır.**
 
-## Cleanness and Power
+## Temizlik ve Güç
 
-HV is the controller's unlock tier, not the minimum power tier. With an LV Energy Hatch, the Cleanroom initially consumes **40 EU/t**. Consumption gradually decreases as cleanness rises, reaching **4 EU/t** at 100%.
+HV, kontrolcünün kilit açma kademesidir, minimum güç kademesi değildir. Bir LV Enerji Kapağı ile Temiz Oda başlangıçta **40 EU/t** tüketir. Tüketim, temizlik yükseldikçe kademeli olarak azalır ve %100'de **4 EU/t**'ye düşer.
 
-40 EU/t exceeds the rated output of one LV generator, but the Cleanroom's LV Energy Hatch can accept 2A. For a first build, use two LV generators or another LV supply that can continuously provide enough power, with cabling rated for the current. A single 32 EU/t LV generator cannot clean the room from 0% on its own. Account for cable losses as well.
+40 EU/t, bir LV jeneratörün nominal çıktısını aşar, ancak Temiz Oda'nın LV Enerji Kapağı 2A kabul edebilir. İlk yapı için iki LV jeneratör veya sürekli olarak yeterli güç sağlayabilen başka bir LV kaynağı kullan; kablolama da akıma uygun olmalıdır. Tek bir 32 EU/t LV jeneratör odayı tek başına yüzde 0'dan temizleyemez. Kablo kayıplarını da hesaba kat.
 
-The following example assumes an **external height of five blocks, no maintenance issues, closed doors, and cleaning from 0% to 100%**. Times assume normal operation at 20 TPS.
+Aşağıdaki örnek **beş blok dış yükseklik, bakım sorunu yok, kapılar kapalı ve yüzde 0'dan %100'e temizlik** varsayar. Süreler 20 TPS'de normal çalışmayı varsayar.
 
-| Energy Hatch tier | Startup consumption | Consumption at 100% | Approximate cleaning time |
+| Enerji Kapağı kademesi | Başlangıç tüketimi | %100'de tüketim | Yaklaşık temizlik süresi |
 | --- | --- | --- | --- |
-| LV | 40 EU/t | 4 EU/t | 15 minutes |
-| MV | 40 EU/t | 4 EU/t | 15 minutes |
-| HV | 160 EU/t | 16 EU/t | 7 minutes 30 seconds |
-| EV | 640 EU/t | 64 EU/t | 3 minutes 45 seconds |
+| LV | 40 EU/t | 4 EU/t | 15 dakika |
+| MV | 40 EU/t | 4 EU/t | 15 dakika |
+| HV | 160 EU/t | 16 EU/t | 7 dakika 30 saniye |
+| EV | 640 EU/t | 64 EU/t | 3 dakika 45 saniye |
 
-MV does not clean faster than LV. Starting at HV, standard lossy overclocking multiplies power by four and halves cleaning time per overclock. Taller rooms take longer to clean; increasing only width or length does not lengthen a cleaning cycle.
+MV, LV'den daha hızlı temizlemez. HV'den başlayarak standart kayıplı hız aşırtma, gücü dörtle çarpar ve her hız aşırtmada temizlik süresini yarıya indirir. Daha yüksek odaların temizlenmesi daha uzun sürer; yalnızca genişlik veya uzunluğu artırmak temizlik döngüsünü uzatmaz.
 
-**Power the Cleanroom and its processing machines separately.** The Cleanroom's Energy Hatch tier does not limit the voltage of machines inside or grant them overclocking bonuses. Add the Cleanroom's consumption to that of all processing machines when sizing the power supply.
+**Temiz Oda'ya ve işlem makinelerine ayrı ayrı güç ver.** Temiz Oda'nın Enerji Kapağı kademesi, içerideki makinelerin gerilimini sınırlamaz veya onlara hız aşırtma bonusları vermez. Güç kaynağını boyutlandırırken Temiz Oda'nın tüketimini tüm işlem makinelerinin tüketimine ekle.
 
-Keep the room running after reaching 100%. Do not switch it off to save its idle power. After a shutdown, power failure, or broken structure, restore the environment and confirm 100% cleanness before resuming processing.
+Odayı %100'e ulaştıktan sonra çalışır durumda tut. Boşta gücünden tasarruf etmek için kapatma. Kapatma, güç kesintisi veya bozulmuş yapıdan sonra çevreyi yeniden sağla ve işlemeye devam etmeden önce %100 temizliği doğrula.
 
-## Access, Power, and Transport Through the Walls
+## Duvarlardan Erişim, Güç ve Taşıma
 
-### Access
+### Erişim
 
-An IC2 Reinforced Door provides access. When an open door is detected, the Cleanroom continuously loses cleanness, normally two percentage points every five seconds. Close doors after use. For frequent access, use Extra Utilities' <ItemLink id="ExtraUtilities:etherealglass:0" showIcon="left" /> to avoid repeatedly opening a door.
+Bir IC2 Güçlendirilmiş Kapı erişim sağlar. Açık bir kapı algılandığında Temiz Oda sürekli temizlik kaybeder, normalde her beş saniyede iki yüzde puanı. Kullanımdan sonra kapıları kapat. Sık erişim için, bir kapıyı tekrar tekrar açmaktan kaçınmak üzere Extra Utilities'ın <ItemLink id="ExtraUtilities:etherealglass:0" showIcon="left" /> öğesini kullan.
 
-Wooden doors, vanilla iron doors, holes, and ordinary pipes are not valid Cleanroom wall blocks. Do not leave a gap for power cables or ME cables.
+Tahta kapılar, vanilla demir kapılar, delikler ve sıradan borular geçerli Temiz Oda duvar blokları değildir. Güç kabloları veya ME kabloları için boşluk bırakma.
 
-### Power Through the Walls
+### Duvarlardan Güç
 
-Embed a **GT Machine Hull** or **Cable Diode** of the appropriate tier in the wall, connecting the external power supply to the internal machine cables. For example, an <ItemLink id="gregtech:gt.blockmachines:13" showIcon="left" /> can carry HV power through the wall.
+Duvara uygun kademede bir **GT Makine Gövdesi** veya **Diyot** gömerek harici güç kaynağını içerideki makine kablolarına bağla. Örneğin, bir <ItemLink id="gregtech:gt.blockmachines:13" showIcon="left" /> HV gücünü duvardan taşıyabilir.
 
-A Machine Hull outputs power through its front face and accepts power from its other faces. Face its output inward and connect the cables on both sides. For higher current, use a suitably rated Cable Diode and check the current capacity of both cable runs.
-
-> [!WARNING]
-> When upgrading the voltage supplied to internal machines, also check the Machine Hulls, Cable Diodes, and cables in the wall. Connecting higher-tier power to an old lower-tier port causes an overvoltage explosion. An unpowered hull used only for item transport does not need upgrading with the machine's voltage.
-
-### Items and Fluids
-
-GT Machine Hulls have an item slot and a fluid buffer, allowing them to serve as transfer containers through the wall. Use pipes or Conveyor Modules on either side to insert into and extract from this buffer, then deliver to the internal machines. The hull does not process recipes or automatically distribute everything to the intended machines.
-
-Use separate ports for ingredients, products, and different fluids where practical, so unwanted materials cannot fill a shared small buffer. Configure the processing machines' input faces, output faces, and automatic output separately; a hull in the wall does not replace those settings.
-
-With AE2, establish a link using <ItemLink id="appliedenergistics2:tile.BlockWirelessConnector" showIcon="left" />s inside and outside the room, then connect the internal ME Interfaces, buses, and other devices. Wireless Connectors do not occupy wall positions, leaving more room in the casing replacement allowance.
-
-Powering the ME network does not supply GT EU to its processing machines. Provide machine power through Machine Hulls, Cable Diodes, or a separately configured GT EU P2P setup.
-
-## Maintenance, Pollution, and Monitoring
-
-Each unresolved maintenance issue lowers maximum cleanness by **10 percentage points**. One issue caps it at 90%, and two at 80%. The Cleanroom may still run, but it cannot reach a safe 100%. After repairs, wait for cleanness to recover before resuming recipes that require the environment.
+Bir Makine Gövdesi gücü ön yüzünden verir ve diğer yüzlerinden güç kabul eder. Çıkışını içeri doğru bakacak şekilde yerleştir ve kabloları iki taraftan bağla. Daha yüksek akım için uygun nominal değere sahip bir Diyot kullan ve her iki kablo hattının akım kapasitesini kontrol et.
 
 > [!WARNING]
-> Do not put polluting generators or other polluting equipment inside the Cleanroom. Pollution from a machine inside resets cleanness to zero and triggers all six maintenance issues, stopping the Cleanroom. A Muffler Hatch cannot fix this. Move the pollution source outside, then repair, restart, and clean the room again.
+> İçerideki makinelere sağlanan gerilimi yükseltirken duvardaki Makine Gövdelerini, Diyotları ve kabloları da kontrol et. Daha yüksek kademe gücü eski daha düşük kademe bir bağlantı noktasına bağlamak aşırı gerilim patlamasına neden olur. Yalnızca eşya taşıma için kullanılan güçsüz bir gövdenin makinenin gerilimiyle yükseltilmesi gerekmez.
 
-Use the controller GUI and Waila to check cleanness, maintenance, and operation. An Industrial Information Panel or a Needs Maintenance Cover connected to a light or alarm can help monitor maintenance issues. Having no maintenance issues does not mean cleanness is already 100%; check the environment after opening doors, power failures, or restarting.
+### Eşyalar ve Sıvılar
 
-The controller also emits a redstone signal on every side reflecting cleanness. **100% corresponds to signal strength 15.** To control ingredient input automatically, check for strength 15. Any nonzero signal is insufficient, since low cleanness can also produce a signal. Structure checks and redstone updates have a delay, so keep doors closed, power stable, and maintenance resolved alongside any interlock.
+GT Makine Gövdelerinin bir eşya yuvası ve bir sıvı tamponu vardır; bu, duvardan taşıma kapları olarak hizmet etmelerini sağlar. Bu tampona eklemek ve buradan çıkarmak için iki tarafta borular veya Konveyör Modülleri kullan, ardından içerideki makinelere ulaştır. Gövde tarifleri işlemez veya her şeyi otomatik olarak amaçlanan makinelere dağıtmaz.
 
-## Troubleshooting
+Mümkün olduğunda malzemeler, ürünler ve farklı sıvılar için ayrı bağlantı noktaları kullan; böylece istenmeyen materyaller paylaşılan küçük bir tamponu dolduramaz. İşlem makinelerinin giriş yüzlerini, çıkış yüzlerini ve otomatik çıkışını ayrı ayrı yapılandır; duvardaki bir gövde bu ayarların yerine geçmez.
 
-| Symptom | What to check |
+AE2 ile odanın içinde ve dışında <ItemLink id="appliedenergistics2:tile.BlockWirelessConnector" showIcon="left" /> öğelerini kullanarak bir bağlantı kur, ardından içerideki ME Arayüzlerini, otobüsleri ve diğer cihazları bağla. Kablosuz Bağlayıcılar duvar konumlarını işgal etmez ve kasa değişim payında daha fazla yer bırakır.
+
+ME ağına güç vermek, işlem makinelerine GT EU sağlamaz. Makine gücünü Makine Gövdeleri, Diyotlar veya ayrı olarak yapılandırılmış bir GT EU P2P kurulumu üzerinden sağla.
+
+## Bakım, Kirlilik ve İzleme
+
+Çözülmemiş her bakım sorunu maksimum temizliği **10 yüzde puanı** düşürür. Bir sorun %90'da, iki sorun %80'de sınırlar. Temiz Oda yine de çalışabilir, ancak güvenli %100'e ulaşamaz. Onarımlardan sonra, çevre gerektiren tariflere devam etmeden önce temizliğin toparlanmasını bekle.
+
+> [!WARNING]
+> Temiz Oda'nın içine kirletici jeneratörler veya diğer kirletici ekipmanları koyma. İçerideki bir makineden gelen kirlilik temizliği sıfıra sıfırlar ve altı bakım sorununun tümünü tetikleyerek Temiz Oda'yı durdurur. Bir Egzoz Çıkışı bunu düzeltemez. Kirlilik kaynağını dışarı taşı, ardından onar, yeniden başlat ve odayı tekrar temizle.
+
+Temizliği, bakımı ve çalışmayı kontrol etmek için kontrolcü GUI'sini ve Waila'yı kullan. Bir ışığa veya alarma bağlı bir Endüstriyel Bilgi Paneli ya da Needs Maintenance Cover, bakım sorunlarını izlemeye yardımcı olabilir. Bakım sorunu olmaması temizliğin zaten %100 olduğu anlamına gelmez; kapıları açtıktan, güç kesintilerinden veya yeniden başlatmadan sonra çevreyi kontrol et.
+
+Kontrolcü ayrıca her taraftan temizliği yansıtan bir kızıltaş sinyali yayar. **%100, sinyal gücü 15'e karşılık gelir.** Malzeme girişini otomatik olarak kontrol etmek için sinyal gücü 15'i kontrol et. Sıfır olmayan her sinyal yetersizdir, çünkü düşük temizlik de sinyal üretebilir. Yapı kontrolleri ve kızıltaş güncellemeleri gecikmelidir; bu nedenle kapıları kapalı, gücü kararlı tut ve herhangi bir interlokla birlikte bakımı da çöz.
+
+## Sorun Giderme
+
+| Belirti | Neyi kontrol etmeli |
 | --- | --- |
-| Incomplete structure | External dimensions, a central ceiling controller facing horizontally, filters throughout the inner ceiling, and fully enclosed walls and floor |
-| Wrong hatch count | Exactly one ordinary Energy Hatch and one Maintenance Hatch; no Input Buses, fluid hatches, or Muffler Hatch in the shell |
-| Room fails to form after adding glass or ports | Whether the replacements are valid, at least 20 Plascrete Blocks remain, and all replacements together satisfy the percentage limit |
-| Immediate shutdown with LV power | Whether only one 32 EU/t generator is connected; sufficient sustained startup power, cable current capacity, cable losses, and energy buffer |
-| MV power does not speed up cleaning | MV has no cleaning overclock; faster cleaning starts at HV. Upgrade the Energy Hatch and supply cabling before raising voltage |
-| Cleanness stays at 90% or 80% | Unresolved maintenance issues; if cleanness keeps falling, also check for open Reinforced Doors |
-| Ingredients consumed but an item output is missing | Whether cleanness was 100% when the recipe started; then check inherent output chances and the machine's output configuration |
-| Internal machine still requires a Cleanroom | Whether it is fully inside, the Cleanroom is formed with cleanness above 0%, and a structure check has occurred since placement or expansion |
-| Cleanroom runs but an internal machine does not | Separate machine power, voltage, ingredients, fluids, Integrated Circuit configuration, and output space |
-| Cleanness suddenly resets with all maintenance issues | Find and remove an internal pollution source, repair maintenance, and restart; hold back processing ingredients |
+| Eksik yapı | Dış boyutlar, yatay bakan merkezi bir tavan kontrolcüsü, iç tavan boyunca filtreler ve tamamen kapalı duvarlar ve zemin |
+| Yanlış kapak sayısı | Tam olarak bir sıradan Enerji Kapağı ve bir Bakım Kapağı; kabukta Giriş Otobüsü, sıvı kapağı veya Egzoz Çıkışı olmamalı |
+| Cam veya bağlantı noktaları eklendikten sonra oda oluşmuyor | Değişimlerin geçerli olup olmadığı, en az 20 Plascrete Bloğunun kalıp kalmadığı ve tüm değişimlerin birlikte yüzde sınırını karşılayıp karşılamadığı |
+| LV güçle hemen kapanma | Yalnızca bir 32 EU/t jeneratörün bağlı olup olmadığı; yeterli sürekli başlangıç gücü, kablo akım kapasitesi, kablo kayıpları ve enerji tamponu |
+| MV güç temizliği hızlandırmıyor | MV'nin temizlik hız aşırtması yoktur; daha hızlı temizlik HV'de başlar. Gerilimi yükseltmeden önce Enerji Kapağını ve besleme kablolarını yükselt |
+| Temizlik %90 veya %80'de kalıyor | Çözülmemiş bakım sorunları; temizlik düşmeye devam ediyorsa açık Güçlendirilmiş Kapıları da kontrol et |
+| Malzemeler tüketildi ama bir eşya çıktısı eksik | Tarif başladığında temizliğin %100 olup olmadığı; ardından doğal çıktı şanslarını ve makinenin çıktı yapılandırmasını kontrol et |
+| İçerideki makine hâlâ Temiz Oda gerektiriyor | Tamamen içeride olup olmadığı, Temiz Oda'nın yüzde 0'ın üzerinde temizlikle oluşup oluşmadığı ve yerleştirme veya genişletmeden bu yana bir yapı kontrolünün gerçekleşip gerçekleşmediği |
+| Temiz Oda çalışıyor ama içerideki bir makine çalışmıyor | Makine gücünün ayrı olup olmadığını, gerilimini, malzemelerini, sıvılarını, Entegre Devre yapılandırmasını ve çıktı alanını kontrol et |
+| Temizlik tüm bakım sorunlarıyla aniden sıfırlanıyor | İçerideki bir kirlilik kaynağını bul ve kaldır, bakımı onar ve yeniden başlat; işlem malzemelerini geri tut |
 
-See [Multiblock Machines](../multiblocks_index.md) for general tool controls, maintenance, and power failure guidance.
+Genel alet kontrolleri, bakım ve güç kesintisi rehberliği için [Multiblok Makineleri](../multiblocks_index.md) sayfasına bak.
 
-## References
+## Kaynaklar
 
-- [GTNH Wiki: Cleanroom](https://wiki.gtnewhorizons.com/wiki/Cleanroom)
+- [GTNH Wiki: Temiz Oda](https://wiki.gtnewhorizons.com/wiki/Cleanroom)

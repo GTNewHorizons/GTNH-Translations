@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Multiblock Diagnostic Feedback
+  title: Multiblok Teşhis Geri Bildirimi
   parent: misc.md
   icon: structurelib:item.structurelib.constructableTrigger
 categories:
@@ -9,10 +9,10 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Multiblock Diagnostic Feedback
-As part of 2.9, every GregTech multiblock now tells you exactly what hatches, buses, casings and more are missing (and where!). If all casings are placed, it will display the missing hatches. If a casing is missing, it will show you what can be placed at that location, alongside a button to highlight that block in-world!
+# Multiblok Teşhis Geri Bildirimi
+2.9'un bir parçası olarak, artık her GregTech multibloku hangi kapakların, busların, kasaların ve daha fazlasının eksik olduğunu (ve nerede olduğunu!) sana tam olarak söylüyor. Tüm kasalar yerleştirilmişse, eksik kapakları gösterir. Bir kasa eksikse, o konuma ne yerleştirilebileceğini ve o bloğu dünyada vurgulamak için bir düğmeyi gösterir!
 <FloatingImage src="../assets/misc/diagnostic.png" displayWidth="384">
   <ImageAnnotation>
-    An example of missing hatch checks
+    Eksik kapak kontrollerine bir örnek
   </ImageAnnotation>
 </FloatingImage>

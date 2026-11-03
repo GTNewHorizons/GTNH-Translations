@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Matter Ball
+  title: Madde Topu
   icon: appliedenergistics2:item.ItemMultiMaterial:6
   position: 010
 categories:
@@ -10,14 +10,14 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:6
 ---
 
-# Matter Balls
+# Madde Topları
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:6" scale="4" />
 
-A ball of generic matter, useful as ammunition for a <ItemLink id="appliedenergistics2:item.ToolMassCannon" /> or for producing [paintballs](paintballs.md).
+Genel bir madde topu; <ItemLink id="appliedenergistics2:item.ToolMassCannon" /> için mühimmat ya da [boya topları](paintballs.md) üretmek için kullanışlıdır.
 
-Made with 256 items or buckets in a <ItemLink id="appliedenergistics2:tile.BlockCondenser" /> in matter-ball mode.
+<ItemLink id="appliedenergistics2:tile.BlockCondenser" /> içinde madde-topu modunda 256 eşya veya kova ile yapılır.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:tile.BlockCondenser" />

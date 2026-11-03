@@ -21,46 +21,46 @@ item.dyePowder.name=Boya
 item.skull.name=Kafatası
 item.fish.name=Balık
 
-entity.Skeleton.wither.name=Wither Skeleton
-entity.MinecartRideable.name=Minecart
-entity.MinecartChest.name=Minecart with Chest
-entity.MinecartFurnace.name=Minecart with Furnace
-entity.MinecartTNT.name=Minecart with TNT
-entity.MinecartHopper.name=Minecart with Hopper
-entity.MinecartCommandBlock.name=Minecart with Command Block
+entity.Skeleton.wither.name=Wither İskeleti
+entity.MinecartRideable.name=Vagon
+entity.MinecartChest.name=Sandıklı Vagon
+entity.MinecartFurnace.name=Fırınlı Vagon
+entity.MinecartTNT.name=TNT'li Vagon
+entity.MinecartHopper.name=Hunili Vagon
+entity.MinecartCommandBlock.name=Komut Bloklu Vagon
 
 commands.time.get=Geçerli dünya saati %s'dir (günün saati: %s)
 commands.time.usageWithGet=/time <set|add> <value> VEYA /time get
 
 hodgepodge.soundsmenu.refreshsounds=Sesleri Yenile
-hodgepodge.soundsmenu.enhancements=Sound Enhancements...
-hodgepodge.soundsmenu.enhancements.title=Sound Enhancements
-hodgepodge.soundsmenu.enhancements.lwjgl3ify=HRTF, output limiting, and stereo spatialization require lwjgl3ify (Java 17+).
-hodgepodge.soundsmenu.enhancements.reload=Refresh sounds to apply reverb to sounds already playing.
+hodgepodge.soundsmenu.enhancements=Ses İyileştirmeleri...
+hodgepodge.soundsmenu.enhancements.title=Ses İyileştirmeleri
+hodgepodge.soundsmenu.enhancements.lwjgl3ify=HRTF, çıkış sınırlama ve stereo uzamsallaştırma lwjgl3ify (Java 17+) gerektirir.
+hodgepodge.soundsmenu.enhancements.reload=Hâlihazırda çalan seslere yankı uygulamak için sesleri yenile.
 hodgepodge.soundsmenu.option=%s: %s
-hodgepodge.soundsmenu.hrtf=Headphone HRTF
-hodgepodge.soundsmenu.hrtf.tooltip=Uses headphone-specific audio processing to make sounds feel above, below, in front of, or behind you. Best with headphones; speakers may sound hollow. DEFAULT follows OpenAL's device setting. Requires lwjgl3ify.
-hodgepodge.soundsmenu.output_limiter=Output Limiter
-hodgepodge.soundsmenu.output_limiter.tooltip=Reduces the final mix only when it would clip, preventing harsh distortion when many loud sounds overlap. DEFAULT follows OpenAL's device setting. Requires lwjgl3ify.
-hodgepodge.soundsmenu.environmental_reverb=Environmental Reverb
-hodgepodge.soundsmenu.environmental_reverb.tooltip=Adds echoes to positional sounds based on how enclosed you are, so caves and rooms sound less flat. Refresh sounds after changing this to update sounds already playing.
-hodgepodge.soundsmenu.reverb_strength=Reverb Amount
-hodgepodge.soundsmenu.reverb_strength.tooltip=Controls how strong environmental echoes can become. Changes apply live. Default: 30%%.
-hodgepodge.soundsmenu.downmix_stereo=Stereo Downmix
-hodgepodge.soundsmenu.downmix_stereo.tooltip=Converts positional stereo sound effects to mono as they load. This halves their decoded memory and lets older OpenAL position them in 3D. Streaming music and records are unchanged. Refresh sounds to rebuild cached audio.
-hodgepodge.soundsmenu.spatialize_stereo=Stereo Spatialization
-hodgepodge.soundsmenu.spatialize_stereo.tooltip=Keeps positional sounds stereo while allowing newer OpenAL to place them in 3D. Requires lwjgl3ify and takes priority over Stereo Downmix when supported. Refresh sounds after changing it.
-hodgepodge.soundsmenu.output_device=Output Device
-hodgepodge.soundsmenu.output_device.title=Select Output Device
-hodgepodge.soundsmenu.output_device.default=System Default
-hodgepodge.soundsmenu.output_device.tooltip=Selects an OpenAL playback device. System Default follows operating-system changes. Requires lwjgl3ify and modern OpenAL Soft.
-hodgepodge.soundsmenu.output_device.failed=Could not switch to that output device.
+hodgepodge.soundsmenu.hrtf=Kulaklık HRTF
+hodgepodge.soundsmenu.hrtf.tooltip=Sesleri üstünde, altında, önünde veya arkasında hissetmen için kulaklığa özel ses işleme kullanır. En iyi kulaklıkla çalışır; hoparlörlerde ses içi boş gelebilir. DEFAULT, OpenAL'in cihaz ayarını izler. lwjgl3ify gerektirir.
+hodgepodge.soundsmenu.output_limiter=Çıkış Sınırlayıcı
+hodgepodge.soundsmenu.output_limiter.tooltip=Son karışımı yalnızca kırpılma olacağında azaltarak çok sayıda yüksek sesin üst üste binmesinden doğan sert bozulmayı önler. DEFAULT, OpenAL'in cihaz ayarını izler. lwjgl3ify gerektirir.
+hodgepodge.soundsmenu.environmental_reverb=Çevresel Yankı
+hodgepodge.soundsmenu.environmental_reverb.tooltip=Ne kadar kapalı bir ortamda olduğuna göre konumsal seslere yankı ekler; böylece mağaralar ve odalar daha az düz kulağa gelir. Değiştirdikten sonra hâlihazırda çalan sesleri güncellemek için sesleri yenile.
+hodgepodge.soundsmenu.reverb_strength=Yankı Miktarı
+hodgepodge.soundsmenu.reverb_strength.tooltip=Çevresel yankıların ne kadar güçlü olabileceğini denetler. Değişiklikler anında uygulanır. Varsayılan: 30%%.
+hodgepodge.soundsmenu.downmix_stereo=Stereoyu Mono'ya İndirgeme
+hodgepodge.soundsmenu.downmix_stereo.tooltip=Konumsal stereo ses efektleri yüklenirken mono'ya dönüştürülür. Bu, çözülen seslerinin belleğini yarıya indirir ve eski OpenAL sürümlerinin bunları 3B olarak konumlandırmasına olanak verir. Akış halindeki müzik ve plaklar değişmez. Önbelleğe alınmış sesi yeniden oluşturmak için sesleri yenile.
+hodgepodge.soundsmenu.spatialize_stereo=Stereo Uzamsallaştırma
+hodgepodge.soundsmenu.spatialize_stereo.tooltip=Konumsal sesleri stereo tutarken yeni OpenAL sürümlerinin bunları 3B olarak yerleştirmesine izin verir. lwjgl3ify gerektirir ve desteklendiğinde Stereoyu Mono'ya İndirgeme'ye göre önceliklidir. Değiştirdikten sonra sesleri yenile.
+hodgepodge.soundsmenu.output_device=Çıkış Cihazı
+hodgepodge.soundsmenu.output_device.title=Çıkış Cihazı Seç
+hodgepodge.soundsmenu.output_device.default=Sistem Varsayılanı
+hodgepodge.soundsmenu.output_device.tooltip=Bir OpenAL çalma cihazı seçer. Sistem Varsayılanı işletim sistemi değişikliklerini izler. lwjgl3ify ve modern OpenAL Soft gerektirir.
+hodgepodge.soundsmenu.output_device.failed=O çıkış cihazına geçilemedi.
 hodgepodge.soundsmenu.default=DEFAULT
 hodgepodge.bed_respawn.msg=Yeniden doğma noktası ayarlandı
-hodgepodge.menu.mod_options=Mod Options...
+hodgepodge.menu.mod_options=Mod Ayarları...
 
-hodgepodge.chat.huge_message.logged=§cSomeone tried to send you a huge chat message that would kick you. Ask your server admin to see details. Please provide these info while reporting: Incident ID %s§c. Start of original message: %s
-hodgepodge.chat.huge_message.unlogged=§cSomeone tried to send you a huge chat message that would kick you. Ask your server admin to turn on logHugeChat in HodgePodge if you cannot identify the source of this and this keeps happening. Start of original message: %s
+hodgepodge.chat.huge_message.logged=§cBirisi sana atılmana neden olacak devasa bir sohbet mesajı göndermeye çalıştı. Ayrıntılar için sunucu yöneticine sor. Lütfen bildirirken şu bilgileri ver: Olay Kimliği %s§c. Orijinal mesajın başlangıcı: %s
+hodgepodge.chat.huge_message.unlogged=§cBirisi sana atılmana neden olacak devasa bir sohbet mesajı göndermeye çalıştı. Bunun kaynağını belirleyemiyorsan ve bu durum tekrarlıyorsa, sunucu yöneticinden HodgePodge'da logHugeChat'i açmasını iste. Orijinal mesajın başlangıcı: %s
 
 bettermodlist.sort.normal=Normal
 bettermodlist.sort.a_to_z=A-Z
@@ -68,55 +68,55 @@ bettermodlist.sort.z_to_a=Z-A
 bettermodlist.gui.modlistinfo1=Aman Tanrım, her şey farklı!
 bettermodlist.gui.modlistinfo2=Yeni düzeni sağlayan: 
 
-hodgepodge.debug.advanced_tooltips.enabled=Advanced Item Tooltips: §aOn
-hodgepodge.debug.advanced_tooltips.disabled=Advanced Item Tooltips: §cOff
-hodgepodge.debug.hitboxes.enabled=Hitboxes: §aOn
-hodgepodge.debug.hitboxes.disabled=Hitboxes: §cOff
-hodgepodge.debug.pause_focus.enabled=Pause on lost focus: §aOn
-hodgepodge.debug.pause_focus.disabled=Pause on lost focus: §cOff
-hodgepodge.debug.reload_chunks.message=Reloaded all chunks.
-hodgepodge.debug.reload_pack.message=Reloaded resource packs in %s seconds.
-hodgepodge.debug.crash.count.0=F3 + C is held down. This will crash the game in 6 seconds unless released.
-hodgepodge.debug.crash.count.1=Crashing in 5...
-hodgepodge.debug.crash.count.2=Crashing in 4...
-hodgepodge.debug.crash.count.3=Crashing in 3...
-hodgepodge.debug.crash.count.4=Crashing in 2...
-hodgepodge.debug.crash.count.5=Crashing in 1...
-hodgepodge.debug.crash.count.6=Time is over, game will crash when release ANY key.
-hodgepodge.debug.crash.cancel=Crash canceled.
-hodgepodge.debug.copy_location.message=Copied location to clipboard.
+hodgepodge.debug.advanced_tooltips.enabled=Gelişmiş Eşya İpuçları: §aAçık
+hodgepodge.debug.advanced_tooltips.disabled=Gelişmiş Eşya İpuçları: §cKapalı
+hodgepodge.debug.hitboxes.enabled=Vuruş Kutuları: §aAçık
+hodgepodge.debug.hitboxes.disabled=Vuruş Kutuları: §cKapalı
+hodgepodge.debug.pause_focus.enabled=Odak kaybında duraklat: §aAçık
+hodgepodge.debug.pause_focus.disabled=Odak kaybında duraklat: §cKapalı
+hodgepodge.debug.reload_chunks.message=Tüm yığınlar yeniden yüklendi.
+hodgepodge.debug.reload_pack.message=Kaynak paketleri %s saniyede yeniden yüklendi.
+hodgepodge.debug.crash.count.0=F3 + C basılı tutuluyor. Bırakılmazsa oyun 6 saniye içinde çökecek.
+hodgepodge.debug.crash.count.1=Çökmeye 5 saniye...
+hodgepodge.debug.crash.count.2=Çökmeye 4 saniye...
+hodgepodge.debug.crash.count.3=Çökmeye 3 saniye...
+hodgepodge.debug.crash.count.4=Çökmeye 2 saniye...
+hodgepodge.debug.crash.count.5=Çökmeye 1 saniye...
+hodgepodge.debug.crash.count.6=Süre doldu, HERHANGİ bir tuş bırakıldığında oyun çökecek.
+hodgepodge.debug.crash.cancel=Çökme iptal edildi.
+hodgepodge.debug.copy_location.message=Konum panoya kopyalandı.
 
-hodgepodge.debug.help.message=Key bindings:
-hodgepodge.debug.help.0=F3 = Open Debug Screen
-hodgepodge.debug.help.1=Shift + F3 = Open Debug Screen and show Profiler graph
-hodgepodge.debug.help.angelica=Alt + F3 = [Angelica] Open Debug Screen and show FPS/TPS graph
-hodgepodge.debug.help.2=F3 + A = Reload chunks
-hodgepodge.debug.help.3=F3 + B = Show hitboxes
-hodgepodge.debug.help.4=F3 + C = Copy location as /cofh tpx command, or hold for 6 seconds to crash the game
-hodgepodge.debug.help.5=F3 + D = [Hodgepodge] Clear chat
-hodgepodge.debug.help.6=F3 + H = Advanced tooltips
-hodgepodge.debug.help.7=F3 + P = Pause on lost focus
-hodgepodge.debug.help.8=F3 + Q = [Hodgepodge] Show this list
-hodgepodge.debug.help.9=F3 + S/T = Reload resource packs
-hodgepodge.debug.help.etfuturum=F3 + F4 = [Et-Futurum-Requiem] Open game mode switcher
-hodgepodge.debug.help.nei.1=%s = [NEI] Open Mob Spawning Overlay
-hodgepodge.debug.help.nei.2=%s = [NEI] Open Chunk Overlay
+hodgepodge.debug.help.message=Tuş atamaları:
+hodgepodge.debug.help.0=F3 = Hata Ayıklama Ekranını Aç
+hodgepodge.debug.help.1=Shift + F3 = Hata Ayıklama Ekranını Aç ve Profiler grafiğini göster
+hodgepodge.debug.help.angelica=Alt + F3 = [Angelica] Hata Ayıklama Ekranını Aç ve FPS/TPS grafiğini göster
+hodgepodge.debug.help.2=F3 + A = Yığınları yeniden yükle
+hodgepodge.debug.help.3=F3 + B = Çarpışma kutularını göster
+hodgepodge.debug.help.4=F3 + C = Konumu /cofh tpx komutu olarak kopyala, ya da oyunu çökertmek için 6 saniye basılı tut
+hodgepodge.debug.help.5=F3 + D = [Hodgepodge] Sohbeti temizle
+hodgepodge.debug.help.6=F3 + H = Gelişmiş ipuçları
+hodgepodge.debug.help.7=F3 + P = Odak kaybında duraklat
+hodgepodge.debug.help.8=F3 + Q = [Hodgepodge] Bu listeyi göster
+hodgepodge.debug.help.9=F3 + S/T = Kaynak paketlerini yeniden yükle
+hodgepodge.debug.help.etfuturum=F3 + F4 = [Et-Futurum-Requiem] Oyun modu değiştiriciyi aç
+hodgepodge.debug.help.nei.1=%s = [NEI] Yaratık Doğma Katmanını Aç
+hodgepodge.debug.help.nei.2=%s = [NEI] Yığın Katmanını Aç
 
-hodgepodge.disconnect.server_shutdown=Server closed
-hodgepodge.disconnect.idle=You have been idle for too long!
-hodgepodge.disconnect.illegal_stance=Illegal stance
-hodgepodge.disconnect.illegal_position=Illegal position
-hodgepodge.disconnect.flying=Flying is not enabled on this server
-hodgepodge.disconnect.illegal_characters=Illegal characters in chat
-hodgepodge.disconnect.invalid_entity=Attempting to attack an invalid entity
-hodgepodge.disconnect.hardcore_death=You have died. Game over, man, it's game over!
-hodgepodge.disconnect.logged_in_elsewhere=You logged in from another location
-hodgepodge.disconnect.not_whitelisted=You are not white-listed on this server!
-hodgepodge.disconnect.server_full=The server is full!
-hodgepodge.disconnect.name_taken=That name is already taken.
-hodgepodge.disconnect.login_timeout=Took too long to log in
-hodgepodge.disconnect.banned=You are banned from this server.
-hodgepodge.disconnect.ip_banned=You have been IP banned.
-hodgepodge.disconnect.server_starting=Server is still starting! Please wait before reconnecting.
-hodgepodge.disconnect.session_cleanup_pending=Your previous session is still being cleaned up, please reconnect in a moment
-hodgepodge.disconnect.session_cleanup_failed=Your previous session could not be cleaned up safely. Please contact a server administrator.
+hodgepodge.disconnect.server_shutdown=Sunucu kapandı
+hodgepodge.disconnect.idle=Çok uzun süre boşta kaldın!
+hodgepodge.disconnect.illegal_stance=Geçersiz duruş
+hodgepodge.disconnect.illegal_position=Geçersiz konum
+hodgepodge.disconnect.flying=Bu sunucuda uçuş etkin değil
+hodgepodge.disconnect.illegal_characters=Sohbette geçersiz karakterler
+hodgepodge.disconnect.invalid_entity=Geçersiz bir varlığa saldırma girişimi
+hodgepodge.disconnect.hardcore_death=Öldün. Oyun bitti, dostum, oyun bitti!
+hodgepodge.disconnect.logged_in_elsewhere=Başka bir konumdan giriş yaptın
+hodgepodge.disconnect.not_whitelisted=Bu sunucunun beyaz listesinde değilsin!
+hodgepodge.disconnect.server_full=Sunucu dolu!
+hodgepodge.disconnect.name_taken=Bu ad zaten alınmış.
+hodgepodge.disconnect.login_timeout=Giriş yapmak çok uzun sürdü
+hodgepodge.disconnect.banned=Bu sunucudan yasaklandın.
+hodgepodge.disconnect.ip_banned=IP adresin yasaklandı.
+hodgepodge.disconnect.server_starting=Sunucu hâlâ başlatılıyor! Lütfen yeniden bağlanmadan önce bekle.
+hodgepodge.disconnect.session_cleanup_pending=Önceki oturumun hâlâ temizleniyor, lütfen birazdan yeniden bağlan
+hodgepodge.disconnect.session_cleanup_failed=Önceki oturumun güvenli şekilde temizlenemedi. Lütfen bir sunucu yöneticisiyle iletişime geç.

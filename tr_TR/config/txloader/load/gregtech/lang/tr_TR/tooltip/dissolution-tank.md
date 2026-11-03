@@ -1,2 +1,2 @@
-Input Water and Fluid, output Fluid
-Fluids must be input in the exact ratio as listed in NEI
+Su ve Sıvı girişi, Sıvı çıkışı
+Sıvılar NEI'de listelendiği tam oranda girilmelidir

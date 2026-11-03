@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:31082
 navigation:
-  title: Steam Purifier
+  title: Buharlı Arıtıcı
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:31082
   position: 6
@@ -10,32 +10,32 @@ quest_ids:
   - zorY0c3BQuqLJp7ThOLG-g
 ---
 
-# Steam Purifier
+# Buharlı Arıtıcı
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31082" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" /> is a multiblock ore washing machine available in the Steam age. It uses steam and water to process minerals in batches and can process up to eight copies of the same recipe at once. Its **Ore Washer** and **Simple Washer** modes let you choose between collecting byproducts and washing quickly.
+<ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" />, Buhar çağında bulunan bir multiblok cevher yıkama makinesidir. Mineralleri partiler hâlinde işlemek için buhar ve su kullanır ve aynı anda aynı tarifin en fazla sekiz kopyasını işleyebilir. **Cevher Yıkayıcı** ve **Basit Yıkayıcı** modları, yan ürünleri toplamak ile hızlı yıkamak arasında seçim yapmanı sağlar.
 
-The machine has basic bronze and high pressure steel structures that share the same controller. It makes washing Crushed Ores available in the Steam age, while Simple Washer mode can also quickly wash eligible Impure Dusts and Purified Dusts. Upgrading to the high pressure structure increases throughput, but does not raise the maximum recipe tier.
+Makinenin aynı kontrolcüyü paylaşan temel bronz ve yüksek basınçlı çelik yapıları vardır. Ezilmiş Cevherleri yıkamayı Buhar çağında kullanılabilir hâle getirir; Basit Yıkayıcı modu ayrıca uygun Saf Olmayan Tozları ve Temizlenmiş Tozları hızlıca yıkayabilir. Yüksek basınçlı yapıya yükseltmek verimi artırır ancak maksimum tarif kademesini yükseltmez.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires Cast Iron Plates, Tin Rotors, a Tumbaga Frame Box, and other materials |
-| Dimensions | Nine blocks wide, five blocks deep, and six blocks tall; controller at the front center of the small cube's second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Recipe range | Ore Washer or Simple Dust Washer recipes at LV or below, requiring no more than 32 EU/t |
-| Inputs and outputs | Steam Input Buses accept items, Input Hatches accept recipe water, and steam Output Buses output items |
-| Operating modes | Defaults to Ore Washer mode; switch to Simple Washer mode with a screwdriver or the GUI |
-| Parallels | Up to eight copies of the same recipe; the high pressure structure does not raise this limit |
-| Processing duration | Approximately 1.6× the duration shown in NEI for the basic structure, or 0.8× for the high pressure structure |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| Kilit açma kademesi | Buhar; kontrolcü tarifi Dökme Demir Plakalar, Kalay Rotorlar, bir Tumbaga Çerçeve ve diğer materyaller gerektirir |
+| Boyutlar | Dokuz blok genişliğinde, beş blok derinliğinde ve altı blok yüksekliğinde; kontrolcü küçük küpün ikinci katmanının ön ortasında |
+| Güç | Tam olarak bir Buhar Kapağı; Enerji Kapağı yok |
+| Tarif aralığı | LV veya altındaki Cevher Yıkayıcı ya da Basit Toz Yıkayıcı tarifleri; en fazla 32 EU/t gerektirir |
+| Girdiler ve çıktılar | Buhar Giriş Yolları eşya kabul eder, Girdi Kapakları tarif suyunu kabul eder ve buhar Çıkış Yolları eşya çıkarır |
+| Çalışma modları | Varsayılan olarak Cevher Yıkayıcı modundadır; tornavida veya GUI ile Basit Yıkayıcı moduna geçilir |
+| Paralellik | Aynı tariften en fazla sekiz kopya; yüksek basınçlı yapı bu sınırı artırmaz |
+| İşlem süresi | Temel yapı için NEI'de gösterilen sürenin yaklaşık 1,6 katı, yüksek basınçlı yapı için 0,8 katı |
+| Yükseltmeler ve hız aşırtma | Yüksek basınçlı yapı hızı ve buhar tüketim oranını ikiye katlar; gerilim hız aşırtması yok |
+| Bakım ve kirlilik | Bakım yok, kirlilik yok ve Egzoz Çıkışı gerekmez |
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+Kontrolcü, temel kasa ve Buhar Kapağı için mevcut tarifler aşağıda gösterilmiştir. Diğer bileşenlerin tariflerini görmek için tablodaki eşyalara tıkla.
 
 <RecipesFor id="gregtech:gt.blockmachines:31082" />
 
@@ -43,161 +43,161 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### Yapı Materyalleri
 
-The following setup uses one Steam Hatch, one Input Bus, one Output Bus, and one Input Hatch. The basic structure uses bronze components, while the high pressure structure uses their steel counterparts. **The casings, Gear Box Casings, and Pipe Casings in one machine must all be of the same tier.**
+Aşağıdaki kurulum bir Buhar Kapağı, bir Giriş Yolu, bir Çıkış Yolu ve bir Girdi Kapağı kullanır. Temel yapı bronz bileşenler kullanırken yüksek basınçlı yapı bunların çelik karşılıklarını kullanır. **Bir makinedeki kasalar, Dişli Kutusu Kasaları ve Boru Muhafazaları aynı kademeden olmalıdır.**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| Bileşen | Temel yapı | Yüksek basınçlı yapı | Miktar ve konum |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 59 in the setup described above; may be replaced with the hatches or buses below, but at least 55 actual casings must remain |
-| Gear Box Casing | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | Eight, in the tank's base around the central casing |
-| Pipe Casing | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | 12, forming the pipes inside the tank and the connecting pipes above |
-| Glass | For example, <ItemLink id="minecraft:glass" showIcon="left" /> | Existing glass can be reused | 24, forming two layers of tank walls; use glass blocks accepted by the hologram |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" /> | Same controller | One, at the front center of the small cube's second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | At least one, replacing a casing |
-| Input Hatch | For example, <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Same hatch | At least one, replacing a casing, to supply water |
+| Kasa | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | Yukarıda açıklanan kurulumda 59; aşağıdaki kapaklar veya yollarla değiştirilebilir, ancak en az 55 gerçek kasa kalmalıdır |
+| Dişli Kutusu Kasası | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | Sekiz; tankın tabanında merkezî kasanın etrafında |
+| Boru Muhafazası | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | 12; tankın içindeki boruları ve yukarıdaki bağlantı borularını oluşturur |
+| Cam | Örneğin, <ItemLink id="minecraft:glass" showIcon="left" /> | Mevcut cam yeniden kullanılabilir | 24; tank duvarlarının iki katmanını oluşturur; hologramın kabul ettiği cam bloklarını kullan |
+| Kontrolcü | <ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" /> | Aynı kontrolcü | Bir adet; küçük küpün ikinci katmanının ön ortasında |
+| Buhar Kapağı | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Aynı kapak | Tam olarak bir adet; bir kasanın yerine |
+| Giriş Yolu | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Aynı yol | En az bir adet; bir kasanın yerine |
+| Çıkış Yolu | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Aynı yol | En az bir adet; bir kasanın yerine |
+| Girdi Kapağı | Örneğin, <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Aynı kapak | En az bir adet; su sağlamak için bir kasanın yerine |
 
-The structure has 63 positions for casings or hatches. Installing the four interfaces listed above leaves 59 casings. Adding Input Hatches or buses reduces the casing count accordingly, but at least 55 actual casings must remain. Hatches and buses cannot replace Gear Box Casings, Pipe Casings, or glass.
+Yapıda kasalar veya kapaklar için 63 konum vardır. Yukarıda listelenen dört arayüzün kurulması 59 kasa bırakır. Girdi Kapakları veya yollar eklemek kasa sayısını buna göre azaltır, ancak en az 55 gerçek kasa kalmalıdır. Kapaklar ve yollar Dişli Kutusu Kasalarının, Boru Muhafazalarının veya camın yerini alamaz.
 
-Count layers upward from the base. The structure consists of a small cube, a glass tank beside it, and pipes above. The controller is not at the center of the entire structure, which is nine blocks wide. Follow the interactive structure or hologram. The controller can only face horizontally, and the structure cannot be rotated around its front face; empty positions in the hologram do not need to be filled.
+Katmanları tabandan yukarı doğru say. Yapı küçük bir küp, yanında bir cam tank ve üstünde borulardan oluşur. Kontrolcü, dokuz blok genişliğindeki tüm yapının merkezinde değildir. Etkileşimli yapıyı veya hologramı takip et. Kontrolcü yalnızca yatay olarak yönlendirilebilir ve yapı ön yüzü etrafında döndürülemez; hologramdaki boş konumların doldurulması gerekmez.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+Yapıyı önizlemek ve inşa etmeye yardım almak için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan. Ana kanal kademe 1 temel yapıyı, kademe 2 ise yüksek basınçlı yapıyı seçer. Yardımlı inşadan sonra kapakları tak ve yapıyı kontrol et.
 
-### Tank Water and Recipe Water
+### Tank Suyu ve Tarif Suyu
 
-Steam, water in the structure's tank, and recipe water serve different purposes:
+Buhar, yapının tankındaki su ve tarif suyu farklı amaçlara hizmet eder:
 
-| Location | Purpose |
+| Konum | Amaç |
 | --- | --- |
-| Steam Hatch | Receives steam produced by an external boiler to power the machine |
-| Input Hatch | Receives ordinary Water or the Distilled Water required by the recipe; each recipe consumes its water from here |
-| Structure's tank | Eight water positions around the central Pipe Casing on the second layer; place water sources manually or let the machine fill them |
+| Buhar Kapağı | Makineye güç vermek için harici bir kazan tarafından üretilen buharı alır |
+| Girdi Kapağı | Normal Su veya tarifin gerektirdiği Damıtılmış Suyu alır; her tarif suyunu buradan tüketir |
+| Yapının tankı | İkinci katmanda merkezî Boru Muhafazasının etrafındaki sekiz su konumu; su kaynaklarını elle yerleştir veya makinenin doldurmasına izin ver |
 
-Keep the Pipe Casing in the center of the tank. The eight surrounding water positions can initially be left empty. When checking the tank, the machine takes **1,000 L of ordinary Water** at a time from Input Hatches to place one water source block. If all eight positions are empty, the initial fill consumes up to **8,000 L of additional ordinary Water**. This is separate from the current cycle's recipe water, so provide enough buffer before starting.
+Boru Muhafazasını tankın merkezinde tut. Çevredeki sekiz su konumu başlangıçta boş bırakılabilir. Tankı kontrol ederken makine, bir su kaynak bloğu yerleştirmek için Girdi Kapaklarından her seferinde **1.000 L normal Su** alır. Sekiz konumun tamamı boşsa ilk dolum **8.000 L ek normal Su** tüketir. Bu, mevcut döngünün tarif suyundan ayrıdır; bu yüzden başlamadan önce yeterli tampon sağla.
 
-You can also use water buckets to fill all eight positions manually. **Water placed in the tank does not replace recipe water in Input Hatches.** Keep supplying the Input Hatches after the tank is filled. Tank water is not consumed by each recipe, but if a source is removed, the machine will attempt to refill it during a later check. The structure check accepts water sources or air; flowing water cannot replace source blocks.
+Sekiz konumun tamamını su kovalarıyla elle de doldurabilirsin. **Tanka konulan su, Girdi Kapaklarındaki tarif suyunun yerini tutmaz.** Tank dolduktan sonra Girdi Kapaklarına su vermeye devam et. Tank suyu her tarifte tüketilmez, ancak bir kaynak kaldırılırsa makine daha sonraki bir kontrolde onu yeniden doldurmaya çalışır. Yapı kontrolü su kaynaklarını veya havayı kabul eder; akan su kaynak bloklarının yerini alamaz.
 
-Ore Washer mode includes Distilled Water recipes, but automatic filling of an empty tank only uses **ordinary Water**. Before washing with Distilled Water, fill the tank with buckets or install an extra Input Hatch containing ordinary Water for automatic filling.
+Cevher Yıkayıcı modu Damıtılmış Su tarifleri içerir, ancak boş bir tankın otomatik doldurulması yalnızca **normal Su** kullanır. Damıtılmış Suyla yıkamadan önce tankı kovalarla doldur veya otomatik dolum için normal Su içeren ek bir Girdi Kapağı tak.
 
-## Machine Uses
+## Makine Kullanımları
 
-### Two Washing Modes
+### İki Yıkama Modu
 
-<kbd>Right-click</kbd> the controller with a <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" />, or click the mode button in the GUI, to switch between Ore Washer and Simple Washer modes.
+Cevher Yıkayıcı ve Basit Yıkayıcı modları arasında geçiş yapmak için kontrolcüye <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> ile <kbd>sağ tıkla</kbd> veya GUI'deki mod düğmesine tıkla.
 
-| Property | Ore Washer mode | Simple Washer mode |
+| Özellik | Cevher Yıkayıcı modu | Basit Yıkayıcı modu |
 | --- | --- | --- |
-| Recipe map | Ore Washer recipes in NEI | Simple Dust Washer recipes in NEI |
-| Common inputs | Crushed Ores and other eligible mineral intermediates | Eligible Crushed Ores, Impure Dusts, and Purified Dusts |
-| Common main outputs | Crushed Ores become Purified Crushed Ores | Crushed Ores become Purified Crushed Ores; Impure Dusts and Purified Dusts become ordinary dusts |
-| Byproducts | Collects Stone Dust and mineral byproducts listed in the recipe; some outputs are chance-based | Only produces the cleaned main product, without ore washing or centrifuging byproducts |
-| Typical water per recipe | 1,000 L of ordinary Water or 200 L of Distilled Water; check the corresponding NEI recipe | 100 L of ordinary Water |
-| Typical duration shown in NEI | 25 seconds with ordinary Water or 15 seconds with Distilled Water; individual recipes may differ | Five ticks, or 0.25 seconds at the normal 20 TPS |
+| Tarif haritası | NEI'deki Cevher Yıkayıcı tarifleri | NEI'deki Basit Toz Yıkayıcı tarifleri |
+| Yaygın girdiler | Ezilmiş Cevherler ve diğer uygun mineral ara ürünleri | Uygun Ezilmiş Cevherler, Saf Olmayan Tozlar ve Temizlenmiş Tozlar |
+| Yaygın ana çıktılar | Ezilmiş Cevherler Temizlenmiş Ezilmiş Cevherlere dönüşür | Ezilmiş Cevherler Temizlenmiş Ezilmiş Cevherlere dönüşür; Saf Olmayan Tozlar ve Temizlenmiş Tozlar normal tozlara dönüşür |
+| Yan Ürünler | Tarifte listelenen Taş Tozunu ve mineral yan ürünlerini toplar; bazı çıktılar şansa bağlıdır | Cevher yıkama veya santrifüjleme yan ürünleri olmadan yalnızca temizlenmiş ana ürünü üretir |
+| Tarif başına tipik su | 1.000 L normal Su veya 200 L Damıtılmış Su; ilgili NEI tarifini kontrol et | 100 L normal Su |
+| NEI'de gösterilen tipik süre | Normal Suyla 25 saniye veya Damıtılmış Suyla 15 saniye; tek tek tarifler farklı olabilir | Beş tick veya normal 20 TPS'de 0,25 saniye |
 
-Choose Ore Washer mode when you need mineral byproducts, and leave output space for every product. Choose Simple Washer mode when you only need the main product quickly. Simple washing is fast and uses little water, making it suitable for bulk processing materials whose byproducts you have decided to skip.
+Mineral yan ürünlerine ihtiyaç duyduğunda Cevher Yıkayıcı modunu seç ve her ürün için çıkış alanı bırak. Yalnızca ana ürüne hızlıca ihtiyaç duyduğunda Basit Yıkayıcı modunu seç. Basit yıkama hızlıdır ve az su kullanır; yan ürünlerini atlamaya karar verdiğin materyalleri toplu işlemek için uygundur.
 
-For Impure Dusts and Purified Dusts, also check [Steam Separator](./steam_centrifuge.md) recipes. Centrifuging can often recover corresponding byproducts while producing ordinary dust, whereas simple washing skips those byproducts. Choose the processing route using the specific mineral's NEI recipes.
+Saf Olmayan Tozlar ve Temizlenmiş Tozlar için [Buharlı Santrifüj](./steam_centrifuge.md) tariflerini de kontrol et. Santrifüjleme, normal toz üretirken çoğu zaman ilgili yan ürünleri geri kazanabilir; basit yıkama ise bu yan ürünleri atlar. İşleme yolunu ilgili mineralin NEI tariflerini kullanarak seç.
 
 > [!WARNING]
-> Simple Washer mode does not produce the byproducts from normal ore washing or centrifuging. Switching back to Ore Washer mode cannot recover those byproducts from items already processed in Simple Washer mode. Check the current mode before processing minerals whose byproducts you need.
+> Basit Yıkayıcı modu, normal cevher yıkama veya santrifüjleme yan ürünlerini üretmez. Cevher Yıkayıcı moduna geri dönmek, Basit Yıkayıcı modunda zaten işlenmiş eşyalardan bu yan ürünleri geri kazanamaz. Yan ürünlerine ihtiyaç duyduğun mineralleri işlemeden önce mevcut modu kontrol et.
 
-### Mineral Processing Routes
+### Mineral İşleme Yolları
 
-Washing Crushed Ore usually produces **Purified Crushed Ore**, rather than ordinary dust ready for every crafting recipe. Choose subsequent grinding, centrifuging, or other processing steps in NEI, and route items by their name and form.
+Ezilmiş Cevher yıkamak genellikle her üretim tarifine hazır normal toz yerine **Temizlenmiş Ezilmiş Cevher** üretir. Sonraki öğütme, santrifüjleme veya diğer işleme adımlarını NEI'de seç ve eşyaları adlarına ve biçimlerine göre yönlendir.
 
-- **Keep byproducts:** Send Crushed Ore into Ore Washer mode, collect Purified Crushed Ore, Stone Dust, and mineral byproducts separately, then arrange subsequent processing.
-- **Wash quickly:** Send eligible Crushed Ore into Simple Washer mode and collect only Purified Crushed Ore.
-- **Quickly purify ore dusts:** Send eligible Impure Dust or Purified Dust into Simple Washer mode to obtain ordinary dust. Use centrifuging instead if you need its corresponding byproducts.
+- **Yan ürünleri koru:** Ezilmiş Cevheri Cevher Yıkayıcı moduna gönder, Temizlenmiş Ezilmiş Cevheri, Taş Tozunu ve mineral yan ürünlerini ayrı ayrı topla, ardından sonraki işlemeyi düzenle.
+- **Hızlı yıka:** Uygun Ezilmiş Cevheri Basit Yıkayıcı moduna gönder ve yalnızca Temizlenmiş Ezilmiş Cevheri topla.
+- **Cevher tozlarını hızlıca temizle:** Uygun Saf Olmayan Tozu veya Temizlenmiş Tozu normal toz elde etmek için Basit Yıkayıcı moduna gönder. İlgili yan ürünlerine ihtiyacın varsa bunun yerine santrifüjleme kullan.
 
-Not every material or mineral form has a Simple Dust Washer recipe. Purified Crushed Ore and Purified Dust are different items. An item having "Purified" in its name does not mean it can be processed again in Simple Washer mode.
+Her materyal veya mineral biçiminin bir Basit Toz Yıkayıcı tarifi yoktur. Temizlenmiş Ezilmiş Cevher ve Temizlenmiş Toz farklı eşyalardır. Bir eşyanın adında "Temizlenmiş" olması, Basit Yıkayıcı modunda yeniden işlenebileceği anlamına gelmez.
 
-### First Startup
+### İlk Çalıştırma
 
-1. Check the structure and confirm that the Steam Hatch, steam Input Bus, steam Output Bus, and Input Hatch are installed.
-2. Use separate lines to supply steam to the Steam Hatch and water to the Input Hatch. If the tank is empty, first buffer enough ordinary Water for automatic filling.
-3. Select the desired mode and check the corresponding recipe map, input form, water type, and all outputs in NEI.
-4. Leave space for every output, then start with a small amount of material and observe the tank, outputs, steam buffer, and Input Hatch contents.
-5. Increase input quantities and parallels after confirming continuous steam and water supplies and output collection.
+1. Yapıyı kontrol et ve Buhar Kapağının, buhar Giriş Yolunun, buhar Çıkış Yolunun ve Girdi Kapağının takılı olduğunu doğrula.
+2. Buhar Kapağına buhar ve Girdi Kapağına su sağlamak için ayrı hatlar kullan. Tank boşsa önce otomatik dolum için yeterli normal Su tamponla.
+3. İstediğin modu seç ve ilgili tarif haritasını, girdi biçimini, su türünü ve tüm çıktıları NEI'de kontrol et.
+4. Her çıktı için alan bırak, sonra az miktarda materyalle başla ve tankı, çıktıları, buhar tamponunu ve Girdi Kapağı içeriğini gözlemle.
+5. Sürekli buhar ve su beslemesini ve çıktı toplamayı doğruladıktan sonra girdi miktarlarını ve paralelliği artır.
 
 > [!NOTE]
-> In the current version, the machine may briefly show "No Water" during its first startup or a periodic tank check. After the check, it will try again at the next recipe check. Confirm water in the Input Hatch and source blocks in the tank, then wait and observe. If it still cannot run, use the troubleshooting section below.
+> Mevcut sürümde makine, ilk çalıştırmasında veya periyodik tank kontrolünde kısa süreliğine "Su Yok" gösterebilir. Kontrolden sonra bir sonraki tarif kontrolünde yeniden deneyecektir. Girdi Kapağındaki suyu ve tanktaki kaynak bloklarını doğrula, sonra bekle ve gözlemle. Hâlâ çalışmıyorsa aşağıdaki sorun giderme bölümünü kullan.
 
-## Steam Supply, Water Supply, and Throughput
+## Buhar Beslemesi, Su Beslemesi ve Verim
 
-The Steam Purifier can process up to eight copies of **the same recipe** at once. This does not mean it can process eight different minerals in one cycle. Actual parallels also depend on input quantities, recipe water, output space, and the parallel limit set in the GUI.
+Buharlı Arıtıcı aynı anda **aynı tarifin** en fazla sekiz kopyasını işleyebilir. Bu, bir döngüde sekiz farklı mineral işleyebileceği anlamına gelmez. Gerçek paralellik ayrıca girdi miktarlarına, tarif suyuna, çıkış alanına ve GUI'de ayarlanan paralellik sınırına bağlıdır.
 
-The basic structure takes approximately 1.6× the recipe duration shown in NEI, while the high pressure structure takes approximately 0.8×. A typical ordinary Water washing recipe shown as 25 seconds takes roughly 40 seconds in the basic structure or 20 seconds in the high pressure structure. A Simple Dust Washer recipe shown as five ticks takes roughly eight ticks in the basic structure or four ticks in the high pressure structure. Actual continuous throughput also depends on recipe checks, input supply, and output handling.
+Temel yapı, NEI'de gösterilen tarif süresinin yaklaşık 1,6 katını alır; yüksek basınçlı yapı ise yaklaşık 0,8 katını. 25 saniye olarak gösterilen tipik bir normal Su yıkama tarifi, temel yapıda yaklaşık 40 saniye veya yüksek basınçlı yapıda 20 saniye sürer. Beş tick olarak gösterilen bir Basit Toz Yıkayıcı tarifi, temel yapıda yaklaşık sekiz tick veya yüksek basınçlı yapıda dört tick sürer. Gerçek sürekli verim ayrıca tarif kontrollerine, girdi beslemesine ve çıktı işlemeye bağlıdır.
 
-| Property | Basic structure | High pressure structure |
+| Özellik | Temel yapı | Yüksek basınçlı yapı |
 | --- | --- | --- |
-| Accepted recipe tiers | LV and below | LV and below |
-| Maximum parallels | 8 | 8 |
-| Processing duration relative to NEI | Approximately 1.6× | Approximately 0.8× |
-| Steam consumption rate for the same recipe and parallel count | 1× | 2× |
-| Total steam consumption per recipe | Baseline | Approximately the same as the basic structure |
-| Water per recipe | As specified by the NEI recipe | Same as the basic structure |
+| Kabul edilen tarif kademeleri | LV ve altı | LV ve altı |
+| Maksimum paralellik | 8 | 8 |
+| NEI'ye göre işlem süresi | Yaklaşık 1,6× | Yaklaşık 0,8× |
+| Aynı tarif ve paralellik sayısı için buhar tüketim oranı | 1× | 2× |
+| Tarif başına toplam buhar tüketimi | Temel | Yaklaşık olarak temel yapıyla aynı |
+| Tarif başına su | NEI tarifinde belirtildiği gibi | Temel yapıyla aynı |
 
-Parallels increase the number of recipes processed in a cycle without dividing the cycle's duration by the parallel count. At eight parallels, a typical ordinary Water washing cycle requires **8,000 L of Water**, a Distilled Water cycle requires **1,600 L of Distilled Water**, and a simple washing cycle requires **800 L of Water**. If the tank still needs automatic filling at startup, provide additional ordinary Water for that separately.
+Paralellik, bir döngüde işlenen tarif sayısını artırır ancak döngü süresini paralellik sayısına bölmez. Sekiz paralellikte tipik bir normal Su yıkama döngüsü **8.000 L Su**, bir Damıtılmış Su döngüsü **1.600 L Damıtılmış Su** ve basit bir yıkama döngüsü **800 L Su** gerektirir. Başlangıçta tankın hâlâ otomatik doluma ihtiyacı varsa bunun için ayrıca ek normal Su sağla.
 
-Simple Washer mode uses little water per recipe, but processes quickly, so the Input Hatch buffer and water pipes can still become bottlenecks. The high pressure upgrade does not reduce water per recipe. With processing speed doubled, continuous production also requires a higher water supply rate.
+Basit Yıkayıcı modu tarif başına az su kullanır ancak hızlı işler; bu nedenle Girdi Kapağı tamponu ve su boruları yine de darboğaz olabilir. Yüksek basınç yükseltmesi tarif başına suyu azaltmaz. İşlem hızı ikiye katlandığında sürekli üretim daha yüksek bir su besleme oranı da gerektirir.
 
-The Steam Hatch buffers 64,000 L of steam, but this only covers temporary shortfalls and cannot replace continuous boiler production. Size boilers and pipes for the **steam consumption rate while processing**, and also watch whether the Input Hatch's water supply keeps up.
+Buhar Kapağı 64.000 L buhar tamponlar, ancak bu yalnızca geçici eksiklikleri karşılar ve sürekli kazan üretiminin yerini alamaz. Kazanları ve boruları **işleme sırasındaki buhar tüketim oranına** göre boyutlandır ve Girdi Kapağının su beslemesinin yetişip yetişmediğini de izle.
 
-Use Waila to check the operating steam consumption rate and watch whether the buffer keeps falling during continuous processing. If a value is shown in L/t, multiply by 20 to get L/s at the normal 20 TPS. Use matching units when comparing pipe throughput. If steam or water supply is insufficient, lower the parallel limit in the GUI, then increase boiler production or improve the piping.
+Çalışma sırasındaki buhar tüketim oranını kontrol etmek için Waila'yı kullan ve sürekli işleme sırasında tamponun düşmeye devam edip etmediğini izle. Bir değer L/t olarak gösteriliyorsa normal 20 TPS'de L/s elde etmek için 20 ile çarp. Boru verimini karşılaştırırken eşleşen birimleri kullan. Buhar veya su beslemesi yetersizse GUI'deki paralellik sınırını düşür, ardından kazan üretimini artır veya boru tesisatını iyileştir.
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation, and materials already consumed are not returned. Check steam production and pipe throughput before upgrading to high pressure or increasing the parallel limit.
+> İşleme sırasında buharın tükenmesi mevcut işlemi iptal eder ve zaten tüketilen materyaller geri verilmez. Yüksek basınçlı yapıya yükseltmeden veya paralellik sınırını artırmadan önce buhar üretimini ve boru verimini kontrol et.
 
-## Upgrading to High Pressure
+## Yüksek Basınçlı Yapıya Yükseltme
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31082" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. Replace **all** Bronze Plated Bricks, Bronze Gear Box Casings, and Bronze Pipe Casings with the Solid Steel Machine Casings, Steel Gear Box Casings, and Steel Pipe Casings listed in the table. Glass does not participate in the bronze versus steel tier check, so the existing ordinary glass can be reused.
+Yüksek basınçlı yapı aynı boyutları, kapak konumlarını ve kontrolcüyü korur. **Tüm** Bronz Kaplamalı Tuğlaları, Bronz Dişli Kutusu Kasalarını ve Bronz Boru Muhafazalarını tabloda listelenen Sağlam Çelik Makine Kasaları, Çelik Dişli Kutusu Kasaları ve Çelik Boru Muhafazaları ile değiştir. Cam, bronz ile çelik kademe kontrolüne katılmaz; bu nedenle mevcut normal cam yeniden kullanılabilir.
 
-Stop processing and material input before upgrading. After replacing the components, check the structure again and confirm the machine displays the high pressure tier before restoring steam, water, and production.
+Yükseltmeden önce işlemeyi ve materyal girişini durdur. Bileşenleri değiştirdikten sonra yapıyı yeniden kontrol et ve buharı, suyu ve üretimi geri yüklemeden önce makinenin yüksek basınç kademesini gösterdiğini doğrula.
 
-High pressure is the machine's structure tier. It still uses ordinary steam, and the existing Steam Hatch, steam buses, and Input Hatches can be reused. The upgrade doubles speed and steam consumption rate, but the maximum remains eight parallels, and MV or higher-tier recipes remain unavailable.
+Yüksek basınç, makinenin yapı kademesidir. Hâlâ normal buhar kullanır ve mevcut Buhar Kapağı, buhar yolları ve Girdi Kapakları yeniden kullanılabilir. Yükseltme hızı ve buhar tüketim oranını ikiye katlar, ancak maksimum sekiz paralellik olarak kalır ve MV veya daha yüksek kademeli tarifler kullanılamaz.
 
-## Automation and Output Routing
+## Otomasyon ve Çıktı Yönlendirmesi
 
-Steam Input and Output Buses each have four item slots. They do not automatically pull from adjacent chests or push products into them; placing a chest next to a bus is not enough for automation.
+Buhar Giriş ve Çıkış Yollarının her biri dört eşya yuvasına sahiptir. Bitişik sandıklardan otomatik olarak eşya çekmez veya ürünleri onlara itmez; bir yolun yanına sandık koymak otomasyon için yeterli değildir.
 
-- **Input:** Use hoppers, GT item pipes, conveyors, or item conduits to send minerals into the front face of the Input Bus. Filter by forms such as Crushed Ore, Impure Dust, and Purified Dust.
-- **Output:** Actively extract from the front face of the Output Bus with pipes, conduits, or conveyors, then route products to main output storage, byproduct storage, or the next machine.
-- **Steam and water:** Use separate lines, connecting steam to the Steam Hatch and water to Input Hatches. Arrange separate buffers and interfaces for washing with Distilled Water and filling the tank with ordinary Water.
-- **Byproducts:** In Ore Washer mode, handle Stone Dust and mineral byproducts as well as the main output. Filtering only the main output will leave other items accumulating in the bus.
-- **Mode changes:** Stop material input and wait for the current operation to finish. Check the mode and remaining inputs before resuming transfer, so subsequent materials are not processed through the other route unintentionally.
+- **Girdi:** Mineralleri Giriş Yolunun ön yüzüne göndermek için Huniler, GT eşya boruları, konveyörler veya eşya kanalları kullan. Ezilmiş Cevher, Saf Olmayan Toz ve Temizlenmiş Toz gibi biçimlere göre filtrele.
+- **Çıktı:** Borular, kanallar veya konveyörlerle Çıkış Yolunun ön yüzünden aktif olarak çek ve ürünleri ana çıktı depolamasına, yan ürün depolamasına veya bir sonraki makineye yönlendir.
+- **Buhar ve su:** Ayrı hatlar kullan; buharı Buhar Kapağına, suyu Girdi Kapaklarına bağla. Damıtılmış Suyla yıkama ve tankı normal Suyla doldurma için ayrı tamponlar ve arayüzler düzenle.
+- **Yan ürünler:** Cevher Yıkayıcı modunda ana çıktının yanı sıra Taş Tozunu ve mineral yan ürünlerini de ele al. Yalnızca ana çıktıyı filtrelemek diğer eşyaların yolda birikmesine neden olur.
+- **Mod değişiklikleri:** Materyal girişini durdur ve mevcut işlemin bitmesini bekle. Aktarımı sürdürmeden önce modu ve kalan girdileri kontrol et; böylece sonraki materyaller istemeden diğer yoldan işlenmez.
 
-Ore washing recipes can produce several different items at once. A single Output Bus with four slots may not hold all products during continuous processing. Additional Output Buses expand output space, but do not raise the parallel limit. Keep at least 55 actual casings when adding hatches or buses, and do not install a second Steam Hatch.
+Cevher yıkama tarifleri aynı anda birkaç farklı eşya üretebilir. Dört yuvalı tek bir Çıkış Yolu, sürekli işleme sırasında tüm ürünleri tutamayabilir. Ek Çıkış Yolları çıkış alanını genişletir ancak paralellik sınırını yükseltmez. Kapak veya yol eklerken en az 55 gerçek kasa bırak ve ikinci bir Buhar Kapağı takma.
 
 > [!WARNING]
-> To collect all byproducts, set the GUI's voiding mode to "Do Not Void" and provide space for every output. If item voiding is enabled, main products or byproducts may be discarded when the output is blocked.
+> Tüm yan ürünleri toplamak için GUI'nin imha modunu "İmha Etme" olarak ayarla ve her çıktı için alan sağla. Eşya imhası etkinse çıktı tıkandığında ana ürünler veya yan ürünler atılabilir.
 
-## Troubleshooting
+## Sorun Giderme
 
-| Symptom | What to check |
+| Belirti | Neyi kontrol etmeli |
 | --- | --- |
-| Incomplete structure | Is the structure nine blocks wide, five deep, and six tall? Is the controller at the front center of the small cube's second layer? Are pipes, Gear Box Casings, glass, and water positions arranged as shown in the hologram? |
-| Structure tier mismatch | Are the casings, Gear Box Casings, and Pipe Casings all of the same tier? Were only some bronze components replaced? |
-| Missing hatch or bus | Is there exactly one Steam Hatch and at least one steam Input Bus, steam Output Bus, and Input Hatch? Were ordinary electric machine item buses used by mistake? |
-| Structure fails after adding hatches | Are at least 55 actual casings left? Were glass, Gear Box Casings, or Pipe Casings replaced with hatches? |
-| Tank does not fill automatically | Is there ordinary Water in the Input Hatch? Each empty water position requires 1,000 L. Distilled Water alone cannot fill the tank automatically; you can also place source blocks with buckets. |
-| Tank has water but processing does not start | Does the Input Hatch still contain the water required by the recipe? Tank water cannot replace recipe water. Are there only flowing water blocks instead of sources? |
-| Brief "No Water" message | The machine may be performing its first or periodic tank check. Confirm water quantities and wait for the next recipe check. If it still cannot run, check the mode, recipe, and structure. |
-| Minerals present but no recipe found | Is the correct Ore Washer or Simple Washer mode selected? Does a corresponding recipe exist? Were Purified Crushed Ore and Purified Dust confused? Is the input water type correct? |
-| Recipe tier too high | Does the recipe shown in NEI exceed LV? The high pressure structure also cannot process MV or higher-tier recipes. |
-| No Stone Dust or mineral byproducts | Is Simple Washer mode selected? Are the byproducts chance-based? Is item voiding enabled? Have pipes already extracted them? |
-| Insufficient output space | Is there room for every output? Is one four-slot Output Bus insufficient? Are Stone Dust or byproducts left in the bus? |
-| Only low parallels or frequent waiting | Are input quantities, Input Hatch water, and output space sufficient? Can water supply keep up with Simple Washer mode? Is the GUI parallel limit set too low? |
-| Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
-| Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
+| Eksik yapı | Yapı dokuz blok genişliğinde, beş blok derinliğinde ve altı blok yüksekliğinde mi? Kontrolcü küçük küpün ikinci katmanının ön ortasında mı? Borular, Dişli Kutusu Kasaları, cam ve su konumları hologramda gösterildiği gibi düzenlenmiş mi? |
+| Yapı kademesi uyuşmuyor | Kasalar, Dişli Kutusu Kasaları ve Boru Muhafazaları hepsi aynı kademede mi? Bronz bileşenlerin yalnızca bir kısmı mı değiştirildi? |
+| Eksik kapak veya yol | Tam olarak bir Buhar Kapağı ve en az bir buhar Giriş Yolu, buhar Çıkış Yolu ve Girdi Kapağı var mı? Yanlışlıkla normal elektrikli makine eşya yolları mı kullanıldı? |
+| Kapaklar eklendikten sonra yapı başarısız | En az 55 gerçek kasa kaldı mı? Cam, Dişli Kutusu Kasaları veya Boru Muhafazaları kapaklarla mı değiştirildi? |
+| Tank otomatik dolmuyor | Girdi Kapağında normal Su var mı? Her boş su konumu 1.000 L gerektirir. Tek başına Damıtılmış Su tankı otomatik dolduramaz; kaynak bloklarını kovalarla da yerleştirebilirsin. |
+| Tankta su var ama işleme başlamıyor | Girdi Kapağında hâlâ tarifin gerektirdiği su var mı? Tank suyu tarif suyunun yerini tutamaz. Kaynak yerine yalnızca akan su blokları mı var? |
+| Kısa süreli "Su Yok" mesajı | Makine ilk veya periyodik tank kontrolünü yapıyor olabilir. Su miktarlarını doğrula ve bir sonraki tarif kontrolünü bekle. Hâlâ çalışmıyorsa modu, tarifi ve yapıyı kontrol et. |
+| Mineraller var ama tarif bulunamıyor | Doğru Cevher Yıkayıcı veya Basit Yıkayıcı modu mu seçili? İlgili bir tarif var mı? Temizlenmiş Ezilmiş Cevher ile Temizlenmiş Toz karıştırıldı mı? Girdi su türü doğru mu? |
+| Tarif kademesi çok yüksek | NEI'de gösterilen tarif LV'yi aşıyor mu? Yüksek basınçlı yapı da MV veya daha yüksek kademeli tarifleri işleyemez. |
+| Taş Tozu veya mineral yan ürünü yok | Basit Yıkayıcı modu mu seçili? Yan ürünler şansa bağlı mı? Eşya imhası etkin mi? Borular onları zaten çekmiş olabilir mi? |
+| Yetersiz çıkış alanı | Her çıktı için yer var mı? Dört yuvalı bir Çıkış Yolu yetersiz mi? Taş Tozu veya yan ürünler yolda mı kalmış? |
+| Yalnızca düşük paralellik veya sık bekleme | Girdi miktarları, Girdi Kapağı suyu ve çıkış alanı yeterli mi? Su beslemesi Basit Yıkayıcı moduna yetişebiliyor mu? GUI paralellik sınırı çok düşük mü ayarlanmış? |
+| Kapakta buhar olmasına rağmen makine duruyor | Sürekli besleme yetişebiliyor mu? Borular kısıtlı mı veya buharı diğer makinelerle mi paylaşıyor? Mevcut paralellik sayısı ve yüksek basınç kademesi kazan kapasitesini aşıyor mu? |
+| Yolun yanındaki sandık eşya aktarmıyor | Buhar yolları eşyaları otomatik olarak çekmez veya itmez. Etkin aktarım ekipmanını, bağlantı yüzünü, yönü ve filtreleri kontrol et. |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+Genel yapı kontrolleri ve araç kullanımı için [Multiblok Makineleri](./multiblocks_index.md) sayfasına bak.
 
-## Related Pages
+## İlgili Sayfalar
 
-- [GTNH Chinese Wiki: Steam Purifier](https://gtnh.huijiwiki.com/wiki/大型蒸汽洗矿厂)
+- [GTNH Çince Wiki: Buharlı Arıtıcı](https://gtnh.huijiwiki.com/wiki/大型蒸汽洗矿厂)

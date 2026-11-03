@@ -1,3 +1,3 @@
-Same throughput as 16 LGT with only 12 turbines
-Generates power from Gas based on the turbine and fitting
+16 LGT kadar verimi yalnızca 12 türbinle sağlar
+Türbine ve bağlantı parçasına bağlı olarak gazdan güç üretir
 #include:gregtech:xl-turbine-fitting

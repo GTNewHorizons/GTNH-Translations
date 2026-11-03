@@ -1,17 +1,17 @@
-{aqua:{bold:Water Tier: }}{color_tier:{var:tier}}
-Must be linked to a Purification Plant using a {color_name:{item:gregtech:gt.metaitem.01:32708}} to work
+{aqua:{bold:Su Kademesi: }}{color_tier:{var:tier}}
+Çalışmak için {color_name:{item:gregtech:gt.metaitem.01:32708}} kullanılarak bir Temizleme Tesisi'ne bağlanmalıdır
 {hr}
-Complete heating cycles by first heating the water to {color_heat:{var:heating_point}{K}},
-and then cooling it back down to {color_cold:0{K}}
-Initial temperature is reset to {color_cold:0{K}} on recipe start
-Each completed heating cycle boosts success chance by {color_misc:{var:success}%}
-If the temperature ever reaches {color_danger:{var:max_temp}{K}} the recipe will fail and output {color_steam:steam}
+Isıtma döngülerini tamamlamak için önce suyu {color_heat:{var:heating_point}{K}} sıcaklığına ısıt,
+ardından tekrar {color_cold:0{K}} sıcaklığına soğut
+Tarif başladığında başlangıç sıcaklığı {color_cold:0{K}} olarak sıfırlanır
+Tamamlanan her ısıtma döngüsü başarı şansını {color_misc:{var:success}%} artırır
+Sıcaklık herhangi bir anda {color_danger:{var:max_temp}{K}} değerine ulaşırsa tarif başarısız olur ve {color_steam:buhar} verir
 {hr}
-Consumes up to {color_hot:{var:max_plasma} {L}/s} {color_hot:{var:plasma}} and up to {color_cold:{var:max_coolant} {L}/s} {color_cold:{var:coolant}}
-{color_mechanic:Raises} the temperature by {color_hot:{var:plasma_temp}{K}} per {color_amount:1 {L}} of plasma consumed
-{color_mechanic:Lowers} the temperature by {color_cold:{var:coolant_temp}{K}} per {color_amount:1 {L}} of coolant consumed
+Saniyede en fazla {color_hot:{var:max_plasma} {L}/s} {color_hot:{var:plasma}} ve en fazla {color_cold:{var:max_coolant} {L}/s} {color_cold:{var:coolant}} tüketir
+{color_mechanic:Yükseltir} sıcaklığı {color_hot:{var:plasma_temp}{K}}: tüketilen her {color_amount:1 {L}} plazma için
+{color_mechanic:Düşürür} sıcaklığı {color_cold:{var:coolant_temp}{K}}: tüketilen her {color_amount:1 {L}} soğutucu için
 {hr}
-{aqua:{italic:Step five of water purification is to evaporate complex organic polymers and extremophile organisms}}
-{aqua:{italic:that might be resistant to simple acids, clarifying agents, and filters. Using an ultra high}}
-{aqua:{italic:pressure chamber in combination with extreme temperature fluctuations allows the water to remain}}
-{aqua:{italic:supercritical while evaporating any remaining contaminants, ready for filtration.}}
+{aqua:{italic:Su temizlemenin beşinci adımı, karmaşık organik polimerleri ve ekstremofil organizmaları buharlaştırmaktır;}}
+{aqua:{italic:bunlar basit asitlere, berraklaştırıcı maddelere ve filtrelere dirençli olabilir. Ultra yüksek}}
+{aqua:{italic:basınçlı bir odanın aşırı sıcaklık dalgalanmalarıyla birlikte kullanılması, suyun kalan tüm}}
+{aqua:{italic:kirleticileri buharlaştırırken süperkritik kalmasını sağlar ve filtrelemeye hazır hale getirir.}}

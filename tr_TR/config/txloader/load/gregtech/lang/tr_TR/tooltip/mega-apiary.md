@@ -1,23 +1,23 @@
-The ideal home for your bees
-{color_mode:Input Mode}:
-- Does not take power, put queens in the {color_name:Input Bus} to store them in the internal buffer
+Arıların için ideal yuva
+{color_mode:Giriş Modu}:
+- Güç tüketmez, kraliçeleri dahili tamponda depolamak için onları {color_name:Giriş Yolu} içine koy
 {hr}
-{color_mode:Output Mode}:
-- Does not take power, returns bees to the {color_name:Output Bus}
-- {color_note:Careful, you can easily void your bees}
+{color_mode:Çıkış Modu}:
+- Güç tüketmez, arıları {color_name:Çıkış Yolu} içine geri verir
+- {color_note:Dikkat, arılarını kolayca yok edebilirsin}
 {hr}
-{color_mode:Operating Mode}:
+{color_mode:Çalışma Modu}:
 - {color_mechanic:Normal}:
-  - {color_time:{var:normal_seconds}s} per operation, {color_amount:{var:bee_acceleration}x} bee speed
-  - Uses {color_amperage:1} {VNF:normalTier} amp per queen
-  - {color_amount:8} production upgrades and {color_name:Genetic Stabilizer} applied
-  - Simulates a perfect environment
-  - {color_key:Royal Jelly} grants {color_amount:{var:jelly_bonus}%} output per jelly, up to {color_amount:{var:max_jelly_bonus}%} (consumed each operation per bee)
+  - Her işlem başına {color_time:{var:normal_seconds}s}, {color_amount:{var:bee_acceleration}x} arı hızı
+  - Kraliçe başına {color_amperage:1} {VNF:normalTier} amper kullanır
+  - {color_amount:8} üretim yükseltmesi ve {color_name:Genetik Dengeleyici} uygulanır
+  - Mükemmel bir ortam simüle eder
+  - {color_key:Kraliyet Jölesi} her jöle için {color_amount:{var:jelly_bonus}%} çıktı verir, {color_amount:{var:max_jelly_bonus}%} değerine kadar (her çalışmada arı başına tüketilir)
 - {color_mechanic:Swarmer}:
-  - {color_amount:1} queen only, slowly produces {color_name:Ignoble Princesses}
-  - {color_amount:{var:swarmer_jelly_cost}} {color_key:Royal Jelly} per operation
-  - {color_time:{var:swarmer_seconds}s} base time, {color_amperage:1} {VNF:swarmerTier} amp
-  - {color_mechanic:Can overclock}
+  - Yalnızca {color_amount:1} kraliçe, yavaşça {color_name:Ignoble Princesses} üretir
+  - İşlem başına {color_amount:{var:swarmer_jelly_cost}} {color_key:Kraliyet Jölesi}
+  - {color_time:{var:swarmer_seconds}s} temel süre, {color_amperage:1} {VNF:swarmerTier} amper
+  - {color_mechanic:Hız aşırtma yapabilir}
 {hr}
-Right-click the controller with a {color_name:Screwdriver} to change {color_mode:mode} (Input/Output/Operating)
-Shift-right-click the controller with a {color_name:Screwdriver} to change {color_mechanic:operation mode} (Normal/Swarmer)
+Kontrolcüye {color_name:Tornavida} ile sağ tıklayarak {color_mode:modu} (Giriş/Çıkış/Çalışma) değiştir
+Kontrolcüye {color_name:Tornavida} ile Shift-sağ tıklayarak {color_mechanic:çalışma modunu} (Normal/Swarmer) değiştir

@@ -1,17 +1,17 @@
-Loses energy equal to 1% of the total capacity every 24 hours
-Capped at {red:{var:maxPassiveDrain}} {EU/t} passive loss per {VNF:minWirelessCapacitorTier} capacitor
-The passive loss increases {color_danger:{var:wirelessCapPassiveDrainTierMultiplier}}-fold for every Capacitor Tier above
-Passive loss is multiplied by the number of maintenance issues present
+Her 24 saatte toplam kapasitenin %1'i kadar enerji kaybeder
+Her {VNF:minWirelessCapacitorTier} kapasitör için pasif kayıp {red:{var:maxPassiveDrain}} {EU/t} ile sınırlıdır
+Üstündeki her Kapasitör Kademesi için pasif kayıp {color_danger:{var:wirelessCapPassiveDrainTierMultiplier}} kat artar
+Pasif kayıp, mevcut bakım sorunlarının sayısıyla çarpılır
 {hr}
-Glass shell has to be Tier - {var:glassTiersBelowCellAllowed} of the highest Capacitor Tier
-Add more or better capacitors to increase capacity
+Cam kabuk, en yüksek Kapasitör Kademesinden {var:glassTiersBelowCellAllowed} Kademe aşağıda olmalı
+Kapasiteyi artırmak için daha fazla veya daha iyi kapasitör ekle
 {hr}
-Wireless mode can be enabled by right-clicking with a screwdriver
-This mode can only be enabled if you have a {TC:minWirelessCapacitorTier:{VN:minWirelessCapacitorTier}+} capacitor in the multiblock.
-When enabled every {blue:{var:rebalanceTicks}} ticks the LSC will attempt to re-balance against your
-wireless {EU} network.
-If there is less than {red:{var:wirelessEuCap}} ({VNF:minWirelessCapacitorTier}) {EU} in the LSC
-it will withdraw from the network and add to the LSC.
-If there is more it will add {dark_red:{bold:{underline:all excess}}} {EU} to the network, removing it from the LSC
-This can potentially brick your base, be careful
-The threshold increases {color_danger:{var:wirelessCapTierMultiplier}}-fold for every Capacitor Tier above
+Kablosuz modu tornavidayla sağ tıklayarak etkinleştirebilirsin
+Bu mod yalnızca multiblokta {TC:minWirelessCapacitorTier:{VN:minWirelessCapacitorTier}+} kapasitörün varsa etkinleştirilebilir.
+Etkinleştirildiğinde LSC her {blue:{var:rebalanceTicks}} tick'te kablosuz
+{EU} ağına göre yeniden dengelemeye çalışır.
+LSC'de {red:{var:wirelessEuCap}} ({VNF:minWirelessCapacitorTier}) {EU}'dan az varsa
+ağdan çeker ve LSC'ye ekler.
+Daha fazlaysa ağa {dark_red:{bold:{underline:tüm fazlasını}}} {EU} ekler ve LSC'den çıkarır
+Bu, üssünü tuğlaya çevirebilir, dikkatli ol
+Eşik, üstündeki her Kapasitör Kademesi için {color_danger:{var:wirelessCapTierMultiplier}} kat artar

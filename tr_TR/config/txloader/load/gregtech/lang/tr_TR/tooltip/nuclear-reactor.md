@@ -1,10 +1,10 @@
-Produces energy and new elements from Radioactive Beta Decay
-Consumes {color_key:1 {L}/s Molten Salt} for fuel and {color_key:2 {L}/s LFTB} for coolant
-Warm-up takes {color_time:{var:warmup}s}, during which no fuel/coolant is consumed and no power is produced
-Once running, outputs {white:0.33 {L}/s U-233} on average
-Once finished, outputs various {color_hot:Depleted Molten Salts} based on the fuel used
+Radyoaktif Beta Bozunumu'ndan enerji ve yeni elementler üretir
+Yakıt için {color_key:1 {L}/s Eriyik Tuz}, soğutucu için {color_key:2 {L}/s LFTB} tüketir
+Isınma {color_time:{var:warmup}s} sürer; bu süre boyunca yakıt/soğutucu tüketilmez ve güç üretilmez
+Çalışmaya başladığında ortalama {white:0.33 {L}/s U-233} çıktısı verir
+Bittiğinde, kullanılan yakıta göre çeşitli {color_hot:Tükenmiş Eriyik Tuzlar} çıktısı verir
 {hr}
-Use four 4A dynamo hatches corresponding to the Molten Salt Tier:
-{color_key:LFTR Fuel 1} ({var:tier1}), {color_key:LFTR Fuel 2} ({var:tier2}), {color_key:LFTR Fuel 3} ({var:tier3})
-Higher tier hatches limit {EU} output to 1 hatch
-{color_danger:Shuts down if either input runs out} and any excess {EU} is safely voided
+Eriyik Tuz Kademesine karşılık gelen dört 4A dinamo kapağı kullan:
+{color_key:LFTR Yakıt 1} ({var:tier1}), {color_key:LFTR Yakıt 2} ({var:tier2}), {color_key:LFTR Yakıt 3} ({var:tier3})
+Daha yüksek kademe kapaklar {EU} çıktısını 1 kapakla sınırlar
+{color_danger:Girdilerden biri tükenirse kapanır} ve fazla {EU} güvenle yok edilir

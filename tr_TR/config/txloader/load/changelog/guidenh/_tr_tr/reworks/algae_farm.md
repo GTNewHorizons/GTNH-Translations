@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15545
 navigation:
-  title: Algae Farm
+  title: Yosun Çiftliği
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15545
 categories:
@@ -11,32 +11,32 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Algae Farm
+# Yosun Çiftliği
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15545"/>
 </GameScene>
-The <Color id="GREEN">Algae Farm</Color> is an MV tier multiblock for cultivating different types of algae. The <Color id="GREEN">Algae Farm</Color> requires no inputs other than power to run and produces no pollution. The duration of each iteration and the type/amount of algae produced depend on the tier of the energy hatch. Many outputs are not guaranteed and instead have a 90% chance of being produced. Optionally, supply compost through an input bus to boost the tier of the machine by one. 
+<Color id="GREEN">Yosun Çiftliği</Color>, farklı yosun türleri yetiştirmek için MV kademesinde bir multibloktur. <Color id="GREEN">Yosun Çiftliği</Color> çalışmak için güç dışında hiçbir girdi gerektirmez ve kirlilik üretmez. Her döngünün süresi ile üretilen yosunun türü/miktarı enerji kapağının kademesine bağlıdır. Birçok çıktı garantili değildir, bunun yerine %90 ihtimalle üretilir. İsteğe bağlı olarak, bir Giriş Yolundan kompost vererek makinenin kademesini bir artırabilirsin. 
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - Tiered Glass: Now a requirement of the structure - UMV glass unlocks all above tiers
-> - Power: The structure now __REQUIRES POWER__
-> - Speed: The speed and output amounts per iteration now depend on the power rather than machine casings in the structure
+> Multoblokta (yapısal değişiklikler hariç) şu değişiklikler yapıldı:
+> - Kademeli Cam: Artık yapının bir gereksinimi - UMV camı üstündeki tüm kademelerin kilidini açar
+> - Güç: Yapı artık __GÜÇ GEREKTİRİYOR__
+> - Hız: Döngü başına hız ve çıktı miktarları artık yapıdaki makine kasaları yerine güce bağlı
 
-## Construction
-The <Color id="GREEN">Algae Farm</Color> has one tiered component. The glass determines the maximum tier of the energy hatch. UMV tier glass removes all restrictions. Buses/hatches may replace any algae casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported and there can only be ONE regular energy hatch. The water is a one-time-cost to prime the machine and inserted into the structure via a reservoir hatch or input hatch. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/> <ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass. 
+## İnşa
+<Color id="GREEN">Yosun Çiftliği</Color>'nin bir kademeli bileşeni vardır. Cam, enerji kapağının maksimum kademesini belirler. UMV kademesindeki cam tüm kısıtlamaları kaldırır. Veriyolları/kapaklar yapının herhangi bir yerindeki yosun kasasının yerini alabilir. <Color id="RED">Çok Amperli ve Lazer Enerji Kapakları</Color> desteklenmez ve yalnızca BİR normal enerji kapağı olabilir. Su, makineyi ilk çalıştırmak için tek seferlik bir maliyettir ve yapıya bir rezervuar kapağı veya Girdi Kapağı aracılığıyla konur. Camın kademesini belirtmek için "glass" alt kanalıyla yapıyı görselleştirmek/inşa etmek üzere <ItemLink id="structurelib:item.structurelib.constructableTrigger"/> <ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan. 
 
-### Wallsharing
-<Color id="GREEN">Algae Farms</Color> may wallshare each of their sides to save on casings, glass, and buses/hatches. No recipe uses more than 1A of power so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### Duvar Paylaşımı
+<Color id="GREEN">Yosun Çiftlikleri</Color> kasa, cam ve veriyolu/kapak tasarrufu için her bir yanını duvar paylaşabilir. Hiçbir tarif 1A'dan fazla güç kullanmadığından <u>__iki__</u> makine arasında <u>__tek__</u> bir enerji kapağı paylaşmak mümkündür. 
 
-## Usage
-The <Color id="GREEN">Algae Farm</Color> requires no inputs other than power to run and produces no pollution. The duration of each iteration and the type/amount of algae produced depend on the tier of the energy hatch. Many outputs are not guaranteed and instead have a 90% chance of being produced. For example, an HV Algae Farm always produces 1 brown algae and 90% of the time produces 4 more, for a total of 5 per iteration and an average of 0.066 per second.
+## Kullanım
+<Color id="GREEN">Yosun Çiftliği</Color> çalışmak için güç dışında hiçbir girdi gerektirmez ve kirlilik üretmez. Her döngünün süresi ile üretilen yosunun türü/miktarı enerji kapağının kademesine bağlıdır. Birçok çıktı garantili değildir, bunun yerine %90 ihtimalle üretilir. Örneğin, bir HV Yosun Çiftliği her zaman 1 kahverengi yosun üretir ve %90 ihtimalle 4 tane daha üretir; döngü başına toplam 5 ve saniyede ortalama 0,066.
 
-Notice the improved scaling for LuV and above. The recipe length is halved with each tier instead of being reduced by 10 seconds which drastically increases the average algae produced. The very last tier is currently unobtainable because there are no craftable energy hatches above UXV. 
+LuV ve üzeri için iyileşen ölçeklemeye dikkat et. Tarif süresi her kademede 10 saniye azalmak yerine yarıya iner; bu da üretilen ortalama yosun miktarını büyük ölçüde artırır. En son kademe şu anda elde edilemez çünkü UXV'nin üzerinde üretilebilir enerji kapağı yok. 
 
-Optionally, GT++ compost can be supplied through an input bus to artificially increase the tier of the machine by one. An MV Algae Farm, for example, could produce brown algae and have its recipe length reduced from 80s to 70s. The amount of compost required per operation doubles with each tier, up to the maximum of 128.
+İsteğe bağlı olarak, bir Giriş Yolundan GT++ kompostu verilerek makinenin kademesi yapay olarak bir artırılabilir. Örneğin bir MV Yosun Çiftliği kahverengi yosun üretebilir ve tarif süresi 80 sn'den 70 sn'ye düşebilir. İşlem başına gereken kompost miktarı her kademede ikiye katlanır ve en fazla 128'e ulaşır.
 
-The algae itself is primarily used in the ExxonMobil Chemical Plant <ItemImage id="gregtech:gt.blockmachines:998"/>as a renewable alternative for methane, sulfuric acid, ethylene, and ammonia. Brown algae is also used to make lithium chloride for smelting MAR-Ce-M200 ingots and red algae is used to make prismarine shards.
+Yosunun kendisi başlıca ExxonMobil Kimya Tesisi <ItemImage id="gregtech:gt.blockmachines:998"/> içinde metan, sülfürik asit, etilen ve amonyak için yenilenebilir bir alternatif olarak kullanılır. Kahverengi yosun ayrıca MAR-Ce-M200 külçelerini eritmek için lityum klorür yapımında, kırmızı yosun ise prizmarin parçaları yapımında kullanılır.

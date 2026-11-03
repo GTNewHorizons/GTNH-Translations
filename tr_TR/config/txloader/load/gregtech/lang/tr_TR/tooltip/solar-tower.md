@@ -1,15 +1,15 @@
-Contributing Green Energy towards the future
-Surround with 1-5 rings of {white:Solar Reflectors} to generate heat
-More Solar Reflectors means more heat gain and more overall coolant throughput
-Maximum 100,000 heat but there is no risk or danger in reaching that
+Geleceğe Yeşil Enerji katkısı
+Isı üretmek için 1-5 halka {white:Güneş Yansıtıcıları} ile çevrele
+Daha fazla Güneş Yansıtıcısı daha fazla ısı kazancı ve daha fazla toplam soğutucu akışı demektir
+Maksimum 100,000 ısı, ancak buna ulaşmakta hiçbir risk veya tehlike yok
 {gray:{hr}}
-Converts {blue:Cold Solar Salt} into {red:Hot Solar Salt} at a 1:1 ratio every {var:cycle}s
-Every 1{var:unit} converted reduces the heat by 1 until it reaches zero
-Excess Cold Solar Salt is not consumed
+Her {var:cycle}s {blue:Soğuk Güneş Tuzu}'nu 1:1 oranında {red:Sıcak Güneş Tuzu}'na dönüştürür
+Dönüştürülen her 1{var:unit} ısıyı sıfıra ulaşana kadar 1 azaltır
+Fazla Soğuk Güneş Tuzu tüketilmez
 {gray:{hr}}
-Conversion only happens if {white:heat >=} {red:{var:threshold}} and {white:efficiency =} {aqua:100%}
-Efficiency starts at {aqua:0%} and increases by {aqua:+1%} every 10s 
+Dönüşüm yalnızca {white:ısı >=} {red:{var:threshold}} ve {white:verimlilik =} {aqua:100%} olduğunda gerçekleşir
+Verimlilik {aqua:0%} ile başlar ve her 10s'de {aqua:+1%} artar 
 {gray:{hr}}
-{white:Heat Efficiency =} {red:1 - (Heat - {var:center})^{var:exp} / {var:coefficient}}, peaks at {red:{var:center}}
-{white:Heat/Cycle =} {red:Solar Reflectors * Heat Efficiency * ({var:loss} + 2^(Rings - 1)) - {var:loss}}
-{yellow:Heat gain is halved in rain and disabled at night}
+{white:Isı Verimliliği =} {red:1 - (Isı - {var:center})^{var:exp} / {var:coefficient}}, {red:{var:center}} noktasında zirve yapar
+{white:Isı/Döngü =} {red:Güneş Yansıtıcıları * Isı Verimliliği * ({var:loss} + 2^(Halka - 1)) - {var:loss}}
+{yellow:Isı kazancı yağmurda yarıya iner ve gece devre dışı kalır}

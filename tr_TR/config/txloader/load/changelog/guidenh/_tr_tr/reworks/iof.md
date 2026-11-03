@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15564
 navigation:
-  title: Integrated Ore Factory
+  title: Entegre Cevher Fabrikası
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15564
 categories:
@@ -11,59 +11,59 @@ author: Skorched
 date: 2026-05-23
 ---
 
-# Integrated Ore Factory
+# Entegre Cevher Fabrikası
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15564"/>
 </GameScene>
-The <Color id="GREEN">Integrated Ore Factory (IOF)</Color> is a UHV tier multiblock that does all ore processing in a single step. It is designed to completely replace any existing ore processing setups, improve overall throughput, and save on lag. The <Color id="GREEN">IOF</Color> is unlocked shortly after the <ItemLink id="gregtech:gt.blockmachines:14003" /> which is when the player begins accumulating a massive amount of ore and needs an easier/faster way to process it all into dusts. The <Color id="GREEN">IOF</Color> supports all ore variants (crushed, purified, etc.) and can even process different recipes simultaneously if there are enough parallels available. The total number of parallels scales linearly with the input power and has no upper limit. Byproducts are generated based on the current mode of the <Color id="GREEN">IOF</Color>. There are seven modes in total for the seven different ore processing paths (sifting, ore washing, chemical bathing, etc). 
+<Color id="GREEN">Entegre Cevher Fabrikası (IOF)</Color>, tüm cevher işlemeyi tek adımda yapan UHV kademesinde bir multibloktur. Mevcut tüm cevher işleme düzenlerinin tamamen yerini almak, genel verimi artırmak ve lag'i azaltmak için tasarlanmıştır. <Color id="GREEN">IOF</Color>, <ItemLink id="gregtech:gt.blockmachines:14003" /> kısa bir süre sonra açılır; oyuncunun büyük miktarda cevher biriktirmeye başladığı ve hepsini toza işlemenin daha kolay/daha hızlı bir yoluna ihtiyaç duyduğu nokta burasıdır. <Color id="GREEN">IOF</Color> tüm cevher çeşitlerini (Ezilmiş, Temizlenmiş vb.) destekler ve yeterli paralel varsa farklı tarifleri aynı anda bile işleyebilir. Toplam paralel sayısı girdi gücüyle doğrusal olarak ölçeklenir ve üst sınırı yoktur. Yan ürünler, <Color id="GREEN">IOF</Color>'un mevcut moduna göre üretilir. Yedi farklı cevher işleme yolu (eleme, cevher yıkama, kimyasal banyo vb.) için toplam yedi mod vardır.
 <br clear="all"/>
 
 > [!NOTE]
-> The changes from the previous Integrated Ore Factory are as follows (not including new structure):
-> - Laser Support: Now accepts Laser Energy hatches for serious overclocking
-> - Mode Buttons: Now the mode switching button can be found in the GUI
-> - Flexibility: Hatch position restrictions have been hugely reduced, allowing more flexibility in placement
+> Önceki Entegre Cevher Fabrikası'na göre değişiklikler şunlardır (yeni yapı hariç):
+> - Lazer Desteği: Ciddi hız aşırtma için artık Lazer Enerji kapaklarını kabul ediyor
+> - Mod Düğmeleri: Mod değiştirme düğmesi artık GUI'de bulunabiliyor
+> - Esneklik: Kapak konumu kısıtlamaları büyük ölçüde azaltıldı, yerleştirmede daha fazla esneklik sağlanıyor
 
 
-## Construction
-The <Color id="GREEN">IOF</Color> has no tiered components. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any stainless steel machine casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are supported for serious throughput. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+## İnşa
+<Color id="GREEN">IOF</Color>'un kademeli bileşenleri yoktur. Cam her kademeden olabilir ve makinenin çalışması üzerinde etkisi yoktur. Veriyolları/kapaklar yapının herhangi bir yerindeki paslanmaz çelik Makine Gövdesi'nin yerini alabilir. Ciddi verim için <Color id="RED">Çok Amperli ve Lazer Enerji Kapakları</Color> desteklenir. Camın kademesini belirtmek için "glass" alt kanalıyla yapıyı görselleştirmek/inşa etmek üzere <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> kullan.
 
-Assuming the <ItemLink id="gregtech:gt.blockmachines:32026" /> is __NOT__ used for component parts, one <Color id="GREEN">IOF</Color> requires 7.21k neutronium, 3.89k iridium, 3.03k cosmic neutronium, 3.02k naquadria, and 880 bedrockium to build, among other things. 
+<ItemLink id="gregtech:gt.blockmachines:32026" /> bileşen parçaları için __KULLANILMADIĞI__ varsayılırsa, bir <Color id="GREEN">IOF</Color> inşa etmek diğer malzemelerin yanı sıra 7.21k nötronyum, 3.89k iridyum, 3.03k kozmik nötronyum, 3.02k naquadria ve 880 Katmankayamsı gerektirir.
 
-### Requires:
+### Gerekenler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15564" /> <ItemImage id="gregtech:gt.blockmachines:15564" />
 - 462 <ItemLink id="gregtech:gt.blockcasings8:7" /> <ItemImage id="gregtech:gt.blockcasings8:7" />
 - 0-163 <ItemLink id="gregtech:gt.blockcasings4:1" /> <ItemImage id="gregtech:gt.blockcasings4:1" />
 - 96 <ItemLink id="gregtech:gt.sheetmetal:84" /> <ItemImage id="gregtech:gt.sheetmetal:84" />
-- 90 Tiered Glass (any) <ItemImage id="bartworks:BW_GlasBlocks:15" />
+- 90 Kademeli Cam (herhangi biri) <ItemImage id="bartworks:BW_GlasBlocks:15" />
 - 23 <ItemLink id="gregtech:gt.blockframes:306" /> <ItemImage id="gregtech:gt.blockframes:306" />
 - 7 <ItemLink id="gregtech:gt.blockcasings5:8" /> <ItemImage id="gregtech:gt.blockcasings5:8" />
 - 7 <ItemLink id="miscutils:gtplusplus.blockcasings.2:6" /> <ItemImage id="miscutils:gtplusplus.blockcasings.2:6" />
 - 7 <ItemLink id="gregtech:gt.blockcasings3:10" /> <ItemImage id="gregtech:gt.blockcasings3:10" />
 - 7 <ItemLink id="miscutils:miscutils.blockcasings" /> <ItemImage id="miscutils:miscutils.blockcasings" />
-- 1 Energy Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 1+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 1+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 1+ Output Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1 Enerji Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 Bakım Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 1+ Giriş Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 1+ Girdi Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 1+ Çıkış Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### Wallsharing
-<Color id="GREEN">IOFs</Color> may wallshare each of their sides to save on casings, sheetmetal, frame boxes, and buses/hatches. Overlapping the bottom layer with another one directly underneath and upside down is the most effective and highly recommended. However, do not share the energy hatch because the machine pulls as many amps as possible while there are still parallels available. 
+### Duvar Paylaşımı
+<Color id="GREEN">IOF'ler</Color> kasa, sac metal, çerçeve kutusu ve veriyolu/kapaklardan tasarruf etmek için her bir yüzünü duvar paylaşımına açabilir. Alt katmanı, hemen altına ters çevrilmiş başka bir IOF ile üst üste bindirmek en etkili yöntemdir ve şiddetle önerilir. Ancak enerji kapağını paylaşma; çünkü makine hâlâ paralel kullanılabilirken mümkün olduğunca fazla amper çeker.
 
-## Usage
-The <Color id="GREEN">IOF</Color> can process almost any ore in GTNH including their variants (crushed, purified, etc). Every ore costs a flat 30 EU/t, 2L of lubricant, and 200L of distilled water. Recipes with other inputs, such as sodium persulfate for chemical bathing, still require them in addition to the default costs. The processing speed depends on the power provided and the mode of the machine.
+## Kullanım
+<Color id="GREEN">IOF</Color>, GTNH'deki çeşitleri (Ezilmiş, Temizlenmiş vb.) dahil neredeyse her cevheri işleyebilir. Her cevher sabit 30 EU/t, 2L yağlayıcı ve 200L damıtılmış suya mal olur. Kimyasal banyo için sodyum persülfat gibi başka girdiler içeren tarifler, varsayılan maliyetlere ek olarak bunları yine de gerektirir. İşleme hızı, sağlanan güce ve makinenin moduna bağlıdır.
 
-There are seven modes in total for the seven different ore-processing paths, listed below. Switch between modes in the GUI of the controller or by right-clicking the controller with a screwdriver. Sneak right-click the controller with a screwdriver to automatically void stone dust. 
-| Mode | Duration | Path | Max Throughput |
+Aşağıda listelenen yedi farklı cevher işleme yolu için toplam yedi mod vardır. Modlar arasında kontrolcünün GUI'sinden veya kontrolcüye tornavidayla sağ tıklayarak geçiş yap. Taş tozunu otomatik olarak yok etmek için kontrolcüye eğilerek tornavidayla sağ tıkla.
+| Mod | Süre | Yol | Maks. Verim |
 | --------------- | --------------- | --------------- | --------------- |
-| 1 | 30s | Macerate -> Ore Washer -> Thermal Centrifuge -> Macerate | 357,914 /s |
-| 2 | 15s | Macerate -> Ore Washer -> Macerate -> Centrifuge | 715,828 /s |
-| 3 | 10s | Macerate -> Macerate -> Ore Washer | 1,073,742 /s |
-| 4 | 20s | Macerate -> Ore Washer -> Sifter | 536,871 /s |
-| 5 | 17s | Macerate -> Chemical Bath -> Macerate -> Centrifuge| 631,613 /s |
-| 6 | 32s | Macerate -> Chemical Bath -> Thermal Centrifuge -> Macerate | 335,544 /s |
-| 7 | 1s | Forge Hammer -> Forge Hammer -> Simple Washer| 10,737,418 /s |
+| 1 | 30s | Öğütme -> Cevher Yıkayıcı -> Termal Santrifüj -> Öğütme | 357,914 /s |
+| 2 | 15s | Öğütme -> Cevher Yıkayıcı -> Öğütme -> Santrifüj | 715,828 /s |
+| 3 | 10s | Öğütme -> Öğütme -> Cevher Yıkayıcı | 1,073,742 /s |
+| 4 | 20s | Öğütme -> Cevher Yıkayıcı -> Elek | 536,871 /s |
+| 5 | 17s | Öğütme -> Kimyasal Banyo -> Öğütme -> Santrifüj| 631,613 /s |
+| 6 | 32s | Öğütme -> Kimyasal Banyo -> Termal Santrifüj -> Öğütme | 335,544 /s |
+| 7 | 1s | Dövme Çekici -> Dövme Çekici -> Basit Yıkayıcı| 10,737,418 /s |
 
-All ore processing recipes are LV tier which is where the base times and power costs originate. The <Color id="GREEN">IOF</Color> does __NOT__ overclock at all but it adds one parallel for every 30 EU/t provided. There is technically no upper limit on the number of parallels, but it still caps out at 10,737,418 or 322,122,540 EU/t due to the max integer limit on distilled water. That means exceeding 256A UHV has no effect on the operation of the machine, and adding more ME stocking input hatches to supply more than 2B distilled water at once also does not help. 
+Tüm cevher işleme tarifleri LV kademesindedir; temel süreler ve güç maliyetleri buradan gelir. <Color id="GREEN">IOF</Color> hiç __hız aşırtma__ yapmaz, ancak sağlanan her 30 EU/t için bir paralel ekler. Paralel sayısında teknik olarak üst sınır yoktur, ancak damıtılmış su üzerindeki maksimum tamsayı sınırı nedeniyle yine de 10,737,418 veya 322,122,540 EU/t'de tavan yapar. Bu, 256A UHV'yi aşmanın makinenin çalışması üzerinde hiçbir etkisi olmadığı ve aynı anda 2B'den fazla damıtılmış su sağlamak için daha fazla ME stoklama Girdi Kapağı eklemenin de yardımcı olmadığı anlamına gelir.

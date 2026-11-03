@@ -43,7 +43,7 @@ navigation:
 
 ### 结构
 
-藻类农场有一个分级部件。玻璃决定能源仓的最高等级；UMV 等级玻璃不受任何限制。
+藻类农场有一个任意等级部件。玻璃决定能源仓的最高等级；UMV 等级玻璃不受任何限制。
 
 藻类农场无法旋转。
 
@@ -58,7 +58,7 @@ navigation:
 | 部件 | 数量与位置 |
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:15545" showIcon="left" /> | 1 个，正面中央，第 3 层 |
-| <ItemImage id="bartworks:BW_TieredGlass" /><Color id="blue">分级</Color>玻璃 | 64 个 |
+| <ItemImage id="bartworks:BW_TieredGlass" /><Color id="blue">任意等级</Color>玻璃 | 64 个 |
 | <ItemLink id="gregtech:gt.blockcasings12:15" showIcon="left" /> | 20-25 |
 | <ItemLink id="gregtech:gt.blockframes:306" showIcon="left" /> | 6 |
 | <ItemLink id="gregtech:gt.blockcasings3:11" showIcon="left" /> | 5 |
@@ -68,21 +68,21 @@ navigation:
 | <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓 | 0 个以上，任意机械方块 |
 | <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线 | 1 个以上，任意机械方块 |
 
-### 共面
+### 共用墙壁
 
-藻类农场的每一侧都可以与其他机器共面，以节省机械方块、玻璃和总线/仓。任何配方耗电都不超过 1A，因此两台机器可以共用一个能源仓。
+藻类农场的每一侧都可以与其他机器共用墙壁，以节省机械方块、玻璃和总线/仓。任何配方耗电都不超过 1A，因此两台机器可以共用一个能源仓。
 
 ## 用途
 
-每次运作的时长以及藻类种类/数量取决于能源仓等级，如下表所示。许多产物并非必定产出，而是有 90% 的概率产出。例如，HV 藻类农场必定产出 1 个褐藻，并有 90% 概率额外产出 4 个，总计每次 5 个，平均每秒产出 0.066 个。
+每次运作的时长以及藻类种类/数量取决于能源仓等级，如下表所示。许多产物并非必定产出，而是有 90% 的概率产出。例如，HV 藻类农场必定产出 1 个褐藻生物质，并有 90% 概率额外产出 4 个，总计每次 5 个，平均每秒产出 0.066 个。
 
 请注意，LuV 及以上等级的产量提升幅度更大。配方时长每升一级减半，而非减少 10 秒，因此藻类平均产量大幅提高。最后一个等级目前无法获得，因为 UXV 以上没有可合成的能源仓。
 
-可以选择通过输入总线提供 GT++ 堆肥，使机器等级提升一级。例如，MV 藻类农场可以产出原本无法生产的褐藻，配方时长也会从 80 秒缩短至 70 秒。每次运作所需堆肥量随等级翻倍，最多为 64。
+可以选择通过输入总线提供 GT++ 堆肥，使机器等级提升一级。例如，MV 藻类农场可以产出原本无法生产的褐藻生物质，配方时长也会从 80 秒缩短至 70 秒。每次运作所需堆肥量随等级翻倍，最多为 64。
 
 下表列出了各等级的配方时间、升级所需堆肥量以及每秒平均藻类产量。
 
-| 电压 | 配方时间 | 所需堆肥 | <ItemImage id="miscutils:item.BasicAgrichemItem" />藻类 | <ItemImage id="miscutils:item.BasicAgrichemItem:1" />绿藻 | <ItemImage id="miscutils:item.BasicAgrichemItem:2" />褐藻 | <ItemImage id="miscutils:item.BasicAgrichemItem:3" />金褐藻 | <ItemImage id="miscutils:item.BasicAgrichemItem:4" />红藻 |
+| 电压 | 配方时间 | 所需堆肥 | <ItemImage id="miscutils:item.BasicAgrichemItem" />藻类生物质 | <ItemImage id="miscutils:item.BasicAgrichemItem:1" />绿藻生物质 | <ItemImage id="miscutils:item.BasicAgrichemItem:2" />褐藻生物质 | <ItemImage id="miscutils:item.BasicAgrichemItem:3" />金褐藻生物质 | <ItemImage id="miscutils:item.BasicAgrichemItem:4" />红藻生物质 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | ULV | 100.0s | 1 | 0.060 /s | 0.018 /s | - | - | - |
 | LV | 90.0s | 1 | 0.111 /s | 0.082 /s | - | - | - |
@@ -101,7 +101,7 @@ navigation:
 | MAX | 0.10s | 64 | 100.0 /s | 2,036 /s | 1,486 /s | 996.0 /s | 578.0 /s |
 | MAX+ | 0.05s | 64 | 200.0 /s | 4,872 /s | 3,572 /s | 2,392 /s | 1,356 /s |
 
-藻类主要在[<ItemLink id="gregtech:gt.blockmachines:998" showIcon="left" />](./exxonmobil_chemical_plant.md)中用作甲烷、硫酸、乙烯和氨的可再生替代原料。褐藻还可用于制作冶炼 MAR-Ce-M200 锭所需的氯化锂，红藻则用于制作海晶碎片。
+藻类主要在[<ItemLink id="gregtech:gt.blockmachines:998" showIcon="left" />](./exxonmobil_chemical_plant.md)中用作甲烷、硫酸、乙烯和氨的可再生替代原料。褐藻生物质还可用于制作冶炼 MAR-Ce-M200 锭所需的氯化锂，红藻生物质则用于制作海晶碎片。
 
 ## 参考资料
 

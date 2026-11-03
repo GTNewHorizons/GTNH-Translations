@@ -1,18 +1,18 @@
 ---
 navigation:
-  title: Bubble Columns
+  title: Kabarcık Sütunları
   parent: misc.md
   icon: harvestcraft:boiledwaterItem
 categories:
-    - Miscellaneous Changes
+    - Diğer Değişiklikler
 author: Skorched
 date: 2026-05-30
 ---
 
-# Bubble Columns
-<Color id="GREEN">Bubble Columns</Color> have been backported from 1.13, using the same mechanics as in modern versions. For those who have never used them, please read below:
+# Kabarcık Sütunları
+Yeşil <Color id="GREEN">Kabarcık Sütunları</Color>, 1.13'ten geriye uyarlanmıştır ve modern sürümlerdekiyle aynı mekanikleri kullanır. Daha önce hiç kullanmayanlar için lütfen aşağıyı okuyun:
 
-## Usage
-Players and air-breathing mobs can enter a bubble column, which replenishes air supply at the same speed as if they left the water. Slower mining speed penalties still apply where relevant. Water-breathing mobs will suffocate when inside a bubble column.
+## Kullanım
+Oyuncular ve hava soluyan canavarlar bir kabarcık sütununa girebilir; bu, hava ikmalini sudan çıktıkları zamankiyle aynı hızda yeniler. Yavaş kazma hızı cezaları ilgili yerlerde hâlâ geçerlidir. Su soluyan canavarlar bir kabarcık sütununun içindeyken boğulur.
 
-Bubble columns can be created by placing either Magma Blocks <ItemImage id="etfuturum:magma"/> or Soul Sand <ItemImage id="minecraft:soul_sand"/>, creating either a whirlpool, or upwards column respectively. These will then propel the player in the direction of the bubble column
+Kabarcık sütunları, Magma Blokları <ItemImage id="etfuturum:magma"/> veya Ruh Kumu <ItemImage id="minecraft:soul_sand"/> yerleştirilerek oluşturulabilir; bunlar sırasıyla bir girdap ya da yukarı yönlü bir sütun oluşturur. Bunlar daha sonra oyuncuyu kabarcık sütununun yönüne doğru iter

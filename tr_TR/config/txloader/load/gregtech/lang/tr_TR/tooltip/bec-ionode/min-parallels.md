@@ -1,2 +1,2 @@
-Forces the recipe checker to consume this many sets of ingredients at minimum.
-This is useful for controlling recipe speed when your automation is unreliable.
+Tarif denetleyicisini en az bu kadar malzeme seti tüketmeye zorlar.
+Otomasyonun güvenilir olmadığında tarif hızını kontrol etmek için kullanışlıdır.

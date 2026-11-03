@@ -1,6 +1,6 @@
-{color_parallel:{var:base_para_t1}} Parallels {color_parallel:+{var:slice_para_t1}} per extra slice with {color_name:Heat Resistant Casing}
-{color_parallel:{var:base_para_t2}} Parallels {color_parallel:+{var:slice_para_t2}} per extra slice with {color_name:Heat Proof Casing}
-{color_efficiency:-{var:eu_reduction}%} {EU} Usage per {color_name:Heating Coil} Tier (multiplicative)
+{color_parallel:{var:base_para_t1}} Paralel, {color_name:Isı Dirençli Kasa} ile her ek dilimde {color_parallel:+{var:slice_para_t1}}
+{color_parallel:{var:base_para_t2}} Paralel, {color_name:Isı Geçirmez Kasa} ile her ek dilimde {color_parallel:+{var:slice_para_t2}}
+Her {color_name:Isıtma Bobini} Kademesinde {color_efficiency:-{var:eu_reduction}%} {EU} Kullanımı (çarpımsal)
 {hr}
-Max 15 additional slices, unless using {color_name:Eternal Coils} which have no limit
-One {color_hatch:Multi-Amp Energy Hatch} is allowed with {color_name:Infinity Coils} or better
+{color_name:Ebedi Bobinler} kullanmadığın sürece en fazla 15 ek dilim; onlarda sınır yok
+{color_name:Sonsuzluk Bobinleri} veya daha iyisiyle tek bir {color_hatch:Çok Amperli Enerji Kapağı} kullanılabilir

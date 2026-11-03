@@ -1,10 +1,10 @@
-{color_parallel:Laser Source Amperage^(1/3)} Parallels
-{color_speed:{var:speed}%} Speed
-{color_efficiency:{var:eu_eff}%} {EU} Usage
+{color_parallel:Lazer Kaynağı Amperaj^(1/3)} Paralel
+{color_speed:{var:speed}%} Hız
+{color_efficiency:{var:eu_eff}%} {EU} Kullanımı
 {hr}
-Recipes and overclocks limited to {color_amount:(Laser Source Tier + 1)}
-A {tier-color:glass_tier_for_laser:{VN:glass_tier_for_laser}+} Laser Source allows for a single {color_hatch:Multi-Amp Energy Hatch}
+Tarifler ve hız aşırtmalar {color_amount:(Lazer Kaynağı Kademe + 1)} ile sınırlı
+Bir {tier-color:glass_tier_for_laser:{VN:glass_tier_for_laser}+} Lazer Kaynağı tek bir {color_hatch:Çok Amperli Enerji Kapağı} kullanımına izin verir
 {hr}
-{color_name:Glass} Tier determines maximum Laser Source Tier
-Use {color_name:Wire Cutters} to straighten the laser
-Use a {color_name:Screwdriver} to disable animations
+{color_name:Cam} Kademesi maksimum Lazer Kaynağı Kademesini belirler
+Lazeri düzeltmek için {color_name:Tel Makası} kullan
+Animasyonları kapatmak için {color_name:Tornavida} kullan

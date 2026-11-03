@@ -1,11 +1,11 @@
-Module that adds Space Mining Operations to the Space Elevator
-{light_purple:{bold:Does this violate drone rights?}}
+Uzay Asansörüne Uzay Madencilik Operasyonları ekleyen modül
+{light_purple:{bold:Bu dron haklarını ihlal ediyor mu?}}
 {lang:gt.blockmachines.multimachine.project.ig.desc2}
-Requires a plasma to operate ({yellow:825{L} Helium} / {dark_aqua:550{L} Bismuth} / {blue:375{L} Radon} / {white:250{L} Technetium} / {red:150{L} Plutonium 241}).
-Higher tier plasmas increase the chances of mining bigger asteroids and reduce mining operation time.
-Needs to be fed with computation to work.
-Computation is consumed per parallel
-Mining Drones must be placed in a regular input bus (neither linked nor stocking bus).
-Runs at {VNF:voltageTier} with up to {color_parallel:4} parallels
+Çalışmak için plazma gerektirir ({yellow:825{L} Helyum} / {dark_aqua:550{L} Bizmut} / {blue:375{L} Radon} / {white:250{L} Teknetyum} / {red:150{L} Plütonyum 241}).
+Daha yüksek kademe plazmalar daha büyük asteroitler çıkarma şansını artırır ve madencilik süresini azaltır.
+Çalışması için hesaplama ile beslenmesi gerekir.
+Hesaplama her paralel başına tüketilir
+Madencilik Dronları normal bir girdi yoluna konmalıdır (ne bağlantılı ne de stoklama yolu).
+{VNF:voltageTier} seviyesinde, en fazla {color_parallel:4} paralel ile çalışır
 {lang:gt.blockmachines.multimachine.project.ig.motorT2}
-Ores can be black-/whitelisted by putting them in an input bus
+Cevherler bir girdi yoluna konularak kara/beyaz listeye alınabilir

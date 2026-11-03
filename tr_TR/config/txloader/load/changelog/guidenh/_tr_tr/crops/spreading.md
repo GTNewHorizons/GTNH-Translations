@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Crop Spreading
+  title: Ekin Yayılımı
   parent: crops.md
   icon: cropsnh:cropSticks
 categories:
@@ -9,29 +9,29 @@ author: Skorched
 date: 2026-05-21
 ---
 
-# Crop Spreading
+# Ekin Yayılımı
 > [!NOTE]
-> This page presumes you have already read [Crop Basics](basics.md), or that you are familiar with the basics of crops and their stats
-Let's say you've got the crop you want. One crop likely isn't going to cut it, but it would be tedious to have to re-stat your crops hundreds of times to get a field! We can take advantage of <Color id="GREEN">Crop Spreading</Color> to help with this.
+> Bu sayfa, [Ekin Temelleri](basics.md) sayfasını zaten okuduğunu veya ekinlerin ve istatistiklerinin temellerine aşina olduğunu varsayar
+Diyelim ki istediğin ekine sahipsin. Tek bir ekin muhtemelen yeterli olmayacaktır, ancak bir ekin alanı elde etmek için ekinlerinin istatistiklerini yüzlerce kez yeniden ayarlamak zahmetli olurdu! Buna yardımcı olmak için <Color id="GREEN">Ekin Yayılımı</Color>'ndan yararlanabiliriz.
 
-Okay kids, teacher is off so let's roll out the video!
+Pekâlâ çocuklar, öğretmen gitti, hadi videoyu açalım!
 <GameScene width="420" height="280" zoom={2.5} interactive={true}>
   <ImportStructure src="../assets/crops/spreading.snbt" />
   <ImportPonder src="../assets/crops/spreading.json" />
 </GameScene>
 
-# Explanations:
-For those of you who don't want to watch the video, or need more detail, here's the textbook version:
+# Açıklamalar:
+Videoyu izlemek istemeyenler veya daha fazla ayrıntıya ihtiyaç duyanlar için işte ders kitabı sürümü:
 
-## Spreading
-To spread a crop, it must have a crossed Crop Stick (placed twice in the same place) adjacent, with a valid soil block for the target crop underneath. If the crop has a sub-soil requirement, the new crop target block must also have this. You can find these requirements on the "Crops" page of NEI:
+## Yayılım
+Bir ekini yaymak için, yanında çapraz bir Ekin Çubuğu (aynı yere iki kez yerleştirilmiş) olmalı ve altında hedef ekin için geçerli bir toprak bloğu bulunmalıdır. Ekinin bir alt toprak gereksinimi varsa, yeni ekinin hedef bloğunda da bu gereksinim olmalıdır. Bu gereksinimleri NEI'nin "Ekinler" sayfasında bulabilirsin:
 <RecipeFor id="minecraft:log" input="cropsnh:genericSeed" float="left" wrap="square"/>
-If the crop is able to grow on these adjacent crop sticks, it will attempt to spread, duplicating itself, onto the other set of crop sticks.
+Ekin bu bitişik ekin çubuklarında büyüyebiliyorsa, kendini çoğaltarak diğer ekin çubuğu grubuna yayılmaya çalışacaktır.
 
-The stats of the new crop will be of the range (-2:+4) if unfertilized, or (+0:+4) if fertilized. Thus, if you start with a single crop on a managed field of fertilized dirt, you are guaranteed with enough time to get a max stat (31/31/31) crop.
+Yeni ekinin istatistikleri gübrelenmemişse (-2:+4), gübrelenmişse (+0:+4) aralığında olacaktır. Böylece, gübrelenmiş topraktan oluşan yönetilen bir alanda tek bir ekinle başlarsan, yeterli zamanla MAX istatistikli (31/31/31) bir ekin elde etmen garanti olur.
 <br clear="all" />
-## Weeds
-Weeds will always attempt to grow on <Color id="RED">***ANY***</Color> crop sticks, doubled or not, if the soil is not treated with Weed-Ex <ItemImage id="cropsnh:weedEX" />. Weeds are a pain, as they in turn spread to devour your field of crops and cause other issues such as...
+## Yabani Otlar
+Toprak Weed-Ex <ItemImage id="cropsnh:weedEX" /> ile işlenmediği sürece, yabani otlar çiftlenmiş olsun olmasın <Color id="RED">***HER***</Color> ekin çubuğunda her zaman büyümeye çalışır. Yabani otlar baş belasıdır; çünkü onlar da yayılarak ekin alanını yiyip bitirir ve ... gibi başka sorunlara yol açar.
 
-## Sickness
-Unlike in the old implementation, weeds **do not destroy** other crops, but instead make them <Color id="RED">sick</Color>. Sick crops cannot provide outputs, and must be cured using <Color id="GREEN">Plant Cure</Color> <ItemImage id="cropsnh:plantCure" />
+## Hastalık
+Eski uygulamanın aksine, yabani otlar diğer ekinleri **yok etmez**, bunun yerine onları <Color id="RED">hasta</Color> eder. Hasta ekinler ürün veremez ve <Color id="GREEN">Bitki İlacı</Color> <ItemImage id="cropsnh:plantCure" /> kullanılarak iyileştirilmelidir.

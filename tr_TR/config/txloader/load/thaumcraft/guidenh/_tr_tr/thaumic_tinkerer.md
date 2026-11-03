@@ -21,13 +21,13 @@ navigation:
   <FloatingImage src="/assets/images/thaumcraft_logo.png" x="50" y="132" width="2078" height="445" displayWidth="300" wrap="inline" title="Thaumcraft" />
 </Column>
 
-**Thaumic Tinkerer (TT)** adds customizable enchanting, durability repair, block transport, infused crops, and a wide range of functional devices to Thaumcraft.<br>
-Later, <Color color="#B7A0D6">KAMI</Color> research builds on Ichor to provide Ichorcloth armor, Ichorium tools, teleportation devices, and more.
+**Thaumic Tinkerer (TT)**, Thaumcraft'a özelleştirilebilir büyüleme, dayanıklılık onarımı, blok taşıma, aşılanmış ekinler ve çok çeşitli işlevsel cihazlar ekler.<br>
+Daha sonra <Color color="#B7A0D6">KAMI</Color> araştırması Ichor üzerine kurularak Ichorcloth zırhı, Ichorium aletleri, ışınlanma cihazları ve daha fazlasını sunar.
 
-Its content supports equipment upgrades, material production, and base construction. The Osmotic Enchanter and Thaumic Restorer fit into existing equipment and essentia systems;<br>
-infused crops are bred through aspect combinations, while KAMI makes further use of void materials, Osmiridium, and higher wand Vis capacity.
+İçeriği ekipman yükseltmelerini, malzeme üretimini ve üs inşasını destekler. Osmotic Enchanter ve Thaumic Restorer mevcut ekipman ve esans sistemlerine uyum sağlar;<br>
+aşılanmış ekinler aspekt kombinasyonlarıyla yetiştirilir, KAMI ise void malzemelerinden, Osmiridyum'dan ve daha yüksek asa Vis kapasitesinden daha fazla yararlanır.
 
-NH rewrites many research prerequisites and recipes, so check current materials in NEI. This page focuses on device mechanics, uses, and NH-specific changes.
+NH birçok araştırma ön koşulunu ve tarifini yeniden yazıyor, bu yüzden güncel malzemeleri NEI'de kontrol et. Bu sayfa cihaz mekaniklerine, kullanımlarına ve NH'ye özgü değişikliklere odaklanır.
 
 ## Osmotic Enchanter
 
@@ -36,272 +36,272 @@ NH rewrites many research prerequisites and recipes, so check current materials 
   <IsometricCamera yaw="225" pitch="30" />
 </GameScene>
 
-The <ItemLink id="ThaumicTinkerer:enchanter" showIcon="left" /> is a powerful enchanting table added by TT.<br>
-It lets you choose the enchantments and levels to apply to equipment, using Vis from a wand.<br>
-Different enchantments require different primal aspects, and the costs rise quickly at higher levels.
+<ItemLink id="ThaumicTinkerer:enchanter" showIcon="left" />, TT tarafından eklenen güçlü bir büyüleme masasıdır.<br>
+Bir asanın Vis'ini kullanarak ekipmana uygulanacak büyüleri ve seviyeleri seçmeni sağlar.<br>
+Farklı büyüler farklı temel aspektler gerektirir ve maliyetler yüksek seviyelerde hızla artar.
 
-**Surrounding pillars**
+**Çevredeki sütunlar**
 
-The enchanter requires **6 nearby pillars**. Their bases must be at the same height as the enchanter and within **4 blocks** along both the X and Z axes.<br>
-Each pillar consists of **2–12 <ItemLink id="Thaumcraft:blockCosmeticSolid:0" showIcon="left" />** stacked vertically, topped with <ItemLink id="Thaumcraft:ItemResource:1" showIcon="left" />.
+Büyüleyici, **yakında 6 sütun** gerektirir. Bunların tabanları büyüleyiciyle aynı yükseklikte ve hem X hem Z ekseninde **4 blok** içinde olmalıdır.<br>
+Her sütun dikey olarak üst üste dizilmiş **2–12 <ItemLink id="Thaumcraft:blockCosmeticSolid:0" showIcon="left" />** içerir ve tepesinde <ItemLink id="Thaumcraft:ItemResource:1" showIcon="left" /> bulunur.
 
-The scene shows a layout with two totems per pillar.<br>
-Other positions meeting the range and height requirements also work; the pillars do not require a fixed hexagonal layout.
+Sahne, her sütunda iki totem bulunan bir düzeni gösteriyor.<br>
+Menzil ve yükseklik koşullarını karşılayan diğer konumlar da çalışır; sütunların sabit bir altıgen düzeninde olması gerekmez.
 
-**Items and power supply**
+**Eşyalar ve güç kaynağı**
 
-- The item must be **unenchanted** and have the item type and enchantability required by the chosen enchantment.
-- The interface only offers registered enchantments that apply to the item and whose research requirements are met. Restrictions such as the incompatibility between Silk Touch and Fortune still apply.
-- The wand's caps must have a base Vis consumption modifier of **100% or less**. Iron and copper caps do not qualify; staves are also not accepted.
-- Vis is absorbed gradually during processing, so the total requirement can exceed the wand's current reserves. If it runs short, remove the wand, recharge it, and return it to continue supplying Vis.
-- The item is locked while the enchanter is working, preventing removal or changes to the selected enchantments. Invalid pillars interrupt the process.
+- Eşya **büyüsüz** olmalı ve seçilen büyünün gerektirdiği eşya türüne ve büyülenebilirliğe sahip olmalıdır.
+- Arayüz yalnızca eşyaya uygulanabilen ve araştırma gereksinimleri karşılanmış kayıtlı büyüleri sunar. İpek Dokunuş ile Servet arasındaki uyumsuzluk gibi kısıtlamalar hâlâ geçerlidir.
+- Asanın uçlarının temel Vis tüketim değiştiricisi **%100 veya daha az** olmalıdır. Demir ve bakır uçlar uygun değildir; asalar da kabul edilmez.
+- Vis işlem sırasında kademeli olarak emilir, bu yüzden toplam gereksinim asanın mevcut rezervini aşabilir. Yetersiz kalırsa asayı çıkar, şarj et ve Vis sağlamaya devam etmek için geri koy.
+- Büyüleyici çalışırken eşya kilitlenir; çıkarılması veya seçilen büyülerin değiştirilmesi engellenir. Geçersiz sütunlar işlemi keser.
 
-The Osmotic Enchanter is made through infusion, with an ordinary Enchanting Table as the central ingredient and Obsidian Totems, Thaumium Plates, and Spellbinding Cloth around it.<br>
-The recipe has an instability of **12**, and the research adds **3 Warp**.
+Osmotic Enchanter, merkezde sıradan bir Büyüleme Masası ve çevresinde Obsidyen Totemler, Thaumium Plakalar ve Spellbinding Cloth kullanılarak infüzyon yoluyla yapılır.<br>
+Tarifin kararsızlığı **12**'dir ve araştırma **3 Delilik** ekler.
 
 **Spellbinding Cloth**
 
-Combining <ItemLink id="ThaumicTinkerer:spellCloth" showIcon="left" /> with an item in a crafting recipe removes its enchantments, allowing you to redesign the combination.
+<ItemLink id="ThaumicTinkerer:spellCloth" showIcon="left" /> ile bir eşyayı üretim tarifinde birleştirmek eşyanın büyülerini kaldırır ve kombinasyonu yeniden tasarlamanı sağlar.
 
 > [!WARNING]
-> Spellbinding Cloth removes the item's existing enchantments. Before using it on equipment with rare enchantments or effects that are difficult to obtain again, check which ones you intend to keep.
+> Spellbinding Cloth, eşyanın mevcut büyülerini kaldırır. Nadir büyüleri veya tekrar elde edilmesi zor etkileri olan ekipmanlarda kullanmadan önce hangilerini saklamak istediğini kontrol et.
 
-## Useful Enchantments
+## Faydalı Büyüler
 
-Thaumic Tinkerer's enchantment research appears in its research tab. Complete the corresponding research to select these enchantments in the Osmotic Enchanter.<br>
-They affect mining, combat, or movement, so choose them according to the equipment's intended use.
+Thaumic Tinkerer'ın büyü araştırmaları kendi araştırma sekmesinde görünür. Bu büyüleri Osmotic Enchanter'da seçebilmek için ilgili araştırmayı tamamla.<br>
+Kazma, savaş veya hareket üzerinde etkilidirler, bu yüzden onları ekipmanın kullanım amacına göre seç.
 
-**Mining and harvesting**
+**Madencilik ve hasat**
 
-- **Tunnel**: Increases mining speed when repeatedly digging in a straight line, making it useful for tunnels.
-- **Shatter**: Increases mining speed against blocks with high hardness.
-- **Disintegrate**: Provides very high mining speed against ordinary blocks suited to the tool, such as stone, dirt, and netherrack. It reduces effectiveness against other targets and doubles durability consumption.
-- **Flaming Touch**: Specializes in fast mining of wooden blocks, reducing effectiveness against other targets and also doubling durability consumption.
+- **Tunnel**: Düz bir çizgide tekrar tekrar kazarken kazma hızını artırır; tüneller için kullanışlıdır.
+- **Shatter**: Yüksek sertlikteki bloklara karşı kazma hızını artırır.
+- **Disintegrate**: Taş, toprak ve netherrack gibi alete uygun sıradan bloklara karşı çok yüksek kazma hızı sağlar. Diğer hedeflere karşı etkinliği düşer ve dayanıklılık tüketimini ikiye katlar.
+- **Flaming Touch**: Tahta blokların hızlı kazılmasında uzmanlaşır; diğer hedeflere karşı etkinliği düşer ve dayanıklılık tüketimini o da ikiye katlar.
 
-**Combat and movement**
+**Savaş ve hareket**
 
-- **Vampirism**: Converts part of the damage dealt by an attack into healing for the wielder.
-- **Quick Draw**: Speeds up drawing a bow.
-- **Ascent Boost**: Applied to leggings to increase jump height.
-- **Slow Fall**: Applied to boots to reduce falling speed and fall damage; sneaking temporarily disables the effect.
+- **Vampirism**: Bir saldırıyla verilen hasarın bir kısmını kullanıcı için iyileşmeye dönüştürür.
+- **Quick Draw**: Yayın gerilme hızını artırır.
+- **Ascent Boost**: Zıplama yüksekliğini artırmak için pantolona uygulanır.
+- **Slow Fall**: Düşme hızını ve düşme hasarını azaltmak için botlara uygulanır; eğilmek etkiyi geçici olarak devre dışı bırakır.
 
-Other combat enchantments include Dispersed Strikes, Focused Strikes, Final Strike, Valiance, Pounce, and Shockwave. Their research entries describe their effects and applicable equipment.<br>
-Mining enchantments with high durability consumption pair well with repair facilities or unbreakable Ichorium tools.
+Diğer savaş büyüleri arasında Dispersed Strikes, Focused Strikes, Final Strike, Valiance, Pounce ve Shockwave bulunur. Araştırma girdileri etkilerini ve uygulanabilecekleri ekipmanı açıklar.<br>
+Dayanıklılık tüketimi yüksek kazma büyüleri, onarım tesisleri veya kırılmaz Ichorium aletleriyle iyi uyum sağlar.
 
-## Durability Repair and Status Protection
+## Dayanıklılık Onarımı ve Durum Koruması
 
 **Thaumic Restorer**
 
-The <ItemLink id="ThaumicTinkerer:repairer" showIcon="left" /> repairs inserted items using <Color color="#B7A0D6">Instrumentum essentia</Color>. Each point of Instrumentum restores **8 durability**.
+<ItemLink id="ThaumicTinkerer:repairer" showIcon="left" />, içine konan eşyaları <Color color="#B7A0D6">Instrumentum esansı</Color> kullanarak onarır. Her Instrumentum puanı **8 dayanıklılık** geri kazandırır.
 
-Supply essentia through the restorer's connection face, using tubes connected to your Instrumentum stock. Goggles of Revealing show the remaining damage, and the restorer emits a redstone signal while repairing.
+Esansı, onarıcının bağlantı yüzüne Instrumentum stoğuna bağlı tüplerle ver. Hakikat Gözlüğü kalan hasarı gösterir ve onarıcı onarım yaparken kızıltaş sinyali yayar.
 
-Automation can insert damaged items and extract them once repairs are complete, supporting a cycle of equipment collection, repair, and resupply.<br>
-It accepts items according to their repairability; **Tinkers' Construct tools cannot be repaired**.
+Otomasyon, hasarlı eşyaları yerleştirebilir ve onarım tamamlandığında çıkarabilir; bu da ekipman toplama, onarma ve yeniden tedarik döngüsünü destekler.<br>
+Eşyaları onarılabilirliklerine göre kabul eder; **Tinkers' Construct aletleri onarılamaz**.
 
-See [Alchemy and Essentia](./alchemy_essentia.md) for essentia storage and distribution.
+Esans depolama ve dağıtımı için [Simya ve Esans](./alchemy_essentia.md) sayfasına bak.
 
 **Talisman of Remedium**
 
-When worn and enabled, the <ItemLink id="ThaumicTinkerer:cleansingTalisman" showIcon="left" /> absorbs several negative status effects, consuming its durability to remove them. It can also handle some Warp-related effects, at a high durability cost.
+Takılı ve etkin olduğunda <ItemLink id="ThaumicTinkerer:cleansingTalisman" showIcon="left" /> birkaç olumsuz durum etkisini emer ve bunları kaldırmak için dayanıklılığını tüketir. Yüksek dayanıklılık maliyetiyle bazı Delilik ile ilgili etkilerle de baş edebilir.
 
 **Wand Focus: Mending**
 
-The <ItemLink id="ThaumicTinkerer:focusHeal" showIcon="left" /> consumes wand Vis during continuous use to slowly heal the caster. It is useful for recovering between fights and requires reserves of the relevant Vis.
+<ItemLink id="ThaumicTinkerer:focusHeal" showIcon="left" /> sürekli kullanımda asa Vis'ini tüketerek kullanıcıyı yavaşça iyileştirir. Savaşlar arasında toparlanmak için kullanışlıdır ve ilgili Vis rezervlerini gerektirir.
 
-## Transport, Collection, and Device Interfaces
+## Taşıma, Toplama ve Cihaz Arayüzleri
 
 **Wand Focus: Dislocation**
 
-The <ItemLink id="ThaumicTinkerer:focusDislocation" showIcon="left" /> picks up a block, stores it, and places it elsewhere. Containers, furnaces, and some mob spawners can also be moved. Vis is charged when picking up the block; placing it back costs no additional Vis.
+<ItemLink id="ThaumicTinkerer:focusDislocation" showIcon="left" /> bir bloğu alır, depolar ve başka bir yere yerleştirir. Kaplar, fırınlar ve bazı yaratık doğurucuları da taşınabilir. Vis, blok alınırken harcanır; geri yerleştirmek ek Vis maliyeti getirmez.
 
-Blocks with tile entities cost **5 times** as much Vis as ordinary blocks, while mob spawners cost **20 times** as much.<br>
-The focus cannot move certain blocks, including aura nodes, some AE blocks, bundled conduits, reinforced essentia jars, and other special devices.
+Tile entity içeren bloklar sıradan blokların **5 katı** Vis tüketir; yaratık doğurucuları ise **20 katı**.<br>
+Odak belirli blokları taşıyamaz; bunlar arasında aura düğümleri, bazı AE blokları, demetlenmiş kanallar, güçlendirilmiş esans kavanozları ve diğer özel cihazlar bulunur.
 
-**Transvector Interface and Dislocator**
+**Transvector Interface ve Dislocator**
 
-- A <ItemLink id="ThaumicTinkerer:interface" showIcon="left" /> bound to a target block extends its item, fluid, and other interfaces.<br>
-Bind it with a <ItemLink id="ThaumicTinkerer:connector" showIcon="left" />, within a range of **4 blocks**. It shares the target's corresponding capabilities, providing additional connection points around a device.
+- Bir hedef bloğa bağlanmış <ItemLink id="ThaumicTinkerer:interface" showIcon="left" />, onun eşya, sıvı ve diğer arayüzlerini genişletir.<br>
+**4 blok** menzil içinde <ItemLink id="ThaumicTinkerer:connector" showIcon="left" /> ile bağla. Hedefin ilgili yeteneklerini paylaşır ve bir cihazın çevresinde ek bağlantı noktaları sağlar.
 <br>
-- A <ItemLink id="ThaumicTinkerer:dislocator" showIcon="left" /> swaps the block in front of it with the bound location when triggered by redstone, also moving entities at those positions.<br>
-Its binding range is **16 blocks**, and its facing can be adjusted with a wand.
+- <ItemLink id="ThaumicTinkerer:dislocator" showIcon="left" />, kızıltaşla tetiklendiğinde önündeki bloğu bağlı konumdaki blokla değiştirir ve o konumlardaki varlıkları da taşır.<br>
+Bağlama menzili **16 blok**tur ve yönü bir asayla ayarlanabilir.
 
-**Attractors and automated tool use**
+**Çekiciler ve otomatik alet kullanımı**
 
-- The <ItemLink id="ThaumicTinkerer:magnet" showIcon="left" /> affects dropped items, while the Corporeal Attractor affects living creatures. Blue mode attracts and red mode repels;<br>
-the range is half the redstone signal strength, up to **7.5 blocks**. The Corporeal Attractor also uses Soul Molds to filter creature types and distinguish adults from babies.
+- <ItemLink id="ThaumicTinkerer:magnet" showIcon="left" /> düşen eşyaları etkiler, Corporeal Attractor ise canlı yaratıkları etkiler. Mavi mod çeker, kırmızı mod iter;<br>
+menzil kızıltaş sinyal gücünün yarısıdır ve en fazla **7.5 blok**tur. Corporeal Attractor ayrıca yaratık türlerini filtrelemek ve yetişkinleri yavrulardan ayırmak için Ruh Kalıpları kullanır.
 <br>
-- The <ItemLink id="ThaumicTinkerer:animationTablet" showIcon="left" /> performs left-click or right-click actions with the inserted tool or item, either continuously or under redstone control.<br>
-Tool type and durability also affect its work when harvesting, placing blocks, or performing other automated actions.
+- <ItemLink id="ThaumicTinkerer:animationTablet" showIcon="left" />, içine konan alet veya eşyayla sol tık ya da sağ tık eylemlerini sürekli veya kızıltaş kontrolünde gerçekleştirir.<br>
+Alet türü ve dayanıklılık, hasat yaparken, blok yerleştirirken veya diğer otomatik eylemleri gerçekleştirirken çalışmasını etkiler.
 
-These devices supplement existing logistics and redstone controls. See [Magic Automation](./magic_automation.md) for more on collection, inventory monitoring, and production support.
+Bu cihazlar mevcut lojistik ve kızıltaş kontrollerini tamamlar. Toplama, envanter izleme ve üretim desteği hakkında daha fazlası için [Büyülü Otomasyon](./magic_automation.md) sayfasına bak.
 
-## Lighting, Movement, and Portable Devices
+## Aydınlatma, Hareket ve Taşınabilir Cihazlar
 
-**Lighting and darkening**
+**Aydınlatma ve karartma**
 
-<ItemLink id="ThaumicTinkerer:brightNitor" showIcon="left" /> illuminates the area around its carrier even while stored in the inventory, making it useful in caves and areas without fixed lighting.
+<ItemLink id="ThaumicTinkerer:brightNitor" showIcon="left" />, envanterde saklıyken bile taşıyıcısının etrafındaki alanı aydınlatır; bu da onu mağaralarda ve sabit aydınlatması olmayan alanlarda kullanışlı kılar.
 
-<ItemLink id="ThaumicTinkerer:gaseousLightItem" showIcon="left" /> and <ItemLink id="ThaumicTinkerer:gaseousShadowItem" showIcon="left" /> release spreading gases that respectively light up or darken the surrounding area.
+<ItemLink id="ThaumicTinkerer:gaseousLightItem" showIcon="left" /> ve <ItemLink id="ThaumicTinkerer:gaseousShadowItem" showIcon="left" />, çevredeki alanı sırasıyla aydınlatan veya karartan yayılan gazlar salar.
 
-The <ItemLink id="ThaumicTinkerer:gasRemover" showIcon="left" /> dissipates both types of nearby gas, allowing you to change an area that has already been prepared.
+<ItemLink id="ThaumicTinkerer:gasRemover" showIcon="left" />, yakındaki her iki gaz türünü de dağıtarak zaten hazırlanmış bir alanı değiştirmeni sağlar.
 
-**Movement and storage**
+**Hareket ve depolama**
 
-- The <ItemLink id="ThaumicTinkerer:focusFlight" showIcon="left" /> consumes Vis to lift the caster into the air, providing short-distance movement and a way over obstacles.
-- The <ItemLink id="ThaumicTinkerer:focusEnderChest" showIcon="left" /> provides remote access to Ender storage. With EnderStorage integration, it can also be bound to an Ender Chest's color combination.
-- When worn and enabled, the <ItemLink id="ThaumicTinkerer:xpTalisman" showIcon="left" /> collects nearby experience orbs. Glass bottles in the inventory can be used to convert stored experience into Bottles o' Enchanting for storage and transfer.
-- The <ItemLink id="ThaumicTinkerer:revealingHelm" showIcon="left" /> combines Thaumium helmet protection with the observation abilities of Goggles of Revealing, retaining head protection while using those abilities.
+- <ItemLink id="ThaumicTinkerer:focusFlight" showIcon="left" />, kullanıcıyı havaya kaldırmak için Vis tüketir; kısa mesafeli hareket ve engelleri aşma imkânı sağlar.
+- <ItemLink id="ThaumicTinkerer:focusEnderChest" showIcon="left" />, Ender depolamasına uzaktan erişim sağlar. EnderStorage entegrasyonuyla bir Ender Sandığı'nın renk kombinasyonuna da bağlanabilir.
+- Takılı ve etkin olduğunda <ItemLink id="ThaumicTinkerer:xpTalisman" showIcon="left" /> yakındaki deneyim kürelerini toplar. Envanterdeki cam şişeler, depolanan deneyimi depolama ve aktarım için Büyü Şişeleri'ne dönüştürmek üzere kullanılabilir.
+- <ItemLink id="ThaumicTinkerer:revealingHelm" showIcon="left" />, Thaumium kask korumasını Hakikat Gözlüğü'nün gözlem yetenekleriyle birleştirir; bu yetenekleri kullanırken baş korumasını korur.
 
-## Elemental Fire
+## Elementel Ateş
 
-Thaumic Tinkerer's six elemental fires are involved in environmental transformation and later Infused Seeds research.
+Thaumic Tinkerer'ın altı elementel ateşi, çevre dönüşümünde ve daha sonraki Aşılanmış Tohumlar araştırmasında rol oynar.
 
-- <ItemLink id="ThaumicTinkerer:fireFire" showIcon="left" />: Converts some ordinary blocks into their Nether counterparts, such as stone into netherrack.
-- <ItemLink id="ThaumicTinkerer:fireWater" showIcon="left" />: Transforms terrain toward water, ice, and snow, including some Nether terrain.
-- <ItemLink id="ThaumicTinkerer:fireAir" showIcon="left" />: Converts some blocks into desert counterparts.
-- <ItemLink id="ThaumicTinkerer:fireEarth" showIcon="left" />: Turns stone, cobblestone, and other blocks into dirt, with additional transformations such as gravel into clay.
-- <ItemLink id="ThaumicTinkerer:fireOrder" showIcon="left" />: Has no usable block transformation results in the current version, but its research remains a prerequisite for Infused Seeds.
-- <ItemLink id="ThaumicTinkerer:fireChaos" showIcon="left" />: Removes the magic from other elemental fires, turning them back into ordinary fire.
+- <ItemLink id="ThaumicTinkerer:fireFire" showIcon="left" />: Bazı sıradan blokları Nether karşılıklarına dönüştürür; örneğin taşı netherrack'e.
+- <ItemLink id="ThaumicTinkerer:fireWater" showIcon="left" />: Bazı Nether arazileri dahil olmak üzere araziyi su, buz ve kara doğru dönüştürür.
+- <ItemLink id="ThaumicTinkerer:fireAir" showIcon="left" />: Bazı blokları çöl karşılıklarına dönüştürür.
+- <ItemLink id="ThaumicTinkerer:fireEarth" showIcon="left" />: Taşı, kırıktaşı ve diğer blokları toprağa çevirir; ayrıca çakılı kile dönüştürmek gibi ek dönüşümler yapar.
+- <ItemLink id="ThaumicTinkerer:fireOrder" showIcon="left" />: Mevcut sürümde kullanılabilir blok dönüşümü sonucu yoktur, ancak araştırması Aşılanmış Tohumlar için ön koşul olmayı sürdürür.
+- <ItemLink id="ThaumicTinkerer:fireChaos" showIcon="left" />: Diğer elementel ateşlerin büyüsünü kaldırarak onları sıradan ateşe dönüştürür.
 
 > [!WARNING]
-> NH allows elemental fire to spread and transform blocks by default. Control its area of effect and avoid releasing it near bases, farms, wooden buildings, or important facilities. Ordinary fire left by Perditio Imbued Fire can also continue burning.
+> NH, elementel ateşin varsayılan olarak yayılmasına ve blokları dönüştürmesine izin verir. Etki alanını kontrol et ve üslerin, çiftliklerin, tahta binaların veya önemli tesislerin yakınında salmaktan kaçın. Perditio Imbued Fire'ın bıraktığı sıradan ateş de yanmaya devam edebilir.
 
-## Infused Crops
+## Aşılanmış Ekinler
 
-<ItemLink id='ThaumicTinkerer:infusedSeeds:0:{mainAspect:{Aspects:[{key:"aer",amount:1}]},aspectTendencies:{Aspects:[]}}' showIcon="left" /> carry a main aspect and primal aspect tendencies. Each main aspect has a different loot pool; aspect combinations allow you to breed crops that produce particular materials.
+<ItemLink id='ThaumicTinkerer:infusedSeeds:0:{mainAspect:{Aspects:[{key:"aer",amount:1}]},aspectTendencies:{Aspects:[]}}' showIcon="left" /> bir ana aspekt ve temel aspekt eğilimleri taşır. Her ana aspektin farklı bir ganimet havuzu vardır; aspekt kombinasyonları belirli malzemeler üreten ekinler yetiştirmeni sağlar.
 
-Infused Seeds research requires all six elemental fire research entries. The six primal seeds are made through infusion, using Wheat Seeds as the central ingredient and **4 crystal clusters of the corresponding aspect**.<br>
-Each recipe requires **32 Messis, 32 Meto, and 16 essentia of the corresponding primal aspect**, with an instability of **4**. Compound aspect seeds are obtained through further breeding.
+Aşılanmış Tohumlar araştırması altı elementel ateş araştırma girdisinin tümünü gerektirir. Altı temel tohum, merkezde Buğday Tohumları ve **ilgili aspekten 4 kristal kümesi** kullanılarak infüzyon yoluyla yapılır.<br>
+Her tarif **32 Messis, 32 Meto ve ilgili temel aspekten 16 esans** gerektirir ve kararsızlığı **4**'tür. Bileşik aspekt tohumları daha ileri yetiştirmeyle elde edilir.
 
-Seeds can be planted on ordinary farmland, converting it into Infused Farmland. Growth requires at least **light level 9**. Harvesting mature crops produces seeds and the corresponding loot, and leaves aspect residue in the soil.
+Tohumlar sıradan tarım arazisine ekilebilir ve onu Aşılanmış Tarım Arazisi'ne dönüştürür. Büyüme en az **ışık seviyesi 9** gerektirir. Olgun ekinleri hasat etmek tohum ve ilgili ganimeti verir; ekin yaprakları toprakta aspekt kalıntısı bırakır.
 
-A mature crop leaves its main aspect in the farmland below when harvested. Farmland holds up to **20 points** of residue in total; excess residue causes some aspects to be reduced at random.
+Olgun bir ekin hasat edildiğinde yaprakları ana aspektini altındaki tarım arazisinde bırakır. Tarım arazisi toplamda en fazla **20 puan** kalıntı tutar; fazla kalıntı bazı aspektlerin rastgele azalmasına neden olur.
 
-When a mature crop is harvested, its main aspect may combine with an aspect in the soil, turning the dropped seed into a new compound aspect seed.<br>
-For example, <Color color="#B7A0D6">Aer + Ignis = Lux</Color>. Growing Ignis crops in soil with accumulated Aer residue can yield Lux seeds when harvested. Following further aspect combinations leads to more complex main aspects.
+Olgun bir ekin hasat edildiğinde ana aspekti topraktaki bir aspektle birleşebilir ve düşen tohumu yeni bir bileşik aspekt tohumuna dönüştürebilir.<br>
+Örneğin <Color color="#B7A0D6">Aer + Ignis = Lux</Color>. Birikmiş Aer kalıntısı olan toprakta Ignis ekinleri yetiştirmek, hasatta Lux tohumları verebilir. Daha ileri aspekt kombinasyonlarını takip etmek daha karmaşık ana aspektlere götürür.
 
-**Primal aspect tendencies**
+**Temel aspekt eğilimleri**
 
-Tendencies affect growth, yield, and mutation. A crop can have at most **50 tendency points** in total; excess points cause some tendencies to be reduced at random.
+Eğilimler büyümeyi, verimi ve mutasyonu etkiler. Bir ekin toplamda en fazla **50 eğilim puanı** taşıyabilir; fazla puanlar bazı eğilimlerin rastgele azalmasına neden olur.
 
-| Tendency | Main Effect |
+| Eğilim | Ana Etki |
 | --- | --- |
-| Aqua | Speeds up growth |
-| Terra | Increases soil residue left after harvesting a mature crop |
-| Ignis | Improves the chance of producing compound aspect seeds |
-| Ordo | Increases the number of loot rolls |
-| Perditio | Increases seed drops |
-| Aer | Speeds up the acquisition of tendencies from adjacent crops |
+| Aqua | Büyümeyi hızlandırır |
+| Terra | Olgun bir ekinin hasadından sonra yapraklarının toprakta bıraktığı kalıntıyı artırır |
+| Ignis | Bileşik aspekt tohumu üretme şansını artırır |
+| Ordo | Ganimet zar atışlarının sayısını artırır |
+| Perditio | Tohum düşüşlerini artırır |
+| Aer | Bitişik ekinlerden eğilim kazanımını hızlandırır |
 
-Compound aspect crops can acquire the corresponding tendency from adjacent primal crops, up to **5 points** per tendency through this method. Adjacent compound crops also transfer tendencies between themselves; higher values require further breeding through this exchange.
+Bileşik aspekt ekinleri, bitişik temel ekinlerden ilgili eğilimi kazanabilir; bu yöntemle eğilim başına en fazla **5 puan**. Bitişik bileşik ekinler de kendi aralarında eğilim aktarır; daha yüksek değerler bu takas yoluyla daha ileri yetiştirme gerektirir.
 
-**Loot and NEI**
+**Ganimet ve NEI**
 
-Thaumic Tinkerer provides NEI loot lookup for Infused Seeds, showing the possible outputs and their probabilities for a given aspect crop. These probabilities come from its loot pool, while Ordo tendency also affects the number of loot rolls per harvest.
+Thaumic Tinkerer, Aşılanmış Tohumlar için NEI ganimet araması sağlar; belirli bir aspekt ekininin olası çıktılarını ve olasılıklarını gösterir. Bu olasılıklar ganimet havuzundan gelir; Ordo eğilimi de hasat başına ganimet zar atışı sayısını etkiler.
 
-- Crops of the **four natural elements** produce the corresponding Imbued Grain, which can be used in alchemy to make Aer, Ignis, Aqua, and Terra potions.
-- **Ordo and Perditio** crops produce glass and sand, respectively.
-- The **Cognitio** loot pool includes paper, books, bookshelves, and Knowledge Fragments.
-- The **Alienis** loot pool includes Ender Pearls, Eyes of Ender, and Void Seeds.
-- Other compound aspects have their own loot pools. Look up a target item's recipes in NEI to find a suitable main aspect to breed.
+- **Dört doğal elementin** ekinleri ilgili Aşılanmış Tahılı üretir; bu tahıl simyada Aer, Ignis, Aqua ve Terra iksirleri yapmak için kullanılabilir.
+- **Ordo ve Perditio** ekinleri sırasıyla cam ve kum üretir.
+- **Cognitio** ganimet havuzunda kâğıt, kitap, kitaplık ve Bilgi Parçaları bulunur.
+- **Alienis** ganimet havuzunda Ender İncisi, Ender Gözü ve Void Tohumları bulunur.
+- Diğer bileşik aspektlerin kendi ganimet havuzları vardır. Yetiştirmek için uygun bir ana aspekt bulmak üzere hedef eşyanın tariflerini NEI'de ara.
 
-For long-term harvesting, preserve the seeds and their tendencies, soil residue, and growing locations, assigning suitable planting areas to breeding and production.
+Uzun süreli hasat için tohumları ve eğilimlerini, toprak kalıntısını ve yetişme konumlarını koru; yetiştirme ve üretim için uygun ekim alanları ata.
 
-## Unlocking KAMI Research
+## KAMI Araştırmasını Açma
 
-The main entry point to <Color color="#B7A0D6">KAMI</Color> is **Ichor** research. Its prerequisites cover the main Thaumcraft categories and relevant Thaumic Tinkerer research. Completing them opens the way to Ichorcloth, Ichorium, and their advanced devices.
+<Color color="#B7A0D6">KAMI</Color> için ana giriş noktası **Ichor** araştırmasıdır. Ön koşulları ana Thaumcraft kategorilerini ve ilgili Thaumic Tinkerer araştırmalarını kapsar. Bunları tamamlamak Ichorcloth, Ichorium ve gelişmiş cihazlarına giden yolu açar.
 
-Unlocking Ichor research is demanding and often leaves the researcher with 300+ Warp, so prepare suitable Warp protection.
+Ichor araştırmasını açmak zahmetlidir ve çoğu zaman araştırmacıyı 300+ Delilik ile bırakır, bu yüzden uygun Delilik koruması hazırla.
 
-Check the prerequisites of the Ichor recipe in `NEI` to see what remains locked and identify hidden prerequisites. The quest book also highlights easily missed research such as the Thaumium Crowbar and Cursed Spirit's Blade.
+Kilitli kalanları görmek ve gizli ön koşulları belirlemek için `NEI`'de Ichor tarifinin ön koşullarını kontrol et. Görev kitabı ayrıca Thaumium Crowbar ve Cursed Spirit's Blade gibi kolayca gözden kaçan araştırmaları vurgular.
 
-## Ichor, Ichorcloth, and Ichorium
+## Ichor, Ichorcloth ve Ichorium
 
-**Dimensional shards**
+**Boyutsal parçalar**
 
-<ItemLink id="ThaumicTinkerer:kamiResource:6" showIcon="left" /> and <ItemLink id="ThaumicTinkerer:kamiResource:7" showIcon="left" /> are important ingredients for Ichor.
+<ItemLink id="ThaumicTinkerer:kamiResource:6" showIcon="left" /> ve <ItemLink id="ThaumicTinkerer:kamiResource:7" showIcon="left" /> Ichor için önemli bileşenlerdir.
 
-- Zombie Pigmen killed by a player in the **Nether** have a **1/16** chance to drop a Nether Shard.
-- Endermen killed by a player in the **End** have a **1/32** chance to drop an Ender Shard.
-- NH also provides infusion recipes for dimensional shards, using various Forbidden Magic shards, infused shards, and the corresponding central ingredients. Beekeeping offers another route for a continuous supply.
+- **Nether**'da bir oyuncu tarafından öldürülen Zombi Pigmanlar **1/16** şansla Nether Parçası düşürür.
+- **End**'de bir oyuncu tarafından öldürülen Endermanlar **1/32** şansla Ender Parçası düşürür.
+- NH ayrıca boyutsal parçalar için infüzyon tarifleri sunar; bunlarda çeşitli Forbidden Magic parçaları, aşılanmış parçalar ve ilgili merkez bileşenler kullanılır. Arıcılık, sürekli tedarik için başka bir yol sunar.
 
-The drops require the corresponding dimension and a player kill; account for these conditions when designing a mob supply.<br>
-An `EEC` processing the corresponding mobs in their required dimension also produces shards.
+Düşüşler ilgili boyutu ve oyuncu öldürmesini gerektirir; bir yaratık tedariki tasarlarken bu koşulları hesaba kat.<br>
+İlgili yaratıkları gerekli boyutlarında işleyen bir `EEC` de parça üretir.
 
 **Ichor**
 
-<ItemLink id="ThaumicTinkerer:kamiResource:0" showIcon="left" /> is made by infusing a Nether Star.
+<ItemLink id="ThaumicTinkerer:kamiResource:0" showIcon="left" /> bir Nether Yıldızı'nın infüzyonuyla yapılır.
 
-The recipe uses one Nether Star as the central ingredient, surrounded by a Flawless Diamond, Nether Shard, Eye of Ender, and Ender Shard, producing **2 Ichor**.<br>
-Its essentia requirements are **32 Humanus, 32 Lux, 64 Spiritus, 16 Alienis, and 16 Ordo**, with an instability of **10**. Ichor research itself adds **5 Warp**.
+Tarif, merkezde bir Nether Yıldızı kullanır; çevresinde Kusursuz Elmas, Nether Parçası, Ender Gözü ve Ender Parçası bulunur ve **2 Ichor** üretir.<br>
+Esans gereksinimleri **32 Humanus, 32 Lux, 64 Spiritus, 16 Alienis ve 16 Ordo** olup kararsızlığı **10**'dur. Ichor araştırmasının kendisi **5 Delilik** ekler.
 
-**Ichorcloth and Ichorium**
+**Ichorcloth ve Ichorium**
 
-- <ItemLink id="ThaumicTinkerer:kamiResource:1" showIcon="left" /> combines Ichor, Enchanted Fabric, Void Metal Foil, Osmiridium Foil, and Flawless Diamonds. It is a main material for Ichorcloth Robes and their awakened upgrades.
-- **Ichorium** combines Ichor, void metal, Osmiridium, and Flawless Diamonds. GT's Ichorium ingots and material forms are used to make plates, screws, rings, and various tool components.
+- <ItemLink id="ThaumicTinkerer:kamiResource:1" showIcon="left" /> Ichor, Büyülü Kumaş, Hiçlik Metali Folyo, Osmiridyum Folyo ve Kusursuz Elmasları birleştirir. Ichorcloth Cübbeleri ve uyandırılmış yükseltmeleri için ana malzemedir.
+- **Ichorium**, Ichor, hiçlik metali, Osmiridyum ve Kusursuz Elmasları birleştirir. GT'nin Ichorium külçeleri ve malzeme formları plaka, vida, halka ve çeşitli alet bileşenleri yapmak için kullanılır.
 
-Both arcane crafting recipes require **125 Vis of each of the six primal aspects**. Wand capacity and Vis discounts affect which recipes you can actually craft. See [Wands, Vis and Nodes](./wands_vis_nodes.md) for the relevant equipment and discount sources.
+Her iki esrarengiz üretim tarifi de **altı temel aspekten 125 Vis** gerektirir. Asa kapasitesi ve Vis indirimleri gerçekte hangi tarifleri üretebileceğini etkiler. İlgili ekipman ve indirim kaynakları için [Asalar, Vis ve Düğümler](./wands_vis_nodes.md) sayfasına bak.
 
-**Ichorium wand components**
+**Ichorium asa bileşenleri**
 
-The <ItemLink id="ThaumicTinkerer:kamiResource:4" showIcon="left" /> provides a **30%** Vis discount for all primal aspects. The <ItemLink id="ThaumicTinkerer:kamiResource:5" showIcon="left" /> gives a wand a capacity of **1000 Vis per primal aspect**.
+<ItemLink id="ThaumicTinkerer:kamiResource:4" showIcon="left" /> tüm temel aspektler için **%30** Vis indirimi sağlar. <ItemLink id="ThaumicTinkerer:kamiResource:5" showIcon="left" /> bir asaya **temel aspekt başına 1000 Vis** kapasitesi verir.
 
-This path supports large arcane recipes and sustained focus use. The caps, core, and finished wand each require their corresponding research and crafting.
+Bu yol, büyük esrarengiz tarifleri ve sürekli odak kullanımını destekler. Uçlar, çekirdek ve bitmiş asa, her biri kendi araştırmasını ve üretimini gerektirir.
 
-## Ichorcloth Armor and Awakening
+## Ichorcloth Zırhı ve Uyandırma
 
-Ordinary Ichorcloth armor consists of the <ItemLink id="ThaumicTinkerer:ichorclothHelm" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorclothChest" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorclothLegs" showIcon="left" />, and <ItemLink id="ThaumicTinkerer:ichorclothBoots" showIcon="left" />.<br>
-These pieces do not lose durability. Infusion can awaken them to grant additional movement, protection, and observation abilities.
+Sıradan Ichorcloth zırhı <ItemLink id="ThaumicTinkerer:ichorclothHelm" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorclothChest" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorclothLegs" showIcon="left" /> ve <ItemLink id="ThaumicTinkerer:ichorclothBoots" showIcon="left" /> parçalarından oluşur.<br>
+Bu parçalar dayanıklılık kaybetmez. İnfüzyon, ek hareket, koruma ve gözlem yetenekleri kazandırmak için onları uyandırabilir.
 
-- <ItemLink id="ThaumicTinkerer:ichorclothHelmGem" showIcon="left" />: Provides revealing abilities, underwater breathing, clear underwater vision, and continued health regeneration while hungry.
-- <ItemLink id="ThaumicTinkerer:ichorclothChestGem" showIcon="left" />: Provides sustained flight, fall protection, and protection against ordinary projectiles.
-- <ItemLink id="ThaumicTinkerer:ichorclothLegsGem" showIcon="left" />: Provides fire protection and converts incoming fire damage into healing.
-- <ItemLink id="ThaumicTinkerer:ichorclothBootsGem" showIcon="left" />: Improves movement, jumping, and reach across gaps, allows automatic stepping up one-block rises, and provides Haste and fall protection.
+- <ItemLink id="ThaumicTinkerer:ichorclothHelmGem" showIcon="left" />: Gözlem yetenekleri, su altında nefes alma, su altında net görüş ve açken bile devam eden can yenilenmesi sağlar.
+- <ItemLink id="ThaumicTinkerer:ichorclothChestGem" showIcon="left" />: Sürekli uçuş, düşme koruması ve sıradan mermilere karşı koruma sağlar.
+- <ItemLink id="ThaumicTinkerer:ichorclothLegsGem" showIcon="left" />: Ateş koruması sağlar ve gelen ateş hasarını iyileşmeye dönüştürür.
+- <ItemLink id="ThaumicTinkerer:ichorclothBootsGem" showIcon="left" />: Hareketi, zıplamayı ve boşluklar arasında erişimi iyileştirir, bir blokluk yükseltilere otomatik adım atmayı sağlar ve Kazma Hızı ile düşme koruması verir.
 
-Awakened armor effects are controlled by the **Toggle Awakened Armor** keybinding, which defaults to `U`.<br>
-NH disables the awakened leggings' automatic light placement by default, while retaining the awakened boots' ability to turn dirt beneath the wearer into grass.
+Uyandırılmış zırh etkileri, varsayılanı `U` olan **Toggle Awakened Armor** tuş atamasıyla kontrol edilir.<br>
+NH, uyandırılmış pantolonların otomatik ışık yerleştirmesini varsayılan olarak devre dışı bırakır; uyandırılmış botların giyenin altındaki toprağı çime dönüştürme yeteneğini korur.
 
-Awakening recipes use advanced gems, Ichorium components, and other magical devices, with high instability.<br>
-Once material production is established, a stable Infusion Altar and sufficient essentia reserves are needed. See [Infusion Crafting](./infusion_crafting.md) for altar supply and stability.
+Uyandırma tarifleri gelişmiş mücevherler, Ichorium bileşenleri ve diğer büyülü cihazları kullanır ve yüksek kararsızlığa sahiptir.<br>
+Malzeme üretimi oturduktan sonra kararlı bir İnfüzyon Sunağı ve yeterli esans rezervi gerekir. Sunak tedariki ve kararlılık için [İnfüzyon Üretimi](./infusion_crafting.md) sayfasına bak.
 
-## Ichorium Tools and the Bedrock Dimension
+## Ichorium Aletleri ve Bedrock Boyutu
 
-The <ItemLink id="ThaumicTinkerer:ichorPick" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorShovel" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorAxe" showIcon="left" />, and <ItemLink id="ThaumicTinkerer:ichorSword" showIcon="left" /> do not lose durability and can be awakened further.
+<ItemLink id="ThaumicTinkerer:ichorPick" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorShovel" showIcon="left" />, <ItemLink id="ThaumicTinkerer:ichorAxe" showIcon="left" /> ve <ItemLink id="ThaumicTinkerer:ichorSword" showIcon="left" /> dayanıklılık kaybetmez ve daha fazla uyandırılabilir.
 
-Sneak-right-click to switch an awakened tool's working mode:
+Uyandırılmış bir aletin çalışma modunu değiştirmek için eğilip sağ tıkla:
 
-- <ItemLink id="ThaumicTinkerer:ichorPickGem" showIcon="left" />: Single-block, **5×5 area**, and **10-block line** mining, with the ability to break bedrock.
-- <ItemLink id="ThaumicTinkerer:ichorShovelGem" showIcon="left" />: Single-block, **5×5 area**, and vertical column mining of the same block type.
-- <ItemLink id="ThaumicTinkerer:ichorAxeGem" showIcon="left" />: Single-block, **5×5 area**, and whole-tree chopping.
-- <ItemLink id="ThaumicTinkerer:ichorSwordGem" showIcon="left" />: Single-target attacks, area attacks against nearby creatures of the same type, and a mode that grants Soul Hearts.
+- <ItemLink id="ThaumicTinkerer:ichorPickGem" showIcon="left" />: Tek blok, **5×5 alan** ve **10 blokluk çizgi** madenciliği; ayrıca bedrock kırma yeteneği.
+- <ItemLink id="ThaumicTinkerer:ichorShovelGem" showIcon="left" />: Tek blok, **5×5 alan** ve aynı blok türünde dikey sütun madenciliği.
+- <ItemLink id="ThaumicTinkerer:ichorAxeGem" showIcon="left" />: Tek blok, **5×5 alan** ve tüm ağacı kesme.
+- <ItemLink id="ThaumicTinkerer:ichorSwordGem" showIcon="left" />: Tek hedefli saldırılar, aynı türdeki yakın yaratıklara alan saldırıları ve Ruh Kalpleri veren bir mod.
 
 > [!WARNING]
-> Area and line mining affect several blocks at once. Before using awakened tools near your base or devices, check the current mode and direction to avoid breaking blocks you intend to keep.
+> Alan ve çizgi madenciliği aynı anda birkaç bloğu etkiler. Uyandırılmış aletleri üssünün veya cihazlarının yakınında kullanmadan önce, saklamak istediğin blokları kırmamak için mevcut modu ve yönü kontrol et.
 
-**Bedrock Dimension**
+**Bedrock Boyutu**
 
-The Awakened Ichorium Pickaxe's bedrock-breaking ability also provides access to the **Bedrock Dimension**. Mining bedrock at **Y=0–4** in the Overworld while sneaking creates an entrance. Inside, you can continue mining bedrock and the vertical ore veins within it.
+Uyandırılmış Ichorium Kazması'nın bedrock kırma yeteneği **Bedrock Boyutu**'na erişim de sağlar. Dünya'da **Y=0–4** aralığında eğilerek bedrock kazmak bir giriş oluşturur. İçeride bedrock ve içindeki dikey cevher damarlarını kazmaya devam edebilirsin.
 
-This dimension provides a special mining space. GTNH adjusts its ore content; conventional miners first need room to work, so plan a suitable means of clearing bedrock.
+Bu boyut özel bir madencilik alanı sağlar. GTNH cevher içeriğini ayarlar; geleneksel madenciler önce çalışacak alana ihtiyaç duyar, bu yüzden bedrock temizlemek için uygun bir yöntem planla.
 
-The quest book warns that leaving may place you on the nearby surface or inside blocks. Prepare return methods, mining tools, and location records before entering to reduce problems caused by changing entry and exit points.
+Görev kitabı, çıkışın seni yakındaki yüzeye veya blokların içine yerleştirebileceği konusunda uyarır. Giriş ve çıkış noktalarının değişmesinden kaynaklanan sorunları azaltmak için girmeden önce dönüş yöntemleri, kazma aletleri ve konum kayıtları hazırla.
 
-## KAMI Building and Teleportation Devices
+## KAMI İnşaat ve Işınlanma Cihazları
 
-**Storing and placing large quantities of blocks**
+**Büyük miktarlarda blok depolama ve yerleştirme**
 
-- Once bound to a block type, the <ItemLink id="ThaumicTinkerer:blockTalisman" showIcon="left" /> absorbs matching blocks from the inventory beyond one stack, leaving a stack available for use. It stores over 2 billion blocks of one type and can deposit them into containers or place them in the world.
-- The <ItemLink id="ThaumicTinkerer:placementMirror" showIcon="left" /> previews and places blocks in a selected area. Materials can come from the inventory or Black Hole Rings holding the required block.
-- <ItemLink id="ThaumicTinkerer:protoclay" showIcon="left" /> switches between the holder's Awakened Ichorium tools to use a suitable tool for the current target.
-- The <ItemLink id="ThaumicTinkerer:ichorPouch" showIcon="left" /> provides a large portable inventory while retaining the functions of a Focus Pouch. NH prevents its use in Witchery's dream dimension.
+- Bir blok türüne bağlandıktan sonra <ItemLink id="ThaumicTinkerer:blockTalisman" showIcon="left" /> envanterdeki eşleşen blokları bir yığının ötesinde emer ve kullanım için bir yığın bırakır. Tek türden 2 milyardan fazla blok depolar ve bunları kaplara bırakabilir veya dünyaya yerleştirebilir.
+- <ItemLink id="ThaumicTinkerer:placementMirror" showIcon="left" /> seçilen bir alanda blokları önizler ve yerleştirir. Malzemeler envanterden veya gerekli bloğu tutan Siyah Delik Yüzükleri'nden gelebilir.
+- <ItemLink id="ThaumicTinkerer:protoclay" showIcon="left" />, taşıyıcının Uyandırılmış Ichorium aletleri arasında geçiş yaparak mevcut hedef için uygun aleti kullanır.
+- <ItemLink id="ThaumicTinkerer:ichorPouch" showIcon="left" /> Focus Pouch işlevlerini korurken geniş bir taşınabilir envanter sağlar. NH, Witchery'nin rüya boyutunda kullanımını engeller.
 
-**Celestial Gateways and Recall**
+**Göksel Geçitler ve Geri Çağırma**
 
-A <ItemLink id="ThaumicTinkerer:warpGate" showIcon="left" /> uses a <ItemLink id="ThaumicTinkerer:skyPearl" showIcon="left" /> to record another gateway's position. Each gateway holds **10 destinations**, connecting bases, mining sites, and other frequently used locations.
+<ItemLink id="ThaumicTinkerer:warpGate" showIcon="left" />, başka bir geçidin konumunu kaydetmek için bir <ItemLink id="ThaumicTinkerer:skyPearl" showIcon="left" /> kullanır. Her geçit **10 hedef** tutar; üsleri, maden alanlarını ve sık kullanılan diğer konumları birbirine bağlar.
 
-Bind a Celestial Pearl to a destination gateway and insert it into the departure gateway to create a one-way connection. A return route requires a pearl configured at each end. The gateway's interface can also restrict connections from other gateways.
+Bir Göksel İnciyi hedef geçide bağla ve tek yönlü bağlantı oluşturmak için kalkış geçidine yerleştir. Dönüş rotası, her iki uçta da yapılandırılmış bir inci gerektirir. Geçidin arayüzü ayrıca diğer geçitlerden gelen bağlantıları kısıtlayabilir.
 
-The <ItemLink id="ThaumicTinkerer:focusRecall" showIcon="left" /> uses a bound Celestial Pearl in the hotbar and consumes Vis to teleport the caster to its destination, extending a fixed teleportation network into a portable way home.
+<ItemLink id="ThaumicTinkerer:focusRecall" showIcon="left" />, kısayol çubuğundaki bağlı bir Göksel İnciyi kullanır ve kullanıcıyı hedefine ışınlamak için Vis tüketir; sabit bir ışınlanma ağını taşınabilir bir eve dönüş yoluna dönüştürür.
 
 </Column>

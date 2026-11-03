@@ -1,15 +1,15 @@
-{aqua:{bold:Water Tier: }}{color_tier:{var:tier}}
-Must be linked to a Purification Plant using a {color_name:{item:gregtech:gt.metaitem.01:32708}} to work
+{aqua:{bold:Su Kademesi: }}{color_tier:{var:tier}}
+Çalışması için bir {color_name:{item:gregtech:gt.metaitem.01:32708}} ile Arıtma Tesisi'ne bağlantılı olmalı
 {hr}
-Supply with {color_name:{var:input}} to operate
-Outputs {color_name:{var:waste}} that can be recycled
+Çalışması için {color_name:{var:input}} ile besle
+Geri dönüştürülebilen {color_name:{var:waste}} çıktısı verir
 {hr}
-During operation, will consume ALL {color_name:{var:input}} in the input hatch
-At the end of the recipe, for every {white:{var:per_level} {L}} of {white:{var:input}} consumed
-gain an additive {color_misc:{var:success}%} increase to success. If total fluid supplied is not
-a multiple of {color_amount:{var:per_level} {L}}, a penalty to success is applied using the following formula:
-{color_misc:Success}{color_formula: = Success * 2^(-10 * Overflow ratio)}
+Çalışırken Girdi Kapağındaki TÜM {color_name:{var:input}} tüketir
+Tarifin sonunda, tüketilen her {white:{var:per_level} {L}} {white:{var:input}} için
+başarıya ek {color_misc:{var:success}%} artış kazan. Verilen toplam sıvı {color_amount:{var:per_level} {L}} katı değilse,
+başarıya şu formülle ceza uygulanır:
+{color_misc:Başarı}{color_formula: = Başarı * 2^(-10 * Taşma oranı)}
 {hr}
-{aqua:{italic:Step three in purifying water is to remove microscopic contaminants such as dusts, microplastics and other}}
-{aqua:{italic:pollutants using a clarifying agent (In this case, polyaluminium chloride) to cause flocculation - the process}}
-{aqua:{italic:of aggregating dispersed suspended particles from a solution into larger clumps for further filtration.}}
+{aqua:{italic:Suyu arıtmadaki üçüncü adım, toz, mikroplastik ve benzeri mikroskobik}}
+{aqua:{italic:kirleticileri bir berraklaştırıcı ajanla (bu durumda polialüminyum klorür) kullanarak yumaklaşma - yani}}
+{aqua:{italic:çözeltide dağılmış asılı parçacıkların daha ileri filtrasyon için daha büyük yumaklar halinde toplanması süreci.}}

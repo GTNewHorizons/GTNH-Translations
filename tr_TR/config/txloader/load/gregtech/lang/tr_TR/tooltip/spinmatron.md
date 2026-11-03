@@ -1,20 +1,20 @@
-3 Modes: {light_purple:Light} | {blue:Standard} | {dark_green:Heavy}
+3 Mod: {light_purple:Hafif} | {blue:Standart} | {dark_green:Ağır}
 {gray:{hr}}
-{gold:{var:parallels} Parallels} per {white:Total Turbine} Tier
-{green:{var:speed}% Speed}
-{aqua:{var:eu_eff}% EU Usage}
-{white:Non-Huge Turbines} have reduced effectiveness...
-Gains {var:slots_per_tier} {white:Turbine Slots} per {white:Structure} Tier
-Requires {aqua:(Recipe Tier * {var:fluid_per_tier} {var:fluid_unit}/s)} of {gold:Kerosene} to run
-Supply {gold:Biocatalyzed Propulsion Fluid} instead for a {gold:{var:tier2_mult}x} Parallel increase
-{yellow:Overclocks are limited to Hatch Tier + 1}
+{white:Toplam Türbin} Kademesi başına {gold:{var:parallels} Paralel}
+{green:{var:speed}% Hız}
+{aqua:{var:eu_eff}% EU Kullanımı}
+{white:Dev Olmayan Türbinler} daha düşük verimle çalışır...
+{white:Yapı} Kademesi başına {var:slots_per_tier} {white:Türbin Yuvası} kazandırır
+Çalışmak için {aqua:(Tarif Kademesi * {var:fluid_per_tier} {var:fluid_unit}/s)} {gold:Gazyağı} gerektirir
+Bunun yerine {gold:Biyokatalize İtki Sıvısı} vererek {gold:{var:tier2_mult}x} Paralel artışı elde et
+{yellow:Hız aşırtmalar Kapak Kademesi + 1 ile sınırlıdır}
 {gray:{hr}}
-{light_purple:Light Mode}:
-- {green:+{var:light_speed}% Speed Bonus}
-- Maximum Recipe Tier is {aqua:(Voltage Tier - {var:light_offset})}
-{blue:Standard Mode}: Regular processing
-{dark_green:Heavy Mode}: Requires {gold:Biocatalyzed Propulsion Fluid}
-- Divides {gold:Parallels} by {gold:{var:heavy_div}}
-- Multiplies {red:EU Cost} by {red:{var:heavy_eu}}
-- {light_purple:Uncapped Overclocks}
-- Some recipes {dark_red:require} {dark_green:Heavy Mode}
+{light_purple:Hafif Mod}:
+- {green:+{var:light_speed}% Hız Bonusu}
+- Maksimum Tarif Kademesi {aqua:(Gerilim Kademesi - {var:light_offset})}
+{blue:Standart Mod}: Normal işleme
+{dark_green:Ağır Mod}: {gold:Biyokatalize İtki Sıvısı} gerektirir
+- {gold:Paralelleri} {gold:{var:heavy_div}} ile böler
+- {red:EU Maliyetini} {red:{var:heavy_eu}} ile çarpar
+- {light_purple:Sınırsız Hız Aşırtma}
+- Bazı tarifler {dark_green:Ağır Mod} {dark_red:gerektirir}

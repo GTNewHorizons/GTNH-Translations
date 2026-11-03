@@ -2,7 +2,7 @@
 item_ids:
   - appliedenergistics2:item.ItemTunnelPattern
 navigation:
-  title: Tunnel Patterns
+  title: Tünel Kalıpları
   parent: ae2.md
   icon: appliedenergistics2:item.ItemTunnelPattern
 categories:
@@ -11,15 +11,15 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Tunnel Patterns
-Tired of updating circuit boards or EBF protective gas in all of your patterns when you get an upgrade? There’s a new way to handle it coming in 2.9:
+# Tünel Kalıpları
+Bir yükseltme aldığında tüm kalıplarındaki devre kartlarını ya da EYF koruyucu gazını güncellemekten yoruldun mu? 2.9'da bununla başa çıkmanın yeni bir yolu geliyor:
 
-## AE2 Tunnel Patterns!
+## AE2 Tünel Kalıpları!
 
-<Color id="GREEN">Tunnel Patterns</Color> are a new **input-only** pattern type. They are designed to reduce repetition and keep setups with large numbers of patterns easier to manage. When you encode a processing pattern with inputs but no outputs, it becomes a Tunnel Pattern. Each one gets a unique ID so it can be referenced reliably.
+<Color id="GREEN">Tünel Kalıpları</Color> yeni bir **yalnızca girdi** kalıp tipidir. Tekrarı azaltmak ve çok sayıda kalıp içeren düzenekleri yönetmeyi kolaylaştırmak için tasarlanmışlardır. Girdisi olup çıktısı olmayan bir işleme kalıbı kodladığında, o bir Tünel Kalıbı olur. Her biri güvenilir şekilde referans verilebilmesi için benzersiz bir ID alır.
 
-They can be used as modular pattern building blocks by putting a <Color id="GREEN">Tunnel Pattern</Color> in the __inputs of another pattern__. During crafting, if your ME system finds a Tunnel Pattern in a pattern's inputs, it searches for the Tunnel Pattern on your network's ME Interfaces and __adds its inputs into the current recipe__. If the pattern isn’t found, it falls back to the Tunnel Pattern item itself.
+__Başka bir kalıbın girdilerine__ bir <Color id="GREEN">Tünel Kalıbı</Color> koyarak modüler kalıp yapı taşları olarak kullanılabilirler. Üretim sırasında ME sistemin bir kalıbın girdilerinde Tünel Kalıbı bulursa, ağındaki ME Arayüzlerinde bu Tünel Kalıbını arar ve __girdilerini mevcut tarife ekler__. Kalıp bulunamazsa, Tünel Kalıbı eşyasının kendisine geri döner.
 
-You can also __chain__ Tunnel Patterns: you can have a mix of as many Tunnel Patterns and regular ingredients as desired set as inputs for another Tunnel Pattern. This allows you to define __usable input groups__ that can be shared across many recipes which can easily be modified later. You can freely rename or modify the Tunnel Pattern's ingredients without having to change <u>__any__</u> of the patterns that reference it!
+Tünel Kalıplarını __zincirleyebilirsin__ de: bir Tünel Kalıbının girdileri olarak istediğin kadar Tünel Kalıbı ve normal bileşen karışımını ayarlayabilirsin. Bu sayede, birçok tarifte paylaşılabilen ve sonradan kolayca değiştirilebilen __kullanılabilir girdi grupları__ tanımlayabilirsin. Tünel Kalıbının bileşenlerini, ona referans veren kalıpların <u>__hiçbirini__</u> değiştirmek zorunda kalmadan serbestçe yeniden adlandırabilir veya değiştirebilirsin!
 
-A great example of how to use this feature is to use it to include tiered glass, coils, or full sets of input/output hatches and buses in multi-block pseudo-crafting recipes, or for including noble gases in EBF crafts. More use cases are still being discovered!
+Bu özelliği kullanmanın harika bir örneği, çok bloklu sözde üretim tariflerine kademeli camları, bobinleri ya da tam girdi/çıktı kapakları ve veri yolu setlerini dahil etmek veya EYF üretimlerine asal gazları eklemek için kullanmaktır. Daha fazla kullanım alanı hâlâ keşfediliyor!

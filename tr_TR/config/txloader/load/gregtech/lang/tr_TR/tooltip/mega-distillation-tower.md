@@ -1,16 +1,16 @@
-Use a {color_name:Screwdriver} or the {color_name:GUI} to change mode
-Has up to {color_amount:5} middle slices and {color_amount:1} top slice, the amount of middle slices is the 'Tower Height'
+Modu değiştirmek için bir {color_name:Tornavida} veya {color_name:GUI} kullan
+En fazla {color_amount:5} orta dilim ve {color_amount:1} üst dilim bulunur, orta dilim sayısı 'Kule Yüksekliği'dir
 {hr}
-{color_mode:Distillery Mode}
-Outputs only one fluid in the first hatch
-{color_parallel:256 * (1 + Tower Height / 2)} Parallels
-{color_speed:{var:distillery_speed}%} Speed
-{color_efficiency:{var:distillery_eu_eff}%} {EU} Usage
+{color_mode:Damıtıcı Modu}
+Yalnızca ilk kapağa bir sıvı çıkarır
+{color_parallel:256 * (1 + Tower Height / 2)} Paralel
+{color_speed:{var:distillery_speed}%} Hız
+{color_efficiency:{var:distillery_eu_eff}%} {EU} Kullanımı
 {hr}
-{color_mode:Distillation Tower Mode}
-Fluids are output one per layer based on the slot number in {white:NEI}
-{color_note:Increase the height to output more fluid types}
-{color_parallel:{var:mega_max}} Parallels
-{color_speed:{var:tower_speed}%} Speed
-{color_efficiency:{var:tower_eu_eff}%} {EU} Usage
+{color_mode:Damıtma Kulesi Modu}
+Sıvılar, {white:NEI}'deki yuva numarasına göre katman başına bir tane çıkarılır
+{color_note:Daha fazla sıvı türü çıkarmak için yüksekliği artır}
+{color_parallel:{var:mega_max}} Paralel
+{color_speed:{var:tower_speed}%} Hız
+{color_efficiency:{var:tower_eu_eff}%} {EU} Kullanımı
 {hr}

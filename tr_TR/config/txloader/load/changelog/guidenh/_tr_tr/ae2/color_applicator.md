@@ -2,7 +2,7 @@
 item_ids:
   - appliedenergistics2:ToolColorApplicator
 navigation:
-  title: Color Applicator GUI
+  title: Renk Uygulayıcı Arayüzü
   parent: ae2.md
   icon: appliedenergistics2:item.ToolColorApplicator
 categories:
@@ -11,17 +11,17 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Color Applicator GUI
-Ever get tired of shift-scrolling past your target color three times in a row whilst trying to color code your P2P tunnels? Or just forgot what shade of gray you used on your power line?
+# Renk Uygulayıcı Arayüzü
+P2P tünellerini renk kodlamaya çalışırken hedef rengini üst üste üç kez shift-scroll ile geçmekten bıktın mı? Ya da güç hattında kullandığın yeşil ya da gri tonunu mu unuttun?
 
-The <Color id="GREEN">AE2 Color Applicator</Color><ItemImage id="appliedenergistics2:item.ToolColorApplicator"/> now has a new GUI upgrade!
+<Color id="GREEN">AE2 Renk Uygulayıcı</Color><ItemImage id="appliedenergistics2:item.ToolColorApplicator"/> artık yeni bir arayüz yükseltmesine sahip!
 
-You can now shift right-click with the tool to open a GUI showing all colors, and the amount of dye available for each!
+Artık aletle shift sağ tıklayarak tüm renkleri ve her biri için mevcut boya miktarını gösteren bir arayüz açabilirsin!
 
-You can also middle-click on any existing colored AE2 part to instantly copy the color to your applicator!
+Ayrıca renkli herhangi bir mevcut AE2 parçasına orta tıklayarak rengi anında uygulayıcına kopyalayabilirsin!
 
 <FloatingImage src="../assets/ae2/applicator.png" align="left" displayWidth="384" wrap="square">
   <ImageAnnotation>
-    The GUI for the Color Applicator
+    Renk Uygulayıcı'nın arayüzü
   </ImageAnnotation>
 </FloatingImage>

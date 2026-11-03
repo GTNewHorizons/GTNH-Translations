@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15557
 navigation:
-  title: Thermal Boiler
+  title: Termal Kazan
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15557
 categories:
@@ -11,25 +11,25 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Thermal Boiler
+# Termal Kazan
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15557"/>
 </GameScene>
-The <Color id="GREEN">Thermal Boiler</Color> is an IV tier multiblock that evaporates water into steam with the heat from lava, pahoehoe lava, hot coolant, or hot solar salt. It also collects a few byproducts from lava or pahoehoe lava, but only if there is a lava filter inside the controller. The <Color id="GREEN">Thermal Boiler</Color> does not consume any power or fuel but still runs the risk of exploding if not supplied with enough water. All four hot fluid recipes are fixed so there is no flexibility in the input/output rates. 100% of the hot fluid is recycled back into its cooler equivalent at all times and 100% of the steam is recycled back into distilled water by [Large Steam Turbines](./large_steam_turbine.md) at maximum efficiency--forming a sustainable closed loop system. Alternatively, use a water reservoir hatch as input and void any excess distilled water. The <Color id="GREEN">Thermal Boiler</Color> is superseded by the Extreme Heat Exchanger <ItemImage id="gregtech:gt.blockmachines:32017"/> and Whakawhiti Wera XL <ItemImage id="gregtech:gt.blockmachines:31079"/> in LuV, but only in terms of steam throughput.
+<Color id="GREEN">Termal Kazan</Color>, lav, pahoehoe lavı, sıcak soğutucu veya sıcak güneş tuzundan gelen ısıyla suyu buhara buharlaştıran bir IV kademesi multibloktur. Ayrıca lavdan veya pahoehoe lavından birkaç yan ürün toplar, ancak yalnızca kontrolcünün içinde bir lav filtresi varsa. <Color id="GREEN">Termal Kazan</Color> hiçbir güç veya yakıt tüketmez, ancak yeterli su verilmezse yine de patlama riski taşır. Dört sıcak sıvı tarifinin tamamı sabittir, bu yüzden giriş/çıkış hızlarında esneklik yoktur. Sıcak sıvının %100'ü her zaman daha soğuk eşdeğerine geri dönüştürülür ve buharın %100'ü maksimum verimde [Büyük Buhar Türbinleri](./large_steam_turbine.md) tarafından damıtılmış suya geri dönüştürülür--bu da sürdürülebilir bir kapalı döngü sistemi oluşturur. Alternatif olarak giriş olarak bir su rezervuarı kapağı kullan ve fazla damıtılmış suyu yok et. <Color id="GREEN">Termal Kazan</Color>'ın yerini LuV'de Aşırı Isı Eşanjörü <ItemImage id="gregtech:gt.blockmachines:32017"/> ve Whakawhiti Wera XL <ItemImage id="gregtech:gt.blockmachines:31079"/> alır, ancak yalnızca buhar debisi açısından.
 
-The <Color id="GREEN">Thermal Boiler</Color> is very similar to the Large Heat Exchanger (LHE) <ItemImage id="gregtech:gt.blockmachines:1154"/> The difference is that the LHE has a higher throughput, no byproducts, only uses distilled water, and does not accept pahoehoe lava. In other words, use the <Color id="GREEN">Thermal Boiler</Color> for resources such as tantalum, tungstate, or gold and the LHE for power.
+<Color id="GREEN">Termal Kazan</Color>, Büyük Isı Eşanjörüne (LHE) <ItemImage id="gregtech:gt.blockmachines:1154"/> çok benzer. Fark, LHE'nin daha yüksek debiye sahip olması, yan ürün üretmemesi, yalnızca damıtılmış su kullanması ve pahoehoe lavı kabul etmemesidir. Başka bir deyişle, tantal, tungstat veya altın gibi kaynaklar için <Color id="GREEN">Termal Kazan</Color>'ı, güç için ise LHE'yi kullan.
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit)
+[GTNH Güç Planlayıcısı](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit)
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure of this multiblock has changed, the mechanics stay the same
+> Bu multiblokun yalnızca yapısı değişti, mekanikler aynı kaldı
 
-## Construction
-The <Color id="GREEN">Thermal Boiler</Color> has no tiered components. The maintenance hatch and muffler hatch may replace any thermal containment casing anywhere on the structure. The input and output hatches may replace any thermal processing casing or robust tungstensteel machine casing anywhere on the structure--they do not need to be split evenly between them or organized in any specific way. It is highly recommended to use a reservoir hatch to always provide enough water but if not, then the hot fluid and water can enter through the same input hatch just as the cool fluid and steam can leave the machine from the same output hatch. There is no energy hatch because the machine does not consume any power. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+## İnşaat
+<Color id="GREEN">Termal Kazan</Color>'ın kademeli bileşeni yoktur. Bakım kapağı ve egzoz çıkışı yapının herhangi bir yerindeki termal muhafaza kasasının yerine geçebilir. Giriş ve çıkış kapakları yapının herhangi bir yerindeki termal işleme kasasının veya sağlam tungsten çelik makine gövdesinin yerine geçebilir--aralarında eşit olarak bölünmeleri veya belirli bir şekilde düzenlenmeleri gerekmez. Her zaman yeterli su sağlamak için bir rezervuar kapağı kullanman şiddetle önerilir; ancak kullanmazsan sıcak sıvı ve su aynı girdi kapağından girebilir, tıpkı soğuk sıvı ve buharın makineden aynı çıkış kapağından çıkabilmesi gibi. Makine hiçbir güç tüketmediği için enerji kapağı yoktur. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan.
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15557"/><ItemImage id="gregtech:gt.blockmachines:15557"/>
 - 20-25 <ItemLink id="miscutils:gtplusplus.blockcasings.2:11"/><ItemImage id="miscutils:gtplusplus.blockcasings.2:11"/>
 - 10-17 <ItemLink id="gregtech:gt.blockcasings4"/><ItemImage id="gregtech:gt.blockcasings4"/>
@@ -37,32 +37,32 @@ The <Color id="GREEN">Thermal Boiler</Color> has no tiered components. The maint
 - 16 <ItemLink id="miscutils:blockFrameGtMaragingSteel350"/><ItemImage id="miscutils:blockFrameGtMaragingSteel350"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings2:12"/><ItemImage id="gregtech:gt.blockcasings2:12"/>
-- 1 Maintenance Hatch (any thermal containment casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any thermal containment casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 1+ Input Hatch (any thermal processing or tungstensteel machine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any thermal processing or tungstensteel machine casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 1+ Output Hatch (any thermal processing or tungstensteel machine casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 1 Bakım Kapağı (herhangi bir termal muhafaza kasası) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (herhangi bir termal muhafaza kasası) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 1+ Girdi Kapağı (herhangi bir termal işleme veya tungsten çeliği makine gövdesi) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Yolu (herhangi bir termal işleme veya tungsten çeliği makine gövdesi) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 1+ Çıkış Kapağı (herhangi bir termal işleme veya tungsten çeliği makine gövdesi) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">Thermal Boilers</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. The input/output rates are all fixed so there is no issue with sharing input or output hatches. Ensure that all <Color id="GREEN">Thermal Boilers</Color> still receive enough water and the output hatch is large enough to support the combined steam output (LV+ for 10,000 L/t SH Steam). 
+### Duvar Paylaşımı
+<Color id="GREEN">Termal Kazanlar</Color> kasa, çerçeve kutusu ve veriyolu/kapaklardan tasarruf etmek için her bir yüzlerini duvar paylaşımına açabilir. Giriş/çıkış hızlarının tamamı sabittir, bu yüzden giriş veya çıkış kapaklarını paylaşmakta sorun yoktur. Tüm <Color id="GREEN">Termal Kazanlar</Color>'ın hâlâ yeterli su aldığından ve çıkış kapağının birleşik buhar çıkışını destekleyecek kadar büyük olduğundan emin ol (10.000 L/t SH Buharı için LV+). 
 
-## Usage
-The <Color id="GREEN">Thermal Boiler</Color> evaporates water into steam with the heat from lava, pahoehoe lava, hot coolant, or hot solar salt. Distilled water also works if necessary. The <Color id="GREEN">Thermal Boiler</Color> does not consume power, but explodes if it ever runs for longer than 10 seconds without water. It is perfectly safe to add water or break the controller while it is actively running. Steam is NOT produced without water.
+## Kullanım
+<Color id="GREEN">Termal Kazan</Color>, lav, pahoehoe lavı, sıcak soğutucu veya sıcak güneş tuzundan gelen ısıyla suyu buhara buharlaştırır. Gerekirse damıtılmış su da işe yarar. <Color id="GREEN">Termal Kazan</Color> güç tüketmez, ancak susuz 10 saniyeden uzun süre çalışırsa patlar. Aktif olarak çalışırken su eklemek veya kontrolcüyü kırmak tamamen güvenlidir. Su olmadan buhar ÜRETİLMEZ.
 
-The <Color id="GREEN">Thermal Boiler</Color> has its own efficiency value that is directly proportional to the output rate of steam and therefore the amount of distilled water recycled back into the machine in a closed loop system. The efficiency of the <Color id="GREEN">Thermal Boiler</Color> increases linearly while the machine is active and almost immediately resets back to 0% while idle. It takes approximately 42 seconds to reach maximum efficiency so it is very important to maintain a steady supply of hot fluid. Maintenance issues reduce the maximum efficiency by 10% each.
+<Color id="GREEN">Termal Kazan</Color>'ın, buhar çıkış hızıyla ve dolayısıyla kapalı döngü sisteminde makineye geri dönüştürülen damıtılmış su miktarıyla doğru orantılı kendi verim değeri vardır. <Color id="GREEN">Termal Kazan</Color>'ın verimi makine aktifken doğrusal olarak artar ve boştayken neredeyse anında %0 seviyesine geri döner. Maksimum verime ulaşması yaklaşık 42 saniye sürer, bu yüzden istikrarlı bir sıcak sıvı beslemesi sağlamak çok önemlidir. Bakım sorunlarının her biri maksimum verimi %10 azaltır.
 
-## Heat Exchange
-The <Color id="GREEN">Thermal Boiler</Color> converts hot fluid into its cooler version and water into steam once per second. The type of steam produced depends strictly on the type of hot fluid and does not change based on the input rate, since they are all fixed values. Excess input is NOT consumed.
+## Isı Değişimi
+<Color id="GREEN">Termal Kazan</Color> saniyede bir kez sıcak sıvıyı daha soğuk sürümüne, suyu da buhara dönüştürür. Üretilen buhar türü kesinlikle sıcak sıvı türüne bağlıdır ve hepsi sabit değerler olduğundan giriş hızına göre değişmez. Fazla girdi TÜKETİLMEZ.
 
-## Byproducts
-The <Color id="GREEN">Thermal Boiler</Color> is primarily used to generate byproducts from lava or pahoehoe lava. Other than obsidian, the byproducts require a lava filter inside the controller to even have a chance at being produced. Lava filters start with 100 durability points and have a 1/30 chance to lose a point with each operation. That means the average lifespan of a lava filter is 3,000 operations or 50 minutes. Hot coolant and hot solar salt do not produce any byproducts and therefore have no use for a lava filter. Steam is still produced regardless if a lava filter is present or not. 
+## Yan Ürünler
+<Color id="GREEN">Termal Kazan</Color> öncelikle lavdan veya pahoehoe lavından yan ürün üretmek için kullanılır. Obsidyen dışındaki yan ürünlerin üretilme şansına sahip olması için bile kontrolcünün içinde bir lav filtresi gerekir. Lav filtreleri 100 dayanıklılık puanıyla başlar ve her işlemde 1/30 şansla bir puan kaybeder. Bu, bir lav filtresinin ortalama yaşam ömrünün 3.000 işlem veya 50 dakika olduğu anlamına gelir. Sıcak soğutucu ve sıcak güneş tuzu hiçbir yan ürün üretmez ve bu nedenle lav filtresine ihtiyaç duymaz. Lav filtresi olsun olmasın buhar yine de üretilir. 
 
-Sources of lava include Everburn Urns <ItemImage id="ThaumicExploration:everburnUrn"/>, Fluid Drilling Rigs on Ross128b <ItemImage id="gtneioreplugin:blockDimensionDisplay_Rb"/>, or phosphor from simmering combs <ItemImage id="Forestry:beeCombs:2"/>. Of those three options, the Everburn Urn is the best because it does not require power and can be co-located with the <Color id="GREEN">Thermal Boiler</Color>.
+Lav kaynakları arasında Everburn Urn'lar <ItemImage id="ThaumicExploration:everburnUrn"/>, Ross128b'deki Sıvı Sondaj Kuleleri <ItemImage id="gtneioreplugin:blockDimensionDisplay_Rb"/> veya Simmering peteklerinden elde edilen fosfor <ItemImage id="Forestry:beeCombs:2"/> bulunur. Bu üç seçenek arasında Everburn Urn en iyisidir; çünkü güç gerektirmez ve <Color id="GREEN">Termal Kazan</Color> ile aynı yere yerleştirilebilir.
 
-## Power
-Although not its primary purpose, the steam produced by the <Color id="GREEN">Thermal Boiler</Color> is used to generate power with a series of [Large Steam Turbines](./large_steam_turbine.md) in the order listed below. Both types of steam have the same conversion ratio so the output of one can feed directly into the input of the next. At maximum efficiency, 100% of the steam is recycled back into distilled water--forming a sustainable closed loop system. Later on, the XL Turbo variants of each can be used instead. SH steam generates 2x more EU than regular steam at the same optimal flow rate.
+## Güç
+Birincil amacı olmasa da, <Color id="GREEN">Termal Kazan</Color>'ın ürettiği buhar, aşağıda listelenen sırayla bir dizi [Büyük Buhar Türbini](./large_steam_turbine.md) ile güç üretmek için kullanılır. Her iki buhar türü de aynı dönüşüm oranına sahiptir, bu yüzden birinin çıkışı doğrudan diğerinin girişini besleyebilir. Maksimum verimde buharın %100'ü damıtılmış suya geri dönüştürülür--bu da sürdürülebilir bir kapalı döngü sistemi oluşturur. Daha sonra bunların her birinin XL Turbo varyantları kullanılabilir. SH buharı, aynı optimal akış hızında normal buhardan 2 kat daha fazla EU üretir.
 
-- The Large HP Steam Turbine generates power from SH steam and converts it to regular steam at a 1:1 ratio.
-- The Large Steam Turbine generates power from regular steam and converts it to distilled water at a 160:1 ratio.
+- Büyük Yüksek Basınç Buhar Türbini, SH buharından güç üretir ve onu 1:1 oranında normal buhara dönüştürür.
+- Büyük Buhar Türbini, normal buhardan güç üretir ve onu 160:1 oranında damıtılmış suya dönüştürür.
 
-If the steam throughput is too high for steam valves or fluid pipes, use fluid P2P tunnels instead. They have no transfer limit and evenly distribute all fluids between all output connections. 
+Buhar debisi buhar valfleri veya sıvı boruları için çok yüksekse bunun yerine sıvı P2P tünelleri kullan. Aktarım sınırları yoktur ve tüm sıvıları tüm çıkış bağlantıları arasında eşit olarak dağıtırlar. 

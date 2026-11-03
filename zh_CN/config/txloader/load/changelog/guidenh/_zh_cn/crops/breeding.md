@@ -36,7 +36,7 @@ date: 2026-05-20
 
 作物培育机中的所有配方都需要一组输入（通常只是两颗种子，但也可以更多），以及一定量的 <Color id="GREEN">富集肥料</Color>。这里的配方数值可能有些误导性，因为它同时取决于输出种子的等级和属性。
 
-举例来说，假设我们想生产 <Color id="RED">Bauxia 种子</Color>。NEI 中给出的配方为：Galvania 种子 + Nickelback 种子 + 铝土矿 + <Color id="GREEN">7560L 富集肥料</Color>。
+举例来说，假设我们想生产 <Color id="RED">铝土草种子</Color>。NEI 中给出的配方为：锌叶草种子 + 镍叶草种子 + 铝土矿矿石 + <Color id="GREEN">7560L 富集肥料</Color>。
 
 实际所需的肥料量会随输入种子的属性而发生很大变化，如下所示：
 - 1/1/1 输入：<Latex formula="\text{Fertilizer} = 6 \times 144 + (1 + 1 + 1) \times 72 = 1080L" />

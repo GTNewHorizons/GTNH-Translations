@@ -1,136 +1,136 @@
 ---
 navigation:
-  title: "Singleblock Machines"
+  title: "Tek Blok Makineleri"
   icon: gregtech:gt.blockmachines:106
   parent: /index.md
   position: 10
 ---
 
-# Singleblock Machines
+# Tek Blok Makineleri
 
-Singleblock machines consist of only one block. Their uses are narrow, and they are always slower or less efficient than the equivalent [multiblock machine](../multiblocks/multiblocks_index.md), if one exists. They cannot be upgraded, except for high-pressure steam machines, so replacing them always means crafting a new machine. Even so, they are essential for early progression, and some remain useful through the entire game. By EV through IV, once most [multiblock machines](../multiblocks/multiblocks_index.md) become available, players gradually transition away from singleblocks.
+Tek blok makineler yalnızca tek bir bloktan oluşur. Kullanım alanları dardır ve varsa eşdeğer [Multibloklar makinesinden](../multiblocks/multiblocks_index.md) her zaman daha yavaş ya da daha verimsizdirler. Yüksek basınçlı buhar makineleri dışında yükseltilemezler, bu yüzden onları değiştirmek her zaman yeni bir makine üretmek anlamına gelir. Buna rağmen erken ilerleme için hayati önemdedirler ve bazıları oyunun tamamı boyunca işe yaramaya devam eder. EV'den IV'e kadar, çoğu [Multibloklar makineleri](../multiblocks/multiblocks_index.md) kullanılabilir hâle geldiğinde oyuncular yavaş yavaş tek blok makinelerden uzaklaşır.
 
-# Machine Facing
+# Makine Yönü
 
-Every singleblock machine, whether steam or electric, has two special faces and four ordinary faces. You can change its facing with <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" />, using the GregTech 3x3 wrench rules.
+Buharlı ya da elektrikli olsun, her tek blok makinenin iki özel yüzü ve dört sıradan yüzü vardır. GregTech 3x3 İngiliz anahtarı kurallarını kullanarak yönünü <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> ile değiştirebilirsin.
 
-- **Front face**: the most visually distinctive face, and it can only point horizontally. It cannot input or output items, fluids, steam, or power at all.
-  - Hold a wrench, then <kbd>Shift</kbd> + <kbd>Right-click</kbd> a side face to change the front face direction.
-- **Output face**: the face with a small white-framed port on a black background.
-  - For steam machines, this is the exhaust vent that releases spent steam pressure.
-  - For electric machines, this is the item output face used to eject products.
-  - Hold a wrench, then <kbd>Right-click</kbd> a side face to change the output face.
-- **All other faces**: the remaining four faces are equivalent and can input or output items, fluids, steam, or power.
+- **Ön yüz**: görsel olarak en belirgin yüz olup yalnızca yatay olarak yönlendirilebilir. Eşya, sıvı, buhar veya güç girişi ya da çıktısı hiç yapamaz.
+  - Bir İngiliz anahtarı tutup bir yan yüze <kbd>Shift</kbd> + <kbd>Sağ tık</kbd> yaparak ön yüzün yönünü değiştir.
+- **Çıktı yüzü**: siyah arka plan üzerinde küçük beyaz çerçeveli bir bağlantı noktası bulunan yüz.
+  - Buharlı makinelerde bu, harcanmış buhar basıncını dışarı atan egzoz menfezidir.
+  - Elektrikli makinelerde bu, ürünleri dışarı atmak için kullanılan eşya çıktısı yüzüdür.
+  - Bir İngiliz anahtarı tutup bir yan yüze <kbd>Sağ tık</kbd> yaparak çıktı yüzünü değiştir.
+- **Diğer tüm yüzler**: kalan dört yüz eşdeğerdir ve eşya, sıvı, buhar veya güç alıp verebilir.
 
-# Steam Machines
+# Buharlı Makineler
 
-Singleblock steam machines run on steam and are used heavily during the steam age. Steam is produced by boilers. Every standard version has a corresponding high-pressure version made with steel.
+Tek blok buharlı makineler buharla çalışır ve buhar çağında yoğun olarak kullanılır. Buhar, kazanlar tarafından üretilir. Her standart sürümün çelikten yapılmış karşılık gelen bir yüksek basınçlı sürümü vardır.
 
-Steam machines do not explode, are resistant to rain and snow, and can be placed outdoors safely.
+Buharlı makineler patlamaz, yağmura ve kara dayanıklıdır ve açık havaya güvenle yerleştirilebilir.
 
-## Categories
+## Kategoriler
 
-There are only six singleblock steam machines, each with a standard and a high-pressure version:
+Yalnızca altı tek blok buharlı makine vardır ve her birinin standart ile yüksek basınçlı sürümü bulunur:
 
-| Function | Standard | High Pressure |
+| İşlev | Standart | Yüksek Basınçlı |
 |----------|----------|---------------|
-| Furnace | <ItemLink id="gregtech:gt.blockmachines:103" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:104" showIcon="left" /> |
-| Alloy Smelter | <ItemLink id="gregtech:gt.blockmachines:118" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:119" showIcon="left" /> |
-| Compressor | <ItemLink id="gregtech:gt.blockmachines:115" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:116" showIcon="left" /> |
-| Macerator | <ItemLink id="gregtech:gt.blockmachines:106" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:107" showIcon="left" /> |
-| Extractor | <ItemLink id="gregtech:gt.blockmachines:109" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:110" showIcon="left" /> |
-| Forge Hammer | <ItemLink id="gregtech:gt.blockmachines:112" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:113" showIcon="left" /> |
+| Fırın | <ItemLink id="gregtech:gt.blockmachines:103" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:104" showIcon="left" /> |
+| Alaşım İzabesi | <ItemLink id="gregtech:gt.blockmachines:118" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:119" showIcon="left" /> |
+| Kompresör | <ItemLink id="gregtech:gt.blockmachines:115" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:116" showIcon="left" /> |
+| Öğütücü | <ItemLink id="gregtech:gt.blockmachines:106" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:107" showIcon="left" /> |
+| Ekstraktör | <ItemLink id="gregtech:gt.blockmachines:109" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:110" showIcon="left" /> |
+| Dövme Çekiç | <ItemLink id="gregtech:gt.blockmachines:112" showIcon="left" /> | <ItemLink id="gregtech:gt.blockmachines:113" showIcon="left" /> |
 
-## Graphical User Interface
+## Grafiksel Kullanıcı Arayüzü
 
-- **Steam gauge**: top left, showing the internal steam buffer. All steam machines have a 16,000 L internal buffer.
-- **Storage slots**: the two bottom slots, with no special behavior.
-- **Mute button**: top right. You can also toggle it by <kbd>Right-clicking</kbd> the machine with <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" />.
+- **Buhar ölçeri**: sol üstte, dahili buhar tamponunu gösterir. Tüm buharlı makinelerin 16.000 L dahili tamponu vardır.
+- **Depolama yuvaları**: alttaki iki yuva, özel bir davranışları yoktur.
+- **Sessize alma düğmesi**: sağ üstte. Makineye <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" /> ile <kbd>Sağ tık</kbd> yaparak da açıp kapatabilirsin.
 
-Steam machines do not support auto-output.
+Buharlı makineler otomatik çıktıyı desteklemez.
 
-## Power
+## Güç
 
-The machine accepts steam from the four faces that are neither the front face nor the exhaust face, filling its internal buffer. It runs LV-tier recipes at a ratio of 4 L steam = 1 EU, which is 50% efficiency. Bronze machines take twice the normal duration of an LV recipe.
+Makine, ön yüz ve egzoz yüzü dışındaki dört yüzden buhar kabul ederek dahili tamponunu doldurur. LV seviyesindeki tarifleri 4 L buhar = 1 EU oranıyla, yani %50 verimlilikle çalıştırır. Bronz makineler bir LV tarifinin normal süresinin iki katını alır.
 
-| Machine Type | Steam Cost (L/t) | Duration |
+| Makine Türü | Buhar Maliyeti (L/t) | Süre |
 |--------------|------------|----------|
-| Steam machine | 2x | 2x |
-| High-pressure steam machine | 4x | 1x |
+| Buharlı makine | 2x | 2x |
+| Yüksek basınçlı buharlı makine | 4x | 1x |
 
-The high-pressure version consumes steam at twice the rate and halves recipe duration, effectively performing one 2/2 lossless [overclock](../tierskipping-overcloking-parallels/overclocking.md).
+Yüksek basınçlı sürüm buharı iki kat hızda tüketir ve tarif süresini yarıya indirir; etkili olarak bir 2/2 kayıpsız [hız aşırtma](../tierskipping-overcloking-parallels/overclocking.md) gerçekleştirir.
 
-You can pause or resume the machine by <kbd>Right-clicking</kbd> it with <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />.
+Makineye <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" /> ile <kbd>Sağ tık</kbd> yaparak onu duraklatabilir veya devam ettirebilirsin.
 
-## Item Transport and Exhaust
+## Eşya Taşımacılığı ve Egzoz
 
-The four faces other than the front and exhaust faces can input or output. Steam machines cannot eject items on their own, so you need hoppers or another transport system to extract products.
+Ön ve egzoz yüzleri dışındaki dört yüz giriş veya çıktı yapabilir. Buharlı makineler eşyaları kendi başlarına dışarı atamaz, bu yüzden ürünleri almak için hunilere veya başka bir taşıma sistemine ihtiyacın var.
 
-The exhaust vent is the output face of a steam machine. After each recipe completes, the machine must vent its exhaust through that face. If the vent is blocked, the machine cannot finish the recipe. Standing next to the vent when a recipe completes deals 3.5 hearts of damage to the player.
+Egzoz menfezi bir buharlı makinenin çıktı yüzüdür. Her tarif tamamlandıktan sonra makine egzozunu o yüzden dışarı vermek zorundadır. Menfez tıkanırsa makine tarifi tamamlayamaz. Bir tarif tamamlandığında menfezin yanında durmak oyuncuya 3,5 kalp hasar verir.
 
-## Failures
+## Arızalar
 
-- Exhaust vent blocked -> a failure icon appears, and the machine does not continue until the exhaust is released.
-- Steam buffer empty -> a failure icon appears. If the steam buffer refills shortly afterward, the machine retries the recipe. If your steam supply is fundamentally insufficient, the machine may repeatedly fail, lose all progress, and waste steam.
+- Egzoz menfezi tıkalı -> bir arıza simgesi belirir ve egzoz boşaltılana kadar makine devam etmez.
+- Buhar tamponu boş -> bir arıza simgesi belirir. Buhar tamponu kısa süre sonra yeniden dolarsa makine tarifi yeniden dener. Buhar beslemen temelde yetersizse makine tekrar tekrar arızalanabilir, tüm ilerlemeyi kaybedebilir ve buharı boşa harcayabilir.
 
-# Electric Machines
+# Elektrikli Makineler
 
 > [!WARNING]
-> Singleblock electric machines can explode. Read the [explosions](#explosions) section carefully.
+> Tek blok elektrikli makineler patlayabilir. [Patlamalar](#patlamalar) bölümünü dikkatlice oku.
 
-Singleblock electric machines are the first must-craft machines at LV. They have specific uses, fixed voltage tiers, and must be fully replaced when upgraded.
+Tek blok elektrikli makineler, LV'de mutlaka üretilmesi gereken ilk makinelerdir. Belirli kullanım alanları ve sabit gerilim seviyeleri vardır ve yükseltildiklerinde tamamen değiştirilmeleri gerekir.
 
-## Graphical User Interface
+## Grafiksel Kullanıcı Arayüzü
 
-The electric machine GUI is more complex than the steam one:
+Elektrikli makinenin arayüzü buharlı olandan daha karmaşıktır:
 
-- **Item input/output slots**: the light-colored slots to the left and right of the progress bar.
-- **Fluid input/output slots**: the dark slots beneath the item slots. You can interact with them directly while holding containers: <kbd>Left-click</kbd> fills or drains all matching fluid containers, while <kbd>Right-click</kbd> processes only one container.
-- **Power slot**: accepts same-voltage tools or batteries. When the internal buffer is full enough it charges them; when the buffer is low it can draw from them. It can also be used as a normal storage slot.
-- **Data slot**: only appears on special machines like scanners, printers, and copiers.
-- **Integrated circuit slot**: bottom right. Scroll the <kbd>mouse wheel</kbd> or click to raise or lower the circuit number; <kbd>Shift</kbd> + <kbd>Left-click</kbd> opens the selector GUI; <kbd>Shift</kbd> + <kbd>Right-click</kbd> clears it.
-- **Auto-output toggles**: the two buttons in the bottom left. Once enabled, the machine can eject items or fluids. Steam machines do not have this feature.
-- **Mute button**: top right. You can also toggle it by <kbd>Right-clicking</kbd> the machine with <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" />.
+- **Eşya girdisi/çıktısı yuvaları**: ilerleme çubuğunun solundaki ve sağındaki açık renkli yuvalar.
+- **Sıvı girdisi/çıktısı yuvaları**: eşya yuvalarının altındaki koyu renkli yuvalar. Elinde kap varken bunlarla doğrudan etkileşebilirsin: <kbd>Sol tık</kbd> eşleşen tüm sıvı kaplarını doldurur veya boşaltır, <kbd>Sağ tık</kbd> ise yalnızca bir kabı işler.
+- **Güç yuvası**: aynı gerilimdeki araçları veya bataryaları kabul eder. Dahili tampon yeterince dolduğunda onları şarj eder; tampon azaldığında onlardan çekebilir. Normal bir depolama yuvası olarak da kullanılabilir.
+- **Veri yuvası**: yalnızca tarayıcılar, yazıcılar ve fotokopi makineleri gibi özel makinelerde görünür.
+- **Entegre devre yuvası**: sağ altta. Devre numarasını artırmak veya azaltmak için <kbd>fare tekerleğini</kbd> kaydır ya da tıkla; <kbd>Shift</kbd> + <kbd>Sol tık</kbd> seçim arayüzünü açar; <kbd>Shift</kbd> + <kbd>Sağ tık</kbd> temizler.
+- **Otomatik çıktı düğmeleri**: sol alttaki iki düğme. Etkinleştirildiğinde makine eşya veya sıvı dışarı atabilir. Buharlı makinelerde bu özellik yoktur.
+- **Sessize alma düğmesi**: sağ üstte. Makineye <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" /> ile <kbd>Sağ tık</kbd> yaparak da açıp kapatabilirsin.
 
-## Power
+## Güç
 
-Electric machines run on EU. They have a small internal EU buffer equal to 64 times the machine voltage in EU, which is the amount consumed by 1A at standard voltage over 3.2 seconds. For example, an LV machine stores 2,048 EU, while an HV machine stores 32,768 EU.
+Elektrikli makineler EU ile çalışır. Makine geriliminin 64 katına eşit, EU cinsinden küçük bir dahili tamponları vardır; bu, standart gerilimde 1A'nın 3,2 saniyede tükettiği miktardır. Örneğin bir LV makine 2.048 EU, bir HV makine ise 32.768 EU depolar.
 
-Machines continuously request energy packets from the local power network to fill their buffer. Their maximum input current is:
+Makineler tamponlarını doldurmak için yerel güç ağından sürekli enerji paketleri talep eder. Maksimum giriş akımları şudur:
 
 $$\text{Maximum Input Current} = \left\lfloor\frac{\text{Recipe Rated Power} \times 2}{\text{Machine Operating Voltage}}\right\rfloor + 1 \text{ A}$$
 
-- Most singleblock machines: 2A maximum.
-- Thermal Centrifuge: 4A maximum.
-- Arc Furnace: 6A maximum.
+- Çoğu tek blok makine: en fazla 2A.
+- Termal Santrifüj: en fazla 4A.
+- Ark Fırını: en fazla 6A.
 
-You can pause or resume the machine by <kbd>Right-clicking</kbd> it with <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />.
+Makineye <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" /> ile <kbd>Sağ tık</kbd> yaparak onu duraklatabilir veya devam ettirebilirsin.
 
-## Overclocking
+## Hız Aşırtma
 
-Singleblock electric machines use 4/2 imperfect overclocks: each overclock multiplies power draw by 4 and halves recipe time, so total energy doubles. The singleblock Mass Fabricator is the only exception, using 2/2 lossless overclocks.
+Tek blok elektrikli makineler 4/2 kusurlu hız aşırtmalar kullanır: her hız aşırtma güç tüketimini 4 ile çarpar ve tarif süresini yarıya indirir, böylece toplam enerji iki katına çıkar. Tek blok Kütle İmalatçısı tek istisnadır ve 2/2 kayıpsız hız aşırtmalar kullanır.
 
-See **[Overclocking](../tierskipping-overcloking-parallels/overclocking.md)** for the full system.
+Tam sistem için **[Hız Aşırtma](../tierskipping-overcloking-parallels/overclocking.md)** bölümüne bak.
 
-## Logistics
+## Lojistik
 
-All five faces other than the front face can output. The four faces that are neither the front nor the output face can input.
+Ön yüz dışındaki beş yüzün tamamı çıktı verebilir. Ön ve çıktı yüzü dışındaki dört yüz giriş alabilir.
 
-- **Auto-output**: enable the auto-output toggle in the GUI, and the output face can eject items or fluids.
-- **Allow input from output face**: hold <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> and <kbd>Right-click</kbd> the front face or output face to toggle it.
-- **Input filtering**: hold a screwdriver and <kbd>Shift</kbd> + <kbd>Right-click</kbd> the front face or output face to enable it. When enabled, input items are filtered by the recipe map.
-- **Input stacking**: hold <ItemLink id="Forestry:solderingIron" showIcon="left" /> and <kbd>Shift</kbd> + <kbd>Right-click</kbd> the front face to enable it, allowing multiple item types in the same slot.
+- **Otomatik çıktı**: arayüzdeki otomatik çıktı düğmesini etkinleştir; çıktı yüzü eşya veya sıvı dışarı atabilir.
+- **Çıktı yüzünden girişe izin ver**: <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> tutup ön yüze veya çıktı yüzüne <kbd>Sağ tık</kbd> yaparak açıp kapat.
+- **Girdi süzme**: bir tornavida tutup ön yüze veya çıktı yüzüne <kbd>Shift</kbd> + <kbd>Sağ tık</kbd> yaparak etkinleştir. Etkinleştirildiğinde girdi eşyaları tarif haritasına göre süzülür.
+- **Girdi yığınlama**: <ItemLink id="Forestry:solderingIron" showIcon="left" /> tutup ön yüze <kbd>Shift</kbd> + <kbd>Sağ tık</kbd> yaparak etkinleştir; aynı yuvada birden fazla eşya türü bulunabilir.
 
-## Failures
+## Arızalar
 
-When the internal EU buffer runs dry, the machine fails. Recipe progress is lost, but the input state is preserved. If the buffer refills shortly afterward, the machine retries the recipe. If the power supply itself is insufficient, the machine may repeatedly fail, lose progress, and waste EU.
+Dahili EU tamponu tükendiğinde makine arızalanır. Tarif ilerlemesi kaybolur ama girdi durumu korunur. Tampon kısa süre sonra yeniden dolarsa makine tarifi yeniden dener. Güç beslemesinin kendisi yetersizse makine tekrar tekrar arızalanabilir, ilerlemeyi kaybedebilir ve EU harcayabilir.
 
-## Explosions
+## Patlamalar
 
-Singleblock electric machines can explode in the following situations:
+Tek blok elektrikli makineler aşağıdaki durumlarda patlayabilir:
 
-- **Overvoltage**: if they receive an energy packet above their own voltage, they explode immediately. For example, feeding MV packets into an LV machine.
-- **Fire**: if the machine stores EU greater than 20% of capacity, it checks once every tick with a 1/1000 chance. If any side is on fire, the machine explodes.
-- **Rain or snow**: if the machine stores EU, it also checks once every tick with a 1/1000 chance. During rain, it has a 1/10 chance to explode immediately and a 9/10 chance to catch fire; during thunderstorms, it has a 1/3 chance to explode immediately.
-- An explosion releases all stored EU to every connected wire or adjacent machine as IV-tier power, which can cause chain explosions or overload nearby wires.
-- Powered hatches on [multiblock machines](../multiblocks/multiblocks_index.md) can also catch fire or explode for the same reasons.
+- **Aşırı gerilim**: kendi gerilimlerinin üzerinde bir enerji paketi alırlarsa anında patlarlar. Örneğin bir LV makineye MV paketleri beslemek.
+- **Ateş**: makine kapasitesinin %20'sinden fazla EU depoluyorsa her tick'te bir kez 1/1000 şansla kontrol eder. Herhangi bir tarafı ateş içindeyse makine patlar.
+- **Yağmur veya kar**: makine EU depoluyorsa yine her tick'te bir kez 1/1000 şansla kontrol eder. Yağmur sırasında anında patlama şansı 1/10, alev alma şansı 9/10'dur; gök gürültülü fırtınalarda anında patlama şansı 1/3'tür.
+- Bir patlama, depolanan tüm EU'yu IV seviyesi güç olarak her bağlı tele veya bitişik makineye boşaltır; bu da zincirleme patlamalara yol açabilir veya yakındaki telleri aşırı yükleyebilir.
+- [Multibloklar makinelerindeki](../multiblocks/multiblocks_index.md) güç verilmiş kapaklar da aynı nedenlerle alev alabilir veya patlayabilir.

@@ -4,35 +4,35 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAH9w==
 navigation:
-  title: Amazon Warehousing Depot
+  title: Amazon Depolama Tesisi
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15513
   position: -5001
 ---
 
-# Amazon Warehousing Depot
+# Amazon Depolama Tesisi
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15513" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:15513" showIcon="left" />(AWD) is an IV tier multiblock for packaging and unpackaging various items.
+<ItemLink id="gregtech:gt.blockmachines:15513" showIcon="left" />(AWD), çeşitli eşyaları paketleyip paket açmak için kullanılan IV kademesinde bir multibloktur.
 
-The AWD is a direct upgrade from the singleblock packager and unpackager because it can process both types of recipes, runs up to 900% speed, only uses 75% of the EU/t normally required, and offers 16 parallels per voltage tier.
+AWD, tek blok paketleyici ve paket açıcıya doğrudan bir yükseltmedir; çünkü her iki tarif türünü de işleyebilir, %900'e kadar hızda çalışır, normalde gereken EU/t'nin yalnızca %75'ini kullanır ve gerilim kademesi başına 16 paralel sunar.
 
-Input separation should be enabled on the AWD for using different schematics within the same machine.
+Aynı makinede farklı şemalar kullanmak için AWD'de giriş ayrıştırması etkinleştirilmelidir.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | IV |
-| Structure Size (LxWxH) | 3x5x3 |
-| Power | Regular |
-| Overclocks | Imperfect |
-| Maintenance | Need Maintenance |
-| Pollution | Produces 40 gibbl/s pollution, and require Muffler Hatch |
+| Açılma Kademesi | IV |
+| Yapı Boyutu (U×G×Y) | 3x5x3 |
+| Güç | Normal |
+| Overclock | Kusurlu |
+| Bakım | Bakım Gerekli |
+| Kirlilik | 40 gibbl/s kirlilik üretir ve Egzoz Çıkışı gerektirir |
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-### Crafting
+### Üretim
 
 <RecipesFor id="gregtech:gt.blockmachines:15513" handlerBlacklist="codechicken.nei.recipe.ShapelessRecipeHandler" />
 
@@ -41,47 +41,47 @@ Input separation should be enabled on the AWD for using different schematics wit
 <RecipesFor id="gregtech:gt.blockframes:32" 
 handlerBlacklist="neicustomdiagram.diagramgroup.gregtech.materialtools, neicustomdiagram.diagramgroup.gregtech.materialparts" />
 
-### Structure
+### Yapı
 
-The AWD has one tiered component - The item pipe casings, which determine the speed bonus of the machine.
+AWD'nin tek kademeli bileşeni vardır: makinenin hız bonusunu belirleyen boru muhafazası blokları.
 
-The glass can be any tier and has no effect on the operation of the machine.
+Cam her kademeden olabilir ve makinenin çalışmasını etkilemez.
 
-AWD can be rotated or mirrored.
+AWD döndürülebilir veya aynalanabilir.
 
-Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannels "item_pipe" and "glass" to specify the tier of those components.
+Çok amperli ve lazer enerji kapakları desteklenmez; ancak overclock için birden fazla normal enerji kapağı kullanılabilir. Bu bileşenlerin kademesini belirtmek için "item_pipe" ve "glass" alt kanallarıyla yapıyı görselleştirmek/inşa etmek üzere <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan.
 
-| Component | Quantity and placement |
+| Bileşen | Adet ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:15513" showIcon="left" /> | 1, Front right, 2nd layer |
+| <ItemLink id="gregtech:gt.blockmachines:15513" showIcon="left" /> | 1, Ön sağ, 2. katman |
 | <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> | 4-15 |
-| <ItemImage id="gregtech:gt.blockcasings11" /><Color id="blue">Tiered</Color> Item Pipe Casing | 3 |
-| <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 3 |
+| <ItemImage id="gregtech:gt.blockcasings11" /><Color id="blue">Kademeli</Color> Boru Muhafazası | 3 |
+| <ItemImage id="bartworks:BW_TieredGlass" />Herhangi Bir Kademeli Cam | 3 |
 | <ItemLink id="gregtech:gt.blockframes:32" showIcon="left" /> | 2 |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Can replace <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Can replace <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:91" noTooltip />Muffler Hatch | 1+, Can replace <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 1+, Can replace <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 1+, Can replace <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Yalnızca Normal Kapaklara izin verilir</Tooltip> | 1+, <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Bakım Kapağı | 1+, <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:91" noTooltip />Egzoz Çıkışı | 1+, <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Giriş Yolu | 1+, <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Çıkış Yolu | 1+, <ItemLink id="miscutils:gtplusplus.blockcasings.3:9" showIcon="left" /> yerine geçebilir |
 
-### Wallsharing
+### Duvar Paylaşımı
 
-AWDs may wallshare each of their sides except for the right side (controller is in the way) to save on casings, frame boxes, and buses/hatches. No recipe uses more than 1A of power so it is possible to share one energy hatch between two machines.
+AWD'ler kasa, çerçeve kutusu ve veriyolu/kapak tasarrufu için sağ taraf dışında (kontrolcü engel oluyor) her kenarında duvar paylaşımı yapabilir. Hiçbir tarif 1A'dan fazla güç kullanmaz, bu yüzden bir enerji kapağını iki makine arasında paylaşmak mümkündür.
 
-## Usage
+## Kullanım
 
-The AWD has two operating modes, listed below. Switch between modes in the GUI of the controller or by right-clicking the controller with a screwdriver. The packager mode is useful for the tiny and small piles of dust from the [<ItemLink id="gregtech:gt.blockmachines:15563" showIcon="left" />](./electric_implosion_compressor.md) and for creating scrap boxes. The unpackager mode is a nice-to-have for recycling certain items such as old [<ItemLink id="gregtech:gt.blockmachines:13106" showIcon="left" />](./lapotronic_supercapacitor.md) capacitors.
+AWD'nin aşağıda listelenen iki çalışma modu vardır. Modlar arasında kontrolcünün GUI'sinden veya kontrolcüye tornavidayla sağ tıklayarak geçiş yap. Paketleyici modu, [<ItemLink id="gregtech:gt.blockmachines:15563" showIcon="left" />](./electric_implosion_compressor.md) çıktısı olan minik ve küçük toz yığınları ile hurda kutuları oluşturmak için kullanışlıdır. Paket açıcı modu ise eski [<ItemLink id="gregtech:gt.blockmachines:13106" showIcon="left" />](./lapotronic_supercapacitor.md) kapasitörleri gibi belirli eşyaları geri dönüştürmek için hoş bir ekstradır.
 
-- Packager - Runs ONLY packager recipes.
-- Unpackager - Runs ONLY unpackager recipes.
+- Paketleyici - YALNIZCA paketleyici tariflerini çalıştırır.
+- Paket Açıcı - YALNIZCA paket açıcı tariflerini çalıştırır.
 
-Input separation<FloatingImage src="gregtech:textures/gui/overlay_button/input_separation_on.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} /> should be enabled on the AWD to prevent SOLID ingredients in different input buses from being used in the same recipe, including any schematics. That means a single AWD with many input buses can support many different schematics simultaneously. Just don't forget to stay above the minimum number of supply depot casings.
+Farklı giriş yollarındaki KATI bileşenlerin, şemalar dahil, aynı tarifte kullanılmasını önlemek için AWD'de giriş ayrıştırması<FloatingImage src="gregtech:textures/gui/overlay_button/input_separation_on.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={3.0} scaleY={3.0} /> etkinleştirilmelidir. Bu, birçok giriş yoluna sahip tek bir AWD'nin aynı anda birçok farklı şemayı destekleyebileceği anlamına gelir. Yalnızca minimum tedarik deposu kasası sayısının üzerinde kalmayı unutma.
 
-### Speed Upgrades from Item Pipe Casing
+### Boru Muhafazasıyla Hız Yükseltmeleri
 
-AWD can be upgraded by using higher-tier Item Pipe Casing. The speed bonus for each Item Pipe Casing is listed below. 
+AWD, daha yüksek kademeli Boru Muhafazası kullanılarak yükseltilebilir. Her Boru Muhafazasının hız bonusu aşağıda listelenmiştir. 
 
-| Item Pipe Casing | Speed |
+| Boru Muhafazası | Hız |
 | --- | --- |
 | <ItemLink id="gregtech:gt.blockcasings11" showIcon="left" /> | 200% |
 | <ItemLink id="gregtech:gt.blockcasings11:1" showIcon="left" /> | 300% |
@@ -92,6 +92,6 @@ AWD can be upgraded by using higher-tier Item Pipe Casing. The speed bonus for e
 | <ItemLink id="gregtech:gt.blockcasings11:6" showIcon="left" /> | 800% |
 | <ItemLink id="gregtech:gt.blockcasings11:7" showIcon="left" /> | 900% |
 
-## References
+## Kaynaklar
 
-- [GTNH Wiki: Amazon Warehousing Depot](https://wiki.gtnewhorizons.com/wiki/Amazon_Warehousing_Depot)
+- [GTNH Wiki: Amazon Depolama Tesisi](https://wiki.gtnewhorizons.com/wiki/Amazon_Warehousing_Depot)

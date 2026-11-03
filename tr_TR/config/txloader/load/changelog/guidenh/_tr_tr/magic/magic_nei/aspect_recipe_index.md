@@ -4,25 +4,25 @@ navigation:
   parent: magic_nei.md
   icon: Thaumcraft:blockTable:15
 categories:
-    - Magic Changes
-    - Magic NEI
-    - Quality Of Life
+    - Büyü Değişiklikleri
+    - Büyülü NEI
+    - Yaşam Kalitesi
 author: Skorched, koolkrafter5
 date: 2026-06-09
 ---
 
-The Thaumcraft NEI Additions add-on mod has been rewritten to be a standalone mod and is now called <Color id="BLUE">Aspect Recipe Index</Color>! It contains every feature from <Color id="RED">Thaumcraft NEI Plugin</Color> and <Color id="RED">Thaumcraft NEI Additions</Color> with many new features and improvements.
+Thaumcraft NEI Additions eklenti modu, bağımsız bir mod olarak yeniden yazıldı ve artık <Color id="BLUE">Aspect Recipe Index</Color> adını taşıyor! <Color id="RED">Thaumcraft NEI Plugin</Color> ve <Color id="RED">Thaumcraft NEI Additions</Color> modlarındaki tüm özellikleri, birçok yeni özellik ve iyileştirmeyle birlikte içeriyor.
 
-A (non-exhaustive) list of these features are as follows:
+Bu özelliklerin (tam olmayan) bir listesi şöyledir:
 
-## New Features:
-- Better alignment of items, aspects, and backgrounds across all handlers.
-- Improved performance and various bug fixes.
-- You can now see recipes for <Color id="RED">every aspect</Color> at once in the <Color id="GREEN">Aspect Combination</Color> and <Color id="GREEN">Items Containing Aspect</Color> handlers by clicking __See All__.
-- A new handler has been added for <Color id="GREEN">Wand Crafting</Color> recipes, keeping them separate from generic <Color id="GREEN">Shaped Arcane Crafting</Color>!
-- Searching for uses of items that contain <Color id="RED">essentia</Color> now shows its uses in <Color id="GREEN">Alchemy</Color> and <Color id="GREEN">Infusion</Color> recipes. Try it with <ItemImage id="Thaumcraft:ItemEssence:1:{Aspects:[0:{amount:8,key:aer}]}"/> and <ItemImage id="Thaumcraft:BlockJarFilledItem:0:{Aspects:[0:{amount:64,key:ignis}]}"/>!
-- Recipes to upgrade <Color id="YELLOW">Runic Shielding</Color> are now visible in the <Color id="GREEN">Infusion</Color> handler. Searching for the uses of an item that can be upgraded will show the costs for the next recipe. Try it with <ItemImage id="Thaumcraft:ItemRingRunic:2"/>!
-- New configs (disabled by default) to show the names and combination recipes of <Color id="RED">undiscovered aspects</Color>.
+## Yeni Özellikler:
+- Tüm işleyicilerde eşyaların, aspektlerin ve arka planların daha iyi hizalanması.
+- İyileştirilmiş performans ve çeşitli hata düzeltmeleri.
+- Artık __Tümünü Gör__ seçeneğine tıklayarak <Color id="GREEN">Aspekt Kombinasyonu</Color> ve <Color id="GREEN">Aspekt İçeren Eşyalar</Color> işleyicilerinde <Color id="RED">her aspektin</Color> tarifini aynı anda görebilirsin.
+- <Color id="GREEN">Asa Üretimi</Color> tarifleri için yeni bir işleyici eklendi; böylece bunlar genel <Color id="GREEN">Düzenli Esrarengiz Üretim</Color> tariflerinden ayrı tutuluyor!
+- <Color id="RED">Esans</Color> içeren eşyaların kullanım yerlerini aramak, artık bunların <Color id="GREEN">Simya</Color> ve <Color id="GREEN">İnfüzyon</Color> tariflerindeki kullanımlarını da gösteriyor. <ItemImage id="Thaumcraft:ItemEssence:1:{Aspects:[0:{amount:8,key:aer}]}"/> ve <ItemImage id="Thaumcraft:BlockJarFilledItem:0:{Aspects:[0:{amount:64,key:ignis}]}"/> ile dene!
+- <Color id="YELLOW">Rünik Kalkan</Color> yükseltmesi tarifleri artık <Color id="GREEN">İnfüzyon</Color> işleyicisinde görünüyor. Yükseltilebilen bir eşyanın kullanım yerlerini aramak, bir sonraki tarifin maliyetlerini gösterecek. <ItemImage id="Thaumcraft:ItemRingRunic:2"/> ile dene!
+- <Color id="RED">Keşfedilmemiş aspektlerin</Color> adlarını ve kombinasyon tariflerini göstermek için yeni ayarlar (varsayılan olarak kapalı).
 
-## Issue Reporting:
-If you encounter any issues while using Aspect Recipe Index, please make an issue [here](https://github.com/GTNewHorizons/AspectRecipeIndex/issues).
+## Sorun Bildirme:
+Aspect Recipe Index kullanırken herhangi bir sorunla karşılaşırsan, lütfen [buraya](https://github.com/GTNewHorizons/AspectRecipeIndex/issues) bir sorun kaydı oluştur.

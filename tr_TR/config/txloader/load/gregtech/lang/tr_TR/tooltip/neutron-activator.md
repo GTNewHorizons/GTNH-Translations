@@ -1,9 +1,9 @@
-Superluminal-velocity Motion.
-The minimum height of the Speeding Pipe Casing is {red:4}
-Per extra Speeding Pipe Casing will give time discount
-{color_note:But it will reduce the Neutron Accelerator efficiency}
-You need to input energy to the Neutron Accelerator to get it running
-It will output correct products with Specific Neutron Kinetic Energy
-{color_note:Otherwise it will output trash}
-The Neutron Kinetic Energy will decrease {color_electron_volt:72{KeV}/s} when no Neutron Accelerator is running
-Inputting {color_key:Graphite}/{color_key:Beryllium} dust can reduce {color_electron_volt:10{MeV}} per dust immediately.
+Işıktan hızlı hareket.
+Hızlandıran Boru Muhafazasının minimum yüksekliği {red:4}
+Her ek Hızlandıran Boru Muhafazası zaman indirimi verir
+{color_note:Ancak Nötron Hızlandırıcısı verimliliğini düşürür}
+Nötron Hızlandırıcısının çalışması için enerji girmen gerekir
+Belirli Nötron Kinetik Enerjisi ile doğru ürünleri çıktı olarak verir
+{color_note:Aksi halde çöp çıktısı verir}
+Hiçbir Nötron Hızlandırıcısı çalışmıyorken Nötron Kinetik Enerjisi {color_electron_volt:72{KeV}/s} azalır
+{color_key:Grafit}/{color_key:Berilyum} tozu girmek, toz başına {color_electron_volt:10{MeV}} değerini anında düşürür.

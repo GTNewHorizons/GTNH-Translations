@@ -1,5 +1,5 @@
-Assembles basic components (motors, pumps, etc.) in large batches
-The {bold:{yellow:Component Assembly Line Casing}} limits the recipes the machine can perform. See the NEI pages for details
-Using casings above the required Recipe Tier provides a speed bonus:
-{color_note:Halves recipe time per tier above recipe}
-{italic:Much more efficient than other competing brands!}
+Basit bileşenleri (motorlar, pompalar vb.) büyük partiler halinde monte eder
+{bold:{yellow:Bileşen Montaj Hattı Kasası}} makinenin gerçekleştirebileceği tarifleri sınırlar. Ayrıntılar için NEI sayfalarına bak
+Gerekli Tarif Kademesinin üzerindeki kasaları kullanmak hız bonusu sağlar:
+{color_note:Tarifin üzerindeki her kademe için tarif süresini yarıya indirir}
+{italic:Diğer rakip markalardan çok daha verimli!}

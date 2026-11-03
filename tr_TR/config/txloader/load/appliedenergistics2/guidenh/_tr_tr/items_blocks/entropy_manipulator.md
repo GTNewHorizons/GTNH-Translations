@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Entropy Manipulator
+  title: Entropi Manipülatörü
   icon: appliedenergistics2:item.ToolEntropyManipulator
 categories:
 - tools
@@ -9,17 +9,17 @@ item_ids:
 - appliedenergistics2:item.ToolEntropyManipulator
 ---
 
-# The Entropy Manipulator
+# Entropi Manipülatörü
 
 <ItemImage id="appliedenergistics2:item.ToolEntropyManipulator" scale="4" />
 
-The Entropy Manipulator allows you to heat and cool things by right-clicking and shift-right-clicking respectively. It can't do much,
-just things like evaporating or freezing water, solidifying lava to obsidian, smelting logs to charcoal, and smelting cobble to stone in-world.
+Entropi Manipülatörü, sağ tıklayarak ısıtmanı, shift-sağ tıklayarak ise soğutmanı sağlar. Pek fazla iş yapamaz;
+sadece suyu buharlaştırmak ya da dondurmak, lavı obsidyene katılaştırmak, kütükleri odun kömürüne pişirmek ve moloz taşını dünyada taşa pişirmek gibi şeyler yapar.
 
-If there is not a specific thing it can do to a block, it will act as a flint-and-steel.
+Bir bloğa yapabileceği özel bir şey yoksa çakmaktaşı ve demir gibi çalışır.
 
-Its energy can be recharged in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
+Enerjisi bir <ItemLink id="appliedenergistics2:tile.BlockCharger" /> içinde şarj edilebilir.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:item.ToolEntropyManipulator" />

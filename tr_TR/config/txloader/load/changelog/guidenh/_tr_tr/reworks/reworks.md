@@ -1,13 +1,13 @@
 ---
 navigation:
-  title: Structure Reworks
+  title: Yapı Yenilemeleri
   parent: /index.md
   icon: gregtech:gt.blockmachines:15511
 ---
-# Structure Reworks
-As part of 2.9, cuboids are now officially banned!
+# Yapı Yenilemeleri
+2.9'un bir parçası olarak küboidler artık resmen yasaklandı!
 
-Seriously though, most of the multiblocks in the game have been reworked (visually and/or mechanically) to look better and perform better!
+Şaka bir yana, oyundaki multiblokların çoğu daha iyi görünmeleri ve daha iyi performans göstermeleri için (görsel ve/veya mekanik olarak) yenilendi!
 
-# List of Multi Reworks:
+# Çoklu Yenileme Listesi:
 <Category name="Structure Reworks" rows="3" />

@@ -1,2 +1,2 @@
 {hr}
-{color_parallel:Voltage Tier * Solenoid Tier * {var:parallel}} Parallels
+{color_parallel:Gerilim Kademesi * Solenoid Kademesi * {var:parallel}} Paralel

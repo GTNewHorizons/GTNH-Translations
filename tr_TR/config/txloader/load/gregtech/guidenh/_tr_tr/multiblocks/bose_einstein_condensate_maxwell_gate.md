@@ -4,43 +4,43 @@ item_ids:
 quest_ids:
   - HvtY6xu3RAKjwhAZCTwK8A==
 navigation:
-  title: Bose-Einstein Condensate Maxwell Gate
+  title: Bose-Einstein Yoğuşması Maxwell Geçidi
   parent: ./bose_einstein_condensate_line.md
   icon: gregtech:gt.blockmachines:15760
   position: -11001
 ---
-# Bose-Einstein Condensate Maxwell Gate
+# Bose-Einstein Yoğuşması Maxwell Geçidi
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15760" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left" /> is a UIV tier multiblock for limiting condensate flow in only one direction in the [BEC Line](./bose_einstein_condensate_line.md)--similar to an ME storage bus. 
+<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left" />, [BEC Hattı](./bose_einstein_condensate_line.md)'nda yoğuşma akışını yalnızca tek yönde sınırlamak için UIV kademesinde bir Multibloktur--ME depolama veriyoluna benzer. 
 
-The Maxwell Gate may be emplaced anywhere on a BEC network and effectively splits it into two separate subnetworks that connect to the <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> on either side of the structure. Everything on the left network is exposed to the right network, but not the other way around. 
+Maxwell Geçidi bir BEC ağında herhangi bir yere yerleştirilebilir ve onu etkili bir şekilde, yapının her iki yanındaki <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" />'ya bağlanan iki ayrı alt ağa böler. Sol ağdaki her şey sağ ağa açıktır, ancak tersi geçerli değildir. 
 
-The Maxwell Gate can also filter for specific condensates and only consumes 1A UIV while active, regardless of either network's status. 
+Maxwell Geçidi ayrıca belirli yoğuşmalar için filtreleme yapabilir ve etkinken, ağlardan birinin durumundan bağımsız olarak yalnızca 1A UIV tüketir. 
 
-Set the filter manually in the GUI of the controller or by filling input hatches with the original fluid of the desired condensate.
+Filtreyi, kontrolcünün GUI'sinde manuel olarak veya girdi kapaklarını istenen yoğuşmanın orijinal sıvısıyla doldurarak ayarla.
 
 > [!WARNING]
-> In this guide, "Left Network" means exposed network, and "Right Network" is watching network. terms are unified for ease of explanation.
+> Bu rehberde "Sol Ağ" maruz bırakılan ağ, "Sağ Ağ" ise izleyen ağ anlamına gelir. Terimler açıklama kolaylığı için birleştirilmiştir.
 >
-> You should check your machine's side and flipped status - the term `left` and `right` are based on default machine formation - flipping controller will change direction.
+> Makinenin yönünü ve ters çevrilme durumunu kontrol etmelisin - `sol` ve `sağ` terimleri varsayılan makine oluşumuna dayanır - kontrolcüyü ters çevirmek yönü değiştirir.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | UIV |
-| Structure Size (LxWxH) | 11x17x11 |
-| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| Kilit Açma Kademesi | UIV |
+| Yapı Boyutu (Uzunluk x Genişlik x Yükseklik) | 11x17x11 |
+| Güç | Herhangi bir Kapak kullanılabilir; Çoklu Amper ve Lazer Kapakları dahil |
+| Hız Aşırtmalar | Yok |
+| Bakım | Bakım gerekmez |
+| Kirlilik | Kirlilik üretmez |
 
 > [!TIP]
-> You can check Maxwell Gate's side by checking controller animation - It shows some "flows" that moves from input network to output network.
+> Maxwell Geçidi'nin yönünü kontrolcü animasyonuna bakarak kontrol edebilirsin - girdi ağından çıktı ağına hareket eden bazı "akışlar" gösterir.
 
-## Crafting and Construction
-### Crafting
+## Üretim ve İnşa
+### Üretim
 <RecipesFor id="gregtech:gt.blockmachines:15760" handlerBlacklist="gt.recipe.researchStation" />
 
 <RecipesFor id="gregtech:gt.blockcasings.bec" handlerBlacklist="gt.recipe.researchStation" />
@@ -59,20 +59,20 @@ Set the filter manually in the GUI of the controller or by filling input hatches
 
 <RecipesFor id="gregtech:gt.blockcasings.bec:6" handlerBlacklist="gt.recipe.researchStation" />
 
-### Structure
+### Yapı
 
-The Maxwell Gate has no tiered components, and can be rotated or flipped.
+Maxwell Geçidi'nde kademeli bileşen yoktur; döndürülebilir veya ters çevrilebilir.
 
-The energy hatch may replace any electromagnetically-isolated casing anywhere on the structure. 
+Enerji Kapağı, yapının herhangi bir yerindeki elektromanyetik olarak yalıtılmış herhangi bir kasanın yerini alabilir. 
 
-Multi-amp and laser energy hatches are supported, but it only ever consumes 1A UIV(33,554,432 EU/t) anyway.  
-Power tier doesn't matters, so you can provide 4A UEV, 16A UHV, or else.
+Çoklu amper ve lazer enerji kapakları desteklenir, ancak zaten her zaman yalnızca 1A UIV (33.554.432 EU/t) tüketir.  
+Güç kademesi önemli değildir; bu yüzden 4A UEV, 16A UHV veya başka bir şey sağlayabilirsin.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
+Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan.
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left" /> | 1, Front center, 6th layer |
+| <ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left" /> | 1, Ön merkez, 6. katman |
 | <ItemLink id="gregtech:gt.blockcasings.bec" showIcon="left" /> | 148 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:3" showIcon="left" /> | 92 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> | 75-90 |
@@ -81,52 +81,52 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | <ItemLink id="gregtech:gt.blockcasings.bec:4" showIcon="left" /> | 68 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:5" showIcon="left" /> | 40 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:6" showIcon="left" /> | 24 |
-| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 2, Center of each left and right casing |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 0+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 2, Sol ve sağ kasanın her birinin merkezinde |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Enerji Kapağı">Normal, Çoklu Amper, Lazer kullanılabilir</Tooltip> | 1+, herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerini alabilir |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Girdi Kapağı | 0+, herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerini alabilir |
 
-### Wallsharing
+### Duvar Paylaşımı
 
-The Maxwell Gate may wallshare each of its sides to save few blocks, and can share 1 Energy Hatch between two machines.
+Maxwell Geçidi birkaç blok tasarrufu için her bir kenarını duvar paylaşımına açabilir ve iki makine arasında 1 Enerji Kapağı paylaşabilir.
 
-## Usage
+## Kullanım
 
-The Maxwell Gate or BEC Diode is an optional step in the [BEC Line](./bose_einstein_condensate_line.md) for controlling condensate exposure/visibility. The Maxwell Gate does not push, pull, or buffer any condensate itself.
+Maxwell Geçidi veya BEC Diyodu, yoğuşma maruziyetini/görünürlüğünü kontrol etmek için [BEC Hattı](./bose_einstein_condensate_line.md)'nda isteğe bağlı bir adımdır. Maxwell Geçidi kendisi hiçbir yoğuşmayı itmez, çekmez veya tamponlamaz.
 
-The Maxwell Gate may be emplaced anywhere on a BEC network and effectively splits it into two separate subnetworks that connect to the <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> on either side of the structure. Everything on the left network is exposed to everything on the right network, but not the other way around.
+Maxwell Geçidi bir BEC ağında herhangi bir yere yerleştirilebilir ve onu etkili bir şekilde, yapının her iki yanındaki <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" />'ya bağlanan iki ayrı alt ağa böler. Sol ağdaki her şey sağ ağdaki her şeye açıktır, ancak tersi geçerli değildir.
 
-For the [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Entanglement Apparatus</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md) to push condensate to a [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Containment Fields</ItemLink>](./bose_einstein_condensate_containment_field.md) through a Maxwell Gate, the Entanglement Apparatus __**must**__ be on the right network and the Containment Field __**must**__ be on the left network, as seen in the following image.  
-Equal distribution rules still apply; if multiple Containment Fields are available, then the condensate is split proportional to their total field strength.
+[<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Dolanıklık Aparatı</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md)'nın yoğuşmayı bir Maxwell Geçidi üzerinden bir [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Muhafaza Alanı</ItemLink>](./bose_einstein_condensate_containment_field.md)'na itebilmesi için Dolanıklık Aparatı __**mutlaka**__ sağ ağda ve Muhafaza Alanı __**mutlaka**__ sol ağda olmalıdır; aşağıdaki görselde olduğu gibi.  
+Eşit dağıtım kuralları hâlâ geçerlidir; birden fazla Muhafaza Alanı mevcutsa yoğuşma, toplam alan güçleriyle orantılı olarak bölünür.
 
-For the [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) to pull condensate from a Containment Field through a Maxwell Gate, the Observation Array __**must**__ be on the right network and the Containment Field __**must**__ be on the left network, as seen in the following image.  
-Contaminant penalties still apply; each unrequested condensate significantly slows down processing speed and if there are ever more than three contaminants in the network at once then the recipe immediately fails and voids.  
+[<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizisi</ItemLink>](./bose_einstein_condensate_observation_array.md)'nin bir Muhafaza Alanından yoğuşmayı bir Maxwell Geçidi üzerinden çekebilmesi için Gözlem Dizisi __**mutlaka**__ sağ ağda ve Muhafaza Alanı __**mutlaka**__ sol ağda olmalıdır; aşağıdaki görselde olduğu gibi.  
+Kirletici cezaları hâlâ geçerlidir; talep edilmemiş her yoğuşma işlem hızını önemli ölçüde yavaşlatır ve ağda aynı anda üçten fazla kirletici bulunursa tarif derhal başarısız olur ve boşa gider.  
 
-![Valid and invalid Maxwell Gate setups - Image from Fox](/assets/images/multiblocks/bec_diode_setup.png)
+![Geçerli ve geçersiz Maxwell Geçidi kurulumları - Fox'tan görsel](/assets/images/multiblocks/bec_diode_setup.png)
 
-The Maxwell Gate allows all condensate through by default but it can also filter for specific condensates.  
-Set the filter manually in the GUI of the controller <FloatingImage src="gtnhintergalactic:textures/gui/overlay_button/options.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={4.0} scaleY={4.0} />or by filling input hatches with the original fluid of the desired condensate. 
+Maxwell Geçidi varsayılan olarak tüm yoğuşmanın geçmesine izin verir, ancak belirli yoğuşmalar için de filtre uygulayabilir.  
+Filtreyi, kontrolcünün GUI'sinde <FloatingImage src="gtnhintergalactic:textures/gui/overlay_button/options.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={4.0} scaleY={4.0} /> veya girdi kapaklarını istenen yoğuşmanın orijinal sıvısıyla doldurarak manuel olarak ayarla. 
 
-Filtering is particularly useful for passive condensate production and prevents contaminants from being exposed to the Observation Array. Without it, condensate would have to be requested on-demand which could take a very long time since the Entanglement Apparatus cannot be overclocked.
+Filtreleme, pasif yoğuşma üretimi için özellikle kullanışlıdır ve kirleticilerin Gözlem Dizisi'ne maruz kalmasını önler. Bu olmadan, yoğuşmanın talep üzerine istenmesi gerekirdi; Dolanıklık Aparatı hız aşırtılamadığı için bu çok uzun sürebilir.
 
-### OpenComputers Integration
-The Maxwell Gate is automatable with OpenComputers and has a few additional functions/methods compared to standard GregTech multiblocks, as seen below. These can be used to dynamically change the condensate filter with a script, instead of using actual fluids and input hatches.
+### OpenComputers Entegrasyonu
+Maxwell Geçidi OpenComputers ile otomatikleştirilebilir ve aşağıda görüldüğü gibi standart GregTech multibloklarına kıyasla birkaç ek işlev/yönteme sahiptir. Bunlar, gerçek sıvıları ve girdi kapaklarını kullanmak yerine yoğuşma filtresini bir betikle dinamik olarak değiştirmek için kullanılabilir.
 
 ```lua
--- List all available methods for the Maxwell Gate
+-- Maxwell Geçidi için mevcut tüm yöntemleri listele
 local component = require('component')
 local bec_diode = component.bec_diode
 
 for k,v in pairs(bec_diode) do print(k,v) end
 
--- Returns the fluid name of the current condensate filter
+-- Mevcut yoğuşma filtresinin sıvı adını döndürür
 bec_diode.getCondensateFilter()
 
--- Sets the condensate filter to the given fluid name
+-- Yoğuşma filtresini verilen sıvı adına ayarlar
 bec_diode.setCondensateFilter('name')
 ```
 
-Below table shows fluid name OpenComputers uses, and which condensate matches. 
-| Condensate | Names in OC |
+Aşağıdaki tablo, OpenComputers'ın kullandığı sıvı adını ve hangi yoğuşmanın eşleştiğini gösterir. 
+| Yoğuşma | OC'deki Adlar |
 | --- | --- |
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:941" showIcon="left" /> | entangled_neutronium |
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:942" showIcon="left" /> | entangled_cosmicneutronium |
@@ -149,5 +149,5 @@ Below table shows fluid name OpenComputers uses, and which condensate matches.
 | <ItemLink id="NotEnoughItems:neiFluidDisplay:959" showIcon="left" /> | entangled_eternity |
 
 
-## References
-- [GTNH Wiki : Bose-Einstein Condensate Maxwell Gate](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Maxwell_Gate)
+## Kaynaklar
+- [GTNH Wiki : Bose-Einstein Yoğuşması Maxwell Geçidi](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Maxwell_Gate)

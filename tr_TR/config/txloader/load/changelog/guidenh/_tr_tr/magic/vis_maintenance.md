@@ -2,19 +2,19 @@
 item_ids:
   - gregtech:gt.blockmachines:15753
 navigation:
-  title: Vis-Regulated Maintenance Hatch
+  title: Vis Ayarlı Bakım Kapağı
   parent: magic.md
   icon: gregtech:gt.blockmachines:15753
 categories:
-    - Magic Changes
-    - Quality Of Life
+    - Büyü Değişiklikleri
+    - Yaşam Kalitesi
 author: Skorched
 date: 2026-05-23
 ---
 
-Ever wished there was a way to automate your maintenance foci to keep your machines going? Well let me introduce you to the <ItemLink id="gregtech:gt.blockmachines:15753"/> <ItemImage id="gregtech:gt.blockmachines:15753"/>! This is an automated magical solution that keeps your machines running by using <Color id="RED">Centi-Vis</Color>
+Makinelerini çalışır durumda tutmak için bakım odaklarını otomatikleştirmenin bir yolunu hiç istedin mi? O zaman seni <ItemLink id="gregtech:gt.blockmachines:15753"/> ile tanıştırayım <ItemImage id="gregtech:gt.blockmachines:15753"/>! Bu, <Color id="RED">Centi-Vis</Color> kullanarak makinelerini çalışır durumda tutan otomatik ve sihirli bir çözüm.
 
-To repair maintenance issues, it draws 25 Primal Vis (2,500 Centi-Vis) of each aspect from your network.
+Bakım sorunlarını onarmak için ağından her aspekten 25 Primal Vis (2.500 Centi-Vis) çeker.
 
-In order to craft it, you will have to take a small detour into some dark magic and complete some new research in the <Color id="GREEN">EMT Tab</Color>. For those of you deep into magic however it is a worthy investment for having your hatches work for you!
+Bunu üretmek için kara büyüye küçük bir sapma yapman ve <Color id="GREEN">EMT Sekmesi</Color> içinde bazı yeni araştırmaları tamamlaman gerekecek. Ancak büyüyle derinden ilgilenenler için, kapaklarının senin yerine çalışması adına değerli bir yatırım!
 <RecipeFor id="gregtech:gt.blockmachines:15753" />

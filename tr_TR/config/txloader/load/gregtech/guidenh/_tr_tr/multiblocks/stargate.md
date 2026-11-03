@@ -4,7 +4,7 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAKDg==
 navigation:
-  title: Stargate
+  title: Yıldız Geçidi
   parent: ./multiblocks_index.md
   icon: SGCraft:stargateBase
   position: -13001

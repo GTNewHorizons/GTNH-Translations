@@ -1,1 +1,1 @@
-Turn {color_steam:Steam} back to {color_cold:Distilled Water}
+{color_steam:Buhar}'ı tekrar {color_cold:Damıtılmış Su}'a dönüştür

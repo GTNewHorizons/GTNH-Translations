@@ -5,9 +5,9 @@ quest_ids:
   - AAAAAAAAAAAAAAAAAAADDQ==
   - AAAAAAAAAAAAAAAAAAAMIA==
 navigation:
-  title: Pyrolyse Oven
+  title: Piroliz Fırını
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15546
   position: -2001
 ---
-# Pyrolyse Oven
+# Piroliz Fırını

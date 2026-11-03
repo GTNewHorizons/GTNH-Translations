@@ -1,9 +1,9 @@
 ---
 navigation:
-  title: GTNH Basics
-  icon: minecraft:grass
+  title: GTNH Temelleri
+  icon: minecraft:grass # Çim
   parent: /index.md
 ---
 
-> [!WARNING]
-> This page is under construction. Check again later, or [help contribute](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
+&gt; [!WARNING]
+&gt; Bu sayfa yapım aşamasında. Daha sonra tekrar kontrol et ya da [katkıda bulunmaya yardımcı ol](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!

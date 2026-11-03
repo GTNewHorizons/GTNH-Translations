@@ -1,13 +1,13 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Autocrafting
+  title: Otomatik Üretim
   icon: appliedenergistics2:item.ItemEncodedPattern
 ---
 
-# Autocrafting
+# Otomatik Üretim
 
-### The Big One
+### Büyük Konu
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/autocraft_setup_greebles.snbt" />
@@ -15,108 +15,85 @@ navigation:
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-Autocrafting is one of the primary functions of AE2. Instead of manually having to craft the correct number of each sub-ingredient
-and labor away like some sort of *plebian*, you can ask your ME system to do it for you. Or automatically craft items and export them somewhere.
-Or automatically keep certain amounts of items in stock through clever emergent behavior. It also works with fluids, and, if you have
-certain addons for extra mod material types, like Thaumcraft essentia, those materials too. It's pretty great.
+Otomatik üretim, AE2'nin temel işlevlerinden biridir. Her alt bileşenin doğru miktarını elle üretip *sıradan biri* gibi uğraşmak yerine ME sisteminden bunu senin için yapmasını isteyebilirsin. Ya da eşyaları otomatik üretip bir yere aktarabilirsin. Ya da akıllı, kendiliğinden ortaya çıkan davranışlarla belirli miktarlarda eşyayı stokta tutabilirsin. Sıvılarla da çalışır; Thaumcraft esansı gibi ek mod materyal türleri için belirli eklentilerin varsa, o materyallerle de çalışır. Oldukça harika.
 
-It is quite a complex topic, so strap in and let's go.
+Oldukça karmaşık bir konu, o yüzden kemerini bağla ve başlayalım.
 
-An autocrafting setup consists of 3 things:
-- The thing sending the crafting request
-- The crafting CPU
-- The <ItemLink id="appliedenergistics2:tile.BlockInterface" />.
+Bir otomatik üretim düzeneği 3 şeyden oluşur:
+- Üretim isteğini gönderen şey
+- Üretim CPU'su
+- <ItemLink id="appliedenergistics2:tile.BlockInterface" />.
 
-Here is what happens:
+Süreç şöyle işler:
 
-1.  Something creates a crafting request. This can be you in the terminal clicking on something autocraftable,
-    or an export bus or interface with a crafting card requesting one of the items they're set to export/stock.
+1.  Bir şey bir üretim isteği oluşturur. Bu, terminalde otomatik üretilebilir bir şeye tıklayan sen olabilirsin; ya da dışa aktarmak/stoklamak üzere ayarlandıkları eşyalardan birini isteyen, üretim kartlı bir dışa aktarma veriyolu veya arayüz olabilir.
 
-*   (**IMPORTANT:** use whatever you have bound to "pick block" (usually middle-mouse) to request crafts of something you already have in stock, this can conflict with inventory sorting mods),
+*   (**ÖNEMLİ:** Stokta zaten bulunan bir şeyin üretimini istemek için "blok seç"e (genellikle orta fare tuşu) atadığın tuşu kullan; bu, envanter sıralama modlarıyla çakışabilir),
 
-2.  The ME system calculates the required ingredients and prerequisite crafting steps to fulfill the request, and stores them in the selected crafting CPU
+2.  ME sistemi, isteği yerine getirmek için gereken bileşenleri ve ön koşul üretim adımlarını hesaplar ve bunları seçilen üretim CPU'sunda saklar
 
-3.  The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> with the relevant [pattern](../items_blocks/patterns.md) pushes the ingredients specified in the pattern to any adjacent inventory.
-    In the case of a crafting table recipe (a "crafting pattern") this will be a <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />.
-    In the case of a non-crafting recipe (a "processing pattern") this will be some other block or machine or elaborate redstone-controlled setup.
+3.  İlgili [kalıba](../items_blocks/patterns.md) sahip <ItemLink id="appliedenergistics2:tile.BlockInterface" />, kalıpta belirtilen bileşenleri bitişikteki herhangi bir envantere iter.
+    Üretim tezgâhı tarifi ("üretim kalıbı") söz konusuysa bu, bir <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> olur.
+    Üretim dışı bir tarif ("işleme kalıbı") söz konusuysa bu, başka bir blok, makine ya da özenli bir kızıltaş kontrollü düzenek olur.
 
-4.  The result of the craft is returned to the system somehow, be it by import bus, interface, or pushing the result back into an interface.
-    **Note that an "item entering system" event must occur, you can't just pipe the result into a chest with a <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> on it.**
+4.  Üretimin sonucu bir şekilde sisteme döner: içe aktarma veriyoluyla, arayüzle ya da sonucu bir arayüze geri iterek.
+    **Bir "eşyanın sisteme girmesi" olayının gerçekleşmesi gerektiğini unutma; sonucu üzerinde <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> bulunan bir sandığa boruyla gönderemezsin.**
 
-5.  If that craft is a prerequisite for another craft in the request, the items are stored in that crafting CPU and then used in that craft.
+5.  Bu üretim, istekteki başka bir üretimin ön koşuluysa eşyalar o üretim CPU'sunda saklanır ve ardından o üretimde kullanılır.
 
-## Recursive Recipes
+## Özyinelemeli Tarifler
 
-One thing the autocrafting algorithm *cannot* handle is recursive recipes. For example, duplication recipes like
-"1 redstone dust = 2 redstone dust", from throwing redstone in a Botania manapool. However, there is [a way to handle these recipes.](../tricks_example/recursive_crafting_setup.md)
+Otomatik üretim algoritmasının *baş edemediği* şeylerden biri özyinelemeli tariflerdir. Örneğin, Botania mana havuzuna kızıltaş atarak elde edilen "1 kızıltaş tozu = 2 kızıltaş tozu" gibi çoğaltma tarifleri. Ancak [bu tariflerle baş etmenin bir yolu var.](../tricks_example/recursive_crafting_setup.md)
 
-# Patterns
+# Kalıplar
 
 <ItemImage id="appliedenergistics2:item.ItemEncodedPattern" scale="4" />
 
-Patterns are made in a <ItemLink id="appliedenergistics2:item.ItemMultiPart:340" /> out of blank patterns.
+Kalıplar, <ItemLink id="appliedenergistics2:item.ItemMultiPart:340" /> içinde boş kalıplardan üretilir.
 
-There are several different types of pattern for different things:
+Farklı işler için birkaç farklı kalıp türü vardır:
 
-*   <ItemLink id="appliedenergistics2:item.ItemEncodedPattern" />s encode recipes made by a crafting table. They can be put directly in a <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> to make it
-    craft the result whenever given the ingredients, but their main use is in a <ItemLink id="appliedenergistics2:tile.BlockInterface" /> next to a molecular assembler.
-    ME Interfaces have special behavior in this case, and will send the relevant pattern along with the ingredients to adjacent assemblers.
-    Since assemblers auto-eject the results of crafts to adjacent inventories, an assembler on an interface is all that is needed to automate crafting patterns.
+*   <ItemLink id="appliedenergistics2:item.ItemEncodedPattern" /> türü kalıplar, üretim tezgâhında yapılan tarifleri kodlar. Doğrudan bir <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> içine konularak bileşenler verildiğinde sonucu üretmesi sağlanabilir, ancak asıl kullanımları moleküler montajcının yanındaki bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> içindedir.
+    ME Arayüzleri bu durumda özel davranır ve ilgili kalıbı bileşenlerle birlikte bitişikteki birleştiricilere gönderir.
+    Birleştiriciler üretim sonuçlarını bitişik envanterlere otomatik olarak attığından, bir arayüzün üzerindeki bir montajcı, üretim kalıplarını otomatikleştirmek için yeterlidir.
 
 ***
 
-*   <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />s are where a lot of flexibility in autocrafting comes from. They are the most generalized type, simply
-    saying "if an interface pushes these ingredients to adjacent inventories, the ME system will receive these items at some point in the
-    near or distant future". They are how you will autocraft with almost any modded machine, or furnaces and the like. Because they are so
-    general in use and do not care what happens between pushing ingredients and receiving the result, you can do some really funky stuff, like inputting
-    the ingredients into an entire complex factory production chain which will sort out stuff, take in other ingredients from infinitely-producing
-    farms, print the entirety of the Bee Movie script, the ME system does not care as long as it gets the result the pattern specifies. In fact,
-    it doesn't even care if the ingredients are in any way related to the result. You could tell it "1 cherry wood planks = 1 nether star" and have
-    your wither farm kill a wither upon receiving cherry wood planks and it would work.
+*   <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" /> türü kalıplar, otomatik üretimdeki esnekliğin büyük kısmını sağlar. En genelleştirilmiş türdürler; kısaca "bir arayüz bu bileşenleri bitişik envanterlere iterse, ME sistemi bu eşyaları yakın ya da uzak bir gelecekte bir noktada alacaktır" derler. Neredeyse tüm modlu makinelerle, fırınlarla ve benzerleriyle otomatik üretimi bu şekilde yaparsın. Kullanımları o kadar geneldir ki bileşenleri itmekle sonucu almak arasında ne olduğuyla ilgilenmezler; bu sayede gerçekten tuhaf şeyler yapabilirsin: bileşenleri, eşyaları ayıklayan, sonsuz üreten çiftliklerden başka bileşenler alan karmaşık bir fabrika üretim zincirine sokabilirsin, hatta Bee Movie senaryosunun tamamını yazdırabilirsin; ME sistemi, kalıbın belirttiği sonucu aldığı sürece umursamaz. Hatta bileşenlerin sonuçla herhangi bir ilgisi olup olmamasını bile umursamaz. Ona "1 kiraz ağacı tahtası = 1 Nether Yıldızı" diyebilir ve kiraz ağacı tahtası aldığında wither çiftliğinin bir wither öldürmesini sağlayabilirsin; işe yarar.
 
-The source also registers <ItemLink id="appliedenergistics2:item.ItemTunnelPattern" />, a processing-pattern variant used only by tunnel-pattern setups.
+Kaynak ayrıca yalnızca tünel kalıbı düzeneklerinde kullanılan bir işleme kalıbı varyantı olan <ItemLink id="appliedenergistics2:item.ItemTunnelPattern" /> öğesini de kaydeder.
 
-Multiple <ItemLink id="appliedenergistics2:tile.BlockInterface" />s with identical patterns are supported and work in parallel. Additionally, you can have a pattern say,
-for example, 8 cobblestone = 8 stone instead of 1 cobblestone = 1 stone, and the interface will insert 8 cobblestone into
-your smelting setup every operation instead of one at a time.
+Aynı kalıplara sahip birden fazla <ItemLink id="appliedenergistics2:tile.BlockInterface" /> desteklenir ve paralel çalışır. Ayrıca bir kalıp, örneğin 1 kırıktaş = 1 taş yerine 8 kırıktaş = 8 taş diyebilir; arayüz her işlemde eritme düzeneğine tek seferde bir yerine 8 kırıktaş ekler.
 
-With a [Pattern Optimization Matrix](../items_blocks/pattern_optimization_matrix.md) connected to the network, the crafting confirmation screen can optimize pattern batch sizes. The interface must also have **Allow pattern optimization** enabled.
+Ağa bağlı bir [Kalıp Optimizasyon Matrisi](../items_blocks/pattern_optimization_matrix.md) ile üretim onay ekranı, kalıp yığın boyutlarını optimize edebilir. Arayüzde ayrıca **Kalıp optimizasyonuna izin ver** seçeneğinin etkin olması gerekir.
 
-## The Most General Form of "Pattern"
+## "Kalıbın" En Genel Biçimi
 
-There is actually an even more "general" form of "pattern" than a processing pattern. A <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> with a crafting card can be set
-to emit a redstone signal in order to craft something. This "pattern" does not define, or even care about ingredients.
-All it says is "If you emit redstone from this level emitter, the ME system will receive this item at some point in the
-near or distant future". This is usually used to activate and deactivate infinite farms which require no input ingredients,
-or to activate a system that handles recursive recipes (which standard autocrafting cannot understand) like, for example, "1 cobblestone = 2 cobblestone"
-if you have a machine that duplicates cobblestone.
+Aslında işleme kalıbından bile daha "genel" bir "kalıp" biçimi vardır. Üretim kartlı bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" />, bir şey üretmek için kızıltaş sinyali yayacak şekilde ayarlanabilir. Bu "kalıp" bileşenleri tanımlamaz, hatta onları umursamaz bile.
+Tek söylediği şudur: "Bu seviye vericisinden kızıltaş yayarsan, ME sistemi bu eşyayı yakın ya da uzak bir gelecekte bir noktada alacaktır." Bu genellikle girdi bileşeni gerektirmeyen sonsuz çiftlikleri etkinleştirip devre dışı bırakmak ya da kırıktaş çoğaltan bir makinen varsa "1 kırıktaş = 2 kırıktaş" gibi özyinelemeli tarifleri (standart otomatik üretimin anlayamayacağı tarifler) işleyen bir sistemi etkinleştirmek için kullanılır.
 
-# The Crafting CPU
+# Üretim CPU'su
 
 <GameScene zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/crafting_cpus.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-Crafting CPUs manage crafting requests/jobs. They store the intermediate ingredients while crafting jobs with multiple steps are
-being carried out, and affect how big jobs can be, and to some degree how fast they are completed. They are multiblocks, and
-must be rectangular prisms with at least 1 crafting storage.
+Üretim CPU'ları üretim isteklerini/işlerini yönetir. Çok adımlı üretim işleri yürütülürken ara bileşenleri saklarlar; işlerin ne kadar büyük olabileceğini ve bir dereceye kadar ne kadar hızlı tamamlanacağını etkilerler. Multiblokturlar ve en az 1 üretim deposu bulunan dikdörtgen prizmalar olmalıdırlar.
 
-Crafting CPUs are made out of:
+Üretim CPU'ları şunlardan yapılır:
 
-*   (Required) [Crafting storages](../items_blocks/crafting_cpu.md), available in all the standard cell sizes (1k, 4k, 16k, 64k, 256k). They store the ingredients and
-    intermediate ingredients involved in a craft, so larger or more storages are required for the CPU to handle crafting jobs
-    with more ingredients.
-*   (Optional) <ItemLink id="appliedenergistics2:tile.BlockAdvancedCraftingUnit" />s, they make the system send out ingredient batches from interfaces more often.
-    This allows, say, an interface surrounded by 6 molecular assemblers to send ingredients to (and thus use) all 6 at once instead of just one.
-*   (Optional) <ItemLink id="appliedenergistics2:tile.BlockCraftingMonitor" />s, they display the job the CPU is handling at the moment. They can be colored via a <ItemLink id="appliedenergistics2:item.ToolColorApplicator" />
-*   (Optional) <ItemLink id="appliedenergistics2:tile.BlockCraftingUnit" />s, they simply fill space in order to make the CPU a rectangular prism.
+*   (Gerekli) [Üretim depoları](../items_blocks/crafting_cpu.md); tüm standart hücre boyutlarında (1k, 4k, 16k, 64k, 256k) bulunur. Bir üretimde yer alan bileşenleri ve ara bileşenleri saklarlar; bu yüzden daha fazla bileşenli üretim işlerini kaldırabilmesi için CPU'da daha büyük ya da daha çok depo gerekir.
+*   (İsteğe bağlı) <ItemLink id="appliedenergistics2:tile.BlockAdvancedCraftingUnit" /> birimleri, sistemin arayüzlerden bileşen yığınlarını daha sık göndermesini sağlar.
+    Bu sayede, örneğin 6 moleküler birleştiriciyle çevrili bir arayüz, bileşenleri tek bir birleştirici yerine 6'sına birden gönderebilir (ve böylece hepsini kullanabilir).
+*   (İsteğe bağlı) <ItemLink id="appliedenergistics2:tile.BlockCraftingMonitor" /> birimleri, CPU'nun o anda işlediği işi gösterir. <ItemLink id="appliedenergistics2:item.ToolColorApplicator" /> ile renklendirilebilirler.
+*   (İsteğe bağlı) <ItemLink id="appliedenergistics2:tile.BlockCraftingUnit" /> birimleri, CPU'yu dikdörtgen prizma yapmak için boşluğu doldurur.
 
-Each crafting CPU handles 1 request or job, so if you want to request both a calculation processor and 256 smooth stone at once, you need 2 CPU multiblocks.
+Her üretim CPU'su 1 istek veya iş işler; bu yüzden aynı anda hem hesaplama işlemcisi hem de 256 düz taş istemek istiyorsan 2 CPU multibloğuna ihtiyacın var.
 
-They can be set to handle requests from players, automation (export busses and interfaces), or both.
+Oyunculardan, otomasyondan (dışa aktarma veriyolları ve arayüzler) ya da her ikisinden gelen istekleri işleyecek şekilde ayarlanabilirler.
 
-# ME Interfaces
+# ME Arayüzleri
 
 <Row>
 <BlockImage id="appliedenergistics2:tile.BlockInterface" scale="4" />
@@ -128,58 +105,44 @@ They can be set to handle requests from players, automation (export busses and i
 </GameScene>
 </Row>
 
-<ItemLink id="appliedenergistics2:tile.BlockInterface" />s are the primary way in which your autocrafting system interacts with the world. They push the ingredients in
-their [patterns](../items_blocks/patterns.md) to adjacent inventories, and items can be inserted into them in order to insert them into the network. Often
-a channel can be saved by piping the output of a machine back into a nearby interface (often the one that pushed the ingredients)
-instead of using an <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> to pull the output of the machine into the network.
+<ItemLink id="appliedenergistics2:tile.BlockInterface" /> arayüzleri, otomatik üretim sisteminin dünyayla etkileşim kurmasının birincil yoludur. [Kalıplarındaki](../items_blocks/patterns.md) bileşenleri bitişik envanterlere iteler ve içlerine eşya eklenerek bu eşyalar ağa aktarılabilir. Bir makinenin çıktısını, <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> kullanarak ağa çekmek yerine yakındaki bir arayüze (genellikle bileşenleri iten arayüze) boruyla geri vermek çoğu zaman bir kanaldan tasarruf ettirir.
 
-Of note, since they push the ingredients directly from the [crafting storage](../items_blocks/crafting_cpu.md#crafting-storage) in a crafting CPU, they
-never actually contain the ingredients in their inventory, so you cannot pipe out from them. You have to have the interface push
-to another inventory (like a barrel) then pipe from that.
+Dikkat: Bileşenleri doğrudan bir üretim CPU'sundaki [üretim deposundan](../items_blocks/crafting_cpu.md#crafting-storage) ittikleri için bileşenler hiçbir zaman gerçekte envanterlerinde bulunmaz; bu yüzden onlardan boruyla çekiş yapamazsın. Arayüzün başka bir envantere (örneğin bir varile) itmesini, sonra da oradan boru çekmeni sağlamalısın.
 
-Also of note, the interface has to push ALL of the ingredients at once, it can't push half-batches. This is useful
-to exploit.
+Ayrıca dikkat: Arayüz TÜM bileşenleri tek seferde itmek zorundadır; yarım yığınlar gönderemez. Bunu kendi lehine kullanabilirsin.
 
-ME Interfaces have a special interaction with interfaces on [subnets](subnetworks.md): if the interface is unmodified (nothing in the request slots)
-the interface will skip the interface entirely and push directly to that subnet's [storage](../ae2_mechanics/import_export_storage.md),
-skipping the interface and not filling it with recipe batches, and more importantly, not inserting the next batch until there's space in storage.
+ME Arayüzleri, [alt ağlardaki](subnetworks.md) arayüzlerle özel bir etkileşime girer: Arayüz değiştirilmemişse (istek yuvalarında hiçbir şey yoksa) arayüzü tamamen atlar ve doğrudan o alt ağın [depolamasına](../ae2_mechanics/import_export_storage.md) iter; arayüzü atlar, onu tarif yığınlarıyla doldurmaz ve daha da önemlisi depolamada yer açılana kadar sonraki yığını eklemez.
 
-Multiple interfaces with identical patterns are supported and work in parallel.
+Aynı kalıplara sahip birden fazla arayüz desteklenir ve paralel çalışır.
 
-ME Interfaces will attempt to round-robin their batches to all of their faces, thus using all attached machines in parallel.
+ME Arayüzleri yığınlarını tüm yüzlerine dönüşümlü olarak göndermeye çalışır; böylece bağlı tüm makineleri paralel kullanır.
 
-## Variants
+## Varyantlar
 
-This branch does not have the normal, directional, and flat interface blocks found in newer AE2. Its interface block connects to the network and imports or exports from its faces; the flat interface is a cable subpart that allows compact placement and does not provide a network connection on its front face. Normal and flat interfaces can be converted in a crafting grid.
+Bu sürümde yeni AE2'de bulunan normal, yönlü ve düz arayüz blokları yoktur. Arayüz bloğu ağa bağlanır ve yüzlerinden içe/dışa aktarım yapar; düz arayüz ise kompakt yerleşime olanak tanıyan ve ön yüzünde ağ bağlantısı sunmayan bir kablo alt parçasıdır. Normal ve düz arayüzler üretim ızgarasında birbirine dönüştürülebilir.
 
-## Settings
+## Ayarlar
 
-ME Interfaces have a variety of modes:
+ME Arayüzlerinin çeşitli modları vardır:
 
-*   **Blocking Mode** stops the interface from pushing a new batch of ingredients if there are already
-    ingredients in the machine.
-*   **Lock Crafting** can lock the interface under various redstone conditions, or until the result of the
-    previous craft is inserted into that specific interface.
-*   The interface can be shown or hidden on <ItemLink id="appliedenergistics2:item.ItemMultiPart:480" />s.
+*   **Engelleme Modu**, makinede zaten bileşen varsa arayüzün yeni bir bileşen yığını itmesini durdurur.
+*   **Üretimi Kilitle**, arayüzü çeşitli kızıltaş koşullarında ya da önceki üretimin sonucu o belirli arayüze eklenene kadar kilitleyebilir.
+*   Arayüz, <ItemLink id="appliedenergistics2:item.ItemMultiPart:480" /> üzerinde gösterilebilir veya gizlenebilir.
 
-## Priority
+## Öncelik
 
-Priorities can be set by clicking the wrench in the top-right of the GUI. In the case of several [patterns](../items_blocks/patterns.md)
-for the same item, patterns in interface with higher priority will be used over patterns in interface with lower priority,
-unless the network does not have the ingredients for the higher priority pattern.
+Öncelikler, GUI'nin sağ üst köşesindeki anahtara tıklanarak ayarlanır. Aynı eşya için birkaç [kalıp](../items_blocks/patterns.md) varsa, ağın yüksek öncelikli kalıbın bileşenlerine sahip olmaması dışında, yüksek öncelikli arayüzdeki kalıplar düşük öncelikli arayüzdeki kalıplara tercih edilir.
 
-# Molecular Assemblers
+# Moleküler Birleştiriciler
 
 <BlockImage id="appliedenergistics2:tile.BlockMolecularAssembler" scale="4" />
 
-The <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> takes items input into it and carries out the operation defined by an adjacent <ItemLink id="appliedenergistics2:tile.BlockInterface" />,
-or the inserted <ItemLink id="appliedenergistics2:item.ItemEncodedPattern" />,
-then pushes the result to adjacent inventories.
+<ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />, kendisine verilen eşyaları alır ve bitişikteki bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> tarafından ya da içine yerleştirilen <ItemLink id="appliedenergistics2:item.ItemEncodedPattern" /> tarafından tanımlanan işlemi gerçekleştirir,
+ardından sonucu bitişik envanterlere iter.
 
-Their main use is next to a <ItemLink id="appliedenergistics2:tile.BlockInterface" />. ME Interfaces have special behavior in this case,
-and will send information about the relevant pattern along with the ingredients to adjacent assemblers. Since assemblers auto-eject the results of
-crafts to adjacent inventories (and thus into the return slots of the interface), an assembler on an interface
-is all that is needed to automate crafting patterns.
+Asıl kullanımları bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> yanındadır. ME Arayüzleri bu durumda özel davranır
+ve ilgili kalıbın bilgisini bileşenlerle birlikte bitişikteki birleştiricilere gönderir. Birleştiriciler üretim sonuçlarını bitişik envanterlere (ve böylece arayüzün dönüş yuvalarına) otomatik olarak attığından, bir arayüzün üzerindeki bir montajcı
+üretim kalıplarını otomatikleştirmek için yeterlidir.
 
 <GameScene zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/assembler_tower.snbt" />

@@ -1,6 +1,6 @@
-{color_voltage:{var:power}} {color_tier:{EU/t}} and {color_eu_capacity:{var:capacity}} {EU} capacity per {color_name:Energy Hatch}
-The total combined {EU} capacity must be greater than the recipe start cost to ignite
-Can only run {VNF:tier} recipes and below
+{color_voltage:{var:power}} {color_tier:{EU/t}} ve {color_name:Enerji Kapağı} başına {color_eu_capacity:{var:capacity}} {EU} kapasite
+Ateşlemek için toplam birleşik {EU} kapasitesi, tarif başlatma maliyetinden büyük olmalı
+Yalnızca {VNF:tier} ve altındaki tarifleri çalıştırabilir
 {hr}
-{color_note:Changing recipes consumes the start cost again}
-{color_mechanic:Performs {var:eu_per_oc}/{var:time_per_oc} Perfect Overclocks}
+{color_note:Tarifleri değiştirmek başlatma maliyetini yeniden tüketir}
+{color_mechanic:{var:eu_per_oc}/{var:time_per_oc} Mükemmel Hız Aşımı gerçekleştirir}

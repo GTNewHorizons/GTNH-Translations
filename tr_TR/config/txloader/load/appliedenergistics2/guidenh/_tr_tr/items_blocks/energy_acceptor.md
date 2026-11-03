@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Energy Acceptor
+  title: Enerji Alıcısı
   icon: appliedenergistics2:tile.BlockEnergyAcceptor
 categories:
 - network infrastructure
@@ -9,21 +9,20 @@ item_ids:
 - appliedenergistics2:tile.BlockEnergyAcceptor
 ---
 
-# Energy Acceptor
+# Enerji Alıcısı
 
 <Row gap="20">
 <BlockImage id="appliedenergistics2:tile.BlockEnergyAcceptor" scale="4" />
 </Row>
 
-The energy acceptor converts other technology mods' energy systems into AE2's internal [energy](../ae2_mechanics/energy.md), AE. A <ItemLink id="appliedenergistics2:tile.BlockController" /> can also perform this conversion, but controller faces are valuable, so a dedicated acceptor is usually preferable.
+Enerji alıcısı, diğer teknoloji modlarının enerji sistemlerini AE2'nin dahili [enerjisine](../ae2_mechanics/energy.md), yani AE'ye dönüştürür. Bir <ItemLink id="appliedenergistics2:tile.BlockController" /> da bu dönüşümü yapabilir, ancak kontrolcü yüzleri değerlidir; bu yüzden genellikle ayrı bir alıcı tercih edilir.
 
-Conversion speed depends entirely on how much AE the network can store. The conversion ratios can be adjusted in the mod configuration; common defaults include 1 EU = 2 AE and 2 RF/FE = 1 AE.
+Dönüşüm hızı tamamen ağın ne kadar AE depolayabildiğine bağlıdır. Dönüşüm oranları mod yapılandırmasında ayarlanabilir; yaygın varsayılanlar 1 EU = 2 AE ve 2 RF/FE = 1 AE'dir.
 
-## Variants
+## Varyantlar
 
-Energy acceptors have normal and flat/[subpart](../ae2_mechanics/cables_subparts.md) variants for compact layouts. The two forms can be converted in a crafting grid.
+Enerji alıcılarının kompakt yerleşimler için normal ve düz/[alt parça](../ae2_mechanics/cables_subparts.md) varyantları vardır. İki biçim üretim ızgarasında birbirine dönüştürülebilir.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:tile.BlockEnergyAcceptor" />
-

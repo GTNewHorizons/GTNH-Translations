@@ -1,41 +1,41 @@
 ---
 navigation:
-  title: Field Engineer's Toolbox
+  title: Saha Mühendisinin Alet Çantası
   parent: qol.md
   icon: gregtech:gt.Item_Toolbox
 categories:
-    - Quality Of Life
+    - Yaşam Kalitesi
 author: Skorched
 date: 2026-05-16
 ---
 
-# Field Engineer's Toolbox
-As part of the changes to unify things, there is now a new and improved <Color id="GREEN">Field Engineer's Toolbox</Color> <ItemImage id="gregtech:gt.Item_Toolbox" />
+# Saha Mühendisinin Alet Çantası
+İşleri birleştirmeye yönelik değişikliklerin bir parçası olarak, artık yeni ve geliştirilmiş bir <Color id="GREEN">Saha Mühendisinin Alet Çantası</Color> <ItemImage id="gregtech:gt.Item_Toolbox" /> var.
 
-This is a direct upgrade of the IndustrialCraft2 Toolbox with many new exciting features!
+Bu, IndustrialCraft2 Alet Çantası'nın birçok yeni ve heyecan verici özellik içeren doğrudan bir yükseltmesidir!
 
-It comes with dedicated slots for all of your tools, and a dedicated battery slot allowing you to charge on the go! You can also charge the entire toolbox at once in machines as long as the battery is present.
+Tüm aletleriniz için özel yuvalar ve hareket halindeyken şarj etmenizi sağlayan özel bir pil yuvasıyla gelir. Pil takılı olduğu sürece tüm alet çantasını makinelerde tek seferde şarj edebilirsiniz.
 
-There are six additional slots for whatever you want to have at hand! <Color id="BLUE">Soldering Irons</Color> will pull soldering materials from these slots.
+El altında bulundurmak istediğiniz her şey için altı ek yuva vardır! <Color id="BLUE">Lehim Havyaları</Color> lehim malzemelerini bu yuvalardan alacaktır.
 
-Pressing _<KeyBind id="key.pickItem" />_ (Default: Middle Mouse) will open a radial menu and allow you to select a tool. This will let you use the tool _without removing it from the toolbox_. The toolbox will act as that tool equipped, and all damage and power discharge is applied directly to the tool being used!
+_<KeyBind id="key.pickItem" />_ tuşuna basmak (Varsayılan: Orta Fare) bir radyal menü açar ve bir alet seçmenizi sağlar. Bu, aleti _alet çantasından çıkarmadan_ kullanmanıza olanak tanır. Alet çantası, o alet takılıymış gibi davranır ve tüm hasar ve güç boşalması doğrudan kullanılan alete uygulanır!
 
-Pressing _<KeyBind id="key.pickItem" />_ (Default: Middle Mouse) whilst looking at a block with an appropriate required tool will equip that tool if it is stored, skipping the radial menu! For example, if looking at a <Color id="GREEN">Tin Cable</Color>, this will equip the wire cutters you have stored.
+Uygun bir gerekli alete sahip bir bloğa bakarken _<KeyBind id="key.pickItem" />_ tuşuna basmak (Varsayılan: Orta Fare), alet depoda saklıysa radyal menüyü atlayarak o aleti takar! Örneğin, bir <Color id="GREEN">Kalay Kablo</Color>'ya bakıyorsanız, bu, sakladığınız tel kesicileri takar.
 
-Right clicking a maintenance hatch will fix it in the same way that the original IC2 toolbox did.
+Bir Bakım Kapağına sağ tıklamak, orijinal IC2 alet çantasının yaptığı şekilde onu onarır.
 
-Changing a Programmable Circuit <ItemImage id="gregtech:gt.integrated_circuit" /> will look for a screwdriver in your toolbox, even if not equipped!
+Programlanabilir bir Devreyi <ItemImage id="gregtech:gt.integrated_circuit" /> değiştirmek, takılı olmasa bile alet çantanızda bir tornavida arar!
 
-Tools with "modes" (such as <Color id="BLUE">Line Mode</Color> on the wrench) can be toggled from the toolbox itself as long as the tool is equipped
+"Modları" olan aletler (örneğin İngiliz Anahtarı'ndaki <Color id="BLUE">Çizgi Modu</Color>), alet takılı olduğu sürece alet çantasının kendisinden açılıp kapatılabilir
 <RecipeFor id="gregtech:gt.Item_Toolbox"/>
 <FloatingImage src="../assets/qol/toolbox_ui.png" wrap="inline" align="left" displayWidth="256">
   <ImageAnnotation>
-    The internal UI of the new toolbox  
-</ImageAnnotation>
+    Yeni alet çantasının iç arayüzü  
+  </ImageAnnotation>
 </FloatingImage>
 
 <FloatingImage src="../assets/qol/toolbox_radial.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
-    The radial menu of the new toolbox  
-</ImageAnnotation>
+    Yeni alet çantasının radyal menüsü  
+  </ImageAnnotation>
 </FloatingImage>

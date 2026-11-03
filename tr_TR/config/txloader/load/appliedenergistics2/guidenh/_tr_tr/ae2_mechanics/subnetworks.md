@@ -1,75 +1,75 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Subnetworks
+  title: Alt Ağlar
   icon: appliedenergistics2:item.ItemMultiPart:140
 ---
 
-# Subnetworks
+# Alt Ağlar
 
 <GameScene width="600" height="400" zoom={4} rotateX={25} rotateY={-45}>
   <ImportStructure src="../assets/structures/subnet_demonstration.snbt" />
 
   <DiamondAnnotation pos="1.5 2.5 9.5" color="#00ff00">
-  Transports the assembler outputs into the barrel.
+  Montajcı çıktılarını varile taşır.
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="1.5 2.5 8.5" color="#00ff00">
-  Transports the top Super Tank's fluids into the bottom one.
+  Üstteki Süper Tank'ın sıvılarını alttakine taşır.
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="1.5 2.5 7.5" color="#00ff00">
-  Redstone P2P subnet, transmitting the redstone block \
-  power into the redstone lamp.
+  Kızıltaş P2P alt ağı, kızıltaş bloğunun \
+  gücünü kızıltaş lambasına iletir.
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="1.5 2.5 6.5" color="#00ff00">
-  Transports the barrel's contents into an item void cell.
+  Varilin içeriğini bir eşya yok etme hücresine taşır.
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="1.5 2.5 5.5" color="#00ff00">
-  Subnet using the Interface-Storage Bus interaction to \
-  act as a local sub-storage that the main network can \
-  access.
+  Arayüz-Depolama Veriyolu etkileşimini kullanarak \
+  ana ağın erişebileceği yerel bir alt depolama \
+  görevi gören alt ağ.
   </DiamondAnnotation>
 
   <DiamondAnnotation pos="2.5 0.5 3.5" color="#00ff00">
-  EBF autocrafting subnet that transports a pattern's contents \
-  into the EBF's inputs, then outputting back to the main network \
-  from the same interface that the patterns came through.
+  Bir kalıbın içeriğini EYF'nin girişlerine taşıyan, \
+  ardından çıktıyı kalıpların geldiği aynı arayüzden \
+  ana ağa geri veren EYF otomatik üretim alt ağı.
   </DiamondAnnotation>
 </GameScene>
 
-"Subnetwork" is a rather loosely-defined term, but one might say that a subnetwork is any [network](./me_network_connections.md) that supports your
-main network or does some small task. Early on, they are typically small enough to not require controllers, however that changes very quickly with the introduction of multiblocks into your AE2 system.
+"Alt ağ" oldukça gevşek tanımlanmış bir terim; yine de bir alt ağın ana ağını destekleyen veya küçük bir iş yapan herhangi bir [ağ](./me_network_connections.md) olduğu söylenebilir. Başlangıçta genellikle kontrolcü gerektirmeyecek kadar küçüktürler; ancak AE2 sistemine multibloklar girdiğinde bu çok hızlı değişir.
 
-Their main 3 uses tend to be:
+Başlıca 3 kullanım alanı şunlardır:
 
-* To restrict what [devices](./devices.md) have access to what storage (for example, you don't want your ore processing subnet to dump its products into your main network, but you still want to see them from the main network).
-* To save channels on your main network, like having an interface with patterns output to an interface connected to several storage buses on several machines, using 1 channel (from main network) instead of putting an interface on several machines, using several channels. 
-* To save on dense cables and space, packaging up to 32 main network channels into a single channel on a [P2P](./p2p_tunnels.md) carrier sub-network for efficient channel transport over long distances.
+* [Cihazların](./devices.md) hangi depolamaya erişebileceğini kısıtlamak (örneğin cevher işleme alt ağının ürünlerini ana ağına boşaltmasını istemezsin ama yine de onları ana ağdan görmek istersin).
+* Ana ağda kanal tasarrufu yapmak; örneğin kalıplı bir arayüzün çıktısını birkaç makinedeki birkaç depolama veriyoluna bağlı bir arayüze vermek, birkaç makineye arayüz koyup birkaç kanal kullanmak yerine (ana ağdan) 1 kanal kullanır. 
+* Kalın kablolardan ve alandan tasarruf etmek; 32 ana ağ kanalını tek bir [P2P](./p2p_tunnels.md) taşıyıcı alt ağı kanalında paketleyerek uzun mesafelerde verimli kanal taşımacılığı yapmak.
 
-Very important in making a subnet is keeping track of the [network connections](./me_network_connections.md).
-Often, people put together some jumble of interfaces and busses and stuff and expect it to be a subnet when
-all the devices are still connected to the main network through various fullblock devices.
+Alt ağ oluştururken [ağ bağlantılarını](./me_network_connections.md) takip etmek çok önemlidir.
+Çoğu zaman insanlar arayüz, veriyolu ve benzeri şeylerden karmaşık bir yığın oluşturup bunun bir alt ağ olmasını bekler;
+oysa tüm cihazlar hâlâ çeşitli tam blok cihazlar üzerinden ana ağa bağlıdır.
 
 > [!NOTE]
-> Cables with different colors have nothing to do with making a subnetwork other than that they won't connect to each other.
+> Farklı renkteki kabloların alt ağ oluşturmakla ilgisi yoktur; tek farkları birbirlerine bağlanmamalarıdır.
 
-Some use cases for subnets are:
+Alt ağların bazı kullanım durumları şunlardır:
 
-* <Color id="BLUE"> Abstraction</Color>. Manage all the details of a complex crafting operation from your subnetwork, so from the perspective
-  of your main net, the entire factory "looks like" one machine.
-* <Color id="GREEN"> Parallelism</Color>. Replace a slow machine with 10 copies of the slow machine. From the perspective of your main net, nothing's changed, and you aren't even using any more channels.
-* <Color id="YELLOW"> Multiblock patterning</Color>. Send all your ingredients to the same input buses/hatches with ease on a subnet.
+* <Color id="BLUE"> Soyutlama</Color>. Karmaşık bir üretim işleminin tüm ayrıntılarını alt ağından yönet; böylece ana ağının bakış açısından
+  tüm fabrika tek bir makine gibi "görünür".
+* <Color id="GREEN"> Paralellik</Color>. Yavaş bir makineyi yavaş makinenin 10 kopyasıyla değiştir. Ana ağının bakış açısından hiçbir şey değişmez
+  ve fazladan kanal bile kullanmazsın.
+* <Color id="YELLOW"> Multiblok kalıplama</Color>. Tüm malzemelerini bir alt ağda kolayca aynı giriş veriyollarına/kapaklarına gönder.
 
-Some examples include:
+Bazı örnekler şunlardır:
 
-* An import bus and storage bus set up to transfer items or fluids from one container to another like an item or fluid pipe.
-* An annihilation plane and storage bus, so that the only place the annihilation plane can put what it breaks is the storage bus, allowing you to filter the plane.
-* An interface and formation plane, so that whatever is inserted into the interface gets pushed to the formation plane and placed/dropped in the world.
-* A specialized storage system accessible from the main network via the special Storage Bus on Interface interaction, in order to store the output of a farm without endlessly overflowing your main storage.
-* And so on
+* Bir eşya veya sıvı borusu gibi eşya ya da sıvıları bir kaptan diğerine aktarmak için kurulmuş bir içe aktarma veriyolu ve depolama veriyolu.
+* Bir yok etme düzlemi ve depolama veriyolu; böylece yok etme düzleminin kırdığı şeyleri koyabileceği tek yer depolama veriyolu olur ve düzlemi filtreleyebilirsin.
+* Bir arayüz ve oluşturma düzlemi; böylece arayüze eklenen her şey oluşturma düzlemine itilir ve dünyaya yerleştirilir/bırakılır.
+* Ana ağdan Arayüz üzerindeki Depolama Veriyolu etkileşimiyle erişilebilen özel bir depolama sistemi; böylece bir çiftliğin çıktısını ana depolamanı sonsuza dek taşırmadan saklayabilirsin.
+* Ve benzerleri
 
-Very useful for making subnetworks is the <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left" />. It transfers power between networks without
-connecting them, allowing you to power subnets without needing to put energy acceptors and power cables everywhere.
+Alt ağ oluştururken <ItemLink id="appliedenergistics2:item.ItemMultiPart:140" showIcon="left" /> çok işine yarar. Ağlar arasında onları birbirine bağlamadan
+güç aktarır; böylece her yere enerji alıcıları ve güç kabloları koymadan alt ağlara güç verebilirsin.

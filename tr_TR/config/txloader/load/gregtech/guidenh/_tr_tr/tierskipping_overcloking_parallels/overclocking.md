@@ -1,53 +1,53 @@
 ---
 navigation:
-  title: "Overclocking"
+  title: "Hız Aşırtma"
   icon: gregtech:gt.blockmachines:15410
   parent: T_O_P_index.md
   position: -2
 ---
 
-# Overclocking
+# Hız Aşırtma
 
-**Overclocking** means increasing [rated power](T_O_P_index.md#rated-power) so the machine can complete recipes in less time. Whenever the machine's rated power exceeds (actual parallels x actual recipe power) by a sufficient factor, usually 4x, the machine gains one overclock and the recipe duration is reduced. Unlike **[tier skipping](tierskipping.md)**, overclocking can happen multiple times.
+**Hız aşırtma**, makinenin tarifleri daha kısa sürede tamamlayabilmesi için [nominal gücü](T_O_P_index.md#rated-power) artırmak anlamına gelir. Makinenin nominal gücü (gerçek paralel sayısı x gerçek tarif gücü) değerini yeterli bir katsayıyla, genellikle 4x, aştığında makine bir hız aşırtma kazanır ve tarif süresi kısalır. **[Kademe atlamadan](tierskipping.md)** farklı olarak hız aşırtma birden çok kez gerçekleşebilir.
 
-Overclocking has nothing to do with [voltage tier](T_O_P_index.md#voltage-tier). Using higher-tier Energy Hatches raises the rated power of a single hatch, allowing more overclocks; stacking multiple Energy Hatches can achieve a similar effect. The common case of installing two same-tier Energy Hatches is often called **dual-hatch overclocking**.
+Hız aşırtmanın [gerilim kademesi](T_O_P_index.md#voltage-tier) ile hiçbir ilgisi yoktur. Daha yüksek kademeli Enerji Kapakları kullanmak tek bir kapağın nominal gücünü artırarak daha fazla hız aşırtmaya olanak tanır; birden fazla Enerji Kapağı istiflemek de benzer bir etki sağlayabilir. Aynı kademeden iki Enerji Kapağı takılan yaygın duruma genellikle **çift kapaklı hız aşırtma** denir.
 
-Before it starts overclocking, a multiblock first calculates and attempts **[parallels](parallels.md)**. Overclocking and batch mode are completely separate features.
+Hız aşırtmaya başlamadan önce bir Multiblok önce **[paralelleri](parallels.md)** hesaplar ve denemeye çalışır. Hız aşırtma ve yığın modu tamamen ayrı özelliklerdir.
 
-# Types of Overclocking
+# Hız Aşırtma Türleri
 
-## Imperfect Overclocking (4/2)
+## Kusurlu Hız Aşırtma (4/2)
 
-This is the default behavior. Each overclock multiplies power draw by 4 and cuts duration in half. Total energy doubles, so this is called **imperfect overclocking**. Most machines use this mode.
+Bu varsayılan davranıştır. Her hız aşırtma güç çekişini 4 ile çarpar ve süreyi yarıya indirir. Toplam enerji ikiye katlanır, bu yüzden buna **kusurlu hız aşırtma** denir. Çoğu makine bu modu kullanır.
 
-## Perfect Overclocking (4/4)
+## Kusursuz Hız Aşırtma (4/4)
 
-Each overclock multiplies rated power by 4, cuts duration to one quarter, and leaves total energy unchanged. This is called **perfect overclocking**. One example is <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />.
+Her hız aşırtma nominal gücü 4 ile çarpar, süreyi dörtte bire indirir ve toplam enerjiyi değiştirmez. Buna **kusursuz hız aşırtma** denir. Bir örnek <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />.
 
-## Lossless Overclocking (2/2)
+## Kayıpsız Hız Aşırtma (2/2)
 
-When rated power increases by 4x, actual power usage only increases by 2x and duration is halved. The singleblock Mass Fabricator is an example.
+Nominal güç 4x artarken gerçek güç kullanımı yalnızca 2x artar ve süre yarıya iner. Tek bloklu Kütle İmalatçısı buna bir örnektir.
 
-## Special Overclocking
+## Özel Hız Aşırtma
 
-Many machines do not fit cleanly into the categories above. For example:
-- <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />: first uses imperfect overclocks up to the Energy Hatch tier, then uses laser overclocks based on amperage, where the $$n$$th step increases power by $$(4+0.3n)$$
-- <ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />: one overclock multiplies input energy by 4 and halves duration, which works out roughly like an 8/2 overclock
+Birçok makine yukarıdaki kategorilere tam olarak uymaz. Örneğin:
+- <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />: önce Enerji Kapağı kademesine kadar kusurlu hız aşırtmalar kullanır, ardından amperaja dayalı lazer hız aşırtmaları kullanır; burada $$n$$. adım gücü $$(4+0.3n)$$ kadar artırır
+- <ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />: bir hız aşırtma girdi enerjisini 4 ile çarpar ve süreyi yarıya indirir; bu da kabaca 8/2 hız aşırtma gibi sonuçlanır
 
-## Cannot Overclock
+## Hız Aşırtma Yapılamayanlar
 
-Special-purpose machines such as <ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:9402" showIcon="left" />, and <ItemLink id="gregtech:gt.blockmachines:1006" showIcon="left" /> do not allow overclocking.
+<ItemLink id="gregtech:gt.blockmachines:15331" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:9402" showIcon="left" /> ve <ItemLink id="gregtech:gt.blockmachines:1006" showIcon="left" /> gibi özel amaçlı makineler hız aşırtmaya izin vermez.
 
-# Overclocking Low-Power Recipes
+# Düşük Güçlü Tariflerde Hız Aşırtma
 
-Any recipe whose actual power is below 32 EU/t is treated as 32 EU/t for overclock calculations. This means ULV recipes, 1 to 8 EU/t, are treated as LV power. ULV is not treated as a standard voltage tier and does not participate in overclocking or parallel calculations as its own tier.
+Gerçek gücü 32 EU/t'nin altında olan her tarif, hız aşırtma hesaplamalarında 32 EU/t olarak kabul edilir. Bu, 1 ila 8 EU/t arasındaki ULV tariflerinin LV gücü olarak kabul edildiği anlamına gelir. ULV standart bir gerilim kademesi olarak kabul edilmez ve kendi kademesi olarak hız aşırtma veya paralel hesaplamalarına katılmaz.
 
-# Calculating Recipe Duration
+# Tarif Süresinin Hesaplanması
 
-Recipe duration is measured in ticks, where one tick is 0.05 seconds. Overclocking is calculated using floating-point values, and the final duration is rounded down to an integer number of ticks. If rounding down would produce 0, it is forced to 1 tick. At that point, some multiblocks trigger **1tOC** ([overclocking after reaching 1 tick](parallels.md#overclocking-after-reaching-1-tick-1toc)).
+Tarif süresi tick cinsinden ölçülür; bir tick 0,05 saniyedir. Hız aşırtma kayan noktalı değerlerle hesaplanır ve son süre tam sayı tick sayısına aşağı yuvarlanır. Aşağı yuvarlama 0 üretirse 1 tick'e zorlanır. Bu noktada bazı Multibloklar **1tOC** ([1 tick'e ulaştıktan sonra hız aşırtma](parallels.md#overclocking-after-reaching-1-tick-1toc)) tetikler.
 
-Rounding always favors the player, so in some cases overclocking can make total energy efficiency exceed 100%.
+Yuvarlama her zaman oyuncunun lehinedir, bu yüzden bazı durumlarda hız aşırtma toplam enerji verimliliğini %100'ün üzerine çıkarabilir.
 
-Example - imperfect overclocking: $$10 \text{ tick} \to 5\text{ tick} \to 2\text{ tick} \to 1 \text{ tick} \to 1\text{ tick}$$
+Örnek - kusurlu hız aşırtma: $$10 \text{ tick} \to 5\text{ tick} \to 2\text{ tick} \to 1 \text{ tick} \to 1\text{ tick}$$
 
-Example - perfect overclocking: $$40 \text{ tick} \to 10\text{ tick} \to 2\text{ tick} \to 1\text{ tick} \to 1\text{ tick}$$
+Örnek - kusursuz hız aşırtma: $$40 \text{ tick} \to 10\text{ tick} \to 2\text{ tick} \to 1\text{ tick} \to 1\text{ tick}$$

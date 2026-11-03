@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:31087
 navigation:
-  title: Steam Hearth
+  title: Buhar Ocağı
   parent: multis.md
   icon: gregtech:gt.blockmachines:31087
 categories:
@@ -11,21 +11,21 @@ author: Skorched
 date: 2026-05-25
 ---
 
-# Steam Hearth
+# Buhar Ocağı
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31087" />
 </GameScene>
-The <Color id="GREEN">Steam Hearth</Color> is a Steam tier multiblock for smelting, blasting, and smoking raw materials. The <Color id="GREEN">Steam Hearth</Color> is a direct upgrade from the singleblock steam furnace because it runs at 125% speed, only uses 62.5% of the steam normally required, and offers 8 parallels. There are two tiers of the machine: basic (T1) and high-pressure (T2). As with the other steam-age multiblocks, the high-pressure version consumes twice the amount of steam to run twice as fast. There are also three modes to pick from. The default <Color id="GREEN">Smelting</Color> mode can process any recipe without any restrictions or additional benefits. The <Color id="RED">Blasting</Color> mode restricts the machine to ores/metals for twice the speed and steam usage. The <Color id="BLUE">Smoking</Color> mode restricts the machine to food items for twice the speed and steam usage. The <Color id="GREEN">Steam Hearth</Color> is superseded by the <ItemLink id="gregtech:gt.blockmachines:1003"/> <ItemImage id="gregtech:gt.blockmachines:1003"/> in HV. 
+<Color id="GREEN">Buhar Ocağı</Color>, ham maddeleri eritmek, yüksek fırında işlemek ve tütsülemek için Buhar kademesinde bir multibloktur. <Color id="GREEN">Buhar Ocağı</Color>, tek bloklu buhar fırınına göre doğrudan bir yükseltmedir çünkü %125 hızda çalışır, normalde gereken buharın yalnızca %62,5'ini kullanır ve 8 paralel sunar. Makinenin iki kademesi vardır: temel (T1) ve yüksek basınç (T2). Diğer buhar çağı multibloklarında olduğu gibi yüksek basınçlı sürüm iki kat hızlı çalışmak için iki kat buhar tüketir. Ayrıca aralarından seçim yapabileceğin üç mod vardır. Varsayılan <Color id="GREEN">Ergitme</Color> modu herhangi bir tarifi kısıtlama veya ek avantaj olmadan işleyebilir. <Color id="RED">Yüksek Fırınlama</Color> modu makineyi iki kat hız ve buhar kullanımı karşılığında cevherler/metallerle sınırlar. <Color id="BLUE">Tütsüleme</Color> modu makineyi iki kat hız ve buhar kullanımı karşılığında yiyecek eşyalarıyla sınırlar. HV'de <Color id="GREEN">Buhar Ocağı</Color>'nın yerini <ItemLink id="gregtech:gt.blockmachines:1003"/> <ItemImage id="gregtech:gt.blockmachines:1003"/> alır.
 <br clear="all"/>
 
-## Construction:
-The only structural difference between the basic and high-pressure Steam Hearth is the material of the casings. Steam is only accepted through a <ItemLink id="gregtech:gt.blockmachines:31040" /> <ItemImage id="gregtech:gt.blockmachines:31040" /> (NOT an input hatch), much like other steam tier multiblocks. The steam input and output bus do not auto-push or auto-pull from adjacent inventories and therefore require hoppers, EnderIO item conduits, or conveyor modules for automation. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> to visualize/build the structure where the number of projectors held in a single stack determines the tier of the machine (1=Basic, 2=High Pressure).
+## İnşaat:
+Temel ve yüksek basınçlı Buhar Ocağı arasındaki tek yapısal fark kasaların malzemesidir. Buhar yalnızca bir <ItemLink id="gregtech:gt.blockmachines:31040" /> <ItemImage id="gregtech:gt.blockmachines:31040" /> aracılığıyla kabul edilir (girdi kapağı DEĞİL), tıpkı diğer buhar kademesi multibloklar gibi. Buhar giriş ve çıkış yolu bitişik envanterlere otomatik itmez veya onlardan otomatik çekmez, bu yüzden otomasyon için huniler, EnderIO eşya kanalı veya konveyör modülü gerekir. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" /> <ItemImage id="structurelib:item.structurelib.constructableTrigger" /> kullan; tek bir yığında tutulan projektör sayısı makinenin kademesini belirler (1=Temel, 2=Yüksek Basınç).
 
-Assuming plates are made in a <ItemLink id="gregtech:gt.blockmachines:112" /> <ItemImage id="gregtech:gt.blockmachines:112" /> and rods are made with a file, a basic <Color id="GREEN">Steam Hearth</Color> (with the necessary hatches) requires 395 bronze ingots and 9 brick blocks to build. A high-pressure <Color id="GREEN">Steam Hearth</Color> requires 359 steel ingots, 63 bronze ingots, and 3 brick blocks to build. 
-### Requires:
+Levhaların bir <ItemLink id="gregtech:gt.blockmachines:112" /> <ItemImage id="gregtech:gt.blockmachines:112" /> içinde ve çubukların bir eğe ile yapıldığını varsayarsak, temel bir <Color id="GREEN">Buhar Ocağı</Color> (gerekli kapaklarla birlikte) inşa etmek için 395 bronz külçe ve 9 tuğla blok gerekir. Yüksek basınçlı bir <Color id="GREEN">Buhar Ocağı</Color> için 359 çelik külçe, 63 bronz külçe ve 3 tuğla blok gerekir. 
+### Gereksinimler:
 <Row gap="20" alignItems="center">
 <Column gap="8" alignItems="center">
-__Basic (T1) Requires:__
+__Temel (T1) Gereksinimleri:__
   - 1 <ItemLink id="gregtech:gt.blockmachines:31087" /><ItemImage id="gregtech:gt.blockmachines:31087" />
   - 2-6 <ItemLink id="gregtech:gt.blockcasings:10" /><ItemImage id="gregtech:gt.blockcasings:10" />
   - 4 <ItemLink id="gregtech:gt.blockcasings2:2" /><ItemImage id="gregtech:gt.blockcasings2:2" />
@@ -36,7 +36,7 @@ __Basic (T1) Requires:__
   - 1+ <ItemLink id="gregtech:gt.blockmachines:31047" /><ItemImage id="gregtech:gt.blockmachines:31047"/>
 </Column>
 <Column gap="8" alignItems="center">
-__High-Pressure (T2) Requires:__
+__Yüksek Basınç (T2) Gereksinimleri:__
   - 1 <ItemLink id="gregtech:gt.blockmachines:31087" /><ItemImage id="gregtech:gt.blockmachines:31087" />
   - 2-6 <ItemLink id="gregtech:gt.blockcasings2" /><ItemImage id="gregtech:gt.blockcasings2" />
   - 4 <ItemLink id="gregtech:gt.blockcasings2:3" /><ItemImage id="gregtech:gt.blockcasings2:3" />
@@ -48,28 +48,28 @@ __High-Pressure (T2) Requires:__
 </Column>
 </Row>
 
-### Wallsharing:
-<Color id="GREEN">Steam Hearths</Color> may wallshare each of their sides to save on casings and buses/hatches. This is highly recommended because it saves a significant amount of bronze and steel. Sharing also works with other steam tier multiblocks that use the same type of casing. 
+### Duvar Paylaşımı:
+<Color id="GREEN">Buhar Ocakları</Color> kasa ve veriyolu/kapak tasarrufu için her bir kenarını duvar paylaşımına açabilir. Bu kesinlikle önerilir çünkü önemli miktarda bronz ve çelik tasarrufu sağlar. Paylaşım, aynı tür kasayı kullanan diğer buhar kademesi multibloklarla da çalışır. 
 
-## Usage:
-The <Color id="GREEN">Steam Hearth</Color> is a direct upgrade from the singleblock steam furnace because it runs at <Color id="GREEN">125%</Color> speed, only uses <Color id="BLUE">62.5%</Color> of the steam normally required, and offers <Color id="RED">8</Color> parallels. Upgrading to high-pressure (T2) doubles both the processing speed and steam consumption, as seen in the following table. Expect to use the <Color id="GREEN">Steam Hearth</Color> up to HV because of its large bonuses over singleblock machines.
+## Kullanım:
+<Color id="GREEN">Buhar Ocağı</Color>, tek bloklu buhar fırınına göre doğrudan bir yükseltmedir çünkü <Color id="GREEN">%125</Color> hızda çalışır, normalde gereken buharın yalnızca <Color id="BLUE">%62,5</Color>'ini kullanır ve <Color id="RED">8</Color> paralel sunar. Yüksek basınca (T2) yükseltmek hem işlem hızını hem de buhar tüketimini ikiye katlar; bu, aşağıdaki tabloda görülebilir. Tek bloklu makinelere göre büyük avantajları sayesinde <Color id="GREEN">Buhar Ocağını</Color> HV'ye kadar kullanmayı bekleyebilirsin.
 
-The <Color id="GREEN">Steam Hearth</Color> has three unique modes, listed below, to further increase the throughput of the machine by specializing in particular recipes. Notice that these modes mimic the vanilla furnace, blast furnace, and smoker. Switch modes in the GUI of the controller, or by using a screwdriver on the controller.
+<Color id="GREEN">Buhar Ocağının</Color> belirli tariflerde uzmanlaşarak makinenin verimini daha da artıran üç özgün modu vardır; bunlar aşağıda listelenmiştir. Bu modların vanilya fırınını, yüksek fırınını ve tütsüleyiciyi taklit ettiğine dikkat et. Modları kontrolcünün GUI'sinden veya kontrolcüye tornavida kullanarak değiştir.
 
-- <Color id="GREEN">Smelting</Color> - No restrictions or additional benefits. The default universal mode.
-- <Color id="RED">Blasting</Color> - Restricted to ores/metals for twice the speed and steam consumption.
-- <Color id="BLUE">Smoking</Color> - Restricted to raw foods for twice the speed and steam consumption.
+- <Color id="GREEN">Ergitme</Color> - Kısıtlama veya ek avantaj yok. Varsayılan evrensel mod.
+- <Color id="RED">Yüksek Fırınlama</Color> - İki kat hız ve buhar tüketimi karşılığında cevherler/metallerle sınırlı.
+- <Color id="BLUE">Tütsüleme</Color> - İki kat hız ve buhar tüketimi karşılığında çiğ yiyeceklerle sınırlı.
 
-The following tables summarize the steam consumption and speed for both tiers of the <Color id="GREEN">Steam Hearth</Color> and the three different modes. For reference, a vanilla furnace smelts 0.10 items per second and a vanilla blast furnace/smoker smelts 0.20 items per second. 
-### __Basic (T1)__
-|  | <Color id="GREEN">Smelting</Color> | <Color id="RED">Blasting</Color> | <Color id="BLUE">Smoking</Color> |
+Aşağıdaki tablolar <Color id="GREEN">Buhar Ocağının</Color> her iki kademesi ve üç farklı mod için buhar tüketimini ve hızı özetler. Referans olarak vanilya fırını saniyede 0,10 eşya eritir, vanilya yüksek fırını/tütsüleyicisi ise saniyede 0,20 eşya işler. 
+### __Temel (T1)__
+|  | <Color id="GREEN">Ergitme</Color> | <Color id="RED">Yüksek Fırınlama</Color> | <Color id="BLUE">Tütsüleme</Color> |
 | --------------- | --------------- | --------------- | --------------- |
-| Max Steam | 800 L/s | 1,600 L/s | 1,600 L/s |
-| Max Speed | 0.78 Items/s | 1.54 Items/s | 1.54 Items/s |
+| Maks. Buhar | 800 L/s | 1.600 L/s | 1.600 L/s |
+| Maks. Hız | 0,78 Eşya/s | 1,54 Eşya/s | 1,54 Eşya/s |
 
-### __High-Pressure (T2)__
+### __Yüksek Basınç (T2)__
 
-|  | <Color id="GREEN">Smelting</Color> | <Color id="RED">Blasting</Color> | <Color id="BLUE">Smoking</Color> |
+|  | <Color id="GREEN">Ergitme</Color> | <Color id="RED">Yüksek Fırınlama</Color> | <Color id="BLUE">Tütsüleme</Color> |
 | --------------- | --------------- | --------------- | --------------- |
-| Max Steam | 1,600 L/s | 3,200 L/s | 3,200 L/s |
-| Max Speed | 1.54 Items/s | 3.08 Items/s | 3.08 Items/s |
+| Maks. Buhar | 1.600 L/s | 3.200 L/s | 3.200 L/s |
+| Maks. Hız | 1,54 Eşya/s | 3,08 Eşya/s | 3,08 Eşya/s |

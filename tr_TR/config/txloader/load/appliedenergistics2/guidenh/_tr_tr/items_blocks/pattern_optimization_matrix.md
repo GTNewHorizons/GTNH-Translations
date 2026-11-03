@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Pattern Optimization Matrix
+  title: Kalıp Optimizasyon Matrisi
   icon: appliedenergistics2:tile.BlockPatternOptimizationMatrix
 categories:
 - devices
@@ -9,14 +9,14 @@ item_ids:
 - appliedenergistics2:tile.BlockPatternOptimizationMatrix
 ---
 
-# Pattern Optimization Matrix
+# Kalıp Optimizasyon Matrisi
 
 <BlockImage id="appliedenergistics2:tile.BlockPatternOptimizationMatrix" scale="4" />
 
-The Pattern Optimization Matrix is the network device used by this fork to optimize patterns. Once it is connected to the network, the crafting confirmation screen can offer pattern optimization; the interface must also have **Allow pattern optimization** enabled.
+Kalıp Optimizasyon Matrisi, bu fork'un kalıpları optimize etmek için kullandığı ağ cihazıdır. Ağa bağlandığında üretim onay ekranı kalıp optimizasyonu önerebilir; arayüzde de **Kalıp optimizasyonuna izin ver** seçeneğinin etkin olması gerekir.
 
-It requires one channel and can be placed on an ME network like other network devices.
+Bir kanal gerektirir ve diğer ağ cihazları gibi bir ME ağına yerleştirilebilir.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:tile.BlockPatternOptimizationMatrix" />

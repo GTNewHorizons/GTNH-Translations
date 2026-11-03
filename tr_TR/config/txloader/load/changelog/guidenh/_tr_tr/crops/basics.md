@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Crop Basics
+  title: Ekin Temelleri
   parent: crops.md
   icon: cropsnh:plantLens
 categories:
@@ -9,45 +9,45 @@ author: Skorched
 date: 2026-05-20
 ---
 
-# Crop Basics
-There is a lot to these crops, so let's get some basics out of the way first! In order to even start on crops, you must have made your first <Color id="RED">GT Tools</Color> in order to craft the Crop Sticks. All CropsNH crops are planted on Crop Sticks, so they're a vital starting point.
+# Ekin Temelleri
+Bu ekinlerde çok fazla ayrıntı var, o yüzden önce bazı temelleri aradan çıkaralım! Ekinlere başlamak için bile, Ekin Çubuklarını üretmek üzere ilk <Color id="RED">GT Araçlarını</Color> yapmış olmalısın. Tüm CropsNH ekinleri Ekin Çubuklarına dikilir, yani onlar hayati bir başlangıç noktasıdır.
 
-## Getting Seeds
-<Color id="GREEN">Seeds</Color> can be made in a variety of ways, depending on what crop you are aiming for. Some crops simply require planting a "regular" crop on a crop stick, such as with saplings. Planting a vanilla sapling on Crop Sticks will create a <Color id="GREEN">Bonsai</Color> of the relevant type.
+## Tohum Elde Etme
+<Color id="GREEN">Tohumlar</Color> hedeflediğin ekin türüne bağlı olarak çeşitli şekillerde yapılabilir. Bazı ekinler, fidanlarda olduğu gibi, bir ekin çubuğuna "normal" bir ekin dikmeyi gerektirir. Ekin Çubuklarına bir vanilla fidan dikmek, ilgili türden bir <Color id="GREEN">Bonsai</Color> oluşturur.
 
-To find how to get a seed, you can search it in NEI and find either how to breed it, how to create it, or if it shows nothing, then just use the "regular" version to plant on crop sticks. All of these mechanics will be explained further in this guide.
+Bir tohumun nasıl elde edileceğini bulmak için NEI'de arayıp nasıl melezleneceğini, nasıl oluşturulacağını bulabilirsin; hiçbir şey göstermiyorsa da ekin çubuklarına dikmek için sadece "normal" sürümünü kullan. Tüm bu mekanikler bu rehberde daha ayrıntılı açıklanacak.
 
-Left clicking a planted seed will harvest the crop (if mature) and remove it, potentially dropping a seed depending on the <Color id="RED">resistance</Color> (will be explained next) of the seed. <Color id="BLUE">Spades</Color> <ItemImage id="cropsnh:reinforcedSpade" /> will increase your chance of obtaining seeds.
+Dikilmiş bir tohuma sol tıklamak, ekinini (olgunlaşmışsa) hasat eder ve onu kaldırır; tohumun <Color id="RED">direncine</Color> (sonra açıklanacak) bağlı olarak bir tohum düşürebilir. <Color id="BLUE">Kürekler</Color> <ItemImage id="cropsnh:reinforcedSpade" /> tohum elde etme şansını artırır.
 
-# Crop Stats
-There are two main types of stats when it comes to crops:
-- Seed Stats
-- Soil Stats
+# Ekin İstatistikleri
+Ekinlerde iki ana istatistik türü vardır:
+- Tohum İstatistikleri
+- Toprak İstatistikleri
 
-## Seed Stats
-<Color id="GREEN">Seed Stats</Color> are broken down into 3 parts:
-- <Color id="BLUE">Growth</Color> - Determines how fast your crop will grow if given the correct conditions
-- <Color id="RED">Gain</Color> - Determines the amount of drops on harvesting
-- <Color id="GREEN">Resistance</Color> - Determines a few other mechanics, such as chance of dropping seeds, ease of "trampling" the crop, likelihood of generating weeds and more!
+## Tohum İstatistikleri
+<Color id="GREEN">Tohum İstatistikleri</Color> 3 parçaya ayrılır:
+- <Color id="BLUE">Büyüme</Color> - Doğru koşullar sağlandığında ekininin ne kadar hızlı büyüyeceğini belirler
+- <Color id="RED">Kazanç</Color> - Hasat sırasında düşen miktarı belirler
+- <Color id="GREEN">Direnç</Color> - Tohum düşme şansı, ekinin "çiğnenme" kolaylığı, yabani ot oluşma olasılığı ve daha fazlası gibi birkaç başka mekaniği belirler
 
-Growing these stats is vital for getting a good output on your farms!
+Bu istatistikleri büyütmek, çiftliklerinden iyi bir çıktı almak için hayatidir!
 
-When first placing a crop, you will see the stats (1:1:1 for your first), and all of the relevant info will be on the tooltip, such as growth progress.
+Bir ekin ilk kez yerleştirildiğinde istatistikleri görürsün (ilk ekinin için 1:1:1) ve büyüme ilerlemesi gibi tüm ilgili bilgiler ipucunda olacaktır.
 
-## Soil Stats
-Though not an "official" name, these are the stats that determine the behaviour of your planted seed. These are broken into:
-- <Color id="BLUE">Fertilizer</Color> - Speeds up crop growth and prevents stat loss on breeding
-- <Color id="RED">Water</Color> - Helps to prevent your plants from getting sick by keeping them hydrated
-- <Color id="GREEN">Weed-Ex</Color> - Prevents the spreading of sickness
+## Toprak İstatistikleri
+"Resmi" bir ad olmasa da, bunlar diktiğin tohumun davranışını belirleyen istatistiklerdir. Bunlar şu şekilde ayrılır:
+- <Color id="BLUE">Gübre</Color> - Ekin büyümesini hızlandırır ve melezlemede istatistik kaybını önler
+- <Color id="RED">Su</Color> - Bitkilerini nemli tutarak hastalanmalarını önlemeye yardımcı olur
+- <Color id="GREEN">Weed-Ex</Color> - Hastalığın yayılmasını önler
 
-These 3 stats can be increased using  <Color id="BLUE">Fertilizer</Color> <ItemImage id="cropsnh:fertilizer" />, <Color id="RED">Watering Cans</Color> <ItemImage id="ExtraUtilities:watering_can" /> or <Color id="GREEN">Weed-Ex Can</Color> <ItemImage id="cropsnh:weedEX" /> respectively.
+Bu 3 istatistik sırasıyla <Color id="BLUE">Gübre</Color> <ItemImage id="cropsnh:fertilizer" />, <Color id="RED">Sulama Bidonları</Color> <ItemImage id="ExtraUtilities:watering_can" /> veya <Color id="GREEN">Weed-Ex Bidonu</Color> <ItemImage id="cropsnh:weedEX" /> kullanılarak artırılabilir.
 
 > [!NOTE]
-> Some seeds <Color id="RED">CANNOT</Color> be grown in world on *any* soil, and must be farmed using the [Industrial Farm](if.md)
+> Bazı tohumlar *herhangi* bir toprakta dünyada <Color id="RED">YETİŞTİRİLEMEZ</Color> ve [Endüstriyel Çiftlik](if.md) kullanılarak yetiştirilmelidir
 
-## Helpful Notes on Tiers:
-These are some general rules of thumb regarding crop tiers:
-- Tier 4: Last tier where crops can be planted anywhere
-- Tier 5: Last tier where crops can be planted anywhere if they can see the sky
-- Tier 11: Last tier where crops can be planted anywhere if in an 80%+ humidity biome
-- Tier 12: Last tier where crops can be planted anywhere if they can see the sky <Color id="RED">AND</Color> are in a 80%+ humidity biome.
+## Kademeler Hakkında Faydalı Notlar:
+Ekin kademeleriyle ilgili bazı genel pratik kurallar şunlardır:
+- Kademe 4: Ekinlerin her yerde dikilebildiği son kademe
+- Kademe 5: Gökyüzünü görebildikleri takdirde ekinlerin her yerde dikilebildiği son kademe
+- Kademe 11: %80+ nemli bir biyomda olmaları durumunda ekinlerin her yerde dikilebildiği son kademe
+- Kademe 12: Gökyüzünü görebildikleri <Color id="RED">VE</Color> %80+ nemli bir biyomda oldukları takdirde ekinlerin her yerde dikilebildiği son kademe.

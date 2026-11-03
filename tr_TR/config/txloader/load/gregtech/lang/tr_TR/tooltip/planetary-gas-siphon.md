@@ -1,8 +1,8 @@
-{green:200%} Speed {green:+{var:speed}%} per {white:Heating Coil} Tier
-Build on a Space Station orbiting a Gas Planet
-Right-click the controller with a {white:Soldering Iron} to Chunkload
+{green:200%} (Yeşil) Hız {green:+{var:speed}%} (Yeşil) her {white:Heating Coil} (Beyaz Isıtma Bobini) Kademesi başına
+Gaz Gezegeni yörüngesindeki bir Uzay İstasyonuna kur
+Chunk yüklemesi için kontrolcüye {white:Soldering Iron} (Beyaz Lehim Demiri) ile sağ tıkla
 {gray:{hr}}
-Set the {blue:Depth} (1-4) with a {white:Programmed Circuit} in the input bus
-Depth determines the fluid to pump, the base power cost, and the required Mining Pipes
-{white:Base EU/t =} {aqua:Depth * 4^(T+2)} where T is the Planet Tier
-{white:Mining Pipes =} {aqua:Depth * 64}
+Giriş yolundaki {white:Programmed Circuit} (Beyaz Devre) ile {blue:Depth} (Mavi Derinlik) değerini 1-4 arasında ayarla
+Derinlik, pompalanacak sıvıyı, temel güç maliyetini ve gereken Maden Borularını belirler
+{white:Base EU/t =} (Beyaz Temel EU/t =) {aqua:Depth * 4^(T+2)} burada T Gezegen Kademesidir
+{white:Mining Pipes =} (Beyaz Maden Boruları =) {aqua:Depth * 64}

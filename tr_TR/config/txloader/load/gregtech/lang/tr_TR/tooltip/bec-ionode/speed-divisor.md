@@ -1,3 +1,3 @@
-Slows down the recipe's progress to compensate for slow automation.
-Does not reduce recipe {EU/t}.
-Recipe time equals {italic:base time * (1 + max(speed divisor, contaminants))}.
+Yavaş otomasyonu telafi etmek için tarifin ilerlemesini yavaşlatır.
+Tarif {EU/t} değerini azaltmaz.
+Tarif süresi {italic:temel süre * (1 + max(hız böleni, kirleticiler))} değerine eşittir.

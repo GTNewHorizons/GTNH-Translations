@@ -1,5 +1,5 @@
-Supply {blue:High Density Fuels} and {white:{var:lubricant} {L}/h} of {white:Lubricant} to run
-Optionally supply {dark_aqua:{var:oxygen} {L}/s} of {dark_aqua:Liquid Oxygen} to boost the output
-{color_mode:Default}: Produces {color_eu_usage:{var:default_output}} {color_tier:{EU/t}} at {color_amount:{var:default_eff}%} fuel efficiency
-{color_mode:Boosted}: Produces {color_eu_usage:{var:boosted_output}} {color_tier:{EU/t}} at {color_amount:{var:boosted_eff}%} fuel efficiency
-Outputs maximum power at {color_amount:{var:wait_power}%} machine efficiency
+Çalıştırmak için {blue:Yüksek Yoğunluklu Yakıtlar} ve {white:{var:lubricant} {L}/h} {white:Yağlayıcı} sağla
+Çıktıyı artırmak için isteğe bağlı olarak {dark_aqua:{var:oxygen} {L}/s} {dark_aqua:Sıvı Oksijen} sağla
+{color_mode:Varsayılan}: {color_eu_usage:{var:default_output}} {color_tier:{EU/t}} üretir, {color_amount:{var:default_eff}%} yakıt verimliliğinde
+{color_mode:Güçlendirilmiş}: {color_eu_usage:{var:boosted_output}} {color_tier:{EU/t}} üretir, {color_amount:{var:boosted_eff}%} yakıt verimliliğinde
+{color_amount:{var:wait_power}%} makine verimliliğinde maksimum güç çıkarır

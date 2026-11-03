@@ -1,5 +1,5 @@
-Same throughput as 16 LST-HP with only 12 turbines
-Generates power from regular or dense Superheated (SH) Steam based on the turbine and fitting
-Outputs 1 {L} of Steam for every 1 {L} of Superheated Steam
+16 LST-HP ile aynı verimi yalnızca 12 türbinle sağlar
+Türbin ve bağlantı parçasına göre normal veya yoğun Kızgın (SH) Buhar'dan güç üretir
+Her 1 {L} Kızgın Buhar için 1 {L} Buhar verir
 #include:gregtech:xl-turbine-fitting
 #include:gregtech:xl-turbine-dense-steam

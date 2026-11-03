@@ -1,17 +1,17 @@
-{aqua:{bold:Water Tier: }}{color_tier:{var:tier}}
-Must be linked to a Purification Plant using a {color_name:{item:gregtech:gt.metaitem.01:32708}} to work
+{aqua:{bold:Su Kademesi: }}{color_tier:{var:tier}}
+Çalışmak için {color_name:{item:gregtech:gt.metaitem.01:32708}} kullanılarak bir Temizleme Tesisi'ne bağlanmalıdır
 {hr}
-Initial pH value every cycle varies from {color_misc:{var:ph_min}} - {color_misc:{var:ph_max} pH}
-If the pH value is within {color_misc:{var:ph_deviation} pH} of {var:ph_neutral} pH at the end of the cycle, the recipe always succeeds
-Otherwise, the recipe always fails
-Use a {color_name:{var:sensor}} to read the current pH value
-For safety, the machine will shut down if the pH goes below 0 or exceeds 14
+Her döngüde başlangıç pH değeri {color_misc:{var:ph_min}} - {color_misc:{var:ph_max} pH} arasında değişir
+Döngü sonunda pH değeri {color_misc:{var:ph_deviation} pH} sapması içinde {var:ph_neutral} pH değerine yakınsa tarif her zaman başarılı olur
+Aksi halde tarif her zaman başarısız olur
+Mevcut pH değerini okumak için {color_name:{var:sensor}} kullan
+Güvenlik için pH 0'ın altına düşerse veya 14'ü aşarsa makine kapanır
 {hr}
-Every {color_time:{var:interval}} ticks, consumes ALL {color_name:{var:alkaline}} and {color_name:{var:acid}} in the special hatches
-{color_mechanic:Raises} the pH value by {color_amount:{var:ph_per_dust} pH} per {color_name:{var:dust}}
-{color_mechanic:Lowers} the pH value by {color_amount:{var:ph_per_acid} pH} per {white:10 {L}} of {white:{var:acid}}
+Her {color_time:{var:interval}} tick'te, özel kapaklardaki TÜM {color_name:{var:alkaline}} ve {color_name:{var:acid}} tüketilir
+{color_mechanic:Yükseltir} pH değerini {color_amount:{var:ph_per_dust} pH}: her {color_name:{var:dust}} için
+{color_mechanic:Düşürür} pH değerini {color_amount:{var:ph_per_acid} pH}: her {white:10 {L}} {white:{var:acid}} için
 {hr}
-{aqua:{italic:The fourth step of water purification is to neutralize the solution and bring its pH to exactly 7, rendering}}
-{aqua:{italic:the solution inert with no hydrogen ion activity beyond water's natural amphiproticity. Acids and bases from soils}}
-{aqua:{italic:and geology cause natural alkalinity variations in water which can cause corrosive reactions with sensitive}}
-{aqua:{italic:materials. This necessitates the use of the corresponding neutralizing agents to pH balance the water.}}
+{aqua:{italic:Su temizlemenin dördüncü adımı, çözeltiyi nötrleştirip pH'ını tam olarak 7'ye getirmektir; bu sayede}}
+{aqua:{italic:çözelti, suyun doğal amfiprotikliği dışında hidrojen iyonu etkinliği olmaksızın etkisiz hale gelir. Toprak ve}}
+{aqua:{italic:jeolojiden gelen asitler ve bazlar, suda hassas malzemelerle aşındırıcı tepkimelere yol açabilen doğal}}
+{aqua:{italic:alkalinite değişimlerine neden olur. Bu, suyun pH dengesi için ilgili nötrleştirici maddelerin kullanılmasını gerektirir.}}

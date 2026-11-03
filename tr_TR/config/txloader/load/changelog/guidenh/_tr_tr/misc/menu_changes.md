@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Main Menu Backgrounds
+  title: Ana Menü Arka Planları
   parent: misc.md
   icon: gregtech:gt.metaitem.01:32418
 categories:
@@ -9,9 +9,9 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Main Menu Backgrounds
-You may have already noticed by loading this world, but coming to 2.9 is the addition of 23 new background images, sourced directly from NASA/ESA! This includes photography from the Hubble Space Telescope, James Webb Space Telescope, and the most recent Artemis II Crewed Moon Flyby Mission!
+# Ana Menü Arka Planları
+Bu dünyayı yüklerken fark etmiş olabilirsin; 2.9 ile birlikte doğrudan NASA/ESA'dan alınan 23 yeni arka plan görseli ekleniyor! Buna Hubble Uzay Teleskobu, James Webb Uzay Teleskobu ve en son Artemis II Mürettebatlı Ay Geçiş Görevinden fotoğraflar dahil.
 
-We have removed the illustrative / stock backgrounds with this change in favor of actual space photography, minus the iconic GTNH menu background that has been a part of this pack for 10 years now.
+Bu değişiklikle birlikte, 10 yıldır bu paketin parçası olan ikonik GTNH menü arka planı hariç, illüstrasyon/stok arka planları gerçek uzay fotoğrafları lehine kaldırdık.
 
-Separately, the main menu itself has gotten a small visual overhaul for improved clarity!
+Ayrıca ana menünün kendisi de daha iyi netlik için küçük bir görsel yenileme aldı!

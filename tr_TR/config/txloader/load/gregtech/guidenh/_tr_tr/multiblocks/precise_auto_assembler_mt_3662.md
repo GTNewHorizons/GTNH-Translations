@@ -10,9 +10,9 @@ quest_ids:
   - AAAAAAAAAAAAAAAAAAAMEg==
   - AAAAAAAAAAAAAAAAAAAKcA==
 navigation:
-  title: Precise Auto-Assembler MT-3662
-  parent: ./multiblocks_index.md
+  title: Hassas Otomatik Montajcı MT-3662
+  parent: ./multibloklar_index.md
   icon: gregtech:gt.blockmachines:32018
   position: -5001
 ---
-# Precise Auto-Assembler MT-3662
+# Hassas Otomatik Montajcı MT-3662

@@ -1,10 +1,10 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Upgrade Cards
+  title: Yükseltme Kartları
   icon: appliedenergistics2:item.ItemMultiPart:16
 ---
 
-# Upgrade Cards
+# Yükseltme Kartları
 
-See [Upgrade Cards](../items_blocks/upgrade_cards.md).
+Bkz. [Eşyalar ve Blokları: Yükseltme Kartları](../items_blocks/upgrade_cards.md).

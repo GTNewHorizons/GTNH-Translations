@@ -4,9 +4,9 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAM1Q==
 navigation:
-  title: Mega Alloy Blast Smelter
+  title: Mega Alaşım Eritici
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:31150
   position: -8001
 ---
-# Mega Alloy Blast Smelter
+# Mega Alaşım Eritici

@@ -1,6 +1,6 @@
-Same throughput as 16 LPT with only 12 turbines
-Generates power from Plasma based on the turbine and fitting
-Outputs 1 {L} of fluid for every 1 {L} of Plasma
+Yalnızca 12 türbinle 16 LPT'ye eşdeğer işlem kapasitesi
+Türbin ve bağlantı parçasına göre Plazma'dan güç üretir
+Her 1 {L} Plazma için 1 {L} sıvı çıkarır
 #include:gregtech:xl-turbine-fitting
-Plasma fuel efficiency is lower for high tier turbines when using low-grade plasmas
-Efficiency = ((FuelValue / 200,000)^2) / ({EU} per Turbine)
+Düşük kaliteli plazmalar kullanıldığında yüksek kademeli türbinlerde plazma yakıt verimliliği daha düşüktür
+Verimlilik = ((Yakıt Değeri / 200,000)^2) / (Türbin başına {EU})

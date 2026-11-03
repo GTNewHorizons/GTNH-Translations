@@ -1,8 +1,8 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for basic smelting operations at various temperatures
+Bu, Godforge'un bir modülüdür
+Çalışması için bir Godforge'un parçası olmalıdır
+Çeşitli sıcaklıklarda basit eritme işlemleri için kullanılır
 {aqua:{hr:74}}
-As the first of the Godforge modules, this module performs the most basic
-thermal processing, namely smelting materials identically to a furnace or blast furnace
-The desired method of processing can be selected in the gui
-This module is specialized towards speed and high heat levels
+Godforge modüllerinin ilki olarak bu modül, en temel termal işlemi gerçekleştirir;
+yani materyalleri bir fırın veya Yüksek Fırın ile aynı şekilde eritir
+İstenen işleme yöntemi GUI'den seçilebilir
+Bu modül hız ve yüksek ısı seviyeleri konusunda uzmanlaşmıştır

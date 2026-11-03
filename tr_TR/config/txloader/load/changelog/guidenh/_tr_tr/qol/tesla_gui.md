@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Tesla Tower GUI
+  title: Tesla Kulesi GUI
   parent: qol.md
   icon: gregtech:gt.blockmachines:15314
 categories:
@@ -9,11 +9,11 @@ author: Skorched
 date: 2026-05-25
 ---
 
-# Tesla Tower GUI
-The <Color id="GREEN">Tesla Tower</Color> now comes with a super helpful GUI with lots of features!
-- New panel for managing all of your parameters
-- Real-time load bar to show current throughput
-- Configurable load-over-time chart
-- Heat map for locating your biggest Tesla consumers
+# Tesla Kulesi GUI
+<Color id="GREEN">Tesla Kulesi</Color> artık bir sürü özellik barındıran çok kullanışlı bir GUI ile geliyor!
+- Tüm parametrelerini yönetmek için yeni panel
+- Anlık işlem hacmini gösteren gerçek zamanlı yük çubuğu
+- Yapılandırılabilir zamana göre yük grafiği
+- En büyük Tesla tüketicilerini bulmak için ısı haritası
 
-The GUI has far too many different points to show in detail here, so go and experiment!
+GUI'de burada ayrıntılı göstermek için çok fazla farklı nokta var, o yüzden git ve dene!

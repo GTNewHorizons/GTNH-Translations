@@ -1,20 +1,20 @@
 ---
 navigation:
-  title: Tips and Tricks
+  title: İpuçları ve Püf Noktaları
   position: 20
 ---
 
-# Tips and Tricks
+# İpuçları ve Püf Noktaları
 
-A load of random little recommendations
+Bir sürü rastgele küçük öneri
 
-* Remove Optifine.
-* You can rotate and zoom into guidebook scenes that have the zoom and annotation hide/show buttons.
-* Keep your network treelike and avoid loops.
-* Keep full-block [devices](ae2_mechanics/devices.md) in groups of 8 or less unless you deeply understand how [channels](ae2_mechanics/channels.md) route through a network.
-* Pick a wood and stick with it for all your [patterns](items_blocks/patterns.md). Enabling substitutions sometimes works, but using the same wood type everywhere greatly reduces hassle.
-* Add an [energy cell](items_blocks/energy_cells.md) so that your network can handle power spikes.
-* You can use water in the <ItemLink id="appliedenergistics2:tile.BlockCondenser" />.
-* The best way to keep your network clean is to not put random mob loot like swords and armor in. Each unique combination of enchantment and durability is another [type](ae2_mechanics/bytes_and_types.md).
-* An "item entering system" event must occur when returning the result of a [processing pattern](items_blocks/patterns.md), like through an <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />, <ItemLink id="appliedenergistics2:tile.BlockInterface" />, or an interface return slot. You cannot just pipe the result into a chest with a <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> on it.
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> pushes complete recipe batches to an adjacent inventory. This is useful for making sure machines do not receive partial batches, but sometimes you want the ingredients to go to multiple places. You can achieve this using multiple interfaces or an <ItemLink id="appliedenergistics2:tile.BlockInterface" /> as a [pipe subnet](tricks_example/pipe_subnet.md).
+* Optifine'ı kaldır.
+* Yakınlaştırma ile açıklama gizle/göster düğmeleri bulunan rehber sahnelerini döndürebilir ve yakınlaştırabilirsin.
+* Ağını ağaç yapısında tut ve döngülerden kaçın.
+* [Kanalların](ae2_mechanics/channels.md) bir ağ içinde nasıl yönlendirildiğini derinlemesine anlamadığın sürece tam blok [cihazları](ae2_mechanics/devices.md) 8'li veya daha küçük gruplar halinde tut.
+* Bir odun seç ve tüm [desenlerin](items_blocks/patterns.md) için onu kullan. Muadilleri etkinleştirmek bazen işe yarar, ama her yerde aynı odun tipini kullanmak zahmeti büyük ölçüde azaltır.
+* Ağının güç dalgalanmalarını kaldırabilmesi için bir [enerji hücresi](items_blocks/energy_cells.md) ekle.
+* <ItemLink id="appliedenergistics2:tile.BlockCondenser" /> içinde su kullanabilirsin.
+* Ağını temiz tutmanın en iyi yolu, kılıç ve zırh gibi rastgele yaratık ganimetlerini içine koymamaktır. Her benzersiz büyü ve dayanıklılık kombinasyonu ayrı bir [tip](ae2_mechanics/bytes_and_types.md) demektir.
+* Bir [işleme deseninin](items_blocks/patterns.md) sonucunu geri verirken, örneğin bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" />, <ItemLink id="appliedenergistics2:tile.BlockInterface" /> veya bir arayüz geri dönüş yuvası üzerinden, "sisteme eşya girişi" olayı gerçekleşmelidir. Sonucu, üzerinde <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> bulunan bir sandığa sadece boruyla aktaramazsın.
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" />, tam tarif partilerini bitişik bir envantere iter. Bu, makineleri kısmi partiler almaktan korumak için kullanışlıdır, ama bazen malzemelerin birden fazla yere gitmesini istersin. Bunu birden fazla arayüz veya [boru alt ağı](tricks_example/pipe_subnet.md) olarak kullanılan bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> ile yapabilirsin.

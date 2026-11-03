@@ -9,102 +9,102 @@ navigation:
   icon: gregtech:gt.blockmachines:12712
   position: -3001
 ---
-# Bacterial Vat
+# 细菌培养缸
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:12712" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:12712" showIcon="left" /> (BV) is an HV tier multiblock for mass fermenting fluids.
+<ItemLink id="gregtech:gt.blockmachines:12712" showIcon="left" />（BV）是 HV 等级的多方块机器，用于大规模发酵流体。
 
-Bacteria contained within the vat break down organic compounds into something new, such as Saccharomyces Escherichia turning grape juice into wine. The species of bacteria, and therefore the recipe, is determined by placing a petri dish with a culture inside the controller block of the machine.
+培养缸中的细菌会将有机化合物分解并转化成新物质，例如，通用酵母菌可将葡萄汁转化为葡萄酒。细菌种类及相应配方由放入机器控制器方块内、带有菌种的培养皿决定。
 
-The fermenting process itself is closely tied to the carrying capacity of the environment, meaning the output hatch should stay as close as possible to 50% capacity for maximum growth and productivity.
+发酵过程与环境承载能力密切相关，因此为达到最大生长效率和产量，输出仓的容量应尽量保持在 50% 左右。
 
-Although the BV is mandatory for progression in UV, the player can later craft all the necessary fluids in the [<ItemLink id="gregtech:gt.blockmachines:31151" showIcon="left" />](./quantum_force_transformer.md).
+虽然 UV 阶段推进必定需要 BV，但之后玩家可以在[<ItemLink id="gregtech:gt.blockmachines:31151" showIcon="left" />](./quantum_force_transformer.md)中合成所有必要流体。
 
-| Property | Details |
+| 属性 | 详情 |
 | --- | --- |
-| Unlock Tier | HV |
-| Structure Size (LxWxH) | 5x5x4 |
-| Power | Regular |
-| Overclocks | Imperfect |
-| Maintenance | Need Maintenance |
-| Pollution | Produces no pollution |
+| 解锁等级 | HV |
+| 结构尺寸（长×宽×高） | 5x5x4 |
+| 电力 | 普通 |
+| 超频 | 有损 |
+| 维护 | 需要维护 |
+| 污染 | 不产生污染 |
 
-## Crafting and Construction
+## 合成与建造
 
-### Crafting
+### 合成
 <RecipesFor id="gregtech:gt.blockmachines:12712" />
 
 <RecipesFor id="gregtech:gt.blockcasings4:1" />
 
-<ItemLink id="gregtech:gt.blockmachines:12713" showIcon="left" /> is skippable and only needed for recipes that require radiation.
+<ItemLink id="gregtech:gt.blockmachines:12713" showIcon="left" />可省略，仅辐射相关配方需要它。
 
 <RecipesFor id="gregtech:gt.blockmachines:12713" />
 
-### Structure
+### 结构
 
-The BV has one tiered component. The glass determines the **maximum recipe tier, but not the maximum energy hatch tier**.
+BV 有一个任意等级部件。玻璃决定**配方最高等级，但不限制能源仓最高等级**。
 
-BV can be rotated or flipped.
+BV 可以旋转或翻转。
 
-Multi-amp and laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking.
+不支持多A能源仓和激光能源仓，但可以安装多个普通能源仓进行超频。
 
-Only one output hatch and one radio hatch are allowed.
+只允许安装一个输出仓和一个放射仓。
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass.
+使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> 可预览/建造结构，并通过子信道“glass”指定玻璃等级。
 
-| Component | Quantity and placement |
+| 部件 | 数量与位置 |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:12712" showIcon="left" /> | 1, Front bottom center |
-| <ItemLink id="gregtech:gt.blockcasings4:1" showIcon="left" /> | 19-45, Whole 1st and 4th layer |
-| <ItemImage id="bartworks:BW_TieredGlass" /><Color id="blue">Tiered</Color> Glass | 32, 2nd and 3rd layer with a hollow center |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Only Regular Hatches allowed</Tooltip> | 1+, Can replace any casing |
-| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />Maintenance Hatch | 1+, Can replace any casing |
-| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />Input Bus | 0+, Can replace any casing |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 1+, Can replace any casing |
-| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />Output Bus | 0+, Can replace any casing |
-| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />Output Hatch | 1, Can replace any casing |
-| <ItemLink id="gregtech:gt.blockmachines:12713" showIcon="left" /> | 0-1, Can replace any casing |
+| <ItemLink id="gregtech:gt.blockmachines:12712" showIcon="left" /> | 1 个，正面底部中央 |
+| <ItemLink id="gregtech:gt.blockcasings4:1" showIcon="left" /> | 19-45 个，填满第 1 层和第 4 层 |
+| <ItemImage id="bartworks:BW_TieredGlass" /><Color id="blue">任意等级</Color>玻璃 | 32 个，第 2、3 层，中间留空 |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">仅允许普通能源仓</Tooltip> | 1 个以上，可替换任意机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:90" noTooltip />维护仓 | 1 个以上，可替换任意机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:71" noTooltip />输入总线 | 0 个以上，可替换任意机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />输入仓 | 1 个以上，可替换任意机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:81" noTooltip />输出总线 | 0 个以上，可替换任意机械方块 |
+| <ItemImage id="gregtech:gt.blockmachines:61" noTooltip />输出仓 | 1 个，可替换任意机械方块 |
+| <ItemLink id="gregtech:gt.blockmachines:12713" showIcon="left" /> | 0-1 个，可替换任意机械方块 |
 
-### Wallsharing
+### 共用墙壁
 
-BVs may wallshare each of their sides to save on glass, casings, and buses/hatches. That includes both the output hatch and the radio hatch which helps simplify automation setups and save on radioactive materials. If sharing between four machines, one hatch can go on top and the other can go on bottom.
+BV 的每一侧都可以与其他机器共用墙壁，以节省玻璃、机械方块和总线/仓。输出仓和放射性仓也可以共用，有助于简化自动化并节省放射性材料。四台机器共用墙壁时，一个仓可放在顶部，另一个放在底部。
 
-No recipe uses more than 1A of power so it is possible to share one energy hatch between two machines.
+没有配方耗电超过 1A，因此两台机器可以共用一个能源仓。
 
-## Usage
-BV recipes have 4 Requirements to operate: Glass Tier, Voltage, Culture and Radioactive.
+## 用途
+BV 配方有 4 项运行要求：玻璃等级、电压、培养菌种和放射性。
 
-You can check these requirements on NEI. For example, the recipe below requires:
-- EV+ Glass Tier
-- HV+ Voltage
-- Need at least 83 sievert
-- Requires <ItemImage id="bartworks:BioLabParts" nbt='tag:{Name:"Binni Bacteria"}' label="right" />
+可以在 NEI 中查看这些要求。例如，下方的配方需要：
+- EV 或更高等级的玻璃
+- HV 或更高电压
+- 至少 83 西弗
+- 需要 <ItemImage id="bartworks:BioLabParts" nbt='tag:{Name:"Binni Bacteria"}' label="right" />
 
 <RecipeFor id="NotEnoughItems:neiFluidDisplay:94" />
 
-Note that this is an HV recipe, although it requires at least EV tiered glass to operate.
+请注意，这是 HV 配方，但运行时至少需要 EV 等级玻璃。
 
-### Culture
-All BV recipes require a specific petri dish with a culture inside the controller block. Petri dishes are acquired from the [<ItemImage id="gregtech:gt.blockmachines:12699" noTooltip />Bio Lab](/singleblock/bio_lab.md), an HV+ singleblock machine for all biotechnology related recipes.
+### 培养菌种
+所有 BV 配方都需要在控制器方块内放入含有培养菌种的特定培养皿。培养皿可从<ItemImage id="gregtech:gt.blockmachines:12699" noTooltip />[生物实验室](/singleblock/bio_lab.md)获得；该 HV 及以上等级的单方块机器可处理所有生物技术相关配方。
 
-You can check [<ItemImage id="gregtech:gt.blockmachines:12699" noTooltip />Bio Lab](/singleblock/bio_lab.md) guide for more information about how to produce a petri dish with a culture.
+有关如何制作含培养菌种培养皿的更多信息，请查看<ItemImage id="gregtech:gt.blockmachines:12699" noTooltip />[生物实验室](/singleblock/bio_lab.md)指南。
 
-### Radio Hatch
-A few exotic and alien species of bacteria require radiation to survive which is supplied through a radio hatch containing rods or long rods of radioactive materials.
+### 放射仓
+少数奇异和外星细菌需要辐射才能存活，可通过装有放射材料棒或长棒的放射性仓提供辐射。
 
-A <ItemLink id="gregtech:gt.blockmachines:12713" showIcon="left" /> is similar to an input bus except it continuously consumes items regardless if a recipe is running or not. Fortunately, the radio hatch can be disabled at any time with a machine controller cover.
+<ItemLink id="gregtech:gt.blockmachines:12713" showIcon="left" />与输入总线类似，但无论配方是否运行都会持续消耗物品。幸运的是，可随时使用机器控制覆盖板禁用放射仓。
 
-The radioactive material inside the radio hatch determines the strength of the radiation in sieverts (sv), but the built in radiation shutter can reduce that by a custom amount. There is no benefit to reducing the sieverts other than needing to have an exact amount for a specific recipe, since material with high sieverts usually has shorter lifespans.
+放射仓内的材料决定辐射强度（西弗，sv），但内置辐射闸门可以按设定值削减辐射。降低西弗值没有其他好处，除非配方要求精确数值，因为高西弗值材料通常寿命更短。
 
-You can control radiation shutter by clicking the screwdriver button<FloatingImage src="gregtech:textures/gui/overlay_button/screwdriver.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={4.0} scaleY={4.0} /> on top left of the radio hatch GUI.
+点击放射仓 GUI 左上方的螺丝刀按钮<FloatingImage src="gregtech:textures/gui/overlay_button/screwdriver.png" wrap="inline" x={0} y={0} w={16} h={16} scaleX={4.0} scaleY={4.0} />即可控制辐射闸门。
 
-Different materials also have different lifespans, but most are quite short. The following table lists a few of the many radioactive materials by their strength, lifespan, and mass.
+不同材料的寿命也各不相同，但大多数都很短。下表列出部分放射性材料的强度、寿命和质量。
 
 <Column width="380">
-  | Material | Strength | Lifespan | Mass |
+  | 材料 | 强度 | 寿命 | 质量 |
   |----------|----------|-----------|------|
   | <ItemLink id="gregtech:gt.metaitem.01:23090" showIcon="left" /> | 83 sv | 198.80 s | 1 kg |
   | <ItemLink id="gregtech:gt.metaitem.02:22090" showIcon="left" /> | ^^ | 397.60 s | 2 kg |
@@ -129,21 +129,21 @@ Different materials also have different lifespans, but most are quite short. The
   {: widths="200, 60, 60, 60"}
 </Column>
 
-You can enable sound muffling by clicking the sound button in hatch GUI or right-clicking the radio hatch with a hammer.
+点击仓 GUI 中的声音按钮，或手持锻造锤右击放射仓，即可启用声音消音。
 
-### Output rate
+### 产出速率
 
-The BV is a closed system with a limited carrying capacity (K) for bacteria to grow. All closed systems follow a sigmoidal population curve meaning the growth rate is initially slow due to a small starting population, increases in rate as the population grows, and then slows down again as the finite resources in the environment become a limiting factor. **Maximum growth in a closed system occurs at K/2**.
+BV 是一个封闭系统，细菌生长的环境承载能力（K）有限。所有封闭系统都遵循 S 型种群曲线：初始种群较小时增长缓慢，种群增加后增长加快，随后环境资源有限成为限制因素，增长再次放缓。**封闭系统在 K/2 时增长最快**。
 
-The size of the output hatch on the BV is equivalent to the carrying capacity (K) of the bacterial culture. Very little growth occurs when the output hatch is empty or when the output hatch is close to full. Ideally, the output hatch stays as close as possible to 50% capacity for maximum growth and productivity. More specifically, both the input AND output fluids are multiplied by up to x1,001 based on how close the output hatch is to K/2 or half-full. The solid ingredients and culture are not affected. The multiplier (m) is calculated with the following equation where Fill% is the current fluid level out of the maximum capacity.
+BV 输出仓的大小等同于细菌培养物的环境承载能力（K）。输出仓为空或接近满仓时，细菌几乎不会生长。理想情况下，输出仓容量应尽量保持在 50% 左右，以实现最大生长效率和产量。更具体地说，输入和输出流体数量最多可根据输出仓与 K/2（即半满）的接近程度乘以 x1,001。固体原料和培养菌种不受影响。乘数（m）按以下公式计算，其中 Fill% 为当前流体液位占最大容量的比例。
 
 <Latex formula="m=\lceil -4,000\times(\text{Fill}\% - 0.5)^2\rceil + 1,001" />
 
-This equation is quadratic to reflect the derivative of the sigmoidal population curve. The ceiling operator, however, adds a small buffer around K/2 that rounds up values close to the maximum multiplier, which means the output hatch does not have to be perfectly 50% capacity to achieve the x1,001 gain. Larger output hatches have a larger buffer, but initially require more fluid to reach K/2. It is recommended to start with a very small output hatch and work up to larger sizes as more output fluid is obtained. The following table lists all the different output hatches and their thresholds for earning the maximum x1,001 multiplier (m). The graph visually depicts the general relationship based on the percentage fill level.
+该公式为二次函数，用于体现 S 型种群曲线的导数。不过，向上取整会在 K/2 周围增加一小段缓冲区，使接近最大乘数的数值也能取整至最大值，因此输出仓不必恰好达到 50% 容量即可获得 x1,001 增益。较大的输出仓缓冲区更大，但初始时也需要更多流体才能达到 K/2。建议从很小的输出仓开始，随着获得更多输出流体，再逐渐升级到更大的容量。下表列出各种输出仓以及获得最大 x1,001 乘数（m）的阈值。图表直观展示了填充百分比与乘数的大致关系。
 
 <Row>
   <Column width="310">
-| Hatch | Minimum | K/2 | Maximum | Range |
+| 仓 | 最低 | K/2 | 最高 | 范围 |
 | --- | --- | --- | --- | --- |
 | <ItemLink id="gregtech:gt.blockmachines:60" showIcon="left" scale="0.8"> ULV</ItemLink> | 3,874 L | 4,000 L | 4,126 L | 252 L |
 | <ItemLink id="gregtech:gt.blockmachines:61" showIcon="left" scale="0.8"> LV</ItemLink> | 7,748 L | 8,000 L | 8,252 L | 504 L |
@@ -159,7 +159,7 @@ This equation is quadratic to reflect the derivative of the sigmoidal population
 | <ItemLink id="gregtech:gt.blockmachines:12104" showIcon="left" scale="0.8"> UIV</ItemLink> | 7,932,947 L | 8,192,000 L | 8,451,053 L | 518,106 L |
 | <ItemLink id="gregtech:gt.blockmachines:12105" showIcon="left" scale="0.8"> UMV</ItemLink> | 15,865,893 L | 16,384,000 L | 16,902,107 L | 1,036,214 L |
 | <ItemLink id="gregtech:gt.blockmachines:12106" showIcon="left" scale="0.8"> UXV</ItemLink> | 31,731,785 L | 32,768,000 L | 33,804,215 L | 2,072,430 L |
-| <ItemLink id="gregtech:gt.blockmachines:12737" showIcon="left" scale="0.8"> Giant</ItemLink> | 48,418,862 L | 50,000,000 L | 51,581,138 L | 3,162,276 L |
+| <ItemLink id="gregtech:gt.blockmachines:12737" showIcon="left" scale="0.8"> 巨型</ItemLink> | 48,418,862 L | 50,000,000 L | 51,581,138 L | 3,162,276 L |
 {: widths="55, 85, 85, 85, 75"}
 </Column>
 <FunctionGraph xRange="0..100" xLabel="Fill %" yLabel="Multiplier" width="220">
@@ -167,7 +167,7 @@ This equation is quadratic to reflect the derivative of the sigmoidal population
 </FunctionGraph>
 </Row>
 
-Note that the multiplier (m) is calculated at the very start of a recipe. This is important when the BV is running continuously because the output from the previous recipe factors into the calculation of the multiplier (m) for the next one. Ideally, the range of optimal production should be greater than the amount of output fluid to guarantee the maximum multiplier.
+请注意，乘数（m）在配方开始时立即计算。BV 连续运行时，这一点很重要，因为上一道配方的产出会影响下一道配方的乘数（m）计算。理想情况下，最佳产出范围应大于输出流体的数量，以确保获得最大乘数。
 
-## References
-- [GTNH Wiki - Bacterial Vat](https://wiki.gtnewhorizons.com/wiki/Bacterial_Vat)
+## 参考资料
+- [GTNH Wiki：细菌培养缸](https://wiki.gtnewhorizons.com/wiki/Bacterial_Vat)

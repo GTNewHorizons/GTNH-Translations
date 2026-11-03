@@ -1,8 +1,8 @@
-Consumes {color_voltage:{var:startup_eu}} {color_tier:{EU/t}} when first turned on, and {color_voltage:{var:idle_eu}} {color_tier:{EU/t}} while idling at {color_amount:100%} efficiency
-Can accept {TC:min_tier:{var:min_tier_amperage}A} from an {VNF:min_tier} energy hatch
-Will overclock and gain efficiency faster starting from {VNF:min_tier_for_oc}
+İlk açıldığında {color_voltage:{var:startup_eu}} {color_tier:{EU/t}} tüketir, {color_amount:100%} verimlilikte boşta çalışırken ise {color_voltage:{var:idle_eu}} {color_tier:{EU/t}} tüketir
+{VNF:min_tier} bir enerji kapağından {TC:min_tier:{var:min_tier_amperage}A} kabul edebilir
+{VNF:min_tier_for_oc} seviyesinden itibaren hız aşırtma yapar ve verimliliği daha hızlı kazanır
 {hr}
-{color_danger:Warning:}
-Below {color_loss:100%} efficiency, machines inside have a chance to void outputs!
-Each maintenance issue reduces maximum efficiency by {color_loss:{var:maint_penalty}%}
-{color_note:Generating any pollution inside causes the cleanroom to shut down}
+{color_danger:Uyarı:}
+{color_loss:100%} verimliliğin altında, içerideki makinelerin çıktıları hiçliğe gitme şansı vardır!
+Her bakım sorunu maksimum verimliliği {color_loss:{var:maint_penalty}%} azaltır
+{color_note:İçeride herhangi bir kirlilik üretmek temiz odanın kapanmasına neden olur}

@@ -9,25 +9,22 @@ item_id: appliedenergistics2:tile.BlockController
 
 ![Logo](../assets/logo.png)
 
-# What is Applied Energistics 2?
+# Applied Energistics 2 nedir?
 
-Applied Energistics 2 adds components and mechanics to provide logistics and storage solutions. You can replace your
-massive room full of chests with a compact ME Network, but that's just the beginning of things.
-Applied Energistics is meant to work with and allow automation of other mods in a modpack. You can set up your system to,
-with a single click, craft all of the prerequisites (and the final result) of a complex crafting chain, or keep certain
-quantities of items in stock, crafting more as needed, or simply transfer items around your base.
+Applied Energistics 2, lojistik ve depolama çözümleri sunmak için bileşenler ve mekanikler ekler. Sandıklarla dolu devasa odanı kompakt bir ME Ağı ile değiştirebilirsin, ama bu sadece başlangıç.
+Applied Energistics, bir modpaketteki diğer modlarla çalışacak ve onların otomasyonuna imkân verecek şekilde tasarlanmıştır. Sistemini tek bir tıkla karmaşık bir üretim zincirinin tüm ön koşullarını (ve nihai sonucunu) üretecek, belirli miktarlarda eşyayı stokta tutup gerektiğinde daha fazlasını üretecek ya da sadece eşyaları üssünün içinde taşıyacak şekilde kurabilirsin.
 
-* [Getting Started](getting_started.md)
-* [AE2 Mechanics](ae2_mechanics_index.md)
-* [Tips and Practical Examples](tricks_example_index.md)
-* [Tips and Tricks](tips_and_tricks.md)
-* [Items & Blocks](items_blocks_index.md)
+* [Başlangıç](getting_started.md)
+* [AE2 Mekanikleri](ae2_mechanics_index.md)
+* [İpuçları ve Pratik Örnekler](tricks_example_index.md)
+* [İpuçları ve Püf Noktaları](tips_and_tricks.md)
+* [Eşyalar ve Blokları](items_blocks_index.md)
 
-# How To Use This Guide
+# Bu Kılavuzu Nasıl Kullanırsın
 
-* Many pages have interactive scenes. If a scene has ![Plus](../assets/images/plus.png) and ![Minus](../assets/images/minus.png) zoom buttons beside it, you can move the camera around.
-* Left-click and drag to rotate the scene. Right-click and drag to pan it.
-* Hover over blocks or annotations to see their tooltips.
+* Birçok sayfada etkileşimli sahneler var. Bir sahnenin yanında ![Plus](../assets/images/plus.png) ve ![Minus](../assets/images/minus.png) yakınlaştırma düğmeleri varsa kamerayı hareket ettirebilirsin.
+* Sahneyi döndürmek için sol tıkla ve sürükle. Kaydırmak için sağ tıkla ve sürükle.
+* İpuçlarını görmek için blokların veya açıklamaların üzerine gel.
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/autocraft_setup_greebles.snbt" />

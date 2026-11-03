@@ -10,19 +10,19 @@ date: 2026-05-16
 ---
 
 # Baubles
-In an effort to consolidate the inventory, the __Tinker's Inventory Tab__ has been disabled. To accommodate this change, the following additions have been made:
+Envanteri bir araya toplamak amacıyla __Tinker's Inventory Tab__ devre dışı bırakıldı. Bu değişikliği karşılamak için aşağıdaki eklemeler yapıldı:
 
-- Added new <Color id="GREEN">__universal__</Color> bauble slots, which accept _most_ of the baubles in the game
+- Oyundaki bauble'lerin _çoğunu_ kabul eden yeni <Color id="GREEN">__evrensel__</Color> bauble yuvaları eklendi
 
-- Added the ability for set Tinker's items to be put inside Bauble slots:
-- - <Color id="GREEN">Travel Belt</Color> - slot type: universal
-- - <Color id="RED">Travel Glove</Color> - slot type: universal
-- - <Color id="BLUE">Heart Canisters</Color> - custom slots that stack up to 10!
+- Belirli Tinker's eşyalarının Bauble yuvalarına konabilmesi eklendi:
+- - <Color id="GREEN">Travel Belt</Color> - yuva türü: evrensel
+- - <Color id="RED">Travel Glove</Color> - yuva türü: evrensel
+- - <Color id="BLUE">Heart Canisters</Color> - 10'a kadar yığılan özel yuvalar!
 
-- Moved the ability to equip torches and blocks into <Color id="GREEN">Custom Cosmetic Armor</Color> - you can now wear your dirt hat in style! This also works with <Color id="GREEN">Dynamic Lighting</Color>
+- Meşale ve blok kuşanma yeteneği <Color id="GREEN">Custom Cosmetic Armor</Color> içine taşındı; artık toprak şapkanı şıklıkla takabilirsin! Bu, <Color id="GREEN">Dinamik Aydınlatma</Color> ile de çalışır
 
 <FloatingImage src="../assets/qol/baubles.png" wrap="square" align="left" displayWidth="256">
   <ImageAnnotation>
-    An example of some baubles in their new homes! *Ranzu says hi!*
+    Yeni yuvalarındaki bazı bauble'lere bir örnek! *Ranzu selam söylüyor!*
   </ImageAnnotation>
 </FloatingImage>

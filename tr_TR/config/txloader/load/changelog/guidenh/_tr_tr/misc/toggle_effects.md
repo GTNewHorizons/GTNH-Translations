@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Effect Toggling
+  title: Efekt Açma Kapama
   parent: misc.md
   icon: minecraft:potion:8197
 categories:
@@ -9,7 +9,7 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Effect Toggling
-A small one, but nice nonetheless!
+# Efekt Açma Kapama
+Küçük bir şey, ama yine de güzel!
 
-Inventory Effect Icons can now be switched using `showInventoryEffectIcons`, located under Hodgepodge options -> tweaks! This will toggle on/off the inventory banners showing your potion effects if you find them too cluttered!
+Envanter Efekt Simgeleri artık Hodgepodge seçenekleri -> tweaks altında bulunan `showInventoryEffectIcons` ile değiştirilebilir! Onları fazla kalabalık buluyorsan, iksir efektlerini gösteren envanter şeritlerini açıp kapatmanı sağlar!

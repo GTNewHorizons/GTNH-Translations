@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Network Tool
+  title: Ağ Aracı
   icon: appliedenergistics2:item.ToolNetworkTool
 categories:
 - tools
@@ -10,21 +10,21 @@ item_ids:
 - appliedenergistics2:item.ToolAdvancedNetworkTool
 ---
 
-# Network Tool
+# Ağ Aracı
 
 <ItemImage id="appliedenergistics2:item.ToolNetworkTool" scale="4" />
 
-The Network Tool is a modified [wrench](wrench.md) that shows network diagnostics and stores [upgrade cards](upgrade_cards.md). It can still quickly disassemble devices and remove [subparts](../ae2_mechanics/cables_subparts.md) from cables, but it cannot rotate blocks.
+Ağ Aracı, ağ teşhislerini gösteren ve [yükseltme kartları](upgrade_cards.md) depolayan değiştirilmiş bir [İngiliz Anahtarı](wrench.md)'dır. Hâlâ cihazları hızlıca sökebilir ve kablolardan [alt parçaları](../ae2_mechanics/cables_subparts.md) çıkarabilir, ancak blokları döndüremez.
 
-It has nine upgrade-card slots; cards are available in AE2 device UIs while the tool is anywhere in your inventory.
+Dokuz adet yükseltme kartı yuvası vardır; kartlar, araç envanterinin herhangi bir yerindeyken AE2 cihaz arayüzlerinde kullanılabilir.
 
-Right-clicking any part of a network opens a diagnostic window, similar to right-clicking a <ItemLink id="appliedenergistics2:tile.BlockController" />. It shows channel usage, energy storage and flow, and a list of network devices. This is useful when working with [subnetworks](../ae2_mechanics/subnetworks.md).
+Bir ağın herhangi bir kısmına sağ tıklamak, <ItemLink id="appliedenergistics2:tile.BlockController" /> öğesine sağ tıklamaya benzer bir teşhis penceresi açar. Kanal kullanımını, enerji depolamasını ve akışını ve ağ cihazlarının bir listesini gösterir. [Alt ağlarla](../ae2_mechanics/subnetworks.md) çalışırken bu faydalıdır.
 
-## Hiding Facades
+## Cepheleri Gizleme
 
-[Facades](facades.md) are hidden while holding the network tool, allowing interaction with blocks behind them.
+Ağ aracı elde tutulurken [Cepheler](facades.md) gizlenir, böylece arkalarındaki bloklarla etkileşime geçebilirsin.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:item.ToolNetworkTool" />
 

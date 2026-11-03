@@ -1,2 +1,2 @@
-{italic:Infinite Potential!}
-{color_mechanic:Performs 4/4 Perfect Overclocks}
+{italic:Sonsuz Potansiyel!}
+{color_mechanic:4/4 Mükemmel Aşırı Hız Aşımı yapar}

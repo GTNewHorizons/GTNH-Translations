@@ -1,2 +1,1 @@
-{color_speed:+{var:speed_bonus}%} Speed per {color_name:Coil} Tier
-{EU/t} is not affected by {color_name:Coil} Tier
+{color_speed:+{var:speed_bonus}%} {color_name:Bobin} Kademesi başına Hız {EU/t}, {color_name:Bobin} Kademesinden etkilenmez

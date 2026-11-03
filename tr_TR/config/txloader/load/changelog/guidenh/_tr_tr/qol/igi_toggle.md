@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: InGame Info Toggling
+  title: InGame Info Açma/Kapama
   parent: qol.md
   icon: minecraft:lever
 categories:
@@ -9,9 +9,9 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# InGame Info Toggling
-<Color id="GREEN">InGame Info</Color> (The information in the top left by default) now has support for a second config file!
+# InGame Info Açma/Kapama
+<Color id="GREEN">InGame Info</Color> (varsayılan olarak sol üstteki bilgiler) artık ikinci bir yapılandırma dosyasını destekliyor!
 
-This means that you can keep two different HUD layouts and swap between them at any time in-game!
+Bu, iki farklı HUD düzenini koruyup oyun içinde istediğin zaman aralarında geçiş yapabileceğin anlamına gelir!
 
-Add an optional second file (`\config\InGameInfo2.xml`) and use the toggle key to cycle: primary -> secondary -> OFF!
+İsteğe bağlı ikinci bir dosya (`\config\InGameInfo2.xml`) ekle ve geçiş tuşunu kullanarak döngü yap: birincil -> ikincil -> KAPALI!

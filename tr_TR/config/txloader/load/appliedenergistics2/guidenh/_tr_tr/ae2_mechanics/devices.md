@@ -1,15 +1,15 @@
 ---
 navigation:
   parent: /ae2_mechanics_index.md
-  title: Devices
+  title: Cihazlar
   icon: appliedenergistics2:tile.BlockInterface
 ---
 
-# Devices
+# Cihazlar
 
-A "Device" refers to an AE2 network component that performs some function related to the network itself. They almost always require a channel, with some exceptions, such as [Level Emitters](../items_blocks/level_emitter.md) or [Molecular Assemblers](../items_blocks/molecular_assembler.md).
+Bir "Cihaz", ağın kendisiyle ilgili bir işlevi yerine getiren bir AE2 ağ bileşenini ifade eder. [Seviye Verici Blokları](../items_blocks/level_emitter.md) veya [Moleküler Montajcı Blokları](../items_blocks/molecular_assembler.md) gibi bazı istisnalar dışında neredeyse her zaman bir kanal gerektirirler.
 
-Some examples include:
+Bazı örnekler:
 
 *   <ItemLink id="appliedenergistics2:tile.BlockInterface" showIcon="left" />
 *   <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" showIcon="left" />

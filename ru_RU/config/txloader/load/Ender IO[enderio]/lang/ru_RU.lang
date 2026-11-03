@@ -781,6 +781,12 @@ enderio.itemCoordSelector.chat.newCoords=Новые координаты: %s
 enderio.itemCoordSelector.chat.setCoords=Выбранные координаты: %s
 enderio.itemCoordSelector.chat.newDimension=Новое измерение: %s%s
 enderio.itemCoordSelector.chat.setDimension=Выбранное измерение: %s%s
+enderio.itemConduitProbe.chat.copied=Copied conduit settings
+enderio.itemOCConduit.chat.channel=Channel %s at %s
+enderio.itemOCConduit.chat.connectedTo=Connected to: %s
+enderio.itemOCConduit.chat.nodeAt=%s at %s
+enderio.itemOCConduit.chat.noConnections=No connections at %s
+enderio.itemOCConduit.chat.noNetwork=No network at %s
 
 #Painter
 tile.blockPainter.name=Покрасочный механизм
@@ -1146,8 +1152,8 @@ enderio.gui.mjReader.insertedInto=будет направлен:
 enderio.gui.mjReader.noItems=Не получает предметов.
 enderio.gui.mjReader.noItem=Не может получать
 enderio.gui.mjReader.receiveItems=Может получать предметы от:
-enderio.gui.mjReader.receiveItem1=Может получать
-enderio.gui.mjReader.receiveItem2=от:
+enderio.gui.mjReader.receiveItem=Can receive %s from:
+enderio.gui.mjReader.distance=Distance [%s]
 
 #CapactorBank
 enderio.gui.capBank.inputRs=Режим красного камня на входе
@@ -1208,8 +1214,7 @@ enderio.gui.blockBuffer.omni.name=Универсальный буфер
 enderio.gui.blockBuffer.creative.name=Творческий буфер
 
 #Travel Blocks
-enderio.gui.travelAccessable.privateBlock1=Только
-enderio.gui.travelAccessable.privateBlock2=может управлять настройками этого блока.
+enderio.gui.travelAccessable.privateBlock=Only %s may change this blocks settings.
 enderio.gui.travelAccessable.public=Общедоступный
 enderio.gui.travelAccessable.private=Частный
 enderio.gui.travelAccessable.protected=Защищённый

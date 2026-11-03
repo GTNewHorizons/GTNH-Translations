@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: ME-IO Port
+  title: ME G/Ç Bağlantı Noktası
   icon: appliedenergistics2:tile.BlockIOPort
 categories:
 - devices
@@ -9,25 +9,25 @@ item_ids:
 - appliedenergistics2:tile.BlockIOPort
 ---
 
-# ME I/O Port
+# ME G/Ç Bağlantı Noktası
 
 <BlockImage id="appliedenergistics2:tile.BlockIOPort"/>
 
-The I/O Port rapidly fills or empties [storage cells](storage_cells.md) from [network storage](../ae2_mechanics/import_export_storage.md). It can be rotated with a <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" />.
+G/Ç Bağlantı Noktası, [depolama hücrelerini](storage_cells.md) [ağ deposundan](../ae2_mechanics/import_export_storage.md) hızla doldurur veya boşaltır. <ItemLink id="appliedenergistics2:item.ToolCertusQuartzWrench" /> ile döndürülebilir.
 
-## Settings
+## Ayarlar
 
-* Move the cell to the output slot when it is empty, full, or when the operation completes.
-* Install <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:26" /> for redstone conditions.
-* The center arrow selects transfer direction: cell to network storage, or network storage to cell.
+* Hücre boşaldığında, dolduğunda veya işlem tamamlandığında hücreyi çıkış yuvasına taşı.
+* Kızıltaş koşulları için <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:26" /> tak.
+* Ortadaki ok aktarım yönünü seçer: hücreden ağ deposuna veya ağ deposundan hücreye.
 
-## Upgrades
+## Yükseltmeler
 
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> increases the amount moved per operation.
-* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:26" /> adds high, low, and pulse redstone control.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:30" /> işlem başına taşınan miktarı artırır.
+* <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:26" /> yüksek, düşük ve darbe Kızıltaş kontrolü ekler.
 
-In a cold state it operates every 5 ticks, then every tick while hot. Each operation transfers 256 x 2^n items, where n is the number of acceleration cards.
+Soğuk durumdayken her 5 tick'te bir çalışır, ısındığında ise her tick'te. Her işlem 256 x 2^n eşya aktarır; burada n hızlandırma kartı sayısıdır.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:tile.BlockIOPort" />

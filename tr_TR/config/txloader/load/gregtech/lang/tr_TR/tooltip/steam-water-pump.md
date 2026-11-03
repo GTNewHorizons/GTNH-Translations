@@ -1,5 +1,5 @@
-Converts steam to water based on humidity
-Has two tiers: Basic and High-Pressure
-High-Pressure produces 2x Water from the same steam
-{aqua:Generates: {white:tier * humidity * {var:water} L/s} of Water, to a minimum of {var:min_water}L/s}
-{red:Consumes: {white:{var:steam} L/s} of Steam}
+Neme göre buharı suya dönüştürür
+İki kademesi vardır: Basit ve Yüksek Basınçlı
+Yüksek Basınçlı kademe aynı buhardan 2x Su üretir
+{aqua:Üretir: {white:kademe * nem * {var:water} L/s} Su, en az {var:min_water}L/s}
+{red:Tüketir: {white:{var:steam} L/s} Buhar}

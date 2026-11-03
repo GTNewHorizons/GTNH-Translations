@@ -2,31 +2,31 @@
 item_ids:
   - minecraft:dirt
 navigation:
-  title: What's New (2.9.0)
+  title: Neler Yeni (2.9.0)
   position: 0
 author: Skorched
 date: 2026-05-15
 ---
 
-# What's New (2.9.0 Changelog)
+# Neler Yeni (2.9.0 Sürüm Notları)
 
-The wait is over <PlayerName />... GTNH 2.9 is finally out!
-So much has changed that it can be hard to keep track, even if you actively follow the pack's development, so this page aims to give a brief overview of some of the changes you can expect to encounter in your playthrough! As with everything in the pack, this is a work in progress, and any suggestions can be given through our <a href="https://discord.gg/gtnh">Discord Server</a>.
+Bekleyiş bitti <PlayerName />... GTNH 2.9 sonunda çıktı!
+O kadar çok şey değişti ki, paketin geliştirilmesini aktif olarak takip etsen bile takip etmek zor olabilir; bu sayfa da oynayışında karşılaşabileceğin değişikliklerden bazılarına kısa bir genel bakış sunmayı amaçlıyor! Paketteki her şeyde olduğu gibi bu da hâlâ geliştiriliyor ve önerilerini <a href="https://discord.gg/gtnh">Discord Sunucumuz</a> üzerinden iletebilirsin.
 
 > [!NOTE]
-> This is not an exhaustive list of changes in 2.9.x. Between minor bug fixes, and optimisations, there are many things that just cannot fit on this list. This list instead intends to give an idea of some of the *larger* changes or features added in this version.
+> Bu, 2.9.x sürümlerindeki değişikliklerin tam listesi değil. Küçük hata düzeltmeleri ve optimizasyonların yanı sıra bu listeye sığmayan pek çok şey var. Bu liste bunun yerine bu sürümde eklenen *daha büyük* değişiklikler veya özellikler hakkında bir fikir vermeyi amaçlıyor.
 
-# Changes
-The changes made can be generally grouped into categories as shown below, however there are some that "overlap" multiple categories. In that case, they will show in both categories:
+# Değişiklikler
+Yapılan değişiklikler genel olarak aşağıda gösterildiği gibi kategorilere ayrılabilir; ancak birden fazla kategoriyle "örtüşen" bazıları da var. Bu durumda her iki kategoride de görünürler:
 ## [Applied Energistics](./ae2/ae2.md)
 ## [CropsNH](./crops/crops.md)
-## [Magic Changes](./magic/magic.md)
-## [Miscellaneous Changes](./misc/misc.md)
-## [New Multi-blocks](./multis/multis.md)
-## [Quality of Life](./qol/qol.md)
-## [Structure Reworks](./reworks/reworks.md)
+## [Büyü Değişiklikleri](./magic/magic.md)
+## [Çeşitli Değişiklikler](./misc/misc.md)
+## [Yeni Çoklu Bloklar](./multis/multis.md)
+## [Yaşam Kalitesi](./qol/qol.md)
+## [Yapı Yenilemeleri](./reworks/reworks.md)
 
-# What Am I Even Reading?!
-You are currently reading a changelog made via a new mod inclusion, [GuideNH](./misc/guide.md) in 2.9! This mod will (eventually) come with lots of guides on different aspects of the pack, and offers a large range of methods to showcase ideas. For more information, check out the page!
+# Ben Şimdi Ne Okuyorum?!
+Şu anda 2.9 ile gelen yeni bir mod olan [GuideNH](./misc/guide.md) aracılığıyla oluşturulmuş bir sürüm notu okuyorsun! Bu mod (zamanla) paketin farklı Aspektleri hakkında birçok rehberle birlikte gelecek ve fikirleri sergilemek için geniş bir yöntem yelpazesi sunuyor. Daha fazla bilgi için sayfaya göz at!
 
-If you feel you have something to contribute, follow the link on the discord, and find the `#guide-dev` channel to get stuck in!
+Katkıda bulunacak bir şeyin olduğunu düşünüyorsan Discord'daki bağlantıyı takip et ve `#guide-dev` kanalını bulup işe koyul!

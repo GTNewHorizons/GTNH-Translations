@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15528
 navigation:
-  title: Large Plasma Turbine
+  title: Büyük Plazma Türbini
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15528
 categories:
@@ -11,99 +11,99 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Large Plasma Turbine
+# Büyük Plazma Türbini
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15528"/>
 </GameScene>
-The <Color id="GREEN">Large Plasma Turbine (LPT)</Color> is an LuV tier multiblock for generating power from plasma. The <Color id="GREEN">LPT</Color> is a direct upgrade from the singleblock plasma generators because it outputs up to 4A of power with much higher efficiency. However, a turbine must be placed inside the controller for the machine to run, the input rate of plasma must be carefully regulated, and it must be running for at least 50 seconds to fully warm-up. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate (L/s). Power is extracted from a 4A dynamo hatch on the back of the structure as the plasma condenses into liquid. Breaking the dynamo hatch while the machine is running causes it to explode. Save on fuel by automatically toggling the <Color id="GREEN">LPT</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>.
+<Color id="GREEN">Büyük Plazma Türbini (LPT)</Color>, plazmadan güç üretmek için kullanılan LuV kademesi bir multibloktur. <Color id="GREEN">LPT</Color>, tek blok plazma jeneratörlerine göre doğrudan bir yükseltmedir; çünkü çok daha yüksek verimle 4A'ya kadar güç çıkışı verir. Ancak makinenin çalışması için kontrolcünün içine bir türbin yerleştirilmeli, plazmanın giriş hızı dikkatle ayarlanmalı ve tam ısınma için en az 50 saniye çalışması gerekir. Türbinler dört farklı boyutta ve her biri kendi verim bonusuna ve optimal akış hızına (L/s) sahip birçok farklı malzemeden gelir. Plazma sıvıya yoğuşurken güç, yapının arkasındaki 4A'lık dinamo kapağından çekilir. Makine çalışırken dinamo kapağını kırarsan makine patlar. <Color id="GREEN">LPT</Color>'yi bir Lapotronik Süperkapasitöre <ItemImage id="gregtech:gt.blockmachines:13106"/> bağlı Kızıltaş RS mandalıyla otomatik olarak açıp kapatarak yakıttan tasarruf et.
 
-The <Color id="GREEN">LPT</Color> is superseded by the XL Turbo Plasma Turbine <ItemImage id="gregtech:gt.blockmachines:15523"/> which consumes as much plasma and produces as much power as 16 <Color id="GREEN">LPTs</Color>, but only requires 12 turbines. It also supports multi-amp and laser energy hatches for serious power generation. 
+<Color id="GREEN">LPT</Color>'nin yerini, XL Turbo Plazma Türbini <ItemImage id="gregtech:gt.blockmachines:15523"/> alır; 16 <Color id="GREEN">LPT</Color> kadar plazma tüketip aynı gücü üretir, ancak yalnızca 12 türbin gerektirir. Ciddi güç üretimi için çok amperli ve lazer enerji kapaklarını da destekler. 
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
+[GTNH Güç Planlayıcısı](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure itself has changed, the core functionality of the multiblock is the same as previous
+> Yalnızca yapının kendisi değişti; multiblokun temel işlevselliği öncekiyle aynı
 
-## Construction
-The <Color id="GREEN">LPT</Color> has no tiered components. The maintenance hatch, input hatch, and output hatch may replace any turbine casing on the back half of the structure. The dynamo hatch is limited to the center casing on the very back of the structure and cannot be greater than 4A. There is NO muffler hatch so do not include one. The 9 blocks directly in front of the controller are mandatory air. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+## Yapım
+<Color id="GREEN">LPT</Color>'nin kademeli bileşenleri yoktur. Bakım kapağı, Girdi Kapağı ve Çıkış Kapağı, yapının arka yarısındaki herhangi bir Türbin Gövdesi'nin yerini alabilir. Dinamo kapağı yalnızca yapının en arkasındaki orta kasaya konabilir ve 4A'dan büyük olamaz. Egzoz Çıkışı YOKTUR, bu yüzden bir tane ekleme. Kontrolcünün hemen önündeki 9 blok zorunlu olarak havadır. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan.
 
-Unique to large turbines is the turbine housing <ItemImage id="gregtech:gt.blockmachines:31025"/> which is effectively a ULV input bus for storing an extra turbine that automatically replaces the one inside the controller once it breaks. It is completely optional and gated to UV, but helps maximize runtime. 
+Büyük türbinlere özgü olan türbin muhafazası <ItemImage id="gregtech:gt.blockmachines:31025"/>, fazladan bir türbin depolamak için kullanılan ve adeta bir ULV Giriş Yolu gibi çalışan bir parçadır; kontrolcünün içindeki türbin kırıldığında onu otomatik olarak değiştirir. Tamamen isteğe bağlıdır ve UV kademesine kilitlidir, ancak çalışma süresini en üst düzeye çıkarmaya yardımcı olur. 
 
-### Requires:
+### Gerekli:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15528"/><ItemImage id="gregtech:gt.blockmachines:15528"/>
 - 14 <ItemLink id="gregtech:gt.blockframes:316"/><ItemImage id="gregtech:gt.blockframes:316"/>
 - 8-14 <ItemLink id="gregtech:gt.blockcasings4:12"/><ItemImage id="gregtech:gt.blockcasings4:12"/>
 - 12 <ItemLink id="gregtech:gt.blockcasings2:15"/><ItemImage id="gregtech:gt.blockcasings2:15"/>
-- 1 Dynamo Hatch (back center turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 Maintenance Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Dinamo Kapağı (arka orta Türbin Gövdesi) <ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 Bakım Kapağı (herhangi bir arka Türbin Gövdesi) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 0+ <ItemLink id="gregtech:gt.blockmachines:31025"/><ItemImage id="gregtech:gt.blockmachines:31025"/>
-- 0+ Input Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 0+ Girdi Kapağı (herhangi bir arka Türbin Gövdesi) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Kapağı (herhangi bir arka Türbin Gövdesi) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">LPTs</Color> may wallshare each of their sides to save on space, casings, and hatches. However, do NOT share the input hatch because the fuel is not split evenly between the <Color id="GREEN">LPTs</Color> -- one consumes everything and the other receives nothing. The restriction on the hatch locations make that difficult to accomplish anyway. 
+### Duvar Paylaşımı
+<Color id="GREEN">LPT</Color>'ler alandan, Türbin Gövdesi'nden ve kapaktan tasarruf etmek için her bir yüzlerini duvar paylaşımıyla kullanabilir. Ancak Girdi Kapağı'nı PAYLAŞMA, çünkü yakıt <Color id="GREEN">LPT</Color>'ler arasında eşit olarak bölünmez; biri her şeyi tüketir, diğeri hiçbir şey almaz. Kapak konumlarındaki kısıtlama zaten bunu yapmayı zorlaştırır. 
 
-## Usage
-The <Color id="GREEN">LPT</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid-game when plasma production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
+## Kullanım
+<Color id="GREEN">LPT</Color>'nin aşağıda listelenen iki çalışma modu vardır; aralarındaki ölçülebilir farklar için yukarıda bağlantısı verilen planlayıcıya bak. Plazma üretiminin düşük olduğu oyunun başı ve ortasında ilki, güç çıkışının verimden daha önemli olduğu oyunun sonlarında ise ikincisi daha iyidir. Modlar arasında kontrolcüye tornavida kullanarak geçiş yap.
 
-- Tight Fitting Mode - High efficiency, Low optimal flow rate (power).
-- Loose Fitting Mode - Low efficiency, High optimal flow rate (power).
+- Sıkı Geçme Modu - Yüksek verim, düşük optimal akış hızı (güç).
+- Gevşek Geçme Modu - Düşük verim, yüksek optimal akış hızı (güç).
 
-The speed of the <Color id="GREEN">LPT</Color> increases linearly up to 100% while active and decreases back to 0% while inactive. Speed is directly proportional to the power output of the machine and takes 50 seconds to reach its maximum value regardless of the turbine size/material. Speed decays extremely fast when the <Color id="GREEN">LPT</Color> is disabled, the turbine is removed, the structure is broken, or fuel runs out. View the current speed of the turbine by using a Portable Scanner on the controller or looking at the "efficiency" value in WAILA. 
+<Color id="GREEN">LPT</Color>'nin hızı çalışırken doğrusal olarak yüzde 100'e kadar yükselir, çalışmadığında ise yüzde 0'a geri düşer. Hız, makinenin güç çıkışıyla doğru orantılıdır ve türbin boyutu/malzemesi ne olursa olsun maksimum değerine ulaşması 50 saniye sürer. <Color id="GREEN">LPT</Color> devre dışı bırakıldığında, türbin çıkarıldığında, yapı kırıldığında veya yakıt tükendiğinde hız son derece hızlı düşer. Kontrolcüye Taşınabilir Tarayıcı kullanarak ya da WAILA'daki "efficiency" değerine bakarak türbinin mevcut hızını görüntüle. 
 
-## Optimal Flow Rate
-The rate (L/s) at which plasma enters the <Color id="GREEN">LPT</Color> is extremely important. Too little plasma and only a fraction of the potential power is generated; too much plasma and a tremendous amount of fuel is wasted. Ideally, plasma enters the <Color id="GREEN">LPT</Color> at the optimal flow rate of the turbine which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}^*$$) in L/s is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, and $$\eta_0$$ is the base efficiency of the turbine.
+## Optimal Akış Hızı
+Plazmanın <Color id="GREEN">LPT</Color>'ye girdiği hız (L/s) son derece önemlidir. Çok az plazma olursa potansiyel gücün yalnızca bir kısmı üretilir; çok fazla plazma olursa muazzam miktarda yakıt boşa gider. İdeal olarak plazma, <Color id="GREEN">LPT</Color>'ye türbinin optimal akış hızında girer; bu hız boyut/malzemeye ve makinenin çalışma moduna göre önemli ölçüde değişir. NEI'de görünse de optimal akış hızı ($$\dot{m}^*$$) L/s cinsinden aşağıdaki denklemlerle hesaplanır; burada $$k$$ her malzemeyle ilişkili bir çarpan, size 1=küçük ile 4=dev arasında bir sabit ve $$\eta_0$$ türbinin temel verimidir.
 
 <Latex formula="\dot{m}^* \text{Tight} = k \times \text{size} \times 1,000 \div EU/L">
-  Where:
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
+  Burada:
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$k$$: Malzeme Çarpanı
 </Latex>
 <Latex formula="\dot{m}^* \text{Loose} = k \times \text{size} \times 2,000 \div EU/L \times 1.03^{20(\eta_0 - 0.8)}">
-  Where:
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
-  - $$\eta_0$$: Base Efficiency
+  Burada:
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$k$$: Malzeme Çarpanı
+  - $$\eta_0$$: Temel Verim
 </Latex>
 
-The quicker and easier way to calculate the optimal flow rate in tight fitting mode is to divide the optimal plasma EU/t (visible in NEI) by the density of the plasma, and then multiply the result by 40/3. Some plasmas have slightly lower densities and thus higher optimal flow rates--especially if the <Color id="GREEN">LPT</Color> is in loose mode. The player may need to upgrade their fluid regulator or add a second input hatch to meet the increased demand. Eventually it becomes necessary to switch to AE2 fluid P2P tunnels which effectively have no transfer limit and no regard for temperature or heat capacity. 
+Sıkı geçme modunda optimal akış hızını hesaplamanın daha hızlı ve kolay yolu, optimal plazma EU/t değerini (NEI'de görünür) plazmanın yoğunluğuna bölmek ve sonucu 40/3 ile çarpmaktır. Bazı plazmaların yoğunluğu biraz daha düşüktür ve dolayısıyla optimal akış hızları daha yüksektir; özellikle <Color id="GREEN">LPT</Color> gevşek moddaysa. Oyuncunun artan talebi karşılamak için sıvı Regülatörünü yükseltmesi veya ikinci bir Girdi Kapağı eklemesi gerekebilir. Sonunda, etkin biçimde aktarım sınırı olmayan ve sıcaklık ya da ısı kapasitesini dikkate almayan AE2 sıvı P2P tünellerine geçmek gerekli hale gelir. 
 
-## Power & Overflow
-The power generated by the <Color id="GREEN">LPT</Color> depends on the current flow rate ($$\dot{m}$$), the optimal flow rate ($$\dot{m}^*$$), and the efficiency of the turbine ($$\eta$$). Exceeding the optimal flow rate generates additional power with diminishing returns based on the overflow tier ($$T$$) of the turbine. There are only three overflow tiers in total and depends strictly on the material of the turbine. A higher overflow tier also increases the maximum flow rate ($$\dot{m}_{max}$$). View the overflow of a turbine through NEI and the current power output of the machine through WAILA.
+## Güç ve Taşma
+<Color id="GREEN">LPT</Color>'nin ürettiği güç, mevcut akış hızına ($$\dot{m}$$), optimal akış hızına ($$\dot{m}^*$$) ve türbinin verimine ($$\eta$$) bağlıdır. Optimal akış hızının aşılması, türbinin taşma kademesine ($$T$$) bağlı olarak azalan getiriyle ek güç üretir. Toplamda yalnızca üç taşma kademesi vardır ve bu tamamen türbinin malzemesine bağlıdır. Daha yüksek taşma kademesi maksimum akış hızını ($$\dot{m}_{max}$$) da artırır. Türbinin taşma değerini NEI'den, makinenin mevcut güç çıkışını WAILA'dan görüntüle.
 
-Power is extracted from a 4A dynamo hatch on the back of the structure. Do not break the dynamo hatch while the machine is running or else the <Color id="GREEN">LPT</Color> will explode. Exceeding the maximum EU/t or the total EU in the dynamo's buffer is perfectly safe; the <Color id="GREEN">LPT</Color> will not explode if an attached battery buffer or Lapotronic Supercapacitor (LSC) is full and there is nowhere for the EU to go. Any additional EU is simply voided. It is highly recommended to automatically toggle the <Color id="GREEN">LPT</Color> with a redstone RS latch to avoid wasting fuel.
+Güç, yapının arkasındaki 4A'lık bir dinamo kapağından çekilir. Makine çalışırken dinamo kapağını kırma, yoksa <Color id="GREEN">LPT</Color> patlar. Maksimum EU/t değerinin veya dinamonun tamponundaki toplam EU'nun aşılması tamamen güvenlidir; bağlı bir Pil tamponu ya da Lapotronik Süperkapasitör (LSC) doluysa ve EU'nun gidecek yeri yoksa <Color id="GREEN">LPT</Color> patlamaz. Fazladan EU yalnızca yok edilir. Yakıt israfını önlemek için <Color id="GREEN">LPT</Color>'yi Kızıltaş RS mandalıyla otomatik olarak açıp kapatman şiddetle önerilir.
 
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times EU/L \times \eta \div 20">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$\eta$$: Verim
 </Latex>
 <Latex formula="\text{EU/t} (> \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^* \times (3T+1)} \Biggr) \times EU/L \times \eta \div 20">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
-  - $$T$$: Overflow Tier
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$\eta$$: Verim
+  - $$T$$: Taşma Kademesi
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (1.5T + 1)">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}_{max}$$: Maximum Flow Rate
-  - $$T$$ Overflow Tier
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}_{max}$$: Maksimum Akış Hızı
+  - $$T$$ Taşma Kademesi
 </Latex>
 
-# Turbines
-A turbine must be placed inside the GUI of the controller for the machine to run. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate. There are too many different permutations to list them all here, but the planner linked at the top has all the relevant information and even a calculator for determining the power output and lifespan of any turbine with any fuel.
+# Türbinler
+Makinenin çalışması için kontrolcünün GUI'sine bir türbin yerleştirilmelidir. Türbinler dört farklı boyutta ve her biri kendi verim bonusuna ve optimal akış hızına sahip birçok farklı malzemeden gelir. Burada hepsini listelemek için çok fazla farklı kombinasyon var; ancak yukarıda bağlantısı verilen planlayıcıda tüm ilgili bilgiler ve hatta herhangi bir türbinin herhangi bir yakıtla güç çıkışını ve Yaşam ömrünü belirlemeye yarayan bir hesaplayıcı var.
 
-- Small turbines are crafted with long magnalium rods (available as early as LV)
-- Normal turbines are crafted with long titanium rods (available at the end of HV after traveling to the moon <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>)
-- Large turbines are crafted with long tungstensteel rods (available in IV after the tungsten processing line)
-- Huge turbines are crafted with long americium rods (available in ZPM after building a Fusion Reactor Mk-II <ItemImage id="gregtech:gt.blockmachines:32020"/>)
+- Küçük türbinler uzun magnalyum çubuklarla üretilir (LV kadar erken kullanılabilir)
+- Normal türbinler uzun titanyum çubuklarla üretilir (aya gittikten sonra HV'nin sonunda kullanılabilir <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>)
+- Büyük türbinler uzun tungsten çeliği çubuklarla üretilir (tungsten işleme hattından sonra IV'te kullanılabilir)
+- Dev türbinler uzun Amerikyum çubuklarla üretilir (Füzyon Reaktörü Mk-II inşa ettikten sonra ZPM'de kullanılabilir <ItemImage id="gregtech:gt.blockmachines:32020"/>)
 
-## Durability
-The turbines slowly lose durability proportional to the power generated. The total durability of a turbine depends on the material and instantly voids once it reaches 0%. Turbines can be automatically inserted into the controller via the input bus, but they cannot be automatically extracted.
+## Dayanıklılık
+Türbinler üretilen güce orantılı olarak yavaşça dayanıklılık kaybeder. Bir türbinin toplam dayanıklılığı malzemesine bağlıdır ve yüzde 0'a ulaştığında anında yok olur. Türbinler Giriş Yolu aracılığıyla kontrolcüye otomatik olarak yerleştirilebilir, ancak otomatik olarak çıkarılamaz.
 
-The following equation calculates the lifespan of the turbines (in hours) from the current power output of an <Color id="GREEN">LPT</Color>. Note that loose fitting mode provides a 25% durability boost to compensate for the reduced lifespan of a higher power output and turbines last much longer here than in the Large Steam Turbine. Turbines generally have lifespans of several hundred hours (or more) so they do not need to be replaced very often. 
+Aşağıdaki denklem, bir <Color id="GREEN">LPT</Color>'nin mevcut güç çıkışından türbinlerin Yaşam ömrünü (saat cinsinden) hesaplar. Gevşek geçme modunun, daha yüksek güç çıkışının kısalttığı Yaşam ömrünü telafi etmek için %25 dayanıklılık artışı sağladığını ve türbinlerin burada Büyük Buhar Türbinine göre çok daha uzun dayandığını unutma. Türbinler genellikle birkaç yüz saatlik (veya daha fazla) Yaşam ömrüne sahiptir, bu yüzden çok sık değiştirilmeleri gerekmez. 
 
 <Latex formula="\text{Lifespan } (h) = \frac{50\times \text{Durability}}{36 \times \text{min}(36 \times EU/t,(0.2 \times EU/t)^{0.6})}"/>

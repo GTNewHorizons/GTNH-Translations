@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Storage Cells
+  title: Depolama Hücreleri
   icon: appliedenergistics2:item.ItemBasicStorageCell.1k
 categories:
 - tools
@@ -92,7 +92,7 @@ item_ids:
 - ae2fc:creative_fluid_storage
 ---
 
-# Storage Cells
+# Depolama Hücreleri
 
 <Column>
   <Row>
@@ -132,17 +132,17 @@ item_ids:
   </Row>
 </Column>
 
-Storage Cells are one of the primary storage methods in Applied Energistics 2. They can be installed in an <ItemLink id="appliedenergistics2:tile.BlockDrive" /> or an <ItemLink id="appliedenergistics2:tile.BlockChest" />.
+Depolama Hücreleri, Applied Energistics 2'deki başlıca depolama yöntemlerinden biridir. <ItemLink id="appliedenergistics2:tile.BlockDrive" /> veya <ItemLink id="appliedenergistics2:tile.BlockChest" /> bloklarına takılabilirler.
 
-See [Bytes and Types](../ae2_mechanics/bytes_and_types.md) for an explanation of their capacities in bytes and types.
+Bayt ve tip cinsinden kapasitelerinin açıklaması için [Baytlar ve Tipler](../ae2_mechanics/bytes_and_types.md) sayfasına bak.
 
-If a Storage Cell is empty, hold it in your hand and Shift + Right-click to remove the storage component from its housing.
+Bir Depolama Hücresi boşsa, elinde tut ve depolama bileşenini kasasından çıkarmak için Shift + Sağ tıkla.
 
-## Storage Capacity with Varying Type Count
+## Değişen Tip Sayısıyla Depolama Kapasitesi
 
-The [upfront cost of types](../ae2_mechanics/bytes_and_types.md) is such that a cell holding 1 type can hold 2x as much as a cell with all 63 types in use.
+[Tiplerin ön maliyeti](../ae2_mechanics/bytes_and_types.md) öyle bir yapıdadır ki, 1 tip tutan bir hücre, 63 tipin tamamının kullanıldığı bir hücrenin 2x katı kadar tutabilir.
 
-| Storage Cell | Total Capacity of Cell With 1 Type In Use | Total Capacity of Cell With Maximum Types In Use |
+| Depolama Hücresi | 1 Tip Kullanıldığında Hücrenin Toplam Kapasitesi | Maksimum Tip Kullanıldığında Hücrenin Toplam Kapasitesi |
 | --- | ---: | ---: |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.1k" scale="4" />            |       8,128 |      4,160 |
 | <ItemLink id="appliedenergistics2:item.ItemBasicStorageCell.4k" scale="4" />            |      32,512 |     16,640 |
@@ -159,7 +159,7 @@ The [upfront cost of types](../ae2_mechanics/bytes_and_types.md) is such that a 
 
 ---
 
-| Fluid Storage Cell | Total Capacity (mB) with 1 Type in Use | Total Capacity (mB) with Maximum Types in Use |
+| Sıvı Depolama Hücresi | 1 Tip Kullanıldığında Toplam Kapasite (mB) | Maksimum Tip Kullanıldığında Toplam Kapasite (mB) |
 | --- | ---: | ---: |
 | <ItemLink id="ae2fc:fluid_storage1" scale="4" />            |      2,080,768 |      2,015,232 |
 | <ItemLink id="ae2fc:fluid_storage4" scale="4" />            |      8,372,224 |      8,060,928 |
@@ -175,7 +175,7 @@ The [upfront cost of types](../ae2_mechanics/bytes_and_types.md) is such that a 
 
 ---
 
-| Essentia Storage Cell | Types | Total Essentia Capacity (No Type Overhead) |
+| Esans Depolama Hücresi | Tipler | Toplam Esans Kapasitesi (Tip Ek Yükü Olmadan) |
 | --- | ---: | ---: |
 | <ItemLink id="thaumicenergistics:storage.essentia" scale="4" />   | 12 |      2,048 |
 | <ItemLink id="thaumicenergistics:storage.essentia:1" scale="4" /> | 12 |      8,192 |
@@ -187,70 +187,70 @@ The [upfront cost of types](../ae2_mechanics/bytes_and_types.md) is such that a 
 | <ItemLink id="thaumicenergistics:storage.essentia:8" scale="4" /> | 60 | 33,554,432 |
 | <ItemLink id="thaumicenergistics:storage.essentia:9" scale="4" /> |  1 |       268M |
 
-## Partitioning
+## Biçimlendirme
 
-Cells can be filtered to accept only certain items, similar to the filtering on an <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />. This is done in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
+Hücreler, yalnızca belirli eşyaları kabul edecek şekilde filtrelenebilir; bu, bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> üzerindeki filtrelemeye benzer. Bu işlem bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> içinde yapılır.
 
-Cells also support cell restrictions, allowing both the maximum byte capacity and the type count to be limited below their normal values.
+Hücreler ayrıca hücre kısıtlamalarını destekler; bu sayede hem maksimum bayt kapasitesi hem de tip sayısı normal değerlerinin altına sınırlandırılabilir.
 
-These settings are configured in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />.
+Bu ayarlar bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> içinde yapılandırılır.
 
-Items can be dragged into the slots from NEI even if you don't actually have any of that item.
+O eşyadan elinde hiç olmasa bile eşyalar NEI'den yuvalara sürüklenebilir.
 
-## Upgrades
-Storage cells support the following upgrades, inserted via a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" />:
+## Yükseltmeler
+Depolama hücreleri, bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> aracılığıyla takılan şu yükseltmeleri destekler:
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> (not available on fluid cells) lets the cell be partitioned by damage level and/or ignore item NBT
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> switches the filter from a whitelist to a blacklist
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" /> allocates the same amount of cell byte space to each type, so one type cannot fill up the entire cell
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> voids items inserted if the cell is full (or that specific type's allocated space in the case of an equal distribution card), useful for stopping farms from backing up. Be careful to partition this!
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" /> allows filtering using Ore Dictionary and supports regular expression matching
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:64" /> (Only functions when partitioning is enabled) designates a preferred storage location for specific items or fluids. Marked items and fluids will only be stored in cells containing a Sticky Card instead of other available storage on the network
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" /> (sıvı hücrelerde kullanılamaz) hücrenin hasar seviyesine göre biçimlendirilmesini ve/veya eşya NBT'sinin yok sayılmasını sağlar
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" /> filtreyi beyaz listeden kara listeye çevirir
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:69" /> her tipe aynı miktarda hücre bayt alanı ayırır, böylece tek bir tip tüm hücreyi dolduramaz
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:68" /> hücre doluysa (veya eşit dağıtım kartı söz konusuysa o tipin ayrılmış alanı doluysa) eklenen eşyaları yok eder; çiftliklerin tıkanmasını önlemek için kullanışlıdır. Bunu biçimlendirirken dikkatli ol!
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:55" /> Cevher Sözlüğü kullanarak filtrelemeye izin verir ve düzenli ifade eşleştirmesini destekler
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:64" /> (Yalnızca biçimlendirme etkinken çalışır) belirli eşyalar veya sıvılar için tercih edilen bir depolama konumu belirler. İşaretlenen eşyalar ve sıvılar, ağdaki diğer kullanılabilir depolama yerine yalnızca Yapışkan Kart içeren hücrelerde depolanır
 
-# Housings
+# Kasalar
 
-Most storage cells are assembled from a Storage Component and a corresponding Housing. Different capacities and storage types require different housings. Certain special storage cells are crafted directly and do not require housings.
+Çoğu depolama hücresi, bir Depolama Bileşeni ve ona karşılık gelen bir Kasadan monte edilir. Farklı kapasiteler ve depolama tipleri farklı kasalar gerektirir. Bazı özel depolama hücreleri doğrudan üretilir ve kasa gerektirmez.
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:39" /> used for crafting 1k – 64k Item Storage Cells
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:39" /> 1k – 64k Eşya Depolama Hücrelerini üretmek için kullanılır
 <br> <RecipesFor id="appliedenergistics2:item.ItemBasicStorageCell.1k" output="appliedenergistics2:item.ItemBasicStorageCell.1k" />
-<br> Housings by themselves are crafted like so:
+<br> Kasaların kendisi şu şekilde üretilir:
 <br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:39" limit="3" />
 
-*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:61" /> used for crafting 256k – 16384k Item Storage Cells
+*   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:61" /> 256k – 16384k Eşya Depolama Hücrelerini üretmek için kullanılır
 <br> <RecipesFor id="appliedenergistics2:item.ItemAdvancedStorageCell.256k" output="appliedenergistics2:item.ItemAdvancedStorageCell.256k" />
-<br> Housings by themselves are crafted like so:
+<br> Kasaların kendisi şu şekilde üretilir:
 <br> <RecipesFor id="appliedenergistics2:item.ItemMultiMaterial:61" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing" /> used for crafting 1k – 64k Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing" /> 1k – 64k Sıvı Depolama Hücrelerini üretmek için kullanılır
 <br> <RecipesFor id="ae2fc:fluid_storage1" output="ae2fc:fluid_storage1"/>
-<br> Housings by themselves are crafted like so:
+<br> Kasaların kendisi şu şekilde üretilir:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing" handlerId="gt.recipe.assembler" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:1" /> used for crafting 256k – 16384k Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing:1" /> 256k – 16384k Sıvı Depolama Hücrelerini üretmek için kullanılır
 <br> <RecipesFor id="ae2fc:fluid_storage256" output="ae2fc:fluid_storage256"/>
-<br> Housings by themselves are crafted like so:
+<br> Kasaların kendisi şu şekilde üretilir:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:1" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:2" /> used for crafting 1k – 64k Multi-Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing:2" /> 1k – 64k Çoklu Sıvı Depolama Hücrelerini üretmek için kullanılır
 <br> <RecipesFor id="ae2fc:multi_fluid_storage1" output="ae2fc:multi_fluid_storage1" />
-<br> Housings by themselves are crafted like so:
+<br> Kasaların kendisi şu şekilde üretilir:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:2" />
 
-*   <ItemLink id="ae2fc:fluid_storage_housing:3" /> used for crafting 256k – 16384k Multi-Fluid Storage Cells
+*   <ItemLink id="ae2fc:fluid_storage_housing:3" /> 256k – 16384k Çoklu Sıvı Depolama Hücrelerini üretmek için kullanılır
 <br> <RecipesFor id="ae2fc:multi_fluid_storage256" output="ae2fc:multi_fluid_storage256" />
-<br> Housings by themselves are crafted like so:
+<br> Kasaların kendisi şu şekilde üretilir:
 <br> <RecipesFor id="ae2fc:fluid_storage_housing:3" />
 
-*   <ItemLink id="thaumicenergistics:storage.casing" /> used for crafting Essentia Storage Cells
+*   <ItemLink id="thaumicenergistics:storage.casing" /> Esans Depolama Hücrelerini üretmek için kullanılır
 <br> <RecipesFor id="thaumicenergistics:storage.essentia" output="thaumicenergistics:storage.essentia" />
-<br> Housings by themselves are crafted like so:
+<br> Kasaların kendisi şu şekilde üretilir:
 <br> <RecipesFor id="thaumicenergistics:storage.casing" />
 
-# Storage Components
+# Depolama Bileşenleri
 
-Storage Components are the core of ME Storage Cells and determine their storage capacity.
+Depolama Bileşenleri, ME Depolama Hücrelerinin çekirdeğidir ve depolama kapasitelerini belirler.
 
-Each tier increases storage capacity by a factor of four and requires four components of the previous tier to craft. They can also be manufactured directly in a Circuit Assembler.
+Her kademe, depolama kapasitesini dört katına çıkarır ve üretmek için bir önceki kademeden dört bileşen gerektirir. Ayrıca doğrudan bir Devre Montajcısı içinde üretilebilirler.
 
 <Column>
   <Row>
@@ -274,9 +274,9 @@ Each tier increases storage capacity by a factor of four and requires four compo
   </Row>
 </Column>
 
-# Item Storage Cells
+# Eşya Depolama Hücreleri
 
-Standard Item Storage Cells can hold up to 63 distinct types of items, and are available in all the standard capacities.
+Standart Eşya Depolama Hücreleri 63 farklı eşya tipine kadar tutabilir ve tüm standart kapasitelerde mevcuttur.
 
 <Column>
   <Row>
@@ -300,28 +300,28 @@ Standard Item Storage Cells can hold up to 63 distinct types of items, and are a
   </Row>
 </Column>
 
-## Special Item Storage Cells
+## Özel Eşya Depolama Hücreleri
 
-*   <ItemLink id="appliedenergistics2:item.ItemVoidStorageCell" /> can destroy all items stored within it
+*   <ItemLink id="appliedenergistics2:item.ItemVoidStorageCell" /> içinde depolanan tüm eşyaları yok edebilir
 <br><Recipe id="appliedenergistics2:item.ItemVoidStorageCell" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Container" /> can store only a single item type and provides 65,536 bytes of storage capacity
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Container" /> yalnızca tek bir eşya tipi depolayabilir ve 65,536 bayt depolama kapasitesi sunar
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Container" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" /> can store only a single item type and provides 134,217,727 bytes of storage capacity
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" /> Kuantum hücresi yalnızca tek bir eşya tipi depolayabilir ve 134,217,727 bayt depolama kapasitesi sunar
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Quantum" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" /> can store only a single item type and provides 576,460,752,303,423,487 bytes of storage capacity
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" /> yalnızca tek bir eşya tipi depolayabilir ve 576,460,752,303,423,487 bayt depolama kapasitesi sunar
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Singularity" />
-*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" /> can store up to 63 item types and provides 576,460,752,303,423,487 bytes of storage capacity
+*   <ItemLink id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" /> 63 eşya tipine kadar depolayabilir ve 576,460,752,303,423,487 bayt depolama kapasitesi sunar
 <br><Recipe id="appliedenergistics2:item.ItemExtremeStorageCell.Universe" />
 
-## Portable Item Storage
+## Taşınabilir Eşya Depolama
 
-Portable cells act like a tiny <ItemLink id="appliedenergistics2:tile.BlockChest" /> you can carry with you, similar to a backpack.
+Taşınabilir hücreler, yanında taşıyabileceğin minik bir <ItemLink id="appliedenergistics2:tile.BlockChest" /> gibi davranır; bir sırt çantasına benzer.
 
-They can be charged in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
+Bir <ItemLink id="appliedenergistics2:tile.BlockCharger" /> içinde şarj edilebilirler.
 
-Unlike standard Storage Cells, they can store only 27 item types and have a total capacity of 512 bytes.
+Standart Depolama Hücrelerinden farklı olarak yalnızca 27 eşya tipi depolayabilirler ve toplam kapasiteleri 512 bayttır.
 
-They support only the following upgrade cards:
+Yalnızca şu yükseltme kartlarını desteklerler:
 
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:29" />
 *   <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:31" />
@@ -330,65 +330,65 @@ They support only the following upgrade cards:
 
 <RecipesFor id="appliedenergistics2:item.ToolPortableCell" />
 
-# Fluid Storage Components
+# Sıvı Depolama Bileşenleri
 
-Fluid Storage Components are the core of ME Fluid Storage Cells and determine their storage capacity.
+Sıvı Depolama Bileşenleri, ME Sıvı Depolama Hücrelerinin çekirdeğidir ve depolama kapasitelerini belirler.
 
-Each tier increases capacity by a factor of four and requires four components of the previous tier to craft. They can also be manufactured directly in a Circuit Assembler.
+Her kademe, kapasiteyi dört katına çıkarır ve üretmek için bir önceki kademeden dört bileşen gerektirir. Ayrıca doğrudan bir Devre Montajcısı içinde üretilebilirler.
 
-# Fluid Storage Cells
+# Sıvı Depolama Hücreleri
 
-Standard Fluid Storage Cells are divided into two categories:
+Standart Sıvı Depolama Hücreleri iki kategoriye ayrılır:
 
-Fluid Storage Cells can store only one fluid type.
+Sıvı Depolama Hücreleri yalnızca tek bir sıvı tipi depolayabilir.
 
-Multi-Fluid Storage Cells can store up to five fluid types.
+Çoklu Sıvı Depolama Hücreleri beş sıvı tipine kadar depolayabilir.
 
-Both are available in all standard capacity tiers.
+Her ikisi de tüm standart kapasite kademelerinde mevcuttur.
 
-## Special Fluid Storage Cells
+## Özel Sıvı Depolama Hücreleri
 
-*   <ItemLink id="ae2fc:fluid_storage.void" /> can destroy all stored fluids
+*   <ItemLink id="ae2fc:fluid_storage.void" /> depolanan tüm sıvıları yok edebilir
 <br><Recipe id="ae2fc:fluid_storage.void" />
-*   <ItemLink id="ae2fc:fluid_storage.infinity.water" /> can provide an unlimited supply of water, up to 4,503,599,627,370,495 mB of water
+*   <ItemLink id="ae2fc:fluid_storage.infinity.water" /> Sonsuzluk Su hücresi, 4,503,599,627,370,495 mB suya kadar sınırsız su kaynağı sağlayabilir
 <br><Recipe id="ae2fc:fluid_storage.infinity.water" />
-*   <ItemLink id="ae2fc:fluid_storage.quantum" /> can store only a single fluid type and provides 134,217,727 bytes of storage capacity
+*   <ItemLink id="ae2fc:fluid_storage.quantum" /> Kuantum sıvı hücresi yalnızca tek bir sıvı tipi depolayabilir ve 134,217,727 bayt depolama kapasitesi sunar
 <br><Recipe id="ae2fc:fluid_storage.quantum" />
-*   <ItemLink id="ae2fc:fluid_storage.singularity" /> can store only a single fluid type and provides 2,251,799,813,685,247 bytes of storage capacity
+*   <ItemLink id="ae2fc:fluid_storage.singularity" /> yalnızca tek bir sıvı tipi depolayabilir ve 2,251,799,813,685,247 bayt depolama kapasitesi sunar
 <br><Recipe id="ae2fc:fluid_storage.singularity" />
-*   <ItemLink id="ae2fc:fluid_storage.Universe" /> can store up to 63 fluid types and provides 4,503,599,627,370,495 bytes of storage capacity
+*   <ItemLink id="ae2fc:fluid_storage.Universe" /> 63 sıvı tipine kadar depolayabilir ve 4,503,599,627,370,495 bayt depolama kapasitesi sunar
 <br><Recipe id="ae2fc:fluid_storage.Universe" />
 
-## Portable Fluid Storage Cell
+## Taşınabilir Sıvı Depolama Hücresi
 
-Portable Fluid Storage Cells can store up to five fluid types and have a total capacity of 256 bytes.
+Taşınabilir Sıvı Depolama Hücreleri beş sıvı tipine kadar depolayabilir ve toplam kapasiteleri 256 bayttır.
 
-They do not support any upgrade cards.
+Hiçbir yükseltme kartını desteklemezler.
 
 <RecipesFor id="ae2fc:portable_fluid_cell" />
 
-# Essentia Storage Components
+# Esans Depolama Bileşenleri
 
-Essentia Storage Components are the core of ME Essentia Storage Cells and determine their storage capacity.
+Esans Depolama Bileşenleri, ME Esans Depolama Hücrelerinin çekirdeğidir ve depolama kapasitelerini belirler.
 
-Each tier increases capacity by a factor of four and requires four components of the previous tier to craft. They can also be manufactured directly in a Circuit Assembler.
+Her kademe, kapasiteyi dört katına çıkarır ve üretmek için bir önceki kademeden dört bileşen gerektirir. Ayrıca doğrudan bir Devre Montajcısı içinde üretilebilirler.
 
-# Essentia Storage Cells
+# Esans Depolama Hücreleri
 
-1k - 64k Essentia Storage Cells support 12 Essentia types.
+1k - 64k Esans Depolama Hücreleri 12 Esans tipini destekler.
 
-Starting at 256k, each tier increases the supported Essentia type count by 12.
+256k'dan başlayarak her kademe, desteklenen Esans tipi sayısını 12 artırır.
 
-## Special Essentia Storage Cells
+## Özel Esans Depolama Hücreleri
 
-*   <ItemLink id="thaumicenergistics:storage.essentia:9" /> can store only a single Essentia type and provides 134,217,727 bytes of storage capacity
+*   <ItemLink id="thaumicenergistics:storage.essentia:9" /> yalnızca tek bir Esans tipi depolayabilir ve 134,217,727 bayt depolama kapasitesi sunar
 <br><Recipe id="thaumicenergistics:storage.essentia:9" />
-*   <ItemLink id="thaumicenergistics:storage.essentia:10" /> can store only a single Essentia type and provides 2,305,843,009,213,693,951 bytes of storage capacity
+*   <ItemLink id="thaumicenergistics:storage.essentia:10" /> yalnızca tek bir Esans tipi depolayabilir ve 2,305,843,009,213,693,951 bayt depolama kapasitesi sunar
 <br><Recipe id="thaumicenergistics:storage.essentia:10" />
-*   <ItemLink id="thaumicenergistics:storage.essentia:4" /> can provide infinite amounts of every Essentia type, up to 4,503,599,627,370,495 units per type
+*   <ItemLink id="thaumicenergistics:storage.essentia:4" /> her Esans tipinden sonsuz miktarda sağlayabilir; tip başına 4,503,599,627,370,495 birime kadar
 <br><Recipe id="thaumicenergistics:storage.essentia:4" />
 
-# Creative Storage Cells
+# Yaratıcı Depolama Hücreleri
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ItemCreativeStorageCell" scale="2" />
@@ -396,4 +396,4 @@ Starting at 256k, each tier increases the supported Essentia type count by 12.
   <ItemImage id="ae2fc:creative_fluid_storage" scale="2" />
 </Row>
 
-Creative cells **do not provide infinite storage**. Instead, they act as infinite sources and sinks for whatever item or fluid you [partition](cell_workbench.md) them to, up to 4,503,599,627,370,495 units.
+Yaratıcı hücreler **sonsuz depolama sağlamaz**. Bunun yerine, onları [biçimlendirdiğin](cell_workbench.md) eşya veya sıvı için sonsuz kaynak ve alıcı görevi görürler; 4,503,599,627,370,495 birime kadar.

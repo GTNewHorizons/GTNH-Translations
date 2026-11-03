@@ -1,20 +1,20 @@
-Spawns and kills monsters for you!
-Produces {green:{var:xp_per_op} Liquid XP} per operation
-{color_key:Powered Spawner} goes in the Controller Slot
+Senin için canavar doğurur ve öldürür!
+İşlem başına {green:{var:xp_per_op} Sıvı XP} üretir
+{color_key:Güçlendirilmiş Doğurucu} Kontrolcü Yuvasına konur
 {hr}
-Has a minimum recipe time of {color_amount:{var:min_time}} ticks, further overclocks multiply outputs by {color_amount:{var:oc_mult}x}
-Recipe time is based on mob health
-You can additionally put a weapon inside the GUI
-It will speed up the process and apply the looting level from the weapon (maximum {green:{var:max_looting}} levels)
-{color_danger:Enchanting the spikes inside the structure does nothing!}
+Minimum tarif süresi {color_amount:{var:min_time}} tick'tir, sonraki hız aşırtmalar çıktıları {color_amount:{var:oc_mult}x} ile çarpar
+Tarif süresi canavarın canına bağlıdır
+Ayrıca GUI içine bir silah koyabilirsin
+Bu, süreci hızlandırır ve silahın yağmalama seviyesini uygular (maksimum {green:{var:max_looting}} seviye)
+{color_danger:Yapının içindeki dikenleri büyülemek hiçbir işe yaramaz!}
 {hr}
-If a mob spawns as {color_danger:Infernal}, it will drain {color_amount:{var:infernal_mult}x} more power!
+Bir canavar {color_danger:Infernal} olarak doğarsa, {color_amount:{var:infernal_mult}x} daha fazla güç çeker!
 {hr}
-{color_mode:Ritual Mode} links to a {color_name:Well of Suffering} ritual built above
-The master ritual stone must be centered directly above, within {color_range:10} blocks vertically and {color_range:5} blocks horizontally of the {color_name:Blood Altar}
-When linked, ritual duration is locked and blood is added to the linked altar
+{color_mode:Ayin Modu} yukarıda inşa edilmiş bir {color_name:Istırap Kuyusu} ayinine bağlanır
+Ana ritüel taşı doğrudan yukarıda, {color_range:10} blok dikey ve {color_range:5} blok yatay içinde, {color_name:Kan Sunağı} ile merkezlenmelidir
+Bağlandığında ritüel süresi kilitlenir ve bağlı sunağa kan eklenir
 {hr}
-Right-click the controller with a {color_name:Screwdriver} to toggle {color_mode:Ritual Mode}
-Shift-right-click the controller with a {color_name:Screwdriver} to toggle {color_mode:Infernal Spawns}
-Right-click the controller with a {color_name:Soldering Iron} to toggle {color_mode:Mob Animations}
-{color_mechanic:Performs 4/4 Perfect Overclocks}
+Kontrolcüye {color_name:Tornavida} ile sağ tıklayarak {color_mode:Ayin Modu} aç/kapat
+Kontrolcüye {color_name:Tornavida} ile Shift-sağ tıklayarak {color_mode:Infernal Spawns} aç/kapat
+Kontrolcüye {color_name:Lehim Demiri} ile sağ tıklayarak {color_mode:Mob Animations} aç/kapat
+{color_mechanic:4/4 Mükemmel Hız Aşırtma gerçekleştirir}

@@ -1,2 +1,2 @@
-Converts {color_key:Logs} into {color_key:Brittle Charcoal Blocks}
-Automatically starts when formed
+{color_key:Kütükleri} {color_key:Kırılgan Odun Kömürü Bloklarına} dönüştürür
+Kurulduğunda otomatik olarak başlar

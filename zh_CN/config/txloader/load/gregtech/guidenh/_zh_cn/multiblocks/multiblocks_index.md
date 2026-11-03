@@ -10,7 +10,7 @@ categories:
 
 # 多方块机器
 
-**多方块机器**是由多个方块搭建而成的机器。它们的规模从紧凑的<ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />到巨大的<ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />不等。格雷科技多方块必定拥有一个**控制器方块**，通常服务于特定用途，并且在存在对应的[单方块机器](../singleblock/singleblock-index.md)时，总是比后者更快或更高效。[单方块机器](../singleblock/singleblock-index.md)只能[超频](../tierskipping-overcloking-parallels/overclocking.md)，而多方块除此之外还能使用**[跳级](../tierskipping-overcloking-parallels/tierskipping.md)**和**[并行](../tierskipping-overcloking-parallels/parallels.md)**。
+**多方块机器**是由多个方块搭建而成的机器。它们的规模从紧凑的<ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />到巨大的<ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />不等。格雷科技多方块必定拥有一个**控制器方块**，通常服务于特定用途，并且在存在对应的[单方块机器](../singleblock/singleblock-index.md)时，总是比后者更快或更高效。[单方块机器](../singleblock/singleblock-index.md)只能[超频](../tierskipping-overcloking-parallels/overclocking.md)，而多方块除此之外还能使用**[升压](../tierskipping-overcloking-parallels/tierskipping.md)**和**[并行](../tierskipping-overcloking-parallels/parallels.md)**。
 
 虽然大多数多方块都有独特的机械方块和结构，但它们的物品、流体和电力输入输出几乎都通过通用的**功能仓**实现。你可以使用<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />来预览并快速搭建多方块结构。
 
@@ -50,7 +50,7 @@ categories:
 
 - <kbd>右键</kbd>控制器 -> 预览全息投影。
 - 在控制器上<kbd>Shift</kbd> + 按住<kbd>右键</kbd> -> 自动从你的背包中放置匹配的方块。
-- 在空中<kbd>右键</kbd> -> 配置子频道。
+- 在空中<kbd>右键</kbd> -> 配置子信道。
 
 ## 功能仓
 
@@ -69,11 +69,11 @@ categories:
 
 ## 共享
 
-格雷科技多方块通常允许**共墙共享**：两台机器可以共享同一面墙上的结构方块和仓。
+格雷科技多方块通常允许**共用共用墙壁**：两台机器可以共享同一面墙上的结构方块和仓。
 
 - **维护仓**、**输入总线**、**输入仓**和**消声仓**可以被共享。
 - 共享**输出总线**或**输出仓**时要小心，因为溢出可能导致输出被销毁。
-- 共享**能源仓**时同样要小心：通常一个能源仓不应被超过两台机器共享，而用于双仓跳级的能源仓则不应共享。
+- 共享**能源仓**时同样要小心：通常一个能源仓不应被超过两台机器共享，而用于双仓升压的能源仓则不应共享。
 
 ## 结构检查
 
@@ -95,7 +95,7 @@ categories:
 
 | 按钮 | 功能 |
 |--------|----------|
-| 电力面板 | 打开并行配置与断电事件设置 |
+| 电力面板 | 打开并行配置与电力故障事件设置 |
 | 更新结构检查 | 强制进行一次结构检查 |
 | 电源 | 打开或关闭机器；关闭时，当前配方仍允许完成 |
 
@@ -137,7 +137,7 @@ TecTech 机器**溢出时总是直接销毁**，因此“安全销毁”按钮�
 | “管道松了。” | 扳手 |
 | “螺丝松了。” | 螺丝刀 |
 | “有东西卡住了。” | 软锤 |
-| “板子弯了。” | 锻造锤 |
+| “外壳出现凹陷。” | 锻造锤 |
 | “有东西不属于这里。” | 撬棍 |
 | “电路短路了。” | 电烙铁（消耗 10k EU + 1 个焊接材料） |
 
@@ -149,7 +149,7 @@ TecTech 机器**溢出时总是直接销毁**，因此“安全销毁”按钮�
 
 | 阶段 | 方法 |
 |-------|--------|
-| LV | 用装有全部所需工具和焊料的工具箱<kbd>右键</kbd>维护仓 |
+| LV | 用装有全部所需工具和焊料的工具盒<kbd>右键</kbd>维护仓 |
 | MV | 用 FAL-84 强化胶带修理 |
 | HV | 法杖核心：维护（消耗 vis） |
 | IV | 无人机下行模块加无人机控制中心，进行批量管理 |
@@ -179,13 +179,13 @@ TecTech 机器**溢出时总是直接销毁**，因此“安全销毁”按钮�
 
 # 配方执行
 
-## 跳级
+## 升压
 
-参见**[跳级](../tierskipping-overcloking-parallels/tierskipping.md)**。
+参见**[升压](../tierskipping-overcloking-parallels/tierskipping.md)**。
 
-使用两个同等级的能源仓提供 4A，可以让机器达到其电压等级所期望的标称功率，并运行高一个等级的配方。这被称为**双仓跳级**。你第一次用到它多半是在<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />上。
+使用两个同等级的能源仓提供 4A，可以让机器达到其电压等级所期望的标称功率，并运行高一个等级的配方。这被称为**双仓升压**。你第一次用到它多半是在<ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />上。
 
-从 IV 开始，部分机器无法再跳级，例如<ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />。
+从 IV 开始，部分机器无法再升压，例如<ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />。
 
 ## 并行
 
@@ -223,8 +223,8 @@ TecTech 机器**溢出时总是直接销毁**，因此“安全销毁”按钮�
 | “物品/流体输出空间不足。” | 增加更多输出总线或输出仓 |
 | “因能量不足而停机。” | 检查供电 |
 
-发生故障时，你可以使用 `/powerfails clear` 移除该维度中的断电警告图标，或使用 `/sp invite <playerID>` 共享断电信息。
+发生故障时，你可以使用 `/powerfails clear` 移除该维度中的电力故障警告图标，或使用 `/sp invite <playerID>` 共享电力故障信息。
 
 # 爆炸
 
-与[单方块机器](../singleblock/singleblock-index.md#explosions)一样，多方块上任何**内部带有 EU 缓冲的通电仓**都可能在雨或雪中爆炸。控制器方块、结构方块以及不缓冲电力的仓不会在雨或雪中爆炸。对能源仓过压供电也可能引发爆炸。
+与[单方块机器](../singleblock/singleblock-index.md#explosions)一样，多方块上任何**内部带有 EU 缓存的通电仓**都可能在雨或雪中爆炸。控制器方块、结构方块以及不缓存电力的仓不会在雨或雪中爆炸。对能源仓过压供电也可能引发爆炸。

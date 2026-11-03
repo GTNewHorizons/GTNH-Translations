@@ -1,3 +1,3 @@
-{color_speed:100%} Speed {color_speed:+{var:speed_increase}%} per {color_name:Item Pipe Casing} Tier
-{color_efficiency:{var:eu_eff}%} {EU} Usage
-{tier-color:glass_tier_for_multiamp:{VN:glass_tier_for_multiamp}+} glass allows for a single {color_hatch:Multi-Amp Energy Hatch}
+{color_name:Eşya Boru Muhafazası} Kademesi başına {color_speed:100%} Hız {color_speed:+{var:speed_increase}%}
+{color_efficiency:{var:eu_eff}%} {EU} Kullanımı
+{tier-color:glass_tier_for_multiamp:{VN:glass_tier_for_multiamp}+} cam, tek bir {color_hatch:Çok Amperli Enerji Kapağı} kullanımına izin verir

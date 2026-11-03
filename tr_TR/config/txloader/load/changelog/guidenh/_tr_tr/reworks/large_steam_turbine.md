@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15524
 navigation:
-  title: Large Steam Turbine
+  title: Büyük Buhar Türbini
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15524
 categories:
@@ -11,139 +11,139 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Large Steam Turbine
+# Büyük Buhar Türbini
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15524"/>
 </GameScene>
-The <Color id="GREEN">Large Steam Turbine (LST)</Color> is an HV tier multiblock for generating power from steam. The <Color id="GREEN">LST</Color> is a direct upgrade from the singleblock steam turbines because it outputs up to 4A of power with much higher efficiency. However, a turbine must be placed inside the controller for the machine to run, the input rate of steam must be carefully regulated, and it must be running for at least 50 seconds to fully warm-up. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate (L/t). Power is extracted from a 4A dynamo hatch on the back of the structure as steam condenses into distilled water in the output hatch. Breaking the dynamo hatch while the machine is running causes it to explode. Save on fuel by automatically toggling the <Color id="GREEN">LST</Color> with an RS latch connected to a Lapotronic Supercapacitor <ItemImage id="gregtech:gt.blockmachines:13106"/>.
+<Color id="GREEN">Büyük Buhar Türbini (LST)</Color>, buhardan güç üretmek için kullanılan bir HV kademesi multibloktur. <Color id="GREEN">LST</Color>, çok daha yüksek verimle 4A'ya kadar güç çıkışı sağladığı için tek bloklu buhar türbinlerinin doğrudan yükseltmesidir. Ancak makinenin çalışması için kontrolcünün içine bir türbin yerleştirilmelidir, buhar giriş hızı dikkatle ayarlanmalıdır ve tam ısınma için en az 50 saniye çalışması gerekir. Türbinler dört farklı boyutta ve her biri kendi verim bonusuna ve optimal akış hızına (L/t) sahip birçok farklı malzemede bulunur. Güç, yapının arkasındaki 4A'lık dinamo kapağından alınır; buhar çıkış kapağında damıtılmış suya yoğuşur. Makine çalışırken dinamo kapağını kırmak patlamasına neden olur. Yakıttan tasarruf etmek için <Color id="GREEN">LST</Color>'yi bir Lapotronik Süperkapasitöre <ItemImage id="gregtech:gt.blockmachines:13106"/> bağlı RS mandalıyla otomatik olarak açıp kapat.
 
-The <Color id="RED">Large HP Steam Turbine (LST-HP)</Color> <ItemImage id="gregtech:gt.blockmachines:15525"/> and <Color id="BLUE">Large SC Steam Turbine (LST-SC)</Color> <ItemImage id="gregtech:gt.blockmachines:15526"/> are nearly identical to the LST except they exclusively process superheated steam and supercritical steam, respectively. Supercritical steam generates twice the EU as regular steam with the same optimal flow rate and converts into superheated steam. Superheated steam generates twice the EU as regular steam with the same optimal flow rate and converts into regular steam.
+<Color id="RED">Büyük Yüksek Basınç Buhar Türbini (LST-HP)</Color> <ItemImage id="gregtech:gt.blockmachines:15525"/> ve <Color id="BLUE">Büyük Süperkritik Buhar Türbini (LST-SC)</Color> <ItemImage id="gregtech:gt.blockmachines:15526"/>, LST ile neredeyse aynıdır; tek fark, sırasıyla yalnızca kızgın buharı ve süperkritik buharı işlemeleridir. Süperkritik buhar, aynı optimal akış hızında normal buharın iki katı EU üretir ve kızgın buhara dönüşür. Kızgın buhar, aynı optimal akış hızında normal buharın iki katı EU üretir ve normal buhara dönüşür.
 
-[GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
+[GTNH Güç Planlayıcısı](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit?gid=589078529#gid=589078529)
 
-The <Color id="GREEN">LST</Color>  is superseded by the [XL Turbo Steam Turbine](./xl_turbo_steam.md) which consumes as much steam and produces as much power as 16 <Color id="GREEN">LSTs</Color>, but only requires 12 turbines. It also supports <Color id="GREEN">Multi-Amp and Laser Energy Hatches</Color> for serious power generation and comes in HP and SC variants. 
+<Color id="GREEN">LST</Color>'nin yerini, 16 <Color id="GREEN">LST</Color> kadar buhar tüketen ve aynı gücü üreten ancak yalnızca 12 türbin gerektiren [XL Turbo Buhar Türbini](./xl_turbo_steam.md) alır. Ayrıca ciddi güç üretimi için <Color id="GREEN">Çok Amperli ve Lazer Enerji Kapakları</Color> desteği sunar ve yüksek basınç ile süperkritik varyantları olarak gelir. 
 <br clear="all"/>
 
 > [!NOTE]
-> Only the structure has changed; the mechanics are otherwise unchanged
+> Yalnızca yapı değişti; mekanikler bunun dışında aynı kaldı
 
-## Construction
-The <Color id="GREEN">LST</Color> has no tiered components. The maintenance hatch, input hatch, and output hatch may replace any turbine casing on the back half of the structure. The dynamo hatch is limited to the center casing on the very back of the structure and cannot be greater than 4A. There is NO muffler hatch so do not include one. The 9 blocks directly in front of the controller are mandatory air. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+## İnşaat
+<Color id="GREEN">LST</Color>'nin kademeli bileşeni yoktur. Bakım kapağı, girdi kapağı ve çıkış kapağı yapının arka yarısındaki herhangi bir türbin gövdesinin yerine geçebilir. Dinamo kapağı yalnızca yapının en arkasındaki orta kasaya konabilir ve 4A'dan büyük olamaz. Egzoz Çıkışı YOKTUR, bu yüzden bir tane ekleme. Kontrolcünün hemen önündeki 9 blok boş (hava) olmak zorundadır. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan.
 
-Unique to large turbines is the turbine housing <ItemImage id="gregtech:gt.blockmachines:31025"/> which is effectively a ULV input bus for storing an extra turbine that automatically replaces the one inside the controller once it breaks. It is completely optional and gated to UV, but helps maximize runtime. 
+Büyük türbinlere özgü olan türbin muhafazası <ItemImage id="gregtech:gt.blockmachines:31025"/>, esasen yedek bir türbin depolayan bir ULV giriş yoludur ve kontrolcünün içindeki türbin kırıldığında onu otomatik olarak değiştirir. Tamamen isteğe bağlıdır ve UV'de açılır, ancak çalışma süresini en üst düzeye çıkarmaya yardımcı olur. 
 
-### Requires:
-- 1 Large Steam Turbine (Of relevant type) <ItemImage id="gregtech:gt.blockmachines:15524"/>
-- 14 Frame Box (By type of turbine) <ItemImage id="gregtech:gt.blockframes:32"/>
-- 8-14 Turbine Casing (By type of turbine) <ItemImage id="gregtech:gt.blockframes:32"/>
-- 12 Pipe Casing (By type of turbine) <ItemImage id="gregtech:gt.blockcasings2:13"/>
-- 1 Dynamo Hatch (back center turbine casing) <ItemImage id="gregtech:gt.blockmachines:30"/>
-- 1 Maintenance Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:90" />
+### Gereksinimler:
+- 1 Büyük Buhar Türbini (İlgili tipte) <ItemImage id="gregtech:gt.blockmachines:15524"/>
+- 14 Çerçeve Kutusu (Türbin tipine göre) <ItemImage id="gregtech:gt.blockframes:32"/>
+- 8-14 Türbin Gövdesi (Türbin tipine göre) <ItemImage id="gregtech:gt.blockframes:32"/>
+- 12 Boru Muhafazası (Türbin tipine göre) <ItemImage id="gregtech:gt.blockcasings2:13"/>
+- 1 Dinamo Kapağı (arka orta türbin gövdesi) <ItemImage id="gregtech:gt.blockmachines:30"/>
+- 1 Bakım Kapağı (arka türbin gövdelerinden herhangi biri) <ItemImage id="gregtech:gt.blockmachines:90" />
 - 0+ <ItemLink id="gregtech:gt.blockmachines:31025"/><ItemImage id="gregtech:gt.blockmachines:31025"/>
-- 0+ Input Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Hatch (any back turbine casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 0+ Girdi Kapağı (arka türbin gövdelerinden herhangi biri) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Kapağı (arka türbin gövdelerinden herhangi biri) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">LSTs</Color> may wallshare each of their sides to save on casings, frame boxes, and buses/hatches. However, do NOT share the input hatch because the fuel is not split evenly between the <Color id="GREEN">LSTs</Color> -- one consumes everything and the other receives nothing. The restriction on the hatch locations make that difficult to accomplish anyway. 
+### Duvar Paylaşımı
+<Color id="GREEN">LST</Color>'ler kasa, çerçeve kutusu ve veriyolu/kapaklardan tasarruf etmek için her bir yüzlerini duvar paylaşımına açabilir. Ancak girdi kapağını PAYLAŞMA; çünkü yakıt <Color id="GREEN">LST</Color>'ler arasında eşit bölünmez -- biri her şeyi tüketir, diğeri hiçbir şey almaz. Kapak konumlarındaki kısıtlama zaten bunu yapmayı zorlaştırır. 
 
 ----------
 
-## Usage
-The <Color id="GREEN">LST</Color> has two operating modes, listed below, but see the planner linked at the top for the quantifiable differences between them. The former is better in the early to mid-game when steam production is low and the latter is better in the late game when power output is more important than efficiency. Switch modes by using a screwdriver on the controller.
+## Kullanım
+<Color id="GREEN">LST</Color>'nin aşağıda listelenen iki çalışma modu vardır; aralarındaki ölçülebilir farklar için yukarıda bağlantısı verilen planlayıcıya bak. İlki, buhar üretiminin düşük olduğu oyunun başından ortasına kadar daha iyidir; ikincisi ise güç çıkışının verimden daha önemli olduğu oyun sonunda daha iyidir. Kontrolcüye tornavida kullanarak modlar arasında geçiş yap.
 
-- Tight Fitting Mode - High efficiency, Low optimal flow rate (power).
-- Loose Fitting Mode - Low efficiency, High optimal flow rate (power).
+- Sıkı Geçme Modu - Yüksek verim, Düşük optimal akış hızı (güç).
+- Gevşek Geçme Modu - Düşük verim, Yüksek optimal akış hızı (güç).
 
-The speed of the <Color id="GREEN">LST</Color> increases linearly up to 100% while active and decreases back to 0% while inactive. Speed is directly proportional to the power output of the machine and takes 50 seconds to reach its maximum value regardless of the turbine size/material. Speed decays extremely fast when the <Color id="GREEN">LST</Color> is disabled, the turbine is removed, the structure is broken, or fuel runs out. View the current speed of the turbine by using a Portable Scanner <ItemImage id="gregtech:gt.metaitem.01:32762"/> on the controller or looking at the "efficiency" value in WAILA. 
+<Color id="GREEN">LST</Color>'nin hızı çalışırken doğrusal olarak %100'e kadar artar ve çalışmadığında %0 seviyesine geri düşer. Hız, makinenin güç çıkışıyla doğru orantılıdır ve türbin boyutu/malzemesi ne olursa olsun maksimum değerine ulaşması 50 saniye sürer. <Color id="GREEN">LST</Color> devre dışı bırakıldığında, türbin çıkarıldığında, yapı kırıldığında veya yakıt tükendiğinde hız son derece hızlı düşer. Kontrolcüde Taşınabilir Tarayıcı <ItemImage id="gregtech:gt.metaitem.01:32762"/> kullanarak veya WAILA'daki "efficiency" değerine bakarak türbinin mevcut hızını görüntüle. 
 
-## Optimal Flow Rate
-The rate (L/t) at which steam enters the <Color id="GREEN">LST</Color> is extremely important. Too little steam and only a fraction of the potential power is generated; too much steam and a tremendous amount of fuel is wasted. Ideally, steam enters the <Color id="GREEN">LST</Color> at the optimal flow rate of the turbine, which changes significantly with size/material and the operating mode of the machine. Although visible in NEI, the optimal flow rate ($$\dot{m}^*$$ ) in L/t is calculated with the following equations where $$k$$ is a multiplier associated with each material, size is a constant between 1=small and 4=huge, and $$\eta_0$$ is the <u>base</u> efficiency of the turbine.
+## Optimal Akış Hızı
+Buharın <Color id="GREEN">LST</Color>'ye giriş hızı (L/t) son derece önemlidir. Buhar çok az olursa potansiyel gücün yalnızca küçük bir kısmı üretilir; çok fazla olursa muazzam miktarda yakıt israf edilir. İdeal olarak buhar, <Color id="GREEN">LST</Color>'ye türbinin optimal akış hızında girer; bu değer boyut/malzeme ve makinenin çalışma moduna göre önemli ölçüde değişir. NEI'de görünse de, L/t cinsinden optimal akış hızı ($$\dot{m}^*$$ ) aşağıdaki denklemlerle hesaplanır; burada $$k$$ her malzemeyle ilişkili bir çarpan, boyut (size) 1=küçük ile 4=dev arasında bir sabit ve $$\eta_0$$ türbinin <u>temel</u> verimidir.
 
 <Latex formula="\dot{m}^* (\text{Tight}) = k \times \text{size} \times 50">
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
-  - $$\text{size}$$: Constant in range (1:4) based on turbine size
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$k$$: Malzeme Çarpanı
+  - $$\text{size}$$: Türbin boyutuna göre (1:4) aralığında sabit
 </Latex>
 
 <Latex formula="\dot{m}^* (\text{Loose}) = k \times \text{size} \times 150 \times 1.1^{20(\eta_0 - 0.8)}">
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$k$$: Material Multiplier
-  - $$\text{size}$$: Constant in range (1:4) based on turbine size
-  - $$\eta_0$$: Base Efficiency of Turbine
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$k$$: Malzeme Çarpanı
+  - $$\text{size}$$: Türbin boyutuna göre (1:4) aralığında sabit
+  - $$\eta_0$$: Türbinin Temel Verimi
 </Latex>
 
-The optimal flow rates of some turbines are incredibly high because steam has a very low fuel density of 0.5 EU/L, especially if the <Color id="GREEN">LST</Color> is in loose mode. The player may need to upgrade their fluid regulator or add a second input hatch to meet the increased demand. Eventually it becomes necessary to switch to AE2 fluid P2P tunnels <ItemImage id="appliedenergistics2:item.ItemMultiPart:463"/> which effectively have no transfer limit and no concern for temperature or heat capacity.
+Bazı türbinlerin optimal akış hızları inanılmaz derecede yüksektir; çünkü buharın yakıt yoğunluğu 0,5 EU/L gibi çok düşüktür, özellikle <Color id="GREEN">LST</Color> gevşek moddayken. Oyuncunun artan talebi karşılamak için sıvı regülatörünü yükseltmesi veya ikinci bir girdi kapağı eklemesi gerekebilir. Sonunda, pratikte aktarım sınırı olmayan ve sıcaklık ya da ısı kapasitesi endişesi taşımayan AE2 sıvı P2P tünellerine <ItemImage id="appliedenergistics2:item.ItemMultiPart:463"/> geçmek gerekli hale gelir.
 
-## Power & Overflow
-The power generated by the <Color id="GREEN">LST</Color> depends on the current flow rate ($$\dot{m}$$), the optimal flow rate ($$\dot{m}^*$$), and the efficiency of the turbine ($$\eta$$). Exceeding the optimal flow rate generates additional power with diminishing returns based on the overflow tier ($$T$$) of the turbine. There are only three overflow tiers in total and depends strictly on the material of the turbine. A higher overflow tier also increases the maximum flow rate ($$\dot{m}_{max}$$). View the overflow tier of a turbine through NEI and the current power output of the machine through WAILA.
+## Güç ve Taşma
+<Color id="GREEN">LST</Color>'nin ürettiği güç, mevcut akış hızına ($$\dot{m}$$), optimal akış hızına ($$\dot{m}^*$$) ve türbinin verimine ($$\eta$$) bağlıdır. Optimal akış hızını aşmak, türbinin taşma kademesine ($$T$$) bağlı olarak azalan getiriyle ek güç üretir. Toplamda yalnızca üç taşma kademesi vardır ve bunlar kesinlikle türbinin malzemesine bağlıdır. Daha yüksek taşma kademesi maksimum akış hızını ($$\dot{m}_{max}$$) da artırır. Bir türbinin taşma kademesini NEI'den, makinenin mevcut güç çıkışını WAILA'dan görüntüle.
 
-Power is extracted from a 4A dynamo hatch on the back of the structure. Do not break the dynamo hatch while the machine is running or else the <Color id="GREEN">LST</Color> will explode. Exceeding the maximum EU/t or the total EU in the dynamo's buffer is perfectly safe; the <Color id="GREEN">LST</Color> will not explode if an attached battery buffer or Lapotronic Supercapacitor (LSC) <ItemImage id="gregtech:gt.blockmachines:13106"/> is full and there is nowhere for the EU to go. Any additional EU is simply voided. It is highly recommended to automatically toggle the <Color id="GREEN">LST</Color> with a redstone RS latch to avoid wasting fuel.
+Güç, yapının arkasındaki 4A'lık dinamo kapağından alınır. Makine çalışırken dinamo kapağını kırma, yoksa <Color id="GREEN">LST</Color> patlar. Maksimum EU/t'yi veya dinamonun tamponundaki toplam EU'yu aşmak tamamen güvenlidir; <Color id="GREEN">LST</Color>, bağlı bir pil tamponu veya Lapotronik Süperkapasitör (LSC) <ItemImage id="gregtech:gt.blockmachines:13106"/> doluysa ve EU'nun gidecek yeri yoksa patlamaz. Fazladan EU basitçe yok edilir. Yakıt israfını önlemek için <Color id="GREEN">LST</Color>'yi bir kızıltaş RS mandalıyla otomatik olarak açıp kapatman şiddetle önerilir.
 
-### Large Steam Turbine:
+### Büyük Buhar Türbini:
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times 0.5 \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$\eta$$: Verim
 </Latex>
 <Latex formula="\text{EU/t} (> \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^* \times (T+1)} \Biggr) \times 0.5 \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
-  - $$T$$: Overflow Tier
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$\eta$$: Verim
+  - $$T$$: Taşma Kademesi
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (0.5T + 1)">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}_{max}$$: Maximum Flow Rate
-  - $$T$$ Overflow Tier
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}_{max}$$: Maksimum Akış Hızı
+  - $$T$$ Taşma Kademesi
 </Latex>
 
-### Large HP Steam Turbine:
+### Büyük Yüksek Basınç Buhar Türbini:
 <Latex formula="\text{EU/t} (\leq \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times 1.0 \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$\eta$$: Verim
 </Latex>
 <Latex formula="\text{EU/t} (> \dot{m}^*) = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^* \times (T+2)} \Biggr) \times 1.0 \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
-  - $$T$$: Overflow Tier
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$\eta$$: Verim
+  - $$T$$: Taşma Kademesi
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (0.5T + 1.5)">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}_{max}$$: Maximum Flow Rate
-  - $$T$$ Overflow Tier
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}_{max}$$: Maksimum Akış Hızı
+  - $$T$$ Taşma Kademesi
 </Latex>
 
-### Large SC Steam Turbine:
+### Büyük Süperkritik Buhar Türbini:
 <Latex formula="\text{EU/t} = \dot{m} \times \Biggl( 1 - \frac{|\dot{m} - \dot{m}^*|}{\dot{m}^*} \Biggr) \times 1.0 \times \eta">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}^*$$: Optimal Flow Rate
-  - $$\eta$$: Efficiency
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}^*$$: Optimal Akış Hızı
+  - $$\eta$$: Verim
 </Latex>
 
 <Latex formula="\dot{m}_{max} = \lfloor \dot{m}^* \rfloor \times (0.5T + 1.5)">
-  - $$\dot{m}$$: Current Flow Rate
-  - $$\dot{m}_{max}$$: Maximum Flow Rate
-  - $$T$$ Overflow Tier
+  - $$\dot{m}$$: Mevcut Akış Hızı
+  - $$\dot{m}_{max}$$: Maksimum Akış Hızı
+  - $$T$$ Taşma Kademesi
 </Latex>
 
-## Turbines
-A turbine must be placed inside the GUI of the controller for the machine to run. Turbines come in four different sizes and many different materials each with their own efficiency bonus and optimal flow rate. There are too many different permutations to list them all here, but the planner linked at the top has all the relevant information and even a calculator for determining the power output and lifespan of any turbine with any fuel.
+## Türbinler
+Makinenin çalışması için kontrolcünün GUI'sine bir türbin yerleştirilmelidir. Türbinler dört farklı boyutta ve her biri kendi verim bonusuna ve optimal akış hızına sahip birçok farklı malzemede bulunur. Burada hepsini listelemek için çok fazla farklı kombinasyon var, ancak yukarıda bağlantısı verilen planlayıcı tüm ilgili bilgilere ve hatta herhangi bir türbinin herhangi bir yakıtla güç çıkışını ve yaşam ömrünü belirlemek için bir hesaplayıcıya sahiptir.
 
-- Small turbines are crafted with long magnalium rods (available as early as LV)
-- Normal turbines are crafted with long titanium rods (available at the end of HV after traveling to the moon <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>)
-- Large turbines are crafted with long tungstensteel rods (available in IV after the tungsten processing line)
-- Huge turbines are crafted with long americium rods (available in ZPM after building a Fusion Reactor Mk-II <ItemImage id="gregtech:gt.blockmachines:32020"/>)
+- Küçük türbinler uzun magnalyum çubuklarla üretilir (LV kadar erken erişilebilir)
+- Normal türbinler uzun titanyum çubuklarla üretilir (aya seyahat ettikten sonra HV'nin sonunda erişilebilir <ItemImage id="gtneioreplugin:blockDimensionDisplay_Mo"/>)
+- Büyük türbinler uzun tungsten çeliği çubuklarla üretilir (tungsten işleme hattından sonra IV'te erişilebilir)
+- Dev türbinler uzun amerikyum çubuklarla üretilir (Füzyon Reaktörü Mk-II inşa ettikten sonra ZPM'de erişilebilir <ItemImage id="gregtech:gt.blockmachines:32020"/>)
 
-## Durability
-Turbines slowly lose durability proportional to the power generated. The total durability of a turbine depends on the material and instantly voids once it reaches 0%. Turbines cannot be inserted or extracted from the controller, but turbine housings check if the controller is empty once every 60 seconds to insert a new one. Use a screwdriver on the housing to decrease the interval, as necessary, and re-enable the <Color id="GREEN">LST</Color> with a machine controller cover.
+## Dayanıklılık
+Türbinler üretilen güçle orantılı olarak yavaşça dayanıklılık kaybeder. Bir türbinin toplam dayanıklılığı malzemeye bağlıdır ve %0 seviyesine ulaştığında anında geçersiz olur. Türbinler kontrolcüye takılıp çıkarılamaz, ancak türbin muhafazaları yenisini takmak için her 60 saniyede bir kontrolcünün boş olup olmadığını kontrol eder. Gerekirse aralığı azaltmak için muhafazaya tornavida kullan ve <Color id="GREEN">LST</Color>'yi bir makine kontrolcüsü kapağıyla yeniden etkinleştir.
 
-The following equation calculates the lifespan of a turbine (in hours) from the current power output of an <Color id="GREEN">LST</Color>. Note that loose fitting mode provides a 25% durability boost to compensate for the reduced lifespan of a higher power output. Turbines generally have lifespans of several hundred hours (or more) so they do not need to be replaced very often. 
+Aşağıdaki denklem, bir <Color id="GREEN">LST</Color>'nin mevcut güç çıkışından bir türbinin yaşam ömrünü (saat cinsinden) hesaplar. Gevşek geçme modunun, daha yüksek güç çıkışının azalan ömrünü telafi etmek için %25 dayanıklılık artışı sağladığını unutma. Türbinlerin yaşam ömrü genellikle birkaç yüz saat (veya daha fazla) olduğundan çok sık değiştirilmeleri gerekmez. 
 
 <Latex formula="\text{Lifespan} (h) = \frac{\text{Durability}}{36 \times \text{min}(0.2 \times \text{EU/t}, (\text{EU/t})^{0.6})}"/>
 
-- Multiply the lifespan result by 1.25 in loose fitting mode.
+- Gevşek geçme modunda yaşam ömrü sonucunu 1,25 ile çarp.

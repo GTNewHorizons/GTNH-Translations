@@ -5,6 +5,6 @@ navigation:
   position: 10
 ---
 
-# Blood Magic
+# Kan Büyüsü
 
-Guides for Blood Magic.
+Kan Büyüsü rehberleri.

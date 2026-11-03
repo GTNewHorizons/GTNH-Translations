@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Better Grave Recovery
+  title: Gelişmiş Mezar Kurtarma
   parent: qol.md
   icon: OpenBlocks:grave
 categories:
@@ -9,16 +9,16 @@ author: Skorched
 date: 2026-05-19
 ---
 
-# Better Grave Recovery
-Keep dying to infernal mobs and sick of rearranging your inventory?
+# Gelişmiş Mezar Kurtarma
+Infernal Mobs'a ölmekten ve envanterini yeniden düzenlemekten bıktın mı?
 
-__Say less__
+__Fazla söze gerek yok__
 
-The OpenBlocks graves <ItemImage id="OpenBlocks:grave" /> have been reworked to work like modern gravestones!
+OpenBlocks mezarları <ItemImage id="OpenBlocks:grave" /> modern mezar taşları gibi çalışacak şekilde yeniden düzenlendi!
 
-Retrieving your items can now either be done by Left Mouse Button, or by Shift + Right Mouse Button with an empty hand. All your extra backpacks, and tools will be properly ordered as they were before your untimely death! This also includes auto-equipping all baubles, armor, and backpacks!
+Eşyalarını artık Sol Fare Düğmesi ile ya da boş elle Shift + Sağ Fare Düğmesi ile geri alabilirsin. Tüm ek sırt çantaların ve araçların, zamansız ölümünden önceki haliyle düzgün şekilde sıralanır! Buna tüm tılsımların, zırhın ve sırt çantalarının otomatik kuşanılması da dahil!
 
-Right clicking a grave with an empty hand will show a death message associated with how the player died. Other players will not be able to accidentally open your grave
+Bir mezara boş elle sağ tıklamak, oyuncunun nasıl öldüğüne dair bir ölüm mesajı gösterir. Diğer oyuncular mezarını yanlışlıkla açamaz
 
 > [!NOTE]
-> The old system of dropping on the floor is still available, and is achieved by right clicking whilst holding a shovel
+> Eski yere düşürme sistemi hâlâ mevcut ve elinde bir kürek tutarken sağ tıklayarak kullanılır

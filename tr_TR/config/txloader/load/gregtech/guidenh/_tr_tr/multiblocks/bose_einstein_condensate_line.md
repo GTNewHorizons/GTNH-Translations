@@ -1,81 +1,81 @@
 ---
 navigation:
-  title: Bose-Einstein Condensate Line
+  title: Bose-Einstein Yoğuşması Hattı
   parent: ./multiblocks_index.md
   icon: NotEnoughItems:neiFluidDisplay:959
   position: -11001
 ---
-# Bose-Einstein Condensate Line
+# Bose-Einstein Yoğuşması Hattı
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructure src="/assets/structures/bec_line.snbt" />
 </GameScene>
 
-The **Bose-Einstein Condensate** (BEC) Line is a series of four(+1 as optional) UIV tier multiblocks for assembling exotic machine parts from entangled condensate. 
+**Bose-Einstein Yoğuşması** (BEC) Hattı, dolanık yoğuşmadan egzotik makine parçaları üretmek için kullanılan, dört (isteğe bağlı olarak +1) UIV kademesi multibloktan oluşan bir seridir.
 
-The line begins with converting regular fluids into condensate at the cost of power in the [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Entanglement Apparatus</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md). The condensate is automatically pushed to any [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Containment Fields</ItemLink>](./bose_einstein_condensate_containment_field.md) on the network for storage whether or not there is enough space available. Optionally, a [<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left">Maxwell Gate</ItemLink>](./bose_einstein_condensate_maxwell_gate.md) can control the flow of entangled condensate with a one-directional filter. Items are supplied directly to one of the [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Teleportation Nodes (IO Nodes)</ItemLink>](./bose_einstein_condensate_teleportation_node.md) which immediately begins processing the recipe regardless of current condensate levels. The [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) then transfers the requested condensate from the Containment Field(s) to the IO Node(s) while covering their power cost and holding the requested nanites for recipes. The nanites in the Observation Array must be rapidly swapped out to perfectly match the requested nanite at all times and maximize the processing speed of the IO Node(s).
+Hat, normal sıvıları güç harcayarak [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Dolanıklık Aygıtı</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md) içinde yoğuşmaya dönüştürmekle başlar. Yoğuşma, yeterli alan olup olmadığına bakılmaksızın depolanmak üzere ağdaki herhangi bir [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Muhafaza Alanı</ItemLink>](./bose_einstein_condensate_containment_field.md)'na otomatik olarak itilir. İsteğe bağlı olarak bir [<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left">Maxwell Geçidi</ItemLink>](./bose_einstein_condensate_maxwell_gate.md), tek yönlü bir filtreyle dolanık yoğuşmanın akışını kontrol edebilir. Eşyalar doğrudan [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Işınlama Düğümleri (IO Düğümleri)</ItemLink>](./bose_einstein_condensate_teleportation_node.md)'nden birine verilir ve bu düğüm, mevcut yoğuşma seviyelerine bakılmaksızın tarifi hemen işlemeye başlar. Ardından [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizisi</ItemLink>](./bose_einstein_condensate_observation_array.md), istenen yoğuşmayı Muhafaza Alanı'ndan IO Düğümü'ne aktarır; bu sırada güç maliyetini karşılar ve tarifler için istenen nanitleri tutar. Gözlem Dizisi'ndeki nanitler, her zaman istenen nanitle tam olarak eşleşecek ve IO Düğümü'nün işlem hızını en üst düzeye çıkaracak şekilde hızla değiştirilmelidir.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | UIV |
-| Structure Size (LxWxH) | Varies |
-| Power | Varies |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| Kilit Açma Kademesi | UIV |
+| Yapı Boyutu (UxGxY) | Değişken |
+| Güç | Değişken |
+| Hız Aşırtma | Yok |
+| Bakım | Bakım gerekmez |
+| Kirlilik | Kirlilik üretmez |
 
-## Crafting and Construction
-You can check each multiblock's documents to see how to craft and construct the BEC multiblocks.
+## Üretim ve İnşa
+BEC multibloklarının nasıl üretileceğini ve inşa edileceğini görmek için her multiblokun belgelerine göz atabilirsin.
 - [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left" />](./bose_einstein_condensate_entanglement_apparatus.md)
 - [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left" />](./bose_einstein_condensate_containment_field.md)
 - [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left" />](./bose_einstein_condensate_observation_array.md) 
 - [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left" />](./bose_einstein_condensate_teleportation_node.md)
-- [<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left" />](./bose_einstein_condensate_maxwell_gate.md)(Optional)
+- [<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left" />](./bose_einstein_condensate_maxwell_gate.md)(İsteğe Bağlı)
 
 
-### Structure
-BEC Line requires <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> connected by <ItemLink id="gregtech:gt.blockmachines:15475" showIcon="left" /> or <ItemLink id="gregtech:gt.blockmachines:15477" showIcon="left" /> to transport condensate between multiblocks, and Condensate conduit can bend, split or merge freely, and do not need to be colored to connect.
+### Yapı
+BEC Hattı, multibloklar arasında yoğuşma taşımak için <ItemLink id="gregtech:gt.blockmachines:15475" showIcon="left" /> veya <ItemLink id="gregtech:gt.blockmachines:15477" showIcon="left" /> ile bağlanan <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> gerektirir; Yoğuşma kanalı serbestçe bükülebilir, parçalanabilir veya birleşebilir ve bağlanmak için renklendirilmesi gerekmez.
 
 > [!TIP]
-> Kissing two Condensate Hatch without conduit is also considered as connection.
+> İki Yoğuşma Kapağı'nı kanal olmadan birbirine değdirmek de bağlantı sayılır.
 
-<ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> is also required for linking [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) up to 16 [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Teleportation Node(s)</ItemLink>](./bose_einstein_condensate_teleportation_node.md) around it.  
-Each pair must face each other and form a perfectly straight line along one of the axes (no bends or diagonals), but there is no cabling inbetween and they can be up to 128 blocks apart if necessary.  
-A valid line-of-sight connection creates a beacon-like animation between the hatches to signal that it is operational.
+<ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> ayrıca [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizisi</ItemLink>](./bose_einstein_condensate_observation_array.md)'ni çevresindeki en fazla 16 [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Işınlama Düğümü</ItemLink>](./bose_einstein_condensate_teleportation_node.md)'ne bağlamak için de gereklidir.  
+Her çift karşılıklı bakmalı ve eksenlerden biri boyunca tamamen düz bir çizgi oluşturmalıdır (kıvrım veya çapraz yok), ancak aralarında kablo yoktur ve gerekirse 128 blok mesafeye kadar ayrı olabilirler.  
+Geçerli bir görüş hattı bağlantısı, çalıştığını bildirmek için kapaklar arasında fener benzeri bir animasyon oluşturur.
 
-Optionally, use the following hatches to assist with the automation of the BEC Line. OpenComputers can also help gather information about the machines and dynamically change their variables and filters.
+İsteğe bağlı olarak, BEC Hattı'nın otomasyonuna yardımcı olmak için aşağıdaki kapakları kullan. OpenComputers ayrıca makineler hakkında bilgi toplamaya ve değişkenleriyle filtrelerini dinamik olarak değiştirmeye yardımcı olabilir.
 
-- The <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> on the [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Containment Fields</ItemLink>](./bose_einstein_condensate_containment_field.md) emits a redstone signal if the set condition inside its GUI is true.  
-  There is a filter for specifying a particular type of condensate, a comparison operator, and a threshold value. Leave the filter blank to sum all stored condensates together.
-- The <ItemLink id="gregtech:gt.blockmachines:15758" showIcon="left" /> on the [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Node</ItemLink>](./bose_einstein_condensate_teleportation_node.md) emits a redstone signal if the set condition inside its GUI is true.  
-  There is a comparison operator and a threshold value for the tier of the current requested nanite.
-- The <ItemLink id="gregtech:gt.blockmachines:15759" showIcon="left" /> on the [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Node</ItemLink>](./bose_einstein_condensate_teleportation_node.md) can pause the machine either immediately or upon transitioning to a new input step/nanite when it receives a redstone signal.  
-  Pausing the machine halts all recipe progress and prevents condensate from being inserted, but the IO Node can still read the nanite(s) in the Observation Array, still updates any nanite detector hatches, and still consumes power.
+- [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Muhafaza Alanı</ItemLink>](./bose_einstein_condensate_containment_field.md) üzerindeki <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" />, GUI'sindeki ayarlı koşul doğru olduğunda bir Kızıltaş sinyali yayar.  
+  Belirli bir yoğuşma tipini belirtmek için bir filtre, bir karşılaştırma operatörü ve bir eşik değeri vardır. Depolanan tüm yoğuşmaları toplamak için filtreyi boş bırak.
+- [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Düğümü</ItemLink>](./bose_einstein_condensate_teleportation_node.md) üzerindeki <ItemLink id="gregtech:gt.blockmachines:15758" showIcon="left" />, GUI'sindeki ayarlı koşul doğru olduğunda bir Kızıltaş sinyali yayar.  
+  O anda istenen nanitin kademesi için bir karşılaştırma operatörü ve bir eşik değeri vardır.
+- [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Düğümü</ItemLink>](./bose_einstein_condensate_teleportation_node.md) üzerindeki <ItemLink id="gregtech:gt.blockmachines:15759" showIcon="left" />, bir Kızıltaş sinyali aldığında makineyi ya hemen ya da yeni bir girdi adımına/nanite geçişte duraklatabilir.  
+  Makineyi duraklatmak tüm tarif ilerlemesini durdurur ve yoğuşmanın eklenmesini engeller, ancak IO Düğümü Gözlem Dizisi'ndeki nanitleri hâlâ okuyabilir, nanit dedektörü kapaklarını hâlâ günceller ve hâlâ güç tüketir.
 
-## Usage
+## Kullanım
 
-The BEC Line is effectively a large assembler for exotic machine parts. It is required for [<ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />](./eye_of_harmony.md) field generators, the T3 chassis for the [<ItemLink id="gregtech:gt.blockmachines:14050" showIcon="left" />](./exo_foundry.md), all [<ItemLink id="SGCraft:stargateBase" showIcon="left">Stargate</ItemLink>](./stargate.md) components, and more. 
+BEC Hattı aslında egzotik makine parçaları için büyük bir montajcıdır. [<ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />](./eye_of_harmony.md) alan jeneratörleri, [<ItemLink id="gregtech:gt.blockmachines:14050" showIcon="left" />](./exo_foundry.md) için T3 şasisi, tüm [<ItemLink id="SGCraft:stargateBase" showIcon="left">Yıldız Geçidi</ItemLink>](./stargate.md) bileşenleri ve daha fazlası için gereklidir. 
 
-BEC recipes appear as Assembly Line recipes in NEI but there is no strict item or condensate order to follow. Instead, they have a certain number of equal-length steps equivalent to their number of solid inputs. The steps are not exactly hard stops but each one requests a specific nanite tier or better to run. The general workflow for processing BEC recipes is listed below and explained in much more intricate detail in the each multiblock's guides.
+BEC tarifleri NEI'de Montaj Hattı tarifleri olarak görünür, ancak uyulması gereken katı bir eşya veya yoğuşma sırası yoktur. Bunun yerine, katı girdi sayılarına eşit sayıda, eşit uzunlukta adımları vardır. Adımlar tam olarak kesin duraklar değildir, ancak her biri çalışmak için belirli bir nanit kademesi veya daha iyisini ister. BEC tariflerini işlemek için genel iş akışı aşağıda listelenmiştir ve her multiblokun kılavuzunda çok daha ayrıntılı olarak açıklanmıştır.
 
-1. Insert fluid into the [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Entanglement Apparatus</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md) to convert it into condensate at the cost of power.
-1. The condensate is pushed to any [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Containment Fields</ItemLink>](./bose_einstein_condensate_containment_field.md) on the network for storage, whether or not there is enough space available.
-1. Optionally, a [<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left">Maxwell Gate</ItemLink>](./bose_einstein_condensate_maxwell_gate.md) can control the flow of condensate's direction, and which condensate can pass the machine, which can make user stock condensates while keep crafting network clean.
-1. Items are supplied directly to one of the [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Teleportation Nodes (IO Nodes)</ItemLink>](./bose_einstein_condensate_teleportation_node.md) which immediately begins processing the recipe regardless of current condensate levels.
-1. The [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) receive requests from IO Node(s) and provide condensates from connected network, while covering their power cost and holding the requested nanites for recipes.
-1. The nanites in the [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) must be rapidly swapped out to perfectly match the requested nanite at all times and maximize the processing speed of the IO Node(s).
+1. Sıvıyı güç harcayarak yoğuşmaya dönüştürmek için [<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left">Dolanıklık Aygıtı</ItemLink>](./bose_einstein_condensate_entanglement_apparatus.md)'na sıvı ekle.
+1. Yoğuşma, yeterli alan olup olmadığına bakılmaksızın depolanmak üzere ağdaki herhangi bir [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Muhafaza Alanı</ItemLink>](./bose_einstein_condensate_containment_field.md)'na itilir.
+1. İsteğe bağlı olarak bir [<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left">Maxwell Geçidi</ItemLink>](./bose_einstein_condensate_maxwell_gate.md), yoğuşmanın akış yönünü ve hangi yoğuşmanın makineden geçebileceğini kontrol edebilir; böylece kullanıcı yoğuşma stoklayabilirken üretim ağı temiz kalır.
+1. Eşyalar doğrudan [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Işınlama Düğümleri (IO Düğümleri)</ItemLink>](./bose_einstein_condensate_teleportation_node.md)'nden birine verilir ve bu düğüm, mevcut yoğuşma seviyelerine bakılmaksızın tarifi hemen işlemeye başlar.
+1. [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizisi</ItemLink>](./bose_einstein_condensate_observation_array.md), IO Düğümü'nden gelen istekleri alır ve bağlı ağdan yoğuşma sağlar; bu sırada onların güç maliyetini karşılar ve tarifler için istenen nanitleri tutar.
+1. [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizisi</ItemLink>](./bose_einstein_condensate_observation_array.md)'ndeki nanitler, her zaman istenen nanitle tam olarak eşleşecek ve IO Düğümü'nün işlem hızını en üst düzeye çıkaracak şekilde hızla değiştirilmelidir.
 
-There are also a few additional challenges that could potentially inflict penalties or void outputs if not careful.
+Ayrıca, dikkatli olunmazsa potansiyel olarak cezalara yol açabilecek veya çıktıları hiçliğe gönderebilecek birkaç ek zorluk vardır.
 
-- When [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Containment Fields</ItemLink>](./bose_einstein_condensate_containment_field.md)'s capacity exceeds, multiblock will void 11% of all condensates until it falls back below the maximum capacity. This penalty applies evenly to all stored condensates and never prioritizes any one over the others.
-- [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Teleportation Nodes (IO Nodes)</ItemLink>](./bose_einstein_condensate_teleportation_node.md) will slow down when there are unrequested condensates exists on the network while processing, and will halt the operation and void all inputs received when network contains more than three unrequested condensates.
-- [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Teleportation Nodes (IO Nodes)</ItemLink>](./bose_einstein_condensate_teleportation_node.md) will slow down drastically when [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) provides higher tier of nanites than current step requires.
+- [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Muhafaza Alanı</ItemLink>](./bose_einstein_condensate_containment_field.md)'nın kapasitesi aşıldığında, multiblok tüm yoğuşmaların %11'ini, kapasite yeniden maksimumun altına düşene kadar hiçliğe gönderir. Bu ceza depolanan tüm yoğuşmalara eşit şekilde uygulanır ve hiçbir zaman birini diğerlerine göre önceliklendirmez.
+- [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Işınlama Düğümleri (IO Düğümleri)</ItemLink>](./bose_einstein_condensate_teleportation_node.md), işlem sırasında ağda istenmeyen yoğuşmalar bulunduğunda yavaşlar ve ağ üçten fazla istenmeyen yoğuşma içerdiğinde işlemi durdurur ve alınan tüm girdileri hiçliğe gönderir.
+- [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">Işınlama Düğümleri (IO Düğümleri)</ItemLink>](./bose_einstein_condensate_teleportation_node.md), [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizisi</ItemLink>](./bose_einstein_condensate_observation_array.md) mevcut adımın gerektirdiğinden daha yüksek kademede nanit sağladığında büyük ölçüde yavaşlar.
 
-### Recipes
+### Tarifler
 
 <details>
-  <summary>UEV Recipes</summary>
+  <summary>UEV Tarifleri</summary>
 
-  | Recipes | Duration | Required Condensate | Requested Nanite Tiers by Step ||||
+  | Tarifler | Süre | Gerekli Yoğuşma | Adımlara Göre İstenen Nanit Kademeleri ||||
   | --- | --- | --- | --- | --- | --- | --- |
   | <ItemLink id="gregtech:gt.metaitem.03:32319" showIcon="left" /> | 300 s | <ItemImage id="NotEnoughItems:neiFluidDisplay:944" /><ItemImage id="NotEnoughItems:neiFluidDisplay:946" /><ItemImage id="NotEnoughItems:neiFluidDisplay:948" /> | &b4 | 1 | 2 | 1 |
   | <ItemLink id="gregtech:gt.metaitem.03:32323" showIcon="left" /> | 300 s | <ItemImage id="NotEnoughItems:neiFluidDisplay:944" /><ItemImage id="NotEnoughItems:neiFluidDisplay:946" /><ItemImage id="NotEnoughItems:neiFluidDisplay:948" /> | &b4 | 1 | 2 | 1 |
@@ -86,9 +86,9 @@ There are also a few additional challenges that could potentially inflict penalt
 </details>
 
 <details>
-  <summary>UIV Recipes</summary>
+  <summary>UIV Tarifleri</summary>
 
-  | Recipes | Duration | Required Condensate | Requested Nanite Tiers by Step |||||||||||||
+  | Tarifler | Süre | Gerekli Yoğuşma | Adımlara Göre İstenen Nanit Kademeleri |||||||||||||
   | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
   | <ItemLink id="gregtech:gt.blockcasings.bec:6" showIcon="left" /> | 150 s | <ItemImage id="NotEnoughItems:neiFluidDisplay:944" /><ItemImage id="NotEnoughItems:neiFluidDisplay:946" /><ItemImage id="NotEnoughItems:neiFluidDisplay:945" /> | 3 | 1 | 1 | 1 | &b4 | 2 | 1 | 1 |
   | <ItemLink id="gregtech:gt.blockglass1:9" showIcon="left" /> | 240 s | <ItemImage id="NotEnoughItems:neiFluidDisplay:944" /><ItemImage id="NotEnoughItems:neiFluidDisplay:946" /><ItemImage id="NotEnoughItems:neiFluidDisplay:945" /> | 3 | &b4 | 1 | 1 |
@@ -114,9 +114,9 @@ There are also a few additional challenges that could potentially inflict penalt
 </details>
 
 <details>
-  <summary>UMV Recipes</summary>
+  <summary>UMV Tarifleri</summary>
 
-  | Recipes | Duration | Required Condensate | Requested Nanite Tiers by Step ||||||||||||||||
+  | Tarifler | Süre | Gerekli Yoğuşma | Adımlara Göre İstenen Nanit Kademeleri ||||||||||||||||
   | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
   | <ItemLink id="tectech:gt.blockcasingsBA0:10" showIcon="left" /> | 40,000 s | <ItemImage id="NotEnoughItems:neiFluidDisplay:941" /><ItemImage id="NotEnoughItems:neiFluidDisplay:942" /><ItemImage id="NotEnoughItems:neiFluidDisplay:943" /><ItemImage id="NotEnoughItems:neiFluidDisplay:953" /> | &b4 | 1 | 1 | 2 | 1 | 1 | 4 | 1 | 1 | 1 | 1 | 2 |  |  |  |  |
   | <ItemLink id="tectech:gt.blockcasingsBA0:11" showIcon="left" /> | 40,000 s | <ItemImage id="NotEnoughItems:neiFluidDisplay:941" /><ItemImage id="NotEnoughItems:neiFluidDisplay:942" /><ItemImage id="NotEnoughItems:neiFluidDisplay:943" /><ItemImage id="NotEnoughItems:neiFluidDisplay:954" /> | &b4 | 1 | 1 | 2 | 1 | 1 | 4 | 1 | 1 | 1 | 1 | 2 |  |  |  |  |
@@ -153,9 +153,9 @@ There are also a few additional challenges that could potentially inflict penalt
 </details>
   
 <details>
-  <summary>UXV Recipes</summary>
+  <summary>UXV Tarifleri</summary>
 
-  | Recipes | Duration | Required Condensate | Requested Nanite Tiers by Step ||||||||||||||||
+  | Tarifler | Süre | Gerekli Yoğuşma | Adımlara Göre İstenen Nanit Kademeleri ||||||||||||||||
   | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
   | <ItemLink id="gregtech:gt.metaitem.03:32322" showIcon="left" /> | 300 s | <ItemImage id="NotEnoughItems:neiFluidDisplay:944" /><ItemImage id="NotEnoughItems:neiFluidDisplay:946" /><ItemImage id="NotEnoughItems:neiFluidDisplay:955" /> | &b7 | 4 | 5 | 4 |  |  |  |  |  |  |  |  |  |  |  |  |
   | <ItemLink id="gregtech:gt.metaitem.03:32326" showIcon="left" /> | 300 s | <ItemImage id="NotEnoughItems:neiFluidDisplay:944" /><ItemImage id="NotEnoughItems:neiFluidDisplay:946" /><ItemImage id="NotEnoughItems:neiFluidDisplay:955" /> | &b7 | 4 | 5 | 4 |  |  |  |  |  |  |  |  |  |  |  |  |
@@ -208,5 +208,5 @@ There are also a few additional challenges that could potentially inflict penalt
 
 </details>
 
-## References
-- [GTNH Wiki : Bose-Einstein Condensate Line](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Line)
+## Kaynaklar
+- [GTNH Wiki : Bose-Einstein Yoğuşması Hattı](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Line)

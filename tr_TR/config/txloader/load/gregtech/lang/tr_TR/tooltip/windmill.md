@@ -1,14 +1,14 @@
-A primitive Grinder powered by {aqua:Kinetic Energy}
-Macerates up to {gold:16} items at a time
-The amount of parallels is determined by {white:Wind Speed}
-Parallels determine how many items are processed per recipe
-Processing time is the same regardless of parallels
-{white:Wind Speed} can be determined using the {white:{item:bartworks:BW_SimpleWindMeter}}
-Rotor can be put in the {white:{item:bartworks:BWRotorBlock}}
-Will not work if wind is non-existent or too strong
-{green:12.5%} speed
+{aqua:Kinetik Enerji} ile çalışan ilkel bir Öğütücü
+Aynı anda en fazla {gold:16} eşya öğütür
+Paralel sayısı {white:Rüzgar Hızı} ile belirlenir
+Paraleller her tarifte kaç eşyanın işleneceğini belirler
+İşlem süresi paralel sayısından bağımsız olarak aynıdır
+{white:Rüzgar Hızı}, {white:{item:bartworks:BW_SimpleWindMeter}} kullanılarak belirlenebilir
+Rotor, {white:{item:bartworks:BWRotorBlock}} içine yerleştirilebilir
+Rüzgar yoksa veya çok güçlüyse çalışmaz
+{green:12.5%} hız
 {gray:{hr}}
-{gold:2} parallels: {white:Low}
-{gold:4} parallels: {white:Common}
-{gold:8} parallels: {white:Rather strong}
-{gold:16} parallels: {white:Very Strong}
+{gold:2} paralel: {white:Düşük}
+{gold:4} paralel: {white:Olağan}
+{gold:8} paralel: {white:Oldukça güçlü}
+{gold:16} paralel: {white:Çok Güçlü}

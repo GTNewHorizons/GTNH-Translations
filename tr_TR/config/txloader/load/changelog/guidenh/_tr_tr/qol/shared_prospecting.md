@@ -1,27 +1,27 @@
 ---
 navigation:
-  title: Shared Prospecting
+  title: Paylaşılan Maden Arama
   parent: qol.md
   icon: gregtech:gt.detrav.metatool.01:100
 categories:
-    - Quality Of Life
+    - Yaşam Kalitesi
 author: Skorched
 date: 2026-05-16
 ---
 
-# Shared Prospecting
-Visual Prospecting has received a huge quality of life improvement by overhauling how it works in multiplayer. New prospects found will instantly now be shared to all members of the same team ([GTNH Team](../misc/gtnh_teams.md) to be specific)! For those players who have used <Color id="RED">Shared Prospecting</Color> in the past, the functionality is effectively the same, but working and optimised.
+# Paylaşılan Maden Arama
+Visual Prospecting, çok oyunculu modda nasıl çalıştığını yeniden düzenleyerek devasa bir yaşam kalitesi iyileştirmesi aldı. Yeni bulunan maden keşifleri artık anında aynı takımın tüm üyeleriyle paylaşılacak ([GTNH Team](../misc/gtnh_teams.md) demek istiyorum)! Daha önce <Color id="RED">Paylaşılan Maden Arama</Color>'yı kullanmış oyuncular için işlevsellik etkin biçimde aynı; ancak artık çalışıyor ve optimize edilmiş durumda.
 
-Additionally, underground fluid prospecting has been made easier to distinguish by adding colored overlays to each fluid, using the same colors as are found in the higher tier prospector's tools!
+Ayrıca, her sıvıya, daha yüksek Kademedeki maden arayıcı araçlarında bulunan renklerin aynısı kullanılarak renkli katmanlar eklenmesiyle yeraltı sıvı aramalarının ayırt edilmesi kolaylaştırıldı!
 
-As part of this overhaul,
+Bu kapsamlı yenilemenin bir parçası olarak,
 
-| Command | Permission Level | Effect |
+| Komut | İzin Seviyesi | Etki |
 | --------------- | --------------- | --------------- |
-| `/vp_client_cache_reset` | - | Resets the clientside cache of prospects |
-| `/vp team info [detailed]` | 0 | Shows info regarding your team |
-| `/vp_team_info <player> [detailed]` | 2 | Shows info regarding a target player's team |
-| `vp_admin team upload <player>` | 2 | Uploads the prospects of one player's cache to the team |
-| `/vp_admin team clear` | 2 | Clears the team prospects |
-| `/vp_admin servercache rebuild all` | 4 | Rebuilds the cache to the server |
-| `/vp_admin servercache rebuild spawn` | 4 | Rebuilds the cache to the server for the spawn chunks |
+| `/vp_client_cache_reset` | - | Maden keşiflerinin istemci tarafındaki önbelleğini sıfırlar |
+| `/vp team info [detailed]` | 0 | Takımına ilişkin bilgisini gösterir |
+| `/vp_team_info <player> [detailed]` | 2 | Hedef oyuncunun takımına ilişkin bilgisini gösterir |
+| `vp_admin team upload <player>` | 2 | Bir oyuncunun önbelleğindeki maden keşiflerini takıma yükler |
+| `/vp_admin team clear` | 2 | Takımın maden keşiflerini temizler |
+| `/vp_admin servercache rebuild all` | 4 | Sunucudaki önbelleği yeniden oluşturur |
+| `/vp_admin servercache rebuild spawn` | 4 | Doğma noktası chunk'ları için sunucudaki önbelleği yeniden oluşturur |

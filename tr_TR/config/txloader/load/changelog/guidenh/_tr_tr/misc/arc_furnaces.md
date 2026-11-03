@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:651
 navigation:
-  title: Arc Furnace Changes
+  title: Ark Ocağı Değişiklikleri
   parent: misc.md
   icon: gregtech:gt.blockmachines:651
 categories:
@@ -11,12 +11,12 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Arc Furnace Changes
-As part of 2.9, the entire system around <Color id="GREEN">Arc Furnaces</Color> has changed. Not only do we now have the [Industrial Arc Furnace](../reworks/industrial_arc_furnace.md), but the following changes have come for singleblock machines:
+# Ark Ocağı Değişiklikleri
+2.9'un bir parçası olarak <Color id="GREEN">Ark Ocakları</Color> etrafındaki tüm sistem değişti. Artık [Endüstriyel Ark Ocağı](../reworks/industrial_arc_furnace.md) aldığımızla kalmıyor, tek bloklu makineler için de şu değişiklikler geldi:
 
-- Singleblock Plasma Arc Furnaces are now <Color id="RED">__DEPRECATED__</Color> and their recipe map has been integrated with the main arc furnace
-- Wrought Iron has been renamed to __Cast Iron__ <ItemImage id="gregtech:gt.metaitem.01:13304"/> and now uses carbon
-- Steel now requires coal to be crafted in all circumstances
-- All recipes now have alternative recipes with __noble gases__ (with the same scaling as the EBF)
-- Netherite recipes have been downtiered across the board
-- Chronic Singularity recipe has been downtiered
+- Tek bloklu Plazma Ark Ocakları artık <Color id="RED">__KULLANIMDAN KALDIRILDI__</Color> ve tarif haritaları ana ark ocağıyla birleştirildi
+- Ferforje Demir'in adı __Dökme Demir__ olarak değiştirildi <ItemImage id="gregtech:gt.metaitem.01:13304"/> ve artık karbon kullanıyor
+- Çelik artık her koşulda üretim için kömür gerektiriyor
+- Tüm tariflerin artık __soy gazlarla__ alternatif tarifleri var (EYF ile aynı ölçeklemeyle)
+- Netherit tariflerinin tamamı daha düşük kademeye indirildi
+- Kronik Tekillik tarifi daha düşük kademeye indirildi

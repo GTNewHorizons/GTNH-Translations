@@ -1,5 +1,5 @@
-Operates in 4 different modes:
-Mode 1: {color_name:Circuit 0} in controller: {color_mode:Direct-Upstep}
-Mode 2: {color_name:Circuit 1} in controller: {color_mode:Direct-Downstep}
-Mode 3: {color_name:Circuit 2} in controller: {color_mode:Tapped-Upstep} {color_deprecated:(currently disabled)}
-Mode 4: {color_name:Circuit 3} in controller: {color_mode:Tapped-Downstep} {color_deprecated:(currently disabled)}
+4 farklı modda çalışır:
+Mod 1: Kontrolcüde {color_name:Devre 0}: {color_mode:Doğrudan-Yükseltme}
+Mod 2: Kontrolcüde {color_name:Devre 1}: {color_mode:Doğrudan-Düşürme}
+Mod 3: Kontrolcüde {color_name:Devre 2}: {color_mode:Kademeli-Yükseltme} {color_deprecated:(şu anda devre dışı)}
+Mod 4: Kontrolcüde {color_name:Devre 3}: {color_mode:Kademeli-Düşürme} {color_deprecated:(şu anda devre dışı)}

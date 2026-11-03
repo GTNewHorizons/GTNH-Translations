@@ -1,2 +1,2 @@
-Usable for Steel and general Pyrometallurgy
-All input/output is done manually through the controller
+Çelik ve genel Pirometalurji için kullanılabilir
+Tüm giriş/çıkış kontrolcü aracılığıyla elle yapılır

@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Recipe Counting
+  title: Tarif Sayımı
   parent: qol.md
   icon: gregtech:gt.metaitem.01:32762
 categories:
@@ -9,10 +9,10 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Recipe Counting
-Have you ever wondered "How many recipes has this machine made in its lifetime?" Well now you can find the answer! Using the portable scanner on a machine controller will show a recipe counter, showing how many recipes that machine has finished!
+# Tarif Sayımı
+"Bu makine ömrü boyunca kaç tarif yaptı?" diye hiç merak ettin mi? Artık cevabı bulabilirsin! Taşınabilir tarayıcıyı bir makine kontrolcüsünde kullanmak, o makinenin kaç tarif tamamladığını gösteren bir tarif sayacı görüntüler!
 <FloatingImage src="../assets/qol/recipe_counter.png" align="left" displayWidth="384" >
   <ImageAnnotation>
-    An example of the scanner being used
+    Tarayıcının kullanımına bir örnek
   </ImageAnnotation>
 </FloatingImage>

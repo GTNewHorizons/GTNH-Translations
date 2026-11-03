@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Sky Dust
+  title: Gökyüzü Tozu
   icon: appliedenergistics2:item.ItemMultiMaterial:45
 categories:
 - misc ingredients blocks
@@ -9,12 +9,12 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:45
 ---
 
-# Sky Dust
+# Gökyüzü Tozu
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:45" scale="4" />
 
-Sky dust is produced by crushing <ItemLink id="appliedenergistics2:tile.BlockSkyStone" />. It has no use in the default recipes, but GTNH custom recipes may assign uses. Check NEI for available applications.
+<ItemLink id="appliedenergistics2:tile.BlockSkyStone" /> kırılarak gökyüzü tozu elde edilir. Varsayılan tariflerde bir kullanımı yoktur ancak GTNH'ye özel tarifler kullanım atayabilir. Mevcut kullanımlar için NEI'ye bak.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:45" />

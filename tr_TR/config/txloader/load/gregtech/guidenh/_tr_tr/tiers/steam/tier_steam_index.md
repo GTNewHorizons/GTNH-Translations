@@ -1,10 +1,10 @@
 ---
 navigation:
-  title: Steam Age
+  title: Buhar Çağı
   icon: minecraft:grass
   parent: /tiers/tiers_index.md
   position: 0
 ---
 
 > [!WARNING]
-> This page is under construction. Check again later, or [help contribute](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!
+> Bu sayfa yapım aşamasında. Daha sonra tekrar kontrol et veya [katkıda bulunmaya yardım et](https://github.com/GTNewHorizons/GTNH-Guide-Pack)!

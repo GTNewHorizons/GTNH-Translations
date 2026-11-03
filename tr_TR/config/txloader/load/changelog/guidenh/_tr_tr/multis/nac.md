@@ -2,276 +2,276 @@
 item_ids:
   - gregtech:gt.blockmachines:9500
 navigation:
-  title: Nanochip Assembly Complex
+  title: Nanoçip Montaj Kompleksi
   parent: multis.md
   icon: gregtech:gt.blockmachines:9500
 categories:
-    - New Multiblocks
+    - Yeni Multibloklar
 author: Skorched
 date: 2026-05-26
 ---
 
-# Nanochip Assembly Complex
+# Nanoçip Montaj Kompleksi
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9500" />
 </GameScene>
-The <Color id="GREEN">Nanochip Assembly Complex (NAC)</Color> is a UEV tier multiblock for mass circuit assembling. The <Color id="GREEN">NAC</Color> is a direct upgrade from the <ItemLink id="gregtech:gt.blockmachines:12735"/> <ItemImage id="gregtech:gt.blockmachines:12735"/> for crystal, wetware, bioware, optical, pico, and quantum circuits because it offers <Color id="RED">unlimited parallels</Color>, runs <Color id="BLUE">2/2 perfect overclocks</Color>, and does not start processing unless there is enough energy available for the full duration of a recipe. The <Color id="GREEN">NAC</Color> also supports <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> for incredibly high throughput.
+<Color id="GREEN">Nanoçip Montaj Kompleksi (NAC)</Color>, seri devre montajı için UEV kademe bir multobloktur. <Color id="GREEN">NAC</Color>, kristal, nöro, biyo, optik, piko ve kuantum devreler için <ItemLink id="gregtech:gt.blockmachines:12735"/> <ItemImage id="gregtech:gt.blockmachines:12735"/> makinesinin doğrudan yükseltmesidir; çünkü <Color id="RED">sınırsız paralel işlem</Color> sunar, <Color id="BLUE">2/2 kusursuz hız aşırtma</Color> çalıştırır ve bir tarifin tüm süresi boyunca yeterli enerji yoksa işleme başlamaz. <Color id="GREEN">NAC</Color> ayrıca inanılmaz yüksek iş hacmi için <Color id="RED">Çok Amperli ve Lazer Enerji Kapaklarını</Color> destekler.
 
-All processing and circuit assembling is done by the modules that surround the control room at the center of the structure. There are 11 unique modules to choose from and 12 module slots. A few of the modules have their own unique challenges or costs, but most are relatively straightforward. Items and circuit components (CCs) are routed between modules with vacuum conveyor hatches and vacuum conveyor pipes, which have unlimited storage capacity and throughput. Crafting enough of the same circuit type calibrates the <Color id="GREEN">NAC</Color> to that particular circuit line and grants additional bonuses. 
+Tüm işleme ve devre montajı, yapının merkezindeki kontrol odasını çevreleyen modüller tarafından yapılır. Aralarından seçim yapabileceğin 11 farklı modül ve 12 modül yuvası vardır. Birkaç modülün kendine özgü zorlukları veya maliyetleri vardır, ancak çoğu oldukça basittir. Eşyalar ve devre bileşenleri (CC'ler), sınırsız depolama kapasitesi ve iş hacmine sahip vakum konveyör kapakları ve vakum konveyör borularıyla modüller arasında yönlendirilir. Aynı devre türünden yeterince üretmek, <Color id="GREEN">NAC</Color>'yi o belirli devre hattına kalibre eder ve ek bonuslar verir. 
 <br clear="all"/>
 
-## Construction:
-The <Color id="GREEN">NAC</Color> consists of a large control room surrounded by 12 module slots. The control room is for both the inputs and outputs to the machine while the modules are for processing circuit components (CCs). Multi-amp and laser energy hatches are supported, but there can only be one and it must be inside or under the control room. Power is automatically distributed from the control room to all modules in the order that it is requested, similar to the <ItemLink id="gregtech:gt.blockmachines:14003"/><ItemImage id="gregtech:gt.blockmachines:14003"/>. The only exception is the <ItemLink id="gregtech:gt.blockmachines:9504"/><ItemImage id="gregtech:gt.blockmachines:9504"/> which has a lower priority than all other modules for filling its energy buffer. There is no maintenance hatch. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+## İnşaat:
+<Color id="GREEN">NAC</Color>, 12 modül yuvasıyla çevrili büyük bir kontrol odasından oluşur. Kontrol odası makinenin hem girişleri hem de çıkışları içindir; modüller ise devre bileşenlerini (CC'ler) işlemek içindir. Çok amperli ve lazer enerji kapakları desteklenir, ancak yalnızca bir tane olabilir ve kontrol odasının içinde veya altında olmalıdır. Güç, kontrol odasından tüm modüllere talep edilme sırasına göre otomatik olarak dağıtılır; <ItemLink id="gregtech:gt.blockmachines:14003"/><ItemImage id="gregtech:gt.blockmachines:14003"/> makinesine benzer. Tek istisna <ItemLink id="gregtech:gt.blockmachines:9504"/><ItemImage id="gregtech:gt.blockmachines:9504"/> modülüdür; bu modül enerji tamponunu doldurmada diğer tüm modüllerden daha düşük önceliğe sahiptir. Bakım kapağı yoktur. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan.
 
-Modules are their own multiblocks with their own controller and construction requirements. Replace one of the <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/> on the top edge of any module slot and use the Multiblock Structure Hologram Projector to visualize/build them. They can face any direction, but cannot be built upside-down. If done correctly, the module's controller should say "Connected to Main Complex" once the <Color id="GREEN">NAC</Color> is enabled. 
-### Requires:
+Modüller, kendi kontrolcüleri ve inşaat gereksinimleri olan kendi multibloklarıdır. Herhangi bir modül yuvasının üst kenarındaki <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/> bloklarından birini değiştir ve onları görselleştirmek/inşa etmek için Multiblok Yapı Hologram Projektörünü kullan. Her yöne bakabilirler, ancak baş aşağı inşa edilemezler. Doğru yapıldıysa, <Color id="GREEN">NAC</Color> etkinleştirildiğinde modülün kontrolcüsü "Ana Komplekse Bağlı" yazmalıdır. 
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9500"/><ItemImage id="gregtech:gt.blockmachines:9500"/>
-- 3,956 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
-- 2,226 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
-- 1,708-1,720 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
+- 3.956 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
+- 2.226 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
+- 1.708-1.720 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 721 <ItemLink id="gregtech:gt.blockcasings12:3"/><ItemImage id="gregtech:gt.blockcasings12:3"/>
 - 53 <ItemLink id="gregtech:gt.blockframes:324"/><ItemImage id="gregtech:gt.blockframes:324"/>
 - 32 <ItemLink id="gregtech:gt.blockcasings12:4"/><ItemImage id="gregtech:gt.blockcasings12:4"/>
-- 1 Energy Hatch (any side interface casing in control room) <ItemImage id="gregtech:gt.blockmachines:15065"/>
-- 0+ Input Bus (any side interface casing in control room) <ItemImage id="gregtech:gt.blockmachines:70"/>
-- 0+ Output Bus (any side interface casing in control room) <ItemImage id="gregtech:gt.blockmachines:80"/>
+- 1 Enerji Kapağı (kontrol odasında herhangi bir yan arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:15065"/>
+- 0+ Giriş Yolu (kontrol odasında herhangi bir yan arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:70"/>
+- 0+ Çıkış Yolu (kontrol odasında herhangi bir yan arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:80"/>
 
-## Vacuum Conveyor System
-Unique to the <Color id="GREEN">NAC</Color> are <ItemLink id="gregtech:gt.blockmachines:9501"/> (VCI) <ItemImage id="gregtech:gt.blockmachines:9501"/> and <ItemLink id="gregtech:gt.blockmachines:9502"/> (VCO) <ItemImage id="gregtech:gt.blockmachines:9502"/> hatches which move items or CCs between modules. These are similar to optical transmission and reception hatches because they must be colored to work and the connections must be 1-to-1. The hatches are machine-specific so they cannot transfer CCs between <Color id="GREEN">NACs</Color>. The vacuum conveyor pipes that join the hatches must be colored as well and can bend freely. It is highly recommended to use the <ItemLink id="gregtech:gt.metaitem.01:32468"/><ItemImage id="gregtech:gt.metaitem.01:32468"/> for coloring everything.
+## Vakum Konveyör Sistemi
+<Color id="GREEN">NAC</Color>'ye özgü olan, modüller arasında eşya veya CC taşıyan <ItemLink id="gregtech:gt.blockmachines:9501"/> (VCI) <ItemImage id="gregtech:gt.blockmachines:9501"/> ve <ItemLink id="gregtech:gt.blockmachines:9502"/> (VCO) <ItemImage id="gregtech:gt.blockmachines:9502"/> kapakları vardır. Bunlar, çalışmak için renklendirilmeleri ve bağlantıların 1'e 1 olması gerektiğinden optik iletim ve alım kapaklarına benzer. Kapaklar makineye özeldir, bu yüzden <Color id="GREEN">NAC</Color>'ler arasında CC aktaramazlar. Kapakları birleştiren vakum konveyör boruları da renklendirilmelidir ve serbestçe bükülebilir. Her şeyi renklendirmek için <ItemLink id="gregtech:gt.metaitem.01:32468"/><ItemImage id="gregtech:gt.metaitem.01:32468"/> kullanman şiddetle tavsiye edilir.
 
-Both hatches can hold up to 16 unique item stacks at a time with no upper limit on capacity and no transfer limit between connections. This allows for incredibly high throughput that easily scales into the end game. Items stored inside the hatches cannot be interacted with directly, but there is an option to empty/unpackage stored items to an AE2 storage cell or to simply delete all stored items. Fluids do not enter the vacuum conveyor system and must be routed directly to the module(s) that use them.
+Her iki kapak da aynı anda 16 farklı eşya yığını tutabilir; kapasitede üst sınır ve bağlantılar arasında transfer sınırı yoktur. Bu, oyun sonuna kolayca ölçeklenen inanılmaz yüksek bir iş hacmi sağlar. Kapakların içinde depolanan eşyalarla doğrudan etkileşime girilemez, ancak depolanan eşyaları bir AE2 depolama hücresine boşaltma/paketten çıkarma veya tüm depolanan eşyaları silme seçeneği vardır. Sıvılar vakum konveyör sistemine girmez ve doğrudan onları kullanan modüle/modüllere yönlendirilmelidir.
 
-There are two ways to properly filter or split items to ensure that they are routed to the correct module. The first is filtering everything before it enters the NAC and the second is using the <ItemLink id="gregtech:gt.blockmachines:9510"/><ItemImage id="gregtech:gt.blockmachines:9510"/> module. The latter uses a module slot but it allows for custom routing based on input color, output color, item type, and/or supplied redstone level. 
+Eşyaların doğru modüle yönlendirildiğinden emin olmak için düzgün filtreleme veya ayırma yapmanın iki yolu vardır. Birincisi her şeyi NAC'ye girmeden önce filtrelemek, ikincisi <ItemLink id="gregtech:gt.blockmachines:9510"/><ItemImage id="gregtech:gt.blockmachines:9510"/> modülünü kullanmaktır. İkincisi bir modül yuvası kullanır ancak giriş rengi, çıkış rengi, eşya türü ve/veya verilen kızıltaş seviyesine göre özel yönlendirmeye izin verir. 
 
 ----------
 
-## Modules:
-The <Color id="GREEN">NAC</Color> only ever packages and unpackages circuit components (CCs) on a fixed 5 second cycle. The modules are what actually process and assemble the circuits. There are 11 unique modules to choose from and 12 module slots around the control room, but not all modules are required and there is no limit on the number of each one. Despite the additional processing, modules are a direct upgrade from the Circuit Assembly Line because they have unlimited parallels, run 2/2 perfect overclocks down to 5 seconds for every voltage tier above the recipe tier, and do not start processing unless their energy buffer is large enough for the craft. That means they have incredibly high throughput and cannot powerfail or void items. Note that the overclocks are calculated before parallels to increase the speed of longer recipes.
+## Modüller:
+<Color id="GREEN">NAC</Color>, devre bileşenlerini (CC'ler) yalnızca sabit 5 saniyelik bir döngüde paketler ve paketten çıkarır. Devreleri gerçekte işleyen ve monte eden şey modüllerdir. Kontrol odasının çevresinde aralarından seçim yapabileceğin 11 farklı modül ve 12 modül yuvası vardır, ancak tüm modüller gerekli değildir ve her birinin sayısında bir sınır yoktur. Ek işlemeye rağmen modüller, Devre Montaj Hattı'na göre doğrudan bir yükseltmedir; çünkü sınırsız paralel işleme sahiptirler, tarif kademesinin üzerindeki her voltaj kademesi için 5 saniyeye kadar 2/2 kusursuz hız aşırtma çalıştırırlar ve enerji tamponları üretim için yeterince büyük değilse işleme başlamazlar. Bu, inanılmaz yüksek bir iş hacmine sahip oldukları ve enerji kesintisi yaşayamayacakları veya eşya yok edemeyecekleri anlamına gelir. Hız aşırtmaların, daha uzun tariflerin hızını artırmak için paralel işlemlerden önce hesaplandığını unutma.
 
-The general workflow of the <Color id="GREEN">NAC</Color> is listed below. The image is also provided for reference although it is a slight oversimplification since not everything (ie. spliced frameboxes) is routed to the Nanochip Assembly Matrix. See the calibration section below for a more detailed walkthrough of setups. 
-1. Insert items through a <u>colored</u> input bus (regular or stocking) in the control room
-2. The <Color id="GREEN">NAC</Color> packages the items into CCs and transfers them to a VCO hatch of the same color
-3. Filter the packaged CCs with a Nanopart Splitter module if not done beforehand to route them to the correct module.
-4. The modules turn the packaged CCs into processed components (PCs) which cannot be unpackaged or leave the <Color id="GREEN">NAC</Color>
-5. Join the PCs in the Nanochip Assembly Matrix to create circuit CCs and route them back to the control room
-6. The <Color id="GREEN">NAC</Color> unpackages the circuit CCs and transfers them to an output bus for retrieval
+<Color id="GREEN">NAC</Color>'nin genel iş akışı aşağıda listelenmiştir. Görsel de referans olarak verilmiştir, ancak her şey (örneğin eklenmiş çerçeveler) Nanoçip Montaj Matrisine yönlendirilmediği için hafif bir basitleştirmedir. Daha ayrıntılı kurulum adımları için aşağıdaki kalibrasyon bölümüne bak. 
+1. Eşyaları kontrol odasındaki <u>renkli</u> bir giriş yolundan (normal veya stoklu) yerleştir
+2. <Color id="GREEN">NAC</Color> eşyaları CC olarak paketler ve aynı renkteki bir VCO kapağına aktarır
+3. Önceden yapılmadıysa, paketlenmiş CC'leri doğru modüle yönlendirmek için bir Nanoparçacık Ayırıcı modülüyle filtrele.
+4. Modüller paketlenmiş CC'leri, paketten çıkarılamayan veya <Color id="GREEN">NAC</Color>'den ayrılamayan işlenmiş bileşenlere (PC'ler) dönüştürür
+5. Devre CC'leri oluşturmak için PC'leri Nanoçip Montaj Matrisinde birleştir ve kontrol odasına geri yönlendir
+6. <Color id="GREEN">NAC</Color> devre CC'lerini paketten çıkarır ve alınmaları için bir çıkış yoluna aktarır
 <FloatingImage src="../assets/multis/nac_overview.png" displayWidth="384">
   <ImageAnnotation>
-    An overview of the Nanochip Assembly Complex by Fox
+    Fox tarafından hazırlanan Nanoçip Montaj Kompleksi genel görünümü
   </ImageAnnotation>
 </FloatingImage>
 <br clear="all"/>
 
-## Nanochip Assembly Matrix <ItemImage id="gregtech:gt.blockmachines:9504"/>
+## Nanoçip Montaj Matrisi <ItemImage id="gregtech:gt.blockmachines:9504"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9504" />
 </GameScene>
-The <Color id="GREEN">Nanochip Assembly Matrix</Color> assembles circuit CCs from processed components (PCs). This module is always the final step before sending the circuit CCs to the control room to be unpackaged into real circuits. The <Color id="GREEN">Nanochip Assembly Matrix</Color> has the lowest priority out of all the modules for filling its energy buffer and the 2/2 perfect overclocks down to 5 seconds is based on recipe casing tier rather than recipe voltage tier. Both are displayed in NEI and are often different from each other.
+<Color id="GREEN">Nanoçip Montaj Matrisi</Color>, işlenmiş bileşenlerden (PC'ler) devre CC'leri monte eder. Bu modül, devre CC'lerinin gerçek devrelere dönüştürülmek üzere paketten çıkarılacağı kontrol odasına gönderilmesinden önceki her zaman son adımdır. <Color id="GREEN">Nanoçip Montaj Matrisi</Color>, enerji tamponunu doldurmada tüm modüller arasında en düşük önceliğe sahiptir ve 5 saniyeye kadar 2/2 kusursuz hız aşırtma, tarif voltaj kademesi yerine tarif kasa kademesine dayanır. İkisi de NEI'de gösterilir ve genellikle birbirinden farklıdır.
 <br clear="all"/>
 <Latex formula="\text{Max Overclocks} = \text{Energy Hatch Tier} - \text{Recipe Casing Tier}"/>
 
-The inputs to the <Color id="GREEN">Nanochip Assembly Matrix</Color> can be in separate VCIs and do not all need to be the same color. There is also no restriction on the ordering of components despite recipes appearing identical to Assembly Line recipes. The output color is based on the first ingredient which is often the circuit board or encasement PC. 
+<Color id="GREEN">Nanoçip Montaj Matrisi</Color> girişleri ayrı VCI'lerde olabilir ve hepsinin aynı renkte olması gerekmez. Tarifler Montaj Hattı tariflerine benzese de bileşenlerin sıralamasında da bir kısıtlama yoktur. Çıkış rengi, genellikle devre kartı veya kaplama PC'si olan ilk bileşene dayanır. 
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9504"/><ItemImage id="gregtech:gt.blockmachines:9504"/>
 - 25 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 24 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
-- 20 Component Assembly Line Casing (Tiered) <ItemImage id="GoodGenerator:componentAssemblylineCasing"/>
+- 20 Bileşen Montaj Hattı Kasası (Kademeli) <ItemImage id="GoodGenerator:componentAssemblylineCasing"/>
 - 12 <ItemLink id="gregtech:gt.blockframes:325"/><ItemImage id="gregtech:gt.blockframes:325"/>
 - 8 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 3 <ItemLink id="gregtech:gt.sheetmetal:325"/><ItemImage id="gregtech:gt.sheetmetal:325"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9501"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
 
-| Circuit Line   | Casing Tier    |
+| Devre Hattı   | Kasa Kademesi    |
 |--------------- | --------------- |
-| Crystal | LuV |
-| Wetware | ZPM |
-| Bioware | UV  |
-| Optical | UHV |
-| Pico | UEV   |
-| Quantum | UIV |
+| Kristal | LuV |
+| Nöro | ZPM |
+| Biyo | UV  |
+| Optik | UHV |
+| Piko | UEV   |
+| Kuantum | UIV |
 | Planck  | UMV |
 
 
-## Nanopart Splitter <ItemImage id="gregtech:gt.blockmachines:9510"/>
+## Nanoparçacık Ayırıcı <ItemImage id="gregtech:gt.blockmachines:9510"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9510" />
 </GameScene>
-The <Color id="GREEN">Nanopart Splitter</Color> filters and organizes all CCs. Open the rules manager through the GUI of the controller to set custom routing rules based on input color, output color, item type, and/or supplied redstone level. At the very least, there must be one or more input colors selected and one or more output colors selected. The <Color id="GREEN">Nanopart Splitter</Color> cannot filter purely based on item type or even the unpackaged versions of CCs. If there are multiple valid filters for a single item type, it is split evenly between them.
+<Color id="GREEN">Nanoparçacık Ayırıcı</Color> tüm CC'leri filtreler ve düzenler. Giriş rengi, çıkış rengi, eşya türü ve/veya verilen kızıltaş seviyesine göre özel yönlendirme kuralları belirlemek için kontrolcünün GUI'si üzerinden kural yöneticisini aç. En azından bir veya daha fazla giriş rengi ve bir veya daha fazla çıkış rengi seçili olmalıdır. <Color id="GREEN">Nanoparçacık Ayırıcı</Color>, yalnızca eşya türüne ve hatta CC'lerin paketten çıkarılmış hallerine göre filtreleyemez. Tek bir eşya türü için birden fazla geçerli filtre varsa, aralarında eşit olarak bölünür.
 
-The Splitter Redstone Input is an optional hatch that replaces any nanochip mesh interface casing on the top of the structure and acts as an external redstone receiver. The strength of the incoming redstone signal is associated with the configured channel in the GUI of the hatch for managing rules. 
+Ayırıcı Kızıltaş Girişi, yapının üstündeki herhangi bir nanoçip örgü arayüz kasasının yerini alan ve harici bir kızıltaş alıcısı görevi gören isteğe bağlı bir kapaktır. Gelen kızıltaş sinyalinin gücü, kuralları yönetmek için kapağın GUI'sinde yapılandırılan kanalla ilişkilendirilir. 
 <br clear="all"/>
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9510"/><ItemImage id="gregtech:gt.blockmachines:9510"/>
 - 37 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 18 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 10 <ItemLink id="gregtech:gt.blockframes:765"/><ItemImage id="gregtech:gt.blockframes:765"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9515"/> (any top interface casing) <ItemImage id="gregtech:gt.blockmachines:9515"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9515"/> (herhangi bir üst arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9515"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9501"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
-## Part Preparation Apparatus <ItemImage id="gregtech:gt.blockmachines:9505"/>
+## Parça Hazırlama Aparatı <ItemImage id="gregtech:gt.blockmachines:9505"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9505" />
 </GameScene>
-The <Color id="GREEN">Part Preparation Apparatus</Color> processes SMD CCs. This module is required for all circuit lines.
+<Color id="GREEN">Parça Hazırlama Aparatı</Color> SMD CC'lerini işler. Bu modül tüm devre hatları için gereklidir.
 <br clear="all"/>
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9505"/><ItemImage id="gregtech:gt.blockmachines:9505"/>
 - 44 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 20 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 17 <ItemLink id="gregtech:gt.blockframes:979"/><ItemImage id="gregtech:gt.blockframes:979"/>
 - 8 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 4 <ItemLink id="gregtech:gt.blockcasingsNH:10"/><ItemImage id="gregtech:gt.blockcasingsNH:10"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9501"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
-## Nanoprecision Wire Tracer <ItemImage id="gregtech:gt.blockmachines:9509"/>
+## Nanohassas Tel İzleyici <ItemImage id="gregtech:gt.blockmachines:9509"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9509" />
 </GameScene>
-The <Color id="GREEN">Nanoprecision Wire Tracer</Color> processes wire CCs. This module is required for all circuit lines.
+<Color id="GREEN">Nanohassas Tel İzleyici</Color> tel CC'lerini işler. Bu modül tüm devre hatları için gereklidir.
 <br clear="all"/>
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9509"/><ItemImage id="gregtech:gt.blockmachines:9509"/>
 - 46 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 28 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 25 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 20 <ItemLink id="gregtech:gt.blockframes:985"/><ItemImage id="gregtech:gt.blockframes:985"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9501"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
-## Nanoprecision Cutting Chamber <ItemImage id="gregtech:gt.blockmachines:9508"/>
+## Nanohassas Kesim Odası <ItemImage id="gregtech:gt.blockmachines:9508"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9508" />
 </GameScene>
-The <Color id="GREEN">Nanoprecision Cutting Chamber</Color> processes bolt, frame box, memory chip, and wafer CCs. This module is required for all circuit lines.
+<Color id="GREEN">Nanohassas Kesim Odası</Color>, civata, çerçeve, bellek çipi ve yonga plakası CC'lerini işler. Bu modül tüm devre hatları için gereklidir.
 <br clear="all"/>
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9508"/><ItemImage id="gregtech:gt.blockmachines:9508"/>
 - 31 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 28 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 24 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 21 <ItemLink id="gregtech:gt.blockframes:129"/><ItemImage id="gregtech:gt.blockframes:129"/>
 - 16 <ItemLink id="gregtech:gt.blockcasings9:12"/><ItemImage id="gregtech:gt.blockcasings9:12"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
-- 1+ Input Hatch (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9501"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9502"/>
+- 1+ Giriş Kapağı (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:50"/>
 
-## Full-Board Immersion Device <ItemImage id="gregtech:gt.blockmachines:9506"/>
+## Tam Kart Daldırma Cihazı <ItemImage id="gregtech:gt.blockmachines:9506"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9506" />
 </GameScene>
-The <Color id="GREEN">Full-Board Immersion Device</Color> processes circuit board CCs by cleaning them in their corresponding immersion fluid. Recipes do not consume any of the immersion fluid but rather increase the impurity up to 100%. A higher impurity increases the power consumption of the module up to 300% until it is drained, either manually through the GUI of the controller or by triggering the auto-flush at a configured percentage level. The auto-flush must be between 1-100% so the tank eventually needs to be refilled.
+<Color id="GREEN">Tam Kart Daldırma Cihazı</Color>, devre kartı CC'lerini karşılık gelen daldırma sıvısında temizleyerek işler. Tarifler daldırma sıvısından hiç tüketmez, bunun yerine kirliliği %100'e kadar artırır. Daha yüksek kirlilik, modülün güç tüketimini, ister kontrolcünün GUI'si üzerinden manuel olarak ister yapılandırılmış bir yüzde seviyesinde otomatik tahliyeyi tetikleyerek boşaltılana kadar %300'e kadar artırır. Otomatik tahliye %1-100 arasında olmalıdır, bu yüzden tankın sonunda yeniden doldurulması gerekir.
 
-There are four immersion fluids available, but the internal tank can only hold one at a time. Supply between 500,000L and 1,000,000L of immersion fluid through a regular input hatch to get started. Excess immersion fluid is NOT consumed and having any less than the maximum increases the rate at which impurity increases, as seen in the following equation. The total item count carries over between iterations so impurity is added once every 1,000 items regardless of recipe or batch size. 
+Dört daldırma sıvısı mevcuttur, ancak dahili tank aynı anda yalnızca birini tutabilir. Başlamak için normal bir giriş kapağından 500.000L ile 1.000.000L arasında daldırma sıvısı sağla. Fazla daldırma sıvısı tüketilmez ve maksimumdan daha azına sahip olmak, aşağıdaki denklemde görüldüğü gibi kirliliğin artma hızını artırır. Toplam eşya sayısı iterasyonlar arasında devreder, böylece tarif veya parti boyutundan bağımsız olarak her 1.000 eşyada bir kirlilik eklenir. 
 <br clear="all"/>
 
 <Latex formula="+\text{Impurity}\% = \frac{10,000,000,000,000 \times \lfloor \text{Items} \div 1,000 \rfloor}{\text{Immersion Fluid}^{2.5}}"/>
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9506"/><ItemImage id="gregtech:gt.blockmachines:9506"/>
 - 52 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 27 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 19 <ItemLink id="miscutils:blockFrameGtOctiron"/><ItemImage id="miscutils:blockFrameGtOctiron"/>
 - 10 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
-- 1+ Input Hatch (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9501"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9502"/>
+- 1+ Giriş Kapağı (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:50"/>
 
-| Circuit Board   | Immersion Fluid    |
+| Devre Kartı   | Daldırma Sıvısı    |
 |--------------- | --------------- |
-| Elite (Crystal)   | Iron III Chloride   |
-| Wetware   | Growth Catalyst Medium   |
-| Bioware   | Sterilized Bio Catalyst Medium   |
-| Optical   | Prismatic Acid   |
+| Elit (Kristal)   | Demir III Klorür   |
+| Nöro   | Büyüme Katalizörü Ortamı   |
+| Biyo   | Sterilize Biyo Katalizör Ortamı   |
+| Optik   | Prizmatik Asit   |
 
 ----------
 
-| Immersion Fluid | +Impurity% | Max Lifespan |
+| Daldırma Sıvısı | +Kirlilik% | Maks. Yaşam Ömrü |
 | --------------- | --------------- | --------------- |
-| 500,000L | 0.056% per 1k | 1,786,000 Items |
-| 750,000L | 0.021% per 1k | 4,872,000 Items |
-| 1,000,000L | 0.010% per 1k | 10,000,000 Items |
+| 500.000L | 1.000 başına %0,056 | 1.786.000 Eşya |
+| 750.000L | 1.000 başına %0,021 | 4.872.000 Eşya |
+| 1.000.000L | 1.000 başına %0,010 | 10.000.000 Eşya |
 
 ----------
 
 
-| Impurity | EU/t |
+| Kirlilik | EU/t |
 | -------------- | --------------- |
-| 0-15% | 70% + (2 x Impurity%) |
-| 15-65% | 100% |
-| 65-100% | 100% + (2 x Impurity%) |
+| %0-15 | %70 + (2 x Kirlilik%) |
+| %15-65 | %100 |
+| %65-100 | %100 + (2 x Kirlilik%) |
 
-## Nanometer Encasement Wrapper <ItemImage id="gregtech:gt.blockmachines:9513"/>
+## Nanometre Kaplama Sarıcısı <ItemImage id="gregtech:gt.blockmachines:9513"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9513" />
 </GameScene>
 
-The <Color id="GREEN">Nanometer Encasement Wrapper</Color> processes sheet and framebox CCs. This module is the most difficult to filter because most recipes have multiple inputs and the outputs are often needed in multiple different locations. This module is required for all circuit lines. 
+<Color id="GREEN">Nanometre Kaplama Sarıcısı</Color> levha ve çerçeve CC'lerini işler. Bu modülü filtrelemek en zorudur çünkü çoğu tarifin birden fazla girişi vardır ve çıktılar genellikle birçok farklı yerde gereklidir. Bu modül tüm devre hatları için gereklidir. 
 <br clear="all"/>
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9513"/><ItemImage id="gregtech:gt.blockmachines:9513"/>
 - 47 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 40 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 32 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 32 <ItemLink id="gregtech:gt.blockframes:391"/><ItemImage id="gregtech:gt.blockframes:391"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9501"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
-## Superconductive Strand Splitter <ItemImage id="gregtech:gt.blockmachines:9511"/>
+## Süperiletken Tel Demeti Ayırıcı <ItemImage id="gregtech:gt.blockmachines:9511"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9511" />
 </GameScene>
-The <Color id="GREEN">Superconductive Strand Splitter</Color> processes superconductor CCs at the cost of 1,000 L/s of super coolant while active. This module is not required for the pico/quantum circuit line. 
+<Color id="GREEN">Süperiletken Tel Demeti Ayırıcı</Color>, aktifken saniyede 1.000 L süper soğutucu maliyetiyle süperiletken CC'lerini işler. Bu modül piko/kuantum devre hattı için gerekli değildir. 
 <br clear="all"/>
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9511"/><ItemImage id="gregtech:gt.blockmachines:9511"/>
 - 40 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 29 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 24 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 16 <ItemLink id="gregtech:gt.blockcasings.cyclotron_coils:8"/><ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:8"/>
 - 6 <ItemLink id="gregtech:gt.blockcasings.cyclotron_coils:7"/><ItemImage id="gregtech:gt.blockcasings.cyclotron_coils:7"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
-- 1+ Input Hatch (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9501"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9502"/>
+- 1+ Giriş Kapağı (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:50"/>
 
-## Ultra-High Energy Etching Array <ItemImage id="gregtech:gt.blockmachines:9507"/>
+## Ultra Yüksek Enerji Aşındırma Dizisi <ItemImage id="gregtech:gt.blockmachines:9507"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9507" />
 </GameScene>
-The <Color id="GREEN">Ultra-High Energy Etching Array</Color> processes crystal CCs with its own laser source hatch. In a fully calibrated crystal NAC, the power consumption of the module is divided by $$\log_4(\text{Amps})$$ of the laser source hatch and the duration of recipes are divided by $$\text{Voltage Tier} - 9$$. This module is not required for the optical or pico/quantum circuit lines. 
+<Color id="GREEN">Ultra Yüksek Enerji Aşındırma Dizisi</Color>, kristal CC'lerini kendi lazer kaynağı kapağıyla işler. Tam kalibre edilmiş bir kristal NAC'de modülün güç tüketimi lazer kaynağı kapağının $$\log_4(\text{Amps})$$ değerine bölünür ve tariflerin süresi $$\text{Voltage Tier} - 9$$ değerine bölünür. Bu modül optik veya piko/kuantum devre hatları için gerekli değildir. 
 <br clear="all"/>
 
-| Amperage   | EU/t    |
+| Amperaj   | EU/t    |
 |--------------- | --------------- |
-| 256   | 100%   |
-| 1,024   | 50.0%   |
-| 4,096   | 33.3%   |
-| 16,384   | 25.0%   |
-| 65,536   | 20.0%   |
-| 262,144   | 16.7%   |
-| 1,048,576   | 14.3%   |
-| 4,194,304   | 12.5%   |
-| 16,777,216   | 11.1%   |
+| 256   | %100   |
+| 1.024   | %50,0   |
+| 4.096   | %33,3   |
+| 16.384   | %25,0   |
+| 65.536   | %20,0   |
+| 262.144   | %16,7   |
+| 1.048.576   | %14,3   |
+| 4.194.304   | %12,5   |
+| 16.777.216   | %11,1   |
 
-| Voltage   | Duration    |
+| Voltaj   | Süre    |
 |--------------- | --------------- |
-| UEV   | 100%   |
-| UIV   | 50%   |
-| UMV   | 33%   |
-| UXV   | 25%   |
+| UEV   | %100   |
+| UIV   | %50   |
+| UMV   | %33   |
+| UXV   | %25   |
 
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9507"/><ItemImage id="gregtech:gt.blockmachines:9507"/>
 - 28 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 24 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
@@ -279,55 +279,55 @@ The <Color id="GREEN">Ultra-High Energy Etching Array</Color> processes crystal 
 - 13 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
 - 9 <ItemLink id="gtnhlanth:casing.shielded_accelerator"/><ItemImage id="gtnhlanth:casing.shielded_accelerator"/>
 - 4 <ItemLink id="gregtech:gt.blockglass1:3"/><ItemImage id="gregtech:gt.blockglass1:3"/>
-- 1 Laser Source Hatch <ItemImage id="gregtech:gt.blockmachines:15230"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
+- 1 Lazer Kaynağı Kapağı <ItemImage id="gregtech:gt.blockmachines:15230"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9501"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
-## Accelerated Biological Coordinator <ItemImage id="gregtech:gt.blockmachines:9514"/>
+## Hızlandırılmış Biyolojik Koordinatör <ItemImage id="gregtech:gt.blockmachines:9514"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9514" />
 </GameScene>
-The <Color id="GREEN">Accelerated Biological Coordinator</Color> processes living CCs. It does not consume any growth catalyst medium in a fully calibrated wetware NAC, and does not consume any sterilized bio catalyst medium in a fully calibrated bioware NAC. This module is not required for the crystal, optical, or pico/quantum circuit lines. 
+<Color id="GREEN">Hızlandırılmış Biyolojik Koordinatör</Color> canlı CC'leri işler. Tam kalibre edilmiş bir nöro NAC'de hiç büyüme katalizörü ortamı tüketmez ve tam kalibre edilmiş bir biyo NAC'de hiç sterilize biyo katalizör ortamı tüketmez. Bu modül kristal, optik veya piko/kuantum devre hatları için gerekli değildir. 
 <br clear="all"/>
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9514"/><ItemImage id="gregtech:gt.blockmachines:9514"/>
 - 37 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 36 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 36 <ItemLink id="gregtech:gt.blockframes:329"/><ItemImage id="gregtech:gt.blockframes:329"/>
 - 20 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
-- 1+ Input Hatch (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9501"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9502"/>
+- 1+ Giriş Kapağı (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:50"/>
 
-## Optically Optimized Organizer <ItemImage id="gregtech:gt.blockmachines:9512"/>
+## Optik Olarak Optimize Edilmiş Düzenleyici <ItemImage id="gregtech:gt.blockmachines:9512"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9512" />
 </GameScene>
-The <Color id="GREEN">Optically Optimized Organizer</Color> processes optical CCs by cleaning them in two types of purified water between grade 3 and grade 8, inclusive. Each purified water grants a bonus to the module, as seen in the following table. Similar effects stack multiplicatively with one another and all effects are applied twice in a fully calibrated optical NAC. This module is not required for the crystal, wetware, bioware, or pico/quantum circuit lines. 
+<Color id="GREEN">Optik Olarak Optimize Edilmiş Düzenleyici</Color>, optik CC'lerini 3. ve 8. derece dahil olmak üzere iki tür temizlenmiş suda temizleyerek işler. Her temizlenmiş su modüle bir bonus verir, aşağıdaki tabloda görüldüğü gibi. Benzer etkiler birbiriyle çarpımsal olarak yığılır ve tam kalibre edilmiş bir optik NAC'de tüm etkiler iki kez uygulanır. Bu modül kristal, nöro, biyo veya piko/kuantum devre hatları için gerekli değildir. 
 
-| Water | Cost | Bonus |
+| Su | Maliyet | Bonus |
 | --------------- | --------------- | --------------- |
-| Grade 3 | 1,000 L/s | x0.8 Water Cost |
-| Grade 4 | 800 L/s | x0.6 Water Cost |
-| Grade 5 | 800 L/s | x0.9 Duration |
-| Grade 6 | 600 L/s | x0.7 Duration |
-| Grade 7 | 600 L/s | x0.9 EU/t |
-| Grade 8 | 400 L/s | x0.7 EU/t |
+| 3. Derece | 1.000 L/s | x0,8 Su Maliyeti |
+| 4. Derece | 800 L/s | x0,6 Su Maliyeti |
+| 5. Derece | 800 L/s | x0,9 Süre |
+| 6. Derece | 600 L/s | x0,7 Süre |
+| 7. Derece | 600 L/s | x0,9 EU/t |
+| 8. Derece | 400 L/s | x0,7 EU/t |
 
-### Requires:
+### Gereksinimler:
 - 1 <ItemLink id="gregtech:gt.blockmachines:9512"/><ItemImage id="gregtech:gt.blockmachines:9512"/>
 - 55 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 49 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 48 <ItemLink id="gregtech:gt.blockframes:976"/><ItemImage id="gregtech:gt.blockframes:976"/>
 - 40 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9501"/>
-- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:9502"/>
-- 1+ Input Hatch (any base interface casing) <ItemImage id="gregtech:gt.blockmachines:50"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9501"/>
+- 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/> (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:9502"/>
+- 1+ Giriş Kapağı (herhangi bir temel arayüz kasası) <ItemImage id="gregtech:gt.blockmachines:50"/>
 ----------
-## Calibration:
-The <Color id="GREEN">NAC</Color> records every circuit crafted in the Nanochip Assembly Matrix (NAM) to track the frequency of each circuit type out of the past 100,000 circuits. The circuit history is only updated once every 1,000 circuits and replaces the oldest information first. View the current circuit history and the progress towards the next 1,000 circuits through the GUI of the controller.
+## Kalibrasyon:
+<Color id="GREEN">NAC</Color>, son 100.000 devre içinde her devre türünün sıklığını izlemek için Nanoçip Montaj Matrisinde (NAM) üretilen her devreyi kaydeder. Devre geçmişi yalnızca her 1.000 devrede bir güncellenir ve önce en eski bilgiyi değiştirir. Mevcut devre geçmişini ve sonraki 1.000 devreye doğru ilerlemeyi kontrolcünün GUI'si üzerinden görüntüle.
 
-Once enough of the same circuit type is crafted, the <Color id="GREEN">NAC</Color> is calibrated to that circuit line and gains up to three stacking bonuses, as seen in the following tables. Only one calibration can be active at a time and higher tiers have higher priority over lower ones. Every calibration tier has its own unique prefix that is added to the name of the machine inside the GUI of the controller to help identify the one that is currently active. It is recommended to build one <Color id="GREEN">NAC</Color> per circuit line to maximize the calibration bonuses. 
+Aynı devre türünden yeterince üretildiğinde, <Color id="GREEN">NAC</Color> o devre hattına kalibre edilir ve aşağıdaki tablolarda görüldüğü gibi en fazla üç yığılan bonus kazanır. Aynı anda yalnızca bir kalibrasyon aktif olabilir ve yüksek kademeler düşük olanlara göre daha yüksek önceliğe sahiptir. Her kalibrasyon kademesinin, hangisinin etkin olduğunu belirlemeye yardımcı olmak için kontrolcünün GUI'sindeki makine adına eklenen kendine özgü bir öneki vardır. Kalibrasyon bonuslarını en üst düzeye çıkarmak için her devre hattı başına bir <Color id="GREEN">NAC</Color> inşa etmen önerilir. 
 
-The specifics on calibration are very specific to each circuit type, and are too detailed to explain here, so take a look at the [NAC Wiki Page](https://wiki.gtnewhorizons.com/wiki/Nanochip_Assembly_Complex) for more information!
+Kalibrasyonun ayrıntıları her devre türüne çok özgüdür ve burada açıklanamayacak kadar detaylıdır, bu yüzden daha fazla bilgi için [NAC Wiki Sayfası](https://wiki.gtnewhorizons.com/wiki/Nanochip_Assembly_Complex) sayfasına göz at!

@@ -3,7 +3,7 @@ item_ids:
   - AWWayofTime:itemAttunedCrystal
   - AWWayofTime:itemDestinationClearer
 navigation:
-  title: Blood Magic AR Routing Improvements
+  title: Kan Büyüsü AR Yönlendirme İyileştirmeleri
   parent: magic.md
   icons: 
   - AWWayofTime:itemAttunedCrystal:0:{reagent:"orbisTerrae"}
@@ -15,16 +15,16 @@ author: koolkrafter5
 date: 2026-06-09
 ---
 
-# Blood Magic AR Routing Improvements
-The <ItemLink id="AWWayofTime:itemAttunedCrystal"/> <ItemImage id="AWWayofTime:itemAttunedCrystal"/> and <ItemLink id="AWWayofTime:itemDestinationClearer"/> <ItemImage id="AWWayofTime:itemDestinationClearer"/> have received some usability improvements in 2.9.
+# Kan Büyüsü AR Yönlendirme İyileştirmeleri
+<ItemLink id="AWWayofTime:itemAttunedCrystal"/> <ItemImage id="AWWayofTime:itemAttunedCrystal"/> ve <ItemLink id="AWWayofTime:itemDestinationClearer"/> <ItemImage id="AWWayofTime:itemDestinationClearer"/>, 2.9'da bazı kullanılabilirlik iyileştirmeleri aldı.
 
-To use the <Color id="GREEN">Alchemic Router</Color>:
-* Right-click a source of AR (such as an <ItemImage id="AWWayofTime:blockAlchemicCalcinator"/> or <ItemImage id="AWWayofTime:blockReagentConduit"/>) to save it as the current source and copy its <Color id="RED">first reagent</Color>.
-* Continue right-clicking the source to cycle through its <Color id="RED">other reagents</Color>.
-* Right-click the destination (such as a <ItemImage id="AWWayofTime:masterStone"/> or <ItemImage id="AWWayofTime:blockCrystalBelljar"/>) to create a <Color id="RED">link</Color>. The <Color id="RED">current reagent</Color> is saved for further <Color id="RED">links</Color>.
-* Sneak-right-click anywhere to <Color id="BLUE">clear</Color> the saved source.
-* Sneak-right-click again to <Color id="BLUE">clear</Color> the <Color id="RED">reagent</Color>.
+<Color id="GREEN">Simyevi Yönlendirici</Color>yi kullanmak için:
+* Bir AR kaynağına (örneğin bir <ItemImage id="AWWayofTime:blockAlchemicCalcinator"/> veya <ItemImage id="AWWayofTime:blockReagentConduit"/>) sağ tıklayarak onu geçerli kaynak olarak kaydet ve <Color id="RED">ilk reaktifini</Color> kopyala.
+* <Color id="RED">Diğer reaktifleri</Color> arasında geçiş yapmak için kaynağa sağ tıklamaya devam et.
+* Bir hedefe (örneğin bir <ItemImage id="AWWayofTime:masterStone"/> veya <ItemImage id="AWWayofTime:blockCrystalBelljar"/>) sağ tıklayarak bir <Color id="RED">bağlantı</Color> oluştur. <Color id="RED">Geçerli reaktif</Color>, sonraki <Color id="RED">bağlantılar</Color> için kaydedilir.
+* <Color id="BLUE">Temizlemek</Color> için herhangi bir yere eğilerek sağ tıkla; kaydedilen kaynak silinir.
+* <Color id="BLUE">Temizlemek</Color> için tekrar eğilerek sağ tıkla; bu sefer <Color id="RED">reaktif</Color> silinir.
 
-To use the <Color id="GREEN">Alchemic Cleanser</Color>:
-* Right-click a block to <Color id="BLUE">clear</Color> its outgoing <Color id="RED">links</Color>.
-* Sneak-right-click a block to <Color id="BLUE">clear</Color> any incoming <Color id="RED">links</Color>.
+<Color id="GREEN">Simyevi Temizleyici</Color>yi kullanmak için:
+* <Color id="BLUE">Temizlemek</Color> için bir bloğa sağ tıkla; giden <Color id="RED">bağlantılar</Color> silinir.
+* <Color id="BLUE">Temizlemek</Color> için bir bloğa eğilerek sağ tıkla; gelen <Color id="RED">bağlantılar</Color> silinir.

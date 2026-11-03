@@ -1,8 +1,8 @@
-Transfers {EU} between two wormhole generators
-Wormholes are linked by placing an {color_key:AE2 Entangled Singularity} in each controller
-The transfer rate is limited by the wormhole size, and the wormhole size is governed by the transfer rate
-If the transfer rate is completely stable, the transfer efficiency is {color_efficiency:{var:transfer_efficiency}%}
-{EU} will only be transferred if there is space in the laser source hatch
-Each laser target must have a laser source on the {color_name:other} controller, on the {color_name:opposite} side
-Consumes an {color_key:AE2 Singularity} from an input bus each time the wormhole is kick-started
-Right-click with a {color_name:Screwdriver} to disable overclocking (max {var:overclock_limit} overclocks)
+İki solucan deliği Jeneratörleri arasında {EU} aktarır
+Solucan delikleri, her kontrolcüye bir {color_key:AE2 Dolanık Tekilliği} yerleştirilerek bağlanır
+Aktarım hızı solucan deliği boyutuyla sınırlıdır ve solucan deliği boyutu da aktarım hızı tarafından belirlenir
+Aktarım hızı tamamen dengeliyse, aktarım verimliliği {color_efficiency:{var:transfer_efficiency}%} olur
+{EU} yalnızca lazer kaynak kapağında yer varsa aktarılır
+Her lazer hedefinin, {color_name:diğer} kontrolcüde, {color_name:karşı} tarafta bir lazer kaynağı olması gerekir
+Solucan deliği her başlatıldığında Giriş Yolu'ndan bir {color_key:AE2 Tekillik} tüketir
+Hız aşırtmayı devre dışı bırakmak için {color_name:Tornavida} ile sağ tıkla (en fazla {var:overclock_limit} hız aşırtma)

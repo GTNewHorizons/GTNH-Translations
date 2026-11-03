@@ -4,7 +4,7 @@ item_ids:
 quest_ids:
   - QfQHCy0PRn-rABmKuvwQfw==
 navigation:
-  title: Synchrotron
+  title: Senkrotron
   parent: ./beam_line.md
   icon: gregtech:gt.blockmachines:10507
   position: -7001

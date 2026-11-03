@@ -12,9 +12,7 @@ chat.warptheory.minorwarp=반응이 없습니다
 chat.warptheory.averagewarp=종이가 칙칙한 색깔로 변했습니다
 chat.warptheory.majorwarp=종이가 가루로 바스라졌습니다
 chat.warptheory.deadlywarp=종이에 불이 붙었습니다
-chat.warptheory.permanentwarp=영구적인 뒤틀림
-chat.warptheory.normalwarp=일반 뒤틀림
-chat.warptheory.tempwarp=일시적인 뒤틀림
+chat.warptheory.warpcounts=(%s Permanent Warp, %s Normal Warp, %s Temporary Warp)
 chat.warptheory.potionwarning.1=§c§l§nWARNING§r§c: drinking this potion will reset §lALL warp, research, scanned items, and discovered aspects§r§c!
 chat.warptheory.potionwarning.2=§cContinue drinking for §l10 seconds§r§c if you are absolutely certain you want to reset everything.
 
@@ -141,6 +139,15 @@ chat.warptheory.pumpkin=You feel spooky...
 chat.warptheory.biomeSnow=Your breath condenses in the frigid air...
 chat.warptheory.wanddrain=Your wand feels a bit warm...
 chat.warptheory.witherpotion=You feel absolutely terrible...
+
+# << /warptheory command >>
+commands.warptheory.usage=/warptheory <event> [player]
+commands.warptheory.events=Invalid Syntax, available events are: %s
+commands.warptheory.additional=Additional commands: print purge
+commands.warptheory.noeffects=No active warp effects!
+commands.warptheory.purged=Purged %s!
+commands.warptheory.notfound=Could not find warp event: %s
+commands.warptheory.triggered=Triggered warp event: %s
 
 # << Research stuff >>
 tc.research_category.WT_Category=뒤틀림 이론

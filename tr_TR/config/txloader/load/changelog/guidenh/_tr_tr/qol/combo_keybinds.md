@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Combo Keybinds
+  title: Kombinasyon Tuş Atamaları
   parent: qol.md
   icon: OpenComputers:keyboard
 categories:
@@ -9,17 +9,17 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Combo Keybinds
-Do you like to have every keybind set at once, but hate having to rely on strange buttons such as NUMPAD=? Do you have a smaller factor keyboard and just don't have enough keys to keep up with all the new options?
+# Kombinasyon Tuş Atamaları
+Tüm tuş atamalarının aynı anda ayarlı olmasını seviyor ama NUMPAD= gibi tuhaf tuşlara bel bağlamaktan nefret mi ediyorsun? Daha küçük bir klavyen mi var ve tüm yeni seçeneklere yetişecek kadar tuşun yok mu?
 
-Now this is a thing of the past, as we have combination keybinds! This massively increases the amount of __reasonable__ keybinds you can have at once!
+Artık bunlar geçmişte kaldı, çünkü kombinasyon tuş atamalarımız var! Bu, aynı anda sahip olabileceğin __makul__ tuş ataması sayısını büyük ölçüde artırır!
 
 <FloatingImage src="../assets/qol/combo_keys.png" wrap="square" displayWidth="256" align="left">
   <ImageAnnotation>
-    An example of some combo keybinds!
+    Bazı kombinasyon tuş atamalarına bir örnek!
   </ImageAnnotation>
 </FloatingImage>
 <br clear="all"/>
 
 > [!NOTE]
-> Combo Keybinds do not work in interfaces. This is a limitation due to the order of handling within GUIs themselves and is unfortunately unavoidable
+> Kombinasyon tuş atamaları arayüzlerde çalışmaz. Bu, GUI'lerin kendi içindeki işleme sırasından kaynaklanan bir sınırlamadır ve ne yazık ki kaçınılmazdır

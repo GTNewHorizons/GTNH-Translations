@@ -6,7 +6,7 @@ tc.research_category.EMT=Elektro-Büyülü Aletler
 
 #=============GUI=============
 gui.EMT.config.title=Elektro-Büyülü Aletler Yapılandırması
-gui.EMT.etherealMacerator.title=Ethereal Processor
+gui.EMT.etherealMacerator.title=Eterik İşlemci
 gui.EMT.wandRecharge.title=Endüstriyel Asa Şarj İstasyonu
 gui.EMT.inventory=Envanter
 gui.EMT.book.aspect.output.eu.title=Esans Çıktıları Kitabı
@@ -87,7 +87,7 @@ item.EMT.wing.feather.name=Tüylü Koli Bantlanmış Kanatlar
 item.EMT.wing.thaumium.name=Thaumium Güçlendirmeli Kanatlar
 item.EMT.wing.nano.name=Nanozırh Kanatları
 item.EMT.wing.quantum.name=Kuantum Kanatları
-ic2.EMT.quantum.name=Infused Quantum Chestplate
+ic2.EMT.quantum.name=Yüklü Kuantum Göğüslük
 item.EMT.chestplates.infusedQuantum.name=Yüklü Kuantum Göğüslük
 item.EMT.hammer.broken.name=Kırık Mjölnir Yadigarı
 item.EMT.hammer.name=Mjölnir
@@ -109,30 +109,30 @@ item.EMT.focus.chargeWand.name=Asa Odağı: Asa Şarjı
 item.EMT.focus.maintenance.name=Asa Odağı: Bakım
 item.EMT.focus.electricCloud.name=Elektrikli Bulut
 item.EMT.focus.energyBall.name=Enerji Topu Odağı
-item.EMT.focus.EU.cost.info=EU per cast
-item.EMT.focus.EU.cost.once= §r%s §eEU§0
-item.EMT.focus.EU.cost.tick= §r%s §eEU/t§0
+item.EMT.focus.EU.cost.info=Büyü Başına EU
+item.EMT.focus.EU.cost.once=§r%s §eEU§0
+item.EMT.focus.EU.cost.tick=§r%s §eEU/t§0
 
 #=============Block Names=============
 tile.EMT.electricCloud.name=Elektrikli Bulut
 tile.EMT.shield.name=Kalkan Bloğu
 tile.EMT.portablenode.name=Taşınabilir Node
-tile.EMT.essentia.name=Essentia Generator
+tile.EMT.essentia.name=Esans Jeneratörü
 tile.EMT.essentia.potentia.name=Potentia Jeneratörü
 tile.EMT.essentia.ignis.name=İgnis Jeneratörü
 tile.EMT.essentia.auram.name=Auram Jeneratörü
 tile.EMT.essentia.arbor.name=Arbor Jeneratörü
 tile.EMT.essentia.aer.name=Aer Jeneratörü
 tile.EMT.essentia.lucrum.name=Lucrum Jeneratörü
-tile.EMT.machine.name=Machine
+tile.EMT.machine.name=Makine
 tile.EMT.machine.wandrecharge.name=Endüstriyel Asa Şarj İstasyonu
-tile.EMT.machine.etheralprocessor.name=Ethereal Processor
+tile.EMT.machine.etheralprocessor.name=Eterik İşlemci
 tile.EMT.machine.essentiafiller.name=Esans Filtresi - Eski olarak işaretlendi
-tile.EMT.solar.name=Compressed Solar Panel
-tile.EMT.solar2.name=Double Compressed Aer Solar
-tile.EMT.solar3.name=Quadruple Compressed Solar
-tile.EMT.solar4.name=Sextuple Compressed Perditio Solar
-tile.EMT.solar5.name=Octuple Compressed Terra Solar
+tile.EMT.solar.name=Sıkıştırılmış Güneş Paneli
+tile.EMT.solar2.name=Çifte Sıkıştırılmış Aer Güneş Paneli
+tile.EMT.solar3.name=Dört Misli Sıkıştırılmış Güneş Paneli
+tile.EMT.solar4.name=Altı Misli Sıkıştırılmış Perditio Güneş Paneli
+tile.EMT.solar5.name=Sekiz Misli Sıkıştırılmış Terra Güneş Paneli
 tile.EMT.solar.compressed.name=Sıkıştırılmış Güneş Paneli
 tile.EMT.solar.doublecompressed.name=Çifte Sıkıştırılmış Güneş Paneli
 tile.EMT.solar.triplecompressed.name=Üç Misli Sıkıştırılmış Güneş Paneli
@@ -146,286 +146,286 @@ tile.EMT.solar.doublewater.name=Su Yüklü Çifte Sıkıştırılmış Güneş P
 tile.EMT.solar.triplewater.name=Su Yüklü Üç Misli Sıkıştırılmış Güneş Paneli
 tile.EMT.Quadruple_Compressed_Aqua_Solar.name=Dört Misli Sıkıştırılmış Aqua Güneş Paneli
 tile.EMT.Quintuple_Compressed_Aqua_Solar.name=Beş Misli Sıkıştırılmış Aqua Güneş Paneli
-tile.EMT.Sextuple_Compressed_Aqua_Solar.name=Sextuple Compressed Aqua Solar
-tile.EMT.Septuple_Compressed_Aqua_Solar.name=Septuple Compressed Aqua Solar
-tile.EMT.Octuple_Compressed_Aqua_Solar.name=Octuple Compressed Aqua Solar
-tile.EMT.solar.dark.name=Entropy Infused Compressed Solar Panel
-tile.EMT.solar.doubledark.name=Entropy Double Infused Compressed Solar Panel
-tile.EMT.solar.tripledark.name=Entropy Triple Infused Compressed Solar Panel
-tile.EMT.Quadruple_Compressed_Perditio_Solar.name=Quadruple Compressed Perditio Solar
-tile.EMT.Quintuple_Compressed_Perditio_Solar.name=Quintuple Compressed Perditio Solar
-tile.EMT.Sextuple_Compressed_Perditio_Solar.name=Sextuple Compressed Perditio Solar
-tile.EMT.Septuple_Compressed_Perditio_Solar.name=Septuple Compressed Perditio Solar
-tile.EMT.Octuple_Compressed_Perditio_Solar.name=Octuple Compressed Perditio Solar
-tile.EMT.solar.order.name=Order Infused Compressed Solar Panel
-tile.EMT.solar.doubleorder.name=Order Infused Double Compressed Solar Panel
-tile.EMT.solar.tripleorder.name=Order Infused Triple Compressed Solar Panel
-tile.EMT.Quadruple_Compressed_Ordo_Solar.name=Quadruple Compressed Ordo Solar
-tile.EMT.Quintuple_Compressed_Ordo_Solar.name=Quintuple Compressed Ordo Solar
-tile.EMT.Sextuple_Compressed_Ordo_Solar.name=Sextuple Compressed Ordo Solar
-tile.EMT.Septuple_Compressed_Ordo_Solar.name=Septuple Compressed Ordo Solar
-tile.EMT.Octuple_Compressed_Ordo_Solar.name=Octuple Compressed Ordo Solar
-tile.EMT.solar.fire.name=Fire Infused Compressed Solar Panel
-tile.EMT.solar.doublefire.name=Fire Infused Double Compressed Solar Panel
-tile.EMT.solar.triplefire.name=Fire Infused Triple Compressed Solar Panel
-tile.EMT.Quadruple_Compressed_Ignis_Solar.name=Quadruple Compressed Ignis Solar
-tile.EMT.Quintuple_Compressed_Ignis_Solar.name=Quintuple Compressed Ignis Solar
-tile.EMT.Sextuple_Compressed_Ignis_Solar.name=Sextuple Compressed Ignis Solar
-tile.EMT.Septuple_Compressed_Ignis_Solar.name=Septuple Compressed Ignis Solar
-tile.EMT.Octuple_Compressed_Ignis_Solar.name=Octuple Compressed Ignis Solar
-tile.EMT.solar.air.name=Air Infused Compressed Solar Panel
-tile.EMT.solar2.doubleair.name=Air Infused Double Compressed Solar Panel
-tile.EMT.solar2.tripleair.name=Air Infused Triple Compressed Solar Panel
-tile.EMT.Quadruple_Compressed_Aer_Solar.name=Quadruple Compressed Aer Solar
-tile.EMT.Quintuple_Compressed_Aer_Solar.name=Quintuple Compressed Aer Solar
-tile.EMT.Sextuple_Compressed_Aer_Solar.name=Sextuple Compressed Aer Solar
-tile.EMT.Septuple_Compressed_Aer_Solar.name=Septuple Compressed Aer Solar
-tile.EMT.Octuple_Compressed_Aer_Solar.name=Octuple Compressed Aer Solar
-tile.EMT.solar2.earth.name=Earth Infused Compressed Solar Panel
-tile.EMT.solar2.doubleearth.name=Earth Infused Double Compressed Solar Panel
-tile.EMT.solar2.tripleearth.name=Earth Infused Triple Compressed Solar Panel
-tile.EMT.Quadruple_Compressed_Terra_Solar.name=Quadruple Compressed Terra Solar
-tile.EMT.Quintuple_Compressed_Terra_Solar.name=Quintuple Compressed Terra Solar
-tile.EMT.Sextuple_Compressed_Terra_Solar.name=Sextuple Compressed Terra Solar
-tile.EMT.Septuple_Compressed_Terra_Solar.name=Septuple Compressed Terra Solar
-tile.EMT.Octuple_Compressed_Terra_Solar.name=Octuple Compressed Terra Solar
+tile.EMT.Sextuple_Compressed_Aqua_Solar.name=Altı Misli Sıkıştırılmış Aqua Güneş Paneli
+tile.EMT.Septuple_Compressed_Aqua_Solar.name=Yedi Misli Sıkıştırılmış Aqua Güneş Paneli
+tile.EMT.Octuple_Compressed_Aqua_Solar.name=Sekiz Misli Sıkıştırılmış Aqua Güneş Paneli
+tile.EMT.solar.dark.name=Entropi Yüklü Sıkıştırılmış Güneş Paneli
+tile.EMT.solar.doubledark.name=Entropi Yüklü Çifte Sıkıştırılmış Güneş Paneli
+tile.EMT.solar.tripledark.name=Entropi Yüklü Üç Misli Sıkıştırılmış Güneş Paneli
+tile.EMT.Quadruple_Compressed_Perditio_Solar.name=Dört Misli Sıkıştırılmış Perditio Güneş Paneli
+tile.EMT.Quintuple_Compressed_Perditio_Solar.name=Beş Misli Sıkıştırılmış Perditio Güneş Paneli
+tile.EMT.Sextuple_Compressed_Perditio_Solar.name=Altı Misli Sıkıştırılmış Perditio Güneş Paneli
+tile.EMT.Septuple_Compressed_Perditio_Solar.name=Yedi Misli Sıkıştırılmış Perditio Güneş Paneli
+tile.EMT.Octuple_Compressed_Perditio_Solar.name=Sekiz Misli Sıkıştırılmış Perditio Güneş Paneli
+tile.EMT.solar.order.name=Düzen Yüklü Sıkıştırılmış Güneş Paneli
+tile.EMT.solar.doubleorder.name=Düzen Yüklü Çifte Sıkıştırılmış Güneş Paneli
+tile.EMT.solar.tripleorder.name=Düzen Yüklü Üç Misli Sıkıştırılmış Güneş Paneli
+tile.EMT.Quadruple_Compressed_Ordo_Solar.name=Dört Misli Sıkıştırılmış Ordo Güneş Paneli
+tile.EMT.Quintuple_Compressed_Ordo_Solar.name=Beş Misli Sıkıştırılmış Ordo Güneş Paneli
+tile.EMT.Sextuple_Compressed_Ordo_Solar.name=Altı Misli Sıkıştırılmış Ordo Güneş Paneli
+tile.EMT.Septuple_Compressed_Ordo_Solar.name=Yedi Misli Sıkıştırılmış Ordo Güneş Paneli
+tile.EMT.Octuple_Compressed_Ordo_Solar.name=Sekiz Misli Sıkıştırılmış Ordo Güneş Paneli
+tile.EMT.solar.fire.name=Ateş Yüklü Sıkıştırılmış Güneş Paneli
+tile.EMT.solar.doublefire.name=Ateş Yüklü Çifte Sıkıştırılmış Güneş Paneli
+tile.EMT.solar.triplefire.name=Ateş Yüklü Üç Misli Sıkıştırılmış Güneş Paneli
+tile.EMT.Quadruple_Compressed_Ignis_Solar.name=Dört Misli Sıkıştırılmış Ignis Güneş Paneli
+tile.EMT.Quintuple_Compressed_Ignis_Solar.name=Beş Misli Sıkıştırılmış Ignis Güneş Paneli
+tile.EMT.Sextuple_Compressed_Ignis_Solar.name=Altı Misli Sıkıştırılmış Ignis Güneş Paneli
+tile.EMT.Septuple_Compressed_Ignis_Solar.name=Yedi Misli Sıkıştırılmış Ignis Güneş Paneli
+tile.EMT.Octuple_Compressed_Ignis_Solar.name=Sekiz Misli Sıkıştırılmış Ignis Güneş Paneli
+tile.EMT.solar.air.name=Hava Yüklü Sıkıştırılmış Güneş Paneli
+tile.EMT.solar2.doubleair.name=Hava Yüklü Çifte Sıkıştırılmış Güneş Paneli
+tile.EMT.solar2.tripleair.name=Hava Yüklü Üç Misli Sıkıştırılmış Güneş Paneli
+tile.EMT.Quadruple_Compressed_Aer_Solar.name=Dört Misli Sıkıştırılmış Aer Güneş Paneli
+tile.EMT.Quintuple_Compressed_Aer_Solar.name=Beş Misli Sıkıştırılmış Aer Güneş Paneli
+tile.EMT.Sextuple_Compressed_Aer_Solar.name=Altı Misli Sıkıştırılmış Aer Güneş Paneli
+tile.EMT.Septuple_Compressed_Aer_Solar.name=Yedi Misli Sıkıştırılmış Aer Güneş Paneli
+tile.EMT.Octuple_Compressed_Aer_Solar.name=Sekiz Misli Sıkıştırılmış Aer Güneş Paneli
+tile.EMT.solar2.earth.name=Toprak Yüklü Sıkıştırılmış Güneş Paneli
+tile.EMT.solar2.doubleearth.name=Toprak Yüklü Çifte Sıkıştırılmış Güneş Paneli
+tile.EMT.solar2.tripleearth.name=Toprak Yüklü Üç Misli Sıkıştırılmış Güneş Paneli
+tile.EMT.Quadruple_Compressed_Terra_Solar.name=Dört Misli Sıkıştırılmış Terra Güneş Paneli
+tile.EMT.Quintuple_Compressed_Terra_Solar.name=Beş Misli Sıkıştırılmış Terra Güneş Paneli
+tile.EMT.Sextuple_Compressed_Terra_Solar.name=Altı Misli Sıkıştırılmış Terra Güneş Paneli
+tile.EMT.Septuple_Compressed_Terra_Solar.name=Yedi Misli Sıkıştırılmış Terra Güneş Paneli
+tile.EMT.Octuple_Compressed_Terra_Solar.name=Sekiz Misli Sıkıştırılmış Terra Güneş Paneli
 
 #=============Thaumonomicon Texts=============
-emt.rsname.Electric Magic Tools=Electric Magic Tools
-emt.tag.Electric Magic Tools=Who says magic and technology can't go together?
-emt.text.Electric Magic Tools=Who says magic can't work with technology? Our researchers have collaborated with the top mages of the school of Thaumaturgy to bring you the effectiveness of magic coupled with the convenience of electric tools.
+emt.rsname.Electric Magic Tools=Elektro-Büyülü Aletler
+emt.tag.Electric Magic Tools=Büyü ile teknolojinin bir araya gelemeyeceğini kim söylüyor?
+emt.text.Electric Magic Tools=Büyünün teknolojiyle çalışamayacağını kim söylüyor? Araştırmacılarımız, büyünün etkinliğini elektrikli aletlerin rahatlığıyla birleştirmek için Thaumatürji ekolünün en iyi büyücüleriyle iş birliği yaptı.
 
-emt.rsname.Energy Ball Focus=Energy Ball Focus
-emt.tag.Energy Ball Focus=Not a toy
-emt.text.Energy Ball Focus=It's necessary to put on the BatPack or nano/quant chestplate for using this focus. You need 5120EU to create one ball. It's not recommended for using in a closed space!
+emt.rsname.Energy Ball Focus=Enerji Topu Odağı
+emt.tag.Energy Ball Focus=Oyuncak değil
+emt.text.Energy Ball Focus=Bu odağı kullanmak için BatPack ya da nano/kuantum göğüslük takman gerekir. Bir top oluşturmak için 5120EU gereklidir. Kapalı bir alanda kullanılması önerilmez!
 
-emt.rsname.Electric Cloud=Electric Cloud
-emt.tag.Electric Cloud=Still the same Nitor
-emt.text.Electric Cloud.1=All thaumaturges (except Crimson ones, I guess) enjoy the shine and heat of the magic flame called Nitor, aren't they? You decided to make it more... energetic. Well, you did it.<BR><BR>You have created a new kind of magic flame — the Electric Cloud. It behaves and looks like normal Nitor, but it has purple color and creates light-purple lightning charges around itself. For electrolizing need to click RMB on Nitor with advanced battery(or better) on hand.
+emt.rsname.Electric Cloud=Elektrikli Bulut
+emt.tag.Electric Cloud=Hâlâ aynı Nitor
+emt.text.Electric Cloud.1=Bütün thaumaturjistler (sanırım Kızıl olanlar hariç) Nitor denen büyülü alevin parıltısından ve ısısından hoşlanır, değil mi? Sen onu daha... enerjik yapmaya karar verdin. Eh, başardın.<BR><BR>Yeni bir büyülü alev türü yarattın — Elektrikli Bulut. Normal Nitor gibi davranır ve görünür, ama mor renktedir ve çevresinde açık mor yıldırım yükleri oluşturur. Elektroliz için elinde gelişmiş pil (veya daha iyisi) varken Nitor'a sağ tıklaman gerekir.
 emt.text.Electric Cloud.2=<IMG>emt:textures/researches/electric_cloud.png:0:0:255:255:0.6</IMG>
 
-emt.rsname.Thaumium Drill=Thaumium Drill
-emt.tag.Thaumium Drill=Magical mining
-emt.text.Thaumium Drill=You have discovered a way to infuse Thaumium with mundane electricity. Fusing Thaumium to a Diamond Drill results in a tool that can dig through stone faster and has a higher capacity.<BR><BR>While Thaumium is a very useful and powerful material, it is nowhere near the strength of Iridium. It is considered a mid-tier tool. <BR><BR>This tool may not be the most powerful, but you have a feeling that you will be able to upgrade it in the near future.
+emt.rsname.Thaumium Drill=Thaumium Matkap
+emt.tag.Thaumium Drill=Büyülü madencilik
+emt.text.Thaumium Drill=Thaumium'u sıradan elektrikle yüklemenin bir yolunu keşfettin. Thaumium'u Elmas Matkaba kaynaştırmak, taşı daha hızlı delebilen ve daha yüksek kapasiteye sahip bir alet ortaya çıkarır.<BR><BR>Thaumium çok kullanışlı ve güçlü bir malzeme olsa da, İridyumun gücüne yakın bile değildir. Orta kademe bir alet olarak kabul edilir. <BR><BR>Bu alet belki en güçlüsü değil, ama yakın gelecekte onu geliştirebileceğine dair bir hissin var.
 
-emt.rsname.Thaumium Chainsaw=Thaumium Chainsaw
-emt.tag.Thaumium Chainsaw=Felling trees and severing heads with a touch of magic
-emt.text.Thaumium Chainsaw=You have found a way to fuse Thaumium to a Diamond Chainsaw, allowing it to fell trees quicker and hold more power. Nevertheless, these ameliorations do not come without drawbacks: during the process of fusing these materials, the chainsaw loses its ability to shear foliage, tall grass, and animals.<BR><BR>You have an intuition you will be able to upgrade this tool in the near future.
+emt.rsname.Thaumium Chainsaw=Thaumium Zincirli Testere
+emt.tag.Thaumium Chainsaw=Bir tutam büyüyle ağaç devirmek ve kafa kesmek
+emt.text.Thaumium Chainsaw=Thaumium'u Elmas Zincirli Testereye kaynaştırmanın bir yolunu buldun; bu sayede ağaçları daha hızlı deviriyor ve daha fazla güç depoluyor. Ancak bu iyileştirmeler bedelsiz değil: bu malzemeleri kaynaştırma sürecinde testere, yaprakları, uzun otları ve hayvanları kesme yeteneğini kaybediyor.<BR><BR>Bu aleti yakın gelecekte geliştirebileceğine dair bir sezgin var.
 
-emt.rsname.Electric Goggles=Electric Goggles
-emt.tag.Electric Goggles=The best of both worlds
-emt.text.Electric Goggles=You have found a way to detect auras using purely electronic means, no longer requiring mystical energy that can be depleted over time. You can now create a pair of Goggles of Revealing that can be recharged with EU while being able to see Aura Nodes just as you could before. A diamond helmet is required to house the sensitive vis sensing circuitry and prevent it from being damaged, which also has the added benefit of providing extra protection.
+emt.rsname.Electric Goggles=Elektrikli Gözlük
+emt.tag.Electric Goggles=İki dünyanın en iyisi
+emt.text.Electric Goggles=Auraları tamamen elektronik yollarla tespit etmenin bir yolunu buldun; artık zamanla tükenebilen mistik enerjiye ihtiyaç yok. Artık EU ile şarj edilebilen ve önceden olduğu gibi Aura Düğümlerini görmeni sağlayan bir Hakikat Gözlüğü yapabilirsin. Hassas vis algılama devresini barındırmak ve hasar görmesini önlemek için elmas bir kask gerekiyor; bu aynı zamanda ekstra koruma sağlama avantajını da beraberinde getiriyor.
 
-emt.rsname.Nanosuit Goggles of Revealing=Nanosuit Goggles of Revealing
-emt.tag.Nanosuit Goggles of Revealing=Top-tier eye protection
-emt.text.Nanosuit Goggles of Revealing=You have discovered a way to incorporate your previous vis sensors to a Nanosuit Helmet without moving too much around. By infusing the nano helmet with magic, you will be able to use it to see Aura Nodes. During the magical process, the control circuits for the night vision feature are replaced with capacitors to absorb the excess magical energy and vis-sensing microchips.
+emt.rsname.Nanosuit Goggles of Revealing=Nanozırh Hakikat Gözlüğü
+emt.tag.Nanosuit Goggles of Revealing=Üst kademe göz koruması
+emt.text.Nanosuit Goggles of Revealing=Önceki vis sensörlerini fazla yer değiştirmeden Nanozırh Kaskına yerleştirmenin bir yolunu keşfettin. Nano kaskı büyüyle yükleyerek onu Aura Düğümlerini görmek için kullanabileceksin. Büyülü süreç sırasında gece görüşü özelliğinin kontrol devreleri, fazla büyülü enerjiyi emen kapasitörler ve vis algılayan mikroçiplerle değiştirilir.
 
-emt.rsname.Quantum Goggles of Revealing=Quantum Goggles of Revealing
-emt.tag.Quantum Goggles of Revealing=Protection coupled with utility
-emt.text.Quantum Goggles of Revealing=It took a lot of trial and error, but you have found a way to slip in vis detection sensors to a Quantum Helmet. By infusing the quantum helmet with magic, you will be able to use it to see Aura Nodes. During the design process, you had to replace several control circuits that involve night vision and automatic feeding with vis detecting circuitry and capacitors to absorb the excess magical energy. You find that using a Mining Laser to contain it can safely focus and direct the explosive pulse where the vision effect and the feeding unit of the helmet lie. Have fun getting force-fed energy.
+emt.rsname.Quantum Goggles of Revealing=Kuantum Hakikat Gözlüğü
+emt.tag.Quantum Goggles of Revealing=Koruma ve kullanışlılık bir arada
+emt.text.Quantum Goggles of Revealing=Çok deneme yanılma gerekti ama Kuantum Kaska vis algılama sensörlerini gizlice yerleştirmenin bir yolunu buldun. Kuantum kaskı büyüyle yükleyerek onu Aura Düğümlerini görmek için kullanabileceksin. Tasarım sürecinde gece görüşü ve otomatik beslemeyle ilgili birkaç kontrol devresini vis algılama devreleri ve fazla büyülü enerjiyi emen kapasitörlerle değiştirmen gerekti. Patlayıcı atımı güvenle odaklamak ve görüş etkisi ile kaskın besleme ünitesinin bulunduğu yere yönlendirmek için bir Madencilik Lazeriyle onu sınırlayabildiğini keşfediyorsun. Zorla enerji verilmesiyle iyi eğlenceler.
 
-emt.rsname.Iron Omnitool=Iron Omnitool
-emt.tag.Iron Omnitool=Changing tools is for peasants
-emt.text.Iron Omnitool=While tinkering with the inner workings of some of your tools to see if magical integration is a possibility, you have discovered a way to combine the Mining Drill and the Chainsaw, resulting in a tool capable of both mining, cutting down trees and attacking enemies! As you are working with mundane metals, magic influence is not needed to merge these tools together.
+emt.rsname.Iron Omnitool=Demir Omnialet
+emt.tag.Iron Omnitool=Alet değiştirmek köylü işi
+emt.text.Iron Omnitool=Bazı aletlerinin iç işleyişini kurcalayıp büyülü entegrasyonun mümkün olup olmadığını araştırırken, Madencilik Matkabı ile Zincirli Testereyi birleştirmenin bir yolunu keşfettin! Ortaya hem kazabilen, hem ağaç kesebilen hem de düşmanlara saldırabilen bir alet çıktı. Sıradan metallerle çalıştığın için bu aletleri birleştirmek üzere büyü etkisine gerek yok.
 
-emt.rsname.Diamond Omnitool=Diamond Omnitool
-emt.tag.Diamond Omnitool=Jack of all trades
-emt.text.Diamond Omnitool=Your discovery of an Iron Omnitool has driven you to try to accomplish the same with some more powerful devices. You have discovered a way to combine the Diamond Drill and the Diamond Chainsaw, resulting in a tool capable of both mining, cutting down trees and attacking enemies, while maintaining the speed and capacity bonuses of the diamond tools. As diamonds are incredibly tough and nearly impossible to reshape once the raw diamonds have been fashioned into tools such as drills and chainsaws, you will require a little bit of magic to coax them to merge.
+emt.rsname.Diamond Omnitool=Elmas Omnialet
+emt.tag.Diamond Omnitool=On parmağında on marifet
+emt.text.Diamond Omnitool=Demir Omnialet keşfin, aynı şeyi daha güçlü cihazlarla yapmayı denemeye itti seni. Elmas Matkap ile Elmas Zincirli Testereyi birleştirmenin bir yolunu keşfettin; ortaya elmas aletlerin hız ve kapasite bonuslarını koruyan, hem kazabilen, hem ağaç kesebilen hem de düşmanlara saldırabilen bir alet çıktı. Elmas son derece serttir ve ham elmaslar matkap, zincirli testere gibi aletlere dönüştürüldükten sonra yeniden şekillendirilmeleri neredeyse imkânsızdır; bu yüzden onları birleşmeye ikna etmek için biraz büyü gerekecek.
 
-emt.rsname.Thaumium Omnitool=Thaumium Omnitool
-emt.tag.Thaumium Omnitool=Mystical multitool
-emt.text.Thaumium Omnitool=After creating the Diamond and Iron Omnitools, the next logical step was to do the same with Thaumium. Unfortunately, this isn't as easy. You have discovered a way to combine the Thaumium Drill and the Thaumium Chainsaw, resulting in a tool capable of mining and chopping trees at great speed with a high energy capacity. These tools have already once been infused with magic. You are not sure what will happen if they were to be infused again.
+emt.rsname.Thaumium Omnitool=Thaumium Omnialet
+emt.tag.Thaumium Omnitool=Mistik çok amaçlı alet
+emt.text.Thaumium Omnitool=Elmas ve Demir Omnialetleri yaptıktan sonra, sıradaki mantıklı adım aynısını Thaumium ile yapmaktı. Ne yazık ki bu o kadar kolay değil. Thaumium Matkap ile Thaumium Zincirli Testereyi birleştirmenin bir yolunu keşfettin; ortaya yüksek enerji kapasitesiyle büyük hızda kazabilen ve ağaç kesebilen bir alet çıktı. Bu aletler zaten bir kez büyüyle yüklenmişti. Yeniden yüklenirlerse ne olacağından emin değilsin.
 
-emt.rsname.Explosion Focus=Explosion Focus
-emt.tag.Explosion Focus=Use only in well-ventilated areas
-emt.text.Explosion Focus=You have found a way to improve the Nine Hells focus. By exposing the bats to the explosive properties of a Mining Laser, you have built a focus that acts similarly to the Laser but uses vis instead of EU. However, its effects are incredibly unstable, so you make a note to be careful.
+emt.rsname.Explosion Focus=Patlama Odağı
+emt.tag.Explosion Focus=Yalnızca iyi havalandırılan alanlarda kullan
+emt.text.Explosion Focus=Dokuz Cehennem odağını geliştirmenin bir yolunu buldun. Yarasaları bir Madencilik Lazeri'nin patlayıcı özelliklerine maruz bırakarak, lazer gibi çalışan ama EU yerine vis kullanan bir odak yaptın. Ancak etkileri inanılmaz derecede dengesiz, bu yüzden dikkatli olman gerektiğini aklına yazıyorsun.
 
-emt.rsname.Kris-tmas Focus=Kris-tmas Focus
+emt.rsname.Kris-tmas Focus=Kris-tmas Odağı
 emt.tag.Kris-tmas Focus=Ho! Ho! Ho!
-emt.text.Kris-tmas Focus=Merry Christmas!<BR><BR>You have found a novel use for the frost focus. By exposing it to the magic of Christmas, you can summon your snowy friends at will to fire snowballs at your Festivus celebrating neighbours!
+emt.text.Kris-tmas Focus=Mutlu Noeller!<BR><BR>Buz odağı için yepyeni bir kullanım buldun. Onu Noel büyüsüne maruz bırakarak, karlı dostlarını istediğin zaman çağırıp Festivus kutlayan komşularına kartopu attırabilirsin!
 
-emt.rsname.Shield Focus=Shield Focus
+emt.rsname.Shield Focus=Kalkan Odağı
 emt.tag.Shield Focus=S.H.I.E.L.D.
-emt.text.Shield Focus=With some experimentation with the Portable Hole, you have found out more about the transportation of objects to alternate dimensions. You believe you can reverse these effects to summon a swath of blocks from a dimension full of matter to shield you from any oncoming disaster. Caution is to be taken when using this focus, as when bringing these blocks into our dimension, it will transpose any blocks in the way into the dimension it came from, never to return again. You will also be unable to move while this shield is in existence.
+emt.text.Shield Focus=Taşınabilir Delik ile biraz deney yaparak nesnelerin alternatif boyutlara taşınması hakkında daha fazla şey öğrendin. Bu etkileri tersine çevirerek, madde dolu bir boyuttan gelen bir blok şeridini yaklaşan herhangi bir felakete karşı kalkan olarak çağırabileceğine inanıyorsun. Bu odağı kullanırken dikkatli olmak gerekiyor; çünkü bu blokları bizim boyutumuza getirirken yolda olan her blok, geldiği boyuta aktarılacak ve bir daha geri dönmeyecek. Ayrıca bu kalkan var olduğu sürece hareket edemeyeceksin.
 
-emt.rsname.Wand Focus: Maintenance=Thaumic Maintenance
-emt.tag.Wand Focus: Maintenance=Who needs a toolbox when you have magic?
-emt.text.Wand Focus: Maintenance=After intense study of the supposedly mechanical nature of your apparati, you've finally done it, you've discovered a method allowing the use of vis in repair. <BR> What are a few exploded cleanrooms in the face of sheer progress? Now you can get rid of those dastardly mundane tools...
+emt.rsname.Wand Focus: Maintenance=Thaumik Bakım
+emt.tag.Wand Focus: Maintenance=Büyün varken kimin alet çantasına ihtiyacı var?
+emt.text.Wand Focus: Maintenance=Cihazlarının sözde mekanik doğası üzerine yoğun bir çalışmadan sonra nihayet başardın; onarımda vis kullanmayı sağlayan bir yöntem keşfettin. <BR> Koskoca ilerlemenin karşısında birkaç patlamış temiz oda ne ki? Artık o lanet sıradan aletlerden kurtulabilirsin...
 
-emt.rsname.Potentia Generator=Potentia Generator
-emt.tag.Potentia Generator=Harnessing the power-producing potential of Essentia
-emt.text.Potentia Generator=After much studying and research, you have finally discovered how to create electricity from your leftover Essentia.<BR><BR>Simply place a Warded Jar containing Potentia in a 8 blocks radius of the machine and it will draw it in to create EU.<BR><BR>While Potentia seems like the most logical choice for producing Essentia with EU, you believe you will be able to generate electricity from different Essentia in the near future with a bit of tinkering.
+emt.rsname.Potentia Generator=Potentia Jeneratörü
+emt.tag.Potentia Generator=Esansın güç üretme potansiyelinden yararlanmak
+emt.text.Potentia Generator=Uzun bir inceleme ve araştırmadan sonra nihayet elinde kalan Esansından elektrik üretmeyi keşfettin.<BR><BR>Potentia içeren bir Korumalı Kavanozu makinenin 8 blok yarıçapına koyman yeterli; makine onu çekip EU üretecek.<BR><BR>Potentia, EU ile esans üretmek için en mantıklı seçim gibi görünse de, biraz kurcalamayla yakın gelecekte farklı esanslardan da elektrik üretebileceğine inanıyorsun.
 
-emt.rsname.Lucrum Generator=Lucrum Generator
-emt.tag.Lucrum Generator=Greed is gold...?
-emt.text.Lucrum Generator=Your greed kept you going further, so you found a way to convert Lucrum to power.<BR><BR>By Infusing the Potentia Generator with huge amounts of Gold, Permutatio and Lucrum, you managed to build a powerful generator that literally runs on gold.<BR><BR>But as you thought, the Infusion is unstable and will fail easily when you are not prepared.
+emt.rsname.Lucrum Generator=Lucrum Jeneratörü
+emt.tag.Lucrum Generator=Açgözlülük altın mıdır...?
+emt.text.Lucrum Generator=Açgözlülüğün seni daha ileri götürdü, böylece Lucrum'u güce dönüştürmenin bir yolunu buldun.<BR><BR>Potentia Jeneratörünü büyük miktarda Altın, Permutatio ve Lucrum ile yükleyerek kelimenin tam anlamıyla altınla çalışan güçlü bir jeneratör yaptın.<BR><BR>Ama tahmin ettiğin gibi, İnfüzyon dengesiz ve hazırlıklı olmadığında kolayca başarısız olacak.
 
-emt.rsname.Ignis Generator=Ignis Generator
-emt.tag.Ignis Generator=If you can't handle the heat...
-emt.text.Ignis Generator=Just as you thought, with a bit of tweaking, you have found a way to instead use Ignis Essentia to produce power. On the inside, this machine is able to heat water by consuming Ignis. The steam produced by this heat then spins the turbines, similar to a typical Generator.
+emt.rsname.Ignis Generator=İgnis Jeneratörü
+emt.tag.Ignis Generator=Sıcağa dayanamıyorsan...
+emt.text.Ignis Generator=Tam da düşündüğün gibi, biraz ince ayarla güç üretmek için bu kez Ignis Esansını kullanmanın bir yolunu buldun. İçeride bu makine, Ignis tüketerek suyu ısıtabiliyor. Bu ısıyla oluşan buhar da tipik bir jeneratöre benzer şekilde türbinleri döndürüyor.
 
-emt.rsname.Auram Generator=Auram Generator
-emt.tag.Auram Generator=Harnessing the magic in the air
-emt.text.Auram Generator=Though it took a bit more work than you initially thought, you have found a way to produce EU using Auram Essentia. This required a complete reworking of the machine, relying on Auram's pulsating magical power to spin a Generator.
+emt.rsname.Auram Generator=Auram Jeneratörü
+emt.tag.Auram Generator=Havadaki büyüden yararlanmak
+emt.text.Auram Generator=Başta düşündüğünden biraz daha fazla iş gerektirdi ama Auram Esansı kullanarak EU üretmenin bir yolunu buldun. Bu, makinenin tamamen yeniden düzenlenmesini gerektirdi; Auram'ın atım yapan büyülü gücüne dayanarak bir Jeneratör döndürüyor.
 
-emt.rsname.Arbor Generator=Arbor Generator
-emt.tag.Arbor Generator=Bringing power generation back to its basics
-emt.text.Arbor Generator=You always seem to have excess Arbor Essentia sitting around. Not anymore! By modifying your original Potentia Generator, you have found a way to produce energy using Arbor Essentia instead.
+emt.rsname.Arbor Generator=Arbor Jeneratörü
+emt.tag.Arbor Generator=Güç üretimini temellerine döndürmek
+emt.text.Arbor Generator=Görünüşe göre her zaman elinde fazladan Arbor Esansı oluyor. Artık olmayacak! Orijinal Potentia Jeneratörünü değiştirerek bu kez Arbor Esansı kullanarak enerji üretmenin bir yolunu buldun.
 
-emt.rsname.Aer Generator=Aer Generator
-emt.tag.Aer Generator=Compressing your environment
-emt.text.Aer Generator=You have discovered the enormous power of the air, and therefore decided to try out a modification of your original Potentia Generator capable of compressing air from Aer Essentia in a nearby jar.
+emt.rsname.Aer Generator=Aer Jeneratörü
+emt.tag.Aer Generator=Çevreni sıkıştırmak
+emt.text.Aer Generator=Havanın muazzam gücünü keşfettin ve bu yüzden orijinal Potentia Jeneratörünün, yakındaki bir kavanozdaki Aer Esansından havayı sıkıştırabilen bir modifikasyonunu denemeye karar verdin.
 
-emt.rsname.Chainsaw of the Stream=Chainsaw of the Stream
-emt.tag.Chainsaw of the Stream=Felling trees in a single swoop
-emt.text.Chainsaw of the Stream=After studying both the Axe of the Stream and the Thaumium Chainsaw, you managed to combine most of their abilities, resulting in an electric tool that can chop down whole trees without much effort.
+emt.rsname.Chainsaw of the Stream=Nehir Zincirli Testeresi
+emt.tag.Chainsaw of the Stream=Ağaçları tek hamlede devirmek
+emt.text.Chainsaw of the Stream=Hem Nehir Baltasını hem de Thaumium Zincirli Testereyi inceledikten sonra, yeteneklerinin çoğunu birleştirmeyi başardın; ortaya büyük bir çaba harcamadan bütün ağaçları kesebilen elektrikli bir alet çıktı.
 
-emt.rsname.Drill of the Rockbreaker=Drill of the Rockbreaker
-emt.tag.Drill of the Rockbreaker=Mining it big
-emt.text.Drill of the Rockbreaker=After studying the Pickaxe of the Core, the Shovel of the Earthmover and the Thaumium Drill, you have managed to combine most of their abilities, resulting in an electric tool that can mine a whole 3x3x1 area of pickaxe and dirt materials very quickly.<BR><BR>This marvelous device is able to find the closest ore clusters on a shift-right click, though at the cost of some EU.
+emt.rsname.Drill of the Rockbreaker=Çekirdek Matkabı
+emt.tag.Drill of the Rockbreaker=Büyük ölçekli kazı
+emt.text.Drill of the Rockbreaker=Çekirdek Kazmasını, Toprakkazar Küreğini ve Thaumium Matkabı inceledikten sonra yeteneklerinin çoğunu birleştirmeyi başardın; ortaya kazma ve toprak malzemelerinden oluşan 3x3x1'lik bir alanı çok hızlı kazabilen elektrikli bir alet çıktı.<BR><BR>Bu harika cihaz, biraz EU karşılığında shift-sağ tıklamayla en yakın cevher kümelerini bulabiliyor.
 
-emt.rsname.Shield Block=Shield Block
-emt.tag.Shield Block=Magical protection
-emt.text.Shield Block=After studying the blocks created by the shield focus, you have discovered how to recreate them yourself, without relying on them to be summoned by the focus. They are highly blast resistant, and even resistant to nukes. However, in the event of an actual nuclear explosion, while the shield blocks will survive the aftermath, the surrounding blocks will not.<BR><BR>These blocks are unstable and do not drop when broken, even when Silk Touch is used.
+emt.rsname.Shield Block=Kalkan Bloğu
+emt.tag.Shield Block=Büyülü koruma
+emt.text.Shield Block=Kalkan odağının oluşturduğu blokları inceledikten sonra, bunları odağın çağırmasına güvenmeden kendin yeniden yaratmayı keşfettin. Patlamalara karşı son derece dayanıklılar, hatta nükleer saldırılara bile dayanıyorlar. Ancak gerçek bir nükleer patlama durumunda kalkan blokları patlamadan sonra ayakta kalsa da çevredeki bloklar kalmayacak.<BR><BR>Bu bloklar dengesiz ve İpek Dokunuş kullanılsa bile kırıldığında düşmüyor.
 
-emt.rsname.Tiny Uranium=Tiny Uranium
-emt.tag.Tiny Uranium=Some shrinkage may occur
-emt.text.Tiny Uranium=After processing all your ores and using them for the creation of nuclear reactors, you have finally run out of uranium nuggets, needed to make your beloved fuel rods. After long research sessions, you have managed to transform your leftover uranium into much-needed nuggets!<BR><BR>Unfortunately, this process is a bit wasteful, but you believe it to be worth the cost.
+emt.rsname.Tiny Uranium=Küçük Uranyum
+emt.tag.Tiny Uranium=Bir miktar büzülme görülebilir
+emt.text.Tiny Uranium=Tüm cevherlerini işleyip nükleer reaktörlerin yapımında kullandıktan sonra, nihayet o sevgili yakıt çubuklarını yapmak için gereken uranyum parçaların bitti. Uzun araştırma seanslarının ardından, elinde kalan uranyumu çok ihtiyaç duyduğun parçalara dönüştürmeyi başardın!<BR><BR>Ne yazık ki bu süreç biraz israflı, ama maliyetine değeceğine inanıyorsun.
 
-emt.rsname.Mjolnir=Mjolnir
-emt.tag.Mjolnir=Godly power
-emt.text.Mjolnir=You have travelled the world, in quest for the mighty Hammer of Thor. One day, you stumbled upon its broken remains, and your heart crumbled with it. After some long and tedious research, you found a way to restore this magnificent tool to its past greatness.<BR><BR>You have an odd feeling, (you seem to have a lot of these), that although this tool is amazingly powerful, you could do more with it.
+emt.rsname.Mjolnir=Mjölnir
+emt.tag.Mjolnir=Tanrısal güç
+emt.text.Mjolnir=Güçlü Thor'un Çekici'nin peşinde dünyayı dolaştın. Bir gün kırık kalıntılarına rastladın ve kalbin onunla birlikte paramparça oldu. Uzun ve sıkıcı araştırmaların ardından, bu muhteşem aleti eski görkemine kavuşturmanın bir yolunu buldun.<BR><BR>İçinde tuhaf bir his var (bunlardan çok yaşıyorsun galiba): bu alet inanılmaz güçlü olsa da onunla daha fazlasını yapabileceğini düşünüyorsun.
 
-emt.rsname.The Legend=The Legend
-emt.tag.The Legend=Childhood memories...
-emt.text.The Legend=You have always heard about the Legend of the Hammer.<BR><BR>It is said that the god of Lightning, Thor, had a hammer capable of summoning lightning.<BR><BR>The legend also states that, when the god retired in his dimension, he left his hammer, hidden somewhere in a well protected dungeon, where only a worthy mortal could find it.<BR><BR>You have long since wanted to go explore the world, to try and find it.
+emt.rsname.The Legend=Efsane
+emt.tag.The Legend=Çocukluk anıları...
+emt.text.The Legend=Çekicin Efsanesi'ni hep duymuşsundur.<BR><BR>Denir ki Yıldırım tanrısı Thor'un, yıldırım çağırabilen bir çekici varmış.<BR><BR>Efsane ayrıca, tanrı kendi boyutuna çekildiğinde çekicini iyi korunan bir zindanda, yalnızca layık bir ölümlünün bulabileceği bir yere sakladığını söyler.<BR><BR>Uzun zamandır dünyayı keşfe çıkıp onu bulmayı istiyorsun.
 
-emt.rsname.Lightning Summoner=Lightning Summoner
-emt.tag.Lightning Summoner=From vilest enemies
-emt.text.Lightning Summoner=This item is dropped by your archenemy, the Supercharged Creeper. You feel it is going to be very useful later on.
+emt.rsname.Lightning Summoner=Yıldırım Çağırıcı
+emt.tag.Lightning Summoner=En iğrenç düşmanlardan
+emt.text.Lightning Summoner=Bu eşya baş düşmanın olan Süper Şarjlı Creeper tarafından düşürülür. İleride çok işine yarayacağını hissediyorsun.
 
 emt.rsname.Supercharged Mjolnir=Süper Şarjlı Mjolnir
-emt.tag.Supercharged Mjolnir=Making it yours
-emt.text.Supercharged Mjolnir=After some more exploring of the dungeons existing all around the worlds and dimensions, you have managed to find a method that makes you able to overpower Thor's power, making his Hammer yours. Furthermore, you have managed to make your Hammer summon defenders, some strange Snow-Golems like creatures that shall protect you. However, the hammer lost its power to summon lightning where you desire it to, and creates a ring of lightning around you.
+emt.tag.Supercharged Mjolnir=Onu kendinin yapmak
+emt.text.Supercharged Mjolnir=Dünyalarda ve boyutlarda var olan zindanları biraz daha keşfettikten sonra, Thor'un gücünü aşmanı ve Çekicini kendine mal etmeni sağlayan bir yöntem buldun. Dahası, Çekicine seni koruyacak, tuhaf Kar Golemlerine benzeyen yaratıklardan koruyucular çağırtmayı başardın. Ancak çekiç, yıldırımı istediğin yere çağırma gücünü kaybetti ve bunun yerine etrafında bir yıldırım halkası oluşturuyor.
 
-emt.rsname.Industrial Wand Charging Station=Industrial Wand Charging Station
-emt.tag.Industrial Wand Charging Station=Charging your wand the industrial way
-emt.text.Industrial Wand Charging Station=You have managed to combine the powers of the Wand Pedestal with those of the mighty UU-Matter, resulting in a machine capable of replicating aspects on your wand, at the cost of 50000 EU to recharge every aspect on the wand of 1 unit.
+emt.rsname.Industrial Wand Charging Station=Endüstriyel Asa Şarj İstasyonu
+emt.tag.Industrial Wand Charging Station=Asanı endüstriyel yoldan şarj et
+emt.text.Industrial Wand Charging Station=Asa Kaidesi'nin güçlerini ulu UU-Madde'nin güçleriyle birleştirmeyi başardın; ortaya, 50000 EU maliyetle asandaki her aspekti 1 birim şarj ederek asandaki aspektleri çoğaltabilen bir makine çıktı.
 
-emt.rsname.Compressed Solars=Compressed Solars
-emt.tag.Compressed Solars=Increase the efficiency!
-emt.text.Compressed Solars=You have found a way to compress 9 mundane Solar Panels in a magical one, that acts as if it was made of 10 mundane solar panels, generating 10 EU/t. You may repeat this process with compressed solar panels, allowing you to increase the power potential per block even higher. You can also, by magical infusion, create triple compressed solar panels, taking the folly a step further.
+emt.rsname.Compressed Solars=Sıkıştırılmış Güneş Panelleri
+emt.tag.Compressed Solars=Verimliliği artır!
+emt.text.Compressed Solars=9 sıradan Güneş Panelini, 10 sıradan güneş panelinden yapılmış gibi davranan ve 10 EU/t üreten büyülü bir panele sıkıştırmanın bir yolunu buldun. Bu işlemi sıkıştırılmış güneş panelleriyle tekrarlayabilir, böylece blok başına güç potansiyelini daha da artırabilirsin. Ayrıca büyülü infüzyonla üç misli sıkıştırılmış güneş panelleri yaparak bu çılgınlığı bir adım daha ileri götürebilirsin.
 
-emt.rsname.Solar Helmet of Revealing=Solar Helmet of Revealing
-emt.tag.Solar Helmet of Revealing=The sunlight hurts my eyes
-emt.text.Solar Helmet of Revealing=You now have a helmet that acts exactly like your quantum goggles of revealing, but can also recharge your chest armor! It generates 65536 EU during the day, and 4096 EU at night.
+emt.rsname.Solar Helmet of Revealing=Güneş Panelli Hakikat Kaskı
+emt.tag.Solar Helmet of Revealing=Güneş ışığı gözlerimi acıtıyor
+emt.text.Solar Helmet of Revealing=Artık kuantum hakikat gözlüğünle tamamen aynı işlevi gören, ama göğüs zırhını da şarj edebilen bir kaskın var! Gündüz 65536 EU, gece 4096 EU üretir.
 
-emt.rsname.Diamond Chainsaw=Diamond Chainsaw
-emt.tag.Diamond Chainsaw=Harder, better, faster, stronger
-emt.text.Diamond Chainsaw=You are unsure why the thought of upgrading a Chainsaw with diamonds similarly to what you have done with a Drill has never occurred to you. This upgrade makes the Chainsaw capable of holding more energy and breaking blocks faster.
+emt.rsname.Diamond Chainsaw=Elmas Zincirli Testere
+emt.tag.Diamond Chainsaw=Daha sert, daha iyi, daha hızlı, daha güçlü
+emt.text.Diamond Chainsaw=Bir Matkabı elmasla geliştirdiğin gibi bir Zincirli Testereyi de geliştirmek neden aklına gelmedi, bilmiyorsun. Bu yükseltme, Zincirli Testerenin daha fazla enerji tutmasını ve blokları daha hızlı kırmasını sağlıyor.
 
-emt.rsname.Thaumium Plate=Thaumium Plate
-emt.tag.Thaumium Plate=Thaumium, the industrial way
-emt.text.Thaumium Plate=As every electrical engineer knows, plates are the basis of many devices. We knew that pressing Thaumium into plates would be a necessary step to facilitate integration of magic into our tools, but this made the mages of the school of Thaumaturgy very upset. They don't like us tampering with their precious metal. You can produce these plates as shown, which is a bit more expensive, or in a metal former, requiring only one Thaumium Ingot. Keep an eye out for angry mages.
+emt.rsname.Thaumium Plate=Thaumium Plaka
+emt.tag.Thaumium Plate=Thaumium, endüstriyel yoldan
+emt.text.Thaumium Plate=Her elektrik mühendisinin bildiği gibi, plakalar birçok cihazın temelidir. Thaumium'u plakalara preslemenin, büyüyü aletlerimize entegre etmek için gerekli bir adım olduğunu biliyorduk, ama bu Thaumatürji okulunun büyücülerini çok kızdırdı. Onların değerli metallerine dokunmamızdan hoşlanmıyorlar. Bu plakaları gösterildiği gibi, biraz daha pahalıya üretebilir ya da yalnızca bir Thaumium Külçesi gerektiren bir metal şekillendiricide yapabilirsin. Kızgın büyücülere karşı tetikte ol.
 
-emt.rsname.Macerating Native Ore Clusters=Macerating Native Ore Clusters
-emt.tag.Macerating Native Ore Clusters=Augmenting your yield
-emt.text.Macerating Native Ore Clusters=You can macerate all Native Ore Clusters, except cinnabar. You will get 22 tiny dusts per Native Ore Cluster macerated.
+emt.rsname.Macerating Native Ore Clusters=Doğal Cevher Kümelerini Öğütme
+emt.tag.Macerating Native Ore Clusters=Verimini artırıyor
+emt.text.Macerating Native Ore Clusters=Zincifre hariç tüm Doğal Cevher Kümelerini öğütebilirsin. Öğütülen her Doğal Cevher Kümesi için 22 ufak toz elde edersin.
 
-emt.rsname.Electric Boots of the Traveller=Electric Boots of the Traveller
-emt.tag.Electric Boots of the Traveller=I've got the power
-emt.text.Electric Boots of the Traveller=With lots of precise mechanical components and a touch of magic, you have recreated the effects of the Boots of the Traveller in a more stable form. These boots, unlike the original, will not wear away over time, but instead use EU. These boots negate all fall damage, and have all the normal properties of the Boots of the Traveller.
+emt.rsname.Electric Boots of the Traveller=Elektrikli Gezgin Çizmeleri
+emt.tag.Electric Boots of the Traveller=Güç bende
+emt.text.Electric Boots of the Traveller=Pek çok hassas mekanik bileşen ve bir tutam büyüyle, Gezgin Çizmeleri'nin etkilerini daha dengeli bir biçimde yeniden yarattın. Bu çizmeler, orijinalinin aksine zamanla yıpranmaz; bunun yerine EU kullanır. Bu çizmeler tüm düşme hasarını engeller ve Gezgin Çizmeleri'nin tüm normal özelliklerine sahiptir.
 
-emt.rsname.Nano Boots of the Traveller=Nano Boots of the Traveller
-emt.tag.Nano Boots of the Traveller=Speed demon
-emt.text.Nano Boots of the Traveller=Your Electric Boots of the Traveller are nice, but you think you can do better. You have found a way to upgrade these boots to the Nano tier, improving the mechanical components and improving the spell cast on the footwear. These boots allow for higher jumps and faster running than before.
+emt.rsname.Nano Boots of the Traveller=Nano Gezgin Çizmeleri
+emt.tag.Nano Boots of the Traveller=Hız şeytanı
+emt.text.Nano Boots of the Traveller=Elektrikli Gezgin Çizmelerin güzel, ama daha iyisini yapabileceğini düşünüyorsun. Bu çizmeleri Nano kademesine yükseltmenin, mekanik bileşenleri ve ayakkabıya işlenen büyüyü geliştirmenin bir yolunu buldun. Bu çizmeler öncekinden daha yükseğe zıplamana ve daha hızlı koşmana olanak tanıyor.
 
-emt.rsname.Quantum Boots of the Traveller=Quantum Boots of the Traveller
-emt.tag.Quantum Boots of the Traveller=Faster than light
-emt.text.Quantum Boots of the Traveller=You have meddled with Quantum Physics, making these Quantum Boots of the Traveller so fast, that you appear to be in multiple places at once. But do not forget what happened to Schrodinger's cat...
+emt.rsname.Quantum Boots of the Traveller=Kuantum Gezgin Çizmeleri
+emt.tag.Quantum Boots of the Traveller=Işıktan hızlı
+emt.text.Quantum Boots of the Traveller=Kuantum Fiziğine burnunu soktun ve bu Kuantum Gezgin Çizmelerini o kadar hızlandırdın ki aynı anda birden çok yerde görünüyorsun. Ama Schrödinger'in kedisine ne olduğunu unutma...
 
-emt.rsname.Electric Scribing Tools=Electric Scribing Tools
-emt.tag.Electric Scribing Tools=Save squiddy!
-emt.text.Electric Scribing Tools=You have decided not to kill any more squid. Therefore, you researched a way to charge your scribing tools, in a way which would make them not needing any ink. Thanks to static electricity, and the ball pen technology, you managed to make the ink inside the scribing tools spin so quickly, that EU could recharge it.
+emt.rsname.Electric Scribing Tools=Elektrikli Yazı Aletleri
+emt.tag.Electric Scribing Tools=Kalamarı kurtar!
+emt.text.Electric Scribing Tools=Artık başka kalamar öldürmemeye karar verdin. Bu yüzden, yazı aletlerini mürekkebe ihtiyaç duymayacak şekilde şarj etmenin bir yolunu araştırdın. Statik elektrik ve tükenmez kalem teknolojisi sayesinde, yazı aletlerinin içindeki mürekkebi o kadar hızlı döndürmeyi başardın ki EU onu şarj edebildi.
 
-emt.rsname.Etheral Processor=Etheral Processor
-emt.tag.Etheral Processor=The sky is blue...
-emt.text.Etheral Processor=After tapping into hell's power with the Infernal Furnace to get some rewards out of your mining sessions, you have something totally different in mind. You are now using the power of the "Good", the sky and the so called "Paradise". This Ethereal Processor doubles the yield of every smelting recipe, and gives a 10% chance of getting a Thaumium Nugget as a bonus. You can see two drawbacks to this : as it doubles your smelting yield, it takes twice the time to process an item. As it is a highly magical device, some mundane smelting recipes do not seem to work. You are confident that smelting cobblestone into stone will not work into this wonder-machine.
+emt.rsname.Etheral Processor=Eterik İşlemci
+emt.tag.Etheral Processor=Gökyüzü mavi...
+emt.text.Etheral Processor=Maden seanslarından ödül almak için Cehennem Fırını ile cehennemin gücünden yararlandıktan sonra, aklında tamamen farklı bir şey var. Artık "İyi"nin, gökyüzünün ve sözde "Cennet"in gücünü kullanıyorsun. Bu Eterik İşlemci her eritme tarifinin verimini ikiye katlar ve bonus olarak %10 şansla Thaumium Parçası kazanmanı sağlar. Bunun iki dezavantajı var: eritme verimini ikiye katladığı için bir eşyayı işlemek iki kat zaman alır. Son derece büyülü bir cihaz olduğundan bazı sıradan eritme tarifleri çalışmıyor gibi görünüyor. Kırıktaşı taşa eritmenin bu harika makinede çalışmayacağından eminsin.
 
-emt.rsname.Water Infused Solar Panels=Water Infused Solar Panels
-emt.tag.Water Infused Solar Panels=Curse you rain!
-emt.text.Water Infused Solar Panels=You always hated rain, especially when all your power came from Solar Panels. You hated it so much that you decided to find a way to make your Solar Panels keep running during rain. You managed... kind of. The Water Infused Solar Panels work during rain, and during rain only.
+emt.rsname.Water Infused Solar Panels=Su Yüklü Güneş Panelleri
+emt.tag.Water Infused Solar Panels=Lanet olsun sana yağmur!
+emt.text.Water Infused Solar Panels=Yağmurdan hep nefret ettin, özellikle de tüm gücün Güneş Panellerinden geldiğinde. O kadar nefret ettin ki Güneş Panellerini yağmur sırasında da çalıştırmanın bir yolunu bulmaya karar verdin. Başardın... bir nevi. Su Yüklü Güneş Panelleri yağmur sırasında ve yalnızca yağmur sırasında çalışır.
 
-emt.rsname.Entropy Infused Solar Panels=Entropy Infused Solar Panels
-emt.tag.Entropy Infused Solar Panels=Not afraid of the dark
-emt.text.Entropy Infused Solar Panels=You know that Solar Panels stop working at nightime. To counter that, you found a way to make your Solar Panels produce energy at night!
+emt.rsname.Entropy Infused Solar Panels=Entropi Yüklü Güneş Panelleri
+emt.tag.Entropy Infused Solar Panels=Karanlıktan korkmuyorum
+emt.text.Entropy Infused Solar Panels=Güneş Panellerinin gece çalışmayı bıraktığını biliyorsun. Buna karşı koymak için Güneş Panellerinin gece de enerji üretmesini sağlayan bir yol buldun!
 
-emt.rsname.Order Infused Solar Panels=Order Infused Solar Panels
-emt.tag.Order Infused Solar Panels=I've got the power!
-emt.text.Order Infused Solar Panels=Harnessing the power of Order, you have managed to triple the output of your Solar Panels at day!
+emt.rsname.Order Infused Solar Panels=Düzen Yüklü Güneş Panelleri
+emt.tag.Order Infused Solar Panels=Güç bende!
+emt.text.Order Infused Solar Panels=Düzen'in gücünden yararlanarak Güneş Panellerinin gündüzki çıktısını üçe katlamayı başardın!
 
-emt.rsname.Fire Infused Solar Panels=Fire Infused Solar Panels
-emt.tag.Fire Infused Solar Panels=Where it is hot and dangerous...
-emt.text.Fire Infused Solar Panels=Fascinated by the Nether, you created a monster. These Solar Panels work like normal in the Overworld, but also produce more energy when they are located in the Nether! A monster I tell you...
+emt.rsname.Fire Infused Solar Panels=Ateş Yüklü Güneş Panelleri
+emt.tag.Fire Infused Solar Panels=Sıcak ve tehlikeli yerlerde...
+emt.text.Fire Infused Solar Panels=Nether'dan büyülendin ve bir canavar yarattın. Bu Güneş Panelleri Dünya'da normal çalışır, ama Nether'da bulunduklarında daha fazla enerji de üretir! Sana bir canavar diyorum...
 
-emt.rsname.Air Infused Solar Panels=Air Infused Solar Panels
-emt.tag.Air Infused Solar Panels=Don't be afraid of heights
-emt.text.Air Infused Solar Panels=Your adventurous mind and the natural amount of air existing at the top of the world make these Solar Panels yield more energy when located over Y = 160.
+emt.rsname.Air Infused Solar Panels=Hava Yüklü Güneş Panelleri
+emt.tag.Air Infused Solar Panels=Yükseklikten korkma
+emt.text.Air Infused Solar Panels=Maceracı zihnin ve dünyanın tepesinde doğal olarak bulunan hava miktarı, bu Güneş Panellerinin Y = 160'ın üzerinde konumlandıklarında daha fazla enerji üretmesini sağlıyor.
 
-emt.rsname.Earth Infused Solar Panels=Earth Infused Solar Panels
-emt.tag.Earth Infused Solar Panels=Not for claustrophobic persons
-emt.text.Earth Infused Solar Panels=You have decided to get closer to the core. These Solar Panels produce more energy under Y = 10, but keep in mind the rebellious spirits need to be able to see the sun to work.
+emt.rsname.Earth Infused Solar Panels=Toprak Yüklü Güneş Panelleri
+emt.tag.Earth Infused Solar Panels=Klostrofobikler için değil
+emt.text.Earth Infused Solar Panels=Çekirdeğe daha fazla yaklaşmaya karar verdin. Bu Güneş Panelleri Y = 10'un altında daha fazla enerji üretir, ama isyankâr ruhların çalışmak için güneşi görebilmesi gerektiğini unutma.
 
-emt.rsname.UU-Matter Infusion=UU-Matter Infusion
-emt.tag.UU-Matter Infusion=A magically charged metamorphic liquid...
-emt.text.UU-Matter Infusion=You have always found the powers possessed by UU-Matter very strange, even... magical looking, especially the ability to take a large number of shapes if manipulated correctly. And here you are, having discovered a way to shape the liquid through the process of Infusion Crafting. Many recipes are available, and all of them use between 4 to 32 of each primal aspect.
+emt.rsname.UU-Matter Infusion=UU-Madde İnfüzyonu
+emt.tag.UU-Matter Infusion=Büyüyle yüklü, başkalaşan bir sıvı...
+emt.text.UU-Matter Infusion=UU-Madde'nin sahip olduğu güçleri hep çok tuhaf, hatta... büyülü görünümlü bulmuşsundur; özellikle de doğru işlendiğinde çok sayıda şekil alabilme yeteneğini. Ve işte buradasın, sıvıyı İnfüzyon Üretimi süreciyle şekillendirmenin bir yolunu keşfettin. Birçok tarif mevcut ve hepsi her asal aspekten 4 ila 32 arasında kullanıyor.
 
-emt.rsname.Portable Node=Portable Node
-emt.tag.Portable Node=Randomly convenient
-emt.text.Portable Node=After studying in an in-depth manner of the wonders of Node Jarring, you have managed to create an item capable of spawning a random node. However, due to some parts of node magic which you cannot understand, this Portable Node will always be Fading and Unstable. <BR><BR>You can only get rid of it by a shift-right click, and you think that you should dispose of it as soon as possible, for unstable nodes are... rather unpredictable.
+emt.rsname.Portable Node=Taşınabilir Node
+emt.tag.Portable Node=Rastgele kullanışlı
+emt.text.Portable Node=Node Kavanozlama'nın harikalarını derinlemesine inceledikten sonra, rastgele bir node oluşturabilen bir eşya yaratmayı başardın. Ancak node büyüsünün anlayamadığın bazı kısımları yüzünden bu Taşınabilir Node her zaman Solan ve Dengesiz olacak. <BR><BR>Ondan ancak shift-sağ tık ile kurtulabilirsin ve dengesiz node'lar... oldukça öngörülemez olduğu için ondan mümkün olan en kısa sürede kurtulman gerektiğini düşünüyorsun.
 
-emt.rsname.Electric Hoe of Growth=Electric Hoe of Growth
-emt.tag.Electric Hoe of Growth=Shockingly natural
-emt.text.Electric Hoe of Growth=You have managed to upgrade your Hoe of Growth. It now delivers little shocks to the land and plants around it, much like your regular Hoe of Growth would do. <BR><BR>However, the magic contained within this tool is too powerful for you to convert it fully to using mundane electricity, for the tool still has a limited number of uses before it breaks, but is rechargeable.
+emt.rsname.Electric Hoe of Growth=Elektrikli Büyüme Çapası
+emt.tag.Electric Hoe of Growth=Şaşırtıcı derecede doğal
+emt.text.Electric Hoe of Growth=Büyüme Çapanı geliştirmeyi başardın. Artık tıpkı sıradan Büyüme Çapan gibi çevresindeki toprağa ve bitkilere küçük şoklar veriyor. <BR><BR>Ancak bu aletin içindeki büyü, onu tamamen sıradan elektriğe dönüştürmen için fazla güçlü; bu yüzden alet kırılmadan önce sınırlı sayıda kullanım hakkına sahip, ama şarj edilebilir.
 
-emt.rsname.Wand Focus: Charging=Wand Focus: Charging
-emt.tag.Wand Focus: Charging=From vis to electricity
-emt.text.Wand Focus: Charging=You realized you always carry a wand with you, along with your electric stuff. But sometimes, you have run out of juice in your electric tools. That's why you created this wand focus. It is very simple, yet very useful, for it drains vis from your wand storage, and charges the items using mundane electricity.
+emt.rsname.Wand Focus: Charging=Asa Odağı: Şarj
+emt.tag.Wand Focus: Charging=Vis'ten elektriğe
+emt.text.Wand Focus: Charging=Yanında elektrikli eşyalarınla birlikte her zaman bir asa taşıdığını fark ettin. Ama bazen elektrikli aletlerinin şarjı bitiyor. İşte bu yüzden bu asa odağını yarattın. Çok basit ama çok kullanışlı; çünkü asa deposundan vis çekip sıradan elektrik kullanan eşyaları şarj ediyor.
 
-emt.rsname.Wand Focus: Wand Charging=Wand Focus: Wand Charging
-emt.tag.Wand Focus: Wand Charging=From electricity to vis
-emt.text.Wand Focus: Wand Charging=You've discovered a way to take the benefits of the Industrial Recharge station and house them inside of a Charging Focus, reversing its polarity. Now it will drain electricity from your items in order to recharge your wand, albeit at a rather high cost. Furthermore, you have realized that you need a full set of Electric Armor to be able to start the wand charging process.
+emt.rsname.Wand Focus: Wand Charging=Asa Odağı: Asa Şarjı
+emt.tag.Wand Focus: Wand Charging=Elektrikten vis'e
+emt.text.Wand Focus: Wand Charging=Endüstriyel Şarj istasyonunun faydalarını bir Şarj Odağının içine yerleştirmenin ve kutuplarını tersine çevirmenin bir yolunu keşfettin. Artık asanı şarj etmek için eşyalarından elektrik çekecek, gerçi bu oldukça yüksek bir maliyetle olacak. Dahası, asa şarj işlemini başlatabilmek için tam bir Elektrikli Zırh setine ihtiyacın olduğunu fark ettin.
 
-emt.rsname.Inventory Charging Ring=Inventory Charging Ring
-emt.tag.Inventory Charging Ring=Passive charger
-emt.text.Inventory Charging Ring=While other thaumaturgists use rings to charge their runic shields, you feel that there are better applications for them. By fusing power sources into a mundane ring, you have learned how to funnel its charging effects into electric items in your inventory instead. It doesn't generate much at only 32 EU per tick, but that just means there's room for improvement.
+emt.rsname.Inventory Charging Ring=Envanter Şarj Eden Yüzük
+emt.tag.Inventory Charging Ring=Pasif şarj cihazı
+emt.text.Inventory Charging Ring=Diğer thaumaturglar yüzüklerini runik kalkanlarını şarj etmek için kullanırken, sen onlar için daha iyi uygulamalar olduğunu düşünüyorsun. Güç kaynaklarını sıradan bir yüzüğe kaynaştırarak, şarj etkilerini envanterindeki elektrikli eşyalara yönlendirmeyi öğrendin. Sadece tik başına 32 EU üretiyor, bu pek fazla değil, ama bu sadece gelişmeye yer olduğu anlamına geliyor.
 
-item.EMT.bauble.name=Armor Charging Ring
-emt.rsname.Armor Charging Ring=Armor Charging Ring
-emt.tag.Armor Charging Ring=Passive life-saver
-emt.text.Armor Charging Ring=You have found the low but constant recharge rate of your new ring to be more useful than anticipated, but it would be nice if it charged your armor when there wasn't a tool in need of power. By infusing a few more power sources and a piece of armor, you have found a way to have it do just that. Sadly, the new power sources do not increase the recharge rate, but progress is progress.
+item.EMT.bauble.name=Zırh Şarj Eden Yüzük
+emt.rsname.Armor Charging Ring=Zırh Şarj Eden Yüzük
+emt.tag.Armor Charging Ring=Pasif hayat kurtarıcı
+emt.text.Armor Charging Ring=Yeni yüzüğünün düşük ama sürekli şarj hızını beklediğinden daha kullanışlı buldun, ama güce ihtiyaç duyan bir alet yokken zırhını şarj etmesi güzel olurdu. Birkaç güç kaynağı ve bir zırh parçası daha infüze ederek bunu tam da böyle yapmasını sağlamanın yolunu buldun. Ne yazık ki yeni güç kaynakları şarj hızını artırmıyor, ama ilerleme ilerlemedir.
 
-item.EMT.item.bauble.name=The One Ring
-emt.rsname.The One Ring=The One Ring
-emt.tag.The One Ring=Forged inside the pit of the volcanic Mount Doom...
-emt.text.The One Ring=Three Rings for the Elven-kings under the sky, Seven for the Dwarf-lords in their halls of stone, Nine for Mortal Men doomed to die, One for the Dark Lord on his dark throne in the Land of Mordor where the Shadows lie. One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them in the Land of Mordor where the Shadows lie. -J.R.R. Tolkien's epigraph to The Lord of The Rings.<BR>You dream of being able to disappear from sight, therefore becoming invulnerable to any attack. You have heard that this Ring lays somewhere in ruins, unaltered by time...
+item.EMT.item.bauble.name=Tek Yüzük
+emt.rsname.The One Ring=Tek Yüzük
+emt.tag.The One Ring=Volkanik Hüküm Dağı'nın çukurunda dövüldü...
+emt.text.The One Ring=Gökyüzü altındaki Elf krallarına Üç Yüzük, taş salonlarındaki Cüce beylerine Yedi, ölüme mahkûm Ölümlü İnsanlara Dokuz, Gölgelerin yattığı Mordor Diyarı'nda karanlık tahtındaki Karanlık Lord'a Bir Yüzük. Hepsinin hükmeden Tek Yüzük, onları bulmaya giden Tek Yüzük, onları bir araya getiren ve Gölgelerin yattığı Mordor Diyarı'nda karanlıkta bağlayan Tek Yüzük. -J.R.R. Tolkien'in Yüzüklerin Efendisi'ne yazdığı epigraf.<BR>Gözden kaybolup her türlü saldırıya karşı dokunulmaz olmayı hayal ediyorsun. Bu Yüzüğün zamanla değişmemiş bir harabede bir yerde yattığını duymuştun...
 
-emt.rsname.Feather Wings=Feather Wings
-emt.tag.Feather Wings=It only works in anime...
-emt.text.Feather Wings=Duct-taping feathers to cardboard sheets, formed in the shape of wings sounded like a good idea. At least, you can thrust yourself in the air when the spacebar is pressed. Not much, but it'll work. Using any wings underwater or during the rain sounds like a very bad idea. Included: fall damage reduction, 25%.
+emt.rsname.Feather Wings=Tüy Kanatlar
+emt.tag.Feather Wings=Sadece animelerde işe yarar...
+emt.text.Feather Wings=Tüyleri karton levhalara koli bandıyla yapıştırıp kanat şekli vermek iyi bir fikir gibi gelmişti. En azından boşluk tuşuna bastığında kendini havaya itebiliyorsun. Fazla değil, ama işe yarar. Kanatları su altında veya yağmur sırasında kullanmak çok kötü bir fikir gibi görünüyor. Dahil: %25 düşme hasarı azaltımı.
 
-emt.rsname.Thaumium Reinforced Wings=Thaumium Reinforced Wings
-emt.tag.Thaumium Reinforced Wings=Already much better
-emt.text.Thaumium Reinforced Wings=The magic infusing Thaumium is well known. Therefore, reinforcing your cardboard wings with Thaumium sounded like a good idea. You can thrust yourself much higher when spacebar is pressed, and slow your fall down when spacebar is held. Sneak to go down at a steady pace. Included: fall damage reduction, 50%.
+emt.rsname.Thaumium Reinforced Wings=Thaumium Güçlendirmeli Kanatlar
+emt.tag.Thaumium Reinforced Wings=Şimdiden çok daha iyi
+emt.text.Thaumium Reinforced Wings=Thaumium'a işlenen büyü iyi bilinir. Bu yüzden mukavva kanatlarını Thaumium ile güçlendirmek kulağa iyi bir fikir gibi gelmişti. Boşluk tuşuna bastığında kendini çok daha yükseğe itebilir, boşluk tuşunu basılı tuttuğunda düşüşünü yavaşlatabilirsin. Sabit bir hızda alçalmak için eğil. Dahil: düşme hasarı azaltımı, %50.
 
-emt.rsname.Nanosuit Wings=Nanosuit Wings
-emt.tag.Nanosuit Wings=Nanotechnologies to the rescue!
-emt.text.Nanosuit Wings=Combining the magic harnessed by Thaumium with the nanotechnologies in your wings.. seemed like the logical way to go. You can thrust yourself way higher than before, and fall even slower when holding spacebar. Included: fall damage reduction, 75%.
+emt.rsname.Nanosuit Wings=Nanozırh Kanatları
+emt.tag.Nanosuit Wings=Nanoteknoloji imdada yetişti!
+emt.text.Nanosuit Wings=Thaumium'un barındırdığı büyüyü kanatlarındaki nanoteknolojiyle birleştirmek.. mantıklı bir yol gibi görünmüştü. Kendini eskisinden çok daha yükseğe itebilir, boşluk tuşunu basılı tuttuğunda daha da yavaş düşebilirsin. Dahil: düşme hasarı azaltımı, %75.
 
-emt.rsname.Quantum Wings=Quantum Wings
-emt.tag.Quantum Wings=Quantum technologies.
-emt.text.Quantum Wings=After exploring all the possibilities of nanotechnologies, you decided to do the last jump. Quantum. You can thrust yourself many blocks high, have a very good protection, and your fall is slowed down a lot. However, the quantum unpredictability happened once again. Your fall will be completely stopped when spacebar and sneak are maintained. You don't know why, but it works. Included: fall damage reduction, 100%.
+emt.rsname.Quantum Wings=Kuantum Kanatları
+emt.tag.Quantum Wings=Kuantum teknolojileri.
+emt.text.Quantum Wings=Nanoteknolojinin tüm olasılıklarını keşfettikten sonra son sıçramayı yapmaya karar verdin. Kuantum. Kendini çok sayıda blok yükseğe itebilir, çok iyi bir korumaya sahip olursun ve düşüşün büyük ölçüde yavaşlar. Ancak kuantumun öngörülemezliği bir kez daha kendini gösterdi. Boşluk tuşu ve eğilme basılı tutulduğunda düşüşün tamamen durur. Nedenini bilmiyorsun ama işe yarıyor. Dahil: düşme hasarı azaltımı, %100.
 
-emt.rsname.Infused Quantum Armor=Infused Quantum Сhestplate.
-emt.tag.Infused Quantum Armor=The last step is here...
-emt.text.Infused Quantum Armor=You had nothing to do and you decided to do something useful. You had an idea in your head of making armor which you can fasten the wings or backpack to protect yourself in flight. Take the wings or backpack in your hands and sit down to put them on the armor. To remove them, hold Shift + "Unequip"(see in options).
+emt.rsname.Infused Quantum Armor=Yüklü Kuantum Göğüslüğü.
+emt.tag.Infused Quantum Armor=Son adım burada...
+emt.text.Infused Quantum Armor=Yapacak hiçbir şeyin yoktu ve işe yarar bir şey yapmaya karar verdin. Aklında, uçuş sırasında kendini korumak için kanatları veya sırt çantasını üzerine takabileceğin bir zırh yapma fikri vardı. Kanatları ya da sırt çantasını eline al ve zırhın üzerine takmak için otur. Çıkarmak için Shift + "Çıkar" tuşlarına basılı tut (seçeneklerde gör).

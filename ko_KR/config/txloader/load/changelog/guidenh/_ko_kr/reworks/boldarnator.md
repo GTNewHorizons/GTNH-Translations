@@ -24,7 +24,7 @@ The <Color id="GREEN">Boldarnator</Color> is an IV tier multiblock for creating 
 > Lava and water are no longer needed to be supplied, as they exist with the structure
 
 ## Construction
-The <Color id="GREEN">Boldarnator</Color> has no tiered components. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. The lava and water are spawned for free once the structure is formed and therefore does NOT need to be placed manually. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass. 
+The <Color id="GREEN">Boldarnator</Color> has no tiered components. The glass can be any tier and has no effect on the operation of the machine. Buses/hatches may replace any casing anywhere on the structure. <Color id="RED">Multi-Amp and Laser Energy Hatches</Color> are not supported, but there can be multiple regular energy hatches for overclocking. The lava and water are spawned for free once the structure is formed and therefore do NOT need to be placed manually. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannel "glass" to specify the tier of the glass. 
 
 ### Requires:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15556"/><ItemImage id="gregtech:gt.blockmachines:15556"/>
@@ -43,7 +43,7 @@ The <Color id="GREEN">Boldarnator</Color> has no tiered components. The glass ca
 ## Usage
 The <Color id="GREEN">Boldarnator</Color> is a direct upgrade from the singleblock rock breaker because it runs at 300% speed, only uses 75% of the EU/t normally required, and offers 8 parallels per voltage tier. 
 
-The <Color id="GREEN">Boldarnator</Color> has seven available recipes, listed below by their programmed circuit value. Five of them are completely free and only require specific non-consumable catalysts in the input bus. The other two consume 1 redstone dust per obsidian and 1 glowstone dust per netherrack. Despite appearing as a requirement in NEI, the lava and water is taken directly from the tanks on either side and does not need to be present in an input hatch.
+The <Color id="GREEN">Boldarnator</Color> has seven available recipes, listed below by their programmed circuit value. Five of them are completely free and only require specific non-consumable catalysts in the input bus. The other two consume 1 redstone dust per obsidian and 1 glowstone dust per netherrack. Despite appearing as a requirement in NEI, the lava and water are taken directly from the tanks on either side and do not need to be present in an input hatch.
 
 1. Cobblestone - Free
 2. Stone - Free

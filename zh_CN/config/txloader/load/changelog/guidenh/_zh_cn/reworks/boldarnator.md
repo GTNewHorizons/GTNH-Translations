@@ -24,21 +24,21 @@ date: 2026-05-27
 > 无需再供给岩浆和水，因为它们随结构一同存在
 
 ## 结构建造
-<Color id="GREEN">工业碎石机</Color>没有分级部件。玻璃可以是任意等级，对机器的运行没有影响。总线/仓可替换结构中任意位置的机械方块。<Color id="RED">多A能源仓和激光能源仓</Color>不受支持，但可以有多个常规能源仓用于超频。结构成型后岩浆和水会免费生成，因此__无需__手动放置。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 配合子通道 "glass" 指定玻璃等级，即可预览/建造该结构。
+<Color id="GREEN">工业碎石机</Color>没有任意等级部件。玻璃可以是任意等级，对机器的运行没有影响。总线/仓可替换结构中任意位置的机械方块。<Color id="RED">多A能源仓和激光能源仓</Color>不受支持，但可以有多个常规能源仓用于超频。结构成型后岩浆和水会免费生成，因此__无需__手动放置。使用 <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> 配合子信道 "glass" 指定玻璃等级，即可预览/建造该结构。
 
 ### 需要：
 - 1 <ItemLink id="gregtech:gt.blockmachines:15556"/><ItemImage id="gregtech:gt.blockmachines:15556"/>
 - 50-53 <ItemLink id="miscutils:gtplusplus.blockcasings.2"/><ItemImage id="miscutils:gtplusplus.blockcasings.2"/>
 - 36 <ItemLink id="gregtech:gt.blockframes:81"/><ItemImage id="gregtech:gt.blockframes:81"/>
-- 12 等级玻璃（任意） <ItemImage id="bartworks:BW_GlasBlocks:15"/>
+- 12 任意等级玻璃 <ItemImage id="bartworks:BW_GlasBlocks:15"/>
 - 1+ 能源仓（任意外壳） <ItemImage id="gregtech:gt.blockmachines:40" />
 - 1 维护仓（任意外壳） <ItemImage id="gregtech:gt.blockmachines:90" />
 - 1 消声仓（任意外壳） <ItemImage id="gregtech:gt.blockmachines:91" />
 - 0+ 输入总线（任意外壳） <ItemImage id="gregtech:gt.blockmachines:70" />
 - 1+ 输出总线（任意外壳） <ItemImage id="gregtech:gt.blockmachines:80" />
 
-### 共墙
-<Color id="GREEN">工业碎石机</Color>可在各自侧面共墙，以节省机械方块、玻璃、框架方块以及总线/仓。这包括两侧的储罐，但若不先将其中一台控制器水平翻转（用扳手潜行右键），两侧的流体便无法对调。没有配方会消耗超过 0.5A 的电力，因此可以在 <u>__四__</u> 台机器之间共享 <u>__一__</u> 个能源仓。
+### 共用墙壁
+<Color id="GREEN">工业碎石机</Color>可在各自侧面共用墙壁，以节省机械方块、玻璃、框架方块以及总线/仓。这包括两侧的储罐，但若不先将其中一台控制器水平翻转（用扳手潜行右键），两侧的流体便无法对调。没有配方会消耗超过 0.5A 的电力，因此可以在 <u>__四__</u> 台机器之间共享 <u>__一__</u> 个能源仓。
 
 ## 用法
 <Color id="GREEN">工业碎石机</Color>是单方块碎石机的直接升级，因为它以 300% 的速度运行，只消耗正常所需 75% 的 EU/t，并在每个电压等级提供 8 并行。
@@ -53,8 +53,8 @@ date: 2026-05-27
 6. 地狱岩 - 每次操作消耗 1 个荧石。
 7. 末地石 - 免费。
 
-<Color id="GREEN">工业碎石机</Color>对“圆石制硅”生产线尤其有用。将圆石粉碎成砾石，再粉碎成沙。将沙电解成二氧化硅粉，再与镁粉反应，即可获得源源不断的硅。氧化镁粉可在无损耗的闭环系统中电解回镁粉。这一过程还会产生一些氧气作为副产品。
+<Color id="GREEN">工业碎石机</Color>对“圆石制硅”生产线尤其有用。将圆石粉碎成沙砾，再粉碎成沙。将沙电解成二氧化硅粉，再与镁粉反应，即可获得源源不断的硅。苦土粉可在无损耗的闭环系统中电解回镁粉。这一过程还会产生一些氧气作为副产品。
 
-<Color id="GREEN">工业碎石机</Color>也可用于为神秘时代树苗生产圆石，树苗会自动把圆石转化为灵魂沙（下界树苗）或末地石（末地树苗）。离心灵魂沙可获得无限量的硝石、煤粉、沙和石油。离心末地石粉可获得无限量的钨酸锂、铂金属粉、沙和氦。相关搭建方法的视频教程可在[这里](https://www.youtube.com/watch?v=-Xvlm86FScA)找到。
+<Color id="GREEN">工业碎石机</Color>也可用于为神秘时代树苗生产圆石，树苗会自动把圆石转化为灵魂沙（地狱树苗）或末地石（末地树苗）。离心灵魂沙可获得无限量的硝石、煤粉、沙和石油。离心末地石粉可获得无限量的钨酸锂、铂金属粉、沙和氦。相关搭建方法的视频教程可在[这里](https://www.youtube.com/watch?v=-Xvlm86FScA)找到。
 
 工业碎石机 的其他用途还包括：在 LuV 阶段为末影采石场生产足够的黑曜石，以及在 UV 阶段为基岩锭生产足够的圆石（每锭需要 26,244 个圆石）。

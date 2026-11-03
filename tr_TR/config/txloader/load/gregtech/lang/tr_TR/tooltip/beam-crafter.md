@@ -1,7 +1,7 @@
-Has {color_parallel:{var:parallel}} parallels
-Collides two beams of particles into target materials to modify their subatomic structure
-Input beams can be supplied to either {color_name:Beam Input Hatch}
-Inputs are consumed immediately and will wait for particles
+{color_parallel:{var:parallel}} paralel sayısına sahip
+Hedef materyallerin atom altı yapısını değiştirmek için iki parçacık demetini çarpıştırır
+Girdi demetleri {color_name:Demet Girdi Kapağı} kısımlarından herhangi birine verilebilir
+Girdiler anında tüketilir ve parçacıkları bekler
 {hr}
-Up to {color_amount:{var:max_buffer}} particles of each type can be buffered
-Recipe progress is determined purely by particles consumed from the buffer
+Her tipten en fazla {color_amount:{var:max_buffer}} parçacık tamponda tutulabilir
+Tarif ilerlemesi yalnızca tampondan tüketilen parçacıklara göre belirlenir

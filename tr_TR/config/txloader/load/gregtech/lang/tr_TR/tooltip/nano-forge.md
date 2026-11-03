@@ -1,5 +1,5 @@
-Requires insane amounts of power to create nanites
-The {color_name:Nanite} in the controller slot determines Machine Tier
-{color_note:Tier 4 has additional mechanics, check the controller}
+Nanit oluşturmak için çılgın miktarda güç gerektirir
+Kontrolcü yuvasındaki {color_name:Nanit}, Makine Kademesini belirler
+{color_note:Kademe 4'ün ek mekanikleri vardır, kontrolcüye bak}
 {hr}
-{color_mechanic:Performs 4/4 Perfect Overclocks} on lower-tier recipes
+Alt kademe tariflerde {color_mechanic:4/4 Mükemmel Aşırı Hız Aşımı yapar}

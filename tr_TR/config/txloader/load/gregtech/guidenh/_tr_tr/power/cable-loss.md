@@ -1,29 +1,29 @@
 ---
 navigation:
-  title: "Cable Loss"
+  title: "Kablo Kaybı"
   icon: gregtech:gt.metatool.01:26
   parent: power-index.md
   position: -5
 ---
 
-# Cable Loss
+# Kablo Kaybı
 
-**Cable loss** is the extra power cost that may occur while power is transmitted through [wires and cables](cable.md). It is a core mechanic of the GT [local power network](enet.md). Early in the game, because machine voltages are low, controlling cable loss is very important. As voltage tiers rise, cable loss becomes less important.
+**Kablo kaybı**, güç [teller ve kablolar](cable.md) üzerinden iletildiğinde ortaya çıkabilecek ek güç maliyetidir. GT [yerel enerji ağı](enet.md) sisteminin temel bir mekaniğidir. Oyunun başlarında makine gerilimleri düşük olduğu için kablo kaybını kontrol etmek çok önemlidir. Gerilim kademeleri yükseldikçe kablo kaybı daha az önemli hale gelir.
 
-# Loss Rate
+# Kayıp Oranı
 
-Each [wire and cable](cable.md) has a cable loss rate parameter (shown in the tooltip as "loss/m/amp: x V"). Let that loss rate be $$\rho$$ and wire length be $$L$$. Then the actual input voltage after a packet passes through the wire is:
+Her [tel ve kablonun](cable.md) bir kablo kayıp oranı parametresi vardır (ipucunda "loss/m/amp: x V" olarak gösterilir). Kayıp oranı $$\rho$$ ve tel uzunluğu $$L$$ olsun. Bir paket telden geçtikten sonra gerçek giriş gerilimi şöyledir:
 
 $$U_{\text{input}} = U_{\text{output}} - \rho L_{\text{wire}}$$
 
-The power lost to the wire is:
+Tele kaybedilen güç:
 
 $$P_{\text{cable loss}} = I \rho L_{\text{wire}}$$
 
-So cable loss is proportional to loss rate, current, and wire length. If wire length, loss rate, and transmitted power stay the same, then raising transmission voltage lowers current and therefore indirectly lowers cable loss. **Every tier increase in transmission voltage reduces cable loss to one quarter**.
+Yani kablo kaybı kayıp oranı, akım ve tel uzunluğuyla orantılıdır. Tel uzunluğu, kayıp oranı ve iletilen güç aynı kalırsa iletim gerilimini yükseltmek akımı düşürür ve dolayısıyla kablo kaybını dolaylı olarak azaltır. **İletim gerilimindeki her kademe artışı kablo kaybını dörtte bire indirir**.
 
-Example: any Tin Cable has a loss rate of 1 V/m. If 32V 2A power travels through 2 m of Tin Cable, it becomes 30V 2A at the destination, and the cable loss along the way is 4 EU/t.
+Örnek: herhangi bir Kalay Kablonun kayıp oranı 1 V/m'dir. 32V 2A güç 2 m Kalay Kablodan geçerse hedefte 30V 2A olur ve yol boyunca kablo kaybı 4 EU/t'dir.
 
-The section [Providing Power Reliably](enet.md#providing-power-reliably) only considers the zero-loss case. With cable loss present, first calculate the actual packet voltage the consumer receives, then apply the rest of the logic unchanged.
+[Gücü Güvenilir Sağlama](enet.md#providing-power-reliably) bölümü yalnızca sıfır kayıp durumunu ele alır. Kablo kaybı varken önce tüketicinin aldığı gerçek paket gerilimini hesapla, ardından mantığın geri kalanını değiştirmeden uygula.
 
-When cable loss reduces voltage, you can compensate for the lost power by increasing input current. However, current cannot exceed either the wire's maximum current or the consumer's maximum input current. If increasing current is still not enough, you need lower-loss wire, higher-current wire, or a shorter transmission path.
+Kablo kaybı gerilimi düşürdüğünde kaybedilen gücü giriş akımını artırarak telafi edebilirsin. Ancak akım ne telin maksimum akımını ne de tüketicinin maksimum giriş akımını aşabilir. Akımı artırmak yine de yetmiyorsa daha düşük kayıplı tel, daha yüksek akımlı tel veya daha kısa bir iletim yolu gerekir.

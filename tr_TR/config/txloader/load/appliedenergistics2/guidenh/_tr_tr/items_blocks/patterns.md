@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Pattern
+  title: Kalıp
   icon: appliedenergistics2:item.ItemMultiMaterial:52
   position: 410
 categories:
@@ -10,35 +10,24 @@ item_ids:
 - appliedenergistics2:item.ItemMultiMaterial:52
 ---
 
-# Patterns
+# Kalıplar
 
 <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:52" scale="4" />
 
-Patterns are made in an <ItemLink id="appliedenergistics2:item.ItemMultiPart:340" /> from blank patterns. They can be
-placed in <ItemLink id="appliedenergistics2:tile.BlockInterface" />s and <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" />s.
+Kalıplar, boş kalıplardan bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:340" /> içinde yapılır. <ItemLink id="appliedenergistics2:tile.BlockInterface" /> ve <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> blokları içine yerleştirilebilirler.
 
-There are several types of pattern for different processing methods:
+Farklı işleme yöntemleri için birkaç kalıp türü vardır:
 
-*   <ItemLink id="appliedenergistics2:item.ItemEncodedPattern" />s encode crafting-table recipes. They can be placed directly
-    in a <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> to craft the result when ingredients are inserted,
-    but their main use is in an <ItemLink id="appliedenergistics2:tile.BlockInterface" /> next to a molecular assembler.
-    ME Interfaces send the pattern and its ingredients to adjacent assemblers, which automatically eject their results.
+*   <ItemLink id="appliedenergistics2:item.ItemEncodedPattern" /> üretim tezgahı tariflerini kodlar. Girdi maddeleri yerleştirildiğinde sonucu üretmesi için doğrudan bir <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> içine konabilirler, ancak asıl kullanımları bir Moleküler Montajcının yanındaki <ItemLink id="appliedenergistics2:tile.BlockInterface" /> içindedir. ME Arayüzleri kalıbı ve girdilerini yanlarındaki montajcılara gönderir; onlar da sonuçlarını otomatik olarak dışarı atar.
 
-*   <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />s are processing patterns and provide the most
-    flexibility. They only state that, if an ME Interface sends the listed inputs to adjacent inventories, the ME network
-    will receive the listed outputs at some point. The machine or process between the inputs and outputs does not matter.
+*   <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" /> işleme kalıplarıdır ve en fazla esnekliği sunar. Yalnızca şunu belirtirler: bir ME Arayüzü listelenen girdileri yanındaki envanterlere gönderirse, ME Ağı bir noktada listelenen çıktıları alacaktır. Girdiler ile çıktılar arasındaki makine veya işlem önemli değildir.
 
-The source also registers <ItemLink id="appliedenergistics2:item.ItemTunnelPattern" />, a processing-pattern variant used
-only by tunnel-pattern setups.
+Kaynak ayrıca yalnızca tünel kalıbı düzeneklerinde kullanılan bir işleme kalıbı varyantı olan <ItemLink id="appliedenergistics2:item.ItemTunnelPattern" /> öğesini de kaydeder.
 
-Multiple interfaces with identical patterns work in parallel. A pattern can also represent a whole batch, such as
-8 cobblestone = 8 stone instead of 1 cobblestone = 1 stone, so the interface sends eight inputs per operation.
+Aynı kalıplara sahip birden çok arayüz paralel çalışır. Bir kalıp bütün bir yığını da temsil edebilir; örneğin 1 kırıktaş = 1 taş yerine 8 kırıktaş = 8 taş, böylece arayüz her işlemde sekiz girdi gönderir.
 
-This fork also adds the <ItemLink id="appliedenergistics2:item.ItemMultiPart:473" />. Place a pair facing each other on
-separate ME networks, then use a Certus Quartz Wrench on a repeater to switch it between **Provider** and **Accessor**
-mode. The Provider mirrors the crafting patterns and craftable items from the network in front of it, allowing the other
-network to use them for autocrafting. Both repeaters must be connected to powered ME networks.
+Bu fork ayrıca <ItemLink id="appliedenergistics2:item.ItemMultiPart:473" /> öğesini de ekler. Ayrı ME Ağlarına birbirine bakan bir çift yerleştir, ardından bir tekrarlayıcıya Certus Kuvars İngiliz Anahtarı kullanarak onu **Provider** ve **Accessor** modu arasında geçiş yaptır. Provider, önündeki Ağdaki üretim kalıplarını ve üretilebilir eşyaları yansıtır ve diğer Ağın bunları otomatik üretim için kullanmasını sağlar. Her iki tekrarlayıcı da güç verilmiş ME Ağlarına bağlı olmalıdır.
 
-## Recipes
+## Tarifler
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiMaterial:52" />

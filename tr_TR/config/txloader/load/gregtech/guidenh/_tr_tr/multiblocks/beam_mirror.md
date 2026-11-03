@@ -4,78 +4,78 @@ item_ids:
 quest_ids:
   - _xupoCqbT52qN_3zQonWNg==
 navigation:
-  title: Beam Mirror
+  title: Işın Aynası
   parent: ./large_hadron_collider.md
   icon: gregtech:gt.blockmachines:3016
   position: -8001
 ---
-# Beam Mirror
+# Işın Aynası
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:3016" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" /> is a UV tier multiblock for bending particle beams at 90° or 180° angles. 
+<ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" />, parçacık ışınlarını 90° veya 180° açılarla büken bir UV kademesi multibloğudur.
 
-The Beam Mirror only supports one beam input hatch and one beam output hatch, but it does not require any power or maintenance to run. Particle beams also do not suffer any penalties or lose any of their stats when passing through the machine. 
+Işın Aynası yalnızca bir ışın girdi kapağını ve bir ışın çıkış kapağını destekler, ancak çalışmak için hiçbir güç veya bakım gerektirmez. Parçacık ışınları da makineden geçerken herhangi bir ceza almaz veya istatistiklerinden hiçbirini kaybetmez.
 
-The Beam Mirror is completely optional, but may assist with the [Beam Line](./beam_line.md) and/or the [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md). Check the [<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md) and [<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md) to modify beams before processing recipes in the [<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md).
+Işın Aynası tamamen isteğe bağlıdır, ancak [Işın Hattı](./beam_line.md) ve/veya [<ItemLink id="gregtech:gt.blockmachines:3013" showIcon="left" />](./large_hadron_collider.md) ile yardımcı olabilir. [<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md) ve [<ItemLink id="gregtech:gt.blockmachines:3018" showIcon="left" />](./beam_stabilizer.md) öğelerine bak; bunlar, tarifleri [<ItemLink id="gregtech:gt.blockmachines:3015" showIcon="left" />](./beam_crafter.md) içinde işlemeden önce ışınları değiştirmene yarar.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | UV |
-| Structure Size (LxWxH) | 5x3x5 (90°) |
+| Açılma Kademesi | UV |
+| Yapı Boyutu (UxGxY) | 5x3x5 (90°) |
 | ^^ | 5x3x6 (180°) |
-| Power | None |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| Güç | Yok |
+| Overclock | Yok |
+| Bakım | Bakım gerekmez |
+| Kirlilik | Kirlilik üretmez |
 
-## Crafting and Construction
-### Crafting
+## Üretim ve İnşa
+### Üretim
 <RecipesFor id="gregtech:gt.blockmachines:3016" />
 
 <RecipesFor id="gregtech:gt.blockcasings3:10" />
 
 <RecipesFor id="gtnhlanth:casing.shielded_accelerator" handlerBlacklist="bq_quest" />
 
-### Structure
-The Beam Mirror has no tiered components. 
+### Yapı
+Işın Aynası'nın kademeli bileşeni yoktur.
 
-The glass can be any tier and has no effect on the operation of the machine. 
+Cam herhangi bir kademede olabilir ve makinenin çalışması üzerinde hiçbir etkisi yoktur.
 
-The Beam Mirror can be rotated or flipped.
+Işın Aynası döndürülebilir veya ters çevrilebilir.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure with subchannel "glass" to specify the tier of the glass and the projector stack size to specify the angle (1 for 90°, and 2 for 180°).
+Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan; camın kademesini belirtmek için "glass" alt kanalını ve açıyı belirtmek için projektör yığın boyutunu kullan (90° için 1, 180° için 2).
 
 <ContentTabs>
-  <Tab title="90° Structure">
-  | Component | Quantity and placement |
+  <Tab title="90° Yapı">
+  | Bileşen | Miktar ve yerleşim |
   | --- | --- |
-  | <ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" /> | 1, Front bottom center |
+  | <ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" /> | 1, Ön alt orta |
   | <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> | 31 |
-  | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 9, Cover both ends of the machine |
-  | <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 5 |
-  | <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1, Above controller |
-  | <ItemImage id="gregtech:gt.blockmachines:10504" noTooltip /><Tooltip label="Beam Output Hatch">Normal/Filtered both supported</Tooltip> | 1, Top of the side opposite the controller, must be rotated so its back faces the glass |
+  | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 9, Makinenin her iki ucunu kaplar |
+  | <ItemImage id="bartworks:BW_TieredGlass" />Herhangi bir kademeli cam | 5 |
+  | <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1, Kontrolcünün üstünde |
+  | <ItemImage id="gregtech:gt.blockmachines:10504" noTooltip /><Tooltip label="Işın Çıkış Kapağı">Normal/Filtreli ikisi de desteklenir</Tooltip> | 1, Kontrolcünün karşısındaki tarafın üstü, arkası cama bakacak şekilde döndürülmeli |
   </Tab>
 
-  <Tab title="180° Structure">
-  | Component | Quantity and placement |
+  <Tab title="180° Yapı">
+  | Bileşen | Miktar ve yerleşim |
   | --- | --- |
-  | <ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" /> | 1, Front bottom center |
+  | <ItemLink id="gregtech:gt.blockmachines:3016" showIcon="left" /> | 1, Ön alt orta |
   | <ItemLink id="gtnhlanth:casing.shielded_accelerator" showIcon="left" /> | 52 |
-  | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 9, Cover both ends of the machine |
-  | <ItemImage id="bartworks:BW_TieredGlass" />Any Tiered Glass | 8 |
-  | <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1, Above controller |
-  | <ItemImage id="gregtech:gt.blockmachines:10504" noTooltip /><Tooltip label="Beam Output Hatch">Normal/Filtered both supported</Tooltip> | 1, Top of the side opposite the controller, must be rotated so its back faces the glass |
+  | <ItemLink id="gregtech:gt.blockcasings3:10" showIcon="left" /> | 9, Makinenin her iki ucunu kaplar |
+  | <ItemImage id="bartworks:BW_TieredGlass" />Herhangi bir kademeli cam | 8 |
+  | <ItemLink id="gregtech:gt.blockmachines:10503" showIcon="left" /> | 1, Kontrolcünün üstünde |
+  | <ItemImage id="gregtech:gt.blockmachines:10504" noTooltip /><Tooltip label="Işın Çıkış Kapağı">Normal/Filtreli ikisi de desteklenir</Tooltip> | 1, Kontrolcünün karşısındaki tarafın üstü, arkası cama bakacak şekilde döndürülmeli |
   </Tab>
 </ContentTabs>
 
 
-### Wallshare
+### Duvar Paylaşımı
 
-Beam Mirrors may wallshare each of their sides to save on casings. Sharing is useful for bending the outputs of the [<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md) because the beam output hatches are so close together.
+Işın Aynaları kasa tasarrufu için her bir yüzünde duvar paylaşımı yapabilir. Işın çıkış kapakları birbirine çok yakın olduğu için [<ItemLink id="gregtech:gt.blockmachines:3017" showIcon="left" />](./beam_splitter.md) çıktılarını bükmek için paylaşım kullanışlıdır.
 
-## References
+## Kaynaklar
 
-- [GTNH Wiki : Beam Mirror](https://wiki.gtnewhorizons.com/wiki/Beam_Mirror)
+- [GTNH Wiki : Işın Aynası](https://wiki.gtnewhorizons.com/wiki/Beam_Mirror)

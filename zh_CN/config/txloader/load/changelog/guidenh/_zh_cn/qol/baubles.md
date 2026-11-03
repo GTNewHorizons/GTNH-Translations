@@ -17,7 +17,7 @@ date: 2026-05-16
 - 新增了让指定匠魂物品放入饰品格槽的支持：
 - - <Color id="GREEN">旅行腰带</Color> - 槽位类型：通用
 - - <Color id="RED">旅行手套</Color> - 槽位类型：通用
-- - <Color id="BLUE">心之罐</Color> - 自定义槽位，可堆叠至 10！
+- - <Color id="BLUE">心之容器</Color> - 自定义槽位，可堆叠至 10！
 
 - 将佩戴火把和方块的功能移至 <Color id="GREEN">自定义外观护甲</Color> - 现在你可以有型地戴上泥土帽子了！该功能同样支持 <Color id="GREEN">动态光照</Color>
 

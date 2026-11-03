@@ -1,45 +1,45 @@
 ---
 navigation:
-  title: "Power Distribution"
+  title: "Güç Dağıtımı"
   icon: gregtech:gt.blockmachines:15300
   parent: power_index.md
   position: -7
 ---
 
-# Power Distribution
+# Güç Dağıtımı
 
-By combining voltage conversion, current limiting, and energy storage, multiple [local power networks](enet.md) can be tied together. Devices with these functions are often the bridge between different local power networks: they act as both consumer blocks and transmitter blocks, taking power in from one network through their internal EU buffer and outputting power to another network.
+Gerilim dönüşümü, akım sınırlama ve enerji depolamayı bir araya getirerek birden fazla [yerel güç ağı](enet.md) birbirine bağlanabilir. Bu işlevlere sahip cihazlar genellikle farklı yerel güç ağları arasında köprü görevi görür: hem tüketici blokları hem de verici blokları olarak çalışır, bir ağdan dahili EU tamponları aracılığıyla güç alıp başka bir ağa güç verirler.
 
-# Transformers
+# Trafolar
 
 > [!WARNING]
-> Switching transformer mode while it is powered causes it to explode immediately.
+> Güç verilmişken trafo modunu değiştirmek, trafonun hemen patlamasına neden olur.
 
-Transformers change voltage to reduce transmission losses, drive higher-tier machines, and more. Because a transformer is only converting power between voltages, changes in voltage are usually accompanied by changes in current.
+Trafolar, iletim kayıplarını azaltmak, daha yüksek kademeli makineleri çalıştırmak ve daha fazlası için gerilimi değiştirir. Bir trafo gücü yalnızca gerilimler arasında dönüştürdüğü için, gerilimdeki değişikliklere genellikle akımda da değişiklikler eşlik eder.
 
-**Singleblock transformers** can raise or lower voltage by one tier, while current changes by a factor of 4. They have 1 high-voltage face and 5 low-voltage faces. While holding <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" />, <kbd>Right-click</kbd> to toggle between step-up mode and step-down mode. The high-voltage face is marked with a circle, the low-voltage faces with squares, and the colors match the tier color shown in the tooltip. In the default step-down mode, the high-voltage face is input and the low-voltage faces are output; in step-up mode, the direction is reversed.
+**Tek bloklu trafolar** gerilimi bir kademe yükseltebilir veya düşürebilir; akım ise 4 kat değişir. 1 yüksek gerilim yüzü ve 5 düşük gerilim yüzü vardır. <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" /> tutarken <kbd>Sağ tıkla</kbd> ile yükseltme modu ve düşürme modu arasında geçiş yap. Yüksek gerilim yüzü daire ile, düşük gerilim yüzleri kareler ile işaretlenmiştir ve renkler ipucunda gösterilen kademe rengiyle eşleşir. Varsayılan düşürme modunda yüksek gerilim yüzü girdi, düşük gerilim yüzleri çıktıdır; yükseltme modunda yön tersine döner.
 
-- Maximum input voltage: the standard voltage of the tier corresponding to the input face.
-- Output voltage: the standard voltage of the tier corresponding to the output face.
-- Maximum current: the tooltip's amperage value is the maximum current of the low-voltage faces; the high-voltage face supports one quarter of that amperage.
+- Maksimum girdi gerilimi: girdi yüzüne karşılık gelen kademenin standart gerilimi.
+- Çıktı gerilimi: çıktı yüzüne karşılık gelen kademenin standart gerilimi.
+- Maksimum akım: ipucundaki amperaj değeri düşük gerilim yüzlerinin maksimum akımıdır; yüksek gerilim yüzü bu amperajın dörtte birini destekler.
 
-The **Energy Distributor** is another singleblock device that converts extremely high current at low voltage into high voltage.
+**Enerji Dağıtıcısı** düşük gerilimdeki aşırı yüksek akımı yüksek gerilime dönüştüren bir başka tek bloklu cihazdır.
 
-The **Active Transformer** (<ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />) is a multiblock transformer. It uses Energy Hatches and Dynamo Hatches as its power I/O. TecTech machines with power transmission enabled can also serve as active transformers.
+**Aktif Trafo** (<ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />) bir multiblok trafodur. Güç G/Ç'si olarak Enerji Kapakları ve Dinamo Kapakları kullanır. Güç iletimi etkinleştirilmiş TecTech makineleri de aktif trafo olarak görev yapabilir.
 
-# Cable Diodes
+# Kablo Diyotları
 
-**Cable diodes** restrict current direction, allowing packets to travel only from the input side to the output side. They also contain a small internal EU buffer, so they provide a limited amount of voltage smoothing.
+**Kablo diyotları** akımın yönünü kısıtlar ve paketlerin yalnızca girdi tarafından çıktı tarafına gitmesine izin verir. Ayrıca küçük bir dahili EU tamponu içerirler, böylece sınırlı miktarda gerilim yumuşatması sağlarlar.
 
-Cable diodes come in different tiers and current limits. The tooltip shows their maximum allowed voltage and maximum through-current. Exceed either value and the diode burns out.
+Kablo diyotları farklı kademelerde ve akım sınırlarında gelir. İpucu, izin verilen maksimum gerilimi ve maksimum geçiş akımını gösterir. Bu değerlerden birini aşarsan diyot yanar.
 
-# Battery Buffers
+# Pil Tamponları
 
-Battery Buffers are the most common storage devices at low voltage, and they require batteries of the matching tier:
+Pil Tamponları düşük gerilimde en yaygın depolama cihazlarıdır ve uyumlu kademedeki pilleri gerektirirler:
 
-- Maximum input voltage: the nominal voltage of the corresponding tier.
-- Maximum input current: 2A x number of batteries.
-- Output voltage: the nominal voltage of the corresponding tier.
-- Maximum output current: 1A x number of batteries.
+- Maksimum girdi gerilimi: karşılık gelen kademenin nominal gerilimi.
+- Maksimum girdi akımı: 2A x pil sayısı.
+- Çıktı gerilimi: karşılık gelen kademenin nominal gerilimi.
+- Maksimum çıktı akımı: 1A x pil sayısı.
 
-Storage devices can input and output power at the same time. Because Battery Buffers have different input and output current limits, they can also be used as an indirect way to limit current. For more storage options, see power storage and transport.
+Depolama cihazları aynı anda güç alıp verebilir. Pil Tamponlarının girdi ve çıktı akım sınırları farklı olduğundan, dolaylı bir akım sınırlama yöntemi olarak da kullanılabilirler. Daha fazla depolama seçeneği için güç depolama ve taşımaya bak.

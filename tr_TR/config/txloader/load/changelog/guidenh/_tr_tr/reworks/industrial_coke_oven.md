@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:15543
 navigation:
-  title: Industrial Coke Oven
+  title: Endüstriyel Kok Fırını
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15543
 categories:
@@ -11,49 +11,49 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Industrial Coke Oven
+# Endüstriyel Kok Fırını
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15543"/>
 </GameScene>
-The <Color id="GREEN" >Industrial Coke Oven (ICO)</Color> is an EV tier multiblock for mass burning logs into charcoal and one fluid byproduct (coal gas, wood gas, wood vinegar, wood tar, or charcoal byproducts). The fluid byproducts are useful for producing organic compounds such as ethylene, benzene, and toluene. The <Color id="GREEN">ICO</Color> is a direct upgrade from the Pyrolyse Oven <ItemImage id="gregtech:gt.blockmachines:15546"/> and Advanced Coke Oven <ItemImage id="Railcraft:machine.alpha:12"/> because it gains a <Color id="RED">2%</Color> energy discount per heating coil tier (multiplicative) and offers <Color id="BLUE">32</Color> parallels plus <Color id="BLUE">16</Color> per additional slice added to the structure. Additional slices are capped at 15 (16 total including the base structure) for all heating coil tiers except eternal, which has no limit. The <Color id="GREEN">ICO</Color> also unlocks the ability to use one <Color id="GREEN">Multi-Amp Energy Hatch</Color> with infinity heating coils or better. 
+<Color id="GREEN" >Endüstriyel Kok Fırını (ICO)</Color>, kütükleri toplu halde yakarak kömür ve tek bir sıvı yan ürüne (kömür gazı, odun gazı, odun sirkesi, odun katranı veya kömür yan ürünleri) dönüştürmek için kullanılan EV kademesi bir multibloktur. Sıvı yan ürünler etilen, benzen ve toluen gibi organik bileşiklerin üretiminde işe yarar. <Color id="GREEN">ICO</Color>, Piroliz Fırını <ItemImage id="gregtech:gt.blockmachines:15546"/> ve Gelişmiş Kok Fırını <ItemImage id="Railcraft:machine.alpha:12"/> göre doğrudan bir yükseltmedir; çünkü her ısıtma bobini kademesi için (çarpımsal) <Color id="RED">%2</Color> enerji indirimi kazanır ve <Color id="BLUE">32</Color> paralel ile yapıya eklenen her ek dilim için <Color id="BLUE">16</Color> paralel daha sunar. Ek dilimler, sınırı olmayan ebedi dışındaki tüm ısıtma bobini kademelerinde 15 ile sınırlıdır (temel yapı dahil toplam 16). <Color id="GREEN">ICO</Color> ayrıca sonsuzluk ısıtma bobinleri veya daha iyisiyle bir adet <Color id="GREEN">Çok Amperli Enerji Kapağı</Color> kullanma olanağını açar.
 
 <br clear="all"/>
 
 > [!NOTE]
-> The following changes have been made to the multiblock (aside from the structure):
-> - "Slice Architecture": The ICO now can have additional "slices", each giving +8/16 parallels depending on structure tier (max 15 slices, eternal coils unlock unlimited slices)
-> - Multi-Amp Support: Using Infinity Coils or higher unlocks the use of single Multi-Amp Hatches!
-> - EU Savings: Instead of -4% EU/t per Voltage Tier, now uses -2% EU/t per Heating Coil (multiplicative)
+> Multiblokta (yapı dışında) şu değişiklikler yapıldı:
+> - "Dilim Mimarisi": ICO artık ek "dilimlere" sahip olabilir; her biri yapı kademesine bağlı olarak +8/16 paralel verir (en fazla 15 dilim, ebedi bobinler sınırsız dilim açar)
+> - Çok Amperli Desteği: Sonsuzluk Bobinleri veya daha iyisini kullanmak, tek Çok Amperli Kapakların kullanımını açar!
+> - EU Tasarrufu: Gerilim Kademesi başına -%4 EU/t yerine artık Isıtma Bobini başına (çarpımsal) -%2 EU/t kullanır
 
-## Construction
-The <Color id="GREEN">ICO</Color> has two tiered components. The coke oven casings determine both the base number of parallels and the additional number of parallels per slice. The heating coils determine the energy discount of the machine. Buses/hatches may replace any structural coke oven casing on the base structure--NOT the additional slices. Laser energy hatches are not supported, but there can be multiple regular energy hatches for overclocking or one multi-amp energy hatch if the heating coils are infinity or better. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure with subchannels "coke_oven_casing" and "coil" to specify the tier of those components and subchannel "length" to specify the total number of slices. 
+## Yapım
+<Color id="GREEN">ICO</Color>'nun iki kademeli bileşeni vardır. Kok fırını kasaları hem temel paralel sayısını hem de dilim başına ek paralel sayısını belirler. Isıtma bobinleri makinenin enerji indirimini belirler. Veriyolları/kapaklar temel yapıdaki herhangi bir yapısal kok fırını kasasının yerine geçebilir; ek dilimlerdekilerin yerine GEÇEMEZ. Lazer enerji kapakları desteklenmez, ancak overclock için birden fazla normal enerji kapağı veya ısıtma bobinleri sonsuzluk ya da daha iyisiyse tek bir çok amperli enerji kapağı kullanılabilir. Bileşenlerin kademesini belirtmek için "coke_oven_casing" ve "coil" alt kanallarıyla, toplam dilim sayısını belirtmek için "length" alt kanalıyla yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan.
 
-### Base Structure Requires:
+### Temel Yapı İçin Gerekli:
 - 1 <ItemLink id="gregtech:gt.blockmachines:15543"/><ItemImage id="gregtech:gt.blockmachines:15543"/>
 - 35-48 <ItemLink id="miscutils:miscutils.blockcasings:1"/><ItemImage id="miscutils:miscutils.blockcasings:1"/>
 - 10 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
-- 8 Heating Coil (Tiered) <ItemImage id="gregtech:gt.blockcasings5:3"/>
-- 8 Heat Resistant/Proof Coke Oven Casing <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
-- 1+ Energy Hatch (any structural casing) <ItemImage id="gregtech:gt.blockmachines:40" />
-- 1 Maintenance Hatch (any structural casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any structural casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 0+ Input Bus (any structural casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any structural casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Bus (any structural casing) <ItemImage id="gregtech:gt.blockmachines:80" />
-- 0+ Output Hatch (any structural casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+- 8 Isıtma Bobini (Kademeli) <ItemImage id="gregtech:gt.blockcasings5:3"/>
+- 8 Isıya Dayanıklı/Isı Geçirmez Kok Fırını Kasası <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
+- 1+ Enerji Kapağı (herhangi bir yapısal kasa) <ItemImage id="gregtech:gt.blockmachines:40" />
+- 1 Bakım Kapağı (herhangi bir yapısal kasa) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (herhangi bir yapısal kasa) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 0+ Giriş Yolu (herhangi bir yapısal kasa) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ Girdi Kapağı (herhangi bir yapısal kasa) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Yolu (herhangi bir yapısal kasa) <ItemImage id="gregtech:gt.blockmachines:80" />
+- 0+ Çıkış Kapağı (herhangi bir yapısal kasa) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Each Additional Slice Requires:
+### Her Ek Dilim İçin Gerekli:
 - 19 <ItemLink id="miscutils:miscutils.blockcasings:1"/><ItemImage id="miscutils:miscutils.blockcasings:1"/>
 - 10 <ItemLink id="gregtech:gt.blockframes:305"/><ItemImage id="gregtech:gt.blockframes:305"/>
-- 8 Heating Coil (Tiered) <ItemImage id="gregtech:gt.blockcasings5:3"/>
-- 5 Heat Resistant/Proof Coke Oven Casing <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
+- 8 Isıtma Bobini (Kademeli) <ItemImage id="gregtech:gt.blockcasings5:3"/>
+- 5 Isıya Dayanıklı/Isı Geçirmez Kok Fırını Kasası <ItemImage id="miscutils:miscutils.blockcasings:2"/> / <ItemImage id="miscutils:miscutils.blockcasings:3"/>
 - 3 <ItemLink id="gregtech:gt.blockcasings2:13"/><ItemImage id="gregtech:gt.blockcasings2:13"/>
 
-### Wallsharing
-<Color id="GREEN">ICOs</Color> may wallshare nearly their entire structure with another one on the opposite end and flipped horizontally. This is highly recommended because it saves an incredible amount of casings, frame boxes, and heating coils--the second machine is basically free. However, buses/hatches are limited to the base structure and therefore cannot be shared in that configuration. No recipe uses more than 1A of power regardless of the energy discount so it is possible to share <u>__one__</u> energy hatch between <u>__two__</u> machines. 
+### Duvar Paylaşımı
+<Color id="GREEN">ICO</Color>'lar, neredeyse tüm yapılarını karşı uçta ve yatay olarak çevrilmiş başka bir ICO ile duvar paylaşımı yaparak kullanabilir. Bu şiddetle önerilir; çünkü inanılmaz miktarda kasa, çerçeve kutusu ve ısıtma bobininden tasarruf sağlar; ikinci makine adeta bedavadır. Ancak veriyolları/kapaklar temel yapıyla sınırlıdır ve bu nedenle bu düzenlemede paylaşılamaz. Enerji indirimine bakılmaksızın hiçbir tarif 1A'dan fazla güç kullanmaz, bu yüzden <u>__bir__</u> enerji kapağını <u>__iki__</u> makine arasında paylaşmak mümkündür.
 
-## Usage
-The <Color id="GREEN">ICO</Color> is a direct upgrade from the Pyrolyse Oven and Advanced Coke Oven because it gains a 2% energy discount per heating coil tier (multiplicative) and offers 32 parallels plus 16 per additional slice added to the structure, as seen in the following tables. Additional slices are capped at 15 (16 total including the base structure) for all heating coil tiers except eternal, which has no limit. 
+## Kullanım
+<Color id="GREEN">ICO</Color>, her ısıtma bobini kademesi için (çarpımsal) %2 enerji indirimi kazandığı ve aşağıdaki tablolarda görüldüğü gibi 32 paralel ile yapıya eklenen her ek dilim için 16 paralel daha sunduğu için Piroliz Fırını ve Gelişmiş Kok Fırınına göre doğrudan bir yükseltmedir. Ek dilimler, sınırı olmayan ebedi dışındaki tüm ısıtma bobini kademelerinde 15 ile sınırlıdır (temel yapı dahil toplam 16).
 
-The <Color id="GREEN">ICO</Color> is primarily used to burn logs into charcoal with the option of ONE fluid byproduct--determined by the programmed circuit in the input bus or controller. The most common choice is charcoal byproducts because it breaks down into dimethylbenzene, wood gas, wood vinegar, and wood tar in a Distillation Tower <ItemImage id="gregtech:gt.blockmachines:1126"/>. Another common choice is wood tar for making nitrobenzene more directly/efficiently. There is also the option to use 250L of nitrogen gas per 4 logs to double the processing speed of the machine, which is again determined by the programmed circuit in the input bus or controller.
+<Color id="GREEN">ICO</Color> esas olarak kütükleri, TEK bir sıvı yan ürün seçeneğiyle kömüre yakmak için kullanılır; bu yan ürün Giriş Yolu'ndaki veya kontrolcüdeki programlanmış devre ile belirlenir. En yaygın seçim kömür yan ürünleridir; çünkü bunlar bir Damıtma Kulesinde <ItemImage id="gregtech:gt.blockmachines:1126"/> dimetilbenzen, odun gazı, odun sirkesi ve odun katranına ayrışır. Bir diğer yaygın seçim, nitrobenzeni daha doğrudan/verimli üretmek için odun katranıdır. Ayrıca makinenin işlem hızını ikiye katlamak için 4 kütük başına 250L azot gazı kullanma seçeneği de vardır; bu da yine Giriş Yolu'ndaki veya kontrolcüdeki programlanmış devre ile belirlenir.

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Cutting Knives
+  title: Kesme Bıçakları
   icon: appliedenergistics2:item.ToolCertusQuartzCuttingKnife
 categories:
 - tools
@@ -10,18 +10,18 @@ item_ids:
 - appliedenergistics2:item.ToolNetherQuartzCuttingKnife
 ---
 
-# Quartz Tools
+# Kuvars Araçları
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ToolCertusQuartzCuttingKnife" scale="4" />
   <ItemImage id="appliedenergistics2:item.ToolNetherQuartzCuttingKnife" scale="4" />
 </Row>
 
-Cutting knives are used to make <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:21" /> and <ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />.
+Kesme bıçakları <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:21" /> ve <ItemLink id="appliedenergistics2:item.ItemMultiPart:120" /> yapmak için kullanılır.
 
-To craft a name press, right-click the cutting knife and insert a metal ingot. Enter the name to be written on the plate, then extract the finished press.
+Bir isim presi üretmek için kesme bıçağına sağ tıkla ve bir metal külçe yerleştir. Plakaya yazılacak ismi gir, sonra bitmiş presi çıkar.
 
-## Recipes
+## Tarifler
 
 <Row>
   <RecipeFor id="appliedenergistics2:item.ToolCertusQuartzCuttingKnife" />

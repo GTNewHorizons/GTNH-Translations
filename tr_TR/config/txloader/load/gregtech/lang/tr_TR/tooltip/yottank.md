@@ -1,4 +1,4 @@
-The max output speed is decided by the amount of stored liquid and the output hatch's capacity
-The max Fluid Cell Tier is limited by the Glass Tier
-HV glass for T1, EV glass for T2, IV glass for T3. . .
-The max height of the cell blocks is 15
+Maksimum çıktı hızı, depolanan sıvı miktarı ve çıkış kapağının kapasitesi tarafından belirlenir
+Maksimum Sıvı Hücresi Kademesi Cam Kademesi ile sınırlıdır
+T1 için HV cam, T2 için EV cam, T3 için IV cam. . .
+Hücre bloklarının maksimum yüksekliği 15

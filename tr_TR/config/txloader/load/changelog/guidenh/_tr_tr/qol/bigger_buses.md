@@ -1,28 +1,28 @@
 ---
 navigation:
-  title: Bigger Input Buses
+  title: Daha Büyük Giriş Yolları
   parent: qol.md
   icon: gregtech:gt.blockmachines:79
 categories:
-    - Quality Of Life
+    - Yaşam Kalitesi
 author: Skorched
 date: 2026-05-16
 ---
 
-# Bigger Input Buses
-There are two main changes being made to larger sized input/output buses as outlined below
+# Daha Büyük Giriş Yolları
+Daha büyük boyutlu giriş/çıktı yollarında yapılan iki ana değişiklik aşağıda özetlenmiştir
 
-# Higher Tier Input Buses
+# Daha Yüksek Kademe Giriş Yolları
 <FloatingImage src="../assets/qol/uhv_bus.png" align="left" displayWidth="128" wrap="square" >
   <ImageAnnotation>
-    The UI of a UHV Input Bus
+    Bir UHV Giriş Yolunun arayüzü
   </ImageAnnotation>
 </FloatingImage>
-In exchange for a sacrifice of Super Buses, you can now craft <Color id="GREEN">Input</Color> and <Color id="RED">Output</Color> Buses right the way up to UHV!
+Süper Yolları feda etmen karşılığında, artık UHV'ye kadar <Color id="GREEN">Yeşil Giriş</Color> ve <Color id="RED">Kırmızı Çıktı</Color> Yolları üretebilirsin!
 
-Following on from previous buses, the new ones will have <Color color="#00ffff">n<sup>2</sup></Color> slots, where __n__ is the voltage tier (ULV=1)
+Önceki yolları takip eden yenileri <Color color="#00ffff">n<sup>2</sup></Color> yuvaya sahip olacak; burada __n__ gerilim kademesidir (ULV=1)
 
-Super buses already made/placed will remain, however will be uncraftable.
+Hâlihazırda üretilmiş/yerleştirilmiş süper yollar kalacak, ancak üretilemeyecek.
 <br clear="all"/>
-# Quantum/Compressed Buses
-As part of a general revamp for non-AE2 logistics, a new set of input/output buses have been added! The <Color id="GREEN">Quantum Bus</Color> <ItemImage id="gregtech:gt.blockmachines:2757" /> and the <Color id="BLUE">Compressed Bus</Color> <ItemImage id="gregtech:gt.blockmachines:2751" /> are more enhanced equivalents of "regular" I/O buses in that they can now hold more than a stack per slot!
+# Kuantum/Sıkıştırılmış Yollar
+AE2 dışı lojistik için yapılan genel bir yenilemenin parçası olarak yeni bir giriş/çıktı yolu seti eklendi! <Color id="GREEN">Yeşil Kuantum Yolu</Color> <ItemImage id="gregtech:gt.blockmachines:2757" /> ve <Color id="BLUE">Mavi Sıkıştırılmış Yol</Color> <ItemImage id="gregtech:gt.blockmachines:2751" />, artık yuva başına bir kümeden fazlasını tutabildikleri için "normal" G/Ç yollarının daha gelişmiş eşdeğerleridir!

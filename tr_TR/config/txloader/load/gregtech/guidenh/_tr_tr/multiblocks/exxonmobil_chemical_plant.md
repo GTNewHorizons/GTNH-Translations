@@ -8,9 +8,9 @@ quest_ids:
   - AAAAAAAAAAAAAAAAAAAJXQ==
   - AAAAAAAAAAAAAAAAAAAMPA==
 navigation:
-  title: Exxonmobil Chemical Plant
+  title: Exxonmobil Kimyasal Tesisi
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:998
   position: -2001
 ---
-# Exxonmobil Chemical Plant
+# Exxonmobil Kimyasal Tesisi

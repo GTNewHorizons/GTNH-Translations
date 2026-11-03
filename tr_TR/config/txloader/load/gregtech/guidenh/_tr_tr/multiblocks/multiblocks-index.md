@@ -1,238 +1,238 @@
 ---
 navigation:
-  title: "Multiblock Machines"
+  title: "Multiblok Makineleri"
   icon: structurelib:item.structurelib.constructableTrigger
   parent: /index.md
   position: 9
 categories:
-  - Machines
+  - Makineler
 ---
 
-# Multiblock Machines
+# Multiblok Makineleri
 
-**Multiblock machines** are machines built from multiple blocks. Their size ranges from compact <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />s to enormous <ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />s. GregTech multiblocks always have a **controller block**, usually serve a specific purpose, and are always faster or more efficient than the corresponding [singleblock machine](../singleblock/singleblock-index.md), if one exists. Unlike [singleblock machines](../singleblock/singleblock-index.md), which can only [overclock](../tierskipping-overcloking-parallels/overclocking.md), multiblocks can also use **[tier skipping](../tierskipping-overcloking-parallels/tierskipping.md)** and **[parallels](../tierskipping-overcloking-parallels/parallels.md)**.
+**Multiblok makineler**, birden fazla bloktan inşa edilen makinelerdir. Boyutları kompakt <ItemLink id="gregtech:gt.blockmachines:1169" showIcon="left" />'lerden devasa <ItemLink id="gregtech:gt.blockmachines:15411" showIcon="left" />'lere kadar uzanır. GregTech multibloklarının her zaman bir **kontrolcü bloğu** vardır, genellikle belirli bir amaca hizmet ederler ve karşılık gelen [tek blok makine](../singleblock/singleblock-index.md) varsa her zaman ondan daha hızlı veya daha verimlidirler. Yalnızca [hız aşırtma](../tierskipping-overcloking-parallels/overclocking.md) yapabilen [tek blok makinelerin](../singleblock/singleblock-index.md) aksine, multibloklar ayrıca **[kademe atlama](../tierskipping-overcloking-parallels/tierskipping.md)** ve **[paraleller](../tierskipping-overcloking-parallels/parallels.md)** kullanabilir.
 
-Although most multiblocks have unique casings and structures, their item, fluid, and power I/O is almost universal through **functional hatches**. You can use <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and quickly build multiblock structures.
+Çoğu multiblokun kendine özgü kasaları ve yapıları olsa da, eşya, sıvı ve güç giriş/çıkışları **işlevsel kapaklar** aracılığıyla neredeyse evrenseldir. Multiblok yapılarını önizlemek ve hızlıca inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullanabilirsin.
 
-# Categories
+# Kategoriler
 
-## Steam Machines
+## Buharlı Makineler
 
-There are only seven steam multiblocks:
+Yalnızca yedi buharlı multiblok vardır:
 <ItemLink id="gregtech:gt.blockmachines:31041" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31078" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31080" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31082" showIcon="left" />,
 <ItemLink id="gregtech:gt.blockmachines:31083" showIcon="left" />,
-<ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" />, and
+<ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" />, ve
 <ItemLink id="gregtech:gt.blockmachines:31086" showIcon="left" />.
-They can run Centrifuge, Mixer, and Ore Washing Plant recipes that steam singleblocks cannot.
+Buharlı tek blokların yapamadığı Santrifüj, Karıştırıcı ve Cevher Yıkama Tesisi tariflerini çalıştırabilirler.
 
-- Use **Steam Hatches** to accept steam, with 64,000 L of buffer per hatch.
-- Do not require maintenance.
-- Run steam recipes at a fixed 125% speed and 62.5% steam cost.
-- Have a fixed maximum of 8 parallels.
+- Buhar almak için **Buhar Kapakları** kullan; her kapakta 64.000 L tampon bulunur.
+- Bakım gerektirmezler.
+- Buhar tariflerini sabit %125 hızda ve %62,5 buhar maliyetiyle çalıştırırlar.
+- Sabit olarak en fazla 8 paralel sınırına sahiptirler.
 
-## Electric Machines
+## Elektrikli Makineler
 
-Electric multiblocks come in many forms and use **Energy Hatches** to receive power. They require maintenance, but you can upgrade them by replacing their Energy Hatches with higher-tier ones.
+Elektrikli multibloklar birçok biçimde gelir ve güç almak için **Enerji Kapakları** kullanır. Bakım gerektirirler, ancak Enerji Kapaklarını daha yüksek kademeli olanlarla değiştirerek onları yükseltebilirsin.
 
-- [Vacuum Freezer](./vacuum_freezer.md): Cools hot ingots and processes certain fluids and coolant cells.
-- [Distillation Tower](./distillation_tower.md): Separates a fluid into all of its fractions at once and outputs each one on a dedicated layer.
+- [Vakum Dondurucu](./vacuum_freezer.md): Sıcak külçeleri soğutur ve belirli sıvıları ve soğutucu hücrelerini işler.
+- [Damıtma Kulesi](./distillation_tower.md): Bir sıvıyı tek seferde tüm fraksiyonlarına ayırır ve her birini kendine ayrılmış bir katmanda çıkarır.
 
-# Structure
+# Yapı
 
-## Controller Block
+## Kontrolcü Bloğu
 
-GregTech multiblocks always have a controller block, and the front face of the controller determines the orientation of the whole structure.
+GregTech multibloklarının her zaman bir kontrolcü bloğu vardır ve kontrolcünün ön yüzü tüm yapının yönünü belirler.
 
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>Right-click</kbd> the front face -> rotate the structure.
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>Right-click</kbd> another face (using the GT 3x3 wrench rules) -> change the controller facing.
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> <kbd>Shift</kbd> + <kbd>Right-click</kbd> -> mirror the structure.
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>Sağ tık</kbd> ön yüz -> yapıyı döndür.
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /><kbd>Sağ tık</kbd> başka bir yüz (GT 3x3 somun anahtarı kurallarıyla) -> kontrolcünün baktığı yönü değiştir.
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> <kbd>Shift</kbd> + <kbd>Sağ tık</kbd> -> yapıyı aynala.
 
-Some controllers can face up or down. A few machines, such as <ItemLink id="gregtech:gt.blockmachines:1126" showIcon="left" />, can only face horizontally.
+Bazı kontrolcüler yukarı veya aşağı bakabilir. <ItemLink id="gregtech:gt.blockmachines:1126" showIcon="left" /> gibi birkaç makine yalnızca yatay olarak bakabilir.
 
-## Previewing and Building
+## Önizleme ve İnşa
 
-Use <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" />:
+<ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan:
 
-- <kbd>Right-click</kbd> the controller -> preview the hologram.
-- <kbd>Shift</kbd> + hold <kbd>Right-click</kbd> on the controller -> automatically place matching blocks from your inventory.
-- <kbd>Right-click</kbd> in the air -> configure the subchannel.
+- Kontrolcüye <kbd>Sağ tık</kbd> -> hologramı önizle.
+- Kontrolcü üzerinde <kbd>Shift</kbd> + <kbd>Sağ tık</kbd> basılı tut -> envanterindeki uygun blokları otomatik yerleştir.
+- Havaya <kbd>Sağ tık</kbd> -> alt kanalı yapılandır.
 
-## Hatches
+## Kapaklar
 
-Most multiblocks use common functional hatches for I/O. Hatches come in tiers (ULV to UHV+), and each tier provides different capacity or throughput.
+Çoğu multiblok, giriş/çıkış için ortak işlevsel kapaklar kullanır. Kapaklar kademeler halinde gelir (ULV'den UHV+'a kadar) ve her kademe farklı kapasite veya iş hacmi sağlar.
 
-| Hatch Type | Purpose |
+| Kapak Türü | Amaç |
 |------------|---------|
-| Input Bus / Output Bus | Items |
-| Input Hatch / Output Hatch | Fluids |
-| Energy Hatch / Dynamo Hatch | Power |
-| Steam Hatch | Steam (steam multiblocks only) |
-| Maintenance Hatch | Fix maintenance problems |
-| Muffler Hatch | Vent pollution |
+| Giriş Yolu / Çıkış Yolu | Eşyalar |
+| Giriş Kapağı / Çıkış Kapağı | Sıvılar |
+| Enerji Kapağı / Dinamo Kapağı | Güç |
+| Buhar Kapağı | Buhar (yalnızca buharlı multibloklar) |
+| Bakım Kapağı | Bakım sorunlarını giderir |
+| Egzoz Çıkışı | Kirliliği tahliye eder |
 
-As long as the structure still meets its minimum casing count, you can usually place as many hatches as you want, though Maintenance Hatches are usually limited to one. Cheap hatches can often replace expensive structure blocks.
+Yapı minimum kasa sayısını hâlâ karşıladığı sürece, genellikle istediğin kadar kapak yerleştirebilirsin, ancak Bakım Kapakları genellikle bir taneyle sınırlıdır. Ucuz kapaklar çoğu zaman pahalı yapı bloklarının yerini alabilir.
 
-## Sharing
+## Paylaşım
 
-GregTech multiblocks generally allow **wallsharing**: two machines can share structure blocks and hatches on the same wall.
+GregTech multiblokları genellikle **duvar paylaşımına** izin verir: iki makine aynı duvardaki yapı bloklarını ve kapakları paylaşabilir.
 
-- **Maintenance Hatches**, **Input Buses**, **Input Hatches**, and **Muffler Hatches** can be shared.
-- Be careful when sharing **Output Buses** or **Output Hatches**, because overflow can void outputs.
-- Be careful when sharing **Energy Hatches** as well: usually one Energy Hatch should not be shared by more than two machines, and Energy Hatches used for dual-hatch tier skipping should not be shared.
+- **Bakım Kapakları**, **Giriş Yolları**, **Giriş Kapakları** ve **Egzoz Çıkışları** paylaşılabilir.
+- **Çıkış Yollarını** veya **Çıkış Kapaklarını** paylaşırken dikkatli ol, çünkü taşma çıkışları yok edebilir.
+- **Enerji Kapaklarını** paylaşırken de dikkatli ol: genellikle bir Enerji Kapağı ikiden fazla makine tarafından paylaşılmamalı ve çift kapaklı kademe atlaması için kullanılan Enerji Kapakları paylaşılmamalıdır.
 
-## Structure Checks
+## Yapı Kontrolleri
 
-Multiblocks do not continuously re-check whether their structure is complete:
+Multibloklar yapılarının tamamlanıp tamamlanmadığını sürekli olarak yeniden kontrol etmez:
 
-- When the controller is first placed -> the structure is checked after 100 ticks.
-- When a nearby block updates -> a 50-tick countdown starts, and each new update resets that countdown.
-- When you press the "Update Structure Check" button in the GUI -> the structure is checked after 1 tick.
+- Kontrolcü ilk kez yerleştirildiğinde -> yapı 100 tick sonra kontrol edilir.
+- Yakındaki bir blok güncellendiğinde -> 50 ticklik bir geri sayım başlar ve her yeni güncelleme bu geri sayımı sıfırlar.
+- Arayüzdeki "Yapı Kontrolünü Güncelle" düğmesine bastığında -> yapı 1 tick sonra kontrol edilir.
 
-Breaking and restoring the structure inside that delay window enables **hot-swapping**. A Matter Manipulator (MK I or above) can finish such hot-swaps within 1 tick.
+Bu gecikme penceresi içinde yapıyı kırıp geri yüklemek **sıcak değişimi** mümkün kılar. Bir Matter Manipulator (MK I veya üstü) bu tür sıcak değişimleri 1 tick içinde tamamlayabilir.
 
-# Graphical User Interface
+# Grafiksel Kullanıcı Arayüzü
 
-<kbd>Right-click</kbd> the controller block to open the GUI. Most machines use the standard GregTech GUI. Some late-game machines from ZPM onward use the TecTech-style GUI.
+Arayüzü açmak için kontrolcü bloğuna <kbd>Sağ tık</kbd> yap. Çoğu makine standart GregTech arayüzünü kullanır. ZPM ve sonrasındaki bazı oyun sonu makineleri TecTech tarzı arayüzü kullanır.
 
-## GregTech-Style GUI
+## GregTech Tarzı Arayüz
 
-The right-side buttons provide the core toggles:
+Sağ taraftaki düğmeler temel açma/kapama seçeneklerini sunar:
 
-| Button | Function |
+| Düğme | İşlev |
 |--------|----------|
-| Power panel | Opens parallel configuration and powerfail event settings |
-| Update structure check | Forces a structure check |
-| Power switch | Turns the machine on or off; if turned off, the current recipe is allowed to finish |
+| Güç paneli | Paralel yapılandırmasını ve güç kesintisi olay ayarlarını açar |
+| Yapı kontrolünü güncelle | Yapı kontrolünü zorlar |
+| Güç anahtarı | Makineyi açar veya kapatır; kapatılırsa mevcut tarifin bitmesine izin verilir |
 
-The middle-left area provides at least four configuration toggles, though not every machine allows all of them:
+Orta sol alan en az dört yapılandırma seçeneği sunar, ancak her makine hepsine izin vermez:
 
-- **Void Mode**: void nothing / items only / fluids only / both.
-- **Input Separation**: prevents items from different Input Buses from being used in the same recipe.
-- **Batch Mode**: combines repeated copies of the same recipe to reduce recipe checks and TPS cost.
-- **Lock Recipe**: prevents the machine from running other recipes.
+- **Yok Etme Modu**: hiçbir şeyi yok etme / yalnızca eşyaları / yalnızca sıvıları / ikisini de.
+- **Giriş Ayrıştırması**: farklı Giriş Yollarındaki eşyaların aynı tarifte kullanılmasını engeller.
+- **Toplu Mod**: tarif kontrollerini ve TPS maliyetini azaltmak için aynı tarifin tekrarlanan kopyalarını birleştirir.
+- **Tarifi Kilitle**: makinenin başka tarifler çalıştırmasını engeller.
 
-Tool shortcuts (<kbd>Right-click</kbd> the controller, consumes durability):
+Araç kısayolları (kontrolcüye <kbd>Sağ tık</kbd>, dayanıklılık harcar):
 
-- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> -> rotate the structure.
-- <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> -> toggle input separation / switch some machine modes.
-- <ItemLink id="gregtech:gt.metatool.01:26" showIcon="left" /> -> toggle batch mode.
-- <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" /> -> power on/off.
-- <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" /> -> mute/unmute.
+- <ItemLink id="gregtech:gt.metatool.01:16" showIcon="left" /> -> yapıyı döndür.
+- <ItemLink id="gregtech:gt.metatool.01:22" showIcon="left" /> -> giriş ayrıştırmasını aç/kapat / bazı makine modlarını değiştir.
+- <ItemLink id="gregtech:gt.metatool.01:26" showIcon="left" /> -> toplu modu aç/kapat.
+- <ItemLink id="gregtech:gt.metatool.01:14" showIcon="left" /> -> gücü aç/kapat.
+- <ItemLink id="gregtech:gt.metatool.01:12" showIcon="left" /> -> sesi kapat/aç.
 
-## TecTech-Style GUI
+## TecTech Tarzı Arayüz
 
-Only a few ZPM-and-later machines use it, such as <ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15311" showIcon="left" />, and <ItemLink id="gregtech:gt.blockmachines:14003" showIcon="left" />.
+Yalnızca birkaç ZPM ve sonrası makine bunu kullanır, örneğin <ItemLink id="gregtech:gt.blockmachines:15300" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15311" showIcon="left" /> ve <ItemLink id="gregtech:gt.blockmachines:14003" showIcon="left" />.
 
-Its defining feature is the indicator light system:
-- Flashing blue: parameter too low.
-- Green: normal.
-- Flashing orange: parameter too high.
-- The light for a key parameter can usually be left-clicked to change the setting.
+Onu tanımlayan özellik gösterge ışığı sistemidir:
+- Yanıp sönen mavi: parametre çok düşük.
+- Yeşil: normal.
+- Yanıp sönen turuncu: parametre çok yüksek.
+- Önemli bir parametrenin ışığına genellikle sol tıklayarak ayarı değiştirebilirsin.
 
-TecTech machines **always void on overflow**, so the safe-void button has no practical effect. Parameter storage cards can copy the settings from one TecTech machine to another.
+TecTech makineleri **taşmada her zaman yok eder**, bu yüzden güvenli yok etme düğmesinin pratikte bir etkisi yoktur. Parametre depolama kartları ayarları bir TecTech makinesinden diğerine kopyalayabilir.
 
-# Maintenance
+# Bakım
 
-## Maintenance Problems
+## Bakım Sorunları
 
-Only multiblocks whose structure requires <ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" /> need maintenance. When the controller is placed, all six maintenance problems are present by default and must be fixed before the machine can run.
+Yalnızca yapısı <ItemLink id="gregtech:gt.blockmachines:90" showIcon="left" /> gerektiren multibloklar bakım ister. Kontrolcü yerleştirildiğinde altı bakım sorununun tamamı varsayılan olarak mevcuttur ve makine çalışmadan önce giderilmelidir.
 
-| Problem | Tool |
+| Sorun | Araç |
 |---------|------|
-| "A pipe is loose." | Wrench |
-| "Some screws are loose." | Screwdriver |
-| "Something is stuck." | Soft Mallet |
-| "Plates are bent." | Hard Hammer |
-| "Something does not belong here." | Crowbar |
-| "The circuit has shorted." | Soldering Iron (costs 10k EU + 1 soldering material) |
+| "Bir boru gevşek." | Somun Anahtarı |
+| "Bazı vidalar gevşek." | Tornavida |
+| "Bir şey sıkışmış." | Yumuşak Tokmak |
+| "Plakalar bükülmüş." | Sert Çekiç |
+| "Bir şey buraya ait değil." | Levye |
+| "Devre kısa devre yapmış." | Lehim Demiri (10k EU + 1 lehim malzemesi harcar) |
 
-**How they appear**: every 1000 ticks of continuous runtime, there is a 1/6000 chance to generate one random maintenance problem. On average, that is about one problem every 83.3 hours.
+**Nasıl ortaya çıkarlar**: her 1000 ticklik kesintisiz çalışmada rastgele bir bakım sorununun oluşması için 1/6000 şans vardır. Bu da ortalama olarak yaklaşık her 83,3 saatte bir sorun demektir.
 
-**Penalty**: each maintenance problem increases power usage by 10%. If all six are present, the machine shuts down. Some machines have special penalties, such as <ItemLink id="gregtech:gt.blockmachines:32013" showIcon="left" />, which immediately drops its kinetic energy to zero when a maintenance problem appears.
+**Ceza**: her bakım sorunu güç kullanımını %10 artırır. Altısı da mevcutsa makine kapanır. Bazı makinelerin özel cezaları vardır; örneğin <ItemLink id="gregtech:gt.blockmachines:32013" showIcon="left" /> bir bakım sorunu ortaya çıktığında kinetik enerjisini anında sıfıra düşürür.
 
-## Repair Methods
+## Onarım Yöntemleri
 
-| Stage | Method |
+| Aşama | Yöntem |
 |-------|--------|
-| LV | <kbd>Right-click</kbd> the Maintenance Hatch with a Toolbox containing all required tools and solder |
-| MV | Repair it with FAL-84 Reinforced Duct Tape |
-| HV | Wand Focus: Maintenance (consumes vis) |
-| IV | Drone Downlink Module plus Drone Centre for bulk management |
-| LuV | Auto Maintenance Hatch (consumes materials) |
-| UV | Debug Maintenance Hatch (free automatic maintenance) |
+| LV | Gerekli tüm araçları ve lehimi içeren bir Alet Çantası ile Bakım Kapağına <kbd>Sağ tık</kbd> yap |
+| MV | FAL-84 Güçlendirilmiş Koli Bandı ile onar |
+| HV | Asa Odağı: Bakım (vis harcar) |
+| IV | Toplu yönetim için Drone Downlink Module ve Drone Centre |
+| LuV | Otomatik Bakım Kapağı (malzeme harcar) |
+| UV | Hata Ayıklama Bakım Kapağı (ücretsiz otomatik bakım) |
 
-You can pre-maintain a Maintenance Hatch once. After the machine reads that state, it clears the hatch's active maintenance state and then stores one extra buffered maintenance state. Later, when a maintenance problem appears, the hatch automatically consumes one buffered maintenance state to fix it.
+Bir Bakım Kapağına bir kez önceden bakım yapabilirsin. Makine bu durumu okuduktan sonra kapağın etkin bakım durumunu temizler ve ardından bir ek tamponlanmış bakım durumu depolar. Daha sonra bir bakım sorunu ortaya çıktığında kapak, onu düzeltmek için tamponlanmış bir bakım durumunu otomatik olarak harcar.
 
-# Recipe Detection
+# Tarif Algılama
 
-When a multiblock is powered on, it scans all of its hatches to look for a matching recipe. The key concept here is the **input group**: materials that are not in the same input group will never be combined into one recipe.
+Bir multiblok açıldığında, eşleşen bir tarif aramak için tüm kapaklarını tarar. Buradaki kilit kavram **giriş grubudur**: aynı giriş grubunda olmayan malzemeler asla tek bir tarifte birleştirilmez.
 
-## Input Separation
+## Giriş Ayrıştırması
 
-When input separation is enabled, each Input Bus together with all Input Hatches and the controller's inventory slots forms an independent input group. This is very useful for preventing materials in different buses from accidentally mixing into an unintended recipe.
+Giriş ayrıştırması etkinleştirildiğinde, her Giriş Yolu tüm Giriş Kapaklarıyla ve kontrolcünün envanter yuvalarıyla birlikte bağımsız bir giriş grubu oluşturur. Bu, farklı yollardaki malzemelerin yanlışlıkla istenmeyen bir tarife karışmasını önlemek için çok kullanışlıdır.
 
-## Recipe Priority
+## Tarif Önceliği
 
-Recipe checks across different input groups follow a controllable priority order.
-1. **Pattern input hatches/buses** (<ItemLink id="gregtech:gt.blockmachines:2715" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:2714" showIcon="left" />) take priority over normal hatches.
-2. Normal input hatches and buses that have been **painted**. Following the order shown in the <ItemLink id="gregtech:gt.metaitem.01:32468" showIcon="left" /> GUI, priority decreases from black to white.
-3. Input Buses take priority over Input Hatches.
-4. Physical position: front to back, top to bottom, left to right.
+Farklı giriş grupları arasındaki tarif kontrolleri, kontrol edilebilir bir öncelik sırasını izler.
+1. **Desen giriş kapakları/yolları** (<ItemLink id="gregtech:gt.blockmachines:2715" showIcon="left" /> ve <ItemLink id="gregtech:gt.blockmachines:2714" showIcon="left" />) normal kapaklara göre önceliklidir.
+2. **Tablo ile işaretlenmiş** normal giriş kapakları ve yolları. <ItemLink id="gregtech:gt.metaitem.01:32468" showIcon="left" /> arayüzünde gösterilen sıraya göre öncelik siyahtan beyaza doğru azalır.
+3. Giriş Yolları, Giriş Kapaklarına göre önceliklidir.
+4. Fiziksel konum: önden arkaya, yukarıdan aşağıya, soldan sağa.
 
 > [!TIP]
-> Painting hatches is one way to control recipe execution order.
+> Kapakları Tablo ile işaretlemek, tarif yürütme sırasını kontrol etmenin bir yoludur.
 
-# Recipe Execution
+# Tarif Yürütme
 
-## Tier Skipping
+## Kademe Atlama
 
-See **[Tier Skipping](../tierskipping-overcloking-parallels/tierskipping.md)**.
+Bkz. **[Kademe Atlama](../tierskipping-overcloking-parallels/tierskipping.md)**.
 
-Using two Energy Hatches of the same tier to provide 4A lets the machine reach the nominal power expected by its voltage tier and run recipes one tier higher. This is called **dual-hatch tier skipping**. The first time you will likely use it is with <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />.
+Aynı kademeden iki Enerji Kapağını 4A sağlamak için kullanmak, makinenin voltaj kademesinin beklediği nominal güce ulaşmasını ve tarifleri bir kademe yukarıda çalıştırmasını sağlar. Buna **çift kapaklı kademe atlama** denir. Bunu muhtemelen ilk kez <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> ile kullanacaksın.
 
-From IV onward, some machines can no longer tier skip, such as <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />.
+IV'ten itibaren bazı makineler artık kademe atlayamaz, örneğin <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />.
 
-## Parallels
+## Paraleller
 
-See **[Parallels](../tierskipping-overcloking-parallels/parallels.md)**.
+Bkz. **[Paraleller](../tierskipping-overcloking-parallels/parallels.md)**.
 
-Parallels are the machine's ability to process multiple copies of the same recipe during the same time interval. [Singleblock machines](../singleblock/singleblock-index.md) cannot do this.
+Paraleller, makinenin aynı zaman aralığında aynı tarifin birden çok kopyasını işleme yeteneğidir. [Tek blok makineler](../singleblock/singleblock-index.md) bunu yapamaz.
 
-In general, every $$4^n$$ of maximum parallels is roughly equivalent to $$n$$ perfect overclocks in practice. Parallels only apply to the same recipe.
+Genel olarak, pratikte her $$4^n$$ maksimum paralel, yaklaşık olarak $$n$$ kusursuz hız aşırtmaya eşdeğerdir. Paraleller yalnızca aynı tarif için geçerlidir.
 
-## Overclocking
+## Hız Aşırtma
 
-See **[Overclocking](../tierskipping-overcloking-parallels/overclocking.md)**.
+Bkz. **[Hız Aşırtma](../tierskipping-overcloking-parallels/overclocking.md)**.
 
-Besides standard 4/2 imperfect overclocks, some multiblocks also support 4/4 perfect overclocks, and some use special overclock rules. Multiblocks can also overclock past 1 tick (1tOC).
+Standart 4/2 kusurlu hız aşırtmaların yanı sıra, bazı multibloklar 4/4 kusursuz hız aşırtmayı da destekler ve bazıları özel hız aşırtma kuralları kullanır. Multibloklar 1 tickin ötesine de hız aşırtabilir (1tOC).
 
-Calculation order: parallels first, then overclocks (perfect first, imperfect second).
+Hesaplama sırası: önce paraleller, sonra hız aşırtmalar (önce kusursuz, sonra kusurlu).
 
-## Batch Mode
+## Toplu Mod
 
-Batch mode combines repeated copies of the same recipe into one large recipe. It **does not provide a time discount and does not add parallels**. Its only purpose is to reduce recipe-check frequency and lower TPS cost.
+Toplu mod, aynı tarifin tekrarlanan kopyalarını tek bir büyük tarifte birleştirir. **Süre indirimi sağlamaz ve paralel eklemez**. Tek amacı tarif kontrol sıklığını azaltmak ve TPS maliyetini düşürmektir.
 
-When batch mode is enabled, the machine tries to stretch recipe duration to 128 ticks. This does not change output per unit time. Steam multiblocks cannot use batch mode.
+Toplu mod etkinleştirildiğinde makine, tarif süresini 128 ticke uzatmaya çalışır. Bu, birim zaman başına çıktıyı değiştirmez. Buharlı multibloklar toplu modu kullanamaz.
 
-# Failures
+# Arızalar
 
-Unlike [singleblock machines](../singleblock/singleblock-index.md), when a multiblock fails it **fully aborts the recipe and does not return the inputs**.
+[Tek blok makinelerin](../singleblock/singleblock-index.md) aksine, bir multiblok arızalandığında **tarifi tamamen iptal eder ve girdileri geri vermez**.
 
-| Failure | Fix |
+| Arıza | Çözüm |
 |---------|-----|
-| "Structure is incomplete." | Check for missing structure blocks |
-| "Missing Muffler Hatch, Maintenance Hatch, or similar." | Add the required hatch |
-| "Shut down due to machine damage." | Fix all maintenance problems |
-| "Recipe requires more power." | Check the number of Energy Hatches and available amperage |
-| "Recipe requires higher voltage to start." | Check whether the voltage tier is high enough |
-| "Not enough room for item/fluid output." | Add more Output Buses or Output Hatches |
-| "Shut down due to lack of energy." | Check the power supply |
+| "Yapı tamamlanmamış." | Eksik yapı bloklarını kontrol et |
+| "Egzoz Çıkışı, Bakım Kapağı veya benzeri eksik." | Gerekli kapağı ekle |
+| "Makine hasarı nedeniyle kapatıldı." | Tüm bakım sorunlarını gider |
+| "Tarif daha fazla güç gerektiriyor." | Enerji Kapaklarının sayısını ve mevcut amperajı kontrol et |
+| "Tarifin başlaması için daha yüksek voltaj gerekiyor." | Voltaj kademesinin yeterince yüksek olup olmadığını kontrol et |
+| "Eşya/sıvı çıkışı için yeterli alan yok." | Daha fazla Çıkış Yolu veya Çıkış Kapağı ekle |
+| "Enerji eksikliği nedeniyle kapatıldı." | Güç kaynağını kontrol et |
 
-When a failure happens, you can use `/powerfails clear` to remove powerfail warning icons in the dimension, or `/sp invite <playerID>` to share powerfail information.
+Bir arıza meydana geldiğinde, boyuttaki güç kesintisi uyarı simgelerini kaldırmak için `/powerfails clear` veya güç kesintisi bilgilerini paylaşmak için `/sp invite <playerID>` komutunu kullanabilirsin.
 
-# Explosions
+# Patlamalar
 
-As with [singleblock machines](../singleblock/singleblock-index.md#explosions), any **energized hatch with an internal EU buffer** on a multiblock can explode in rain or snow. Controller blocks, structure blocks, and hatches that do not buffer power will not explode in rain or snow. Overvolting an Energy Hatch can also cause an explosion.
+[Tek blok makinelerde](../singleblock/singleblock-index.md#explosions) olduğu gibi, bir multibloktaki **dahili EU tamponu olan enerjili herhangi bir kapak** yağmurda veya karda patlayabilir. Kontrolcü blokları, yapı blokları ve güç tamponlamayan kapaklar yağmurda veya karda patlamaz. Bir Enerji Kapağına aşırı voltaj vermek de patlamaya neden olabilir.

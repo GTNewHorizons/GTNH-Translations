@@ -1,3 +1,3 @@
-{color_parallel:{var:parallels}} Parallels per {color_name:Voltage} Tier {color_parallel:+{var:parallels_bonus}} per {color_name:Solenoid} Tier
-{color_speed:{var:speed}%} Speed {color_speed:+{var:speed_bonus}%} per {color_name:Heating Coil} Tier
-{color_efficiency:{var:eu_eff}%} {EU} Usage {color_efficiency:x{var:eu_eff_bonus}} per {color_name:Heating Coil} Tier
+{color_name:Gerilim} Kademesi başına {color_parallel:{var:parallels}} Paralel, {color_name:Solenoid} Kademesi başına {color_parallel:+{var:parallels_bonus}}
+{color_name:Isıtma Bobini} Kademesi başına {color_speed:{var:speed}%} Hız {color_speed:+{var:speed_bonus}%}
+{color_name:Isıtma Bobini} Kademesi başına {color_efficiency:{var:eu_eff}%} {EU} Kullanımı {color_efficiency:x{var:eu_eff_bonus}}

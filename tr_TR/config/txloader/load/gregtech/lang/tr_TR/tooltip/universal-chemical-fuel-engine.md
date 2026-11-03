@@ -1,12 +1,12 @@
-BURNING BURNING BURNING
-Reacts {yellow:Combustion Promoter} with {color_key:Gas}, {color_key:Diesel}, or {color_key:Rocket Fuel} to generate power with up to {color_efficiency:150%} efficiency
-No soft caps or upper limits on power output, other than the size of the {color_name:Dynamo Hatch}
-No power is produced without Combustion Promoter
-Excess power is voided if the {color_name:Dynamo Hatch} is full or the output exceeds the dynamo throughput
+YANIYOR YANIYOR YANIYOR
+{yellow:Combustion Promoter} maddesini {color_key:Gaz}, {color_key:Dizel} veya {color_key:Roket Yakıtı} ile reaksiyona sokarak {color_efficiency:150%} verime kadar güç üretir
+{color_name:Dinamo Kapağı} boyutu dışında güç çıktısında yumuşak sınır veya üst limit yoktur
+Combustion Promoter olmadan hiç güç üretilmez
+{color_name:Dinamo Kapağı} doluysa veya çıktı dinamo verimini aşarsa fazla güç yok edilir
 {hr}
-Efficiency is determined by the ratio ({color_formula:R}) of {yellow:Combustion Promoter} to {gold:Fuel}
-The more Combustion Promoter, the higher the efficiency
-Follows an exponential curve, {color_formula:exp(-C / R) * {var:efficiency_ceiling}}, where {color_formula:C} is a constant based on the fuel type
-{color_key:Gas/Diesel Fuel}: {color_formula:C = {var:gas_coefficient}} | {color_key:Rocket Fuel}: {color_formula:C = {var:rocket_coefficient}}
+Verim, {yellow:Combustion Promoter} miktarının {gold:Yakıt} miktarına oranı ({color_formula:R}) ile belirlenir
+Combustion Promoter ne kadar fazlaysa verim o kadar yüksek olur
+Üstel bir eğri izler: {color_formula:exp(-C / R) * {var:efficiency_ceiling}}; burada {color_formula:C}, yakıt tipine bağlı bir sabittir
+{color_key:Gaz/Dizel Yakıt}: {color_formula:C = {var:gas_coefficient}} | {color_key:Roket Yakıtı}: {color_formula:C = {var:rocket_coefficient}}
 {hr}
-Produces {color_pollution:sqrt({EU/t})} pollution per second
+Saniyede {color_pollution:sqrt({EU/t})} kirlilik üretir

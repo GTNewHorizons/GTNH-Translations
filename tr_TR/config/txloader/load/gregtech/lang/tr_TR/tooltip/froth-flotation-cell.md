@@ -1,3 +1,3 @@
-Process that milled ore!
-{color_note:Locked to one milled ore type per controller}
-{color_mechanic:Performs 4/4 Perfect Overclocks}
+Öğütülmüş cevheri işler!
+{color_note:Kontrolcü başına tek öğütülmüş cevher tipine kilitli}
+{color_mechanic:4/4 Kusursuz Hız Aşımı gerçekleştirir}

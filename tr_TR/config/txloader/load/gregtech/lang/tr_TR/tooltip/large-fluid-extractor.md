@@ -1,2 +1,2 @@
-{color_speed:{var:speed}%} Speed {color_speed:+{var:speed_bonus}%} per {color_name:Heating Coil} Tier
-{color_efficiency:{var:eu_eff}%} {EU} Usage {color_efficiency:x{var:eu_eff_bonus}} per {color_name:Heating Coil} Tier
+Her {color_name:Isıtma Bobini} Kademesinde {color_speed:{var:speed}%} Hız, {color_speed:+{var:speed_bonus}%}
+Her {color_name:Isıtma Bobini} Kademesinde {color_efficiency:{var:eu_eff}%} {EU} Kullanımı, {color_efficiency:x{var:eu_eff_bonus}}

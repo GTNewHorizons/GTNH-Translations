@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: View Cell
+  title: Görüntüleme Hücresi
   icon: appliedenergistics2:item.ItemViewCell
 categories:
 - tools
@@ -9,13 +9,13 @@ item_ids:
 - appliedenergistics2:item.ItemViewCell
 ---
 
-# View Cell
+# Görüntüleme Hücresi
 
 <ItemImage id="appliedenergistics2:item.ItemViewCell" scale="2" />
 
-View Cells filter what is displayed in [terminals](terminals.md). Partition one in a <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> and place it in a terminal; only matching items are shown. Multiple View Cells are additive.
+Görüntüleme Hücreleri, [terminallerde](terminals.md) gösterilen Eşyaları ve Blokları filtreler. Birini bir <ItemLink id="appliedenergistics2:tile.BlockCellWorkbench" /> içinde biçimlendir ve bir terminale yerleştir; yalnızca eşleşen eşyalar gösterilir. Birden fazla Görüntüleme Hücresi birbirine eklenir.
 
-## Recipes
+## Tarifler
 
 <RecipeFor id="appliedenergistics2:item.ItemViewCell" />
 

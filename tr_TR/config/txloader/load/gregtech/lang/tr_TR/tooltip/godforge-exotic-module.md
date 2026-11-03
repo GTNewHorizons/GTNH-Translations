@@ -1,9 +1,9 @@
-This is a module of the Godforge
-Must be part of a Godforge to function
-Used for ultra high temperature matter degeneration
+Bu bir Godforge modülüdür
+Çalışması için bir Godforge'un parçası olmalı
+Ultra yüksek sıcaklıkta madde bozunumu için kullanılır
 {aqua:{hr:75}}
-The fourth and final module of the Godforge, this module breaks apart the very
-building blocks of matter, producing exotic mixtures in the process. Quark-Gluon Plasma
-can be manufactured right away, but production of Magnetic Monopole Matter (Magmatter)
-requires a fully upgraded Godforge
-This module is specialized towards acquisition of unique materials
+Godforge'un dördüncü ve son modülü olan bu modül, maddenin yapı bloklarını
+parçalayarak egzotik karışımlar üretir. Kuark-Gluon Plazması
+hemen üretilebilir, ancak Manyetik Monopol Maddesi (Magmatter) üretimi
+tamamen yükseltilmiş bir Godforge gerektirir
+Bu modül, benzersiz materyallerin elde edilmesinde uzmanlaşmıştır

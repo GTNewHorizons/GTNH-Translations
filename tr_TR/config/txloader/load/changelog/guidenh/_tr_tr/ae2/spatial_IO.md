@@ -2,7 +2,7 @@
 item_ids:
   - appliedenergistics2:tile.BlockSpatialPylon
 navigation:
-  title: Spatial IO Changes
+  title: Spatial IO Değişiklikleri
   parent: ae2.md
   icon: appliedenergistics2:tile.BlockSpatialPylon
 categories:
@@ -11,16 +11,16 @@ author: Skorched
 date: 2026-05-27
 ---
 
-# Spatial IO Changes
-Spatial IO systems have had some improvements! The changes can be found below:
-- __Spatial Link Chamber__: Allows you to nest Spatial Cells <ItemImage id="appliedenergistics2:item.ItemSpatialStorageCell.16Cubed"/> and connect your ME network to their pocket dimension!
-- __Spatial Network Relay__: When placed in the spatial cell dimension, it connects to the link chamber that has this specific cell inside it
-- __New Recipes__: Added new recipes for spatial components so that when made in assemblers, they are now cheaper and require no recursive crafting!
-- __Matrix Blocks__: Matrix blocks that make up the borders of the pocket dimension are now touchable, and allow you to exit the pocket dimension as long as the cell is inside a Spatial Link Chamber via right-click!
+# Spatial IO Değişiklikleri
+Spatial IO sistemlerinde bazı iyileştirmeler yapıldı! Değişiklikleri aşağıda bulabilirsin:
+- __Spatial Bağlantı Odası__: Spatial Hücrelerini iç içe yerleştirmene <ItemImage id="appliedenergistics2:item.ItemSpatialStorageCell.16Cubed"/> ve ME Ağını onların cep boyutuna bağlamana olanak tanır!
+- __Spatial Ağ Rölesi__: Spatial hücre boyutuna yerleştirildiğinde, içinde bu belirli hücre bulunan bağlantı odasına bağlanır
+- __Yeni Tarifler__: Spatial bileşenler için yeni tarifler eklendi; böylece montaj makinelerinde yapıldıklarında artık daha ucuzlar ve özyinelemeli üretim gerektirmiyorlar!
+- __Matris Blokları__: Cep boyutunun sınırlarını oluşturan matris blokları artık dokunulabilir ve hücre bir Spatial Bağlantı Odası içindeyken sağ tıklayarak cep boyutundan çıkmana izin verir!
 
 > [!NOTE]
-> Spatial Link Chambers use 1 channel for their own purpose, and allow the sending of 31 channels inside the pocket dimension
+> Spatial Bağlantı Odaları kendi amaçları için 1 kanal kullanır ve cep boyutunun içine 31 kanal gönderilmesine izin verir
 
 
 > [!WARNING]
-> This does __NOT__ fix multidimensional transfer of machines. If you try to move machines or Tile Entities with the spatial system inter-dimensionally, they WILL get corrupted!
+> Bu, makinelerin boyutlar arası aktarımını __ÇÖZMEZ__. Makineleri veya Tile Entity'leri spatial sistemiyle boyutlar arasında taşımaya çalışırsan, BOZULACAKLARDIR!

@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Facades
+  title: Cepheler
   icon: appliedenergistics2:item.ItemFacade:0:{itemname:"stone",x:[1,0,],modid:"minecraft"}
   position: 110
 categories:
@@ -10,37 +10,37 @@ item_ids:
 - appliedenergistics2:item.ItemFacade
 ---
 
-# Facades
+# Cepheler
 
-Facades can be used to make your base look cleaner. They can cover both sizes of cable and can be made from many kinds of blocks.
+Cepheler üssünü daha temiz göstermek için kullanılabilir. Her iki kablo boyutunu da kaplayabilir ve birçok blok türünden yapılabilir.
 
 <GameScene zoom="6" showBackground={false} interactive={false}>
   <ImportStructure src="../assets/structures/facades_1.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-They can cover all sides of a cable, but still allow [subparts](../ae2_mechanics/cables_subparts.md) and cable connections to protrude through them.
+Bir kablonun tüm yüzlerini kaplayabilirler ancak [alt parçaların](../ae2_mechanics/cables_subparts.md) ve kablo bağlantılarının yine de içlerinden dışarı çıkmasına izin verirler.
 
 <GameScene zoom="6"  interactive={true}>
   <ImportStructure src="../assets/structures/facades_2.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-Used well, they can improve your base aesthetics or let you build blocks with different textures on each side.
+İyi kullanıldığında üssünün estetiğini iyileştirebilir veya her yüzünde farklı doku olan bloklar inşa etmeni sağlayabilir.
 
 <GameScene zoom="4" interactive={true}>
   <ImportStructure src="../assets/structures/facades_3.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Hiding Facades
+## Cepheleri Gizleme
 
-Facades are hidden while you are holding a <a href="network_tool.md">Network Tool</a> in either hand.
+Elinde <a href="network_tool.md">Ağ Aracı</a> tutarken cepheler gizlenir.
 
-You can interact with the blocks behind hidden facades without removing the facades first.
+Gizli cephelerin arkasındaki bloklarla, cepheleri önce kaldırmadan etkileşime geçebilirsin.
 
-## Recipe
+## Tarif
 
-Place the block whose texture you want in the middle of 4 <ItemLink id="appliedenergistics2:item.ItemMultiPart:120" />s.
+Dokusunu istediğin bloğu, ortada kalacak şekilde 4 <ItemLink id="appliedenergistics2:item.ItemMultiPart:120" /> ile çevrele.
 
 <RecipeFor id='appliedenergistics2:item.ItemFacade:0:{itemname:"stone",x:[1,0,],modid:"minecraft"}'/>

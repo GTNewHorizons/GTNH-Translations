@@ -4,38 +4,38 @@ item_ids:
 quest_ids:
   - KV1vw68JTb-KiHQzBEPzBw==
 navigation:
-  title: Bose-Einstein Condensate Observation Array
+  title: Bose-Einstein Yoğunlaşması Gözlem Dizisi
   parent: ./bose_einstein_condensate_line.md
   icon: gregtech:gt.blockmachines:15756
   position: -11001
 ---
-# Bose-Einstein Condensate Observation Array
+# Bose-Einstein Yoğunlaşması Gözlem Dizisi
 
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15756" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left" /> is a UIV tier multiblock for supplying power, condensate, and nanites to any connected [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Nodes</ItemLink>](./bose_einstein_condensate_teleportation_node.md) in the [BEC Line](./bose_einstein_condensate_line.md). 
+<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left" />, [BEC Hattı](./bose_einstein_condensate_line.md) içindeki bağlı herhangi bir [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Nodes</ItemLink>](./bose_einstein_condensate_teleportation_node.md) düğümüne güç, yoğunlaşma ve nanit sağlayan UIV kademe bir Multiblok'tur. 
 
-The Observation Array is really just a large router rather than an assembler because it does not process any recipes or hold condensate itself. It only ever stores nanites locally for IO Nodes to read from and transfers condensate from the [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Containment Fields</ItemLink>](./bose_einstein_condensate_containment_field.md) to IO Nodes upon request. 
+Gözlem Dizisi aslında bir Montajcı değil, sadece büyük bir yönlendiricidir çünkü hiçbir Tarif işlemez ve kendisi yoğunlaşma tutmaz. Yalnızca IO Node'ların okuyabilmesi için yerel olarak nanit depolar ve talep üzerine [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Muhafaza Alanları</ItemLink>](./bose_einstein_condensate_containment_field.md) ile IO Node'lar arasında yoğunlaşma aktarır. 
 
-Up to 16 IO Nodes may connect to the same Observation Array via line-of-sight connector hatches, but it is not recommended to run different recipes at the same time because that could introduce penalties and potentially void outputs. IO Nodes do not have their own energy hatches so their individual power costs are summed together and covered by the Observation Array, which supports multi-amp and laser energy hatches for serious throughput.
+Aynı Gözlem Dizisi'ne görüş hattı bağlayıcı kapakları aracılığıyla 16 adede kadar IO Node bağlanabilir, ancak aynı anda farklı Tarifler çalıştırmanız önerilmez çünkü bu cezalar getirebilir ve muhtemelen çıktıları hiçliğe gönderebilir. IO Node'ların kendi Enerji Kapakları yoktur, bu yüzden bireysel güç maliyetleri toplanır ve Gözlem Dizisi tarafından karşılanır; bu da ciddi verim için çok amperli ve lazer Enerji Kapaklarını destekler.
 
-BEC recipes appear as [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) recipes in NEI but there is no strict item or condensate order to follow. Instead, they have a certain number of equal-length steps equivalent to their number of solid inputs. The steps are not exactly hard stops but each one requests a specific nanite tier or better to run and exceeding the requested tier significantly reduces the IO Node's processing speed.  
-The nanites are never actually consumed but they do need to be rapidly swapped out of the Observation Array to perfectly match the requested nanite at all times.  
-The nanite order is constant per recipe but varies between recipes so any automation method needs to be highly precise and flexible.
+BEC tarifleri NEI'de [<ItemLink id="gregtech:gt.blockmachines:1170" showIcon="left" />](./assembly_line.md) tarifleri olarak görünür, ancak takip edilmesi gereken katı bir eşya veya yoğunlaşma sırası yoktur. Bunun yerine, katı girdi sayılarına eşit sayıda, eşit uzunlukta belirli sayıda adım içerirler. Adımlar tam olarak kesin duraklar değildir, ancak her biri çalışmak için belirli bir nanit kademesi veya daha iyisini talep eder ve istenen kademeyi aşmak IO Node'un işlem hızını önemli ölçüde düşürür.  
+Nanitler aslında hiç tüketilmez, ancak her zaman istenen nanitle tam olarak eşleşmesi için Gözlem Dizisi'nden hızla değiştirilmeleri gerekir.  
+Nanit sırası her Tarif için sabittir ancak Tarifler arasında değişir, bu yüzden herhangi bir otomasyon yönteminin son derece hassas ve esnek olması gerekir.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | UIV |
-| Structure Size (LxWxH) | 61x31x31 |
-| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| Açılma Kademesi | UIV |
+| Yapı Boyutu (UxGxY) | 61x31x31 |
+| Güç | Her Kapak kullanılabilir, Çok Amperli ve Lazer Kapakları dahil |
+| Hız Aşımı | Yok |
+| Bakım | Bakım gerekmez |
+| Kirlilik | Kirlilik üretmez |
 
-## Crafting and Construction
-### Crafting
+## Üretim ve İnşa
+### Üretim
 
 <RecipesFor id="gregtech:gt.blockmachines:15756" handlerBlacklist="gt.recipe.researchStation" />
 
@@ -55,21 +55,21 @@ The nanite order is constant per recipe but varies between recipes so any automa
 
 <RecipesFor id="gregtech:gt.blockcasings.bec:6" handlerBlacklist="gt.recipe.researchStation" />
 
-### Structure
+### Yapı
 
-The Observation Array has no tiered components, and can be rotated or flipped.
+Gözlem Dizisi'nde kademeli bileşenler yoktur ve döndürülebilir veya ters çevrilebilir.
 
-Each <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> must face directly into one on an [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Node</ItemLink>](./bose_einstein_condensate_teleportation_node.md) for them to link, but there is no cabling inbetween and they can be up to 128 blocks apart if necessary. 
+Her <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" />, bağlanabilmeleri için doğrudan bir [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Node</ItemLink>](./bose_einstein_condensate_teleportation_node.md) düğümüne bakmalıdır, ancak aralarında kablo yoktur ve gerekirse 128 blok mesafeye kadar uzakta olabilirler. 
 
-Multi-amp and laser energy hatches are supported for serious throughput. 
+Ciddi verim için çok amperli ve lazer Enerji Kapakları desteklenir. 
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
+Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan.
 
-The <ItemLink id="gregtech:gt.blockmachines:9415" showIcon="left" /> is effectively an input bus exclusively for nanites and can hold up to 2,147,483,647 at once.
+<ItemLink id="gregtech:gt.blockmachines:9415" showIcon="left" /> esasen yalnızca nanitler için bir Giriş Yolu'dur ve aynı anda 2.147.483.647'ye kadar tutabilir.
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left" /> | 1, Front center, 16th layer |
+| <ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left" /> | 1, Ön orta, 16. Katman |
 | <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> | 1700 |
 | <ItemLink id="gregtech:gt.blockcasings.bec" showIcon="left" /> | 1515 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> | 1444-1458 |
@@ -78,36 +78,36 @@ The <ItemLink id="gregtech:gt.blockmachines:9415" showIcon="left" /> is effectiv
 | <ItemLink id="gregtech:gt.blockglass1:9" showIcon="left" /> | 664 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:5" showIcon="left" /> | 560 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:6" showIcon="left" /> | 464 |
-| <ItemLink id="gregtech:gt.blockmachines:9415" showIcon="left" /> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
-| <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> | 1+, Can replace <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> in the center of each ring's edge |
-| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 1-2, Replaces the <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> on the center part at the left or right end of the machine |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> |
+| <ItemLink id="gregtech:gt.blockmachines:9415" showIcon="left" /> | 1+, Herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerine kullanılabilir |
+| <ItemLink id="gregtech:gt.blockmachines:15481" showIcon="left" /> | 1+, Her halkanın kenarının ortasında <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> yerine kullanılabilir |
+| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 1-2, Makinenin sol veya sağ ucundaki orta kısımda <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> yerine geçer |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Normal, Çok Amperli, Lazer kullanabilir</Tooltip> | 1+, Herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerine kullanılabilir |
 
-### Wallsharing
+### Duvar Paylaşımı
 
-Using a wallshare saves a small number of casings, but in return you lose 4 [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Node</ItemLink>](./bose_einstein_condensate_teleportation_node.md) connections (8 in total since there are 2 observation arrays), and the condensate hatches cannot be shared.
+Duvar paylaşımı kullanmak az sayıda kasa tasarrufu sağlar, ancak karşılığında 4 [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Node</ItemLink>](./bose_einstein_condensate_teleportation_node.md) bağlantısını kaybedersin (2 gözlem dizisi olduğu için toplamda 8) ve yoğunlaşma kapakları paylaşılamaz.
 
-## Usage
+## Kullanım
 
-The Observation Array works as a router that provides power, condensate, and nanites to connected [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Nodes</ItemLink>](./bose_einstein_condensate_teleportation_node.md). Up to 16 IO Nodes can be connected to the Observation Array.  
-Despite it being listed as an assembler, think of the Observation Array as a large router and the IO Node as the assembler since the latter actually processes the recipes.
+Gözlem Dizisi, bağlı [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Node</ItemLink>](./bose_einstein_condensate_teleportation_node.md) düğümlerine güç, yoğunlaşma ve nanit sağlayan bir yönlendirici olarak çalışır. Gözlem Dizisi'ne 16 adede kadar IO Node bağlanabilir.  
+Montajcı olarak listelenmesine rağmen, Gözlem Dizisi'ni büyük bir yönlendirici, IO Node'u ise Montajcı olarak düşün çünkü Tarifleri asıl işleyen ikincisidir.
 
 > [!NOTE]
-> Check [BEC Line](./bose_einstein_condensate_line.md) for how the BEC line operates overall and what the Observation Array performs in BEC Line. This guide covers Observation Array specific information only.
+> BEC hattının genel olarak nasıl çalıştığını ve Gözlem Dizisi'nin BEC Hattı'nda ne yaptığını görmek için [BEC Hattı](./bose_einstein_condensate_line.md) sayfasına bak. Bu rehber yalnızca Gözlem Dizisi'ne özel bilgileri kapsar.
 
-### Condensate
+### Yoğunlaşma
 
-The Observation Array does not hold any condensate itself unlike [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Containment Fields</ItemLink>](./bose_einstein_condensate_containment_field.md), only ever transfers it from the Containment Field to the IO Node upon request.
+Gözlem Dizisi, [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Muhafaza Alanları</ItemLink>](./bose_einstein_condensate_containment_field.md) aksine kendisi hiç yoğunlaşma tutmaz, yalnızca talep üzerine onu Muhafaza Alanından IO Node'a aktarır.
 
-Any condensate in the network that is not requested by the current recipe is considered a contaminant or slowdown. Each contaminant significantly reduces the processing speed of the IO node and if there are ever more than three contaminants in the network at once then the recipe immediately fails and voids.  
-Condensate supplied to an IO Node is no longer considered in the network and therefore does not affect other IO Nodes processing other recipes on the same Observation Array. However, it is still recommended to process only one recipe at a time to avoid these penalties altogether.
+Ağ'da mevcut Tarif tarafından istenmeyen her yoğunlaşma bir kirletici veya yavaşlatıcı olarak kabul edilir. Her kirletici IO Node'un işlem hızını önemli ölçüde düşürür ve Ağ'da aynı anda üçten fazla kirletici olursa Tarif hemen başarısız olur ve hiçliğe gider.  
+Bir IO Node'a sağlanan yoğunlaşma artık Ağ'da sayılmaz ve bu yüzden aynı Gözlem Dizisi'nde başka Tarifler işleyen diğer IO Node'ları etkilemez. Ancak bu cezaları tamamen önlemek için yine de aynı anda yalnızca bir Tarif işlemen önerilir.
 
-### Nanites
+### Nanitler
 
 <LineChart 
   wrap="square" align="right"
   categories="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20"
-  xAxisLabel="Nanite Count"
+  xAxisLabel="Nanit Sayısı"
 >
   <Series name="Δ=0, no unmatched contaminants" data="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20" />
   <Series name="Δ=3, no unmatched contaminants" data="0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,2,2,2,2,2" />
@@ -115,35 +115,35 @@ Condensate supplied to an IO Node is no longer considered in the network and the
   <Series name="Δ=3, 2 unmatched contaminants" data="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0" />
 </LineChart>
 
-Recipes are processed in sequential, equal-length steps equivalent to its number of solid inputs.  
-For example, the <ItemLink id="gregtech:gt.metaitem.03:32310" /> is processed in five steps that are each 1/5th of the total overall duration because it has five solid inputs in its recipe. 
+Tarifler, katı girdi sayısına eşit sayıda sıralı ve eşit uzunlukta adımda işlenir.  
+Örneğin <ItemLink id="gregtech:gt.metaitem.03:32310" />, Tarifinde beş katı girdi olduğu için her biri toplam sürenin 1/5'i olan beş adımda işlenir. 
 
-The steps are not exactly hard stops but each one requests a specific nanite tier or better to run and exceeding the requested tier significantly reduces the IO Node's processing speed, as seen in the following equations and graphs. 
+Adımlar tam olarak kesin duraklar değildir, ancak her biri çalışmak için belirli bir nanit kademesi veya daha iyisini talep eder ve istenen kademeyi aşmak, aşağıdaki denklemlerde ve grafiklerde görüldüğü gibi IO Node'un işlem hızını önemli ölçüde düşürür. 
 
 <Latex formula="\Delta = \text{Nanite Tier Provided} - \text{Nanite Tier Requested}" scale="0.8" />
 <Latex formula="d = \text{Max}(1 + \text{Unrequested Contaminant}, \text{Speed Divisor})" scale="0.8" />
 <Latex formula="+\text{Progress Ticks/t} = \Biggl\lfloor \frac{\text{Min}(30720, \text{ Nanites Available})}{\text{Active Parallels} \times 2^\Delta \times d } \Biggl\rfloor" scale="0.8" />
 
-It is possible to skip steps or complete entire recipes in one tick if there are enough nanites available at once, but there is a hard cap of 30,720 nanites.
+Aynı anda yeterli nanit mevcutsa adımları atlamak veya tüm Tarifleri tek bir tick'te tamamlamak mümkündür, ancak 30.720 nanitlik kesin bir üst sınır vardır.
 
-Below table shows each nanite's tiers.
-| Tier | Nanite |
+Aşağıdaki tablo her nanitin kademesini gösterir.
+| Kademe | Nanit |
 | --- | --- |
-| 1 | <ItemLink id="gregtech:gt.metaitem.03:4010" showIcon="left" >Carbon</ItemLink>/<ItemLink id="gregtech:gt.metaitem.03:4811" showIcon="left" >Glowstone</ItemLink> |
-| 2 | <ItemLink id="gregtech:gt.metaitem.03:4054" showIcon="left" >Silver</ItemLink>/<ItemLink id="gregtech:gt.metaitem.03:4129" showIcon="left" >Neutronium</ItemLink> |
-| 3 | <ItemLink id="gregtech:gt.metaitem.03:4086" showIcon="left" >Gold</ItemLink> |
-| 4 | <ItemLink id="gregtech:gt.metaitem.03:4581" showIcon="left" >Transcendent Metal</ItemLink> |
-| 5 | <ItemLink id="gregtech:gt.metaitem.03:4147" showIcon="left" >Six-Phased Copper</ItemLink> |
-| 6 | <ItemLink id="gregtech:gt.metaitem.03:4585" showIcon="left" >White Dwarf Matter</ItemLink> |
-| 7 | <ItemLink id="gregtech:gt.metaitem.03:4586" showIcon="left" >Black Dwarf Matter</ItemLink> |
+| 1 | <ItemLink id="gregtech:gt.metaitem.03:4010" showIcon="left" >Karbon</ItemLink>/<ItemLink id="gregtech:gt.metaitem.03:4811" showIcon="left" >Parlak taş</ItemLink> |
+| 2 | <ItemLink id="gregtech:gt.metaitem.03:4054" showIcon="left" >Gümüş</ItemLink>/<ItemLink id="gregtech:gt.metaitem.03:4129" showIcon="left" >Nötronyum</ItemLink> |
+| 3 | <ItemLink id="gregtech:gt.metaitem.03:4086" showIcon="left" >Altın</ItemLink> |
+| 4 | <ItemLink id="gregtech:gt.metaitem.03:4581" showIcon="left" >Aşkın Metal</ItemLink> |
+| 5 | <ItemLink id="gregtech:gt.metaitem.03:4147" showIcon="left" >Altı Fazlı Bakır</ItemLink> |
+| 6 | <ItemLink id="gregtech:gt.metaitem.03:4585" showIcon="left" >Beyaz Cüce Maddesi</ItemLink> |
+| 7 | <ItemLink id="gregtech:gt.metaitem.03:4586" showIcon="left" >Kara Cüce Maddesi</ItemLink> |
 | 8 | <ItemLink id="gregtech:gt.metaitem.03:4139" showIcon="left" >Universium</ItemLink> |
 | 9 | <ItemLink id="gregtech:gt.metaitem.03:4141" showIcon="left" >Eternity</ItemLink> |
 | 10 | <ItemLink id="gregtech:gt.metaitem.03:4143" showIcon="left" >Magmatter</ItemLink> |
 {: widths="30" width="220"}
 
-### Recipes
+### Tarifler
 
-You can check recipes with nanite required for each step in [BEC Line Guide - Recipes](./bose_einstein_condensate_line.md#recipes).
+Her adım için gereken nanitli Tarifleri [BEC Hattı Rehberi - Tarifler](./bose_einstein_condensate_line.md#recipes) bölümünde kontrol edebilirsin.
 
-## References
+## Kaynaklar
 - [GTNH Wiki : Bose-Einstein Condensate Observation Array](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Observation_Array)

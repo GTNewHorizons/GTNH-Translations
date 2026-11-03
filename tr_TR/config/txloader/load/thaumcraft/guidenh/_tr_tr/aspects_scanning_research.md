@@ -4,13 +4,13 @@ item_ids:
   - Thaumcraft:ItemInkwell
   - Thaumcraft:ItemResource:9
 navigation:
-  title: Aspects, Scanning and Research
+  title: Aspektler, Tarama ve Araştırma
   parent: ./index.md
   icon: 'Thaumcraft:ItemResearchNotes'
   position: 80
 ---
 
-# Aspects, Scanning and Research
+# Aspektler, Tarama ve Araştırma
 
 <Column width="600" align="center" gap="8">
 
@@ -18,156 +18,156 @@ navigation:
   <FloatingImage src="/assets/images/thaumcraft_logo.png" x="50" y="132" width="2078" height="445" displayWidth="300" wrap="inline" title="Thaumcraft" />
 </Column>
 
-Research in Thaumcraft begins with understanding the world. Scanning reveals the <Color color="#B7A0D6">Aspects</Color> contained in items, creatures, and nodes, granting Research Points and clues;<br>the Research Table then uses these discoveries to combine Aspects and work on Research Notes, ultimately turning them into knowledge in the Thaumonomicon.
+Thaumcraft'te araştırma dünyayı anlamakla başlar. Tarama, eşyalarda, yaratıklarda ve düğümlerde bulunan <Color color="#B7A0D6">Aspektleri</Color> ortaya çıkarır; bu da Araştırma Puanları ve ipuçları kazandırır;<br>Araştırma Masası daha sonra bu keşifleri Aspektleri birleştirmek ve Araştırma Notları üzerinde çalışmak için kullanır ve sonunda bunları Thaumonomicon'daki bilgiye dönüştürür.
 
-The most easily confused parts of research are **discovering Aspects, gaining Research Points, and completing research**. This page explains these requirements and the scanning and research conveniences provided by NH.
+Araştırmanın en çok karıştırılan kısımları **Aspektleri keşfetmek, Araştırma Puanı kazanmak ve araştırmayı tamamlamaktır**. Bu sayfa bu gereksinimleri ve NH'nin sağladığı tarama ile araştırma kolaylıklarını açıklar.
 
-## The Aspect System and Composition
+## Aspekt Sistemi ve Bileşimi
 
-**Aspects** describe both the magical properties of objects and the categories used in research. The six Primal Aspects form the foundation of the entire system, while each Compound Aspect consists of two Aspects;<br>these component Aspects can themselves be Compound Aspects, creating a network of relationships that unfolds in layers.
+**Aspektler** hem nesnelerin büyülü özelliklerini hem de araştırmada kullanılan kategorileri tanımlar. Altı İlkel Aspekt tüm sistemin temelini oluşturur, her Bileşik Aspekt ise iki Aspektten oluşur;<br>bu bileşen Aspektlerin kendisi de Bileşik Aspekt olabilir ve böylece katman katman açılan bir ilişkiler ağı ortaya çıkar.
 
-The six Primal Aspects are <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Air (Aer), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />Earth (Terra), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />Fire (Ignis), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />Water (Aqua), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />Order (Ordo), and <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />Entropy (Perditio).
+Altı İlkel Aspekt şunlardır: <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Hava (Aer), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />Toprak (Terra), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />Ateş (Ignis), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />Su (Aqua), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />Düzen (Ordo) ve <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />Entropi (Perditio).
 
-| Compound Aspect | Component Aspects |
+| Bileşik Aspekt | Bileşen Aspektleri |
 | --- | --- |
-| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"lux"}' scale="0.75" />Light (Lux) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Air + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />Fire |
-| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"motus"}' scale="0.75" />Motion (Motus) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Air + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />Order |
-| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"victus"}' scale="0.75" />Life (Victus) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />Earth + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />Water |
+| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"lux"}' scale="0.75" />Işık (Lux) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Hava + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />Ateş |
+| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"motus"}' scale="0.75" />Hareket (Motus) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Hava + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />Düzen |
+| <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"victus"}' scale="0.75" />Yaşam (Victus) | <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />Toprak + <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />Su |
 
-**An Aspect's composition and an item's Aspect content are two different kinds of information.** "Life consists of Earth and Water" describes a relationship used in research; "an item contains Life" describes that item's properties. The latter affects scanning rewards and the choice of materials for Essentia production, but does not mean that the Research Table directly consumes the item to produce Research Points.
+**Bir Aspektin bileşimi ile bir eşyanın Aspekt içeriği iki farklı bilgi türüdür.** "Yaşam Toprak ve Su'dan oluşur" araştırmada kullanılan bir ilişkiyi tanımlar; "bir eşya Yaşam içerir" ise o eşyanın özelliklerini tanımlar. İkincisi tarama ödüllerini ve Esans üretiminde malzeme seçimini etkiler, ancak Araştırma Masasının Araştırma Puanı üretmek için eşyayı doğrudan tükettiği anlamına gelmez.
 
-Likewise, combining Earth and Water at the Research Table produces Life Research Points, while processing an item containing Life in an Alchemical Furnace produces Life Essentia. Both use the same Aspect icon, but the resources are stored in different places and serve different purposes.
+Aynı şekilde, Araştırma Masasında Toprak ile Su'yu birleştirmek Yaşam Araştırma Puanı üretirken, Yaşam içeren bir eşyayı Simya Fırınında işlemek Yaşam Esansı üretir. İkisi de aynı Aspekt simgesini kullanır, ancak kaynaklar farklı yerlerde depolanır ve farklı amaçlara hizmet eder.
 
-NH's addons also introduce Aspects. When discovering a new Aspect, consider its name, composition, and actual sources; the Aspect count listed on the original mod's wiki should not be treated as the total for the current modpack.
+NH'nin eklentileri de Aspektler ekler. Yeni bir Aspekt keşfederken adını, bileşimini ve gerçek kaynaklarını göz önünde bulundur; orijinal modun wiki'sinde listelenen Aspekt sayısı mevcut mod paketinin toplamı olarak görülmemelidir.
 
-## What Scanning Provides
+## Tarama Ne Sağlar
 
-<ItemLink id="Thaumcraft:ItemThaumometer" showIcon="left" /> is used to observe the magical properties of items, blocks, creatures, and Aura Nodes. Scanning provides three main types of rewards:
+<ItemLink id="Thaumcraft:ItemThaumometer" showIcon="left" /> eşyaların, blokların, yaratıkların ve Aura Düğümlerinin büyülü özelliklerini gözlemlemek için kullanılır. Tarama üç ana ödül türü sağlar:
 
 |  |  |
 | --- | --- |
-| Discovering an object's Aspects | Reveals the Aspects and quantities contained in the object, and may uncover previously unknown Aspects |
-| Research Points | Recorded for the player by Aspect, ready to be spent at the Research Table |
-| Research clues | Certain specific objects can reveal hidden research, expanding the research available in the Thaumonomicon |
+| Bir nesnenin Aspektlerini keşfetmek | Nesnenin içerdiği Aspektleri ve miktarlarını ortaya çıkarır, daha önce bilinmeyen Aspektleri açığa çıkarabilir |
+| Araştırma Puanları | Oyuncu için Aspekt bazında kaydedilir ve Araştırma Masasında harcanmaya hazırdır |
+| Araştırma ipuçları | Belirli nesneler gizli araştırmaları açığa çıkarabilir ve Thaumonomicon'da mevcut araştırmaları genişletir |
 
-These three rewards are not identical. Scanning a new item whose Aspects you already know can still replenish Research Points; scanning a specific object for hidden research focuses on research clues.
+Bu üç ödül birbirinin aynısı değildir. Aspektlerini zaten bildiğin yeni bir eşyayı taramak yine de Araştırma Puanlarını yenileyebilir; gizli araştırma için belirli bir nesneyi taramak ise araştırma ipuçlarına odaklanır.
 
-**Scanning does not consume the observed item or break it down into Essentia.** Scanning ordinary items and processing materials in an Alchemical Furnace are ways of acquiring knowledge and producing magical resources, respectively.
+**Tarama, gözlemlenen eşyayı tüketmez veya Esansa ayrıştırmaz.** Sıradan eşyaları taramak ve malzemeleri Simya Fırınında işlemek sırasıyla bilgi edinme ve büyülü kaynak üretme yollarıdır.
 
-Scan records and Research Points are part of the player's research data. Once a type of object has been scanned, repeatedly scanning it cannot provide an unlimited supply of points.
+Tarama kayıtları ve Araştırma Puanları oyuncunun araştırma verisinin parçasıdır. Bir nesne türü bir kez tarandıktan sonra tekrar tekrar taranması sınırsız puan sağlayamaz.
 
-## World, Inventory, and Container Scanning
+## Dünya, Envanter ve Kap Taraması
 
-Blocks, dropped items, and creatures in the world can be observed while holding a Thaumometer. NH also provides inventory and container scanning to make acquiring Research Points more convenient.
+Dünyadaki bloklar, düşen eşyalar ve yaratıklar bir Thaumometre tutarken gözlemlenebilir. NH ayrıca Araştırma Puanı kazanmayı kolaylaştırmak için envanter ve kap taraması sağlar.
 
- - World scanning | Aim the Thaumometer at a valid object in the world and keep observing it
- - Inventory scanning | Hold the Thaumometer on the cursor and hover over an item slot in an inventory or container
- - Container scanning | Use the Thaumometer on a container after completing the container scanning research
+ - Dünya taraması | Thaumometreyi dünyadaki geçerli bir nesneye doğrult ve gözlemlemeye devam et
+ - Envanter taraması | Thaumometreyi imleçte tut ve bir envanterdeki veya kaptaki eşya yuvasının üzerine gel
+ - Kap taraması | Kap taraması araştırmasını tamamladıktan sonra Thaumometreyi bir kapta kullan
 
-The container scanning research is in the Basic Information category of the Thaumonomicon and requires the Deconstruction Table research; the container scanning research itself must also be completed.<br>
-The NH quest "Scanning Made Easy" introduces these two conveniences. Container scanning uses sneak and right-click; scanning the chest block itself and scanning the items inside it should also be understood separately.<br>
+Kap taraması araştırması Thaumonomicon'un Temel Bilgiler kategorisindedir ve Ayrıştırma Masası araştırmasını gerektirir; kap taraması araştırmasının kendisi de tamamlanmalıdır.<br>
+NH'nin "Tarama Çok Kolay" görevi bu iki kolaylığı tanıtır. Kap taraması eğilip sağ tıklama ile kullanılır; sandık bloğunun kendisini taramak ile içindeki eşyaları taramak da ayrı ayrı anlaşılmalıdır.<br>
 
-Inventory scanning does not work with every slot in every interface. For example, in AE2, scanning storage cells requires another item: <ItemLink id="thaumicenergistics:cell.microscope" showIcon="left" />
+Envanter taraması her arayüzdeki her yuvada çalışmaz. Örneğin AE2'de depolama hücrelerini taramak başka bir eşya gerektirir: <ItemLink id="thaumicenergistics:cell.microscope" showIcon="left" />
 
-## Unknown Aspects and Scanning Requirements
+## Bilinmeyen Aspektler ve Tarama Gereksinimleri
 
-When the Thaumometer says that you cannot understand something, a common reason is that the object contains a Compound Aspect you have not yet discovered.<br>You need to know that Aspect, or both of its component Aspects, to understand the relevant object.<br>Complex objects may involve several Compound Aspects at once, so whether a scan succeeds depends on which Aspects have been discovered.
+Thaumometre bir şeyi anlayamadığını söylediğinde yaygın bir neden, nesnenin henüz keşfetmediğin bir Bileşik Aspekt içermesidir.<br>İlgili nesneyi anlamak için o Aspekti veya iki bileşen Aspektinin ikisini de bilmen gerekir.<br>Karmaşık nesneler aynı anda birkaç Bileşik Aspekt içerebilir, bu yüzden bir taramanın başarılı olup olmaması hangi Aspektlerin keşfedildiğine bağlıdır.
 
-Combining Aspects at the Research Table is another way to discover new Compound Aspects. A correct combination lets the player discover the new Aspect and gain some Research Points; this also expands the range of objects they can understand and scan.
+Araştırma Masasında Aspektleri birleştirmek yeni Bileşik Aspektleri keşfetmenin başka bir yoludur. Doğru bir birleşim oyuncunun yeni Aspekti keşfetmesini ve biraz Araştırma Puanı kazanmasını sağlar; bu aynı zamanda anlayıp tarayabileceği nesne yelpazesini genişletir.
 
 > [!NOTE]
-> Not every pair of Aspects forms a valid combination. Attempting an invalid combination also consumes Research Points, so consult known information about Aspect relationships first to avoid wasting research resources on repeated guesses.
+> Her Aspekt çifti geçerli bir birleşim oluşturmaz. Geçersiz bir birleşim denemek de Araştırma Puanı tüketir, bu yüzden araştırma kaynaklarını tekrar tekrar tahmin yürüterek harcamamak için önce Aspekt ilişkileri hakkındaki bilinen bilgilere başvur.
 
-The order in which you scan objects therefore affects your progress. The quest "Just Tell Me What to Scan Already!" provides a set of objects to scan as a reference.
+Nesneleri tarama sıran bu yüzden ilerlemeni etkiler. "Artık Ne Tarayacağımı Söyle!" görevi referans olarak taranacak bir dizi nesne sunar.
 
-## Item Aspects and NEI Lookups
+## Eşya Aspektleri ve NEI Sorguları
 
-The Aspects and quantities of scanned items can be viewed in their tooltips. By default, hold the sneak key (usually Shift) to display this information.<br>Unknown icons, discovered Aspects, and specific quantities indicate different discovery states and Aspect amounts.
+Taranmış eşyaların Aspektleri ve miktarları ipuçlarında görüntülenebilir. Varsayılan olarak bu bilgiyi göstermek için eğilme tuşunu (genellikle Shift) basılı tut.<br>Bilinmeyen simgeler, keşfedilmiş Aspektler ve belirli miktarlar farklı keşif durumlarını ve Aspekt miktarlarını belirtir.
 
-In GTNH, NEI can display the Aspects of scanned items, Aspect combinations, items containing a particular Aspect, and Arcane, Alchemy, and Infusion recipe lookups. This is useful for finding sources for mass Essentia production.
+GTNH'de NEI, taranmış eşyaların Aspektlerini, Aspekt birleşimlerini, belirli bir Aspekti içeren eşyaları ve Gizemli, Simya ve İnfüzyon tarifi sorgularını görüntüleyebilir. Bu, seri Esans üretimi için kaynak bulmakta kullanışlıdır.
 
-## Sources and Uses of Research Points
+## Araştırma Puanlarının Kaynakları ve Kullanımları
 
-<Color color="#B7A0D6">Research Points</Color> are recorded separately for each Aspect. The numbers at the Research Table show the research resources available to the player.<br>Even if a Compound Aspect has already been discovered, it cannot be placed to form connections once its Research Points have run out.
+<Color color="#B7A0D6">Araştırma Puanları</Color> her Aspekt için ayrı ayrı kaydedilir. Araştırma Masasındaki sayılar oyuncunun kullanabileceği araştırma kaynaklarını gösterir.<br>Bir Bileşik Aspekt zaten keşfedilmiş olsa bile Araştırma Puanları tükendiğinde bağlantı oluşturmak için yerleştirilemez.
 
-| Source | What It Provides | Limits and Characteristics |
+| Kaynak | Sağladığı | Sınırlar ve Özellikler |
 | --- | --- | --- |
-| Scanning a new valid object | Research Points for the Aspects contained in the object; discovering an Aspect for the first time grants additional rewards | A type of object that has already been scanned cannot repeatedly provide points |
-| Combining Aspects at the Research Table | Research Points for the corresponding Compound Aspect | Consumes Research Points from both component Aspects; it does not generate resources for free |
-| Knowledge Fragments | Adds 1–2 points to each Primal Aspect when used | Difficult to obtain and consumed on use |
-| Deconstruction Table | Consumes items in an attempt to obtain Primal Aspect Research Points | Compound Aspects are broken down; output is slow and has a low chance of success |
-| Environmental bonuses at the Research Table | Small amounts of bonus Research Points generated by the surroundings | Acquired slowly and cannot replace a steady source of Research Points |
+| Yeni geçerli bir nesneyi taramak | Nesnedeki Aspektler için Araştırma Puanı; bir Aspekti ilk kez keşfetmek ek ödüller verir | Zaten taranmış bir nesne türü tekrar tekrar puan sağlayamaz |
+| Araştırma Masasında Aspektleri birleştirmek | İlgili Bileşik Aspekt için Araştırma Puanı | Her iki bileşen Aspektten de Araştırma Puanı tüketir; kaynakları bedavaya üretmez |
+| Bilgi Parçaları | Kullanıldığında her İlkel Aspekte 1–2 puan ekler | Elde edilmesi zor ve kullanımda tüketilir |
+| Ayrıştırma Masası | İlkel Aspekt Araştırma Puanı elde etmek için eşyaları tüketir | Bileşik Aspektler ayrıştırılır; çıktı yavaştır ve başarı şansı düşüktür |
+| Araştırma Masasındaki çevre bonusları | Çevre tarafından üretilen küçük miktarda bonus Araştırma Puanı | Yavaş elde edilir ve istikrarlı bir Araştırma Puanı kaynağının yerini alamaz |
 
-**Knowledge Fragments** can both replenish basic research resources and help discover lost knowledge. These two uses should be understood separately; when seeking special research, consult the Knowledge Fragments entry in the Thaumonomicon.
+**Bilgi Parçaları** hem temel araştırma kaynaklarını doldurabilir hem de kayıp bilginin keşfedilmesine yardımcı olabilir. Bu iki kullanım ayrı ayrı anlaşılmalıdır; özel araştırma ararken Thaumonomicon'daki Bilgi Parçaları girdisine başvur.
 
-By default, NH applies a soft cap to Research Points gained from scanning: once the player has 500 Research Points in an Aspect, further scanning yields fewer points for that Aspect.
+Varsayılan olarak NH, taramadan kazanılan Araştırma Puanlarına yumuşak bir üst sınır uygular: oyuncu bir Aspekte 500 Araştırma Puanına ulaştığında daha fazla tarama o Aspekt için daha az puan verir.
 
-Research Points are mainly used to place Aspects in notes, combine Compound Aspects, and duplicate research. When using many Compound Aspects, also watch the reserves of their component Aspects to avoid ending up with only one type of Research Point while being unable to replenish the others you need.
+Araştırma Puanları esas olarak notlara Aspekt yerleştirmek, Bileşik Aspektleri birleştirmek ve araştırmayı çoğaltmak için kullanılır. Çok sayıda Bileşik Aspekt kullanırken bileşen Aspektlerinin rezervlerini de izle; sonunda yalnızca tek tür Araştırma Puanıyla kalıp ihtiyaç duyduğun diğerlerini dolduramamak istemezsin.
 
-## The Research Table, Research Notes, and Scribing Tools
+## Araştırma Masası, Araştırma Notları ve Yazı Araçları
 
-<ItemLink id="Thaumcraft:ItemThaumonomicon" showIcon="left" /> shows the available research paths, the Research Table handles notes and Aspects, and <ItemLink id="Thaumcraft:ItemInkwell" showIcon="left" /> supplies the pen and ink needed for writing.
+<ItemLink id="Thaumcraft:ItemThaumonomicon" showIcon="left" /> mevcut araştırma yollarını gösterir, Araştırma Masası notları ve Aspektleri işler, <ItemLink id="Thaumcraft:ItemInkwell" showIcon="left" /> ise yazmak için gereken kalem ve mürekkebi sağlar.
 
-| Content | Purpose |
+| İçerik | Amaç |
 | --- | --- |
-| Research entries in the Thaumonomicon | View prerequisites, obtain notes for available research, and read unlocked knowledge |
-| Unfinished Research Notes | Record the subject of a research project and the Aspects that must be connected |
-| Research Table | Combine Aspects, work on notes, and use unlocked research assistance features |
-| Scribing Tools | Used to obtain notes and write at the Research Table; ink is consumed |
-| Completed research | Reading it adds the corresponding research to the player's knowledge progress |
+| Thaumonomicon'daki araştırma girdileri | Ön koşulları görüntüle, mevcut araştırmalar için not al ve açılmış bilgiyi oku |
+| Tamamlanmamış Araştırma Notları | Bir araştırma projesinin konusunu ve bağlanması gereken Aspektleri kaydeder |
+| Araştırma Masası | Aspektleri birleştir, notlar üzerinde çalış ve açılmış araştırma yardım özelliklerini kullan |
+| Yazı Araçları | Not almak ve Araştırma Masasında yazmak için kullanılır; mürekkep tüketilir |
+| Tamamlanmış araştırma | Okunduğunda ilgili araştırmayı oyuncunun bilgi ilerlemesine ekler |
 
-Both obtaining Research Notes and writing at the Research Table require Scribing Tools. Making two sets is recommended, one for obtaining notes and one for connecting Aspects.<br>
-**GTNH locks research to the Hard setting, so ordinary research entries also require notes to complete.**
+Hem Araştırma Notları edinmek hem de Araştırma Masasında yazmak Yazı Araçları gerektirir. İki set yapman önerilir; biri not almak, diğeri Aspektleri bağlamak için.<br>
+**GTNH araştırmayı Zor ayarına kilitler, bu yüzden sıradan araştırma girdileri de tamamlanmak için not gerektirir.**
 
-Thaumcraft Research Tweaks changes the Research Table interface. Aspects can be combined by dragging and dropping, or by using right-click while dragging; the corresponding methods are also used to write Aspects into slots on the notes.<br>
-The research instructions in the Thaumonomicon have been updated to cover these interface features. Refer to the current interface when reading them.
+Thaumcraft Research Tweaks, Araştırma Masası arayüzünü değiştirir. Aspektler sürükle-bırak ile veya sürüklerken sağ tıklama kullanılarak birleştirilebilir; ilgili yöntemler notlardaki yuvalara Aspekt yazmak için de kullanılır.<br>
+Thaumonomicon'daki araştırma talimatları bu arayüz özelliklerini kapsayacak şekilde güncellenmiştir. Okurken mevcut arayüze başvur.
 
-## Connection Rules for Research Notes
+## Araştırma Notları için Bağlantı Kuralları
 
-Notes use a hexagonal grid to represent relationships between Aspects. To complete them, connect all the given Aspects into a single connected whole using valid connections.
+Notlar, Aspektler arasındaki ilişkileri temsil etmek için altıgen bir ızgara kullanır. Bunları tamamlamak için verilen tüm Aspektleri geçerli bağlantılarla tek bir bağlı bütün haline getir.
 
-A Compound Aspect can connect to its component Aspects, and a component Aspect can also connect to Compound Aspects that contain it. Similar names, similar icon colors, or both tracing back to a Primal Aspect do not automatically create a direct connection.
+Bir Bileşik Aspekt bileşen Aspektlerine bağlanabilir ve bir bileşen Aspekt de onu içeren Bileşik Aspektlere bağlanabilir. Benzer adlar, benzer simge renkleri veya ikisinin de bir İlkel Aspekte dayanması otomatik olarak doğrudan bir bağlantı oluşturmaz.
 
-For example, Earth and Water have no direct relationship simply because they are both basic Aspects, but Life consists of Earth and Water, so "Earth—Life—Water" represents two valid relationships.<br>Another example is Light and Motion, both of which include Air in their composition; "Light—Air—Motion" connects them through their shared component Aspect.
+Örneğin Toprak ve Su, ikisi de temel Aspekt olduğu için doğrudan bir ilişkiye sahip değildir, ancak Yaşam Toprak ve Su'dan oluşur, bu yüzden "Toprak—Yaşam—Su" iki geçerli ilişkiyi temsil eder.<br>Başka bir örnek Işık ve Hareket'tir; ikisinin de bileşiminde Hava bulunur, "Işık—Hava—Hareket" onları ortak bileşen Aspektleri üzerinden bağlar.
 
-Both composition and position requirements must be met: only adjacent Aspects with a valid relationship can connect to each other.
+Hem bileşim hem de konum gereksinimleri karşılanmalıdır: yalnızca geçerli bir ilişkiye sahip bitişik Aspektler birbirine bağlanabilir.
 
-Placing an Aspect consumes its corresponding Research Points, while writing and making changes also consume ink. Normally, removing a misplaced Aspect does not refund Research Points; Research Expertise and Research Mastery provide a chance to recover them.
+Bir Aspekt yerleştirmek karşılık gelen Araştırma Puanlarını tüketirken yazmak ve değişiklik yapmak da mürekkep tüketir. Normalde yanlış yerleştirilmiş bir Aspekti kaldırmak Araştırma Puanlarını iade etmez; Araştırma Uzmanlığı ve Araştırma Ustalığı bunları geri kazanma şansı verir.
 
-Once all parts of the notes are connected, they become completed research. **After completing the connections, you must read the result to unlock the corresponding research.**
+Notların tüm parçaları bağlandığında tamamlanmış araştırmaya dönüşürler. **Bağlantıları tamamladıktan sonra ilgili araştırmayı açmak için sonucu okumalısın.**
 
-## Research Prerequisites and Hidden Knowledge
+## Araştırma Ön Koşulları ve Gizli Bilgi
 
-Connections in the Thaumonomicon show prerequisite relationships between research entries, but a single connection does not necessarily display every requirement.<br>
-Some content also requires specific scans, earlier discoveries, Warp-related events, or research progress in other mods.
+Thaumonomicon'daki bağlantılar araştırma girdileri arasındaki ön koşul ilişkilerini gösterir, ancak tek bir bağlantı her gereksinimi göstermek zorunda değildir.<br>
+Bazı içerik ayrıca belirli taramalar, önceki keşifler, Delilikle ilgili olaylar veya diğer modlardaki araştırma ilerlemesini gerektirir.
 
 > [!WARNING]
-> Reading research marked as <Color color="#D5B77A">Forbidden Knowledge</Color> adds Warp. The danger level indicates the type and amount of Warp added.
+> <Color color="#D5B77A">Yasak Bilgi</Color> olarak işaretlenmiş araştırmayı okumak Delilik ekler. Tehlike düzeyi eklenen Deliliğin türünü ve miktarını belirtir.
 
 ## <ItemLink id="gregtech:gt.blockmachines:13001" showIcon="left" />
 
-**<ItemLink id="gregtech:gt.blockmachines:13001" showIcon="left" />** provides another way to complete Research Notes, allowing a machine to handle the manual work of connecting Aspects.<br>
-It is a facility that brings technology and magic together, requiring the corresponding research and materials.<br>
-The machine consumes EU and uses the nodes in its structure to complete the Research Notes supplied to it.
+**<ItemLink id="gregtech:gt.blockmachines:13001" showIcon="left" />** Araştırma Notlarını tamamlamanın başka bir yolunu sunar ve Aspektleri bağlama işini elle yapmak yerine bir makinenin yapmasını sağlar.<br>
+Teknoloji ile büyüyü bir araya getiren bir tesistir; ilgili araştırmayı ve malzemeleri gerektirir.<br>
+Makine EU tüketir ve yapısındaki düğümleri kendisine verilen Araştırma Notlarını tamamlamak için kullanır.
 
 > [!WARNING]
-> The Research Completer consumes the nodes used for processing.
+> Araştırma Tamamlayıcısı işlem için kullanılan düğümleri tüketir.
 
-Research assistance facilities reduce repetitive work, but each has its own costs and requirements.
+Araştırma yardım tesisleri tekrarlayan işleri azaltır, ancak her birinin kendi maliyetleri ve gereksinimleri vardır.
 
-## Common Questions
+## Sık Sorulan Sorular
 
-| Symptom | What to Check |
+| Belirti | Neye Bakmalı |
 | --- | --- |
-| The Thaumometer cannot understand an object | Check which of its Aspects have been discovered, especially unknown Compound Aspects and their components |
-| Repeatedly scanning the same type of item provides no new points | That type of object may already have been scanned; increasing the number of identical items does not create a new discovery |
-| A new scan yields fewer points than the item's Aspect quantities | A high reserve of Research Points in an Aspect triggers the soft cap on scanning rewards |
-| Inventory scanning does not respond | Make sure the Thaumometer is held on the cursor, that you hover long enough, and that the target is an ordinary valid inventory slot |
-| Individual items can be scanned, but an entire chest cannot | Check that the container scanning research is complete, and distinguish the chest block from the items inside it |
-| An Aspect is known but cannot be placed in the notes | Check the remaining Research Points for that Aspect, the Scribing Tools, and the state of the target slot |
-| Combining Aspects reduces Primal Research Points | Combining consumes the component Aspects; invalid combinations may also waste points |
-| Adjacent icons do not connect | A direct composition relationship is required; names or icons alone are not enough to judge this |
-| Research Notes are complete, but the Thaumonomicon entry remains locked | Check whether the completed research has been read |
-| NEI does not show a source for an Aspect | Lookups are affected by scanning and discovery progress; the list does not represent every possible source |
+| Thaumometre bir nesneyi anlayamıyor | Aspektlerinden hangilerinin keşfedildiğini, özellikle bilinmeyen Bileşik Aspektleri ve bileşenlerini kontrol et |
+| Aynı tür eşyayı tekrar tekrar taramak yeni puan vermiyor | O nesne türü zaten taranmış olabilir; aynı eşyaların sayısını artırmak yeni bir keşif yaratmaz |
+| Yeni bir tarama eşyanın Aspekt miktarlarından daha az puan veriyor | Bir Aspekteki yüksek Araştırma Puanı rezervi tarama ödüllerindeki yumuşak üst sınırı tetikler |
+| Envanter taraması yanıt vermiyor | Thaumometrenin imleçte tutulduğundan, yeterince uzun beklediğinden ve hedefin sıradan geçerli bir envanter yuvası olduğundan emin ol |
+| Tek tek eşyalar taranabiliyor ama sandığın tamamı taranamıyor | Kap taraması araştırmasının tamamlandığını kontrol et ve sandık bloğunu içindeki eşyalardan ayır |
+| Bir Aspekt biliniyor ama notlara yerleştirilemiyor | O Aspekt için kalan Araştırma Puanlarını, Yazı Araçlarını ve hedef yuvanın durumunu kontrol et |
+| Aspektleri birleştirmek İlkel Araştırma Puanlarını azaltıyor | Birleştirme bileşen Aspektleri tüketir; geçersiz birleşimler de puan harcayabilir |
+| Bitişik simgeler bağlanmıyor | Doğrudan bir bileşim ilişkisi gerekir; yalnızca adlar veya simgeler bunu değerlendirmek için yeterli değildir |
+| Araştırma Notları tamamlandı ama Thaumonomicon girdisi kilitli kalıyor | Tamamlanmış araştırmanın okunup okunmadığını kontrol et |
+| NEI bir Aspekt için kaynak göstermiyor | Sorgular tarama ve keşif ilerlemesinden etkilenir; liste olası her kaynağı temsil etmez |
 
 </Column>

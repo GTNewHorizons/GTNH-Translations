@@ -4,33 +4,33 @@ item_ids:
 quest_ids:
   - So7OhYd8SVO3_Jl370cogA==
 navigation:
-  title: Bose-Einstein Condensate Entanglement Apparatus
+  title: Bose-Einstein Yoğuşması Dolanıklık Aparatı
   parent: ./bose_einstein_condensate_line.md
   icon: gregtech:gt.blockmachines:15754
   position: -11001
 ---
-# Bose-Einstein Condensate Entanglement Apparatus
+# Bose-Einstein Yoğuşması Dolanıklık Aparatı
 <GameScene interactive={true} wrap="square" align="right" width="220" height="200">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15754" />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left" /> is a UIV tier multiblock for converting fluids into entangled condensate in the [BEC Line](./bose_einstein_condensate_line.md)--similar to an input hatch. 
+<ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left" />, [BEC Hattı](./bose_einstein_condensate_line.md) içinde sıvıları dolanık yoğuşmaya dönüştüren UIV kademe bir Multibloktur--bir Girdi Kapağı'na benzer. 
 
-The Entanglement Apparatus does not overclock but it has unlimited parallels to process as much as possible based on the amount of power provided.  
-Multi-amp and laser energy hatches are supported for serious throughput and the Entanglement Apparatus can even entangle different fluids simultaneously but the processing time is always going to be the max duration of the active recipes.  
-The EU quota in recipes is simply the required EU/t for each additional parallel but actual consumed EU/t per parallel is only 5% of that value.
+Dolanıklık Aparatı hız aşırtma yapmaz, ancak sağlanan güç miktarına göre mümkün olduğunca fazla işlem yapabilmek için sınırsız paralele sahiptir.  
+Ciddi işlem hacmi için çok amperli ve lazer enerji kapakları desteklenir ve Dolanıklık Aparatı farklı sıvıları aynı anda dolanıklaştırabilir, ancak işlem süresi her zaman etkin tariflerin en uzun süresi olacaktır.  
+Tariflerdeki EU kotası, her ek paralel için gereken EU/t'dir; ancak paralel başına gerçekte tüketilen EU/t bu değerin yalnızca %5'idir.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock Tier | UIV |
-| Structure Size (LxWxH) | 34x19x19 |
-| Power | Any Hatches allowed, includes Multi-Amp and Laser Hatches |
-| Overclocks | None |
-| Maintenance | No maintenance needed |
-| Pollution | Produces no pollution |
+| Kilit Açma Kademesi | UIV |
+| Yapı Boyutu (UxGxY) | 34x19x19 |
+| Güç | Her Enerji Kapağı kullanılabilir, Çok Amperli ve Lazer Kapakları dahil |
+| Hız Aşırtma | Yok |
+| Bakım | Bakım gerekmez |
+| Kirlilik | Kirlilik üretmez |
 
-## Crafting and Construction
-### Crafting
+## Üretim ve İnşa
+### Üretim
 <RecipesFor id="gregtech:gt.blockmachines:15754" handlerBlacklist="gt.recipe.researchStation" />
 
 <RecipesFor id="gregtech:gt.blockcasings.bec:3" handlerBlacklist="gt.recipe.researchStation" />
@@ -47,19 +47,19 @@ The EU quota in recipes is simply the required EU/t for each additional parallel
 
 <RecipesFor id="gregtech:gt.blockcasings.bec:5" handlerBlacklist="gt.recipe.researchStation" />
 
-### Structure
+### Yapı
 
-The Entanglement Apparatus has no tiered components. 
+Dolanıklık Aparatı'nın kademeli bileşenleri yoktur. 
 
-The Entanglement Apparatus can be rotated or flipped.
+Dolanıklık Aparatı döndürülebilir veya çevrilebilir.
 
-Multi-amp and laser energy hatches are supported for serious throughput. 
+Ciddi işlem hacmi için çok amperli ve lazer enerji kapakları desteklenir. 
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to visualize/build the structure.
+Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan.
 
-| Component | Quantity and placement |
+| Bileşen | Miktar ve yerleşim |
 | --- | --- |
-| <ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left" /> | 1, Front center, 10th layer |
+| <ItemLink id="gregtech:gt.blockmachines:15754" showIcon="left" /> | 1, Ön orta, 10. katman |
 | <ItemLink id="gregtech:gt.blockcasings.bec:3" showIcon="left" /> | 236 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:2" showIcon="left" /> | 232 |
 | <ItemLink id="gregtech:gt.blockcasings.bec" showIcon="left" /> | 216 |
@@ -67,57 +67,57 @@ Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showI
 | <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> | 136-158 |
 | <ItemLink id="gregtech:gt.blockglass1:9" showIcon="left" /> | 148 |
 | <ItemLink id="gregtech:gt.blockcasings.bec:5" showIcon="left" /> | 101 |
-| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Can use Regular, Multi-Amp, Laser</Tooltip> | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> around controller |
-| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Input Hatch | 1+, Can replace any <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> around controller |
-| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 1, Back center |
+| <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">Enerji Kapağı Etiketi: Normal, Çok Amperli, Lazer kullanılabilir</Tooltip> | 1+, Kontrolcü çevresindeki herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerine geçebilir |
+| <ItemImage id="gregtech:gt.blockmachines:51" noTooltip />Girdi Kapağı | 1+, Kontrolcü çevresindeki herhangi bir <ItemLink id="gregtech:gt.blockcasings.bec:1" showIcon="left" /> yerine geçebilir |
+| <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> | 1, Arka orta |
 
-### Wallsharing
+### Duvar Paylaşımı
 
-The Entanglement Apparatus may wallshare each of its sides to save few blocks, but since Entanglement Apparatus can scale its processing indefinitely with unlimited parallel, and ability to run multiple recipes at once, more than one is generally not built.
+Dolanıklık Aparatı birkaç blok tasarrufu için her bir kenarını duvar paylaşımına açabilir; ancak sınırsız paralel ile işlemesini süresiz ölçekleyebilme yeteneği ve aynı anda birden fazla tarif çalıştırabilme yeteneği sayesinde genellikle birden fazla inşa edilmez.
 
-## Usage
+## Kullanım
 
-The Entanglement Apparatus or BEC Generator is the first step in the [BEC Line](./bose_einstein_condensate_line.md) and converts fluids into entangled condensate at the cost of power. The Entanglement Apparatus does not overclock but it has unlimited parallels to process as much as possible based on the amount of power provided.
+Dolanıklık Aparatı veya BEC Jeneratörü, [BEC Hattı](./bose_einstein_condensate_line.md) içindeki ilk adımdır ve güç harcayarak sıvıları dolanık yoğuşmaya dönüştürür. Dolanıklık Aparatı hız aşırtma yapmaz, ancak sağlanan güç miktarına göre mümkün olduğunca fazla işlem yapabilmek için sınırsız paralele sahiptir.
 
-Insert fluid through an input hatch on the front of the structure.  
-The Entanglement Apparatus can entangle different fluids simultaneously but the processing time is always going to be the max duration of the active recipes.  
-For example, if molten neutronium (20 ticks) and molten spacetime (60 ticks) are both present and there is enough power to support both of them, then the processing time will be 60 ticks because that is the maximum of the two. If there is not enough power to support both, then priority follows standard multiblock order with colored hatches, location, etc.
+Sıvıyı yapının önündeki bir Girdi Kapağı aracılığıyla aktar.  
+Dolanıklık Aparatı farklı sıvıları aynı anda dolanıklaştırabilir, ancak işlem süresi her zaman etkin tariflerin en uzun süresi olacaktır.  
+Örneğin, eriyik nötronyum (20 tick) ve eriyik uzayzaman (60 tick) aynı anda mevcutsa ve ikisini de desteklemeye yetecek güç varsa işlem süresi 60 tick olur, çünkü bu ikisinin en uzunudur. İkisini de desteklemeye yetecek güç yoksa öncelik, renkli kapaklar, konum vb. ile Standart Multiblok sırasını izler.
 
-The entangled condensate is outputted through the <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> on the back of the structure and stored in [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Containment Fields</ItemLink>](./bose_einstein_condensate_containment_field.md) until the [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Observation Array</ItemLink>](./bose_einstein_condensate_observation_array.md) pulls it into [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Nodes</ItemLink>](./bose_einstein_condensate_teleportation_node.md) for recipes. The challenge, however, is that the Entanglement Apparatus does not check if there is enough space available for the condensate before it begins processing. It could unintentionally overflow the network's storage and void the condensate if not careful. The solution is using a <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> on the Containment Field to temporarily disable the Entanglement Apparatus if levels ever get too high, or dynamically adjusting the field strength of the Containment Field with OpenComputers.
+Dolanık yoğuşma, yapının arkasındaki <ItemLink id="gregtech:gt.blockmachines:15476" showIcon="left" /> aracılığıyla çıkar ve [<ItemLink id="gregtech:gt.blockmachines:15755" showIcon="left">Muhafaza Alanları</ItemLink>](./bose_einstein_condensate_containment_field.md) içinde depolanır; ta ki [<ItemLink id="gregtech:gt.blockmachines:15756" showIcon="left">Gözlem Dizisi</ItemLink>](./bose_einstein_condensate_observation_array.md) onu tarifler için [<ItemLink id="gregtech:gt.blockmachines:15757" showIcon="left">IO Düğümleri</ItemLink>](./bose_einstein_condensate_teleportation_node.md) içine çekene kadar. Ancak asıl zorluk, Dolanıklık Aparatı'nın işlemeye başlamadan önce yoğuşma için yeterli boş alan olup olmadığını kontrol etmemesidir. Dikkatli olunmazsa istemeden ağın depolamasını taşırıp yoğuşmayı hiçliğe gönderebilir. Çözüm, seviyeler çok yükselirse Dolanıklık Aparatı'nı geçici olarak devre dışı bırakmak için Muhafaza Alanı üzerinde bir <ItemLink id="gregtech:gt.blockmachines:15761" showIcon="left" /> kullanmak ya da OpenComputers ile Muhafaza Alanı'nın alan gücünü dinamik olarak ayarlamaktır.
 
-If multiple Containment Fields are available on the same network, then the condensate from the Entanglement Apparatus is split proportional to their total field strength. For example, if one Containment Field has a 150,000 field strength and another has a 50,000 field strength, then the former receives 75% of the condensate and the latter receives only 25% of the condensate.
+Aynı ağda birden fazla Muhafaza Alanı varsa Dolanıklık Aparatı'ndan gelen yoğuşma, toplam alan güçlerine orantılı olarak bölünür. Örneğin, bir Muhafaza Alanı 150.000 alan gücüne, diğeri 50.000 alan gücüne sahipse ilki yoğuşmanın %75'ini, ikincisi ise yoğuşmanın yalnızca %25'ini alır.
 
-### Recipes
+### Tarifler
 
-Every recipe consists of a single input fluid, an EU quota for entanglement, and a fixed duration.  
-The quota is the required EU/t per parallel but the actual consumed EU/t per parallel is only 5% of that value.  
-For example, neutronium has a quota of 7,864,320 EU which means every 7,864,320 EU/t in throughput grants an additional parallel but each one only ever consumes 393,216 EU/t.  
-The durations are very long to encourage passive condensate production, and then later filtering for the correct ones with a [<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left">Maxwell Gate</ItemLink>](./bose_einstein_condensate_maxwell_gate.md).
+Her tarif tek bir girdi sıvısı, dolanıklık için bir EU kotası ve sabit bir süreden oluşur.  
+Kota, paralel başına gereken EU/t'dir; ancak paralel başına gerçekte tüketilen EU/t bu değerin yalnızca %5'idir.  
+Örneğin nötronyumun kotası 7.864.320 EU'dur; bu, işlem hacmindeki her 7.864.320 EU/t'nin ek bir paralel kazandırdığı, ancak her birinin yalnızca 393.216 EU/t tükettiği anlamına gelir.  
+Süreler, pasif yoğuşma üretimini teşvik etmek ve daha sonra bir [<ItemLink id="gregtech:gt.blockmachines:15760" showIcon="left">Maxwell Geçidi</ItemLink>](./bose_einstein_condensate_maxwell_gate.md) ile doğru olanları filtrelemek için çok uzundur.
 
-| Entangled Condensate | per Parallel | Duration | Power |||
+| Dolanık Yoğuşma | Paralel Başına | Süre | Güç |||
 | --- | --- | --- | --- | --- | --- |
-| ^^ | ^^ | ^^ | Required per Parallel || Consumed per Parallel |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:941" showIcon="left">Neutronium</ItemLink> | 144 L | 30 s | 7,864,320 EU/t | 1A UEV | 393,216 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:942" showIcon="left">Cosmic Neutronium</ItemLink> | 144 L | 30 s | 7,864,320 EU/t | 1A UEV | 393,216 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:943" showIcon="left">Bedrockium</ItemLink> | 144 L | 30 s | 7,864,320 EU/t | 1A UEV | 393,216 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:944" showIcon="left">Chromatic Glass</ItemLink> | 144 L | 30 s | 31,457,280 EU/t | 1A UIV | 1,572,864 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:945" showIcon="left">Celestial Tungsten</ItemLink> | 144 L | 30 s | 31,457,280 EU/t | 1A UIV | 1,572,864 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:946" showIcon="left">Infinity</ItemLink> | 144 L | 30 s | 125,829,120 EU/t | 1A UMV | 6,291,456 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:949" showIcon="left">Dimensionally Shifted Superfluid</ItemLink> | 1,000 L | 60 s | 125,829,120 EU/t | 1A UMV | 6,291,456 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:950" showIcon="left">Lossless Phonon Transfer Medium</ItemLink> | 1,000 L | 90 s | 125,829,120 EU/t | 1A UMV | 6,291,456 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:951" showIcon="left">Degenerate Quark Gluon Plasma</ItemLink> | 1,000 L | 120 s | 125,829,120 EU/t | 1A UMV | 6,291,456 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:947" showIcon="left">Hypogen</ItemLink> | 144 L | 60 s | 503,316,480 EU/t | 1A UXV | 25,165,824 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:948" showIcon="left">Transcendent Metal</ItemLink> | 144 L | 60 s | 503,316,480 EU/t | 1A UXV | 25,165,824 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:952" showIcon="left">Spacetime</ItemLink> | 144 L | 120 s | 503,316,480 EU/t | 1A UXV | 25,165,824 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:953" showIcon="left">Tachyon Rich Temporal Fluid</ItemLink> | 144 L | 120 s | 503,316,480 EU/t | 1A UXV | 25,165,824 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:954" showIcon="left">Spatially Enlarged Fluid</ItemLink> | 144 L | 120 s | 503,316,480 EU/t | 1A UXV | 25,165,824 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:955" showIcon="left">Boundless Cosmic Solder</ItemLink> | 1,000 L | 120 s | 503,316,480 EU/t | 1A UXV | 25,165,824 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:956" showIcon="left">MHDCSM</ItemLink> | 144 L | 180 s | 2,013,265,920 EU/t | 1A MAX | 100,663,296 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:957" showIcon="left">Magmatter</ItemLink> | 144 L | 180 s | 2,013,265,920 EU/t | 1A MAX | 100,663,296 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:958" showIcon="left">Universium</ItemLink> | 144 L | 180 s | 2,013,265,920 EU/t | 1A MAX | 100,663,296 EU/t |
-| <ItemLink id="NotEnoughItems:neiFluidDisplay:959" showIcon="left">Eternity</ItemLink> | 144 L | 180 s | 2,013,265,920 EU/t | 1A MAX | 100,663,296 EU/t |
+| ^^ | ^^ | ^^ | Paralel Başına Gerekli || Paralel Başına Tüketilen |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:941" showIcon="left">Nötronyum</ItemLink> | 144 L | 30 sn | 7.864.320 EU/t | 1A UEV | 393.216 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:942" showIcon="left">Kozmik Nötronyum</ItemLink> | 144 L | 30 sn | 7.864.320 EU/t | 1A UEV | 393.216 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:943" showIcon="left">Katmankayamsı</ItemLink> | 144 L | 30 sn | 7.864.320 EU/t | 1A UEV | 393.216 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:944" showIcon="left">Kromatik Cam</ItemLink> | 144 L | 30 sn | 31.457.280 EU/t | 1A UIV | 1.572.864 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:945" showIcon="left">Göksel Tungsten</ItemLink> | 144 L | 30 sn | 31.457.280 EU/t | 1A UIV | 1.572.864 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:946" showIcon="left">Sonsuzluk</ItemLink> | 144 L | 30 sn | 125.829.120 EU/t | 1A UMV | 6.291.456 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:949" showIcon="left">Boyutsal Olarak Kaydırılmış Süperakışkan</ItemLink> | 1.000 L | 60 sn | 125.829.120 EU/t | 1A UMV | 6.291.456 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:950" showIcon="left">Kayıpsız Fonon Transfer Ortası</ItemLink> | 1.000 L | 90 sn | 125.829.120 EU/t | 1A UMV | 6.291.456 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:951" showIcon="left">Dejenere Kuark Gluon Plazma</ItemLink> | 1.000 L | 120 sn | 125.829.120 EU/t | 1A UMV | 6.291.456 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:947" showIcon="left">Hipojen</ItemLink> | 144 L | 60 sn | 503.316.480 EU/t | 1A UXV | 25.165.824 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:948" showIcon="left">Aşkın Metal</ItemLink> | 144 L | 60 sn | 503.316.480 EU/t | 1A UXV | 25.165.824 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:952" showIcon="left">Uzayzaman</ItemLink> | 144 L | 120 sn | 503.316.480 EU/t | 1A UXV | 25.165.824 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:953" showIcon="left">Takyon Zengin Zamansal Sıvı</ItemLink> | 144 L | 120 sn | 503.316.480 EU/t | 1A UXV | 25.165.824 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:954" showIcon="left">Uzamsal Olarak Genişletilmiş Sıvı</ItemLink> | 144 L | 120 sn | 503.316.480 EU/t | 1A UXV | 25.165.824 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:955" showIcon="left">Sınırsız Kozmik Lehim</ItemLink> | 1.000 L | 120 sn | 503.316.480 EU/t | 1A UXV | 25.165.824 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:956" showIcon="left">MHDCSM</ItemLink> | 144 L | 180 sn | 2.013.265.920 EU/t | 1A MAX | 100.663.296 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:957" showIcon="left">Magmatter</ItemLink> | 144 L | 180 sn | 2.013.265.920 EU/t | 1A MAX | 100.663.296 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:958" showIcon="left">Universium</ItemLink> | 144 L | 180 sn | 2.013.265.920 EU/t | 1A MAX | 100.663.296 EU/t |
+| <ItemLink id="NotEnoughItems:neiFluidDisplay:959" showIcon="left">Ebediyet</ItemLink> | 144 L | 180 sn | 2.013.265.920 EU/t | 1A MAX | 100.663.296 EU/t |
 {: widths="220,60,60, 120, 40, 120"}
 
 
-## References
+## Kaynaklar
 - [GTNH Wiki : Bose-Einstein Condensate Entanglement Apparatus](https://wiki.gtnewhorizons.com/wiki/Bose-Einstein_Condensate_Entanglement_Apparatus)

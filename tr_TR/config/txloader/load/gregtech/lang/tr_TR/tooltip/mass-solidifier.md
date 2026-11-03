@@ -1,6 +1,6 @@
-{color_parallel:{var:parallels}} Parallels per {color_name:Voltage} Tier
-{color_speed:{var:min_speedup}%} Speed {color_speed:+{var:speed_increase}%} per second while active (max {color_speed:{var:max_speedup}%})
-Speed decreases by {color_speed:{var:speed_decrease}%} per second while idle
-{color_efficiency:{var:eu_modifier}%} {EU} Usage
-Use {color_name:Solidifier Hatches} to hold fluids and molds in the same hatch
-{blue:Pretty Ⱄⱁⰾⰻⰴ, isn't it}
+{color_parallel:{var:parallels}} Paralel, {color_name:Gerilim} Kademesi başına
+{color_speed:{var:min_speedup}%} Hız, etkinken her saniye {color_speed:+{var:speed_increase}%} (en fazla {color_speed:{var:max_speedup}%})
+Boştayken hız her saniye {color_speed:{var:speed_decrease}%} azalır
+{color_efficiency:{var:eu_modifier}%} {EU} Kullanımı
+Sıvıları ve kalıpları aynı kapakta tutmak için {color_name:Katılaştırıcı Kapaklar} kullan
+{blue:Ne de güzel bir Ⱄⱁⰾⰻⰴ, değil mi}

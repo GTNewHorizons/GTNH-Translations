@@ -1,32 +1,32 @@
 ---
 navigation:
-  title: Vending Machine
+  title: Satış Otomatı
   parent: qol.md
   icon: gregtech:gt.blockmachines:2741
 categories:
-    - Quality Of Life
-    - New Multiblocks
+    - Yaşam Kalitesi
+    - Yeni Multibloklar
 author: Skorched
 date: 2026-05-16
 ---
 
-# Vending Machine
+# Satış Otomatı
 <GameScene wrap="square" align="right">
   <ImportStructure src="../assets/qol/vending.snbt"/>
 </GameScene>
 
  
-Are you tired of having chests on chests full of random coins you don't want or need yet? Well look no further! Introducing the <Color id="GREEN">Vending Machine</Color> <ItemImage id="gregtech:gt.blockmachines:2741"/>! 
+Henüz istemediğin ya da ihtiyacın olmayan rastgele paralarla dolu üst üste sandıklardan bıktın mı? O zaman daha uzağa bakma! Karşında <Color id="GREEN">Satış Otomatı</Color> <ItemImage id="gregtech:gt.blockmachines:2741"/>! 
 
 
-Unlocked after your first GT tools in the Steam Age, the Vending Machine is a new mini multiblock that deals with all of your storage and trading using coins! It has full compatibility with teams and solo play, and is a huge relief off your early game storage. This also means that the quest book page for Coin Tradings is now removed.
+Buhar Çağı'nda ilk GT araçlarını yaptıktan sonra açılan Satış Otomatı, paralarını kullanarak tüm depolama ve ticaret işlerini halleden yeni bir mini Multibloktur! Takımlarla ve tek başına oyunla tam uyumludur ve oyunun başındaki depolama yükünü büyük ölçüde hafifletir. Bu ayrıca, görev kitabındaki Para Ticareti sayfasının artık kaldırıldığı anlamına gelir.
 
-The Vending Machine has effectively infinite storage of coins, and deals with all conversion of different "sizes" of coins internally. Trades can be found either through the categories on the sidebar, or via search for the output item. It also has a small internal inventory buffer for some required non-consumed items used in trades.
+Satış Otomatı pratikte sınırsız para depolamasına sahiptir ve farklı para "boyutları" arasındaki tüm dönüşümleri kendi içinde halleder. Takaslar ya kenar çubuğundaki kategorilerden ya da çıktı eşyasını arayarak bulunabilir. Ayrıca takaslarda kullanılan ve tüketilmeyen bazı gerekli eşyalar için küçük bir dahili Envanter Tamponu vardır.
 
-## Team Compatibility
-As mentioned earlier, the Vending Machine also fully works with teams! For solo players, the cooldown functionality is inherently the same as the previous quest book page, with cooldowns specific to each quest, and certain unlock "gates" based on quest progress to unlock new trades.
+## Takım Uyumluluğu
+Daha önce de belirtildiği gibi, Satış Otomatı takımlarla da tamamen çalışır! Tek oyunculu oyuncular için bekleme süresi işlevi, her göreve özel bekleme süreleri ve yeni takasların kilidini açmak için görev ilerlemesine dayanan belirli kilit "kapıları" ile önceki görev kitabı sayfasıyla temelde aynıdır.
 
-For team players, the wallet is inherently linked, and you can toggle to use either the "team wallet", or your "personal wallet". If spending from the team wallet, the cooldown is based on the size of your team. If you have a 3 player team, and the output you want has a 10 minute cooldown, then you can do up to 3 trades every 10 minutes. These no longer are restricted to being done individually by each player in the team, and can now be done "on behalf" of another player
+Takım oyuncuları için cüzdan doğal olarak bağlantılıdır ve ister "takım cüzdanını" ister "kişisel cüzdanını" kullanmak için geçiş yapabilirsin. Takım cüzdanından harcama yapıyorsan, bekleme süresi takımının büyüklüğüne bağlıdır. 3 oyunculu bir takımınsa ve istediğin çıktının 10 dakikalık bekleme süresi varsa, her 10 dakikada en fazla 3 takas yapabilirsin. Bunlar artık takımdaki her oyuncunun tek tek yapmasıyla sınırlı değil ve artık başka bir oyuncu "adına" yapılabilir
 
-## AE2 Integration
-Trades and coin storage are now also fully integrated with the new <Color id="GREEN">ME Vending Uplink</Color> <ItemImage id="gregtech:gt.blockmachines:2742"/>
+## AE2 Entegrasyonu
+Takaslar ve para depolama artık yeni <Color id="GREEN">ME Otomat Bağlantısı</Color> <ItemImage id="gregtech:gt.blockmachines:2742"/> ile de tamamen entegre.

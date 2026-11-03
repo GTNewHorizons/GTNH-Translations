@@ -1,44 +1,44 @@
 ---
 navigation:
-  title: "Parallels"
+  title: "Paraleller"
   icon: gregtech:gt.blockmachines:31041
   parent: T_O_P_index.md
   position: -3
 ---
 
-# Parallels
+# Paraleller
 
 
-**Parallels** are the ability of a multiblock machine to process multiple copies of the same recipe in the same time interval. Singleblock machines do not have this ability.
+**Paraleller**, bir multiblok makinenin aynı tarifin birden fazla kopyasını aynı zaman aralığında işleme yeteneğidir. Tek bloklu makineler bu yeteneğe sahip değildir.
 
-When a machine runs in parallel, its power draw becomes (actual parallels x actual recipe power), all input consumption and output production are multiplied by the actual number of parallels, and recipe time stays unchanged.
+Bir makine paralel çalıştığında, güç çekişi (gerçek paralel sayısı x gerçek tarif gücü) olur, tüm girdi tüketimi ve çıktı üretimi gerçek paralel sayısıyla çarpılır ve tarif süresi değişmez.
 
-After parallels are applied, the multiblock then calculates and attempts **[overclocking](overclocking.md)**, assuming [rated power](T_O_P_index.md#rated-power) is still sufficient. Parallels and batch mode are completely separate features.
+Paraleller uygulandıktan sonra multiblok, [nominal gücün](T_O_P_index.md#rated-power) hâlâ yeterli olduğunu varsayarak **[hız aşırtmayı](overclocking.md)** hesaplar ve denemeye çalışır. Paraleller ve yığın modu tamamen ayrı özelliklerdir.
 
-# Maximum Parallels
+# Maksimum Paralel
 
-Multiblocks have a parallel configuration window, and the maximum parallels can be manually lowered.
+Multibloklarda bir paralel yapılandırma penceresi vardır ve maksimum paralel sayısı elle düşürülebilir.
 
-- Machines without any special note default to 1 parallel, such as <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" />
-- <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15518" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15516" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15515" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15569" showIcon="left" />, and <ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" /> have a fixed maximum of 256 parallels
-- Most machines calculate maximum parallels from voltage or from the tier of a structure component. When a tooltip says "each voltage tier provides $$x$$ parallels", that is calculated from the sum of the voltage inputs of all Energy Hatches, capped at 15 (MAX+)
+- Özel bir notu olmayan makineler, <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> gibi, varsayılan olarak 1 paralele sahiptir
+- <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15518" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15516" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15515" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15569" showIcon="left" /> ve <ItemLink id="gregtech:gt.blockmachines:31150" showIcon="left" /> sabit olarak en fazla 256 paralel sınırına sahiptir
+- Çoğu makine maksimum paralel sayısını gerilimden veya bir yapı bileşeninin kademesinden hesaplar. Bir ipucu "her gerilim kademesi $$x$$ paralel sağlar" dediğinde, bu, tüm Enerji Hatch'lerinin gerilim girdilerinin toplamından hesaplanır ve 15 (MAX+) ile sınırlandırılır
 
-Only <ItemLink id="gregtech:gt.blockmachines:1003" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:1132" showIcon="left" /> have cross-recipe parallels, meaning a single parallel batch can contain multiple distinct recipes.
+Yalnızca <ItemLink id="gregtech:gt.blockmachines:1003" showIcon="left" /> ve <ItemLink id="gregtech:gt.blockmachines:1132" showIcon="left" /> tarifler arası paralellere sahiptir; yani tek bir paralel yığın birden çok farklı tarif içerebilir.
 
-In practice, the bottleneck on actual parallels is usually the machine's maximum parallel limit.
+Pratikte gerçek paralel sayısındaki darboğaz genellikle makinenin maksimum paralel sınırıdır.
 
-# Overclocking After Reaching 1 Tick (1tOC)
+# 1 Tick'e Ulaştıktan Sonra Hız Aşırtma (1tOC)
 
-When overclocking would reduce actual recipe time below 1 tick, recipe duration is clamped to 1 tick and the extra overclocking is converted into an additional parallel multiplier. This is called **1tOC**.
+Hız aşırtma gerçek tarif süresini 1 tick'in altına düşürecekse, tarif süresi 1 tick'e sabitlenir ve fazladan hız aşırtma ek bir paralel çarpanına dönüştürülür. Buna **1tOC** denir.
 
-$$\text{1tOC compensation factor} = \left\lceil\frac{1 \text{ tick}}{\text{actual duration (floating point)}}\right\rceil$$
+$$\text{1tOC telafi faktörü} = \left\lceil\frac{1 \text{ tick}}{\text{gerçek süre (kayan nokta)}}\right\rceil$$
 
-This compensation factor increases the machine's maximum parallels by the corresponding multiplier. Because the result is rounded up, it always benefits the player.
+Bu telafi faktörü, makinenin maksimum paralel sayısını karşılık gelen çarpan kadar artırır. Sonuç yukarı yuvarlandığı için her zaman oyuncunun yararınadır.
 
-Machines that do not support 1tOC:
-- All singleblock machines
+1tOC'yi desteklemeyen makineler:
+- Tüm tek bloklu makineler
 - <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:15410" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:5001" showIcon="left" />
 
-# Equivalence Between Parallels and Perfect Overclocks
+# Paraleller ile Kusursuz Hız Aşırtmalar Arasındaki Denklik
 
-**[Parallels](parallels.md)** can be treated as the equivalent of perfect overclocks. A machine with a maximum of $$n$$ parallels is effectively equivalent to having $$\log_4{n}$$ opportunities to convert imperfect overclocks into perfect ones, making the machine run at $$\sqrt{n}$$ times the speed.
+**[Paraleller](parallels.md)**, kusursuz hız aşırtmaların eşdeğeri olarak değerlendirilebilir. Maksimum $$n$$ paralel sayısına sahip bir makine, kusurlu hız aşırtmaları kusursuz olanlara dönüştürmek için $$\log_4{n}$$ fırsata sahip olmakla etkin olarak eşdeğerdir; bu da makineyi $$\sqrt{n}$$ kat hızda çalıştırır.

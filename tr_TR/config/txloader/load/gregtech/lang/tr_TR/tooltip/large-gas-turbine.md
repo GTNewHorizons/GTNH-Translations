@@ -1,3 +1,3 @@
 #include:gregtech:large-turbine-rotor
-Generates power from Gas based on the turbine and fitting
+Türbin ve bağlantı parçasına göre Gazdan güç üretir
 #include:gregtech:large-turbine-fitting

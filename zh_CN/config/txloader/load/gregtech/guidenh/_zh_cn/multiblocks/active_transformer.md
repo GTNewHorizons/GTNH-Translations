@@ -53,9 +53,9 @@ AT 可以朝任意方向旋转，包括向上和向下。
 | <ItemImage id="gregtech:gt.blockmachines:41" noTooltip /><Tooltip label="Energy Hatch">可使用普通、多安培或激光型</Tooltip> | 1 个以上，任意机械方块。 |
 | <ItemImage id="gregtech:gt.blockmachines:31" noTooltip /><Tooltip label="Dynamo Hatch">可使用普通、多安培或激光型</Tooltip> | 0 个以上，任意机械方块。 |
 
-### 共墙
+### 共用墙壁
 
-AT 的每一侧都可以与其他机器共墙，以节省机械方块，甚至分配电力。在满负荷吞吐时，共用同一个能源仓或激光目标仓的 AT 会平均分配输入 EU/t。如果其中一台已满或不再消耗电力，差额会分配给其余 AT。
+AT 的每一侧都可以与其他机器共用墙壁，以节省机械方块，甚至分配电力。在满负荷吞吐时，共用同一个能源仓或激光靶仓的 AT 会平均分配输入 EU/t。如果其中一台已满或不再消耗电力，差额会分配给其余 AT。
 
 ## 用途
 AT 从能源仓接收电力，并通过动力仓输出，类似 [<ItemLink id="gregtech:gt.blockmachines:13106" showIcon="left" />](./lapotronic_supercapacitor.md)。电压和电流都无关紧要。

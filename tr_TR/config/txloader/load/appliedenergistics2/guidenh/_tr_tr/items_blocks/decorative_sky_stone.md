@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Decorative Sky Stone
+  title: Dekoratif Gökyüzü Taşı
   icon: appliedenergistics2:tile.SkyStoneStairBlock
 categories:
 - misc ingredients blocks

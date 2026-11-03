@@ -1,64 +1,64 @@
 ---
 navigation:
-  title: "Tier Skipping, Overclocking, and Parallels"
+  title: "Kademe Atlama, Overclock ve Paralel İşlemler"
   icon: OpenComputers:item:27
   parent: /index.md
 ---
 
-# Tier Skipping, Overclocking, and Parallels
+# Kademe Atlama, Overclock ve Paralel İşlemler
 
 
-The behavior of multiblock machines is determined by the following core concepts: **[tier skipping](tierskipping.md)**, **[overclocking](overclocking.md)**, **[parallels](parallels.md)**, and the **rated power** and **voltage tier** discussed on this page.
+Multiblok makinelerin davranışı şu temel kavramlarla belirlenir: **[kademe atlama](tierskipping.md)**, **[overclock](overclocking.md)**, **[paralel işlemler](parallels.md)** ve bu sayfada ele alınan **nominal güç** ile **gerilim kademesi**.
 
-**[Tier skipping](tierskipping.md)** is the ability of a multiblock to use lower-tier Energy Hatches to run recipes with a higher base recipe power, usually by installing two Energy Hatches of the same tier.
+**[Kademe atlama](tierskipping.md)**, bir multibloğun daha yüksek temel tarif gücüne sahip tarifleri çalıştırmak için genellikle aynı kademeden iki Enerji Kapağı takarak daha düşük kademeli Enerji Kapaklarını kullanabilme yeteneğidir.
 
-**[Overclocking](overclocking.md)** means increasing rated power so the machine can complete a recipe in less time. In most cases this uses 4/2 imperfect overclocks, though some machines support 4/4 perfect overclocks.
+**[Overclock](overclocking.md)**, makinenin bir tarifi daha kısa sürede tamamlayabilmesi için nominal gücü artırmak anlamına gelir. Çoğu durumda bu 4/2 kusurlu overclock kullanır, ancak bazı makineler 4/4 kusursuz overclock destekler.
 
-**[Parallels](parallels.md)** are the ability of a multiblock machine to process multiple copies of the same recipe in the same time interval.
+**[Paralel işlemler](parallels.md)**, bir multiblok makinenin aynı zaman aralığında aynı tarifin birden fazla kopyasını işleyebilme yeteneğidir.
 
-# Recipes and Power
+# Tarifler ve Güç
 
-Every recipe has a **base recipe power**, meaning the power shown in NEI before overclocking and before any discount is applied. Many multiblocks, such as <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> and <ItemLink id="gregtech:gt.blockmachines:687" showIcon="left" />, can apply special power discounts to recipes. The power after discounts but before overclocking is called the **actual recipe power**. When tooltips mention "recipe tier", they refer to base recipe power, not actual recipe power.
+Her tarifin bir **temel tarif gücü** vardır; bu, NEI'de overclock'tan ve herhangi bir indirim uygulanmadan önce gösterilen güçtür. <ItemLink id="gregtech:gt.blockmachines:1000" showIcon="left" /> ve <ItemLink id="gregtech:gt.blockmachines:687" showIcon="left" /> gibi birçok multiblok tariflere özel güç indirimleri uygulayabilir. İndirimlerden sonra ancak overclock'tan önceki güce **gerçek tarif gücü** denir. İpuçları "tarif kademesi"nden bahsettiğinde gerçek tarif gücünü değil, temel tarif gücünü kasteder.
 
-# Rated Power
+# Nominal Güç
 
-**Rated power** is the maximum power the machine can consume while running. It is the primary input for **[overclocking](overclocking.md)** and **[parallels](parallels.md)**. It determines both whether the machine can run a recipe and how it runs that recipe. Rated power and voltage tier are properties of the machine itself and are independent of the energy-packet transport rules in the local power network.
+**Nominal güç**, makinenin çalışırken tüketebileceği maksimum güçtür. **[Overclock](overclocking.md)** ve **[paralel işlemler](parallels.md)** için birincil girdidir. Hem makinenin bir tarifi çalıştırıp çalıştıramayacağını hem de o tarifi nasıl çalıştıracağını belirler. Nominal güç ve gerilim kademesi makinenin kendi özellikleridir ve yerel güç ağındaki enerji paketi taşıma kurallarından bağımsızdır.
 
-## Conditions Required to Start a Recipe
+## Bir Tarifi Başlatmak İçin Gereken Koşullar
 
-The machine can only start a recipe if **rated power >= actual recipe power** and **voltage tier >= base recipe power**.
+Makine bir tarifi yalnızca **nominal güç >= gerçek tarif gücü** ve **gerilim kademesi >= temel tarif gücü** ise başlatabilir.
 
-- Rated power too low -> the controller reports "Recipe requires more power."
-- Voltage tier too low -> the controller reports "Recipe requires higher voltage to start."
+- Nominal güç çok düşük -> kontrolcü "Tarif daha fazla güç gerektiriyor." bildirir.
+- Gerilim kademesi çok düşük -> kontrolcü "Tarif başlamak için daha yüksek gerilim gerektiriyor." bildirir.
 
-## Singleblock Machines
+## Tek Bloklu Makineler
 
-Singleblock machines usually have rated power equal to 1A x standard voltage. Exceptions include the Thermal Centrifuge at 2A, the Arc Furnace at 3A, and the singleblock Mass Fabricator whose consumed current varies according to different voltage levels from 8A to lower 1A.
+Tek bloklu makineler genellikle 1A x standart gerilime eşit nominal güce sahiptir. İstisnalar arasında 2A ile Termal Santrifüj, 3A ile Ark Fırını ve tüketilen akımı farklı gerilim seviyelerine göre 8A'dan 1A'nın altına kadar değişen tek bloklu Kütle İmalatçısı bulunur.
 
-## Multiblock Machines
+## Multiblok Makineler
 
-Multiblocks calculate rated power differently depending on whether they use one Energy Hatch or several. A standard Energy Hatch has rated power equal to 2A x standard voltage. A Multi-Amp or Laser Hatch has rated power equal to its amperage x standard voltage.
+Multibloklar, bir veya birkaç Enerji Kapağı kullanmalarına göre nominal gücü farklı hesaplar. Standart bir Enerji Kapağı, 2A x standart gerilime eşit nominal güce sahiptir. Çok Amperli veya Lazer Kapağı, amperajı x standart gerilime eşit nominal güce sahiptir.
 
-- **Only one Energy Hatch installed**: most machines have rated power = 1A x standard voltage, which is half of the Energy Hatch's rated power. Some machines that support Multi-Amp or Laser Hatches directly use the hatch's full rated power.
-- **Multiple Energy Hatches installed**: rated power is the sum of the rated power of all Energy Hatches.
+- **Yalnızca bir Enerji Kapağı takılı**: çoğu makinede nominal güç = 1A x standart gerilim, yani Enerji Kapağının nominal gücünün yarısıdır. Çok Amperli veya Lazer Kapaklarını doğrudan destekleyen bazı makineler kapağın tam nominal gücünü kullanır.
+- **Birden fazla Enerji Kapağı takılı**: nominal güç, tüm Enerji Kapaklarının nominal güçlerinin toplamıdır.
 
-With only one Energy Hatch installed, the machine's voltage tier is often one tier above its rated power, a 4x gap. That means the machine still lacks enough rated power to run recipes at that higher voltage tier. To make up for that missing rated power, you place more same-tier Energy Hatches, which is **[tier skipping](tierskipping.md)**. Installing two standard same-tier Energy Hatches makes rated power equal to voltage tier; this is called **dual-hatch tier skipping**.
+Yalnızca bir Enerji Kapağı takılıyken makinenin gerilim kademesi genellikle nominal gücünün bir kademe üstündedir; bu 4 katlık bir farktır. Bu, makinenin o daha yüksek gerilim kademesindeki tarifleri çalıştırmak için hâlâ yeterli nominal güçten yoksun olduğu anlamına gelir. Eksik nominal gücü telafi etmek için aynı kademeden daha fazla Enerji Kapağı yerleştirirsin; buna **[kademe atlama](tierskipping.md)** denir. Aynı kademeden iki standart Enerji Kapağı takmak nominal gücü gerilim kademesine eşitler; buna **çift kapaklı kademe atlama** denir.
 
-# Voltage Tier
+# Gerilim Kademesi
 
-**Voltage tier** is the highest base recipe power the machine is allowed to run. It only affects whether a recipe is allowed to start, together with rated power. Voltage tier has nothing to do with **[overclocking](overclocking.md)**.
+**Gerilim kademesi**, makinenin çalıştırmasına izin verilen en yüksek temel tarif gücüdür. Nominal güçle birlikte yalnızca bir tarifin başlatılmasına izin verilip verilmediğini etkiler. Gerilim kademesinin **[overclock](overclocking.md)** ile hiçbir ilgisi yoktur.
 
-## Singleblock Machines
+## Tek Bloklu Makineler
 
-Their voltage tier is the same as their rated power.
+Gerilim kademeleri nominal güçleriyle aynıdır.
 
-## Multiblock Machines
+## Multiblok Makineler
 
-There are four different voltage-tier behaviors for multiblocks:
+Multibloklar için dört farklı gerilim kademesi davranışı vardır:
 
-| Behavior | Description | Typical Machines |
+| Davranış | Açıklama | Tipik Makineler |
 |----------|-------------|------------------|
-| **One-tier boost** | 4A x average Energy Hatch voltage. This is the default behavior for most machines. | Electric Blast Furnace and most others |
-| **Cannot boost** | 1A x Energy Hatch voltage | <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" /> |
-| **One-tier reduction** | 1/4 A x Energy Hatch voltage | Circuit Assembler mode of <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" /> |
-| **Unrestricted** | Tooltip says "as long as enough energy is provided, this machine can run recipes of any tier" | <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:1004" showIcon="left" /> |
+| **Bir kademe artış** | 4A x ortalama Enerji Kapağı gerilimi. Bu, çoğu makine için varsayılan davranıştır. | Elektrikli Yüksek Fırın ve çoğu diğerleri |
+| **Artış yok** | 1A x Enerji Kapağı gerilimi | <ItemLink id="gregtech:gt.blockmachines:810" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:13532" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:32018" showIcon="left" /> |
+| **Bir kademe azalma** | 1/4 A x Enerji Kapağı gerilimi | <ItemLink id="gregtech:gt.blockmachines:12735" showIcon="left" /> makinesinin Devre Montajcısı modu |
+| **Kısıtlamasız** | İpucu "yeterli enerji sağlandığı sürece bu makine her kademeden tarif çalıştırabilir" der | <ItemLink id="gregtech:gt.blockmachines:15517" showIcon="left" />, <ItemLink id="gregtech:gt.blockmachines:1004" showIcon="left" /> |

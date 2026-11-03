@@ -1,8 +1,8 @@
-Converts fluids into Entangled Condensate.
-Entangled Condensate can only be transferred via a {gold:{item:gregtech:gt.blockmachines:15475}}.
-Condensate will be processed even if there is no space in the network.
-Condensate can only be stored in a {gold:{item:gregtech:gt.blockmachines:15755}}.
+Sıvıları Entangled Condensate'e dönüştürür.
+Entangled Condensate yalnızca bir {gold:{item:gregtech:gt.blockmachines:15475}} aracılığıyla aktarılabilir.
+Ağda boş yer olmasa bile Condensate işlenir.
+Condensate yalnızca bir {gold:{item:gregtech:gt.blockmachines:15755}} içinde depolanabilir.
 {dark_gray:{hr}}
-Performs complex parallels.
-Consumes as much fluid as possible, depending on how much {EU/t} is supplied.
-Machine processing time is the max duration of all active recipes.
+Karmaşık paralel işlemler yapar.
+Sağlanan {EU/t} miktarına bağlı olarak mümkün olduğunca çok sıvı tüketir.
+Makine işleme süresi tüm etkin tariflerin azami süresidir.

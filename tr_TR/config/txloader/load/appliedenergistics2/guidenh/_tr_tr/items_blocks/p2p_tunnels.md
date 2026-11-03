@@ -1,15 +1,15 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: P2P Tunnels
+  title: P2P Tünelleri
   icon: appliedenergistics2:item.ItemMultiPart:460
 categories:
 - devices
 ---
 
-# Point-to-Point Tunnels
+# Noktadan Noktaya Tüneller
 
-P2P tunnel usage and behavior are described in [AE2 Mechanics - P2P Tunnels](../ae2_mechanics/p2p_tunnels.md).
+P2P tüneli kullanımı ve davranışı [AE2 Mekanikleri - P2P Tünelleri](../ae2_mechanics/p2p_tunnels.md) sayfasında anlatılmaktadır.
 
 <Row>
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:460" scale="4" />
@@ -26,11 +26,11 @@ P2P tunnel usage and behavior are described in [AE2 Mechanics - P2P Tunnels](../
 <ItemImage id="appliedenergistics2:item.ItemMultiPart:472" scale="4" />
 </Row>
 
-P2P tunnels transfer items, fluids, redstone signals, energy, light, and [channels](../ae2_mechanics/channels.md) through a network without directly interacting with it. Each variant transports one type of thing. They act like portals connecting two block faces at a distance, with defined input and output ends rather than a bidirectional connection.
+P2P tünelleri eşyaları, sıvıları, Kızıltaş sinyallerini, enerjiyi, ışığı ve [kanalları](../ae2_mechanics/channels.md) bir ağ üzerinden doğrudan onunla etkileşime girmeden aktarır. Her varyant tek bir şey türünü taşır. İki blok yüzünü uzaktan birbirine bağlayan portallar gibi davranırlar; çift yönlü bir bağlantı yerine tanımlı giriş ve çıkış uçları vardır.
 
 ![Portal](../assets/images/p2p_portal.png)
 
-For example, a hopper facing an Item P2P tunnel behaves as if it were connected directly to the barrel on the other end. Two barrels next to each other do not transfer items through the tunnel.
+Örneğin, bir Eşya P2P tüneline bakan bir huni, sanki diğer uçtaki varile doğrudan bağlıymış gibi davranır. Yan yana duran iki varil, tünel üzerinden eşya aktarmaz.
 
 <GameScene width="300" height="200" zoom="4" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_hopper_barrel.snbt" />
@@ -42,59 +42,59 @@ For example, a hopper facing an Item P2P tunnel behaves as if it were connected 
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-## Types And Attunement
+## Türler ve Uyumlama
 
 <GameScene width="400" zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_tunnels.snbt" />
   <IsometricCamera yaw="180" pitch="0" />
 </GameScene>
 
-All the ME P2P tunnels are directly craftable. Specifically, right-click any P2P tunnel with the appropriate item to attune it:
+Tüm ME P2P tünelleri doğrudan üretilebilir. Yani, uyumlamak için herhangi bir P2P tüneline uygun eşyayla sağ tıkla:
 
-- ME P2P: any [cable](cables.md)
-- Redstone P2P: a redstone component
-- Item P2P: a chest or hopper
-- Fluid P2P: an iron bucket or glass bottle
-- Energy P2P: an energy container
-- Light P2P: a torch or glowstone
+- ME P2P: herhangi bir [kablo](cables.md)
+- Kızıltaş P2P: bir Kızıltaş bileşeni
+- Eşya P2P: bir sandık veya huni
+- Sıvı P2P: bir demir kova veya cam şişe
+- Enerji P2P: bir enerji kabı
+- Işık P2P: bir meşale veya Parlak taş
 
-ME P2P channels cannot pass through another ME P2P tunnel. Energy P2P tunnels effectively tax 2.5% of transported FE/E through their own [energy](../ae2_mechanics/energy.md) consumption.
+ME P2P kanalları başka bir ME P2P tünelinden geçemez. Enerji P2P tünelleri, kendi [enerji](../ae2_mechanics/energy.md) tüketimleri üzerinden taşınan FE/E'nin %2,5'ini fiilen vergilendirir.
 
-## Common Uses
+## Yaygın Kullanımlar
 
-ME P2P tunnels are commonly used to transport many [channels](../ae2_mechanics/channels.md) efficiently. Eight input tunnels can take 256 (8 x 32) channels from a controller and eight output tunnels can deliver them elsewhere, while each end consumes only one channel. Because the tunnels can be placed on a dedicated [subnetwork](../ae2_mechanics/subnetworks.md), they need not consume channels on the main network.
+ME P2P tünelleri, çok sayıda [kanalı](../ae2_mechanics/channels.md) verimli şekilde taşımak için yaygın olarak kullanılır. Sekiz giriş tüneli bir kontrolcüden 256 (8 x 32) kanal alabilir ve sekiz çıkış tüneli bunları başka bir yere iletebilir; her uç yalnızca bir kanal tüketir. Tüneller özel bir [alt ağa](../ae2_mechanics/subnetworks.md) yerleştirilebildiğinden ana ağda kanal tüketmeleri gerekmez.
 
 <GameScene width="350" height="300" zoom="2.5" interactive={true}>
   <ImportStructure src="../assets/structures/p2p_compact_channels.snbt" />
   <IsometricCamera yaw="120" pitch="30" />
 </GameScene>
 
-## Nesting
+## İç İçe Yerleştirme
 
-ME P2P channels cannot pass through other ME P2P tunnels, so they cannot be nested indefinitely. Other tunnel types can pass through ME P2P tunnels; for example, a redstone P2P tunnel in the same arrangement can still work.
+ME P2P kanalları diğer ME P2P tünellerinden geçemez, bu yüzden süresiz olarak iç içe yerleştirilemezler. Diğer tünel türleri ME P2P tünellerinden geçebilir; örneğin aynı düzenekteki bir Kızıltaş P2P tüneli hâlâ çalışır.
 
 <GameScene width="350" height="300" zoom="3" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_nesting.snbt" />
   <IsometricCamera yaw="225" pitch="30" />
 </GameScene>
 
-## Linking
+## Bağlama
 
 <GameScene zoom="6" showBackground={false}>
   <ImportStructure src="../assets/structures/p2p_linking_frequency.snbt" />
   <IsometricCamera yaw="195" pitch="30" />
 </GameScene>
 
-Use a <ItemLink id="appliedenergistics2:item.ToolMemoryCard" /> to link P2P tunnels. The connection frequency is shown as a 2x2 color array on the back of each tunnel.
+P2P tünellerini bağlamak için bir <ItemLink id="appliedenergistics2:item.ToolMemoryCard" /> kullan. Bağlantı frekansı, her tünelin arkasında 2x2 renk dizisi olarak gösterilir.
 
-- Shift-right-click a tunnel to generate a new frequency.
-- Right-click to paste settings, an upgrade card, or a frequency.
+- Yeni bir frekans oluşturmak için bir tünele Shift-sağ tıkla.
+- Ayarları, bir yükseltme kartını veya bir frekansı yapıştırmak için sağ tıkla.
 
-The tunnel shift-right-clicked is the input; the tunnel right-clicked is the output. Multiple outputs are allowed, but ME P2P channels are divided between them instead of being copied to every output.
+Shift-sağ tıklanan tünel giriştir; sağ tıklanan tünel çıkıştır. Birden fazla çıkışa izin verilir, ancak ME P2P kanalları her çıkışa kopyalanmak yerine aralarında paylaştırılır.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:item.ItemMultiPart:460" />
 
-# P2P Tunnels
-For the usage and behavior of P2P Tunnels, see [AE2 Mechanics - P2P Tunnels](../ae2_mechanics/p2p_tunnels.md).
+# P2P Tünelleri
+P2P Tünellerinin kullanımı ve davranışı için [AE2 Mekanikleri - P2P Tünelleri](../ae2_mechanics/p2p_tunnels.md) sayfasına bak.

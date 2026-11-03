@@ -1,12 +1,12 @@
 ---
 navigation:
-  title: Bound Armor Hazmat Buff
+  title: Bağlı Zırh Tehlikeli Madde Koruması
   parent: magic.md
   icon: AWWayofTime:boundHelmet
 categories:
-    - Magic Changes
+    - Büyü Değişiklikleri
 author: koolkrafter5
 date: 2026-06-10
 ---
 
-<Color id="RED">Blood Magic's</Color> <Color id="BLUE">Bound Armor</Color> and <Color id="GREEN">Omega Armor</Color> now offer <Color color="#FFFF55FF">full hazmat protection</Color> and have the <Color color="#FFFF55FF">SpaceSuit capability</Color>! These modular armor sets just got a bit more useful.
+<Color id="RED">Kan Büyüsü</Color>'nün <Color id="BLUE">Bağlı Zırhı</Color> ve <Color id="GREEN">Omega Zırhı</Color> artık <Color color="#FFFF55FF">tam tehlikeli madde koruması</Color> sunuyor ve <Color color="#FFFF55FF">SpaceSuit yeteneğine</Color> sahip! Bu modüler zırh setleri artık biraz daha kullanışlı.

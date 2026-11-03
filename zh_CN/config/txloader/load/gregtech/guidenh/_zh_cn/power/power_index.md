@@ -12,7 +12,7 @@ navigation:
 
 - 发电方式请参阅发电总览。
 - 网络布局与传输建议请参阅电力存储与传输。
-- 机器跨级、超频与并行请参阅**[跨级、超频与并行](../tierskipping-overcloking-parallels/T_O_P_index.md)**。
+- 机器升压、超频与并行请参阅**[升压、超频与并行](../tierskipping-overcloking-parallels/T_O_P_index.md)**。
 
 # 电压与电流
 

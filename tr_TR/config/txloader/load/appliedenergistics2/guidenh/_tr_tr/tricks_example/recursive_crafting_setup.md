@@ -1,17 +1,17 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Recursive Crafting
+  title: Özyinelemeli Üretim
   icon: witchery:ingredient:130
 ---
 
-# Recursive Crafting Setup
+# Özyinelemeli Üretim Düzeneği
 
-As mentioned in [Autocrafting](../ae2_mechanics/autocrafting.md), the autocrafting planner cannot handle a recipe whose primary output is also an input. For example, it cannot handle the recipe that duplicates <ItemLink id="witchery:ingredient:130" />.
+[Otomatik Üretim](../ae2_mechanics/autocrafting.md) bölümünde belirtildiği gibi, otomatik üretim planlayıcısı birincil çıktısı aynı zamanda girdi olan bir tarifi işleyemez. Örneğin <ItemLink id="witchery:ingredient:130" /> eşyasını çoğaltan tarifi işleyemez.
 
-One solution is to use an <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> as a [pattern](../items_blocks/patterns.md).
+Bir çözüm, <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> cihazını bir [kalıp](../items_blocks/patterns.md) olarak kullanmaktır.
 
-The standard level emitter can then be used to start a small setup that crafts continuously. This section uses a setup that duplicates <ItemImage id="witchery:ingredient:130" /><ItemLink id="witchery:ingredient:130" /> as an example.
+Ardından standart seviye vericisi, sürekli üretim yapan küçük bir düzenek başlatmak için kullanılabilir. Bu bölümde örnek olarak <ItemImage id="witchery:ingredient:130" /><ItemLink id="witchery:ingredient:130" /> eşyasını çoğaltan bir düzenek kullanılmaktadır.
 
 <RecipeFor id="witchery:ingredient:130" />
 
@@ -21,10 +21,10 @@ The standard level emitter can then be used to start a small setup that crafts c
   <ImportStructure src="../assets/structures/recursive_recipe_setup.snbt" />
   <IsometricCamera yaw="15" pitch="30" />
   <DiamondAnnotation pos="3.5 0.5 1.5" color="#00ff00">
-    To the main network
+    Ana ağa
   </DiamondAnnotation>
   <BlockAnnotation pos="2 0 1">
-    (1) Interface: configure it to store the extra materials required: magma cream, blaze powder, and a Small Pile of Nether Star Dust.
+    (1) Arayüz: gerekli ek malzemeleri depolayacak şekilde yapılandır: magma kremi, blaze tozu ve Küçük Nether Yıldızı Tozu Yığını.
     <Row>
       <ItemImage id="minecraft:magma_cream" scale="2" />
       <ItemImage id="minecraft:blaze_powder" scale="2" />
@@ -32,19 +32,19 @@ The standard level emitter can then be used to start a small setup that crafts c
     </Row>
   </BlockAnnotation>
   <BlockAnnotation pos="0 0 0">
-    (5) Molecular Assembler: contains the pattern for duplicating <ItemLink id="witchery:ingredient:130" />.
+    (5) Moleküler Montajcı: <ItemLink id="witchery:ingredient:130" /> eşyasını çoğaltma kalıbını içerir.
     <Row><RecipeFor id="witchery:ingredient:130" /></Row>
-    One ingredient must be placed in it manually when setting it up.
+    Kurarken içine bir bileşenin elle yerleştirilmesi gerekir.
   </BlockAnnotation>
   <BoxAnnotation min="1.3 1 1.3" max="1.7 1.3 1.7">
-    (2) Standard level emitter: configure it for “<ItemLink id="witchery:ingredient:130" />” and set it to “emit a redstone signal to craft the item”.
+    (2) Standart seviye vericisi: “<ItemLink id="witchery:ingredient:130" />” için yapılandır ve “eşyayı üretmek için Kızıltaş sinyali yay” olarak ayarla.
     <Row>
       <ItemImage id="witchery:ingredient:130" scale="2" />
       <ItemImage id="appliedenergistics2:item.ItemMultiMaterial:53" scale="2" />
     </Row>
   </BoxAnnotation>
   <BoxAnnotation min="1.7 0 1" max="2 1 2">
-    (3) Import bus #1: filter it to the items stored in the interface. Install a redstone card. Set the redstone mode to “active with a redstone signal”.
+    (3) İçe aktarma veriyolu #1: arayüzde depolanan eşyalara göre filtrele. Bir Kızıltaş kartı tak. Kızıltaş modunu “Kızıltaş sinyaliyle etkin” olarak ayarla.
     <Row>
       <ItemImage id="minecraft:magma_cream" scale="2" />
       <ItemImage id="minecraft:blaze_powder" scale="2" />
@@ -53,42 +53,42 @@ The standard level emitter can then be used to start a small setup that crafts c
     </Row>
   </BoxAnnotation>
   <BoxAnnotation min="1 0 0" max="1.3 1 1">
-    (6) Import bus #2: default configuration.
+    (6) İçe aktarma veriyolu #2: varsayılan yapılandırma.
   </BoxAnnotation>
   <BoxAnnotation min="0 1 0" max="1 1.3 1">
-    (4) Storage bus #1: priority higher than the other storage bus. This is very important.
+    (4) Depolama veriyolu #1: önceliği diğer depolama veriyolundan yüksek. Bu çok önemlidir.
   </BoxAnnotation>
   <BoxAnnotation min="2 0 0.7" max="3 1 1">
-    (7) Storage bus #2: filter “<ItemLink id="witchery:ingredient:130" />”. Its priority is lower than the other storage bus.
+    (7) Depolama veriyolu #2: “<ItemLink id="witchery:ingredient:130" />” için filtrele. Önceliği diğer depolama veriyolundan düşük.
     <Row>
       <ItemImage id="witchery:ingredient:130" scale="2" />
     </Row>
   </BoxAnnotation>
 </GameScene>
 
-## Configuration
+## Yapılandırma
 
-* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) Configure it to store the extra materials required: magma cream, blaze powder, and a Small Pile of Nether Star Dust.
-* <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> (2) Configure it for “<ItemLink id="witchery:ingredient:130" />” and set it to “emit a redstone signal to craft the item”.
-* The first <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (3) is set to filter the items stored in the interface. Install a redstone card and set the redstone mode to “active with a redstone signal”.
-* The priority of the first <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (4) must be *higher* than that of the second storage bus. See [Priority](../ae2_mechanics/import_export_storage.md#storage-priority).
-* The <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> (5) contains the pattern for duplicating <ItemLink id="witchery:ingredient:130" /> and one manually inserted <ItemLink id="witchery:ingredient:130" />.
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) Gerekli ek malzemeleri depolayacak şekilde yapılandır: magma kremi, blaze tozu ve Küçük Nether Yıldızı Tozu Yığını.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> (2) “<ItemLink id="witchery:ingredient:130" />” için yapılandır ve “eşyayı üretmek için Kızıltaş sinyali yay” olarak ayarla.
+* İlk <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (3), arayüzde depolanan eşyaları filtreleyecek şekilde ayarlanmıştır. Bir Kızıltaş kartı tak ve Kızıltaş modunu “Kızıltaş sinyaliyle etkin” olarak ayarla.
+* İlk <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (4) önceliği, ikinci depolama veriyolununkinden *yüksek* olmalıdır. Bkz. [Öncelik](../ae2_mechanics/import_export_storage.md#storage-priority).
+* <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> (5), <ItemLink id="witchery:ingredient:130" /> eşyasını çoğaltma kalıbını ve elle yerleştirilmiş bir <ItemLink id="witchery:ingredient:130" /> içerir.
 
-  *Pattern*
+  *Kalıp*
   <RecipeFor id="witchery:ingredient:130" />
 
-* The second <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (6) uses the default configuration.
-* The second <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (7) is filtered to “<ItemLink id="witchery:ingredient:130" />”. Its [priority](../ae2_mechanics/import_export_storage.md#storage-priority) is *lower* than that of the first storage bus.
+* İkinci <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> (6) varsayılan yapılandırmayı kullanır.
+* İkinci <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (7), “<ItemLink id="witchery:ingredient:130" />” için filtrelenmiştir. [Önceliği](../ae2_mechanics/import_export_storage.md#storage-priority) ilk depolama veriyolununkinden *düşüktür*.
 
-## How It Works
+## Nasıl Çalışır
 
-1. Because it contains an <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> and is set to “emit a redstone signal to craft the item”, the <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> acts as a [pattern](../items_blocks/patterns.md). “<ItemLink id="witchery:ingredient:130" />” appears in the [terminal](../items_blocks/terminals.md) as an item that can be [autocrafted](../ae2_mechanics/autocrafting.md).
-2. When a crafting request is received from a player or the system, the standard level emitter turns on.
-3. The first <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> is activated by the standard level emitter and extracts the materials from the <ItemLink id="appliedenergistics2:tile.BlockInterface" />.
-4. The only <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> in the network that can store these materials is the one on the assembler.
-5. The <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> receives the materials (with one <ItemLink id="witchery:ingredient:130" /> already inside), starts crafting, and produces two <ItemLink id="witchery:ingredient:130" />.
-6. The second <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> extracts one <ItemLink id="witchery:ingredient:130" />.
-7. The first storage bus has the higher priority, so <ItemLink id="witchery:ingredient:130" /> returns to the assembler.
-8. The second <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> extracts one <ItemLink id="witchery:ingredient:130" />.
-9. The assembler can no longer accept <ItemLink id="witchery:ingredient:130" />, so the second <ItemLink id="witchery:ingredient:130" /> enters the lower-priority storage bus and is sent to the interface.
-10. The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (which is not configured to store <ItemLink id="witchery:ingredient:130" />) sends it back to the network.
+1. Bir <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:53" /> içerdiği ve “eşyayı üretmek için Kızıltaş sinyali yay” olarak ayarlandığı için <ItemLink id="appliedenergistics2:item.ItemMultiPart:280" /> bir [kalıp](../items_blocks/patterns.md) gibi davranır. “<ItemLink id="witchery:ingredient:130" />” [terminalde](../items_blocks/terminals.md) [otomatik üretilebilen](../ae2_mechanics/autocrafting.md) bir eşya olarak görünür.
+2. Bir oyuncudan veya sistemden üretim isteği geldiğinde standart seviye vericisi açılır.
+3. İlk <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> standart seviye vericisi tarafından etkinleştirilir ve malzemeleri <ItemLink id="appliedenergistics2:tile.BlockInterface" /> cihazından çeker.
+4. Ağda bu malzemeleri depolayabilen tek <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" />, montajcının üzerindeki olandır.
+5. <ItemLink id="appliedenergistics2:tile.BlockMolecularAssembler" /> malzemeleri alır (içinde zaten bir <ItemLink id="witchery:ingredient:130" /> vardır), üretime başlar ve iki <ItemLink id="witchery:ingredient:130" /> üretir.
+6. İkinci <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> bir <ItemLink id="witchery:ingredient:130" /> çeker.
+7. İlk depolama veriyolunun önceliği daha yüksektir, bu yüzden <ItemLink id="witchery:ingredient:130" /> montajcıya geri döner.
+8. İkinci <ItemLink id="appliedenergistics2:item.ItemMultiPart:240" /> bir <ItemLink id="witchery:ingredient:130" /> çeker.
+9. Montajcı artık <ItemLink id="witchery:ingredient:130" /> kabul edemez, bu yüzden ikinci <ItemLink id="witchery:ingredient:130" /> daha düşük öncelikli depolama veriyoluna girer ve arayüze gönderilir.
+10. <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (<ItemLink id="witchery:ingredient:130" /> depolayacak şekilde yapılandırılmamıştır) onu ağa geri gönderir.

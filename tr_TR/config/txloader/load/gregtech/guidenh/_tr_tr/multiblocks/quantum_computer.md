@@ -12,9 +12,9 @@ quest_ids:
   - RAH2M4DoTTaX5a2Sj4hRcQ==
   - lBuQcNYjQ8-YsMFqW6U1tQ==
 navigation:
-  title: Quantum Computer
+  title: Kuantum Bilgisayarı
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15311
   position: -8001
 ---
-# Quantum Computer
+# Kuantum Bilgisayarı

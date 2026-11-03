@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Full Color System
+  title: Tam Renk Sistemi
   parent: misc.md
   icon: gregtech:gt.metaitem.02:32415
 categories:
@@ -9,65 +9,65 @@ author: Skorched
 date: 2026-05-20
 ---
 
-# Full Color System
-What is life without a little <Color id="GREEN">Color!</Color> GTNH now has a fully built-in complete color system! This works with quests, signs, anvils, chat, and just about anywhere that text is rendered!
+# Tam Renk Sistemi
+Biraz <Color id="GREEN">Renk!</Color> olmadan hayat neye yarar! GTNH artık tamamen yerleşik eksiksiz bir renk sistemine sahip! Bu sistem görevler, tabelalar, örsler, sohbet ve metnin görüntülendiği hemen hemen her yerde çalışır!
 
-## Included Features
-- All 16 classic colors - just type "\&" and a color code!
-- RGB hex colors - any of 16 million colors
-- Gradients - create smooth color transitions
-- Rainbow text - hey, why not?
-- Wavy text - animated bouncing text
-- Bold, italic, underline and more - combined freely with any color
+## Dahil Olan Özellikler
+- 16 klasik rengin tamamı - sadece "\&" ve bir renk kodu yaz!
+- RGB onaltılık renkler - 16 milyon rengin herhangi biri
+- Degradeler - yumuşak renk geçişleri oluştur
+- Gökkuşağı metni - neden olmasın ki?
+- Dalgalı metin - animasyonlu zıplayan metin
+- Kalın, italik, altı çizili ve daha fazlası - herhangi bir renkle serbestçe birleştirilebilir
 
-# Usage
-Simply type the color before your text and everything will be that color until you either use another color, or reset with `\&r`.
-## Vanilla Colors:
+# Kullanım
+Metninden önce rengi yazman yeterli; başka bir renk kullanana veya `\&r` ile sıfırlayana kadar her şey o renkte olur.
+## Vanilya Renkleri:
 
-| Code | Color |
+| Kod | Renk |
 | -------------- | --------------- |
-| `\&0` | <Color id="BLACK">Black</Color> |
-| `\&1` | <Color color="#0000AA">Dark Blue</Color> |
-| `\&2` | <Color color="#00AA00">Dark Green</Color> |
-| `\&3` | <Color color="#00AAAA">Dark Aqua</Color> |
-| `\&4` | <Color color="#AA0000">Dark Red</Color> |
-| `\&5` | <Color color="#AA00AA">Dark Purple</Color> |
-| `\&6` | <Color color="#FFAA00">Gold</Color> |
-| `\&7` | <Color color="#AAAAAA">Gray</Color> |
-| `\&8` | <Color color="#555555">Dark Gray</Color> |
-| `\&9` | <Color color="#5555FF">Blue</Color> |
-| `\&a` | <Color color="#55FF55">Green</Color> |
-| `\&b` | <Color color="#55FFFF">Aqua</Color> |
-| `\&c` | <Color color="#FF5555">Red</Color> |
-| `\&d` | <Color color="#FF55FF">Light Purple</Color> |
-| `\&e` | <Color color="#FFFF55">Yellow</Color> |
-| `\&f` | <Color color="#FFFFFF">White</Color> |
+| `\&0` | <Color id="BLACK">Siyah</Color> |
+| `\&1` | <Color color="#0000AA">Koyu Mavi</Color> |
+| `\&2` | <Color color="#00AA00">Koyu Yeşil</Color> |
+| `\&3` | <Color color="#00AAAA">Koyu Turkuaz</Color> |
+| `\&4` | <Color color="#AA0000">Koyu Kırmızı</Color> |
+| `\&5` | <Color color="#AA00AA">Koyu Mor</Color> |
+| `\&6` | <Color color="#FFAA00">Altın</Color> |
+| `\&7` | <Color color="#AAAAAA">Gri</Color> |
+| `\&8` | <Color color="#555555">Koyu Gri</Color> |
+| `\&9` | <Color color="#5555FF">Mavi</Color> |
+| `\&a` | <Color color="#55FF55">Yeşil</Color> |
+| `\&b` | <Color color="#55FFFF">Turkuaz</Color> |
+| `\&c` | <Color color="#FF5555">Kırmızı</Color> |
+| `\&d` | <Color color="#FF55FF">Açık Mor</Color> |
+| `\&e` | <Color color="#FFFF55">Sarı</Color> |
+| `\&f` | <Color color="#FFFFFF">Beyaz</Color> |
 
 
-## Formatting:
-| Code | Effect |
+## Biçimlendirme:
+| Kod | Etki |
 | -------------- | --------------- |
-| `\&l` | __Bold Text__ |
-| `\&o` | _Italic Text_  |
-| `\&n` | <u>Underlined Text</u> |
-| `\&m` | ~~Strikethrough Text~~ (Strikethrough) |
-| `\&k` | Obfuscated Text (Not rendered for clarity)|
-| `\&z` | Wavy Text |
-| `\&r` | Resets to regular typing|
+| `\&l` | __Kalın Metin__ |
+| `\&o` | _İtalik Metin_  |
+| `\&n` | <u>Altı Çizili Metin</u> |
+| `\&m` | ~~Üstü Çizili Metin~~ (Üstü Çizili) |
+| `\&k` | Gizemli Metin (Netlik için oluşturulmaz)|
+| `\&z` | Dalgalı Metin |
+| `\&r` | Normal yazıya sıfırlar|
 
 
-## RGB Hex Colors:
-16 colors not enough? Just make up your own! You can use any valid hex code (or use an online color picker if stuck)
-| Code | Color |
+## RGB Onaltılık Renkler:
+16 renk yetmedi mi? Kendi rengini uydur! Geçerli herhangi bir onaltılık kod kullanabilirsin (takılırsan çevrimiçi bir renk seçici kullan)
+| Kod | Renk |
 | -------------- | --------------- |
-| `\&#FF6B4A` | <Color color="#FF6B4A">Coral Orange</Color> |
-| `\&#4ECDC4` | <Color color="#4ECDC4">Soft Teal</Color> |
-| `\&#7B68EE` | <Color color="#7B68EE">Slate Blue</Color> |
-| `\&#FF69B4` | <Color color="#FF69B4">Hot Pink</Color> |
+| `\&#FF6B4A` | <Color color="#FF6B4A">Mercan Turuncusu</Color> |
+| `\&#4ECDC4` | <Color color="#4ECDC4">Yumuşak Turkuaz</Color> |
+| `\&#7B68EE` | <Color color="#7B68EE">Levha Mavisi</Color> |
+| `\&#FF69B4` | <Color color="#FF69B4">Sıcak Pembe</Color> |
 
 
-## Gradients:
-By typing `\&g` followed by two valid hex colors, a gradient will be made between the two specified colors! Try typing `\&g\&#FF0000\&#FFFF00<YourTextHere>` to make fire!
+## Degradeler:
+`\&g` ve ardından iki geçerli onaltılık renk yazarak belirtilen iki renk arasında bir degrade oluşturulur! Ateş yapmak için `\&g\&#FF0000\&#FFFF00<YourTextHere>` yazmayı dene!
 
-One special type of gradient has its own special code! Type `\&q` for Rainbow effects!
+Özel bir degrade türünün kendi özel kodu var! Gökkuşağı efektleri için `\&q` yaz!
 

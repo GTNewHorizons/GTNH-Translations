@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Cape Switching
+  title: Pelerin Değiştirme
   parent: misc.md
   icon: BloodArsenal:vampire_cape
 categories:
@@ -9,7 +9,7 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Cape Switching
-Have you either donated to the pack, or helped to develop it? Well... <Color id="GREEN">__THANK YOU!!__</Color>
+# Pelerin Değiştirme
+Pakete bağışta mı bulundun ya da geliştirilmesine mi yardım ettin? Şey... <Color id="GREEN">__TEŞEKKÜRLER!!__</Color>
 
-Capes can now be switched between using the `/cape` command in game! Your choice is then saved on the client so you don't have to worry about making the change in every different world. If you feel you should have a cape but don't, please reach out on the [Discord](https://discord.gg/gtnh)
+Pelerinler artık oyun içinde `/cape` komutuyla değiştirilebiliyor! Seçimin istemcide kaydedilir, böylece her farklı dünyada değişikliği yapmayı dert etmen gerekmez. Bir pelerinin olması gerektiğini düşünüyorsan ama yoksa, lütfen [Discord](https://discord.gg/gtnh) üzerinden bize ulaş.

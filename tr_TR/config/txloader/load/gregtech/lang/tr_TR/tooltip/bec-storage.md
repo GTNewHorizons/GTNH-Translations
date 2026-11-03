@@ -1,13 +1,13 @@
-Contained condensate is exposed to all observation arrays on the current network.
-Condensate routing can be controlled by using a {gold:{item:gregtech:gt.blockmachines:15760}}.
+Muhafaza edilen kondensat, mevcut ağdaki tüm gözlem dizilerine maruz kalır.
+Kondensat yönlendirmesi {gold:{item:gregtech:gt.blockmachines:15760}} kullanılarak kontrol edilebilir.
 {dark_gray:{hr}}
-Storage capacity is controlled by the field strength.
-The field strength is configurable in the UI. It can also be set by a computer.
-{gold:1} unit of field strength can store {gold:1L} of condensate, and consumes {gold:1} {EU/t}.
-When multiple containment fields are present on a network, injected condensate is split based on their capacities.
+Depolama kapasitesi alan gücüyle kontrol edilir.
+Alan gücü arayüzden yapılandırılabilir. Bir bilgisayarla da ayarlanabilir.
+{gold:1} birim alan gücü {gold:1L} kondensat depolayabilir ve {gold:1} {EU/t} tüketir.
+Bir ağda birden fazla muhafaza alanı bulunduğunda, enjekte edilen kondensat kapasitelerine göre paylaştırılır.
 {dark_gray:{hr}}
-Excess condensate can be inserted into the containment field, but it will quickly be {red:{underline:voided}}.
-When a containment field is overfilled, {red:{underline:11%}} of its condensate is deleted each second.
-If a containment field shuts down at any point, its contents will be {red:{underline:voided}}.
+Fazla kondensat muhafaza alanına eklenebilir, ancak hızla {red:{underline:yok edilir}}.
+Bir muhafaza alanı fazla doldurulduğunda, kondensatının {red:{underline:11%}} kadarı her saniye silinir.
+Bir muhafaza alanı herhangi bir anda kapanırsa, içeriği {red:{underline:yok edilir}}.
 {dark_gray:{hr}}
-The {gold:{item:gregtech:gt.blockmachines:15761}} can be used to detect stored condensate levels.
+{gold:{item:gregtech:gt.blockmachines:15761}} depolanan kondensat seviyelerini algılamak için kullanılabilir.

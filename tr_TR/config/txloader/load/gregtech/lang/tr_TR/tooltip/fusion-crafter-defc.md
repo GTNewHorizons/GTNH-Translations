@@ -1,2 +1,2 @@
-{color_mechanic:Performs 4/4 Perfect Overclocks} per Casing Tier above Recipe Tier
-Regular Overclocks still apply
+{color_mechanic:4/4 Mükemmel Hız Aşırtma gerçekleştirir}, Tarif Kademesinin üzerindeki her Kasa Kademesi başına
+Normal Hız Aşırtmalar hâlâ geçerlidir

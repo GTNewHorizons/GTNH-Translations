@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Wireless Terminals
+  title: Kablosuz Terminaller
   icon: appliedenergistics2:item.ToolWirelessTerminal
 categories:
 - tools
@@ -14,7 +14,7 @@ item_ids:
 - ae2fc:wireless_ultra_terminal
 ---
 
-# Wireless Terminals
+# Kablosuz Terminaller
 
 <Row>
   <ItemImage id="appliedenergistics2:item.ToolWirelessTerminal" scale="4" />
@@ -27,42 +27,42 @@ item_ids:
   <ItemImage id="ae2fc:wireless_level_terminal" scale="4" />
 </Row>
 
-Wireless terminals are portable versions of wired [terminals](terminals.md). Their interfaces are equivalent, but wireless terminals have [upgrade card](upgrade_cards.md) slots instead of <ItemLink id="appliedenergistics2:item.ItemViewCell" /> slots.
+Kablosuz terminaller, kablolu [terminallerin](terminals.md) taşınabilir sürümleridir. Arayüzleri aynıdır, ancak kablosuz terminallerde <ItemLink id="appliedenergistics2:item.ItemViewCell" /> yuvaları yerine [yükseltme kartı](upgrade_cards.md) yuvaları bulunur.
 
-Pair a terminal by placing it in the upper-right slot of an <ItemLink id="appliedenergistics2:tile.BlockSecurity" /> (the slot with a wireless-terminal icon and an arrow). It works only within range of an <ItemLink id="appliedenergistics2:tile.BlockWireless" /> and can be recharged in a <ItemLink id="appliedenergistics2:tile.BlockCharger" />.
+Bir terminali eşleştirmek için onu bir <ItemLink id="appliedenergistics2:tile.BlockSecurity" /> cihazının sağ üst yuvasına yerleştir (kablosuz terminal simgesi ve bir ok bulunan yuva). Yalnızca bir <ItemLink id="appliedenergistics2:tile.BlockWireless" /> menzili içinde çalışır ve bir <ItemLink id="appliedenergistics2:tile.BlockCharger" /> içinde şarj edilebilir.
 
-# Wireless Terminal
+# Kablosuz Terminal
 
 <ItemImage id="appliedenergistics2:item.ToolWirelessTerminal" scale="4" />
 
-The basic terminal, made portable. Within range of a wireless access point, it can access [network storage](../ae2_mechanics/import_export_storage.md) and request [autocrafting](../ae2_mechanics/autocrafting.md) jobs.
+Taşınabilir hale getirilmiş basit terminal. Bir kablosuz erişim noktasının menzilinde, [ağ depolamasına](../ae2_mechanics/import_export_storage.md) erişebilir ve [otomatik üretim](../ae2_mechanics/autocrafting.md) işleri talep edebilir.
 
-## UI
+## Arayüz
 
-See [Terminals](terminals.md).
+[Terminaller](terminals.md) sayfasına bak.
 
-## Upgrades
+## Yükseltmeler
 
-No additional upgrades are available in the current GTNH build.
+Mevcut GTNH sürümünde ek yükseltme yok.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="appliedenergistics2:item.ToolWirelessTerminal" />
 
-# Wireless Crafting Terminal
+# Kablosuz Üretim Terminali
 
 <ItemImage id="ae2wct:wirelessCraftingTerminal" scale="4" />
 
-The wireless crafting terminal has the same UI and settings as a wireless terminal, plus a crafting grid that is automatically refilled from [network storage](../ae2_mechanics/import_export_storage.md). Be careful when shift-clicking the output.
+Kablosuz üretim terminali, bir kablosuz terminalle aynı arayüze ve ayarlara sahiptir; ayrıca [ağ depolamasından](../ae2_mechanics/import_export_storage.md) otomatik olarak doldurulan bir üretim ızgarası vardır. Çıktıya shift ile tıklarken dikkatli ol.
 
-## UI
+## Arayüz
 
-See [Terminals](terminals.md).
+[Terminaller](terminals.md) sayfasına bak.
 
-## Upgrades
+## Yükseltmeler
 
-No additional upgrades are available in the current GTNH build.
+Mevcut GTNH sürümünde ek yükseltme yok.
 
-## Recipe
+## Tarif
 
 <RecipeFor id="ae2wct:wirelessCraftingTerminal" />

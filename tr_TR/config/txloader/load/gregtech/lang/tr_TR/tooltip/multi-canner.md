@@ -1,1 +1,1 @@
-{color_misc:It's uncanny!}
+{color_misc:Bu gerçekten tuhaf!}

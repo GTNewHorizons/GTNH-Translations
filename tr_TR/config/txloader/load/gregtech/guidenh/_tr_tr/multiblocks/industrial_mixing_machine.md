@@ -4,9 +4,9 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAH7g==
 navigation:
-  title: Industrial Mixing Machine
+  title: Endüstriyel Karıştırma Makinesi
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15566
   position: -5001
 ---
-# Industrial Mixing Machine
+# Endüstriyel Karıştırma Makinesi

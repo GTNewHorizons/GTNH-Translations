@@ -1,59 +1,59 @@
 ---
 navigation:
   parent: ../tricks_example_index.md
-  title: Throwing-In-Water Automation
+  title: Suya Atma Otomasyonu
   icon: appliedenergistics2:item.ItemMultiMaterial:7
 ---
 
-# Throwing-In-Water Automation
+# Suya Atma Otomasyonu
 
-This setup uses an <ItemLink id="appliedenergistics2:tile.BlockInterface" />, so it is intended to work with an [autocrafting](../ae2_mechanics/autocrafting.md) system.
+Bu düzen bir <ItemLink id="appliedenergistics2:tile.BlockInterface" /> kullanır, bu yüzden bir [otomatik üretim](../ae2_mechanics/autocrafting.md) sistemiyle çalışacak şekilde tasarlanmıştır.
 
-Some recipes require an item to be thrown into water. The same design can handle other recipes that require dropping an item at a location. It uses a <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" />, a <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" />, and two modified [pipe subnets](pipe_subnet.md).
+Bazı tarifler bir eşyanın suya atılmasını gerektirir. Aynı tasarım, bir eşyanın belirli bir konuma bırakılmasını gerektiren diğer tarifler için de kullanılabilir. Bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" />, bir <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> ve iki değiştirilmiş [boru alt ağı](pipe_subnet.md) kullanır.
 
-This setup can be combined with [charger automation](charger_automation.md) to produce <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" />.
+Bu düzen, <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:1" /> üretmek için [şarj cihazı otomasyonu](charger_automation.md) ile birleştirilebilir.
 
 <GameScene offsetX="-85" offsetY="-70">
   <ImportStructure src="../assets/structures/throw_in_water.snbt" />
   <IsometricCamera yaw="180" pitch="0" />
   <BlockAnnotation pos="1 0 0">
-  (1) ME Interface: default configuration, with the relevant processing patterns.
+  (1) ME Arayüzü: ilgili işleme kalıplarıyla birlikte varsayılan yapılandırma.
   <Row>
-    <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="150" title="Fluix Pattern" />
+    <FloatingImage src="../assets/images/fluix_pattern.png" displayWidth="150" title="Fluix Kalıbı" />
   </Row>
   </BlockAnnotation>
   <BoxAnnotation min="0.7 0 0" max="1 1 1">
-  (2) Interface: default configuration.
+  (2) Arayüz: varsayılan yapılandırma.
   </BoxAnnotation>
   <BoxAnnotation min="0 0.7 0" max="1 1 1">
-  (3) Formation Plane: set to drop items.
+  (3) Oluşum Düzlemi: eşya bırakacak şekilde ayarlanmış.
   </BoxAnnotation>
   <BoxAnnotation min="0.027999878 2 -0.0032958984" max="1 2.3 1">
-  (4) Annihilation Plane: no configurable GUI.
+  (4) Yok Etme Düzlemi: yapılandırılabilir GUI'si yok.
   </BoxAnnotation>
   <BoxAnnotation min="1 1 0" max="2 1.3 1">
-  (5) Storage Bus: filtered to the pattern outputs.
+  (5) Depolama Veriyolu: kalıp çıktılarına filtrelenmiş.
   </BoxAnnotation>
   <DiamondAnnotation pos="2.5 0.5 0.5">
-  To the main network or charger automation
+  Ana ağa veya şarj cihazı otomasyonuna
   </DiamondAnnotation>
 </GameScene>
 
-## Configuration And Patterns
+## Yapılandırma ve Kalıplar
 
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) is in its default configuration and contains the relevant <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" />.
-  * For <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" />, the default NEI recipe is sufficient.
-* The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (2) is in its default configuration.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" /> (3) is set to drop items.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> (4) has no GUI and cannot be configured.
-* The <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (5) is filtered to the pattern outputs.
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (1) varsayılan yapılandırmasındadır ve ilgili <ItemLink id="appliedenergistics2:item.ItemEncodedUltimatePattern" /> kalıbını içerir.
+  * <ItemLink id="appliedenergistics2:item.ItemMultiMaterial:7" /> için varsayılan NEI tarifi yeterlidir.
+* <ItemLink id="appliedenergistics2:tile.BlockInterface" /> (2) varsayılan yapılandırmasındadır.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" /> (3) eşya bırakacak şekilde ayarlanmıştır.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> (4) GUI'si yoktur ve yapılandırılamaz.
+* <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> (5) kalıp çıktılarına filtrelenmiştir.
 
-## How It Works
+## Nasıl Çalışır
 
-1. The <ItemLink id="appliedenergistics2:tile.BlockInterface" /> sends ingredients to the adjacent <ItemLink id="appliedenergistics2:tile.BlockInterface" /> on the green subnet.
-2. The interface, configured not to stock anything by default, pushes its contents into [network storage](../ae2_mechanics/import_export_storage.md).
-3. The only storage on the green subnet is the <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" />, which drops the received items into the water.
-4. The <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> on the orange subnet attempts to pick up the dropped items, but the <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> is filtered to accept only craft results.
-5. The items transform in the world.
-6. The annihilation plane can now pick up the transformed items because the storage bus accepts them.
-7. The storage bus stores the results in the ME interface and returns them to the main network.
+1. <ItemLink id="appliedenergistics2:tile.BlockInterface" /> malzemeleri yeşil alt ağdaki bitişik <ItemLink id="appliedenergistics2:tile.BlockInterface" /> arayüzüne gönderir.
+2. Varsayılan olarak hiçbir şey stoklamayacak şekilde yapılandırılmış olan arayüz, içeriğini [ağ deposuna](../ae2_mechanics/import_export_storage.md) iter.
+3. Yeşil alt ağdaki tek depolama, aldığı eşyaları suya bırakan <ItemLink id="appliedenergistics2:item.ItemMultiPart:320" /> cihazıdır.
+4. Turuncu alt ağdaki <ItemLink id="appliedenergistics2:item.ItemMultiPart:300" /> bırakılan eşyaları almayı dener; ancak <ItemLink id="appliedenergistics2:item.ItemMultiPart:220" /> yalnızca üretim sonuçlarını kabul edecek şekilde filtrelenmiştir.
+5. Eşyalar dünyada dönüşür.
+6. Depolama veriyolu dönüşen eşyaları kabul ettiği için yok etme düzlemi artık onları alabilir.
+7. Depolama veriyolu sonuçları ME arayüzünde depolar ve ana ağa geri gönderir.

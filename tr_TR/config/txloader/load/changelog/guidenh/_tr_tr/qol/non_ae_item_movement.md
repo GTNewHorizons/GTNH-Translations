@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Non-AE2 Item Logistics
+  title: AE2 Dışı Eşya Lojistiği
   parent: qol.md
   icon: gregtech:gt.metaitem.01:32639
 categories:
@@ -9,14 +9,14 @@ author: Skorched
 date: 2026-05-16
 ---
 
-# Non-AE2 Item Logistics
-This is a much less "visible" change, but a huge one potentially for lategame players (and beyond!) as it allows easier movement of items without reliance on Applied Energistics.
+# AE2 Dışı Eşya Lojistiği
+Bu çok daha az "görünür" bir değişiklik, ama son oyun oyuncuları (ve ötesi!) için potansiyel olarak devasa bir değişiklik; çünkü Applied Energistics'e bağlı kalmadan eşyaların daha kolay taşınmasını sağlıyor.
 
-This includes faster pipes, bigger buses, and other useful tools to allow mass movement of items without lag!
+Buna daha hızlı borular, daha büyük Bus'lar ve eşyaların gecikme olmadan toplu taşınmasını sağlayan diğer kullanışlı araçlar dahil!
 
-Many machines can now move more than 1 stack per tick without causing lag. High tiers of conveyors can move hundreds of thousands of items each tick, working fully with both GT and Applied Energistics systems. Some extra parts of this change include:
-- Rebalancing and buffing conveyors significantly
-- Adding AppliedEnergistics integration to conveyors directly
-- Adding new [GregTech buses (called Quantum Bus and Compressed Bus) that can hold more than one stack per slot!](./bigger_buses.md)
-- Buffing GregTech item pipes
-- Huge performance improvements across the board!
+Artık birçok makine gecikmeye yol açmadan tick başına 1 kümeden fazla eşya taşıyabiliyor. Yüksek seviye konveyörler her tick yüz binlerce eşya taşıyabiliyor ve hem GT hem de Applied Energistics sistemleriyle tam uyumlu çalışıyor. Bu değişikliğin bazı ek parçaları şunları içeriyor:
+- Konveyörlerin önemli ölçüde dengelenmesi ve güçlendirilmesi
+- Konveyörlere doğrudan AppliedEnergistics entegrasyonu eklenmesi
+- Yuva başına birden fazla küme tutabilen yeni [GregTech Bus'ları (Kuantum Bus ve Sıkıştırılmış Bus) eklenmesi!](./bigger_buses.md)
+- GregTech eşya borularının güçlendirilmesi
+- Her alanda devasa performans iyileştirmeleri!

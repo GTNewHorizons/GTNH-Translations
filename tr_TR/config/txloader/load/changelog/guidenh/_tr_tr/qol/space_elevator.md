@@ -1,36 +1,36 @@
 ---
 navigation:
-  title: Space Elevator Changes
+  title: Uzay Asansörü Değişiklikleri
   parent: qol.md
   icon: gregtech:gt.blockmachines:14003
 categories:
-    - Quality Of Life
+    - Yaşam Kalitesi
 author: Skorched
 date: 2026-05-16
 ---
-# Space Elevator Changes
-A couple of nice quality of life changes have been given to the <Color id="GREEN">Space Elevator</Color> <ItemImage id="gregtech:gt.blockmachines:14003"/>
+# Uzay Asansörü Değişiklikleri
+<Color id="GREEN">Uzay Asansörü</Color> <ItemImage id="gregtech:gt.blockmachines:14003"/> için birkaç güzel yaşam kalitesi değişikliği eklendi
 
-# Shared Space Elevator Inputs
-Have you ever wanted to add a few more <Color id="BLUE">Space Elevators</Color> to increase production, but found the redirection of computation too annoying? Now you can share the computation and plasma between __all__ mining modules of Space Elevators!
+# Paylaşılan Uzay Asansörü Girdileri
+Üretimi artırmak için birkaç <Color id="BLUE">Uzay Asansörü</Color> daha eklemek isteyip de hesaplamanın yönlendirilmesini fazla can sıkıcı bulduğun oldu mu? Artık hesaplamayı ve plazmayı Uzay Asansörlerinin __tüm__ madencilik modülleri arasında paylaşabilirsin!
 
-If you still want precise tinkering of computation and/or plasma between modules, that is still possible by putting a hatch on that module as before, and it will only use the given amount of resources.
+Modüller arasında hesaplama ve/veya plazma üzerinde hâlâ hassas ayar yapmak istiyorsan bu da mümkün: eskisi gibi o modüle bir kapak koy, o zaman yalnızca verilen miktarda kaynak kullanılır.
 
 > [!NOTE]
-> This is only applied to mining modules, space assemblers and pumps will not work with this feature.
-> Old setups will still work as before
+> Bu yalnızca madencilik modülleri için geçerlidir, uzay montajcıları ve pompalar bu özellikle çalışmaz.
+> Eski kurulumlar eskisi gibi çalışmaya devam eder
 
-# Space Miner GUI Improvements
+# Uzay Madencisi Arayüz İyileştirmeleri
 <FloatingImage src="../assets/qol/space_gui.png" align="left" wrap="square" displayWidth="128">
   <ImageAnnotation>
-    The new <Color id="RED">Space Miner Utility</Color> panel
+    Yeni <Color id="RED">Uzay Madencisi Yardımcı</Color> paneli
   </ImageAnnotation>
 </FloatingImage>
-The <Color id="GREEN">Space Mining Modules</Color> have had a huge interface update, removing a lot of the need to reference out-of-game resources such as spreadsheets!
+<Color id="GREEN">Uzay Madenciliği Modülleri</Color> devasa bir arayüz güncellemesi aldı; artık elektronik tablolar gibi oyun dışı kaynaklara başvurma ihtiyacının çoğu ortadan kalktı!
 
-3 new panels have been added to the UI:
-- <Color id="BLUE">Space Miner Calculator</Color>: Lets you see what a specific configuration can yield, given a tier and distance setting!
-- <Color id="RED">Space Miner Utility Panel</Color>: Lets you see all of the different asteroids, and lets you see quickly which ones are able to be hit at given distances, miner tiers, or drone tiers
-- <Color color="#00ffff">Asteroid Information Panel</Color>: Shows all relevant information about an asteroid, allowing you to target it by automatically setting the miner distance so that the specific asteroid is hit as often as possible!
+Arayüze 3 yeni panel eklendi:
+- <Color id="BLUE">Uzay Madencisi Hesaplayıcısı</Color>: Verilen bir kademe ve mesafe ayarıyla belirli bir yapılandırmanın ne verebileceğini görmeni sağlar!
+- <Color id="RED">Uzay Madencisi Yardımcı Paneli</Color>: Tüm farklı asteroitleri görmeni ve verilen mesafelerde, madenci kademelerinde veya drone kademelerinde hangilerine ulaşılabildiğini hızlıca görmeni sağlar
+- <Color color="#00ffff">Asteroit Bilgi Paneli</Color>: Bir asteroit hakkındaki tüm ilgili bilgileri gösterir; madencinin mesafesini otomatik olarak ayarlayarak o asteroide mümkün olduğunca sık denk gelmeni sağlar!
 
-Everything currently able to be mined is now highlighted in the filter so you can see at a glance what is available!
+Şu anda çıkarılabilen her şey artık filtrede vurgulanıyor, böylece nelerin mevcut olduğunu bir bakışta görebilirsin!

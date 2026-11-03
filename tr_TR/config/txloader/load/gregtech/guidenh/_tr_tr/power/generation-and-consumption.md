@@ -1,32 +1,32 @@
 ---
 navigation:
-  title: "Power Generation and Consumption"
+  title: "Güç Üretimi ve Tüketimi"
   icon: gregtech:gt.blockmachines:1120
   parent: power-index.md
   position: -2
 ---
 
-# Power Generation and Consumption
+# Güç Üretimi ve Tüketimi
 
-# Generation
+# Üretim
 
-Generators are machines that convert resources into power, or under special conditions generate power seemingly from nothing.
+Jeneratörler, kaynakları güce dönüştüren veya özel koşullarda görünüşte yoktan güç üreten makinelerdir.
 
-**Singleblock generators** first store their output in an internal EU buffer (its size is shown in the tooltip), then output up to 1A at the standard voltage of their tier. Singleblock generators produce power on demand: they only consume fuel when there is enough room left in their internal EU buffer. You can feed them fuel without worrying about waste.
+**Tek bloklu jeneratörler** çıktılarını önce dahili bir EU tamponunda depolar (boyutu ipucunda gösterilir), ardından kademelerinin standart geriliminde 1A'ya kadar çıkış verir. Tek bloklu jeneratörler talebe göre güç üretir: yakıtı yalnızca dahili EU tamponunda yeterli yer kaldığında tüketir. Onlara israfı dert etmeden yakıt verebilirsin.
 
-**Multiblock generators** have output determined by their exact configuration, while output voltage and current are limited by their Dynamo Hatches. Multiblock generators do not produce power on demand: any energy beyond the internal capacity of the Dynamo Hatches is voided.
+**Multiblok jeneratörlerde** çıktı, tam yapılandırmalarına göre belirlenir; çıkış gerilimi ve akımı ise Dinamo Kapaklarıyla sınırlıdır. Multiblok jeneratörler talebe göre güç üretmez: Dinamo Kapaklarının dahili kapasitesini aşan enerji yok edilir.
 
-# Consumption
+# Tüketim
 
 > [!WARNING]
-> Overvolting a consumer block causes an explosion.
+> Bir tüketici bloğa aşırı gerilim uygulamak patlamaya neden olur.
 
-Machines that receive and consume EU are collectively called machines. A machine can only accept energy packets whose voltage is not greater than its maximum input voltage, which is usually the standard voltage of its tier. Overvolting a machine causes it to explode immediately.
+EU alan ve tüketen cihazlara topluca makine denir. Bir makine yalnızca gerilimi azami giriş geriliminden büyük olmayan enerji paketlerini kabul edebilir; bu genellikle kademesinin standart gerilimidir. Bir makineye aşırı gerilim uygulamak onu anında patlatır.
 
-Machines can only run recipes whose power requirement is less than or equal to their own rated power. Recipe power is usually at most $$\frac{15}{16}\text{ A}$$ at the standard voltage of the corresponding tier. This special value is called the recipe's standard power.
+Makineler yalnızca güç gereksinimi kendi nominal güçlerine eşit veya daha az olan tarifleri çalıştırabilir. Tarif gücü, ilgili kademenin standart geriliminde genellikle en fazla $$\frac{15}{16}\text{ A}$$'dir. Bu özel değere tarifin standart gücü denir.
 
-**[Singleblock machines](../singleblock/singleblock-index.md)** become available at LV. They first accept energy packets on demand into their internal EU buffer, then continuously consume EU while running recipes. The maximum input current is usually 2A, except for the Thermal Centrifuge at 4A and the Arc Furnace at 6A.
+**[Tek bloklu makineler](../singleblock/singleblock-index.md)** LV'de kullanılabilir hale gelir. Önce enerji paketlerini talebe göre dahili EU tamponlarına alır, ardından tarif çalıştırırken sürekli EU tüketir. Azami giriş akımı genellikle 2A'dır; Termal Santrifüj 4A ve Ark Ocağı 6A ile istisnadır.
 
-**[Multiblock machines](../multiblocks/multiblocks-index.md)** usually receive power through Energy Hatches. Standard Energy Hatches accept up to 2A. Multi-Amp Energy Hatches accept up to 1.25 times their rated amperage.
+**[Multiblok makineler](../multiblocks/multiblocks-index.md)** gücü genellikle Enerji Kapakları üzerinden alır. Standart Enerji Kapakları 2A'ya kadar kabul eder. Çok Amperli Enerji Kapakları nominal amperajlarının 1,25 katına kadar kabul eder.
 
-When a machine runs out of energy in its internal buffer, it stops executing the recipe and enters a **power failure**. Singleblock machines lose recipe progress but keep their input state; multiblocks lose both recipe progress and their inputs. Make sure you [provide power reliably](enet.md#providing-power-reliably).
+Bir makinenin dahili tamponundaki enerji tükendiğinde tarifi yürütmeyi durdurur ve **güç kesintisine** girer. Tek bloklu makineler tarif ilerlemesini kaybeder ama girdi durumlarını korur; multibloklar hem tarif ilerlemesini hem de girdilerini kaybeder. [Gücü güvenilir şekilde sağladığından](enet.md#providing-power-reliably) emin ol.

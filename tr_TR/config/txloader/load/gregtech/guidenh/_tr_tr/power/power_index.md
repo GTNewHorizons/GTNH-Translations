@@ -1,39 +1,39 @@
 ---
 navigation:
-  title: "Power"
+  title: "Güç"
   icon: gregtech:gt.metaitem.01:32518
   parent: /index.md
   position: 8
 ---
 
-# Power
+# Güç
 
-The GregTech power system uses EU (Energy Units). Its core is the [local power network](enet.md) (GT-Enet), around which power generation, transport, storage, consumption, and conversion are built.
+GregTech güç sistemi EU (Enerji Birimleri) kullanır. Çekirdeği [yerel güç ağı](enet.md) (GT-Enet) olup güç üretimi, taşınması, depolanması, tüketimi ve dönüşümü bunun etrafında kuruludur.
 
-- For power generation methods, see the generation overview.
-- For network layout and transport advice, see power storage and transport.
-- For machine tier skipping, overclocking, and parallels, see **[Tier Skipping, Overclocking, and Parallels](../tierskipping_overcloking_parallels/T_O_P_index.md)**.
+- Güç üretim yöntemleri için üretim genel bakışına bak.
+- Ağ düzeni ve taşıma tavsiyeleri için güç depolama ve taşıma bölümüne bak.
+- Makine kademe atlama, hız aşırtma ve paraleller için **[Kademe Atlama, Hız Aşırtma ve Paraleller](../tierskipping_overcloking_parallels/T_O_P_index.md)** sayfasına bak.
 
-# Voltage and Current
+# Gerilim ve Akım
 
-EU is transmitted as energy packets. The number of energy packets is always an integer.
+EU, enerji paketleri halinde iletilir. Enerji paketlerinin sayısı her zaman bir tam sayıdır.
 
-## Voltage
+## Gerilim
 
-Voltage describes how much EU each packet carries, measured in volts (V). $$1\text{ V} = 1\text{ EU}/\text{packet}$$.
+Gerilim, her paketin ne kadar EU taşıdığını volt (V) cinsinden tanımlar. $$1\text{ V} = 1\text{ EU}/\text{packet}$$.
 
-Voltage describes the size of a single energy packet and determines generator and machine progression (see [voltage tiers](voltage_tiers.md)).
+Gerilim, tek bir enerji paketinin boyutunu tanımlar ve jeneratör ile makine ilerlemesini belirler (bkz. [gerilim kademeleri](voltage_tiers.md)).
 
-## Current
+## Akım
 
-Current describes how many energy packets are transferred per unit time, measured in amperes (A). $$1\text{ A} = 1\text{ packet}/\text{tick}$$.
+Akım, birim zamanda kaç enerji paketinin aktarıldığını amper (A) cinsinden tanımlar. $$1\text{ A} = 1\text{ packet}/\text{tick}$$.
 
-Because the number of energy packets transferred in a single tick is always an integer, instantaneous current is also always an integer. Average current is the average of instantaneous current, so it is often fractional.
+Tek bir tick içinde aktarılan enerji paketlerinin sayısı her zaman bir tam sayı olduğundan, anlık akım da her zaman bir tam sayıdır. Ortalama akım, anlık akımın ortalaması olduğu için genellikle kesirlidir.
 
-## Power
+## Güç
 
-Power is the product of voltage and current: $$P = UI$$. It describes how much energy is produced, transmitted, or consumed per unit time, measured in EU/t. $$1\text{ EU/t} = 1\text{ V} \times 1\text{ A}$$.
+Güç, gerilim ile akımın çarpımıdır: $$P = UI$$. Birim zamanda ne kadar enerjinin üretildiğini, iletildiğini veya tüketildiğini EU/t cinsinden tanımlar. $$1\text{ EU/t} = 1\text{ V} \times 1\text{ A}$$.
 
-Energy is power multiplied by time (ticks), measured in EU.
+Enerji, gücün zamanla (tick) çarpımıdır ve EU cinsinden ölçülür.
 
-The GT power system is close to real-world electrical behavior. Once you account for [cable loss](cable_loss.md) and [transmission internal resistance](output_loss.md), conservation of energy still holds.
+GT güç sistemi gerçek dünyadaki elektriksel davranışa yakındır. [Kablo kaybını](cable_loss.md) ve [iletim iç direncini](output_loss.md) hesaba kattığında bile enerjinin korunumu geçerlidir.

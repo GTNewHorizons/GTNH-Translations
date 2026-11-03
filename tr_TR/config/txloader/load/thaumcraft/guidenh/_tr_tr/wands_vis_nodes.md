@@ -3,13 +3,13 @@ item_ids:
   - Thaumcraft:WandCasting
   - Thaumcraft:blockStoneDevice:11
 navigation:
-  title: Wands, Vis and Nodes
+  title: Asalar, Vis ve Düğümler
   parent: ./index.md
   icon: 'Thaumcraft:WandCasting'
   position: 70
 ---
 
-# Wands, Vis and Nodes
+# Asalar, Vis ve Düğümler
 
 <Column width="600" align="center" gap="8">
 
@@ -17,334 +17,334 @@ navigation:
   <FloatingImage src="/assets/images/thaumcraft_logo.png" x="50" y="132" width="2078" height="445" displayWidth="300" wrap="inline" title="Thaumcraft" />
 </Column>
 
-**<ItemImage id='Thaumcraft:WandCasting:0:{rod:"wood",cap:"iron"}' /> Wands** store and use <Color color="#B7A0D6">Vis</Color> in Thaumcraft, enabling arcane crafting, activating magical facilities, and using wand foci.<br>As research progresses, you need to improve wand capacity, Vis discounts, and your energy supply to support new recipes and facilities.
+**<ItemImage id='Thaumcraft:WandCasting:0:{rod:"wood",cap:"iron"}' /> Asalar**, Thaumcraft'ta <Color color="#B7A0D6">Vis</Color> depolar ve kullanır; gizemli üretimi, büyülü tesislerin etkinleştirilmesini ve asa odaklarının kullanılmasını sağlar.<br>Araştırma ilerledikçe yeni tarifleri ve tesisleri desteklemek için asa kapasitesini, Vis indirimlerini ve enerji kaynağını iyileştirmen gerekir.
 
-In GTNH, wand crafting also requires **Twilight Forest trophies and technological materials**.<br>
-More advanced wands offer greater capacity, so upgrading involves both obtaining new materials and reducing the Vis needed to craft the next wand.
+GTNH'de asa üretimi ayrıca **Twilight Forest kupaları ve teknolojik materyaller** gerektirir.<br>
+Daha gelişmiş asalar daha büyük kapasite sunar, bu yüzden yükseltme hem yeni materyaller elde etmeyi hem de bir sonraki asayı üretmek için gereken Vis'i azaltmayı içerir.
 
-This page covers wand properties and crafting requirements, along with energy sources such as nodes, aspect orbs, and Centi-Vis. For aspects and research points, see [Thaumcraft Basics](./thaumcraft_basics.md).
+Bu sayfa asa özelliklerini ve üretim gereksinimlerini, ayrıca düğümler, aspekt küreleri ve Centi-Vis gibi enerji kaynaklarını ele alır. Aspektler ve araştırma puanları için [Thaumcraft Temelleri](./thaumcraft_basics.md) sayfasına bak.
 
-## Wand Components and Uses
+## Asa Bileşenleri ve Kullanımları
 
-Wands consist of a **rod or staff core** and **caps**. The rod mainly determines Vis capacity, while the caps mainly determine the cost modifier. Some addon components also provide automatic recharging or energy conversion.
+Asalar bir **gövde ya da uzun asa çekirdeği** ve **uçlardan** oluşur. Gövde esas olarak Vis kapasitesini, uçlar ise esas olarak maliyet çarpanını belirler. Bazı ek bileşenler otomatik şarj veya enerji dönüşümü de sağlar.
 
-<Color color="#B7A0D6">Capacity is counted separately for each of the six primal aspects.</Color> A capacity of "50 Vis" means that up to 50 Vis of each primal aspect can be stored.
+<Color color="#B7A0D6">Kapasite, altı ilkel aspektin her biri için ayrı ayrı hesaplanır.</Color> "50 Vis" kapasitesi, her ilkel aspekten 50 Vis'e kadar depolanabileceği anlamına gelir.
 
-| Type | Arcane Crafting | Wand Foci | Main Features |
+| Tür | Gizemli Üretim | Asa Odakları | Temel Özellikler |
 | --- | --- | --- | --- |
-| Wand | Yes | Yes | Suitable for crafting, interacting with facilities, and using foci |
-| Sceptre | Yes | No | With the same ordinary rod, capacity increases by 50%, with an additional 10 percentage point reduction in Vis cost |
-| Staff | No | Yes | Uses a staff core, usually with greater capacity, for foci and facility interactions |
+| Asa | Evet | Evet | Üretim, tesislerle etkileşim ve odak kullanımı için uygundur |
+| Saltanat Asası | Evet | Hayır | Aynı sıradan gövdeyle kapasite %50 artar, ayrıca Vis maliyetinde 10 puanlık indirim daha sağlanır |
+| Uzun Asa | Hayır | Evet | Genellikle daha büyük kapasiteli bir uzun asa çekirdeği kullanır; odaklar ve tesis etkileşimleri içindir |
 
-A sceptre's extra capacity and discount make it suitable for keeping in an Arcane Worktable.<br>
-Staves offer greater capacity but cannot be used for arcane crafting.
+Saltanat asasının ek kapasitesi ve indirimi, onu Gizemli Çalışma Tezgahında bulundurmak için uygun kılar.<br>
+Uzun asalar daha büyük kapasite sunar ancak gizemli üretimde kullanılamaz.
 
-Staff capacity depends on the specific core. For example, a Greatwood Staff Core holds 125 Vis, a Silverwood Staff Core holds 250 Vis, and the six elemental staff cores hold 175 Vis.
+Uzun asa kapasitesi kullanılan çekirdeğe bağlıdır. Örneğin Büyük Ağaç Uzun Asa Çekirdeği 125 Vis, Silverwood Uzun Asa Çekirdeği 250 Vis, altı element uzun asa çekirdeği ise 175 Vis tutar.
 
-**Wand foci** provide active abilities such as mining, combat, and movement; a staff core is the component that determines the staff's capacity.<br>
-## Wand Crafting Requirements
+**Asa odakları** madencilik, savaş ve hareket gibi etkin yetenekler sağlar; uzun asa çekirdeği ise uzun asanın kapasitesini belirleyen bileşendir.<br>
+## Asa Üretim Gereksinimleri
 
-In GTNH, crafting a wand also requires screws and Twilight Forest boss trophies, with the materials determined by the component's recipe tier.
+GTNH'de asa üretimi ayrıca vida ve Twilight Forest boss kupası gerektirir; materyaller bileşenin tarif kademesine göre belirlenir.
 
-| Recipe Tier | Screw Material | Boss Trophy | Typical Acquisition Stage |
+| Tarif Kademesi | Vida Materyali | Boss Kupası | Tipik Edinme Aşaması |
 | --- | --- | --- | --- |
-| 0 (LV) | Aluminium | <ItemLink id="TwilightForest:item.nagaScale" showIcon="left" /> | LV |
-| 1 (MV) | Stainless Steel | <ItemLink id="dreamcraft:LichBone" showIcon="left" /> | MV |
-| 2 (HV) | Energetic Alloy | <ItemLink id="dreamcraft:LichBone" showIcon="left" /> | MV |
-| 3 (EV) | Vibrant Alloy | <ItemLink id="TwilightForest:item.fieryBlood" showIcon="left" /> | HV |
-| 4 (IV) | Tungstensteel | <ItemLink id="TwilightForest:item.fieryTears" showIcon="left" /> | EV |
-| 5 (LuV) | Enderium (TE) | <ItemLink id="TwilightForest:item.carminite" showIcon="left" /> | EV |
+| 0 (LV) | Alüminyum | <ItemLink id="TwilightForest:item.nagaScale" showIcon="left" /> | LV |
+| 1 (MV) | Paslanmaz Çelik | <ItemLink id="dreamcraft:LichBone" showIcon="left" /> | MV |
+| 2 (HV) | Enerjik Alaşım | <ItemLink id="dreamcraft:LichBone" showIcon="left" /> | MV |
+| 3 (EV) | Vibrant Alaşım | <ItemLink id="TwilightForest:item.fieryBlood" showIcon="left" /> | HV |
+| 4 (IV) | Tungsten Çeliği | <ItemLink id="TwilightForest:item.fieryTears" showIcon="left" /> | EV |
+| 5 (LuV) | Enderyum (YB) | <ItemLink id="TwilightForest:item.carminite" showIcon="left" /> | EV |
 | 6 (ZPM) | Oriharukon | <ItemLink id="TwilightForest:item.carminite" showIcon="left" /> | EV |
-| 7 (UV) | Osmiridium | <ItemLink id="dreamcraft:SnowQueenBlood" showIcon="left" /> | IV |
+| 7 (UV) | Osmiridyum | <ItemLink id="dreamcraft:SnowQueenBlood" showIcon="left" /> | IV |
 
-The standard recipes for ordinary Wooden, Greatwood, the six elemental, and Silverwood rods use tier 0, 1, 2, and 3 materials respectively. These tiers group wand recipes; some materials from higher tiers can be obtained earlier, without reaching the voltage stage of the same name.
+Sıradan Ahşap, Büyük Ağaç, altı element ve Silverwood gövdelerinin standart tarifleri sırasıyla 0, 1, 2 ve 3. kademe materyalleri kullanır. Bu kademeler asa tariflerini gruplar; daha yüksek kademelerdeki bazı materyaller, aynı adı taşıyan gerilim aşamasına ulaşmadan daha erken elde edilebilir.
 
-The assembly Vis cost of an ordinary wand is **the rod's base cost + the rod's cap cost increment × the cap's assembly coefficient**, with the same amount required for each primal aspect. Sceptres additionally apply the rod's sceptre multiplier.<br>
-For example, Greatwood uses 20 + 5 × the cap coefficient. Gold caps have a coefficient of 2, so assembling a wand requires 30 Vis of each aspect, while the corresponding sceptre requires 60 Vis of each. Check NEI for material quantities and addon rod parameters.
+Sıradan bir asanın montaj Vis maliyeti **gövdenin taban maliyeti + gövdenin uç maliyet artışı × ucun montaj katsayısıdır** ve her ilkel aspekt için aynı miktar gerekir. Saltanat asaları ayrıca gövdenin saltanat çarpanını uygular.<br>
+Örneğin Büyük Ağaç 20 + 5 × uç katsayısını kullanır. Altın uçların katsayısı 2'dir, bu yüzden bir asa montajı her aspekten 30 Vis, karşılık gelen saltanat asası ise her birinden 60 Vis gerektirir. Materyal miktarları ve ek mod gövde parametreleri için NEI'ye bak.
 
-## Vis Discounts and Advanced Wands
+## Vis İndirimleri ve Gelişmiş Asalar
 
-<Color color="#B7A0D6">Vis discounts</Color> are important for crafting advanced wands.
+<Color color="#B7A0D6">Vis indirimleri</Color> gelişmiş asaların üretiminde önemlidir.
 
-- Caps | Determine the wand's base cost modifier; some caps only provide discounts for particular aspects
-- Equipment and baubles | Provide Vis discounts for the relevant aspects when worn in the appropriate slots
-- Sceptres | Reduce costs by another 10 percentage points in addition to cap and equipment effects
+- Uçlar | Asanın taban maliyet çarpanını belirler; bazı uçlar yalnızca belirli aspektlerde indirim sağlar
+- Ekipman ve tılsımlar | Uygun yuvalarda takıldığında ilgili aspektler için Vis indirimi sağlar
+- Saltanat Asaları | Uç ve ekipman etkilerine ek olarak maliyetleri 10 puan daha düşürür
 
-Among basic equipment, <ItemLink id="Thaumcraft:ItemGoggles" showIcon="left" /> provide a 5% discount, <ItemLink id="Thaumcraft:ItemChestplateRobe" showIcon="left" /> and <ItemLink id="Thaumcraft:ItemLeggingsRobe" showIcon="left" /> each provide 2%, and <ItemLink id="Thaumcraft:ItemBootsRobe" showIcon="left" /> provide 1%. Together, the four pieces provide 10%.
+Temel ekipmanlar arasında <ItemLink id="Thaumcraft:ItemGoggles" showIcon="left" /> %5 indirim, <ItemLink id="Thaumcraft:ItemChestplateRobe" showIcon="left" /> ve <ItemLink id="Thaumcraft:ItemLeggingsRobe" showIcon="left" /> %2'şer, <ItemLink id="Thaumcraft:ItemBootsRobe" showIcon="left" /> ise %1 indirim sağlar. Dört parça birlikte %10 sağlar.
 
-<ItemLink id="WitchingGadgets:item.WG_AdvancedRobeChest" showIcon="left" /> and <ItemLink id="WitchingGadgets:item.WG_AdvancedRobeLegs" showIcon="left" /> provide 5% and 4% respectively, further reducing crafting costs.
+<ItemLink id="WitchingGadgets:item.WG_AdvancedRobeChest" showIcon="left" /> ve <ItemLink id="WitchingGadgets:item.WG_AdvancedRobeLegs" showIcon="left" /> sırasıyla %5 ve %4 indirim sağlar ve üretim maliyetlerini daha da düşürür.
 
-In general, the actual cost is **recipe requirement × (cap cost modifier − equipment discount − sceptre discount)**, with a minimum modifier of 0.1. Equipment and sceptre effects subtract percentage points.
+Genel olarak gerçek maliyet **tarif gereksinimi × (uç maliyet çarpanı − ekipman indirimi − saltanat asası indirimi)** şeklindedir ve çarpan en az 0,1 olabilir. Ekipman ve saltanat asası etkileri yüzde puanı olarak çıkarılır.
 
-A practical example is a Gold Capped Greatwood Sceptre, whose base assembly cost is 60 Vis of each primal aspect.<br>
-A Gold Capped Greatwood Wand holds 50 Vis. Even with the basic four-piece set's 10% discount, crafting the sceptre requires 54 Vis, exceeding that capacity.<br>
-A cheaper combination using the same rod, or additional discounts, can overcome this requirement.
+Pratik bir örnek, taban montaj maliyeti her ilkel aspekten 60 Vis olan Altın Uçlu Büyük Ağaç Saltanat Asasıdır.<br>
+Altın Uçlu Büyük Ağaç Asa 50 Vis kapasiteye sahiptir. Temel dört parçalı setin %10 indirimiyle bile saltanat asasını üretmek 54 Vis gerektirir ve bu kapasiteyi aşar.<br>
+Aynı gövdeyi kullanan daha ucuz bir kombinasyon ya da ek indirimler bu gereksinimin üstesinden gelebilir.
 
-Thaumic Machina's **Vis Channels** augmentation first multiplies the cap cost modifier by 0.9, before applying equipment and sceptre discounts.<br>
-For example, Thaumium caps' 90% modifier becomes 81%, or 61% with the basic four-piece set and a sceptre.
+Thaumic Machina'nın **Vis Kanalları** yükseltmesi, ekipman ve saltanat asası indirimleri uygulanmadan önce uç maliyet çarpanını 0,9 ile çarpar.<br>
+Örneğin Thaumium uçların %90 çarpanı %81 olur; temel dört parçalı set ve bir saltanat asasıyla %61'e iner.
 
-## Wand Caps
+## Asa Uçları
 
-| Registry Name | Cap | Assembly Coefficient | Base Vis Cost | Features |
+| Kayıt Adı | Uç | Montaj Katsayısı | Taban Vis Maliyeti | Özellikler |
 | --- | --- | --- | --- | --- |
-| terrasteel | <ItemLink id="ForbiddenMagic:WandCaps:2" showIcon="left" /> | 1 | 180% | — |
-| iron | <ItemLink id="Thaumcraft:WandCap:0" showIcon="left" /> | 0 | 110% | Node Preserver does not apply |
-| copper | <ItemLink id="Thaumcraft:WandCap:3" showIcon="left" /> | 1 | 110% | Order and Entropy cost 100% |
+| Dünyevi Çelik | <ItemLink id="ForbiddenMagic:WandCaps:2" showIcon="left" /> | 1 | 180% | — |
+| iron | <ItemLink id="Thaumcraft:WandCap:0" showIcon="left" /> | 0 | 110% | Düğüm Koruyucu uygulanmaz |
+| Bakır | <ItemLink id="Thaumcraft:WandCap:3" showIcon="left" /> | 1 | 110% | Düzen ve Entropi maliyeti %100 |
 | gold | <ItemLink id="Thaumcraft:WandCap:1" showIcon="left" /> | 2 | 100% | — |
-| silver | <ItemLink id="Thaumcraft:WandCap:4" showIcon="left" /> | 3 | 100% | Air, Earth, Fire, and Water cost 95% |
-| SOJOURNER | <ItemLink id="ThaumicExploration:sojournerCap" showIcon="left" /> | 5 | 95% | Passively draws Vis from nearby nodes while held |
-| MECHANIST | <ItemLink id="ThaumicExploration:mechanistCap" showIcon="left" /> | 5 | 95% | Increases the rate of drawing Vis from nodes |
+| Gümüş | <ItemLink id="Thaumcraft:WandCap:4" showIcon="left" /> | 3 | 100% | Hava, Toprak, Ateş ve Su maliyeti %95 |
+| SOJOURNER | <ItemLink id="ThaumicExploration:sojournerCap" showIcon="left" /> | 5 | 95% | Elde tutulduğunda yakındaki düğümlerden pasif olarak Vis çeker |
+| MECHANIST | <ItemLink id="ThaumicExploration:mechanistCap" showIcon="left" /> | 5 | 95% | Düğümlerden Vis çekme hızını artırır |
 | cloth | <ItemLink id="TaintedMagic:ItemWandCap:1" showIcon="left" /> | 3 | 95% | — |
 | thaumium | <ItemLink id="Thaumcraft:WandCap:2" showIcon="left" /> | 5 | 90% | — |
-| manasteel | <ItemLink id="ForbiddenMagic:WandCaps:3" showIcon="left" /> | 6 | 85% | Reduces Mana conversion costs when paired with Livingwood or Dreamwood rods |
+| manasteel | <ItemLink id="ForbiddenMagic:WandCaps:3" showIcon="left" /> | 6 | 85% | Yaşayanodun veya Dreamwood gövdeyle eşleştirildiğinde Mana dönüşüm maliyetlerini düşürür |
 | vinteum | <ItemLink id="ForbiddenMagic:WandCaps:1" showIcon="left" /> | 5 | 90% | — |
-| alchemical | <ItemLink id="ForbiddenMagic:WandCaps:0" showIcon="left" /> | 6 | 90% | Water costs 80%; reduces LP conversion costs with Blood or Blood Infused Wooden rods; wand attacks inflict Weakness |
+| alchemical | <ItemLink id="ForbiddenMagic:WandCaps:0" showIcon="left" /> | 6 | 90% | Su maliyeti %80; Kan veya Kan Aşılanmış Ahşap gövdeyle LP dönüşüm maliyetlerini düşürür; asa saldırıları Zayıflık uygular |
 | shadowcloth | <ItemLink id="TaintedMagic:ItemWandCap:3" showIcon="left" /> | 5 | 85% | — |
 | thauminite | <ItemLink id="thaumicbases:resource:2" showIcon="left" /> | 6 | 85% | — |
-| blood_iron | <ItemLink id="BloodArsenal:wand_caps:0" showIcon="left" /> | 6 | 85% | Water costs 80%; further reduces LP conversion costs with Blood Infused Wooden rods |
+| blood_iron | <ItemLink id="BloodArsenal:wand_caps:0" showIcon="left" /> | 6 | 85% | Su maliyeti %80; Kan Aşılanmış Ahşap gövdeyle LP dönüşüm maliyetlerini daha da düşürür |
 | void | <ItemLink id="Thaumcraft:WandCap:7" showIcon="left" /> | 7 | 80% | — |
-| elementium | <ItemLink id="ForbiddenMagic:WandCaps:5" showIcon="left" /> | 7 | 70% | Reduces Mana conversion costs when paired with Livingwood or Dreamwood rods |
+| elementium | <ItemLink id="ForbiddenMagic:WandCaps:5" showIcon="left" /> | 7 | 70% | Yaşayanodun veya Dreamwood gövdeyle eşleştirildiğinde Mana dönüşüm maliyetlerini düşürür |
 | crimsoncloth | <ItemLink id="TaintedMagic:ItemWandCap:2" showIcon="left" /> | 6 | 80% | — |
 | shadowmetal | <ItemLink id="TaintedMagic:ItemWandCap:0" showIcon="left" /> | 8 | 70% | — |
 | ICHOR | <ItemLink id="ThaumicTinkerer:kamiResource:4" showIcon="left" /> | 8 | 70% | — |
 
-Version 2.9 buffed some Forbidden Magic wand components. See "Wand Component Buffs" under "New in 2.9" for the related changes.
+2.9 sürümü bazı Forbidden Magic asa bileşenlerini güçlendirdi. İlgili değişiklikler için "2.9'da Yenilikler" altındaki "Asa Bileşeni Güçlendirmeleri" bölümüne bak.
 
-### Component Replacement and Wand Augmentation
+### Bileşen Değişimi ve Asa Yükseltmeleri
 
-Salis Arcana adds research for **replacing caps and rods or staff cores**, with the corresponding recipes available in NEI. Replacement consumes the new component and destroys the old one, with the same Vis requirement as directly assembling the target wand.<br>
-Permanent augmentations are retained, and replacing sceptre components also saves the Primal Charm required to craft a new sceptre. Replacement cannot change a wand, sceptre, or staff into another type.<br>
-Wand augmentations are installed through infusion. Each augmentation can be installed once per wand, and different augmentations can coexist.
+Salis Arcana, **uçları ve gövdeleri veya uzun asa çekirdeklerini değiştirme** araştırmasını ekler; ilgili tarifler NEI'de bulunur. Değişim yeni bileşeni tüketir ve eskisini yok eder; hedef asayı doğrudan monte etmekle aynı Vis gereksinimini taşır.<br>
+Kalıcı yükseltmeler korunur ve saltanat asası bileşenlerini değiştirmek yeni bir saltanat asası üretmek için gereken İlkel Tılsım'dan da tasarruf ettirir. Değişim bir asayı, saltanat asasını veya uzun asayı başka bir türe dönüştüremez.<br>
+Asa yükseltmeleri infüzyon yoluyla takılır. Her yükseltme asa başına bir kez takılabilir ve farklı yükseltmeler bir arada bulunabilir.
 
-- Charge Buffer: increases capacity by 25%
-- Vis Channels: multiplies the caps' Vis cost by 0.9, before equipment and sceptre discounts
-- Contact Discharge: melee attacks with the wand consume Vis to deal magical damage that bypasses ordinary armor
+- Şarj Tamponu: kapasiteyi %25 artırır
+- Vis Kanalları: ekipman ve saltanat asası indirimlerinden önce uçların Vis maliyetini 0,9 ile çarpar
+- Temas Deşarjı: asayla yapılan yakın dövüş saldırıları, sıradan zırhı yok sayan büyülü hasar vermek için Vis tüketir
 
-## Sources of Vis
+## Vis Kaynakları
 
-| Source or Facility | What It Provides | Characteristics |
+| Kaynak veya Tesis | Sağladığı Şey | Özellikler |
 | --- | --- | --- |
-| Drawing directly from ordinary aura nodes | Primal aspect Vis stored in the node | Easy to use, but limited by the node's aspects, reserves, and regeneration rate |
-| Aspect orbs | Vis of the corresponding primal aspect | A wand in the hotbar can absorb nearby orbs if it has room for that aspect |
-| Primal Shrooms | Aspect orbs released when mature plants are harvested | A renewable supplementary source with random aspect output |
-| Special rods or staff cores | Automatic recharging or conversion specified by the component | May only replenish one aspect or recharge to a low reserve level |
-| Wand Recharge Pedestal | Draws Vis from nearby nodes to recharge a wand | Suitable for base charging; using compound aspects requires an additional device |
-| Energized nodes and Centi-Vis networks | Continuous Centi-Vis output | Powers fixed devices and can recharge wands through appropriate charging facilities |
-| Essentia Dynamo | Converts essentia into Centi-Vis | Requires a supply network, charging facilities, and a continuous supply of the relevant materials |
+| Sıradan aura düğümlerinden doğrudan çekme | Düğümde depolanan ilkel aspekt Vis'i | Kullanımı kolaydır ancak düğümün aspektleri, rezervi ve yenilenme hızıyla sınırlıdır |
+| Aspekt küreleri | İlgili ilkel aspektin Vis'i | El çubuğundaki bir asa, o aspekt için yeri varsa yakındaki küreleri emebilir |
+| İlkel Mantarlar | Olgun bitkiler hasat edildiğinde açığa çıkan aspekt küreleri | Rastgele aspekt çıktısı olan yenilenebilir bir ek kaynak |
+| Özel gövdeler veya uzun asa çekirdekleri | Bileşenin belirlediği otomatik şarj veya dönüşüm | Yalnızca tek bir aspekti doldurabilir ya da düşük bir rezerv seviyesine kadar şarj edebilir |
+| Asa Şarj Kaidesi | Bir asayı şarj etmek için yakındaki düğümlerden Vis çeker | Üs içi şarj için uygundur; bileşik aspekt kullanmak ek bir cihaz gerektirir |
+| Enerjilendirilmiş düğümler ve Centi-Vis ağları | Sürekli Centi-Vis çıktısı | Sabit cihazlara güç verir ve uygun şarj tesisleri aracılığıyla asaları şarj edebilir |
+| Esans Dinamosu | Esansı Centi-Vis'e dönüştürür | Bir tedarik ağı, şarj tesisleri ve ilgili materyallerin sürekli tedarikini gerektirir |
 
-Hungry nodes, Ethereal Shards, and Empowering bees offer ways to cultivate or customize nodes for a lasting energy supply.
+Aç düğümler, Ruhani Parçalar ve Güçlendirici arılar, kalıcı bir enerji kaynağı için düğümleri yetiştirme veya özelleştirme yolları sunar.
 
-## Vishrooms, Primal Shrooms, and Aspect Orbs
+## Vishroom'lar, İlkel Mantarlar ve Aspekt Küreleri
 
-<ItemLink id="Thaumcraft:blockCustomPlant:5" showIcon="left" /> is Thaumcraft's Vishroom and an ingredient for <ItemLink id="thaumicbases:ashroom" showIcon="left" />. **Primal Shrooms are the plants that release Vis orbs when harvested at maturity.**
+<ItemLink id="Thaumcraft:blockCustomPlant:5" showIcon="left" /> Thaumcraft'ın Vishroom'udur ve <ItemLink id="thaumicbases:ashroom" showIcon="left" /> için bir bileşendir. **İlkel Mantarlar, olgunlaştıklarında hasat edilince Vis küreleri bırakan bitkilerdir.**
 
-The Primal Shroom alchemy recipe uses a Vishroom as its catalyst, along with <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" /> Entropy and <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"messis"}' scale="0.75" /> Crop aspects.<br>
-Check NEI and the corresponding research for quantities. Breaking a mature plant with left-click drops the plant itself and 8–20 orbs of random primal aspects, each providing 1 Vis. The plant can then be replanted.
+İlkel Mantar simya tarifi, katalizörü olarak bir Vishroom ile birlikte <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" /> Entropi ve <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"messis"}' scale="0.75" /> Mahsul aspektlerini kullanır.<br>
+Miktarlar için NEI'ye ve ilgili araştırmaya bak. Olgun bir bitkiyi sol tıkla kırmak, bitkinin kendisini ve her biri 1 Vis sağlayan 8–20 rastgele ilkel aspekt küresi düşürür. Bitki daha sonra yeniden dikilebilir.
 
-Primal Shrooms take time to grow, need a full supporting block below, and require a light level of at least 9 above.<br>
-They cannot be harvested with right-click, and breaking them before maturity does not provide the same Vis yield. Growing and harvesting them provides a repeatable source of Vis.
+İlkel Mantarların büyümesi zaman alır, altlarında tam bir destek bloğu olmalıdır ve üstlerinde en az 9 ışık seviyesi gerekir.<br>
+Sağ tıkla hasat edilemezler ve olgunlaşmadan kırılmaları aynı Vis verimini sağlamaz. Onları yetiştirip hasat etmek tekrarlanabilir bir Vis kaynağı sunar.
 
-Creatures can also leave aspect orbs when they die, which are absorbed by a wand in the hotbar with room for the corresponding aspect.
+Yaratıklar öldüklerinde aspekt küreleri de bırakabilir; bunlar, el çubuğunda ilgili aspekte yer olan bir asa tarafından emilir.
 
-Ordinary elemental rods generally recharge only one aspect, and only to a small fraction of their capacity.<br>
-Botania integration rods can convert Mana into Vis, provided their charging requirements are met and Mana is available.
+Sıradan element gövdeleri genellikle yalnızca tek bir aspekte ve kapasitelerinin yalnızca küçük bir bölümüne kadar şarj olur.<br>
+Botania entegrasyon gövdeleri, şarj gereksinimleri karşılandığı ve Mana mevcut olduğu sürece Mana'yı Vis'e dönüştürebilir.
 
-## Observing Nodes and Reading Their Reserves
+## Düğümleri Gözlemleme ve Rezervlerini Okuma
 
-**Aura nodes** are concentrations of magical energy in the world. They can be scanned and used as a source of Vis for wands. Observing through a <ItemLink id="Thaumcraft:ItemThaumometer" showIcon="left" /> or wearing <ItemLink id="Thaumcraft:ItemGoggles" showIcon="left" /> makes nodes easier to identify.
+**Aura düğümleri** dünyadaki büyülü enerji yoğunlaşmalarıdır. Taranabilir ve asalar için Vis kaynağı olarak kullanılabilir. Bir <ItemLink id="Thaumcraft:ItemThaumometer" showIcon="left" /> ile gözlemlemek veya <ItemLink id="Thaumcraft:ItemGoggles" showIcon="left" /> takmak düğümlerin tanımlanmasını kolaylaştırır.
 
-When examining a node, consider four kinds of information:
+Bir düğümü incelerken dört tür bilgiyi göz önünde bulundur:
 
-| Information | What It Determines |
+| Bilgi | Neyi Belirler |
 | --- | --- |
-| Aspect composition | Which primal aspects it can supply directly, and whether it contains compound aspects for other uses |
-| Current reserves | How much Vis is available to draw immediately |
-| Base capacity | The amount its normal regeneration can restore, which also affects energized node output |
-| Type and quality | Special behavior, regeneration speed, and performance after conversion |
+| Aspekt bileşimi | Hangi ilkel aspektleri doğrudan sağlayabildiği ve başka kullanımlar için bileşik aspekt içerip içermediği |
+| Mevcut rezerv | Hemen çekilebilecek Vis miktarı |
+| Taban kapasite | Normal yenilenmesinin geri getirebileceği miktar; enerjilendirilmiş düğüm çıktısını da etkiler |
+| Tür ve kalite | Özel davranış, yenilenme hızı ve dönüşüm sonrası performans |
 
-NH's node records help manage previously scanned nodes and can be opened with the I key by default.
+NH'nin düğüm kayıtları daha önce taranan düğümleri yönetmeye yardımcı olur ve varsayılan olarak I tuşuyla açılabilir.
 
-### Node Types
+### Düğüm Türleri
 
-Nodes have six main types. Type describes special behavior rather than a ranking; nodes of the same type can have different qualities and aspect compositions.
+Düğümlerin altı ana türü vardır. Tür bir sıralama değil, özel davranışı tanımlar; aynı türdeki düğümler farklı kalitelere ve aspekt bileşimlerine sahip olabilir.
 
 <Column width="500" align="center" wrap="top-bottom" gap="0">
-  <FloatingImage src="/assets/images/aura_node_types.png" x="0" y="140" width="2170" height="440" displayWidth="500" wrap="inline" title="Aura Node Types" />
+  <FloatingImage src="/assets/images/aura_node_types.png" x="0" y="140" width="2170" height="440" displayWidth="500" wrap="inline" title="Aura Düğüm Türleri" />
 </Column>
 
-| Type | Core Appearance | Properties and Considerations |
+| Tür | Çekirdek Görünümü | Özellikler ve Dikkat Edilecekler |
 | --- | --- | --- |
-| Normal | White, with a stable core | The most common ordinary node, with no additional type effects |
-| Sinister | Dark purple | Often associated with obsidian totems and Eldritch structures; changes nearby biomes and may spawn dangerous creatures |
-| Pure | White vortex | Often found in Silverwood trees; can turn nearby biomes into Magical Forest, helping contain Taint |
-| Tainted | Purple haze | Associated with Tainted Land; spreads Taint and its related hazards |
-| Unstable | White, with a constantly pulsing core | Releases aspect orbs and loses Vis, making it unsuitable as a stable long-term energy source |
-| Hungry | White ring | Draws in and devours nearby entities and items, and destroys blocks; its capacity can be cultivated by feeding it items with aspects |
+| Normal | Beyaz, kararlı çekirdekli | En yaygın sıradan düğüm; ek tür etkisi yoktur |
+| Uğursuz | Koyu mor | Genellikle obsidyen totemler ve Eldritch yapılarıyla ilişkilidir; yakındaki biyomları değiştirir ve tehlikeli yaratıklar doğurabilir |
+| Saf | Beyaz girdap | Genellikle Silverwood ağaçlarında bulunur; yakındaki biyomları Büyülü Orman'a çevirebilir ve Yozlaşma'yı sınırlamaya yardımcı olur |
+| Lekeli | Mor pus | Lekeli Toprak ile ilişkilidir; Yozlaşma'yı ve ilgili tehlikeleri yayar |
+| Kararsız | Beyaz, sürekli nabız atan çekirdekli | Aspekt küreleri salar ve Vis kaybeder; istikrarlı uzun vadeli enerji kaynağı olarak uygun değildir |
+| Aç | Beyaz halka | Yakındaki varlıkları ve eşyaları içine çekip yutar, blokları yok eder; kapasitesi ona aspektli eşyalar verilerek yetiştirilebilir |
 
 > [!WARNING]
-> Hungry nodes devour items, harm players, and affect nearby blocks. Valuable items, drops, and production facilities can be lost. Cultivate and modify them in a separate, protected area.
+> Aç düğümler eşyaları yutar, oyunculara zarar verir ve yakındaki blokları etkiler. Değerli eşyalar, düşen eşyalar ve üretim tesisleri kaybolabilir. Onları ayrı ve korunaklı bir alanda yetiştir ve değiştir.
 
-## Node Quality and Natural Regeneration
+## Düğüm Kalitesi ve Doğal Yenilenme
 
-Node quality can be Normal, Bright, Pale, or Fading. Quality describes regeneration and is independent of type; a Pure node can also be Bright.
+Düğüm kalitesi Normal, Parlak, Soluk veya Solan olabilir. Kalite yenilenmeyi tanımlar ve türden bağımsızdır; bir Saf düğüm aynı zamanda Parlak olabilir.
 
 <Column width="400" align="center" wrap="top-bottom" gap="0">
-  <FloatingImage src="/assets/images/aura_node_states.png" displayWidth="400" wrap="inline" title="Aura Node Quality" />
+  <FloatingImage src="/assets/images/aura_node_states.png" displayWidth="400" wrap="inline" title="Aura Düğüm Kalitesi" />
 </Column>
 
-| Quality | Natural Regeneration | Appearance |
+| Kalite | Doğal Yenilenme | Görünüm |
 | --- | --- | --- |
-| Normal | A regeneration event roughly every 30 seconds | No additional quality name |
-| Bright | A regeneration event roughly every 20 seconds | More vivid than a Normal node |
-| Pale | A regeneration event roughly every 45 seconds | Dimmer |
-| Fading | Does not naturally regenerate Vis | Very dim and constantly flickering |
+| Normal | Kabaca her 30 saniyede bir yenilenme olayı | Ek kalite adı yok |
+| Parlak | Kabaca her 20 saniyede bir yenilenme olayı | Normal bir düğümden daha canlı |
+| Soluk | Kabaca her 45 saniyede bir yenilenme olayı | Daha sönük |
+| Solan | Vis'i doğal olarak yenilemez | Çok sönük ve sürekli titrer |
 
-### Drawing from Nodes and Node Preserver
+### Düğümlerden Çekim ve Düğüm Koruyucu
 
-Wands can directly draw primal aspects from nodes, but cannot store compound aspects directly. A node containing only compound aspects requires another method of use.
+Asalar düğümlerden doğrudan ilkel aspekt çekebilir ancak bileşik aspektleri doğrudan depolayamaz. Yalnızca bileşik aspekt içeren bir düğüm, başka bir kullanım yöntemi gerektirir.
 
-**Advanced Node Tapping** and **Master Node Tapping** increase the drawing rate to twice and three times the normal rate respectively.<br>
-These improve transfer speed, without increasing the node's natural regeneration rate or aspect capacity.
+**Gelişmiş Düğüm Çekimi** ve **Usta Düğüm Çekimi**, çekim hızını sırasıyla normal hızın iki ve üç katına çıkarır.<br>
+Bunlar aktarım hızını iyileştirir; düğümün doğal yenilenme hızını veya aspekt kapasitesini artırmaz.
 
-**Node Preserver** leaves at least 1 point of each aspect during normal drawing, reducing the risk of damage from draining the node.<br>
-There are exceptions: sneaking bypasses protection, and low-end wands with ordinary Wooden rods or Iron caps cannot rely on it.
-
-> [!WARNING]
-> Draining an aspect to zero can remove that aspect or damage the node's quality. Exhausting every aspect can also make the node disappear.
-
-## Moving, Stabilizing, and Cultivating Nodes
-
-**Nodes in jars** provide a way to move nodes. Jarring risks damage, and jarred nodes do not naturally regenerate Vis, so they cannot serve as portable batteries to draw from at any time.
-
-Before jarring, consider the node's current condition and the research explaining how to seal and release it. Once moved to your base, nearby node interactions and hazardous node types also need attention.
-
-- <ItemLink id="Thaumcraft:blockStoneDevice:9" showIcon="left" />: prevents the stabilized node and other nodes from drawing Vis from each other, halves natural regeneration, and gradually repairs certain adverse conditions
-- <ItemLink id="Thaumcraft:blockStoneDevice:10" showIcon="left" />: protects the node from being drained while allowing it to draw Vis from less stable neighbors; greatly suppresses natural regeneration and is better suited to planned node cultivation
-
-Node Stabilizers sit below the node. **Applying redstone to a stabilizer disables it**, unlike the Node Transducer above the node, which requires redstone to activate.
-
-Larger nodes can draw Vis from smaller neighbors, while Hungry nodes can grow by absorbing the aspects of consumed items.<br>
-Cultivation requires time and suitable conditions; placing any two nodes close together will not necessarily merge them. Node quality, stabilizers, and the aspects in items affect whether a method suits the intended use.
-
-## Node Manipulators and Quality Repair
-
-<ItemLink id="thaumicbases:nodeManipulator" showIcon="left" /> and **Node Manipulator Foci** provide ways to actively modify nodes.<br>
-Different foci have different effects, described by their respective research.
-
-| Manipulator Focus | Use |
-| --- | --- |
-| <ItemLink id="thaumicbases:nodeFoci:8" showIcon="left" /> | Repairs Fading and Pale quality, and can also address the Unstable type |
-| <ItemLink id="thaumicbases:nodeFoci:0" showIcon="left" /> | Raises Normal quality to Bright |
-| <ItemLink id="thaumicbases:nodeFoci:7" showIcon="left" /> | Replenishes missing Vis and improves recharging |
-| <ItemLink id="thaumicbases:nodeFoci:2" showIcon="left" /> | Has a chance to restore some Vis after consumption, without increasing capacity |
-
-The manipulator sits directly above the node and operates through its installed focus. In the current implementation, the stabilizing focus takes about 5 minutes to repair Fading quality to Pale, and about 10 minutes to repair Pale to Normal.<br>
-The brightening focus takes about 20 minutes to turn Normal quality into Bright. These times assume the node remains loaded and the game runs at normal speed.
-
-Improving quality increases regeneration and can improve subsequent energized node output, but does not add aspect types or increase base capacity.
-
-The Node Manipulator and Node Transducer both occupy the position above the node, so quality adjustment and later conversion are separate stages.
-
-### Changing Base Aspects and Random Node Modification
-
-To change a node's base aspects, you can also use <ItemLink id="gadomancy:BlockNodeManipulator:5" showIcon="left" />. Unlike the previous manipulator, it **randomly changes aspect composition, base amounts, quality, or type**.
-
-| Possible Modification | Changes |
-| --- | --- |
-| Split compound aspects | Transfers a compound aspect's base amount to its component aspects |
-| Combine aspects | Changes the base composition to form compound aspects |
-| Add aspects | Adds missing primal aspects |
-| Change quality | Quality may improve or deteriorate |
-| Change type | Can produce another type, including the additional Growing type |
-
-Each modification requires **at least 70 Vis of each primal aspect to be supplied cumulatively** to the manipulator, paid by the wand or staff placed inside.
-
-Changing base aspects can help nodes with unsuitable compositions, but random modifications can also have negative results.<br>
-To obtain an energy source with all six aspects, compare the materials, time, and risks of artificial node customization, node bees, and quality adjustment.
+**Düğüm Koruyucu**, normal çekim sırasında her aspekten en az 1 puan bırakarak düğümün tükenmesinden kaynaklanan hasar riskini azaltır.<br>
+İstisnalar vardır: eğilmek korumayı atlar ve sıradan Ahşap gövde veya Demir uç kullanan düşük seviye asalar buna güvenemez.
 
 > [!WARNING]
-> Random modifications by the Node Manipulator can lower quality or change the node's type. Assess these risks before using it on a node.
+> Bir aspekti sıfıra kadar çekmek o aspekti yok edebilir veya düğümün kalitesine zarar verebilir. Her aspekti tüketmek düğümün kaybolmasına da neden olabilir.
 
-### Ethereal Shards and Artificial Nodes
+## Düğümleri Taşıma, Sabitleme ve Yetiştirme
 
-<ItemLink id="ThaumicHorizons:synthNode" showIcon="left" /> is an artificial Vis container.<br>
-Unlike natural nodes, **its aspect types and capacities can be set using materials, but it does not regenerate Vis on its own** and requires an external Centi-Vis supply.
+**Kavanozdaki düğümler** düğümleri taşımanın bir yolunu sunar. Kavanoza koymak hasar riski taşır ve kavanozlanmış düğümler Vis'i doğal olarak yenilemez, bu yüzden her an çekim yapılabilecek taşınabilir piller olarak işlev göremezler.
 
-<ItemLink id="Thaumcraft:ItemWispEssence" showIcon="left" /> increases its capacity. Each Ethereal Essence adds 4 points to the capacity of its aspect, without filling the added capacity.
+Kavanoza koymadan önce düğümün mevcut durumunu ve nasıl mühürlenip serbest bırakılacağını anlatan araştırmayı göz önünde bulundur. Üssüne taşındıktan sonra yakındaki düğüm etkileşimleri ve tehlikeli düğüm türleri de dikkat gerektirir.
 
-Compound aspects can also be added to the shard. Charging them requires the supply network to provide their component primal aspects; an incomplete supply cannot fully charge the compound aspect.
+- <ItemLink id="Thaumcraft:blockStoneDevice:9" showIcon="left" />: sabitlenen düğümün ve diğer düğümlerin birbirinden Vis çekmesini engeller, doğal yenilenmeyi yarıya indirir ve belirli olumsuz durumları kademeli olarak onarır
+- <ItemLink id="Thaumcraft:blockStoneDevice:10" showIcon="left" />: düğümü tükenmeye karşı korurken daha az kararlı komşularından Vis çekmesine izin verir; doğal yenilenmeyi büyük ölçüde bastırır ve planlı düğüm yetiştirmeye daha uygundur
 
-**Ethereal Shards can also be used to customize ordinary nodes.** Once charged with Centi-Vis, a shard can be sealed into a jarred node and released as an ordinary aura node. This turns a composition defined by materials into a node that can regenerate naturally or undergo further modification.
+Düğüm Dengeleyicileri düğümün altında durur. **Bir dengeleyiciye kızıltaş uygulamak onu devre dışı bırakır**; düğümün üstündeki Düğüm Dönüştürücünün aksine, o etkinleşmek için kızıltaş gerektirir.
 
-This method needs an existing Centi-Vis source for the initial charge, such as an energized node or <ItemLink id="ThaumicHorizons:essentiaDynamo" showIcon="left" />.<br>
-An Essentia Dynamo consumes essentia to produce Centi-Vis, while a dynamo that consumes wand Vis transfers energy.
+Daha büyük düğümler daha küçük komşularından Vis çekebilir; Aç düğümler ise tüketilen eşyaların aspektlerini emerek büyüyebilir.<br>
+Yetiştirme zaman ve uygun koşullar gerektirir; herhangi iki düğümü yan yana koymak onları illa birleştirmez. Düğüm kalitesi, dengeleyiciler ve eşyalardaki aspektler bir yöntemin amaçlanan kullanıma uygun olup olmadığını etkiler.
 
-### Empowering Bees and Node Cultivation
+## Düğüm Manipülatörleri ve Kalite Onarımı
 
-Empowering bees bring beekeeping into magical energy production. Effects operate within the hive's effective working area, influenced by territory genes and hive multipliers; check the effect gene the bee has actually inherited.
+<ItemLink id="thaumicbases:nodeManipulator" showIcon="left" /> ve **Düğüm Manipülatörü Odakları** düğümleri etkin biçimde değiştirme yolları sunar.<br>
+Farklı odakların farklı etkileri vardır ve bunlar ilgili araştırmalarında açıklanır.
 
-- Empowering: randomly increases an aspect's base capacity and current reserves, and may add new aspects
-- Rejuvenating: refills existing Vis without increasing capacity through this effect
-- Nexus: improves quality progressively from Fading to Bright, and can also address the Unstable type
+| Manipülatör Odağı | Kullanım |
+| --- | --- |
+| <ItemLink id="thaumicbases:nodeFoci:8" showIcon="left" /> | Solan ve Soluk kaliteleri onarır, Kararsız türüyle de ilgilenebilir |
+| <ItemLink id="thaumicbases:nodeFoci:0" showIcon="left" /> | Normal kaliteyi Parlak'a yükseltir |
+| <ItemLink id="thaumicbases:nodeFoci:7" showIcon="left" /> | Eksik Vis'i doldurur ve şarjı iyileştirir |
+| <ItemLink id="thaumicbases:nodeFoci:2" showIcon="left" /> | Tüketimden sonra bir miktar Vis'i geri getirme şansı vardır, kapasiteyi artırmaz |
 
-Empowering bees select aspects randomly, while Nexus bees' quality improvements can complement capacity growth to improve later energy output.<br>
-Bee effects must reach the target node, and cultivation requires continued operation.<br>
-Jarred nodes can be cultivated this way, but artificial containers such as Ethereal Shards are excluded. A customized node must first be converted through jarring before node bees can affect it.
+Manipülatör doğrudan düğümün üstünde durur ve takılı odağı aracılığıyla çalışır. Mevcut uygulamada, sabitleme odağının Solan kaliteyi Soluk'a onarması yaklaşık 5 dakika, Soluk'u Normal'e onarması yaklaşık 10 dakika sürer.<br>
+Parlatma odağının Normal kaliteyi Parlak'a çevirmesi yaklaşık 20 dakika sürer. Bu süreler düğümün yüklü kalması ve oyunun normal hızda çalışması varsayımına dayanır.
 
-Industrial Apiary acceleration can greatly change cultivation speed. See the Forestry content for beekeeping mechanics, genetics, and acceleration requirements; this page focuses on their effects on nodes.
+Kaliteyi iyileştirmek yenilenmeyi artırır ve sonraki enerjilendirilmiş düğüm çıktısını iyileştirebilir, ancak aspekt türü eklemez veya taban kapasiteyi artırmaz.
 
-### Energized Nodes and Centi-Vis
+Düğüm Manipülatörü ve Düğüm Dönüştürücü aynı anda düğümün üstündeki konumu kaplar, bu yüzden kalite ayarı ve sonraki dönüşüm ayrı aşamalardır.
 
-**Energized nodes** change node use from storing Vis for gradual drawing to continuously producing <Color color="#B7A0D6">Centi-Vis (CV)</Color>.<br>
-1 CV equals 0.01 Vis, and the node's displayed output indicates how much CV it supplies per game tick.
+### Taban Aspektleri Değiştirme ve Rastgele Düğüm Değişimi
 
-<ItemLink id="Thaumcraft:blockStoneDevice:11" showIcon="left" /> performs the conversion. A stabilizer below the node must operate throughout the process, while the transducer above the node is activated by redstone. Both facilities must remain in their required operating states after conversion.
+Bir düğümün taban aspektlerini değiştirmek için <ItemLink id="gadomancy:BlockNodeManipulator:5" showIcon="left" /> da kullanabilirsin. Önceki manipülatörden farklı olarak **aspekt bileşimini, taban miktarlarını, kaliteyi veya türü rastgele değiştirir**.
 
-**Conversion uses the node's base aspect amounts.** Compound aspects can also contribute to primal aspect output, so a node containing compound aspects is not necessarily worse than one containing only primal aspects.
+| Olası Değişiklik | Neyi Değiştirir |
+| --- | --- |
+| Bileşik aspektleri ayırma | Bir bileşik aspektin taban miktarını bileşen aspektlerine aktarır |
+| Aspektleri birleştirme | Bileşik aspektler oluşturmak için taban bileşimi değiştirir |
+| Aspekt ekleme | Eksik ilkel aspektleri ekler |
+| Kaliteyi değiştirme | Kalite iyileşebilir veya kötüleşebilir |
+| Türü değiştirme | Ek Büyüyen türü de dahil olmak üzere başka bir tür üretebilir |
 
-Output does not increase in direct proportion to the node's reserves. Aspects are first broken down into primal aspects. For each primal aspect, the largest contribution from different sources is used rather than adding them together. The quality multiplier is then applied and the result rounded down, followed by taking the square root and rounding down again.
+Her değişiklik, manipülatöre **her ilkel aspekten toplamda en az 70 Vis'in sağlanmasını** gerektirir; bu, içine yerleştirilen asa veya uzun asa tarafından ödenir.
 
-For example, a Normal-quality node contains 100 Fire and 100 Energy. Energy breaks down into Fire and Order, so the effective Fire amount remains 100 rather than 200, yielding 10 CV/t each of Fire and Order.<br>
-Adding all the displayed aspect amounts together therefore does not give the correct output.
-
-The quality multipliers for Bright, Normal, Pale, and Fading are 1.2, 1, 0.8, and 0.5 respectively, applied before taking the square root. Larger nodes generally provide more Centi-Vis.
-
-**Energized nodes cannot be drawn from directly with a wand and do not regenerate like ordinary nodes.** They supply energy through Vis Relays and the relevant devices. Output remains limited separately for each of the six aspects, so high total output cannot compensate for a missing aspect.
+Taban aspektleri değiştirmek uygun olmayan bileşimlere sahip düğümlere yardımcı olabilir, ancak rastgele değişiklikler olumsuz sonuçlar da doğurabilir.<br>
+Altı aspektin tamamına sahip bir enerji kaynağı elde etmek için yapay düğüm özelleştirmesi, düğüm arıları ve kalite ayarının materyallerini, zamanını ve risklerini karşılaştır.
 
 > [!WARNING]
-> Disabling or breaking the stabilizer below an energized node causes an explosion and Flux pollution. To dismantle the setup, first remove the **transducer's** redstone signal while keeping the stabilizer active. Wait until the node has completely returned to its ordinary form before removing the facilities. The restored node is drained and still risks damage, so avoid repeated switching.
+> Düğüm Manipülatörünün rastgele değişiklikleri kaliteyi düşürebilir veya düğümün türünü değiştirebilir. Bir düğüm üzerinde kullanmadan önce bu riskleri değerlendir.
 
-### Centi-Vis Networks and Automatic Wand Charging
+### Ruhani Parçalar ve Yapay Düğümler
 
-<ItemLink id="Thaumcraft:blockMetalDevice:14" showIcon="left" /> transmits Centi-Vis. Connections between nodes and relays require a distance of no more than 8 blocks and a clear line of sight. Relays can connect to other relays to extend the supply to devices around the base.
+<ItemLink id="ThaumicHorizons:synthNode" showIcon="left" /> yapay bir Vis kabıdır.<br>
+Doğal düğümlerden farklı olarak **aspekt türleri ve kapasiteleri materyaller kullanılarak ayarlanabilir, ancak Vis'i kendi başına yenilemez** ve harici bir Centi-Vis tedariki gerektirir.
 
-The network uses a tree structure: each relay has one upstream source and can supply multiple downstream devices. Distance, connections, and available output for each aspect determine whether a device receives energy.
+<ItemLink id="Thaumcraft:ItemWispEssence" showIcon="left" /> kapasitesini artırır. Her Ruhani Öz, kendi aspektinin kapasitesine 4 puan ekler ancak eklenen kapasiteyi doldurmaz.
 
-| Charging Facility | Use |
+Parçaya bileşik aspektler de eklenebilir. Bunları şarj etmek, tedarik ağının bileşen ilkel aspektlerini sağlamasını gerektirir; eksik tedarik bileşik aspekti tamamen şarj edemez.
+
+**Ruhani Parçalar sıradan düğümleri özelleştirmek için de kullanılabilir.** Centi-Vis ile şarj edildikten sonra bir parça, kavanozlanmış bir düğüme mühürlenip sıradan bir aura düğümü olarak serbest bırakılabilir. Bu, materyallerle tanımlanmış bir bileşimi, doğal olarak yenilenebilen veya daha fazla değiştirilebilen bir düğüme dönüştürür.
+
+Bu yöntem ilk şarj için enerjilendirilmiş bir düğüm veya <ItemLink id="ThaumicHorizons:essentiaDynamo" showIcon="left" /> gibi mevcut bir Centi-Vis kaynağı gerektirir.<br>
+Bir Esans Dinamosu Centi-Vis üretmek için esans tüketir; asa Vis'ini tüketen bir dinamo ise enerji aktarır.
+
+### Güçlendirici Arılar ve Düğüm Yetiştirme
+
+Güçlendirici arılar arıcılığı büyülü enerji üretimine taşır. Etkiler, bölge genleri ve kovan çarpanlarından etkilenerek kovanın etkin çalışma alanı içinde işler; arının gerçekte miras aldığı etki genini kontrol et.
+
+- Güçlendirme: bir aspektin taban kapasitesini ve mevcut rezervini rastgele artırır ve yeni aspektler ekleyebilir
+- Gençleştirme: bu etkiyle kapasiteyi artırmadan mevcut Vis'i doldurur
+- Nexus: kaliteyi Solan'dan Parlak'a kademeli olarak iyileştirir ve Kararsız türüyle de ilgilenebilir
+
+Güçlendirici arılar aspektleri rastgele seçer; Nexus arılarının kalite iyileştirmeleri ise kapasite artışını tamamlayarak sonraki enerji çıktısını iyileştirebilir.<br>
+Arı etkileri hedef düğüme ulaşmalıdır ve yetiştirme sürekli çalışma gerektirir.<br>
+Kavanozlanmış düğümler bu şekilde yetiştirilebilir ancak Ruhani Parçalar gibi yapay kaplar hariçtir. Özelleştirilmiş bir düğümün, düğüm arıları onu etkileyebilmeden önce kavanozlama yoluyla dönüştürülmesi gerekir.
+
+Endüstriyel Arı Evi hızlandırması yetiştirme hızını büyük ölçüde değiştirebilir. Arıcılık mekaniği, genetik ve hızlandırma gereksinimleri için Forestry içeriğine bak; bu sayfa onların düğümler üzerindeki etkilerine odaklanır.
+
+### Enerjilendirilmiş Düğümler ve Centi-Vis
+
+**Enerjilendirilmiş düğümler**, düğüm kullanımını kademeli çekim için Vis depolamaktan sürekli <Color color="#B7A0D6">Centi-Vis (CV)</Color> üretmeye dönüştürür.<br>
+1 CV, 0,01 Vis'e eşittir ve düğümün gösterilen çıktısı oyun tiki başına ne kadar CV sağladığını belirtir.
+
+<ItemLink id="Thaumcraft:blockStoneDevice:11" showIcon="left" /> dönüşümü gerçekleştirir. Düğümün altındaki dengeleyici işlem boyunca çalışmalıdır; düğümün üstündeki dönüştürücü ise kızıltaş ile etkinleştirilir. Dönüşümden sonra her iki tesis de gereken çalışma durumunda kalmalıdır.
+
+**Dönüşüm, düğümün taban aspekt miktarlarını kullanır.** Bileşik aspektler de ilkel aspekt çıktısına katkıda bulunabilir, bu yüzden bileşik aspekt içeren bir düğüm yalnızca ilkel aspekt içeren bir düğümden illa daha kötü değildir.
+
+Çıktı, düğümün rezerviyle doğru orantılı olarak artmaz. Aspektler önce ilkel aspektlere ayrıştırılır. Her ilkel aspekt için farklı kaynaklardan gelen en büyük katkı kullanılır, bunlar toplanmaz. Ardından kalite çarpanı uygulanır ve sonuç aşağı yuvarlanır; sonrasında karekök alınır ve tekrar aşağı yuvarlanır.
+
+Örneğin Normal kalitede bir düğüm 100 Ateş ve 100 Enerji içerir. Enerji, Ateş ve Düzen'e ayrışır, bu yüzden etkin Ateş miktarı 200 değil 100 olarak kalır ve Ateş ile Düzen'in her biri 10 CV/t verir.<br>
+Bu nedenle gösterilen tüm aspekt miktarlarını toplamak doğru çıktıyı vermez.
+
+Parlak, Normal, Soluk ve Solan için kalite çarpanları sırasıyla 1,2, 1, 0,8 ve 0,5'tir ve karekök alınmadan önce uygulanır. Daha büyük düğümler genellikle daha fazla Centi-Vis sağlar.
+
+**Enerjilendirilmiş düğümlerden asayla doğrudan çekim yapılamaz ve sıradan düğümler gibi yenilenmezler.** Enerjiyi Vis Röleleri ve ilgili cihazlar aracılığıyla sağlarlar. Çıktı altı aspektin her biri için ayrı ayrı sınırlı kalır, bu yüzden yüksek toplam çıktı eksik bir aspekti telafi edemez.
+
+> [!WARNING]
+> Enerjilendirilmiş bir düğümün altındaki dengeleyiciyi devre dışı bırakmak veya kırmak patlamaya ve Flux kirliliğine neden olur. Kurulumu sökmek için önce dengeleyiciyi etkin tutarak **dönüştürücünün** kızıltaş sinyalini kaldır. Tesisleri sökmeden önce düğüm tamamen sıradan biçimine dönene kadar bekle. Geri dönen düğüm tükenmiştir ve hâlâ hasar riski taşır, bu yüzden tekrar tekrar açıp kapatmaktan kaçın.
+
+### Centi-Vis Ağları ve Otomatik Asa Şarjı
+
+<ItemLink id="Thaumcraft:blockMetalDevice:14" showIcon="left" /> Centi-Vis iletir. Düğümler ve röleler arasındaki bağlantılar en fazla 8 blok mesafe ve engelsiz görüş hattı gerektirir. Röleler, tedariki üssün çevresindeki cihazlara uzatmak için diğer rölelere bağlanabilir.
+
+Ağ bir ağaç yapısı kullanır: her rölenin bir üst kaynağı vardır ve birden çok alt cihaza tedarik sağlayabilir. Mesafe, bağlantılar ve her aspekt için mevcut çıktı bir cihazın enerji alıp almayacağını belirler.
+
+| Şarj Tesisi | Kullanım |
 | --- | --- |
-| <ItemLink id="Thaumcraft:blockStoneDevice:5" showIcon="left" /> | Automatically charges a placed wand using nearby ordinary nodes; GTNH also enables charging from the Centi-Vis network |
-| <ItemLink id="Thaumcraft:blockStoneDevice:8" showIcon="left" /> | Allows the pedestal to use compound aspects from ordinary nodes, with conversion losses |
-| <ItemLink id="Thaumcraft:blockMetalDevice:2" showIcon="left" /> | Sits above an Arcane Worktable and uses Centi-Vis to recharge the wand inside |
+| <ItemLink id="Thaumcraft:blockStoneDevice:5" showIcon="left" /> | Yerleştirilmiş bir asayı yakındaki sıradan düğümleri kullanarak otomatik şarj eder; GTNH ayrıca Centi-Vis ağından şarjı etkinleştirir |
+| <ItemLink id="Thaumcraft:blockStoneDevice:8" showIcon="left" /> | Kaidenin sıradan düğümlerdeki bileşik aspektleri kullanmasını sağlar, dönüşüm kayıpları vardır |
+| <ItemLink id="Thaumcraft:blockMetalDevice:2" showIcon="left" /> | Bir Gizemli Çalışma Tezgahının üstünde durur ve içindeki asayı şarj etmek için Centi-Vis kullanır |
 
-Wand Recharge Pedestals and worktable Charging Relays make node energy available for everyday crafting at the base.<br>
-For sustained use, consider node output, network connections, wand capacity, and crafting costs together.
+Asa Şarj Kaideleri ve Tezgah Şarj Röleleri, düğüm enerjisini üste günlük üretim için kullanılabilir hale getirir.<br>
+Sürekli kullanım için düğüm çıktısını, ağ bağlantılarını, asa kapasitesini ve üretim maliyetlerini birlikte değerlendir.
 
-## Common Problems
+## Sık Karşılaşılan Sorunlar
 
-| Symptom | What to Check |
+| Belirti | Neye Bakmalısın |
 | --- | --- |
-| Caps and rod are ready, but the wand cannot be crafted | Check research, Twilight Forest trophies, screw materials, and the actual Vis cost |
-| The wand is full but cannot craft an advanced wand | Compare each aspect's actual requirement with capacity; check cap, equipment, and sceptre discounts |
-| Vis costs remain higher than expected despite discount equipment | Iron caps impose a cost penalty, and different caps can use different modifiers for different aspects |
-| A staff has high capacity but cannot be used in the worktable | Staves do not support arcane crafting; use a wand or sceptre |
-| A node has Vis, but the wand cannot draw it | Check for compound aspects, a jarred node, or an already energized node |
-| A node regenerates very slowly | Check quality, stabilizer effects, and nearby nodes; Fading quality does not regenerate naturally |
-| A node is drained despite Node Preserver research | Check for sneaking or low-quality components such as ordinary Wooden rods or Iron caps |
-| Planted Vishrooms do not produce Vis orbs | Vishrooms are an ingredient; harvest mature Primal Shrooms and let a wand with available capacity absorb the orbs |
-| An Ethereal Shard has capacity, but the wand cannot draw Vis | Capacity is not the current reserve; provide the complete Centi-Vis supply first |
-| An artificial node is smaller than expected after jarring | Jarring uses the amounts currently charged; check actual reserves before sealing |
-| A node cultivated by Empowering bees has unbalanced aspects | The effect increases aspects randomly; high total capacity does not ensure all six required aspects are present |
-| The original supply method stops working after node conversion | Energized nodes use Centi-Vis networks and cannot be drawn from directly with a wand |
-| Centi-Vis devices work intermittently | Check network connections, loaded chunks, aspect output, and competing consumption from other devices |
+| Uçlar ve gövde hazır ama asa üretilemiyor | Araştırmayı, Twilight Forest kupalarını, vida materyallerini ve gerçek Vis maliyetini kontrol et |
+| Asa dolu ama gelişmiş bir asa üretemiyor | Her aspektin gerçek gereksinimini kapasiteyle karşılaştır; uç, ekipman ve saltanat asası indirimlerini kontrol et |
+| İndirim ekipmanına rağmen Vis maliyetleri beklenenden yüksek | Demir uçlar maliyet cezası uygular ve farklı uçlar farklı aspektler için farklı çarpanlar kullanabilir |
+| Bir uzun asa yüksek kapasiteli ama tezgahta kullanılamıyor | Uzun asalar gizemli üretimi desteklemez; bir asa veya saltanat asası kullan |
+| Düğümde Vis var ama asa çekemiyor | Bileşik aspekt, kavanozlanmış düğüm veya zaten enerjilendirilmiş düğüm olup olmadığını kontrol et |
+| Bir düğüm çok yavaş yenileniyor | Kaliteyi, dengeleyici etkilerini ve yakındaki düğümleri kontrol et; Solan kalite doğal olarak yenilenmez |
+| Düğüm Koruyucu araştırmasına rağmen düğüm tükeniyor | Eğilip eğilmediğini veya sıradan Ahşap gövde ya da Demir uç gibi düşük kaliteli bileşenleri kontrol et |
+| Dikilen Vishroom'lar Vis küresi üretmiyor | Vishroom bir bileşendir; olgun İlkel Mantarları hasat et ve boş kapasitesi olan bir asanın küreleri emmesini sağla |
+| Ruhani Parçanın kapasitesi var ama asa Vis çekemiyor | Kapasite, mevcut rezerv değildir; önce eksiksiz Centi-Vis tedarikini sağla |
+| Yapay düğüm kavanozlamadan sonra beklenenden küçük | Kavanozlama mevcut şarjlı miktarları kullanır; mühürlemeden önce gerçek rezervleri kontrol et |
+| Güçlendirici arılarla yetiştirilen bir düğümün aspektleri dengesiz | Etki aspektleri rastgele artırır; yüksek toplam kapasite gerekli altı aspektin tamamının bulunduğunu garanti etmez |
+| Düğüm dönüşümünden sonra orijinal tedarik yöntemi çalışmayı bırakıyor | Enerjilendirilmiş düğümler Centi-Vis ağları kullanır ve bunlardan asayla doğrudan çekim yapılamaz |
+| Centi-Vis cihazları aralıklı çalışıyor | Ağ bağlantılarını, yüklü parçaları, aspekt çıktısını ve diğer cihazların rekabet eden tüketimini kontrol et |
 
 </Column>

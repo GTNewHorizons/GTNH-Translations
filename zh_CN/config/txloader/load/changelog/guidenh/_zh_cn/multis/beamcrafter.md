@@ -24,7 +24,7 @@ date: 2026-05-25
 ### 需求：
 - 1 <ItemLink id="gregtech:gt.blockmachines:3015"/><ItemImage id="gregtech:gt.blockmachines:3015"/>
 - 224-228 <ItemLink id="gtnhlanth:casing.shielded_accelerator"/><ItemImage id="gtnhlanth:casing.shielded_accelerator"/>
-- 26 等级玻璃（任意）<ItemImage id="bartworks:BW_GlasBlocks:5"/>
+- 26 任意等级玻璃<ItemImage id="bartworks:BW_GlasBlocks:5"/>
 - 16 <ItemLink id="gregtech:gt.blockcasings3:10"/><ItemImage id="gregtech:gt.blockcasings3:10"/>
 - 2 <ItemLink id="gregtech:gt.blockmachines:10503"/><ItemImage id="gregtech:gt.blockmachines:10503"/>
 - 1+ 能源仓（任意对撞机机械方块）<ItemImage id="gregtech:gt.blockmachines:40"/>

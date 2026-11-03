@@ -1,2 +1,2 @@
 {hr}
-Use a {color_name:Screwdriver} to switch modes
+Modları değiştirmek için bir {color_name:tornavida} kullan

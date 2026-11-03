@@ -1,7 +1,7 @@
 ---
 navigation:
   parent: /items_blocks_index.md
-  title: Quantum Ring
+  title: Kuantum Yüzük
   icon: appliedenergistics2:tile.BlockQuantumLinkChamber
 categories:
 - network infrastructure
@@ -16,4 +16,4 @@ item_ids:
 <ItemImage id="appliedenergistics2:tile.BlockQuantumLinkChamber" scale="4"/>
 </Row>
 
-The Quantum Ring is AE2's wireless cross-dimensional channel transmission solution. For the full mechanics, see [Quantum Ring](../ae2_mechanics/quantum_bridge.md).
+Kuantum Yüzük, AE2'nin kablosuz boyutlar arası kanal iletim çözümüdür. Mekaniğin tamamı için bkz. [Kuantum Yüzük](../ae2_mechanics/quantum_bridge.md).

@@ -12,11 +12,9 @@ chat.warptheory.minorwarp=Hiçbir tepki yok
 chat.warptheory.averagewarp=Kağıt hastalıklı bir renge dönüşüyor
 chat.warptheory.majorwarp=Kağıt toz haline geliyor
 chat.warptheory.deadlywarp=Kağıt alev aldı
-chat.warptheory.permanentwarp=Kalıcı Delilik
-chat.warptheory.normalwarp=Normal Delilik
-chat.warptheory.tempwarp=Geçici Delilik
-chat.warptheory.potionwarning.1=§c§l§nWARNING§r§c: drinking this potion will reset §lALL warp, research, scanned items, and discovered aspects§r§c!
-chat.warptheory.potionwarning.2=§cContinue drinking for §l10 seconds§r§c if you are absolutely certain you want to reset everything.
+chat.warptheory.warpcounts=(%s Permanent Warp, %s Normal Warp, %s Temporary Warp)
+chat.warptheory.potionwarning.1=§c§l§nUYARI§r§c: bu iksiri içmek §lTÜM deliliği, araştırmaları, taranmış eşyaları ve keşfedilmiş aspektleri§r§c sıfırlar!
+chat.warptheory.potionwarning.2=§cHer şeyi sıfırlamak istediğinden kesinlikle eminsen §l10 saniye§r§c boyunca içmeye devam et.
 
 # << Item names >>
 item.warptheory.cleanserminor.name=Saf Olmayan Gözyaşı
@@ -24,7 +22,7 @@ item.warptheory.cleanser.name=Saf Gözyaşı
 item.warptheory.amulet.name=Arınma Tılsımı
 item.warptheory.something.name=Bir Şeyin Parçası
 item.warptheory.paper.name=Esrarengiz Turnusol Kağıdı
-item.warptheory.oblivionpotion.name=Potion of Blissful Oblivion
+item.warptheory.oblivionpotion.name=Mutluluk Veren Unutuluş İksiri
 
 # << entity names >>
 entity.WarpTheory.taintSheepSafe.name=Tainted Koyun
@@ -40,7 +38,7 @@ tooltip.warptheory.amulet=Deliliği Tafsiye Etmek
 tooltip.warptheory.something=Muhtemelen yenilebilir...
 tooltip.warptheory.paper=Deliliğe Tepki
 tooltip.warptheory.portableshower=Pisliklerini akıt
-tooltip.warptheory.oblivionpotion=§c§l§nThe ultimate contingency plan§r
+tooltip.warptheory.oblivionpotion=§c§l§nNihai acil durum planı§r
 
 # << portable shower >>
 tc.research_name.warptheory.portableshower=Taşınabilir Duş
@@ -65,7 +63,7 @@ research.warptheory.warpcleanser=Ghast Gözyaşları'nın iyileştirici özellik
 # << purification talisman >>
 tc.research_name.warptheory.amulet=Arınma Tılsımı
 tc.research_text.warptheory.amulet=Basit bir iyi şans tılsımının ötesinde
-research.warptheory.amulet=Saf Gözyaşlarının arındırıcı özelliklerinin, neden oldukları hazımsızlık olmadan zaman içinde kanalize edilebildiği bir süreç keşfettiniz.<BR>Basitçe iki karşıt gözyaşını bir tılsımın içine yerleştirerek ve onu belirli bir büyüyle aşılayarak, sürekli olarak kötü büyüsel enerjiyi çevreye boşaltan bir aksesuar ürettin.
+research.warptheory.amulet=Saf Gözyaşlarının arındırıcı özelliklerini, yol açtıkları hazımsızlığa katlanmadan zaman içinde kanalize edebileceğin bir süreç keşfettin.<BR>İki gözyaşını bir tılsıma yerleştirip belirli bir büyüyle aşılayarak, olumsuz büyüsel enerjiyi sürekli çevreye boşaltan bir aksesuar elde ediyorsun.
 
 # << litmus paper >>
 tc.research_name.warptheory.paper=Esrarengiz Turnusol Kağıdı
@@ -73,10 +71,10 @@ tc.research_text.warptheory.paper=Neredeyse bilimsel
 research.warptheory.paper=Vücudundaki negatif büyü enerjisi birikimini ölçmek için etrafınızda meydana gelen garip olayları saymaktan biraz daha doğru bir şeye ihtiyacın olacağına karar verdin.<BR> Suyun özü, biraz kağıt ve de Salis Mundus'u birbirine aşılayarak kendini ne kadar tehlikeye açığa vurduğunu okuduğun bir araç yarattın.
 
 # << Oblivion Potion >>
-tc.research_name.warptheory.oblivionpotion=Potion of Blissful Oblivion
-tc.research_text.warptheory.oblivionpotion=Uncork in case of emergency
-research.warptheory.oblivionpotion.1=Knowledge may be power, but some say that ignorance is bliss. Should you find yourself at a true dead end, your mind burdened beyond recovery by warp, you have devised a final contingency: the Potion of Blissful Oblivion.<BR>Upon drinking this concoction, your warp is purged entirely. Yet such peace comes at a terrible cost: your knowledge of all research, every object scanned with the thaumometer, and every aspect you have discovered will be lost.
-research.warptheory.oblivionpotion.2=This loss is absolute and irreversible. You will be forced to begin your pursuit of knowledge from the very beginning. Though more refined methods of cleansing the mind may exist, this potion remains a desperate, but reliable, last resort.
+tc.research_name.warptheory.oblivionpotion=Mutluluk Veren Unutuluş İksiri
+tc.research_text.warptheory.oblivionpotion=Acil durumda tıpasını aç
+research.warptheory.oblivionpotion.1=Bilgi güç olabilir, ama bazıları cehaletin mutluluk olduğunu söyler. Kendini gerçek bir çıkmazda, zihnin delilikten kurtulamayacak kadar yüklenmiş bulursan son bir acil durum planı tasarladın: Mutluluk Veren Unutuluş İksiri.<BR>Bu karışımı içtiğinde deliliğin tamamen temizlenir. Ancak bu huzurun korkunç bir bedeli vardır: tüm araştırmalar hakkındaki bilgin, Thaumometre ile taranmış her nesne ve keşfettiğin her aspekt kaybolur.
+research.warptheory.oblivionpotion.2=Bu kayıp mutlak ve geri döndürülemez. Bilgi arayışına en baştan başlamak zorunda kalacaksın. Zihni temizlemenin daha işlenmiş yöntemleri olabilir, ama bu iksir umutsuz da olsa güvenilir bir son çare olarak kalır.
 
 # << chat warp effects >>
 chat.warptheory.bats=Kanat vuruşlarının sesleri havayı dolduruyor...
@@ -141,6 +139,15 @@ chat.warptheory.pumpkin=Ürkütücü hissediyorsun...
 chat.warptheory.biomeSnow=Nefesin soğuk havada yoğunlaşıyor...
 chat.warptheory.wanddrain=Asanın biraz sıcak olduğunu hissediyorsun...
 chat.warptheory.witherpotion=Tamamen berbat hissediyorsun...
+
+# << /warptheory command >>
+commands.warptheory.usage=/warptheory <event> [player]
+commands.warptheory.events=Invalid Syntax, available events are: %s
+commands.warptheory.additional=Additional commands: print purge
+commands.warptheory.noeffects=No active warp effects!
+commands.warptheory.purged=Purged %s!
+commands.warptheory.notfound=Could not find warp event: %s
+commands.warptheory.triggered=Triggered warp event: %s
 
 # << Research stuff >>
 tc.research_category.WT_Category=Delilik Teorisi

@@ -1,4 +1,4 @@
-Module that allows you to research stellar objects
-§d§lDon't look directly into the sun
+Yıldız cisimlerini araştırmanı sağlayan modül
+§d§lDoğrudan güneşe bakma
 {lang:gt.blockmachines.multimachine.project.ig.desc2}
 {lang:gt.blockmachines.multimachine.project.ig.motorT2}

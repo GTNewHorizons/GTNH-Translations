@@ -19,135 +19,135 @@ navigation:
   <ImportStructure src="/assets/structures/infusion_altar.snbt" />
 </GameScene>
 
-**Thaumcraft 4** (TC4) is one of GTNH's main magic mods and the first magic mod you encounter.
+**Thaumcraft 4** (TC4), GTNH'nin ana büyü modlarından biridir ve karşılaşacağın ilk büyü modudur.
 
-Starting with scanning and research, you gradually learn about the aspects contained in items and creatures. Through alchemy and infusion, you can create wands, magical tools, equipment and automation systems.
+Tarama ve araştırmayla başlayarak eşyalarda ve canlılarda bulunan aspektleri yavaş yavaş öğrenirsin. Simya ve infüzyon sayesinde asalar, sihirli aletler, ekipman ve otomasyon sistemleri üretebilirsin.
 
-In NH, Thaumcraft is closely connected to technology materials, the Twilight Forest and other magic mods. As your research progresses, you can explore Botania and Blood Magic, connect magical systems to AE, or use magic to maintain GT machines.
+NH'de Thaumcraft; teknoloji materyalleri, Twilight Forest ve diğer büyü modlarıyla yakından bağlantılıdır. Araştırman ilerledikçe Botania ve Kan Büyüsü'nü keşfedebilir, büyü sistemlerini AE'ye bağlayabilir veya GT makinelerini bakımda tutmak için büyü kullanabilirsin.
 
-This page provides an overview of Thaumcraft's world, basic concepts and NH-specific changes, focusing on the uses of magical facilities and the differences between <Color color="#B7A0D6">research points, Vis and essentia</Color>.
+Bu sayfa; büyülü tesislerin kullanımlarına ve <Color color="#B7A0D6">araştırma puanları, Vis ve esans</Color> arasındaki farklara odaklanarak Thaumcraft dünyasına, temel kavramlara ve NH'ye özgü değişikliklere genel bir bakış sunar.
 
 <br clear="all" />
 
-## The World of Thaumcraft
+## Thaumcraft Dünyası
 
-- **Everything has aspects.** In Thaumcraft, objects have more than an appearance and a purpose: they also contain <Color color="#B7A0D6">aspects</Color> that you can observe and study. Fire, water, order, life and metal can all be described through aspects. Combining aspects produces more complex properties; understanding these relationships is fundamental to research and alchemy.
+- **Her şeyin aspektleri vardır.** Thaumcraft'ta nesnelerin bir görünüşü ve bir amacı olmasından fazlası vardır: gözlemleyip inceleyebileceğin <Color color="#B7A0D6">aspektler</Color> de içerirler. Ateş, su, düzen, yaşam ve metal aspektler aracılığıyla tanımlanabilir. Aspektleri birleştirmek daha karmaşık özellikler üretir; bu ilişkileri anlamak araştırma ve simyanın temelidir.
 
-- **Knowledge becomes infrastructure.** The world also contains <Color color="#B7A0D6">aura nodes</Color> that gather magical energy. Wands can draw Vis from nodes for arcane crafting and wand foci. Essentia extracted from items is used for alchemy, infusion and some magical devices. As your knowledge and facilities improve, you move from manual research and crafting to essentia storage, logistics and automated production.
+- **Bilgi altyapıya dönüşür.** Dünya ayrıca büyülü enerjiyi toplayan <Color color="#B7A0D6">Aura Düğümleri</Color> içerir. Asalar, esrarengiz üretim ve asa odakları için düğümlerden Vis çekebilir. Eşyalardan çıkarılan esans simya, infüzyon ve bazı büyülü cihazlar için kullanılır. Bilgin ve tesislerin geliştikçe elle araştırma ve üretimden esans depolamaya, lojistiğe ve otomatik üretime geçersin.
 
-- **Exploration has consequences.** Processing magical materials can pollute the surrounding environment, while learning forbidden knowledge can give the player Warp. When researching a new ability, learn about its uses, costs and effects together.
+- **Keşfin sonuçları vardır.** Büyülü materyalleri işlemek çevreyi kirletebilir, yasak bilgiyi öğrenmek ise oyuncuya Delilik verebilir. Yeni bir yeteneği araştırırken kullanımlarını, maliyetlerini ve etkilerini birlikte öğren.
 
-## The Thaumonomicon
+## Thaumonomicon
 
-The <ItemLink id="Thaumcraft:ItemThaumonomicon" showIcon="left" /> is your main source of knowledge about Thaumcraft, containing research explanations, research notes and unlocked recipes. Its research entries provide the operating instructions for individual devices.
+<ItemLink id="Thaumcraft:ItemThaumonomicon" showIcon="left" />, Thaumcraft hakkındaki ana bilgi kaynağındır; araştırma açıklamalarını, araştırma notlarını ve açılan tarifleri içerir. Araştırma girdileri tek tek cihazların çalıştırma talimatlarını sunar.
 
-The book has separate tabs for different topics and addons. Research has prerequisites, and some entries only appear after specific scans or other conditions are met. **An entry being absent does not necessarily mean it does not exist.**
+Kitabın farklı konular ve eklentiler için ayrı sekmeleri vardır. Araştırmaların önkoşulları vardır ve bazı girdiler yalnızca belirli taramalar yapıldıktan veya başka koşullar sağlandıktan sonra görünür. **Bir girdinin olmaması, var olmadığı anlamına gelmez.**
 
-| Content in the Book | Information Provided |
+| Kitaptaki İçerik | Sağlanan Bilgi |
 | --- | --- |
-| Research icons and connections | Prerequisites between research entries and hints about unlocking them |
-| <Color color="#B7A0D6">Research notes</Color> | Research solved at a Research Table, primarily through aspect connections |
-| Research that costs research points | The aspect types and research points required to unlock it |
-| Completed research | Device uses, operating instructions and recipes |
-| <Color color="#D5B77A">Forbidden knowledge markers</Color> | Purple effects and the associated warnings indicate that learning this research may cause Warp |
+| Araştırma simgeleri ve bağlantılar | Araştırma girdileri arasındaki önkoşullar ve bunların nasıl açılacağına dair ipuçları |
+| <Color color="#B7A0D6">Araştırma notları</Color> | Araştırma Masasında, esas olarak aspekt bağlantıları aracılığıyla çözülen araştırmalar |
+| Araştırma puanı gerektiren araştırmalar | Açmak için gereken aspekt türleri ve araştırma puanları |
+| Tamamlanmış araştırmalar | Cihaz kullanımları, çalıştırma talimatları ve tarifler |
+| <Color color="#D5B77A">Yasak bilgi işaretleri</Color> | Mor efektler ve ilgili uyarılar, bu araştırmayı öğrenmenin Delilik'e yol açabileceğini gösterir |
 
-Completed research must be read to unlock its content. **Research unlocks and material requirements are independent:** seeing a recipe in the book does not mean your technology and magical facilities can already produce it.
+İçeriğini açmak için tamamlanmış araştırmaların okunması gerekir. **Araştırma kilitlerinin açılması ve malzeme gereksinimleri birbirinden bağımsızdır:** kitapta bir tarif görmek, teknoloji ve büyülü tesislerinin onu zaten üretebileceği anlamına gelmez.
 
-## Aspects, Research Points, Vis and Essentia
+## Aspektler, Araştırma Puanları, Vis ve Esans
 
-These concepts often use the same aspect icons, but serve different purposes. When you see an icon, first check whether it appears at a Research Table, in a wand or in an essentia container.
+Bu kavramlar çoğu zaman aynı aspekt simgelerini kullanır ancak farklı amaçlara hizmet eder. Bir simge gördüğünde, önce onun Araştırma Masasında mı, bir asada mı yoksa bir esans kabında mı göründüğüne bak.
 
-| Concept | Meaning | Main Uses |
+| Kavram | Anlamı | Ana Kullanımları |
 | --- | --- | --- |
-| <Color color="#B7A0D6">Aspects</Color> | Properties that describe items, creatures and magical phenomena | Understanding research combinations and identifying which essentia an item can provide |
-| <Color color="#B7A0D6">Research points</Color> | Research resources accumulated by the player, tracked separately for each aspect | Connecting research notes, combining aspects and unlocking some research |
-| <Color color="#B7A0D6">Vis</Color> | Magical energy stored in a wand, tracked separately for each primal aspect | Crafting at an Arcane Worktable, using wand foci and similar operations |
-| <Color color="#B7A0D6">Essentia</Color> | Aspects extracted from items that can be stored and transported | Alchemy, infusion and some magical devices |
+| <Color color="#B7A0D6">Aspektler</Color> | Eşyaları, canlıları ve büyülü olayları tanımlayan özellikler | Araştırma kombinasyonlarını anlamak ve bir eşyanın hangi esansı sağlayabileceğini belirlemek |
+| <Color color="#B7A0D6">Araştırma puanları</Color> | Oyuncunun biriktirdiği, her aspekt için ayrı ayrı izlenen araştırma kaynakları | Araştırma notlarını bağlamak, aspektleri birleştirmek ve bazı araştırmaları açmak |
+| <Color color="#B7A0D6">Vis</Color> | Bir asada depolanan, her temel aspekt için ayrı ayrı izlenen büyülü enerji | Esrarengiz Çalışma Tezgahında üretim, asa odaklarının kullanımı ve benzeri işlemler |
+| <Color color="#B7A0D6">Esans</Color> | Eşyalardan çıkarılan, depolanabilen ve taşınabilen aspektler | Simya, infüzyon ve bazı büyülü cihazlar |
 
-## Aspects and Research Points
+## Aspektler ve Araştırma Puanları
 
-The six <Color color="#B7A0D6">primal aspects</Color> are <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Air (Aer), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />Earth (Terra), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />Fire (Ignis), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />Water (Aqua), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />Order (Ordo) and <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />Entropy (Perditio). Compound aspects are formed from two other aspects; NH's addons also expand the aspect system.
+Altı <Color color="#B7A0D6">temel aspekt</Color> şunlardır: <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aer"}' scale="0.75" />Hava (Aer), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"terra"}' scale="0.75" />Toprak (Terra), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ignis"}' scale="0.75" />Ateş (Ignis), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"aqua"}' scale="0.75" />Su (Aqua), <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"ordo"}' scale="0.75" />Düzen (Ordo) ve <ItemImage id='aspectrecipeindex:aspect:1:{Aspect:"perditio"}' scale="0.75" />Entropi (Perditio). Bileşik aspektler iki başka aspektten oluşur; NH'nin eklentileri de aspekt sistemini genişletir.
 
-Scanning items, creatures and other targets can reveal aspects and grant research points. Some targets require you to know their component aspects before they can be scanned. Combining aspects at a Research Table can also help you discover new compound aspects. If you lack research points, you need to replenish your research resources; charging a wand will not solve that problem.
+Eşyaları, canlıları ve diğer hedefleri taramak aspektleri ortaya çıkarabilir ve araştırma puanı kazandırabilir. Bazı hedefler, taranabilmeleri için bileşen aspektlerini bilmeni gerektirir. Araştırma Masasında aspektleri birleştirmek de yeni bileşik aspektler keşfetmene yardımcı olabilir. Araştırma puanın eksikse araştırma kaynaklarını yenilemen gerekir; asa doldurmak bu sorunu çözmez.
 
-## Vis and Essentia
+## Vis ve Esans
 
-Vis in a wand is tracked separately for the six primal aspects. Check the stored amount of each aspect required by an arcane recipe; having one aspect fully charged cannot make up for a shortage of another.
+Asadaki Vis, altı temel aspekt için ayrı ayrı izlenir. Bir esrarengiz tarifin gerektirdiği her aspektin depolanan miktarını kontrol et; bir aspektin tam dolu olması diğerinin eksikliğini telafi edemez.
 
-Essentia is usually extracted from items using an Alchemical Furnace or similar facilities, then collected in jars or other containers. A recipe requiring compound aspects such as metal or life is often asking for the corresponding essentia rather than Vis in a wand.
+Esans genellikle Simya Fırını veya benzeri tesisler kullanılarak eşyalardan çıkarılır, ardından kavanozlarda veya diğer kaplarda toplanır. Metal veya yaşam gibi bileşik aspektler gerektiren bir tarif, çoğu zaman asadaki Vis yerine ilgili esansı ister.
 
-Aer Vis required by an Arcane Worktable and Metallum essentia required by infusion come from a wand and an essentia supply system, respectively. **Research points, wand Vis and essentia in jars cannot replace each other.**
+Esrarengiz Çalışma Tezgahının gerektirdiği Aer Vis ve infüzyonun gerektirdiği Metallum esansı sırasıyla bir asadan ve bir esans besleme sisteminden gelir. **Araştırma puanları, asa Vis'i ve kavanozlardaki esans birbirinin yerini tutamaz.**
 
-## Nodes and Sources of Magical Energy
+## Düğümler ve Büyülü Enerji Kaynakları
 
-**Aura nodes** are concentrations of magical energy in the world. Observation tools reveal their aspects, and wands can draw Vis from them. Most nodes gradually regenerate their energy, so finding and managing nodes is an important part of early magical power supply.
+**Aura Düğümleri** dünyadaki büyülü enerji yoğunlaşmalarıdır. Gözlem aletleri aspektlerini ortaya çıkarır ve asalar onlardan Vis çekebilir. Çoğu düğüm enerjisini yavaş yavaş yeniler; bu yüzden düğümleri bulmak ve yönetmek erken dönem büyülü güç kaynağının önemli bir parçasıdır.
 
-Nodes have different types, qualities and aspect compositions. Once you understand them, you can research ways to move, preserve and modify them, using what you find while exploring to supply your base's magical facilities.
+Düğümlerin farklı türleri, nitelikleri ve aspekt bileşimleri vardır. Onları anladığında, üssünün büyülü tesislerini beslemek için keşif sırasında bulduklarını kullanarak onları taşıma, koruma ve değiştirme yollarını araştırabilirsin.
 
 > [!WARNING]
-> When drawing energy from a node with an early wand, avoid casually draining an aspect to zero. <Color color="#D5B77A">Draining a node completely</Color> can damage it and affect its ability to provide energy later. First learn what protections your wand and completed research offer.
+> Erken bir asayla bir düğümden enerji çekerken bir aspekti gelişigüzel sıfıra kadar tüketmekten kaçın. <Color color="#D5B77A">Bir düğümü tamamen tüketmek</Color> ona hasar verebilir ve sonraki enerji sağlama yeteneğini etkileyebilir. Önce asanın ve tamamlanmış araştırmalarının hangi korumaları sunduğunu öğren.
 
-Later, you will also encounter <Color color="#B7A0D6">Centi-Vis</Color>: modified nodes can supply compatible devices with this form of energy. Storing Vis in a wand and building a Centi-Vis supply network are two forms of power supply that you need to understand separately.
+Daha sonra <Color color="#B7A0D6">Centi-Vis</Color> ile de karşılaşacaksın: değiştirilmiş düğümler uyumlu cihazlara bu enerji biçimini sağlayabilir. Asada Vis depolamak ve bir Centi-Vis besleme ağı kurmak, ayrı ayrı anlaman gereken iki güç kaynağı biçimidir.
 
-## Vis Costs and Discounts
+## Vis Maliyetleri ve İndirimler
 
-<Color color="#B7A0D6">Wand capacity</Color> determines how much Vis of each primal aspect the wand can store, while <Color color="#B7A0D6">Vis discounts</Color> reduce the energy actually consumed by an operation. Wand caps and some equipment provide discounts. For more demanding recipes, consider both wand capacity and the discounts available to you.
+<Color color="#B7A0D6">Asa kapasitesi</Color>, asanın her temel aspekten ne kadar Vis depolayabileceğini belirler; <Color color="#B7A0D6">Vis indirimleri</Color> ise bir işlemin gerçekte tükettiği enerjiyi azaltır. Asa uçları ve bazı ekipmanlar indirim sağlar. Daha zorlu tarifler için hem asa kapasitesini hem de sahip olduğun indirimleri göz önünde bulundur.
 
-For example, suppose an arcane recipe has a base requirement of 100 Vis of one aspect, with a total applicable discount of 20%. The actual requirement becomes 80 Vis of that aspect. This allows a wand with a capacity of 80 to satisfy a recipe that originally required 100, but the wand's capacity remains 80.
+Örneğin bir esrarengiz tarifin bir aspekten temel gereksinimi 100 Vis ve uygulanabilir toplam indirim %20 olsun. Gerçek gereksinim o aspekten 80 Vis olur. Bu, kapasitesi 80 olan bir asanın başlangıçta 100 gerektiren bir tarifi karşılamasını sağlar, ancak asanın kapasitesi 80 olarak kalır.
 
-| Problem | What to Check |
+| Sorun | Neye Bakmalı |
 | --- | --- |
-| The wand has enough capacity but lacks stored energy | Replenish every type of Vis required by the recipe |
-| A fully charged wand still cannot meet the recipe's requirements | Upgrade the wand or increase the discounts applicable to that craft |
-| You have equipment with discounts but still cannot craft | Check the actual requirements, whether the equipment is worn and the stored amount of each aspect |
-| Infusion lacks essentia | Prepare an essentia supply; Vis discounts cannot replace essentia ingredients |
+| Asanın kapasitesi yeterli ama depolanmış enerjisi az | Tarifin gerektirdiği her Vis türünü yenile |
+| Tam dolu bir asa bile tarifin gereksinimlerini karşılayamıyor | Asayı yükselt veya o üretime uygulanan indirimleri artır |
+| İndirim sağlayan ekipmanın var ama yine de üretemiyorsun | Gerçek gereksinimleri, ekipmanın giyilip giyilmediğini ve her aspektin depolanan miktarını kontrol et |
+| İnfüzyonda esans eksik | Bir esans beslemesi hazırla; Vis indirimleri esans bileşenlerinin yerini tutamaz |
 
-## Flux, Taint and Warp
+## Flux, Lekelenme ve Delilik
 
-Environmental problems and effects on the player need to be understood separately.
+Çevresel sorunlar ile oyuncu üzerindeki etkiler ayrı ayrı anlaşılmalıdır.
 
-| Concept | Main Target | What to Know |
+| Kavram | Ana Hedef | Bilinmesi Gerekenler |
 | --- | --- | --- |
-| <Color color="#D5B77A">Flux</Color> | The surrounding environment | Improper magical processing can release pollution; watch your alchemy facilities and their surroundings |
-| <Color color="#D5B77A">Taint</Color> | Terrain, blocks and creatures | An environmental hazard that needs dedicated treatment; investigate its source and control methods when you find it |
-| <Color color="#D5B77A">Warp</Color> | The player | Forbidden research and some actions cause Warp, which can trigger related events |
+| <Color color="#D5B77A">Flux</Color> | Çevre | Uygun olmayan büyülü işlemler kirlilik salabilir; simya tesislerini ve çevrelerini gözle |
+| <Color color="#D5B77A">Lekelenme</Color> | Arazi, bloklar ve canlılar | Özel muamele gerektiren bir çevresel tehlike; bulduğunda kaynağını ve kontrol yöntemlerini araştır |
+| <Color color="#D5B77A">Delilik</Color> | Oyuncu | Yasak araştırmalar ve bazı eylemler Delilik'e yol açar, bu da ilgili olayları tetikleyebilir |
 
-Cleaning up environmental pollution does not remove the player's Warp, and dealing with Warp does not replace treating a tainted area. Look for forbidden knowledge warnings when reading new research, and consider pollution control when preparing new alchemy facilities.
+Çevresel kirliliği temizlemek oyuncunun Deliliğini ortadan kaldırmaz ve Delilik ile uğraşmak lekeli bir bölgenin tedavisinin yerini tutmaz. Yeni araştırmalar okurken yasak bilgi uyarılarına dikkat et ve yeni simya tesisleri hazırlarken kirlilik kontrolünü düşün.
 
 > [!WARNING]
-> Warp Theory adds more Warp events in NH. <Color color="#D5B77A">High Warp</Color> can trigger dangerous events that damage your base. Before pursuing forbidden research, learn about these events and how to respond, and make suitable arrangements for valuable facilities and items.
+> Delilik Teorisi, NH'de daha fazla Delilik olayı ekler. <Color color="#D5B77A">Yüksek Delilik</Color> üssüne hasar veren tehlikeli olayları tetikleyebilir. Yasak araştırmaların peşine düşmeden önce bu olayları ve nasıl karşılık vereceğini öğren, değerli tesisler ve eşyalar için uygun önlemler al.
 
-## NH-Specific Changes and Mod Integration
+## NH'ye Özgü Değişiklikler ve Mod Entegrasyonu
 
-NH makes many changes to Thaumcraft's material progression, research and user experience, mainly in the following areas.
+NH, Thaumcraft'ın materyal ilerlemesinde, araştırmalarında ve kullanıcı deneyiminde birçok değişiklik yapar; bunlar başlıca şu alanlardadır.
 
-| Topic | What to Watch For in NH |
+| Konu | NH'de Nelere Dikkat Etmeli |
 | --- | --- |
-| Wand materials | The usual wand progression involves Twilight Forest boss materials; check current recipes and material sources before crafting |
-| Wand upgrades | Capacity and Vis discounts need to develop together; after completing the relevant research, you can also replace wand rods and caps |
-| Recipe lookup | Use the Thaumonomicon for research and operating instructions, and NEI to check current recipes; the quest book explicitly directs you to NEI for some wand recipes |
-| Scanning conveniences | You can scan items in your inventory; scanning an entire chest still requires the corresponding research |
-| Research and aspect assistance | Aspect Recipe Index and similar features help you find aspect sources, combinations and related recipes |
-| Magical automation | Golems, Automagy and related content provide logistics and automation facilities; Thaumic Energistics connects essentia storage and supply to AE |
-| Technology and magic integration | Addons such as EMT provide tools and devices; GT also has facilities such as the Research Completer and Vis Maintenance Hatch |
-| Other magic paths | Botania and Blood Magic also have connections to Thaumcraft research and materials |
+| Asa materyalleri | Olağan asa ilerlemesi Twilight Forest boss materyallerini içerir; üretmeden önce güncel tarifleri ve materyal kaynaklarını kontrol et |
+| Asa yükseltmeleri | Kapasite ve Vis indirimlerinin birlikte gelişmesi gerekir; ilgili araştırmayı tamamladıktan sonra asa çubuklarını ve uçlarını da değiştirebilirsin |
+| Tarif arama | Araştırma ve çalıştırma talimatları için Thaumonomicon'u, güncel tarifleri kontrol etmek için NEI'yi kullan; görev kitabı bazı asa tarifleri için seni açıkça NEI'ye yönlendirir |
+| Tarama kolaylıkları | Envanterindeki eşyaları tarayabilirsin; bütün bir sandığı taramak yine de ilgili araştırmayı gerektirir |
+| Araştırma ve aspekt yardımı | Aspect Recipe Index ve benzeri özellikler aspekt kaynaklarını, kombinasyonlarını ve ilgili tarifleri bulmana yardımcı olur |
+| Sihirli otomasyon | Golemler, Automagy ve ilgili içerik lojistik ve otomasyon tesisleri sağlar; Thaumic Energistics esans depolamasını ve beslemesini AE'ye bağlar |
+| Teknoloji ve büyü entegrasyonu | EMT gibi eklentiler aletler ve cihazlar sağlar; GT'de ayrıca Araştırma Tamamlayıcısı ve Vis Bakım Kapağı gibi tesisler vardır |
+| Diğer büyü yolları | Botania ve Kan Büyüsü'nün de Thaumcraft araştırmaları ve materyalleriyle bağlantıları vardır |
 
-Magic offers movement and building tools, equipment and enchantments, durability repair, material processing, and item and essentia automation. Choose a research direction based on your current needs, then follow its prerequisites to develop the facilities you need.
+Büyü; hareket ve inşa aletleri, ekipman ve büyüler, dayanıklılık onarımı, materyal işleme ile eşya ve esans otomasyonu sunar. Mevcut ihtiyaçlarına göre bir araştırma yönü seç, ardından ihtiyacın olan tesisleri geliştirmek için önkoşullarını takip et.
 
-## Topics
+## Konular
 
-This category organizes guides by topic, with each topic page directly under Thaumcraft. The guides focus on an overview of mechanics, facility uses, resource relationships and NH-specific changes. The Thaumonomicon and NEI provide detailed operating instructions and recipes.
+Bu kategori rehberleri konuya göre düzenler ve her konu sayfası doğrudan Thaumcraft altındadır. Rehberler mekaniklere genel bakış, tesis kullanımları, kaynak ilişkileri ve NH'ye özgü değişikliklere odaklanır. Thaumonomicon ve NEI ayrıntılı çalıştırma talimatları ve tarifler sağlar.
 
-| Chapter | Main Content |
+| Bölüm | Ana İçerik |
 | --- | --- |
-| [Thaumcraft Basics](./thaumcraft_basics.md) | The Thaumonomicon, aspects, nodes, Warp, Vis, Vis discounts and an overview of the world |
-| [Aspects, Scanning and Research](./aspects_scanning_research.md) | The aspect system, scanning conditions, research points, research notes and prerequisites |
-| [Wands, Vis and Nodes](./wands_vis_nodes.md) | Wand crafting and discounts, Vis sources, node types and cultivation, and Centi-Vis supply |
-| [Alchemy and Essentia](./alchemy_essentia.md) | Crucibles and alchemy devices, essentia production and distribution, pollution control |
-| [Infusion Crafting](./infusion_crafting.md) | Altar components, recipe resources, stability and integration with other devices |
-| [Magic Automation](./magic_automation.md) | Item logistics, inventory control, fluid devices, production support and golem uses |
-| [Warp and Eldritch Knowledge](./warp_eldritch.md) | Warp management, Eldritch research, Opening the Eye, and exploration of the Outer Lands |
-| [Thaumic Tinkerer](./thaumic_tinkerer.md) | Custom enchanting, durability repair, infused crops, elemental fire, and KAMI devices |
-| Addons and GT Integration | Thaumic Energistics, other addon facilities, and GT's magical devices and material connections |
+| [Thaumcraft Temelleri](./thaumcraft_basics.md) | Thaumonomicon, aspektler, düğümler, Delilik, Vis, Vis indirimleri ve dünyaya genel bakış |
+| [Aspektler, Tarama ve Araştırma](./aspects_scanning_research.md) | Aspekt sistemi, tarama koşulları, araştırma puanları, araştırma notları ve önkoşullar |
+| [Asalar, Vis ve Düğümler](./wands_vis_nodes.md) | Asa üretimi ve indirimler, Vis kaynakları, düğüm türleri ve yetiştirilmesi ile Centi-Vis beslemesi |
+| [Simya ve Esans](./alchemy_essentia.md) | Potalar ve simya cihazları, esans üretimi ve dağıtımı, kirlilik kontrolü |
+| [İnfüzyon Üretimi](./infusion_crafting.md) | Sunak bileşenleri, tarif kaynakları, kararlılık ve diğer cihazlarla entegrasyon |
+| [Sihirli Otomasyon](./magic_automation.md) | Eşya lojistiği, envanter kontrolü, sıvı cihazları, üretim desteği ve golem kullanımları |
+| [Delilik ve Eldritch Bilgisi](./warp_eldritch.md) | Delilik yönetimi, Eldritch araştırmaları, Gözün Açılması ve Dış Toprakların keşfi |
+| [Thaumic Tinkerer](./thaumic_tinkerer.md) | Özel büyüleme, dayanıklılık onarımı, yüklü bitkiler, elemental ateş ve KAMI cihazları |
+| Eklentiler ve GT Entegrasyonu | Thaumic Energistics, diğer eklenti tesisleri ve GT'nin büyülü cihazları ve materyal bağlantıları |
 
 </Column>

@@ -14,9 +14,9 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAM1w==
 navigation:
-  title: Quantum Force Transformer 
+  title: Kuantum Kuvvet Dönüştürücüsü
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:31151
   position: -10001
 ---
-# Quantum Force Transformer
+# Kuantum Kuvvet Dönüştürücüsü

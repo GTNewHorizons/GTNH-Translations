@@ -21,7 +21,7 @@ date: 2026-05-26
 <br clear="all"/>
 
 ## 建造：
-<Color id="GREEN">NAC</Color>由一个被 12 个模块槽位环绕的大型控制室组成。控制室负责机器的输入与输出，而各模块则用于加工电路组件（CC）。支持多A能源仓与激光能源仓，但只能有一个，且必须位于控制室内或其下方。能量会按请求顺序自动从控制室分配给所有模块，类似于<ItemLink id="gregtech:gt.blockmachines:14003"/><ItemImage id="gregtech:gt.blockmachines:14003"/>。唯一的例外是<ItemLink id="gregtech:gt.blockmachines:9504"/><ItemImage id="gregtech:gt.blockmachines:9504"/>，它在填充自身能量缓冲器方面的优先级低于所有其他模块。没有维护仓。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
+<Color id="GREEN">NAC</Color>由一个被 12 个模块槽位环绕的大型控制室组成。控制室负责机器的输入与输出，而各模块则用于加工电路组件（CC）。支持多A能源仓与激光能源仓，但只能有一个，且必须位于控制室内或其下方。能量会按请求顺序自动从控制室分配给所有模块，类似于<ItemLink id="gregtech:gt.blockmachines:14003"/><ItemImage id="gregtech:gt.blockmachines:14003"/>。唯一的例外是<ItemLink id="gregtech:gt.blockmachines:9504"/><ItemImage id="gregtech:gt.blockmachines:9504"/>，它在填充自身能量缓存器方面的优先级低于所有其他模块。没有维护仓。使用<ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/>来预览/搭建结构。
 
 模块本身都是独立的多方块结构，拥有各自的控制器与建造要求。替换任意模块槽位顶部边缘上的一个<ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>，然后使用多方块机器全息投影仪来预览/搭建它们。它们可以朝向任意方向，但不能倒置建造。如果搭建正确，当<Color id="GREEN">NAC</Color>启用后，模块的控制器应显示"连接到主复合体"。
 ### 所需方块：
@@ -46,7 +46,7 @@ date: 2026-05-26
 ----------
 
 ## 模块：
-<Color id="GREEN">NAC</Color>本身只按固定的 5 秒周期打包与解包电路组件（CC）。真正加工并组装电路的是各个模块。共有 11 种可选模块和围绕控制室的 12 个模块槽位，但并非所有模块都是必需的，且每种模块的数量没有限制。尽管增加了额外加工步骤，模块仍是电路装配线的直接升级：它们拥有无限并行，对配方等级之上的每个电压等级都以 2/2 无损超频运行直至 5 秒下限，且只有在能量缓冲器足以支撑整个合成时才开始加工。这意味着它们拥有极高的吞吐量，且不会因断电而失败或销毁物品。注意，超频先于并行计算，以提升较长配方的速度。
+<Color id="GREEN">NAC</Color>本身只按固定的 5 秒周期打包与解包电路组件（CC）。真正加工并组装电路的是各个模块。共有 11 种可选模块和围绕控制室的 12 个模块槽位，但并非所有模块都是必需的，且每种模块的数量没有限制。尽管增加了额外加工步骤，模块仍是电路装配线的直接升级：它们拥有无限并行，对配方等级之上的每个电压等级都以 2/2 无损超频运行直至 5 秒下限，且只有在能量缓存器足以支撑整个合成时才开始加工。这意味着它们拥有极高的吞吐量，且不会因电力故障而失败或销毁物品。注意，超频先于并行计算，以提升较长配方的速度。
 
 <Color id="GREEN">NAC</Color>的总体工作流程如下。文中另附图片供参考，尽管它略有简化，因为并非所有东西（例如拼接的铅青铜框架）都会被送往纳米芯片组装矩阵。更详细的配置指南请参见下方的校准章节。
 1. 通过控制室内一个<u>已着色</u>的输入总线（普通或存储）放入物品
@@ -66,7 +66,7 @@ date: 2026-05-26
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9504" />
 </GameScene>
-<Color id="GREEN">纳米芯片组装矩阵</Color>以处理后的组件（PC）组装电路 CC。该模块始终是把电路 CC 送往控制室解包为真实电路之前的最后一步。<Color id="GREEN">纳米芯片组装矩阵</Color>在填充能量缓冲器方面的优先级在所有模块中最低，其 2/2 无损超频（直至 5 秒）取决于配方的机械方块等级而非配方的电压等级。两者均显示在 NEI 中，且往往彼此不同。
+<Color id="GREEN">纳米芯片组装矩阵</Color>以处理后的组件（PC）组装电路 CC。该模块始终是把电路 CC 送往控制室解包为真实电路之前的最后一步。<Color id="GREEN">纳米芯片组装矩阵</Color>在填充能量缓存器方面的优先级在所有模块中最低，其 2/2 无损超频（直至 5 秒）取决于配方的机械方块等级而非配方的电压等级。两者均显示在 NEI 中，且往往彼此不同。
 <br clear="all"/>
 <Latex formula="\text{Max Overclocks} = \text{Energy Hatch Tier} - \text{Recipe Casing Tier}"/>
 
@@ -76,7 +76,7 @@ date: 2026-05-26
 - 1 <ItemLink id="gregtech:gt.blockmachines:9504"/><ItemImage id="gregtech:gt.blockmachines:9504"/>
 - 25 <ItemLink id="gregtech:gt.blockcasings12:2"/><ItemImage id="gregtech:gt.blockcasings12:2"/>
 - 24 <ItemLink id="gregtech:gt.blockglass1:8"/><ItemImage id="gregtech:gt.blockglass1:8"/>
-- 20 部件装配线外壳（等级化） <ItemImage id="GoodGenerator:componentAssemblylineCasing"/>
+- 20 部件装配线外壳（任意等级） <ItemImage id="GoodGenerator:componentAssemblylineCasing"/>
 - 12 <ItemLink id="gregtech:gt.blockframes:325"/><ItemImage id="gregtech:gt.blockframes:325"/>
 - 8 <ItemLink id="gregtech:gt.blockcasings12:1"/><ItemImage id="gregtech:gt.blockcasings12:1"/>
 - 3 <ItemLink id="gregtech:gt.sheetmetal:325"/><ItemImage id="gregtech:gt.sheetmetal:325"/>
@@ -101,7 +101,7 @@ date: 2026-05-26
 </GameScene>
 <Color id="GREEN">纳米组件分流器</Color>过滤并整理所有 CC。通过控制器的 GUI 打开规则管理器，即可基于输入颜色、输出颜色、物品类型和/或所供给的红石信号强度设置自定义路由规则。至少必须选择一个或多个输入颜色以及一个或多个输出颜色。<Color id="GREEN">纳米组件分流器</Color>无法仅凭物品类型过滤，甚至无法基于 CC 的解包版本过滤。如果同一物品类型存在多个有效过滤器，则会在这些过滤器之间均分。
 
-分流器红石输入是一种可选仓，可替换结构顶部的任意纳米芯片网格接口机械方块，并充当外部红石接收器。输入红石信号的强度与在该仓用于管理规则的 GUI 中所配置的通道相关联。
+分流器红石输入端口是一种可选仓，可替换结构顶部的任意纳米芯片网格接口机械方块，并充当外部红石接收器。输入红石信号的强度与在该仓用于管理规则的 GUI 中所配置的通道相关联。
 <br clear="all"/>
 
 ### 所需方块：
@@ -113,11 +113,11 @@ date: 2026-05-26
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9501"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9501"/>
 - 0+ <ItemLink id="gregtech:gt.blockmachines:9502"/>（任意底部接口机械方块） <ItemImage id="gregtech:gt.blockmachines:9502"/>
 
-## 部件预处理装置 <ItemImage id="gregtech:gt.blockmachines:9505"/>
+## 元件处理装置 <ItemImage id="gregtech:gt.blockmachines:9505"/>
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:9505" />
 </GameScene>
-<Color id="GREEN">部件预处理装置</Color>加工 SMD CC。所有电路线系都需要该模块。
+<Color id="GREEN">元件处理装置</Color>加工 SMD CC。所有电路线系都需要该模块。
 <br clear="all"/>
 
 ### 所需方块：

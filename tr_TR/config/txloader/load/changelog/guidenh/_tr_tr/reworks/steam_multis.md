@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Steam Multiblocks
+  title: Buhar Multiblokları
   parent: reworks.md
   icon: gregtech:gt.blockmachines:31041
 categories:
@@ -9,23 +9,23 @@ author: Skorched
 date: 2026-05-23
 ---
 
-# Steam Multiblocks
+# Buhar Multiblokları
 
-Some of the <Color id="RED">Steam Multis</Color> have been redesigned for both balance and aesthetic purposes. The actual mechanics of the machines have not changed __at all__, they just have changed structures, as shown below:
+Bazı <Color id="RED">Buhar Multiblokları</Color> hem denge hem de estetik amacıyla yeniden tasarlandı. Makinelerin asıl mekanikleri __hiç__ değişmedi, sadece yapıları değişti, aşağıda gösterildiği gibi:
 
-### Steam Grinder
+### Buhar Öğütücü
 
 <GameScene>
   <ImportStructureLib controller="gregtech:gt.blockmachines:31041"/>
 </GameScene>
 
-### Steam Blender
+### Buhar Karıştırıcı
 
 <GameScene>
   <ImportStructureLib controller="gregtech:gt.blockmachines:31084"/>
 </GameScene>
 
-### Steam Squasher
+### Buhar Ezici
 <GameScene>
   <ImportStructureLib controller="gregtech:gt.blockmachines:31078"/>
 </GameScene>

@@ -1,6 +1,6 @@
 ---
 navigation:
-  title: Instantly Connecting Pipes
+  title: Boruları Anında Bağlama
   parent: misc.md
   icon: gregtech:gt.blockmachines:5760
 categories:
@@ -9,7 +9,7 @@ author: Skorched
 date: 2026-05-30
 ---
 
-# Instantly Connecting Pipes
-As of 2.9, all GregTech fluid pipes, item pipes, and cables will now connect with no delay, right as they are placed!
+# Boruları Anında Bağlama
+2.9 itibarıyla tüm GregTech sıvı boruları, eşya boruları ve kablolar artık yerleştirildikleri anda hiç gecikme olmadan bağlanıyor!
 
-Pipes and cables will still only connect to blocks that you explicitly connect them to by placing directly on them. They __will not__ instantly connect to all nearby pipes or cables
+Borular ve kablolar yine yalnızca doğrudan üzerlerine yerleştirerek açıkça bağladığın bloklara bağlanır. Yakındaki tüm borulara veya kablolara anında __bağlanmazlar__

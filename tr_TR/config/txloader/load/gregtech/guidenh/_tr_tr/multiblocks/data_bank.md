@@ -8,9 +8,9 @@ item_ids:
 quest_ids:
   - AAAAAAAAAAAAAAAAAAAKbw==
 navigation:
-  title: Data Bank
+  title: Veri Bankası
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:15313
   position: -7001
 ---
-# Data Bank
+# Veri Bankası

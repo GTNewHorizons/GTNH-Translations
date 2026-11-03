@@ -2,7 +2,7 @@
 item_ids:
   - gregtech:gt.blockmachines:31084
 navigation:
-  title: Steam Blender
+  title: Buhar Karıştırıcısı
   parent: ./multiblocks_index.md
   icon: gregtech:gt.blockmachines:31084
   position: 7
@@ -10,32 +10,32 @@ quest_ids:
   - WEwrzX4ZRkSxJ3M6cBesfA
 ---
 
-# Steam Blender
+# Buhar Karıştırıcısı
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31084" tier={1} />
 </GameScene>
 
-The <ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" /> is a multiblock Mixer available in the Steam age. It uses steam to mix materials in batches and can process up to eight copies of the same recipe at once. It can make Bronze Dust, Brass Dust, Fireclay Dust, and other materials, and can directly accept and output fluids to make eligible products such as Salt Water.
+Buhar çağında kullanılabilen bir multiblok Karıştırıcı olan <ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" />, malzemeleri partiler halinde karıştırmak için buhar kullanır ve aynı tarifin sekiz kopyasına kadar aynı anda işleyebilir. Bronz Tozu, Pirinç Tozu, Ateş Kili Tozu ve diğer malzemeleri üretebilir; ayrıca Tuzlu Su gibi uygun ürünleri yapmak için sıvıları doğrudan alıp çıktı olarak verebilir.
 
-The machine has basic bronze and high pressure steel structures that share the same controller. It makes eligible Mixer recipes available in the Steam age. Upgrading to the high pressure structure increases throughput, but does not raise the maximum recipe tier.
+Makinenin aynı kontrolcüyü paylaşan temel bronz ve yüksek basınçlı çelik yapıları vardır. Buhar çağında kullanılabilen uygun Karıştırıcı tariflerini erişilebilir kılar. Yüksek basınç yapısına geçmek verimi artırır, ancak maksimum tarif kademesini yükseltmez.
 
-| Property | Details |
+| Özellik | Ayrıntılar |
 | --- | --- |
-| Unlock tier | Steam; the controller recipe requires Tumbaga Rings, Tumbaga Rotors, a Tumbaga Frame Box, and other materials |
-| Dimensions | 5×5 footprint, four blocks tall; controller at the front center of the second layer |
-| Power | Exactly one Steam Hatch; no Energy Hatch |
-| Recipe range | Mixer recipes without fluid cells at LV or below, requiring no more than 32 EU/t |
-| Item interfaces | Steam Input and Output Buses; ordinary electric machine item buses cannot replace them |
-| Fluid interfaces | Ordinary Input Hatches supply recipe fluids, and ordinary Output Hatches collect fluid products; separate from the Steam Hatch used for power |
-| Parallels | Up to eight copies of the same recipe; the high pressure structure does not raise this limit |
-| Processing duration | Approximately 1.6× the duration shown in NEI for the basic structure, or 0.8× for the high pressure structure |
-| Upgrades and overclocking | The high pressure structure doubles speed and steam consumption rate; no voltage overclocking |
-| Maintenance and pollution | No maintenance, no pollution, and no Muffler Hatch required |
+| Kilit açma kademesi | Buhar; kontrolcü tarifi Tumbaga Yüzükleri, Tumbaga Rotorları, bir Tumbaga Çerçeve Kutusu ve diğer malzemeleri gerektirir |
+| Boyutlar | 5×5 taban alanı, dört blok yüksekliğinde; kontrolcü ikinci katmanın ön ortasında |
+| Güç | Tam olarak bir Buhar Kapağı; Enerji Kapağı yok |
+| Tarif aralığı | LV veya altında, sıvı hücresi içermeyen ve en fazla 32 EU/t gerektiren Karıştırıcı tarifleri |
+| Eşya arayüzleri | Buhar Giriş ve Çıkış Yolları; sıradan elektrikli makine eşya veriyolları bunların yerini alamaz |
+| Sıvı arayüzleri | Sıradan Girdi Kapakları tarif sıvılarını sağlar ve sıradan Çıkış Kapakları sıvı ürünleri toplar; güç için kullanılan Buhar Kapağından ayrıdır |
+| Paraleller | Aynı tarifin en fazla sekiz kopyası; yüksek basınç yapısı bu sınırı yükseltmez |
+| İşlem süresi | Temel yapı için NEI'de gösterilen sürenin yaklaşık 1,6 katı, yüksek basınç yapısı için 0,8 katı |
+| Yükseltmeler ve overclock | Yüksek basınç yapısı hızı ve buhar tüketim oranını ikiye katlar; gerilim overclock'u yok |
+| Bakım ve kirlilik | Bakım yok, kirlilik yok ve Egzoz Çıkışı gerekmez |
 
-## Crafting and Construction
+## Üretim ve İnşa
 
-The current recipes for the controller, basic casing, and Steam Hatch are shown below. Click the items in the table to view recipes for the other components.
+Kontrolcü, temel kasa ve Buhar Kapağının güncel tarifleri aşağıda gösterilmiştir. Diğer bileşenlerin tariflerini görmek için tablodaki eşyalara tıkla.
 
 <RecipesFor id="gregtech:gt.blockmachines:31084" />
 
@@ -43,137 +43,137 @@ The current recipes for the controller, basic casing, and Steam Hatch are shown 
 
 <RecipesFor id="gregtech:gt.blockmachines:31040" />
 
-### Structure Materials
+### Yapı Malzemeleri
 
-The following setup uses one Steam Hatch, one Input Bus, one Output Bus, one Input Hatch, and one Output Hatch to handle item and fluid recipes. The basic structure uses bronze components, while the high pressure structure uses their steel counterparts. **The casings, Frame Boxes, Gear Box Casings, and Pipe Casings in one machine must all be of the same tier.**
+Aşağıdaki kurulum, eşya ve sıvı tariflerini işlemek için bir Buhar Kapağı, bir Giriş Yolu, bir Çıkış Yolu, bir Girdi Kapağı ve bir Çıkış Kapağı kullanır. Temel yapı bronz bileşenleri kullanırken yüksek basınç yapısı bunların çelik karşılıklarını kullanır. **Bir makinedeki kasalar, Çerçeve Kutuları, Dişli Kutusu Kasaları ve Boru Muhafazaları aynı kademeden olmalıdır.**
 
-| Component | Basic structure | High pressure structure | Quantity and position |
+| Bileşen | Temel yapı | Yüksek basınç yapısı | Adet ve konum |
 | --- | --- | --- | --- |
-| Casing | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | 35 in the setup described above; may be replaced with the hatches or buses below, but at least 25 actual casings must remain |
-| Frame Box | <ItemLink id="gregtech:gt.blockframes:300" showIcon="left" /> | <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | Four: one in front of, behind, to the left of, and to the right of the central Gear Box Casing on the second layer |
-| Gear Box Casing | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | Two: one at the center of each of the second and fourth layers |
-| Pipe Casing | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | One, at the center of the third layer |
-| Controller | <ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" /> | Same controller | One, at the front center of the second layer |
-| Steam Hatch | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Same hatch | Exactly one, replacing a casing |
-| Input Bus | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Same bus | Install as needed for item inputs, replacing a casing; can also provide the Programmed Circuit setting |
-| Output Bus | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Same bus | Install as needed for item outputs, replacing a casing |
-| Input Hatch | For example, <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Same hatch | Install as needed for fluid inputs, replacing a casing |
-| Output Hatch | For example, <ItemLink id="gregtech:gt.blockmachines:60" showIcon="left" /> | Same hatch | Install as needed for fluid outputs, replacing a casing |
+| Kasa | <ItemLink id="gregtech:gt.blockcasings:10" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:0" showIcon="left" /> | Yukarıda açıklanan kurulumda 35 adet; aşağıdaki kapak veya veriyollarla değiştirilebilir, ancak en az 25 gerçek kasa kalmalı |
+| Çerçeve Kutusu | <ItemLink id="gregtech:gt.blockframes:300" showIcon="left" /> | <ItemLink id="gregtech:gt.blockframes:305" showIcon="left" /> | Dört adet: ikinci katmandaki merkezî Dişli Kutusu Kasasının önünde, arkasında, solunda ve sağında birer tane |
+| Dişli Kutusu Kasası | <ItemLink id="gregtech:gt.blockcasings2:2" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:3" showIcon="left" /> | İki adet: ikinci ve dördüncü katmanların her birinin merkezinde birer tane |
+| Boru Muhafazası | <ItemLink id="gregtech:gt.blockcasings2:12" showIcon="left" /> | <ItemLink id="gregtech:gt.blockcasings2:13" showIcon="left" /> | Bir adet, üçüncü katmanın merkezinde |
+| Kontrolcü | <ItemLink id="gregtech:gt.blockmachines:31084" showIcon="left" /> | Aynı kontrolcü | Bir adet, ikinci katmanın ön ortasında |
+| Buhar Kapağı | <ItemLink id="gregtech:gt.blockmachines:31040" showIcon="left" /> | Aynı kapak | Tam olarak bir adet, bir kasanın yerine |
+| Giriş Yolu | <ItemLink id="gregtech:gt.blockmachines:31046" showIcon="left" /> | Aynı veriyolu | Eşya girişleri için gerektiği kadar tak, bir kasanın yerine; Programlanmış Devre ayarını da sağlayabilir |
+| Çıkış Yolu | <ItemLink id="gregtech:gt.blockmachines:31047" showIcon="left" /> | Aynı veriyolu | Eşya çıkışları için gerektiği kadar tak, bir kasanın yerine |
+| Girdi Kapağı | Örneğin, <ItemLink id="gregtech:gt.blockmachines:51" showIcon="left" /> | Aynı kapak | Sıvı girişleri için gerektiği kadar tak, bir kasanın yerine |
+| Çıkış Kapağı | Örneğin, <ItemLink id="gregtech:gt.blockmachines:60" showIcon="left" /> | Aynı kapak | Sıvı çıkışları için gerektiği kadar tak, bir kasanın yerine |
 
-The new structure has 40 positions for casings or hatches. Installing the five interfaces listed above leaves 35 casings. For mixing only dusts, a Steam Hatch, steam Input Bus, and steam Output Bus are sufficient, leaving 37 casings. Adding buses or hatches reduces the casing count accordingly, but at least 25 actual casings must remain. Hatches and buses cannot replace Frame Boxes, Gear Box Casings, or Pipe Casings.
+Yeni yapıda kasa veya kapak için 40 konum vardır. Yukarıda listelenen beş arayüzü takmak 35 kasa bırakır. Yalnızca toz karıştırmak için bir Buhar Kapağı, buharlı Giriş Yolu ve buharlı Çıkış Yolu yeterlidir ve 37 kasa kalır. Veriyolu veya kapak eklemek kasa sayısını buna göre azaltır, ancak en az 25 gerçek kasa kalmalıdır. Kapaklar ve veriyolları Çerçeve Kutularının, Dişli Kutusu Kasalarının veya Boru Muhafazalarının yerini alamaz.
 
-The structure check requires at least one type of recipe input interface and at least one type of output interface; it does not require every item and fluid interface to be installed. For actual processing, provide interfaces for all recipe inputs and outputs. When several input fluids are required, a single ordinary Input Hatch cannot hold them all at once, so provide the corresponding number of Input Hatches.
+Yapı kontrolü en az bir tür tarif giriş arayüzü ve en az bir tür çıkış arayüzü gerektirir; her eşya ve sıvı arayüzünün takılı olmasını gerektirmez. Gerçek işleme için tüm tarif girişleri ve çıkışları için arayüz sağla. Birden çok giriş sıvısı gerektiğinde tek bir sıradan Girdi Kapağı hepsini aynı anda tutamaz, bu yüzden karşılık gelen sayıda Girdi Kapağı sağla.
 
-Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> to preview and help build the structure. Master channel tier 1 selects the basic structure, and tier 2 selects the high pressure structure. After assisted construction, install the hatches and check the structure.
+Yapıyı önizlemek ve inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger" showIcon="left" /> kullan. Ana kanal kademesi 1 temel yapıyı, kademe 2 ise yüksek basınç yapısını seçer. Yardımlı inşadan sonra kapakları tak ve yapıyı kontrol et.
 
-## Machine Uses
+## Makine Kullanımları
 
-### Recipe Map and Fluid Cells
+### Tarif Haritası ve Sıvı Hücreleri
 
-The Steam Blender uses the **Multiblock Mixer recipe map**, shown as **Multiblock Mixer** in English NEI. Singleblock Mixer recipes involving fluid cells usually become recipes that directly accept and output the corresponding fluids in this map. Item requirements, including Programmed Circuits, must still be met.
+Buhar Karıştırıcısı **Multiblok Karıştırıcı tarif haritasını** kullanır; İngilizce NEI'de **Multiblock Mixer** olarak görünür. Sıvı hücresi içeren tek bloklu Karıştırıcı tarifleri genellikle bu haritada ilgili sıvıları doğrudan alıp veren tariflere dönüşür. Programlanmış Devreler dahil eşya gereksinimleri yine de karşılanmalıdır.
 
-When checking NEI, confirm that the recipe belongs to this map, then check item quantities, fluid types and quantities, Programmed Circuit configuration, recipe tier, and all outputs.
+NEI'ye bakarken tarifin bu haritaya ait olduğunu doğrula; ardından eşya miktarlarını, sıvı türlerini ve miktarlarını, Programlanmış Devre yapılandırmasını, tarif kademesini ve tüm çıktıları kontrol et.
 
-| Use | Common recipes and considerations |
+| Kullanım | Yaygın tarifler ve dikkat edilecekler |
 | --- | --- |
-| Mixing alloy dusts | Copper Dust and Tin Dust become Bronze Dust; Copper Dust and Zinc Dust become Brass Dust. Check input ratios and circuit configuration; the product is dust, not ingots. |
-| Fireclay Dust | Mixes Brick Dust and Clay Dust for subsequent refractory material recipes |
+| Alaşım tozlarını karıştırma | Bakır Tozu ve Kalay Tozu Bronz Tozu olur; Bakır Tozu ve Çinko Tozu Pirinç Tozu olur. Giriş oranlarını ve devre yapılandırmasını kontrol et; ürün külçe değil tozdur. |
+| Ateş Kili Tozu | Sonraki refrakter malzeme tarifleri için Tuğla Tozu ve Kil Tozu karıştırır |
 
 > [!NOTE]
-> The machine is available in the Steam age, but only accepts recipes up to LV. Check the recipe's EU/t to determine whether an alloy dust, chemical mixture, or other material can be processed. The high pressure steel structure does not enable MV or higher-tier recipes.
+> Makine Buhar çağında kullanılabilir, ancak yalnızca LV'ye kadar tarifleri kabul eder. Bir alaşım tozunun, kimyasal karışımın veya başka bir malzemenin işlenip işlenemeyeceğini belirlemek için tarifin EU/t değerini kontrol et. Yüksek basınçlı çelik yapı, MV veya daha yüksek kademe tarifleri etkinleştirmez.
 
-### Programmed Circuits and Bronze Dust
+### Programlanmış Devreler ve Bronz Tozu
 
-Many Mixer recipes require a <ItemLink id="gregtech:gt.integrated_circuit:1" showIcon="left" />. Set the configuration required by NEI in the circuit slot of the steam Input Bus GUI.
+Birçok Karıştırıcı tarifi bir <ItemLink id="gregtech:gt.integrated_circuit:1" showIcon="left" /> gerektirir. NEI'nin gerektirdiği yapılandırmayı buharlı Giriş Yolu GUI'sinin devre yuvasında ayarla.
 
-The current common Bronze Dust recipe requires **three Copper Dust, one Tin Dust, and a Programmed Circuit configured to 1** per recipe, producing **four Bronze Dust**. Send Copper Dust and Tin Dust into the steam Input Bus, set the circuit configuration to 1, and collect Bronze Dust through the steam Output Bus.
+Mevcut yaygın Bronz Tozu tarifi, tarif başına **üç Bakır Tozu, bir Kalay Tozu ve 1'e ayarlanmış bir Programlanmış Devre** gerektirir ve **dört Bronz Tozu** üretir. Bakır Tozu ve Kalay Tozunu buharlı Giriş Yoluna gönder, devre yapılandırmasını 1'e ayarla ve Bronz Tozunu buharlı Çıkış Yolundan topla.
 
-At eight parallels, one cycle consumes 24 Copper Dust and eight Tin Dust and produces 32 Bronze Dust. Keep a 3:1 input ratio during continuous operation so Copper Dust does not fill every slot and prevent Tin Dust from entering.
+Sekiz paralelde bir döngü 24 Bakır Tozu ve sekiz Kalay Tozu tüketir ve 32 Bronz Tozu üretir. Sürekli çalışma sırasında 3:1 giriş oranını koru; böylece Bakır Tozu tüm yuvaları doldurup Kalay Tozunun girmesini engellemez.
 
-Arrange subsequent smelting for Bronze Dust using NEI. Other alloy dusts may require an Electric Blast Furnace or other machines.
+Bronz Tozu için sonraki eritme düzenini NEI kullanarak ayarla. Diğer alaşım tozları Elektrikli Yüksek Fırın veya başka makineler gerektirebilir.
 
-### First Startup
+### İlk Çalıştırma
 
-1. Check the structure and confirm that the Steam Hatch and required item and fluid interfaces are installed.
-2. Connect the steam pipe to the Steam Hatch, and supply each recipe fluid to its ordinary Input Hatch.
-3. Check the recipe without fluid cells, all input quantities, Programmed Circuit configuration, and recipe tier in NEI.
-4. Set the circuit, leave space for all item and fluid outputs, then start with a small amount of material.
-5. Observe the steam buffer, input ratios, and outputs. Increase parallels after confirming continuous input supply and output collection.
+1. Yapıyı kontrol et ve Buhar Kapağı ile gerekli eşya ve sıvı arayüzlerinin takılı olduğunu doğrula.
+2. Buhar borusunu Buhar Kapağına bağla ve her tarif sıvısını kendi sıradan Girdi Kapağına besle.
+3. NEI'de sıvı hücresi içermeyen tarifi, tüm giriş miktarlarını, Programlanmış Devre yapılandırmasını ve tarif kademesini kontrol et.
+4. Devreyi ayarla, tüm eşya ve sıvı çıkışları için yer bırak, sonra az miktarda malzemeyle başla.
+5. Buhar tamponunu, giriş oranlarını ve çıktıları gözlemle. Sürekli giriş beslemesini ve çıktı toplamayı doğruladıktan sonra paralelleri artır.
 
-## Steam Supply and Throughput
+## Buhar Beslemesi ve Verim
 
-The Steam Blender can process up to eight copies of **the same recipe** at once. This does not mean it can run eight different recipes in one cycle, or that a cycle only consumes eight items. Actual parallels also depend on input ratios, item and fluid quantities, output space, and the parallel limit set in the GUI.
+Buhar Karıştırıcısı aynı anda **aynı tarifin** en fazla sekiz kopyasını işleyebilir. Bu, bir döngüde sekiz farklı tarif çalıştırabileceği veya bir döngünün yalnızca sekiz eşya tükettiği anlamına gelmez. Gerçek paraleller ayrıca giriş oranlarına, eşya ve sıvı miktarlarına, çıkış alanına ve GUI'de ayarlanan paralel sınırına bağlıdır.
 
-The basic structure takes approximately 1.6× the recipe duration shown in NEI, while the high pressure structure takes approximately 0.8×. For example, the Bronze Dust recipe shown as two seconds takes roughly 3.2 seconds in the basic structure or 1.6 seconds in the high pressure structure. Parallels increase the number of recipes processed in a cycle without dividing the cycle's duration by the parallel count.
+Temel yapı, NEI'de gösterilen tarif süresinin yaklaşık 1,6 katını alırken yüksek basınç yapısı yaklaşık 0,8 katını alır. Örneğin iki saniye olarak gösterilen Bronz Tozu tarifi temel yapıda yaklaşık 3,2 saniye, yüksek basınç yapısında 1,6 saniye sürer. Paraleller bir döngüde işlenen tarif sayısını artırır, ancak döngünün süresini paralel sayısına bölmez.
 
-| Property | Basic structure | High pressure structure |
+| Özellik | Temel yapı | Yüksek basınç yapısı |
 | --- | --- | --- |
-| Accepted recipe tiers | LV and below | LV and below |
-| Maximum parallels | 8 | 8 |
-| Processing duration relative to NEI | Approximately 1.6× | Approximately 0.8× |
-| Steam consumption rate for the same recipe and parallel count | 1× | 2× |
-| Total steam consumption per recipe | Baseline | Approximately the same as the basic structure |
-| Inputs and outputs per recipe | As specified by the NEI recipe | Same as the basic structure |
+| Kabul edilen tarif kademeleri | LV ve altı | LV ve altı |
+| Maksimum paralel | 8 | 8 |
+| NEI'ye göre işlem süresi | Yaklaşık 1,6× | Yaklaşık 0,8× |
+| Aynı tarif ve paralel sayısı için buhar tüketim oranı | 1× | 2× |
+| Tarif başına toplam buhar tüketimi | Temel | Temel yapıyla yaklaşık aynı |
+| Tarif başına girişler ve çıkışlar | NEI tarifinde belirtildiği gibi | Temel yapıyla aynı |
 
-The high pressure upgrade increases speed and steam consumption rate together. It mainly improves throughput, with approximately the same total steam cost per recipe as the basic structure. Actual duration and steam consumption are also affected by tick and integer rounding. During continuous production, item and recipe fluid transfer rates must increase along with processing speed.
+Yüksek basınç yükseltmesi hızı ve buhar tüketim oranını birlikte artırır. Esas olarak verimi iyileştirir; tarif başına toplam buhar maliyeti ise temel yapıyla yaklaşık aynıdır. Gerçek süre ve buhar tüketimi tick ve tam sayı yuvarlamasından da etkilenir. Sürekli üretim sırasında eşya ve tarif sıvısı aktarım hızları işlem hızıyla birlikte artmalıdır.
 
-The Steam Hatch buffers 64,000 L of steam, but this only covers temporary shortfalls and cannot replace continuous boiler production. Size boilers and pipes for the **steam consumption rate while processing**, and use separate lines for recipe fluids.
+Buhar Kapağı 64.000 L buhar depolar, ancak bu yalnızca geçici eksikleri kapatır ve sürekli kazan üretiminin yerini alamaz. Kazanları ve boruları **işleme sırasındaki buhar tüketim oranına** göre boyutlandır ve tarif sıvıları için ayrı hatlar kullan.
 
-Use Waila to check the operating steam consumption rate and watch whether the buffer keeps falling during continuous processing. If a value is shown in L/t, multiply by 20 to get L/s at the normal 20 TPS. Use matching units when comparing pipe throughput. If steam supply is insufficient, lower the parallel limit in the GUI, then increase boiler production or improve the piping.
+Çalışma sırasındaki buhar tüketim oranını kontrol etmek ve sürekli işleme sırasında tamponun azalmaya devam edip etmediğini izlemek için Waila kullan. Bir değer L/t olarak gösteriliyorsa normal 20 TPS'de L/s elde etmek için 20 ile çarp. Boru verimini karşılaştırırken aynı birimleri kullan. Buhar beslemesi yetersizse GUI'deki paralel sınırını düşür, ardından kazan üretimini artır veya boru tesisatını iyileştir.
 
 > [!WARNING]
-> Running out of steam during processing aborts the current operation, and items and recipe fluids already consumed are not returned. Check steam production and pipe throughput before upgrading to high pressure or increasing the parallel limit.
+> İşleme sırasında buharın bitmesi mevcut işlemi iptal eder ve hâlihazırda tüketilen eşyalar ile tarif sıvıları geri verilmez. Yüksek basınca yükseltmeden veya paralel sınırını artırmadan önce buhar üretimini ve boru verimini kontrol et.
 
-## Upgrading to High Pressure
+## Yüksek Basınca Yükseltme
 
 <GameScene interactive={true} wrap="square" align="right" width="320" height="280">
   <ImportStructureLib controller="gregtech:gt.blockmachines:31084" tier={2} />
 </GameScene>
 
-The high pressure structure keeps the same dimensions, hatch positions, and controller. Replace **all** Bronze Plated Bricks, Bronze Frame Boxes, Bronze Gear Box Casings, and Bronze Pipe Casings with the Solid Steel Machine Casings, Steel Frame Boxes, Steel Gear Box Casings, and Steel Pipe Casings listed in the table.
+Yüksek basınç yapısı aynı boyutları, kapak konumlarını ve kontrolcüyü korur. Tabloda listelenen Sağlam Çelik Makine Kasaları, Çelik Çerçeve Kutuları, Çelik Dişli Kutusu Kasaları ve Çelik Boru Muhafazalarıyla Bronz Kaplamalı Tuğlaların, Bronz Çerçeve Kutularının, Bronz Dişli Kutusu Kasalarının ve Bronz Boru Muhafazalarının **tümünü** değiştir.
 
-Stop processing and material input before upgrading. After replacing the components, check the structure again and confirm the machine displays the high pressure tier before restoring steam, inputs, and production.
+Yükseltmeden önce işlemeyi ve malzeme girişini durdur. Bileşenleri değiştirdikten sonra yapıyı yeniden kontrol et ve buharı, girişleri ve üretimi geri yüklemeden önce makinenin yüksek basınç kademesini gösterdiğini doğrula.
 
-High pressure is the machine's structure tier. It still uses ordinary steam, and the existing Steam Hatch, steam buses, and ordinary Input and Output Hatches can be reused. The upgrade doubles speed and steam consumption rate, but the maximum remains eight parallels, and MV or higher-tier recipes remain unavailable.
+Yüksek basınç, makinenin yapı kademesidir. Yine sıradan buhar kullanır ve mevcut Buhar Kapağı, buharlı veriyolları ile sıradan Giriş ve Çıkış Kapakları yeniden kullanılabilir. Yükseltme hızı ve buhar tüketim oranını ikiye katlar, ancak maksimum sekiz paralel olarak kalır ve MV veya daha yüksek kademe tarifler kullanılamaz.
 
-## Automation and Output Routing
+## Otomasyon ve Çıktı Yönlendirme
 
-Steam Input and Output Buses each have four item slots, and the Input Bus has an additional circuit slot. They do not automatically pull from adjacent chests or push products into them; placing a chest next to a bus is not enough for automation.
+Buharlı Giriş ve Çıkış Yollarının her birinde dört eşya yuvası vardır ve Giriş Yolunda ek bir devre yuvası bulunur. Bitişik sandıklardan otomatik olarak eşya çekmez veya ürünleri onlara itmezler; otomasyon için bir veriyolunun yanına sandık koymak yeterli değildir.
 
-- **Item input:** Use hoppers, GT item pipes, conveyors, or item conduits to send materials into the front face of the Input Bus. Supply the correct recipe ratios and reserve slots for each dust type.
-- **Item output:** Actively extract from the front face of the Output Bus with pipes, conduits, or conveyors, then route products to material storage or the next processing machine.
-- **Fluid input:** Use separate lines and Input Hatches for each fluid type, checking filters, fluid locks, and quantities. Connect the steam supply line to the Steam Hatch.
-- **Fluid output:** Extract products from the Output Hatch, or place a tank against its front face for automatic output.
-- **Programmed Circuit:** Keep the required configuration when producing one material. Before changing recipes, stop input and wait for the current operation to finish, then handle remaining items and fluids and adjust the circuit.
-- **Hatch colors:** Leave hatches unpainted during initial construction if desired. After painting them, make sure the items, fluids, and circuit required by one recipe can still be read as part of the same input group.
+- **Eşya girişi:** Malzemeleri Giriş Yolunun ön yüzüne göndermek için huniler, GT eşya boruları, konveyörler veya eşya kanalları kullan. Doğru tarif oranlarını sağla ve her toz türü için yuva ayır.
+- **Eşya çıkışı:** Çıkış Yolunun ön yüzünden borular, kanallar veya konveyörlerle etkin şekilde çek, sonra ürünleri malzeme deposuna veya bir sonraki işleme makinesine yönlendir.
+- **Sıvı girişi:** Her sıvı türü için ayrı hatlar ve Girdi Kapakları kullan; filtreleri, sıvı kilitlerini ve miktarları kontrol et. Buhar besleme hattını Buhar Kapağına bağla.
+- **Sıvı çıkışı:** Ürünleri Çıkış Kapağından çek veya otomatik çıkış için ön yüzüne bir tank yerleştir.
+- **Programlanmış Devre:** Bir malzeme üretirken gerekli yapılandırmayı koru. Tarifleri değiştirmeden önce girişi durdur ve mevcut işlemin bitmesini bekle, sonra kalan eşya ve sıvıları işle ve devreyi ayarla.
+- **Kapak renkleri:** İlk inşa sırasında istersen kapakları boyasız bırak. Boyadıktan sonra bir tarifin gerektirdiği eşyaların, sıvıların ve devrenin hâlâ aynı giriş grubunun parçası olarak okunabildiğinden emin ol.
 
-If a recipe requires more item types than one bus can hold, add steam Input Buses. Multiple fluids or large quantities per cycle may also require additional hatches. Keep at least 25 actual casings when adding interfaces, and do not install a second Steam Hatch.
+Bir tarif tek bir veriyolunun tutabileceğinden daha fazla eşya türü gerektiriyorsa buharlı Giriş Yolları ekle. Döngü başına birden çok sıvı veya büyük miktarlar da ek kapak gerektirebilir. Arayüz eklerken en az 25 gerçek kasa bırak ve ikinci bir Buhar Kapağı takma.
 
 > [!WARNING]
-> To collect all products, set the GUI's voiding mode to "Do Not Void" and provide space for every item and fluid output. If fluid voiding is enabled, Salt Water, Aqua Regia, and other products may be discarded when an Output Hatch is missing or blocked.
+> Tüm ürünleri toplamak için GUI'nin boşaltma modunu "Do Not Void" olarak ayarla ve her eşya ve sıvı çıkışı için yer sağla. Sıvı boşaltma etkinse, bir Çıkış Kapağı eksik veya tıkalı olduğunda Tuzlu Su, Kral Suyu ve diğer ürünler atılabilir.
 
-## Troubleshooting
+## Sorun Giderme
 
-| Symptom | What to check |
+| Belirti | Neye bakmalı |
 | --- | --- |
-| Incomplete structure | Is the footprint 5×5 and the height four blocks? Is the controller at the front center of the second layer? Are Frame Boxes, Gear Box Casings, and Pipe Casings positioned as shown in the hologram? |
-| Structure tier mismatch | Are the casings, Frame Boxes, Gear Box Casings, and Pipe Casings all of the same tier? Were only some bronze components replaced? |
-| Missing input or output interface | Is at least one type of recipe input and one type of output installed? Are both the item buses and fluid hatches required by the recipe present? |
-| Missing Steam Hatch or unable to install steam buses | Is there exactly one Steam Hatch? Were ordinary electric machine item buses used by mistake? |
-| Structure fails after adding hatches | Are at least 25 actual casings left? Were any Frame Boxes, Gear Box Casings, or Pipe Casings replaced with hatches? |
-| Dusts present but no recipe found | Do input forms, types, and ratios match NEI? Are quantities sufficient and the circuit configuration correct? Was a mixing recipe for another machine checked by mistake? |
-| Filled fluid cells do not process | Was a singleblock recipe checked? Confirm direct fluid inputs in the recipe map without cells, then supply ordinary Input Hatches. |
-| Both acids present but Aqua Regia does not process | Is the required circuit configuration set? Are the two fluids in separate ordinary Input Hatches? Is output space available? Have hatch colors separated the inputs? |
-| Alloy dust appears instead of ingots | This is the normal output of a dust mixing recipe. Arrange subsequent smelting using NEI. |
-| Recipe tier too high | Does the recipe shown in NEI exceed LV? The high pressure structure also cannot process MV or higher-tier recipes. |
-| Only low parallels | Is there enough of every item and fluid input? Do hatch capacity or output space limit the amount per cycle? Is the GUI parallel limit set too low? |
-| Item outputs appear but fluids are missing | Is an ordinary Output Hatch installed? Is it locked to the wrong fluid? Is fluid voiding enabled? Have pipes already extracted the product? |
-| Insufficient output space | Is there room for all item and fluid outputs? Are Output Buses or Output Hatches blocked? Are extraction and filter settings correct? |
-| Machine stops despite steam in the hatch | Can the continuous supply keep up? Are pipes restricted or sharing steam with other machines? Do the current parallel count and high pressure tier exceed boiler capacity? |
-| Chest next to a bus does not transfer items | Steam buses do not automatically pull or push items. Check the active transfer equipment, connection face, direction, and filters. |
+| Eksik yapı | Taban alanı 5×5 ve yükseklik dört blok mu? Kontrolcü ikinci katmanın ön ortasında mı? Çerçeve Kutuları, Dişli Kutusu Kasaları ve Boru Muhafazaları hologramda gösterildiği gibi mi yerleştirilmiş? |
+| Yapı kademesi uyuşmazlığı | Kasalar, Çerçeve Kutuları, Dişli Kutusu Kasaları ve Boru Muhafazaları aynı kademeden mi? Bronz bileşenlerin yalnızca bir kısmı mı değiştirildi? |
+| Giriş veya çıkış arayüzü eksik | En az bir tür tarif girişi ve bir tür çıkış takılı mı? Tarifin gerektirdiği hem eşya veriyolları hem de sıvı kapakları mevcut mu? |
+| Buhar Kapağı eksik veya buharlı veriyolları takılamıyor | Tam olarak bir Buhar Kapağı var mı? Yanlışlıkla sıradan elektrikli makine eşya veriyolları mı kullanıldı? |
+| Kapak ekledikten sonra yapı başarısız | En az 25 gerçek kasa kaldı mı? Herhangi bir Çerçeve Kutusu, Dişli Kutusu Kasası veya Boru Muhafazası kapakla mı değiştirildi? |
+| Tozlar var ama tarif bulunamıyor | Giriş biçimleri, türleri ve oranları NEI ile eşleşiyor mu? Miktarlar yeterli ve devre yapılandırması doğru mu? Yanlışlıkla başka bir makinenin karıştırma tarifine mi bakıldı? |
+| Dolu sıvı hücreleri işlenmiyor | Tek bloklu bir tarife mi bakıldı? Tarif haritasında hücresiz doğrudan sıvı girişlerini doğrula, sonra sıradan Girdi Kapakları sağla. |
+| İki asit de var ama Kral Suyu işlenmiyor | Gerekli devre yapılandırması ayarlı mı? İki sıvı ayrı sıradan Girdi Kapaklarında mı? Çıkış alanı mevcut mu? Kapak renkleri girişleri ayırdı mı? |
+| Külçe yerine alaşım tozu çıkıyor | Bu, toz karıştırma tarifinin normal çıktısıdır. Sonraki eritme düzenini NEI ile ayarla. |
+| Tarif kademesi çok yüksek | NEI'de gösterilen tarif LV'yi aşıyor mu? Yüksek basınç yapısı da MV veya daha yüksek kademe tarifleri işleyemez. |
+| Yalnızca düşük paraleller | Her eşya ve sıvı girişinden yeterince var mı? Kapak kapasitesi veya çıkış alanı döngü başına miktarı sınırlıyor mu? GUI paralel sınırı çok düşük mü ayarlanmış? |
+| Eşya çıkışları var ama sıvılar eksik | Sıradan bir Çıkış Kapağı takılı mı? Yanlış sıvıya mı kilitli? Sıvı boşaltma etkin mi? Borular ürünü zaten çekmiş olabilir mi? |
+| Yetersiz çıkış alanı | Tüm eşya ve sıvı çıkışları için yer var mı? Çıkış Yolları veya Çıkış Kapakları tıkalı mı? Çekme ve filtre ayarları doğru mu? |
+| Kapakta buhar olmasına rağmen makine duruyor | Sürekli besleme yetişebiliyor mu? Borular kısıtlı mı veya buharı başka makinelerle mi paylaşıyor? Mevcut paralel sayısı ve yüksek basınç kademesi kazan kapasitesini aşıyor mu? |
+| Veriyolunun yanındaki sandık eşya aktarmıyor | Buharlı veriyolları eşyaları otomatik olarak çekmez veya itmez. Etkin aktarım ekipmanını, bağlantı yüzünü, yönü ve filtreleri kontrol et. |
 
-For general structure checks and tool use, see [Multiblock Machines](./multiblocks_index.md).
+Genel yapı kontrolleri ve araç kullanımı için [Multiblok Makineler](./multiblocks_index.md) sayfasına bak.
 
-## Related Pages
+## İlgili Sayfalar
 
-- [GTNH Chinese Wiki: Steam Blender](https://gtnh.huijiwiki.com/wiki/大型蒸汽搅拌机)
+- [GTNH Çince Wiki: Buhar Karıştırıcısı](https://gtnh.huijiwiki.com/wiki/大型蒸汽搅拌机)

@@ -1,25 +1,25 @@
 ---
 navigation:
-  title: Balance Changes
+  title: Denge Değişiklikleri
   parent: misc.md
   icon: Thaumcraft:ItemShard:6
 categories:
-    - Miscellaneous Changes
+    - Çeşitli Değişiklikler
 author: Skorched
 date: 2026-05-30
 ---
 
-# Balance Changes
-As with any major update, a lot of attention has been paid across the board to try and make the pack fun, and option-heavy. This often entails a lot of balance changes to try and make weaker options more viable, and "over-powered" options less of a limelight
+# Denge Değişiklikleri
+Her büyük güncellemede olduğu gibi, paketi eğlenceli ve seçenek açısından zengin kılmak için genel olarak büyük bir özen gösterildi. Bu da çoğu zaman daha zayıf seçenekleri daha kullanılabilir, "aşırı güçlü" seçenekleri ise daha az göz önünde hale getirmek için birçok denge değişikliğini beraberinde getiriyor.
 > [!NOTE]
-> The full list of balance changes is far too long and subjective to be displayed here, so this will not include changes like multiblock costs (at least in structure), or the addition of new routes which directly add balancing changes (such as [CropsNH](../crops/crops.md)). Due to the sheer number of balance changes, the only feasible way of knowing EVERY change is to go through the github changelog one by one. As such, the following list is just a cherry-picked selection of some of the bigger changes that come with 2.9
+> Denge değişikliklerinin tam listesi burada gösterilemeyecek kadar uzun ve öznel, bu yüzden bu liste Multiblok maliyetleri (en azından yapı açısından) ya da doğrudan denge değişiklikleri ekleyen yeni rotaların eklenmesi (örneğin [CropsNH](../crops/crops.md)) gibi değişiklikleri içermeyecek. Denge değişikliklerinin sayısı çok fazla olduğundan HER değişikliği bilmenin tek uygulanabilir yolu github değişiklik günlüğünü tek tek gözden geçirmektir. Bu nedenle aşağıdaki liste, 2.9 ile gelen daha büyük değişikliklerden özenle seçilmiş bir derlemeden ibarettir.
 
-- Mega Distillation Tower (HV -> LuV), Mega Oil Cracker (HV -> LuV), Mega EBF (Now Exothermic Hearth) (HV -> ZPM), Mega Vacuum Freezer (Now Endothermic Fridge) (HV -> ZPM)
-- Hypogen (UIV -> UEV), Eye Of Harmony Processing now UXV voltage
-- Titanium based Titaniumtetrachloride recipe (10s HV -> 60s EV)
-- Variety of [Structure Reworks](../reworks/reworks.md) that add various balance changes
-- Cryotheum uses lapis dust instead of redstone
-- New recipes for Railcraft Water Siding Tank
-- MV Field Generator now takes titanium instead of Tungstensteel
-- Basic SMD recipes now require HV Assembler instead of MV
+- Mega Damıtma Kulesi (HV -> LuV), Mega Petrol Çatlatıcısı (HV -> LuV), Mega EYF (Artık Ekzotermik Ocak) (HV -> ZPM), Mega Vakum Dondurucu (Artık Endotermik Buzdolabı) (HV -> ZPM)
+- Hipojen (UIV -> UEV), Eye Of Harmony işleme artık UXV gerilimi
+- Titanyum bazlı Titanyum tetraklorür tarifi (10s HV -> 60s EV)
+- Çeşitli denge değişiklikleri ekleyen bir dizi [Yapı Yenilemesi](../reworks/reworks.md)
+- Kriyotheum kızıltaş yerine Lapis tozu kullanıyor
+- Railcraft Su Yan Hat Tankı için yeni tarifler
+- MV Alan Jeneratörü artık Tungsten Çeliği yerine Titanyum gerektiriyor
+- Basit SMD tarifleri artık MV yerine HV Montajcı gerektiriyor
 

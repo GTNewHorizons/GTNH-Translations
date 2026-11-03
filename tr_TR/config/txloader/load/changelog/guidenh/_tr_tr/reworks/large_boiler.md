@@ -5,67 +5,67 @@ item_ids:
   - gregtech:gt.blockmachines:15531
   - gregtech:gt.blockmachines:15532
 navigation:
-  title: Large Boiler
+  title: Büyük Kazan
   parent: reworks.md
   icon: gregtech:gt.blockmachines:15529
 categories:
-    - Structure Reworks
+    - Yapı Yenilemeleri
 author: Skorched
 date: 2026-05-27
 ---
 
-# Large Boiler
+# Büyük Kazan
 
 <GameScene wrap="square" align="right">
   <ImportStructureLib controller="gregtech:gt.blockmachines:15529"/>
 </GameScene>
-The <Color id="GREEN">Large Boiler</Color> is an MV tier multiblock for burning combustible fuels to evaporate water into steam or superheated steam. There are four tiers of the Large Boiler to further improve its efficiency and throughput as better materials are unlocked. Higher density fuels not only burn for longer, but they also receive bonus ticks proportional to their total burn time. The boilers can accept both solid and fluid fuels, giving a 25% output boost. The <Color id="GREEN">Large Boiler</Color> ultimately supersedes the Railcraft Boiler <ItemImage id="Railcraft:machine.beta:5"/>, but the bronze version has slightly less maximum throughput. 
+<Color id="GREEN">Büyük Kazan</Color>, yanıcı yakıtları yakarak suyu buhara veya aşırı ısıtılmış buhara dönüştüren MV kademesinde bir Multibloktur. Daha iyi materyaller açıldıkça verimliliğini ve işlem hacmini daha da artıran dört Büyük Kazan kademesi vardır. Yüksek yoğunluklu yakıtlar yalnızca daha uzun süre yanmakla kalmaz, aynı zamanda toplam yanma süreleriyle orantılı bonus tik alırlar. Kazanlar hem katı hem de sıvı yakıt kabul edebilir, bu da %25 çıktı artışı sağlar. <Color id="GREEN">Büyük Kazan</Color> sonunda Railcraft Kazanının <ItemImage id="Railcraft:machine.beta:5"/> yerini alır, ancak bronz versiyonunun maksimum işlem hacmi biraz daha düşüktür. 
 
 [GTNH Power Planner](https://docs.google.com/spreadsheets/d/1KDitUw4xMIhlRBaEzPe62n_0hlhH37H9E1voBPCXKN4/edit)
 <br clear="all"/>
 
 > [!NOTE]
-> The changes from the previous boilers are as follows (apart from new structure):
-> - Base output increased by 20%
-> - Removed the 25% burn time nerf on diesel fuels
-> - Can consume solid and fluid at the same time for a 25% boost
-> - Added high density diesel fuels to acceptable fuels
-> - Changed the bonus formula to $$\log(\text{Burn Time} \div 16,000) \times 0.025$$
-> - Boilers now lose efficiency at 0.2% per second when turned off
+> Önceki kazanlara göre değişiklikler şunlardır (yeni yapı dışında):
+> - Temel çıktı %20 arttırıldı
+> - Dizel yakıtlardaki %25 yanma süresi cezası kaldırıldı
+> - %25 artış için aynı anda katı ve sıvı tüketilebilir
+> - Kabul edilen yakıtlara yüksek yoğunluklu dizel yakıtlar eklendi
+> - Bonus formülü $$\log(\text{Burn Time} \div 16,000) \times 0.025$$ olarak değiştirildi
+> - Kazanlar artık kapatıldığında saniyede %0.2 verim kaybediyor
 
-## Construction
-The <Color id="GREEN">Large Boiler</Color> is available in four tiers but the only structural difference between them is the type of casings and the controller itself. The input and output hatch are limited to the pipe casings anywhere on the structure while the remaining buses/hatches are limited to the regular casings anywhere on the structure. There is no energy hatch because it does not consume power. Use the <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> to visualize/build the structure.
+## Yapım
+<Color id="GREEN">Büyük Kazan</Color> dört kademede mevcuttur ancak aralarındaki tek yapısal fark kasa tipleri ve kontrolcünün kendisidir. Girdi ve çıkış kapakları yapının herhangi bir yerindeki boru muhafazalarıyla sınırlıyken kalan yollar/kapaklar yapının herhangi bir yerindeki normal kasalarla sınırlıdır. Güç tüketmediği için enerji kapağı yoktur. Yapıyı görselleştirmek/inşa etmek için <ItemLink id="structurelib:item.structurelib.constructableTrigger"/><ItemImage id="structurelib:item.structurelib.constructableTrigger"/> kullan.
 
-Assuming plates are made in a bending machine and rods are made with a file, a Large Bronze Boiler <ItemImage id="gregtech:gt.blockmachines:15529"/> requires 382 bronze ingots and 33 brick blocks to build, but replacing the last two pipe casings with ULV input hatches drops the total down to 342 bronze ingots. A Large Steel Boiler <ItemImage id="gregtech:gt.blockmachines:15530"/> requires 362 steel ingots to build if rods are made in an extruder and the last two pipe casings are replaced with ULV input hatches. 
+Plakaların bir bükme makinesinde ve çubukların bir eğeyle yapıldığını varsayarsak, bir Büyük Bronz Kazan <ItemImage id="gregtech:gt.blockmachines:15529"/> inşa etmek için 382 bronz külçe ve 33 Tuğla Blokları gerekir, ancak son iki boru muhafazasını ULV girdi kapaklarıyla değiştirmek toplamı 342 bronz külçeye düşürür. Bir Büyük Çelik Kazan <ItemImage id="gregtech:gt.blockmachines:15530"/>, çubuklar bir ekstrüderde yapılırsa ve son iki boru muhafazası ULV girdi kapaklarıyla değiştirilirse, inşa etmek için 362 çelik külçe gerektirir. 
 
-### Requires:
-- 1 Large Boiler (Tiered controller) <ItemImage id="gregtech:gt.blockmachines:15529"/>
-- 24-36 Machine Casing (Tiered) <ItemImage id="gregtech:gt.blockcasings:10"/>
-- 3-11 Firebox Casing (Tiered) <ItemImage id="gregtech:gt.blockcasings3:13"/>
-- 0-2 Pipe Casing (Tiered) <ItemImage id="gregtech:gt.blockcasings2:12"/>
-- 1 Maintenance Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:90" />
-- 1 Muffler Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:91" />
-- 1+ Input Bus (any casing) <ItemImage id="gregtech:gt.blockmachines:70" />
-- 0+ Input Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:50" />
-- 0+ Output Hatch (any casing) <ItemImage id="gregtech:gt.blockmachines:60" />
+### Gereksinimler:
+- 1 Büyük Kazan (Kademeli kontrolcü) <ItemImage id="gregtech:gt.blockmachines:15529"/>
+- 24-36 Makine Gövdesi (Kademeli) <ItemImage id="gregtech:gt.blockcasings:10"/>
+- 3-11 Külhan Kasası (Kademeli) <ItemImage id="gregtech:gt.blockcasings3:13"/>
+- 0-2 Boru Muhafazası (Kademeli) <ItemImage id="gregtech:gt.blockcasings2:12"/>
+- 1 Bakım Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:90" />
+- 1 Egzoz Çıkışı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:91" />
+- 1+ Giriş Yolu (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:70" />
+- 0+ Girdi Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:50" />
+- 0+ Çıkış Kapağı (herhangi bir kasa) <ItemImage id="gregtech:gt.blockmachines:60" />
 
-### Wallsharing
-<Color id="GREEN">Large Boilers</Color> may wallshare each of their sides to save on casings and buses/hatches. That includes the input bus/hatch for fuel and water as well as the output hatch for steam if it is large enough to hold the combined output of all shared machines. 
+### Duvar Paylaşımı
+<Color id="GREEN">Büyük Kazanlar</Color> kasa ve yol/kapak tasarrufu sağlamak için her bir kenarını duvar paylaşımıyla kullanabilir. Buna yakıt ve su için girdi yolu/kapağı ile tüm paylaşılan makinelerin birleşik çıktısını tutacak kadar büyükse buhar için çıkış kapağı da dahildir. 
 
-## Usage
-The <Color id="GREEN">Large Boiler</Color> burns combustible fuels to evaporate water into steam or superheated (SH) steam. Higher density fuels naturally burn for longer, but they also receive bonus ticks proportional to their total burn time. Solid fuels with less than 400 burn time are not allowed in the Large Bronze Boiler and solid fuels with less than 1,000 burn time are not allowed in the Large Steel Boiler. Solid super fuel and magic solid super fuel are the only allowed fuels in the Large Titanium Boiler or Large Tungstensteel Boiler.
+## Kullanım
+<Color id="GREEN">Büyük Kazan</Color>, suyu buhara veya aşırı ısıtılmış (SH) buhara dönüştürmek için yanıcı yakıtları yakar. Yüksek yoğunluklu yakıtlar doğal olarak daha uzun süre yanar ancak toplam yanma süreleriyle orantılı bonus tik de alırlar. Yanma süresi 400'ün altında olan katı yakıtlar Büyük Bronz Kazanda, yanma süresi 1,000'in altında olan katı yakıtlar ise Büyük Çelik Kazanda kabul edilmez. Katı süper yakıt ve büyülü katı süper yakıt, Büyük Titanyum Kazan veya Büyük Tungsten Çeliği Kazanda izin verilen tek yakıtlardır.
 
-<Color id="GREEN">Large Boilers</Color> lose efficiency at a rate of 0.2% per second when not running, so aiming for high uptime is ideal. Long burn time fuels are given a boost based on the following formula:
+<Color id="GREEN">Büyük Kazanlar</Color> çalışmadıkları zaman saniyede %0.2 oranında verim kaybeder, bu yüzden yüksek çalışma süresini hedeflemek idealdir. Uzun yanma süreli yakıtlara aşağıdaki formüle göre bonus verilir:
 
 <Latex formula="\text{Time Bonus} = \log (\text{Burn Time} \div 16,000) \times 0.025"/>
 
-The rate that water is consumed and the rate at which steam is produced are fixed based on the tier of the machine. However, the Large Bronze Boiler <ItemImage id="gregtech:gt.blockmachines:15529"/> and Large Steel Boiler <ItemImage id="gregtech:gt.blockmachines:15530"/> produce regular steam while the Large Titanium Boiler <ItemImage id="gregtech:gt.blockmachines:15531"/> and Large Tungstensteel Boiler <ItemImage id="gregtech:gt.blockmachines:15532"/> produce superheated (SH) steam. Distilled water may be used in place of regular water if looping the output of the [Large Steam Turbine](large_steam_turbine.md)<ItemImage id="gregtech:gt.blockmachines:15524"/> back into the Large Boiler. Maintenance issues reduce the amount of steam produced by 10% each.
+Suyun tüketilme hızı ve buharın üretilme hızı makinenin kademesine göre sabittir. Ancak Büyük Bronz Kazan <ItemImage id="gregtech:gt.blockmachines:15529"/> ve Büyük Çelik Kazan <ItemImage id="gregtech:gt.blockmachines:15530"/> normal buhar üretirken Büyük Titanyum Kazan <ItemImage id="gregtech:gt.blockmachines:15531"/> ve Büyük Tungsten Çeliği Kazan <ItemImage id="gregtech:gt.blockmachines:15532"/> aşırı ısıtılmış (SH) buhar üretir. [Büyük Buhar Türbini](large_steam_turbine.md)<ItemImage id="gregtech:gt.blockmachines:15524"/> çıktısını Büyük Kazana geri döndürüyorsan normal su yerine damıtılmış su kullanılabilir. Bakım sorunlarının her biri üretilen buhar miktarını %10 azaltır.
 
-Optionally, a programmed circuit can be placed inside the controller to reduce the total steam output by 1,000 L/s per value. For example, a programmed circuit of 3 reduces the steam output by 3,000 L/s. This is rarely ever useful since more steam always produces more power in the LST, even if above the optimal flow rate of the turbine. 
+İsteğe bağlı olarak, toplam buhar çıktısını her değer için 1,000 L/s azaltmak üzere kontrolcünün içine programlanmış bir devre yerleştirilebilir. Örneğin, 3 değerinde bir programlanmış devre buhar çıktısını 3,000 L/s azaltır. Türbinin optimal akış hızının üzerinde olsa bile LST'de daha fazla buhar her zaman daha fazla güç ürettiği için bu nadiren işe yarar. 
 
-| Large Boiler | Tier | Water | Steam |
+| Büyük Kazan | Kademe | Su | Buhar |
 | --------------- | --------------- | --------------- | --------------- |
-| Bronze | MV | 5.00 L/t | 800 L/t |
-| Steel | HV | 12.50 L/t | 2,000 L/t |
-| Titanium | EV | 16.67 L/t | 2,666 L/t (SH) |
-| Tungstensteel | IV | 66.67 L/t | 10,666 L/t (SH) |
+| Bronz | MV | 5.00 L/t | 800 L/t |
+| Çelik | HV | 12.50 L/t | 2,000 L/t |
+| Titanyum | EV | 16.67 L/t | 2,666 L/t (SH) |
+| Tungsten Çeliği | IV | 66.67 L/t | 10,666 L/t (SH) |

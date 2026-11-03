@@ -1,2 +1,2 @@
-Use a screwdriver to adjust the fitting of the turbine
-Loose fit increases flow in exchange for efficiency
+Tornavida kullanarak Türbinin oturmasını ayarla
+Gevşek oturma, verimlilik karşılığında akışı artırır
