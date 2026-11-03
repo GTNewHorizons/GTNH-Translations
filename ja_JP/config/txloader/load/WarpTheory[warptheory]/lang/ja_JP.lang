@@ -12,9 +12,7 @@ chat.warptheory.minorwarp=反応はない
 chat.warptheory.averagewarp=紙が病的な色へと変わった
 chat.warptheory.majorwarp=紙が崩れて粉々になった
 chat.warptheory.deadlywarp=紙に火がついた
-chat.warptheory.permanentwarp=永続的な歪み
-chat.warptheory.normalwarp=通常の歪み
-chat.warptheory.tempwarp=一時的な歪み
+chat.warptheory.warpcounts=(%s Permanent Warp, %s Normal Warp, %s Temporary Warp)
 chat.warptheory.potionwarning.1=§c§l§n警告§r§c: このポーションを飲むと、§nすべての歪み、研究、調査したアイテム、発見した相§r§cがリセットされます！
 chat.warptheory.potionwarning.2=§c本当にすべてをリセットしたい場合、このポーションを§n10秒間§r§c飲み続けてください。
 
@@ -141,6 +139,15 @@ chat.warptheory.pumpkin=不気味な感じがした...
 chat.warptheory.biomeSnow=息が凍てつくような空気の中で結露した...
 chat.warptheory.wanddrain=杖が少し温かくなった...
 chat.warptheory.witherpotion=最悪の気分になった...
+
+# << /warptheory command >>
+commands.warptheory.usage=/warptheory <event> [player]
+commands.warptheory.events=Invalid Syntax, available events are: %s
+commands.warptheory.additional=Additional commands: print purge
+commands.warptheory.noeffects=No active warp effects!
+commands.warptheory.purged=Purged %s!
+commands.warptheory.notfound=Could not find warp event: %s
+commands.warptheory.triggered=Triggered warp event: %s
 
 # << Research stuff >>
 tc.research_category.WT_Category=一般歪み理論 - Warp Theory
